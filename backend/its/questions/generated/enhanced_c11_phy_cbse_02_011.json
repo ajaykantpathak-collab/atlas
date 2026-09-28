@@ -34,6 +34,26 @@
      "q": "Design a real-world word problem (Indian context) that requires using TWO kinematic equations sequentially to solve. The problem must involve a change in acceleration (e.g., acceleration phase followed by deceleration phase). Write the problem statement and outline the solution strategy.",
      "a": "Example: \"A Metro train starts from rest at Station A and accelerates uniformly at 0.5 m/s² for 60 s. It then travels at constant speed for 120 s. Finally it decelerates uniformly at 0.4 m/s² to stop at Station B. Find the distance between stations and total time.\"\nStrategy: Phase 1 (accelerated): v₁ = u + at, s₁ = ut + ½at². Phase 2 (constant v): s₂ = v₁ × t₂. Phase 3 (decelerated): 0 = v₁² + 2(-a₃)s₃ → s₃. Total s = s₁+s₂+s₃. A poor answer uses only one equation for the whole journey, revealing inability to segment multi-stage motion.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Word problems in motion in a straight line are structured physics questions that describe a real-world kinematic scenario using verbal/textual ______, requiring the student to extract given quantities, identify unknowns, select appropriate kinematic equations (v = u + at, s = ut + ½at², v² = u² + 2as), and solve for the required physical quantities with correct SI units and sign conventions.",
+     "a": "information",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To solve any word problem, start by ______ the motion — is the object speeding up, slowing down, or changing direction?",
+     "a": "visualizing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Word problems in motion in a straight line are structured physics questions that describe a real-world kinematic scenario using verbal/textual information, requiring the student to extract given quantities, identify unknowns, select appropriate kinematic equations (v = u + at, s = ut + ½at², v² = u² + ______as), and solve for the required physical quantities with correct SI units and sign conventions.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently read a word problem, draw a labeled diagram with coordinate axes, list all given quantities with units and signs, choose the correct kinematic equation(s), solve algebraically for the unknown, verify dimensional consistency, and state the final answer with proper units and physical interpretation (e.g., \"the.",
+     "self_check": true
     }
    ]
   }

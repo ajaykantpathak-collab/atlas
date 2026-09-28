@@ -34,6 +34,21 @@
      "q": "Create a real-world scenario where knowing the area of a circle is more important than knowing its circumference.",
      "a": "A good answer would involve buying paint for a circular tabletop or choosing the size of a circular rug to cover a floor. An answer involving fences or rope refers to circumference, showing the student still confuses boundary length with internal space.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The area of a circle is the total amount of flat space ______ within its curved boundary.",
+     "a": "enclosed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your friend cut a ______ piece of card paper for a school project.",
+     "a": "circular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to calculate the area of a circle given its radius and identify that area is measured in square units.",
+     "self_check": true
     }
    ]
   }

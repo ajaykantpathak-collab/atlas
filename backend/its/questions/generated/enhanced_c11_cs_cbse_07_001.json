@@ -34,6 +34,26 @@
      "q": "Design a tuple structure to represent a 3D point in space with an optional label (e.g., \"origin\", \"vertex_A\"). The structure must support: (a) fixed coordinates (x, y, z), (b) an optional string label, and (c) immutability of coordinates. Show how to create two instances: one with a label and one without.",
      "a": "**Good answer:** Use a tuple with 3 or 4 elements where the last element is the optional label. Since tuples are immutable, coordinates cannot change.  \n```python\npoint1 = (0, 0, 0, \"origin\")      # with label\npoint2 = (1.5, -2.0, 3.7)         # without label\n```\n**Alternative:** Use a tuple of `(coordinates_tuple, label)` where `coordinates_tuple = (x, y, z)`.  \nA poor answer uses a list for coordinates, includes mutable structures, or tries to enforce optionality via `None` without explaining the design. This reveals inability to apply tuple properties to structure real-world data.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A tuple in Python is an ordered, immutable collection of elements that can store ______ data types and allows duplicate values.",
+     "a": "heterogeneous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a program to store the fixed dimensions of a rectangular box — length, width, and height — that should never change during the program's ______.",
+     "a": "execution",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can define a tuple, create tuples using parentheses and the tuple() constructor, explain the key properties (ordered, immutable, heterogeneous, allows duplicates), and differentiate tuples from lists with concrete examples.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a program to store the fixed dimensions of a ______ box — length, width, and height — that should never change during the program's execution.",
+     "a": "rectangular",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a simple hands-on classroom experiment using flexible plastic strips, a wooden skewer, and tape to demonstrate how Earth's rotation transforms a sphere into an oblate spheroid.",
      "a": "A successful design involves joining strips of flexible paper/plastic into a circular loop, attaching the top to a fixed point on a central wooden skewer, leaving the bottom loop free to slide up or down the skewer, and spinning the skewer rapidly between hands; as it spins, outward force pushes the middle bulge outwards, pulling the top down and flattening the shape. A poor answer that just spins a rigid ball fails to model deformation caused by rotational force.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Earth is an oblate spheroid (also ______ as a geoid), meaning it is a sphere flattened at the North and South Poles and bulging at the Equator.",
+     "a": "described",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: As the wheel spins rapidly, water droplets fly outward away from the center of rotation due to ______ effect.",
+     "a": "centrifugal",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how Earth's rotation creates an equatorial bulge and polar flattening, calculate basic geometric differences between equatorial and polar dimensions, and explain why a flat map cannot represent this three-dimensional shape without distortion.",
+     "self_check": true
     }
    ]
   }

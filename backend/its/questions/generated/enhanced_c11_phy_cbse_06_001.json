@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a metre scale, two identical coins, and a pencil to demonstrate that the centre of mass of a system shifts when mass distribution changes. Describe the procedure, what you measure, and how you locate the CM.",
      "a": "Procedure: Balance the metre scale horizontally on the pencil tip (fulcrum) - mark the balance point (CM of scale alone, at 50 cm). Place one coin at 10 cm mark, rebalance - new balance point shifts toward the coin. Place second coin at 90 cm mark, rebalance - CM shifts back toward centre. Measure each balance point position. The CM location is where the net torque is zero (principle of moments). A poor answer would just say \"balance the scale\" without explaining how the balance point relates to CM, or would not systematically vary mass positions to show the shift. A good answer connects the experimental balance point to the formula X_CM = Σ m_i x_i / Σ m_i.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The centre of mass of a system of particles is the unique point where the entire mass of the system can be considered to be concentrated for the purpose of analyzing its ______ motion under external forces.",
+     "a": "translational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan rotating in your classroom - the entire fan moves as one unit, yet each blade ______ follows a different circular path.",
+     "a": "particle",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the centre of mass coordinates for a system of discrete particles in 2D or 3D using the vector formula, and can locate the centre of mass of simple continuous symmetric bodies (rod, ring, disc, sphere) using symmetry arguments without integration.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan rotating in your ______ - the entire fan moves as one unit, yet each blade particle follows a different circular path.",
+     "a": "classroom",
+     "self_check": true
     }
    ]
   }

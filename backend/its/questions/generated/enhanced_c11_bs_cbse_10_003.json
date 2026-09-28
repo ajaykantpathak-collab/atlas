@@ -34,6 +34,31 @@
      "q": "Design a classification flowchart that starts with \"All Retailers\" and ends with the four types of itinerant retailers and four types of fixed-shop small retailers, using only NCERT classification bases (fixed place of business → size of operations). Show decision criteria at each branch.",
      "a": "Expected answer: All Retailers → (Branch 1: Fixed place of business?) → No → Itinerant Retailers → (Branch by mobility/operation style) → Peddlers/Hawkers, Market Traders, Street Traders, Cheap Jacks. Yes → Fixed Shop Retailers → (Branch 2: Size of operations?) → Small → General Stores, Speciality Shops, Street Stall Holders, Second-hand Goods Shops. Large → (covered in next nodes). Poor answer: mixing classification bases (e.g., splitting by 'product type' at first branch) reveals inability to follow NCERT's hierarchical classification logic — a frequent board exam mapping error.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Retail trade refers to the business activity of purchasing goods in relatively large quantities from wholesalers or ______ and selling them in small quantities directly to ultimate consumers for personal, non-business use, representing the final stage in the distribution chain where ownership transfers to the end-user.",
+     "a": "manufacturers",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you walk into your neighbourhood kirana store to buy a packet of biscuits — the shopkeeper sells you just one packet, not a whole carton, and you ______ it yourself.",
+     "a": "consume",
+     "self_check": true
+    },
+    {
+     "q": "What is Retail trade? State the definition given in this lesson.",
+     "a": "Retail trade refers to the business activity of purchasing goods in relatively large quantities from wholesalers or manufacturers and selling them in small quantities directly to ultimate consumers for personal, non-business use, representing the final stage in the distribution chain where ownership transfers to the end-user.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Retail trade?",
+     "a": "Students incorrectly believe that \"retailer = small shop\" and \"wholesaler = big shop/warehouse\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) distinguish retail trade from wholesale trade using at least three differentiating criteria (quantity, buyer type, position in distribution chain); (2) explain all five services of retailers to manufacturers/wholesalers and all six services to consumers with specific examples; (3) classify any given.",
+     "self_check": true
     }
    ]
   }

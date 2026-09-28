@@ -34,6 +34,31 @@
      "q": "Design a sinking fund redemption plan for a company that issued ₹5,00,00,000, 8% debentures on 1st April 2023, redeemable at par on 31st March 2028. The sinking fund earns 6% p.a. The sinking fund table factor for 5 years at 6% is 0.177396. The company wants to make annual contributions on 31st March each year. Provide: (a) Annual contribution amount; (b) Journal entries for the first two years (2023-24, 2024-25) including interest on investments at 6%; (c) DRR and 15% investment compliance dates and amounts.",
      "a": "(a) Annual contribution = ₹5,00,00,000 × 0.177396 = ₹88,69,800. (b) Year 1 (31 Mar 2024): Dr P&L Appropriation ₹88,69,800 Cr Sinking Fund ₹88,69,800; Dr Sinking Fund Investment ₹88,69,800 Cr Bank ₹88,69,800. Year 2 (31 Mar 2025): Dr P&L Appropriation ₹88,69,800 Cr Sinking Fund ₹88,69,800; Dr Bank ₹5,32,188 (6% on ₹88,69,800) Cr Sinking Fund ₹5,32,188; Dr Sinking Fund Investment ₹94,01,988 Cr Bank ₹94,01,988. (c) DRR: Must create 25% of ₹5,00,00,000 = ₹1,25,00,000 before redemption starts (i.e., by 31 Mar 2028). 15% Investment: By 30 April 2027, invest/deposit 15% of ₹5,00,00,000 = ₹75,00,000. A poor answer misses the reinvestment of interest in Year 2, or misstates DRR timing (must be *before* redemption, not at redemption), or calculates 15% on wrong base.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Sinking Fund Method is a systematic approach to debenture redemption where a company sets aside a fixed annual amount from profits, invests it in readily marketable securities (Sinking Fund ______), and uses the accumulated proceeds (principal plus interest) to redeem debentures at maturity.",
+     "a": "Investments",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a company, \"FutureTech Ltd.\", issued ₹50 lakh of 10% ______ redeemable after 5 years.",
+     "a": "debentures",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by understanding that the company must *plan* for redemption from Day ______.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Calculate the annual sinking fund contribution using the sinking fund table/annuity formula for a given redemption amount, rate of interest, and period; (2) Pass correct journal entries for creation of DRR, transfer to/from Sinking Fund, investment/realisation of Sinking Fund Investments, and redemption.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a company, \"______ Ltd.\", issued ₹50 lakh of 10% debentures redeemable after 5 years.",
+     "a": "FutureTech",
+     "self_check": true
     }
    ]
   }

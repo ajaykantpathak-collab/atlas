@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a metre scale, a rectangular block, and a balance to verify the error propagation rule for the product (area = length × breadth). Outline the measurements, calculations, and how you would compare the predicted error with the observed spread.",
      "a": "Measure length l and breadth b of the block 10 times each with the metre scale (least count 0.1 cm). Compute mean l̄, b̄ and standard deviations σ_l, σ_b (or use least count as error). Predict area error: ΔA_pred = Ā(σ_l/l̄ + σ_b/b̄). Compute the 10 area values A_i = l_i × b_i. Find the standard deviation σ_A_obs of these 10 areas. Compare σ_A_obs with ΔA_pred. They should be of similar order. A poor design (e.g., single measurement, ignoring least count, not repeating) reveals inability to translate the algebraic rule into an empirical verification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Combination of errors (propagation) is the set of rules used to determine the absolute or relative uncertainty in a calculated physical quantity based on the uncertainties in the directly measured quantities that are combined through mathematical operations (addition, subtraction, ______, division, or powers) to obtain the result.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you ______ the length and breadth of your physics notebook using a metre scale with 1 mm least count.",
+     "a": "measure",
+     "self_check": true
+    },
+    {
+     "q": "What is Combination of errors (propagation)? State the definition given in this lesson.",
+     "a": "Combination of errors (propagation) is the set of rules used to determine the absolute or relative uncertainty in a calculated physical quantity based on the uncertainties in the directly measured quantities that are combined through mathematical operations (addition, subtraction, multiplication, division, or powers) to obtain the result.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you measure the length and breadth of your physics notebook using a metre scale with ______ mm least count.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Combination of errors (propagation)?",
+     "a": "Students frequently add absolute errors directly for multiplication or division (e.g., for A = l×b, they write ΔA = Δl + Δb).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute the absolute and relative error in a derived quantity (e.g., area, volume, resistance, density) given the measured values and their least counts or absolute errors, and express the final result with the correct number of significant figures consistent with the propagated uncertainty.",
+     "self_check": true
     }
    ]
   }

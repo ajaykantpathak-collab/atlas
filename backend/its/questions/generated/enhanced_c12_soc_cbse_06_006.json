@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_06_006",
+   "title": "c12_soc_cbse_06_006",
+   "questions": [
+    {
+     "q": "Define 'vote-bank politics' in the Indian context and explain why the First-Past-The-Post (FPTP) electoral system structurally incentivises caste-based vote-bank formation.",
+     "a": "Vote-bank politics is the strategic mobilisation of a socially cohesive group (like a caste) that votes en bloc in exchange for targeted material/symbolic benefits. FPTP incentivises this because: (1) a party needs only a plurality (not majority) in each constituency; (2) castes are often geographically concentrated, making them efficient 'minimum winning coalitions'; (3) the cost of persuading a cohesive group is lower than persuading dispersed individuals. A wrong answer that defines vote-bank merely as 'caste voting' without the quid-pro-quo exchange or misses the FPTP-mechanical link reveals the student sees caste politics as cultural preference rather than rational strategic calculation by parties and voters.",
+     "self_check": true
+    },
+    {
+     "q": "M.N. Srinivas distinguished between 'caste in politics' and 'politics in caste'. Using the example of the Bahujan Samaj Party (BSP), explain how BSP illustrates 'politics in caste' — i.e., how political competition reshaped caste identity itself.",
+     "a": "'Caste in politics' = pre-existing caste groups entering politics (e.g., dominant castes controlling local bodies). 'Politics in caste' = politics creating new caste identities. BSP did the latter: Kanshi Ram fused hundreds of disparate Dalit jatis (Chamar, Balmiki, Pasi, etc.) into a single political identity 'Bahujan' (majority) by defining them against 'Manuvadi' oppressors. This was not a pre-existing social unity — it was politically constructed through symbols (Ambedkar statues, Kanshi Ram's 'chamcha' rhetoric), electoral arithmetic (targeting reserved seats), and power-sharing (chief ministership for Mayawati). A student who says 'BSP united Dalits because they share untouchability' misses that Dalit jatis historically practised untouchability *among themselves* — the unity was politically engineered, not socially given.",
+     "self_check": true
+    },
+    {
+     "q": "In a hypothetical constituency with 100,000 voters: 35% Yadav (OBC), 25% Jatav (SC), 20% Brahmin (General), 10% Muslim, 10% Other OBC. Party A fields a Yadav candidate and secures 90% Yadav + 80% Jatav votes. Party B fields a Brahmin candidate and secures 85% Brahmin + 70% Muslim + 50% Other OBC votes. Calculate each party's vote share and winner. Then explain why Party A's strategy is more 'efficient' in FPTP terms.",
+     "a": "Party A: (0.90×35,000) + (0.80×25,000) = 31,500 + 20,000 = 51,500 votes (51.5%). Party B: (0.85×20,000) + (0.70×10,000) + (0.50×10,000) = 17,000 + 7,000 + 5,000 = 29,000 votes (29%). Party A wins with 51.5% vs 29%. Party A's strategy is more efficient because it targets two *large, cohesive, geographically concentrated* groups (Yadav+Jatav = 60% of electorate) needing only high turnout within them. Party B must stitch together three smaller, less cohesive groups. A wrong answer calculating votes correctly but missing the 'cohesion + concentration = lower mobilisation cost' point treats FPTP as mere arithmetic, not strategic coalition-building.",
+     "self_check": true
+    },
+    {
+     "q": "The Mandal Commission (1980) recommended 27% OBC reservations in central government jobs. V.P. Singh implemented it in 1990. Analyse how this decision transformed the *structure* of caste politics in North India, specifically addressing: (a) the shift from 'forward vs backward' to 'OBC vs Dalit' competition, and (b) why it enabled the rise of caste-based parties like SP and RJD.",
+     "a": "(a) Pre-Mandal: Congress mediated 'forward (upper caste) vs backward (OBC/SC)' conflict. Post-Mandal: OBCs gained independent political voice — they no longer needed Congress as patron. The new cleavage became OBC (now empowered by quotas) vs Dalit (SC/ST, with separate quotas), leading to SP (Yadav-led) vs BSP (Jatav-led) rivalry in UP. (b) Mandal created a *resource* (government jobs) that only a party controlling state power could distribute. This gave OBC leaders (Mulayam, Lalu) an organisational base: they could deliver jobs to their caste fellows, building a loyal cadre. A student who says 'Mandal gave OBCs reservations so they voted for OBC parties' misses the *organisational* mechanism — quotas created a patronage pipeline that *sustained* party machines, not just a one-time electoral swing.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Caste-based vote-bank politics has deepened Indian democracy by giving marginalised groups political voice and state resources, even if it reinforces caste identities.\" Use the concepts of 'substantive representation' and 'creamy layer' to structure your critique.",
+     "a": "The argument has merit but is incomplete. Merit: Caste parties forced the state to redistribute resources (land, jobs, welfare) to Dalits/OBCs — substantive representation (outcomes) not just descriptive (faces in parliament). BSP's rule in UP saw unprecedented Dalit police recruitment, land distribution, and Ambedkar parks — tangible dignity gains. Critique: (1) 'Creamy layer' within OBCs/Dalits captures most benefits (e.g., Yadavs/Jatavs dominate SP/BSP patronage), leaving poorer sub-castes (Pasis, Musahars) excluded — intra-caste inequality reproduces. (2) Caste parties often become family fiefdoms (Yadav clan in SP, Mayawati's succession in BSP), undermining intra-party democracy. (3) Identity politics crowds out class-based demands (land reform, labour rights). A student who only praises 'voice for marginalised' ignores how vote-bank politics can *entrench* hierarchy by making caste the *only* political currency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research question and a two-method strategy (one quantitative, one qualitative) to test whether 'caste vote-banks' are stable or fluid in a specific state (e.g., Bihar 2005-2024). Specify the data sources, variables, and how you would distinguish 'caste voting' from 'caste-influenced voting'.",
+     "a": "Research question: \"Did the Nitish Kumar-led JD(U)-BJP alliance's 'social engineering' (targeting non-Yadav OBCs + Mahadalits) permanently fracture the Yadav-Muslim (MY) vote-bank in Bihar, or was 2005-2010 a temporary realignment?\" Quantitative: CSDS-Lokniti National Election Study panel data (2005, 2010, 2015, 2020, 2024) — dependent variable: vote choice; independent: caste (jati), class (income/land), religion, welfare scheme access. Test interaction: caste×scheme_access. Qualitative: 50 semi-structured interviews in 2 villages (one Yadav-dominant, one Kurmi-dominant) tracing voting narratives across elections. Distinguish 'caste voting' (vote = caste identity, invariant) from 'caste-influenced' (vote = caste + performance + leadership) by checking if voters *switch* when a co-ethnic candidate is corrupt vs clean. A poor design uses only cross-sectional data (cannot track stability) or treats 'OBC' as monolithic (ignores intra-OBC fragmentation).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Casteism in politics refers to the ______ of caste identities as a primary basis for political organisation, electoral competition, and distribution of state resources, where caste becomes a coherent vote-bank that parties cultivate through targeted promises, reservations, and patronage, transforming a traditional social hierarchy into a modern political identity.",
+     "a": "mobilisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing the 2024 Lok Sabha election results in Uttar Pradesh: a party wins 60% of seats with only 40% vote share because it ______ consolidated the Yadav (OBC) and Jatav (SC) vote-banks while the opposition fragmented the upper-caste vote.",
+     "a": "successfully",
+     "self_check": true
+    },
+    {
+     "q": "What is Casteism in politics? State the definition given in this lesson.",
+     "a": "Casteism in politics refers to the mobilisation of caste identities as a primary basis for political organisation, electoral competition, and distribution of state resources, where caste becomes a coherent vote-bank that parties cultivate through targeted promises, reservations, and patronage, transforming a traditional social hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Casteism in politics?",
+     "a": "Students conflate 'caste politics' with 'casteism' as a moral failing of voters.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) distinguish between 'caste in politics' (caste influencing political behaviour) and 'politics in caste' (politics reshaping caste identities), (2) explain how the First-Past-The-Post system incentivises caste-based vote-bank consolidation, and (3) evaluate the tension between caste-based affirmative action.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

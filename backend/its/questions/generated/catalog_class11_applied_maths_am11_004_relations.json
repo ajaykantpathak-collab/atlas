@@ -4,15 +4,9 @@
   {
    "id": "am11_004.1",
    "title": "Ordered Pairs and Their Equality",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 5 gives 5",
-     "compute": "count = 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "a = c and b = d when (a, b) = (c, d)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 5 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -50,6 +44,8 @@
    "id": "am11_004.2",
    "title": "Cartesian Product and Its Size",
    "converted_to_compute": false,
+   "formula": "pairs_count = p * q",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 2 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -87,6 +83,8 @@
    "id": "am11_004.3",
    "title": "Counting Subsets and Relations of a Product",
    "converted_to_compute": false,
+   "formula": "rel_count = 2**(p * q)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A canteen offers 4 drinks and 3 snacks. How many drink-snack combos are possible (rule of product)?",
@@ -123,15 +121,9 @@
   {
    "id": "am11_004.4",
    "title": "Relations with Domain, Range and Co-domain",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 2 gives 2",
-     "compute": "count = 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "domain = {x : (x, y) sits in R}",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 2 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -168,15 +160,9 @@
   {
    "id": "am11_004.5",
    "title": "Reflexive, Symmetric, Transitive and Equivalence Relations",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 5 gives 5",
-     "compute": "count = 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "reflexive_plus_symmetric_plus_transitive = equivalence",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 5 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -213,15 +199,9 @@
   {
    "id": "am11_004.6",
    "title": "Functions as Unique-Image Relations",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 3 gives 3",
-     "compute": "count = 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "function = one image per domain element",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 3 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -258,15 +238,9 @@
   {
    "id": "am11_004.7",
    "title": "Domain and Range of Simple Real Functions",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 5 gives 5",
-     "compute": "count = 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "y = x**2 gives y >= 0",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 5 elements. How many elements are in its identity relation (a, a) for every element?",

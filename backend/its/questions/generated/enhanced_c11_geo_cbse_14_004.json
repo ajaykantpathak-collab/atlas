@@ -34,6 +34,36 @@
      "q": "Design a **transect-based field study** to map the ecotone between Tropical Dry Deciduous Forest and Tropical Thorn Forest along a rainfall gradient in the Deccan Plateau (e.g., Pune → Solapur). Specify: (a) the primary environmental gradient to sample, (b) three quantitative vegetation parameters to measure at each plot, (c) the expected threshold value for the transition, and (d) how you would distinguish a **climatic ecotone** from a **disturbance-induced boundary**.",
      "a": "**Expected Answer Criteria:**  \n(a) **Primary Gradient:** Mean Annual Rainfall (decreasing from ~80 cm to ~50 cm) — use IMD gridded data to locate plots at 5 cm intervals.  \n(b) **Quantitative Parameters:**  \n   1. **Canopy Cover (%)** — measured by densiometer (threshold: drop from >40% to <10%).  \n   2. **Basal Area of Xerophytic vs. Mesophytic Species (m²/ha)** — ratio shifts from <0.5 to >2.0.  \n   3. **Mean Tree Height (m)** — drops from 15-20 m to 5-8 m.  \n(c) **Transition Threshold:** **70 cm annual rainfall isohyet** — confirmed by abrupt change in all three parameters within a 5-10 km zone.  \n(d) **Climatic vs. Disturbance Boundary:**  \n   - **Climatic ecotone:** Gradual species turnover over 10-20 km, correlated with rainfall gradient; soil depth/texture similar on both sides; seedlings of both types present but only climatically suited ones survive.  \n   - **Disturbance boundary:** Sharp edge (<100 m) along a fence/road; same climate/soil on both sides; thorn species invading deciduous side due to grazing/fire; deciduous seedlings absent only on disturbed side.  \n\n**Poor Answer Reveals:** Listing only \"rainfall\" without quantitative vegetation metrics, or suggesting the boundary is at a fixed distance from a city (confusing anthropogenic edge with climatic ecotone).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Tropical Thorn Forests and Scrubs are a vegetation type ______ by open, low-density stands of stunted, xerophytic trees and thorny shrubs, typically found in regions receiving less than 70 cm of annual rainfall with mean annual temperatures above 25°C.",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine driving from Jaipur to ______ in May: the lush *teak* and *sal* of the Aravalli foothills vanish, replaced by scattered *babul* trees with umbrella crowns, thorny *kair* bushes, and bare ground between plants.",
+     "a": "Jaisalmer",
+     "self_check": true
+    },
+    {
+     "q": "What is Tropical Thorn Forests and Scrubs? State the definition given in this lesson.",
+     "a": "Tropical Thorn Forests and Scrubs are a vegetation type characterized by open, low-density stands of stunted, xerophytic trees and thorny shrubs, typically found in regions receiving less than 70 cm of annual rainfall with mean annual temperatures above 25°C.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by plotting the ______ cm isohyet on an India rainfall map — everything west of it in the plains is thorn forest territory.",
+     "a": "70",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Tropical Thorn Forests and Scrubs?",
+     "a": "\"Tropical Thorn Forests are just 'degraded Dry Deciduous Forests' caused by excessive grazing and cutting.\" This is the most pervasive Class 11 error.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) delineate the climatic envelope (rainfall < 70 cm, temperature > 25°C) on a climatic map of India, (2) identify the core distribution belt (Western Rajasthan, Kutch, Saurashtra, rain-shadow Deccan) on an outline map, (3) list 5+ characteristic genera with their specific xerophytic adaptations, and (4) differentiate.",
+     "self_check": true
     }
    ]
   }

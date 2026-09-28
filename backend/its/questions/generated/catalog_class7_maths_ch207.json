@@ -4,15 +4,9 @@
   {
    "id": "gegp.7.1.1",
    "title": "Algebraic Equation and Verification of Solution",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the congruence condition and angle sums",
-     "explain": "use the congruence condition and angle sums: third = 180 - 64 - 31 gives 85",
-     "compute": "third = 180 - 64 - 31"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "lhs = rhs",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two triangles are congruent. In triangle one the angles are 64 and 31 degrees; the third angle is what? (The third angles must match.)",
@@ -50,6 +44,8 @@
    "id": "gegp.7.2.1",
    "title": "Solving Two-Step Linear Equations (Ax + B = C)",
    "converted_to_compute": false,
+   "formula": "x = (c - b) / a",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 4x + 5 = 49.",
@@ -87,6 +83,8 @@
    "id": "gegp.7.2.2",
    "title": "Solving Equations with Variables on Both Sides",
    "converted_to_compute": false,
+   "formula": "x = (d - b) / (a - c)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 4 when x = 2.",
@@ -124,6 +122,8 @@
    "id": "gegp.7.2.3",
    "title": "Fixed Charge and Unit Cost Word Problems",
    "converted_to_compute": false,
+   "formula": "units = (total_amount - fixed_charge) / unit_cost",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 2x + 1 = 15.",
@@ -161,6 +161,8 @@
    "id": "gegp.7.2.4",
    "title": "Finding Position in Linear Pattern Sequence",
    "converted_to_compute": false,
+   "formula": "position = (total_items - intercept) / multiplier",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 5th term of the AP with first term 7 and common difference 2.",
@@ -198,6 +200,8 @@
    "id": "gegp.7.2.5",
    "title": "Solving Linear Equations with Parentheses",
    "converted_to_compute": false,
+   "formula": "x = ((d - c) / a) - b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 5x + 13 = 73.",
@@ -234,15 +238,9 @@
   {
    "id": "gegp.7.3.1",
    "title": "Identifying and Correcting Algebraic Errors",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the congruence condition and angle sums",
-     "explain": "use the congruence condition and angle sums: third = 180 - 53 - 40 gives 87",
-     "compute": "third = 180 - 53 - 40"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "lhs = rhs step checks",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two triangles are congruent. In triangle one the angles are 53 and 40 degrees; the third angle is what? (The third angles must match.)",
@@ -280,6 +278,8 @@
    "id": "gegp.7.4.1",
    "title": "Brahmagupta Method for Ax + B = Cx + D",
    "converted_to_compute": false,
+   "formula": "x = (d - b) / (a - c)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers -2 and -7.",

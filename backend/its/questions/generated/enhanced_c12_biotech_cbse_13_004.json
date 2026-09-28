@@ -34,6 +34,36 @@
      "q": "Design a **Tier II confined field trial** protocol to test the hypothesis: \"GM mustard (barnase/barstar) pollen does not reduce fertility in honeybee (Apis mellifera) colonies foraging during flowering.\" Specify: (a) experimental design (treatments, replicates), (b) exposure verification, (c) key endpoints, (d) statistical power consideration.",
      "a": "**Good answer criteria:**  \n(a) **Design:** Randomized complete block, 4 treatments × 6 replicates = 24 plots (10m × 10m): T1 = GM mustard, T2 = non-GM parental line (comparator), T3 = non-GM + spiked barnase protein (positive control), T4 = no crop (negative control). Colonies (standardized: 5 frames, queen-right) placed at plot center at 10% bloom.  \n(b) **Exposure verification:** Pollen traps on hives → quantify % GM pollen (event-specific qPCR) + barnase protein ELISA in bee bread.  \n(c) **Endpoints:** Primary = colony strength (brood area cm², adult bee count) at 21 days post-bloom; Secondary = queen survival, pollen diversity (metabarcoding), hypopharyngeal gland size.  \n(d) **Power:** Detect 20% reduction in brood area (SD=15%) at α=0.05, power=0.8 → n≥6 per treatment (G*Power calculation cited).  \n**Poor answers** omit positive control, use non-standardized colonies, measure only honey yield (lagging indicator), or ignore power analysis — revealing misunderstanding of **hypothesis-driven, statistically rigorous** Tier II design.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ Impact Assessment (EIA) of GMOs is a systematic, science-based process that evaluates the potential adverse effects of a genetically modified organism on biodiversity, non-target species, soil health, and ecosystem stability before its commercial release, using comparative analysis with the non-GM counterpart as the baseline.",
+     "a": "Environmental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a member of the Genetic ______ Appraisal Committee (GEAC) reviewing an application for GM mustard (DMH-11) — a crop that could reduce India's ₹1.5 lakh crore edible oil import bill.",
+     "a": "Engineering",
+     "self_check": true
+    },
+    {
+     "q": "What is Environmental Impact Assessment (EIA) of GMOs? State the definition given in this lesson.",
+     "a": "Environmental Impact Assessment (EIA) of GMOs is a systematic, science-based process that evaluates the potential adverse effects of a genetically modified organism on biodiversity, non-target species, soil health, and ecosystem stability before its commercial release, using comparative analysis with the non-GM counterpart as the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by listing the five risk hypotheses: (______) Will the transgene escape to wild mustard (Brassica juncea × Brassica rapa)?",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Environmental Impact Assessment (EIA) of GMOs?",
+     "a": "\"Risk assessment = Hazard identification only.\" Students equate \"hazard\" (inherent potential to cause harm, e.g., \"Cry protein is toxic to Lepidoptera\") with \"risk\" (probability of harm under real exposure).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Identify and explain the five core environmental risk categories for GM crops (gene flow, non-target effects, resistance evolution, soil ecology, invasiveness) with specific Indian examples; (2) Apply the tiered risk assessment framework (Tier I: lab, Tier II: confined field, Tier III: multi-location.",
+     "self_check": true
     }
    ]
   }

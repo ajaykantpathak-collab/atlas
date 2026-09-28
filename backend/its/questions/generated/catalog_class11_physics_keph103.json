@@ -1,0 +1,146 @@
+{
+ "catalog": "catalog_class11_physics_keph103.json",
+ "concepts": [
+  {
+   "id": "keph103.3.5.1",
+   "title": "Resolution into Components and Vector Magnitude",
+   "converted_to_compute": true,
+   "formula": "magnitude = sqrt(comp_x ** 2 + comp_y ** 2)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "magnitude = sqrt(comp_x ** 2 + comp_y ** 2)",
+     "compute": "magnitude = sqrt(comp_x ** 2 + comp_y ** 2)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Resolution into Components and Vector Magnitude: given comp_x = 37, comp_y = 73, find magnitude.",
+     "a": "81.8413",
+     "self_check": false
+    },
+    {
+     "q": "For Resolution into Components and Vector Magnitude: given comp_x = 43, comp_y = 3.6, find magnitude.",
+     "a": "43.1504",
+     "self_check": false
+    },
+    {
+     "q": "For Resolution into Components and Vector Magnitude: given comp_x = 24, comp_y = 55, find magnitude.",
+     "a": "60.0083",
+     "self_check": false
+    },
+    {
+     "q": "For Resolution into Components and Vector Magnitude: given comp_x = 72, comp_y = 32, find magnitude.",
+     "a": "78.7909",
+     "self_check": false
+    },
+    {
+     "q": "For Resolution into Components and Vector Magnitude: given comp_x = 23, comp_y = 56, find magnitude.",
+     "a": "60.5392",
+     "self_check": false
+    },
+    {
+     "q": "For Resolution into Components and Vector Magnitude: given comp_x = 55, comp_y = 4.9, find magnitude.",
+     "a": "55.2178",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph103.3.9.1",
+   "title": "Projectile Motion: Range and Time of Flight",
+   "converted_to_compute": true,
+   "formula": "flight_time = 2 * v_comp / gravity",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "flight_time = 2 * v_comp / gravity",
+     "compute": "flight_time = 2 * v_comp / gravity"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Projectile Motion: Range and Time of Flight: given v_comp = 88, gravity = 73, find flight time.",
+     "a": "2.41096",
+     "self_check": false
+    },
+    {
+     "q": "For Projectile Motion: Range and Time of Flight: given v_comp = 11.1, gravity = 4.2, find flight time.",
+     "a": "5.28571",
+     "self_check": false
+    },
+    {
+     "q": "For Projectile Motion: Range and Time of Flight: given v_comp = 34, gravity = 43, find flight time.",
+     "a": "1.5814",
+     "self_check": false
+    },
+    {
+     "q": "For Projectile Motion: Range and Time of Flight: given v_comp = 34, gravity = 88, find flight time.",
+     "a": "0.772727",
+     "self_check": false
+    },
+    {
+     "q": "For Projectile Motion: Range and Time of Flight: given v_comp = 65, gravity = 24, find flight time.",
+     "a": "5.41667",
+     "self_check": false
+    },
+    {
+     "q": "For Projectile Motion: Range and Time of Flight: given v_comp = 44, gravity = 78, find flight time.",
+     "a": "1.12821",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph103.3.10.1",
+   "title": "Uniform Circular Motion and Centripetal Acceleration",
+   "converted_to_compute": true,
+   "formula": "centripetal = speed ** 2 / radius",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "centripetal = speed ** 2 / radius",
+     "compute": "centripetal = speed ** 2 / radius"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Uniform Circular Motion and Centripetal Acceleration: given speed = 45, radius = 38, find centripetal.",
+     "a": "53.2895",
+     "self_check": false
+    },
+    {
+     "q": "For Uniform Circular Motion and Centripetal Acceleration: given speed = 103, radius = 8.9, find centripetal.",
+     "a": "1192.02",
+     "self_check": false
+    },
+    {
+     "q": "For Uniform Circular Motion and Centripetal Acceleration: given speed = 54, radius = 3.2, find centripetal.",
+     "a": "911.25",
+     "self_check": false
+    },
+    {
+     "q": "For Uniform Circular Motion and Centripetal Acceleration: given speed = 21, radius = 9.4, find centripetal.",
+     "a": "46.9149",
+     "self_check": false
+    },
+    {
+     "q": "For Uniform Circular Motion and Centripetal Acceleration: given speed = 28, radius = 16.5, find centripetal.",
+     "a": "47.5152",
+     "self_check": false
+    },
+    {
+     "q": "For Uniform Circular Motion and Centripetal Acceleration: given speed = 75, radius = 47, find centripetal.",
+     "a": "119.681",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

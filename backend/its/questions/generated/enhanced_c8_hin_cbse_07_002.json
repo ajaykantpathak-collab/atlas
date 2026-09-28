@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_hin_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c8_hin_cbse_07_002",
+   "title": "c8_hin_cbse_07_002",
+   "questions": [
+    {
+     "q": "कथानक (plot) और आख्यान-संरचना (narrative structure) में मूल अंतर क्या है? एक वाक्य में लिखें।",
+     "a": "**Correct answer:** कथानक घटनाओं का कालानुक्रमिक कारण-कार्य क्रम है (क्या हुआ), जबकि आख्यान-संरचना लेखक द्वारा चुना गया प्रस्तुति क्रम है (कैसे बताया गया)।  \n**What a wrong answer reveals:** If a student says \"both are the same\" or \"structure is just the beginning-middle-end,\" they are confusing *content* with *form*. They haven't grasped that structure is a deliberate authorial device — like choosing to tell a joke by giving the punchline first.",
+     "self_check": true
+    },
+    {
+     "q": "एक कहानी में लेखक चरमोत्कर्ष (climax) को शुरुआत में दिखाता है, फिर फ्लैशबैक में बताता है कि वहां तक कैसे पहुंचे। यह कौन-सी संरचनात्मक युक्ति है और इसका पाठक पर क्या प्रभाव पड़ता है?",
+     "a": "**Correct answer:** यह **इन मीडिया रेस (in medias res)** या **अनुक्रमभंग (anachrony/flashback)** संरचना है। प्रभाव: पाठक में तत्काल जिज्ञासा (curiosity) और तनाव (tension) पैदा होता है — वह जानना चाहता है *\"यह स्थिति कैसे आई?\"*  \n**What a wrong answer reveals:** If the student only names \"flashback\" but cannot explain the *reader-effect* (curiosity, irony, empathy), they are treating structure as a label, not a functional choice. They need to connect technique to emotional outcome.",
+     "self_check": true
+    },
+    {
+     "q": "नीचे दी गई कहानी की घटनाओं को **कालानुक्रमिक क्रम (plot timeline)** और **प्रस्तुति क्रम (narrative order)** में अलग-अलग लिखें:  \n*कहानी:* \"रामू ने सुबह दफ्तर जाकर बॉस से झगड़ा किया। दोपहर को वह घर लौटा और पत्नी को बताया कि नौकरी चली गई। रात को उसने पुरानी डायरी खोली — दस साल पहले का दृश्य: वह पहली बार इंटरव्यू दे रहा था, घबराया हुआ। फिर वर्तमान में: उसने फैसला किया, नया काम ढूंढेगा।\"",
+     "a": "**Correct answer:**  \n**Plot Timeline (कालानुक्रमिक):**  \n1. दस साल पहले: पहला इंटरव्यू (घबराहट)  \n2. आज सुबह: दफ्तर में झगड़ा  \n3. दोपहर: घर आकर पत्नी को बताया  \n4. रात: डायरी खोली, याद आया  \n5. रात (बाद में): नया काम ढूंढने का फैसला  \n\n**Narrative Order (प्रस्तुति क्रम):**  \n1. आज सुबह: झगड़ा  \n2. दोपहर: पत्नी को बताया  \n3. रात: डायरी खोली → फ्लैशबैक (दस साल पहले का इंटरव्यू)  \n4. वर्तमान में वापसी: फैसला  \n\n**What a wrong answer reveals:** If the student merges both lists or puts the interview first in *both*, they cannot separate *story-time* from *discourse-time*. This is the core analytical skill — they need practice mapping two parallel timelines.",
+     "self_check": true
+    },
+    {
+     "q": "दो कहानियों का चरमोत्कर्ष (climax) एक ही है: \"नायक सच बोलता है और नौकरी खो देता है।\"  \nकहानी A: रैखिक (linear) — बचपन से नौकरी तक क्रमवार, अंत में चरमोत्कर्ष।  \nकहानी B: वृत्ताकार (circular) — चरमोत्कर्ष से शुरू, फिर फ्लैशबैक, अंत में फिर वही चरमोत्कर्ष दोहराया जाता है।  \nदोनों में **पाठक की सहानुभूति (empathy)** कैसे भिन्न होगी? विश्लेषण करें।",
+     "a": "**Correct answer:**  \nकहानी A में सहानुभूति **क्रमिक निर्माण (gradual build-up)** से आती है — पाठक नायक की ईमानदारी की यात्रा देखता है, इसलिए अंत का बलिदान *अर्जित (earned)* लगता है।  \nकहानी B में सहानुभूति **विडंबना और पूर्वाभास (irony & foreshadowing)** से आती है — पाठक को *पता* है अंत क्या होगा, इसलिए हर फ्लैशबैक दृश्य में वह नायक की मासूमियत देखते हुए *डर* महसूस करता है (\"उसे मत करो, अंत बुरा होगा\")। यह **ट्रैजिक आयरनी (tragic irony)** पैदा करता है।  \n**What a wrong answer reveals:** If the student says \"both create same sympathy\" or only describes plot differences, they miss that *structure shapes emotion*. They need to see structure as an *empathy-engineering tool*.",
+     "self_check": true
+    },
+    {
+     "q": "एक आलोचक कहता है: *\"गैर-रैखिक संरचना (non-linear structure) केवल पाठक को भ्रमित करती है; सरल रैखिक कहानी अधिक प्रभावी होती है।\"* इस कथन का मूल्यांकन करें — सहमत हैं या असहमत? पाठ्य-पुस्तक की किसी कहानी का उदाहरण देकर तर्क दें।",
+     "a": "**Correct answer:** **असहमत।** गैर-रैखिक संरचना भ्रम नहीं, **गहन अर्थ (layered meaning)** रचती है। उदाहरण: पाठ्य-पुस्तक की कहानी *[insert chapter story title]* में, लेखक नायक के वर्तमान पतन को उसके बचपन के सपने के साथ रखता है। रैखिक होता तो सपना केवल \"अतीत\" होता; फ्लैशबैक में साथ रखने से **विडंबना (irony)** उभरती है — सपना कितना दूर रह गया। यह तुलना रैखिक क्रम में असंभव थी।  \n**What a wrong answer reveals:** If the student agrees or gives a vague \"it depends,\" they haven't experienced how structure *creates* meaning. They need to analyze a specific textual juxtaposition to see structure as meaning-making, not decoration.",
+     "self_check": true
+    },
+    {
+     "q": "अपने जीवन की एक छोटी घटना (जैसे: पहली बार साइकिल चलाना, परीक्षा परिणाम देखना) लें। उसे **दो अलग-अलग संरचनाओं** में लिखें:  \n1. रैखिक (शुरुआत → मध्य → अंत)  \n2. फ्लैशबैक से शुरू (चरमोत्कर्ष पहले, फिर अतीत)  \nदोनों संस्करणों में पाठक की प्रतिक्रिया में क्या अंतर होगा? एक पैराग्राफ में समझाएं।",
+     "a": "**Expected answer criteria:**  \n- Version 1 (रैखिक): पाठक **यात्रा का साझेदार** बनता है — संघर्ष, सीख, विजय महसूस करता है।  \n- Version 2 (फ्लैशबैक): पाठक **परिणाम जानकर** अतीत पढ़ता है — हर गलती पर *\"अरे, यही कारण था!\"* की अंतर्दृष्टि (insight) मिलती है।  \n- अंतर स्पष्ट हो: रैखिक = **अनुभव (experience)**; फ्लैशबैक = **विश्लेषण (analysis)**।  \n**What a poor answer reveals:** If both versions feel \"same\" or the student only changes sentence order without shifting *focus* (e.g., still describing learning process in flashback version), they haven't internalized that structure *redirects attention*. They need to write both and read aloud to hear the difference.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

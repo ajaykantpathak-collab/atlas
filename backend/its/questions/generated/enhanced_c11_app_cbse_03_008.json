@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_03_008",
+   "title": "c11_app_cbse_03_008",
+   "questions": [
+    {
+     "q": "Write the interval notation for the set **{x : x ∈ R, -5 ≤ x < 3}** and state whether the endpoints -5 and 3 are included or excluded.",
+     "a": "**Answer: [-5, 3). Endpoint -5 is included (square bracket), endpoint 3 is excluded (round bracket).**\nA wrong answer like **(-5, 3]** reveals the student has reversed the bracket logic — they think round bracket means \"include\" or they confuse which symbol corresponds to which inequality. A wrong answer like **[-5, 3]** reveals they think both ≤ and < are represented by square brackets, missing the distinction between weak and strict inequalities.",
+     "self_check": true
+    },
+    {
+     "q": "The interval **(2, 7]** is given. A student claims: \"The number 2 belongs to this interval because it's the starting point.\" Is the student correct? Explain why or why not using the definition of open/closed intervals.",
+     "a": "**Answer: The student is incorrect. The round bracket ( at 2 means 2 is EXCLUDED. The interval contains all real numbers strictly greater than 2 and less than or equal to 7.**\nA wrong answer (\"Yes, 2 is included\") reveals the fundamental misconception that the left endpoint is always included regardless of bracket type, or that \"starting point\" implies membership. This confusion often stems from thinking of intervals as discrete lists like {2, 3, 4, 5, 6, 7} rather than continuous sets of real numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Convert the interval **[-4, ∞)** into set-builder notation and sketch its graphical representation on a number line. What is the length of this interval?",
+     "a": "**Answer: Set-builder: {x : x ∈ R, x ≥ -4}. Graph: Filled circle at -4, shaded ray extending rightwards infinitely. Length: Not defined (infinite).**\nA wrong set-builder like **{x : x > -4}** reveals confusion between **≥** (square bracket) and **>** (round bracket). A wrong graph with an open circle at -4 reveals the same bracket misconception. A numerical answer for length (e.g., \"∞\") reveals the student doesn't know length is only defined for **finite** intervals (b - a where a, b ∈ R).",
+     "self_check": true
+    },
+    {
+     "q": "Consider the intervals **A = [1, 5)** and **B = (1, 5]**. Are A and B equal sets? If not, give a specific real number that belongs to one but not the other, and explain which interval it belongs to.",
+     "a": "**Answer: A ≠ B. The number 1 belongs to A (since A includes 1 via [ ) but not to B (since B excludes 1 via ( ). The number 5 belongs to B (since B includes 5 via ] ) but not to A (since A excludes 5 via ) ).**\nA wrong answer (\"Yes, they are equal because both go from 1 to 5\") reveals the student treats intervals as unordered ranges ignoring endpoint inclusion — a discrete-set mindset. They fail to analyze the **logical structure** of the defining inequalities: **1 ≤ x < 5** vs **1 < x ≤ 5**.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 11 student writes the solution set of **|x - 2| < 3** as **[ -1, 5 ]**. Evaluate this answer. Is it correct? If not, what is the correct interval and what conceptual error did the student make?",
+     "a": "**Answer: Incorrect. The correct interval is **( -1, 5 )**. The inequality |x - 2| < 3 means -3 < x - 2 < 3 → -1 < x < 5. Since both inequalities are strict (<), both endpoints are excluded → round brackets. The student used square brackets, likely confusing |x - 2| < 3 with |x - 2| ≤ 3, or thinking \"distance less than 3\" includes the boundary points at distance exactly 3.**\nThis error reveals a deeper confusion between **strict** and **non-strict** inequalities when translating from absolute value or compound inequalities to interval notation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where a semi-open interval **[a, b)** or **(a, b]** naturally arises. Define the variable, the endpoints a and b with units, and explain why one endpoint is included while the other is excluded.",
+     "a": "**Example answer: \"A Delhi Metro train runs every 10 minutes from 6:00 AM to 11:00 PM. Let x be the time (in minutes past midnight) a passenger arrives at the station. The operating interval is **[360, 1380)** minutes. 360 (6:00 AM) is included because the first train departs exactly at 6:00. 1380 (11:00 PM) is excluded because the last train departs at 10:50 PM (1370 mins) and the station closes at 11:00 PM — arriving exactly at 11:00 PM means no train.\"**\nA poor answer uses discrete times (e.g., \"train at 6, 6:10, 6:20...\") or includes both endpoints without justification, showing inability to map continuous real-world constraints to interval types.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

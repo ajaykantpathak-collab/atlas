@@ -34,6 +34,31 @@
      "q": "Design a memory system for a Mars rover that must: (a) survive radiation-induced bit flips, (b) retain science data during 6-month communication blackouts, (c) allow in-flight firmware patches from Earth. Specify RAM type, ROM type, and one additional technology with justification.",
      "a": "Use radiation-hardened SRAM (ECC-protected) for main memory — SRAM's latch-up immunity and ECC correct bit flips. Use MRAM (Magnetoresistive RAM) or radiation-hardened EEPROM for firmware — non-volatile, radiation-tolerant, rewritable for patches. Add EDAC (Error Detection and Correction) controller. A poor answer picks commercial DRAM/flash without radiation hardening, ignoring the environment constraint.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Primary memory is the computer's main memory directly accessible by the CPU, consisting of RAM (Random Access Memory) which is volatile and used for temporary data/program storage during execution, and ROM (Read-Only Memory) which is non-volatile and stores permanent firmware like the boot loader; RAM allows both read/write operations while ROM is typically read-only after ______.",
+     "a": "manufacturing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you turn on your laptop: the screen lights up, the OS loads, and you open a ______.",
+     "a": "browser",
+     "self_check": true
+    },
+    {
+     "q": "What is Primary memory? State the definition given in this lesson.",
+     "a": "Primary memory is the computer's main memory directly accessible by the CPU, consisting of RAM (Random Access Memory) which is volatile and used for temporary data/program storage during execution, and ROM (Read-Only Memory) which is non-volatile and stores permanent firmware like the boot loader; RAM allows both read/write operations.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Primary memory?",
+     "a": "Students often think \"RAM is for running programs, ROM is for storing files\" — conflating ROM with secondary storage (hard drive/SSD).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can distinguish RAM and ROM by volatility, function, and CPU accessibility; explain the purpose of each RAM type (SRAM, DRAM) and ROM type (PROM, EPROM, EEPROM); and justify why a computer needs both for the boot process and program execution.",
+     "self_check": true
     }
    ]
   }

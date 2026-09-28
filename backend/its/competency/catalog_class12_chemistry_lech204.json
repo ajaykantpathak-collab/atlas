@@ -11,7 +11,7 @@
    "title": "Structure and Classification of Amines",
    "section": "9.1",
    "definition": "Amines arise when one, two or all three hydrogens of ammonia are swapped for alkyl or aryl groups; the trivalent nitrogen stays sp3 hybridised with a lone pair in the fourth orbital, giving a pyramidal shape with the C-N-E angle squeezed just under 109.5 degrees, and the products divide into primary, secondary and tertiary classes.",
-   "formula": "amine_classes = primary_rnh2 + secondary_rrnh + tertiary_r3n",
+   "formula": "amine_classes = primary_rnh_2 + secondary_rrnh + tertiary_r_3n",
    "key_idea": "Amines are called simple when all groups match and mixed when they differ; quaternary ammonium salts form when nitrogen takes a fourth group and a positive charge.",
    "textbook_ref": "lech204.txt sections 9.1-9.2 with Fig 9.1 (lines ~17-96)",
    "question_patterns": [
@@ -22,13 +22,28 @@
     "when are two amines called simple versus mixed",
     "what hybridisation and lone-pair arrangement does the nitrogen of an amine show"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "count the groups on nitrogen",
-     "explain": "one alkyl or aryl group gives a primary amine, two a secondary, three a tertiary"},
-    {"step": 2, "action": "note the tetrahedral electron geometry",
-     "explain": "sp3 nitrogen with one lone pair forces the pyramidal molecular shape"}
-   ]
+    {
+     "step": 1,
+     "action": "count the groups on nitrogen",
+     "explain": "one alkyl or aryl group gives a primary amine, two a secondary, three a tertiary"
+    },
+    {
+     "step": 2,
+     "action": "note the tetrahedral electron geometry",
+     "explain": "sp3 nitrogen with one lone pair forces the pyramidal molecular shape"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "amine_classes = primary_rnh_2 + secondary_rrnh + tertiary_r_3n",
+     "compute": "amine_classes = primary_rnh_2 + secondary_rrnh + tertiary_r_3n"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lech204.9.3.1",
@@ -48,10 +63,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "promote the longest chain to parent",
-     "explain": "the parent takes the -amine ending; extra hydrocarbon groups on nitrogen get N- locants"},
-    {"step": 2, "action": "number multiple amino groups",
-     "explain": "keep the hydrocarbon -e and add -diamine with carbon locants for two or more NH2 groups"}
+    {
+     "step": 1,
+     "action": "promote the longest chain to parent",
+     "explain": "the parent takes the -amine ending; extra hydrocarbon groups on nitrogen get N- locants"
+    },
+    {
+     "step": 2,
+     "action": "number multiple amino groups",
+     "explain": "keep the hydrocarbon -e and add -diamine with carbon locants for two or more NH2 groups"
+    }
    ]
   },
   {
@@ -72,10 +93,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "match the precursor to the reducing system",
-     "explain": "nitro groups, nitriles and amides all accept hydrogen or hydride to reach RNH2"},
-    {"step": 2, "action": "manage the ammonolysis mixture",
-     "explain": "each amine product is itself nucleophilic, so ratio control decides the class isolated"}
+    {
+     "step": 1,
+     "action": "match the precursor to the reducing system",
+     "explain": "nitro groups, nitriles and amides all accept hydrogen or hydride to reach RNH2"
+    },
+    {
+     "step": 2,
+     "action": "manage the ammonolysis mixture",
+     "explain": "each amine product is itself nucleophilic, so ratio control decides the class isolated"
+    }
    ]
   },
   {
@@ -96,10 +123,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "form the imide anion",
-     "explain": "ethanolic KOH deprotonates phthalimide, creating the nucleophilic potassium salt"},
-    {"step": 2, "action": "substitute and hydrolyse",
-     "explain": "the anion attacks only primary alkyl halides (never aryl), and alkaline hydrolysis cuts the amine free"}
+    {
+     "step": 1,
+     "action": "form the imide anion",
+     "explain": "ethanolic KOH deprotonates phthalimide, creating the nucleophilic potassium salt"
+    },
+    {
+     "step": 2,
+     "action": "substitute and hydrolyse",
+     "explain": "the anion attacks only primary alkyl halides (never aryl), and alkaline hydrolysis cuts the amine free"
+    }
    ]
   },
   {
@@ -120,10 +153,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "drop the carbonyl carbon",
+    {
+     "step": 1,
+     "action": "drop the carbonyl carbon",
      "explain": "the group migrates off the carbonyl, so only the R portion reaches nitrogen",
-     "compute": "amine_carbons = amide_carbons - 1"}
-   ]
+     "compute": "amine_carbons = amide_carbons - 1"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "amine_carbons = amide_carbons - 1",
+     "compute": "amine_carbons = amide_carbons - 1"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lech204.9.5.1",
@@ -143,10 +188,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "count the N-H donors",
-     "explain": "primary amines offer two hydrogen-bond donors, secondary one, tertiary none"},
-    {"step": 2, "action": "weigh hydrophobic growth",
-     "explain": "each extra carbon drowns the polar head, cutting water solubility step by step"}
+    {
+     "step": 1,
+     "action": "count the N-H donors",
+     "explain": "primary amines offer two hydrogen-bond donors, secondary one, tertiary none"
+    },
+    {
+     "step": 2,
+     "action": "weigh hydrophobic growth",
+     "explain": "each extra carbon drowns the polar head, cutting water solubility step by step"
+    }
    ]
   },
   {
@@ -167,10 +218,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "test where the lone pair sits",
-     "explain": "alkyl push raises availability; ring resonance drains it, so arylamines weaken"},
-    {"step": 2, "action": "balance inductive push against solvation",
-     "explain": "bigger ammonium ions hydrogen-bond less with water, so aqueous orders mix steric and solvation effects with the +I trend"}
+    {
+     "step": 1,
+     "action": "test where the lone pair sits",
+     "explain": "alkyl push raises availability; ring resonance drains it, so arylamines weaken"
+    },
+    {
+     "step": 2,
+     "action": "balance inductive push against solvation",
+     "explain": "bigger ammonium ions hydrogen-bond less with water, so aqueous orders mix steric and solvation effects with the +I trend"
+    }
    ]
   },
   {
@@ -191,16 +248,34 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "convert the first pKb to Kb",
+    {
+     "step": 1,
+     "action": "convert the first pKb to Kb",
      "explain": "Kb equals ten raised to the negative pKb",
-     "compute": "kb_a = 10 ** (-pkb_a)"},
-    {"step": 2, "action": "convert the second pKb to Kb",
+     "compute": "kb_a = 10 ** (-pkb_a)"
+    },
+    {
+     "step": 2,
+     "action": "convert the second pKb to Kb",
      "explain": "same conversion for the comparison amine",
-     "compute": "kb_b = 10 ** (-pkb_b)"},
-    {"step": 3, "action": "divide the constants",
+     "compute": "kb_b = 10 ** (-pkb_b)"
+    },
+    {
+     "step": 3,
+     "action": "divide the constants",
      "explain": "the quotient measures the basicity gap",
-     "compute": "strength_ratio = kb_a / kb_b"}
-   ]
+     "compute": "strength_ratio = kb_a / kb_b"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "strength_ratio = 10 ** (pkb_b - pkb_a)",
+     "compute": "strength_ratio = 10 ** (pkb_b - pkb_a)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lech204.9.6.3",
@@ -220,10 +295,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "let nitrogen attack the electrophile",
-     "explain": "the lone pair displaces halide or carboxylate from the alkyl or acyl substrate"},
-    {"step": 2, "action": "neutralise the acid by-product",
-     "explain": "a stronger base such as pyridine traps HCl and pulls the equilibrium to products"}
+    {
+     "step": 1,
+     "action": "let nitrogen attack the electrophile",
+     "explain": "the lone pair displaces halide or carboxylate from the alkyl or acyl substrate"
+    },
+    {
+     "step": 2,
+     "action": "neutralise the acid by-product",
+     "explain": "a stronger base such as pyridine traps HCl and pulls the equilibrium to products"
+    }
    ]
   },
   {
@@ -242,13 +323,28 @@
     "state the temperature window for diazotising aniline",
     "give one chemical test separating methylamine from dimethylamine"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "probe with chloroform and alkali",
-     "explain": "only NH2 nitrogens build the isocyanide, so a stink convicts a primary amine"},
-    {"step": 2, "action": "follow the sulphonamide into alkali",
-     "explain": "the acidic N-H of the primary product dissolves in NaOH while the secondary product and the untouched tertiary stay out of solution"}
-   ]
+    {
+     "step": 1,
+     "action": "probe with chloroform and alkali",
+     "explain": "only NH2 nitrogens build the isocyanide, so a stink convicts a primary amine"
+    },
+    {
+     "step": 2,
+     "action": "follow the sulphonamide into alkali",
+     "explain": "the acidic N-H of the primary product dissolves in NaOH while the secondary product and the untouched tertiary stay out of solution"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "carbylamine_positive = primary_amine_only",
+     "compute": "carbylamine_positive = primary_amine_only"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lech204.9.6.5",
@@ -268,10 +364,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "read the directing group",
-     "explain": "resonance from nitrogen piles electron density at ortho and para, inviting electrophiles there"},
-    {"step": 2, "action": "protect when selectivity is needed",
-     "explain": "acetylate, substitute, then hydrolyse the amide back to the amine"}
+    {
+     "step": 1,
+     "action": "read the directing group",
+     "explain": "resonance from nitrogen piles electron density at ortho and para, inviting electrophiles there"
+    },
+    {
+     "step": 2,
+     "action": "protect when selectivity is needed",
+     "explain": "acetylate, substitute, then hydrolyse the amide back to the amine"
+    }
    ]
   },
   {
@@ -292,10 +394,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "diazotise cold",
-     "explain": "nitrous acid generated in situ converts the primary aromatic amine at ice-bath temperature"},
-    {"step": 2, "action": "choose the displacing nucleophile",
-     "explain": "Cu(I) gives Sandmeyer products, KI alone iodine, HBF4 then heat fluorine, H3PO2 hydrogen, and warm water hydroxyl"}
+    {
+     "step": 1,
+     "action": "diazotise cold",
+     "explain": "nitrous acid generated in situ converts the primary aromatic amine at ice-bath temperature"
+    },
+    {
+     "step": 2,
+     "action": "choose the displacing nucleophile",
+     "explain": "Cu(I) gives Sandmeyer products, KI alone iodine, HBF4 then heat fluorine, H3PO2 hydrogen, and warm water hydroxyl"
+    }
    ]
   },
   {
@@ -316,10 +424,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "keep the diazonium ion intact",
-     "explain": "retention of the diazo group, not displacement, drives coupling"},
-    {"step": 2, "action": "attack the activated ring para first",
-     "explain": "the phenol or aniline ring donates at its para position to build the N=N bridge"}
+    {
+     "step": 1,
+     "action": "keep the diazonium ion intact",
+     "explain": "retention of the diazo group, not displacement, drives coupling"
+    },
+    {
+     "step": 2,
+     "action": "attack the activated ring para first",
+     "explain": "the phenol or aniline ring donates at its para position to build the N=N bridge"
+    }
    ]
   }
  ],
@@ -330,9 +444,16 @@
    "concept": "lech204.9.4.3",
    "question_type": "hoffmann_carbon_count",
    "question_pattern": "Propanamine, a 3-carbon amine, is to be made by Hoffmann bromamide degradation. How many carbons must the starting amide carry?",
-   "extracted_variables": {"amine_carbons": 3},
+   "extracted_variables": {
+    "amine_carbons": 3
+   },
    "solution_template": [
-    {"step": 1, "action": "add back the carbonyl carbon", "explain": "the amide carries one carbon more than the amine it releases", "compute": "amide_carbons = amine_carbons + 1"}
+    {
+     "step": 1,
+     "action": "add back the carbonyl carbon",
+     "explain": "the amide carries one carbon more than the amine it releases",
+     "compute": "amide_carbons = amine_carbons + 1"
+    }
    ]
   },
   {
@@ -341,9 +462,16 @@
    "concept": "lech204.9.4.3",
    "question_type": "hoffmann_carbon_count",
    "question_pattern": "Benzamide contains 7 carbons. How many carbons survive in the amine from its Hoffmann degradation?",
-   "extracted_variables": {"amide_carbons": 7},
+   "extracted_variables": {
+    "amide_carbons": 7
+   },
    "solution_template": [
-    {"step": 1, "action": "drop the carbonyl carbon", "explain": "migration leaves the aryl group alone on nitrogen", "compute": "amine_carbons = amide_carbons - 1"}
+    {
+     "step": 1,
+     "action": "drop the carbonyl carbon",
+     "explain": "migration leaves the aryl group alone on nitrogen",
+     "compute": "amine_carbons = amide_carbons - 1"
+    }
    ]
   },
   {
@@ -352,11 +480,29 @@
    "concept": "lech204.9.6.2",
    "question_type": "base_strength_ratio",
    "question_pattern": "N-Ethylethanamine has pKb 3.00 and benzenamine has pKb 9.38. Calculate the factor by which the amine out-bases aniline.",
-   "extracted_variables": {"pkb_a": 3.0, "pkb_b": 9.38},
+   "extracted_variables": {
+    "pkb_a": 3.0,
+    "pkb_b": 9.38
+   },
    "solution_template": [
-    {"step": 1, "action": "convert the first pKb to Kb", "explain": "Kb = 10 to the minus pKb", "compute": "kb_a = 10 ** (-pkb_a)"},
-    {"step": 2, "action": "convert the second pKb to Kb", "explain": "same conversion for aniline", "compute": "kb_b = 10 ** (-pkb_b)"},
-    {"step": 3, "action": "divide the constants", "explain": "the quotient is the basicity multiple", "compute": "strength_ratio = kb_a / kb_b"}
+    {
+     "step": 1,
+     "action": "convert the first pKb to Kb",
+     "explain": "Kb = 10 to the minus pKb",
+     "compute": "kb_a = 10 ** (-pkb_a)"
+    },
+    {
+     "step": 2,
+     "action": "convert the second pKb to Kb",
+     "explain": "same conversion for aniline",
+     "compute": "kb_b = 10 ** (-pkb_b)"
+    },
+    {
+     "step": 3,
+     "action": "divide the constants",
+     "explain": "the quotient is the basicity multiple",
+     "compute": "strength_ratio = kb_a / kb_b"
+    }
    ]
   },
   {
@@ -365,11 +511,29 @@
    "concept": "lech204.9.6.2",
    "question_type": "base_strength_ratio",
    "question_pattern": "Methanamine has pKb 3.38 while N,N-dimethylmethanamine has pKb 4.22. Determine how many times stronger a base methanamine is.",
-   "extracted_variables": {"pkb_a": 3.38, "pkb_b": 4.22},
+   "extracted_variables": {
+    "pkb_a": 3.38,
+    "pkb_b": 4.22
+   },
    "solution_template": [
-    {"step": 1, "action": "convert the first pKb to Kb", "explain": "Kb of methanamine", "compute": "kb_a = 10 ** (-pkb_a)"},
-    {"step": 2, "action": "convert the second pKb to Kb", "explain": "Kb of the tertiary amine", "compute": "kb_b = 10 ** (-pkb_b)"},
-    {"step": 3, "action": "divide the constants", "explain": "ratio of the ionisation constants", "compute": "strength_ratio = kb_a / kb_b"}
+    {
+     "step": 1,
+     "action": "convert the first pKb to Kb",
+     "explain": "Kb of methanamine",
+     "compute": "kb_a = 10 ** (-pkb_a)"
+    },
+    {
+     "step": 2,
+     "action": "convert the second pKb to Kb",
+     "explain": "Kb of the tertiary amine",
+     "compute": "kb_b = 10 ** (-pkb_b)"
+    },
+    {
+     "step": 3,
+     "action": "divide the constants",
+     "explain": "ratio of the ionisation constants",
+     "compute": "strength_ratio = kb_a / kb_b"
+    }
    ]
   }
  ],

@@ -34,6 +34,31 @@
      "q": "Create a real-life problem where two quantities are in direct proportion. Make a table with 4 pairs of values, write the algebraic equation, and explain what the constant represents in your situation.",
      "a": "Example: \"Auto-rickshaw fare: ₹25 for first km, then ₹12 per km.\" Table: km = 1, 2, 3, 4; fare = 25, 37, 49, 61. Wait — this is NOT direct proportion because of the fixed starting fare! A correct example: \"Petrol consumption: 1 litre = 15 km.\" Table: litres = 1, 2, 3, 4; distance = 15, 30, 45, 60. Equation: d = 15l. Constant 15 = km per litre (mileage). A poor answer using a fixed-charge scenario reveals the student confuses \"linear with intercept\" with \"direct proportion through origin\". They don't grasp that direct proportion requires zero quantity → zero cost.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Two quantities x and y are in direct proportion if their ratio x/y remains constant, meaning y = kx where k is the constant of ______.",
+     "a": "proportionality",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying ______ for your class: 1 notebook costs ₹25, 2 cost ₹50, 3 cost ₹75.",
+     "a": "notebooks",
+     "self_check": true
+    },
+    {
+     "q": "What is Two quantities x and y? State the definition given in this lesson.",
+     "a": "Two quantities x and y are in direct proportion if their ratio x/y remains constant, meaning y = kx where k is the constant of proportionality.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Two quantities x and y?",
+     "a": "Students incorrectly assume ANY table where both columns increase together shows direct proportion.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify direct proportion from a table by verifying constant ratio, write the algebraic relation y = kx, find the constant k, and use it to solve for missing values in real-world problems involving cost, distance, time, or measurements.",
+     "self_check": true
     }
    ]
   }

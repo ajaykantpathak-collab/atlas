@@ -34,6 +34,36 @@
      "q": "Design a hypothetical tRNA variant that could decode two different codons for the same amino acid (e.g., both GCU and GCC for alanine) without wobble at the third position. Describe the structural modification needed in the anticodon loop and explain why natural tRNAs don't use this strategy.",
      "a": "Modify anticodon to 3'-CGI-5' where I (inosine) at wobble position pairs with U, C, or A — but this still uses wobble. To avoid wobble entirely, engineer a flexible anticodon loop with two alternative conformations or a bifurcated anticodon stem — but this would destabilise tRNA structure, reduce fidelity, and require complex ribosomal proofreading. Natural tRNAs use wobble (I, G, U at position 34) because it balances codon coverage with structural economy and accuracy. A poor answer proposes chemically implausible modifications or ignores the evolutionary trade-off between versatility and fidelity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: RNA (Ribonucleic Acid) is a single-stranded polynucleotide polymer composed of ______ containing D-ribose sugar, phosphate groups, and nitrogenous bases (adenine, guanine, cytosine, uracil) that performs diverse functional roles in gene expression including coding (mRNA), catalytic/structural (rRNA), and adaptor (tRNA) functions.",
+     "a": "ribonucleotides",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: DNA is the master recipe book locked in the head chef's office (nucleus) — too valuable to bring to the cooking ______.",
+     "a": "stations",
+     "self_check": true
+    },
+    {
+     "q": "What is RNA (Ribonucleic Acid)? State the definition given in this lesson.",
+     "a": "RNA (Ribonucleic Acid) is a single-stranded polynucleotide polymer composed of ribonucleotides containing D-ribose sugar, phosphate groups, and nitrogenous bases (adenine, guanine, cytosine, uracil) that performs diverse functional roles in gene expression including coding (mRNA), catalytic/structural (rRNA), and adaptor (tRNA) functions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The answer lies in how structure enables specialized function — single-stranded flexibility allows RNA to fold into precise ______D shapes for catalysis, recognition, and information transfer, unlike DNA's rigid double helix.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about RNA (Ribonucleic Acid)?",
+     "a": "Students believe \"RNA is just single-stranded DNA with uracil instead of thymine.\" They treat RNA as a passive information carrier like DNA, ignoring that the 2'-OH group makes RNA chemically labile (alkaline hydrolysis), structurally versatile (A-form helix, tight turns, pseudoknots), and catalytically active (ribozymes).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can differentiate the three major RNA types by structure, cellular location, and function; explain mRNA processing (capping, polyadenylation) in eukaryotes; describe the clover-leaf model of tRNA with anticodon-CCA acceptor stem; and compare prokaryotic vs eukaryotic rRNA components in ribosomal subunits.",
+     "self_check": true
     }
    ]
   }

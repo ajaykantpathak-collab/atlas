@@ -34,6 +34,31 @@
      "q": "Design a simple experiment to demonstrate how a funnel helps measure rain more accurately than just leaving a bucket open.",
      "a": "A good answer explains that a funnel catches rain from a large area and directs it into a thin tube, making the water level rise higher and making it easier to see and measure the depth. A poor answer fails to mention the concentration of water into a narrower space to improve readability.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Rainfall is a type of ______ measured by an instrument called a rain gauge, which collects water in a funnel-topped cylinder to determine the depth of rainfall over a specific area.",
+     "a": "precipitation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever noticed how the ______ gets soaked during a monsoon shower in India and wondered exactly how much water fell?",
+     "a": "ground",
+     "self_check": true
+    },
+    {
+     "q": "What is Rainfall? State the definition given in this lesson.",
+     "a": "Rainfall is a type of precipitation measured by an instrument called a rain gauge, which collects water in a funnel-topped cylinder to determine the depth of rainfall over a specific area.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Rainfall?",
+     "a": "Students often believe that a rain gauge measures the total volume of rain that falls on an entire city (like 'gallons' or 'buckets').",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify a rain gauge, explain the units of measurement, and calculate total rainfall depth given a set of measurements or a visual representation.",
+     "self_check": true
     }
    ]
   }

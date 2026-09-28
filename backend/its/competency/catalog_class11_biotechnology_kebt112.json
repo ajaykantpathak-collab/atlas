@@ -43,7 +43,16 @@
      "q": "A 10x eyepiece with the 100x oil objective gives what total magnification?",
      "a": "1000"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_power = objective_mag * eyepiece_mag",
+     "compute": "total_power = objective_mag * eyepiece_mag"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt112.2",
@@ -246,7 +255,16 @@
      "q": "In the Beer-Lambert law, absorbance equals absorptivity times path length times what: concentration or colour?",
      "a": "concentration"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "conc = absorbance / (epsilon_val * path_length)",
+     "compute": "conc = absorbance / (epsilon_val * path_length)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt112.7",
@@ -285,7 +303,16 @@
      "q": "Sanger's chain termination lacks which group to stop strands: the 3-prime hydroxyl or the base?",
      "a": "the 3-prime hydroxyl"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "speed_fold = year_hours / automated_hours",
+     "compute": "speed_fold = year_hours / automated_hours"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt112.8",

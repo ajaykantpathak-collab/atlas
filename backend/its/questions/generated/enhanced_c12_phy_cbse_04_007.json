@@ -34,6 +34,16 @@
      "q": "Design a simple experiment using a compass and a battery-powered solenoid to verify that the magnetic field inside a long solenoid is uniform and parallel to its axis. Describe the procedure, observations, and how you would conclude uniformity.",
      "a": "Procedure: Place a long solenoid (e.g., 50 cm length, 2 cm diameter) horizontally on a wooden table. Connect to a 6 V battery via a switch. Use a small plotting compass. (1) Move the compass along the axis inside the solenoid (through a slit or by inserting it before winding) and observe deflection – it should align with the axis and show constant deflection magnitude. (2) Move the compass radially off-axis at the centre – deflection direction remains axial, magnitude unchanged. (3) Move compass near the ends – deflection decreases and direction fans out. Conclusion: Constant deflection magnitude and direction along the axis and across the cross-section at the centre confirm uniform axial field. A poor answer (e.g., \"just put compass inside and see it points one way\") lacks systematic variation of position and comparison to ends.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real-world ______: a solenoid is used in an electric door lock (common in Indian homes/offices) – when current flows, a uniform magnetic field pulls a ferromagnetic plunger.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real-world observation: a solenoid is used in an electric door lock (common in Indian homes/offices) – when current flows, a uniform magnetic field pulls a ______ plunger.",
+     "a": "ferromagnetic",
+     "self_check": true
     }
    ]
   }

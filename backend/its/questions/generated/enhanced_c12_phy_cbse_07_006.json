@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a function generator, an oscilloscope, a resistor (100 Ω), an inductor (10 mH), and a capacitor (0.1 μF) to demonstrate resonance in a series LCR circuit. Describe the procedure, what to measure, and how to identify the resonant frequency from the oscilloscope display.",
      "a": "Connect R, L, C in series with function generator. Set generator to sine wave, amplitude ~5 V. Connect oscilloscope Channel 1 across the source (input voltage), Channel 2 across the resistor (current proxy, since VR in phase with I). Vary frequency from 1 kHz to 100 kHz. At resonance: (1) VR amplitude maximizes (current maximum), (2) phase difference between Channel 1 and Channel 2 becomes zero (traces overlap perfectly), (3) frequency reads f₀ ≈ 1/(2π√(LC)) ≈ 1/(2π√(10×10⁻³ × 0.1×10⁻⁶)) ≈ 5.03 kHz. A good answer includes: using resistor voltage as current indicator, looking for maximum amplitude and zero phase shift, and comparing measured f₀ with calculated value. A poor answer measures voltage across L or C only, or doesn't mention phase observation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Resonance in a series LCR circuit occurs when the inductive reactance (XL = ωL) equals the ______ reactance (XC = 1/ωC), causing the impedance to become purely resistive (Z = R) and minimum, the current amplitude to reach its maximum value (im = vm/R), and the phase difference between voltage and current to become zero.",
+     "a": "capacitive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe an old AM radio: turning the tuning knob changes a variable capacitor until the desired station comes in clearly — this is ______ resonance.",
+     "a": "electrical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Resonance in a series LCR circuit occurs when the inductive reactance (XL = ωL) equals the capacitive reactance (XC = ______/ωC), causing the impedance to become purely resistive (Z = R) and minimum, the current amplitude to reach its maximum value (im = vm/R), and the phase difference between voltage and current to become zero.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) derive the resonant frequency condition ω₀ = 1/√(LC) from XL = XC, (2) calculate impedance, current amplitude, and phase angle at any frequency including resonance, (3) compute quality factor Q = ω₀L/R = 1/(ω₀CR) and bandwidth Δω = R/L, (4) explain why voltage across L and C can exceed source voltage at resonance while.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a small phone-book program fragment that: (1) starts with two contacts, (2) safely retrieves a number for a name that might not exist, printing \"Not found\" if absent, (3) adds three new contacts from another dictionary, and (4) deletes one contact by name. Use only methods from this node.",
      "a": "```python\nphone = {'Alice': '98765', 'Bob': '87654'}\nprint(phone.get('Charlie', 'Not found'))  # safe retrieval\nnew_contacts = {'Charlie': '76543', 'Diana': '65432', 'Eve': '54321'}\nphone.update(new_contacts)                # merge\ndel phone['Alice']                        # delete\n```\nA poor answer (e.g., using `phone['Charlie']` or missing `update`) shows the student cannot combine the methods in a realistic sequence.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Dictionary methods in Python are built-in functions that allow ______ and retrieval of key-value pairs in a dictionary.",
+     "a": "manipulation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You need to quickly list all ______ (keys()), all numbers (values()), or print name-number pairs (items()).",
+     "a": "names",
+     "self_check": true
+    },
+    {
+     "q": "What is Dictionary methods in Python? State the definition given in this lesson.",
+     "a": "Dictionary methods in Python are built-in functions that allow manipulation and retrieval of key-value pairs in a dictionary.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Dictionary methods in Python?",
+     "a": "Students often believe d.keys(), d.values(), and d.items() return lists that are independent copies of the dictionary's data.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write Python code that correctly uses keys(), values(), items(), get(), update(), and del to inspect, safely access, merge, and delete dictionary data, and explain the difference between dict[key] and dict.get(key) when the key is missing.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,215 @@
+{
+ "catalog": "catalog_class12_computer_science_lecs110.json",
+ "concepts": [
+  {
+   "id": "lecs110.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "n = 15.3",
+      "cables = n * (n - 1) / 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "n = 49",
+      "cables = n * (n - 1) / 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "n = 16.3",
+      "cables = n * (n - 1) / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "n = 3.3",
+      "cables = n * (n - 1) / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "n = 54",
+      "cables = n * (n - 1) / 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "n = 32",
+      "cables = n * (n - 1) / 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "cables = n * (n - 1) / 2"
+   ]
+  },
+  {
+   "id": "lecs110.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "file_mb = 53",
+      "speed_mbps = 36",
+      "time_s = file_mb * 8 / speed_mbps"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "file_mb = 52",
+      "speed_mbps = 114",
+      "time_s = file_mb * 8 / speed_mbps"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "file_mb = 6.2",
+      "speed_mbps = 4.6",
+      "time_s = file_mb * 8 / speed_mbps"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "file_mb = 21",
+      "speed_mbps = 63",
+      "time_s = file_mb * 8 / speed_mbps"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "file_mb = 4.1",
+      "speed_mbps = 116",
+      "time_s = file_mb * 8 / speed_mbps"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "file_mb = 38",
+      "speed_mbps = 78",
+      "time_s = file_mb * 8 / speed_mbps"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "time_s = file_mb * 8 / speed_mbps"
+   ]
+  },
+  {
+   "id": "lecs110.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "hex_digits = 20",
+      "oui_bits = hex_digits * 4 / 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "hex_digits = 74",
+      "oui_bits = hex_digits * 4 / 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hex_digits = 4.4",
+      "oui_bits = hex_digits * 4 / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "hex_digits = 80",
+      "oui_bits = hex_digits * 4 / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "hex_digits = 6.8",
+      "oui_bits = hex_digits * 4 / 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "hex_digits = 50",
+      "oui_bits = hex_digits * 4 / 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "oui_bits = hex_digits * 4 / 2"
+   ]
+  },
+  {
+   "id": "lecs110.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "bits = 44",
+      "addresses = 2 ** bits"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "bits = 8.7",
+      "addresses = 2 ** bits"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "bits = 1.7",
+      "addresses = 2 ** bits"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "bits = 49",
+      "addresses = 2 ** bits"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "bits = 55",
+      "addresses = 2 ** bits"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "bits = 13.3",
+      "addresses = 2 ** bits"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "addresses = 2 ** bits"
+   ]
+  }
+ ]
+}

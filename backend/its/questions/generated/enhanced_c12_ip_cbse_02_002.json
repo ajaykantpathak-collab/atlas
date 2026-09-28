@@ -34,6 +34,26 @@
      "q": "Design a real-world scenario (Indian context) where you would choose **dictionary of lists** over **list of dictionaries** to create a DataFrame, and vice versa. Justify your choice based on data source structure and downstream analysis needs.",
      "a": "**Dict of lists**: You have separate CSV files for each subject (Maths.csv, Science.csv) — each file is a column. You load each into a list and combine. **List of dicts**: You scrape a website where each student's record is a JSON object (row-oriented). You collect a list of these dicts. A poor answer (\"either works\") ignores that the natural data orientation dictates the easiest creation path and avoids expensive restructuring later.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Pandas DataFrame is a two-dimensional, size-mutable, ______ tabular data structure with labelled axes (rows and columns).",
+     "a": "heterogeneous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have the marks of five students in three subjects stored in a Python ______ where keys are subject names and values are lists of marks.",
+     "a": "dictionary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A DataFrame does exactly this: it turns labelled column data into a ______D table with both row and column labels.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can create a DataFrame from at least three different input types (dictionary of lists, list of dictionaries, NumPy arrays, Series), explain how row/column labels are derived in each case, and correctly predict the shape, dtypes, and index/column labels of the resulting DataFrame.",
+     "self_check": true
     }
    ]
   }

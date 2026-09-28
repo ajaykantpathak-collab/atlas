@@ -34,6 +34,26 @@
      "q": "Design a real-world scenario where append mode is essential and write a complete Python program that implements it. The program must: (1) check if file exists, (2) if not, create with header, (3) append timestamped entries in a loop, (4) handle KeyboardInterrupt to exit cleanly. Explain why each part is necessary.",
      "a": "Scenario: IoT temperature sensor logging to `temp_log.csv`. Program:\n```python\nimport os, time, datetime\nfname = 'temp_log.csv'\nif not os.path.exists(fname):\n    with open(fname, 'w') as f:\n        f.write('Timestamp,Temperature\\n')\ntry:\n    while True:\n        temp = 25.0  # simulated sensor reading\n        ts = datetime.datetime.now().isoformat()\n        with open(fname, 'a') as f:\n            f.write(f'{ts},{temp}\\n')\n        time.sleep(10)\nexcept KeyboardInterrupt:\n    print('\\nLogging stopped.')\n```\nParts: 1) Existence check avoids overwriting header. 2) 'w' only for initial header creation. 3) 'a' in loop preserves all readings. 4) with ensures flush/close each write. 5) KeyboardInterrupt handler prevents traceback. Poor answer omits existence check or uses 'w' in loop.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Appending data to an existing text file means opening the file in append mode ('a') which positions the file pointer at the end of the file, allowing new data to be written after existing content without ______ or truncating the original data.",
+     "a": "overwriting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are maintaining a daily expense log in a file called ______.txt.",
+     "a": "expenses",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write Python code that correctly opens a text file in append mode using both open() and with statement, writes single or multiple lines of data using write() or writelines(), and verifies the appended content by reading the file afterward.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a daily expense log in a file called expenses.txt.",
+     "a": "maintaining",
+     "self_check": true
     }
    ]
   }

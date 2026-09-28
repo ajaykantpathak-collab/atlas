@@ -34,6 +34,21 @@
      "q": "Create a new problem: Choose four consecutive numbers such that one of the 8 possible values equals exactly 100. Show your work and explain how you chose the numbers.",
      "a": "Good answer: Let the numbers be \\(n, n+1, n+2, n+3\\). The maximum value is \\(4n+6\\). Set \\(4n+6 = 100 \\Rightarrow 4n = 94 \\Rightarrow n = 23.5\\) (not integer). Try another pattern: the pattern \\(+++-\\) gives \\(n+(n+1)+(n+2)-(n+3) = 2n\\). Set \\(2n = 100 \\Rightarrow n = 50\\). So 50, 51, 52, 53 works: \\(50+51+52-53 = 100\\). A poor answer guesses randomly without using the algebraic forms of the 8 patterns, revealing the student doesn't see the connection between sign patterns and linear expressions in \\(n\\).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have four ______ locker numbers: 12, 13, 14, 15.",
+     "a": "consecutive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Work through one example completely, then organize all ______ in a table to spot the pattern: all results are even (or all odd), and they form a symmetric set around the sum of the four numbers.",
+     "a": "8",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can systematically generate all 8 sign combinations for any four consecutive numbers, compute each value correctly using integer addition/subtraction rules, identify the parity pattern (all results have the same parity), determine the minimum and maximum possible values, and explain why the results differ by multiples of 2.",
+     "self_check": true
     }
    ]
   }

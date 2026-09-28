@@ -85,7 +85,16 @@
      "solution": "Step 1: find displacement change. Step 2: divide by time interval. Step 3: take the limit as the time interval approaches zero. Working: x_final - x_initial, delta_x / delta_t.",
      "answer": "The method of instantaneous velocity leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "velocity = dx / dt",
+     "compute": "velocity = dx / dt"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.2.3.1",
@@ -134,7 +143,16 @@
      "solution": "Step 1: calculate velocity change. Step 2: calculate time duration. Step 3: divide changes. Working: v_final - v_initial, t_final - t_initial, delta_v / delta_t.",
      "answer": "The method of average acceleration leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "avg_accel = (v_final - v_initial) / (t_final - t_initial)",
+     "compute": "avg_accel = (v_final - v_initial) / (t_final - t_initial)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.2.4.1",
@@ -182,7 +200,16 @@
      "solution": "Step 1: calculate velocity gain. Step 2: add to initial velocity. Step 3: round the result to the appropriate significant figures. Working: acceleration * time, initial_velocity + gain.",
      "answer": "The method of first equation of motion leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "final_velocity = initial_velocity + (acceleration * time)",
+     "compute": "final_velocity = initial_velocity + (acceleration * time)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.2.4.2",
@@ -231,7 +258,16 @@
      "solution": "Step 1: calculate initial velocity term. Step 2: calculate acceleration term. Step 3: sum the terms. Working: initial_velocity * time, 0.5 * acceleration * (time ** 2), term_one + term_two.",
      "answer": "The method of second equation of motion leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "displacement = (initial_velocity * time) + (0.5 * acceleration * time**2)",
+     "compute": "displacement = (initial_velocity * time) + (0.5 * acceleration * time**2)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.2.4.3",
@@ -329,7 +365,16 @@
      "solution": "Step 1: calculate rectangle area. Step 2: calculate triangle area. Step 3: sum areas. Working: initial_velocity * time, 0.5 * (final_velocity - initial_velocity) * time, rect_area + tri_area.",
      "answer": "The method of displacement from velocity-time graph leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "displacement = area_under_curve",
+     "compute": "displacement = area_under_curve"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.2.4.5",
@@ -426,7 +471,16 @@
      "solution": "Step 1: square the velocity. Step 2: divide by double deceleration. Step 3: round the stopping distance to the appropriate significant figures. Working: initial_velocity ** 2, v_sq / (2 * deceleration).",
      "answer": "The method of stopping distance leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "stopping_distance = (initial_velocity**2) / (2 * deceleration)",
+     "compute": "stopping_distance = (initial_velocity**2) / (2 * deceleration)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.2.4.7",
@@ -475,7 +529,16 @@
      "solution": "Step 1: double the distance. Step 2: divide by gravity. Step 3: take square root. Working: 2 * fall_distance, num / 9.8, sqrt(ratio).",
      "answer": "The method of reaction time leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "reaction_time = sqrt(2 * fall_distance / 9.8)",
+     "compute": "reaction_time = sqrt(2 * fall_distance / 9.8)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.2.5.1",
@@ -523,7 +586,16 @@
      "solution": "Step 1: subtract velocities. Step 2: account for the direction of each velocity. Step 3: interpret the sign of the result. Working: velocity_a - velocity_b, velocity_a_signed - velocity_b_signed.",
      "answer": "The method of relative velocity leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "v_ab = v_a - v_b",
+     "compute": "v_ab = v_a - v_b"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

@@ -34,6 +34,26 @@
      "q": "Design a simple lab experiment to determine the empirical formula of magnesium oxide using a crucible and Bunsen burner. Outline the measurements needed and the calculation steps.",
      "a": "Measure mass of empty crucible, mass of crucible + Mg ribbon, heat strongly to form MgO, cool and measure mass of crucible + MgO. Mass of Mg = (crucible+Mg) - crucible. Mass of O = (crucible+MgO) - (crucible+Mg). Convert both masses to moles, divide by smallest mole value to get ratio. A poor answer (e.g., missing the initial Mg mass measurement or not converting to moles) reveals the student does not understand that empirical formula requires mole ratio, not mass ratio, and that oxygen mass must be found by difference.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The empirical formula of a compound ______ the simplest whole-number ratio of atoms of each element present in the compound, while the molecular formula gives the actual number of atoms of each element in one molecule of the compound.",
+     "a": "represents",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analyzing a sample of a ______ Indian herbal medicine (like ashwagandha extract) in a lab to find its chemical formula.",
+     "a": "traditional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Next, you assume a ______ g sample so that the mass percentages directly become grams.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently determine the empirical formula from percentage composition data (or mass data) by converting masses to moles, finding the simplest mole ratio, and then determine the molecular formula using the given molar mass.",
+     "self_check": true
     }
    ]
   }

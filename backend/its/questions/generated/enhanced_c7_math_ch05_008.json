@@ -34,6 +34,31 @@
      "q": "Construct a word problem scenario in an Indian school setting (such as football goalposts or desk frames) where alternate angles can be used to find an unknown angle measurement of a tilted support beam.",
      "a": "Expected criteria: The student should describe two parallel metal railings of a school balcony crossed by a diagonal support rod, assign an algebraic expression to one alternate interior angle, and provide a clear solving method resulting in a valid degree measure. A poor answer gives numbers without a geometric context or uses non-parallel structures.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Alternate interior or exterior angles are pairs of angles formed on opposite sides of a transversal line ______ two other lines, occupying non-adjacent positions.",
+     "a": "intersecting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine walking along a straight railway track crossed diagonally by a footbridge overhead; the opposite corners created at the crossings look ______ in angle slope.",
+     "a": "identical",
+     "self_check": true
+    },
+    {
+     "q": "What is Alternate interior or exterior angles? State the definition given in this lesson.",
+     "a": "Alternate interior or exterior angles are pairs of angles formed on opposite sides of a transversal line intersecting two other lines, occupying non-adjacent positions.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Alternate interior or exterior angles?",
+     "a": "Students frequently confuse alternate interior angles with consecutive interior angles on the same side of the transversal.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify alternate interior and exterior angle pairs from a given diagram with a transversal cutting two lines, set up algebraic equations using their equality when lines are parallel, and solve for unknown variables.",
+     "self_check": true
     }
    ]
   }

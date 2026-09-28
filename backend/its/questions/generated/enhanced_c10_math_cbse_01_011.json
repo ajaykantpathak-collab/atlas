@@ -34,6 +34,21 @@
      "q": "Create a rational number \\( \\frac{p}{q} \\) (in lowest terms) such that: (i) its decimal expansion terminates after exactly 5 decimal places, (ii) \\( q \\) is a three-digit number, and (iii) \\( p \\) is a prime number less than 20. Write the number and verify your conditions.",
      "a": "We need \\( q = 2^m 5^n \\) with max(m,n) = 5, and \\( q \\) is a three-digit number. Possible \\( q \\): \\( 2^5 \\times 5^0 = 32 \\) (two-digit), \\( 2^4 \\times 5^1 = 80 \\) (two-digit), \\( 2^3 \\times 5^2 = 200 \\) (three-digit), \\( 2^2 \\times 5^3 = 500 \\) (three-digit), \\( 2^1 \\times 5^4 = 1250 \\) (four-digit), \\( 2^0 \\times 5^5 = 3125 \\) (four-digit). Choose \\( q = 200 \\) or \\( 500 \\). Pick prime \\( p < 20 \\) coprime to \\( q \\): for \\( q=200 \\), \\( p \\) can be 3, 7, 11, 13, 17, 19. Example: \\( \\frac{7}{200} = 0.035 \\) terminates after 3 places? Wait: \\( 200 = 2^3 \\times 5^2 \\), max(3,2)=3 → terminates after 3 places, not 5. Need max(m,n)=5. \\( q=200 \\) gives max=3. \\( q=500 = 2^2 \\times 5^3 \\), max=3. No three-digit \\( q \\) with max(m,n)=5 exists because \\( 2^5=32 \\), \\( 5^5=3125 \\), and any product with both exponents ≥1 exceeds 3 digits when max=5. **Correction**: The problem has no solution. A good answer recognises this impossibility and explains why. A poor answer forces a number like \\( \\frac{7}{3125} \\) ignoring the three-digit condition, revealing the student does not check all constraints simultaneously.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a sweet shop in Delhi and the shopkeeper ______ you that 1 kg of jalebis costs ₹240.",
+     "a": "tells",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can determine whether a given rational number in lowest terms has a terminating or non-terminating recurring decimal expansion by examining the prime factorisation of its denominator, and can state the number of decimal places after which a terminating decimal terminates without performing long division.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a sweet shop in Delhi and the ______ tells you that 1 kg of jalebis costs ₹240.",
+     "a": "shopkeeper",
+     "self_check": true
     }
    ]
   }

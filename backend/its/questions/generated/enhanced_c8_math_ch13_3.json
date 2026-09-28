@@ -34,6 +34,21 @@
      "q": "Create a 3-row number pyramid where the base numbers are three consecutive multiples of 5, and the top number is 60. Write the base numbers and show the full pyramid. (Hint: Let the numbers be \\(5n, 5n+5, 5n+10\\).)",
      "a": "Let base = \\(5n, 5n+5, 5n+10\\). Top = \\(5n + 2(5n+5) + (5n+10) = 5n + 10n+10 + 5n+10 = 20n + 20\\).  \nSet \\(20n + 20 = 60 \\Rightarrow 20n = 40 \\Rightarrow n = 2\\).  \nBase = \\(10, 15, 20\\).  \nPyramid:  \nRow 3: \\(10,\\; 15,\\; 20\\)  \nRow 2: \\(25,\\; 35\\)  \nRow 1: \\(60\\)  \nA poor answer that guesses numbers without algebra shows the student cannot translate the \"consecutive multiples\" condition into an algebraic expression and solve — a gap in forming expressions (c7_math_ch04_004) and solving linear equations (c7_math_ch15_003).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A number pyramid is a triangular ______ of numbers where each number in a higher row is the sum of the two numbers directly below it in the row immediately beneath.",
+     "a": "arrangement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are stacking boxes in a warehouse: each box in an upper layer sits ______ on two boxes below it.",
+     "a": "exactly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are stacking boxes in a ______: each box in an upper layer sits exactly on two boxes below it.",
+     "a": "warehouse",
+     "self_check": true
     }
    ]
   }

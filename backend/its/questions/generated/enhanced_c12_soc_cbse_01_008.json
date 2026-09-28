@@ -17,7 +17,7 @@
     },
     {
      "q": "In a hypothetical village, there are three castes: Brahmins (priests, landowners), Yadavs (cattle-herders, middle peasants), and Chamars (leather-workers, landless laborers). The village also has a Muslim community (weavers) and a Christian community (converted from Chamars). Using the three distinctive features, map the social structure of this village. Identify at least two ways in which stratification cuts across religious lines.",
-     "a": "**Correct answer:**  \n- **Plurality:** Five distinct groups (Brahmins, Yadavs, Chamars, Muslims, Christians) coexist.  \n- **Diversity:** Each group has its own rituals, deities, food habits, dress, and dialect variations.  \n- **Stratification:** Hierarchy runs Brahmins → Yadavs → Chamars (caste-based). **Cross-cutting stratification:** (1) Land ownership: Brahmins own most land, Yadavs some, Chamars/Muslims/Christians almost none — economic class reinforces caste. (2) Occupational purity: Chamars and Christians (ex-Chamars) share \"polluting\" leather work, placing them at the bottom despite different religions; Muslims (weavers) are ranked above Chamars but below Yadavs.  \n**What a wrong answer reveals:** If the student only lists caste hierarchy and ignores how religion and class intersect, they treat stratification as a single-axis caste ladder. If they say \"Muslims and Christians are outside caste,\" they miss the Indian reality where conversion rarely erases caste status.",
+     "a": "(1) Plurality — five distinct groups coexist in the village, the priestly landowning caste, the herding caste, the leather-working caste, the Muslim weavers and the Christian converts, (2) Diversity — each group maintains its own rituals, deities, food habits, dress and dialect variations, (3) Caste stratification — the hierarchy runs from the Brahmin landowners through the middle-peasant Yadavs to the landless Chamars, (4) Cross-cutting line one — land ownership follows the same ladder, so economic class reinforces caste, (5) Cross-cutting line two — leather work keeps both the Chamars and their Christian converts at the bottom despite different religions, while the Muslim weavers rank above the Chamars but below the Yadavs. A student who lists only the caste ladder, or says Muslims and Christians sit outside caste, ignores how religion and class intersect and misses that conversion rarely erases caste status.",
      "self_check": true
     },
     {
@@ -33,6 +33,26 @@
     {
      "q": "Design a 5-question survey that could empirically measure the **intersection of plurality, diversity, and stratification** in an urban neighborhood. For each question, state which feature(s) it captures and why.",
      "a": "**Correct answer (sample):**  \n1. \"What is your mother tongue?\" → **Plurality** (language groups coexisting).  \n2. \"Which festivals do you celebrate at home?\" → **Diversity** (range of cultural practices).  \n3. \"What is your caste/tribe category (General/SC/ST/OBC)?\" → **Stratification** (hierarchical classification).  \n4. \"Do you share meals with neighbors from different castes/religions?\" → **Plurality + Stratification** (social distance across hierarchical boundaries).  \n5. \"Who holds leadership positions in your Resident Welfare Association?\" → **Stratification + Diversity** (power distribution across diverse groups).  \n**Criteria for a good answer:** Questions must be empirically answerable, each must map clearly to at least one feature, and at least two questions must capture **intersections**.  \n**What a poor answer reveals:** Questions that only ask \"Do you like diversity?\" (attitude, not structure) or that treat caste as a single question without probing economic/educational/political dimensions show failure to operationalize the concepts.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The distinctive features of Indian society refer to its plurality (coexistence of multiple cultural, religious, linguistic, and ethnic groups), diversity (the vast range of variations in customs, beliefs, practices, and social structures across regions and communities), and ______ (the hierarchical arrangement of groups into ranked layers — primarily through the caste system, but also via class, gender, tribe, and religion — that systematically allocate power, prestige, and resources).",
+     "a": "stratification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ in a bustling railway station in Mumbai: you hear Marathi, Hindi, Gujarati, Tamil, and Bengali; you see people dressed in kurta-pyjama, jeans, sarees, hijabs, and business suits; you notice some passengers being served tea in glass tumblers while others order coffee in paper cups.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish between plurality, diversity, and stratification using Indian examples, (2) explain how the three features interact to shape social life, and (3) apply this framework to analyze a concrete social situation (e.g., a village, an urban neighborhood, or a policy debate) by identifying the relevant plural.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing in a bustling railway station in Mumbai: you hear Marathi, Hindi, Gujarati, Tamil, and Bengali; you see people dressed in kurta-pyjama, jeans, sarees, hijabs, and business suits; you notice some ______ being served tea in glass tumblers while others order coffee in paper cups.",
+     "a": "passengers",
      "self_check": true
     }
    ]

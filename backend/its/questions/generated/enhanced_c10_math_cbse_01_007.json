@@ -34,6 +34,31 @@
      "q": "Construct a proof that √12 is irrational by first simplifying √12 and then using the fact that √3 is irrational. Show all steps.",
      "a": "√12 = √(4×3) = 2√3. Assume √12 is rational, so 2√3 = a/b for integers a,b. Then √3 = a/(2b), which is rational, contradicting the known irrationality of √3. A poor answer (e.g., attempting a fresh contradiction proof for √12 without using √3) misses the efficient use of prior results and may contain algebraic errors.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Proof by ______ for the irrationality of √3: Assume √3 is rational, so it can be expressed as a fraction a/b in lowest terms where a and b are integers with no common factors other than 1.",
+     "a": "contradiction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a square garden with an area of ______ 3 square metres.",
+     "a": "exactly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Thus both a and b are divisible by ______, contradicting the assumption that a/b is in lowest terms.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently write the complete proof that √3 is irrational using proof by contradiction, correctly invoking the prime divisibility theorem (if prime p divides a² then p divides a) at the appropriate step, and clearly stating the contradiction that arises from the coprimality assumption.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a square garden with an area of exactly 3 square metres.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

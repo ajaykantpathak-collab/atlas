@@ -1,0 +1,71 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_06_011",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_06_011",
+   "title": "c12_soc_cbse_06_011",
+   "questions": [
+    {
+     "q": "Define \"state-nation\" as used in the NCERT textbook (Box 6.2) and explain how it differs from the conventional \"nation-state\" model.",
+     "a": "A \"state-nation\" is a political framework where multiple nations (ethnic, religious, linguistic, or indigenous identities) coexist peacefully and cooperatively within a single state polity, allowing citizens to identify with both their country and their cultural identities. Unlike the \"nation-state\" model (one nation, one state) which seeks homogeneity through assimilation or integration, the state-nation explicitly accommodates diversity through institutional recognition of minority rights, federalism, and secularism. A wrong answer that equates state-nation with nation-state reveals the student has not grasped the core theoretical innovation of India's constitutional design — that unity does not require cultural uniformity.",
+     "self_check": true
+    },
+    {
+     "q": "Nehru initially opposed linguistic reorganization of states (as described in Box 6.3), fearing it would lead to further partition. Yet the SRC (1956) implemented it anyway. Explain why linguistic states ultimately strengthened Indian unity, using the Sri Lanka and Pakistan counter-examples from the text.",
+     "a": "Linguistic states strengthened unity because they gave communities a legitimate political outlet for their identity aspirations within the Indian Union, preventing secessionist movements. The Sri Lanka counter-example (imposing Sinhala-only led to civil war) and Pakistan counter-example (denying Bengali linguistic rights led to Bangladesh) show that suppressing linguistic identity fractures the state, while accommodating it (as India did) allows people to be \"Kannadiga and Indian, Bengali and Indian\" simultaneously. A wrong answer that claims linguistic reorganization weakened India or was a mistake reveals the student has not understood the empirical evidence the textbook provides — that accommodation, not suppression, builds durable unity.",
+     "self_check": true
+    },
+    {
+     "q": "A state government proposes a law making the majority community's language the sole official language for all government jobs and education, arguing this will promote \"national integration.\" Using Nehru's vision and constitutional provisions (Articles 29, 30), explain why this proposal violates the Indian model of integration.",
+     "a": "This proposal violates the Indian model because: (1) It adopts an assimilationist/integrationist approach (Box 6.1) that India explicitly rejected — imposing a single \"national\" culture/language on minorities; (2) Article 29(1) guarantees any section of citizens with a distinct language/script/culture the right to conserve it; (3) Article 30(1) gives linguistic minorities the right to establish and administer educational institutions; (4) The Indian model is a \"state-nation\" (Box 6.2) where integration means multiple complementary identities, not a singular imposed identity. A wrong answer that supports the proposal as \"practical\" or \"unifying\" reveals the student confuses administrative convenience with constitutional principle and has not internalized the distinction between the Western nation-state model and India's state-nation model.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast how communalism and regionalism each challenge national integration. In your answer, address: (a) the identity marker each mobilizes, (b) whether the challenge is primarily about cultural recognition or material resources, and (c) the constitutional mechanism designed to address each.",
+     "a": "Communalism mobilizes religious identity, constructs religious groups as homogeneous and hostile to each other, and is primarily about cultural-political dominance (though it has material dimensions). The constitutional response is secularism (equal respect for all religions, Articles 25-28) and minority rights (Articles 29-30). Regionalism mobilizes linguistic/ethnic/tribal identity concentrated in a territory, is fueled by a sense of regional deprivation (material: resources, jobs, development), and the constitutional response is federalism (State Lists, Finance Commission, linguistic reorganization under Article 3). A wrong answer that treats both as purely \"identity politics\" or conflates their material bases reveals the student cannot distinguish the structural drivers — communalism is about symbolic hierarchy, regionalism is often about distributive justice within a federal framework.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The rise of majoritarian communalism in recent decades represents a fundamental betrayal of Nehru's vision of national integration, but the constitutional framework he helped build remains the best defense against it.\" Support your evaluation with three specific arguments from the textbook.",
+     "a": "The claim is largely correct. Three textbook arguments: (1) Box 6.2 explicitly warns that \"modern India is facing a grave challenge to its constitutional commitment to multiple and complementary identities with the rise of groups that seek to impose a singular Hindu identity\" — this directly targets the state-nation model Nehru championed. (2) Dr. Ambedkar's Constituent Assembly speech (Box 6.6) argues minorities are an \"explosive force\" if unprotected, and India's minorities \"have agreed to place their existence in the hands of the majority\" — majoritarianism breaks this constitutional compact. (3) The textbook notes India's problems are \"more in the sphere of implementation and practice rather than laws or principles\" (p. 102) — the framework (secularism, federalism, minority rights) exists but requires democratic vigilance (civil society, RTI, judiciary) to function. A wrong answer that dismisses the constitutional framework as \"failed\" or claims Nehru's vision was \"flawed from the start\" reveals the student has not engaged with the textbook's nuanced assessment that the *design* is sound but *practice* is contested.",
+     "self_check": true
+    },
+    {
+     "q": "Design a civic education module for Class 10 students that teaches the concept of \"unity in diversity\" using *only* examples from the NCERT textbook (Boxes 6.1, 6.2, 6.3, 6.4, 6.5, 6.6, 6.7, 6.8, 6.9). List the four key activities and the specific textbook box each draws from.",
+     "a": "A strong answer would include activities like: (1) **Comparative Case Study**: Analyze Box 6.1 (assimilationist policies) vs. Box 6.2 (state-nation model) — students create a Venn diagram showing how India's approach differs from Sri Lanka/Pakistan; (2) **Linguistic Reorganization Debate**: Using Box 6.3, students role-play the 1950s Congress debate (Nehru/Patel vs. Potti Sriramulu) and evaluate the outcome using the \"One language, two nations / Two languages, one nation\" quote; (3) **Minority Rights Workshop**: Using Boxes 6.5 (demographics), 6.6 (Ambedkar), 6.7 (Articles 29-30), students calculate minority proportions and draft a \"Minority Charter\" for a hypothetical diverse classroom; (4) **Syncretism Archive**: Using Boxes 6.4 (Tagore), 6.8 (Kabir), 6.9 (RTI/civil society), students collect local poems/songs of pluralism (Activity 6.2) and present how civil society protects integration. A poor answer that invents examples not in the textbook or misses the constitutional-legal dimension reveals the student treats \"unity in diversity\" as a slogan rather than an institutionalized, contestable, and defensible practice.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: National integration in Nehru's vision refers to the process of forging a unified national identity that ______ and celebrates India's cultural diversity through democratic institutions, secularism, and federalism, rather than imposing homogeneity.",
+     "a": "accommodates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ of a newly independent India in 1950 — you speak Tamil, practice Hinduism, live in Madras Presidency, and your neighbor speaks Telugu and practices Islam.",
+     "a": "citizen",
+     "self_check": true
+    },
+    {
+     "q": "What is National integration in Nehru's vision? State the definition given in this lesson.",
+     "a": "National integration in Nehru's vision refers to the process of forging a unified national identity that accommodates and celebrates India's cultural diversity through democratic institutions, secularism, and federalism, rather than imposing homogeneity.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a citizen of a newly independent India in ______ — you speak Tamil, practice Hinduism, live in Madras Presidency, and your neighbor speaks Telugu and practices Islam.",
+     "a": "1950",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about National integration in Nehru's vision?",
+     "a": "Students often believe \"national integration\" means creating a single, uniform Indian culture (e.g., one language, one religion, one set of customs) — essentially the assimilationist model described in Box 6.1.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Explain Nehru's vision of national integration as distinct from assimilationist and integrationist models, using the \"state-nation\" concept; (2) Analyze how specific challenges (communalism, regionalism, casteism, linguistic tensions) threaten integration and how constitutional provisions address them.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

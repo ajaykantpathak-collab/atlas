@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a flashlight, a graph paper, and a protractor to demonstrate how the angle of incidence affects the intensity of light on a surface. Describe the procedure, measurements, and how you would analyze the data to verify the cosine law.",
      "a": "Procedure: Fix flashlight at constant distance. Shine beam vertically onto graph paper — count illuminated squares (area A₀). Tilt paper by known angles θ (0°, 30°, 45°, 60°) using protractor. At each angle, count illuminated squares A_θ. Measure light intensity with a lux meter or use a solar cell + multimeter to measure current (proportional to intensity). Plot intensity vs cos(θ) — should be linear through origin. Analysis: Intensity ∝ 1/A_θ ∝ cos(θ). A poor design keeps flashlight distance constant but doesn't ensure beam fully covers paper at large angles, or measures brightness subjectively instead of quantitatively.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Uneven heating of the Earth by solar radiation is the phenomenon where different regions of Earth's surface receive different amounts of solar energy per unit area due to the planet's spherical shape, axial tilt of 23.5°, and rotation, causing variations in the angle of incidence and duration of sunlight that drive all ______ and oceanic circulation patterns.",
+     "a": "atmospheric",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ how sunlight falls on a cricket pitch at noon versus late afternoon — the same sunlight covers a larger area at a slant, feeling less intense.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Uneven heating of the Earth by solar radiation is the phenomenon where different regions of Earth's surface receive different amounts of solar energy per unit area due to the planet's spherical shape, axial tilt of ______°, and rotation, causing variations in the angle of incidence and duration of sunlight that drive all atmospheric and oceanic circulation patterns.",
+     "a": "23.5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why the equator receives more intense solar radiation than the poles using the concepts of angle of incidence, surface area spread, and atmospheric path length, and can predict how seasonal changes in the subsolar point shift heating patterns between hemispheres.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how sunlight falls on a cricket pitch at noon versus late ______ — the same sunlight covers a larger area at a slant, feeling less intense.",
+     "a": "afternoon",
+     "self_check": true
     }
    ]
   }

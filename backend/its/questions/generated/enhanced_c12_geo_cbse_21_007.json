@@ -34,6 +34,26 @@
      "q": "Design a GIS-based workflow to identify optimal locations for new primary health centres (PHCs) in a district, ensuring maximum population coverage within 5 km. Specify: (a) input spatial layers needed, (b) attribute data required, (c) two spatial analysis operations in sequence, (d) how you would validate the result.",
      "a": "**Expected Answer:**  \n(a) **Spatial layers:** District boundary, existing PHC points, road network (lines), settlement points/polygons, DEM (for travel time).  \n(b) **Attribute data:** Population per settlement, existing PHC capacity, road type/speed limits.  \n(c) **Analysis sequence:**  \n&nbsp;&nbsp;&nbsp;&nbsp;1. **Buffer analysis** — create 5 km buffers along road network (not Euclidean) from existing PHCs (network distance).  \n&nbsp;&nbsp;&nbsp;&nbsp;2. **Overlay (Erase/Difference)** — subtract buffered served area from district boundary → unserved zones. Overlay settlement layer on unserved zones, sum population → prioritize highest unserved population clusters.  \n(d) **Validation:** Field verification of proposed sites (accessibility, land availability), compare with health department records, sensitivity analysis (change buffer to 3 km/7 km).  \n**Poor Answer Reveals:** Listing only \"buffer around points\" (ignores road network), missing attribute linkage (population), or no validation step — shows lack of real-world GIS workflow understanding.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Geographic ______ System (GIS) is a computer-based system designed to capture, store, check, integrate, manipulate, analyse, and display spatially referenced data (data linked to locations on Earth) to support decision-making.",
+     "a": "Information",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Open Google Maps on your phone and search for \"shortest route from your school to the nearest metro station.\" The app instantly shows ______ routes, travel time, and traffic — this is GIS in action.",
+     "a": "multiple",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can define GIS using the exact NCERT terminology, list and explain the five components (Hardware, Software, Data, People, Procedures), distinguish spatial (point, line, polygon) from non-spatial (attribute) data with examples, and describe the sequence of GIS activities from data input to spatial analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Open Google Maps on your phone and search for \"shortest route from your school to the nearest metro station.\" The app ______ shows multiple routes, travel time, and traffic — this is GIS in action.",
+     "a": "instantly",
+     "self_check": true
     }
    ]
   }

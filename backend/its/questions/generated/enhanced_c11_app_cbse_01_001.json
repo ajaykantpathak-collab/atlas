@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_01_001",
+   "title": "c11_app_cbse_01_001",
+   "questions": [
+    {
+     "q": "List the five major mathematical concepts introduced in Chapter 1 (Numbers and Quantification) as per the NCERT concept map.",
+     "a": "The five concepts are: (1) Prime Numbers & Factorisation, (2) Binary Numbers, (3) Complex Numbers, (4) Indices & Logarithms, (5) Real-life Applications (including Cryptography/Encryption). A wrong answer (e.g., listing \"quadratic equations\" or \"trigonometry\") reveals the student has not internalized the chapter's concept map and is confusing it with other Class 11 chapters.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the Fundamental Theorem of Arithmetic is called the \"backbone\" of this chapter, connecting it to at least two other sub-topics.",
+     "a": "The Fundamental Theorem of Arithmetic (unique prime factorization) is the backbone because: (a) it defines prime numbers as the \"atoms\" of integers, which are directly used in RSA encryption (c11_app_cbse_01_003); (b) it enables GCD/LCM calculations via prime exponents, which are essential for modular arithmetic in cryptography; (c) the concept of unique representation parallels binary representation (unique base-2 expansion) in c11_app_cbse_01_004. A wrong answer that only defines the theorem without linking it to encryption or binary shows superficial understanding — the student sees definitions but not structural connections.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 11 student claims: \"Binary numbers are just a different way to write numbers; they have nothing to do with prime numbers or logarithms.\" Give one concrete counter-example from the chapter that proves this statement false.",
+     "a": "In RSA encryption (Section 1.3), the public key modulus *n = p × q* (product of two primes) is a large integer that computers store and manipulate in **binary** (base-2). The encryption/decryption involves modular exponentiation (*C ≡ M^e mod n*), which relies on **logarithmic** ideas (indices, Euler's theorem) for efficient computation (square-and-multiply algorithm). Thus, primes, binary, and logarithms work together in one real system. A wrong answer that cannot name a specific intersection (e.g., \"computers use binary\") shows the student treats topics as silos.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of \"uniqueness\" in the Fundamental Theorem of Arithmetic (prime factorization) and in binary representation of integers. How are they similar and how do they differ?",
+     "a": "Similarity: Both guarantee a **unique representation** — every integer >1 has a unique prime factorization (up to order), and every integer has a unique binary expansion (no leading zeros). Difference: Prime factorization is multiplicative (product of primes), binary is additive (sum of powers of 2). Also, prime factorization is hard to compute for large numbers (basis of RSA security), while binary conversion is algorithmically trivial. A wrong answer that says \"both are unique\" without contrasting multiplicative vs additive structure or computational difficulty misses the analytical depth required at this level.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Complex numbers (Section 1.4) are included in this chapter only for mathematical completeness; they have no connection to primes, binary, or logarithms.\" Defend your evaluation with evidence from the chapter.",
+     "a": "The statement is **false**. While the NCERT text treats complex numbers as a \"preliminary idea,\" they connect deeply: (1) Euler's formula *e^(iθ) = cos θ + i sin θ* links complex numbers to **logarithms/exponentials** (natural log base *e*); (2) The discrete Fourier transform (used in signal processing) relies on complex roots of unity, which are tied to **binary** algorithms (FFT); (3) Algebraic number theory extends prime factorization to Gaussian integers (complex numbers *a+bi* where *a,b ∈ ℤ*), generalizing the Fundamental Theorem of Arithmetic. A wrong answer that accepts the statement reveals the student has not looked ahead to higher mathematics where these connections are central.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-project idea for a Class 11 student that combines at least three sub-topics from this chapter (e.g., primes, binary, logarithms) in a single investigative activity. Describe the goal, the math involved, and the expected output.",
+     "a": "**Project:** \"Build a Toy RSA Encryptor in Python\"  \n**Goal:** Encrypt/decrypt a short message using simplified RSA.  \n**Math involved:** (1) **Primes** — generate two primes *p, q* (Sieve of Eratosthenes from c11_app_cbse_01_002); (2) **Binary** — convert message text to ASCII → binary → integer *M*; (3) **Logarithms/Indices** — compute *C = M^e mod n* using square-and-multiply (logarithmic time); (4) **Modular arithmetic** — find *d* such that *ed ≡ 1 mod φ(n)* (Euclid's algorithm).  \n**Output:** A working script + a 2-page report explaining each mathematical step.  \nA poor answer (e.g., \"make a poster about primes\") shows inability to synthesize across sub-topics and apply them computationally.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

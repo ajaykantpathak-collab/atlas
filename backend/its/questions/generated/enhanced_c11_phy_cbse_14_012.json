@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a rubber tube and a water surface to demonstrate the difference in phase change between reflection at a rigid boundary and a free boundary. Describe the setup, what you would observe, and how it proves the phase change rule.",
      "a": "Setup: Stretch a rubber tube horizontally. Fix one end rigidly to a hook (rigid boundary). For free boundary, attach the other end to a light ring on a smooth vertical rod, or simply hold it loosely so it can move vertically. Send a sharp transverse pulse from the middle. Observation: At the fixed end, the pulse returns inverted (crest becomes trough). At the free end, the pulse returns upright (crest remains crest). This directly shows π phase change at rigid boundary and 0 at free boundary. A poor answer might use a water surface (which is a free boundary for transverse waves on water? Actually water surface is a free boundary for transverse waves on a string? No, a string on water is complicated). Using water surface for sound reflection is for longitudinal waves. The key is to clearly distinguish the two boundary types and link observation to inversion/non-inversion.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When a ______ wave encounters a boundary, it gets reflected.",
+     "a": "travelling",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Hold a slinky spring fixed at one end to a wall (rigid ______) and send a sharp pulse from the other end.",
+     "a": "boundary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: At a rigid (fixed) boundary, the reflected wave undergoes a phase change of π rad (______°), meaning a crest reflects as a trough and vice versa.",
+     "a": "180",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) predict the phase change (0 or π) for a wave reflecting from a given boundary condition (rigid or free) and justify it using the boundary condition on displacement; (2) write the correct mathematical form of the reflected wave given the incident wave equation and boundary type; (3) explain how the phase change leads.",
+     "self_check": true
     }
    ]
   }

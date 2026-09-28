@@ -34,6 +34,26 @@
      "q": "Create a small dataset (5-6 values) where the mean, median, and mode are all different. Write the Pandas code to compute them and explain what the differences tell you about the data's shape.",
      "a": "Example: `s = pd.Series([1, 2, 2, 3, 100])`. Mean = 21.6, Median = 2, Mode = 2. The large gap between mean and median indicates right skew; the mode equals median shows a peak at the lower end. A good answer includes code, output, and interpretation. A poor answer gives symmetric data or fails to link differences to skewness.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Descriptive statistics in Pandas refer to built-in methods (mean(), median(), mode(), std(), describe()) that compute summary measures of central tendency and dispersion for Series or DataFrame columns, returning scalar values or a summary DataFrame ______.",
+     "a": "respectively",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a CSV file of monthly household expenses for a year: rent, ______, utilities, transport.",
+     "a": "groceries",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write Pandas code to compute mean, median, mode, standard deviation, and the full statistical summary (describe) for a given Series or DataFrame column, interpret the output, and explain how missing values (NaN) are handled by default.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a CSV file of monthly ______ expenses for a year: rent, groceries, utilities, transport.",
+     "a": "household",
+     "self_check": true
     }
    ]
   }

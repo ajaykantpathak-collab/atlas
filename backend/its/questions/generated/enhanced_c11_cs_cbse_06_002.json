@@ -34,6 +34,31 @@
      "q": "Create a new string `secret` of length 6 such that `secret[0] == 'P'`, `secret[2] == 'T'`, `secret[5] == 'N'`, and all other characters are lowercase vowels. Write the string literal and verify each condition with indexing expressions.",
      "a": "Example: `secret = \"PaTeIoN\"` (indices: 0=P, 1=a, 2=T, 3=e, 4=I, 5=N — wait, length 7). Correct length 6: `secret = \"PaTeOn\"` (0=P, 1=a, 2=T, 3=e, 4=O, 5=n) — but last must be `N`. So `secret = \"PaTeIN\"` (0=P, 1=a, 2=T, 3=e, 4=I, 5=N). Verification: `secret[0]=='P'`, `secret[2]=='T'`, `secret[5]=='N'` all `True`.  \n**Poor answer analysis**: If a student gives length 7, they miscount indices. If they use uppercase vowels, they missed \"lowercase\". If they can't write verification expressions, they don't grasp indexing as an accessor. This tests synthesis: constructing a string meeting multiple index constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A string in Python is an immutable ordered sequence of Unicode characters created by enclosing text in single, double, or triple quotes; indexing uses zero-based positive integers (0 to len-1) to access individual characters by their position, where string[index] returns a new string of length 1 ______ the character at that position.",
+     "a": "representing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a student ID \"CBSE2025\" printed on your ID card and you need to ______ just the board code \"CBSE\" or the year \"2025\" for a form.",
+     "a": "extract",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How would you tell Python to give you the ______rd character?",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can create strings using all three quote styles, correctly predict the character returned by any valid positive index expression, and explain why string[len(string)] raises an IndexError while string[len(string)-1] returns the last character.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you have a student ID \"CBSE2025\" printed on your ID card and you need to extract just the board code \"CBSE\" or the year \"2025\" for a form.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

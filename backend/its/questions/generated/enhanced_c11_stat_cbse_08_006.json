@@ -34,6 +34,36 @@
      "q": "Design a mini-survey (3 commodities, 5 households) to collect data for computing a Paasche-type price index for your locality's food expenditure. Specify: (a) the commodities, (b) the reference period, (c) the exact data points each household must report, and (d) how you would aggregate household data to compute the index.",
      "a": "(a) Commodities: Rice (kg), Milk (litres), Cooking Oil (litres). (b) Base: Jan 2023; Current: Jan 2024. (c) Each household reports: quantity consumed in Jan 2024 for each commodity (q₁), price paid in Jan 2023 (p₀), price paid in Jan 2024 (p₁). (d) Aggregate: Compute weighted average prices per commodity across households using household expenditure shares as weights, then apply Paasche formula on aggregate p₀, p₁, q₁. A poor answer that asks for base year quantities or doesn't specify aggregation method reveals misunderstanding of Paasche's data requirements and the distinction between household-level and aggregate index construction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Paasche's Price Index Number is a weighted ______ index that measures the change in price level between a base period and a current period using current period quantities (q₁) as weights.",
+     "a": "aggregative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're tracking your family's ______ grocery bill.",
+     "a": "monthly",
+     "self_check": true
+    },
+    {
+     "q": "What is Paasche's Price Index Number? State the definition given in this lesson.",
+     "a": "Paasche's Price Index Number is a weighted aggregative index that measures the change in price level between a base period and a current period using current period quantities (q₁) as weights.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Compute p₁q₁ and p₀q₁ for each row, sum them, divide Σp₁q₁ by Σp₀q₁, and multiply by ______.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Paasche's Price Index Number?",
+     "a": "Students frequently swap q₀ and q₁ when writing the Paasche formula, writing Pₚ = (Σp₁q₀/Σp₀q₀)×100 (which is actually Laspeyre's).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) correctly identify and extract p₀, p₁, and q₁ from a given data table, (2) compute Σp₁q₁ and Σp₀q₁ accurately, (3) apply the Paasche formula to obtain the index number, and (4) interpret the result in terms of percentage price change relative to the base year.",
+     "self_check": true
     }
    ]
   }

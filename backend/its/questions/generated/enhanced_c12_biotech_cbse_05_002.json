@@ -34,6 +34,36 @@
      "q": "Design a strategy to identify the genomic region responsible for a novel heat-tolerance phenotype in a wild rice variety, using only structural genomics tools (no RNA-seq, no mutant library). Specify: (a) the mapping population you would create, (b) the physical landmarks you would genotype, (c) the sequencing approach for the candidate interval, and (d) how you would prioritise candidate genes from the sequence.",
      "a": "(a) Create an F2 population from a cross between the heat-tolerant wild rice (donor) and a heat-sensitive cultivated variety (recurrent parent). (b) Genotype the F2 population with STS markers (PCR-based, co-dominant, genome-wide) spaced ~500 kb apart; supplement with SSLP markers in regions showing linkage. (c) For the linked interval (~1–2 Mb), perform *de novo* PacBio HiFi or Nanopore long-read sequencing of the tolerant parent to resolve structural variants and repetitive regions that short reads miss. (d) Prioritise genes by: (i) presence of non-synonymous SNPs/indels in coding sequence between parents, (ii) known heat-shock protein domains (Pfam annotation), (iii) synteny with known heat-tolerance QTL in sorghum/maize (comparative genomics). A poor answer that suggests \"sequence the whole genome of both parents with Illumina and run GWAS\" ignores the prompt's \"structural genomics tools only\" constraint and the power of long reads for structural variant detection.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Structural genomics is the systematic determination and analysis of the three-dimensional structures of all proteins encoded by a genome (protein-centric view) AND the physical organisation of DNA within chromosomes including nucleosome positioning, chromatin architecture, and large-scale chromosomal ______ (chromosome-centric view).",
+     "a": "rearrangements",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are handed a 3-billion-base-pair instruction manual (the human genome) with no page numbers, no chapter headings, and all sentences run ______.",
+     "a": "together",
+     "self_check": true
+    },
+    {
+     "q": "What is Structural genomics? State the definition given in this lesson.",
+     "a": "Structural genomics is the systematic determination and analysis of the three-dimensional structures of all proteins encoded by a genome (protein-centric view) AND the physical organisation of DNA within chromosomes including nucleosome positioning, chromatin architecture, and large-scale chromosomal rearrangements (chromosome-centric.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are handed a ______-billion-base-pair instruction manual (the human genome) with no page numbers, no chapter headings, and all sentences run together.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Structural genomics?",
+     "a": "Students conflate \"structural genomics\" with \"whole-genome sequencing\" — they think the *goal* is just to get the sequence.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish between the protein-structure and chromosome-organisation perspectives of structural genomics and explain how they complement each other.",
+     "self_check": true
     }
    ]
   }

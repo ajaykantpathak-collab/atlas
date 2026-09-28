@@ -34,6 +34,26 @@
      "q": "Design a minimal Python code snippet that safely opens a file `log.txt` for appending, writes a single line `\"System started\"`, and guarantees the file is closed even if an error occurs during writing—without using the `with` statement.",
      "a": "```python\nfp = open('log.txt', 'a', encoding='utf-8')\ntry:\n    fp.write('System started\\n')\nfinally:\n    fp.close()\n```\nA poor answer might omit `try/finally`, place `close()` only after `write()`, or use `with` (which is not allowed per the question). This reveals the student does not understand exception‑safe resource management or the risk of unclosed files on errors.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The open() function in Python creates a file object that links a program to a specific file on disk, ______ the file path and an access mode (e.g., 'r' for read, 'w' for write, 'a' for append).",
+     "a": "requiring",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to save your daily expenses in a text file named expenses.txt so you can analyse them ______.",
+     "a": "later",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write syntactically correct open() statements with appropriate modes for given scenarios, explain why close() is necessary, and demonstrate proper file handling in a short program that opens, processes, and closes a file without resource leaks.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you want to save your daily expenses in a text file named expenses.txt so you can analyse them later.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

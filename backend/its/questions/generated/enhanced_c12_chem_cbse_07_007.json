@@ -34,6 +34,31 @@
      "q": "Design a two-step sequence to convert 2-methylpropan-1-ol (isobutyl alcohol) to 2-methylpropanal (isobutyraldehyde) without over-oxidation to the acid. Specify reagents, conditions, and how you would verify the product.",
      "a": "Step 1: Oxidize with PCC in CH₂Cl₂ at 0–25°C → 2-methylpropanal (aldehyde). Step 2: Verify by Tollens' test (silver mirror) or Fehling's test (red precipitate) — both positive for aldehydes, negative for acids. Alternative: Use Cu/573 K (dehydrogenation) but PCC gives better yield. A poor answer using KMnO₄/K₂Cr₂O₇ shows the student cannot select reagents based on oxidation level control; using NaBH₄ reduction after strong oxidation is inefficient (reduces acid back to alcohol, not aldehyde).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Dehydration of alcohols is an acid-catalyzed elimination reaction where a water molecule is removed from adjacent carbon atoms to form an alkene, proceeding via carbocation ______ with reactivity order tertiary > secondary > primary.",
+     "a": "intermediates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how heating ethanol with ______ H₂SO₄ at 443 K produces ethene gas (bubbles) while at 413 K it gives diethyl ether — the same reagent, different temperature, different reaction pathway.",
+     "a": "concentrated",
+     "self_check": true
+    },
+    {
+     "q": "What is Dehydration of alcohols? State the definition given in this lesson.",
+     "a": "Dehydration of alcohols is an acid-catalyzed elimination reaction where a water molecule is removed from adjacent carbon atoms to form an alkene, proceeding via carbocation intermediates with reactivity order tertiary > secondary > primary.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Dehydration of alcohols?",
+     "a": "Students write the dehydration of ethanol with conc.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) write the complete stepwise mechanism for acid-catalyzed dehydration of any given alcohol including carbocation rearrangements, (2) predict the major alkene product using Saytzeff's rule, (3) select the appropriate oxidizing agent to stop at aldehyde vs carboxylic acid for primary alcohols, (4) explain why tertiary.",
+     "self_check": true
     }
    ]
   }

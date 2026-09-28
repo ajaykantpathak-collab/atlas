@@ -34,6 +34,36 @@
      "q": "Design a simple 'Energy Source Selection Checklist' (5-6 questions) that a Gram Panchayat can use to decide between installing a community biogas plant, a solar micro-grid, or a diesel generator for their village. The checklist must force a comparison on: (1) Local resource availability, (2) Operational skill required, (3) Recurring cost, (4) Environmental/health impact, (5) Reliability for critical loads (e.g., vaccine fridge).",
      "a": "Sample Checklist:\n1. Is the primary resource (sunlight hours / cattle dung / diesel supply chain) reliably available locally year-round?  \n2. Can village youth be trained to maintain the system (panel cleaning / digester stirring / engine repair) within 3 months?  \n3. What is the monthly recurring cost (fuel + maintenance) per household? Is it < 5% of median income?  \n4. Does the option emit smoke/CO₂/noise inside living spaces? (Score: 0=high, 5=none)  \n5. Can it power a 200W vaccine refrigerator 24/7 without battery failure risk? (Yes/No + backup plan)  \n6. Total score > 20/30 → proceed with that option.  \nA poor checklist uses vague questions like \"Is it good?\" or ignores recurring cost/skill — showing inability to translate physics criteria into decision-making tools.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Renewable energy sources are those that are naturally replenished on a human timescale (e.g., solar, wind, hydro, biomass) and have negligible depletion risk, whereas non-renewable energy sources (e.g., coal, petroleum, natural gas, nuclear fission fuels) exist in finite geological reserves and deplete ______ with extraction.",
+     "a": "irreversibly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: a rooftop solar panel on a neighbor's house and a diesel ______ running during a power cut in the same locality.",
+     "a": "generator",
+     "self_check": true
+    },
+    {
+     "q": "What is Renewable energy sources? State the definition given in this lesson.",
+     "a": "Renewable energy sources are those that are naturally replenished on a human timescale (e.g., solar, wind, hydro, biomass) and have negligible depletion risk, whereas non-renewable energy sources (e.g., coal, petroleum, natural gas, nuclear fission fuels) exist in finite geological reserves and deplete irreversibly with extraction.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Group them by asking: \"Which of these will run out if we use them continuously for ______ years?\" This leads to the renewability definition.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Renewable energy sources?",
+     "a": "Students equate 'Renewable' with 'Clean/Zero Emission' and 'Non-renewable' with 'Dirty/High Emission'.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can construct a structured comparison table for any given pair of energy sources (one renewable, one non-renewable) using at least five criteria (availability, energy density, environmental impact, cost, reliability) and justify a context-specific choice (e.g., rural electrification vs. urban grid supply) with evidence from.",
+     "self_check": true
     }
    ]
   }

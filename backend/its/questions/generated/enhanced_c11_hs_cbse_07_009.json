@@ -34,6 +34,36 @@
      "q": "CREATE a 24-hour time plan for a Class 11 student who: (a) commutes 1.5 hours each way to school, (b) has tuition 6–8 PM, (c) needs 8 hours sleep, (d) helps with dinner prep 30 min daily. Use the NCERT format (p.112) and explicitly label each block as Compulsory/Optional and Daily/Weekly/Monthly. Justify your placement of the single \"study block\" using peak load and work curve principles.",
      "a": "Sample plan (key blocks):\n5:00–5:30 AM: Wake, hygiene (Compulsory, Daily)\n5:30–6:30 AM: STUDY BLOCK — peak load (fresh mind, no distractions) (Compulsory, Daily)\n6:30–7:00 AM: Breakfast, pack (Compulsory, Daily)\n7:00–8:30 AM: Commute (Compulsory, Daily)\n8:30 AM–2:30 PM: School (Compulsory, Daily)\n2:30–4:00 PM: Commute + unwind (Compulsory, Daily)\n4:00–4:30 PM: Power nap / rest (Compulsory, Daily) — recovery for tuition\n4:30–5:30 PM: Light review / homework (Optional, Daily)\n5:30–6:00 PM: Dinner prep help (Compulsory, Daily)\n6:00–8:00 PM: Tuition (Compulsory, Daily)\n8:00–8:30 PM: Dinner (Compulsory, Daily)\n8:30–9:30 PM: Leisure / family (Optional, Daily)\n9:30–10:00 PM: Wind down (Compulsory, Daily)\n10:00 PM–5:00 AM: Sleep (Compulsory, Daily)\nJustification: Single study block at 5:30–6:30 AM hits natural cortisol peak (alertness), precedes all decision fatigue, and uses \"warming up → plateau\" before school drain. Wrong answer reveals: student scatters study in low-energy fragments (post-tuition, late night), ignores commute as dead time, or sacrifices sleep.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Time management is the systematic process of planning, ______, and allocating the fixed 24-hour daily resource to achieve goals efficiently by balancing compulsory activities (sleep, study, chores) with optional ones (leisure, hobbies), using tools like peak load analysis, work curves, and rest periods to maximise productive output while maintaining physical and mental well-being.",
+     "a": "prioritising",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a Class 11 student who wakes up at 6 AM, rushes to school without ______, returns at 3 PM exhausted, spends 4 hours scrolling social media, starts homework at 10 PM, and sleeps at 1 AM — then wonders why they're failing tests.",
+     "a": "breakfast",
+     "self_check": true
+    },
+    {
+     "q": "What is Time management? State the definition given in this lesson.",
+     "a": "Time management is the systematic process of planning, prioritising, and allocating the fixed 24-hour daily resource to achieve goals efficiently by balancing compulsory activities (sleep, study, chores) with optional ones (leisure, hobbies), using tools like peak load analysis, work curves, and rest periods to maximise productive output.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Time management is the systematic process of planning, prioritising, and allocating the fixed ______-hour daily resource to achieve goals efficiently by balancing compulsory activities (sleep, study, chores) with optional ones (leisure, hobbies), using tools like peak load analysis, work curves, and rest periods to maximise productive output while maintaining physical and mental well-being.",
+     "a": "24",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Time management?",
+     "a": "Students believe \"time management = filling every minute with productive work\" and equate a packed schedule with good management.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can create a personalised 24-hour time plan that categorises all activities as compulsory/optional and daily/weekly/monthly/yearly, identifies their peak load periods, schedules rest breaks using work curve principles, and justifies the allocation using time management steps (prioritisation, task division, buffer time).",
+     "self_check": true
     }
    ]
   }

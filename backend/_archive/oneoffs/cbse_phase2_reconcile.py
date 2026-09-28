@@ -31,7 +31,7 @@ from pathlib import Path
 from collections import defaultdict
 
 # === CONFIG (same as Phase 1) ===
-API_KEY = os.environ.get("CLAUDE_API_KEY", "sk-ant-co-QsK1rhxdfRWZ65OJ5cVxaAZ5ISNUY0lK")
+API_KEY = os.environ.get("CLAUDE_API_KEY", "<redacted>")
 API_URL = "https://api.claudeopus.pro/v1/messages"
 MODEL = "claude-opus-5"
 MAX_TOKENS = 128000

@@ -20,7 +20,7 @@
     "identify the nature of expenditure for ...",
     "explain classification of capital and revenue expenditures"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -32,7 +32,16 @@
      "action": "assign appropriate financial statement classification",
      "explain": "Capital expenditures are capitalized on the balance sheet subject to depreciation, whereas revenue items are charged to the trading and profit and loss account."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_expenditure = capital_expenditure + revenue_expenditure",
+     "compute": "total_expenditure = capital_expenditure + revenue_expenditure"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.8.2.2",
@@ -49,7 +58,7 @@
     "determine the nature of inflow from ...",
     "explain capital receipts and revenue receipts"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -61,7 +70,16 @@
      "action": "place item in position statement or trading and profit and loss account",
      "explain": "Capital receipts affect balance sheet equity/liabilities, while revenue receipts appear on the credit side of the income statement."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_receipts = capital_receipts + revenue_receipts",
+     "compute": "total_receipts = capital_receipts + revenue_receipts"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.8.4.1",
@@ -195,7 +213,7 @@
     "draft trading account from the provided trial balance balances",
     "explain preparation of trading account and closing entries"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -212,7 +230,16 @@
      "action": "balance the account to find gross profit or gross loss",
      "explain": "Transfer resulting gross profit (or gross loss) to profit and loss account."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "trading_account_balance = net_sales + closing_stock - (opening_stock + net_purchases + direct_expenses)",
+     "compute": "trading_account_balance = net_sales + closing_stock - (opening_stock + net_purchases + direct_expenses)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.8.4.4",
@@ -261,7 +288,16 @@
      "solution": "Applying the concept's compute chain with gross_profit = 10, indirect_expenses = 10, other_incomes = 2 gives 2.0.",
      "answer": "2.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_profit = gross_profit + other_incomes - indirect_expenses",
+     "compute": "net_profit = gross_profit + other_incomes - indirect_expenses"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.8.5.1",
@@ -295,11 +331,19 @@
    ],
    "worked_examples": [
     {
-     "question": "calculate operating profit from the given particulars (take net_profit = 10, non_operating_expenses = 10, non_operating_incomes = 10)",
-     "solution": "Applying the concept's compute chain with net_profit = 10, non_operating_expenses = 10, non_operating_incomes = 10 gives 10.0.",
-     "answer": "10.0"
+     "concept": "keac.8.5.1",
+     "question_pattern": "compute operating profit when net profit is {net_profit} non-operating expenses are {non_operating_expenses} and non-operating incomes are {non_operating_incomes}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "operating_profit = net_profit + non_operating_expenses - non_operating_incomes",
+     "compute": "operating_profit = net_profit + non_operating_expenses - non_operating_incomes"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.8.6.1",
@@ -337,7 +381,16 @@
      "solution": "Applying the concept's compute chain with drawings = 10, income_tax = 10, net_profit = 10, opening_capital = 10 gives 0.0.",
      "answer": "0.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "closing_capital = opening_capital + net_profit - drawings - income_tax",
+     "compute": "closing_capital = opening_capital + net_profit - drawings - income_tax"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.8.6.2",
@@ -354,7 +407,7 @@
     "group the following items under current and non-current headings",
     "explain marshalling and grouping of balance sheet items"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -366,7 +419,16 @@
      "action": "order accounts by selected marshalling method",
      "explain": "For permanence, arrange from fixed/permanent to liquid; for liquidity, list cash and immediate obligations first."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_assets = current_assets + non_current_assets",
+     "compute": "total_assets = current_assets + non_current_assets"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.8.7.1",
@@ -383,7 +445,7 @@
     "how is an opening journal entry drafted from ledger balances",
     "explain recording the opening journal entry"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -395,7 +457,16 @@
      "action": "credit individual liability and capital accounts",
      "explain": "Credit all external obligations and owner's net equity to maintain double-entry equality."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_debit_assets = total_credit_liabilities + closing_capital",
+     "compute": "total_debit_assets = total_credit_liabilities + closing_capital"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

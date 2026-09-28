@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch14_6",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch14_6",
+   "title": "c9_math_ch14_6",
+   "questions": [
+    {
+     "q": "A survey records the favourite ice cream flavours of 50 students: Vanilla (18), Chocolate (22), Strawberry (7), Butterscotch (3). Which measure of central tendency is appropriate to find the most popular flavour, and why can the mean not be calculated?",
+     "a": "The mode is appropriate because the data is qualitative (categorical) — flavours have no numerical order or magnitude. The mean cannot be calculated because you cannot add \"Vanilla + Chocolate\" or divide categories by 50. A wrong answer (e.g., saying \"mean\" or \"median\") reveals the student thinks all data is numerical or doesn't understand that central tendency measures apply only to quantitative data unless it's mode for categories.",
+     "self_check": true
+    },
+    {
+     "q": "The monthly incomes (in ₹) of 7 families in a village are: 8000, 8500, 9000, 9200, 9500, 9800, 50000. The mean is ₹14,857 and the median is ₹9200. Explain why the median better represents the \"typical\" income, using the concept of outliers.",
+     "a": "The value ₹50,000 is an extreme outlier — it is over 5 times the next highest income. The mean includes this outlier in its calculation (sum of all values ÷ 7), so it gets pulled toward ₹50,000, making it ₹14,857, which is higher than 6 out of 7 families earn. The median uses only the middle position (4th value = ₹9200) and ignores the outlier's magnitude. A wrong answer reveals the student doesn't grasp that the mean is sensitive to every value's magnitude while the median depends only on position/order.",
+     "self_check": true
+    },
+    {
+     "q": "A class of 20 students took a 20-mark test. Scores: 5, 6, 7, 7, 8, 8, 8, 9, 9, 10, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19. Calculate the mean, median, and mode. Which measure would you report to the principal to show the class performance is \"around 10\"? Justify.",
+     "a": "Mean = (5+6+7+7+8+8+8+9+9+10+10+11+12+13+14+15+16+17+18+19) ÷ 20 = 197 ÷ 20 = 9.85. Median = average of 10th and 11th values = (10+10)÷2 = 10. Mode = 8 (appears 3 times). To show performance is \"around 10\", the median (10) is best because the data is roughly symmetric with no extreme outliers, and the median equals the centre. The mean (9.85) is close but slightly pulled down by the low score 5. The mode (8) represents only the most frequent score, not the centre. A wrong choice (e.g., mode) reveals the student confuses \"most frequent\" with \"typical/central\".",
+     "self_check": true
+    },
+    {
+     "q": "A frequency distribution has open-ended classes: \"Below 10\", \"10–20\", \"20–30\", \"30–40\", \"40 and above\". The mean cannot be calculated exactly. Explain why the median can still be found, and what assumption is needed for the mode in the modal class \"20–30\".",
+     "a": "The median can be found because it only requires the cumulative frequency to locate the median class — it does not need the exact values in the open-ended classes, only their frequencies. For the mode in modal class \"20–30\", the formula Mode = l + [(f₁−f₀)/(2f₁−f₀−f₂)]×h assumes the distribution is continuous and the frequencies in neighbouring classes (f₀ for 10–20, f₂ for 30–40) are known. If f₀ or f₂ is from an open-ended class, the formula cannot be applied reliably. A wrong answer reveals the student thinks all measures need exact class boundaries or doesn't know the mode formula's dependence on adjacent class frequencies.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"For any dataset, the mean is the best measure because it uses all the data values.\" Evaluate this claim. Give a counterexample with 5 numbers where the mean is misleading, and state when the mean IS the best choice.",
+     "a": "The claim is false. Counterexample: 10, 12, 13, 14, 100. Mean = 29.8, median = 13. The mean (29.8) is not near any value; 4 out of 5 numbers are 10–14. The outlier 100 distorts the mean. The mean IS the best choice when: (1) data is quantitative and symmetric (e.g., heights of adults), (2) no significant outliers, (3) further algebraic treatment is needed (e.g., combining groups), (4) every value's magnitude matters (e.g., average cost per unit). A wrong evaluation reveals the student memorises \"mean uses all values\" without understanding the implication of that property — it makes the mean sensitive to extremes.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where you would choose the mode over mean and median. Specify the data type, give 8–10 data values, calculate all three measures, and explain why the mode answers the practical question best.",
+     "a": "Scenario: A shoe shop owner in Delhi wants to know which shoe size to stock most. Data (sizes): 7, 7, 8, 8, 8, 9, 9, 10, 10, 11. Mean = 87÷10 = 8.7 (not a valid size). Median = (8+9)÷2 = 8.5 (not a valid size). Mode = 8 (appears 3 times). The mode gives an actual existing size that maximises sales probability. Mean and median give non-integer sizes that don't exist. A poor answer (e.g., using mean for \"average size to stock\") reveals the student doesn't connect the measure to the decision context — the shop needs a discrete size, not a mathematical centre.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

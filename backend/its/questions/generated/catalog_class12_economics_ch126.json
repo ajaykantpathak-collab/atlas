@@ -1,0 +1,58 @@
+{
+ "catalog": "catalog_class12_economics_ch126.json",
+ "concepts": [
+  {
+   "id": "lekl.126.2",
+   "title": "Prescientific Worldview versus Scientific Worldview",
+   "converted_to_compute": true,
+   "formula": "prescientific_view = anthropomorphic_deities + magical_formulas; scientific_view = unswervable_laws + empirical_understanding",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "prescientific_view = anthropomorphic_deities + magical_formulas",
+     "compute": "prescientific_view = anthropomorphic_deities + magical_formulas"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "scientific_view = unswervable_laws + empirical_understanding",
+     "compute": "scientific_view = unswervable_laws + empirical_understanding"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Prescientific Worldview versus Scientific Worldview: given anthropomorphic_deities = 82, magical_formulas = 3.3, unswervable_laws = 61, empirical_understanding = 12.9, find scientific view.",
+     "a": "73.9",
+     "self_check": false
+    },
+    {
+     "q": "For Prescientific Worldview versus Scientific Worldview: given anthropomorphic_deities = 86, magical_formulas = 47, unswervable_laws = 51, empirical_understanding = 83, find scientific view.",
+     "a": "134",
+     "self_check": false
+    },
+    {
+     "q": "For Prescientific Worldview versus Scientific Worldview: given anthropomorphic_deities = 79, magical_formulas = 53, unswervable_laws = 43, empirical_understanding = 72, find scientific view.",
+     "a": "115",
+     "self_check": false
+    },
+    {
+     "q": "For Prescientific Worldview versus Scientific Worldview: given anthropomorphic_deities = 51, magical_formulas = 66, unswervable_laws = 45, empirical_understanding = 12.9, find scientific view.",
+     "a": "57.9",
+     "self_check": false
+    },
+    {
+     "q": "For Prescientific Worldview versus Scientific Worldview: given anthropomorphic_deities = 24, magical_formulas = 4.2, unswervable_laws = 66, empirical_understanding = 71, find scientific view.",
+     "a": "137",
+     "self_check": false
+    },
+    {
+     "q": "For Prescientific Worldview versus Scientific Worldview: given anthropomorphic_deities = 45, magical_formulas = 75, unswervable_laws = 43, empirical_understanding = 12.8, find scientific view.",
+     "a": "55.8",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

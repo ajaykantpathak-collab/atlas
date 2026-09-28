@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using only a magnet, test tubes, and aqueous solutions of MnSO₄, FeSO₄, CoCl₂, NiCl₂, CuSO₄, and ZnSO₄ (all 0.1 M) to demonstrate the trend in paramagnetism across the first transition series. What would you observe, and how does it correlate with the number of unpaired electrons?",
      "a": "Bring a strong neodymium magnet near each test tube. Observe: ZnSO₄ (d¹⁰, n=0) — no attraction (diamagnetic). CuSO₄ (d⁹, n=1) — very weak attraction. NiCl₂ (d⁸, n=2) — weak attraction. CoCl₂ (d⁷, n=3) — moderate attraction. FeSO₄ (d⁶, n=4) — stronger attraction. MnSO₄ (d⁵, n=5) — strongest attraction. The force of attraction increases with n, following the trend in spin-only magnetic moment μ = √[n(n+2)]. A poor answer (e.g., \"all are attracted equally\" or \"only Fe is magnetic\") reveals the student doesn't connect magnetic moment magnitude to number of unpaired electrons or doesn't know Zn²⁺ is diamagnetic.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Magnetic properties of transition elements arise from unpaired electrons in partially filled d-orbitals, with ______ quantified by the spin-only magnetic moment formula μ = √[n(n+2)] Bohr magnetons (BM), where n is the number of unpaired electrons.",
+     "a": "paramagnetism",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a chemistry lab where copper(II) sulphate solution appears blue, while zinc sulphate is ______.",
+     "a": "colourless",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Magnetic properties of transition elements arise from unpaired electrons in partially filled d-orbitals, with paramagnetism quantified by the spin-only magnetic moment formula μ = √[n(n+______)] Bohr magnetons (BM), where n is the number of unpaired electrons.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the spin-only magnetic moment for any transition metal ion given its d-electron configuration, predict whether a substance is paramagnetic or diamagnetic, explain the origin of colour in transition metal complexes using d-d transitions, and correlate the number of unpaired electrons with both magnetic moment and.",
+     "self_check": true
     }
    ]
   }

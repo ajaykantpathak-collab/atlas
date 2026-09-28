@@ -2,6 +2,106 @@
  "catalog": "catalog_class9_science_ch113.json",
  "concepts": [
   {
+   "id": "iesc.113.2",
+   "title": "Calculation of Solar Energy Received",
+   "converted_to_compute": true,
+   "formula": "energy = intensity * area * time",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "energy = intensity * area * time",
+     "compute": "energy = intensity * area * time"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "iesc.113.2",
+     "question_pattern": "Calculate the solar energy received by a solar panel of area {intensity} in {area} hours if the insolation is {time}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Calculation of Solar Energy Received: given intensity = 59, area = 6.9, time = 83, find energy.",
+     "a": "33789.3",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the solar energy received by a solar panel of area 59 in 6.9 hours if the insolation is 83?",
+     "a": "33789.3",
+     "self_check": false
+    },
+    {
+     "q": "For Calculation of Solar Energy Received: given intensity = 21, area = 64, time = 110, find energy.",
+     "a": "147840",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the solar energy received by a solar panel of area 21 in 64 hours if the insolation is 110?",
+     "a": "147840",
+     "self_check": false
+    },
+    {
+     "q": "For Calculation of Solar Energy Received: given intensity = 68, area = 73, time = 98, find energy.",
+     "a": "486472",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the solar energy received by a solar panel of area 68 in 73 hours if the insolation is 98?",
+     "a": "486472",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.113.3",
+   "title": "Albedo and Surface Reflection",
+   "converted_to_compute": true,
+   "formula": "reflected = incoming * albedo",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "reflected = incoming * albedo",
+     "compute": "reflected = incoming * albedo"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Albedo and Surface Reflection: given incoming = 13.2, albedo = 84, find reflected.",
+     "a": "1108.8",
+     "self_check": false
+    },
+    {
+     "q": "For Albedo and Surface Reflection: given incoming = 34, albedo = 11.9, find reflected.",
+     "a": "404.6",
+     "self_check": false
+    },
+    {
+     "q": "For Albedo and Surface Reflection: given incoming = 64, albedo = 99, find reflected.",
+     "a": "6336",
+     "self_check": false
+    },
+    {
+     "q": "For Albedo and Surface Reflection: given incoming = 78, albedo = 55, find reflected.",
+     "a": "4290",
+     "self_check": false
+    },
+    {
+     "q": "For Albedo and Surface Reflection: given incoming = 34, albedo = 62, find reflected.",
+     "a": "2108",
+     "self_check": false
+    },
+    {
+     "q": "For Albedo and Surface Reflection: given incoming = 52, albedo = 86, find reflected.",
+     "a": "4472",
+     "self_check": false
+    }
+   ]
+  },
+  {
    "id": "iesc.113.1",
    "title": "Earth's Spheres and Interconnectedness",
    "solution_type": "verify_property",
@@ -20,175 +120,6 @@
      "q": "Why is earth called a connected system?",
      "a": "A change in one sphere - say extra CO2 in air - affects water, land and life too.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "iesc.113.2",
-   "title": "Calculation of Solar Energy Received",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "panel_power",
-     "expr": "intensity * area",
-     "explain": "power falling on the panel"
-    },
-    {
-     "step": 2,
-     "name": "half_time_energy",
-     "expr": "panel_power * (time / 2)",
-     "explain": "energy in half the time"
-    },
-    {
-     "step": 3,
-     "name": "energy",
-     "expr": "intensity * area * time",
-     "explain": "energy = power x time; power = intensity x area"
-    }
-   ],
-   "questions": [
-    {
-     "q": "Sunlight of 1000 W/m2 falls on a 2 m2 panel for 1 hour. How much energy is received?",
-     "vals": {
-      "intensity": 1000,
-      "area": 2,
-      "time": 3600
-     },
-     "unit": "J",
-     "steps": null,
-     "a": "7200000 J",
-     "self_check": false
-    },
-    {
-     "q": "A 1.5 m2 collector gets 800 W/m2 for 2 h. Calculate the energy collected.",
-     "vals": {
-      "intensity": 800,
-      "area": 1.5,
-      "time": 7200
-     },
-     "unit": "J",
-     "steps": null,
-     "a": "8640000 J",
-     "self_check": false
-    },
-    {
-     "q": "An area of 0.5 m2 receives 1200 W/m2 for 30 minutes. Find the energy.",
-     "vals": {
-      "intensity": 1200,
-      "area": 0.5,
-      "time": 1800
-     },
-     "unit": "J",
-     "steps": null,
-     "a": "1080000 J",
-     "self_check": false
-    },
-    {
-     "q": "The earth receives 1400 W/m2 on a 10 m2 patch for 5 min. Compute the energy.",
-     "vals": {
-      "intensity": 1400,
-      "area": 10,
-      "time": 300
-     },
-     "unit": "J",
-     "steps": null,
-     "a": "4200000 J",
-     "self_check": false
-    },
-    {
-     "q": "A 3 m2 solar cooker faces 900 W/m2 for 40 min. How much energy does it absorb?",
-     "vals": {
-      "intensity": 900,
-      "area": 3,
-      "time": 2400
-     },
-     "unit": "J",
-     "steps": null,
-     "a": "6480000 J",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "iesc.113.3",
-   "title": "Albedo and Surface Reflection",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "reflected",
-     "expr": "incoming * albedo",
-     "explain": "reflected energy = incoming x albedo"
-    },
-    {
-     "step": 2,
-     "name": "reflected_percent",
-     "expr": "albedo * 100",
-     "explain": "per cent of light reflected (the albedo)"
-    },
-    {
-     "step": 3,
-     "name": "absorbed",
-     "expr": "incoming - reflected",
-     "explain": "the rest is absorbed by the surface"
-    }
-   ],
-   "questions": [
-    {
-     "q": "Fresh snow reflects 80% of incoming radiation. Of 500 W/m2, how much is reflected and how much absorbed?",
-     "vals": {
-      "incoming": 500,
-      "albedo": 0.8
-     },
-     "unit": "W/m2",
-     "steps": null,
-     "a": "100 W/m2",
-     "self_check": false
-    },
-    {
-     "q": "A forest has albedo 0.15. For 800 W/m2 incoming, find reflected and absorbed shares.",
-     "vals": {
-      "incoming": 800,
-      "albedo": 0.15
-     },
-     "unit": "W/m2",
-     "steps": null,
-     "a": "680 W/m2",
-     "self_check": false
-    },
-    {
-     "q": "Ocean water reflects 6% of sunlight. With 1000 W/m2, compute reflected and absorbed values.",
-     "vals": {
-      "incoming": 1000,
-      "albedo": 0.06
-     },
-     "unit": "W/m2",
-     "steps": null,
-     "a": "940 W/m2",
-     "self_check": false
-    },
-    {
-     "q": "A desert reflects 30% of 600 W/m2. Find the reflected and absorbed parts.",
-     "vals": {
-      "incoming": 600,
-      "albedo": 0.3
-     },
-     "unit": "W/m2",
-     "steps": null,
-     "a": "420 W/m2",
-     "self_check": false
-    },
-    {
-     "q": "Clouds have albedo 0.5. Of 700 W/m2, what is reflected and what absorbed?",
-     "vals": {
-      "incoming": 700,
-      "albedo": 0.5
-     },
-     "unit": "W/m2",
-     "steps": null,
-     "a": "350 W/m2",
-     "self_check": false
     }
    ]
   },

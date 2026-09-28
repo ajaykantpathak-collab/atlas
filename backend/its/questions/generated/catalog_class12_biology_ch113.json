@@ -1,6 +1,335 @@
 {
- "catalog": "catalog_class12_biology_ch113",
+ "catalog": "catalog_class12_biology_ch113.json",
  "concepts": [
+  {
+   "id": "lebo.13.1.3",
+   "title": "Species Proportion and Percentage Share Calculation",
+   "converted_to_compute": true,
+   "formula": "percentage_share = (group_species_count / total_global_species) * 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "percentage_share = (group_species_count / total_global_species) * 100",
+     "compute": "percentage_share = (group_species_count / total_global_species) * 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Species Proportion and Percentage Share Calculation: given group_species_count = 178, total_global_species = 16.6, find percentage share.",
+     "a": "1072.29",
+     "self_check": false
+    },
+    {
+     "q": "For Species Proportion and Percentage Share Calculation: given group_species_count = 95, total_global_species = 74, find percentage share.",
+     "a": "128.378",
+     "self_check": false
+    },
+    {
+     "q": "For Species Proportion and Percentage Share Calculation: given group_species_count = 167, total_global_species = 26, find percentage share.",
+     "a": "642.308",
+     "self_check": false
+    },
+    {
+     "q": "For Species Proportion and Percentage Share Calculation: given group_species_count = 76, total_global_species = 15.2, find percentage share.",
+     "a": "500",
+     "self_check": false
+    },
+    {
+     "q": "For Species Proportion and Percentage Share Calculation: given group_species_count = 63, total_global_species = 17.3, find percentage share.",
+     "a": "364.162",
+     "self_check": false
+    },
+    {
+     "q": "For Species Proportion and Percentage Share Calculation: given group_species_count = 454, total_global_species = 17.7, find percentage share.",
+     "a": "2564.97",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lebo.13.1.5",
+   "title": "Species-Area Relationship and Regression Coefficients",
+   "converted_to_compute": true,
+   "formula": "log_S = log_C + Z * log_A",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "log_S = log_C + Z * log_A",
+     "compute": "log_S = log_C + Z * log_A"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Species-Area Relationship and Regression Coefficients: given log_C = 68, Z = 48, log_A = 24, find log S.",
+     "a": "1220",
+     "self_check": false
+    },
+    {
+     "q": "For Species-Area Relationship and Regression Coefficients: given log_C = 1.3, Z = 56, log_A = 56, find log S.",
+     "a": "3137.3",
+     "self_check": false
+    },
+    {
+     "q": "For Species-Area Relationship and Regression Coefficients: given log_C = 61, Z = 19.2, log_A = 23, find log S.",
+     "a": "502.6",
+     "self_check": false
+    },
+    {
+     "q": "For Species-Area Relationship and Regression Coefficients: given log_C = 5.5, Z = 97, log_A = 28, find log S.",
+     "a": "2721.5",
+     "self_check": false
+    },
+    {
+     "q": "For Species-Area Relationship and Regression Coefficients: given log_C = 80, Z = 89, log_A = 23, find log S.",
+     "a": "2127",
+     "self_check": false
+    },
+    {
+     "q": "For Species-Area Relationship and Regression Coefficients: given log_C = 1.8, Z = 76, log_A = 55, find log S.",
+     "a": "4181.8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lebo.13.1.7",
+   "title": "Biodiversity Loss and Mass Extinction Rates",
+   "converted_to_compute": true,
+   "formula": "current_extinction_rate = baseline_rate * 1000",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "current_extinction_rate = baseline_rate * 1000",
+     "compute": "current_extinction_rate = baseline_rate * 1000"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Biodiversity Loss and Mass Extinction Rates: given baseline_rate = 16.6, find current extinction rate.",
+     "a": "16600",
+     "self_check": false
+    },
+    {
+     "q": "For Biodiversity Loss and Mass Extinction Rates: given baseline_rate = 74, find current extinction rate.",
+     "a": "74000",
+     "self_check": false
+    },
+    {
+     "q": "For Biodiversity Loss and Mass Extinction Rates: given baseline_rate = 89, find current extinction rate.",
+     "a": "89000",
+     "self_check": false
+    },
+    {
+     "q": "For Biodiversity Loss and Mass Extinction Rates: given baseline_rate = 34, find current extinction rate.",
+     "a": "34000",
+     "self_check": false
+    },
+    {
+     "q": "For Biodiversity Loss and Mass Extinction Rates: given baseline_rate = 63, find current extinction rate.",
+     "a": "63000",
+     "self_check": false
+    },
+    {
+     "q": "For Biodiversity Loss and Mass Extinction Rates: given baseline_rate = 44, find current extinction rate.",
+     "a": "44000",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lebo.13.1.8",
+   "title": "Causes of Biodiversity Loss: The Evil Quartet",
+   "converted_to_compute": true,
+   "formula": "biodiversity_loss = habitat_destruction + overexploitation + alien_invasions + coextinctions",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "biodiversity_loss = habitat_destruction + overexploitation + alien_invasions + coextinctions",
+     "compute": "biodiversity_loss = habitat_destruction + overexploitation + alien_invasions + coextinctions"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Causes of Biodiversity Loss: The Evil Quartet: given habitat_destruction = 82, overexploitation = 85, alien_invasions = 0.5, coextinctions = 14.4, find biodiversity loss.",
+     "a": "181.9",
+     "self_check": false
+    },
+    {
+     "q": "For Causes of Biodiversity Loss: The Evil Quartet: given habitat_destruction = 20, overexploitation = 36, alien_invasions = 15.1, coextinctions = 73, find biodiversity loss.",
+     "a": "144.1",
+     "self_check": false
+    },
+    {
+     "q": "For Causes of Biodiversity Loss: The Evil Quartet: given habitat_destruction = 118, overexploitation = 65, alien_invasions = 19.8, coextinctions = 5.4, find biodiversity loss.",
+     "a": "208.2",
+     "self_check": false
+    },
+    {
+     "q": "For Causes of Biodiversity Loss: The Evil Quartet: given habitat_destruction = 101, overexploitation = 67, alien_invasions = 15.7, coextinctions = 94, find biodiversity loss.",
+     "a": "277.7",
+     "self_check": false
+    },
+    {
+     "q": "For Causes of Biodiversity Loss: The Evil Quartet: given habitat_destruction = 46, overexploitation = 10.9, alien_invasions = 14.5, coextinctions = 54, find biodiversity loss.",
+     "a": "125.4",
+     "self_check": false
+    },
+    {
+     "q": "For Causes of Biodiversity Loss: The Evil Quartet: given habitat_destruction = 84, overexploitation = 93, alien_invasions = 9.5, coextinctions = 51, find biodiversity loss.",
+     "a": "237.5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lebo.13.2.1",
+   "title": "Reasons for Conserving Biodiversity: Utilitarian and Ethical Arguments",
+   "converted_to_compute": true,
+   "formula": "conservation_rationale = narrow_utilitarian + broad_utilitarian + ethical_duties",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "conservation_rationale = narrow_utilitarian + broad_utilitarian + ethical_duties",
+     "compute": "conservation_rationale = narrow_utilitarian + broad_utilitarian + ethical_duties"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Reasons for Conserving Biodiversity: Utilitarian and Ethical Arguments: given narrow_utilitarian = 48, broad_utilitarian = 68, ethical_duties = 32, find conservation rationale.",
+     "a": "148",
+     "self_check": false
+    },
+    {
+     "q": "For Reasons for Conserving Biodiversity: Utilitarian and Ethical Arguments: given narrow_utilitarian = 62, broad_utilitarian = 93, ethical_duties = 30, find conservation rationale.",
+     "a": "185",
+     "self_check": false
+    },
+    {
+     "q": "For Reasons for Conserving Biodiversity: Utilitarian and Ethical Arguments: given narrow_utilitarian = 7.7, broad_utilitarian = 91, ethical_duties = 45, find conservation rationale.",
+     "a": "143.7",
+     "self_check": false
+    },
+    {
+     "q": "For Reasons for Conserving Biodiversity: Utilitarian and Ethical Arguments: given narrow_utilitarian = 37, broad_utilitarian = 64, ethical_duties = 29, find conservation rationale.",
+     "a": "130",
+     "self_check": false
+    },
+    {
+     "q": "For Reasons for Conserving Biodiversity: Utilitarian and Ethical Arguments: given narrow_utilitarian = 67, broad_utilitarian = 74, ethical_duties = 46, find conservation rationale.",
+     "a": "187",
+     "self_check": false
+    },
+    {
+     "q": "For Reasons for Conserving Biodiversity: Utilitarian and Ethical Arguments: given narrow_utilitarian = 3.8, broad_utilitarian = 88, ethical_duties = 78, find conservation rationale.",
+     "a": "169.8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lebo.13.2.2",
+   "title": "In Situ Conservation Strategy and Sacred Groves",
+   "converted_to_compute": true,
+   "formula": "in_situ_network = biosphere_reserves + national_parks + sanctuaries + sacred_groves",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "in_situ_network = biosphere_reserves + national_parks + sanctuaries + sacred_groves",
+     "compute": "in_situ_network = biosphere_reserves + national_parks + sanctuaries + sacred_groves"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For In Situ Conservation Strategy and Sacred Groves: given biosphere_reserves = 63, national_parks = 16.2, sanctuaries = 16.2, sacred_groves = 23, find in situ network.",
+     "a": "118.4",
+     "self_check": false
+    },
+    {
+     "q": "For In Situ Conservation Strategy and Sacred Groves: given biosphere_reserves = 33, national_parks = 33, sanctuaries = 35, sacred_groves = 97, find in situ network.",
+     "a": "198",
+     "self_check": false
+    },
+    {
+     "q": "For In Situ Conservation Strategy and Sacred Groves: given biosphere_reserves = 57, national_parks = 72, sanctuaries = 93, sacred_groves = 32, find in situ network.",
+     "a": "254",
+     "self_check": false
+    },
+    {
+     "q": "For In Situ Conservation Strategy and Sacred Groves: given biosphere_reserves = 10.5, national_parks = 75, sanctuaries = 46, sacred_groves = 67, find in situ network.",
+     "a": "198.5",
+     "self_check": false
+    },
+    {
+     "q": "For In Situ Conservation Strategy and Sacred Groves: given biosphere_reserves = 95, national_parks = 61, sanctuaries = 18.2, sacred_groves = 68, find in situ network.",
+     "a": "242.2",
+     "self_check": false
+    },
+    {
+     "q": "For In Situ Conservation Strategy and Sacred Groves: given biosphere_reserves = 91, national_parks = 25, sanctuaries = 6, sacred_groves = 27, find in situ network.",
+     "a": "149",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lebo.13.2.3",
+   "title": "Ex Situ Conservation Techniques and Global Environmental Summits",
+   "converted_to_compute": true,
+   "formula": "ex_situ_methods = cryopreservation + seed_banks + tissue_culture + zoological_gardens",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ex_situ_methods = cryopreservation + seed_banks + tissue_culture + zoological_gardens",
+     "compute": "ex_situ_methods = cryopreservation + seed_banks + tissue_culture + zoological_gardens"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Ex Situ Conservation Techniques and Global Environmental Summits: given cryopreservation = 80, seed_banks = 18.2, tissue_culture = 89, zoological_gardens = 31, find ex situ methods.",
+     "a": "218.2",
+     "self_check": false
+    },
+    {
+     "q": "For Ex Situ Conservation Techniques and Global Environmental Summits: given cryopreservation = 65, seed_banks = 2.7, tissue_culture = 47, zoological_gardens = 40, find ex situ methods.",
+     "a": "154.7",
+     "self_check": false
+    },
+    {
+     "q": "For Ex Situ Conservation Techniques and Global Environmental Summits: given cryopreservation = 6.8, seed_banks = 97, tissue_culture = 58, zoological_gardens = 11.1, find ex situ methods.",
+     "a": "172.9",
+     "self_check": false
+    },
+    {
+     "q": "For Ex Situ Conservation Techniques and Global Environmental Summits: given cryopreservation = 50, seed_banks = 30, tissue_culture = 42, zoological_gardens = 95, find ex situ methods.",
+     "a": "217",
+     "self_check": false
+    },
+    {
+     "q": "For Ex Situ Conservation Techniques and Global Environmental Summits: given cryopreservation = 82, seed_banks = 45, tissue_culture = 74, zoological_gardens = 70, find ex situ methods.",
+     "a": "271",
+     "self_check": false
+    },
+    {
+     "q": "For Ex Situ Conservation Techniques and Global Environmental Summits: given cryopreservation = 92, seed_banks = 95, tissue_culture = 19.5, zoological_gardens = 24, find ex situ methods.",
+     "a": "230.5",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "lebo.13.1.1",
    "title": "Levels of Biological Diversity",
@@ -54,37 +383,6 @@
    ]
   },
   {
-   "id": "lebo.13.1.3",
-   "title": "Species Proportion and Percentage Share Calculation",
-   "questions": [
-    {
-     "q": "Calculate the percentage share of global species recorded in a country. Use the method 'Species Proportion and Percentage Share Calculation'. Work with: group_species_count = 60, total_global_species = 20. Carry the chain through step by step and give the final value of percentage_share.",
-     "a": "300 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Find the percentage of animal species contributed by a specific taxonomic group. Use the method 'Species Proportion and Percentage Share Calculation'. Work with: group_species_count = 8, total_global_species = 150. Carry the chain through step by step and give the final value of percentage_share.",
-     "a": "5.3333 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Species Proportion and Percentage Share Calculation' refers to.",
-     "a": "Mathematical calculation determining the percentage contribution of a region or taxonomic group relative to the total global species headcount.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Species Proportion and Percentage Share Calculation'.",
-     "a": "Quantifying national or taxonomic proportion relative to global biological headcount.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Species Proportion and Percentage Share Calculation', in plain ASCII form.",
-     "a": "percentage_share = (group_species_count / total_global_species) * 100",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "lebo.13.1.4",
    "title": "Latitudinal Gradients in Biodiversity",
    "questions": [
@@ -106,37 +404,6 @@
    ]
   },
   {
-   "id": "lebo.13.1.5",
-   "title": "Species-Area Relationship and Regression Coefficients",
-   "questions": [
-    {
-     "q": "Calculate log species richness log S using the species-area logarithmic equation. Use the method 'Species-Area Relationship and Regression Coefficients'. Work with: log_a = 60, log_c = 75, z = 240. Carry the chain through step by step and give the final value of log_s.",
-     "a": "14475 units",
-     "self_check": false
-    },
-    {
-     "q": "Determine log_S given regression coefficient Z, log_A, and log_C. Use the method 'Species-Area Relationship and Regression Coefficients'. Work with: log_a = 360, log_c = 20, z = 150. Carry the chain through step by step and give the final value of log_s.",
-     "a": "54020 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Species-Area Relationship and Regression Coefficients' refers to.",
-     "a": "The mathematical curve describing how species richness scales with increasing sample area, forming a rectangular hyperbola on linear scales and a straight line on logarithmic axes.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Species-Area Relationship and Regression Coefficients'.",
-     "a": "Logarithmic plot of species richness against area gives a straight line whose slope Z reflects geographic scale.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Species-Area Relationship and Regression Coefficients', in plain ASCII form.",
-     "a": "log_S = log_C + Z * log_A",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "lebo.13.1.6",
    "title": "Ecosystem Stability and the Rivet Popper Hypothesis",
    "questions": [
@@ -153,161 +420,6 @@
     {
      "q": "Write the standard relation used for 'Ecosystem Stability and the Rivet Popper Hypothesis', in plain ASCII form.",
      "a": "ecosystem_stability ~ species_richness",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebo.13.1.7",
-   "title": "Biodiversity Loss and Mass Extinction Rates",
-   "questions": [
-    {
-     "q": "Using the method 'Biodiversity Loss and Mass Extinction Rates', work with: baseline_rate = 8. Carry the chain through step by step and give the final value of current_extinction_rate.",
-     "a": "8000 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Biodiversity Loss and Mass Extinction Rates' and work with: baseline_rate = 20. Carry the chain through step by step and give the final value of current_extinction_rate.",
-     "a": "20000 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Biodiversity Loss and Mass Extinction Rates' refers to.",
-     "a": "The ongoing rapid decline of biological species across global taxa, contrasting past natural extinction events with accelerated anthropogenic rates.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Biodiversity Loss and Mass Extinction Rates'.",
-     "a": "Human activities are driving a sixth mass extinction event at rates up to a thousand times faster than pre-human background levels.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Biodiversity Loss and Mass Extinction Rates', in plain ASCII form.",
-     "a": "current_extinction_rate = baseline_rate * 1000",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebo.13.1.8",
-   "title": "Causes of Biodiversity Loss: The Evil Quartet",
-   "questions": [
-    {
-     "q": "Using the method 'Causes of Biodiversity Loss: The Evil Quartet', work with: alien_invasions = 25, coextinctions = 50, habitat_destruction = 200, overexploitation = 240. Carry the chain through step by step and give the final value of biodiversity_loss.",
-     "a": "515 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Causes of Biodiversity Loss: The Evil Quartet' and work with: alien_invasions = 150, coextinctions = 360, habitat_destruction = 360, overexploitation = 12. Carry the chain through step by step and give the final value of biodiversity_loss.",
-     "a": "882 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Causes of Biodiversity Loss: The Evil Quartet' refers to.",
-     "a": "The four principal human-driven mechanisms responsible for species extinction: habitat destruction/fragmentation, over-exploitation, invasive alien species, and co-extinction events.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Causes of Biodiversity Loss: The Evil Quartet'.",
-     "a": "Habitat loss and fragmentation constitute the leading drive of global species declines.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Causes of Biodiversity Loss: The Evil Quartet', in plain ASCII form.",
-     "a": "biodiversity_loss = habitat_destruction + overexploitation + alien_invasions + coextinctions",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebo.13.2.1",
-   "title": "Reasons for Conserving Biodiversity: Utilitarian and Ethical Arguments",
-   "questions": [
-    {
-     "q": "Using the method 'Reasons for Conserving Biodiversity: Utilitarian and Ethical Arguments', work with: broad_utilitarian = 120, ethical_duties = 60, narrow_utilitarian = 15. Carry the chain through step by step and give the final value of conservation_rationale.",
-     "a": "195 times",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Reasons for Conserving Biodiversity: Utilitarian and Ethical Arguments' and work with: broad_utilitarian = 60, ethical_duties = 18, narrow_utilitarian = 80. Carry the chain through step by step and give the final value of conservation_rationale.",
-     "a": "158 times",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Reasons for Conserving Biodiversity: Utilitarian and Ethical Arguments' refers to.",
-     "a": "The framework categorizing conservation rationale into direct economic gains, vital ecosystem services, and moral duties toward fellow biological species.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Reasons for Conserving Biodiversity: Utilitarian and Ethical Arguments'.",
-     "a": "Conservation is justified by economic benefits like bioprospecting, ecosystem services like oxygen production, and intrinsic species value.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Reasons for Conserving Biodiversity: Utilitarian and Ethical Arguments', in plain ASCII form.",
-     "a": "conservation_rationale = narrow_utilitarian + broad_utilitarian + ethical_duties",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebo.13.2.2",
-   "title": "In Situ Conservation Strategy and Sacred Groves",
-   "questions": [
-    {
-     "q": "Using the method 'In Situ Conservation Strategy and Sacred Groves', work with: biosphere_reserves = 360, national_parks = 60, sacred_groves = 500, sanctuaries = 10. Carry the chain through step by step and give the final value of in_situ_network.",
-     "a": "930 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'In Situ Conservation Strategy and Sacred Groves' and work with: biosphere_reserves = 50, national_parks = 18, sacred_groves = 1200, sanctuaries = 25. Carry the chain through step by step and give the final value of in_situ_network.",
-     "a": "1293 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'In Situ Conservation Strategy and Sacred Groves' refers to.",
-     "a": "On-site protection of total ecosystems in their natural habitat through legally designated reserves, biodiversity hotspots, and culturally protected sacred groves.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'In Situ Conservation Strategy and Sacred Groves'.",
-     "a": "In situ strategies preserve organisms in their native habitats, focusing priority on high-endemism hotspots and cultural refuges.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'In Situ Conservation Strategy and Sacred Groves', in plain ASCII form.",
-     "a": "in_situ_network = biosphere_reserves + national_parks + sanctuaries + sacred_groves",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebo.13.2.3",
-   "title": "Ex Situ Conservation Techniques and Global Environmental Summits",
-   "questions": [
-    {
-     "q": "Using the method 'Ex Situ Conservation Techniques and Global Environmental Summits', work with: cryopreservation = 60, seed_banks = 3, tissue_culture = 40, zoological_gardens = 200. Carry the chain through step by step and give the final value of ex_situ_methods.",
-     "a": "303 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Ex Situ Conservation Techniques and Global Environmental Summits' and work with: cryopreservation = 30, seed_banks = 360, tissue_culture = 5, zoological_gardens = 3. Carry the chain through step by step and give the final value of ex_situ_methods.",
-     "a": "398 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Ex Situ Conservation Techniques and Global Environmental Summits' refers to.",
-     "a": "Off-site preservation techniques placing endangered species under human care along with international political commitments for sustainable biological management.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Ex Situ Conservation Techniques and Global Environmental Summits'.",
-     "a": "Advanced ex situ techniques maintain gametes and tissues artificially, complemented by international agreements like Earth Summit.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Ex Situ Conservation Techniques and Global Environmental Summits', in plain ASCII form.",
-     "a": "ex_situ_methods = cryopreservation + seed_banks + tissue_culture + zoological_gardens",
      "self_check": true
     }
    ]

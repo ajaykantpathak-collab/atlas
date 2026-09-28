@@ -83,7 +83,16 @@
      "q": "Who modelled the neuronal action potential in 1952: Hodgkin and Huxley, or Noble?",
      "a": "Hodgkin and Huxley"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "model_span = cell_model_year - axon_model_year",
+     "compute": "model_span = cell_model_year - axon_model_year"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt111.3",

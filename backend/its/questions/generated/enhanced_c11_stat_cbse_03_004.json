@@ -34,6 +34,31 @@
      "q": "Design a real-world scenario (Indian context) where a **multivariate** frequency distribution (3+ variables) would be necessary, and explain why univariate or bivariate would be insufficient. Specify the variables, their measurement units, and a plausible cross-classification scheme.",
      "a": "**Scenario:** A rural health survey in Maharashtra collects data on 500 households:  \n(1) **Monthly per capita expenditure (MPCE)** in ₹ (continuous) — classes: <1500, 1500–3000, >3000  \n(2) **Source of drinking water** (qualitative) — categories: Tap, Handpump, Well, Other  \n(3) **Incidence of water-borne disease** in past 6 months (count) — 0, 1, 2+ cases  \n\n**Why multivariate?** Univariate MPCE distribution hides whether poor households use unsafe water. Bivariate (MPCE × Water Source) hides disease outcome. Bivariate (Water Source × Disease) hides poverty dimension. Only a 3-way table (MPCE × Water Source × Disease) can answer: *\"Do low-MPCE households using handpumps have higher disease incidence than high-MPCE households using handpumps?\"* — a policy-relevant interaction. A poor answer listing 3 variables without justifying the *interaction* need (e.g., \"age, income, education\") shows the student treats multivariate as \"more variables\" rather than \"interdependent questions requiring joint conditioning.\"",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A frequency distribution is classified as univariate when it summarises the distribution of a single variable (e.g., marks of students), bivariate when it cross-classifies two variables ______ showing their joint frequencies (e.g., sales and advertisement expenditure of firms), and multivariate when it involves three or more variables analysed together.",
+     "a": "simultaneously",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If you only record their Mathematics marks, you create a univariate frequency ______ — but what if you also have their Economics marks?",
+     "a": "distribution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing the performance of ______ students in your school.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) correctly identify whether a given dataset requires univariate, bivariate, or multivariate frequency distribution; (2) construct a bivariate frequency table from raw paired data with appropriate class intervals for both variables; (3) interpret cell frequencies in a bivariate table as joint occurrences and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing the ______ of 50 students in your school.",
+     "a": "performance",
+     "self_check": true
     }
    ]
   }

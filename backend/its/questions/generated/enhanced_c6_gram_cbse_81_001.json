@@ -1,0 +1,46 @@
+{
+ "catalog": "enhanced_c6_gram_cbse_81_001",
+ "concepts": [
+  {
+   "id": "enh:c6_gram_cbse_81_001",
+   "title": "c6_gram_cbse_81_001",
+   "questions": [
+    {
+     "q": "Classify: 'kindness', 'flock', 'Mumbai', 'chair'.",
+     "a": "kindness=abstract (cannot touch), flock=collective (one word for a group), Mumbai=proper (specific name, capital), chair=common. A wrong answer calling 'flock' common shows the student missed that one word names the whole group.",
+     "self_check": true
+    },
+    {
+     "q": "Is 'strength' abstract or concrete? Defend in one line.",
+     "a": "Abstract — you cannot touch or weigh strength itself, only its effects. A wrong answer 'concrete because wrestlers have it' reveals the student tests the OWNER not the word.",
+     "self_check": true
+    },
+    {
+     "q": "Why is 'rice' usually singular? 'Rices are on the table' — right or wrong?",
+     "a": "Right answer: wrong — rice is uncountable (a mass, not items); we say 'grains of rice'. A wrong answer accepting 'rices' shows the student pluralizes by habit without checking countability.",
+     "self_check": true
+    },
+    {
+     "q": "Nouns sort into families by what they name: common (boy, city), proper (Ravi, Delhi — always ______), collective (team, flock — one word for a group), abstract (honesty, fear — things you cannot touch).",
+     "a": "capitalised",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Nouns sort into families by what they name: common (boy, city), proper (Ravi, Delhi — always ______), collective (team, flock — one word for a group), abstract (honesty, fear — things you cannot touch).",
+     "a": "capitalised",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Touch test on the board: can you touch it, see it, weigh it? 'Table' yes → ______. 'Honesty' no → abstract.",
+     "a": "concrete",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student classifies any noun into its family, explains the test for abstract nouns (cannot see/touch/weigh it), and capitalises proper nouns inside sentences.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

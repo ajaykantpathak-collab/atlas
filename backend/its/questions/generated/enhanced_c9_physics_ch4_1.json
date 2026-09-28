@@ -34,6 +34,36 @@
      "q": "Design a simple classroom experiment using a spring balance, a wooden block, and a meter scale to demonstrate that work done depends on both force and displacement. Write the procedure in 4 steps and state what measurements you would record.",
      "a": "Good procedure: (1) Attach spring balance to block on smooth table. (2) Pull with constant force (e.g., 2 N) for 0.5 m, record force and displacement. (3) Repeat with same force for 1.0 m. (4) Repeat with 4 N force for 0.5 m. Record: force (N), displacement (m), calculate W = F×s. Compare: doubling displacement doubles work; doubling force doubles work. A poor answer (e.g., \"pull and see how far it goes\" without controlled variables) reveals inability to design a controlled experiment isolating variables.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Work is a scalar physical quantity defined as the product of the magnitude of the force applied on an object and the ______ of the object in the direction of the force.",
+     "a": "displacement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a ceiling fan running in your ______ - the blades move in a circle but return to the same position after each rotation.",
+     "a": "classroom",
+     "self_check": true
+    },
+    {
+     "q": "What is Work? State the definition given in this lesson.",
+     "a": "Work is a scalar physical quantity defined as the product of the magnitude of the force applied on an object and the displacement of the object in the direction of the force.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now push a heavy desk across the floor for ______ meters.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Work?",
+     "a": "Students believe that holding a heavy object stationary (like a 20 kg suitcase) involves \"doing work\" because their muscles tire.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate work done by a constant force given force magnitude and displacement in the direction of force, identify when work is zero or negative in real situations, and distinguish work from effort or energy expended by a person.",
+     "self_check": true
     }
    ]
   }

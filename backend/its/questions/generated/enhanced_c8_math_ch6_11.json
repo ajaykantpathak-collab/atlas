@@ -34,6 +34,31 @@
      "q": "Create a real-life problem (using rupees, metres, or kilograms) where you would use the identity (a+b)(a-b) = a² - b² to simplify a calculation. Write the problem and show how the identity makes it easier.",
      "a": "Example: A rectangular field has length (50+3) m and breadth (50-3) m. Find its area.  \nUsing identity: (50+3)(50-3) = 50² - 3² = 2500 - 9 = 2491 m².  \nWithout identity: 53 × 47 = 2491 (harder mental multiplication).  \nA good answer shows a context where the two numbers are symmetric around a base (like 50) and demonstrates the identity simplifies arithmetic. A poor answer either doesn't use the identity or creates a problem where the numbers don't fit the pattern.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of algebraic identities involve recognizing algebraic expressions that match the patterns of standard identities — (a+b)² = a² + 2ab + b², (a-b)² = a² - 2ab + b², and (a+b)(a-b) = a² - b² — and rewriting them in expanded or factored form to simplify calculations efficiently.",
+     "a": "Applications",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are tiling a ______ floor whose side length is (2x + 3) metres.",
+     "a": "square",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Next, recall the identity (a+b)² = a² + ______ab + b².",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify which of the three standard identities applies to a given algebraic expression, correctly substitute the terms for a and b (including coefficients and variables), carry out the expansion or factorization step by step, and simplify the result by combining like terms.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are tiling a square floor whose side length is (2x + 3) metres.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

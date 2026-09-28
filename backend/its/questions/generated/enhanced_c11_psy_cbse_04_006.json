@@ -34,6 +34,31 @@
      "q": "Create a real-world scenario (Indian context) illustrating all three attention types operating simultaneously. Label each component and explain the cognitive transitions between them.",
      "a": "Scenario: A Delhi Metro train operator (motorman) during peak hour. \n- Sustained attention: Continuously monitoring signals, speed, track ahead for 4-hour shift (vigilance). \n- Selective attention: Suddenly noticing a person on tracks (salient, intense stimulus captures focus via filter/attenuation). \n- Divided attention: After emergency braking, simultaneously coordinating with control room via radio (practiced procedure) while monitoring passenger safety displays (automatic processing for radio protocol). \nTransitions: Routine monitoring (sustained) → salient hazard triggers orienting response (selective capture) → practiced emergency protocol frees capacity for concurrent tasks (divided via automaticity). \nGood answer shows clear labeling, theoretical mechanisms (filter/attenuation for capture, automaticity for division), and dynamic transitions. Poor answer (e.g., \"he does all three at once\") reveals static understanding, missing the temporal dynamics and capacity trade-offs.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Attention is the cognitive process of selectively concentrating on specific stimuli while filtering out others, characterized by limited capacity and involving three main types: selective attention (focusing on one stimulus among many), sustained attention (maintaining focus over prolonged periods), and divided attention (allocating cognitive resources to multiple tasks ______, typically only successful with highly practiced/automatic tasks).",
+     "a": "simultaneously",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're sitting in a noisy café trying to study for your ______ exam while your friend talks about a movie, background music plays, and the barista calls out orders.",
+     "a": "psychology",
+     "self_check": true
+    },
+    {
+     "q": "What is Attention? State the definition given in this lesson.",
+     "a": "Attention is the cognitive process of selectively concentrating on specific stimuli while filtering out others, characterized by limited capacity and involving three main types: selective attention (focusing on one stimulus among many), sustained attention (maintaining focus over prolonged periods), and divided attention (allocating.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Attention?",
+     "a": "Students believe \"divided attention\" means truly parallel processing of two complex tasks (e.g., \"I can study and watch TV effectively\").",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can accurately distinguish between selective, sustained, and divided attention using real-life examples, explain the theoretical mechanisms (filter, filter-attenuation, multimode theories) for selective attention, and identify factors influencing each attention type without confusing them with perceptual processes.",
+     "self_check": true
     }
    ]
   }

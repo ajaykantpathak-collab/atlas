@@ -34,6 +34,36 @@
      "q": "Create a real-world scenario involving two repeating events (e.g., blinking lights or bus schedules) where finding the 3rd common multiple is necessary to solve a problem. Write the problem and its solution.",
      "a": "Example response: \"Two electronic bells in a temple ring at intervals of 9 minutes and 12 minutes. They rang together at 8:00 AM. At what time will they ring together for the 3rd time after 8:00 AM?\"\nSolution: LCM of 9 and 12 is 36 minutes. The 1st time they ring together is 36 mins, 2nd time is 72 mins, and the 3rd time is $3 \\times 36 = 108$ minutes (or 1 hour 48 minutes) later, which is at 9:48 AM. A poor answer fails to use the LCM or miscalculates the multiple step.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Common multiples are numbers that are exact multiples of two or more given numbers, sharing properties such as the cyclical appearance of ______ points and being exact multiples of the Least Common Multiple (LCM).",
+     "a": "intersection",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and your friend are running on a ______ athletic track at your school sports ground.",
+     "a": "circular",
+     "self_check": true
+    },
+    {
+     "q": "What is Common multiples? State the definition given in this lesson.",
+     "a": "Common multiples are numbers that are exact multiples of two or more given numbers, sharing properties such as the cyclical appearance of intersection points and being exact multiples of the Least Common Multiple (LCM).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Both of you start running together from the starting line at minute ______.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Common multiples?",
+     "a": "Students often confuse \"common multiples\" with \"common factors\" or assume that common multiples can be found by simply adding the two numbers together repeatedly without checking both sets of multiples.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify, list, and analyze common multiples of two or more numbers, apply properties of common multiples to solve real-world scheduling and synchronization problems, and connect them to LCM.",
+     "self_check": true
     }
    ]
   }

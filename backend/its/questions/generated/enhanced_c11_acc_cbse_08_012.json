@@ -34,6 +34,31 @@
      "q": "Create a realistic adjustment scenario for a Class 11 problem where *both* depreciation (on two assets with different methods) and bad debts (including further bad debts) appear. Write the full question with Trial Balance extracts and adjustments. Do not solve.",
      "a": "Good answer example: \"Trial Balance (31/3/2024): Plant & Machinery ₹3,00,000; Furniture ₹1,00,000; Sundry Debtors ₹80,000; Bad Debts ₹2,000 (Dr.). Adjustments: (1) Depreciate Plant & Machinery @ 15% p.a. on WDV (WDV on 1/4/2023 was ₹2,55,000). (2) Depreciate Furniture @ 10% p.a. on SLM on original cost. (3) Further bad debts ₹3,000. (4) Provision for doubtful debts @ 5% on debtors.\" A poor answer uses only one asset, one method, or omits \"further\" distinction, showing inability to design multi-concept problems.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the systematic allocation of the depreciable amount of a tangible fixed asset over its estimated useful life, charged as an expense in the Profit and Loss Account and deducted from the asset's book value in the Balance Sheet.",
+     "a": "Depreciation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Every year it loses some value due to wear and tear — but this loss isn't ______ in your daily books.",
+     "a": "recorded",
+     "self_check": true
+    },
+    {
+     "q": "What is Depreciation? State the definition given in this lesson.",
+     "a": "Depreciation is the systematic allocation of the depreciable amount of a tangible fixed asset over its estimated useful life, charged as an expense in the Profit and Loss Account and deducted from the asset's book value in the Balance Sheet.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Depreciation?",
+     "a": "Students treat depreciation and bad debts as *cash expenses* and expect them to appear in the Cash Book or Bank column.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Pass correct journal entries for depreciation (on fixed assets) and bad debts (on debtors) when given as adjustments outside the trial balance, (2) Show the treatment in both Profit & Loss Account (debit side) and Balance Sheet (asset deduction), and (3) Calculate depreciation amount when rate and method.",
+     "self_check": true
     }
    ]
   }

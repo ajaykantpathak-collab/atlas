@@ -34,6 +34,31 @@
      "q": "Create a real-life problem where a total quantity is shared in a ratio of 3:4:5, and one of the shares is 600 mL. Ask a question that requires finding the total quantity.",
      "a": "Example problem: \"Three jars contain juice in the ratio 3:4:5. The middle jar has 600 mL. What is the total amount of juice?\" A good answer sets up the ratio, identifies that the middle share corresponds to 4 parts, finds 1 part = 150 mL, then total = 12 parts = 1800 mL. A poor answer might assume 600 mL is the total or use the wrong ratio term, revealing confusion about which share corresponds to which ratio number.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sharing a quantity in a given ratio means dividing a total amount into parts that are ______ to the given ratio numbers.",
+     "a": "proportional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your grandmother ______ you ₹1,200 to share among your two cousins and yourself in the ratio 2:3:5 based on your ages.",
+     "a": "gives",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then multiply each ratio number by ₹______ to get the shares.",
+     "a": "120",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently solve multi-step word problems where a total quantity (money, length, mass, etc.) must be divided among three or more parties in a given ratio, including problems where one share is known and the total or other shares must be found.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your ______ gives you ₹1,200 to share among your two cousins and yourself in the ratio 2:3:5 based on your ages.",
+     "a": "grandmother",
+     "self_check": true
     }
    ]
   }

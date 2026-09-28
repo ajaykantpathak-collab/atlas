@@ -34,6 +34,36 @@
      "q": "Create a real-life situation where you need to convert a mixed fraction to a percentage. Write the problem and solve it.",
      "a": "Example problem: \"A recipe requires \\(1 \\frac{1}{2}\\) cups of sugar. You have a 2-cup measuring cup. What percentage of the measuring cup will be filled?\" Solution: \\(1 \\frac{1}{2} = \\frac{3}{2}\\). \\(\\frac{3}{2} \\times 100 = 150\\%\\). A poor answer (e.g., using a proper fraction only, or solving incorrectly) reveals the student cannot apply the concept to mixed numbers or real-world contexts, indicating a procedural-only understanding.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Expressing a fraction as a percentage means converting the fraction to an equivalent value out of 100 by ______ the fraction by 100 and appending the percent symbol (%).",
+     "a": "multiplying",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you ______ 18 out of 25 in a math test, and your friend says she got 72%.",
+     "a": "scored",
+     "self_check": true
+    },
+    {
+     "q": "What is Expressing a fraction as a percentage? State the definition given in this lesson.",
+     "a": "Expressing a fraction as a percentage means converting the fraction to an equivalent value out of 100 by multiplying the fraction by 100 and appending the percent symbol (%).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now you can directly compare: both scored ______%.",
+     "a": "72",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Expressing a fraction as a percentage?",
+     "a": "Students often forget to multiply by 100 and simply write the numerator as the percentage if the denominator is 100, or they multiply only the numerator by 100 and ignore the denominator.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can convert any given fraction (proper, improper, or mixed) to a percentage by multiplying by 100 and simplifying, and can explain why multiplying by 100 correctly scales the fraction to a \"per hundred\" value.",
+     "self_check": true
     }
    ]
   }

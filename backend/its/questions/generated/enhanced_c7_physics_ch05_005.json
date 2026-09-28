@@ -34,6 +34,26 @@
      "q": "Design a simple home experiment using a torch, a small globe, and a blank wall to demonstrate why shadows change length throughout the day.",
      "a": "Criteria for a good answer: The student must describe placing a stationary object (globe) and moving the torch from a low angle (simulating morning/evening) to a high vertical angle (simulating noon), noting how the shadow length decreases and then increases while changing angle. A poor answer lacks clear placement of the light source or fails to link the angle of the light beam to the length of the shadow.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A shadow is a dark patch formed on a surface when an opaque or translucent object blocks the path of light, ______ a source of light, an opaque/translucent object, and a screen.",
+     "a": "requiring",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Standing in the sunlight on your school playground in the ______, you notice a dark shape stretching out on the concrete pavement behind you.",
+     "a": "afternoon",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can predict the size, shape, and sharpness of a shadow when the positions of the light source, object, and screen are altered, and can distinguish between the umbra (dark central region) and penumbra (faint outer region).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Standing in the sunlight on your school ______ in the afternoon, you notice a dark shape stretching out on the concrete pavement behind you.",
+     "a": "playground",
+     "self_check": true
     }
    ]
   }

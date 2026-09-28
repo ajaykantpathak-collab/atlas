@@ -1,6 +1,147 @@
 {
- "catalog": "catalog_class12_biology_lebo105",
+ "catalog": "catalog_class12_biology_lebo105.json",
  "concepts": [
+  {
+   "id": "lebo105.5.1.3",
+   "title": "Chargaff's Rule and Base Percentages",
+   "converted_to_compute": true,
+   "formula": "adenine_percent = (100 - 2 * cytosine_percent) / 2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "adenine_percent = (100 - 2 * cytosine_percent) / 2",
+     "compute": "adenine_percent = (100 - 2 * cytosine_percent) / 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Chargaff's Rule and Base Percentages: given cytosine_percent = 15.9, find adenine percent.",
+     "a": "34.1",
+     "self_check": false
+    },
+    {
+     "q": "For Chargaff's Rule and Base Percentages: given cytosine_percent = 87, find adenine percent.",
+     "a": "-37",
+     "self_check": false
+    },
+    {
+     "q": "For Chargaff's Rule and Base Percentages: given cytosine_percent = 88, find adenine percent.",
+     "a": "-38",
+     "self_check": false
+    },
+    {
+     "q": "For Chargaff's Rule and Base Percentages: given cytosine_percent = 10.5, find adenine percent.",
+     "a": "39.5",
+     "self_check": false
+    },
+    {
+     "q": "For Chargaff's Rule and Base Percentages: given cytosine_percent = 22, find adenine percent.",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "For Chargaff's Rule and Base Percentages: given cytosine_percent = 28, find adenine percent.",
+     "a": "22",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lebo105.5.1.4",
+   "title": "Packaging the Helix: Nucleosomes and Chromatin",
+   "converted_to_compute": true,
+   "formula": "nucleosome_count = base_pairs / 200",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "nucleosome_count = base_pairs / 200",
+     "compute": "nucleosome_count = base_pairs / 200"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Packaging the Helix: Nucleosomes and Chromatin: given base_pairs = 48, find nucleosome count.",
+     "a": "0.24",
+     "self_check": false
+    },
+    {
+     "q": "For Packaging the Helix: Nucleosomes and Chromatin: given base_pairs = 32, find nucleosome count.",
+     "a": "0.16",
+     "self_check": false
+    },
+    {
+     "q": "For Packaging the Helix: Nucleosomes and Chromatin: given base_pairs = 95, find nucleosome count.",
+     "a": "0.475",
+     "self_check": false
+    },
+    {
+     "q": "For Packaging the Helix: Nucleosomes and Chromatin: given base_pairs = 86, find nucleosome count.",
+     "a": "0.43",
+     "self_check": false
+    },
+    {
+     "q": "For Packaging the Helix: Nucleosomes and Chromatin: given base_pairs = 30, find nucleosome count.",
+     "a": "0.15",
+     "self_check": false
+    },
+    {
+     "q": "For Packaging the Helix: Nucleosomes and Chromatin: given base_pairs = 17, find nucleosome count.",
+     "a": "0.085",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lebo105.5.4.1",
+   "title": "Semiconservative Replication and the Meselson-Stahl Proof",
+   "converted_to_compute": true,
+   "formula": "hybrid_fraction = 1 / 2 ** generations",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "hybrid_fraction = 1 / 2 ** generations",
+     "compute": "hybrid_fraction = 1 / 2 ** generations"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Semiconservative Replication and the Meselson-Stahl Proof: given generations = 87, find hybrid fraction.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Semiconservative Replication and the Meselson-Stahl Proof: given generations = 37, find hybrid fraction.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Semiconservative Replication and the Meselson-Stahl Proof: given generations = 62, find hybrid fraction.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Semiconservative Replication and the Meselson-Stahl Proof: given generations = 55, find hybrid fraction.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Semiconservative Replication and the Meselson-Stahl Proof: given generations = 59, find hybrid fraction.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Semiconservative Replication and the Meselson-Stahl Proof: given generations = 48, find hybrid fraction.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "lebo105.5.1.1",
    "title": "Nucleotide Anatomy and the Polynucleotide Chain",
@@ -54,68 +195,6 @@
    ]
   },
   {
-   "id": "lebo105.5.1.3",
-   "title": "Chargaff's Rule and Base Percentages",
-   "questions": [
-    {
-     "q": "Calculate the adenine percentage when the cytosine content of dna is given. Use the method 'Chargaff's Rule and Base Percentages'. Work with: cytosine_percent = 20. Carry the chain through step by step and give the final value of adenine_percent.",
-     "a": "30 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Work out all four base percentages from one measured value. Use the method 'Chargaff's Rule and Base Percentages'. Work with: cytosine_percent = 8. Carry the chain through step by step and give the final value of adenine_percent.",
-     "a": "42 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Chargaff's Rule and Base Percentages' refers to.",
-     "a": "In any double-stranded dna the adenine tally matches thymine and guanine matches cytosine, so each complementary pair owns a fixed share of the molecule; measuring one base pins down the other three by simple arithmetic.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Chargaff's Rule and Base Percentages'.",
-     "a": "Pair equality is the arithmetic fingerprint of a two-stranded helix -- and it breaks down for single-stranded molecules.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Chargaff's Rule and Base Percentages', in plain ASCII form.",
-     "a": "adenine_percent = (100 - 2 * cytosine_percent) / 2",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebo105.5.1.4",
-   "title": "Packaging the Helix: Nucleosomes and Chromatin",
-   "questions": [
-    {
-     "q": "Using the method 'Packaging the Helix: Nucleosomes and Chromatin', work with: base_pairs = 12. Carry the chain through step by step and give the final value of nucleosome_count.",
-     "a": "0.06 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Packaging the Helix: Nucleosomes and Chromatin' and work with: base_pairs = 150. Carry the chain through step by step and give the final value of nucleosome_count.",
-     "a": "0.75 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Packaging the Helix: Nucleosomes and Chromatin' refers to.",
-     "a": "A mammalian nucleus must cram a helix metres long into a compartment a million times smaller; negatively charged dna winds around discs made of eight positively charged histone proteins, producing nucleosomes -- about 200 bp apiece -- whose string coils up into chromatin fibres and ultimately metaphase chromosomes, with loose euchromatin staying readable and dense heterochromatin switched off.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Packaging the Helix: Nucleosomes and Chromatin'.",
-     "a": "Opposite charges do the packing -- basic histones grip acidic dna -- and packing density decides whether a region's genes can be transcribed.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Packaging the Helix: Nucleosomes and Chromatin', in plain ASCII form.",
-     "a": "nucleosome_count = base_pairs / 200",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "lebo105.5.2.1",
    "title": "The Search for Genetic Material: Griffith to Hershey-Chase",
    "questions": [
@@ -153,37 +232,6 @@
     {
      "q": "Under which section is 'DNA versus RNA as Genetic Material and the RNA World' taught, and from which source text?",
      "a": "5.2.2, 5.3 (source: lebo105.txt lines 301-375 (criteria for genetic material, stability argument, RNA world))",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebo105.5.4.1",
-   "title": "Semiconservative Replication and the Meselson-Stahl Proof",
-   "questions": [
-    {
-     "q": "Using the method 'Semiconservative Replication and the Meselson-Stahl Proof', work with: generations = 20. Carry the chain through step by step and give the final value of light_fraction.",
-     "a": "1 as a fraction",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Semiconservative Replication and the Meselson-Stahl Proof' and work with: generations = 24. Carry the chain through step by step and give the final value of light_fraction.",
-     "a": "1 as a fraction",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Semiconservative Replication and the Meselson-Stahl Proof' refers to.",
-     "a": "Every daughter helix keeps one original strand and receives one freshly built partner -- the semiconservative scheme that Watson and Crick read directly out of base pairing; Meselson and Stahl shifted heavy-nitrogen-grown bacteria to a light medium and watched the hybrid-then-mixed density pattern that only this scheme predicts.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Semiconservative Replication and the Meselson-Stahl Proof'.",
-     "a": "Heavy nitrogen density-labelling separated old strands from new without needing any radioactivity.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Semiconservative Replication and the Meselson-Stahl Proof', in plain ASCII form.",
-     "a": "hybrid_fraction = 1 / 2 ** generations",
      "self_check": true
     }
    ]

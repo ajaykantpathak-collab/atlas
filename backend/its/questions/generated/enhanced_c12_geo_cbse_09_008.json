@@ -34,6 +34,36 @@
      "q": "Design a two-indicator map (choropleth + proportional symbols) to show state-level urbanization level and urban growth rate (2001–2011). Specify data sources, classification intervals, and what spatial hypothesis the map would test.",
      "a": "Choropleth: % urban population (2011) — 5 classes: <15%, 15–25%, 25–35%, 35–50%, >50% (Census Table A-2). Proportional circles: decadal urban growth rate (2001–2011) — radius ∝ growth rate (Census Table A-4). Hypothesis: \"States with low initial urbanization (<20%) show highest urban growth rates (>30%) due to catch-up reclassification.\" Data sources: Census 2001/2011 Primary Census Abstracts. A poor map would use raw urban population for circles (confounding size with growth) or ignore the distinction between statutory/census towns.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Rural-urban composition refers to the ______ of a country's population between villages (rural areas) and towns/cities (urban areas) based on Census of India criteria: a settlement is urban if it has a municipality/corporation/cantonment board, a minimum population of 5,000, at least 75% male main workers in non-agricultural activities, and a density ≥400 persons/km²; all other settlements are rural.",
+     "a": "distribution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your own district: count how many peers live in a village vs. a ______ town.",
+     "a": "municipal",
+     "self_check": true
+    },
+    {
+     "q": "What is Rural-urban composition? State the definition given in this lesson.",
+     "a": "Rural-urban composition refers to the distribution of a country's population between villages (rural areas) and towns/cities (urban areas) based on Census of India criteria: a settlement is urban if it has a municipality/corporation/cantonment board, a minimum population of 5,000, at least 75% male main workers in non-agricultural.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ask why the jump accelerated post-______ (industrialization, partition migration, Green Revolution).",
+     "a": "1951",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Rural-urban composition?",
+     "a": "Students think \"urbanization\" means only migration to big cities (Mumbai, Delhi).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) calculate and interpret rural-urban growth differentials using census data, (2) explain the spatial pattern of urbanization across Indian states/UTs with reference to physical and socio-economic factors, and (3) evaluate the implications of current urbanization trends for resource planning and migration policy.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a magnetic field to demonstrate that current in a metal is carried by negative charges (electrons) and not positive charges.",
      "a": "Place a flat metal strip carrying current I in a uniform magnetic field B perpendicular to the strip. Measure the Hall voltage across the width. For electrons (negative carriers), the Hall voltage polarity will be opposite to that for positive carriers. If the top edge becomes negative relative to the bottom, it confirms electrons are the charge carriers. A poor answer (e.g., \"use a compass\" or no magnetic field) shows lack of knowledge of the Hall effect, which is the standard experimental proof of carrier sign.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Drift velocity is the average velocity acquired by free electrons in a conductor due to an applied electric field, directed opposite to the field direction because electrons are ______ charged.",
+     "a": "negatively",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan: when you flip the switch, it starts ______.",
+     "a": "instantly",
+     "self_check": true
+    },
+    {
+     "q": "What is Drift velocity? State the definition given in this lesson.",
+     "a": "Drift velocity is the average velocity acquired by free electrons in a conductor due to an applied electric field, directed opposite to the field direction because electrons are negatively charged.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: But if electrons drift at ~______ mm/s, how does the current reach the fan so fast?",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Drift velocity?",
+     "a": "Students think drift velocity is the speed of individual electrons between collisions (thermal speed ~10⁵ m/s) and that current requires electrons to physically travel from one end of the wire to the other.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can derive the expression for drift velocity (v_d = eEτ/m) and mobility (μ = eτ/m) from the free-electron model, calculate drift velocity given current, cross-section, and electron density, and explain why drift speed is very small (~mm/s) yet current establishes almost instantly when a circuit is closed.",
+     "self_check": true
     }
    ]
   }

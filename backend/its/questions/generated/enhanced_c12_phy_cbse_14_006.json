@@ -34,6 +34,31 @@
      "q": "**CREATE**: Design a simple lab experiment to verify that the output frequency of a center-tap full-wave rectifier is twice the input frequency. List the apparatus, the circuit connections, the measurements to be taken on a CRO, and the expected observation.",
      "a": "Apparatus: Center-tap transformer (6-0-6 V), two diodes (1N4007), load resistor (1 kΩ), CRO, connecting wires.  \nCircuit: Connect as per standard diagram. Feed transformer primary from 50 Hz mains. Connect CRO Channel 1 across the full secondary (A-B) to see input (100 Hz? No, A-B is the full secondary, so input to rectifier is 50 Hz at each half). Better: Channel 1 across one half-secondary (A-CT) to see 50 Hz sine. Channel 2 across load to see rectified output.  \nMeasure: Time period of Channel 1 (T_in = 20 ms). Time period of Channel 2 pulses (T_out = 10 ms).  \nExpected: T_out = T_in / 2, confirming f_out = 2f_in. A poor answer omits the dual-trace comparison or measures only DC voltage, missing the frequency verification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A full-wave rectifier is a circuit that converts an alternating current (AC) input into a ______ pulsating direct current (DC) output by utilizing both the positive and negative half-cycles of the AC input.",
+     "a": "unidirectional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a mobile phone charger: it takes 230 V, 50 Hz AC from the wall socket and delivers steady ~5 V DC to the battery.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now, place a center-tapped transformer secondary: the center tap becomes the common reference (______ V).",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) draw the complete circuit diagram of a center-tap full-wave rectifier with correct polarity markings, (2) explain the conduction sequence of the two diodes during positive and negative half-cycles, (3) sketch the input and output voltage waveforms and state the output frequency relation, (4) calculate the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a mobile phone charger: it takes 230 V, 50 Hz AC from the wall socket and ______ steady ~5 V DC to the battery.",
+     "a": "delivers",
+     "self_check": true
     }
    ]
   }

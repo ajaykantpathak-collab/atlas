@@ -149,7 +149,7 @@
     "what do you understand by commutative property of multiplication",
     "list the main points about commutative property of multiplication"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -166,7 +166,16 @@
      "action": "Compare results",
      "explain": "Check if both products are equal."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the integer operation sign rules",
+     "explain": "apply the integer operation sign rules: total = -5 + (-22) gives -27",
+     "compute": "total = -5 + (-22)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.2.2.3",
@@ -313,7 +322,7 @@
     "what do you understand by brahmagupta's rules",
     "list the main points about brahmagupta's rules"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -330,7 +339,16 @@
      "action": "Conclude the result type",
      "explain": "State whether the final product or quotient is a fortune (positive) or a debt (negative) based on the applied rule."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the integer operation sign rules",
+     "explain": "apply the integer operation sign rules: total = 4 + (-16) gives -12",
+     "compute": "total = 4 + (-16)"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -403,8 +421,8 @@
     "-16 * (-5)",
     "36 / (-18)",
     "(-46) / (-23)",
-    "A freezing process lowers temperature from 32\u00b0C at 5\u00b0C per hour. Find temp after 10 hours.",
-    "A company earns \u20b98 profit per white bag and \u20b95 loss per grey bag. Find profit/loss for 3000 white and 5000 grey bags."
+    "A freezing process lowers temperature from 32°C at 5°C per hour. Find temp after 10 hours.",
+    "A company earns ₹8 profit per white bag and ₹5 loss per grey bag. Find profit/loss for 3000 white and 5000 grey bags."
    ]
   }
  ],

@@ -34,6 +34,21 @@
      "q": "Design a nested list to represent a 3x3 Tic-Tac-Toe board. Write a function `print_board(board)` that displays the board in a grid format with rows separated by newlines and columns separated by `|`. Example output:\n```\nX | O | X\nO | X | O\nX | O | X\n```",
      "a": "A good answer creates `board = [['X','O','X'], ['O','X','O'], ['X','O','X']]` and uses nested loops:\n```python\ndef print_board(board):\n    for i, row in enumerate(board):\n        print(' | '.join(row))\n        if i < len(board) - 1:\n            print('--+---+--')\n```\nA poor answer might use a flat list, fail to handle the separators correctly, or hardcode the size instead of using `len(board)`.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A nested list is a list that contains other lists as its elements, enabling the ______ of multi-dimensional data such as matrices or tables.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class monitor and have the marks of 3 students in 4 ______ each.",
+     "a": "subjects",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can create a nested list, access elements using multiple indices (e.g., matrix[row][col]), and write nested for loops to traverse and process all elements (e.g., print, sum, find max/min) without index errors or confusion between row-major and column-major order.",
+     "self_check": true
     }
    ]
   }

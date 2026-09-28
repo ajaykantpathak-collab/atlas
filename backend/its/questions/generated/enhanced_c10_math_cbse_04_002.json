@@ -34,6 +34,16 @@
      "q": "Create a real-life word problem (Indian context: rupees, metres, litres, etc.) that leads to the quadratic equation \\(2x^2 - 5x - 300 = 0\\). State what \\(x\\) represents. Ensure the problem has a valid positive solution.",
      "a": "**Sample problem:** \"A rectangular field has length \\(2x - 5\\) metres and breadth \\(x\\) metres. Its area is 300 m². Find the breadth \\(x\\).\"\n**Reasoning:** Area = length × breadth = \\(x(2x - 5) = 2x^2 - 5x\\). Set equal to 300: \\(2x^2 - 5x = 300 \\Rightarrow 2x^2 - 5x - 300 = 0\\).\n**Validity check:** Discriminant \\(D = (-5)^2 - 4(2)(-300) = 25 + 2400 = 2425 > 0\\). Roots: \\(x = \\frac{5 \\pm \\sqrt{2425}}{4}\\). Positive root ≈ 13.8 m (valid). Negative root rejected.\nA poor answer (e.g., problem yielding negative dimensions, or equation not matching) reveals inability to reverse-engineer the formation process, i.e., not understanding how coefficients relate to the situation's parameters.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ garden where the length is 3 metres more than its breadth, and the area is 180 square metres.",
+     "a": "rectangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can also verify that the formed equation logically represents the original situation.",
+     "self_check": true
     }
    ]
   }

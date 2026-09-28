@@ -34,6 +34,31 @@
      "q": "Create a real-life word problem (using Indian context: rupees, litres, kg, etc.) that involves inverse proportion. Write the problem clearly and solve it, showing the constant product step.",
      "a": "Example problem: \"A water tanker supplies 500 litres of water to a village every day. If each family uses 20 litres per day, the water lasts for 25 families. How many families can be served if each family reduces usage to 10 litres per day?\" Solution: Total water = 500 L (constant). Families × Usage = 500. Initially: 25 × 20 = 500. New: \\(f \\times 10 = 500 \\Rightarrow f = 50\\). 50 families can be served. A poor answer creates a direct proportion problem (e.g., \"cost of apples\") or fails to identify the constant product, revealing the student cannot synthesize the inverse relationship structure independently.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Two quantities are in inverse proportion if an increase in one quantity causes a ______ decrease in the other quantity, such that their product always remains constant.",
+     "a": "proportional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ tells you: \"6 workers can paint a building in 10 days.",
+     "a": "contractor",
+     "self_check": true
+    },
+    {
+     "q": "What is Two quantities? State the definition given in this lesson.",
+     "a": "Two quantities are in inverse proportion if an increase in one quantity causes a proportional decrease in the other quantity, such that their product always remains constant.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Two quantities?",
+     "a": "Students apply the direct proportion check (constant ratio) to inverse proportion situations.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify inverse proportion from a table of values, a verbal description, or a real-life situation by checking if the product of corresponding values is constant, and can explain why the relationship is inverse rather than direct.",
+     "self_check": true
     }
    ]
   }

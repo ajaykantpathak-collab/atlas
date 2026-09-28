@@ -34,6 +34,31 @@
      "q": "Design a one-day vegetarian menu for a 2-year-old child (1-3 years column) that meets all five food group quantities from ICMR Table 5, uses only locally available seasonal foods in North India in winter, includes at least two traditional snack items, and specifies raw weights for each food group at each meal.",
      "a": "Sample answer: Breakfast — 30 g wheat flour (chapati) + 150 ml milk (porridge) + 25 g carrot (grated in porridge). Snack 1 — 15 g wheat flour (small mathi) + 5 g jaggery + 5 g ghee. Lunch — 30 g rice + 15 g moong dal + 25 g spinach (palak) + 25 g potato + 5 g ghee. Snack 2 — 100 ml milk + 10 g roasted chana. Dinner — 30 g wheat flour (chapati) + 15 g chana dal + 25 g methi leaves + 25 g carrot + 5 g ghee. Totals: Cereals 90 g (target 60 g — slightly high but acceptable), Pulses 30 g, Milk 250 ml (target 500 ml — deficit; need to increase milk at snacks), Roots/tubers 50 g, GLV 50 g, Other veg 50 g, Fruits 0 g (deficit — add 50 g guava/amla), Sugar 5 g (target 15 g), Fats 15 g (target 20 g). A poor answer omits raw weights, misses food groups, or uses non-seasonal foods, revealing inability to operationalise the table.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Planning balanced meals for preschool children (1-6 years) using ICMR guidelines involves selecting foods from all five food groups in specified quantities (Table 5, ICMR 2010) to meet the ______ Dietary Allowances for energy, protein, fat, calcium, iron, and vitamins, distributed across three main meals and two snacks to support rapid growth, high activity levels, and developing eating skills.",
+     "a": "Recommended",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your aunt plan a day's ______ for her 4-year-old daughter who is a picky eater and often skips lunch.",
+     "a": "meals",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your aunt plan a day's meals for her ______-year-old daughter who is a picky eater and often skips lunch.",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently design a full day's menu (3 meals + 2 snacks) for a 4-year-old child that meets ICMR quantity guidelines for all five food groups, justifies each food choice against the RDA table, and adjusts portions for a 2-year-old versus a 5-year-old using the two age columns in Table 5.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your aunt plan a day's meals for her 4-year-old ______ who is a picky eater and often skips lunch.",
+     "a": "daughter",
+     "self_check": true
     }
    ]
   }

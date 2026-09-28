@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a conical pendulum (a mass on a string moving in a horizontal circle) to verify the formula \\(F_c = m \\omega^2 R\\). List the measurements you would take, the graph you would plot, and how you would extract the mass from the slope.",
      "a": "Attach a known mass \\(m\\) to a string of length \\(L\\), whirl it in a horizontal circle of radius \\(R\\) by holding the other end. Measure the period \\(T\\) for several radii (by varying the speed). The centripetal force is provided by the horizontal component of tension: \\(T \\sin\\theta = m \\omega^2 R\\). Since \\(\\sin\\theta = R/L\\), tension \\(T = m \\omega^2 L\\). Plot \\(T\\) (vertical axis) versus \\(\\omega^2\\) (horizontal axis). The slope gives \\(m L\\). Knowing \\(L\\), the mass \\(m\\) can be found. A poor answer might suggest plotting \\(v\\) vs \\(R\\) or not recognizing that tension is not directly measurable without a force sensor, indicating a lack of experimental design skills.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It is not a new kind of force but the radial component of the net force arising from physical ______ like tension, friction, gravity, or normal reaction.",
+     "a": "interactions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a ceiling fan starting from rest: the blades accelerate until they reach a constant speed, yet each blade tip continuously changes ______.",
+     "a": "direction",
+     "self_check": true
+    },
+    {
+     "q": "What is Centripetal force? State the definition given in this lesson.",
+     "a": "It is not a new kind of force but the radial component of the net force arising from physical interactions like tension, friction, gravity, or normal reaction.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Centripetal force?",
+     "a": "Students often believe that centripetal force is an additional force that appears in the free-body diagram alongside tension, friction, gravity, etc.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify the physical force providing the centripetal acceleration in a given scenario (e.g., friction for a car on a flat road, tension for a conical pendulum), correctly resolve forces into radial and vertical components, apply Newton's second law in both directions, and calculate maximum safe speeds or banking angles.",
+     "self_check": true
     }
    ]
   }

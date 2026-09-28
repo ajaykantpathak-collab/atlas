@@ -34,6 +34,31 @@
      "q": "Create a realistic scenario for the school database where you need to use DELETE with a compound WHERE condition (using AND) involving two different columns. Write the complete DELETE statement and explain why both conditions are necessary.",
      "a": "Expected answer: Scenario: \"Delete attendance records for student RollNumber 5 only for the month of September 2018.\" Statement: DELETE FROM ATTENDANCE WHERE RollNumber = 5 AND AttendanceDate BETWEEN '2018-09-01' AND '2018-09-30'; Both conditions are necessary: RollNumber=5 targets the student, and the date range restricts to one month; without RollNumber, all students' September records would be deleted; without date range, all of student 5's attendance history would be deleted.\nA poor answer (e.g., using OR instead of AND, or only one condition) shows inability to design precise multi-attribute filters — a common cause of accidental data loss.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: UPDATE and DELETE are Data ______ Language (DML) commands used to modify existing data in a relational database table.",
+     "a": "Manipulation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are managing a school library database where a student's contact number has changed, and another student has left the school ______.",
+     "a": "permanently",
+     "self_check": true
+    },
+    {
+     "q": "What is UPDATE and DELETE? State the definition given in this lesson.",
+     "a": "UPDATE and DELETE are Data Manipulation Language (DML) commands used to modify existing data in a relational database table.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about UPDATE and DELETE?",
+     "a": "Students believe that UPDATE and DELETE without WHERE clause will produce an error or prompt for confirmation.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write syntactically correct UPDATE and DELETE statements with WHERE clauses using comparison, logical, and special operators to modify or remove specific rows in a given table scenario, and can explain the effect of omitting the WHERE clause.",
+     "self_check": true
     }
    ]
   }

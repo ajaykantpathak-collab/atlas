@@ -34,6 +34,26 @@
      "q": "Create a transaction involving exactly three accounts: one asset increase, one asset decrease, and one liability increase. Write the journal entry and explain how it keeps the accounting equation balanced.",
      "a": "Example: \"Purchased furniture ₹80,000, paid ₹30,000 cash, balance on credit.\"\nJournal: Furniture A/c Dr. ₹80,000; To Cash A/c ₹30,000; To Creditors A/c ₹50,000.\nEquation check: Assets: Furniture +₹80,000, Cash -₹30,000 = Net +₹50,000. Liabilities: Creditors +₹50,000. Both sides increase by ₹50,000 → balanced. A poor answer creates an entry where debits ≠ credits or misclassifies the liability (e.g., using \"Capital\" instead of \"Creditors\"), showing inability to construct a valid compound entry.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The rules of debit and credit for assets, liabilities, and capital (modern ______) state that increases in assets are debited and decreases are credited; increases in liabilities and capital are credited and decreases are debited.",
+     "a": "approach",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're helping your uncle ______ his new electronics shop.",
+     "a": "track",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to correctly classify any given transaction involving assets, liabilities, or capital into the appropriate debit and credit entries, and explain why each account is debited or credited using the accounting equation framework.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're helping your uncle track his new ______ shop.",
+     "a": "electronics",
+     "self_check": true
     }
    ]
   }

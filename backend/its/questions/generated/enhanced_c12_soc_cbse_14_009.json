@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_14_009",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_14_009",
+   "title": "c12_soc_cbse_14_009",
+   "questions": [
+    {
+     "q": "Define 'digital convergence' in the context of mass media and give one Indian example where print, audio, and video content are delivered through a single digital platform.",
+     "a": "Digital convergence is the merging of previously distinct media forms (print, radio, television, telephone) into a single digital platform accessible via internet-connected devices. Example: The Hindu's digital edition delivers written articles, podcasts, video explainers, and interactive graphics through its website and app. A wrong answer that only mentions 'using internet for news' reveals the student confuses digitisation (putting content online) with convergence (structural integration of media forms and distribution chains).",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT notes that Indian language newspapers grew while English dailies stagnated (Box 7.9). Explain why digital convergence might accelerate this trend rather than reverse it, using the concept of 'localisation' from the STAR TV case (Box 7.12).",
+     "a": "Digital platforms lower entry barriers for vernacular content creators — no printing press or broadcast licence needed. Algorithms prioritise engagement, and local-language content generates higher engagement in non-metro markets (as STAR TV found when shifting to Hindi). A wrong answer claiming 'English dominates the internet so vernacular will decline' reveals the student ignores platform economics: YouTube India's top creators (CarryMinati, Technical Guruji) produce in Hindi/Hinglish, and ShareChat's unicorn valuation rests on vernacular user bases.",
+     "self_check": true
+    },
+    {
+     "q": "A village in Bihar runs an unlicensed FM station (Raghav FM, Box 7.14) using ₹50 equipment. If this village gets 4G internet, apply the concept of 'disintermediation' to predict how the station's role in the local communication ecology will change. Identify two specific functions that may shift to WhatsApp groups.",
+     "a": "Disintermediation removes the need for a dedicated broadcaster as intermediary. Two functions shifting to WhatsApp: (1) hyperlocal alerts (missing children, shop openings) → now posted directly in village WhatsApp groups; (2) devotional song requests → replaced by YouTube links shared in groups. A wrong answer saying 'the FM station will shut down immediately' reveals misunderstanding: community radio persists because it serves oral cultures and non-smartphone users — digital access is necessary but not sufficient for displacement.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 'imagined community' created by print nationalism (Benedict Anderson, cited in NCERT 7.1) with the 'networked public' created by social media. Analyse how the shift from synchronous mass consumption (everyone reading the same newspaper at breakfast) to asynchronous algorithmic feeds affects collective identity formation in India.",
+     "a": "Print nationalism created a horizontal comradeship through shared, simultaneous content consumption — everyone read the same headlines, enabling a unified 'we'. Algorithmic feeds create vertical fragmentation: two users in the same household see different realities (e.g., one sees #BoycottBollywood, another sees #SupportLocalArtists). This weakens shared factual baselines for collective identity but enables niche identity mobilisation (caste, region, fandom). A wrong answer claiming 'social media just makes nationalism stronger' misses the structural shift: print assembled a mass; algorithms segment it into micro-publics.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: 'The digital revolution has democratised Indian media by giving voice to the previously voiceless.' Use evidence from: (a) the digital divide (NCERT recall), (b) platform algorithm economics, and (c) the Raghav FM case (Box 7.14).",
+     "a": "The claim is partially true but structurally limited. (a) Digital divide: 2023 data shows 52% rural internet penetration vs 85% urban — the 'voiceless' often lack smartphones/4G. (b) Algorithms amplify content that retains attention, not necessarily marginalised voices — outrage and sensationalism outperform Dalit/Adivasi narratives. (c) Raghav FM served illiterate, non-English-speaking villagers without internet; digital platforms exclude this exact demographic. A wrong answer celebrating 'anyone can go viral' reveals confusion between technical possibility (open APIs) and structural probability (attention economy incentives).",
+     "self_check": true
+    },
+    {
+     "q": "Design a research question for a village-level study investigating how WhatsApp has changed the relationship between gram panchayat officials and citizens. Specify: (i) one measurable indicator of 'changed relationship', (ii) one ethical challenge unique to studying encrypted platforms, and (iii) how you would triangulate digital trace data with offline observation.",
+     "a": "(i) Measurable indicator: Reduction in physical visits to panchayat office for certificate requests (trackable via office logs) vs increase in WhatsApp voice-note requests. (ii) Ethical challenge: Forwarded messages on WhatsApp are end-to-end encrypted; researchers cannot access group content without participant consent, risking 'surveillance creep' if officials demand access. (iii) Triangulation: Compare WhatsApp request logs (with consent) against RTI filings and physical attendance at gram sabhas — if digital requests rise but gram sabha attendance falls, it signals displacement not empowerment. A poor answer proposing 'survey villagers about WhatsApp use' misses the need for behavioural traces and ethical protocol for encrypted spaces.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Digital Revolution refers to the ______ shift from analog and mechanical electronic technology to digital technology, fundamentally restructuring mass communication through the internet, social media platforms, and convergent digital devices, creating a new communication order characterised by interactivity, user-generated content, algorithmic curation, and the blurring of producer-consumer boundaries (prosumption).",
+     "a": "transformative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"When you scroll through ______ Reels or YouTube Shorts, who decides what you see — you, or an algorithm optimised for ad revenue?\" This hooks students in their lived experience.",
+     "a": "Instagram",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) explain how digital convergence alters the political economy of media ownership, audience measurement, and content production using specific Indian examples; (2) evaluate the impact of algorithmic curation on public sphere formation, filter bubbles, and democratic discourse with reference to Indian social.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"When you scroll through Instagram Reels or YouTube Shorts, who decides what you see — you, or an algorithm optimised for ad revenue?\" This hooks students in their lived ______.",
+     "a": "experience",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

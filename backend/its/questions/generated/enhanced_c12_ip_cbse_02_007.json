@@ -12,7 +12,7 @@
     },
     {
      "q": "A student writes the following code to delete the column 'Hindi' from DataFrame `marks_df`:\n```python\nmarks_df.drop('Hindi')\n```\nThe code runs without error but the 'Hindi' column remains in `marks_df`. Explain why this happens and provide the corrected statement.",
-     "a": "**Correct explanation:** The `drop()` method defaults to `axis=0` (row deletion). Since 'Hindi' is a column label, not a row label, `drop('Hindi')` looks for a row named 'Hindi', finds none, and returns the original DataFrame unchanged (without `inplace=True`, it doesn't modify the original anyway).  \n**Corrected statement:** `marks_df = marks_df.drop('Hindi', axis=1)` or `marks_df.drop('Hindi', axis=1, inplace=True)`.  \n**Wrong answer analysis:** Students often forget the `axis` parameter entirely or use `axis=0` for columns. They also frequently forget that `drop()` returns a new DataFrame by default, so reassignment or `inplace=True` is needed to persist the change.",
+     "a": "**Correct explanation:** The `drop()` method defaults to `axis=0` (row deletion). Since 'Hindi' is a column label, not a row label, `drop('Hindi')` looks for a row named 'Hindi', finds N/A, and returns the original DataFrame unchanged (without `inplace=True`, it doesn't modify the original anyway).  \n**Corrected statement:** `marks_df = marks_df.drop('Hindi', axis=1)` or `marks_df.drop('Hindi', axis=1, inplace=True)`.  \n**Wrong answer analysis:** Students often forget the `axis` parameter entirely or use `axis=0` for columns. They also frequently forget that `drop()` returns a new DataFrame by default, so reassignment or `inplace=True` is needed to persist the change.",
      "self_check": true
     },
     {
@@ -21,18 +21,38 @@
      "self_check": true
     },
     {
-     "q": "Compare the effects of these two operations on a DataFrame `df` with columns ['Math', 'Science', 'English'] and index ['A', 'B', 'C']:\n```python",
+     "q": "Compare the effects of these two operations on a DataFrame `df` with columns ['Math', 'Science', 'English'] and index ['A', 'B', 'C']:\n```python\n# Operation 1\ndf1 = df.drop('Science', axis=1)\n# Operation 2\ndf2 = df.drop('Science', axis=0)\n```\nDescribe the exact structural difference between `df1` and `df2` in terms of shape, remaining labels, and data loss.",
      "a": "**Operation 1 (`axis=1`):** Deletes the **column** 'Science'. `df1` shape becomes (3, 2) with columns ['Math', 'English'] and index unchanged ['A', 'B', 'C']. Data loss: all Science marks for all 3 students.  \n**Operation 2 (`axis=0`):** Attempts to delete a **row** labeled 'Science'. Since no such row exists (index is ['A', 'B', 'C']), `df2` is identical to `df` — shape (3, 3), no data loss, but a `KeyError` would occur if `errors='raise'` (default).  \n**Key difference:** `axis=1` removes a vertical slice (column), `axis=0` removes a horizontal slice (row). The label 'Science' exists only as a column, so only `axis=1` has effect.  \n**Wrong answer analysis:** Students who say both operations delete the same thing confuse axis semantics. Those who say Operation 2 raises an error immediately forget that `drop()` with non-existent label and default `errors='raise'` does raise KeyError — but if they assume it silently fails, they miss the error-handling nuance.",
      "self_check": true
     },
     {
-     "q": "A DataFrame `inventory` has columns ['Item', 'Qty', 'Price'] and 10 rows. The manager wants to rename 'Qty' to 'Quantity' and 'Price' to 'Unit_Price' **without changing the row index**. Evaluate which of these two approaches is correct and why:\n```python",
+     "q": "A DataFrame `inventory` has columns ['Item', 'Qty', 'Price'] and 10 rows. The manager wants to rename 'Qty' to 'Quantity' and 'Price' to 'Unit_Price' **without changing the row index**. Evaluate which of these two approaches is correct and why:\n```python\n# Approach A\ninventory.rename({'Qty': 'Quantity', 'Price': 'Unit_Price'}, axis=1)\n\n# Approach B\ninventory.rename({'Qty': 'Quantity', 'Price': 'Unit_Price'}, axis='columns')\n```",
      "a": "**Both approaches are functionally equivalent and correct.** In Pandas, `axis=1` and `axis='columns'` are synonyms for column-axis operations. Both will rename only the column labels, leaving the row index untouched. The result is a new DataFrame with columns ['Item', 'Quantity', 'Unit_Price'] and original 10-row index.  \n**Why this matters:** Students often think `axis=1` means \"first axis\" (rows) because 1 comes before 0, but in Pandas/NumPy convention: axis=0 = rows (vertical), axis=1 = columns (horizontal). Using `axis='columns'` is more readable and prevents this confusion.  \n**Wrong answer analysis:** If a student claims Approach A renames rows, they have the axis convention backwards. If they say Approach B is invalid syntax, they don't know string aliases for axis are supported. This tests deep understanding of axis semantics beyond memorization.",
      "self_check": true
     },
     {
      "q": "Design a minimal DataFrame manipulation sequence (3-4 lines of code) that starts with an empty DataFrame and builds a 3×3 marksheet for students ['Riya', 'Aman', 'Sara'] in subjects ['Physics', 'Chemistry', 'Biology'] with sample integer marks, then adds a 'Total' column (row-wise sum), and finally deletes the 'Chemistry' column. The final DataFrame should have shape (3, 3) with columns ['Physics', 'Biology', 'Total'].",
      "a": "**Expected solution:**\n```python\nimport pandas as pd\ndf = pd.DataFrame({'Physics': [85, 90, 78], 'Chemistry': [80, 88, 82], 'Biology': [92, 85, 88]}, index=['Riya', 'Aman', 'Sara'])\ndf['Total'] = df['Physics'] + df['Chemistry'] + df['Biology']  # or df.sum(axis=1)\ndf = df.drop('Chemistry', axis=1)\n```\n**Verification:** Final `df.columns` = ['Physics', 'Biology', 'Total'], `df.shape` = (3, 3).  \n**Criteria for good answer:** Uses dictionary-of-lists creation with explicit index, computes Total via vectorized addition (not loop), drops column with `axis=1`, and reassigns or uses `inplace=True`.  \n**Poor answer reveals:** Creating empty DataFrame then adding columns one-by-one (inefficient), using loop for Total (not vectorized), forgetting `axis=1` in drop, or not reassigning the drop result. Shows lack of fluency with Pandas idioms.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Adding and deleting DataFrame columns and rows refers to the structural modification operations in Pandas that allow dynamic expansion or contraction of a two-dimensional labeled data structure by inserting new labeled columns/rows with specified values or removing existing ones using label-based ______, where column operations use axis=1 and row operations use axis=0 in the drop() method.",
+     "a": "identification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're maintaining a class ______ in Python where a new student \"Aditi\" joins mid-term and the school introduces a new subject \"Computer Science\" — you need to add both a row (for Aditi) and a column (for CS) to your existing DataFrame without losing any data.",
+     "a": "marksheet",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently write Python code to (1) add a new column to an existing DataFrame using bracket notation with correct length matching, (2) add a new row using .loc[] with label-based indexing while handling duplicate label updates, (3) delete specific rows and columns using .drop() with correct axis parameter.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're ______ a class marksheet in Python where a new student \"Aditi\" joins mid-term and the school introduces a new subject \"Computer Science\" — you need to add both a row (for Aditi) and a column (for CS) to your existing DataFrame without losing any data.",
+     "a": "maintaining",
      "self_check": true
     }
    ]

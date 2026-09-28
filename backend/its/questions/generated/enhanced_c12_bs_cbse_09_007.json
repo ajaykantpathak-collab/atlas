@@ -34,6 +34,36 @@
      "q": "Design a working capital policy for a seasonal business — a manufacturer of woollen garments in Ludhiana. Specify how you would manage each current asset and current liability component in peak (Oct–Jan) and lean (Apr–Jul) seasons to balance liquidity and profitability.",
      "a": "Good answer should include:  \n- **Peak season**: Build up raw material inventory early (anticipate lead time), increase production → higher WIP & finished goods, offer moderate credit to boost sales → higher debtors, negotiate extended credit with suppliers → higher creditors, keep minimal cash buffer.  \n- **Lean season**: Reduce inventory to minimum, tighten credit collection → lower debtors, pay off creditors early if discount available, invest surplus cash in short-term marketable securities.  \n- **Year-round**: Use cash budget to forecast monthly NWC, arrange working capital limits (cash credit) with bank based on peak requirement.  \nA poor answer treats both seasons identically or ignores the financing mix (short-term vs long-term). This reveals inability to apply \"Seasonal Factors\" and \"Credit Availed/Allowed\" dynamically — a key competency for CUET case-based questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Working capital refers to the capital required for financing day-to-day ______ of a business.",
+     "a": "operations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: He buys cloth on credit from a wholesaler, stitches shirts, and sells them to ______ — some pay cash, some take 30 days credit.",
+     "a": "customers",
+     "self_check": true
+    },
+    {
+     "q": "What is Working capital? State the definition given in this lesson.",
+     "a": "Working capital refers to the capital required for financing day-to-day operations of a business.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: He buys cloth on credit from a wholesaler, stitches shirts, and sells them to customers — some pay cash, some take ______ days credit.",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Working capital?",
+     "a": "Students often believe that an increase in current assets always increases working capital requirement, ignoring that a simultaneous increase in current liabilities (e.g., taking more credit from suppliers) can offset or even reduce net working capital.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) distinguish between gross and net working capital using the formula NWC = CA – CL, (2) list and explain all 12 factors affecting working capital requirement from the NCERT text with appropriate business examples, and (3) analyse a case study to identify which factors are increasing or decreasing the.",
+     "self_check": true
     }
    ]
   }

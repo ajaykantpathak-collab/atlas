@@ -34,6 +34,31 @@
      "q": "Design a one-day vegetarian meal plan for a 16-year-old girl that visibly demonstrates the macronutrient/micronutrient classification on the plate. Your plan must: (a) list each food item with its *primary* nutrient category (macro/micro), (b) ensure all 5 macronutrients and both micronutrient categories are represented, (c) include at least one food where the *same item* contributes significantly to both a macro- and a micronutrient, and (d) explain how this plan addresses the adolescent anaemia risk mentioned in NCERT.",
      "a": "Sample answer (criteria for evaluation):\n**Breakfast**: Whole wheat roti (CHO-macro) + sprouted moong dal (protein-macro + iron-micro) + curd (protein-macro + calcium-micro) + guava (vit C-micro + fibre-macro + water-macro).  \n**Lunch**: Brown rice (CHO-macro) + rajma (protein-macro + iron-micro + fibre-macro) + spinach sabzi (iron-micro + folate-micro + fibre-macro + water-macro) + ghee (fat-macro).  \n**Snack**: Roasted chana (protein-macro + fibre-macro + iron-micro) + lemon water (vit C-micro + water-macro).  \n**Dinner**: Bajra roti (CHO-macro + fibre-macro) + paneer (protein-macro + calcium-micro) + salad (fibre-macro + water-macro + vit A-micro).  \n**Water**: 2.5 L (water-macro).  \n*Dual-contributor example*: Sprouted moong dal — significant protein (macro) AND iron (micro).  \n*Anaemia address*: Combines heme-free iron sources (dal, rajma, spinach, chana) with enhancers (vit C from guava, lemon) and avoids inhibitors (tea/coffee with meals). Includes folate (spinach) for erythropoiesis.  \nA poor answer lists foods without explicit macro/micro tagging, misses water or fibre as macros, omits the dual-contributor, or fails to link vit C to iron absorption for anaemia prevention.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Nutrients are the specific chemical constituents in food that the human body requires in suitable amounts to perform essential physiological functions including energy provision, structural building, metabolic regulation, and protection against disease; they are ______ classified into macronutrients (carbohydrates, proteins, fats, water, and dietary fibre — required in gram quantities per day) and micronutrients (vitamins and minerals such as iron, iodine, calcium — required in milligram or microgram quantities per day) based on the quantitative dietary requirement for maintaining health and supporting growth.",
+     "a": "scientifically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are planning a tiffin for your younger sibling — you pack a roti (______), dal (protein), a spoon of ghee (fat), a guava (vitamin C), and a glass of milk (calcium).",
+     "a": "carbohydrate",
+     "self_check": true
+    },
+    {
+     "q": "What is Nutrients? State the definition given in this lesson.",
+     "a": "Nutrients are the specific chemical constituents in food that the human body requires in suitable amounts to perform essential physiological functions including energy provision, structural building, metabolic regulation, and protection against disease; they are scientifically classified into macronutrients (carbohydrates, proteins.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Nutrients?",
+     "a": "Students categorically believe \"macronutrients = energy-giving nutrients (carbs, proteins, fats)\" and \"micronutrients = protective nutrients (vitamins, minerals)\" based on middle-school functional classification (energy-giving, body-building, protective).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify any given nutrient as macronutrient or micronutrient with quantitative justification (gram vs mg/µg scale), explain the physiological rationale for the classification using at least two distinct metabolic roles per category, and apply this classification to evaluate the nutrient density of a given meal.",
+     "self_check": true
     }
    ]
   }

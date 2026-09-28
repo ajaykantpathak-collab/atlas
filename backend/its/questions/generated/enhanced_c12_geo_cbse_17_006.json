@@ -34,6 +34,26 @@
      "q": "Design a disaster classification matrix for a district-level disaster management plan (DDMP) for a hypothetical district in the Himalayan foothills (seismic zone IV, high landslide risk, flash flood prone, with a national highway, a hydropower project, and dense pilgrim tourism). Your matrix must have: (1) hazard type, (2) origin (natural/human-made/na-tech), (3) primary trigger, (4) vulnerable elements (population, infrastructure, environment), (5) peak season/month. Provide 6 rows covering the major threats.",
      "a": "Expected matrix (sample rows):\n| Hazard Type | Origin | Primary Trigger | Vulnerable Elements | Peak Season |\n|---|---|---|---|---|\n| Earthquake (M>6) | Natural (Geophysical) | Tectonic stress release | Unreinforced masonry homes, schools, hospitals, highway bridges | Year-round (no season) |\n| Rainfall-induced landslide | Na-tech (Natural triggered by human) | Extreme rainfall + road cutting/blasting | Villages on slopes, highway (NH), pilgrim routes | July-August (monsoon) |\n| Glacial Lake Outburst Flood (GLOF) | Natural (Hydrological/Climatological) | Moraine dam breach from glacial retreat | Downstream settlements, hydropower infrastructure | June-September (melt season) |\n| Flash flood | Natural (Meteorological) | Cloudburst (>100mm/hr) | Riverbank encroachments, low-lying bazaars, pilgrim camps | July-August |\n| Hydropower tunnel collapse | Human-made (Technological) | Geological surprise + inadequate support | Workers, downstream communities (sudden release), power supply | Construction phase / post-monsoon |\n| Road traffic mass casualty | Human-made (Societal/Technological) | Vehicle failure + steep gradient + overloading | Pilgrim buses, local transport, highway users | May-June (pilgrim season), Dec (winter tourism) |\nA good answer shows: (a) correct UN classification terms, (b) na-tech recognition, (c) seasonality linked to Himalayan climatology, (d) specific vulnerable elements (not just \"people\"). POOR ANSWER REVEALS: Listing only \"landslide, flood, earthquake\" without origin classification, or missing the na-tech category, or giving generic vulnerable elements like \"population\" without spatial specificity (e.g., \"pilgrim camps on floodplains\").",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A disaster is a serious disruption of the functioning of a community or society involving widespread human, material, economic, or ______ losses and impacts, which exceeds the ability of the affected community or society to cope using its own resources.",
+     "a": "environmental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: \"When the 2001 Bhuj ______ struck Gujarat, it killed 20,000 people.",
+     "a": "earthquake",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between a natural hazard and a natural disaster using the vulnerability-exposure-capacity framework, classify any given disaster event into the correct category (natural vs human-made) and sub-category (geophysical, hydrological, meteorological, climatological, biological, technological, societal), and explain.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world ______: \"When the 2001 Bhuj earthquake struck Gujarat, it killed 20,000 people.",
+     "a": "observation",
+     "self_check": true
     }
    ]
   }

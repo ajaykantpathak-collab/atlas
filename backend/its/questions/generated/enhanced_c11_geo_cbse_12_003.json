@@ -34,6 +34,26 @@
      "q": "Design a one-page 'Soil Identification Key' for a Class 10 field trip to a region spanning the Eastern Ghats (Red soil), Deccan Plateau (Black soil), and Krishna Delta (Alluvial soil). The key must use only observable field properties (colour, texture, effervescence with HCl, landscape position) and fit on an A5 card.",
      "a": "A good key uses a dichotomous structure: 1a. Landscape: active floodplain/delta → Alluvial (stratified, effervesces). 1b. Not floodplain → 2. 2a. Colour: deep black, cracks in summer, sticky → Black soil. 2b. Colour: red/reddish, no cracks → 3. 3a. On Eastern Ghats slopes, gritty, low clay → Red soil. 3b. On plateau tops, brick red, pisolitic → Laterite. Poor keys list properties without decision logic, showing inability to operationalize classification for fieldwork.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ICAR (Indian Council of Agricultural Research) ______ categorizes Indian soils into eight major groups based on their genesis, colour, composition, and location: Alluvial, Black, Red, Laterite, Forest/Mountain, Arid/Desert, Saline/Alkaline, and Peaty/Marshy soils.",
+     "a": "classification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking students to observe the soil in their own neighbourhood or school garden – its colour, ______, and what grows easily in it.",
+     "a": "texture",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can list all eight ICAR soil groups with their primary distinguishing characteristics (genesis, colour, key minerals) and correctly match each group to its dominant physiographic region on an outline map of India.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking students to observe the soil in their own ______ or school garden – its colour, texture, and what grows easily in it.",
+     "a": "neighbourhood",
+     "self_check": true
     }
    ]
   }

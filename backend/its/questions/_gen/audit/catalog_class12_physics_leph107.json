@@ -1,0 +1,581 @@
+{
+ "catalog": "catalog_class12_physics_leph107.json",
+ "concepts": [
+  {
+   "id": "leph107.7.2.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "peak_value = 52",
+      "rms_value = peak_value / sqrt(2)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "peak_value = 106",
+      "rms_value = peak_value / sqrt(2)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "peak_value = 5.7",
+      "rms_value = peak_value / sqrt(2)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "peak_value = 76",
+      "rms_value = peak_value / sqrt(2)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "peak_value = 14",
+      "rms_value = peak_value / sqrt(2)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "peak_value = 19.9",
+      "rms_value = peak_value / sqrt(2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "rms_value = peak_value / sqrt(2)"
+   ]
+  },
+  {
+   "id": "leph107.7.2.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "rms_voltage = 69",
+      "power_rated = 3148",
+      "device_resist = rms_voltage ** 2 / power_rated"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "rms_voltage = 29",
+      "power_rated = 2763",
+      "device_resist = rms_voltage ** 2 / power_rated"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "rms_voltage = 42",
+      "power_rated = 3784",
+      "device_resist = rms_voltage ** 2 / power_rated"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rms_voltage = 74",
+      "power_rated = 449",
+      "device_resist = rms_voltage ** 2 / power_rated"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "rms_voltage = 108",
+      "power_rated = 2426",
+      "device_resist = rms_voltage ** 2 / power_rated"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "rms_voltage = 40",
+      "power_rated = 3352",
+      "device_resist = rms_voltage ** 2 / power_rated"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "device_resist = rms_voltage ** 2 / power_rated"
+   ]
+  },
+  {
+   "id": "leph107.7.3.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "amplitude = 87",
+      "omega = 21",
+      "time = 70",
+      "instant = amplitude * sin(omega * time)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "amplitude = 35",
+      "omega = 15.9",
+      "time = 32",
+      "instant = amplitude * sin(omega * time)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "amplitude = 66",
+      "omega = 23",
+      "time = 87",
+      "instant = amplitude * sin(omega * time)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "amplitude = 87",
+      "omega = 3.5",
+      "time = 56",
+      "instant = amplitude * sin(omega * time)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "amplitude = 68",
+      "omega = 66",
+      "time = 72",
+      "instant = amplitude * sin(omega * time)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "amplitude = 18.8",
+      "omega = 47",
+      "time = 103",
+      "instant = amplitude * sin(omega * time)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "instant = amplitude * sin(omega * time)"
+   ]
+  },
+  {
+   "id": "leph107.7.4.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "omega = 70",
+      "inductance = 41",
+      "react_l = omega * inductance"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "omega = 71",
+      "inductance = 82",
+      "react_l = omega * inductance"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "omega = 55",
+      "inductance = 75",
+      "react_l = omega * inductance"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "omega = 14.1",
+      "inductance = 94",
+      "react_l = omega * inductance"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "omega = 81",
+      "inductance = 99",
+      "react_l = omega * inductance"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "omega = 82",
+      "inductance = 49",
+      "react_l = omega * inductance"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "react_l = omega * inductance"
+   ]
+  },
+  {
+   "id": "leph107.7.5.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "omega = 79",
+      "capacitance = 26",
+      "react_c = 1 / (omega * capacitance)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "omega = 49",
+      "capacitance = 54",
+      "react_c = 1 / (omega * capacitance)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "omega = 7.3",
+      "capacitance = 4.4",
+      "react_c = 1 / (omega * capacitance)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "omega = 92",
+      "capacitance = 88",
+      "react_c = 1 / (omega * capacitance)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "omega = 100",
+      "capacitance = 55",
+      "react_c = 1 / (omega * capacitance)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "omega = 44",
+      "capacitance = 30",
+      "react_c = 1 / (omega * capacitance)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "react_c = 1 / (omega * capacitance)"
+   ]
+  },
+  {
+   "id": "leph107.7.6.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "resist = 94",
+      "react_gap = 3.8",
+      "impedance = sqrt(resist ** 2 + react_gap ** 2)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "resist = 97",
+      "react_gap = 97",
+      "impedance = sqrt(resist ** 2 + react_gap ** 2)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "resist = 70",
+      "react_gap = 13.6",
+      "impedance = sqrt(resist ** 2 + react_gap ** 2)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "resist = 28",
+      "react_gap = 79",
+      "impedance = sqrt(resist ** 2 + react_gap ** 2)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "resist = 70",
+      "react_gap = 53",
+      "impedance = sqrt(resist ** 2 + react_gap ** 2)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "resist = 22",
+      "react_gap = 30",
+      "impedance = sqrt(resist ** 2 + react_gap ** 2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "impedance = sqrt(resist ** 2 + react_gap ** 2)"
+   ]
+  },
+  {
+   "id": "leph107.7.6.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "inductance = 77",
+      "capacitance = 92",
+      "omega_zero = 1 / sqrt(inductance * capacitance)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "inductance = 62",
+      "capacitance = 71",
+      "omega_zero = 1 / sqrt(inductance * capacitance)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "inductance = 35",
+      "capacitance = 17.6",
+      "omega_zero = 1 / sqrt(inductance * capacitance)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "inductance = 66",
+      "capacitance = 27",
+      "omega_zero = 1 / sqrt(inductance * capacitance)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "inductance = 2.9",
+      "capacitance = 3.7",
+      "omega_zero = 1 / sqrt(inductance * capacitance)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "inductance = 68",
+      "capacitance = 9.4",
+      "omega_zero = 1 / sqrt(inductance * capacitance)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "omega_zero = 1 / sqrt(inductance * capacitance)"
+   ]
+  },
+  {
+   "id": "leph107.7.7.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "volt_rms = 92",
+      "current_rms = 54",
+      "power_factor = 38",
+      "avg_power = volt_rms * current_rms * power_factor"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "volt_rms = 61",
+      "current_rms = 64",
+      "power_factor = 4731",
+      "avg_power = volt_rms * current_rms * power_factor"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "volt_rms = 5.6",
+      "current_rms = 4.5",
+      "power_factor = 3729",
+      "avg_power = volt_rms * current_rms * power_factor"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "volt_rms = 53",
+      "current_rms = 101",
+      "power_factor = 2823",
+      "avg_power = volt_rms * current_rms * power_factor"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "volt_rms = 106",
+      "current_rms = 53",
+      "power_factor = 3063",
+      "avg_power = volt_rms * current_rms * power_factor"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "volt_rms = 75",
+      "current_rms = 38",
+      "power_factor = 430",
+      "avg_power = volt_rms * current_rms * power_factor"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "avg_power = volt_rms * current_rms * power_factor"
+   ]
+  },
+  {
+   "id": "leph107.7.8.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "volt_primary = 102",
+      "turns_ratio = 408",
+      "volt_secondary = volt_primary * turns_ratio"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "volt_primary = 101",
+      "turns_ratio = 329",
+      "volt_secondary = volt_primary * turns_ratio"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "volt_primary = 62",
+      "turns_ratio = 23",
+      "volt_secondary = volt_primary * turns_ratio"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "volt_primary = 101",
+      "turns_ratio = 317",
+      "volt_secondary = volt_primary * turns_ratio"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "volt_primary = 48",
+      "turns_ratio = 372",
+      "volt_secondary = volt_primary * turns_ratio"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "volt_primary = 11",
+      "turns_ratio = 6",
+      "volt_secondary = volt_primary * turns_ratio"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "volt_secondary = volt_primary * turns_ratio"
+   ]
+  },
+  {
+   "id": "leph107.7.8.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "power_out = 2200",
+      "power_in = 4510",
+      "efficiency = power_out / power_in"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "power_out = 4646",
+      "power_in = 3092",
+      "efficiency = power_out / power_in"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "power_out = 4077",
+      "power_in = 1164",
+      "efficiency = power_out / power_in"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "power_out = 3336",
+      "power_in = 708",
+      "efficiency = power_out / power_in"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "power_out = 4949",
+      "power_in = 358",
+      "efficiency = power_out / power_in"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "power_out = 4118",
+      "power_in = 4947",
+      "efficiency = power_out / power_in"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "efficiency = power_out / power_in"
+   ]
+  }
+ ]
+}

@@ -40,7 +40,16 @@
      "explain": "Subtract the total known products from the total reactants to find the missing mass.",
      "compute": "missing_mass = total_reactants - total_known_products"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mass_reactants = mass_products",
+     "compute": "mass_reactants = mass_products"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.9.2",
@@ -77,7 +86,16 @@
      "explain": "Confirm that the ratio mass_b/mass_a equals the fixed ratio_b/ratio_a, validating the Law of Constant Proportions.",
      "compute": "ratio_check = mass_b / mass_a"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mass_b = (ratio_b / ratio_a) * mass_a",
+     "compute": "mass_b = (ratio_b / ratio_a) * mass_a"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.9.3",

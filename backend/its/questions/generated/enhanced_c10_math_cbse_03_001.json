@@ -34,6 +34,21 @@
      "q": "Create a real-life problem (Indian context: rupees, metres, kg) that leads to a pair of linear equations whose graphs are parallel lines (no solution). Write the equations and explain why they are parallel.",
      "a": "Example: \"Ravi buys 2 kg apples and 3 kg oranges for ₹180. Next week, he buys 4 kg apples and 6 kg oranges for ₹350.\" Let apple price = \\(x\\), orange price = \\(y\\). Equations: \\(2x + 3y = 180\\) and \\(4x + 6y = 350\\). Ratios: \\(a_1/a_2 = 2/4 = 1/2\\), \\(b_1/b_2 = 3/6 = 1/2\\), \\(c_1/c_2 = 180/350 = 18/35 \\neq 1/2\\). Since \\(a_1/a_2 = b_1/b_2 \\neq c_1/c_2\\), lines are parallel — no solution. This means the prices changed or the data is inconsistent. A poor answer would give equations that are coincident or intersecting, showing the student cannot construct the specific ratio condition for parallel lines.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A pair of linear equations in two variables is ______ graphically by two straight lines on the Cartesian plane.",
+     "a": "represented",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and your ______ go to a stationary shop in Delhi.",
+     "a": "friend",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and your friend go to a ______ shop in Delhi.",
+     "a": "stationary",
+     "self_check": true
     }
    ]
   }

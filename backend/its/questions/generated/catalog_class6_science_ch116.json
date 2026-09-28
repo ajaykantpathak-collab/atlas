@@ -2,6 +2,147 @@
  "catalog": "catalog_class6_science_ch116.json",
  "concepts": [
   {
+   "id": "fesc.16.2.3",
+   "title": "Redworm Food Consumption",
+   "converted_to_compute": true,
+   "formula": "daily_food = worm_weight * worm_count",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "daily_food = worm_weight * worm_count",
+     "compute": "daily_food = worm_weight * worm_count"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Redworm Food Consumption: given worm_weight = 95, worm_count = 220, find daily food.",
+     "a": "20900",
+     "self_check": false
+    },
+    {
+     "q": "For Redworm Food Consumption: given worm_weight = 30, worm_count = 133, find daily food.",
+     "a": "3990",
+     "self_check": false
+    },
+    {
+     "q": "For Redworm Food Consumption: given worm_weight = 14.8, worm_count = 493, find daily food.",
+     "a": "7296.4",
+     "self_check": false
+    },
+    {
+     "q": "For Redworm Food Consumption: given worm_weight = 1.3, worm_count = 88, find daily food.",
+     "a": "114.4",
+     "self_check": false
+    },
+    {
+     "q": "For Redworm Food Consumption: given worm_weight = 178, worm_count = 446, find daily food.",
+     "a": "79388",
+     "self_check": false
+    },
+    {
+     "q": "For Redworm Food Consumption: given worm_weight = 161, worm_count = 107, find daily food.",
+     "a": "17227",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fesc.16.2.4",
+   "title": "Redworm Population Growth",
+   "converted_to_compute": true,
+   "formula": "final_worms = initial_worms * (2 ** months)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "final_worms = initial_worms * (2 ** months)",
+     "compute": "final_worms = initial_worms * (2 ** months)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Redworm Population Growth: given initial_worms = 45, months = 16.1, find final worms.",
+     "a": "3160788.553835",
+     "self_check": false
+    },
+    {
+     "q": "For Redworm Population Growth: given initial_worms = 65, months = 31, find final worms.",
+     "a": "139586437120",
+     "self_check": false
+    },
+    {
+     "q": "For Redworm Population Growth: given initial_worms = 71, months = 43, find final worms.",
+     "a": "624522604576768",
+     "self_check": false
+    },
+    {
+     "q": "For Redworm Population Growth: given initial_worms = 21, months = 29, find final worms.",
+     "a": "11274289152",
+     "self_check": false
+    },
+    {
+     "q": "For Redworm Population Growth: given initial_worms = 33, months = 43, find final worms.",
+     "a": "290271069732864",
+     "self_check": false
+    },
+    {
+     "q": "For Redworm Population Growth: given initial_worms = 11.5, months = 7.3, find final worms.",
+     "a": "1812.24",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fesc.16.3.1",
+   "title": "City Garbage Estimation",
+   "converted_to_compute": true,
+   "formula": "total_city_waste = (buckets / (days * members)) * city_population",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_city_waste = (buckets / (days * members)) * city_population",
+     "compute": "total_city_waste = (buckets / (days * members)) * city_population"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For City Garbage Estimation: given buckets = 99, days = 58, members = 41, city_population = 4.7, find total city waste.",
+     "a": "0.195669",
+     "self_check": false
+    },
+    {
+     "q": "For City Garbage Estimation: given buckets = 11.7, days = 3.4, members = 53, city_population = 90, find total city waste.",
+     "a": "5.84351",
+     "self_check": false
+    },
+    {
+     "q": "For City Garbage Estimation: given buckets = 23, days = 72, members = 10.2, city_population = 52, find total city waste.",
+     "a": "1.62854",
+     "self_check": false
+    },
+    {
+     "q": "For City Garbage Estimation: given buckets = 15.5, days = 79, members = 88, city_population = 48, find total city waste.",
+     "a": "0.10702",
+     "self_check": false
+    },
+    {
+     "q": "For City Garbage Estimation: given buckets = 19.3, days = 87, members = 10.6, city_population = 53, find total city waste.",
+     "a": "1.1092",
+     "self_check": false
+    },
+    {
+     "q": "For City Garbage Estimation: given buckets = 51, days = 6.9, members = 7.1, city_population = 21, find total city waste.",
+     "a": "21.8616",
+     "self_check": false
+    }
+   ]
+  },
+  {
    "id": "fesc.16.1.1",
    "title": "Landfill Disposal",
    "solution_type": "verify_property",
@@ -108,262 +249,6 @@
      "q": "Why are redworms called friends of farmers?",
      "a": "They turn waste into manure that enriches fields naturally.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "fesc.16.2.3",
-   "title": "Redworm Food Consumption",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "daily_food",
-     "expr": "worm_weight * worm_count",
-     "explain": "a redworm eats about its own weight each day; multiply for the bin"
-    },
-    {
-     "step": 2,
-     "name": "weekly_one_worm",
-     "expr": "worm_weight * 7",
-     "explain": "weekly food of a single worm"
-    },
-    {
-     "step": 3,
-     "name": "weekly_food",
-     "expr": "daily_food * 7",
-     "explain": "the same food over a week"
-    }
-   ],
-   "questions": [
-    {
-     "q": "Each of 50 redworms eats 0.5 g daily. Find the bin's daily and weekly food need.",
-     "vals": {
-      "worm_weight": 0.5,
-      "worm_count": 50
-     },
-     "unit": "g/day",
-     "steps": null,
-     "a": "175 g/day",
-     "self_check": false
-    },
-    {
-     "q": "A vermicompost pit has 200 worms eating 0.4 g each per day. Compute the daily food.",
-     "vals": {
-      "worm_weight": 0.4,
-      "worm_count": 200
-     },
-     "unit": "g/day",
-     "steps": null,
-     "a": "560 g/day",
-     "self_check": false
-    },
-    {
-     "q": "12 redworms of average weight 1 g each: what is their daily food, and the weekly total?",
-     "vals": {
-      "worm_weight": 1,
-      "worm_count": 12
-     },
-     "unit": "g/day",
-     "steps": null,
-     "a": "84 g/day",
-     "self_check": false
-    },
-    {
-     "q": "75 worms eating 0.2 g a day each: find the total daily food.",
-     "vals": {
-      "worm_weight": 0.2,
-      "worm_count": 75
-     },
-     "unit": "g/day",
-     "steps": null,
-     "a": "105 g/day",
-     "self_check": false
-    },
-    {
-     "q": "A bin holds 30 worms of 0.6 g each. Calculate their daily and weekly food.",
-     "vals": {
-      "worm_weight": 0.6,
-      "worm_count": 30
-     },
-     "unit": "g/day",
-     "steps": null,
-     "a": "126 g/day",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "fesc.16.2.4",
-   "title": "Redworm Population Growth",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "doublings",
-     "expr": "2 ** months",
-     "explain": "the worm population doubles every month"
-    },
-    {
-     "step": 2,
-     "name": "halfway_count",
-     "expr": "initial_worms * (2 ** (months / 2))",
-     "explain": "population at the halfway month"
-    },
-    {
-     "step": 3,
-     "name": "final_worms",
-     "expr": "initial_worms * doublings",
-     "explain": "multiply the starting worms"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A compost bin starts with 5 redworms. If their number doubles every month, how many after 3 months?",
-     "vals": {
-      "initial_worms": 5,
-      "months": 3
-     },
-     "unit": "worms",
-     "steps": null,
-     "a": "40 worms",
-     "self_check": false
-    },
-    {
-     "q": "Starting with 10 worms, how many after 2 months of doubling?",
-     "vals": {
-      "initial_worms": 10,
-      "months": 2
-     },
-     "unit": "worms",
-     "steps": null,
-     "a": "40 worms",
-     "self_check": false
-    },
-    {
-     "q": "A bin with 2 worms doubles monthly. Find the count after 4 months.",
-     "vals": {
-      "initial_worms": 2,
-      "months": 4
-     },
-     "unit": "worms",
-     "steps": null,
-     "a": "32 worms",
-     "self_check": false
-    },
-    {
-     "q": "From 8 redworms, doubling each month, how many after 3 months?",
-     "vals": {
-      "initial_worms": 8,
-      "months": 3
-     },
-     "unit": "worms",
-     "steps": null,
-     "a": "64 worms",
-     "self_check": false
-    },
-    {
-     "q": "If 6 worms double every month, what is the population after 5 months?",
-     "vals": {
-      "initial_worms": 6,
-      "months": 5
-     },
-     "unit": "worms",
-     "steps": null,
-     "a": "192 worms",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "fesc.16.3.1",
-   "title": "City Garbage Estimation",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "buckets_per_person_day",
-     "expr": "buckets / (days * members)",
-     "explain": "waste made by one person in one day, in bucket fractions"
-    },
-    {
-     "step": 2,
-     "name": "family_daily",
-     "expr": "buckets / days",
-     "explain": "buckets per day for the whole family"
-    },
-    {
-     "step": 3,
-     "name": "total_city_waste",
-     "expr": "buckets_per_person_day * city_population",
-     "explain": "scale up to the whole city's daily waste"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A family of 4 fills 3 buckets of waste in 7 days. Estimate the daily waste for a city of 200000 people.",
-     "vals": {
-      "buckets": 3,
-      "days": 7,
-      "members": 4,
-      "city_population": 200000
-     },
-     "unit": "buckets/day",
-     "steps": null,
-     "a": "21428.6 buckets/day",
-     "self_check": false
-    },
-    {
-     "q": "5 members fill 4 buckets in 8 days. Estimate daily waste for a town of 50000.",
-     "vals": {
-      "buckets": 4,
-      "days": 8,
-      "members": 5,
-      "city_population": 50000
-     },
-     "unit": "buckets/day",
-     "steps": null,
-     "a": "5000 buckets/day",
-     "self_check": false
-    },
-    {
-     "q": "A household of 3 makes 2 buckets in 6 days. What is the estimate for a city of 100000?",
-     "vals": {
-      "buckets": 2,
-      "days": 6,
-      "members": 3,
-      "city_population": 100000
-     },
-     "unit": "buckets/day",
-     "steps": null,
-     "a": "11111.1 buckets/day",
-     "self_check": false
-    },
-    {
-     "q": "6 members fill 5 buckets in 10 days. Estimate the daily waste of a city of 400000.",
-     "vals": {
-      "buckets": 5,
-      "days": 10,
-      "members": 6,
-      "city_population": 400000
-     },
-     "unit": "buckets/day",
-     "steps": null,
-     "a": "33333.3 buckets/day",
-     "self_check": false
-    },
-    {
-     "q": "A family of 5 produces 3 buckets in 5 days. Estimate for a city of 250000 people.",
-     "vals": {
-      "buckets": 3,
-      "days": 5,
-      "members": 5,
-      "city_population": 250000
-     },
-     "unit": "buckets/day",
-     "steps": null,
-     "a": "30000 buckets/day",
-     "self_check": false
     }
    ]
   },

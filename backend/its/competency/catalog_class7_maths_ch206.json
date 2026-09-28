@@ -26,7 +26,7 @@
     "what do you understand by perpendicular bisector construction",
     "list the main points about perpendicular bisector construction"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -38,7 +38,16 @@
      "action": "Connect intersections",
      "explain": "The line joining the two intersection points is the perpendicular bisector."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 42 gives 264",
+     "compute": "circ = 2 * 22 / 7 * 42"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.6.1.2",
@@ -102,7 +111,7 @@
     "what do you understand by angle copying",
     "list the main points about angle copying"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -119,7 +128,16 @@
      "action": "Transfer chord",
      "explain": "Measure the distance between the two points on the original arc and transfer it to the new arc."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 19 gives 71",
+     "compute": "other = 90 - 19"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.6.1.4",

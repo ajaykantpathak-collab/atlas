@@ -34,6 +34,16 @@
      "q": "Design a simple experiment using a battery, a flexible copper wire, a horseshoe magnet, and a switch to demonstrate that the magnetic force on a current-carrying wire is perpendicular to both the current and the magnetic field. Describe the setup, what you would observe, and how you would verify the perpendicular nature.",
      "a": "Setup: Hang a flexible copper wire vertically from a support, connect its lower end to a battery via a switch, and place a horseshoe magnet so its poles are horizontal (field horizontal). Close the switch. Observation: The wire deflects horizontally, perpendicular to both the vertical current and horizontal field. Reverse the battery: deflection reverses direction. Reverse the magnet poles: deflection reverses. Rotate the magnet so field is vertical (parallel to current): no deflection. This verifies \\(\\vec{F} \\perp \\vec{l}\\) and \\(\\vec{F} \\perp \\vec{B}\\), and \\(\\vec{F} \\propto I\\) and \\(\\vec{F} \\propto B\\). A poor answer would only describe deflection without systematic variation of current/field directions, missing the cross-product nature.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The magnetic force on a ______ current-carrying conductor placed in a uniform magnetic field is the vector sum of Lorentz forces on all moving charge carriers inside the conductor.",
+     "a": "straight",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a copper wire hanging ______ from a support, connected to a battery.",
+     "a": "vertically",
+     "self_check": true
     }
    ]
   }

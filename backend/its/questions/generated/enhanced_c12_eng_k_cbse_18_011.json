@@ -17,7 +17,7 @@
     },
     {
      "q": "Analyze the noun phrase in this sentence from the text: \"The second woman head of the Indian National Congress, Nellie Sengupta, was elected in 1933.\" Identify: (a) the head noun, (b) all pre-modifiers (determiners, adjectives, quantifiers), (c) the appositive phrase, and (d) any post-modifying prepositional phrase.",
-     "a": "(a) Head noun: \"head\" (b) Pre-modifiers: \"The\" (definite article), \"second\" (ordinal adjective), \"woman\" (noun adjunct functioning as adjective), \"of the Indian National Congress\" (prepositional phrase *pre-modifying* \"head\" — note: it precedes the head) (c) Appositive: \"Nellie Sengupta\" (renames \"head\") (d) Post-modifying prepositional phrase: none (the prepositional phrase is a pre-modifier here). A student who labels \"Nellie Sengupta\" as a relative clause or misses that \"of the Indian National Congress\" comes *before* the head noun has not grasped that prepositional phrases can be pre- or post-modifiers depending on position — a critical distinction for parsing complex academic sentences.",
+     "a": "(a) Head noun: \"head\" (b) Pre-modifiers: \"The\" (definite article), \"second\" (ordinal adjective), \"woman\" (noun adjunct functioning as adjective), \"of the Indian National Congress\" (prepositional phrase *pre-modifying* \"head\" — note: it precedes the head) (c) Appositive: \"Nellie Sengupta\" (renames \"head\") (d) Post-modifying prepositional phrase: N/A (the prepositional phrase is a pre-modifier here). A student who labels \"Nellie Sengupta\" as a relative clause or misses that \"of the Indian National Congress\" comes *before* the head noun has not grasped that prepositional phrases can be pre- or post-modifiers depending on position — a critical distinction for parsing complex academic sentences.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Write a 3-sentence paragraph on any current Indian policy debate (e.g., farm laws, digital privacy, uniform civil code) that demonstrates: (i) a complex noun phrase with an appositive, (ii) at least two qualification/hedging phrases, and (iii) a parenthetical clause adding definitional context. Underline and label each feature.",
      "a": "Sample answer: \"The proposed Digital Personal Data Protection Bill, a landmark legislation aiming to regulate data processing, may *largely* strengthen user consent mechanisms, *though* enforcement capacity remains uncertain. The bill's 'deemed consent' provision — a clause that assumes consent for certain 'legitimate uses' without explicit user action — has *rightly* drawn criticism from privacy advocates. *On balance*, the framework represents progress *provided* the Data Protection Board operates independently.\" Features: (i) Appositive: \"a landmark legislation aiming to regulate data processing\" (ii) Qualifications: \"largely\", \"though\", \"rightly\", \"on balance\", \"provided\" (iii) Parenthetical: \"— a clause that assumes consent for certain 'legitimate uses' without explicit user action —\". A poor answer uses simple sentences, no hedging, or mislabels a relative clause as an appositive — showing inability to *produce* the structures they only passively recognize.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Grammar: Language Usage in the Text refers to the systematic analysis of how Amartya Sen employs specific grammatical structures — particularly noun phrase architecture (determiners, pre/post-modifiers, apposition, ______ clauses), qualification/hedging language, and vocabulary of argumentation — to build a nuanced, authoritative, and persuasive academic voice in \"The Argumentative Indian.\"",
+     "a": "parenthetical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are reading a ______ editorial where the writer says \"The policy is largely successful\" instead of \"The policy is successful.\" Why add \"largely\"?",
+     "a": "newspaper",
+     "self_check": true
+    },
+    {
+     "q": "What is Grammar? State the definition given in this lesson.",
+     "a": "Grammar: Language Usage in the Text refers to the systematic analysis of how Amartya Sen employs specific grammatical structures — particularly noun phrase architecture (determiners, pre/post-modifiers, apposition, parenthetical clauses), qualification/hedging language, and vocabulary of argumentation — to build a nuanced, authoritative.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Grammar?",
+     "a": "Students equate \"qualification\" (hedging) with weakness or vagueness, believing strong writing means absolute statements (\"Sen proves that...\").",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently identify, label, and explain the rhetorical function of (1) qualified/hedged assertions, (2) complex noun phrases with multiple pre- and post-modifiers, (3) appositive constructions, and (4) parenthetical clauses in Sen's essay, and can replicate these features in their own analytical writing.",
      "self_check": true
     }
    ]

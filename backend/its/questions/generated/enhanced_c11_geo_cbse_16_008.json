@@ -34,6 +34,31 @@
      "q": "Design a choropleth map scheme to show the district-level distribution of Scheduled Tribe populations who speak Austroasiatic languages (e.g., Santali, Mundari). Specify the data classes, color ramp, and two inset maps you would include for context.",
      "a": "A good answer: Data classes based on percentage of Austroasiatic speakers in district population (0-5%, 5-15%, 15-30%, 30-50%, >50%). Color ramp: light yellow to dark brown. Inset maps: (1) Physical map showing Chotanagpur plateau and forested corridors; (2) Historical map of tribal kingdoms. A poor answer uses arbitrary classes, ignores the geographic concentration in Jharkhand-Odisha-West Bengal belt, or omits context insets.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Population composition by religion and language refers to the spatial and numerical ______ of religious communities (e.g., Hindus, Muslims, Christians, Sikhs, Buddhists, Jains, others) and linguistic groups (scheduled and non-scheduled languages) across India's states and union territories, as recorded in the Census of India.",
+     "a": "distribution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by observing a ______ map of India in your classroom or textbook: notice how state boundaries often align with language regions (e.g., Tamil Nadu, Kerala, Maharashtra).",
+     "a": "linguistic",
+     "self_check": true
+    },
+    {
+     "q": "What is Population composition by religion and language? State the definition given in this lesson.",
+     "a": "Population composition by religion and language refers to the spatial and numerical distribution of religious communities (e.g., Hindus, Muslims, Christians, Sikhs, Buddhists, Jains, others) and linguistic groups (scheduled and non-scheduled languages) across India's states and union territories, as recorded in the Census of India.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Population composition by religion and language?",
+     "a": "Students often think that \"Hindi is the national language of India\" and that most Indians speak Hindi as their mother tongue.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can interpret Census data to compare religious and linguistic diversity across Indian states, explain the geographical factors influencing their distribution, and relate this composition to India's federal structure and cultural regions.",
+     "self_check": true
     }
    ]
   }

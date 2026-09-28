@@ -34,6 +34,31 @@
      "q": "Design a 4-week \"Bridge to Python\" MOOC module for Class 10 students transitioning to Class 11 Computer Science in a Hindi-medium government school. Specify: (a) weekly learning outcomes, (b) one asynchronous and one synchronous activity per week, (c) two strategies to mitigate low-bandwidth constraints, and (d) one formative assessment method that works offline.",
      "a": "**Week 1**: Variables & data types → Async: Hindi video + PDF notes (downloadable); Sync: WhatsApp doubt-clearing (text/voice). **Week 2**: Conditionals → Async: Interactive quiz (Google Forms offline mode); Sync: Live coding demo on Zoom (recorded). **Week 3**: Loops → Async: Practice problems with auto-graded Jupyter notebook (exported as HTML); Sync: Peer code review in breakout rooms. **Week 4**: Functions & mini-project → Async: Project template; Sync: Project showcase. **Low-bandwidth strategies**: (1) All videos < 10 min, 360p, downloadable via DIKSHA app; (2) Text-based alternatives (PDF, WhatsApp messages) for every video. **Offline formative assessment**: Weekly paper-based \"exit ticket\" (3 MCQs + 1 code-tracing question) collected by teacher, photographed, and uploaded when connectivity exists. A good answer shows empathy for constraints, bilingual design, and assessment that doesn't assume continuous connectivity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: E-Learning refers to the use of electronic ______, primarily the internet, to access educational curricula outside of a traditional classroom.",
+     "a": "technologies",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a student in a remote village in Rajasthan who wants to learn advanced Python ______ but has no qualified teacher nearby.",
+     "a": "programming",
+     "self_check": true
+    },
+    {
+     "q": "What is E-Learning? State the definition given in this lesson.",
+     "a": "E-Learning refers to the use of electronic technologies, primarily the internet, to access educational curricula outside of a traditional classroom.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about E-Learning?",
+     "a": "Students often believe \"E-learning is just watching videos online\" and \"MOOCs are easy because they are self-paced.\" This leads to two errors: (1) They underestimate the self-regulation, time-management, and active-learning skills required — resulting in <15% completion rates globally.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the key features, advantages, and limitations of e-learning and MOOCs, analyze their impact on access to education (especially in the Indian context), and evaluate the role of digital divide and digital literacy in determining their effectiveness.",
+     "self_check": true
     }
    ]
   }

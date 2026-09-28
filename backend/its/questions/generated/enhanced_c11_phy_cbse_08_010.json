@@ -34,6 +34,21 @@
      "q": "Design a thought experiment to determine Poisson's ratio of a wire using only a tensile test (measuring force and elongation) and a torsion test (measuring torque and angle of twist), without any lateral strain measurement. Explain the procedure and the formula you would use.",
      "a": "Procedure: (1) Perform tensile test on wire: measure Y from slope of F vs ΔL (Y = FL/AΔL). (2) Perform torsion test on same wire: measure G from torque-twist relation (τ = Gθr/L, where τ = Tr/J). (3) Use Y = 2G(1+σ) → σ = Y/(2G) - 1. This works because torsion gives pure shear (G) while tension gives combined volumetric and shear response (Y). The formula eliminates need for lateral measurement. A poor answer would suggest measuring diameter change directly (which the question forbids) or using only one test, revealing misunderstanding that two independent moduli are needed to determine σ.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The relationship between elastic constants describes the mathematical ______ of Young's modulus (Y), bulk modulus (B), shear modulus (G), and Poisson's ratio (σ) for isotropic materials, allowing any one constant to be determined from the other two.",
+     "a": "interdependence",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a rubber eraser being ______ between your fingers — it bulges sideways.",
+     "a": "compressed",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the relationship Y = 9BG/(3B+G) from fundamental definitions, calculate any elastic constant given the other two with proper unit handling, and explain why Poisson's ratio must lie between 0 and 0.5 for stable isotropic materials.",
+     "self_check": true
     }
    ]
   }

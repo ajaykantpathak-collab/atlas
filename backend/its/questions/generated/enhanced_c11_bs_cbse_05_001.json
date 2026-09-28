@@ -34,6 +34,31 @@
      "q": "Design a minimal e-business model for a local bakery that currently only sells walk-in. Your model must include: (i) one B2C element, (ii) one B2B element, (iii) one Intra-B element, and (iv) specify which stage (pre-purchase, purchase/sale, delivery) each operates in. Draw a simple flowchart showing information flow between the four parties/departments.",
      "a": "Good answer criteria: (i) B2C: Customer browses menu on WhatsApp/website, places order (pre-purchase + purchase stage). (ii) B2B: Bakery auto-orders flour/butter from supplier when inventory drops below threshold via supplier portal (purchase stage). (iii) Intra-B: Kitchen display system receives order instantly, updates inventory, triggers billing — all departments (sales, production, accounts) see real-time data (all stages). Flowchart must show: Customer → Bakery Frontend → (simultaneously) Kitchen Display + Inventory System + Billing + Supplier Portal. A poor answer that only creates a website for orders (B2C only) or misses the simultaneous information flow reveals the student views e-business as \"online shop\" rather than integrated digital nervous system.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: E-business is the conduct of industry, trade, and commerce using computer networks (primarily the internet for external transactions and intranet for internal processes), encompassing all ______ conducted business functions including production, inventory management, product development, accounting, finance, human resource management, and buyer-seller interactions.",
+     "a": "electronically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine it is 11:30 PM and you want to buy a ______ for tomorrow's test — physical shops are closed, but you open an app, search, pay via UPI, and get an instant e-book download.",
+     "a": "textbook",
+     "self_check": true
+    },
+    {
+     "q": "What is E-business? State the definition given in this lesson.",
+     "a": "E-business is the conduct of industry, trade, and commerce using computer networks (primarily the internet for external transactions and intranet for internal processes), encompassing all electronically conducted business functions including production, inventory management, product development, accounting, finance, human resource.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about E-business?",
+     "a": "Students equate e-business with \"having a website for online shopping\" (B2C e-commerce only).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can precisely define e-business using the NCERT terminology, distinguish it from e-commerce by listing at least three internal business functions included in e-business but not in e-commerce, classify any given electronic transaction into B2B, B2C, Intra-B, or C2C with justification, and sequence the three stages of online.",
+     "self_check": true
     }
    ]
   }

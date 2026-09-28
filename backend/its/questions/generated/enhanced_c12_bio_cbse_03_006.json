@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using fluorescent probes to demonstrate that capacitation increases sperm membrane fluidity. Specify the probe, expected result, and control.",
      "a": "Correct answer: Use Merocyanine 540 (binds to disordered phospholipids) or Laurdan (GP imaging). Incubate sperm in capacitating vs. non-capacitating medium. Expected: Increased fluorescence intensity (Merocyanine) or decreased generalized polarization (Laurdan) in capacitated sperm. Control: Sperm in non-capacitating medium + cholesterol-loaded cyclodextrin (prevents cholesterol efflux). A poor answer (using DNA dye or mitochondrial probe) reveals confusion between membrane fluidity and other sperm parameters.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ in humans is the fusion of a capacitated spermatozoon with a secondary oocyte in the ampulla of the fallopian tube, initiated by the acrosome reaction where hydrolytic enzymes from the sperm's acrosome digest the zona pellucida, allowing plasma membrane fusion and cortical reaction that blocks polyspermy.",
+     "a": "Fertilization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a single sperm navigating the female ______ tract — it cannot fertilize immediately after ejaculation; it must undergo a \"maturation\" called capacitation in the uterus and fallopian tube.",
+     "a": "reproductive",
+     "self_check": true
+    },
+    {
+     "q": "What is Fertilization in humans? State the definition given in this lesson.",
+     "a": "Fertilization in humans is the fusion of a capacitated spermatozoon with a secondary oocyte in the ampulla of the fallopian tube, initiated by the acrosome reaction where hydrolytic enzymes from the sperm's acrosome digest the zona pellucida, allowing plasma membrane fusion and cortical reaction that blocks polyspermy.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key principle: capacitation removes decapacitation factors (cholesterol, seminal plasma proteins) from the sperm membrane, increasing fluidity and exposing ZP______ receptors, enabling the acrosome reaction upon zona contact.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Fertilization in humans?",
+     "a": "Students believe capacitation is the same as the acrosome reaction, or that capacitation occurs in the epididymis.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the sequential molecular events of capacitation and acrosome reaction, identify the specific enzymes and receptors involved, predict the consequence of failure at each step, and correlate these events with clinical infertility scenarios and assisted reproductive technologies.",
+     "self_check": true
     }
    ]
   }

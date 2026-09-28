@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_05_010",
+   "title": "c12_app_cbse_05_010",
+   "questions": [
+    {
+     "q": "State the standard differential equation for exponential growth and identify what each symbol represents (including units if time is in years and quantity is in grams).",
+     "a": "The standard form is `dy/dt = ky` where `y` is the quantity (grams), `t` is time (years), `dy/dt` is the rate of change (grams/year), and `k > 0` is the growth constant (year⁻¹). A wrong answer like `dy/dt = k` (constant rate) or `dy/dt = kt` (rate proportional to time) reveals the student confuses \"rate proportional to amount\" with \"rate proportional to time\" — a fundamental misconception that makes all subsequent modeling impossible.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the differential equation for Newton's Law of Cooling as `dT/dt = k(T - T_s)` for a cooling object. Is this correct? Explain why or why not, and state the correct form with the proper sign convention.",
+     "a": "Incorrect. For cooling, temperature `T` decreases toward surrounding temperature `T_s`, so `dT/dt` must be negative when `T > T_s`. The correct form is `dT/dt = -k(T - T_s)` with `k > 0`. If a student misses the minus sign, they will get a growing exponential instead of decay, predicting the object heats up infinitely — a classic sign error that costs full marks in board exams and appears as a distractor in JEE Main.",
+     "self_check": true
+    },
+    {
+     "q": "A bacterial culture doubles in 3 hours. If the initial population is 500, find the population after 10 hours. Show the complete modeling process: formulate the DE, solve for the general solution, find the particular solution using given data, then compute the answer.",
+     "a": "**Formulate:** `dP/dt = kP`, `P(0)=500`. **Separate & Integrate:** `dP/P = k dt` → `ln P = kt + C` → `P = Ce^(kt)`. **Apply IC:** `500 = Ce^0` → `C=500` → `P=500e^(kt)`. **Use doubling:** `1000 = 500e^(3k)` → `e^(3k)=2` → `k = (ln 2)/3 ≈ 0.231 hr⁻¹`. **Compute:** `P(10) = 500e^(10·ln2/3) = 500·2^(10/3) ≈ 500·10.079 = 5039.5 ≈ 5040 bacteria`. A wrong answer using `P=500·2^(t/3)` directly without deriving `k` shows the student memorized a shortcut but cannot formulate or solve the DE from scratch — they will fail if the problem gives non-doubling data (e.g., \"population is 10,000 at t=3 and 40,000 at t=5\" like NCERT Example 13).",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the mathematical models for (a) continuous compound interest and (b) Newton's Law of Cooling. Specifically: identify the dependent/independent variables, the equilibrium value (if any), the sign of the proportionality constant, and the long-term behavior of the solution.",
+     "a": "(a) Compound interest: `dA/dt = rA`, `A`=amount, `t`=time, `r>0`, no equilibrium, `A→∞` as `t→∞`. (b) Cooling: `dT/dt = -k(T - T_s)`, `T`=temp, `t`=time, `k>0`, equilibrium=`T_s`, `T→T_s` as `t→∞`. The key structural difference: interest has `dy/dt = +k·y` (unbounded growth), cooling has `dy/dt = -k(y - y_eq)` (bounded decay to equilibrium). Students who think both are \"just exponential\" miss that cooling is exponential *relative to equilibrium*, not absolute zero — this distinction is critical for carbon dating (where equilibrium is zero) vs. cooling (where equilibrium is room temperature).",
+     "self_check": true
+    },
+    {
+     "q": "A problem states: \"Radium decomposes at a rate proportional to the amount present. Half-life is 1600 years. Find the percentage lost in 100 years.\" A student argues: \"Since half is lost in 1600 years, in 100 years exactly 100/1600 = 6.25% is lost.\" Evaluate this reasoning. Is it correct? If not, explain the flaw and give the correct percentage.",
+     "a": "The reasoning is **incorrect** — it assumes linear decay, but radioactive decay is exponential. Correct approach: `dM/dt = -kM` → `M = M₀e^(-kt)`. Half-life: `M₀/2 = M₀e^(-k·1600)` → `k = (ln 2)/1600`. After 100 years: `M = M₀e^(-100·ln2/1600) = M₀·2^(-1/16) ≈ M₀·0.9576`. Percentage lost = `(1 - 0.9576)×100% ≈ 4.24%`. The student's linear approximation (6.25%) overestimates loss because decay slows down as amount decreases — a classic \"constant rate vs. proportional rate\" confusion that appears in CBSE competency questions and NEET biology (radioisotope dating).",
+     "self_check": true
+    },
+    {
+     "q": "Design a new real-world scenario (not from the textbook) that can be modeled by `dy/dt = k(y - C)` where `C ≠ 0` and `k < 0`. Define all variables, state the differential equation with correct signs, describe the physical meaning of `C`, and sketch the expected solution curve qualitatively.",
+     "a": "**Scenario:** A heated metal rod at 300°C is placed in a furnace maintained at 500°C. The rod heats up. **Variables:** `T(t)` = rod temperature (°C), `t` = time (min), `T_s = 500` = furnace temp, `k > 0` heating constant. **DE:** `dT/dt = k(500 - T)` or equivalently `dT/dt = -k(T - 500)` with `k>0`. Here `C = 500` is the equilibrium temperature (furnace temp). **Curve:** Starts at (0, 300), increases asymptotically toward 500, concave down. A poor answer uses `dT/dt = k(T - 500)` (wrong sign, predicts cooling) or sets `C=0` (misidentifies equilibrium as absolute zero). This tests whether the student truly understands the *structure* `dy/dt = -k(y - y_eq)` rather than memorizing \"cooling = minus sign.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

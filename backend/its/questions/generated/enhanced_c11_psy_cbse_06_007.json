@@ -34,6 +34,31 @@
      "q": "Create a *realistic* Class 11 scenario where **all three theories** (decay, interference, repression) could *plausibly* explain a student's forgetting — then specify *one unique prediction* each theory makes that would let a researcher distinguish them experimentally.",
      "a": "**Scenario**: Rohan studies Biology Chapter 5 (Cell Structure) on Monday. On Tuesday, he studies Chemistry Chapter 2 (Atomic Structure). On Wednesday, he witnesses a minor lab accident (broken beaker, no injuries). On Thursday's Biology test, he cannot recall *any* Cell Structure content.  \n\n**Unique experimental predictions**:  \n| Theory | Unique Prediction | Test Design |  \n|--------|-------------------|-------------|  \n| **Trace Decay** | Forgetting correlates *only* with *time elapsed* (Mon→Thu), *not* with Tuesday's Chemistry study or Wednesday's accident. | Compare Group 1 (Mon Bio → Tue Chem → Thu test) vs Group 2 (Mon Bio → Tue rest → Thu test). **Decay predicts equal forgetting.** |  \n| **Interference** | Forgetting is *greater* in Group 1 (Chem interpolated) than Group 2 (rest). *Specificity*: Chemistry (similar structural content) causes *more* interference than unrelated task (e.g., jogging). | Add Group 3 (Mon Bio → Tue jogging → Thu test). **Interference predicts: Group 1 < Group 3 ≈ Group 2 recall.** |  \n| **Repression** | Forgetting is *selective* for *accident-related* Biology content (e.g., cell membrane rupture), not general cell facts. *No forgetting* if accident hadn't occurred. | Compare recall of \"cell membrane\" vs \"mitochondria\" items. **Repression predicts: membrane items << mitochondria items *only* in accident group.** |  \n\n**Poor answer reveals**: Student gives vague predictions (\"decay = time, interference = other subjects, repression = trauma\") without *testable, mutually exclusive* experimental contrasts. Shows inability to operationalize theories — a key board exam competency.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Forgetting theories explain why stored information becomes ______: Trace Decay Theory proposes memory traces physically fade over time due to disuse; Interference Theory states forgetting occurs when competing associations block retrieval, with proactive interference (old learning disrupts new recall) and retroactive interference (new learning disrupts old recall); Repression (Freud) describes motivated forgetting where anxiety-provoking memories are unconsciously blocked from awareness.",
+     "a": "inaccessible",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you ______ Hindi vocabulary yesterday, then French vocabulary today, and now you cannot recall the Hindi words during your test.",
+     "a": "studied",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) distinguish between trace decay, interference (proactive vs retroactive), and repression using specific experimental evidence; (2) apply each theory to explain a novel forgetting scenario and justify why one theory fits better than others; (3) design a simple interference experiment with.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Forgetting theories explain why stored information becomes inaccessible: Trace Decay Theory proposes memory traces physically fade over time due to disuse; Interference Theory states forgetting occurs when competing associations block retrieval, with proactive interference (old learning disrupts new recall) and retroactive interference (new learning disrupts old recall); Repression (Freud) describes motivated forgetting where anxiety-provoking memories are ______ blocked from awareness.",
+     "a": "unconsciously",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you studied Hindi vocabulary ______, then French vocabulary today, and now you cannot recall the Hindi words during your test.",
+     "a": "yesterday",
+     "self_check": true
     }
    ]
   }

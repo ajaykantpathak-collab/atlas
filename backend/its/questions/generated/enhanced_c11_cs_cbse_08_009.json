@@ -34,6 +34,31 @@
      "q": "Design a small program that uses a global variable `balance` to simulate a simple bank account. Provide functions `deposit(amount)`, `withdraw(amount)`, and `get_balance()` that correctly modify and access the global `balance`. Include the `global` keyword where necessary.",
      "a": "```python\nbalance = 0\ndef deposit(amount):\n    global balance\n    balance += amount\ndef withdraw(amount):\n    global balance\n    if amount <= balance:\n        balance -= amount\n    else:\n        print(\"Insufficient funds\")\ndef get_balance():\n    return balance  # no global needed for reading\n```\nA good answer includes `global balance` in both `deposit` and `withdraw` because they assign to `balance`, but omits it in `get_balance`. A poor answer either misses `global` in the mutating functions or unnecessarily adds it in `get_balance`, indicating incomplete understanding of when `global` is required.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The global keyword in Python is used inside a function to declare that a variable name refers to the global variable (defined outside the function) rather than ______ a new local variable.",
+     "a": "creating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a ______ to track the total score in a game.",
+     "a": "program",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You have a variable total_score = ______ at the top of your script.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to correctly use the global keyword to modify a global variable inside a function, explain why it is needed when assigning to a global variable, and predict the output of code snippets that mix global and local variables with and without the global declaration.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are writing a program to track the total score in a game.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

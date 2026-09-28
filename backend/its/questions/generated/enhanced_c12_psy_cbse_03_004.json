@@ -34,6 +34,16 @@
      "q": "Create a 4-row × 4-column table. Rows = the four domains (Emotional, Physiological, Cognitive, Behavioural). Columns = (1) One core symptom, (2) Underlying biological/psychological mechanism, (3) One observable sign a teacher/parent might notice, (4) One adaptive vs. maladaptive coping link. Fill all 16 cells with specific, non-repetitive content from the chapter.",
      "a": "A good answer fills each cell accurately, e.g.:\n- Emotional: (1) Anxiety, (2) Amygdala hyperactivity + low GABA, (3) Restlessness, fidgeting, (4) Adaptive: seeking support; Maladaptive: rumination.\n- Physiological: (1) Elevated BP, (2) SAM/HPA axis → catecholamines/cortisol, (3) Flushed face, rapid breathing, (4) Adaptive: exercise; Maladaptive: smoking.\n- Cognitive: (1) Poor concentration, (2) Cortisol impairs prefrontal cortex, (3) Staring blankly, incomplete work, (4) Adaptive: chunking tasks; Maladaptive: procrastination.\n- Behavioural: (1) Sleep disruption, (2) Hyperarousal disrupts sleep architecture, (3) Yawning, napping in class, (4) Adaptive: sleep hygiene; Maladaptive: sleeping pills.\nA poor answer with vague mechanisms (\"stress causes it\") or missing adaptive/maladaptive distinction shows the student cannot integrate biology, observation, and coping — exactly what competency questions demand.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stress effects on psychological functioning refer to the four ______ domains — emotional (mood swings, anxiety, depression), physiological (autonomic arousal, hormone release, cardiovascular changes), cognitive (impaired concentration, memory deficits, poor decision-making), and behavioural (sleep disruption, substance use, performance decline) — through which sustained or intense stress disrupts an individual's homeostasis and adaptive capacity.",
+     "a": "interconnected",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have three major ______ due tomorrow, a family argument last night, and you slept only three hours.",
+     "a": "assignments",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using only chemicals available in a school lab (dilute acid, base, heat, ethanol, copper sulfate, sodium hydroxide) to demonstrate that a protein's secondary and tertiary structures are disrupted while its primary structure remains intact. Explain the observation at each structural level.",
      "a": "Take egg white (albumin) in a test tube. (1) Add dilute NaOH and CuSO₄ (Biuret test) → violet color confirms peptide bonds (primary structure intact). (2) Heat the tube → egg white coagulates (opaque precipitate) due to denaturation: secondary (α-helix/β-sheet H-bonds broken) and tertiary (disulfide, hydrophobic interactions disrupted) structures lost. (3) Cool and re-test with Biuret → violet color persists, proving primary structure (peptide bonds) unaffected by heat. A poor answer that suggests hydrolysis (strong acid/heat for long time) would break peptide bonds, confusing denaturation with degradation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Protein structure is organized into four hierarchical levels: primary (linear sequence of amino acids linked by peptide bonds), secondary (local folded structures α-helix and β-pleated sheet stabilized by hydrogen bonds between backbone –C=O and –NH– groups), tertiary (overall three-dimensional folding of a single polypeptide chain stabilized by hydrogen bonds, disulfide bridges, van der Waals forces, and ______ interactions), and quaternary (spatial arrangement of two or more polypeptide subunits into a functional protein complex).",
+     "a": "electrostatic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a boiled egg: the transparent runny albumen turns opaque and solid — this is protein ______, but the *structure* that was lost is what we study here.",
+     "a": "denaturation",
+     "self_check": true
+    },
+    {
+     "q": "What is Protein structure? State the definition given in this lesson.",
+     "a": "Protein structure is organized into four hierarchical levels: primary (linear sequence of amino acids linked by peptide bonds), secondary (local folded structures α-helix and β-pleated sheet stabilized by hydrogen bonds between backbone –C=O and –NH– groups), tertiary (overall three-dimensional folding of a single polypeptide chain.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: First, local folding gives α-helix (right-handed screw, H-bonds between C=O of residue *i* and N–H of residue *i+______*) and β-sheets (extended strands, H-bonds between adjacent strands).",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Protein structure?",
+     "a": "Students often think that \"secondary structure\" refers to the overall 3D shape of the protein, and \"tertiary structure\" refers to the assembly of multiple chains.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) identify the level of protein structure from a description or diagram, (2) explain the stabilizing forces at each level with specific examples (e.g., H-bonding in α-helix, disulfide bonds in tertiary), and (3) predict how a change in primary sequence (mutation) propagates to higher-order structures and biological function.",
+     "self_check": true
     }
    ]
   }

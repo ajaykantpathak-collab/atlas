@@ -1,654 +1,681 @@
 {
-  "class": 12,
-  "subject": "economics",
-  "chapter": 3,
-  "chapter_title": "Money and Banking",
-  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leec103.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "concepts": [
+ "class": 12,
+ "subject": "economics",
+ "chapter": 3,
+ "chapter_title": "Money and Banking",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leec103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "leec.103.1.1",
+   "title": "Barter Exchange and Double Coincidence of Wants",
+   "section": "3.1",
+   "definition": "Swapping goods directly for goods without money passing between the traders is barter, and it only works when each side happens to want exactly what the other offers - a coincidence that becomes nearly impossible to arrange in a large economy.",
+   "formula": "barter_feasibility = match_of(buyer_want, seller_surplus) without money",
+   "key_idea": "Barter fails at scale because hunting for a trader whose wants mirror your surplus costs too much.",
+   "textbook_ref": "leec103.txt, chapter opening, rice-for-clothing example, page 36",
+   "question_patterns": [
+    "define barter exchange and point out its main defect",
+    "why does double coincidence of wants make barter impractical",
+    "how do search costs grow under a barter system",
+    "illustrate the difficulty of matching wants in a barter trade",
+    "in what way does money remove the need for matching wants",
+    "explain the drawbacks of exchanging goods directly for goods"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
     {
-      "id": "leec.103.1.1",
-      "title": "Barter Exchange and Double Coincidence of Wants",
-      "section": "3.1",
-      "definition": "Swapping goods directly for goods without money passing between the traders is barter, and it only works when each side happens to want exactly what the other offers - a coincidence that becomes nearly impossible to arrange in a large economy.",
-      "formula": "barter_feasibility = match_of(buyer_want, seller_surplus) without money",
-      "key_idea": "Barter fails at scale because hunting for a trader whose wants mirror your surplus costs too much.",
-      "textbook_ref": "leec103.txt, chapter opening, rice-for-clothing example, page 36",
-      "question_patterns": [
-        "define barter exchange and point out its main defect",
-        "why does double coincidence of wants make barter impractical",
-        "how do search costs grow under a barter system",
-        "illustrate the difficulty of matching wants in a barter trade",
-        "in what way does money remove the need for matching wants",
-        "explain the drawbacks of exchanging goods directly for goods"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Define the direct-swap arrangement",
-          "explain": "Barter settles a trade by transferring one commodity straight against another, with no money involved."
-        },
-        {
-          "step": 2,
-          "action": "Identify the matching condition",
-          "explain": "Each trader must both hold what the other wants and want what the other holds, which rarely happens by chance."
-        },
-        {
-          "step": 3,
-          "action": "Explain the scale problem",
-          "explain": "As the number of traders grows, locating a matching partner turns into a costly search, so an accepted intermediate good - money - takes over."
-        }
-      ]
+     "step": 1,
+     "action": "Define the direct-swap arrangement",
+     "explain": "Barter settles a trade by transferring one commodity straight against another, with no money involved."
     },
     {
-      "id": "leec.103.1.2",
-      "title": "Functions of Money: Medium of Exchange, Unit of Account, Store of Value",
-      "section": "3.1",
-      "definition": "Money serves as the accepted intermediary in every sale, as the common yardstick in which all prices are quoted, and as a durable, low-cost way to hold wealth for the future, provided its own value stays reasonably stable.",
-      "formula": "roles_of_money = medium_of_exchange + unit_of_account + store_of_value",
-      "key_idea": "One universally accepted asset simultaneously oils trade, measures value and carries purchasing power through time.",
-      "textbook_ref": "leec103.txt, section 3.1, pages 36-37",
-      "question_patterns": [
-        "how does money act as a medium of exchange a unit of account and a store of value",
-        "list the main functions performed by money in a modern economy",
-        "why can money serve as a store of value while perishable goods cannot",
-        "what happens to the store-of-value role when prices keep rising",
-        "describe how money removes the shortcomings of barter",
-        "explain the use of money as a unit of account with an example"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Identify the exchange role",
-          "explain": "Everyone accepts money, so any seller can convert output into money and any buyer can pay with it, ending the search for matching wants."
-        },
-        {
-          "step": 2,
-          "action": "Identify the measuring role",
-          "explain": "Quoting every price in rupees lets heterogeneous goods be compared and added on one scale."
-        },
-        {
-          "step": 3,
-          "action": "Identify the wealth role",
-          "explain": "Money is imperishable, cheap to keep and always acceptable, so surplus purchasing power can be saved, though inflation erodes this role."
-        }
-      ]
+     "step": 2,
+     "action": "Identify the matching condition",
+     "explain": "Each trader must both hold what the other wants and want what the other holds, which rarely happens by chance."
     },
     {
-      "id": "leec.103.1.3",
-      "title": "Relative Price and Purchasing Power of Money",
-      "section": "3.1",
-      "definition": "Dividing one good's price by another's tells how many units of the second good the first is worth, and the reciprocal of any price tells how much of that good one unit of money buys; a general rise in prices therefore means money's purchasing power has fallen.",
-      "formula": "relative_price = price_of_good_a / price_of_good_b",
-      "key_idea": "Prices are ratios against money, and rising money prices shrink what each rupee commands.",
-      "textbook_ref": "leec103.txt, section 3.1, pen and pencil price example, page 37",
-      "question_patterns": [
-        "find how many pencils a pen is worth when their prices are given",
-        "calculate the worth of one rupee in terms of a commodity whose price is known",
-        "what is meant by the purchasing power of money",
-        "how does a general price rise change the value of money in goods",
-        "express the price of one good as a quantity of another good",
-        "if a pencil costs 2 and a pen costs 10, work out the relative price of the pen"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Divide the two money prices",
-          "explain": "The ratio of the pen's price to the pencil's price gives the pen's worth counted in pencils.",
-          "compute": "relative_price = price_of_good_a / price_of_good_b"
-        },
-        {
-          "step": 2,
-          "action": "Read money's worth from the inverse price",
-          "explain": "One unit of money buys the reciprocal of the price in units of the good, so dearer goods mean weaker money.",
-          "compute": "money_purchasing_power = 1 / price_of_good_b"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Relative Price and Purchasing Power of Money, compute the result for price_of_good_a = 3, price_of_good_b = 3.",
-          "solution": "Step 1: Divide the two money prices: relative_price = price_of_good_a / price_of_good_b = 1.0 Step 2: Read money's worth from the inverse price: money_purchasing_power = 1 / price_of_good_b = 0.333333 Final result: 0.333333",
-          "answer": "0.333333"
-        },
-        {
-          "question": "Using Relative Price and Purchasing Power of Money, compute the result for price_of_good_a = 4, price_of_good_b = 4.",
-          "solution": "Step 1: Divide the two money prices: relative_price = price_of_good_a / price_of_good_b = 1.0 Step 2: Read money's worth from the inverse price: money_purchasing_power = 1 / price_of_good_b = 0.25 Final result: 0.25",
-          "answer": "0.25"
-        }
-      ]
-    },
-    {
-      "id": "leec.103.2.1",
-      "title": "Transaction Demand for Money and Velocity",
-      "section": "3.2.1",
-      "definition": "People hold cash between paydays to bridge the gap between lumpy income receipts and continuous spending, so average transaction balances are roughly half the periodic income, and the economy's total transaction money demand rises with nominal income.",
-      "formula": "transaction_money_demand = k * (p * y)",
-      "key_idea": "Transaction balances move with nominal GDP, and each rupee turns over a number of times given by its velocity.",
-      "textbook_ref": "leec103.txt, section 3.2.1 and Box 3.1 transaction motive, equations 3.1 to 3.3, pages 43-45",
-      "question_patterns": [
-        "why is the average cash holding half of the monthly income in the simple example",
-        "find the average money balance of a person paid 100 at the start of a month",
-        "state the relation between transaction demand for money and nominal GDP",
-        "how many times does a rupee change hands in the two-person economy",
-        "define the velocity of circulation of money",
-        "compute transaction demand for money as a fraction of total transactions value"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Average the balance held over the period",
-          "explain": "Starting with the full income and ending at zero, the mean holding is income divided by two.",
-          "compute": "average_cash_holding = periodic_income / 2"
-        },
-        {
-          "step": 2,
-          "action": "Turnover of a rupee",
-          "explain": "Velocity is the total value of transactions settled divided by the money stock doing the settling.",
-          "compute": "velocity_of_money = total_transaction_value / total_money_balance"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Transaction Demand for Money and Velocity, compute the result for periodic_income = 3, total_transaction_value = 3, total_money_balance = 3.",
-          "solution": "Step 1: Average the balance held over the period: average_cash_holding = periodic_income / 2 = 1.5 Step 2: Turnover of a rupee: velocity_of_money = total_transaction_value / total_money_balance = 1.0 Final result: 1.0",
-          "answer": "1.0"
-        },
-        {
-          "question": "Using Transaction Demand for Money and Velocity, compute the result for periodic_income = 4, total_transaction_value = 4, total_money_balance = 4.",
-          "solution": "Step 1: Average the balance held over the period: average_cash_holding = periodic_income / 2 = 2.0 Step 2: Turnover of a rupee: velocity_of_money = total_transaction_value / total_money_balance = 1.0 Final result: 1.0",
-          "answer": "1.0"
-        }
-      ]
-    },
-    {
-      "id": "leec.103.2.2",
-      "title": "Speculative Demand for Money and the Liquidity Trap",
-      "section": "3.2.1",
-      "definition": "Wealth holders compare expected movements of the interest rate with bond prices: expecting rates to rise means expecting capital losses on bonds, so money is preferred; the speculative demand therefore varies inversely with the interest rate, becoming infinite at some floor rate where the liquidity trap sets in.",
-      "formula": "speculative_money_demand inversely related to market_rate (zero at max_rate, infinite at min_rate)",
-      "key_idea": "High rates push everyone into bonds, low rates push everyone into money, and at the floor rate money demand explodes.",
-      "textbook_ref": "leec103.txt, Box 3.1 speculative motive, equation 3.4, Fig 3.1, pages 46-47",
-      "question_patterns": [
-        "why do people prefer holding money when they expect interest rates to rise",
-        "how is speculative demand for money related to the rate of interest",
-        "describe the speculative money demand curve between the upper and lower interest limits",
-        "what is the liquidity trap and why does money demand become perfectly elastic there",
-        "explain capital loss on bonds with a change in the market rate",
-        "what happens to speculative balances when the interest rate reaches its minimum"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Form expectations about future rates",
-          "explain": "If today's rate is judged unsustainably low, holders expect it to rise and bond prices to fall, promising a capital loss on bonds."
-        },
-        {
-          "step": 2,
-          "action": "Shift wealth between money and bonds",
-          "explain": "Expecting falling rates makes bonds attractive, so speculative money demand approaches zero at the ceiling rate."
-        },
-        {
-          "step": 3,
-          "action": "Recognise the floor rate trap",
-          "explain": "At the minimum rate everyone fears capital loss, so everyone holds money and speculative demand becomes infinitely elastic - the liquidity trap."
-        }
-      ]
-    },
-    {
-      "id": "leec.103.2.3",
-      "title": "Present Value of a Bond and the Bond-Price Interest Inverse",
-      "section": "3.2.1",
-      "definition": "A bond's fair price is the sum of each promised payment discounted back at the market interest rate, which is exactly the bank deposit that would reproduce the same returns; bidding pushes the bond price to this present value, so a higher market rate means a lower bond price.",
-      "formula": "present_value_of_bond = coupon / (1 + market_rate) + (coupon + face_value) / (1 + market_rate) ** 2",
-      "key_idea": "Discounting future returns at the going rate equates bonds and deposits, making bond prices fall whenever rates rise.",
-      "textbook_ref": "leec103.txt, Box 3.1, two-period bond example, pages 45-46",
-      "question_patterns": [
-        "find the present value of a two-year bond with given coupon and face value",
-        "why does the price of a bond fall when the market rate of interest rises",
-        "what deposit today would match a bond's promised returns",
-        "compute what a bond is worth when the interest rate moves from 5 to 6 percent",
-        "explain competitive bidding that pushes a bond price to its present value",
-        "show the inverse link between bond prices and the interest rate"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Discount each year's payment to today",
-          "explain": "Divide the year-one coupon by one plus the rate, and the year-two coupon plus principal by one plus the rate squared.",
-          "compute": "year1_worth = coupon / (1 + market_rate)"
-        },
-        {
-          "step": 2,
-          "action": "Discount the final payment",
-          "explain": "The final-year receipt of coupon plus face value is discounted twice.",
-          "compute": "year2_worth = (coupon + face_value) / (1 + market_rate) ** 2"
-        },
-        {
-          "step": 3,
-          "action": "Add up the discounted returns",
-          "explain": "The sum of the discounted payments is the bond's present value, the price competition drives it to.",
-          "compute": "present_value_of_bond = year1_worth + year2_worth"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Present Value of a Bond and the Bond-Price Interest Inverse, compute the result for coupon = 3, market_rate = 3, face_value = 3.",
-          "solution": "Step 1: Discount each year's payment to today: year1_worth = coupon / (1 + market_rate) = 0.75 Step 2: Discount the final payment: year2_worth = (coupon + face_value) / (1 + market_rate) ** 2 = 0.375 Step 3: Add up the discounted returns: present_value_of_bond = year1_worth + year2_worth = 1.125 Final result: 1.125",
-          "answer": "1.125"
-        },
-        {
-          "question": "Using Present Value of a Bond and the Bond-Price Interest Inverse, compute the result for coupon = 4, market_rate = 4, face_value = 4.",
-          "solution": "Step 1: Discount each year's payment to today: year1_worth = coupon / (1 + market_rate) = 0.8 Step 2: Discount the final payment: year2_worth = (coupon + face_value) / (1 + market_rate) ** 2 = 0.32 Step 3: Add up the discounted returns: present_value_of_bond = year1_worth + year2_worth = 1.12 Final result: 1.12",
-          "answer": "1.12"
-        }
-      ]
-    },
-    {
-      "id": "leec.103.3.1",
-      "title": "Central Bank, Commercial Banks and High-Powered Money",
-      "section": "3.2.2",
-      "definition": "The central bank alone issues currency, banks the government and the banking system, guards foreign exchange reserves and lends to banks in emergencies, while commercial banks accept deposits and lend at a higher rate, keeping the spread as profit; the currency they and the public hold forms high-powered money, the base of credit creation.",
-      "formula": "high_powered_money = currency_held_by_public + currency_reserves_of_banks",
-      "key_idea": "The RBI issues the monetary base; commercial banks multiply it into deposits and earn the lending-borrowing spread.",
-      "textbook_ref": "leec103.txt, section 3.2.2, central bank and commercial bank paragraphs, Lala story, pages 38-40",
-      "question_patterns": [
-        "what functions does a central bank perform in a modern economy",
-        "how do commercial banks earn their profit through the spread",
-        "define high powered money and say who holds it",
-        "why is the central bank called the lender of last resort",
-        "what did the goldsmith story show about creating money",
-        "which institution issues currency and controls the money supply in India"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Separate the two tiers of the banking system",
-          "explain": "The RBI issues currency and supervises credit; commercial banks deal with the public, taking deposits and making loans."
-        },
-        {
-          "step": 2,
-          "action": "Explain the banks' earnings",
-          "explain": "Banks pay depositors less than they charge borrowers, and the gap - the spread - is their profit."
-        },
-        {
-          "step": 3,
-          "action": "Identify the monetary base",
-          "explain": "Currency held by the public plus currency and deposits kept with the RBI form high-powered money, the raw material of deposit creation."
-        }
-      ]
-    },
-    {
-      "id": "leec.103.3.2",
-      "title": "Money Multiplier and Credit Creation",
-      "section": "3.3.2",
-      "definition": "Because all depositors never withdraw together, each round of lending returns as a fresh deposit, and with a fixed reserve ratio the process converges to total deposits equal to the initial reserves times one divided by the reserve ratio.",
-      "formula": "total_deposits_created = initial_reserves * money_multiplier",
-      "key_idea": "A reserve base is stretched into a multiple of deposits; a smaller required ratio stretches it further.",
-      "textbook_ref": "leec103.txt, section 3.3.2, Table 3.2 rounds and multiplier, page 42",
-      "question_patterns": [
-        "compute the money multiplier when the reserve ratio is 20 percent",
-        "find total deposits supported by reserves of 100 at a given reserve ratio",
-        "how do banks create money through repeated rounds of lending",
-        "what happens to deposits when the reserve ratio falls to 10 percent",
-        "explain the limit the reserve requirement places on credit creation",
-        "why does a single deposit set off a chain of new deposits"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Invert the reserve ratio",
-          "explain": "The multiplier is one over the fraction of deposits that must be held as reserves.",
-          "compute": "money_multiplier = 1 / reserve_ratio"
-        },
-        {
-          "step": 2,
-          "action": "Expand the reserve base",
-          "explain": "Multiplying initial reserves by the multiplier gives the grand total of deposits once the lending chain settles.",
-          "compute": "total_deposits_created = initial_reserves * money_multiplier"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Money Multiplier and Credit Creation, compute the result for reserve_ratio = 3, initial_reserves = 3.",
-          "solution": "Step 1: Invert the reserve ratio: money_multiplier = 1 / reserve_ratio = 0.333333 Step 2: Expand the reserve base: total_deposits_created = initial_reserves * money_multiplier = 1.0 Final result: 1.0",
-          "answer": "1.0"
-        },
-        {
-          "question": "Using Money Multiplier and Credit Creation, compute the result for reserve_ratio = 4, initial_reserves = 4.",
-          "solution": "Step 1: Invert the reserve ratio: money_multiplier = 1 / reserve_ratio = 0.25 Step 2: Expand the reserve base: total_deposits_created = initial_reserves * money_multiplier = 1.0 Final result: 1.0",
-          "answer": "1.0"
-        }
-      ]
-    },
-    {
-      "id": "leec.103.3.3",
-      "title": "Bank Balance Sheet: Assets, Liabilities and Net Worth",
-      "section": "3.3",
-      "definition": "A bank's balance sheet lists reserves and loans as assets and deposits as liabilities, with the accounting rule that the two sides must tally; any excess of assets over liabilities is recorded as the bank's net worth.",
-      "formula": "net_worth = total_assets - total_liabilities",
-      "key_idea": "Reserves plus loans must balance against deposits, and the leftover is the owners' stake.",
-      "textbook_ref": "leec103.txt, section 3.3 and Table 3.1, page 40",
-      "question_patterns": [
-        "prepare the balance sheet of a bank from its reserves loans and deposits",
-        "compute a bank's net worth when assets exceed liabilities",
-        "why must the two sides of a balance sheet always agree",
-        "classify a bank's loans and reserves on the balance sheet",
-        "what appears on the liabilities side of a commercial bank's account",
-        "if reserves are 100 and deposits 500 with loans 400, complete the balance sheet"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Total the asset side",
-          "explain": "Reserves kept with the RBI plus loans made to the public form the bank's assets.",
-          "compute": "total_assets = reserves + loans"
-        },
-        {
-          "step": 2,
-          "action": "Take the excess over deposits",
-          "explain": "Deposits owed to customers are the liabilities; assets minus liabilities is the net worth entered on the liabilities side.",
-          "compute": "net_worth = total_assets - deposits"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Bank Balance Sheet: Assets, Liabilities and Net Worth, compute the result for reserves = 3, loans = 3, deposits = 3.",
-          "solution": "Step 1: Total the asset side: total_assets = reserves + loans = 6.0 Step 2: Take the excess over deposits: net_worth = total_assets - deposits = 3.0 Final result: 3.0",
-          "answer": "3.0"
-        },
-        {
-          "question": "Using Bank Balance Sheet: Assets, Liabilities and Net Worth, compute the result for reserves = 4, loans = 4, deposits = 4.",
-          "solution": "Step 1: Total the asset side: total_assets = reserves + loans = 8.0 Step 2: Take the excess over deposits: net_worth = total_assets - deposits = 4.0 Final result: 4.0",
-          "answer": "4.0"
-        }
-      ]
-    },
-    {
-      "id": "leec.103.4.1",
-      "title": "Monetary Policy Instruments of the RBI",
-      "section": "3.4",
-      "definition": "The RBI steers the money supply with quantitative levers - altering the cash reserve ratio, changing the bank rate, and buying or selling government bonds in open market operations - and with qualitative nudges such as moral suasion and margin requirements.",
-      "formula": "money_supply_effect = direction_of(crr_change, bank_rate_change, open_market_operations)",
-      "key_idea": "Raising CRR or bank rate, or selling bonds, squeezes reserves and shrinks credit; the opposites expand it.",
-      "textbook_ref": "leec103.txt, section 3.4, policy tools and repo paragraphs, pages 42-43",
-      "question_patterns": [
-        "name the quantitative tools the RBI uses to control money supply",
-        "how does an open market purchase of bonds change the money supply",
-        "distinguish an outright open market operation from a repo",
-        "what happens to bank lending when the cash reserve ratio is raised",
-        "why does a higher bank rate contract the money supply",
-        "explain moral suasion and margin requirements as qualitative tools"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Trace the reserve channel",
-          "explain": "CRR hikes and bond sales by the RBI drain reserves from banks, cutting the base for credit."
-        },
-        {
-          "step": 2,
-          "action": "Trace the cost channel",
-          "explain": "A higher bank rate or repo rate makes borrowing from the RBI dearer, so banks lend less and money supply falls."
-        },
-        {
-          "step": 3,
-          "action": "Note the persuasion tools",
-          "explain": "Moral suasion and margin requirements steer the direction of lending without touching the numbers directly."
-        }
-      ]
-    },
-    {
-      "id": "leec.103.4.2",
-      "title": "Fiat Money and Legal Tender",
-      "section": "3.4",
-      "definition": "Notes and coins carry no intrinsic worth of their own; their value rests on the issuing authority's guarantee, and because no citizen may refuse them in settlement they are legal tender, a status that cheque-backed demand deposits do not enjoy.",
-      "formula": "fiat_money_value = issuing_authority_guarantee (not intrinsic_content)",
-      "key_idea": "Law and trust, not metal content, give modern currency its purchasing power.",
-      "textbook_ref": "leec103.txt, box on supply of money, fiat money and legal tender, pages 48-49",
-      "question_patterns": [
-        "what makes currency notes fiat money",
-        "why can a rupee note be refused nowhere in the country",
-        "distinguish legal tender from money that can be refused",
-        "why do demand deposits fail the legal tender test",
-        "where does a hundred-rupee note get its value if the paper costs little",
-        "explain the governor's promise printed on a currency note"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Test intrinsic worth",
-          "explain": "The paper or metal in currency is worth far less than its face value, so the value is not intrinsic."
-        },
-        {
-          "step": 2,
-          "action": "Locate the guarantee",
-          "explain": "The issuing authority promises to honour the printed amount, which anchors the token's value."
-        },
-        {
-          "step": 3,
-          "action": "Apply the legal tender test",
-          "explain": "Currency must be accepted in settlement by all citizens, while cheques and deposits may be refused, so only currency is legal tender."
-        }
-      ]
-    },
-    {
-      "id": "leec.103.4.3",
-      "title": "Measures of Money Supply: Narrow and Broad Money",
-      "section": "3.4",
-      "definition": "India counts its money stock in four nesting aggregates: M1 adds currency held by the public to net demand deposits; M2 adds post-office savings deposits; M3 adds banks' net time deposits to M1; and M4 adds post-office total deposits, the four being arranged in falling order of liquidity.",
-      "formula": "m1 = currency_held_by_public + net_demand_deposits",
-      "key_idea": "M1 and M2 are narrow, M3 and M4 broad, and liquidity thins as you move down the list.",
-      "textbook_ref": "leec103.txt, box on legal definitions of money supply, page 49",
-      "question_patterns": [
-        "write the four official measures of money supply in India",
-        "compute M1 from currency with the public and net demand deposits",
-        "which measure of money is the most liquid and which the least",
-        "how is broad money different from narrow money",
-        "why are interbank deposits left out of the money supply",
-        "find M3 when M1 and net time deposits of banks are given"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Build the narrowest aggregate",
-          "explain": "Currency in public hands plus the public's demand deposits with banks gives M1.",
-          "compute": "m1 = currency_held_by_public + net_demand_deposits"
-        },
-        {
-          "step": 2,
-          "action": "Extend to the broad aggregate",
-          "explain": "Adding the banks' net time deposits to M1 gives M3, the commonly cited broad measure.",
-          "compute": "m3 = m1 + net_time_deposits"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Measures of Money Supply: Narrow and Broad Money, compute the result for currency_held_by_public = 3, net_demand_deposits = 3, net_time_deposits = 3.",
-          "solution": "Step 1: Build the narrowest aggregate: m1 = currency_held_by_public + net_demand_deposits = 6.0 Step 2: Extend to the broad aggregate: m3 = m1 + net_time_deposits = 9.0 Final result: 9.0",
-          "answer": "9.0"
-        },
-        {
-          "question": "Using Measures of Money Supply: Narrow and Broad Money, compute the result for currency_held_by_public = 4, net_demand_deposits = 4, net_time_deposits = 4.",
-          "solution": "Step 1: Build the narrowest aggregate: m1 = currency_held_by_public + net_demand_deposits = 8.0 Step 2: Extend to the broad aggregate: m3 = m1 + net_time_deposits = 12.0 Final result: 12.0",
-          "answer": "12.0"
-        }
-      ]
+     "step": 3,
+     "action": "Explain the scale problem",
+     "explain": "As the number of traders grows, locating a matching partner turns into a costly search, so an accepted intermediate good - money - takes over."
     }
-  ],
-  "worked_examples": [
+   ]
+  },
+  {
+   "id": "leec.103.1.2",
+   "title": "Functions of Money: Medium of Exchange, Unit of Account, Store of Value",
+   "section": "3.1",
+   "definition": "Money serves as the accepted intermediary in every sale, as the common yardstick in which all prices are quoted, and as a durable, low-cost way to hold wealth for the future, provided its own value stays reasonably stable.",
+   "formula": "roles_of_money = medium_of_exchange + unit_of_account + store_of_value",
+   "key_idea": "One universally accepted asset simultaneously oils trade, measures value and carries purchasing power through time.",
+   "textbook_ref": "leec103.txt, section 3.1, pages 36-37",
+   "question_patterns": [
+    "how does money act as a medium of exchange a unit of account and a store of value",
+    "list the main functions performed by money in a modern economy",
+    "why can money serve as a store of value while perishable goods cannot",
+    "what happens to the store-of-value role when prices keep rising",
+    "describe how money removes the shortcomings of barter",
+    "explain the use of money as a unit of account with an example"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
     {
-      "id": "we1",
-      "source_ref": "leec103.txt section 3.3.2 Table 3.2 multiplier rounds",
-      "concept": "leec.103.3.2",
-      "question_type": "compute",
-      "question_pattern": "Initial reserves with the banking system are 100 and the cash reserve ratio is 20 percent. Find the multiplier and the total deposits the system can support.",
-      "extracted_variables": {
-        "initial_reserves": 100,
-        "reserve_ratio": 0.2
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "Invert the reserve ratio",
-          "explain": "One divided by 0.2 gives a multiplier of 5.",
-          "compute": "money_multiplier = 1 / reserve_ratio"
-        },
-        {
-          "step": 2,
-          "action": "Scale up the reserves",
-          "explain": "100 times 5 gives 500 of total deposits, of which 400 can be loaned out.",
-          "compute": "total_deposits_created = initial_reserves * money_multiplier"
-        }
-      ]
+     "step": 1,
+     "action": "Identify the exchange role",
+     "explain": "Everyone accepts money, so any seller can convert output into money and any buyer can pay with it, ending the search for matching wants."
     },
     {
-      "id": "we2",
-      "source_ref": "leec103.txt Box 3.1 two-period bond at 5 percent",
-      "concept": "leec.103.2.3",
-      "question_type": "compute",
-      "question_pattern": "A two-year bond has a face value of 100 and pays a coupon of 10 each year. With the market rate at 5 percent, find its present value.",
-      "extracted_variables": {
-        "coupon": 10,
-        "face_value": 100,
-        "market_rate": 0.05
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "Discount the first coupon",
-          "explain": "10 divided by 1.05 is about 9.52.",
-          "compute": "year1_worth = coupon / (1 + market_rate)"
-        },
-        {
-          "step": 2,
-          "action": "Discount the final payment",
-          "explain": "110 divided by 1.05 squared is about 99.77.",
-          "compute": "year2_worth = (coupon + face_value) / (1 + market_rate) ** 2"
-        },
-        {
-          "step": 3,
-          "action": "Sum the discounted flows",
-          "explain": "9.52 plus 99.77 gives roughly 109.29, above the face value, so the bond beats the deposit account.",
-          "compute": "present_value_of_bond = year1_worth + year2_worth"
-        }
-      ]
+     "step": 2,
+     "action": "Identify the measuring role",
+     "explain": "Quoting every price in rupees lets heterogeneous goods be compared and added on one scale."
     },
     {
-      "id": "we3",
-      "source_ref": "leec103.txt box on measures of money supply",
-      "concept": "leec.103.4.3",
-      "question_type": "compute",
-      "question_pattern": "Currency with the public is 400 and net demand deposits are 600; net time deposits of banks are 900. Compute M1 and M3.",
-      "extracted_variables": {
-        "currency_held_by_public": 400,
-        "net_demand_deposits": 600,
-        "net_time_deposits": 900
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "Narrow money",
-          "explain": "400 plus 600 gives M1 of 1000.",
-          "compute": "m1 = currency_held_by_public + net_demand_deposits"
-        },
-        {
-          "step": 2,
-          "action": "Broad money",
-          "explain": "1000 plus 900 gives M3 of 1900.",
-          "compute": "m3 = m1 + net_time_deposits"
-        }
-      ]
+     "step": 3,
+     "action": "Identify the wealth role",
+     "explain": "Money is imperishable, cheap to keep and always acceptable, so surplus purchasing power can be saved, though inflation erodes this role."
     }
-  ],
-  "exercises": [
+   ]
+  },
+  {
+   "id": "leec.103.1.3",
+   "title": "Relative Price and Purchasing Power of Money",
+   "section": "3.1",
+   "definition": "Dividing one good's price by another's tells how many units of the second good the first is worth, and the reciprocal of any price tells how much of that good one unit of money buys; a general rise in prices therefore means money's purchasing power has fallen.",
+   "formula": "relative_price = price_of_good_a / price_of_good_b",
+   "key_idea": "Prices are ratios against money, and rising money prices shrink what each rupee commands.",
+   "textbook_ref": "leec103.txt, section 3.1, pen and pencil price example, page 37",
+   "question_patterns": [
+    "find how many pencils a pen is worth when their prices are given",
+    "calculate the worth of one rupee in terms of a commodity whose price is known",
+    "what is meant by the purchasing power of money",
+    "how does a general price rise change the value of money in goods",
+    "express the price of one good as a quantity of another good",
+    "if a pencil costs 2 and a pen costs 10, work out the relative price of the pen"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "leec103-ex1",
-      "source_ref": "leec103.txt exercise 1",
-      "questions": [
-        "Describe the barter system and its weaknesses."
-      ]
+     "step": 1,
+     "action": "Divide the two money prices",
+     "explain": "The ratio of the pen's price to the pencil's price gives the pen's worth counted in pencils.",
+     "compute": "relative_price = price_of_good_a / price_of_good_b"
     },
     {
-      "id": "leec103-ex2",
-      "source_ref": "leec103.txt exercise 2",
-      "questions": [
-        "Set out the main functions of money and show how each cures a defect of barter."
-      ]
-    },
-    {
-      "id": "leec103-ex3",
-      "source_ref": "leec103.txt exercise 3",
-      "questions": [
-        "Explain transaction demand for money and its link with the value of transactions over a period."
-      ]
-    },
-    {
-      "id": "leec103-ex4",
-      "source_ref": "leec103.txt exercise 4",
-      "questions": [
-        "State the alternative official definitions of money supply used in India."
-      ]
-    },
-    {
-      "id": "leec103-ex5",
-      "source_ref": "leec103.txt exercise 5",
-      "questions": [
-        "Clarify the terms legal tender and fiat money."
-      ]
-    },
-    {
-      "id": "leec103-ex6",
-      "source_ref": "leec103.txt exercise 6",
-      "questions": [
-        "What is high powered money?"
-      ]
-    },
-    {
-      "id": "leec103-ex7",
-      "source_ref": "leec103.txt exercise 7",
-      "questions": [
-        "Bring out the functions of a commercial bank."
-      ]
-    },
-    {
-      "id": "leec103-ex8",
-      "source_ref": "leec103.txt exercise 8",
-      "questions": [
-        "Define the money multiplier and identify what fixes its size."
-      ]
-    },
-    {
-      "id": "leec103-ex9",
-      "source_ref": "leec103.txt exercise 9",
-      "questions": [
-        "List the instruments of monetary policy available to the RBI."
-      ]
-    },
-    {
-      "id": "leec103-ex10",
-      "source_ref": "leec103.txt exercise 10",
-      "questions": [
-        "Argue whether a commercial bank deserves to be called a creator of money."
-      ]
-    },
-    {
-      "id": "leec103-ex11",
-      "source_ref": "leec103.txt exercise 11",
-      "questions": [
-        "Which role of the RBI earns it the label lender of last resort?"
-      ]
+     "step": 2,
+     "action": "Read money's worth from the inverse price",
+     "explain": "One unit of money buys the reciprocal of the price in units of the good, so dearer goods mean weaker money.",
+     "compute": "money_purchasing_power = 1 / price_of_good_b"
     }
-  ]
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Relative Price and Purchasing Power of Money, compute the result for price_of_good_a = 3, price_of_good_b = 3.",
+     "solution": "Step 1: Divide the two money prices: relative_price = price_of_good_a / price_of_good_b = 1.0 Step 2: Read money's worth from the inverse price: money_purchasing_power = 1 / price_of_good_b = 0.333333 Final result: 0.333333",
+     "answer": "0.333333"
+    },
+    {
+     "question": "Using Relative Price and Purchasing Power of Money, compute the result for price_of_good_a = 4, price_of_good_b = 4.",
+     "solution": "Step 1: Divide the two money prices: relative_price = price_of_good_a / price_of_good_b = 1.0 Step 2: Read money's worth from the inverse price: money_purchasing_power = 1 / price_of_good_b = 0.25 Final result: 0.25",
+     "answer": "0.25"
+    }
+   ]
+  },
+  {
+   "id": "leec.103.2.1",
+   "title": "Transaction Demand for Money and Velocity",
+   "section": "3.2.1",
+   "definition": "People hold cash between paydays to bridge the gap between lumpy income receipts and continuous spending, so average transaction balances are roughly half the periodic income, and the economy's total transaction money demand rises with nominal income.",
+   "formula": "transaction_money_demand = k * (p * y)",
+   "key_idea": "Transaction balances move with nominal GDP, and each rupee turns over a number of times given by its velocity.",
+   "textbook_ref": "leec103.txt, section 3.2.1 and Box 3.1 transaction motive, equations 3.1 to 3.3, pages 43-45",
+   "question_patterns": [
+    "why is the average cash holding half of the monthly income in the simple example",
+    "find the average money balance of a person paid 100 at the start of a month",
+    "state the relation between transaction demand for money and nominal GDP",
+    "how many times does a rupee change hands in the two-person economy",
+    "define the velocity of circulation of money",
+    "compute transaction demand for money as a fraction of total transactions value"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Average the balance held over the period",
+     "explain": "Starting with the full income and ending at zero, the mean holding is income divided by two.",
+     "compute": "average_cash_holding = periodic_income / 2"
+    },
+    {
+     "step": 2,
+     "action": "Turnover of a rupee",
+     "explain": "Velocity is the total value of transactions settled divided by the money stock doing the settling.",
+     "compute": "velocity_of_money = total_transaction_value / total_money_balance"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Transaction Demand for Money and Velocity, compute the result for periodic_income = 3, total_transaction_value = 3, total_money_balance = 3.",
+     "solution": "Step 1: Average the balance held over the period: average_cash_holding = periodic_income / 2 = 1.5 Step 2: Turnover of a rupee: velocity_of_money = total_transaction_value / total_money_balance = 1.0 Final result: 1.0",
+     "answer": "1.0"
+    },
+    {
+     "question": "Using Transaction Demand for Money and Velocity, compute the result for periodic_income = 4, total_transaction_value = 4, total_money_balance = 4.",
+     "solution": "Step 1: Average the balance held over the period: average_cash_holding = periodic_income / 2 = 2.0 Step 2: Turnover of a rupee: velocity_of_money = total_transaction_value / total_money_balance = 1.0 Final result: 1.0",
+     "answer": "1.0"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "transaction_money_demand = k * (p * y)",
+     "compute": "transaction_money_demand = k * (p * y)"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "leec.103.2.2",
+   "title": "Speculative Demand for Money and the Liquidity Trap",
+   "section": "3.2.1",
+   "definition": "Wealth holders compare expected movements of the interest rate with bond prices: expecting rates to rise means expecting capital losses on bonds, so money is preferred; the speculative demand therefore varies inversely with the interest rate, becoming infinite at some floor rate where the liquidity trap sets in.",
+   "formula": "speculative_money_demand inversely related to market_rate (zero at max_rate, infinite at min_rate)",
+   "key_idea": "High rates push everyone into bonds, low rates push everyone into money, and at the floor rate money demand explodes.",
+   "textbook_ref": "leec103.txt, Box 3.1 speculative motive, equation 3.4, Fig 3.1, pages 46-47",
+   "question_patterns": [
+    "why do people prefer holding money when they expect interest rates to rise",
+    "how is speculative demand for money related to the rate of interest",
+    "describe the speculative money demand curve between the upper and lower interest limits",
+    "what is the liquidity trap and why does money demand become perfectly elastic there",
+    "explain capital loss on bonds with a change in the market rate",
+    "what happens to speculative balances when the interest rate reaches its minimum"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Form expectations about future rates",
+     "explain": "If today's rate is judged unsustainably low, holders expect it to rise and bond prices to fall, promising a capital loss on bonds."
+    },
+    {
+     "step": 2,
+     "action": "Shift wealth between money and bonds",
+     "explain": "Expecting falling rates makes bonds attractive, so speculative money demand approaches zero at the ceiling rate."
+    },
+    {
+     "step": 3,
+     "action": "Recognise the floor rate trap",
+     "explain": "At the minimum rate everyone fears capital loss, so everyone holds money and speculative demand becomes infinitely elastic - the liquidity trap."
+    }
+   ]
+  },
+  {
+   "id": "leec.103.2.3",
+   "title": "Present Value of a Bond and the Bond-Price Interest Inverse",
+   "section": "3.2.1",
+   "definition": "A bond's fair price is the sum of each promised payment discounted back at the market interest rate, which is exactly the bank deposit that would reproduce the same returns; bidding pushes the bond price to this present value, so a higher market rate means a lower bond price.",
+   "formula": "present_value_of_bond = coupon / (1 + market_rate) + (coupon + face_value) / (1 + market_rate) ** 2",
+   "key_idea": "Discounting future returns at the going rate equates bonds and deposits, making bond prices fall whenever rates rise.",
+   "textbook_ref": "leec103.txt, Box 3.1, two-period bond example, pages 45-46",
+   "question_patterns": [
+    "find the present value of a two-year bond with given coupon and face value",
+    "why does the price of a bond fall when the market rate of interest rises",
+    "what deposit today would match a bond's promised returns",
+    "compute what a bond is worth when the interest rate moves from 5 to 6 percent",
+    "explain competitive bidding that pushes a bond price to its present value",
+    "show the inverse link between bond prices and the interest rate"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Discount each year's payment to today",
+     "explain": "Divide the year-one coupon by one plus the rate, and the year-two coupon plus principal by one plus the rate squared.",
+     "compute": "year1_worth = coupon / (1 + market_rate)"
+    },
+    {
+     "step": 2,
+     "action": "Discount the final payment",
+     "explain": "The final-year receipt of coupon plus face value is discounted twice.",
+     "compute": "year2_worth = (coupon + face_value) / (1 + market_rate) ** 2"
+    },
+    {
+     "step": 3,
+     "action": "Add up the discounted returns",
+     "explain": "The sum of the discounted payments is the bond's present value, the price competition drives it to.",
+     "compute": "present_value_of_bond = year1_worth + year2_worth"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Present Value of a Bond and the Bond-Price Interest Inverse, compute the result for coupon = 3, market_rate = 3, face_value = 3.",
+     "solution": "Step 1: Discount each year's payment to today: year1_worth = coupon / (1 + market_rate) = 0.75 Step 2: Discount the final payment: year2_worth = (coupon + face_value) / (1 + market_rate) ** 2 = 0.375 Step 3: Add up the discounted returns: present_value_of_bond = year1_worth + year2_worth = 1.125 Final result: 1.125",
+     "answer": "1.125"
+    },
+    {
+     "question": "Using Present Value of a Bond and the Bond-Price Interest Inverse, compute the result for coupon = 4, market_rate = 4, face_value = 4.",
+     "solution": "Step 1: Discount each year's payment to today: year1_worth = coupon / (1 + market_rate) = 0.8 Step 2: Discount the final payment: year2_worth = (coupon + face_value) / (1 + market_rate) ** 2 = 0.32 Step 3: Add up the discounted returns: present_value_of_bond = year1_worth + year2_worth = 1.12 Final result: 1.12",
+     "answer": "1.12"
+    }
+   ]
+  },
+  {
+   "id": "leec.103.3.1",
+   "title": "Central Bank, Commercial Banks and High-Powered Money",
+   "section": "3.2.2",
+   "definition": "The central bank alone issues currency, banks the government and the banking system, guards foreign exchange reserves and lends to banks in emergencies, while commercial banks accept deposits and lend at a higher rate, keeping the spread as profit; the currency they and the public hold forms high-powered money, the base of credit creation.",
+   "formula": "high_powered_money = currency_held_by_public + currency_reserves_of_banks",
+   "key_idea": "The RBI issues the monetary base; commercial banks multiply it into deposits and earn the lending-borrowing spread.",
+   "textbook_ref": "leec103.txt, section 3.2.2, central bank and commercial bank paragraphs, Lala story, pages 38-40",
+   "question_patterns": [
+    "what functions does a central bank perform in a modern economy",
+    "how do commercial banks earn their profit through the spread",
+    "define high powered money and say who holds it",
+    "why is the central bank called the lender of last resort",
+    "what did the goldsmith story show about creating money",
+    "which institution issues currency and controls the money supply in India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Separate the two tiers of the banking system",
+     "explain": "The RBI issues currency and supervises credit; commercial banks deal with the public, taking deposits and making loans."
+    },
+    {
+     "step": 2,
+     "action": "Explain the banks' earnings",
+     "explain": "Banks pay depositors less than they charge borrowers, and the gap - the spread - is their profit."
+    },
+    {
+     "step": 3,
+     "action": "Identify the monetary base",
+     "explain": "Currency held by the public plus currency and deposits kept with the RBI form high-powered money, the raw material of deposit creation."
+    }
+   ]
+  },
+  {
+   "id": "leec.103.3.2",
+   "title": "Money Multiplier and Credit Creation",
+   "section": "3.3.2",
+   "definition": "Because all depositors never withdraw together, each round of lending returns as a fresh deposit, and with a fixed reserve ratio the process converges to total deposits equal to the initial reserves times one divided by the reserve ratio.",
+   "formula": "total_deposits_created = initial_reserves * money_multiplier",
+   "key_idea": "A reserve base is stretched into a multiple of deposits; a smaller required ratio stretches it further.",
+   "textbook_ref": "leec103.txt, section 3.3.2, Table 3.2 rounds and multiplier, page 42",
+   "question_patterns": [
+    "compute the money multiplier when the reserve ratio is 20 percent",
+    "find total deposits supported by reserves of 100 at a given reserve ratio",
+    "how do banks create money through repeated rounds of lending",
+    "what happens to deposits when the reserve ratio falls to 10 percent",
+    "explain the limit the reserve requirement places on credit creation",
+    "why does a single deposit set off a chain of new deposits"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Invert the reserve ratio",
+     "explain": "The multiplier is one over the fraction of deposits that must be held as reserves.",
+     "compute": "money_multiplier = 1 / reserve_ratio"
+    },
+    {
+     "step": 2,
+     "action": "Expand the reserve base",
+     "explain": "Multiplying initial reserves by the multiplier gives the grand total of deposits once the lending chain settles.",
+     "compute": "total_deposits_created = initial_reserves * money_multiplier"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Money Multiplier and Credit Creation, compute the result for reserve_ratio = 3, initial_reserves = 3.",
+     "solution": "Step 1: Invert the reserve ratio: money_multiplier = 1 / reserve_ratio = 0.333333 Step 2: Expand the reserve base: total_deposits_created = initial_reserves * money_multiplier = 1.0 Final result: 1.0",
+     "answer": "1.0"
+    },
+    {
+     "question": "Using Money Multiplier and Credit Creation, compute the result for reserve_ratio = 4, initial_reserves = 4.",
+     "solution": "Step 1: Invert the reserve ratio: money_multiplier = 1 / reserve_ratio = 0.25 Step 2: Expand the reserve base: total_deposits_created = initial_reserves * money_multiplier = 1.0 Final result: 1.0",
+     "answer": "1.0"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_deposits_created = initial_reserves * money_multiplier",
+     "compute": "total_deposits_created = initial_reserves * money_multiplier"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "leec.103.3.3",
+   "title": "Bank Balance Sheet: Assets, Liabilities and Net Worth",
+   "section": "3.3",
+   "definition": "A bank's balance sheet lists reserves and loans as assets and deposits as liabilities, with the accounting rule that the two sides must tally; any excess of assets over liabilities is recorded as the bank's net worth.",
+   "formula": "net_worth = total_assets - total_liabilities",
+   "key_idea": "Reserves plus loans must balance against deposits, and the leftover is the owners' stake.",
+   "textbook_ref": "leec103.txt, section 3.3 and Table 3.1, page 40",
+   "question_patterns": [
+    "prepare the balance sheet of a bank from its reserves loans and deposits",
+    "compute a bank's net worth when assets exceed liabilities",
+    "why must the two sides of a balance sheet always agree",
+    "classify a bank's loans and reserves on the balance sheet",
+    "what appears on the liabilities side of a commercial bank's account",
+    "if reserves are 100 and deposits 500 with loans 400, complete the balance sheet"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Total the asset side",
+     "explain": "Reserves kept with the RBI plus loans made to the public form the bank's assets.",
+     "compute": "total_assets = reserves + loans"
+    },
+    {
+     "step": 2,
+     "action": "Take the excess over deposits",
+     "explain": "Deposits owed to customers are the liabilities; assets minus liabilities is the net worth entered on the liabilities side.",
+     "compute": "net_worth = total_assets - deposits"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Bank Balance Sheet: Assets, Liabilities and Net Worth, compute the result for reserves = 3, loans = 3, deposits = 3.",
+     "solution": "Step 1: Total the asset side: total_assets = reserves + loans = 6.0 Step 2: Take the excess over deposits: net_worth = total_assets - deposits = 3.0 Final result: 3.0",
+     "answer": "3.0"
+    },
+    {
+     "question": "Using Bank Balance Sheet: Assets, Liabilities and Net Worth, compute the result for reserves = 4, loans = 4, deposits = 4.",
+     "solution": "Step 1: Total the asset side: total_assets = reserves + loans = 8.0 Step 2: Take the excess over deposits: net_worth = total_assets - deposits = 4.0 Final result: 4.0",
+     "answer": "4.0"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_worth = total_assets - total_liabilities",
+     "compute": "net_worth = total_assets - total_liabilities"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "leec.103.4.1",
+   "title": "Monetary Policy Instruments of the RBI",
+   "section": "3.4",
+   "definition": "The RBI steers the money supply with quantitative levers - altering the cash reserve ratio, changing the bank rate, and buying or selling government bonds in open market operations - and with qualitative nudges such as moral suasion and margin requirements.",
+   "formula": "money_supply_effect = direction_of(crr_change, bank_rate_change, open_market_operations)",
+   "key_idea": "Raising CRR or bank rate, or selling bonds, squeezes reserves and shrinks credit; the opposites expand it.",
+   "textbook_ref": "leec103.txt, section 3.4, policy tools and repo paragraphs, pages 42-43",
+   "question_patterns": [
+    "name the quantitative tools the RBI uses to control money supply",
+    "how does an open market purchase of bonds change the money supply",
+    "distinguish an outright open market operation from a repo",
+    "what happens to bank lending when the cash reserve ratio is raised",
+    "why does a higher bank rate contract the money supply",
+    "explain moral suasion and margin requirements as qualitative tools"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Trace the reserve channel",
+     "explain": "CRR hikes and bond sales by the RBI drain reserves from banks, cutting the base for credit."
+    },
+    {
+     "step": 2,
+     "action": "Trace the cost channel",
+     "explain": "A higher bank rate or repo rate makes borrowing from the RBI dearer, so banks lend less and money supply falls."
+    },
+    {
+     "step": 3,
+     "action": "Note the persuasion tools",
+     "explain": "Moral suasion and margin requirements steer the direction of lending without touching the numbers directly."
+    }
+   ]
+  },
+  {
+   "id": "leec.103.4.2",
+   "title": "Fiat Money and Legal Tender",
+   "section": "3.4",
+   "definition": "Notes and coins carry no intrinsic worth of their own; their value rests on the issuing authority's guarantee, and because no citizen may refuse them in settlement they are legal tender, a status that cheque-backed demand deposits do not enjoy.",
+   "formula": "fiat_money_value = issuing_authority_guarantee (not intrinsic_content)",
+   "key_idea": "Law and trust, not metal content, give modern currency its purchasing power.",
+   "textbook_ref": "leec103.txt, box on supply of money, fiat money and legal tender, pages 48-49",
+   "question_patterns": [
+    "what makes currency notes fiat money",
+    "why can a rupee note be refused nowhere in the country",
+    "distinguish legal tender from money that can be refused",
+    "why do demand deposits fail the legal tender test",
+    "where does a hundred-rupee note get its value if the paper costs little",
+    "explain the governor's promise printed on a currency note"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Test intrinsic worth",
+     "explain": "The paper or metal in currency is worth far less than its face value, so the value is not intrinsic."
+    },
+    {
+     "step": 2,
+     "action": "Locate the guarantee",
+     "explain": "The issuing authority promises to honour the printed amount, which anchors the token's value."
+    },
+    {
+     "step": 3,
+     "action": "Apply the legal tender test",
+     "explain": "Currency must be accepted in settlement by all citizens, while cheques and deposits may be refused, so only currency is legal tender."
+    }
+   ]
+  },
+  {
+   "id": "leec.103.4.3",
+   "title": "Measures of Money Supply: Narrow and Broad Money",
+   "section": "3.4",
+   "definition": "India counts its money stock in four nesting aggregates: M1 adds currency held by the public to net demand deposits; M2 adds post-office savings deposits; M3 adds banks' net time deposits to M1; and M4 adds post-office total deposits, the four being arranged in falling order of liquidity.",
+   "formula": "m1 = currency_held_by_public + net_demand_deposits",
+   "key_idea": "M1 and M2 are narrow, M3 and M4 broad, and liquidity thins as you move down the list.",
+   "textbook_ref": "leec103.txt, box on legal definitions of money supply, page 49",
+   "question_patterns": [
+    "write the four official measures of money supply in India",
+    "compute M1 from currency with the public and net demand deposits",
+    "which measure of money is the most liquid and which the least",
+    "how is broad money different from narrow money",
+    "why are interbank deposits left out of the money supply",
+    "find M3 when M1 and net time deposits of banks are given"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Build the narrowest aggregate",
+     "explain": "Currency in public hands plus the public's demand deposits with banks gives M1.",
+     "compute": "m1 = currency_held_by_public + net_demand_deposits"
+    },
+    {
+     "step": 2,
+     "action": "Extend to the broad aggregate",
+     "explain": "Adding the banks' net time deposits to M1 gives M3, the commonly cited broad measure.",
+     "compute": "m3 = m1 + net_time_deposits"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Measures of Money Supply: Narrow and Broad Money, compute the result for currency_held_by_public = 3, net_demand_deposits = 3, net_time_deposits = 3.",
+     "solution": "Step 1: Build the narrowest aggregate: m1 = currency_held_by_public + net_demand_deposits = 6.0 Step 2: Extend to the broad aggregate: m3 = m1 + net_time_deposits = 9.0 Final result: 9.0",
+     "answer": "9.0"
+    },
+    {
+     "question": "Using Measures of Money Supply: Narrow and Broad Money, compute the result for currency_held_by_public = 4, net_demand_deposits = 4, net_time_deposits = 4.",
+     "solution": "Step 1: Build the narrowest aggregate: m1 = currency_held_by_public + net_demand_deposits = 8.0 Step 2: Extend to the broad aggregate: m3 = m1 + net_time_deposits = 12.0 Final result: 12.0",
+     "answer": "12.0"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "leec103.txt section 3.3.2 Table 3.2 multiplier rounds",
+   "concept": "leec.103.3.2",
+   "question_type": "compute",
+   "question_pattern": "Initial reserves with the banking system are 100 and the cash reserve ratio is 20 percent. Find the multiplier and the total deposits the system can support.",
+   "extracted_variables": {
+    "initial_reserves": 100,
+    "reserve_ratio": 0.2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Invert the reserve ratio",
+     "explain": "One divided by 0.2 gives a multiplier of 5.",
+     "compute": "money_multiplier = 1 / reserve_ratio"
+    },
+    {
+     "step": 2,
+     "action": "Scale up the reserves",
+     "explain": "100 times 5 gives 500 of total deposits, of which 400 can be loaned out.",
+     "compute": "total_deposits_created = initial_reserves * money_multiplier"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "leec103.txt Box 3.1 two-period bond at 5 percent",
+   "concept": "leec.103.2.3",
+   "question_type": "compute",
+   "question_pattern": "A two-year bond has a face value of 100 and pays a coupon of 10 each year. With the market rate at 5 percent, find its present value.",
+   "extracted_variables": {
+    "coupon": 10,
+    "face_value": 100,
+    "market_rate": 0.05
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Discount the first coupon",
+     "explain": "10 divided by 1.05 is about 9.52.",
+     "compute": "year1_worth = coupon / (1 + market_rate)"
+    },
+    {
+     "step": 2,
+     "action": "Discount the final payment",
+     "explain": "110 divided by 1.05 squared is about 99.77.",
+     "compute": "year2_worth = (coupon + face_value) / (1 + market_rate) ** 2"
+    },
+    {
+     "step": 3,
+     "action": "Sum the discounted flows",
+     "explain": "9.52 plus 99.77 gives roughly 109.29, above the face value, so the bond beats the deposit account.",
+     "compute": "present_value_of_bond = year1_worth + year2_worth"
+    }
+   ]
+  },
+  {
+   "id": "we3",
+   "source_ref": "leec103.txt box on measures of money supply",
+   "concept": "leec.103.4.3",
+   "question_type": "compute",
+   "question_pattern": "Currency with the public is 400 and net demand deposits are 600; net time deposits of banks are 900. Compute M1 and M3.",
+   "extracted_variables": {
+    "currency_held_by_public": 400,
+    "net_demand_deposits": 600,
+    "net_time_deposits": 900
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Narrow money",
+     "explain": "400 plus 600 gives M1 of 1000.",
+     "compute": "m1 = currency_held_by_public + net_demand_deposits"
+    },
+    {
+     "step": 2,
+     "action": "Broad money",
+     "explain": "1000 plus 900 gives M3 of 1900.",
+     "compute": "m3 = m1 + net_time_deposits"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "leec103-ex1",
+   "source_ref": "leec103.txt exercise 1",
+   "questions": [
+    "Describe the barter system and its weaknesses."
+   ]
+  },
+  {
+   "id": "leec103-ex2",
+   "source_ref": "leec103.txt exercise 2",
+   "questions": [
+    "Set out the main functions of money and show how each cures a defect of barter."
+   ]
+  },
+  {
+   "id": "leec103-ex3",
+   "source_ref": "leec103.txt exercise 3",
+   "questions": [
+    "Explain transaction demand for money and its link with the value of transactions over a period."
+   ]
+  },
+  {
+   "id": "leec103-ex4",
+   "source_ref": "leec103.txt exercise 4",
+   "questions": [
+    "State the alternative official definitions of money supply used in India."
+   ]
+  },
+  {
+   "id": "leec103-ex5",
+   "source_ref": "leec103.txt exercise 5",
+   "questions": [
+    "Clarify the terms legal tender and fiat money."
+   ]
+  },
+  {
+   "id": "leec103-ex6",
+   "source_ref": "leec103.txt exercise 6",
+   "questions": [
+    "What is high powered money?"
+   ]
+  },
+  {
+   "id": "leec103-ex7",
+   "source_ref": "leec103.txt exercise 7",
+   "questions": [
+    "Bring out the functions of a commercial bank."
+   ]
+  },
+  {
+   "id": "leec103-ex8",
+   "source_ref": "leec103.txt exercise 8",
+   "questions": [
+    "Define the money multiplier and identify what fixes its size."
+   ]
+  },
+  {
+   "id": "leec103-ex9",
+   "source_ref": "leec103.txt exercise 9",
+   "questions": [
+    "List the instruments of monetary policy available to the RBI."
+   ]
+  },
+  {
+   "id": "leec103-ex10",
+   "source_ref": "leec103.txt exercise 10",
+   "questions": [
+    "Argue whether a commercial bank deserves to be called a creator of money."
+   ]
+  },
+  {
+   "id": "leec103-ex11",
+   "source_ref": "leec103.txt exercise 11",
+   "questions": [
+    "Which role of the RBI earns it the label lender of last resort?"
+   ]
+  }
+ ]
 }

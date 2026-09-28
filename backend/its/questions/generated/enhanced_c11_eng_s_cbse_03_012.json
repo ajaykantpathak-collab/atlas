@@ -34,6 +34,21 @@
      "q": "Create an inferential question about the play's ending (the family playing rummy) that requires combining textual evidence with the theme of gender roles. Provide the question and a model answer.",
      "a": "Question: \"Why does Mrs Pearson suggest a family game of rummy instead of continuing her 'strike'?\" Model answer: The suggestion signals a return to normalcy but on new terms — she asserts control by directing the activity and delegating supper prep, showing she expects respect without aggression. This infers from her \"smiling\" and \"firm hand\" that lasting change comes from consistent expectation, not rebellion. A poor question would be literal (\"What game do they play?\"); a poor answer would miss the thematic link to gender roles.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal comprehension questions require answers directly stated in the text, while ______ comprehension questions demand readers to derive meaning by combining textual clues with prior knowledge and logical reasoning.",
+     "a": "inferential",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are asked: \"Why does Mrs Pearson suddenly start smoking and playing cards?\" A literal answer would quote the stage direction; an ______ answer would connect her actions to the personality swap.",
+     "a": "inferential",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently classify a question as literal or inferential, locate explicit evidence for literal answers, and construct a logical inference chain (text clue + background knowledge = conclusion) for inferential answers, citing specific lines from the play.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a hypothetical 3-step trade chain involving a dairy farmer with milk, a potter with clay pots, and a weaver with blankets, where no two people have a direct double coincidence of wants, but trade is successfully achieved through multi-step indirect barter.",
      "a": "Expected criteria: Step 1: Dairy farmer takes milk to the potter who wants milk in exchange for a pot. Step 2: Potter does not want milk directly, but the weaver wants milk. Step 3: Dairy farmer trades with weaver or establishes a sequence where each person accepts an intermediate good. A poor answer leaves parties with unwanted goods or fails to resolve the mismatch in desires, showing a lack of understanding of how indirect exchange bridges the gap left by missing double coincidence of wants.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The double ______ of wants is a situation where two parties must each desire what the other has to offer for a successful trade to take place without money.",
+     "a": "coincidence",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a wheat ______ in Punjab who needs a pair of sturdy shoes for the winter season.",
+     "a": "farmer",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can explain why a trade fails under the barter system due to a lack of double coincidence of wants, and can construct a trade scenario demonstrating both the presence and absence of this condition using real-world commodities.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a wheat farmer in Punjab who needs a pair of sturdy shoes for the winter season.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

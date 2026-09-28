@@ -34,6 +34,31 @@
      "q": "Create a realistic scenario for a small Indian business (e.g., a kirana store, a freelance graphic designer, or a food truck) where the owner introduces *additional capital* not in cash but by transferring a personal asset (e.g., a laptop, a two-wheeler) into the business. Write the journal entry and explain how each of the three terms (Asset, Liability, Capital) is affected.",
      "a": "Expected answer:  \nScenario: Freelance designer transfers personal laptop (market value ₹60,000) to business.  \nJournal Entry: Laptop A/c Dr. ₹60,000 → Capital A/c Cr. ₹60,000.  \nEffects: Asset (Laptop) ↑ ₹60,000; Capital ↑ ₹60,000; Liabilities unchanged.  \nA poor answer (e.g., crediting \"Sales\" or \"Income\") shows the student doesn't understand that owner contributions are *capital introductions*, not revenue. They also miss that the asset is recorded at *fair value*, not original cost to the owner.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An Asset is an economic resource controlled by an enterprise as a result of past events, from which future economic benefits are expected to flow; a Liability is a present obligation of the enterprise arising from past events, the settlement of which is expected to result in an outflow of resources embodying economic benefits; Capital is the residual interest in the assets of the enterprise after deducting all its ______, representing the owner's claim on the business.",
+     "a": "liabilities",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your cousin set up a ______ cloud kitchen.",
+     "a": "small",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently classify any given item as an asset, liability, or capital using the three defining criteria (control/obligation/residual interest), explain why capital appears on the liabilities side of the balance sheet, and distinguish between current and non-current classification for both assets and liabilities with.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An Asset is an economic resource controlled by an enterprise as a result of past events, from which future economic benefits are expected to flow; a Liability is a present obligation of the enterprise arising from past events, the settlement of which is expected to result in an outflow of resources embodying economic benefits; Capital is the residual interest in the assets of the enterprise after deducting all its liabilities, ______ the owner's claim on the business.",
+     "a": "representing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are helping your cousin set up a small cloud kitchen.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

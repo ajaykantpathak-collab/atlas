@@ -34,6 +34,26 @@
      "q": "Design a short set of instructions for constructing a perpendicular to a line segment of length 8 cm from a point located exactly 5 cm vertically above its midpoint, specifying the necessary compass radius adjustments.",
      "a": "The expected response should outline: 1) Draw line segment $AB = 8$ cm and mark midpoint $M$. 2) Establish point $P$ at 5 cm above $M$. 3) Open compass to a radius larger than 5 cm with center at $P$, intersecting line $AB$ at $X$ and $Y$. 4) With centers at $X$ and $Y$, draw intersecting arcs below line $AB$ to locate point $Q$. 5) Join $P$ through $M$ to $Q$. A poor answer fails to specify correct radius bounds or skips arc-intersection steps.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Constructing a ______ from a point to a line using a compass and a ruler involves drawing a line segment that meets the given line at a 90-degree angle, passing through a specified point either lying on the line or outside of it.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a carpenter in your school workshop in Jaipur, and you need to hammer a vertical wooden support perfectly straight (______) up from a marked point on a horizontal wooden beam.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Constructing a perpendicular from a point to a line using a compass and a ruler involves drawing a line segment that meets the given line at a ______-degree angle, passing through a specified point either lying on the line or outside of it.",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can accurately use a compass and ruler to construct a line perpendicular to a given line passing through a given point (both when the point is on the line and when the point is outside the line) and verify the 90-degree angle using a set-square or protractor.",
+     "self_check": true
     }
    ]
   }

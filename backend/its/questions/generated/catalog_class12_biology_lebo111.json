@@ -1,6 +1,53 @@
 {
- "catalog": "catalog_class12_biology_lebo111",
+ "catalog": "catalog_class12_biology_lebo111.json",
  "concepts": [
+  {
+   "id": "lebo.111.3",
+   "title": "Population Growth Models",
+   "converted_to_compute": true,
+   "formula": "logistic_fraction = (k_cap - n_pop) / k_cap",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "logistic_fraction = (k_cap - n_pop) / k_cap",
+     "compute": "logistic_fraction = (k_cap - n_pop) / k_cap"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Population Growth Models: given k_cap = 68, n_pop = 10.2, find logistic fraction.",
+     "a": "0.85",
+     "self_check": false
+    },
+    {
+     "q": "For Population Growth Models: given k_cap = 92, n_pop = 3.3, find logistic fraction.",
+     "a": "0.96413",
+     "self_check": false
+    },
+    {
+     "q": "For Population Growth Models: given k_cap = 11.3, n_pop = 2.2, find logistic fraction.",
+     "a": "0.80531",
+     "self_check": false
+    },
+    {
+     "q": "For Population Growth Models: given k_cap = 97, n_pop = 11.7, find logistic fraction.",
+     "a": "0.879381",
+     "self_check": false
+    },
+    {
+     "q": "For Population Growth Models: given k_cap = 3.4, n_pop = 14.9, find logistic fraction.",
+     "a": "-3.38235",
+     "self_check": false
+    },
+    {
+     "q": "For Population Growth Models: given k_cap = 64, n_pop = 18.8, find logistic fraction.",
+     "a": "0.70625",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "lebo.111.1",
    "title": "Habitat and Abiotic Factors",
@@ -39,37 +86,6 @@
     {
      "q": "Under which section is 'Responses to Abiotic Stress' taught, and from which source text?",
      "a": "Responses to Abiotic Factors (source: lebo111.txt regulate-conform-migrate-suspend section and desert lizard example)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebo.111.3",
-   "title": "Population Growth Models",
-   "questions": [
-    {
-     "q": "Using the method 'Population Growth Models', work with: k_cap = 8, n_pop = 120, r_rate = 15. Carry the chain through step by step and give the final value of instantaneous_growth.",
-     "a": "1800 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Population Growth Models' and work with: k_cap = 45, n_pop = 200, r_rate = 8. Carry the chain through step by step and give the final value of instantaneous_growth.",
-     "a": "1600 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Population Growth Models' refers to.",
-     "a": "Population density changes through natality, mortality, immigration and emigration; under unlimited resources growth is exponential (dN/dt = rN) while under the carrying capacity K of real habitats growth is logistic (dN/dt = rN(K-N)/K), giving a sigmoid curve.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Population Growth Models'.",
-     "a": "The term (K-N)/K weights growth down as N approaches carrying capacity, so computing it tells how much room a population still has to grow.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Population Growth Models', in plain ASCII form.",
-     "a": "logistic_fraction = (k_cap - n_pop) / k_cap",
      "self_check": true
     }
    ]

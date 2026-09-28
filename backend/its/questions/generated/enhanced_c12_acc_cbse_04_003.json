@@ -34,6 +34,26 @@
      "q": "Create a dissolution scenario with at least three assets and two liabilities where the Realisation Account shows a loss. Provide the full Realisation Account and the journal entry to transfer the loss to partners A and B (profit-sharing ratio 3:2).",
      "a": "**Scenario**: Assets: Machinery ₹2,00,000 (sold ₹1,50,000), Stock ₹80,000 (sold ₹60,000), Debtors ₹50,000 (realized ₹45,000). Liabilities: Creditors ₹60,000 (paid ₹60,000), Bank Loan ₹40,000 (paid ₹40,000). Expenses ₹5,000.  \n**Realisation Account**:  \nDr. | Cr.  \n---|---  \nTo Machinery | 2,00,000 | By Creditors | 60,000  \nTo Stock | 80,000 | By Bank Loan | 40,000  \nTo Debtors | 50,000 | By Machinery | 1,50,000  \nTo Creditors (paid) | 60,000 | By Stock | 60,000  \nTo Bank Loan (paid) | 40,000 | By Debtors | 45,000  \nTo Realisation Expenses | 5,000 | By Loss on Realisation | 80,000  \nTotal | 4,35,000 | Total | 4,35,000  \n**Journal**:  \nA's Capital A/c Dr. 48,000  \nB's Capital A/c Dr. 32,000  \nTo Realisation A/c 80,000  \nA poor answer (e.g., loss ₹75,000) shows arithmetic error or missing expense.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ Account is a temporary nominal account prepared during the dissolution of a partnership firm to record the sale of assets, settlement of liabilities, and realization expenses, thereby determining the profit or loss on realization which is transferred to the partners' capital accounts in their profit-sharing ratio.",
+     "a": "Realisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ firm \"Sharma & Verma\" decides to close down.",
+     "a": "partnership",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Step ______: Transfer all assets (except cash/bank) to the debit side at book values.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) explain the purpose of a Realisation Account in dissolution, (2) draw the correct format with all relevant items on debit and credit sides, and (3) prepare a Realisation Account from given dissolution data, correctly transferring the resultant profit/loss to partners' capital accounts.",
+     "self_check": true
     }
    ]
   }

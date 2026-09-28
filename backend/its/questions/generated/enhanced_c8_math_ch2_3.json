@@ -34,6 +34,26 @@
      "q": "Create a real-life situation (in an Indian context) that can be modelled by \\(3^5\\). Describe the situation and write the exponential expression with base and exponent identified.",
      "a": "Example: A WhatsApp forward is sent to 3 friends. Each of them forwards it to 3 new friends, and this continues for 5 rounds. The number of people who receive it in the 5th round is \\(3^5\\). Base = 3 (each person sends to 3), Exponent = 5 (rounds). A poor answer uses addition instead of multiplication (e.g., \"3 people each round for 5 rounds = 15\") showing lack of understanding of multiplicative growth.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Exponential notation is a concise way to represent repeated ______ of the same number.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ culture in a science lab that doubles every hour.",
+     "a": "bacteria",
+     "self_check": true
+    },
+    {
+     "q": "What is Exponential notation? State the definition given in this lesson.",
+     "a": "Exponential notation is a concise way to represent repeated multiplication of the same number.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Exponential notation?",
+     "a": "The misconception stems from not parsing the expression structure: exponent applies only to the immediate base (which includes parentheses).",
+     "self_check": true
     }
    ]
   }

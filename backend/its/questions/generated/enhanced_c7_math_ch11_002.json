@@ -34,6 +34,26 @@
      "q": "Create a pair of composite numbers whose HCF is 6. Show the factor lists to prove your answer.",
      "a": "Example answer: The numbers 18 and 30. \nFactors of 18: $1, 2, 3, 6, 9, 18$. \nFactors of 30: $1, 2, 3, 5, 6, 10, 15, 30$. \nCommon factors: $1, 2, 3, 6$. \nThe highest common factor is 6. A poor answer would use numbers whose HCF is not 6 or use prime numbers instead of composite numbers.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Highest Common Factor (HCF) of two or more numbers is the greatest positive integer that divides each of those numbers ______ without leaving any remainder.",
+     "a": "completely",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are organizing a ______ cultural fest in Delhi and have 24 red ribbons and 36 blue ribbons.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can define HCF conceptually, list and identify common factors of numbers, and correctly compute the HCF of two-digit and three-digit numbers using different methods.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a school cultural fest in Delhi and have 24 red ribbons and 36 blue ribbons.",
+     "a": "organizing",
+     "self_check": true
     }
    ]
   }

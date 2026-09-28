@@ -22,15 +22,33 @@
     "how many ordered pairs does the empty relation on set A contain",
     "give an example of a relation on a set that is empty"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "list the set and the pairing rule",
-     "explain": "Write the set A and the condition that decides membership in R."},
-    {"step": 2, "action": "hunt for any pair that satisfies the rule",
-     "explain": "Scan the ordered pairs of A x A for even one pair meeting the condition."},
-    {"step": 3, "action": "conclude the relation is empty",
-     "explain": "When no pair qualifies, R equals the empty set, so R is the empty relation."}
-   ]
+    {
+     "step": 1,
+     "action": "list the set and the pairing rule",
+     "explain": "Write the set A and the condition that decides membership in R."
+    },
+    {
+     "step": 2,
+     "action": "hunt for any pair that satisfies the rule",
+     "explain": "Scan the ordered pairs of A x A for even one pair meeting the condition."
+    },
+    {
+     "step": 3,
+     "action": "conclude the relation is empty",
+     "explain": "When no pair qualifies, R equals the empty set, so R is the empty relation."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 6 gives 6",
+     "compute": "count = 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lemh.101.2.2",
@@ -48,15 +66,33 @@
     "verify that the relation equals the cartesian product A x A",
     "state which relation on a set is called the universal relation"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "write the set and the rule",
-     "explain": "State A and the condition defining R."},
-    {"step": 2, "action": "test an arbitrary pair from A x A",
-     "explain": "Take any pair (a, b) of elements of A and apply the condition."},
-    {"step": 3, "action": "conclude R is the full product",
-     "explain": "Since the condition holds for every pair, R coincides with A x A, the universal relation."}
-   ]
+    {
+     "step": 1,
+     "action": "write the set and the rule",
+     "explain": "State A and the condition defining R."
+    },
+    {
+     "step": 2,
+     "action": "test an arbitrary pair from A x A",
+     "explain": "Take any pair (a, b) of elements of A and apply the condition."
+    },
+    {
+     "step": 3,
+     "action": "conclude R is the full product",
+     "explain": "Since the condition holds for every pair, R coincides with A x A, the universal relation."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 3 gives 3",
+     "compute": "count = 3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lemh.101.2.3",
@@ -74,15 +110,33 @@
     "state the condition a relation must meet to be reflexive",
     "determine whether R given by a <= b on the real numbers is reflexive"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "pick an arbitrary element a of A",
-     "explain": "Let a range over every member of the set."},
-    {"step": 2, "action": "test the condition on the pair (a, a)",
-     "explain": "Substitute a on both sides of the rule defining R."},
-    {"step": 3, "action": "decide reflexivity",
-     "explain": "If (a, a) lies in R for all a, R is reflexive; one failing element disproves it."}
-   ]
+    {
+     "step": 1,
+     "action": "pick an arbitrary element a of A",
+     "explain": "Let a range over every member of the set."
+    },
+    {
+     "step": 2,
+     "action": "test the condition on the pair (a, a)",
+     "explain": "Substitute a on both sides of the rule defining R."
+    },
+    {
+     "step": 3,
+     "action": "decide reflexivity",
+     "explain": "If (a, a) lies in R for all a, R is reflexive; one failing element disproves it."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 4 gives 4",
+     "compute": "count = 4"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lemh.101.2.4",
@@ -100,15 +154,33 @@
     "state the defining property of a symmetric relation",
     "determine whether the perpendicular relation on lines in a plane is symmetric"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "assume (a, b) belongs to R",
-     "explain": "Start from an arbitrary pair that satisfies the rule."},
-    {"step": 2, "action": "derive the reversed pair",
-     "explain": "Use the same rule to check whether (b, a) must also satisfy it."},
-    {"step": 3, "action": "decide symmetry",
-     "explain": "If the reverse always follows, R is symmetric; exhibit one unreversed pair to disprove."}
-   ]
+    {
+     "step": 1,
+     "action": "assume (a, b) belongs to R",
+     "explain": "Start from an arbitrary pair that satisfies the rule."
+    },
+    {
+     "step": 2,
+     "action": "derive the reversed pair",
+     "explain": "Use the same rule to check whether (b, a) must also satisfy it."
+    },
+    {
+     "step": 3,
+     "action": "decide symmetry",
+     "explain": "If the reverse always follows, R is symmetric; exhibit one unreversed pair to disprove."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 2 gives 2",
+     "compute": "count = 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lemh.101.2.5",
@@ -126,15 +198,33 @@
     "state what it means for a relation to be transitive",
     "determine transitivity of the relation x is exactly 7 cm taller than y on people"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "take two connected pairs",
-     "explain": "Assume (a, b) and (b, c) both belong to R."},
-    {"step": 2, "action": "derive the shortcut pair",
-     "explain": "Combine the two conditions through the rule defining R."},
-    {"step": 3, "action": "decide transitivity",
-     "explain": "If every such chain closes with (a, c) in R, the relation is transitive; otherwise exhibit a broken chain."}
-   ]
+    {
+     "step": 1,
+     "action": "take two connected pairs",
+     "explain": "Assume (a, b) and (b, c) both belong to R."
+    },
+    {
+     "step": 2,
+     "action": "derive the shortcut pair",
+     "explain": "Combine the two conditions through the rule defining R."
+    },
+    {
+     "step": 3,
+     "action": "decide transitivity",
+     "explain": "If every such chain closes with (a, c) in R, the relation is transitive; otherwise exhibit a broken chain."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 5 gives 5",
+     "compute": "count = 5"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lemh.101.2.6",
@@ -152,17 +242,38 @@
     "determine whether parallelism of lines in a plane is an equivalence relation",
     "which three properties must a relation satisfy to be an equivalence relation"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "verify the self-pair property",
-     "explain": "Confirm (a, a) lies in R for every element a, so R is reflexive."},
-    {"step": 2, "action": "verify the reverse-pair property",
-     "explain": "From (a, b) in R derive (b, a) in R, so R is symmetric."},
-    {"step": 3, "action": "verify the chain property",
-     "explain": "From (a, b) and (b, c) in R derive (a, c) in R, so R is transitive."},
-    {"step": 4, "action": "conclude",
-     "explain": "With all three properties holding, R is an equivalence relation."}
-   ]
+    {
+     "step": 1,
+     "action": "verify the self-pair property",
+     "explain": "Confirm (a, a) lies in R for every element a, so R is reflexive."
+    },
+    {
+     "step": 2,
+     "action": "verify the reverse-pair property",
+     "explain": "From (a, b) in R derive (b, a) in R, so R is symmetric."
+    },
+    {
+     "step": 3,
+     "action": "verify the chain property",
+     "explain": "From (a, b) and (b, c) in R derive (a, c) in R, so R is transitive."
+    },
+    {
+     "step": 4,
+     "action": "conclude",
+     "explain": "With all three properties holding, R is an equivalence relation."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 4 gives 4",
+     "compute": "count = 4"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lemh.101.2.7",
@@ -180,15 +291,33 @@
     "which elements of the set belong to the same class as a",
     "how do the disjoint equivalence classes cover the whole set"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "fix the element a",
-     "explain": "Choose the element whose class is wanted."},
-    {"step": 2, "action": "collect every related element",
-     "explain": "Gather all b for which the pair (a, b) satisfies the relation."},
-    {"step": 3, "action": "report the class and the partition",
-     "explain": "The collection [a] is the equivalence class; distinct classes are disjoint and their union is the whole set."}
-   ]
+    {
+     "step": 1,
+     "action": "fix the element a",
+     "explain": "Choose the element whose class is wanted."
+    },
+    {
+     "step": 2,
+     "action": "collect every related element",
+     "explain": "Gather all b for which the pair (a, b) satisfies the relation."
+    },
+    {
+     "step": 3,
+     "action": "report the class and the partition",
+     "explain": "The collection [a] is the equivalence class; distinct classes are disjoint and their union is the whole set."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 6 gives 6",
+     "compute": "count = 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lemh.101.3.1",
@@ -206,15 +335,33 @@
     "prove that no two inputs of f produce the same output",
     "state the test for a function to be one-one"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "set two images equal",
-     "explain": "Assume f(x1) = f(x2) for inputs x1 and x2 of the domain."},
-    {"step": 2, "action": "simplify toward the inputs",
-     "explain": "Use algebra on the rule of f to see whether x1 must equal x2."},
-    {"step": 3, "action": "conclude injectivity",
-     "explain": "If equal images always force equal inputs, f is one-one; otherwise some output repeats and f is many-one."}
-   ]
+    {
+     "step": 1,
+     "action": "set two images equal",
+     "explain": "Assume f(x1) = f(x2) for inputs x1 and x2 of the domain."
+    },
+    {
+     "step": 2,
+     "action": "simplify toward the inputs",
+     "explain": "Use algebra on the rule of f to see whether x1 must equal x2."
+    },
+    {
+     "step": 3,
+     "action": "conclude injectivity",
+     "explain": "If equal images always force equal inputs, f is one-one; otherwise some output repeats and f is many-one."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 6 gives 6",
+     "compute": "count = 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lemh.101.3.2",
@@ -232,15 +379,33 @@
     "is the range of f equal to its co-domain justify",
     "state the condition for a function to be onto"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "take an arbitrary co-domain value y",
-     "explain": "Let y be any element of the co-domain Y."},
-    {"step": 2, "action": "solve f(x) = y for x",
-     "explain": "Rearrange the rule of f to express a pre-image of y in the domain."},
-    {"step": 3, "action": "conclude surjectivity",
-     "explain": "If the solved x is valid for every y, f is onto; a stranded co-domain value shows f is not onto."}
-   ]
+    {
+     "step": 1,
+     "action": "take an arbitrary co-domain value y",
+     "explain": "Let y be any element of the co-domain Y."
+    },
+    {
+     "step": 2,
+     "action": "solve f(x) = y for x",
+     "explain": "Rearrange the rule of f to express a pre-image of y in the domain."
+    },
+    {
+     "step": 3,
+     "action": "conclude surjectivity",
+     "explain": "If the solved x is valid for every y, f is onto; a stranded co-domain value shows f is not onto."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 3 gives 3",
+     "compute": "count = 3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lemh.101.3.3",
@@ -258,15 +423,33 @@
     "determine whether the map pairs the two sets one-to-one and onto",
     "what property must a function have to be bijective"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "prove injectivity",
-     "explain": "Show f(x1) = f(x2) forces x1 = x2."},
-    {"step": 2, "action": "prove surjectivity",
-     "explain": "Show every co-domain value y arises as f(x) for some domain element x."},
-    {"step": 3, "action": "conclude bijectivity",
-     "explain": "With both properties verified, f is one-one and onto, hence bijective."}
-   ]
+    {
+     "step": 1,
+     "action": "prove injectivity",
+     "explain": "Show f(x1) = f(x2) forces x1 = x2."
+    },
+    {
+     "step": 2,
+     "action": "prove surjectivity",
+     "explain": "Show every co-domain value y arises as f(x) for some domain element x."
+    },
+    {
+     "step": 3,
+     "action": "conclude bijectivity",
+     "explain": "With both properties verified, f is one-one and onto, hence bijective."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 2 gives 2",
+     "compute": "count = 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lemh.101.4.1",
@@ -286,12 +469,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "apply f to the input",
+    {
+     "step": 1,
+     "action": "apply f to the input",
      "explain": "Run the inner function on x to get its image.",
-     "compute": "inner = f_slope * x + f_shift"},
-    {"step": 2, "action": "apply g to that output",
+     "compute": "inner = f_slope * x + f_shift"
+    },
+    {
+     "step": 2,
+     "action": "apply g to that output",
      "explain": "Feed the intermediate value into the outer function; the result is the composite value.",
-     "compute": "gof = g_slope * inner + g_shift"}
+     "compute": "gof = g_slope * inner + g_shift"
+    }
    ]
   },
   {
@@ -312,12 +501,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "remove the constant term",
+    {
+     "step": 1,
+     "action": "remove the constant term",
      "explain": "Subtract the shift from the target output y.",
-     "compute": "num = y - f_shift"},
-    {"step": 2, "action": "undo the scaling",
+     "compute": "num = y - f_shift"
+    },
+    {
+     "step": 2,
+     "action": "undo the scaling",
      "explain": "Divide by the slope to isolate the pre-image; this value is the inverse evaluated at y.",
-     "compute": "f_inverse = num / f_slope"}
+     "compute": "f_inverse = num / f_slope"
+    }
    ]
   }
  ],
@@ -336,12 +531,18 @@
     "g_shift": "constant added in g"
    },
    "solution_template": [
-    {"step": 1, "action": "apply f to the input",
+    {
+     "step": 1,
+     "action": "apply f to the input",
      "explain": "Run the inner function on x.",
-     "compute": "inner = f_slope * x + f_shift"},
-    {"step": 2, "action": "apply g to that output",
+     "compute": "inner = f_slope * x + f_shift"
+    },
+    {
+     "step": 2,
+     "action": "apply g to that output",
      "explain": "Feed the intermediate value into g.",
-     "compute": "gof = g_slope * inner + g_shift"}
+     "compute": "gof = g_slope * inner + g_shift"
+    }
    ]
   },
   {
@@ -358,12 +559,18 @@
     "g_shift": "constant added in g"
    },
    "solution_template": [
-    {"step": 1, "action": "apply f to the input",
+    {
+     "step": 1,
+     "action": "apply f to the input",
      "explain": "Run the inner function on x.",
-     "compute": "inner = f_slope * x + f_shift"},
-    {"step": 2, "action": "apply g to that output",
+     "compute": "inner = f_slope * x + f_shift"
+    },
+    {
+     "step": 2,
+     "action": "apply g to that output",
      "explain": "Feed the intermediate value into g.",
-     "compute": "gof = g_slope * inner + g_shift"}
+     "compute": "gof = g_slope * inner + g_shift"
+    }
    ]
   },
   {
@@ -378,12 +585,18 @@
     "f_shift": "constant added in f"
    },
    "solution_template": [
-    {"step": 1, "action": "remove the constant term",
+    {
+     "step": 1,
+     "action": "remove the constant term",
      "explain": "Subtract the shift from y.",
-     "compute": "num = y_val - f_shift"},
-    {"step": 2, "action": "undo the scaling",
+     "compute": "num = y_val - f_shift"
+    },
+    {
+     "step": 2,
+     "action": "undo the scaling",
      "explain": "Divide by the slope to isolate the pre-image.",
-     "compute": "f_inverse = num / f_slope"}
+     "compute": "f_inverse = num / f_slope"
+    }
    ]
   },
   {
@@ -398,12 +611,18 @@
     "f_shift": "constant added in f"
    },
    "solution_template": [
-    {"step": 1, "action": "remove the constant term",
+    {
+     "step": 1,
+     "action": "remove the constant term",
      "explain": "Subtract the shift from y.",
-     "compute": "num = y_val - f_shift"},
-    {"step": 2, "action": "undo the scaling",
+     "compute": "num = y_val - f_shift"
+    },
+    {
+     "step": 2,
+     "action": "undo the scaling",
      "explain": "Divide by the slope to isolate the pre-image.",
-     "compute": "f_inverse = num / f_slope"}
+     "compute": "f_inverse = num / f_slope"
+    }
    ]
   }
  ],

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_15_006",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_15_006",
+   "title": "c11_leg_cbse_15_006",
+   "questions": [
+    {
+     "q": "A Muslim woman divorced by triple talaq in 2020 (before the 2019 Act criminalised it) files for maintenance under Section 125 CrPC. Her husband argues she is only entitled to maintenance during the *iddat* period under Muslim personal law. Which provision resolves this conflict and what does it say?",
+     "a": "Section 127(3)(b) CrPC excludes a divorced Muslim woman who has received maintenance under Muslim personal law *only if* she has not remarried — but the Supreme Court in *Daniel Latifi v. Union of India* (2001) read down the Muslim Women (Protection of Rights on Divorce) Act, 1986 to mean \"fair and reasonable provision\" *includes* maintenance *beyond* iddat, extending for her lifetime or until remarriage. A wrong answer (e.g., \"only iddat maintenance\") reveals the student confuses the *statutory text* with the *constitutional interpretation* that saves it from violating Articles 14, 15, 21.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a wife living separately by mutual consent (e.g., a separation agreement) can still claim maintenance under Section 125 CrPC, but a wife living in adultery cannot. Use the phrase \"unable to maintain herself\" in your answer.",
+     "a": "Section 125(1) CrPC requires \"neglect or refusal to maintain\" — mutual separation does not absolve the husband's duty if she remains \"unable to maintain herself\" (no independent income). Adultery (Section 125(4)) is a *complete statutory bar* because the law presumes she has forfeited the marital consortium that grounds the maintenance obligation. A wrong answer (e.g., \"both are barred\") reveals the student treats all separation alike, ignoring the statutory exception in Section 125(4) vs. the judicial interpretation of \"neglect\" in mutual separation.",
+     "self_check": true
+    },
+    {
+     "q": "A Hindu husband files for divorce on grounds of cruelty. The wife files a counter-claim for interim maintenance under Section 24 Hindu Marriage Act (HMA) and Section 125 CrPC *simultaneously*. The husband earns ₹2 lakh/month; wife earns ₹30,000/month as a teacher. The Magistrate awards ₹40,000/month under Section 125. The Family Court awards ₹60,000/month under HMA Section 24. Can she execute both orders? If not, which prevails and why?",
+     "a": "No, she cannot execute both — that would be double recovery. Section 127(1) CrPC mandates that if maintenance has been ordered under *any other law* (e.g., HMA Section 24), the Magistrate *shall* cancel the Section 125 order. The Family Court order (HMA) prevails because it is a *comprehensive* matrimonial proceeding where both parties' incomes are fully adjudicated, whereas Section 125 is summary. A wrong answer (e.g., \"she can claim both\") reveals the student misses the anti-double-dipping mechanism in Section 127 CrPC and the hierarchy of forums.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"standard of living\" test for quantum of maintenance under: (a) Section 125 CrPC, (b) Section 24 HMA, (c) PWDVA Section 20. Are they identical? If not, how does the *nature of the proceeding* (summary vs. plenary vs. civil relief) affect the evidentiary burden?",
+     "a": "All three use the \"status and position of parties\" / \"standard of living during marriage\" test (*Kulbhushan v. Raj Kumari*, *Bhuwan Mohan Singh v. Meena*), but the *evidentiary depth* differs: (a) Section 125 — summary inquiry, affidavit-based, Magistrate may rely on husband's disclosed income or *prima facie* assessment; (b) HMA Section 24 — full evidence, cross-examination, discovery of assets; (c) PWDVA Section 20 — civil relief, can include *stridhan*, rent, medical costs, but Magistrate still uses summary procedure. A wrong answer (e.g., \"all same\") reveals the student ignores procedural context — quantum *principle* is same, but *proof* varies.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The 2019 amendment making triple talaq a cognizable offence (Muslim Women (Protection of Rights on Marriage) Act) has made Section 125 CrPC redundant for Muslim women.\" Defend or refute with three legal arguments.",
+     "a": "Refute. (1) Different remedies: 2019 Act punishes *husband* (criminal); Section 125 compels *payment to wife* (maintenance). (2) 2019 Act only covers *talaq-e-biddat*; Section 125 covers *all* divorced Muslim women (including *khula*, *mubarat*, judicial divorce). (3) Section 125 applies *during marriage* (desertion); 2019 Act only post-talaq. A wrong answer (e.g., \"agreed\") reveals the student conflates *criminalisation of a practice* with *subsistence rights* — two distinct legal objectives.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a *novel* fact scenario (3-4 sentences) where a *parent* (not wife/child) claims maintenance under Section 125 CrPC *and* the Maintenance and Welfare of Parents and Senior Citizens Act, 2007 *simultaneously*, creating a conflict of jurisdiction. Identify the conflict and propose a resolution using the principle of *forum non conveniens* or *lex specialis*.",
+     "a": "Scenario: An 80-year-old father, abandoned by his sole son (earning ₹3 lakh/month), files Section 125 CrPC in District A (where son works) *and* a petition under the 2007 Act before the Maintenance Tribunal in District B (where father resides). Conflict: Two forums, same cause of action, different procedures (Magistrate vs. Tribunal, criminal enforcement vs. civil recovery). Resolution: *Lex specialis* — the 2007 Act is a *special statute* for senior citizens with tailored remedies (time-bound, Tribunal, no lawyer needed); CrPC is general. Father should pursue 2007 Act; Section 125 petition stayed under Section 127 CrPC (order under other law). A poor answer (e.g., \"file both\") reveals failure to grasp statutory hierarchy and forum shopping risks.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

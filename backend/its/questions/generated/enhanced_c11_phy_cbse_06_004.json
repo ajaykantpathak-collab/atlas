@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a metre scale, a pivot (knife edge), and known weights to demonstrate that torque depends on both force magnitude and perpendicular distance. Describe the procedure, what you would measure, and how you would verify τ = F × d⊥.",
      "a": "Procedure: Balance the metre scale horizontally on a knife-edge pivot at its 50 cm mark (CM). Hang a 100 g weight (0.98 N) at the 20 cm mark (d₁ = 30 cm from pivot). Hang a 200 g weight (1.96 N) on the other side and adjust its position until the scale balances horizontally. Measure its distance d₂ from pivot. Expected: τ₁ = τ₂ → (0.98 N)(0.30 m) = (1.96 N) d₂ → d₂ = 0.15 m (15 cm). Verification: If balance occurs at d₂ ≈ 15 cm, it confirms τ = F d⊥. A poor design (e.g., not ensuring horizontal balance, ignoring weight of scale) reveals misunderstanding of equilibrium conditions or lever arm definition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Torque (or moment of force) is the rotational analogue of force, defined as the vector product of the position vector r (from the chosen origin to the point of force ______) and the force vector F: τ = r × F.",
+     "a": "application",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan in your classroom: when you push the blade near the ______, it barely moves; push at the outer edge, and it spins easily.",
+     "a": "centre",
+     "self_check": true
+    },
+    {
+     "q": "What is Torque (or moment of force)? State the definition given in this lesson.",
+     "a": "Torque (or moment of force) is the rotational analogue of force, defined as the vector product of the position vector r (from the chosen origin to the point of force application) and the force vector F: τ = r × F.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To calculate: (______) Draw r and F with tails at origin.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Torque (or moment of force)?",
+     "a": "Students often believe that torque and work are the same physical quantity because both have the unit N·m (joule).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the torque of a given force about a specified origin using both the magnitude formula (τ = r F sinθ) and the vector cross product method (τ = r × F), correctly determining the direction via the right-hand rule.",
+     "self_check": true
     }
    ]
   }

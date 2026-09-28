@@ -34,6 +34,26 @@
      "q": "Design a small simulation study (conceptually) to test whether UPGMA or Neighbor-Joining recovers the true tree better when evolutionary rates vary among lineages. Specify: (i) true tree topology with branch lengths, (ii) sequence simulation parameters, (iii) evaluation metric.",
      "a": "(i) True tree: ((A:0.1, B:0.1):0.05, (C:0.5, D:0.5):0.05) — lineages C and D evolve 5x faster. (ii) Simulate 1000 bp DNA sequences under Jukes-Cantor model using the true tree. (iii) Reconstruct trees with UPGMA and NJ from p-distances; evaluate using Robinson-Foulds distance to true tree. Expected: NJ will have lower RF distance (better recovery) because it does not assume a clock. A poor answer (e.g., \"use real data\") reveals inability to design a controlled simulation isolating the molecular clock violation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A phylogenetic tree is a branching diagram that represents the evolutionary ______ among biological entities (species, genes, or proteins) based on similarities and differences in their molecular sequences (DNA, RNA, or protein), where branch lengths may represent the amount of evolutionary change or time since divergence.",
+     "a": "relationships",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have sequenced the cytochrome c gene from five different mammals (human, ______, mouse, rat, cow) and want to know which two are most closely related.",
+     "a": "chimpanzee",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish between distance-based (UPGMA, Neighbor-Joining) and character-based (Maximum Parsimony, Maximum Likelihood) tree construction methods and state the key assumption of each.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have sequenced the ______ c gene from five different mammals (human, chimpanzee, mouse, rat, cow) and want to know which two are most closely related.",
+     "a": "cytochrome",
+     "self_check": true
     }
    ]
   }

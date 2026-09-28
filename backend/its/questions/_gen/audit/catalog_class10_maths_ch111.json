@@ -217,9 +217,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "circ = 2 * 22 / 7 * 49"
-   ]
+   "steps_chain": []
   },
   {
    "id": "jemh.11.6",
@@ -265,9 +263,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "area = 20 * 10"
-   ]
+   "steps_chain": []
   },
   {
    "id": "jemh.11.7",
@@ -353,9 +349,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "circ = 2 * 22 / 7 * 7"
-   ]
+   "steps_chain": []
   }
  ]
 }

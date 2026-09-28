@@ -34,6 +34,26 @@
      "q": "Construct a 2×2 matrix equation A = B where A has variables x, y and B has constants, such that: (i) the equation has a unique solution, (ii) the equation has no solution, (iii) the equation has infinitely many solutions. Explain each case.",
      "a": "(i) Unique solution: [[x, 2], [3, y]] = [[5, 2], [3, 7]] → x=5, y=7 (all 4 equations determine values uniquely).\n(ii) No solution: [[x, 2], [3, y]] = [[5, 2], [4, 7]] → 3 = 4 is a contradiction, so no (x,y) works.\n(iii) Infinitely many solutions: [[x, 2], [3, y]] = [[x, 2], [3, y]] (identical matrices with variables) — any x,y work. OR [[x, 2], [3, y]] = [[x, 2], [3, 5]] → x free, y=5 (infinitely many).\nA poor answer (e.g., giving same matrix for all three) reveals the student doesn't understand how the structure of element-wise equations determines solution count — confusing matrix equality with linear equation systems. This tests deep understanding of the definition's implications.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Two matrices A = [aij] and B = [bij] are equal if and only if (i) they have the same order (same number of rows and same number of columns), and (ii) their ______ elements are identical, i.e., aij = bij for all i = 1,2,...,m and j = 1,2,...,n.",
+     "a": "corresponding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ two mark sheets: one for Class 12 Term 1 and one for Term 2.",
+     "a": "comparing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Each has ______ subjects in the same order — English, Physics, Chemistry, Maths, Biology.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) verify matrix equality by checking both order and element-wise correspondence, (2) solve for unknown variables by equating corresponding elements of equal matrices, and (3) identify when matrix equality is NOT defined due to order mismatch, explaining why element-wise comparison fails in such cases.",
+     "self_check": true
     }
    ]
   }

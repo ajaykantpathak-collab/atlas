@@ -34,6 +34,31 @@
      "q": "Create a discrete frequency distribution with N=11 where the median is 30, but the arithmetic mean is greater than 30. Explain how you constructed it.",
      "a": "Example: Values: 10, 20, 30, 40, 50 with frequencies: 2, 2, 3, 2, 2. N=11, median position = 6th item → cumulative frequencies: 2,4,7,9,11 → 6th item is 30. Mean = (20+40+90+80+100)/11 = 330/11 = 30. To make mean > 30, increase frequency of higher values: e.g., 10(1), 20(1), 30(3), 40(3), 50(3) → N=11, median still 30 (6th item), mean = (10+20+90+120+150)/11 = 390/11 ≈ 35.45 > 30. A poor answer would not satisfy both conditions or would not explain the construction, showing inability to manipulate distributions to achieve desired properties.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The median is a positional average that divides an ordered data set into two equal halves, such that the number of ______ above it equals the number below it.",
+     "a": "observations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a village planner in Balapur (from the NCERT example) ______ landholdings of 50 farmers.",
+     "a": "comparing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a village planner in Balapur (from the NCERT example) comparing landholdings of ______ farmers.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently compute the median for individual, discrete, and continuous series from raw data or frequency distributions, correctly identify the median class in continuous series, and interpret the result in context (e.g., \"50% of workers earn less than this wage\").",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a village planner in Balapur (from the NCERT example) comparing ______ of 50 farmers.",
+     "a": "landholdings",
+     "self_check": true
     }
    ]
   }

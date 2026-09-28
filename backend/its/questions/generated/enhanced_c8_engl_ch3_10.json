@@ -34,6 +34,26 @@
      "q": "Create a brief 3-sentence mystery scenario containing exactly TWO pieces of direct textual evidence and ONE false assumption made by a character. Label each element.",
      "a": "Example Scenario:\nSentence 1: \"Maya found a half-eaten apple on the desk and observed that the classroom door lock was untouched.\" (Evidence 1: half-eaten apple on desk; Evidence 2: door lock untouched).\nSentence 2: \"She immediately accused Kabir of sneaking in through the window to eat her lunch.\" (False Assumption: assuming Kabir was the one who entered and ate it, and assuming he came through the window without direct proof).\nSentence 3: \"However, she had forgotten that the window was fitted with an unbroken wire mesh.\"\n*A weak response will fail to clearly separate the observed clues from the character's unverified leap in logic.*",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Evidence consists of ______, explicit facts, clues, or direct quotes provided directly in a text.",
+     "a": "verifiable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ coming home to find your study desk messy and a window slightly open, and instantly deciding that a burglar entered your room.",
+     "a": "Imagine",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can systematically examine a prose passage or mystery scenario, differentiate stated textual evidence from unstated assumptions, and explain how relying on unproven assumptions leads to flawed conclusions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine coming home to find your study desk messy and a window slightly open, and ______ deciding that a burglar entered your room.",
+     "a": "instantly",
+     "self_check": true
     }
    ]
   }

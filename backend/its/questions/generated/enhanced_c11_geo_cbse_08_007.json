@@ -34,6 +34,26 @@
      "q": "Design a coastal zone management plan for a 100 km stretch of the Konkan coast that balances port development, mangrove conservation, and tsunami preparedness, justifying each zone's width and location using coastline geometry principles.",
      "a": "Good answer: Zone 1 (0-500m): Mangrove buffer (tsunami attenuation, cyclone protection) - width based on 2004 tsunami run-up data. Zone 2 (500m-2km): Regulated tourism/fisheries - follows estuarine geometry. Zone 3 (2-5km): Port/industrial cluster at natural harbour (e.g., Ratnagiri) - uses submergent coastline advantage. Zone 4 (5-10km): Inland evacuation corridor - aligned perpendicular to coast. Poor answer: uniform zoning ignoring coastline indentations, or placing port on exposed headland instead of estuary.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: India's coastline extends approximately 7,516.6 km (including mainland 6,100 km and island ______ 1,416.6 km) along the Arabian Sea to the west, Bay of Bengal to the east, and Indian Ocean to the south, forming a strategic maritime boundary that influences climate, trade, security, and resource access.",
+     "a": "territories",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stand at Mumbai's Marine Drive during monsoon and observe how the Arabian Sea branch hits the Western Ghats first - this is where India's coastline length directly controls rainfall ______.",
+     "a": "distribution",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can calculate coastline length using map scale, explain how coastline configuration affects port distribution and monsoon onset, and evaluate the strategic importance of India's maritime position for trade routes and naval security.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: India's coastline extends ______ 7,516.6 km (including mainland 6,100 km and island territories 1,416.6 km) along the Arabian Sea to the west, Bay of Bengal to the east, and Indian Ocean to the south, forming a strategic maritime boundary that influences climate, trade, security, and resource access.",
+     "a": "approximately",
+     "self_check": true
     }
    ]
   }

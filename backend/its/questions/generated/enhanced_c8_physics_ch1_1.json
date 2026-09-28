@@ -34,6 +34,21 @@
      "q": "Design a focused question for this scenario: You notice that dough made with yeast rises faster on a sunny windowsill than in a shaded corner. Your question must be investigable in a school lab (not outdoors), use equipment available in Class 8 (thermometer, measuring cylinder, stopwatch, balance, oven/incubator or warm water bath), and identify independent, dependent, and at least two controlled variables. Write the full question and list the variables.",
      "a": "Example good question: \"How does the temperature of the environment affect the volume increase of yeast dough in 60 minutes?\" Independent variable: temperature (°C) — set using water baths at 20, 30, 35, 40°C. Dependent variable: volume increase (mL) — measured by dough displacement in a measuring cylinder. Controlled variables: (1) same yeast mass (e.g., 5 g), (2) same flour mass (e.g., 100 g), (3) same water volume (e.g., 60 mL), (4) same sugar mass (e.g., 5 g), (5) same container shape/size, (6) same initial dough volume. A poor answer uses vague terms (\"warmth\" not °C), omits controlled variables, or picks an unmeasurable dependent variable (\"how much it rises\" without units).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A focused scientific question is a precise, testable inquiry that identifies a specific ______ between variables and can be investigated through controlled observation or experiment.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a pressure cooker ______ on a kitchen stove — steam escapes loudly, then the sound changes as pressure builds.",
+     "a": "whistle",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can transform a vague wonder (e.g., \"Why do some things float?\") into a focused, testable question that identifies independent and dependent variables (e.g., \"How does the shape of a clay boat affect the mass it can hold before sinking?\").",
+     "self_check": true
     }
    ]
   }

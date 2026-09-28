@@ -34,6 +34,31 @@
      "q": "Design a patent claim strategy for a startup that has developed a CRISPR-based diagnostic kit for detecting tuberculosis. The kit includes: (a) a novel guide RNA sequence targeting a conserved region of *Mycobacterium tuberculosis*; (b) a Cas12a variant with enhanced specificity; (c) a lateral flow readout strip; (d) a method of sample preparation. List the independent claims you would file and justify each claim type (product, process, kit) in 2–3 sentences.",
      "a": "A strong claim set would include: (1) **Product claim**: \"An isolated guide RNA sequence comprising SEQ ID NO: X\" — protects the novel gRNA as a chemical entity. (2) **Product claim**: \"A Cas12a variant having amino acid substitutions at positions Y and Z, wherein the variant exhibits at least 10-fold higher specificity than wild-type Cas12a\" — protects the engineered enzyme. (3) **Kit claim**: \"A diagnostic kit for detecting *M. tuberculosis* comprising (i) the guide RNA of claim 1, (ii) the Cas12a variant of claim 2, and (iii) a lateral flow strip\" — protects the combination as a commercial product. (4) **Process claim**: \"A method for detecting *M. tuberculosis* in a biological sample comprising: (a) lysing the sample with a chaotropic agent; (b) amplifying target DNA using recombinase polymerase amplification; (c) contacting the amplified DNA with the guide RNA and Cas12a variant of claims 1 and 2; (d) detecting cleavage of a reporter on a lateral flow strip\" — protects the diagnostic workflow. (5) **Use claim**: \"Use of the kit of claim 3 for the diagnosis of tuberculosis in a subject.\" Each claim type creates a different enforcement perimeter. A poor answer lists only one claim type or fails to justify why multiple claim categories are needed.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A patent in ______ is an exclusive legal right granted by a government to an inventor for a novel, non-obvious, and industrially applicable biological invention — such as a recombinant protein, a genetically modified organism, a gene sequence with demonstrated utility, a bioprocess, or a diagnostic kit — allowing the patent holder to prevent others from making, using, selling, or importing the invention for a limited period (20 years from filing in India).",
+     "a": "biotechnology",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a Class 12 student interning at a biotech startup that has just ______ a novel thermostable enzyme for biofuel production.",
+     "a": "engineered",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A patent in biotechnology is an exclusive legal right granted by a government to an inventor for a novel, non-obvious, and industrially applicable biological invention — such as a recombinant protein, a genetically modified organism, a gene sequence with demonstrated utility, a bioprocess, or a diagnostic kit — allowing the patent holder to prevent others from making, using, selling, or importing the invention for a limited period (______ years from filing in India).",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) list the three statutory criteria for patentability (novelty, inventive step, industrial application) and apply them to biotech inventions; (2) distinguish between product and process patents in the Indian context; (3) explain the key sections of the Indian Patents Act, 1970 (as amended) relevant to.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a Class 12 student interning at a biotech startup that has just engineered a novel ______ enzyme for biofuel production.",
+     "a": "thermostable",
+     "self_check": true
     }
    ]
   }

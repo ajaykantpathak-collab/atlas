@@ -34,6 +34,31 @@
      "q": "Create a real-world problem (Indian context) where a student must scale an image while preserving similarity, and the scale factor is NOT a whole number. Provide the problem statement, the given dimensions, what is asked, and the complete solution.",
      "a": "Example problem: \"A school's rectangular logo is 8 cm wide and 5 cm tall. For the Annual Day banner, the logo must be printed 35 cm wide. What will be its height?\" Solution: Scale factor = 35/8 = 4.375. New height = 5 × 4.375 = 21.875 cm. Or by proportion: 8/5 = 35/h → 8h = 175 → h = 21.875 cm. A poor answer uses a whole-number scale factor (e.g., \"make it 40 cm wide\") or solves additively (height = 5 + 27 = 32 cm), showing inability to construct a non-trivial scaling scenario.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When an image is scaled (______ or reduced), its width-to-height ratio (aspect ratio) remains constant if and only if the scaled image is similar to the original.",
+     "a": "enlarged",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a photograph that is 12 cm wide and 8 cm tall, and you want to print a larger ______ that is 30 cm wide for a school exhibition.",
+     "a": "version",
+     "self_check": true
+    },
+    {
+     "q": "What is When an image? State the definition given in this lesson.",
+     "a": "When an image is scaled (enlarged or reduced), its width-to-height ratio (aspect ratio) remains constant if and only if the scaled image is similar to the original.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about When an image?",
+     "a": "Students treat scaling as additive: they believe that to enlarge an image, you add the same amount to both width and height.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) compute the aspect ratio of a given image and express it in simplest form; (2) determine whether two rectangles (or images) are similar by comparing their width-to-height ratios; (3) find a missing dimension (width or height) when scaling an image while preserving similarity, using the scale factor or proportion; and.",
+     "self_check": true
     }
    ]
   }

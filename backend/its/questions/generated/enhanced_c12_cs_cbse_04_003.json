@@ -34,6 +34,26 @@
      "q": "Design a tiny database for a \"Library Book‑Loan\" system using each model. Show the structure (records/sets/tables) for: Book, Member, Loan (with due date). Highlight how Loan (many‑to‑many) is handled in each.",
      "a": "Hierarchical: Two separate trees — Book→Loan and Member→Loan (Loan duplicated). Network: Three record types (Book, Member, Loan) with two sets: Book‑Loan (owner Book, member Loan) and Member‑Loan (owner Member, member Loan). Relational: Three tables (Book, Member, Loan) with Loan having foreign keys book_id and member_id. A poor answer that draws the same structure for all three shows failure to grasp the fundamental structural differences.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A database model defines the logical structure of a database, specifying how data is organized, stored, and ______.",
+     "a": "manipulated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ for a school where each student can join multiple clubs and each club has many students.",
+     "a": "database",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) draw the schematic representation of a small real‑world scenario (e.g., school‑club membership) in each of the three models, (2) explain how each model handles one‑to‑many and many‑to‑many relationships, and (3) compare the models on flexibility, data independence, and ease of querying.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a database for a school where each student can join multiple clubs and each club has many students.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

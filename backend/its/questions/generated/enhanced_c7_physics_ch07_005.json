@@ -34,6 +34,26 @@
      "q": "Design a simple kitchen experiment using turmeric water to demonstrate that adding a cleaning powder (base) to lemon juice (acid) eventually neutralizes the acidic effect.",
      "a": "Criteria for a good answer: Add turmeric to lemon juice (remains yellow), drop-by-drop add cleaning powder solution while stirring until the yellow turns red (indicating basic), and explain that further controlled addition can return it to yellow. A poor answer lacks measurable steps or confuses indicator color changes with simple dilution.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When an acidic substance and a basic substance are mixed in the correct ______, they chemically neutralize each other's properties, producing a salt and water along with the release of heat energy.",
+     "a": "proportions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine washing your hands with soap after accidentally touching lemon juice; you notice a sudden change in how the sticky residue feels as the ______ interact on your skin.",
+     "a": "substances",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can predict and explain the observable outcomes (temperature change, indicator color transition, and the formation of a neutral product) when specific acidic and basic household solutions are mixed together.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine washing your hands with soap after ______ touching lemon juice; you notice a sudden change in how the sticky residue feels as the substances interact on your skin.",
+     "a": "accidentally",
+     "self_check": true
     }
    ]
   }

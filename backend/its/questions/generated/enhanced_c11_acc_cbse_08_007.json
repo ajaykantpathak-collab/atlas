@@ -34,6 +34,36 @@
      "q": "Create a scenario where a single item (e.g., a vehicle) could be classified as fixed asset in one business but current asset in another. Explain the determining factor.",
      "a": "Scenario: A car dealership holds a vehicle for sale (inventory → current asset). A taxi company holds the same vehicle for passenger service (fixed asset → tangible fixed). Determining factor: purpose of holding – for resale in ordinary course of business (current) vs. for use in operations (fixed). Poor answer gives only one classification or cites value/cost as factor, revealing misunderstanding that classification depends on business model, not the asset's physical nature.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In a balance sheet, assets are resources ______ by an enterprise from past events from which future economic benefits are expected to flow.",
+     "a": "controlled",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're helping your uncle prepare the balance sheet for his ______ shop.",
+     "a": "furniture",
+     "self_check": true
+    },
+    {
+     "q": "What is In a balance sheet, assets? State the definition given in this lesson.",
+     "a": "In a balance sheet, assets are resources controlled by an enterprise from past events from which future economic benefits are expected to flow.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Current assets are either cash or expected to be converted into cash or consumed within the normal operating cycle (usually ______ months), such as inventory, trade receivables, and short-term investments.",
+     "a": "12",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about In a balance sheet, assets?",
+     "a": "Students believe \"fixed assets are only tangible things like buildings and machines\" and \"current assets are only cash and stock\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly classify a mixed list of 15+ assets into fixed, current, and intangible categories with justification based on holding purpose, conversion period, and tangibility, and can marshall them in both order of permanence and order of liquidity.",
+     "self_check": true
     }
    ]
   }

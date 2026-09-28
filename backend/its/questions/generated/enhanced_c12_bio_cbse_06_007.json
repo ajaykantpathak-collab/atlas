@@ -27,12 +27,37 @@
     },
     {
      "q": "A researcher treats a eukaryotic cell-free translation system with a drug that prevents eIF2α phosphorylation. Under stress conditions (e.g., heat shock), how will global protein synthesis and stress-response protein synthesis (e.g., HSP70) be affected compared to untreated cells?",
-     "a": "Preventing eIF2α phosphorylation blocks the integrated stress response (ISR). Normally, stress → eIF2α-P → inhibits eIF2B (GEF) → reduces ternary complex (eIF2-GTP-Met-tRNA^iMet) → global translation downregulation BUT selective translation of uORF-containing mRNAs like ATF4/HSP70. With the drug: global synthesis remains HIGH (no inhibition), but stress-response proteins like HSP70 are NOT selectively upregulated. A wrong answer (e.g., \"both decrease\" or \"global increases, HSP70 increases\") reveals misunderstanding of the paradoxical uORF mechanism and the dual role of eIF2α-P in global suppression and specific activation.",
+     "a": "(1) What the drug blocks — phosphorylation of eIF2 alpha, the trigger of the integrated stress response, (2) The normal response — stress phosphorylates eIF2 alpha, slowing global translation while selectively raising stress-response proteins such as HSP70 through their upstream ORFs, (3) With the drug — global protein synthesis stays high because the inhibitory phosphorylation never happens, (4) The cost — HSP70 and the other stress proteins are not selectively upregulated, since both effects require that same phosphorylation step. A wrong answer saying both decrease, or that global synthesis and HSP70 both increase, misses the dual role of eIF2 alpha phosphorylation in global suppression and selective activation.",
      "self_check": true
     },
     {
      "q": "Design a minimal in vitro translation system using purified components to synthesize a 10-amino acid peptide from a synthetic mRNA. List the absolute minimum components required and explain why each is essential.",
      "a": "Minimum components: (1) synthetic mRNA with start codon, 10 sense codons, stop codon; (2) 30S/40S and 50S/60S ribosomal subunits (or 70S/80S ribosomes); (3) all 20 amino acids; (4) complete set of tRNAs (or at least those for the 10 codons + initiator + stop); (5) aminoacyl-tRNA synthetases (or pre-charged tRNAs); (6) initiation factors (IF1, IF2, IF3 / eIFs); (7) elongation factors (EF-Tu, EF-Ts, EF-G / eEF1A, eEF1B, eEF2); (8) release factors (RF1/2/3 / eRF1/3); (9) GTP, ATP; (10) buffer with Mg²⁺, K⁺, NH₄⁺. Each is essential: ribosomes provide peptidyl transferase and factor binding; tRNAs decode; factors drive conformational changes; energy drives directionality. A poor answer omits energy sources, release factors, or assumes ribosomes alone suffice, revealing lack of systems-level understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Translation is the biological process where the genetic information encoded in messenger RNA (mRNA) is decoded by ribosomes to synthesize a specific polypeptide chain, using transfer RNA (tRNA) molecules as adaptors that match codons on mRNA with their ______ amino acids.",
+     "a": "corresponding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you order a custom protein shake at a gym café — you read the menu (mRNA), the barista (______) assembles ingredients (amino acids) brought by specific containers (tRNA) in the exact order listed.",
+     "a": "ribosome",
+     "self_check": true
+    },
+    {
+     "q": "What is Translation? State the definition given in this lesson.",
+     "a": "Translation is the biological process where the genetic information encoded in messenger RNA (mRNA) is decoded by ribosomes to synthesize a specific polypeptide chain, using transfer RNA (tRNA) molecules as adaptors that match codons on mRNA with their corresponding amino acids.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Translation?",
+     "a": "Students believe the ribosome \"reads\" mRNA like a tape recorder moving linearly, and that tRNAs simply \"drop off\" amino acids.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the three stages of translation (initiation, elongation, termination) in correct sequence, identify the role of each component (mRNA, tRNA, ribosome subunits, initiation/elongation/release factors), and predict the effect of a specific mutation or inhibitor on protein synthesis.",
      "self_check": true
     }
    ]

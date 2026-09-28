@@ -34,6 +34,31 @@
      "q": "Create a real-world scenario (Indian context) where unequal class intervals are necessary, specify the variable, range, and proposed class intervals with widths, and explain why equal widths would fail.",
      "a": "Scenario: Land holding sizes (in hectares) of 100 farmers in a district. Range: 0.1 to 50 hectares. 80% farmers have <2 hectares. Proposed intervals: 0–0.5 (w=0.5), 0.5–1 (0.5), 1–2 (1), 2–5 (3), 5–10 (5), 10–20 (10), 20–50 (30). Equal width (e.g., 6.25) would put 80 farmers in first class (0–6.25) and leave most classes empty. A poor answer uses a symmetric variable like height or marks where equal width works, showing failure to recognise skewness as the driver for unequal intervals.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Class width (or magnitude of class interval) is the difference between the upper class limit and the lower class limit of a class interval, ______ the size of each class in a frequency distribution.",
+     "a": "representing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing the monthly electricity bills (in rupees) of 50 ______ in your neighbourhood.",
+     "a": "households",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing the monthly electricity bills (in rupees) of ______ households in your neighbourhood.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to calculate class width from given class limits, determine appropriate class width when constructing a frequency distribution from raw data using the range and desired number of classes, and explain the implications of choosing equal versus unequal class intervals for data representation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing the monthly electricity bills (in rupees) of 50 households in your ______.",
+     "a": "neighbourhood",
+     "self_check": true
     }
    ]
   }

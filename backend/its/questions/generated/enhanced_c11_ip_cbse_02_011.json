@@ -34,6 +34,31 @@
      "q": "Design a real-world scenario (Indian context) where you must use both implicit and explicit conversion in the same program. Write a 3-line code snippet that demonstrates both.",
      "a": "Scenario: Calculate GST-inclusive price. `price = float(input(\"Enter price (₹): \"))` (explicit str→float), `gst_rate = 0.18` (float literal), `total = price * (1 + gst_rate)` (implicit int→float in `1 + gst_rate`), `print(\"Total: ₹\" + str(round(total, 2)))` (explicit float→str). A poor answer uses only one conversion type or uses unrealistic values, showing inability to synthesize both concepts.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Type conversion in Python is the process of changing a value from one data type (int, float, str) to another; implicit conversion is performed ______ by Python during operations (e.g., int + float → float), while explicit conversion requires the programmer to use constructor functions like int(), float(), or str().",
+     "a": "automatically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a program to ______ the total price of 3.5 kg of apples at ₹120 per kg and want to display \"Total: ₹420.0\".",
+     "a": "calculate",
+     "self_check": true
+    },
+    {
+     "q": "What is Type conversion in Python? State the definition given in this lesson.",
+     "a": "Type conversion in Python is the process of changing a value from one data type (int, float, str) to another; implicit conversion is performed automatically by Python during operations (e.g., int + float → float), while explicit conversion requires the programmer to use constructor functions like int(), float(), or str().",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Type conversion in Python?",
+     "a": "Students believe int(3.9) rounds to 4 because they confuse truncation with rounding.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly predict the resulting data type and value after any arithmetic or concatenation operation involving mixed int, float, and str operands, and can write explicit conversion statements to achieve a desired type without runtime errors.",
+     "self_check": true
     }
    ]
   }

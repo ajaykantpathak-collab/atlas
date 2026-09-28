@@ -34,6 +34,31 @@
      "q": "Create a mini Comparative Statement of Profit and Loss for a hypothetical startup showing: Revenue growth of 50%, but all expense categories growing at 60-80%, resulting in a shift from Profit to Loss. Include 5 line items with realistic Indian Rupee amounts. Explain what this pattern indicates about the business model.",
      "a": "Example: PY Revenue ₹20L, CY ₹30L (+50%). PY Expenses: Materials ₹8L→₹13.6L (+70%), Employee ₹4L→₹7.2L (+80%), Marketing ₹3L→₹5.4L (+80%), Admin ₹2L→₹3.2L (+60%), Depreciation ₹1L→₹1.5L (+50%). PY Profit ₹2L, CY Loss ₹0.9L. Pattern indicates unsustainable customer acquisition — expenses scaling faster than revenue, typical of early-stage startups burning cash for growth. A poor answer showing all expenses growing slower than revenue misses the core concept of \"margin destruction during scaling\" — essential for modern business analysis in competitive exams.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Comparative Statement of Profit and Loss is a horizontal analysis tool that presents the Statement of Profit and Loss for two or more accounting periods side by side, showing absolute amounts, absolute changes (increase/decrease), and percentage changes for each revenue and expense item, enabling assessment of trends in ______, cost structure, and operational efficiency over time.",
+     "a": "profitability",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ two companies for investment — both show ₹50 lakh profit this year.",
+     "a": "analysing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing two companies for investment — both show ₹______ lakh profit this year.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently prepare a complete Comparative Statement of Profit and Loss from given data for two years, correctly calculating absolute and percentage changes for all line items (Revenue from Operations, Other Income, Cost of Materials Consumed, Purchases of Stock-in-Trade, Changes in Inventories, Employee.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing two companies for ______ — both show ₹50 lakh profit this year.",
+     "a": "investment",
+     "self_check": true
     }
    ]
   }

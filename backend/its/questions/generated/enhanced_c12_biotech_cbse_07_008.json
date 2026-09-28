@@ -34,6 +34,26 @@
      "q": "Design a cybrid production protocol to transfer salt-tolerance-associated mitochondrial genes from a wild halophyte (Species W) into a salt-sensitive cultivated crop (Species C). Specify: (i) protoplast source tissues, (ii) fusion method, (iii) nuclear elimination strategy, (iv) selection/screening method for cybrids, and (v) one critical validation step before field testing.",
      "a": "(i) Protoplasts: mesophyll cells from young leaves of both species (high division capacity). (ii) Fusion: 40% PEG 4000 + 0.1 M CaCl₂, 45 min at 25°C, followed by gradual dilution. (iii) Nuclear elimination: irradiate Species W protoplasts with 100–200 Gy gamma rays before fusion to fragment its nucleus; Species C protoplasts unirradiated. (iv) Screening: PCR with Species C-specific nuclear SSR markers + Species W-specific mitochondrial markers (e.g., nad9, cob). Select plants with C-nuclear + W-mitochondrial profile. (v) Critical validation: Reciprocal grafting test — graft cybrid scion onto C rootstock and vice versa; confirm salt tolerance is scion-transmissible (nuclear-independent) and not due to somaclonal mutation. A poor answer omits irradiation-based nuclear elimination or uses only phenotypic screening without molecular confirmation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cybrids (cytoplasmic hybrids) are plants produced by protoplast fusion where the nuclear genome originates from one parent while the ______ and/or chloroplast genome originates from the other parent, achieved through selective elimination or inactivation of one parental nucleus during somatic hybridization.",
+     "a": "mitochondrial",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a plant breeder trying to develop a hybrid wheat variety with male sterility for easy cross-pollination — but the male sterility gene resides in ______, which are maternally inherited in sexual crosses.",
+     "a": "mitochondria",
+     "self_check": true
+    },
+    {
+     "q": "What is Cybrids (cytoplasmic hybrids)? State the definition given in this lesson.",
+     "a": "Cybrids (cytoplasmic hybrids) are plants produced by protoplast fusion where the nuclear genome originates from one parent while the mitochondrial and/or chloroplast genome originates from the other parent, achieved through selective elimination or inactivation of one parental nucleus during somatic hybridization.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the step-by-step production of cybrids via protoplast fusion and nuclear elimination, distinguish cybrids from somatic hybrids in terms of genomic composition, and describe two specific breeding applications (e.g., cytoplasmic male sterility transfer, photosynthesis trait modification) with mechanistic reasoning.",
+     "self_check": true
     }
    ]
   }

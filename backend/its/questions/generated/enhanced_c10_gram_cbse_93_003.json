@@ -1,0 +1,46 @@
+{
+ "catalog": "enhanced_c10_gram_cbse_93_003",
+ "concepts": [
+  {
+   "id": "enh:c10_gram_cbse_93_003",
+   "title": "c10_gram_cbse_93_003",
+   "questions": [
+    {
+     "q": "Report: 'Do not pluck the flowers,' the gardener said to the children.",
+     "a": "'The gardener ordered/warned the children not to pluck the flowers.' A wrong answer 'the gardener said that do not pluck' reveals the student has no imperative frame at all — they're gluing 'that' onto an infinitive, which English forbids.",
+     "self_check": true
+    },
+    {
+     "q": "Report: 'Please help me carry this,' she said to me.",
+     "a": "'She requested me to help her carry that.' 'please' → 'requested'; me→her; this→that. A wrong answer 'she asked me to please help' keeps 'please' in reported speech — pleading is a live-performance feature, it cannot survive reporting.",
+     "self_check": true
+    },
+    {
+     "q": "Report: 'Never swim alone,' the coach said to the boys.",
+     "a": "'The coach warned/advised the boys never to swim alone' (or 'not to swim alone'). A wrong answer omitting the object ('the coach warned never to swim') reveals the student doesn't know imperative reporting requires a commanded party — English demands the object slot be filled.",
+     "self_check": true
+    },
+    {
+     "q": "Commands and requests report with 'told/ordered/requested/asked + object + ______': 'Sit down' → 'He told me to sit down.' Negatives insert 'not' before 'to': 'Don't touch' → 'He ordered me not to touch.' Polite additions (please) are captured by 'requested' and can be dropped.",
+     "a": "to-infinitive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Commands and requests report with 'told/ordered/requested/asked + object + to-______': 'Sit down' → 'He told me to sit down.' Negatives insert 'not' before 'to': 'Don't touch' → 'He ordered me not to touch.' Polite additions (please) are captured by 'requested' and can be dropped.",
+     "a": "infinitive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The frame is fixed: [______ verb] + [object] + [to + base verb].",
+     "a": "reporting",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student reports commands, requests, advice, and warnings using the told/ordered/requested/advised/warned + object + (not) to-infinitive frame, choosing the reporting verb that matches the original's force.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,26 @@
      "q": "Design a food chain involving a common Indian bird (like a sparrow) and explain the role of each organism.",
      "a": "A correct response would be: Grain (Producer) -> Sparrow (Primary Consumer) -> Hawk (Secondary Consumer). A poor response lacks the correct order or confuses the roles (e.g., placing the hawk as the producer).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A food chain is a linear sequence showing how energy flows from one organism to another, starting from plants that capture sunlight and passing through ______ that eat them.",
+     "a": "consumers",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever wondered why you feel energized after ______ a lunch of rice and dal?",
+     "a": "eating",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to construct a 3-link food chain and correctly identify the producer, primary consumer, and secondary consumer.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever wondered why you feel ______ after eating a lunch of rice and dal?",
+     "a": "energized",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "A circular field has a radius of 10 m. A farmer wants to fence a circular strip of width 2 m around the outer edge. Calculate the area of the strip. (Use pi = 3.14.)",
      "a": "Outer radius = 10 + 2 = 12 m. Inner radius = 10 m. Area of strip = Area of outer circle - Area of inner circle = pi*(12)^2 - pi*(10)^2 = pi*(144 - 100) = pi*44 = 3.14 * 44 = 138.16 m^2. A wrong answer (e.g., pi*(2)^2 = 12.56) treats the strip as a circle of radius 2, ignoring that it is an annular ring.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The area of a circle is the two-dimensional space enclosed by the circumference, given by the formula A = pi * r^2, where r is the radius and pi is the constant ______ 3.14159, derived by dividing the circle into infinitesimal sectors and rearranging them into a rectangle of length pi*r (half circumference) and width r, giving area = pi*r * r = pi*r^2.",
+     "a": "approximately",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Each slice is a sector — a ______-like shape with a curved base.",
+     "a": "triangle",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The length of this rectangle is half the circumference (pi*r, since circumference = ______*pi*r and half is pi*r), and the width is the radius (r).",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can state the formula A = pi * r^2, derive it by the sector-rearrangement method, calculate the area given the radius or diameter, and solve word problems involving circular areas (pizzas, circular gardens, wheels).",
+     "self_check": true
     }
    ]
   }

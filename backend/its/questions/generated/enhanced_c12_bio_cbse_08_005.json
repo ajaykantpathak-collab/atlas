@@ -34,6 +34,31 @@
      "q": "Design a simple community-level study to estimate the herd immunity threshold for a new vaccine in a rural Indian block, using only vaccination records and reported case data over 12 months. Outline the key variables, data sources, and analytical steps.",
      "a": "Key variables: vaccination coverage (%), monthly incidence rate, Rₑ estimate. Data sources: CoWIN/UIDAI vaccination registers, PHC/CHC case reports (IDSP). Steps: (1) Calculate monthly coverage from denominator (census) and numerator (doses administered); (2) Plot incidence vs. coverage over time; (3) Identify coverage level where incidence drops sustainably near zero; (4) Estimate Rₑ = 1/(1 - coverage) at that point; (5) Compare with theoretical 1 - 1/R₀. Good answer includes confounding factors (migration, serosurveys). Poor answer ignores time lag, uses crude coverage without age-stratification, or confuses correlation with causation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Vaccination is the deliberate ______ of antigenic material (a vaccine) to stimulate an individual's adaptive immune system to develop active acquired immunity against a specific pathogen, without causing the disease.",
+     "a": "administration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a newborn baby receiving BCG and ______ B vaccines at a government hospital — this is your entry point.",
+     "a": "hepatitis",
+     "self_check": true
+    },
+    {
+     "q": "What is Vaccination? State the definition given in this lesson.",
+     "a": "Vaccination is the deliberate administration of antigenic material (a vaccine) to stimulate an individual's adaptive immune system to develop active acquired immunity against a specific pathogen, without causing the disease.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Vaccination?",
+     "a": "Students believe \"vaccines contain the disease-causing germ in weak form\" for ALL vaccines.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the immunological mechanism of how vaccines generate memory cells, classify at least five vaccine types with Indian examples from the Universal Immunization Programme, and distinguish between individual protection and herd immunity with quantitative thresholds.",
+     "self_check": true
     }
    ]
   }

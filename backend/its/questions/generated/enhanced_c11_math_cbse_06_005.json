@@ -34,6 +34,21 @@
      "q": "Create a real-world scenario (Indian context) that leads to a system of three linear inequalities in one variable with a non-empty bounded solution set. Write the system and its solution.",
      "a": "Example scenario: A small bakery in Mumbai makes cupcakes. Each cupcake costs ₹25 to make and sells for ₹50. Daily rent is ₹2000. The owner wants: (1) profit at least ₹1000, (2) production capacity max 200 cupcakes, (3) at least 50 cupcakes to justify opening. Let x = number of cupcakes.\nSystem: 25x - 2000 ≥ 1000 (profit), x ≤ 200 (capacity), x ≥ 50 (minimum).\nSolving: 25x ≥ 3000 → x ≥ 120. Combined: x ≥ 120 AND x ≤ 200 AND x ≥ 50 → [120, 200].\nA poor answer with trivial inequalities (e.g., x > 0, x < 100, x > 50) reveals the student cannot translate realistic constraints into proper algebraic form or misses that profit requires revenue minus cost.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A system of linear inequalities in one variable consists of two or more linear inequalities involving the same variable, where the solution set is the intersection of the individual solution sets, representing all real numbers that satisfy every inequality in the system ______.",
+     "a": "simultaneously",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a school trip to Jaipur from Delhi.",
+     "a": "planning",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can solve a system of 3-4 linear inequalities in one variable algebraically, represent the solution set correctly using interval notation and number line graphs with proper bracket notation, and interpret the solution in the context of real-world constraints such as budget limits, measurement ranges, or production capacities.",
+     "self_check": true
     }
    ]
   }

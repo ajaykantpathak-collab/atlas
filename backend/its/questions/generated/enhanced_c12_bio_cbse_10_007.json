@@ -34,6 +34,31 @@
      "q": "Design a simple low-cost experiment for a Class 12 student to demonstrate that *Rhizobium* inoculation increases nitrogen content in legume plants compared to uninoculated controls, using only school lab equipment (no spectrophotometer, no Kjeldahl). Specify measurable parameters, controls, and duration.",
      "a": "Grow soybean in sterilized sand culture (N-free nutrient solution) in pots: (1) Inoculated with *Rhizobium*, (2) Uninoculated control, (3) Uninoculated + 5 mM KNO₃ (positive control for nitrogen sufficiency). Measure after 4 weeks: nodule number/weight, shoot dry weight, total chlorophyll (SPAD meter or acetone extraction + color chart), and leaf protein via Bradford assay (coomassie dye, readable at 595 nm with simple colorimeter). Expect inoculated ≈ KNO₃ > uninoculated. A poor design uses garden soil (uncontrolled native rhizobia) or measures only plant height (confounded by other factors).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ are microorganisms (bacteria, cyanobacteria, fungi) that enhance soil fertility by fixing atmospheric nitrogen into ammonia, solubilizing phosphorus, or decomposing organic matter to release nutrients.",
+     "a": "Biofertilizers",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a paddy field in Punjab or a soybean farm in Madhya Pradesh — farmers apply white granules (urea) but also use packets of black powder labeled \"______ culture\" or blue-green algal flakes.",
+     "a": "Rhizobium",
+     "self_check": true
+    },
+    {
+     "q": "What is Biofertilizers? State the definition given in this lesson.",
+     "a": "Biofertilizers are microorganisms (bacteria, cyanobacteria, fungi) that enhance soil fertility by fixing atmospheric nitrogen into ammonia, solubilizing phosphorus, or decomposing organic matter to release nutrients.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Biofertilizers?",
+     "a": "Students think \"nitrogen fixation = conversion of N₂ to nitrate (NO₃⁻)\" and write the overall reaction as N₂ → NO₃⁻.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Classify biofertilizers into nitrogen-fixing bacteria (symbiotic vs free-living), cyanobacteria, and phosphate-solubilizing microbes with at least two examples each; (2) Explain the stepwise mechanism of symbiotic nitrogen fixation in legume root nodules including nodule formation, leghemoglobin role, and nitrogenase.",
+     "self_check": true
     }
    ]
   }

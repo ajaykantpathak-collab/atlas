@@ -34,6 +34,26 @@
      "q": "A student says: \"The horse pulls the cart forward, and the cart pulls the horse backward with equal force, so the cart should not move.\" Evaluate this statement and explain why the cart does move.",
      "a": "The statement correctly identifies the action-reaction pair (horse pulls cart forward, cart pulls horse backward) but incorrectly concludes the cart should not move. The forces are equal and opposite, but they act on different bodies: the forward force acts on the cart, the backward force acts on the horse. The cart moves forward because the forward force (from the horse) acts on it. The horse moves forward because the ground pushes the horse forward (the horse pushes the ground backward, ground pushes horse forward). The cart-horse system moves forward because the ground's force on the horse exceeds the friction on the cart. The key: action-reaction forces on different bodies do not cancel — each body responds to the forces acting on it.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Newton's Third Law of Motion states that for every action (force) there is an equal and opposite ______ (force) — meaning forces always occur in pairs: if body A exerts a force on body B, then body B exerts an equal and opposite force on body A.",
+     "a": "reaction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you walk, you push the ground ______ with your foot.",
+     "a": "backward",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Examples: (______) A rocket pushes exhaust gas downward; the gas pushes the rocket upward.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can state Newton's Third Law, identify action-reaction pairs in a given scenario, explain why action and reaction forces do not cancel (they act on different bodies), and give three real-life examples of action-reaction pairs.",
+     "self_check": true
     }
    ]
   }

@@ -173,7 +173,7 @@
     "what do you understand by interpreting percentages",
     "list the main points about interpreting percentages"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -190,7 +190,16 @@
      "action": "verify interpretation",
      "explain": "Confirm the percentage correctly represents the given context"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "convert the percentage to a fraction and multiply",
+     "explain": "convert the percentage to a fraction and multiply: val = 5 / 100 * 40 gives 2",
+     "compute": "val = 5 / 100 * 40"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m7.2.2",

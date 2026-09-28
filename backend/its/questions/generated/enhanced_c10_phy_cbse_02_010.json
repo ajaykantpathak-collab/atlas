@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a coil, a strong magnet, and a galvanometer to demonstrate that the induced emf is maximum when the coil's plane is parallel to the magnetic field and zero when perpendicular. Describe the procedure and expected observations.",
      "a": "Procedure: Connect a multi-turn coil to a sensitive galvanometer. Place a strong bar magnet near the coil. Rotate the coil manually about its vertical axis and observe the galvanometer deflection. When the coil's plane is parallel to the magnetic field (flux = 0, rate of change of flux maximum), the galvanometer shows maximum deflection. When the coil's plane is perpendicular to the field (flux maximum, rate of change zero), the deflection is zero. A poor answer (e.g., saying maximum deflection occurs at perpendicular orientation) indicates misunderstanding of the relationship between flux and rate of change of flux (ε ∝ -dΦ/dt, not Φ).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An electric generator is a device that converts mechanical energy into electrical energy by rotating a coil in a uniform magnetic field, inducing an alternating emf (AC generator) or a unidirectional emf (DC generator) based on ______ induction.",
+     "a": "electromagnetic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a hand-cranked flashlight or a bicycle dynamo — when you rotate the handle/pedal, the bulb lights up without any battery.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the working principle of AC and DC generators using Fleming's right-hand rule, draw labelled diagrams showing slip rings vs split-ring commutator, and predict the output waveform for each type.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a hand-cranked ______ or a bicycle dynamo — when you rotate the handle/pedal, the bulb lights up without any battery.",
+     "a": "flashlight",
+     "self_check": true
     }
    ]
   }

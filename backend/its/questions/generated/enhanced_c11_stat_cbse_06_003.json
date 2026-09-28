@@ -34,6 +34,31 @@
      "q": "Create a small dataset (5-7 values) where Range = 20 but Coefficient of Range = 0.5. Show your work and explain what this coefficient value tells you about the data's spread relative to its magnitude.",
      "a": "We need (L−S)=20 and (L−S)/(L+S)=0.5 → 20/(L+S)=0.5 → L+S=40. Solving L−S=20 and L+S=40 gives L=30, S=10. Dataset example: 10, 15, 20, 25, 30. Coefficient=0.5 means the spread is half the sum of extremes, indicating moderate relative variability. A poor answer (e.g., random numbers not satisfying equations) reveals the student cannot work backwards from measures to data, indicating a lack of conceptual flexibility needed for higher-order problems.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Range is the simplest absolute measure of ______ defined as the difference between the largest (maximum) and smallest (minimum) values in a dataset: Range = L − S, where L = maximum value and S = minimum value.",
+     "a": "dispersion",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ the daily wages of workers in two factories: Factory A pays between ₹300 and ₹500, while Factory B pays between ₹100 and ₹900.",
+     "a": "comparing",
+     "self_check": true
+    },
+    {
+     "q": "What is Range? State the definition given in this lesson.",
+     "a": "Range is the simplest absolute measure of dispersion defined as the difference between the largest (maximum) and smallest (minimum) values in a dataset: Range = L − S, where L = maximum value and S = minimum value.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Range?",
+     "a": "Students often confuse Range with \"number of classes\" or \"class width\" in grouped data.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to compute Range and Coefficient of Range for individual, discrete, and continuous series without errors, correctly identify L and S from raw data or frequency distributions (using class boundaries for continuous series), and interpret the coefficient as a pure number between 0 and 1 indicating relative spread.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Design a simple bedside clinical test protocol to differentiate between osteoarthritis and rheumatoid arthritis of the knee in a 55-year-old patient, using only history, physical examination, and basic lab markers (ESR, CRP, RF, anti-CCP). Justify each step biologically.",
      "a": "Step 1: History - morning stiffness duration: >1 hour suggests RA (inflammatory synovitis), <30 minutes suggests OA (mechanical gel phenomenon). Step 2: Joint examination - RA: warm, boggy swelling (synovial effusion + hypertrophy), symmetric; OA: bony hard swelling (osteophytes), cool, asymmetric. Step 3: Lab - ESR/CRP elevated in RA (systemic inflammation), normal in OA; RF/anti-CCP positive in ~70-80% RA, negative in OA. Step 4: Pattern - RA affects MCP/PIP joints; OA affects DIP (Heberden's), PIP (Bouchard's), knee, hip. Biological justification: each step tests a different pathophysiological pillar - inflammatory vs degenerative, synovial vs cartilage/bone, systemic vs local, immune-mediated vs mechanical. A poor protocol relying only on \"pain severity\" or \"age\" fails to exploit the distinct biological mechanisms.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Myasthenia gravis is an autoimmune disorder where antibodies block acetylcholine receptors at the neuromuscular junction, impairing signal transmission and causing progressive skeletal muscle weakness and fatigue; arthritis is inflammation of one or more joints characterized by pain, swelling, stiffness, and reduced mobility, with ______ (degenerative) and rheumatoid arthritis (autoimmune) as major types; osteoporosis is a systemic skeletal disorder marked by low bone mass and microarchitectural deterioration of bone tissue, leading to enhanced bone fragility and fracture risk, commonly associated with postmenopausal estrogen deficiency.",
+     "a": "osteoarthritis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your grandmother complaining of knee pain that worsens after climbing stairs, your neighbor experiencing drooping eyelids and difficulty chewing by evening, and a ______ aunt who fractured her wrist from a minor fall.",
+     "a": "postmenopausal",
+     "self_check": true
+    },
+    {
+     "q": "What is Myasthenia gravis? State the definition given in this lesson.",
+     "a": "Myasthenia gravis is an autoimmune disorder where antibodies block acetylcholine receptors at the neuromuscular junction, impairing signal transmission and causing progressive skeletal muscle weakness and fatigue; arthritis is inflammation of one or more joints characterized by pain, swelling, stiffness, and reduced mobility, with.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Myasthenia gravis?",
+     "a": "Students often believe osteoporosis is simply \"calcium deficiency\" and that calcium supplements alone can reverse it.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can differentiate the three disorders by etiology (autoimmune vs inflammatory vs metabolic), identify the specific anatomical structure affected (neuromuscular junction vs synovial joint vs bone matrix), explain the pathophysiological mechanism for each, and predict clinical manifestations and diagnostic approaches based on the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Myasthenia gravis is an autoimmune disorder where antibodies block acetylcholine receptors at the neuromuscular junction, impairing signal transmission and causing progressive skeletal muscle weakness and fatigue; arthritis is inflammation of one or more joints characterized by pain, swelling, stiffness, and reduced mobility, with osteoarthritis (degenerative) and rheumatoid arthritis (autoimmune) as major types; osteoporosis is a systemic skeletal disorder marked by low bone mass and ______ deterioration of bone tissue, leading to enhanced bone fragility and fracture risk, commonly associated with postmenopausal estrogen deficiency.",
+     "a": "microarchitectural",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Create a retirement scenario with three continuing partners where: (a) the total capital after retirement adjustments is ₹6,00,000, (b) the new profit-sharing ratio is 4:3:3, (c) one partner's adjusted capital is exactly equal to their new proportionate capital, (d) the other two partners have opposite imbalances (one surplus, one deficit) of equal amount. Provide the adjusted capitals, new capitals, and cash movements.",
      "a": "Let partners be X, Y, Z with new ratio 4:3:3. Total capital = ₹6,00,000.  \nNew capitals: X = ₹6,00,000 × 4/10 = ₹2,40,000; Y = ₹1,80,000; Z = ₹1,80,000.  \nCondition (c): Let Y's adjusted capital = ₹1,80,000 (exact match).  \nCondition (d): X and Z have opposite imbalances of equal amount. Let X's adjusted capital = ₹2,60,000 (surplus ₹20,000), Z's adjusted capital = ₹1,60,000 (deficit ₹20,000).  \nCash movements: X withdraws ₹20,000; Z brings in ₹20,000; Y no change.  \nAdjusted capitals: X ₹2,60,000, Y ₹1,80,000, Z ₹1,60,000.  \nA poor answer would fail to ensure the sum of adjusted capitals equals total capital (₹6,00,000) or would not make the imbalances equal and opposite.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Adjustment of Capitals of Continuing Partners after Retirement is the process of realigning the capital balances of the remaining partners to match their new profit-sharing ratio, typically by bringing in or withdrawing cash (or adjusting through current accounts) so that their capitals become ______ to the total capital of the reconstituted firm.",
+     "a": "proportionate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a firm with three ______ — A, B, and C — sharing profits 3:2:1.",
+     "a": "partners",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) compute the total adjusted capital of the firm after all retirement adjustments (goodwill, revaluation, reserves), (2) determine the new capital for each continuing partner based on the new profit-sharing ratio, (3) calculate the surplus or deficit for each partner by comparing new capital with adjusted.",
+     "self_check": true
     }
    ]
   }

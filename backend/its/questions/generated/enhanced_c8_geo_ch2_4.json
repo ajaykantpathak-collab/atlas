@@ -34,6 +34,26 @@
      "q": "Design a simplified 4-color legend for a newly discovered island that has a coastal beach area (0–100 m), a central agricultural plateau (100–500 m), an extinct rocky volcanic ridge (500–2,500 m), and a surrounding shallow ocean bay (0–50 m depth). Specify the color choice and elevation range for each feature following standard physical map rules.",
      "a": "A correct design must follow standard cartographic color standards:\n1. **Shallow Ocean Bay (0–50 m depth)**: Light Blue\n2. **Coastal Beach Area (0–100 m altitude)**: Green\n3. **Central Agricultural Plateau (100–500 m altitude)**: Yellow / Light Brown\n4. **Extinct Volcanic Ridge (500–2,500 m altitude)**: Dark Brown\nA poor answer that uses arbitrary colors (e.g., red for plains, yellow for oceans) shows a failure to adopt universal geographical mapping conventions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A physical map uses a standardized ______ color convention to represent the relief (elevation above sea level) and depth (bathymetric depth below sea level) of Earth's natural surface features: blue for water bodies, green for low-altitude plains, yellow/brown for plateaus and mountains, and white for snow-covered peaks and glaciers.",
+     "a": "international",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When looking at a ______ map of India, you immediately notice broad green areas along the northern river belts and deep brown shades along the northern border.",
+     "a": "physical",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can correctly interpret physical map color conventions (blue, green, yellow, brown, white) to identify terrain types, rank locations by relative elevation or depth, and distinguish physical relief from land cover or climate zones.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When looking at a physical map of India, you ______ notice broad green areas along the northern river belts and deep brown shades along the northern border.",
+     "a": "immediately",
+     "self_check": true
     }
    ]
   }

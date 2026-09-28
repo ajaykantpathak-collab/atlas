@@ -34,6 +34,26 @@
      "q": "Design a slicing expression that, for any string `pwd`, returns the last three characters followed by the first three characters (e.g., `\"PASSWORD\"` → `\"ORDPAS\"`). Explain your reasoning.",
      "a": "`pwd[-3:] + pwd[:3]`. `pwd[-3:]` takes from third-last to end (default stop = length). `pwd[:3]` takes from start to index 2. Concatenation joins them. A poor answer like `pwd[-3:3]` returns empty because start > stop with positive step; or `pwd[3:-3]` returns middle portion. This tests synthesis of two slices and concatenation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: String slicing in Python uses the syntax str[start:stop:step] to extract a ______ from index start up to but not including stop, moving by step.",
+     "a": "substring",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a PAN card number \"ABCDE1234F\" and need to extract just the year of birth encoded as the 4 digits in the middle (______ 5 to 8).",
+     "a": "positions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then explore what happens if you omit start or stop, or use a step of -______ to reverse the string.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write correct slicing expressions to extract any substring (including reversed substrings) from a given string using both positive and negative indices, and can predict the exact output of nested slicing operations.",
+     "self_check": true
     }
    ]
   }

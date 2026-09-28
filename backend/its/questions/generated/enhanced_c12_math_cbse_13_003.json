@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (Indian context) involving three sequential dependent events where the multiplication theorem must be applied. Write the problem statement and the complete solution.",
      "a": "Problem: A Delhi Metro train has 8 coaches. In coach 1, there are 40 passengers (25 men, 15 women). In coach 2, 35 passengers (20 men, 15 women). In coach 3, 30 passengers (10 men, 20 women). A ticket checker randomly selects one passenger from coach 1, then one from coach 2, then one from coach 3. Find the probability that all three are women.\nSolution: P(W₁) = 15/40 = 3/8. P(W₂) = 15/35 = 3/7 (independent coach, so no conditioning needed across coaches). P(W₃) = 20/30 = 2/3. Since selections are from different coaches, events are independent: (3/8) × (3/7) × (2/3) = 18/168 = 3/28. A good answer recognises that \"without replacement\" only applies within the same coach; across coaches the events are independent. A poor answer would incorrectly condition across coaches or treat all as one big sample space.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ Theorem on Probability states that for any two events E and F associated with a sample space S, the probability of their simultaneous occurrence is given by P(E ∩ F) = P(E) × P(F|E) provided P(E) ≠ 0, or equivalently P(E ∩ F) = P(F) × P(E|F) provided P(F) ≠ 0.",
+     "a": "Multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're drawing two cards from a standard 52-card deck without ______, and you want the probability that both are aces.",
+     "a": "replacement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're drawing two cards from a standard ______-card deck without replacement, and you want the probability that both are aces.",
+     "a": "52",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute probabilities of sequential dependent events (without replacement scenarios) by correctly identifying the changing sample space at each step, can extend the multiplication rule to 3+ events, and can distinguish when to use conditional probability versus simple multiplication for independent events.",
+     "self_check": true
     }
    ]
   }

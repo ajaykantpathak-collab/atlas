@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using household items to demonstrate the principle behind an improved cookstove (e.g., rocket stove) that achieves higher combustion efficiency than a traditional three-stone fire. List materials, procedure, measurable observations, and the physics principle being demonstrated.",
      "a": "**Materials:** Two identical small metal cans (e.g., tomato puree cans), one with holes drilled at bottom and side (rocket stove model), one open-top (three-stone model), dry twigs, matchbox, 100 mL water in identical small beakers, thermometer, stopwatch, weighing scale.  \n**Procedure:** Weigh equal mass (e.g., 20 g) of dry twigs for each stove. Place beaker with 100 mL water (measure initial temp) on each stove. Light twigs simultaneously. Record time to raise water temperature by 20°C. Weigh remaining unburnt twigs.  \n**Observations:** Rocket stove boils water faster (shorter time) and leaves less unburnt residue.  \n**Principle:** Insulated combustion chamber (can walls) + forced air draft (holes) → higher combustion temperature → more complete combustion (less CO, soot) + better heat transfer to pot (less heat loss to surroundings) → higher useful heat per kg fuel.  \nA poor answer describes a \"better stove\" without linking to *complete combustion*, *air supply control*, or *heat retention* — missing the physics of efficiency (η = useful heat absorbed by water / chemical energy of fuel burnt).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ in technology for using conventional energy refer to advancements in combustion processes, pollution control systems, and energy conversion efficiency that increase the useful energy output per unit of fossil fuel consumed while reducing harmful emissions.",
+     "a": "Improvements",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a traditional *chulha* (mud stove) in a village kitchen producing thick smoke versus a modern LPG stove with a blue flame — the LPG stove represents improved technology for using ______ fuel (LPG is derived from petroleum).",
+     "a": "conventional",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain at least three distinct technological improvements (e.g., supercritical boilers, electrostatic precipitators, improved cookstoves) with their specific impact on efficiency percentage and emission reduction, and can calculate the change in fuel consumption for a given power output when efficiency improves from a.",
+     "self_check": true
     }
    ]
   }

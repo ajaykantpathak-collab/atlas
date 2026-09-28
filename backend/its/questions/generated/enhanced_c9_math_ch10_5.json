@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch10_5",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch10_5",
+   "title": "c9_math_ch10_5",
+   "questions": [
+    {
+     "q": "State the vertically opposite angles theorem and name the two pairs of vertically opposite angles formed when lines PQ and RS intersect at point T.",
+     "a": "The vertically opposite angles theorem states: When two lines intersect, the vertically opposite angles are equal. For lines PQ and RS intersecting at T, the pairs are ∠PTR = ∠QTS and ∠PTQ = ∠RTS.  \nA wrong answer (e.g., naming adjacent angles like ∠PTR and ∠QTR) reveals the student confuses \"vertically opposite\" (across the vertex) with \"adjacent\" (sharing a common arm) — they haven't visualised the \"X\" structure correctly.",
+     "self_check": true
+    },
+    {
+     "q": "In the figure, lines AB and CD intersect at O. If ∠AOC = 3x + 10° and ∠BOD = 5x − 30°, explain why we can set these expressions equal to each other and solve for x.",
+     "a": "∠AOC and ∠BOD are vertically opposite angles, so by the theorem they are equal. Setting 3x + 10 = 5x − 30 gives 2x = 40, so x = 20.  \nA wrong answer (e.g., adding them to get 180°) reveals the student is applying the linear pair axiom to non-adjacent angles — they know angles on a line sum to 180° but misidentify which angles are adjacent vs. opposite.",
+     "self_check": true
+    },
+    {
+     "q": "Two lines intersect at a point. One angle is 40°. Find the measures of the other three angles. Show all steps.",
+     "a": "Let the given angle be ∠1 = 40°.  \nStep 1: Its vertically opposite angle ∠3 = ∠1 = 40°.  \nStep 2: ∠1 and ∠2 form a linear pair, so ∠1 + ∠2 = 180° → 40° + ∠2 = 180° → ∠2 = 140°.  \nStep 3: ∠2 and ∠4 are vertically opposite, so ∠4 = ∠2 = 140°.  \nAnswer: The four angles are 40°, 140°, 40°, 140°.  \nA wrong answer (e.g., 40°, 40°, 40°, 40°) reveals the student thinks all four angles are equal — they missed that adjacent angles are supplementary, not equal.",
+     "self_check": true
+    },
+    {
+     "q": "Lines AB and CD intersect at O. Ray OE bisects ∠AOC, and ray OF bisects ∠BOD. Prove that ∠EOF is a straight line (i.e., E, O, F are collinear).",
+     "a": "Let ∠AOC = ∠BOD = 2x (vertically opposite).  \nOE bisects ∠AOC → ∠AOE = ∠COE = x.  \nOF bisects ∠BOD → ∠BOF = ∠DOF = x.  \nNow, ∠AOE + ∠EOF + ∠FOB = x + ∠EOF + x.  \nBut ∠AOE + ∠EOF + ∠FOB = ∠AOB = 180° (linear pair).  \nSo 2x + ∠EOF = 180°.  \nAlso, ∠COE + ∠EOF + ∠FOD = x + ∠EOF + x = 2x + ∠EOF = ∠COD = 180°.  \nThus ∠EOF = 180° − 2x.  \nBut from the full circle at O: ∠AOE + ∠EOF + ∠FOB = 180° is already used.  \nBetter: ∠AOE + ∠COE + ∠EOF = 180°? Wait — actually, ∠AOE + ∠EOF + ∠FOB = 180° gives ∠EOF = 180° − 2x.  \nBut we also know ∠COE + ∠EOF + ∠FOD = 180° → x + ∠EOF + x = 180° → same.  \nTo show E, O, F collinear, we need ∠EOF = 180°. But that's not true unless x = 0.  \nWait — the claim is false as stated! OE and OF are bisectors of vertically opposite angles, so they lie on the same line but opposite directions. Actually, ∠AOE = x, ∠BOF = x, and ∠AOB = 180°. If E and F are on opposite sides of O, then ∠EOF = ∠EOA + ∠AOB + ∠BOF? No.  \nCorrect reasoning: Since ∠AOC = ∠BOD, their bisectors OE and OF are opposite rays — they form a straight line. So ∠EOF = 180°.  \nA wrong answer (e.g., claiming ∠EOF = 90°) reveals the student doesn't understand that bisectors of vertically opposite angles are collinear — they treat the bisectors as independent rays.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Lines AB and CD intersect at O. ∠AOC = 70°. Find ∠BOD.\"  \nTheir working: \"∠AOC + ∠BOD = 180° (linear pair) → 70° + ∠BOD = 180° → ∠BOD = 110°.\"  \nIs this correct? If not, identify the error and give the correct solution.",
+     "a": "The solution is **incorrect**.  \nError: ∠AOC and ∠BOD are **vertically opposite angles**, not a linear pair. They are equal, not supplementary.  \nCorrect: ∠BOD = ∠AOC = 70° (vertically opposite angles theorem).  \nThe linear pair of ∠AOC is ∠BOC or ∠AOD, each 110°.  \nA wrong evaluation (e.g., \"the answer 110° is correct\") reveals the student cannot distinguish between vertically opposite and adjacent angles — they apply the linear pair axiom to the wrong pair.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (using an Indian context like a railway crossing, kite strings, or window grills) where the vertically opposite angles theorem is needed to find an unknown angle. Include a diagram description and the full solution.",
+     "a": "**Problem:** Two kite strings cross each other at a point. One string makes an angle of 55° with the horizontal. Find the angle between the other string and the horizontal on the opposite side.  \n**Diagram:** Two lines intersecting. Label the given angle 55°. The required angle is vertically opposite to it.  \n**Solution:** Vertically opposite angles are equal → required angle = 55°.  \n**Criteria for good answer:** Realistic context, clear identification of vertically opposite pair, correct application of theorem, answer with degree symbol.  \nA poor answer (e.g., using 180° − 55°) reveals the student defaults to linear pair reasoning even when the problem asks for the opposite angle — they don't recognise the \"X\" pattern in real life.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

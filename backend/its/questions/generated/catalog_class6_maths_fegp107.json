@@ -4,15 +4,8 @@
   {
    "id": "fegp.7.1",
    "title": "Fractions: Sharing Equally",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "combine the fractions with the fraction operation rules",
-     "explain": "combine the fractions with the fraction operation rules: prod = 8 * 3 / 9 gives 2.66667",
-     "compute": "prod = 8 * 3 / 9"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 8 x 3/9.",
@@ -50,6 +43,8 @@
    "id": "fegp.7.2",
    "title": "Equivalent Fractions",
    "converted_to_compute": false,
+   "formula": "new_num = num * k; new_den = den * k",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 7 x 2/4.",
@@ -87,6 +82,8 @@
    "id": "fegp.7.3",
    "title": "Adding Fractions with the Same Denominator",
    "converted_to_compute": false,
+   "formula": "sum_num = a_num + b_num",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 4 x 5/5.",
@@ -123,15 +120,8 @@
   {
    "id": "fegp.7.4",
    "title": "Mixed Numbers and Improper Fractions",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "combine the fractions with the fraction operation rules",
-     "explain": "combine the fractions with the fraction operation rules: prod = 10 * 5 / 3 gives 16.6667",
-     "compute": "prod = 10 * 5 / 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 10 x 5/3.",

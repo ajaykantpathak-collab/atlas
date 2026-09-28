@@ -132,10 +132,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lhs = 3 ** 3 + 4 ** 3",
-    "diff = 5 ** 3 - lhs"
-   ]
+   "steps_chain": []
   },
   {
    "id": "gegp.3.2.1",
@@ -309,10 +306,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lhs = 3 ** 3 + 4 ** 3",
-    "diff = 5 ** 3 - lhs"
-   ]
+   "steps_chain": []
   }
  ]
 }

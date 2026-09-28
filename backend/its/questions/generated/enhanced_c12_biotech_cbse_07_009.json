@@ -34,6 +34,31 @@
      "q": "Design a **two-stage bioreactor strategy** for *Artemisia annua* hairy-root cultures to maximize artemisinin yield. Specify: (i) Stage 1 conditions (medium, duration, goal), (ii) Stage 2 trigger (elicitor type, concentration, timing), (iii) one downstream processing step unique to hairy roots vs. suspension cells. Justify each choice in one sentence.",
      "a": "**Expected answer (criteria for full marks):**  \n- **Stage 1:** Hormone-free B5 or MS medium, 2–3 weeks, **biomass accumulation** (no elicitor — jasmonates inhibit growth).  \n- **Stage 2:** Add **methyl jasmonate (100 μM)** at day 14–18 (onset of stationary phase) for 48–72 h → activates *ADS*, *CYP71AV1* genes via JAZ-MYC cascade.  \n- **Downstream:** **In situ product removal (ISPR)** using adsorbent resin (XAD-16) in the bioreactor loop — hairy roots secrete artemisinin into medium, unlike suspension cells which store it intracellularly; ISPR avoids feedback inhibition and simplifies extraction.  \n**What a poor answer reveals:** If they add elicitor from day 0, they don't understand **growth-defence trade-off** (Class 11 Plant Hormones: c11_bio_cbse_13_005 ABA/Ethylene). If they suggest centrifugation for hairy roots, they ignore the **filamentous morphology** that clogs centrifuges — requiring filtration or ISPR instead.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Secondary metabolite production in bioreactors is the controlled cultivation of plant cells, tissues (especially hairy roots), or organ cultures in scalable, aseptic vessels (bioreactors) under optimized ______ conditions to synthesize commercially valuable phytochemicals — such as alkaloids, flavonoids, terpenoids, and phenolics — at yields exceeding those of intact plants, independent of seasonal, geographical, or environmental variability.",
+     "a": "physicochemical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a process engineer at a Bengaluru biotech startup tasked with producing taxol (______) — an anticancer drug originally harvested from the bark of the slow-growing Pacific yew tree (*Taxus brevifolia*).",
+     "a": "paclitaxel",
+     "self_check": true
+    },
+    {
+     "q": "What is Secondary metabolite production in bioreactors? State the definition given in this lesson.",
+     "a": "Secondary metabolite production in bioreactors is the controlled cultivation of plant cells, tissues (especially hairy roots), or organ cultures in scalable, aseptic vessels (bioreactors) under optimized physicochemical conditions to synthesize commercially valuable phytochemicals — such as alkaloids, flavonoids, terpenoids, and.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Secondary metabolite production in bioreactors?",
+     "a": "\"Higher biomass always means higher total metabolite yield.\" Students assume a linear relationship: more cells = more product.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) compare at least three bioreactor configurations (stirred-tank, airlift, hairy-root) and justify selection for a given metabolite based on shear sensitivity and oxygen demand; (2) design a two-stage elicitation/precursor-feeding strategy with quantitative timing; (3) calculate volumetric productivity (mg.",
+     "self_check": true
     }
    ]
   }

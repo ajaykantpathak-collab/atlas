@@ -2,92 +2,6 @@
  "catalog": "catalog_class11_maths_ch103.json",
  "concepts": [
   {
-   "id": "kemh.3.1",
-   "family": "authored",
-   "questions": [
-    {
-     "i": 0,
-     "chain": [
-      "val = 8 + 3"
-     ]
-    },
-    {
-     "i": 1,
-     "chain": [
-      "val = 4 + 3"
-     ]
-    },
-    {
-     "i": 2,
-     "chain": [
-      "val = 5 + 4"
-     ]
-    },
-    {
-     "i": 3,
-     "chain": [
-      "val = 9 + 4"
-     ]
-    },
-    {
-     "i": 4,
-     "chain": [
-      "val = 6 + 9"
-     ]
-    },
-    {
-     "i": 5,
-     "chain": [
-      "val = 3 + 9"
-     ]
-    }
-   ],
-   "steps_chain": []
-  },
-  {
-   "id": "kemh.3.2",
-   "family": "authored",
-   "questions": [
-    {
-     "i": 0,
-     "chain": [
-      "val = 5 + 9"
-     ]
-    },
-    {
-     "i": 1,
-     "chain": [
-      "val = 9 + 6"
-     ]
-    },
-    {
-     "i": 2,
-     "chain": [
-      "val = 5 + 7"
-     ]
-    },
-    {
-     "i": 3,
-     "chain": [
-      "val = 4 + 7"
-     ]
-    },
-    {
-     "i": 4,
-     "chain": [
-      "val = 2 + 6"
-     ]
-    },
-    {
-     "i": 5,
-     "chain": [
-      "val = 6 + 5"
-     ]
-    }
-   ],
-   "steps_chain": []
-  },
-  {
    "id": "kemh.3.3",
    "family": "circle_area",
    "questions": [
@@ -343,9 +257,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 12 * 12 + 2 * 12 * 4 + 4 * 4"
-   ]
+   "steps_chain": []
   },
   {
    "id": "kemh.3.9",

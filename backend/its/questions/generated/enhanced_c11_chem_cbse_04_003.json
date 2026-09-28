@@ -34,6 +34,31 @@
      "q": "Design a Lewis structure for the hypothetical molecule XeO2 (xenon dioxide). Xenon is a noble gas (Group 18). Predict whether it would have double bonds and explain the role of expanded octet.",
      "a": "Valence electrons: Xe(8) + 2×O(6) = 20. Skeletal: O‑Xe‑O. Two single bonds use 4 electrons; complete octets on O (12 electrons); remaining 4 electrons go on Xe as two lone pairs. Xe now has 4 bonds (2 single) + 2 lone pairs = 8 electrons (octet). To reduce formal charges, form two double bonds: each double bond uses a lone pair from O. Final: O=Xe=O with two lone pairs on Xe. Formal charges: Xe (0), each O (0). Xe uses expanded octet (12 electrons: 4 bonds + 2 lone pairs). A good answer includes the expanded octet justification and formal charge check. A poor answer forces an octet on Xe without double bonds, leaving high formal charges.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Lewis structure is a diagrammatic ______ of a molecule or polyatomic ion that shows the arrangement of valence electrons as bonding pairs (shared between atoms) and lone pairs (localized on a single atom), following the octet rule (or expanded octet for heavier elements) to achieve noble gas configurations.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a glass of water (H2O) – it’s a liquid at room temperature, yet its ______ is tiny.",
+     "a": "molecule",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a glass of water (H______O) – it’s a liquid at room temperature, yet its molecule is tiny.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently write correct Lewis structures for neutral molecules (e.g., CO2, NH3) and polyatomic ions (e.g., NO3-, SO4^2-) including those with double/triple bonds, formal charge minimization, and exceptions to the octet rule (incomplete octet, odd-electron species, expanded octet).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a glass of water (H2O) – it’s a liquid at room ______, yet its molecule is tiny.",
+     "a": "temperature",
+     "self_check": true
     }
    ]
   }

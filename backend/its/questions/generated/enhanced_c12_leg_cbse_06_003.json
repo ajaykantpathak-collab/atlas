@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_06_003",
+   "title": "c12_leg_cbse_06_003",
+   "questions": [
+    {
+     "q": "Name the Supreme Court case that established the \"triple test\" for patentability (novelty, inventive step, industrial application) in India and the year it was decided.",
+     "a": "**Answer:** *Bishwanath Prasad Radhey Shyam v. Hindustan Metal Industries* (1979) 2 SCC 511. A wrong answer (e.g., *Novartis v. Union of India* or *Roche v. Cipla*) reveals the student confuses the **origin of the statutory test** (Bishwanath Prasad interpreted the 1970 Act's S.2(1)(j)) with later cases that *applied* or *refined* it (Novartis on \"efficacy\", Roche on \"public interest\"). This is a classic \"case-name substitution\" error — memorising names without anchoring to the legal principle they established.",
+     "self_check": true
+    },
+    {
+     "q": "In *Cadila Healthcare Ltd. v. Cadila Pharmaceuticals Ltd.* (2001), the Supreme Court laid down factors for \"deceptive similarity\" in trademarks. Explain in your own words why the Court said \"structural, visual, and phonetic similarity\" alone is not enough — what *additional* factor did it emphasise for pharmaceutical marks?",
+     "a": "**Answer:** The Court emphasised **\"the nature of the product\"** — because pharmaceuticals involve public health, even a *small* chance of confusion (due to similar spelling/sound) can lead to *wrong medication*, which is life-threatening. A wrong answer (e.g., \"market share\" or \"prior use\") shows the student treats all goods identically, ignoring the **context-sensitive** nature of trademark law. The Court created a *heightened standard* for pharma — this is a frequent board exam trap: \"Is deceptive similarity tested the same for biscuits and cancer drugs?\" Answer: No.",
+     "self_check": true
+    },
+    {
+     "q": "A startup creates a new \"method of teaching mathematics using AR glasses\" and files a patent application. The Controller rejects it under Section 3(k) of the Patents Act, 1970. Using *Ferid Allani v. Union of India* (2019), explain whether this rejection is correct — apply the \"technical effect\" test step-by-step.",
+     "a": "**Steps:** (1) Identify the exclusion: S.3(k) bars \"a mathematical or business method or a computer program *per se*\". (2) Recall *Ferid Allani* ratio: **\"computer program *per se* ≠ all computer-implemented inventions\"** — if the invention demonstrates a \"technical effect\" or \"technical contribution\" beyond the program, it is patentable. (3) Apply: The AR glasses method involves *hardware* (glasses, sensors), *real-time data processing*, and *physical interaction* — it produces a technical effect (enhanced learning via augmented reality), not just an abstract teaching method. (4) Conclusion: Rejection is **incorrect**; the invention is not a \"computer program *per se*\" but a *technical system*. A wrong answer (e.g., \"teaching methods are never patentable\") ignores the *technical contribution* doctrine — a critical CUET/CLAT differentiator.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"substantial similarity\" test in copyright (*R.G. Anand v. Deluxe Films*, 1978) with the \"deceptive similarity\" test in trademarks (*Cadila Healthcare*). Identify **two** fundamental differences in *what* is compared and *why*.",
+     "a": "**Differences:** (1) **What is compared:** Copyright compares *expression of idea* (plot, sequence, characters, dialogue) — not the idea itself. Trademark compares *marks as a whole* (visual, phonetic, structural) in the context of *trade channel and consumer care*. (2) **Why/Purpose:** Copyright protects *original creativity* — \"substantial similarity\" asks: \"Did the defendant copy the *unique expression*?\" Trademark protects *consumer trust/source identification* — \"deceptive similarity\" asks: \"Is the *average consumer* likely to be confused?\" A wrong answer conflating the two (e.g., \"both check if things look alike\") misses the **different policy goals** — creativity vs. commerce. This is a high-yield \"compare and contrast\" board question.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"*The 'scènes à faire' doctrine in copyright (from *R.G. Anand*) and the 'functionality' bar in design/trademark law serve the exact same purpose — preventing monopolies on commonplace elements.*\" Defend or critique with case law.",
+     "a": "**Critique — they are related but NOT the same.** *Scènes à faire* (copyright) excludes *standard, inevitable expressions* in a genre (e.g., \"hero fights villain\" in action films) — it protects **creative freedom**. *Functionality* (design/trademark, *Whirlpool v. Videocon*, *Kirksons v. Veta*) excludes features *essential to the product's use* (e.g., shape of a bottle neck for pouring) — it protects **competition**. Overlap exists (both prevent overreach), but *scènes à faire* is about **expression inevitability**, functionality is about **utilitarian necessity**. A student saying \"they're identical\" fails to distinguish **copyright's creativity policy** from **IP's competition policy** — a nuance JEE/CLAT legal reasoning questions target.",
+     "self_check": true
+    },
+    {
+     "q": "Create a *new* illustrative fact scenario (150 words max) involving a **Geographical Indication** dispute where the *Chennai GI Registry's* decision is challenged. Your scenario must test: (a) the \"link between product quality and geography\" requirement; (b) the \"producer association\" standing requirement; (c) a defence of \"genericness\". Include the legal issue.",
+     "a": "**Scenario:** \"The 'Mysore Silk' GI is registered to the Karnataka Silk Marketing Board. A Tamil Nadu weavers' cooperative applies for 'Mysore Silk' registration, claiming their silk uses the *same mulberry variety and traditional loom technique* brought by migrants in 1920. The Registry rejects it — 'geographical origin' is Mysore district. The cooperative sues, arguing: (1) Quality (lustre, durability) comes from the *technique + mulberry*, not Mysore's soil/climate; (2) They are a legitimate *producer association* under S.11 GI Act; (3) 'Mysore Silk' has become *generic* for a *type* of silk, not a place-specific product. **Issue:** Can a GI survive if the *defining quality* is replicable elsewhere by the *same method*, and the name has acquired *generic* significance?\"  \n**Good answer** identifies: (a) *Tea Board v. ITC* (Darjeeling) — quality must be *essentially attributable* to geography; (b) S.11 — any association of producers can apply; (c) *Scotch Whisky* cases — genericness is a defence *if* the name denotes a *style*, not origin. A poor answer treats GI like a trademark — missing the **terroir/geography nexus** central to GI law.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

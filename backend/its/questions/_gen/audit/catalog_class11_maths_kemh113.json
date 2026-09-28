@@ -45,10 +45,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "mean = (6 + 7 + 6) / 3",
-    "md = (abs(6 - mean) + abs(7 - mean) + abs(6 - mean)) / 3"
-   ]
+   "steps_chain": []
   },
   {
    "id": "kemh113.13.3.1",
@@ -179,10 +176,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = sum((20, 19, 36, 3, 12))",
-    "mean = total / 5"
-   ]
+   "steps_chain": []
   },
   {
    "id": "kemh113.13.5.1",
@@ -272,10 +266,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = sum((19, 20, 24, 4, 3))",
-    "mean = total / 5"
-   ]
+   "steps_chain": []
   },
   {
    "id": "kemh113.13.5.3",

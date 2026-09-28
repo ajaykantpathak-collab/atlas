@@ -1,6 +1,53 @@
 {
- "catalog": "catalog_class12_biology_ch107",
+ "catalog": "catalog_class12_biology_ch107.json",
  "concepts": [
+  {
+   "id": "jebh.9.7",
+   "title": "Single Cell Protein (SCP)",
+   "converted_to_compute": true,
+   "formula": "protein_yield = microbial_biomass * protein_fraction",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "protein_yield = microbial_biomass * protein_fraction",
+     "compute": "protein_yield = microbial_biomass * protein_fraction"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Single Cell Protein (SCP): given microbial_biomass = 59, protein_fraction = 7, find protein yield.",
+     "a": "413",
+     "self_check": false
+    },
+    {
+     "q": "For Single Cell Protein (SCP): given microbial_biomass = 83, protein_fraction = 1.1, find protein yield.",
+     "a": "91.3",
+     "self_check": false
+    },
+    {
+     "q": "For Single Cell Protein (SCP): given microbial_biomass = 194, protein_fraction = 10.3, find protein yield.",
+     "a": "1998.2",
+     "self_check": false
+    },
+    {
+     "q": "For Single Cell Protein (SCP): given microbial_biomass = 57, protein_fraction = 18.9, find protein yield.",
+     "a": "1077.3",
+     "self_check": false
+    },
+    {
+     "q": "For Single Cell Protein (SCP): given microbial_biomass = 10.4, protein_fraction = 19.1, find protein yield.",
+     "a": "198.64",
+     "self_check": false
+    },
+    {
+     "q": "For Single Cell Protein (SCP): given microbial_biomass = 68, protein_fraction = 18.6, find protein yield.",
+     "a": "1264.8",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "jebh.9.1",
    "title": "Animal Husbandry: Dairy, Poultry, and Fisheries",
@@ -102,37 +149,6 @@
     {
      "q": "Give one standard exam phrasing that targets 'Tissue Culture and Micropropagation'.",
      "a": "what is tissue culture and on what property of cells is it based",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "jebh.9.7",
-   "title": "Single Cell Protein (SCP)",
-   "questions": [
-    {
-     "q": "Using the method 'Single Cell Protein (SCP)', work with: conversion_efficiency = 10, protein_content_percent = 20, substrate_mass = 12. Carry the chain through step by step and give the final value of protein_yield.",
-     "a": "24 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Single Cell Protein (SCP)' and work with: conversion_efficiency = 25, protein_content_percent = 25, substrate_mass = 8. Carry the chain through step by step and give the final value of protein_yield.",
-     "a": "50 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Single Cell Protein (SCP)' refers to.",
-     "a": "The production of protein-rich biomass from unicellular microorganisms such as algae, fungi, bacteria, and yeast grown on inexpensive substrates for use as food or feed.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Single Cell Protein (SCP)'.",
-     "a": "Single cell protein provides an alternative protein source by cultivating microbes on waste materials, reducing pressure on conventional agriculture.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Single Cell Protein (SCP)', in plain ASCII form.",
-     "a": "protein_yield = microbial_biomass * protein_fraction",
      "self_check": true
     }
    ]

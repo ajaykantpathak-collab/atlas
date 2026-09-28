@@ -31,8 +31,23 @@
      "self_check": true
     },
     {
-     "q": "Create a real-life word problem (Indian context: rupees, metres, etc.) that requires finding the number of terms (n) given the sum and first term/difference. Write the problem and outline the solution steps.",
-     "a": "Example: \"Meena puts ₹5 in her piggy bank on day 1, ₹10 on day 2, ₹15 on day 3, and so on. After how many days will her total savings become ₹275?\" Steps: a=5, d=5, S_n=275. Use \\(S_n = \\frac{n}{2}[2a+(n-1)d] \\Rightarrow 275 = \\frac{n}{2}[10+5(n-1)] \\Rightarrow 550 = n(5n+5) \\Rightarrow 5n^2+5n-550=0 \\Rightarrow n^2+n-110=0 \\Rightarrow (n+11)(n-10)=0 \\Rightarrow n=10\\) (reject negative). A poor answer uses a non-AP pattern or sets up an equation that is not quadratic in n, showing inability to handle \"find n\" problems.",
+     "q": "Meena puts 5 rupees in her piggy bank on the first day and increases the amount by 5 rupees each following day. Her total savings reach 275 rupees. Calculate the number of days she saved.",
+     "a": "With a = 5 and d = 5, the sum formula gives 275 = n/2 x (10 + 5(n-1)); this simplifies to n squared + n - 110 = 0, whose positive root is n = 10 days. A wrong answer that uses n instead of n - 1 inside the bracket shows the off-by-one slip that corrupts the sum formula.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine Ravi saves ₹100 in the first month and ______ his savings by ₹50 every month.",
+     "a": "increases",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: First, ask: \"Does the savings increase by the same amount every month?\" Yes, ₹______ constant increase → AP.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently read a real-life scenario, verify the constant difference condition, extract a, d, n, select the correct formula (nth term or sum), solve algebraically, and interpret the answer in the context of the problem (with units).",
      "self_check": true
     }
    ]

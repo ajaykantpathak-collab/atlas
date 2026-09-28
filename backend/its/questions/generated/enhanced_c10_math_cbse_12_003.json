@@ -31,8 +31,28 @@
      "self_check": true
     },
     {
-     "q": "Create a real-world word problem (Indian context) that requires finding the volume of a combination of THREE different basic solids. Specify all dimensions and ask for the total volume. The problem must be solvable using only Class 10 formulas.",
-     "a": "Sample problem: \"A temple kalash (finial) is made of a cubical base of side 20 cm, a cylindrical middle section of radius 7 cm and height 30 cm, and a conical top of radius 7 cm and height 24 cm. Find the total volume of brass required to make the kalash. (Use π = 22/7)\". \nSolution: Cube volume = 20³ = 8000 cm³. Cylinder volume = (22/7)×7²×30 = 4620 cm³. Cone volume = (1/3)×(22/7)×7²×24 = 1232 cm³. Total = 8000 + 4620 + 1232 = 13852 cm³. \nA poor answer would use only two solids, mismatch dimensions (e.g., cone radius ≠ cylinder radius), or ask for surface area instead of volume. This tests whether the student can synthesise a multi-component problem — the highest Bloom level — and understands that combined solids in board exams often have 3 parts (e.g., cube + cylinder + cone).",
+     "q": "Give the correct order of volume calculations for the temple kalash built from a cubical base, a cylindrical middle and a conical top.",
+     "a": "The computation runs: (1) The cube of side 20 cm gives 8000 cubic cm (2) The cylinder of radius 7 cm and height 30 cm gives 4620 cubic cm (3) The cone of radius 7 cm and height 24 cm gives 1232 cubic cm (4) Adding the three parts yields 13852 cubic cm of brass. A wrong answer that forgets the one-third in the cone volume shows the student has missed the decompose, compute and add method for combined solids.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The volume of a ______ of solids is the total space occupied by a 3D object formed by joining two or more basic solids (cube, cuboid, cylinder, cone, sphere, hemisphere) such that their volumes are additive without overlap.",
+     "a": "combination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a decorative ______ for your school's annual day gift shop — it is shaped like a cylinder with a hemisphere on top, made of solid glass.",
+     "a": "paperweight",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The volume of a combination of solids is the total space occupied by a ______D object formed by joining two or more basic solids (cube, cuboid, cylinder, cone, sphere, hemisphere) such that their volumes are additive without overlap.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently decompose any combined solid (up to three basic solids) into its components, select and apply the correct volume formula for each component with appropriate substitutions, and compute the total volume with correct units.",
      "self_check": true
     }
    ]

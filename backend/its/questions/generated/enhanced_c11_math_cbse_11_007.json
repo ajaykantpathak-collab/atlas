@@ -34,6 +34,21 @@
      "q": "Construct a real-world problem where an elliptical arch of a bridge has a span of 20 m and height 8 m at the center. Ask for the distance from the center to the foci and the equations of the directrices.",
      "a": "Span = 20 m \\(\\Rightarrow\\) semi-major axis \\(a = 10\\) m (horizontal). Height = 8 m \\(\\Rightarrow\\) semi-minor axis \\(b = 8\\) m. \\(c = \\sqrt{100-64} = 6\\) m. Foci at \\((\\pm 6, 0)\\). \\(e = 6/10 = 0.6\\). Directrices: \\(x = \\pm a/e = \\pm 10/0.6 = \\pm 50/3\\) m. A poor answer would use \\(a=8, b=10\\) or forget to halve the span.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The receiver must be placed at a ______ to collect signals.",
+     "a": "focus",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute eccentricity, coordinates of foci, and equations of directrices for any ellipse given in standard or general form, and can use these to solve real-world problems involving elliptical orbits, arches, or reflective properties.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ must be placed at a focus to collect signals.",
+     "a": "receiver",
+     "self_check": true
     }
    ]
   }

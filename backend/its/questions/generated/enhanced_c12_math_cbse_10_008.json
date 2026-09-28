@@ -34,6 +34,21 @@
      "q": "Create a real-world problem (in an Indian context) that requires finding the shortest distance between two skew lines. Define the lines using vector equations with integer components. Solve it completely.",
      "a": "Example: Two metro tracks in Delhi are along lines L₁: **r = (i + 2j + 3k) + λ(2i - j + k)** and L₂: **r = (3i - j + 2k) + μ(i + 2j - 2k)**. Find the minimum distance between them to install a safety net.  \nSolution: a₁ = (1,2,3), b₁ = (2,-1,1); a₂ = (3,-1,2), b₂ = (1,2,-2).  \na₂ - a₁ = (2,-3,-1). b₁ × b₂ = |i j k; 2 -1 1; 1 2 -2| = i(2-2) - j(-4-1) + k(4+1) = 0i + 5j + 5k = 5(j+k). |b₁ × b₂| = 5√2.  \n(a₂ - a₁)·(b₁ × b₂) = (2,-3,-1)·(0,5,5) = 0 -15 -5 = -20.  \nd = | -20 | / (5√2) = 4/√2 = 2√2 units.  \nA poor answer uses the parallel lines distance formula or forgets the absolute value — showing they don't understand the geometric meaning of the scalar triple product.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The vector equation of a line in three-______ space is given by r = a + λ b, where r is the position vector of any point on the line, a is the position vector of a fixed point on the line, b is a direction vector parallel to the line, and λ is a real scalar parameter.",
+     "a": "dimensional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a drone flying from your school roof (point A) ______ towards the water tank on the next building (point B).",
+     "a": "straight",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) write the vector equation of a line given a point and a direction vector or two points, (2) convert between vector and Cartesian forms, (3) find the intersection of two lines or determine if they are skew/parallel, and (4) compute the shortest distance between two lines using vector methods.",
+     "self_check": true
     }
    ]
   }

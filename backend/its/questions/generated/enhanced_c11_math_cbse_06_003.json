@@ -34,6 +34,26 @@
      "q": "Create a real-life word problem (Indian context: rupees, metres, kg) that leads to a linear inequality in one variable with a negative coefficient of x, where the solution requires reversing the inequality sign. Write the problem, form the inequality, solve it, and interpret the answer in context.",
      "a": "Example problem: \"A tank contains 2000 litres of water. Water leaks out at 50 litres per hour. After how many hours will the remaining water be less than 500 litres?\" Inequality: 2000 - 50x < 500 → -50x < -1500 → x > 30. Solution: after more than 30 hours. The negative coefficient (-50) comes from the decreasing quantity. Good answer shows: correct context (decreasing resource), proper inequality formation (< for \"less than\"), correct sign reversal (dividing by -50), and interpretation (x > 30 means after 30 hours, not at 30 hours). Poor answer uses positive coefficient or forgets reversal, showing inability to model decreasing situations.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A linear inequality in one variable is an inequality that can be ______ in the form ax + b < c, ax + b > c, ax + b ≤ c, or ax + b ≥ c, where a, b, c are real numbers, a ≠ 0, and x is the variable.",
+     "a": "written",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have ₹500 and want to buy ______ costing ₹40 each, but you must keep at least ₹100 for bus fare.",
+     "a": "notebooks",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A linear inequality in one variable is an inequality that can be written in the form ax + b < c, ax + b > c, ax + b ≤ c, or ax + b ≥ c, where a, b, c are real numbers, a ≠ ______, and x is the variable.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently solve any linear inequality in one variable (including those with fractions and negative coefficients), correctly apply the sign-reversal rule when multiplying/dividing by negative numbers, represent the solution on a number line with proper open/closed circles, and express the answer in interval notation.",
+     "self_check": true
     }
    ]
   }

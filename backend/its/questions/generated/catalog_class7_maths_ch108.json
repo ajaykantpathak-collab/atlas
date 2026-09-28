@@ -5,6 +5,8 @@
    "id": "gegp.8.1.1",
    "title": "Multiplication of a Whole Number and a Fraction",
    "converted_to_compute": false,
+   "formula": "whole_num * (num / den) = (whole_num * num) / den",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 4 x 7/8.",
@@ -42,6 +44,8 @@
    "id": "gegp.8.1.2",
    "title": "Multiplication of Two Fractions",
    "converted_to_compute": false,
+   "formula": "(a/b) * (c/d) = (a * c) / (b * d)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 4 x 4/2.",
@@ -79,6 +83,8 @@
    "id": "gegp.8.1.3",
    "title": "Area of a Rectangle with Fractional Sides",
    "converted_to_compute": false,
+   "formula": "area = length * breadth",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 11 x 6/3.",
@@ -116,6 +122,8 @@
    "id": "gegp.8.1.4",
    "title": "Simplifying Fractions by Cancelling Common Factors",
    "converted_to_compute": false,
+   "formula": "(a*k)/(b) * (c)/(d*k) = (a*c)/(b*d)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 4 and 8 have HCF 2 with coprime multipliers 2 and 4. Verify by computing hcf = 2 x 1; then find the HCF value.",
@@ -134,12 +142,12 @@
     },
     {
      "q": "Two ropes of lengths 4 cm and 8 cm are cut into equal pieces of greatest length. What is the length of each piece?",
-     "a": "2",
+     "a": "4",
      "self_check": false
     },
     {
      "q": "Two bells ring together now. They ring at intervals of 4 minutes and 8 minutes. After how many minutes will they next ring together?",
-     "a": "16",
+     "a": "8",
      "self_check": false
     },
     {
@@ -152,15 +160,9 @@
   {
    "id": "gegp.8.1.5",
    "title": "Magnitude of Product",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "combine components with the vector formula",
-     "explain": "combine components with the vector formula: mag = sqrt(-3 * -3 + -5 * -5 + 5 * 5) gives 7.68115",
-     "compute": "mag = sqrt(-3 * -3 + -5 * -5 + 5 * 5)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "n * f < n (if 0 < f < 1)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the magnitude of the vector -3i + -5j + 5k (two decimal places).",
@@ -198,6 +200,8 @@
    "id": "gegp.8.2.1",
    "title": "Reciprocal of a Fraction",
    "converted_to_compute": false,
+   "formula": "reciprocal(a/b) = b/a",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 6 x 4/2.",
@@ -235,6 +239,8 @@
    "id": "gegp.8.2.2",
    "title": "Division of Fractions",
    "converted_to_compute": false,
+   "formula": "(a/b) / (c/d) = (a/b) * (d/c)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 12 x 4/3.",
@@ -271,15 +277,9 @@
   {
    "id": "gegp.8.2.3",
    "title": "Magnitude of Quotient",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "combine components with the vector formula",
-     "explain": "combine components with the vector formula: mag = sqrt(-2 * -2 + 5 * 5 + 7 * 7) gives 8.83176",
-     "compute": "mag = sqrt(-2 * -2 + 5 * 5 + 7 * 7)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "dividend / divisor > dividend (if 0 < divisor < 1)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the magnitude of the vector -2i + 5j + 7k (two decimal places).",

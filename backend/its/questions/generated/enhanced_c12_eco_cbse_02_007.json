@@ -34,6 +34,26 @@
      "q": "Design a utility function (not Cobb-Douglas) and a budget constraint such that the equilibrium occurs at a corner solution. Explain why the tangency condition fails to give an interior solution.",
      "a": "Example: U = x + 2y (perfect substitutes). Px = 10, Py = 10, Income = 100. MRS = MUx/MUy = 1/2. Price ratio = 1. Since MRS (0.5) < Px/Py (1), the consumer buys only good Y: y = 10, x = 0. The tangency condition would require 0.5 = 1, which is impossible. A good answer includes a valid utility function, budget, and correct reasoning about why tangency fails (constant MRS not equal to price ratio). A poor answer uses a function that still yields an interior solution.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Consumer's ______ in the indifference curve approach occurs at the point where the budget line is tangent to the highest attainable indifference curve.",
+     "a": "equilibrium",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have ₹200 to ______ on dosas (₹40 each) and filter coffee (₹20 each).",
+     "a": "spend",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Derive the tangency condition MRS = Px/Py from utility maximization subject to the budget constraint; (2) Solve for equilibrium quantities given a utility function (e.g., Cobb-Douglas) and budget line; (3) Explain why corner solutions or non-tangency points are not equilibria when preferences are convex; (4).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you have ₹200 to spend on dosas (₹40 each) and filter coffee (₹20 each).",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

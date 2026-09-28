@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_08_003",
+   "title": "c11_leg_cbse_08_003",
+   "questions": [
+    {
+     "q": "What are the three main sources of law in a modern legal system like India's?",
+     "a": "The three main sources of law are custom, judicial precedent, and legislation.  \nA student who lists only \"legislation\" or adds \"public opinion\" as a source reveals a misunderstanding that law comes solely from Parliament, ignoring how customs (e.g., Hindu marriage rites) and judicial decisions (e.g., right to privacy) independently shape legal rules even without new laws.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a custom must be \"reasonable\" to be recognized as a valid source of law in India, using an example.",
+     "a": "A custom must be reasonable—meaning it aligns with justice and public utility—to be valid; for instance, a custom denying education to girls would be invalid as it contradicts constitutional values of equality and the Right to Education Act. A student who says \"reasonable means old\" or ignores constitutional conflict shows they don't grasp that antiquity alone doesn't validate a custom if it violates fundamental rights or modern laws, as seen when courts struck down child marriage despite its historical practice.",
+     "self_check": true
+    },
+    {
+     "q": "A district court in Mumbai is hearing a case about online defamation. The IT Act, 2000 doesn't clearly define \"grossly offensive\" content. How might the court use judicial precedent to decide, and what part of a past judgment would be binding?",
+     "a": "The court would look to past High Court or Supreme Court decisions on similar issues; the binding part would be the ratio decidendi (the legal principle decided), not obiter dicta (side remarks). For example, in Shreya Singhal v. Union of India, the ratio was that vague laws violating free speech are unconstitutional—this would bind lower courts. A student who cites obiter dicta as binding or ignores hierarchy (e.g., using a Delhi High Court case for Mumbai) shows they don't understand precedent's binding nature or court hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the binding force of a Supreme Court decision versus a High Court decision on a subordinate court in Bangalore. Under what condition would a smaller Supreme Court bench be bound by a larger bench's decision?",
+     "a": "A Supreme Court decision is binding on all courts nationwide; a High Court decision is binding only on courts within its state. A smaller Supreme Court bench is bound by a larger bench's decision only if the larger bench had more judges (e.g., a 5-judge bench binds a 3-judge bench on the same legal point). A student who thinks High Court decisions bind all India or that all Supreme Court benches are equally binding misses the hierarchical and numerical nuances of precedent, leading to errors in applying case law.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Judicial precedent is more important than legislation as a source of law in modern India.\" Defend your position with reference to landmark cases and constitutional principles.",
+     "a": "Legislation remains the primary source as it reflects sovereign will and is democratically enacted; judicial precedent supplements it by interpreting gaps (e.g., Vishakha guidelines becoming POSH Act) but cannot override clear statutes. A student who claims precedent is supreme ignores Article 141 (SC law binds all courts) but not vice versa, and overlooks that courts declare laws unconstitutional only if they violate the Constitution—not that they create law superior to Parliament. This confuses judicial review with legislative supremacy.",
+     "self_check": true
+    },
+    {
+     "q": "Create a original example where a local custom in a tribal community conflicts with a central law, and explain how an Indian court would resolve it using the essentials of a valid custom.",
+     "a": "Example: A tribal custom allows marriage at age 14, but the Prohibition of Child Marriage Act, 2006 sets the minimum age at 18. The court would reject the custom as invalid because it fails the \"reasonableness\" test (harmful to minors) and is contrary to legislation—customs must yield to laws. A weak answer would focus only on antiquity or ignore the legal hierarchy, showing failure to apply the validity tests holistically.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

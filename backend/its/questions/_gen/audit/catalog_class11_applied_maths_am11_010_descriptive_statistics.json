@@ -43,10 +43,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = sum((27, 39, 23, 18, 4))",
-    "mean = total / 5"
-   ]
+   "steps_chain": []
   },
   {
    "id": "am11_010.2",
@@ -265,10 +262,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = sum((19, 26, 26, 3, 12))",
-    "mean = total / 5"
-   ]
+   "steps_chain": []
   },
   {
    "id": "am11_010.7",
@@ -450,9 +444,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "area = 3 * 23"
-   ]
+   "steps_chain": []
   },
   {
    "id": "am11_010.11",

@@ -51,7 +51,7 @@ EXCLUDED_SUBJECTS = {"cs", "geo", "evs", "appmath", "biotech", "eng"}
 
 # Directory names that contain question-type content → BoardQuestion
 QUESTION_DIRS = {
-    "question_bank", "question_bank_clean", "question_bank_answers",
+    "question_bank", "question_bank_clean",
     "question_papers", "question_papers_clean",
     "mock_papers", "past_papers",
     "board_style_questions",
@@ -59,6 +59,11 @@ QUESTION_DIRS = {
     "drill_banks",
     "practice_tests", "practice",
 }
+
+# Answer-key dirs — parsed in the join pass, never loaded as questions.
+# (model_answers also stays in CLASS_LEVEL_DIRS for content display; the
+# join pass only *reads* the files.)
+ANSWER_DIRS = {"question_bank_answers", "model_answers"}
 
 # Directory names that contain class-level content → ClassLevelContent
 CLASS_LEVEL_DIRS = {
@@ -82,7 +87,6 @@ CLASS_LEVEL_DIRS = {
 DIR_TO_SOURCE_TYPE = {
     "question_bank": "question_bank",
     "question_bank_clean": "question_bank",
-    "question_bank_answers": "question_bank",
     "question_papers": "past_paper",
     "question_papers_clean": "past_paper",
     "mock_papers": "mock_paper",
@@ -172,6 +176,7 @@ def find_content_files(
     """
     question_files: list[tuple[str, str, Path]] = []
     class_level_files: list[tuple[str, str, Path]] = []
+    answer_files: list[tuple[str, str, Path]] = []
     seen_subjects: set[str] = set()
 
     def _scan_dir(subj_dir: Path, subject: str):
@@ -187,6 +192,13 @@ def find_content_files(
                 for f in sorted(content_dir.glob("*.marker")):
                     question_files.append((subject, source_type, f))
                     found_any = True
+            elif ctype in ANSWER_DIRS:
+                for f in sorted(content_dir.glob("*.marker")):
+                    answer_files.append((subject, ctype, f))
+                    found_any = True
+                if ctype in CLASS_LEVEL_DIRS:
+                    for f in sorted(content_dir.glob("*.marker")):
+                        class_level_files.append((subject, ctype, f))
             elif ctype in CLASS_LEVEL_DIRS:
                 for f in sorted(content_dir.glob("*.marker")):
                     class_level_files.append((subject, ctype, f))
@@ -235,7 +247,7 @@ def find_content_files(
             continue
         _scan_dir(sibling, subject)
 
-    return question_files, class_level_files
+    return question_files, class_level_files, answer_files
 
 
 async def load_question_banks(
@@ -264,7 +276,14 @@ async def load_question_banks(
     errors: list[str] = []
     by_subject: dict[str, int] = {}
 
+    # Idempotent: files already loaded are skipped (init_db may re-run).
+    from sqlalchemy import select as _select
+    existing = set((await db.execute(
+        _select(BoardQuestion.source_file).distinct())).scalars().all())
+
     for subject, source_type, filepath in files:
+        if str(filepath) in existing:
+            continue
         try:
             parsed = parse_question_bank_file(str(filepath))
             questions = parsed.get("questions", [])
@@ -281,18 +300,21 @@ async def load_question_banks(
                 if not qtext:
                     continue
 
-                qtype = detect_question_type(qtext)
+                node_id = q.get("node_id", "")
+                opts = q.get("options") or []
                 board_q = BoardQuestion(
                     question_number=q.get("number"),
-                    node_tags=[],  # no per-question tagging
+                    node_tags=[node_id] if node_id else [],
                     subject=file_subject,
                     class_level=classes[0],
                     chapter=parsed.get("chapter", "") or None,
                     section=q.get("section", "") or None,
-                    question_type=qtype,
+                    question_type=q.get("q_type") or detect_question_type(qtext, opts),
                     question_text=qtext,
+                    options=opts or None,
                     correct_answer=q.get("answer", "") or None,
-                    model_answer=q.get("answer", "") or None,
+                    model_answer=q.get("model_answer") or q.get("answer", "") or None,
+                    marking_scheme=q.get("marking_scheme") or None,
                     marks=q.get("marks", 1),
                     difficulty="medium",
                     source_type=source_type,
@@ -309,6 +331,195 @@ async def load_question_banks(
     await db.commit()
     return {"total_files": len(files), "inserted": inserted,
             "by_subject": by_subject, "errors": errors}
+
+
+def _answer_family(stem: str) -> str:
+    """Map an answer-file stem to its question-file family prefix.
+
+    c11_acc_question_bank_answers -> c11_acc_question_bank
+    c11_acc_question_bank_clean   -> c11_acc_question_bank
+    """
+    s = stem.lower()
+    for suffix in ("_answers", "_clean"):
+        if s.endswith(suffix):
+            s = s[: -len(suffix)]
+    return s
+
+
+async def _join_model_answers(
+    db: AsyncSession, subject: str, filepath: Path, dry_run: bool
+) -> int:
+    """Join model_answers blocks to BoardQuestion rows via node tag + text match."""
+    from sqlalchemy import select as _select
+    from backend.database.marker_parser import (
+        parse_model_answers_file, text_overlap,
+    )
+
+    try:
+        blocks = parse_model_answers_file(str(filepath))
+    except Exception:
+        return 0
+    if not blocks:
+        return 0
+
+    classes = extract_class_from_filename(filepath.name)
+    class_level = classes[0] if classes else 0
+    file_subject = extract_subject_from_filename(filepath.name, subject)
+
+    rows = (await db.execute(
+        _select(BoardQuestion).where(
+            BoardQuestion.subject == file_subject,
+            BoardQuestion.class_level == class_level,
+            BoardQuestion.model_answer.is_(None),
+        )
+    )).scalars().all()
+    if not rows:
+        return 0
+
+    updated = 0
+    for blk in blocks:
+        # prefer rows whose node_tags intersect the block's node ids;
+        # fall back to all subject+class rows (most lack node_tags)
+        cand = [r for r in rows
+                if r.node_tags and set(r.node_tags) & set(blk["node_ids"])]
+        if not cand:
+            cand = rows
+        # best text match between the block's question and row text
+        target = None
+        if blk["question"]:
+            best, best_score = None, 0.0
+            for r in cand:
+                s = text_overlap(blk["question"], r.question_text or "")
+                if s > best_score:
+                    best, best_score = r, s
+            if best is not None and best_score >= 0.5:
+                target = best
+        elif cand:
+            target = cand[0]
+
+        if target is None:
+            # No matching bank question — the block is its own Q&A.
+            # Insert it as a fully-answered question row (idempotent).
+            if not blk["question"]:
+                continue
+            exists = (await db.execute(
+                _select(BoardQuestion.id).where(
+                    BoardQuestion.source_file == str(filepath),
+                    BoardQuestion.question_text == blk["question"],
+                )
+            )).first()
+            if exists:
+                continue
+            if not dry_run:
+                db.add(BoardQuestion(
+                    question_number=None,
+                    node_tags=blk["node_ids"],
+                    subject=file_subject,
+                    class_level=class_level,
+                    section="model_answer",
+                    question_type="long_answer",
+                    question_text=blk["question"],
+                    correct_answer=blk["model_answer"][:2000],
+                    model_answer=blk["model_answer"],
+                    marking_scheme=blk["marking_scheme"] or None,
+                    explanation=blk["examiner_note"] or None,
+                    marks=5,
+                    difficulty="hard",
+                    source_type="model_answer",
+                    source_file=str(filepath),
+                    board="CISCE",
+                ))
+            updated += 1
+            continue
+
+        if dry_run:
+            updated += 1
+            continue
+        if not target.model_answer:
+            target.model_answer = blk["model_answer"]
+        if not target.correct_answer:
+            target.correct_answer = blk["model_answer"][:2000]
+        if not target.marking_scheme and blk["marking_scheme"]:
+            target.marking_scheme = blk["marking_scheme"]
+        if not target.explanation and blk["examiner_note"]:
+            target.explanation = blk["examiner_note"]
+        updated += 1
+    return updated
+
+
+async def load_answer_keys(
+    db: AsyncSession,
+    files: list[tuple[str, str, Path]],
+    dry_run: bool = False,
+) -> dict:
+    """Join answer-key markers onto existing BoardQuestion rows.
+
+    Matches by subject + class + question_number, restricted to rows whose
+    source_file belongs to the same file family (e.g. *_question_bank*,
+    *_question_bank_clean*).
+    """
+    from sqlalchemy import select as _select
+    from backend.database.marker_parser import (
+        parse_answer_key_file, parse_model_answers_file, text_overlap,
+    )
+
+    total_keys = 0
+    updated = 0
+    for subject, ctype, filepath in files:
+        if ctype == "model_answers":
+            updated += await _join_model_answers(
+                db, subject, filepath, dry_run)
+            continue
+        try:
+            answers = parse_answer_key_file(str(filepath))
+        except Exception:
+            continue
+        if not answers:
+            continue
+        total_keys += len(answers)
+
+        family = _answer_family(filepath.stem)
+        classes = extract_class_from_filename(filepath.name)
+        class_level = classes[0] if classes else 0
+        file_subject = extract_subject_from_filename(filepath.name, subject)
+
+        if dry_run:
+            continue
+
+        rows = (await db.execute(
+            _select(BoardQuestion).where(
+                BoardQuestion.subject == file_subject,
+                BoardQuestion.class_level == class_level,
+                BoardQuestion.question_number.in_(list(answers)),
+                BoardQuestion.source_file.like(f"%{family}%"),
+                ~BoardQuestion.source_file.like("%_answers%"),
+            )
+        )).scalars().all()
+
+        for row in rows:
+            key = answers.get(row.question_number)
+            if not key:
+                continue
+            changed = False
+            if not row.model_answer and key["model_answer"]:
+                row.model_answer = key["model_answer"]
+                changed = True
+            if not row.correct_answer and key["model_answer"]:
+                row.correct_answer = key["model_answer"][:2000]
+                changed = True
+            if not row.marking_scheme and key["marking_scheme"]:
+                row.marking_scheme = key["marking_scheme"]
+                changed = True
+            if not row.node_tags and key["node_id"]:
+                row.node_tags = [key["node_id"]]
+                changed = True
+            if changed:
+                updated += 1
+
+    if not dry_run:
+        await db.commit()
+    return {"answer_files": len(files), "keys_parsed": total_keys,
+            "updated": updated, "dry_run": dry_run}
 
 
 async def load_class_level_content(
@@ -330,13 +541,40 @@ async def load_class_level_content(
     errors: list[str] = []
     by_type: dict[str, int] = {}
 
+    # Idempotent: files already loaded are skipped (init_db may re-run).
+    from sqlalchemy import select as _select
+    existing_clc = set((await db.execute(
+        _select(ClassLevelContent.source_file).distinct())).scalars().all())
+
+    # Real class coverage per directory and per subject, derived from
+    # filenames that carry a class marker (c11_..., c12_...). Un-prefixed
+    # files (e.g. acc_glossary.marker) inherit this instead of the old
+    # blanket classes-1-to-12 default, which tagged senior electives to
+    # every class and leaked them into junior study-tools views.
+    dir_classes: dict[Path, set[int]] = {}
+    subject_classes: dict[str, set[int]] = {}
     for subject, ctype, filepath in files:
+        cls = extract_class_from_filename(filepath.name)
+        if cls:
+            dir_classes.setdefault(filepath.parent, set()).update(cls)
+            subject_classes.setdefault(subject, set()).update(cls)
+
+    for subject, ctype, filepath in files:
+        if str(filepath) in existing_clc:
+            continue
         try:
             content = filepath.read_text(encoding="utf-8")
             classes = extract_class_from_filename(filepath.name)
             if not classes:
-                # Check if filename implies all classes (e.g. formula_bank_c1_c8)
-                classes = list(range(1, 13))  # default to all
+                # No class in the filename: inherit the sibling files' class
+                # range (same dir first, then the whole subject tree).
+                classes = sorted(
+                    dir_classes.get(filepath.parent)
+                    or subject_classes.get(subject)
+                    or set())
+            if not classes:
+                # Subject has no class-marked files at all — true "all classes".
+                classes = list(range(1, 13))
 
             file_subject = extract_subject_from_filename(filepath.name, subject)
 

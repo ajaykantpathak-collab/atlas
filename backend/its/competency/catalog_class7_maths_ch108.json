@@ -193,7 +193,7 @@
     "what do you understand by magnitude of product",
     "list the main points about magnitude of product"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -210,7 +210,16 @@
      "action": "Compare the product with the original factors",
      "explain": "Use the rule: multiplying by a fraction less than 1 decreases the value, while multiplying by a number greater than 1 increases it."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "combine components with the vector formula",
+     "explain": "combine components with the vector formula: mag = sqrt(-3 * -3 + -5 * -5 + 5 * 5) gives 7.68115",
+     "compute": "mag = sqrt(-3 * -3 + -5 * -5 + 5 * 5)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.8.2.1",
@@ -314,7 +323,7 @@
     "what do you understand by magnitude of quotient",
     "list the main points about magnitude of quotient"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -331,7 +340,16 @@
      "action": "Compare the quotient with the dividend",
      "explain": "Use the rule: dividing by a fraction less than 1 increases the value, while dividing by a number greater than 1 decreases it."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "combine components with the vector formula",
+     "explain": "combine components with the vector formula: mag = sqrt(-2 * -2 + 5 * 5 + 7 * 7) gives 8.83176",
+     "compute": "mag = sqrt(-2 * -2 + 5 * 5 + 7 * 7)"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

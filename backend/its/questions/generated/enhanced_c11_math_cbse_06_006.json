@@ -34,6 +34,26 @@
      "q": "Create a real-world problem from Indian context (e.g., farming, manufacturing, budgeting) that requires graphing a system of at least THREE linear inequalities in two variables. Write the inequalities, describe the feasible region, and explain what the corner points represent in your context.",
      "a": "Example: A farmer in Punjab has 10 hectares of land, ₹50,000 budget, and 200 labor hours. Wheat requires 1 hectare, ₹5,000, 20 hours per unit; Rice requires 1 hectare, ₹4,000, 30 hours per unit. Let x = wheat units, y = rice units. Inequalities: x + y ≤ 10 (land), 5x + 4y ≤ 50 (budget in thousands), 2x + 3y ≤ 20 (labor in tens of hours), x ≥ 0, y ≥ 0. Feasible region is a polygon in first quadrant. Corner points represent extreme production plans: e.g., intersection of land and budget constraints gives maximum crop mix within both limits. A poor answer uses trivial inequalities, misses non-negativity, or cannot interpret corner points as optimal trade-offs.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A linear inequality in two ______ is an inequality of the form ax + by < c, ax + by > c, ax + by ≤ c, or ax + by ≥ c, where a, b, c are real numbers and a, b are not both zero.",
+     "a": "variables",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small business owner in Delhi who makes two types of handmade candles: ______ (₹50 profit each) and plain (₹30 profit each).",
+     "a": "scented",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can graph any linear inequality in two variables by correctly plotting the boundary line (dashed or solid), selecting and evaluating a test point, and shading the appropriate half-plane.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small ______ owner in Delhi who makes two types of handmade candles: scented (₹50 profit each) and plain (₹30 profit each).",
+     "a": "business",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a simple activity using a battery, a thin strand of steel wool (as fuse wire), and a variable resistor to demonstrate fuse action. List materials, procedure, and the observation that proves the fuse wire melts due to I²R heating.",
      "a": "Materials: 9V battery, steel wool strand (thin), variable resistor (rheostat), connecting wires, switch. Procedure: Connect in series. Start with high resistance (low current) — steel wool glows but doesn't break. Gradually decrease resistance → current increases → steel wool glows brighter, then melts at a specific current. Observation: The melting occurs at a predictable current value; repeating with thicker steel wool requires higher current. A poor answer that uses a thick wire that doesn't melt or doesn't vary current shows lack of understanding of the I²R threshold concept.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An electric fuse is a safety device consisting of a short length of wire made of a low-melting-point alloy (like tin-lead or copper) that melts and breaks the circuit when the current exceeds a specified safe value due to short circuit or ______, thereby protecting appliances and preventing fire hazards.",
+     "a": "overloading",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the fuse box in your home — you will see ______ ceramic holders with thin wires or cartridge fuses labeled 5A, 10A, 15A.",
+     "a": "small",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the working principle of an electric fuse using the heating effect of current, calculate the appropriate fuse rating for a given appliance using P = VI, and distinguish between short circuit and overloading with correct current-path diagrams.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the fuse box in your home — you will see small ceramic holders with thin wires or ______ fuses labeled 5A, 10A, 15A.",
+     "a": "cartridge",
+     "self_check": true
     }
    ]
   }

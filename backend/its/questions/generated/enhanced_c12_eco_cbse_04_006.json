@@ -34,6 +34,21 @@
      "q": "Construct a numerical example where a perfectly competitive firm initially earns supernormal profit in the short run, then show step-by-step how the industry transitions to long-run equilibrium. Specify the initial market price, the firm's cost functions, and the final equilibrium.",
      "a": "Example: Firm's LTC = q³ - 8q² + 20q. LAC = q² - 8q + 20. Min LAC at q=4, min LAC=4. Suppose initial market demand gives P=6. Short-run: firm produces where P=SMC (assume SMC similar to LMC for simplicity), earns supernormal profit (P > min LAC). Entry occurs → market supply increases → price falls to 4. At P=4, each firm produces q=4, earns zero economic profit. Number of firms adjusts to meet market demand at P=4. A poor answer fails to show the dynamic adjustment via entry/exit and the final P = min LAC condition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Long-run ______ of a firm under perfect competition occurs when the firm produces at the output level where price equals long-run marginal cost (LMC) and long-run average cost (LAC) at its minimum point, i.e., P = LMC = minimum LAC, with LMC cutting LAC from below.",
+     "a": "equilibrium",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a wheat farmer in Punjab who has been earning ______ profits because the market price of wheat is above her minimum average cost.",
+     "a": "supernormal",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Derive the long-run equilibrium conditions P = LMC = min LAC from the assumptions of perfect competition and free entry/exit; (2) Explain why economic profit must be zero in the long run using the entry/exit mechanism; (3) Calculate the long-run equilibrium price, output, and number of firms given a market demand.",
+     "self_check": true
     }
    ]
   }

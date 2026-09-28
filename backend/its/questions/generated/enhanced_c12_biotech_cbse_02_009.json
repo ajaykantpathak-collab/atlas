@@ -34,6 +34,26 @@
      "q": "Design a protocol to recover a 300 bp PCR product from a 2% agarose gel for Sanger sequencing, maximizing purity and minimizing UV-induced damage. Specify gel percentage, stain, excision tool, elution method, and elution volume. Justify each choice.",
      "a": "Gel: 2% agarose (optimal resolution for 300 bp). Stain: SYBR Safe or GelRed (blue-light excitable, avoids UV DNA damage). Excision: clean scalpel on blue-light transilluminator (minimizes nicking). Method: silica spin-column kit (high yield for small fragments, removes primers/dNTPs). Elution: 15–20 µL 10 mM Tris-Cl pH 8.5 at 60°C (small volume concentrates DNA for sequencing; heat improves small-fragment release). A poor answer uses ethidium bromide + UV (causes thymine dimers), 1% gel (poor resolution), or water elution (low pH reduces yield).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: DNA elution (recovery) is the process of isolating and purifying a specific DNA fragment from an agarose gel after ______ separation, typically by excising the gel slice containing the target band and releasing the DNA into an aqueous buffer using physical, chemical, or enzymatic methods.",
+     "a": "electrophoretic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just run a ______ digest on a 1% agarose gel and see a perfect 2.3 kb band glowing under UV light — that band contains the gene insert you need for cloning.",
+     "a": "restriction",
+     "self_check": true
+    },
+    {
+     "q": "What is DNA elution (recovery)? State the definition given in this lesson.",
+     "a": "DNA elution (recovery) is the process of isolating and purifying a specific DNA fragment from an agarose gel after electrophoretic separation, typically by excising the gel slice containing the target band and releasing the DNA into an aqueous buffer using physical, chemical, or enzymatic methods.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) select the appropriate elution method based on fragment size, downstream application, and available equipment, (2) calculate the expected yield and concentration after elution given gel slice mass and recovery efficiency, and (3) troubleshoot common elution failures (low yield, contamination, shearing) by.",
+     "self_check": true
     }
    ]
   }

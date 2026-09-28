@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (Indian context) involving three sets where the choice of universal set affects the answer to \"find the complement of set A.\" Provide the problem, two different valid universal sets, and show how the complement of A changes.",
      "a": "Problem: \"In a housing society, 50 families have cars, 30 have bikes, 20 have both. Set A = families with cars.\" \nChoice 1: U₁ = {all 100 families in the society}. A' = families without cars = 100 - 50 = 50 families.\nChoice 2: U₂ = {families with at least one vehicle} = 50 + 30 - 20 = 60 families. A' = families with bikes but no car = 30 - 20 = 10 families.\nThe complement changes from 50 to 10 depending on U. A poor answer (same complement for both U) reveals the student doesn't grasp that complement is RELATIVE to U, not an absolute property of A.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A universal set, denoted by U, is the set that contains all elements under ______ in a given context or problem.",
+     "a": "consideration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the principal of a ______ planning the annual sports day.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify the appropriate universal set for a given problem context, represent it correctly in set notation and Venn diagrams, and use it to find complements of subsets.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the ______ of a school planning the annual sports day.",
+     "a": "principal",
+     "self_check": true
     }
    ]
   }

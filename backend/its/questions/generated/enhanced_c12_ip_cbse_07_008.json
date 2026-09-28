@@ -34,6 +34,21 @@
      "q": "Design a step-by-step \"Public Wi-Fi Safety Checklist\" for a non-technical family member that covers: (1) pre-connection actions, (2) connection-time verification, (3) VPN usage rules, (4) post-session hygiene. The checklist must be actionable (not conceptual), fit on one sticky note, and address the evil twin attack specifically.",
      "a": "**PUBLIC WI-FI SAFETY CHECKLIST** (sticky-note version)\n🔴 BEFORE CONNECTING\n☐ Turn OFF auto-join / \"Ask to join networks\"\n☐ Confirm EXACT network name with staff (defeats evil twin \"Airport_WiFi_Free\" vs \"Airport_WiFi\")\n☐ Enable VPN kill switch + DNS leak protection in settings\n🟡 ON CONNECTION\n☐ Launch VPN → WAIT for \"Connected\" + green icon BEFORE opening browser\n☐ Verify IP changed: visit ipleak.net — must show VPN IP, NO DNS leaks\n☐ Force HTTPS: enable browser \"HTTPS-Only Mode\"\n🟢 DURING USE\n☐ NO banking / email / govt portals unless VPN verified green\n☐ Ignore captive portal pop-ups asking for credentials — close tab\n☐ If VPN drops → kill switch blocks all traffic — do NOT disable it\n🔵 AFTER SESSION\n☐ Disconnect VPN → \"Forget\" network in Wi-Fi settings\n☐ Clear browser cache/cookies for session sites\n☐ Reboot device if used for high-sensitivity task\nCriteria for good answer: Must include evil twin mitigation (verify exact SSID with staff), kill switch dependency, DNS leak test, HTTPS-Only Mode, and post-session network forgetting. A poor answer omits evil twin or treats VPN as \"install once, forget forever.\"",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Public Wi-Fi risks refer to security ______ inherent in open or poorly secured wireless networks where attackers can intercept, monitor, or manipulate unencrypted data transmissions; a VPN (Virtual Private Network) creates an encrypted tunnel between a user's device and a trusted server, shielding traffic from local network eavesdropping and masking the user's IP address.",
+     "a": "vulnerabilities",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're at a café using their free Wi-Fi to check your bank balance — you see \"FREE_CAFE_WIFI\" and connect without a ______.",
+     "a": "password",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) identify at least four distinct attack vectors on public Wi-Fi with technical explanations of how each works, and (2) explain the complete VPN data flow from client to server including encryption, tunneling protocol, and authentication, while correctly stating two limitations of VPN protection.",
+     "self_check": true
     }
    ]
   }

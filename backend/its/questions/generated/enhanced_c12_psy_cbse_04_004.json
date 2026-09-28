@@ -34,6 +34,26 @@
      "q": "Design a hypothetical longitudinal study to test the diathesis-stress model for Generalised Anxiety Disorder (GAD) in Indian adolescents. Specify: (i) how you would measure diathesis, (ii) how you would measure pathogenic stressors, (iii) the outcome variable, and (iv) the statistical interaction you would test. Justify each choice for the Indian context.",
      "a": "**Expected answer criteria:**  \n(i) Diathesis measure: **Polygenic risk score (PRS) for anxiety-related genes (e.g., GABA receptor genes, COMT Val158Met)** + **family history of anxiety/depression** (validated in Indian populations) + **baseline neurophysiological marker** (e.g., heightened amygdala reactivity to threat faces via fMRI, or high trait anxiety on STAI-T). *Justification:* Indian genetic diversity requires population-specific PRS; family history captures shared genes + environment.  \n(ii) Stressor measure: **Life Events Checklist (culturally adapted: e.g., board exam failure, family financial crisis, parental conflict, relocation, bullying, caste/discrimination stress)** assessed quarterly + **chronic stress interview** (academic pressure, family expectations). *Justification:* Indian adolescents face unique stressors (board exams, family honour, socioeconomic mobility).  \n(iii) Outcome: **GAD diagnosis per ICD-11/DSM-5** by blind clinical interview at 24-month follow-up.  \n(iv) Statistical test: **Hierarchical regression / structural equation modeling** testing **Diathesis × Stressor interaction term** predicting GAD onset, controlling for baseline symptoms, SES, gender. Significant interaction = diathesis-stress supported.  \n**Poor answer reveals:** Using only \"self-reported stress\" without objective/event-based measures; measuring diathesis only via family history (ignores molecular/neural markers); testing only main effects (not interaction); ignoring Indian cultural stressors (e.g., academic streaming, marriage pressure).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The diathesis-stress model explains psychological disorders as the result of an interaction between a diathesis (an inherent biological predisposition or vulnerability to a disorder, which may be genetic, neurochemical, or ______) and pathogenic stressors (environmental, psychological, or social stress factors that trigger the onset); the disorder manifests only when a vulnerable individual encounters sufficient stress to exceed their coping threshold.",
+     "a": "neurodevelopmental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two Class 12 students, Arjun and Priya, both facing the same intense board exam ______.",
+     "a": "stress",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) deconstruct a case vignette into its diathesis and stressor components, (2) explain why two individuals exposed to the same stressor may have different outcomes using the vulnerability threshold concept, and (3) evaluate the model's explanatory power for comorbidity (e.g., anxiety and depression co-occurrence) against.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ two Class 12 students, Arjun and Priya, both facing the same intense board exam stress.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,11 @@
      "q": "Construct a \\(2 \\times 3\\) matrix \\(A\\) and a \\(3 \\times 2\\) matrix \\(B\\) such that \\((AB)' \\neq A'B'\\) (i.e., the product \\(A'B'\\) is defined but gives a different matrix). Show your work.",
      "a": "Take \\(A = \\begin{bmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\end{bmatrix}\\), \\(B = \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\\\ 0 & 0 \\end{bmatrix}\\). Then \\(AB = \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix}\\), \\((AB)' = \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix}\\). \\(A' = \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\\\ 0 & 0 \\end{bmatrix}\\), \\(B' = \\begin{bmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\end{bmatrix}\\), \\(A'B' = \\begin{bmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 0 \\end{bmatrix} \\neq (AB)'\\). A student who cannot produce such a counterexample likely thinks \\((AB)' = A'B'\\) always holds, missing the crucial reversal of order.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If you want to view the same data with subjects as rows and students as columns, you need to swap rows and columns — this is exactly the ______ operation.",
+     "a": "transpose",
+     "self_check": true
     }
    ]
   }

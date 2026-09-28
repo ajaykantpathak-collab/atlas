@@ -34,6 +34,31 @@
      "q": "Design a simple leaf or flower pattern that has exactly two lines of symmetry. How would you draw it?",
      "a": "The student should describe a cross-like or oval-like shape where you can fold it vertically and horizontally. An answer that draws a circle (infinite lines) or a triangle (3 lines) shows they haven't grasped the specific constraint of \"exactly two.\"",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Symmetry in nature refers to the balanced, repeating, or mirror-like patterns found in living and non-living things, such as leaves, flowers, and ______.",
+     "a": "snowflakes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever noticed how if you draw a line down the middle of a ______’s wings, the left side looks exactly like the right?",
+     "a": "butterfly",
+     "self_check": true
+    },
+    {
+     "q": "What is Symmetry in nature? State the definition given in this lesson.",
+     "a": "Symmetry in nature refers to the balanced, repeating, or mirror-like patterns found in living and non-living things, such as leaves, flowers, and snowflakes.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Symmetry in nature?",
+     "a": "Students often assume that if an object is \"symmetrical,\" it must have a vertical mirror line.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify lines of symmetry in natural objects and determine if an object possesses rotational symmetry by visualizing its repetition around a center point.",
+     "self_check": true
     }
    ]
   }

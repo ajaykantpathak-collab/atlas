@@ -34,6 +34,31 @@
      "q": "Design an experiment to distinguish between free radical chlorination and electrophilic aromatic substitution of benzene using Cl₂/UV vs Cl₂/FeCl₃. List observations and products.",
      "a": "Set up two test tubes: (A) cyclohexane + Cl₂ in UV light; (B) benzene + Cl₂ with anhydrous FeCl₃ in dark. (A) decolorizes Cl₂ slowly, gives HCl gas (white fumes with NH₃), product is chlorocyclohexane (liquid). (B) decolorizes Cl₂ rapidly, gives HCl, product is chlorobenzene (liquid, separable). Key distinction: UV light vs Lewis acid catalyst; saturated vs aromatic substrate; radical vs electrophilic mechanism. Poor answer: only stating \"different products\" without mechanistic rationale shows inability to connect conditions to mechanism — a competency question requirement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Free radical ______ is a substitution reaction where a hydrogen atom in an alkane is replaced by a halogen atom (Cl₂ or Br₂) via a free radical chain mechanism initiated by UV light or heat, proceeding through initiation, propagation, and termination steps.",
+     "a": "halogenation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how methane (CH₄) in natural gas reacts with chlorine in sunlight to form chloromethane — a reaction that powers ______ PVC production.",
+     "a": "industrial",
+     "self_check": true
+    },
+    {
+     "q": "What is Free radical halogenation? State the definition given in this lesson.",
+     "a": "Free radical halogenation is a substitution reaction where a hydrogen atom in an alkane is replaced by a halogen atom (Cl₂ or Br₂) via a free radical chain mechanism initiated by UV light or heat, proceeding through initiation, propagation, and termination steps.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Free radical halogenation?",
+     "a": "Students write the propagation steps as: CH₄ + Cl• → CH₃• + HCl (correct) but then CH₃• + Cl• → CH₃Cl (WRONG — this is a termination step).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write the complete free radical chain mechanism for chlorination/bromination of a given alkane, predict the major monohalogenated product based on radical stability and hydrogen type (1°, 2°, 3°), and explain why this method gives mixtures unsuitable for pure compound synthesis.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a 'fabric diary' template for a Class 11 student to record one full day's textile interactions (minimum 10 entries). The template must capture: time, context (self/surrounding), product, fibre content (inferred), yarn type (staple/filament), fabric construction (woven/knit/non-woven), and one functional property linked to end-use. Provide three filled examples.",
      "a": "Template columns: Time | Context | Product | Fibre Content (Inferred) | Yarn Type | Fabric Construction | Functional Property for End-Use.\nExample 1: 06:00 | Self | Bath towel | Cotton (cellulosic) | Staple spun | Woven (terry pile) | High absorbency (moisture regain 8.5%) for drying.\nExample 2: 07:30 | Self | School socks | Nylon/elastane blend | Filament + elastane core-spun | Warp knit | Elastic recovery + abrasion resistance for fit and durability.\nExample 3: 08:00 | Surrounding | Car seat cover | Polyester | Filament | Warp knit (tricot) | UV resistance + dimensional stability for outdoor exposure.\nA poor answer uses vague terms ('soft', 'strong') without linking to fibre-level mechanisms, revealing inability to connect hierarchy levels to function.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Fabrics in Daily Life refers to the study of textile materials as essential human ecology components, encompassing the hierarchical ______ from microscopic fibres (natural or manufactured) through yarn formation to finished fabrics, where each structural level determines the final product's functional properties, aesthetic qualities, and end-use suitability.",
+     "a": "transformation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking students to list every ______ item they touched from waking up to arriving at school — bedsheet, towel, uniform, bag, socks, curtain, duster.",
+     "a": "textile",
+     "self_check": true
+    },
+    {
+     "q": "What is Fabrics in Daily Life? State the definition given in this lesson.",
+     "a": "Fabrics in Daily Life refers to the study of textile materials as essential human ecology components, encompassing the hierarchical transformation from microscopic fibres (natural or manufactured) through yarn formation to finished fabrics, where each structural level determines the final product's functional properties, aesthetic.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Fabrics in Daily Life?",
+     "a": "Students believe 'blended fabric' means fibres are mixed at the fabric stage (like mixing paint colours) rather than at the yarn stage (intimate blending of staple fibres before spinning).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can trace the complete fibre-to-fabric hierarchy for any given textile product, classify its fibre type using standard nomenclature, and justify why that specific fibre-yarn-fabric combination is appropriate for its intended end-use based on structural and property relationships.",
+     "self_check": true
     }
    ]
   }

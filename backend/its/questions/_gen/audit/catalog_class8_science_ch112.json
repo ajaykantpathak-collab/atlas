@@ -1,0 +1,62 @@
+{
+ "catalog": "catalog_class8_science_ch112.json",
+ "concepts": [
+  {
+   "id": "hesc.112.9",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mag_2 = 26",
+      "mag_1 = 46",
+      "energy_ratio = 1000 ** ((mag_2 - mag_1) / 2)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mag_2 = 40",
+      "mag_1 = 44",
+      "energy_ratio = 1000 ** ((mag_2 - mag_1) / 2)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mag_2 = 13.1",
+      "mag_1 = 26",
+      "energy_ratio = 1000 ** ((mag_2 - mag_1) / 2)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mag_2 = 34",
+      "mag_1 = 38",
+      "energy_ratio = 1000 ** ((mag_2 - mag_1) / 2)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mag_2 = 37",
+      "mag_1 = 65",
+      "energy_ratio = 1000 ** ((mag_2 - mag_1) / 2)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mag_2 = 41",
+      "mag_1 = 91",
+      "energy_ratio = 1000 ** ((mag_2 - mag_1) / 2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "energy_ratio = 1000 ** ((mag_2 - mag_1) / 2)"
+   ]
+  }
+ ]
+}

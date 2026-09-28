@@ -34,6 +34,31 @@
      "q": "Create a data set of six integers where the mode is 15, the median is 12, and no number is greater than 25.",
      "a": "An acceptable data set is: 8, 10, 15, 15, 15, 20 (or any set where 15 appears at least three times, the two middle numbers average to 12 when ordered, and all values are <= 25). A poor answer provides a set where 15 is not the most frequent value, or where the median does not equal 12, showing a lack of understanding of how mode and median constraints interact.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The mode of a data set is the value that appears most ______, meaning it has the highest frequency of occurrence among all the collected data points.",
+     "a": "frequently",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a school shoe ______ and need to know which shoe size to stock up on the most before the new academic year begins.",
+     "a": "store",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If you have a list of shoe sizes requested by ______ students, how do you decide which size is the best seller?",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify, count, and determine the most frequent value(s) in raw and frequency-table data sets, and explain why a data set might have zero, one, or multiple modes.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a school shoe store and need to know which shoe size to stock up on the most before the new ______ year begins.",
+     "a": "academic",
+     "self_check": true
     }
    ]
   }

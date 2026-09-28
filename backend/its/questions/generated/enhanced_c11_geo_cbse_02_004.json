@@ -34,6 +34,31 @@
      "q": "Design a conceptual model (diagram + 150-word explanation) showing how a single molecular cloud fragment produces both a star and a planetary system with a frost line, incorporating: angular momentum conservation, temperature gradient, and planetesimal accretion timescales.",
      "a": "A good model shows: (1) Spherical cloud → collapsing, spinning faster → flattened disk with central protostar. (2) Temperature profile T ∝ r⁻⁰·⁵ labeled with frost line at ~2.7 AU (150 K). (3) Inside: small rocky planetesimals (fast accretion, <1 Myr). Outside: large icy cores (slow accretion, few Myr) → gas capture. (4) Timescale arrows: dust settling (10³ yr), planetesimals (10⁵ yr), oligarchic growth (10⁶ yr), gas dissipation (10⁷ yr). A poor model omits the temperature gradient, shows planets forming before the star, or uses linear timescales, revealing failure to integrate thermal, dynamical, and chronological constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The solar system originated approximately 4.6 billion years ago from the gravitational collapse of a giant molecular cloud fragment (solar nebula), where conservation of angular momentum caused the nebula to flatten into a rotating ______ disk; the Sun formed at the dense, hot center through nuclear fusion ignition, while planets, asteroids, and comets accreted from dust and gas in the disk, with rocky terrestrial planets forming inside the frost line and gas/ice giants forming beyond it.",
+     "a": "protoplanetary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at a photograph of the Orion Nebula (M42) — a stellar nursery visible from India in winter evenings — where new stars and ______ systems are forming right now.",
+     "a": "planetary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The solar system originated approximately ______ billion years ago from the gravitational collapse of a giant molecular cloud fragment (solar nebula), where conservation of angular momentum caused the nebula to flatten into a rotating protoplanetary disk; the Sun formed at the dense, hot center through nuclear fusion ignition, while planets, asteroids, and comets accreted from dust and gas in the disk, with rocky terrestrial planets forming inside the frost line and gas/ice giants forming beyond it.",
+     "a": "4.6",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can sequence the events from molecular cloud collapse to planetary accretion, explain how the frost line determined planetary composition, and describe why the Sun contains 99.8% of the system's mass but only 0.5% of its angular momentum.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at a ______ of the Orion Nebula (M42) — a stellar nursery visible from India in winter evenings — where new stars and planetary systems are forming right now.",
+     "a": "photograph",
+     "self_check": true
     }
    ]
   }

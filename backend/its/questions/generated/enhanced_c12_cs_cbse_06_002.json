@@ -34,6 +34,31 @@
      "q": "Design a step-by-step verification checklist (minimum 4 steps) that a student can follow to confirm that `mysql-connector-python` is correctly installed and importable in their project's virtual environment.",
      "a": "Checklist: 1) Activate the virtual environment. 2) Run `pip list | grep mysql-connector-python` to see the package. 3) Run `python -c \"import mysql.connector; print(mysql.connector.__version__)\"` to verify import and version. 4) Ensure no `ModuleNotFoundError` occurs. A poor answer misses environment activation or version check.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: MySQL Connector/Python is a standardized database driver that enables Python applications to connect to and interact with MySQL databases by implementing the Python Database API ______ v2.0 (PEP 249).",
+     "a": "Specification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have built a Python program that needs to store student records in a MySQL ______.",
+     "a": "database",
+     "self_check": true
+    },
+    {
+     "q": "What is MySQL Connector/Python? State the definition given in this lesson.",
+     "a": "MySQL Connector/Python is a standardized database driver that enables Python applications to connect to and interact with MySQL databases by implementing the Python Database API Specification v2.0 (PEP 249).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about MySQL Connector/Python?",
+     "a": "Students often think that installing the connector also installs the MySQL database server, or that import mysql is sufficient.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently install mysql-connector-python using pip in a virtual environment, verify the installation, import the module in a Python script, and explain the role of the connector in the database connectivity stack.",
+     "self_check": true
     }
    ]
   }

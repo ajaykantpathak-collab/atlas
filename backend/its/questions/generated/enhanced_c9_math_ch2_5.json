@@ -34,6 +34,26 @@
      "q": "Create a real-life situation (Indian context) that can be modeled by the linear equation 5x + 8y = 200, where x and y represent quantities of two different items. Write the equation in slope-intercept form and explain what the slope and y-intercept represent in your situation.",
      "a": "Situation: A student has ₹200 to buy notebooks (₹5 each) and pens (₹8 each). Let x = number of notebooks, y = number of pens. Equation: 5x + 8y = 200. Slope-intercept form: 8y = 200 - 5x → y = 25 - (5/8)x. Slope = -5/8: for every 8 notebooks bought, 5 fewer pens can be bought (trade-off rate). Y-intercept = 25: if no notebooks are bought (x=0), maximum 25 pens can be bought. A poor answer would give a situation without explaining the meaning of slope/intercept in context, showing lack of interpretive skill.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A linear equation in two variables, expressed as ax + by + c = 0 where a, b, c are real numbers and a, b are not both zero, ______ a straight line on the Cartesian plane.",
+     "a": "represents",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If you want to earn exactly ₹150 in a morning, how many ______ of tea and samosas can you sell?",
+     "a": "combinations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A linear equation in two variables, expressed as ax + by + c = ______ where a, b, c are real numbers and a, b are not both zero, represents a straight line on the Cartesian plane.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can plot the graph of any linear equation in two variables by finding at least three solution points, can identify whether a given point lies on the line without plotting, and can explain why the graph is always a straight line using the constant rate of change property.",
+     "self_check": true
     }
    ]
   }

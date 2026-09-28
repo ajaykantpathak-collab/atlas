@@ -34,6 +34,21 @@
      "q": "Create a realistic scenario for a bakery purchasing an oven where the estimated useful life is expressed in \"number of baking cycles\" rather than years. Define all three factors and write the formula for depreciation per cycle.",
      "a": "Scenario: Oven cost ₹4,00,000 + ₹20,000 installation = ₹4,20,000. Estimated 1,00,000 baking cycles over its life. Net residual value ₹50,000. Depreciable cost = ₹3,70,000. Depreciation per cycle = ₹3,70,000 / 1,00,000 = ₹3.70 per cycle. A poor answer uses years instead of cycles or omits installation cost, showing the student cannot adapt the useful-life concept to non-time units as permitted by AS-6.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The amount of ______ charged each accounting period is determined by three factors: the original cost of the asset (including all expenditures to make it ready for use), the estimated net residual value (scrap value after disposal costs), and the estimated useful life (the period over which the asset is expected to generate economic benefits for the enterprise).",
+     "a": "depreciation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family buys a delivery van for ₹8,00,000, spends ₹50,000 on ______ and fitting shelves, and expects to sell it after 5 years for ₹1,20,000 (but will pay ₹20,000 towing and advertising to sell it).",
+     "a": "registration",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently compute the depreciable cost and annual depreciation charge (straight-line method) for a given asset when provided with purchase price, incidental costs, estimated scrap value, disposal expenses, and useful life, and can explain how a change in any one factor alters the depreciation amount.",
+     "self_check": true
     }
    ]
   }

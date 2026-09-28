@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_08_003",
+   "title": "c12_soc_cbse_08_003",
+   "questions": [
+    {
+     "q": "What was the fundamental difference between the Zamindari and Ryotwari systems in terms of who was legally responsible for paying land revenue to the colonial state?",
+     "a": "In the Zamindari system, the zamindar (landlord/intermediary) was legally responsible for paying a fixed revenue to the state, while in the Ryotwari system, the individual cultivator (ryot) paid revenue directly to the state with no intermediary. A wrong answer (e.g., \"both made peasants pay directly\") reveals confusion about the intermediary role — the defining institutional feature that created a landlord class in Zamindari areas but not in Ryotwari areas.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the British introduced the Permanent Settlement (Zamindari) in Bengal but chose Ryotwari for Madras and Bombay presidencies. What does this reveal about colonial priorities?",
+     "a": "The Permanent Settlement was introduced in Bengal because the East India Company wanted a fixed, guaranteed revenue stream with minimal administrative cost, relying on existing zamindars as revenue collectors. Ryotwari was adopted in Madras/Bombay where no strong intermediary class existed and the Company wanted to maximize revenue by dealing directly with cultivators, allowing periodic revisions. A wrong answer that focuses only on \"different local conditions\" misses the core colonial logic: both systems were designed to extract maximum surplus with minimum expense, but the institutional route differed based on pre-existing social structure.",
+     "self_check": true
+    },
+    {
+     "q": "A historian argues that the Mahalwari system was \"more peasant-friendly\" than Zamindari because revenue was settled with the village community. Using the concept of joint liability, evaluate this claim.",
+     "a": "The claim is misleading. Under Mahalwari, the village body (often dominated by dominant castes) was jointly liable for the total revenue demand. If some cultivators defaulted, others had to cover the shortfall, leading to coercion, indebtedness, and strengthening of local elite power — not peasant empowerment. A wrong answer that accepts \"community settlement = better for peasants\" ignores how joint liability transferred state pressure onto peasants collectively, often worsening exploitation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of revenue fixation (permanent vs. periodic revision) in Zamindari and Ryotwari on long-term agricultural investment. Which system created a stronger disincentive for land improvement and why?",
+     "a": "Zamindari's permanent fixation gave zamindars no incentive to invest in land improvement because any surplus from increased productivity went to them as rent, not to the state — but they often sub-infeudated rather than invest. Ryotwari's periodic revisions (every 20-30 years) meant the state captured productivity gains, discouraging ryots from investing since higher output led to higher revenue demands. Both discouraged investment, but Ryotwari's direct state-peasant link made the disincentive more immediate and transparent. A wrong answer that says \"Zamindari was worse because zamindars were lazy\" misses the structural incentive problem in both systems.",
+     "self_check": true
+    },
+    {
+     "q": "Critically assess the statement: \"The Ryotwari system recognized peasant property rights and therefore laid the foundation for modern land ownership in India.\"",
+     "a": "The statement is partially true but incomplete. Ryotwari did grant occupancy rights to cultivators, making them de facto proprietors, but these rights were conditional on revenue payment and subject to state's eminent domain. The state remained the ultimate landlord, and high revenue demands (often 50%+ of produce) led to widespread indebtedness and land alienation to moneylenders. Thus, while it created a legal framework for private property, the economic conditions undermined genuine peasant ownership. A wrong answer that fully endorses the statement ignores the coercive revenue demand and the resulting land transfers to non-cultivating classes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a comparative table that a sociologist could use to analyze how each of the three systems (Zamindari, Ryotwari, Mahalwari) shaped the following dimensions of agrarian structure: (a) class formation, (b) tenancy relations, (c) state-peasant interface, and (d) regional legacy visible today. Provide one row as an example.",
+     "a": "A good answer provides a 3x4 table with sociologically precise entries. Example row for Zamindari: (a) Created absentee landlord class + sub-infeudation layers; (b) Tenants-at-will with no security, high rents; (c) State dealt only with zamindars, peasants invisible; (d) Present-day Bihar/UP: fragmented holdings, tenancy disputes, weak peasant mobilization. A poor answer lists only administrative features (e.g., \"revenue fixed permanently\") without linking to structural outcomes like class formation or contemporary legacies.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Zamindari, Ryotwari, and Mahalwari systems were three distinct land revenue settlements introduced by the British in colonial India to extract ______ surplus.",
+     "a": "agricultural",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small farmer in present-day Bihar who cannot get a loan because his land records still show a \"zamindari\" tenure from 1793, or a cotton grower in ______ whose family has held \"ryotwari\" patta for generations but now faces corporate land acquisition.",
+     "a": "Maharashtra",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish the three systems by their unit of settlement, revenue fixation method, and role of intermediaries; (2) explain how each system altered pre-colonial agrarian relations and created specific forms of peasant exploitation; and (3) analyze the long-term structural consequences such as the rise of absentee.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small farmer in present-day Bihar who cannot get a loan because his land records still show a \"zamindari\" tenure from ______, or a cotton grower in Maharashtra whose family has held \"ryotwari\" patta for generations but now faces corporate land acquisition.",
+     "a": "1793",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

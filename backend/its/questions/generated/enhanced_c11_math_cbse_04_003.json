@@ -34,6 +34,31 @@
      "q": "Create a new statement P(n) involving a sum of fractions (e.g., telescoping series) where the inductive step requires partial fraction decomposition. Write the inductive hypothesis P(k) and show the first two algebraic steps to derive P(k+1).",
      "a": "Example: P(n): ∑_{i=1}^{n} 1/(i(i+1)) = n/(n+1)\nP(k): ∑_{i=1}^{k} 1/(i(i+1)) = k/(k+1)\nP(k+1): ∑_{i=1}^{k+1} 1/(i(i+1)) = (k+1)/(k+2)\nStep 1: LHS of P(k+1) = [∑_{i=1}^{k} 1/(i(i+1))] + 1/((k+1)(k+2))\nStep 2: = k/(k+1) + 1/((k+1)(k+2)) [using P(k)]\nA good answer shows correct substitution and common denominator setup. A poor answer might write the (k+1)th term incorrectly as 1/((k+1)(k)) or fail to use the inductive hypothesis, revealing they don't understand how to extend the sum.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The inductive step in ______ induction is the logical implication where we assume the statement P(k) is true for an arbitrary but fixed natural number k (called the inductive hypothesis), and then use this assumption to prove that P(k+1) must also be true.",
+     "a": "mathematical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now, to ______ you can reach every step, you don't need to check each one individually.",
+     "a": "prove",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The inductive step in mathematical induction is the logical implication where we assume the statement P(k) is true for an arbitrary but fixed natural number k (called the inductive hypothesis), and then use this assumption to prove that P(k+______) must also be true.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly formulate the inductive hypothesis for any given statement P(n), distinguish between \"assuming P(k) is true\" and \"proving P(k) is true\", and demonstrate the algebraic manipulation required to transform P(k) into P(k+1) using the assumption.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now, to prove you can reach every step, you don't need to check each one ______.",
+     "a": "individually",
+     "self_check": true
     }
    ]
   }

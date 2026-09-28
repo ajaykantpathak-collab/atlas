@@ -22,12 +22,33 @@
     "how do profitability ratios differ from solvency ratios",
     "state the objectives of computing accounting ratios"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "read the question's target", "explain": "identify whether the question asks about paying ability, debt safety, asset speed or earning power"},
-    {"step": 2, "action": "pick the ratio family", "explain": "liquidity for current obligations, solvency for long-term debt, activity for turnover, profitability for returns"},
-    {"step": 3, "action": "apply the standing formula", "explain": "each ratio has one fixed numerator and denominator pair drawn from the balance sheet or profit statement"}
-   ]
+    {
+     "step": 1,
+     "action": "read the question's target",
+     "explain": "identify whether the question asks about paying ability, debt safety, asset speed or earning power"
+    },
+    {
+     "step": 2,
+     "action": "pick the ratio family",
+     "explain": "liquidity for current obligations, solvency for long-term debt, activity for turnover, profitability for returns"
+    },
+    {
+     "step": 3,
+     "action": "apply the standing formula",
+     "explain": "each ratio has one fixed numerator and denominator pair drawn from the balance sheet or profit statement"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ratio_groups = liquidity_ratios + solvency_ratios + activity_ratios + profitability_ratios",
+     "compute": "ratio_groups = liquidity_ratios + solvency_ratios + activity_ratios + profitability_ratios"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.205.4.1",
@@ -47,9 +68,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "list the strengths", "explain": "simplifies figures, enables intra- and inter-firm comparison, helps forecasting and locating weakness"},
-    {"step": 2, "action": "list the weaknesses", "explain": "historical data, price level changes ignored, qualitative factors unseen, window dressing possible"},
-    {"step": 3, "action": "note the context need", "explain": "a ratio needs a benchmark -- past figure, industry norm or rule of thumb -- before it can be judged"}
+    {
+     "step": 1,
+     "action": "list the strengths",
+     "explain": "simplifies figures, enables intra- and inter-firm comparison, helps forecasting and locating weakness"
+    },
+    {
+     "step": 2,
+     "action": "list the weaknesses",
+     "explain": "historical data, price level changes ignored, qualitative factors unseen, window dressing possible"
+    },
+    {
+     "step": 3,
+     "action": "note the context need",
+     "explain": "a ratio needs a benchmark -- past figure, industry norm or rule of thumb -- before it can be judged"
+    }
    ]
   },
   {
@@ -70,10 +103,34 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "total the current assets", "explain": "add inventories, trade receivables, cash and equivalents, current investments, short-term loans and prepaid or advance items", "compute": "current_assets = inventories + trade_receivables + cash_and_equivalents + prepaid_expenses"},
-    {"step": 2, "action": "total the current liabilities", "explain": "add trade payables, short-term borrowings, other current liabilities and short-term provisions", "compute": "current_liabilities = trade_payables + short_term_borrowings + short_term_provisions"},
-    {"step": 3, "action": "divide", "explain": "current assets over current liabilities, expressed as so many times or as a ratio to one", "compute": "current_ratio = current_assets / current_liabilities"}
-   ]
+    {
+     "step": 1,
+     "action": "total the current assets",
+     "explain": "add inventories, trade receivables, cash and equivalents, current investments, short-term loans and prepaid or advance items",
+     "compute": "current_assets = inventories + trade_receivables + cash_and_equivalents + prepaid_expenses"
+    },
+    {
+     "step": 2,
+     "action": "total the current liabilities",
+     "explain": "add trade payables, short-term borrowings, other current liabilities and short-term provisions",
+     "compute": "current_liabilities = trade_payables + short_term_borrowings + short_term_provisions"
+    },
+    {
+     "step": 3,
+     "action": "divide",
+     "explain": "current assets over current liabilities, expressed as so many times or as a ratio to one",
+     "compute": "current_ratio = current_assets / current_liabilities"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "current_ratio = current_assets / current_liabilities",
+     "compute": "current_ratio = current_assets / current_liabilities"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.205.6.2",
@@ -93,9 +150,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "peel off the illiquid items", "explain": "deduct inventories and prepayments like prepaid expenses and advance tax from current assets", "compute": "quick_assets = current_assets - inventories - prepaid_expenses"},
-    {"step": 2, "action": "divide by current liabilities", "explain": "quick assets over current liabilities gives the acid test", "compute": "quick_ratio = quick_assets / current_liabilities"}
-   ]
+    {
+     "step": 1,
+     "action": "peel off the illiquid items",
+     "explain": "deduct inventories and prepayments like prepaid expenses and advance tax from current assets",
+     "compute": "quick_assets = current_assets - inventories - prepaid_expenses"
+    },
+    {
+     "step": 2,
+     "action": "divide by current liabilities",
+     "explain": "quick assets over current liabilities gives the acid test",
+     "compute": "quick_ratio = quick_assets / current_liabilities"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "quick_ratio = (current_assets - inventories - prepaid_expenses) / current_liabilities",
+     "compute": "quick_ratio = (current_assets - inventories - prepaid_expenses) / current_liabilities"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.205.7.1",
@@ -115,10 +191,34 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "total the long-term debt", "explain": "long-term borrowings plus other long-term liabilities plus long-term provisions", "compute": "long_term_debts = long_term_borrowings + other_long_term_liabilities + long_term_provisions"},
-    {"step": 2, "action": "total the equity", "explain": "share capital plus reserves and surplus plus money received against warrants (and pending application money)", "compute": "shareholders_funds = share_capital + reserves_and_surplus + money_against_warrants"},
-    {"step": 3, "action": "divide debt by equity", "explain": "the quotient shows the times-cover of owner money by borrowed long-term money", "compute": "debt_equity_ratio = long_term_debts / shareholders_funds"}
-   ]
+    {
+     "step": 1,
+     "action": "total the long-term debt",
+     "explain": "long-term borrowings plus other long-term liabilities plus long-term provisions",
+     "compute": "long_term_debts = long_term_borrowings + other_long_term_liabilities + long_term_provisions"
+    },
+    {
+     "step": 2,
+     "action": "total the equity",
+     "explain": "share capital plus reserves and surplus plus money received against warrants (and pending application money)",
+     "compute": "shareholders_funds = share_capital + reserves_and_surplus + money_against_warrants"
+    },
+    {
+     "step": 3,
+     "action": "divide debt by equity",
+     "explain": "the quotient shows the times-cover of owner money by borrowed long-term money",
+     "compute": "debt_equity_ratio = long_term_debts / shareholders_funds"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "debt_equity_ratio = long_term_debts / shareholders_funds",
+     "compute": "debt_equity_ratio = long_term_debts / shareholders_funds"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.205.7.2",
@@ -138,8 +238,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "total the assets", "explain": "add non-current assets and current assets from the balance sheet", "compute": "total_assets = non_current_assets + current_assets"},
-    {"step": 2, "action": "divide by the long-term debt", "explain": "total assets over long-term debts gives the cover", "compute": "total_assets_to_debt_ratio = total_assets / long_term_debts"}
+    {
+     "step": 1,
+     "action": "total the assets",
+     "explain": "add non-current assets and current assets from the balance sheet",
+     "compute": "total_assets = non_current_assets + current_assets"
+    },
+    {
+     "step": 2,
+     "action": "divide by the long-term debt",
+     "explain": "total assets over long-term debts gives the cover",
+     "compute": "total_assets_to_debt_ratio = total_assets / long_term_debts"
+    }
    ]
   },
   {
@@ -160,10 +270,30 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "gross the profit back up for tax", "explain": "multiply profit after tax by one hundred and divide by the net-of-tax percentage", "compute": "profit_before_tax = profit_after_tax * 100 / (100 - tax_rate_percent)"},
-    {"step": 2, "action": "price the interest bill", "explain": "multiply the long-term debt by its interest rate", "compute": "interest_on_long_term_debts = long_term_debts * interest_rate"},
-    {"step": 3, "action": "add interest back", "explain": "profit before tax plus interest gives profit before interest and tax", "compute": "profit_before_interest_and_tax = profit_before_tax + interest_on_long_term_debts"},
-    {"step": 4, "action": "divide by interest", "explain": "the quotient is the number of times interest is covered", "compute": "interest_coverage_ratio = profit_before_interest_and_tax / interest_on_long_term_debts"}
+    {
+     "step": 1,
+     "action": "gross the profit back up for tax",
+     "explain": "multiply profit after tax by one hundred and divide by the net-of-tax percentage",
+     "compute": "profit_before_tax = profit_after_tax * 100 / (100 - tax_rate_percent)"
+    },
+    {
+     "step": 2,
+     "action": "price the interest bill",
+     "explain": "multiply the long-term debt by its interest rate",
+     "compute": "interest_on_long_term_debts = long_term_debts * interest_rate"
+    },
+    {
+     "step": 3,
+     "action": "add interest back",
+     "explain": "profit before tax plus interest gives profit before interest and tax",
+     "compute": "profit_before_interest_and_tax = profit_before_tax + interest_on_long_term_debts"
+    },
+    {
+     "step": 4,
+     "action": "divide by interest",
+     "explain": "the quotient is the number of times interest is covered",
+     "compute": "interest_coverage_ratio = profit_before_interest_and_tax / interest_on_long_term_debts"
+    }
    ]
   },
   {
@@ -184,9 +314,24 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "build the cost side", "explain": "opening inventory plus net purchases plus direct expenses such as wages and carriage inwards", "compute": "cost_of_revenue_from_operations = opening_inventory + net_purchases + direct_expenses"},
-    {"step": 2, "action": "average the stock levels", "explain": "opening plus closing inventory halved", "compute": "average_inventory = (opening_inventory + closing_inventory) / 2"},
-    {"step": 3, "action": "divide cost by average stock", "explain": "the quotient is the number of stock turns in the period", "compute": "inventory_turnover_ratio = cost_of_revenue_from_operations / average_inventory"}
+    {
+     "step": 1,
+     "action": "build the cost side",
+     "explain": "opening inventory plus net purchases plus direct expenses such as wages and carriage inwards",
+     "compute": "cost_of_revenue_from_operations = opening_inventory + net_purchases + direct_expenses"
+    },
+    {
+     "step": 2,
+     "action": "average the stock levels",
+     "explain": "opening plus closing inventory halved",
+     "compute": "average_inventory = (opening_inventory + closing_inventory) / 2"
+    },
+    {
+     "step": 3,
+     "action": "divide cost by average stock",
+     "explain": "the quotient is the number of stock turns in the period",
+     "compute": "inventory_turnover_ratio = cost_of_revenue_from_operations / average_inventory"
+    }
    ]
   },
   {
@@ -207,9 +352,24 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "isolate the credit revenue", "explain": "total revenue from operations minus cash revenue from operations", "compute": "credit_revenue_from_operations = total_revenue_from_operations - cash_revenue_from_operations"},
-    {"step": 2, "action": "average the receivables", "explain": "opening debtors and bills receivable plus closing, halved, before provisions", "compute": "average_trade_receivables = (opening_trade_receivables + closing_trade_receivables) / 2"},
-    {"step": 3, "action": "divide", "explain": "credit revenue over average receivables gives the turns per period", "compute": "receivables_turnover_ratio = credit_revenue_from_operations / average_trade_receivables"}
+    {
+     "step": 1,
+     "action": "isolate the credit revenue",
+     "explain": "total revenue from operations minus cash revenue from operations",
+     "compute": "credit_revenue_from_operations = total_revenue_from_operations - cash_revenue_from_operations"
+    },
+    {
+     "step": 2,
+     "action": "average the receivables",
+     "explain": "opening debtors and bills receivable plus closing, halved, before provisions",
+     "compute": "average_trade_receivables = (opening_trade_receivables + closing_trade_receivables) / 2"
+    },
+    {
+     "step": 3,
+     "action": "divide",
+     "explain": "credit revenue over average receivables gives the turns per period",
+     "compute": "receivables_turnover_ratio = credit_revenue_from_operations / average_trade_receivables"
+    }
    ]
   },
   {
@@ -230,9 +390,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "average the payables", "explain": "opening creditors and bills payable plus closing, halved", "compute": "average_trade_payables = (opening_trade_payables + closing_trade_payables) / 2"},
-    {"step": 2, "action": "divide credit purchases by the average", "explain": "net credit purchases over average payables gives the turns", "compute": "payables_turnover_ratio = net_credit_purchases / average_trade_payables"}
-   ]
+    {
+     "step": 1,
+     "action": "average the payables",
+     "explain": "opening creditors and bills payable plus closing, halved",
+     "compute": "average_trade_payables = (opening_trade_payables + closing_trade_payables) / 2"
+    },
+    {
+     "step": 2,
+     "action": "divide credit purchases by the average",
+     "explain": "net credit purchases over average payables gives the turns",
+     "compute": "payables_turnover_ratio = net_credit_purchases / average_trade_payables"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "payables_turnover_ratio = net_credit_purchases / average_trade_payables",
+     "compute": "payables_turnover_ratio = net_credit_purchases / average_trade_payables"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.205.8.4",
@@ -252,8 +431,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "assemble capital employed", "explain": "shareholders' funds plus long-term borrowings and debts", "compute": "capital_employed = shareholders_funds + long_term_debts"},
-    {"step": 2, "action": "divide revenue by the fund base", "explain": "revenue from operations over capital employed gives the turnover", "compute": "capital_employed_turnover = revenue_from_operations / capital_employed"}
+    {
+     "step": 1,
+     "action": "assemble capital employed",
+     "explain": "shareholders' funds plus long-term borrowings and debts",
+     "compute": "capital_employed = shareholders_funds + long_term_debts"
+    },
+    {
+     "step": 2,
+     "action": "divide revenue by the fund base",
+     "explain": "revenue from operations over capital employed gives the turnover",
+     "compute": "capital_employed_turnover = revenue_from_operations / capital_employed"
+    }
    ]
   },
   {
@@ -274,8 +463,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "measure the gross profit", "explain": "revenue from operations less cost of revenue from operations", "compute": "gross_profit = revenue_from_operations - cost_of_revenue_from_operations"},
-    {"step": 2, "action": "express it as a percentage", "explain": "gross profit over revenue, times one hundred", "compute": "gross_profit_ratio = gross_profit / revenue_from_operations * 100"}
+    {
+     "step": 1,
+     "action": "measure the gross profit",
+     "explain": "revenue from operations less cost of revenue from operations",
+     "compute": "gross_profit = revenue_from_operations - cost_of_revenue_from_operations"
+    },
+    {
+     "step": 2,
+     "action": "express it as a percentage",
+     "explain": "gross profit over revenue, times one hundred",
+     "compute": "gross_profit_ratio = gross_profit / revenue_from_operations * 100"
+    }
    ]
   },
   {
@@ -296,8 +495,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "build the operating cost", "explain": "cost of revenue from operations plus operating expenses", "compute": "operating_cost = cost_of_revenue_from_operations + operating_expenses"},
-    {"step": 2, "action": "state it as a percentage of revenue", "explain": "operating cost over revenue from operations, times one hundred", "compute": "operating_ratio = operating_cost / revenue_from_operations * 100"}
+    {
+     "step": 1,
+     "action": "build the operating cost",
+     "explain": "cost of revenue from operations plus operating expenses",
+     "compute": "operating_cost = cost_of_revenue_from_operations + operating_expenses"
+    },
+    {
+     "step": 2,
+     "action": "state it as a percentage of revenue",
+     "explain": "operating cost over revenue from operations, times one hundred",
+     "compute": "operating_ratio = operating_cost / revenue_from_operations * 100"
+    }
    ]
   },
   {
@@ -318,8 +527,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "take the residual of one hundred", "explain": "operating profit ratio equals one hundred minus the operating ratio", "compute": "operating_profit_ratio = 100 - operating_ratio"}
-   ]
+    {
+     "step": 1,
+     "action": "take the residual of one hundred",
+     "explain": "operating profit ratio equals one hundred minus the operating ratio",
+     "compute": "operating_profit_ratio = 100 - operating_ratio"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "operating_profit_ratio = 100 - operating_ratio",
+     "compute": "operating_profit_ratio = 100 - operating_ratio"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.205.9.4",
@@ -339,8 +562,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "confirm the net profit", "explain": "profit after all expenses and incomes, generally taken after tax", "compute": "net_profit = revenue_from_operations - indirect_expenses"},
-    {"step": 2, "action": "state it as a percentage of revenue", "explain": "net profit over revenue from operations, times one hundred", "compute": "net_profit_ratio = net_profit / revenue_from_operations * 100"}
+    {
+     "step": 1,
+     "action": "confirm the net profit",
+     "explain": "profit after all expenses and incomes, generally taken after tax",
+     "compute": "net_profit = revenue_from_operations - indirect_expenses"
+    },
+    {
+     "step": 2,
+     "action": "state it as a percentage of revenue",
+     "explain": "net profit over revenue from operations, times one hundred",
+     "compute": "net_profit_ratio = net_profit / revenue_from_operations * 100"
+    }
    ]
   },
   {
@@ -361,8 +594,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "assemble the capital base", "explain": "shareholders' funds plus long-term borrowings and debts", "compute": "capital_employed = shareholders_funds + long_term_debts"},
-    {"step": 2, "action": "state the return", "explain": "profit before interest and tax over capital employed, times one hundred", "compute": "return_on_capital_employed = profit_before_interest_and_tax / capital_employed * 100"}
+    {
+     "step": 1,
+     "action": "assemble the capital base",
+     "explain": "shareholders' funds plus long-term borrowings and debts",
+     "compute": "capital_employed = shareholders_funds + long_term_debts"
+    },
+    {
+     "step": 2,
+     "action": "state the return",
+     "explain": "profit before interest and tax over capital employed, times one hundred",
+     "compute": "return_on_capital_employed = profit_before_interest_and_tax / capital_employed * 100"
+    }
    ]
   },
   {
@@ -383,8 +626,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "confirm the equity base", "explain": "share capital plus reserves and surplus plus warrant money", "compute": "shareholders_funds = share_capital + reserves_and_surplus"},
-    {"step": 2, "action": "state the owners' return", "explain": "profit after tax over shareholders' funds, times one hundred", "compute": "return_on_shareholders_funds = profit_after_tax / shareholders_funds * 100"}
+    {
+     "step": 1,
+     "action": "confirm the equity base",
+     "explain": "share capital plus reserves and surplus plus warrant money",
+     "compute": "shareholders_funds = share_capital + reserves_and_surplus"
+    },
+    {
+     "step": 2,
+     "action": "state the owners' return",
+     "explain": "profit after tax over shareholders' funds, times one hundred",
+     "compute": "return_on_shareholders_funds = profit_after_tax / shareholders_funds * 100"
+    }
    ]
   },
   {
@@ -405,8 +658,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "reserve the preference claim", "explain": "profit after tax minus the preference dividend is what equity owns", "compute": "earnings_for_equity = profit_after_tax - preference_dividend"},
-    {"step": 2, "action": "spread over the shares", "explain": "divide by the number of equity shares outstanding", "compute": "earnings_per_share = earnings_for_equity / number_of_equity_shares"}
+    {
+     "step": 1,
+     "action": "reserve the preference claim",
+     "explain": "profit after tax minus the preference dividend is what equity owns",
+     "compute": "earnings_for_equity = profit_after_tax - preference_dividend"
+    },
+    {
+     "step": 2,
+     "action": "spread over the shares",
+     "explain": "divide by the number of equity shares outstanding",
+     "compute": "earnings_per_share = earnings_for_equity / number_of_equity_shares"
+    }
    ]
   },
   {
@@ -427,8 +690,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "put dividend over earnings", "explain": "dividend per share divided by earnings per share, times one hundred", "compute": "dividend_payout_ratio = dividend_per_share / earnings_per_share * 100"}
-   ]
+    {
+     "step": 1,
+     "action": "put dividend over earnings",
+     "explain": "dividend per share divided by earnings per share, times one hundred",
+     "compute": "dividend_payout_ratio = dividend_per_share / earnings_per_share * 100"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "dividend_payout_ratio = dividend_per_share / earnings_per_share * 100",
+     "compute": "dividend_payout_ratio = dividend_per_share / earnings_per_share * 100"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -448,9 +725,24 @@
     "short_term_provisions": 0
    },
    "solution_template": [
-    {"step": 1, "action": "total the current assets", "explain": "50000 + 50000 + 4000 + 30000 = 134000", "compute": "current_assets = inventories + trade_receivables + cash_and_equivalents + prepaid_expenses"},
-    {"step": 2, "action": "total the current liabilities", "explain": "100000 + 4000 + 0 = 104000", "compute": "current_liabilities = trade_payables + short_term_borrowings + short_term_provisions"},
-    {"step": 3, "action": "divide", "explain": "134000 / 104000 = 1.2885, about 1.29 : 1", "compute": "current_ratio = current_assets / current_liabilities"}
+    {
+     "step": 1,
+     "action": "total the current assets",
+     "explain": "50000 + 50000 + 4000 + 30000 = 134000",
+     "compute": "current_assets = inventories + trade_receivables + cash_and_equivalents + prepaid_expenses"
+    },
+    {
+     "step": 2,
+     "action": "total the current liabilities",
+     "explain": "100000 + 4000 + 0 = 104000",
+     "compute": "current_liabilities = trade_payables + short_term_borrowings + short_term_provisions"
+    },
+    {
+     "step": 3,
+     "action": "divide",
+     "explain": "134000 / 104000 = 1.2885, about 1.29 : 1",
+     "compute": "current_ratio = current_assets / current_liabilities"
+    }
    ]
   },
   {
@@ -466,8 +758,18 @@
     "current_liabilities": 104000
    },
    "solution_template": [
-    {"step": 1, "action": "peel off the illiquid items", "explain": "134000 - 50000 - 4000 = 80000", "compute": "quick_assets = current_assets - inventories - prepaid_expenses"},
-    {"step": 2, "action": "divide by current liabilities", "explain": "80000 / 104000 = 0.7692, about 0.77 : 1", "compute": "quick_ratio = quick_assets / current_liabilities"}
+    {
+     "step": 1,
+     "action": "peel off the illiquid items",
+     "explain": "134000 - 50000 - 4000 = 80000",
+     "compute": "quick_assets = current_assets - inventories - prepaid_expenses"
+    },
+    {
+     "step": 2,
+     "action": "divide by current liabilities",
+     "explain": "80000 / 104000 = 0.7692, about 0.77 : 1",
+     "compute": "quick_ratio = quick_assets / current_liabilities"
+    }
    ]
   },
   {
@@ -483,10 +785,30 @@
     "interest_rate": 0.15
    },
    "solution_template": [
-    {"step": 1, "action": "gross the profit back up for tax", "explain": "60000 x 100 / (100 - 40) = 100000", "compute": "profit_before_tax = profit_after_tax * 100 / (100 - tax_rate_percent)"},
-    {"step": 2, "action": "price the interest bill", "explain": "1000000 x 0.15 = 150000", "compute": "interest_on_long_term_debts = long_term_debts * interest_rate"},
-    {"step": 3, "action": "add interest back", "explain": "100000 + 150000 = 250000", "compute": "profit_before_interest_and_tax = profit_before_tax + interest_on_long_term_debts"},
-    {"step": 4, "action": "divide by interest", "explain": "250000 / 150000 = 1.6667 times", "compute": "interest_coverage_ratio = profit_before_interest_and_tax / interest_on_long_term_debts"}
+    {
+     "step": 1,
+     "action": "gross the profit back up for tax",
+     "explain": "60000 x 100 / (100 - 40) = 100000",
+     "compute": "profit_before_tax = profit_after_tax * 100 / (100 - tax_rate_percent)"
+    },
+    {
+     "step": 2,
+     "action": "price the interest bill",
+     "explain": "1000000 x 0.15 = 150000",
+     "compute": "interest_on_long_term_debts = long_term_debts * interest_rate"
+    },
+    {
+     "step": 3,
+     "action": "add interest back",
+     "explain": "100000 + 150000 = 250000",
+     "compute": "profit_before_interest_and_tax = profit_before_tax + interest_on_long_term_debts"
+    },
+    {
+     "step": 4,
+     "action": "divide by interest",
+     "explain": "250000 / 150000 = 1.6667 times",
+     "compute": "interest_coverage_ratio = profit_before_interest_and_tax / interest_on_long_term_debts"
+    }
    ]
   },
   {
@@ -502,9 +824,24 @@
     "direct_expenses": 18000
    },
    "solution_template": [
-    {"step": 1, "action": "build the cost side", "explain": "18000 + 46000 + (14000 + 4000) = 82000", "compute": "cost_of_revenue_from_operations = opening_inventory + net_purchases + direct_expenses"},
-    {"step": 2, "action": "average the stock levels", "explain": "(18000 + 22000) / 2 = 20000", "compute": "average_inventory = (opening_inventory + closing_inventory) / 2"},
-    {"step": 3, "action": "divide cost by average stock", "explain": "82000 / 20000 = 4.1 times", "compute": "inventory_turnover_ratio = cost_of_revenue_from_operations / average_inventory"}
+    {
+     "step": 1,
+     "action": "build the cost side",
+     "explain": "18000 + 46000 + (14000 + 4000) = 82000",
+     "compute": "cost_of_revenue_from_operations = opening_inventory + net_purchases + direct_expenses"
+    },
+    {
+     "step": 2,
+     "action": "average the stock levels",
+     "explain": "(18000 + 22000) / 2 = 20000",
+     "compute": "average_inventory = (opening_inventory + closing_inventory) / 2"
+    },
+    {
+     "step": 3,
+     "action": "divide cost by average stock",
+     "explain": "82000 / 20000 = 4.1 times",
+     "compute": "inventory_turnover_ratio = cost_of_revenue_from_operations / average_inventory"
+    }
    ]
   },
   {
@@ -518,8 +855,18 @@
     "cost_of_revenue_from_operations": 120000
    },
    "solution_template": [
-    {"step": 1, "action": "measure the gross profit", "explain": "340000 - 120000 = 220000", "compute": "gross_profit = revenue_from_operations - cost_of_revenue_from_operations"},
-    {"step": 2, "action": "express it as a percentage", "explain": "220000 / 340000 x 100 = 64.71 percent", "compute": "gross_profit_ratio = gross_profit / revenue_from_operations * 100"}
+    {
+     "step": 1,
+     "action": "measure the gross profit",
+     "explain": "340000 - 120000 = 220000",
+     "compute": "gross_profit = revenue_from_operations - cost_of_revenue_from_operations"
+    },
+    {
+     "step": 2,
+     "action": "express it as a percentage",
+     "explain": "220000 / 340000 x 100 = 64.71 percent",
+     "compute": "gross_profit_ratio = gross_profit / revenue_from_operations * 100"
+    }
    ]
   }
  ],

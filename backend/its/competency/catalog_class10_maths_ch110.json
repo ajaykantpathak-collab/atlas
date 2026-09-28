@@ -20,7 +20,7 @@
     "determine if a line intersecting a circle twice is a secant",
     "find the maximum number of parallel tangents to a circle for a given secant"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,16 @@
      "action": "State the geometric definition of the line",
      "explain": "Conclude whether the line is a secant (2 points), tangent (1 point), or non-intersecting (0 points) based on the classification."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 49 gives 308",
+     "compute": "circ = 2 * 22 / 7 * 49"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.110.2.1",
@@ -54,7 +63,7 @@
     "explain why normal to a circle at point of contact passes through centre",
     "demonstrate perpendicularity between tangent and radius at contact point"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -71,7 +80,16 @@
      "action": "Conclude perpendicularity",
      "explain": "OP is the shortest distance from centre O to line XY, so OP is perpendicular to XY."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 35 gives 220",
+     "compute": "circ = 2 * 22 / 7 * 35"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.110.2.2",
@@ -217,7 +235,7 @@
     "explain why tangents drawn from same external point have same length",
     "demonstrate equality of external tangents using triangle congruence"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -234,7 +252,16 @@
      "action": "State equality of corresponding parts",
      "explain": "By CPCT, tangent lengths PQ and PR are equal."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 77 gives 484",
+     "compute": "circ = 2 * 22 / 7 * 77"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.110.3.2",
@@ -373,7 +400,7 @@
     "explain why opposite sides subtend supplementary angles at centre",
     "demonstrate property AB plus CD equals AD plus BC for circumscribed quadrilateral"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -390,7 +417,16 @@
      "action": "Add opposite sides",
      "explain": "AB + CD = (AP + PB) + (CR + RD) = (AS + BQ) + (CQ + DS) = (AS + SD) + (BQ + QC) = AD + BC."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the quadrilateral property to compute the value",
+     "explain": "use the quadrilateral property to compute the value: adj = 180 - 70 gives 110",
+     "compute": "adj = 180 - 70"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.110.3.6",

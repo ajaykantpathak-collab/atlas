@@ -34,6 +34,26 @@
      "q": "Design a two-map infographic for a Class 12 geography project titled \"India's Digital Divide: 2015 vs 2023.\" Specify: (a) the two choropleth variables you would map (one per map), (b) the data source for each, (c) the classification scheme (number of classes, method), and (d) one key spatial pattern each map should reveal.",
      "a": "Good answer criteria: Map 1 (2015): Variable = % households with internet access (any device). Source = NSSO 71st Round (2014-15) or NFHS-4. Classes = 5 (natural breaks/Jenks). Pattern = Southern/Western states (Kerala, Goa, Maharashtra, Gujarat) >30%; Northern/Central/Eastern states (Bihar, UP, Odisha, Jharkhand) <10%. Map 2 (2023): Variable = % population using internet (3-month recall). Source = TRAI/ITU estimates or NFHS-5 (2019-21) projected. Classes = 5 (same breaks for comparability). Pattern = Overall rise but persistent North-South gap; urban clusters (Delhi, Mumbai, Bangalore, Hyderabad) >85%; rural Bihar/UP still <30%. Bonus: inset map showing BharatNet Phase-I/II GP connectivity status. Poor answer: uses absolute user numbers (not rates), different class breaks (non-comparable), or maps only urban areas.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The digital divide refers to the unequal access to, use of, and benefits from Information and ______ Technologies (ICTs) — particularly the internet, computers, and mobile broadband — across different regions, socio-economic groups, and demographic segments globally.",
+     "a": "Communication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real-world observation: ask the student to compare their own internet experience (speed, cost, ______) with that of a cousin in a village or a peer in a low-income household.",
+     "a": "reliability",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) map global internet penetration patterns using ITU/World Bank data and explain the North-South divide, urban-rural gap, and gender gap with specific regional examples; (2) analyze how infrastructure, affordability, literacy, and policy interact to widen or narrow the divide in a given country context (e.g., India's.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real-world ______: ask the student to compare their own internet experience (speed, cost, reliability) with that of a cousin in a village or a peer in a low-income household.",
+     "a": "observation",
+     "self_check": true
     }
    ]
   }

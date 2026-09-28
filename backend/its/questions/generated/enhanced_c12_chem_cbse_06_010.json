@@ -34,6 +34,31 @@
      "q": "Design a simple chemical test (using reagents available in a school laboratory) to distinguish between chloroform (CHCl₃) and carbon tetrachloride (CCl₄). Write the expected observations and the chemical equations for the reactions involved.",
      "a": "Add alcoholic AgNO₃ to each and heat. CHCl₃ undergoes hydrolysis (accelerated by Ag⁺ precipitating Cl⁻) to give formate and AgCl precipitate (white, soluble in NH₃). CCl₄ does not react (no AgCl precipitate) under the same conditions because it lacks the acidic H for the carbenoid pathway. Alternatively, add NaOH solution and heat: CHCl₃ gives a clear solution (soluble formate), CCl₄ remains as a separate liquid layer. A poor answer uses flame test (both non-flammable) or ignores the role of Ag⁺ in driving hydrolysis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ compounds are carbon compounds containing more than one halogen atom.",
+     "a": "Polyhalogen",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine opening an old first-aid kit and finding a dark glass bottle labelled \"Chloroform – ______\" – that bottle is dark and full for a reason.",
+     "a": "Anaesthetic",
+     "self_check": true
+    },
+    {
+     "q": "What is Polyhalogen compounds? State the definition given in this lesson.",
+     "a": "Polyhalogen compounds are carbon compounds containing more than one halogen atom.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Polyhalogen compounds?",
+     "a": "Students often write the hydrolysis product of chloroform as CO₂ and HCl (complete oxidation) instead of formate (HCOO⁻).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) write balanced equations for the laboratory/industrial preparation of CHCl₃, CCl₄, and DDT; (2) predict and explain their hydrolysis products under acidic/basic conditions; (3) describe the mechanism of chloroform oxidation to phosgene and its storage implications; (4) evaluate the environmental impact of these compounds.",
+     "self_check": true
     }
    ]
   }

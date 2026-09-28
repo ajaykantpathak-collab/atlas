@@ -34,6 +34,26 @@
      "q": "Design a new query on the CARSHOWROOM database that uses HAVING with *two* aggregate conditions (e.g., count and average) to find car models that have been sold more than once and whose average sale price exceeds 600000. Write the full query and explain the business insight it provides.",
      "a": "```sql\nSELECT CarId, COUNT(*) AS SaleCount, AVG(SalePrice) AS AvgPrice\nFROM SALE\nGROUP BY CarId\nHAVING COUNT(*) > 1 AND AVG(SalePrice) > 600000;\n```\nThis identifies car models that are both popular (multiple sales) and high-value (average price above 6 lakh). A poor answer might use WHERE for one condition, or forget to include both aggregates in HAVING, or group by the wrong column.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The HAVING clause in SQL is used to filter groups of rows after ______ (GROUP BY) based on a condition that involves aggregate functions (e.g., COUNT, SUM, AVG, MAX, MIN).",
+     "a": "aggregation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the sales manager of the ______ and you want to identify customers who have purchased more than one car — but you only care about the *count* of purchases per customer, not the individual sale rows.",
+     "a": "CARSHOWROOM",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now you need to keep only those groups where the count exceeds ______.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write a SELECT query that uses GROUP BY to form groups, applies aggregate functions in the SELECT list, and then uses HAVING to retain only those groups satisfying a condition on the aggregates.",
+     "self_check": true
     }
    ]
   }

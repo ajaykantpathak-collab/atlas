@@ -1,0 +1,114 @@
+{
+ "catalog": "catalog_class10_science_ch104.json",
+ "concepts": [
+  {
+   "id": "jesc.4.2.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "n = 93",
+      "hydrogen_count = 2 * n + 2",
+      "molecular_mass = 12 * n + 1 * (2 * n + 2)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "n = 25",
+      "hydrogen_count = 2 * n + 2",
+      "molecular_mass = 12 * n + 1 * (2 * n + 2)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "n = 39",
+      "hydrogen_count = 2 * n + 2",
+      "molecular_mass = 12 * n + 1 * (2 * n + 2)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "n = 70",
+      "hydrogen_count = 2 * n + 2",
+      "molecular_mass = 12 * n + 1 * (2 * n + 2)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "n = 76",
+      "hydrogen_count = 2 * n + 2",
+      "molecular_mass = 12 * n + 1 * (2 * n + 2)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "n = 80",
+      "hydrogen_count = 2 * n + 2",
+      "molecular_mass = 12 * n + 1 * (2 * n + 2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "hydrogen_count = 2 * n + 2",
+    "molecular_mass = 12 * n + 1 * (2 * n + 2)"
+   ]
+  },
+  {
+   "id": "jesc.4.2.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "delta_n = 4.8",
+      "mass_diff = delta_n * 14"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "delta_n = 10.8",
+      "mass_diff = delta_n * 14"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "delta_n = 13.1",
+      "mass_diff = delta_n * 14"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "delta_n = 15.4",
+      "mass_diff = delta_n * 14"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "delta_n = 12.6",
+      "mass_diff = delta_n * 14"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "delta_n = 4.2",
+      "mass_diff = delta_n * 14"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "mass_diff = delta_n * 14"
+   ]
+  }
+ ]
+}

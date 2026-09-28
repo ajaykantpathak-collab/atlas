@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a smartphone and a Bluetooth speaker to measure the speed of sound using the Doppler Effect. Describe the procedure, measurements needed, and the formula you would use to calculate \\(v\\). Assume you can measure frequency accurately using a spectrum analyzer app.",
      "a": "Procedure: (1) Fix a Bluetooth speaker on a toy car moving at constant known speed \\(v_s\\) (measure with stopwatch and meter tape). (2) Speaker plays a pure tone of known frequency \\(f\\) (e.g., 1000 Hz from a signal generator app). (3) Smartphone with spectrum analyzer app acts as stationary observer at a fixed position on the car's path. (4) Record the frequency \\(f'\\) when the car approaches directly toward the phone. (5) Use formula \\(f' = f \\frac{v}{v - v_s}\\) (observer stationary, source moving toward). Solve for \\(v\\): \\(v = \\frac{f' v_s}{f' - f}\\). (6) Repeat for receding case \\(f'' = f \\frac{v}{v + v_s}\\) for verification. Key requirement: car speed \\(v_s\\) must be known independently (not from Doppler shift). A poor answer would suggest using the phone as both source and observer (circular) or ignoring the need to know \\(v_s\\) independently.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Doppler Effect is the apparent change in frequency (or ______) of a wave when there is relative motion between the source of the wave and the observer.",
+     "a": "wavelength",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stand near a railway crossing and listen to a train's horn as it ______ and passes you — the pitch drops sharply at the moment it crosses.",
+     "a": "approaches",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the Doppler shift formula for all three cases (source moving, observer moving, both moving) from first principles using wavefront arguments, correctly apply sign conventions in numerical problems involving multiple moving objects, and explain why the effect is symmetric for light but asymmetric for sound (medium.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Create a real-world problem (Indian context) where external division is needed, not internal division. The problem must involve finding a point on a road or path that lies beyond a landmark. State the problem clearly with coordinates and ratio.",
      "a": "Example: \"A straight highway connects City A at coordinate (10, 20) and City B at (40, 50). A new rest stop is to be built on the highway extension beyond City B such that its distance from City B is half its distance from City A. Find the coordinates of the rest stop.\" This requires external division in ratio 3:2 (since AB:BP = 2:1 means AP:PB = 3:1 externally? Wait: if BP = k, AP = 2k, then AB = k, so AP:PB = 2:1 externally). A poor answer would create a problem where the point lies between the cities (internal division) or uses distances that don't correspond to a clear ratio.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If a point P(x, y) divides the line segment joining two points A(x₁, y₁) and B(x₂, y₂) externally in the ratio m:n (where m ≠ n), then the ______ of P are given by x = (mx₂ - nx₁)/(m - n) and y = (my₂ - ny₁)/(m - n).",
+     "a": "coordinates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're ______ at point A(2, 3) and your friend is at B(8, 9).",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the external division formula from the internal division formula using directed segments, solve problems finding coordinates of points dividing a segment externally in a given ratio, and determine the ratio in which a given point divides a segment externally.",
+     "self_check": true
     }
    ]
   }

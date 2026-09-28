@@ -34,6 +34,21 @@
      "q": "Design a real-world scenario (Indian context) where a function would be essential, and write a pseudocode function signature (name, parameters, return type) for it. Explain which two advantages are most critical in your scenario.",
      "a": "Scenario: A railway ticketing system calculates fare based on distance, class (sleeper/AC), and passenger category (senior citizen, student, general). Pseudocode:\n```\nfunction calculate_fare(distance_km: int, travel_class: str, category: str) -> float\n```\nCritical advantages: **abstraction** (complex fare rules with concessions are hidden behind one call) and **maintainability** (when railway revises concession percentages, only this function is updated). A poor answer that picks a trivial scenario (e.g., \"add two numbers\") or names generic advantages without tying them to the scenario's specifics shows inability to map concepts to realistic domain problems.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A function in Python is a named, reusable block of code that performs a specific task, optionally accepts input values (parameters), executes a sequence of statements, and optionally returns a result; it enables modular programming by ______ logic into a single unit that can be invoked multiple times from different parts of a program.",
+     "a": "encapsulating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a program to calculate GST for hundreds of invoices in a shop—writing the same tax ______ formula repeatedly would make the code long, error-prone, and hard to update when tax rates change.",
+     "a": "calculation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the purpose and advantages of functions in their own words, identify when a problem requires a function versus inline code, and distinguish between built-in functions (e.g., print(), len()) and user-defined functions with correct terminology.",
+     "self_check": true
     }
    ]
   }

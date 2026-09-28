@@ -34,6 +34,31 @@
      "q": "Construct a 3-panel infographic storyboard for a Class 11 exhibition titled \"India's Employment Journey 1972–2024.\" Panel 1: Sectoral shift. Panel 2: Status shift. Panel 3: The GDP-Employment Gap. For each panel, specify: (a) one key data point from Table 6.3/Chart 6.3, (b) one visual metaphor, (c) one policy implication.",
      "a": "Panel 1 (Sectoral): Data — Primary 74% → 46%, Services 15% → 30%. Visual — A tractor morphing into a laptop. Policy — Skilling for services, not just manufacturing. Panel 2 (Status): Data — Casual 23% → 32% (peak) → 20%, Regular 15% → 22%. Visual — A permanent ID card turning into a daily wage chit, then back to ID. Policy — Social security portability for gig/casual workers. Panel 3 (Gap): Data — GDP growth ~6%, Employment growth ~1.5% (post-2005). Visual — Two diverging arrows: GDP rocket, employment snail. Policy — Employment-intensive sector incentives (labour-intensive manufacturing, care economy). A weak answer uses generic icons without data anchoring or policy specificity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Growth of ______ refers to the rate of change in the total number of workers engaged in economic activities over a specific period, typically measured as a percentage change per annum.",
+     "a": "employment",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine reading a 2024 newspaper headline: \"India's GDP grows at 7.2%, but ______ rate hits 45-year high.\" Your grandfather says, \"In my time, factory jobs were secure.\" Your cousin works as a freelance graphic designer from home.",
+     "a": "unemployment",
+     "self_check": true
+    },
+    {
+     "q": "What is Growth of employment? State the definition given in this lesson.",
+     "a": "Growth of employment refers to the rate of change in the total number of workers engaged in economic activities over a specific period, typically measured as a percentage change per annum.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Growth of employment?",
+     "a": "Students believe \"sectoral shift from primary to tertiary means agriculture jobs disappeared.\" In reality, Table 6.3 shows primary sector *absolute* employment barely fell (46% of a much larger workforce ≈ same millions as 1972).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate and interpret employment growth rates from NSSO/PLFS data, explain the jobless growth paradox using sectoral and status-wise trends (1972–2024), and evaluate why casualisation increased despite rising GDP, using Table 6.3 and Chart 6.3 as evidence.",
+     "self_check": true
     }
    ]
   }

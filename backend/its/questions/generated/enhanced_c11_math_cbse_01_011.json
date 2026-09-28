@@ -34,6 +34,26 @@
      "q": "Construct a real-world scenario (Indian context) involving two sets where finding the difference A − B gives meaningful information that B − A would not. Describe the sets, the difference, and its interpretation.",
      "a": "Example: A = set of students who applied for JEE Advanced 2024; B = set of students who qualified JEE Advanced 2024. A − B = students who applied but did NOT qualify (useful for counselling alternatives). B − A is empty (no one qualifies without applying). A poor answer gives symmetric scenarios like \"cricket team vs football team\" where both differences are equally meaningful, missing the directional nature of the operation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ of two sets A and B, denoted by A − B, is the set of all elements that belong to A but do not belong to B.",
+     "a": "difference",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school has two clubs: the ______ Club (set S) and the Debate Club (set D).",
+     "a": "Science",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly compute set differences for any two given sets (finite or described in set-builder form), represent A − B and B − A on Venn diagrams with proper shading, and prove that A − B, A ∩ B, and B − A are pairwise disjoint.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ your school has two clubs: the Science Club (set S) and the Debate Club (set D).",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

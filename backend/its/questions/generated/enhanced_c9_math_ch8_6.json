@@ -34,6 +34,31 @@
      "q": "Create a real-life problem (Indian context) that requires finding the sum of an AP where the common difference is negative. Provide the problem statement and the solution.",
      "a": "Example problem: \"A water tank has 5000 litres. Each day 150 litres are used and not replenished. How much water remains after 20 days? Also find the total water used in 20 days.\" Solution: Water used forms AP: 150, 150, ... (actually constant, but if usage increases by 10 litres each day: 150, 160, 170,...). Better: \"A penalty for late return of a library book is ₹5 on day 1, ₹4 on day 2, ₹3 on day 3, decreasing by ₹1 each day. Find total penalty for 5 days.\" AP: a=5, d=-1, n=5. S_5 = 5/2[10 + 4(-1)] = 2.5[6] = 15. If the student creates a problem with positive d only, they haven't grasped negative common difference.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The sum of the first n terms of an arithmetic ______ (AP) is the total obtained by adding the first n terms of the sequence, where the terms increase or decrease by a constant common difference d.",
+     "a": "progression",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ money every week: you put ₹10 in the first week, ₹15 in the second, ₹20 in the third, and so on, increasing by ₹5 each week.",
+     "a": "saving",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Recall the nth term formula from the previous node: a_n = a + (n-______)d.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly compute the sum of the first n terms of an AP given any two of the three parameters (a, d, n) or given the first and last term, and can solve word problems that require finding n, a, or d when the sum is known.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are saving money every week: you put ₹10 in the first week, ₹15 in the second, ₹20 in the third, and so on, ______ by ₹5 each week.",
+     "a": "increasing",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a simple identification flowchart (using only burning test and microscopic longitudinal view) that distinguishes between viscose rayon, nylon 6,6, polyester, and acrylic. Provide the key decision points.",
      "a": "Flowchart: \n1. Burning test: \n   - Burns with paper smell, grey ash → cellulosic → go to step 2a. \n   - Melts, sweet odour, hard bead → synthetic → go to step 2b. \n   - Melts, acrid fishy odour, black bead → likely nylon → confirm with step 3. \n   - Melts, sweet/chemical odour, hard black bead → likely polyester → confirm with step 3. \n   - Melts, acrid pungent odour, irregular hard bead → likely acrylic → confirm with step 3. \n2a. Microscopic longitudinal: striated lines → viscose rayon. \n2b. Microscopic longitudinal: smooth, rod-like → nylon/polyester/acrylic (all similar). \n3. Solubility test (optional): nylon dissolves in formic acid; polyester in meta-cresol; acrylic in DMF. \nA poor answer omits the melting vs burning distinction or relies only on odour without bead observation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Manufactured fibres are fibres produced entirely by humans through chemical processes, classified into regenerated fibres (made from natural polymers like cellulose or protein that are chemically modified and reconstituted, e.g., rayon, acetate) and synthetic fibres (made from synthetic polymers derived from ______, e.g., nylon, polyester, acrylic).",
+     "a": "petrochemicals",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a summer sports T-shirt that must wick sweat, dry quickly, and retain shape after ______ washing.",
+     "a": "repeated",
+     "self_check": true
+    },
+    {
+     "q": "What is Manufactured fibres? State the definition given in this lesson.",
+     "a": "Manufactured fibres are fibres produced entirely by humans through chemical processes, classified into regenerated fibres (made from natural polymers like cellulose or protein that are chemically modified and reconstituted, e.g., rayon, acetate) and synthetic fibres (made from synthetic polymers derived from petrochemicals, e.g., nylon.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Manufactured fibres?",
+     "a": "Students often think \"regenerated fibres are natural fibres\" because they originate from cellulose or protein.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can differentiate between regenerated and synthetic fibres based on raw material source, polymer structure, and key properties; predict the behaviour of a given manufactured fibre in burning, moisture, heat, and chemical tests; and justify the selection of a specific fibre for a given end-use (e.g., sportswear, upholstery.",
+     "self_check": true
     }
    ]
   }

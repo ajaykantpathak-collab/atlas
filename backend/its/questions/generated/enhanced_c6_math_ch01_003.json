@@ -34,6 +34,31 @@
      "q": "Create a 4-digit number where the place value of the digit '9' is exactly 9,000. How did you decide where to place it?",
      "a": "Any number like 9,123 works. A poor answer (like 1,923) shows the student does not understand that 'thousands' corresponds to the first position from the left in a 4-digit number.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The face value of a digit is its own value ______ of its position, while the place value is the value of a digit based on its specific position (ones, tens, hundreds, thousands) in a number.",
+     "a": "regardless",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If you have a 500-rupee note, a 50-rupee note, and a 5-rupee coin, each '5' has a different meaning: one is worth five ______, one is worth fifty, and one is worth five.",
+     "a": "hundred",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The \"face\" of the digit is always the same (it always looks like ______), but its \"power\" or \"place value\" changes depending on where it sits in line.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must correctly identify both the face value and the place value of any digit in a 5-digit number and express the number as a sum of its place values (expanded form).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If you have a 500-rupee note, a 50-rupee note, and a 5-rupee coin, each '5' has a different ______: one is worth five hundred, one is worth fifty, and one is worth five.",
+     "a": "meaning",
+     "self_check": true
     }
    ]
   }

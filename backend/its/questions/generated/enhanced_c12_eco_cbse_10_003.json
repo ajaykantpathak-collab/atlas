@@ -34,6 +34,31 @@
      "q": "Construct a numerical example showing how the saving function changes when autonomous consumption increases from 100 to 150, keeping MPC constant at 0.8. Show the old and new saving functions, and explain the economic intuition.",
      "a": "Old: C = 100 + 0.8Y → S = -100 + 0.2Y. New: C = 150 + 0.8Y → S = -150 + 0.2Y. The intercept shifts down from -100 to -150 (more dissaving at zero income), slope (MPS=0.2) unchanged. Intuition: Higher autonomous consumption means households spend more at every income level, leaving less for saving. A good answer shows both functions, calculates S at Y=500 for both (Old: 0, New: -50), and explains the downward parallel shift. A poor answer only states the formula without numerical illustration or economic reasoning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Saving Function shows the functional ______ between aggregate savings (S) and national income (Y), expressed as S = f(Y).",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: They ______ ₹45,000 on rent, food, transport, and save ₹5,000.",
+     "a": "spend",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The slope (______-b) is MPS, the vertical intercept -a is autonomous dissaving.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the saving function from a given consumption function, calculate MPS and APS at different income levels, explain why MPS + MPC = 1, and interpret the economic meaning of the intercept and slope of the saving function graphically and algebraically.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: They spend ₹45,000 on rent, food, ______, and save ₹5,000.",
+     "a": "transport",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "A CREATE level question: Design a cloning strategy to insert a cDNA fragment (with no internal NotI sites) into a vector such that: (i) the insert orientation is fixed relative to the promoter, (ii) the vector cannot self-ligate, (iii) the final construct has no NotI site at the junctions. Specify enzymes, modifications, and the expected junction sequences.",
      "a": "Expected answer: Cut vector with NotI (5'-GC↓GGCCGC-3', 5' overhang CGGCC). Cut insert with NotI + a second enzyme (e.g., SalI, 5'-G↓TCGAC-3') at the other end, or engineer NotI + SalI sites via PCR primers. Dephosphorylate vector with CIP. Ligate. Junction 1: NotI-NotI regenerates NotI site (undesirable per iii) — so instead use NotI on vector and a compatible-but-different enzyme on insert (e.g., AscI, 5'-GG↓CGCGCC-3', leaves CGGC overhang — NOT compatible). Better: Use two different rare-cutters (NotI + SfiI) on vector, match with PCR-engineered ends on insert. A poor answer that simply says \"use two enzymes\" without specifying compatibility, dephosphorylation, and junction analysis shows the student cannot synthesise a complete cloning workflow — they will produce constructs with unwanted restriction sites or wrong orientation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sticky ends (cohesive ends) are single-stranded DNA overhangs generated when a restriction endonuclease cuts ______ within its palindromic recognition sequence, leaving complementary 5' or 3' overhangs that can base-pair with matching ends.",
+     "a": "asymmetrically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a ______ vector cut with EcoRI (sticky ends: 5'-AATT overhangs) and your target gene cut with BamHI (sticky ends: 5'-GATC overhangs).",
+     "a": "plasmid",
+     "self_check": true
+    },
+    {
+     "q": "What is Sticky ends (cohesive ends)? State the definition given in this lesson.",
+     "a": "Sticky ends (cohesive ends) are single-stranded DNA overhangs generated when a restriction endonuclease cuts asymmetrically within its palindromic recognition sequence, leaving complementary 5' or 3' overhangs that can base-pair with matching ends.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by drawing the cleavage pattern of any ______-bp palindromic site — that single skill unlocks every ligation decision.",
+     "a": "6",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Sticky ends (cohesive ends)?",
+     "a": "Students often believe that any two sticky ends can ligate if they are both \"sticky,\" ignoring sequence complementarity.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) identify whether a given restriction enzyme produces sticky or blunt ends from its recognition sequence, (2) predict ligation compatibility and directionality for any vector-insert pair, and (3) design a cloning strategy that exploits sticky ends for directional insertion or blunt ends when forced, including necessary.",
+     "self_check": true
     }
    ]
   }

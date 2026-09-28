@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_06_006",
+   "title": "c11_leg_cbse_06_006",
+   "questions": [
+    {
+     "q": "In the Speluncean Explorers case, Chief Justice Truepenny upholds the conviction but recommends executive clemency. Which school of jurisprudence does his reasoning MOST closely align with, and what is the ONE defining feature of that school that explains his refusal to create a judicial exception?",
+     "a": "Analytical School (Positivism). Defining feature: Strict separation of law and morality — law is the command of the sovereign, and judges must apply it as written without importing moral considerations. A wrong answer (e.g., Natural Law) reveals the student conflates \"recommending mercy\" with \"basing legal validity on morality\" — Truepenny explicitly says mercy belongs to the executive, not the judiciary, which is the hallmark of positivist separation of powers.",
+     "self_check": true
+    },
+    {
+     "q": "Justice Foster argues the explorers were in a \"state of nature\" where natural law applies, and alternatively, that a \"purposive interpretation\" of the statute permits an exception. Explain why these are actually TWO DIFFERENT jurisprudential arguments, not one, and which school each belongs to.",
+     "a": "First argument (state of nature → natural law governs) = Natural Law School (law derives from morality/nature, not human enactment). Second argument (purposive interpretation of statute) = Sociological School (law as a tool to balance social interests; statute's purpose = deterrence, which fails here). A wrong answer merging them shows the student cannot distinguish between \"law's source is morality\" (Natural) vs. \"law's function is social engineering\" (Sociological) — Foster deliberately offers alternative grounds.",
+     "self_check": true
+    },
+    {
+     "q": "Apply Justice Keen's positivist reasoning to a NEW fact pattern: Parliament passes a law requiring all citizens to report neighbors' \"anti-national speech\" on pain of imprisonment. A citizen refuses, citing moral conscience. How would Keen decide, and what TWO specific positivist principles compel this outcome?",
+     "a": "Keen would convict. Principles: (1) Law = command of sovereign backed by sanction — the statute is validly enacted, so it IS law regardless of moral content. (2) Separation of powers — judges apply law, they don't judge its morality; moral objections belong to the legislature/executive. A wrong answer (e.g., \"Keen would acquit because it's unjust\") reveals the student still thinks natural law overrides positive law — the core confusion between \"law as it is\" vs. \"law as it ought to be.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare how the Historical School (Savigny) and the Realist School (Llewellyn) would view the SAME judicial precedent. What is the FUNDAMENTAL difference in what each school considers the \"real source of law\"?",
+     "a": "Historical School: Source = custom/common consciousness of the people (Volksgeist); precedent merely evidences evolving custom. Realist School: Source = what judges actually DO (judicial behavior); precedent is the law because courts follow it. Fundamental difference: Historical looks backward to organic social evolution; Realist looks forward to predictive judicial behavior. A wrong answer confusing them shows the student misses that Historical sees law as DISCOVERED in tradition, while Realist sees law as MADE in courtrooms.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The revival of Natural Law in the 20th century was a NECESSARY correction to Analytical Positivism's failures.\" Use the Speluncean Explorers opinions and the rise of fascism/Nazism (referenced in the textbook) to defend or critique this claim with TWO specific arguments.",
+     "a": "Defensible with nuance. Argument 1 (for): Positivism's \"law = command\" failed to condemn Nazi laws — they were validly enacted, so positivism offered no internal critique. Natural law's \"unjust law is no law\" (lex iniusta non est lex) provided moral resistance. Argument 2 (against): Natural law's revival created judicial activism risks (Justice Foster/Tatting/Handy) where judges substitute personal morality for democratic legislation — the \"government of judges\" problem. A poor evaluation treats it as purely good/bad without engaging the Nazi/positivism historical link the textbook explicitly makes.",
+     "self_check": true
+    },
+    {
+     "q": "CREATE a novel 3-judge panel for a modern Indian case: \"A state bans hijab in educational institutions citing uniformity; petitioners claim religious freedom.\" Design ONE judge from each of three schools (choose any three) and write a 2-sentence core reasoning for each that unmistakably signals their school. Label each judge's school.",
+     "a": "Example: Judge A (Natural): \"The right to religious expression is a pre-constitutional natural right; no statute can abrogate what the Constitution merely recognizes.\" Judge B (Sociological): \"In a pluralistic society, the law's function is balancing competing claims to dignity; a blanket ban disproportionately harms minority women's educational access without advancing genuine uniformity.\" Judge C (Realist): \"Given this Court's recent precedent in [X], the bench composition suggests a 2-1 split upholding the ban — the 'real law' is what this configuration of judges will likely do.\" Good answers show distinct reasoning STRUCTURES, not just different conclusions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

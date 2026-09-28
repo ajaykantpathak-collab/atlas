@@ -4,21 +4,9 @@
   {
    "id": "gegp.5.1.1",
    "title": "Statistical Questions",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the mean/median/mode definition",
-     "explain": "apply the mean/median/mode definition: total = sum((16, 13, 6, 2, 6)) gives 43",
-     "compute": "total = sum((16, 13, 6, 2, 6))"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 8.6",
-     "compute": "mean = total / 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "none",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 16, 13, 6, 2, 6.",
@@ -56,6 +44,8 @@
    "id": "gegp.5.2.1",
    "title": "Arithmetic Mean",
    "converted_to_compute": false,
+   "formula": "mean = sum_of_values / count_of_values",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 11th term of the AP with first term 2 and common difference 8.",
@@ -92,21 +82,9 @@
   {
    "id": "gegp.5.2.2",
    "title": "Median of Odd-Sized Dataset",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the mean/median/mode definition",
-     "explain": "apply the mean/median/mode definition: total = sum((12, 36, 12, 29, 18)) gives 107",
-     "compute": "total = sum((12, 36, 12, 29, 18))"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 21.4",
-     "compute": "mean = total / 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "median = middle_value",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 12, 36, 12, 29, 18.",
@@ -144,6 +122,8 @@
    "id": "gegp.5.2.3",
    "title": "Median of Even-Sized Dataset",
    "converted_to_compute": false,
+   "formula": "median = (middle_val_1 + middle_val_2) / 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 20, 36, 18, 22, 26.",
@@ -181,6 +161,8 @@
    "id": "gegp.5.2.4",
    "title": "Range of a Dataset",
    "converted_to_compute": false,
+   "formula": "range = max_value - min_value",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean deviation about the mean of 12, 14, 8 (two decimal places).",
@@ -217,21 +199,9 @@
   {
    "id": "gegp.5.2.5",
    "title": "Outliers",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the mean/median/mode definition",
-     "explain": "apply the mean/median/mode definition: total = sum((24, 18, 32, 30, 16)) gives 120",
-     "compute": "total = sum((24, 18, 32, 30, 16))"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 24",
-     "compute": "mean = total / 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "none",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 24, 18, 32, 30, 16.",
@@ -268,15 +238,9 @@
   {
    "id": "gegp.5.3.1",
    "title": "Double Bar Graph",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "read the table or chart with its key",
-     "explain": "read the table or chart with its key: total = 6 + 5 + 6 gives 17",
-     "compute": "total = 6 + 5 + 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "none",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a frequency table the rows have frequencies 6, 5 and 6. Find the total frequency.",
@@ -313,15 +277,9 @@
   {
    "id": "gegp.5.3.2",
    "title": "Dot Plot",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "read the table or chart with its key",
-     "explain": "read the table or chart with its key: total = 7 + 8 + 9 gives 24",
-     "compute": "total = 7 + 8 + 9"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "none",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a frequency table the rows have frequencies 7, 8 and 9. Find the total frequency.",

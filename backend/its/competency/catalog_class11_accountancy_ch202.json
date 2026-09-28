@@ -88,7 +88,16 @@
      ],
      "question_pattern": "calculate adjusted purchases (given {closing_stock}, {opening_stock}, {purchases})"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "adjusted_purchases = purchases + opening_stock - closing_stock",
+     "compute": "adjusted_purchases = purchases + opening_stock - closing_stock"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.9.3",
@@ -125,7 +134,16 @@
      "solution": "Applying the concept's compute chain with expense_paid = 10, outstanding_expense = 2 gives 12.0.",
      "answer": "12.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_expense = expense_paid + outstanding_expense",
+     "compute": "total_expense = expense_paid + outstanding_expense"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.9.4",
@@ -157,7 +175,16 @@
      "solution": "Applying the concept's compute chain with expense_paid = 10, prepaid_expense = 10 gives 0.0.",
      "answer": "0.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "effective_expense = expense_paid - prepaid_expense",
+     "compute": "effective_expense = expense_paid - prepaid_expense"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.9.5",
@@ -194,7 +221,16 @@
      "solution": "Applying the concept's compute chain with accrued_income = 10, income_received = 2 gives 12.0.",
      "answer": "12.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_income = income_received + accrued_income",
+     "compute": "total_income = income_received + accrued_income"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.9.6",
@@ -231,7 +267,16 @@
      "solution": "Applying the concept's compute chain with advance_income = 10, income_received = 2 gives -8.0.",
      "answer": "-8.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "earned_income = income_received - advance_income",
+     "compute": "earned_income = income_received - advance_income"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.9.7",
@@ -274,7 +319,16 @@
      "solution": "Applying the concept's compute chain with asset_cost = 10, rate = 2 gives 9.8.",
      "answer": "9.8"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "depreciation = asset_cost * rate / 100",
+     "compute": "depreciation = asset_cost * rate / 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.9.8",
@@ -317,7 +371,16 @@
      "solution": "Applying the concept's compute chain with existing_bad_debts = 10, further_bad_debts = 10, total_debtors = 2 gives -8.0.",
      "answer": "-8.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_bad_debts = existing_bad_debts + further_bad_debts",
+     "compute": "total_bad_debts = existing_bad_debts + further_bad_debts"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.9.9",
@@ -361,7 +424,16 @@
      "solution": "Applying the concept's compute chain with debtors = 10, existing_bad_debts = 10, further_bad_debts = 10, old_provision = 10, rate = 10 gives 10.0.",
      "answer": "10.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "new_provision = (debtors - further_bad_debts) * rate / 100",
+     "compute": "new_provision = (debtors - further_bad_debts) * rate / 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.9.10",
@@ -410,7 +482,16 @@
      "solution": "Applying the concept's compute chain with debtors = 10, further_bad_debts = 10, provision_doubtful = 10, rate = 2 gives -9.8.",
      "answer": "-9.8"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "discount_provision = (debtors - further_bad_debts - provision_doubtful) * rate / 100",
+     "compute": "discount_provision = (debtors - further_bad_debts - provision_doubtful) * rate / 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.9.11",
@@ -545,11 +626,19 @@
    ],
    "worked_examples": [
     {
-     "question": "calculate depreciation on machinery at 10% (take asset_value = 10, depreciation_rate = 10)",
-     "solution": "Applying the concept's compute chain with asset_value = 10, depreciation_rate = 10 gives 1.0.",
-     "answer": "1.0"
+     "concept": "keac.202.2",
+     "question_pattern": "what is the depreciation amount for building valued at {asset_value} with rate {depreciation_rate}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "depreciation_amount = asset_value * depreciation_rate / 100",
+     "compute": "depreciation_amount = asset_value * depreciation_rate / 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.202.3",
@@ -587,7 +676,16 @@
      "solution": "Applying the concept's compute chain with debtors = 10, further_bad_debts = 10, provision_rate = 10 gives 0.0.",
      "answer": "0.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "provision_amount = (debtors - further_bad_debts) * provision_rate / 100",
+     "compute": "provision_amount = (debtors - further_bad_debts) * provision_rate / 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.202.4",
@@ -624,7 +722,16 @@
      "solution": "Applying the concept's compute chain with bad_debts = 10, further_bad_debts = 10, new_provision = 10, old_provision = 2 gives 28.0.",
      "answer": "28.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_bad_debts_expense = bad_debts + further_bad_debts + new_provision - old_provision",
+     "compute": "net_bad_debts_expense = bad_debts + further_bad_debts + new_provision - old_provision"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.202.5",
@@ -698,7 +805,16 @@
      "solution": "Applying the concept's compute chain with prepaid_amount = 10, total_paid = 2 gives -8.0.",
      "answer": "-8.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_expense = total_paid - prepaid_amount",
+     "compute": "net_expense = total_paid - prepaid_amount"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.202.7",
@@ -735,7 +851,16 @@
      "solution": "Applying the concept's compute chain with outstanding_amount = 10, paid_expense = 2 gives 12.0.",
      "answer": "12.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_expense = paid_expense + outstanding_amount",
+     "compute": "total_expense = paid_expense + outstanding_amount"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.202.8",
@@ -864,7 +989,16 @@
      "solution": "Applying the concept's compute chain with number = 2 gives 2.0.",
      "answer": "2.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "absolute_value = abs(number)",
+     "compute": "absolute_value = abs(number)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.202.12",

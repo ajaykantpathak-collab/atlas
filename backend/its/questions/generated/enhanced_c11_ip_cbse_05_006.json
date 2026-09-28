@@ -34,6 +34,26 @@
      "q": "Create a new problem: Design a Python program for a school library that uses a global variable `total_books_issued` to track books issued across multiple functions `issue_book()` and `return_book()`. Each function should modify the global counter appropriately. Write the complete code with initialization and two function calls to demonstrate.",
      "a": "Expected answer criteria: 1) Global `total_books_issued = 0`. 2) `issue_book()` with `global total_books_issued` and `total_books_issued += 1`. 3) `return_book()` with `global total_books_issued` and `total_books_issued -= 1`. 4) Calls showing increment and decrement. 5) Final print. A poor answer that uses parameters/returns instead of global misses the point of the exercise; one that forgets `global` in either function will not modify the global, showing incomplete mastery.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The global keyword in Python is a ______ statement used inside a function to indicate that a variable name refers to the global scope variable (defined outside the function) rather than creating a new local variable, allowing the function to read and modify the global variable's value.",
+     "a": "declaration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a simple banking simulator where a global variable account_balance = 5000 ______ the user's savings.",
+     "a": "represents",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write a function that uses the global keyword to modify a global variable's value, and correctly predict the output of code snippets involving both global and local variables with the same name.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a simple banking simulator where a global variable account_balance = ______ represents the user's savings.",
+     "a": "5000",
+     "self_check": true
     }
    ]
   }

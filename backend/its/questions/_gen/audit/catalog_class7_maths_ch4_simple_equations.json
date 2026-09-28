@@ -42,9 +42,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 3 * 2 + 8"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c7m4.3.1",
@@ -87,9 +85,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 3 * 9 + 3"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c7m4.4.1",
@@ -132,9 +128,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "third = 180 - 58 - 74"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c7m4.4.2",
@@ -349,9 +343,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "x = (71 - 5) / 6"
-   ]
+   "steps_chain": []
   }
  ]
 }

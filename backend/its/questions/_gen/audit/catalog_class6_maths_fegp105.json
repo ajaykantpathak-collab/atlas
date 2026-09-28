@@ -87,10 +87,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lhs = 3 ** 3 + 4 ** 3",
-    "diff = 5 ** 3 - lhs"
-   ]
+   "steps_chain": []
   },
   {
    "id": "fegp.5.3",
@@ -133,9 +130,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "hcf = 7 * 1"
-   ]
+   "steps_chain": []
   },
   {
    "id": "fegp.5.4",
@@ -180,10 +175,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lhs = 3 ** 3 + 4 ** 3",
-    "diff = 5 ** 3 - lhs"
-   ]
+   "steps_chain": []
   }
  ]
 }

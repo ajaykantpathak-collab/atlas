@@ -34,6 +34,21 @@
      "q": "Write a two-line praise poem dedicated to a wise monarch.\n- Line 1 must contain a **metaphor** describing the monarch's justice.\n- Line 2 must contain a **hyperbole** describing the reach of the kingdom's peace.",
      "a": "*Example Answer:*\nLine 1: Your royal justice is an unyielding anchor in a stormy sea.\nLine 2: Under your reign, even the wild stars sleep without fear of darkness.\n\n*Evaluation Criteria:* Line 1 must directly equate justice to an object/concept without \"like/as\". Line 2 must contain a deliberate, physically impossible exaggeration emphasizing perfect peace.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A metaphor is a figure of speech that directly equates two unrelated things to transfer qualities from one to the other (without using \"like\" or \"as\"), while a hyperbole is deliberate, extreme ______ used to emphasize a point or evoke strong emotion.",
+     "a": "exaggeration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If a court poet proclaimed, \"King ______ Raya's sword drank a thousand rivers of fear,\" did the sword literally open a mouth and sip water?",
+     "a": "Krishnadeva",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify, differentiate, and analyze metaphors and hyperboles in court poetry lines, explaining the specific qualities transferred by a metaphor and how hyperbole functions to magnify royal grandeur or courtly wit.",
+     "self_check": true
     }
    ]
   }

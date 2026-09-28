@@ -34,6 +34,36 @@
      "q": "Create a real-world scenario involving a continuous variable where using unadjusted inclusive class intervals would lead to a wrong conclusion. Describe the data, the incorrect intervals, the adjustment, and the corrected conclusion.",
      "a": "Scenario: A factory measures diameters of ball bearings (continuous, in mm). Target: 10.00 mm. Tolerance: ±0.05 mm (9.95–10.05). Data: 50 bearings measured. Incorrect inclusive classes: 9.90–9.94, 9.95–9.99, 10.00–10.04, 10.05–10.09. Gap between 9.94 and 9.95 = 0.01. A bearing of 9.945 mm falls in the gap — uncounted! Adjustment factor = 0.005. Corrected classes: 9.895–9.945, 9.945–9.995, 9.995–10.045, 10.045–10.095. Now 9.945 is the boundary, all values covered. Wrong conclusion without adjustment: \"No bearings in 9.945–9.955 range\" — actually they were just misclassified. A poor answer that picks a discrete variable (e.g., number of defects) shows the student doesn't grasp that the problem only exists for continuous variables.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ class intervals are those in which the upper limit of a class is excluded from that class and included in the next class (e.g., 0–10, 10–20 where 10 belongs to 10–20).",
+     "a": "Exclusive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a hospital recording ______' weights in kilograms.",
+     "a": "patients",
+     "self_check": true
+    },
+    {
+     "q": "What is Exclusive class intervals? State the definition given in this lesson.",
+     "a": "Exclusive class intervals are those in which the upper limit of a class is excluded from that class and included in the next class (e.g., 0–10, 10–20 where 10 belongs to 10–20).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ask students to place a value like ______ in each.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Exclusive class intervals?",
+     "a": "Students believe that \"exclusive means the upper limit is not included in any class\" and \"inclusive means both limits are included in the same class\" — but they miss the critical nuance: in exclusive form, the upper limit of one class IS the lower limit of the next class, so the value belongs to the higher class by convention.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Identify whether a given frequency distribution uses exclusive or inclusive class intervals; (2) Convert inclusive class intervals to exclusive form using the adjustment factor for continuous variables; (3) Explain why the adjustment is necessary for continuity in statistical calculations.",
+     "self_check": true
     }
    ]
   }

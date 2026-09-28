@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a light microscope and vital dyes to show that the Golgi apparatus is active in secreting mucus in goblet cells of the intestinal lining. List materials, steps, and expected observation.",
      "a": "Materials: Fresh goat intestine (from butcher), 0.1% neutral red dye (accumulates in acidic vesicles), saline, slides, coverslips, light microscope. Steps: (1) Cut 2 mm intestinal piece, rinse in saline. (2) Incubate in neutral red + saline for 15 min at 37°C. (3) Rinse, mount epithelium side up. (4) Observe columnar cells — goblet cells appear as **clear cups** (mucus unstained) with **red-stained granules** near apex (Golgi-derived secretory vesicles). (5) Add 0.1% acetylcholine (stimulates secretion) — watch red granules move to apex and disappear (exocytosis). Expected: Red vesicles = active Golgi packaging; disappearance = secretion. Poor answer (e.g., \"stain nucleus\") shows the student can't connect **dye chemistry to organelle function**.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Golgi apparatus is a membrane-bound organelle consisting of flattened, stacked sacs called cisternae that receives, modifies, sorts, and packages proteins and lipids ______ in the endoplasmic reticulum into vesicles for secretion or delivery to other organelles.",
+     "a": "synthesized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you order a custom-made kurta from a tailor in Delhi — the fabric (protein) is cut and stitched in the workshop (rough ER), but it needs buttons, embroidery, and proper folding before ______.",
+     "a": "delivery",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can explain the step-by-step pathway of a secretory protein from rough ER through Golgi cisternae to the cell membrane, including the specific modifications (glycosylation, phosphorylation) at each cisterna level.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you order a custom-made kurta from a tailor in Delhi — the fabric (protein) is cut and stitched in the workshop (rough ER), but it needs buttons, ______, and proper folding before delivery.",
+     "a": "embroidery",
+     "self_check": true
     }
    ]
   }

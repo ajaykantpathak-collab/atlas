@@ -34,6 +34,31 @@
      "q": "Create a real-life problem (Indian context) where you need to find an unknown angle of a quadrilateral-shaped field, floor tile, or piece of cloth. Write the problem and solve it.",
      "a": "Example: A farmer's quadrilateral plot has angles 85°, 100°, 115°. Find the fourth angle to build a fence corner correctly. Solution: 360° - (85+100+115) = 60°. A poor answer (e.g., just giving numbers without context) reveals the student cannot connect the abstract property to practical measurement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ is a closed plane figure bounded by four line segments (sides) that intersect only at their endpoints (vertices), forming four interior angles and two diagonals.",
+     "a": "quadrilateral",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at your classroom door — it has four ______ and four corners.",
+     "a": "edges",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The sum of its interior angles is always ______°.",
+     "a": "360",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify quadrilaterals in real-world objects, name all elements (sides, vertices, angles, diagonals), classify a given quadrilateral as convex or concave, and apply the angle sum property to find unknown angles in any quadrilateral.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at your ______ door — it has four edges and four corners.",
+     "a": "classroom",
+     "self_check": true
     }
    ]
   }

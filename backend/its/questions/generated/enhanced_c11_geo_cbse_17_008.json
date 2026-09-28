@@ -34,6 +34,26 @@
      "q": "Design a 5-step framework for a non-selected city to adopt \"smart\" practices without Central funding, leveraging its existing Master Plan, 15th Finance Commission grants, and local university partnerships.",
      "a": "Good answer criteria: (1) Map Master Plan proposals to smart components (e.g., zoning → GIS-based land use monitoring). (2) Use 15th FC tied grants (water, sanitation) for sensor-based SCADA in water supply. (3) Partner with local engineering college for low-cost IoT air quality/traffic sensors (student projects). (4) Create a \"City Data Officer\" post in ULB using existing staff + interns. (5) Pilot one ward as \"lighthouse\" using convergent funding, document for state replication. Poor answer: lists generic \"use technology\" without linking to statutory planning, finance, or local institutions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Smart Cities Mission (launched 2015) is a Government of India urban renewal programme that selects 100 cities through competitive challenge to implement area-based development (retrofitting, redevelopment, greenfield) and pan-city smart solutions using ICT, e-governance, and citizen participation to improve core ______, quality of life, and sustainable urban environments.",
+     "a": "infrastructure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your nearest city — perhaps the state capital or a million-plus city — and list three daily frustrations: unreliable water supply, traffic ______, or garbage piles.",
+     "a": "congestion",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the three-component structure of the Smart Cities Mission (area-based development, pan-city initiatives, convergence), differentiate it from AMRUT/HRIDAY, and analyse a city's Smart City Proposal (SCP) for alignment with liveability, sustainability, and inclusivity indicators.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your nearest city — perhaps the state capital or a million-plus city — and list three daily ______: unreliable water supply, traffic congestion, or garbage piles.",
+     "a": "frustrations",
+     "self_check": true
     }
    ]
   }

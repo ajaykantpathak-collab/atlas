@@ -34,6 +34,26 @@
      "q": "Create a real-world scenario where using a tuple instead of a list prevents a logical bug, and write the tuple creation code with at least 3 elements of mixed types.",
      "a": "Scenario: Storing database connection config `(host, port, database)` — if a junior developer accidentally does `config[1] = \"8080\"` thinking it's a list, the tuple raises TypeError immediately, preventing silent corruption. Code: `db_config = (\"localhost\", 5432, \"school_db\")`. A poor answer uses homogeneous data or trivial example, showing inability to connect immutability to real software safety — a key competency for Class 11.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A tuple is an ordered, immutable sequence of elements enclosed in parentheses () where elements are separated by commas; unlike lists, tuples cannot be modified after creation but support indexing, slicing, ______, repetition, and membership operations.",
+     "a": "concatenation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're building a school timetable system where each period has a fixed subject-teacher-room combination that should never change ______ — this is exactly what tuples provide: a locked-in sequence.",
+     "a": "accidentally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sharma\", \"Room ______\") and notice the parentheses.",
+     "a": "101",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to create tuples using multiple syntaxes, access elements via positive/negative indexing and slicing, perform tuple operations (concatenation, repetition, membership), and explain why tuples are immutable while demonstrating correct handling of single-element tuples.",
+     "self_check": true
     }
    ]
   }

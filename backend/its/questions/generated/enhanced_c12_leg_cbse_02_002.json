@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_02_002",
+   "title": "c12_leg_cbse_02_002",
+   "questions": [
+    {
+     "q": "What is the constitutional basis for Alternative Dispute Resolution in India, and which specific Articles mandate the State to promote access to justice through ADR mechanisms?",
+     "a": "The constitutional basis for ADR lies primarily in Article 39A (Directive Principle: State shall secure equal justice and free legal aid), Article 21 (Right to life and personal liberty includes access to speedy justice), and Articles 323A/323B (Tribunals for administrative and other disputes). A wrong answer that cites only the Arbitration Act or Section 89 CPC reveals the student confuses statutory enactments with constitutional mandate — they must distinguish the constitutional *source* from the legislative *implementation*.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between Mediation and Conciliation under the Arbitration and Conciliation Act, 1996, focusing on the role of the neutral third party and the binding nature of the outcome.",
+     "a": "In Mediation, the mediator *facilitates* communication and helps parties reach their *own* voluntary agreement — the mediator does not propose solutions. In Conciliation, the conciliator takes an *interventionist* role: may *suggest* settlement terms, formulate proposals, and actively steer parties toward resolution. Both outcomes become binding *only* when reduced to a signed settlement agreement (Section 73), which then has the status of an arbitral award/decree. A wrong answer claiming \"mediation is non-binding, conciliation is binding\" reveals confusion: *both* are non-binding until a settlement agreement is signed; the difference lies in the *third party's role*, not the outcome's enforceability.",
+     "self_check": true
+    },
+    {
+     "q": "A commercial contract between an Indian company and a German firm contains an arbitration clause specifying \"seat: London, governing law: Indian law, procedural law: English Arbitration Act.\" A dispute arises. The Indian party seeks interim relief under Section 9 of the Arbitration and Conciliation Act, 1996 from an Indian court. Will the Indian court entertain the application? Justify using the BALCO principle.",
+     "a": "No. Under the BALCO judgment (Bharat Aluminum Co. v. Kaiser Aluminum, 2012), the \"seat\" of arbitration (London) determines the *curial law* (procedural law governing arbitration). Since the seat is outside India, Part I of the 1996 Act (including Section 9 interim relief) does *not* apply, even if the contract chooses Indian substantive law. The 2015 Amendment added Section 2(2) proviso allowing Section 9 for foreign-seated arbitrations *only if* the parties agree — but here the clause specifies English procedural law. A wrong answer saying \"yes, because governing law is Indian\" conflates *substantive law* (contract interpretation) with *curial law* (arbitration procedure) — a classic competitive-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the jurisdiction and binding force of Lok Adalat awards with Arbitral Awards under the Arbitration and Conciliation Act, 1996. Include the statutory basis for each.",
+     "a": "Lok Adalat (Legal Services Authorities Act, 1987, Chapter VI): Jurisdiction covers *pending court cases* and *pre-litigation disputes* (civil, compoundable criminal). Award is *final and binding* as a civil court decree, *no appeal* lies (Section 21). Arbitral Award (Arbitration and Conciliation Act, 1996, Part I): Jurisdiction arises from *arbitration agreement* (Section 7); covers domestic/international commercial disputes. Award is *binding* (Section 35) but *challengeable* under Section 34 (limited grounds: incapacity, invalid agreement, excess jurisdiction, bias, public policy). A wrong answer stating \"both are final with no appeal\" misses that arbitral awards *can* be set aside under Section 34, while Lok Adalat awards *cannot* be appealed — a critical distinction for enforcement strategy.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The Lokpal and Lokayuktas Act, 2013 makes the Prime Minister fully accountable to the Lokpal for all acts of corruption.\" Is this statement accurate? Support your answer with specific provisions of the Act.",
+     "a": "The statement is *inaccurate*. The Act *includes* the Prime Minister within Lokpal's purview (Section 14), but with *critical exclusions*: matters relating to (a) international relations, (b) external and internal security, (c) public order, (d) atomic energy, and (e) space. Further, an inquiry against the PM requires approval of *at least two-thirds* of Lokpal members, and proceedings are held *in camera*; if dismissed, records are *not published* (Section 14(2)-(4)). A wrong answer claiming \"full accountability\" ignores these *constitutional safeguards* for the PM's office — a nuance tested in both board and competitive exams to check if students read the *exceptions*, not just the headline provision.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical dispute scenario where *Conciliation* would be more appropriate than *Mediation* or *Arbitration*, and justify your choice by referencing the specific role of the conciliator under Section 67 of the Arbitration and Conciliation Act, 1996.",
+     "a": "Scenario: A long-standing joint venture between two family-owned businesses faces a deadlock over profit-sharing formula. Both parties want to preserve the relationship and business continuity but are entrenched in positions. They need a neutral expert who can *propose creative financial structures* (e.g., phased buyout, earn-out clauses, royalty adjustments) based on industry norms — not just facilitate dialogue. Conciliation is ideal because Section 67 empowers the conciliator to *make proposals for settlement* \"at any stage,\" *formulate terms* after considering parties' observations, and *re-formulate* if needed — an *interventionist* role mediation lacks, and without arbitration's adversarial finality. A poor answer choosing mediation (\"they want to preserve relationship\") misses that *conciliation's proactive proposal-making* is the differentiator when parties are stuck and need *substantive options*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

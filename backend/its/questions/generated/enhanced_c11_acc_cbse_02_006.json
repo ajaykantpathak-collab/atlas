@@ -34,6 +34,21 @@
      "q": "Create a realistic business transaction (different from examples in the textbook) that simultaneously affects: (a) two assets, (b) an asset and a liability, (c) an asset and capital. Write the accounting equation impact for each.",
      "a": "(a) Paid ₹30,000 cash to purchase furniture: Furniture ↑ ₹30,000, Cash ↓ ₹30,000. (b) Purchased goods on credit ₹40,000: Inventory ↑ ₹40,000, Creditors ↑ ₹40,000. (c) Owner invested additional ₹1,00,000 cash: Cash ↑ ₹1,00,000, Capital ↑ ₹1,00,000. In each, Assets = Liabilities + Capital holds. A poor answer (e.g., missing one effect or unbalanced equation) shows the student cannot independently apply dual aspect to new scenarios.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Cost Concept requires assets to be recorded at their historical acquisition cost (purchase price plus all ______ necessary to make the asset ready for use), while the Dual Aspect Concept states that every business transaction has a two-fold effect on the accounting equation (Assets = Liabilities + Capital), forming the foundation of the double-entry system where total debits always equal total credits.",
+     "a": "expenditures",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you buy a second-hand ______ van for your startup food truck business.",
+     "a": "delivery",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly calculate the historical cost of an asset by including all qualifying expenditures, and can analyze any business transaction to identify its dual effect on the accounting equation while maintaining the equality of Assets = Liabilities + Capital.",
+     "self_check": true
     }
    ]
   }

@@ -20,7 +20,7 @@
     "why does a vibrating rubber band produce sound",
     "justify why production of sound matters"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,16 @@
      "action": "conclude sound production",
      "explain": "Confirm that the observed vibrations transfer energy to the surrounding medium, producing sound."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "vibrations = periodic_oscillations",
+     "compute": "vibrations = periodic_oscillations"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.10.2",
@@ -141,6 +150,21 @@
      "action": "verify units and result",
      "explain": "Confirm the frequency is in hertz (Hz) and the time period is in seconds (s), and check that their product equals 1."
     }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "frequency = 1 / time_period",
+     "compute": "frequency = 1 / time_period"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "iesc.10.4",
+     "question_pattern": "find the time period if frequency is {time_period}"
+    }
    ]
   },
   {
@@ -176,6 +200,21 @@
      "step": 3,
      "action": "verify constant speed in medium",
      "explain": "Confirm that speed stays constant for a given medium at constant temperature regardless of changes in wavelength or frequency."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "speed = wavelength * frequency",
+     "compute": "speed = wavelength * frequency"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "iesc.10.5",
+     "question_pattern": "what is the frequency if wavelength is {wavelength} and speed is {frequency}"
     }
    ]
   },
@@ -247,7 +286,16 @@
      "action": "verify minimum echo distance",
      "explain": "Check that the reflecting surface is at least 17.2 m away (for speed 344 m/s) so the echo returns after 0.1 s and is heard distinctly."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "distance = (speed * time) / 2",
+     "compute": "distance = (speed * time) / 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.10.8",
@@ -283,7 +331,16 @@
      "action": "verify result and direction",
      "explain": "Confirm the computed depth is physically reasonable and record the direction from which the echo returned to locate the underwater object."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "depth = (speed * time) / 2",
+     "compute": "depth = (speed * time) / 2"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

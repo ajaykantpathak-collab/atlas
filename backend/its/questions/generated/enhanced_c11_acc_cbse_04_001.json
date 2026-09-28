@@ -34,6 +34,26 @@
      "q": "Create a scenario with 5 transactions where the Simple Cash Book would be insufficient and a Double Column Cash Book is needed. Explain why.",
      "a": "Scenario: A business that frequently receives cheques, makes payments by cheque, and deposits/withdraws cash from bank. Example: (1) Received cheque from customer, (2) Paid supplier by cheque, (3) Deposited cash into bank, (4) Withdrew cash from bank for office use, (5) Bank charged interest. The Simple Cash Book cannot record bank transactions separately; it would mix cash and bank or ignore bank. A poor answer shows the student doesn't understand the limitation of a single column.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Simple Cash Book (Single Column Cash Book) is a subsidiary book that records only cash receipts and cash payments in ______ order, with a single amount column on each side (debit for receipts, credit for payments), serving as both a journal and a ledger for cash transactions.",
+     "a": "chronological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Every day you receive cash from customers and pay cash for ______, rent, wages.",
+     "a": "purchases",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently prepare a Single Column Cash Book from a set of 10-15 mixed cash transactions, correctly identify debit/credit sides, balance the book to find closing cash in hand, and explain why the cash book always shows a debit balance.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Every day you receive cash from ______ and pay cash for purchases, rent, wages.",
+     "a": "customers",
+     "self_check": true
     }
    ]
   }

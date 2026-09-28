@@ -34,6 +34,36 @@
      "q": "Design a method to verify experimentally that the molecular mass of CO₂ is 44 u using only a balloon, baking soda, vinegar, and a weighing balance. Explain the principle.",
      "a": "React known mass of NaHCO₃ with excess CH₃COOH in a conical flask fitted with balloon. Capture CO₂ gas in balloon. Mass loss of flask = mass of CO₂ evolved. Measure volume of CO₂ at room conditions. Use density = mass/volume. At STP, 1 mole = 22.4 L. But for Class 9: simpler method - weigh dry ice (solid CO₂) sublimation in closed system. A poor answer suggesting \"weigh the gas directly\" reveals misunderstanding that gases have mass and can be weighed by displacement. Good answer shows comprehension of mass conservation (c9_chem_ch3_1) and gas properties.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Molecular mass is the sum of atomic masses of all atoms present in a molecule of a covalent compound, expressed in unified atomic mass units (u), calculated by ______ each element's atomic mass by its subscript in the chemical formula and summing the results.",
+     "a": "multiplying",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a packet of glucose (C₆H₁₂O₆) used in ORS packets for dehydration - the label mentions \"______ weight 180\" which doctors use to prepare precise solutions.",
+     "a": "molecular",
+     "self_check": true
+    },
+    {
+     "q": "What is Molecular mass? State the definition given in this lesson.",
+     "a": "Molecular mass is the sum of atomic masses of all atoms present in a molecule of a covalent compound, expressed in unified atomic mass units (u), calculated by multiplying each element's atomic mass by its subscript in the chemical formula and summing the results.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a packet of glucose (C₆H₁₂O₆) used in ORS packets for dehydration - the label mentions \"molecular weight ______\" which doctors use to prepare precise solutions.",
+     "a": "180",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Molecular mass?",
+     "a": "Students treat brackets in formulae like parentheses in math - they multiply only the first element inside by the outside subscript.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate molecular mass for any given covalent compound formula (including those with brackets and hydrates) using atomic masses from the periodic table, showing stepwise multiplication and addition with correct units (u), and can distinguish when to use molecular mass versus formula unit mass.",
+     "self_check": true
     }
    ]
   }

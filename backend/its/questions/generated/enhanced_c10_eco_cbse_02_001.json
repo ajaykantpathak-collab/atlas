@@ -34,6 +34,26 @@
      "q": "Create a classification table for 10 economic activities observed in your district/village. Include at least two borderline cases (e.g., fruit processing, cold storage, packaging) and write the decision rule you used for each.",
      "a": "A good answer lists 10 diverse activities (e.g., farming, brick kiln, hair salon, tuition classes, milk collection, fruit jam factory, cold storage, truck repair, grain mandi auction, solar panel installation) with correct classification and explicit rules: \"If output is a natural resource → Primary; if output is a tangible good made from raw material → Secondary; if output is an intangible service → Tertiary.\" For borderline: fruit jam factory → Secondary (transformation); cold storage → Tertiary (service of preservation without changing the good); packaging → Secondary if it changes the product form (e.g., bottling), Tertiary if it's only labeling/wrapping for transport. A poor answer misclassifies borderline cases by focusing on input (fruit → primary) or location (factory → secondary) rather than the **nature of the final output**.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The three-sector ______ categorizes all economic activities based on the nature of production: the Primary sector extracts natural resources (agriculture, mining, fishing); the Secondary sector transforms raw materials into finished goods through manufacturing and construction; the Tertiary sector provides services that support production and distribution (transport, banking, education, healthcare).",
+     "a": "classification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are visiting your grandfather's village in Punjab: you see wheat growing in fields (primary), a flour mill grinding that wheat into atta (______), and a truck delivering the atta to a city supermarket where a cashier bills it (tertiary).",
+     "a": "secondary",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify any given economic activity into primary, secondary, or tertiary sector with justification referencing the nature of the output (natural resource extraction, manufacturing/construction, or service provision) and explain why borderline activities (e.g., agro-processing, packaging) belong to a specific.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are visiting your ______'s village in Punjab: you see wheat growing in fields (primary), a flour mill grinding that wheat into atta (secondary), and a truck delivering the atta to a city supermarket where a cashier bills it (tertiary).",
+     "a": "grandfather",
+     "self_check": true
     }
    ]
   }

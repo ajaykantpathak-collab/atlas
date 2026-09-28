@@ -34,6 +34,21 @@
      "q": "Design a thermochemical cycle (Born-Haber type) to determine the lattice enthalpy of NaCl(s) using the following data: ΔH°_f(NaCl(s)) = -411.2 kJ/mol, ΔH°_sub(Na(s)) = +108.4 kJ/mol, IE₁(Na) = +496 kJ/mol, ½BDE(Cl₂) = +121 kJ/mol, EA(Cl) = -349 kJ/mol. Draw the cycle and calculate the lattice enthalpy.",
      "a": "**Expected cycle (steps):**\n1. Na(s) → Na(g)                    ΔH₁ = +108.4 kJ (sublimation)\n2. Na(g) → Na⁺(g) + e⁻              ΔH₂ = +496 kJ (ionization)\n3. ½Cl₂(g) → Cl(g)                  ΔH₃ = +121 kJ (½ bond dissociation)\n4. Cl(g) + e⁻ → Cl⁻(g)              ΔH₄ = -349 kJ (electron affinity)\n5. Na⁺(g) + Cl⁻(g) → NaCl(s)        ΔH₅ = -LE (lattice enthalpy, exothermic)\n6. Net: Na(s) + ½Cl₂(g) → NaCl(s)   ΔH°_f = -411.2 kJ\n\n**Calculation:**\nΔH°_f = ΔH₁ + ΔH₂ + ΔH₃ + ΔH₄ + ΔH₅\n-411.2 = 108.4 + 496 + 121 - 349 - LE\n-411.2 = 376.4 - LE\nLE = 376.4 + 411.2 = **+787.6 kJ/mol** (lattice enthalpy magnitude)\n\nA poor answer (e.g., omitting sublimation, using wrong sign for EA, or calculating LE = -787.6 kJ/mol) reveals inability to construct a complete thermochemical cycle, confusion between endothermic/exothermic steps, or misunderstanding that lattice enthalpy is defined as the energy released when gaseous ions form the solid (negative ΔH) but often reported as a positive magnitude.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Hess's Law of Constant Heat Summation states that the total enthalpy change for a chemical reaction is ______ of the pathway taken and depends only on the initial and final states of the system, because enthalpy is a state function.",
+     "a": "independent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you burn magnesium ribbon in air, it releases intense white light and heat - a direct ______ reaction.",
+     "a": "combustion",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the standard enthalpy change of any reaction using standard enthalpies of formation data, construct and manipulate thermochemical equations to find unknown ΔH values for multi-step processes, and justify why enthalpy is path-independent using the state function concept.",
+     "self_check": true
     }
    ]
   }

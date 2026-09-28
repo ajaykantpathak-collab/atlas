@@ -34,6 +34,21 @@
      "q": "Create a scenario involving 2 whole chikkis and 1/3 of another chikki. How would you write this as both an improper fraction and a mixed number?",
      "a": "The mixed number is 2 1/3. The improper fraction is 7/3. A poor answer fails to realize that 2 wholes contain 6/3, leading to the total of 7/3.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Proper fraction has a numerator smaller than the denominator (value < 1), an Improper fraction has a numerator greater than or equal to the denominator (value ≥ 1), and a Mixed number ______ an improper fraction as a whole number combined with a proper fraction.",
+     "a": "expresses",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You might say each gets \"one and two-thirds\" (a mixed number) or \"five-thirds\" (an ______ fraction).",
+     "a": "improper",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify any given fraction as proper, improper, or mixed, and convert between improper fractions and mixed numbers with 100% accuracy.",
+     "self_check": true
     }
    ]
   }

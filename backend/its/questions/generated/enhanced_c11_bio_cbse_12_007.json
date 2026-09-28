@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using yeast to demonstrate that the ATP yield from glucose is significantly lower under anaerobic conditions than aerobic conditions, without directly measuring ATP. Specify the measurable parameter, expected results, and how they relate to ATP yield.",
      "a": "Measure CO₂ production rate in yeast suspensions with glucose under aerobic (shaking) vs anaerobic (sealed with N₂) conditions. Aerobic: high CO₂ rate (complete oxidation via Krebs cycle). Anaerobic: low CO₂ rate (only glycolysis + fermentation, 2 ATP/glucose). Since CO₂ evolution correlates with carbon flux through oxidative pathways, the drastic reduction in CO₂ rate under anaerobiosis reflects the ~19-fold lower ATP yield. A poor answer might measure only ethanol production or fail to link CO₂ rate to the extent of glucose oxidation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The respiratory balance sheet is a theoretical calculation of the net ATP yield from the complete aerobic oxidation of one molecule of glucose, accounting for ATP generated via substrate-level phosphorylation in glycolysis and the Krebs cycle, and oxidative phosphorylation via NADH and FADH₂ oxidation in the electron transport chain, under standard assumptions of sequential pathway operation and ______ shuttling of cytosolic NADH.",
+     "a": "mitochondrial",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a marathon runner crossing the finish line — their muscles have ______ massive amounts of glucose to produce ATP for contraction.",
+     "a": "consumed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Finally, subtract the ______ ATP invested in glycolysis and adjust for the shuttle system used to transport cytosolic NADH into mitochondria.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently calculate the net ATP yield from one glucose molecule by tabulating contributions from glycolysis, pyruvate oxidation, Krebs cycle, and oxidative phosphorylation, and can explain why the theoretical value of 38 ATP may differ from actual cellular yield due to variable shuttle systems and metabolic demands.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a marathon runner crossing the finish line — their muscles have consumed massive amounts of glucose to produce ATP for ______.",
+     "a": "contraction",
+     "self_check": true
     }
    ]
   }

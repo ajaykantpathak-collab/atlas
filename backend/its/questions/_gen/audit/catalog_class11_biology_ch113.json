@@ -1,0 +1,125 @@
+{
+ "catalog": "catalog_class11_biology_ch113.json",
+ "concepts": [
+  {
+   "id": "kebo.13.1.4.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "L_0 = 41",
+      "r = 0.8",
+      "t = 27",
+      "L_t = L_0 + (r * t)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "L_0 = 64",
+      "r = 77",
+      "t = 68",
+      "L_t = L_0 + (r * t)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "L_0 = 35",
+      "r = 15.1",
+      "t = 43",
+      "L_t = L_0 + (r * t)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "L_0 = 91",
+      "r = 13.7",
+      "t = 8.6",
+      "L_t = L_0 + (r * t)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "L_0 = 8.4",
+      "r = 95",
+      "t = 26",
+      "L_t = L_0 + (r * t)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "L_0 = 85",
+      "r = 28",
+      "t = 11.4",
+      "L_t = L_0 + (r * t)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "L_t = L_0 + (r * t)"
+   ]
+  },
+  {
+   "id": "kebo.13.1.4.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "final_size = 27",
+      "initial_size = 14.5",
+      "absolute_increase = final_size - initial_size"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "final_size = 67",
+      "initial_size = 0.8",
+      "absolute_increase = final_size - initial_size"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "final_size = 19",
+      "initial_size = 14.4",
+      "absolute_increase = final_size - initial_size"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "final_size = 6.4",
+      "initial_size = 70",
+      "absolute_increase = final_size - initial_size"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "final_size = 34",
+      "initial_size = 59",
+      "absolute_increase = final_size - initial_size"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "final_size = 92",
+      "initial_size = 29",
+      "absolute_increase = final_size - initial_size"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "absolute_increase = final_size - initial_size"
+   ]
+  }
+ ]
+}

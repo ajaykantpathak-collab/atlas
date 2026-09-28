@@ -34,6 +34,31 @@
      "q": "Create an age word problem that leads to the equations: x + y = 50 and x - y = 10. State the problem clearly and identify what x and y represent.",
      "a": "Example: \"The sum of the ages of a father and son is 50 years. The father is 10 years older than the son. Find their ages.\" Here x = father's age, y = son's age. A good problem must have consistent context (ages positive, father older). A poor answer might have x and y swapped or use unrealistic numbers, showing the student doesn't connect equations back to real-world meaning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Word problems on age and number involve translating real-life situations about people's ages (past, present, future) or properties of numbers (digits, sum, difference, reversal) into a pair of linear equations in two variables, solving them ______, and interpreting the solution in the context of the problem.",
+     "a": "algebraically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your grandfather says, \"Seven ______ ago, I was seven times as old as you were then.",
+     "a": "years",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For number problems, let the tens digit be x and units digit be y, so the number is ______x + y.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently read an age or number word problem, define appropriate variables, formulate two correct linear equations, choose and apply an algebraic method (substitution, elimination, or cross-multiplication) to solve them, and verify that the solution satisfies the original problem conditions with correct units.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your ______ says, \"Seven years ago, I was seven times as old as you were then.",
+     "a": "grandfather",
+     "self_check": true
     }
    ]
   }

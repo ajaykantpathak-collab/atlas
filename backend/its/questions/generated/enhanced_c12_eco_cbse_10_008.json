@@ -34,6 +34,21 @@
      "q": "Construct a numerical example where an economy's saving function is S = -40 + 0.2Y and investment function is I = 60 + 0.1Y (induced investment). Find equilibrium income and explain why this differs from the standard S = I model with autonomous investment only.",
      "a": "Set S = I: -40 + 0.2Y = 60 + 0.1Y → 0.1Y = 100 → Y = 1,000. Standard model assumes I is autonomous (horizontal line), giving k = 1/MPS. With induced investment (I = I₀ + iY, i > 0), the I curve slopes upward. Equilibrium condition becomes S - iY = I₀ → (s - i)Y = I₀ + c → Y = (I₀ + c)/(s - i). Multiplier becomes 1/(MPS - MPI) > 1/MPS. A student using k = 1/MPS = 5 here would get wrong ΔY for a given ΔI₀. This tests ability to extend the model beyond textbook assumptions — a competitive exam (CUET/JEE) requirement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Saving-Investment (S = I) approach determines ______ national income in a two-sector economy where aggregate demand equals aggregate supply.",
+     "a": "equilibrium",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small Indian town where ______ earn ₹10,000 crore annually.",
+     "a": "households",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can derive equilibrium income algebraically from given saving and investment functions, illustrate graphically with correctly labeled S and I curves, explain why S = I is equivalent to AD = AS, and solve numerical problems where autonomous investment or MPS changes shift equilibrium.",
+     "self_check": true
     }
    ]
   }

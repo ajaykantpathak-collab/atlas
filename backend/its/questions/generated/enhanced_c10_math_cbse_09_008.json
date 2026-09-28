@@ -34,6 +34,31 @@
      "q": "Create a word problem (with Indian context) where the height of a tree is found using the angle of depression *from the top of a building* to the top of the tree. Provide the building height, horizontal distance between building and tree, and the angle of depression. Ensure the problem requires subtracting the calculated opposite side from the building height.",
      "a": "Example: \"From the top of a 30 m high building, the angle of depression of the top of a neem tree is 30°. If the horizontal distance between the building and the tree is 10 m, find the height of the tree. (Use \\( \\sqrt{3} = 1.732 \\))\"  \nSolution: In the right triangle formed by the building top, tree top, and horizontal line, opposite = 30 - h, adjacent = 10. \\( \\tan 30° = \\frac{30 - h}{10} \\Rightarrow \\frac{1}{\\sqrt{3}} = \\frac{30 - h}{10} \\Rightarrow 30 - h = \\frac{10}{1.732} = 5.77 \\Rightarrow h = 24.23 \\) m.  \nA poor problem (e.g., using angle of elevation from ground) shows the student cannot construct the reverse scenario (depression from a height) and does not grasp that the unknown height is *subtracted* from the known height.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Word problems on finding the height of a tower or tree involve using ______ ratios (primarily tangent) in a right-angled triangle formed by the vertical object (tower/tree), the horizontal ground distance from the observer to the foot of the object, and the line of sight from the observer's eye to the top of the object.",
+     "a": "trigonometric",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing in your school playground, 25 metres away from the base of the ______.",
+     "a": "flagpole",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing in your school playground, ______ metres away from the base of the flagpole.",
+     "a": "25",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently solve unseen board-exam word problems by: (1) drawing a correct labelled diagram showing the tower/tree, horizontal distance, line of sight, and angle of elevation/depression; (2) identifying the appropriate trigonometric ratio (tan, sin, or cos) based on given sides; (3) setting up the equation with correct.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing in your school ______, 25 metres away from the base of the flagpole.",
+     "a": "playground",
+     "self_check": true
     }
    ]
   }

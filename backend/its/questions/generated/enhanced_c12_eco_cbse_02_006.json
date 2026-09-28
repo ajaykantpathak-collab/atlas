@@ -34,6 +34,31 @@
      "q": "Construct a numerical example where a consumer's income doubles and both prices double. Show the original and new budget line equations, intercepts, and slope. Explain why the budget set is unchanged. Then create a second example where income doubles but only one price doubles — show how the budget line changes.",
      "a": "**Example 1 (proportional change):** Original: M = 1000, P₁ = 20, P₂ = 50 → 20x₁ + 50x₂ = 1000. Intercepts: (50, 0) and (0, 20). Slope = –20/50 = –0.4. New: M = 2000, P₁ = 40, P₂ = 100 → 40x₁ + 100x₂ = 2000. Divide by 2: 20x₁ + 50x₂ = 1000 — **identical equation**, same intercepts, same slope. Budget set unchanged because real income (M/P₁, M/P₂) and relative prices (P₁/P₂) are unchanged.\n\n**Example 2 (non-proportional):** Original: M = 1000, P₁ = 20, P₂ = 50 → 20x₁ + 50x₂ = 1000. New: M = 2000, P₁ = 40, P₂ = 50 → 40x₁ + 50x₂ = 2000. Horizontal intercept: 2000/40 = 50 (same as before). Vertical intercept: 2000/50 = 40 (doubled from 20). Slope = –40/50 = –0.8 (steeper than –0.4). The line rotates **clockwise** about the horizontal intercept (50, 0) because good 1 became relatively more expensive. A poor answer fails to show the algebraic simplification or misidentifies the pivot intercept.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The budget line (or price line) is the locus of all ______ of two goods (x₁, x₂) that a consumer can exactly afford by spending their entire money income M at given market prices P₁ and P₂, expressed by the linear equation P₁x₁ + P₂x₂ = M.",
+     "a": "combinations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine Riya, a Class 12 student in Delhi, receives ₹500 weekly ______ money.",
+     "a": "pocket",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Every point on it costs exactly ₹______; points inside cost less.",
+     "a": "500",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) derive the budget line equation from a word problem with given income and prices, (2) calculate intercepts and slope and interpret them economically as maximum quantities and opportunity cost, (3) graph the budget line and shade the budget set correctly, (4) determine the new budget line after a change in income.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine Riya, a Class 12 student in Delhi, ______ ₹500 weekly pocket money.",
+     "a": "receives",
+     "self_check": true
     }
    ]
   }

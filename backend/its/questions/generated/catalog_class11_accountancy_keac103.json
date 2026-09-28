@@ -1,6 +1,100 @@
 {
- "catalog": "catalog_class11_accountancy_keac103",
+ "catalog": "catalog_class11_accountancy_keac103.json",
  "concepts": [
+  {
+   "id": "keac.103.2.1",
+   "title": "The Accounting Equation",
+   "converted_to_compute": true,
+   "formula": "assets = capital + liabilities",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "assets = capital + liabilities",
+     "compute": "assets = capital + liabilities"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For The Accounting Equation: given capital = 21, liabilities = 97, find assets.",
+     "a": "118",
+     "self_check": false
+    },
+    {
+     "q": "For The Accounting Equation: given capital = 1, liabilities = 87, find assets.",
+     "a": "88",
+     "self_check": false
+    },
+    {
+     "q": "For The Accounting Equation: given capital = 59, liabilities = 99, find assets.",
+     "a": "158",
+     "self_check": false
+    },
+    {
+     "q": "For The Accounting Equation: given capital = 36, liabilities = 7.8, find assets.",
+     "a": "43.8",
+     "self_check": false
+    },
+    {
+     "q": "For The Accounting Equation: given capital = 31, liabilities = 12.9, find assets.",
+     "a": "43.9",
+     "self_check": false
+    },
+    {
+     "q": "For The Accounting Equation: given capital = 47, liabilities = 70, find assets.",
+     "a": "117",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.103.5.1",
+   "title": "Trade Discount and Net Invoice Price",
+   "converted_to_compute": true,
+   "formula": "net_price = list_price - trade_discount",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_price = list_price - trade_discount",
+     "compute": "net_price = list_price - trade_discount"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Trade Discount and Net Invoice Price: given list_price = 85, trade_discount = 123, find net price.",
+     "a": "-38",
+     "self_check": false
+    },
+    {
+     "q": "For Trade Discount and Net Invoice Price: given list_price = 95, trade_discount = 333, find net price.",
+     "a": "-238",
+     "self_check": false
+    },
+    {
+     "q": "For Trade Discount and Net Invoice Price: given list_price = 65, trade_discount = 301, find net price.",
+     "a": "-236",
+     "self_check": false
+    },
+    {
+     "q": "For Trade Discount and Net Invoice Price: given list_price = 70, trade_discount = 181, find net price.",
+     "a": "-111",
+     "self_check": false
+    },
+    {
+     "q": "For Trade Discount and Net Invoice Price: given list_price = 5.9, trade_discount = 272, find net price.",
+     "a": "-266.1",
+     "self_check": false
+    },
+    {
+     "q": "For Trade Discount and Net Invoice Price: given list_price = 80, trade_discount = 134, find net price.",
+     "a": "-54",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "keac.103.1.1",
    "title": "Business Transactions, Source Documents and Vouchers",
@@ -18,27 +112,6 @@
     {
      "q": "Under which section is 'Business Transactions, Source Documents and Vouchers' taught, and from which source text?",
      "a": "3.1 Business Transactions and Source Document (source: keac103.txt section 3.1)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.103.2.1",
-   "title": "The Accounting Equation",
-   "questions": [
-    {
-     "q": "Explain in your own words what 'The Accounting Equation' refers to.",
-     "a": "The accounting equation states that assets are equal to capital plus liabilities, so every transaction keeps the two sides equal and capital can always be recovered as assets minus liabilities.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'The Accounting Equation'.",
-     "a": "Each transaction changes at least two elements of the equation, but the equality of total assets and total claims never breaks.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'The Accounting Equation', in plain ASCII form.",
-     "a": "assets = capital + liabilities",
      "self_check": true
     }
    ]
@@ -81,37 +154,6 @@
     {
      "q": "Under which section is 'Journal, Narration and Compound Entries' taught, and from which source text?",
      "a": "3.4 Books of Original Entry (source: keac103.txt journal sections)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.103.5.1",
-   "title": "Trade Discount and Net Invoice Price",
-   "questions": [
-    {
-     "q": "Calculate the net invoice price after a trade discount. Use the method 'Trade Discount and Net Invoice Price'. Work with: discount_percent = 20, list_price = 20000. Carry the chain through step by step and give the final value of net_price.",
-     "a": "16000 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the invoice amount when the list price and discount are given. Use the method 'Trade Discount and Net Invoice Price'. Work with: discount_percent = 10, list_price = 5000. Carry the chain through step by step and give the final value of net_price.",
-     "a": "4500 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Trade Discount and Net Invoice Price' refers to.",
-     "a": "When a trade discount is allowed on the list price of goods, the invoice is prepared at the net price found by deducting the discount from the list price, and the trade discount itself is never recorded in the books.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Trade Discount and Net Invoice Price'.",
-     "a": "Only the net invoice price enters the journal, so the trade discount is a calculation step and not an account.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Trade Discount and Net Invoice Price', in plain ASCII form.",
-     "a": "net_price = list_price - trade_discount",
      "self_check": true
     }
    ]

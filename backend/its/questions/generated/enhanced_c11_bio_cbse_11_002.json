@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using isolated chloroplasts, artificial electron acceptors (e.g., DCPIP), and specific inhibitors (e.g., DCMU) to demonstrate that Photosystem II and Photosystem I function in series during non-cyclic photophosphorylation.",
      "a": "A good experiment: (1) Illuminate chloroplasts with DCPIP (accepts electrons from PS II) – DCPIP reduction occurs, showing PS II activity. (2) Add DCMU (blocks electron flow from PS II to plastoquinone) – DCPIP reduction stops, confirming the block is at PS II. (3) Add an artificial electron donor (e.g., ascorbate) that feeds electrons directly to PS I (via plastocyanin) along with an acceptor like methyl viologen – electron flow resumes, showing PS I can function independently when supplied with electrons. (4) Without the artificial donor, DCMU blocks all flow, proving PS II must supply electrons to PS I in the natural series. A poor design (e.g., only testing one condition or not using specific inhibitors/acceptors) reveals the student cannot isolate the function of each photosystem or understand the sequential electron flow.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the light-driven synthesis of ATP from ADP and inorganic phosphate (Pi) in the thylakoid membranes of chloroplasts, powered by a proton gradient generated during photosynthetic electron transport through Photosystem II and Photosystem I.",
+     "a": "Photophosphorylation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine placing a healthy spinach leaf in sunlight and another identical leaf in ______ darkness.",
+     "a": "complete",
+     "self_check": true
+    },
+    {
+     "q": "What is Photophosphorylation? State the definition given in this lesson.",
+     "a": "Photophosphorylation is the light-driven synthesis of ATP from ADP and inorganic phosphate (Pi) in the thylakoid membranes of chloroplasts, powered by a proton gradient generated during photosynthetic electron transport through Photosystem II and Photosystem I.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Photophosphorylation?",
+     "a": "Students often think that the proton gradient in chloroplasts is created solely by the electron transport chain pumping protons from stroma to lumen, overlooking that water splitting on the lumen side of PS II directly releases protons into the lumen, and that NADP+ reduction on the stroma side removes protons from the stroma.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can trace the complete path of electrons from water to NADP+ in the Z-scheme, explain how the proton gradient is established across the thylakoid membrane, and distinguish between cyclic and non-cyclic photophosphorylation in terms of electron flow, products, and physiological role.",
+     "self_check": true
     }
    ]
   }

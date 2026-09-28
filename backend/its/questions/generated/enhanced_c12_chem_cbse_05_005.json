@@ -34,6 +34,26 @@
      "q": "Design a VBT-based explanation for why square planar geometry is favored over tetrahedral for d⁸ metal ions (e.g., Pt²⁺, Pd²⁺, Ni²⁺ with strong field ligands). Include the hybridization scheme and the role of ligand field strength.",
      "a": "For d⁸ ions (e.g., Ni²⁺, Pt²⁺), strong field ligands (CN⁻, CO, NH₃) cause pairing of the two unpaired electrons in the 3d orbitals (e.g., 3dₓ²₋ᵧ² and 3d_z² pair up? Actually in square planar, the dₓ²₋ᵧ² orbital is used in hybridization). More precisely: In square planar dsp² hybridization, one 3d orbital (dₓ²₋ᵧ²), one 4s, and two 4p orbitals hybridize. The strong field ligand forces pairing of the 8 d-electrons into the remaining four 3d orbitals (dxy, dyz, dxz, dz²), leaving dₓ²₋ᵧ² empty for hybridization. This yields a diamagnetic complex. In tetrahedral sp³, no d-orbital is used, so the two unpaired electrons remain → paramagnetic. Strong field ligands stabilize the square planar geometry by enabling pairing and utilizing the lower-energy inner d-orbital. A poor answer would omit the pairing step or confuse dsp² with sp³d².",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Valence Bond Theory (VBT) for coordination compounds describes the bonding between a central metal ion/atom and ligands as the overlap of hybrid orbitals on the metal (formed from (n-1)d, ns, np, or ns, np, nd orbitals) with filled ligand orbitals donating electron pairs, resulting in definite geometries (octahedral, tetrahedral, square planar) and magnetic properties determined by the number of unpaired electrons in the metal's d-orbitals after ______.",
+     "a": "hybridization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe two bottles in the lab: one contains [Co(NH₃)₆]Cl₃ (diamagnetic, yellow) and the other [CoF₆]³⁻ (______, blue-green).",
+     "a": "paramagnetic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Valence Bond Theory (VBT) for coordination compounds describes the bonding between a central metal ion/atom and ligands as the overlap of hybrid orbitals on the metal (formed from (n-______)d, ns, np, or ns, np, nd orbitals) with filled ligand orbitals donating electron pairs, resulting in definite geometries (octahedral, tetrahedral, square planar) and magnetic properties determined by the number of unpaired electrons in the metal's d-orbitals after hybridization.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Write the electronic configuration of a transition metal ion in a given oxidation state.",
+     "self_check": true
     }
    ]
   }

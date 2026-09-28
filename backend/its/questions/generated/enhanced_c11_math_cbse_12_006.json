@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (Indian context) that requires using both the distance formula and section formula in 3D. The problem must involve at least three points and a ratio that is not 1:1. Provide the full problem statement and the solution outline.",
      "a": "Example: \"A metro tunnel is being drilled from Station A(100, 200, -10) to Station B(400, 500, -30) (coordinates in metres). A ventilation shaft must be placed at a point P that divides the tunnel internally in the ratio 3:2 from A. Find the coordinates of P and the length of the tunnel from A to P.\" Solution outline: 1) Use section formula for P. 2) Use distance formula for AP. 3) Verify AP:PB = 3:2. A poor problem (e.g., only 2D, or ratio 1:1) reveals the student cannot synthesise the two formulas or design non-trivial ratios.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Applications of 3D Coordinate Geometry involve using the distance formula, section formula (internal, external, and midpoint), and coordinate ______ to solve geometric problems in three-dimensional space, such as proving collinearity, finding centroids, determining vertices of geometric solids, and solving real-world spatial problems.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a drone delivering a package in a city: it starts at a warehouse at ______ (2, 3, 10) in metres (x = east, y = north, z = height) and must drop the package at a balcony at (8, 15, 12).",
+     "a": "coordinates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Applications of ______D Coordinate Geometry involve using the distance formula, section formula (internal, external, and midpoint), and coordinate representation to solve geometric problems in three-dimensional space, such as proving collinearity, finding centroids, determining vertices of geometric solids, and solving real-world spatial problems.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can solve multi-step problems combining distance formula and section formula in 3D, prove geometric properties (collinearity, type of triangle, parallelogram vertices), find coordinates of points dividing segments in given ratios, and model real-world situations (e.g., drone navigation, architecture) using 3D coordinates.",
+     "self_check": true
     }
    ]
   }

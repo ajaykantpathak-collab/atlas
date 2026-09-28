@@ -22,7 +22,7 @@
     },
     {
      "q": "Compare netiquette in a professional email vs. a close-friends WhatsApp group. Create a table with 5 dimensions (e.g., subject line, greeting, abbreviations, response time, forwarding) showing how expectations differ. Explain why the same rule (e.g., \"be clear\") manifests differently.",
-     "a": "| Dimension | Professional Email | Friends WhatsApp Group |\n|-----------|-------------------|------------------------|\n| Subject line | Mandatory, descriptive (\"Meeting rescheduled: 10 AM tomorrow\") | Optional/absent |\n| Greeting | Formal (\"Dear Dr. Sharma,\") | Casual/none (\"Yo\") |\n| Abbreviations | Avoid (write \"as soon as possible\") | Encouraged (\"asap\", \"tbh\") |\n| Response time | 24 hrs expected | Seconds/minutes expected |\n| Forwarding | Ask permission first | Often done freely |\nWhy \"be clear\" differs: In email, clarity = structured paragraphs, bullet points, no ambiguity (legal/record-keeping). In WhatsApp, clarity = concise, context-aware, using shared slang/memes. A student who applies email formality to WhatsApp (or vice versa) shows they don't understand context-dependent communication — a critical flaw for board case-study questions.",
+     "a": "| Dimension | Professional Email | Friends WhatsApp Group |\n|-----------|-------------------|------------------------|\n| Subject line | Mandatory, descriptive (\"Meeting rescheduled: 10 AM tomorrow\") | Optional/absent |\n| Greeting | Formal (\"Dear Dr. Sharma,\") | Casual/N/A (\"Yo\") |\n| Abbreviations | Avoid (write \"as soon as possible\") | Encouraged (\"asap\", \"tbh\") |\n| Response time | 24 hrs expected | Seconds/minutes expected |\n| Forwarding | Ask permission first | Often done freely |\nWhy \"be clear\" differs: In email, clarity = structured paragraphs, bullet points, no ambiguity (legal/record-keeping). In WhatsApp, clarity = concise, context-aware, using shared slang/memes. A student who applies email formality to WhatsApp (or vice versa) shows they don't understand context-dependent communication — a critical flaw for board case-study questions.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Design a \"Netiquette Checklist\" poster for your school computer lab. It must have 10 rules, use student-friendly language, include at least one visual/icon per rule, and be usable by Classes 6–12. Sketch the layout and write the text for 3 rules that address the most common violations you've observed.",
      "a": "Layout: Title \"BE KIND ONLINE\" at top. 2 columns × 5 rows. Each rule: icon (left), bold rule (center), 1-line example (right).  \nRule 1 (icon: 🎤): **THINK before you send** — \"Is it True, Helpful, Inspiring, Necessary, Kind?\"  \nRule 2 (icon: 🔒): **Respect privacy** — \"Don't share screenshots, photos, or messages without asking.\"  \nRule 3 (icon: 📝): **Write clear subjects** — \"Bad: 'Help!' → Good: 'Doubt in Ch 3 Q5: loop condition'\"  \nA weak answer (generic rules like \"Be nice\", no icons, no examples) shows the student cannot translate abstract principles into actionable, age-appropriate guidelines — a gap in applying netiquette to real environments.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Netiquette (Network Etiquette) is a set of social conventions and best practices that govern respectful, clear, and responsible behavior when ______ or interacting online, including email, social media, forums, and messaging platforms.",
+     "a": "communicating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're in a class WhatsApp group and a ______ posts a blurry photo of a test paper with the caption \"lol this is so easy, anyone who fails is dumb.\" Several students react with laughing emojis.",
+     "a": "classmate",
+     "self_check": true
+    },
+    {
+     "q": "What is Netiquette (Network Etiquette)? State the definition given in this lesson.",
+     "a": "Netiquette (Network Etiquette) is a set of social conventions and best practices that govern respectful, clear, and responsible behavior when communicating or interacting online, including email, social media, forums, and messaging platforms.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Is it true?\" We start by recognizing that online text lacks tone, facial expressions, and immediate feedback, making misunderstandings ______x more likely than face-to-face talk.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) list and explain at least 8 core netiquette rules with real-world examples, (2) identify netiquette violations in given scenarios and suggest appropriate corrections, and (3) compose a professional email or forum post adhering to netiquette guidelines.",
      "self_check": true
     }
    ]

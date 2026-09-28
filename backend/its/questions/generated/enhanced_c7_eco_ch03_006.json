@@ -34,6 +34,26 @@
      "q": "Propose a three-step infrastructure upgrade plan for a remote agricultural district in India that currently suffers from frequent power cuts, unpaved roads, and poor mobile network coverage, explaining how each step boosts local economic activity.",
      "a": "A strong answer must propose: 1. Upgrading energy infrastructure (e.g., installing solar micro-grids) to ensure uninterrupted power for cold storage and irrigation pumps. 2. Constructing all-weather pucca roads to ensure perishable crops reach urban markets without spoiling. 3. Expanding telecom infrastructure (4G towers) to enable farmers to check real-time market prices and sell online. A poor answer focuses only on cosmetic changes without addressing core economic productivity drivers.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The transformation of infrastructure over the years in India refers to the historical evolution and modernization of physical, social, and digital assets—such as roads, railways, power grids, ______, and ports—from pre-independence rudimentary systems into advanced, integrated networks that drive national economic development.",
+     "a": "telecommunications",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are visiting your grandparents in a village where roads used to be unpaved dirt tracks and letters took a week to arrive, whereas today, pucca concrete ______ connect the village to the nearest town and high-speed mobile internet allows farmers to check crop prices instantly on smartphones.",
+     "a": "highways",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can analyze historical shifts in Indian infrastructure, compare pre-independence and modern networks using data, and explain how technological advancements accelerated the speed and reach of economic activity.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are visiting your ______ in a village where roads used to be unpaved dirt tracks and letters took a week to arrive, whereas today, pucca concrete highways connect the village to the nearest town and high-speed mobile internet allows farmers to check crop prices instantly on smartphones.",
+     "a": "grandparents",
+     "self_check": true
     }
    ]
   }

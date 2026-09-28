@@ -34,6 +34,21 @@
      "q": "Create a word problem on permutations that requires BOTH the \"objects together\" and \"objects separated\" techniques in the same problem. Provide the problem statement only (no solution).",
      "a": "Sample problem: \"In how many ways can the letters of the word 'COMPUTER' be arranged so that the two vowels 'O' and 'U' are always together, but the vowels 'O' and 'E' are never together?\" A good problem must have at least 3 distinct constraint items (here: O,U together; O,E separated) forcing the student to handle grouping then separation within the group. A poor problem would have only one constraint type or contradictory constraints (e.g., \"A and B together but A and B separated\").",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school is organizing a cultural fest and you need to arrange 5 different ______ (dance, music, drama, poetry, art) in a sequence for the evening program.",
+     "a": "performances",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school is organizing a cultural fest and you need to arrange ______ different performances (dance, music, drama, poetry, art) in a sequence for the evening program.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently read a word problem, identify whether it involves permutations (order matters) or combinations (order doesn't matter), correctly categorize the permutation type (distinct, non-distinct, with/without repetition), set up the appropriate formula with proper substitution, and compute the answer with correct.",
+     "self_check": true
     }
    ]
   }

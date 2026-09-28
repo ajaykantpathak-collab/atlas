@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a zinc plate, an electroscope, and a UV lamp to demonstrate that photoelectric emission depends on frequency, not just intensity. Describe the procedure, what you would observe, and how you would conclude that a threshold frequency exists. (Hint: Use Hallwachs' observation with a charged zinc plate.)",
      "a": "Procedure: (1) Give a clean zinc plate a negative charge using a charged rod; connect it to a gold-leaf electroscope — leaves diverge. (2) Shine bright visible light (e.g., white LED torch) on the plate — leaves remain diverged (no discharge). (3) Shine a weak UV lamp (e.g., germicidal UV-C) on the plate — leaves collapse immediately as electrons are emitted. (4) Repeat with a positively charged plate — it becomes more positive under UV. Conclusion: Visible light, however intense, cannot eject electrons (ν < ν₀ for zinc), but even weak UV (ν > ν₀) causes instantaneous emission. This proves threshold frequency exists and emission is independent of intensity. A poor answer that only says \"UV works, visible doesn't\" without linking to frequency threshold or the instantaneous nature misses the core experimental logic.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The photoelectric effect is the phenomenon where electrons (photoelectrons) are emitted from a metal surface when ______ radiation of sufficient frequency (above the threshold frequency) is incident on it.",
+     "a": "electromagnetic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a solar-powered calculator or a street light that turns on automatically at dusk — both rely on the ______ effect where light knocks electrons loose to create current.",
+     "a": "photoelectric",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Sketch and label the experimental setup for studying photoelectric effect, identifying the emitter, collector, voltage source, and measuring instruments.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a solar-powered calculator or a street light that turns on ______ at dusk — both rely on the photoelectric effect where light knocks electrons loose to create current.",
+     "a": "automatically",
+     "self_check": true
     }
    ]
   }

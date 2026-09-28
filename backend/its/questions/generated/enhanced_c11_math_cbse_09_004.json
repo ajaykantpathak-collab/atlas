@@ -34,6 +34,31 @@
      "q": "Create a real-life problem (Indian context) where inserting arithmetic models a situation with uniform change. Specify the two endpoints, number of means, and what the means represent.",
      "a": "Example: A Delhi Metro train starts from rest and reaches 72 km/h in 30 seconds with uniform acceleration. Find the speed at 5-second intervals. Here a = 0 km/h, b = 72 km/h, n = 5 means (at 5s, 10s, 15s, 20s, 25s). The means represent intermediate speeds. d = 72/6 = 12 km/h per 5s. Means: 12, 24, 36, 48, 60 km/h. A poor answer uses non-uniform change (e.g., \"price of vegetables over months\") or wrong interval count (e.g., 6 means for 30 seconds with 5-second gaps).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The arithmetic mean (A.M.) of two numbers a and b is the number A such that a, A, b form an arithmetic ______, given by A = (a + b)/2.",
+     "a": "progression",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ money for a new phone costing ₹15,000.",
+     "a": "saving",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The arithmetic mean (A.M.) of two numbers a and b is the number A such that a, A, b form an arithmetic progression, given by A = (a + b)/______.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the formula for a single arithmetic mean and for n arithmetic means inserted between two numbers, compute the common difference and individual means in an AP with inserted means, and solve word problems where arithmetic means represent intermediate values in uniformly changing quantities (e.g., equal instalments.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are saving money for a new phone costing ₹15,000.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

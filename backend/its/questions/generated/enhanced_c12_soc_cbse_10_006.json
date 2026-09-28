@@ -34,6 +34,26 @@
      "q": "Design a hypothetical Gram Panchayat reservation rotation policy for a block with 10 Gram Panchayats over three election cycles (15 years) that ensures: (a) each Panchayat gets SC/ST reservation proportional to its population at least once, (b) women's reservation rotates across all seats, and (c) no Panchayat has the same category reserved consecutively. Outline the algorithm or rule set.",
      "a": "A good answer proposes a rule-based rotation: 1) List Panchayats by SC/ST population %. 2) Assign SC/ST reserved Pradhan seats in descending order of population % each cycle, skipping those already served. 3) For ward-level seats, use a lottery system each cycle with the constraint that a ward reserved for SC women in cycle 1 cannot be SC women in cycle 2 (rotate among SC, ST, general women, and open). 4) Ensure overall block-level proportionality over three cycles. A poor answer suggests random rotation without proportionality guarantees or ignores the \"no consecutive same category\" rule, showing lack of understanding of the constitutional requirement for fair rotation (Article 243D read with state Panchayati Raj Acts).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Reservation of seats in Panchayats for Scheduled Castes (SCs), Scheduled Tribes (STs), and women (33%) is a ______ mandate under the 73rd Amendment Act (1992) that ensures proportional representation of historically marginalized groups in rural local self-government institutions, with seats reserved in proportion to their population share for SCs/STs and one-third of all seats (including those reserved for SCs/STs) reserved for women.",
+     "a": "constitutional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a village where the Gram ______ has 15 seats.",
+     "a": "Panchayat",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a village where the Gram Panchayat has ______ seats.",
+     "a": "15",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain the constitutional basis, calculation method, and socio-political rationale for the three-tier reservation system in Panchayats, and critically evaluate its impact on grassroots democracy using empirical examples.",
+     "self_check": true
     }
    ]
   }

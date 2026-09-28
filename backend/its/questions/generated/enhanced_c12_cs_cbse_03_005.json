@@ -34,6 +34,26 @@
      "q": "Design an HTML table to represent a weekly expense tracker with columns: Day, Food (₹), Transport (₹), Total (₹). The Total column should span 2 rows for each day (morning/evening entries merged into one total per day). Write the code for Monday and Tuesday only, with sample data.",
      "a": "```html\n<table border=\"1\" cellpadding=\"5\" cellspacing=\"0\">\n  <tr>\n    <th>Day</th>\n    <th>Food (₹)</th>\n    <th>Transport (₹)</th>\n    <th rowspan=\"2\">Total (₹)</th>\n  </tr>\n  <tr>\n    <td>Monday</td>\n    <td>120</td>\n    <td>30</td>\n  </tr>\n  <tr>\n    <td>Monday</td>\n    <td>150</td>\n    <td>40</td>\n  </tr>\n  <tr>\n    <td>Tuesday</td>\n    <td>100</td>\n    <td>25</td>\n    <td rowspan=\"2\">415</td>\n  </tr>\n  <tr>\n    <td>Tuesday</td>\n    <td>180</td>\n    <td>35</td>\n  </tr>\n</table>\n```\nA poor answer puts `rowspan` on the wrong row (e.g., on the second Monday row) or forgets to omit the Total cell in the second row of each day. This tests synthesis: combining headers, rowspan, data rows, and attributes in a realistic Indian context (rupees).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An HTML table is a ______ grid of rows and columns used to display tabular data, created using the <table> container tag with <tr> for table rows, <th> for header cells, and <td> for data cells.",
+     "a": "structured",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are creating a class ______ for your school website — you need to show days as columns, periods as rows, and subjects in cells, with some subjects spanning multiple periods (like a 2-hour lab).",
+     "a": "timetable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are creating a class timetable for your school website — you need to show days as columns, periods as rows, and subjects in cells, with some subjects spanning multiple periods (like a ______-hour lab).",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write complete HTML code to create a table with headers, data rows, merged cells using rowspan/colspan, and correctly apply border, cellpadding, and cellspacing attributes.",
+     "self_check": true
     }
    ]
   }

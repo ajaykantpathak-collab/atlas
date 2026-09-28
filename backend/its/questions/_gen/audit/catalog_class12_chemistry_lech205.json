@@ -1,0 +1,455 @@
+{
+ "catalog": "catalog_class12_chemistry_lech205.json",
+ "concepts": [
+  {
+   "id": "lech205.10.1.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "monosaccharides = 85",
+      "oligosaccharides = 57",
+      "polysaccharides = 37",
+      "carbohydrate_groups = monosaccharides + oligosaccharides + polysaccharides"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "monosaccharides = 69",
+      "oligosaccharides = 49",
+      "polysaccharides = 7",
+      "carbohydrate_groups = monosaccharides + oligosaccharides + polysaccharides"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "monosaccharides = 86",
+      "oligosaccharides = 13",
+      "polysaccharides = 39",
+      "carbohydrate_groups = monosaccharides + oligosaccharides + polysaccharides"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "monosaccharides = 69",
+      "oligosaccharides = 21",
+      "polysaccharides = 91",
+      "carbohydrate_groups = monosaccharides + oligosaccharides + polysaccharides"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "monosaccharides = 78",
+      "oligosaccharides = 58",
+      "polysaccharides = 94",
+      "carbohydrate_groups = monosaccharides + oligosaccharides + polysaccharides"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "monosaccharides = 71",
+      "oligosaccharides = 95",
+      "polysaccharides = 54",
+      "carbohydrate_groups = monosaccharides + oligosaccharides + polysaccharides"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "carbohydrate_groups = monosaccharides + oligosaccharides + polysaccharides"
+   ]
+  },
+  {
+   "id": "lech205.10.1.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "glucose_rot = 33",
+      "fructose_rot = 80",
+      "net_rot = glucose_rot + fructose_rot"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "glucose_rot = 29",
+      "fructose_rot = 60",
+      "net_rot = glucose_rot + fructose_rot"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "glucose_rot = 47",
+      "fructose_rot = 50",
+      "net_rot = glucose_rot + fructose_rot"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "glucose_rot = 23",
+      "fructose_rot = 18.5",
+      "net_rot = glucose_rot + fructose_rot"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "glucose_rot = 71",
+      "fructose_rot = 22",
+      "net_rot = glucose_rot + fructose_rot"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "glucose_rot = 22",
+      "fructose_rot = 93",
+      "net_rot = glucose_rot + fructose_rot"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "net_rot = glucose_rot + fructose_rot"
+   ]
+  },
+  {
+   "id": "lech205.10.1.6",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "amylose = 19.7",
+      "amylopectin = 25",
+      "starch_components = amylose + amylopectin"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "amylose = 51",
+      "amylopectin = 76",
+      "starch_components = amylose + amylopectin"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "amylose = 82",
+      "amylopectin = 36",
+      "starch_components = amylose + amylopectin"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "amylose = 28",
+      "amylopectin = 22",
+      "starch_components = amylose + amylopectin"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "amylose = 62",
+      "amylopectin = 5.2",
+      "starch_components = amylose + amylopectin"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "amylose = 64",
+      "amylopectin = 31",
+      "starch_components = amylose + amylopectin"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "starch_components = amylose + amylopectin"
+   ]
+  },
+  {
+   "id": "lech205.10.2.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "residue_count = 13",
+      "peptide_bonds = residue_count - 1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "residue_count = 412",
+      "peptide_bonds = residue_count - 1"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "residue_count = 398",
+      "peptide_bonds = residue_count - 1"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "residue_count = 155",
+      "peptide_bonds = residue_count - 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "residue_count = 277",
+      "peptide_bonds = residue_count - 1"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "residue_count = 35",
+      "peptide_bonds = residue_count - 1"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "peptide_bonds = residue_count - 1"
+   ]
+  },
+  {
+   "id": "lech205.10.3.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "acid_ea = 85",
+      "enzyme_ea = 2.9",
+      "pct_drop = ((acid_ea - enzyme_ea) / acid_ea) * 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "acid_ea = 55",
+      "enzyme_ea = 11.8",
+      "pct_drop = ((acid_ea - enzyme_ea) / acid_ea) * 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "acid_ea = 16.1",
+      "enzyme_ea = 77",
+      "pct_drop = ((acid_ea - enzyme_ea) / acid_ea) * 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "acid_ea = 1.5",
+      "enzyme_ea = 34",
+      "pct_drop = ((acid_ea - enzyme_ea) / acid_ea) * 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "acid_ea = 73",
+      "enzyme_ea = 64",
+      "pct_drop = ((acid_ea - enzyme_ea) / acid_ea) * 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "acid_ea = 95",
+      "enzyme_ea = 23",
+      "pct_drop = ((acid_ea - enzyme_ea) / acid_ea) * 100"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "pct_drop = ((acid_ea - enzyme_ea) / acid_ea) * 100"
+   ]
+  },
+  {
+   "id": "lech205.10.4.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "vitamins_a_d_e_k = 46",
+      "fat_soluble_set = vitamins_a_d_e_k"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "vitamins_a_d_e_k = 57",
+      "fat_soluble_set = vitamins_a_d_e_k"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "vitamins_a_d_e_k = 0.9",
+      "fat_soluble_set = vitamins_a_d_e_k"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "vitamins_a_d_e_k = 72",
+      "fat_soluble_set = vitamins_a_d_e_k"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "vitamins_a_d_e_k = 90",
+      "fat_soluble_set = vitamins_a_d_e_k"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "vitamins_a_d_e_k = 92",
+      "fat_soluble_set = vitamins_a_d_e_k"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "fat_soluble_set = vitamins_a_d_e_k"
+   ]
+  },
+  {
+   "id": "lech205.10.5.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "nucleoside = 238",
+      "phosphate_group = 12.7",
+      "nucleotide = nucleoside + phosphate_group"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "nucleoside = 431",
+      "phosphate_group = 64",
+      "nucleotide = nucleoside + phosphate_group"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "nucleoside = 352",
+      "phosphate_group = 36",
+      "nucleotide = nucleoside + phosphate_group"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "nucleoside = 286",
+      "phosphate_group = 88",
+      "nucleotide = nucleoside + phosphate_group"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "nucleoside = 96",
+      "phosphate_group = 25",
+      "nucleotide = nucleoside + phosphate_group"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "nucleoside = 117",
+      "phosphate_group = 96",
+      "nucleotide = nucleoside + phosphate_group"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "nucleotide = nucleoside + phosphate_group"
+   ]
+  },
+  {
+   "id": "lech205.10.6.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "insulin = 47",
+      "glucagon = 29",
+      "glucose_regulators = insulin + glucagon"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "insulin = 36",
+      "glucagon = 40",
+      "glucose_regulators = insulin + glucagon"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "insulin = 64",
+      "glucagon = 18.7",
+      "glucose_regulators = insulin + glucagon"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "insulin = 34",
+      "glucagon = 96",
+      "glucose_regulators = insulin + glucagon"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "insulin = 74",
+      "glucagon = 8.4",
+      "glucose_regulators = insulin + glucagon"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "insulin = 19.7",
+      "glucagon = 43",
+      "glucose_regulators = insulin + glucagon"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "glucose_regulators = insulin + glucagon"
+   ]
+  }
+ ]
+}

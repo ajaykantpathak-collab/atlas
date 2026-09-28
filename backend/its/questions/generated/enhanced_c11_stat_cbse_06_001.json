@@ -11,8 +11,8 @@
      "self_check": true
     },
     {
-     "q": "Two cricket batsmen, Rohit and Virat, both have a batting average of 50 runs over 10 innings. Rohit's scores: 48, 49, 50, 51, 52, 48, 49, 50, 51, 52. Virat's scores: 0, 0, 0, 0, 100, 100, 100, 100, 50, 50. Explain why their averages are misleading as sole performance indicators and what additional information dispersion provides.",
-     "a": "The average of 50 is misleading because it suggests consistent performance for both, but Rohit is highly consistent (scores tightly clustered around 50) while Virat is extremely volatile (alternating between failure and century). Dispersion measures would quantify this: Rohit has low dispersion (high reliability), Virat has high dispersion (unpredictable performance). A WRONG answer (e.g., \"both are equally good because averages are same\") reveals the student believes central tendency fully represents a distribution — the \"average fallacy\" — failing to grasp that identical averages can mask radically different underlying patterns.",
+     "q": "Give the correct order of judgments a coach should make when two batsmen average the same 50 runs over 10 innings.",
+     "a": "The analysis runs: (1) Note that both batsmen average 50 over 10 innings (2) Examine the scatter of individual scores around that mean (3) Find Rohit tightly clustered while Virat alternates between failures and centuries (4) Conclude that Rohit is reliable and Virat volatile, so the identical averages are misleading without a dispersion measure. A wrong answer that declares both equally good shows the student has read only the central tendency and missed that dispersion describes the reliability of the average.",
      "self_check": true
     },
     {
@@ -33,6 +33,21 @@
     {
      "q": "Create a real-world scenario (Indian context) where two datasets have identical mean, median, and mode but completely different dispersions. Describe the scenario, give sample data for both datasets (minimum 7 values each), and explain why a decision-maker would reach a wrong conclusion if they only looked at central tendency.",
      "a": "Scenario: Two government hospitals, Hospital A and Hospital B, both report \"average patient waiting time = 30 minutes.\"\nHospital A (consistent): 28, 29, 30, 30, 30, 31, 32 minutes. Mean=30, Median=30, Mode=30.\nHospital B (erratic): 5, 10, 15, 30, 45, 55, 65 minutes. Mean=30, Median=30, Mode=30 (no mode, but median=30).\nA patient choosing based on \"average 30 minutes\" would expect similar experience at both. In reality, Hospital A offers predictable 30-minute waits; Hospital B offers a lottery — you might wait 5 minutes or 65 minutes. For a patient with a scheduled appointment, Hospital B's high dispersion is unacceptable. A poor answer (e.g., identical data or no explanation of decision impact) reveals the student cannot construct distributions with identical central tendency but different spread, or cannot articulate the practical consequences of ignoring dispersion.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Measures of dispersion quantify the extent to which individual data points in a ______ deviate from a central value (mean, median, or mode), describing the spread, variability, or scatter of the dataset around its average.",
+     "a": "distribution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two Class 11 sections, Section A and Section B, both have an average (mean) score of 75 in ______.",
+     "a": "Statistics",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why a measure of central tendency alone is insufficient to describe a distribution, identify real-world situations where dispersion is critical for decision-making, and distinguish between absolute and relative measures of dispersion conceptually.",
      "self_check": true
     }
    ]

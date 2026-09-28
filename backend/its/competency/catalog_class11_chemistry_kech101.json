@@ -64,7 +64,16 @@
      "explain": "Divide the given mass of the substance by its molar mass to get the number of moles",
      "compute": "moles = mass / molar_mass"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "moles = mass / molar_mass",
+     "compute": "moles = mass / molar_mass"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kech.101.3.1",
@@ -90,7 +99,16 @@
      "explain": "Divide the mass of the element by the molar mass of the compound and multiply by 100",
      "compute": "mass_percent = element_mass / compound_mass * 100"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mass_percent = element_mass / compound_mass * 100",
+     "compute": "mass_percent = element_mass / compound_mass * 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kech.101.4.1",
@@ -116,7 +134,16 @@
      "explain": "Divide the moles of solute by the volume of solution in litres to get the molarity",
      "compute": "molarity = moles_solute / volume_solution"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "molarity = moles_solute / volume_solution",
+     "compute": "molarity = moles_solute / volume_solution"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

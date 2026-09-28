@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a bar magnet, a plotting compass, and a sheet of paper to map the magnetic field lines around the magnet. Describe the procedure step-by-step and explain how you would verify that the lines form closed loops.",
      "a": "Procedure: (1) Fix white paper on a board. (2) Place bar magnet at centre, trace its outline, label N and S. (3) Place plotting compass near north pole. (4) Mark dots at the positions of the compass needle's north and south poles. (5) Move compass so its south pole touches the previous north dot. (6) Repeat to trace a line. (7) Draw smooth curve through dots with arrow from north to south outside. (8) Repeat for multiple starting points. To verify closed loops: theoretically explain that lines must continue inside magnet from S to N (since no monopoles exist); experimentally, one cannot map inside but the continuity is inferred from the fact that the same number of lines leave N as enter S. A poor answer (missing steps, not explaining loop continuity) reveals lack of procedural understanding and conceptual grasp of closed loops.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A magnetic field is the region around a magnet or a current-carrying conductor where a magnetic force can be ______ by another magnet, a magnetic material (like iron), or a moving charge.",
+     "a": "experienced",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world ______: sprinkle iron filings on a sheet of paper placed over a bar magnet — the filings align in curved patterns revealing the invisible magnetic field.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can draw magnetic field lines for a bar magnet and a current-carrying straight conductor following all conventions (direction, density, non-intersection), and can explain why a compass needle aligns tangentially to field lines at any point.",
+     "self_check": true
     }
    ]
   }

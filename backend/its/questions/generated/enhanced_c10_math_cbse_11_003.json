@@ -34,6 +34,16 @@
      "q": "Create a real-life problem (Indian context) that requires finding the area of a sector. The problem must involve a circular garden with a sprinkler that waters a sector-shaped region. Provide the radius and angle, and ask for the area watered. Then solve your own problem.",
      "a": "Problem: A circular garden in a school in Delhi has radius 21 m. A sprinkler at the centre waters a sector of angle \\(60^\\circ\\). Find the area watered by the sprinkler. (Use \\(\\pi = \\frac{22}{7}\\)). Solution: \\(A = \\frac{60}{360} \\times \\frac{22}{7} \\times 21 \\times 21 = \\frac{1}{6} \\times \\frac{22}{7} \\times 441 = \\frac{1}{6} \\times 22 \\times 63 = 231 \\text{ m}^2\\). A poor answer would give a problem with inconsistent units (e.g., radius in cm, area in m²) or forget to square the radius. It might also use 180 in denominator. A good answer shows clear steps, correct formula, and proper units.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The area of a sector of a circle is the region enclosed by two radii and the ______ arc.",
+     "a": "intercepted",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are cutting a ______ pizza of radius 14 cm into 8 equal slices.",
+     "a": "circular",
+     "self_check": true
     }
    ]
   }

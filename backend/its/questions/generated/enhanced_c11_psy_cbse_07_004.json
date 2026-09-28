@@ -34,6 +34,31 @@
      "q": "Design a novel \"water bottle\" problem (like NCERT Activity 7.2) that *requires* breaking mental set to solve efficiently. Specify bottle capacities, target volume, the misleading sequence that works for 3-4 warm-up problems, and the simpler insight solution for the critical problem.",
      "a": "Example: Bottles A=8 ml, B=27 ml, C=3 ml. Target=20 ml. Warm-up problems (targets 19, 22, 24) solvable by B–A–C (27-8=19; 27-8+3=22; 27-3=24). Critical problem: target=20 ml. B–A–C gives 19 ml (fail). Insight: Fill A (8) twice → 16, then add C (3) → 19? No. Better: Fill C (3) seven times? No. Real insight: Fill B (27), pour into A (8) → 19 left, pour into C (3) → 16 left... Actually, a cleaner design: A=6, B=19, C=5. Warm-ups: targets 13 (B-A), 18 (B-C), 14 (B-A+C). Critical: target=12. B-A-C gives 8. Insight: A+C+C = 6+5+5=16? Hmm. Let's use NCERT's logic: A=23, B=49, C=3. Target=20. Warm-ups use B-A-2C. Critical: target=20. B-A-2C = 49-23-6=20? That works. Need target where B-A-2C fails but A→C works. NCERT Problem 6: Target=20, A=23, B=49, C=3. B-A-2C = 49-23-6=20 (works). Problem 7: Target=25, A=28, B=76, C=3. B-A-2C = 76-28-6=42 (fails). Insight: A-C = 28-3=25. So student's problem must have similar structure. A good answer demonstrates understanding of mental set induction and insight design. A poor answer creates a problem solvable by the same sequence, missing the \"critical problem\" concept.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Problem solving is a goal-directed cognitive process that involves identifying a discrepancy between an initial state and a desired goal state, then ______ applying mental operations—such as representation, planning, evaluation, and execution—to reduce that discrepancy, while monitoring progress and revising strategies when obstacles like mental set or functional fixedness impede progress.",
+     "a": "systematically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class representative tasked with ______ a Teachers' Day celebration with a budget of ₹5,000, a two-week deadline, and conflicting suggestions from classmates.",
+     "a": "organizing",
+     "self_check": true
+    },
+    {
+     "q": "What is Problem solving? State the definition given in this lesson.",
+     "a": "Problem solving is a goal-directed cognitive process that involves identifying a discrepancy between an initial state and a desired goal state, then systematically applying mental operations—such as representation, planning, evaluation, and execution—to reduce that discrepancy, while monitoring progress and revising strategies when.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Problem solving?",
+     "a": "Students believe \"mental set\" and \"functional fixedness\" are synonyms for \"being stubborn\" or \"not thinking creatively.\" They incorrectly label any repeated error as mental set, and any unusual object use as overcoming functional fixedness.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can sequentially list and explain all seven stages of problem solving (identification, representation, planning, evaluation, selection/execution, outcome evaluation, rethinking) with a concrete example, and can distinguish mental set from functional fixedness by identifying which obstacle operates in a given scenario.",
+     "self_check": true
     }
    ]
   }

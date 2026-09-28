@@ -5,6 +5,8 @@
    "id": "hemh.107.7.1",
    "title": "Ratio and Percentage Recap",
    "converted_to_compute": false,
+   "formula": "percent = a / (a + b) * 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 10% of 600.",
@@ -42,6 +44,8 @@
    "id": "hemh.107.7.2",
    "title": "Finding Discounts",
    "converted_to_compute": false,
+   "formula": "discount = marked * rate / 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A trader buys an article for Rs 200 and sells it for Rs 240. Find the profit.",
@@ -79,6 +83,8 @@
    "id": "hemh.107.7.3",
    "title": "Sales Tax and Value Added Tax",
    "converted_to_compute": false,
+   "formula": "tax = price * rate / 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A trader buys an article for Rs 150 and sells it for Rs 187. Find the profit.",
@@ -116,6 +122,8 @@
    "id": "hemh.107.7.4",
    "title": "Compound Interest",
    "converted_to_compute": false,
+   "formula": "amount = principal * (1 + rate / 100) ** time",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the simple interest on Rs 8000 at 10% per annum for 4 years.",
@@ -152,15 +160,9 @@
   {
    "id": "hemh.107.7.5",
    "title": "Growth and Decay Applications",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the simple or compound interest formula",
-     "explain": "apply the simple or compound interest formula: si = 5000 * 8 * 4 / 100 gives 1600",
-     "compute": "si = 5000 * 8 * 4 / 100"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "new_value = initial * (1 + rate / 100) ** time",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the simple interest on Rs 5000 at 8% per annum for 4 years.",

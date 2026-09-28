@@ -21,18 +21,43 @@
      "self_check": true
     },
     {
-     "q": "Compare the molecular strategy for virus resistance in transgenic papaya (coat protein-mediated) with the strategy for delayed ripening in Flavr Savr tomato (antisense RNA). How do both exploit gene expression regulation but differ in the nucleic acid intermediate targeted?",
-     "a": "Both strategies use rDNA to introduce a transgene that interferes with a pathogen or endogenous gene. In virus-resistant papaya, the viral *coat protein (CP) gene* is expressed in the plant; the CP protein interferes with viral uncoating or replication (protein-mediated resistance/cross-protection). In Flavr Savr tomato, an *antisense RNA* complementary to the *polygalacturonase (PG) mRNA* is expressed; the antisense RNA binds PG mRNA via base-pairing, forming dsRNA that is degraded or translationally blocked (RNA-level silencing). The former acts at the protein level (dominant negative), the latter at the mRNA level (post-transcriptional gene silencing).  \n**Diagnosis:** A student equating both as \"RNA interference\" misses that CP-mediated resistance is primarily protein-based (though can trigger silencing). Confusing antisense RNA with RNAi (siRNA/miRNA) indicates lack of distinction between single-stranded antisense and double-stranded RNAi triggers.",
+     "q": "Trace the correct sequence of events by which coat protein protects papaya and antisense RNA delays ripening in tomato.",
+     "a": "The two strategies run: (1) The viral coat protein gene is expressed in the transgenic papaya (2) Expressed coat protein interferes with viral uncoating and replication (3) In Flavr Savr tomato an antisense RNA binds the polygalacturonase mRNA (4) The blocked mRNA halts softening enzymes and the fruit ripens late. A wrong answer that treats both as protein-mediated shows the student has missed that papaya resistance acts at the protein level while Flavr Savr acts at the RNA level by base pairing.",
      "self_check": true
     },
     {
-     "q": "\"Golden Rice (GR2E) produces β-carotene in the endosperm, potentially alleviating vitamin A deficiency. However, critics argue it is a 'technological fix' that ignores dietary diversity and socio-economic barriers.\" Evaluate this critique using evidence from molecular biology and public health nutrition.",
-     "a": "**Molecular evidence:** GR2E expresses *psy* (phytoene synthase, maize) and *crtI* (phytoene desaturase, *Pantoea ananatis*) under endosperm-specific promoters, reconstructing the β-carotene pathway up to lycopene; endogenous cyclases complete conversion to β-carotene. Bioavailability studies show β-carotene from Golden Rice is efficiently converted to retinol in humans. **Public health critique:** Vitamin A deficiency (VAD) is multifactorial (infection, fat malabsorption, lack of dietary diversity). Golden Rice addresses *one* proximate cause (low provitamin A intake) but requires adoption by farmers, cultural acceptance (yellow grain), and sufficient dietary fat for absorption. It complements, not replaces, supplementation and fortification programs. A balanced evaluation acknowledges the molecular efficacy while demanding equitable delivery systems.  \n**Diagnosis:** A purely technical answer (\"it works biochemically\") ignores the competency of evaluating technology in societal context. A purely sociological answer (\"farmers won't grow it\") ignores the proven biochemical efficacy.",
+     "q": "Give the correct order of points in a balanced evaluation of Golden Rice as an answer to vitamin A deficiency.",
+     "a": "The evaluation runs: (1) Note the psy and crtI genes reconstruct the beta-carotene pathway in the endosperm (2) Acknowledge bioavailability studies show the carotene converts to retinol (3) Recognise deficiency is multifactorial, involving infection, fat malabsorption and dietary diversity (4) Weigh the molecular promise against the socio-economic barriers before judging the technology. A wrong answer that either dismisses Golden Rice as a mere technological fix or calls it a complete solution shows the student has missed that both molecular evidence and public health context must enter the verdict.",
      "self_check": true
     },
     {
      "q": "Design a hypothetical GM crop for a specific abiotic stress prevalent in Indian agriculture (e.g., salinity, drought, heat). Specify: (a) the target trait, (b) a candidate gene with source organism, (c) the promoter choice (constitutive vs. stress-inducible vs. tissue-specific) with justification, and (d) one potential pleiotropic risk to assess during confined field trials.",
      "a": "**Example answer for drought-tolerant maize:** (a) Trait: Improved water-use efficiency and yield stability under terminal drought. (b) Gene: *DREB1A* (Dehydration-Responsive Element Binding protein 1A) from *Arabidopsis thaliana* — a transcription factor activating multiple downstream stress-responsive genes (e.g., *RD29A*, *COR15A*). (c) Promoter: Stress-inducible *rd29A* promoter — ensures *DREB1A* expression only under drought/salinity/cold, avoiding constitutive growth penalty (stunting) seen with CaMV 35S. (d) Pleiotropic risk: Altered root architecture or reduced biomass under optimal irrigation due to leaky promoter expression; must be quantified in multi-location trials.  \n**Diagnosis:** A student choosing a constitutive promoter (CaMV 35S) for a transcription factor shows ignorance of fitness costs. Omitting a specific pleiotropic risk indicates lack of experience with regulatory field trial design.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ Modified (GM) crops are transgenic plants created by inserting specific gene(s) from any organism into a crop plant's genome using recombinant DNA technology to confer desirable traits such as insect resistance, herbicide tolerance, enhanced nutrition, or abiotic stress tolerance.",
+     "a": "Genetically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a cotton farmer in Vidarbha who spends ₹15,000 per acre on ______ sprays yet loses 30% yield to pink bollworm.",
+     "a": "pesticide",
+     "self_check": true
+    },
+    {
+     "q": "What is Genetically Modified (GM) crops? State the definition given in this lesson.",
+     "a": "Genetically Modified (GM) crops are transgenic plants created by inserting specific gene(s) from any organism into a crop plant's genome using recombinant DNA technology to confer desirable traits such as insect resistance, herbicide tolerance, enhanced nutrition, or abiotic stress tolerance.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Genetically Modified (GM) crops?",
+     "a": "Misconception: \"Bt cotton produces a chemical pesticide inside the plant that poisons the soil and kills all beneficial insects.\" Why it arises: Students conflate *in planta* protein expression with *exogenous chemical spraying*.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the rDNA-based mechanism for developing a GM crop, differentiate between the modes of action for insect resistance (Bt toxin) vs. herbicide tolerance (EPSPS), and evaluate the agronomic benefits and ecological concerns of at least three distinct GM crops with specific gene-trait linkages.",
      "self_check": true
     }
    ]

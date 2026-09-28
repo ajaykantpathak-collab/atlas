@@ -34,6 +34,36 @@
      "q": "Design a visual interpretation key for identifying three land cover types (dense forest, urban built-up, fallow agricultural land) on a standard FCC image using tone/colour, texture, pattern, and association. Present as a table.",
      "a": "| Land Cover | Tone/Colour (FCC) | Texture | Pattern | Association |\n|------------|-------------------|---------|---------|-------------|\n| Dense Forest | Deep red to magenta | Coarse (irregular canopy) | Contiguous, irregular boundaries | Associated with hilly terrain, river corridors |\n| Urban Built-up | Bluish-green to dark blue | Fine to medium (grid-like) | Geometric, rectilinear street patterns | Along transport networks, near water bodies |\n| Fallow Land | Light blue to white | Smooth | Large uniform rectangular patches | Adjacent to cropped land (bright red), often near settlements |\n\nA poor answer using only colour or copying Table 6.2 verbatim without synthesizing texture/pattern/association reveals rote memorization without application of interpretation elements to real-world discrimination.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Remote sensing is the science and technology of acquiring information about objects or phenomena on Earth's surface without physical contact, by detecting and measuring ______ radiation (EMR) reflected, emitted, or transmitted by those objects using sensors mounted on platforms (satellites, aircraft, or ground-based).",
+     "a": "electromagnetic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at your smartphone camera — it captures images by ______ visible light reflected off objects.",
+     "a": "detecting",
+     "self_check": true
+    },
+    {
+     "q": "What is Remote sensing? State the definition given in this lesson.",
+     "a": "Remote sensing is the science and technology of acquiring information about objects or phenomena on Earth's surface without physical contact, by detecting and measuring electromagnetic radiation (EMR) reflected, emitted, or transmitted by those objects using sensors mounted on platforms (satellites, aircraft, or ground-based).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now imagine a satellite ______ km above Earth doing the same, but with \"eyes\" that see not just visible colours but also infrared and microwave energy invisible to humans.",
+     "a": "700",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Remote sensing?",
+     "a": "Students believe \"remote sensing = satellite photography\" and that FCC images show \"real colours\" of Earth.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the eight stages of remote sensing data acquisition in correct sequence, describe how EMR interacts with Earth's surface and atmosphere, and differentiate between photographic and digital data products using appropriate terminology (pixel, DN value, spectral band, false colour composite).",
+     "self_check": true
     }
    ]
   }

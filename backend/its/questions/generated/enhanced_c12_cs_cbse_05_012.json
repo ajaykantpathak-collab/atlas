@@ -34,6 +34,26 @@
      "q": "Design a scenario where a scalar subquery in the SELECT clause is necessary (cannot be easily replaced by a JOIN). Provide the schema and the query.",
      "a": "Scenario: For each department, show its name and the name of the highest-paid employee. Schema: dept(did, dname), emp(eid, ename, salary, did). Query:\n```sql\nSELECT d.dname,\n       (SELECT e.ename FROM emp e WHERE e.did = d.did ORDER BY e.salary DESC LIMIT 1) AS top_earner\nFROM dept d;\n```\nA JOIN would require window functions or a derived table; the scalar subquery expresses it directly. A poor answer that suggests a simple JOIN without handling ties or duplicates shows incomplete analysis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ (inner query) is a SELECT statement nested inside another SQL statement (outer query) such that the result of the inner query is used by the outer query to further restrict or compute data.",
+     "a": "subquery",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small online bookstore and want to find all ______ who have spent more than the average order value.",
+     "a": "customers",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly write and explain correlated and non-correlated subqueries, identify when to use IN, EXISTS, ANY, ALL operators, and rewrite a subquery as a JOIN (and vice versa) for a given scenario involving at least two related tables.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small online ______ and want to find all customers who have spent more than the average order value.",
+     "a": "bookstore",
+     "self_check": true
     }
    ]
   }

@@ -7,7 +7,7 @@
    "questions": [
     {
      "q": "What is the return type of `cursor.fetchone()` when the result set has at least one row remaining, and what does it return when the result set is exhausted?",
-     "a": "`fetchone()` returns a tuple representing the next row (e.g., `('Aman', 85)`), and returns `None` when no more rows are available. A wrong answer like \"returns a list\" or \"raises an exception\" reveals confusion between `fetchone()` and `fetchall()` or misunderstanding of DB-API 2.0 specification.",
+     "a": "`fetchone()` returns a tuple representing the next row (e.g., `('Aman', 85)`), and returns `N/A` when no more rows are available. A wrong answer like \"returns a list\" or \"raises an exception\" reveals confusion between `fetchone()` and `fetchall()` or misunderstanding of DB-API 2.0 specification.",
      "self_check": true
     },
     {
@@ -17,7 +17,7 @@
     },
     {
      "q": "Write a code snippet that uses `fetchmany(5)` in a loop to print all rows from a result set containing 17 rows. How many iterations will the loop run, and what will the last iteration return?",
-     "a": "The loop runs 4 iterations: three iterations return 5 rows each (list of 5 tuples), the fourth returns the remaining 2 rows (list of 2 tuples), and a fifth call would return `[]`. A student who says \"3 iterations\" or \"last returns None\" confuses `fetchmany` with `fetchone` or misunderstands that `fetchmany` returns a list (never `None`) and returns fewer than `size` rows at the end.",
+     "a": "The loop runs 4 iterations: three iterations return 5 rows each (list of 5 tuples), the fourth returns the remaining 2 rows (list of 2 tuples), and a fifth call would return `[]`. A student who says \"3 iterations\" or \"last returns N/A\" confuses `fetchmany` with `fetchone` or misunderstands that `fetchmany` returns a list (never `N/A`) and returns fewer than `size` rows at the end.",
      "self_check": true
     },
     {
@@ -32,7 +32,27 @@
     },
     {
      "q": "Design a real-world scenario (Indian context) where you would deliberately choose `fetchone()` over the other two methods, and write the complete Python code (connection, query, fetch, close) for that scenario. Explain why the other methods would be inappropriate.",
-     "a": "Scenario: An ATM balance-check transaction — only one row (the current user's balance) is ever expected. Code uses `fetchone()` because it returns a single tuple or `None`, directly mapping to \"account found\" or \"account not found\". `fetchall()` would create an unnecessary list; `fetchmany(1)` returns a list of one tuple, requiring extra indexing. A poor answer uses `fetchall()` \"to be safe\", showing lack of precision in method selection.",
+     "a": "Scenario: An ATM balance-check transaction — only one row (the current user's balance) is ever expected. Code uses `fetchone()` because it returns a single tuple or `N/A`, directly mapping to \"account found\" or \"account not found\". `fetchall()` would create an unnecessary list; `fetchmany(1)` returns a list of one tuple, requiring extra indexing. A poor answer uses `fetchall()` \"to be safe\", showing lack of precision in method selection.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The fetchone(), fetchall(), and fetchmany(size) methods of a MySQL cursor object retrieve rows from the result set of an executed SELECT query. fetchone() returns the next single row as a tuple (or N/A if no more rows), fetchall() returns all ______ rows as a list of tuples, and fetchmany(size) returns up to size rows as a list of tuples.",
+     "a": "remaining",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just run a query to get the names and marks of 500 students from a school ______.",
+     "a": "database",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just run a query to get the names and marks of ______ students from a school database.",
+     "a": "500",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write Python code that executes a SELECT query, chooses the appropriate fetch method based on memory constraints and processing needs, correctly iterates through the returned tuples, and handles the case when no rows are returned (empty list or N/A).",
      "self_check": true
     }
    ]

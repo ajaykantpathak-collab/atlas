@@ -1,6 +1,194 @@
 {
- "catalog": "catalog_class11_biotechnology_kebt104",
+ "catalog": "catalog_class11_biotechnology_kebt104.json",
  "concepts": [
+  {
+   "id": "kebt104.4",
+   "title": "Michaelis-Menten Kinetics",
+   "converted_to_compute": true,
+   "formula": "rate = vmax * s_conc / (km + s_conc)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rate = vmax * s_conc / (km + s_conc)",
+     "compute": "rate = vmax * s_conc / (km + s_conc)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Michaelis-Menten Kinetics: given vmax = 82, s_conc = 73, km = 2.3, find rate.",
+     "a": "79.4954",
+     "self_check": false
+    },
+    {
+     "q": "For Michaelis-Menten Kinetics: given vmax = 85, s_conc = 39, km = 92, find rate.",
+     "a": "25.3053",
+     "self_check": false
+    },
+    {
+     "q": "For Michaelis-Menten Kinetics: given vmax = 49, s_conc = 64, km = 50, find rate.",
+     "a": "27.5088",
+     "self_check": false
+    },
+    {
+     "q": "For Michaelis-Menten Kinetics: given vmax = 36, s_conc = 75, km = 89, find rate.",
+     "a": "16.4634",
+     "self_check": false
+    },
+    {
+     "q": "For Michaelis-Menten Kinetics: given vmax = 66, s_conc = 62, km = 96, find rate.",
+     "a": "25.8987",
+     "self_check": false
+    },
+    {
+     "q": "For Michaelis-Menten Kinetics: given vmax = 54, s_conc = 3.2, km = 58, find rate.",
+     "a": "2.82353",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebt104.5",
+   "title": "Enzyme Units, Katal and Specific Activity",
+   "converted_to_compute": true,
+   "formula": "specific_activity = total_units / protein_mg",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "specific_activity = total_units / protein_mg",
+     "compute": "specific_activity = total_units / protein_mg"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Enzyme Units, Katal and Specific Activity: given total_units = 14, protein_mg = 14.7, find specific activity.",
+     "a": "0.952381",
+     "self_check": false
+    },
+    {
+     "q": "For Enzyme Units, Katal and Specific Activity: given total_units = 48, protein_mg = 1.6, find specific activity.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "For Enzyme Units, Katal and Specific Activity: given total_units = 44, protein_mg = 13.3, find specific activity.",
+     "a": "3.30827",
+     "self_check": false
+    },
+    {
+     "q": "For Enzyme Units, Katal and Specific Activity: given total_units = 37, protein_mg = 3.4, find specific activity.",
+     "a": "10.8824",
+     "self_check": false
+    },
+    {
+     "q": "For Enzyme Units, Katal and Specific Activity: given total_units = 81, protein_mg = 17.9, find specific activity.",
+     "a": "4.52514",
+     "self_check": false
+    },
+    {
+     "q": "For Enzyme Units, Katal and Specific Activity: given total_units = 58, protein_mg = 12.5, find specific activity.",
+     "a": "4.64",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebt104.7",
+   "title": "Laws of Thermodynamics and Free Energy",
+   "converted_to_compute": true,
+   "formula": "g_change = h_change - t_kelvin * s_change",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "g_change = h_change - t_kelvin * s_change",
+     "compute": "g_change = h_change - t_kelvin * s_change"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Laws of Thermodynamics and Free Energy: given h_change = 63, t_kelvin = 8.8, s_change = 50, find g change.",
+     "a": "-377",
+     "self_check": false
+    },
+    {
+     "q": "For Laws of Thermodynamics and Free Energy: given h_change = 84, t_kelvin = 28, s_change = 77, find g change.",
+     "a": "-2072",
+     "self_check": false
+    },
+    {
+     "q": "For Laws of Thermodynamics and Free Energy: given h_change = 78, t_kelvin = 36, s_change = 95, find g change.",
+     "a": "-3342",
+     "self_check": false
+    },
+    {
+     "q": "For Laws of Thermodynamics and Free Energy: given h_change = 71, t_kelvin = 49, s_change = 40, find g change.",
+     "a": "-1889",
+     "self_check": false
+    },
+    {
+     "q": "For Laws of Thermodynamics and Free Energy: given h_change = 34, t_kelvin = 19.2, s_change = 39, find g change.",
+     "a": "-714.8",
+     "self_check": false
+    },
+    {
+     "q": "For Laws of Thermodynamics and Free Energy: given h_change = 84, t_kelvin = 104, s_change = 2.5, find g change.",
+     "a": "-176",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebt104.8",
+   "title": "ATP the Universal Energy Currency",
+   "converted_to_compute": true,
+   "formula": "energy_out = atp_moles * 7.3",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "energy_out = atp_moles * 7.3",
+     "compute": "energy_out = atp_moles * 7.3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For ATP the Universal Energy Currency: given atp_moles = 9.2, find energy out.",
+     "a": "67.16",
+     "self_check": false
+    },
+    {
+     "q": "For ATP the Universal Energy Currency: given atp_moles = 8.7, find energy out.",
+     "a": "63.51",
+     "self_check": false
+    },
+    {
+     "q": "For ATP the Universal Energy Currency: given atp_moles = 1.6, find energy out.",
+     "a": "11.68",
+     "self_check": false
+    },
+    {
+     "q": "For ATP the Universal Energy Currency: given atp_moles = 8.9, find energy out.",
+     "a": "64.97",
+     "self_check": false
+    },
+    {
+     "q": "For ATP the Universal Energy Currency: given atp_moles = 6.7, find energy out.",
+     "a": "48.91",
+     "self_check": false
+    },
+    {
+     "q": "For ATP the Universal Energy Currency: given atp_moles = 4.6, find energy out.",
+     "a": "33.58",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "kebt104.1",
    "title": "Enzyme Classes and Cofactor Helpers",
@@ -65,68 +253,6 @@
    ]
   },
   {
-   "id": "kebt104.4",
-   "title": "Michaelis-Menten Kinetics",
-   "questions": [
-    {
-     "q": "Using the method 'Michaelis-Menten Kinetics', work with: km = 25, s_conc = 75, target_rate = 5, vmax = 30. Carry the chain through step by step and give the final value of s_needed.",
-     "a": "5 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Michaelis-Menten Kinetics' and work with: km = 10, s_conc = 45, target_rate = 8, vmax = 45. Carry the chain through step by step and give the final value of s_needed.",
-     "a": "2.1622 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Michaelis-Menten Kinetics' refers to.",
-     "a": "For a single-substrate reaction the initial speed follows a rectangular hyperbola: velocity equals Vmax multiplied by substrate level divided by the sum of Km and that level, so the rate is proportional to substrate when far below Km, plateaus at Vmax when far above, and hits exactly half of Vmax when the substrate level equals Km.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Michaelis-Menten Kinetics'.",
-     "a": "Km is the substrate level that buys half the top speed; solve the hyperbola for any missing variable.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Michaelis-Menten Kinetics', in plain ASCII form.",
-     "a": "rate = vmax * s_conc / (km + s_conc)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebt104.5",
-   "title": "Enzyme Units, Katal and Specific Activity",
-   "questions": [
-    {
-     "q": "Using the method 'Enzyme Units, Katal and Specific Activity', work with: kat_value = 120000, protein_mg = 5, total_units = 200. Carry the chain through step by step and give the final value of specific_activity.",
-     "a": "40 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Enzyme Units, Katal and Specific Activity' and work with: kat_value = 20000, protein_mg = 60, total_units = 500. Carry the chain through step by step and give the final value of specific_activity.",
-     "a": "8.3333 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Enzyme Units, Katal and Specific Activity' refers to.",
-     "a": "One enzyme unit converts a micromole of substrate per minute, the katal converts a full mole per second and equals six times ten to the seven units, and specific activity - units carried per milligram of protein - rises as an enzyme preparation gets purer.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Enzyme Units, Katal and Specific Activity'.",
-     "a": "Scale between unit and katal by six times ten to the seven; divide activity by protein mass to measure purity.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Enzyme Units, Katal and Specific Activity', in plain ASCII form.",
-     "a": "specific_activity = total_units / protein_mg",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "kebt104.6",
    "title": "Competitive and Non-Competitive Inhibition",
    "questions": [
@@ -143,68 +269,6 @@
     {
      "q": "Under which section is 'Competitive and Non-Competitive Inhibition' taught, and from which source text?",
      "a": "4.1.6 (source: kebt104.txt section 4.1.6, Figs. 4.7-4.11)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebt104.7",
-   "title": "Laws of Thermodynamics and Free Energy",
-   "questions": [
-    {
-     "q": "Using the method 'Laws of Thermodynamics and Free Energy', work with: h_change = 3, q_heat = 50, s_change = 80, t_kelvin = 30, w_work = 240. Carry the chain through step by step and give the final value of g_change.",
-     "a": "-2397 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Laws of Thermodynamics and Free Energy' and work with: h_change = 60, q_heat = 200, s_change = 18, t_kelvin = 60, w_work = 240. Carry the chain through step by step and give the final value of g_change.",
-     "a": "-1020 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Laws of Thermodynamics and Free Energy' refers to.",
-     "a": "Energy bookkeeping follows two rules: internal energy shifts only by heat in minus work out, and the universe's disorder never falls; Gibbs merged them into the free-energy balance where the change equals the enthalpy change minus temperature times the entropy change, and a negative result marks a spontaneous process.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Laws of Thermodynamics and Free Energy'.",
-     "a": "Enzymes only cut the activation barrier - they never move the equilibrium or rewrite the free-energy total.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Laws of Thermodynamics and Free Energy', in plain ASCII form.",
-     "a": "g_change = h_change - t_kelvin * s_change",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebt104.8",
-   "title": "ATP the Universal Energy Currency",
-   "questions": [
-    {
-     "q": "Using the method 'ATP the Universal Energy Currency', work with: atp_moles = 400, used_kcal = 25. Carry the chain through step by step and give the final value of surplus.",
-     "a": "2895 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'ATP the Universal Energy Currency' and work with: atp_moles = 240, used_kcal = 45. Carry the chain through step by step and give the final value of surplus.",
-     "a": "1707 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'ATP the Universal Energy Currency' refers to.",
-     "a": "Cells bank usable energy in adenosine triphosphate: breaking food or capturing light first charges ADP into ATP, and spending that charge - ATP to ADP plus inorganic phosphate - releases about 7.3 kcal per mole for biosynthesis, transport and muscle work, with some processes like the firefly flash stripping ATP all the way to AMP and pyrophosphate.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'ATP the Universal Energy Currency'.",
-     "a": "Multiply moles of ATP spent by 7.3 kcal to price any energy-demanding cell job.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'ATP the Universal Energy Currency', in plain ASCII form.",
-     "a": "energy_out = atp_moles * 7.3",
      "self_check": true
     }
    ]

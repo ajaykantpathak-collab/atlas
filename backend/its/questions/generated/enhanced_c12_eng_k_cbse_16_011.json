@@ -34,6 +34,31 @@
      "q": "Write a new sentence about film-making that mimics Bergman's pattern: Subject + Transitive Verb + Object (with two adjectives and an intensifier) + Adjunct of place. Then label each component.",
      "a": "Example: \"The director chose a remarkably sensitive script for the project.\"\nLabels: Subject = \"The director\"; Verb = \"chose\" (transitive); Object = \"a remarkably sensitive script\" (intensifier \"remarkably\" modifies adjective \"sensitive\"); Adjunct = \"for the project\" (prepositional phrase of purpose/place). A poor answer either omits the intensifier, uses an intransitive verb, or mislabels the adjunct — showing the student cannot yet produce the structure they only recognize passively.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sentence analysis in the context of \"Film-Making\" involves identifying the core grammatical components — Subject, Predicate, Verb, Object, Adjunct (prepositional phrase), and Intensifier — to understand how Bergman structures his ______ reflections for clarity, rhythm, and emphasis.",
+     "a": "autobiographical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a film editor watching raw footage — you need to ______ each shot's role (close-up, wide, cutaway) to assemble a coherent scene.",
+     "a": "identify",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Practice this ______-step dissection on the four other sentences given in the textbook exercise.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently take any sentence from the chapter, break it down into Subject, Predicate, Verb, Object, Adjunct, and Intensifier, and explain how each component contributes to the sentence's meaning and the author's tone.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a film editor ______ raw footage — you need to identify each shot's role (close-up, wide, cutaway) to assemble a coherent scene.",
+     "a": "watching",
+     "self_check": true
     }
    ]
   }

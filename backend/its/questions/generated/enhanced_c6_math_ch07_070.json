@@ -34,6 +34,21 @@
      "q": "Create a drawing with three points (A, B, and C) that are not on the same line, and connect them to form three different line segments.",
      "a": "The student should draw a triangle-like shape with segments AB, BC, and CA. An incorrect drawing shows a failure to connect specific points to form segments.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A point is a precise location in space ______ by a dot, a line segment is the shortest path between two fixed endpoints, and a line is a collection of points that extends infinitely in two opposite directions.",
+     "a": "represented",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by drawing a dot on your paper—that is your \"Point.\" Now, take a pencil and draw the ______ path between two dots using a ruler; that is your \"Line Segment\" because it has two clear ends.",
+     "a": "shortest",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to visually distinguish and correctly name points, lines, and line segments, and demonstrate the difference between them by drawing and labeling them on paper.",
+     "self_check": true
     }
    ]
   }

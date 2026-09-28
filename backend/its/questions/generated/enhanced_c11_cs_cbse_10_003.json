@@ -34,6 +34,36 @@
      "q": "Design a real-world scenario (not computer science) that exactly mirrors the push/pop behavior of a stack. Describe the \"push\" action, the \"pop\" action, the \"top\" concept, and what \"overflow\" and \"underflow\" would mean in your scenario.",
      "a": "**Scenario:** A stack of dinner plates in a spring-loaded cafeteria dispenser.\n- **Push:** Place a clean plate on top of the stack (spring compresses).\n- **Pop:** Lift the top plate off for a customer.\n- **Top:** The single plate currently accessible at the very top.\n- **Overflow:** The dispenser is full; cannot add another plate without removing one (physical limit).\n- **Underflow:** A customer arrives but the dispenser is empty; no plate to give.\nA good answer maps each stack term precisely. A poor answer (e.g., a queue of people) reveals confusion between LIFO and FIFO.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stack operations Push and Pop are the ______ insertion and deletion operations on a stack data structure.",
+     "a": "fundamental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are packing a suitcase for a trip: you ______ items in one by one (push), but when you need something, you can only take out the very last item you packed (pop).",
+     "a": "place",
+     "self_check": true
+    },
+    {
+     "q": "What is Stack operations Push and Pop? State the definition given in this lesson.",
+     "a": "Stack operations Push and Pop are the fundamental insertion and deletion operations on a stack data structure.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Both operations execute in O(______) time and strictly enforce the LIFO (Last-In-First-Out) principle.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Stack operations Push and Pop?",
+     "a": "Students often believe that pop() only reads the top value without removing it, confusing it with the peek operation.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to trace a sequence of push/pop operations on a stack diagram showing the top pointer and memory state after each step, and correctly predict the output of a pop operation or identify an underflow/overflow error condition.",
+     "self_check": true
     }
    ]
   }

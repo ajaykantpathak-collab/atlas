@@ -34,6 +34,31 @@
      "q": "Create a novel \"fever recovery snack\" recipe for an adolescent that delivers ≥200 kcal and ≥10 g protein per serving, uses only ingredients permitted in a soft bland diet, requires no cooking (only assembly), and can be eaten cold. List ingredients with quantities, calculate nutrients, and justify each ingredient's therapeutic role.",
      "a": "Recipe: \"Curd-Nut Energy Bowl\" — 100 g hung curd (90 kcal, 10 g protein) + 15 g powdered almonds (90 kcal, 3 g protein) + 1 tsp honey (20 kcal) + ½ mashed banana (45 kcal) + pinch cardamom = 245 kcal, 13 g protein. Justification: Curd — probiotic, high-biological-value protein, calcium; Almonds — vitamin E (antioxidant), zinc (immune), energy density; Honey — quick glucose, soothing; Banana — potassium (electrolyte), pectin (binds stool); Cardamom — anti-nausea. No cooking, cold, soft. Poor answer (e.g., using raw sprouts, whole nuts, or spices) violates texture/safety rules for compromised digestion.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Nutritional requirements during fever and infections refer to the increased and altered nutrient needs (energy, protein, fluids, electrolytes, vitamins, and minerals) that occur due to elevated metabolic rate, catabolism, and immune response during febrile illnesses, requiring specific dietary ______ to support recovery and prevent malnutrition.",
+     "a": "modifications",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your younger sibling has a high fever (39.5°C) for three days and refuses to eat — \"I'm not hungry, everything tastes bitter.\" You notice they've lost ______ and look dehydrated.",
+     "a": "weight",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your younger sibling has a high fever (______°C) for three days and refuses to eat — \"I'm not hungry, everything tastes bitter.\" You notice they've lost weight and look dehydrated.",
+     "a": "39.5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the increased energy and protein requirements for a patient with fever given their basal requirements, design a day's meal plan meeting the modified nutrient needs using soft/bland foods, and justify each modification based on physiological changes during infection.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your younger sibling has a high fever (39.5°C) for three days and refuses to eat — \"I'm not hungry, ______ tastes bitter.\" You notice they've lost weight and look dehydrated.",
+     "a": "everything",
+     "self_check": true
     }
    ]
   }

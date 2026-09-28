@@ -34,6 +34,31 @@
      "q": "Create a novel 3-panel comic strip concept (describe each panel in 2-3 sentences) that teaches GAS to Class 10 students using an Indian context. Panel 1 must depict Alarm with a relatable stressor. Panel 2 must show Resistance *without* using the word \"resistance\" — show the hidden cost. Panel 3 must depict Exhaustion with a clear physiological consequence. Include one speech bubble per panel that captures the *body's internal dialogue* at that stage.",
      "a": "**Panel 1 (Alarm):** *Scene:* Rohan, 15, sees his Class 10 Board date-sheet released. His eyes widen, heart pounds, palms sweat. *Body's speech bubble:* \"ALERT! Threat detected! Flooding adrenaline, shutting down digestion, redirecting blood to muscles — FIGHT OR FLIGHT NOW!\" *Visual cue:* Hypothalamus lighting up like a switchboard.\n\n**Panel 2 (Resistance — hidden cost):** *Scene:* Six weeks later. Rohan studies 12 hrs/day, looks \"calm,\" tells mom \"I'm fine, used to it now.\" But his room has tissue boxes (3rd cold this month), a half-eaten apple (appetite gone), and he's rubbing his lower back (cortisol-induced bone resorption). *Body's speech bubble:* \"Holding the line... cortisol keeps glucose high for brain, but I'm stealing calcium from bones, suppressing immune patrols, and the repair crew is on strike. How long can I pay this rent?\"\n\n**Panel 3 (Exhaustion):** *Scene:* Day before Maths Board. Rohan stares at a quadratic equation he solved 20 times — mind blank. He feels dizzy, BP 150/95. Mom finds him crying, unable to stand. *Body's speech bubble:* \"BANKRUPT. Adrenals exhausted. Cortisol crashed. Immune system open door. Blood pressure unregulated. Neural circuits fried. I HAVE NOTHING LEFT TO GIVE.\" *Visual cue:* Battery icon at 0%, red warning light.\n\n**Why this works:** Panel 2 explicitly shows Resistance ≠ \"fine\" — it's *costly maintenance*. The internal dialogue makes the invisible physiology visible. Indian context (Board exams, mom, tissue boxes) ensures relatability.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: General Adaptation Syndrome (GAS) is Hans Selye's three-stage physiological model describing the body's non-specific, predictable response pattern to prolonged exposure to any stressor, comprising Alarm Reaction (immediate fight-or-flight mobilisation), Resistance (stabilised coping with elevated resource expenditure), and Exhaustion (resource depletion leading to physiological breakdown and disease ______).",
+     "a": "vulnerability",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a Class 12 student, Priya, who has been ______ for NEET for 18 months.",
+     "a": "preparing",
+     "self_check": true
+    },
+    {
+     "q": "What is General Adaptation Syndrome (GAS)? State the definition given in this lesson.",
+     "a": "General Adaptation Syndrome (GAS) is Hans Selye's three-stage physiological model describing the body's non-specific, predictable response pattern to prolonged exposure to any stressor, comprising Alarm Reaction (immediate fight-or-flight mobilisation), Resistance (stabilised coping with elevated resource expenditure), and Exhaustion.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about General Adaptation Syndrome (GAS)?",
+     "a": "Misconception: \"The Resistance stage means the body has successfully adapted and the stress is 'managed' — so it's a good/healthy stage.\" Why students make this error: The word \"resistance\" in everyday English implies *successful opposition* (e.g., \"antibiotic resistance\" = bacteria win).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) correctly sequence and describe the three GAS stages with their distinct physiological mechanisms, and (2) apply the model to a novel case study by identifying which stage a person is in based on behavioural and physiological cues, justifying each identification with stage-specific mechanisms.",
+     "self_check": true
     }
    ]
   }

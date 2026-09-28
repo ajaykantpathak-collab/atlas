@@ -1,0 +1,182 @@
+{
+ "catalog": "catalog_class11_economics_ch102.json",
+ "concepts": [
+  {
+   "id": "keec.102.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "agri_output = 79",
+      "ind_output = 13",
+      "service_output = 42",
+      "gdp = agri_output + ind_output + service_output"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "agri_output = 82",
+      "ind_output = 63",
+      "service_output = 72",
+      "gdp = agri_output + ind_output + service_output"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "agri_output = 47",
+      "ind_output = 66",
+      "service_output = 33",
+      "gdp = agri_output + ind_output + service_output"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "agri_output = 41",
+      "ind_output = 11.9",
+      "service_output = 88",
+      "gdp = agri_output + ind_output + service_output"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "agri_output = 3.7",
+      "ind_output = 62",
+      "service_output = 20",
+      "gdp = agri_output + ind_output + service_output"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "agri_output = 91",
+      "ind_output = 33",
+      "service_output = 52",
+      "gdp = agri_output + ind_output + service_output"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "gdp = agri_output + ind_output + service_output"
+   ]
+  },
+  {
+   "id": "keec.102.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "sector_output = 45",
+      "gdp = 95",
+      "sector_share = (sector_output / gdp) * 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "sector_output = 67",
+      "gdp = 14.3",
+      "sector_share = (sector_output / gdp) * 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "sector_output = 92",
+      "gdp = 94",
+      "sector_share = (sector_output / gdp) * 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "sector_output = 78",
+      "gdp = 48",
+      "sector_share = (sector_output / gdp) * 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "sector_output = 68",
+      "gdp = 9.8",
+      "sector_share = (sector_output / gdp) * 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "sector_output = 47",
+      "gdp = 12.2",
+      "sector_share = (sector_output / gdp) * 100"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "sector_share = (sector_output / gdp) * 100"
+   ]
+  },
+  {
+   "id": "keec.102.7",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total_production = 1.3",
+      "farm_consumption = 15.1",
+      "marketed_surplus = total_production - farm_consumption"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total_production = 77",
+      "farm_consumption = 80",
+      "marketed_surplus = total_production - farm_consumption"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_production = 86",
+      "farm_consumption = 86",
+      "marketed_surplus = total_production - farm_consumption"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total_production = 21",
+      "farm_consumption = 72",
+      "marketed_surplus = total_production - farm_consumption"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "total_production = 88",
+      "farm_consumption = 22",
+      "marketed_surplus = total_production - farm_consumption"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total_production = 17.8",
+      "farm_consumption = 81",
+      "marketed_surplus = total_production - farm_consumption"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "marketed_surplus = total_production - farm_consumption"
+   ]
+  }
+ ]
+}

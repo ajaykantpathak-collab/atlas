@@ -34,6 +34,36 @@
      "q": "Design a thought experiment: You have two unknown colourless liquids A and B at room temperature. Both have molar mass ~44 g/mol. Liquid A boils at −24°C, Liquid B boils at 78°C. Propose molecular structures for A and B consistent with intermolecular force theory, and explain how you would experimentally distinguish them without spectroscopy.",
      "a": "Liquid A (bp −24°C): Likely nonpolar CO₂ (44 g/mol, linear, μ=0) or C₃H₈ (44 g/mol, nonpolar) — only London forces. Liquid B (bp 78°C): Likely polar CH₃CHO (acetaldehyde, 44 g/mol, μ≈2.7 D) or CH₃CH₂OH (ethanol, 46 g/mol, but H-bonding) — dipole-dipole (+ H-bonding for ethanol). Experimental distinction: (1) Test solubility in water — polar B dissolves, nonpolar A does not. (2) Test deflection of liquid stream by charged rod — polar B deflects, nonpolar A does not. (3) Measure surface tension — B has higher surface tension. A poor answer proposing same structure for both or ignoring polarity shows failure to connect boiling point to intermolecular force type.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: London dispersion forces are temporary attractive forces arising from ______ dipoles induced in nonpolar molecules due to momentary asymmetric electron distribution, while dipole-dipole forces are electrostatic attractions between permanent dipoles of polar molecules with partial positive (δ+) and negative (δ−) charges.",
+     "a": "instantaneous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ iodine crystals subliming in a watch glass when heated gently — purple vapours appear without melting.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What is London dispersion forces? State the definition given in this lesson.",
+     "a": "London dispersion forces are temporary attractive forces arising from instantaneous dipoles induced in nonpolar molecules due to momentary asymmetric electron distribution, while dipole-dipole forces are electrostatic attractions between permanent dipoles of polar molecules with partial positive (δ+) and negative (δ−) charges.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Key reaction/property: boiling point trend in Group ______ (F₂ < Cl₂ < Br₂ < I₂) driven by increasing London forces, versus HX series (HF > HCl < HBr < HI) where dipole-dipole and hydrogen bonding compete.",
+     "a": "17",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about London dispersion forces?",
+     "a": "Students believe London forces exist ONLY in nonpolar molecules and dipole-dipole forces exist ONLY in polar molecules, treating them as mutually exclusive categories.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) distinguish between London forces and dipole-dipole forces based on molecular polarity and electron cloud behavior, (2) predict relative boiling points of substances by analyzing molecular mass, polarizability, and dipole moment, and (3) explain why nonpolar molecules like I₂ are solid at room temperature while polar.",
+     "self_check": true
     }
    ]
   }

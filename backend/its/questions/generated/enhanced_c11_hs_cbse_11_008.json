@@ -34,6 +34,31 @@
      "q": "Design a simple home experiment to demonstrate that detergent works in hard water while soap fails, using only household materials (tap water, Epsom salt, soap bar, liquid detergent, two identical glass jars, cooking oil).",
      "a": "1. Fill two jars with 200 mL tap water. Add 1 tsp Epsom salt (MgSO₄) to each to simulate hard water. 2. Add 5 drops cooking oil to each jar. 3. Grate ~1 g soap into Jar A; add 1 mL liquid detergent to Jar B. 4. Shake both vigorously for 30 seconds. 5. Observe: Jar A shows poor emulsification, visible scum, oil separates quickly; Jar B forms stable milky emulsion (micelles) with no scum. A poor design omits the hardness control or uses unequal surfactant amounts, failing to isolate the variable.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Soaps and detergents are surface-active agents (surfactants) that lower the surface tension of water, enabling it to wet fabrics and emulsify oily dirt; soaps are sodium/potassium salts of fatty acids produced by ______ of natural fats/oils with alkali, while detergents are synthetic surfactants (e.g., alkylbenzene sulfonates) engineered to function effectively in hard water.",
+     "a": "saponification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You rinse it with plain water, but the oil stain remains because oil is ______ and water cannot penetrate it.",
+     "a": "hydrophobic",
+     "self_check": true
+    },
+    {
+     "q": "What is Soaps and detergents? State the definition given in this lesson.",
+     "a": "Soaps and detergents are surface-active agents (surfactants) that lower the surface tension of water, enabling it to wet fabrics and emulsify oily dirt; soaps are sodium/potassium salts of fatty acids produced by saponification of natural fats/oils with alkali, while detergents are synthetic surfactants (e.g., alkylbenzene sulfonates).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Soaps and detergents?",
+     "a": "Students often believe that 'more soap = better cleaning' and that soap's failure in hard water is due to 'impurities in the soap'.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain the molecular mechanism of surfactant action (hydrophilic head, hydrophobic tail), differentiate soap and detergent behaviour in hard vs. soft water, and justify the selection of a cleansing agent for a given fabric type, water condition, and soil type.",
+     "self_check": true
     }
    ]
   }

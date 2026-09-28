@@ -34,6 +34,36 @@
      "q": "Create a scenario where a company issues debentures at a discount but the discount is **not** written off in the same year. Show the Balance Sheet extract for Year 1 and Year 2 (assuming equal write-off over 5 years). Explain the change.",
      "a": "Scenario: ABC Ltd. issues 5,000, 10% debentures of ₹100 each at 5% discount on 1 April 2023. Discount = ₹25,000. Written off equally over 5 years = ₹5,000/year.  \n**Year 1 (31 March 2024) Balance Sheet Extract:**  \nNon-current Assets: Other Non-current Assets → Discount on Issue of Debentures ₹25,000  \nLess: Written off (Statement of P&L) ₹5,000 → Net ₹20,000  \n**Year 2 (31 March 2025) Balance Sheet Extract:**  \nDiscount on Issue of Debentures ₹25,000  \nLess: Written off (₹5,000 + ₹5,000) = ₹10,000 → Net ₹15,000  \nThe discount asset reduces annually. If student shows full ₹25,000 in Year 2, they violate matching principle and Schedule III (must show net after write-off). The write-off is charged to Finance Cost in Statement of P&L.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Issue of debentures refers to the process by which a company raises borrowed capital by issuing debt ______ (debentures) to investors.",
+     "a": "instruments",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______, \"TechNova Ltd.\", wants to raise ₹50 lakh for a new plant.",
+     "a": "company",
+     "self_check": true
+    },
+    {
+     "q": "What is Issue of debentures? State the definition given in this lesson.",
+     "a": "Issue of debentures refers to the process by which a company raises borrowed capital by issuing debt instruments (debentures) to investors.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a company, \"TechNova Ltd.\", wants to raise ₹______ lakh for a new plant.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Issue of debentures?",
+     "a": "Students often treat premium on issue of debentures as revenue income and credit it to Statement of Profit & Loss.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Pass correct journal entries for issue of debentures at par, premium, and discount including application, allotment, and call stages; (2) Calculate the amount of premium/discount and show its treatment in the Balance Sheet as per Schedule III; (3) Distinguish between premium on issue (capital receipt) and.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a simple pedigree-based screening question for a genetic counseling session that could distinguish between a familial Robertsonian translocation Down syndrome and a standard trisomy 21 case. Describe the expected pedigree pattern for each.",
      "a": "Good answer: Ask about multiple miscarriages, affected siblings, or a parent with a balanced translocation (45 chromosomes). For standard trisomy 21: no family history, advanced maternal age, recurrence risk ~1%. For Robertsonian translocation (e.g., 14;21): parent is a balanced carrier (45,XX,rob(14;21)), pedigree shows multiple miscarriages and/or affected relatives, recurrence risk up to 10-15% if mother is carrier. A poor answer that only mentions maternal age fails to distinguish the two mechanisms.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Chromosomal disorders are genetic conditions caused by abnormal chromosome number (aneuploidy) or structure, resulting from ______ during meiosis; Down syndrome (Trisomy 21), Klinefelter syndrome (47,XXY), and Turner syndrome (45,X) are the three classic autosomal and sex chromosome aneuploidies with distinct phenotypic consequences.",
+     "a": "nondisjunction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by showing a newborn baby with a single palmar crease, upward-slanting eyes, and hypotonia — a classic presentation that prompts a pediatrician to order a ______.",
+     "a": "karyotype",
+     "self_check": true
+    },
+    {
+     "q": "What is Chromosomal disorders? State the definition given in this lesson.",
+     "a": "Chromosomal disorders are genetic conditions caused by abnormal chromosome number (aneuploidy) or structure, resulting from nondisjunction during meiosis; Down syndrome (Trisomy 21), Klinefelter syndrome (47,XXY), and Turner syndrome (45,X) are the three classic autosomal and sex chromosome aneuploidies with distinct phenotypic.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Chromosomal disorders?",
+     "a": "Students often think \"Klinefelter syndrome is caused by an extra Y chromosome (XYY)\" because they confuse it with Jacob's syndrome (47,XYY).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) identify each syndrome from a given karyotype or chromosome count, (2) explain the meiotic error (nondisjunction in meiosis I vs II) that produces the specific aneuploidy, (3) correlate the chromosomal imbalance with major clinical features, and (4) calculate the recurrence risk for a couple with a previous affected.",
+     "self_check": true
     }
    ]
   }

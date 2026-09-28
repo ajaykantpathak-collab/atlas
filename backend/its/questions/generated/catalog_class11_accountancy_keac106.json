@@ -1,34 +1,144 @@
 {
- "catalog": "catalog_class11_accountancy_keac106",
+ "catalog": "catalog_class11_accountancy_keac106.json",
  "concepts": [
   {
    "id": "keac.106.1.1",
    "title": "Meaning and Preparation of Trial Balance",
+   "converted_to_compute": true,
+   "formula": "difference = debit_total - credit_total",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "difference = debit_total - credit_total",
+     "compute": "difference = debit_total - credit_total"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Meaning and Preparation of Trial Balance', work with: credit_total = 80, debit_total = 360. Carry the chain through step by step and give the final value of difference.",
-     "a": "280 rupees",
+     "q": "For Meaning and Preparation of Trial Balance: given debit_total = 119, credit_total = 44, find difference.",
+     "a": "75",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Meaning and Preparation of Trial Balance' and work with: credit_total = 24, debit_total = 100. Carry the chain through step by step and give the final value of difference.",
-     "a": "76 rupees",
+     "q": "For Meaning and Preparation of Trial Balance: given debit_total = 19.1, credit_total = 104, find difference.",
+     "a": "-84.9",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Meaning and Preparation of Trial Balance' refers to.",
-     "a": "A trial balance is a statement of the debit and credit balances of all ledger accounts taken out on a date, prepared to test the arithmetical accuracy of the books, where the two columns must agree in total.",
-     "self_check": true
+     "q": "For Meaning and Preparation of Trial Balance: given debit_total = 85, credit_total = 113, find difference.",
+     "a": "-28",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Meaning and Preparation of Trial Balance'.",
-     "a": "The equality of the two sides proves that double entry has been applied throughout, though it does not certify the absence of all errors.",
-     "self_check": true
+     "q": "For Meaning and Preparation of Trial Balance: given debit_total = 60, credit_total = 38, find difference.",
+     "a": "22",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Meaning and Preparation of Trial Balance', in plain ASCII form.",
-     "a": "difference = debit_total - credit_total",
-     "self_check": true
+     "q": "For Meaning and Preparation of Trial Balance: given debit_total = 12.3, credit_total = 101, find difference.",
+     "a": "-88.7",
+     "self_check": false
+    },
+    {
+     "q": "For Meaning and Preparation of Trial Balance: given debit_total = 4.4, credit_total = 9, find difference.",
+     "a": "-4.6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.106.4.1",
+   "title": "Rectification through the Suspense Account",
+   "converted_to_compute": true,
+   "formula": "suspense_balance = difference",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "suspense_balance = difference",
+     "compute": "suspense_balance = difference"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Rectification through the Suspense Account: given difference = 89, find suspense balance.",
+     "a": "89",
+     "self_check": false
+    },
+    {
+     "q": "For Rectification through the Suspense Account: given difference = 75, find suspense balance.",
+     "a": "75",
+     "self_check": false
+    },
+    {
+     "q": "For Rectification through the Suspense Account: given difference = 79, find suspense balance.",
+     "a": "79",
+     "self_check": false
+    },
+    {
+     "q": "For Rectification through the Suspense Account: given difference = 54, find suspense balance.",
+     "a": "54",
+     "self_check": false
+    },
+    {
+     "q": "For Rectification through the Suspense Account: given difference = 41, find suspense balance.",
+     "a": "41",
+     "self_check": false
+    },
+    {
+     "q": "For Rectification through the Suspense Account: given difference = 48, find suspense balance.",
+     "a": "48",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.106.5.1",
+   "title": "Rectified Totals after Correction of Errors",
+   "converted_to_compute": true,
+   "formula": "corrected_total = wrong_total - excess_amount",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "corrected_total = wrong_total - excess_amount",
+     "compute": "corrected_total = wrong_total - excess_amount"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Rectified Totals after Correction of Errors: given wrong_total = 82, excess_amount = 68, find corrected total.",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "For Rectified Totals after Correction of Errors: given wrong_total = 75, excess_amount = 14.9, find corrected total.",
+     "a": "60.1",
+     "self_check": false
+    },
+    {
+     "q": "For Rectified Totals after Correction of Errors: given wrong_total = 61, excess_amount = 32, find corrected total.",
+     "a": "29",
+     "self_check": false
+    },
+    {
+     "q": "For Rectified Totals after Correction of Errors: given wrong_total = 68, excess_amount = 17.4, find corrected total.",
+     "a": "50.6",
+     "self_check": false
+    },
+    {
+     "q": "For Rectified Totals after Correction of Errors: given wrong_total = 87, excess_amount = 85, find corrected total.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "For Rectified Totals after Correction of Errors: given wrong_total = 65, excess_amount = 20, find corrected total.",
+     "a": "45",
+     "self_check": false
     }
    ]
   },
@@ -70,68 +180,6 @@
     {
      "q": "Under which section is 'Classification of Errors: Omission, Commission, Principle and Compensating' taught, and from which source text?",
      "a": "6.3 Kinds of Errors (source: keac106.txt section 6.3)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.106.4.1",
-   "title": "Rectification through the Suspense Account",
-   "questions": [
-    {
-     "q": "Using the method 'Rectification through the Suspense Account', work with: difference = 8. Carry the chain through step by step and give the final value of suspense_balance.",
-     "a": "8 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Rectification through the Suspense Account' and work with: difference = 100. Carry the chain through step by step and give the final value of suspense_balance.",
-     "a": "100 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Rectification through the Suspense Account' refers to.",
-     "a": "One-sided errors that leave the trial balance suspended are rectified through the suspense account, while two-sided errors are rectified by a journal entry that cancels the wrong effect and records the right one.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Rectification through the Suspense Account'.",
-     "a": "The suspense account carries the trial balance difference until all one-sided errors are located and rectified, after which it closes automatically.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Rectification through the Suspense Account', in plain ASCII form.",
-     "a": "suspense_balance = difference",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.106.5.1",
-   "title": "Rectified Totals after Correction of Errors",
-   "questions": [
-    {
-     "q": "Calculate the corrected total when a book is overcast. Use the method 'Rectified Totals after Correction of Errors'. Work with: excess_amount = 500, wrong_total = 500. Carry the chain through step by step and give the final value of corrected_total.",
-     "a": "0 units",
-     "self_check": false
-    },
-    {
-     "q": "Find the rectified figure after an undercast is removed. Use the method 'Rectified Totals after Correction of Errors'. Work with: excess_amount = 250, wrong_total = 500. Carry the chain through step by step and give the final value of corrected_total.",
-     "a": "250 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Rectified Totals after Correction of Errors' refers to.",
-     "a": "After a wrong amount is replaced, the corrected total follows by deducting the excess or adding the shortfall from the old total, as when a purchase book is overcast or undercast.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Rectified Totals after Correction of Errors'.",
-     "a": "Overcasting inflates a total by the excess, so the rectified figure is the wrong total less the excess; undercasting works in reverse.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Rectified Totals after Correction of Errors', in plain ASCII form.",
-     "a": "corrected_total = wrong_total - excess_amount",
      "self_check": true
     }
    ]

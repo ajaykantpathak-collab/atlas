@@ -34,6 +34,36 @@
      "q": "Design two different shapes (not rectangles) that have the same perimeter but very different areas. Draw them on grid paper, label dimensions, and calculate both perimeters and areas to verify.",
      "a": "Example: A right triangle with legs 6 cm and 8 cm (hypotenuse 10 cm) has perimeter 24 cm and area 24 cm². A regular hexagon with side 4 cm has perimeter 24 cm and area ≈ 41.6 cm². Both have perimeter 24 cm but different areas. A poor answer might use two rectangles, which doesn't show the concept extends beyond rectangles, or might not verify calculations, indicating lack of precision.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the total length of the boundary of a closed shape, while area is the measure of the region enclosed by that boundary.",
+     "a": "Perimeter",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a 24 cm long piece of ______ and you want to make a border for a small garden bed.",
+     "a": "string",
+     "self_check": true
+    },
+    {
+     "q": "What is Perimeter? State the definition given in this lesson.",
+     "a": "Perimeter is the total length of the boundary of a closed shape, while area is the measure of the region enclosed by that boundary.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a ______ cm long piece of string and you want to make a border for a small garden bed.",
+     "a": "24",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Perimeter?",
+     "a": "Students often treat perimeter and area as directly linked: they assume that if two shapes have the same perimeter, they must have the same area, or that a larger perimeter always means a larger area.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can demonstrate that two shapes with the same perimeter can have different areas by constructing examples, and can explain why perimeter and area measure fundamentally different attributes of a shape.",
+     "self_check": true
     }
    ]
   }

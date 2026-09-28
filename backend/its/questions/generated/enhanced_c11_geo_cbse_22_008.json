@@ -34,6 +34,21 @@
      "q": "Design a projection selection decision tree (flowchart logic) for a cartographer choosing a projection for any new mapping project in India. Include at least 4 decision nodes with criteria (purpose, latitudinal zone, extent orientation, scale) and terminal projection choices.",
      "a": "Good answer: Start → Purpose? (Navigation→Conformal; Thematic→Equal-area; General→Compromise) → Latitudinal zone? (Tropical <25°→Cylindrical/Pseudocylindrical; Mid 25-65°→Conical; Polar >65°→Azimuthal) → Extent orientation? (E-W→Standard parallels E-W; N-S→Transverse cylinder) → Scale? (Large>1:250k→UTM/State Plane; Small→Continental/World projections). Terminal choices: UTM 43-46, LCC, Albers, Stereographic, Robinson, Mollweide. Poor answer reveals linear thinking without branching or missing criteria like orientation/scale.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The choice of map projection is the systematic selection of a specific projection type (cylindrical, conical, azimuthal, or ______) based on the map's intended purpose (navigation, thematic analysis, general reference) and the geographic characteristics of the area being mapped (latitudinal extent, longitudinal extent, shape, and location relative to the equator or poles), ensuring that the most critical spatial property (shape, area, distance, or direction) is preserved for that specific application.",
+     "a": "pseudocylindrical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a cartographer at the Survey of India tasked with creating a new ______ map series for Ladakh (high latitude, N-S extent) versus one for the Andaman Islands (low latitude, E-W extent).",
+     "a": "topographical",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can evaluate a mapping scenario (given purpose, area extent, and location) and justify the optimal projection choice by explaining which distortion property is minimized and why other projections would be unsuitable, using correct terminology (conformal, equal-area, equidistant, azimuthal, standard parallels, central.",
+     "self_check": true
     }
    ]
   }

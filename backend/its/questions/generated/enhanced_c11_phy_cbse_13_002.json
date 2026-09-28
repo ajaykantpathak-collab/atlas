@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a spring and a mass to verify whether the oscillation is SHM. What measurements would you take, and how would you analyse the data to confirm the linear force law \\( F = -kx \\)?",
      "a": "Hang a spring vertically, attach a mass, and let it oscillate with small amplitude. Use a motion sensor or video analysis to record displacement \\( x(t) \\). Plot \\( x \\) vs \\( t \\); fit to \\( A \\cos(\\omega t + \\phi) \\). If the fit is excellent (residuals near zero), the motion is sinusoidal → SHM. Alternatively, measure the period \\( T \\) for different amplitudes; in SHM, \\( T \\) is independent of amplitude (isochronism). To directly test \\( F = -kx \\), hang different known masses and measure static extension \\( x \\); plot \\( F = mg \\) vs \\( x \\). A straight line through origin confirms Hooke's law. A poor answer (e.g., just saying \"measure time period\") shows the student does not connect the definition to experimental verification of the linear restoring force.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a swinging pendulum in a grandfather clock or a mass ______ on a spring in a school laboratory.",
+     "a": "oscillating",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Simple Harmonic Motion (SHM)?",
+     "a": "Students often think that any oscillatory motion is SHM (e.g., a simple pendulum at large angles, a ball bouncing on a floor, or a nonlinear spring).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify whether a given displacement function or force law represents SHM, extract the amplitude, angular frequency, and phase constant from the equation, and distinguish SHM from other periodic motions (e.g., superposition of two SHMs with incommensurate frequencies).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a swinging pendulum in a ______ clock or a mass oscillating on a spring in a school laboratory.",
+     "a": "grandfather",
+     "self_check": true
     }
    ]
   }

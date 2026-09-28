@@ -34,6 +34,26 @@
      "q": "Create a problem where the area between a parabola and a line requires splitting into TWO integrals because the curves cross twice AND the upper/lower relationship changes. Specify the parabola, the line, and sketch the region. Explain why one integral is insufficient.",
      "a": "Example: Parabola y = x² - 4, Line y = 2 - x. Intersections: x² - 4 = 2 - x → x² + x - 6 = 0 → x = -3, 2.\nOn [-3, 2], test x = 0: parabola = -4, line = 2 → line is above. But wait — they don't cross again. Need a cubic? No — use a parabola that opens downward: y = 4 - x² and line y = x. Intersections: 4 - x² = x → x² + x - 4 = 0 → x = [-1 ± √17]/2. Still only one crossing interval.\nBetter: Parabola y = x² - 3x + 2 = (x-1)(x-2), Line y = x - 1. Intersections: x² - 3x + 2 = x - 1 → x² - 4x + 3 = 0 → x = 1, 3. On [1, 3], test x = 2: parabola = 0, line = 1 → line above. Still one region.\nTo force splitting: Parabola y = x³ - 3x (cubic, not parabola). For parabola + line, they intersect at most twice, so upper/lower can only change if the line is vertical? No — a line and parabola intersect at ≤ 2 points, so the region between them is a SINGLE contiguous region where one is consistently above the other. A student who claims splitting is needed for parabola+line reveals the misconception that \"all area problems need splitting\" — they don't understand the algebraic degree limits intersections to 2. A good answer: \"Impossible for parabola and line — they intersect at most twice, creating one region where upper/lower is constant. Splitting is needed for cubic+line or two parabolas.\"",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The area bounded by a parabola and a line is the region enclosed between the graphs of a quadratic function (parabola: y = ax² + bx + c or x = ay² + by + c) and a linear function (line: y = mx + c or x = my + c), computed as the definite integral of the difference between the upper and lower functions over their ______ interval(s).",
+     "a": "intersection",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer in Punjab has a ______ irrigation channel y = x² - 4x + 3 and wants to lay a straight pipe along y = x - 1.",
+     "a": "parabolic",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently: (1) find intersection points of a parabola and line by solving their equations simultaneously, (2) determine which curve lies above/below in each subinterval, (3) set up and evaluate the definite integral(s) for area with correct limits and orientation (vertical/horizontal strips), and (4) handle cases.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer in Punjab has a parabolic ______ channel y = x² - 4x + 3 and wants to lay a straight pipe along y = x - 1.",
+     "a": "irrigation",
+     "self_check": true
     }
    ]
   }

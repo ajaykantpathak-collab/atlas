@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_04_005",
+   "title": "c12_app_cbse_04_005",
+   "questions": [
+    {
+     "q": "State the Integration by Parts formula and write the ILATE priority order for choosing the first function (u) from the following: Inverse trigonometric, Logarithmic, Algebraic, Trigonometric, Exponential.",
+     "a": "Correct answer: ∫ u dv = uv − ∫ v du. ILATE order: **Inverse trigonometric > Logarithmic > Algebraic > Trigonometric > Exponential**.  \nA wrong answer (e.g., writing LIATE or putting Exponential before Algebraic) reveals the student has memorized the formula but not the **selection logic** — they will likely choose u = eˣ in ∫ x eˣ dx, leading to ∫ eˣ x dx which is worse. This is the #1 error in board exams: blind application without strategic choice.",
+     "self_check": true
+    },
+    {
+     "q": "A student tries to evaluate ∫ x cos x dx by taking u = cos x and dv = x dx. Explain why this choice violates the ILATE rule and what integral they would get after one application.",
+     "a": "Correct explanation: ILATE says Algebraic (x) comes before Trigonometric (cos x), so u must be x, not cos x. If they wrongly choose u = cos x, dv = x dx, then du = −sin x dx, v = x²/2, and the new integral becomes ∫ (x²/2) sin x dx — **more complicated** (higher power of x). The correct choice u = x, dv = cos x dx gives du = dx, v = sin x, leading to ∫ sin x dx = −cos x, which is simpler.  \nA wrong answer shows the student treats ILATE as arbitrary, not as a **simplification strategy**. They don't see that differentiation should reduce algebraic power, not increase it.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate ∫ x² eˣ dx using Integration by Parts. Show all steps including the second application.",
+     "a": "**Step 1:** Choose u = x² (Algebraic), dv = eˣ dx → du = 2x dx, v = eˣ  \n**Step 2:** ∫ x² eˣ dx = x² eˣ − ∫ 2x eˣ dx = x² eˣ − 2 ∫ x eˣ dx  \n**Step 3:** Apply again to ∫ x eˣ dx: u = x, dv = eˣ dx → du = dx, v = eˣ  \n∫ x eˣ dx = x eˣ − ∫ eˣ dx = x eˣ − eˣ  \n**Step 4:** Substitute back: x² eˣ − 2(x eˣ − eˣ) + C = eˣ (x² − 2x + 2) + C  \nA wrong answer (e.g., missing the factor of 2, sign error in −∫, or stopping after one step) reveals **incomplete bookkeeping** — students forget to carry constants through multiple applications or mishandle the minus sign in the formula. This costs 2–3 marks in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the integrals ∫ log x dx and ∫ x log x dx. For each, state the correct choice of u and dv per ILATE, and explain why the same function (log x) plays different roles.",
+     "a": "For ∫ log x dx: Rewrite as ∫ log x · 1 dx. ILATE: Logarithmic > Algebraic → u = log x, dv = 1 dx.  \nFor ∫ x log x dx: ILATE: Logarithmic > Algebraic → u = log x, dv = x dx.  \nIn both, log x is chosen as u because it's **Logarithmic** (higher priority than Algebraic x or 1). But the resulting v differs: ∫ 1 dx = x vs ∫ x dx = x²/2.  \nA wrong answer (e.g., choosing u = x in ∫ x log x dx) shows the student **doesn't recognize log x as a distinct ILATE category** — they see \"x\" and \"log x\" both as \"functions\" and pick the first one. This is a conceptual gap: ILATE is about **function type**, not position.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"For ∫ eˣ sin x dx, I can use Integration by Parts twice and solve for the original integral.\" Is this correct? Justify with the steps and identify the trap.",
+     "a": "Yes, it's correct — but with a **critical trap**.  \nLet I = ∫ eˣ sin x dx.  \nStep 1: u = sin x, dv = eˣ dx → du = cos x dx, v = eˣ → I = eˣ sin x − ∫ eˣ cos x dx  \nStep 2: For ∫ eˣ cos x dx: u = cos x, dv = eˣ dx → du = −sin x dx, v = eˣ → ∫ eˣ cos x dx = eˣ cos x + ∫ eˣ sin x dx = eˣ cos x + I  \nStep 3: Substitute: I = eˣ sin x − (eˣ cos x + I) = eˣ sin x − eˣ cos x − I  \nStep 4: 2I = eˣ (sin x − cos x) → I = ½ eˣ (sin x − cos x) + C  \n**Trap:** If the student **inconsistently chooses u** (e.g., u = eˣ in first step, u = sin x in second), they get a different equation and cannot solve for I. The **consistency of choice** (always differentiate trig, integrate exponential) is essential. A wrong answer reveals the student treats the two applications as independent, not as a system.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world economics problem where the marginal revenue function is MR(x) = x ln x (x = units sold), and find the total revenue function R(x) given R(1) = 10. Explain why Integration by Parts is necessary and how ILATE guides the choice.",
+     "a": "**Problem:** A firm's marginal revenue is MR(x) = x ln x (₹ per unit). Find total revenue R(x) if R(1) = 10.  \n**Solution:** R(x) = ∫ x ln x dx. ILATE: Logarithmic (ln x) > Algebraic (x) → u = ln x, dv = x dx → du = (1/x) dx, v = x²/2.  \n∫ x ln x dx = (x²/2) ln x − ∫ (x²/2)(1/x) dx = (x²/2) ln x − ½ ∫ x dx = (x²/2) ln x − x²/4 + C.  \nR(1) = (1/2)(0) − 1/4 + C = 10 → C = 10.25.  \nR(x) = (x²/2) ln x − x²/4 + 10.25.  \n**Why Parts?** Product of algebraic and logarithmic — no substitution works. **ILATE guides u = ln x** because its derivative 1/x is algebraic (simpler), while integrating x gives x²/2 (still algebraic).  \nA poor answer (e.g., using u = x) shows the student **doesn't connect ILATE to derivative simplification** — they'd get ∫ (x²/2) dx but with ln x still inside, which is worse. They miss that the **goal is to eliminate the logarithm via differentiation**.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

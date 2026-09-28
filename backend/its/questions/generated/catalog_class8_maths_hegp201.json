@@ -5,6 +5,8 @@
    "id": "hegp.201.1.1",
    "title": "Percent as a Fraction and Converting Fractions",
    "converted_to_compute": false,
+   "formula": "percent = part / whole * 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 5 x 7/9.",
@@ -42,6 +44,8 @@
    "id": "hegp.201.1.2",
    "title": "Percentage of a Quantity",
    "converted_to_compute": false,
+   "formula": "amount = pct / 100 * quantity",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 50% of 240.",
@@ -78,15 +82,9 @@
   {
    "id": "hegp.201.1.3",
    "title": "Comparing Scores and Labels with Percentages",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "convert the percentage to a fraction and multiply",
-     "explain": "convert the percentage to a fraction and multiply: val = 15 / 100 * 400 gives 60",
-     "compute": "val = 15 / 100 * 400"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "score_percent = marks / max_marks * 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 15% of 400.",
@@ -124,6 +122,8 @@
    "id": "hegp.201.1.4",
    "title": "Percentage Increase and Decrease",
    "converted_to_compute": false,
+   "formula": "change_pct = (new - old) / old * 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 30% of 500.",
@@ -160,15 +160,9 @@
   {
    "id": "hegp.201.1.5",
    "title": "Percent Of versus Increased By",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "convert the percentage to a fraction and multiply",
-     "explain": "convert the percentage to a fraction and multiply: val = 40 / 100 * 40 gives 16",
-     "compute": "val = 40 / 100 * 40"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "q = (100 + rise) / 100 * p",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 40% of 40.",
@@ -206,6 +200,8 @@
    "id": "hegp.201.1.6",
    "title": "Profit and Loss Percentage",
    "converted_to_compute": false,
+   "formula": "profit_pct = (selling - cost) / cost * 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 30% of 400.",
@@ -243,6 +239,8 @@
    "id": "hegp.201.1.7",
    "title": "Discount and Selling Price",
    "converted_to_compute": false,
+   "formula": "selling = marked - discount",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A trader buys an article for Rs 240 and sells it for Rs 360. Find the profit.",

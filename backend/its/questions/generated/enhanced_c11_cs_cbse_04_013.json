@@ -21,7 +21,7 @@
      "self_check": true
     },
     {
-     "q": "Compare these two code snippets. Both calculate the average of three numbers. Which has a logical error and why?\n```python",
+     "q": "Compare these two code snippets. Both calculate the average of three numbers. Which has a logical error and why?\n```python\n# Snippet A\na, b, c = 10, 20, 30\navg = a + b + c / 3\nprint(avg)\n```\n```python\n# Snippet B\na, b, c = 10, 20, 30\navg = (a + b + c) / 3\nprint(avg)\n```",
      "a": "**Snippet A has a logical error** due to operator precedence: `/` binds tighter than `+`, so it computes `a + b + (c/3)` = `10 + 20 + 10 = 40` instead of `(10+20+30)/3 = 20`. Snippet B uses parentheses to enforce correct order. Both run without syntax/runtime errors. A wrong answer reveals the student thinks \"no crash = correct\" or doesn't apply precedence rules (c11_cs_cbse_04_011) to detect semantic flaws.",
      "self_check": true
     },
@@ -33,6 +33,31 @@
     {
      "q": "Design a minimal Python program that intentionally contains **one syntax error, one runtime error, and one logical error** — each in a separate function. Label them with comments.",
      "a": "```python\ndef syntax_error_demo():\n    if True      # SyntaxError: missing colon\n        print(\"Hello\")\n\ndef runtime_error_demo():\n    x = int(\"abc\")  # ValueError at runtime\n\ndef logical_error_demo():\n    # Should compute area of circle: pi * r^2\n    r = 5\n    area = 3.14 * r  # Logical error: missing **2\n    return area\n```\nA poor answer combines multiple errors in one function, uses the same error type twice, or creates errors that don't match the definitions (e.g., a logical error that actually crashes). This reveals inability to isolate error categories.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In Python, errors are classified into three categories: Syntax errors occur when code violates Python's ______ rules and prevent the program from running; Runtime errors (exceptions) occur during execution when an operation is impossible (e.g., division by zero); Logical errors occur when the program runs without crashing but produces incorrect results due to flawed algorithmic reasoning.",
+     "a": "grammatical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're writing a program to calculate your monthly savings: you type savings = income - expenses but ______ write savings = income - expense (missing 's').",
+     "a": "accidentally",
+     "self_check": true
+    },
+    {
+     "q": "What is In Python, errors? State the definition given in this lesson.",
+     "a": "In Python, errors are classified into three categories: Syntax errors occur when code violates Python's grammatical rules and prevent the program from running; Runtime errors (exceptions) occur during execution when an operation is impossible (e.g., division by zero); Logical errors occur when the program runs without crashing but.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about In Python, errors?",
+     "a": "Students believe \"if the program runs without a red error message, it is correct.\" They equate \"no crash\" with \"correct output.\" For example, writing celsius = (fahrenheit - 32) * 5/9 but accidentally using celsius = fahrenheit - 32 * 5/9 (missing parentheses) runs fine but gives wrong results due to precedence.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can examine a Python code snippet with its error message or output, correctly classify the error as syntax, runtime, or logical, and explain the specific rule violation or flawed reasoning causing it.",
      "self_check": true
     }
    ]

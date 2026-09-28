@@ -34,6 +34,21 @@
      "q": "Create a new number sequence by changing the starting two terms to $2$ and $3$, while keeping the Virahanka-Fibonacci rule (each term is the sum of the previous two). Write down the first six terms of your new sequence.",
      "a": "The expected sequence is: Term 1 = $2$, Term 2 = $3$, Term 3 = $2 + 3 = 5$, Term 4 = $3 + 5 = 8$, Term 5 = $5 + 8 = 13$, Term 6 = $8 + 13 = 21$. The sequence is $2, 3, 5, 8, 13, 21$ (this is known as the Lucas sequence). A poor answer shows incorrect addition (e.g., adding Term 1 and Term 3 instead of the two immediate predecessors).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This recursive pattern ______ appears in biological structures and growth patterns in nature.",
+     "a": "frequently",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are watching ______ seeds spiral outwards or counting the petals on different flowers like marigolds and jasmine in your school garden.",
+     "a": "sunflower",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can generate the Virahanka-Fibonacci sequence given any two starting terms, identify missing terms in a sequence using the recursive addition rule, and recognize natural phenomena or word problems modeled by this sequence up to the 12th term.",
+     "self_check": true
     }
    ]
   }

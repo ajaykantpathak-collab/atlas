@@ -34,6 +34,26 @@
      "q": "Design a personal \"secure login checklist\" for a Class 12 student who uses: school email, Instagram, banking app, and a coding platform (GitHub). The checklist must include 2FA method per service, password strategy, recovery preparation, and a habit to review quarterly. Present as a table.",
      "a": "A strong answer produces a table with columns: Service | 2FA Method (primary/backup) | Password Manager Entry | Recovery Codes Stored | Quarterly Review Action. Example row: GitHub | Authenticator app (primary) + Hardware key (backup) | Unique 20-char generated password | Printed in sealed envelope | Verify 2FA devices, revoke old sessions. Poor answers list generic advice (\"use 2FA everywhere\") without service-specific factor selection or recovery planning, indicating failure to synthesize concepts into a personalized operational plan.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Two-factor authentication (2FA) is a security process in which a user provides two distinct authentication factors from different categories — typically something you know (password/PIN), something you have (phone, hardware token, ______ app), or something you are (biometric) — to verify identity during login.",
+     "a": "authenticator",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you get a ______: \"New login to your Gmail from Mumbai\" — but you're in Delhi.",
+     "a": "notification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Two-factor authentication (______FA) is a security process in which a user provides two distinct authentication factors from different categories — typically something you know (password/PIN), something you have (phone, hardware token, authenticator app), or something you are (biometric) — to verify identity during login.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) classify authentication factors into knowledge, possession, and inherence categories with examples, (2) explain how 2FA mitigates specific threats like phishing, credential stuffing, and keylogging, (3) compare security trade-offs of common 2FA methods (SMS OTP, authenticator app, hardware token, biometric), and (4).",
+     "self_check": true
     }
    ]
   }

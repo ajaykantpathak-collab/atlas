@@ -34,6 +34,36 @@
      "q": "Design a fluorescence microscopy experiment to distinguish between a cell in late prophase and a cell in early metaphase using only two fluorescent markers. Specify the markers, expected localization patterns, and the decisive criterion.",
      "a": "Use: (1) Anti-tubulin antibody (labels spindle microtubules) and (2) Anti-phospho-histone H3 (Ser10) antibody (labels condensed chromatin). In late prophase: microtubules form two distinct asters at opposite poles but do not yet contact chromosomes (nuclear envelope intact); chromatin shows strong phospho-H3 signal throughout nucleus. In early metaphase: nuclear envelope broken down; microtubules penetrate nuclear space and attach to kinetochores, forming visible spindle fibers; chromosomes align at equator. Decisive criterion: presence of microtubule-chromosome overlap (kinetochore-microtubule attachment) indicates metaphase; absence indicates prophase. A poor answer (e.g., using only DNA stain) fails to capture the dynamic spindle-chromosome interaction that defines the transition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mitosis is an equational cell division process where a single diploid parent cell divides to produce two ______ identical diploid daughter cells, maintaining the same chromosome number (2n) through precisely ordered stages: prophase (chromatin condensation and spindle formation), metaphase (chromosome alignment at the equatorial plate), anaphase (sister chromatid separation), and telophase (nuclear reformation and chromosome decondensation).",
+     "a": "genetically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're examining an onion root tip slide under a ______ — you see cells frozen in different shapes: some with thick X-shaped chromosomes lined up at the centre, others with chromosomes pulled toward opposite ends.",
+     "a": "microscope",
+     "self_check": true
+    },
+    {
+     "q": "What is Mitosis? State the definition given in this lesson.",
+     "a": "Mitosis is an equational cell division process where a single diploid parent cell divides to produce two genetically identical diploid daughter cells, maintaining the same chromosome number (2n) through precisely ordered stages: prophase (chromatin condensation and spindle formation), metaphase (chromosome alignment at the equatorial.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mitosis is an equational cell division process where a single diploid parent cell divides to produce two genetically identical diploid daughter cells, maintaining the same chromosome number (______n) through precisely ordered stages: prophase (chromatin condensation and spindle formation), metaphase (chromosome alignment at the equatorial plate), anaphase (sister chromatid separation), and telophase (nuclear reformation and chromosome decondensation).",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Mitosis?",
+     "a": "Students believe that \"chromosomes line up at the metaphase plate because spindle fibers push them there.\" The error: they think microtubules actively push chromosomes to the center like brooms.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify each mitotic stage from microscopic images or descriptions, explain the molecular events (chromatin condensation, kinetochore-microtubule attachment, cohesin cleavage, nuclear envelope reformation) in sequence, and predict the consequence of a specific stage failure on chromosome distribution.",
+     "self_check": true
     }
    ]
   }

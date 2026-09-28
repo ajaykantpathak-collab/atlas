@@ -2,6 +2,53 @@
  "catalog": "catalog_class10_science_ch102.json",
  "concepts": [
   {
+   "id": "jesc.2.1.4",
+   "title": "Neutralisation Reaction and Volumetric Ratio",
+   "converted_to_compute": true,
+   "formula": "v_acid_needed = (v_base_target / v_base_initial) * v_acid_initial",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "v_acid_needed = (v_base_target / v_base_initial) * v_acid_initial",
+     "compute": "v_acid_needed = (v_base_target / v_base_initial) * v_acid_initial"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Neutralisation Reaction and Volumetric Ratio: given v_base_target = 100, v_base_initial = 47, v_acid_initial = 7.3, find v acid needed.",
+     "a": "15.5319",
+     "self_check": false
+    },
+    {
+     "q": "For Neutralisation Reaction and Volumetric Ratio: given v_base_target = 68, v_base_initial = 95, v_acid_initial = 9.4, find v acid needed.",
+     "a": "6.72842",
+     "self_check": false
+    },
+    {
+     "q": "For Neutralisation Reaction and Volumetric Ratio: given v_base_target = 44, v_base_initial = 64, v_acid_initial = 24, find v acid needed.",
+     "a": "16.5",
+     "self_check": false
+    },
+    {
+     "q": "For Neutralisation Reaction and Volumetric Ratio: given v_base_target = 118, v_base_initial = 65, v_acid_initial = 82, find v acid needed.",
+     "a": "148.862",
+     "self_check": false
+    },
+    {
+     "q": "For Neutralisation Reaction and Volumetric Ratio: given v_base_target = 24, v_base_initial = 56, v_acid_initial = 61, find v acid needed.",
+     "a": "26.1429",
+     "self_check": false
+    },
+    {
+     "q": "For Neutralisation Reaction and Volumetric Ratio: given v_base_target = 38, v_base_initial = 62, v_acid_initial = 67, find v acid needed.",
+     "a": "41.0645",
+     "self_check": false
+    }
+   ]
+  },
+  {
    "id": "jesc.2.1.1",
    "title": "Chemical and Olfactory Indicators",
    "solution_type": "verify_property",
@@ -64,93 +111,6 @@
      "q": "Why do metal hydrogencarbonates also give CO2 with acids?",
      "a": "They contain the hydrogencarbonate ion, which acids convert to water and carbon dioxide along with a salt.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "jesc.2.1.4",
-   "title": "Neutralisation Reaction and Volumetric Ratio",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "acid_ratio",
-     "expr": "v_base_target / v_base_initial",
-     "explain": "same alkali, so acid volume scales with the alkali volume taken"
-    },
-    {
-     "step": 2,
-     "name": "acid_per_base_ml",
-     "expr": "v_acid_initial / v_base_initial",
-     "explain": "acid used per mL of alkali in the first test"
-    },
-    {
-     "step": 3,
-     "name": "v_acid_needed",
-     "expr": "acid_ratio * v_acid_initial",
-     "explain": "scale the acid volume that worked before"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A student neutralised 20 mL of sodium hydroxide solution using 15 mL of hydrochloric acid of the same concentration. How much of this acid will neutralise 50 mL of the same alkali?",
-     "vals": {
-      "v_base_initial": 20,
-      "v_acid_initial": 15,
-      "v_base_target": 50
-     },
-     "unit": "mL",
-     "steps": null,
-     "a": "37.5 mL",
-     "self_check": false
-    },
-    {
-     "q": "12 mL of a given NaOH solution needed 9 mL of HCl for complete neutralisation. Find the volume of the same HCl needed for 30 mL of the NaOH solution.",
-     "vals": {
-      "v_base_initial": 12,
-      "v_acid_initial": 9,
-      "v_base_target": 30
-     },
-     "unit": "mL",
-     "steps": null,
-     "a": "22.5 mL",
-     "self_check": false
-    },
-    {
-     "q": "In a titration, 25 mL of KOH solution was neutralised by 20 mL of H2SO4 solution. What volume of the same H2SO4 will neutralise 40 mL of the KOH solution?",
-     "vals": {
-      "v_base_initial": 25,
-      "v_acid_initial": 20,
-      "v_base_target": 40
-     },
-     "unit": "mL",
-     "steps": null,
-     "a": "32 mL",
-     "self_check": false
-    },
-    {
-     "q": "8 mL of lime water took 6 mL of a standard acid to neutralise. How much of the same acid neutralises 60 mL of the lime water?",
-     "vals": {
-      "v_base_initial": 8,
-      "v_acid_initial": 6,
-      "v_base_target": 60
-     },
-     "unit": "mL",
-     "steps": null,
-     "a": "45 mL",
-     "self_check": false
-    },
-    {
-     "q": "40 mL of a base was exactly neutralised by 25 mL of an acid. If only 10 mL of the base is taken next time, how much acid will be used up?",
-     "vals": {
-      "v_base_initial": 40,
-      "v_acid_initial": 25,
-      "v_base_target": 10
-     },
-     "unit": "mL",
-     "steps": null,
-     "a": "6.25 mL",
-     "self_check": false
     }
    ]
   },

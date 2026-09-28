@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_02_005",
+   "title": "c12_leg_cbse_02_005",
+   "questions": [
+    {
+     "q": "What is the statutory basis for court-referred mediation in India, and under what condition can a court refer a pending civil suit to mediation?",
+     "a": "The statutory basis is **Section 89 of the Code of Civil Procedure, 1908 (inserted by the 2002 Amendment)**. A court may refer a suit to mediation (or arbitration, conciliation, Lok Adalat) **only when it appears that there exist elements of a settlement acceptable to the parties**. A wrong answer (e.g., \"any case can be referred anytime\") reveals the student confuses **court discretion** with **mandatory referral** — Section 89 is directory, not mandatory, and requires a prima facie settlement possibility.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between 'seat' and 'venue' in international commercial arbitration, and why this distinction matters for Indian courts' jurisdiction under the Arbitration & Conciliation Act, 1996.",
+     "a": "**Seat** = the legal place of arbitration (determines curial law, supervisory jurisdiction of courts). **Venue** = physical location of hearings (may differ from seat). The **BALCO v. Kaiser (2012)** judgment held: if the seat is outside India, **Part I of the Act (including Section 9 interim relief) does not apply**, even if the venue is in India or Indian law governs the contract. A wrong answer (e.g., \"seat and venue are the same\") shows the student misses the **jurisdictional trigger** — Indian courts can only supervise arbitrations seated in India.",
+     "self_check": true
+    },
+    {
+     "q": "A and B enter into a contract with an arbitration clause. A dispute arises. A files a civil suit in court. B objects and asks the court to refer the matter to arbitration under Section 8 of the Arbitration & Conciliation Act, 1996. The court finds the arbitration agreement is **void ab initio** due to lack of free consent (coercion). Can the court still refer the matter to arbitration?",
+     "a": "**No.** Section 8 requires a **valid arbitration agreement**. If the agreement is void ab initio (e.g., due to coercion, fraud, incapacity), it is not an \"arbitration agreement\" under Section 7, and the court **must not refer** the parties to arbitration. The court will proceed with the suit. A wrong answer (\"yes, refer anyway\") reveals the student ignores the **threshold validity check** — Section 8 is not a rubber stamp; the court must examine the agreement's existence and validity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the enforceability of a **Lok Adalat award** vs. a **mediation settlement agreement** (not converted into a consent decree). Which has stronger legal force, and why?",
+     "a": "A **Lok Adalat award** has **stronger enforceability**: it is **deemed a decree of a civil court** (Section 21, Legal Services Authorities Act, 1987), executable directly without further litigation. A **mediation settlement** (unless recorded as a consent decree under Order XXIII Rule 3 CPC or incorporated into an arbitral award under Section 30) is only a **contract** — enforceable via a fresh suit for specific performance. A wrong answer (\"both are equally enforceable\") shows confusion between **statutory decree status** (Lok Adalat) and **contractual remedy** (mediation).",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The 2015 Amendment to the Arbitration & Conciliation Act, 1996 fixed all the problems created by the BALCO judgment for foreign-seated arbitrations.\" Is this statement accurate? Justify.",
+     "a": "**Inaccurate.** The 2015 Amendment (Section 2(2)) extended **Section 9 (interim relief)** to foreign-seated arbitrations — a major fix. But it **did not restore** Section 34 (setting aside award) or Section 37 (appeals) for foreign seats. Indian courts **still lack supervisory jurisdiction** over foreign-seated awards (except enforcement under Part II / New York Convention). A wrong answer (\"yes, fully fixed\") reveals the student overlooks the **limited scope of the amendment** — it addressed interim relief only, not the full Part I exclusion.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical dispute scenario where **conciliation** is more appropriate than arbitration or mediation. Specify: (a) nature of dispute, (b) relationship between parties, (c) why conciliation’s interventionist role adds value, and (d) the statutory provision governing it.",
+     "a": "**Scenario:** A long-standing **joint family property dispute** between three brothers over ancestral land and a family business. (a) **Nature**: Mixed legal + emotional + relational — partition, valuation, future business roles. (b) **Relationship**: Blood relatives, ongoing ties, high emotion, trust deficit. (c) **Why conciliation**: The conciliator can **propose creative solutions** (e.g., phased buyout, shared management, trust structure) — unlike a mediator (facilitative only) or arbitrator (adjudicative, win-lose). (d) **Statute**: **Part III, Arbitration & Conciliation Act, 1996 (Sections 61–81)**. A poor answer (e.g., \"commercial contract breach\") shows the student sees conciliation as just \"softer arbitration\" — missing its **relationship-preserving, solution-generating** essence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

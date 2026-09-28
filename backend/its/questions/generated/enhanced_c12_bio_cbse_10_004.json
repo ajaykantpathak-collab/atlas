@@ -34,6 +34,31 @@
      "q": "Design a simple experiment to demonstrate the role of microbes in reducing BOD in a sample of wastewater.",
      "a": "Set up two bottles with equal wastewater samples. Aerate one (to promote aerobic microbes) and keep the other anaerobic (sealed). Measure BOD initially and after 5 days. The aerated sample should show greater BOD reduction due to microbial activity. A poor answer (no control, no BOD measurement) reveals lack of experimental design skills.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sewage treatment is the process of removing ______ from wastewater using physical, chemical, and biological processes.",
+     "a": "contaminants",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real-world observation: When you flush a toilet or drain a sink, the ______ flows through underground pipes to a sewage treatment plant.",
+     "a": "wastewater",
+     "self_check": true
+    },
+    {
+     "q": "What is Sewage treatment? State the definition given in this lesson.",
+     "a": "Sewage treatment is the process of removing contaminants from wastewater using physical, chemical, and biological processes.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Sewage treatment?",
+     "a": "Students often think that primary treatment involves microbes (like bacteria) breaking down waste, but it is purely physical.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the stepwise process of sewage treatment, differentiate between primary and secondary treatment, describe the role of microbes in secondary treatment (including floc formation and BOD reduction), and explain the significance of anaerobic sludge digesters and the final effluent discharge.",
+     "self_check": true
     }
    ]
   }

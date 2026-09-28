@@ -34,6 +34,26 @@
      "q": "Describe a new 3D object found in your kitchen that is not a cube or sphere, and identify its faces, edges, and vertices.",
      "a": "A good answer would describe a cereal box (cuboid) with 6 rectangular faces, 12 edges, and 8 vertices. An incomplete answer shows the student has not yet generalized the definition to objects beyond the textbook examples.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Three-______ (3D) shapes are solid objects that occupy space and possess three dimensions: length, width, and depth (or height).",
+     "a": "dimensional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are holding your ______ box or an ice cream cone; have you ever noticed why these objects feel solid while a drawing on your notebook looks flat?",
+     "a": "geometry",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Three-dimensional (______D) shapes are solid objects that occupy space and possess three dimensions: length, width, and depth (or height).",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to correctly identify 3D shapes in real-world objects and name their components (faces, edges, and vertices) for cubes, cuboids, cylinders, cones, and spheres.",
+     "self_check": true
     }
    ]
   }

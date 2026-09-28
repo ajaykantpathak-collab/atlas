@@ -34,6 +34,26 @@
      "q": "Construct a numerical example of a production function that exhibits IRS for low input levels but DRS for high input levels. Specify the function, choose two scaling factors (one small, one large), and demonstrate the change in returns to scale.",
      "a": "Example: Q = 100L^0.8 K^0.8 - 0.5L^2 K^2 (a polynomial approximation to a CES-like function with changing elasticity). At low scale: L=2, K=2. Q₀ = 100(2^0.8)(2^0.8) - 0.5(4)(4) = 100(2^1.6) - 8 ≈ 100(3.03) - 8 = 295. Scale by t=1.5: L=3, K=3. Q₁ = 100(3^1.6) - 0.5(9)(9) ≈ 100(5.80) - 40.5 = 539.5. t·Q₀ = 1.5×295 = 442.5. Since 539.5 > 442.5 → IRS. At high scale: L=10, K=10. Q₀ = 100(10^1.6) - 0.5(100)(100) ≈ 100(39.8) - 5000 = -1020 (negative, so function not valid here). Better example: Q = L^0.6 K^0.6 for L,K ≤ 5, but Q = 5^1.2 + 0.5(L+K-10) for L,K > 5 (piecewise). A good answer shows understanding that returns to scale can vary along the expansion path — a key insight for LRAC shape. A poor answer gives a Cobb-Douglas with constant exponents, missing that α+β is constant.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Returns to scale describes the long-run ______ between a proportional change in all inputs and the resulting change in output.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small Indian textile firm in Surat that ______ uses 10 looms and 20 workers to produce 500 metres of fabric daily.",
+     "a": "currently",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If all inputs are multiplied by a factor t > ______, output increases by the same proportion (constant returns to scale, CRS), by a greater proportion (increasing returns to scale, IRS), or by a smaller proportion (decreasing returns to scale, DRS).",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) classify a given production function (including Cobb-Douglas, CES, and polynomial forms) as exhibiting CRS, IRS, or DRS by evaluating f(tL, tK) vs t·f(L, K); (2) explain the economic intuition behind each type using concepts of specialization, indivisibilities, and management complexity; (3) derive the long-run.",
+     "self_check": true
     }
    ]
   }

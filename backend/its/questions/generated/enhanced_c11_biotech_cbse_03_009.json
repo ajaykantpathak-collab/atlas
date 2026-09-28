@@ -34,6 +34,31 @@
      "q": "Design a thought experiment to demonstrate that the hydrophobic effect is entropically driven at room temperature. Describe the system, the measurable quantities, and the expected outcome that would confirm ΔS > 0 for hydrophobic association.",
      "a": "System: Two nonpolar solute molecules (e.g., methane) in water at 25°C. Measurable: ΔG, ΔH, ΔS for dimerization (2 CH₄(aq) → (CH₄)₂(aq)) via isothermal titration calorimetry (ITC) or solubility measurements at multiple temperatures (van't Hoff analysis). Expected outcome: ΔG < 0 (spontaneous association), but ΔH ≈ 0 or slightly positive (no strong enthalpic attraction), so ΔS = (ΔH – ΔG)/T > 0. This positive ΔS arises from release of ordered water molecules from clathrate-like cages around nonpolar surfaces into bulk, increasing solvent entropy. A poor answer (e.g., \"measure temperature change\" or \"hydrophobic effect is enthalpic\") reveals confusion between enthalpy/entropy drivers and inability to design a thermodynamic experiment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Water is a polar molecule with a bent geometry (104.5° bond angle) that exhibits extensive hydrogen bonding, giving it unique properties—high dielectric constant (ε ≈ 78.5 at 25°C), high specific heat capacity (4.18 J·g⁻¹·K⁻¹), high heat of vaporization (44 kJ·mol⁻¹), cohesion, adhesion, and surface tension—that make it the universal biological solvent enabling dissolution, transport, and ______ of biomolecules in living systems.",
+     "a": "stabilization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are preparing a buffer for a PCR reaction: you dissolve Tris, KCl, and MgCl₂ in ______ water, and everything dissolves perfectly—but if you tried the same with hexane, nothing would dissolve.",
+     "a": "distilled",
+     "self_check": true
+    },
+    {
+     "q": "What is Water? State the definition given in this lesson.",
+     "a": "Water is a polar molecule with a bent geometry (104.5° bond angle) that exhibits extensive hydrogen bonding, giving it unique properties—high dielectric constant (ε ≈ 78.5 at 25°C), high specific heat capacity (4.18 J·g⁻¹·K⁻¹), high heat of vaporization (44 kJ·mol⁻¹), cohesion, adhesion, and surface tension—that make it the universal.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain how water's molecular polarity and hydrogen bonding give rise to each of its anomalous properties (high specific heat, high heat of vaporization, density maximum at 4°C, high surface tension, high dielectric constant) and apply this to predict solubility behavior of biomolecules (carbohydrates.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are preparing a buffer for a PCR reaction: you dissolve Tris, KCl, and MgCl₂ in distilled water, and ______ dissolves perfectly—but if you tried the same with hexane, nothing would dissolve.",
+     "a": "everything",
+     "self_check": true
     }
    ]
   }

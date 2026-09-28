@@ -34,6 +34,26 @@
      "q": "Construct a differential equation of order 2 that models the following situation: \"The acceleration of a particle moving along a straight line is proportional to its displacement from the origin, but in the opposite direction.\" Use \\( x \\) for displacement and \\( t \\) for time.",
      "a": "**Expected answer:** \\( \\frac{d^2x}{dt^2} = -k x \\) (where \\( k > 0 \\) is a constant).  \n**Reasoning:** Acceleration is the second derivative of displacement with respect to time: \\( a = \\frac{d^2x}{dt^2} \\). \"Proportional to displacement\" gives \\( \\frac{d^2x}{dt^2} \\propto x \\); \"opposite direction\" gives the negative sign. The highest derivative is second order, so the differential equation is of order 2.  \nA poor answer might write \\( \\frac{dx}{dt} = -k x \\) (order 1, confusing velocity with acceleration) or omit the negative sign. This reveals whether the student can translate a physical description into the correct derivative order.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ equation is an equation that involves an independent variable, a dependent variable, and derivatives of the dependent variable with respect to the independent variable.",
+     "a": "differential",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are tracking the ______ of a cup of chai left on a table in a Delhi winter.",
+     "a": "cooling",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) examine any given equation and correctly decide whether it is a differential equation, (2) identify the dependent and independent variables, (3) state the order by locating the highest derivative, and (4) distinguish between ordinary differential equations (derivatives w.r.t. one independent variable) and partial.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ the cooling of a cup of chai left on a table in a Delhi winter.",
+     "a": "tracking",
+     "self_check": true
     }
    ]
   }

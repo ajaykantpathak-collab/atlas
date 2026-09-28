@@ -34,6 +34,31 @@
      "q": "Create a new scenario: A housing finance company (financial enterprise) purchases a commercial building for its own office use by issuing debentures. No cash is involved. Draft the note to accounts disclosure for this non-cash transaction.",
      "a": "**Expected answer (sample):**  \n\"Note: During the year, the company acquired a commercial building for own use (book value ₹2 crore) by issuing 12% debentures of ₹2 crore. This is a non-cash investing and financing transaction and has not been included in the cash flow statement.\"  \n**Criteria for good answer:** Must mention (1) asset acquired, (2) consideration (debentures issued), (3) explicit statement that no cash flowed, (4) reference to non-cash investing/financing disclosure.  \n**Poor answer reveals:** Omitting \"non-cash\" label, putting it in cash flow statement, or missing the dual investing+financing nature.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: As per AS-3, for a non-financial ______, interest paid and dividends paid are classified as financing activities (outflows), while interest received and dividends received are classified as investing activities (inflows).",
+     "a": "enterprise",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing the cash flow ______ of Bajaj Finance Ltd.",
+     "a": "statement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: As per AS-______, for a non-financial enterprise, interest paid and dividends paid are classified as financing activities (outflows), while interest received and dividends received are classified as investing activities (inflows).",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must correctly classify interest/dividend inflows and outflows into operating, investing, or financing activities based on the enterprise type (financial vs non-financial), identify non-cash transactions from narrative data, and prepare the relevant section of a cash flow statement with proper disclosure.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ the cash flow statement of Bajaj Finance Ltd.",
+     "a": "analysing",
+     "self_check": true
     }
    ]
   }

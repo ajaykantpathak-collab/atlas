@@ -34,6 +34,31 @@
      "q": "Design a simple classroom demonstration using a torch (representing the Sun), a small ball (Moon), and a large ball (Earth) to show why the Moon's shadow on Earth is small and why totality lasts only a few minutes. List the materials, setup steps, and the key observation students should make.",
      "a": "Materials: Torch (preferably with a single LED or small bulb), a 2 cm ball (Moon), a 20 cm ball (Earth), a dark room. Setup: Place torch and Earth ball 5 m apart. Hold Moon ball close to Earth ball (~10 cm) and move it slowly across the light beam. Observation: The Moon's shadow on Earth is a tiny dark spot (umbra) moving rapidly; totality at a fixed point on Earth lasts only seconds. A poor design (e.g., using a large diffuse light source) fails to produce a clear umbra, missing the point that the Sun's angular size creates the umbra-penumbra structure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A solar eclipse occurs when the Moon passes ______ between the Sun and Earth, casting its shadow on Earth's surface.",
+     "a": "directly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in a dark room with a ______ bright bulb (the Sun) and you hold a small ball (the Moon) between the bulb and a wall (Earth).",
+     "a": "single",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Moon's orbit is tilted about ______° to Earth's orbital plane, so the shadow usually misses Earth; only when New Moon occurs near a node does an eclipse happen.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can draw a scaled ray diagram showing the Sun, Moon, and Earth alignment during a solar eclipse, correctly label the umbra and penumbra, and explain why a total solar eclipse is visible only from a narrow path on Earth while a partial eclipse is visible over a much wider region.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are in a dark room with a single bright bulb (the Sun) and you hold a small ball (the Moon) between the bulb and a wall (Earth).",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

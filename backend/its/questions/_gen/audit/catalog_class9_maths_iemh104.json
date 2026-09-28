@@ -130,9 +130,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 9 * 9 + 2 * 9 * 7 + 7 * 7"
-   ]
+   "steps_chain": []
   },
   {
    "id": "iemh.104.4.4",
@@ -177,11 +175,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "num = 5 * 9 + 2 * 6",
-    "den = 6 * 9",
-    "val = num / den"
-   ]
+   "steps_chain": []
   }
  ]
 }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_geo_ch3_6",
+ "concepts": [
+  {
+   "id": "enh:c9_geo_ch3_6",
+   "title": "c9_geo_ch3_6",
+   "questions": [
+    {
+     "q": "What is the primary agency in India responsible for issuing tsunami warnings?",
+     "a": "The Indian National Centre for Ocean Information Services (INCOIS) is the primary agency responsible for issuing tsunami warnings in India. A wrong answer like \"India Meteorological Department\" reveals confusion between cyclone and tsunami warning responsibilities – while IMD handles cyclones, INCOIS specializes in ocean-based disasters like tsunamis, showing the student hasn't distinguished the institutional roles based on disaster type.",
+     "self_check": true
+    },
+    {
+     "q": "Why do tsunami warning systems rely on deep-ocean buoys rather than only coastal tide gauges?",
+     "a": "Deep-ocean buoys detect tsunamis far from shore, providing critical early warning time, whereas coastal tide gauges only record the wave as it arrives, offering little to no lead time for evacuation. A wrong answer claiming buoys are used because they are cheaper or easier to maintain reveals a misunderstanding of the system's purpose – it's about timing and detection range, not cost, indicating the student hasn't grasped why spatial positioning of sensors matters for early warning.",
+     "self_check": true
+    },
+    {
+     "q": "A tsunami is detected by a buoy 1500 km off the coast of Chennai. If the tsunami travels at 700 km/h in deep water, how much time do authorities have to issue a warning before it reaches the coast?",
+     "a": "Time = Distance / Speed = 1500 km / 700 km/h ≈ 2.14 hours, or about 2 hours and 8 minutes. A student who multiplies instead of divides (getting 1,050,000 hours) reveals a fundamental confusion about the relationship between distance, speed, and time – they haven't applied the correct formula or checked if the answer makes sense, showing weak quantitative reasoning in geographical contexts.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the warning lead times for cyclones versus tsunamis in the Bay of Bengal. Which allows more time for evacuation and why?",
+     "a": "Cyclones allow more evacuation time (typically 24–72 hours) than tsunamis (often under 2 hours in near-field events) because cyclones develop slowly over days as low-pressure systems strengthen, while tsunamis travel at high speed immediately after an undersea earthquake. A student who claims tsunamis allow more time because they are \"bigger disasters\" reveals a dangerous misconception – they are conflating disaster magnitude with predictability, failing to analyze the temporal dynamics of onset and propagation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of sirens versus SMS alerts in warning coastal fishing communities about an approaching cyclone. Which is more reliable and why?",
+     "a": "SMS alerts are generally more reliable than sirens alone because they can convey specific details (evacuation routes, shelter locations, timing) and reach people indoors or at sea, whereas sirens only signal danger without context and may be missed during storms or sleep. However, in areas with poor network coverage, sirens remain vital as a backup. A student who says sirens are always better because they are louder reveals an oversimplification – they haven't evaluated trade-offs like specificity, accessibility, and redundancy, showing weak judgment in risk communication design.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple early warning alert system for a tsunami-prone village in the Andaman and Nicobar Islands that uses locally available resources and ensures warnings reach everyone, including the elderly and those without phones.",
+     "a": "A good answer includes: training village volunteers to monitor official alerts, using temple/mosque bells or community loudspeakers for sirens, assigning volunteers to go door-to-door, and using colored flags on beaches to signal danger levels. A poor answer relying only on smartphone apps reveals ignorance of local constraints like electricity, network access, and literacy – it fails to adapt technology to context, showing lack of inclusive, grounded geographical problem-solving.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

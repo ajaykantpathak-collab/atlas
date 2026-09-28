@@ -34,6 +34,16 @@
      "q": "Construct a \\( 3 \\times 3 \\) matrix that is neither symmetric nor skew-symmetric, then decompose it into symmetric and skew-symmetric parts. Explain why the decomposition is unique.",
      "a": "Example: \\( M = \\begin{bmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 7 & 8 & 9 \\end{bmatrix} \\).  \n\\( M' = \\begin{bmatrix} 1 & 4 & 7 \\\\ 2 & 5 & 8 \\\\ 3 & 6 & 9 \\end{bmatrix} \\)  \n\\( P = \\frac{1}{2}(M+M') = \\begin{bmatrix} 1 & 3 & 5 \\\\ 3 & 5 & 7 \\\\ 5 & 7 & 9 \\end{bmatrix} \\) (symmetric)  \n\\( Q = \\frac{1}{2}(M-M') = \\begin{bmatrix} 0 & -1 & -2 \\\\ 1 & 0 & -1 \\\\ 2 & 1 & 0 \\end{bmatrix} \\) (skew-symmetric)  \n\\( P+Q = M \\). Uniqueness: If \\( M = S_1 + K_1 = S_2 + K_2 \\) with \\( S_i \\) symmetric, \\( K_i \\) skew, then \\( S_1 - S_2 = K_2 - K_1 \\). LHS symmetric, RHS skew-symmetric → both must be zero matrix → \\( S_1=S_2, K_1=K_2 \\).  \n**Poor answer reveals:** Student picks a matrix that is accidentally symmetric/skew-symmetric, or cannot explain uniqueness (just states \"it's unique\" without proof).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a bridge truss where forces in members must balance symmetrically — the stiffness matrix relating displacements to forces is symmetric because of Maxwell's ______ theorem.",
+     "a": "reciprocity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a bridge truss where forces in members must balance ______ — the stiffness matrix relating displacements to forces is symmetric because of Maxwell's reciprocity theorem.",
+     "a": "symmetrically",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using household items to demonstrate that electric field magnitude decreases with distance from a point-like charged object. Describe the setup, what you would measure, and how you would verify the inverse-square relationship.",
      "a": "Rub a plastic ruler with wool to charge it. Suspend a small aluminum foil ball (test charge) on a thread. Bring the ruler near the ball at different measured distances \\( r \\) and observe the deflection angle \\( \\theta \\). For small angles, \\( \\tan\\theta \\approx \\theta \\propto F \\propto E \\). Plot \\( \\theta \\) vs \\( 1/r^2 \\); a straight line through origin confirms inverse-square law. A poor answer would use a large test object (disturbs field) or measure force directly without isolating distance dependence.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The electric field due to a point charge is the force per unit positive test charge ______ at a point in space, directed radially outward for a positive source charge and radially inward for a negative source charge.",
+     "a": "experienced",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine rubbing a balloon on your hair in a dry Delhi winter — the balloon ______ tiny paper bits from a distance without touching them.",
+     "a": "attracts",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the electric field vector at any point due to a single point charge or a system of point charges using superposition, correctly handling vector direction, sign of charge, and unit conversions.",
+     "self_check": true
     }
    ]
   }

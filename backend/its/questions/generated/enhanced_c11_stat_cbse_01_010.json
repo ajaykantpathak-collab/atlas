@@ -34,6 +34,26 @@
      "q": "Design a mini statistical investigation (4–5 sentences) on a topic relevant to your school (e.g., \"Student satisfaction with library facilities\"). Explicitly label what you will do at **each of the four stages**, including one specific tool/method per stage. Ensure your design shows how the output of one stage becomes the input of the next.",
      "a": "**Topic:** Student satisfaction with school library facilities.  \n**Stage 1 (Collection):** Design a stratified random sample (strata = Class 9–12), administer a 10-item Likert-scale questionnaire (1=Very Dissatisfied to 5=Very Satisfied) to 120 students → **Output: 120 completed questionnaires.**  \n**Stage 2 (Presentation):** Code responses, construct frequency tables for each item, draw grouped bar charts comparing satisfaction across classes → **Output: Organised tables and charts.**  \n**Stage 3 (Summarisation):** Calculate mean satisfaction score per item, standard deviation, and % rating ≤2 (dissatisfied) → **Output: Numerical summaries (e.g., Mean=3.2, SD=1.1, 22% dissatisfied).**  \n**Stage 4 (Analysis/Interpretation):** Identify lowest-rated items (e.g., \"availability of reference books\"), correlate with class-wise usage frequency, recommend specific purchases → **Output: Actionable report for librarian.**  \nA poor answer lists generic steps without *linkage* (e.g., \"collect data, make graph, find average, conclude\") or uses tools mismatched to the stage (e.g., \"regression at Stage 2\").",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The stages of statistical investigation form a systematic, sequential process: (1) Collection of Data – gathering relevant primary or secondary data using appropriate methods; (2) Organisation and Presentation of Data – classifying, tabulating, and displaying data through tables, diagrams, and graphs; (3) Summarisation of Data – computing numerical measures (measures of central tendency, dispersion, correlation) to describe key features; (4) Analysis and ______ – drawing meaningful conclusions, identifying relationships, and making informed decisions or predictions based on the summarised data.",
+     "a": "Interpretation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a Class 11 student asked by your ______ teacher: \"Our school canteen wants to know why students prefer junk food over healthy meals.",
+     "a": "Economics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How would you investigate this using statistics?\" You might jump straight to \"make a survey\" – but that's only Stage ______.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can, given a real-world economic scenario (e.g., \"A researcher wants to study the impact of MGNREGA wages on rural household consumption\"), correctly sequence the four stages, identify the specific tools/methods used at each stage (e.g., questionnaire design at collection, frequency tables at presentation, mean/standard.",
+     "self_check": true
     }
    ]
   }

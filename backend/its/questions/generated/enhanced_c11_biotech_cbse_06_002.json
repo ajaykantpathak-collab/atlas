@@ -34,6 +34,31 @@
      "q": "Design a monohybrid cross experiment using a trait of your choice (not plant height) that would allow a Class 11 student to verify the Law of Dominance. Specify the parental genotypes, the trait's dominant/recessive relationship, and the expected F1 and F2 phenotypic ratios. Explain how you would confirm the genotype of an F2 dominant-phenotype individual.",
      "a": "Example: Seed shape in pea — round (R) dominant over wrinkled (r). Cross pure round (RR) × pure wrinkled (rr). F1: all Rr (round). F2 (Rr × Rr): phenotypic ratio 3 round : 1 wrinkled; genotypic ratio 1 RR : 2 Rr : 1 rr. To confirm genotype of an F2 round plant, perform a test cross with pure wrinkled (rr). If all offspring are round → parent was RR; if 1:1 round:wrinkled → parent was Rr. A poor answer (e.g., choosing a trait without clear dominance, omitting test cross, or not specifying parental genotypes) reveals the student cannot translate the abstract law into an experimental design or connect genotype verification to breeding practice.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Law of Dominance states that in a monohybrid cross between two homozygous parents with contrasting traits, only one trait (the dominant trait) expresses itself in the F1 ______ offspring, while the other trait (the recessive trait) remains masked but is not lost; it reappears in the F2 generation in a predictable 3:1 phenotypic ratio and 1:2:1 genotypic ratio.",
+     "a": "heterozygous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a plant ______ in Punjab developing a new wheat variety.",
+     "a": "breeder",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The F______ generation receives one allele from each parent, making all offspring Tt.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to construct a Punnett square for any monohybrid cross, derive both genotypic and phenotypic ratios for F1 and F2 generations, and explain why the recessive trait disappears in F1 but reappears in F2 using the concept of allele segregation during gamete formation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a plant breeder in Punjab ______ a new wheat variety.",
+     "a": "developing",
+     "self_check": true
     }
    ]
   }

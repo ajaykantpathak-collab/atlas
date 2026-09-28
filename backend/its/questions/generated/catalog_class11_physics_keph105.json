@@ -1,0 +1,240 @@
+{
+ "catalog": "catalog_class11_physics_keph105.json",
+ "concepts": [
+  {
+   "id": "keph105.5.3.1",
+   "title": "Work Done by a Constant Force",
+   "converted_to_compute": true,
+   "formula": "work = force * displacement",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "work = force * displacement",
+     "compute": "work = force * displacement"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Work Done by a Constant Force: given force = 217, displacement = 189, find work.",
+     "a": "41013",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done by a Constant Force: given force = 263, displacement = 394, find work.",
+     "a": "103622",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done by a Constant Force: given force = 125, displacement = 202, find work.",
+     "a": "25250",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done by a Constant Force: given force = 75, displacement = 55, find work.",
+     "a": "4125",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done by a Constant Force: given force = 16, displacement = 399, find work.",
+     "a": "6384",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done by a Constant Force: given force = 203, displacement = 93, find work.",
+     "a": "18879",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph105.5.4.1",
+   "title": "Kinetic Energy and the Work-Energy Theorem",
+   "converted_to_compute": true,
+   "formula": "kinetic_energy = 0.5 * mass * speed ** 2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "kinetic_energy = 0.5 * mass * speed ** 2",
+     "compute": "kinetic_energy = 0.5 * mass * speed ** 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Kinetic Energy and the Work-Energy Theorem: given mass = 133, speed = 44, find kinetic energy.",
+     "a": "128744",
+     "self_check": false
+    },
+    {
+     "q": "For Kinetic Energy and the Work-Energy Theorem: given mass = 182, speed = 37, find kinetic energy.",
+     "a": "124579",
+     "self_check": false
+    },
+    {
+     "q": "For Kinetic Energy and the Work-Energy Theorem: given mass = 94, speed = 12.5, find kinetic energy.",
+     "a": "7343.75",
+     "self_check": false
+    },
+    {
+     "q": "For Kinetic Energy and the Work-Energy Theorem: given mass = 197, speed = 77, find kinetic energy.",
+     "a": "584006",
+     "self_check": false
+    },
+    {
+     "q": "For Kinetic Energy and the Work-Energy Theorem: given mass = 19.9, speed = 26, find kinetic energy.",
+     "a": "6726.2",
+     "self_check": false
+    },
+    {
+     "q": "For Kinetic Energy and the Work-Energy Theorem: given mass = 199, speed = 78, find kinetic energy.",
+     "a": "605358",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph105.5.7.1",
+   "title": "Potential Energy and Conservation of Mechanical Energy",
+   "converted_to_compute": true,
+   "formula": "potential_energy = mass * gravity * height",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "potential_energy = mass * gravity * height",
+     "compute": "potential_energy = mass * gravity * height"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Potential Energy and Conservation of Mechanical Energy: given mass = 25, gravity = 36, height = 495, find potential energy.",
+     "a": "445500",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Energy and Conservation of Mechanical Energy: given mass = 132, gravity = 62, height = 440, find potential energy.",
+     "a": "3600960",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Energy and Conservation of Mechanical Energy: given mass = 6.1, gravity = 59, height = 51, find potential energy.",
+     "a": "18354.9",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Energy and Conservation of Mechanical Energy: given mass = 168, gravity = 17.6, height = 273, find potential energy.",
+     "a": "807206",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Energy and Conservation of Mechanical Energy: given mass = 31, gravity = 83, height = 364, find potential energy.",
+     "a": "936572",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Energy and Conservation of Mechanical Energy: given mass = 113, gravity = 94, height = 57, find potential energy.",
+     "a": "605454",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph105.5.9.1",
+   "title": "Speed from Energy Conservation in Free Fall",
+   "converted_to_compute": true,
+   "formula": "landing_speed = sqrt(2 * gravity * drop_height)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "landing_speed = sqrt(2 * gravity * drop_height)",
+     "compute": "landing_speed = sqrt(2 * gravity * drop_height)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Speed from Energy Conservation in Free Fall: given gravity = 84, drop_height = 314, find landing speed.",
+     "a": "229.678",
+     "self_check": false
+    },
+    {
+     "q": "For Speed from Energy Conservation in Free Fall: given gravity = 15.3, drop_height = 443, find landing speed.",
+     "a": "116.429",
+     "self_check": false
+    },
+    {
+     "q": "For Speed from Energy Conservation in Free Fall: given gravity = 98, drop_height = 103, find landing speed.",
+     "a": "142.084",
+     "self_check": false
+    },
+    {
+     "q": "For Speed from Energy Conservation in Free Fall: given gravity = 41, drop_height = 330, find landing speed.",
+     "a": "164.499",
+     "self_check": false
+    },
+    {
+     "q": "For Speed from Energy Conservation in Free Fall: given gravity = 59, drop_height = 98, find landing speed.",
+     "a": "107.536",
+     "self_check": false
+    },
+    {
+     "q": "For Speed from Energy Conservation in Free Fall: given gravity = 36, drop_height = 267, find landing speed.",
+     "a": "138.651",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph105.5.10.1",
+   "title": "Power and its Units",
+   "converted_to_compute": true,
+   "formula": "power = work_done / time_taken",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "power = work_done / time_taken",
+     "compute": "power = work_done / time_taken"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Power and its Units: given work_done = 2460, time_taken = 38, find power.",
+     "a": "64.7368",
+     "self_check": false
+    },
+    {
+     "q": "For Power and its Units: given work_done = 1771, time_taken = 41, find power.",
+     "a": "43.1951",
+     "self_check": false
+    },
+    {
+     "q": "For Power and its Units: given work_done = 2382, time_taken = 29, find power.",
+     "a": "82.1379",
+     "self_check": false
+    },
+    {
+     "q": "For Power and its Units: given work_done = 5368, time_taken = 32, find power.",
+     "a": "167.75",
+     "self_check": false
+    },
+    {
+     "q": "For Power and its Units: given work_done = 824, time_taken = 86, find power.",
+     "a": "9.5814",
+     "self_check": false
+    },
+    {
+     "q": "For Power and its Units: given work_done = 3974, time_taken = 114, find power.",
+     "a": "34.8596",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a topographic map of a mid-ocean ridge segment (provided) to identify the spreading center, transform faults, and the direction of plate motion. What map symbols and patterns would you look for?",
      "a": "Look for the axial high/rift valley (spreading center), offset linear features (transform faults) perpendicular to the ridge axis, and symmetric magnetic anomaly patterns (if magnetic data overlay). The direction of plate motion is perpendicular to the ridge axis, away from the center. A poor design (e.g., only looking at depth contours without considering offsets) shows inability to integrate multiple datasets.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ocean floor mapping is the ______ process of charting the topography of the seabed using techniques like sonar (echo sounding) and satellite altimetry, revealing features such as the mid-oceanic ridges—continuous underwater mountain chains formed at divergent plate boundaries where new oceanic crust is created through volcanic activity.",
+     "a": "scientific",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking students to imagine the ocean drained away: what would the ______ look like?",
+     "a": "seabed",
+     "self_check": true
+    },
+    {
+     "q": "What is Ocean floor mapping? State the definition given in this lesson.",
+     "a": "Ocean floor mapping is the scientific process of charting the topography of the seabed using techniques like sonar (echo sounding) and satellite altimetry, revealing features such as the mid-oceanic ridges—continuous underwater mountain chains formed at divergent plate boundaries where new oceanic crust is created through volcanic.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Ocean floor mapping?",
+     "a": "Students often think mid-ocean ridges are single, continuous volcanoes like the Andes, rather than a segmented system of spreading centers offset by transform faults.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how echo sounding and satellite altimetry map the ocean floor, describe the structure and significance of mid-oceanic ridges, and relate ridge features (rift valley, hydrothermal vents) to divergent plate boundaries.",
+     "self_check": true
     }
    ]
   }

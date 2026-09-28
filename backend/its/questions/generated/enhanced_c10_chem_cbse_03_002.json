@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a battery, LED, wires, and crocodile clips to distinguish between graphite, sulphur, and iodine based on electrical conductivity. Write the procedure and expected observations in a table.",
      "a": "Procedure: Build an open circuit with battery, LED, and two clips. Place each sample between the clips to close the circuit. Observations: Graphite — LED glows (conducts); Sulphur — LED does not glow (insulator); Iodine — LED does not glow (insulator, though lustrous). A poor answer omits the control (open circuit) or fails to note that iodine's lustre does not imply conductivity, showing inability to design a controlled investigation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Non-metals are elements that generally lack metallic lustre, are brittle in solid state, have low melting and boiling points, and are poor conductors of heat and electricity; key exceptions include graphite (a form of carbon that conducts electricity due to ______ electrons), iodine (a lustrous non-metal), diamond (an extremely hard allotrope of carbon), and mercury (a metal that is liquid at room temperature, included here as a contrasting exception to typical metallic properties).",
+     "a": "delocalised",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a pencil lead (graphite) completing an ______ circuit in a simple LED tester — it glows, yet pencil lead is made of carbon, a non-metal.",
+     "a": "electrical",
+     "self_check": true
+    },
+    {
+     "q": "What is Non-metals? State the definition given in this lesson.",
+     "a": "Non-metals are elements that generally lack metallic lustre, are brittle in solid state, have low melting and boiling points, and are poor conductors of heat and electricity; key exceptions include graphite (a form of carbon that conducts electricity due to delocalised electrons), iodine (a lustrous non-metal), diamond (an extremely hard.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Non-metals?",
+     "a": "Students often write \"graphite is a metal because it conducts electricity\" or \"mercury is a non-metal because it is liquid\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can list at least five general physical properties of non-metals, explain the structural reason why graphite conducts electricity while diamond does not, and correctly classify mercury as a metal despite its liquid state at room temperature.",
+     "self_check": true
     }
    ]
   }

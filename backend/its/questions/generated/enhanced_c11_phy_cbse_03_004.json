@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a force table (or a board with pulleys and weights) to demonstrate that a single force can be replaced by two perpendicular forces (its components). Describe the setup, measurements, and how you would verify the resolution.",
      "a": "Setup: Fix a central ring on a force table. Attach three strings over pulleys at angles 0°, 90°, and a third angle θ (e.g., 53°). Hang weights: W₁ on 0° string, W₂ on 90° string, and W on θ string. Adjust W₁ and W₂ until the ring centers without the θ string. Then W₁ = W cosθ, W₂ = W sinθ. Verification: Measure W₁, W₂, W, and θ. Check if W₁² + W₂² = W² and tanθ = W₂/W₁. A poor answer would omit the equilibrium condition or not specify how to isolate the components.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Resolution of vectors is the process of splitting a single vector into two or more component vectors along specified directions (usually ______ axes) such that their vector sum equals the original vector.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are pulling a ______ with a strap at an angle across a railway platform.",
+     "a": "suitcase",
+     "self_check": true
+    },
+    {
+     "q": "What is Resolution of vectors? State the definition given in this lesson.",
+     "a": "Resolution of vectors is the process of splitting a single vector into two or more component vectors along specified directions (usually perpendicular axes) such that their vector sum equals the original vector.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Resolution of vectors?",
+     "a": "Students often believe that the component of a vector along an axis is \"part of the vector\" that exists physically as a separate force, leading them to think the original vector \"disappears\" when resolved.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can resolve any vector in 2D or 3D into its rectangular components given magnitude and direction, reconstruct the vector from its components, and explain why the component perpendicular to a direction has zero projection along that direction.",
+     "self_check": true
     }
    ]
   }

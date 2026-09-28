@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (Indian context) where Harmonic Mean is the correct average, but a student would likely misuse Arithmetic Mean. Provide the problem statement, the incorrect AM calculation, the correct HM calculation, and a one-line explanation of the \"constant numerator\" in your problem.",
      "a": "**Expected Answer Criteria:** A good problem will have:\n- A clear constant numerator (e.g., fixed distance, fixed expenditure, fixed quantity)\n- A varying denominator (time, price per unit, concentration)\n- Numerical values allowing clean calculation\n- Explicit identification of the constant numerator\nExample: \"A milk vendor buys milk at ₹40/L, ₹50/L, and ₹60/L, spending ₹2000 at each rate. Find the average price per litre.\" Incorrect AM = ₹50/L. Correct HM = \\(3/(\\frac{1}{40}+\\frac{1}{50}+\\frac{1}{60}) = 48.65 \\text{ ₹/L}\\). Constant numerator: Expenditure (₹2000).  \n**What a poor answer reveals:** If the problem uses \"average speed for equal time intervals\" or \"average of percentages\", the student doesn't understand the constant-numerator condition. If they can't articulate why AM fails, they lack the conceptual link between physical situation and mathematical structure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Harmonic Mean (HM) is a measure of central tendency defined as the reciprocal of the arithmetic mean of the reciprocals of the given ______.",
+     "a": "observations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you ______ from Delhi to Jaipur at 60 km/h and return at 40 km/h.",
+     "a": "travel",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Identify real-world situations requiring harmonic mean (rates with constant numerator), (2) Calculate HM for individual, discrete, and continuous series using the correct formula, and (3) Justify why HM is preferred over AM or GM in specific contexts like average speed, average price per unit, or average.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you travel from Delhi to Jaipur at 60 km/h and return at 40 km/h.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

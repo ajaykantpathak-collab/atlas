@@ -34,6 +34,26 @@
      "q": "Create a realistic scenario involving a compensating error pair in a small Indian manufacturing firm. Specify the two errors, the accounts affected, the amounts, and show that the trial balance still tallies. Then write the rectification entry.",
      "a": "Scenario: M/s Gupta Steel, Ludhiana. Error 1: Purchase of raw materials ₹45,000 entered in Purchases Book as ₹54,000 (overcast ₹9,000). Error 2: Sales return from customer ₹12,000 entered in Sales Returns Book as ₹3,000 (undercast ₹9,000). Effect: Purchases Account debit excess ₹9,000; Sales Returns Account debit short ₹9,000. Both are debit-side errors, so trial balance debit total unchanged. Rectification: Sales Returns A/c Dr. ₹9,000 → To Purchases A/c ₹9,000. A poor answer would use a suspense account or misidentify the direction of the errors (e.g., saying Sales Returns overcast), revealing confusion about \"under/overcast\" meaning relative to the book's natural side.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ errors occur when two or more accounting errors are committed such that their opposing effects on the debit and credit sides of the ledger cancel each other out, resulting in a net zero impact on the trial balance totals.",
+     "a": "Compensating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are auditing a ______ kirana store in Delhi.",
+     "a": "small",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify a pair of compensating errors from a given set of account balances, calculate the exact amount of each error that nullifies the other, and explain why the trial balance still tallies despite both errors existing.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a small kirana store in Delhi.",
+     "a": "auditing",
+     "self_check": true
     }
    ]
   }

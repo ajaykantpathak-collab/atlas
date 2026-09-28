@@ -26,6 +26,8 @@ no LLM call exists in this module.
 
 from __future__ import annotations
 
+import json
+import os
 import re
 import time
 from dataclasses import dataclass, field
@@ -443,6 +445,23 @@ _FIGURE_REF_RE = re.compile(
 
 
 def answer(text: str) -> PipelineResult:
+    """Public entry — wraps the implementation so EVERY return path feeds
+    the unanswered-question queue (early returns used to skip it)."""
+    try:
+        from backend.its.solver.competency_engine import (
+            _LLM_BUDGET, _LLM_BUDGET_MAX)
+        # one budget for the whole question -- Lane A and Lane B both
+        # call model_competency; resetting per-call let each lane spend
+        # its own 3 calls (6/question under congestion)
+        _LLM_BUDGET.set(_LLM_BUDGET_MAX)
+    except Exception:
+        pass
+    result = _answer_impl(text)
+    _queue_miss(text, result)
+    return result
+
+
+def _answer_impl(text: str) -> PipelineResult:
     """Classify -> route -> validate -> label.  One honest answer."""
     # S0: the shared input normalizer rewrites wording variants
     # (percent/%, SI/interest, raised-to-power/^, Indian numerals) into
@@ -742,6 +761,28 @@ def _answer_multi_part(text: str) -> PipelineResult:
                 result.audit.elapsed_ms = round(
                     (_time.perf_counter() - t0) * 1000, 1)
                 return result
+            # not every part verified alone -- try the sequential chain:
+            # per-part concept routing with prior outputs forwarded into
+            # unbound inputs ('find v, then find KE given m' binds the
+            # computed v).  Verified chain beats the guided fallback.
+            try:
+                from backend.its.solver.competency_engine import (
+                    _multipart_execute_multi)
+                chain = _multipart_execute_multi(text)
+            except Exception:
+                chain = None
+            if chain is not None and getattr(chain, "matched", False):
+                audit.route.append("multi_part:sequential_chain")
+                audit.gates_passed.append("sequential_chain")
+                result = PipelineResult(
+                    label=VERIFIED,
+                    answer=chain.final_answer,
+                    numeric=chain.numeric_answer,
+                    steps=list(chain.steps or []),
+                    audit=audit)
+                result.audit.elapsed_ms = round(
+                    (_time.perf_counter() - t0) * 1000, 1)
+                return result
             result = PipelineResult(
                 label=GUIDED, answer=None, numeric=None, steps=[],
                 audit=audit,
@@ -752,6 +793,46 @@ def _answer_multi_part(text: str) -> PipelineResult:
                 (_time.perf_counter() - t0) * 1000, 1)
             return result
     return _answer_core(text)
+
+
+# QUEUE-1: unanswered/missed questions -> review queue.  Every result that
+# isn't a verified/computable answer AND carries no authored model answer
+# is a coverage gap — log it so offline generation can promote it.
+_QUEUE_PATH = None
+
+
+def _queue_path() -> str:
+    global _QUEUE_PATH
+    if _QUEUE_PATH is None:
+        base = os.environ.get("CBSE_DATA_DIR") or os.path.join(
+            os.path.dirname(__file__), "..", "..", "..", "cbse_data")
+        _QUEUE_PATH = os.path.join(base, "answer_queue.jsonl")
+    return _QUEUE_PATH
+
+
+def _queue_miss(text: str, result: "PipelineResult") -> None:
+    try:
+        verified = result.label in (
+            "VERIFIED", "VERIFIED_WITH_ASSUMPTIONS", "VERIFIED_OFFICIAL")
+        has_authored = bool(
+            (result.socratic or {}).get("model_answer"))
+        if verified or has_authored:
+            return
+        entry = {
+            "ts": round(time.time()),
+            "question": text[:500],
+            "lane": result.audit.lane,
+            "label": result.label,
+            "refusal_reason": result.refusal_reason,
+            "route": result.audit.route[-4:],
+        }
+        os.makedirs(os.path.dirname(_queue_path()), exist_ok=True)
+        with open(_queue_path(), "a", encoding="utf-8") as fh:
+            fh.write(json.dumps(entry, ensure_ascii=False) + "\n")
+    except Exception as exc:
+        # logging must never break the answer path — but don't hide bugs
+        import sys as _sys
+        print(f"[answer_queue] write failed: {exc}", file=_sys.stderr)
 
 
 def _answer_core(text: str) -> PipelineResult:
@@ -836,4 +917,16 @@ def _answer_core(text: str) -> PipelineResult:
                 if guidance:
                     result.socratic = {"concept": guidance}
                     result.audit.route.append("competency:guided_method")
+            # NONSTEM-2: for fact-recall / non-computable questions the
+            # authored corpus IS the answer — attach the model answer
+            # (points + expected format) alongside the guided method.
+            try:
+                from backend.services.enhanced_nodes import model_answer
+                ma = model_answer(text)
+            except Exception:
+                ma = None
+            if ma is not None:
+                result.socratic = result.socratic or {}
+                result.socratic["model_answer"] = ma
+                result.audit.route.append("corpus:model_answer")
     return result

@@ -60,25 +60,19 @@
    ],
    "worked_examples": [
     {
-     "id": "ex_re_keac.3.2.1_1",
-     "source_ref": "review enrichment (arithmetically verified)",
      "concept": "keac.3.2.1",
-     "question_type": "compute",
-     "extracted_variables": {
-      "capital": "10",
-      "liabilities": "10"
-     },
-     "solution_template": [
-      {
-       "step": 1,
-       "action": "sum external liabilities and equity",
-       "explain": "Total assets must equal total claims consisting of liabilities and proprietor equity.",
-       "compute": "assets = liabilities + capital"
-      }
-     ],
-     "question_pattern": "find total assets when liabilities and capital are given (given {capital}, {liabilities})"
+     "question_pattern": "what is the total value of assets if liabilities are {liabilities} and capital is {capital}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "assets = liabilities + capital",
+     "compute": "assets = liabilities + capital"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.3.2.2",
@@ -106,16 +100,19 @@
    ],
    "worked_examples": [
     {
-     "question": "calculate capital when assets are ... and liabilities are ... (take assets = 10, liabilities = 10)",
-     "solution": "Applying the concept's compute chain with assets = 10, liabilities = 10 gives 0.0.",
-     "answer": "0.0"
-    },
-    {
-     "question": "calculate capital when assets are ... and liabilities are ... (take assets = 10, liabilities = 2)",
-     "solution": "Applying the concept's compute chain with assets = 10, liabilities = 2 gives 8.0.",
-     "answer": "8.0"
+     "concept": "keac.3.2.2",
+     "question_pattern": "calculate capital when assets are {assets} and liabilities are {liabilities}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "capital = assets - liabilities",
+     "compute": "capital = assets - liabilities"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.3.2.3",
@@ -153,7 +150,16 @@
      "solution": "Applying the concept's compute chain with drawings = 10, expenses = 10, fresh_capital = 10, opening_capital = 10, revenue = 10 gives 10.0.",
      "answer": "10.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "closing_capital = opening_capital + fresh_capital + revenue - expenses - drawings",
+     "compute": "closing_capital = opening_capital + fresh_capital + revenue - expenses - drawings"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.3.3.1",
@@ -199,7 +205,7 @@
     "prepare journal entries for purchase and sale of assets",
     "explain journalising transactions in the book of original entry"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -210,6 +216,21 @@
      "step": 2,
      "action": "format the journal entry with narration",
      "explain": "Write debit accounts first, prefix credited accounts with 'To', enter equal debit and credit totals, and provide a narration."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_debit = total_credit",
+     "compute": "total_debit = total_credit"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "keac.3.4.1",
+     "question_pattern": "journalise the following transactions in the books of {total_credit}"
     }
    ]
   },
@@ -255,7 +276,28 @@
      "solution": "Applying the concept's compute chain with base_amount = 10, cgst_rate = 10, sgst_rate = 10 gives 12.0.",
      "answer": "12.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "cgst = base_amount * cgst_rate / 100",
+     "compute": "cgst = base_amount * cgst_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "sgst = base_amount * sgst_rate / 100",
+     "compute": "sgst = base_amount * sgst_rate / 100"
+    },
+    {
+     "step": 3,
+     "action": "substitute the given values into the formula",
+     "explain": "invoice_total = base_amount + cgst + sgst",
+     "compute": "invoice_total = base_amount + cgst + sgst"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.3.4.3",
@@ -287,7 +329,16 @@
      "solution": "Applying the concept's compute chain with input_tax = 10, output_tax = 10 gives 0.0.",
      "answer": "0.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_tax_payable = output_tax - input_tax",
+     "compute": "net_tax_payable = output_tax - input_tax"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.3.5.1",
@@ -354,7 +405,22 @@
      "solution": "Applying the concept's compute chain with recovery_rate = 10, total_debt = 10 gives 9.0.",
      "answer": "9.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "recovered_amount = total_debt * recovery_rate / 100",
+     "compute": "recovered_amount = total_debt * recovery_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "bad_debts = total_debt - recovered_amount",
+     "compute": "bad_debts = total_debt - recovered_amount"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.3.6.2",
@@ -382,11 +448,19 @@
    ],
    "worked_examples": [
     {
-     "question": "calculate interest on capital of ... at ... percent per annum for ... months (take capital = 10, months = 10, rate = 10)",
-     "solution": "Applying the concept's compute chain with capital = 10, months = 10, rate = 10 gives 0.833333.",
-     "answer": "0.833333"
+     "concept": "keac.3.6.2",
+     "question_pattern": "calculate interest on capital of {capital} at {rate} percent per annum for {months} months"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "interest = capital * rate * months / 1200",
+     "compute": "interest = capital * rate * months / 1200"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

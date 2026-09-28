@@ -34,6 +34,36 @@
      "q": "Design a three-way classification table for \"Student Performance in Class 11\" using: Stream (Science, Commerce, Arts), Gender (Male, Female), and Result Category (Distinction, First Class, Second Class, Pass, Fail). Specify the stubs, captions, and how the body would be structured. Explain why this requires a three-way table and not two separate two-way tables.",
      "a": "**Stubs (rows):** Stream × Gender combinations → 3 streams × 2 genders = 6 row categories (Science-Male, Science-Female, Commerce-Male, Commerce-Female, Arts-Male, Arts-Female). **Captions (columns):** Result Category (5 columns) + Total. **Body:** 6 rows × 5 columns = 30 cells, each showing count of students. **Why three-way:** Two separate two-way tables (Stream × Result, Gender × Result) would lose the *interaction* — e.g., \"Science-Female-Distinction\" count cannot be recovered from marginal totals alone. Three-way preserves the joint distribution of all three variables simultaneously. A poor answer (e.g., \"just make two tables\") fails to grasp that classification dimension = number of variables whose *joint* frequency is needed.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Tabular ______ of data is the systematic arrangement of numerical information in rows and columns with clearly defined parts (table number, title, captions, stubs, body, unit of measurement, source, and note) to facilitate comparison, analysis, and further statistical treatment.",
+     "a": "presentation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class representative and your ______ hands you a sheet with 50 students' names, their heights in cm, weights in kg, and their residential sectors (North, South, East, West).",
+     "a": "teacher",
+     "self_check": true
+    },
+    {
+     "q": "What is Tabular presentation of data? State the definition given in this lesson.",
+     "a": "Tabular presentation of data is the systematic arrangement of numerical information in rows and columns with clearly defined parts (table number, title, captions, stubs, body, unit of measurement, source, and note) to facilitate comparison, analysis, and further statistical treatment.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class representative and your teacher hands you a sheet with ______ students' names, their heights in cm, weights in kg, and their residential sectors (North, South, East, West).",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Tabular presentation of data?",
+     "a": "Students believe \"stubs are always the first column on the left\" and \"captions are always the top row\" as rigid formatting rules.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently construct a complete statistical table from raw data by correctly identifying and placing all eight parts, classify the data using the appropriate classification type (qualitative, quantitative, temporal, or spatial), and interpret any given table by extracting specific information from its body using.",
+     "self_check": true
     }
    ]
   }

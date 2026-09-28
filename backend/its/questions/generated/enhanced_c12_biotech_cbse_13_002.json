@@ -34,6 +34,31 @@
      "q": "Design a scientifically rigorous 5-year monitoring study to detect unintended effects of a newly approved drought-tolerant GM maize (expressing a bacterial RNA chaperone protein) on soil microbiome diversity and function. Specify: (a) experimental design with controls, (b) three molecular/biochemical endpoints, (c) statistical approach for distinguishing GM effect from site/year variation.",
      "a": "(a) Randomized complete block design across 5 agro-ecological zones, 4 replicates per zone. Treatments: GM maize, near-isogenic non-GM maize, conventional maize variety, bare soil. Same agronomic practices. (b) Endpoints: 16S/ITS amplicon sequencing for bacterial/fungal α- and β-diversity; qPCR for functional genes (nifH, amoA, dsrB); extracellular enzyme assays (β-glucosidase, phosphatase, arylsulfatase) for C/N/P/S cycling. (c) Linear mixed-effects model: response ~ treatment + (1|zone) + (1|year) + (1|zone:year); treatment × year interaction tests for accumulating effects; PERMANOVA on Bray-Curtis distances for community composition; FDR correction for multiple endpoints. WRONG ANSWER REVEALS: No proper controls (only GM vs non-GM), ignores spatial/temporal replication, uses only taxonomic diversity not function, proposes t-tests ignoring nested design — shows inability to design rigorous ecological risk assessment, a NEET-level experimental design question.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: GMOs (Genetically Modified Organisms) are organisms whose genetic material has been altered using recombinant DNA technology to introduce specific desirable traits; their benefits include enhanced agricultural productivity, improved nutritional quality, and reduced chemical pesticide use, while public concerns encompass potential food safety risks, ______ impacts like gene flow and biodiversity loss, socio-economic issues such as corporate seed monopolies, and ethical objections to genetic manipulation of living organisms.",
+     "a": "environmental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're a farmer in Punjab deciding whether to plant Bt ______ — your neighbor says yields doubled, but a news report claims it causes farmer suicides and kills butterflies.",
+     "a": "cotton",
+     "self_check": true
+    },
+    {
+     "q": "What is GMOs (Genetically Modified Organisms)? State the definition given in this lesson.",
+     "a": "GMOs (Genetically Modified Organisms) are organisms whose genetic material has been altered using recombinant DNA technology to introduce specific desirable traits; their benefits include enhanced agricultural productivity, improved nutritional quality, and reduced chemical pesticide use, while public concerns encompass potential food.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about GMOs (Genetically Modified Organisms)?",
+     "a": "Students believe \"GMOs are untested/unsafe\" because they conflate *absence of evidence of harm* with *evidence of absence of harm*, and they mistake the *precautionary principle* (regulatory approach) for *scientific proof of danger*.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently evaluate a given GM crop case study by identifying at least three specific benefits with mechanistic explanations (e.g., Bt toxin mode of action), articulating three distinct public concerns with scientific basis (not just fear), and weighing trade-offs using evidence-based reasoning to reach a nuanced position.",
+     "self_check": true
     }
    ]
   }

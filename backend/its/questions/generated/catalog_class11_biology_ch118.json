@@ -1,324 +1,520 @@
 {
- "catalog": "catalog_class11_biology_ch118",
+ "catalog": "catalog_class11_biology_ch118.json",
  "concepts": [
   {
    "id": "kebo.18.2.1",
    "title": "Organization of the Human Neural System",
+   "converted_to_compute": true,
+   "formula": "PNS = somatic_division + autonomic_division",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "PNS = somatic_division + autonomic_division",
+     "compute": "PNS = somatic_division + autonomic_division"
+    }
+   ],
    "questions": [
     {
-     "q": "Explain in your own words what 'Organization of the Human Neural System' refers to.",
-     "a": "The structural division of the body's neural architecture into a central processing core and a peripheral network connecting that core to tissues.",
-     "self_check": true
+     "q": "For Organization of the Human Neural System: given somatic_division = 4, autonomic_division = 46, find PNS.",
+     "a": "50",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Organization of the Human Neural System'.",
-     "a": "The central neural system integrates information while peripheral pathways branch into voluntary somatic and involuntary autonomic divisions.",
-     "self_check": true
+     "q": "For Organization of the Human Neural System: given somatic_division = 65, autonomic_division = 50, find PNS.",
+     "a": "115",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Organization of the Human Neural System', in plain ASCII form.",
-     "a": "PNS = somatic_division + autonomic_division",
-     "self_check": true
+     "q": "For Organization of the Human Neural System: given somatic_division = 26, autonomic_division = 90, find PNS.",
+     "a": "116",
+     "self_check": false
+    },
+    {
+     "q": "For Organization of the Human Neural System: given somatic_division = 35, autonomic_division = 94, find PNS.",
+     "a": "129",
+     "self_check": false
+    },
+    {
+     "q": "For Organization of the Human Neural System: given somatic_division = 33, autonomic_division = 64, find PNS.",
+     "a": "97",
+     "self_check": false
+    },
+    {
+     "q": "For Organization of the Human Neural System: given somatic_division = 61, autonomic_division = 44, find PNS.",
+     "a": "105",
+     "self_check": false
     }
    ]
   },
   {
    "id": "kebo.18.2.2",
    "title": "Afferent and Efferent Nerve Fibres",
+   "converted_to_compute": true,
+   "formula": "total_pathways = afferent_pathways + efferent_pathways",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_pathways = afferent_pathways + efferent_pathways",
+     "compute": "total_pathways = afferent_pathways + efferent_pathways"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Afferent and Efferent Nerve Fibres', work with: afferent_pathways = 150, efferent_pathways = 120. Carry the chain through step by step and give the final value of total_pathways.",
-     "a": "270 units",
+     "q": "For Afferent and Efferent Nerve Fibres: given afferent_pathways = 84, efferent_pathways = 84, find total pathways.",
+     "a": "168",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Afferent and Efferent Nerve Fibres' and work with: afferent_pathways = 80, efferent_pathways = 20. Carry the chain through step by step and give the final value of total_pathways.",
-     "a": "100 units",
+     "q": "For Afferent and Efferent Nerve Fibres: given afferent_pathways = 69, efferent_pathways = 112, find total pathways.",
+     "a": "181",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Afferent and Efferent Nerve Fibres' refers to.",
-     "a": "Peripheral nerve trunks that carry sensory signals inward to the central axis, or motor commands outward to muscles and glands.",
-     "self_check": true
+     "q": "For Afferent and Efferent Nerve Fibres: given afferent_pathways = 48, efferent_pathways = 30, find total pathways.",
+     "a": "78",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Afferent and Efferent Nerve Fibres'.",
-     "a": "Afferent neurons convey sensory information to the CNS, whereas efferent neurons convey regulatory motor signals to target tissues.",
-     "self_check": true
+     "q": "For Afferent and Efferent Nerve Fibres: given afferent_pathways = 84, efferent_pathways = 86, find total pathways.",
+     "a": "170",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Afferent and Efferent Nerve Fibres', in plain ASCII form.",
-     "a": "total_pathways = afferent_pathways + efferent_pathways",
-     "self_check": true
+     "q": "For Afferent and Efferent Nerve Fibres: given afferent_pathways = 95, efferent_pathways = 57, find total pathways.",
+     "a": "152",
+     "self_check": false
+    },
+    {
+     "q": "For Afferent and Efferent Nerve Fibres: given afferent_pathways = 43, efferent_pathways = 27, find total pathways.",
+     "a": "70",
+     "self_check": false
     }
    ]
   },
   {
    "id": "kebo.18.3.1",
    "title": "Neuron Morphology and Classification",
+   "converted_to_compute": true,
+   "formula": "neuron_processes = dendrite_count + axon_count",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "neuron_processes = dendrite_count + axon_count",
+     "compute": "neuron_processes = dendrite_count + axon_count"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Neuron Morphology and Classification', work with: axon_count = 300, dendrite_count = 360. Carry the chain through step by step and give the final value of neuron_processes.",
-     "a": "660 units",
+     "q": "For Neuron Morphology and Classification: given dendrite_count = 439, axon_count = 7.5, find neuron processes.",
+     "a": "446.5",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Neuron Morphology and Classification' and work with: axon_count = 40, dendrite_count = 240. Carry the chain through step by step and give the final value of neuron_processes.",
-     "a": "280 units",
+     "q": "For Neuron Morphology and Classification: given dendrite_count = 499, axon_count = 15.4, find neuron processes.",
+     "a": "514.4",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Neuron Morphology and Classification' refers to.",
-     "a": "The specialized histological unit of neural tissue comprising a somal cell body, receptive dendrites, and an impulse-transmitting axon, classified by process branching and myelination.",
-     "self_check": true
+     "q": "For Neuron Morphology and Classification: given dendrite_count = 57, axon_count = 17.8, find neuron processes.",
+     "a": "74.8",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Neuron Morphology and Classification'.",
-     "a": "Neurons feature specialized receptive and conductive extensions and are categorized as unipolar, bipolar, or multipolar depending on process morphology.",
-     "self_check": true
+     "q": "For Neuron Morphology and Classification: given dendrite_count = 446, axon_count = 0.7, find neuron processes.",
+     "a": "446.7",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Neuron Morphology and Classification', in plain ASCII form.",
-     "a": "neuron_processes = dendrite_count + axon_count",
-     "self_check": true
+     "q": "For Neuron Morphology and Classification: given dendrite_count = 469, axon_count = 10.4, find neuron processes.",
+     "a": "479.4",
+     "self_check": false
+    },
+    {
+     "q": "For Neuron Morphology and Classification: given dendrite_count = 141, axon_count = 4.3, find neuron processes.",
+     "a": "145.3",
+     "self_check": false
     }
    ]
   },
   {
    "id": "kebo.18.3.2",
    "title": "Resting Membrane Potential and Polarization",
+   "converted_to_compute": true,
+   "formula": "net_cation_export_rate = (3 * Na_out) - (2 * K_in)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_cation_export_rate = (3 * Na_out) - (2 * K_in)",
+     "compute": "net_cation_export_rate = (3 * Na_out) - (2 * K_in)"
+    }
+   ],
    "questions": [
     {
-     "q": "Explain in your own words what 'Resting Membrane Potential and Polarization' refers to.",
-     "a": "The steady electrical voltage across an unstimulated neural membrane generated by unequal ion permeability and maintained by primary active transport.",
-     "self_check": true
+     "q": "For Resting Membrane Potential and Polarization: given Na_out = 21, K_in = 46, find net cation export rate.",
+     "a": "-29",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Resting Membrane Potential and Polarization'.",
-     "a": "High resting potassium permeability coupled with active sodium-potassium pumping renders the axon's interior negatively charged relative to the exterior.",
-     "self_check": true
+     "q": "For Resting Membrane Potential and Polarization: given Na_out = 94, K_in = 92, find net cation export rate.",
+     "a": "98",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Resting Membrane Potential and Polarization', in plain ASCII form.",
-     "a": "net_cation_export_rate = (3 * Na_out) - (2 * K_in)",
-     "self_check": true
+     "q": "For Resting Membrane Potential and Polarization: given Na_out = 10.1, K_in = 53, find net cation export rate.",
+     "a": "-75.7",
+     "self_check": false
+    },
+    {
+     "q": "For Resting Membrane Potential and Polarization: given Na_out = 25, K_in = 79, find net cation export rate.",
+     "a": "-83",
+     "self_check": false
+    },
+    {
+     "q": "For Resting Membrane Potential and Polarization: given Na_out = 51, K_in = 44, find net cation export rate.",
+     "a": "65",
+     "self_check": false
+    },
+    {
+     "q": "For Resting Membrane Potential and Polarization: given Na_out = 96, K_in = 86, find net cation export rate.",
+     "a": "116",
+     "self_check": false
     }
    ]
   },
   {
    "id": "kebo.18.3.3",
    "title": "Sodium-Potassium ATPase Exchange Stoichiometry",
+   "converted_to_compute": true,
+   "formula": "net_charge = cycles * (3 - 2)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_charge = cycles * (3 - 2)",
+     "compute": "net_charge = cycles * (3 - 2)"
+    }
+   ],
    "questions": [
     {
-     "q": "Calculate the net charge exported across the axonal membrane after a given number of pump cycles. Use the method 'Sodium-Potassium ATPase Exchange Stoichiometry'. Work with: cycles = 50. Carry the chain through step by step and give the final value of net_charge.",
-     "a": "50 units",
+     "q": "For Sodium-Potassium ATPase Exchange Stoichiometry: given cycles = 22, find net charge.",
+     "a": "22",
      "self_check": false
     },
     {
-     "q": "Find the total number of sodium ions pumped outward for a given number of cycles. Use the method 'Sodium-Potassium ATPase Exchange Stoichiometry'. Work with: cycles = 500. Carry the chain through step by step and give the final value of net_charge.",
-     "a": "500 units",
+     "q": "For Sodium-Potassium ATPase Exchange Stoichiometry: given cycles = 90, find net charge.",
+     "a": "90",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Sodium-Potassium ATPase Exchange Stoichiometry' refers to.",
-     "a": "The quantitative stoichiometric relationship of active cation transport across the resting neuronal membrane per enzymatic cycle.",
-     "self_check": true
+     "q": "For Sodium-Potassium ATPase Exchange Stoichiometry: given cycles = 62, find net charge.",
+     "a": "62",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Sodium-Potassium ATPase Exchange Stoichiometry'.",
-     "a": "Each cycle of the sodium-potassium pump consumes ATP to transport three sodium ions outward and two potassium ions inward, expelling one net elementary positive charge.",
-     "self_check": true
+     "q": "For Sodium-Potassium ATPase Exchange Stoichiometry: given cycles = 75, find net charge.",
+     "a": "75",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Sodium-Potassium ATPase Exchange Stoichiometry', in plain ASCII form.",
-     "a": "net_charge = cycles * (3 - 2)",
-     "self_check": true
+     "q": "For Sodium-Potassium ATPase Exchange Stoichiometry: given cycles = 35, find net charge.",
+     "a": "35",
+     "self_check": false
+    },
+    {
+     "q": "For Sodium-Potassium ATPase Exchange Stoichiometry: given cycles = 15.7, find net charge.",
+     "a": "15.7",
+     "self_check": false
     }
    ]
   },
   {
    "id": "kebo.18.3.4",
    "title": "Action Potential Generation and Impulse Propagation",
+   "converted_to_compute": true,
+   "formula": "action_potential = depolarisation_phase + repolarisation_phase",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "action_potential = depolarisation_phase + repolarisation_phase",
+     "compute": "action_potential = depolarisation_phase + repolarisation_phase"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Action Potential Generation and Impulse Propagation', work with: depolarisation_phase = 20, repolarisation_phase = 40. Carry the chain through step by step and give the final value of action_potential.",
-     "a": "60 units",
+     "q": "For Action Potential Generation and Impulse Propagation: given depolarisation_phase = 17.3, repolarisation_phase = 5.2, find action potential.",
+     "a": "22.5",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Action Potential Generation and Impulse Propagation' and work with: depolarisation_phase = 6, repolarisation_phase = 50. Carry the chain through step by step and give the final value of action_potential.",
-     "a": "56 units",
+     "q": "For Action Potential Generation and Impulse Propagation: given depolarisation_phase = 19.2, repolarisation_phase = 0.5, find action potential.",
+     "a": "19.7",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Action Potential Generation and Impulse Propagation' refers to.",
-     "a": "The rapid, transient reversal and restoration of membrane polarity propagated along the length of an axonal fibre following threshold stimulation.",
-     "self_check": true
+     "q": "For Action Potential Generation and Impulse Propagation: given depolarisation_phase = 19.5, repolarisation_phase = 11.8, find action potential.",
+     "a": "31.3",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Action Potential Generation and Impulse Propagation'.",
-     "a": "Stimulus-driven sodium influx transiently inverts transmembrane voltage, producing a local circuit that triggers adjacent depolarization and subsequent potassium efflux.",
-     "self_check": true
+     "q": "For Action Potential Generation and Impulse Propagation: given depolarisation_phase = 7.4, repolarisation_phase = 1, find action potential.",
+     "a": "8.4",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Action Potential Generation and Impulse Propagation', in plain ASCII form.",
-     "a": "action_potential = depolarisation_phase + repolarisation_phase",
-     "self_check": true
+     "q": "For Action Potential Generation and Impulse Propagation: given depolarisation_phase = 5.8, repolarisation_phase = 6.7, find action potential.",
+     "a": "12.5",
+     "self_check": false
+    },
+    {
+     "q": "For Action Potential Generation and Impulse Propagation: given depolarisation_phase = 19.2, repolarisation_phase = 16, find action potential.",
+     "a": "35.2",
+     "self_check": false
     }
    ]
   },
   {
    "id": "kebo.18.3.5",
    "title": "Synaptic Impulse Transmission",
+   "converted_to_compute": true,
+   "formula": "synaptic_transmission = vesicle_fusion + neurotransmitter_binding",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "synaptic_transmission = vesicle_fusion + neurotransmitter_binding",
+     "compute": "synaptic_transmission = vesicle_fusion + neurotransmitter_binding"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Synaptic Impulse Transmission', work with: neurotransmitter_binding = 100, vesicle_fusion = 150. Carry the chain through step by step and give the final value of synaptic_transmission.",
-     "a": "250 units",
+     "q": "For Synaptic Impulse Transmission: given vesicle_fusion = 67, neurotransmitter_binding = 40, find synaptic transmission.",
+     "a": "107",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Synaptic Impulse Transmission' and work with: neurotransmitter_binding = 240, vesicle_fusion = 5. Carry the chain through step by step and give the final value of synaptic_transmission.",
-     "a": "245 units",
+     "q": "For Synaptic Impulse Transmission: given vesicle_fusion = 76, neurotransmitter_binding = 30, find synaptic transmission.",
+     "a": "106",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Synaptic Impulse Transmission' refers to.",
-     "a": "The specialized intercellular mechanism by which action potentials cross junctions between neurons via direct ionic flow or chemical ligand exocytosis.",
-     "self_check": true
+     "q": "For Synaptic Impulse Transmission: given vesicle_fusion = 75, neurotransmitter_binding = 30, find synaptic transmission.",
+     "a": "105",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Synaptic Impulse Transmission'.",
-     "a": "Chemical synapses convert electrical signals into chemical neurotransmitters that cross the cleft to open post-synaptic ion channels, while electrical synapses allow direct electrotonic continuity.",
-     "self_check": true
+     "q": "For Synaptic Impulse Transmission: given vesicle_fusion = 63, neurotransmitter_binding = 89, find synaptic transmission.",
+     "a": "152",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Synaptic Impulse Transmission', in plain ASCII form.",
-     "a": "synaptic_transmission = vesicle_fusion + neurotransmitter_binding",
-     "self_check": true
+     "q": "For Synaptic Impulse Transmission: given vesicle_fusion = 38, neurotransmitter_binding = 15.9, find synaptic transmission.",
+     "a": "53.9",
+     "self_check": false
+    },
+    {
+     "q": "For Synaptic Impulse Transmission: given vesicle_fusion = 30, neurotransmitter_binding = 50, find synaptic transmission.",
+     "a": "80",
+     "self_check": false
     }
    ]
   },
   {
    "id": "kebo.18.4.1",
    "title": "Cranial Meninges and Structural Envelopes of the Brain",
+   "converted_to_compute": true,
+   "formula": "cranial_meninges = dura_mater + arachnoid_mater + pia_mater",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "cranial_meninges = dura_mater + arachnoid_mater + pia_mater",
+     "compute": "cranial_meninges = dura_mater + arachnoid_mater + pia_mater"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Cranial Meninges and Structural Envelopes of the Brain', work with: arachnoid_mater = 25, dura_mater = 40, pia_mater = 18. Carry the chain through step by step and give the final value of cranial_meninges.",
-     "a": "83 units",
+     "q": "For Cranial Meninges and Structural Envelopes of the Brain: given dura_mater = 99, arachnoid_mater = 68, pia_mater = 22, find cranial meninges.",
+     "a": "189",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Cranial Meninges and Structural Envelopes of the Brain' and work with: arachnoid_mater = 30, dura_mater = 75, pia_mater = 4. Carry the chain through step by step and give the final value of cranial_meninges.",
-     "a": "109 units",
+     "q": "For Cranial Meninges and Structural Envelopes of the Brain: given dura_mater = 99, arachnoid_mater = 98, pia_mater = 67, find cranial meninges.",
+     "a": "264",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Cranial Meninges and Structural Envelopes of the Brain' refers to.",
-     "a": "The protective tripartite connective tissue covering encasing the brain beneath the cranial skeletal vault.",
-     "self_check": true
+     "q": "For Cranial Meninges and Structural Envelopes of the Brain: given dura_mater = 8.9, arachnoid_mater = 4.6, pia_mater = 33, find cranial meninges.",
+     "a": "46.5",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Cranial Meninges and Structural Envelopes of the Brain'.",
-     "a": "The human brain is shielded within the cranium by three meningeal sheets: tough outer dura mater, webbed middle arachnoid, and vascular inner pia mater.",
-     "self_check": true
+     "q": "For Cranial Meninges and Structural Envelopes of the Brain: given dura_mater = 5, arachnoid_mater = 7.7, pia_mater = 19.1, find cranial meninges.",
+     "a": "31.8",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Cranial Meninges and Structural Envelopes of the Brain', in plain ASCII form.",
-     "a": "cranial_meninges = dura_mater + arachnoid_mater + pia_mater",
-     "self_check": true
+     "q": "For Cranial Meninges and Structural Envelopes of the Brain: given dura_mater = 99, arachnoid_mater = 43, pia_mater = 12.1, find cranial meninges.",
+     "a": "154.1",
+     "self_check": false
+    },
+    {
+     "q": "For Cranial Meninges and Structural Envelopes of the Brain: given dura_mater = 73, arachnoid_mater = 64, pia_mater = 38, find cranial meninges.",
+     "a": "175",
+     "self_check": false
     }
    ]
   },
   {
    "id": "kebo.18.4.2",
    "title": "Forebrain Anatomy and Functional Centers",
+   "converted_to_compute": true,
+   "formula": "forebrain = cerebrum + thalamus + hypothalamus",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "forebrain = cerebrum + thalamus + hypothalamus",
+     "compute": "forebrain = cerebrum + thalamus + hypothalamus"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Forebrain Anatomy and Functional Centers', work with: cerebrum = 3, hypothalamus = 100, thalamus = 12. Carry the chain through step by step and give the final value of forebrain.",
-     "a": "115 units",
+     "q": "For Forebrain Anatomy and Functional Centers: given cerebrum = 81, thalamus = 90, hypothalamus = 85, find forebrain.",
+     "a": "256",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Forebrain Anatomy and Functional Centers' and work with: cerebrum = 6, hypothalamus = 10, thalamus = 80. Carry the chain through step by step and give the final value of forebrain.",
-     "a": "96 units",
+     "q": "For Forebrain Anatomy and Functional Centers: given cerebrum = 82, thalamus = 78, hypothalamus = 88, find forebrain.",
+     "a": "248",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Forebrain Anatomy and Functional Centers' refers to.",
-     "a": "The anterior subdivision of the brain comprising the cerebral hemispheres, thalamic sensory-motor relay hub, and the homeostatic hypothalamus.",
-     "self_check": true
+     "q": "For Forebrain Anatomy and Functional Centers: given cerebrum = 50, thalamus = 68, hypothalamus = 54, find forebrain.",
+     "a": "172",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Forebrain Anatomy and Functional Centers'.",
-     "a": "The cerebrum executes sensory, motor, and associational processing, while the thalamus relays signals and the hypothalamus coordinates vegetative balance and endocrine output.",
-     "self_check": true
+     "q": "For Forebrain Anatomy and Functional Centers: given cerebrum = 77, thalamus = 12, hypothalamus = 17.1, find forebrain.",
+     "a": "106.1",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Forebrain Anatomy and Functional Centers', in plain ASCII form.",
-     "a": "forebrain = cerebrum + thalamus + hypothalamus",
-     "self_check": true
+     "q": "For Forebrain Anatomy and Functional Centers: given cerebrum = 66, thalamus = 48, hypothalamus = 10.1, find forebrain.",
+     "a": "124.1",
+     "self_check": false
+    },
+    {
+     "q": "For Forebrain Anatomy and Functional Centers: given cerebrum = 72, thalamus = 8.8, hypothalamus = 55, find forebrain.",
+     "a": "135.8",
+     "self_check": false
     }
    ]
   },
   {
    "id": "kebo.18.4.3",
    "title": "Midbrain and Brainstem Architecture",
+   "converted_to_compute": true,
+   "formula": "brain_stem = midbrain + pons + medulla_oblongata",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "brain_stem = midbrain + pons + medulla_oblongata",
+     "compute": "brain_stem = midbrain + pons + medulla_oblongata"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Midbrain and Brainstem Architecture', work with: medulla_oblongata = 80, midbrain = 50, pons = 18. Carry the chain through step by step and give the final value of brain_stem.",
-     "a": "148 units",
+     "q": "For Midbrain and Brainstem Architecture: given midbrain = 70, pons = 6.6, medulla_oblongata = 74, find brain stem.",
+     "a": "150.6",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Midbrain and Brainstem Architecture' and work with: medulla_oblongata = 4, midbrain = 200, pons = 300. Carry the chain through step by step and give the final value of brain_stem.",
-     "a": "504 units",
+     "q": "For Midbrain and Brainstem Architecture: given midbrain = 73, pons = 22, medulla_oblongata = 35, find brain stem.",
+     "a": "130",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Midbrain and Brainstem Architecture' refers to.",
-     "a": "The intermediate conduit of the encephalon containing optic-auditory processing lobes and the cerebral aqueduct, forming an integral part of the brainstem.",
-     "self_check": true
+     "q": "For Midbrain and Brainstem Architecture: given midbrain = 57, pons = 47, medulla_oblongata = 95, find brain stem.",
+     "a": "199",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Midbrain and Brainstem Architecture'.",
-     "a": "The midbrain bridges forebrain and hindbrain through corpora quadrigemina lobes and the central aqueduct, collaborating with pons and medulla to form the brainstem.",
-     "self_check": true
+     "q": "For Midbrain and Brainstem Architecture: given midbrain = 5.2, pons = 13.4, medulla_oblongata = 23, find brain stem.",
+     "a": "41.6",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Midbrain and Brainstem Architecture', in plain ASCII form.",
-     "a": "brain_stem = midbrain + pons + medulla_oblongata",
-     "self_check": true
+     "q": "For Midbrain and Brainstem Architecture: given midbrain = 61, pons = 38, medulla_oblongata = 13.4, find brain stem.",
+     "a": "112.4",
+     "self_check": false
+    },
+    {
+     "q": "For Midbrain and Brainstem Architecture: given midbrain = 12.4, pons = 23, medulla_oblongata = 34, find brain stem.",
+     "a": "69.4",
+     "self_check": false
     }
    ]
   },
   {
    "id": "kebo.18.4.4",
    "title": "Hindbrain Organization and Autonomous Reflex Centers",
+   "converted_to_compute": true,
+   "formula": "hindbrain = pons + cerebellum + medulla_oblongata",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "hindbrain = pons + cerebellum + medulla_oblongata",
+     "compute": "hindbrain = pons + cerebellum + medulla_oblongata"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Hindbrain Organization and Autonomous Reflex Centers', work with: cerebellum = 25, medulla_oblongata = 360, pons = 24. Carry the chain through step by step and give the final value of hindbrain.",
-     "a": "409 units",
+     "q": "For Hindbrain Organization and Autonomous Reflex Centers: given pons = 85, cerebellum = 5.5, medulla_oblongata = 5.7, find hindbrain.",
+     "a": "96.2",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Hindbrain Organization and Autonomous Reflex Centers' and work with: cerebellum = 150, medulla_oblongata = 24, pons = 500. Carry the chain through step by step and give the final value of hindbrain.",
-     "a": "674 units",
+     "q": "For Hindbrain Organization and Autonomous Reflex Centers: given pons = 38, cerebellum = 55, medulla_oblongata = 60, find hindbrain.",
+     "a": "153",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Hindbrain Organization and Autonomous Reflex Centers' refers to.",
-     "a": "The posterior encephalic region comprising the cerebellum, pons, and medulla oblongata, responsible for motor coordination and visceral vegetative reflexes.",
-     "self_check": true
+     "q": "For Hindbrain Organization and Autonomous Reflex Centers: given pons = 15.9, cerebellum = 91, medulla_oblongata = 12.7, find hindbrain.",
+     "a": "119.6",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Hindbrain Organization and Autonomous Reflex Centers'.",
-     "a": "The cerebellum refines motor equilibrium, pons interconnects brain regions, and the medulla regulates cardiovascular, respiratory, and gastric reflexes.",
-     "self_check": true
+     "q": "For Hindbrain Organization and Autonomous Reflex Centers: given pons = 11.8, cerebellum = 94, medulla_oblongata = 29, find hindbrain.",
+     "a": "134.8",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Hindbrain Organization and Autonomous Reflex Centers', in plain ASCII form.",
-     "a": "hindbrain = pons + cerebellum + medulla_oblongata",
-     "self_check": true
+     "q": "For Hindbrain Organization and Autonomous Reflex Centers: given pons = 79, cerebellum = 70, medulla_oblongata = 86, find hindbrain.",
+     "a": "235",
+     "self_check": false
+    },
+    {
+     "q": "For Hindbrain Organization and Autonomous Reflex Centers: given pons = 14.8, cerebellum = 91, medulla_oblongata = 3.1, find hindbrain.",
+     "a": "108.9",
+     "self_check": false
     }
    ]
   }

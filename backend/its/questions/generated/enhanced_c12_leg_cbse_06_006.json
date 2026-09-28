@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_06_006",
+   "title": "c12_leg_cbse_06_006",
+   "questions": [
+    {
+     "q": "Define 'Industrial Property' as categorized under the TRIPS Agreement and the NCERT textbook, and list the four specific rights it encompasses.",
+     "a": "Industrial Property includes inventions (Patents), Trademarks, Industrial Designs, and Geographical Indications. A wrong answer (e.g., including Copyright or Trade Secrets in this list) reveals the student hasn't internalized the fundamental bifurcation of IP into 'Industrial Property' (protecting commercial/industrial assets) vs. 'Copyright' (protecting literary/artistic works), which is the scaffolding for the entire chapter.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why 'Novelty', 'Inventive Step', and 'Industrial Application' are the three pillars of patentability under the Patents Act, 1970, and how Section 3(k) creates a specific hurdle for software-related inventions in India.",
+     "a": "Novelty ensures the invention is new globally (absolute novelty); Inventive Step ensures it's not obvious to a person skilled in the art (non-obviousness); Industrial Application ensures utility. Section 3(k) excludes 'a mathematical or business method or a computer program per se or algorithms' from patentability. A wrong answer treating Section 3(k) as a blanket ban on software patents (ignoring the 'per se' qualifier and the 'technical effect' test from *Ferid Allani* guidelines) reveals a critical gap in applying the law to modern tech inventions — a frequent CUET/JEE trap.",
+     "self_check": true
+    },
+    {
+     "q": "A company 'GreenEarth' registers the trademark 'EcoPure' for water purifiers. A competitor launches 'EcoPureLife' for air purifiers. Apply the test for 'deceptive similarity' and 'likelihood of confusion' under the Trademarks Act, 1999 to advise GreenEarth.",
+     "a": "GreenEarth has a strong case for infringement under Sec 29. The test: (1) Visual/phonetic similarity: 'EcoPure' vs 'EcoPureLife' — shared dominant prefix 'EcoPure'. (2) Goods similarity: Water vs Air purifiers — both Class 11 (environmental control apparatus), closely related, same trade channels. (3) Likelihood of confusion: Average consumer may believe common source. A wrong answer focusing only on 'different goods' (water vs air) ignores the 'related goods' and 'nature of trade channels' analysis under *Kirloskar* / *Amritdhara* precedents, missing the expansion of trademark protection beyond identical goods.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the conflict between the 'fair dealing' exception (Sec 52 Copyright Act) for 'private use, research, criticism/review' and the 'three-step test' (Berne Convention Art 9(2), TRIPS Art 13) in the context of an EdTech platform scanning entire textbooks for 'AI training'.",
+     "a": "The three-step test requires: (1) Special case (specific exception), (2) No conflict with normal exploitation, (3) No unreasonable prejudice to legitimate interests. Scanning *entire* works for commercial AI training fails Step 2 (substitutes licensing market) and Step 3 (prejudices author's digital licensing revenue). Sec 52(1)(a)(i) 'private use' and (ii) 'criticism/review' require *transformative* use, not verbatim ingestion. A wrong answer claiming 'educational purpose = fair dealing' ignores the commercial scale and non-transformative nature, a major error in modern copyright litigation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Geographical Indication (GI) protection under the GI Act, 1999 is stronger than a Certification Trademark because it protects the *collective* reputation linked to *terroir* (geographical origin), cannot be licensed to outsiders, and is inalienable.\" Support with statutory provisions.",
+     "a": "The statement is largely correct. GI Act Sec 2(1)(e) defines GI linking quality/reputation to geographical origin. Sec 9: Registration gives exclusive right to authorized users. Sec 11: GI is not assignable/transmissible (inalienable). Certification TM (Trade Marks Act Sec 2(1)(e)) *can* be licensed/assigned and protects standards, not necessarily geographical essence. However, GI protection is *territorial* (India only) unless protected via Lisbon System/TRIPS Art 22/23. A wrong answer equating GI with Certification TM misses the *inalienability* and *terroir* link — the core policy distinction for protecting traditional knowledge/community rights.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario where a single product (e.g., a smartwatch) simultaneously attracts Patent, Design, Trademark, Copyright, and Trade Secret protection. Specify *exactly which feature* maps to *which right* and *why* they don't conflict.",
+     "a": "Scenario: 'FitPulse' Smartwatch. (1) **Patent**: Novel heart-rate sensor *algorithm* with technical effect (hardware integration) — protects functional invention. (2) **Design**: Unique *curved bezel shape* — protects aesthetic 'eye appeal' (Sec 2(d) Designs Act). (3) **Trademark**: Brand 'FitPulse' + logo — protects source identification. (4) **Copyright**: *Source code* of companion app + *UI graphics* — protects literary/artistic expression. (4) **Trade Secret**: *Manufacturing process* for sensor calibration (kept confidential) — protects undisclosed info with commercial value. No conflict: They protect *different aspects* (function, shape, brand, code, process) — the 'overlay' doctrine. A poor answer maps the *same feature* (e.g., shape) to both Design and Trademark without explaining 'secondary meaning' requirement for 3D TM, showing confusion between distinct subject matters.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

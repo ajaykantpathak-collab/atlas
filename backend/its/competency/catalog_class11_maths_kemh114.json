@@ -1,237 +1,388 @@
 {
-  "class": 11,
-  "subject": "maths",
-  "chapter": 114,
-  "chapter_title": "Probability",
-  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kemh114.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "concepts": [
+ "class": 11,
+ "subject": "maths",
+ "chapter": 114,
+ "chapter_title": "Probability",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kemh114.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kemh114.14.1.1",
+   "title": "Events as Subsets of the Sample Space",
+   "section": "14.1",
+   "definition": "Once a random experiment lists every possible outcome as a sample space S, any chosen subset of S counts as an event. The event happens when the experiment's actual outcome lands inside that subset; getting exactly one head in two coin tosses is the subset {HT, TH} of S = {HH, HT, TH, TT}.",
+   "formula": "",
+   "key_idea": "Sample space is the universe of outcomes; an event is any subset of it, and it occurs when the realized outcome belongs to the subset.",
+   "textbook_ref": "kemh114.txt lines 15-70 (section 14.1 and 14.1.1 occurrence of an event, two coin toss sample space, subsets as events)",
+   "question_patterns": [
+    "define an event in terms of the sample space",
+    "write the sample space for two tosses of a coin",
+    "in class 11 probability: express the event exactly one head as a subset",
+    "when do we say that an event has occurred",
+    "list the outcomes favourable to the given event",
+    "how many subsets does a sample space with n outcomes have"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "kemh114.14.1.1",
-      "title": "Events as Subsets of the Sample Space",
-      "section": "14.1",
-      "definition": "Once a random experiment lists every possible outcome as a sample space S, any chosen subset of S counts as an event. The event happens when the experiment's actual outcome lands inside that subset; getting exactly one head in two coin tosses is the subset {HT, TH} of S = {HH, HT, TH, TT}.",
-      "formula": "",
-      "key_idea": "Sample space is the universe of outcomes; an event is any subset of it, and it occurs when the realized outcome belongs to the subset.",
-      "textbook_ref": "kemh114.txt lines 15-70 (section 14.1 and 14.1.1 occurrence of an event, two coin toss sample space, subsets as events)",
-      "question_patterns": [
-        "define an event in terms of the sample space",
-        "write the sample space for two tosses of a coin",
-        "in class 11 probability: express the event exactly one head as a subset",
-        "when do we say that an event has occurred",
-        "list the outcomes favourable to the given event",
-        "how many subsets does a sample space with n outcomes have"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "build the sample space", "explain": "Enumerate every outcome of the experiment -- for two coins that is HH, HT, TH, TT."},
-        {"step": 2, "action": "pick out the favourable subset", "explain": "Collect the outcomes matching the event's description; this subset is the event."},
-        {"step": 3, "action": "test occurrence", "explain": "The event occurs exactly when the observed outcome is one of the subset's elements."}
-      ]
+     "step": 1,
+     "action": "build the sample space",
+     "explain": "Enumerate every outcome of the experiment -- for two coins that is HH, HT, TH, TT."
     },
     {
-      "id": "kemh114.14.1.2",
-      "title": "Types of Events: Simple, Compound, Sure and Impossible",
-      "section": "14.1.2",
-      "definition": "Events come in types: a simple event holds exactly one sample point, a compound event holds two or more. The empty set is the impossible event (it can never happen), the full sample space is the sure event (it always happens), and elementary events are the single-outcome atoms that build everything else.",
-      "formula": "",
-      "key_idea": "One outcome = simple; many outcomes = compound; empty = impossible; the whole space = sure.",
-      "textbook_ref": "kemh114.txt lines 71-140 (section 14.1.2 types of events, impossible and sure events, simple and compound events)",
-      "question_patterns": [
-        "classify the given events as simple or compound",
-        "which event of a random experiment is called impossible and why",
-        "in class 11 probability: what is a sure event",
-        "distinguish an elementary event from a compound event",
-        "why does the empty set represent an impossible event",
-        "give an example of a compound event in a die experiment"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "count the sample points", "explain": "Check how many outcomes of S the event contains."},
-        {"step": 2, "action": "apply the size classification", "explain": "Exactly one point makes it simple (elementary); more than one makes it compound."},
-        {"step": 3, "action": "check the extremes", "explain": "The empty subset can contain no outcome, so it is impossible; S itself contains every outcome, so it is sure."}
-      ]
+     "step": 2,
+     "action": "pick out the favourable subset",
+     "explain": "Collect the outcomes matching the event's description; this subset is the event."
     },
     {
-      "id": "kemh114.14.1.3",
-      "title": "Mutually Exclusive and Exhaustive Events",
-      "section": "14.1.4, 14.1.5",
-      "definition": "Events are mutually exclusive when no outcome belongs to two of them at once, so they cannot both fire in one run of the experiment. They are exhaustive when together they cover every outcome of the sample space. In a die roll, the events 'even number' and 'odd number' are both mutually exclusive and exhaustive.",
-      "formula": "",
-      "key_idea": "Exclusive means disjoint subsets; exhaustive means their union is the whole sample space -- a set-theoretic double test.",
-      "textbook_ref": "kemh114.txt lines 141-220 (sections 14.1.3 algebra of events, 14.1.4 mutually exclusive, 14.1.5 exhaustive events, die examples)",
-      "question_patterns": [
-        "determine whether two given events are mutually exclusive",
-        "when do events form an exhaustive system",
-        "in class 11 probability: can two mutually exclusive events occur together",
-        "check whether the given events are exhaustive as well as exclusive",
-        "give a die example of mutually exclusive and exhaustive events",
-        "how does the union of exhaustive events relate to the sample space"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "intersect the event sets", "explain": "If the common outcomes are none, the events are mutually exclusive."},
-        {"step": 2, "action": "union the event sets", "explain": "If the union equals the full sample space, the events are exhaustive."},
-        {"step": 3, "action": "state both verdicts", "explain": "Both tests are independent -- a family can be exclusive, exhaustive, both or neither."}
-      ]
-    },
-    {
-      "id": "kemh114.14.2.1",
-      "title": "Probability of Equally Likely Outcomes",
-      "section": "14.2.2",
-      "definition": "When every outcome of the sample space is equally likely, the probability of an event is the count of outcomes favourable to it divided by the total count of outcomes in S. This ratio always sits between 0 and 1, hitting 0 for impossible events and 1 for sure ones.",
-      "formula": "prob = good_count / total_outcomes",
-      "key_idea": "Favourable over total -- the classical probability ratio for symmetric experiments like dice, coins and cards.",
-      "textbook_ref": "kemh114.txt lines 221-300 (sections 14.2, 14.2.1, 14.2.2 axiomatic approach, probabilities of equally likely outcomes, bounds 0 to 1)",
-      "question_patterns": [
-        "find the probability of the given event with equally likely outcomes",
-        "a die is rolled once, what is the chance of the described outcome",
-        "in class 11 probability: state the classical formula for probability",
-        "a card is drawn from a well shuffled deck, find the probability it is a king",
-        "what are the minimum and maximum values a probability can take",
-        "two coins are tossed together, compute the probability of the given event"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "count favourable outcomes", "explain": "List the subset of S matching the event and count its size.",
-         "compute": "good_count = favourable_n"},
-        {"step": 2, "action": "divide by the total count", "explain": "The ratio of favourable outcomes to all outcomes is the event's probability.",
-         "compute": "prob = good_count / total_outcomes"}
-      ]
-    },
-    {
-      "id": "kemh114.14.2.2",
-      "title": "Probability of the Event 'A or B'",
-      "section": "14.2.3",
-      "definition": "For events A and B, the chance that at least one occurs is P(A) plus P(B) minus P(A and B); the subtraction removes the overlap that would otherwise be counted twice. When A and B are mutually exclusive the overlap term is zero and the probabilities simply add.",
-      "formula": "prob_or = prob_a + prob_b - prob_both",
-      "key_idea": "Add the two chances, then pay back the double-counted overlap -- or skip the payback when the events cannot coincide.",
-      "textbook_ref": "kemh114.txt lines 301-380 (section 14.2.3 probability of the event 'A or B', addition theorem, mutually exclusive case)",
-      "question_patterns": [
-        "find the probability that event A or event B occurs",
-        "calculate P of A union B from the separate probabilities",
-        "in class 11 probability: state the addition rule for two events",
-        "why is P(A and B) subtracted in the addition theorem",
-        "what does the rule become for mutually exclusive events",
-        "a card drawn is a heart or a king, find the probability"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "add the two event probabilities", "explain": "P(A) + P(B) counts every shared outcome twice.",
-         "compute": "added = prob_a + prob_b"},
-        {"step": 2, "action": "remove the overlap once", "explain": "Subtracting P(A and B) leaves each outcome counted exactly once.",
-         "compute": "prob_or = added - prob_both"}
-      ]
-    },
-    {
-      "id": "kemh114.14.2.3",
-      "title": "Probability of the Event 'Not A' (Complement)",
-      "section": "14.2.4",
-      "definition": "The complement of event A, written 'not A', gathers every sample point outside A; its probability is one minus the probability of A. Since A and its complement are mutually exclusive and together exhaustive, their probabilities must total exactly 1.",
-      "formula": "prob_not = 1 - prob_e",
-      "key_idea": "Whatever the event does not take, the complement takes -- so the two probabilities split the whole 1 between them.",
-      "textbook_ref": "kemh114.txt lines 381-450 (section 14.2.4 probability of the event 'not A', complement rule, P(A) + P(not A) = 1)",
-      "question_patterns": [
-        "find the probability that event A does not occur",
-        "given P(A), compute the probability of the complement",
-        "in class 11 probability: why must P(A) plus P(not A) equal 1",
-        "at least one head is the complement of no heads, find its probability",
-        "what is the probability of not drawing a king from a deck",
-        "use the complement rule to avoid counting many cases"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "subtract from one", "explain": "The complement rule converts 'not A' into a single subtraction.",
-         "compute": "prob_not = 1 - prob_e"}
-      ]
+     "step": 3,
+     "action": "test occurrence",
+     "explain": "The event occurs exactly when the observed outcome is one of the subset's elements."
     }
-  ],
-  "worked_examples": [
+   ],
+   "compute_steps": [
     {
-      "id": "we1",
-      "source_ref": "kemh114.txt lines 221-300 (equally likely outcomes)",
-      "concept": "kemh114.14.2.1",
-      "question_type": "compute",
-      "question_pattern": "A fair die with {total_outcomes} faces is rolled once; find the probability of getting one of the {favourable_n} favourable results.",
-      "extracted_variables": {"total_outcomes": 6, "favourable_n": 3},
-      "solution_template": [
-        {"step": 1, "action": "count favourable outcomes", "explain": "For 'an even number', the favourable set is {2, 4, 6}, size 3.", "compute": "good_count = favourable_n"},
-        {"step": 2, "action": "divide by the total count", "explain": "prob = 3/6 = 0.5.", "compute": "prob = good_count / total_outcomes"}
-      ]
-    },
-    {
-      "id": "we2",
-      "source_ref": "kemh114.txt lines 221-300 (equally likely outcomes)",
-      "concept": "kemh114.14.2.1",
-      "question_type": "compute",
-      "question_pattern": "One card is drawn from a deck of {total_outcomes} cards; find the chance it is one of the {favourable_n} kings.",
-      "extracted_variables": {"total_outcomes": 52, "favourable_n": 4},
-      "solution_template": [
-        {"step": 1, "action": "count favourable outcomes", "explain": "There are 4 kings in the deck.", "compute": "good_count = favourable_n"},
-        {"step": 2, "action": "divide by the total count", "explain": "prob = 4/52, about 0.0769.", "compute": "prob = good_count / total_outcomes"}
-      ]
-    },
-    {
-      "id": "we3",
-      "source_ref": "kemh114.txt lines 301-380 (addition rule)",
-      "concept": "kemh114.14.2.2",
-      "question_type": "compute",
-      "question_pattern": "Given P(A) = {prob_a}, P(B) = {prob_b} and P(A and B) = {prob_both}, find P(A or B).",
-      "extracted_variables": {"prob_a": 0.5, "prob_b": 0.3, "prob_both": 0.2},
-      "solution_template": [
-        {"step": 1, "action": "add the two event probabilities", "explain": "added = 0.5 + 0.3 = 0.8.", "compute": "added = prob_a + prob_b"},
-        {"step": 2, "action": "remove the overlap once", "explain": "prob_or = 0.8 - 0.2 = 0.6.", "compute": "prob_or = added - prob_both"}
-      ]
-    },
-    {
-      "id": "we4",
-      "source_ref": "kemh114.txt lines 301-380 (addition rule, mutually exclusive case)",
-      "concept": "kemh114.14.2.2",
-      "question_type": "compute",
-      "question_pattern": "Events A and B are mutually exclusive with P(A) = {prob_a} and P(B) = {prob_b} (overlap {prob_both}); find P(A or B).",
-      "extracted_variables": {"prob_a": 0.4, "prob_b": 0.35, "prob_both": 0},
-      "solution_template": [
-        {"step": 1, "action": "add the two event probabilities", "explain": "added = 0.4 + 0.35 = 0.75.", "compute": "added = prob_a + prob_b"},
-        {"step": 2, "action": "remove the overlap once", "explain": "Exclusive events share nothing, so prob_or = 0.75 - 0 = 0.75.", "compute": "prob_or = added - prob_both"}
-      ]
-    },
-    {
-      "id": "we5",
-      "source_ref": "kemh114.txt lines 381-450 (complement rule)",
-      "concept": "kemh114.14.2.3",
-      "question_type": "compute",
-      "question_pattern": "In two coin tosses, P(no head) = {prob_e}; find the probability of at least one head.",
-      "extracted_variables": {"prob_e": 0.25},
-      "solution_template": [
-        {"step": 1, "action": "subtract from one", "explain": "prob_not = 1 - 0.25 = 0.75.", "compute": "prob_not = 1 - prob_e"}
-      ]
-    },
-    {
-      "id": "we6",
-      "source_ref": "kemh114.txt lines 381-450 (complement rule)",
-      "concept": "kemh114.14.2.3",
-      "question_type": "compute",
-      "question_pattern": "P(drawing a king) = {prob_e}; find the probability the card drawn is not a king.",
-      "extracted_variables": {"prob_e": 0.0769},
-      "solution_template": [
-        {"step": 1, "action": "subtract from one", "explain": "prob_not = 1 - 0.0769 = 0.9231.", "compute": "prob_not = 1 - prob_e"}
-      ]
+     "step": 1,
+     "action": "divide favourable outcomes by total outcomes",
+     "explain": "divide favourable outcomes by total outcomes: p = 2 / 6 gives 0.333333",
+     "compute": "p = 2 / 6"
     }
-  ],
-  "exercises": [
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "kemh114.14.1.2",
+   "title": "Types of Events: Simple, Compound, Sure and Impossible",
+   "section": "14.1.2",
+   "definition": "Events come in types: a simple event holds exactly one sample point, a compound event holds two or more. The empty set is the impossible event (it can never happen), the full sample space is the sure event (it always happens), and elementary events are the single-outcome atoms that build everything else.",
+   "formula": "",
+   "key_idea": "One outcome = simple; many outcomes = compound; empty = impossible; the whole space = sure.",
+   "textbook_ref": "kemh114.txt lines 71-140 (section 14.1.2 types of events, impossible and sure events, simple and compound events)",
+   "question_patterns": [
+    "classify the given events as simple or compound",
+    "which event of a random experiment is called impossible and why",
+    "in class 11 probability: what is a sure event",
+    "distinguish an elementary event from a compound event",
+    "why does the empty set represent an impossible event",
+    "give an example of a compound event in a die experiment"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "ex1",
-      "source_ref": "kemh114.txt end-of-chapter exercises, reworded",
-      "questions": [
-        "Describe the sample space for the given random experiment (coin and die combinations).",
-        "Write the event in set form and find its probability for a die experiment.",
-        "Three coins are tossed; find the probability of at least two heads.",
-        "A die is rolled; let E be the event 'a number greater than 4'; find P(E).",
-        "Check whether the pairs of given events are mutually exclusive.",
-        "Check whether the given events are mutually exclusive and exhaustive.",
-        "A card is drawn from a deck; find the probability that it is a spade or an ace.",
-        "If P(A) = 0.6, find P(not A) and state the axiom used."
-      ]
+     "step": 1,
+     "action": "count the sample points",
+     "explain": "Check how many outcomes of S the event contains."
+    },
+    {
+     "step": 2,
+     "action": "apply the size classification",
+     "explain": "Exactly one point makes it simple (elementary); more than one makes it compound."
+    },
+    {
+     "step": 3,
+     "action": "check the extremes",
+     "explain": "The empty subset can contain no outcome, so it is impossible; S itself contains every outcome, so it is sure."
     }
-  ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the simple or compound interest formula",
+     "explain": "apply the simple or compound interest formula: si = 2500 * 5 * 3 / 100 gives 375",
+     "compute": "si = 2500 * 5 * 3 / 100"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "kemh114.14.1.3",
+   "title": "Mutually Exclusive and Exhaustive Events",
+   "section": "14.1.4, 14.1.5",
+   "definition": "Events are mutually exclusive when no outcome belongs to two of them at once, so they cannot both fire in one run of the experiment. They are exhaustive when together they cover every outcome of the sample space. In a die roll, the events 'even number' and 'odd number' are both mutually exclusive and exhaustive.",
+   "formula": "",
+   "key_idea": "Exclusive means disjoint subsets; exhaustive means their union is the whole sample space -- a set-theoretic double test.",
+   "textbook_ref": "kemh114.txt lines 141-220 (sections 14.1.3 algebra of events, 14.1.4 mutually exclusive, 14.1.5 exhaustive events, die examples)",
+   "question_patterns": [
+    "determine whether two given events are mutually exclusive",
+    "when do events form an exhaustive system",
+    "in class 11 probability: can two mutually exclusive events occur together",
+    "check whether the given events are exhaustive as well as exclusive",
+    "give a die example of mutually exclusive and exhaustive events",
+    "how does the union of exhaustive events relate to the sample space"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "intersect the event sets",
+     "explain": "If the common outcomes are none, the events are mutually exclusive."
+    },
+    {
+     "step": 2,
+     "action": "union the event sets",
+     "explain": "If the union equals the full sample space, the events are exhaustive."
+    },
+    {
+     "step": 3,
+     "action": "state both verdicts",
+     "explain": "Both tests are independent -- a family can be exclusive, exhaustive, both or neither."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "divide favourable outcomes by total outcomes",
+     "explain": "divide favourable outcomes by total outcomes: p = 4 / 6 gives 0.666667",
+     "compute": "p = 4 / 6"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "kemh114.14.2.1",
+   "title": "Probability of Equally Likely Outcomes",
+   "section": "14.2.2",
+   "definition": "When every outcome of the sample space is equally likely, the probability of an event is the count of outcomes favourable to it divided by the total count of outcomes in S. This ratio always sits between 0 and 1, hitting 0 for impossible events and 1 for sure ones.",
+   "formula": "prob = good_count / total_outcomes",
+   "key_idea": "Favourable over total -- the classical probability ratio for symmetric experiments like dice, coins and cards.",
+   "textbook_ref": "kemh114.txt lines 221-300 (sections 14.2, 14.2.1, 14.2.2 axiomatic approach, probabilities of equally likely outcomes, bounds 0 to 1)",
+   "question_patterns": [
+    "find the probability of the given event with equally likely outcomes",
+    "a die is rolled once, what is the chance of the described outcome",
+    "in class 11 probability: state the classical formula for probability",
+    "a card is drawn from a well shuffled deck, find the probability it is a king",
+    "what are the minimum and maximum values a probability can take",
+    "two coins are tossed together, compute the probability of the given event"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count favourable outcomes",
+     "explain": "List the subset of S matching the event and count its size.",
+     "compute": "good_count = favourable_n"
+    },
+    {
+     "step": 2,
+     "action": "divide by the total count",
+     "explain": "The ratio of favourable outcomes to all outcomes is the event's probability.",
+     "compute": "prob = good_count / total_outcomes"
+    }
+   ]
+  },
+  {
+   "id": "kemh114.14.2.2",
+   "title": "Probability of the Event 'A or B'",
+   "section": "14.2.3",
+   "definition": "For events A and B, the chance that at least one occurs is P(A) plus P(B) minus P(A and B); the subtraction removes the overlap that would otherwise be counted twice. When A and B are mutually exclusive the overlap term is zero and the probabilities simply add.",
+   "formula": "prob_or = prob_a + prob_b - prob_both",
+   "key_idea": "Add the two chances, then pay back the double-counted overlap -- or skip the payback when the events cannot coincide.",
+   "textbook_ref": "kemh114.txt lines 301-380 (section 14.2.3 probability of the event 'A or B', addition theorem, mutually exclusive case)",
+   "question_patterns": [
+    "find the probability that event A or event B occurs",
+    "calculate P of A union B from the separate probabilities",
+    "in class 11 probability: state the addition rule for two events",
+    "why is P(A and B) subtracted in the addition theorem",
+    "what does the rule become for mutually exclusive events",
+    "a card drawn is a heart or a king, find the probability"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the two event probabilities",
+     "explain": "P(A) + P(B) counts every shared outcome twice.",
+     "compute": "added = prob_a + prob_b"
+    },
+    {
+     "step": 2,
+     "action": "remove the overlap once",
+     "explain": "Subtracting P(A and B) leaves each outcome counted exactly once.",
+     "compute": "prob_or = added - prob_both"
+    }
+   ]
+  },
+  {
+   "id": "kemh114.14.2.3",
+   "title": "Probability of the Event 'Not A' (Complement)",
+   "section": "14.2.4",
+   "definition": "The complement of event A, written 'not A', gathers every sample point outside A; its probability is one minus the probability of A. Since A and its complement are mutually exclusive and together exhaustive, their probabilities must total exactly 1.",
+   "formula": "prob_not = 1 - prob_e",
+   "key_idea": "Whatever the event does not take, the complement takes -- so the two probabilities split the whole 1 between them.",
+   "textbook_ref": "kemh114.txt lines 381-450 (section 14.2.4 probability of the event 'not A', complement rule, P(A) + P(not A) = 1)",
+   "question_patterns": [
+    "find the probability that event A does not occur",
+    "given P(A), compute the probability of the complement",
+    "in class 11 probability: why must P(A) plus P(not A) equal 1",
+    "at least one head is the complement of no heads, find its probability",
+    "what is the probability of not drawing a king from a deck",
+    "use the complement rule to avoid counting many cases"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract from one",
+     "explain": "The complement rule converts 'not A' into a single subtraction.",
+     "compute": "prob_not = 1 - prob_e"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "kemh114.txt lines 221-300 (equally likely outcomes)",
+   "concept": "kemh114.14.2.1",
+   "question_type": "compute",
+   "question_pattern": "A fair die with {total_outcomes} faces is rolled once; find the probability of getting one of the {favourable_n} favourable results.",
+   "extracted_variables": {
+    "total_outcomes": 6,
+    "favourable_n": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count favourable outcomes",
+     "explain": "For 'an even number', the favourable set is {2, 4, 6}, size 3.",
+     "compute": "good_count = favourable_n"
+    },
+    {
+     "step": 2,
+     "action": "divide by the total count",
+     "explain": "prob = 3/6 = 0.5.",
+     "compute": "prob = good_count / total_outcomes"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "kemh114.txt lines 221-300 (equally likely outcomes)",
+   "concept": "kemh114.14.2.1",
+   "question_type": "compute",
+   "question_pattern": "One card is drawn from a deck of {total_outcomes} cards; find the chance it is one of the {favourable_n} kings.",
+   "extracted_variables": {
+    "total_outcomes": 52,
+    "favourable_n": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count favourable outcomes",
+     "explain": "There are 4 kings in the deck.",
+     "compute": "good_count = favourable_n"
+    },
+    {
+     "step": 2,
+     "action": "divide by the total count",
+     "explain": "prob = 4/52, about 0.0769.",
+     "compute": "prob = good_count / total_outcomes"
+    }
+   ]
+  },
+  {
+   "id": "we3",
+   "source_ref": "kemh114.txt lines 301-380 (addition rule)",
+   "concept": "kemh114.14.2.2",
+   "question_type": "compute",
+   "question_pattern": "Given P(A) = {prob_a}, P(B) = {prob_b} and P(A and B) = {prob_both}, find P(A or B).",
+   "extracted_variables": {
+    "prob_a": 0.5,
+    "prob_b": 0.3,
+    "prob_both": 0.2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the two event probabilities",
+     "explain": "added = 0.5 + 0.3 = 0.8.",
+     "compute": "added = prob_a + prob_b"
+    },
+    {
+     "step": 2,
+     "action": "remove the overlap once",
+     "explain": "prob_or = 0.8 - 0.2 = 0.6.",
+     "compute": "prob_or = added - prob_both"
+    }
+   ]
+  },
+  {
+   "id": "we4",
+   "source_ref": "kemh114.txt lines 301-380 (addition rule, mutually exclusive case)",
+   "concept": "kemh114.14.2.2",
+   "question_type": "compute",
+   "question_pattern": "Events A and B are mutually exclusive with P(A) = {prob_a} and P(B) = {prob_b} (overlap {prob_both}); find P(A or B).",
+   "extracted_variables": {
+    "prob_a": 0.4,
+    "prob_b": 0.35,
+    "prob_both": 0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add the two event probabilities",
+     "explain": "added = 0.4 + 0.35 = 0.75.",
+     "compute": "added = prob_a + prob_b"
+    },
+    {
+     "step": 2,
+     "action": "remove the overlap once",
+     "explain": "Exclusive events share nothing, so prob_or = 0.75 - 0 = 0.75.",
+     "compute": "prob_or = added - prob_both"
+    }
+   ]
+  },
+  {
+   "id": "we5",
+   "source_ref": "kemh114.txt lines 381-450 (complement rule)",
+   "concept": "kemh114.14.2.3",
+   "question_type": "compute",
+   "question_pattern": "In two coin tosses, P(no head) = {prob_e}; find the probability of at least one head.",
+   "extracted_variables": {
+    "prob_e": 0.25
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract from one",
+     "explain": "prob_not = 1 - 0.25 = 0.75.",
+     "compute": "prob_not = 1 - prob_e"
+    }
+   ]
+  },
+  {
+   "id": "we6",
+   "source_ref": "kemh114.txt lines 381-450 (complement rule)",
+   "concept": "kemh114.14.2.3",
+   "question_type": "compute",
+   "question_pattern": "P(drawing a king) = {prob_e}; find the probability the card drawn is not a king.",
+   "extracted_variables": {
+    "prob_e": 0.0769
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract from one",
+     "explain": "prob_not = 1 - 0.0769 = 0.9231.",
+     "compute": "prob_not = 1 - prob_e"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "kemh114.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "Describe the sample space for the given random experiment (coin and die combinations).",
+    "Write the event in set form and find its probability for a die experiment.",
+    "Three coins are tossed; find the probability of at least two heads.",
+    "A die is rolled; let E be the event 'a number greater than 4'; find P(E).",
+    "Check whether the pairs of given events are mutually exclusive.",
+    "Check whether the given events are mutually exclusive and exhaustive.",
+    "A card is drawn from a deck; find the probability that it is a spade or an ace.",
+    "If P(A) = 0.6, find P(not A) and state the axiom used."
+   ]
+  }
+ ]
 }

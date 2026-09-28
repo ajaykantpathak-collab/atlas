@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_13_006",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_13_006",
+   "title": "c12_leg_cbse_13_006",
+   "questions": [
+    {
+     "q": "What single category of legal practitioners was created by the Advocates Act, 1961 by consolidating vakils, barristers, pleaders, and mukhtars?",
+     "a": "The Advocates Act, 1961 created the unified category of \"advocates.\" A wrong answer (e.g., \"lawyers\" or \"attorneys\") reveals the student confuses the statutory term with generic usage — the Act specifically uses \"advocate\" as a defined legal term (Section 2(1)(a)), and only enrolled advocates have the statutory right to practice under Section 30.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a law graduate with an LL.B. degree from a recognized Indian university cannot immediately file a vakalatnama in the Supreme Court after passing the AIBE and enrolling with a State Bar Council.",
+     "a": "Filing a vakalatnama in the Supreme Court requires Advocate-on-Record (AOR) status, which demands: (a) 4 years of practice as an advocate; (b) 1-year training under a Senior AOR; (c) passing the Supreme Court's AOR examination; (d) maintaining an office within 10 miles of the Court with a registered clerk. A wrong answer reveals the student conflates general practice rights (Section 30: practice in all courts) with the special procedural privilege of filing in the Supreme Court, which is restricted to AORs under Order IV of the Supreme Court Rules, 2013.",
+     "self_check": true
+    },
+    {
+     "q": "A foreign law graduate from a UK university wants to practice in India. Her degree is on the BCI's recognized list. Her country has a reciprocity agreement with India. She has not taken the AIBE. Can she practice? Apply the Advocates Act, 1961 and BCI rules.",
+     "a": "No. Section 24(1)(c) of the Advocates Act requires passing the AIBE for enrollment. The reciprocity provision (Section 24(1)(d)) only relaxes the degree recognition requirement, not the AIBE. A wrong answer shows the student misunderstands that reciprocity applies to qualification recognition, not the licensing examination — the AIBE is a mandatory condition for all applicants, Indian or foreign, since the 2010 amendment.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the advertising restrictions on Indian advocates (BCI Rules) with the US Model Rules (Rule 7.1-7.3). Analyze which regime better balances \"commercial speech\" (Article 19(1)(a)) and \"dignity of the profession\" — the core tension in Indian jurisprudence.",
+     "a": "India's near-total ban (only 5 permitted website details) prioritizes professional dignity over commercial speech, treating law as a \"noble profession\" above trade. The US Model Rules permit truthful, non-misleading advertising (Rule 7.1), regulated solicitation (Rule 7.3), and even class-action outreach — treating legal services as commercial speech protected by the First Amendment. The Indian approach is more restrictive; the US approach better balances access to justice (public's right to know) with ethical guardrails against deception. A wrong answer reveals the student cannot articulate the constitutional trade-off: Article 19(1)(a) vs. Article 19(6) reasonable restrictions, and misses that the Supreme Court in *Indian Council of Legal Aid & Advice v. Bar Council of India* (1995) upheld the ban but left room for reform.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"The Legal Practitioners (Women) Act, 1923 was a complete victory for gender equality in the legal profession.\" Use data from the NCERT text (15.3% women lawyers in 2022) and structural barriers.",
+     "a": "The 1923 Act removed the *legal* bar but not *structural* barriers: (1) Patriarchal court culture (Calcutta/Patna HCs initially rejected women); (2) Persistent gender bias in litigation chambers and bench appointments; (3) 15.3% representation in 2022 (Law Ministry data) shows massive underrepresentation; (4) Corporate law is improving but litigation remains male-dominated. The Act was necessary but not sufficient. A wrong answer treats formal legal equality as substantive equality, ignoring the NCERT's explicit note that \"gender bias still pervades the profession.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-step career roadmap for a Class 12 student today who wants to become an Advocate-on-Record in the Supreme Court of India. Include timelines, exams, and mandatory requirements at each stage.",
+     "a": "A strong answer includes: (1) Clear CLAT/AILET/LSAT → 5-year integrated LL.B. (2025-2030); (2) Pass AIBE within 2 years of graduation (by 2032) → enroll with State Bar Council; (3) Practice 4 years under a Senior Advocate (2030-2034); (4) 1-year AOR training under a Senior AOR (2034-2035); (5) Pass Supreme Court AOR exam (2035) → register office within 10 miles + clerk → become AOR. A poor answer misses the AIBE, the 4-year practice prerequisite, or the office/clerk requirement — showing ignorance of the sequential, gatekept nature of the AOR pathway.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

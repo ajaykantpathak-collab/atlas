@@ -34,6 +34,26 @@
      "q": "Create a real-life scenario (Indian context) with a small data set (5–7 values) where the mode is the only meaningful measure of central tendency, and the mean and median are either impossible to calculate or misleading. Explain your reasoning.",
      "a": "Example: Favourite ice cream flavours voted by 6 students: \"Mango\", \"Chocolate\", \"Mango\", \"Vanilla\", \"Mango\", \"Butterscotch\". Data is categorical → mean/median undefined. Mode = \"Mango\". Or numerical but multimodal with no centre: Number of siblings: 0, 0, 5, 5, 5, 10, 10. Mean ≈ 5, median = 5, but modes are 0, 5, 10 – no single typical value. A poor answer uses numerical symmetric data, showing confusion about mode's purpose.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The choice of the best measure of central tendency (mean, median, or mode) depends on the data ______ and the presence of outliers.",
+     "a": "distribution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Most students ______ between 35 and 45, but one student was absent and got 0, and the topper got 50.",
+     "a": "scored",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your class took a math test scored out of ______.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can analyse a given data set (raw or in a frequency table), identify its shape (symmetric, skewed) and outliers, and justify which measure of central tendency (mean, median, or mode) best represents the typical value.",
+     "self_check": true
     }
    ]
   }

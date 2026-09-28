@@ -34,6 +34,31 @@
      "q": "Create a real-world problem (Indian context) that can be modeled by a geometric progression where you need to find the 8th term. Write the problem, identify a and r, and solve it.",
      "a": "Example: \"A bacteria culture doubles every hour. If initially there are 500 bacteria, how many after 8 hours?\" Here a=500, r=2, n=8 (after 8 hours means 8th term if initial is term 1). a_8 = 500 * 2^7 = 500 * 128 = 64,000 bacteria. A poor answer might use n=7 (confusing \"after 8 hours\" with term number) or use addition instead of multiplication, showing inability to translate context to GP model.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A geometric ______ (GP) is a sequence where each term after the first is obtained by multiplying the preceding term by a fixed non-zero constant called the common ratio (r).",
+     "a": "progression",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you invest ₹100 in a scheme that ______ your money every year.",
+     "a": "doubles",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The nth term of a GP with first term a and common ratio r is given by the explicit formula a_n = a * r^(n-______), where n is a positive integer representing the position of the term in the sequence.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive and apply the nth term formula a_n = a * r^(n-1) to find any term in a GP, determine the first term or common ratio when given two terms, and solve word problems involving exponential growth/decay modeled by GP.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you invest ₹100 in a scheme that doubles your money every year.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

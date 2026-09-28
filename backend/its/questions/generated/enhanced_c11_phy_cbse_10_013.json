@@ -34,6 +34,31 @@
      "q": "Design a tabletop experiment using a clear rectangular container, water, food coloring (or potassium permanganate), and a small candle to visualize a convection cell. Describe the setup, the expected observation, and how it proves convection involves bulk fluid motion.",
      "a": "Setup: Fill container with cold water. Place candle under one bottom corner. Drop a crystal of dye near the candle at the bottom. Observation: Dye rises rapidly in a narrow plume above the candle, curves across the top, descends on the opposite side, and flows along the bottom back to the candle. This visible dye *stream* traces the bulk velocity field of the fluid, proving heat is transferred by moving fluid parcels, not just diffusion. A poor answer that only says \"water gets hot\" or suggests stirring manually misses the self-sustaining, buoyancy-driven nature of the flow.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Convection is a mode of heat transfer in fluids (liquids and gases) where thermal energy is ______ by the bulk motion of the fluid itself, driven by density differences arising from temperature gradients.",
+     "a": "transported",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a pot of water heating on a stove: bubbles form at the bottom and rise vigorously, while the water appears to ______.",
+     "a": "circulate",
+     "self_check": true
+    },
+    {
+     "q": "What is Convection? State the definition given in this lesson.",
+     "a": "Convection is a mode of heat transfer in fluids (liquids and gases) where thermal energy is transported by the bulk motion of the fluid itself, driven by density differences arising from temperature gradients.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Convection?",
+     "a": "Students often believe convection occurs in solids (e.g., \"heat convects through the metal spoon\") because they see heat \"travel\" from the hot to the cold end.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the physical mechanism of natural convection using density and buoyancy, distinguish between natural and forced convection with real-world examples, and predict the direction of convection currents in simple geometries (e.g., room heating, water boiling, atmospheric breezes).",
+     "self_check": true
     }
    ]
   }

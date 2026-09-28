@@ -34,6 +34,31 @@
      "q": "Design a simple school-garden experiment to test whether a given flowering plant (e.g., petunia) is self-pollinated or cross-pollinated. List the steps, the control, and the expected observation for each case.",
      "a": "Steps: (1) Tag 10 buds before opening. (2) Bag 5 buds with fine mesh (prevents insect entry) — these are self-pollination test. (3) Leave 5 buds open (control — natural pollination). (4) After fruit set, collect seeds from both sets. (5) Grow F1 generation and observe variation. Expected: If self-pollinated, bagged and open sets produce similar, uniform offspring. If cross-pollinated, bagged set shows poor/no seed set; open set shows variable offspring. A poor answer (e.g., \"watch bees visit\") lacks experimental design — no control, no measurable outcome.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Pollination is the transfer of pollen grains from the anther (male part) of a flower to the stigma (female part) of the same or another flower of the same species, enabling ______.",
+     "a": "fertilisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a hibiscus flower in your garden — notice how its stigma is ______ higher than the anthers, and how bees buzz around it collecting nectar.",
+     "a": "positioned",
+     "self_check": true
+    },
+    {
+     "q": "What is Pollination? State the definition given in this lesson.",
+     "a": "Pollination is the transfer of pollen grains from the anther (male part) of a flower to the stigma (female part) of the same or another flower of the same species, enabling fertilisation.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Pollination?",
+     "a": "Students think \"cross-pollination always requires a different plant\" and \"self-pollination always occurs within the same flower.\" The exact error: they confuse geitonogamy (pollen transfer between flowers of the SAME plant) with xenogamy (between DIFFERENT plants).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between self and cross-pollination using floral adaptations, identify the pollination agent from flower characteristics, and explain the genetic consequences of each type with reference to variation and evolution.",
+     "self_check": true
     }
    ]
   }

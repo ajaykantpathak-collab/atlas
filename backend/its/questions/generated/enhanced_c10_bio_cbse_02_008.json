@@ -34,6 +34,31 @@
      "q": "Design a simple flowchart to show how the body maintains thyroxine levels within a narrow range using negative feedback. Include the hypothalamus, pituitary, thyroid, and the hormone names.",
      "a": "A correct flowchart: Low blood thyroxine → Hypothalamus releases TRH → Anterior pituitary releases TSH → Thyroid releases thyroxine (T3/T4) → Rising thyroxine inhibits TRH and TSH secretion → Thyroxine levels fall → Cycle repeats. A poor answer (missing inhibition step, reversing arrow direction, or omitting hypothalamus) shows inability to represent a dynamic feedback loop as a closed circuit.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Endocrine glands are ductless glands that secrete chemical messengers called hormones directly into the bloodstream; these hormones travel to specific target organs or tissues to regulate ______ processes such as growth, metabolism, reproduction, and homeostasis.",
+     "a": "physiological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now ask: \"How does the body know when to release ______, and how does it stop?\" Introduce the endocrine system as a messaging network using blood as the highway.",
+     "a": "adrenaline",
+     "self_check": true
+    },
+    {
+     "q": "What is Endocrine glands? State the definition given in this lesson.",
+     "a": "Endocrine glands are ductless glands that secrete chemical messengers called hormones directly into the bloodstream; these hormones travel to specific target organs or tissues to regulate physiological processes such as growth, metabolism, reproduction, and homeostasis.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Endocrine glands?",
+     "a": "Students often think that the pituitary gland directly controls *all* hormonal activities in the body, including insulin secretion and adrenaline release.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can list the major human endocrine glands, name at least one hormone each secretes, state the hormone's primary function, and explain the negative feedback mechanism using a specific example (e.g., thyroxine/TSH or insulin/glucagon).",
+     "self_check": true
     }
    ]
   }

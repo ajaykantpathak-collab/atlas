@@ -34,6 +34,36 @@
      "q": "Design a simple classroom demonstration using low-cost materials (e.g., a wooden plank, a marble, a towel, a book) that illustrates Galileo's insight: reducing friction makes an object move farther with the same initial push. Describe the setup, the variable you change, and what students should observe.",
      "a": "Setup: Place a wooden plank at a slight incline. Release a marble from a fixed height on three surfaces: (1) bare wood, (2) wood covered with a towel, (3) wood with a smooth plastic sheet (or just the bare wood if very smooth). Variable: surface roughness (friction coefficient). Observation: Marble travels farthest on smoothest surface. Students infer: less friction → less opposing force → longer distance at constant speed on horizontal. A poor answer (e.g., \"use a fan to blow the marble\") misses the point of varying friction while keeping initial energy the same.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Aristotle's fallacy is the incorrect assertion that a continuous external force is required to maintain a body in uniform motion; Galileo's experiments with inclined planes demonstrated that in the absence of friction, a body in uniform motion continues ______ without any external force, establishing the law of inertia: a body remains in its state of rest or uniform motion in a straight line unless compelled by a net external force to change that state.",
+     "a": "indefinitely",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a marble rolling on a smooth floor versus a rough carpet—on the smooth floor it travels farther before ______.",
+     "a": "stopping",
+     "self_check": true
+    },
+    {
+     "q": "What is Aristotle's fallacy? State the definition given in this lesson.",
+     "a": "Aristotle's fallacy is the incorrect assertion that a continuous external force is required to maintain a body in uniform motion; Galileo's experiments with inclined planes demonstrated that in the absence of friction, a body in uniform motion continues indefinitely without any external force, establishing the law of inertia: a body.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Aristotle's fallacy?",
+     "a": "Students believe \"inertia is a force that keeps things moving\" or \"inertia is the tendency to resist motion.\" In reality, inertia is a property of mass—it is the resistance to *change* in velocity (both starting and stopping).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why Aristotle's view was a natural but flawed interpretation of everyday experience, describe Galileo's double inclined plane thought experiment and its logical conclusion, and articulate why friction—not a fundamental property of motion—is the reason objects stop on Earth.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Aristotle's fallacy is the incorrect assertion that a continuous external force is required to maintain a body in uniform motion; Galileo's experiments with inclined planes ______ that in the absence of friction, a body in uniform motion continues indefinitely without any external force, establishing the law of inertia: a body remains in its state of rest or uniform motion in a straight line unless compelled by a net external force to change that state.",
+     "a": "demonstrated",
+     "self_check": true
     }
    ]
   }

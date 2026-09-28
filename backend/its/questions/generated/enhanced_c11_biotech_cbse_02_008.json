@@ -34,6 +34,26 @@
      "q": "Design a hypothetical experiment using isolated chloroplasts to demonstrate that the thylakoid lumen becomes acidic during illumination. Specify: (a) the measurable parameter, (b) the control, (c) how you would manipulate the system to prove the pH change drives ATP synthesis, and (d) the expected result if the chemiosmotic hypothesis is correct.",
      "a": "(a) Measurable parameter: external medium pH (using a pH electrode) or 9-aminoacridine fluorescence quenching (indicates ΔpH across thylakoid membrane). (b) Control: dark-incubated chloroplasts + uncoupler (NH₄Cl or gramicidin) to dissipate any gradient. (c) Manipulation: illuminate chloroplasts in pH 7 buffer with ADP + Pi → measure ATP synthesis (luciferase assay) and external pH drop. Then add uncoupler during illumination → ATP synthesis stops, pH gradient collapses. Alternatively, create artificial ΔpH by incubating in pH 4 buffer (acidic lumen equivalent) then rapidly transferring to pH 8 buffer with ADP/Pi in dark → ATP synthesis occurs without light. (d) Expected: illumination causes external pH rise (protons pumped into lumen), ATP synthesis occurs; uncoupler abolishes both; artificial ΔpH in dark drives ATP synthesis. A poor answer omits the artificial ΔpH experiment, missing the critical test that ΔpH *alone* is sufficient.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ is a double-membrane-bound plastid containing chlorophyll pigments organized into thylakoid stacks (grana) where light-dependent reactions occur, and a stroma matrix housing Calvin cycle enzymes, 70S ribosomes, and circular DNA for semi-autonomous protein synthesis.",
+     "a": "chloroplast",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're examining a spinach leaf under a transmission electron microscope at 50,000× ______.",
+     "a": "magnification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A chloroplast is a double-membrane-bound plastid containing chlorophyll pigments organized into thylakoid stacks (grana) where light-dependent reactions occur, and a stroma matrix housing Calvin cycle enzymes, ______S ribosomes, and circular DNA for semi-autonomous protein synthesis.",
+     "a": "70",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) draw and label a chloroplast cross-section showing all three compartments (intermembrane space, stroma, thylakoid lumen) with correct membrane topology, and (2) explain how the spatial separation of photosystems in grana versus stroma lamellae enables linear electron flow and cyclic photophosphorylation.",
+     "self_check": true
     }
    ]
   }

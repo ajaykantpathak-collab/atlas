@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using yeast to demonstrate that glycolysis can proceed anaerobically and produces CO₂. Specify the control, the measurable variable, and how you would confirm the CO₂ originates from glucose carbon (not bicarbonate buffer).",
      "a": "Setup: Two test tubes with glucose solution + yeast suspension. Tube A: sealed with a one-way gas valve leading to lime water (Ca(OH)₂). Tube B (control): same but heat-killed yeast. Measure: time for lime water to turn milky (CO₂ detection). To confirm carbon source: use ¹⁴C-labeled glucose at C-3/C-4 (which becomes CO₂ in pyruvate decarboxylase step of fermentation) and detect ¹⁴CO₂ in the gas phase via scintillation counting. A poor design (e.g., no control, or assuming all CO₂ comes from glycolysis) shows inability to isolate variables and trace carbon fate — a key skill for board practicals.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Glycolysis is the universal, ten-step enzymatic pathway in the cytoplasm where one molecule of glucose (6C) is partially oxidized into two molecules of pyruvic acid (3C), with a net gain of 2 ATP (substrate-level ______) and 2 NADH + H⁺ per glucose molecule.",
+     "a": "phosphorylation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you eat a roti or rice, the starch is digested to ______ which enters your blood.",
+     "a": "glucose",
+     "self_check": true
+    },
+    {
+     "q": "What is Glycolysis? State the definition given in this lesson.",
+     "a": "Glycolysis is the universal, ten-step enzymatic pathway in the cytoplasm where one molecule of glucose (6C) is partially oxidized into two molecules of pyruvic acid (3C), with a net gain of 2 ATP (substrate-level phosphorylation) and 2 NADH + H⁺ per glucose molecule.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by recalling that glucose is a ______-carbon sugar.",
+     "a": "6",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Glycolysis?",
+     "a": "Students often believe that the 2 NADH produced in glycolysis directly yield 6 ATP (3 ATP each) in the electron transport chain, so they add 6 to the 2 substrate-level ATP and claim glycolysis gives 8 ATP.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can trace the carbon skeleton of glucose through all ten steps, identify the three regulatory enzymes (hexokinase, PFK-1, pyruvate kinase), calculate the net ATP/NADH yield accounting for the investment phase, and predict the metabolic fate of pyruvate under aerobic vs anaerobic conditions in plant and animal cells.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a simple qualitative experiment using only household items (water, salt, sugar, spoons, glasses) to demonstrate the difference between \"concentrated unsaturated\" and \"saturated\" for salt at room temperature. Write the procedure and the expected observations that would let a classmate distinguish them.",
      "a": "**Procedure:** Take two glasses with equal water (100 mL). Glass A: Add salt spoon by spoon, stirring, until no more dissolves (crystals remain). Glass B: Add only half the spoons that Glass A took to saturate. **Observations:** Glass A: Crystals at bottom, solution clear (saturated). Glass B: No crystals, solution clear (concentrated unsaturated). **Distinguishing test:** Add one more spoon to each. Glass A: New spoon won't dissolve. Glass B: New spoon *will* dissolve. A poor answer just says \"taste them\" (subjective, unsafe) or doesn't include the \"add one more spoon\" verification step.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of a solution qualitatively describes the relative amount of solute dissolved in a given amount of solvent or solution, using terms like dilute, concentrated, saturated, and unsaturated.",
+     "a": "Concentration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe three glasses of nimbu pani (lemonade) made by your mother: one with just a pinch of sugar (barely sweet), one with two spoons (nicely sweet), and one with five spoons where sugar settles at the bottom (very sweet with ______ sugar).",
+     "a": "undissolved",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify a given solution as dilute, concentrated, saturated, or unsaturated based on observations (e.g., undissolved solute at bottom, taste, color intensity) and explain the reasoning using the concept of solute-solvent ratio.",
+     "self_check": true
     }
    ]
   }

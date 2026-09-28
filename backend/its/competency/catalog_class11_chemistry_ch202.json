@@ -51,7 +51,16 @@
      "solution": "Step 1: determine total participating hybrid orbitals. Step 2: compute percentage of s-character. Step 3: relate the s-character percentage to bond length and electronegativity. Working: 1 + p_orbitals, 100 / total_orbitals.",
      "answer": "The method of hybridisation and percentage s-character of carbon leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "s_percent = 100 / (1 + p_orbitals)",
+     "compute": "s_percent = 100 / (1 + p_orbitals)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kech.8.2.2",
@@ -99,7 +108,22 @@
      "solution": "Step 1: sum all individual sigma bonds. Step 2: calculate total covalent bonds. Step 3: verify the bond count against the molecular structure. Working: sigma_cc + sigma_ch, total_sigma + pi_bonds.",
      "answer": "The method of determination of sigma and pi bonds in organic molecules leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_sigma = sigma_cc + sigma_ch",
+     "compute": "total_sigma = sigma_cc + sigma_ch"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "total_bonds = total_sigma + pi_bonds",
+     "compute": "total_bonds = total_sigma + pi_bonds"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kech.8.2.3",
@@ -116,7 +140,7 @@
     "classify the hybridization state of carbon atoms in acetonitrile",
     "list the main features of carbon hybridisation and molecular geometry"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -133,7 +157,16 @@
      "action": "correlate hybridization to spatial geometry",
      "explain": "sp3 corresponds to tetrahedral, sp2 to trigonal planar, and sp to linear geometry"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "steric_number = sigma_bonds + lone_pairs",
+     "compute": "steric_number = sigma_bonds + lone_pairs"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kech.8.3.1",
@@ -283,7 +316,16 @@
      "solution": "Step 1: determine the unit mass difference of a methylene group. Step 2: compute total molecular mass increment. Step 3: verify the mass progression is consistent across the homologous series. Working: 12 + 2, delta_n * unit_mass.",
      "answer": "The method of homologous series and molecular mass progression leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "delta_mass = delta_n * 14",
+     "compute": "delta_mass = delta_n * 14"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kech.8.5.1",
@@ -331,7 +373,16 @@
      "solution": "Step 1: double the carbon atom count. Step 2: add terminal cap hydrogens. Step 3: verify the hydrogen count satisfies the general alkane formula. Working: 2 * c_count, chain_h + 2.",
      "answer": "The method of hydrogen content in saturated acyclic alkanes leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "h_count = 2 * c_count + 2",
+     "compute": "h_count = 2 * c_count + 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kech.8.5.2",

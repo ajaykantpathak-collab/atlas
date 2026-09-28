@@ -34,6 +34,26 @@
      "q": "Design a simple thought experiment using only volume measurements (no mass, no mole concept) to prove that oxygen gas exists as diatomic molecules (O₂) rather than monatomic (O), based on Gay Lussac's and Avogadro's Laws. Describe the reaction, measurements, and logical steps.",
      "a": "Thought experiment: React hydrogen and oxygen to form water vapour. Measure volumes at same T/P: 2 volumes H₂ + 1 volume O₂ → 2 volumes H₂O. By Avogadro's Law, volume ratio = molecule ratio. So 2 molecules H₂ + 1 molecule O₂ → 2 molecules H₂O. Each H₂O contains 1 O atom, so 2 H₂O contain 2 O atoms. These 2 O atoms came from 1 molecule of oxygen gas. Therefore, 1 molecule of oxygen gas contains 2 O atoms → O₂. A poor answer (e.g., \"we know O₂ from formula\") reveals the student cannot reason from volume data alone, missing the historical logic that established diatomic nature before molecular formulas were known.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Gay Lussac's Law of Gaseous Volumes states that when gases react chemically at constant ______ and pressure, the volumes of reactant and product gases bear simple whole-number ratios to each other.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a kitchen observation: when you light a gas stove, the blue flame shows ______ (CH₄) from the cylinder reacting with oxygen from air.",
+     "a": "methane",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) apply Gay Lussac's Law to determine volume ratios in gaseous reactions and predict product volumes from given reactant volumes, and (2) use Avogadro's Law to convert between gas volume and number of moles at STP/standard conditions, explaining why the laws require constant temperature and pressure.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a kitchen ______: when you light a gas stove, the blue flame shows methane (CH₄) from the cylinder reacting with oxygen from air.",
+     "a": "observation",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,16 @@
      "q": "Design a simple experiment using a syringe, pressure sensor, and data logger to verify Boyle's Law. List the variables to control, the data to collect, and how you would analyze it to confirm \\(PV = \\text{constant}\\).",
      "a": "Control: temperature (allow thermal equilibrium after each compression), amount of gas (sealed syringe), and sensor calibration. Collect: pressure readings at 5-6 different volumes (e.g., 60, 50, 40, 30, 20, 10 mL). Analyze: plot \\(P\\) vs \\(1/V\\) — should be linear through origin; calculate \\(PV\\) for each point — should be constant within experimental error. A design that doesn't mention temperature equilibration time or checking \\(PV\\) constancy misses critical error sources.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Boyle's Law states that for a fixed amount of gas at constant temperature, the pressure exerted by the gas is inversely ______ to its volume.",
+     "a": "proportional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Notice what happens when you push the plunger of a sealed syringe with your finger blocking the nozzle — the plunger resists and pushes back harder as the volume ______.",
+     "a": "decreases",
+     "self_check": true
     }
    ]
   }

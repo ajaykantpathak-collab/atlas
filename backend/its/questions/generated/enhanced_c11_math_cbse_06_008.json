@@ -34,6 +34,21 @@
      "q": "Create a quadratic inequality whose solution set is exactly \\((-2, 5)\\). Explain how you constructed it.",
      "a": "The solution \\((-2, 5)\\) means the quadratic is positive strictly between the roots \\(-2\\) and \\(5\\) (assuming \\(a>0\\)). So the roots are \\(-2\\) and \\(5\\). A simple quadratic with these roots is \\((x+2)(x-5) = x^2 - 3x - 10\\). Since we want \\(> 0\\) between the roots, we need the parabola to open downward, so multiply by \\(-1\\): \\(-x^2 + 3x + 10 > 0\\). Check: roots are \\(-2, 5\\); \\(a=-1<0\\) so expression is positive between roots. A poor answer (e.g., giving \\(x^2 - 3x - 10 > 0\\)) shows the student does not adjust the leading coefficient sign to match the required solution interval.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The owner wants to know how many ______ to sell to make a profit of at least ₹50.",
+     "a": "candles",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The owner wants to know how many candles to sell to make a profit of at least ₹______.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can solve any quadratic inequality in one variable with real coefficients using both the algebraic (sign chart/wavy curve) method and the graphical method, correctly express the solution in interval notation and on a number line, and handle strict vs. non-strict inequalities including cases where the discriminant is negative.",
+     "self_check": true
     }
    ]
   }

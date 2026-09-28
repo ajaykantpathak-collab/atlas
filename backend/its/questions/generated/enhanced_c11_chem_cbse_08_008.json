@@ -34,6 +34,21 @@
      "q": "Design a redox-based method to determine the purity of a commercial hydrogen peroxide (H₂O₂) sample labelled \"6% w/v\" using standard KMnO₄ solution. List the reagents, procedure outline, and the calculation formula.",
      "a": "Reagents: Standard 0.1 M KMnO₄, dilute H₂SO₄, distilled water. Procedure: (1) Pipette 10.0 mL of H₂O₂ solution into a conical flask. (2) Add 20 mL dilute H₂SO₄. (3) Titrate with KMnO₄ until permanent pale pink. (4) Repeat for concordant titres. Calculation: Moles KMnO₄ = M_KMnO₄ × V_KMnO₄(L). Moles H₂O₂ = (2/5) × moles KMnO₄ (from 2MnO₄⁻ + 5H₂O₂ + 6H⁺ → 2Mn²⁺ + 5O₂ + 8H₂O). Mass H₂O₂ = moles × 34 g/mol. % w/v = (mass H₂O₂ in g / 10 mL) × 100. A poor answer (e.g., \"titrate with KMnO₄ and compare colour\") shows inability to translate redox stoichiometry into a quantitative analytical protocol.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Applications of redox reactions encompass the practical utilization of electron-transfer processes in quantitative analysis (redox titrations using equivalent weight and normality), metallurgical extraction of metals via reduction of ores, prediction of reaction feasibility through the ______ series, industrial manufacturing (chlor-alkali process, batteries), and biological energy transduction (respiration, photosynthesis), all governed by the stoichiometry of electron loss and gain.",
+     "a": "electrochemical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a car battery being jump-started: the redox reaction between lead dioxide and lead in sulfuric acid releases ______ that crank the engine.",
+     "a": "electrons",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can calculate equivalent weight and normality for redox titrations, predict whether a redox reaction will occur spontaneously using the electrochemical series, write balanced equations for metallurgical reduction processes, and determine the number of electrons transferred in a given half-reaction to solve quantitative problems.",
+     "self_check": true
     }
    ]
   }

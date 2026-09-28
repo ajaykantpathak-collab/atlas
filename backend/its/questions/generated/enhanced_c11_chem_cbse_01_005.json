@@ -34,6 +34,31 @@
      "q": "Design a thought experiment using only Dalton's postulates (no modern knowledge) to predict the formula of a compound formed when 7 g of nitrogen combines with 16 g of oxygen, given that nitrogen's atomic mass is 14 and oxygen's is 16 (relative to hydrogen = 1).",
      "a": "Using Postulate 2: N atom mass = 14, O atom mass = 16. 7 g N = 0.5 N atoms (in relative units); 16 g O = 1 O atom. Atom ratio N:O = 0.5:1 = 1:2. By Postulate 3, atoms combine in simple whole-number ratios → multiply by 2 → 1:2 ratio → formula NO₂. A good answer shows the step: convert mass to relative atom count using atomic masses → find simplest whole-number ratio → write formula. A poor answer that guesses NO or N₂O reveals inability to apply the mass-to-atom conversion logic central to Dalton's method.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Dalton's Atomic Theory is a foundational chemical model proposing that all matter consists of indivisible particles called atoms, where atoms of the same element are identical in mass and properties, atoms of different elements differ in mass, compounds form by combination of atoms in simple whole-number ratios, and chemical reactions involve ______ of atoms without creation or destruction.",
+     "a": "rearrangement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a simple ______: when you burn magnesium ribbon in air, it forms a white ash (magnesium oxide) and the mass increases.",
+     "a": "reaction",
+     "self_check": true
+    },
+    {
+     "q": "What is Dalton's Atomic Theory? State the definition given in this lesson.",
+     "a": "Dalton's Atomic Theory is a foundational chemical model proposing that all matter consists of indivisible particles called atoms, where atoms of the same element are identical in mass and properties, atoms of different elements differ in mass, compounds form by combination of atoms in simple whole-number ratios, and chemical reactions.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Dalton's Atomic Theory?",
+     "a": "Students confuse Dalton's \"identical atoms of same element\" postulate with the modern concept of isotopes, thinking Dalton was \"wrong\" about atomic mass.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state all four postulates of Dalton's Atomic Theory with precise terminology, explain how each postulate accounts for the laws of conservation of mass, definite proportions, and multiple proportions, and identify the specific limitations of the theory that necessitated later atomic models.",
+     "self_check": true
     }
    ]
   }

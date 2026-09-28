@@ -94,7 +94,7 @@
     "determine shared factors for the pair {num1} and {num2}",
     "which jump sizes reach both treasures placed at {num1} and {num2}"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -111,7 +111,16 @@
      "action": "identify intersection",
      "explain": "Extract the integers that appear in both factor lists."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
+     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 8 * 1 gives 8",
+     "compute": "hcf = 8 * 1"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.105.5.1.4",
@@ -128,7 +137,7 @@
     "determine if {num} is perfect by summing its factors",
     "is {num} a perfect number between 1 and 10"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -145,7 +154,22 @@
      "action": "verify equality",
      "explain": "Check if the sum of factors equals twice the given number."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.105.5.2.1",
@@ -162,7 +186,7 @@
     "identify if {num} has more than two factors",
     "find how many factors {num} has to check if it is prime"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -179,7 +203,16 @@
      "action": "report classification",
      "explain": "State whether the number is prime or composite based on the factor count found."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
+     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 9 * 1 gives 9",
+     "compute": "hcf = 9 * 1"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.105.5.2.2",
@@ -196,7 +229,7 @@
     "identify twin prime pairs less than {limit}",
     "are {p1} and {p2} twin primes"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -213,7 +246,22 @@
      "action": "report twin prime status",
      "explain": "If both numbers are prime and differ by exactly 2, the pair is a twin prime; otherwise it is not."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.105.5.3.1",
@@ -230,7 +278,7 @@
     "find if the pair {num1} and {num2} is safe in treasure game",
     "verify co-primality of {num1} and {num2}"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -247,7 +295,22 @@
      "action": "report co-primality",
      "explain": "Conclude whether the pair is co-prime based on whether 1 is the only shared divisor."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.105.5.4.1",
@@ -301,7 +364,7 @@
     "is {dividend} divisible by {divisor} according to factor inclusion",
     "verify if {divisor} is a factor of {dividend} via prime decomposition"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -318,7 +381,16 @@
      "action": "check subset inclusion",
      "explain": "Verify if every prime factor of the divisor appears in the dividend with sufficient frequency."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
+     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 12 * 1 gives 12",
+     "compute": "hcf = 12 * 1"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.105.5.5.1",
@@ -335,7 +407,7 @@
     "is {num} divisible by {divisor}",
     "find whether {num} is a multiple of {divisor} without long division"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -352,7 +424,16 @@
      "action": "report divisibility result",
      "explain": "Conclude whether the number is divisible by the divisor based on whether the unit digit satisfies the matching criterion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
+     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 12 * 1 gives 12",
+     "compute": "hcf = 12 * 1"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.105.5.5.2",
@@ -369,7 +450,7 @@
     "verify divisibility of {num} by 4",
     "is {num} divisible by 8"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -386,7 +467,16 @@
      "action": "report divisibility result",
      "explain": "If the sub-number divides evenly, the whole number is divisible by 4 or 8; otherwise it is not."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
+     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 9 * 1 gives 9",
+     "compute": "hcf = 9 * 1"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

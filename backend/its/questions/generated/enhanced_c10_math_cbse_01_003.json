@@ -34,6 +34,26 @@
      "q": "Create a word problem for Class 10 students that requires using the relationship HCF × LCM = Product of two numbers, where the unknown is the LCM. The problem must involve a real-life Indian context (e.g., packing items, tiling a floor, timing of bells).",
      "a": "Example problem: \"A school has 108 red ribbons and 144 blue ribbons for a sports day. They want to make identical packets using all ribbons, each packet containing the same number of red ribbons and the same number of blue ribbons. The greatest number of packets they can make is 36. What is the least number of total ribbons in each packet?\" \nSolution: HCF = 36 (given as greatest packets), product = 108 × 144, so LCM = (108 × 144) / 36 = 432. Each packet has 432 ribbons total (3 red + 4 blue? Wait: 108/36=3 red per packet, 144/36=4 blue per packet, total 7 per packet. But LCM of 108 and 144 is 432. Actually, the \"least number of total ribbons in each packet\" is not LCM. This is a trick! The correct problem should be: \"The HCF of two numbers is 36 and their product is 15552. Find the LCM.\" But for a word problem: \"Two bells ring at intervals of 108 seconds and 144 seconds. They ring together at 8:00 AM. The HCF of the intervals is 36. After how many seconds will they ring together again?\" Answer: LCM = (108×144)/36 = 432 seconds. A poor problem would ask for something that is not LCM or would not use the given HCF meaningfully.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For any two positive integers a and b, the product of their Highest Common Factor (HCF) and Lowest Common Multiple (LCM) is equal to the product of the numbers ______.",
+     "a": "themselves",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying two types of ______ for a school function: 120 laddoos and 180 barfis.",
+     "a": "sweets",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly apply the formula HCF × LCM = Product of two numbers to find any one of the four quantities when the other three are given, and can verify the relationship for given pairs of numbers using prime factorisation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying two types of sweets for a school ______: 120 laddoos and 180 barfis.",
+     "a": "function",
+     "self_check": true
     }
    ]
   }

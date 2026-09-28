@@ -1,0 +1,287 @@
+{
+ "catalog": "catalog_class12_physics_leph108.json",
+ "concepts": [
+  {
+   "id": "leph108.8.2.1",
+   "title": "Displacement Current",
+   "converted_to_compute": true,
+   "formula": "displacement_current = permittivity * eflux_rate",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "displacement_current = permittivity * eflux_rate",
+     "compute": "displacement_current = permittivity * eflux_rate"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Displacement Current: given permittivity = 93, eflux_rate = 37, find displacement current.",
+     "a": "3441",
+     "self_check": false
+    },
+    {
+     "q": "For Displacement Current: given permittivity = 86, eflux_rate = 14.5, find displacement current.",
+     "a": "1247",
+     "self_check": false
+    },
+    {
+     "q": "For Displacement Current: given permittivity = 32, eflux_rate = 71, find displacement current.",
+     "a": "2272",
+     "self_check": false
+    },
+    {
+     "q": "For Displacement Current: given permittivity = 88, eflux_rate = 23, find displacement current.",
+     "a": "2024",
+     "self_check": false
+    },
+    {
+     "q": "For Displacement Current: given permittivity = 0.6, eflux_rate = 30, find displacement current.",
+     "a": "18",
+     "self_check": false
+    },
+    {
+     "q": "For Displacement Current: given permittivity = 49, eflux_rate = 86, find displacement current.",
+     "a": "4214",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph108.8.2.2",
+   "title": "AC Current into a Capacitor",
+   "converted_to_compute": true,
+   "formula": "i_rms = volt_rms * omega * capacitance",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "i_rms = volt_rms * omega * capacitance",
+     "compute": "i_rms = volt_rms * omega * capacitance"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For AC Current into a Capacitor: given volt_rms = 13.1, omega = 11.3, capacitance = 100, find i rms.",
+     "a": "14803",
+     "self_check": false
+    },
+    {
+     "q": "For AC Current into a Capacitor: given volt_rms = 13.7, omega = 17.2, capacitance = 85, find i rms.",
+     "a": "20029.4",
+     "self_check": false
+    },
+    {
+     "q": "For AC Current into a Capacitor: given volt_rms = 116, omega = 69, capacitance = 58, find i rms.",
+     "a": "464232",
+     "self_check": false
+    },
+    {
+     "q": "For AC Current into a Capacitor: given volt_rms = 37, omega = 57, capacitance = 70, find i rms.",
+     "a": "147630",
+     "self_check": false
+    },
+    {
+     "q": "For AC Current into a Capacitor: given volt_rms = 65, omega = 4.5, capacitance = 37, find i rms.",
+     "a": "10822.5",
+     "self_check": false
+    },
+    {
+     "q": "For AC Current into a Capacitor: given volt_rms = 11.1, omega = 97, capacitance = 66, find i rms.",
+     "a": "71062.2",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph108.8.3.2.2",
+   "title": "Field Amplitudes in a Light Wave",
+   "converted_to_compute": true,
+   "formula": "mag_amplitude = e_amplitude / wave_speed",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mag_amplitude = e_amplitude / wave_speed",
+     "compute": "mag_amplitude = e_amplitude / wave_speed"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Field Amplitudes in a Light Wave: given e_amplitude = 21, wave_speed = 73, find mag amplitude.",
+     "a": "0.287671",
+     "self_check": false
+    },
+    {
+     "q": "For Field Amplitudes in a Light Wave: given e_amplitude = 46, wave_speed = 33, find mag amplitude.",
+     "a": "1.39394",
+     "self_check": false
+    },
+    {
+     "q": "For Field Amplitudes in a Light Wave: given e_amplitude = 70, wave_speed = 10.4, find mag amplitude.",
+     "a": "6.73077",
+     "self_check": false
+    },
+    {
+     "q": "For Field Amplitudes in a Light Wave: given e_amplitude = 87, wave_speed = 36, find mag amplitude.",
+     "a": "2.41667",
+     "self_check": false
+    },
+    {
+     "q": "For Field Amplitudes in a Light Wave: given e_amplitude = 13.6, wave_speed = 67, find mag amplitude.",
+     "a": "0.202985",
+     "self_check": false
+    },
+    {
+     "q": "For Field Amplitudes in a Light Wave: given e_amplitude = 50, wave_speed = 3.6, find mag amplitude.",
+     "a": "13.8889",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph108.8.3.2.3",
+   "title": "Wavelength from Wave Frequency",
+   "converted_to_compute": true,
+   "formula": "wavelength = wave_speed / freq",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "wavelength = wave_speed / freq",
+     "compute": "wavelength = wave_speed / freq"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Wavelength from Wave Frequency: given wave_speed = 48, freq = 25, find wavelength.",
+     "a": "1.92",
+     "self_check": false
+    },
+    {
+     "q": "For Wavelength from Wave Frequency: given wave_speed = 87, freq = 93, find wavelength.",
+     "a": "0.935484",
+     "self_check": false
+    },
+    {
+     "q": "For Wavelength from Wave Frequency: given wave_speed = 104, freq = 92, find wavelength.",
+     "a": "1.13043",
+     "self_check": false
+    },
+    {
+     "q": "For Wavelength from Wave Frequency: given wave_speed = 104, freq = 20, find wavelength.",
+     "a": "5.2",
+     "self_check": false
+    },
+    {
+     "q": "For Wavelength from Wave Frequency: given wave_speed = 106, freq = 80, find wavelength.",
+     "a": "1.325",
+     "self_check": false
+    },
+    {
+     "q": "For Wavelength from Wave Frequency: given wave_speed = 77, freq = 94, find wavelength.",
+     "a": "0.819149",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph108.8.3.2.4",
+   "title": "Reading a Wave Expression",
+   "converted_to_compute": true,
+   "formula": "wavelength = 2 * pi / wave_number",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "wavelength = 2 * pi / wave_number",
+     "compute": "wavelength = 2 * pi / wave_number"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Reading a Wave Expression: given wave_number = 17.3, find wavelength.",
+     "a": "0.36319",
+     "self_check": false
+    },
+    {
+     "q": "For Reading a Wave Expression: given wave_number = 2.1, find wavelength.",
+     "a": "2.99199",
+     "self_check": false
+    },
+    {
+     "q": "For Reading a Wave Expression: given wave_number = 13.5, find wavelength.",
+     "a": "0.465421",
+     "self_check": false
+    },
+    {
+     "q": "For Reading a Wave Expression: given wave_number = 17.5, find wavelength.",
+     "a": "0.359039",
+     "self_check": false
+    },
+    {
+     "q": "For Reading a Wave Expression: given wave_number = 18.3, find wavelength.",
+     "a": "0.343343",
+     "self_check": false
+    },
+    {
+     "q": "For Reading a Wave Expression: given wave_number = 16.5, find wavelength.",
+     "a": "0.380799",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph108.8.3.2.5",
+   "title": "Wave Speed from EM Constants",
+   "converted_to_compute": true,
+   "formula": "wave_speed = 1 / sqrt(permittivity * permeability)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "wave_speed = 1 / sqrt(permittivity * permeability)",
+     "compute": "wave_speed = 1 / sqrt(permittivity * permeability)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Wave Speed from EM Constants: given permittivity = 25, permeability = 42, find wave speed.",
+     "a": "0.0308607",
+     "self_check": false
+    },
+    {
+     "q": "For Wave Speed from EM Constants: given permittivity = 26, permeability = 38, find wave speed.",
+     "a": "0.0318142",
+     "self_check": false
+    },
+    {
+     "q": "For Wave Speed from EM Constants: given permittivity = 70, permeability = 88, find wave speed.",
+     "a": "0.0127412",
+     "self_check": false
+    },
+    {
+     "q": "For Wave Speed from EM Constants: given permittivity = 61, permeability = 46, find wave speed.",
+     "a": "0.018878",
+     "self_check": false
+    },
+    {
+     "q": "For Wave Speed from EM Constants: given permittivity = 55, permeability = 61, find wave speed.",
+     "a": "0.0172645",
+     "self_check": false
+    },
+    {
+     "q": "For Wave Speed from EM Constants: given permittivity = 10.1, permeability = 54, find wave speed.",
+     "a": "0.0428196",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

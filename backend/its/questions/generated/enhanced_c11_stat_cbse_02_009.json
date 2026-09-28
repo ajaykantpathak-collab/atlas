@@ -34,6 +34,31 @@
      "q": "Design a mini-investigation for your class: You want to estimate the average monthly pocket money of Class 11 students in your school (population ~200). You have resources to survey only 20 students. Describe your sampling method to *minimize* sampling error, and explain why your method is better than convenience sampling (e.g., asking your friends). Include how you would quantify the expected sampling error.",
      "a": "Use simple random sampling (lottery method or random number table) to select 20 students from the full list of 200. This ensures every student has equal probability of selection, making the sample mean an unbiased estimator. Convenience sampling introduces *selection bias* (a non-sampling error) and the sampling error becomes unquantifiable because the probability structure is broken. To quantify expected sampling error, you would need the population standard deviation (unknown) or use the sample standard deviation to estimate the standard error = s/√n. A poor answer suggests convenience sampling or says \"sampling error cannot be quantified\" – missing that random sampling provides the probabilistic framework to *estimate* the error.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sampling error is the difference between a sample statistic (such as the sample mean) and the ______ population parameter (such as the population mean) that arises solely because a sample, rather than the entire population, is observed.",
+     "a": "corresponding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a farmer in Punjab trying to ______ the average wheat yield per hectare for your entire district.",
+     "a": "estimate",
+     "self_check": true
+    },
+    {
+     "q": "What is Sampling error? State the definition given in this lesson.",
+     "a": "Sampling error is the difference between a sample statistic (such as the sample mean) and the corresponding population parameter (such as the population mean) that arises solely because a sample, rather than the entire population, is observed.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Sampling error?",
+     "a": "Students often believe sampling error is a \"mistake\" or \"bias\" that can be eliminated by being more careful.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) define sampling error precisely using the terms 'sample statistic' and 'population parameter', (2) calculate the sampling error for a given population and sample data set, and (3) explain why increasing the sample size reduces the magnitude of sampling error, referencing the Law of Large Numbers.",
+     "self_check": true
     }
    ]
   }

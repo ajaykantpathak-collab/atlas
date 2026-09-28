@@ -1,6 +1,194 @@
 {
- "catalog": "catalog_class11_biotechnology_kebt105",
+ "catalog": "catalog_class11_biotechnology_kebt105.json",
  "concepts": [
+  {
+   "id": "kebt105.3",
+   "title": "Energy Yield of Glycolysis and Fermentation",
+   "converted_to_compute": true,
+   "formula": "net_yield = gross_atp - invested_atp",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_yield = gross_atp - invested_atp",
+     "compute": "net_yield = gross_atp - invested_atp"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Energy Yield of Glycolysis and Fermentation: given gross_atp = 85, invested_atp = 45, find net yield.",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "For Energy Yield of Glycolysis and Fermentation: given gross_atp = 84, invested_atp = 64, find net yield.",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "For Energy Yield of Glycolysis and Fermentation: given gross_atp = 29, invested_atp = 95, find net yield.",
+     "a": "-66",
+     "self_check": false
+    },
+    {
+     "q": "For Energy Yield of Glycolysis and Fermentation: given gross_atp = 9.4, invested_atp = 27, find net yield.",
+     "a": "-17.6",
+     "self_check": false
+    },
+    {
+     "q": "For Energy Yield of Glycolysis and Fermentation: given gross_atp = 40, invested_atp = 35, find net yield.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "For Energy Yield of Glycolysis and Fermentation: given gross_atp = 53, invested_atp = 18, find net yield.",
+     "a": "35",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebt105.5",
+   "title": "Electron Transport Chain and Oxidative Phosphorylation",
+   "converted_to_compute": true,
+   "formula": "atp_total = nadh_share + fadh_share",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "atp_total = nadh_share + fadh_share",
+     "compute": "atp_total = nadh_share + fadh_share"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Electron Transport Chain and Oxidative Phosphorylation: given nadh_share = 89, fadh_share = 27, find atp total.",
+     "a": "116",
+     "self_check": false
+    },
+    {
+     "q": "For Electron Transport Chain and Oxidative Phosphorylation: given nadh_share = 47, fadh_share = 72, find atp total.",
+     "a": "119",
+     "self_check": false
+    },
+    {
+     "q": "For Electron Transport Chain and Oxidative Phosphorylation: given nadh_share = 7.4, fadh_share = 42, find atp total.",
+     "a": "49.4",
+     "self_check": false
+    },
+    {
+     "q": "For Electron Transport Chain and Oxidative Phosphorylation: given nadh_share = 67, fadh_share = 77, find atp total.",
+     "a": "144",
+     "self_check": false
+    },
+    {
+     "q": "For Electron Transport Chain and Oxidative Phosphorylation: given nadh_share = 3.4, fadh_share = 67, find atp total.",
+     "a": "70.4",
+     "self_check": false
+    },
+    {
+     "q": "For Electron Transport Chain and Oxidative Phosphorylation: given nadh_share = 1.7, fadh_share = 72, find atp total.",
+     "a": "73.7",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebt105.6",
+   "title": "Photosynthesis Light Reactions and Calvin Cycle",
+   "converted_to_compute": true,
+   "formula": "atp_cost = pga_total + regen_atp",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "atp_cost = pga_total + regen_atp",
+     "compute": "atp_cost = pga_total + regen_atp"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Photosynthesis Light Reactions and Calvin Cycle: given pga_total = 63, regen_atp = 6.2, find atp cost.",
+     "a": "69.2",
+     "self_check": false
+    },
+    {
+     "q": "For Photosynthesis Light Reactions and Calvin Cycle: given pga_total = 117, regen_atp = 3.3, find atp cost.",
+     "a": "120.3",
+     "self_check": false
+    },
+    {
+     "q": "For Photosynthesis Light Reactions and Calvin Cycle: given pga_total = 27, regen_atp = 11.8, find atp cost.",
+     "a": "38.8",
+     "self_check": false
+    },
+    {
+     "q": "For Photosynthesis Light Reactions and Calvin Cycle: given pga_total = 27, regen_atp = 7.2, find atp cost.",
+     "a": "34.2",
+     "self_check": false
+    },
+    {
+     "q": "For Photosynthesis Light Reactions and Calvin Cycle: given pga_total = 31, regen_atp = 1.9, find atp cost.",
+     "a": "32.9",
+     "self_check": false
+    },
+    {
+     "q": "For Photosynthesis Light Reactions and Calvin Cycle: given pga_total = 42, regen_atp = 12.5, find atp cost.",
+     "a": "54.5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebt105.7",
+   "title": "Cell Cycle Arithmetic and Mitotic Stages",
+   "converted_to_compute": true,
+   "formula": "cells_total = initial_cells * 2 ** rounds",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "cells_total = initial_cells * 2 ** rounds",
+     "compute": "cells_total = initial_cells * 2 ** rounds"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Cell Cycle Arithmetic and Mitotic Stages: given initial_cells = 78, rounds = 31, find cells total.",
+     "a": "167503724544",
+     "self_check": false
+    },
+    {
+     "q": "For Cell Cycle Arithmetic and Mitotic Stages: given initial_cells = 26, rounds = 24, find cells total.",
+     "a": "436207616",
+     "self_check": false
+    },
+    {
+     "q": "For Cell Cycle Arithmetic and Mitotic Stages: given initial_cells = 48, rounds = 19.1, find cells total.",
+     "a": "26972062.326059",
+     "self_check": false
+    },
+    {
+     "q": "For Cell Cycle Arithmetic and Mitotic Stages: given initial_cells = 98, rounds = 43, find cells total.",
+     "a": "862017116176384",
+     "self_check": false
+    },
+    {
+     "q": "For Cell Cycle Arithmetic and Mitotic Stages: given initial_cells = 72, rounds = 42, find cells total.",
+     "a": "316659348799488",
+     "self_check": false
+    },
+    {
+     "q": "For Cell Cycle Arithmetic and Mitotic Stages: given initial_cells = 36, rounds = 24, find cells total.",
+     "a": "603979776",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "kebt105.1",
    "title": "Cell Signaling: Paracrine Autocrine and Endocrine",
@@ -44,37 +232,6 @@
    ]
   },
   {
-   "id": "kebt105.3",
-   "title": "Energy Yield of Glycolysis and Fermentation",
-   "questions": [
-    {
-     "q": "Compute the net ATP gain of glycolysis given that four ATP are generated and two are consumed. Use the method 'Energy Yield of Glycolysis and Fermentation'. Work with: atp_per_triose = 120, invested_atp = 360, triose_count = 8. Carry the chain through step by step and give the final value of net_yield.",
-     "a": "600 units",
-     "self_check": false
-    },
-    {
-     "q": "How many ATP does one glucose yield under homolactic fermentation and why so low? Use the method 'Energy Yield of Glycolysis and Fermentation'. Work with: atp_per_triose = 6, invested_atp = 50, triose_count = 15. Carry the chain through step by step and give the final value of net_yield.",
-     "a": "40 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Energy Yield of Glycolysis and Fermentation' refers to.",
-     "a": "Each glucose passing down the glycolytic line returns four ATP at the two substrate-level phosphorylation steps - two per triose across the two trioses formed - while two ATP were spent priming the sugar, so the net harvest is two; fermentation extends this by recycling NAD+ yet still yields only two ATP per glucose.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Energy Yield of Glycolysis and Fermentation'.",
-     "a": "Subtract the two priming ATP from the four collected to get the net two per glucose.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Energy Yield of Glycolysis and Fermentation', in plain ASCII form.",
-     "a": "net_yield = gross_atp - invested_atp",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "kebt105.4",
    "title": "Citric Acid Cycle in the Mitochondrial Matrix",
    "questions": [
@@ -91,99 +248,6 @@
     {
      "q": "Under which section is 'Citric Acid Cycle in the Mitochondrial Matrix' taught, and from which source text?",
      "a": "5.2.5 (source: kebt105.txt section 5.2.5, Fig. 5.6)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebt105.5",
-   "title": "Electron Transport Chain and Oxidative Phosphorylation",
-   "questions": [
-    {
-     "q": "Using the method 'Electron Transport Chain and Oxidative Phosphorylation', work with: fadh_units = 240, nadh_units = 120. Carry the chain through step by step and give the final value of atp_total.",
-     "a": "660 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Electron Transport Chain and Oxidative Phosphorylation' and work with: fadh_units = 5, nadh_units = 50. Carry the chain through step by step and give the final value of atp_total.",
-     "a": "132.5 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Electron Transport Chain and Oxidative Phosphorylation' refers to.",
-     "a": "Four giant complexes in the inner mitochondrial membrane pass electrons from NADH and FADH2 down to oxygen, pumping protons as complexes I, III and IV work - enough gradient for about 1, 0.5 and 1 ATP respectively - so one matrix NADH finally buys about 2.5 ATP while FADH2, entering at QH2 past complex I, buys only about 1.5.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Electron Transport Chain and Oxidative Phosphorylation'.",
-     "a": "Price NADH at 2.5 ATP and FADH2 at 1.5 ATP; complex II feeds in later and so pays less.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Electron Transport Chain and Oxidative Phosphorylation', in plain ASCII form.",
-     "a": "atp_total = nadh_share + fadh_share",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebt105.6",
-   "title": "Photosynthesis Light Reactions and Calvin Cycle",
-   "questions": [
-    {
-     "q": "Using the method 'Photosynthesis Light Reactions and Calvin Cycle', work with: co2_fixed = 24, electrons_sent = 45, regen_atp = 25. Carry the chain through step by step and give the final value of o2_evolved.",
-     "a": "11.25 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Photosynthesis Light Reactions and Calvin Cycle' and work with: co2_fixed = 150, electrons_sent = 100, regen_atp = 60. Carry the chain through step by step and give the final value of o2_evolved.",
-     "a": "25 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Photosynthesis Light Reactions and Calvin Cycle' refers to.",
-     "a": "Chloroplast machinery runs two phases: photosystems II and I split water - two molecules give one oxygen for every four electrons shipped to PSI - and build ATP plus NADPH by photophosphorylation, while the Calvin cycle in the stroma spends those coins to fix carbon dioxide onto ribulose-1,5-bisphosphate, reducing the six formed 3-phosphoglycerates with six ATP and six NADPH and then paying three more ATP to regenerate the acceptor.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Photosynthesis Light Reactions and Calvin Cycle'.",
-     "a": "Fixing three CO2 makes six 3-phosphoglycerate, so the reduction bill is six ATP plus six NADPH with three ATP more for regeneration.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Photosynthesis Light Reactions and Calvin Cycle', in plain ASCII form.",
-     "a": "atp_cost = pga_total + regen_atp",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebt105.7",
-   "title": "Cell Cycle Arithmetic and Mitotic Stages",
-   "questions": [
-    {
-     "q": "Using the method 'Cell Cycle Arithmetic and Mitotic Stages', work with: initial_cells = 3, rounds = 30. Carry the chain through step by step and give the final value of total_divisions.",
-     "a": "3221225469 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Cell Cycle Arithmetic and Mitotic Stages' and work with: initial_cells = 60, rounds = 20. Carry the chain through step by step and give the final value of total_divisions.",
-     "a": "62914500 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Cell Cycle Arithmetic and Mitotic Stages' refers to.",
-     "a": "A dividing cell passes through G1 growth, S phase where the 2C DNA content doubles to 4C, G2 preparation, and then mitosis - prophase, metaphase, anaphase, telophase - followed by cytokinesis; because every round doubles the population, starting from one cell, r rounds leave two raised to r cells and one fewer division events than cells produced.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Cell Cycle Arithmetic and Mitotic Stages'.",
-     "a": "Two raised to the number of rounds sizes a clone; subtract the starting cell to count the divisions performed.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Cell Cycle Arithmetic and Mitotic Stages', in plain ASCII form.",
-     "a": "cells_total = initial_cells * 2 ** rounds",
      "self_check": true
     }
    ]

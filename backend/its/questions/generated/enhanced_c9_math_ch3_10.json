@@ -34,6 +34,21 @@
      "q": "Create a real-world problem (using Indian context: money, distance, weight) that requires **at least two different operations** on real numbers (one irrational measurement). Solve it and explain why each intermediate and final result is guaranteed to be a real number.",
      "a": "Example: A square garden has a diagonal path of length \\(10\\sqrt{2}\\) metres. Find the side length and the cost of fencing the perimeter at ₹\\(120.50\\) per metre.  \nSide \\(= \\frac{10\\sqrt{2}}{\\sqrt{2}} = 10\\) m (real).  \nPerimeter \\(= 4 \\times 10 = 40\\) m (real).  \nCost \\(= 40 \\times 120.50 = ₹4820\\) (real).  \nAll operations (division, multiplication) on real numbers yield real numbers because \\(\\mathbb{R}\\) is closed. A poor answer computes without justifying closure or uses only rational numbers, missing the requirement for an irrational measurement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your father ______ the total cost of materials for a home renovation.",
+     "a": "calculate",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can state the closure properties for real numbers under the four basic operations, provide examples and counterexamples for subsets (like irrationals), and explain why division by zero is the only exception for real numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your father calculate the total cost of materials for a home ______.",
+     "a": "renovation",
+     "self_check": true
     }
    ]
   }

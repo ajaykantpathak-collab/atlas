@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using household materials to demonstrate that beryllium chloride (BeCl₂) is more covalent than magnesium chloride (MgCl₂). (Hint: consider solubility in organic solvents or hydrolysis behavior.)",
      "a": "A good answer: Dissolve equal amounts of BeCl₂ and MgCl₂ in ethanol. BeCl₂ dissolves readily (covalent character) while MgCl₂ is poorly soluble (ionic). Alternatively, add water: BeCl₂ hydrolyzes violently with fumes of HCl due to high charge density of Be²⁺, whereas MgCl₂ dissolves without immediate hydrolysis. A poor answer that only tests electrical conductivity in aqueous solution fails because both conduct when dissolved in water; the key is to probe covalent character via non‑polar solvents or hydrolysis kinetics.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The anomalous properties of second period elements refer to the distinct deviations in physical and chemical behavior exhibited by the first member of each group (Li, Be, B, C, N, O, F) compared to the subsequent members of the same group in the p‑block and s‑block, arising from their exceptionally small atomic size, high charge‑to‑radius ratio, high ______, and the availability of only four valence orbitals (2s and 2p) for bonding.",
+     "a": "electronegativity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by showing a student a piece of lithium metal (soft, silvery) and a strip of ______ ribbon (harder, higher melting).",
+     "a": "magnesium",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then introduce the orbital argument: second period elements lack accessible d‑orbitals, limiting covalency to ______ and favouring pπ–pπ overlap.",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why lithium and beryllium show diagonal relationships with magnesium and aluminium respectively, predict the maximum covalency of second period elements versus heavier congeners, and justify the enhanced tendency of second period p‑block elements to form pπ–pπ multiple bonds using orbital size and energy arguments.",
+     "self_check": true
     }
    ]
   }

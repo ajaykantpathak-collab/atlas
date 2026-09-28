@@ -34,6 +34,31 @@
      "q": "Design a simple \"Crop Calendar\" for your region: list three crops and the season they belong to.",
      "a": "The answer must correctly pair: Rice/Maize/Cotton with Kharif, and Wheat/Mustard/Barley with Rabi. An incorrect answer shows a lack of practical knowledge about local food sources.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Farming seasons in India are distinct periods for growing crops, ______ into Kharif and Rabi based on when they are sown and their dependence on weather conditions like the monsoon.",
+     "a": "categorized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever noticed why your favorite mangoes are available only in summer, or why certain ______ appear in the market only when it starts getting cold?",
+     "a": "vegetables",
+     "self_check": true
+    },
+    {
+     "q": "What is Farming seasons in India? State the definition given in this lesson.",
+     "a": "Farming seasons in India are distinct periods for growing crops, categorized into Kharif and Rabi based on when they are sown and their dependence on weather conditions like the monsoon.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Farming seasons in India?",
+     "a": "Students often think all crops grow year-round if given enough water.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify given crops into Kharif or Rabi categories and explain why specific crops are grown in specific seasons based on their water and temperature needs.",
+     "self_check": true
     }
    ]
   }

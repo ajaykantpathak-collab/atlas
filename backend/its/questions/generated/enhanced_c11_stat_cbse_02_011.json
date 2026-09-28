@@ -34,6 +34,36 @@
      "q": "Design a research plan to estimate the impact of the COVID-19 pandemic on rural employment in India during 2020-21. Specify which data source(s) you would use, the specific round(s) or year(s), and justify why other sources are inadequate.",
      "a": "Use NSSO Periodic Labour Force Survey (PLFS) quarterly bulletins for July 2019–June 2020 and July 2020–June 2021, which provide quarterly employment-unemployment indicators (WPR, LFPR, UR) for rural/urban separately. Census 2011 is too old and lacks quarterly frequency; Census 2021 was postponed. NSSO's Employment-Unemployment rounds (pre-PLFS) are discontinued. A poor plan that relies only on Census or administrative data shows inability to match data source characteristics (frequency, variables, recency) to the research question.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Census of India is a decennial complete enumeration of the population conducted under the Census Act, 1948, collecting demographic, social, and economic data from every household; NSSO (National Sample Survey Office) is a nodal agency under the Ministry of Statistics and Programme ______ that conducts large-scale sample surveys in successive rounds on socio-economic subjects, providing periodic estimates for policy formulation.",
+     "a": "Implementation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a policy analyst asked to estimate the current ______ rate in rural Uttar Pradesh for a government report due next month.",
+     "a": "unemployment",
+     "self_check": true
+    },
+    {
+     "q": "What is Census of India? State the definition given in this lesson.",
+     "a": "Census of India is a decennial complete enumeration of the population conducted under the Census Act, 1948, collecting demographic, social, and economic data from every household; NSSO (National Sample Survey Office) is a nodal agency under the Ministry of Statistics and Programme Implementation that conducts large-scale sample surveys.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Census of India is a decennial complete enumeration of the population conducted under the Census Act, ______, collecting demographic, social, and economic data from every household; NSSO (National Sample Survey Office) is a nodal agency under the Ministry of Statistics and Programme Implementation that conducts large-scale sample surveys in successive rounds on socio-economic subjects, providing periodic estimates for policy formulation.",
+     "a": "1948",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Census of India?",
+     "a": "Students often believe that because Census covers the entire population, it is \"more accurate\" than NSSO for *all* indicators.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between Census and NSSO data in terms of coverage, frequency, methodology, and typical use-cases, and can justify the choice of source for a given research problem with reference to sampling error, non-sampling error, and resource constraints.",
+     "self_check": true
     }
    ]
   }

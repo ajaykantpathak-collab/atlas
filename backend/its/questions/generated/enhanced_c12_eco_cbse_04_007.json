@@ -34,6 +34,26 @@
      "q": "Construct a numerical example where a firm's long-run supply curve has a gap (i.e., is not defined for a range of prices). Explain the economic reason.",
      "a": "Suppose LRAC has a flat minimum at q=10 to q=20 with LRAC=50, and LRMC is below 50 for q<10, equals 50 for 10≤q≤20, and rises above 50 for q>20. Then for P=50, any q between 10 and 20 satisfies P=LRMC, but the supply curve is not a function (multiple quantities). Typically, we assume strictly convex costs to avoid this. The gap arises if LRMC is not strictly rising through the minimum LRAC. A poor answer would not recognize that the supply correspondence may be multi-valued at the minimum LRAC if LRMC is flat.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The long-run supply curve of a firm under perfect ______ shows the quantity of output the firm chooses to supply at each possible market price when all inputs are variable and the firm can enter or exit the industry.",
+     "a": "competition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a wheat ______ in Punjab who can vary all inputs — land lease, machinery, labor — over the long run.",
+     "a": "farmer",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the long-run supply curve from given long-run cost curves, identify the shutdown price (minimum LRAC), and explain why the firm supplies zero output below that price and produces where P = LRMC above it.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a wheat farmer in Punjab who can vary all inputs — land lease, ______, labor — over the long run.",
+     "a": "machinery",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a simple home experiment using a **lemon, copper coin, and zinc nail** to demonstrate conversion of chemical energy to electrical energy. List the materials, steps, and how you would detect the electrical energy produced without a multimeter.",
      "a": "**Materials:** Lemon, copper coin (cathode), zinc-coated nail (anode), LED (low current red) or a sensitive galvanometer from school lab. **Steps:** Insert coin and nail into lemon without touching. Connect LED legs to coin and nail. **Detection:** LED glows dimly, proving electrical energy (current) is produced from chemical reaction (Zn oxidation, H⁺ reduction). A poor answer (e.g., \"use a voltmeter\" without explaining the chemical reaction, or expecting bright light) reveals lack of understanding of the electrochemical cell principle and energy magnitude.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Energy is the ______ of a system to do work, measured in joules (J) in the SI system.",
+     "a": "capacity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a torch in your home: when you switch it on, the battery (chemical energy) drives current through the bulb (______ energy) which glows (light energy) and warms up (heat energy).",
+     "a": "electrical",
+     "self_check": true
+    },
+    {
+     "q": "What is Energy? State the definition given in this lesson.",
+     "a": "Energy is the capacity of a system to do work, measured in joules (J) in the SI system.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Energy?",
+     "a": "Students believe \"chemical energy is stored inside the battery as electricity\" — they think the battery contains ready-made electrical energy that simply flows out.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify the initial and final energy forms in at least three common Indian household devices (e.g., pressure cooker, solar lantern, inverter battery) and explain the sequence of energy conversions using the principle of conservation of energy without numerical errors.",
+     "self_check": true
     }
    ]
   }

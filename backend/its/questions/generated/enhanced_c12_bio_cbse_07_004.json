@@ -34,6 +34,26 @@
      "q": "Design a molecular experiment to test whether the similar eye development gene Pax6 in mice and fruit flies is homologous (shared ancestry) or analogous (convergent evolution). Specify the key data you would collect and how you would interpret it.",
      "a": "Sequence Pax6 genomic loci (including introns, flanking regions) in mouse, fly, and outgroup (e.g., nematode). Align non-coding regions — homologous genes share conserved intron positions, regulatory elements, and synteny; analogous genes would show only coding-sequence similarity due to functional constraint. Also test functional interchangeability: express mouse Pax6 in fly eyeless mutant — if it rescues eye development, deep homology is confirmed. Poor answer focusing only on protein sequence % identity misses that convergent evolution can produce similar proteins; non-coding conservation is the gold standard.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Biochemical and molecular evidences for evolution refer to the similarities in DNA sequences, protein structures, genetic code, and metabolic pathways across diverse organisms that indicate shared ancestry; these molecular homologies provide quantitative, testable proof of evolutionary ______ at the genetic level.",
+     "a": "relationships",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real-world observation: when you get a blood test, the lab uses human hemoglobin structure — but the same hemoglobin protein exists in mice, frogs, and even fish with recognizable ______.",
+     "a": "similarity",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) explain how universal genetic code and conserved protein sequences (e.g., cytochrome c) support common ancestry, (2) interpret molecular phylogeny trees based on sequence alignment data, and (3) distinguish between homologous and analogous molecular traits with examples.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real-world observation: when you get a blood test, the lab uses human hemoglobin structure — but the same hemoglobin protein exists in mice, frogs, and even fish with ______ similarity.",
+     "a": "recognizable",
+     "self_check": true
     }
    ]
   }

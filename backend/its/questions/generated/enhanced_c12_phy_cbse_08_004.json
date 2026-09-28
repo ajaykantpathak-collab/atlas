@@ -27,12 +27,27 @@
     },
     {
      "q": "A student argues: “Since light carries momentum, a flashlight should recoil like a gun when turned on. Why don’t we observe this?” Evaluate this statement quantitatively. Estimate the recoil force of a 5 W flashlight and compare it to the weight of a mosquito (\\(mg \\approx 2 \\times 10^{-5} \\text{ N}\\)).",
-     "a": "The student is correct in principle: light carries momentum \\(p = U/c\\), so power \\(P\\) exerts force \\(F = P/c\\) (for absorption). For a 5 W flashlight, \\(F = 5 / (3 \\times 10^8) = 1.67 \\times 10^{-8} \\text{ N}\\). This is \\(\\sim 1000\\times\\) smaller than a mosquito’s weight (\\(2 \\times 10^{-5} \\text{ N}\\)), hence imperceptible. The statement is physically sound but the effect is negligible for everyday power levels. A wrong evaluation might say “light has no mass so no momentum” (confusing rest mass with relativistic momentum) or overestimate force by using \\(F = P/v\\) with wrong \\(v\\).",
+     "a": "(1) The principle — light does carry momentum, so a torch beam exerts a recoil force equal to its power divided by the speed of light, (2) The estimate — for a five-watt torch the force comes to about 1.7 times ten to the minus eight newton, (3) The comparison — that is nearly a thousand times smaller than the weight of a mosquito, which is why no recoil is ever felt, (4) The verdict — the student is right in principle but the effect is negligible at everyday power levels. A wrong evaluation says light has no mass so no momentum, confusing rest mass with relativistic momentum, or divides the power by the wrong speed.",
      "self_check": true
     },
     {
      "q": "Design a thought experiment using a torsion balance to measure radiation pressure of a laser beam. Specify the key measurable quantities, the expected deflection angle formula, and one major systematic error to control.",
      "a": "Suspend a lightweight mirror (area \\(A\\), mass \\(m\\)) on a torsion fiber (torsion constant \\(\\kappa\\)). Reflect a laser of power \\(P\\) normally onto the mirror. Radiation pressure \\(P_{\\text{rad}} = 2P/(cA)\\) exerts force \\(F = 2P/c\\). Torque \\(\\tau = F \\cdot d\\) (where \\(d\\) is lever arm) twists fiber by angle \\(\\theta = \\tau/\\kappa = (2Pd)/(\\kappa c)\\). Measure \\(\\theta\\) with an optical lever. Major systematic error: heating of the mirror causes air currents/convection producing spurious torque. Control by using a pulsed laser with low duty cycle or performing in vacuum. A poor answer omits the factor of 2 for reflection or ignores thermal effects.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An ______ wave is a self-propagating transverse wave consisting of mutually perpendicular, sinusoidally oscillating electric field vector E and magnetic field vector B, both perpendicular to the direction of propagation k.",
+     "a": "electromagnetic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a microwave oven: the rotating turntable ensures even heating because the microwaves form standing waves with hot and cold spots — this reveals that EM waves carry energy in a spatially varying pattern.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a microwave oven: the rotating turntable ensures even heating because the ______ form standing waves with hot and cold spots — this reveals that EM waves carry energy in a spatially varying pattern.",
+     "a": "microwaves",
      "self_check": true
     }
    ]

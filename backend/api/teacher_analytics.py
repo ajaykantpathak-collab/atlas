@@ -33,7 +33,9 @@ from collections import defaultdict
 from datetime import datetime, timezone
 from typing import Any, Optional
 
-from fastapi import APIRouter, Query
+from fastapi import APIRouter, Depends, HTTPException, Query, status
+
+from backend.deps import get_current_user_optional  # noqa: E402
 
 router = APIRouter(prefix="/api/teacher-analytics", tags=["teacher-analytics"])
 
@@ -214,12 +216,22 @@ def _empty_overview(reason: str) -> dict[str, Any]:
     }
 
 
+async def _require_staff(user=Depends(get_current_user_optional)):
+    """Teacher-surface guard (B15): anonymous -> 401, non-teacher -> 403."""
+    if user is None:
+        raise HTTPException(status.HTTP_401_UNAUTHORIZED, detail="Not authenticated")
+    if str(getattr(user, "role", "") or "").strip().lower() not in ("teacher", "admin"):
+        raise HTTPException(status.HTTP_403_FORBIDDEN, detail="Teacher or admin role required")
+    return user
+
+
 @router.get("/overview")
 async def overview(
     roster_limit: int = Query(50, ge=1, le=500,
                               description="Max student rows returned"),
     weak_limit: int = Query(8, ge=1, le=25,
                             description="Max weakest-concept rows returned"),
+    user=Depends(_require_staff),
 ) -> dict[str, Any]:
     """Class mastery overview + cohort gap report.
 

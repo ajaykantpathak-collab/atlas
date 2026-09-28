@@ -34,6 +34,26 @@
      "q": "Design a step-by-step procedure for a surveyor to determine the focal length of an aerial camera using only a vertical aerial photograph of a flat terrain with known ground control points (coordinates and elevations). Assume flying height above datum is known from GPS.",
      "a": "Procedure: (1) Identify principal point via fiducial marks. (2) Measure photo coordinates (x, y) of at least 3 well-distributed ground control points. (3) Compute photo distances from principal point: r = √(x² + y²). (4) Compute ground distances from principal point's ground nadir to each control point using their coordinates. (5) Compute height above ground for each: H - h. (6) For each point, calculate f = r × (H - h) / ground distance. (7) Average the f values. A poor answer (e.g., \"measure the lens\") reveals ignorance of the central projection geometry and the calibration principle using ground control.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In vertical aerial photography, the focal length (f) is the precise distance from the camera lens's optical centre to the image plane (film/sensor) when focused at infinity, measured in millimetres; the principal point (PP) is the geometric centre of the photograph where the optical axis intersects the image plane, serving as the reference origin for all coordinate ______ and scale calculations on the photograph.",
+     "a": "measurements",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are holding a printed aerial ______ of your school campus taken from a drone.",
+     "a": "photograph",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Understanding this geometry lets you convert a ______ cm distance on the photo into actual metres on the ground — the foundation for all quantitative aerial photo analysis.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the principal point on an aerial photograph using fiducial marks, calculate photo scale given focal length and flying height, and explain how focal length determines the angular field of view and ground coverage for a given flying height.",
+     "self_check": true
     }
    ]
   }

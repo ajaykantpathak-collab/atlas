@@ -1,0 +1,528 @@
+{
+ "catalog": "catalog_class12_physics_leph103.json",
+ "concepts": [
+  {
+   "id": "leph103.3.2.1",
+   "title": "Electric Current as Charge Flow Rate",
+   "converted_to_compute": true,
+   "formula": "I = q / t",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "I = q / t",
+     "compute": "I = q / t"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Electric Current as Charge Flow Rate: given q = 76, t = 31, find I.",
+     "a": "2.45161",
+     "self_check": false
+    },
+    {
+     "q": "For Electric Current as Charge Flow Rate: given q = 56, t = 40, find I.",
+     "a": "1.4",
+     "self_check": false
+    },
+    {
+     "q": "For Electric Current as Charge Flow Rate: given q = 23, t = 68, find I.",
+     "a": "0.338235",
+     "self_check": false
+    },
+    {
+     "q": "For Electric Current as Charge Flow Rate: given q = 33, t = 72, find I.",
+     "a": "0.458333",
+     "self_check": false
+    },
+    {
+     "q": "For Electric Current as Charge Flow Rate: given q = 52, t = 83, find I.",
+     "a": "0.626506",
+     "self_check": false
+    },
+    {
+     "q": "For Electric Current as Charge Flow Rate: given q = 68, t = 14.5, find I.",
+     "a": "4.68966",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph103.3.4.1",
+   "title": "Ohm Law and Resistance",
+   "converted_to_compute": true,
+   "formula": "R = V / I",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "R = V / I",
+     "compute": "R = V / I"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Ohm Law and Resistance: given V = 13, I = 53, find R.",
+     "a": "0.245283",
+     "self_check": false
+    },
+    {
+     "q": "For Ohm Law and Resistance: given V = 94, I = 4.1, find R.",
+     "a": "22.9268",
+     "self_check": false
+    },
+    {
+     "q": "For Ohm Law and Resistance: given V = 57, I = 0.7, find R.",
+     "a": "81.4286",
+     "self_check": false
+    },
+    {
+     "q": "For Ohm Law and Resistance: given V = 1.3, I = 93, find R.",
+     "a": "0.0139785",
+     "self_check": false
+    },
+    {
+     "q": "For Ohm Law and Resistance: given V = 91, I = 52, find R.",
+     "a": "1.75",
+     "self_check": false
+    },
+    {
+     "q": "For Ohm Law and Resistance: given V = 7.3, I = 14.3, find R.",
+     "a": "0.51049",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph103.3.4.2",
+   "title": "Resistance from Resistivity and Geometry",
+   "converted_to_compute": true,
+   "formula": "R = rho * l / A",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "R = rho * l / A",
+     "compute": "R = rho * l / A"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Resistance from Resistivity and Geometry: given rho = 59, l = 37, A = 57, find R.",
+     "a": "38.2982",
+     "self_check": false
+    },
+    {
+     "q": "For Resistance from Resistivity and Geometry: given rho = 98, l = 73, A = 39, find R.",
+     "a": "183.436",
+     "self_check": false
+    },
+    {
+     "q": "For Resistance from Resistivity and Geometry: given rho = 84, l = 27, A = 68, find R.",
+     "a": "33.3529",
+     "self_check": false
+    },
+    {
+     "q": "For Resistance from Resistivity and Geometry: given rho = 16.7, l = 89, A = 28, find R.",
+     "a": "53.0821",
+     "self_check": false
+    },
+    {
+     "q": "For Resistance from Resistivity and Geometry: given rho = 84, l = 66, A = 78, find R.",
+     "a": "71.0769",
+     "self_check": false
+    },
+    {
+     "q": "For Resistance from Resistivity and Geometry: given rho = 23, l = 38, A = 60, find R.",
+     "a": "14.5667",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph103.3.5.1",
+   "title": "Drift Speed of Conduction Electrons",
+   "converted_to_compute": true,
+   "formula": "v_d = I / (n * 1.6e-19 * A)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "v_d = I / (n * 1.6e-19 * A)",
+     "compute": "v_d = I / (n * 1.6e-19 * A)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Drift Speed of Conduction Electrons: given I = 30, n = 53, A = 94, find v d.",
+     "a": "37635487755921320",
+     "self_check": false
+    },
+    {
+     "q": "For Drift Speed of Conduction Electrons: given I = 51, n = 12.2, A = 93, find v d.",
+     "a": "280936012691697568",
+     "self_check": false
+    },
+    {
+     "q": "For Drift Speed of Conduction Electrons: given I = 1.7, n = 91, A = 46, find v d.",
+     "a": "2538222646918299",
+     "self_check": false
+    },
+    {
+     "q": "For Drift Speed of Conduction Electrons: given I = 71, n = 85, A = 76, find v d.",
+     "a": "68691950464396296",
+     "self_check": false
+    },
+    {
+     "q": "For Drift Speed of Conduction Electrons: given I = 80, n = 86, A = 86, find v d.",
+     "a": "67604110329908064",
+     "self_check": false
+    },
+    {
+     "q": "For Drift Speed of Conduction Electrons: given I = 46, n = 42, A = 8.1, find v d.",
+     "a": "845091122868900736",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph103.3.8.1",
+   "title": "Temperature Dependence of Resistance",
+   "converted_to_compute": true,
+   "formula": "R_T = R_0 * (1 + alpha * (T - T_0))",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "R_T = R_0 * (1 + alpha * (T - T_0))",
+     "compute": "R_T = R_0 * (1 + alpha * (T - T_0))"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Temperature Dependence of Resistance: given R_0 = 86, alpha = 11.5, T = 80, T_0 = 25, find R T.",
+     "a": "54481",
+     "self_check": false
+    },
+    {
+     "q": "For Temperature Dependence of Resistance: given R_0 = 55, alpha = 39, T = 44, T_0 = 73, find R T.",
+     "a": "-62150",
+     "self_check": false
+    },
+    {
+     "q": "For Temperature Dependence of Resistance: given R_0 = 60, alpha = 44, T = 11.2, T_0 = 99, find R T.",
+     "a": "-231732",
+     "self_check": false
+    },
+    {
+     "q": "For Temperature Dependence of Resistance: given R_0 = 44, alpha = 99, T = 92, T_0 = 11.7, find R T.",
+     "a": "349831",
+     "self_check": false
+    },
+    {
+     "q": "For Temperature Dependence of Resistance: given R_0 = 46, alpha = 96, T = 63, T_0 = 13.3, find R T.",
+     "a": "219521",
+     "self_check": false
+    },
+    {
+     "q": "For Temperature Dependence of Resistance: given R_0 = 34, alpha = 69, T = 56, T_0 = 95, find R T.",
+     "a": "-91460",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph103.3.9.1",
+   "title": "Ohmic Power Dissipation",
+   "converted_to_compute": true,
+   "formula": "P = I**2 * R",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "P = I**2 * R",
+     "compute": "P = I**2 * R"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Ohmic Power Dissipation: given I = 42, R = 29, find P.",
+     "a": "51156",
+     "self_check": false
+    },
+    {
+     "q": "For Ohmic Power Dissipation: given I = 31, R = 17.8, find P.",
+     "a": "17105.8",
+     "self_check": false
+    },
+    {
+     "q": "For Ohmic Power Dissipation: given I = 72, R = 70, find P.",
+     "a": "362880",
+     "self_check": false
+    },
+    {
+     "q": "For Ohmic Power Dissipation: given I = 9.1, R = 86, find P.",
+     "a": "7121.66",
+     "self_check": false
+    },
+    {
+     "q": "For Ohmic Power Dissipation: given I = 7, R = 84, find P.",
+     "a": "4116",
+     "self_check": false
+    },
+    {
+     "q": "For Ohmic Power Dissipation: given I = 34, R = 16.3, find P.",
+     "a": "18842.8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph103.3.10.1",
+   "title": "Current from a Cell with Internal Resistance",
+   "converted_to_compute": true,
+   "formula": "I = emf / (R + r)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "I = emf / (R + r)",
+     "compute": "I = emf / (R + r)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Current from a Cell with Internal Resistance: given emf = 341, R = 27, r = 78, find I.",
+     "a": "3.24762",
+     "self_check": false
+    },
+    {
+     "q": "For Current from a Cell with Internal Resistance: given emf = 242, R = 19.8, r = 2.6, find I.",
+     "a": "10.8036",
+     "self_check": false
+    },
+    {
+     "q": "For Current from a Cell with Internal Resistance: given emf = 306, R = 89, r = 41, find I.",
+     "a": "2.35385",
+     "self_check": false
+    },
+    {
+     "q": "For Current from a Cell with Internal Resistance: given emf = 347, R = 78, r = 12.1, find I.",
+     "a": "3.85128",
+     "self_check": false
+    },
+    {
+     "q": "For Current from a Cell with Internal Resistance: given emf = 318, R = 2.1, r = 63, find I.",
+     "a": "4.88479",
+     "self_check": false
+    },
+    {
+     "q": "For Current from a Cell with Internal Resistance: given emf = 414, R = 17.1, r = 82, find I.",
+     "a": "4.1776",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph103.3.10.2",
+   "title": "Terminal Voltage of a Real Cell",
+   "converted_to_compute": true,
+   "formula": "V = emf - I * r",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "V = emf - I * r",
+     "compute": "V = emf - I * r"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Terminal Voltage of a Real Cell: given emf = 222, I = 7.3, r = 70, find V.",
+     "a": "-289",
+     "self_check": false
+    },
+    {
+     "q": "For Terminal Voltage of a Real Cell: given emf = 188, I = 67, r = 14.5, find V.",
+     "a": "-783.5",
+     "self_check": false
+    },
+    {
+     "q": "For Terminal Voltage of a Real Cell: given emf = 238, I = 37, r = 84, find V.",
+     "a": "-2870",
+     "self_check": false
+    },
+    {
+     "q": "For Terminal Voltage of a Real Cell: given emf = 357, I = 19.7, r = 84, find V.",
+     "a": "-1297.8",
+     "self_check": false
+    },
+    {
+     "q": "For Terminal Voltage of a Real Cell: given emf = 402, I = 96, r = 91, find V.",
+     "a": "-8334",
+     "self_check": false
+    },
+    {
+     "q": "For Terminal Voltage of a Real Cell: given emf = 59, I = 92, r = 16.9, find V.",
+     "a": "-1495.8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph103.3.11.1",
+   "title": "Cells in Series Driving a Load",
+   "converted_to_compute": true,
+   "formula": "I = (e_1 + e_2) / (r_1 + r_2 + R)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "I = (e_1 + e_2) / (r_1 + r_2 + R)",
+     "compute": "I = (e_1 + e_2) / (r_1 + r_2 + R)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Cells in Series Driving a Load: given e_1 = 62, e_2 = 31, r_1 = 90, r_2 = 68, R = 23, find I.",
+     "a": "0.513812",
+     "self_check": false
+    },
+    {
+     "q": "For Cells in Series Driving a Load: given e_1 = 26, e_2 = 20, r_1 = 88, r_2 = 82, R = 25, find I.",
+     "a": "0.235897",
+     "self_check": false
+    },
+    {
+     "q": "For Cells in Series Driving a Load: given e_1 = 30, e_2 = 23, r_1 = 19.5, r_2 = 80, R = 11.4, find I.",
+     "a": "0.477908",
+     "self_check": false
+    },
+    {
+     "q": "For Cells in Series Driving a Load: given e_1 = 38, e_2 = 17.5, r_1 = 97, r_2 = 76, R = 63, find I.",
+     "a": "0.235169",
+     "self_check": false
+    },
+    {
+     "q": "For Cells in Series Driving a Load: given e_1 = 53, e_2 = 90, r_1 = 90, r_2 = 33, R = 49, find I.",
+     "a": "0.831395",
+     "self_check": false
+    },
+    {
+     "q": "For Cells in Series Driving a Load: given e_1 = 64, e_2 = 72, r_1 = 38, r_2 = 70, R = 81, find I.",
+     "a": "0.719577",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph103.3.12.1",
+   "title": "Kirchhoff Junction and Loop Rules",
+   "converted_to_compute": true,
+   "formula": "sum_I_in = sum_I_out; sum_delta_V_loop = 0",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "sum_I_in = sum_I_out",
+     "compute": "sum_I_in = sum_I_out"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "sum_delta_V_loop = 0",
+     "compute": "sum_delta_V_loop = 0"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Kirchhoff Junction and Loop Rules: given sum_I_out = 96, find sum delta V loop.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Kirchhoff Junction and Loop Rules: given sum_I_out = 43, find sum delta V loop.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Kirchhoff Junction and Loop Rules: given sum_I_out = 48, find sum delta V loop.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Kirchhoff Junction and Loop Rules: given sum_I_out = 45, find sum delta V loop.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Kirchhoff Junction and Loop Rules: given sum_I_out = 8.4, find sum delta V loop.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Kirchhoff Junction and Loop Rules: given sum_I_out = 8.3, find sum delta V loop.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph103.3.13.2",
+   "title": "Unknown Resistance from a Balanced Bridge",
+   "converted_to_compute": true,
+   "formula": "R_4 = R_3 * R_2 / R_1",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "R_4 = R_3 * R_2 / R_1",
+     "compute": "R_4 = R_3 * R_2 / R_1"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Unknown Resistance from a Balanced Bridge: given R_3 = 40, R_2 = 47, R_1 = 60, find R 4.",
+     "a": "31.3333",
+     "self_check": false
+    },
+    {
+     "q": "For Unknown Resistance from a Balanced Bridge: given R_3 = 69, R_2 = 10.5, R_1 = 70, find R 4.",
+     "a": "10.35",
+     "self_check": false
+    },
+    {
+     "q": "For Unknown Resistance from a Balanced Bridge: given R_3 = 72, R_2 = 81, R_1 = 89, find R 4.",
+     "a": "65.5281",
+     "self_check": false
+    },
+    {
+     "q": "For Unknown Resistance from a Balanced Bridge: given R_3 = 43, R_2 = 31, R_1 = 13.3, find R 4.",
+     "a": "100.226",
+     "self_check": false
+    },
+    {
+     "q": "For Unknown Resistance from a Balanced Bridge: given R_3 = 0.9, R_2 = 30, R_1 = 40, find R 4.",
+     "a": "0.675",
+     "self_check": false
+    },
+    {
+     "q": "For Unknown Resistance from a Balanced Bridge: given R_3 = 10.3, R_2 = 11.9, R_1 = 60, find R 4.",
+     "a": "2.04283",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

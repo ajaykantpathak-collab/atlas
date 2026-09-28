@@ -34,6 +34,36 @@
      "q": "Design a simple staining experiment using a flower bud at the right developmental stage to visualize the linear tetrad of megaspores. Specify the stain, the stage of bud to collect, and the expected observation if the monosporic pattern is followed.",
      "a": "Collect flower buds where the megaspore mother cell has just completed meiosis (young ovules, before functional megaspore enlarges). Squash the ovule in acetocarmine or Feulgen stain (DNA-specific). Observe under microscope: a linear row of four haploid nuclei (tetrad), with the three micropylar ones shrunken/degenerating and the chalazal one prominent — confirming monosporic pattern. A poor answer (e.g., \"use mature flower\" or \"look for 8 nuclei\") shows inability to select the correct developmental window and confusion between megasporogenesis (meiosis) and megagametogenesis (mitosis).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the process of formation of haploid megaspores from a diploid megaspore mother cell (MMC) through meiotic division inside the ovule (megasporangium) of flowering plants.",
+     "a": "Megasporogenesis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe that the MMC undergoes meiosis I and II to produce four haploid megaspores arranged in a linear tetrad — a key difference from ______ where all four microspores survive.",
+     "a": "microsporogenesis",
+     "self_check": true
+    },
+    {
+     "q": "What is Megasporogenesis? State the definition given in this lesson.",
+     "a": "Megasporogenesis is the process of formation of haploid megaspores from a diploid megaspore mother cell (MMC) through meiotic division inside the ovule (megasporangium) of flowering plants.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This functional megaspore then undergoes three rounds of mitosis *without cytokinesis* to reach the ______-nucleate stage, followed by cellularization.",
+     "a": "8",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Megasporogenesis?",
+     "a": "Students often think the \"functional megaspore\" is the *first* cell of the embryo sac and that the embryo sac forms *directly* from it by cell division (cytokinesis).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can draw and label the sequential stages of megasporogenesis and megagametogenesis (2-nucleate, 4-nucleate, 8-nucleate, mature embryo sac), explain why only one megaspore becomes functional in the monosporic (Polygonum) type, and describe the fate of each nucleus in the mature embryo sac during double fertilization.",
+     "self_check": true
     }
    ]
   }

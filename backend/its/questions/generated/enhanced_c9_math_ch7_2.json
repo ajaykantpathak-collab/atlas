@@ -34,6 +34,36 @@
      "q": "Create a real-life situation (Indian context) for each of these five probability values: 0, 0.2, 0.5, 0.8, 1. Describe the random experiment and the event clearly.",
      "a": "Sample answers: (0) \"Drawing a green ball from a bag containing only red and blue balls\" — impossible. (0.2) \"Randomly selecting a Monday from a week\" — 1/7 ≈ 0.14 (unlikely), or \"getting a 6 on a fair die\" — 1/6 ≈ 0.17. (0.5) \"Tossing a fair coin and getting heads\" — equally likely. (0.8) \"A student who studies daily passing a Class 9 math test\" — likely (subjective but reasonable). (1) \"The sun rising in the east tomorrow\" — certain. A poor answer uses vague events like \"maybe it will rain\" without a clear random experiment, or gives events that don't match the probability (e.g., \"getting a 7 on a die\" for 0.2 instead of 0). This reveals the student cannot connect abstract probability values to concrete experiments.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is a numerical measure of the likelihood of an event occurring, expressed as a number between 0 and 1 inclusive, where 0 indicates an impossible event and 1 indicates a certain event.",
+     "a": "Probability",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you check the weather forecast before a school picnic and it says \"30% chance of rain\" — what does that number ______ tell you about whether you should carry an umbrella?",
+     "a": "actually",
+     "self_check": true
+    },
+    {
+     "q": "What is Probability? State the definition given in this lesson.",
+     "a": "Probability is a numerical measure of the likelihood of an event occurring, expressed as a number between 0 and 1 inclusive, where 0 indicates an impossible event and 1 indicates a certain event.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you check the weather forecast before a school picnic and it says \"______% chance of rain\" — what does that number actually tell you about whether you should carry an umbrella?",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Probability?",
+     "a": "Students write probability as \"2:3\" or \"2 out of 5\" without converting to a single number between 0 and 1.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) State that probability values always lie in the closed interval [0, 1], (2) Interpret any given probability value (fraction, decimal, or percentage) on the probability scale and classify the event as impossible, unlikely, equally likely, likely, or certain, (3) Explain why probability cannot be negative or exceed 1.",
+     "self_check": true
     }
    ]
   }

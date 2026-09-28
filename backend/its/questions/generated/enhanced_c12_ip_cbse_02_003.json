@@ -32,7 +32,32 @@
     },
     {
      "q": "Design a small DataFrame (3 rows, 3 columns) with **non-integer, non-sequential row labels** and **non-alphabetical column labels** such that `df.loc[2]` raises KeyError but `df.iloc[2]` returns a valid row. Show the DataFrame creation code and both calls.",
-     "a": "```python\nimport pandas as pd\ndf = pd.DataFrame([[1,2,3],[4,5,6],[7,8,9]], \n                  index=['rowA','rowB','rowC'], \n                  cols=['colX','colY','colZ'])  # typo: cols → columns",
+     "a": "```python\nimport pandas as pd\ndf = pd.DataFrame([[1,2,3],[4,5,6],[7,8,9]], \n                  index=['rowA','rowB','rowC'], \n                  cols=['colX','colY','colZ'])  # typo: cols → columns\n# Fix:\ndf = pd.DataFrame([[1,2,3],[4,5,6],[7,8,9]], \n                  index=['rowA','rowB','rowC'], \n                  columns=['colX','colY','colZ'])\nprint(df.loc[2])   # KeyError: 2 not in index\nprint(df.iloc[2])  # returns rowC as Series\n```\nA poor answer uses default integer index, missing the whole point. The exercise tests if the student can *construct* a scenario exposing the label vs position distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: loc is a label-based indexer for DataFrame that selects rows and columns by their explicit index labels (row index and column names); iloc is an integer-position-based indexer that selects rows and columns by their zero-based ______ offsets (like Python list slicing).",
+     "a": "positional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class teacher with a marks ______ where rows are labelled by student *names* (not roll numbers) and columns are subject names.",
+     "a": "DataFrame",
+     "self_check": true
+    },
+    {
+     "q": "What is loc? State the definition given in this lesson.",
+     "a": "loc is a label-based indexer for DataFrame that selects rows and columns by their explicit index labels (row index and column names); iloc is an integer-position-based indexer that selects rows and columns by their zero-based positional offsets (like Python list slicing).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about loc?",
+     "a": "Misconception: \"When row indices are integers 0,1,2,..., loc and iloc behave identically.\" Why it's wrong: They *coincide* only for default RangeIndex.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Given a DataFrame with non-default row indices and column names, the student can independently write correct loc and iloc statements to (1) extract a single cell, (2) extract a single row/column as Series, (3) extract a rectangular sub-DataFrame by label slice and by position slice, and (4) explain why df.loc[2:5] and df.iloc[2:5].",
      "self_check": true
     }
    ]

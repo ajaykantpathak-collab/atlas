@@ -94,7 +94,7 @@
     "identify the like terms in the expression",
     "are 3x squared y and -5 x squared y like terms"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -111,7 +111,16 @@
      "action": "check like terms",
      "explain": "Like terms have the same variables with the same powers"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 4 + 3 gives 15",
+     "compute": "val = 3 * 4 + 3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c8m8.3.1",
@@ -203,7 +212,7 @@
     "multiply a monomial by a trinomial",
     "expand using the distributive law"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -220,7 +229,16 @@
      "action": "add the products",
      "explain": "Write the sum of all products as the answer"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 2 + 8 gives 14",
+     "compute": "val = 3 * 2 + 8"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c8m8.5.1",
@@ -239,7 +257,7 @@
     "expand the product of two binomials",
     "carry out the term by term multiplication"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -256,7 +274,16 @@
      "action": "combine like terms",
      "explain": "Add coefficients of like terms to reduce to three or fewer terms"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 9 + 7 gives 34",
+     "compute": "val = 3 * 9 + 7"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c8m8.5.2",
@@ -274,7 +301,7 @@
     "simplify (1.5x - 4y)(1.5x + 4y + 3) - 4.5x + 12y",
     "multiply each term of the trinomial by the binomial"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -291,7 +318,16 @@
      "action": "combine like terms",
      "explain": "Collect the like terms to give the final answer"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 7 + 7 gives 28",
+     "compute": "val = 3 * 7 + 7"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

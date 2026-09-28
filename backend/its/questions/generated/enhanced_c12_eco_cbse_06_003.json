@@ -34,6 +34,36 @@
      "q": "Construct a numerical example (with demand and cost functions) where a monopoly's short-run equilibrium output is exactly at the shutdown point (P = minimum AVC). Show all steps and interpret the economic meaning.",
      "a": "Let demand: P = 30 - Q. TC = 20 + 10Q + 0.5Q². Then AVC = 10 + 0.5Q. Minimum AVC occurs at Q=0? Actually AVC is linear increasing, min at Q=0: AVC_min = 10. But shutdown point is where P = min AVC. At Q=0, P=30. Not equal. To have equilibrium at shutdown, we need MR=MC at output where P = min AVC. Let's design: MC = 10 + Q. MR = 30 - 2Q. Set MR=MC → 30-2Q = 10+Q → Q=20/3 ≈ 6.67. At this Q, P = 30 - 6.67 = 23.33. AVC = 10 + 0.5(6.67) = 13.33. P > AVC. Not shutdown.  \nTo get P = min AVC at equilibrium, we need a U-shaped AVC. Let TC = 50 + 20Q - 2Q² + 0.2Q³. Then AVC = 20 - 2Q + 0.2Q². Min AVC: dAVC/dQ = -2 + 0.4Q = 0 → Q=5. Min AVC = 20 -10 +5 = 15. MC = 20 -4Q +0.6Q². At Q=5, MC = 20 -20 +15 = 15. So MC = min AVC at Q=5. Now choose demand such that MR=MC at Q=5 and P = 15. Let demand be linear: P = a - bQ. MR = a - 2bQ. At Q=5, MR = MC = 15 → a - 10b = 15. Also P = 15 = a - 5b. Solve: subtract: (a-5b) - (a-10b) = 15-15 → 5b=0 → b=0, then a=15. That's a horizontal demand (perfect competition), not monopoly. So a monopoly with downward-sloping demand cannot have equilibrium exactly at shutdown point unless demand is tangent to AVC at min? Actually, if demand is such that MR=MC at the same Q where P = min AVC, then the demand curve must intersect the AVC curve at its minimum and MR=MC there. This requires specific parameters. A simpler example: Let demand P = 25 - Q. TC = 10Q + 0.5Q² (no fixed cost). AVC = 10 + 0.5Q, min at Q=0 (AVC=10). MC = 10+Q. MR = 25-2Q. MR=MC → 25-2Q=10+Q → Q=5. P=20, AVC=12.5. Not shutdown.  \nThe point: it's possible but requires careful parameter choice. A good student answer will demonstrate the algebra and conclude that at shutdown point the firm is indifferent between producing and shutting down; economic profit = -TFC. A poor answer will give an example where P > AVC or where MR≠MC.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Monopoly short-run ______ is the output level where a single seller maximizes profit (or minimizes loss) by equating marginal revenue (MR) to marginal cost (MC), provided MC cuts MR from below, and the price (AR) covers average variable cost (AVC) to continue production.",
+     "a": "equilibrium",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run the only branded tea stall at a busy Delhi Metro station — no ______ substitutes exist.",
+     "a": "close",
+     "self_check": true
+    },
+    {
+     "q": "What is Monopoly short-run equilibrium? State the definition given in this lesson.",
+     "a": "Monopoly short-run equilibrium is the output level where a single seller maximizes profit (or minimizes loss) by equating marginal revenue (MR) to marginal cost (MC), provided MC cuts MR from below, and the price (AR) covers average variable cost (AVC) to continue production.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Next, compute marginal cost (MC = ΔVC/ΔQ = ₹______ constant).",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Monopoly short-run equilibrium?",
+     "a": "Students often believe that a monopoly always sets price where demand is elastic (MR>0) and therefore always earns positive profit.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) identify the profit-maximizing output from given MR and MC schedules or equations, (2) determine the corresponding price from the demand (AR) curve, (3) compute profit/loss using TR-TC or (AR-AC)×Q, and (4) state the shutdown condition (P < AVC) with correct economic reasoning.",
+     "self_check": true
     }
    ]
   }

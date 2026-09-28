@@ -34,6 +34,26 @@
      "q": "Create a novel \"Extension Worker Competency Framework\" table with 4 domains (Personal, Technical, Process, Contextual), 3 competencies per domain, and one observable behavioural indicator for each competency. Ensure it reflects the Indian rural context.",
      "a": "Expected answer: A 4x3 table. Example: Personal → Integrity → \"Refuses bribe for input distribution\"; Technical → Nutrition assessment → \"Correctly identifies SAM child using MUAC tape\"; Process → Facilitation → \"Enables silent women to speak in SHG meeting\"; Contextual → Language → \"Explains composting in local dialect using folk analogies\". Poor answer: generic competencies like \"communication\" without context-specific indicators, showing inability to translate theory into measurable field behaviour.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An extension worker is a trained professional who acts as a crucial link between research/knowledge systems (agricultural universities, KVKs, government departments) and community members (farmers, rural families, women's groups), facilitating the transfer of technology, information, and skills for sustainable livelihood improvement and empowerment through ______, needs-based approaches.",
+     "a": "participatory",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are posted as a fresh Home ______ graduate in a Krishi Vigyan Kendra in a tribal block of Jharkhand.",
+     "a": "Science",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can list at least 8 essential qualities with justification, describe 5 distinct roles with context-specific examples, and design a 3-component professional development plan for an extension worker addressing knowledge, skills, and attitude gaps.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are posted as a fresh Home Science graduate in a Krishi Vigyan Kendra in a tribal block of ______.",
+     "a": "Jharkhand",
+     "self_check": true
     }
    ]
   }

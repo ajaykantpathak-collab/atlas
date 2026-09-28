@@ -1,0 +1,233 @@
+{
+ "catalog": "catalog_class11_accountancy_ch101.json",
+ "concepts": [
+  {
+   "id": "keac.101.9",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "revenue = 11.3",
+      "expenses = 36",
+      "profit = revenue - expenses"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "revenue = 11.3",
+      "expenses = 36",
+      "profit = revenue - expenses"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "revenue = 32",
+      "expenses = 67",
+      "profit = revenue - expenses"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "revenue = 32",
+      "expenses = 67",
+      "profit = revenue - expenses"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "revenue = 76",
+      "expenses = 96",
+      "profit = revenue - expenses"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "revenue = 76",
+      "expenses = 96",
+      "profit = revenue - expenses"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "profit = revenue - expenses"
+   ]
+  },
+  {
+   "id": "keac.101.10",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "expenses = 36",
+      "revenue = 51",
+      "loss = expenses - revenue"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "expenses = 36",
+      "revenue = 51",
+      "loss = expenses - revenue"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "expenses = 58",
+      "revenue = 2.5",
+      "loss = expenses - revenue"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "expenses = 58",
+      "revenue = 2.5",
+      "loss = expenses - revenue"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "expenses = 56",
+      "revenue = 8.2",
+      "loss = expenses - revenue"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "expenses = 56",
+      "revenue = 8.2",
+      "loss = expenses - revenue"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "loss = expenses - revenue"
+   ]
+  },
+  {
+   "id": "keac.101.11",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "selling_price = 69",
+      "cost_price = 50",
+      "gain = selling_price - cost_price"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "selling_price = 69",
+      "cost_price = 50",
+      "gain = selling_price - cost_price"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "selling_price = 47",
+      "cost_price = 8.6",
+      "gain = selling_price - cost_price"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "selling_price = 47",
+      "cost_price = 8.6",
+      "gain = selling_price - cost_price"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "selling_price = 57",
+      "cost_price = 103",
+      "gain = selling_price - cost_price"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "selling_price = 57",
+      "cost_price = 103",
+      "gain = selling_price - cost_price"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "gain = selling_price - cost_price"
+   ]
+  },
+  {
+   "id": "keac.101.12",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "expenses = 66",
+      "losses = 9.4",
+      "total_outflow = expenses + losses"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "expenses = 66",
+      "losses = 9.4",
+      "total_outflow = expenses + losses"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "expenses = 61",
+      "losses = 18",
+      "total_outflow = expenses + losses"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "expenses = 61",
+      "losses = 18",
+      "total_outflow = expenses + losses"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "expenses = 75",
+      "losses = 97",
+      "total_outflow = expenses + losses"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "expenses = 75",
+      "losses = 97",
+      "total_outflow = expenses + losses"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_outflow = expenses + losses"
+   ]
+  }
+ ]
+}

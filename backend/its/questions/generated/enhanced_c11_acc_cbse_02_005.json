@@ -34,6 +34,26 @@
      "q": "Design a scenario where a business changes its accounting period from the standard April–March financial year to a calendar year (January–December) with regulatory approval. Identify three specific accounting challenges this change creates for revenue recognition, expense matching, and comparative financial statements, and propose how each should be handled per the Consistency and Full Disclosure concepts.",
      "a": "Scenario: An Indian subsidiary of a US multinational changes its accounting period to January–December to align with the parent's reporting calendar, with ROC approval. Challenges: (1) Revenue recognition: A long-term construction contract spanning the transition period (e.g., Oct 2023 – Mar 2024) must have revenue allocated between the old 9-month period (Apr–Dec 2023) and new 12-month period (Jan–Dec 2024) using percentage-of-completion — handled by applying Revenue Recognition consistently to each sub-period. (2) Expense matching: Depreciation for FY 2023–24 (12 months) vs. the new 9-month period (Apr–Dec 2023) requires prorating — handled by matching depreciation expense to the shortened period's revenue. (3) Comparative statements: The first new annual report (Jan–Dec 2024) lacks a prior-year comparable (Jan–Dec 2023) — handled by Full Disclosure: presenting 15-month comparatives (Apr 2023–Dec 2024) or restating prior periods with clear notes. A poor answer that ignores the Consistency/Full Disclosure interplay shows the student cannot integrate multiple concepts to solve real-world period-change problems.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Accounting Period Concept states that the indefinite life of a business enterprise is divided into artificial time intervals (typically 12 months) at the end of which financial statements are prepared to measure profit or loss and ascertain the financial position, enabling periodic ______ evaluation and decision-making by users.",
+     "a": "performance",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You sell cakes daily, buy flour weekly, pay rent ______, and repay a loan yearly.",
+     "a": "monthly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Accounting Period Concept states that the indefinite life of a business enterprise is divided into artificial time intervals (typically ______ months) at the end of which financial statements are prepared to measure profit or loss and ascertain the financial position, enabling periodic performance evaluation and decision-making by users.",
+     "a": "12",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) explain why businesses cannot wait until liquidation to measure performance, (2) identify the standard accounting period length and legal requirements in India, (3) distinguish between calendar year and financial year, and (4) apply the concept to determine which transactions belong to which accounting.",
+     "self_check": true
     }
    ]
   }

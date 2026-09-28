@@ -34,6 +34,21 @@
      "q": "Create a real-world problem (Indian context) that can be solved using SAS similarity. The problem must involve finding an unknown height or distance. Provide the problem statement and a sketch description.",
      "a": "Expected answer: A good problem might be: \"A 1.5 m tall girl stands 2 m away from a lamp post. Her shadow is 1 m long. At the same time, the shadow of the lamp post is 6 m long. Find the height of the lamp post using SAS similarity.\" Sketch: Two right triangles sharing the same sun angle. One triangle: girl height (vertical), shadow (horizontal), hypotenuse (light ray). Other triangle: lamp post height (vertical), its shadow (horizontal), same light ray angle. The included angle is the angle of elevation of the sun (same for both). The sides including this angle are the vertical height and horizontal shadow. Ratios: girl height / lamp post height = girl shadow / lamp post shadow. A poor problem (e.g., using non-included angles or non-corresponding sides) reveals the student cannot map the real-world situation to the SAS structure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The SAS (Side-Angle-Side) ______ criterion states that if one angle of a triangle is equal to one angle of another triangle and the sides including these angles are in the same proportion, then the two triangles are similar.",
+     "a": "similarity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an architect designing a scaled model of a ______ roof truss for a house in Kerala.",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the SAS similarity condition in a given pair of triangles, write the proportionality statement with the correct corresponding sides, and use it to find unknown side lengths or prove similarity in multi-step geometry problems.",
+     "self_check": true
     }
    ]
   }

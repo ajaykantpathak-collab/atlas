@@ -34,6 +34,26 @@
      "q": "Construct a problem where a cyclic quadrilateral has one angle expressed as 2x+30° and its opposite angle as 4x-10°, and ask for the value of x and all four angles if the other pair of opposite angles are in ratio 2:3.",
      "a": "A good problem: \"In cyclic quadrilateral ABCD, ∠A = 2x+30°, ∠C = 4x-10°. If ∠B : ∠D = 2:3, find x and all angles.\" Solution: (2x+30)+(4x-10)=180 → 6x+20=180 → x=80/3 ≈ 26.67. Then ∠A≈83.33°, ∠C≈96.67°. ∠B+∠D=180, ratio 2:3 → ∠B=72°, ∠D=108°. A poor problem might not ensure the ratio pair are opposite angles or give inconsistent data.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A cyclic quadrilateral is a quadrilateral whose all four ______ lie on a circle.",
+     "a": "vertices",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a circular garden with a ______ flower bed ABCD inscribed in it.",
+     "a": "quadrilateral",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The theorem states that in a cyclic quadrilateral, the sum of either pair of opposite angles is ______° (supplementary).",
+     "a": "180",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can prove that opposite angles of a cyclic quadrilateral are supplementary using the angle subtended by an arc at the centre theorem, and can apply this property to find unknown angles in multi-step geometry problems involving circles and quadrilaterals.",
+     "self_check": true
     }
    ]
   }

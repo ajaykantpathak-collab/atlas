@@ -34,6 +34,21 @@
      "q": "Design a simple flow chart showing the path of oxygen from the outside air to a cell.",
      "a": "The chart should follow: Outside Air -> Lungs (lung sacs) -> Blood -> Heart -> Vessels -> Cells. A poor answer leaves out the heart or the vessels, showing a missing link in the chain.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ system acts as the body's transport highway, using the heart as a pump to move blood through vessels to deliver oxygen from the lungs to every individual cell.",
+     "a": "circulatory",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are waiting for a ______ of a parcel at your home.",
+     "a": "delivery",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to describe the circulatory system as a transport network and explain that oxygen travels from the lungs into the blood, which then carries it to all body cells via the heart and vessels.",
+     "self_check": true
     }
    ]
   }

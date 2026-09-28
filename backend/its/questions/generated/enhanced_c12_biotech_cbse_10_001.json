@@ -34,6 +34,31 @@
      "q": "Create a novel scenario: A new hepatitis virus (HepX) has a surface protein that forms VLPs in yeast but is poorly immunogenic in mice. Propose two protein engineering strategies to enhance immunogenicity without changing the VLP structure, and explain the immunological basis for each.",
      "a": "Strategy 1: Genetic fusion of a universal T-helper epitope (e.g., PADRE sequence) into a surface-exposed loop of HepX VLP → provides CD4+ T-cell help for B-cell affinity maturation and class switching. Strategy 2: Chemical conjugation of TLR agonist (e.g., CpG-ODN) to surface lysines on purified VLPs → converts VLPs into self-adjuvanting particles that activate dendritic cells via TLR9. Both preserve VLP geometry (critical for conformational B-cell epitopes). A poor answer suggesting \"increase dose\" or \"use stronger adjuvant\" ignores structural vaccinology principles tested in CUET/NEET PG.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A recombinant vaccine is produced by inserting the gene encoding a specific pathogen antigen (e.g., Hepatitis B surface antigen, HBsAg) into a host organism (yeast or mammalian cells) using recombinant DNA ______, enabling the host to express and secrete the antigenic protein which is then purified and formulated as a vaccine — without using the whole pathogen.",
+     "a": "technology",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're a biotech engineer in 1986 tasked with making a ______ B vaccine safer — the old vaccine used plasma from infected donors, risking HIV contamination.",
+     "a": "Hepatitis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Walk through: isolate HBsAg gene → insert into yeast shuttle vector with strong promoter (GAL______/PGK) → transform Saccharomyces cerevisiae → ferment at scale → harvest VLPs from cell lysate → purify by ultracentrifugation and chromatography → adsorb onto alum adjuvant.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Explain the step-by-step process of producing recombinant Hepatitis B vaccine in yeast, including gene cloning, expression, and purification; (2) Justify why yeast (Saccharomyces cerevisiae) is preferred over E. coli for this vaccine; (3) Compare recombinant vaccines with conventional killed/attenuated.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're a biotech engineer in 1986 tasked with making a Hepatitis B vaccine safer — the old vaccine used plasma from infected donors, risking HIV ______.",
+     "a": "contamination",
+     "self_check": true
     }
    ]
   }

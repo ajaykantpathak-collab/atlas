@@ -34,6 +34,31 @@
      "q": "Design a simple laboratory experiment to distinguish between an ideal solution (e.g., n-hexane–n-heptane) and a non-ideal solution showing positive deviation (e.g., ethanol–acetone) using only a thermometer and a graduated cylinder. Describe the procedure and expected observations.",
      "a": "Mix equal volumes (e.g., 25 mL each) of the two liquids in an insulated beaker. Measure initial temperatures of pure liquids and final temperature of mixture. Ideal: ΔT ≈ 0 (ΔmixH = 0). Positive deviation: temperature rises (ΔmixH > 0, endothermic mixing). Also measure final volume: ideal → 50 mL (ΔmixV = 0); positive deviation → >50 mL (ΔmixV > 0). A poor answer that only checks volume or only temperature misses the dual thermodynamic signature; both must be verified for complete classification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ideal solutions are binary liquid mixtures that obey Raoult's law across all ______, exhibiting zero enthalpy of mixing (ΔmixH = 0) and zero volume of mixing (ΔmixV = 0), indicating A–A, B–B, and A–B intermolecular forces are nearly identical.",
+     "a": "concentrations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe two bottles on a lab shelf: one contains benzene–toluene (clear, no ______ change on mixing), the other ethanol–acetone (feels warm, volume expands slightly).",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "What is Ideal solutions? State the definition given in this lesson.",
+     "a": "Ideal solutions are binary liquid mixtures that obey Raoult's law across all concentrations, exhibiting zero enthalpy of mixing (ΔmixH = 0) and zero volume of mixing (ΔmixV = 0), indicating A–A, B–B, and A–B intermolecular forces are nearly identical.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Ideal solutions?",
+     "a": "Students often believe \"positive deviation means vapour pressure increases, so boiling point increases\" — they confuse vapour pressure elevation with boiling point elevation.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) classify a given binary liquid mixture as ideal or non-ideal based on vapour pressure–composition data or ΔmixH/ΔmixV signs, (2) predict the direction of deviation (positive/negative) from molecular interaction arguments, and (3) identify whether a mixture forms a minimum-boiling or maximum-boiling azeotrope from its.",
+     "self_check": true
     }
    ]
   }

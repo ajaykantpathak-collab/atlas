@@ -34,6 +34,31 @@
      "q": "Create an equation involving multiplication and subtraction where the solution is $x = 6$, and explain how you would solve it using the balance method.",
      "a": "An example equation is $3x - 4 = 14$. To solve it using the balance method: first add 4 to both sides to get $3x = 18$, then divide both sides by 3 to get $x = 6$. A poor answer would provide an expression instead of an equation, or fail to show how both sides are changed simultaneously.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Finding the unknown by balancing both sides is the process of ______ equality in an equation by performing identical operations on both the left-hand side (LHS) and right-hand side (RHS) until the unknown variable is isolated.",
+     "a": "maintaining",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a local vegetable market in India, and a vegetable vendor uses a traditional beam balance to weigh 2 kilograms of ______.",
+     "a": "potatoes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a local vegetable market in India, and a vegetable vendor uses a traditional beam balance to weigh ______ kilograms of potatoes.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can solve linear equations in one variable using the balance model by performing inverse operations on both sides simultaneously, verify the solution by substitution, and apply this method to practical word problems.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a local vegetable market in India, and a vegetable vendor uses a ______ beam balance to weigh 2 kilograms of potatoes.",
+     "a": "traditional",
+     "self_check": true
     }
    ]
   }

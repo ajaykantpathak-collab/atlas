@@ -34,6 +34,26 @@
      "q": "Create a real-world scenario (different from the locker, light, or microwave examples) that requires exactly the Boolean expression (P AND Q) OR (NOT R). Define what P, Q, R represent and describe the situation in 2-3 sentences.",
      "a": "Example: A student gets a certificate if (P: they pass the theory exam AND Q: they pass the practical exam) OR (NOT R: they are not a first-year student). Here P, Q, R are Boolean variables. A good answer clearly maps each variable to a true/false condition and uses AND, OR, NOT exactly as in the expression. A poor answer either uses the same examples from the walkthrough or creates an expression that does not match (e.g., uses AND instead of OR between the two clauses).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The three ______ Boolean operations are AND (logical conjunction, denoted by · or ∧), OR (logical disjunction, denoted by + or ∨), and NOT (logical negation, denoted by ' or ¬ or overbar).",
+     "a": "fundamental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ system for a locker: the locker opens only when a correct keycard is presented AND a correct PIN is entered.",
+     "a": "security",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) state the truth-functional definition of AND, OR, NOT using 0/1, (2) evaluate any Boolean expression containing only these three operations for given input values, and (3) translate a simple English condition (e.g., \"light is ON if switch A AND switch B are closed\") into a Boolean expression.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a security system for a locker: the locker opens only when a correct keycard is presented AND a correct PIN is entered.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

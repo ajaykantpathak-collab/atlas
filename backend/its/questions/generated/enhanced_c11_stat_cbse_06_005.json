@@ -34,6 +34,31 @@
      "q": "Create a small dataset (5-6 values) where the mean deviation about median is exactly half the mean deviation about mean. Explain your reasoning.",
      "a": "Example: 0, 10, 10, 10, 10, 20. Mean = 10, Median = 10. Both deviations equal, ratio 1. Need asymmetric data. Try 0, 0, 10, 10, 20. Mean = 8, Median = 10. MD about mean: |0-8|+|0-8|+|10-8|+|10-8|+|20-8| = 8+8+2+2+12=32/5=6.4. MD about median: |0-10|+|0-10|+|10-10|+|10-10|+|20-10| = 10+10+0+0+10=30/5=6. Ratio 6/6.4 ≠ 0.5. A correct construction requires solving for values. A student who attempts systematic trial or sets up equations shows deep understanding; one who guesses randomly shows lack of analytical skill.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mean Deviation (MD) is the arithmetic mean of the absolute deviations of each ______ from a central value (mean or median).",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a quality control officer at a tea packaging ______ in Assam.",
+     "a": "factory",
+     "self_check": true
+    },
+    {
+     "q": "What is Mean Deviation (MD)? State the definition given in this lesson.",
+     "a": "Mean Deviation (MD) is the arithmetic mean of the absolute deviations of each observation from a central value (mean or median).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Mean Deviation (MD)?",
+     "a": "Students often think mean deviation about mean and mean deviation about median are always equal because both use absolute deviations.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute mean deviation about mean and median for ungrouped, discrete grouped, and continuous grouped data, interpret the result as an average distance from the centre, and compare the two measures to decide which is more appropriate for a given distribution.",
+     "self_check": true
     }
    ]
   }

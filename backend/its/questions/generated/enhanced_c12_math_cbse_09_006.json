@@ -34,6 +34,11 @@
      "q": "**CREATE:** Construct a homogeneous differential equation (first order, first degree) whose general solution is the family of curves \\(x^2 + y^2 = 2Cx\\) (where \\(C\\) is an arbitrary constant). Show the steps to derive the differential equation from the given solution.",
      "a": "**Given:** \\(x^2 + y^2 = 2Cx\\).  \n**Step 1:** Differentiate implicitly w.r.t \\(x\\): \\(2x + 2y y' = 2C\\).  \n**Step 2:** Eliminate \\(C\\). From original: \\(C = \\frac{x^2+y^2}{2x}\\). Substitute into derivative: \\(2x + 2y y' = \\frac{x^2+y^2}{x}\\).  \n**Step 3:** Solve for \\(y'\\): \\(2y y' = \\frac{x^2+y^2}{x} - 2x = \\frac{x^2+y^2 - 2x^2}{x} = \\frac{y^2 - x^2}{x}\\).  \n**Step 4:** \\(y' = \\frac{y^2 - x^2}{2xy}\\).  \n**Step 5:** Check homogeneity: \\(F(x,y) = \\frac{y^2 - x^2}{2xy}\\). \\(F(\\lambda x, \\lambda y) = \\frac{\\lambda^2(y^2-x^2)}{2\\lambda^2 xy} = F(x,y)\\) → homogeneous degree 0.  \n**Required DE:** \\(\\frac{dy}{dx} = \\frac{y^2 - x^2}{2xy}\\) or \\((x^2 - y^2)dx + 2xy\\,dy = 0\\).  \n**Wrong answer reveals:** If a student gives \\(y' = \\frac{y^2 - x^2}{2xy}\\) but forgets to verify homogeneity, they may not understand the definition. If they incorrectly eliminate \\(C\\) (e.g., write \\(C = x^2+y^2\\) without dividing by \\(2x\\)), the resulting DE will not match the family. If they produce a non-homogeneous DE, they missed the requirement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This method works because ______ means the slope depends only on the *direction* from the origin, not the distance.",
+     "a": "homogeneity",
+     "self_check": true
     }
    ]
   }

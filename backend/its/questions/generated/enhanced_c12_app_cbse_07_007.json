@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_07_007",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_07_007",
+   "title": "c12_app_cbse_07_007",
+   "questions": [
+    {
+     "q": "Define \"sampling distribution of the sample mean\" in your own words. How does it differ from the distribution of the population and the distribution of a single sample?",
+     "a": "**Correct Answer:** The sampling distribution of the sample mean is the theoretical distribution of means calculated from *all possible samples* of a fixed size $n$ drawn from a population. It differs from the population distribution (distribution of individual values) and a single sample distribution (one set of $n$ values) because its units are *means*, its mean equals the population mean $\\mu$, and its standard deviation (Standard Error) is $\\sigma/\\sqrt{n}$, which is smaller than the population SD $\\sigma$.  \n**What a wrong answer reveals:** If a student describes the distribution of a *single sample* or the *population*, they confuse the *statistic's variability across samples* with *variability within one sample*. This is the most fundamental error — they cannot grasp Standard Error or hypothesis testing without this distinction.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher sets $\\alpha = 0.01$ instead of $\\alpha = 0.05$. Explain in plain language what this change means for: (a) the chance of a Type I error, (b) the difficulty of rejecting $H_0$, and (c) the required strength of evidence.",
+     "a": "**Correct Answer:** (a) Type I error probability (rejecting a true $H_0$) drops from 5% to 1%. (b) It becomes *harder* to reject $H_0$ because the critical region (rejection zone) shrinks — the test demands more extreme sample evidence. (c) Stronger evidence is needed: the observed sample statistic must be further into the tail of the sampling distribution (smaller p-value) to cross the stricter threshold.  \n**What a wrong answer reveals:** If a student says \"it makes the test more accurate\" or \"reduces both errors,\" they misunderstand the trade-off: lowering $\\alpha$ *increases* Type II error (failing to detect a real effect). They are memorizing definitions without grasping the decision-theoretic balance.",
+     "self_check": true
+    },
+    {
+     "q": "A population has $\\mu = 100$, $\\sigma = 15$. You draw a random sample of $n = 36$ and get $\\bar{x} = 104$. Calculate the Standard Error of the Mean (SEM). Then compute the z-score of this sample mean *assuming the sampling distribution is normal*. Is this sample mean statistically significant at $\\alpha = 0.05$ (two-tailed)? Show work.",
+     "a": "**Correct Answer:**  \nStep 1: $SEM = \\sigma/\\sqrt{n} = 15/\\sqrt{36} = 15/6 = 2.5$  \nStep 2: $z = (\\bar{x} - \\mu) / SEM = (104 - 100) / 2.5 = 1.6$  \nStep 3: For two-tailed $\\alpha = 0.05$, critical z = $\\pm 1.96$. Since $|1.6| < 1.96$, the result is **NOT statistically significant** (p-value $\\approx 0.11 > 0.05$).  \n**What a wrong answer reveals:** If a student uses $\\sigma = 15$ instead of SEM in the denominator, they confuse *individual variability* with *sampling variability* — a classic error. If they compare $z=1.6$ to 1.645 (one-tailed), they miss the two-tailed requirement. Both show procedural mimicry without conceptual grounding.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: \"The sampling distribution of the mean approaches normality as $n$ increases\" (CLT) vs \"The population distribution is normal.\" Give an example where CLT applies but the population is *not* normal. Why does this matter for hypothesis testing?",
+     "a": "**Correct Answer:** CLT says the *sampling distribution of $\\bar{x}$* becomes approximately normal for large $n$ ($n \\ge 30$) *regardless of population shape*. Population normality is a separate assumption about the *raw data*. Example: Income distribution is highly right-skewed (not normal). But for $n=50$, the distribution of sample means is ~normal. This matters because t-tests/z-tests assume the *test statistic* follows a normal/t-distribution; CLT justifies this assumption even for non-normal populations, provided $n$ is large enough.  \n**What a wrong answer reveals:** If a student says \"CLT makes the population normal\" or \"we need normal population for CLT,\" they invert the logic. They will wrongly insist on checking normality of *data* instead of checking sample size, leading to incorrect test choices (e.g., using non-parametric tests unnecessarily).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"A p-value of 0.03 means there is a 3% chance the null hypothesis is true.\" Is this correct? If not, state the correct interpretation and explain why the error is dangerous in scientific reporting.",
+     "a": "**Correct Answer:** The claim is **incorrect**. A p-value of 0.03 means: *If $H_0$ is true*, the probability of obtaining a test statistic as extreme as (or more extreme than) the observed one is 3%. It is $P(\\text{data} \\mid H_0)$, not $P(H_0 \\mid \\text{data})$. The error is dangerous because it overstates evidence against $H_0$; a 3% p-value does *not* mean 97% confidence the alternative is true. It confuses conditional probabilities (prosecutor's fallacy).  \n**What a wrong answer reveals:** If a student defends the claim, they commit the *inverse probability fallacy* — the single most pervasive misinterpretation in statistics. They will misread research papers, overstate findings in projects, and lose marks in board exams where precise interpretation is required.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-simulation (conceptual, not code) to demonstrate the Central Limit Theorem for a highly skewed population (e.g., exponential distribution with mean 10). Specify: (a) population parameters, (b) sample sizes to test, (c) number of samples per size, (d) what you would plot, and (e) what pattern confirms CLT.",
+     "a": "**Correct Answer:** (a) Population: Exponential($\\lambda=0.1$), $\\mu=10$, $\\sigma=10$, highly right-skewed. (b) Sample sizes: $n = 5, 15, 30, 50$. (c) Draw 1000 samples for each $n$. (d) Plot histograms of the 1000 sample means for each $n$. (e) CLT confirmed if: for $n=5$, histogram is skewed; for $n=15$, less skewed; for $n=30$, approximately bell-shaped; for $n=50$, very close to normal with mean $\\approx 10$ and SD $\\approx 10/\\sqrt{n}$.  \n**What a poor answer reveals:** If a student plots *individual sample values* instead of *sample means*, or uses only one sample per size, they confuse the *sampling distribution* (across samples) with a *single sample distribution*. They miss the core idea: CLT is about the *behavior of the statistic across repeated sampling*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

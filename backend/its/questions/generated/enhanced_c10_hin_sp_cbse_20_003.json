@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_hin_sp_cbse_20_003",
+ "concepts": [
+  {
+   "id": "enh:c10_hin_sp_cbse_20_003",
+   "title": "c10_hin_sp_cbse_20_003",
+   "questions": [
+    {
+     "q": "\"तोप\" कविता में कुल कितने पद (stanzas) हैं और प्रत्येक पद में औसतन कितनी पंक्तियाँ हैं? केवल संख्या बताएँ।",
+     "a": "Correct: 5 पद, प्रत्येक में 4 पंक्तियाँ (कुल 20 पंक्तियाँ).  \nWrong answer reveals: Student has not done the basic structural scan. They likely confuse \"पद\" with \"पंक्ति\" or haven't physically counted. In board exams, this costs 1-mark factual questions and undermines all higher analysis.",
+     "self_check": true
+    },
+    {
+     "q": "कवि ने पहले दो पदों में तोप का वर्णन किया है, लेकिन तीसरे पद में अचानक \"नगर\", \"ग्राम\", \"वन\" आ जाते हैं। इस संक्रमण (transition) का संरचनात्मक उद्देश्य क्या है? अपने शब्दों में समझाएँ।",
+     "a": "Correct: यह 'ज़ूम-आउट' संरचना है — पहले तोप को वस्तु के रूप में स्थापित करना (पद 1-2), फिर उसके प्रभाव-क्षेत्र को विस्तार देना (पद 3)। यह पाठक को 'हथियार' से 'विनाश' की ओर ले जाता है।  \nWrong answer reveals: Student sees stanzas as isolated boxes, not a flowing argument. They'll write \"कवि तोप का वर्णन करता है\" for every stanza — missing the **progression** that board examiners reward in 3-mark questions.",
+     "self_check": true
+    },
+    {
+     "q": "पद 4 की अंतिम दो पंक्तियाँ देखें: \"स्वतंत्रता का गला घोंट देती है / तोप की गूँज।\" यहाँ पंक्ति-भंग (enjambment) का क्या प्रभाव है? लिखित रूप में विश्लेषण करें।",
+     "a": "Correct: \"स्वतंत्रता का गला घोंट देती है\" पंक्ति अधूरी छूटती है — पाठक साँस रोककर अगली पंक्ति \"तोप की गूँज\" तक पहुँचता है। यह विलंब (delay) स्वतंत्रता के घुटने का अनुकरण करता है। बोर्ड उत्तर में: \"एनजैम्ब्मेंट यहाँ क्रिया की निरंतरता और पीड़ा की अवधि बढ़ाता है।\"  \nWrong answer reveals: Student identifies enjambment but explains it as \"beauty\" or \"flow\" — generic praise. They miss the **functional link** between form (line break) and meaning (suffocation). Board marking scheme demands this form-meaning connection.",
+     "self_check": true
+    },
+    {
+     "q": "कविता में \"तोप\" शब्द की पुनरावृत्ति (repetition) कहाँ-कहाँ हुई है? प्रत्येक स्थान पर इसके संरचनात्मक कार्य की तुलना करें — पहले पद में vs अंतिम पद में।",
+     "a": "Correct: पद 1 में \"तोप\" विषय-स्थापना (topic introduction) के लिए; पद 5 में \"तोप की गूँज\" प्रतीकात्मक चरमोत्कर्ष (symbolic climax) के लिए। पहले में यह संज्ञा है, अंत में यह 'दमन की ध्वनि' बन जाती है। पुनरावृत्ति वृत्ताकार संरचना (circular structure) बनाती है — शुरुआत और अंत दोनों तोप पर, लेकिन अर्थ बदल चुका है।  \nWrong answer reveals: Student counts repetitions (3 times) but doesn't analyze **shift in function**. They treat repetition as mere emphasis, not structural architecture. Board competency questions ask: \"पुनरावृत्ति कविता के केंद्रीय भाव को कैसे पुष्ट करती है?\" — this requires functional comparison.",
+     "self_check": true
+    },
+    {
+     "q": "क्या \"तोप\" की संरचना 'आरोह-अवरोह' (rise-fall) पैटर्न का पालन करती है? तर्क सहित मूल्यांकन करें। (संकेत: पद 1-3 आरोह, पद 4-5 अवरोह/चरमोत्कर्ष)",
+     "a": "Correct: हाँ, लेकिन पारंपरिक अर्थ में नहीं। पद 1-3 भौतिक → प्रादेशिक → मानवीय विनाश तक **आरोह** है (scope expands)। पद 4-5 दार्शनिक निष्कर्ष तक **चरमोत्कर्ष** है, अवरोह नहीं। कविता 'समाधान' नहीं देती — यह 'प्रश्न' छोड़ती है। संरचना खुली (open-ended) है, बंद नहीं।  \nWrong answer reveals: Student forces a textbook \"rise-climax-fall\" template. They'll claim पद 5 में \"शांति\" या \"समाधान\" है — जो कविता में है ही नहीं। Board examiners penalize template-fitting over textual evidence.",
+     "self_check": true
+    },
+    {
+     "q": "\"तोप\" कविता की संरचना से प्रेरित होकर, किसी आधुनिक हथियार (जैसे ड्रोन, मिसाइल) पर 4 पदों की एक लघु कविता लिखें जिसमें: (क) भौतिक वर्णन से प्रारंभ हो, (ख) प्रभाव-क्षेत्र विस्तारित हो, (ग) मानवीय मूल्य पर चोट हो, (घ) अंत खुला छोड़ दे।",
+     "a": "Criteria for good answer:  \n- 4 stanzas, 4 lines each (mirrors original structure)  \n- Stanza 1: Physical description only (metal, wings, silence)  \n- Stanza 2: Zooms to targets (borders, homes, skies)  \n- Stanza 3: Names a human value silenced (trust, childhood, dissent)  \n- Stanza 4: Ends on sound/image, not moral — e.g., \"भनभनाहट रह जाती है / आकाश में अनुत्तरित\"  \nPoor answer reveals: Student writes a slogan/poster (\"ड्रोन बुरा है, बंद करो\") — missing **structural mimicry**. They confuse 'message' with 'structure'. Board creative writing tasks reward form fidelity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

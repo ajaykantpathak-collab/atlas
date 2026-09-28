@@ -34,6 +34,31 @@
      "q": "Design a simple, low-cost community hygiene protocol for a rural Indian village experiencing seasonal waterborne infections during the monsoon, specifying the chemical or physical agents used at each step.",
      "a": "A robust protocol includes: 1. Boiling drinking water or treating it with chlorine tablets to kill pathogenic bacteria. 2. Constructing covered drainage systems and spraying bleaching powder to prevent mosquito breeding. 3. Implementing compulsory handwashing stations with ash or soap before mid-day meals. A poor answer suggests just telling villagers to drink rainwater without treatment, ignoring the chemical and biological contaminants present during monsoons.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Personal hygiene refers to individual self-care practices—such as proper handwashing with soap, bathing, and maintaining clean ______—that remove harmful pathogens, chemical residues, and dirt, while community health encompasses collective sanitation and public health measures that protect entire populations from infectious outbreaks.",
+     "a": "surroundings",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you wash your oily hands after ______ a greasy snack like samosas using soap and water, you notice that plain water alone cannot remove the oil, but soap makes it wash away easily.",
+     "a": "eating",
+     "self_check": true
+    },
+    {
+     "q": "What is Personal hygiene? State the definition given in this lesson.",
+     "a": "Personal hygiene refers to individual self-care practices—such as proper handwashing with soap, bathing, and maintaining clean surroundings—that remove harmful pathogens, chemical residues, and dirt, while community health encompasses collective sanitation and public health measures that protect entire populations from infectious.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Students can explain how soaps and detergents act as chemical cleansing agents by emulsifying grease and destroying pathogen cell membranes, and they can design a community sanitation strategy that interrupts the transmission chain of waterborne or airborne pathogens.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you wash your oily hands after eating a greasy snack like ______ using soap and water, you notice that plain water alone cannot remove the oil, but soap makes it wash away easily.",
+     "a": "samosas",
+     "self_check": true
     }
    ]
   }

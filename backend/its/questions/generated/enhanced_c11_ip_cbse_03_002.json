@@ -34,6 +34,21 @@
      "q": "Create a real-world scenario (Indian context) where a Boolean expression with at least two relational and two logical operators is needed. Write the Python expression and explain the precedence.",
      "a": "Scenario: Railway senior citizen concession. Eligible if (age ≥ 60 AND gender == 'F') OR (age ≥ 65 AND gender == 'M'). Expression: `(age >= 60 and gender == 'F') or (age >= 65 and gender == 'M')`. Precedence: relational (`>=`, `==`) first, then `and`, then `or`. Parentheses clarify grouping but are not strictly needed due to precedence. A poor answer uses incorrect operators (e.g., `=` for equality) or misses parentheses where needed, showing inability to translate real-world logic to code.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ operators in Python (==, !=, >, <, >=, <=) compare two operands and evaluate to a Boolean value (True or False).",
+     "a": "Relational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're building a student ______ checker for a scholarship: a student must have marks ≥ 85 AND attendance ≥ 75% OR be a sports champion.",
+     "a": "eligibility",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly evaluate any Boolean expression containing relational and logical operators with mixed data types (int, float, str), trace operator precedence step-by-step, and explain why string comparisons use lexicographic ordering based on Unicode code points.",
+     "self_check": true
     }
    ]
   }

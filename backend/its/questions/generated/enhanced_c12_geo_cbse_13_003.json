@@ -34,6 +34,31 @@
      "q": "Design a map annotation exercise for a Class 12 student to demonstrate the linkage between mica distribution and India's electrical equipment manufacturing clusters. Specify the map layers, symbols, and analytical question the student must answer.",
      "a": "Map layers: (1) Mica belts — Jharkhand (Hazaribagh, shaded polygon), Andhra Pradesh (Nellore, point), Rajasthan (Jaipur-Bhilwara-Udaipur, linear symbol). (2) Electrical equipment clusters — Delhi-NCR (switchgear), Mumbai-Pune (transformers), Bengaluru (electronics), Hyderabad (cables) — graduated circles by output value. (3) Rail/road corridors connecting mines to clusters. Analytical question: \"Using the map, explain why Delhi's switchgear industry developed 1,000 km from Jharkhand's mica but only 300 km from Rajasthan's mica, yet both sources are used.\" Expected reasoning: Rajasthan mica is lower quality (green muscovite) for capacitors; Jharkhand's high-quality ruby mica goes to defence/space via Delhi. Poor answer = only distance, no quality-grade linkage.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Manganese, bauxite, and mica are three critical metallic and non-metallic minerals distributed across India's peninsular plateau, with manganese ______ in the Dharwar rock system of Madhya Pradesh and Odisha, bauxite occurring in tertiary laterite deposits across Odisha, Jharkhand, Gujarat, and Maharashtra, and mica forming extensive belts in Jharkhand's Hazaribagh plateau, Andhra Pradesh's Nellore district, and Rajasthan's Jaipur-Bhilwara-Udaipur corridor.",
+     "a": "concentrated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at your smartphone or laptop — the circuit boards inside rely on mica's insulating properties, the ______ casing comes from bauxite, and the steel frame required manganese during smelting.",
+     "a": "aluminium",
+     "self_check": true
+    },
+    {
+     "q": "What is Manganese, bauxite, and mica? State the definition given in this lesson.",
+     "a": "Manganese, bauxite, and mica are three critical metallic and non-metallic minerals distributed across India's peninsular plateau, with manganese concentrated in the Dharwar rock system of Madhya Pradesh and Odisha, bauxite occurring in tertiary laterite deposits across Odisha, Jharkhand, Gujarat, and Maharashtra, and mica forming.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Manganese, bauxite, and mica?",
+     "a": "Students believe \"mica is only found in Jharkhand\" because textbooks highlight the Hazaribagh belt's 150 km × 22 km dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can locate all major manganese, bauxite, and mica producing regions on an outline map of India, explain the geological reasons for their specific distribution patterns (Dharwar system for manganese, laterite/tertiary for bauxite, pegmatite veins for mica), and evaluate the strategic importance of each mineral for India's.",
+     "self_check": true
     }
    ]
   }

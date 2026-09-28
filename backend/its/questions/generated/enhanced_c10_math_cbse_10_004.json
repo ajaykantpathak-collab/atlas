@@ -34,6 +34,26 @@
      "q": "Create a real-life problem (Indian context) where the fact \"exactly one tangent at a point on the circle\" is essential to solve it. The problem must involve a circular object and a constraint that only one straight path is possible at a boundary point.",
      "a": "Example: \"A circular garden of radius 7 m has a gate at point P on its boundary. A straight path is to be built from the gate such that it just touches the garden boundary and goes outward. How many such straight paths can be designed? If the path must be perpendicular to the radius at P, find the angle the path makes with the tangent drawn at the opposite end of the diameter through P.\" A good answer creates a coherent scenario, uses the uniqueness of the tangent, and incorporates the perpendicular property. A poor answer (e.g., \"a car driving on a circular track\") fails to set up a geometric constraint requiring exactly one tangent line.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A point lying on the ______ of a circle has exactly one tangent line passing through it.",
+     "a": "circumference",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ exactly on the boundary of a circular playground (radius 10 m) and want to walk straight out without re-entering the playground.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing exactly on the boundary of a circular playground (radius ______ m) and want to walk straight out without re-entering the playground.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state and justify that exactly one tangent can be drawn from any point on the circle, explain why a second line through that point must intersect the circle again (becoming a secant), and apply this property to solve geometric problems involving tangents at a given point on the circle.",
+     "self_check": true
     }
    ]
   }

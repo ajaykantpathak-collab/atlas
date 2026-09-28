@@ -74,7 +74,16 @@
      "explain": "The calculated value gives the estimated full adult height, assuming the individual continues growing at the standard rate for their age.",
      "compute": "full_height = (present_height * 100) / percent_height"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "full_height = (present_height * 100) / percent_height",
+     "compute": "full_height = (present_height * 100) / percent_height"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hesc.107.7.2.2",

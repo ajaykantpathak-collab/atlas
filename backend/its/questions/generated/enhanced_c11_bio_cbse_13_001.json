@@ -31,8 +31,33 @@
      "self_check": true
     },
     {
-     "q": "Design a simple experiment to demonstrate that water, oxygen, and temperature are essential conditions for growth in germinating moong bean (Vigna radiata) seeds. Specify the control, variables, and measurable parameter.",
-     "a": "Setup: Four groups of 20 moong seeds each. Control: moist cotton, room temp (25°C), aerated. Test 1: dry cotton (no water). Test 2: submerged in boiled water cooled without shaking (no oxygen). Test 3: moist cotton at 5°C (low temp) and 40°C (high temp). Measure: radicle length (mm) and fresh weight (g) daily for 7 days. Expected: growth only in control. A poor design (e.g., no control, measuring only germination % not growth rate) fails to isolate conditions. Must measure quantitative growth parameters (length/weight), not just binary germination.",
+     "q": "Give the correct order of setup steps for the experiment testing water, oxygen and temperature as conditions for moong seed growth.",
+     "a": "The setup runs: (1) Divide twenty seeds each into control and three test groups (2) Give the control moist cotton at room temperature with aeration (3) Withhold water, boil out oxygen, or shift temperature in the test groups (4) Measure radicle length and fresh weight daily against the control. A wrong answer that runs the test groups without a control shows the student has missed that each condition must be isolated by comparison with a normally growing set.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Growth in plants is an ______, permanent increase in the size of an organ, its parts, or an individual cell, accompanied by metabolic processes (anabolic and catabolic) that occur at the expense of energy; it is distinct from transient changes like swelling due to water imbibition.",
+     "a": "irreversible",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a mango sapling in your garden over a year: it grows taller, thicker, and ______ new leaves each season, unlike a metal rod that only expands with heat.",
+     "a": "produces",
+     "self_check": true
+    },
+    {
+     "q": "What is Growth in plants? State the definition given in this lesson.",
+     "a": "Growth in plants is an irreversible, permanent increase in the size of an organ, its parts, or an individual cell, accompanied by metabolic processes (anabolic and catabolic) that occur at the expense of energy; it is distinct from transient changes like swelling due to water imbibition.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Growth in plants?",
+     "a": "Students often think 'growth' and 'development' are synonyms, and that any increase in size (like a swollen seed) is growth.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish true growth from reversible physical changes, identify the three phases of growth in a root tip diagram, and explain why plant growth is termed 'indeterminate' using the concept of meristems.",
      "self_check": true
     }
    ]

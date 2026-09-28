@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_07_003",
+   "title": "c12_app_cbse_07_003",
+   "questions": [
+    {
+     "q": "Define \"Parameter\" and \"Statistic\" and state the standard notation convention used for each (e.g., symbols for mean and standard deviation).",
+     "a": "**Parameter**: A numerical characteristic of a *population* (e.g., population mean **μ**, population standard deviation **σ**). **Statistic**: A numerical characteristic calculated from a *sample* (e.g., sample mean **x̄**, sample standard deviation **s**). **Convention**: Parameters use Greek letters (μ, σ, σ², ρ); Statistics use English/Latin letters (x̄, s, s², p̂). A wrong answer (e.g., using x̄ for population mean) reveals the student hasn't internalized the fundamental population-sample distinction and will confuse formulas in hypothesis testing.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher calculates a 95% Confidence Interval for the mean income of Delhi households as (₹12.5 L, ₹15.5 L). A student says: \"There is a 95% probability that the true mean income lies between ₹12.5 L and ₹15.5 L.\" Is this statement correct? Explain why or why not.",
+     "a": "**Incorrect.** The true population mean (μ) is a fixed, unknown constant — it either is or isn't in that specific interval; probability doesn't apply to a fixed value after the interval is calculated. The correct interpretation: \"If we repeated this sampling process many times, 95% of the resulting intervals would contain the true mean.\" A student giving the \"95% probability\" answer reveals the **Fundamental Frequentist Misconception** — confusing the random interval (which varies sample-to-sample) with the fixed parameter. This is the #1 error in board viva and competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "A pharmaceutical company tests a new drug claiming it lowers blood pressure more than the standard drug (μ₀ = 120 mmHg). They set up H₀: μ = 120 vs H₁: μ < 120. They get a p-value = 0.03. Using α = 0.05, state the statistical decision and write a correct one-sentence conclusion in context.",
+     "a": "**Decision:** Reject H₀ (since p-value = 0.03 < α = 0.05). **Conclusion:** \"There is sufficient evidence at the 5% significance level to suggest the new drug lowers mean blood pressure below 120 mmHg.\" A wrong decision (Fail to Reject) reveals confusion about p-value direction (small p = strong evidence *against* H₀). A conclusion saying \"proves the drug works\" or \"97% chance drug works\" reveals the misconception that p-value = P(H₀ true) or that hypothesis testing proves the alternative.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Central Limit Theorem (CLT) is the \"engine\" that makes inferential statistics possible, specifically linking it to the shape of the sampling distribution of the sample mean (x̄) when the population distribution is **unknown and non-normal** (e.g., highly skewed income data). What is the minimum sample size (n) conventionally required?",
+     "a": "The CLT states that for a sufficiently large sample size (conventionally **n ≥ 30**), the sampling distribution of x̄ becomes **approximately Normal** regardless of the population's shape. This is the \"engine\" because it allows us to use Normal (z) or t-distribution critical values to calculate confidence intervals and p-values *even when we know nothing about the population distribution*. Without CLT, we'd need the population to be Normal to make inferences about the mean. A student saying \"CLT makes the *data* normal\" (instead of the *sampling distribution of the mean*) reveals a critical conceptual confusion between the distribution of X and the distribution of x̄.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this study design: \"A school principal wants to know if a new teaching method improves math scores. She teaches the new method to Class 12A (top students) and the old method to Class 12B (average students). She compares the final exam averages using a two-sample t-test and gets p < 0.01. She concludes the new method is better.\" Identify the fatal flaw and the specific type of bias introduced.",
+     "a": "**Fatal Flaw:** The groups were not randomly assigned; they were pre-existing intact classes with different ability levels (top vs. average). **Bias:** **Selection Bias** (specifically, confounding by student ability). The observed difference in scores could be entirely due to the initial ability gap, not the teaching method. Random assignment is required to isolate the treatment effect. A student who says \"the t-test is valid because p < 0.01\" reveals the dangerous misconception that **statistical significance implies causal validity** — it does not, if the design is flawed. This is a classic JEE/NEET trap question.",
+     "self_check": true
+    },
+    {
+     "q": "Design a miniature simulation experiment (describe steps, no code needed) to demonstrate the Central Limit Theorem to a Class 11 student using a **highly skewed population** (e.g., exponential distribution of \"time between customer arrivals\"). Specify: population shape, sample size (n), number of samples (repetitions), what you plot, and what the student should observe.",
+     "a": "**Population:** Exponential distribution (highly right-skewed, mean = 5 min). **Sample size (n):** 50 (≥ 30). **Repetitions:** 1000 samples. **Plot:** Histogram of the 1000 sample means (x̄₁, x̄₂, ..., x̄₁₀₀₀). **Observation:** The histogram of sample means will be **bell-shaped (approx. Normal)**, centered near 5, with spread ≈ σ/√50 — *even though the original population is not Normal*. A poor answer (e.g., plotting raw data, using n=5, or expecting the raw data to become Normal) reveals the student confuses the distribution of *individual observations* with the distribution of *sample means* — the exact distinction CLT clarifies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

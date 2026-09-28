@@ -34,6 +34,31 @@
      "q": "Design a locational decision matrix for a new electric two-wheeler assembly plant in India. Choose 5 criteria (including market, transport, capital) and assign weights (sum = 100). Score three hypothetical sites (Site X: near Delhi; Site Y: near Pune; Site Z: near Hyderabad) on a 1-10 scale for each criterion. Show the weighted total and recommend the best site.",
      "a": "Criteria & weights: Market access (30), Transport connectivity (25), Capital incentives (20), Skilled labour (15), Supplier ecosystem (10). Scoring (example): Site X: 9, 8, 6, 7, 8 → 7.95; Site Y: 8, 9, 8, 9, 9 → 8.45; Site Z: 7, 7, 9, 8, 7 → 7.55. Recommendation: Site Y (Pune) — strong in all, especially transport, capital incentives, and supplier base. A poor answer uses equal weights or ignores supplier ecosystem, showing inability to synthesize multiple locational factors quantitatively.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Market, transport, and capital are three critical locational factors for secondary activities: market refers to the demand for finished goods and its purchasing power, influencing industries to locate near consumers to minimize distribution costs; transport encompasses the network of roads, railways, ports, and airways that move raw materials to factories and finished products to markets, with cost and efficiency determining viability; capital denotes the financial investment required for land, machinery, ______, and working capital, whose availability and cost (interest rates, credit access) shape industrial feasibility and scale.",
+     "a": "infrastructure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a familiar ______ cluster near your city — perhaps a food-processing unit on the highway or a textile mill near a railway station.",
+     "a": "industrial",
+     "self_check": true
+    },
+    {
+     "q": "What is Market, transport, and capital? State the definition given in this lesson.",
+     "a": "Market, transport, and capital are three critical locational factors for secondary activities: market refers to the demand for finished goods and its purchasing power, influencing industries to locate near consumers to minimize distribution costs; transport encompasses the network of roads, railways, ports, and airways that move raw.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Market, transport, and capital?",
+     "a": "Students often think \"market\" means only the local city population, ignoring purchasing power and income levels — a factory making luxury cars needs a market with high per-capita income, not just a large population.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how market size, transport connectivity, and capital availability interact to determine the location of a specific industry (e.g., why an automobile plant locates near a metropolitan area with good rail links and state subsidies), and can evaluate a hypothetical site using these three factors.",
+     "self_check": true
     }
    ]
   }

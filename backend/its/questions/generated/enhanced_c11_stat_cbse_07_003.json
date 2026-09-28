@@ -34,6 +34,26 @@
      "q": "Design a real-world bivariate data scenario (Indian context) where the scatter diagram would show: (a) high positive linear correlation, (b) low negative linear correlation, (c) perfect non-linear (curvilinear) correlation. For each, specify the two variables, the expected dot pattern, and one practical reason why this relationship exists.",
      "a": "**Sample answers (any valid scenario earns credit):**  \n(a) **High positive linear:** X = Monthly household income (₹), Y = Monthly expenditure on food (₹) for 50 urban families. Pattern: tight upward-sloping band. Reason: Engel's Law — food expenditure rises steadily with income, though proportion falls.  \n(b) **Low negative linear:** X = Average daily temperature (°C) in Delhi, Y = Daily sale of hot tea (cups) at a stall over 30 winter days. Pattern: wide, diffuse downward cloud. Reason: Temperature affects tea demand, but many other factors (rain, holidays, marketing) create large scatter.  \n(c) **Perfect non-linear:** X = Speed of a car (km/h), Y = Fuel efficiency (km/litre) for a specific car model tested at 10 speeds. Pattern: dots lie exactly on an inverted-U curve (efficiency peaks at 50-60 km/h). Reason: Physics of engine mechanics — efficiency rises then falls with speed.  \nA poor answer uses unrealistic variables (e.g., \"height and intelligence\") or cannot explain the *economic/physical mechanism* behind the pattern, showing lack of contextual understanding.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A scatter diagram is a graphical tool that plots paired values of two variables (X and Y) as points on a Cartesian plane to visually reveal the direction, degree, and nature of ______ between them.",
+     "a": "correlation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a school health coordinator examining ______ taller students tend to weigh more.",
+     "a": "whether",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must look at any scatter diagram and correctly classify the correlation by direction (positive/negative/zero), degree (perfect/high/moderate/low/zero), and nature (linear/non-linear), justifying each classification with reference to the dot pattern's shape, spread, and trend.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a school health ______ examining whether taller students tend to weigh more.",
+     "a": "coordinator",
+     "self_check": true
     }
    ]
   }

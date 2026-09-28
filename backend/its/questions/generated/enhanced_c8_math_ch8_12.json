@@ -34,6 +34,36 @@
      "q": "Create a real-life word problem where a customer buys two items with different GST rates (e.g., 5% and 18%), and the total bill is given. Ask to find the taxable value of each item if their prices before GST are in a given ratio.",
      "a": "A good problem: \"Riya buys a book (5% GST) and a pen (18% GST). The taxable prices are in ratio 3:2. Total bill = ₹1,236. Find taxable price of each.\" Expected solution: Let prices be 3x and 2x. Total with GST = 3x×1.05 + 2x×1.18 = 3.15x + 2.36x = 5.51x = 1236 → x = 224.32... (not neat). Better numbers: ratio 5:4, rates 12% and 18%, total ₹1,200 → 5x×1.12 + 4x×1.18 = 5.6x+4.72x=10.32x=1200 → x≈116.28. A poor problem uses only one GST rate or asks only for total GST, not requiring algebraic setup.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Goods and Services Tax (GST) is a single indirect tax levied on the supply of goods and services at each stage of the supply chain, ______ as a fixed percentage of the taxable value (selling price before tax).",
+     "a": "calculated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you buy a ______ bag priced at ₹800 and the bill shows ₹944.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What is Goods and Services Tax (GST)? State the definition given in this lesson.",
+     "a": "Goods and Services Tax (GST) is a single indirect tax levied on the supply of goods and services at each stage of the supply chain, calculated as a fixed percentage of the taxable value (selling price before tax).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You wonder: \"Where did the extra ₹______ come from?\" That extra amount is GST.",
+     "a": "144",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Goods and Services Tax (GST)?",
+     "a": "Students often calculate GST on the final price (inclusive of GST) instead of the taxable value.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the GST amount and final price for a given taxable value and GST rate, and can also work backwards to find the taxable value when the final price and GST rate are known, explaining each step using percentage concepts.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch11_7",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch11_7",
+   "title": "c9_math_ch11_7",
+   "questions": [
+    {
+     "q": "State the Triangle Inequality Theorem for a triangle with sides of lengths $x$, $y$, and $z$. Write all three inequalities.",
+     "a": "The three inequalities are: $x + y > z$, $y + z > x$, and $z + x > y$. A wrong answer like $x + y \\ge z$ reveals the student confuses degenerate triangles (collinear points) with actual triangles, or they recall the theorem loosely without the strict inequality. Missing one inequality (e.g., only writing $x + y > z$) shows they don't grasp that the theorem applies to *any* two sides, not just the two smallest.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul claims that sticks of lengths 5 cm, 5 cm, and 10 cm can form a triangle because $5 + 5 = 10$, and \"equal should be okay since the ends meet.\" Is he correct? Explain why or why not using the definition of a triangle.",
+     "a": "Rahul is incorrect. A triangle is a closed figure formed by three *non-collinear* line segments. If $5 + 5 = 10$, the three points lie on a straight line — the figure has zero area and is a degenerate triangle (a line segment), not a valid triangle. The theorem requires *strictly greater than* ($>$) because the shortest distance between two points is a straight line; any other path (the two sides) must be *longer*, not equal. A wrong answer accepting equality reveals the student treats the triangle as just \"three sticks touching\" rather than a 2D geometric figure with interior angles.",
+     "self_check": true
+    },
+    {
+     "q": "Two sides of a triangle are 8 cm and 13 cm. Find the range of possible integer lengths for the third side.",
+     "a": "Let the third side be $x$ cm. By Triangle Inequality:\n1. $x + 8 > 13 \\Rightarrow x > 5$\n2. $x + 13 > 8 \\Rightarrow x > -5$ (always true for positive lengths)\n3. $8 + 13 > x \\Rightarrow x < 21$\nSo $5 < x < 21$. Since $x$ is an integer, $x \\in \\{6, 7, 8, \\dots, 20\\}$.\nA wrong answer like $x \\ge 5$ or $x \\le 21$ reveals the student uses $\\ge / \\le$ instead of strict inequalities, or they forget to apply both lower and upper bounds. Missing the lower bound ($x > 5$) shows they only checked the sum of the two given sides against the third, not the third against the difference.",
+     "self_check": true
+    },
+    {
+     "q": "A triangle has sides $a$, $b$, $c$ with $a \\le b \\le c$. Prove that checking only $a + b > c$ is sufficient to confirm all three triangle inequalities hold.",
+     "a": "Given $a \\le b \\le c$, we know $a + c \\ge a + b > c \\ge b$, so $a + c > b$ holds. Similarly, $b + c \\ge a + c > b \\ge a$, so $b + c > a$ holds. Thus $a + b > c$ implies the other two. A wrong answer that says \"we only need to check the two smallest sides\" without using the ordering $a \\le b \\le c$ to justify the other inequalities reveals the student knows the shortcut but not the logical reason — they are memorizing a trick, not understanding the transitive property of inequalities.",
+     "self_check": true
+    },
+    {
+     "q": "Priya solves a problem: \"Can sides 7 cm, 10 cm, and 18 cm form a triangle?\" She writes: $7 + 10 = 17 < 18$, so no. Then she says: \"If we increase the 7 cm side to 8 cm, then $8 + 10 = 18$, so they *can* form a triangle.\" Evaluate her reasoning.",
+     "a": "Priya's first part is correct: $7 + 10 = 17 < 18$, so no triangle. Her second part is wrong: $8 + 10 = 18$ gives equality, which forms a degenerate triangle (straight line), not a valid triangle. She needs $8 + 10 > 18$, i.e., the side must be *at least* 9 cm. A wrong evaluation that accepts her second claim reveals the student shares her misconception about equality being sufficient, or they fail to check the strictness of the inequality when the sum changes.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where the Triangle Inequality Theorem is used to decide if a construction or route is possible. Give three specific measurements and ask for the feasible range of a fourth.",
+     "a": "Example problem: \"A farmer in Punjab has fencing wires of lengths 30 m and 45 m. He wants to make a triangular vegetable patch using these two wires and a third wire he will buy. The shop sells wire in integer metre lengths. What lengths can he buy?\" Answer: third wire $x$ must satisfy $15 < x < 75$, so integer lengths 16 m to 74 m. A poor answer gives a trivial problem (e.g., \"can 3,4,5 make a triangle?\") or fails to set up a scenario where the inequality gives a *range* rather than a yes/no. This reveals the student sees the theorem as a checklist, not a tool for constraints and design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

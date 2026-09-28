@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (using metres or centimetres) where a person needs to verify a right angle using only a measuring tape and the converse of Pythagoras theorem. Provide the three measurements you would give them and state whether the angle is 90°.",
      "a": "Example: Ramesh is laying tiles in his kitchen. He measures two adjacent walls from the corner: 3 m and 4 m. He then measures the diagonal distance between the endpoints of these measurements and gets 5 m. The three measurements are 3 m, 4 m, 5 m. Since \\(3^2 + 4^2 = 9 + 16 = 25 = 5^2\\), the corner is a perfect right angle. A poor answer would give measurements that do not satisfy the Pythagorean relation (e.g., 3, 4, 6) or forget to specify which is the diagonal, revealing the student cannot construct a valid Pythagorean triple or apply the concept to a practical layout scenario.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The converse of the ______-Pythagoras theorem states that in any triangle, if the square of the longest side is equal to the sum of the squares of the other two sides, then the triangle is a right-angled triangle with the right angle opposite the longest side.",
+     "a": "Baudhayana",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping a carpenter in Jaipur check if a wooden frame for a window is perfectly ______ before fixing the glass.",
+     "a": "rectangular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How can you tell him if the corner is exactly ______ degrees?",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the longest side of a given triangle, compute the squares of all three sides, compare the sum of squares of the two shorter sides with the square of the longest side, and conclude whether the triangle is right-angled, providing a clear mathematical justification.",
+     "self_check": true
     }
    ]
   }

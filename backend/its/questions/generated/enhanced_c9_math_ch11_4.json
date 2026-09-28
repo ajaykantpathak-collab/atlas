@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch11_4",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch11_4",
+   "title": "c9_math_ch11_4",
+   "questions": [
+    {
+     "q": "State the SSS Congruence Rule in your own words. What is the minimum information needed to apply it?",
+     "a": "Correct answer: \"If three sides of one triangle are equal to three sides of another triangle, the triangles are congruent. Minimum information: three pairs of equal sides.\" A wrong answer like \"two sides and an angle\" or \"all angles equal\" reveals the student is confusing SSS with SAS or AAA. If they say \"three sides and three angles\", they don't grasp that SSS *alone* is sufficient — they think more info is needed.",
+     "self_check": true
+    },
+    {
+     "q": "In ΔPQR and ΔXYZ, PQ = XY, QR = YZ, and PR = XZ. A student writes ΔPQR ≅ ΔXYZ. Is the correspondence correct? Explain why or why not.",
+     "a": "Correct answer: Yes, the correspondence is correct because the equal sides are listed in the same order: PQ ↔ XY, QR ↔ YZ, PR ↔ XZ. A wrong answer like \"No, it should be ΔPQR ≅ ΔZYX\" reveals the student thinks vertex order must be alphabetical or that they don't understand correspondence follows the *equal sides*, not alphabet. If they say \"We need angles to check\", they confuse SSS with ASA/SAS.",
+     "self_check": true
+    },
+    {
+     "q": "Two triangles have sides 6 cm, 8 cm, 10 cm and 6 cm, 8 cm, 10 cm. Are they congruent? If yes, write the congruence statement assuming the first triangle is ΔABC with AB=6, BC=8, CA=10 and the second is ΔDEF with DE=6, EF=8, FD=10.",
+     "a": "Correct answer: Yes, ΔABC ≅ ΔDEF. Steps: (1) Identify given: AB=DE=6, BC=EF=8, CA=FD=10. (2) All three pairs of sides are equal. (3) By SSS rule, ΔABC ≅ ΔDEF. A wrong answer like \"ΔABC ≅ ΔEDF\" shows the student matched vertices alphabetically instead of by equal sides (AB=6 matches DE=6, so A↔D, B↔E; BC=8 matches EF=8, so B↔E, C↔F; CA=10 matches FD=10, so C↔F, A↔D → consistent). If they say \"Not enough info\", they don't trust SSS alone.",
+     "self_check": true
+    },
+    {
+     "q": "Compare SSS and AAA. Why does SSS guarantee congruence but AAA does not? Use the concept of \"rigidity\" in your explanation.",
+     "a": "Correct answer: SSS fixes all three side lengths, which uniquely determines the triangle's shape and size (rigidity — like a triangular truss that cannot deform). AAA only fixes angles, which determines shape but not size — triangles can be similar (same angles) but different sizes (e.g., 3-4-5 and 6-8-10). A wrong answer like \"AAA also works because angles determine the triangle\" reveals the student confuses similarity with congruence. If they say \"SSS works because we measure sides\", they miss the geometric reason (rigidity).",
+     "self_check": true
+    },
+    {
+     "q": "A student proves ΔABC ≅ ΔDEF using SSS but writes the given as: AB = DE, BC = EF, ∠B = ∠E. They conclude by SSS. Is this proof valid? Identify the error.",
+     "a": "Correct answer: No, the proof is invalid. The student used two sides and an included angle (SAS), not three sides (SSS). The given includes ∠B = ∠E, which is an angle, not a side. For SSS, all three pairs must be sides: e.g., AB=DE, BC=EF, AC=DF. A wrong answer like \"Yes, it's valid because two sides and angle are enough\" shows the student doesn't distinguish between congruence criteria. If they say \"It's SAS, not SSS, but still proves congruence\", they correctly identify the rule but miss that the *question asked for SSS specifically*.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) where SSS congruence is used to solve it. The problem must involve measuring or constructing something practical.",
+     "a": "Good answer example: \"A carpenter makes two triangular shelves. Shelf 1 has sides 60 cm, 80 cm, 100 cm. Shelf 2 is made with three planks of the same lengths. Prove the shelves are identical without measuring angles.\" The problem must clearly give three side lengths for both triangles and ask to prove congruence. A poor answer like \"Two triangles with same sides\" without context or measurements shows the student can't translate the abstract rule to a concrete situation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,21 @@
      "q": "Design a field investigation plan for a Class 11 project to identify rock cycle transitions exposed in a road cut along the Mumbai-Pune Expressway (Deccan Traps region). Specify: (a) three rock types to locate, (b) two transition zones to document with photographs, (c) one quantitative measurement to collect at each transition.",
      "a": "(a) Basalt (igneous flow), red bole (weathered basalt → lateritic soil/sediment), amygdaloidal basalt (vesicles filled by zeolites → hydrothermal metamorphism). (b) Transition 1: Fresh basalt → red bole (weathering front); Transition 2: Basalt → zeolite-filled amygdules (hydrothermal alteration). (c) Measurement 1: Weathering rind thickness vs. distance from surface (mm); Measurement 2: Vesicle fill percentage and mineral assemblage (point count). Poor answers list only rock names without transition logic, or suggest measurements irrelevant to process identification (e.g., \"measure rock hardness\" without linking to weathering grade).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The rock cycle is a continuous geological process driven by Earth's internal heat and external solar energy, through which the three major rock types—igneous, sedimentary, and metamorphic—interconvert via specific pathways: weathering and erosion transform any rock into sediment; ______ converts sediment into sedimentary rock; heat and pressure transform any rock into metamorphic rock; melting produces magma that crystallizes into igneous rock; and uplift exposes rocks to surface processes.",
+     "a": "lithification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the Aravalli hills near Delhi—those ancient ______ ridges were once sandstone, which was once sand eroded from even older granites.",
+     "a": "quartzite",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can trace a complete rock cycle pathway (e.g., granite → sand → sandstone → quartzite → melt → rhyolite) identifying the specific geological processes at each transition, explain how plate tectonic settings control which pathway dominates, and justify why the cycle is not a simple circle but a multi-directional network with.",
+     "self_check": true
     }
    ]
   }

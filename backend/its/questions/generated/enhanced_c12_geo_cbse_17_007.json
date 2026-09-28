@@ -34,6 +34,31 @@
      "q": "Design a community-based early warning system for a drought-prone block in Bundelkhand that integrates IMD's Standardized Precipitation Index (SPI), groundwater monitoring wells, and crop-sowing advisories. List the data flow steps from sensor to farmer.",
      "a": "1) Automatic weather stations + rain gauges feed daily rainfall to block-level server. 2) Server computes 1-month and 3-month SPI weekly. 3) Piezometer network transmits groundwater depth via telemetry. 4) Combined SPI + groundwater threshold triggers \"drought watch/alert/emergency\" SMS to Gram Panchayat. 5) Krishi Vigyan Kendra translates alert into crop-specific advisory (e.g., switch to millet, delay sowing, deficit irrigation). 6) Advisory disseminated via WhatsApp groups, village loudspeakers, and SHG meetings. A poor answer lists only \"SMS alerts\" without the hydro-meteorological decision logic, showing inability to synthesize monitoring, communication, and agronomic response — a key competency for CUET geography case studies.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Natural disasters in India are extreme geophysical or hydro-______ events — earthquakes, floods, droughts, and cyclones — that exceed local coping capacity, causing widespread loss of life, livelihood, and infrastructure.",
+     "a": "meteorological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real observation: \"Look at the news — every year we hear of Assam floods, Maharashtra droughts, Odisha cyclones, and Himalayan ______.",
+     "a": "earthquakes",
+     "self_check": true
+    },
+    {
+     "q": "What is Natural disasters in India? State the definition given in this lesson.",
+     "a": "Natural disasters in India are extreme geophysical or hydro-meteorological events — earthquakes, floods, droughts, and cyclones — that exceed local coping capacity, causing widespread loss of life, livelihood, and infrastructure.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) delineate India's four seismic zones on an outline map and explain the plate-tectonic reason for each zone's hazard level; (2) contrast the flood mechanisms of Himalayan rivers (glacial melt + monsoon) vs. peninsular rivers (cyclonic rainfall + poor drainage); (3) classify a given drought event as meteorological.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real ______: \"Look at the news — every year we hear of Assam floods, Maharashtra droughts, Odisha cyclones, and Himalayan earthquakes.",
+     "a": "observation",
+     "self_check": true
     }
    ]
   }

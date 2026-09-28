@@ -34,6 +34,36 @@
      "q": "Design a real-world experiment to measure a two-wheeler rider's reaction time without a ruler, using only a smartphone and a marked straight road. Describe the procedure and the formula you would use.",
      "a": "Procedure: Mark a \"stimulus line\" and a \"brake line\" 5 m apart. Rider approaches at constant known speed v₀ (measured via phone GPS). At stimulus line, co-rider shouts \"brake\"; rider applies brakes. Phone video records time from shout to brake-light onset (tᵣ). Alternatively, use phone's audio sensor: record shout sound and brake-squeal sound; time difference = tᵣ. Formula: tᵣ = (distance from stimulus line to actual brake application point) / v₀. A good answer includes synchronization method, constant-speed verification, and recognition that reaction distance = v₀tᵣ. A poor answer uses speedometer reading without verifying constancy or ignores video-frame synchronization error.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Reaction time is the time interval between a stimulus (e.g., seeing an obstacle) and the ______ of a physical response (e.g., applying brakes), during which the vehicle continues moving at constant initial velocity.",
+     "a": "initiation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bicycle rider suddenly spotting a stray dog on a Delhi road — the rider ______ moving forward for a fraction of a second before squeezing the brake lever.",
+     "a": "continues",
+     "self_check": true
+    },
+    {
+     "q": "What is Reaction time? State the definition given in this lesson.",
+     "a": "Reaction time is the time interval between a stimulus (e.g., seeing an obstacle) and the initiation of a physical response (e.g., applying brakes), during which the vehicle continues moving at constant initial velocity.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The total stopping distance is the sum of reaction distance (v₀ × tᵣ) and braking distance (v₀²/______a), where v₀ is initial velocity (m/s), tᵣ is reaction time (s), and a is magnitude of deceleration (m/s²).",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Reaction time?",
+     "a": "Students believe \"reaction distance\" and \"braking distance\" are interchangeable terms for stopping distance, and that both scale linearly with speed.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate total stopping distance given initial speed, reaction time, and deceleration; can derive reaction time from ruler-drop distance; and can explain why stopping distance scales with the square of speed but linearly with reaction time.",
+     "self_check": true
     }
    ]
   }

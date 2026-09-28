@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (using Indian context: rupees, metres, litres, etc.) that requires finding a cube number to solve. The problem must involve a 3D object and ask for either volume or side length. Write the problem and solve it.",
      "a": "Example problem: \"A cubical grain silo has side length 8 metres. How many cubic metres of grain can it hold? If another silo holds 1000 m³, what is its side length?\" Solution: 8³ = 512 m³; for 1000 m³, side = 10 m because 10³ = 1000. A poor problem would be 2D (area) or use multiplication by 3. The student must demonstrate understanding that cube numbers model volume of cubes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A cube number is the result of ______ an integer by itself three times.",
+     "a": "multiplying",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ small cubic boxes (each 1 cm × 1 cm × 1 cm) into a larger cube-shaped carton.",
+     "a": "packing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If the carton's side length is ______ cm, how many small boxes fit inside?",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are packing small cubic boxes (each 1 cm × 1 cm × 1 cm) into a larger cube-shaped carton.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

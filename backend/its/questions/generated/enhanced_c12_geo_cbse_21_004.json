@@ -34,6 +34,36 @@
      "q": "Design a sampling plan for a field survey to assess the impact of a new check-dam on groundwater levels in a 50 km² basin. The basin has three hydrogeological units (alluvial, basaltic, sandstone) with different aquifer properties. Specify: target population, sampling frame, sampling method, sample size allocation, and how you would handle inaccessible wells.",
      "a": "Target population: all functional irrigation wells in the basin. Sampling frame: GIS layer of well locations from the Groundwater Department, updated with field verification. Method: Stratified random sampling with hydrogeological unit as stratum. Allocation: Neyman (optimal) allocation if prior variance data exist; otherwise proportional allocation with a minimum of 5 wells per stratum. Inaccessible wells: maintain a replacement list of 10% extra wells per stratum selected during the same random draw; if a primary well is inaccessible, substitute the next well on the replacement list for that stratum. A poor answer that uses simple random sampling or ignores hydrogeological strata fails to account for the dominant spatial control on groundwater response.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sampling in field surveys is the process of selecting a ______ subset of units (households, farms, plots, individuals) from a larger target population to collect primary data, where each sampling method — simple random, stratified random, and systematic — follows a distinct probability-based selection rule to ensure unbiased representation and allow statistical inference about the whole population.",
+     "a": "representative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing in a village in Haryana with 500 households and need to survey 50 of them about ______ usage.",
+     "a": "groundwater",
+     "self_check": true
+    },
+    {
+     "q": "What is Sampling in field surveys? State the definition given in this lesson.",
+     "a": "Sampling in field surveys is the process of selecting a representative subset of units (households, farms, plots, individuals) from a larger target population to collect primary data, where each sampling method — simple random, stratified random, and systematic — follows a distinct probability-based selection rule to ensure unbiased.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: First, list all ______ households — that is your sampling frame.",
+     "a": "500",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Sampling in field surveys?",
+     "a": "Students often believe that systematic sampling is \"random enough\" and can replace stratified sampling when the population is heterogeneous.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) define population, sampling frame, sampling unit, and sample size for a given field survey scenario; (2) explain the selection procedure for simple random, stratified random, and systematic sampling with a concrete geographic example; (3) choose the appropriate method when given a heterogeneous vs. homogeneous population.",
+     "self_check": true
     }
    ]
   }

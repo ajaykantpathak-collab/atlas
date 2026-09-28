@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_04_003",
+   "title": "c12_soc_cbse_04_003",
+   "questions": [
+    {
+     "q": "Define a 'weekly haat' and state two features that distinguish it from a daily urban retail market.",
+     "a": "A weekly haat is a periodic market held on a fixed day in rural/tribal areas where people from surrounding villages gather for trade and social interaction. Two distinguishing features: (1) It operates periodically (e.g., weekly) not daily, and (2) It combines economic exchange with critical social functions like kin meetings, marriage negotiations, and religious rituals. A wrong answer that only mentions buying/selling reveals the student sees markets purely economically, missing the sociological insight that markets are socially embedded institutions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why sociologists describe the weekly tribal haat as a 'social institution' rather than just an economic marketplace. Use the Dhorai market example.",
+     "a": "Sociologists call it a social institution because it is structured by non-economic social relations: caste determines who buys/sells (adivasis sell, Hindu traders buy), kinship networks organise credit/trust (Nakarattar-style), and the market space hosts marriage talks, religious ceremonies, and dispute resolution. In Dhorai, the banyan tree centre, concentric stall layout, and Forest Department's presence show state, religion, and economy intersecting. A wrong answer focusing only on goods traded reveals the student has not grasped Polanyi's 'embeddedness' concept from node c12_soc_cbse_04_002.",
+     "self_check": true
+    },
+    {
+     "q": "A new all-weather road connects a remote tribal haat to a district town. Predict three specific changes in the market's social and economic structure over five years, using the concept of 'incorporation into wider markets'.",
+     "a": "1. Traders from the town will replace local caste-Hindu traders, reducing adivasis' bargaining power (as in colonial Bastar). 2. Forest produce will flow directly to urban markets, lowering local prices and increasing exploitation. 3. Social functions (marriage talks, rituals) will decline as visits become transactional day-trips. A wrong answer listing only 'more goods available' shows the student cannot apply the historical pattern of colonial incorporation (node c12_soc_cbse_04_009) to a new scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Nakarattar caste-based banking system (Chettiars) with modern formal banking on three dimensions: basis of trust, spatial reach, and relationship to state regulation.",
+     "a": "Nakarattars: trust based on caste/kinship reputation and shared communal reserves; spatial reach through caste networks across regions; self-regulated by community institutions, not state. Modern banks: trust based on collateral/credit scores; spatial reach through branches/digital; state-regulated (RBI). A wrong answer saying 'both lend money' misses the sociological point that markets are organised by social relations, not just contracts (node c12_soc_cbse_04_002).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: 'Colonialism destroyed the self-sufficiency of tribal economies but also created the weekly haat as we know it today.' Support with two pieces of evidence from the Bastar case.",
+     "a": "The statement is partially correct. Evidence for destruction: colonial forest laws restricted access, moneylenders acquired adivasi land, labour markets for plantations emerged. Evidence for creation: colonial roads and 'pacification' enabled regular weekly markets linking forests to towns; the Dhorai market's current form (Forest Department payments, Hindu trader dominance) is a colonial product. A wrong answer calling colonialism purely destructive or purely creative shows inability to hold dialectical historical analysis (node c12_soc_cbse_04_009).",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-ethnographic study of a periodic market near your town. List four specific observations you would record to prove it is a 'social institution', not just an economic one.",
+     "a": "1. Caste/religion of buyers vs sellers for each good type. 2. Non-economic activities: marriage talks, religious rituals, political meetings, dispute settlements. 3. Credit arrangements: who lends to whom, based on what social ties. 4. Spatial layout: whether stalls are arranged by caste, kinship, or ritual centres (like Dhorai's banyan tree). A poor answer listing only prices/quantities reveals the student cannot operationalise 'social embeddedness' into researchable indicators.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A weekly market (haat) is a periodic market held on a fixed day in rural and tribal areas where people from surrounding villages gather to buy and sell goods, but it also functions as a key social institution ______ kinship meetings, marriage negotiations, information exchange, and the integration of local economies into wider regional and national market systems through caste-based trading networks.",
+     "a": "facilitating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you visit a Friday market in a forested village in Chhattisgarh: trucks jam the road, Gond ______ sell tamarind and bamboo baskets to Hindu traders, forest guards pay labourers, and families arrange marriages over tea.",
+     "a": "adivasis",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain how a weekly haat operates as a socially embedded institution by identifying its economic functions (exchange of forest/agricultural produce, manufactured goods), social functions (kin meetings, marriage arrangements, dispute resolution), and structural linkages (caste-based trader networks.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you visit a Friday market in a forested village in ______: trucks jam the road, Gond adivasis sell tamarind and bamboo baskets to Hindu traders, forest guards pay labourers, and families arrange marriages over tea.",
+     "a": "Chhattisgarh",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

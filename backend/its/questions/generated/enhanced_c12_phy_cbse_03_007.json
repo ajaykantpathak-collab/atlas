@@ -34,6 +34,16 @@
      "q": "Design an experiment to determine the temperature coefficient of resistance (\\(\\alpha\\)) of a given wire using a meter bridge. List the additional equipment needed and the procedure.",
      "a": "**Equipment:** Meter bridge, resistance box, the wire under test, thermometer, beaker with water, heater, stirrer, connecting wires, galvanometer, cell.  \n**Procedure:**  \n1. Measure the wire's resistance \\(R_0\\) at room temperature \\(T_0\\) using the meter bridge (balance point \\(l_0\\)).  \n2. Immerse the wire in a water bath, heat gradually, and measure resistance \\(R_t\\) at several temperatures \\(t\\) (e.g., 30°C, 40°C, 50°C, 60°C) by finding new balance points.  \n3. Plot \\(R_t\\) vs \\(t\\); the slope gives \\(R_0 \\alpha\\).  \n4. Calculate \\(\\alpha = \\frac{1}{R_0} \\frac{dR}{dt}\\).  \n**Key precaution:** Use a low current to avoid self-heating. A good answer must mention stirring for uniform temperature, using a water bath for even heating, and the linear approximation \\(R_t = R_0[1 + \\alpha(t - T_0)]\\). Missing any of these shows incomplete experimental design thinking.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The meter bridge is a laboratory instrument that implements the Wheatstone bridge principle using a uniform resistance wire of length exactly one meter, enabling the ______ of an unknown resistance by finding the null point where the galvanometer shows zero deflection.",
+     "a": "determination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in your school physics ______ holding a meter-long uniform wire (manganin or constantan) stretched between two copper strips — this is the heart of a meter bridge.",
+     "a": "laboratory",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Invent a new convex polyhedron by describing its faces (e.g., \"6 squares and 8 triangles\"), then determine how many vertices and edges it must have to satisfy Euler's Formula. Explain your reasoning.",
      "a": "Example: A polyhedron with 6 square faces and 8 triangular faces → F = 14. To find V and E, we need additional constraints (e.g., each vertex has same degree). A good answer shows understanding that F alone is insufficient; the student must propose consistent V and E (e.g., if 3 faces meet at each vertex, 3V = 2E, and with F=14, solve V=12, E=24). A poor answer (e.g., random numbers giving F+V-E=2) reveals the student treats the formula as a mere arithmetic puzzle without geometric constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Euler's Formula states that for any convex polyhedron (a 3D solid with flat polygonal faces, straight edges, and sharp vertices, with no holes or self-______), the number of faces (F) plus the number of vertices (V) minus the number of edges (E) always equals 2.",
+     "a": "intersections",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping a carpenter in Jaipur who is building wooden models of different ______ for a school math exhibition.",
+     "a": "polyhedra",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This relationship F + V - E = ______ is a topological invariant that holds true regardless of the polyhedron's size or shape, as long as it is convex.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly count faces, edges, and vertices of any given convex polyhedron, apply Euler's formula to verify the relationship or find a missing value, and explain why the formula does not apply to non-polyhedra (like cylinders or cones) or non-convex shapes.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping a carpenter in Jaipur who is building wooden models of different polyhedra for a school math ______.",
+     "a": "exhibition",
+     "self_check": true
     }
    ]
   }

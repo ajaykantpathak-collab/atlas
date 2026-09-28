@@ -1,0 +1,119 @@
+{
+ "catalog": "catalog_class12_biotechnology_lebt111.json",
+ "concepts": [
+  {
+   "id": "lebt111.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total_volume = 104",
+      "sample_volume = 73",
+      "dilution_factor = total_volume / sample_volume"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total_volume = 21",
+      "sample_volume = 73",
+      "dilution_factor = total_volume / sample_volume"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_volume = 29",
+      "sample_volume = 60",
+      "dilution_factor = total_volume / sample_volume"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total_volume = 16.7",
+      "sample_volume = 3.5",
+      "dilution_factor = total_volume / sample_volume"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "total_volume = 110",
+      "sample_volume = 23",
+      "dilution_factor = total_volume / sample_volume"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total_volume = 37",
+      "sample_volume = 42",
+      "dilution_factor = total_volume / sample_volume"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "dilution_factor = total_volume / sample_volume"
+   ]
+  },
+  {
+   "id": "lebt111.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "bod_before = 14.9",
+      "removal_pct = 49",
+      "remaining_bod = bod_before * (100 - removal_pct) / 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "bod_before = 84",
+      "removal_pct = 56",
+      "remaining_bod = bod_before * (100 - removal_pct) / 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "bod_before = 54",
+      "removal_pct = 39",
+      "remaining_bod = bod_before * (100 - removal_pct) / 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "bod_before = 2",
+      "removal_pct = 25",
+      "remaining_bod = bod_before * (100 - removal_pct) / 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "bod_before = 40",
+      "removal_pct = 13.4",
+      "remaining_bod = bod_before * (100 - removal_pct) / 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "bod_before = 97",
+      "removal_pct = 60",
+      "remaining_bod = bod_before * (100 - removal_pct) / 100"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "remaining_bod = bod_before * (100 - removal_pct) / 100"
+   ]
+  }
+ ]
+}

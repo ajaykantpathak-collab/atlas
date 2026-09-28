@@ -34,6 +34,31 @@
      "q": "Design a simple classroom model using a globe and a lamp to demonstrate the difference between the Earth's daily rotation and its yearly revolution. Describe how you would move them.",
      "a": "A good response involves placing a lamp (representing the Sun) in the center of a desk and moving a small globe (representing the Earth) in a circle around the lamp while simultaneously spinning the globe on its tilted axis. A poor response only spins the globe in one spot or only moves it without spinning, failing to show both motions simultaneously.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The revolution of the Earth is the movement of the Earth in a nearly circular or elliptical orbit around the Sun, completing one full circuit in ______ 365.25 days (one year).",
+     "a": "approximately",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine walking in a complete large circle around a bonfire in your school courtyard, returning ______ to your starting point after one complete lap.",
+     "a": "exactly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The revolution of the Earth is the movement of the Earth in a nearly circular or elliptical orbit around the Sun, completing one full circuit in approximately ______ days (one year).",
+     "a": "365.25",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can explain how Earth's orbital path around the Sun defines a year and can describe the time period required for one complete revolution.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine walking in a complete large circle around a bonfire in your school ______, returning exactly to your starting point after one complete lap.",
+     "a": "courtyard",
+     "self_check": true
     }
    ]
   }

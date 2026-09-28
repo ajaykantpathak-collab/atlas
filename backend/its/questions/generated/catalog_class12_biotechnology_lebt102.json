@@ -1,6 +1,147 @@
 {
- "catalog": "catalog_class12_biotechnology_lebt102",
+ "catalog": "catalog_class12_biotechnology_lebt102.json",
  "concepts": [
+  {
+   "id": "lebt102.2",
+   "title": "Plasmid Copy Number and Vector Engineering",
+   "converted_to_compute": true,
+   "formula": "deleted_bp = old_size_bp - new_size_bp",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "deleted_bp = old_size_bp - new_size_bp",
+     "compute": "deleted_bp = old_size_bp - new_size_bp"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Plasmid Copy Number and Vector Engineering: given old_size_bp = 22, new_size_bp = 58, find deleted bp.",
+     "a": "-36",
+     "self_check": false
+    },
+    {
+     "q": "For Plasmid Copy Number and Vector Engineering: given old_size_bp = 42, new_size_bp = 21, find deleted bp.",
+     "a": "21",
+     "self_check": false
+    },
+    {
+     "q": "For Plasmid Copy Number and Vector Engineering: given old_size_bp = 98, new_size_bp = 93, find deleted bp.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "For Plasmid Copy Number and Vector Engineering: given old_size_bp = 66, new_size_bp = 3.4, find deleted bp.",
+     "a": "62.6",
+     "self_check": false
+    },
+    {
+     "q": "For Plasmid Copy Number and Vector Engineering: given old_size_bp = 38, new_size_bp = 28, find deleted bp.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "For Plasmid Copy Number and Vector Engineering: given old_size_bp = 44, new_size_bp = 5.7, find deleted bp.",
+     "a": "38.3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lebt102.3",
+   "title": "Lambda Phage Genome and Its Vectors",
+   "converted_to_compute": true,
+   "formula": "circular_bp = linear_bp + cos_pairs",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "circular_bp = linear_bp + cos_pairs",
+     "compute": "circular_bp = linear_bp + cos_pairs"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Lambda Phage Genome and Its Vectors: given linear_bp = 100, cos_pairs = 0.4, find circular bp.",
+     "a": "100.4",
+     "self_check": false
+    },
+    {
+     "q": "For Lambda Phage Genome and Its Vectors: given linear_bp = 58, cos_pairs = 0.5, find circular bp.",
+     "a": "58.5",
+     "self_check": false
+    },
+    {
+     "q": "For Lambda Phage Genome and Its Vectors: given linear_bp = 33, cos_pairs = 0.7, find circular bp.",
+     "a": "33.7",
+     "self_check": false
+    },
+    {
+     "q": "For Lambda Phage Genome and Its Vectors: given linear_bp = 2.2, cos_pairs = 0.2, find circular bp.",
+     "a": "2.4",
+     "self_check": false
+    },
+    {
+     "q": "For Lambda Phage Genome and Its Vectors: given linear_bp = 51, cos_pairs = 0.4, find circular bp.",
+     "a": "51.4",
+     "self_check": false
+    },
+    {
+     "q": "For Lambda Phage Genome and Its Vectors: given linear_bp = 16.6, cos_pairs = 0.1, find circular bp.",
+     "a": "16.7",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lebt102.6",
+   "title": "Artificial Chromosomes YAC BAC and PAC",
+   "converted_to_compute": true,
+   "formula": "yac_range = yac_max - yac_min",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "yac_range = yac_max - yac_min",
+     "compute": "yac_range = yac_max - yac_min"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Artificial Chromosomes YAC BAC and PAC: given yac_max = 47, yac_min = 31, find yac range.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "For Artificial Chromosomes YAC BAC and PAC: given yac_max = 73, yac_min = 56, find yac range.",
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "For Artificial Chromosomes YAC BAC and PAC: given yac_max = 78, yac_min = 100, find yac range.",
+     "a": "-22",
+     "self_check": false
+    },
+    {
+     "q": "For Artificial Chromosomes YAC BAC and PAC: given yac_max = 89, yac_min = 11.5, find yac range.",
+     "a": "77.5",
+     "self_check": false
+    },
+    {
+     "q": "For Artificial Chromosomes YAC BAC and PAC: given yac_max = 80, yac_min = 57, find yac range.",
+     "a": "23",
+     "self_check": false
+    },
+    {
+     "q": "For Artificial Chromosomes YAC BAC and PAC: given yac_max = 93, yac_min = 56, find yac range.",
+     "a": "37",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "lebt102.1",
    "title": "Two-Component Cloning System and Vector Features",
@@ -18,68 +159,6 @@
     {
      "q": "Under which section is 'Two-Component Cloning System and Vector Features' taught, and from which source text?",
      "a": "2.1-2.3 (source: lebt102.txt sections 2.1-2.3, Fig. 2.1-2.2)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebt102.2",
-   "title": "Plasmid Copy Number and Vector Engineering",
-   "questions": [
-    {
-     "q": "Using the method 'Plasmid Copy Number and Vector Engineering', work with: new_size_bp = 512, old_size_bp = 4096. Carry the chain through step by step and give the final value of deleted_pct.",
-     "a": "87.5 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Plasmid Copy Number and Vector Engineering' and work with: new_size_bp = 512, old_size_bp = 8192. Carry the chain through step by step and give the final value of deleted_pct.",
-     "a": "93.75 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Plasmid Copy Number and Vector Engineering' refers to.",
-     "a": "Plasmids are circular extrachromosomal DNAs from a few kilobases to over a hundred: relaxed high-copy plasmids escape chromosome control to reach ten to thirty copies per cell and stronger screening signals, whereas stringent low-copy plasmids hold one or a few; engineers then trim and recombine natural plasmids - nine-kilobase pBR313 with tetR and ampR lost its non-essential bulk to become the 4,361 bp pBR322, and later pUC19 at 2.686 kb added a synthetic polylinker and blue-white selection through lacZ.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Plasmid Copy Number and Vector Engineering'.",
-     "a": "Subtract the engineered size from the natural one to price the deleted non-essential DNA.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Plasmid Copy Number and Vector Engineering', in plain ASCII form.",
-     "a": "deleted_bp = old_size_bp - new_size_bp",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebt102.3",
-   "title": "Lambda Phage Genome and Its Vectors",
-   "questions": [
-    {
-     "q": "Using the method 'Lambda Phage Genome and Its Vectors', work with: circular_kbp = 4096, cos_pairs = 15, linear_bp = 75. Carry the chain through step by step and give the final value of dispensable_kbp.",
-     "a": "1365.3333 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Lambda Phage Genome and Its Vectors' and work with: circular_kbp = 256, cos_pairs = 24, linear_bp = 6. Carry the chain through step by step and give the final value of dispensable_kbp.",
-     "a": "85.3333 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Lambda Phage Genome and Its Vectors' refers to.",
-     "a": "Lambda's linear 48,490 bp genome carries twelve-base cohesive ends that anneal inside E. coli to close a 48,502 bp circle at the cos site; about one-third of the middle region, the lysogeny genes, is dispensable for lytic growth, so vectors replace that stretch with inserts sized 38-52 kbp for packaging - insertion vectors such as lambda gt10 and gt11 taking up to about 7 kbp, and replacement vectors like EMBL3 trading their stuffer for 20 kbp inserts.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Lambda Phage Genome and Its Vectors'.",
-     "a": "Add the paired cohesive bases to the linear length for the circular genome, and divide by three to find the replaceable middle.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Lambda Phage Genome and Its Vectors', in plain ASCII form.",
-     "a": "circular_bp = linear_bp + cos_pairs",
      "self_check": true
     }
    ]
@@ -122,37 +201,6 @@
     {
      "q": "Under which section is 'Cosmids and Phasmids as Hybrid Vectors' taught, and from which source text?",
      "a": "2.3.3-2.3.4 (source: lebt102.txt sections 2.3.3-2.3.4, Figs. 2.11-2.12)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebt102.6",
-   "title": "Artificial Chromosomes YAC BAC and PAC",
-   "questions": [
-    {
-     "q": "Using the method 'Artificial Chromosomes YAC BAC and PAC', work with: yac_max = 75, yac_min = 360. Carry the chain through step by step and give the final value of yac_mid.",
-     "a": "217.5 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Artificial Chromosomes YAC BAC and PAC' and work with: yac_max = 300, yac_min = 360. Carry the chain through step by step and give the final value of yac_mid.",
-     "a": "330 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Artificial Chromosomes YAC BAC and PAC' refers to.",
-     "a": "Eukaryotic introns force cloning of huge fragments, so artificial chromosomes were built: yeast artificial chromosomes string two telomeres, a centromere, an ARS origin and markers into a linear yeast chromosome carrying 200-500 kb inserts while keeping a circular bacterial form; bacterial and phage artificial chromosomes extend the same idea from plasmid and phage parts, with capacities stepping from plasmid's ten kilobases up to about half a megabase.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Artificial Chromosomes YAC BAC and PAC'.",
-     "a": "Subtract the capacity floor from the ceiling to size each vector class, and average the two for a typical insert.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Artificial Chromosomes YAC BAC and PAC', in plain ASCII form.",
-     "a": "yac_range = yac_max - yac_min",
      "self_check": true
     }
    ]

@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a spring, a set of masses, a ruler, and a clamp stand to verify that the elastic potential energy stored in a spring is proportional to the square of the extension (U ∝ x²). Describe the procedure, measurements, and how you would analyze the data.",
      "a": "Hang the spring vertically, attach a mass, measure extension x. The gravitational potential energy lost by the mass (mgx) equals the elastic potential energy gained (½kx²) at equilibrium? Actually, at equilibrium mg = kx, so mgx = kx². But the energy stored is ½kx² = ½mgx. Better: Use a spring launcher horizontally. Compress spring by known x, launch a mass m, measure speed v using a photogate or video analysis. Plot ½mv² (kinetic energy) vs x². Slope gives ½k. A poor answer would just say \"measure extension for different masses\" without connecting to energy conversion or plotting x².",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Potential energy is the energy stored in an object due to its position or ______.",
+     "a": "configuration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bow and arrow: when you pull the ______ back, you do work on the bow, storing energy that launches the arrow.",
+     "a": "string",
+     "self_check": true
+    },
+    {
+     "q": "What is Potential energy? State the definition given in this lesson.",
+     "a": "Potential energy is the energy stored in an object due to its position or configuration.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Gravitational potential energy (U_g = mgh) is the energy an object possesses because of its height above a reference level in a gravitational field, where m is mass (kg), g is acceleration due to gravity (______ m/s²), and h is vertical height (m).",
+     "a": "9.8",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Potential energy?",
+     "a": "Students often think gravitational potential energy depends on the path taken to reach the height (e.g., lifting straight up vs. pushing up a ramp).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate gravitational potential energy for an object raised to a given height and elastic potential energy for a spring compressed by a given distance, correctly identifying the reference level for gravitational potential energy and the natural length for elastic potential energy.",
+     "self_check": true
     }
    ]
   }

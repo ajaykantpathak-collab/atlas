@@ -1,394 +1,439 @@
 {
-  "class": 11,
-  "subject": "physics",
-  "chapter": 202,
-  "chapter_title": "Mechanical Properties of Fluids",
-  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keph202.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "concepts": [
+ "class": 11,
+ "subject": "physics",
+ "chapter": 202,
+ "chapter_title": "Mechanical Properties of Fluids",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keph202.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "keph202.9.2.1",
+   "title": "Pressure in a Fluid and Hydrostatic Depth",
+   "section": "9.2",
+   "definition": "A fluid at rest pushes perpendicularly on any surface, with pressure defined as normal force per unit area. Pressure grows linearly with depth below a free surface: it equals the fluid density times gravity times the depth, and at one depth it pushes equally in all directions (Pascal's law).",
+   "formula": "pressure = density * gravity * depth",
+   "key_idea": "Deeper means more fluid overhead means more pressure -- the same everywhere at one depth.",
+   "textbook_ref": "keph202.txt lines 40-200 (sections 9.1, 9.2 pressure, Pascal's law, variation of pressure with depth, atmospheric pressure, gauge pressure)",
+   "question_patterns": [
+    "find the pressure at the given depth in the given liquid",
+    "in class 11 mechanical properties of fluids: state Pascal's law and one application",
+    "calculate the total pressure at the bottom of a container of given liquid height",
+    "why is pressure the same in all directions at a point in a fluid",
+    "how does a hydraulic lift multiply force using Pascal's law",
+    "distinguish absolute pressure from gauge pressure at a depth"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "keph202.9.2.1",
-      "title": "Pressure in a Fluid and Hydrostatic Depth",
-      "section": "9.2",
-      "definition": "A fluid at rest pushes perpendicularly on any surface, with pressure defined as normal force per unit area. Pressure grows linearly with depth below a free surface: it equals the fluid density times gravity times the depth, and at one depth it pushes equally in all directions (Pascal's law).",
-      "formula": "pressure = density * gravity * depth",
-      "key_idea": "Deeper means more fluid overhead means more pressure -- the same everywhere at one depth.",
-      "textbook_ref": "keph202.txt lines 40-200 (sections 9.1, 9.2 pressure, Pascal's law, variation of pressure with depth, atmospheric pressure, gauge pressure)",
-      "question_patterns": [
-        "find the pressure at the given depth in the given liquid",
-        "in class 11 mechanical properties of fluids: state Pascal's law and one application",
-        "calculate the total pressure at the bottom of a container of given liquid height",
-        "why is pressure the same in all directions at a point in a fluid",
-        "how does a hydraulic lift multiply force using Pascal's law",
-        "distinguish absolute pressure from gauge pressure at a depth"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "multiply density gravity and depth",
-          "explain": "The weight of the fluid column over unit area gives the gauge pressure.",
-          "compute": "pressure = density * gravity * depth"
-        }
-      ]
-    },
-    {
-      "id": "keph202.9.2.2",
-      "title": "Archimedes' Principle and Buoyancy",
-      "section": "9.2",
-      "definition": "A body submerged in a fluid feels an upward buoyant force equal to the weight of the fluid it displaces. Whether an object floats or sinks is decided by comparing its average density with the fluid's: less dense bodies ride with part of their volume above the surface.",
-      "formula": "",
-      "key_idea": "Displaced fluid's weight is the buoyant force -- float if your density is lower than the fluid's.",
-      "textbook_ref": "keph202.txt lines 130-260 (section 9.2 Archimedes' principle, buoyant force, floatation condition, hydrometers and balloons as applications)",
-      "question_patterns": [
-        "state Archimedes' principle and define buoyant force",
-        "in class 11 mechanical properties of fluids: why does an iron ship float while an iron nail sinks",
-        "find the fraction of an iceberg above water using densities",
-        "what does a hydrometer measure and how",
-        "compute the apparent weight of a body immersed in a liquid",
-        "under what condition does a body float in equilibrium in a fluid"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "identify displaced volume",
-          "explain": "The submerged part of the body determines how much fluid is pushed aside."
-        },
-        {
-          "step": 2,
-          "action": "weigh the displaced fluid",
-          "explain": "Density of fluid times displaced volume times gravity is the buoyant force, acting upward through the centre of buoyancy."
-        },
-        {
-          "step": 3,
-          "action": "compare with the weight",
-          "explain": "If buoyancy matches the full weight the body floats; a shortfall makes it sink, a surplus lifts it."
-        }
-      ]
-    },
-    {
-      "id": "keph202.9.3.1",
-      "title": "Streamline Flow and the Equation of Continuity",
-      "section": "9.3",
-      "definition": "In steady streamline flow each particle repeats the path of the one before it, without swirling. Because fluid cannot pile up anywhere, the volume crossing any cross-section per second is fixed: area times speed is constant, so a pipe's narrowing forces the fluid to speed up.",
-      "formula": "out_speed = (area_in * speed_in) / area_out",
-      "key_idea": "What enters per second must leave per second -- narrow the pipe and the current must quicken.",
-      "textbook_ref": "keph202.txt lines 261-360 (section 9.3 streamline flow, equation of continuity, flow rate idea, critical velocity and turbulence mention)",
-      "question_patterns": [
-        "find the speed of flow where the pipe narrows",
-        "in class 11 mechanical properties of fluids: state the equation of continuity and what it conserves",
-        "the entry area and speed are given, compute the exit speed",
-        "why does water squirt faster through a nozzle",
-        "distinguish streamline flow from turbulent flow",
-        "what is the volume rate of flow through the pipe"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "form the flow rate",
-          "explain": "Entry area times entry speed is the volume delivered per second.",
-          "compute": "flow_rate = area_in * speed_in"
-        },
-        {
-          "step": 2,
-          "action": "divide by the exit area",
-          "explain": "Splitting the same flow rate over the smaller exit area raises the speed.",
-          "compute": "out_speed = flow_rate / area_out"
-        }
-      ]
-    },
-    {
-      "id": "keph202.9.4.1",
-      "title": "Bernoulli's Principle and Torricelli's Efflux",
-      "section": "9.4",
-      "definition": "Where a fluid moves faster its pressure drops -- Bernoulli's principle trades pressure for speed plus height along a streamline. Its famous corollary, Torricelli's law, gives the speed of liquid escaping a hole at depth h as the square root of 2 g h, exactly as if the parcel had fallen freely through h.",
-      "formula": "efflux = sqrt(2 * gravity * depth)",
-      "key_idea": "Faster flow costs pressure -- and a hole at depth h fires liquid at free-fall speed.",
-      "textbook_ref": "keph202.txt lines 361-470 (section 9.4 Bernoulli's principle and theorem, applications, speed of efflux, Torricelli's law, venturi and atomiser mention)",
-      "question_patterns": [
-        "state Bernoulli's principle and name one application",
-        "in class 11 mechanical properties of fluids: find the speed of efflux from a hole at the given depth",
-        "why does a spinning ball curve using Bernoulli's idea",
-        "derive Torricelli's law from Bernoulli's theorem",
-        "compare the pressure where the flow is fast and where it is slow",
-        "how high does the jet rise when efflux points upward"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "double gravity times depth",
-          "explain": "Free fall through the depth supplies the squared efflux speed.",
-          "compute": "v_sq = 2 * gravity * depth"
-        },
-        {
-          "step": 2,
-          "action": "take the square root",
-          "explain": "The root is the escaping liquid's speed.",
-          "compute": "efflux = sqrt(v_sq)"
-        }
-      ]
-    },
-    {
-      "id": "keph202.9.5.1",
-      "title": "Viscosity, Stokes' Law and Terminal Speed",
-      "section": "9.5",
-      "definition": "Viscosity is internal friction between fluid layers, strongest in thick liquids like honey. A sphere creeping through a viscous fluid feels a drag given by Stokes' law, six pi times viscosity times radius times speed; falling balls therefore reach a steady terminal speed where drag plus buoyancy equals weight.",
-      "formula": "v_terminal = drag_balance / (6 * pi * viscosity * radius)",
-      "key_idea": "Drag rises with speed until it cancels gravity -- then the fall continues at constant terminal speed.",
-      "textbook_ref": "keph202.txt lines 471-570 (section 9.5 viscosity, coefficient of viscosity, Stokes' law, terminal velocity derivation, Reynolds number)",
-      "question_patterns": [
-        "state Stokes' law and the condition for its use",
-        "in class 11 mechanical properties of fluids: find the terminal speed of the given sphere in the given liquid",
-        "why does a raindrop fall with nearly constant speed",
-        "how does terminal speed depend on the radius of the ball",
-        "define coefficient of viscosity and its units",
-        "what role does buoyancy play in the terminal speed balance"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "collect the driving forces",
-          "explain": "Weight pulls down; buoyancy and viscous drag push up against the fall."
-        },
-        {
-          "step": 2,
-          "action": "set the balance",
-          "explain": "At terminal speed the net force vanishes: drag equals weight minus buoyancy."
-        },
-        {
-          "step": 3,
-          "action": "read the result",
-          "explain": "Solving the balance gives a terminal speed proportional to the square of the radius and to the density difference, and inversely to the viscosity."
-        }
-      ]
-    },
-    {
-      "id": "keph202.9.6.1",
-      "title": "Surface Tension and Surface Energy",
-      "section": "9.6",
-      "definition": "A liquid surface behaves like a stretched skin: molecules at the surface lack neighbours on one side, so the surface minimises its area. Surface tension measures the force per unit length across any line in the surface, and stretching a surface stores energy equal to tension times the extra area created -- the basis of capillary rise and droplet shapes.",
-      "formula": "surf_energy = surface_tension * area_change",
-      "key_idea": "Surface tension is force per length and energy per area at once -- the surface works to shrink itself.",
-      "textbook_ref": "keph202.txt lines 571-700 (section 9.6 surface tension, surface energy, angle of contact, capillary rise, excess pressure in drops and bubbles)",
-      "question_patterns": [
-        "define surface tension and give its units",
-        "in class 11 mechanical properties of fluids: find the work done in increasing the surface area of a film",
-        "why do small drops stay spherical",
-        "explain capillary rise using surface tension and angle of contact",
-        "compute the surface energy of the enlarged soap film",
-        "what is the excess pressure inside a soap bubble"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "multiply tension by new area",
-          "explain": "The work done to create extra surface is surface tension times the added area.",
-          "compute": "surf_energy = surface_tension * area_change"
-        }
-      ]
+     "step": 1,
+     "action": "multiply density gravity and depth",
+     "explain": "The weight of the fluid column over unit area gives the gauge pressure.",
+     "compute": "pressure = density * gravity * depth"
     }
-  ],
-  "worked_examples": [
+   ],
+   "compute_steps": [
     {
-      "id": "we1",
-      "source_ref": "keph202.txt lines 130-200 (pressure with depth)",
-      "concept": "keph202.9.2.1",
-      "question_type": "compute",
-      "question_pattern": "Find the gauge pressure at depth {depth} m in a liquid of density {density} kg/m^3 (g = {gravity}).",
-      "extracted_variables": {
-        "depth": 1,
-        "density": 1000,
-        "gravity": 9.8
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "multiply density gravity and depth",
-          "explain": "pressure = 1000 * 9.8 * 1 = 9800 Pa.",
-          "compute": "pressure = density * gravity * depth"
-        }
-      ]
-    },
-    {
-      "id": "we2",
-      "source_ref": "keph202.txt lines 130-200 (pressure with depth)",
-      "concept": "keph202.9.2.1",
-      "question_type": "compute",
-      "question_pattern": "A diver sits {depth} m below the surface of sea water (density {density}, g = {gravity}); compute the gauge pressure.",
-      "extracted_variables": {
-        "depth": 10,
-        "density": 1030,
-        "gravity": 9.8
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "multiply density gravity and depth",
-          "explain": "pressure = 1030 * 9.8 * 10 = 100940 Pa, about one atmosphere.",
-          "compute": "pressure = density * gravity * depth"
-        }
-      ]
-    },
-    {
-      "id": "we3",
-      "source_ref": "keph202.txt lines 261-360 (equation of continuity)",
-      "concept": "keph202.9.3.1",
-      "question_type": "compute",
-      "question_pattern": "Water flows at {speed_in} m/s into a pipe of area {area_in} m^2 which narrows to {area_out} m^2; find the exit speed.",
-      "extracted_variables": {
-        "speed_in": 2,
-        "area_in": 0.0001,
-        "area_out": 5e-05
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "form the flow rate",
-          "explain": "flow_rate = 0.0001 * 2 = 0.0002 m^3/s.",
-          "compute": "flow_rate = area_in * speed_in"
-        },
-        {
-          "step": 2,
-          "action": "divide by the exit area",
-          "explain": "out_speed = 0.0002 / 0.00005 = 4 m/s.",
-          "compute": "out_speed = flow_rate / area_out"
-        }
-      ]
-    },
-    {
-      "id": "we4",
-      "source_ref": "keph202.txt lines 361-470 (Torricelli efflux)",
-      "concept": "keph202.9.4.1",
-      "question_type": "compute",
-      "question_pattern": "A tank leaks through a hole {depth} m below the surface (g = {gravity}); find the efflux speed.",
-      "extracted_variables": {
-        "depth": 0.4,
-        "gravity": 10
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "double gravity times depth",
-          "explain": "v_sq = 2 * 10 * 0.4 = 8.",
-          "compute": "v_sq = 2 * gravity * depth"
-        },
-        {
-          "step": 2,
-          "action": "take the square root",
-          "explain": "efflux = sqrt(8), about 2.83 m/s.",
-          "compute": "efflux = sqrt(v_sq)"
-        }
-      ]
-    },
-    {
-      "id": "we5",
-      "source_ref": "keph202.txt lines 361-470 (Torricelli efflux)",
-      "concept": "keph202.9.4.1",
-      "question_type": "compute",
-      "question_pattern": "Water escapes {depth} m deep in a dam wall; using g = {gravity}, compute the escaping speed.",
-      "extracted_variables": {
-        "depth": 5,
-        "gravity": 9.8
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "double gravity times depth",
-          "explain": "v_sq = 2 * 9.8 * 5 = 98.",
-          "compute": "v_sq = 2 * gravity * depth"
-        },
-        {
-          "step": 2,
-          "action": "take the square root",
-          "explain": "efflux = sqrt(98), about 9.9 m/s.",
-          "compute": "efflux = sqrt(v_sq)"
-        }
-      ]
-    },
-    {
-      "id": "we6",
-      "source_ref": "keph202.txt lines 571-700 (surface energy)",
-      "concept": "keph202.9.6.1",
-      "question_type": "compute",
-      "question_pattern": "A soap film of surface tension {surface_tension} N/m has its area raised by {area_change} m^2; find the work done.",
-      "extracted_variables": {
-        "surface_tension": 0.072,
-        "area_change": 0.01
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "multiply tension by new area",
-          "explain": "surf_energy = 0.072 * 0.01 = 0.00072 J.",
-          "compute": "surf_energy = surface_tension * area_change"
-        }
-      ]
-    },
-    {
-      "id": "we7",
-      "source_ref": "keph202.txt lines 261-360 (equation of continuity)",
-      "concept": "keph202.9.3.1",
-      "question_type": "compute",
-      "question_pattern": "Oil enters a pipe of area {area_in} m^2 at {speed_in} m/s and leaves through area {area_out} m^2; find the exit speed.",
-      "extracted_variables": {
-        "area_in": 0.002,
-        "speed_in": 1.5,
-        "area_out": 0.001
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "form the flow rate",
-          "explain": "flow_rate = 0.002 * 1.5 = 0.003 m^3/s.",
-          "compute": "flow_rate = area_in * speed_in"
-        },
-        {
-          "step": 2,
-          "action": "divide by the exit area",
-          "explain": "out_speed = 0.003 / 0.001 = 3 m/s.",
-          "compute": "out_speed = flow_rate / area_out"
-        }
-      ]
-    },
-    {
-      "id": "we8",
-      "source_ref": "keph202.txt lines 571-700 (surface energy)",
-      "concept": "keph202.9.6.1",
-      "question_type": "compute",
-      "question_pattern": "A liquid film with surface tension {surface_tension} N/m is stretched by {area_change} m^2; compute the stored surface energy.",
-      "extracted_variables": {
-        "surface_tension": 0.03,
-        "area_change": 0.02
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "multiply tension by new area",
-          "explain": "surf_energy = 0.03 * 0.02 = 0.0006 J.",
-          "compute": "surf_energy = surface_tension * area_change"
-        }
-      ]
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "pressure = density * gravity * depth",
+     "compute": "pressure = density * gravity * depth"
     }
-  ],
-  "exercises": [
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "keph202.9.2.2",
+   "title": "Archimedes' Principle and Buoyancy",
+   "section": "9.2",
+   "definition": "A body submerged in a fluid feels an upward buoyant force equal to the weight of the fluid it displaces. Whether an object floats or sinks is decided by comparing its average density with the fluid's: less dense bodies ride with part of their volume above the surface.",
+   "formula": "",
+   "key_idea": "Displaced fluid's weight is the buoyant force -- float if your density is lower than the fluid's.",
+   "textbook_ref": "keph202.txt lines 130-260 (section 9.2 Archimedes' principle, buoyant force, floatation condition, hydrometers and balloons as applications)",
+   "question_patterns": [
+    "state Archimedes' principle and define buoyant force",
+    "in class 11 mechanical properties of fluids: why does an iron ship float while an iron nail sinks",
+    "find the fraction of an iceberg above water using densities",
+    "what does a hydrometer measure and how",
+    "compute the apparent weight of a body immersed in a liquid",
+    "under what condition does a body float in equilibrium in a fluid"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
     {
-      "id": "ex1",
-      "source_ref": "keph202.txt end-of-chapter exercises, reworded",
-      "questions": [
-        "Explain why the given situation involves turbulent rather than streamline flow.",
-        "Find the gauge and absolute pressure at the given depth of the given liquid.",
-        "A hydraulic brake multiplies force using Pascal's law; find the force on the larger piston.",
-        "Water flows through a pipe of varying cross-section; find the speed and pressure at the stated section.",
-        "Using Bernoulli's theorem, find the lift per unit area on an aircraft wing with given speeds.",
-        "A raindrop of given radius falls through air with given viscosity; find its terminal speed.",
-        "Compute the capillary rise of the given liquid in a tube of the given radius.",
-        "Find the excess pressure inside a soap bubble of the given radius and surface tension."
-      ]
+     "step": 1,
+     "action": "identify displaced volume",
+     "explain": "The submerged part of the body determines how much fluid is pushed aside."
+    },
+    {
+     "step": 2,
+     "action": "weigh the displaced fluid",
+     "explain": "Density of fluid times displaced volume times gravity is the buoyant force, acting upward through the centre of buoyancy."
+    },
+    {
+     "step": 3,
+     "action": "compare with the weight",
+     "explain": "If buoyancy matches the full weight the body floats; a shortfall makes it sink, a surplus lifts it."
     }
-  ]
+   ]
+  },
+  {
+   "id": "keph202.9.3.1",
+   "title": "Streamline Flow and the Equation of Continuity",
+   "section": "9.3",
+   "definition": "In steady streamline flow each particle repeats the path of the one before it, without swirling. Because fluid cannot pile up anywhere, the volume crossing any cross-section per second is fixed: area times speed is constant, so a pipe's narrowing forces the fluid to speed up.",
+   "formula": "out_speed = (area_in * speed_in) / area_out",
+   "key_idea": "What enters per second must leave per second -- narrow the pipe and the current must quicken.",
+   "textbook_ref": "keph202.txt lines 261-360 (section 9.3 streamline flow, equation of continuity, flow rate idea, critical velocity and turbulence mention)",
+   "question_patterns": [
+    "find the speed of flow where the pipe narrows",
+    "in class 11 mechanical properties of fluids: state the equation of continuity and what it conserves",
+    "the entry area and speed are given, compute the exit speed",
+    "why does water squirt faster through a nozzle",
+    "distinguish streamline flow from turbulent flow",
+    "what is the volume rate of flow through the pipe"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "form the flow rate",
+     "explain": "Entry area times entry speed is the volume delivered per second.",
+     "compute": "flow_rate = area_in * speed_in"
+    },
+    {
+     "step": 2,
+     "action": "divide by the exit area",
+     "explain": "Splitting the same flow rate over the smaller exit area raises the speed.",
+     "compute": "out_speed = flow_rate / area_out"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "out_speed = (area_in * speed_in) / area_out",
+     "compute": "out_speed = (area_in * speed_in) / area_out"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "keph202.9.4.1",
+   "title": "Bernoulli's Principle and Torricelli's Efflux",
+   "section": "9.4",
+   "definition": "Where a fluid moves faster its pressure drops -- Bernoulli's principle trades pressure for speed plus height along a streamline. Its famous corollary, Torricelli's law, gives the speed of liquid escaping a hole at depth h as the square root of 2 g h, exactly as if the parcel had fallen freely through h.",
+   "formula": "efflux = sqrt(2 * gravity * depth)",
+   "key_idea": "Faster flow costs pressure -- and a hole at depth h fires liquid at free-fall speed.",
+   "textbook_ref": "keph202.txt lines 361-470 (section 9.4 Bernoulli's principle and theorem, applications, speed of efflux, Torricelli's law, venturi and atomiser mention)",
+   "question_patterns": [
+    "state Bernoulli's principle and name one application",
+    "in class 11 mechanical properties of fluids: find the speed of efflux from a hole at the given depth",
+    "why does a spinning ball curve using Bernoulli's idea",
+    "derive Torricelli's law from Bernoulli's theorem",
+    "compare the pressure where the flow is fast and where it is slow",
+    "how high does the jet rise when efflux points upward"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "double gravity times depth",
+     "explain": "Free fall through the depth supplies the squared efflux speed.",
+     "compute": "v_sq = 2 * gravity * depth"
+    },
+    {
+     "step": 2,
+     "action": "take the square root",
+     "explain": "The root is the escaping liquid's speed.",
+     "compute": "efflux = sqrt(v_sq)"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "efflux = sqrt(2 * gravity * depth)",
+     "compute": "efflux = sqrt(2 * gravity * depth)"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "keph202.9.5.1",
+   "title": "Viscosity, Stokes' Law and Terminal Speed",
+   "section": "9.5",
+   "definition": "Viscosity is internal friction between fluid layers, strongest in thick liquids like honey. A sphere creeping through a viscous fluid feels a drag given by Stokes' law, six pi times viscosity times radius times speed; falling balls therefore reach a steady terminal speed where drag plus buoyancy equals weight.",
+   "formula": "v_terminal = drag_balance / (6 * pi * viscosity * radius)",
+   "key_idea": "Drag rises with speed until it cancels gravity -- then the fall continues at constant terminal speed.",
+   "textbook_ref": "keph202.txt lines 471-570 (section 9.5 viscosity, coefficient of viscosity, Stokes' law, terminal velocity derivation, Reynolds number)",
+   "question_patterns": [
+    "state Stokes' law and the condition for its use",
+    "in class 11 mechanical properties of fluids: find the terminal speed of the given sphere in the given liquid",
+    "why does a raindrop fall with nearly constant speed",
+    "how does terminal speed depend on the radius of the ball",
+    "define coefficient of viscosity and its units",
+    "what role does buoyancy play in the terminal speed balance"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "collect the driving forces",
+     "explain": "Weight pulls down; buoyancy and viscous drag push up against the fall."
+    },
+    {
+     "step": 2,
+     "action": "set the balance",
+     "explain": "At terminal speed the net force vanishes: drag equals weight minus buoyancy."
+    },
+    {
+     "step": 3,
+     "action": "read the result",
+     "explain": "Solving the balance gives a terminal speed proportional to the square of the radius and to the density difference, and inversely to the viscosity."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "v_terminal = drag_balance / (6 * pi * viscosity * radius)",
+     "compute": "v_terminal = drag_balance / (6 * pi * viscosity * radius)"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "keph202.9.6.1",
+   "title": "Surface Tension and Surface Energy",
+   "section": "9.6",
+   "definition": "A liquid surface behaves like a stretched skin: molecules at the surface lack neighbours on one side, so the surface minimises its area. Surface tension measures the force per unit length across any line in the surface, and stretching a surface stores energy equal to tension times the extra area created -- the basis of capillary rise and droplet shapes.",
+   "formula": "surf_energy = surface_tension * area_change",
+   "key_idea": "Surface tension is force per length and energy per area at once -- the surface works to shrink itself.",
+   "textbook_ref": "keph202.txt lines 571-700 (section 9.6 surface tension, surface energy, angle of contact, capillary rise, excess pressure in drops and bubbles)",
+   "question_patterns": [
+    "define surface tension and give its units",
+    "in class 11 mechanical properties of fluids: find the work done in increasing the surface area of a film",
+    "why do small drops stay spherical",
+    "explain capillary rise using surface tension and angle of contact",
+    "compute the surface energy of the enlarged soap film",
+    "what is the excess pressure inside a soap bubble"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply tension by new area",
+     "explain": "The work done to create extra surface is surface tension times the added area.",
+     "compute": "surf_energy = surface_tension * area_change"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "surf_energy = surface_tension * area_change",
+     "compute": "surf_energy = surface_tension * area_change"
+    }
+   ],
+   "converted_to_compute": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "keph202.txt lines 130-200 (pressure with depth)",
+   "concept": "keph202.9.2.1",
+   "question_type": "compute",
+   "question_pattern": "Find the gauge pressure at depth {depth} m in a liquid of density {density} kg/m^3 (g = {gravity}).",
+   "extracted_variables": {
+    "depth": 1,
+    "density": 1000,
+    "gravity": 9.8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply density gravity and depth",
+     "explain": "pressure = 1000 * 9.8 * 1 = 9800 Pa.",
+     "compute": "pressure = density * gravity * depth"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "keph202.txt lines 130-200 (pressure with depth)",
+   "concept": "keph202.9.2.1",
+   "question_type": "compute",
+   "question_pattern": "A diver sits {depth} m below the surface of sea water (density {density}, g = {gravity}); compute the gauge pressure.",
+   "extracted_variables": {
+    "depth": 10,
+    "density": 1030,
+    "gravity": 9.8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply density gravity and depth",
+     "explain": "pressure = 1030 * 9.8 * 10 = 100940 Pa, about one atmosphere.",
+     "compute": "pressure = density * gravity * depth"
+    }
+   ]
+  },
+  {
+   "id": "we3",
+   "source_ref": "keph202.txt lines 261-360 (equation of continuity)",
+   "concept": "keph202.9.3.1",
+   "question_type": "compute",
+   "question_pattern": "Water flows at {speed_in} m/s into a pipe of area {area_in} m^2 which narrows to {area_out} m^2; find the exit speed.",
+   "extracted_variables": {
+    "speed_in": 2,
+    "area_in": 0.0001,
+    "area_out": 5e-05
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "form the flow rate",
+     "explain": "flow_rate = 0.0001 * 2 = 0.0002 m^3/s.",
+     "compute": "flow_rate = area_in * speed_in"
+    },
+    {
+     "step": 2,
+     "action": "divide by the exit area",
+     "explain": "out_speed = 0.0002 / 0.00005 = 4 m/s.",
+     "compute": "out_speed = flow_rate / area_out"
+    }
+   ]
+  },
+  {
+   "id": "we4",
+   "source_ref": "keph202.txt lines 361-470 (Torricelli efflux)",
+   "concept": "keph202.9.4.1",
+   "question_type": "compute",
+   "question_pattern": "A tank leaks through a hole {depth} m below the surface (g = {gravity}); find the efflux speed.",
+   "extracted_variables": {
+    "depth": 0.4,
+    "gravity": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "double gravity times depth",
+     "explain": "v_sq = 2 * 10 * 0.4 = 8.",
+     "compute": "v_sq = 2 * gravity * depth"
+    },
+    {
+     "step": 2,
+     "action": "take the square root",
+     "explain": "efflux = sqrt(8), about 2.83 m/s.",
+     "compute": "efflux = sqrt(v_sq)"
+    }
+   ]
+  },
+  {
+   "id": "we5",
+   "source_ref": "keph202.txt lines 361-470 (Torricelli efflux)",
+   "concept": "keph202.9.4.1",
+   "question_type": "compute",
+   "question_pattern": "Water escapes {depth} m deep in a dam wall; using g = {gravity}, compute the escaping speed.",
+   "extracted_variables": {
+    "depth": 5,
+    "gravity": 9.8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "double gravity times depth",
+     "explain": "v_sq = 2 * 9.8 * 5 = 98.",
+     "compute": "v_sq = 2 * gravity * depth"
+    },
+    {
+     "step": 2,
+     "action": "take the square root",
+     "explain": "efflux = sqrt(98), about 9.9 m/s.",
+     "compute": "efflux = sqrt(v_sq)"
+    }
+   ]
+  },
+  {
+   "id": "we6",
+   "source_ref": "keph202.txt lines 571-700 (surface energy)",
+   "concept": "keph202.9.6.1",
+   "question_type": "compute",
+   "question_pattern": "A soap film of surface tension {surface_tension} N/m has its area raised by {area_change} m^2; find the work done.",
+   "extracted_variables": {
+    "surface_tension": 0.072,
+    "area_change": 0.01
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply tension by new area",
+     "explain": "surf_energy = 0.072 * 0.01 = 0.00072 J.",
+     "compute": "surf_energy = surface_tension * area_change"
+    }
+   ]
+  },
+  {
+   "id": "we7",
+   "source_ref": "keph202.txt lines 261-360 (equation of continuity)",
+   "concept": "keph202.9.3.1",
+   "question_type": "compute",
+   "question_pattern": "Oil enters a pipe of area {area_in} m^2 at {speed_in} m/s and leaves through area {area_out} m^2; find the exit speed.",
+   "extracted_variables": {
+    "area_in": 0.002,
+    "speed_in": 1.5,
+    "area_out": 0.001
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "form the flow rate",
+     "explain": "flow_rate = 0.002 * 1.5 = 0.003 m^3/s.",
+     "compute": "flow_rate = area_in * speed_in"
+    },
+    {
+     "step": 2,
+     "action": "divide by the exit area",
+     "explain": "out_speed = 0.003 / 0.001 = 3 m/s.",
+     "compute": "out_speed = flow_rate / area_out"
+    }
+   ]
+  },
+  {
+   "id": "we8",
+   "source_ref": "keph202.txt lines 571-700 (surface energy)",
+   "concept": "keph202.9.6.1",
+   "question_type": "compute",
+   "question_pattern": "A liquid film with surface tension {surface_tension} N/m is stretched by {area_change} m^2; compute the stored surface energy.",
+   "extracted_variables": {
+    "surface_tension": 0.03,
+    "area_change": 0.02
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply tension by new area",
+     "explain": "surf_energy = 0.03 * 0.02 = 0.0006 J.",
+     "compute": "surf_energy = surface_tension * area_change"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "keph202.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "Explain why the given situation involves turbulent rather than streamline flow.",
+    "Find the gauge and absolute pressure at the given depth of the given liquid.",
+    "A hydraulic brake multiplies force using Pascal's law; find the force on the larger piston.",
+    "Water flows through a pipe of varying cross-section; find the speed and pressure at the stated section.",
+    "Using Bernoulli's theorem, find the lift per unit area on an aircraft wing with given speeds.",
+    "A raindrop of given radius falls through air with given viscosity; find its terminal speed.",
+    "Compute the capillary rise of the given liquid in a tube of the given radius.",
+    "Find the excess pressure inside a soap bubble of the given radius and surface tension."
+   ]
+  }
+ ]
 }

@@ -34,6 +34,26 @@
      "q": "Design a minimal workflow (pseudocode or flowchart) that takes a gene symbol (e.g., \"INS\") as input, uses NCBI E-utilities to find the corresponding RefSeq mRNA accession, then fetches the protein sequence from UniProt via its mapping API, and finally saves both sequences in a single FASTA file with appropriate headers.",
      "a": "A good answer outlines: (1) `esearch` with term \"INS[Gene Name] AND human[Organism] AND refseq[Filter]\" → get ID list; (2) `efetch` for the first ID to get mRNA FASTA; (3) extract protein accession from mRNA CDS or use UniProt mapping API (`/uniprot/?query=gene:INS+organism:9606&format=fasta`); (4) write both records to file. A poor answer that manually hardcodes accessions or uses only one database shows lack of automation and cross-database linking.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ web services and APIs (Application Programming Interfaces) are standardized protocols that allow programs to remotely access biological databases (e.g., NCBI, UniProt, PDB) and computational tools over the internet, enabling automated retrieval, submission, and analysis of sequence, structure, and functional data without manual browser interaction.",
+     "a": "Bioinformatics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need the ______ sequence for the human insulin gene (INS) to design a PCR primer.",
+     "a": "nucleotide",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Instead of opening a browser, searching NCBI, and copying the FASTA manually, you can write a ______-line Python script that sends an HTTP request to NCBI's E-utilities API, receives the sequence in seconds, and saves it to a file.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) explain the difference between a web service (REST/SOAP) and a local library function, (2) write a short Python script using Biopython's Entrez or BioServices to fetch a FASTA record from NCBI given an accession number, and (3) parse the returned XML/JSON to extract specific fields (e.g., organism.",
+     "self_check": true
     }
    ]
   }

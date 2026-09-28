@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using only household materials (paper, scissors, tape) to demonstrate why DNA strands must be antiparallel for complementary base pairing to work.",
      "a": "Cut two paper strips (representing strands). Mark 5' and 3' ends with arrows. Write base letters (A,T,G,C) on one strip 5'→3'. On second strip, write complements. Try aligning both 5'→3' (parallel) — bases won't match. Flip second strip (antiparallel) — bases align perfectly. Tape to show H-bonds form only in antiparallel orientation. Good answer includes directional arrows and explains that 3'-OH of one nucleotide attacks 5'-phosphate of next, fixing polarity. Poor answer (parallel alignment works) reveals misunderstanding of phosphodiester bond directionality and polymerase mechanism.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Nucleic acids are macromolecular polymers (______) composed of repeating nucleotide monomers, each consisting of a nitrogenous base (purine or pyrimidine), a pentose sugar (ribose in RNA, 2'-deoxyribose in DNA), and a phosphate group linked by 3'-5' phosphodiester bonds; DNA stores hereditary information as a double-stranded antiparallel helix with complementary base pairing (A=T, G≡C), while RNA is typically single-stranded and functions in gene expression.",
+     "a": "polynucleotides",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a forensic crime drama where DNA fingerprinting identifies a suspect from a single hair strand — this works because every cell in that hair contains an identical double helix carrying unique sequence ______.",
+     "a": "information",
+     "self_check": true
+    },
+    {
+     "q": "What is Nucleic acids? State the definition given in this lesson.",
+     "a": "Nucleic acids are macromolecular polymers (polynucleotides) composed of repeating nucleotide monomers, each consisting of a nitrogenous base (purine or pyrimidine), a pentose sugar (ribose in RNA, 2'-deoxyribose in DNA), and a phosphate group linked by 3'-5' phosphodiester bonds; DNA stores hereditary information as a double-stranded.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Nucleic acids?",
+     "a": "Students memorize \"A pairs with T, G pairs with C\" but cannot explain WHY at the chemical level — they treat it as arbitrary rule rather than hydrogen bond donor/acceptor complementarity.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can draw and label a nucleotide with correct 5' and 3' carbon numbering, explain the chemical basis of base pairing specificity (hydrogen bond patterns), and predict the complementary sequence of a given DNA strand while justifying why RNA uses uracil instead of thymine.",
+     "self_check": true
     }
    ]
   }

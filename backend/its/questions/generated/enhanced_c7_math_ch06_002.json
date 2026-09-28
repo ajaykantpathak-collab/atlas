@@ -34,6 +34,21 @@
      "q": "Construct a linear algebraic expression in variable $x$ whose value is guaranteed to be odd for any integer value of $x$. Explain why your expression works.",
      "a": "An example is $2x^2 + 4x + 7$. Explanation: $2x^2 + 4x = 2(x^2 + 2x)$, which is always even because it is a multiple of $2$. Adding $7$ (an odd number) to an even number always yields an odd number. A weak answer provides a simple number like \"13\" or uses an expression like $x + 1$ without accounting for all integer types or fails to prove it algebraically.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are organizing students into rows for the ______ assembly in Delhi.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Even numbers?",
+     "a": "Students often assume that rules for adding even and odd numbers apply identically to multiplication, or they confuse the results of operations.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ students into rows for the school assembly in Delhi.",
+     "a": "organizing",
+     "self_check": true
     }
    ]
   }

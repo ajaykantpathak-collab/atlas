@@ -34,6 +34,31 @@
      "q": "Design a simple laboratory bioassay to compare the virulence of two *Bacillus thuringiensis* isolates against *Spodoptera litura* larvae. List the key variables you would control and the endpoint you would measure.",
      "a": "Bioassay: Surface‑contaminate castor leaves with known spore‑crystal concentrations (e.g., 10⁴, 10⁵, 10⁶ spores‑crystals/cm²) of each isolate. Place 10 neonate larvae per replication (4 reps) on treated leaves in ventilated containers at 27 ± 1 °C, 65 % RH, 14:10 h L:D. Control variables: larval age/starvation, leaf age, formulation carrier, photoperiod, humidity. Endpoint: Larval mortality at 72 h and 96 h; calculate LC₅₀ by probit analysis. A poor design omits concentration series, uses field‑collected larvae of unknown age, or ignores temperature control — indicating the student cannot translate mode‑of‑action knowledge into a controlled experiment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Biopesticides are ______ or their products used to control agricultural pests; *Bacillus thuringiensis* (Bt) is a bacterium that produces crystalline (Cry) proteins toxic to specific insect larvae upon ingestion, while *Trichoderma* is a fungus that suppresses plant pathogens through mycoparasitism, antibiosis, competition, and induced systemic resistance.",
+     "a": "microorganisms",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a cotton farmer in Maharashtra who sprays synthetic ______ every week, yet bollworms keep returning and beneficial insects disappear.",
+     "a": "pyrethroids",
+     "self_check": true
+    },
+    {
+     "q": "What is Biopesticides? State the definition given in this lesson.",
+     "a": "Biopesticides are microorganisms or their products used to control agricultural pests; *Bacillus thuringiensis* (Bt) is a bacterium that produces crystalline (Cry) proteins toxic to specific insect larvae upon ingestion, while *Trichoderma* is a fungus that suppresses plant pathogens through mycoparasitism, antibiosis, competition, and.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Biopesticides?",
+     "a": "Students often think that *Bacillus thuringiensis* kills insects on contact like a chemical insecticide.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) explain the step‑by‑step mode of action of Bt Cry toxins in the insect midgut, (2) describe at least three distinct mechanisms by which *Trichoderma* protects plants, and (3) compare the advantages and limitations of these biopesticides versus synthetic chemical pesticides in a tabular form.",
+     "self_check": true
     }
    ]
   }

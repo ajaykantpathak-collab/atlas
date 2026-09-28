@@ -34,6 +34,36 @@
      "q": "Create a novel \"adulterant detective\" flowchart for a school lab kit that can test **any one** of these four common adulterants in their respective foods using **only three shared reagents**: (1) conc. HCl, (2) conc. H₂SO₄, (3) BaCl₂ solution. Specify the food-adulterant pair, the test sequence, and how you differentiate between them if two are present in different samples tested sequentially.",
      "a": "**Flowchart for Argemone Oil in Mustard Oil** (chosen because it uses all three reagents uniquely): \n1. **Sample A (mustard oil)**: Add conc. HNO₃ (not in kit — but if only 3 reagents allowed, use **conc. H₂SO₄** as nitrating agent substitute? No — H₂SO₄ doesn't nitrate. So kit must include HNO₃. *Correction*: With only HCl, H₂SO₄, BaCl₂ — **argemone oil cannot be fully confirmed**. \n**Better pair**: **Metanil yellow in turmeric** + **Lead chromate in turmeric** differentiation using shared reagents: \n- Reagent 1: **Conc. HCl** → Lead chromate dissolves (yellow soln); Metanil yellow → no change. \n- Reagent 2: **Dilute HCl** (made from conc. HCl) → Metanil yellow → magenta; Lead chromate → no change. \n- Reagent 3: **BaCl₂** → Not used here. \n**True 3-reagent kit for 2 adulterants in different foods**: \n**Test 1: Argemone oil in mustard oil** → Needs HNO₃ (not in kit). \n**Test 2: Kesari dal in besan** → Needs conc. HCl + heat (in kit). \n**Test 3: Metanil yellow in turmeric** → Needs dilute HCl (from conc. HCl). \n**Conclusion**: A 3-reagent kit (conc. HCl, conc. H₂SO₄, BaCl₂) **cannot** comprehensively test all major adulterants — **HNO₃ is essential for argemone**, **iodine for starch**, **DMAB for urea**. The student learns that **reagent selection is adulterant-specific**; a universal mini-kit is a myth. Good answer acknowledges this limitation and designs a flowchart for **two adulterants that share reagents** (e.g., kesari dal and metanil yellow both use HCl at different concentrations).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Food adulteration is the intentional or accidental addition, subtraction, or substitution of substances that degrade the quality, safety, or nutritional value of food, making it unfit for consumption; detection methods are standardized qualitative tests (chemical, physical, microscopic) that identify specific adulterants in common food commodities using accessible reagents and observation of ______ reactions.",
+     "a": "characteristic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you buy a packet of turmeric powder from a local shop, and when you add it to warm milk, it leaves a bright yellow residue that doesn't dissolve — could it be metanil yellow, a non-______ coal-tar dye?",
+     "a": "permitted",
+     "self_check": true
+    },
+    {
+     "q": "What is Food adulteration? State the definition given in this lesson.",
+     "a": "Food adulteration is the intentional or accidental addition, subtraction, or substitution of substances that degrade the quality, safety, or nutritional value of food, making it unfit for consumption; detection methods are standardized qualitative tests (chemical, physical, microscopic) that identify specific adulterants in common food.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by listing the ______ food categories and the one \"classic\" adulterant for each (e.g., water in milk, argemone oil in mustard oil, metanil yellow in turmeric, kesari dal in besan).",
+     "a": "8",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Food adulteration?",
+     "a": "Students believe \"one universal test (like iodine or HCl) detects adulteration in any food\" — they write \"add iodine to check purity\" for milk, turmeric, honey, and oil.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) name at least 10 common adulterant-food pairs with their specific detection tests and expected observations, and (2) given an unknown food sample and a set of reagents, design a logical sequence of tests to identify the adulterant present and justify each step.",
+     "self_check": true
     }
    ]
   }

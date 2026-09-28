@@ -1,0 +1,296 @@
+{
+ "catalog": "catalog_class11_physics_keph105.json",
+ "concepts": [
+  {
+   "id": "keph105.5.3.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "force = 217",
+      "displacement = 189",
+      "work = force * displacement"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "force = 263",
+      "displacement = 394",
+      "work = force * displacement"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "force = 125",
+      "displacement = 202",
+      "work = force * displacement"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "force = 75",
+      "displacement = 55",
+      "work = force * displacement"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "force = 16",
+      "displacement = 399",
+      "work = force * displacement"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "force = 203",
+      "displacement = 93",
+      "work = force * displacement"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "work = force * displacement"
+   ]
+  },
+  {
+   "id": "keph105.5.4.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mass = 133",
+      "speed = 44",
+      "kinetic_energy = 0.5 * mass * speed ** 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mass = 182",
+      "speed = 37",
+      "kinetic_energy = 0.5 * mass * speed ** 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mass = 94",
+      "speed = 12.5",
+      "kinetic_energy = 0.5 * mass * speed ** 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mass = 197",
+      "speed = 77",
+      "kinetic_energy = 0.5 * mass * speed ** 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mass = 19.9",
+      "speed = 26",
+      "kinetic_energy = 0.5 * mass * speed ** 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mass = 199",
+      "speed = 78",
+      "kinetic_energy = 0.5 * mass * speed ** 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "kinetic_energy = 0.5 * mass * speed ** 2"
+   ]
+  },
+  {
+   "id": "keph105.5.7.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mass = 25",
+      "gravity = 36",
+      "height = 495",
+      "potential_energy = mass * gravity * height"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mass = 132",
+      "gravity = 62",
+      "height = 440",
+      "potential_energy = mass * gravity * height"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mass = 6.1",
+      "gravity = 59",
+      "height = 51",
+      "potential_energy = mass * gravity * height"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mass = 168",
+      "gravity = 17.6",
+      "height = 273",
+      "potential_energy = mass * gravity * height"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mass = 31",
+      "gravity = 83",
+      "height = 364",
+      "potential_energy = mass * gravity * height"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mass = 113",
+      "gravity = 94",
+      "height = 57",
+      "potential_energy = mass * gravity * height"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "potential_energy = mass * gravity * height"
+   ]
+  },
+  {
+   "id": "keph105.5.9.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "gravity = 84",
+      "drop_height = 314",
+      "landing_speed = sqrt(2 * gravity * drop_height)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "gravity = 15.3",
+      "drop_height = 443",
+      "landing_speed = sqrt(2 * gravity * drop_height)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gravity = 98",
+      "drop_height = 103",
+      "landing_speed = sqrt(2 * gravity * drop_height)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "gravity = 41",
+      "drop_height = 330",
+      "landing_speed = sqrt(2 * gravity * drop_height)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "gravity = 59",
+      "drop_height = 98",
+      "landing_speed = sqrt(2 * gravity * drop_height)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "gravity = 36",
+      "drop_height = 267",
+      "landing_speed = sqrt(2 * gravity * drop_height)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "landing_speed = sqrt(2 * gravity * drop_height)"
+   ]
+  },
+  {
+   "id": "keph105.5.10.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "work_done = 2460",
+      "time_taken = 38",
+      "power = work_done / time_taken"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "work_done = 1771",
+      "time_taken = 41",
+      "power = work_done / time_taken"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "work_done = 2382",
+      "time_taken = 29",
+      "power = work_done / time_taken"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "work_done = 5368",
+      "time_taken = 32",
+      "power = work_done / time_taken"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "work_done = 824",
+      "time_taken = 86",
+      "power = work_done / time_taken"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "work_done = 3974",
+      "time_taken = 114",
+      "power = work_done / time_taken"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "power = work_done / time_taken"
+   ]
+  }
+ ]
+}

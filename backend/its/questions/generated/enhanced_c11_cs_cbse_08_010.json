@@ -34,6 +34,26 @@
      "q": "Design a function `analyze_text(text)` that returns three values: the number of vowels, the number of consonants, and the number of spaces in the given string. Write the function and a sample call that prints each count with a descriptive label. Ensure your function handles uppercase and lowercase letters.",
      "a": "```python\ndef analyze_text(text):\n    vowels = consonants = spaces = 0\n    for ch in text.lower():\n        if ch in 'aeiou':\n            vowels += 1\n        elif ch.isalpha():\n            consonants += 1\n        elif ch == ' ':\n            spaces += 1\n    return vowels, consonants, spaces\n\nv, c, s = analyze_text(\"Hello World\")\nprint(f\"Vowels: {v}, Consonants: {c}, Spaces: {s}\")\n```\nA poor answer might use three separate `return` statements (only the first executes), or return a list without unpacking, or forget to handle case. This shows the student cannot synthesize iteration, conditionals, and multiple return values into a cohesive solution.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In Python, a function can return multiple values by separating them with commas in the return statement, which ______ packs them into a tuple.",
+     "a": "automatically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a program for a ______ canteen that calculates both the total cost and the number of items in a student's order.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write a function that returns two or more values using comma-separated return, correctly unpack the returned tuple at the call site, and explain that the mechanism is tuple packing/unpacking, not multiple independent return statements.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a program for a school canteen that ______ both the total cost and the number of items in a student's order.",
+     "a": "calculates",
+     "self_check": true
     }
    ]
   }

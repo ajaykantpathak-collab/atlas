@@ -27,12 +27,37 @@
     },
     {
      "q": "\"Creation of secret reserves within reasonable limits is justifiable on grounds of expediency, prudence and preventing competition.\" Evaluate this statement. Give two arguments FOR and two arguments AGAINST secret reserves from a stakeholder perspective (shareholders, creditors, tax authorities, competitors).",
-     "a": "FOR: (1) Prudence: Conservative valuation protects against future uncertainties (e.g., inventory obsolescence). (2) Competition: Hidden profits prevent competitors from targeting high-margin products. AGAINST: (1) Shareholders: Misled about true profitability, affecting investment decisions. (2) Tax Authorities: Reduced tax liability deprives government revenue. (3) Creditors: Understated assets overstate leverage ratios, affecting credit decisions. A one-sided answer (only FOR or only AGAINST) shows inability to evaluate accounting policies from multiple stakeholder perspectives – a key board exam skill.",
+     "a": "(1) For prudence — conservative valuation cushions the firm against future uncertainties such as inventory obsolescence, (2) For competition — hidden profits keep rivals from targeting high-margin products, (3) Against shareholders' interest — true profitability stays hidden from the owners who rely on disclosed profits, (4) Against tax and creditor interest — the state loses revenue and understated assets overstate leverage ratios. A one-sided answer that gives only the for-side or only the against-side shows the student cannot evaluate an accounting policy from multiple stakeholder perspectives, a key board exam skill.",
      "self_check": true
     },
     {
      "q": "Design a scenario where a company uses TWO methods simultaneously to create a secret reserve of ₹15,00,000. Specify the asset/liability involved, the correct accounting treatment, the manipulated treatment, and the journal entries for both. The scenario must be realistic for a manufacturing firm.",
      "a": "Example: A manufacturing firm buys machinery ₹1 crore (life 10 years, SLM). Correct depreciation: ₹10 lakh/year. Manipulated: ₹15 lakh/year (excess ₹5 lakh). Also, inventory cost ₹50 lakh, NRV ₹52 lakh. Manipulated value: ₹40 lakh (undervaluation ₹10 lakh). Total secret reserve = ₹15 lakh. Journal for correct: Depreciation A/c Dr. 10 To Machinery 10; Closing Stock Dr. 50 To Trading 50. Journal for manipulated: Depreciation A/c Dr. 15 To Machinery 15; Closing Stock Dr. 40 To Trading 40. A poor answer uses vague numbers or ignores the \"correct vs manipulated\" comparison, showing inability to quantify the reserve creation mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Secret Reserve is a reserve that is not disclosed in the balance sheet, created by ______ understating assets (e.g., charging excessive depreciation, undervaluing inventory) or overstating liabilities (e.g., excessive provisions, treating contingent liabilities as actual liabilities), resulting in reported profits lower than actual profits.",
+     "a": "deliberately",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a successful family sweets ______ in Delhi.",
+     "a": "business",
+     "self_check": true
+    },
+    {
+     "q": "What is Secret Reserve? State the definition given in this lesson.",
+     "a": "Secret Reserve is a reserve that is not disclosed in the balance sheet, created by deliberately understating assets (e.g., charging excessive depreciation, undervaluing inventory) or overstating liabilities (e.g., excessive provisions, treating contingent liabilities as actual liabilities), resulting in reported profits lower than actual.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Secret Reserve?",
+     "a": "Students often think \"Secret Reserve = Capital Reserve\" because both are not available for dividend.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) define secret reserve in their own words with precise terminology, (2) list all four methods of creation from NCERT with examples, (3) explain the impact on financial statements (profit, tax, balance sheet), and (4) justify its creation within reasonable limits using prudence and competition arguments.",
      "self_check": true
     }
    ]

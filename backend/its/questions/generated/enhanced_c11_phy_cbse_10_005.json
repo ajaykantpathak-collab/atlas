@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a glass flask, a narrow glass tube, water, and a thermometer to demonstrate the anomalous expansion of water between 0°C and 4°C. Describe the observations you would record.",
      "a": "Fill the flask completely with water at ~10°C, insert the tube through a cork so water rises in the tube. Cool the flask in an ice bath. Record the water level in the tube vs temperature. Initially (10°C→4°C) the level falls (contraction). Below 4°C the level rises (expansion). The minimum level corresponds to 4°C. A poor design would not allow precise temperature measurement at the water column or would use a wide tube where level change is too small to see.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Anomalous expansion of water is the phenomenon where water contracts on heating between 0°C and 4°C, reaching its maximum density of ______ 1000 kg/m³ at 4°C, and expands on further heating above 4°C.",
+     "a": "approximately",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by ______ a video or image of a frozen lake in Ladakh or Kashmir with fish swimming underneath the ice.",
+     "a": "showing",
+     "self_check": true
+    },
+    {
+     "q": "What is Anomalous expansion of water? State the definition given in this lesson.",
+     "a": "Anomalous expansion of water is the phenomenon where water contracts on heating between 0°C and 4°C, reaching its maximum density of approximately 1000 kg/m³ at 4°C, and expands on further heating above 4°C.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Connect this to the convection currents in a cooling lake: water at ______°C sinks, while colder water stays on top and freezes.",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Anomalous expansion of water?",
+     "a": "Students often think \"anomalous expansion\" means water expands at all temperatures below 4°C, including the phase change to ice.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain why water's density maximum at 4°C causes lakes to freeze from the top down, and predict the direction of volume change when water is heated or cooled through the 0–4°C range.",
+     "self_check": true
     }
    ]
   }

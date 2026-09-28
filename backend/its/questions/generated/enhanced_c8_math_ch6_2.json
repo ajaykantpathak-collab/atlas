@@ -34,6 +34,16 @@
      "q": "Create a real-world word problem (using Indian context: rupees, metres, kg) that requires expanding \\((a + b) \\times c\\) to solve. Define your variables clearly and show the solution.",
      "a": "Example: \"A fruit seller packs gift boxes. Each box contains \\(a\\) apples (₹15 each) and \\(b\\) bananas (₹5 each). He prepares \\(c = 20\\) such boxes. Write an expression for total cost and expand it.\"\nVariables: \\(a\\) = number of apples per box, \\(b\\) = number of bananas per box.\nCost per box = \\(15a + 5b\\). Total cost = \\(20 \\times (15a + 5b) = 300a + 100b\\).\nA poor answer uses only numbers (no variables) or creates a problem requiring \\((a+b)(c+d)\\), showing inability to distinguish the structure \\((sum) \\times (single\\ term)\\).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The distributive property of ______ over addition states that multiplying a sum by a number gives the same result as multiplying each addend by the number and then adding the products.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight is that the ______ outside must reach *every* term inside the bracket, whether there are two terms or more.",
+     "a": "multiplier",
+     "self_check": true
     }
    ]
   }

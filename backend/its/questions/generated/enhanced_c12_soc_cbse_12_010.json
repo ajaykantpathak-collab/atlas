@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_12_010",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_12_010",
+   "title": "c12_soc_cbse_12_010",
+   "questions": [
+    {
+     "q": "Define the term 'double burden' as it applies to women in the industrial workforce, and give one example from the NCERT text.",
+     "a": "The double burden refers to women's simultaneous responsibility for paid employment and unpaid domestic/care work. NCERT example: IT professionals in Bengaluru/Gurugram where both husband and wife work long hours, yet children are put in crèches and grandparents are roped in, showing women still bear primary care responsibility. A wrong answer that only mentions 'two jobs' or 'working hard' reveals the student misses the gendered, unpaid care dimension and the structural expectation that household work remains women's duty regardless of paid work.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the NCERT text describes women in fish-processing plants as 'seen as submissive workers' and how this perception affects their wages and working conditions.",
+     "a": "Employers perceive young, single migrant women as less likely to unionise, complain, or demand rights due to socialisation into compliance and their vulnerable migrant status. This leads to lower wages, poor housing (10-12 in small rooms), and shift systems that deny rest. A wrong answer attributing low wages only to 'low skill' or 'lack of education' reveals the student ignores the gendered power dynamic and employer strategy that exploits gender stereotypes to suppress labour costs.",
+     "self_check": true
+    },
+    {
+     "q": "A bidi roller in Nipani earns ₹50 per 1000 bidis rolled. She works 8 hours a day and rolls 500 bidis per hour. Calculate her daily earnings. If the minimum wage for the region is ₹300/day, what percentage of the minimum wage does she earn? What does this gap illustrate about piece-rate home-based work?",
+     "a": "Daily bidis = 500 × 8 = 4000. Earnings = (4000/1000) × ₹50 = ₹200. Percentage = (200/300) × 100 = 66.7%. This illustrates how piece-rate home-based work, dominated by women, systematically pays below legal minimums because workers bear production costs (space, light, tools), have no bargaining power, and are excluded from labour inspections. A wrong calculation or missing the structural explanation shows the student cannot connect quantitative wage data to the qualitative sociological argument about informalisation and gendered exploitation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the discrimination faced by women in the organised sector (e.g., IT professionals) and unorganised sector (e.g., bidi rollers). Identify two similarities and two differences in the mechanisms of exploitation.",
+     "a": "Similarities: (1) Both face gendered occupational segregation — IT women concentrated in testing/support not core development; bidi work is exclusively female. (2) Both experience the double burden — IT women work 'flexi-time' 10-12 hours then manage home; bidi rollers work alongside childcare. Differences: (1) IT workers have formal contracts, some benefits, but face 'time slavery' through project deadlines and peer pressure; bidi rollers have no contract, no benefits, paid piece-rate below minimum wage. (2) IT exploitation is masked by professional status and 'flexi-time' ideology; bidi exploitation is visible poverty and contractor control. A wrong answer that only lists 'one is formal, one informal' misses the nuanced mechanisms like ideological control vs. direct coercion.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: 'Industrialisation and the growth of the service sector have reduced gender inequality in the Indian workforce.' Use evidence from the NCERT chapter to support your judgment.",
+     "a": "The statement is largely false. NCERT evidence: (1) Women's workforce participation remains low and concentrated in informal, low-paid sectors (bidi, fish-processing, home-based). (2) Wage gap persists — 'women often get paid less than men for similar work'. (3) New sectors like IT reproduce gender stereotypes — women in 'caring' roles (HR, testing) not core coding; flexi-time increases overwork without reducing domestic load. (4) Globalisation-led informalisation pushes more women into insecure contract work. Industrialisation has not dismantled the sexual division of labour; it has relocated it. A wrong answer claiming 'more women are working so inequality reduced' confuses quantitative participation with qualitative equality and ignores structural barriers.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sociological research question to investigate how the double burden affects the career progression of women in the IT sector in Bengaluru. Specify the method, sample, and two key variables you would measure.",
+     "a": "Research question: 'How does the unequal distribution of domestic labour shape the career trajectories of married women software engineers in Bengaluru's IT corridor?' Method: Mixed-methods — survey (quantitative) + in-depth interviews (qualitative). Sample: 200 married women engineers (stratified by seniority: junior, mid, senior) in 5 major IT firms. Key variables: (1) Hours per week spent on unpaid care work (self-reported time-use diary). (2) Career progression indicators: promotion rate, leadership roles, skill-upgradation training accessed. A poor question would be purely descriptive ('Do women work double shifts?') without linking to career outcomes or using measurable variables, showing the student cannot operationalise sociological concepts for empirical research.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Women in the industrial workforce face systemic ______ manifested through occupational segregation, a persistent gender wage gap for work of equal value, and the double burden of paid employment combined with unpaid domestic and care work, all rooted in patriarchal social structures that devalue women's labour both inside and outside the home.",
+     "a": "discrimination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a young woman in Tamil Nadu who works 10 hours in a fish-______ plant, then returns home to cook, clean, and care for children while her brother who works in the same plant only rests.",
+     "a": "processing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a young woman in Tamil Nadu who works ______ hours in a fish-processing plant, then returns home to cook, clean, and care for children while her brother who works in the same plant only rests.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how gendered division of labour, social norms, and industrial organisation interact to produce discrimination, wage gaps, and the double burden for women workers, using specific Indian examples (bidi rollers, fish-processing workers, IT professionals) and sociological concepts (sexual division of labour.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

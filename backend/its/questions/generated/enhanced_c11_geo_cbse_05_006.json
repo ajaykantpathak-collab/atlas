@@ -34,6 +34,31 @@
      "q": "Design a field identification key (dichotomous, max 4 steps) that allows a Class 11 student to distinguish between granite, basalt, and gabbro using only a hand lens, HCl acid, and a geological hammer.",
      "a": "1. React with dilute HCl → fizz? YES → not these three (carbonate); NO → go to 2.\n2. Crystal size visible to naked eye? YES → go to 3; NO (fine-grained/aphyric) → basalt.\n3. Colour index (mafic mineral %): <30% (light) → granite; >60% (dark) → gabbro.\nA poor key uses only colour (\"pink = granite\") ignoring that granites can be grey/white and gabbros can be greenish; it fails to use texture and mineralogy systematically.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Igneous rocks are rocks formed from the cooling and ______ of molten magma (below surface) or lava (on surface).",
+     "a": "solidification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a kitchen analogy: imagine cooling molten chocolate — slow cooling in a bowl makes large crystals (granite), rapid quenching on a cold plate makes a glassy solid (obsidian), and ______ cooling with stirring makes a porphyritic texture.",
+     "a": "intermediate",
+     "self_check": true
+    },
+    {
+     "q": "What is Igneous rocks? State the definition given in this lesson.",
+     "a": "Igneous rocks are rocks formed from the cooling and solidification of molten magma (below surface) or lava (on surface).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Igneous rocks?",
+     "a": "Students believe \"granite = any light-coloured coarse rock\" and \"basalt = any dark fine rock.\" They miss that granodiorite, tonalite, and syenite are also light coarse rocks, and that dolerite (diabase) is a medium-grained mafic intrusive distinct from both basalt and gabbro.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Identify granite, basalt, and gabbro from hand specimens or photographs using texture and mineral composition; (2) Explain how cooling history (depth, rate, water content) produces phaneritic, aphanitic, porphyritic, vesicular, and glassy textures; (3) Classify any given igneous rock into the IUGS QAPF scheme using modal.",
+     "self_check": true
     }
    ]
   }

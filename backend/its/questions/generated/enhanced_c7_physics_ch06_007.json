@@ -34,6 +34,26 @@
      "q": "Design a simple classroom demonstration using a small sphere (representing the Moon), a large globe (representing Earth), and a torchlight (representing the Sun) to show how an umbra is created during a solar eclipse.",
      "a": "A good answer should explain placing the torchlight at one end, the small sphere in the middle to block the light, and observing the sharp dark central shadow projected onto the globe. A poor answer fails to connect the shadow size and darkness to the relative positions of the light source and blocking object.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A solar eclipse is an ______ phenomenon that occurs when the Moon passes directly between the Sun and Earth, casting a shadow on Earth's surface and temporarily blocking all or part of the Sun's light.",
+     "a": "astronomical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine standing outside on a sunny afternoon in your school courtyard when suddenly a large playground ball is held close to your eye, ______ blocking your view of a distant street lamp.",
+     "a": "completely",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify the relative positions of the Sun, Moon, and Earth during a solar eclipse from a diagram, and can distinguish between total, partial, and annular solar eclipses based on shadow regions (umbra and penumbra).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine standing outside on a sunny afternoon in your school courtyard when suddenly a large ______ ball is held close to your eye, completely blocking your view of a distant street lamp.",
+     "a": "playground",
+     "self_check": true
     }
    ]
   }

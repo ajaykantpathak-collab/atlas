@@ -34,6 +34,36 @@
      "q": "Construct a realistic scenario where M1 grows by 12% but M3 grows by only 4% in a year. Explain what this divergence suggests about household and firm behaviour.",
      "a": "**Scenario:** Households shift savings from fixed deposits (time deposits) to savings accounts and cash due to falling interest rates and preference for liquidity during uncertainty (e.g., pandemic). Firms move working capital from term deposits to current accounts.  \n**Result:** Demand deposits (in M1) rise sharply, while time deposits (in M3 but not M1) fall. M1 growth > M3 growth.  \n**Interpretation:** Rising liquidity preference, precautionary motive strengthening, potential future consumption surge. RBI may see this as a signal to watch for demand-pull inflation if output doesn't keep pace.  \n**Poor answer reveals:** Students give generic \"people withdraw money\" without specifying *from where to where* (time → demand deposits). They miss that M1 and M3 can move in opposite directions because they share M1 as a base but have different marginal components.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Money supply in India refers to the total stock of money ______ in the economy at a given point in time, measured through four standard aggregates (M1, M2, M3, M4) defined by the Reserve Bank of India.",
+     "a": "circulating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you walk into a bank in Mumbai with ₹50,000 in cash (______), ₹2,00,000 in your savings account, and ₹5,00,000 in a fixed deposit.",
+     "a": "currency",
+     "self_check": true
+    },
+    {
+     "q": "What is Money supply in India? State the definition given in this lesson.",
+     "a": "Money supply in India refers to the total stock of money circulating in the economy at a given point in time, measured through four standard aggregates (M1, M2, M3, M4) defined by the Reserve Bank of India.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: M______ is the policy workhorse because it captures the banking system's total deposit creation capacity.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Money supply in India?",
+     "a": "Misconception: \"M3 = M1 + Time deposits of public with banks.\" Why it's wrong: M3 uses net time deposits (total time deposits minus interbank time deposits), not gross time deposits.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Write the exact formula for each money supply measure (M1, M2, M3, M4) using correct RBI terminology and components; (2) Classify any given financial asset (e.g., savings deposit, fixed deposit, NSC, currency chest balance) into the correct measure(s); (3) Calculate a missing component when given the aggregate value.",
+     "self_check": true
     }
    ]
   }

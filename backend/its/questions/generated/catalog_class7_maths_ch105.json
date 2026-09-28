@@ -5,6 +5,8 @@
    "id": "gegp.5.1.1",
    "title": "Linear Pairs of Angles",
    "converted_to_compute": false,
+   "formula": "angle_b = 180 - angle_a",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 38 degrees, find the other.",
@@ -41,15 +43,9 @@
   {
    "id": "gegp.5.1.2",
    "title": "Vertically Opposite Angles",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 41 gives 49",
-     "compute": "other = 90 - 41"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "angle_opposite = angle_given",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 41 degrees, find the other.",
@@ -87,6 +83,8 @@
    "id": "gegp.5.2.1",
    "title": "Perpendicular Lines",
    "converted_to_compute": false,
+   "formula": "angle = 90",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 30 degrees, find the other.",
@@ -123,15 +121,9 @@
   {
    "id": "gegp.5.3.1",
    "title": "Parallel Lines",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 20 gives 70",
-     "compute": "other = 90 - 20"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "distance = constant",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 20 degrees, find the other.",
@@ -168,15 +160,9 @@
   {
    "id": "gegp.5.6.1",
    "title": "Corresponding Angles of Parallel Lines",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 39 gives 51",
-     "compute": "other = 90 - 39"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "angle_corresponding = angle_given",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 39 degrees, find the other.",
@@ -213,15 +199,9 @@
   {
    "id": "gegp.5.8.1",
    "title": "Alternate Interior Angles",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 49 gives 41",
-     "compute": "other = 90 - 49"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "angle_alternate = angle_given",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 49 degrees, find the other.",
@@ -259,6 +239,8 @@
    "id": "gegp.5.8.2",
    "title": "Consecutive Interior Angles",
    "converted_to_compute": false,
+   "formula": "angle_interior_2 = 180 - angle_interior_1",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 16 degrees, find the other.",

@@ -34,6 +34,31 @@
      "q": "Design a decision flowchart (text-based) for a structural biologist who has just obtained a novel 180-residue protein sequence. Include decision nodes for: BLAST against PDB, threading, ab initio, and experimental validation. Use YES/NO branches.",
      "a": "Expected flowchart logic:\n1. BLAST sequence against PDB (E-value < 10⁻³?) → YES → Homology modelling (SWISS-MODEL/MODELLER) → Validate → DONE.\n2. NO → Run threading (Threader/LIBELLULA) → Significant hit (Z-score > 5)? → YES → Build model from threading alignment → Validate → DONE.\n3. NO → Run ab initio (QUARK/Rosetta) → Generate top 5 models → Validate (Ramachandran, Verify3D) → Select best → Experimental validation (CD, NMR, crystallography).\nA poor answer (missing validation steps, skipping threading, or jumping straight to ab initio) reveals the student has not internalised the hierarchical prediction pipeline in Fig. 10.1 and treats methods as parallel options rather than a sequential decision tree.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Threading (fold recognition) is a ______ method that aligns a target protein sequence onto known protein folds in a structure database to identify the best structural template, even when sequence similarity is too low for homology modelling.",
+     "a": "computational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have discovered a new protein from a soil bacterium that degrades plastic waste — its sequence shares no ______ similarity with any protein in the PDB.",
+     "a": "significant",
+     "self_check": true
+    },
+    {
+     "q": "What is Threading (fold recognition)? State the definition given in this lesson.",
+     "a": "Threading (fold recognition) is a computational method that aligns a target protein sequence onto known protein folds in a structure database to identify the best structural template, even when sequence similarity is too low for homology modelling.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Threading (fold recognition)?",
+     "a": "Students often believe threading and ab initio modelling are simply \"Plan B and Plan C\" after homology modelling fails, without understanding the fundamental mechanistic difference: threading is a template-based method (uses a known fold as a rigid scaffold) while ab initio is template-free (samples conformational space de novo).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Given a protein sequence with no detectable homologue in PDB, decide whether threading or ab initio modelling is appropriate and justify the choice; (2) Explain the computational principle behind threading (sequence-structure alignment with energy scoring) and ab initio modelling (energy.",
+     "self_check": true
     }
    ]
   }

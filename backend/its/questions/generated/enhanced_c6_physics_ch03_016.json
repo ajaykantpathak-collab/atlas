@@ -34,6 +34,21 @@
      "q": "Imagine you have a device that needs 3 volts to run, but you only have 1.5-volt cells. How would you solve this using the definition of a battery?",
      "a": "You would connect two 1.5-volt cells together to form a battery to reach the required 3 volts. A poor answer would suggest using only one cell or would fail to mention connecting them, showing a misunderstanding of how cells combine to form a battery.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An electric cell is a device that converts stored chemical energy into ______ energy to create a voltage difference between its two terminals.",
+     "a": "electrical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Think about the remote control you use for your TV; have you ever noticed the \"+\" and \"-\" signs on the ______ inside?",
+     "a": "batteries",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify the positive and negative terminals of a cell, explain that a battery is a combination of cells, and describe that the energy source is chemical.",
+     "self_check": true
     }
    ]
   }

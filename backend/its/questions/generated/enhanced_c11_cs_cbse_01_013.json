@@ -34,6 +34,36 @@
      "q": "Design a 4-bit binary subtraction problem where the direct borrow method requires borrowing across three consecutive zeros, and the 2's complement method requires discarding a carry. Write both solutions and explain which is less error-prone for a human.",
      "a": "Problem: 1000 - 0001 (8 - 1 = 7). Direct: borrow cascades from bit 3→2→1→0, result 0111. 2's complement: 2's complement of 0001 = 1111; 1000 + 1111 = 10111 → discard carry → 0111. For humans, 2's complement is less error-prone because it reduces subtraction to familiar addition with a fixed algorithm (invert+add 1), avoiding the cognitive load of tracking borrow chains across zeros. A good answer includes both worked solutions and identifies the cognitive advantage. A poor answer only shows one method or claims direct is easier \"because it's intuitive.\"",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Binary arithmetic is the set of rules for performing addition and subtraction operations on binary numbers (base-2), using only digits 0 and 1, where addition follows carry rules (1+1=10) and subtraction follows borrow rules (0-1=1 with borrow from next higher bit), enabling the ALU to execute all ______ tasks in a computer system.",
+     "a": "computational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're designing a simple calculator app that works entirely in binary — how would it add ₹13 (1101) and ₹7 (0111) without ever ______ to decimal?",
+     "a": "converting",
+     "self_check": true
+    },
+    {
+     "q": "What is Binary arithmetic? State the definition given in this lesson.",
+     "a": "Binary arithmetic is the set of rules for performing addition and subtraction operations on binary numbers (base-2), using only digits 0 and 1, where addition follows carry rules (1+1=10) and subtraction follows borrow rules (0-1=1 with borrow from next higher bit), enabling the ALU to execute all computational tasks in a computer system.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Notice how the carry ripples leftward, just like in decimal addition but simpler because the base is ______.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Binary arithmetic?",
+     "a": "Students believe binary subtraction \"is just like decimal subtraction\" and try to apply decimal borrow rules (e.g., borrowing 10 instead of 2) or forget that a borrowed 1 becomes 10 (binary) in the current column, not 10 (decimal).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must correctly perform binary addition and subtraction (including multi-bit numbers with carries/borrows) and verify results by converting to decimal, demonstrating understanding of carry/borrow propagation across at least 8-bit operands.",
+     "self_check": true
     }
    ]
   }

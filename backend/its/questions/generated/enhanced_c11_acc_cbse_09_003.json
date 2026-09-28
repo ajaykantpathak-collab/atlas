@@ -34,6 +34,31 @@
      "q": "Create a realistic scenario (Indian context) where a business has both outstanding wages and prepaid rent. Write the adjustment entries, show the P&L and Balance Sheet extracts, and explain why both adjustments are necessary for true profit.",
      "a": "Scenario: A garment shop pays ₹2,00,000 rent on 1 Jan 2017 for 12 months (year ends 31 March). March wages ₹15,000 unpaid. Entries: (1) Wages A/c Dr. 15,000 → Outstanding Wages A/c 15,000. (2) Prepaid Rent A/c Dr. 1,50,000 → Rent A/c 1,50,000. P&L: Wages ₹15,000 added; Rent ₹50,000 charged (₹2,00,000 − ₹1,50,000). Balance Sheet: Outstanding Wages ₹15,000 (liability); Prepaid Rent ₹1,50,000 (asset). Both needed: without (1), profit is overstated (wage expense missing); without (2), profit is understated (rent expense includes next year). A poor answer omits the \"why\" or misallocates periods.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Outstanding expenses are expenses that have been incurred during the current ______ period but remain unpaid at the end of that period; they are recorded by debiting the concerned expense account and crediting an outstanding expense liability account.",
+     "a": "accounting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Your ______ shows you the trial balance: salaries paid ₹2,50,000 and rent paid ₹1,20,000.",
+     "a": "accountant",
+     "self_check": true
+    },
+    {
+     "q": "What is Outstanding expenses? State the definition given in this lesson.",
+     "a": "Outstanding expenses are expenses that have been incurred during the current accounting period but remain unpaid at the end of that period; they are recorded by debiting the concerned expense account and crediting an outstanding expense liability account.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Outstanding expenses?",
+     "a": "Students often think \"Outstanding expense means we haven't recorded it at all, so we debit Outstanding Expense A/c\" — they treat the liability account as an expense account.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) identify outstanding and prepaid expenses from a given trial balance and additional information, (2) pass the correct adjustment journal entries for each, (3) show the treatment in the Trading and Profit & Loss Account (adding outstanding to expense, deducting prepaid from expense), and (4) present them.",
+     "self_check": true
     }
    ]
   }

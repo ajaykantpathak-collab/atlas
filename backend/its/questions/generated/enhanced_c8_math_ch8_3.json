@@ -34,6 +34,26 @@
      "q": "Create a real-life situation where you would need to convert a percentage like 12.5% to a fraction (1/8) to solve a problem mentally. Explain why the fraction helps.",
      "a": "Example: A shirt costs ₹800 with 12.5% discount. Converting 12.5% to 1/8 lets you mentally compute discount as ₹800 × 1/8 = ₹100. The fraction 1/8 is easier to multiply than 0.125 or 12.5/100. A poor answer gives a situation but doesn't explain the computational advantage of the fraction form, showing lack of flexible thinking.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To convert a percentage to a fraction, write the percentage as the numerator and 100 as the ______, then simplify to lowest terms.",
+     "a": "denominator",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you scored 75% on a test and your friend asks what ______ of the marks you got.",
+     "a": "fraction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A percentage is a fraction with denominator ______.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can fluently convert any percentage (whole number, decimal, or mixed number) into both a simplified fraction and a decimal, and can explain why the conversion works using the definition of percent as \"per hundred\".",
+     "self_check": true
     }
    ]
   }

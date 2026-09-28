@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_05_009",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_05_009",
+   "title": "c12_app_cbse_05_009",
+   "questions": [
+    {
+     "q": "What is the general solution of the differential equation `dy/dx = 3x^2 + 2x`? Write the answer with the constant of integration.",
+     "a": "The general solution is `y = x^3 + x^2 + C`, where `C` is an arbitrary constant. A wrong answer like `y = x^3 + x^2` (missing `+ C`) reveals the student confuses \"general solution\" (family of curves) with \"a particular solution\" (one curve). In board exams, missing `+ C` loses 1 mark even if integration is correct.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves `dy/dx = y` and writes `y = e^x` as the general solution. Is this correct? Explain why or why not.",
+     "a": "No, it is incorrect. The general solution is `y = Ce^x` (or `y = e^{x+C}`). Writing `y = e^x` gives only one particular solution (where `C=1`). This reveals the student does not understand that integrating `dy/y = dx` gives `ln|y| = x + C`, so `y = ±e^C e^x = Ce^x` where `C ≠ 0` is arbitrary. They treated the constant as fixed, not arbitrary.",
+     "self_check": true
+    },
+    {
+     "q": "Solve the differential equation `dy/dx = (2x)/(y)` given that `y(1) = 3`. Find the particular solution.",
+     "a": "Separate: `y dy = 2x dx`. Integrate: `y^2/2 = x^2 + C` → `y^2 = 2x^2 + 2C`. Let `2C = C'` → `y^2 = 2x^2 + C'`. Use `y(1)=3`: `9 = 2(1) + C'` → `C' = 7`. Particular solution: `y^2 = 2x^2 + 7` or `y = √(2x^2 + 7)` (positive root since `y(1)=3>0`). A wrong answer like `y^2 = 2x^2 + C` without finding `C'` reveals the student stops at general solution and ignores the initial condition — a frequent 2-mark loss in board papers.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the solution processes for `dy/dx = 4x^3` and `dy/dx = 4y^3`. What is the key structural difference in the steps, and why does it matter for the domain of the solution?",
+     "a": "For `dy/dx = 4x^3`, direct integration gives `y = x^4 + C` (domain: all ℝ). For `dy/dx = 4y^3`, separation gives `dy/y^3 = 4 dx` → `-1/(2y^2) = 4x + C` → `y^2 = -1/(8x + C')`. The key difference: the second requires `y ≠ 0` during separation (division by `y^3`), and the solution has domain restrictions where denominator ≠ 0. A student who integrates `dy/dx = 4y^3` as `y = y^4 + C` (treating `y` as constant) reveals they don't recognize `y` as the dependent variable — a fundamental confusion between Case 1 and Case 2.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The differential equation `dy/dx = x/y` has no solution passing through the origin (0,0) because separation gives `y dy = x dx`, and at (0,0) both sides are zero, so it's trivial.\" Evaluate this claim.",
+     "a": "The claim is incorrect. Separating `y dy = x dx` and integrating gives `y^2/2 = x^2/2 + C` → `y^2 - x^2 = C'`. At (0,0), `C' = 0`, so the particular solution is `y^2 = x^2` or `y = ±x`. These are valid solutions passing through the origin. The student's error: they think \"both sides zero\" means no information, but it actually determines `C=0`. This reveals confusion between \"trivial solution\" (y=0) and \"particular solution with C=0\". In JEE, such conceptual traps appear in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) that leads to a variable separable differential equation of the form `dy/dx = g(x)h(y)`. Write the DE, solve it generally, and give a meaningful initial condition to find a particular solution.",
+     "a": "Scenario: \"The rate of spread of a viral video on social media in Mumbai is proportional to the product of the number of people who have seen it (`y`) and the number who haven't (`N - y`), where `N = 10^6` is the total population.\" DE: `dy/dt = k y (N - y)`. This is variable separable: `dy/[y(N-y)] = k dt`. Partial fractions → `∫(1/y + 1/(N-y)) dy = kN t + C`. Solution: `ln|y/(N-y)| = kN t + C` → `y = N/(1 + Ae^{-kNt})`. Initial condition: `y(0) = 100` (first 100 views). A poor answer would give a linear DE like `dy/dt = ky` (exponential growth) — showing they don't understand the \"saturation\" aspect of logistic models, which is a key competitive exam concept.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

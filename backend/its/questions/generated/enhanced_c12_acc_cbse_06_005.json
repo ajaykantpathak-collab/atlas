@@ -34,6 +34,31 @@
      "q": "Create a scenario where a company issues debentures at a discount and pays half-yearly interest. The TDS rate is 10% (PAN given). Write the journal entries for the first interest due date, including the transfer of interest to Statement of Profit and Loss. Assume face value ₹1,00,000, coupon rate 9%, issued at 5% discount.",
      "a": "Expected answer: Gross interest = ₹1,00,000 × 9% × 6/12 = ₹4,500. TDS = ₹450. Net payable = ₹4,050. Entries: (1) Debenture Interest A/c Dr. ₹4,500 → To Debentureholders A/c ₹4,050, To TDS Payable A/c ₹450. (2) Debentureholders A/c Dr. ₹4,050 → To Bank A/c ₹4,050. (3) TDS Payable A/c Dr. ₹450 → To Bank A/c ₹450. (4) Statement of Profit and Loss Dr. ₹4,500 → To Debenture Interest A/c ₹4,500. A poor answer omits the transfer entry or calculates interest on issue price (₹95,000) instead of face value — revealing the misconception that interest is paid on issue proceeds.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Interest on debentures is a fixed financial charge payable by the company to debenture holders at a ______ rate on the nominal (face) value of debentures, irrespective of profits.",
+     "a": "predetermined",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a company, \"Vikram Ltd.\", issued 10,000 9% ______ of ₹100 each on 1st April 2023.",
+     "a": "debentures",
+     "self_check": true
+    },
+    {
+     "q": "What is Interest on debentures? State the definition given in this lesson.",
+     "a": "Interest on debentures is a fixed financial charge payable by the company to debenture holders at a predetermined rate on the nominal (face) value of debentures, irrespective of profits.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Interest on debentures?",
+     "a": "Students often calculate debenture interest on the issue price (especially when issued at discount/premium) instead of the face value.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) calculate gross interest, TDS, and net interest payable for any given debenture issue, (2) pass correct journal entries for interest due, TDS deduction, interest payment, and TDS deposit, and (3) show the correct presentation of outstanding interest and TDS payable in the Balance Sheet as per Schedule III.",
+     "self_check": true
     }
    ]
   }

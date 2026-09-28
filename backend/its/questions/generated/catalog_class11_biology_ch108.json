@@ -1,6 +1,194 @@
 {
- "catalog": "catalog_class11_biology_ch108",
+ "catalog": "catalog_class11_biology_ch108.json",
  "concepts": [
+  {
+   "id": "kebo.108.4",
+   "title": "Plasma Membrane Fluidity and Solute Transport",
+   "converted_to_compute": true,
+   "formula": "other_percentage = 100 - (protein_percentage + lipid_percentage)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "other_percentage = 100 - (protein_percentage + lipid_percentage)",
+     "compute": "other_percentage = 100 - (protein_percentage + lipid_percentage)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Plasma Membrane Fluidity and Solute Transport: given protein_percentage = 7.3, lipid_percentage = 89, find other percentage.",
+     "a": "3.7",
+     "self_check": false
+    },
+    {
+     "q": "For Plasma Membrane Fluidity and Solute Transport: given protein_percentage = 12.7, lipid_percentage = 38, find other percentage.",
+     "a": "49.3",
+     "self_check": false
+    },
+    {
+     "q": "For Plasma Membrane Fluidity and Solute Transport: given protein_percentage = 12.1, lipid_percentage = 82, find other percentage.",
+     "a": "5.9",
+     "self_check": false
+    },
+    {
+     "q": "For Plasma Membrane Fluidity and Solute Transport: given protein_percentage = 10.8, lipid_percentage = 34, find other percentage.",
+     "a": "55.2",
+     "self_check": false
+    },
+    {
+     "q": "For Plasma Membrane Fluidity and Solute Transport: given protein_percentage = 3.8, lipid_percentage = 78, find other percentage.",
+     "a": "18.2",
+     "self_check": false
+    },
+    {
+     "q": "For Plasma Membrane Fluidity and Solute Transport: given protein_percentage = 18.2, lipid_percentage = 70, find other percentage.",
+     "a": "11.8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebo.108.6",
+   "title": "Endomembrane System and Vacuolar Dynamics",
+   "converted_to_compute": true,
+   "formula": "vacuole_volume = total_cell_volume * (vacuole_percentage / 100)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "vacuole_volume = total_cell_volume * (vacuole_percentage / 100)",
+     "compute": "vacuole_volume = total_cell_volume * (vacuole_percentage / 100)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Endomembrane System and Vacuolar Dynamics: given total_cell_volume = 4.3, vacuole_percentage = 56, find vacuole volume.",
+     "a": "2.408",
+     "self_check": false
+    },
+    {
+     "q": "For Endomembrane System and Vacuolar Dynamics: given total_cell_volume = 55, vacuole_percentage = 83, find vacuole volume.",
+     "a": "45.65",
+     "self_check": false
+    },
+    {
+     "q": "For Endomembrane System and Vacuolar Dynamics: given total_cell_volume = 52, vacuole_percentage = 6.3, find vacuole volume.",
+     "a": "3.276",
+     "self_check": false
+    },
+    {
+     "q": "For Endomembrane System and Vacuolar Dynamics: given total_cell_volume = 23, vacuole_percentage = 35, find vacuole volume.",
+     "a": "8.05",
+     "self_check": false
+    },
+    {
+     "q": "For Endomembrane System and Vacuolar Dynamics: given total_cell_volume = 17.9, vacuole_percentage = 52, find vacuole volume.",
+     "a": "9.308",
+     "self_check": false
+    },
+    {
+     "q": "For Endomembrane System and Vacuolar Dynamics: given total_cell_volume = 59, vacuole_percentage = 40, find vacuole volume.",
+     "a": "23.6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebo.108.8",
+   "title": "Plastids and Chloroplast Architecture",
+   "converted_to_compute": true,
+   "formula": "Plastids = Chloroplasts + Chromoplasts + Leucoplasts",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "Plastids = Chloroplasts + Chromoplasts + Leucoplasts",
+     "compute": "Plastids = Chloroplasts + Chromoplasts + Leucoplasts"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Plastids and Chloroplast Architecture: given Chloroplasts = 39, Chromoplasts = 19.5, Leucoplasts = 20, find Plastids.",
+     "a": "78.5",
+     "self_check": false
+    },
+    {
+     "q": "For Plastids and Chloroplast Architecture: given Chloroplasts = 26, Chromoplasts = 71, Leucoplasts = 54, find Plastids.",
+     "a": "151",
+     "self_check": false
+    },
+    {
+     "q": "For Plastids and Chloroplast Architecture: given Chloroplasts = 71, Chromoplasts = 62, Leucoplasts = 100, find Plastids.",
+     "a": "233",
+     "self_check": false
+    },
+    {
+     "q": "For Plastids and Chloroplast Architecture: given Chloroplasts = 33, Chromoplasts = 98, Leucoplasts = 15.1, find Plastids.",
+     "a": "146.1",
+     "self_check": false
+    },
+    {
+     "q": "For Plastids and Chloroplast Architecture: given Chloroplasts = 76, Chromoplasts = 92, Leucoplasts = 88, find Plastids.",
+     "a": "256",
+     "self_check": false
+    },
+    {
+     "q": "For Plastids and Chloroplast Architecture: given Chloroplasts = 24, Chromoplasts = 96, Leucoplasts = 54, find Plastids.",
+     "a": "174",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebo.108.9",
+   "title": "Cilia, Flagella, and Centrosome Microtubular Architecture",
+   "converted_to_compute": true,
+   "formula": "total_microtubules = (peripheral_doublets * 2) + central_singlets",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_microtubules = (peripheral_doublets * 2) + central_singlets",
+     "compute": "total_microtubules = (peripheral_doublets * 2) + central_singlets"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Cilia, Flagella, and Centrosome Microtubular Architecture: given peripheral_doublets = 75, central_singlets = 30, find total microtubules.",
+     "a": "180",
+     "self_check": false
+    },
+    {
+     "q": "For Cilia, Flagella, and Centrosome Microtubular Architecture: given peripheral_doublets = 69, central_singlets = 28, find total microtubules.",
+     "a": "166",
+     "self_check": false
+    },
+    {
+     "q": "For Cilia, Flagella, and Centrosome Microtubular Architecture: given peripheral_doublets = 12.2, central_singlets = 44, find total microtubules.",
+     "a": "68.4",
+     "self_check": false
+    },
+    {
+     "q": "For Cilia, Flagella, and Centrosome Microtubular Architecture: given peripheral_doublets = 26, central_singlets = 92, find total microtubules.",
+     "a": "144",
+     "self_check": false
+    },
+    {
+     "q": "For Cilia, Flagella, and Centrosome Microtubular Architecture: given peripheral_doublets = 17, central_singlets = 6.5, find total microtubules.",
+     "a": "40.5",
+     "self_check": false
+    },
+    {
+     "q": "For Cilia, Flagella, and Centrosome Microtubular Architecture: given peripheral_doublets = 19.7, central_singlets = 62, find total microtubules.",
+     "a": "101.4",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "kebo.108.1",
    "title": "Cell Theory and Classical Discoveries",
@@ -65,37 +253,6 @@
    ]
   },
   {
-   "id": "kebo.108.4",
-   "title": "Plasma Membrane Fluidity and Solute Transport",
-   "questions": [
-    {
-     "q": "Calculate the remaining chemical component percentage in a cell membrane given protein and lipid percentages. Use the method 'Plasma Membrane Fluidity and Solute Transport'. Work with: lipid_percentage = 20, protein_percentage = 25. Carry the chain through step by step and give the final value of other_percentage.",
-     "a": "55 per cent",
-     "self_check": false
-    },
-    {
-     "q": "How much non-protein non-lipid content exists in an erythrocyte membrane with 52 percent protein and 40 percent lipid? Use the method 'Plasma Membrane Fluidity and Solute Transport'. Work with: lipid_percentage = 5, protein_percentage = 15. Carry the chain through step by step and give the final value of other_percentage.",
-     "a": "80 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Plasma Membrane Fluidity and Solute Transport' refers to.",
-     "a": "A fluid mosaic phospholipid bilayer with mosaic both integral and peripheral proteins that mediates cell growth, secretion, passive diffusion, osmosis, and active ion pumping.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Plasma Membrane Fluidity and Solute Transport'.",
-     "a": "The lipid bilayer's fluid nature allows protein movement and selectively regulates molecule exchange across cell boundaries.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Plasma Membrane Fluidity and Solute Transport', in plain ASCII form.",
-     "a": "other_percentage = 100 - (protein_percentage + lipid_percentage)",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "kebo.108.5",
    "title": "Cell Wall and Intercellular Junctions",
    "questions": [
@@ -117,37 +274,6 @@
    ]
   },
   {
-   "id": "kebo.108.6",
-   "title": "Endomembrane System and Vacuolar Dynamics",
-   "questions": [
-    {
-     "q": "Calculate the volume occupied by a plant vacuole given cell volume and volume percentage. Use the method 'Endomembrane System and Vacuolar Dynamics'. Work with: total_cell_volume = 3, vacuole_percentage = 12. Carry the chain through step by step and give the final value of vacuole_volume.",
-     "a": "0.36 units",
-     "self_check": false
-    },
-    {
-     "q": "Find how much space the vacuole takes in a plant cell of specific volume. Use the method 'Endomembrane System and Vacuolar Dynamics'. Work with: total_cell_volume = 240, vacuole_percentage = 25. Carry the chain through step by step and give the final value of vacuole_volume.",
-     "a": "60 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Endomembrane System and Vacuolar Dynamics' refers to.",
-     "a": "A functionally coordinated organelle network comprising the ER, Golgi apparatus, lysosomes, and vacuoles that works together to synthesize, modify, package, and segregate cellular products.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Endomembrane System and Vacuolar Dynamics'.",
-     "a": "Coordinated membrane organelles process and route proteins, lipids, and cellular wastes inside eukaryotic cells.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Endomembrane System and Vacuolar Dynamics', in plain ASCII form.",
-     "a": "vacuole_volume = total_cell_volume * (vacuole_percentage / 100)",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "kebo.108.7",
    "title": "Mitochondrial Structure and Energy Generation",
    "questions": [
@@ -164,58 +290,6 @@
     {
      "q": "Write the standard relation used for 'Mitochondrial Structure and Energy Generation', in plain ASCII form.",
      "a": "Mitochondrial lumen = outer compartment + inner matrix",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebo.108.8",
-   "title": "Plastids and Chloroplast Architecture",
-   "questions": [
-    {
-     "q": "Explain in your own words what 'Plastids and Chloroplast Architecture' refers to.",
-     "a": "Pigment- or nutrient-storing double-membrane organelles in plants, including light-harvesting chloroplasts organized into fluid stroma and stacked thylakoid grana.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Plastids and Chloroplast Architecture'.",
-     "a": "Chloroplasts harvest solar energy within thylakoid membrane stacks to synthesize organic compounds in the stroma.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Plastids and Chloroplast Architecture', in plain ASCII form.",
-     "a": "Plastids = Chloroplasts + Chromoplasts + Leucoplasts",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebo.108.9",
-   "title": "Cilia, Flagella, and Centrosome Microtubular Architecture",
-   "questions": [
-    {
-     "q": "Calculate the total number of individual microtubules in a standard 9 plus 2 axoneme. Use the method 'Cilia, Flagella, and Centrosome Microtubular Architecture'. Work with: central_singlets = 40, peripheral_doublets = 3. Carry the chain through step by step and give the final value of total_microtubules.",
-     "a": "46 units",
-     "self_check": false
-    },
-    {
-     "q": "Find how many microtubules make up the peripheral doublets and central pair of a cilium. Use the method 'Cilia, Flagella, and Centrosome Microtubular Architecture'. Work with: central_singlets = 8, peripheral_doublets = 3. Carry the chain through step by step and give the final value of total_microtubules.",
-     "a": "14 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Cilia, Flagella, and Centrosome Microtubular Architecture' refers to.",
-     "a": "Motility and structural organelles made up of tubulin protein arrangements, featuring a 9+2 axoneme array in cilia/flagella and a cartwheel triplet pattern in centrioles.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Cilia, Flagella, and Centrosome Microtubular Architecture'.",
-     "a": "Nine radially arranged peripheral microtubule doublets surrounding two central singlets form the core eukaryotic locomotory axoneme.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Cilia, Flagella, and Centrosome Microtubular Architecture', in plain ASCII form.",
-     "a": "total_microtubules = (peripheral_doublets * 2) + central_singlets",
      "self_check": true
     }
    ]

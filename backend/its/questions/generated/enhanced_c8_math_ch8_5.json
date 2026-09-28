@@ -34,6 +34,26 @@
      "q": "Create a real-life problem where expressing one quantity as a percentage of another is useful, but the quantities are initially in different units (e.g., metres and centimetres, rupees and paise). Write the problem and solve it completely.",
      "a": "Example problem: \"A rope is 2.5 m long. A piece of 75 cm is cut from it. What percentage of the original rope was cut off?\" Solution: Convert 2.5 m = 250 cm. Fraction = 75/250 = 3/10. Percentage = 30%. A good answer shows unit conversion, correct fraction formation, and percentage calculation. A poor answer either skips conversion or reverses the fraction, showing lack of conceptual understanding.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Expressing one quantity as a percentage of another means finding what fraction the first quantity is of the second, then converting that fraction to a percentage by ______ by 100.",
+     "a": "multiplying",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you scored 38 marks out of 50 in your ______ test, and your friend scored 45 out of 60 in Science.",
+     "a": "Mathematics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Expressing one quantity as a percentage of another means finding what fraction the first quantity is of the second, then converting that fraction to a percentage by multiplying by ______.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly express any quantity as a percentage of another in real-world contexts (marks, money, measurements), handle unit conversions before calculating, and interpret the meaning of the resulting percentage in context.",
+     "self_check": true
     }
    ]
   }

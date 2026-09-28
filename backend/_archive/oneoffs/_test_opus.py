@@ -1,7 +1,7 @@
 """Quick test of Claude Opus 5 API connectivity."""
 import urllib.request, json, ssl, time
 
-KEY = "sk-ant-co-gIEUzRWw_mtUpxKk668B1lzJe3XntCna"
+KEY = "<redacted>"
 URL = "https://api.claudeopus.pro/v1/messages"
 MODEL = "claude-opus-5"
 ctx = ssl.create_default_context()

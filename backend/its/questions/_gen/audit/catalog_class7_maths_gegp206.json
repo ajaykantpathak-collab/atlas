@@ -42,9 +42,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lines = 2"
-   ]
+   "steps_chain": []
   },
   {
    "id": "gegp2.6.2",
@@ -90,9 +88,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "area = 16 * 5"
-   ]
+   "steps_chain": []
   },
   {
    "id": "gegp2.6.3",
@@ -135,9 +131,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "other = 90 - 19"
-   ]
+   "steps_chain": []
   },
   {
    "id": "gegp2.6.4",
@@ -180,9 +174,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lines = 3"
-   ]
+   "steps_chain": []
   }
  ]
 }

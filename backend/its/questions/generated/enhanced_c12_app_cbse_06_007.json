@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_06_007",
+   "title": "c12_app_cbse_06_007",
+   "questions": [
+    {
+     "q": "Define a random variable in your own words and give one example each of a discrete and a continuous random variable from a real-life situation (not coin toss or die roll).",
+     "a": "A random variable is a function that assigns a real number to each outcome in the sample space of a random experiment. Example of discrete: number of unread WhatsApp messages when you wake up (0, 1, 2, ... countable). Example of continuous: exact battery percentage of your phone at a random moment (any value in [0,100] measurable). **Wrong answer reveals**: If a student says \"random variable is just a variable that changes randomly\" — they confuse it with algebraic variable. If they give \"height of students\" as discrete — they don't grasp that measurement variables are continuous even if recorded in cm (the underlying quantity is continuous). If they say \"time is discrete because we measure in seconds\" — they confuse measurement precision with the nature of the variable.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"The number of customers entering a shop in a day is a continuous random variable because there is no upper limit — it could be 100, 1000, 1000000...\" Is the student correct? Explain why or why not.",
+     "a": "The student is **incorrect**. The number of customers is **discrete** — it takes values 0, 1, 2, 3, ... which are countable (you can list them one by one). \"No upper limit\" means countably infinite, not continuous. Continuous means between ANY two possible values there are infinitely many other possible values (e.g., between 2.3 and 2.4 seconds, there's 2.31, 2.301, 2.3001...). For customer count, there is NO value between 3 and 4 customers. **Wrong answer reveals**: If a student agrees, they confuse \"unbounded\" with \"continuous\" — a very common error. They think discrete = finite. This misconception persists into binomial/Poisson where they struggle with infinite support.",
+     "self_check": true
+    },
+    {
+     "q": "Classify each as discrete (D) or continuous (C) and justify in one sentence:\n(a) X = number of defective bulbs in a sample of 50\n(b) Y = weight of a randomly selected mango from a crate\n(c) Z = time taken (in minutes) for a student to solve a math problem\n(d) W = number of times a fair coin must be tossed to get the first head",
+     "a": "(a) D — X takes values 0,1,2,...,50 (finite, countable)\n(b) C — Y takes any value in an interval (e.g., 150.2g, 150.23g, 150.234g... uncountable)\n(c) C — Z takes any positive real value (time is measured, not counted)\n(d) D — W takes values 1,2,3,... (countably infinite, geometric distribution support)\n**Wrong answer reveals**: If (d) is marked C because \"infinite values\" — same unbounded=continuous error. If (b) is marked D because \"we weigh in grams\" — confusing recording precision with variable nature. If (c) is marked D because \"time in minutes\" — same issue. The core test: can you list ALL possible values in principle? For (b),(c) — no, uncountable. For (a),(d) — yes, countable.",
+     "self_check": true
+    },
+    {
+     "q": "Consider two random variables:\nX = number of heads in 10 tosses of a fair coin\nY = proportion of heads in 10 tosses of a fair coin (i.e., Y = X/10)\nAre X and Y both discrete, both continuous, or one of each? Explain the relationship between their possible values.",
+     "a": "Both are **discrete**. X takes values {0,1,2,...,10}. Y takes values {0, 0.1, 0.2, ..., 1.0} — still a finite, countable set (just scaled by 1/10). A linear transformation of a discrete RV is discrete. The possible values of Y have gaps (e.g., no value between 0.3 and 0.4). **Wrong answer reveals**: If a student says Y is continuous because \"it takes decimal values\" or \"it's a proportion between 0 and 1\" — they confuse the range [0,1] with continuum. This is critical for later: sample proportion is discrete (binomial/n), but sampling distribution of proportion is approximated by continuous normal — students must distinguish the RV itself from its approximation.",
+     "self_check": true
+    },
+    {
+     "q": "A textbook states: \"For a continuous random variable, the probability of taking any specific value is zero.\" A student argues: \"But if P(X = x) = 0 for every x, then the total probability should be 0, not 1 — this is a contradiction!\" Evaluate the student's argument and explain the resolution.",
+     "a": "The student's argument is **incorrect** — it confuses countable additivity with uncountable additivity. Probability axioms only guarantee countable additivity: P(∪ A_i) = Σ P(A_i) for COUNTABLE collections. For continuous RV, the sample space is uncountable (e.g., [0,1]). P(X ∈ [0,1]) = 1, but [0,1] = ∪_{x∈[0,1]} {x} is an UNCOUNTABLE union — we cannot sum P(X=x)=0 over uncountably many x. The total probability is defined via integration of PDF: ∫ f(x) dx = 1, not summation. **Wrong answer reveals**: If a student accepts the contradiction, they don't understand the distinction between discrete (sum) and continuous (integral) probability models. This is foundational for understanding why we use PDF and CDF for continuous RVs — a major stumbling block in normal distribution.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life scenario (Indian context) involving BOTH a discrete and a continuous random variable that are naturally related. Define both variables clearly and explain why one is discrete and the other continuous.",
+     "a": "**Scenario**: A Zomato delivery partner in Bengaluru. \nDiscrete RV: N = number of orders delivered in a 4-hour shift (values: 0, 1, 2, 3, ... countable)\nContinuous RV: T = total distance travelled (in km) during the shift (values: any in [0, ∞), measurable)\n**Why**: N counts completed orders — gaps between values (can't deliver 2.5 orders). T measures distance — between 12.3 km and 12.4 km there are infinitely many values (12.31, 12.301...). They are related: more orders → generally more distance, but not perfectly (traffic, order locations). **Poor answer reveals**: If both variables are discrete (e.g., \"number of orders\" and \"number of km\" — but km is measured, not counted) or both continuous (e.g., \"time per order\" and \"total time\" — both continuous). Good answer shows understanding that counting vs. measuring is the fundamental distinction, not just \"integer vs. decimal.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

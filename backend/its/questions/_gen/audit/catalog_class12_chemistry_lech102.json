@@ -1,0 +1,572 @@
+{
+ "catalog": "catalog_class12_chemistry_lech102.json",
+ "concepts": [
+  {
+   "id": "lech.02.2.2.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "e_0_cathode = 71",
+      "e_0_anode = 3.2",
+      "e_0_cell = e_0_cathode - e_0_anode"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "e_0_cathode = 54",
+      "e_0_anode = 31",
+      "e_0_cell = e_0_cathode - e_0_anode"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "e_0_cathode = 12.4",
+      "e_0_anode = 25",
+      "e_0_cell = e_0_cathode - e_0_anode"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "e_0_cathode = 48",
+      "e_0_anode = 29",
+      "e_0_cell = e_0_cathode - e_0_anode"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "e_0_cathode = 16.6",
+      "e_0_anode = 31",
+      "e_0_cell = e_0_cathode - e_0_anode"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "e_0_cathode = 2.3",
+      "e_0_anode = 65",
+      "e_0_cell = e_0_cathode - e_0_anode"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "e_0_cell = e_0_cathode - e_0_anode"
+   ]
+  },
+  {
+   "id": "lech.02.2.3.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "e_0_cell = 87",
+      "n_electrons = 16.8",
+      "log_quotient = 91",
+      "e_cell = e_0_cell - (0.059 / n_electrons) * log_quotient"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "e_0_cell = 94",
+      "n_electrons = 14.4",
+      "log_quotient = 92",
+      "e_cell = e_0_cell - (0.059 / n_electrons) * log_quotient"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "e_0_cell = 16.8",
+      "n_electrons = 4.9",
+      "log_quotient = 83",
+      "e_cell = e_0_cell - (0.059 / n_electrons) * log_quotient"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "e_0_cell = 62",
+      "n_electrons = 15.2",
+      "log_quotient = 28",
+      "e_cell = e_0_cell - (0.059 / n_electrons) * log_quotient"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "e_0_cell = 77",
+      "n_electrons = 8.5",
+      "log_quotient = 63",
+      "e_cell = e_0_cell - (0.059 / n_electrons) * log_quotient"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "e_0_cell = 29",
+      "n_electrons = 3.9",
+      "log_quotient = 3.6",
+      "e_cell = e_0_cell - (0.059 / n_electrons) * log_quotient"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "e_cell = e_0_cell - (0.059 / n_electrons) * log_quotient"
+   ]
+  },
+  {
+   "id": "lech.02.2.3.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "n_electrons = 17",
+      "faraday_const = 100",
+      "e_0_cell = 55",
+      "gibbs_kj = (0 - n_electrons * faraday_const * e_0_cell) / 1000"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "n_electrons = 12.5",
+      "faraday_const = 63",
+      "e_0_cell = 90",
+      "gibbs_kj = (0 - n_electrons * faraday_const * e_0_cell) / 1000"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "n_electrons = 8.8",
+      "faraday_const = 29",
+      "e_0_cell = 92",
+      "gibbs_kj = (0 - n_electrons * faraday_const * e_0_cell) / 1000"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "n_electrons = 4.4",
+      "faraday_const = 53",
+      "e_0_cell = 8.2",
+      "gibbs_kj = (0 - n_electrons * faraday_const * e_0_cell) / 1000"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "n_electrons = 2.2",
+      "faraday_const = 7.5",
+      "e_0_cell = 61",
+      "gibbs_kj = (0 - n_electrons * faraday_const * e_0_cell) / 1000"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "n_electrons = 18",
+      "faraday_const = 10.1",
+      "e_0_cell = 40",
+      "gibbs_kj = (0 - n_electrons * faraday_const * e_0_cell) / 1000"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "gibbs_kj = (0 - n_electrons * faraday_const * e_0_cell) / 1000"
+   ]
+  },
+  {
+   "id": "lech.02.2.4.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "kappa_known = 57",
+      "resistance_known = 498",
+      "resistance_unknown = 119",
+      "kappa_unknown = (kappa_known * resistance_known) / resistance_unknown"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "kappa_known = 87",
+      "resistance_known = 62",
+      "resistance_unknown = 410",
+      "kappa_unknown = (kappa_known * resistance_known) / resistance_unknown"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "kappa_known = 82",
+      "resistance_known = 409",
+      "resistance_unknown = 311",
+      "kappa_unknown = (kappa_known * resistance_known) / resistance_unknown"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "kappa_known = 18.9",
+      "resistance_known = 151",
+      "resistance_unknown = 102",
+      "kappa_unknown = (kappa_known * resistance_known) / resistance_unknown"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "kappa_known = 35",
+      "resistance_known = 361",
+      "resistance_unknown = 224",
+      "kappa_unknown = (kappa_known * resistance_known) / resistance_unknown"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "kappa_known = 40",
+      "resistance_known = 193",
+      "resistance_unknown = 248",
+      "kappa_unknown = (kappa_known * resistance_known) / resistance_unknown"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "kappa_unknown = (kappa_known * resistance_known) / resistance_unknown"
+   ]
+  },
+  {
+   "id": "lech.02.2.4.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "kappa = 38",
+      "molarity = 7.7",
+      "lambda_m = 1000 * kappa / molarity"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "kappa = 16.2",
+      "molarity = 6.5",
+      "lambda_m = 1000 * kappa / molarity"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "kappa = 88",
+      "molarity = 7.8",
+      "lambda_m = 1000 * kappa / molarity"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "kappa = 27",
+      "molarity = 3.1",
+      "lambda_m = 1000 * kappa / molarity"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "kappa = 62",
+      "molarity = 7.6",
+      "lambda_m = 1000 * kappa / molarity"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "kappa = 15.6",
+      "molarity = 3.1",
+      "lambda_m = 1000 * kappa / molarity"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "lambda_m = 1000 * kappa / molarity"
+   ]
+  },
+  {
+   "id": "lech.02.2.5.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "n_cation = 13.1",
+      "lambda_cation = 53",
+      "n_anion = 7.9",
+      "lambda_anion = 75",
+      "lambda_0 = n_cation * lambda_cation + n_anion * lambda_anion"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "n_cation = 13.8",
+      "lambda_cation = 43",
+      "n_anion = 14.1",
+      "lambda_anion = 52",
+      "lambda_0 = n_cation * lambda_cation + n_anion * lambda_anion"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "n_cation = 11.2",
+      "lambda_cation = 28",
+      "n_anion = 10",
+      "lambda_anion = 64",
+      "lambda_0 = n_cation * lambda_cation + n_anion * lambda_anion"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "n_cation = 9.4",
+      "lambda_cation = 84",
+      "n_anion = 14.7",
+      "lambda_anion = 98",
+      "lambda_0 = n_cation * lambda_cation + n_anion * lambda_anion"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "n_cation = 9.4",
+      "lambda_cation = 4.9",
+      "n_anion = 16.8",
+      "lambda_anion = 51",
+      "lambda_0 = n_cation * lambda_cation + n_anion * lambda_anion"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "n_cation = 14.8",
+      "lambda_cation = 78",
+      "n_anion = 10.3",
+      "lambda_anion = 51",
+      "lambda_0 = n_cation * lambda_cation + n_anion * lambda_anion"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "lambda_0 = n_cation * lambda_cation + n_anion * lambda_anion"
+   ]
+  },
+  {
+   "id": "lech.02.2.5.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "molarity = 1.7",
+      "alpha = 26",
+      "ka = molarity * alpha ** 2 / (1 - alpha)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "molarity = 3.5",
+      "alpha = 3.8",
+      "ka = molarity * alpha ** 2 / (1 - alpha)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "molarity = 8.4",
+      "alpha = 98",
+      "ka = molarity * alpha ** 2 / (1 - alpha)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "molarity = 3.7",
+      "alpha = 11.2",
+      "ka = molarity * alpha ** 2 / (1 - alpha)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "molarity = 4.4",
+      "alpha = 58",
+      "ka = molarity * alpha ** 2 / (1 - alpha)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "molarity = 2.1",
+      "alpha = 25",
+      "ka = molarity * alpha ** 2 / (1 - alpha)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "ka = molarity * alpha ** 2 / (1 - alpha)"
+   ]
+  },
+  {
+   "id": "lech.02.2.6.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "current_amp = 68",
+      "time_sec = 103",
+      "n_electrons = 5.4",
+      "faraday_const = 42",
+      "molar_mass_metal = 160",
+      "mass_metal = (current_amp * time_sec / (n_electrons * faraday_const)) * molar_mass_metal"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "current_amp = 82",
+      "time_sec = 17.8",
+      "n_electrons = 12.4",
+      "faraday_const = 82",
+      "molar_mass_metal = 128",
+      "mass_metal = (current_amp * time_sec / (n_electrons * faraday_const)) * molar_mass_metal"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "current_amp = 78",
+      "time_sec = 63",
+      "n_electrons = 8.3",
+      "faraday_const = 90",
+      "molar_mass_metal = 69",
+      "mass_metal = (current_amp * time_sec / (n_electrons * faraday_const)) * molar_mass_metal"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "current_amp = 80",
+      "time_sec = 7.8",
+      "n_electrons = 7.9",
+      "faraday_const = 19.3",
+      "molar_mass_metal = 23",
+      "mass_metal = (current_amp * time_sec / (n_electrons * faraday_const)) * molar_mass_metal"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "current_amp = 14.4",
+      "time_sec = 30",
+      "n_electrons = 11.3",
+      "faraday_const = 76",
+      "molar_mass_metal = 10.5",
+      "mass_metal = (current_amp * time_sec / (n_electrons * faraday_const)) * molar_mass_metal"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "current_amp = 88",
+      "time_sec = 62",
+      "n_electrons = 14.7",
+      "faraday_const = 35",
+      "molar_mass_metal = 16.2",
+      "mass_metal = (current_amp * time_sec / (n_electrons * faraday_const)) * molar_mass_metal"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "mass_metal = (current_amp * time_sec / (n_electrons * faraday_const)) * molar_mass_metal"
+   ]
+  },
+  {
+   "id": "lech.02.2.6.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "moles_substance = 10.3",
+      "z_electrons = 49",
+      "faraday_const = 69",
+      "charge_coulomb = moles_substance * z_electrons * faraday_const"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "moles_substance = 19.4",
+      "z_electrons = 12.5",
+      "faraday_const = 31",
+      "charge_coulomb = moles_substance * z_electrons * faraday_const"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "moles_substance = 16.4",
+      "z_electrons = 86",
+      "faraday_const = 73",
+      "charge_coulomb = moles_substance * z_electrons * faraday_const"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "moles_substance = 9.8",
+      "z_electrons = 1.9",
+      "faraday_const = 15.9",
+      "charge_coulomb = moles_substance * z_electrons * faraday_const"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "moles_substance = 2.5",
+      "z_electrons = 81",
+      "faraday_const = 75",
+      "charge_coulomb = moles_substance * z_electrons * faraday_const"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "moles_substance = 17.5",
+      "z_electrons = 63",
+      "faraday_const = 46",
+      "charge_coulomb = moles_substance * z_electrons * faraday_const"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "charge_coulomb = moles_substance * z_electrons * faraday_const"
+   ]
+  }
+ ]
+}

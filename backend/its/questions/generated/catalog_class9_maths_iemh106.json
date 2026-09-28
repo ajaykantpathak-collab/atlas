@@ -5,6 +5,8 @@
    "id": "iemh.106.6.1",
    "title": "Perimeter of a Shape and of a Circle",
    "converted_to_compute": false,
+   "formula": "circumference = 2 * pi * radius",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 35 cm (take pi = 22/7).",
@@ -42,6 +44,8 @@
    "id": "iemh.106.6.2",
    "title": "Length of an Arc of a Circle",
    "converted_to_compute": false,
+   "formula": "arc = (angle / 360) * 2 * pi * radius",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 49 cm (take pi = 22/7).",
@@ -79,6 +83,8 @@
    "id": "iemh.106.6.3",
    "title": "Area of Rectangle, Parallelogram and Triangle",
    "converted_to_compute": false,
+   "formula": "area = base * height / 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a parallelogram with base 23 cm and height 11 cm.",
@@ -115,15 +121,9 @@
   {
    "id": "iemh.106.6.4",
    "title": "Perimeter Puzzles and Paradoxes",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "add the sides with the perimeter formula",
-     "explain": "add the sides with the perimeter formula: perim = 2 * (24 + 18) gives 84",
-     "compute": "perim = 2 * (24 + 18)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A rectangular park is 24 m long and 18 m wide. Find its perimeter.",

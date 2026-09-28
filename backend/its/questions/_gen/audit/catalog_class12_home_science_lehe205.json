@@ -1,0 +1,119 @@
+{
+ "catalog": "catalog_class12_home_science_lehe205.json",
+ "concepts": [
+  {
+   "id": "lehe205.12",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "panels_per_side = 320",
+      "sides_printed = 415",
+      "total_panels = panels_per_side * sides_printed"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "panels_per_side = 440",
+      "sides_printed = 494",
+      "total_panels = panels_per_side * sides_printed"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "panels_per_side = 263",
+      "sides_printed = 240",
+      "total_panels = panels_per_side * sides_printed"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "panels_per_side = 248",
+      "sides_printed = 355",
+      "total_panels = panels_per_side * sides_printed"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "panels_per_side = 111",
+      "sides_printed = 41",
+      "total_panels = panels_per_side * sides_printed"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "panels_per_side = 343",
+      "sides_printed = 204",
+      "total_panels = panels_per_side * sides_printed"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_panels = panels_per_side * sides_printed"
+   ]
+  },
+  {
+   "id": "lehe205.13",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "basic_rights = 12.5",
+      "additional_rights = 27",
+      "total_rights = basic_rights + additional_rights"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "basic_rights = 16.7",
+      "additional_rights = 75",
+      "total_rights = basic_rights + additional_rights"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "basic_rights = 61",
+      "additional_rights = 77",
+      "total_rights = basic_rights + additional_rights"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "basic_rights = 74",
+      "additional_rights = 91",
+      "total_rights = basic_rights + additional_rights"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "basic_rights = 33",
+      "additional_rights = 32",
+      "total_rights = basic_rights + additional_rights"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "basic_rights = 62",
+      "additional_rights = 89",
+      "total_rights = basic_rights + additional_rights"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_rights = basic_rights + additional_rights"
+   ]
+  }
+ ]
+}

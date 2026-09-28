@@ -34,6 +34,26 @@
      "q": "Create a relation R from A = {Delhi, Mumbai, Chennai} to B = {10, 20, 30, 40} such that the domain has exactly 2 elements, the range has exactly 2 elements, and the codomain has 4 elements. Write R in roster form and state the three sets.",
      "a": "Example: R = {(Delhi,10), (Mumbai,20)}. Domain = {Delhi, Mumbai}, Range = {10,20}, Codomain = {10,20,30,40}. A good answer shows the student can design a relation meeting constraints. A poor answer (e.g., using all three cities, or having range size 3) shows they cannot control the size of domain/range independently of the codomain.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For a ______ R from a non-empty set A to a non-empty set B (i.e., R ⊆ A × B), the domain of R is the set of all first elements of the ordered pairs in R; the range of R is the set of all second elements of the ordered pairs in R; and the codomain of R is the entire set B.",
+     "a": "relation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class monitor and have a list of students (Set A) and their favourite ______ (Set B).",
+     "a": "sports",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the domain, codomain, and range for any relation given in roster form, set-builder form, or arrow diagram, and can explain why the range is a subset of the codomain.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class monitor and have a list of students (Set A) and their ______ sports (Set B).",
+     "a": "favourite",
+     "self_check": true
     }
    ]
   }

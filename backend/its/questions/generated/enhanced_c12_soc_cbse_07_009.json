@@ -1,0 +1,56 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_07_009",
+   "title": "c12_soc_cbse_07_009",
+   "questions": [
+    {
+     "q": "What are the three core ethical pillars in sociological research as per the Class 12 NCERT framework?",
+     "a": "The three core ethical pillars are informed consent, confidentiality, and sensitivity. A wrong answer (e.g., listing \"objectivity, reliability, validity\") reveals confusion between methodological criteria and ethical safeguards — the student is mixing research quality standards with participant protection principles.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"implied consent\" (e.g., assuming a returned questionnaire means consent) is insufficient for sociological research involving human participants.",
+     "a": "Implied consent fails because it does not ensure the participant was fully informed about the study's purpose, risks, right to withdraw, or data use. A wrong answer (e.g., \"it saves time\") shows the student prioritises convenience over the ethical requirement of autonomous, informed decision-making — a critical error in both board exams and real research.",
+     "self_check": true
+    },
+    {
+     "q": "A student researcher wants to study caste-based seating arrangements in the school canteen using direct observation. Design a step-by-step ethical protocol for this study addressing all three pillars.",
+     "a": "Steps: (1) Obtain written permission from school authorities and informed consent from observed students (or use passive consent with opt-out for observation in public space, justified in protocol). (2) Ensure confidentiality: record observations without names, use codes, store notes securely. (3) Address sensitivity: avoid stigmatising language, debrief participants, provide counsellor contact. A wrong answer that omits opt-out or debriefing reveals failure to recognise power imbalances and potential harm in studying sensitive social hierarchies.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ethical challenges of using a survey versus in-depth interviews when researching domestic violence among women in a low-income neighbourhood. Which method poses greater risks to confidentiality and why?",
+     "a": "In-depth interviews pose greater confidentiality risks because they collect detailed, identifiable narratives in private settings where the researcher's presence may be noticed by family members, and audio recordings create direct links to participants. Surveys can be anonymous and self-administered. A wrong answer claiming surveys are riskier ignores the identifiability of rich qualitative data and the safety implications for participants in abusive households.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If a participant signs a consent form, the researcher has fulfilled all ethical obligations for that study.\" Defend your position with two specific counter-examples.",
+     "a": "The statement is false. Counter-example 1: A participant consents to a survey on drug use but later wants to withdraw; the researcher must honour withdrawal and destroy that data — consent is ongoing, not one-time. Counter-example 2: During an interview on sexual harassment, a participant becomes distressed; the researcher must pause, offer support, and refer to a counsellor — sensitivity requires active care beyond a signed form. A wrong answer treating consent as a \"tick-box\" reveals a procedural rather than relational understanding of ethics.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel ethical dilemma scenario for a Class 12 project on \"social media usage and self-esteem among teenagers\" that involves a conflict between consent, confidentiality, and sensitivity. Propose a resolution.",
+     "a": "Scenario: A 16-year-old participant reveals suicidal ideation in an anonymous survey. The researcher sees the response but cannot identify the student due to anonymity (confidentiality upheld). However, sensitivity demands duty of care. Resolution: Build into the protocol a mandatory \"help resource\" page at the end of every survey/ interview with helpline numbers, and for identified interviews, a clear limit-to-confidentiality clause disclosed during consent. A poor answer that ignores the tension or suggests breaking anonymity without protocol shows inability to balance competing ethical principles.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ethical considerations in sociological research refer to the moral principles and practical safeguards — informed consent, ______, and sensitivity — that protect participants' dignity, autonomy, and safety while ensuring the integrity of the research process.",
+     "a": "confidentiality",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to study how Class 12 students in your school ______ exam stress.",
+     "a": "experience",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can design a research protocol that includes a written informed consent form, a data anonymisation plan, and a strategy for handling sensitive topics, and can justify each element with reference to ethical principles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

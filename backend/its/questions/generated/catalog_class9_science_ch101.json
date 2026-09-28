@@ -4,66 +4,188 @@
   {
    "id": "iesc.101.1",
    "title": "Scientific Modeling and Simplification",
-   "solution_type": "verify_property",
+   "converted_to_compute": true,
+   "formula": "simplified_model = actual_system - ignored_details",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "simplified_model = actual_system - ignored_details",
+     "compute": "simplified_model = actual_system - ignored_details"
+    }
+   ],
    "questions": [
     {
-     "q": "What is a scientific model?",
-     "a": "A simplified picture of a real system that keeps its essential features and drops unimportant details so it can be studied easily.",
-     "self_check": true
+     "q": "For Scientific Modeling and Simplification: given actual_system = 20, ignored_details = 23, find simplified model.",
+     "a": "-3",
+     "self_check": false
     },
     {
-     "q": "Why do scientists use models although they are not exact?",
-     "a": "Models make complex systems manageable; predictions from a good model can be tested and the model improved.",
-     "self_check": true
+     "q": "For Scientific Modeling and Simplification: given actual_system = 73, ignored_details = 78, find simplified model.",
+     "a": "-5",
+     "self_check": false
     },
     {
-     "q": "Give one example of a model used in science.",
-     "a": "The ball-and-stick model of a molecule, or a model of the solar system - both simplify reality to show key relationships.",
-     "self_check": true
+     "q": "For Scientific Modeling and Simplification: given actual_system = 9.6, ignored_details = 38, find simplified model.",
+     "a": "-28.4",
+     "self_check": false
+    },
+    {
+     "q": "For Scientific Modeling and Simplification: given actual_system = 9.2, ignored_details = 50, find simplified model.",
+     "a": "-40.8",
+     "self_check": false
+    },
+    {
+     "q": "For Scientific Modeling and Simplification: given actual_system = 95, ignored_details = 67, find simplified model.",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "For Scientific Modeling and Simplification: given actual_system = 32, ignored_details = 11.1, find simplified model.",
+     "a": "20.9",
+     "self_check": false
     }
    ]
   },
   {
    "id": "iesc.101.2",
    "title": "Standard Units and International Standards",
-   "solution_type": "verify_property",
+   "converted_to_compute": true,
+   "formula": "standardized_value = numerical_value * standard_unit",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "standardized_value = numerical_value * standard_unit",
+     "compute": "standardized_value = numerical_value * standard_unit"
+    }
+   ],
    "questions": [
     {
-     "q": "What is a standard unit?",
-     "a": "A unit agreed upon internationally that never changes with place or person, like the metre or kilogram.",
-     "self_check": true
+     "q": "For Standard Units and International Standards: given numerical_value = 59, standard_unit = 34, find standardized value.",
+     "a": "2006",
+     "self_check": false
     },
     {
-     "q": "What does SI stand for and why was it adopted?",
-     "a": "Systeme International - a single accepted set of units so that measurements mean the same everywhere.",
-     "self_check": true
+     "q": "For Standard Units and International Standards: given numerical_value = 114, standard_unit = 40, find standardized value.",
+     "a": "4560",
+     "self_check": false
     },
     {
-     "q": "Name the SI units of length, mass and time.",
-     "a": "Metre (m), kilogram (kg) and second (s).",
-     "self_check": true
+     "q": "For Standard Units and International Standards: given numerical_value = 41, standard_unit = 37, find standardized value.",
+     "a": "1517",
+     "self_check": false
+    },
+    {
+     "q": "For Standard Units and International Standards: given numerical_value = 35, standard_unit = 43, find standardized value.",
+     "a": "1505",
+     "self_check": false
+    },
+    {
+     "q": "For Standard Units and International Standards: given numerical_value = 8.7, standard_unit = 66, find standardized value.",
+     "a": "574.2",
+     "self_check": false
+    },
+    {
+     "q": "For Standard Units and International Standards: given numerical_value = 73, standard_unit = 30, find standardized value.",
+     "a": "2190",
+     "self_check": false
     }
    ]
   },
   {
    "id": "iesc.101.3",
    "title": "Laws, Theories, and Principles",
-   "solution_type": "verify_property",
+   "converted_to_compute": true,
+   "formula": "scientific_framework = law + theory + principle",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "scientific_framework = law + theory + principle",
+     "compute": "scientific_framework = law + theory + principle"
+    }
+   ],
    "questions": [
     {
-     "q": "How does a scientific law differ from a theory?",
-     "a": "A law states what always happens (often as an equation); a theory explains why it happens and can be revised with new evidence.",
-     "self_check": true
+     "q": "For Laws, Theories, and Principles: given law = 94, theory = 40, principle = 93, find scientific framework.",
+     "a": "227",
+     "self_check": false
     },
     {
-     "q": "What makes a statement a scientific principle?",
-     "a": "It is a basic rule drawn from repeated experiments that holds without exception in its range, like Archimedes' principle.",
-     "self_check": true
+     "q": "For Laws, Theories, and Principles: given law = 31, theory = 99, principle = 96, find scientific framework.",
+     "a": "226",
+     "self_check": false
     },
     {
-     "q": "Can a theory be discarded? When?",
-     "a": "Yes - when new experiments show results the theory cannot explain, it is modified or replaced.",
-     "self_check": true
+     "q": "For Laws, Theories, and Principles: given law = 44, theory = 59, principle = 96, find scientific framework.",
+     "a": "199",
+     "self_check": false
+    },
+    {
+     "q": "For Laws, Theories, and Principles: given law = 12.1, theory = 7.6, principle = 58, find scientific framework.",
+     "a": "77.7",
+     "self_check": false
+    },
+    {
+     "q": "For Laws, Theories, and Principles: given law = 60, theory = 24, principle = 90, find scientific framework.",
+     "a": "174",
+     "self_check": false
+    },
+    {
+     "q": "For Laws, Theories, and Principles: given law = 28, theory = 49, principle = 82, find scientific framework.",
+     "a": "159",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.101.5",
+   "title": "Fermi Estimation and Approximate Reasoning",
+   "converted_to_compute": true,
+   "formula": "total_volume = breaths_per_minute * minutes_per_day * volume_per_breath",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_volume = breaths_per_minute * minutes_per_day * volume_per_breath",
+     "compute": "total_volume = breaths_per_minute * minutes_per_day * volume_per_breath"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Fermi Estimation and Approximate Reasoning: given breaths_per_minute = 17.8, minutes_per_day = 13.3, volume_per_breath = 54, find total volume.",
+     "a": "12784",
+     "self_check": false
+    },
+    {
+     "q": "For Fermi Estimation and Approximate Reasoning: given breaths_per_minute = 55, minutes_per_day = 40, volume_per_breath = 38, find total volume.",
+     "a": "83600",
+     "self_check": false
+    },
+    {
+     "q": "For Fermi Estimation and Approximate Reasoning: given breaths_per_minute = 9.3, minutes_per_day = 22, volume_per_breath = 79, find total volume.",
+     "a": "16163.4",
+     "self_check": false
+    },
+    {
+     "q": "For Fermi Estimation and Approximate Reasoning: given breaths_per_minute = 58, minutes_per_day = 75, volume_per_breath = 99, find total volume.",
+     "a": "430650",
+     "self_check": false
+    },
+    {
+     "q": "For Fermi Estimation and Approximate Reasoning: given breaths_per_minute = 62, minutes_per_day = 21, volume_per_breath = 87, find total volume.",
+     "a": "113274",
+     "self_check": false
+    },
+    {
+     "q": "For Fermi Estimation and Approximate Reasoning: given breaths_per_minute = 17.7, minutes_per_day = 56, volume_per_breath = 52, find total volume.",
+     "a": "51542.4",
+     "self_check": false
     }
    ]
   },
@@ -86,93 +208,6 @@
      "q": "Give an example of a testable prediction.",
      "a": "'If plants get more sunlight, they will grow taller in two weeks' - it names measurable quantities and can be checked.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "iesc.101.5",
-   "title": "Fermi Estimation and Approximate Reasoning",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "breaths_per_day",
-     "expr": "breaths_per_minute * minutes_per_day",
-     "explain": "total breaths in a full day"
-    },
-    {
-     "step": 2,
-     "name": "air_per_day",
-     "expr": "breaths_per_day * volume_per_breath",
-     "explain": "multiply by the volume taken in each breath"
-    },
-    {
-     "step": 3,
-     "name": "air_per_day_litres",
-     "expr": "air_per_day / 1000",
-     "explain": "convert millilitres to litres"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A person takes 15 breaths a minute, each of 500 mL. Estimate the air breathed per day.",
-     "vals": {
-      "breaths_per_minute": 15,
-      "minutes_per_day": 1440,
-      "volume_per_breath": 500
-     },
-     "unit": "L",
-     "steps": null,
-     "a": "10800 L",
-     "self_check": false
-    },
-    {
-     "q": "During exercise breathing rises to 30 per minute of 500 mL. Estimate the daily volume at this rate.",
-     "vals": {
-      "breaths_per_minute": 30,
-      "minutes_per_day": 1440,
-      "volume_per_breath": 500
-     },
-     "unit": "L",
-     "steps": null,
-     "a": "21600 L",
-     "self_check": false
-    },
-    {
-     "q": "A resting person breathes 12 times a minute of 400 mL each. Estimate the daily air volume.",
-     "vals": {
-      "breaths_per_minute": 12,
-      "minutes_per_day": 1440,
-      "volume_per_breath": 400
-     },
-     "unit": "L",
-     "steps": null,
-     "a": "6912 L",
-     "self_check": false
-    },
-    {
-     "q": "An athlete takes 20 breaths of 600 mL per minute. What is the estimated daily intake?",
-     "vals": {
-      "breaths_per_minute": 20,
-      "minutes_per_day": 1440,
-      "volume_per_breath": 600
-     },
-     "unit": "L",
-     "steps": null,
-     "a": "17280 L",
-     "self_check": false
-    },
-    {
-     "q": "A child breathes 18 times a minute of 300 mL. Estimate the child's daily air intake.",
-     "vals": {
-      "breaths_per_minute": 18,
-      "minutes_per_day": 1440,
-      "volume_per_breath": 300
-     },
-     "unit": "L",
-     "steps": null,
-     "a": "7776 L",
-     "self_check": false
     }
    ]
   }

@@ -42,9 +42,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "x = (27 - 9) / 3"
-   ]
+   "steps_chain": []
   },
   {
    "id": "am12_008.2",
@@ -87,9 +85,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = 3 + 9 + 2"
-   ]
+   "steps_chain": []
   },
   {
    "id": "am12_008.3",
@@ -177,9 +173,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 5 * 3 * 3 + 7 * 3 + 3"
-   ]
+   "steps_chain": []
   }
  ]
 }

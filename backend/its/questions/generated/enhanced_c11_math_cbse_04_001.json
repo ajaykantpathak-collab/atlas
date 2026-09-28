@@ -34,6 +34,36 @@
      "q": "Construct a statement P(n) about natural numbers that is true for n=1,2,3,4,5 but false for n=6, demonstrating why finite verification fails. Explain how mathematical induction would prevent accepting this false statement.",
      "a": "Correct answer: Example: P(n): \"n² - 7n + 13 is prime.\" True for n=1..5 (values: 7, 3, 1, 1, 3 — all prime if we consider 1 as prime, or adjust to n² - 5n + 7 giving 3, 1, 1, 3, 7). Better: P(n): \"n! < n³\" true for n=1..5, false at n=6 (720 > 216). Induction would fail at the inductive step when trying to prove P(5) ⇒ P(6), exposing the falsehood. A poor answer giving a statement false at n=1 or n=2 shows the student doesn't understand the requirement that base case must hold for the counterexample to illustrate the limitation of finite checking.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ induction is a deductive proof technique used to establish that a statement P(n) holds for every natural number n ∈ ℕ.",
+     "a": "Mathematical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ at the bottom of the infinite staircase of the Qutub Minar.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What is Mathematical induction? State the definition given in this lesson.",
+     "a": "Mathematical induction is a deductive proof technique used to establish that a statement P(n) holds for every natural number n ∈ ℕ.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You don't climb each step to check; instead, you prove two things: (______) You can step onto the first step (base case).",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Mathematical induction?",
+     "a": "Students treat the inductive hypothesis as \"P(k) is true for all k\" rather than \"P(k) is true for some arbitrary but fixed k\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can articulate the two-step structure of mathematical induction in their own words, correctly identify the base case and inductive hypothesis in a given proof framework, and explain why the \"domino effect\" analogy logically guarantees truth for all natural numbers without checking each case individually.",
+     "self_check": true
     }
    ]
   }

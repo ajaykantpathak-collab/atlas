@@ -34,6 +34,26 @@
      "q": "Design a conceptual experiment using diatomic molecules H₂, F₂, Cl₂, Br₂, I₂ to demonstrate the relationship between orbital overlap extent, bond length, and bond dissociation enthalpy. What trend would you expect and why?",
      "a": "Measure bond lengths (spectroscopy) and bond dissociation enthalpies for H₂ (74 pm, 436 kJ/mol), F₂ (144 pm, 159 kJ/mol), Cl₂ (199 pm, 242 kJ/mol), Br₂ (228 pm, 193 kJ/mol), I₂ (267 pm, 151 kJ/mol). Trend: as atomic size increases down group, orbital overlap extent decreases → bond length increases → bond enthalpy generally decreases (except F₂ anomaly due to lone pair repulsion). A poor answer (no trend, wrong direction, ignores F₂ anomaly) shows the student can't connect atomic size → overlap extent → macroscopic properties.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Valence Bond Theory explains covalent bond formation through the overlap of half-filled atomic orbitals ______ electrons with opposite spins, resulting in electron pairing and increased electron density between nuclei.",
+     "a": "containing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When two ______ atoms approach each other, you can observe that they form a stable H₂ molecule with bond length 74 pm and bond energy 435.8 kJ/mol.",
+     "a": "hydrogen",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking: why do two separate H atoms (each with ______s¹ electron) release energy when they combine?",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can predict bond type (σ/π) and relative bond strength from given orbital overlap diagrams, explain why simple atomic orbital overlap fails to predict molecular geometries (e.g., CH₄ tetrahedral angle 109.5° vs 90° from p-orbitals), and calculate bond order from σ/π bond count in diatomic and polyatomic molecules.",
+     "self_check": true
     }
    ]
   }

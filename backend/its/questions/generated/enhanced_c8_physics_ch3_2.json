@@ -34,6 +34,21 @@
      "q": "Design a simple activity using a marble, a ruler (as a ramp), and a flat notebook to demonstrate that a force can *decrease* the speed of an object. Describe the setup, what you do, and what you observe.",
      "a": "**Setup:** Place one end of the ruler on a stack of books to make a ramp. Lay the notebook flat on the table at the bottom.  \n**Action:** Release a marble from the top of the ramp. It rolls down (gravity speeds it up) and onto the notebook.  \n**Observation:** The marble slows down and stops on the notebook.  \n**Explanation:** The rough surface of the notebook exerts a friction force *opposite* to the marble's motion, decreasing its speed to zero. A poor answer (e.g., \"push the marble with your hand to stop it\") reveals the student cannot identify a *passive* force (friction) as the cause of decreasing speed and relies only on active pushes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A force acting on an object can change its speed: a force applied in the direction of motion ______ the speed, while a force applied opposite to the direction of motion decreases the speed.",
+     "a": "increases",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bicycle on the road: when you pedal, you push the pedals forward, applying a force in the ______ of motion, and the bicycle speeds up.",
+     "a": "direction",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can predict whether the speed of an object will increase, decrease, or remain unchanged based on the direction of the applied force relative to the motion, and can explain real-world examples like pedaling a bicycle (speed up) or applying brakes (slow down) using the concept of force direction.",
+     "self_check": true
     }
    ]
   }

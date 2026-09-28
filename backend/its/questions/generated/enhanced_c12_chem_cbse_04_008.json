@@ -34,6 +34,31 @@
      "q": "Design a qualitative test to distinguish between aqueous solutions of Eu²⁺ and Yb²⁺ using their redox behavior. Write the expected observations and balanced equations.",
      "a": "Add acidified KMnO₄ (purple) to each solution. Eu²⁺ (f⁷, strong reductant) reduces MnO₄⁻ to Mn²⁺ (colorless): 5Eu²⁺ + MnO₄⁻ + 8H⁺ → 5Eu³⁺ + Mn²⁺ + 4H₂O — purple decolorizes. Yb²⁺ (f¹⁴, also a reductant) reacts similarly: 5Yb²⁺ + MnO₄⁻ + 8H⁺ → 5Yb³⁺ + Mn²⁺ + 4H₂O. To distinguish, add a mild oxidant like I₂: Eu²⁺ reduces I₂ to I⁻ (brown → colorless), but Yb²⁺ does not (E°(Yb³⁺/Yb²⁺) ≈ -1.05 V vs E°(I₂/I⁻) = +0.54 V). A student using only KMnO₄ cannot distinguish them — they must know relative reducing strengths from standard potentials.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Lanthanoids are the 14 elements from cerium (Ce, Z=58) to lutetium (Lu, Z=71) in which the 4f subshell is ______ filled.",
+     "a": "progressively",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ lighter flint — it produces bright sparks when struck.",
+     "a": "mischmetal",
+     "self_check": true
+    },
+    {
+     "q": "What is Lanthanoids? State the definition given in this lesson.",
+     "a": "Lanthanoids are the 14 elements from cerium (Ce, Z=58) to lutetium (Lu, Z=71) in which the 4f subshell is progressively filled.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Lanthanoids?",
+     "a": "Students write the electronic configuration of lanthanoid atoms by filling 4f before 5d for all elements (e.g., Gd as [Xe] 4f⁸ 6s², Lu as [Xe] 4f¹⁴ 5d¹ 6s²).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) write the ground-state electronic configuration of any lanthanoid atom and its common +3 ion, (2) explain why +3 is the dominant oxidation state and identify which elements show +2 or +4 states based on f⁰, f⁷, f¹⁴ stability, and (3) calculate the spin-only magnetic moment of any Ln³⁺ ion from its number of unpaired.",
+     "self_check": true
     }
    ]
   }

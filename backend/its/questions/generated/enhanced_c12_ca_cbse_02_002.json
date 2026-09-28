@@ -34,6 +34,31 @@
      "q": "Design a data validation rule that prevents duplicate employee IDs in column A (A2:A500) and shows a custom error message \"Employee ID already exists\". Write the custom formula and explain each part.",
      "a": "Custom formula: =COUNTIF($A$2:$A$500, A2)=1\nExplanation: COUNTIF counts how many times the value in the current cell (A2) appears in the fixed range $A$2:$A$500. If count equals 1, entry is unique (TRUE); if >1, duplicate (FALSE) and error triggers. The absolute range ensures the same range is checked for every cell. A wrong answer (e.g., using relative range A2:A500) shows the student doesn't understand absolute references in validation formulas — a common board exam trap.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Data entry in ______ refers to the process of inputting, validating, and managing data (numbers, text, dates) into cells using techniques like fill handle, series fill, and importing from external text files; text management involves using functions such as TEXT and CONCATENATE to format and combine text strings; cell management includes applying data validation rules (drop-down lists, range limits, custom formulas) and using data entry forms to ensure accuracy and consistency.",
+     "a": "spreadsheets",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are maintaining a sales register for a small shop: every day you enter the date, ______ name, quantity sold, and price.",
+     "a": "product",
+     "self_check": true
+    },
+    {
+     "q": "What is Data entry in spreadsheets? State the definition given in this lesson.",
+     "a": "Data entry in spreadsheets refers to the process of inputting, validating, and managing data (numbers, text, dates) into cells using techniques like fill handle, series fill, and importing from external text files; text management involves using functions such as TEXT and CONCATENATE to format and combine text strings; cell management.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Data entry in spreadsheets?",
+     "a": "Students often think the TEXT function changes the underlying cell value.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Use fill handle and Fill Series to automatically populate sequences of numbers, dates, or text in a worksheet; (2) Import data from a CSV text file into Excel using the Get External Data feature; (3) Apply the TEXT function to format numbers as currency or custom strings and the CONCATENATE function to.",
+     "self_check": true
     }
    ]
   }

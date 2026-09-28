@@ -34,6 +34,36 @@
      "q": "Design a 3-question checklist a manager can use *before* implementing a new policy to test alignment with principles' significance while acknowledging limitations.",
      "a": "Sample checklist: (1) \"Does this policy use past data/insights to avoid trial-and-error? (Insights) — If no, what pilot can we run?\" (2) \"Will this policy allocate our scarcest resource (e.g., senior developer time) to highest-value use? (Optimum utilisation) — What metric will we track?\" (3) \"If conditions change (e.g., remote work becomes mandatory), can we adapt this policy without discarding it? (Contingency) — What trigger would prompt review?\" A poor checklist asks only \"Does it follow Fayol?\" showing the student treats principles as a compliance checklist rather than a thinking framework.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Principles of management are broad, general guidelines derived from managerial practice and ______ that establish cause-effect relationships to aid decision-making and behaviour in organisations; they are flexible, contingent, and primarily behavioural in nature, applicable across all types of organisations but not as rigid laws.",
+     "a": "experimentation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are appointed manager of a 50-person software startup where decisions are made on gut feeling — projects overrun, ______ duplicate work, and client complaints rise.",
+     "a": "developers",
+     "self_check": true
+    },
+    {
+     "q": "What is Principles of management? State the definition given in this lesson.",
+     "a": "Principles of management are broad, general guidelines derived from managerial practice and experimentation that establish cause-effect relationships to aid decision-making and behaviour in organisations; they are flexible, contingent, and primarily behavioural in nature, applicable across all types of organisations but not as rigid laws.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are appointed manager of a ______-person software startup where decisions are made on gut feeling — projects overrun, developers duplicate work, and client complaints rise.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Principles of management?",
+     "a": "Students memorise the six significance points as a list but believe principles *guarantee* those outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain all six significance points with original real-world examples, identify at least four limitations with reasoning, and apply the concepts to diagnose which significance points are upheld or violated in a given case study.",
+     "self_check": true
     }
    ]
   }

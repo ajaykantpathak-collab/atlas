@@ -34,6 +34,26 @@
      "q": "Create a scenario where a business owner needs information that can ONLY be obtained from the ledger, not the journal. Specify the accounts involved and the question the owner asks.",
      "a": "Scenario: On 31st March, the owner asks, \"What is the total amount receivable from all debtors combined, and what is the individual balance of our top 5 customers?\" The journal would require filtering and summing across hundreds of entries for multiple debtor accounts. The ledger provides each debtor's individual balance instantly, and the sum of all debtor balances gives total receivables. A poor answer gives a scenario answerable from a single journal entry (e.g., \"what was the sale to X on 15th March?\"), missing the need for account-wise aggregation over time.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ledger is the principal book of accounts in which all transactions from the journal are ______ posted to individual accounts, allowing the net effect of all transactions on a specific account (e.g., a customer's receivable or a supplier's payable) to be ascertained at any date.",
+     "a": "systematically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have recorded 50 ______ in your journal for the month.",
+     "a": "transactions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have recorded ______ transactions in your journal for the month.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why the ledger is necessary after journalising, identify the format of a ledger account (T-account with Dr./Cr. sides, Date, Particulars, J.F., Amount), and classify accounts as permanent (assets, liabilities, capital) or temporary (revenues, expenses) for financial statement preparation.",
+     "self_check": true
     }
    ]
   }

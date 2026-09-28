@@ -34,6 +34,31 @@
      "q": "Design a simple field experiment to test whether a newly discovered flowering plant species relies primarily on dichogamy or herkogamy for outbreeding. Specify the observations you would record and the expected outcomes for each mechanism.",
      "a": "Tag 20 flowers at bud stage. Record daily: (a) time of anther dehiscence, (b) time of stigma receptivity (using H2O2 test for peroxidase activity), (c) spatial distance between anthers and stigma. If anther dehiscence and stigma receptivity occur at different times but spatial distance is minimal → dichogamy. If they overlap in time but anthers and stigma are physically separated (e.g., stigma above anthers) → herkogamy. A poor design that only measures seed set after bagging vs. open pollination cannot distinguish between the two mechanisms.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ devices are structural, temporal, biochemical, or genetic mechanisms in flowering plants that prevent self-pollination and promote cross-pollination, thereby increasing genetic diversity.",
+     "a": "Outbreeding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a mustard field in Punjab where a farmer notices that isolated plants ______ very few seeds, but plants growing in dense patches set abundant pods.",
+     "a": "produce",
+     "self_check": true
+    },
+    {
+     "q": "What is Outbreeding devices? State the definition given in this lesson.",
+     "a": "Outbreeding devices are structural, temporal, biochemical, or genetic mechanisms in flowering plants that prevent self-pollination and promote cross-pollination, thereby increasing genetic diversity.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Outbreeding devices?",
+     "a": "Students often think \"outbreeding devices\" and \"pollination agents\" are the same thing.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) list and explain the four major categories of outbreeding devices with at least one plant example for each, (2) distinguish between protandry and protogyny as types of dichogamy, (3) describe the genetic basis of self-incompatibility (sporophytic vs gametophytic), and (4) explain how these devices collectively ensure.",
+     "self_check": true
     }
    ]
   }

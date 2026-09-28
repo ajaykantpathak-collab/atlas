@@ -34,6 +34,31 @@
      "q": "Design a thought experiment: If you could vary the accelerating voltage continuously in a Davisson-Germer setup and plot the intensity of scattered electrons at a fixed angle \\(\\theta = 50^\\circ\\) versus voltage \\(V\\), what would the graph look like? Explain the physical origin of the peaks and their spacing. (Assume \\(d = 0.91 \\, \\text{Å}\\), \\(n=1\\).)",
      "a": "The graph would show sharp peaks at voltages satisfying \\(h/\\sqrt{2meV} = 2d \\sin\\theta\\). As \\(V\\) increases, \\(\\lambda\\) decreases, so the Bragg condition is met at discrete voltages. Peaks occur when \\(\\sqrt{V} \\propto 1/\\lambda \\propto n\\), so \\(V \\propto 1/n^2\\). The peaks get closer at higher \\(V\\). A poor answer (e.g., \"a straight line\") reveals failure to connect the voltage-wavelength relationship to the Bragg condition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Davisson-Germer experiment (1927) demonstrated the wave nature of electrons by observing ______ patterns when a beam of electrons is scattered off a single crystal of nickel.",
+     "a": "diffraction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you shine a laser through a fine mesh and see a ______ pattern on a wall — that's light behaving as a wave.",
+     "a": "diffraction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Davisson-Germer experiment (______) demonstrated the wave nature of electrons by observing diffraction patterns when a beam of electrons is scattered off a single crystal of nickel.",
+     "a": "1927",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) describe the experimental setup and the role of each component (electron gun, nickel crystal, detector), (2) apply Bragg's law to relate the observed diffraction angle to the electron wavelength, (3) calculate the de Broglie wavelength from the accelerating voltage and verify the agreement with the Bragg.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Davisson-Germer experiment (1927) ______ the wave nature of electrons by observing diffraction patterns when a beam of electrons is scattered off a single crystal of nickel.",
+     "a": "demonstrated",
+     "self_check": true
     }
    ]
   }

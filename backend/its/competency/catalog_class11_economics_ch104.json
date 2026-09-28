@@ -44,7 +44,7 @@
     "describe the bronze casting process",
     "Explain lost wax casting technique in your own words."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -56,7 +56,16 @@
      "action": "Describe the process",
      "explain": "A wax model is created, covered in clay, and melted out to leave a cavity for molten metal."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "final_bronze = (copper + zinc + tin) / mold_process",
+     "compute": "final_bronze = (copper + zinc + tin) / mold_process"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keks.104.3",
@@ -73,14 +82,23 @@
     "what is a valabhi type temple?",
     "Explain nagara temple architecture in your own words."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
      "action": "Classify shikhara types",
      "explain": "Latina (curving), Phamsana (sloping/straight), and Valabhi (vaulted)."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "nagara_structure = platform + garbhagriha + shikhara",
+     "compute": "nagara_structure = platform + garbhagriha + shikhara"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keks.104.4",
@@ -97,14 +115,23 @@
     "identify key features of Chola temple architecture",
     "Explain dravida temple architecture in your own words."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
      "action": "Contrast with Nagara",
      "explain": "Dravida uses compound walls and stepped pyramids, unlike the curved Nagara shikhara."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "dravida_temple = compound_wall + gopuram + stepped_vimana",
+     "compute": "dravida_temple = compound_wall + gopuram + stepped_vimana"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

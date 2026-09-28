@@ -34,6 +34,31 @@
      "q": "Design a classification flowchart for internal trade that starts with \"Internal Trade\" and branches into all categories and sub-categories mentioned in NCERT Chapter 10 (including types of retailers up to the level of detail in this chapter). Your flowchart must show the hierarchy and mutually exclusive categories.",
      "a": "A correct flowchart shows:\nInternal Trade → (1) Wholesale Trade; (2) Retail Trade → (a) Itinerant Retailers → (i) Peddlers/Hawkers, (ii) Market Traders, (iii) Street Traders, (iv) Cheap Jacks; (b) Fixed Shop Retailers → (i) Small: General Stores, Specialty Shops, Street Stalls, Second-hand Goods Shops; (ii) Large: Departmental Stores, Chain Stores, Mail Order Houses, Consumer Cooperatives, Supermarkets, Vending Machines.\nA poor answer merges categories (e.g., putting \"supermarket\" under \"itinerant\") or misses levels, revealing the student hasn't grasped the classification logic based on fixed vs mobile, then size, then merchandise/ownership.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Internal trade refers to the buying and selling of goods and services within the ______ boundaries of a nation, where no custom duty or import duty is levied because goods are part of domestic production meant for domestic consumption, and it operates through two main channels: wholesale trade (large quantities for resale or intermediate use) and retail trade (small quantities to ultimate consumers).",
+     "a": "geographical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you walk into your ______ kirana store to buy a packet of biscuits — that biscuit was manufactured in a factory in Gujarat, transported to a wholesaler in Delhi, then to your local retailer, and finally to you.",
+     "a": "neighbourhood",
+     "self_check": true
+    },
+    {
+     "q": "What is Internal trade? State the definition given in this lesson.",
+     "a": "Internal trade refers to the buying and selling of goods and services within the geographical boundaries of a nation, where no custom duty or import duty is levied because goods are part of domestic production meant for domestic consumption, and it operates through two main channels: wholesale trade (large quantities for resale or.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Internal trade?",
+     "a": "Students believe \"internal trade = local trade within a city/state\" and \"external trade = trade between states.\" They confuse political boundaries (national vs sub-national) with the textbook's definition based on national borders.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can accurately classify any given trade scenario as internal or external trade, distinguish between wholesale and retail trade using quantity, purpose, and target customer criteria, and explain the role of intermediaries in creating time, place, and possession utility with at least three specific examples from Indian markets.",
+     "self_check": true
     }
    ]
   }

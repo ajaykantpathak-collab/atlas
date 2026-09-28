@@ -34,6 +34,26 @@
      "q": "Design a low-cost classroom demonstration using a single light source, a globe, and a small ball to show why lunar eclipses are visible from the entire night side of Earth, while solar eclipses are visible only from a narrow path.",
      "a": "A good answer: Place the light (Sun) several meters away. The globe (Earth) casts a long shadow cone. The small ball (Moon) enters this cone — the entire night side of the globe sees the ball in shadow simultaneously. For solar eclipse, swap roles: the small ball casts a tiny shadow on the globe — only a small region experiences totality. A poor answer uses the same geometry for both or does not address the shadow size difference, indicating failure to scale the model correctly.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A lunar eclipse occurs when the Earth comes ______ between the Sun and the Moon, casting its shadow on the Moon's surface.",
+     "a": "directly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine watching a ______ Full Moon slowly dim and turn a deep coppery red — like the \"Blood Moon\" seen from your terrace in Delhi last year.",
+     "a": "bright",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can draw a scaled diagram showing the Sun-Earth-Moon alignment during a lunar eclipse, correctly label the umbra and penumbra, explain why the Moon appears reddish during totality using Rayleigh scattering, and justify why lunar eclipses do not occur every full moon by referencing the 5° orbital inclination.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine ______ a bright Full Moon slowly dim and turn a deep coppery red — like the \"Blood Moon\" seen from your terrace in Delhi last year.",
+     "a": "watching",
+     "self_check": true
     }
    ]
   }

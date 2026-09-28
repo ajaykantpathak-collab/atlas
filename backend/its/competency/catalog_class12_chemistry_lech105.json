@@ -1,575 +1,593 @@
 {
-  "class": 12,
-  "subject": "chemistry",
-  "chapter": 5,
-  "chapter_title": "Coordination Compounds",
-  "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lech105.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "concepts": [
+ "class": 12,
+ "subject": "chemistry",
+ "chapter": 5,
+ "chapter_title": "Coordination Compounds",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lech105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lech.05.5.1.1",
+   "title": "Werner's Theory of Coordination Compounds",
+   "section": "5.1",
+   "definition": "Metals in these compounds exercise two kinds of linkage: an ionisable primary valence met by negative ions, and a fixed non-ionisable secondary valence met by neutral or negative groups, whose count equals the coordination number and dictates the geometry.",
+   "formula": "secondary valences = groups bonded to the metal = coordination number",
+   "key_idea": "Silver nitrate pulls out only the chloride sitting outside the brackets: one mole of the yellow ammine gives three moles of AgCl, the purple one two, the green and violet ones one each, proving six groups stay locked to cobalt in every case.",
+   "textbook_ref": "lech105.txt, Section 5.1, Table 5.1 and Example 5.1",
+   "question_patterns": [
+    "explain the bonding in coordination compounds using Werner's primary and secondary valences",
+    "how many moles of silver chloride precipitate per mole of CoCl3.6NH3 with excess silver nitrate and why",
+    "state the postulates of Werner's theory with the cobalt ammine chlorides as evidence",
+    "assign the secondary valence of the metal from the moles of AgCl thrown down",
+    "which chloride ions in a cobalt ammine chloride are ionisable and which are not",
+    "what spatial arrangements did Werner connect with different coordination numbers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
     {
-      "id": "lech.05.5.1.1",
-      "title": "Werner's Theory of Coordination Compounds",
-      "section": "5.1",
-      "definition": "Metals in these compounds exercise two kinds of linkage: an ionisable primary valence met by negative ions, and a fixed non-ionisable secondary valence met by neutral or negative groups, whose count equals the coordination number and dictates the geometry.",
-      "formula": "secondary valences = groups bonded to the metal = coordination number",
-      "key_idea": "Silver nitrate pulls out only the chloride sitting outside the brackets: one mole of the yellow ammine gives three moles of AgCl, the purple one two, the green and violet ones one each, proving six groups stay locked to cobalt in every case.",
-      "textbook_ref": "lech105.txt, Section 5.1, Table 5.1 and Example 5.1",
-      "question_patterns": [
-        "explain the bonding in coordination compounds using Werner's primary and secondary valences",
-        "how many moles of silver chloride precipitate per mole of CoCl3.6NH3 with excess silver nitrate and why",
-        "state the postulates of Werner's theory with the cobalt ammine chlorides as evidence",
-        "assign the secondary valence of the metal from the moles of AgCl thrown down",
-        "which chloride ions in a cobalt ammine chloride are ionisable and which are not",
-        "what spatial arrangements did Werner connect with different coordination numbers"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Count the chloride precipitated by excess AgNO3",
-          "explain": "Each mole of AgCl marks one ionisable primary valence sitting outside the brackets."
-        },
-        {
-          "step": 2,
-          "action": "Deduct from the total chloride to get the bound groups",
-          "explain": "Cobalt(III) holds six secondary valences in all four ammine complexes."
-        },
-        {
-          "step": 3,
-          "action": "Write the formulation inside square brackets",
-          "explain": "Groups within the brackets form one non-dissociating coordination entity, the modern complex."
-        }
-      ]
+     "step": 1,
+     "action": "Count the chloride precipitated by excess AgNO3",
+     "explain": "Each mole of AgCl marks one ionisable primary valence sitting outside the brackets."
     },
     {
-      "id": "lech.05.5.1.2",
-      "title": "Double Salts versus Coordination Complexes",
-      "section": "5.1",
-      "definition": "Both are stoichiometric blends of two stable salts, but a double salt falls apart completely into its simple ions in water while a complex keeps its bracketed ion intact and so escapes the tests of its parent ions.",
-      "formula": "double salt dissociates fully in water; complex ion stays undissociated",
-      "key_idea": "Mohr's salt answers to a Fe2+ test because it breaks up, but K4[Fe(CN)6] never releases Fe2+ or cyanide since the hexacyanidoferrate(II) ion holds together in solution.",
-      "textbook_ref": "lech105.txt, Section 5.1, difference between double salt and complex",
-      "question_patterns": [
-        "distinguish a double salt from a coordination compound with one example of each",
-        "why does Mohr's salt give the Fe2+ test but potassium ferrocyanide does not",
-        "what happens to potash alum and to K4[Fe(CN)6] when each dissolves in water",
-        "explain why CuSO4 mixed with ammonia in a one to four ratio fails the Cu2+ test",
-        "state the key behavioural difference between carnallite in water and a complex salt in water",
-        "how does the bracketed portion of a complex formula behave in solution"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Ask whether the dissolved species are simple ions",
-          "explain": "Double salts release every constituent ion; complexes keep the bracketed entity whole."
-        },
-        {
-          "step": 2,
-          "action": "Predict the outcome of the ion's characteristic test",
-          "explain": "Only free ions answer spot tests, so a complex hides its metal from the usual reagent."
-        }
-      ]
+     "step": 2,
+     "action": "Deduct from the total chloride to get the bound groups",
+     "explain": "Cobalt(III) holds six secondary valences in all four ammine complexes."
     },
     {
-      "id": "lech.05.5.2.1",
-      "title": "Ligands, Denticity and Chelation",
-      "section": "5.2",
-      "definition": "The ions or molecules donating electron pairs to the metal are ligands; they hook on through one donor atom (unidentate), two (didentate), many (polydentate), sometimes through either of two different atoms (ambidentate), and multi-point binding of one ligand builds especially stable chelate rings.",
-      "formula": "denticity = number of donor atoms a single ligand uses on one metal",
-      "key_idea": "Ethane-1,2-diamine and oxalate grip through two atoms, EDTA through six; nitrite and thiocyanate can switch donor atom, and the loop a polydentate ligand wraps around the metal explains why chelate complexes outlast their unidentate analogues.",
-      "textbook_ref": "lech105.txt, Section 5.2 item (c), ligands and chelates",
-      "question_patterns": [
-        "define unidentate, didentate and ambidentate ligands with two examples of each",
-        "why are chelate complexes more stable than the corresponding complexes of unidentate ligands",
-        "how many donor atoms does EDTA use when it binds a metal ion and what denticity is that",
-        "identify the donor atoms through which NO2 minus and SCN minus can each attach to a metal",
-        "what is meant by the term chelate ligand and give a familiar example",
-        "classify ethane-1,2-diamine, oxalate, chloride and water by their ligand type"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Count the donor atoms on the ligand",
-          "explain": "One donor gives unidentate (Cl minus, water, ammonia); two give didentate (en, oxalate)."
-        },
-        {
-          "step": 2,
-          "action": "Check for alternative donor atoms",
-          "explain": "Nitrite can bind via N or O and thiocyanate via N or S, making them ambidentate."
-        },
-        {
-          "step": 3,
-          "action": "Judge chelation and stability",
-          "explain": "Simultaneous multi-point grip on one metal forms a ring and stabilises the complex."
-        }
-      ]
-    },
-    {
-      "id": "lech.05.5.2.2",
-      "title": "Coordination Number, Sphere, Polyhedron and Related Terms",
-      "section": "5.2",
-      "definition": "The vocabulary of the field: the central atom or ion sits at the centre of a bracketed coordination sphere, the directly bonded donor atoms set its coordination number, their spatial layout forms the coordination polyhedron, and one or several ligand kinds mark the complex as homoleptic or heteroleptic.",
-      "formula": "coordination number = sigma bonds from ligand donor atoms to the central metal",
-      "key_idea": "Only sigma bonds count towards the coordination number, pi bonding is ignored; octahedral, tetrahedral and square planar are the everyday polyhedra, as in hexaamminecobalt(III), tetracarbonylnickel(0) and tetrachloridoplatinate(II).",
-      "textbook_ref": "lech105.txt, Section 5.2 items (a,b,d,e,f,h)",
-      "question_patterns": [
-        "define coordination entity, central atom and coordination number with two examples each",
-        "distinguish homoleptic and heteroleptic complexes giving one example of each kind",
-        "what is the coordination sphere and which ions sit outside it as counter ions",
-        "name the common coordination polyhedra and match one complex to each shape",
-        "why are pi bonds between ligand and metal excluded from the coordination number",
-        "identify the central metal ion in [NiCl2(H2O)4] and [Fe(CN)6] 3 minus"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Locate the bracketed entity and its centre",
-          "explain": "Inside the brackets the metal anchors the sphere; outside sit the ionisable counter ions."
-        },
-        {
-          "step": 2,
-          "action": "Count direct sigma bonds for the coordination number",
-          "explain": "Six chlorides give platinum six; three didentate oxalates also give iron six."
-        },
-        {
-          "step": 3,
-          "action": "Read off the polyhedron and ligand variety",
-          "explain": "Arrangement names the shape; a single ligand kind is homoleptic, a mixture heteroleptic."
-        }
-      ]
-    },
-    {
-      "id": "lech.05.5.2.3",
-      "title": "Oxidation Number of the Central Metal",
-      "section": "5.2",
-      "definition": "The charge the metal would keep if every ligand departed with its shared electron pair; it follows from the complex charge minus the summed ligand charges and is written as a Roman numeral after the name.",
-      "formula": "ox_state = complex_charge - total_ligand_charge",
-      "key_idea": "Neutral ligands add nothing, halides and cyanide carry minus one each, oxalate minus two; in [Co(H2O)(CN)(en)2] 2+ the metal lands at plus three, and in [PtCl4] 2- at plus two.",
-      "textbook_ref": "lech105.txt, Section 5.2 item (g) and Exercise 5.5",
-      "question_patterns": [
-        "specify the oxidation number of the metal in the coordination entity [Co(H2O)(CN)(en)2] 2+",
-        "find the oxidation state of platinum in [PtCl4] 2 minus and of cobalt in [CoBr2(en)2]+",
-        "determine the oxidation number of iron in K3[Fe(CN)6] and chromium in [Cr(NH3)3Cl3]",
-        "what charge does the central metal carry once all ligands are removed with their electron pairs",
-        "calculate the metal oxidation state from the complex charge and the ligand charges",
-        "assign the Roman numeral oxidation state used in the IUPAC name of a given complex"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Total the charges carried by all ligands",
-          "explain": "Count each ligand type: one cyanide at minus one plus three neutral ligands at zero gives minus one in the cobalt entity.",
-          "compute": "total_ligand_charge = n_ligand_a * charge_ligand_a + n_ligand_b * charge_ligand_b"
-        },
-        {
-          "step": 2,
-          "action": "Subtract the ligand sum from the complex charge",
-          "explain": "Plus two minus minus one leaves plus three for cobalt; the same arithmetic puts platinum at plus two in the tetrachloro anion.",
-          "compute": "ox_state = complex_charge - total_ligand_charge"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Oxidation Number of the Central Metal, compute the result for n_ligand_a = 3, charge_ligand_a = 3, n_ligand_b = 3, charge_ligand_b = 2, complex_charge = 2.",
-          "solution": "Step 1: Total the charges carried by all ligands: total_ligand_charge = n_ligand_a * charge_ligand_a + n_ligand_b * charge_ligand_b = 15.0 Step 2: Subtract the ligand sum from the complex charge: ox_state = complex_charge - total_ligand_charge = -13.0 Final result: -13.0",
-          "answer": "-13.0"
-        },
-        {
-          "question": "Using Oxidation Number of the Central Metal, compute the result for n_ligand_a = 4, charge_ligand_a = 4, n_ligand_b = 4, charge_ligand_b = 3, complex_charge = 3.",
-          "solution": "Step 1: Total the charges carried by all ligands: total_ligand_charge = n_ligand_a * charge_ligand_a + n_ligand_b * charge_ligand_b = 28.0 Step 2: Subtract the ligand sum from the complex charge: ox_state = complex_charge - total_ligand_charge = -25.0 Final result: -25.0",
-          "answer": "-25.0"
-        }
-      ]
-    },
-    {
-      "id": "lech.05.5.2.4",
-      "title": "Coordination Number from Ligand Counts and Denticity",
-      "section": "5.2",
-      "definition": "Each ligand contributes as many metal bonds as donor atoms it uses, so the coordination number is the count of every ligand type multiplied by its denticity, added across all ligands present.",
-      "formula": "cn_total = n_lig_a * dent_a + n_lig_b * dent_b",
-      "key_idea": "Six chlorides give platinum six; three didentate ethane-1,2-diamines still give cobalt six, and three oxalates likewise give iron six even though only three ligands are bound.",
-      "textbook_ref": "lech105.txt, Section 5.2 item (d), coordination number examples",
-      "question_patterns": [
-        "find the coordination number of cobalt in the tris(ethane-1,2-diamine) complex",
-        "what is the coordination number of iron when three oxalate ligands are bound",
-        "calculate the coordination number of the metal from the number and denticity of its ligands",
-        "why do [Fe(C2O4)3] 3 minus and [Co(en)3] 3 plus both show a coordination number of six",
-        "how many donor atoms reach the metal in a complex mixing unidentate and didentate ligands",
-        "work out the metal's coordination number for the stated formula of a complex ion"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Multiply each ligand count by the donor atoms that ligand uses",
-          "explain": "Three en ligands each contributing two donors give six contact points.",
-          "compute": "donor_contacts = n_lig_a * dent_a"
-        },
-        {
-          "step": 2,
-          "action": "Add the contributions of the remaining ligand types",
-          "explain": "Adding the neutral ligands' share finishes the coordination number; three didentates alone total six.",
-          "compute": "cn_total = donor_contacts + n_lig_b * dent_b"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Coordination Number from Ligand Counts and Denticity, compute the result for n_lig_a = 3, dent_a = 3, n_lig_b = 3, dent_b = 2.",
-          "solution": "Step 1: Multiply each ligand count by the donor atoms that ligand uses: donor_contacts = n_lig_a * dent_a = 9.0 Step 2: Add the contributions of the remaining ligand types: cn_total = donor_contacts + n_lig_b * dent_b = 15.0 Final result: 15.0",
-          "answer": "15.0"
-        },
-        {
-          "question": "Using Coordination Number from Ligand Counts and Denticity, compute the result for n_lig_a = 4, dent_a = 4, n_lig_b = 4, dent_b = 3.",
-          "solution": "Step 1: Multiply each ligand count by the donor atoms that ligand uses: donor_contacts = n_lig_a * dent_a = 16.0 Step 2: Add the contributions of the remaining ligand types: cn_total = donor_contacts + n_lig_b * dent_b = 28.0 Final result: 28.0",
-          "answer": "28.0"
-        }
-      ]
-    },
-    {
-      "id": "lech.05.5.3.1",
-      "title": "Writing Formulas of Coordination Entities",
-      "section": "5.3.1",
-      "definition": "Formula rules: the central atom leads, ligands follow in alphabetical order ignoring charge, polydentates sit by their abbreviation's first letter, the whole entity is bracketed with its charge as an outside superscript, and counter ions balance the charge.",
-      "formula": "formula order = central atom, then ligands alphabetically, inside square brackets",
-      "key_idea": "Tetraammineaquachloridocobalt(III) chloride is written [Co(NH3)4(H2O)Cl]Cl2: cobalt first, then ammine, aqua and chlorido alphabetically, all inside brackets with two chlorides outside balancing the plus two entity.",
-      "textbook_ref": "lech105.txt, Section 5.3.1 rules and Intext Question 5.1",
-      "question_patterns": [
-        "write the formula of tetraamminediaquacobalt(III) chloride",
-        "give the formula for potassium tetracyanidonickelate(II)",
-        "how is the formula of tris(ethane-1,2-diamine)chromium(III) chloride written",
-        "write the formula of dichloridobis(ethane-1,2-diamine)platinum(IV) nitrate",
-        "in what order do the central atom and ligands appear inside the bracket of a complex formula",
-        "where does the charge of a bare coordination entity go when no counter ion is written"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Place the central atom first inside the brackets",
-          "explain": "The metal symbol opens the entity in every formula."
-        },
-        {
-          "step": 2,
-          "action": "Alphabetise the ligands by name or abbreviation",
-          "explain": "Ammine precedes aqua which precedes chlorido; en is filed under e."
-        },
-        {
-          "step": 3,
-          "action": "Close the bracket, set the charge, balance with counter ions",
-          "explain": "The outside chloride or nitrate count is fixed by the entity's charge."
-        }
-      ]
-    },
-    {
-      "id": "lech.05.5.3.2",
-      "title": "IUPAC Naming of Coordination Compounds",
-      "section": "5.3.2",
-      "definition": "Naming rules: the cation comes first, ligands are named alphabetically before the metal, anionic ligands take the -o ending, multiplying prefixes count the ligands, a Roman numeral gives the metal's oxidation state, and the metal of an anionic complex ends in -ate.",
-      "formula": "name order = cation, ligands alphabetically, metal with oxidation numeral",
-      "key_idea": "K3[Fe(CN)6] reads potassium hexacyanidoferrate(III): the anion's iron becomes ferrate, while [Co(NH3)6]Cl3 simply reads hexaamminecobalt(III) chloride with the cation's metal unchanged.",
-      "textbook_ref": "lech105.txt, Section 5.3.2, Examples 5.2-5.3 and Intext Question 5.2",
-      "question_patterns": [
-        "write the IUPAC name of [Co(NH3)6]Cl3",
-        "give the systematic name of K3[Fe(C2O4)3] and of K2[PdCl4]",
-        "name [Co(NH3)5Cl]Cl2 using IUPAC norms",
-        "why does iron become ferrate in the name of a complex anion",
-        "name the entity [Pt(NH3)2Cl(NH2CH3)]Cl following IUPAC rules",
-        "how are prefixes bis and tris used when a ligand name already carries a number"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Name the counter ion or cation first",
-          "explain": "Potassium opens the names of the ferrocyanide and oxalato salts."
-        },
-        {
-          "step": 2,
-          "action": "List ligand names alphabetically with multiplying prefixes",
-          "explain": "Hexaammine, dichlorido, bis(ethane-1,2-diamine) are typical built-up prefixes."
-        },
-        {
-          "step": 3,
-          "action": "Close with the metal and its oxidation numeral",
-          "explain": "Cationic metals keep their names; anionic ones take -ate, as ferrate or cobaltate."
-        }
-      ]
-    },
-    {
-      "id": "lech.05.5.4.1",
-      "title": "Structural Isomerism in Coordination Compounds",
-      "section": "5.4",
-      "definition": "Isomers sharing one formula but not one bonding pattern: an ambidentate ligand can switch its binding atom (linkage), ligands can swap between the cationic and anionic metal centres (coordination), a counter ion can trade places with a ligand inside the sphere (ionisation), and solvent molecules can sit inside or outside the bracket (solvate).",
-      "formula": "structural isomers = same formula, different bond connectivity",
-      "key_idea": "The red and yellow forms of the pentammine cobalt nitrite differ only in O-bound versus N-bound nitrite, while [Co(NH3)5(SO4)]Br and [Co(NH3)5Br]SO4 answer different reagents because bromide and sulphate exchange roles.",
-      "textbook_ref": "lech105.txt, Sections 5.4.3-5.4.6 and Intext Question 5.4",
-      "question_patterns": [
-        "distinguish linkage, coordination, ionisation and solvate isomerism with one example of each",
-        "why do [Co(NH3)5SO4]Br and [Co(NH3)5Br]SO4 react differently with barium and silver ions",
-        "how does the nitrite ligand produce red and yellow forms of the same cobalt complex",
-        "what interchanges between the two metal centres in the coordination isomers of [Co(NH3)6][Cr(CN)6]",
-        "define hydrate isomerism and quote the violet and grey-green chromium aqua examples",
-        "identify the type of isomerism shown by a pair of complexes of stated formula"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Check which atom of an ambidentate ligand is bound",
-          "explain": "N-bound versus O-bound nitrite or N versus S thiocyanate gives linkage isomers."
-        },
-        {
-          "step": 2,
-          "action": "Compare which ions sit inside versus outside the brackets",
-          "explain": "A swapped counter ion changes what the solution releases, marking ionisation isomers."
-        },
-        {
-          "step": 3,
-          "action": "Look for ligand exchange between two metal centres or solvent shifts",
-          "explain": "Coordination isomers move ligands across the two spheres; solvate isomers move solvent in and out of bonding."
-        }
-      ]
-    },
-    {
-      "id": "lech.05.5.4.2",
-      "title": "Geometrical and Optical Isomerism",
-      "section": "5.4.1",
-      "definition": "Stereoisomers keep every bond but rearrange it in space: two like ligands may sit adjacent or opposite (cis and trans), three pairs may crowd one octahedral face or straddle a meridian (fac and mer), and some arrangements are non-superimposable mirror images that rotate polarised light (d and l forms).",
-      "formula": "stereoisomers = same bonds, different spatial arrangement",
-      "key_idea": "Square planar [MX2L2] gives cis and trans but tetrahedral geometry gives none; octahedral [Ma3b3] splits into fac and mer, and only the cis form of [PtCl2(en)2] 2+ is chiral while tris(oxalato) and tris(en) complexes carry mirror-image pairs.",
-      "textbook_ref": "lech105.txt, Sections 5.4.1-5.4.2, Figs. 5.2-5.7 and Examples 5.4-5.6",
-      "question_patterns": [
-        "draw the cis and trans isomers of a square planar complex of the type platinum ammine chloride",
-        "how many geometrical isomers does [Co(NH3)3Cl3] show and what are fac and mer forms",
-        "why is geometrical isomerism absent in tetrahedral complexes with two ligand types",
-        "which isomer of [PtCl2(en)2] 2 plus is optically active and why",
-        "define enantiomers and chirality using the d and l forms of [Co(en)3] 3 plus",
-        "state whether cis or trans [CrCl2(ox)2] 3 minus is chiral"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Fix the geometry and ligand set",
-          "explain": "Coordination number and ligand kinds decide whether cis/trans or fac/mer arrangements exist."
-        },
-        {
-          "step": 2,
-          "action": "Test mirror-image superimposability",
-          "explain": "A non-superimposable mirror image marks a chiral, optically active isomer with d and l forms."
-        },
-        {
-          "step": 3,
-          "action": "Count and name the isomers",
-          "explain": "Square planar gives cis plus trans; octahedral MX2L4 gives cis and trans, Ma3b3 gives fac and mer."
-        }
-      ]
-    },
-    {
-      "id": "lech.05.5.5.1",
-      "title": "Valence Bond Theory: Hybridisation, Inner and Outer Orbitals",
-      "section": "5.5.1",
-      "definition": "Ligand lone pairs drop into empty hybrid orbitals the metal builds from its d, s and p sets: inner orbital complexes spend two inner d orbitals (d2sp3, low spin, paired) while outer orbital ones borrow 4d space (sp3d2, high spin, unpaired), and the magnetic readout then fixes the geometry.",
-      "formula": "inner orbital = d2sp3 low spin; outer orbital = sp3d2 high spin",
-      "key_idea": "Hexaamminecobalt(III) pairs its six d electrons to free two 3d orbitals and is diamagnetic, while hexafluorocobaltate(III) keeps four unpaired electrons in 4d-based hybrids; nickel(II) shows both faces, square planar dsp2 with cyanide but tetrahedral sp3 paramagnetic with chloride.",
-      "textbook_ref": "lech105.txt, Sections 5.5.1-5.5.3, Table 5.2, Examples and Intext 5.5-5.9",
-      "question_patterns": [
-        "explain on the basis of valence bond theory why [Ni(CN)4] 2 minus is diamagnetic but [NiCl4] 2 minus is paramagnetic",
-        "why is [Co(NH3)6] 3 plus an inner orbital complex while [Ni(NH3)6] 2 plus is an outer orbital complex",
-        "predict the hybridisation and geometry of a complex from its magnetic moment",
-        "distinguish low spin and high spin octahedral complexes using d2sp3 and sp3d2",
-        "what are the main limitations of valence bond theory for coordination compounds",
-        "use the spin only moment of 5.9 BM to decide whether the four coordinate manganese complex is tetrahedral"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Write the metal ion's d count",
-          "explain": "Cobalt(III) is d6, nickel(II) is d8 in the cited complexes."
-        },
-        {
-          "step": 2,
-          "action": "Ask whether the ligand can force pairing",
-          "explain": "Strong ligands like cyanide and ammonia pair the electrons, freeing inner d orbitals for d2sp3."
-        },
-        {
-          "step": 3,
-          "action": "Link hybridisation to geometry and magnetism",
-          "explain": "dsp2 gives square planar diamagnetic, sp3 gives tetrahedral paramagnetic, and the unpaired count from the moment confirms the choice."
-        }
-      ]
-    },
-    {
-      "id": "lech.05.5.5.2",
-      "title": "Crystal Field Theory: Splitting, Spectrochemical Series and Colour",
-      "section": "5.5.4",
-      "definition": "Treating the metal-ligand bond as electrostatic, the five d orbitals split under the ligand field: in an octahedron two orbitals rise as the eg pair and three fall as t2g by two fifths of the gap, the split size grows along the spectrochemical series, and a d-d jump across the gap absorbs visible light and paints the complex.",
-      "formula": "splitting energy = delta_o; eg raised by three fifths, t2g lowered by two fifths",
-      "key_idea": "Weak field ligands such as iodide and water leave the gap smaller than the pairing energy and give high spin states, strong ones like cyanide and carbon monoxide give low spin; the violet of the titanium hexaquo ion is exactly such a t2g to eg jump, and no splitting means no colour.",
-      "textbook_ref": "lech105.txt, Sections 5.5.4-5.5.6, Figs. 5.8-5.10, Table 5.3",
-      "question_patterns": [
-        "draw the splitting of the d orbitals in an octahedral crystal field and label t2g and eg",
-        "what is the spectrochemical series and how do weak and strong field ligands differ",
-        "how does the size of delta o decide the configuration of a d4 to d7 ion",
-        "explain the violet colour of the titanium hexaquo complex using a d-d transition",
-        "why is anhydrous copper sulphate white while its pentahydrate is blue",
-        "state the weaknesses of crystal field theory that ligand field theory repairs"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Split the d set for the given geometry",
-          "explain": "Octahedral fields lift dx2-y2 and dz2 into eg and drop the other three into t2g; tetrahedral inverts and shrinks the gap to four ninths."
-        },
-        {
-          "step": 2,
-          "action": "Compare the gap with the pairing energy",
-          "explain": "Delta below P keeps spins high with weak field ligands; delta above P pairs electrons for low spin with strong field ligands."
-        },
-        {
-          "step": 3,
-          "action": "Connect the gap to absorbed light",
-          "explain": "A d electron jumping t2g to eg absorbs a visible wavelength, and the complementary colour is what the eye reports."
-        }
-      ]
-    },
-    {
-      "id": "lech.05.5.6.1",
-      "title": "Metal Carbonyls and Synergic Bonding",
-      "section": "5.6",
-      "definition": "Homing carbonyl complexes of the transition metals carry a two-way metal-carbon bond: carbon donates its lone pair to the metal as a sigma bond while a filled metal d orbital feeds back into carbon monoxide's empty antibonding orbital as a pi bond, each flow strengthening the other.",
-      "formula": "M-CO bond = ligand to metal sigma donation plus metal to ligand pi back donation",
-      "key_idea": "This synergic pair locks the carbonyls together and fixes their shapes: tetracarbonylnickel(0) tetrahedral, pentacarbonyliron(0) trigonal bipyramidal, hexacarbonylchromium(0) octahedral, with dimanganese and dicobalt carbonyls joined by metal-metal bonds.",
-      "textbook_ref": "lech105.txt, Section 5.6, Figs. 5.13-5.14",
-      "question_patterns": [
-        "discuss the nature of the bonding in metal carbonyls",
-        "explain the synergic effect that strengthens the metal carbon bond in nickel tetracarbonyl",
-        "which orbital interactions form the sigma and pi parts of a metal carbonyl bond",
-        "state the geometries of Ni(CO)4, Fe(CO)5 and Cr(CO)6",
-        "why does back donation into the antibonding orbital of CO stabilise the complex",
-        "how are the dimanganese and dicobalt carbonyl structures held together"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Identify the sigma donation",
-          "explain": "The carbonyl carbon's lone pair flows into an empty metal orbital."
-        },
-        {
-          "step": 2,
-          "action": "Identify the pi back donation",
-          "explain": "A filled metal d orbital donates into the empty antibonding pi orbital of CO."
-        },
-        {
-          "step": 3,
-          "action": "State the consequence",
-          "explain": "The two flows reinforce each other, the synergic effect, giving stable, well-shaped homoleptic carbonyls."
-        }
-      ]
-    },
-    {
-      "id": "lech.05.5.7.1",
-      "title": "Importance and Applications of Coordination Compounds",
-      "section": "5.7",
-      "definition": "Coordination chemistry runs through daily life: EDTA titrations measure water hardness, cyanide complexes leach gold and silver, chlorophyll, haemoglobin and vitamin B12 are metal coordination centres, cis-platin fights tumours, and chelate therapy strips excess copper, iron or lead from the body.",
-      "formula": "application fields = analysis, metallurgy, biology, medicine, catalysis, electroplating",
-      "key_idea": "Selective complex formation is the common trick: dimethylglyoxime spots nickel, sodium EDTA titrates calcium and magnesium, zinc precipitates gold from its dicyano complex, and the Wilkinson rhodium catalyst hydrogenates alkenes.",
-      "textbook_ref": "lech105.txt, Section 5.7 application list",
-      "question_patterns": [
-        "describe the role of coordination compounds in biological systems with chlorophyll and haemoglobin",
-        "how is the hardness of water estimated using EDTA titration",
-        "explain the extraction of gold through its dicyano coordination entity",
-        "what is chelate therapy and which ligands remove excess copper or iron from the body",
-        "give one coordination compound used as an anticancer drug and one used as a hydrogenation catalyst",
-        "how does hypo solution fix a developed photographic film through complex formation"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Name the field and the complex doing the work",
-          "explain": "Analysis uses EDTA and DMG, metallurgy uses dicyanoaurate, medicine uses cis-platin and penicillamine."
-        },
-        {
-          "step": 2,
-          "action": "Point to the selectivity or strength of binding",
-          "explain": "Different stability constants let EDTA pick calcium and magnesium apart; strong chelation strips toxic metals."
-        },
-        {
-          "step": 3,
-          "action": "State the biological anchor examples",
-          "explain": "Magnesium in chlorophyll, iron in haemoglobin and cobalt in vitamin B12 are coordination centres of life."
-        }
-      ]
+     "step": 3,
+     "action": "Write the formulation inside square brackets",
+     "explain": "Groups within the brackets form one non-dissociating coordination entity, the modern complex."
     }
-  ],
-  "worked_examples": [
+   ]
+  },
+  {
+   "id": "lech.05.5.1.2",
+   "title": "Double Salts versus Coordination Complexes",
+   "section": "5.1",
+   "definition": "Both are stoichiometric blends of two stable salts, but a double salt falls apart completely into its simple ions in water while a complex keeps its bracketed ion intact and so escapes the tests of its parent ions.",
+   "formula": "double salt dissociates fully in water; complex ion stays undissociated",
+   "key_idea": "Mohr's salt answers to a Fe2+ test because it breaks up, but K4[Fe(CN)6] never releases Fe2+ or cyanide since the hexacyanidoferrate(II) ion holds together in solution.",
+   "textbook_ref": "lech105.txt, Section 5.1, difference between double salt and complex",
+   "question_patterns": [
+    "distinguish a double salt from a coordination compound with one example of each",
+    "why does Mohr's salt give the Fe2+ test but potassium ferrocyanide does not",
+    "what happens to potash alum and to K4[Fe(CN)6] when each dissolves in water",
+    "explain why CuSO4 mixed with ammonia in a one to four ratio fails the Cu2+ test",
+    "state the key behavioural difference between carnallite in water and a complex salt in water",
+    "how does the bracketed portion of a complex formula behave in solution"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
     {
-      "question": "Find the oxidation state of cobalt in [Co(H2O)(CN)(en)2] 2+.",
-      "solution": "Ligand charges: water zero, cyanide minus one, two en at zero. Sum = minus one. Oxidation state = plus two minus minus one.",
-      "answer": "+3, written cobalt(III)"
+     "step": 1,
+     "action": "Ask whether the dissolved species are simple ions",
+     "explain": "Double salts release every constituent ion; complexes keep the bracketed entity whole."
     },
     {
-      "question": "What is the coordination number of cobalt in [Co(en)3] 3+?",
-      "solution": "Each ethane-1,2-diamine binds through two donor atoms, so three ligands deliver six bonds.",
-      "answer": "6 (octahedral)"
-    },
-    {
-      "question": "One mole of the purple complex CoCl3.5NH3 is treated with excess AgNO3. How much AgCl forms and what is the formulation?",
-      "solution": "Two of the three chlorides sit outside the brackets as counter ions; the third is locked to cobalt.",
-      "answer": "2 mol AgCl; the salt is [CoCl(NH3)5]Cl2, a 1:2 electrolyte"
-    },
-    {
-      "question": "Name K3[Fe(CN)6] under IUPAC rules.",
-      "solution": "Potassium opens the name; six cyanido ligands prefix the anionic metal, which takes the -ate ending.",
-      "answer": "potassium hexacyanidoferrate(III)"
+     "step": 2,
+     "action": "Predict the outcome of the ion's characteristic test",
+     "explain": "Only free ions answer spot tests, so a complex hides its metal from the usual reagent."
     }
-  ],
-  "exercises": [
+   ]
+  },
+  {
+   "id": "lech.05.5.2.1",
+   "title": "Ligands, Denticity and Chelation",
+   "section": "5.2",
+   "definition": "The ions or molecules donating electron pairs to the metal are ligands; they hook on through one donor atom (unidentate), two (didentate), many (polydentate), sometimes through either of two different atoms (ambidentate), and multi-point binding of one ligand builds especially stable chelate rings.",
+   "formula": "denticity = number of donor atoms a single ligand uses on one metal",
+   "key_idea": "Ethane-1,2-diamine and oxalate grip through two atoms, EDTA through six; nitrite and thiocyanate can switch donor atom, and the loop a polydentate ligand wraps around the metal explains why chelate complexes outlast their unidentate analogues.",
+   "textbook_ref": "lech105.txt, Section 5.2 item (c), ligands and chelates",
+   "question_patterns": [
+    "define unidentate, didentate and ambidentate ligands with two examples of each",
+    "why are chelate complexes more stable than the corresponding complexes of unidentate ligands",
+    "how many donor atoms does EDTA use when it binds a metal ion and what denticity is that",
+    "identify the donor atoms through which NO2 minus and SCN minus can each attach to a metal",
+    "what is meant by the term chelate ligand and give a familiar example",
+    "classify ethane-1,2-diamine, oxalate, chloride and water by their ligand type"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
     {
-      "id": "lech105_ex1",
-      "source_ref": "lech105.txt Exercises 5.1-5.4",
-      "questions": [
-        "Explain bonding in coordination compounds in terms of Werner's postulates.",
-        "Why does FeSO4 mixed with ammonium sulphate still answer the Fe2+ test while the copper-ammonia mixture hides Cu2+?",
-        "Define coordination entity, ligand, coordination number, coordination polyhedron, homoleptic and heteroleptic with two examples each.",
-        "What are unidentate, didentate and ambidentate ligands? Give two examples of each."
-      ]
+     "step": 1,
+     "action": "Count the donor atoms on the ligand",
+     "explain": "One donor gives unidentate (Cl minus, water, ammonia); two give didentate (en, oxalate)."
     },
     {
-      "id": "lech105_ex2",
-      "source_ref": "lech105.txt Exercises 5.5-5.7",
-      "questions": [
-        "Specify the oxidation numbers of the metals in [Co(H2O)(CN)(en)2] 2+, [CoBr2(en)2]+, [PtCl4] 2-, K3[Fe(CN)6] and [Cr(NH3)3Cl3].",
-        "Using IUPAC norms write formulas for pentaamminenitrito-N-cobalt(III) and potassium tetracyanidonickelate(II).",
-        "Write systematic names for [Co(NH3)4Cl(NO2)]Cl and [NiCl4] 2-."
-      ]
+     "step": 2,
+     "action": "Check for alternative donor atoms",
+     "explain": "Nitrite can bind via N or O and thiocyanate via N or S, making them ambidentate."
     },
     {
-      "id": "lech105_ex3",
-      "source_ref": "lech105.txt Exercises 5.8-5.12",
-      "questions": [
-        "List the types of isomerism possible for coordination compounds with an example of each.",
-        "How many geometrical isomers has [Co(NH3)3Cl3], and which arrangement is fac and which mer?",
-        "Draw the optical isomers of [Cr(C2O4)3] 3- and of cis-[PtCl2(en)2] 2+."
-      ]
-    },
-    {
-      "id": "lech105_ex4",
-      "source_ref": "lech105.txt Exercises 5.15-5.20 and 5.26-5.27",
-      "questions": [
-        "Discuss the bonding in [Fe(CN)6] 4-, [FeF6] 3-, [Co(C2O4)3] 3- and [CoF6] 3- using valence bond theory.",
-        "What is crystal field splitting energy and how does its size fix the configuration of d4 to d7 ions?",
-        "Explain why [Ni(H2O)6] 2+ is green while [Ni(CN)4] 2- is colourless.",
-        "What is the chelate effect? Illustrate and describe one role of coordination compounds each in biology and medicine."
-      ]
+     "step": 3,
+     "action": "Judge chelation and stability",
+     "explain": "Simultaneous multi-point grip on one metal forms a ring and stabilises the complex."
     }
-  ]
+   ]
+  },
+  {
+   "id": "lech.05.5.2.2",
+   "title": "Coordination Number, Sphere, Polyhedron and Related Terms",
+   "section": "5.2",
+   "definition": "The vocabulary of the field: the central atom or ion sits at the centre of a bracketed coordination sphere, the directly bonded donor atoms set its coordination number, their spatial layout forms the coordination polyhedron, and one or several ligand kinds mark the complex as homoleptic or heteroleptic.",
+   "formula": "coordination number = sigma bonds from ligand donor atoms to the central metal",
+   "key_idea": "Only sigma bonds count towards the coordination number, pi bonding is ignored; octahedral, tetrahedral and square planar are the everyday polyhedra, as in hexaamminecobalt(III), tetracarbonylnickel(0) and tetrachloridoplatinate(II).",
+   "textbook_ref": "lech105.txt, Section 5.2 items (a,b,d,e,f,h)",
+   "question_patterns": [
+    "define coordination entity, central atom and coordination number with two examples each",
+    "distinguish homoleptic and heteroleptic complexes giving one example of each kind",
+    "what is the coordination sphere and which ions sit outside it as counter ions",
+    "name the common coordination polyhedra and match one complex to each shape",
+    "why are pi bonds between ligand and metal excluded from the coordination number",
+    "identify the central metal ion in [NiCl2(H2O)4] and [Fe(CN)6] 3 minus"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Locate the bracketed entity and its centre",
+     "explain": "Inside the brackets the metal anchors the sphere; outside sit the ionisable counter ions."
+    },
+    {
+     "step": 2,
+     "action": "Count direct sigma bonds for the coordination number",
+     "explain": "Six chlorides give platinum six; three didentate oxalates also give iron six."
+    },
+    {
+     "step": 3,
+     "action": "Read off the polyhedron and ligand variety",
+     "explain": "Arrangement names the shape; a single ligand kind is homoleptic, a mixture heteroleptic."
+    }
+   ]
+  },
+  {
+   "id": "lech.05.5.2.3",
+   "title": "Oxidation Number of the Central Metal",
+   "section": "5.2",
+   "definition": "The charge the metal would keep if every ligand departed with its shared electron pair; it follows from the complex charge minus the summed ligand charges and is written as a Roman numeral after the name.",
+   "formula": "ox_state = complex_charge - total_ligand_charge",
+   "key_idea": "Neutral ligands add nothing, halides and cyanide carry minus one each, oxalate minus two; in [Co(H2O)(CN)(en)2] 2+ the metal lands at plus three, and in [PtCl4] 2- at plus two.",
+   "textbook_ref": "lech105.txt, Section 5.2 item (g) and Exercise 5.5",
+   "question_patterns": [
+    "specify the oxidation number of the metal in the coordination entity [Co(H2O)(CN)(en)2] 2+",
+    "find the oxidation state of platinum in [PtCl4] 2 minus and of cobalt in [CoBr2(en)2]+",
+    "determine the oxidation number of iron in K3[Fe(CN)6] and chromium in [Cr(NH3)3Cl3]",
+    "what charge does the central metal carry once all ligands are removed with their electron pairs",
+    "calculate the metal oxidation state from the complex charge and the ligand charges",
+    "assign the Roman numeral oxidation state used in the IUPAC name of a given complex"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Total the charges carried by all ligands",
+     "explain": "Count each ligand type: one cyanide at minus one plus three neutral ligands at zero gives minus one in the cobalt entity.",
+     "compute": "total_ligand_charge = n_ligand_a * charge_ligand_a + n_ligand_b * charge_ligand_b"
+    },
+    {
+     "step": 2,
+     "action": "Subtract the ligand sum from the complex charge",
+     "explain": "Plus two minus minus one leaves plus three for cobalt; the same arithmetic puts platinum at plus two in the tetrachloro anion.",
+     "compute": "ox_state = complex_charge - total_ligand_charge"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Oxidation Number of the Central Metal, compute the result for n_ligand_a = 3, charge_ligand_a = 3, n_ligand_b = 3, charge_ligand_b = 2, complex_charge = 2.",
+     "solution": "Step 1: Total the charges carried by all ligands: total_ligand_charge = n_ligand_a * charge_ligand_a + n_ligand_b * charge_ligand_b = 15.0 Step 2: Subtract the ligand sum from the complex charge: ox_state = complex_charge - total_ligand_charge = -13.0 Final result: -13.0",
+     "answer": "-13.0"
+    },
+    {
+     "question": "Using Oxidation Number of the Central Metal, compute the result for n_ligand_a = 4, charge_ligand_a = 4, n_ligand_b = 4, charge_ligand_b = 3, complex_charge = 3.",
+     "solution": "Step 1: Total the charges carried by all ligands: total_ligand_charge = n_ligand_a * charge_ligand_a + n_ligand_b * charge_ligand_b = 28.0 Step 2: Subtract the ligand sum from the complex charge: ox_state = complex_charge - total_ligand_charge = -25.0 Final result: -25.0",
+     "answer": "-25.0"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ox_state = complex_charge - total_ligand_charge",
+     "compute": "ox_state = complex_charge - total_ligand_charge"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.05.5.2.4",
+   "title": "Coordination Number from Ligand Counts and Denticity",
+   "section": "5.2",
+   "definition": "Each ligand contributes as many metal bonds as donor atoms it uses, so the coordination number is the count of every ligand type multiplied by its denticity, added across all ligands present.",
+   "formula": "cn_total = n_lig_a * dent_a + n_lig_b * dent_b",
+   "key_idea": "Six chlorides give platinum six; three didentate ethane-1,2-diamines still give cobalt six, and three oxalates likewise give iron six even though only three ligands are bound.",
+   "textbook_ref": "lech105.txt, Section 5.2 item (d), coordination number examples",
+   "question_patterns": [
+    "find the coordination number of cobalt in the tris(ethane-1,2-diamine) complex",
+    "what is the coordination number of iron when three oxalate ligands are bound",
+    "calculate the coordination number of the metal from the number and denticity of its ligands",
+    "why do [Fe(C2O4)3] 3 minus and [Co(en)3] 3 plus both show a coordination number of six",
+    "how many donor atoms reach the metal in a complex mixing unidentate and didentate ligands",
+    "work out the metal's coordination number for the stated formula of a complex ion"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply each ligand count by the donor atoms that ligand uses",
+     "explain": "Three en ligands each contributing two donors give six contact points.",
+     "compute": "donor_contacts = n_lig_a * dent_a"
+    },
+    {
+     "step": 2,
+     "action": "Add the contributions of the remaining ligand types",
+     "explain": "Adding the neutral ligands' share finishes the coordination number; three didentates alone total six.",
+     "compute": "cn_total = donor_contacts + n_lig_b * dent_b"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Coordination Number from Ligand Counts and Denticity, compute the result for n_lig_a = 3, dent_a = 3, n_lig_b = 3, dent_b = 2.",
+     "solution": "Step 1: Multiply each ligand count by the donor atoms that ligand uses: donor_contacts = n_lig_a * dent_a = 9.0 Step 2: Add the contributions of the remaining ligand types: cn_total = donor_contacts + n_lig_b * dent_b = 15.0 Final result: 15.0",
+     "answer": "15.0"
+    },
+    {
+     "question": "Using Coordination Number from Ligand Counts and Denticity, compute the result for n_lig_a = 4, dent_a = 4, n_lig_b = 4, dent_b = 3.",
+     "solution": "Step 1: Multiply each ligand count by the donor atoms that ligand uses: donor_contacts = n_lig_a * dent_a = 16.0 Step 2: Add the contributions of the remaining ligand types: cn_total = donor_contacts + n_lig_b * dent_b = 28.0 Final result: 28.0",
+     "answer": "28.0"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "cn_total = n_lig_a * dent_a + n_lig_b * dent_b",
+     "compute": "cn_total = n_lig_a * dent_a + n_lig_b * dent_b"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.05.5.3.1",
+   "title": "Writing Formulas of Coordination Entities",
+   "section": "5.3.1",
+   "definition": "Formula rules: the central atom leads, ligands follow in alphabetical order ignoring charge, polydentates sit by their abbreviation's first letter, the whole entity is bracketed with its charge as an outside superscript, and counter ions balance the charge.",
+   "formula": "formula order = central atom, then ligands alphabetically, inside square brackets",
+   "key_idea": "Tetraammineaquachloridocobalt(III) chloride is written [Co(NH3)4(H2O)Cl]Cl2: cobalt first, then ammine, aqua and chlorido alphabetically, all inside brackets with two chlorides outside balancing the plus two entity.",
+   "textbook_ref": "lech105.txt, Section 5.3.1 rules and Intext Question 5.1",
+   "question_patterns": [
+    "write the formula of tetraamminediaquacobalt(III) chloride",
+    "give the formula for potassium tetracyanidonickelate(II)",
+    "how is the formula of tris(ethane-1,2-diamine)chromium(III) chloride written",
+    "write the formula of dichloridobis(ethane-1,2-diamine)platinum(IV) nitrate",
+    "in what order do the central atom and ligands appear inside the bracket of a complex formula",
+    "where does the charge of a bare coordination entity go when no counter ion is written"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Place the central atom first inside the brackets",
+     "explain": "The metal symbol opens the entity in every formula."
+    },
+    {
+     "step": 2,
+     "action": "Alphabetise the ligands by name or abbreviation",
+     "explain": "Ammine precedes aqua which precedes chlorido; en is filed under e."
+    },
+    {
+     "step": 3,
+     "action": "Close the bracket, set the charge, balance with counter ions",
+     "explain": "The outside chloride or nitrate count is fixed by the entity's charge."
+    }
+   ]
+  },
+  {
+   "id": "lech.05.5.3.2",
+   "title": "IUPAC Naming of Coordination Compounds",
+   "section": "5.3.2",
+   "definition": "Naming rules: the cation comes first, ligands are named alphabetically before the metal, anionic ligands take the -o ending, multiplying prefixes count the ligands, a Roman numeral gives the metal's oxidation state, and the metal of an anionic complex ends in -ate.",
+   "formula": "name order = cation, ligands alphabetically, metal with oxidation numeral",
+   "key_idea": "K3[Fe(CN)6] reads potassium hexacyanidoferrate(III): the anion's iron becomes ferrate, while [Co(NH3)6]Cl3 simply reads hexaamminecobalt(III) chloride with the cation's metal unchanged.",
+   "textbook_ref": "lech105.txt, Section 5.3.2, Examples 5.2-5.3 and Intext Question 5.2",
+   "question_patterns": [
+    "write the IUPAC name of [Co(NH3)6]Cl3",
+    "give the systematic name of K3[Fe(C2O4)3] and of K2[PdCl4]",
+    "name [Co(NH3)5Cl]Cl2 using IUPAC norms",
+    "why does iron become ferrate in the name of a complex anion",
+    "name the entity [Pt(NH3)2Cl(NH2CH3)]Cl following IUPAC rules",
+    "how are prefixes bis and tris used when a ligand name already carries a number"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Name the counter ion or cation first",
+     "explain": "Potassium opens the names of the ferrocyanide and oxalato salts."
+    },
+    {
+     "step": 2,
+     "action": "List ligand names alphabetically with multiplying prefixes",
+     "explain": "Hexaammine, dichlorido, bis(ethane-1,2-diamine) are typical built-up prefixes."
+    },
+    {
+     "step": 3,
+     "action": "Close with the metal and its oxidation numeral",
+     "explain": "Cationic metals keep their names; anionic ones take -ate, as ferrate or cobaltate."
+    }
+   ]
+  },
+  {
+   "id": "lech.05.5.4.1",
+   "title": "Structural Isomerism in Coordination Compounds",
+   "section": "5.4",
+   "definition": "Isomers sharing one formula but not one bonding pattern: an ambidentate ligand can switch its binding atom (linkage), ligands can swap between the cationic and anionic metal centres (coordination), a counter ion can trade places with a ligand inside the sphere (ionisation), and solvent molecules can sit inside or outside the bracket (solvate).",
+   "formula": "structural isomers = same formula, different bond connectivity",
+   "key_idea": "The red and yellow forms of the pentammine cobalt nitrite differ only in O-bound versus N-bound nitrite, while [Co(NH3)5(SO4)]Br and [Co(NH3)5Br]SO4 answer different reagents because bromide and sulphate exchange roles.",
+   "textbook_ref": "lech105.txt, Sections 5.4.3-5.4.6 and Intext Question 5.4",
+   "question_patterns": [
+    "distinguish linkage, coordination, ionisation and solvate isomerism with one example of each",
+    "why do [Co(NH3)5SO4]Br and [Co(NH3)5Br]SO4 react differently with barium and silver ions",
+    "how does the nitrite ligand produce red and yellow forms of the same cobalt complex",
+    "what interchanges between the two metal centres in the coordination isomers of [Co(NH3)6][Cr(CN)6]",
+    "define hydrate isomerism and quote the violet and grey-green chromium aqua examples",
+    "identify the type of isomerism shown by a pair of complexes of stated formula"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check which atom of an ambidentate ligand is bound",
+     "explain": "N-bound versus O-bound nitrite or N versus S thiocyanate gives linkage isomers."
+    },
+    {
+     "step": 2,
+     "action": "Compare which ions sit inside versus outside the brackets",
+     "explain": "A swapped counter ion changes what the solution releases, marking ionisation isomers."
+    },
+    {
+     "step": 3,
+     "action": "Look for ligand exchange between two metal centres or solvent shifts",
+     "explain": "Coordination isomers move ligands across the two spheres; solvate isomers move solvent in and out of bonding."
+    }
+   ]
+  },
+  {
+   "id": "lech.05.5.4.2",
+   "title": "Geometrical and Optical Isomerism",
+   "section": "5.4.1",
+   "definition": "Stereoisomers keep every bond but rearrange it in space: two like ligands may sit adjacent or opposite (cis and trans), three pairs may crowd one octahedral face or straddle a meridian (fac and mer), and some arrangements are non-superimposable mirror images that rotate polarised light (d and l forms).",
+   "formula": "stereoisomers = same bonds, different spatial arrangement",
+   "key_idea": "Square planar [MX2L2] gives cis and trans but tetrahedral geometry gives none; octahedral [Ma3b3] splits into fac and mer, and only the cis form of [PtCl2(en)2] 2+ is chiral while tris(oxalato) and tris(en) complexes carry mirror-image pairs.",
+   "textbook_ref": "lech105.txt, Sections 5.4.1-5.4.2, Figs. 5.2-5.7 and Examples 5.4-5.6",
+   "question_patterns": [
+    "draw the cis and trans isomers of a square planar complex of the type platinum ammine chloride",
+    "how many geometrical isomers does [Co(NH3)3Cl3] show and what are fac and mer forms",
+    "why is geometrical isomerism absent in tetrahedral complexes with two ligand types",
+    "which isomer of [PtCl2(en)2] 2 plus is optically active and why",
+    "define enantiomers and chirality using the d and l forms of [Co(en)3] 3 plus",
+    "state whether cis or trans [CrCl2(ox)2] 3 minus is chiral"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Fix the geometry and ligand set",
+     "explain": "Coordination number and ligand kinds decide whether cis/trans or fac/mer arrangements exist."
+    },
+    {
+     "step": 2,
+     "action": "Test mirror-image superimposability",
+     "explain": "A non-superimposable mirror image marks a chiral, optically active isomer with d and l forms."
+    },
+    {
+     "step": 3,
+     "action": "Count and name the isomers",
+     "explain": "Square planar gives cis plus trans; octahedral MX2L4 gives cis and trans, Ma3b3 gives fac and mer."
+    }
+   ]
+  },
+  {
+   "id": "lech.05.5.5.1",
+   "title": "Valence Bond Theory: Hybridisation, Inner and Outer Orbitals",
+   "section": "5.5.1",
+   "definition": "Ligand lone pairs drop into empty hybrid orbitals the metal builds from its d, s and p sets: inner orbital complexes spend two inner d orbitals (d2sp3, low spin, paired) while outer orbital ones borrow 4d space (sp3d2, high spin, unpaired), and the magnetic readout then fixes the geometry.",
+   "formula": "inner orbital = d2sp3 low spin; outer orbital = sp3d2 high spin",
+   "key_idea": "Hexaamminecobalt(III) pairs its six d electrons to free two 3d orbitals and is diamagnetic, while hexafluorocobaltate(III) keeps four unpaired electrons in 4d-based hybrids; nickel(II) shows both faces, square planar dsp2 with cyanide but tetrahedral sp3 paramagnetic with chloride.",
+   "textbook_ref": "lech105.txt, Sections 5.5.1-5.5.3, Table 5.2, Examples and Intext 5.5-5.9",
+   "question_patterns": [
+    "explain on the basis of valence bond theory why [Ni(CN)4] 2 minus is diamagnetic but [NiCl4] 2 minus is paramagnetic",
+    "why is [Co(NH3)6] 3 plus an inner orbital complex while [Ni(NH3)6] 2 plus is an outer orbital complex",
+    "predict the hybridisation and geometry of a complex from its magnetic moment",
+    "distinguish low spin and high spin octahedral complexes using d2sp3 and sp3d2",
+    "what are the main limitations of valence bond theory for coordination compounds",
+    "use the spin only moment of 5.9 BM to decide whether the four coordinate manganese complex is tetrahedral"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Write the metal ion's d count",
+     "explain": "Cobalt(III) is d6, nickel(II) is d8 in the cited complexes."
+    },
+    {
+     "step": 2,
+     "action": "Ask whether the ligand can force pairing",
+     "explain": "Strong ligands like cyanide and ammonia pair the electrons, freeing inner d orbitals for d2sp3."
+    },
+    {
+     "step": 3,
+     "action": "Link hybridisation to geometry and magnetism",
+     "explain": "dsp2 gives square planar diamagnetic, sp3 gives tetrahedral paramagnetic, and the unpaired count from the moment confirms the choice."
+    }
+   ]
+  },
+  {
+   "id": "lech.05.5.5.2",
+   "title": "Crystal Field Theory: Splitting, Spectrochemical Series and Colour",
+   "section": "5.5.4",
+   "definition": "Treating the metal-ligand bond as electrostatic, the five d orbitals split under the ligand field: in an octahedron two orbitals rise as the eg pair and three fall as t2g by two fifths of the gap, the split size grows along the spectrochemical series, and a d-d jump across the gap absorbs visible light and paints the complex.",
+   "formula": "splitting energy = delta_o; eg raised by three fifths, t2g lowered by two fifths",
+   "key_idea": "Weak field ligands such as iodide and water leave the gap smaller than the pairing energy and give high spin states, strong ones like cyanide and carbon monoxide give low spin; the violet of the titanium hexaquo ion is exactly such a t2g to eg jump, and no splitting means no colour.",
+   "textbook_ref": "lech105.txt, Sections 5.5.4-5.5.6, Figs. 5.8-5.10, Table 5.3",
+   "question_patterns": [
+    "draw the splitting of the d orbitals in an octahedral crystal field and label t2g and eg",
+    "what is the spectrochemical series and how do weak and strong field ligands differ",
+    "how does the size of delta o decide the configuration of a d4 to d7 ion",
+    "explain the violet colour of the titanium hexaquo complex using a d-d transition",
+    "why is anhydrous copper sulphate white while its pentahydrate is blue",
+    "state the weaknesses of crystal field theory that ligand field theory repairs"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Split the d set for the given geometry",
+     "explain": "Octahedral fields lift dx2-y2 and dz2 into eg and drop the other three into t2g; tetrahedral inverts and shrinks the gap to four ninths."
+    },
+    {
+     "step": 2,
+     "action": "Compare the gap with the pairing energy",
+     "explain": "Delta below P keeps spins high with weak field ligands; delta above P pairs electrons for low spin with strong field ligands."
+    },
+    {
+     "step": 3,
+     "action": "Connect the gap to absorbed light",
+     "explain": "A d electron jumping t2g to eg absorbs a visible wavelength, and the complementary colour is what the eye reports."
+    }
+   ]
+  },
+  {
+   "id": "lech.05.5.6.1",
+   "title": "Metal Carbonyls and Synergic Bonding",
+   "section": "5.6",
+   "definition": "Homing carbonyl complexes of the transition metals carry a two-way metal-carbon bond: carbon donates its lone pair to the metal as a sigma bond while a filled metal d orbital feeds back into carbon monoxide's empty antibonding orbital as a pi bond, each flow strengthening the other.",
+   "formula": "M-CO bond = ligand to metal sigma donation plus metal to ligand pi back donation",
+   "key_idea": "This synergic pair locks the carbonyls together and fixes their shapes: tetracarbonylnickel(0) tetrahedral, pentacarbonyliron(0) trigonal bipyramidal, hexacarbonylchromium(0) octahedral, with dimanganese and dicobalt carbonyls joined by metal-metal bonds.",
+   "textbook_ref": "lech105.txt, Section 5.6, Figs. 5.13-5.14",
+   "question_patterns": [
+    "discuss the nature of the bonding in metal carbonyls",
+    "explain the synergic effect that strengthens the metal carbon bond in nickel tetracarbonyl",
+    "which orbital interactions form the sigma and pi parts of a metal carbonyl bond",
+    "state the geometries of Ni(CO)4, Fe(CO)5 and Cr(CO)6",
+    "why does back donation into the antibonding orbital of CO stabilise the complex",
+    "how are the dimanganese and dicobalt carbonyl structures held together"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the sigma donation",
+     "explain": "The carbonyl carbon's lone pair flows into an empty metal orbital."
+    },
+    {
+     "step": 2,
+     "action": "Identify the pi back donation",
+     "explain": "A filled metal d orbital donates into the empty antibonding pi orbital of CO."
+    },
+    {
+     "step": 3,
+     "action": "State the consequence",
+     "explain": "The two flows reinforce each other, the synergic effect, giving stable, well-shaped homoleptic carbonyls."
+    }
+   ]
+  },
+  {
+   "id": "lech.05.5.7.1",
+   "title": "Importance and Applications of Coordination Compounds",
+   "section": "5.7",
+   "definition": "Coordination chemistry runs through daily life: EDTA titrations measure water hardness, cyanide complexes leach gold and silver, chlorophyll, haemoglobin and vitamin B12 are metal coordination centres, cis-platin fights tumours, and chelate therapy strips excess copper, iron or lead from the body.",
+   "formula": "application fields = analysis, metallurgy, biology, medicine, catalysis, electroplating",
+   "key_idea": "Selective complex formation is the common trick: dimethylglyoxime spots nickel, sodium EDTA titrates calcium and magnesium, zinc precipitates gold from its dicyano complex, and the Wilkinson rhodium catalyst hydrogenates alkenes.",
+   "textbook_ref": "lech105.txt, Section 5.7 application list",
+   "question_patterns": [
+    "describe the role of coordination compounds in biological systems with chlorophyll and haemoglobin",
+    "how is the hardness of water estimated using EDTA titration",
+    "explain the extraction of gold through its dicyano coordination entity",
+    "what is chelate therapy and which ligands remove excess copper or iron from the body",
+    "give one coordination compound used as an anticancer drug and one used as a hydrogenation catalyst",
+    "how does hypo solution fix a developed photographic film through complex formation"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Name the field and the complex doing the work",
+     "explain": "Analysis uses EDTA and DMG, metallurgy uses dicyanoaurate, medicine uses cis-platin and penicillamine."
+    },
+    {
+     "step": 2,
+     "action": "Point to the selectivity or strength of binding",
+     "explain": "Different stability constants let EDTA pick calcium and magnesium apart; strong chelation strips toxic metals."
+    },
+    {
+     "step": 3,
+     "action": "State the biological anchor examples",
+     "explain": "Magnesium in chlorophyll, iron in haemoglobin and cobalt in vitamin B12 are coordination centres of life."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "question": "Find the oxidation state of cobalt in [Co(H2O)(CN)(en)2] 2+.",
+   "solution": "Ligand charges: water zero, cyanide minus one, two en at zero. Sum = minus one. Oxidation state = plus two minus minus one.",
+   "answer": "+3, written cobalt(III)"
+  },
+  {
+   "question": "What is the coordination number of cobalt in [Co(en)3] 3+?",
+   "solution": "Each ethane-1,2-diamine binds through two donor atoms, so three ligands deliver six bonds.",
+   "answer": "6 (octahedral)"
+  },
+  {
+   "question": "One mole of the purple complex CoCl3.5NH3 is treated with excess AgNO3. How much AgCl forms and what is the formulation?",
+   "solution": "Two of the three chlorides sit outside the brackets as counter ions; the third is locked to cobalt.",
+   "answer": "2 mol AgCl; the salt is [CoCl(NH3)5]Cl2, a 1:2 electrolyte"
+  },
+  {
+   "question": "Name K3[Fe(CN)6] under IUPAC rules.",
+   "solution": "Potassium opens the name; six cyanido ligands prefix the anionic metal, which takes the -ate ending.",
+   "answer": "potassium hexacyanidoferrate(III)"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lech105_ex1",
+   "source_ref": "lech105.txt Exercises 5.1-5.4",
+   "questions": [
+    "Explain bonding in coordination compounds in terms of Werner's postulates.",
+    "Why does FeSO4 mixed with ammonium sulphate still answer the Fe2+ test while the copper-ammonia mixture hides Cu2+?",
+    "Define coordination entity, ligand, coordination number, coordination polyhedron, homoleptic and heteroleptic with two examples each.",
+    "What are unidentate, didentate and ambidentate ligands? Give two examples of each."
+   ]
+  },
+  {
+   "id": "lech105_ex2",
+   "source_ref": "lech105.txt Exercises 5.5-5.7",
+   "questions": [
+    "Specify the oxidation numbers of the metals in [Co(H2O)(CN)(en)2] 2+, [CoBr2(en)2]+, [PtCl4] 2-, K3[Fe(CN)6] and [Cr(NH3)3Cl3].",
+    "Using IUPAC norms write formulas for pentaamminenitrito-N-cobalt(III) and potassium tetracyanidonickelate(II).",
+    "Write systematic names for [Co(NH3)4Cl(NO2)]Cl and [NiCl4] 2-."
+   ]
+  },
+  {
+   "id": "lech105_ex3",
+   "source_ref": "lech105.txt Exercises 5.8-5.12",
+   "questions": [
+    "List the types of isomerism possible for coordination compounds with an example of each.",
+    "How many geometrical isomers has [Co(NH3)3Cl3], and which arrangement is fac and which mer?",
+    "Draw the optical isomers of [Cr(C2O4)3] 3- and of cis-[PtCl2(en)2] 2+."
+   ]
+  },
+  {
+   "id": "lech105_ex4",
+   "source_ref": "lech105.txt Exercises 5.15-5.20 and 5.26-5.27",
+   "questions": [
+    "Discuss the bonding in [Fe(CN)6] 4-, [FeF6] 3-, [Co(C2O4)3] 3- and [CoF6] 3- using valence bond theory.",
+    "What is crystal field splitting energy and how does its size fix the configuration of d4 to d7 ions?",
+    "Explain why [Ni(H2O)6] 2+ is green while [Ni(CN)4] 2- is colourless.",
+    "What is the chelate effect? Illustrate and describe one role of coordination compounds each in biology and medicine."
+   ]
+  }
+ ]
 }

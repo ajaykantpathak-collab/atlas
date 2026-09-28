@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch9_8",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch9_8",
+   "title": "c9_math_ch9_8",
+   "questions": [
+    {
+     "q": "State the primary practical purpose of the Sulbasutras and contrast it with the primary intellectual purpose of Euclid's Elements in one sentence each.",
+     "a": "The Sulbasutras provided precise geometric constructions for building Vedic fire altars of specific shapes and areas; Euclid's Elements aimed to organize all known geometry into a single logical system deduced from a few self-evident axioms and postulates. A wrong answer (e.g., \"both were for proving theorems\") reveals the student misses the *pragmatic vs. theoretical* distinction — Sulbasutra authors were ritual specialists, not pure mathematicians.",
+     "self_check": true
+    },
+    {
+     "q": "In Baudhayana Sulbasutra 1.48, the rule for the diagonal of a rectangle is given as: \"The rope stretched along the length and breadth produces an area equal to the sum of the areas produced separately.\" Explain why this is *geometrically equivalent* to the Pythagorean theorem, but *methodologically different* from Euclid's proof in Elements I.47.",
+     "a": "Baudhayana's verse describes the area relation $a^2 + b^2 = c^2$ (where $c$ is the diagonal) as an observed/constructive fact for altar layout; Euclid I.47 *proves* the same relation by showing square-on-hypotenuse equals sum of squares-on-legs via triangle congruence (SAS) and area equivalence of parallelograms/triangles. A wrong answer (e.g., \"they are the same proof\") reveals confusion between *stating a geometric truth* and *deriving it logically from axioms*.",
+     "self_check": true
+    },
+    {
+     "q": "A Sulbasutra construction says: \"To make a square of area equal to the sum of two given squares, place them so their sides form a right angle; the hypotenuse of the resulting right triangle is the side of the required square.\" If the two given squares have sides 5 cm and 12 cm, what is the side of the new square? Show the steps using the geometric reasoning implicit in the Sulbasutra.",
+     "a": "Step 1: Recognize the construction creates a right triangle with legs 5 cm and 12 cm. Step 2: The hypotenuse $c$ satisfies $c^2 = 5^2 + 12^2$ (Baudhayana's rule). Step 3: Compute $25 + 144 = 169$. Step 4: $c = \\sqrt{169} = 13$ cm. Step 5: The new square has side 13 cm. A wrong answer (e.g., 17 cm by adding sides) reveals the student treats the construction as linear addition rather than quadratic area addition — missing the *area-preserving transformation* core to Sulbasutra geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the *role of the \"Pythagorean theorem\"* in the two traditions: In the Sulbasutras, it is a *construction recipe* embedded in altar-building procedures; in Euclid, it is a *theorem* (Proposition I.47) with a specific logical dependency chain. Identify **two** Euclidean propositions *proved before* I.47 that are essential for its proof, and explain why the Sulbasutras do not need such a chain.",
+     "a": "Euclid I.47 depends on I.4 (SAS congruence) and I.41 (parallelogram area = 2 × triangle on same base/parallels). The Sulbasutras do not need a dependency chain because they treat the diagonal-area relation as an *empirically verified construction rule* for immediate practical use — no \"why\" is required, only \"how.\" A wrong answer (e.g., \"Sulbasutras also prove it\") reveals the student conflates *procedural knowledge* with *axiomatic deduction*.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 9 student claims: \"The Sulbasutras are inferior to Euclid because they don't prove anything — they just give recipes.\" Evaluate this claim. Is it fair? What does it miss about the *epistemic goal* of each tradition?",
+     "a": "The claim is *unfair* — it judges a ritual-technical tradition by the standards of a theoretical-mathematical one. The Sulbasutras aim at *correct construction* (orthopraxy); their \"recipes\" were validated by centuries of successful altar building. Euclid aims at *certain knowledge* (episteme) through deduction. Missing this: the student imposes a modern/Western view of \"mathematics = proof\" onto a tradition where \"mathematics = reliable procedure.\" A poor evaluation reveals presentism — judging past knowledge by present categories.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Sulbasutra-style\" construction problem for a Class 9 peer: \"Using only a rope (straightedge) and stakes (compass equivalent), transform a given rectangle of sides 6 m and 8 m into a square of *equal area*.\" Write the step-by-step construction recipe in the imperative voice (e.g., \"Stretch the rope along...\"), and state the side of the resulting square.",
+     "a": "Recipe: 1. Stretch rope along diagonal of rectangle — length = 10 m (by 6-8-10 triple). 2. Construct a square on this diagonal — area = 100 sq m. 3. Halve this square by joining midpoints of opposite sides — each half = 50 sq m. 4. Transform one half-rectangle into a square of equal area (using Sulbasutra \"rectangle to square\" method). Resulting square side = $\\sqrt{48} = 4\\sqrt{3} \\approx 6.93$ m. (Note: Actual Sulbasutra method for rectangle→square uses geometric mean construction.) A poor answer gives only the formula $\\sqrt{48}$ without a *construction sequence* — missing the *procedural/algorithmic* nature of Sulbasutra geometry.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

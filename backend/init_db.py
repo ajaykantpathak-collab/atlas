@@ -8,6 +8,7 @@ Usage:
 
 import asyncio
 import json
+import os
 from datetime import date
 
 from sqlalchemy import select, text
@@ -202,7 +203,9 @@ async def seed_demo_user(db):
             is_premium=False,
             is_active=True,
             total_xp=2450,
-            current_level=12,
+            # level = floor(xp / XP_PER_LEVEL) + 1 — must match
+            # services/progress_service.py (2450 // 100 + 1 = 25)
+            current_level=25,
             streak_days=4,
             last_activity_date=date.today(),
         )
@@ -238,41 +241,59 @@ async def main():
     async with async_session() as db:
         await seed_demo_user(db)
 
-    print("\n[6/7] Loading enrichment content...")
+    print("\n[6/7] Loading enrichment content (CBSE enhanced_nodes_md)...")
     try:
-        from backend.database.load_enrichment import load_enrichment, CISCE_ROOT
-        import os
-        from pathlib import Path
-        # STEM graph lives outside the repo; override CISCE_GRAPH_DIR elsewhere.
-        graph_dir = Path(os.environ.get(
-            "CISCE_GRAPH_DIR", r"D:\node_generator\atomic_graph\cisce_stem"))
-        if not Path(CISCE_ROOT).exists():
-            print(f"  [!] CISCE content root not found: {CISCE_ROOT} — skipping")
+        from backend.tools.load_cbse_enrichment import main as load_cbse
+        from backend.models.enrichment import EnrichmentContent
+        from sqlalchemy import func, select as _sel
+
+        # The loader rewrites every row from the md corpus — including
+        # fields like title that have hand-applied repairs in the DB.
+        # When the table is already populated, a reload can only degrade
+        # data, so skip it (fresh installs still seed normally).
+        async with async_session() as db:
+            have = (await db.execute(
+                _sel(func.count()).select_from(EnrichmentContent)
+            )).scalar() or 0
+        if have >= 8000:
+            print(f"  enrichment already populated ({have} rows) — "
+                  "skipping reload to preserve in-place repairs")
         else:
-            async with async_session() as db:
-                result = await load_enrichment(db, CISCE_ROOT, graph_dir=graph_dir)
-                print(f"  Inserted: {result['inserted']}, Updated: {result['updated']}")
-                print(f"  By subject: {result.get('by_subject', {})}")
+            await load_cbse()
     except Exception as exc:
         print(f"  [!] Enrichment content load skipped: {exc}")
 
-    print("\n[7/7] Loading question banks and class-level content...")
+    # [7/7] CBSE questions are extracted from the node corpus; the CISCE
+    # marker corpus stays behind LOAD_CISCE_CONTENT=1.
+    print("\n[7/7] Extracting CBSE questions from node corpus...")
     try:
-        from backend.database.load_content import find_content_files, load_question_banks, load_class_level_content
-        from backend.database.load_enrichment import CISCE_ROOT
-        from pathlib import Path
-        if not Path(CISCE_ROOT).exists():
-            print(f"  [!] CISCE content root not found: {CISCE_ROOT} — skipping")
-        else:
-            async with async_session() as db:
-                q_files, c_files = find_content_files(CISCE_ROOT)
-                print(f"  Found {len(q_files)} question files, {len(c_files)} class-level files")
-                q_result = await load_question_banks(db, q_files)
-                print(f"  Questions inserted: {q_result['inserted']}")
-                c_result = await load_class_level_content(db, c_files)
-                print(f"  Class-level content inserted: {c_result['inserted']}")
+        from backend.tools.extract_node_questions import main as extract_qs
+        await extract_qs()
     except Exception as exc:
-        print(f"  [!] Question bank load skipped: {exc}")
+        print(f"  [!] CBSE question extraction skipped: {exc}")
+
+    if os.environ.get("LOAD_CISCE_CONTENT"):
+        print("\n[7/7] Loading CISCE question banks and class-level content...")
+        try:
+            from backend.database.load_content import find_content_files, load_question_banks, load_answer_keys, load_class_level_content
+            from backend.database.load_enrichment import CISCE_ROOT
+            from pathlib import Path
+            if not Path(CISCE_ROOT).exists():
+                print(f"  [!] CISCE content root not found: {CISCE_ROOT} — skipping")
+            else:
+                async with async_session() as db:
+                    q_files, c_files, a_files = find_content_files(CISCE_ROOT)
+                    print(f"  Found {len(q_files)} question files, {len(c_files)} class-level files, {len(a_files)} answer files")
+                    q_result = await load_question_banks(db, q_files)
+                    print(f"  Questions inserted: {q_result['inserted']}")
+                    a_result = await load_answer_keys(db, a_files)
+                    print(f"  Answers joined: {a_result['updated']} rows updated from {a_result['keys_parsed']} keys")
+                    c_result = await load_class_level_content(db, c_files)
+                    print(f"  Class-level content inserted: {c_result['inserted']}")
+        except Exception as exc:
+            print(f"  [!] Question bank load skipped: {exc}")
+    else:
+        print("\n[7/7] CISCE corpus load skipped (CBSE-only mode; set LOAD_CISCE_CONTENT=1 to enable)")
 
     print("\n" + "=" * 50)
     print("Database initialization complete!")

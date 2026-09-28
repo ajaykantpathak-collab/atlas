@@ -34,6 +34,26 @@
      "q": "Design a simple home experiment using everyday objects to prove that light travels in a straight line. Describe the materials and expected observation.",
      "a": "Criteria for a good answer: Uses three cardboards with pinholes, a candle or torch, and a surface. Explains that alignment allows light to pass, while moving one cardboard blocks it completely, proving straight-line travel. A poor answer lacks a controlled testing method or fails to connect the observation to straight-line geometry.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Light travels in straight lines in a ______, transparent medium, a property known as rectilinear propagation of light.",
+     "a": "homogeneous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a beam of ______ streaming through a dusty window or a cinema projector beam cutting through a dark hall in your house; you will notice it travels in a perfectly straight path without bending.",
+     "a": "sunlight",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can predict the path of a light beam through obstacles and explain why straight-line propagation leads to the formation of sharp shadows and pinhole images.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a beam of sunlight ______ through a dusty window or a cinema projector beam cutting through a dark hall in your house; you will notice it travels in a perfectly straight path without bending.",
+     "a": "streaming",
+     "self_check": true
     }
    ]
   }

@@ -1,6 +1,100 @@
 {
- "catalog": "catalog_class12_economics_ch8",
+ "catalog": "catalog_class12_economics_ch8.json",
  "concepts": [
+  {
+   "id": "c12eco.8.4",
+   "title": "GDP Growth Comparison: India, Pakistan, China",
+   "converted_to_compute": true,
+   "formula": "gdp_growth_rate = ((gdp_t_1 - gdp_t_0) / gdp_t_0) * 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "gdp_growth_rate = ((gdp_t_1 - gdp_t_0) / gdp_t_0) * 100",
+     "compute": "gdp_growth_rate = ((gdp_t_1 - gdp_t_0) / gdp_t_0) * 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For GDP Growth Comparison: India, Pakistan, China: given gdp_t_1 = 62, gdp_t_0 = 70, find gdp growth rate.",
+     "a": "-11.4286",
+     "self_check": false
+    },
+    {
+     "q": "For GDP Growth Comparison: India, Pakistan, China: given gdp_t_1 = 46, gdp_t_0 = 23, find gdp growth rate.",
+     "a": "100",
+     "self_check": false
+    },
+    {
+     "q": "For GDP Growth Comparison: India, Pakistan, China: given gdp_t_1 = 10.6, gdp_t_0 = 60, find gdp growth rate.",
+     "a": "-82.3333",
+     "self_check": false
+    },
+    {
+     "q": "For GDP Growth Comparison: India, Pakistan, China: given gdp_t_1 = 60, gdp_t_0 = 67, find gdp growth rate.",
+     "a": "-10.4478",
+     "self_check": false
+    },
+    {
+     "q": "For GDP Growth Comparison: India, Pakistan, China: given gdp_t_1 = 61, gdp_t_0 = 2.4, find gdp growth rate.",
+     "a": "2441.67",
+     "self_check": false
+    },
+    {
+     "q": "For GDP Growth Comparison: India, Pakistan, China: given gdp_t_1 = 61, gdp_t_0 = 15.7, find gdp growth rate.",
+     "a": "288.535",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c12eco.8.5",
+   "title": "Sectoral Composition of Output",
+   "converted_to_compute": true,
+   "formula": "sector_share = (sector_output / total_gdp) * 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "sector_share = (sector_output / total_gdp) * 100",
+     "compute": "sector_share = (sector_output / total_gdp) * 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Sectoral Composition of Output: given sector_output = 65, total_gdp = 70, find sector share.",
+     "a": "92.8571",
+     "self_check": false
+    },
+    {
+     "q": "For Sectoral Composition of Output: given sector_output = 81, total_gdp = 13.4, find sector share.",
+     "a": "604.478",
+     "self_check": false
+    },
+    {
+     "q": "For Sectoral Composition of Output: given sector_output = 38, total_gdp = 0.5, find sector share.",
+     "a": "7600",
+     "self_check": false
+    },
+    {
+     "q": "For Sectoral Composition of Output: given sector_output = 28, total_gdp = 77, find sector share.",
+     "a": "36.3636",
+     "self_check": false
+    },
+    {
+     "q": "For Sectoral Composition of Output: given sector_output = 55, total_gdp = 76, find sector share.",
+     "a": "72.3684",
+     "self_check": false
+    },
+    {
+     "q": "For Sectoral Composition of Output: given sector_output = 62, total_gdp = 78, find sector share.",
+     "a": "79.4872",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "c12eco.8.1",
    "title": "India and Pakistan: Economic Development Path",
@@ -70,68 +164,6 @@
     {
      "q": "Write the standard relation used for 'Demographic Indicators: India, Pakistan, China', in plain ASCII form.",
      "a": "annual_population_growth_rate = ((population_t1 - population_t0) / population_t0) * 100",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "c12eco.8.4",
-   "title": "GDP Growth Comparison: India, Pakistan, China",
-   "questions": [
-    {
-     "q": "Using the method 'GDP Growth Comparison: India, Pakistan, China', work with: gdp_t0 = 5000, gdp_t1 = 20000. Carry the chain through step by step and give the final value of gdp_growth_rate.",
-     "a": "300 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'GDP Growth Comparison: India, Pakistan, China' and work with: gdp_t0 = 50000, gdp_t1 = 5000. Carry the chain through step by step and give the final value of gdp_growth_rate.",
-     "a": "-90 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'GDP Growth Comparison: India, Pakistan, China' refers to.",
-     "a": "GDP growth comparison examines the rate at which the gross domestic product of the three countries has expanded over time, reflecting the pace of economic progress.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'GDP Growth Comparison: India, Pakistan, China'.",
-     "a": "China has consistently recorded the highest GDP growth among the three, followed by India, with Pakistan lagging behind over the reform period.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'GDP Growth Comparison: India, Pakistan, China', in plain ASCII form.",
-     "a": "gdp_growth_rate = ((gdp_t1 - gdp_t0) / gdp_t0) * 100",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "c12eco.8.5",
-   "title": "Sectoral Composition of Output",
-   "questions": [
-    {
-     "q": "Using the method 'Sectoral Composition of Output', work with: sector_output = 20, total_gdp = 80000. Carry the chain through step by step and give the final value of sector_share.",
-     "a": "0.025 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Sectoral Composition of Output' and work with: sector_output = 200, total_gdp = 500. Carry the chain through step by step and give the final value of sector_share.",
-     "a": "40 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Sectoral Composition of Output' refers to.",
-     "a": "Sectoral composition measures the share of agriculture, industry, and services in a country's GDP, indicating the structural transformation of the economy.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Sectoral Composition of Output'.",
-     "a": "China is more industry-driven, India is services-driven, and Pakistan remains relatively more dependent on agriculture and services.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Sectoral Composition of Output', in plain ASCII form.",
-     "a": "sector_share = (sector_output / total_gdp) * 100",
      "self_check": true
     }
    ]

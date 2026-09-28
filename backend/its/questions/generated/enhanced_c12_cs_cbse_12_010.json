@@ -34,6 +34,36 @@
      "q": "Create a decision flowchart (in text form) that a developer could follow to choose between GPL-3.0, MIT, and Apache-2.0 for a new open source project. Include at least four decision nodes based on project goals (e.g., \"Do you want to require derivatives to be open source?\" \"Do you need explicit patent grants?\").",
      "a": "A good answer presents a logical flowchart, e.g.:\nSTART -> Q1: Want to force derivatives to stay open? YES -> GPL-3.0; NO -> Q2: Need explicit patent grant/protection? YES -> Apache-2.0; NO -> Q3: Want simplest license with only attribution? YES -> MIT; NO -> Consider other licenses.\nA poor answer (e.g., just picking one license without reasoning) reveals inability to map license features to project objectives.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Open Source Software (OSS) is software whose source code is made freely available for anyone to view, modify, and ______ under specific licensing terms.",
+     "a": "distribute",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just finished a Python ______ for your school's library management system and want to upload it to GitHub so others can use and improve it.",
+     "a": "project",
+     "self_check": true
+    },
+    {
+     "q": "What is Open Source Software (OSS)? State the definition given in this lesson.",
+     "a": "Open Source Software (OSS) is software whose source code is made freely available for anyone to view, modify, and distribute under specific licensing terms.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The three major licenses covered in this node are: GPL (GNU General Public License) – a strong copyleft license requiring derivative works to be licensed under the same terms; MIT License – a permissive license allowing almost unrestricted use, modification, and distribution with only attribution required; Apache License ______ – a permissive license that additionally grants explicit patent rights and requires preservation of license notices and modification notices.",
+     "a": "2.0",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Open Source Software (OSS)?",
+     "a": "Students often believe \"open source means free of cost\" and \"all open source licenses are basically the same.\" They write in exams: \"GPL, MIT, and Apache all allow free use, so they are equivalent.\" This is wrong because the licenses impose vastly different legal obligations on redistribution and modification.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compare the obligations and permissions of GPL, MIT, and Apache 2.0 licenses, and for a given software distribution scenario (e.g., incorporating a library into a proprietary product, releasing a modified version, or distributing via SaaS), correctly identify which license conditions are triggered and whether the intended.",
+     "self_check": true
     }
    ]
   }

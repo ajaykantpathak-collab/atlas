@@ -34,6 +34,21 @@
      "q": "Design a minimal CAS for a freelance graphic designer who receives 5–10 payments a month and has 3–4 recurring expenses. Specify one concrete choice for each of the five components (e.g., Hardware: smartphone; Software: Wave Apps; etc.) and justify why that choice fits the scale.",
      "a": "Example answer:  \n- Hardware: Smartphone (portable, already owned)  \n- Software: Wave Apps (free, cloud-based, mobile-friendly)  \n- People: Designer herself (sole user)  \n- Data: Bank SMS alerts + manual entry of expense receipts  \n- Procedure: Weekly 15-min session: reconcile bank → categorise → generate P&L  \nJustification: Low volume, zero budget, mobile-first — each component matches the scale.  \nA poor answer (e.g., recommending Tally on a server) shows inability to match CAS architecture to business context — a key competency for board case studies.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Computerised Accounting System (CAS) rests on five ______ components: Procedure (the logical sequence of actions to perform accounting tasks), Data (raw facts like transactions entered as input), People (users such as accountants, managers, auditors who operate and rely on the system), Hardware (physical devices — CPU, memory, storage, input/output units, network), and Software (system software like OS and application software like Tally that processes data into accounting reports).",
+     "a": "interdependent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It starts as Data (date, amount, account heads) entered by People (you) following a Procedure (voucher entry in Tally) on Hardware (your laptop) running Software (______).",
+     "a": "TallyPrime",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) name all five components of CAS with a one-sentence role for each, and (2) explain how a single accounting transaction (e.g., a cash sale) flows through the five components from source document to final report.",
+     "self_check": true
     }
    ]
   }

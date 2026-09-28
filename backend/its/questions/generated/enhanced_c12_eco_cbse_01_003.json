@@ -34,6 +34,31 @@
      "q": "Construct a hypothetical production possibilities schedule for an economy that produces only smartphones and solar panels. Assume the economy has 100 units of labor, and each smartphone requires 2 units of labor while each solar panel requires 5 units of labor. Labor is homogeneous. Write the schedule for 0 to 50 smartphones (in steps of 10), calculate the corresponding solar panels, plot the PPF, and explain its shape.",
      "a": "Schedule: Smartphones (X) | Labor used | Labor left | Solar Panels (Y = labor left / 5)\n0 | 0 | 100 | 20\n10 | 20 | 80 | 16\n20 | 40 | 60 | 12\n30 | 60 | 40 | 8\n40 | 80 | 20 | 4\n50 | 100 | 0 | 0\nPlot: X-axis 0-50, Y-axis 0-20. Points form a straight line from (0,20) to (50,0). Shape is a straight line because labor is homogeneous (constant opportunity cost: each smartphone always costs 0.4 solar panels). A poor answer (e.g., drawing a concave curve or miscalculating solar panels) reveals the student assumes increasing opportunity cost even when resources are perfectly substitutable, or cannot translate a linear resource constraint into a schedule.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Production Possibility Frontier (PPF) is a graphical ______ showing all possible combinations of two goods that an economy can produce with its given resources and technology, assuming full and efficient utilization of resources.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a farmer in Punjab who has 10 hectares of land and must decide how much wheat and rice to grow.",
+     "a": "Imagine",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer in Punjab who has ______ hectares of land and must decide how much wheat and rice to grow.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can construct a PPF from a production possibilities schedule, correctly label axes and intercepts, identify efficient/inefficient/unattainable points, and explain why the PPF is downward sloping and concave to the origin using the concept of increasing opportunity cost.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer in Punjab who has 10 ______ of land and must decide how much wheat and rice to grow.",
+     "a": "hectares",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a gel electrophoresis experiment to distinguish between a 2.5 kb linear DNA fragment and a 2.5 kb supercoiled plasmid. Specify agarose percentage, voltage, run time, and how you would interpret the result. (Hint: supercoiled DNA migrates faster than linear DNA of the same mass.)",
      "a": "Use 1% agarose, 80 V for 60 min in 1× TAE. Load both samples side-by-side with a ladder. The supercoiled plasmid will migrate farther (appear smaller) than the linear 2.5 kb fragment. If the student only says \"they will separate\" without predicting which band runs faster, they lack understanding of DNA topology's effect on mobility — a JEE/NEET advanced concept.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Agarose gel ______ is a molecular biology technique used to separate DNA fragments based on their size by applying an electric field through a porous agarose gel matrix; negatively charged DNA molecules migrate toward the anode, with smaller fragments moving faster through the gel pores than larger ones.",
+     "a": "electrophoresis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You load the PCR mix into wells of an ______ gel, apply current, and watch the dye front move — but why does DNA move at all, and how do you know the band at 500 bp is really 500 bp?",
+     "a": "agarose",
+     "self_check": true
+    },
+    {
+     "q": "What is Agarose gel electrophoresis? State the definition given in this lesson.",
+     "a": "Agarose gel electrophoresis is a molecular biology technique used to separate DNA fragments based on their size by applying an electric field through a porous agarose gel matrix; negatively charged DNA molecules migrate toward the anode, with smaller fragments moving faster through the gel pores than larger ones.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Agarose gel electrophoresis?",
+     "a": "Students often believe that \"DNA migrates toward the positive electrode because it is positively charged\" — confusing the anode/cathode convention with charge attraction.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) explain why DNA migrates toward the anode and how agarose concentration affects resolution, and (2) interpret a gel image by estimating fragment sizes using a DNA ladder and identifying anomalies like smearing or incomplete digestion.",
+     "self_check": true
     }
    ]
   }

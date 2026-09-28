@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using leaf discs, bicarbonate solution, and a light source to demonstrate that the rate of oxygen evolution (proxy for linear electron flow) depends on the availability of NADP⁺ as an electron acceptor. Outline the setup, control, and expected observation.",
      "a": "Setup: Infiltrate spinach leaf discs with 0.2% NaHCO₃ solution (provides CO₂ for Calvin cycle, which regenerates NADP⁺) and place in a syringe under vacuum to sink discs. Transfer to cups: (1) under light with bicarbonate, (2) under light without bicarbonate (water only), (3) dark with bicarbonate. Control: dark without bicarbonate. Expected: Discs rise fastest in (1) because CO₂ fixation consumes NADPH, regenerating NADP⁺, allowing sustained linear electron flow and O₂ evolution. In (2), NADP⁺ becomes limiting as Calvin cycle stalls, slowing O₂ evolution. A poor design (e.g., omitting the dark control or not explaining the role of bicarbonate in NADP⁺ regeneration) shows the student cannot link electron acceptor availability to measurable gas exchange.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The electron transport chain in ______ is a series of protein complexes and mobile carriers embedded in the thylakoid membrane that sequentially transfer electrons from water to NADP⁺, coupling this exergonic flow to the generation of a proton gradient across the membrane, which drives ATP synthesis via chemiosmosis.",
+     "a": "photosynthesis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ an aquatic plant like Hydrilla in a beaker of water under bright sunlight — you will see tiny bubbles forming on the leaves.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can trace the complete path of electrons from H₂O to NADP⁺ in the Z-scheme, explain how the proton gradient is established at three distinct sites, differentiate cyclic and non-cyclic photophosphorylation in terms of electron flow and products, and predict the effect of specific inhibitors (e.g., DCMU) on ATP and NADPH.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe an aquatic plant like ______ in a beaker of water under bright sunlight — you will see tiny bubbles forming on the leaves.",
+     "a": "Hydrilla",
+     "self_check": true
     }
    ]
   }

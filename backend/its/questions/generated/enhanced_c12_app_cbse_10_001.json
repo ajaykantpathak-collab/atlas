@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_10_001",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_10_001",
+   "title": "c12_app_cbse_10_001",
+   "questions": [
+    {
+     "q": "State the three essential components of a Linear Programming Problem and give the general form of the objective function for two variables.",
+     "a": "The three components are: (i) Decision variables (e.g., x, y), (ii) Objective function (Z = ax + by to be maximized/minimized), (iii) Linear constraints (inequalities/equalities in x, y including x ≥ 0, y ≥ 0). A wrong answer like \"objective function is Z = ax² + by\" or missing non-negativity constraints reveals the student thinks LPP allows non-linear terms or forgets that decision variables represent physical quantities (can't be negative).",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the \"divisibility\" assumption in LPP allows fractional values of decision variables, and give a real-life situation where this assumption would be invalid, requiring Integer Programming instead.",
+     "a": "Divisibility means decision variables are continuous — we can produce 10.5 units because resources (time, material) are infinitely divisible in the model. A wrong answer like \"divisibility means we can divide profit equally\" shows confusion with additivity. The assumption fails when variables represent indivisible items: e.g., number of trucks to hire, machines to buy, or people to assign — you can't hire 3.7 trucks. This requires Integer Linear Programming, not standard LPP.",
+     "self_check": true
+    },
+    {
+     "q": "A bakery makes cakes (₹300 profit, 4 eggs, 200g flour) and cookies (₹50 profit, 1 egg, 50g flour). Daily limits: 40 eggs, 2kg flour. Formulate the LPP to maximize profit. Write the objective function and all constraints explicitly.",
+     "a": "Let x = cakes, y = cookies. Maximize Z = 300x + 50y. Constraints: 4x + y ≤ 40 (eggs), 200x + 50y ≤ 2000 → 4x + y ≤ 40 (flour), x ≥ 0, y ≥ 0. Notice both resource constraints simplify to 4x + y ≤ 40 — they are redundant. A wrong answer with 200x + 50y ≤ 2 (unit mismatch: kg vs g) or missing x,y ≥ 0 reveals unit conversion errors or forgetting non-negativity. The redundancy is a feature — it means one resource is the true bottleneck.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"Manufacturing Problem\" and \"Diet Problem\" types of LPP. In what fundamental way do their constraint inequalities differ in direction (≤ vs ≥), and why?",
+     "a": "Manufacturing problems typically have **≤ constraints** (resource usage ≤ availability: machine hours, raw material). Diet problems typically have **≥ constraints** (nutrient intake ≥ minimum requirement). A wrong answer saying \"both use ≤ because constraints are always limits\" misses that diet problems are about meeting *minimums*, not staying *under* maximums. The direction flips because manufacturing *consumes* scarce resources (upper bounds), while diet *must supply* minimum nutrients (lower bounds).",
+     "self_check": true
+    },
+    {
+     "q": "A student formulates an LPP for a transportation problem with two factories (supply 8, 6) and three depots (demand 5, 5, 4). They write the objective as Minimize Z = 16x + 10y + 15(8-x-y) + ... but forget to include constraints ensuring depot demands are met exactly. Evaluate whether this formulation is complete and correct.",
+     "a": "The formulation is **incomplete**. Transportation problems require **supply constraints** (factory output ≤ capacity), **demand constraints** (depot receipt = requirement), and **non-negativity**. Missing demand constraints (e.g., x ≤ 5, y ≤ 5, x+y ≥ 4 from NCERT Example 4) means the model allows shipping less than required — depot shortages are ignored. A student who thinks \"supply constraints are enough\" doesn't understand that transportation LPPs are balanced: total supply = total demand (here 14 = 14), so every unit must go somewhere.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new, original \"Assignment Problem\" scenario (different from NCERT Example 5) with 2 worker groups and 1 task type. Define decision variables, objective function (minimize cost), and all constraints. Ensure hourly cost includes wage + error cost.",
+     "a": "Scenario: A data-entry firm has Group A (12 operators, 50 entries/hr, 99% accuracy, ₹60/hr) and Group B (8 operators, 40 entries/hr, 95% accuracy, ₹45/hr). Must process ≥ 4000 entries in 8 hrs. Error costs ₹10 each. Decision variables: x = hrs each Group A works, y = hrs each Group B works. Hourly cost A = 60 + 10×0.01×50 = ₹65; B = 45 + 10×0.05×40 = ₹65. Minimize Z = 12×65x + 8×65y = 780x + 520y. Constraints: x,y ≥ 0; x ≤ 8, y ≤ 8; 12×50x + 8×40y ≥ 4000 → 600x + 320y ≥ 4000. A good answer shows correct error-cost calculation and demand constraint direction (≥). A poor answer uses ≤ for demand or forgets operator-count multipliers in objective.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

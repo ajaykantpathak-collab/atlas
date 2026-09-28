@@ -34,6 +34,31 @@
      "q": "Design a form for a \"Library Book Issue\" system. It must collect: Student ID (text, exactly 8 digits), Book ISBN (text, 13 digits), Issue Date (date, default today), and a dropdown for \"Loan Period\" (7, 14, 21 days). The form should prevent submission if any field is invalid. Write the complete HTML code using only HTML5 attributes (no JavaScript). Explain how each validation works.",
      "a": "```html\n<form action=\"/issue-book\" method=\"POST\">\n  <label for=\"studentId\">Student ID (8 digits):</label>\n  <input type=\"text\" id=\"studentId\" name=\"studentId\" pattern=\"\\d{8}\" title=\"Exactly 8 digits\" required><br><br>\n  \n  <label for=\"isbn\">Book ISBN (13 digits):</label>\n  <input type=\"text\" id=\"isbn\" name=\"isbn\" pattern=\"\\d{13}\" title=\"Exactly 13 digits\" required><br><br>\n  \n  <label for=\"issueDate\">Issue Date:</label>\n  <input type=\"date\" id=\"issueDate\" name=\"issueDate\" required><br><br>\n  \n  <label for=\"loanPeriod\">Loan Period (days):</label>\n  <select id=\"loanPeriod\" name=\"loanPeriod\" required>\n    <option value=\"\">--Select--</option>\n    <option value=\"7\">7 days</option>\n    <option value=\"14\">14 days</option>\n    <option value=\"21\">21 days</option>\n  </select><br><br>\n  \n  <input type=\"submit\" value=\"Issue Book\">\n</form>\n```\nValidation: (1) `pattern=\"\\d{8}\"` uses regex to enforce exactly 8 digits; `title` shows tooltip on failure. (2) `pattern=\"\\d{13}\"` for ISBN. (3) `type=\"date\"` gives a date picker and ensures valid date format; browser may not set default to today without JS, but `required` forces selection. (4) `<select>` with first empty `option value=\"\"` and `required` forces user to pick a real option. A poor answer might use `type=\"number\"` for IDs (loses leading zeros) or omit `pattern`, showing lack of awareness of HTML5 client-side validation capabilities.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: HTML forms are ______ sections of a web page that collect user input through various input elements (text fields, checkboxes, radio buttons, dropdowns, etc.) and send the data to a server for processing.",
+     "a": "interactive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a \"Student ______\" page for your school's annual fest.",
+     "a": "Registration",
+     "self_check": true
+    },
+    {
+     "q": "What is HTML forms? State the definition given in this lesson.",
+     "a": "HTML forms are interactive sections of a web page that collect user input through various input elements (text fields, checkboxes, radio buttons, dropdowns, etc.) and send the data to a server for processing.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about HTML forms?",
+     "a": "Students often think the value attribute of a text input is the same as the placeholder.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) write complete HTML form code using appropriate input types and attributes for a given data collection scenario, and (2) explain the purpose of each attribute (name, value, required, placeholder, etc.) and how form data is submitted via GET/POST methods.",
+     "self_check": true
     }
    ]
   }

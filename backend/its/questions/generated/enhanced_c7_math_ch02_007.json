@@ -34,6 +34,26 @@
      "q": "Construct a word problem based on everyday Indian shopping or school life that can be translated into the exact arithmetic expression: $(1000 - (2 \\times 350)) \\div 3$. Then explain what each part of your expression represents in your story.",
      "a": "Expected answer criteria:\n1. Must feature a context where ₹1000 is the starting amount.\n2. Must include buying 2 items that cost ₹350 each.\n3. Must involve dividing the remaining balance equally among 3 people or groups.\nExample story: \"Amit went to the market with a ₹1000 note. He bought 2 storybooks priced at ₹350 each. He divided the remaining money equally among his 3 younger siblings. How much money did each sibling get?\" \nExplanation of parts: $1000$ is initial money, $2 \\times 350$ is total cost of books, $1000 - (2 \\times 350)$ is remaining money, and $\\div 3$ splits it equally among 3 siblings. A poor answer fails to use brackets or creates an operation order mismatch (e.g., dividing before subtracting).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Writing expressions from word problems involves translating verbal ______ of real-life situations into mathematical expressions using numbers, operation symbols (+, -, ×, ÷), and grouping symbols (parentheses, brackets) in the correct operational order.",
+     "a": "descriptions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you go to a stationery shop in your town and buy 3 notebooks for ₹45 each and 2 pens for ₹15 each, but the ______ gives you a ₹10 discount on the total bill.",
+     "a": "shopkeeper",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can read a multi-step word problem involving everyday quantities (money, measurements, quantities), identify the correct sequence of operations, insert brackets where necessary to preserve the intended order, and write down an accurate arithmetic expression that evaluates to the correct solution.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you go to a ______ shop in your town and buy 3 notebooks for ₹45 each and 2 pens for ₹15 each, but the shopkeeper gives you a ₹10 discount on the total bill.",
+     "a": "stationery",
+     "self_check": true
     }
    ]
   }

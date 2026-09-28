@@ -34,6 +34,16 @@
      "q": "Create a quadratic equation with integer coefficients that has:\n(a) two distinct irrational roots\n(b) two equal rational roots\n(c) no real roots\nWrite each equation and verify the nature using the discriminant.",
      "a": "(a) \\(x^2 - 2x - 1 = 0\\): \\(D = (-2)^2 - 4(1)(-1) = 4 + 4 = 8 > 0\\) and 8 is not a perfect square → distinct irrational roots.  \n(b) \\(x^2 - 6x + 9 = 0\\): \\(D = (-6)^2 - 4(1)(9) = 36 - 36 = 0\\) → equal rational roots (root = 3).  \n(c) \\(x^2 + x + 1 = 0\\): \\(D = 1^2 - 4(1)(1) = 1 - 4 = -3 < 0\\) → no real roots.  \nA poor answer would use non-integer coefficients, or choose \\(D > 0\\) but a perfect square (giving rational roots) for part (a), showing confusion between \"distinct real\" and \"irrational\". The student must know that \\(D > 0\\) and not a perfect square ⇒ irrational roots.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ garden with area 120 m² and perimeter 44 m.",
+     "a": "rectangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can also construct a quadratic equation with a specified nature of roots by choosing appropriate coefficients.",
+     "self_check": true
     }
    ]
   }

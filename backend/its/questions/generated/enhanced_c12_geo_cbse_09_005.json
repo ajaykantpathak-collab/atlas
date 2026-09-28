@@ -34,6 +34,36 @@
      "q": "Design a choropleth map legend for showing \"Decadal Growth Rate 2001-2011\" across Indian states. Specify 5 class intervals, color scheme, and justify your break points using the actual data range from NCERT (lowest: Kerala 4.9%, highest: Meghalaya 27.9%).",
      "a": "**Expected Answer/Criteria:**\n**Class Intervals (equal interval or quantile — justify choice):**\nOption A (Equal interval, range 23% / 5 = 4.6%): 0-4.6%, 4.6-9.2%, 9.2-13.8%, 13.8-18.4%, 18.4-23.0%, 23.0-27.6% → *but Kerala 4.9% falls in 2nd class, Meghalaya 27.9% needs 6th class — poor fit*\nOption B (Quantile/natural breaks — **recommended**): \n1. Very Low: <10% (Kerala 4.9%, Tamil Nadu 15.6%? Wait — TN 15.6% is not <10%. Actual low: Kerala 4.9%, Goa 8.2%, Punjab 13.9% — use data clusters)\n**Better (data-driven breaks from Appendix-iv):**\n1. <10%: Kerala, Goa (blue)\n2. 10-15%: Tamil Nadu, Punjab, Andhra Pradesh, Odisha (light blue)\n3. 15-20%: Karnataka, Maharashtra, Gujarat, West Bengal (yellow)\n4. 20-25%: Uttar Pradesh, Rajasthan, Madhya Pradesh, Jharkhand (orange)\n5. >25%: Bihar, Chhattisgarh, Meghalaya, Arunachal Pradesh (red)\n**Color scheme:** Sequential single-hue (blue → red) or diverging (blue-white-red) — sequential preferred for growth rate (unidirectional).\n**Justification:** Breaks reflect actual clusters in state data (NCERT Appendix-iv), not arbitrary math. Low-growth southern states clustered <15%, high-growth Hindi-belt states >20%, very high NE states >25%. This reveals the \"demographic divide\" spatially.\n\n**Poor Answer Reveals:** If student uses equal intervals without checking data distribution → map shows no pattern (most states in middle classes). If student uses rainbow colors → violates cartographic convention for sequential data. If student ignores Kerala/Meghalaya extremes → legend doesn't cover full range. If student can't justify breaks → treats mapping as decoration, not analysis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Demographic Transition in India refers to the historical shift in population dynamics from high birth and death rates to low birth and death rates, occurring in four distinct phases between 1901-2011, ______ by changing crude birth rates (CBR), crude death rates (CDR), and natural growth rates driven by socio-economic development, public health improvements, and policy interventions.",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at the ______ pyramid of your own city or district — notice the wide base narrowing sharply?",
+     "a": "population",
+     "self_check": true
+    },
+    {
+     "q": "What is Demographic Transition in India? State the definition given in this lesson.",
+     "a": "Demographic Transition in India refers to the historical shift in population dynamics from high birth and death rates to low birth and death rates, occurring in four distinct phases between 1901-2011, characterized by changing crude birth rates (CBR), crude death rates (CDR), and natural growth rates driven by socio-economic development.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Connect each slope change to historical events: ______ influenza, post-Independence health programs, Green Revolution, family planning.",
+     "a": "1918",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Demographic Transition in India?",
+     "a": "Specific Error: Students believe \"Demographic Transition Phase IV means India's population will soon stop growing\" — they conflate *declining growth rate* with *negative growth* or *zero population growth*.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Identify and explain all four phases of India's demographic transition with specific CBR/CDR trends and causative factors for each phase; (2) Calculate and interpret decadal growth rates using Census data; (3) Analyze regional variations in demographic transition across Indian states using physiographic and.",
+     "self_check": true
     }
    ]
   }

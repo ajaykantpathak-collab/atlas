@@ -34,6 +34,26 @@
      "q": "Design a simple model using a torch, a tennis ball, and a marble to demonstrate why eclipses do not occur during every lunar orbit. Describe how you would show the orbital tilt.",
      "a": "The model should feature a fixed torch as the Sun, a tennis ball held at eye level as the Earth, and a marble as the Moon orbiting around the tennis ball. To show the tilt, the marble should be moved in a plane angled slightly above and below the horizontal table level, showing that the shadow misses the Earth/Moon except when crossing the table plane. A poor answer fails to incorporate the 3D tilt or treats the setup as completely flat.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An eclipse occurs when one ______ body moves into the shadow of another, which requires a precise alignment of the Sun, Earth, and Moon in a nearly straight line.",
+     "a": "celestial",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you hold a small ball between a table lamp and a wall, you can easily make a shadow on the wall, but only when your eye, the ball, and the lamp are lined up ______.",
+     "a": "straight",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Because the Moon's orbital plane is tilted at an angle of about ______ degrees relative to Earth's orbital plane, eclipses do not happen every month, but only when the Moon crosses the orbital plane during a new moon or full moon.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can explain the geometric alignment required for eclipses and predict whether an eclipse will occur based on the relative positions and orbital nodes of the Sun, Earth, and Moon.",
+     "self_check": true
     }
    ]
   }

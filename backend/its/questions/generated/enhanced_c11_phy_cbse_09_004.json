@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a U-tube manometer filled with water to measure the gauge pressure of the gas supply in a school laboratory burner. Describe the setup, what you would measure, and how you would calculate the gauge pressure.",
      "a": "Connect one arm of the U-tube to the gas tap via a rubber tube; leave the other arm open to atmosphere. Open the gas tap; the gas pressure pushes the water down in the connected arm, causing a height difference Δh between the two water levels. Measure Δh with a ruler. Gauge pressure of gas = ρ_water g Δh. A poor answer would omit the need to measure the height difference, or suggest using mercury without safety precautions, indicating lack of practical understanding of manometer operation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ pressure is the pressure exerted by the weight of the air column extending from a point to the top of the atmosphere; at sea level it is 1.013 × 10⁵ Pa (1 atm).",
+     "a": "Atmospheric",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a drinking straw: when you suck, you reduce the pressure inside your mouth, and the ______ pressure pushing down on the liquid surface in the glass forces the liquid up the straw.",
+     "a": "atmospheric",
+     "self_check": true
+    },
+    {
+     "q": "What is Atmospheric pressure? State the definition given in this lesson.",
+     "a": "Atmospheric pressure is the pressure exerted by the weight of the air column extending from a point to the top of the atmosphere; at sea level it is 1.013 × 10⁵ Pa (1 atm).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Atmospheric pressure?",
+     "a": "Students often think that the height of the liquid column in a barometer or manometer directly gives the absolute pressure in pascals without multiplying by ρg.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) distinguish between absolute, gauge, and atmospheric pressure and convert between them; (2) explain the working principle of a mercury barometer and an open-tube manometer; (3) calculate gauge pressure at a depth in a fluid using P_gauge = ρgh and absolute pressure using P_absolute = P_atm + ρgh; (4).",
+     "self_check": true
     }
    ]
   }

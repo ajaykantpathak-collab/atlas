@@ -34,6 +34,21 @@
      "q": "Create a word problem about buying fruits at a market where the solution requires multiplying a decimal by a whole number, and state the final answer.",
      "a": "A good problem: \"Rahul buys $3\\text{ kg}$ of mangoes. If $1\\text{ kg}$ of mangoes costs $\\text{₹}85.50$, how much does Rahul pay in total?\" Expected answer: $3 \\times 85.50 = \\text{₹}256.50$. A poor answer would use operations or values that do not make sense in a real-world market context, such as negative numbers or fractional quantities of items that cannot be split.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Solving word problems involving decimal ______ and division requires translating real-world scenarios into mathematical expressions with decimals, then performing the operations accurately while keeping track of units and place values.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To begin, you must write down what is given: the cost per unit and the total quantity purchased, then decide whether to combine equal groups through ______ or split a total into equal parts through division.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can read a multi-sentence word problem set in a daily life context (such as money, weight, or distance), correctly choose whether to multiply or divide decimals, set up the operation, and interpret the final answer with correct units.",
+     "self_check": true
     }
    ]
   }

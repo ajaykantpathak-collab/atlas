@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_02_007",
+   "title": "c12_app_cbse_02_007",
+   "questions": [
+    {
+     "q": "A matrix has 12 elements. Write all possible orders this matrix can have. Explain why (2×5) is NOT a possible order.",
+     "a": "Correct answer: Possible orders are 1×12, 12×1, 2×6, 6×2, 3×4, 4×3. (2×5) gives 10 elements, not 12 — the product of rows and columns must exactly equal the total number of elements. A wrong answer (e.g., listing 2×5 or missing 3×4) reveals the student doesn't grasp that **order m×n means exactly m×n elements**, or they forget to consider both orientations (m×n and n×m) as distinct unless m=n.",
+     "self_check": true
+    },
+    {
+     "q": "Given matrix A = [aᵢⱼ]₂ₓ₃ where aᵢⱼ = (i − 2j)². Construct the full matrix A. Then identify: Is A a square matrix? A diagonal matrix? A symmetric matrix? Justify each answer.",
+     "a": "Correct construction:\ni=1,j=1: (1−2)²=1; i=1,j=2: (1−4)²=9; i=1,j=3: (1−6)²=25\ni=2,j=1: (2−2)²=0; i=2,j=2: (2−4)²=4; i=2,j=3: (2−6)²=16\n⇒ A = [[1, 9, 25], [0, 4, 16]] of order 2×3.\nNot square (rows≠columns), not diagonal (only square matrices can be diagonal), not symmetric (Aᵀ would be 3×2, so A≠Aᵀ). A wrong answer (e.g., calling it square or diagonal) reveals confusion: **diagonal/symmetric/identity/scalar types ONLY apply to square matrices** — a rectangular matrix can never be any of these.",
+     "self_check": true
+    },
+    {
+     "q": "If [ [2a+b, a−2b], [4c+3d, 5c−d] ] = [ [4, −3], [24, 11] ], find a, b, c, d. Show the system of equations you set up and solve step by step.",
+     "a": "Equate corresponding elements:\n2a + b = 4  ...(1)\na − 2b = −3 ...(2)\n4c + 3d = 24 ...(3)\n5c − d = 11  ...(4)\nFrom (1),(2): Multiply (2) by 2 → 2a−4b=−6; subtract from (1): 5b=10 ⇒ b=2; then a=1.\nFrom (3),(4): Multiply (4) by 3 → 15c−3d=33; add to (3): 19c=57 ⇒ c=3; then d=4.\nAnswer: a=1, b=2, c=3, d=4.\nA wrong answer (e.g., a=2, b=0) reveals the student **equates elements position-wise but makes algebraic errors solving the linear system**, or worse — they equate wrong positions (e.g., 2a+b=24) showing they don't understand \"corresponding elements\" means same row, same column.",
+     "self_check": true
+    },
+    {
+     "q": "Matrix P = [[5, 0], [0, 5]] and Matrix Q = [[1, 0], [0, 1]]. A student says: \"Both are diagonal matrices with equal diagonal elements, so both are scalar matrices. And since scalar matrices with 1 on diagonal are identity matrices, both are identity matrices.\" Identify the error(s) in this statement and correct it.",
+     "a": "Error: Q is an identity matrix (I₂) because diagonal elements are 1. P is a scalar matrix (5I₂) but NOT an identity matrix because its diagonal elements are 5, not 1. The student incorrectly assumes **every scalar matrix is an identity matrix** — but identity matrix is a *special case* of scalar matrix where the scalar = 1. A wrong answer reveals the student memorized \"scalar = equal diagonal\" and \"identity = 1 on diagonal\" but didn't internalize the **hierarchy**: Identity ⊂ Scalar ⊂ Diagonal ⊂ Square.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"For any matrix A of order m×n, the number of distinct matrices that can be formed using only the numbers {2, 0, −1} is 3^(m×n).\" Is this always true? If yes, prove it. If no, give a counterexample and state the exact condition when it fails.",
+     "a": "The claim is **false** as a universal statement. Counterexample: If the problem restricts matrices to be *diagonal* of order 2×2, then only diagonal elements can vary (2 choices each: 2, 0, −1) but off-diagonals are forced to 0 — total distinct matrices = 3² = 9, not 3⁴ = 81. The formula 3^(m×n) holds **only when no structural constraints** (like diagonal, symmetric, triangular) are imposed — i.e., for *general* rectangular matrices where every element is free to be any of the 3 values. A wrong answer (saying \"always true\") reveals the student doesn't distinguish between **unconstrained element-wise choices** vs **constrained matrix types** — a critical trap in JEE combinatorics questions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where you would need to: (a) represent data as a rectangular matrix (not square), (b) construct a matrix from a formula aᵢⱼ = f(i,j), and (c) use matrix equality to solve for unknowns. Write the complete problem statement with all given data, then solve it fully.",
+     "a": "**Scenario**: A Karnataka coffee cooperative tracks two estates (Coorg, Chikmagalur) producing three coffee grades (Arabica, Robusta, Liberica) over two quarters (Q1, Q2).\n(a) Rectangular matrix: Estate × Grade production in Q1: Coorg [120, 80, 50], Chikmagalur [90, 110, 40] → 2×3 matrix.\n(b) Formula matrix: Expected Q2 yield per hectare: aᵢⱼ = 50 + 10i − 5j (i=estate 1,2; j=grade 1,2,3) → construct 2×3 matrix by substitution.\n(c) Equality: Actual Q2 matrix = [[130, 75, 45], [95, 115, 35]]. Equate to formula matrix: 50+10(1)−5(1)=55 ≠ 130 ⇒ model wrong. Adjust formula to aᵢⱼ = p + qi − rj; equate 6 equations to solve p,q,r.\nA poor answer (vague scenario, missing steps) reveals the student **cannot translate word problems into matrix structure** — the #1 skill needed for CBSE case-study questions and CUET data interpretation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

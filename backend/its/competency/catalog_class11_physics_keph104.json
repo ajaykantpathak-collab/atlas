@@ -1,210 +1,343 @@
 {
-  "class": 11,
-  "subject": "physics",
-  "chapter": 104,
-  "chapter_title": "Laws of Motion",
-  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keph104.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "concepts": [
+ "class": 11,
+ "subject": "physics",
+ "chapter": 104,
+ "chapter_title": "Laws of Motion",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keph104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "keph104.4.3.1",
+   "title": "Inertia and Newton's First Law",
+   "section": "4.3, 4.4",
+   "definition": "Bodies resist changes to their motion: an object at rest stays at rest and a moving object keeps its velocity unless a net external force intervenes. This inertia scales with mass -- a loaded truck is harder to start and to stop than a bicycle at the same speed.",
+   "formula": "",
+   "key_idea": "No net force means no change in velocity -- motion needs no cause, only changes in motion do.",
+   "textbook_ref": "keph104.txt lines 40-160 (sections 4.2 Aristotle's fallacy, 4.3 law of inertia, 4.4 Newton's first law, Galileo's inclined plane argument)",
+   "question_patterns": [
+    "state Newton's first law of motion and define inertia",
+    "in class 11 laws of motion: why does a passenger lurch forward when a bus brakes",
+    "how did Galileo's inclined plane experiment argue against Aristotle",
+    "on what property of a body does its inertia depend",
+    "why is the first law called the law of inertia",
+    "give a daily life example of inertia of rest and of motion"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
     {
-      "id": "keph104.4.3.1",
-      "title": "Inertia and Newton's First Law",
-      "section": "4.3, 4.4",
-      "definition": "Bodies resist changes to their motion: an object at rest stays at rest and a moving object keeps its velocity unless a net external force intervenes. This inertia scales with mass -- a loaded truck is harder to start and to stop than a bicycle at the same speed.",
-      "formula": "",
-      "key_idea": "No net force means no change in velocity -- motion needs no cause, only changes in motion do.",
-      "textbook_ref": "keph104.txt lines 40-160 (sections 4.2 Aristotle's fallacy, 4.3 law of inertia, 4.4 Newton's first law, Galileo's inclined plane argument)",
-      "question_patterns": [
-        "state Newton's first law of motion and define inertia",
-        "in class 11 laws of motion: why does a passenger lurch forward when a bus brakes",
-        "how did Galileo's inclined plane experiment argue against Aristotle",
-        "on what property of a body does its inertia depend",
-        "why is the first law called the law of inertia",
-        "give a daily life example of inertia of rest and of motion"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "state the law", "explain": "With zero net external force the velocity -- including the zero velocity of rest -- never changes."},
-        {"step": 2, "action": "name the resistance", "explain": "Inertia is the body's reluctance to change that state, and mass measures how much inertia it owns."},
-        {"step": 3, "action": "explain everyday jolts", "explain": "Sudden braking drops the support under a passenger while the body keeps its motion, which is inertia made visible."}
-      ]
+     "step": 1,
+     "action": "state the law",
+     "explain": "With zero net external force the velocity -- including the zero velocity of rest -- never changes."
     },
     {
-      "id": "keph104.4.4.1",
-      "title": "Momentum and Newton's Second Law",
-      "section": "4.4",
-      "definition": "Momentum, mass times velocity, is the quantity of motion a body carries. Newton's second law says the net external force equals the rate of change of momentum; for fixed mass this collapses to force equals mass times acceleration, the workhorse equation of mechanics.",
-      "formula": "force = mass * accel",
-      "key_idea": "Force rewrites momentum per second -- push harder or longer and the momentum changes proportionally.",
-      "textbook_ref": "keph104.txt lines 161-260 (section 4.4 Newton's second and third laws, momentum, impulse idea in worked examples)",
-      "question_patterns": [
-        "find the force needed to produce the given acceleration",
-        "in class 11 laws of motion: state the second law in momentum form",
-        "calculate the acceleration of a body under a given net force",
-        "why is the second law called the real law of motion by some",
-        "a cart of known mass speeds up, determine the applied force",
-        "relate the rate of change of momentum to the applied force"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "change the velocity over time", "explain": "Divide the velocity change by the time it takes to get the acceleration.",
-         "compute": "accel = (final_v - initial_v) / time_taken"},
-        {"step": 2, "action": "multiply by the mass", "explain": "Mass times acceleration equals the net force doing the pushing.",
-         "compute": "force = mass * accel"}
-      ]
+     "step": 2,
+     "action": "name the resistance",
+     "explain": "Inertia is the body's reluctance to change that state, and mass measures how much inertia it owns."
     },
     {
-      "id": "keph104.4.4.2",
-      "title": "Newton's Third Law and Conservation of Momentum",
-      "section": "4.7",
-      "definition": "Forces come in pairs: if body A pushes body B, B pushes A back equally hard along the same line. Because the pair acts and reacts inside the system, the total momentum of an isolated system never changes -- this conservation of momentum follows directly from the third law.",
-      "formula": "p_total = mass1 * velocity1 + mass2 * velocity2",
-      "key_idea": "Internal pushes shuffle momentum between bodies but never change the system total.",
-      "textbook_ref": "keph104.txt lines 200-360 (section 4.7 conservation of momentum, third law action reaction pairs, recoil and collision examples)",
-      "question_patterns": [
-        "state the law of conservation of momentum and link it to the third law",
-        "in class 11 laws of motion: explain the recoil of a gun using momentum conservation",
-        "two bodies collide in isolation, what happens to their total momentum",
-        "identify the action reaction pair in a given situation",
-        "why do action and reaction not cancel each other on one body",
-        "the masses and velocities before collision are given, find the total momentum"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "sum the individual momenta", "explain": "Each body contributes mass times velocity; add them with signs for direction.",
-         "compute": "p_total = mass1 * velocity1 + mass2 * velocity2"}
-      ]
-    },
-    {
-      "id": "keph104.4.8.1",
-      "title": "Friction: Static, Kinetic and Rolling",
-      "section": "4.9",
-      "definition": "Contact surfaces resist sliding through friction. Static friction adjusts itself up to a maximum set by the coefficient of static friction times the normal force; once sliding begins the smaller kinetic friction takes over, and rolling friction is smaller still. Friction is called a necessary evil -- it opposes motion yet enables walking and braking.",
-      "formula": "friction_max = mu_s * normal_force",
-      "key_idea": "Friction has a ceiling proportional to how hard the surfaces press -- exceed it and sliding starts.",
-      "textbook_ref": "keph104.txt lines 361-460 (section 4.9 friction, static and kinetic friction, coefficients, rolling friction, laws of friction)",
-      "question_patterns": [
-        "find the maximum static friction for the given normal force and coefficient",
-        "in class 11 laws of motion: why is kinetic friction smaller than limiting static friction",
-        "will the block start sliding for the applied pull",
-        "distinguish static kinetic and rolling friction",
-        "calculate the minimum force to move a block on a rough floor",
-        "why is walking possible only because friction exists"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "scale the normal force", "explain": "Multiply the pressing force by the coefficient of static friction to get the friction ceiling.",
-         "compute": "friction_max = mu_s * normal_force"}
-      ]
-    },
-    {
-      "id": "keph104.4.10.1",
-      "title": "Dynamics of Circular Motion",
-      "section": "4.10",
-      "definition": "Circular motion demands a centre-directed net force of size mass times speed squared over radius -- the centripetal force. Banked roads, curved tracks and a whirling stone on a string all supply this force in different guises; a vehicle's safe speed on a banked curve follows from resolving forces on the incline.",
-      "formula": "",
-      "key_idea": "Something must pull inward -- identify which real force plays centripetal in each situation.",
-      "textbook_ref": "keph104.txt lines 461-560 (sections 4.10 circular motion, 4.11 solving problems in mechanics, banking of roads, centripetal force)",
-      "question_patterns": [
-        "identify the source of centripetal force in the given circular motion",
-        "in class 11 laws of motion: derive the maximum safe speed on a banked road",
-        "why does a coin fly off a turning turntable",
-        "find the tension in the string of a whirling stone",
-        "what happens to circular motion when the centripetal force vanishes",
-        "explain banking of roads with a free body diagram"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "draw the free body diagram", "explain": "Mark every real force on the body: weight, normal, tension or friction."},
-        {"step": 2, "action": "point the net inward", "explain": "The radial component of the real forces must equal m v squared over r."},
-        {"step": 3, "action": "solve the design question", "explain": "For banked curves, resolving along and across the incline yields the friction-free ideal speed in terms of g, radius and banking angle."}
-      ]
+     "step": 3,
+     "action": "explain everyday jolts",
+     "explain": "Sudden braking drops the support under a passenger while the body keeps its motion, which is inertia made visible."
     }
-  ],
-  "worked_examples": [
+   ]
+  },
+  {
+   "id": "keph104.4.4.1",
+   "title": "Momentum and Newton's Second Law",
+   "section": "4.4",
+   "definition": "Momentum, mass times velocity, is the quantity of motion a body carries. Newton's second law says the net external force equals the rate of change of momentum; for fixed mass this collapses to force equals mass times acceleration, the workhorse equation of mechanics.",
+   "formula": "force = mass * accel",
+   "key_idea": "Force rewrites momentum per second -- push harder or longer and the momentum changes proportionally.",
+   "textbook_ref": "keph104.txt lines 161-260 (section 4.4 Newton's second and third laws, momentum, impulse idea in worked examples)",
+   "question_patterns": [
+    "find the force needed to produce the given acceleration",
+    "in class 11 laws of motion: state the second law in momentum form",
+    "calculate the acceleration of a body under a given net force",
+    "why is the second law called the real law of motion by some",
+    "a cart of known mass speeds up, determine the applied force",
+    "relate the rate of change of momentum to the applied force"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "we1",
-      "source_ref": "keph104.txt lines 161-260 (second law)",
-      "concept": "keph104.4.4.1",
-      "question_type": "compute",
-      "question_pattern": "A {mass} kg body speeds up from {initial_v} to {final_v} in {time_taken} s; find the net force.",
-      "extracted_variables": {"mass": 2, "initial_v": 0, "final_v": 10, "time_taken": 5},
-      "solution_template": [
-        {"step": 1, "action": "change the velocity over time", "explain": "accel = (10 - 0) / 5 = 2 m/s^2.", "compute": "accel = (final_v - initial_v) / time_taken"},
-        {"step": 2, "action": "multiply by the mass", "explain": "force = 2 * 2 = 4 N.", "compute": "force = mass * accel"}
-      ]
+     "step": 1,
+     "action": "change the velocity over time",
+     "explain": "Divide the velocity change by the time it takes to get the acceleration.",
+     "compute": "accel = (final_v - initial_v) / time_taken"
     },
     {
-      "id": "we2",
-      "source_ref": "keph104.txt lines 161-260 (second law)",
-      "concept": "keph104.4.4.1",
-      "question_type": "compute",
-      "question_pattern": "A car of mass {mass} kg accelerates from {initial_v} to {final_v} km/h in {time_taken} s; compute the driving force.",
-      "extracted_variables": {"mass": 1500, "initial_v": 0, "final_v": 20, "time_taken": 10},
-      "solution_template": [
-        {"step": 1, "action": "change the velocity over time", "explain": "accel = 20 / 10 = 2 m/s^2.", "compute": "accel = (final_v - initial_v) / time_taken"},
-        {"step": 2, "action": "multiply by the mass", "explain": "force = 1500 * 2 = 3000 N.", "compute": "force = mass * accel"}
-      ]
-    },
-    {
-      "id": "we3",
-      "source_ref": "keph104.txt lines 200-360 (conservation of momentum)",
-      "concept": "keph104.4.4.2",
-      "question_type": "compute",
-      "question_pattern": "Before collision, a {mass1} kg body moves at {velocity1} and a {mass2} kg body rests; find the total momentum.",
-      "extracted_variables": {"mass1": 2, "velocity1": 6, "mass2": 4, "velocity2": 0},
-      "solution_template": [
-        {"step": 1, "action": "sum the individual momenta", "explain": "p_total = 2 * 6 + 4 * 0 = 12 kg m/s.", "compute": "p_total = mass1 * velocity1 + mass2 * velocity2"}
-      ]
-    },
-    {
-      "id": "we4",
-      "source_ref": "keph104.txt lines 200-360 (conservation of momentum)",
-      "concept": "keph104.4.4.2",
-      "question_type": "compute",
-      "question_pattern": "Bodies of {mass1} kg at {velocity1} and {mass2} kg at {velocity2} approach each other; compute the system momentum.",
-      "extracted_variables": {"mass1": 10, "velocity1": 5, "mass2": 5, "velocity2": -4},
-      "solution_template": [
-        {"step": 1, "action": "sum the individual momenta", "explain": "p_total = 10 * 5 + 5 * (-4) = 30 kg m/s.", "compute": "p_total = mass1 * velocity1 + mass2 * velocity2"}
-      ]
-    },
-    {
-      "id": "we5",
-      "source_ref": "keph104.txt lines 361-460 (friction)",
-      "concept": "keph104.4.8.1",
-      "question_type": "compute",
-      "question_pattern": "A block presses a floor with normal force {normal_force} N; the coefficient of static friction is {mu_s}. Find the maximum friction.",
-      "extracted_variables": {"mu_s": 0.5, "normal_force": 50},
-      "solution_template": [
-        {"step": 1, "action": "scale the normal force", "explain": "friction_max = 0.5 * 50 = 25 N.", "compute": "friction_max = mu_s * normal_force"}
-      ]
-    },
-    {
-      "id": "we6",
-      "source_ref": "keph104.txt lines 361-460 (friction)",
-      "concept": "keph104.4.8.1",
-      "question_type": "compute",
-      "question_pattern": "With normal force {normal_force} N and static coefficient {mu_s}, compute the limiting friction.",
-      "extracted_variables": {"mu_s": 0.2, "normal_force": 100},
-      "solution_template": [
-        {"step": 1, "action": "scale the normal force", "explain": "friction_max = 0.2 * 100 = 20 N.", "compute": "friction_max = mu_s * normal_force"}
-      ]
+     "step": 2,
+     "action": "multiply by the mass",
+     "explain": "Mass times acceleration equals the net force doing the pushing.",
+     "compute": "force = mass * accel"
     }
-  ],
-  "exercises": [
+   ],
+   "compute_steps": [
     {
-      "id": "ex1",
-      "source_ref": "keph104.txt end-of-chapter exercises, reworded",
-      "questions": [
-        "Give the magnitude and direction of the net force for each described situation.",
-        "A pebble of given mass is thrown horizontally; find the force on it during flight (neglect resistance).",
-        "A stone of 1 kg is whirled in a circle of given radius at given speed; find the tension.",
-        "Explain why a cricketer pulls his hands back while catching a fast ball using impulse.",
-        "A body of mass m is on a rough incline; find the force needed to just move it up.",
-        "Two blocks connected by a string are pulled on a frictionless table; find the acceleration and the string tension.",
-        "State why the action and reaction forces never cancel on the same body.",
-        "A jet plane of given mass needs a given acceleration; compute the thrust required."
-      ]
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "force = mass * accel",
+     "compute": "force = mass * accel"
     }
-  ]
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "keph104.4.4.2",
+   "title": "Newton's Third Law and Conservation of Momentum",
+   "section": "4.7",
+   "definition": "Forces come in pairs: if body A pushes body B, B pushes A back equally hard along the same line. Because the pair acts and reacts inside the system, the total momentum of an isolated system never changes -- this conservation of momentum follows directly from the third law.",
+   "formula": "p_total = mass_1 * velocity_1 + mass_2 * velocity_2",
+   "key_idea": "Internal pushes shuffle momentum between bodies but never change the system total.",
+   "textbook_ref": "keph104.txt lines 200-360 (section 4.7 conservation of momentum, third law action reaction pairs, recoil and collision examples)",
+   "question_patterns": [
+    "state the law of conservation of momentum and link it to the third law",
+    "in class 11 laws of motion: explain the recoil of a gun using momentum conservation",
+    "two bodies collide in isolation, what happens to their total momentum",
+    "identify the action reaction pair in a given situation",
+    "why do action and reaction not cancel each other on one body",
+    "the masses and velocities before collision are given, find the total momentum"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "sum the individual momenta",
+     "explain": "Each body contributes mass times velocity; add them with signs for direction.",
+     "compute": "p_total = mass1 * velocity1 + mass2 * velocity2"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "p_total = mass_1 * velocity_1 + mass_2 * velocity_2",
+     "compute": "p_total = mass_1 * velocity_1 + mass_2 * velocity_2"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "keph104.4.8.1",
+   "title": "Friction: Static, Kinetic and Rolling",
+   "section": "4.9",
+   "definition": "Contact surfaces resist sliding through friction. Static friction adjusts itself up to a maximum set by the coefficient of static friction times the normal force; once sliding begins the smaller kinetic friction takes over, and rolling friction is smaller still. Friction is called a necessary evil -- it opposes motion yet enables walking and braking.",
+   "formula": "friction_max = mu_s * normal_force",
+   "key_idea": "Friction has a ceiling proportional to how hard the surfaces press -- exceed it and sliding starts.",
+   "textbook_ref": "keph104.txt lines 361-460 (section 4.9 friction, static and kinetic friction, coefficients, rolling friction, laws of friction)",
+   "question_patterns": [
+    "find the maximum static friction for the given normal force and coefficient",
+    "in class 11 laws of motion: why is kinetic friction smaller than limiting static friction",
+    "will the block start sliding for the applied pull",
+    "distinguish static kinetic and rolling friction",
+    "calculate the minimum force to move a block on a rough floor",
+    "why is walking possible only because friction exists"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "scale the normal force",
+     "explain": "Multiply the pressing force by the coefficient of static friction to get the friction ceiling.",
+     "compute": "friction_max = mu_s * normal_force"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "friction_max = mu_s * normal_force",
+     "compute": "friction_max = mu_s * normal_force"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "keph104.4.10.1",
+   "title": "Dynamics of Circular Motion",
+   "section": "4.10",
+   "definition": "Circular motion demands a centre-directed net force of size mass times speed squared over radius -- the centripetal force. Banked roads, curved tracks and a whirling stone on a string all supply this force in different guises; a vehicle's safe speed on a banked curve follows from resolving forces on the incline.",
+   "formula": "",
+   "key_idea": "Something must pull inward -- identify which real force plays centripetal in each situation.",
+   "textbook_ref": "keph104.txt lines 461-560 (sections 4.10 circular motion, 4.11 solving problems in mechanics, banking of roads, centripetal force)",
+   "question_patterns": [
+    "identify the source of centripetal force in the given circular motion",
+    "in class 11 laws of motion: derive the maximum safe speed on a banked road",
+    "why does a coin fly off a turning turntable",
+    "find the tension in the string of a whirling stone",
+    "what happens to circular motion when the centripetal force vanishes",
+    "explain banking of roads with a free body diagram"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "draw the free body diagram",
+     "explain": "Mark every real force on the body: weight, normal, tension or friction."
+    },
+    {
+     "step": 2,
+     "action": "point the net inward",
+     "explain": "The radial component of the real forces must equal m v squared over r."
+    },
+    {
+     "step": 3,
+     "action": "solve the design question",
+     "explain": "For banked curves, resolving along and across the incline yields the friction-free ideal speed in terms of g, radius and banking angle."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "keph104.txt lines 161-260 (second law)",
+   "concept": "keph104.4.4.1",
+   "question_type": "compute",
+   "question_pattern": "A {mass} kg body speeds up from {initial_v} to {final_v} in {time_taken} s; find the net force.",
+   "extracted_variables": {
+    "mass": 2,
+    "initial_v": 0,
+    "final_v": 10,
+    "time_taken": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "change the velocity over time",
+     "explain": "accel = (10 - 0) / 5 = 2 m/s^2.",
+     "compute": "accel = (final_v - initial_v) / time_taken"
+    },
+    {
+     "step": 2,
+     "action": "multiply by the mass",
+     "explain": "force = 2 * 2 = 4 N.",
+     "compute": "force = mass * accel"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "keph104.txt lines 161-260 (second law)",
+   "concept": "keph104.4.4.1",
+   "question_type": "compute",
+   "question_pattern": "A car of mass {mass} kg accelerates from {initial_v} to {final_v} km/h in {time_taken} s; compute the driving force.",
+   "extracted_variables": {
+    "mass": 1500,
+    "initial_v": 0,
+    "final_v": 20,
+    "time_taken": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "change the velocity over time",
+     "explain": "accel = 20 / 10 = 2 m/s^2.",
+     "compute": "accel = (final_v - initial_v) / time_taken"
+    },
+    {
+     "step": 2,
+     "action": "multiply by the mass",
+     "explain": "force = 1500 * 2 = 3000 N.",
+     "compute": "force = mass * accel"
+    }
+   ]
+  },
+  {
+   "id": "we3",
+   "source_ref": "keph104.txt lines 200-360 (conservation of momentum)",
+   "concept": "keph104.4.4.2",
+   "question_type": "compute",
+   "question_pattern": "Before collision, a {mass1} kg body moves at {velocity1} and a {mass2} kg body rests; find the total momentum.",
+   "extracted_variables": {
+    "mass1": 2,
+    "velocity1": 6,
+    "mass2": 4,
+    "velocity2": 0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum the individual momenta",
+     "explain": "p_total = 2 * 6 + 4 * 0 = 12 kg m/s.",
+     "compute": "p_total = mass1 * velocity1 + mass2 * velocity2"
+    }
+   ]
+  },
+  {
+   "id": "we4",
+   "source_ref": "keph104.txt lines 200-360 (conservation of momentum)",
+   "concept": "keph104.4.4.2",
+   "question_type": "compute",
+   "question_pattern": "Bodies of {mass1} kg at {velocity1} and {mass2} kg at {velocity2} approach each other; compute the system momentum.",
+   "extracted_variables": {
+    "mass1": 10,
+    "velocity1": 5,
+    "mass2": 5,
+    "velocity2": -4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum the individual momenta",
+     "explain": "p_total = 10 * 5 + 5 * (-4) = 30 kg m/s.",
+     "compute": "p_total = mass1 * velocity1 + mass2 * velocity2"
+    }
+   ]
+  },
+  {
+   "id": "we5",
+   "source_ref": "keph104.txt lines 361-460 (friction)",
+   "concept": "keph104.4.8.1",
+   "question_type": "compute",
+   "question_pattern": "A block presses a floor with normal force {normal_force} N; the coefficient of static friction is {mu_s}. Find the maximum friction.",
+   "extracted_variables": {
+    "mu_s": 0.5,
+    "normal_force": 50
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "scale the normal force",
+     "explain": "friction_max = 0.5 * 50 = 25 N.",
+     "compute": "friction_max = mu_s * normal_force"
+    }
+   ]
+  },
+  {
+   "id": "we6",
+   "source_ref": "keph104.txt lines 361-460 (friction)",
+   "concept": "keph104.4.8.1",
+   "question_type": "compute",
+   "question_pattern": "With normal force {normal_force} N and static coefficient {mu_s}, compute the limiting friction.",
+   "extracted_variables": {
+    "mu_s": 0.2,
+    "normal_force": 100
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "scale the normal force",
+     "explain": "friction_max = 0.2 * 100 = 20 N.",
+     "compute": "friction_max = mu_s * normal_force"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "keph104.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "Give the magnitude and direction of the net force for each described situation.",
+    "A pebble of given mass is thrown horizontally; find the force on it during flight (neglect resistance).",
+    "A stone of 1 kg is whirled in a circle of given radius at given speed; find the tension.",
+    "Explain why a cricketer pulls his hands back while catching a fast ball using impulse.",
+    "A body of mass m is on a rough incline; find the force needed to just move it up.",
+    "Two blocks connected by a string are pulled on a frictionless table; find the acceleration and the string tension.",
+    "State why the action and reaction forces never cancel on the same body.",
+    "A jet plane of given mass needs a given acceleration; compute the thrust required."
+   ]
+  }
+ ]
 }

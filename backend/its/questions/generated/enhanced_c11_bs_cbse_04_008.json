@@ -34,6 +34,31 @@
      "q": "[CREATE] **Design a \"Communication Services Portfolio\" for a startup** launching a subscription-based \"Regional Snack Box\" delivered monthly across India. The startup operates from a Tier-2 city. Specify **exactly one postal and one telecom service for each of these four functions**: (1) Shipping boxes to subscribers, (2) Collecting monthly subscription payments from non-digital customers, (3) Coordinating real-time with a contract packaging unit in a different state, (4) Sending promotional flyers to potential corporate clients in metro offices. Justify each selection in 15 words or less.",
      "a": "| Function | Postal Service | Justification | Telecom Service | Justification |\n| :--- | :--- | :--- | :--- | :--- |\n| **1. Shipping Boxes** | **Speed Post** | Tracked, time-bound, 1000+ destinations, COD option. | **Cellular Mobile (4G/5G)** | Driver/delivery partner uses mobile data for GPS tracking & OTP delivery confirmation. |\n| **2. Collecting Payments (Non-digital)** | **Money Order** | Reaches unbanked/non-digital customers at doorstep; trusted government instrument. | **Fixed Line (Broadband)** | Office uses broadband for accounting software to reconcile Money Order receipts. |\n| **3. Coordinating with Packaging Unit** | **Registered Post** | Sending signed physical contracts/NDAs with legal proof of delivery. | **Cellular Mobile (Voice/Video)** | Daily production calls, WhatsApp video for quality checks, instant issue resolution. |\n| **4. Promotional Flyers to Corporates** | **Direct Post (Addressed)** | Targeted addressed mail to specific corporate offices/decision-makers. | **VSAT** (Backup) | Ensures email/server uptime for digital follow-up campaigns if primary fiber fails. |\nA poor answer uses generic terms (\"Courier\", \"Internet\", \"Phone\") instead of specific NCERT facility names, or mismatches the service to the constraint (e.g., using DTH for coordination, or e-bill post for flyers).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ services are business services that enable the transmission of information, messages, and data between an enterprise and its stakeholders (suppliers, customers, competitors, government) through two distinct networks: postal services (physical carriage of letters, parcels, and financial instruments via the Department of Posts) and telecom services (electronic transmission of voice, data, and video via technologies like mobile, satellite, and fiber optics).",
+     "a": "Communication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small online ______ selling handmade pickles from your village.",
+     "a": "business",
+     "self_check": true
+    },
+    {
+     "q": "What is Communication services? State the definition given in this lesson.",
+     "a": "Communication services are business services that enable the transmission of information, messages, and data between an enterprise and its stakeholders (suppliers, customers, competitors, government) through two distinct networks: postal services (physical carriage of letters, parcels, and financial instruments via the Department of.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Communication services?",
+     "a": "Misconception: \"Telecom services only mean mobile phones (cellular), and Postal services are just for letters.\" Why it happens: Students equate \"telecom\" with their personal smartphone usage (calls/WhatsApp) and \"post\" with personal letters, ignoring the business-grade infrastructure definitions in NCERT.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish postal services from telecom services by listing three unique facilities of each; (2) Match a given business scenario (e.g., sending a legal contract to a remote village, broadcasting an advertisement, enabling video-conferencing in a hilly area) to the specific postal or telecom facility that.",
+     "self_check": true
     }
    ]
   }

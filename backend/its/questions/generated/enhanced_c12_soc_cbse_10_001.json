@@ -1,0 +1,71 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_10_001",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_10_001",
+   "title": "c12_soc_cbse_10_001",
+   "questions": [
+    {
+     "q": "Define 'popular sovereignty' in the context of democratic theory and identify the specific Constitutional provision in India that operationalises it at the national level.",
+     "a": "Popular sovereignty means the ultimate authority of the state rests with the people, who are the source of all political power. In India, Article 326 (Universal Adult Franchise) operationalises this by granting every citizen aged 18+ the right to vote in elections to the Lok Sabha and State Legislative Assemblies. A wrong answer (e.g., citing Article 324 — Election Commission — or Article 74 — Council of Ministers) reveals confusion between the *source* of sovereignty (people) and the *institutions* that administer or exercise it.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the distinction between 'procedural democracy' and 'substantive democracy' is sociologically significant, using the example of Panchayati Raj reservations for women (73rd Amendment).",
+     "a": "Procedural democracy focuses on formal institutions (elections, rules); substantive democracy asks whether outcomes reflect justice and inclusion. The 73nd Amendment mandates 33% seats for women in Panchayats — a procedural guarantee. But if elected women proxies (sarpanch-patis) exercise power, substantive democracy is denied. A wrong answer that equates the two or ignores the gap between formal representation and effective participation shows inability to apply sociological imagination (C. Wright Mills) to democratic structures — a core Class 12 skill.",
+     "self_check": true
+    },
+    {
+     "q": "A country holds regular multi-party elections with universal suffrage, but the ruling party controls the media, judiciary, and election commission. Opposition leaders face fabricated cases. Classify this regime using democratic typology and justify with two features it violates.",
+     "a": "This is an 'electoral authoritarian' or 'illiberal democracy' — it has procedural elections but lacks substantive democratic features. It violates: (1) *Accountability* (no independent oversight), and (2) *Rule of Law* (judiciary not independent). A wrong classification as 'representative democracy' ignores that representation requires fair competition; calling it 'dictatorship' misses the electoral facade. Students often miss that democracy is a *continuum*, not a binary — a key analytical nuance for board case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast 'direct democracy' in a Gram Sabha with 'representative democracy' in the Lok Sabha on three dimensions: scale of participation, accountability mechanism, and feasibility of deliberation.",
+     "a": "| Dimension | Gram Sabha (Direct) | Lok Sabha (Representative) |\n|---|---|---|\n| Scale | All eligible voters in a village (~hundreds) | 543 elected MPs representing ~900 million voters |\n| Accountability | Immediate, face-to-face; recall possible | Periodic (5 years); mediated by parties, media |\n| Deliberation | Intensive, consensual, time-consuming | Structured, adversarial, rule-bound (procedural) |\nA wrong answer that treats them as identical in principle (both \"people rule\") misses the sociological reality: direct democracy works only in small, homogeneous communities (Rousseau), while large, diverse societies *require* representation (Schumpeter). This confusion undermines understanding of *why* the 73rd Amendment created Gram Sabhas *alongside* representative tiers.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"India's parliamentary system is superior to a presidential system for managing social diversity.\" Use two arguments from democratic theory and one Indian constitutional feature.",
+     "a": "Arguments *for*: (1) *Fusion of powers* enables flexible coalition-building — essential in a multi-party system reflecting India's diversity (e.g., UPA, NDA). (2) *Collective responsibility* (Article 75) forces executive accountability to legislature daily, not just at fixed intervals. Argument *against*: Can lead to instability (frequent no-confidence motions). Constitutional feature: *Article 74* binds President to aid/advice of Council of Ministers — making PM the real executive, unlike US President. A one-sided answer (only pros or cons) fails the 'evaluate' command; ignoring the *Indian* design (parliamentary with federal features) shows lack of context-specific reasoning needed for CUET/board competency questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical 'democracy index' for comparing Indian states using three measurable indicators derived from democratic features. Define each indicator, its data source, and why it captures substantive (not just procedural) democracy.",
+     "a": "1. **Effective Representation Index** = % of women/SC/ST MLAs winning *unreserved* seats (Source: Election Commission affidavits). Captures substantive inclusion beyond reservations.  \n2. **Accountability Responsiveness Score** = % of MLA Local Area Development (MLALAD) funds utilised + % of assembly questions answered (Source: State Assembly reports, PRS Legislative). Captures answerability between elections.  \n3. **Deliberative Quality Metric** = Average days of legislative sitting per year × % of bills referred to committees (Source: State Legislature secretariats). Captures depth of debate, not just law-passing.  \nA poor answer lists only voter turnout or seats reserved — procedural metrics. Good answers show ability to *operationalise* abstract concepts (substantive democracy) — a research-methods skill (link to Class 11 node c11_soc_cbse_05_008).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Democracy is a form of government in which supreme power is vested in the people and exercised by them directly or indirectly through a system of representation usually involving periodically held free and fair elections, where political equality, popular sovereignty, accountability, rule of law, and protection of minority rights are ______ as core principles.",
+     "a": "institutionalised",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking: \"If a village Gram Sabha meets to decide on a water tank location, and a national ______ passes a law on digital privacy, what makes both 'democratic' despite the scale difference?\" Guide students to identify the common thread — decision-making authority deriving from the people.",
+     "a": "Parliament",
+     "self_check": true
+    },
+    {
+     "q": "What is Democracy? State the definition given in this lesson.",
+     "a": "Democracy is a form of government in which supreme power is vested in the people and exercised by them directly or indirectly through a system of representation usually involving periodically held free and fair elections, where political equality, popular sovereignty, accountability, rule of law, and protection of minority rights are.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Use the Indian Constitution's Preamble (\"We, the people of India...\") and Article ______ (universal adult franchise) as anchor points.",
+     "a": "326",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Democracy?",
+     "a": "Students equate 'democracy' with 'elections only', writing: \"India is democratic because it has regular elections.\" This ignores that elections are *necessary but not sufficient* — the NCERT (Chapter 3, Box 3.7) explicitly warns that dominant groups (caste/class/gender) can capture state power *through* elections.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) distinguish between procedural (minimalist) and substantive (maximalist) definitions of democracy using Indian constitutional provisions as reference, and (2) classify a given real-world political scenario as direct, representative, parliamentary, or presidential democracy with justification from.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

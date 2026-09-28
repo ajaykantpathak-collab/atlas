@@ -34,6 +34,26 @@
      "q": "Design a simple experiment to verify that a plasmid vector has successfully incorporated a foreign DNA insert using blue-white screening.",
      "a": "Transform competent E. coli with ligation mixture, plate on LB+ampicillin+X-gal+IPTG. Blue colonies = empty vector (functional lacZα); white colonies = recombinant (insert disrupts lacZα). Pick white colonies, isolate plasmid, confirm by restriction digest. A poor answer omits controls or misinterprets color.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A vector is a DNA molecule used as a vehicle to ______ carry foreign genetic material into a host cell, where it can replicate and/or express.",
+     "a": "artificially",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a familiar observation: when you see a ______ colony on an agar plate, each colony arises from a single cell.",
+     "a": "bacterial",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can compare plasmid and bacteriophage vectors on features (origin of replication, selectable markers, cloning sites, insert capacity), explain how each is used in recombinant DNA technology, and predict the appropriate vector choice for a given cloning scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a familiar ______: when you see a bacterial colony on an agar plate, each colony arises from a single cell.",
+     "a": "observation",
+     "self_check": true
     }
    ]
   }

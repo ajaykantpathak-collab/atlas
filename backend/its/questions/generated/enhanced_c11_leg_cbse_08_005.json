@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_08_005",
+   "title": "c11_leg_cbse_08_005",
+   "questions": [
+    {
+     "q": "Which of the following is NOT a source of law in India?\nA) Custom  \nB) Judicial precedent  \nC) Legislation  \nD) Public opinion",
+     "a": "Correct answer: D) Public opinion  \nExplanation: Public opinion may influence law-making but is not a recognized source of law in India. The three valid sources are custom, judicial precedent, and legislation. Choosing D shows the student understands that not all social influences become law—only those meeting specific legal criteria gain binding force. A wrong answer like A or B would indicate confusion about the basic sources, suggesting the student may be mixing up sources with influences or factors affecting law.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a custom must be reasonable to be considered a valid source of law, using an example.",
+     "a": "A custom must be reasonable to ensure it aligns with justice and public utility; unreasonable customs causing harm or inconvenience are rejected by courts. For example, a custom of denying education to girls based on tradition would be invalid as it violates reasonableness and morality. If a student claims unreasonableness doesn’t matter, they fail to grasp that customs are not automatically law—they must pass judicial scrutiny. This reveals a misunderstanding that custom alone suffices, ignoring the court’s role in validating it through reasonableness and morality tests.",
+     "self_check": true
+    },
+    {
+     "q": "A village panchayat follows a custom of resolving land disputes through elder consensus, but a new state law mandates that all such disputes go to civil courts. A farmer challenges the panchayat’s decision in court. Which source of law will prevail, and why?",
+     "a": "The state legislation will prevail over the custom.  \nSteps:  \n- Identify the conflict: custom (panchayat elder consensus) vs. legislation (state law mandating civil courts).  \n- Recall the principle: legislation overrides custom when inconsistent.  \n- Apply the test: the custom, even if ancient and continuous, must yield to valid legislation under Article 246 of the Constitution.  \n- Conclude: the court will uphold the state law as it is a supreme legislative enactment, and the custom, however long-standing, cannot contradict it.  \n- Verify: This aligns with the NCERT principle that in modern states, legislation is preferred over custom.  \nAnswer: The state legislation prevails because enacted laws have superior authority over customs in case of conflict.  \nA wrong answer favoring the custom would indicate the student misunderstands the hierarchy of sources, thinking custom always wins due to its age, failing to recognize that legislation can abrogate inconsistent customs.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the binding nature of a Supreme Court judgment and a High Court judgment on a district court in the same state. Under what condition would the High Court’s decision not be binding?",
+     "a": "A Supreme Court judgment is binding on all courts in India, including district courts, under Article 141. A High Court judgment is binding only on subordinate courts within its jurisdiction. It would not be binding on a district court if that district court lies outside the High Court’s territorial or pecuniary jurisdiction, or if the case involves a matter beyond the High Court’s subject-matter jurisdiction (e.g., a central law issue when the High Court lacks jurisdiction).  \nA wrong answer claiming High Court decisions are always binding nationwide shows confusion about judicial hierarchy, revealing the student hasn’t grasped the territorial and jurisdictional limits of High Court authority—a key aspect of precedent application.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: “In India, judicial precedent is a more important source of law than legislation.” Justify your position with reference to constitutional provisions and legal principles.",
+     "a": "The statement is incorrect. Legislation is the most important source of law in modern India.  \nJustification:  \n- Under Article 246, Parliament and state legislatures have exclusive power to legislate on subjects in the Union, State, and Concurrent Lists.  \n- Article 141 makes Supreme Court judgments binding, but only as interpretations of existing law—not as independent law-making sources.  \n- The Constitution permits legislation to override or abrogate customs and judicial precedents (e.g., Hindu Succession (Amendment) Act, 2005 overriding prior customs and interpretations on daughters’ inheritance rights).  \n- Judicial precedent is persuasive but not always binding (e.g., High Court decisions outside jurisdiction), while legislation is supreme when validly enacted.  \nThus, legislation prevails as the primary source due to its constitutional supremacy and ability to reform law systematically.  \nA wrong answer supporting the claim would reveal a misunderstanding of constitutional supremacy, possibly confusing judge-made law with legislative supremacy, failing to recognize that courts interpret, not override, valid legislation unless it’s unconstitutional.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario where all three sources of law—custom, judicial precedent, and legislation—interact in a single legal issue involving marriage or inheritance, and explain how a court would resolve it.",
+     "a": "Scenario: A Hindu family follows a custom where only sons inherit ancestral property. The Hindu Succession Act, 1956 (amended 2005) grants equal inheritance rights to daughters. In a past case, the Supreme Court upheld a daughter’s right under the Act (judicial precedent). Now, a son challenges his sister’s inheritance claim, citing family custom.  \nResolution:  \n- The court will first check if the custom is valid (antiquity, continuity, reasonableness, morality).  \n- Though possibly ancient and continuous, the custom fails reasonableness and morality tests as it denies daughters’ rights, contradicting constitutional equality (Article 14) and the amended Act.  \n- The legislation (Hindu Succession Act, 1956 as amended) is valid and constitutional.  \n- The Supreme Court precedent reinforces the daughter’s right.  \n- Hence, the court will rule in favor of the sister, holding that legislation and binding precedent override the invalid custom.  \nThis shows the hierarchy: valid legislation > binding judicial precedent > invalid custom.  \nA poor answer would ignore the validity tests for custom or treat all sources as equal, revealing failure to grasp judicial hierarchy and constitutional supremacy.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

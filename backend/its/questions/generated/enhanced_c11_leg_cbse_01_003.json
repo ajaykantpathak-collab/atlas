@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_01_003",
+   "title": "c11_leg_cbse_01_003",
+   "questions": [
+    {
+     "q": "Which of the following is NOT explicitly included in the definition of \"State\" under Article 12 of the Constitution of India?\nA) Government and Parliament of India\nB) Government and Legislature of each State\nC) Judiciary (Supreme Court and High Courts)\nD) All local authorities within the territory of India",
+     "a": "Correct answer: C) Judiciary (Supreme Court and High Courts). Article 12 explicitly lists the Government and Parliament of India, Government and Legislature of each State, and all local and other authorities — but does NOT mention the judiciary. A wrong answer (e.g., choosing A or B) reveals the student has not read Article 12 textually and confuses \"State\" in general political science sense with its constitutional definition for Part III. This is a classic textual recall error — students must memorize the exact four categories in Article 12.",
+     "self_check": true
+    },
+    {
+     "q": "In *Ajay Hasia v. Khalid Mujib* (1981), the Supreme Court laid down a test to determine if a body is an \"authority\" under Article 12. Which of the following is NOT one of the factors in that test?\nA) Whether the body is created by statute\nB) Whether the government holds majority share capital\nC) Whether the body enjoys monopoly status conferred by State\nD) Whether the body performs functions of a private commercial nature",
+     "a": "Correct answer: D) Whether the body performs functions of a private commercial nature. The *Ajay Hasia* test includes: (1) statutory creation, (2) government shareholding, (3) monopoly status, (4) deep and pervasive state control, (5) public importance of functions, (6) transfer of government department to corporation. Performing private commercial functions is irrelevant — in fact, if it performs *public* functions, that supports \"State\" status. A wrong answer here reveals the student memorized the test mechanically without understanding its logic: the test identifies *public* character, not private commercial activity.",
+     "self_check": true
+    },
+    {
+     "q": "A deemed university established by a Central Government notification under Section 3 of the UGC Act, 1956, receives 90% funding from the Government, and its Vice-Chancellor is appointed by the Visitor (President of India). A student is expelled without a hearing. Can the student file a writ petition under Article 32 against the university? Apply the *Ajay Hasia* test step-by-step.",
+     "a": "Yes, the student can file a writ petition. Step 1: The university is created by statute (UGC Act) — satisfies factor 1. Step 2: 90% government funding — satisfies factor 2 (financial control). Step 3: Vice-Chancellor appointed by President — deep and pervasive control (factor 4). Step 4: Imparts higher education — function of public importance (factor 5). Step 5: All factors point to it being an \"authority\" under Article 12. Therefore, it is \"State\" and amenable to Article 32. A wrong answer (e.g., \"No, because it's a university\") reveals the student thinks educational institutions are automatically exempt — confusing *University of Madras v. Shanta Bai* (1954), which was overruled by *Ajay Hasia*. The key is functional control, not institutional label.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the Supreme Court's approach in *Pradeep Kumar Biswas v. Indian Institute of Chemical Biology* (2002) and *Zee Telefilms Ltd. v. Union of India* (2005) on whether a body is \"State\" under Article 12. What doctrinal shift, if any, do you observe?",
+     "a": "In *Pradeep Kumar Biswas*, the Court held CSIR (a society registered under Societies Registration Act) IS \"State\" because: (1) created by government resolution, (2) 100% government funding, (3) government nominees control governing body, (4) performs public research — satisfying *Ajay Hasia* factors. In *Zee Telefilms*, BCCI was held NOT \"State\" despite: (1) monopoly over cricket, (2) public functions (selecting national team), (3) tax exemptions — because: no statutory creation, no government shareholding, no deep pervasive control, autonomous elections. The doctrinal shift: from *functional* dominance (*Ajay Hasia*) to *structural/control* dominance (*Biswas* and *Zee Telefilms*). The Court now insists on **state control over governance**, not just public function. A weak answer treats both cases as applying the same test mechanically — missing the tightening of the \"control\" requirement.",
+     "self_check": true
+    },
+    {
+     "q": "\"Judiciary is not 'State' under Article 12.\" Critically evaluate this statement with reference to *Naresh Shridhar Mirajkar v. State of Maharashtra* (1967) and *Rupa Ashok Hurra v. Ashok Hurra* (2002). Is the statement fully accurate?",
+     "a": "The statement is **partially accurate but incomplete**. In *Mirajkar*, the Court held judiciary in its **judicial capacity** (deciding cases) is NOT \"State\" under Article 12 — because judicial decisions cannot violate fundamental rights; they are subject to appeal/review, not writs. But in *Rupa Ashok Hurra*, the Court clarified that judiciary in its **administrative capacity** (e.g., appointments, transfers, rule-making for court administration) **IS \"State\"** — because those are executive functions. Also, if a court acts *arbitrarily* in judicial function (e.g., *A.R. Antulay v. R.S. Nayak*), it may be challenged under Article 32 via curative petition. So: Judicial function → Not State; Administrative function → Is State. A wrong answer (\"Judiciary is never State\" or \"Always State\") reveals binary thinking — missing the **capacity-based distinction** central to constitutional law.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical entity: \"National Green Energy Corporation\" (NGEC) — established by a Parliamentary Act, 100% government-owned, Board appointed by Ministry of Power, mandated to set up solar parks across India, but operates commercially, sells power to private discoms, and pays dividends. A private solar developer is denied grid access by NGEC without reasons. Can the developer challenge NGEC under Article 32? Draft the legal argument using *Ajay Hasia* and *Pradeep Kumar Biswas*.",
+     "a": "Yes, NGEC is \"State\" under Article 12. Argument: (1) Statutory creation (Parliamentary Act) — *Ajay Hasia* factor 1 satisfied. (2) 100% government ownership — factor 2. (3) Board appointed by Ministry — deep pervasive control (factor 4, *Biswas*). (4) Mandate to set up solar parks = public function (factor 5). (5) Commercial operation and dividend payment do NOT negate \"State\" status — *Biswas* held CSIR was \"State\" despite commercial research contracts. (6) Denial of grid access without reasons = arbitrary executive action violating Article 14. Therefore, writ under Article 32 lies. A poor answer focuses on \"commercial operation\" to deny State status — missing that *commercial activity by a State instrumentality* does not strip it of Article 12 coverage (per *Biswas* and *Som Prakash v. Union of India*).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

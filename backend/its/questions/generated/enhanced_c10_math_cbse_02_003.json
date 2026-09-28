@@ -34,6 +34,21 @@
      "q": "Construct a quadratic polynomial whose zeros are \\(3 + \\sqrt{2}\\) and \\(3 - \\sqrt{2}\\). Write the polynomial in standard form with integer coefficients. Explain why the coefficients must be integers if the zeros are conjugates.",
      "a": "Sum of zeros = \\((3+\\sqrt{2}) + (3-\\sqrt{2}) = 6\\). Product = \\((3+\\sqrt{2})(3-\\sqrt{2}) = 9 - 2 = 7\\).  \nPolynomial: \\(x^2 - (\\text{sum})x + \\text{product} = x^2 - 6x + 7\\).  \nThe coefficients are integers because the irrational parts cancel in the sum and product due to conjugate pairing. A poor answer would give \\(x^2 - 6x + 7\\) without explanation, or write \\((x - (3+\\sqrt{2}))(x - (3-\\sqrt{2}))\\) without expanding, showing they don't understand why integer coefficients emerge from conjugate surds.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you throw a ball upward from a height of 2 metres with an ______ speed of 10 m/s.",
+     "a": "initial",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can determine the number and nature of zeros of any quadratic polynomial by analyzing its discriminant and graph, can find the zeros algebraically by factorization or quadratic formula, and can sketch the parabola showing the correct x-intercepts, vertex, and direction of opening.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you throw a ball upward from a height of 2 metres with an initial speed of 10 m/s.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

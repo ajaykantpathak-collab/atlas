@@ -34,6 +34,26 @@
      "q": "Construct a 7-digit number using the digits 3, 5, 0, 8, 1, 9, 2 exactly once each, such that the digit in the Lakhs place is the largest odd digit available, and the Ten Lakhs place is the smallest non-zero even digit available.",
      "a": "The smallest non-zero even digit available is 2, so the Ten Lakhs place is 2. The largest odd digit available is 9, so the Lakhs place is 9. Arranging the remaining digits (3, 5, 0, 8, 1) in descending order for maximum value yields the number 29,85,310. A poor answer would either repeat digits, ignore placement constraints, or place zero in the highest value position.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The place value system extends to 6-digit (lakhs) and 7-digit (ten lakhs) numbers in the Indian numbering system, where each digit's position to the left represents a value ten times greater than the position ______ to its right.",
+     "a": "immediately",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To ______ how massive that number is, we cannot just rely on hundreds or thousands anymore; we need to step into the world of lakhs.",
+     "a": "understand",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Let us begin by recalling how ______-digit numbers use Ten Thousands, and observe how adding one more column to the left opens up the Lakhs and Ten Lakhs places.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify, read, write, and expand 6-digit and 7-digit numbers correctly according to the Indian place value system, and can determine the place value and face value of any digit within these large numbers.",
+     "self_check": true
     }
    ]
   }

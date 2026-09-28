@@ -34,6 +34,21 @@
      "q": "Create a word problem involving a combined region where a circular park of radius 20 m has a rectangular jogging track of width 5 m built around it (the track is outside the park). The problem should ask for the cost of paving the track at ₹50 per m². Provide the full problem statement and the solution steps.",
      "a": "**Problem:** A circular park of radius 20 m is surrounded by a rectangular jogging track of uniform width 5 m. The outer boundary of the track is a square. Find the cost of paving the track at ₹50 per m². (Use π = 3.14)  \n\n**Solution Steps:**  \n1. Radius of park (inner circle) = 20 m.  \n2. The track is rectangular? Wait, \"rectangular jogging track\" around a circle with outer boundary square means the track is the region between the circle and the square. But \"rectangular track of uniform width\" is contradictory. Let's rephrase: A circular park of radius 20 m has a square jogging track of width 5 m around it (outer boundary is square). Find cost.  \nBetter: \"A circular park of radius 20 m is surrounded by a square jogging track of uniform width 5 m. Find the cost of paving the track at ₹50 per m².\"  \n3. Side of outer square = diameter of park + 2 × width = 40 + 10 = 50 m.  \n4. Area of outer square = 50² = 2500 m².  \n5. Area of inner circle = π × 20² = 3.14 × 400 = 1256 m².  \n6. Area of track = 2500 - 1256 = 1244 m².  \n7. Cost = 1244 × 50 = ₹62,200.  \n\n**Criteria for good answer:** The student must define the geometry clearly (square track around circle), compute both areas correctly, subtract to get track area, multiply by rate, and include units (₹). A poor answer would forget to double the width for the square side, or add areas, or use wrong π.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Word problems on area of combined regions require ______ the total area of a plane figure formed by combining two or more standard geometric shapes (circles, sectors, segments, triangles, rectangles, squares) by either adding their areas (when they are joined without overlap) or subtracting the area of one shape from another (when one shape is cut out from another).",
+     "a": "calculating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a school garden shaped like a rectangle with two ______ flower beds at its ends.",
+     "a": "semicircular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently read a word problem describing a composite figure, draw a labelled diagram, identify the constituent shapes, select and apply the correct area formulas (circle, sector, segment, triangle, quadrilateral), perform addition/subtraction of areas in the correct order, and present the final answer with appropriate.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a dipole (two equal and opposite charges on an insulating rod) and a small test charge to map equipotential surfaces around the dipole. Describe how you would verify the 1/r² dependence and cosθ angular variation.",
      "a": "Fix dipole on insulating stand. Use a sensitive electrometer connected to a small conducting sphere (test charge) on an insulating handle. Move test charge to various points, record V. For fixed θ (e.g., θ=0° axial), plot V vs 1/r² — should be linear. For fixed r, plot V vs cosθ — should be linear through origin. Equipotentials are surfaces of revolution about p-axis. A poor answer would suggest using a voltmeter directly (needs reference) or measuring field instead of potential.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ potential at a point due to an electric dipole is the work done per unit positive test charge in bringing it from infinity to that point against the electric field of the dipole.",
+     "a": "electrostatic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a water molecule (H₂O) — it has a ______ dipole moment because oxygen pulls electrons more strongly than hydrogen.",
+     "a": "permanent",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can derive the dipole potential formula using superposition and binomial approximation, compute potential at axial/equatorial points, and explain why dipole potential falls as 1/r² while point charge potential falls as 1/r.",
+     "self_check": true
     }
    ]
   }

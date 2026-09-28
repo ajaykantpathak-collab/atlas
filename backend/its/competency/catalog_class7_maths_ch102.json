@@ -9,7 +9,7 @@
    "id": "gegp.2.1.1",
    "title": "Arithmetic Expressions and Values",
    "section": "2.1",
-   "definition": "Mathematical phrases like 13 + 2, 20 \u2013 4, 12 \u00d7 5, and 18 \u00f7 3 are called arithmetic expressions. Every arithmetic expression has a value which is the number it evaluates to.",
+   "definition": "Mathematical phrases like 13 + 2, 20 – 4, 12 × 5, and 18 ÷ 3 are called arithmetic expressions. Every arithmetic expression has a value which is the number it evaluates to.",
    "formula": "expression = value",
    "key_idea": "An expression is a sequence of numbers and operations that results in a single numerical value.",
    "textbook_ref": "gegp102.txt lines 5-15",
@@ -51,7 +51,7 @@
    "id": "gegp.2.1.2",
    "title": "Comparing Expressions",
    "section": "2.1",
-   "definition": "We compare expressionsput differently,  based on their values and write the \u2018equal to\u2019 (=), \u2018greater than\u2019 (>) or \u2018less than\u2019 (<) sign accordingly.",
+   "definition": "We compare expressionsput differently,  based on their values and write the ‘equal to’ (=), ‘greater than’ (>) or ‘less than’ (<) sign accordingly.",
    "formula": "value_1 [=|<|>] value_2",
    "key_idea": "Expressions are compared by evaluating their respective numerical values.",
    "textbook_ref": "gegp102.txt lines 25-35",
@@ -68,7 +68,7 @@
     "what do you understand by comparing expressions",
     "list the main points about comparing expressions"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -85,7 +85,16 @@
      "action": "Compare values",
      "explain": "Determine if the first value is less than, greater than, or equal to the second."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 77 gives 484",
+     "compute": "circ = 2 * 22 / 7 * 77"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.2.2.1",
@@ -134,7 +143,7 @@
    "id": "gegp.2.2.2",
    "title": "Terms in Expressions",
    "section": "2.2",
-   "definition": "Terms are the parts of an expression separated by a \u2018+\u2019 sign. Subtractions are converted to additions of the inverse to identify terms.",
+   "definition": "Terms are the parts of an expression separated by a ‘+’ sign. Subtractions are converted to additions of the inverse to identify terms.",
    "formula": "a - b = a + (-b)",
    "key_idea": "Expressions are sums of terms; multiplication and division results are treated as single terms.",
    "textbook_ref": "gegp102.txt lines 135-155",
@@ -151,7 +160,7 @@
     "what do you understand by terms in expressions",
     "list the main points about terms in expressions"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -168,7 +177,16 @@
      "action": "List each term",
      "explain": "Write out every term as a separate component to confirm the expression is fully decomposed into its parts."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 3 + 8 gives 17",
+     "compute": "val = 3 * 3 + 8"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.2.2.3",
@@ -191,7 +209,7 @@
     "what do you understand by commutative property of addition",
     "list the main points about commutative property of addition"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -208,7 +226,16 @@
      "action": "Compare sums",
      "explain": "Verify that both sums are identical."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the integer operation sign rules",
+     "explain": "apply the integer operation sign rules: total = -12 + (10) gives -2",
+     "compute": "total = -12 + (10)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.2.2.4",
@@ -231,7 +258,7 @@
     "what do you understand by associative property of addition",
     "list the main points about associative property of addition"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -248,7 +275,16 @@
      "action": "Compare results",
      "explain": "Confirm the values are equal."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the integer operation sign rules",
+     "explain": "apply the integer operation sign rules: total = -15 + (-3) gives -18",
+     "compute": "total = -15 + (-3)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.2.2.5",
@@ -369,7 +405,7 @@
    "source_ref": "gegp102.txt lines 115-130",
    "concept": "gegp.2.2.5",
    "question_type": "compute",
-   "question_pattern": "Irfan bought items for \u20b9{p1} and \u20b9{p2}. He gave \u20b9{paid}. Find the change.",
+   "question_pattern": "Irfan bought items for ₹{p1} and ₹{p2}. He gave ₹{paid}. Find the change.",
    "extracted_variables": {
     "p1": "price of item 1",
     "p2": "price of item 2",
@@ -434,19 +470,19 @@
    "source_ref": "gegp102.txt lines 45-55",
    "questions": [
     "13 + 4 = ____ + 6",
-    "22 + ____ = 6 \u00d7 5",
-    "8 \u00d7 ____ = 64 \u00f7 2",
-    "34 \u2013 ____ = 25"
+    "22 + ____ = 6 × 5",
+    "8 × ____ = 64 ÷ 2",
+    "34 – ____ = 25"
    ]
   },
   {
    "id": "ex2.2",
    "source_ref": "gegp102.txt lines 355-365",
    "questions": [
-    "28 \u2013 7 + 8",
-    "39 \u2013 2 \u00d7 6 + 11",
-    "48 \u2013 10 \u00d7 2 + 16 \u00f7 2",
-    "6 \u00d7 3 \u2013 4 \u00d7 8 \u00d7 5"
+    "28 – 7 + 8",
+    "39 – 2 × 6 + 11",
+    "48 – 10 × 2 + 16 ÷ 2",
+    "6 × 3 – 4 × 8 × 5"
    ]
   },
   {
@@ -454,9 +490,9 @@
    "source_ref": "gegp102.txt lines 400-410",
    "questions": [
     "14 + (12 + 10)",
-    "14 \u2013 (12 + 10)",
-    "14 \u2013 (12 \u2013 10)",
-    "14 \u2013 (\u201312 \u2013 10)"
+    "14 – (12 + 10)",
+    "14 – (12 – 10)",
+    "14 – (–12 – 10)"
    ]
   }
  ],

@@ -34,6 +34,26 @@
      "q": "Design a DataFrame with columns 'Product', 'Stock', 'ReorderLevel', 'Supplier'. Write a Pandas expression that returns a DataFrame of products needing reorder (Stock < ReorderLevel), sorted by Supplier alphabetically and then by Stock ascending (lowest stock first).",
      "a": "`df.loc[df['Stock'] < df['ReorderLevel']].sort_values(['Supplier', 'Stock'], ascending=[True, True])`  \nA good answer shows correct Boolean mask comparing two columns, multi‑column sort with a list of columns and a matching list of booleans. A poor answer might sort by a single column, use wrong ascending order, or forget to filter before sorting.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Filtering a DataFrame selects rows that satisfy one or more logical ______ on column values, producing a subset DataFrame.",
+     "a": "conditions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a CSV of 10,000 e‑commerce orders with columns: OrderID, CustomerCity, ProductCategory, Quantity, ______, OrderDate.",
+     "a": "UnitPrice",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Given a DataFrame with mixed‑type columns, the student can write correct Pandas code to (a) filter rows using Boolean indexing with relational and logical operators, (b) sort the result by single or multiple columns specifying ascending/descending order and NaN placement, and (c) chain filtering and sorting in a single expression without.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a CSV of 10,000 e‑commerce orders with columns: OrderID, CustomerCity, ______, Quantity, UnitPrice, OrderDate.",
+     "a": "ProductCategory",
+     "self_check": true
     }
    ]
   }

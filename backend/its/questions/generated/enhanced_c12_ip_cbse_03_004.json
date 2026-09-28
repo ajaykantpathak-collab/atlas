@@ -34,6 +34,31 @@
      "q": "**CREATE:** Design a hybrid network for a university campus with: (a) 500 m between core switches in different buildings, (b) 100 m horizontal runs to 50 access points per building, (c) outdoor Wi-Fi in a 200 m × 300 m quad, and (d) a 5 km link to a remote research farm. Specify the medium for each segment and justify each choice in one sentence.",
      "a": "**Expected answer (any logically justified combination):**  \n(a) Core inter-building: **Single-mode fiber** — 500 m exceeds multimode 10G limit; SMF supports future 100G upgrades.  \n(b) Horizontal runs: **Cat6a UTP** — 100 m within spec for 10G, cost-effective for dense AP deployment.  \n(c) Outdoor quad: **Wi-Fi 6 (802.11ax) APs on 5 GHz band** — high density, OFDMA efficiency, no licensing needed.  \n(d) Remote farm: **Licensed microwave (E-band 70/80 GHz) or single-mode fiber if terrain permits** — 5 km needs high-capacity dedicated link; microwave avoids trenching cost.  \nA poor answer uses the same medium everywhere (e.g., \"all fiber\" or \"all Wi-Fi\") — the student fails to recognize that **optimal media selection is segment-specific**, balancing distance, bandwidth, mobility, and cost.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ media are the physical pathways that carry data signals between devices in a computer network.",
+     "a": "Transmission",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the network administrator for a new school ______.",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "What is Transmission media? State the definition given in this lesson.",
+     "a": "Transmission media are the physical pathways that carry data signals between devices in a computer network.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Transmission media?",
+     "a": "Misconception: \"Fiber optic cable is just 'better' than copper in every way, so we should always use fiber.\" Why it's wrong: Fiber has higher material cost, requires expensive fusion splicing/termination equipment, is fragile (bend radius limits, no sharp kinks), and needs media converters or SFP modules at every endpoint.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) classify any given transmission medium as guided or unguided with correct sub-category, (2) compare bandwidth, attenuation, EMI immunity, cost, and installation complexity across all six media types, and (3) select the most appropriate medium for a specified network scenario (distance, data rate, environment, budget).",
+     "self_check": true
     }
    ]
   }

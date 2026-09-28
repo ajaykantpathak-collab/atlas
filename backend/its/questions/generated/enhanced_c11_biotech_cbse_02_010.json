@@ -34,6 +34,36 @@
      "q": "Design an experiment using density gradient centrifugation to separate 70S and 80S ribosomes from a mixed sample of prokaryotic and eukaryotic cell lysates. Specify the gradient medium, centrifugation parameters, and how you would identify each fraction.",
      "a": "Use a 10-30% sucrose gradient, ultracentrifuge at 100,000 × g for 16 hours at 4°C. Fractionate from top to bottom; monitor absorbance at 260 nm (rRNA). 70S ribosomes will band higher (lower density) than 80S ribosomes. Confirm by SDS-PAGE of ribosomal proteins and rRNA electrophoresis. A poor answer (e.g., \"use a centrifuge\") reveals ignorance of the physical basis of Svedberg separation — that S value depends on mass, shape, and density, requiring a density gradient for resolution.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ribosomes are non-membranous ______ complexes composed of ribosomal RNA (rRNA) and proteins that function as the universal site of protein synthesis in all living cells, existing either freely in the cytoplasm or bound to the endoplasmic reticulum, with prokaryotic (70S) and eukaryotic (80S) types differing in sedimentation coefficient and subunit composition.",
+     "a": "ribonucleoprotein",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a cell as a bustling factory where ______ are the products.",
+     "a": "proteins",
+     "self_check": true
+    },
+    {
+     "q": "What is Ribosomes? State the definition given in this lesson.",
+     "a": "Ribosomes are non-membranous ribonucleoprotein complexes composed of ribosomal RNA (rRNA) and proteins that function as the universal site of protein synthesis in all living cells, existing either freely in the cytoplasm or bound to the endoplasmic reticulum, with prokaryotic (70S) and eukaryotic (80S) types differing in sedimentation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Connect the presence of ______S ribosomes in mitochondria/chloroplasts to endosymbiotic theory.",
+     "a": "70",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Ribosomes?",
+     "a": "Students believe Svedberg units are additive (30S + 50S = 80S) because they treat 'S' as a mass unit.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the structural basis for the difference between 70S and 80S ribosomes, describe how the signal recognition particle (SRP) directs ribosomes to the ER for secretory protein synthesis, and justify why mitochondrial and chloroplast ribosomes resemble prokaryotic ribosomes using endosymbiotic theory.",
+     "self_check": true
     }
    ]
   }

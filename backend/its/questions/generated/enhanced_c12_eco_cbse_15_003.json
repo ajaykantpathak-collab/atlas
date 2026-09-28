@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_15_003",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_15_003",
+   "title": "c12_eco_cbse_15_003",
+   "questions": [
+    {
+     "q": "What major shift occurred in the role of the Reserve Bank of India (RBI) as a result of the 1991 financial sector reforms?",
+     "a": "**Model Answer:** The role of the RBI was reduced from a *regulator* to a *facilitator* of the financial sector. This meant that financial institutions were allowed to make many decisions (like branch expansion or interest rate determination) on their own, without seeking prior approval from the RBI, within the broad guidelines set by the central bank.\n\n**Wrong Answer Diagnosis:** If a student answers that \"the RBI lost all its power and ceased to control banks,\" it reveals a misconception that deregulation means complete anarchy. The RBI still sets prudential norms and retains ultimate supervisory control; it merely stopped micro-managing day-to-day operations.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Indian government devalue the rupee in July 1991 against foreign currencies?",
+     "a": "**Model Answer:** The government devalued the rupee to resolve the severe Balance of Payments (BOP) crisis. Devaluation made Indian exports cheaper in the international market (encouraging foreign buyers to buy more Indian goods) and made imports more expensive (discouraging non-essential imports), thereby increasing the inflow of foreign exchange.\n\n**Wrong Answer Diagnosis:** If a student says \"to make the rupee stronger than the dollar,\" they fail to understand basic exchange rate dynamics. Devaluation intentionally *weakens* the domestic currency to boost export competitiveness.",
+     "self_check": true
+    },
+    {
+     "q": "Identify which of the following measures does NOT fall under the Trade and Investment Policy Reforms of 1991:\n(A) Reduction of import tariffs\n(B) Abolition of import licensing for most goods\n(C) Removal of quantitative restrictions on imports of consumer goods\n(D) Fixing of interest rates by the RBI for commercial banks",
+     "a": "**Model Answer:** (D) Fixing of interest rates by the RBI for commercial banks.\n\n**Steps to solve:**\n1. Recall that Trade and Investment Policy Reforms deal with the *external sector* (movement of goods, services, and foreign capital across borders).\n2. Analyze options A, B, and C: Tariff reduction, import licensing abolition, and removal of quantitative restrictions (quotas) directly regulate cross-border trade.\n3. Analyze option D: Interest rate determination is a monetary tool belonging to the *Financial Sector Reforms*.\n\n**Wrong Answer Diagnosis:** Choosing A, B, or C indicates a failure to distinguish between external trade reforms and domestic financial sector reforms.",
+     "self_check": true
+    },
+    {
+     "q": "State any three major reform measures introduced in the Trade and Investment Policy since 1991. [3 Marks]",
+     "a": "**Model Answer:**\nThree major reform measures introduced in the Trade and Investment Policy are:\n1. **Abolition of Import Licensing:** Quantitative licensing on imports was abolished, except for hazardous, environmentally sensitive, and security-sensitive industries. [1 Mark]\n2. **Reduction of Tariff Rates:** High import duties (tariffs) were drastically reduced to encourage global competitiveness and access to foreign inputs. [1 Mark]\n3. **Dismantling of Quantitative Restrictions:** Import quotas on consumer goods and agricultural products were fully phased out (completely removed by April 2001). [1 Mark]\n\n**Marking Points:** 1 mark for each correctly identified and briefly explained reform measure up to a maximum of 3 marks.",
+     "self_check": true
+    },
+    {
+     "q": "What is the difference between \"Devaluation\" of a currency and \"Depreciation\" of a currency?",
+     "a": "**Model Answer:**\n* **Devaluation** is the deliberate downward adjustment of the value of a country's currency relative to another currency by the *government or central bank* under a Fixed Exchange Rate System.\n* **Depreciation** is the fall in the value of a currency relative to another currency in the foreign exchange market driven by *market forces of demand and supply* under a Flexible Exchange Rate System.\n\n**Wrong Answer Diagnosis:** If a student uses these terms interchangeably, they miss the structural distinction of *who* causes the reduction in value (the state vs. the market forces).",
+     "self_check": true
+    },
+    {
+     "q": "How did the transition of the RBI's role from a 'regulator' to a 'facilitator' help in attracting Foreign Institutional Investors (FIIs) to India?",
+     "a": "**Model Answer:** Transitioning to a facilitator meant easing restrictive controls and allowing market forces to operate. By reducing bureaucratic red tape, allowing private sector banks to establish operations, and raising foreign investment limits (up to 74% in banks), India created a highly dynamic, transparent, and profitable financial market. This ease of doing business and potential for high returns encouraged Foreign Institutional Investors (FIIs) like merchant bankers, mutual funds, and pension funds to invest heavily in Indian financial markets.\n\n**Wrong Answer Diagnosis:** If a student only mentions \"banks opened branches\" without linking it to foreign capital limits or investment climate, they fail to synthesize financial deregulation with foreign institutional investment inflows.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank:\nIn the financial sector reforms of 1991, the role of the Reserve Bank of India (RBI) was reduced from a regulator to a ____________.",
+     "a": "facilitator",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank:\nThe deliberate reduction in the value of the domestic currency against foreign currencies by the government in July 1991 is known as ____________.",
+     "a": "devaluation",
+     "self_check": true
+    },
+    {
+     "q": "What is Reforms in the Financial and External Sectors? State the definition given in this lesson.",
+     "a": "**Financial Sector Reforms** refer to the policy measures initiated since 1991 to reduce government and central bank (RBI) control over financial institutions, transitioning the RBI's role from a *regulator* to a *facilitator*, allowing private/foreign banks to enter, and letting market forces determine interest rates and branch expansion.\n\n**External Sector Reforms** comprise policy measures aimed at integrating the domestic economy with the global economy, consisting of:\n1. **Foreign Exchange Reforms**: The devaluation of the Indian Rupee in July 1991 followed by the transition to a market-determined exchange rate system.\n2. **Trade and Investment Policy Reforms**: The dismantling of quantitative restrictions (quotas) on imports and exports, reduction of import tariffs, abolition of import licensing (except for hazardous and environmentally sensitive items), and removal of export duties to increase international competitiveness.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Reforms in the Financial and External Sectors?",
+     "a": "The lesson flags that students often confuse \"devaluation\" (a deliberate government-led reduction in currency value under a fixed exchange rate system) with \"depreciation\" (a market-driven fall in currency value under a flexible exchange rate system determined by demand and supply).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "To master this topic, a student must be able to:\n1. Distinguish between the RBI's role as a \"regulator\" vs. a \"facilitator\".\n2. Explain the immediate and long-term objectives of the 1991 rupee devaluation.\n3. Identify and list the components of Trade and Investment Policy Reforms (tariffs, quotas, licensing, export duties).\n4. Analyze how financial and external reforms collectively solved the Balance of Payments (BOP) crisis of 1991.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

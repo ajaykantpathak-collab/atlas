@@ -34,6 +34,26 @@
      "q": "Design a simple physical model using household materials (balloons, straws, plastic bottle, rubber sheet) to demonstrate how the thoracic cavity's volume change inflates the lungs. Identify which component represents the diaphragm, pleural cavity, and lung.",
      "a": "**Model**: Cut the bottom off a plastic bottle (thoracic cage). Stretch a balloon over the neck (lung). Seal a rubber sheet across the cut bottom (diaphragm). Pull the rubber sheet down → volume inside bottle increases → balloon inflates. **Mapping**: Balloon = lung; space between balloon and bottle = pleural cavity (with fluid simulated by a drop of water); rubber sheet = diaphragm. A poor model (e.g., blowing into the balloon) reveals the student thinks breathing is active lung expansion rather than passive response to thoracic volume change — a fundamental misconception about the pressure-gradient mechanism.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The human respiratory system is a specialized organ system comprising the external nostrils, nasal chamber, pharynx, larynx, trachea, bronchial tree (primary, secondary, tertiary bronchi and bronchioles), and alveoli housed within two lungs enclosed by a double-layered pleura, ______ organized into a conducting portion that transports and conditions atmospheric air and a respiratory (exchange) portion where diffusion of O₂ and CO₂ occurs between alveolar air and pulmonary capillary blood.",
+     "a": "structurally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Place your hand on your chest and take a deep ______ — you feel your ribcage expand and your abdomen rise.",
+     "a": "breath",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can trace the complete path of an air molecule from the external nostril to the alveolar sac, label all structures on a diagram of the human respiratory system, and explain the structural basis for the functional division into conducting and exchange portions with specific reference to epithelial type, cartilage support, and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Place your hand on your chest and take a deep breath — you feel your ______ expand and your abdomen rise.",
+     "a": "ribcage",
+     "self_check": true
     }
    ]
   }

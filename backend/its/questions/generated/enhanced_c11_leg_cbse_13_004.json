@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_13_004",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_13_004",
+   "title": "c11_leg_cbse_13_004",
+   "questions": [
+    {
+     "q": "What is the statutory time limit for producing a child before the Child Welfare Committee (CWC) after rescue, and which section of the Juvenile Justice Act, 2015 prescribes it?",
+     "a": "The child must be produced before the CWC **within 24 hours** of rescue, as mandated by **Section 36(1) of the JJ Act, 2015**. A wrong answer (e.g., \"48 hours\" or \"7 days\") reveals the student is confusing CWC production with the **Social Investigation Report (SIR) timeline (15 days)** or the **final disposal timeline (4 months)**, showing they cannot distinguish between *immediate procedural safeguards* and *subsequent inquiry stages*.",
+     "self_check": true
+    },
+    {
+     "q": "A 12-year-old girl is found begging at a railway station. The police hand her over to an NGO running a shelter home without producing her before any statutory body. Explain why this violates procedural law, citing the specific authority that *must* be approached first and the legal consequence of bypassing it.",
+     "a": "The police **must** produce the child before the **Child Welfare Committee (CWC)** under **Section 36(1), JJ Act, 2015** — the CWC is the *only* competent authority to decide whether the child is a CNCP and to pass orders for care, protection, or restoration. Handing the child directly to an NGO/shelter home bypasses the CWC’s judicial oversight, rendering the placement **illegal and void**; the NGO has no statutory power to admit a child without a CWC order. A wrong answer (e.g., \"NGO can keep her temporarily\") reveals the student misunderstands the **CWC as a mandatory gatekeeper**, not an optional step.",
+     "self_check": true
+    },
+    {
+     "q": "A 16-year-old boy is apprehended for allegedly stealing a mobile phone. The police want to detain him in the police lock-up overnight because the Juvenile Justice Board (JJB) is not sitting the next day. Apply the correct procedure under the JJ Act, 2015, and state the maximum period he can be kept in police custody.",
+     "a": "Under **Section 10(1), JJ Act, 2015**, a child alleged to be in conflict with law **cannot be detained in a police lock-up or jail**. The police must place him in an **Observation Home** or a **place of safety** until he is produced before the JJB within **24 hours** (excluding journey time). If the JJB is not sitting, the child is produced before a **single member of the JJB** (Sec 10(2)). Keeping him in a police lock-up even for one night is a **procedural violation** attracting departmental action against the officer. A wrong answer (e.g., \"24 hours in lock-up is allowed\") shows the student confuses **adult criminal procedure (CrPC)** with **juvenile-specific safeguards**.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the **preliminary assessment** under Section 15, JJ Act, 2015 (for heinous offences by 16-18 year olds) with the **social investigation report (SIR)** under Section 36, JJ Act, 2015 (for CNCP). Identify three procedural differences in purpose, authority, and timeline.",
+     "a": "| Aspect | Preliminary Assessment (Sec 15, CCL) | Social Investigation Report (Sec 36, CNCP) |\n|--------|--------------------------------------|--------------------------------------------|\n| **Purpose** | Determine if child (16-18 yrs) should be tried as adult for heinous offence | Assess child’s background, family, and needs for rehabilitation/restoration |\n| **Authority** | Conducted by **JJB** (with psychologists/social workers) | Conducted by **District Child Protection Unit (DCPU)** / probation officer, submitted to **CWC** |\n| **Timeline** | Must be completed **within 3 months** of first production before JJB | Must be completed **within 15 days** of production before CWC |\nA wrong answer (e.g., \"both done by CWC\" or \"both for rehabilitation\") reveals the student cannot **differentiate the two distinct inquiry tracks** (CCL vs CNCP) and their respective decision-making logics.",
+     "self_check": true
+    },
+    {
+     "q": "The Supreme Court in *Exploitation of Children in Orphanages in the State of Tamil Nadu v. Union of India* (2017) directed that every district must have a functional CWC and JJB. Evaluate: if a district has no CWC for 6 months, what are the **procedural consequences** for children rescued in that district, and what **interim remedy** does the law provide?",
+     "a": "**Consequences:** Rescued children cannot be legally processed — no authority can pass care/protection orders, adoption proceedings stall, and children may languish in police stations or unregistered homes. **Interim remedy:** Under **Section 27(2), JJ Act, 2015**, the **State Government** must constitute a **CWC within 3 months** of a vacancy; until then, the **nearest functional CWC** (in another district) exercises jurisdiction. Additionally, the **High Court** can issue directions under **Article 226** for ad-hoc arrangements. A weak evaluation (e.g., \"children wait\") fails to identify **statutory fallback mechanisms** and **judicial oversight**, showing inability to link procedural gaps to systemic accountability.",
+     "self_check": true
+    },
+    {
+     "q": "Design a **step-by-step reporting protocol** for a school teacher who suspects a 10-year-old student is facing sexual abuse at home. Include: (a) mandatory reporting provision, (b) whom to report to first, (c) timeline, (d) what happens after reporting, and (e) protection for the reporter.",
+     "a": "**Protocol:**\n1. **Mandatory Reporting:** Teacher is a \"mandatory reporter\" under **Section 19, POCSO Act, 2012** (read with Sec 31, JJ Act) — failure to report is punishable (Sec 21 POCSO).\n2. **First Report To:** **Childline 1098** (24x7 helpline) **AND** local **Special Juvenile Police Unit (SJPU)** / **Police Station** — simultaneously.\n3. **Timeline:** **Immediately** upon suspicion — no \"verification\" delay allowed.\n4. **After Reporting:** Police/SJPU registers FIR (Sec 154 CrPC + Sec 19 POCSO) → produces child before **CWC within 24 hrs** (Sec 36 JJ Act) → CWC orders medical examination, safe shelter, and appoints support person → Special Court tries offence.\n5. **Reporter Protection:** **Section 20, POCSO Act** — identity of reporter/child not disclosed; no civil/criminal liability for good-faith reporting.\nA poor answer (e.g., \"report to principal first\") reveals the student **prioritizes institutional hierarchy over statutory duty**, a dangerous procedural error in real cases.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

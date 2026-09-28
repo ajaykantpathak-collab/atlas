@@ -34,6 +34,21 @@
      "q": "Create a word problem involving ages of two siblings that leads to the equation 2x + 5 = 3x - 10, where x is the younger sibling's age. Solve it using transposition.",
      "a": "Example: \"Aman is 5 years older than twice his brother's age. In 10 years, Aman will be three times his brother's current age. Find the brother's age.\" Let brother's age = x. Aman = 2x+5. In 10 years Aman = 2x+15. Equation: 2x+15 = 3x+10? Wait, the target is 2x+5 = 3x-10. Better: \"Aman's age is 5 more than twice his brother's age. Ten years ago, Aman was three times his brother's age then.\" Equation: (2x+5)-10 = 3(x-10) → 2x-5 = 3x-30 → not matching. Let's just set up directly: \"Twice the younger's age plus 5 equals thrice the younger's age minus 10.\" Transposition: 2x - 3x = -10 - 5 → -x = -15 → x = 15. A poor answer uses the same numbers without a realistic age relationship or fails to change signs correctly during transposition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The transposition method is a technique for solving linear equations in one variable where any term (number or variable) is moved from one side of the equation to the other by changing its sign (addition becomes subtraction, ______ becomes division), so that all variable terms are on one side and all constant terms are on the other.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have ₹100 and buy 3 ______ costing the same price, getting ₹10 back.",
+     "a": "notebooks",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can solve linear equations with variables on both sides and fractional/decimal coefficients using transposition, showing each sign-change step clearly, and can verify the solution by substitution.",
+     "self_check": true
     }
    ]
   }

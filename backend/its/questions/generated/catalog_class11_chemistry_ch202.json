@@ -1,0 +1,246 @@
+{
+ "catalog": "catalog_class11_chemistry_ch202.json",
+ "concepts": [
+  {
+   "id": "kech.8.2.1",
+   "title": "Hybridisation and Percentage s-Character of Carbon",
+   "converted_to_compute": true,
+   "formula": "s_percent = 100 / (1 + p_orbitals)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "s_percent = 100 / (1 + p_orbitals)",
+     "compute": "s_percent = 100 / (1 + p_orbitals)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Hybridisation and Percentage s-Character of Carbon: given p_orbitals = 21, find s percent.",
+     "a": "4.54545",
+     "self_check": false
+    },
+    {
+     "q": "For Hybridisation and Percentage s-Character of Carbon: given p_orbitals = 56, find s percent.",
+     "a": "1.75439",
+     "self_check": false
+    },
+    {
+     "q": "For Hybridisation and Percentage s-Character of Carbon: given p_orbitals = 100, find s percent.",
+     "a": "0.990099",
+     "self_check": false
+    },
+    {
+     "q": "For Hybridisation and Percentage s-Character of Carbon: given p_orbitals = 32, find s percent.",
+     "a": "3.0303",
+     "self_check": false
+    },
+    {
+     "q": "For Hybridisation and Percentage s-Character of Carbon: given p_orbitals = 7.6, find s percent.",
+     "a": "11.6279",
+     "self_check": false
+    },
+    {
+     "q": "For Hybridisation and Percentage s-Character of Carbon: given p_orbitals = 78, find s percent.",
+     "a": "1.26582",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kech.8.2.2",
+   "title": "Determination of Sigma and Pi Bonds in Organic Molecules",
+   "converted_to_compute": true,
+   "formula": "total_sigma = sigma_cc + sigma_ch; total_bonds = total_sigma + pi_bonds",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_sigma = sigma_cc + sigma_ch",
+     "compute": "total_sigma = sigma_cc + sigma_ch"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "total_bonds = total_sigma + pi_bonds",
+     "compute": "total_bonds = total_sigma + pi_bonds"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Determination of Sigma and Pi Bonds in Organic Molecules: given sigma_cc = 21, sigma_ch = 41, pi_bonds = 67, find total bonds.",
+     "a": "129",
+     "self_check": false
+    },
+    {
+     "q": "For Determination of Sigma and Pi Bonds in Organic Molecules: given sigma_cc = 81, sigma_ch = 8.9, pi_bonds = 76, find total bonds.",
+     "a": "165.9",
+     "self_check": false
+    },
+    {
+     "q": "For Determination of Sigma and Pi Bonds in Organic Molecules: given sigma_cc = 14.7, sigma_ch = 65, pi_bonds = 61, find total bonds.",
+     "a": "140.7",
+     "self_check": false
+    },
+    {
+     "q": "For Determination of Sigma and Pi Bonds in Organic Molecules: given sigma_cc = 48, sigma_ch = 36, pi_bonds = 7.3, find total bonds.",
+     "a": "91.3",
+     "self_check": false
+    },
+    {
+     "q": "For Determination of Sigma and Pi Bonds in Organic Molecules: given sigma_cc = 73, sigma_ch = 96, pi_bonds = 47, find total bonds.",
+     "a": "216",
+     "self_check": false
+    },
+    {
+     "q": "For Determination of Sigma and Pi Bonds in Organic Molecules: given sigma_cc = 45, sigma_ch = 86, pi_bonds = 3, find total bonds.",
+     "a": "134",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kech.8.2.3",
+   "title": "Carbon Hybridisation and Molecular Geometry",
+   "converted_to_compute": true,
+   "formula": "steric_number = sigma_bonds + lone_pairs",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "steric_number = sigma_bonds + lone_pairs",
+     "compute": "steric_number = sigma_bonds + lone_pairs"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Carbon Hybridisation and Molecular Geometry: given sigma_bonds = 58, lone_pairs = 16.6, find steric number.",
+     "a": "74.6",
+     "self_check": false
+    },
+    {
+     "q": "For Carbon Hybridisation and Molecular Geometry: given sigma_bonds = 31, lone_pairs = 30, find steric number.",
+     "a": "61",
+     "self_check": false
+    },
+    {
+     "q": "For Carbon Hybridisation and Molecular Geometry: given sigma_bonds = 68, lone_pairs = 7.4, find steric number.",
+     "a": "75.4",
+     "self_check": false
+    },
+    {
+     "q": "For Carbon Hybridisation and Molecular Geometry: given sigma_bonds = 20, lone_pairs = 95, find steric number.",
+     "a": "115",
+     "self_check": false
+    },
+    {
+     "q": "For Carbon Hybridisation and Molecular Geometry: given sigma_bonds = 92, lone_pairs = 62, find steric number.",
+     "a": "154",
+     "self_check": false
+    },
+    {
+     "q": "For Carbon Hybridisation and Molecular Geometry: given sigma_bonds = 52, lone_pairs = 4.1, find steric number.",
+     "a": "56.1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kech.8.4.2",
+   "title": "Homologous Series and Molecular Mass Progression",
+   "converted_to_compute": true,
+   "formula": "delta_mass = delta_n * 14",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "delta_mass = delta_n * 14",
+     "compute": "delta_mass = delta_n * 14"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Homologous Series and Molecular Mass Progression: given delta_n = 15.7, find delta mass.",
+     "a": "219.8",
+     "self_check": false
+    },
+    {
+     "q": "For Homologous Series and Molecular Mass Progression: given delta_n = 11.3, find delta mass.",
+     "a": "158.2",
+     "self_check": false
+    },
+    {
+     "q": "For Homologous Series and Molecular Mass Progression: given delta_n = 8.4, find delta mass.",
+     "a": "117.6",
+     "self_check": false
+    },
+    {
+     "q": "For Homologous Series and Molecular Mass Progression: given delta_n = 17, find delta mass.",
+     "a": "238",
+     "self_check": false
+    },
+    {
+     "q": "For Homologous Series and Molecular Mass Progression: given delta_n = 4.4, find delta mass.",
+     "a": "61.6",
+     "self_check": false
+    },
+    {
+     "q": "For Homologous Series and Molecular Mass Progression: given delta_n = 9.4, find delta mass.",
+     "a": "131.6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kech.8.5.1",
+   "title": "Hydrogen Content in Saturated Acyclic Alkanes",
+   "converted_to_compute": true,
+   "formula": "h_count = 2 * c_count + 2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "h_count = 2 * c_count + 2",
+     "compute": "h_count = 2 * c_count + 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Hydrogen Content in Saturated Acyclic Alkanes: given c_count = 154, find h count.",
+     "a": "310",
+     "self_check": false
+    },
+    {
+     "q": "For Hydrogen Content in Saturated Acyclic Alkanes: given c_count = 124, find h count.",
+     "a": "250",
+     "self_check": false
+    },
+    {
+     "q": "For Hydrogen Content in Saturated Acyclic Alkanes: given c_count = 409, find h count.",
+     "a": "820",
+     "self_check": false
+    },
+    {
+     "q": "For Hydrogen Content in Saturated Acyclic Alkanes: given c_count = 446, find h count.",
+     "a": "894",
+     "self_check": false
+    },
+    {
+     "q": "For Hydrogen Content in Saturated Acyclic Alkanes: given c_count = 150, find h count.",
+     "a": "302",
+     "self_check": false
+    },
+    {
+     "q": "For Hydrogen Content in Saturated Acyclic Alkanes: given c_count = 451, find h count.",
+     "a": "904",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

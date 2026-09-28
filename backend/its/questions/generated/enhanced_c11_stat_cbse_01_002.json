@@ -34,6 +34,26 @@
      "q": "Create a mini case study (4-5 sentences) describing a specific economic problem faced by a local Indian municipality (e.g., waste management, street lighting, public transport). Explicitly show how *three* different statistical applications from this chapter would be used sequentially to address it: (1) understanding the problem, (2) formulating a policy, (3) evaluating the policy after one year.",
      "a": "Case: A municipality faces garbage overflow. (1) *Understanding*: Collect ward-wise data on waste generation (kg/day), segregation rates, collection frequency. Use statistical analysis to find correlation: wards with <30% segregation have 3× overflow incidents. (2) *Policy formulation*: Pilot a policy in 5 wards: fine for non-segregation + extra collection van. Use past data to predict required vans (forecasting). (3) *Evaluation*: After 1 year, compare overflow incidents in pilot vs. non-pilot wards using hypothesis testing (t-test conceptually). Good answer shows sequential flow: descriptive stats → predictive modeling → inferential evaluation. Poor answer lists generic \"collect data, analyze, decide\" without naming specific statistical purposes (condensation, relationship, forecasting, hypothesis testing) from the textbook.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Scope and Applications of Statistics in Economics refers to the systematic use of statistical methods for collecting, organizing, presenting, analyzing, and interpreting quantitative and qualitative economic data to understand economic problems (like poverty, unemployment, price rise), establish cause-effect ______ between economic variables (demand-price, investment-income), forecast future trends (consumption, production), and formulate/evaluate government policies (import decisions, poverty alleviation programmes) based on empirical evidence rather than guesswork.",
+     "a": "relationships",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an economic advisor to the ______ of India in 2024.",
+     "a": "Government",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You need last ______ years' data on domestic oil production, consumption growth rate, GDP growth, vehicle registration numbers, and alternative energy adoption.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can identify at least five distinct applications of statistics in economics from a given real-world scenario (e.g., policy-making, forecasting, relationship testing, data condensation, precise presentation) and explain with a concrete Indian example how each application converts raw data into actionable economic insight.",
+     "self_check": true
     }
    ]
   }

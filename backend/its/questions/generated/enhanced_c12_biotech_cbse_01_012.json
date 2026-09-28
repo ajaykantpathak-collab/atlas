@@ -34,6 +34,31 @@
      "q": "Create a novel expression vector design for producing a disulfide-bonded human antibody fragment (scFv) in the E. coli cytoplasm (not periplasm). List 5 genetic elements you would include and explain how each addresses the reducing cytoplasmic environment.",
      "a": "1. trxB⁻/gor⁻ host genotype (e.g., SHuffle strain) — not a vector element but essential; vector should carry a compatible origin. 2. Co-expression cassette for DsbC (disulfide isomerase) under a compatible promoter (e.g., arabinose-inducible) — catalyzes disulfide bond formation/isomerization in cytoplasm. 3. Strong constitutive promoter (e.g., proD) driving scFv — avoids induction stress. 4. N-terminal MBP tag with TEV site — MBP acts as solubility chaperone and enhances folding. 5. C-terminal His₆ tag after TEV site — for purification after tag removal. 6. Strong terminator (rrnB T1T2) — prevents read-through. A poor answer omits DsbC co-expression or uses periplasmic signal sequence (contradicts \"cytoplasm\" constraint), revealing inability to integrate host physiology with vector design.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An expression vector is a specialized cloning vector engineered to drive high-level transcription and translation of a cloned gene in a specific host, containing a strong promoter, efficient ribosome binding site (RBS), transcription terminator, and often affinity tags for protein purification or detection, ______ it from cloning vectors that only maintain and propagate the insert.",
+     "a": "distinguishing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to ______ human insulin in E. coli for a diabetic patient — you have the insulin gene, but simply inserting it into pBR322 (a cloning vector) yields no protein.",
+     "a": "produce",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to produce human insulin in E. coli for a diabetic patient — you have the insulin gene, but simply inserting it into pBR______ (a cloning vector) yields no protein.",
+     "a": "322",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Compare and justify promoter choice (constitutive vs. inducible) for a given protein expression goal in E. coli, yeast, or mammalian cells, and (2) Design a minimal expression cassette by selecting and ordering promoter, RBS, tag, MCS, and terminator elements with correct orientation and reading frame.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to produce human insulin in E. coli for a diabetic patient — you have the insulin gene, but simply ______ it into pBR322 (a cloning vector) yields no protein.",
+     "a": "inserting",
+     "self_check": true
     }
    ]
   }

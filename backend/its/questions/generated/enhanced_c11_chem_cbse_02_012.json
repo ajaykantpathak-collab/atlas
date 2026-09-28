@@ -34,6 +34,31 @@
      "q": "Design a thought experiment to demonstrate that an electron in a 1s orbital does not \"crash into the nucleus\" despite having maximum probability density at r=0. Use the concepts of kinetic energy, potential energy, and the virial theorem.",
      "a": "Thought experiment: Confine an electron to a smaller volume near the nucleus. By Heisenberg (Δx↓ → Δp↑), momentum uncertainty increases, raising kinetic energy (KE ∝ p²/2m). The potential energy (PE = -Ze²/r) becomes more negative but only as 1/r, while KE rises as 1/r² (from Δp ~ h/Δx). At equilibrium (virial theorem: 2⟨KE⟩ = -⟨PE⟩), the total energy is minimized at the Bohr radius a₀. The 1s orbital represents this minimum-energy balance—maximum |ψ|² at r=0 is a probability density, not a classical trajectory. A poor answer (e.g., \"electron moves too fast\") treats the electron classically; the quantum view requires energy minimization of a wave function.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An atomic orbital is a three-dimensional region of space around the nucleus where the probability of finding an electron is maximum, ______ described by the one-electron wave function ψ(n, l, mₗ) obtained from solving the Schrödinger equation for the hydrogen atom.",
+     "a": "mathematically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in a dark room trying to locate a ______ by its flashes of light.",
+     "a": "firefly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Bohr's model assumed fixed circular paths (orbits), but quantum mechanics replaces this with orbitals—probability clouds where electrons spend ______% of their time.",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Distinguish between Bohr's orbit and quantum mechanical orbital using Heisenberg uncertainty principle, (2) Predict the number and type of orbitals in a given shell/subshell using quantum number rules, (3) Explain why s, p, d orbitals have different shapes and energies in multi-electron atoms using shielding and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are in a dark room trying to locate a firefly by its flashes of light.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

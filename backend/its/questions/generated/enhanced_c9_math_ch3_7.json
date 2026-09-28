@@ -34,6 +34,26 @@
      "q": "Construct a rational number \\( \\frac{p}{q} \\) in lowest terms such that:\n(a) Its decimal expansion terminates exactly after 5 decimal places.\n(b) Its denominator is less than 100.\nExplain your construction.",
      "a": "We need \\( q = 2^m 5^n \\) with \\( \\max(m,n) = 5 \\) and \\( q < 100 \\).\nPossible pairs: \\( (m,n) = (5,0) \\rightarrow q=32 \\); \\( (4,1) \\rightarrow q=80 \\); \\( (3,2) \\rightarrow q=200 \\) (too big); \\( (2,3) \\rightarrow 500 \\); \\( (1,4) \\rightarrow 1250 \\); \\( (0,5) \\rightarrow 3125 \\).\nChoose \\( q = 32 \\) or \\( 80 \\). Pick \\( p \\) coprime to \\( q \\), e.g., \\( \\frac{1}{32} \\) or \\( \\frac{3}{80} \\).\nA poor answer (e.g., \\( \\frac{1}{50} \\) which terminates after 2 places, or \\( \\frac{1}{64} \\) which terminates after 6 places) shows the student cannot reverse-engineer the condition or does not enforce the \"exactly 5 places\" constraint.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The shopkeeper asks you to pay the exact amount in ______.",
+     "a": "decimals",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Any denominator with only these primes can be multiplied to become a power of ______, giving a finite decimal.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can determine whether a given rational number has a terminating decimal expansion by examining the prime factors of its denominator in simplest form, and can predict the exact number of decimal places before termination without performing long division.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ asks you to pay the exact amount in decimals.",
+     "a": "shopkeeper",
+     "self_check": true
     }
    ]
   }

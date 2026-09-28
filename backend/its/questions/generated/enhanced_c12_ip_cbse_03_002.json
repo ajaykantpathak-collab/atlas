@@ -34,6 +34,26 @@
      "q": "Design a network plan for a multinational bank headquartered in Mumbai with branches in Delhi, London, and Singapore. Specify the network type for each link (HQ↔branch, branch↔ATMs, teller↔cash-recycler) and the primary technology you would choose for each. Justify each choice in one sentence.",
      "a": "HQ↔branch: WAN (MPLS/VPN over internet) – connects across countries. Branch↔ATMs: MAN (metro Ethernet/fibre) – spans city. Teller↔cash-recycler: PAN (USB/Bluetooth) – <1 m personal device link. A poor answer uses LAN for HQ↔Delhi (ignores national boundary) or WAN for teller↔cash-recycler (overkill, wrong scale).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A computer network is classified by its geographical span into four primary types: Personal Area Network (PAN) covers a few metres around an individual (e.g., Bluetooth); Local Area Network (LAN) spans a single building or campus up to a few kilometres; Metropolitan Area Network (MAN) extends across a city (5–50 km); Wide Area Network (WAN) connects networks across countries or continents using public ______ infrastructure.",
+     "a": "telecommunication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing the network ______ for a new university.",
+     "a": "infrastructure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The campus has multiple buildings (LAN), the university wants to connect its city campus to a suburban research park ______ km away (MAN), and it also needs to link to its international partner campuses (WAN).",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Given a real-world scenario (e.g., \"a school campus\", \"a smartwatch syncing with a phone\", \"a bank connecting branches across India\", \"a city-wide Wi-Fi project\"), the student must correctly identify the network type (PAN/LAN/MAN/WAN), justify the choice using geographical scope and typical technology, and state one advantage and one.",
+     "self_check": true
     }
    ]
   }

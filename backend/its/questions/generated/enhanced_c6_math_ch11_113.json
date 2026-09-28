@@ -34,6 +34,31 @@
      "q": "Describe the steps you would take to check if two different line segments drawn by your friends are actually the same length.",
      "a": "The student should suggest using a ruler to measure both and compare the values, or using a compass to mark the length of one and comparing it to the other. A poor answer would suggest \"looking at them to see if they match,\" which ignores the need for standard measurement tools.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Geometric ______ is the systematic and precise process of drawing figures like lines, angles, and shapes using specific tools such as a ruler, compass, and protractor.",
+     "a": "construction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ to draw a perfect square on a piece of paper; if you just use a pencil, it might look wobbly, but if you use a ruler and a right-angle tool, it will be perfect.",
+     "a": "asked",
+     "self_check": true
+    },
+    {
+     "q": "What is Geometric construction? State the definition given in this lesson.",
+     "a": "Geometric construction is the systematic and precise process of drawing figures like lines, angles, and shapes using specific tools such as a ruler, compass, and protractor.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Geometric construction?",
+     "a": "Students often assume that the size of an angle changes if the length of its arms changes.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must demonstrate the ability to identify the correct tool for a specific task and perform the basic construction of a line segment and an angle using standard geometric tools with precision.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_14_002",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_14_002",
+   "title": "c12_soc_cbse_14_002",
+   "questions": [
+    {
+     "q": "Name the first Indian newspaper with a distinct nationalist and democratic approach, its founder, language, and year of publication.",
+     "a": "*Sambad Kaumudi* (Bengali, 1821) and *Mirat-ul-Akbar* (Persian, 1822), founded by Raja Rammohun Roy. A wrong answer (e.g., *Bengal Gazette* 1780) reveals confusion between the *first* newspaper in India (Hicky's *Bengal Gazette*, a colonial enterprise) and the first *nationalist* press initiative—students often memorise 'first newspaper' without distinguishing colonial vs. nationalist intent.",
+     "self_check": true
+    },
+    {
+     "q": "Explain Benedict Anderson's concept of the 'imagined community' and how the print revolution in 19th-century India contributed to the growth of Indian nationalism.",
+     "a": "Anderson argues nations are 'imagined' because members never meet most fellow-members, yet feel horizontal comradeship; print capitalism (vernacular newspapers, novels) created unified fields of communication, standardised languages, and simultaneous consumption of news, allowing strangers to imagine themselves as one community. In India, nationalist newspapers (*Kesari*, *Amrita Bazar Patrika*, *The Hindu*) carried anti-colonial opinions across regions, turning disparate grievances into a shared national narrative. A wrong answer that only defines 'imagined community' without linking to *vernacular print* and *simultaneous reading* shows the student treats the concept as a static definition rather than a historical mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "The *Eenadu* (Telugu daily) launched 'district dailies' in 1989—tabloid inserts with hyper-local news and classifieds from villages. Using the concept of 'market segmentation', explain why this strategy expanded circulation in the rural hinterland while English dailies stagnated.",
+     "a": "*Eenadu* identified an underserved segment: rural/semi-urban Telugu readers whose needs (local crop prices, village festivals, missing persons) were ignored by city-centric English papers. By producing district-specific editions at low marginal cost (same core content + local insert), *Eenadu* achieved product-market fit, building loyalty and attracting local advertisers (fertiliser dealers, cloth merchants). English dailies, targeting urban elites with national/international news, faced saturation and could not replicate the local depth. A wrong answer focusing only on 'language advantage' misses the *organisational innovation* (decentralised editorial + local ad sales) that turned language into a viable business model.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the press-state relationship during the 1975–77 Emergency with the post-1991 liberalisation era. Identify two structural continuities and two ruptures.",
+     "a": "Continuities: (1) State retains licensing/regulatory power (Press Council, registration laws). (2) Ownership concentration persists (large corporate groups dominate). Ruptures: (1) *Constraint mechanism*: pre-1977 = direct censorship (pre-censorship orders); post-1991 = indirect market pressure (advertiser-driven content, TRP logic). (2) *Press self-conception*: 1977 saw journalists frame resistance as democratic duty; post-1991, 'infotainment' and 'consumer product' discourse normalises commercial compromise. A wrong answer that only lists 'censorship then, freedom now' ignores the subtle shift from state coercion to market discipline—a key sociological distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the claim: \"The Indian language newspaper revolution proves that print media is immune to digital disruption.\" Use evidence on readership trends, revenue models, and newsroom practices.",
+     "a": "The claim is flawed. While *circulation* grew (2006–2016 CAGR 4.87%), *advertising revenue share* shifted to digital; newsrooms now prioritise 'digital-first' workflows, and younger readers access the same brands via apps/websites. The 'revolution' was a *delayed* growth due to late literacy/urbanisation, not immunity. Papers like *Dainik Bhaskar* now derive significant revenue from digital subscriptions/events. A good critique distinguishes *circulation volume* from *business model sustainability* and notes that the same conglomerates (Times Group, DB Corp) are investing heavily in digital—print is a legacy cash cow, not a fortress.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical 'district daily' insert for a Hindi newspaper launching in a backward district of Uttar Pradesh in 2025. Specify: (a) three hyper-local content categories, (b) two revenue sources beyond display ads, (c) one digital integration feature, and (d) one ethical safeguard against paid news.",
+     "a": "(a) Content: (i) Mandi rates & govt scheme deadlines (PM-Kisan, Kisan Credit Card), (ii) Village-level events (melas, panchayat meetings, school results), (iii) Health alerts (ASHA worker visits, vaccination drives). (b) Revenue: (i) Sponsored 'scheme awareness' inserts (bank/NGO funded), (ii) Classified bundles for local services (tutors, tractor repair, matrimony). (c) Digital: WhatsApp broadcast list for breaking alerts (procurement centre opening, flood warning) with QR code linking to e-paper. (d) Safeguard: 'Paid News' disclaimer box on every advertorial page + editorial ombudsman contact printed weekly. A poor answer lists generic 'local news' without tying to *information needs of marginalised rural citizens* or ignores the *political economy* of paid news in district editions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Print Revolution in India refers to the historical development and impact of printing technology and the press from the colonial period through post-independence, encompassing the rise of nationalist newspapers, vernacular language press, censorship struggles, and the post-1990s Indian language newspaper revolution driven by ______ modernization, rising literacy, and market strategies.",
+     "a": "technological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you hold a 1920s copy of *Kesari* and a 2020 edition of *Dainik Bhaskar*—both are ______, but the first was a weapon against empire, the second a product in a media market.",
+     "a": "newspapers",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Print Revolution in India refers to the historical development and impact of printing technology and the press from the colonial period through post-independence, encompassing the rise of nationalist newspapers, vernacular language press, censorship struggles, and the post-______s Indian language newspaper revolution driven by technological modernization, rising literacy, and market strategies.",
+     "a": "1990",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can trace the dialectical relationship between the Indian press and socio-political contexts (colonial, post-independence developmental, globalised market) by explaining how specific newspapers (e.g., Kesari, Eenadu, Dainik Jagran) responded to state policies, technological shifts, and audience changes, and can evaluate.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

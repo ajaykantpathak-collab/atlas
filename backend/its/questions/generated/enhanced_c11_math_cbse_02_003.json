@@ -34,6 +34,26 @@
      "q": "Create a real-life scenario involving two sets (e.g., students and clubs, cities and languages) where a relation is defined by a specific rule. Write the relation in all three representations (roster, set-builder, arrow diagram) and state its domain and range.",
      "a": "Example: A = {Delhi, Mumbai, Chennai}, B = {Hindi, Marathi, Tamil}. Relation R: \"city is the capital of the state where language is official\". Roster: {(Delhi, Hindi), (Mumbai, Marathi), (Chennai, Tamil)}. Set-builder: {(c, l) : c is capital of state with official language l}. Arrow diagram: arrows from each city to its language. Domain = {Delhi, Mumbai, Chennai}, Range = {Hindi, Marathi, Tamil}. A poor answer uses a rule that does not produce a clear subset (e.g., \"city is near language\") or mixes up domain/range in the diagram.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A relation R from a non-empty set A to a non-empty set B is a subset of the ______ product A × B.",
+     "a": "Cartesian",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are organising a ______ event where each student (from set A = {Amit, Priya, Rohan}) must be paired with a volunteer task (from set B = {Registration, Refreshments, Cleanup}).",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can define a relation as a subset of a Cartesian product, represent it in roster form, set-builder form, and arrow diagram, and correctly identify the domain, codomain, and range for any given relation between two finite sets.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are organising a school event where each student (from set A = {Amit, Priya, Rohan}) must be paired with a volunteer task (from set B = {______, Refreshments, Cleanup}).",
+     "a": "Registration",
+     "self_check": true
     }
    ]
   }

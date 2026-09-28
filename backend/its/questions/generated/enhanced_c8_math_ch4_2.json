@@ -34,6 +34,26 @@
      "q": "Create a real-life problem (using Indian context: rupees, metres, etc.) that requires using the property \"opposite sides of a rectangle are equal\" to find an unknown length. Write the problem and its solution.",
      "a": "Example problem: \"A rectangular plot has a perimeter of 140 m. Its length is 10 m more than its breadth. Find the length and breadth.\" Solution uses opposite sides equal to set up 2(l+b)=140 and l=b+10. A poor answer gives a problem that doesn't need the property (e.g., direct area calculation) or a solution that doesn't explicitly use \"opposite sides equal\", showing the student cannot design a task targeting this specific property.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A rectangle is a ______ with four right angles (each measuring 90°).",
+     "a": "quadrilateral",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ garden bed in your school courtyard.",
+     "a": "rectangular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A rectangle is a quadrilateral with four right angles (each measuring ______°).",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify a rectangle in a set of quadrilaterals by verifying the right-angle condition, use the properties (opposite sides equal, all angles 90°, diagonals equal and bisect each other) to find unknown side lengths or angles in multi-step problems, and explain why a square is a special rectangle while a rhombus is not.",
+     "self_check": true
     }
    ]
   }

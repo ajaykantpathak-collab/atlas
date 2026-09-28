@@ -71,7 +71,16 @@
      "explain": "the gap shows how much steeper continental accumulation is",
      "compute": "z_gap = steep_z_low - shallow_z_high"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "z_gap = steep_z_low - shallow_z_high",
+     "compute": "z_gap = steep_z_low - shallow_z_high"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebo.113.3",

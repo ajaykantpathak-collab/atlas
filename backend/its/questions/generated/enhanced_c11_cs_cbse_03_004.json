@@ -34,6 +34,31 @@
      "q": "Create a new simple problem from daily Indian life (not a textbook example) that requires exactly 3 inputs, 2 intermediate calculations, and 1 final output. Write its complete algorithm.",
      "a": "**Problem:** Calculate the total fare for an auto-rickshaw ride: first 2 km at ₹25, subsequent km at ₹12/km, plus ₹5 waiting charge per minute. Inputs: distance_km, waiting_min. (Base fare fixed).\n**Algorithm:**\n1. Start\n2. Input distance_km, waiting_min\n3. If distance_km <= 2: base_fare = 25; Else: base_fare = 25 + (distance_km - 2) * 12\n4. wait_charge = waiting_min * 5\n5. total_fare = base_fare + wait_charge\n6. Output total_fare\n7. Stop\n**Criteria for good answer:** Realistic Indian context, exactly 3 inputs (distance, waiting, implicit base rates), 2 calculations (base_fare, wait_charge), 1 output. A poor answer (e.g., \"calculate average of 3 numbers\") reveals inability to abstract real-world scenarios into IPO structure or miscounts steps/inputs.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Writing algorithms for simple problems is the process of expressing a solution as a finite sequence of clear, unambiguous, and executable steps in natural language or structured English, following the Input-Process-Output model, to solve problems involving basic arithmetic, logical comparisons, or simple data ______ without requiring branching or iteration constructs.",
+     "a": "manipulation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're explaining to a younger sibling how to ______ the total bill at a stationary shop: 3 notebooks at ₹45 each, 2 pens at ₹10 each, and 1 geometry box at ₹120, with a 10% discount on the total.",
+     "a": "calculate",
+     "self_check": true
+    },
+    {
+     "q": "What is Writing algorithms for simple problems? State the definition given in this lesson.",
+     "a": "Writing algorithms for simple problems is the process of expressing a solution as a finite sequence of clear, unambiguous, and executable steps in natural language or structured English, following the Input-Process-Output model, to solve problems involving basic arithmetic, logical comparisons, or simple data manipulation without.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Writing algorithms for simple problems?",
+     "a": "Students treat algorithm writing as \"writing the formula\" – they write SI = P*R*T/100 and call it an algorithm, omitting Start, Input, Output, Stop, and variable initialization.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently write a complete algorithm for a given simple problem (e.g., calculate simple interest, convert Celsius to Fahrenheit, find largest of two numbers) using proper structure (Start, Input, Process, Output, Stop), correct sequencing of steps, and unambiguous language that another person could follow without.",
+     "self_check": true
     }
    ]
   }

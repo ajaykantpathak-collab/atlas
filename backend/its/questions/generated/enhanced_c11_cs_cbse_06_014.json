@@ -21,7 +21,7 @@
      "self_check": true
     },
     {
-     "q": "Compare the following three snippets. Which ones create a shallow copy and which create an alias? Justify each.\n```python",
+     "q": "Compare the following three snippets. Which ones create a shallow copy and which create an alias? Justify each.\n```python\n# A\na = [1, 2, 3]\nb = a\n# B\nc = [1, 2, 3]\nd = c[:]\n# C\ne = [1, 2, 3]\nf = list(e)\n```",
      "a": "A creates an alias (same id). B and C create shallow copies (different ids for outer list, same ids for elements). Justification: Assignment (`=`) copies the reference. Slicing (`[:]`) and the `list()` constructor both explicitly build a new list object and populate it with references to the original elements. A wrong classification (e.g., saying B is an alias) shows the student cannot distinguish between copying a reference and copying a container of references.",
      "self_check": true
     },
@@ -33,6 +33,26 @@
     {
      "q": "Design a short Python program (3-5 lines) that demonstrates the *exact moment* when aliasing causes a bug that a shallow copy would have prevented. Use a real-world context like a shopping cart or student marks list. The code must print both lists before and after the modification to show the bug.",
      "a": "Example solution:\n```python\ncart = ['apple', 'banana']\nbackup = cart          # aliasing bug: should be cart[:]\ncart.append('mango')\nprint(\"Cart:\", cart)        # ['apple', 'banana', 'mango']\nprint(\"Backup:\", backup)    # ['apple', 'banana', 'mango'] <- BUG: backup changed!\n```\nA poor answer might show the bug but not print both before/after, or use a nested list where shallow copy would also fail, missing the point that shallow copy *would* have fixed this specific flat-list scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In Python, aliasing occurs when two or more variables refer to the exact same list object in memory (e.g., list2 = list1), so any ______ through one variable is immediately visible through the other.",
+     "a": "modification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and a friend are sharing a single Google Doc (______): if you edit a paragraph, your friend sees the change instantly because you are editing the *same* document.",
+     "a": "aliasing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to predict the output of code snippets involving assignment, slicing, and the list() constructor on both flat and nested lists, and correctly explain whether a change to one list affects another using the terms \"aliasing\" and \"shallow copy\".",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and a friend are sharing a single Google Doc (aliasing): if you edit a ______, your friend sees the change instantly because you are editing the *same* document.",
+     "a": "paragraph",
      "self_check": true
     }
    ]

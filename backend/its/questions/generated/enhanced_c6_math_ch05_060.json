@@ -34,6 +34,36 @@
      "q": "Create a number pattern where the 1st term is 5 and each term increases by 4. Write the algebraic rule for your pattern.",
      "a": "The sequence is 5, 9, 13, 17... The rule is $4n + 1$. A poor answer would be a sequence that doesn't increase by 4 or a rule that doesn't produce the first term correctly.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Algebra is the branch of mathematics that uses variables (letters) to represent unknown numbers, allowing us to describe general patterns and ______ with simple formulas.",
+     "a": "relationships",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a tower using blocks, and each level you add ______ exactly 3 more blocks than the one below.",
+     "a": "requires",
+     "self_check": true
+    },
+    {
+     "q": "What is Algebra? State the definition given in this lesson.",
+     "a": "Algebra is the branch of mathematics that uses variables (letters) to represent unknown numbers, allowing us to describe general patterns and relationships with simple formulas.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a tower using blocks, and each level you add requires exactly ______ more blocks than the one below.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Algebra?",
+     "a": "Students often try to find the rule by looking at the relationship between the term and the position as an addition problem instead of a multiplication problem.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "They must demonstrate this by predicting the value of the 10th or 20th term correctly.",
+     "self_check": true
     }
    ]
   }

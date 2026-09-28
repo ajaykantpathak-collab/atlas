@@ -1,6 +1,100 @@
 {
- "catalog": "catalog_class11_biology_ch113",
+ "catalog": "catalog_class11_biology_ch113.json",
  "concepts": [
+  {
+   "id": "kebo.13.1.4.1",
+   "title": "Arithmetic Growth Rate Calculation",
+   "converted_to_compute": true,
+   "formula": "L_t = L_0 + (r * t)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "L_t = L_0 + (r * t)",
+     "compute": "L_t = L_0 + (r * t)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Arithmetic Growth Rate Calculation: given L_0 = 41, r = 0.8, t = 27, find L t.",
+     "a": "62.6",
+     "self_check": false
+    },
+    {
+     "q": "For Arithmetic Growth Rate Calculation: given L_0 = 64, r = 77, t = 68, find L t.",
+     "a": "5300",
+     "self_check": false
+    },
+    {
+     "q": "For Arithmetic Growth Rate Calculation: given L_0 = 35, r = 15.1, t = 43, find L t.",
+     "a": "684.3",
+     "self_check": false
+    },
+    {
+     "q": "For Arithmetic Growth Rate Calculation: given L_0 = 91, r = 13.7, t = 8.6, find L t.",
+     "a": "208.82",
+     "self_check": false
+    },
+    {
+     "q": "For Arithmetic Growth Rate Calculation: given L_0 = 8.4, r = 95, t = 26, find L t.",
+     "a": "2478.4",
+     "self_check": false
+    },
+    {
+     "q": "For Arithmetic Growth Rate Calculation: given L_0 = 85, r = 28, t = 11.4, find L t.",
+     "a": "404.2",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebo.13.1.4.2",
+   "title": "Absolute and Relative Growth Rates",
+   "converted_to_compute": true,
+   "formula": "absolute_increase = final_size - initial_size",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "absolute_increase = final_size - initial_size",
+     "compute": "absolute_increase = final_size - initial_size"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Absolute and Relative Growth Rates: given final_size = 27, initial_size = 14.5, find absolute increase.",
+     "a": "12.5",
+     "self_check": false
+    },
+    {
+     "q": "For Absolute and Relative Growth Rates: given final_size = 67, initial_size = 0.8, find absolute increase.",
+     "a": "66.2",
+     "self_check": false
+    },
+    {
+     "q": "For Absolute and Relative Growth Rates: given final_size = 19, initial_size = 14.4, find absolute increase.",
+     "a": "4.6",
+     "self_check": false
+    },
+    {
+     "q": "For Absolute and Relative Growth Rates: given final_size = 6.4, initial_size = 70, find absolute increase.",
+     "a": "-63.6",
+     "self_check": false
+    },
+    {
+     "q": "For Absolute and Relative Growth Rates: given final_size = 34, initial_size = 59, find absolute increase.",
+     "a": "-25",
+     "self_check": false
+    },
+    {
+     "q": "For Absolute and Relative Growth Rates: given final_size = 92, initial_size = 29, find absolute increase.",
+     "a": "63",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "kebo.13.1.1",
    "title": "Open Form and Indeterminate Nature of Plant Growth",
@@ -39,68 +133,6 @@
     {
      "q": "Under which section is 'Phases of Cellular Growth' taught, and from which source text?",
      "a": "13.1.3 (source: kebo113.txt lines 85-115)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebo.13.1.4.1",
-   "title": "Arithmetic Growth Rate Calculation",
-   "questions": [
-    {
-     "q": "Calculate the final length of a root undergoing arithmetic elongation. Use the method 'Arithmetic Growth Rate Calculation'. Work with: initial_length = 4, rate = 12, time = 200. Carry the chain through step by step and give the final value of final_length.",
-     "a": "2404 units",
-     "self_check": false
-    },
-    {
-     "q": "Find the total length after a given duration of constant linear growth. Use the method 'Arithmetic Growth Rate Calculation'. Work with: initial_length = 8, rate = 10, time = 40. Carry the chain through step by step and give the final value of final_length.",
-     "a": "408 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Arithmetic Growth Rate Calculation' refers to.",
-     "a": "A linear increase in dimensions over time occurring when only one mitotic daughter cell continues division while the other undergoes differentiation.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Arithmetic Growth Rate Calculation'.",
-     "a": "A steady addition of constant length per unit time yields a straight line on an organ length versus time graph.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Arithmetic Growth Rate Calculation', in plain ASCII form.",
-     "a": "L_t = L_0 + (r * t)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebo.13.1.4.2",
-   "title": "Absolute and Relative Growth Rates",
-   "questions": [
-    {
-     "q": "Calculate the absolute growth of an expanding leaf. Use the method 'Absolute and Relative Growth Rates'. Work with: final_size = 256, initial_size = 512. Carry the chain through step by step and give the final value of absolute_increase.",
-     "a": "-256 units",
-     "self_check": false
-    },
-    {
-     "q": "Find the net increase in leaf surface area over a given period. Use the method 'Absolute and Relative Growth Rates'. Work with: final_size = 8192, initial_size = 4096. Carry the chain through step by step and give the final value of absolute_increase.",
-     "a": "4096 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Absolute and Relative Growth Rates' refers to.",
-     "a": "Absolute growth measures total net dimensional increase per unit time, while relative growth expresses that increase per unit of starting dimension.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Absolute and Relative Growth Rates'.",
-     "a": "Absolute growth reflects total magnitude gained, whereas relative rate accounts for initial structural scale.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Absolute and Relative Growth Rates', in plain ASCII form.",
-     "a": "absolute_increase = final_size - initial_size",
      "self_check": true
     }
    ]

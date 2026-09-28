@@ -34,6 +34,31 @@
      "q": "Design a locational decision matrix for a new lithium-ion battery gigafactory in India. Inputs: lithium carbonate (imported), cobalt (imported), graphite (domestic, Odisha), electricity (continuous 50 MW), skilled chemical engineers, water (moderate), port access for exports. Weight each factor 1–5, justify weights, and recommend one location from: Mundra (Gujarat), Krishnapatnam (Andhra), Tuticorin (Tamil Nadu), Dhamra (Odisha).",
      "a": "Matrix (weights: 5=critical):\n- Port access for imported raw materials + export: 5 (Mundra, Krishnapatnam, Tuticorin, Dhamra all score 5)\n- Reliable 50 MW power: 5 (Mundra: Adani captive + grid; Tuticorin: NLC thermal + wind; Krishnapatnam: coastal thermal; Dhamra: captive + grid)\n- Skilled labour pool: 4 (Tuticorin: IIT Madras proximity, chemical industry base; Mundra: limited; Krishnapatnam: limited; Dhamra: limited)\n- Graphite proximity (Odisha): 3 (Dhamra scores 5, others 1)\n- Water availability: 3 (all coastal, desalination possible)\n- Policy incentives (state EV policies): 3 (Gujarat, TN, AP, Odisha all active)\n\nWeighted scores: Mundra 5×5+5×5+4×1+3×1+3×1+3×1=54; Krishnapatnam 54; Tuticorin 5×5+5×5+4×5+3×1+3×1+3×3=77; Dhamra 5×5+5×5+4×1+3×5+3×1+3×1=62. Recommendation: Tuticorin — best skilled labour + port + power + state EV ecosystem. Wrong answer reveals students overweight raw material proximity (graphite) and underweight skilled labour and ecosystem — they apply old-weight-losing logic to a high-tech, globally sourced, skill-intensive industry.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Industrial location factors are the geographical, economic, and ______ determinants that influence where manufacturing units establish operations, with raw material availability (weight-losing vs. weight-gaining), power supply reliability and cost, and labour characteristics (skill level, cost, mobility) forming the primary triad of physical and human inputs that minimize production and transportation costs per Weber's least-cost theory.",
+     "a": "infrastructural",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the ______ landscape around your city — why is the thermal power plant near the coal mine while the software park is near the university?",
+     "a": "industrial",
+     "self_check": true
+    },
+    {
+     "q": "What is Industrial location factors? State the definition given in this lesson.",
+     "a": "Industrial location factors are the geographical, economic, and infrastructural determinants that influence where manufacturing units establish operations, with raw material availability (weight-losing vs. weight-gaining), power supply reliability and cost, and labour characteristics (skill level, cost, mobility) forming the primary.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Industrial location factors?",
+     "a": "Students believe \"industries always locate near raw materials\" — they apply the weight-losing principle universally.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify any given industry as raw-material-oriented, power-oriented, or labour-oriented using weight-loss ratio and locational coefficient calculations, explain locational shifts using Weber's triangular model, and evaluate real-world Indian examples (e.g., iron-steel at Jamshedpur vs. cotton textile at Ahmedabad).",
+     "self_check": true
     }
    ]
   }

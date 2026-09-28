@@ -34,6 +34,26 @@
      "q": "Create a new real-world dataset (not temperature) that would be appropriately visualised with a line chart. Specify the x and y variables, suggest at least three customisations (colour, marker, linestyle), and justify each choice based on the data's nature.",
      "a": "Example: Monthly electricity consumption (kWh) over a year for a household. x = months (1-12), y = consumption. Customisations: colour='orange' (high visibility), marker='^' (triangles to highlight each month's reading), linestyle='-' (solid to show continuous trend). Justification: orange stands out in presentations; triangles mark discrete monthly readings; solid line emphasises the continuous nature of consumption over time. A poor answer uses a dataset better suited for bar chart (e.g., categorical data) or chooses customisations without justification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A line chart is a graphical ______ that displays data points connected by straight line segments to show trends over a continuous interval or time period.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are tracking the daily maximum ______ in your city for a week: [32, 34, 31, 33, 35, 36, 34] degrees Celsius.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In Python's matplotlib library, plt.plot(x, y) creates a line chart where x and y are sequences of coordinates; if only y is provided, x defaults to integer indices starting from ______.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently write a complete Python program that imports matplotlib.pyplot, prepares two numerical sequences (or reads them from a CSV), calls plt.plot() with appropriate customisation arguments, adds axis labels, a title, a legend, and gridlines, and finally displays or saves the chart.",
+     "self_check": true
     }
    ]
   }

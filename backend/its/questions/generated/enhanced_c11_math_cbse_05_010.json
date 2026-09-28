@@ -34,6 +34,16 @@
      "q": "Construct a complex number \\(z\\) (non-zero) such that \\(z^3 = -8i\\) and express all three solutions in Euler form. Explain how the solutions are geometrically arranged on the Argand plane.",
      "a": "Write \\(-8i = 8 e^{-i\\frac{\\pi}{2}}\\) (principal argument \\(-\\frac{\\pi}{2}\\)). Cube roots: \\(z_k = 8^{1/3} e^{i\\frac{-\\pi/2 + 2k\\pi}{3}} = 2 e^{i\\frac{-\\pi/2 + 2k\\pi}{3}}, k=0,1,2\\). So \\(z_0 = 2 e^{-i\\frac{\\pi}{6}}\\), \\(z_1 = 2 e^{i\\frac{\\pi}{2}} = 2i\\), \\(z_2 = 2 e^{i\\frac{7\\pi}{6}} = 2 e^{-i\\frac{5\\pi}{6}}\\). Geometrically: three points on circle of radius 2, equally spaced by \\(120^\\circ\\) (arguments differ by \\(\\frac{2\\pi}{3}\\)). A poor answer gives only one root (ignoring multi-valued nature) or spaces them incorrectly (e.g., by \\(90^\\circ\\)), revealing incomplete grasp of De Moivre's theorem in Euler form.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The phase difference between ______ and current is crucial.",
+     "a": "voltage",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The phase ______ between voltage and current is crucial.",
+     "a": "difference",
+     "self_check": true
     }
    ]
   }

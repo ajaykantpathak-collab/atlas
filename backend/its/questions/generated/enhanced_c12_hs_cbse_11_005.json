@@ -34,6 +34,31 @@
      "q": "Create a one-day time plan for a homemaker who manages a home-based tailoring business, has two school-age children, and wants to include 30 minutes of skill-upgradation (online course). The plan must show time blocks, category labels, and at least two buffers. Present it in a table format.",
      "a": "A good answer will produce a table with 24 rows (or half-hour blocks) showing: sleep 7 h (personal maintenance), meals 2 h (personal maintenance), childcare 3 h (committed), tailoring 5 h (obligatory), household chores 2 h (committed), online course 0.5 h (discretionary/skill), family time 1 h (discretionary), buffers 2 × 15 min (between tailoring and chores, after children's bedtime), and 3.5 h discretionary/leisure. A poor answer that omits buffers, schedules the course at 11 pm after a 14-hour workday, or does not label categories reveals the student cannot translate theory into a realistic, labeled schedule.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Time management in family resource management refers to the systematic process of analyzing how time is currently spent (time use patterns), recording time ______ (time records), and designing a realistic schedule (time plan) to achieve individual and family goals efficiently while maintaining well-being.",
+     "a": "expenditures",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a Class 12 student ______ for board exams and CUET, but you feel you never have enough time.",
+     "a": "preparing",
+     "self_check": true
+    },
+    {
+     "q": "What is Time management in family resource management? State the definition given in this lesson.",
+     "a": "Time management in family resource management refers to the systematic process of analyzing how time is currently spent (time use patterns), recording time expenditures (time records), and designing a realistic schedule (time plan) to achieve individual and family goals efficiently while maintaining well-being.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Time management in family resource management?",
+     "a": "Students often believe \"time management means packing every minute with productive work.\" They create plans with zero white space, no buffers, and no transition time, then feel guilty when the plan fails.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) construct a 24-hour time-use diary for a family member, categorize activities into obligatory, committed, discretionary, and personal maintenance, (2) calculate the percentage of time spent in each category, and (3) design a balanced weekly time plan that reallocates time toward high-priority goals without.",
+     "self_check": true
     }
    ]
   }

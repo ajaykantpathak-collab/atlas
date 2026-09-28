@@ -34,6 +34,26 @@
      "q": "Construct a demographic profile table for British India in 1941 using these indicators: CBR, CDR, IMR, Life Expectancy, Total Literacy, Female Literacy, Urbanisation Rate. Then write a 3-sentence policy brief for the 1947 Interim Government identifying the TOP priority demographic intervention with justification.",
      "a": "Table: CBR ~40, CDR ~40, IMR 218, LE 32, Literacy 16%, Female Literacy 7%, Urbanisation ~14%. Policy Brief: \"Priority: Universal public health and nutrition programme targeting infant and maternal mortality. Justification: IMR of 218 implies 1 in 5 infants die — the single largest welfare loss. Reducing IMR breaks the high-fertility trap (demographic transition theory) and builds human capital. Fiscal space: Redirect 'Home Charges' and military expenditure.\" A poor answer listing \"education\" as top priority without linking to mortality reduction shows inability to sequence policy by demographic impact.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Demographic conditions refer to the quantitative and qualitative ______ of a population including birth rates, death rates, life expectancy, literacy levels, and age structure.",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a public health officer in 1940s Bengal examining village records: you notice that for every 1000 babies born, 218 die before their first birthday, and the ______ person dies at age 32.",
+     "a": "average",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can interpret historical demographic data (birth rate, death rate, IMR, life expectancy) to explain the stage of demographic transition India was in during the colonial period, and can link these indicators to specific colonial policies (land revenue systems, neglect of public health, commercialisation of agriculture) that.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a public health officer in 1940s Bengal ______ village records: you notice that for every 1000 babies born, 218 die before their first birthday, and the average person dies at age 32.",
+     "a": "examining",
+     "self_check": true
     }
    ]
   }

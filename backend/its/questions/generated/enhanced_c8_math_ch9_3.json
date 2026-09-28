@@ -34,6 +34,36 @@
      "q": "Design a real-world problem (with numbers) where halving a square is needed, and describe the construction steps a carpenter would follow using only a rope (as a compass) and a straight edge, as in ancient Sulba-sutra practices.",
      "a": "Example problem: A square wooden board of side 1 m is to be cut into two pieces to make two identical smaller square shelves of equal total area. Each shelf must have half the board's area. Construction: 1) Mark the square board. 2) Stretch rope from one corner to the opposite corner to mark the diagonal. 3) Fold the rope to find the midpoint of the diagonal. 4) Use that half-length as the side to mark out the smaller square on the board. 5) Cut along the lines. A poor answer gives a problem not requiring half-area, or describes measuring with a ruler instead of geometric construction, showing lack of connection to the historical method.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Halving a square is the geometric ______ of a new square whose area is exactly half the area of a given square.",
+     "a": "construction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a tile designer in Jaipur creating a pattern for a ______.",
+     "a": "courtyard",
+     "self_check": true
+    },
+    {
+     "q": "What is Halving a square? State the definition given in this lesson.",
+     "a": "Halving a square is the geometric construction of a new square whose area is exactly half the area of a given square.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You have a square marble slab of side ______ cm, but the design requires a smaller square of exactly half the area to fit into a corner.",
+     "a": "60",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Halving a square?",
+     "a": "Students often think that halving the side length of a square halves its area.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently construct a square with half the area of a given square using only a compass and straightedge, and can justify the construction by explaining the relationship between the side and diagonal of a square using the Pythagorean theorem (Baudhayana theorem).",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using dialysis tubing to model the selective absorption of nutrients in the small intestine. Specify what you would put inside the tubing, what the outside solution would be, and how you would test for absorption of glucose vs. starch.",
      "a": "Fill dialysis tubing with a mixture of starch and glucose solution (simulating chyme). Place tubing in a beaker of water (simulating blood). After 20 minutes, test the outside water for glucose (Benedict's test) and starch (iodine test). Glucose will diffuse out (small molecules), starch will not (large molecules). A poor design (e.g., using same test for both, or not controlling temperature) reveals the student doesn't grasp molecular size selectivity or proper experimental controls.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The small intestine is the primary site for complete digestion of ______, proteins, and fats using bile (from the liver) and pancreatic juice (from the pancreas), followed by absorption of the resulting simple nutrients (glucose, amino acids, fatty acids, glycerol) into the bloodstream through villi and microvilli.",
+     "a": "carbohydrates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine eating a plate of rajma-chawal (kidney beans and rice) — the ______, proteins, and fats need to be broken down into tiny molecules that can enter your blood.",
+     "a": "carbohydrates",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the role of bile in emulsification, list the three major pancreatic enzymes with their substrates and products, describe how villi increase surface area for absorption, and trace the path of absorbed nutrients into blood capillaries and lacteals.",
+     "self_check": true
     }
    ]
   }

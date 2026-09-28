@@ -34,6 +34,31 @@
      "q": "Design a hypothetical business scenario involving a product of your choice (e.g., smartphones, vegetables, textbooks) that clearly illustrates the complete wholesale-to-retail chain. Specify the quantity, buyer type, and price per unit at each stage (manufacturer → wholesaler → retailer → consumer). Explain how the price per unit changes and why.",
      "a": "Example: Textbooks. Manufacturer prints 10,000 copies, sells to wholesaler @ ₹100/copy (lot: 5,000 copies). Wholesaler sells to 50 retailers @ ₹130/copy (lot: 100 copies each). Retailer sells to students @ ₹180/copy (single unit). Price rises due to value addition: wholesaler adds warehousing, bulk-breaking, transport, credit risk; retailer adds shop rent, display, personal selling, small-lot convenience. A poor answer showing same price at all stages or missing a stage reveals inability to conceptualize the cumulative value addition in the distribution chain.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Wholesale trade refers to the purchase and sale of goods in large quantities for resale or ______ use, typically to retailers or industrial users, while retail trade involves the purchase of goods in bulk from wholesalers and their sale in small quantities directly to ultimate consumers for personal, non-business use.",
+     "a": "intermediate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you buy a 5kg bag of rice from a local kirana store for ₹300, but the same rice costs ₹250/kg if you buy a 50kg sack ______ from a grain market.",
+     "a": "directly",
+     "self_check": true
+    },
+    {
+     "q": "What is Wholesale trade? State the definition given in this lesson.",
+     "a": "Wholesale trade refers to the purchase and sale of goods in large quantities for resale or intermediate use, typically to retailers or industrial users, while retail trade involves the purchase of goods in bulk from wholesalers and their sale in small quantities directly to ultimate consumers for personal, non-business use.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Wholesale trade?",
+     "a": "Students often believe \"Wholesalers sell cheap, retailers sell expensive\" is the only difference, confusing *price level* with *pricing structure*.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to correctly classify any given business scenario as wholesale or retail trade by identifying the target buyer (reseller vs. ultimate consumer), transaction volume (bulk vs. small lots), and position in the distribution chain, and explain at least three distinct functional differences between the two with.",
+     "self_check": true
     }
    ]
   }

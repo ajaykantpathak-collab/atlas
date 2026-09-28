@@ -34,6 +34,26 @@
      "q": "Design a step-by-step laboratory procedure (using only anti-A, anti-B, and anti-D sera) to determine the ABO and Rh group of an unknown blood sample. Include a table showing expected agglutination results for all 8 blood groups (A+, A-, B+, B-, AB+, AB-, O+, O-).",
      "a": "Good answer criteria: Procedure: (1) Place three drops of blood sample on a slide/tile. (2) Add anti-A to drop 1, anti-B to drop 2, anti-D to drop 3. (3) Mix and rock for 2 minutes. (4) Observe for agglutination (clumping). Table must correctly map: A+ = agglutination with anti-A and anti-D only; A- = anti-A only; B+ = anti-B and anti-D; B- = anti-B only; AB+ = all three; AB- = anti-A and anti-B; O+ = anti-D only; O- = none. A poor answer (missing Rh testing, wrong agglutination pattern for AB/O) reveals the student cannot translate the antigen-antibody logic into a practical diagnostic algorithm.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ABO blood group system classifies human blood based on the presence or absence of two antigens (A and B) on red blood cell surfaces and ______ natural antibodies (anti-A, anti-B) in plasma; the Rh system classifies blood based on the presence (Rh-positive) or absence (Rh-negative) of the Rh antigen (D antigen) on RBCs.",
+     "a": "corresponding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The technician pricks a donor's finger, mixes a drop of blood with two different solutions on a glass slide, and watches for ______.",
+     "a": "clumping",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) predict ABO/Rh blood group from given antigen/antibody profile, (2) determine safe donor-recipient pairs for whole blood and plasma transfusion using Landsteiner's law, and (3) explain the mechanism and prevention of erythroblastosis foetalis in Rh-incompatible pregnancies.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ pricks a donor's finger, mixes a drop of blood with two different solutions on a glass slide, and watches for clumping.",
+     "a": "technician",
+     "self_check": true
     }
    ]
   }

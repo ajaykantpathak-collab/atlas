@@ -34,6 +34,36 @@
      "q": "Design a minimal social security package for informal sector workers (covering 89% of workforce per 2019-20 data) that addresses the three pillars of employment quality. Specify: (a) core benefits, (b) financing mechanism (contributory/non-contributory), (c) delivery architecture (leveraging existing identifiers like Aadhaar, Jan Dhan, e-Shram), (d) fiscal cost estimate as % of GDP. Justify each choice.",
      "a": "Good answer criteria: (a) Core: Old-age pension (₹3,000/mo), health insurance (₹5 lakh/family), maternity (₹6,000), disability/life cover — aligning with PM-SYM, PM-JAY, PMMVY. (b) Financing: Partially contributory (worker ₹50-100/mo, matched by govt) + tax-funded for poorest — balances sustainability and inclusion. (c) Delivery: e-Shram portal for registration, Aadhaar for authentication, Jan Dhan for DBT — uses digital public infrastructure. (d) Cost: ~1.5-2% GDP (comparable to Brazil's Bolsa Família + Previdência). Poor answer: Proposes universal basic income without targeting, ignores fiscal constraints, or replicates failed schemes (e.g., RSBY's low enrollment) — shows lack of implementation awareness.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Quality of employment refers to the ______ assessment of a job beyond mere employment status, encompassing adequacy of wages (real wages adjusted for inflation and purchasing power), decency of working conditions (hours of work, safety standards, leave entitlements, freedom from exploitation), and access to social security coverage (provident fund, gratuity, maternity benefits, pension, health insurance, unemployment insurance) as mandated by labour laws.",
+     "a": "multidimensional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 28-year-old delivery partner for a food aggregator platform in Bengaluru — he works 12-hour shifts, earns ₹25,000/month with no paid leave, no health ______, no provident fund, and can be deactivated without notice.",
+     "a": "insurance",
+     "self_check": true
+    },
+    {
+     "q": "What is Quality of employment? State the definition given in this lesson.",
+     "a": "Quality of employment refers to the multidimensional assessment of a job beyond mere employment status, encompassing adequacy of wages (real wages adjusted for inflation and purchasing power), decency of working conditions (hours of work, safety standards, leave entitlements, freedom from exploitation), and access to social security.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In the Indian context, it distinguishes formal sector employment (enterprises with ______+ hired workers, covered by labour legislation) from informal sector employment where such protections are largely absent, and measures the degree of casualisation (shift from self-employment/regular salaried to casual wage labour) which erodes bargaining power and income security.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Quality of employment?",
+     "a": "Students equate 'employment generation' with 'quality employment creation', assuming any job reduces poverty.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate and interpret real wage trends using CPI data, compare social security coverage rates between formal and informal sectors using PLFS data, and evaluate the impact of casualisation on worker vulnerability by analyzing sectoral shifts in workforce status (self-employed, regular salaried, casual wage) over time.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a simple classroom simulation (using paper strips or coloured beads) to demonstrate how DNA fingerprinting distinguishes between three individuals. Describe the materials, steps, and how you would explain the concepts of polymorphism, probe hybridisation, and band pattern uniqueness.",
      "a": "Materials: three long paper strips per student (representing homologous chromosomes), scissors, coloured markers for repeat units, a “probe” strip with a complementary colour pattern. Steps: (1) Each student draws a different number of repeat units (e.g., 5, 8, 12) on their strips — polymorphism. (2) Cut strips at “restriction sites” flanking the repeats. (3) Separate fragments by length on a “gel” (a ruler). (4) Place probe strip; it binds only to fragments with the repeat colour — hybridisation. (5) Visualise bound probes — each student sees a unique band position. A poor simulation that uses identical repeat numbers or omits the probe step fails to model the core principles.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: DNA ______ is a molecular technique that identifies individuals by detecting unique patterns in their repetitive DNA sequences (e.g., VNTRs, STRs), exploiting the fact that these polymorphic regions vary in the number of repeats between unrelated individuals while remaining stable enough to be inherited and analyzed.",
+     "a": "fingerprinting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a crime scene where only a ______ hair strand is found.",
+     "a": "single",
+     "self_check": true
+    },
+    {
+     "q": "What is DNA fingerprinting? State the definition given in this lesson.",
+     "a": "DNA fingerprinting is a molecular technique that identifies individuals by detecting unique patterns in their repetitive DNA sequences (e.g., VNTRs, STRs), exploiting the fact that these polymorphic regions vary in the number of repeats between unrelated individuals while remaining stable enough to be inherited and analyzed.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about DNA fingerprinting?",
+     "a": "Students often think DNA fingerprinting examines the entire genome sequence or looks at genes that code for traits.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can describe the step‑by‑step protocol of DNA fingerprinting (isolation, digestion, electrophoresis, blotting, hybridisation, autoradiography), explain how probe design targets repetitive DNA, interpret a banding pattern to establish identity or parentage, and evaluate the technique’s limitations (sample degradation.",
+     "self_check": true
     }
    ]
   }

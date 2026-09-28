@@ -34,6 +34,31 @@
      "q": "Design a counseling flowchart for a 35-year-old woman (smoker, BMI 32, controlled hypertension on medication) seeking contraception. At each decision node, state the clinical criterion and the method recommended/rejected with biological justification.",
      "a": "Flowchart logic: \nStart → Age >35 + Smoker? YES → Estrogen-containing methods (COCP, patch, ring) REJECTED (synergistic thrombotic risk: estrogen ↑ clotting factors + smoking → endothelial damage + age → ↑ baseline CVD risk). \n→ Hypertension (controlled)? YES → Further avoids estrogen (estrogen ↑ angiotensinogen → ↑ BP). \n→ BMI >30? YES → COCP efficacy reduced (hepatic metabolism ↑, volume of distribution ↑); also VTE risk ↑ with obesity. \n→ Recommended: Progestin-only methods (POP, DMPA injection, hormonal IUD LNG-20, implant) — no estrogen, safe in all above conditions. Copper IUD also safe (non-hormonal). \n→ Surgical (tubectomy) if family complete. \nA poor flowchart that recommends COCP \"because she's on BP meds\" or rejects IUD \"due to obesity\" shows failure to apply WHO Medical Eligibility Criteria (MEC) categories and misunderstanding of estrogen-specific vs progestin-specific risks.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Contraceptive methods in this category are clinical or surgical ______ that prevent pregnancy by altering gamete transport, implantation, or gamete production: Intrauterine Devices (IUDs) are small T-shaped devices inserted into the uterine cavity that release copper ions or hormones to impair sperm motility and prevent fertilization/implantation; Oral Contraceptive Pills contain synthetic estrogen and/or progesterone that suppress ovulation and alter cervical mucus/endometrium; Surgical methods (vasectomy in males, tubectomy in females) permanently block gamete transport by cutting/sealing the vas deferens or fallopian tubes respectively.",
+     "a": "interventions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a newly married couple visiting a family ______ clinic in Delhi — the doctor offers them a \"menu\" of options: a small copper T inserted once for 5-10 years, a daily pill they must remember, or a one-time minor surgery.",
+     "a": "planning",
+     "self_check": true
+    },
+    {
+     "q": "What is Contraceptive methods in this category? State the definition given in this lesson.",
+     "a": "Contraceptive methods in this category are clinical or surgical interventions that prevent pregnancy by altering gamete transport, implantation, or gamete production: Intrauterine Devices (IUDs) are small T-shaped devices inserted into the uterine cavity that release copper ions or hormones to impair sperm motility and prevent.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Contraceptive methods in this category?",
+     "a": "Students believe: (1) \"IUDs cause abortion\" — WRONG: Copper IUDs impair sperm motility/viability and prevent fertilization; hormonal IUDs thicken cervical mucus and suppress endometrium — neither disrupts an established implantation (which defines abortion).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Classify a given contraceptive method into IUD, pill, or surgical category and explain its precise mechanism of action at the cellular/hormonal level; (2) Compare effectiveness (Pearl Index), reversibility, side effects, and suitability for specific patient profiles (e.g., breastfeeding mother, woman with hypertension.",
+     "self_check": true
     }
    ]
   }

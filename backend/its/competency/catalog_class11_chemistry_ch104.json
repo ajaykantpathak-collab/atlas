@@ -20,7 +20,7 @@
     "draw Lewis symbols for the following atoms",
     "why is lewis symbols and valence electrons important"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -36,6 +36,21 @@
      "step": 3,
      "action": "Verify the octet or duplet completion",
      "explain": "Ensure the Lewis symbol correctly reflects the number of valence electrons and indicates the atom's bonding capacity."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "valence_electrons = group_number_count",
+     "compute": "valence_electrons = group_number_count"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "kech.4.1.1",
+     "question_pattern": "write the Lewis dot symbols for {group_number_count}"
     }
    ]
   },
@@ -86,7 +101,16 @@
      "solution": "Step 1: count valence electrons. Step 2: count non-bonding and shared electrons. Step 3: calculate net charge. Working: valence, shared / 2, v_count - lone - half_shared.",
      "answer": "The method of formal charge leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "formal_charge = valence - lone_pair_e - (1/2) * shared_e",
+     "compute": "formal_charge = valence - lone_pair_e - (1/2) * shared_e"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kech.4.2.1",
@@ -159,16 +183,19 @@
    ],
    "worked_examples": [
     {
-     "question": "Solve a typical question involving bond length.",
-     "solution": "Step 1: sum the radii. Step 2: Convert units if necessary. Step 3: Verify the result against known bond lengths. Working: radius_a + radius_b, bond_length.",
-     "answer": "Bond Length applied step by step gives the required result."
-    },
-    {
-     "question": "Apply bond length to a fresh example and interpret the result.",
-     "solution": "Step 1: sum the radii. Step 2: Convert units if necessary. Step 3: Verify the result against known bond lengths. Working: radius_a + radius_b, bond_length.",
-     "answer": "The method of bond length leads to the required value or conclusion."
+     "concept": "kech.4.3.1",
+     "question_pattern": "what is the bond length if covalent radii are {radius_a} and {radius_b}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "bond_length = radius_a + radius_b",
+     "compute": "bond_length = radius_a + radius_b"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kech.4.3.4",
@@ -240,16 +267,19 @@
    ],
    "worked_examples": [
     {
-     "question": "Solve a typical question involving dipole moment.",
-     "solution": "Step 1: multiply charge and distance. Step 2: Convert the dipole moment to Debye units if needed. Step 3: Determine the direction of the dipole. Working: charge * distance.",
-     "answer": "Dipole Moment applied step by step gives the required result."
-    },
-    {
-     "question": "Apply dipole moment to a fresh example and interpret the result.",
-     "solution": "Step 1: multiply charge and distance. Step 2: Convert the dipole moment to Debye units if needed. Step 3: Determine the direction of the dipole. Working: charge * distance.",
-     "answer": "The method of dipole moment leads to the required value or conclusion."
+     "concept": "kech.4.3.6",
+     "question_pattern": "find the dipole moment given charge {charge} and distance {distance}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "dipole_moment = charge * distance",
+     "compute": "dipole_moment = charge * distance"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kech.4.4.1",
@@ -287,16 +317,19 @@
    ],
    "worked_examples": [
     {
-     "question": "Solve a typical question involving vsepr theory - electron pairs.",
-     "solution": "Step 1: sum the electron pairs. Step 2: determine molecular shape. Step 3: Predict the molecular geometry from the electron pair arrangement. Working: bond_pairs + lone_pairs.",
-     "answer": "VSEPR Theory - Electron Pairs applied step by step gives the required result."
-    },
-    {
-     "question": "Apply vsepr theory - electron pairs to a fresh example and interpret the result.",
-     "solution": "Step 1: sum the electron pairs. Step 2: determine molecular shape. Step 3: Predict the molecular geometry from the electron pair arrangement. Working: bond_pairs + lone_pairs.",
-     "answer": "The method of vsepr theory - electron pairs leads to the required value or conclusion."
+     "concept": "kech.4.4.1",
+     "question_pattern": "what is the geometry of a molecule with {bond_pairs} bond pairs and {lone_pairs} lone pairs"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_pairs = bond_pairs + lone_pairs",
+     "compute": "total_pairs = bond_pairs + lone_pairs"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kech.4.6.1",
@@ -313,7 +346,7 @@
     "describe the hybridization of phosphorus in PCl5",
     "why is hybridization important"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -330,7 +363,16 @@
      "action": "Determine the molecular geometry from the hybridization",
      "explain": "Use the hybridization type to predict bond angles and shape: sp gives linear (180 degrees), sp2 gives trigonal planar (120 degrees), sp3 gives tetrahedral (109.5 degrees)."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "hybrid_orbitals_count = atomic_orbitals_mixed",
+     "compute": "hybrid_orbitals_count = atomic_orbitals_mixed"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kech.4.7.4",
@@ -369,16 +411,19 @@
    ],
    "worked_examples": [
     {
-     "question": "Solve a typical question involving mo theory bond order.",
-     "solution": "Step 1: find electron difference. Step 2: halve the difference. Step 3: Interpret the bond order for stability and magnetic behavior. Working: bonding_e - antibonding_e, diff / 2.",
-     "answer": "MO Theory Bond Order applied step by step gives the required result."
-    },
-    {
-     "question": "Apply mo theory bond order to a fresh example and interpret the result.",
-     "solution": "Step 1: find electron difference. Step 2: halve the difference. Step 3: Interpret the bond order for stability and magnetic behavior. Working: bonding_e - antibonding_e, diff / 2.",
-     "answer": "The method of mo theory bond order leads to the required value or conclusion."
+     "concept": "kech.4.7.4",
+     "question_pattern": "what is the bond order for a molecule with {bonding_e} bonding and {antibonding_e} antibonding electrons"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "bond_order = (bonding_e - antibonding_e) / 2",
+     "compute": "bond_order = (bonding_e - antibonding_e) / 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kech.4.9.1",

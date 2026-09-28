@@ -1,6 +1,241 @@
 {
- "catalog": "catalog_class12_accountancy_leca103",
+ "catalog": "catalog_class12_accountancy_leca103.json",
  "concepts": [
+  {
+   "id": "leca103.3",
+   "title": "Allowance Computation: DA and HRA as Percentages",
+   "converted_to_compute": true,
+   "formula": "allowance_amount = earned_basic * allowance_pct / 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "allowance_amount = earned_basic * allowance_pct / 100",
+     "compute": "allowance_amount = earned_basic * allowance_pct / 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Allowance Computation: DA and HRA as Percentages: given earned_basic = 59, allowance_pct = 13.8, find allowance amount.",
+     "a": "8.142",
+     "self_check": false
+    },
+    {
+     "q": "For Allowance Computation: DA and HRA as Percentages: given earned_basic = 33, allowance_pct = 88, find allowance amount.",
+     "a": "29.04",
+     "self_check": false
+    },
+    {
+     "q": "For Allowance Computation: DA and HRA as Percentages: given earned_basic = 18.1, allowance_pct = 2.7, find allowance amount.",
+     "a": "0.4887",
+     "self_check": false
+    },
+    {
+     "q": "For Allowance Computation: DA and HRA as Percentages: given earned_basic = 37, allowance_pct = 72, find allowance amount.",
+     "a": "26.64",
+     "self_check": false
+    },
+    {
+     "q": "For Allowance Computation: DA and HRA as Percentages: given earned_basic = 83, allowance_pct = 25, find allowance amount.",
+     "a": "20.75",
+     "self_check": false
+    },
+    {
+     "q": "For Allowance Computation: DA and HRA as Percentages: given earned_basic = 13, allowance_pct = 79, find allowance amount.",
+     "a": "10.27",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leca103.4",
+   "title": "Gross Salary Assembly",
+   "converted_to_compute": true,
+   "formula": "gross_salary = earned_basic + allowances_total + transport_allowance",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "gross_salary = earned_basic + allowances_total + transport_allowance",
+     "compute": "gross_salary = earned_basic + allowances_total + transport_allowance"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Gross Salary Assembly: given earned_basic = 77, allowances_total = 99, transport_allowance = 82, find gross salary.",
+     "a": "258",
+     "self_check": false
+    },
+    {
+     "q": "For Gross Salary Assembly: given earned_basic = 33, allowances_total = 30, transport_allowance = 102, find gross salary.",
+     "a": "165",
+     "self_check": false
+    },
+    {
+     "q": "For Gross Salary Assembly: given earned_basic = 70, allowances_total = 111, transport_allowance = 46, find gross salary.",
+     "a": "227",
+     "self_check": false
+    },
+    {
+     "q": "For Gross Salary Assembly: given earned_basic = 98, allowances_total = 41, transport_allowance = 94, find gross salary.",
+     "a": "233",
+     "self_check": false
+    },
+    {
+     "q": "For Gross Salary Assembly: given earned_basic = 80, allowances_total = 20, transport_allowance = 100, find gross salary.",
+     "a": "200",
+     "self_check": false
+    },
+    {
+     "q": "For Gross Salary Assembly: given earned_basic = 37, allowances_total = 81, transport_allowance = 115, find gross salary.",
+     "a": "233",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leca103.5",
+   "title": "Deductions and Net Salary",
+   "converted_to_compute": true,
+   "formula": "net_salary = gross_salary - total_deductions",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_salary = gross_salary - total_deductions",
+     "compute": "net_salary = gross_salary - total_deductions"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Deductions and Net Salary: given gross_salary = 29, total_deductions = 85, find net salary.",
+     "a": "-56",
+     "self_check": false
+    },
+    {
+     "q": "For Deductions and Net Salary: given gross_salary = 46, total_deductions = 45, find net salary.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "For Deductions and Net Salary: given gross_salary = 19.9, total_deductions = 64, find net salary.",
+     "a": "-44.1",
+     "self_check": false
+    },
+    {
+     "q": "For Deductions and Net Salary: given gross_salary = 30, total_deductions = 58, find net salary.",
+     "a": "-28",
+     "self_check": false
+    },
+    {
+     "q": "For Deductions and Net Salary: given gross_salary = 0.9, total_deductions = 85, find net salary.",
+     "a": "-84.1",
+     "self_check": false
+    },
+    {
+     "q": "For Deductions and Net Salary: given gross_salary = 9.2, total_deductions = 60, find net salary.",
+     "a": "-50.8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leca103.9",
+   "title": "Straight Line Method of Depreciation",
+   "converted_to_compute": true,
+   "formula": "slm_amount = depreciable_amount / life_years",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "slm_amount = depreciable_amount / life_years",
+     "compute": "slm_amount = depreciable_amount / life_years"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Straight Line Method of Depreciation: given depreciable_amount = 56, life_years = 91, find slm amount.",
+     "a": "0.615385",
+     "self_check": false
+    },
+    {
+     "q": "For Straight Line Method of Depreciation: given depreciable_amount = 83, life_years = 51, find slm amount.",
+     "a": "1.62745",
+     "self_check": false
+    },
+    {
+     "q": "For Straight Line Method of Depreciation: given depreciable_amount = 98, life_years = 13.9, find slm amount.",
+     "a": "7.05036",
+     "self_check": false
+    },
+    {
+     "q": "For Straight Line Method of Depreciation: given depreciable_amount = 83, life_years = 5.6, find slm amount.",
+     "a": "14.8214",
+     "self_check": false
+    },
+    {
+     "q": "For Straight Line Method of Depreciation: given depreciable_amount = 54, life_years = 67, find slm amount.",
+     "a": "0.80597",
+     "self_check": false
+    },
+    {
+     "q": "For Straight Line Method of Depreciation: given depreciable_amount = 79, life_years = 46, find slm amount.",
+     "a": "1.71739",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leca103.11",
+   "title": "Fixed Asset Schedule: Gross Block, Depreciation and Net Block",
+   "converted_to_compute": true,
+   "formula": "net_block = closing_gross - closing_dep",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_block = closing_gross - closing_dep",
+     "compute": "net_block = closing_gross - closing_dep"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Fixed Asset Schedule: Gross Block, Depreciation and Net Block: given closing_gross = 49, closing_dep = 62, find net block.",
+     "a": "-13",
+     "self_check": false
+    },
+    {
+     "q": "For Fixed Asset Schedule: Gross Block, Depreciation and Net Block: given closing_gross = 38, closing_dep = 8.4, find net block.",
+     "a": "29.6",
+     "self_check": false
+    },
+    {
+     "q": "For Fixed Asset Schedule: Gross Block, Depreciation and Net Block: given closing_gross = 42, closing_dep = 73, find net block.",
+     "a": "-31",
+     "self_check": false
+    },
+    {
+     "q": "For Fixed Asset Schedule: Gross Block, Depreciation and Net Block: given closing_gross = 24, closing_dep = 87, find net block.",
+     "a": "-63",
+     "self_check": false
+    },
+    {
+     "q": "For Fixed Asset Schedule: Gross Block, Depreciation and Net Block: given closing_gross = 19.6, closing_dep = 57, find net block.",
+     "a": "-37.4",
+     "self_check": false
+    },
+    {
+     "q": "For Fixed Asset Schedule: Gross Block, Depreciation and Net Block: given closing_gross = 5.5, closing_dep = 61, find net block.",
+     "a": "-55.5",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "leca103.1",
    "title": "Payroll Components: Earnings and Deductions",
@@ -49,99 +284,6 @@
     {
      "q": "Write the standard relation used for 'Effective Days and Basic Pay Earned', in plain ASCII form.",
      "a": "earned_basic = basic_pay * days_present / days_in_month",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leca103.3",
-   "title": "Allowance Computation: DA and HRA as Percentages",
-   "questions": [
-    {
-     "q": "Compute the Dearness Allowance at 35 per cent on earned pay of Rs 27000. Use the method 'Allowance Computation: DA and HRA as Percentages'. Work with: allowance_pct = 300, earned_basic = 4. Carry the chain through step by step and give the final value of allowance_amount.",
-     "a": "12 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the house rent allowance of a non-supervisory earner with earned pay Rs 18000 at the 30 per cent rate. Use the method 'Allowance Computation: DA and HRA as Percentages'. Work with: allowance_pct = 20, earned_basic = 60. Carry the chain through step by step and give the final value of allowance_amount.",
-     "a": "12 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Allowance Computation: DA and HRA as Percentages' refers to.",
-     "a": "Percentage allowances apply to the earned basic pay: Dearness Allowance at the rate notified for the month, House Rent Allowance at a rate that depends on employee category -- the template uses 40 per cent of earned pay for supervisory staff and 30 per cent for non-supervisory staff, with nil for consultants. Transport allowance is either a fixed amount or a percentage. Once the applicable rate is picked, every allowance is that percentage of the earned figure.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Allowance Computation: DA and HRA as Percentages'.",
-     "a": "Pick the applicable percentage by category, then take that slice of the earned basic pay.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Allowance Computation: DA and HRA as Percentages', in plain ASCII form.",
-     "a": "allowance_amount = earned_basic * allowance_pct / 100",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leca103.4",
-   "title": "Gross Salary Assembly",
-   "questions": [
-    {
-     "q": "Compute total earnings when basic pay earned, dearness allowance, house rent allowance and transport allowance are given. Use the method 'Gross Salary Assembly'. Work with: dearness_amt = 24, earned_basic = 12, hra_amt = 18, transport_allowance = 30. Carry the chain through step by step and give the final value of gross_salary.",
-     "a": "84 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the gross salary of an employee with earned pay Rs 20000, allowances totalling Rs 7600 and transport Rs 800. Use the method 'Gross Salary Assembly'. Work with: dearness_amt = 120, earned_basic = 40, hra_amt = 100, transport_allowance = 8. Carry the chain through step by step and give the final value of gross_salary.",
-     "a": "268 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Gross Salary Assembly' refers to.",
-     "a": "Total earnings, or gross salary, aggregate every earning head of the month: the basic pay earned plus dearness allowance, house rent allowance and transport allowance. The payroll template sums these columns for each employee, and the gross figure becomes the base from which deductions are subtracted.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Gross Salary Assembly'.",
-     "a": "Gross salary is the sum of earned basic pay and every allowance of the month.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Gross Salary Assembly', in plain ASCII form.",
-     "a": "gross_salary = earned_basic + allowances_total + transport_allowance",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leca103.5",
-   "title": "Deductions and Net Salary",
-   "questions": [
-    {
-     "q": "Compute the take-home pay when provident fund Rs 3240, tax at source Rs 2000 and loan instalment Rs 1500 apply against gross salary Rs 45050. Use the method 'Deductions and Net Salary'. Work with: gross_salary = 12000, loan_amt = 45, pf_amt = 120, tds_amt = 40. Carry the chain through step by step and give the final value of net_salary.",
-     "a": "11795 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the net salary of an employee whose earnings are Rs 30000 and deductions Rs 5200. Use the method 'Deductions and Net Salary'. Work with: gross_salary = 20000, loan_amt = 25, pf_amt = 12, tds_amt = 120. Carry the chain through step by step and give the final value of net_salary.",
-     "a": "19843 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Deductions and Net Salary' refers to.",
-     "a": "Deductions comprise the provident fund computed as a percentage of earned pay, tax deducted at source -- essentially the yearly income tax spread over twelve months -- and fixed loan instalment recoveries. Their sum is total deductions, and subtracting it from total earnings leaves the net salary, the amount actually paid into the employee's bank account through the bank advice.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Deductions and Net Salary'.",
-     "a": "Take gross salary, strip the provident fund, tax and loan recoveries, and what remains is the take-home pay.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Deductions and Net Salary', in plain ASCII form.",
-     "a": "net_salary = gross_salary - total_deductions",
      "self_check": true
     }
    ]
@@ -220,37 +362,6 @@
    ]
   },
   {
-   "id": "leca103.9",
-   "title": "Straight Line Method of Depreciation",
-   "questions": [
-    {
-     "q": "Using the method 'Straight Line Method of Depreciation', work with: cost_to_use = 80000, life_years = 150, salvage_value = 50. Carry the chain through step by step and give the final value of slm_amount.",
-     "a": "533 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Straight Line Method of Depreciation' and work with: cost_to_use = 20000, life_years = 25, salvage_value = 10. Carry the chain through step by step and give the final value of slm_amount.",
-     "a": "799.6 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Straight Line Method of Depreciation' refers to.",
-     "a": "Under the Straight Line Method the asset loses an equal slice of value every year: the total depreciable amount -- acquisition cost minus salvage value -- divides evenly over the expected useful life. The depreciation rate expresses the annual charge as a percentage of the depreciable amount. Excel computes it with the SLN function, and the total depreciation over the asset's life equals acquisition cost less salvage value.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Straight Line Method of Depreciation'.",
-     "a": "Split cost-minus-salvage evenly across the useful life; every year carries the same charge.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Straight Line Method of Depreciation', in plain ASCII form.",
-     "a": "slm_amount = depreciable_amount / life_years",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "leca103.10",
    "title": "Written Down Value Method of Depreciation",
    "questions": [
@@ -277,37 +388,6 @@
     {
      "q": "Write the standard relation used for 'Written Down Value Method of Depreciation', in plain ASCII form.",
      "a": "book_value = cost_to_use * (1 - rate_pct / 100) ** years_used",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leca103.11",
-   "title": "Fixed Asset Schedule: Gross Block, Depreciation and Net Block",
-   "questions": [
-    {
-     "q": "Using the method 'Fixed Asset Schedule: Gross Block, Depreciation and Net Block', work with: additions_dep = 120, additions_gross = 25, deductions_dep = 400, deductions_gross = 40, opening_dep = 360, opening_gross = 45. Carry the chain through step by step and give the final value of net_block.",
-     "a": "-50 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Fixed Asset Schedule: Gross Block, Depreciation and Net Block' and work with: additions_dep = 75, additions_gross = 24, deductions_dep = 40, deductions_gross = 3, opening_dep = 500, opening_gross = 25. Carry the chain through step by step and give the final value of net_block.",
-     "a": "-489 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Fixed Asset Schedule: Gross Block, Depreciation and Net Block' refers to.",
-     "a": "The fixed asset schedule reported with the balance sheet carries three blocks per asset class. Gross block rolls forward from the April 1 opening by adding additions and subtracting deductions to reach the March 31 closing. Depreciation rolls forward the same way, its additions transferred from the depreciation computation sheet. Net block is gross block minus depreciation, on both dates, and the whole schedule can be laid out as spreadsheet columns with rolling formulas.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Fixed Asset Schedule: Gross Block, Depreciation and Net Block'.",
-     "a": "Roll each block forward with additions and deductions, then gross block minus depreciation leaves the net block.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Fixed Asset Schedule: Gross Block, Depreciation and Net Block', in plain ASCII form.",
-     "a": "net_block = closing_gross - closing_dep",
      "self_check": true
     }
    ]

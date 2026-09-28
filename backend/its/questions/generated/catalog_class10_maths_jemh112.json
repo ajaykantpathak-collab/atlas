@@ -5,6 +5,8 @@
    "id": "jemh.112.12.1",
    "title": "Surface Area of a Combination of Solids",
    "converted_to_compute": false,
+   "formula": "cone_surface = pi * r * l",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 20 cm by 10 cm.",
@@ -42,6 +44,8 @@
    "id": "jemh.112.12.2",
    "title": "Volume of a Combination of Solids",
    "converted_to_compute": false,
+   "formula": "cone_volume = pi * r * r * h / 3",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the volume of a cuboid 3 cm x 9 cm x 12 cm.",
@@ -78,15 +82,9 @@
   {
    "id": "jemh.112.12.3",
    "title": "Conversion of Solids from One Shape to Another",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the round solid's formula with pi = 22/7",
-     "explain": "apply the round solid's formula with pi = 22/7: vol = 22 / 7 * 56 * 56 * 21 / 3 gives 68992",
-     "compute": "vol = 22 / 7 * 56 * 56 * 21 / 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the volume of a cone of radius 56 cm and height 21 cm (pi = 22/7).",
@@ -115,7 +113,7 @@
     },
     {
      "q": "A tent is a cylinder of radius 56 m and height 26 m, capped by a cone of the same radius and height 26 m. Find the tent's volume (pi = 22/7).",
-     "a": "341675",
+     "a": "341674.67",
      "self_check": false
     }
    ]

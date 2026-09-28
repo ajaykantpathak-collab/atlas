@@ -34,6 +34,31 @@
      "q": "Create a pair of numbers whose LCM is 30 and whose HCF is 3, and explain how you constructed them.",
      "a": "One valid pair is 6 and 15 (or 3 and 30). Construction explanation: Since the HCF is 3, both numbers must contain 3 as a prime factor. Let the numbers be $3 \\times a$ and $3 \\times b$, where $a$ and $b$ are coprime. The LCM is $3 \\times a \\times b = 30$, so $a \\times b = 10$. The pairs of factors for 10 are (1, 10) and (2, 5). Choosing (2, 5) gives numbers $3 \\times 2 = 6$ and $3 \\times 5 = 15$. A poor answer lists numbers randomly without verifying their HCF and LCM, showing a lack of structural understanding of number properties.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Least Common Multiple (LCM) of two or more non-zero whole numbers is the ______ positive whole number that is a multiple of each of the given numbers.",
+     "a": "smallest",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two friends running ______ a school running track in India.",
+     "a": "around",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: We look for the smallest time number that appears in both lists, which is ______ minutes!",
+     "a": "12",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can calculate the LCM of two or three numbers using prime factorisation and listing methods, and can apply LCM to solve real-world synchronization problems (such as bells ringing together or runners meeting on a track) with 100% accuracy.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ two friends running around a school running track in India.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

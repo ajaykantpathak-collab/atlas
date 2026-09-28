@@ -34,6 +34,21 @@
      "q": "Design a regulatory strategy checklist for an Indian biotech startup developing a recombinant enzyme for industrial use (non-pharma, non-food). The enzyme is produced in a GM *E. coli* strain. Include every clearance needed from lab-scale R&D to commercial sale, with the responsible authority and the governing rule/act for each.",
      "a": "Checklist: (1) IBSC registration & project approval — Institution, under 1989 EPA Rules → (2) RCGM approval for rDNA research & development — RCGM, under 1989 EPA Rules → (3) RCGM permission for scale-up in contained fermentation — RCGM, under 1989 EPA Rules → (4) GEAC approval for large-scale commercial use of GM microorganism — GEAC, under 1989 EPA Rules (Schedule III) → (5) State Pollution Control Board consent to establish/operate — SPCB, under Water/Air Acts → (6) Factory License — Chief Inspector of Factories, under Factories Act 1948 → (7) BIS standardization (if applicable) — Bureau of Indian Standards → (8) GST registration & commercial sale. A poor answer misses SPCB consent or factory license, treating industrial enzymes as \"only GEAC\" — a dangerous oversight because environmental discharge from fermentation falls under Pollution Control Boards, not GEAC.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The regulatory framework in biotechnology encompasses the laws, guidelines, and institutional mechanisms (such as the US FDA, India's GEAC, and DCGI) that govern the research, development, testing, approval, and ______ of biotechnology products to ensure safety, efficacy, and ethical compliance before they reach the market.",
+     "a": "commercialization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have developed a ______ insulin in your college lab — it works beautifully in mice.",
+     "a": "recombinant",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish the roles and jurisdictions of FDA, GEAC, and DCGI in biotech product approval, and (2) Trace the step-by-step approval pathway for a recombinant therapeutic or GM crop from preclinical testing to commercial launch in the Indian regulatory context.",
+     "self_check": true
     }
    ]
   }

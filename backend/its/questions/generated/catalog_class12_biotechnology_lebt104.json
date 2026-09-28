@@ -1,34 +1,144 @@
 {
- "catalog": "catalog_class12_biotechnology_lebt104",
+ "catalog": "catalog_class12_biotechnology_lebt104.json",
  "concepts": [
   {
    "id": "lebt104.1",
    "title": "DNA Fingerprinting and VNTR Variation",
+   "converted_to_compute": true,
+   "formula": "variable_bp = genome_bp * variation_pct / 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "variable_bp = genome_bp * variation_pct / 100",
+     "compute": "variable_bp = genome_bp * variation_pct / 100"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'DNA Fingerprinting and VNTR Variation', work with: genome_bp = 40, variation_pct = 75. Carry the chain through step by step and give the final value of identical_bp.",
-     "a": "10 units",
+     "q": "For DNA Fingerprinting and VNTR Variation: given genome_bp = 27, variation_pct = 12.9, find variable bp.",
+     "a": "3.483",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'DNA Fingerprinting and VNTR Variation' and work with: genome_bp = 4, variation_pct = 30. Carry the chain through step by step and give the final value of identical_bp.",
-     "a": "2.8 units",
+     "q": "For DNA Fingerprinting and VNTR Variation: given genome_bp = 54, variation_pct = 19.3, find variable bp.",
+     "a": "10.422",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'DNA Fingerprinting and VNTR Variation' refers to.",
-     "a": "People share 99.9 percent of their 3.2 billion base genomes, so Alec Jeffreys' 1984 fingerprinting hunts the variable remainder: tandem repeats called VNTRs - microsatellites of 1-9 bp units and minisatellites of 10-100 bp - are cut by restriction enzymes, separated on gels, blotted to nylon and probed through Southern hybridisation, yielding RFLP band patterns unique enough for forensics, paternity and evolutionary comparisons.",
-     "self_check": true
+     "q": "For DNA Fingerprinting and VNTR Variation: given genome_bp = 98, variation_pct = 3.8, find variable bp.",
+     "a": "3.724",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'DNA Fingerprinting and VNTR Variation'.",
-     "a": "Multiply the genome by the variable fraction to size the discriminating DNA; the band pattern of repeats is the fingerprint.",
-     "self_check": true
+     "q": "For DNA Fingerprinting and VNTR Variation: given genome_bp = 67, variation_pct = 8, find variable bp.",
+     "a": "5.36",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'DNA Fingerprinting and VNTR Variation', in plain ASCII form.",
-     "a": "variable_bp = genome_bp * variation_pct / 100",
-     "self_check": true
+     "q": "For DNA Fingerprinting and VNTR Variation: given genome_bp = 7.9, variation_pct = 10.1, find variable bp.",
+     "a": "0.7979",
+     "self_check": false
+    },
+    {
+     "q": "For DNA Fingerprinting and VNTR Variation: given genome_bp = 43, variation_pct = 6.5, find variable bp.",
+     "a": "2.795",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lebt104.7",
+   "title": "Engineered Insulin Chain Arithmetic",
+   "converted_to_compute": true,
+   "formula": "insulin_len = a_chain + b_chain",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "insulin_len = a_chain + b_chain",
+     "compute": "insulin_len = a_chain + b_chain"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Engineered Insulin Chain Arithmetic: given a_chain = 1.7, b_chain = 26, find insulin len.",
+     "a": "27.7",
+     "self_check": false
+    },
+    {
+     "q": "For Engineered Insulin Chain Arithmetic: given a_chain = 1.1, b_chain = 64, find insulin len.",
+     "a": "65.1",
+     "self_check": false
+    },
+    {
+     "q": "For Engineered Insulin Chain Arithmetic: given a_chain = 2.5, b_chain = 49, find insulin len.",
+     "a": "51.5",
+     "self_check": false
+    },
+    {
+     "q": "For Engineered Insulin Chain Arithmetic: given a_chain = 54, b_chain = 37, find insulin len.",
+     "a": "91",
+     "self_check": false
+    },
+    {
+     "q": "For Engineered Insulin Chain Arithmetic: given a_chain = 68, b_chain = 86, find insulin len.",
+     "a": "154",
+     "self_check": false
+    },
+    {
+     "q": "For Engineered Insulin Chain Arithmetic: given a_chain = 79, b_chain = 40, find insulin len.",
+     "a": "119",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lebt104.8",
+   "title": "Human Growth Hormone Gene Engineering",
+   "converted_to_compute": true,
+   "formula": "intermediate_len = mature_len + signal_extra",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "intermediate_len = mature_len + signal_extra",
+     "compute": "intermediate_len = mature_len + signal_extra"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Human Growth Hormone Gene Engineering: given mature_len = 26, signal_extra = 36, find intermediate len.",
+     "a": "62",
+     "self_check": false
+    },
+    {
+     "q": "For Human Growth Hormone Gene Engineering: given mature_len = 37, signal_extra = 35, find intermediate len.",
+     "a": "72",
+     "self_check": false
+    },
+    {
+     "q": "For Human Growth Hormone Gene Engineering: given mature_len = 43, signal_extra = 96, find intermediate len.",
+     "a": "139",
+     "self_check": false
+    },
+    {
+     "q": "For Human Growth Hormone Gene Engineering: given mature_len = 10, signal_extra = 0.9, find intermediate len.",
+     "a": "10.9",
+     "self_check": false
+    },
+    {
+     "q": "For Human Growth Hormone Gene Engineering: given mature_len = 60, signal_extra = 76, find intermediate len.",
+     "a": "136",
+     "self_check": false
+    },
+    {
+     "q": "For Human Growth Hormone Gene Engineering: given mature_len = 89, signal_extra = 69, find intermediate len.",
+     "a": "158",
+     "self_check": false
     }
    ]
   },
@@ -133,68 +243,6 @@
     {
      "q": "Under which section is 'Monoclonal Antibodies by Hybridoma Technology' taught, and from which source text?",
      "a": "4.5 (source: lebt104.txt section 4.5, Fig. 4.11)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebt104.7",
-   "title": "Engineered Insulin Chain Arithmetic",
-   "questions": [
-    {
-     "q": "Using the method 'Engineered Insulin Chain Arithmetic', work with: a_chain = 25, b_chain = 4, proinsulin_len = 400. Carry the chain through step by step and give the final value of cleaved_off.",
-     "a": "371 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Engineered Insulin Chain Arithmetic' and work with: a_chain = 75, b_chain = 12, proinsulin_len = 200. Carry the chain through step by step and give the final value of cleaved_off.",
-     "a": "113 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Engineered Insulin Chain Arithmetic' refers to.",
-     "a": "Insulin's active form holds a 21-residue A chain bonded to a 30-residue B chain, carved from an 86-residue proinsulin whose 31-residue C chain and four connecting residues are trimmed away; bacteria cannot perform this editing, so engineers clone the A and B genes separately beside beta-galactosidase, release the chains with cyanogen bromide and re-oxidise the disulfides - yielding Humulin, marketed from 1982.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Engineered Insulin Chain Arithmetic'.",
-     "a": "Add the two chains for the active hormone; subtract it from proinsulin to price the editing the pancreas does and bacteria cannot.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Engineered Insulin Chain Arithmetic', in plain ASCII form.",
-     "a": "insulin_len = a_chain + b_chain",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebt104.8",
-   "title": "Human Growth Hormone Gene Engineering",
-   "questions": [
-    {
-     "q": "Using the method 'Human Growth Hormone Gene Engineering', work with: mature_len = 360, removed_codons = 15, signal_extra = 4, synthetic_len = 150. Carry the chain through step by step and give the final value of restored_len.",
-     "a": "499 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Human Growth Hormone Gene Engineering' and work with: mature_len = 200, removed_codons = 3, signal_extra = 25, synthetic_len = 5. Carry the chain through step by step and give the final value of restored_len.",
-     "a": "227 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Human Growth Hormone Gene Engineering' refers to.",
-     "a": "Growth hormone deficiency once demanded pituitaries from more than eighty cadavers per year of treatment and risked prion disease, so engineers rebuilt the gene: the cDNA encodes mature 191-residue HGH plus a 26-residue signal peptide, EcoRI excision removes the signal and a further 24 residues, and a chemically synthesised 24-residue segment is ligated back before expression in E. coli - products Humatrope and Protropin from 1985.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Human Growth Hormone Gene Engineering'.",
-     "a": "Add the signal peptide to size the cDNA product, subtract the excised codons, then add back the synthetic piece to restore the full hormone.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Human Growth Hormone Gene Engineering', in plain ASCII form.",
-     "a": "intermediate_len = mature_len + signal_extra",
      "self_check": true
     }
    ]

@@ -5,6 +5,8 @@
    "id": "kemh.4.1",
    "title": "Complex Numbers",
    "converted_to_compute": false,
+   "formula": "z = a + ib with i^2 = -1; Re(z) = a, Im(z) = b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the determinant of [[1, 8], [2, 2]].",
@@ -42,6 +44,8 @@
    "id": "kemh.4.2",
    "title": "Integral Powers of the Imaginary Unit",
    "converted_to_compute": false,
+   "formula": "i^(4k) = 1; i^(4k+1) = i; i^(4k+2) = -1; i^(4k+3) = -i",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the determinant of [[5, 9], [4, -2]].",
@@ -79,6 +83,8 @@
    "id": "kemh.4.3",
    "title": "Algebra of Complex Numbers",
    "converted_to_compute": false,
+   "formula": "(a + ib) + (c + id) = (a + c) + i(b + d); (a + ib)(c + id) = (ac - bd) + i(ad + bc)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the determinant of [[0, -5], [1, -4]].",
@@ -116,6 +122,8 @@
    "id": "kemh.4.4",
    "title": "Modulus and Conjugate of a Complex Number",
    "converted_to_compute": false,
+   "formula": "|z| = sqrt(a^2 + b^2); conjugate of z = a - ib; z times conjugate of z = |z|^2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the determinant of [[-6, 0], [3, -2]].",
@@ -153,6 +161,8 @@
    "id": "kemh.4.5",
    "title": "Argand Plane and Polar Representation",
    "converted_to_compute": false,
+   "formula": "z = r(cos(theta) + i sin(theta)); r = |z|; tan(theta) = b / a",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the determinant of [[-3, -1], [6, 7]].",
@@ -190,6 +200,8 @@
    "id": "kemh.4.6",
    "title": "Quadratic Equations with Complex Roots",
    "converted_to_compute": false,
+   "formula": "for b^2 - 4ac < 0: x = (-b +- i sqrt(4ac - b^2)) / (2a)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the determinant of [[2, -3], [-6, -6]].",

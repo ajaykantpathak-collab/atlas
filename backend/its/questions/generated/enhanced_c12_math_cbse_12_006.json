@@ -34,6 +34,21 @@
      "q": "Create your own diet problem with two foods (Food A and Food B) and two nutrients (Protein and Iron). Specify: nutrient content per kg of each food, minimum daily requirements for each nutrient, cost per kg of each food. Formulate the LPP (objective function and constraints). Then explain how you would determine if the feasible region is bounded or unbounded, and what that implies for the minimum cost.",
      "a": "Example answer: Food A: 10g protein, 5mg iron per kg, cost ₹60/kg. Food B: 5g protein, 10mg iron per kg, cost ₹50/kg. Requirements: at least 50g protein, at least 40mg iron. Let x kg of A, y kg of B. Constraints: 10x+5y ≥ 50 (protein), 5x+10y ≥ 40 (iron), x≥0, y≥0. Objective: Minimise Z = 60x+50y. The constraints are ≥ type with non-negativity, so feasible region is the intersection of two half-planes above the lines, in first quadrant. This region is unbounded (extends infinitely in positive x,y directions). Since we are minimising, we check corner points (intersections of lines with axes and each other). Intersection of 10x+5y=50 and 5x+10y=40 → solve: multiply second by 2: 10x+20y=80, subtract first: 15y=30 → y=2, then 10x+10=50 → x=4. Corner points: (5,0) from protein x-intercept, (0,8) from iron y-intercept? Wait: 5x+10y=40 → y=4 when x=0. Protein line: 10x+5y=50 → y=10 when x=0. Intersection is (4,2). Also check intercepts with axes: (5,0) satisfies iron? 5*5+0=25 <40 → not feasible. (0,10) satisfies protein? 0+50=50 ok, iron? 0+100=100≥40 ok. So feasible corner points: (0,10), (4,2), (8,0)? Check (8,0): protein 80≥50 ok, iron 40≥40 ok. So three corner points: (0,10), (4,2), (8,0). Evaluate Z: (0,10)=500, (4,2)=240+100=340, (8,0)=480. Minimum is 340 at (4,2). Since region is unbounded, we must also check if open half-plane 60x+50y < 340 has common points with feasible region. If not, 340 is minimum. (It won't because objective increases as we go outward from origin? Actually for minimisation with ≥ constraints, the feasible region is away from origin, and objective increases as we go further, so minimum at corner point exists). A good student answer will show the formulation, identify unboundedness, and apply the open half-plane test.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Linear Programming Problem (LPP) word problem is a real-life ______ scenario where we translate verbal constraints and objectives into a mathematical model with decision variables, a linear objective function (to maximise or minimise), and a system of linear inequalities (constraints) including non-negativity restrictions.",
+     "a": "optimisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small factory owner in Gujarat who makes two types of steel chairs: ______ (profit ₹150) and Deluxe (profit ₹200).",
+     "a": "Standard",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently read a word problem (diet, manufacturing, or transportation), identify decision variables, formulate the objective function and all constraints correctly, graph the feasible region, find corner points, evaluate the objective function at each corner point, and state the optimal solution with proper.",
+     "self_check": true
     }
    ]
   }

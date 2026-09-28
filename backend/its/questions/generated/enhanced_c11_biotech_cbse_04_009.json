@@ -34,6 +34,36 @@
      "q": "Design a simple experiment to demonstrate that the enzyme carbonic anhydrase requires Zn²⁺ as a cofactor. List the control and experimental setups, the measurable output, and the expected result that would confirm Zn²⁺ dependence.",
      "a": "Set up two reaction tubes: (1) purified carbonic anhydrase + substrate (CO₂/H₂O) + buffer (control); (2) same but pre‑treated with a chelating agent (e.g., EDTA) to remove Zn²⁺, then add back Zn²⁺ to a third tube. Measure initial rate of CO₂ hydration (e.g., by pH change). The chelated tube shows near‑zero activity; activity is restored only when Zn²⁺ is added back. A poor design might omit the chelation step or use a non‑specific metal chelator without add‑back, failing to prove specific Zn²⁺ requirement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Coenzymes are organic non-protein molecules, often derived from vitamins, that bind ______ to enzymes and act as carriers of specific functional groups (e.g., electrons, acyl groups, amino groups) during catalysis.",
+     "a": "transiently",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a nutritionist in a rural Indian ______ where patients show symptoms like fatigue, cracked lips, and poor wound healing.",
+     "a": "clinic",
+     "self_check": true
+    },
+    {
+     "q": "What is Coenzymes? State the definition given in this lesson.",
+     "a": "Coenzymes are organic non-protein molecules, often derived from vitamins, that bind transiently to enzymes and act as carriers of specific functional groups (e.g., electrons, acyl groups, amino groups) during catalysis.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Use Table ______ to show how each vitamin becomes a coenzyme and what chemical group it carries.",
+     "a": "4.1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Coenzymes?",
+     "a": "Students often think that \"cofactor\" and \"coenzyme\" are synonyms, or that all coenzymes are prosthetic groups.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly match at least five coenzymes to their precursor vitamins and the specific group they transfer, explain the difference between a coenzyme, a prosthetic group, and a metal ion cofactor with examples, and predict the effect on enzyme activity when a specific cofactor is removed or deficient.",
+     "self_check": true
     }
    ]
   }

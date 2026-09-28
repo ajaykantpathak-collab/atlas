@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using household materials to demonstrate that CO₂ is produced during alcoholic fermentation but not during lactic acid fermentation. Specify controls, measurements, and how you would distinguish the two processes.",
      "a": "Setup: Two anaerobic bottles with glucose solution. Bottle A: Add baker's yeast (Saccharomyces). Bottle B: Add curd/whey (lactobacilli). Seal with one-way gas outlet into lime water (Ca(OH)₂) or inverted graduated cylinder over water. Control: Bottle C (glucose only, no inoculum). Measure: Gas volume over 24h; lime water turbidity (CO₂ test); pH drop (both produce acid). Expected: Bottle A → gas evolution, lime water turns milky, pH drops, ethanol smell. Bottle B → no gas, lime water clear, pH drops, sour smell. Distinguishes decarboxylation (alcoholic) vs. non-decarboxylating (lactic) pathways. Poor design (no anaerobic seal, no control, measuring only pH) reveals misunderstanding of gaseous vs. non-gaseous products and need for anaerobic conditions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Fermentation is an anaerobic metabolic pathway where pyruvic acid (the end product of glycolysis) undergoes incomplete oxidation in the absence of oxygen to form either ethanol and carbon dioxide (alcoholic fermentation) or lactic acid (lactic acid fermentation), with the concomitant ______ of NAD⁺ from NADH+H⁺ to sustain glycolysis, yielding a net gain of only 2 ATP per glucose molecule.",
+     "a": "regeneration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bowl of idli batter left overnight in a warm Indian ______ - it rises, becomes fluffy, and smells slightly sour.",
+     "a": "kitchen",
+     "self_check": true
+    },
+    {
+     "q": "What is Fermentation? State the definition given in this lesson.",
+     "a": "Fermentation is an anaerobic metabolic pathway where pyruvic acid (the end product of glycolysis) undergoes incomplete oxidation in the absence of oxygen to form either ethanol and carbon dioxide (alcoholic fermentation) or lactic acid (lactic acid fermentation), with the concomitant regeneration of NAD⁺ from NADH+H⁺ to sustain.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Fermentation is an anaerobic metabolic pathway where pyruvic acid (the end product of glycolysis) undergoes incomplete oxidation in the absence of oxygen to form either ethanol and carbon dioxide (alcoholic fermentation) or lactic acid (lactic acid fermentation), with the concomitant regeneration of NAD⁺ from NADH+H⁺ to sustain glycolysis, yielding a net gain of only ______ ATP per glucose molecule.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Fermentation?",
+     "a": "Students believe fermentation \"produces\" NAD⁺ from scratch, rather than regenerating it by transferring electrons from NADH+H⁺ to pyruvate.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Write the balanced biochemical equations for both alcoholic and lactic acid fermentation showing all substrates, products, enzymes, and cofactors; (2) Explain why NAD⁺ regeneration is essential for glycolysis to continue under anaerobic conditions; (3) Calculate the net ATP yield and energy efficiency of fermentation.",
+     "self_check": true
     }
    ]
   }

@@ -26,13 +26,28 @@
      "self_check": true
     },
     {
-     "q": "Evaluate the following student procedure for constructing a triangle with sides 4 cm, 5 cm, and 6 cm: \"I drew a 4 cm line, measured 5 cm from one end with my ruler, measured 6 cm from the other end with my ruler, and marked the dot where they met.\" Is this method reliable? Why or why not?",
-     "a": "The method is unreliable. While the intent is correct, using a ruler to measure and plot a single point without arcs creates a locus of uncertainty; the compass creates a locus of points at an exact fixed distance (a circle/arc), ensuring pinpoint precision. A student who defends the ruler method does not understand why compasses are essential for geometric loci.",
+     "q": "Why is marking the third vertex of a triangle by ruler-guessing unreliable compared to using two compass arcs?",
+     "a": "Compass arcs give precision: (1) The needle at one endpoint holds an exact fixed radius (2) The arc is a locus of points at that exact distance (3) The second arc from the other endpoint is a second exact locus (4) Only their intersection satisfies both side lengths at once. A ruler-guessed dot carries no locus guarantee, so at least one side length will be off. A wrong answer that calls the ruler method acceptable shows the student believes construction is merely sketching rather than the precise geometric mapping of exact side-length constraints.",
      "self_check": true
     },
     {
      "q": "Design a set of three side lengths that would make it impossible to construct a triangle using your compass, and explain the mathematical rule that proves your design works.",
      "a": "An example set is 2 cm, 3 cm, and 6 cm. The mathematical proof relies on the Triangle Inequality Theorem: 2 + 3 = 5, and since 5 is less than 6, the two arcs drawn from endpoints of the 6 cm base will never touch or intersect in a plane. A poor answer gives three numbers where the sum of the two smaller sides exceeds the largest side, showing a misunderstanding of the theorem.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ triangles using a ruler and compass involves accurately drawing a triangle when specific dimensions (such as side lengths or angle measures) are provided, ensuring that the geometric properties of triangles are strictly satisfied.",
+     "a": "Constructing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a builder designing a ______ roof truss for a community center in your village, and the blueprint specifies exact side lengths in metres to ensure the structure does not collapse.",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can use a ruler and compass to construct triangles accurately given side lengths or side-angle combinations, while verifying that the triangle inequality theorem is satisfied before starting construction.",
      "self_check": true
     }
    ]

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_02_006",
+   "title": "c11_leg_cbse_02_006",
+   "questions": [
+    {
+     "q": "What is the constitutional basis for the collective responsibility of the Council of Ministers to the Lok Sabha in India, and which Article explicitly states it?",
+     "a": "**Answer:** Article 75(3) of the Constitution of India states: \"The Council of Ministers shall be collectively responsible to the House of the People.\" This means the entire Cabinet stands or falls together — if a no-confidence motion passes in Lok Sabha, all ministers including the PM must resign.  \n**Wrong answer reveals:** If a student cites Article 74 (aid and advice) or Article 75(1) (appointment), they confuse *formation* of the executive with *accountability*. If they mention \"individual responsibility,\" they miss the *collective* nature unique to Parliamentary systems.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Indian President's ordinance-making power (Article 123) is considered a legislative function of the executive, and what constitutional safeguard prevents its misuse.",
+     "a": "**Answer:** The President promulgates ordinances on Cabinet advice (Art. 74) when Parliament is not in session — effectively making law without legislative debate. This is *delegated legislation*. The safeguard: the ordinance **must be approved by Parliament within 6 weeks of reassembly** (Art. 123(2)), else it lapses. Also, it cannot amend the Constitution.  \n**Wrong answer reveals:** If a student says \"President acts alone,\" they ignore Art. 74 (aid and advice is binding). If they miss the 6-week limit, they don't grasp the *temporary* nature of this power — a key check on executive overreach.",
+     "self_check": true
+    },
+    {
+     "q": "A new Indian state \"Vindhya\" is created with a population of 50 lakh. Its Legislative Assembly has 60 members. The Chief Minister wants to create a Legislative Council (Vidhan Parishad). What is the *minimum* and *maximum* strength of this Council under Article 171, and what is the composition logic?",
+     "a": "**Answer:**  \n- **Minimum:** 40 members (Art. 171(1): not less than 40)  \n- **Maximum:** 20 members (1/3 of Assembly strength = 60/3 = 20) → **Wait, contradiction!**  \n- **Resolution:** Art. 171(1) says \"not less than 40\" but \"not more than 1/3 of Assembly.\" For 60-member Assembly, 1/3 = 20 < 40. **Thus, Vindhya CANNOT have a Legislative Council** — the constitutional floor (40) exceeds the ceiling (1/3 of Assembly).  \n**Wrong answer reveals:** If a student calculates 1/3 = 20 and says \"max 20,\" they miss the *absolute minimum of 40* in Art. 171(1). This tests precise constitutional reading — a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the judicial function of the Indian Executive (President's pardon power, Art. 72) with the judicial function of the Indian Legislature (impeachment of President, Art. 61). How do they differ in *nature*, *initiator*, and *check*?",
+     "a": "**Answer:**  \n| Aspect | Executive (Art. 72) | Legislature (Art. 61) |  \n|--------|---------------------|------------------------|  \n| **Nature** | Quasi-judicial: mercy, not review of guilt | Judicial: trial for \"violation of Constitution\" |  \n| **Initiator** | Convicted person (petition) | 1/4 members of either House (charge) |  \n| **Check** | Cabinet advice (binding); judicial review of *process* (not merit) | 2/3 majority in both Houses; Supreme Court can review *procedure* |  \n**Key difference:** Executive pardon is *mercy* (grace), legislative impeachment is *accountability* (constitutional sanction).  \n**Wrong answer reveals:** If a student equates both as \"judicial functions\" without distinguishing *mercy vs. constitutional trial*, they miss the doctrinal separation: pardon is an act of grace; impeachment is a constitutional safeguard.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"India's Parliamentary system violates Separation of Powers because the Executive is drawn from the Legislature.\" Use Wade & Phillips' three meanings and the *Keshavananda Bharati* \"Basic Structure\" ruling.",
+     "a": "**Answer:** The claim is **partially true but constitutionally settled**.  \n- Wade & Phillips: (i) Same persons in multiple organs → **TRUE** (PM + Ministers are MPs). (ii) One organ controls another → **TRUE** (Cabinet controls legislative agenda). (iii) One organ exercises another's function → **FALSE** (Executive doesn't *judge*; Legislature doesn't *execute*).  \n- *Keshavananda Bharati* (1973): **Separation of Powers is part of Basic Structure** (State of Bihar v. Bal Mukund Shah, 2000). But the Court upheld *Parliamentary system* as constitutional — meaning **functional separation with personnel overlap** is permitted. The check: collective responsibility (Art. 75(3)), judicial review (Art. 32/226), President's veto (Art. 111).  \n**Wrong answer reveals:** If a student says \"violation\" or \"no violation\" without nuance, they miss that *strict* separation is impossible in Parliamentary systems — the Constitution *adopts* a modified version. Board exams test this balance.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical country \"Samvidhan\" with: (a) Directly elected President (4-year term), (b) Bicameral legislature elected separately, (c) Federal structure with strong Centre, (d) Independent judiciary with judicial review. Classify its government form *precisely* using three criteria from this chapter. Justify each.",
+     "a": "**Answer:**  \n1. **Executive-Legislature Relationship:** **Presidential** — President elected directly, fixed term, not responsible to legislature (cannot be removed by no-confidence).  \n2. **Territorial Power Distribution:** **Federal with Unitary Bias** — Federal structure exists (two governments, division of powers), but \"strong Centre\" implies residuary powers with Centre, emergency provisions (like Art. 352/356), single Constitution — matching India's \"Federal in form, Unitary in spirit\" (K.C. Wheare).  \n3. **Democratic Mode:** **Representative Democracy** — Legislature elected by people; no direct democracy mechanisms (referendum/initiative) mentioned.  \n**Justification:** Mirrors USA (Presidential) + India (Federal-Unitary hybrid). Not Parliamentary (no fusion of executive survival with legislature).  \n**Poor answer reveals:** If a student says just \"Federal\" or \"Democratic,\" they miss the *three-dimensional classification* required. Board questions demand multi-criteria analysis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

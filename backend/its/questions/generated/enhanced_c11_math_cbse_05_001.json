@@ -34,6 +34,16 @@
      "q": "Construct a quadratic equation with real coefficients whose roots are \\(5i\\) and \\(-5i\\). Show how you used the sum and product of roots.",
      "a": "Sum \\(= 0\\), product \\(= (5i)(-5i) = -25i^2 = 25\\). Equation: \\(x^2 - 0\\cdot x + 25 = 0 \\Rightarrow x^2 + 25 = 0\\). A poor answer might give an equation with non-real coefficients, or fail to use the conjugate-pair property that guarantees real coefficients.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This is the ______ moment the real number system fails.",
+     "a": "precise",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Complex numbers?",
+     "a": "The product rule for square roots holds only for non-negative real radicands.",
+     "self_check": true
     }
    ]
   }

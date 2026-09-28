@@ -34,6 +34,26 @@
      "q": "Create a new inferential question for this poem that requires the reader to connect imagery from two different stanzas. Provide the question and a model answer outline.",
      "a": "**Question:** \"How does Dickinson use the imagery of 'Hindered Flags' (stanza 5) and 'Psalteries of Summer' (stanza 2) to present nature as both struggling and harmonious?\" **Model Outline:** Point: Nature embodies tension between effort and beauty. Evidence 1: \"Hindered Flags — Sweet hoisted — With Spices — in the Hem\" — flags suggest struggle (\"Hindered\"), yet \"Sweet hoisted\" implies triumph. Evidence 2: \"Far Psalteries of Summer — Enamoring the Ear\" — music implies harmony. Explanation: The flowers' struggle to bloom (\"Hindered\") parallels the effort behind art; the resulting \"Spices\" and \"Psalteries\" are the sensory rewards. Link: Dickinson shows nature's beauty is earned, not given — a hallmark of her close observation. A poor question would ask for a single-stanza inference or a yes/no answer.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal comprehension involves retrieving explicitly stated ______ from the text, while inferential comprehension requires drawing conclusions by combining textual evidence with reasoning.",
+     "a": "information",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're in the exam hall facing a 3-mark question: \"How does Dickinson portray the Sun's ______ with the clouds?\" You freeze because the poem never says \"the Sun hides behind clouds\" directly.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're in the exam hall facing a ______-mark question: \"How does Dickinson portray the Sun's relationship with the clouds?\" You freeze because the poem never says \"the Sun hides behind clouds\" directly.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently answer both literal and inferential questions on an unseen poem by: (1) locating explicit textual evidence for literal answers, and (2) constructing a logical inference supported by at least two pieces of textual evidence (imagery, word choice, structure) for inferential answers, explaining the reasoning in.",
+     "self_check": true
     }
    ]
   }

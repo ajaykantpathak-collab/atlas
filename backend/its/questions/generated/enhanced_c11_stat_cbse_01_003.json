@@ -34,6 +34,31 @@
      "q": "Create a real-world scenario (Indian context) where a policymaker uses ALL five functions of statistics sequentially to address an economic problem. Name the problem, the data used at each stage, and the final policy decision.",
      "a": "Problem: Rising onion prices hurting urban consumers. (1) Precise presentation: \"Wholesale onion price rose from ₹15/kg (Jan) to ₹80/kg (Nov)\" — not \"prices shot up.\" (2) Condensation: Average monthly price index for 50 mandis replaces 1,500 daily quotes. (3) Relationship: Regression shows 1% drop in kharif acreage → 3% price rise; 10% export ban → 5% price drop. (4) Prediction: Using acreage, storage, import data, model forecasts ₹60/kg in Dec if 50,000 tonnes imported. (5) Policy: Government imports 50,000 tonnes, imposes stock limits, releases buffer stock—price stabilises at ₹55/kg. A poor answer that lists functions without a connected narrative reveals the student sees them as isolated definitions, not an integrated workflow.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Statistics in economics refers to the systematic application of quantitative methods—collection, organisation, presentation, analysis, and ______ of numerical data—to understand economic problems, establish relationships between economic variables, predict future trends, and formulate evidence-based policies for resource allocation and welfare maximisation.",
+     "a": "interpretation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine the Government of India must decide how many kilograms of wheat to procure from farmers in Punjab for the Public ______ System in 2025.",
+     "a": "Distribution",
+     "self_check": true
+    },
+    {
+     "q": "What is Statistics in economics? State the definition given in this lesson.",
+     "a": "Statistics in economics refers to the systematic application of quantitative methods—collection, organisation, presentation, analysis, and interpretation of numerical data—to understand economic problems, establish relationships between economic variables, predict future trends, and formulate evidence-based policies for resource.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine the Government of India must decide how many kilograms of wheat to procure from farmers in Punjab for the Public Distribution System in ______.",
+     "a": "2025",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain each of the five core functions of statistics (precise presentation, condensation, relationship identification, prediction, policy formulation) with a distinct economic example, and can articulate why statistics is necessary but not sufficient for sound economic decision-making.",
+     "self_check": true
     }
    ]
   }

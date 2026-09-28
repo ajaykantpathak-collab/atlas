@@ -34,6 +34,21 @@
      "q": "Design a hypothetical ERT strategy for a *new* LSD: deficiency of lysosomal enzyme X, which degrades substrate Y. Substrate Y accumulates in *hepatocytes* and *renal tubular cells*, but NOT in macrophages. The enzyme X is a 75 kDa glycoprotein with 3 N-glycosylation sites. Specify: (a) the optimal glycan structure to engineer on recombinant enzyme X; (b) the preferred expression system; (c) the receptor-mediated uptake pathway; (d) one major manufacturing challenge unique to this targeting strategy.",
      "a": "(a) **M6P-terminated N-glycans** (Man-6-P on at least 2 of 3 sites) — because hepatocytes and renal tubular cells express high levels of cation-independent M6P receptor (CI-M6PR), not mannose receptor. (b) **CHO or HEK293 cells** — only mammalian cells have the GlcNAc-1-phosphotransferase machinery to generate M6P tags *in vivo*. Yeast/plant systems would require inefficient *in vitro* enzymatic phosphorylation. (c) **CI-M6PR-mediated endocytosis** → trafficking via early endosome → late endosome → lysosome (M6P dissociates at low pH, receptor recycles). (d) **Major challenge: Incomplete phosphorylation heterogeneity**. Phosphotransferase recognizes a conformational signal patch on the enzyme, not just glycosylation sites. For a novel enzyme X, phosphorylation efficiency is unpredictable — some glycoforms get 0, 1, 2, or 3 M6P tags. This creates a heterogeneous product with variable uptake kinetics, requiring extensive analytical characterization (M6P content assay, CI-M6PR binding assay) and potentially protein engineering of the signal patch. A poor answer suggests mannose targeting (wrong cell type), uses yeast (no M6P), or ignores heterogeneity — showing lack of integration between glycoprotein biosynthesis, receptor biology, and bioprocess constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Enzyme Replacement Therapy (ERT) for Lysosomal Storage Disorders (LSDs) is a therapeutic strategy where a recombinant form of the deficient lysosomal enzyme is administered ______ to supplement or replace the missing/defective endogenous enzyme, enabling degradation of accumulated substrates in lysosomes.",
+     "a": "intravenously",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 6-year-old child ______ with Gaucher disease type 1 — their spleen is massively enlarged, they bruise easily, and bone pain keeps them awake at night.",
+     "a": "diagnosed",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Explain the biochemical basis of LSDs using Gaucher disease as a model, including the specific enzyme deficiency, substrate accumulation, and cellular pathology; (2) Describe the complete ERT workflow from gene cloning to patient infusion, including host system selection (CHO, plant, yeast).",
+     "self_check": true
     }
    ]
   }

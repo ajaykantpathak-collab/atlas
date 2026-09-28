@@ -34,6 +34,31 @@
      "q": "Design a simple kitchen experiment to demonstrate the difference in packing between saturated and unsaturated fats using only coconut oil (highly saturated) and groundnut oil (unsaturated), a refrigerator, and two transparent containers. State the observation and the molecular explanation.",
      "a": "**Procedure:** Pour equal volumes of coconut oil and groundnut oil into separate transparent containers. Place both in a refrigerator (4°C) for 2 hours.  \n**Observation:** Coconut oil solidifies into a white semi-solid; groundnut oil remains liquid (or partially cloudy).  \n**Explanation:** Coconut oil is rich in **saturated fatty acids** (lauric C12:0, myristic C14:0) — straight chains pack tightly via van der Waals forces, high melting point. Groundnut oil has high **unsaturated fatty acids** (oleic C18:1, linoleic C18:2) — *cis* double bonds introduce kinks, preventing tight packing, lower melting point.  \n**Poor answer reveals:** If the student only says \"coconut oil solidifies because it's saturated\" without mentioning chain packing/kinks, they lack the structure-property link. If they confuse which oil solidifies, they have the saturation profile reversed.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Lipids are a diverse group of hydrophobic biomolecules primarily composed of carbon, hydrogen, and oxygen, ______ by their insolubility in water and solubility in non-polar organic solvents.",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bottle of ______ oil (sesame oil) and a block of vanaspati ghee on a kitchen shelf in January.",
+     "a": "gingelly",
+     "self_check": true
+    },
+    {
+     "q": "What is Lipids? State the definition given in this lesson.",
+     "a": "Lipids are a diverse group of hydrophobic biomolecules primarily composed of carbon, hydrogen, and oxygen, characterized by their insolubility in water and solubility in non-polar organic solvents.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Lipids?",
+     "a": "Misconception: \"All lipids are fats, and all fats are triglycerides.\" Exact wrong reasoning: Students equate the general term \"lipid\" with the specific subclass \"triglyceride (fat/oil)\" because dietary fats are the most familiar lipids.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) draw the structural formula of a saturated vs. unsaturated fatty acid and identify the carboxyl carbon numbering; (2) explain how esterification between three fatty acids and glycerol forms a triglyceride with release of three water molecules; (3) distinguish triglycerides from phospholipids based on the phosphate group.",
+     "self_check": true
     }
    ]
   }

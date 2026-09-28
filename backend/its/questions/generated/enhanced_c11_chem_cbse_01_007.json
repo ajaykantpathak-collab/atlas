@@ -34,6 +34,26 @@
      "q": "Design a thought experiment to determine Avogadro's number experimentally using only the fact that 12 g of carbon-12 contains exactly 1 mole of atoms, and the mass of a single carbon-12 atom can be measured by mass spectrometry as 1.99264688 × 10⁻²³ g. Write the calculation and explain each step.",
      "a": "Step 1: Mass of 1 mole of ¹²C = 12 g (by definition). Step 2: Mass of one ¹²C atom = 1.99264688 × 10⁻²³ g (measured). Step 3: Number of atoms in 1 mole = (12 g) / (1.99264688 × 10⁻²³ g/atom) = 6.02214076 × 10²³ atoms. Step 4: This number is defined as Nₐ. A poor answer (e.g., just stating the value without derivation) shows the student treats Nₐ as a memorized constant rather than a derived quantity linking microscopic mass to macroscopic mass.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The mole (symbol: mol) is the SI base unit for amount of substance, defined as exactly 6.02214076 × 10²³ ______ entities (atoms, molecules, ions, electrons, or other specified particles).",
+     "a": "elementary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have ______ 12 grams of carbon-12 powder — about the amount in a small pencil lead tip.",
+     "a": "exactly",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can define mole and Avogadro's number precisely with correct terminology, calculate the number of particles from given moles or mass using Nₐ, and explain why the molar mass in grams is numerically equal to the atomic/molecular/formula mass in unified mass units (u).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you have exactly 12 grams of carbon-12 powder — about the amount in a small pencil lead tip.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

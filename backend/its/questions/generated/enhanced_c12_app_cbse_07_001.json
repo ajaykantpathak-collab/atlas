@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_07_001",
+   "title": "c12_app_cbse_07_001",
+   "questions": [
+    {
+     "q": "What is the primary purpose of inferential statistics?\nA) To calculate the mean and standard deviation of a dataset\nB) To visualize data using histograms and box plots\nC) To make inferences about a population based on sample data\nD) To organize raw data into frequency tables",
+     "a": "C) To make inferences about a population based on sample data\nA student choosing A or B confuses inferential statistics with descriptive statistics—they recall calculating measures or making graphs but miss the core goal of generalizing beyond the sample. This reveals a failure to distinguish between describing what you have (descriptive) and inferring what you don’t have (inferential).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why we use the t-distribution instead of the normal distribution when conducting a hypothesis test for a population mean with an unknown population standard deviation and a small sample size.\nThe t-distribution accounts for the extra uncertainty introduced by estimating the population standard deviation from the sample. With small samples, the sample standard deviation (s) is a less reliable estimate of σ, leading to more variability in the t-statistic than the z-statistic would predict under normality. The t-distribution has heavier tails than the normal distribution, which widens critical values and reduces the chance of falsely rejecting the null hypothesis due to this estimation error. As sample size increases, the t-distribution approaches the normal distribution because s becomes a better estimate of σ.",
+     "a": "The t-distribution is used because it correctly models the sampling distribution of the standardized sample mean when σ is unknown and estimated by s, especially for small n. A student who says \"we use t because n<30\" without mentioning the estimation of σ reveals a superficial understanding—they recall a rule but not the underlying probabilistic reason. This misses that even for n>30, if σ is unknown, t is technically more accurate (though normal is often used as approximation), and that the key issue is estimating σ, not just sample size alone.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to test if the average monthly income of freelance graphic designers in Mumbai is greater than ₹25,000. A random sample of 16 designers yields a mean income of ₹27,500 with a standard deviation of ₹4,000. Calculate the t-statistic for this one-sample t-test.\nStep 1: Identify given values: x̄ = 27,500, μ₀ = 25,000, s = 4,000, n = 16\nStep 2: State the formula for t-statistic: t = (x̄ - μ₀) / (s / √n)\nStep 3: Compute standard error: s / √n = 4,000 / √16 = 4,000 / 4 = 1,000\nStep 4: Compute numerator: x̄ - μ₀ = 27,500 - 25,000 = 2,500\nStep 5: Compute t-statistic: t = 2,500 / 1,000 = 2.5\nThe calculated t-statistic is 2.5.",
+     "a": "2.5\nA student who forgets to divide by √n in the denominator (e.g., computes t = (27,500 - 25,000) / 4,000 = 0.625) reveals a critical procedural error—they confuse standard deviation with standard error. This mistake inflates the denominator, making effects seem smaller than they are, and could lead to failing to reject a false null hypothesis. It shows they haven’t internalized that precision of the mean estimate depends on both variability and sample size.",
+     "self_check": true
+    },
+    {
+     "q": "In a one-sample t-test for H₀: μ = 10 vs H₁: μ > 10, a student calculates t = 2.1 with df = 15 and α = 0.05. The critical t-value from the table is 1.753. The student concludes, \"Since 2.1 > 1.753, we accept the null hypothesis.\" Identify the logical error in this conclusion and explain why it is wrong.\nThe error is in the conclusion: rejecting H₀ when t > critical value (for a right-tailed test) means we have sufficient evidence against H₀, so we reject H₀, not accept it. \"Accepting\" the null hypothesis is incorrect terminology; we either reject H₀ or fail to reject it. Accepting H₀ implies proving it true, which hypothesis testing cannot do—it only assesses evidence against H₀. The correct conclusion is to reject H₀, suggesting the population mean is likely greater than 10.",
+     "a": "The student incorrectly \"accepted\" the null hypothesis when they should have rejected it. This reveals a fundamental misunderstanding of hypothesis testing logic: they conflate statistical significance with proof of the null hypothesis. This error likely stems from misinterpreting \"fail to reject\" as \"accept\" and not recognizing that hypothesis testing is designed to challenge H₀, not confirm it. Such a mistake would lose marks in board exams for incorrect interpretation and in JEE for flawed reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following claim: \"If a 95% confidence interval for a population mean is (20, 30), then there is a 95% probability that the true population mean lies between 20 and 30.\"\nThe claim is incorrect. A 95% confidence interval does not mean there is a 95% probability that the fixed but unknown population mean lies in the interval. Instead, it means that if we were to take many random samples and construct a 95% CI from each, approximately 95% of those intervals would contain the true population mean. The population mean is a constant—it either is or is not in the interval. The 95% refers to the long-run reliability of the method, not a probability about the parameter.",
+     "a": "The claim misinterprets the confidence level as a posterior probability about the parameter. A student who agrees with the statement reveals a common Bayesian misinterpretation of frequentist confidence intervals—they treat the population mean as random and the interval as fixed, reversing the correct logic. This error indicates confusion between frequentist and Bayesian interpretations and would be penalized in both board exams (for lack of conceptual precision) and JEE (for faulty statistical reasoning).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario where a one-sample t-test would be appropriate to test a claim about a population mean. Specify the population, the claim being tested, the sample data you would collect, and why the t-test (not z-test) is the correct choice.\nOne appropriate scenario: Testing whether a new diet plan reduces average fasting blood sugar below 100 mg/dL in diabetic patients. Population: all diabetic patients in a city. Claim: average fasting blood sugar < 100 mg/dL. Sample: measure fasting blood sugar in 20 randomly selected patients after following the diet for 3 months; suppose x̄ = 95, s = 8. The t-test is correct because the population standard deviation is unknown (we only have sample s), and n=20 < 30, so we cannot rely on the CLT to justify normality of the sampling distribution via z-test; the t-distribution properly accounts for estimating σ from s.",
+     "a": "A strong answer specifies: a clear population, a directional claim about the mean, realistic sample statistics (n<30, s given), and justification for t-test based on unknown σ and small n. A weak answer might omit the justification for t-test (e.g., just say \"we used t because n<30\" without mentioning unknown σ), use a scenario where σ is known (making z-test appropriate), or fail to link the test choice to the assumptions. This reveals incomplete grasp of when t-test applies versus z-test.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

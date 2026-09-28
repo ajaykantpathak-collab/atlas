@@ -5,6 +5,8 @@
    "id": "lemh.103.2.1",
    "title": "Matrix Order and Element Count",
    "converted_to_compute": false,
+   "formula": "elements = rows * cols",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the determinant of [[-3, -5], [0, 5]].",
@@ -41,15 +43,9 @@
   {
    "id": "lemh.103.2.2",
    "title": "Matrices as Data Arrangements",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "read the table or chart with its key",
-     "explain": "read the table or chart with its key: total = 6 + 7 + 6 gives 19",
-     "compute": "total = 6 + 7 + 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "entry aij sits in row i and column j",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a frequency table the rows have frequencies 6, 7 and 6. Find the total frequency.",
@@ -86,15 +82,9 @@
   {
    "id": "lemh.103.3.1",
    "title": "Row, Column and Square Matrices",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "square the given number using the stated square rule",
-     "explain": "square the given number using the stated square rule: sq = 24 ** 2 gives 576",
-     "compute": "sq = 24 ** 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "square if rows = cols",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 24.",
@@ -131,15 +121,9 @@
   {
    "id": "lemh.103.3.2",
    "title": "Diagonal, Scalar and Identity Matrices",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the quadrilateral property to compute the value",
-     "explain": "use the quadrilateral property to compute the value: adj = 180 - 50 gives 130",
-     "compute": "adj = 180 - 50"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "diagonal matrix means bij = 0 whenever i is not j",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a parallelogram one angle is 50 degrees. Find the adjacent angle.",
@@ -168,7 +152,7 @@
     },
     {
      "q": "A kite has one pair of equal angles. If the angle between the unequal sides is 60 degrees and the kite is symmetric, the sum of the two equal opposite angles is 360 - 60 - the other given angle of 80 degrees. Find the sum of the two equal angles.",
-     "a": "220",
+     "a": "240",
      "self_check": false
     }
    ]
@@ -176,21 +160,9 @@
   {
    "id": "lemh.103.3.3",
    "title": "Equality of Matrices",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the mean/median/mode definition",
-     "explain": "apply the mean/median/mode definition: total = sum((38, 16, 24, 13, 34)) gives 125",
-     "compute": "total = sum((38, 16, 24, 13, 34))"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 25",
-     "compute": "mean = total / 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "A = B means aij = bij for every i and j",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 38, 16, 24, 13, 34.",
@@ -228,6 +200,8 @@
    "id": "lemh.103.4.1",
    "title": "Addition of Matrices",
    "converted_to_compute": false,
+   "formula": "c11 = a11 + b11",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the determinant of [[2, 7], [-3, 6]].",
@@ -265,6 +239,8 @@
    "id": "lemh.103.4.2",
    "title": "Multiplication by a Scalar",
    "converted_to_compute": false,
+   "formula": "entry = k * a11",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the determinant of [[-3, 1], [-5, -5]].",
@@ -301,15 +277,9 @@
   {
    "id": "lemh.103.4.3",
    "title": "Properties of Matrix Addition",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "expand the determinant or matrix product entry",
-     "explain": "expand the determinant or matrix product entry: det = 2 * 6 - -1 * 5 gives 17",
-     "compute": "det = 2 * 6 - -1 * 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "A + B = B + A",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the determinant of [[2, -1], [5, 6]].",
@@ -347,6 +317,8 @@
    "id": "lemh.103.4.4",
    "title": "Product Entry Rule (Row by Column)",
    "converted_to_compute": false,
+   "formula": "c11 = a11 * b11 + a12 * b21",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the determinant of [[-6, 1], [8, 7]].",
@@ -383,15 +355,9 @@
   {
    "id": "lemh.103.4.5",
    "title": "Multiplication Conditions and Non-Commutativity",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the integer operation sign rules",
-     "explain": "apply the integer operation sign rules: total = -8 + (-11) gives -19",
-     "compute": "total = -8 + (-11)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "AB defined when cols of A = rows of B",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers -8 and -11.",
@@ -428,15 +394,9 @@
   {
    "id": "lemh.103.5.1",
    "title": "Transpose and its Properties",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "transpose the terms and divide by the coefficient",
-     "explain": "transpose the terms and divide by the coefficient: x = (101 - 2) / 9 gives 11",
-     "compute": "x = (101 - 2) / 9"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "(AB)' = B' A'",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 9x + 2 = 101.",
@@ -473,15 +433,9 @@
   {
    "id": "lemh.103.6.1",
    "title": "Symmetric and Skew Symmetric Matrices",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "expand the determinant or matrix product entry",
-     "explain": "expand the determinant or matrix product entry: det = 6 * -1 - -4 * 3 gives 6",
-     "compute": "det = 6 * -1 - -4 * 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "A = A' for symmetric, A = -A' for skew symmetric",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the determinant of [[6, -4], [3, -1]].",
@@ -518,15 +472,9 @@
   {
    "id": "lemh.103.7.1",
    "title": "Invertible Matrices",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 3 gives 3",
-     "compute": "count = 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "AB = BA = I",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 3 elements. How many elements are in its identity relation (a, a) for every element?",

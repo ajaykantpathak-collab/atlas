@@ -34,6 +34,31 @@
      "q": "Design a single experiment using gel electrophoresis to simultaneously check (a) the size of a PCR product, (b) the presence of primer dimers, and (c) the integrity of the template RNA (before reverse transcription). Specify gel type, staining, and expected band pattern for each.",
      "a": "Use a 2% agarose gel (better for small fragments) with EtBr. Load: Lane 1 – DNA ladder; Lane 2 – PCR product (expect bright band at expected size, e.g., 500 bp, plus a faint lower band ~50-100 bp for primer dimers); Lane 3 – Total RNA (expect two sharp ribosomal RNA bands: 28S and 18S in ~2:1 ratio; smearing indicates degradation). A poor answer uses PAGE for RNA (RNA denatures in urea gels, not standard PAGE), omits ladder, or cannot explain why primer dimers appear lower than the product. This tests synthesis of knowledge across nucleic acid types and artifact recognition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Gel ______ is a laboratory technique used to separate macromolecules (DNA, RNA, proteins) based on their size and charge by applying an electric field through a porous gel matrix; agarose gels separate nucleic acids by size due to their uniform charge-to-mass ratio, while polyacrylamide gels (PAGE) separate proteins by size after SDS coating imparts uniform negative charge.",
+     "a": "electrophoresis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You load it into a gel, apply current, and watch bands ______.",
+     "a": "appear",
+     "self_check": true
+    },
+    {
+     "q": "What is Gel electrophoresis? State the definition given in this lesson.",
+     "a": "Gel electrophoresis is a laboratory technique used to separate macromolecules (DNA, RNA, proteins) based on their size and charge by applying an electric field through a porous gel matrix; agarose gels separate nucleic acids by size due to their uniform charge-to-mass ratio, while polyacrylamide gels (PAGE) separate proteins by size.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Gel electrophoresis?",
+     "a": "Students believe that DNA fragments are separated by charge because DNA is negatively charged.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently explain why DNA migrates toward the anode in agarose gels, predict the relative migration of fragments of different sizes, select appropriate gel percentage (agarose or polyacrylamide) for a given separation task, and interpret a gel image with a DNA/protein ladder to estimate molecular weights.",
+     "self_check": true
     }
    ]
   }

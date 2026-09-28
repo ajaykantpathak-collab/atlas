@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_07_009",
+   "title": "c12_psy_cbse_07_009",
+   "questions": [
+    {
+     "q": "Define social facilitation and state the two key factors that determine whether performance improves or declines.",
+     "a": "Social facilitation is the change in individual performance due to the presence of others. Performance improves on simple/well-learned tasks (dominant responses) and declines on complex/novel tasks (non-dominant responses). A wrong answer that only mentions improvement or only mentions decline reveals a misunderstanding of the task-complexity moderator.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the presence of others leads to better performance on a well-practiced piano piece but worse performance on a new, difficult piece.",
+     "a": "The presence of others increases physiological arousal. Arousal strengthens the dominant response tendency. For a well-practiced piece, the dominant response is correct playing, so performance improves. For a new piece, the dominant response is likely errors, so performance worsens. A wrong answer that attributes the change to \"nervousness\" without linking to dominant response shows lack of theoretical understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A student is learning to solve a Rubik's cube. She can solve it in 5 minutes when alone. When she tries to solve it in front of her class, she takes 8 minutes and makes more mistakes. Using social facilitation theory, explain why this happened and predict what would happen if she were an expert who solves it in 30 seconds.",
+     "a": "The student is a novice; solving the Rubik's cube is a complex, non-dominant task for her. Presence of others increases arousal, which strengthens incorrect dominant responses (mistakes), impairing performance. For an expert, solving is a simple, well-learned (dominant) task; arousal would enhance performance, making her faster. A wrong answer that predicts the expert would also slow down ignores the task-complexity interaction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast social facilitation and social loafing on the following dimensions: (a) nature of task (individual vs. collective), (b) identifiability of individual effort, (c) direction of performance change.",
+     "a": "(a) Social facilitation: individual task performed in presence of others; social loafing: collective task where outputs are pooled. (b) Social facilitation: individual effort is identifiable (or evaluated); social loafing: individual effort is not identifiable. (c) Social facilitation: performance improves on simple tasks, declines on complex; social loafing: individual effort decreases regardless of task complexity. A wrong answer that confuses the two (e.g., says social loafing occurs on individual tasks) shows failure to differentiate the paradigms.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Social facilitation proves that people always perform better when watched.\" Provide evidence from research.",
+     "a": "The statement is false. Social facilitation shows performance enhancement only for simple/well-learned tasks; for complex/novel tasks, performance declines (social inhibition). Classic studies (e.g., Zajonc's cockroach experiment, Michaels et al.'s pool players) demonstrate this crossover interaction. A wrong answer that agrees with the statement ignores the task-complexity boundary condition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple classroom experiment to test social facilitation. Specify: (a) independent variable, (b) dependent variable, (c) two task conditions (simple vs. complex), (d) control for evaluation apprehension.",
+     "a": "(a) IV: Presence of others (alone vs. audience). (b) DV: Time to complete task / number of errors. (c) Simple task: crossing out all 'e's in a paragraph; Complex task: solving anagrams. (d) Control: Use a non-evaluative audience (e.g., blindfolded observers) or co-action condition. A poor answer that uses the same task for both conditions or doesn't control evaluation apprehension fails to isolate the facilitation effect.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Social facilitation refers to the phenomenon where the presence of others (as an audience or co-actors) enhances performance on simple or well-learned tasks but impairs performance on complex or novel tasks, due to increased ______ arousal and evaluation apprehension.",
+     "a": "physiological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a dance routine alone in your room versus performing it on stage in front of an audience.",
+     "a": "practicing",
+     "self_check": true
+    },
+    {
+     "q": "What is Social facilitation? State the definition given in this lesson.",
+     "a": "Social facilitation refers to the phenomenon where the presence of others (as an audience or co-actors) enhances performance on simple or well-learned tasks but impairs performance on complex or novel tasks, due to increased physiological arousal and evaluation apprehension.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Social facilitation?",
+     "a": "Students often believe social facilitation means \"people always perform better when others are watching.\" They confuse it with social loafing (thinking both are about groups) or think the presence of others only causes nervousness that always hurts performance.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) distinguish social facilitation from social loafing and group polarization, (2) predict the direction of performance change (improvement or impairment) based on task complexity and individual skill level, and (3) explain the role of arousal and evaluation apprehension using Zajonc's drive theory.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

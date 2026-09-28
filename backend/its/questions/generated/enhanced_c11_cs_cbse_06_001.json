@@ -34,6 +34,31 @@
      "q": "Design a real-world scenario (Indian context) where you MUST use triple-quoted strings instead of single/double quotes. Write the exact Python code.",
      "a": "Scenario: Storing a multi-line address for a Speed Post label.\n```python\naddress = '''Mr. Rahul Sharma\nFlat 4B, Green Valley Apts\nSector 21, Noida\nUttar Pradesh - 201301'''\n```\nSingle/double quotes cannot span multiple lines without explicit `\\n`. A poor answer uses `\\n` manually or claims triple quotes are for comments, showing they don't grasp the multi-line literal purpose.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A string in Python is an immutable sequence of Unicode ______ enclosed within single quotes (' '), double quotes (\" \"), or triple quotes (''' ''' or \"\"\" \"\"\") used to represent textual data.",
+     "a": "characters",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a ______ to store student details for your school's annual day.",
+     "a": "program",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You need to store names like \"Aarav\", addresses like \"Sector ______, Gurugram\", and multi-line messages like the event invitation.",
+     "a": "14",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly create strings using all three quoting styles, explain why strings are considered sequences, and predict the result of basic string representation (including escape sequences) without executing code.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a program to store student details for your school's annual day.",
+     "a": "building",
+     "self_check": true
     }
    ]
   }

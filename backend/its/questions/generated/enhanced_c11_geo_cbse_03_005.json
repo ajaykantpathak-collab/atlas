@@ -34,6 +34,31 @@
      "q": "Design a cross-section diagram (describe in words) showing the crust-mantle boundary beneath a passive continental margin transitioning to oceanic crust. Label thicknesses, densities, and rock types.",
      "a": "A good description includes: continental crust 35 km thick, density 2.7 g/cm³, granite; Moho at 35 km; oceanic crust 7 km thick, density 3.0 g/cm³, basalt; Moho at 7 km; mantle density 3.3 g/cm³; a gradual thinning of continental crust over 100-200 km. A poor answer shows uniform crustal thickness or missing density labels, indicating the student cannot visualise the lateral transition in crustal structure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ crust is the thicker (30-50 km), less dense (~2.7 g/cm³), granitic (sial: silica + aluminium) layer forming the continents, while oceanic crust is the thinner (5-10 km), denser (~3.0 g/cm³), basaltic (sima: silica + magnesium) layer underlying the ocean basins; this contrast in composition, thickness, and density drives isostatic equilibrium and plate tectonic behaviour.",
+     "a": "Continental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at a physical globe or shaded relief map of India: notice that the ______ stand kilometres above sea level while the Indian Ocean floor lies kilometres below.",
+     "a": "Himalayas",
+     "self_check": true
+    },
+    {
+     "q": "What is Continental crust? State the definition given in this lesson.",
+     "a": "Continental crust is the thicker (30-50 km), less dense (~2.7 g/cm³), granitic (sial: silica + aluminium) layer forming the continents, while oceanic crust is the thinner (5-10 km), denser (~3.0 g/cm³), basaltic (sima: silica + magnesium) layer underlying the ocean basins; this contrast in composition, thickness, and density drives.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Continental crust?",
+     "a": "Students often think the oceanic crust is thicker because the ocean is \"deep\", conflating water depth with crustal thickness.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the differences in composition, thickness, density, and dominant rock types between continental and oceanic crust, and can relate these differences to isostasy and the behaviour of plates at convergent boundaries.",
+     "self_check": true
     }
    ]
   }

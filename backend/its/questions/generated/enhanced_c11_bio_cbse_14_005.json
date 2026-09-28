@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a pH indicator and exhaled air to demonstrate the CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻ equilibrium shift, and explain what colour change you would observe when blowing into the solution versus when a plant photosynthesises in it.",
      "a": "Use phenol red (red at pH 7.4, yellow below pH 6.8). Blowing exhaled air (high pCO₂) into water shifts equilibrium right → H⁺ increases → solution turns yellow. Placing a photosynthesising plant (e.g., Hydrilla) in it consumes CO₂, shifting equilibrium left → H⁺ decreases → solution turns red. A poor answer (e.g., \"colour changes but cannot explain direction\") reveals inability to link Le Chatelier's principle to the carbonic acid equilibrium — students treat the reaction as one-way rather than a reversible buffer system.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Transport of carbon dioxide in blood occurs through three mechanisms: (1) dissolution in plasma (7%), (2) formation of carbamino compounds with haemoglobin (20-25%), and (3) conversion to bicarbonate ions (HCO₃⁻) via carbonic anhydrase catalysis in ______ (70%), with the latter two being reversible and dependent on partial pressure gradients and the Haldane effect.",
+     "a": "erythrocytes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ what happens when you hold your breath for 30 seconds — the urge to breathe comes not from lack of oxygen but from rising CO₂ levels in your blood.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe what happens when you hold your breath for ______ seconds — the urge to breathe comes not from lack of oxygen but from rising CO₂ levels in your blood.",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can trace the complete journey of a CO₂ molecule from tissue mitochondria to alveolar air, explaining the chemical transformations at each step, the role of carbonic anhydrase, the chloride shift, and how the Haldane effect couples O₂ and CO₂ transport, while quantitatively relating pCO₂ gradients to transport efficiency.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a lamp, a ball on a stick, and your own head to demonstrate why the Moon shows phases. Describe the setup, the steps, and what observation at each step proves the phases are due to viewing angle, not Earth's shadow.",
      "a": "**Setup:** Dark room, lamp (Sun) at one end, student (Earth) holds ball (Moon) at arm's length. **Steps:** 1) Face lamp, hold ball between you and lamp → ball's far side lit, you see dark ball (New Moon). 2) Turn left 90°, hold ball to side → right half lit (First Quarter). 3) Turn back to lamp, hold ball away → fully lit (Full Moon). 4) Turn right 90° → left half lit (Third Quarter). **Proof:** At no point does your head's shadow fall on the ball; the dark part is always the ball's own unlit side. A poor answer uses a second ball for Earth's shadow or doesn't emphasize the fixed light source.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The phases of the Moon are the cyclical changes in the ______ of the Moon's sunlit portion as observed from Earth, caused by the changing relative positions of the Sun, Earth, and Moon as the Moon orbits Earth approximately every 29.5 days (synodic month).",
+     "a": "appearance",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Use a simple ______ model: a white ball (Moon), a torch (Sun), and the student's head (Earth) in a dark room.",
+     "a": "physical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The phases of the Moon are the cyclical changes in the appearance of the Moon's sunlit portion as observed from Earth, caused by the changing relative positions of the Sun, Earth, and Moon as the Moon orbits Earth approximately every ______ days (synodic month).",
+     "a": "29.5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify the Moon's phase (new, crescent, quarter, gibbous, full) from a diagram showing the relative positions of the Sun, Earth, and Moon, and explain which portion of the Moon is illuminated by the Sun and which portion is visible from Earth.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The phases of the Moon are the cyclical changes in the appearance of the Moon's sunlit portion as observed from Earth, caused by the changing relative positions of the Sun, Earth, and Moon as the Moon orbits Earth ______ every 29.5 days (synodic month).",
+     "a": "approximately",
+     "self_check": true
     }
    ]
   }

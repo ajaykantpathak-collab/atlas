@@ -31,8 +31,38 @@
      "self_check": true
     },
     {
-     "q": "Design a **three-point reform plan** to reduce PDS leakage (estimated 28% in 2011-12 NSS) in a hypothetical state with 50 lakh ration cards, 30% ghost cards, and poor last-mile delivery. Your plan must use technology, institutional accountability, and community monitoring — each point addressing one pillar.",
-     "a": "**1. Technology (Aadhaar + ePoS + Portability):** Mandate **Aadhaar-seeded ration cards** with **ePoS devices** at all 15,000 FPS for biometric authentication; implement **One Nation One Ration Card (ONORC)** for migrant portability — eliminates ghost cards (30% = 15 lakh) and enables real-time stock visibility.  \n**2. Institutional Accountability (Social Audit + Vigilance Committees):** Constitute **Vigilance Committees** (mandatory under NFSA Sec. 29) with 50% women, SC/ST representation; conduct **quarterly social audits** by Gram Sabha with FCI/state officials present — fixes responsibility for diversion.  \n**3. Community Monitoring (ICT-enabled Grievance Redressal):** Launch a **WhatsApp/IVRS-based grievance app** linked to District Grievance Redressal Officer (DGRO) with 30-day resolution mandate; display **entitlement boards** at every FPS in local language — empowers beneficiaries to demand rights.  \nA poor answer (e.g., \"give direct cash transfer\" without addressing digital exclusion, or \"increase FPS margin\" without accountability) fails to integrate *technology*, *institutional design*, and *community agency* — the three pillars of PDS reform in current policy discourse.",
+     "q": "Give the correct order of pillars in a reform plan that uses technology, accountability and community monitoring to cut PDS leakage.",
+     "a": "The reform pillars run: (1) Aadhaar-seeded ration cards with ePoS devices at every fair price shop delete ghost cards (2) One Nation One Ration Card portability lets migrants draw grain anywhere (3) Vigilance Committees under the NFSA fix institutional accountability (4) Social audits open the stock registers to community monitoring. A wrong answer that relies on a single pillar shows the student has missed that leakage needs authentication, accountability and vigilance working together.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Food security in India is ensured through a dual mechanism: the Buffer Stock — a reserve of foodgrains (wheat and rice) procured by the Food Corporation of India (FCI) at Minimum Support Price (MSP) to stabilize prices and meet emergencies — and the Public ______ System (PDS) — a network of fair price shops that distribute these foodgrains to economically vulnerable populations at subsidized issue prices under the National Food Security Act (NFSA), 2013.",
+     "a": "Distribution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you see a Fair Price Shop (ration shop) in your neighbourhood with a board displaying \"Wheat: ₹2/kg, Rice: ₹3/kg\" — this is the visible endpoint of a ______ logistical chain.",
+     "a": "massive",
+     "self_check": true
+    },
+    {
+     "q": "What is Food security in India? State the definition given in this lesson.",
+     "a": "Food security in India is ensured through a dual mechanism: the Buffer Stock — a reserve of foodgrains (wheat and rice) procured by the Food Corporation of India (FCI) at Minimum Support Price (MSP) to stabilize prices and meet emergencies — and the Public Distribution System (PDS) — a network of fair price shops that distribute these.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Food security in India is ensured through a dual mechanism: the Buffer Stock — a reserve of foodgrains (wheat and rice) procured by the Food Corporation of India (FCI) at Minimum Support Price (MSP) to stabilize prices and meet emergencies — and the Public Distribution System (PDS) — a network of fair price shops that distribute these foodgrains to economically vulnerable populations at subsidized issue prices under the National Food Security Act (NFSA), ______.",
+     "a": "2013",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Food security in India?",
+     "a": "Students often think \"Buffer Stock = PDS Stock\" — i.e., all grain in FCI godowns is meant only for PDS distribution.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the step-by-step flow from procurement at MSP to distribution through fair price shops, differentiate between buffer stock norms and actual stocks, and analyze how PDS targeting (AAY, PHH, Non-NFSA) affects food access for a household in a given state.",
      "self_check": true
     }
    ]

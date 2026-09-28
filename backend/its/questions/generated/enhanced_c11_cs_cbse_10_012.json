@@ -34,6 +34,26 @@
      "q": "Design a `BoundedQueue` class using `deque` with a fixed `max_size`. The `enqueue` method should raise a custom `QueueFullException` when full, and `dequeue` should raise `QueueEmptyException` when empty. Include a `capacity()` method returning remaining slots.",
      "a": "```python\nfrom collections import deque\n\nclass QueueFullException(Exception): pass\nclass QueueEmptyException(Exception): pass\n\nclass BoundedQueue:\n    def __init__(self, max_size):\n        self._q = deque()\n        self._max = max_size\n    \n    def enqueue(self, item):\n        if len(self._q) >= self._max:\n            raise QueueFullException(\"Queue is full\")\n        self._q.append(item)\n    \n    def dequeue(self):\n        if not self._q:\n            raise QueueEmptyException(\"Queue is empty\")\n        return self._q.popleft()\n    \n    def peek(self):\n        if not self._q:\n            raise QueueEmptyException(\"Queue is empty\")\n        return self._q[0]\n    \n    def is_empty(self):\n        return len(self._q) == 0\n    \n    def capacity(self):\n        return self._max - len(self._q)\n    \n    def size(self):\n        return len(self._q)\n```\nA poor answer (missing custom exceptions, using `print` instead of `raise`, or not checking bounds before `append`) reveals inability to combine deque with encapsulation and error handling — a key board exam skill.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A queue implemented using collections.deque leverages a double-ended queue data structure that provides O(1) time complexity for both enqueue (append to rear) and dequeue (popleft from front) operations, overcoming the O(n) inefficiency of list-based queue ______ where pop(0) requires shifting all elements.",
+     "a": "implementations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Using a Python list for the queue would mean every time you serve the first customer (pop(0)), Python shifts 499 ______ elements — a disaster during peak hours.",
+     "a": "remaining",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight: both ends operate in O(______) because deque uses a doubly-linked list of memory blocks internally, not a contiguous array like list.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write Python code that correctly implements all queue operations (enqueue, dequeue, peek, isEmpty, size) using deque methods (append, popleft, indexing) and explain why deque provides better time complexity than list for queue operations.",
+     "self_check": true
     }
    ]
   }

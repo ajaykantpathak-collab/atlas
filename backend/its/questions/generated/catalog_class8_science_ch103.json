@@ -2,6 +2,100 @@
  "catalog": "catalog_class8_science_ch103.json",
  "concepts": [
   {
+   "id": "hesc.103.4.2",
+   "title": "Power Shortage Percentage Difference Calculation",
+   "converted_to_compute": true,
+   "formula": "shortage_diff = shortage_year_2 - shortage_year_1",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "shortage_diff = shortage_year_2 - shortage_year_1",
+     "compute": "shortage_diff = shortage_year_2 - shortage_year_1"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Power Shortage Percentage Difference Calculation: given shortage_year_2 = 54, shortage_year_1 = 21, find shortage diff.",
+     "a": "33",
+     "self_check": false
+    },
+    {
+     "q": "For Power Shortage Percentage Difference Calculation: given shortage_year_2 = 48, shortage_year_1 = 31, find shortage diff.",
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "For Power Shortage Percentage Difference Calculation: given shortage_year_2 = 18.3, shortage_year_1 = 12.1, find shortage diff.",
+     "a": "6.2",
+     "self_check": false
+    },
+    {
+     "q": "For Power Shortage Percentage Difference Calculation: given shortage_year_2 = 54, shortage_year_1 = 80, find shortage diff.",
+     "a": "-26",
+     "self_check": false
+    },
+    {
+     "q": "For Power Shortage Percentage Difference Calculation: given shortage_year_2 = 26, shortage_year_1 = 26, find shortage diff.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Power Shortage Percentage Difference Calculation: given shortage_year_2 = 86, shortage_year_1 = 34, find shortage diff.",
+     "a": "52",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hesc.103.4.3",
+   "title": "Remaining Fuel Reserve Percentage Calculation",
+   "converted_to_compute": true,
+   "formula": "remaining_pct = ((total_reserve - consumed_amount) / total_reserve) * 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "remaining_pct = ((total_reserve - consumed_amount) / total_reserve) * 100",
+     "compute": "remaining_pct = ((total_reserve - consumed_amount) / total_reserve) * 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Remaining Fuel Reserve Percentage Calculation: given total_reserve = 75, consumed_amount = 99, find remaining pct.",
+     "a": "-32",
+     "self_check": false
+    },
+    {
+     "q": "For Remaining Fuel Reserve Percentage Calculation: given total_reserve = 81, consumed_amount = 8.7, find remaining pct.",
+     "a": "89.2593",
+     "self_check": false
+    },
+    {
+     "q": "For Remaining Fuel Reserve Percentage Calculation: given total_reserve = 80, consumed_amount = 4.2, find remaining pct.",
+     "a": "94.75",
+     "self_check": false
+    },
+    {
+     "q": "For Remaining Fuel Reserve Percentage Calculation: given total_reserve = 83, consumed_amount = 68, find remaining pct.",
+     "a": "18.0723",
+     "self_check": false
+    },
+    {
+     "q": "For Remaining Fuel Reserve Percentage Calculation: given total_reserve = 3.9, consumed_amount = 69, find remaining pct.",
+     "a": "-1669.23",
+     "self_check": false
+    },
+    {
+     "q": "For Remaining Fuel Reserve Percentage Calculation: given total_reserve = 49, consumed_amount = 32, find remaining pct.",
+     "a": "34.6939",
+     "self_check": false
+    }
+   ]
+  },
+  {
    "id": "hesc.103.0.1",
    "title": "Classification of Natural Resources",
    "solution_type": "verify_property",
@@ -174,170 +268,6 @@
      "q": "Why should we switch to alternative energy sources?",
      "a": "Fossil fuels are limited and polluting; solar, wind and hydel energy are renewable and cleaner.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "hesc.103.4.2",
-   "title": "Power Shortage Percentage Difference Calculation",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "shortage_change",
-     "expr": "shortage_year2 - shortage_year1",
-     "explain": "how much the power shortage grew or fell between the years"
-    },
-    {
-     "step": 2,
-     "name": "average_shortage",
-     "expr": "(shortage_year1 + shortage_year2) / 2",
-     "explain": "average shortage over the two years"
-    },
-    {
-     "step": 3,
-     "name": "shortage_change_pct",
-     "expr": "(shortage_change / shortage_year1) * 100",
-     "explain": "the change as a percentage of the first year"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A town's power shortage was 40 MW last year and 55 MW this year. Find the increase and its percentage.",
-     "vals": {
-      "shortage_year1": 40,
-      "shortage_year2": 55
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "37.5 %",
-     "self_check": false
-    },
-    {
-     "q": "Shortage figures were 25 MW two years ago and 30 MW last year. Compute the change and its per cent.",
-     "vals": {
-      "shortage_year1": 25,
-      "shortage_year2": 30
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "20 %",
-     "self_check": false
-    },
-    {
-     "q": "Electricity shortage fell from 80 units to 72 units. Find the decrease and its percentage.",
-     "vals": {
-      "shortage_year1": 80,
-      "shortage_year2": 72
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "-10 %",
-     "self_check": false
-    },
-    {
-     "q": "A state had 100 MW shortage in year 1 and 140 MW in year 2. Calculate the rise in per cent.",
-     "vals": {
-      "shortage_year1": 100,
-      "shortage_year2": 140
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "40 %",
-     "self_check": false
-    },
-    {
-     "q": "Shortage went from 16 MU to 20 MU. What is the change and its percentage?",
-     "vals": {
-      "shortage_year1": 16,
-      "shortage_year2": 20
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "25 %",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "hesc.103.4.3",
-   "title": "Remaining Fuel Reserve Percentage Calculation",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "left_over",
-     "expr": "total_reserve - consumed_amount",
-     "explain": "reserve still unused"
-    },
-    {
-     "step": 2,
-     "name": "used_percent",
-     "expr": "(consumed_amount / total_reserve) * 100",
-     "explain": "per cent of the reserve already used"
-    },
-    {
-     "step": 3,
-     "name": "remaining_pct",
-     "expr": "(left_over / total_reserve) * 100",
-     "explain": "unused reserve as a percentage"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A nation had 200 billion tonnes of coal; 80 billion tonnes are used. What per cent remains?",
-     "vals": {
-      "total_reserve": 200,
-      "consumed_amount": 80
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "60 %",
-     "self_check": false
-    },
-    {
-     "q": "Of 500 units of fuel reserve, 150 units are consumed. Find the remaining percentage.",
-     "vals": {
-      "total_reserve": 500,
-      "consumed_amount": 150
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "70 %",
-     "self_check": false
-    },
-    {
-     "q": "Petroleum reserve is 300 million tonnes and 210 million tonnes are burnt. What per cent is left?",
-     "vals": {
-      "total_reserve": 300,
-      "consumed_amount": 210
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "30 %",
-     "self_check": false
-    },
-    {
-     "q": "A gas reserve of 90 units has 27 units used. Compute the per cent remaining.",
-     "vals": {
-      "total_reserve": 90,
-      "consumed_amount": 27
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "70 %",
-     "self_check": false
-    },
-    {
-     "q": "From 1000 tonnes of reserve, 350 tonnes are extracted. What percentage still lies unused?",
-     "vals": {
-      "total_reserve": 1000,
-      "consumed_amount": 350
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "65 %",
-     "self_check": false
     }
    ]
   }

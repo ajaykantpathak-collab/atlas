@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_09_006",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_09_006",
+   "title": "c11_leg_cbse_09_006",
+   "questions": [
+    {
+     "q": "What is the primary purpose of law reform in a democratic society like India?",
+     "a": "The primary purpose of law reform is to adapt existing laws to changing social, economic, technological, and political realities to ensure justice, equality, and effective governance. A wrong answer like “to make more laws” reveals a misunderstanding that law reform is about quantity rather than quality and relevance—confusing legislation with reform, which ignores the critical analysis of outdated or ineffective laws.",
+     "self_check": true
+    },
+    {
+     "q": "Explain how the Vishakha guidelines led to the enactment of the POSH Act, 2013, and why judicial intervention was necessary in this case.",
+     "a": "The Vishakha guidelines were laid down by the Supreme Court in 1997 to address sexual harassment at workplaces in the absence of specific legislation, treating them as binding under Article 32. Judicial intervention was necessary because legislative inaction persisted despite rising cases, and the Court stepped in to fill the legislative vacuum. The POSH Act, 2013, later codified these guidelines into law. A wrong answer claiming the POSH Act came before Vishakha or that Parliament acted immediately shows a failure to grasp the judicial role in initiating reform when the legislature lags—misunderstanding the relationship between judiciary and law-making in social reform.",
+     "self_check": true
+    },
+    {
+     "q": "A factory worker is denied maternity leave despite the Maternity Benefit Act being in force. She files an RTI application to get records of her denial. Which law reform empowers her to do this, and what is the time limit for the authority to respond?",
+     "a": "The Right to Information Act, 2005 empowers her to seek information. The authority must respond within 30 days.  \n- Step 1: Identify the problem—denial of statutory benefit (maternity leave).  \n- Step 2: Recognize RTI as a tool to access government records.  \n- Step 3: Recall RTI Act, 2005 allows citizens to request information from public authorities.  \n- Step 4: Apply Section 7(1) of RTI Act—response required within 30 days.  \n- Step 5: Conclude that she can use RTI to gather evidence for redressal.  \nA wrong answer citing the POSH Act or claiming no time limit shows confusion between different reforms and ignorance of procedural safeguards in RTI—failing to apply the correct law to the scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the approach of the Muslim Women (Protection of Rights on Marriage) Act, 2019, with the earlier judicial stance in Shayara Bano v. Union of India (2017) regarding triple talaq. What does this comparison reveal about the relationship between judicial interpretation and legislative action in law reform?",
+     "a": "In Shayara Bano (2017), the Supreme Court declared instant triple talaq unconstitutional, violating Article 14 (equality) and Article 21 (dignity), based on judicial review. The 2019 Act then legislatively criminalized the practice, making it a cognizable offence punishable with up to three years’ imprisonment. This reveals that judicial interpretation can initiate reform by declaring a practice invalid, but legislative action is often needed to enforce consequences and provide deterrence—showing a sequential, complementary relationship where judiciary identifies the problem and legislature enforces the solution. A wrong answer claiming the Act overturned the judgment or that the Court made it criminal shows confusion about judicial vs. legislative roles—thinking courts can punish or that laws can override constitutional rulings.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: “The Right to Information Act, 2005 has completely eliminated corruption in public offices in India.” Defend your position with reference to its actual impact and limitations.",
+     "a": "The statement is false. While RTI has significantly increased transparency and empowered citizens to access information—leading to exposure of scams like the Adarsh Housing Society and 2G spectrum case—it has not eliminated corruption. Limitations include bureaucratic delays, frivolous or vexatious requests, inadequate training of Public Information Officers, and exemptions under Sections 8 and 9 (e.g., national security, personal privacy). Corruption persists due to systemic issues beyond information access. A wrong answer accepting the statement as true reveals an overestimation of RTI’s power—confusing transparency with accountability and ignoring that information alone doesn’t punish corrupt officials without follow-up action by courts or anti-corruption bodies.",
+     "self_check": true
+    },
+    {
+     "q": "Design a law reform to address the rising issue of deepfake videos used to harass women online. Justify your proposal using constitutional principles and lessons from past reforms like POSH and RTI.",
+     "a": "A strong answer would propose: Amending the IT Act, 2000 to define and criminalize non-consensual deepfake creation and distribution, mandating social media platforms to remove such content within 24 hours, and establishing a fast-track redressal cell under the National Commission for Women. Justification: Articles 14 (equality), 15 (non-discrimination), and 21 (dignity and privacy) are violated; POSH teaches us workplace-like safeguards are needed in digital spaces; RTI shows the value of time-bound responses. A weak answer would suggest vague awareness campaigns or rely only on existing IPC sections (like 509) without addressing the technological novelty or need for institutional mechanisms—failing to learn from past reforms that required new laws, not just use of old ones.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

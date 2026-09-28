@@ -34,6 +34,31 @@
      "q": "Design a scenario where a list-based queue's O(n) dequeue becomes a real bottleneck. Describe the situation, estimate the performance impact, and propose the Python standard library solution that fixes it (name only, no code needed).",
      "a": "Scenario: A web server handles 1,000 requests/second using a list-based queue. Each request is enqueued, processed, then dequeued. With average queue length 500, each dequeue shifts ~250 elements on average. Per second: 1,000 × 250 = 250,000 shifts. Over 1 hour: 900 million shifts — causing noticeable latency. Solution: `collections.deque` which provides O(1) append and popleft. A student proposing \"use a linked list\" without naming `deque` shows they know the theory but not the practical Python tool — a gap in board exam readiness where specific module knowledge is tested.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A queue ______ using a Python list uses the list's append() method to enqueue elements at the rear (end of list) and pop(0) method to dequeue elements from the front (index 0), maintaining FIFO (First-In-First-Out) order where the first element inserted is the first one removed.",
+     "a": "implemented",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're managing a print queue in a ______ computer lab where students send print jobs.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A list seems perfect: we can add jobs at the end with append() and remove from the front with pop(______).",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write a complete Python class implementing all queue operations (enqueue, dequeue, peek, isEmpty, size) using a list, correctly handle underflow/overflow conditions, and explain why pop(0) has O(n) time complexity while append() is O(1).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're ______ a print queue in a school computer lab where students send print jobs.",
+     "a": "managing",
+     "self_check": true
     }
    ]
   }

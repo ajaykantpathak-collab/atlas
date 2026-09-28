@@ -34,6 +34,31 @@
      "q": "Write two original sentences using the archaic possessive pattern (noun + s without apostrophe) to describe a modern situation, e.g., \"The phones battery died.\" Then explain what a modern reader might misunderstand.",
      "a": "Example sentences: \"The cars engine overheated.\" \"My friends dog barks loudly.\" A modern reader would likely parse \"cars engine\" as plural noun + noun (multiple cars' engine?) or as a compound noun (car-engine), missing the possessive relationship entirely. This demonstrates why the apostrophe-s convention became necessary for disambiguation. A poor answer that writes \"The car's engine\" (with apostrophe) fails the constraint of using the archaic pattern, showing the student cannot deliberately reproduce historical syntax.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This node focuses on analysing archaic language features in John Donne's metaphysical poem \"A Lecture Upon the Shadow\", specifically: (1) obsolete spelling conventions with terminal '-e' (houres, shadowes, Sunne, noone, clearnesse, behinde), (2) the absence of apostrophes in possessive ______ (loves philosophy), and (3) how adjectives like 'infant' and 'brave' shift meaning when placed in poetic collocations (infant loves, brave clearnesse).",
+     "a": "constructions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you find a 400-year-old letter in your grandmother's attic — the spelling looks 'wrong' (shoppe, olde, goode), there are no ______ in possessives, and words like 'brave' don't mean 'courageous' the way you expect.",
+     "a": "apostrophes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Next, locate \"loves philosophy\" in line ______ — no apostrophe.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently identify three archaic language features in Donne's poem, explain the historical reason for each feature, and demonstrate how the adjective-noun collocations create metaphysical meaning that differs from the words' isolated dictionary definitions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you find a 400-year-old letter in your ______'s attic — the spelling looks 'wrong' (shoppe, olde, goode), there are no apostrophes in possessives, and words like 'brave' don't mean 'courageous' the way you expect.",
+     "a": "grandmother",
+     "self_check": true
     }
    ]
   }

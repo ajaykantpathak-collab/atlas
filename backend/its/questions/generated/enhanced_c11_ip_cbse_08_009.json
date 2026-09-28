@@ -34,6 +34,31 @@
      "q": "Design a 3-step awareness poster for your school's computer lab that teaches peers to spot a phishing link in a message. Each step must be actionable and use Indian context (e.g., bank names, UPI, Aadhaar).",
      "a": "Step 1: \"Check the sender — Is it from a known contact or official short code (e.g., SBIINB for SBI)? Unknown numbers with urgent demands are red flags.\" Step 2: \"Inspect the link — Press and hold to preview URL. Does it show 'sbi.co.in' or 'upi.npci.org.in'? Fake links use misspellings (e.g., 'sbi-verification.xyz') or IP addresses.\" Step 3: \"Verify independently — Open the official app/website directly (not via link) or call the bank's toll-free number. Never enter OTP/Aadhaar on a page reached through a message.\" A poor answer gives generic steps like \"don't click links\" without Indian-specific examples or verification methods.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Phishing is a cyber attack where attackers ______ legitimate entities via deceptive emails, messages, or websites to trick individuals into revealing sensitive information such as passwords, credit card numbers, or Aadhaar details.",
+     "a": "impersonate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive a ______ message claiming your bank account will be closed unless you click a link and verify your Aadhaar and OTP.",
+     "a": "WhatsApp",
+     "self_check": true
+    },
+    {
+     "q": "What is Phishing? State the definition given in this lesson.",
+     "a": "Phishing is a cyber attack where attackers impersonate legitimate entities via deceptive emails, messages, or websites to trick individuals into revealing sensitive information such as passwords, credit card numbers, or Aadhaar details.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Phishing?",
+     "a": "Students often believe phishing only happens via email and that cyberbullying is just \"teasing\" that can be ignored.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) distinguish between phishing, identity theft, and cyberbullying by describing their mechanisms and impacts, and (2) given a real-life scenario, identify which threat is illustrated and suggest at least two appropriate preventive measures.",
+     "self_check": true
     }
    ]
   }

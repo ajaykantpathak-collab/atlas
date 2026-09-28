@@ -34,6 +34,21 @@
      "q": "Create a real-world problem (Indian context) involving conditional probability where the condition is \"a randomly selected person tests positive for a disease\" and the event of interest is \"the person actually has the disease\". Specify all probabilities needed and write the expression for the required conditional probability.",
      "a": "Example: In a city, 2% of people have a disease. A test detects the disease with 95% accuracy (true positive rate) and gives false positives for 5% of healthy people. If a person tests positive, find the probability they actually have the disease. Let D = has disease, T = tests positive. Given: P(D) = 0.02, P(T|D) = 0.95, P(T|D') = 0.05. Required: P(D|T) = P(D∩T)/P(T). A poor answer uses made-up numbers without ensuring they are consistent (e.g., probabilities > 1) or writes P(T|D) instead of P(D|T), confusing the direction of conditioning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ probability of an event E given that event F has already occurred, denoted P(E|F), is the probability of E under the condition that the sample space is restricted to outcomes in F.",
+     "a": "Conditional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Your teacher says: \"In a survey of 500 students, 300 study ______, 200 study Physics, and 100 study both.",
+     "a": "Mathematics",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly compute P(E|F) for any pair of events given P(E), P(F), and P(E ∩ F), can interpret the meaning of conditional probability in a real-world context, and can explain why P(F) ≠ 0 is a necessary condition.",
+     "self_check": true
     }
    ]
   }

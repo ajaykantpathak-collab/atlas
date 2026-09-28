@@ -34,6 +34,31 @@
      "q": "Create a decimal subtraction problem involving metres and centimetres where the answer results in $3.45\\text{ m}$ after borrowing across two zero place-values.",
      "a": "An acceptable problem is: \"A cloth roll has a length of $10.00\\text{ m}$. If a piece measuring $6.55\\text{ m}$ is cut off, what length of cloth remains?\" Working: $10.00 - 6.55 = 3.45\\text{ m}$. A poor response would be a problem that does not require borrowing across zeros or uses incorrect units, showing a lack of understanding of how place-value zeros function in real-world contexts.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Subtraction of decimal numbers is the process of finding the difference between two quantities expressed in decimal form by aligning their decimal points and subtracting digits in ______ place-value columns from right to left, borrowing when necessary.",
+     "a": "corresponding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you go to a stationary shop in India with ₹50.00 to buy a notebook that costs ₹32.75, and you want to know how much ______ the shopkeeper will return.",
+     "a": "change",
+     "self_check": true
+    },
+    {
+     "q": "What is Subtraction of decimal numbers? State the definition given in this lesson.",
+     "a": "Subtraction of decimal numbers is the process of finding the difference between two quantities expressed in decimal form by aligning their decimal points and subtracting digits in corresponding place-value columns from right to left, borrowing when necessary.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can correctly align decimal numbers by their decimal points, annex trailing zeros to make number of decimal places equal, perform column-wise subtraction with borrowing, and apply this operation to solve multi-step real-world problems involving money and measurements.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you go to a ______ shop in India with ₹50.00 to buy a notebook that costs ₹32.75, and you want to know how much change the shopkeeper will return.",
+     "a": "stationary",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_12_003",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_12_003",
+   "title": "c12_leg_cbse_12_003",
+   "questions": [
+    {
+     "q": "What is the primary difference between Public International Law and Private International Law in terms of the parties they regulate?",
+     "a": "Public International Law regulates relations between sovereign states and international organisations (e.g., India-Pakistan water treaty). Private International Law (Conflict of Laws) governs disputes between private parties (individuals, companies) with cross-border elements (e.g., Indian company vs US client contract). A wrong answer (e.g., \"Public deals with crimes, Private deals with contracts\") reveals confusion with domestic law categories — the student is mapping criminal/civil onto international law, missing that both Public and Private International Law can involve contracts, but the *parties* differ (states vs private actors).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the ICJ's advisory opinions are not binding, while its contentious case judgments are binding only on the parties.",
+     "a": "Advisory opinions (Article 65-68 ICJ Statute) are requested by UN organs for legal guidance — they lack a dispute between consenting parties, so no enforcement mechanism attaches. Contentious judgments bind only the disputing states because ICJ jurisdiction requires *consent* (special agreement, treaty clause, or optional clause declaration). A wrong answer (e.g., \"Advisory opinions bind all UN members\") reveals the student assumes the ICJ functions like a supreme court with universal compulsory jurisdiction — missing the foundational consent-based architecture of international adjudication.",
+     "self_check": true
+    },
+    {
+     "q": "An Indian company enters a joint venture with a German firm. The contract chooses English law and ICC arbitration in Singapore. A dispute arises. Which legal system governs: (a) the contract's validity, (b) the arbitration procedure, (c) the enforcement of the award in India? Identify the relevant Private International Law concept for each.",
+     "a": "(a) Contract validity: governed by the *proper law of the contract* (chosen by parties — English law here) — concept: **party autonomy** in choice of law. (b) Arbitration procedure: governed by *lex arbitri* (law of the seat — Singapore law) — concept: **seat of arbitration** determines procedural law. (c) Enforcement in India: governed by *Indian law* (Arbitration & Conciliation Act, 1996, Part II for foreign awards under New York Convention) — concept: **enforcement lex fori**. A wrong answer (e.g., \"Indian law applies to all three\") reveals the student conflates substantive law, procedural law, and enforcement law — a classic Private International Law error where the three distinct \"choice of law\" questions are collapsed into one.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 'transformation doctrine' (UK/India) and 'monist doctrine' (US for self-executing treaties) for incorporating international treaties into domestic law. Why does India require Parliamentary legislation under Article 253 even after ratification?",
+     "a": "Transformation doctrine: treaties do not automatically become domestic law; Parliament must enact implementing legislation (India: Article 253; UK: dualist tradition). Monist doctrine: ratified treaties automatically become part of domestic law (US: self-executing treaties; Netherlands). India requires legislation because Article 253 empowers Parliament to implement *any* treaty, even on State List subjects — this overrides federal distribution of powers. Ratification alone (executive act) cannot alter domestic rights/obligations without legislative sanction. A wrong answer (e.g., \"Ratification makes it law in India\") reveals the student ignores India's dualist Constitution and the Kesavananda/Magan Bhai line of cases — they're applying a monist assumption to a dualist system.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The ICC is a 'court of last resort' — it only prosecutes when national courts are unwilling or unable.\" Is this complementarity principle a strength or a weakness for global justice?",
+     "a": "Strength: respects state sovereignty, encourages domestic capacity-building, prevents ICC overload (only 4 situations: genocide, crimes against humanity, war crimes, aggression). Weakness: \"unwilling/unable\" is politically contested — powerful states shield allies; ICC has no police force, relies on state cooperation for arrests (e.g., al-Bashir case); African states accuse ICC of bias. The principle creates a *gap*: if a state is \"able but unwilling\" and blocks cooperation, impunity persists. A wrong answer (e.g., \"It's perfect because sovereignty is respected\") reveals uncritical acceptance — the student fails to see the enforcement-structure mismatch: a criminal court without enforcement power dependent on the very states it may investigate.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical scenario where a customary international law rule conflicts with a bilateral treaty between India and Country X. Apply the *lex specialis* and *lex posterior* principles to resolve the conflict. Explain which principle prevails and why.",
+     "a": "Scenario: Customary law prohibits use of force except self-defence (Art 2(4) UN Charter + customary). India and Country X sign a 2025 bilateral treaty allowing \"pre-emptive cross-border strikes against terrorist camps\". Conflict: treaty permits what custom forbids. *Lex specialis*: treaty is specific between two parties; custom is general. *Lex posterior*: treaty (2025) is later than crystallised custom. **Treaty prevails *inter se*** (between parties) under VCLT Article 30/41 — parties can derogate from general custom by special agreement. But *erga omnes* obligations (e.g., prohibition of aggression as *jus cogens*) cannot be contracted out of. A poor answer (e.g., \"Custom always wins because it's older\") reveals ignorance of treaty supremacy *inter se* and the *jus cogens* exception — the student treats all custom as equal, missing the hierarchy: *jus cogens* > treaty > custom > general principles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_12_009",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_12_009",
+   "title": "c12_soc_cbse_12_009",
+   "questions": [
+    {
+     "q": "According to NCERT (2018–19 data), what is the approximate percentage of India's workforce employed in the tertiary (services) sector, and how does this compare to the sector's share in GDP?",
+     "a": "Correct answer: ~32% of workforce in tertiary sector (trade, transport, financial services, etc.) while services contribute >50% of GDP. This reveals the 'jobless growth' paradox — the sector generating most value employs a minority. A wrong answer (e.g., 'services employ 50%+') shows the student conflates GDP share with employment share, missing the core structural inequality NCERT highlights: 'the sector where maximum people are employed [agriculture] is not able to generate much income'.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT box 'Time Slavery in the IT Sector' describes 'flexi-time' as a management practice that 'in theory gives freedom to choose working hours but in practice means they have to work as long as necessary to finish the task'. Explain why this constitutes a *more effective* form of labour control than fixed factory shifts, using the concept of 'internalised discipline'.",
+     "a": "Correct answer: Fixed shifts externalise control (bell rings, you leave); flexi-time internalises it — the worker *self-exploits* because performance metrics, peer pressure, and 'showing the boss you're hardworking' make overtime feel like choice. This is Foucault's disciplinary power: the panopticon moves from factory floor to the engineer's laptop. A wrong answer focusing only on 'long hours' misses the sociological mechanism — it's not *quantity* of hours but *how* consent is manufactured that distinguishes new economy control.",
+     "self_check": true
+    },
+    {
+     "q": "A BPO firm in Gurugram hires 500 graduates for 'voice support' on 6-month contracts, renewable based on 'quality scores' monitored by AI speech analytics. Workers cannot unionise because 'contractors change every quarter'. Map this scenario to three features of informalisation discussed in NCERT Section 5.2, and explain why 'regular salaried employment' in services is increasingly precarious.",
+     "a": "Correct mapping: (1) Contractual/temporary status replaces permanent rolls (like 'badli workers' in Maruti); (2) Outsourcing to smaller vendors avoids labour law thresholds (10+ employees for organised sector definition); (3) Algorithmic monitoring replaces human supervision, making collective grievance impossible. Precarity arises because *even 'white-collar' service jobs now mimic casual labour* — no pension, no union, no job security. Wrong answer: 'BPO jobs are secure because they're office work' — ignores NCERT's evidence that 'more and more companies are reducing permanent employees and outsourcing'.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the occupational mobility of a Dalit woman in 1990s public sector banking (via reservation) with a Dalit woman in 2020s IT services (via merit-based hiring). Use NCERT's discussion of government employment 'overcoming boundaries of caste' and the IT sector's 'middle class, well-educated' profile to analyse whether the new economy *deepens* or *dilutes* caste-based exclusion.",
+     "a": "Correct analysis: Public sector provided *structural* mobility via reservation — caste was explicitly addressed. IT sector's 'merit' (English, coding, elite degrees) is *caste-blind in form but caste-reproducing in substance* because upper castes monopolise the cultural capital required. NCERT notes 'domination of upper caste men in well-paying professions' — IT is the newest such profession. The new economy *deepens* exclusion by making it invisible. Wrong answer: 'IT is meritocratic so caste doesn't matter' — confuses formal equality with substantive outcomes, ignoring how 'merit' is socially constructed.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the claim: 'India's IT boom proves Clark Kerr's convergence thesis — we are becoming like the US, where services dominate employment.' Use NCERT's 2018–19 sectoral employment data (43% primary, 17% secondary, 32% tertiary) and the 'convergence thesis' Activity Box to evaluate.",
+     "a": "Correct critique: Convergence thesis fails because *structure differs* — developed nations have <10% in agriculture, India has 43%. IT employs ~4–5 million directly (NASSCOM), a fraction of the 400M+ workforce. The 'new economy' is an *enclave*, not the norm. NCERT asks: 'Do culture, language, tradition disappear with new technology?' — answer: no, they shape *how* technology is adopted (e.g., joint family re-emerges for childcare in IT hubs). Wrong answer: 'Yes, we are converging' — ignores the dualistic structure NCERT emphasises: 'India is still largely an agricultural country'.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sociological research question to investigate: 'How does the \"night-out\" culture in IT firms reshape gendered domestic labour in dual-career middle-class households in Hyderabad?' Specify: (a) one qualitative method, (b) one ethical challenge, (c) how you would use 'insider/outsider' reflexivity (Class 11 Ch 5).",
+     "a": "Good answer: (a) Semi-structured interviews with 20 couples + 2-week digital ethnography of WhatsApp family groups; (b) Ethical challenge: participants may fear employer retaliation if 'work culture' critiques are leaked — mitigate via anonymisation and offline consent; (c) Reflexivity: as a researcher from similar background, I must document how my 'insider' empathy might silence critical accounts of patriarchal negotiation, while 'outsider' distance helps spot taken-for-granted assumptions (e.g., 'grandparents *naturally* help'). Poor answer: 'Survey 100 IT workers' — misses the *processual, relational* nature of domestic renegotiation that only qualitative depth captures.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The service sector (tertiary sector) in India's new economy refers to the structural shift from agriculture and manufacturing toward knowledge-intensive services like Information Technology (IT), Business Process Outsourcing (BPO), finance, and professional services, characterised by flexible labour processes, global client linkages, and a ______ of occupational hierarchies where educational credentials and English-language proficiency replace industrial seniority as primary status markers.",
+     "a": "reconfiguration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 24-year-old software engineer in ______ who joins a video call at 10 PM with a client in New York, finishes coding at 2 AM, sleeps in the office nap pod, and repeats this for three weeks straight to meet a 'flexi-time' deadline — yet her contract says '9-to-5'.",
+     "a": "Bengaluru",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) explain how IT/BPO work reorganises time, space, and social relations differently from factory labour using the concepts of 'flexi-time', 'night-outs', and 'just-in-time' outsourcing; (2) contrast the occupational mobility pathways in the new service economy with those in the organised industrial sector.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using two visible traits in a common Indian plant (e.g., mustard — flower colour and pod shape) to verify the 9:3:3:1 ratio. Outline the parental selection, F1 production, F2 generation size needed, and how you would record data.",
      "a": "Expected answer: (1) Select pure-breeding parents: yellow flower + long pod (YYLL) × white flower + short pod (yyll). (2) Cross to get F1 (all YyLl). (3) Self-pollinate ≥50 F1 plants to produce ≥800 F2 seeds (to get statistical significance). (4) Grow F2, score each plant for flower colour and pod shape, tally four phenotypes. (5) Compare observed counts to expected 9:3:3:1 using chi-square (optional for Class 10). A poor answer that skips pure-breeding verification, uses too few F2 plants, or doesn't separate the two traits in recording reveals lack of experimental design understanding.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A dihybrid cross is a genetic cross between two ______ that differ in two distinct traits, each controlled by a separate gene pair located on different chromosomes or far apart on the same chromosome.",
+     "a": "individuals",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are sorting a mixed bowl of rajma (kidney beans) and chana (chickpeas) by both colour (red vs white) and shape (oval vs round) — you notice four ______ groups appearing in a predictable pattern.",
+     "a": "distinct",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently construct a Punnett square for a dihybrid cross, derive the 9:3:3:1 phenotypic ratio, explain how the ratio demonstrates independent assortment, and solve board-exam numerical problems predicting offspring counts from given parental genotypes.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are sorting a mixed bowl of rajma (kidney beans) and chana (chickpeas) by both colour (red vs white) and shape (oval vs round) — you notice four distinct groups appearing in a ______ pattern.",
+     "a": "predictable",
+     "self_check": true
     }
    ]
   }

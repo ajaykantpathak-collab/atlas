@@ -34,6 +34,31 @@
      "q": "Create a minimal Python program (3-5 lines) that contains **exactly one logical error** and no other errors. The program should calculate the area of a rectangle but produce a wrong result for some inputs. Provide the code, a test input that reveals the error, and the corrected line.",
      "a": "**Example answer:**\n```python\nlength = float(input(\"Length: \"))\nbreadth = float(input(\"Breadth: \"))\narea = length + breadth  # Logical error: used + instead of *\nprint(\"Area:\", area)\n```\n**Test input:** Length = 5, Breadth = 3 → Output: 8 (should be 15).  \n**Corrected line:** `area = length * breadth`  \n**Why poor answers reveal misunderstanding:** If the code has a syntax error (missing colon) or name error (misspelled variable), the student hasn't isolated a pure logical error. If the test input doesn't expose the error (e.g., length=2, breadth=2 gives 4 either way), they don't understand test-case design. This tests ability to synthesize a valid-but-wrong program.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In Python, errors are classified into four categories: Syntax Errors occur when code violates the language's grammatical rules and are detected before execution; Name Errors arise when a variable or function name is used before assignment or is misspelled; Type Errors happen when an operation is applied to an object of ______ type (e.g., adding a string to an integer); Logical Errors are flaws in the program's algorithm that produce incorrect results without crashing, making them the hardest to detect.",
+     "a": "inappropriate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a program to ______ the total cost of items in a shopping cart.",
+     "a": "calculate",
+     "self_check": true
+    },
+    {
+     "q": "What is In Python, errors? State the definition given in this lesson.",
+     "a": "In Python, errors are classified into four categories: Syntax Errors occur when code violates the language's grammatical rules and are detected before execution; Name Errors arise when a variable or function name is used before assignment or is misspelled; Type Errors happen when an operation is applied to an object of inappropriate type.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about In Python, errors?",
+     "a": "Misconception: \"If my program runs without any red error message, it is correct.\" Why students make this error: In earlier classes (e.g., Scratch or block-based coding), visual feedback often prevents invalid constructions.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to examine a given Python code snippet, identify the exact error type (syntax, name, type, or logical), explain why it occurs, and provide a corrected version.",
+     "self_check": true
     }
    ]
   }

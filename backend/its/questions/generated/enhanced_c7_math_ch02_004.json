@@ -34,6 +34,31 @@
      "q": "Create two different arithmetic expressions that are equivalent to $60$, where one expression uses addition and multiplication with brackets, and the other uses subtraction and division.",
      "a": "A valid response should provide two distinct expressions, such as $(5 + 5) \\times (3 + 3)$ or $(120 \\div 2) - 0$, that both simplify to $60$ following standard order of operations. A poor answer gives expressions that evaluate to different numbers or violate basic arithmetic rules (like division by zero).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Equivalent expressions are arithmetic or algebraic expressions that yield the exact same numerical value for any given replacement of their components, reflecting the same underlying ______ relationship in different forms.",
+     "a": "mathematical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying notebooks at the school stationery shop: Rahul buys 3 notebooks for ₹25 each and 2 notebooks for ₹15 each, while Priya buys 5 notebooks at a mixed bulk rate, but both end up paying the same total amount because their purchases can be written in different ______ forms.",
+     "a": "equivalent",
+     "self_check": true
+    },
+    {
+     "q": "What is Equivalent expressions? State the definition given in this lesson.",
+     "a": "Equivalent expressions are arithmetic or algebraic expressions that yield the exact same numerical value for any given replacement of their components, reflecting the same underlying mathematical relationship in different forms.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify, generate, and verify equivalent arithmetic expressions by applying properties of operations (such as commutativity, associativity, and distributivity) without changing the final evaluated value.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying notebooks at the school ______ shop: Rahul buys 3 notebooks for ₹25 each and 2 notebooks for ₹15 each, while Priya buys 5 notebooks at a mixed bulk rate, but both end up paying the same total amount because their purchases can be written in different equivalent forms.",
+     "a": "stationery",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a geographical inquiry framework for studying \"Groundwater depletion in Punjab's Malwa region.\" Specify: (a) two physical geography datasets, (b) two human geography datasets, (c) one integrated research question that requires both, and (d) one policy-relevant output that emerges only from integration.",
      "a": "Expected answer criteria:\n(a) Physical: (i) GRACE satellite-derived groundwater storage anomaly (cm/yr), (ii) aquifer lithology and transmissivity maps from CGWB.\n(b) Human: (i) Cropping pattern shift data (area under paddy vs. cotton/maize) from agricultural census, (ii) Tubewell density and ownership distribution (marginal vs. large farmers) from minor irrigation census.\n(c) Integrated research question: \"How does the interaction between free electricity policy (human) and low-specific-yield alluvial aquifers (physical) drive spatially uneven groundwater decline, and what crop diversification pathway maintains farmer income while achieving aquifer sustainability?\"\n(d) Policy-relevant output: A block-level *water accounting framework* that allocates sustainable extraction limits per crop cycle, linked to MSP incentives for alternative crops — impossible without integrating aquifer physics with political economy of procurement.\nA poor answer that lists only physical datasets or only policy suggestions reveals the student cannot operationalize integration as a research design principle.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Geography as an integrating discipline is the spatial science that synthesizes physical phenomena (landforms, climate, soils, vegetation) and human phenomena (population, settlement, economy, culture) to explain their ______ and distribution patterns across the Earth's surface.",
+     "a": "interrelationships",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the recurring water crisis in ______'s Marathwada region every summer: wells dry up, tankers queue up, and crop failures trigger farmer distress.",
+     "a": "Maharashtra",
+     "self_check": true
+    },
+    {
+     "q": "What is Geography as an integrating discipline? State the definition given in this lesson.",
+     "a": "Geography as an integrating discipline is the spatial science that synthesizes physical phenomena (landforms, climate, soils, vegetation) and human phenomena (population, settlement, economy, culture) to explain their interrelationships and distribution patterns across the Earth's surface.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Geography as an integrating discipline?",
+     "a": "Students often think \"integration\" means geography *borrows* facts from other sciences (e.g., \"geography uses geology for rocks, economics for trade\").",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain with a concrete Indian example how a geographical issue (e.g., water scarcity in Marathwada, urban flooding in Chennai) requires integrated analysis of physical factors (rainfall variability, geology, topography) and human factors (cropping patterns, governance, infrastructure planning, social equity).",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a simple classroom demonstration using a uniform electric field (e.g., between two parallel plates connected to a high-voltage supply) and a lightweight planar loop to show that electric flux depends on the orientation of the loop. Describe what you would observe.",
      "a": "A good answer: Suspend a conducting loop (or a frame with a sensitive electrometer) between the plates. Rotate the loop and observe that the induced charge (or the deflection of a connected electroscope) is maximum when the loop's plane is perpendicular to the field (normal parallel to \\(\\mathbf{E}\\)) and zero when the loop's plane is parallel to the field (normal perpendicular to \\(\\mathbf{E}\\)). This demonstrates \\(\\phi \\propto \\cos\\theta\\). A poor answer might confuse electric flux with magnetic flux (which induces current when changing) or suggest measuring current in a static field.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Electric flux is a scalar measure of the number of electric field lines ______ a given surface.",
+     "a": "penetrating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine holding a wire loop in a steady rain — the amount of rain passing through the loop ______ on how you tilt it.",
+     "a": "depends",
+     "self_check": true
+    },
+    {
+     "q": "What is Electric flux? State the definition given in this lesson.",
+     "a": "Electric flux is a scalar measure of the number of electric field lines penetrating a given surface.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Electric flux?",
+     "a": "Students frequently treat electric flux as a vector because the definition involves the area vector.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ holding a wire loop in a steady rain — the amount of rain passing through the loop depends on how you tilt it.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

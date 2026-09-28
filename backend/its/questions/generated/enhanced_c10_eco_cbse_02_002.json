@@ -34,6 +34,26 @@
      "q": "Construct a simple input-output flow diagram showing how a cotton farmer (primary), a textile mill (secondary), and a retail garment shop (tertiary) are linked. Label the flows as goods, services, or money payments.",
      "a": "Expected answer: Farmer → (raw cotton, goods) → Textile mill → (money payment for cotton) → Farmer. Textile mill → (cotton cloth, goods) → Retail shop → (money payment for cloth) → Textile mill. Retail shop → (retailing service, service) → Consumer → (money payment for garment) → Retail shop. Also: Bank → (credit service) → all three; Government → (infrastructure service) → all three. A poor answer showing only linear goods flow without money return flows or service inputs reveals inability to visualize circular flow and interdependence — a key diagram in board exam case-based questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Comparison of the three sectors (Primary, Secondary, Tertiary) in the Indian economy involves analyzing their relative contributions to Gross Domestic Product (GDP) and employment, their ______ through forward and backward linkages, and their evolving shares over time to understand structural transformation.",
+     "a": "interdependence",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are visiting a village in Punjab where farmers grow wheat (primary), a flour mill in Ludhiana processes it into flour (______), and a Zomato delivery agent in Delhi brings a pizza made from that flour to a customer (tertiary).",
+     "a": "secondary",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can interpret sectoral GDP and employment share data to explain why India's tertiary sector contributes the most to GDP while the primary sector employs the most people, and can analyze the implications of this structural imbalance for employment generation and economic policy.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are visiting a village in Punjab where farmers grow wheat (primary), a flour mill in Ludhiana ______ it into flour (secondary), and a Zomato delivery agent in Delhi brings a pizza made from that flour to a customer (tertiary).",
+     "a": "processes",
+     "self_check": true
     }
    ]
   }

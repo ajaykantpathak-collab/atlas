@@ -1,6 +1,53 @@
 {
- "catalog": "catalog_class12_economics_leec104",
+ "catalog": "catalog_class12_economics_leec104.json",
  "concepts": [
+  {
+   "id": "leec.104.4.1",
+   "title": "Full Employment, Deficient Demand and Excess Demand",
+   "converted_to_compute": true,
+   "formula": "output_gap = equilibrium_output - full_employment_output",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "output_gap = equilibrium_output - full_employment_output",
+     "compute": "output_gap = equilibrium_output - full_employment_output"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Full Employment, Deficient Demand and Excess Demand: given equilibrium_output = 89, full_employment_output = 46, find output gap.",
+     "a": "43",
+     "self_check": false
+    },
+    {
+     "q": "For Full Employment, Deficient Demand and Excess Demand: given equilibrium_output = 25, full_employment_output = 37, find output gap.",
+     "a": "-12",
+     "self_check": false
+    },
+    {
+     "q": "For Full Employment, Deficient Demand and Excess Demand: given equilibrium_output = 5.6, full_employment_output = 50, find output gap.",
+     "a": "-44.4",
+     "self_check": false
+    },
+    {
+     "q": "For Full Employment, Deficient Demand and Excess Demand: given equilibrium_output = 26, full_employment_output = 10.8, find output gap.",
+     "a": "15.2",
+     "self_check": false
+    },
+    {
+     "q": "For Full Employment, Deficient Demand and Excess Demand: given equilibrium_output = 61, full_employment_output = 12.3, find output gap.",
+     "a": "48.7",
+     "self_check": false
+    },
+    {
+     "q": "For Full Employment, Deficient Demand and Excess Demand: given equilibrium_output = 54, full_employment_output = 105, find output gap.",
+     "a": "-51",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "leec.104.1.1",
    "title": "Ex Ante and Ex Post Measures",
@@ -277,37 +324,6 @@
     {
      "q": "Write the standard relation used for 'Paradox of Thrift', in plain ASCII form.",
      "a": "aggregate_savings = investment (unchanged in equilibrium despite higher thrift)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leec.104.4.1",
-   "title": "Full Employment, Deficient Demand and Excess Demand",
-   "questions": [
-    {
-     "q": "Using the method 'Full Employment, Deficient Demand and Excess Demand', work with: equilibrium_output = 100, full_employment_output = 18. Carry the chain through step by step and give the final value of output_gap.",
-     "a": "82 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Full Employment, Deficient Demand and Excess Demand' and work with: equilibrium_output = 300, full_employment_output = 20. Carry the chain through step by step and give the final value of output_gap.",
-     "a": "280 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Full Employment, Deficient Demand and Excess Demand' refers to.",
-     "a": "The income at which demand equals output need not be the income at which everyone has work: if equilibrium sits below the full-employment level, demand is deficient and prices tend to sag; if it sits above, demand is excessive and prices tend to climb.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Full Employment, Deficient Demand and Excess Demand'.",
-     "a": "Equilibrium only means no pressure to change; it does not guarantee full employment.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Full Employment, Deficient Demand and Excess Demand', in plain ASCII form.",
-     "a": "output_gap = equilibrium_output - full_employment_output",
      "self_check": true
     }
    ]

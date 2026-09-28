@@ -34,6 +34,26 @@
      "q": "Design a real-world scenario (Indian context) where you would need a nested list (list of lists) and draw the structure with sample data. Explain why a flat list or string would be insufficient.",
      "a": "Scenario: Storing a weekly timetable for Class 11 where each day has multiple subjects.\n```\ntimetable = [\n    [\"Monday\", \"Physics\", \"Chemistry\", \"Maths\", \"English\"],\n    [\"Tuesday\", \"Maths\", \"CS\", \"Physics\", \"Hindi\"],\n    [\"Wednesday\", \"Chemistry\", \"English\", \"CS\", \"Maths\"],\n    # ... remaining days\n]\n```\nA flat list would lose the day-wise grouping (you'd need separate index calculations). A string would make extracting \"Wednesday's 3rd period\" impossible without fragile parsing. A good answer shows the 2D structure, explains the access pattern `timetable[2][3]` → \"Maths\", and justifies nesting. A poor answer uses a flat list with separators like \"Monday-Physics-Chemistry\" revealing they haven't internalised nesting as a structural tool.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A list in Python is an ordered, mutable collection of elements enclosed in square brackets [ ] where each element can be of any data type (integers, floats, strings, or even other lists), elements are accessed by zero-based index ______, and the collection can be modified after creation by adding, removing, or changing elements.",
+     "a": "positions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're ______ a contact list on your phone—you need to store names, phone numbers, and email addresses together, but you also need to add new contacts, delete old ones, or update a number when a friend changes theirs.",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain the four defining characteristics of Python lists (ordered, mutable, heterogeneous, allows duplicates) with examples, and distinguish lists from strings by identifying at least three key differences in behaviour and usage.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're building a contact list on your phone—you need to store names, phone numbers, and email ______ together, but you also need to add new contacts, delete old ones, or update a number when a friend changes theirs.",
+     "a": "addresses",
+     "self_check": true
     }
    ]
   }

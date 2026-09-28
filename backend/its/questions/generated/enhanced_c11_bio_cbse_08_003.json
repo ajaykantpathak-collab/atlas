@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using Fluorescence Recovery After Photobleaching (FRAP) to demonstrate lateral mobility of a transmembrane protein in a live mammalian cell. Outline the key steps and the expected observation if the protein is mobile vs. immobilized.",
      "a": "Steps: (1) Label the transmembrane protein with a fluorescent tag (e.g., GFP fusion or fluorescent antibody). (2) Focus a laser on a small region of the membrane to bleach fluorophores. (3) Monitor fluorescence recovery in the bleached spot over time. (4) If mobile: fluorescence recovers as unbleached proteins diffuse in; calculate diffusion coefficient from recovery half-time. (5) If immobilized (e.g., cytoskeleton-anchored): no recovery. Control: treat with cytochalasin D (disrupts actin) — recovery should increase if cytoskeleton restricts mobility. A poor design omits controls or confuses lateral diffusion with vesicular trafficking.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Fluid Mosaic Model describes the plasma membrane as a dynamic, quasi-fluid phospholipid bilayer in which protein molecules (integral and peripheral) are embedded or attached, capable of lateral movement within the plane of the membrane, with cholesterol molecules modulating fluidity and carbohydrate moieties on the ______ surface serving as recognition sites.",
+     "a": "extracellular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a drop of blood under a microscope — red blood cells maintain their biconcave shape while squeezing through ______ narrower than their diameter.",
+     "a": "capillaries",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can draw and label the fluid mosaic model showing phospholipid bilayer, integral/peripheral proteins, cholesterol, and glycolipids/glycoproteins; explain how temperature and cholesterol affect membrane fluidity; and predict the direction of molecule movement across the membrane based on concentration gradient and polarity.",
+     "self_check": true
     }
    ]
   }

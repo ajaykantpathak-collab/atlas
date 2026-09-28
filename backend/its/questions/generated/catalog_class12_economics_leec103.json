@@ -1,6 +1,147 @@
 {
- "catalog": "catalog_class12_economics_leec103",
+ "catalog": "catalog_class12_economics_leec103.json",
  "concepts": [
+  {
+   "id": "leec.103.2.1",
+   "title": "Transaction Demand for Money and Velocity",
+   "converted_to_compute": true,
+   "formula": "transaction_money_demand = k * (p * y)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "transaction_money_demand = k * (p * y)",
+     "compute": "transaction_money_demand = k * (p * y)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Transaction Demand for Money and Velocity: given k = 99, p = 77, y = 85, find transaction money demand.",
+     "a": "647955",
+     "self_check": false
+    },
+    {
+     "q": "For Transaction Demand for Money and Velocity: given k = 14, p = 84, y = 92, find transaction money demand.",
+     "a": "108192",
+     "self_check": false
+    },
+    {
+     "q": "For Transaction Demand for Money and Velocity: given k = 23, p = 59, y = 44, find transaction money demand.",
+     "a": "59708",
+     "self_check": false
+    },
+    {
+     "q": "For Transaction Demand for Money and Velocity: given k = 35, p = 28, y = 100, find transaction money demand.",
+     "a": "98000",
+     "self_check": false
+    },
+    {
+     "q": "For Transaction Demand for Money and Velocity: given k = 9, p = 8, y = 98, find transaction money demand.",
+     "a": "7056",
+     "self_check": false
+    },
+    {
+     "q": "For Transaction Demand for Money and Velocity: given k = 47, p = 33, y = 65, find transaction money demand.",
+     "a": "100815",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leec.103.3.2",
+   "title": "Money Multiplier and Credit Creation",
+   "converted_to_compute": true,
+   "formula": "total_deposits_created = initial_reserves * money_multiplier",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_deposits_created = initial_reserves * money_multiplier",
+     "compute": "total_deposits_created = initial_reserves * money_multiplier"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Money Multiplier and Credit Creation: given initial_reserves = 76, money_multiplier = 96, find total deposits created.",
+     "a": "7296",
+     "self_check": false
+    },
+    {
+     "q": "For Money Multiplier and Credit Creation: given initial_reserves = 66, money_multiplier = 62, find total deposits created.",
+     "a": "4092",
+     "self_check": false
+    },
+    {
+     "q": "For Money Multiplier and Credit Creation: given initial_reserves = 67, money_multiplier = 83, find total deposits created.",
+     "a": "5561",
+     "self_check": false
+    },
+    {
+     "q": "For Money Multiplier and Credit Creation: given initial_reserves = 70, money_multiplier = 87, find total deposits created.",
+     "a": "6090",
+     "self_check": false
+    },
+    {
+     "q": "For Money Multiplier and Credit Creation: given initial_reserves = 11.1, money_multiplier = 95, find total deposits created.",
+     "a": "1054.5",
+     "self_check": false
+    },
+    {
+     "q": "For Money Multiplier and Credit Creation: given initial_reserves = 71, money_multiplier = 8, find total deposits created.",
+     "a": "568",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leec.103.3.3",
+   "title": "Bank Balance Sheet: Assets, Liabilities and Net Worth",
+   "converted_to_compute": true,
+   "formula": "net_worth = total_assets - total_liabilities",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_worth = total_assets - total_liabilities",
+     "compute": "net_worth = total_assets - total_liabilities"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Bank Balance Sheet: Assets, Liabilities and Net Worth: given total_assets = 47, total_liabilities = 48, find net worth.",
+     "a": "-1",
+     "self_check": false
+    },
+    {
+     "q": "For Bank Balance Sheet: Assets, Liabilities and Net Worth: given total_assets = 92, total_liabilities = 97, find net worth.",
+     "a": "-5",
+     "self_check": false
+    },
+    {
+     "q": "For Bank Balance Sheet: Assets, Liabilities and Net Worth: given total_assets = 17.3, total_liabilities = 1.5, find net worth.",
+     "a": "15.8",
+     "self_check": false
+    },
+    {
+     "q": "For Bank Balance Sheet: Assets, Liabilities and Net Worth: given total_assets = 26, total_liabilities = 12.3, find net worth.",
+     "a": "13.7",
+     "self_check": false
+    },
+    {
+     "q": "For Bank Balance Sheet: Assets, Liabilities and Net Worth: given total_assets = 54, total_liabilities = 33, find net worth.",
+     "a": "21",
+     "self_check": false
+    },
+    {
+     "q": "For Bank Balance Sheet: Assets, Liabilities and Net Worth: given total_assets = 97, total_liabilities = 91, find net worth.",
+     "a": "6",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "leec.103.1.1",
    "title": "Barter Exchange and Double Coincidence of Wants",
@@ -85,37 +226,6 @@
    ]
   },
   {
-   "id": "leec.103.2.1",
-   "title": "Transaction Demand for Money and Velocity",
-   "questions": [
-    {
-     "q": "Find the average money balance of a person paid 100 at the start of a month. Use the method 'Transaction Demand for Money and Velocity'. Work with: periodic_income = 25, total_money_balance = 80000, total_transaction_value = 12000. Carry the chain through step by step and give the final value of velocity_of_money.",
-     "a": "0.15 rupees",
-     "self_check": false
-    },
-    {
-     "q": "How many times does a rupee change hands in the two-person economy? Use the method 'Transaction Demand for Money and Velocity'. Work with: periodic_income = 100, total_money_balance = 20000, total_transaction_value = 5000. Carry the chain through step by step and give the final value of velocity_of_money.",
-     "a": "0.25 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Transaction Demand for Money and Velocity' refers to.",
-     "a": "People hold cash between paydays to bridge the gap between lumpy income receipts and continuous spending, so average transaction balances are roughly half the periodic income, and the economy's total transaction money demand rises with nominal income.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Transaction Demand for Money and Velocity'.",
-     "a": "Transaction balances move with nominal GDP, and each rupee turns over a number of times given by its velocity.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Transaction Demand for Money and Velocity', in plain ASCII form.",
-     "a": "transaction_money_demand = k * (p * y)",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "leec.103.2.2",
    "title": "Speculative Demand for Money and the Liquidity Trap",
    "questions": [
@@ -194,68 +304,6 @@
     {
      "q": "Write the standard relation used for 'Central Bank, Commercial Banks and High-Powered Money', in plain ASCII form.",
      "a": "high_powered_money = currency_held_by_public + currency_reserves_of_banks",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leec.103.3.2",
-   "title": "Money Multiplier and Credit Creation",
-   "questions": [
-    {
-     "q": "Compute the money multiplier when the reserve ratio is 20 percent. Use the method 'Money Multiplier and Credit Creation'. Work with: initial_reserves = 60, reserve_ratio = 500. Carry the chain through step by step and give the final value of total_deposits_created.",
-     "a": "0.12 units",
-     "self_check": false
-    },
-    {
-     "q": "Find total deposits supported by reserves of 100 at a given reserve ratio. Use the method 'Money Multiplier and Credit Creation'. Work with: initial_reserves = 3, reserve_ratio = 100. Carry the chain through step by step and give the final value of total_deposits_created.",
-     "a": "0.03 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Money Multiplier and Credit Creation' refers to.",
-     "a": "Because all depositors never withdraw together, each round of lending returns as a fresh deposit, and with a fixed reserve ratio the process converges to total deposits equal to the initial reserves times one divided by the reserve ratio.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Money Multiplier and Credit Creation'.",
-     "a": "A reserve base is stretched into a multiple of deposits; a smaller required ratio stretches it further.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Money Multiplier and Credit Creation', in plain ASCII form.",
-     "a": "total_deposits_created = initial_reserves * money_multiplier",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leec.103.3.3",
-   "title": "Bank Balance Sheet: Assets, Liabilities and Net Worth",
-   "questions": [
-    {
-     "q": "Using the method 'Bank Balance Sheet: Assets, Liabilities and Net Worth', work with: deposits = 200, loans = 300, reserves = 75. Carry the chain through step by step and give the final value of net_worth.",
-     "a": "175 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Bank Balance Sheet: Assets, Liabilities and Net Worth' and work with: deposits = 4, loans = 150, reserves = 40. Carry the chain through step by step and give the final value of net_worth.",
-     "a": "186 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Bank Balance Sheet: Assets, Liabilities and Net Worth' refers to.",
-     "a": "A bank's balance sheet lists reserves and loans as assets and deposits as liabilities, with the accounting rule that the two sides must tally; any excess of assets over liabilities is recorded as the bank's net worth.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Bank Balance Sheet: Assets, Liabilities and Net Worth'.",
-     "a": "Reserves plus loans must balance against deposits, and the leftover is the owners' stake.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Bank Balance Sheet: Assets, Liabilities and Net Worth', in plain ASCII form.",
-     "a": "net_worth = total_assets - total_liabilities",
      "self_check": true
     }
    ]

@@ -34,6 +34,31 @@
      "q": "Design a thought experiment using a dihybrid cross (two traits) to demonstrate that the Law of Independent Assortment can be derived from the Law of Segregation applied to two gene pairs simultaneously.",
      "a": "Cross pure-breeding round yellow (RRYY) with wrinkled green (rryy). F1: all RrYy. Self F1. If alleles segregate independently (Law of Segregation for each gene), gametes RY, Ry, rY, ry form in equal 1:1:1:1 ratio. Random fusion yields 9:3:3:1 phenotypic ratio. The 1:1:1:1 gamete ratio is the direct consequence of independent segregation of two gene pairs. A poor design (e.g., using linked genes) would not yield 1:1:1:1 gametes, showing failure to grasp the condition for independent assortment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mendel's Laws are three fundamental principles of inheritance derived from Gregor Mendel's pea plant experiments: (1) Law of Dominance — in a heterozygous condition, one allele (dominant) masks the expression of the other (recessive); (2) Law of Segregation — the two alleles of a gene separate during gamete formation so that each gamete receives only one allele; (3) Law of Independent Assortment — alleles of different genes segregate ______ of one another during gamete formation, provided the genes are on different chromosomes or far apart on the same chromosome.",
+     "a": "independently",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a pea plant in your kitchen garden: some pods are green, some yellow; some seeds are round, some ______.",
+     "a": "wrinkled",
+     "self_check": true
+    },
+    {
+     "q": "What is Mendel's Laws? State the definition given in this lesson.",
+     "a": "Mendel's Laws are three fundamental principles of inheritance derived from Gregor Mendel's pea plant experiments: (1) Law of Dominance — in a heterozygous condition, one allele (dominant) masks the expression of the other (recessive); (2) Law of Segregation — the two alleles of a gene separate during gamete formation so that each gamete.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Mendel's Laws?",
+     "a": "Students think \"Law of Dominance means the dominant allele destroys or suppresses the recessive allele permanently.\" In reality, dominance is only about phenotypic expression in heterozygotes; the recessive allele remains intact at DNA level and is transmitted unchanged to gametes (segregation).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can state each law using precise NCERT terminology, explain the cellular basis of segregation and independent assortment in terms of meiosis (homologous chromosome separation and random orientation of bivalents), and predict the genotypic/phenotypic ratios of monohybrid and dihybrid crosses including test crosses.",
+     "self_check": true
     }
    ]
   }

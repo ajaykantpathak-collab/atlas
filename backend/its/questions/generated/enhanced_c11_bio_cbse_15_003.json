@@ -34,6 +34,21 @@
      "q": "Design a simple physical model using household materials (plastic bottles, tubing, balloons, one-way valves) to demonstrate the one-way flow of blood through the four heart chambers and the role of the AV and semilunar valves. Describe the materials, assembly, and how you would simulate atrial and ventricular systole.",
      "a": "Materials: Two large plastic bottles (ventricles), two small bottles (atria), flexible tubing (vessels), four one-way check valves (e.g., from aquarium pumps or homemade from balloon flaps), red/blue colored water. Assembly: Connect vena cava tubing to right atrium bottle, place tricuspid valve between right atrium and right ventricle, connect pulmonary artery tubing from right ventricle with pulmonary valve. Similarly, pulmonary veins to left atrium, bicuspid valve, left ventricle, aortic valve to aorta tubing. Fill with colored water (blue for right side, red for left). Simulation: Squeeze atria bottles gently (atrial systole) — water flows through open AV valves into ventricles. Then squeeze ventricles firmly (ventricular systole) — AV valves close (prevent backflow), semilunar valves open, water ejects into arteries. Release ventricles (diastole) — semilunar valves close, AV valves open as atria refill.  \nA poor model (e.g., no valves, or valves that don't close properly) reveals the student does not grasp that valve action is passive and pressure-dependent, not active. They may also miss that atrial systole contributes only ~30% of ventricular filling — the model should show ventricles filling mostly by gravity/relaxation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The human heart is a four-chambered, muscular pumping organ located in the thoracic cavity between the lungs, enclosed by a double-walled ______.",
+     "a": "pericardium",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Place your hand on the left side of your chest — you feel a ______ thumping.",
+     "a": "rhythmic",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can accurately label all four chambers, both septa, four valves, major vessels (superior/inferior vena cava, pulmonary artery, pulmonary veins, aorta), and the nodal tissue (SAN, AVN) on a diagram of the heart.",
+     "self_check": true
     }
    ]
   }

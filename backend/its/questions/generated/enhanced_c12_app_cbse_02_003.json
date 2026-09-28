@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_02_003",
+   "title": "c12_app_cbse_02_003",
+   "questions": [
+    {
+     "q": "What is the order of the matrix resulting from the multiplication of a 3×4 matrix A with a 4×2 matrix B? Is the product BA defined? Why or why not?",
+     "a": "The product AB has order 3×2 (rows of A × columns of B). The product BA is **not defined** because the number of columns of B (2) does not equal the number of rows of A (3). A wrong answer (e.g., saying BA is 4×4 or \"also 3×2\") reveals the student thinks multiplication is commutative or ignores the inner-dimension matching rule — the single most critical gatekeeping concept in matrix algebra.",
+     "self_check": true
+    },
+    {
+     "q": "Two matrices A and B are both of order 2×2. A student claims that (A + B)² = A² + 2AB + B², \"just like algebra.\" Is this identity always true for matrices? Explain why or why not.",
+     "a": "**No, it is not always true.** (A+B)² = (A+B)(A+B) = A² + AB + BA + B². This equals A² + 2AB + B² **only if AB = BA** (i.e., matrices commute). Since matrix multiplication is generally non-commutative, the middle terms AB and BA cannot be combined. A student who says \"yes\" is incorrectly transferring real-number algebra rules to matrices without checking commutativity — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Given A = [[1, 2], [3, 4]] and B = [[0, 1], [1, 0]], compute AB and BA. Then compute (AB)' and B'A'. What property do you observe?",
+     "a": "AB = [[2, 1], [4, 3]], BA = [[3, 4], [1, 2]] → AB ≠ BA. (AB)' = [[2, 4], [1, 3]]. B' = [[0, 1], [1, 0]], A' = [[1, 3], [2, 4]] → B'A' = [[2, 4], [1, 3]] = (AB)'. This verifies the **transpose reversal property: (AB)' = B'A'**. A student who computes (AB)' as A'B' (order preserved) has missed the reversal — a frequent error in competitive exams where transpose properties are tested in MCQs.",
+     "self_check": true
+    },
+    {
+     "q": "A square matrix A satisfies A² = I (identity matrix). Does it follow that A = I or A = -I? Give a counterexample if false, or prove if true.",
+     "a": "**False.** Counterexample: A = [[0, 1], [1, 0]]. Then A² = [[1, 0], [0, 1]] = I, but A ≠ I and A ≠ -I. In real numbers, x²=1 ⇒ x=±1, but matrices can have **zero divisors** and **non-trivial square roots of identity**. A student who says \"yes\" is applying scalar logic to matrices — they haven't internalized that matrix equations can have more solutions due to non-commutativity and nilpotent/involutory structures.",
+     "self_check": true
+    },
+    {
+     "q": "A 2×2 matrix A is symmetric (A' = A) and another 2×2 matrix B is skew-symmetric (B' = -B). Is the product AB symmetric, skew-symmetric, or neither? Justify your answer using transpose properties.",
+     "a": "**Neither, in general.** (AB)' = B'A' = (-B)(A) = -BA. For AB to be symmetric, we need (AB)' = AB ⇒ -BA = AB ⇒ AB = -BA (anti-commute). For skew-symmetric, (AB)' = -AB ⇒ -BA = -AB ⇒ BA = AB (commute). Since symmetric and skew-symmetric matrices don't necessarily commute or anti-commute, AB is generally **neither**. A student who guesses \"symmetric\" or \"skew-symmetric\" is likely misapplying closure properties — only sums (A+A', A-A') have guaranteed symmetry types, not products.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a real-life scenario (Indian context) involving two sequential linear transformations where the order of operations matters, and represent it as a product of two 2×2 matrices M₁ and M₂ such that M₁M₂ ≠ M₂M₁. Explain what each matrix does.",
+     "a": "**Scenario:** A drone delivers packages in a grid. M₁ = rotation by 90° anticlockwise = [[0, -1], [1, 0]]. M₂ = scaling x-axis by 2 (stretch east-west) = [[2, 0], [0, 1]]. M₁M₂ = \"stretch then rotate\" = [[0, -1], [2, 0]]. M₂M₁ = \"rotate then stretch\" = [[0, -2], [1, 0]]. These are different: order changes final position. A good answer must define both matrices, compute both products, show inequality, and interpret physically. A poor answer uses generic matrices without real-world meaning or fails to verify non-commutativity — showing they don't grasp that **matrix multiplication order = sequence of transformations**.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

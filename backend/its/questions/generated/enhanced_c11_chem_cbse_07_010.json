@@ -34,6 +34,26 @@
      "q": "Design a simple test to distinguish between a Lewis acid and a Bronsted acid using only NH₃(g) and indicator paper. Explain the expected observations.",
      "a": "Expose both acids to NH₃(g). A Bronsted acid (e.g., HCl) will protonate NH₃ to NH₄⁺, turning moist red litmus blue (NH₃ is basic). A Lewis acid like BF₃ will form adduct F₃B←NH₃ with no proton transfer; moist litmus stays red (no free NH₃ to make solution basic). A poor answer (e.g., \"both turn litmus blue\") shows the student doesn't realize Lewis acid-base adduct formation consumes the base without generating OH⁻ or basic solution.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Lewis acid-base theory defines acids as electron-pair acceptors and bases as electron-pair donors; a Lewis acid-base reaction involves the formation of a ______ (dative) covalent bond where the base donates a lone pair to the acid's vacant orbital.",
+     "a": "coordinate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how ______ AlCl₃ fumes in moist air — it aggressively accepts electron pairs from water molecules, forming [Al(H₂O)₆]³⁺.",
+     "a": "anhydrous",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can identify Lewis acids and bases in a given reaction by recognizing vacant orbitals and lone pairs, predict the product of Lewis acid-base adduct formation, and explain why species like BF₃, AlCl₃, Fe³⁺ act as Lewis acids while NH₃, H₂O, OH⁻ act as Lewis bases.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how anhydrous AlCl₃ fumes in moist air — it ______ accepts electron pairs from water molecules, forming [Al(H₂O)₆]³⁺.",
+     "a": "aggressively",
+     "self_check": true
     }
    ]
   }

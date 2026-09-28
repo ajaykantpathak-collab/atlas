@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_04_002",
+   "title": "c12_soc_cbse_04_002",
+   "questions": [
+    {
+     "q": "Define 'embeddedness' in the context of Polanyi's critique of market society. Use the exact terminology from the NCERT textbook.",
+     "a": "Embeddedness means that economies are socially 'embedded' — i.e., economic institutions and processes are situated within and shaped by larger social frameworks such as caste, kinship, religion, and political power, rather than operating as a separate sphere with its own autonomous laws. A wrong answer (e.g., 'embeddedness means the economy is inside society') reveals a vague, spatial misunderstanding; the student misses the constitutive role of social relations in *creating* market rules, trust, and access. The NCERT phrase 'economies are socially embedded' must be linked to the examples (haat, Nakarattars) to show *how* social ties replace formal contracts.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words how a sociological perspective on markets differs from an economic perspective. Base your answer on the NCERT contrast between Adam Smith's 'invisible hand' and the sociological view.",
+     "a": "The economic perspective (Adam Smith) sees markets as self-regulating systems where individual self-interest, mediated by price signals, automatically produces social order without conscious design. The sociological perspective sees markets as socially constructed institutions where exchange is governed by trust, power, cultural norms, and social networks (caste, kinship, community). A wrong answer that merely says 'sociology looks at society, economics looks at money' shows a superficial disciplinary boundary; the student must articulate that sociology denies the separation of economy from society — markets *are* social relations, not just interactions *within* society.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of embeddedness to analyse the weekly tribal haat in Dhorai (Bastar) described in Box 4.1. Identify three specific social relations or institutions that structure market transactions there, and explain how each shapes economic outcomes.",
+     "a": "1. **Caste hierarchy**: Buyers are mostly adivasis, sellers are mainly caste Hindus — this shapes terms of trade, credit access, and who accumulates profit. 2. **State/forest bureaucracy**: Forest officials disburse wages and regulate produce collection, linking the market to state power and creating dependence. 3. **Kinship and ritual**: The market coincides with religious ceremonies; kin networks determine who trades with whom and enable marriage negotiations. A wrong answer listing only 'buyers and sellers' or 'supply and demand' fails to see social structure *constituting* the market. The student must show how each social relation alters price, trust, or access beyond pure economics.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Nakarattar (Chettiar) caste-based banking network (Box 4.2) with a modern formal banking system. Analyse how 'trust' is produced differently in each, and what this reveals about embeddedness.",
+     "a": "In the Nakarattar system, trust is produced through **caste-defined social relationships** (business territory, descent, marriage, common cult) and **communal institutions** that pool reserves; reputation within the caste substitutes for collateral and central regulation. In modern banking, trust is produced through **state-backed legal contracts**, **central bank oversight**, **credit scores**, and **impersonal procedures**. Embeddedness means the Nakarattar market *cannot function* without its caste social structure — removing it destroys the credit system. A wrong answer that says 'both use trust' misses the analytical point: the *source* and *enforcement* of trust are socially embedded in one case, legally/institutionally embedded in the other. The student must contrast the *mechanisms* of trust production.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: 'Polanyi's embeddedness implies that traditional markets like the haat are more \"social\" and less \"economic\" than modern stock exchanges.' Provide a reasoned judgment using sociological concepts.",
+     "a": "The statement is **false**. Embeddedness does not mean 'less economic' — it means *all* markets, including stock exchanges, are socially embedded. Modern financial markets rely on legal frameworks, regulatory bodies, professional networks, algorithmic cultures, and class-based access — all social institutions. The haat's embeddedness is visible (caste, ritual, kinship); the stock exchange's embeddedness is opaque (corporate law, SEC regulations, Ivy League networks, high-frequency trading clans). A wrong answer agreeing with the statement reveals a romanticisation of tradition and a failure to see embeddedness as a universal feature of markets, not a variable degree. The student must apply embeddedness to *both* cases.",
+     "self_check": true
+    },
+    {
+     "q": "Create a mini research plan (4 steps) to study how a contemporary Indian online marketplace (e.g., a grocery delivery app or a freelance platform) is socially embedded. Specify what social relations, institutions, or cultural norms you would investigate at each step.",
+     "a": "A good answer outlines a plan such as: 1) Map the **caste/class/gender composition** of platform workers vs. customers — does the app replicate offline hierarchies? 2) Analyse **trust mechanisms**: ratings, reviews, algorithmic matching — how do they replace or reshape kinship/community trust? 3) Examine **state regulation**: labour laws, data policies, gig-worker protests — how does political power shape the market? 4) Study **cultural narratives**: advertising, 'convenience' discourse, middle-class aspiration — how do symbolic meanings drive participation? A poor answer lists only technical features (app interface, payment gateway) or demographic surveys without linking to embeddedness theory. The student must operationalise embeddedness as a research lens.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the sociological concept (central to Karl Polanyi) that economic activities and markets are not autonomous spheres governed solely by their own laws, but are deeply rooted in, shaped by, and dependent on social relations, cultural norms, political institutions, and historical contexts.",
+     "a": "Embeddedness",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you visit a weekly ______ market (haat) on a Friday.",
+     "a": "village",
+     "self_check": true
+    },
+    {
+     "q": "What is Embeddedness? State the definition given in this lesson.",
+     "a": "Embeddedness is the sociological concept (central to Karl Polanyi) that economic activities and markets are not autonomous spheres governed solely by their own laws, but are deeply rooted in, shaped by, and dependent on social relations, cultural norms, political institutions, and historical contexts.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Embeddedness?",
+     "a": "Students often think 'embeddedness' means traditional/pre-modern markets are *fully* social while modern markets are *purely* economic.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) explain Polanyi's concept of embeddedness in their own words with reference to the NCERT examples (weekly haat, Nakarattar networks), (2) contrast the sociological perspective with the economic perspective on markets using at least three specific points of difference, and (3) apply the embeddedness framework to.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,21 @@
      "q": "Create an inferential question based on the episode where Gandhi refuses Charles Freer Andrews' help, and provide a model answer using PEEL.",
      "a": "**Question:** \"Why did Gandhi vehemently oppose Andrews staying in Champaran, despite the lawyers thinking it would help?\"  \n**Model PEEL Answer:**  \n**Point:** Gandhi opposed Andrews' help because he believed self-reliance was essential to the peasants' liberation.  \n**Evidence:** He told the lawyers, \"The cause is just and you must rely upon yourselves to win the battle. You should not seek a prop in Mr. Andrews because he happens to be an Englishman.\"  \n**Explanation:** Gandhi saw dependence on an Englishman as psychological weakness that would undermine the peasants' emerging courage and the moral purity of their struggle.  \n**Link:** This refusal was not ingratitude but a deliberate lesson in self-reliance, tying political freedom to inner freedom. A poor created question would be literal (e.g., \"What did Gandhi say?\") showing the student cannot generate higher-order questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal ______ questions require students to retrieve explicitly stated facts, details, or sequences from the text.",
+     "a": "comprehension",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in the exam hall and see a question: \"Why did Gandhi refuse bail when the ______ asked for it?\" Your first instinct might be to write a vague sentence.",
+     "a": "magistrate",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently distinguish between literal and inferential question types, locate precise textual evidence for literal answers, and construct justified inferences for inferential answers using a structured PEEL (Point, Evidence, Explanation, Link) response format that meets CBSE board marking expectations.",
+     "self_check": true
     }
    ]
   }

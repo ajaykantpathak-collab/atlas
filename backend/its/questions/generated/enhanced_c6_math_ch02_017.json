@@ -34,6 +34,31 @@
      "q": "Draw a number line and show where -6 and -1 are. If you were a person walking from -6 toward -1, would you be moving toward a larger or smaller number?",
      "a": "You would be moving toward a larger number. An answer of \"smaller\" shows the student is misled by the digit size (6 vs 1) rather than the actual position on the line.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A number line is a straight line that ______ integers as points at equal distances from a center point called zero; numbers to the right are positive, and numbers to the left are negative.",
+     "a": "represents",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ in an elevator in a building with underground parking.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To understand the number line, draw a horizontal line and place ______ in the center.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to correctly plot any given integer on a number line and use the position of numbers to compare their values (e.g., identifying that -5 is smaller than -2).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing in an elevator in a building with ______ parking.",
+     "a": "underground",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a simple classroom demonstration of Pascal's Law using two syringes of different sizes (e.g., 5 mL and 50 mL), a rubber tube, and water. Describe the procedure, what to measure, and how to verify the law quantitatively.",
      "a": "Procedure: Fill syringes and tube with water (no air bubbles). Connect tightly. Place 5 mL syringe on a scale (measures input force), 50 mL syringe pushes up a known weight (output force). Apply known forces on input plunger, record output force. Calculate pressure P_in = F_in/A_in, P_out = F_out/A_out. Verify P_in ≈ P_out. A poor answer uses air instead of water (compressible), ignores friction, or doesn't account for plunger area calculation. Good answer includes area calculation from syringe diameter and repeated trials.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Pascal's Law states that when an external pressure is applied to an enclosed fluid at rest, the pressure change is transmitted ______ to every point of the fluid and to the walls of the container.",
+     "a": "undiminished",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ car lift at a service station: a mechanic applies a small force on a narrow piston, and the platform rises effortlessly lifting a 1500 kg car.",
+     "a": "hydraulic",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) state Pascal's Law precisely with the condition \"enclosed fluid at rest\", (2) derive the hydraulic lift force multiplication formula F₂ = F₁(A₂/A₁) from the law, and (3) solve numerical problems involving force multiplication in hydraulic systems by correctly identifying input/output piston areas and applied forces.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a hydraulic car lift at a service station: a mechanic applies a small force on a narrow piston, and the platform rises ______ lifting a 1500 kg car.",
+     "a": "effortlessly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a hydraulic car lift at a service station: a mechanic applies a small force on a narrow piston, and the platform rises effortlessly lifting a ______ kg car.",
+     "a": "1500",
+     "self_check": true
     }
    ]
   }

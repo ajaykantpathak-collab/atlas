@@ -34,6 +34,31 @@
      "q": "Design a multimodal transport plan for exporting Darjeeling tea from West Bengal to Europe. Specify the sequence of modes (road/rail/air/pipeline/sea), justify each leg, and identify the key infrastructure nodes (airports, ports, ICDs) involved.",
      "a": "Expected answer: Tea is high-value, perishable, moderate volume. Plan: 1) Road from gardens to Siliguri (short distance). 2) Rail to Kolkata (ICD) or direct to airport. 3) Air freight from Kolkata (Netaji Subhas Chandra Bose International Airport) to European hub (e.g., Frankfurt). 4) Road to final destination. Justify: Air for speed to preserve quality; rail for cost-effective long haul to port/airport; sea not used due to time. Key nodes: Bagdogra airport (alternative), Kolkata airport/port, ICD Dankuni. Poor answer uses pipeline or sea for tea, or misses the need for cold chain/air, showing lack of commodity-specific reasoning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Air transport is the movement of passengers and cargo by aircraft (airplanes, ______) through the atmosphere, providing the fastest mode for long-distance and high-value goods.",
+     "a": "helicopters",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you order a ______ online from another city, it arrives by air in 1-2 days; the petrol in your vehicle comes through pipelines from refineries.",
+     "a": "smartphone",
+     "self_check": true
+    },
+    {
+     "q": "What is Air transport? State the definition given in this lesson.",
+     "a": "Air transport is the movement of passengers and cargo by aircraft (airplanes, helicopters) through the atmosphere, providing the fastest mode for long-distance and high-value goods.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Air transport?",
+     "a": "Students often think pipelines are only for oil and gas, and forget they also transport water, slurry (coal, iron ore), and even milk.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can compare air and pipeline transport on parameters of speed, cost, capacity, suitability, and environmental impact; can locate major Indian air routes and pipeline networks on a map; and can explain the role of these modes in India's trade and energy security.",
+     "self_check": true
     }
    ]
   }

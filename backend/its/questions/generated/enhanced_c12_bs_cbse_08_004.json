@@ -34,6 +34,31 @@
      "q": "Design a **three-layer control system** for a new cloud-kitchen startup delivering healthy meals in Mumbai. Specify one Feedforward, one Concurrent, and one Feedback control measure, each addressing a different critical success factor (e.g., food safety, delivery time, customer satisfaction). Justify why each measure fits its control type.",
      "a": "**Feedforward (Food Safety):** Mandatory FSSAI certification and HACCP training for all chefs *before* kitchen operations begin. *Justification:* Ensures capability to meet safety standards *before* any meal is cooked — prevents contamination at source.\n\n**Concurrent (Delivery Time):** GPS-integrated order tracking dashboard showing real-time courier location vs. promised ETA; auto-reassigns orders if delay > 5 min. *Justification:* Monitors and corrects *during* the delivery process while the meal is in transit.\n\n**Feedback (Customer Satisfaction):** Weekly NPS (Net Promoter Score) survey + analysis of repeat-order rate by menu item; used to revise recipes and drop low-rated dishes next month. *Justification:* Measures outcome *after* consumption to improve *future* menu planning.\n\nA poor answer lists generic measures (e.g., \"check quality\") without tying timing to the specific success factor or justifying the control type. This tests **synthesis** — the highest Bloom level — and mirrors CUET case-study questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Feedforward, Concurrent, and Feedback Control are three types of ______ control classified by when control is exercised relative to the activity: Feedforward (before), Concurrent (during), and Feedback (after).",
+     "a": "managerial",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the ______ of a new Metro rail project in Bengaluru.",
+     "a": "manager",
+     "self_check": true
+    },
+    {
+     "q": "What is Feedforward, Concurrent, and Feedback Control? State the definition given in this lesson.",
+     "a": "Feedforward, Concurrent, and Feedback Control are three types of managerial control classified by when control is exercised relative to the activity: Feedforward (before), Concurrent (during), and Feedback (after).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify any given managerial action (e.g., hiring policy, real-time dashboard, annual audit) into the correct control type and justify the classification by explaining the timing of intervention relative to the activity.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the manager of a new Metro rail project in ______.",
+     "a": "Bengaluru",
+     "self_check": true
     }
    ]
   }

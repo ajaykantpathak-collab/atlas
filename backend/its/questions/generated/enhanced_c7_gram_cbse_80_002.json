@@ -1,0 +1,46 @@
+{
+ "catalog": "enhanced_c7_gram_cbse_80_002",
+ "concepts": [
+  {
+   "id": "enh:c7_gram_cbse_80_002",
+   "title": "c7_gram_cbse_80_002",
+   "questions": [
+    {
+     "q": "Classify: 'She was ill, but she attended the exam.'",
+     "a": "Compound — 'but' is a coordinator joining two equal clauses. A wrong answer 'complex' reveals the count-only classifier — two clauses does not mean complex.",
+     "self_check": true
+    },
+    {
+     "q": "Classify: 'Although she was ill, she attended the exam.'",
+     "a": "Complex — 'although' subordinates the first clause. Same meaning as the previous item, different grammar — the joiner decides the class.",
+     "self_check": true
+    },
+    {
+     "q": "'It rained, we stayed home.' — which structure is this?",
+     "a": "None — it is a comma splice (error). Needs 'so' (compound), 'because' flipped (complex), or a full stop. A wrong answer calling it compound shows the comma-power misconception.",
+     "self_check": true
+    },
+    {
+     "q": "A complex sentence attaches a dependent clause to a main clause with a ______ (because/when/although) — one leans on the other.",
+     "a": "subordinator",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sentences multiply their verbs in two legal ways: a compound sentence joins two ______ clauses with a coordinator (and/but/or/so) — equals side by side.",
+     "a": "independent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Equal boxes vs leaning boxes: 'I was tired, AND I slept' — ______, two equals. 'BECAUSE I was tired, I slept' — complex, the reason leans on the result.",
+     "a": "compound",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student distinguishes compound from complex by identifying the joiner type, and converts simple pairs into both structures.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

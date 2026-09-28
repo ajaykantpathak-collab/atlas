@@ -34,6 +34,26 @@
      "q": "Create a multiplication expression involving one positive integer and two negative integers whose final product is $-90$. Explain your choice of numbers.",
      "a": "An example is $5 \\times (-3) \\times (-6)$. The product of $(-3) \\times (-6)$ is $+18$ (positive because of two negative signs), and multiplying by the positive integer $5$ gives $5 \\times 18 = 90$, but wait, we need $-90$. Let us adjust: $(-5) \\times 3 \\times 6 = -90$, or $2 \\times (-9) \\times 5 = -90$ where there is one negative sign making the total product negative. A poor answer uses incorrect signs, resulting in a positive product instead of a negative one.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The sign rules for ______ of integers state that the product of two integers with like signs (both positive or both negative) is always a positive integer, while the product of two integers with unlike signs (one positive and one negative) is always a negative integer.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If this deduction happens for 4 ______ days, what is the total change in your account balance?",
+     "a": "consecutive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If this deduction happens for ______ consecutive days, what is the total change in your account balance?",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can correctly determine the sign and magnitude of the product of any two or more integers, explain why the product of two negative numbers is positive using patterns or number line models, and apply these rules to solve real-world problems involving credits and debits or downward/upward movements.",
+     "self_check": true
     }
    ]
   }

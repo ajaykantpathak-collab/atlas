@@ -34,6 +34,31 @@
      "q": "Design a three-indicator early-warning dashboard for a district collector to monitor impending agricultural drought during the kharif season.",
      "a": "1) Weekly rainfall departure from normal (meteorological), 2) Reservoir live storage % of capacity (hydrological), 3) Satellite-derived soil moisture anomaly or NDVI deviation (agricultural). A poor answer listing only rainfall shows inability to integrate multi-source data for cross-sectoral drought typing.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Drought is a prolonged period of abnormally low precipitation leading to a shortage of water that adversely affects ecosystems, agriculture, and human activities; it is classified into ______ (deficit in rainfall), hydrological (deficit in surface/groundwater), and agricultural (deficit in soil moisture impacting crops) types, with India's most prone areas lying in the leeward side of the Western Ghats, Thar Desert, and rain-shadow regions of the Deccan Plateau.",
+     "a": "meteorological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking students to recall the last time their city imposed water cuts or farmers in their state protested for crop insurance — this grounds the abstract concept in lived ______.",
+     "a": "experience",
+     "self_check": true
+    },
+    {
+     "q": "What is Drought? State the definition given in this lesson.",
+     "a": "Drought is a prolonged period of abnormally low precipitation leading to a shortage of water that adversely affects ecosystems, agriculture, and human activities; it is classified into meteorological (deficit in rainfall), hydrological (deficit in surface/groundwater), and agricultural (deficit in soil moisture impacting crops) types.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Drought?",
+     "a": "Students often treat \"drought\" as a single event defined only by low rainfall, ignoring that meteorological, hydrological, and agricultural droughts have different onset times, durations, and indicators — e.g., they assume a good monsoon immediately ends all drought types, not realizing reservoirs and aquifers need years to recover.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between the three drought types using specific indicators (rainfall deficit, reservoir levels, soil moisture), identify India's drought-prone regions on a map with climatic justification, and explain the cascading progression from meteorological to hydrological to agricultural drought with a real-world Indian.",
+     "self_check": true
     }
    ]
   }

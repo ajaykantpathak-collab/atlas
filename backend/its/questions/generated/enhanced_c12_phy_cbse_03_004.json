@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a meter bridge (slide wire bridge) to determine the temperature coefficient of resistivity (α) of a copper wire. List the apparatus, procedure, measurements, and the formula you would use to calculate α from the balance lengths at two different temperatures.",
      "a": "Apparatus: Meter bridge, copper wire (unknown resistor), standard resistance box, galvanometer, battery, thermometer, water bath with heater. Procedure: (1) Place copper wire in the left gap, a known resistance R in the right gap. (2) Immerse the copper wire in a water bath at room temperature T_1; find balance length l_1. (3) Heat the bath to a higher temperature T_2; find balance length l_2. (4) Use meter bridge formula: R_Cu = R × (l/(100-l)). Calculate R_1 and R_2. (5) Use R_2 = R_1[1 + α(T_2 - T_1)] to find α. A poor answer that omits temperature control, uses only one temperature, or ignores the need for a standard resistor reveals lack of experimental design skills.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ (ρ) is an intrinsic material property quantifying how strongly a material opposes electric current; its SI unit is ohm-metre (Ω·m).",
+     "a": "Resistivity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe an electric geyser heating element: when cold, its resistance is low; as it heats up to 80–90°C, the resistance ______ noticeably, causing the current to settle to a steady value.",
+     "a": "increases",
+     "self_check": true
+    },
+    {
+     "q": "What is Resistivity (ρ)? State the definition given in this lesson.",
+     "a": "Resistivity (ρ) is an intrinsic material property quantifying how strongly a material opposes electric current; its SI unit is ohm-metre (Ω·m).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For semiconductors and insulators, resistivity decreases with temperature (α < ______) due to a rapid increase in charge carrier density.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Resistivity (ρ)?",
+     "a": "Students often believe the linear formula ρ_T = ρ_0[1 + α(T - T_0)] is universally valid for all temperatures, and they apply it to very low temperatures (near 0 K) where resistivity follows a T⁵ law (Bloch-Grüneisen) or saturates due to impurities.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the resistivity or resistance of a material at a given temperature using the linear approximation formula, explain the microscopic origin of the opposite temperature dependence in metals versus semiconductors, and identify the valid temperature range for the linear model.",
+     "self_check": true
     }
    ]
   }

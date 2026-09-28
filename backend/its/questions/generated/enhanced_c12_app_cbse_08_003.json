@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_08_003",
+   "title": "c12_app_cbse_08_003",
+   "questions": [
+    {
+     "q": "What is the index number of the base period always set to, and why is this convention used?",
+     "a": "The index number of the base period is always 100. This convention allows all other periods to be expressed as percentages relative to the base, making comparisons intuitive (e.g., 125 means 25% increase). A wrong answer like \"1\" or \"0\" reveals the student confuses index numbers with ratios or growth rates — they haven't internalized the percentage-scale convention.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why an index number is called a \"special type of average\" (as per NCERT), and give one reason why it is NOT a simple arithmetic mean.",
+     "a": "An index number is a \"special type of average\" because it summarizes the overall change in a group of variables (like prices of 50 commodities) into a single representative number. But it is not a simple arithmetic mean because: (1) it uses a fixed base for comparison, (2) it may involve weights (quantities/values), and (3) it is expressed as a percentage of the base. A wrong answer that says \"it's just an average of price relatives\" misses the weighting and base-reference structure — a critical error for later methods like Laspeyres vs Paasche.",
+     "self_check": true
+    },
+    {
+     "q": "A newspaper reports: \"The Consumer Price Index (CPI) for industrial workers rose from 145 in 2018 to 174 in 2023.\" Calculate the percentage increase in the cost of living over this period, and explain what the base year must be.",
+     "a": "Percentage increase = ((174 - 145) / 145) × 100 = 20%. The base year is the year when CPI = 100 — which is not 2018 (since 2018 CPI = 145). A student who computes (174 - 145) = 29 and calls it \"29% increase\" confuses index points with percentage change. A student who assumes 2018 is the base year doesn't understand that index numbers are always relative to a fixed base where index = 100.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: Price Index vs Quantity Index vs Value Index. Give one real-world example (Indian context) for each where it is the MOST appropriate measure.",
+     "a": "- **Price Index**: Measures change in prices over time. Example: CPI (Consumer Price Index) tracking retail prices of food, fuel, housing for urban households — used by RBI for inflation targeting.\n- **Quantity Index**: Measures change in physical volume. Example: IIP (Index of Industrial Production) tracking output of mining, manufacturing, electricity — used to gauge industrial growth.\n- **Value Index**: Measures change in total value (price × quantity). Example: Retail Sales Index tracking total sales revenue (₹) of retail sector — combines price and volume effects.\nA wrong answer that swaps examples (e.g., using CPI for quantity) shows the student memorizes definitions but not the underlying variable being tracked.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Since the Wholesale Price Index (WPI) increased from 120 to 150, the purchasing power of money decreased by 30%.\" Is this correct? Justify.",
+     "a": "The statement is **incorrect**. WPI increased by 25% ((150-120)/120 × 100), not 30%. Purchasing power is inversely related to price index: if prices rise by 25%, purchasing power falls to 1/1.25 = 80% of original — a 20% decrease, not 30%. A student who agrees with the 30% figure either miscalculates the percentage change or confuses index points (30 points) with percentage change. This is a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario (Indian context) where a **Value Index** would be misleading if used to track \"standard of living,\" and explain why a **Price Index** (like CPI) is better suited.",
+     "a": "Scenario: A Value Index of household expenditure rises from 100 to 180 over 5 years. This could be because people are buying *more* goods (higher quantity), not because prices rose. So it overstates cost-of-living pressure. CPI (Price Index) fixes the basket of goods (constant quantities) and tracks only price changes — isolating inflation. A good answer must mention: (1) value index = price × quantity, (2) standard of living depends on real purchasing power (price-adjusted), (3) CPI uses fixed weights (Laspeyres-type). A poor answer ignores the quantity confound.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

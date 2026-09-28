@@ -34,6 +34,26 @@
      "q": "Design a rule or formula to find out if any regular $n$-sided polygon can form a monohedral (single-shape) tiling by itself. What condition must $n$ satisfy?",
      "a": "The expected answer is that the interior angle of a regular $n$-polygon, given by $\\frac{(n-2) \\times 180^\\circ}{n}$, must be an exact divisor of $360^\\circ$. Solving $\\frac{360^\\circ}{\\frac{(n-2) \\times 180^\\circ}{n}} = \\text{integer}$ simplifies to $\\frac{2n}{n-2}$ being an integer, which yields integer solutions only for $n = 3, 4,$ and $6$. A poor answer merely lists numbers without providing the mathematical proof or algebraic condition based on vertex angles.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Tiling (or ______) is the process of covering a flat plane completely with geometric shapes (tiles) without any gaps or overlapping regions.",
+     "a": "tessellation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You notice that when you place square tiles side by side, they fit together ______ with no empty floor showing and no tiles riding over each other.",
+     "a": "perfectly",
+     "self_check": true
+    },
+    {
+     "q": "What is Tiling (or tessellation)? State the definition given in this lesson.",
+     "a": "Tiling (or tessellation) is the process of covering a flat plane completely with geometric shapes (tiles) without any gaps or overlapping regions.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Tiling (or tessellation)?",
+     "a": "Students often believe that any shape with straight sides or equal side lengths can tile a plane, confusing perimeter properties with angle compatibility.",
+     "self_check": true
     }
    ]
   }

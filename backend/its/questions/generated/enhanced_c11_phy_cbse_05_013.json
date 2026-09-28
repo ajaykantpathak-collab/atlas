@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a ramp, two marbles of different masses, and a measuring tape to determine the coefficient of restitution for marble-marble collisions. Describe procedure, measurements, and calculation.",
      "a": "Procedure: (1) Place target marble at rest on horizontal track. (2) Roll incident marble from known height h on ramp; measure its speed v₁i at bottom using v = √(2gh) or photogate. (3) After collision, measure distances traveled by both marbles in time t (using video or stopwatch) to get v₁f, v₂f. (4) Compute e = (v₂f - v₁f)/(v₁i - 0). Repeat for different masses. A poor answer measures only final speeds without initial speed, or assumes e = height ratio (which works only for ball-floor collisions, not ball-ball) — revealing confusion between different collision geometries.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ is an isolated event where two or more bodies exert strong impulsive forces on each other for a very short time interval Δt, resulting in a change in their momenta.",
+     "a": "collision",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a game of carrom: when the striker hits a coin, both move off with different speeds — this is a ______.",
+     "a": "collision",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Derive the ______D elastic collision formulas (Eq.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Identify collision type from given data (velocities, masses, energy loss) and compute the coefficient of restitution; (2) Apply momentum conservation and energy considerations to solve for unknown final velocities in 1D elastic/inelastic collisions; (3) Determine whether a given collision is elastic, inelastic, or.",
+     "self_check": true
     }
    ]
   }

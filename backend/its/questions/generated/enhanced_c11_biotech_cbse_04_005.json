@@ -34,6 +34,26 @@
      "q": "Design a controlled experiment to determine the optimum pH of a newly isolated protease from a fungus growing in acidic mine drainage (pH ~3). Specify the independent variable, dependent variable, three controlled variables, and how you would ensure the enzyme's stability during the assay.",
      "a": "Independent variable: pH (range 2–8, using appropriate buffers like citrate-phosphate, Tris-HCl). Dependent variable: initial reaction velocity (e.g., μmol product/min/mg protein) measured by absorbance change of a chromogenic substrate. Controlled variables: temperature (e.g., 30°C), substrate concentration (saturating, >> Km), enzyme concentration, ionic strength, assay duration. Pre-incubate enzyme in each buffer for 5 min at assay temperature before adding substrate to allow equilibration; include a control without enzyme to correct for non-enzymatic hydrolysis. A poor answer that uses a single buffer for all pH values or forgets to control temperature reveals a lack of experimental design rigor.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The effect of temperature on enzyme activity follows a bell-shaped curve where reaction rate increases with temperature up to an optimum temperature (typically 37°C for human enzymes, up to 100°C for ______ enzymes) due to increased molecular collisions, then sharply declines due to irreversible denaturation of the protein's tertiary structure.",
+     "a": "thermophilic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ in a dairy plant in Gujarat trying to maximize the yield of lactose-free milk using the enzyme lactase.",
+     "a": "biotechnologist",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by recalling that enzymes are proteins with a specific ______D shape held by weak bonds.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can interpret a bell-shaped temperature/pH activity curve to identify optimum conditions, explain the molecular basis for the ascending and descending limbs using concepts of kinetic energy and protein denaturation/ionization, and predict how a change in environmental conditions (e.g., fever, antacid use) alters the rate of a.",
+     "self_check": true
     }
    ]
   }

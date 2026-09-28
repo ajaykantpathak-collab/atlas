@@ -34,6 +34,26 @@
      "q": "A bacteria culture starts with 100 cells and doubles every hour. A second culture starts with 400 cells and triples every hour. After how many hours will both cultures have the same number of cells? Set up the equation and solve.",
      "a": "Culture 1: GP with a1 = 100, r1 = 2. Population after n hours = 100 x 2^n. Culture 2: GP with a2 = 400, r2 = 3. Population after n hours = 400 x 3^n. Set equal: 100 x 2^n = 400 x 3^n. Divide both sides by 100: 2^n = 4 x 3^n. Divide by 3^n: (2/3)^n = 4. Take logarithms: n x ln(2/3) = ln(4). n = ln(4)/ln(2/3) = 1.386/(-0.405) = -3.42. The negative result means the cultures never have the same population for positive n — culture 2 starts larger and grows faster. A wrong answer that sets 100n = 400n (treating both as AP) reveals the student did not identify the GP pattern.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Word problems involving arithmetic progressions (AP) and geometric progressions (GP) require ______ real-world scenarios into sequences where consecutive terms differ by a constant (AP) or are multiplied by a constant ratio (GP), then applying the nth term and sum formulas to solve for unknowns.",
+     "a": "translating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a ______ problem: \"A worker saves Rs 1000 in the first month, Rs 1100 in the second, Rs 1200 in the third, and so on.",
+     "a": "savings",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How much will they save in ______ years?\" Ask: is the increase constant (AP) or multiplicative (GP)?",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify whether a real-world scenario models an AP or GP, translate the scenario into the correct sequence with appropriate first term and common difference/ratio, select the appropriate formula (nth term or sum), and solve for the required unknown with correct units.",
+     "self_check": true
     }
    ]
   }

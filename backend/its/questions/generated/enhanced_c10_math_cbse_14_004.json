@@ -34,6 +34,26 @@
      "q": "Construct a random experiment with exactly 6 elementary events that are NOT equally likely. Assign probabilities to each elementary event such that they sum to 1. Then define a compound event consisting of 3 elementary events and compute its probability.",
      "a": "Example: A biased die where faces 1-5 have probability 0.1 each and face 6 has probability 0.5. Elementary events: e1=0.1, e2=0.1, e3=0.1, e4=0.1, e5=0.1, e6=0.5. Sum = 1. Compound event E = \"getting an even number\" = {e2, e4, e6}. P(E) = 0.1+0.1+0.5 = 0.7. A good answer shows understanding that elementary events need not be equally likely, but their probabilities must sum to 1. A poor answer (e.g., assigning equal probabilities or probabilities not summing to 1) reveals the student thinks \"elementary events\" implies equally likely, confusing the definition with the classical probability assumption.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An ______ event is an event that consists of exactly one outcome of a random experiment.",
+     "a": "elementary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are playing a board game with a fair spinner divided into 8 equal sectors ______ 1 to 8.",
+     "a": "numbered",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When all outcomes of an experiment are equally likely, the probability of each elementary event is ______/n, where n is the total number of elementary events in the sample space.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify elementary events in a given experiment, compute their individual probabilities when outcomes are equally likely, verify that the sum of probabilities of all elementary events equals 1, and use this property to find missing probabilities in a probability distribution.",
+     "self_check": true
     }
    ]
   }

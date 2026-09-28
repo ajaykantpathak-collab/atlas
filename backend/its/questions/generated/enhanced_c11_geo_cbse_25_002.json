@@ -34,6 +34,31 @@
      "q": "Design a simple field exercise for Class 11 students to demonstrate the difference in scale variation between a vertical and a low oblique photograph using a smartphone camera, a flat playground, and a model hill (e.g., a sand mound). List the steps, measurements to record, and the expected observation.",
      "a": "Steps: 1) Place a 1 m scale bar on flat ground. 2) Take a vertical photo (camera pointing straight down) from 10 m height (e.g., from a ladder). 3) Take a low oblique photo from same height but tilted ~30°. 4) Print both photos at same size. 5) Measure the image length of the 1 m scale bar at near, middle, and far positions on each photo. 6) Compute photo scale at each position. Expected: Vertical photo shows nearly constant scale across the flat area; oblique photo shows progressively smaller scale (larger denominator) from foreground to background. A poor answer that omits measurement at multiple positions or ignores the tilted geometry fails to demonstrate the core concept.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Vertical aerial photographs are taken with the camera axis perfectly ______ to the ground (nadir view), producing a near-orthographic projection with uniform scale over flat terrain.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are looking at two aerial images of your city: one shows ______ straight down with roofs appearing flat and streets forming a neat grid (vertical), while the other shows building facades, street-level details, and the horizon in the distance (oblique).",
+     "a": "buildings",
+     "self_check": true
+    },
+    {
+     "q": "What is Vertical aerial photographs? State the definition given in this lesson.",
+     "a": "Vertical aerial photographs are taken with the camera axis perfectly perpendicular to the ground (nadir view), producing a near-orthographic projection with uniform scale over flat terrain.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Vertical aerial photographs?",
+     "a": "Students often believe that \"oblique photographs are just tilted vertical photographs\" and that scale correction is a simple rotation.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish vertical from oblique photographs by examining horizon visibility and scale characteristics, explain the geometric implications of camera tilt on scale variation and relief displacement, and justify the selection of photograph type for specific mapping or interpretation tasks (e.g., topographic mapping vs..",
+     "self_check": true
     }
    ]
   }

@@ -36,7 +36,16 @@
      "explain": "the effective value is the amplitude over sqrt(2)",
      "compute": "rms_value = peak_value / root_two"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rms_value = peak_value / sqrt(2)",
+     "compute": "rms_value = peak_value / sqrt(2)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph107.7.2.2",
@@ -74,7 +83,16 @@
      "explain": "the rms current is the rating over the line voltage",
      "compute": "i_rms = power_rated / rms_voltage"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "device_resist = rms_voltage ** 2 / power_rated",
+     "compute": "device_resist = rms_voltage ** 2 / power_rated"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph107.7.3.1",
@@ -92,7 +110,7 @@
     "are phasor quantities true vectors",
     "sketch the phasors for a resistor circuit and read off the phase difference"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -109,7 +127,16 @@
      "action": "compare angles for phase",
      "explain": "the angle between phasors is the lead or lag of one oscillation relative to the other"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "instant = amplitude * sin(omega * time)",
+     "compute": "instant = amplitude * sin(omega * time)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph107.7.4.1",
@@ -147,7 +174,16 @@
      "explain": "the rms current is voltage over reactance, lagging by pi over 2",
      "compute": "i_rms = volt_rms / react_l"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "react_l = omega * inductance",
+     "compute": "react_l = omega * inductance"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph107.7.5.1",
@@ -185,7 +221,16 @@
      "explain": "the rms current is voltage over reactance, leading by pi over 2",
      "compute": "i_rms = volt_rms / react_c"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "react_c = 1 / (omega * capacitance)",
+     "compute": "react_c = 1 / (omega * capacitance)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph107.7.6.1",
@@ -241,7 +286,16 @@
      "explain": "the rms current is the supply voltage over Z",
      "compute": "i_rms = volt_rms / impedance"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "impedance = sqrt(resist ** 2 + react_gap ** 2)",
+     "compute": "impedance = sqrt(resist ** 2 + react_gap ** 2)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph107.7.6.2",
@@ -314,7 +368,16 @@
      "explain": "the ordinary frequency is omega nought over 2 pi",
      "compute": "res_freq = omega_zero / (2 * pi)"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "omega_zero = 1 / sqrt(inductance * capacitance)",
+     "compute": "omega_zero = 1 / sqrt(inductance * capacitance)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph107.7.7.1",
@@ -346,7 +409,16 @@
      "explain": "multiplying by cos phi leaves the real, dissipated power",
      "compute": "avg_power = apparent_power * power_factor"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "avg_power = volt_rms * current_rms * power_factor",
+     "compute": "avg_power = volt_rms * current_rms * power_factor"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph107.7.8.1",
@@ -384,7 +456,16 @@
      "explain": "the ideal power balance divides the current by the same ratio",
      "compute": "current_secondary = current_primary / turns_ratio"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "volt_secondary = volt_primary * turns_ratio",
+     "compute": "volt_secondary = volt_primary * turns_ratio"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph107.7.8.2",
@@ -402,7 +483,7 @@
     "what is hysteresis loss and which material choice limits it",
     "explain why stepping up voltage does not create free energy"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -419,7 +500,16 @@
      "action": "cool the core",
      "explain": "laminations cut eddy-current heating and low-hysteresis steel cuts reversal loss"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "efficiency = power_out / power_in",
+     "compute": "efficiency = power_out / power_in"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -429,12 +519,35 @@
    "concept": "leph107.7.2.2",
    "question_type": "bulb_rating_analysis",
    "question_pattern": "A bulb is rated {power_rated} W for a {rms_voltage} V supply. Find its resistance, the peak supply voltage, and its rms current.",
-   "extracted_variables": {"power_rated": 100.0, "rms_voltage": 220.0},
+   "extracted_variables": {
+    "power_rated": 100.0,
+    "rms_voltage": 220.0
+   },
    "solution_template": [
-    {"step": 1, "action": "resistance from the rating", "explain": "R = V squared over P", "compute": "volt_sq = rms_voltage ** 2"},
-    {"step": 2, "action": "finish the resistance", "explain": "divide by the rating", "compute": "device_resist = volt_sq / power_rated"},
-    {"step": 3, "action": "peak of the mains", "explain": "multiply the rms line value by sqrt(2)", "compute": "peak_voltage = rms_voltage * sqrt(2)"},
-    {"step": 4, "action": "operating current", "explain": "rating over line voltage", "compute": "i_rms = power_rated / rms_voltage"}
+    {
+     "step": 1,
+     "action": "resistance from the rating",
+     "explain": "R = V squared over P",
+     "compute": "volt_sq = rms_voltage ** 2"
+    },
+    {
+     "step": 2,
+     "action": "finish the resistance",
+     "explain": "divide by the rating",
+     "compute": "device_resist = volt_sq / power_rated"
+    },
+    {
+     "step": 3,
+     "action": "peak of the mains",
+     "explain": "multiply the rms line value by sqrt(2)",
+     "compute": "peak_voltage = rms_voltage * sqrt(2)"
+    },
+    {
+     "step": 4,
+     "action": "operating current",
+     "explain": "rating over line voltage",
+     "compute": "i_rms = power_rated / rms_voltage"
+    }
    ]
   },
   {
@@ -443,11 +556,30 @@
    "concept": "leph107.7.4.1",
    "question_type": "inductor_current",
    "question_pattern": "A pure inductor of {inductance} H connects to a {volt_rms} V, {freq} Hz source. Find the inductive reactance and the rms current.",
-   "extracted_variables": {"inductance": 0.025, "volt_rms": 220.0, "freq": 50.0},
+   "extracted_variables": {
+    "inductance": 0.025,
+    "volt_rms": 220.0,
+    "freq": 50.0
+   },
    "solution_template": [
-    {"step": 1, "action": "angular frequency", "explain": "omega = 2 pi nu", "compute": "omega = 2 * pi * freq"},
-    {"step": 2, "action": "reactance", "explain": "XL = omega L", "compute": "react_l = omega * inductance"},
-    {"step": 3, "action": "rms current", "explain": "voltage over reactance", "compute": "i_rms = volt_rms / react_l"}
+    {
+     "step": 1,
+     "action": "angular frequency",
+     "explain": "omega = 2 pi nu",
+     "compute": "omega = 2 * pi * freq"
+    },
+    {
+     "step": 2,
+     "action": "reactance",
+     "explain": "XL = omega L",
+     "compute": "react_l = omega * inductance"
+    },
+    {
+     "step": 3,
+     "action": "rms current",
+     "explain": "voltage over reactance",
+     "compute": "i_rms = volt_rms / react_l"
+    }
    ]
   },
   {
@@ -456,12 +588,36 @@
    "concept": "leph107.7.5.1",
    "question_type": "capacitor_current",
    "question_pattern": "A {capacitance} F capacitor joins a {volt_rms} V, {freq} Hz source. Find the capacitive reactance plus the rms and peak currents.",
-   "extracted_variables": {"capacitance": 1.5e-05, "volt_rms": 220.0, "freq": 50.0},
+   "extracted_variables": {
+    "capacitance": 1.5e-05,
+    "volt_rms": 220.0,
+    "freq": 50.0
+   },
    "solution_template": [
-    {"step": 1, "action": "angular frequency", "explain": "omega = 2 pi nu", "compute": "omega = 2 * pi * freq"},
-    {"step": 2, "action": "reactance", "explain": "XC = 1 over omega C", "compute": "react_c = 1 / (omega * capacitance)"},
-    {"step": 3, "action": "rms current", "explain": "voltage over reactance", "compute": "i_rms = volt_rms / react_c"},
-    {"step": 4, "action": "peak current", "explain": "multiply the rms by sqrt(2)", "compute": "peak_current = i_rms * sqrt(2)"}
+    {
+     "step": 1,
+     "action": "angular frequency",
+     "explain": "omega = 2 pi nu",
+     "compute": "omega = 2 * pi * freq"
+    },
+    {
+     "step": 2,
+     "action": "reactance",
+     "explain": "XC = 1 over omega C",
+     "compute": "react_c = 1 / (omega * capacitance)"
+    },
+    {
+     "step": 3,
+     "action": "rms current",
+     "explain": "voltage over reactance",
+     "compute": "i_rms = volt_rms / react_c"
+    },
+    {
+     "step": 4,
+     "action": "peak current",
+     "explain": "multiply the rms by sqrt(2)",
+     "compute": "peak_current = i_rms * sqrt(2)"
+    }
    ]
   },
   {
@@ -470,15 +626,56 @@
    "concept": "leph107.7.6.1",
    "question_type": "lcr_impedance_power",
    "question_pattern": "A series LCR loop has R = {resist} ohm, L = {inductance} H, C = {capacitance} F on a {volt_rms} V, {freq} Hz supply. Find Z, the current, and the power dissipated.",
-   "extracted_variables": {"resist": 3.0, "inductance": 0.02548, "capacitance": 7.96e-04, "volt_rms": 200.0, "freq": 50.0},
+   "extracted_variables": {
+    "resist": 3.0,
+    "inductance": 0.02548,
+    "capacitance": 0.000796,
+    "volt_rms": 200.0,
+    "freq": 50.0
+   },
    "solution_template": [
-    {"step": 1, "action": "angular frequency", "explain": "omega = 2 pi nu", "compute": "omega = 2 * pi * freq"},
-    {"step": 2, "action": "coil reactance", "explain": "XL = omega L", "compute": "react_l = omega * inductance"},
-    {"step": 3, "action": "capacitor reactance", "explain": "XC = 1 over omega C", "compute": "react_c = 1 / (omega * capacitance)"},
-    {"step": 4, "action": "reactance gap", "explain": "XC minus XL", "compute": "react_gap = react_c - react_l"},
-    {"step": 5, "action": "impedance", "explain": "hypotenuse of R and the gap", "compute": "impedance = sqrt(resist ** 2 + react_gap ** 2)"},
-    {"step": 6, "action": "current", "explain": "voltage over impedance", "compute": "i_rms = volt_rms / impedance"},
-    {"step": 7, "action": "dissipated power", "explain": "only R heats, P = I squared R", "compute": "avg_power = i_rms ** 2 * resist"}
+    {
+     "step": 1,
+     "action": "angular frequency",
+     "explain": "omega = 2 pi nu",
+     "compute": "omega = 2 * pi * freq"
+    },
+    {
+     "step": 2,
+     "action": "coil reactance",
+     "explain": "XL = omega L",
+     "compute": "react_l = omega * inductance"
+    },
+    {
+     "step": 3,
+     "action": "capacitor reactance",
+     "explain": "XC = 1 over omega C",
+     "compute": "react_c = 1 / (omega * capacitance)"
+    },
+    {
+     "step": 4,
+     "action": "reactance gap",
+     "explain": "XC minus XL",
+     "compute": "react_gap = react_c - react_l"
+    },
+    {
+     "step": 5,
+     "action": "impedance",
+     "explain": "hypotenuse of R and the gap",
+     "compute": "impedance = sqrt(resist ** 2 + react_gap ** 2)"
+    },
+    {
+     "step": 6,
+     "action": "current",
+     "explain": "voltage over impedance",
+     "compute": "i_rms = volt_rms / impedance"
+    },
+    {
+     "step": 7,
+     "action": "dissipated power",
+     "explain": "only R heats, P = I squared R",
+     "compute": "avg_power = i_rms ** 2 * resist"
+    }
    ]
   },
   {
@@ -487,11 +684,29 @@
    "concept": "leph107.7.6.3",
    "question_type": "resonance_frequency",
    "question_pattern": "A loop holds {inductance} H and {capacitance} F. At what angular frequency and hertz does it resonate?",
-   "extracted_variables": {"inductance": 0.02548, "capacitance": 7.96e-04},
+   "extracted_variables": {
+    "inductance": 0.02548,
+    "capacitance": 0.000796
+   },
    "solution_template": [
-    {"step": 1, "action": "LC product", "explain": "the resonance depends on LC only", "compute": "lc_product = inductance * capacitance"},
-    {"step": 2, "action": "angular resonance", "explain": "omega nought = 1 over root of the product", "compute": "omega_zero = 1 / sqrt(lc_product)"},
-    {"step": 3, "action": "ordinary frequency", "explain": "divide by 2 pi", "compute": "res_freq = omega_zero / (2 * pi)"}
+    {
+     "step": 1,
+     "action": "LC product",
+     "explain": "the resonance depends on LC only",
+     "compute": "lc_product = inductance * capacitance"
+    },
+    {
+     "step": 2,
+     "action": "angular resonance",
+     "explain": "omega nought = 1 over root of the product",
+     "compute": "omega_zero = 1 / sqrt(lc_product)"
+    },
+    {
+     "step": 3,
+     "action": "ordinary frequency",
+     "explain": "divide by 2 pi",
+     "compute": "res_freq = omega_zero / (2 * pi)"
+    }
    ]
   },
   {
@@ -500,11 +715,31 @@
    "concept": "leph107.7.8.1",
    "question_type": "transformer_output",
    "question_pattern": "A transformer with {turns_p} primary and {turns_s} secondary turns takes {volt_primary} V at {current_primary} A. Find the output voltage and current.",
-   "extracted_variables": {"turns_p": 100.0, "turns_s": 200.0, "volt_primary": 220.0, "current_primary": 10.0},
+   "extracted_variables": {
+    "turns_p": 100.0,
+    "turns_s": 200.0,
+    "volt_primary": 220.0,
+    "current_primary": 10.0
+   },
    "solution_template": [
-    {"step": 1, "action": "turns ratio", "explain": "secondary over primary turns", "compute": "turns_ratio = turns_s / turns_p"},
-    {"step": 2, "action": "output voltage", "explain": "voltage scales with the ratio", "compute": "volt_secondary = volt_primary * turns_ratio"},
-    {"step": 3, "action": "output current", "explain": "current divides by the ratio", "compute": "current_secondary = current_primary / turns_ratio"}
+    {
+     "step": 1,
+     "action": "turns ratio",
+     "explain": "secondary over primary turns",
+     "compute": "turns_ratio = turns_s / turns_p"
+    },
+    {
+     "step": 2,
+     "action": "output voltage",
+     "explain": "voltage scales with the ratio",
+     "compute": "volt_secondary = volt_primary * turns_ratio"
+    },
+    {
+     "step": 3,
+     "action": "output current",
+     "explain": "current divides by the ratio",
+     "compute": "current_secondary = current_primary / turns_ratio"
+    }
    ]
   }
  ],

@@ -20,7 +20,7 @@
     "what is a literal inequality",
     "Explain the method of Definition of Inequalities."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,16 @@
      "action": "verify the inequality statement",
      "explain": "Confirm that the two sides of the inequality are correctly ordered and that the comparison symbol matches the stated condition."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (62 - 6) / 8 gives 7",
+     "compute": "x = (62 - 6) / 8"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh105.5.3.1",
@@ -54,7 +63,7 @@
     "why does the sign reverse in inequalities",
     "Explain the method of Rules for Solving Inequalities."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -71,7 +80,16 @@
      "action": "verify the solution set",
      "explain": "Check the resulting inequality by substituting a test value to confirm the direction of the inequality sign is correct."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (40 - 10) / 6 gives 5",
+     "compute": "x = (40 - 10) / 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh105.5.3.2",

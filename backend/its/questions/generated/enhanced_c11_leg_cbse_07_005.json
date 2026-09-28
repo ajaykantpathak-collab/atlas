@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_07_005",
+   "title": "c11_leg_cbse_07_005",
+   "questions": [
+    {
+     "q": "Define 'Substantive Law' and 'Procedural Law' and give one example of each from Indian legislation.",
+     "a": "Substantive Law defines rights, duties, and liabilities (e.g., Indian Penal Code, 1860 defines offences and punishments). Procedural Law prescribes the process to enforce those rights (e.g., Code of Criminal Procedure, 1973 governs investigation and trial). A wrong answer (e.g., swapping examples) reveals the student confuses the *what* (rights) with the *how* (process), a critical error in identifying the applicable statute.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why 'Criminal Law' is classified under 'Public Municipal Law' and not 'Private Municipal Law', even though a specific individual is the victim.",
+     "a": "Criminal Law is Public Law because the offence is considered against society/State at large, not just the individual victim; hence the State prosecutes (State vs Accused), and punishment (imprisonment/fine) serves deterrence. Private Law deals with disputes between individuals where the remedy is compensation. Misclassifying it as Private Law shows failure to grasp the *legal personality* of the State as prosecutor and the *public interest* rationale.",
+     "self_check": true
+    },
+    {
+     "q": "A dispute arises between India and Pakistan over the interpretation of a bilateral treaty on water sharing. Classify the branch of law, its sub-type, and the principle of enforcement.",
+     "a": "Branch: International Law. Sub-type: Public International Law (governs State-to-State relations). Enforcement: Reciprocity and mutual consent; no central sovereign enforcer. A wrong classification (e.g., Private International Law or Municipal Law) reveals confusion between inter-State disputes (Public International) and cross-border private disputes (Private International).",
+     "self_check": true
+    },
+    {
+     "q": "Compare 'Public International Law' and 'Private International Law' on three dimensions: parties involved, source of obligation, and enforcement mechanism.",
+     "a": "Public International Law: Parties = States/International Organisations; Source = Treaties, Custom, General Principles; Enforcement = Reciprocity, ICJ, UNSC. Private International Law: Parties = Private individuals/corporations with a foreign element; Source = Domestic conflict-of-laws rules; Enforcement = Domestic courts applying choice-of-law rules. Mixing these up indicates inability to distinguish *vertical* (State-State) from *horizontal* (private cross-border) legal relations.",
+     "self_check": true
+    },
+    {
+     "q": "\"Administrative Law is a branch of Public Municipal Law.\" Evaluate this statement with reference to the distinction between Constitutional Law and Administrative Law.",
+     "a": "Correct. Constitutional Law defines the *structure and powers* of State organs (e.g., Parliament, Executive, Judiciary) and fundamental rights. Administrative Law controls the *exercise of power* by the executive/administrative authorities (delegated legislation, tribunals, judicial review of administrative action). They overlap (both Public Law) but differ in focus: Constitutional = *architecture of power*; Administrative = *operation of power*. A weak answer treats them as synonyms, missing the delegation/control nuance.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel legal scenario involving a 'foreign element' that falls squarely under Private International Law, and explain why it is NOT Public International Law, Constitutional Law, or Law of Torts.",
+     "a": "Scenario: An Indian citizen (A) marries a German citizen (B) in Delhi. They live in Berlin. A files for divorce in a German court. The German court must decide: (1) Does it have jurisdiction? (2) Which law applies (Indian or German) for divorce grounds/maintenance? This is Private International Law (Conflict of Laws) — private parties, foreign element, domestic court applying choice-of-law rules. Not Public International (no State party), not Constitutional (no State organ power issue), not Torts (no civil wrong/damage claim). A poor answer fails to isolate the *choice-of-law* character.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

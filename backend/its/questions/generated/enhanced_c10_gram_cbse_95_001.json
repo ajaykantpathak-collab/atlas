@@ -1,0 +1,56 @@
+{
+ "catalog": "enhanced_c10_gram_cbse_95_001",
+ "concepts": [
+  {
+   "id": "enh:c10_gram_cbse_95_001",
+   "title": "c10_gram_cbse_95_001",
+   "questions": [
+    {
+     "q": "Passive: 'The teacher praised the boy.'",
+     "a": "'The boy was praised (by the teacher).' boy→subject, praised→was praised (be carries past). A wrong answer 'the boy is praised' reveals the student changed the verb form but let the tense drift — the be-auxiliary must carry the original tense.",
+     "self_check": true
+    },
+    {
+     "q": "Passive: 'Someone has stolen my watch.'",
+     "a": "'My watch has been stolen.' Note the agent 'someone' is vague → deleted, not 'by someone'. A wrong answer 'my watch has stolen' shows the student forgot the be+V3 compound — participle alone can't carry voice.",
+     "self_check": true
+    },
+    {
+     "q": "Should this go passive? 'My grandmother knitted this sweater for me.' Defend.",
+     "a": "Debatable, but staying active is defensible — the doer (grandmother) carries the emotional point. 'This sweater was knitted for me by my grandmother' buries the person who matters. A wrong answer mechanically passivizing reveals the student treats voice as a trick, not a meaning choice — the examiners' exact complaint.",
+     "self_check": true
+    },
+    {
+     "q": "Passive voice moves the object to subject ______ and demotes or deletes the doer: object→subject, verb→be+V3, subject→(by + agent, often dropped).",
+     "a": "position",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Passive voice moves the object to subject ______ and demotes or deletes the doer: object→subject, verb→be+V3, subject→(by + agent, often dropped).",
+     "a": "position",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Show the surgery on one sentence: 'The cat chased the mouse.' Object 'the mouse' walks to the front; 'chased' becomes 'was chased' (be + V3, be ______ the tense); 'the cat' demotes to 'by the cat' or vanishes.",
+     "a": "carries",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Passive voice moves the object to subject position and demotes or deletes the doer: object→subject, verb→be+V______, subject→(by + agent, often dropped).",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student converts all tenses active↔passive, preserves tense through the be-auxiliary, handles the double-object verbs (give/tell/teach) both ways, and knows when the agent must stay ('The storm destroyed…' vs anomalous cases).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Show the surgery on one ______: 'The cat chased the mouse.' Object 'the mouse' walks to the front; 'chased' becomes 'was chased' (be + V3, be carries the tense); 'the cat' demotes to 'by the cat' or vanishes.",
+     "a": "sentence",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

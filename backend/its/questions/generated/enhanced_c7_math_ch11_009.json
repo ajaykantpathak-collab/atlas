@@ -34,6 +34,21 @@
      "q": "Create a puzzle where a merchant in a Kolkata market knows the product of two quantities of rice bags is 2400 and their HCF is 20, but needs to find the LCM to pack them. State the problem and provide the solution using the HCF-LCM property.",
      "a": "Problem: A merchant has two types of rice bag batches whose product of quantities is 2400. If their HCF is 20, find their LCM to determine the grouping size. \nSolution: Using $HCF \\times LCM = Product$, we get $20 \\times LCM = 2400$. Dividing both sides by 20 gives $LCM = 2400 \\div 20 = 120$. \nA poor answer would lack the clear setup of the formula or make arithmetic errors in division, revealing a weak grasp of translating word statements into algebraic equations.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This ______ property allows us to find the LCM or HCF of two numbers quickly if their product and one of the values are known.",
+     "a": "fundamental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping at a ______ stationery shop in Delhi, and you notice a curious pattern when packing notebooks and pens in bundles.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping at a school ______ shop in Delhi, and you notice a curious pattern when packing notebooks and pens in bundles.",
+     "a": "stationery",
+     "self_check": true
     }
    ]
   }

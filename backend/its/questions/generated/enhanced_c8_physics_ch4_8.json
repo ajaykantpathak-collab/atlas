@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using household items to demonstrate how surface roughness affects wind speed near the ground. List materials, procedure, and what you would measure.",
      "a": "Materials: Table fan (constant speed), long smooth floor (tiles), same floor covered with rugs/towels, lightweight ribbon or tissue paper strips, tape measure, stopwatch. Procedure: 1) Place fan at one end blowing along floor. 2) On smooth floor, hold ribbon at 1 m, 2 m, 3 m from fan; measure how far it deflects horizontally (or time to travel fixed distance). 3) Repeat with rough rug surface. Measure: deflection angle or travel time at each distance. Expected: Ribbon deflects less (slower wind) over rough surface at same distance. A poor answer (e.g., no control of fan speed, measuring only one surface) shows inability to isolate the variable (roughness) and design a fair test.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Wind direction is the compass direction from which the wind ______ (e.g., a northerly wind blows from north to south), measured in degrees clockwise from true north.",
+     "a": "originates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a wind vane on your school roof spinning wildly during a ______ while a flag on the ground barely flutters.",
+     "a": "thunderstorm",
+     "self_check": true
+    },
+    {
+     "q": "What is Wind direction? State the definition given in this lesson.",
+     "a": "Wind direction is the compass direction from which the wind originates (e.g., a northerly wind blows from north to south), measured in degrees clockwise from true north.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Wind direction?",
+     "a": "Students think the Coriolis effect \"pushes\" wind sideways like a real force, and that it acts equally at all latitudes.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how pressure difference, Earth's rotation, and surface friction together determine the observed wind direction and speed at a given location, and can interpret a simple weather map showing isobars to predict wind pattern.",
+     "self_check": true
     }
    ]
   }

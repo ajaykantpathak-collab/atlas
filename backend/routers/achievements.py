@@ -7,6 +7,8 @@ and retrieving achievement statistics.
 from typing import Optional
 
 from fastapi import APIRouter, Depends, HTTPException, Query, status
+from pydantic import BaseModel, ConfigDict
+from pydantic.alias_generators import to_camel
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from backend.database import get_db
@@ -27,18 +29,27 @@ from pydantic import BaseModel
 class AchievementStatsResponse(BaseModel):
     """Aggregated achievement statistics for a user."""
 
+    model_config = ConfigDict(populate_by_name=True, alias_generator=to_camel)
+
     total_achievements: int = 0
     unlocked_count: int = 0
     locked_count: int = 0
     total_xp_earned: int = 0
     completion_percentage: float = 0.0
     recent_unlocks: list = []
+    tier_breakdown: dict = {}
 
 
 # --------------------------------------------------------------------------- #
 # Endpoints
 # --------------------------------------------------------------------------- #
+# Both "" and "/" are registered: Next's dev rewrite normalizes the trailing
+# slash before proxying, so browser calls arrive as /api/achievements (no
+# slash). Without the "" route FastAPI's redirect_slashes answers with an
+# absolute Location (http://localhost:8001/...) and the browser's cross-origin
+# follow-up fails CORS preflight — the badge wall silently emptied on :3000.
 @router.get("/", response_model=AchievementListResponse)
+@router.get("", response_model=AchievementListResponse)
 async def get_achievements(
     filter: Optional[str] = Query(
         default=None,

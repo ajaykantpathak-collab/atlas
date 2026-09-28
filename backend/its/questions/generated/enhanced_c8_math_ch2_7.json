@@ -34,6 +34,21 @@
      "q": "Create a real-life problem (using rupees, metres, or kg) that requires using \\(a^m \\times a^n = a^{m+n}\\) to solve. Write the problem and solve it.",
      "a": "Example: \"A bacteria culture doubles every hour. After 3 hours there are \\(2^3\\) bacteria. After 4 more hours it doubles 4 more times. How many bacteria total?\" Solution: \\(2^3 \\times 2^4 = 2^7 = 128\\). A poor answer uses different bases or doesn't require exponent addition, showing inability to model exponential growth with same base.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When ______ two powers with the same base, we keep the base unchanged and add the exponents.",
+     "a": "multiplying",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are folding a paper: each fold ______ the layers.",
+     "a": "doubles",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are folding a paper: each fold doubles the layers.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

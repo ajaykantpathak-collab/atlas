@@ -5,6 +5,8 @@
    "id": "gegp.103.1",
    "title": "A Tenth Part",
    "converted_to_compute": false,
+   "formula": "value = units + (tenths / 10)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the number with 1 units, 4 tenths and 5 hundredths as a decimal.",
@@ -42,6 +44,8 @@
    "id": "gegp.103.2",
    "title": "A Hundredth Part",
    "converted_to_compute": false,
+   "formula": "value = units + (tenths / 10) + (hundredths / 100)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the number with 3 units, 2 tenths and 9 hundredths as a decimal.",
@@ -79,6 +83,8 @@
    "id": "gegp.103.3",
    "title": "Decimal Point and Notation",
    "converted_to_compute": false,
+   "formula": "decimal = whole_number + (tenths / 10) + (hundredths / 100) + (thousandths / 1000)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the number with 2 units, 9 tenths and 6 hundredths as a decimal.",
@@ -116,6 +122,8 @@
    "id": "gegp.103.4",
    "title": "Length Conversion: mm to cm",
    "converted_to_compute": false,
+   "formula": "cm = mm / 10",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the number with 7 units, 7 tenths and 2 hundredths as a decimal.",
@@ -153,6 +161,8 @@
    "id": "gegp.103.5",
    "title": "Length Conversion: cm to m",
    "converted_to_compute": false,
+   "formula": "m = cm / 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the number with 2 units, 5 tenths and 3 hundredths as a decimal.",
@@ -190,6 +200,8 @@
    "id": "gegp.103.6",
    "title": "Weight Conversion: g to kg",
    "converted_to_compute": false,
+   "formula": "kg = g / 1000",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the number with 2 units, 1 tenths and 1 hundredths as a decimal.",
@@ -227,6 +239,8 @@
    "id": "gegp.103.7",
    "title": "Currency Conversion: Paise to Rupee",
    "converted_to_compute": false,
+   "formula": "rupees = paise / 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the number with 3 units, 7 tenths and 8 hundredths as a decimal.",
@@ -263,15 +277,9 @@
   {
    "id": "gegp.103.8",
    "title": "Comparing Decimals",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "line up and combine the decimal values",
-     "explain": "line up and combine the decimal values: val = 7 + 8 / 10 + 1 / 100 gives 7.81",
-     "compute": "val = 7 + 8 / 10 + 1 / 100"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "n/a",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the number with 7 units, 8 tenths and 1 hundredths as a decimal.",
@@ -309,6 +317,8 @@
    "id": "gegp.103.9",
    "title": "Addition of Decimals",
    "converted_to_compute": false,
+   "formula": "sum = value1 + value2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the number with 4 units, 7 tenths and 6 hundredths as a decimal.",
@@ -346,6 +356,8 @@
    "id": "gegp.103.10",
    "title": "Subtraction of Decimals",
    "converted_to_compute": false,
+   "formula": "difference = value1 - value2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the number with 8 units, 4 tenths and 4 hundredths as a decimal.",

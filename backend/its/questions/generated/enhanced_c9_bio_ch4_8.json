@@ -34,6 +34,31 @@
      "q": "Design a mini-project for your class: create a 'Scientific Name Directory' for 10 common organisms found in your neighborhood (plants, animals, microbes). For each, provide the binomial name, the meaning of the genus and species epithets (if known), and one reason why the common name is insufficient.",
      "a": "A good answer includes 10 correctly formatted names (e.g., *Azadirachta indica* – neem, *Mus musculus* – house mouse), etymological meanings (e.g., *Azadirachta* = 'free tree', *indica* = 'from India'), and a specific reason like \"Neem is called 'Indian lilac' in English but 'veppam' in Tamil, causing confusion in research papers.\" A poor answer copies names without meanings or gives generic reasons like \"common names vary\" without a concrete example.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Binomial nomenclature is the ______ standardized system of naming each species of organism with a two-part Latinized name: the first part is the genus name (capitalized) and the second part is the specific epithet (lowercase), both written in italics or underlined, such that *Homo sapiens* uniquely identifies modern humans across all languages and regions.",
+     "a": "internationally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a market in Kerala and hear \"Mathi\" for a fish, while in ______ the same fish is called \"Mourala\" and in Maharashtra \"Bangda\" – common names vary wildly even within India.",
+     "a": "Bengal",
+     "self_check": true
+    },
+    {
+     "q": "What is Binomial nomenclature? State the definition given in this lesson.",
+     "a": "Binomial nomenclature is the internationally standardized system of naming each species of organism with a two-part Latinized name: the first part is the genus name (capitalized) and the second part is the specific epithet (lowercase), both written in italics or underlined, such that *Homo sapiens* uniquely identifies modern humans.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly write the scientific name of any organism following all formatting rules (capitalization, italics/underlining, abbreviation of genus after first mention) and can explain why a two-part Latinized name is necessary for global scientific communication.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a market in Kerala and hear \"Mathi\" for a fish, while in Bengal the same fish is called \"Mourala\" and in ______ \"Bangda\" – common names vary wildly even within India.",
+     "a": "Maharashtra",
+     "self_check": true
     }
    ]
   }

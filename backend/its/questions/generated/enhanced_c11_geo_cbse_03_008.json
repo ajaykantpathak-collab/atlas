@@ -34,6 +34,21 @@
      "q": "Design a field investigation to map the geothermal gradient across the Son-Narmada-Tapti lineament zone in central India. Specify: (a) minimum number and depth of boreholes, (b) temperature measurement protocol, (c) how you would correct for groundwater advection, and (d) how results would distinguish between crustal thinning vs. radiogenic heat anomalies.",
      "a": "(a) Minimum 10 boreholes, 500–1000 m deep, spaced 20–30 km along a transect perpendicular to the lineament. (b) Use calibrated thermistors/thermocouples; log temperatures after thermal equilibrium (≥6 months post-drilling); measure at 10 m intervals. (c) Correct for advection by: (i) measuring hydraulic head and permeability, (ii) comparing gradient in cased vs. open holes, (iii) using Bullard plot (temperature vs. thermal resistance) to identify non-linearities. (d) Crustal thinning shows regional, broad gradient increase with high heat flow; radiogenic anomaly shows localized high gradient with normal heat flow (since heat is generated in situ). A poor answer omits equilibrium time, advection correction, or cannot distinguish the two mechanisms.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The geothermal gradient is the rate of increase in temperature with depth in the Earth's interior, typically expressed in °C/km; it represents the conductive heat flow from the core through the mantle and crust, varying from 15–30°C/km in stable continental crust to over 100°C/km in ______ active zones.",
+     "a": "tectonically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine standing at the bottom of the Kolar Gold Fields mine in Karnataka, one of India's deepest mines at over 3 km depth — miners there experience ______ exceeding 50°C, requiring ventilation systems to survive.",
+     "a": "temperatures",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can calculate geothermal gradient from borehole temperature-depth data, interpret gradient variations in terms of tectonic setting and heat flow mechanisms, and explain how gradient data constrains models of Earth's thermal structure and energy resources.",
+     "self_check": true
     }
    ]
   }

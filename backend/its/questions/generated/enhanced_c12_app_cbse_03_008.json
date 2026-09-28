@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_03_008",
+   "title": "c12_app_cbse_03_008",
+   "questions": [
+    {
+     "q": "What is the correct expression for the Marginal Cost function if the Total Cost function is C(x) = 5x² + 20x + 1000?",
+     "a": "**Correct Answer:** MC = C′(x) = 10x + 20.  \n**Why wrong answers reveal misunderstanding:** If a student writes MC = 5x² + 20x + 1000, they confuse Marginal Cost with Total Cost. If they write MC = (5x² + 20x + 1000)/x, they confuse Marginal Cost with Average Cost. If they write MC = 10x, they forgot to differentiate the linear term 20x (derivative is 20, not 0). The fixed cost 1000 correctly vanishes because its derivative is zero — fixed costs don't affect marginal decisions.",
+     "self_check": true
+    },
+    {
+     "q": "A firm's revenue function is R(x) = 200x - 2x². A student claims: \"Since revenue increases with x, the firm should produce as much as possible.\" Is this statement correct? Explain why or why not using the concept of Marginal Revenue.",
+     "a": "**Correct Answer:** The statement is **incorrect**. R(x) = 200x - 2x² is a downward-opening parabola. MR = R′(x) = 200 - 4x. Revenue increases only while MR > 0, i.e., x < 50. For x > 50, MR < 0, meaning selling *more* units actually *reduces* total revenue (because price must drop sharply to sell them). The firm should not produce beyond x = 50 if maximizing revenue, and for profit maximization, it must also consider MC.  \n**Why wrong answers reveal misunderstanding:** If a student agrees, they assume revenue always increases with quantity (true only for constant price, not downward-sloping demand). They miss that R(x) can have a maximum and that MR changes sign. This is a classic board exam trap: confusing \"revenue function\" with \"marginal revenue\" behavior.",
+     "self_check": true
+    },
+    {
+     "q": "The total cost of producing x units is C(x) = x³ - 12x² + 60x + 500. Find the output level at which Marginal Cost is minimum. Show all steps.",
+     "a": "**Correct Answer:** x = 4 units.  \n**Steps:**  \n1. MC = C′(x) = 3x² - 24x + 60.  \n2. To minimize MC, differentiate MC: d(MC)/dx = 6x - 24.  \n3. Set derivative = 0: 6x - 24 = 0 → x = 4.  \n4. Second derivative test: d²(MC)/dx² = 6 > 0 → minimum at x = 4.  \n5. Minimum MC = 3(16) - 24(4) + 60 = 48 - 96 + 60 = 12.  \n**Why wrong answers reveal misunderstanding:** If a student sets C′(x) = 0 (i.e., 3x² - 24x + 60 = 0), they are finding where MC = 0 (not where MC is minimum) — this confuses *minimizing marginal cost* with *finding critical points of total cost*. If they stop at x = 4 without the second derivative test, they haven't verified it's a minimum (board exams require this step).",
+     "self_check": true
+    },
+    {
+     "q": "A company has cost function C(x) = 0.5x² + 10x + 1000 and faces a demand function p = 100 - 0.5x. Compare the profit-maximizing output under two scenarios: (a) the company is a price-taker (can sell any quantity at market price p = 80), (b) the company is a monopolist facing the given demand curve. Explain the economic reason for the difference.",
+     "a": "**Correct Answer:**  \n(a) Price-taker: p = 80 (constant). R(x) = 80x, MR = 80. MC = x + 10. Set MR = MC → 80 = x + 10 → x = 70.  \n(b) Monopolist: R(x) = px = (100 - 0.5x)x = 100x - 0.5x². MR = 100 - x. MC = x + 10. Set MR = MC → 100 - x = x + 10 → 2x = 90 → x = 45.  \n**Economic reason:** The monopolist faces a downward-sloping demand curve. To sell more, it must lower price on *all* units, so MR < p. The price-taker sells at constant price, so MR = p. Hence the monopolist produces less (45 < 70) and charges a higher price (p = 100 - 0.5(45) = 77.5 vs 80? Wait, monopolist price is 77.5, price-taker price is 80 — actually monopolist charges *less* here because demand curve intersects 80 at x=40, but at x=45 price is 77.5. The key is MR < p for monopolist).  \n**Why wrong answers reveal misunderstanding:** If a student uses MR = p for the monopolist, they ignore the \"price effect\" of lowering price on all units. If they get x = 70 for both, they treated the monopolist as a price-taker. This tests deep understanding of *why* MR ≠ p for a firm with market power.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"If Marginal Cost is increasing, the firm should reduce production to lower costs.\" Provide a counterexample using a profit-maximizing firm.",
+     "a": "**Correct Answer:** The claim is **false**. A profit-maximizing firm produces where MR = MC, regardless of whether MC is increasing or decreasing — as long as the second-order condition (MC cutting MR from below, i.e., MC′ > MR′) holds.  \n**Counterexample:** C(x) = x³ - 6x² + 15x + 100, p = 20 (price-taker). MC = 3x² - 12x + 15 = 3(x-2)² + 3. MC is minimum at x=2 (MC=3) and *increasing* for x>2. MR = 20. Set MR = MC: 20 = 3x² - 12x + 15 → 3x² - 12x - 5 = 0 → x ≈ 4.33 (positive root). At x=4.33, MC is *increasing* (since x>2), yet this is the profit-maximizing output. Reducing production would *lower* profit because MR > MC for x < 4.33.  \n**Why wrong answers reveal misunderstanding:** Students often think \"increasing MC = bad\" because they confuse *marginal* with *average*. Increasing MC is normal (diminishing returns); what matters is the *comparison* between MC and MR. This is a JEE/NEET-style conceptual trap.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic business scenario (Indian context) where the fixed cost is zero but the variable cost per unit *increases* with output (e.g., overtime wages). Write the Cost Function C(x), Revenue Function R(x) assuming a constant selling price, and find the profit-maximizing output. Explain why fixed cost = 0 doesn't change the MC = MR rule.",
+     "a": "**Expected Answer:**  \n**Scenario:** A Delhi-based cloud kitchen makes biryani. No rent (owner's home kitchen) → fixed cost k = 0. First 50 orders use regular staff (₹80/order). Beyond 50, overtime kicks in: cost per order = 80 + 2(x-50) for x > 50. So V(x) = 80x for x ≤ 50, and V(x) = 80x + (x-50)² for x > 50 (simplified quadratic overtime cost). C(x) = x² - 20x + 2500 for x > 50. Selling price p = ₹200 constant. R(x) = 200x.  \nMC = 2x - 20, MR = 200. Set MC = MR → 2x - 20 = 200 → x = 110.  \nCheck: MC′ = 2 > 0 = MR′ → maximum. Profit = 200(110) - (110² - 20(110) + 2500) = 22000 - (12100 - 2200 + 2500) = 22000 - 12400 = ₹9600.  \n**Why fixed cost = 0 doesn't change MC = MR:** Fixed cost is a constant; its derivative is zero. MC = dC/dx = d(V(x)+k)/dx = V′(x). The optimization condition depends only on derivatives, so additive constants vanish.  \n**Poor answer reveals:** If a student says \"no fixed cost means produce infinite\" or \"MC = MR doesn't apply\", they don't understand that fixed costs are sunk and irrelevant for marginal decisions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

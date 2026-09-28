@@ -34,6 +34,36 @@
      "q": "Create a scenario where a company issues debentures as collateral security at a discount. Explain how the discount on issue is treated differently (or not) compared to a normal cash issue at discount. Draft the journal entries for both methods.",
      "a": "Expected answer:  \nScenario: ABC Ltd. takes ₹10,00,000 loan, issues 12,000 10% debentures of ₹100 each at 10% discount as collateral.  \nNormal cash issue at discount:  \nBank A/c Dr. 10,80,000  \nDiscount on Issue of Debentures A/c Dr. 1,20,000  \nTo 10% Debentures A/c 12,00,000  \nDiscount is written off over time as finance cost.  \n\nCollateral issue at discount — No Entry Method: No entry; only note disclosure. Discount is NOT recorded because no cash received, no loss incurred.  \nCollateral issue at discount — Suspense Method:  \nDebenture Suspense A/c Dr. 12,00,000  \nTo 10% Debentures A/c 12,00,000  \n(No entry for discount — debentures recorded at face value in suspense)  \nReason: Discount on issue is a cost of raising funds. Collateral issue raises no funds, so no discount expense arises. The face value is used for security coverage.  \nA poor answer (recording discount in collateral issue) shows the student mechanically applies cash-issue rules without analyzing the economic substance.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Issue of debentures as collateral security refers to the practice where a company issues debentures to a lender (bank or financial ______) as an additional or secondary security for a loan already secured by primary assets.",
+     "a": "institution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a company, \"______ Ltd.\", takes a ₹50 lakh loan from a bank and pledges its factory building as primary security.",
+     "a": "TechGrowth",
+     "self_check": true
+    },
+    {
+     "q": "What is Issue of debentures as collateral security? State the definition given in this lesson.",
+     "a": "Issue of debentures as collateral security refers to the practice where a company issues debentures to a lender (bank or financial institution) as an additional or secondary security for a loan already secured by primary assets.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a company, \"TechGrowth Ltd.\", takes a ₹______ lakh loan from a bank and pledges its factory building as primary security.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Issue of debentures as collateral security?",
+     "a": "Students believe that debentures issued as collateral security must always be recorded at the loan amount (e.g., if loan is ₹8 lakh, issue ₹8 lakh debentures).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish between primary security and collateral security in debenture issuance; (2) Record journal entries for both accounting methods (no-entry vs. debenture suspense method); (3) Prepare the Notes to Accounts and Balance Sheet presentation as per Schedule III of Companies Act, 2013; (4) Explain the.",
+     "self_check": true
     }
    ]
   }

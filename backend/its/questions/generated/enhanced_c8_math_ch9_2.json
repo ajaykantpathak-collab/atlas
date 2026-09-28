@@ -34,6 +34,26 @@
      "q": "Design a real-world problem where a farmer needs to double the area of a square field using only a rope and pegs (no measuring tape). Describe the steps the farmer would follow on the ground.",
      "a": "Problem: A farmer has a square field of side 20 m. He wants to mark a new square field of double the area using only a long rope and pegs. Steps: 1) Mark the corners of the original square with pegs. 2) Stretch the rope along one diagonal and mark its length (by tying a knot or marking with cloth). 3) At one end of the diagonal, use the rope to create a right angle (using the 3-4-5 method or by swinging arcs of equal radius). 4) Along this perpendicular, mark the diagonal length using the marked rope. 5) Repeat at the other end. 6) Connect the new pegs to form the new square. A poor answer that suggests measuring 20√2 m with a tape or doubling the side to 40 m shows inability to translate the geometric construction into a practical, tool-constrained scenario.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A square with double the area of a given square can be ______ by using the diagonal of the original square as the side length of the new square.",
+     "a": "constructed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a temple ______ in ancient India designing a fire altar.",
+     "a": "architect",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You have a square altar of side ______ metres, but the ritual requires a new square altar with exactly double the area.",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can accurately construct a square with double the area of a given square using only a compass and straightedge, and can explain the geometric reasoning that the new square's area is exactly twice the original by relating the diagonal of the original square to the side of the new square.",
+     "self_check": true
     }
    ]
   }

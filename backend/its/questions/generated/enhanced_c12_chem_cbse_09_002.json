@@ -34,6 +34,26 @@
      "q": "Design a systematic method to name any aliphatic amine (primary, secondary, tertiary) given its structure. Write the steps as a flowchart.",
      "a": "Flowchart: 1) Count carbons in each alkyl group attached to N. 2) Identify the largest alkyl group → parent alkanamine (name = alkane minus 'e' + 'amine'). 3) Number parent chain to give –NH₂ (or >NH) lowest locant. 4) Remaining alkyl groups on N become N-substituents with prefixes di/tri and locant N. 5) Assemble: N-substituents (alphabetical) + parent name. A poor answer misses step 3 (locant on chain) or step 4 (N-locant).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: IUPAC nomenclature of amines systematically names amines by identifying the parent alkane chain (for aliphatic amines) or arene (for aromatic amines), indicating the position of the amino group(s) with locants, and using prefixes (di-, tri-) for multiple amino groups; for secondary and tertiary amines, the alkyl/aryl groups attached to nitrogen are designated with the locant 'N' (e.g., N-______).",
+     "a": "methylethanamine",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a medicine strip of \"Cetirizine\" (an antihistamine) — its chemical name contains \"diamine\" and \"chloro\" ______.",
+     "a": "substituents",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly write the IUPAC name for any given aliphatic or aromatic amine structure (primary, secondary, tertiary, or polyfunctional) and can draw the structure from a given IUPAC name, applying the correct locants, prefixes, and 'N'-substituent notation without errors.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a medicine strip of \"Cetirizine\" (an ______) — its chemical name contains \"diamine\" and \"chloro\" substituents.",
+     "a": "antihistamine",
+     "self_check": true
     }
    ]
   }

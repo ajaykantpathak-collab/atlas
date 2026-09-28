@@ -34,6 +34,26 @@
      "q": "Create a new derived physical quantity \"Action\" defined as the product of energy and time (Action = Energy × Time). Write its dimensional formula and give one real-world example where this quantity appears in Class 11/12 physics (hint: quantum mechanics).",
      "a": "Energy (work) has dimensions [M L² T⁻²]. Time has [T]. Action = [M L² T⁻²] × [T] = [M L² T⁻¹].\nReal-world example: Planck's constant (h) has dimensions of action. It appears in the photon energy equation E = hν and the de Broglie wavelength λ = h/p. A good answer must correctly multiply dimensions (adding exponents) and identify h or angular momentum as examples. A poor answer (e.g., [M L² T⁻²] or [M L T⁻¹]) shows the student cannot extend dimensional logic to new combinations or confuse action with energy or momentum.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The dimensional formula of a physical quantity is an expression that shows how and which of the seven base quantities (mass, length, time, electric current, ______ temperature, amount of substance, luminous intensity) represent the dimensions of that physical quantity, written as a product of powers of the base dimensions [M], [L], [T], [A], [K], [mol], [cd].",
+     "a": "thermodynamic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan rotating: its blades have ______ (L), the motor exerts force (M L T⁻²), and it consumes power (M L² T⁻³).",
+     "a": "length",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently derive the dimensional formula of any derived mechanical quantity (e.g., pressure, work, power, gravitational constant) from its defining equation, correctly track the exponents of base dimensions, and explain why two different physical quantities (like work and torque) can share the same dimensional formula.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan ______: its blades have length (L), the motor exerts force (M L T⁻²), and it consumes power (M L² T⁻³).",
+     "a": "rotating",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Construct a comparative table (mental or written) that a British revenue official in 1850 might have used to decide which system to extend to a newly annexed territory (e.g., Punjab). Include columns for: System, Revenue Certainty for State, Administrative Cost, Peasant Incentive to Improve Land, and Political Risk of Revolt. Fill in with qualitative assessments (High/Medium/Low) and justify each rating in one sentence.",
      "a": "Example table:\n- Zamindari: Revenue Certainty = High (fixed forever), Admin Cost = Low (few intermediaries), Peasant Incentive = Low (no ownership), Political Risk = Medium (zamindars loyal but peasants restless).\n- Ryotwari: Revenue Certainty = Medium (periodic revision), Admin Cost = High (direct measurement of each field), Peasant Incentive = Medium (proprietorship but high demand), Political Risk = High (direct state-peasant friction).\n- Mahalwari: Revenue Certainty = Medium (revision every 20-30 years), Admin Cost = Medium (village-level negotiation), Peasant Incentive = Medium-High (joint proprietorship), Political Risk = Low (village solidarity co-opted).\nA poor answer with unsupported ratings reveals the student cannot adopt the colonial administrator's perspective to understand why different systems were chosen for different regions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Zamindari, Ryotwari, and Mahalwari systems were three distinct land revenue settlement mechanisms introduced by the British colonial government in India to extract land revenue, differing in the unit of assessment (individual landlord, individual cultivator, or village community) and the ______ between the state, the revenue collector, and the actual tiller of the soil.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a farmer in 1850s Bengal: you till the land but must hand over a fixed share of your produce to a zamindar who never visits the fields, while the British ______ demands punctual revenue from the zamindar on pain of auctioning his estate.",
+     "a": "collector",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a farmer in ______s Bengal: you till the land but must hand over a fixed share of your produce to a zamindar who never visits the fields, while the British collector demands punctual revenue from the zamindar on pain of auctioning his estate.",
+     "a": "1850",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compare the three land settlement systems on parameters of revenue fixation, ownership rights, incentive structures for cultivation improvement, and regional implementation, and explain how each contributed to agricultural stagnation and peasant exploitation during the colonial period.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a farmer in 1850s Bengal: you till the land but must hand over a fixed share of your produce to a zamindar who never visits the fields, while the British collector demands punctual revenue from the zamindar on pain of ______ his estate.",
+     "a": "auctioning",
+     "self_check": true
     }
    ]
   }

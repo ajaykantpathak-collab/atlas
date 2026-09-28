@@ -20,7 +20,7 @@
     "list the outcomes for the event",
     "identify the subset of S for the given description"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,16 @@
      "action": "form subset",
      "explain": "Group the filtered outcomes into a set E, which is a subset of S."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "divide favourable outcomes by total outcomes",
+     "explain": "divide favourable outcomes by total outcomes: p = 1 / 6 gives 0.166667",
+     "compute": "p = 1 / 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.14.1.2",
@@ -54,7 +63,7 @@
     "classify the following events",
     "how many simple events are possible for this experiment"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -71,7 +80,16 @@
      "action": "classify",
      "explain": "If n(E) is 1, it is simple; if n(E) is greater than 1, it is compound."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the simple or compound interest formula",
+     "explain": "apply the simple or compound interest formula: si = 10000 * 5 * 4 / 100 gives 2000",
+     "compute": "si = 10000 * 5 * 4 / 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.14.1.4",
@@ -88,7 +106,7 @@
     "determine if the intersection of events is empty",
     "state whether the pair of events is mutually exclusive"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -105,7 +123,16 @@
      "action": "conclude",
      "explain": "If the intersection is empty, the events are mutually exclusive."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "divide favourable outcomes by total outcomes",
+     "explain": "divide favourable outcomes by total outcomes: p = 2 / 6 gives 0.333333",
+     "compute": "p = 2 / 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.14.1.5",
@@ -122,7 +149,7 @@
     "check if at least one of these events must happen",
     "determine if the given events cover all outcomes"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -139,7 +166,16 @@
      "action": "conclude",
      "explain": "If the union equals S, the events are exhaustive."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "divide favourable outcomes by total outcomes",
+     "explain": "divide favourable outcomes by total outcomes: p = 1 / 6 gives 0.166667",
+     "compute": "p = 1 / 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.14.2.1",
@@ -156,7 +192,7 @@
     "can these numbers represent probabilities of outcomes",
     "determine if any probability is outside the range 0 to 1"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -173,7 +209,16 @@
      "action": "verify sum",
      "explain": "Check if the total sum equals exactly 1."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "divide favourable outcomes by total outcomes",
+     "explain": "divide favourable outcomes by total outcomes: p = 5 / 6 gives 0.833333",
+     "compute": "p = 5 / 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.14.2.2",
@@ -190,7 +235,7 @@
     "how likely is it to pick a vowel from the word",
     "determine the probability of the event"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -207,7 +252,16 @@
      "action": "calculate ratio",
      "explain": "Divide the number of favorable outcomes by the total number of outcomes."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "divide favourable outcomes by total outcomes",
+     "explain": "divide favourable outcomes by total outcomes: p = 3 / 6 gives 0.5",
+     "compute": "p = 3 / 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.14.2.3",

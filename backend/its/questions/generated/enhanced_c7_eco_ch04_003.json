@@ -34,6 +34,21 @@
      "q": "Design a simple operational model for a village cooperative bank that takes in ₹1,00,000 in deposits at 5% interest and lends out ₹80,000 at 12% interest. Calculate the bank's gross profit from interest and explain how this profit keeps the bank functioning.",
      "a": "Interest earned = ₹80,000 × 12% = ₹9,600. Interest paid = ₹1,00,000 × 5% = ₹5,000. Gross profit = ₹9,600 - ₹5,000 = ₹4,600. A poor answer would fail to calculate the different bases (deposits vs. loans) or omit how this net interest margin covers bank operating expenses like salaries and electricity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The two primary functions of ______ banks are accepting deposits from savers (paying them interest) and providing loans to borrowers (charging them interest).",
+     "a": "commercial",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine Aarav's family receives ₹10,000 as a harvest bonus, but they do not need to spend it ______.",
+     "a": "immediately",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can trace how funds move from a depositor through a bank to a borrower, and can calculate the net interest margin (interest received on loans minus interest paid on deposits) for a simple banking scenario.",
+     "self_check": true
     }
    ]
   }

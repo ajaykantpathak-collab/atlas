@@ -17,7 +17,7 @@
     },
     {
      "q": "Write a Python code snippet that safely opens 'config.ini' for reading, but if the file does not exist, creates it with default content \"debug=false\" without throwing an exception. You may only use one `open()` call.",
-     "a": "```python\ntry:\n    f = open('config.ini', 'r')\nexcept FileNotFoundError:\n    f = open('config.ini', 'w')\n    f.write('debug=false')\n    f.close()\n    f = open('config.ini', 'r')",
+     "a": "```python\ntry:\n    f = open('config.ini', 'r')\nexcept FileNotFoundError:\n    f = open('config.ini', 'w')\n    f.write('debug=false')\n    f.close()\n    f = open('config.ini', 'r')\n# Now f is open for reading, file exists with default if it was missing\n```\nSteps: 1) Attempt 'r' mode (read-only, fails if missing). 2) Catch `FileNotFoundError`. 3) Open in 'w' mode (creates file, truncates if exists — but we know it doesn't). 4) Write default. 5) Close and reopen in 'r' to get a clean read handle. A wrong answer using 'w+' or 'a+' in one step reveals the student doesn't understand that 'w+' truncates existing files (destroying config) and 'a+' leaves pointer at end (requiring `seek(0)` to read). This tests multi-step analytical reasoning about mode side-effects.",
      "self_check": true
     },
     {
@@ -33,6 +33,26 @@
     {
      "q": "Design a file access mode string (using only standard Python mode characters: r, w, a, +, b, x) that satisfies all these constraints simultaneously: (1) Must create the file if it doesn't exist, (2) Must NOT truncate if it exists, (3) Must allow both reading and writing, (4) Must start writing at the end of the file, (5) Must start reading at the beginning of the file. If impossible, explain why and propose the minimal two-mode workaround.",
      "a": "Impossible with a single mode. 'a+' satisfies (1), (2), (3), (4) but fails (5) — it starts reading at the end too (pointer at end). No standard mode starts reading at beginning and writing at end simultaneously because the file pointer is shared. Workaround: Open twice — first `f_read = open('file.txt', 'r')` for reading from start, then `f_write = open('file.txt', 'a')` for appending. Or open once in 'a+', then `f.seek(0)` before reading. A poor answer (proposing a non-existent mode like 'ra+' or claiming 'a+' works) reveals the student doesn't grasp that a file has one pointer shared by read/write operations — a fundamental OS concept.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: File access modes in Python specify the ______ permitted on a file (reading, writing, appending) and determine the initial position of the file pointer, whether existing content is preserved or truncated, and whether a new file is created if it does not exist.",
+     "a": "operations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a digital diary application where users can write new entries, read past entries, and add to ______'s entry without erasing it.",
+     "a": "yesterday",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to select the correct file access mode for a given real-world scenario, predict the exact effect on existing file content and file pointer position, and explain why a specific mode causes data loss or preserves data in a multi-step file operation sequence.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a digital diary ______ where users can write new entries, read past entries, and add to yesterday's entry without erasing it.",
+     "a": "application",
      "self_check": true
     }
    ]

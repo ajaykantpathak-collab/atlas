@@ -1,0 +1,56 @@
+{
+ "catalog": "enhanced_c10_gram_cbse_91_002",
+ "concepts": [
+  {
+   "id": "enh:c10_gram_cbse_91_002",
+   "title": "c10_gram_cbse_91_002",
+   "questions": [
+    {
+     "q": "'Each of the boys ___ (has/have) a book.'",
+     "a": "'has' — 'each' is always singular even though it distributes over many boys. A wrong answer 'have' reveals semantic plurality — the student pictures many boys and forgets 'each' grammatically singles them out one at a time.",
+     "self_check": true
+    },
+    {
+     "q": "'Neither the players nor the captain ___ (was/were) present.'",
+     "a": "'was' — verb agrees with 'captain', the nearer subject. A wrong answer 'were' shows the student summed both subjects as plural, missing the proximity rule that governs correlative pairs.",
+     "self_check": true
+    },
+    {
+     "q": "'Some of the milk ___ (has/have) spilt.'",
+     "a": "'has' — 'some' takes its number from 'milk' (uncountable → singular). A wrong answer 'have' reveals the student treats 'some' as inherently plural instead of looking through the of-phrase.",
+     "self_check": true
+    },
+    {
+     "q": "______ pronouns have fixed agreement: each/every/everyone/someone/nobody are always singular; few/many/several are always plural; some/all/most agree with their of-phrase.",
+     "a": "Indefinite",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ pronouns have fixed agreement: each/every/everyone/someone/nobody are always singular; few/many/several are always plural; some/all/most agree with their of-phrase. 'Neither/either' are singular alone but follow the nearer subject in 'neither…nor' pairs.",
+     "a": "Indefinite",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Three boxes on the board: ALWAYS SINGULAR (each, every, everyone, ______, someone, nobody, either, neither), ALWAYS PLURAL (few, many, several, both), DEPENDS (some, all, most, none — look at 'of ___').",
+     "a": "everybody",
+     "self_check": true
+    },
+    {
+     "q": "What is Indefinite pronouns have fixed agreement? State the definition given in this lesson.",
+     "a": "Indefinite pronouns have fixed agreement: each/every/everyone/someone/nobody are always singular; few/many/several are always plural; some/all/most agree with their of-phrase. 'Neither/either' are singular alone but follow the nearer subject in 'neither…nor' pairs.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Indefinite pronouns have fixed agreement?",
+     "a": "Students think 'everyone/everybody' is plural because it means 'all people' — semantic plurality — and write 'everyone are'.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student correctly assigns singular/plural agreement for all common indefinites, including each/every distributed subjects, neither-nor proximity, and some/all/most of-phrases.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

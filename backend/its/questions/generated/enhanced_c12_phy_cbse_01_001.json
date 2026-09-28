@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a gold-leaf electroscope, a glass rod, silk cloth, and a plastic rod to demonstrate (a) additivity of charge, (b) conservation of charge, and (c) that like charges repel. Describe the steps and expected observations.",
      "a": "(a) Touch electroscope with charged glass rod (+q), leaves diverge. Then touch with charged plastic rod (–q), divergence decreases. Net charge = algebraic sum. (b) Rub glass rod with silk: rod gets +q, silk gets –q. Bring both near electroscope (without touching): no net divergence. Total charge zero — conserved. (c) Charge two glass rods by rubbing with silk. Bring near each other: they repel. A poor answer would miss the algebraic sign in (a), or claim charge is created in (b), or confuse attraction/repulsion in (c).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Electric charge is a fundamental intrinsic property of matter that causes it to experience a force when placed in an ______ field.",
+     "a": "electromagnetic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a familiar ______: when you pull off a polyester sweater in dry weather, you hear crackling sounds and see tiny sparks.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "What is Electric charge? State the definition given in this lesson.",
+     "a": "Electric charge is a fundamental intrinsic property of matter that causes it to experience a force when placed in an electromagnetic field.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Electric charge?",
+     "a": "Students often think \"quantization of charge means charge cannot be divided\" and apply it incorrectly to macroscopic objects, saying \"you cannot have half a coulomb.\" They confuse the discrete nature of elementary charge with the continuous macroscopic measurement.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) state and apply the three basic properties of charge — additivity, conservation, and quantization — to solve numerical problems, (2) compute the number of excess/deficit electrons corresponding to a given macroscopic charge, and (3) explain why quantization is negligible at macroscopic scales but crucial at.",
+     "self_check": true
     }
    ]
   }

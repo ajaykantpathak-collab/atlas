@@ -34,6 +34,36 @@
      "q": "Design a hybrid data acquisition strategy for creating a 1:10,000 scale base map of a 500 km² hilly region in Uttarakhand (elevation range 800-2500m) that optimally combines aerial photography, satellite stereo, and ground control. Specify flying height, overlap, GCP density, and satellite role.",
      "a": "Expected answer criteria: (1) Aerial: 152mm lens, flying height 3000m above MSL → scale 1:19,700 (enlarge to 1:10,000), 60% forward / 30% lateral overlap, GCP every 5km (100 GCPs) using dual-frequency GPS; (2) Satellite: Cartosat-1 stereo (2.5m) for DEM extraction in inaccessible valleys — fills gaps where aerial relief displacement >50m; (3) Integration: Bundle adjustment combining aerial GCPs + satellite RPCs (Rational Polynomial Coefficients) to generate seamless orthomosaic and 1m contour DEM; (4) Cost optimization: Aerial for 80% accessible area, satellite for 20% steep gorges. Poor answer uses only one source or ignores vertical datum unification (WGS84 vs Everest spheroid) — reveals failure to understand multi-source geospatial data fusion challenges in Indian mapping context.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Aerial photography is the technique of capturing photographs of the Earth's surface from an airborne platform (aircraft, drone, or satellite) using a precision camera, providing a synoptic, measurable, and permanent record of terrain features at a specific instant, which serves as the primary data source for topographical mapping, land-use planning, and ______ analysis in modern geography.",
+     "a": "geomorphological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a Survey of India cartographer in 1950 tasked with ______ the flood-prone Brahmaputra valley in Assam — ground surveys would take years and miss the dynamic river channels.",
+     "a": "mapping",
+     "self_check": true
+    },
+    {
+     "q": "What is Aerial photography? State the definition given in this lesson.",
+     "a": "Aerial photography is the technique of capturing photographs of the Earth's surface from an airborne platform (aircraft, drone, or satellite) using a precision camera, providing a synoptic, measurable, and permanent record of terrain features at a specific instant, which serves as the primary data source for topographical mapping.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You decide to use aerial photography from a Dakota aircraft flying at ______m.",
+     "a": "3000",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Aerial photography?",
+     "a": "Students believe aerial photography is \"just like satellite images but from lower altitude\" — they miss that aerial photos are central perspective projections with variable scale due to terrain relief, while modern satellite sensors (e.g., Cartosat, WorldView) use linear pushbroom scanners with different geometric distortions.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can evaluate the suitability of aerial photography for a given geographical investigation by comparing its advantages (synoptic view, permanence, stereoscopic 3D, high resolution, cost-effectiveness for large areas) against its limitations (weather dependence, relief displacement, scale variation, lack of spectral.",
+     "self_check": true
     }
    ]
   }

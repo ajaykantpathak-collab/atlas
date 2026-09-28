@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a 9 V battery, a 1 kΩ resistor, a silicon diode, and a multimeter to verify that the diode conducts in only one direction. Specify the measurements you would take and the expected observations.",
      "a": "Connect battery, resistor, and diode in series. Set multimeter to 200 mA DC range. Measure current with diode in forward bias (p to battery +): expect ~2–5 mA (limited by resistor). Reverse diode connections: expect reading ~0 µA (multimeter may show 0.00 mA). Swap multimeter to µA range for reverse: expect < 1 µA. A poor answer (e.g., \"measure voltage across diode only\") fails to demonstrate the rectifying action via current measurement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A p-n junction diode is a two-terminal ______ device formed by joining p-type and n-type materials with metallic contacts; under forward bias (p-side connected to positive terminal, n-side to negative), the applied voltage opposes the built-in potential barrier, narrowing the depletion region and allowing majority carriers to diffuse across the junction, producing a current in milliamperes; under reverse bias (polarity reversed), the applied voltage reinforces the barrier, widening the depletion region and permitting only a tiny drift current of minority carriers (microamperes) until breakdown voltage is reached.",
+     "a": "semiconductor",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ LED torch: when you flip the switch, the LED lights up instantly; if you accidentally insert the batteries backward, it stays dark.",
+     "a": "simple",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Slowly increase voltage with p-side to positive (forward bias) and record I vs V; notice current remains negligible until ~______ V, then rises sharply.",
+     "a": "0.6",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) draw and label the circuit diagrams for forward and reverse bias, showing correct battery polarity and current direction; (2) explain how depletion layer width and barrier potential change with bias using band diagrams; (3) calculate dynamic resistance r_d = ΔV/ΔI from a given V-I characteristic curve; (4) distinguish.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a simple LED torch: when you flip the switch, the LED lights up instantly; if you ______ insert the batteries backward, it stays dark.",
+     "a": "accidentally",
+     "self_check": true
     }
    ]
   }

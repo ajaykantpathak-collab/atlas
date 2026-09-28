@@ -34,6 +34,36 @@
      "q": "Create a novel cryopreservation protocol for a hypothetical tropical orchid species with highly recalcitrant meristems that fail with standard PVS2 vitrification (excessive oxidative damage). Propose TWO modifications to the standard protocol with mechanistic justifications, and design a viability assay to compare your modified protocol against standard PVS2.",
      "a": "Modification 1: **Add antioxidants to preculture and loading** — e.g., 0.5 mM ascorbic acid + 0.1 mM glutathione in preculture; 1 mM ascorbic acid in loading solution. Justification: Tropical orchids have high phenolic/oxidative metabolism; cryopreservation induces ROS burst; antioxidants scavenge ROS during dehydration/rehydration. Modification 2: **Use droplet-vitrification on aluminum foil strips with reduced PVS2 exposure (30 min at 0°C) + post-thaw recovery on medium with 1 µM melatonin + 50 µM salicylic acid**. Justification: Melatonin is a potent ROS scavenger and regulates stress genes; salicylic acid primes defense pathways. Viability assay: **FDA (fluorescein diacetate) staining at 24h + regrowth percentage at 4 weeks** — FDA gives immediate membrane integrity; regrowth confirms functional recovery. Compare: Modified vs Standard PVS2 using 30 meristems per treatment, 3 replicates. A poor answer would suggest generic \"change temperature\" without mechanistic link to oxidative stress.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In vitro conservation refers to the preservation of plant genetic resources (germplasm) under controlled laboratory conditions using tissue culture techniques, while ______ is the long-term storage of plant cells, tissues, or organs at ultra-low temperatures (typically -196°C in liquid nitrogen) where all metabolic activities are arrested, enabling indefinite preservation of genetic material without alteration.",
+     "a": "cryopreservation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're a plant breeder who has developed a ______-resistant banana variety through years of selection.",
+     "a": "disease",
+     "self_check": true
+    },
+    {
+     "q": "What is In vitro conservation? State the definition given in this lesson.",
+     "a": "In vitro conservation refers to the preservation of plant genetic resources (germplasm) under controlled laboratory conditions using tissue culture techniques, while cryopreservation is the long-term storage of plant cells, tissues, or organs at ultra-low temperatures (typically -196°C in liquid nitrogen) where all metabolic activities.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In vitro conservation refers to the preservation of plant genetic resources (germplasm) under controlled laboratory conditions using tissue culture techniques, while cryopreservation is the long-term storage of plant cells, tissues, or organs at ultra-low temperatures (typically -______°C in liquid nitrogen) where all metabolic activities are arrested, enabling indefinite preservation of genetic material without alteration.",
+     "a": "196",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about In vitro conservation?",
+     "a": "Students confuse vitrification with controlled-rate freezing and think both use similar cryoprotectant concentrations.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish between short-term (slow growth) and long-term (cryopreservation) in vitro conservation methods with specific protocols, and (2) Explain the stepwise cryopreservation procedure including the role of cryoprotectants, vitrification, and thawing, identifying critical parameters that determine.",
+     "self_check": true
     }
    ]
   }

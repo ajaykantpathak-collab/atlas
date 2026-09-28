@@ -34,6 +34,31 @@
      "q": "Create a real-world scenario from your daily life in India (involving auto-rickshaw fares, buying fruits, or school items) that can be represented using a variable $k$, and write the corresponding algebraic expression.",
      "a": "An acceptable answer should describe a scenario with a fixed rate and a variable quantity, such as: \"An auto-rickshaw charges a base meter reading plus ₹12 per kilometre. If $k$ is the number of kilometres travelled, the variable part of the fare is $12k$.\" A poor answer fails to define what $k$ represents or creates a purely arithmetic sentence with no variable (e.g., \"I bought 3 apples for ₹30\").",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A variable is a letter or symbol used in algebra to ______ an unknown or changing quantity that can take various numerical values.",
+     "a": "represent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying notebooks for your school opening day at the local stationery shop where each notebook costs ₹25, but the total number of notebooks you need depends on how many your ______ asks you to buy.",
+     "a": "teacher",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying notebooks for your school opening day at the local stationery shop where each notebook costs ₹______, but the total number of notebooks you need depends on how many your teacher asks you to buy.",
+     "a": "25",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify variables and constants in algebraic descriptions, represent unknown quantities in real-world scenarios using letters, and distinguish between fixed numbers and changeable quantities.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying notebooks for your school opening day at the local ______ shop where each notebook costs ₹25, but the total number of notebooks you need depends on how many your teacher asks you to buy.",
+     "a": "stationery",
+     "self_check": true
     }
    ]
   }

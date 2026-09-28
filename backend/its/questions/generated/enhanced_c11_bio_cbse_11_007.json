@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using leaf discs (spinach) and bicarbonate solution to demonstrate that CO₂ is limiting at high light intensity but not at low light intensity. Specify the independent variable, dependent variable, controlled variables, and the expected graph pattern.",
      "a": "Independent: Light intensity (two levels: low 50 µmol m⁻² s⁻¹, high 500 µmol m⁻² s⁻¹). Dependent: Time for leaf discs to float (proxy for O₂ evolution rate). Controlled: 0.2% NaHCO₃ (saturating CO₂), temperature 25°C, leaf disc size, bicarbonate infiltration method. Expected: At low light, both low and high CO₂ (if tested) give similar float times (light limiting); at high light, low CO₂ (ambient air-equilibrated water) shows much slower floating than high CO₂ (0.2% NaHCO₃). A poor design fails to include both light levels or doesn't control temperature, missing the interaction central to the law.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Blackman's Law of Limiting Factors states that when a biological process like ______ is influenced by multiple factors simultaneously, the rate of the process is determined by the factor present at its sub-optimal (minimal) level, i.e., the factor farthest from its optimum.",
+     "a": "photosynthesis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer in Punjab growing wheat in ______ versus May – the same variety, same soil, but vastly different yields.",
+     "a": "November",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can interpret photosynthesis rate graphs to identify the limiting factor at different points, explain why C3 and C4 plants respond differently to CO₂ and temperature, and predict how changing one factor affects the rate when other factors are held at optimal or sub-optimal levels.",
+     "self_check": true
     }
    ]
   }

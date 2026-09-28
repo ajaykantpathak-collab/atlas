@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_02_004",
+   "title": "c12_leg_cbse_02_004",
+   "questions": [
+    {
+     "q": "What is the key procedural difference between arbitration and mediation regarding the third party's decision-making power?",
+     "a": "In arbitration, the arbitrator renders a binding decision (arbitral award) after hearing both sides; in mediation, the mediator facilitates negotiation but has no power to impose a decision — the parties themselves reach a voluntary settlement. A wrong answer (e.g., \"both make binding decisions\") reveals confusion between adjudicative and facilitative ADR models.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a settlement agreement signed in conciliation under Section 73 of the Arbitration and Conciliation Act, 1996 has the same legal status as an arbitral award.",
+     "a": "Section 73(3) explicitly states the settlement agreement is \"final and binding on the parties and persons claiming under them,\" and Section 74 gives it \"the same status and effect as an arbitral award,\" making it enforceable as a court decree. A wrong answer (e.g., \"it's only a moral obligation\") shows misunderstanding of statutory enforceability of conciliated settlements.",
+     "self_check": true
+    },
+    {
+     "q": "A company in Delhi and a supplier in Mumbai have a contract with an arbitration clause specifying \"seat of arbitration: London, governing law: Indian law.\" A dispute arises. Can the Delhi company seek interim relief under Section 9 of the Arbitration Act in an Indian court? Explain step-by-step.",
+     "a": "No. Step 1: Identify the seat of arbitration — London (foreign). Step 2: Apply BALCO v. Kaiser (2012) — Part I of the Act (including Section 9 interim relief) applies only if the seat is in India. Step 3: The 2015 Amendment added Section 2(2) allowing Section 9 for foreign-seated arbitrations, but only if parties haven't excluded it. Step 4: Here, parties chose English law for arbitration procedure, implying exclusion. Step 5: Indian courts lack jurisdiction for interim relief. A wrong answer reveals failure to distinguish \"seat\" vs. \"venue\" and ignorance of the BALCO/2015 Amendment interplay.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the third party in Lok Adalat vs. mediation. How does this difference affect the enforceability of the outcome?",
+     "a": "In Lok Adalat, the presiding officer (judicial officer + lawyer + social worker) can actively propose settlement terms and the award is deemed a civil court decree, directly executable. In mediation, the mediator only facilitates; the settlement agreement must be separately converted into a consent decree or contract for enforceability. A wrong answer (e.g., \"both are equally enforceable without court action\") misses the deemed decree status unique to Lok Adalat under the Legal Services Authorities Act.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"The Banking Ombudsman Scheme provides a more effective remedy for a consumer than a civil court for a dispute about unauthorized ATM withdrawals.\" Justify with three specific advantages.",
+     "a": "Yes, it is more effective for this scenario. Advantage 1: No court fees or lawyer costs — accessible to low-value claims. Advantage 2: Strict timelines (e.g., 30 days for resolution) vs. years in court. Advantage 3: Ombudsman's award is binding on the bank (up to ₹20 lakh) and enforceable without fresh litigation. A weak evaluation (e.g., \"it's faster\" without specifics) shows superficial understanding of institutional design.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hybrid ADR clause for a joint venture agreement between an Indian tech startup and a German investor that combines mediation followed by arbitration, specifying seat, governing law, language, and institutional rules. Explain why each choice suits cross-border commercial disputes.",
+     "a": "Sample clause: \"Disputes shall first be referred to mediation under the Mediation Rules of the Delhi International Arbitration Centre (DIAC), New Delhi, in English. If unresolved within 60 days, either party may initiate arbitration under the UNCITRAL Arbitration Rules, with seat in New Delhi, governing law Indian law, tribunal of three arbitrators (one each appointed by parties, third by agreement).\" Justification: Mediation preserves business relationship; UNCITRAL rules are neutral; Delhi seat ensures Indian court support for interim measures (Section 9); Indian law governs substantive rights. A poor answer omits seat/governing law distinction or ignores enforceability under the New York Convention.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

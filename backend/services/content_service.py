@@ -646,21 +646,56 @@ class ContentService:
         db,
         subject: Optional[str] = None,
         class_level: Optional[int] = None,
+        chapter: Optional[str] = None,
         limit: int = 100,
         offset: int = 0,
     ) -> tuple[list[Any], int]:
         from sqlalchemy import select, func
         from backend.models.enrichment import EnrichmentContent
 
+        _SUBJECT_ALIASES = {
+            "mathematics": ["math", "maths", "mathematics"],
+            "maths": ["math", "maths"], "math": ["math", "maths"],
+            "biology": ["bio", "biology"], "bio": ["bio", "biology"],
+            "physics": ["phy", "physics"], "phy": ["phy", "physics"],
+            "chemistry": ["chem", "chemistry"], "chem": ["chem", "chemistry"],
+            "english": ["engl", "english", "eng_k", "eng_w", "eng_f",
+                        "eng_v", "eng_s", "eng_h", "gram", "comp"],
+            # PLUMB: the /learn CS tab key "cs" must also reach the "comp" rows
+            # (classes 8-10 store computer nodes under "comp" — 0-topic tab fix).
+            "computer_science": ["cs", "comp", "computer_science"],
+            "cs": ["cs", "comp", "computer"],
+            "economics": ["eco", "economics"], "eco": ["eco", "economics"],
+            "history": ["hist", "history"], "hist": ["hist", "history"],
+            "geography": ["geo", "geography"], "geo": ["geo", "geography"],
+            "accountancy": ["acc"], "acc": ["acc"],
+            "business_studies": ["bs"], "bs": ["bs"],
+            "civics": ["civ", "civics"], "civ": ["civ", "civics"],
+            "hindi": ["hin_ar", "hin_a", "hin_v", "hin_al", "hindi"],
+            "science": ["bio", "phy", "chem", "sci", "science"],
+            # PLUMB (C7 audit [STUDENT-C7][P1 LEARN-NAV]): the /learn Grammar
+            # tab queries subject=grammar, but the corpus codes are "gram"
+            # (classes 7-10) / "grammar" (class 6) — unmapped, the tab listed
+            # "0 topics" for every class. Same for the computer tab's
+            # comp/cs split.
+            "grammar": ["gram", "grammar"], "gram": ["gram", "grammar"],
+            "computer": ["comp", "cs", "computer"],
+        }
         query = select(EnrichmentContent)
         count_query = select(func.count(EnrichmentContent.id))
         if subject:
-            query = query.where(EnrichmentContent.subject == subject)
-            count_query = count_query.where(EnrichmentContent.subject == subject)
+            subs = _SUBJECT_ALIASES.get(
+                subject.lower().replace(" ", "_"), [subject])
+            query = query.where(EnrichmentContent.subject.in_(subs))
+            count_query = count_query.where(EnrichmentContent.subject.in_(subs))
         if class_level is not None:
             query = query.where(EnrichmentContent.class_level == class_level)
             count_query = count_query.where(EnrichmentContent.class_level == class_level)
-        query = query.order_by(EnrichmentContent.class_level, EnrichmentContent.subject)
+        if chapter:
+            ch = chapter if str(chapter).startswith("ch") else f"ch{chapter}"
+            query = query.where(EnrichmentContent.chapter == ch)
+            count_query = count_query.where(EnrichmentContent.chapter == ch)
+        query = query.order_by(EnrichmentContent.node_id)
         query = query.limit(limit).offset(offset)
         nodes = (await db.execute(query)).scalars().all()
         total = (await db.execute(count_query)).scalar() or 0

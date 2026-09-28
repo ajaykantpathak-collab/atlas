@@ -34,6 +34,31 @@
      "q": "Create a new fractal pattern: Start with an equilateral triangle of area 81 cm². At each step, divide each remaining triangle into 9 congruent smaller triangles (by trisecting sides) and remove the central one. Write the area formula for step n and find the area after 3 steps.",
      "a": "Each triangle → 9 sub-triangles, remove 1 → keep 8. Scale factor = 8/9. Formula: Aₙ = 81 × (8/9)ⁿ. For n=3: A₃ = 81 × (512/729) = (81/729) × 512 = (1/9) × 512 = 512/9 ≈ 56.89 cm². A poor answer that uses 3/4 or 1/3 as the factor shows the student cannot generalize the pattern from the known fractals to a new variation, indicating rote memorization rather than understanding the principle: (pieces kept)/(total pieces).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The area of a fractal at the nth step is the total remaining area after n ______ of a self-similar removal or addition process, expressed as a formula involving the initial area multiplied by a scale factor raised to the power n (for removal fractals like Sierpinski carpet/gasket) or as a geometric series sum (for addition fractals like Koch snowflake).",
+     "a": "iterations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a traditional Indian rangoli pattern that gets more intricate with each round — you start with a square kolam of side 9 cm, and in each round you remove the central square from every remaining square.",
+     "a": "designing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a traditional Indian rangoli pattern that gets more intricate with each round — you start with a square kolam of side ______ cm, and in each round you remove the central square from every remaining square.",
+     "a": "9",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the general formula for the area of Sierpinski carpet, Sierpinski gasket, and Koch snowflake at the nth step, explain why the area approaches zero for the first two but converges to a finite limit for the Koch snowflake, and apply these formulas to compute areas for specific values of n with correct algebraic.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ Indian rangoli pattern that gets more intricate with each round — you start with a square kolam of side 9 cm, and in each round you remove the central square from every remaining square.",
+     "a": "traditional",
+     "self_check": true
     }
    ]
   }

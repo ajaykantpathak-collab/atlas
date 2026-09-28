@@ -34,6 +34,36 @@
      "q": "Create an expression for a situation where a shopkeeper gives a discount of 5 rupees on any item costing $p$ rupees.",
      "a": "The expression is $p - 5$. A good answer identifies the variable $p$ and the discount operation (subtraction). A poor answer like $5 - p$ shows the student does not understand that the discount is taken away from the original price.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Forming algebraic expressions is the process of representing relationships between numbers and unknown quantities (variables) using mathematical operations like addition, subtraction, ______, and division.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If your ______ is 2 years younger than you, how do you find their age if you only know your age is 'y'?",
+     "a": "friend",
+     "self_check": true
+    },
+    {
+     "q": "What is Forming algebraic expressions? State the definition given in this lesson.",
+     "a": "Forming algebraic expressions is the process of representing relationships between numbers and unknown quantities (variables) using mathematical operations like addition, subtraction, multiplication, and division.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If your friend is ______ years younger than you, how do you find their age if you only know your age is 'y'?",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Forming algebraic expressions?",
+     "a": "Students often confuse the placement of terms in subtraction and division.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to translate a written sentence describing a relationship between quantities into a correct algebraic expression and identify the variable and the operations used within that expression.",
+     "self_check": true
     }
    ]
   }

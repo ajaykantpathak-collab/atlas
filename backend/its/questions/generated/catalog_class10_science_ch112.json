@@ -2,6 +2,147 @@
  "catalog": "catalog_class10_science_ch112.json",
  "concepts": [
   {
+   "id": "jesc.12.2.1",
+   "title": "Magnetic Field of a Straight Conductor",
+   "converted_to_compute": true,
+   "formula": "field_strength = current / distance",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "field_strength = current / distance",
+     "compute": "field_strength = current / distance"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Magnetic Field of a Straight Conductor: given current = 6.1, distance = 222, find field strength.",
+     "a": "0.0274775",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetic Field of a Straight Conductor: given current = 8.4, distance = 424, find field strength.",
+     "a": "0.0198113",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetic Field of a Straight Conductor: given current = 16.5, distance = 106, find field strength.",
+     "a": "0.15566",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetic Field of a Straight Conductor: given current = 5.3, distance = 2.3, find field strength.",
+     "a": "2.30435",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetic Field of a Straight Conductor: given current = 27, distance = 394, find field strength.",
+     "a": "0.0685279",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetic Field of a Straight Conductor: given current = 18.8, distance = 272, find field strength.",
+     "a": "0.0691176",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.12.2.3",
+   "title": "Magnetic Field of a Circular Loop",
+   "converted_to_compute": true,
+   "formula": "total_field = turns * field_per_turn",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_field = turns * field_per_turn",
+     "compute": "total_field = turns * field_per_turn"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Magnetic Field of a Circular Loop: given turns = 63, field_per_turn = 114, find total field.",
+     "a": "7182",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetic Field of a Circular Loop: given turns = 487, field_per_turn = 103, find total field.",
+     "a": "50161",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetic Field of a Circular Loop: given turns = 464, field_per_turn = 34, find total field.",
+     "a": "15776",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetic Field of a Circular Loop: given turns = 278, field_per_turn = 62, find total field.",
+     "a": "17236",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetic Field of a Circular Loop: given turns = 453, field_per_turn = 25, find total field.",
+     "a": "11325",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetic Field of a Circular Loop: given turns = 211, field_per_turn = 100, find total field.",
+     "a": "21100",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.12.4.2",
+   "title": "Domestic Power Safety Calculation",
+   "converted_to_compute": true,
+   "formula": "current = power / voltage",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "current = power / voltage",
+     "compute": "current = power / voltage"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Domestic Power Safety Calculation: given power = 2561, voltage = 107, find current.",
+     "a": "23.9346",
+     "self_check": false
+    },
+    {
+     "q": "For Domestic Power Safety Calculation: given power = 3689, voltage = 327, find current.",
+     "a": "11.2813",
+     "self_check": false
+    },
+    {
+     "q": "For Domestic Power Safety Calculation: given power = 4911, voltage = 278, find current.",
+     "a": "17.6655",
+     "self_check": false
+    },
+    {
+     "q": "For Domestic Power Safety Calculation: given power = 1281, voltage = 144, find current.",
+     "a": "8.89583",
+     "self_check": false
+    },
+    {
+     "q": "For Domestic Power Safety Calculation: given power = 4989, voltage = 109, find current.",
+     "a": "45.7706",
+     "self_check": false
+    },
+    {
+     "q": "For Domestic Power Safety Calculation: given power = 2921, voltage = 189, find current.",
+     "a": "15.455",
+     "self_check": false
+    }
+   ]
+  },
+  {
    "id": "jesc.12.1",
    "title": "Magnetic Field and Field Lines",
    "solution_type": "verify_property",
@@ -24,88 +165,6 @@
    ]
   },
   {
-   "id": "jesc.12.2.1",
-   "title": "Magnetic Field of a Straight Conductor",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "field_units",
-     "expr": "current / distance",
-     "explain": "field strength near the wire grows with current and falls with distance"
-    },
-    {
-     "step": 2,
-     "name": "current_ma",
-     "expr": "current * 1000",
-     "explain": "current in milliamperes"
-    },
-    {
-     "step": 3,
-     "name": "field_at_half_distance",
-     "expr": "field_units * 2",
-     "explain": "halving the distance doubles the field strength"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A straight wire carries 5 A. Taking the field measure as current divided by distance, find its value at 0.2 m, and at half that distance.",
-     "vals": {
-      "current": 5,
-      "distance": 0.2
-     },
-     "unit": "units",
-     "steps": null,
-     "a": "50 units",
-     "self_check": false
-    },
-    {
-     "q": "A 6 A wire is probed at 0.3 m. Compute the field measure and its value at 0.15 m.",
-     "vals": {
-      "current": 6,
-      "distance": 0.3
-     },
-     "unit": "units",
-     "steps": null,
-     "a": "40 units",
-     "self_check": false
-    },
-    {
-     "q": "Find the field measure (current/distance) for 9 A at 0.6 m from a long straight conductor.",
-     "vals": {
-      "current": 9,
-      "distance": 0.6
-     },
-     "unit": "units",
-     "steps": null,
-     "a": "30 units",
-     "self_check": false
-    },
-    {
-     "q": "At 0.8 m from a 4 A wire, evaluate the field measure and the doubled value at 0.4 m.",
-     "vals": {
-      "current": 4,
-      "distance": 0.8
-     },
-     "unit": "units",
-     "steps": null,
-     "a": "10 units",
-     "self_check": false
-    },
-    {
-     "q": "A 10 A cable is measured 2.5 m away. What is the field measure there?",
-     "vals": {
-      "current": 10,
-      "distance": 2.5
-     },
-     "unit": "units",
-     "steps": null,
-     "a": "8 units",
-     "self_check": false
-    }
-   ]
-  },
-  {
    "id": "jesc.12.2.2",
    "title": "Right-Hand Thumb Rule",
    "solution_type": "verify_property",
@@ -124,88 +183,6 @@
      "q": "How does the magnetic field near a straight current-carrying wire depend on distance?",
      "a": "The field strength decreases as we move away from the wire - concentric circles get farther apart.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "jesc.12.2.3",
-   "title": "Magnetic Field of a Circular Loop",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "half_turn_field",
-     "expr": "(turns / 2) * field_per_turn",
-     "explain": "field with half the turns"
-    },
-    {
-     "step": 2,
-     "name": "three_loop_field",
-     "expr": "3 * field_per_turn",
-     "explain": "field from just three loops"
-    },
-    {
-     "step": 3,
-     "name": "total_field",
-     "expr": "turns * field_per_turn",
-     "explain": "each loop of the coil adds the same field at the centre"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A circular coil of 100 turns has a centre field of 0.8 units per turn. What is the total field?",
-     "vals": {
-      "turns": 100,
-      "field_per_turn": 0.8
-     },
-     "unit": "units",
-     "steps": null,
-     "a": "80 units",
-     "self_check": false
-    },
-    {
-     "q": "A loop of 50 turns contributes 1.2 units per turn at the centre. Find the total.",
-     "vals": {
-      "turns": 50,
-      "field_per_turn": 1.2
-     },
-     "unit": "units",
-     "steps": null,
-     "a": "60 units",
-     "self_check": false
-    },
-    {
-     "q": "For a 200-turn coil with 0.5 units per turn, compute the total field at the centre.",
-     "vals": {
-      "turns": 200,
-      "field_per_turn": 0.5
-     },
-     "unit": "units",
-     "steps": null,
-     "a": "100 units",
-     "self_check": false
-    },
-    {
-     "q": "A coil of 75 turns gives 0.4 units per turn. What is the combined field?",
-     "vals": {
-      "turns": 75,
-      "field_per_turn": 0.4
-     },
-     "unit": "units",
-     "steps": null,
-     "a": "30 units",
-     "self_check": false
-    },
-    {
-     "q": "If each of 120 turns adds 2 units, what total field results at the coil centre?",
-     "vals": {
-      "turns": 120,
-      "field_per_turn": 2
-     },
-     "unit": "units",
-     "steps": null,
-     "a": "240 units",
-     "self_check": false
     }
    ]
   },
@@ -316,88 +293,6 @@
      "q": "How does a fuse protect a circuit?",
      "a": "The fuse wire melts when current exceeds its rating, breaking the circuit before damage occurs.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "jesc.12.4.2",
-   "title": "Domestic Power Safety Calculation",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "power_kw",
-     "expr": "power / 1000",
-     "explain": "power in kilowatts"
-    },
-    {
-     "step": 2,
-     "name": "half_voltage_current",
-     "expr": "power / (voltage / 2)",
-     "explain": "current if the voltage fell by half"
-    },
-    {
-     "step": 3,
-     "name": "current",
-     "expr": "power / voltage",
-     "explain": "I = P/V for a household appliance"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A 2200 W geyser runs on a 220 V line. Find the current it draws.",
-     "vals": {
-      "power": 2200,
-      "voltage": 220
-     },
-     "unit": "A",
-     "steps": null,
-     "a": "10 A",
-     "self_check": false
-    },
-    {
-     "q": "An 1100 W microwave works on 220 V mains. Calculate its current.",
-     "vals": {
-      "power": 1100,
-      "voltage": 220
-     },
-     "unit": "A",
-     "steps": null,
-     "a": "5 A",
-     "self_check": false
-    },
-    {
-     "q": "A 660 W washing machine is plugged into 220 V. What current flows?",
-     "vals": {
-      "power": 660,
-      "voltage": 220
-     },
-     "unit": "A",
-     "steps": null,
-     "a": "3 A",
-     "self_check": false
-    },
-    {
-     "q": "A 100 W lamp works on a 12 V supply (a caravan). Find the current.",
-     "vals": {
-      "power": 100,
-      "voltage": 12
-     },
-     "unit": "A",
-     "steps": null,
-     "a": "8.33333 A",
-     "self_check": false
-    },
-    {
-     "q": "A 1500 W kettle on 220 V mains: what current rating must its fuse allow?",
-     "vals": {
-      "power": 1500,
-      "voltage": 220
-     },
-     "unit": "A",
-     "steps": null,
-     "a": "6.81818 A",
-     "self_check": false
     }
    ]
   }

@@ -1,0 +1,71 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_02_004",
+   "title": "c12_soc_cbse_02_004",
+   "questions": [
+    {
+     "q": "Define crude birth rate and crude death rate. Give the formula for each.",
+     "a": "Crude Birth Rate (CBR) = (Number of live births in a year / Mid-year total population) × 1,000. Crude Death Rate (CDR) = (Number of deaths in a year / Mid-year total population) × 1,000. A wrong answer (e.g., using only women of reproductive age for CBR, or forgetting the “per 1,000” multiplier) shows the student confuses crude rates with refined/age-specific rates or misses the standardisation denominator.",
+     "self_check": true
+    },
+    {
+     "q": "In your own words, explain why India’s death rate fell sharply after 1921 while the birth rate remained high for several more decades.",
+     "a": "Death rate fell because of targeted interventions: famine relief (railways, irrigation), epidemic control (vaccination, sanitation), and medical advances — all of which are technical/administrative measures the state can implement relatively quickly. Birth rate is a socio-cultural phenomenon: it depends on family-size norms, son preference, women’s education, age at marriage, and economic security, which change slowly across generations. A wrong answer that attributes the gap only to “illiteracy” or “poverty” misses the multi-dimensional nature of fertility determinants and the role of state capacity in mortality reduction.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data in Table 1 (NCERT), calculate the approximate natural increase rate (per 1,000) for India in the decade 1981–1991. Show your steps.",
+     "a": "Step 1: From Chart 1 (or Table 1 averages), CBR ≈ 30–32, CDR ≈ 10–12 around 1981–1991. Step 2: Natural increase rate = CBR – CDR. Step 3: Using mid-decade estimates: CBR ≈ 31, CDR ≈ 11 → natural increase ≈ 20 per 1,000. Step 4: Compare with Table 1’s decadal growth rate 23.9% (≈ 2.14% annual) → 21.4 per 1,000, consistent. A wrong answer that uses total population instead of rate difference, or confuses decadal growth with annual rate, reveals misunderstanding of the difference between crude rates and geometric growth rates.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the birth-rate trajectories of Kerala (TFR 1.7) and Bihar (TFR 3.3) as per the 2016 SRS data cited in the textbook. Identify three structural determinants that explain this divergence.",
+     "a": "1) Female literacy: Kerala > 90%, Bihar ~ 50% (Census 2011) → higher autonomy and contraceptive use. 2) Age at marriage: Kerala women marry later (median ~22 years) vs. Bihar (~18 years) → shorter reproductive span. 3) Son preference and desired family size: Bihar’s stronger patrilineal norms and lower economic diversification sustain higher fertility. A wrong answer that lists only “education” or “poverty” without linking to proximate determinants (marriage age, contraception, gender norms) shows superficial analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: “If India simply builds more hospitals and provides free contraceptives, the birth rate will fall to replacement level within a decade.” Use evidence from the chapter.",
+     "a": "The statement is flawed because it treats fertility as purely a supply-side (contraceptive access) issue. The chapter shows that even in prosperous states like Punjab and Haryana (high per capita income, good health infrastructure), child sex ratios are very low and fertility decline has stalled due to son preference and sex-selective abortion. Kerala achieved low fertility through female education, late marriage, and social development — not just contraceptive supply. A wrong answer that agrees with the statement ignores the socio-cultural determinants emphasized in the text and the Emergency-era coercion failure.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-survey (5 questions) you could conduct in your neighbourhood to investigate why couples decide on their number of children. Explain how each question captures a different determinant discussed in the chapter.",
+     "a": "Good questions: (1) “At what age did you/your spouse marry?” (captures age at marriage). (2) “How many years of schooling did you/your spouse complete?” (female education). (3) “Do you have a preference for a son? How many sons do you want?” (son preference). (4) “Do you use any family planning method? If not, why?” (contraceptive access and attitudes). (5) “How confident are you about your children’s future employment?” (economic security/old-age support). A poor answer lists only yes/no questions or misses key determinants like gender norms or economic insecurity.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Birth rate (crude birth rate) is the number of live ______ per 1,000 population in a given year; death rate (crude death rate) is the number of deaths per 1,000 population in a given year.",
+     "a": "births",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ health officer in 2024 looking at two villages: Village A has a birth rate of 28 and death rate of 6; Village B has a birth rate of 14 and death rate of 7.",
+     "a": "district",
+     "self_check": true
+    },
+    {
+     "q": "What is Birth rate (crude birth rate)? State the definition given in this lesson.",
+     "a": "Birth rate (crude birth rate) is the number of live births per 1,000 population in a given year; death rate (crude death rate) is the number of deaths per 1,000 population in a given year.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Next, examine Table ______ to see the growth-rate consequences.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Birth rate (crude birth rate)?",
+     "a": "Students often think “birth rate is high because people are uneducated and poor” and “death rate fell only because of modern medicine.” The first ignores that even educated, affluent families in Punjab/Haryana have low child sex ratios due to son preference (cultural, not economic).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) calculate crude birth and death rates from raw data, (2) explain at least three socio-economic determinants that cause birth rates to decline slower than death rates in India, and (3) interpret the diverging trends in Chart 1 (1901–2017) to identify the demographic transition phase India is in.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

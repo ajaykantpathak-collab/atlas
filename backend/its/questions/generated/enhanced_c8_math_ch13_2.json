@@ -34,6 +34,31 @@
      "q": "Create a number trick that uses exactly 5 steps (including \"think of a number\" as step 1) and results in the number 15. The trick must use multiplication, division, addition, and subtraction at least once each. Write the steps and prove it works.",
      "a": "Example: 1) Think of a number (x). 2) Multiply by 4 (4x). 3) Add 60 (4x+60). 4) Divide by 4 (x+15). 5) Subtract original number (15). Proof: ((4x+60)/4) - x = x+15 - x = 15. A poor answer might omit one required operation, use more than 5 steps, or have an algebraic proof that doesn't simplify to 15. This reveals difficulty in constrained creative design and verifying the constant term after distribution.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A number trick is a sequence of arithmetic operations (addition, subtraction, ______, division) performed on an unknown number represented by a variable, which simplifies algebraically to a constant result regardless of the starting number.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to amaze your friends at a Diwali gathering with a math magic ______.",
+     "a": "trick",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To create your own, start by deciding the final constant answer (say, ______).",
+     "a": "7",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently design a multi-step number trick that works for any integer, write the corresponding algebraic expression, simplify it step-by-step to prove the constant result, and explain why the trick works using algebraic reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to amaze your friends at a Diwali ______ with a math magic trick.",
+     "a": "gathering",
+     "self_check": true
     }
    ]
   }

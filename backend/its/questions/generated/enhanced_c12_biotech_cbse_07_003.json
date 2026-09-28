@@ -34,6 +34,31 @@
      "q": "Design an experiment to test whether somaclonal variation in a regenerated wheat population is primarily genetic (DNA sequence change) or epigenetic (methylation change). Outline the key steps, controls, and expected outcomes.",
      "a": "Step 1: Regenerate 100 wheat plants from long-term callus culture. Step 2: Phenotype for a trait (e.g., salt tolerance). Step 3: Extract DNA from variant and wild-type plants. Step 4: Perform whole-genome bisulfite sequencing (epigenetic) and whole-genome resequencing (genetic). Step 5: Compare methylation patterns and SNP/indel profiles. Controls: parent plant DNA, plants regenerated from short-term culture. Expected: If variants show differential methylation without DNA sequence changes, epigenetic; if sequence changes correlate with phenotype, genetic. A poor answer lacking appropriate controls or omitting bisulfite sequencing indicates inability to design a controlled molecular experiment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Somaclonal variation refers to the genetic and phenotypic variations observed in plants ______ from cultured somatic tissues (callus, cell suspensions, or organs) under in vitro conditions.",
+     "a": "regenerated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a banana farmer who uses tissue culture to produce ______ of identical disease-free plantlets, but after a few seasons notices some plants showing unexpected dwarfism while others surprisingly resist a devastating fungal wilt.",
+     "a": "thousands",
+     "self_check": true
+    },
+    {
+     "q": "What is Somaclonal variation? State the definition given in this lesson.",
+     "a": "Somaclonal variation refers to the genetic and phenotypic variations observed in plants regenerated from cultured somatic tissues (callus, cell suspensions, or organs) under in vitro conditions.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Somaclonal variation?",
+     "a": "Students often believe somaclonal variation is intentionally induced by adding mutagens to the culture medium, confusing it with mutation breeding.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain the molecular and cellular causes of somaclonal variation, distinguish it from genetically engineered variation, and evaluate its dual role as a source of undesirable off-types in micropropagation and a valuable tool for crop improvement through selection of beneficial somaclones.",
+     "self_check": true
     }
    ]
   }

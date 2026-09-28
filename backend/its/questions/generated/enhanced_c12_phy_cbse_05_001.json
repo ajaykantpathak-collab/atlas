@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using only a bar magnet, a small compass needle, a sheet of paper, and a pencil to plot the magnetic field lines of the bar magnet in a plane perpendicular to its axis (equatorial plane). Describe the procedure step-by-step, and explain how you would determine the direction of the field lines on the paper.",
      "a": "**Procedure:**  \n1. Place the bar magnet horizontally on a table with its axis along the north-south direction (align using the compass).  \n2. Place a sheet of paper over the magnet, centered on its midpoint.  \n3. Place the small compass at a point on the paper near one pole. Mark the position of the compass center with a dot.  \n4. Mark the direction of the compass needle's north pole with a second dot ahead of the first.  \n5. Move the compass so its center coincides with the second dot, and repeat — this traces a field line.  \n6. Repeat from different starting points to map multiple lines.  \n7. Draw smooth curves through the dots; add arrows pointing from N to S outside the magnet.  \n**Direction determination:** The compass needle aligns **tangent to the field line**; its north pole points in the direction of **B**. In the equatorial plane, B points **toward the magnet's south pole** (i.e., opposite to the axial direction).  \nA poor answer (e.g., \"sprinkle iron filings\" — not allowed per materials list, or \"compass points to geographic north\" — ignores magnet's field) reveals inability to design a controlled field-mapping experiment and confusion between Earth's field and the magnet's field.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A bar magnet is a rectangular piece of ______ material (such as iron, steel, or alnico) that exhibits permanent magnetic properties with two distinct poles — a north pole and a south pole — separated by a distance called the magnetic length.",
+     "a": "ferromagnetic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: take a bar magnet from the school physics lab, place it on a table, and ______ iron filings around it — the filings align in curved patterns emanating from the ends and entering the opposite ends.",
+     "a": "sprinkle",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) draw correct magnetic field line patterns for a bar magnet and a solenoid, labeling poles and showing continuous closed loops with proper direction (outside: N→S, inside: S→N), (2) explain why magnetic field lines never intersect and why they form closed loops (Gauss's law for magnetism), (3) derive the torque τ = m ×.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world ______: take a bar magnet from the school physics lab, place it on a table, and sprinkle iron filings around it — the filings align in curved patterns emanating from the ends and entering the opposite ends.",
+     "a": "observation",
+     "self_check": true
     }
    ]
   }

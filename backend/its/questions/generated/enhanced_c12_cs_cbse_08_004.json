@@ -27,12 +27,37 @@
     },
     {
      "q": "A student writes the postfix of A + B * C ^ D - E as ABCD^*+E-. Is this correct? If not, identify the exact error and give the correct postfix.",
-     "a": "Incorrect. Error: The student popped ^ and * before pushing - but ^ has higher precedence than *, so ^ should be popped first, then *, then - pushed.  \nCorrect trace:  \nA → A  \n+ → push +  \nB → B  \n* → top +, * > + push *  \nC → C  \n^ → top *, ^ > * push ^  \nD → D  \n- → top ^, - < ^ pop ^ output ^; top *, - < * pop * output *; top +, - = + left-assoc pop + output +; push -  \nE → E  \nEnd → pop -  \nCorrect postfix: ABCD^*+E-? Wait, let's re-evaluate: after popping ^, *, +, stack has -, then E, then pop - → ABCD^*+E-? Actually the student's answer ABCD^*+E- matches this! Let me re-check:  \nStudent's answer: ABCD^*+E-  \nMy trace: output A, B, C, D, then pop ^ → output ^, pop * → output *, pop + → output +, push -, output E, pop - → output -. So ABCD^*+E- is CORRECT.  \nBut wait: The student wrote ABCD^*+E- which is exactly what I got. So the student is correct!  \nBut the question asks \"Is this correct? If not, identify error\". It is correct. So the answer should be: Yes, it is correct. The conversion follows precedence: ^ highest, then *, then + and - same precedence left-assoc.  \nA wrong answer claiming it's incorrect would reveal misunderstanding of precedence hierarchy or associativity.",
+     "a": "(1) Verdict — the student's postfix ABCD^*+E- is correct, (2) The trace — A is output, plus is pushed, B is output, star is pushed above plus, C is output, caret is pushed above star, D is output, (3) Meeting the minus — caret is popped, then star, then plus, because minus shares the lowest precedence and equal-precedence operators pop for left-to-right associativity, so the minus is pushed and popped after E, (4) The logic — precedence decides when an operator leaves the stack and associativity decides ties. A wrong answer claiming the conversion is incorrect reveals misunderstanding of the precedence hierarchy or of associativity.",
      "self_check": true
     },
     {
      "q": "Design an infix expression with at least 3 operators and 2 pairs of parentheses that produces the postfix: AB CD+* EF/- +. Explain your reasoning.",
      "a": "Target postfix: AB CD+* EF/- +  \nReverse-engineer: Last operator is +, so root is +. Left operand: AB CD+* → this is A * (B + C) in infix? Wait: AB CD+* means push A, push B, push C, + → B+C, * → A*(B+C). Right operand: EF/- → E F / -? That's E - (F/?) Actually EF/- means push E, push F, / → F/? No, postfix EF/- means E (F/) -? That's not valid binary. Let's parse: E F / - → push E, push F, / → pop F and ? need two operands. So EF/- is invalid because / needs two operands before it.  \nA valid postfix must have correct operand count. Let's design a valid one: AB+CD-* → (A+B)*(C-D).  \nStudent must produce a valid infix expression and explain how they built it from the postfix tree.  \nA poor answer gives an invalid postfix or cannot map operators to operands, revealing lack of structural understanding of postfix as a tree serialization.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Infix to Postfix conversion is a stack-based algorithm that transforms an arithmetic expression from infix notation (operators between operands, e.g., A + B) to postfix notation (operators after operands, e.g., AB+), using a stack to temporarily hold operators and parentheses while respecting operator precedence and ______ rules.",
+     "a": "associativity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a calculator app that evaluates ______ like \"3 + 4 * 2 / (1 - 5)^2\".",
+     "a": "expressions",
+     "self_check": true
+    },
+    {
+     "q": "What is Infix to Postfix conversion? State the definition given in this lesson.",
+     "a": "Infix to Postfix conversion is a stack-based algorithm that transforms an arithmetic expression from infix notation (operators between operands, e.g., A + B) to postfix notation (operators after operands, e.g., AB+), using a stack to temporarily hold operators and parentheses while respecting operator precedence and associativity rules.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Infix to Postfix conversion?",
+     "a": "Students consistently treat ^ (exponentiation) as left-associative like * and /, writing A ^ B ^ C → AB^C^ instead of ABC^^.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Given any valid infix expression containing variables/constants, operators (+, -, *, /, ^), and parentheses, the student must correctly produce the equivalent postfix expression by tracing the stack algorithm step-by-step, showing the stack contents and output at each scan, and justify each push/pop decision using precedence and.",
      "self_check": true
     }
    ]

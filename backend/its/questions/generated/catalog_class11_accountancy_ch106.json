@@ -1,34 +1,315 @@
 {
- "catalog": "catalog_class11_accountancy_ch106",
+ "catalog": "catalog_class11_accountancy_ch106.json",
  "concepts": [
   {
    "id": "keac.106.1",
    "title": "Trial Balance Agreement Check",
+   "converted_to_compute": true,
+   "formula": "difference = abs(total_debits - total_credits)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "difference = abs(total_debits - total_credits)",
+     "compute": "difference = abs(total_debits - total_credits)"
+    }
+   ],
    "questions": [
     {
-     "q": "Calculate the difference in trial balance. Use the method 'Trial Balance Agreement Check'. Work with: total_credits = 8, total_debits = 8. Carry the chain through step by step and give the final value of difference.",
-     "a": "0 rupees",
+     "q": "For Trial Balance Agreement Check: given total_debits = 84, total_credits = 2.6, find difference.",
+     "a": "81.4",
      "self_check": false
     },
     {
-     "q": "Find the trial balance discrepancy. Use the method 'Trial Balance Agreement Check'. Work with: total_credits = 100, total_debits = 25. Carry the chain through step by step and give the final value of difference.",
-     "a": "75 rupees",
+     "q": "For Trial Balance Agreement Check: given total_debits = 24, total_credits = 53, find difference.",
+     "a": "29",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Trial Balance Agreement Check' refers to.",
-     "a": "A verification procedure that compares the total of all debit balances against the total of all credit balances to ensure arithmetical consistency.",
-     "self_check": true
+     "q": "For Trial Balance Agreement Check: given total_debits = 12.4, total_credits = 98, find difference.",
+     "a": "85.6",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Trial Balance Agreement Check'.",
-     "a": "In double-entry bookkeeping, total debits must equal total credits.",
-     "self_check": true
+     "q": "For Trial Balance Agreement Check: given total_debits = 24, total_credits = 32, find difference.",
+     "a": "8",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Trial Balance Agreement Check', in plain ASCII form.",
-     "a": "difference = abs(total_debits - total_credits)",
-     "self_check": true
+     "q": "For Trial Balance Agreement Check: given total_debits = 71, total_credits = 59, find difference.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "For Trial Balance Agreement Check: given total_debits = 27, total_credits = 24, find difference.",
+     "a": "3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.106.4",
+   "title": "Rectification of Short Amount Posting",
+   "converted_to_compute": true,
+   "formula": "rectification_amount = correct_amount - recorded_amount",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rectification_amount = correct_amount - recorded_amount",
+     "compute": "rectification_amount = correct_amount - recorded_amount"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keac.106.4",
+     "question_pattern": "find the amount needed to correct a short credit of {correct_amount} instead of {recorded_amount}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Rectification of Short Amount Posting: given correct_amount = 95, recorded_amount = 63, find rectification amount.",
+     "a": "32",
+     "self_check": false
+    },
+    {
+     "q": "find the amount needed to correct a short credit of 95 instead of 63?",
+     "a": "32",
+     "self_check": false
+    },
+    {
+     "q": "For Rectification of Short Amount Posting: given correct_amount = 107, recorded_amount = 47, find rectification amount.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "find the amount needed to correct a short credit of 107 instead of 47?",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "For Rectification of Short Amount Posting: given correct_amount = 30, recorded_amount = 73, find rectification amount.",
+     "a": "-43",
+     "self_check": false
+    },
+    {
+     "q": "find the amount needed to correct a short credit of 30 instead of 73?",
+     "a": "-43",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.106.5",
+   "title": "Rectification of Excess Amount Posting",
+   "converted_to_compute": true,
+   "formula": "rectification_amount = recorded_amount - correct_amount",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rectification_amount = recorded_amount - correct_amount",
+     "compute": "rectification_amount = recorded_amount - correct_amount"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keac.106.5",
+     "question_pattern": "find the amount needed to correct an over-recorded credit of {recorded_amount} instead of {correct_amount}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Rectification of Excess Amount Posting: given recorded_amount = 2.6, correct_amount = 64, find rectification amount.",
+     "a": "-61.4",
+     "self_check": false
+    },
+    {
+     "q": "find the amount needed to correct an over-recorded credit of 2.6 instead of 64?",
+     "a": "-61.4",
+     "self_check": false
+    },
+    {
+     "q": "For Rectification of Excess Amount Posting: given recorded_amount = 13.5, correct_amount = 5.2, find rectification amount.",
+     "a": "8.3",
+     "self_check": false
+    },
+    {
+     "q": "find the amount needed to correct an over-recorded credit of 13.5 instead of 5.2?",
+     "a": "8.3",
+     "self_check": false
+    },
+    {
+     "q": "For Rectification of Excess Amount Posting: given recorded_amount = 17.2, correct_amount = 20, find rectification amount.",
+     "a": "-2.8",
+     "self_check": false
+    },
+    {
+     "q": "find the amount needed to correct an over-recorded credit of 17.2 instead of 20?",
+     "a": "-2.8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.106.6",
+   "title": "Rectification of Wrong Side Posting",
+   "converted_to_compute": true,
+   "formula": "rectification_amount = 2 * correct_amount",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rectification_amount = 2 * correct_amount",
+     "compute": "rectification_amount = 2 * correct_amount"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keac.106.6",
+     "question_pattern": "calculate the rectification amount when a debit of {correct_amount} is wrongly credited"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Rectification of Wrong Side Posting: given correct_amount = 15, find rectification amount.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "calculate the rectification amount when a debit of 15 is wrongly credited?",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "For Rectification of Wrong Side Posting: given correct_amount = 55, find rectification amount.",
+     "a": "110",
+     "self_check": false
+    },
+    {
+     "q": "calculate the rectification amount when a debit of 55 is wrongly credited?",
+     "a": "110",
+     "self_check": false
+    },
+    {
+     "q": "For Rectification of Wrong Side Posting: given correct_amount = 103, find rectification amount.",
+     "a": "206",
+     "self_check": false
+    },
+    {
+     "q": "calculate the rectification amount when a debit of 103 is wrongly credited?",
+     "a": "206",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.106.7",
+   "title": "Rectification of Wrong Side and Wrong Amount",
+   "converted_to_compute": true,
+   "formula": "rectification_amount = correct_amount + wrong_amount",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rectification_amount = correct_amount + wrong_amount",
+     "compute": "rectification_amount = correct_amount + wrong_amount"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keac.106.7",
+     "question_pattern": "calculate the rectification amount when a debit of {correct_amount} is wrongly credited as {wrong_amount}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Rectification of Wrong Side and Wrong Amount: given correct_amount = 35, wrong_amount = 57, find rectification amount.",
+     "a": "92",
+     "self_check": false
+    },
+    {
+     "q": "calculate the rectification amount when a debit of 35 is wrongly credited as 57?",
+     "a": "92",
+     "self_check": false
+    },
+    {
+     "q": "For Rectification of Wrong Side and Wrong Amount: given correct_amount = 53, wrong_amount = 45, find rectification amount.",
+     "a": "98",
+     "self_check": false
+    },
+    {
+     "q": "calculate the rectification amount when a debit of 53 is wrongly credited as 45?",
+     "a": "98",
+     "self_check": false
+    },
+    {
+     "q": "For Rectification of Wrong Side and Wrong Amount: given correct_amount = 11.4, wrong_amount = 100, find rectification amount.",
+     "a": "111.4",
+     "self_check": false
+    },
+    {
+     "q": "calculate the rectification amount when a debit of 11.4 is wrongly credited as 100?",
+     "a": "111.4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.106.8",
+   "title": "Suspense Account Balance Determination",
+   "converted_to_compute": true,
+   "formula": "suspense_balance = total_debits - total_credits",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "suspense_balance = total_debits - total_credits",
+     "compute": "suspense_balance = total_debits - total_credits"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keac.106.8",
+     "question_pattern": "what is the suspense account balance given total debits of {total_debits} and total credits of {total_credits}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Suspense Account Balance Determination: given total_debits = 66, total_credits = 41, find suspense balance.",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "what is the suspense account balance given total debits of 66 and total credits of 41?",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "For Suspense Account Balance Determination: given total_debits = 30, total_credits = 100, find suspense balance.",
+     "a": "-70",
+     "self_check": false
+    },
+    {
+     "q": "what is the suspense account balance given total debits of 30 and total credits of 100?",
+     "a": "-70",
+     "self_check": false
+    },
+    {
+     "q": "For Suspense Account Balance Determination: given total_debits = 43, total_credits = 23, find suspense balance.",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "what is the suspense account balance given total debits of 43 and total credits of 23?",
+     "a": "20",
+     "self_check": false
     }
    ]
   },
@@ -80,161 +361,6 @@
     {
      "q": "Write the standard relation used for 'Transposition Error Check', in plain ASCII form.",
      "a": "is_transposition = (difference % 9 == 0)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.106.4",
-   "title": "Rectification of Short Amount Posting",
-   "questions": [
-    {
-     "q": "Calculate the rectification amount for short debit. Use the method 'Rectification of Short Amount Posting'. Work with: correct_amount = 80000, recorded_amount = 1200. Carry the chain through step by step and give the final value of rectification_amount.",
-     "a": "78800 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the amount needed to correct a short credit of ... instead of .... Use the method 'Rectification of Short Amount Posting'. Work with: correct_amount = 80000, recorded_amount = 80000. Carry the chain through step by step and give the final value of rectification_amount.",
-     "a": "0 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Rectification of Short Amount Posting' refers to.",
-     "a": "Correcting an error where a transaction is posted to the correct side of an account but with a lower amount than required.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Rectification of Short Amount Posting'.",
-     "a": "Add the difference to the same side of the account to bring it to the correct balance.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Rectification of Short Amount Posting', in plain ASCII form.",
-     "a": "rectification_amount = correct_amount - recorded_amount",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.106.5",
-   "title": "Rectification of Excess Amount Posting",
-   "questions": [
-    {
-     "q": "Calculate the rectification amount for excess debit. Use the method 'Rectification of Excess Amount Posting'. Work with: correct_amount = 2500, recorded_amount = 2500. Carry the chain through step by step and give the final value of rectification_amount.",
-     "a": "0 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the amount needed to correct an over-recorded credit of ... instead of .... Use the method 'Rectification of Excess Amount Posting'. Work with: correct_amount = 5000, recorded_amount = 12000. Carry the chain through step by step and give the final value of rectification_amount.",
-     "a": "7000 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Rectification of Excess Amount Posting' refers to.",
-     "a": "Correcting an error where a transaction is posted to the correct side of an account but with a higher amount than required.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Rectification of Excess Amount Posting'.",
-     "a": "Reverse the excess amount by posting it to the opposite side of the same account.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Rectification of Excess Amount Posting', in plain ASCII form.",
-     "a": "rectification_amount = recorded_amount - correct_amount",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.106.6",
-   "title": "Rectification of Wrong Side Posting",
-   "questions": [
-    {
-     "q": "Calculate the rectification amount when a debit of ... is wrongly credited. Use the method 'Rectification of Wrong Side Posting'. Work with: correct_amount = 80000. Carry the chain through step by step and give the final value of rectification_amount.",
-     "a": "160000 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the adjustment amount for posting ... to the wrong side of the account. Use the method 'Rectification of Wrong Side Posting'. Work with: correct_amount = 1200. Carry the chain through step by step and give the final value of rectification_amount.",
-     "a": "2400 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Rectification of Wrong Side Posting' refers to.",
-     "a": "Correcting an error where an entry is posted to the wrong side of an account with the correct amount.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Rectification of Wrong Side Posting'.",
-     "a": "To rectify a wrong side posting, double the correct amount is posted to the opposite side.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Rectification of Wrong Side Posting', in plain ASCII form.",
-     "a": "rectification_amount = 2 * correct_amount",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.106.7",
-   "title": "Rectification of Wrong Side and Wrong Amount",
-   "questions": [
-    {
-     "q": "Calculate the rectification amount when a debit of ... is wrongly credited as .... Use the method 'Rectification of Wrong Side and Wrong Amount'. Work with: correct_amount = 8000, wrong_amount = 8000. Carry the chain through step by step and give the final value of rectification_amount.",
-     "a": "16000 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the adjustment amount for posting ... to the wrong side as .... Use the method 'Rectification of Wrong Side and Wrong Amount'. Work with: correct_amount = 20000, wrong_amount = 80000. Carry the chain through step by step and give the final value of rectification_amount.",
-     "a": "100000 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Rectification of Wrong Side and Wrong Amount' refers to.",
-     "a": "Correcting an error where an entry is posted to the wrong side of an account with an incorrect amount.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Rectification of Wrong Side and Wrong Amount'.",
-     "a": "The rectification amount is the sum of the wrong amount (to cancel it) and the correct amount (to record it).",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Rectification of Wrong Side and Wrong Amount', in plain ASCII form.",
-     "a": "rectification_amount = correct_amount + wrong_amount",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.106.8",
-   "title": "Suspense Account Balance Determination",
-   "questions": [
-    {
-     "q": "Calculate the initial balance of suspense account. Use the method 'Suspense Account Balance Determination'. Work with: total_credits = 6, total_debits = 30. Carry the chain through step by step and give the final value of suspense_balance.",
-     "a": "24 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the difference to be put in suspense account. Use the method 'Suspense Account Balance Determination'. Work with: total_credits = 120, total_debits = 240. Carry the chain through step by step and give the final value of suspense_balance.",
-     "a": "120 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Suspense Account Balance Determination' refers to.",
-     "a": "Determining the initial or remaining balance of the suspense account needed to temporarily balance the trial balance.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Suspense Account Balance Determination'.",
-     "a": "The suspense account absorbs the difference between debits and credits until all errors are located.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Suspense Account Balance Determination', in plain ASCII form.",
-     "a": "suspense_balance = total_debits - total_credits",
      "self_check": true
     }
    ]

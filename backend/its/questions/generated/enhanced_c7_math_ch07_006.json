@@ -34,6 +34,26 @@
      "q": "Design a scenario using a triangular garden plot in Mumbai with sides measuring $5\\text{ m}$, $12\\text{ m}$, and $13\\text{ m}$ (a right-angled triangle) where knowing the exact location of the altitudes and their intersection point is necessary for installing a vertical sprinkler system. Describe where the sprinkler (orthocenter) must be placed.",
      "a": "The expected response must recognize that for a right-angled triangle ($5\\text{ m}, 12\\text{ m}, 13\\text{ m}$ where $5^2 + 12^2 = 13^2$), the two shorter sides act as perpendicular altitudes to each other. Therefore, the intersection of the altitudes (the orthocenter) lies precisely at the vertex containing the right angle. A poor answer would place the sprinkler inside the middle of the field or outside without geometric justification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An altitude of a triangle is a ______ line segment drawn from a vertex of the triangle to the line containing the opposite side, forming a 90-degree angle with that base.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing on top of a sliding hill shaped like a ______ playground at your school in Delhi, and you want to measure the exact vertical height from the highest corner straight down to the ground boundary opposite to it.",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An altitude of a triangle is a perpendicular line segment drawn from a vertex of the triangle to the line containing the opposite side, forming a ______-degree angle with that base.",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can construct all three altitudes for acute, right-angled, and obtuse triangles using a ruler and set-square or compass, and can correctly identify whether the orthocenter lies inside, on, or outside the triangle.",
+     "self_check": true
     }
    ]
   }

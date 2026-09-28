@@ -34,6 +34,31 @@
      "q": "Design a communication infrastructure plan for a hypothetical new smart city in central India (latitude 23°N, longitude 80°E) that must support 1 million residents, high-speed internet for all, disaster-resilient emergency alerts, and low-cost access for low-income groups. Annotate a sketch map with your chosen technologies and justify each.",
      "a": "A good plan includes: (1) City-wide OFC backbone in ring topology for redundancy; (2) 5G small cells on street furniture for last-mile mobile broadband; (3) Community Wi-Fi hotspots in slums/low-income areas subsidised by municipal budget; (4) Satellite-linked emergency broadcast system (e.g., ISRO's NavIC/IRNSS integration) independent of ground power; (5) Public access kiosks with vernacular interfaces. Justification must link each technology to a specific requirement (capacity, resilience, equity). A poor plan relies on a single technology (e.g., only 5G) and ignores terrain, power backup, or affordability.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Communication services are tertiary activities that enable the exchange of information, ideas, and messages between individuals (personal communication) or from one source to a large, dispersed audience (mass communication) using technological infrastructure such as postal networks, ______, broadcasting, satellite systems, and the internet.",
+     "a": "telecommunications",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by observing your own ______: you can video-call a relative in another state, stream a live news broadcast from Delhi, and access a government portal — all simultaneously.",
+     "a": "smartphone",
+     "self_check": true
+    },
+    {
+     "q": "What is Communication services? State the definition given in this lesson.",
+     "a": "Communication services are tertiary activities that enable the exchange of information, ideas, and messages between individuals (personal communication) or from one source to a large, dispersed audience (mass communication) using technological infrastructure such as postal networks, telecommunications, broadcasting, satellite systems.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Communication services?",
+     "a": "Students often think \"mass communication\" means only television and radio, and that \"personal communication\" is only postal letters or landline phones.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how optic fiber cables, satellites, and the internet have transformed the speed, cost, and reach of communication, and can analyse the spatial pattern of internet penetration in India using census/data maps.",
+     "self_check": true
     }
    ]
   }

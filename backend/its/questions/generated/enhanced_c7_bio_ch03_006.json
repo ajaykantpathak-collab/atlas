@@ -27,12 +27,22 @@
     },
     {
      "q": "A farmer notices that crops grown in a tightly sealed greenhouse with restricted air circulation grow slower than those in an open field, even though watering and sunlight are identical. Evaluate this observation using your knowledge of plant nutrition.",
-     "a": "[Answer needed]",
+     "a": "The sealed greenhouse slows growth because the crops use up the limited carbon dioxide in the enclosed air, and with no fresh supply of this raw material photosynthesis slows and less food is made, even though water and sunlight are unchanged. A student who blames soil nutrients has missed that air composition is the limiting factor in a closed space.",
      "self_check": true
     },
     {
      "q": "The closed greenhouse depletes the available atmospheric carbon dioxide as plants consume it, leading to a shortage of this vital raw material for photosynthesis. Without a steady supply of $\\text{CO}_2$ from fresh air, the rate of food production drops, stunting growth. A student who blames lack of soil nutrients misses the key environmental factor of air composition in a sealed space.",
-     "a": "[Answer needed]",
+     "a": "This explanation is correct: in a sealed space the crops exhaust the carbon dioxide around their leaves, so the rate of food production falls and growth is stunted. A student who blames a lack of soil nutrients has overlooked the role of air composition in a closed greenhouse.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you sit under a shady neem tree on a warm afternoon in Delhi, you feel the cool air around you, but you might not realize that the leaves above are actively ______ in an invisible gas—carbon dioxide—and turning it into solid food.",
+     "a": "breathing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you sit under a shady neem tree on a warm ______ in Delhi, you feel the cool air around you, but you might not realize that the leaves above are actively breathing in an invisible gas—carbon dioxide—and turning it into solid food.",
+     "a": "afternoon",
      "self_check": true
     }
    ]

@@ -34,6 +34,26 @@
      "q": "Design an experiment using ¹⁴CO₂ pulse-chase labelling to determine whether a newly discovered plant uses the C3 or C4 pathway. Specify the time points, compounds to analyse, and expected labelling patterns for each pathway.",
      "a": "Pulse: expose illuminated leaf to ¹⁴CO₂ for 5 sec. Chase: transfer to unlabelled air. Sample at 5 sec, 30 sec, 2 min. Analyse via chromatography/autoradiography. C3: ¹⁴C appears first in 3-PGA (C3 acid) at 5 sec, then sugar phosphates. C4: ¹⁴C appears first in oxaloacetate/malate (C4 acids) at 5 sec, *then* in 3-PGA/sugars at 30 sec+ after transport to bundle sheath. A poor answer tests only final products (starch) or uses single time point — missing the kinetic signature of the *first stable labelled product*, which defines the pathway.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Calvin Cycle is a cyclic series of enzyme-catalysed reactions occurring in the stroma of chloroplasts where atmospheric CO₂ is fixed into organic molecules using ATP and NADPH from light reactions, ultimately producing ______-3-phosphate (G3P) for sugar synthesis while regenerating the CO₂ acceptor ribulose-1,5-bisphosphate (RuBP).",
+     "a": "glyceraldehyde",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine holding a grain of wheat — every carbon in its starch came from invisible CO₂ gas captured by a 5-carbon sugar in a leaf's ______.",
+     "a": "chloroplast",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine holding a grain of wheat — every carbon in its starch came from invisible CO₂ gas captured by a ______-carbon sugar in a leaf's chloroplast.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can trace the carbon atoms through all three phases (carboxylation, reduction, regeneration) for 3 turns of the cycle, calculate ATP/NADPH requirements per CO₂ and per glucose, and explain why RuBisCO's dual activity necessitates the C4 pathway in certain plants.",
+     "self_check": true
     }
    ]
   }

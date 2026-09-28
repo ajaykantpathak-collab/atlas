@@ -22,7 +22,7 @@
     },
     {
      "q": "Matrix P is 4 × 4. Matrix Q is 1 × 4. Matrix R is 4 × 1. Which of the following sums are defined? (i) P + Q, (ii) Q + R, (iii) P + (transpose of Q). Justify each using order compatibility and matrix types.",
-     "a": "(i) Not defined: P is 4 × 4 (square), Q is 1 × 4 (row) — different orders. (ii) Not defined: Q is 1 × 4 (row), R is 4 × 1 (column) — different orders. (iii) Defined: Qᵀ is 4 × 1 (column), but P is 4 × 4 — still different orders, so NOT defined. Wait: Qᵀ is 4 × 1, P is 4 × 4 → not same order. So none are defined. A student who says (iii) is defined because \"both have 4 rows\" misses that columns must also match (4 vs 1). This tests understanding that addition requires identical order, not just same row count.",
+     "a": "(i) Not defined: P is 4 × 4 (square), Q is 1 × 4 (row) — different orders. (ii) Not defined: Q is 1 × 4 (row), R is 4 × 1 (column) — different orders. (iii) Defined: Qᵀ is 4 × 1 (column), but P is 4 × 4 — still different orders, so NOT defined. Wait: Qᵀ is 4 × 1, P is 4 × 4 → not same order. So N/A are defined. A student who says (iii) is defined because \"both have 4 rows\" misses that columns must also match (4 vs 1). This tests understanding that addition requires identical order, not just same row count.",
      "self_check": true
     },
     {
@@ -33,6 +33,26 @@
     {
      "q": "Create a real-world scenario (Indian context: marks, prices, distances) that can be represented by a row matrix, a column matrix, a square matrix, and a diagonal matrix — all in one situation. Describe the data and the matrix for each type.",
      "a": "Scenario: A school canteen sells 3 items (samosa ₹15, chai ₹10, sandwich ₹30) over 3 days (Mon, Tue, Wed). \n- Row matrix (1 × 3): Prices of the 3 items on Monday = [15, 10, 30].\n- Column matrix (3 × 1): Number of samosas sold on Mon, Tue, Wed = [[20], [25], [18]].\n- Square matrix (3 × 3): Sales matrix where rows = items, columns = days, entry = quantity sold.\n- Diagonal matrix (3 × 3): Profit per item per day if only diagonal days have profit (e.g., special offer days) = diag(500, 600, 450).\nA poor answer uses the same matrix for all types or doesn't justify the structure — shows inability to map real data to matrix shapes.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A matrix is ______ by its shape: a row matrix has exactly one row (order 1 × n), a column matrix has exactly one column (order m × 1), a square matrix has equal number of rows and columns (order n × n), and a diagonal matrix is a square matrix where all off-diagonal elements are zero (aᵢⱼ = 0 for i ≠ j).",
+     "a": "classified",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are organising the Class 12 timetable: 5 days × 8 periods gives a 5 × 8 ______.",
+     "a": "matrix",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) identify the type of any given matrix by inspecting its order and element pattern, (2) construct examples of each type with specified orders, (3) explain why a given matrix does or does not belong to a type using the defining conditions, and (4) distinguish diagonal matrices from scalar and identity matrices by checking.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ the Class 12 timetable: 5 days × 8 periods gives a 5 × 8 matrix.",
+     "a": "organising",
      "self_check": true
     }
    ]

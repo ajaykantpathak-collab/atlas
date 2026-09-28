@@ -74,7 +74,16 @@
      "action": "verify the balance of forces",
      "explain": "when the object moves at constant velocity, friction equals the applied force and net force is zero"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "f_friction = f_applied - f_net",
+     "compute": "f_friction = f_applied - f_net"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.106.3",
@@ -145,7 +154,16 @@
      "explain": "rearrange Newton's second law to isolate mass",
      "compute": "mass = force / acceleration"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "force = mass * acceleration",
+     "compute": "force = mass * acceleration"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.106.5",
@@ -181,14 +199,23 @@
      "action": "state the direction of the gravitational force",
      "explain": "the weight always acts vertically downward toward the center of the Earth"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "force = mass * g",
+     "compute": "force = mass * g"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.106.6",
    "title": "Force and Kinematic Equations",
    "section": "6.5",
    "definition": "The integration of Newton's second law with equations of motion to determine forces, velocities, or stopping distances.",
-   "formula": "acceleration = (final_velocity - initial_velocity) / time, force = mass * acceleration",
+   "formula": "acceleration = (final_velocity - initial_velocity) / time; force = mass * acceleration",
    "key_idea": "Kinematics provides the acceleration variable needed to evaluate force or displacement.",
    "textbook_ref": "iesc106.txt lines 240-310",
    "question_patterns": [
@@ -218,7 +245,22 @@
      "explain": "use the kinematic equation v^2 = u^2 + 2*a*s to find displacement, or v = u + a*t to find the time of contact",
      "compute": "distance = (final_velocity**2 - initial_velocity**2) / (2 * acceleration)"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "acceleration = (final_velocity - initial_velocity) / time",
+     "compute": "acceleration = (final_velocity - initial_velocity) / time"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "force = mass * acceleration",
+     "compute": "force = mass * acceleration"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.106.7",
@@ -254,7 +296,16 @@
      "explain": "equal forces produce different accelerations because the masses of the bullet and gun differ",
      "compute": "acceleration_ratio = mass_large / mass_small"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "acceleration = force / mass",
+     "compute": "acceleration = force / mass"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.106.8",
@@ -291,7 +342,16 @@
      "explain": "the tension equals the force needed to accelerate the trailing mass at the common acceleration",
      "compute": "tension = mass_2 * acceleration"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "acceleration = force / (mass_1 + mass_2)",
+     "compute": "acceleration = force / (mass_1 + mass_2)"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

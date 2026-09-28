@@ -34,6 +34,31 @@
      "q": "Create a scenario where the number -5 is used.",
      "a": "A valid answer describes a temperature, a floor, or a financial situation below zero. A poor answer (like \"the number of apples\") is incorrect because objects cannot be counted in negative quantities in this context; the scenario must imply a direction or status relative to a zero point.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Integers are a ______ of numbers that include all natural numbers (1, 2, 3...), their negative opposites (-1, -2, -3...), and zero, which serves as the neutral reference point.",
+     "a": "collection",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever wondered how a lift knows to go to \"______ -1\" in a basement, or how a weather reporter says it is \"minus 5 degrees\"?",
+     "a": "Floor",
+     "self_check": true
+    },
+    {
+     "q": "What is Integers? State the definition given in this lesson.",
+     "a": "Integers are a collection of numbers that include all natural numbers (1, 2, 3...), their negative opposites (-1, -2, -3...), and zero, which serves as the neutral reference point.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Integers?",
+     "a": "Students often believe that -10 is \"larger\" than -2 because 10 is a larger number than 2.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to represent real-world situations (e.g., depths, debts, temperatures) as positive or negative integers and correctly compare their values on a number line.",
+     "self_check": true
     }
    ]
   }

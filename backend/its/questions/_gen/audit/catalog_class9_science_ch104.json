@@ -1,0 +1,308 @@
+{
+ "catalog": "catalog_class9_science_ch104.json",
+ "concepts": [
+  {
+   "id": "iesc.104.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total_distance = 34",
+      "time_interval = 90",
+      "avg_speed = total_distance / time_interval"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total_distance = 179",
+      "time_interval = 37",
+      "avg_speed = total_distance / time_interval"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_distance = 192",
+      "time_interval = 56",
+      "avg_speed = total_distance / time_interval"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total_distance = 381",
+      "time_interval = 10.9",
+      "avg_speed = total_distance / time_interval"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "total_distance = 213",
+      "time_interval = 91",
+      "avg_speed = total_distance / time_interval"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total_distance = 192",
+      "time_interval = 93",
+      "avg_speed = total_distance / time_interval"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "avg_speed = total_distance / time_interval"
+   ]
+  },
+  {
+   "id": "iesc.104.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "displacement = 352",
+      "time_interval = 112",
+      "avg_velocity = displacement / time_interval"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "displacement = 326",
+      "time_interval = 80",
+      "avg_velocity = displacement / time_interval"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "displacement = 412",
+      "time_interval = 86",
+      "avg_velocity = displacement / time_interval"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "displacement = 231",
+      "time_interval = 86",
+      "avg_velocity = displacement / time_interval"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "displacement = 383",
+      "time_interval = 4.8",
+      "avg_velocity = displacement / time_interval"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "displacement = 348",
+      "time_interval = 37",
+      "avg_velocity = displacement / time_interval"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "avg_velocity = displacement / time_interval"
+   ]
+  },
+  {
+   "id": "iesc.104.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "final_velocity = 97",
+      "initial_velocity = 100",
+      "time_interval = 29",
+      "avg_acceleration = (final_velocity - initial_velocity) / time_interval"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "final_velocity = 48",
+      "initial_velocity = 103",
+      "time_interval = 36",
+      "avg_acceleration = (final_velocity - initial_velocity) / time_interval"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "final_velocity = 61",
+      "initial_velocity = 20",
+      "time_interval = 8.9",
+      "avg_acceleration = (final_velocity - initial_velocity) / time_interval"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "final_velocity = 81",
+      "initial_velocity = 66",
+      "time_interval = 92",
+      "avg_acceleration = (final_velocity - initial_velocity) / time_interval"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "final_velocity = 49",
+      "initial_velocity = 66",
+      "time_interval = 14.7",
+      "avg_acceleration = (final_velocity - initial_velocity) / time_interval"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "final_velocity = 43",
+      "initial_velocity = 23",
+      "time_interval = 91",
+      "avg_acceleration = (final_velocity - initial_velocity) / time_interval"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "avg_acceleration = (final_velocity - initial_velocity) / time_interval"
+   ]
+  },
+  {
+   "id": "iesc.104.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "u = 2.2",
+      "a = 15.5",
+      "t = 88",
+      "v = u + a * t"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "u = 64",
+      "a = 35",
+      "t = 56",
+      "v = u + a * t"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "u = 83",
+      "a = 54",
+      "t = 94",
+      "v = u + a * t"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "u = 57",
+      "a = 79",
+      "t = 92",
+      "v = u + a * t"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "u = 7.7",
+      "a = 27",
+      "t = 53",
+      "v = u + a * t"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "u = 3.4",
+      "a = 82",
+      "t = 69",
+      "v = u + a * t"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "v = u + a * t"
+   ]
+  },
+  {
+   "id": "iesc.104.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "u = 69",
+      "t = 63",
+      "a = 46",
+      "s = u * t + 0.5 * a * t**2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "u = 48",
+      "t = 73",
+      "a = 94",
+      "s = u * t + 0.5 * a * t**2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "u = 53",
+      "t = 67",
+      "a = 15.2",
+      "s = u * t + 0.5 * a * t**2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "u = 31",
+      "t = 2.8",
+      "a = 90",
+      "s = u * t + 0.5 * a * t**2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "u = 38",
+      "t = 63",
+      "a = 2.5",
+      "s = u * t + 0.5 * a * t**2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "u = 33",
+      "t = 80",
+      "a = 56",
+      "s = u * t + 0.5 * a * t**2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "s = u * t + 0.5 * a * t**2"
+   ]
+  }
+ ]
+}

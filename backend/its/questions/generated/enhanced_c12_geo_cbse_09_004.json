@@ -34,6 +34,21 @@
      "q": "Design a choropleth map legend (4 classes) to show state-wise decadal growth rates (1991-2001) using the data: low (<15%), moderate (15-20%), high (20-25%), very high (>25%). Assign each class a color and list two states per class from the NCERT description.",
      "a": "Legend: <15% — light yellow (Kerala, Tamil Nadu); 15-20% — orange (Andhra Pradesh, Odisha); 20-25% — red (Uttar Pradesh, Bihar); >25% — dark red (Rajasthan, Madhya Pradesh). A poor answer uses unequal intervals, non-sequential colors, or misclassifies states, revealing inability to translate quantitative data into cartographic representation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Population growth in India since 1901 refers to the change in the total number of ______ over each decadal census period, measured as absolute increase and percentage decadal growth rate, revealing four distinct phases: stagnant (1901-1921), steady growth (1921-1951), rapid explosion (1951-1981), and declining growth (post-1981) driven by interacting birth, death, and migration dynamics.",
+     "a": "inhabitants",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by showing the student a graph of India's ______ from 1901 to 2011 — notice the sharp upward bend after 1951.",
+     "a": "population",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) calculate decadal growth rate from census data using the formula, (2) identify and explain the four phases of India's population growth with causative factors for each phase, (3) interpret regional variations in growth rates across states/UTs and link them to socio-economic determinants, and (4) evaluate the implications.",
+     "self_check": true
     }
    ]
   }

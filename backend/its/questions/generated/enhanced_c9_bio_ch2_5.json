@@ -34,6 +34,31 @@
      "q": "Design a simple microscopic observation activity using prepared slides that would allow a Class 9 student to distinguish between simple cuboidal epithelium (kidney tubule) and simple columnar epithelium (intestine) without relying on labels. List the steps and the key identifying features to observe.",
      "a": "Steps: 1) Focus on low power to see overall tube/cyst structure. 2) Switch to high power (400x). 3) Measure cell height vs. width: cuboidal cells appear roughly square (height ≈ width); columnar cells are distinctly taller than wide (height > 2× width). 4) Look for surface modifications: intestinal columnar epithelium shows a distinct brush border (microvilli) as a fuzzy line; kidney tubule cuboidal epithelium lacks this. 5) Check for goblet cells (mucus-secreting, clear vacuoles) — present in intestine, absent in kidney tubules. A poor answer (e.g., \"count layers\") shows the student relies only on layer number (both are simple) and misses the diagnostic shape ratio and apical specialisations.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Epithelial tissue is a continuous sheet of tightly packed cells with minimal ______ matrix that covers body surfaces, lines cavities and hollow organs, and forms glands; it rests on a basement membrane and is classified by cell shape (squamous, cuboidal, columnar) and number of layers (simple, stratified) with specialized modifications like cilia and microvilli for specific functions.",
+     "a": "extracellular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you accidentally touch a hot pan — your skin instantly protects the ______ tissue from damage.",
+     "a": "underlying",
+     "self_check": true
+    },
+    {
+     "q": "What is Epithelial tissue? State the definition given in this lesson.",
+     "a": "Epithelial tissue is a continuous sheet of tightly packed cells with minimal extracellular matrix that covers body surfaces, lines cavities and hollow organs, and forms glands; it rests on a basement membrane and is classified by cell shape (squamous, cuboidal, columnar) and number of layers (simple, stratified) with specialized.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Epithelial tissue?",
+     "a": "Students believe that \"stratified\" epithelium means the cells themselves are stacked like bricks in a wall, with each cell spanning multiple layers.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify each epithelial type from a microscopic diagram or description, explain how cell shape and layering relate to its specific function (protection, absorption, secretion, filtration), and predict which epithelial type would be found in a given organ based on its physiological role.",
+     "self_check": true
     }
    ]
   }

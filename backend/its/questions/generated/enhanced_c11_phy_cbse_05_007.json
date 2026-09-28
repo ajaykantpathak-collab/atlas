@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a spring balance, a 1 kg mass, and a meter scale to verify that the work done in lifting the mass vertically through 1 m equals the gain in its gravitational potential energy. Describe the procedure and measurements.",
      "a": "Procedure: 1) Hang 1 kg mass from spring balance. 2) Note initial reading (should be 9.8 N). 3) Pull upward slowly at constant velocity for exactly 1 m (measure with meter scale). 4) Record force reading throughout (should remain ~9.8 N if velocity constant). 5) Work done = average force × displacement = 9.8 N × 1 m = 9.8 J. 6) Gain in PE = mgΔh = 1 × 9.8 × 1 = 9.8 J. 7) Compare. A poor answer that suggests accelerating the mass reveals misunderstanding that work-energy theorem requires net work = ΔKE, so constant velocity (ΔKE=0) is needed to isolate work against gravity = ΔPE.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ potential energy near Earth's surface is the energy stored in a body-Earth system due to the body's position (height) relative to a chosen reference level.",
+     "a": "Gravitational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a water tank on a rooftop in an ______ household.",
+     "a": "Indian",
+     "self_check": true
+    },
+    {
+     "q": "What is Gravitational potential energy near Earth's surface? State the definition given in this lesson.",
+     "a": "Gravitational potential energy near Earth's surface is the energy stored in a body-Earth system due to the body's position (height) relative to a chosen reference level.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It is defined as V(h) = mgh, where m is mass (kg), g is acceleration due to gravity (______ m/s²), and h is vertical height above the reference level (m).",
+     "a": "9.8",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Gravitational potential energy near Earth's surface?",
+     "a": "Students believe gravitational potential energy is an absolute property of the object alone (e.g., \"the book has 9.8 J of energy\") rather than a property of the object-Earth system relative to a chosen reference.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can calculate gravitational potential energy changes for vertical displacements, explain why the zero of potential energy is arbitrary but must be fixed consistently, and relate the negative derivative dV/dh to the gravitational force.",
+     "self_check": true
     }
    ]
   }

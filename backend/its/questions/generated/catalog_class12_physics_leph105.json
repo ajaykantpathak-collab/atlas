@@ -1,0 +1,475 @@
+{
+ "catalog": "catalog_class12_physics_leph105.json",
+ "concepts": [
+  {
+   "id": "leph105.5.2.2.1",
+   "title": "Solenoid Picture of a Bar Magnet",
+   "converted_to_compute": true,
+   "formula": "far_field = mu_0 * mag_moment / (4 * pi * dist ** 3)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "far_field = mu_0 * mag_moment / (4 * pi * dist ** 3)",
+     "compute": "far_field = mu_0 * mag_moment / (4 * pi * dist ** 3)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Solenoid Picture of a Bar Magnet: given mu_0 = 26, mag_moment = 100, dist = 11.6, find far field.",
+     "a": "0.132553",
+     "self_check": false
+    },
+    {
+     "q": "For Solenoid Picture of a Bar Magnet: given mu_0 = 33, mag_moment = 88, dist = 81, find far field.",
+     "a": "0.000434842",
+     "self_check": false
+    },
+    {
+     "q": "For Solenoid Picture of a Bar Magnet: given mu_0 = 36, mag_moment = 1.5, dist = 62, find far field.",
+     "a": "0.000018",
+     "self_check": false
+    },
+    {
+     "q": "For Solenoid Picture of a Bar Magnet: given mu_0 = 75, mag_moment = 56, dist = 44, find far field.",
+     "a": "0.00392357",
+     "self_check": false
+    },
+    {
+     "q": "For Solenoid Picture of a Bar Magnet: given mu_0 = 96, mag_moment = 54, dist = 79, find far field.",
+     "a": "0.000836708",
+     "self_check": false
+    },
+    {
+     "q": "For Solenoid Picture of a Bar Magnet: given mu_0 = 8.5, mag_moment = 53, dist = 66, find far field.",
+     "a": "0.000124696",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph105.5.2.3.1",
+   "title": "Torque on a Magnetic Dipole",
+   "converted_to_compute": true,
+   "formula": "dipole_torque = mag_moment * mag_field * sin_tilt",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "dipole_torque = mag_moment * mag_field * sin_tilt",
+     "compute": "dipole_torque = mag_moment * mag_field * sin_tilt"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Torque on a Magnetic Dipole: given mag_moment = 13.7, mag_field = 47, sin_tilt = 16, find dipole torque.",
+     "a": "10302.4",
+     "self_check": false
+    },
+    {
+     "q": "For Torque on a Magnetic Dipole: given mag_moment = 33, mag_field = 99, sin_tilt = 87, find dipole torque.",
+     "a": "284229",
+     "self_check": false
+    },
+    {
+     "q": "For Torque on a Magnetic Dipole: given mag_moment = 42, mag_field = 43, sin_tilt = 104, find dipole torque.",
+     "a": "187824",
+     "self_check": false
+    },
+    {
+     "q": "For Torque on a Magnetic Dipole: given mag_moment = 48, mag_field = 78, sin_tilt = 44, find dipole torque.",
+     "a": "164736",
+     "self_check": false
+    },
+    {
+     "q": "For Torque on a Magnetic Dipole: given mag_moment = 36, mag_field = 59, sin_tilt = 104, find dipole torque.",
+     "a": "220896",
+     "self_check": false
+    },
+    {
+     "q": "For Torque on a Magnetic Dipole: given mag_moment = 20, mag_field = 25, sin_tilt = 76, find dipole torque.",
+     "a": "38000",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph105.5.2.3.2",
+   "title": "Potential Energy of a Tilted Dipole",
+   "converted_to_compute": true,
+   "formula": "dipole_energy = -mag_moment * mag_field * cos_tilt",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "dipole_energy = -mag_moment * mag_field * cos_tilt",
+     "compute": "dipole_energy = -mag_moment * mag_field * cos_tilt"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Potential Energy of a Tilted Dipole: given mag_moment = 90, mag_field = 9.9, cos_tilt = 75, find dipole energy.",
+     "a": "-66825",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Energy of a Tilted Dipole: given mag_moment = 23, mag_field = 81, cos_tilt = 62, find dipole energy.",
+     "a": "-115506",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Energy of a Tilted Dipole: given mag_moment = 17, mag_field = 7.2, cos_tilt = 84, find dipole energy.",
+     "a": "-10281.6",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Energy of a Tilted Dipole: given mag_moment = 48, mag_field = 38, cos_tilt = 35, find dipole energy.",
+     "a": "-63840",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Energy of a Tilted Dipole: given mag_moment = 94, mag_field = 4.3, cos_tilt = 118, find dipole energy.",
+     "a": "-47695.6",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Energy of a Tilted Dipole: given mag_moment = 82, mag_field = 97, cos_tilt = 102, find dipole energy.",
+     "a": "-811308",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph105.5.2.3.3",
+   "title": "Work to Rotate a Magnet in a Field",
+   "converted_to_compute": true,
+   "formula": "work_turn = mag_moment * mag_field * (cos_start - cos_final)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "work_turn = mag_moment * mag_field * (cos_start - cos_final)",
+     "compute": "work_turn = mag_moment * mag_field * (cos_start - cos_final)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Work to Rotate a Magnet in a Field: given mag_moment = 51, mag_field = 53, cos_start = 0.9, cos_final = 0.3, find work turn.",
+     "a": "1621.8",
+     "self_check": false
+    },
+    {
+     "q": "For Work to Rotate a Magnet in a Field: given mag_moment = 75, mag_field = 12.9, cos_start = 0.3, cos_final = 0.6, find work turn.",
+     "a": "-290.25",
+     "self_check": false
+    },
+    {
+     "q": "For Work to Rotate a Magnet in a Field: given mag_moment = 52, mag_field = 52, cos_start = 0.2, cos_final = 0.3, find work turn.",
+     "a": "-270.4",
+     "self_check": false
+    },
+    {
+     "q": "For Work to Rotate a Magnet in a Field: given mag_moment = 77, mag_field = 60, cos_start = 0.7, cos_final = 0.5, find work turn.",
+     "a": "924",
+     "self_check": false
+    },
+    {
+     "q": "For Work to Rotate a Magnet in a Field: given mag_moment = 1.4, mag_field = 62, cos_start = 0.5, cos_final = 0.8, find work turn.",
+     "a": "-26.04",
+     "self_check": false
+    },
+    {
+     "q": "For Work to Rotate a Magnet in a Field: given mag_moment = 43, mag_field = 63, cos_start = 1, cos_final = 0.7, find work turn.",
+     "a": "812.7",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph105.5.2.4.1",
+   "title": "Axial Field of a Short Bar Magnet",
+   "converted_to_compute": true,
+   "formula": "axial_field = 2 * mu_0 * mag_moment / (4 * pi * dist ** 3)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "axial_field = 2 * mu_0 * mag_moment / (4 * pi * dist ** 3)",
+     "compute": "axial_field = 2 * mu_0 * mag_moment / (4 * pi * dist ** 3)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Axial Field of a Short Bar Magnet: given mu_0 = 0.9, mag_moment = 5.8, dist = 2.1, find axial field.",
+     "a": "0.0897083",
+     "self_check": false
+    },
+    {
+     "q": "For Axial Field of a Short Bar Magnet: given mu_0 = 79, mag_moment = 77, dist = 75, find axial field.",
+     "a": "0.00229485",
+     "self_check": false
+    },
+    {
+     "q": "For Axial Field of a Short Bar Magnet: given mu_0 = 100, mag_moment = 13.2, dist = 41, find axial field.",
+     "a": "0.00304819",
+     "self_check": false
+    },
+    {
+     "q": "For Axial Field of a Short Bar Magnet: given mu_0 = 50, mag_moment = 93, dist = 52, find axial field.",
+     "a": "0.00526336",
+     "self_check": false
+    },
+    {
+     "q": "For Axial Field of a Short Bar Magnet: given mu_0 = 81, mag_moment = 41, dist = 0.7, find axial field.",
+     "a": "1540.97",
+     "self_check": false
+    },
+    {
+     "q": "For Axial Field of a Short Bar Magnet: given mu_0 = 55, mag_moment = 52, dist = 65, find axial field.",
+     "a": "0.00165747",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph105.5.2.4.2",
+   "title": "Equatorial Field of a Short Bar Magnet",
+   "converted_to_compute": true,
+   "formula": "equat_field = mu_0 * mag_moment / (4 * pi * dist ** 3)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "equat_field = mu_0 * mag_moment / (4 * pi * dist ** 3)",
+     "compute": "equat_field = mu_0 * mag_moment / (4 * pi * dist ** 3)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Equatorial Field of a Short Bar Magnet: given mu_0 = 84, mag_moment = 7.2, dist = 69, find equat field.",
+     "a": "0.000146506",
+     "self_check": false
+    },
+    {
+     "q": "For Equatorial Field of a Short Bar Magnet: given mu_0 = 17.8, mag_moment = 57, dist = 36, find equat field.",
+     "a": "0.00173052",
+     "self_check": false
+    },
+    {
+     "q": "For Equatorial Field of a Short Bar Magnet: given mu_0 = 90, mag_moment = 60, dist = 11.2, find equat field.",
+     "a": "0.305865",
+     "self_check": false
+    },
+    {
+     "q": "For Equatorial Field of a Short Bar Magnet: given mu_0 = 59, mag_moment = 90, dist = 18.2, find equat field.",
+     "a": "0.0700923",
+     "self_check": false
+    },
+    {
+     "q": "For Equatorial Field of a Short Bar Magnet: given mu_0 = 4.9, mag_moment = 12.4, dist = 60, find equat field.",
+     "a": "0.000022",
+     "self_check": false
+    },
+    {
+     "q": "For Equatorial Field of a Short Bar Magnet: given mu_0 = 9.9, mag_moment = 31, dist = 27, find equat field.",
+     "a": "0.00124078",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph105.5.4.1",
+   "title": "Magnetisation of a Sample",
+   "converted_to_compute": true,
+   "formula": "magnetisation = net_moment / volume",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "magnetisation = net_moment / volume",
+     "compute": "magnetisation = net_moment / volume"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Magnetisation of a Sample: given net_moment = 78, volume = 82, find magnetisation.",
+     "a": "0.95122",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetisation of a Sample: given net_moment = 44, volume = 24, find magnetisation.",
+     "a": "1.83333",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetisation of a Sample: given net_moment = 115, volume = 55, find magnetisation.",
+     "a": "2.09091",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetisation of a Sample: given net_moment = 3.3, volume = 41, find magnetisation.",
+     "a": "0.0804878",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetisation of a Sample: given net_moment = 79, volume = 96, find magnetisation.",
+     "a": "0.822917",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetisation of a Sample: given net_moment = 45, volume = 21, find magnetisation.",
+     "a": "2.14286",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph105.5.4.2",
+   "title": "Magnetisation M and Intensity H",
+   "converted_to_compute": true,
+   "formula": "intensity_field = turns_per_len * current",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "intensity_field = turns_per_len * current",
+     "compute": "intensity_field = turns_per_len * current"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Magnetisation M and Intensity H: given turns_per_len = 366, current = 19.7, find intensity field.",
+     "a": "7210.2",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetisation M and Intensity H: given turns_per_len = 326, current = 27, find intensity field.",
+     "a": "8802",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetisation M and Intensity H: given turns_per_len = 389, current = 27, find intensity field.",
+     "a": "10503",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetisation M and Intensity H: given turns_per_len = 151, current = 23, find intensity field.",
+     "a": "3473",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetisation M and Intensity H: given turns_per_len = 205, current = 2.7, find intensity field.",
+     "a": "553.5",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetisation M and Intensity H: given turns_per_len = 279, current = 12, find intensity field.",
+     "a": "3348",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph105.5.4.3",
+   "title": "Field Inside a Material Core",
+   "converted_to_compute": true,
+   "formula": "core_field = mu_0 * perm_rel * intensity_field",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "core_field = mu_0 * perm_rel * intensity_field",
+     "compute": "core_field = mu_0 * perm_rel * intensity_field"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Field Inside a Material Core: given mu_0 = 24, perm_rel = 15.2, intensity_field = 65, find core field.",
+     "a": "23712",
+     "self_check": false
+    },
+    {
+     "q": "For Field Inside a Material Core: given mu_0 = 78, perm_rel = 24, intensity_field = 92, find core field.",
+     "a": "172224",
+     "self_check": false
+    },
+    {
+     "q": "For Field Inside a Material Core: given mu_0 = 21, perm_rel = 23, intensity_field = 78, find core field.",
+     "a": "37674",
+     "self_check": false
+    },
+    {
+     "q": "For Field Inside a Material Core: given mu_0 = 35, perm_rel = 7.7, intensity_field = 70, find core field.",
+     "a": "18865",
+     "self_check": false
+    },
+    {
+     "q": "For Field Inside a Material Core: given mu_0 = 95, perm_rel = 63, intensity_field = 2.3, find core field.",
+     "a": "13765.5",
+     "self_check": false
+    },
+    {
+     "q": "For Field Inside a Material Core: given mu_0 = 35, perm_rel = 35, intensity_field = 57, find core field.",
+     "a": "69825",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph105.5.4.4",
+   "title": "Susceptibility and Permeability Relations",
+   "converted_to_compute": true,
+   "formula": "perm_rel = 1 + chi",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "perm_rel = 1 + chi",
+     "compute": "perm_rel = 1 + chi"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Susceptibility and Permeability Relations: given chi = 22, find perm rel.",
+     "a": "23",
+     "self_check": false
+    },
+    {
+     "q": "For Susceptibility and Permeability Relations: given chi = 12.5, find perm rel.",
+     "a": "13.5",
+     "self_check": false
+    },
+    {
+     "q": "For Susceptibility and Permeability Relations: given chi = 32, find perm rel.",
+     "a": "33",
+     "self_check": false
+    },
+    {
+     "q": "For Susceptibility and Permeability Relations: given chi = 91, find perm rel.",
+     "a": "92",
+     "self_check": false
+    },
+    {
+     "q": "For Susceptibility and Permeability Relations: given chi = 28, find perm rel.",
+     "a": "29",
+     "self_check": false
+    },
+    {
+     "q": "For Susceptibility and Permeability Relations: given chi = 44, find perm rel.",
+     "a": "45",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

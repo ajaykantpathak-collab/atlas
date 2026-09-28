@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_09_002",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_09_002",
+   "title": "c12_leg_cbse_09_002",
+   "questions": [
+    {
+     "q": "What is the Latin maxim that captures the principle that an act does not make a person guilty unless the mind is also blameworthy? State the maxim and its literal meaning.",
+     "a": "The maxim is **\"actus non facit reum nisi mens sit rea\"** — meaning \"an act does not make a person guilty unless the mind is guilty.\" A wrong answer (e.g., \"ignorantia juris non excusat\" or \"actus reus non facit reum\") reveals the student confuses the **mental element maxim** with the **ignorance of law maxim** or misstates the Latin. This is a foundational definition; mixing it up means the student cannot correctly frame the *mens rea* requirement in any crime analysis.",
+     "self_check": true
+    },
+    {
+     "q": "A lifeguard on duty sees a child drowning in the pool but deliberately does nothing, and the child dies. The lifeguard is charged under the IPC. Explain why this omission constitutes *actus reus*, while a bystander who also does nothing is not criminally liable. Use Section 32 IPC in your reasoning.",
+     "a": "Section 32 IPC states that \"words referring to acts include illegal omissions.\" The lifeguard has a **legal duty** to act (arising from contract/employment), so their failure to rescue is an **illegal omission** = *actus reus*. The bystander has only a **moral duty**, not a legal one — their inaction is a moral omission, not illegal, so no *actus reus*. A wrong answer that says \"both are liable\" or \"neither is liable\" shows the student **does not grasp that *actus reus* requires a legally recognized duty to act**, not just a moral obligation. This distinction is critical for omissions-based crimes.",
+     "self_check": true
+    },
+    {
+     "q": "Ravi intends to kill his enemy Sanjay. He buys a gun (Step 1), loads it (Step 2), drives to Sanjay's house (Step 3), aims at Sanjay through the window (Step 4), but the gun jams and he flees. At which stage does Ravi's liability for **attempt to murder** begin? Justify using the \"preparation vs. attempt\" test.",
+     "a": "Liability for **attempt begins at Step 4 (aiming the gun)**. Steps 1–3 (buying, loading, driving) are **preparation** — they are remote from the actual commission and do not unequivocally show a direct movement toward the crime. Step 4 is an **attempt** because it is a **direct, proximate act** toward killing (the \"last proximate act\" test). A wrong answer placing liability at Step 1, 2, or 3 reveals the student **confuses preparation with attempt** — a classic error. The law punishes only when the accused crosses the \"rubicon\" from preparation to a direct step toward commission.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast **admission** (Section 17, Evidence Act) and **confession** (Sections 24–30, Evidence Act) on these four points: (a) nature of proceeding (civil/criminal), (b) who makes it, (c) evidentiary value, (d) use against co-accused.",
+     "a": "| Point | Admission | Confession |\n|-------|-----------|------------|\n| (a) Proceeding | Civil or criminal | Only criminal |\n| (b) Maker | Any party to proceeding | Only accused person |\n| (c) Evidentiary value | Not conclusive; can be used for/against maker | If voluntary, **conclusive proof** of matters confessed |\n| (d) Against co-accused | Not admissible against others | Admissible against co-accused under Section 30 (same offence, joint trial) |\n\nA wrong answer that says \"confession is a type of admission, so they're the same\" or \"admissions are conclusive\" shows the student **misses the procedural and evidentiary hierarchy** — confession is a **species of admission** with **stricter safeguards and higher probative value**. This distinction decides whether a statement can convict a co-accused.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"A dying declaration is the sole basis for conviction in a murder trial, even without corroboration, if the court finds it voluntary and consistent.\" Is this statement legally correct? Support your answer with the *K.R. Reddy* and *R. Mani* principles.",
+     "a": "**Yes, the statement is correct.** In *K.R. Reddy v. Public Prosecutor* (1976), the SC held that a dying declaration, though not on oath and untested by cross-examination, can be the **sole basis of conviction** if it is **coherent, consistent, trustworthy, and voluntary** — provided the court applies \"strictest scrutiny.\" In *R. Mani v. State of T.N.* (2006), the SC reaffirmed: **no corroboration is legally required** if the declaration meets these criteria. A wrong answer saying \"corroboration is mandatory\" or \"it's weak evidence\" reveals the student **misunderstands the evidentiary weight of Section 32(1) Evidence Act** — dying declarations are **not weaker evidence**; they are a **recognized exception to hearsay** based on the psychological premise that a dying person speaks the truth.",
+     "self_check": true
+    },
+    {
+     "q": "Create a fictional scenario (3–4 sentences) where a person makes a **judicial confession** that is **inadmissible** in court. Explain *why* it is inadmissible using the concept of \"free and voluntary\" consent.",
+     "a": "**Scenario:** *Amit is arrested for theft. In police custody, he is beaten and threatened with false charges unless he confesses before the Magistrate. Terrified, he appears before the Magistrate and says, \"I stole the watch.\" The Magistrate records it as a judicial confession under Section 164 CrPC.*  \n**Why inadmissible:** The confession was **not free and voluntary** — it was extracted by **coercion and torture** in police custody. A judicial confession must be made **freely, in a fit state of mind, without inducement, threat, or promise** (Section 24, Evidence Act). The Magistrate has a duty to ensure voluntariness (e.g., by giving time, removing police presence). A poor answer that says \"it's admissible because it was before a Magistrate\" shows the student **confuses the *form* (judicial) with the *substance* (voluntariness)** — a fatal error in evidence law.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

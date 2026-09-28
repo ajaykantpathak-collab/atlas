@@ -1,6 +1,147 @@
 {
- "catalog": "catalog_class11_economics_ch102",
+ "catalog": "catalog_class11_economics_ch102.json",
  "concepts": [
+  {
+   "id": "keec.102.3",
+   "title": "Gross Domestic Product and Economic Growth",
+   "converted_to_compute": true,
+   "formula": "gdp = agri_output + ind_output + service_output",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "gdp = agri_output + ind_output + service_output",
+     "compute": "gdp = agri_output + ind_output + service_output"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Gross Domestic Product and Economic Growth: given agri_output = 79, ind_output = 13, service_output = 42, find gdp.",
+     "a": "134",
+     "self_check": false
+    },
+    {
+     "q": "For Gross Domestic Product and Economic Growth: given agri_output = 82, ind_output = 63, service_output = 72, find gdp.",
+     "a": "217",
+     "self_check": false
+    },
+    {
+     "q": "For Gross Domestic Product and Economic Growth: given agri_output = 47, ind_output = 66, service_output = 33, find gdp.",
+     "a": "146",
+     "self_check": false
+    },
+    {
+     "q": "For Gross Domestic Product and Economic Growth: given agri_output = 41, ind_output = 11.9, service_output = 88, find gdp.",
+     "a": "140.9",
+     "self_check": false
+    },
+    {
+     "q": "For Gross Domestic Product and Economic Growth: given agri_output = 3.7, ind_output = 62, service_output = 20, find gdp.",
+     "a": "85.7",
+     "self_check": false
+    },
+    {
+     "q": "For Gross Domestic Product and Economic Growth: given agri_output = 91, ind_output = 33, service_output = 52, find gdp.",
+     "a": "176",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keec.102.4",
+   "title": "Structural Composition of GDP",
+   "converted_to_compute": true,
+   "formula": "sector_share = (sector_output / gdp) * 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "sector_share = (sector_output / gdp) * 100",
+     "compute": "sector_share = (sector_output / gdp) * 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Structural Composition of GDP: given sector_output = 45, gdp = 95, find sector share.",
+     "a": "47.3684",
+     "self_check": false
+    },
+    {
+     "q": "For Structural Composition of GDP: given sector_output = 67, gdp = 14.3, find sector share.",
+     "a": "468.531",
+     "self_check": false
+    },
+    {
+     "q": "For Structural Composition of GDP: given sector_output = 92, gdp = 94, find sector share.",
+     "a": "97.8723",
+     "self_check": false
+    },
+    {
+     "q": "For Structural Composition of GDP: given sector_output = 78, gdp = 48, find sector share.",
+     "a": "162.5",
+     "self_check": false
+    },
+    {
+     "q": "For Structural Composition of GDP: given sector_output = 68, gdp = 9.8, find sector share.",
+     "a": "693.878",
+     "self_check": false
+    },
+    {
+     "q": "For Structural Composition of GDP: given sector_output = 47, gdp = 12.2, find sector share.",
+     "a": "385.246",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keec.102.7",
+   "title": "Green Revolution and Marketed Surplus",
+   "converted_to_compute": true,
+   "formula": "marketed_surplus = total_production - farm_consumption",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "marketed_surplus = total_production - farm_consumption",
+     "compute": "marketed_surplus = total_production - farm_consumption"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Green Revolution and Marketed Surplus: given total_production = 1.3, farm_consumption = 15.1, find marketed surplus.",
+     "a": "-13.8",
+     "self_check": false
+    },
+    {
+     "q": "For Green Revolution and Marketed Surplus: given total_production = 77, farm_consumption = 80, find marketed surplus.",
+     "a": "-3",
+     "self_check": false
+    },
+    {
+     "q": "For Green Revolution and Marketed Surplus: given total_production = 86, farm_consumption = 86, find marketed surplus.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Green Revolution and Marketed Surplus: given total_production = 21, farm_consumption = 72, find marketed surplus.",
+     "a": "-51",
+     "self_check": false
+    },
+    {
+     "q": "For Green Revolution and Marketed Surplus: given total_production = 88, farm_consumption = 22, find marketed surplus.",
+     "a": "66",
+     "self_check": false
+    },
+    {
+     "q": "For Green Revolution and Marketed Surplus: given total_production = 17.8, farm_consumption = 81, find marketed surplus.",
+     "a": "-63.2",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "keec.102.1",
    "title": "Types of Economic Systems",
@@ -44,68 +185,6 @@
    ]
   },
   {
-   "id": "keec.102.3",
-   "title": "Gross Domestic Product and Economic Growth",
-   "questions": [
-    {
-     "q": "Calculate gross domestic product from sectoral contributions. Use the method 'Gross Domestic Product and Economic Growth'. Work with: agri_output = 8, ind_output = 400, service_output = 400. Carry the chain through step by step and give the final value of the result.",
-     "a": "808 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find total GDP given output of agriculture, industry, and services. Use the method 'Gross Domestic Product and Economic Growth'. Work with: agri_output = 18, ind_output = 120, service_output = 75. Carry the chain through step by step and give the final value of the result.",
-     "a": "213 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Gross Domestic Product and Economic Growth' refers to.",
-     "a": "Economic growth represents the continuous expansion of a country's total output of goods and services, quantified by the aggregate value produced across all sectors.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Gross Domestic Product and Economic Growth'.",
-     "a": "GDP expansion reflects an increase in national productive capacity and overall economic activity.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Gross Domestic Product and Economic Growth', in plain ASCII form.",
-     "a": "gdp = agri_output + ind_output + service_output",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keec.102.4",
-   "title": "Structural Composition of GDP",
-   "questions": [
-    {
-     "q": "Calculate the percentage contribution of a sector to GDP. Use the method 'Structural Composition of GDP'. Work with: gdp = 1200, sector_output = 5. Carry the chain through step by step and give the final value of the result.",
-     "a": "0.4167 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Find the sectoral share of agriculture or industry in total output. Use the method 'Structural Composition of GDP'. Work with: gdp = 20000, sector_output = 15. Carry the chain through step by step and give the final value of the result.",
-     "a": "0.075 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Structural Composition of GDP' refers to.",
-     "a": "The relative proportion or percentage share that agriculture, industry, and service sectors contribute to the overall Gross Domestic Product.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Structural Composition of GDP'.",
-     "a": "Economic development typically involves a shift in GDP share from primary agriculture toward industry and services.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Structural Composition of GDP', in plain ASCII form.",
-     "a": "sector_share = (sector_output / gdp) * 100",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "keec.102.5",
    "title": "Planning Goals: Modernisation, Self-Reliance, and Equity",
    "questions": [
@@ -143,37 +222,6 @@
     {
      "q": "Under which section is 'Land Reforms and Land Ceiling' taught, and from which source text?",
      "a": "2.3 (source: keec102.txt lines 241-310)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keec.102.7",
-   "title": "Green Revolution and Marketed Surplus",
-   "questions": [
-    {
-     "q": "Calculate the marketed surplus of food grains. Use the method 'Green Revolution and Marketed Surplus'. Work with: farm_consumption = 15, total_production = 75. Carry the chain through step by step and give the final value of the result.",
-     "a": "60 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the quantity of agricultural produce available for market sale. Use the method 'Green Revolution and Marketed Surplus'. Work with: farm_consumption = 30, total_production = 75. Carry the chain through step by step and give the final value of the result.",
-     "a": "45 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Green Revolution and Marketed Surplus' refers to.",
-     "a": "The dramatic increase in food grain production resulting from High Yielding Variety (HYV) seeds, chemical inputs, and controlled irrigation, enabling farmers to sell surplus grain in open markets.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Green Revolution and Marketed Surplus'.",
-     "a": "The excess of crop yield over personal consumption generates marketed surplus, lowering market food prices and building national reserves.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Green Revolution and Marketed Surplus', in plain ASCII form.",
-     "a": "marketed_surplus = total_production - farm_consumption",
      "self_check": true
     }
    ]

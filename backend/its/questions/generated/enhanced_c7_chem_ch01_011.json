@@ -34,6 +34,21 @@
      "q": "Design a simple, safe laboratory or household test procedure to conclusively differentiate an unknown grey rod as either a metal (like iron or aluminum) or a non-metal (like a graphite battery rod). List the steps and expected observations for both outcomes.",
      "a": "To test the unknown rod: \n1. Test conductivity: Connect the rod in a simple electric circuit with a bulb and battery. If the bulb glows, it points toward metal or graphite. \n2. Test malleability: Gently strike the rod with a hammer on a hard surface. If it flattens or bends, it is a metal (malleable). If it shatters into powder, it is brittle (non-metal, or graphite). \n3. Test lustre: Scratch the surface with sandpaper. If it shines brightly underneath, it has metallic lustre. A poor answer would involve dangerous heating or acid tests without clear physical criteria.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Physical properties comparison of metals and non-metals involves systematically contrasting their observable and measurable ______—such as physical state, appearance (lustre), hardness, malleability, ductility, thermal and electrical conductivity, and sonority—where metals generally exhibit high lustre, malleability, ductility, and conductivity, while non-metals display dullness, brittleness, and poor conductivity.",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When walking through your school ______ or kitchen in India, you notice that stainless steel utensils shine brightly and feel heavy, whereas a piece of chalk or coal is dull and breaks easily into powdery bits when pressed.",
+     "a": "laboratory",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can systematically compare and contrast any given pair of elemental samples based on their physical properties, correctly classify them as a metal or non-metal, and justify their classification using at least three distinct physical criteria.",
+     "self_check": true
     }
    ]
   }

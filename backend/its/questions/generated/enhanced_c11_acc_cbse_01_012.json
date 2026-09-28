@@ -34,6 +34,26 @@
      "q": "Create a realistic mini-case (3-4 sentences) where ALL of the following limitations simultaneously mislead a user: historical cost, monetary measurement, price level changes, and exclusion of qualitative factors. Specify the user and the wrong decision they might make.",
      "a": "Example: \"Reliance Textiles shows ₹200 crore net worth (land bought 1995 at ₹5 crore, now worth ₹500 crore; machinery at historical cost ₹50 crore, replacement cost ₹300 crore). The MD's leadership and R&D capability (qualitative) drove a new sustainable fabric line. An investor sees low ROE (profit/₹200 crore) and rejects the stock, missing the ₹800 crore real asset base and growth pipeline.\" A poor answer lists limitations separately without showing their compounding effect—the key insight is that limitations interact multiplicatively, not additively, to distort the complete picture.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of accounting refer to the inherent constraints in financial accounting that restrict its ability to provide a complete, unbiased, and forward-looking picture of an enterprise's economic reality, arising from its historical nature, monetary measurement constraint, reliance on estimates, and exclusion of qualitative factors.",
+     "a": "Limitations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're analyzing two companies for ______: Company A shows ₹50 lakh profit with ₹2 crore assets, Company B shows ₹45 lakh profit with ₹1.8 crore assets.",
+     "a": "investment",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: But what if Company A's assets are inflated by outdated valuations from ______, while Company B's assets reflect current market values?",
+     "a": "2010",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to enumerate at least six distinct limitations of accounting with specific business examples for each, and evaluate how these limitations affect the decision-making of different user groups (investors, creditors, management, regulators).",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a modified MS medium for root induction in a woody species that is sensitive to high ammonium. Specify which component(s) you would change, the new concentrations, and justify each change based on plant physiology.",
      "a": "A good answer: (1) Reduce NH₄NO₃ from 1650 mM (10×) to 825 mM (half-strength ammonium) or replace with additional KNO₃ to maintain total nitrogen; (2) Omit cytokinin, add auxin (e.g., 0.5–1 mg/L IBA or NAA); (3) Use half-strength macros (common for woody plants); (4) Keep micros, vitamins, sucrose, agar unchanged. Justification: High NH₄⁺ can inhibit root elongation and cause toxicity; woody species often prefer lower salt strength; auxin promotes root initiation while cytokinin suppresses it. A poor answer that only says \"add auxin\" without adjusting nitrogen or salt strength shows incomplete understanding of medium optimization.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Murashige and Skoog (MS) medium is a chemically defined, widely used plant tissue culture nutrient medium that contains a specific formulation of ______ (nitrogen, phosphorus, potassium, calcium, magnesium, sulfur), micronutrients (iron, manganese, zinc, boron, copper, molybdenum), vitamins (thiamine, pyridoxine, nicotinic acid, myo-inositol), a carbon source (typically sucrose), a gelling agent (agar or gellan gum), and plant growth regulators (auxins and cytokinins) whose concentrations are adjusted based on the desired developmental response.",
+     "a": "macronutrients",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a biotechnologist trying to micropropagate a rare medicinal ______ — say, *Rauwolfia serpentina* (sarpagandha) — for conservation.",
+     "a": "plant",
+     "self_check": true
+    },
+    {
+     "q": "What is Murashige and Skoog (MS) medium? State the definition given in this lesson.",
+     "a": "Murashige and Skoog (MS) medium is a chemically defined, widely used plant tissue culture nutrient medium that contains a specific formulation of macronutrients (nitrogen, phosphorus, potassium, calcium, magnesium, sulfur), micronutrients (iron, manganese, zinc, boron, copper, molybdenum), vitamins (thiamine, pyridoxine, nicotinic acid.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Murashige and Skoog (MS) medium?",
+     "a": "Students often think \"MS medium\" is a single fixed recipe that must never be altered.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can list all five categories of MS medium components with their standard concentrations, explain the physiological role of each category, and calculate the volumes of stock solutions required to prepare a final working volume of medium with specified growth regulator concentrations.",
+     "self_check": true
     }
    ]
   }

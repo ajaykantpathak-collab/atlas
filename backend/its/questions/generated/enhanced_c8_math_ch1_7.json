@@ -34,6 +34,26 @@
      "q": "Create a real-world problem for a Class 8 student where they must use the relationship between triangular numbers and perfect squares to find the number of rows in a triangular stack of cans, given the total cans is a perfect square when combined with the previous row.",
      "a": "Example problem: \"A supermarket stacks cans in triangular rows. The top row has 1 can, the second has 2, third has 3, and so on. The manager notices that the total cans in the 9th row plus the 8th row equals a perfect square. How many cans are in the 9th row? What is the perfect square?\" Answer: T₉ = 45, T₈ = 36, sum = 81 = 9². A poor answer would be a problem that doesn't require the Tₙ + Tₙ₋₁ = n² relationship, e.g., just asking for the sum of 1 to 9.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A perfect square is an integer that can be ______ as the square of another integer (n²).",
+     "a": "expressed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are arranging 10 identical marbles to form a perfect ______ triangle – you can do it!",
+     "a": "equilateral",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are arranging ______ identical marbles to form a perfect equilateral triangle – you can do it!",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify triangular numbers up to 55, verify the relationship Tₙ + Tₙ₋₁ = n² for any n ≤ 10, and explain why this relationship holds using a geometric dot diagram.",
+     "self_check": true
     }
    ]
   }

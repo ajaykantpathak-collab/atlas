@@ -1,0 +1,56 @@
+{
+ "catalog": "catalog_class10_science_ch109.json",
+ "concepts": [
+  {
+   "id": "jesc.109.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "f = 21",
+      "P = 1/f"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "f = 13.8",
+      "P = 1/f"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "f = 78",
+      "P = 1/f"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "f = 34",
+      "P = 1/f"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "f = 27",
+      "P = 1/f"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "f = 94",
+      "P = 1/f"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "P = 1/f"
+   ]
+  }
+ ]
+}

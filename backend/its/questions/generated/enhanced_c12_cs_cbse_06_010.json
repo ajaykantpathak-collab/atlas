@@ -34,6 +34,31 @@
      "q": "Design a new exception-handling pattern for a bulk-insert operation that inserts 10,000 student records. The requirement: if any single record fails (e.g., duplicate roll number), skip that record, log its roll number to a file `failed_inserts.log`, continue with the rest, and commit only the successful ones at the end. Provide the core loop structure with try-except.",
      "a": "```python\nfailed = []\nfor roll, name, marks in student_data:\n    try:\n        cursor.execute(\"INSERT INTO students VALUES (%s, %s, %s)\", (roll, name, marks))\n        conn.commit()   # commit each successful insert immediately\n    except mysql.connector.IntegrityError as err:\n        failed.append(f\"{roll}: {err}\")\n    except mysql.connector.Error as err:\n        failed.append(f\"{roll}: {err}\")\n        # optionally break on non-duplicate errors\nwith open(\"failed_inserts.log\", \"w\") as f:\n    f.write(\"\\n\".join(failed))\n```\nA poor answer uses a single transaction for all 10,000 rows (rollback loses all work) or puts `commit()` outside the loop (defeats \"skip and continue\"). This tests synthesis of exception handling, transaction granularity, and file I/O — a CUET-style competency question.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Exception handling in database ______ is the practice of using Python's try-except-else-finally blocks to catch and manage runtime errors (such as connection failures, SQL syntax errors, constraint violations, or transaction deadlocks) that occur during MySQL operations, ensuring graceful degradation, data integrity, and proper resource cleanup.",
+     "a": "connectivity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building an online fee-______ portal for your school.",
+     "a": "payment",
+     "self_check": true
+    },
+    {
+     "q": "What is Exception handling in database connectivity? State the definition given in this lesson.",
+     "a": "Exception handling in database connectivity is the practice of using Python's try-except-else-finally blocks to catch and manage runtime errors (such as connection failures, SQL syntax errors, constraint violations, or transaction deadlocks) that occur during MySQL operations, ensuring graceful degradation, data integrity, and proper.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Exception handling in database connectivity?",
+     "a": "Students believe except mysql.connector.Error: catches only database-related errors and is therefore \"specific enough\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write a complete Python function that connects to MySQL, executes parameterized queries inside a try block, catches specific mysql.connector exceptions (InterfaceError, DatabaseError, ProgrammingError, IntegrityError), rolls back transactions on failure, commits on success, and guarantees cursor/connection closure in a.",
+     "self_check": true
     }
    ]
   }

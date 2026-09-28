@@ -34,6 +34,11 @@
      "q": "Construct a cubic polynomial \\( f(x) \\) that has a critical point at \\( x=2 \\) where the Second Derivative Test fails, but the First Derivative Test shows a local minimum. Write the polynomial and verify both tests.",
      "a": "Example: \\( f(x)=(x-2)^4 \\) or \\( f(x)=x^4-8x^3+24x^2-32x+16 \\). Check: \\( f'(x)=4(x-2)^3 \\), \\( f'(2)=0 \\). \\( f''(x)=12(x-2)^2 \\), \\( f''(2)=0 \\) → test fails. For \\( x<2 \\), \\( f'(x)<0 \\); for \\( x>2 \\), \\( f'(x)>0 \\) → sign change negative to positive → local minimum at \\( x=2 \\). A poor answer would give a cubic (degree 3) — but a cubic's second derivative is linear, so \\( f''(c)=0 \\) implies inflection, not min/max. This reveals the student doesn't connect polynomial degree to the order of the first non-zero derivative.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ box from a square 18 cm × 18 cm tin sheet by cutting equal squares from each corner and folding up the sides.",
+     "a": "rectangular",
+     "self_check": true
     }
    ]
   }

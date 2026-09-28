@@ -34,6 +34,26 @@
      "q": "Design a modern digital payment instrument inspired by the Hundi for cross-border small-trader transactions in South Asia today. Specify: (a) the core principle borrowed from Hundi, (b) one risk it must address that Hundi did not, and (c) how it would differ from existing systems like SWIFT or UPI.",
      "a": "(a) Core principle: **Decentralised trust-based credit transfer** — a network of verified merchants/agents settle obligations bilaterally without central clearing. (b) New risk: **Counterparty identity fraud / KYC compliance** — Hundi relied on community reputation; a digital system must verify legal identity to prevent money laundering. (c) Difference from SWIFT/UPI: Unlike SWIFT (bank-centric, high cost, slow) or UPI (domestic, real-time, bank-account-based), this would be **merchant-led, multi-currency, delayed-settlement** (like Muddati Hundi) with built-in trade-finance features (like Jokhmi). A poor answer merely describes a crypto token or replicates UPI without adapting Hundi's unique deferred, trade-linked, trust-network character.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The history of trade and commerce in India traces the evolution of economic exchange from ancient barter systems to ______ maritime and overland trade networks, indigenous credit instruments like Hundi, and major urban commercial centres that positioned the Indian subcontinent as a dominant global economic power until the colonial era.",
+     "a": "sophisticated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever wondered how Indian spices reached Roman tables or how a ______ in Surat could safely transfer money to a partner in Cairo without carrying gold coins across oceans?",
+     "a": "merchant",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain the key features of ancient Indian trade including major trade centres, export/import items, the role of the Silk Route and maritime routes, the functioning of indigenous banking instruments (Hundi), and the shift in India's share of world economy from ancient to colonial times.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever ______ how Indian spices reached Roman tables or how a merchant in Surat could safely transfer money to a partner in Cairo without carrying gold coins across oceans?",
+     "a": "wondered",
+     "self_check": true
     }
    ]
   }

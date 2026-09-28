@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_06_011",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_06_011",
+   "title": "c12_psy_cbse_06_011",
+   "questions": [
+    {
+     "q": "Name the five sources of prejudice discussed in the NCERT Class 12 Psychology textbook.",
+     "a": "The five sources are: (1) Learning, (2) Strong social identity and ingroup bias, (3) Scapegoating, (4) Kernel of truth concept, and (5) Self-fulfilling prophecy. A wrong answer that omits one source or adds an unrelated concept (e.g., \"cognitive dissonance\") reveals that the student has not systematically encoded the NCERT list and may be conflating prejudice sources with attitude-change theories from earlier nodes.",
+     "self_check": true
+    },
+    {
+     "q": "A student says, \"Prejudice is just learned from parents, so if we stop parents from teaching it, prejudice will disappear.\" Explain why this statement is incomplete using at least two other sources of prejudice.",
+     "a": "The statement ignores ingroup bias (people derive self-esteem from favouring their own group), scapegoating (groups blame minorities for societal problems), kernel of truth (people seize on isolated examples to validate stereotypes), and self-fulfilling prophecy (targets' behaviour confirms the stereotype). A wrong answer that only repeats \"learning\" shows the student cannot differentiate between distinct psychological mechanisms and treats prejudice as a single-cause phenomenon.",
+     "self_check": true
+    },
+    {
+     "q": "During a water shortage, a housing society blames the migrant-worker families for \"wasting water,\" even though data shows equal usage across groups. Identify the source of prejudice operating here and explain the mechanism in two sentences.",
+     "a": "This is scapegoating: the majority group displaces frustration about the water crisis onto a weaker minority, blaming them for a problem they did not cause. A wrong answer that calls it \"learning\" or \"kernel of truth\" misses the key element of displaced aggression toward a powerless outgroup during collective stress.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"kernel of truth\" and \"self-fulfilling prophecy\" as sources of prejudice. Which one relies on the perceiver's selective attention, and which one relies on the target's behavioural change?",
+     "a": "Kernel of truth relies on the perceiver's selective attention: they notice a few confirming instances and ignore disconfirming evidence. Self-fulfilling prophecy relies on the target's behavioural change: the target internalizes the stereotype and acts in ways that confirm it. A wrong answer that swaps the two mechanisms shows the student confuses the direction of causality — who acts on whom.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Ingroup bias is the most fundamental source of prejudice because it satisfies the human need for positive social identity.\" Support your evaluation with one strength and one limitation of this claim.",
+     "a": "Strength: Social Identity Theory (Tajfel & Turner) shows minimal group paradigms where mere categorization creates ingroup favouritism, supporting fundamentality. Limitation: It cannot explain prejudice against groups that pose no identity threat (e.g., prejudice toward distant groups with no interaction) or why some individuals with strong social identity show low prejudice. A wrong answer that only agrees or disagrees without a balanced evaluation shows inability to critically appraise theoretical claims.",
+     "self_check": true
+    },
+    {
+     "q": "Design a brief classroom activity (3 steps) that would help Class 12 students experience how \"self-fulfilling prophecy\" operates, without causing harm.",
+     "a": "Step 1: Randomly assign students to \"Group A\" and \"Group B.\" Step 2: Tell Group A they are \"good at spotting details\" and Group B they \"tend to miss details\" (false feedback). Step 3: Give both groups an identical visual-search task; compare performance and debrief on how expectations shaped behaviour. A poor activity would lack random assignment, use real traits, or skip debriefing, failing to isolate the self-fulfilling mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sources of prejudice are the psychological and social mechanisms — learning, ingroup bias, scapegoating, kernel of truth, and self-fulfilling prophecy — through which negative attitudes (prejudices) toward a group are acquired, maintained, and expressed, often leading to ______.",
+     "a": "discrimination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you hear a classmate say, \"Students from that neighbourhood are always lazy and dishonest.\" Ask yourself: Where did this ______ come from?",
+     "a": "belief",
+     "self_check": true
+    },
+    {
+     "q": "What is Sources of prejudice? State the definition given in this lesson.",
+     "a": "Sources of prejudice are the psychological and social mechanisms — learning, ingroup bias, scapegoating, kernel of truth, and self-fulfilling prophecy — through which negative attitudes (prejudices) toward a group are acquired, maintained, and expressed, often leading to discrimination.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Sources of prejudice?",
+     "a": "Students often think \"kernel of truth\" means the stereotype is factually correct.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish each source of prejudice by its defining mechanism, (2) identify which source operates in a given real-life scenario, and (3) explain how two or more sources can interact to reinforce prejudice in a specific context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

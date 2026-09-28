@@ -34,6 +34,31 @@
      "q": "Design a semantic HTML5 structure for a \"Student Portfolio\" page with: header (name, tagline), navigation (Projects, Skills, Contact), main content (two project articles each with figure/image/caption), aside (testimonials), and footer (copyright, social links). Write only the skeleton tags with proper nesting — no content.",
      "a": "```html\n<body>\n  <header><h1></h1><p></p></header>\n  <nav><ul><li><a></a></li><li><a></a></li><li><a></a></li></ul></nav>\n  <main>\n    <article><figure><img><figcaption></figcaption></figure></article>\n    <article><figure><img><figcaption></figcaption></figure></article>\n  </main>\n  <aside><blockquote></blockquote></aside>\n  <footer><p></p><nav><a></a></nav></footer>\n</body>\n```\nA poor answer uses `<div>` for all containers, misses `<figure>`/`<figcaption>`, or places `<aside>` inside `<main>` — showing inability to map real-world content to semantic hierarchy, a skill tested in CUET practical questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: HTML formatting tags control the visual presentation of text (bold, italic, underline, etc.) while semantic tags convey meaning about the content structure (header, article, section, etc.) to browsers, search engines, and assistive technologies, enabling ______ and SEO benefits beyond mere appearance.",
+     "a": "accessibility",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're building a school ______'s \"Annual Day\" page.",
+     "a": "website",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: That's where semantic tags like <h______> or <header> change everything — they tell machines \"this is the primary heading\" not just \"this looks big.\" Start by listing all formatting tags you've used before, then replace each with its semantic equivalent where meaning matters.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to distinguish between presentational and semantic tags, correctly apply at least 5 semantic tags to structure a webpage meaningfully, and explain why semantic tags are preferred for accessibility and search engine optimization in a board exam answer.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're ______ a school website's \"Annual Day\" page.",
+     "a": "building",
+     "self_check": true
     }
    ]
   }

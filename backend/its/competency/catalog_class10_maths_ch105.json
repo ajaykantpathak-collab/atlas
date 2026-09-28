@@ -388,7 +388,7 @@
     "Determine if the sequence of squares or cubes is an AP",
     "Prove that a given sequence is not an AP"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -436,7 +436,16 @@
      "question": "Verify whether the sequence 2, 6, 12, 20, 30 is an AP.",
      "type": "verify_property"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the AP/GP term or sum formula",
+     "explain": "apply the AP/GP term or sum formula: an = 6 + (10 - 1) * 9 gives 87",
+     "compute": "an = 6 + (10 - 1) * 9"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.5.8",
@@ -514,7 +523,7 @@
     "Find the first term and common difference given S_n as a formula",
     "Find the sum given the nth term formula"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -562,7 +571,16 @@
      "question": "Verify a_n = S_n - S_(n-1) for the AP 5, 10, 15, ... for n = 4.",
      "type": "verify_property"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the AP/GP term or sum formula",
+     "explain": "apply the AP/GP term or sum formula: an = 5 + (9 - 1) * 2 gives 21",
+     "compute": "an = 5 + (9 - 1) * 2"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "class": "10",

@@ -34,6 +34,31 @@
      "q": "Design a simplified \"climate damage function\" for Indian agriculture linking temperature anomaly (ΔT in °C) to wheat yield loss (% from baseline), incorporating: (a) a threshold effect (no loss below 1°C), (b) accelerating losses above 2°C, (c) CO2 fertilization offset (5% gain per 100 ppm CO2 rise). Write the piecewise function and calculate yield change for ΔT=2.5°C, CO2=450 ppm (baseline 280 ppm).",
      "a": "Function:  \nYield loss % = 0 for ΔT ≤ 1  \n= 3×(ΔT - 1) for 1 < ΔT ≤ 2  \n= 3 + 5×(ΔT - 2)² for ΔT > 2  \nCO2 fertilization gain = 5 × ((450-280)/100) = 5 × 1.7 = 8.5%  \n\nFor ΔT=2.5°C:  \nThermal loss = 3 + 5×(0.5)² = 3 + 1.25 = 4.25%  \nNet change = -4.25% + 8.5% = +4.25% (gain)  \n\nFor ΔT=3.5°C:  \nThermal loss = 3 + 5×(1.5)² = 3 + 11.25 = 14.25%  \nNet change = -14.25% + 8.5% = -5.75% (loss)  \n\nA poor answer using linear function misses the non-linearity (tipping points) central to climate economics—Stern Review and IPCC emphasize convex damage curves. The CO2 fertilization offset is temporary (nutrient limitations) and declines at higher ΔT, a nuance needed for dynamic assessment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Global environmental issues refer to planetary-scale ecological disruptions—primarily anthropogenic climate change driven by greenhouse gas accumulation and stratospheric ozone depletion caused by halogenated compounds—that transcend national boundaries and require coordinated international mitigation and adaptation responses, with India pursuing a \"common but differentiated ______\" approach through renewable energy transition, energy efficiency missions, and equity-based climate justice frameworks.",
+     "a": "responsibilities",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ analyst in New Delhi reviewing India's submission to COP28.",
+     "a": "policy",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a policy analyst in New Delhi reviewing India's submission to COP______.",
+     "a": "28",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) distinguish the mechanisms, causes, and policy responses for global warming versus ozone depletion using precise terminology (GHG forcing vs. catalytic ozone destruction), (2) evaluate India's climate commitments (NDCs, NAPCC missions, ISA leadership) against the principles of CBDR-RC and intergenerational equity.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a policy analyst in New Delhi reviewing India's ______ to COP28.",
+     "a": "submission",
+     "self_check": true
     }
    ]
   }

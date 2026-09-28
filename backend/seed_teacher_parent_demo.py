@@ -10,7 +10,8 @@ Seeded rows (documented for the Atlas plan):
     - diya.demo@dreamapp.in  role=student name="Diya Patel"   class_level=10 password demo123
     (demo@dreamapp.in / "Demo Student" already exists from init_db — reused as
      the demo teacher identity for teacher_classes rows)
-  teacher_classes (owner = demo@dreamapp.in user id):
+  teacher_classes (owner = teacher@dreamapp.in user id — the demo TEACHER;
+     TIER3 assignments loop requires the teacher account to own its classes)
     - "Class 10 A" section=A subject=Mathematics academic_year=2025-26
     - "Class 10 B" section=B subject=Science       academic_year=2025-26
   class_enrollments:
@@ -89,12 +90,19 @@ async def main():
         diya = await get_or_create_user(
             db, "diya.demo@dreamapp.in", name="Diya Patel", role="student", class_level=10
         )
+        teacher = await get_or_create_user(
+            db, "teacher@dreamapp.in", name="Demo Teacher", role="teacher"
+        )
 
         async def ensure_class(class_name, section, subject):
+            # Classes are owned by the TEACHER account (teacher@dreamapp.in)
+            # so the assignments loop assigns work as that teacher. Idempotent
+            # per (teacher, class_name); a legacy row owned by the old demo
+            # identity is adopted instead of duplicated.
             row = (
                 await db.execute(
                     select(TeacherClassModel).where(
-                        TeacherClassModel.teacher_id == demo.id,
+                        TeacherClassModel.teacher_id == teacher.id,
                         TeacherClassModel.class_name == class_name,
                     )
                 )
@@ -102,8 +110,20 @@ async def main():
             if row is not None:
                 print(f"[*] class exists: {class_name}")
                 return row
+            legacy = (
+                await db.execute(
+                    select(TeacherClassModel).where(
+                        TeacherClassModel.class_name == class_name
+                    )
+                )
+            ).scalars().all()
+            if legacy:
+                row = legacy[0]
+                row.teacher_id = teacher.id
+                print(f"[~] class re-owned by teacher@dreamapp.in: {class_name}")
+                return row
             row = TeacherClassModel(
-                teacher_id=demo.id,
+                teacher_id=teacher.id,
                 class_name=class_name,
                 section=section,
                 subject=subject,
@@ -111,7 +131,7 @@ async def main():
             )
             db.add(row)
             await db.flush()
-            print(f"[+] class created: {class_name} ({subject}) teacher=demo@dreamapp.in")
+            print(f"[+] class created: {class_name} ({subject}) teacher=teacher@dreamapp.in")
             return row
 
         cls_a = await ensure_class("Class 10 A", "A", "Mathematics")

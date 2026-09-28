@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch9_6",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch9_6",
+   "title": "c9_math_ch9_6",
+   "questions": [
+    {
+     "q": "State Euclid's Axiom 2 in your own words and give a geometric example involving line segments where this axiom is applied.",
+     "a": "**Answer:** Euclid's Axiom 2: \"If equals are added to equals, the wholes are equal.\" Example: If segment AB = segment CD and segment BC = segment DE, and B lies between A and C while D lies between C and E, then AC = CE.\n**Why wrong answers reveal misunderstanding:** If a student states \"If A=B and C=D then A+C=B+D\" without the geometric context of collinearity and betweenness, they are treating it as algebra, not geometry. If they confuse it with Axiom 3 (subtraction), they don't grasp the directional nature of \"adding\" segments end-to-end.",
+     "self_check": true
+    },
+    {
+     "q": "Why can we not simply say \"AB = CD because they look the same length\" in a formal proof? Explain the role of axioms in replacing visual intuition.",
+     "a": "**Answer:** Visual appearance is not a valid justification in deductive geometry because diagrams can be inaccurate or misleading (e.g., two segments may look equal but differ by 1 mm). Axioms provide the rigorous, universally accepted starting truths that replace \"it looks like\" with \"it follows logically from...\" Every step in a proof must trace back to an axiom, definition, or prior theorem — this chain of reasoning is what makes geometry certain, not probable.\n**Why wrong answers reveal misunderstanding:** If a student says \"we can trust the diagram if drawn carefully,\" they confuse construction with proof. If they say \"axioms are just obvious facts,\" they miss that axioms are *chosen* foundational assumptions, not empirical observations.",
+     "self_check": true
+    },
+    {
+     "q": "Given: Point B lies between A and C on line AC. Point E lies between D and F on line DF. AB = DE and BC = EF. Prove that AC = DF. Write the proof in a two-column format (Statement | Reason) with exactly 5 steps.",
+     "a": "**Answer:**\n1. B is between A and C; E is between D and F | Given\n2. AB + BC = AC; DE + EF = DF | Segment Addition Postulate (Postulate 2 extended)\n3. AB = DE | Given\n4. BC = EF | Given\n5. AC = DF | Axiom 2 (If equals are added to equals, wholes are equal) applied to steps 2, 3, 4\n**Why wrong answers reveal misunderstanding:** If a student writes \"AC = AB + BC\" as a single step without the Segment Addition justification, they skip the definition of betweenness. If they use \"Axiom 1\" (transitivity) instead of Axiom 2, they confuse addition with transitive equality. If they write only 3 steps, they collapse the logical structure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the logical structure of proving \"AC = DF\" (from Question 3) using Axiom 2 versus proving \"If AC = DF and AB = DE, then BC = EF\" using Axiom 3. What is the fundamental difference in the reasoning direction?",
+     "a": "**Answer:** Proving AC = DF uses **synthesis** (building up): we combine smaller equal parts (AB=DE, BC=EF) to deduce the whole equality via Axiom 2 (addition). Proving BC = EF uses **analysis** (breaking down): we start with the whole equality (AC=DF) and a part equality (AB=DE), then subtract the known part from the whole using Axiom 3 (subtraction) to isolate the unknown part. The first moves from parts to whole; the second moves from whole to part.\n**Why wrong answers reveal misunderstanding:** If a student says \"they are the same, just reversed,\" they miss that addition and subtraction are distinct axioms with different logical roles. If they claim both use Axiom 1 (transitivity), they don't see that segment addition/subtraction requires the betweenness condition, which transitivity alone does not capture.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes this proof: \"Given: AB = CD. To prove: AB + EF = CD + EF. Proof: Step 1: AB = CD (Given). Step 2: Add EF to both sides. Step 3: AB + EF = CD + EF. Hence proved.\" Evaluate this proof. Is it valid for Euclid's geometry? Why or why not?",
+     "a": "**Answer:** The proof is **invalid** in Euclid's geometry. Step 2 (\"Add EF to both sides\") is an algebraic manipulation, not a geometric justification. In Euclid's system, you must cite **Axiom 2** explicitly: \"If equals are added to equals, the wholes are equal.\" Here, the \"wholes\" are the combined segments AB+EF and CD+EF, but this requires that E lies between B and F (or similar collinearity) so that addition is geometrically meaningful. The student treated segments as numbers, ignoring the geometric configuration required for segment addition.\n**Why wrong answers reveal misunderstanding:** If a teacher accepts this as valid, they are allowing algebraic reasoning to replace geometric deduction. The student who writes this doesn't understand that Euclid's axioms govern *geometric magnitudes*, not abstract numbers, and that \"adding\" segments requires a shared endpoint and betweenness.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new geometric statement involving three collinear points and two equal segments that can be proved using **only** Axiom 1 (Things equal to the same thing are equal to each other) and the definition of betweenness. Write the statement and a 4-step proof.",
+     "a": "**Answer:**\n**Statement:** If point B lies between A and C, and point D lies between E and F, and AB = DE and BC = DE, then AB = BC.\n**Proof:**\n1. B is between A and C; D is between E and F | Given\n2. AB = DE | Given\n3. BC = DE | Given\n4. AB = BC | Axiom 1 (Things equal to the same thing (DE) are equal to each other)\n**Why poor answers reveal misunderstanding:** If the student creates a statement requiring Axiom 2 or 3 (e.g., proving AC = DF), they don't grasp the specific logical power of Axiom 1 (transitivity). If they omit the betweenness condition, they treat segments as free-floating numbers. A good answer shows they can design a problem targeting a *specific* axiom.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

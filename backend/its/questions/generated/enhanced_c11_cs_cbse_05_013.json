@@ -34,6 +34,26 @@
      "q": "Write a Python `while` loop that intentionally becomes infinite, then modify it to terminate after 3 iterations using a counter. Provide both versions.",
      "a": "Infinite version: `while True: print(\"Hello\")`. Modified: `c = 0; while c < 3: print(\"Hello\"); c += 1`. A poor answer using a `for` loop shows inability to construct and control `while` loop termination, and misses the concept of manually managing a counter.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An infinite loop is a loop whose termination condition never evaluates to False, causing the loop body to execute ______.",
+     "a": "indefinitely",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you write a while loop to sum numbers from 1 to 10, but the ______ just hangs — the cursor blinks forever.",
+     "a": "program",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can identify infinite loops in given code, explain why they occur, and correct common loop errors (off-by-one, missing update, wrong condition, misuse of break/continue) to produce the intended number of iterations.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you write a while loop to sum numbers from 1 to 10, but the program just hangs — the cursor blinks forever.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

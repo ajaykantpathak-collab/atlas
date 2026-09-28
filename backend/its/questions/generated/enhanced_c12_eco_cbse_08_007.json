@@ -34,6 +34,26 @@
      "q": "Construct a hypothetical example for a small open economy showing how a shift from consumption to investment (with no change in total final expenditure) affects the composition of GDPmp but not its level. Use numbers for C, G, I, X, M before and after.",
      "a": "Initial: C = 60, G = 10, I = 20, X = 15, M = 15 → GDPmp = 60+10+20+15−15 = 90.\nAfter shift: Households save more, firms invest more. C falls to 50, I rises to 30. G, X, M unchanged. New GDPmp = 50+10+30+15−15 = 90.\nComposition changes: Consumption share falls from 66.7% to 55.6%; Investment share rises from 22.2% to 33.3%. A poor answer that changes GDPmp level or forgets that M might change if investment goods are imported misses the ceteris paribus condition and the import content of investment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Expenditure Method measures Gross Domestic Product at Market Prices (GDPmp) by summing the final ______ made by all sectors of the economy on domestically produced goods and services during an accounting year.",
+     "a": "expenditures",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are tracking every rupee spent in the Indian economy in 2023-24: a household buys a Maruti Suzuki car (C), the ______ builds a highway (G), a factory imports a German robot but also buys a domestic conveyor belt (I, with import adjustment), and an IT firm exports software services to the US (X).",
+     "a": "government",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by recalling the circular flow (node ______) — every rupee spent becomes someone's income.",
+     "a": "004",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate GDPmp from given data on C, G, I, X, and M, correctly classify a transaction into one of the four components, explain why imports are subtracted, and distinguish between gross and net capital formation.",
+     "self_check": true
     }
    ]
   }

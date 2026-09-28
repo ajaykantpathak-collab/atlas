@@ -34,6 +34,31 @@
      "q": "Design a 12-nucleotide DNA oligonucleotide sequence that would form a stable hairpin structure with a 4-base loop and a 4-base-pair stem. Write the sequence 5'→3', indicate the stem base pairs, and explain why this sequence would favor hairpin formation over remaining single-stranded.",
      "a": "Example: 5'-GCATTTTTATGC-3'. Stem: 5'-GCAT-3' pairs with 3'-CGTA-5' (written 5'-ATGC-3' on the same strand, inverted). Loop: TTTT (4 bases). The stem has 4 GC-rich base pairs (3 G≡C, 1 A=T) providing ~10 H-bonds and strong stacking. The 4-base loop (optimal size for minimal strain) allows the strand to fold back. Hairpin stability depends on stem GC content, loop size (4-8 nt optimal), and absence of competing secondary structures. A poor answer (e.g., all AT stem, loop of 2 bases, or no complementarity) reveals lack of understanding of intramolecular base pairing, loop entropy penalty, and the balance between stem stability and loop strain — foundational for primer-dimer prediction and ribozyme design.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: DNA (deoxyribonucleic acid) is a double-stranded helical polymer of ______ linked by 3'→5' phosphodiester bonds, where two antiparallel strands are held together by specific hydrogen bonding between complementary nitrogenous bases (A=T with two hydrogen bonds, G≡C with three hydrogen bonds), forming a right-handed B-DNA helix with major and minor grooves.",
+     "a": "deoxyribonucleotides",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're a ______ scientist examining a crime scene — you find a single hair strand.",
+     "a": "forensic",
+     "self_check": true
+    },
+    {
+     "q": "What is DNA (deoxyribonucleic acid)? State the definition given in this lesson.",
+     "a": "DNA (deoxyribonucleic acid) is a double-stranded helical polymer of deoxyribonucleotides linked by 3'→5' phosphodiester bonds, where two antiparallel strands are held together by specific hydrogen bonding between complementary nitrogenous bases (A=T with two hydrogen bonds, G≡C with three hydrogen bonds), forming a right-handed B-DNA.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) draw and label the Watson-Crick DNA double helix showing antiparallel strands, 3'→5' phosphodiester backbone, complementary base pairing with correct hydrogen bond numbers, and major/minor grooves; (2) calculate melting temperature (Tm) changes based on GC content and predict denaturation/renaturation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're a forensic ______ examining a crime scene — you find a single hair strand.",
+     "a": "scientist",
+     "self_check": true
     }
    ]
   }

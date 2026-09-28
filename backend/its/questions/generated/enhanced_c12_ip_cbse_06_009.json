@@ -32,7 +32,37 @@
     },
     {
      "q": "Design a responsive navigation pattern for a site with 5 top-level links and a logo. On mobile (< 600px): show logo + hamburger button, tapping reveals vertical menu. On tablet (600–1024px): show logo + first 3 links, remaining 2 under \"More\" dropdown. On desktop (> 1024px): show all 5 links horizontally. Provide the HTML structure and CSS media queries only (no JavaScript for mobile toggle — assume a checkbox hack). Explain your breakpoint choices.",
-     "a": "HTML: `<nav class=\"nav\"><a class=\"logo\" href=\"#\">Logo</a><input type=\"checkbox\" id=\"menu-toggle\"><label for=\"menu-toggle\" class=\"hamburger\">☰</label><ul class=\"menu\"><li><a href=\"#\">Home</a></li><li><a href=\"#\">About</a></li><li><a href=\"#\">Services</a></li><li class=\"more\"><a href=\"#\">More ▼</a><ul class=\"submenu\"><li><a href=\"#\">Blog</a></li><li><a href=\"#\">Contact</a></li></ul></li></ul></nav>`\n\nCSS (mobile-first):\n```css\n.nav { display: flex; justify-content: space-between; align-items: center; }\n.menu { display: none; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; }",
+     "a": "HTML: `<nav class=\"nav\"><a class=\"logo\" href=\"#\">Logo</a><input type=\"checkbox\" id=\"menu-toggle\"><label for=\"menu-toggle\" class=\"hamburger\">☰</label><ul class=\"menu\"><li><a href=\"#\">Home</a></li><li><a href=\"#\">About</a></li><li><a href=\"#\">Services</a></li><li class=\"more\"><a href=\"#\">More ▼</a><ul class=\"submenu\"><li><a href=\"#\">Blog</a></li><li><a href=\"#\">Contact</a></li></ul></li></ul></nav>`\n\nCSS (mobile-first):\n```css\n.nav { display: flex; justify-content: space-between; align-items: center; }\n.menu { display: N/A; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; }\n#menu-toggle:checked + .hamburger + .menu { display: flex; }\n.hamburger { display: block; }\n.more .submenu { display: N/A; }\n.more:hover .submenu { display: block; }\n\n@media (min-width: 600px) {\n  .hamburger { display: N/A; }\n  .menu { display: flex; flex-direction: row; position: static; }\n  .more { position: relative; }\n  .menu li:nth-child(4), .menu li:nth-child(5) { display: N/A; } /* hide last 2 */\n  .more { display: block; } /* show More dropdown */\n}\n\n@media (min-width: 1025px) {\n  .menu li:nth-child(4), .menu li:nth-child(5) { display: block; }\n  .more { display: N/A; }\n}\n```\nBreakpoints: 600px (typical phone landscape / small tablet), 1024px (tablet landscape / small laptop). A poor answer uses fixed pixel widths for menu items or forgets `position: relative` on dropdown parent, revealing weak layout fundamentals.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Responsive design is a web development approach that creates web pages that automatically adapt their layout, content, and functionality to provide an optimal viewing experience across a wide range of devices and screen sizes — from mobile phones to desktop monitors — using CSS media queries and the viewport meta tag to detect device ______ and apply appropriate styles.",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you've built a beautiful webpage on your 15-inch laptop — the navigation bar spreads ______, the hero section has side-by-side text and image, and the footer has three columns.",
+     "a": "horizontally",
+     "self_check": true
+    },
+    {
+     "q": "What is Responsive design? State the definition given in this lesson.",
+     "a": "Responsive design is a web development approach that creates web pages that automatically adapt their layout, content, and functionality to provide an optimal viewing experience across a wide range of devices and screen sizes — from mobile phones to desktop monitors — using CSS media queries and the viewport meta tag to detect device.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then we write CSS that says \"on screens narrower than ______px, stack the nav vertically, make the hero single-column, and stack the footer.\" We test by resizing the browser window and using device toolbars.",
+     "a": "768",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Responsive design?",
+     "a": "Students believe \"responsive design means making a separate mobile version of the site\" or \"media queries detect mobile phones.\" They write @media (max-device-width: 480px) thinking it targets phones, not realizing it uses physical device pixels, ignores zoom, and fails on high-DPI screens.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write complete CSS media queries with correct syntax for at least three breakpoints (mobile, tablet, desktop), configure the viewport meta tag for proper mobile rendering, and demonstrate a responsive layout that reorganizes content (e.g., stacked to side-by-side) without horizontal scrolling on any device.",
      "self_check": true
     }
    ]

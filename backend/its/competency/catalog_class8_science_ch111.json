@@ -20,7 +20,7 @@
     "how to test if a liquid is a good conductor",
     "explain electrical conductivity in liquids in your own words"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,16 @@
      "action": "Observe indicator",
      "explain": "If the bulb glows or the needle deflects, the liquid is a conductor."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "conductivity = current_flow / resistance_potential",
+     "compute": "conductivity = current_flow / resistance_potential"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hesc.11.2",
@@ -54,7 +63,7 @@
     "detecting weak currents in a circuit",
     "how does led as a weak current detector work"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -71,7 +80,16 @@
      "action": "Observe LED glow to confirm weak current",
      "explain": "When the circuit is completed through a weak conductor, the LED lights up faintly, confirming that even very small currents can be detected -- something a standard bulb cannot do."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_leads = long_lead + short_lead",
+     "compute": "total_leads = long_lead + short_lead"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hesc.11.3",
@@ -88,7 +106,7 @@
     "detecting current without a bulb",
     "how does magnetic effect tester work"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -105,7 +123,16 @@
      "action": "Check deflection",
      "explain": "Observe if the needle moves when the circuit is closed."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "deflection = magnetic_field_strength",
+     "compute": "deflection = magnetic_field_strength"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hesc.11.4",
@@ -122,7 +149,7 @@
     "safety of handling electricity with wet hands",
     "state two key points about conductivity of water types"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -139,7 +166,16 @@
      "action": "Re-test",
      "explain": "Observe that the solution now conducts electricity."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "conductivity_level = pure_water + dissolved_salts",
+     "compute": "conductivity_level = pure_water + dissolved_salts"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hesc.11.5",
@@ -156,7 +192,7 @@
     "observations of electrolysis",
     "how does chemical effects of electric current work"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -173,7 +209,16 @@
      "action": "Inspect deposits",
      "explain": "Look for layers of metal forming on the electrodes."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "chemical_change = current + electrolyte",
+     "compute": "chemical_change = current + electrolyte"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hesc.11.6",
@@ -224,7 +269,7 @@
     "mechanism of copper sulphate electrolysis",
     "why is electroplating process important"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -246,7 +291,16 @@
      "action": "Pass current",
      "explain": "Allow current to flow so ions deposit on the negative electrode."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "deposited_mass = rate * time",
+     "compute": "deposited_mass = rate * time"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hesc.11.8",
@@ -315,7 +369,16 @@
      "explain": "Divide the solute amount by the solvent volume.",
      "compute": "concentration = solute_tsp / solvent_ml"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "concentration = solute_tsp / solvent_ml",
+     "compute": "concentration = solute_tsp / solvent_ml"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

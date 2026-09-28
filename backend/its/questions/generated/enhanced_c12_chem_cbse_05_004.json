@@ -34,6 +34,26 @@
      "q": "[CREATE] Design a coordination complex of cobalt(III) with coordination number 6 that exhibits exactly three stereoisomers (including optical isomers). Write its formula, draw all isomers, and label each as geometrical or optical.",
      "a": "Example: [CoCl₂(en)₂]⁺. Isomers: (1) trans-[CoCl₂(en)₂]⁺ (geometrical, achiral), (2) cis-[CoCl₂(en)₂]⁺ (geometrical, chiral) which exists as (2a) Δ-cis (optical) and (2b) Λ-cis (optical). Total = 3 stereoisomers. A good answer must show the octahedral geometry with chelate rings, correctly identify chirality of cis due to lack of symmetry plane, and label trans as achiral. A poor answer might propose [Co(NH₃)₄Cl₂]⁺ (only 2 geometrical, no optical) or [Co(en)₃]³⁺ (only 2 optical, no geometrical), showing inability to combine both isomerism types.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Geometrical isomerism in coordination compounds arises due to different spatial ______ of ligands around the central metal ion in heteroleptic complexes with coordination numbers 4 (square planar) and 6 (octahedral), leading to cis/trans or fac/mer isomers.",
+     "a": "arrangements",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world ______: a student notices that two samples of [Co(NH₃)₄Cl₂]Cl have different colours (violet vs green) and different chemical reactivity — one gives 2 moles AgCl with AgNO₃ immediately, the other gives only 1 mole.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Use ______D models or hand-drawn wedge-dash diagrams to show cis/trans in square planar Pt(NH₃)₂Cl₂ (anticancer drug cisplatin vs inactive transplatin).",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) draw all possible geometrical isomers (cis/trans for square planar and octahedral, fac/mer for [Ma₃b₃]) for a given formula, (2) identify which isomers are chiral and draw their enantiomeric pairs, (3) predict whether a given complex will exhibit optical activity based on its geometry and ligand set, and (4) distinguish.",
+     "self_check": true
     }
    ]
   }

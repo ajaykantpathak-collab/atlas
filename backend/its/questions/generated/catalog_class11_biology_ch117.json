@@ -1,6 +1,194 @@
 {
- "catalog": "catalog_class11_biology_ch117",
+ "catalog": "catalog_class11_biology_ch117.json",
  "concepts": [
+  {
+   "id": "kebo.117.2",
+   "title": "Classification of Muscle Tissues",
+   "converted_to_compute": true,
+   "formula": "body_muscle_mass = 0.45 * total_body_weight",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "body_muscle_mass = 0.45 * total_body_weight",
+     "compute": "body_muscle_mass = 0.45 * total_body_weight"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Classification of Muscle Tissues: given total_body_weight = 197, find body muscle mass.",
+     "a": "88.65",
+     "self_check": false
+    },
+    {
+     "q": "For Classification of Muscle Tissues: given total_body_weight = 44, find body muscle mass.",
+     "a": "19.8",
+     "self_check": false
+    },
+    {
+     "q": "For Classification of Muscle Tissues: given total_body_weight = 92, find body muscle mass.",
+     "a": "41.4",
+     "self_check": false
+    },
+    {
+     "q": "For Classification of Muscle Tissues: given total_body_weight = 98, find body muscle mass.",
+     "a": "44.1",
+     "self_check": false
+    },
+    {
+     "q": "For Classification of Muscle Tissues: given total_body_weight = 117, find body muscle mass.",
+     "a": "52.65",
+     "self_check": false
+    },
+    {
+     "q": "For Classification of Muscle Tissues: given total_body_weight = 53, find body muscle mass.",
+     "a": "23.85",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebo.117.3",
+   "title": "Structure of the Sarcomere",
+   "converted_to_compute": true,
+   "formula": "sarcomere = I_half + A_band + I_half",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "sarcomere = I_half + A_band + I_half",
+     "compute": "sarcomere = I_half + A_band + I_half"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Structure of the Sarcomere: given I_half = 1.5, A_band = 32, find sarcomere.",
+     "a": "35",
+     "self_check": false
+    },
+    {
+     "q": "For Structure of the Sarcomere: given I_half = 69, A_band = 46, find sarcomere.",
+     "a": "184",
+     "self_check": false
+    },
+    {
+     "q": "For Structure of the Sarcomere: given I_half = 97, A_band = 50, find sarcomere.",
+     "a": "244",
+     "self_check": false
+    },
+    {
+     "q": "For Structure of the Sarcomere: given I_half = 60, A_band = 63, find sarcomere.",
+     "a": "183",
+     "self_check": false
+    },
+    {
+     "q": "For Structure of the Sarcomere: given I_half = 72, A_band = 22, find sarcomere.",
+     "a": "166",
+     "self_check": false
+    },
+    {
+     "q": "For Structure of the Sarcomere: given I_half = 61, A_band = 73, find sarcomere.",
+     "a": "195",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebo.117.6",
+   "title": "Vertebral Column Composition",
+   "converted_to_compute": true,
+   "formula": "total_v = cervical + thoracic + lumbar + sacral + coccygeal",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_v = cervical + thoracic + lumbar + sacral + coccygeal",
+     "compute": "total_v = cervical + thoracic + lumbar + sacral + coccygeal"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Vertebral Column Composition: given cervical = 97, thoracic = 8.9, lumbar = 17, sacral = 75, coccygeal = 41, find total v.",
+     "a": "238.9",
+     "self_check": false
+    },
+    {
+     "q": "For Vertebral Column Composition: given cervical = 3.2, thoracic = 57, lumbar = 51, sacral = 53, coccygeal = 15.2, find total v.",
+     "a": "179.4",
+     "self_check": false
+    },
+    {
+     "q": "For Vertebral Column Composition: given cervical = 68, thoracic = 75, lumbar = 71, sacral = 80, coccygeal = 46, find total v.",
+     "a": "340",
+     "self_check": false
+    },
+    {
+     "q": "For Vertebral Column Composition: given cervical = 23, thoracic = 45, lumbar = 39, sacral = 21, coccygeal = 88, find total v.",
+     "a": "216",
+     "self_check": false
+    },
+    {
+     "q": "For Vertebral Column Composition: given cervical = 93, thoracic = 81, lumbar = 25, sacral = 73, coccygeal = 12, find total v.",
+     "a": "284",
+     "self_check": false
+    },
+    {
+     "q": "For Vertebral Column Composition: given cervical = 42, thoracic = 57, lumbar = 19.5, sacral = 63, coccygeal = 7.4, find total v.",
+     "a": "188.9",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebo.117.7",
+   "title": "Rib Cage Structure",
+   "converted_to_compute": true,
+   "formula": "total_ribs = true_pairs * 2 + false_pairs * 2 + floating_pairs * 2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_ribs = true_pairs * 2 + false_pairs * 2 + floating_pairs * 2",
+     "compute": "total_ribs = true_pairs * 2 + false_pairs * 2 + floating_pairs * 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Rib Cage Structure: given true_pairs = 35, false_pairs = 82, floating_pairs = 7.2, find total ribs.",
+     "a": "248.4",
+     "self_check": false
+    },
+    {
+     "q": "For Rib Cage Structure: given true_pairs = 73, false_pairs = 5.4, floating_pairs = 64, find total ribs.",
+     "a": "284.8",
+     "self_check": false
+    },
+    {
+     "q": "For Rib Cage Structure: given true_pairs = 41, false_pairs = 46, floating_pairs = 48, find total ribs.",
+     "a": "270",
+     "self_check": false
+    },
+    {
+     "q": "For Rib Cage Structure: given true_pairs = 80, false_pairs = 76, floating_pairs = 29, find total ribs.",
+     "a": "370",
+     "self_check": false
+    },
+    {
+     "q": "For Rib Cage Structure: given true_pairs = 86, false_pairs = 30, floating_pairs = 97, find total ribs.",
+     "a": "426",
+     "self_check": false
+    },
+    {
+     "q": "For Rib Cage Structure: given true_pairs = 32, false_pairs = 45, floating_pairs = 63, find total ribs.",
+     "a": "280",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "kebo.117.1",
    "title": "Types of Cellular Movement",
@@ -18,58 +206,6 @@
     {
      "q": "Write the standard relation used for 'Types of Cellular Movement', in plain ASCII form.",
      "a": "concept method; no single closed formula",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebo.117.2",
-   "title": "Classification of Muscle Tissues",
-   "questions": [
-    {
-     "q": "Using the method 'Classification of Muscle Tissues', work with: total_body_weight = 20. Carry the chain through step by step and give the final value of body_muscle_mass.",
-     "a": "9 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Classification of Muscle Tissues' and work with: total_body_weight = 20. Carry the chain through step by step and give the final value of body_muscle_mass.",
-     "a": "9 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Classification of Muscle Tissues' refers to.",
-     "a": "Muscles are specialized mesodermal tissues categorized into skeletal (striated/voluntary), visceral (smooth/involuntary), and cardiac (striated/involuntary) types.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Classification of Muscle Tissues'.",
-     "a": "Muscles are distinguished by their location, microscopic appearance, and the nature of their nervous regulation.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Classification of Muscle Tissues', in plain ASCII form.",
-     "a": "body_muscle_mass = 0.45 * total_body_weight",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebo.117.3",
-   "title": "Structure of the Sarcomere",
-   "questions": [
-    {
-     "q": "Explain in your own words what 'Structure of the Sarcomere' refers to.",
-     "a": "The functional unit of a myofibril located between two successive Z-lines, containing organized arrangements of actin and myosin filaments.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Structure of the Sarcomere'.",
-     "a": "The sarcomere is indeed the basic contractile segment that shortens during muscle activity.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Structure of the Sarcomere', in plain ASCII form.",
-     "a": "sarcomere = I_half + A_band + I_half",
      "self_check": true
     }
    ]
@@ -122,68 +258,6 @@
     {
      "q": "Write the standard relation used for 'Axial Skeleton Bone Count', in plain ASCII form.",
      "a": "total_axial = skull + hyoid + ossicles + vertebrae + sternum + ribs",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebo.117.6",
-   "title": "Vertebral Column Composition",
-   "questions": [
-    {
-     "q": "Calculate the total number of vertebrae. Use the method 'Vertebral Column Composition'. Work with: the fixed constants of the method. Carry the chain through step by step and give the final value of total_v.",
-     "a": "26 units",
-     "self_check": false
-    },
-    {
-     "q": "How many thoracic vertebrae are in humans? Use the method 'Vertebral Column Composition'. Work with: the fixed constants of the method. Carry the chain through step by step and give the final value of total_v.",
-     "a": "26 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Vertebral Column Composition' refers to.",
-     "a": "The series of 26 bone units protecting the spinal cord, divided into cervical, thoracic, lumbar, sacral, and coccygeal regions.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Vertebral Column Composition'.",
-     "a": "Human vertebrae are regionally specialized, with a constant number of 7 cervical vertebrae in most mammals.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Vertebral Column Composition', in plain ASCII form.",
-     "a": "total_v = cervical + thoracic + lumbar + sacral + coccygeal",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebo.117.7",
-   "title": "Rib Cage Structure",
-   "questions": [
-    {
-     "q": "Calculate the total number of ribs. Use the method 'Rib Cage Structure'. Work with: the fixed constants of the method. Carry the chain through step by step and give the final value of total_ribs.",
-     "a": "24 units",
-     "self_check": false
-    },
-    {
-     "q": "How many floating ribs are there? Use the method 'Rib Cage Structure'. Work with: the fixed constants of the method. Carry the chain through step by step and give the final value of total_ribs.",
-     "a": "24 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Rib Cage Structure' refers to.",
-     "a": "The protective enclosure of the thorax formed by the sternum, thoracic vertebrae, and 12 pairs of ribs.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Rib Cage Structure'.",
-     "a": "Ribs are indeed classified as true, false, or floating using their attachment to the sternum.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Rib Cage Structure', in plain ASCII form.",
-     "a": "total_ribs = true_pairs * 2 + false_pairs * 2 + floating_pairs * 2",
      "self_check": true
     }
    ]

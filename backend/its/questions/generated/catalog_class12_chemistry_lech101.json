@@ -1,0 +1,616 @@
+{
+ "catalog": "catalog_class12_chemistry_lech101.json",
+ "concepts": [
+  {
+   "id": "lech.01.1.2.1",
+   "title": "Mass Percentage of a Component",
+   "converted_to_compute": true,
+   "formula": "mass_pct = 100 * mass_solute / total_mass_solution",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mass_pct = 100 * mass_solute / total_mass_solution",
+     "compute": "mass_pct = 100 * mass_solute / total_mass_solution"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Mass Percentage of a Component: given mass_solute = 116, total_mass_solution = 96, find mass pct.",
+     "a": "120.833",
+     "self_check": false
+    },
+    {
+     "q": "For Mass Percentage of a Component: given mass_solute = 131, total_mass_solution = 31, find mass pct.",
+     "a": "422.581",
+     "self_check": false
+    },
+    {
+     "q": "For Mass Percentage of a Component: given mass_solute = 147, total_mass_solution = 57, find mass pct.",
+     "a": "257.895",
+     "self_check": false
+    },
+    {
+     "q": "For Mass Percentage of a Component: given mass_solute = 71, total_mass_solution = 155, find mass pct.",
+     "a": "45.8065",
+     "self_check": false
+    },
+    {
+     "q": "For Mass Percentage of a Component: given mass_solute = 63, total_mass_solution = 109, find mass pct.",
+     "a": "57.7982",
+     "self_check": false
+    },
+    {
+     "q": "For Mass Percentage of a Component: given mass_solute = 130, total_mass_solution = 164, find mass pct.",
+     "a": "79.2683",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.01.1.2.2",
+   "title": "Mole Fraction of a Component",
+   "converted_to_compute": true,
+   "formula": "x_solute = moles_solute / (moles_solute + moles_solvent)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "x_solute = moles_solute / (moles_solute + moles_solvent)",
+     "compute": "x_solute = moles_solute / (moles_solute + moles_solvent)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Mole Fraction of a Component: given moles_solute = 12.1, moles_solvent = 3.2, find x solute.",
+     "a": "0.79085",
+     "self_check": false
+    },
+    {
+     "q": "For Mole Fraction of a Component: given moles_solute = 15.7, moles_solvent = 11.9, find x solute.",
+     "a": "0.568841",
+     "self_check": false
+    },
+    {
+     "q": "For Mole Fraction of a Component: given moles_solute = 1.8, moles_solvent = 14.1, find x solute.",
+     "a": "0.113208",
+     "self_check": false
+    },
+    {
+     "q": "For Mole Fraction of a Component: given moles_solute = 13.1, moles_solvent = 19.8, find x solute.",
+     "a": "0.398176",
+     "self_check": false
+    },
+    {
+     "q": "For Mole Fraction of a Component: given moles_solute = 15.9, moles_solvent = 0.9, find x solute.",
+     "a": "0.946429",
+     "self_check": false
+    },
+    {
+     "q": "For Mole Fraction of a Component: given moles_solute = 13.4, moles_solvent = 10.7, find x solute.",
+     "a": "0.556017",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.01.1.2.3",
+   "title": "Molarity of a Solution",
+   "converted_to_compute": true,
+   "formula": "molarity = 1000 * moles_solute / volume_solution_ml",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "molarity = 1000 * moles_solute / volume_solution_ml",
+     "compute": "molarity = 1000 * moles_solute / volume_solution_ml"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Molarity of a Solution: given moles_solute = 7.9, volume_solution_ml = 42, find molarity.",
+     "a": "188.095",
+     "self_check": false
+    },
+    {
+     "q": "For Molarity of a Solution: given moles_solute = 4.5, volume_solution_ml = 62, find molarity.",
+     "a": "72.5806",
+     "self_check": false
+    },
+    {
+     "q": "For Molarity of a Solution: given moles_solute = 2.2, volume_solution_ml = 29, find molarity.",
+     "a": "75.8621",
+     "self_check": false
+    },
+    {
+     "q": "For Molarity of a Solution: given moles_solute = 14.6, volume_solution_ml = 79, find molarity.",
+     "a": "184.81",
+     "self_check": false
+    },
+    {
+     "q": "For Molarity of a Solution: given moles_solute = 5, volume_solution_ml = 5.8, find molarity.",
+     "a": "862.069",
+     "self_check": false
+    },
+    {
+     "q": "For Molarity of a Solution: given moles_solute = 1.9, volume_solution_ml = 55, find molarity.",
+     "a": "34.5455",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.01.1.2.4",
+   "title": "Molality of a Solution",
+   "converted_to_compute": true,
+   "formula": "molality = 1000 * moles_solute / mass_solvent_g",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "molality = 1000 * moles_solute / mass_solvent_g",
+     "compute": "molality = 1000 * moles_solute / mass_solvent_g"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Molality of a Solution: given moles_solute = 8, mass_solvent_g = 69, find molality.",
+     "a": "115.942",
+     "self_check": false
+    },
+    {
+     "q": "For Molality of a Solution: given moles_solute = 6.7, mass_solvent_g = 25, find molality.",
+     "a": "268",
+     "self_check": false
+    },
+    {
+     "q": "For Molality of a Solution: given moles_solute = 1.3, mass_solvent_g = 76, find molality.",
+     "a": "17.1053",
+     "self_check": false
+    },
+    {
+     "q": "For Molality of a Solution: given moles_solute = 10.7, mass_solvent_g = 72, find molality.",
+     "a": "148.611",
+     "self_check": false
+    },
+    {
+     "q": "For Molality of a Solution: given moles_solute = 13.5, mass_solvent_g = 50, find molality.",
+     "a": "270",
+     "self_check": false
+    },
+    {
+     "q": "For Molality of a Solution: given moles_solute = 2.8, mass_solvent_g = 19.9, find molality.",
+     "a": "140.704",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.01.1.2.5",
+   "title": "Parts per Million (ppm)",
+   "converted_to_compute": true,
+   "formula": "ppm = 1000000 * mass_component / total_mass_sample",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ppm = 1000000 * mass_component / total_mass_sample",
+     "compute": "ppm = 1000000 * mass_component / total_mass_sample"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Parts per Million (ppm): given mass_component = 158, total_mass_sample = 148, find ppm.",
+     "a": "1067567.567568",
+     "self_check": false
+    },
+    {
+     "q": "For Parts per Million (ppm): given mass_component = 190, total_mass_sample = 74, find ppm.",
+     "a": "2567567.567568",
+     "self_check": false
+    },
+    {
+     "q": "For Parts per Million (ppm): given mass_component = 74, total_mass_sample = 164, find ppm.",
+     "a": "451220",
+     "self_check": false
+    },
+    {
+     "q": "For Parts per Million (ppm): given mass_component = 29, total_mass_sample = 143, find ppm.",
+     "a": "202797",
+     "self_check": false
+    },
+    {
+     "q": "For Parts per Million (ppm): given mass_component = 177, total_mass_sample = 136, find ppm.",
+     "a": "1301470.588235",
+     "self_check": false
+    },
+    {
+     "q": "For Parts per Million (ppm): given mass_component = 101, total_mass_sample = 2, find ppm.",
+     "a": "50500000",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.01.1.3.1",
+   "title": "Henry's Law Solubility of a Gas",
+   "converted_to_compute": true,
+   "formula": "x_gas = partial_pressure / henry_constant",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "x_gas = partial_pressure / henry_constant",
+     "compute": "x_gas = partial_pressure / henry_constant"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Henry's Law Solubility of a Gas: given partial_pressure = 97, henry_constant = 63, find x gas.",
+     "a": "1.53968",
+     "self_check": false
+    },
+    {
+     "q": "For Henry's Law Solubility of a Gas: given partial_pressure = 452, henry_constant = 65, find x gas.",
+     "a": "6.95385",
+     "self_check": false
+    },
+    {
+     "q": "For Henry's Law Solubility of a Gas: given partial_pressure = 38, henry_constant = 32, find x gas.",
+     "a": "1.1875",
+     "self_check": false
+    },
+    {
+     "q": "For Henry's Law Solubility of a Gas: given partial_pressure = 440, henry_constant = 4.6, find x gas.",
+     "a": "95.6522",
+     "self_check": false
+    },
+    {
+     "q": "For Henry's Law Solubility of a Gas: given partial_pressure = 437, henry_constant = 66, find x gas.",
+     "a": "6.62121",
+     "self_check": false
+    },
+    {
+     "q": "For Henry's Law Solubility of a Gas: given partial_pressure = 316, henry_constant = 80, find x gas.",
+     "a": "3.95",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.01.1.4.1",
+   "title": "Total Vapour Pressure of an Ideal Liquid Pair",
+   "converted_to_compute": true,
+   "formula": "p_total = p_a_pure + (p_b_pure - p_a_pure) * x_b",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "p_total = p_a_pure + (p_b_pure - p_a_pure) * x_b",
+     "compute": "p_total = p_a_pure + (p_b_pure - p_a_pure) * x_b"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Total Vapour Pressure of an Ideal Liquid Pair: given p_a_pure = 23, p_b_pure = 47, x_b = 3.8, find p total.",
+     "a": "114.2",
+     "self_check": false
+    },
+    {
+     "q": "For Total Vapour Pressure of an Ideal Liquid Pair: given p_a_pure = 69, p_b_pure = 25, x_b = 33, find p total.",
+     "a": "-1383",
+     "self_check": false
+    },
+    {
+     "q": "For Total Vapour Pressure of an Ideal Liquid Pair: given p_a_pure = 83, p_b_pure = 75, x_b = 12.3, find p total.",
+     "a": "-15.4",
+     "self_check": false
+    },
+    {
+     "q": "For Total Vapour Pressure of an Ideal Liquid Pair: given p_a_pure = 3.2, p_b_pure = 54, x_b = 23, find p total.",
+     "a": "1171.6",
+     "self_check": false
+    },
+    {
+     "q": "For Total Vapour Pressure of an Ideal Liquid Pair: given p_a_pure = 18.7, p_b_pure = 72, x_b = 83, find p total.",
+     "a": "4442.6",
+     "self_check": false
+    },
+    {
+     "q": "For Total Vapour Pressure of an Ideal Liquid Pair: given p_a_pure = 38, p_b_pure = 13.4, x_b = 33, find p total.",
+     "a": "-773.8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.01.1.6.1",
+   "title": "Relative Lowering of Vapour Pressure and Solute Molar Mass",
+   "converted_to_compute": true,
+   "formula": "mm_solute = mass_solute * molar_mass_solvent / (relative_lowering * mass_solvent)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mm_solute = mass_solute * molar_mass_solvent / (relative_lowering * mass_solvent)",
+     "compute": "mm_solute = mass_solute * molar_mass_solvent / (relative_lowering * mass_solvent)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Relative Lowering of Vapour Pressure and Solute Molar Mass: given mass_solute = 33, molar_mass_solvent = 95, relative_lowering = 19.3, mass_solvent = 115, find mm solute.",
+     "a": "1.41248",
+     "self_check": false
+    },
+    {
+     "q": "For Relative Lowering of Vapour Pressure and Solute Molar Mass: given mass_solute = 175, molar_mass_solvent = 121, relative_lowering = 12.6, mass_solvent = 2.4, find mm solute.",
+     "a": "700.231",
+     "self_check": false
+    },
+    {
+     "q": "For Relative Lowering of Vapour Pressure and Solute Molar Mass: given mass_solute = 107, molar_mass_solvent = 175, relative_lowering = 96, mass_solvent = 139, find mm solute.",
+     "a": "1.40325",
+     "self_check": false
+    },
+    {
+     "q": "For Relative Lowering of Vapour Pressure and Solute Molar Mass: given mass_solute = 186, molar_mass_solvent = 104, relative_lowering = 22, mass_solvent = 193, find mm solute.",
+     "a": "4.55582",
+     "self_check": false
+    },
+    {
+     "q": "For Relative Lowering of Vapour Pressure and Solute Molar Mass: given mass_solute = 105, molar_mass_solvent = 85, relative_lowering = 21, mass_solvent = 193, find mm solute.",
+     "a": "2.20207",
+     "self_check": false
+    },
+    {
+     "q": "For Relative Lowering of Vapour Pressure and Solute Molar Mass: given mass_solute = 131, molar_mass_solvent = 128, relative_lowering = 38, mass_solvent = 136, find mm solute.",
+     "a": "3.24458",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.01.1.6.2",
+   "title": "Elevation of Boiling Point",
+   "converted_to_compute": true,
+   "formula": "delta_tb = kb_constant * molality",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "delta_tb = kb_constant * molality",
+     "compute": "delta_tb = kb_constant * molality"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Elevation of Boiling Point: given kb_constant = 17.8, molality = 8.2, find delta tb.",
+     "a": "145.96",
+     "self_check": false
+    },
+    {
+     "q": "For Elevation of Boiling Point: given kb_constant = 68, molality = 0.1, find delta tb.",
+     "a": "6.8",
+     "self_check": false
+    },
+    {
+     "q": "For Elevation of Boiling Point: given kb_constant = 14.1, molality = 7.7, find delta tb.",
+     "a": "108.57",
+     "self_check": false
+    },
+    {
+     "q": "For Elevation of Boiling Point: given kb_constant = 92, molality = 2.1, find delta tb.",
+     "a": "193.2",
+     "self_check": false
+    },
+    {
+     "q": "For Elevation of Boiling Point: given kb_constant = 64, molality = 9.8, find delta tb.",
+     "a": "627.2",
+     "self_check": false
+    },
+    {
+     "q": "For Elevation of Boiling Point: given kb_constant = 38, molality = 1.5, find delta tb.",
+     "a": "57",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.01.1.6.3.1",
+   "title": "Depression of Freezing Point",
+   "converted_to_compute": true,
+   "formula": "delta_tf = kf_constant * molality",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "delta_tf = kf_constant * molality",
+     "compute": "delta_tf = kf_constant * molality"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Depression of Freezing Point: given kf_constant = 39, molality = 1.8, find delta tf.",
+     "a": "70.2",
+     "self_check": false
+    },
+    {
+     "q": "For Depression of Freezing Point: given kf_constant = 89, molality = 5.5, find delta tf.",
+     "a": "489.5",
+     "self_check": false
+    },
+    {
+     "q": "For Depression of Freezing Point: given kf_constant = 77, molality = 5.7, find delta tf.",
+     "a": "438.9",
+     "self_check": false
+    },
+    {
+     "q": "For Depression of Freezing Point: given kf_constant = 90, molality = 4.8, find delta tf.",
+     "a": "432",
+     "self_check": false
+    },
+    {
+     "q": "For Depression of Freezing Point: given kf_constant = 84, molality = 3.6, find delta tf.",
+     "a": "302.4",
+     "self_check": false
+    },
+    {
+     "q": "For Depression of Freezing Point: given kf_constant = 69, molality = 0.1, find delta tf.",
+     "a": "6.9",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.01.1.6.3.2",
+   "title": "Molar Mass of a Solute from Freezing Point Depression",
+   "converted_to_compute": true,
+   "formula": "mm_solute = 1000 * kf_constant * mass_solute / (delta_tf * mass_solvent)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mm_solute = 1000 * kf_constant * mass_solute / (delta_tf * mass_solvent)",
+     "compute": "mm_solute = 1000 * kf_constant * mass_solute / (delta_tf * mass_solvent)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Molar Mass of a Solute from Freezing Point Depression: given kf_constant = 56, mass_solute = 121, delta_tf = 120, mass_solvent = 99, find mm solute.",
+     "a": "570.37",
+     "self_check": false
+    },
+    {
+     "q": "For Molar Mass of a Solute from Freezing Point Depression: given kf_constant = 22, mass_solute = 146, delta_tf = 52, mass_solvent = 189, find mm solute.",
+     "a": "326.821",
+     "self_check": false
+    },
+    {
+     "q": "For Molar Mass of a Solute from Freezing Point Depression: given kf_constant = 7.3, mass_solute = 149, delta_tf = 85, mass_solvent = 64, find mm solute.",
+     "a": "199.945",
+     "self_check": false
+    },
+    {
+     "q": "For Molar Mass of a Solute from Freezing Point Depression: given kf_constant = 51, mass_solute = 173, delta_tf = 54, mass_solvent = 139, find mm solute.",
+     "a": "1175.46",
+     "self_check": false
+    },
+    {
+     "q": "For Molar Mass of a Solute from Freezing Point Depression: given kf_constant = 30, mass_solute = 41, delta_tf = 53, mass_solvent = 49, find mm solute.",
+     "a": "473.623",
+     "self_check": false
+    },
+    {
+     "q": "For Molar Mass of a Solute from Freezing Point Depression: given kf_constant = 74, mass_solute = 184, delta_tf = 89, mass_solvent = 38, find mm solute.",
+     "a": "4026.02",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.01.1.6.4.1",
+   "title": "Osmotic Pressure of a Solution",
+   "converted_to_compute": true,
+   "formula": "osmotic = (moles_solute / volume_litres) * gas_constant * kelvin_temp",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "osmotic = (moles_solute / volume_litres) * gas_constant * kelvin_temp",
+     "compute": "osmotic = (moles_solute / volume_litres) * gas_constant * kelvin_temp"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Osmotic Pressure of a Solution: given moles_solute = 4.1, volume_litres = 67, gas_constant = 37, kelvin_temp = 113, find osmotic.",
+     "a": "255.852",
+     "self_check": false
+    },
+    {
+     "q": "For Osmotic Pressure of a Solution: given moles_solute = 2.5, volume_litres = 58, gas_constant = 63, kelvin_temp = 43, find osmotic.",
+     "a": "116.767",
+     "self_check": false
+    },
+    {
+     "q": "For Osmotic Pressure of a Solution: given moles_solute = 11.1, volume_litres = 92, gas_constant = 56, kelvin_temp = 109, find osmotic.",
+     "a": "736.461",
+     "self_check": false
+    },
+    {
+     "q": "For Osmotic Pressure of a Solution: given moles_solute = 2.1, volume_litres = 47, gas_constant = 52, kelvin_temp = 45, find osmotic.",
+     "a": "104.553",
+     "self_check": false
+    },
+    {
+     "q": "For Osmotic Pressure of a Solution: given moles_solute = 13.3, volume_litres = 18.7, gas_constant = 93, kelvin_temp = 74, find osmotic.",
+     "a": "4894.68",
+     "self_check": false
+    },
+    {
+     "q": "For Osmotic Pressure of a Solution: given moles_solute = 1, volume_litres = 58, gas_constant = 27, kelvin_temp = 82, find osmotic.",
+     "a": "38.1724",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.01.1.7.1",
+   "title": "van't Hoff Factor",
+   "converted_to_compute": true,
+   "formula": "vant_hoff = normal_molar_mass / abnormal_molar_mass",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "vant_hoff = normal_molar_mass / abnormal_molar_mass",
+     "compute": "vant_hoff = normal_molar_mass / abnormal_molar_mass"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For van't Hoff Factor: given normal_molar_mass = 172, abnormal_molar_mass = 77, find vant hoff.",
+     "a": "2.23377",
+     "self_check": false
+    },
+    {
+     "q": "For van't Hoff Factor: given normal_molar_mass = 83, abnormal_molar_mass = 130, find vant hoff.",
+     "a": "0.638462",
+     "self_check": false
+    },
+    {
+     "q": "For van't Hoff Factor: given normal_molar_mass = 140, abnormal_molar_mass = 30, find vant hoff.",
+     "a": "4.66667",
+     "self_check": false
+    },
+    {
+     "q": "For van't Hoff Factor: given normal_molar_mass = 172, abnormal_molar_mass = 52, find vant hoff.",
+     "a": "3.30769",
+     "self_check": false
+    },
+    {
+     "q": "For van't Hoff Factor: given normal_molar_mass = 9.3, abnormal_molar_mass = 119, find vant hoff.",
+     "a": "0.0781513",
+     "self_check": false
+    },
+    {
+     "q": "For van't Hoff Factor: given normal_molar_mass = 43, abnormal_molar_mass = 192, find vant hoff.",
+     "a": "0.223958",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

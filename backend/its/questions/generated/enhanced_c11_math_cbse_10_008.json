@@ -34,6 +34,31 @@
      "q": "Construct a problem where the angle between two lines is 60°, one line has slope 2, and the other line passes through the origin. Write the equation of the second line in slope-intercept form. (There are two possible answers — find both.)",
      "a": "Given m₁ = 2, θ = 60°, tan 60° = √3. Formula: √3 = |(2 - m₂)/(1 + 2m₂)|. Two cases: (2 - m₂)/(1 + 2m₂) = √3 or = -√3. Case 1: 2 - m₂ = √3 + 2√3 m₂ → m₂(1 + 2√3) = 2 - √3 → m₂ = (2 - √3)/(1 + 2√3). Rationalize: m₂ = (2 - √3)(1 - 2√3)/(1 - 12) = (2 - 4√3 - √3 + 6)/(-11) = (8 - 5√3)/(-11) = (5√3 - 8)/11. Case 2: 2 - m₂ = -√3 - 2√3 m₂ → m₂(2√3 - 1) = -√3 - 2 → m₂ = (-√3 - 2)/(2√3 - 1). Rationalize: m₂ = (-√3 - 2)(2√3 + 1)/(12 - 1) = (-6 - √3 - 4√3 - 2)/11 = (-8 - 5√3)/11 = -(8 + 5√3)/11. Equations: y = [(5√3 - 8)/11]x and y = [-(8 + 5√3)/11]x. A poor answer (only one line or wrong algebra) reveals difficulty with absolute value equations and rationalization.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The angle between two ______ lines is defined as the acute angle θ (0° ≤ θ ≤ 90°) formed at their point of intersection.",
+     "a": "intersecting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a roof truss for a house in Kerala where two wooden ______ meet at an angle — you need to cut them precisely so they fit perfectly.",
+     "a": "beams",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If the lines have slopes m₁ and m₂ (where m₁, m₂ are finite real numbers and the lines are not perpendicular), then tan θ = |(m₁ - m₂)/(______ + m₁m₂)|.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute the angle between two lines given in any form (slope-intercept, general, intercept, or parametric), determine whether lines are parallel or perpendicular using the angle formula, and solve multi-step problems involving angle bisectors and geometric configurations like triangles formed by intersecting lines.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a roof truss for a house in Kerala where two wooden beams meet at an angle — you need to cut them precisely so they fit perfectly.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

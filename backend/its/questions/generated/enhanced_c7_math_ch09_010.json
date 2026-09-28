@@ -34,6 +34,26 @@
      "q": "Create an example of two non-congruent triangles that both have angles measuring 30°, 60°, and 90°, and specify their side lengths to prove they satisfy AAA but are different sizes.",
      "a": "A valid response provides two right-angled triangles with angles 30°, 60°, and 90°. For example, Triangle 1 with sides 3 cm, 4 cm, 5 cm (scaled or exact ratios like 3, 3√3, 6) and Triangle 2 with sides 6 cm, 6√3 cm, 12 cm. A poor answer gives triangles with different angles or identical side lengths, showing a failure to understand how to scale a triangle while preserving its angles.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Angle-Angle-Angle (AAA) condition is a set of three equal angles between two triangles, but it is NOT a congruence criterion because it ______ identical shape (similarity) rather than identical size (congruence).",
+     "a": "guarantees",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are drawing blueprints for a school playground slide; your little brother draws the exact same slide shape on a tiny postcard, and both drawings have ______ corner angles.",
+     "a": "identical",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can explain why having three equal angles is insufficient to prove triangle congruence, and can construct or analyze counterexamples demonstrating that triangles with identical angles can have different side lengths.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are drawing ______ for a school playground slide; your little brother draws the exact same slide shape on a tiny postcard, and both drawings have identical corner angles.",
+     "a": "blueprints",
+     "self_check": true
     }
    ]
   }

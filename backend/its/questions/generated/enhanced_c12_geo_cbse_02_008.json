@@ -34,6 +34,31 @@
      "q": "Design a choropleth map legend for showing \"District-level Female Literacy Rate in India (Census 2011)\" that effectively highlights both the national pattern and the critical threshold for demographic dividend (female literacy ≥ 60%). Specify class intervals, color scheme, and why your choices are geographically meaningful.",
      "a": "Legend design: 5 classes using natural breaks (Jenks) to reflect India's bimodal distribution: (1) <40% (dark red) — \"Critical deficit\" (e.g., Rajasthan, Bihar hinterland), (2) 40-55% (orange) — \"Low\", (3) 55-65% (yellow) — \"Transition zone crossing 60% threshold\", (4) 65-80% (light green) — \"Moderate\", (5) >80% (dark green) — \"High\" (Kerala, Mizoram, Lakshadweep). Color scheme: diverging red-yellow-green centered at 60% to visually flag districts below/above the demographic dividend threshold. Class 3 (55-65%) is narrow to emphasize the policy-critical boundary. A poor answer uses equal intervals (e.g., 0-20, 20-40...) which obscures the threshold and clusters most districts in middle classes, hiding the sharp North-South divide.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Population composition by rural-urban residence classifies people based on whether they live in areas defined as rural (typically villages with low density, agricultural livelihoods) or urban (towns/cities with high density, non-agricultural occupations, ______ criteria).",
+     "a": "administrative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: open the Census 2011 data for your own district — note the \"Rural ______ %\" and \"Literacy Rate\" columns.",
+     "a": "Population",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literacy composition measures the percentage of population aged ______+ years who can read and write with understanding in any language, serving as a key indicator of human capital quality and socio-economic development.",
+     "a": "7",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) calculate and interpret urbanization rate and literacy rate from census data for any country/region, (2) explain the push-pull factors driving rural-urban migration using demographic transition theory, (3) correlate literacy patterns with gender, region, and economic development on a world map, and (4) evaluate how.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world ______: open the Census 2011 data for your own district — note the \"Rural Population %\" and \"Literacy Rate\" columns.",
+     "a": "observation",
+     "self_check": true
     }
    ]
   }

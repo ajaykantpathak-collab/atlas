@@ -34,6 +34,11 @@
      "q": "Create a complex number \\(z\\) (not purely real or imaginary) whose principal argument is exactly \\(\\frac{2\\pi}{3}\\) and whose modulus is 5. Write it in both Cartesian and polar forms. Explain how you chose the Cartesian coordinates.",
      "a": "Polar: \\(5(\\cos\\frac{2\\pi}{3} + i\\sin\\frac{2\\pi}{3})\\). Cartesian: \\(x = 5\\cos\\frac{2\\pi}{3} = -\\frac{5}{2}, y = 5\\sin\\frac{2\\pi}{3} = \\frac{5\\sqrt{3}}{2}\\), so \\(z = -\\frac{5}{2} + i\\frac{5\\sqrt{3}}{2}\\). A poor answer that gives a point in QI or QIV reveals the student does not connect the argument to the correct quadrant; a good answer shows understanding that \\(\\cos(2\\pi/3)<0, \\sin(2\\pi/3)>0\\) forces QII.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Instead of saying \"go 3 units east and 4 units north\", a polar ______ says \"go 5 units at an angle of about 53° from the positive x-axis\".",
+     "a": "description",
+     "self_check": true
     }
    ]
   }

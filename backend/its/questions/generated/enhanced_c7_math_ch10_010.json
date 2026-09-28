@@ -34,6 +34,26 @@
      "q": "Create a 4-step number pattern starting with the expression $(-10) \\div 2 = -5$ where the divisor decreases by 1 each step until it reaches $-2$, and write the resulting quotients.",
      "a": "The expected sequence is: \nStep 1: $(-10) \\div 2 = -5$\nStep 2: $(-10) \\div 1 = -10$\nStep 3: $(-10) \\div 0 = \\text{undefined}$ (or note the trend toward infinity)\nStep 4: $(-10) \\div (-1) = +10$\nStep 5: $(-10) \\div (-2) = +5$\nA poor answer shows random numbers without following the systematic decrease of the divisor or fails to show how division by negative numbers yields positive quotients.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Patterns in integer operations involve observing, analyzing, and generalizing regularities or predictable behaviors when applying arithmetic operations (addition, subtraction, ______, and division) to positive and negative integers.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping a school ______ manager in Mumbai track their daily profit and loss over a week.",
+     "a": "canteen",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can observe a sequence of integer calculations, identify the underlying numerical or sign pattern, state the general rule or property governing the pattern, and apply that generalized rule to solve unknown integer expressions or word problems.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are helping a school canteen manager in Mumbai track their daily profit and loss over a week.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a simple card-game activity for your classmates to practice the valency cross method. The game must include at least 10 cation cards, 10 anion cards (including polyatomic ions), and a rule for scoring based on correctly written formulae. Describe the game setup and rules in 4-5 sentences.",
      "a": "Create two decks: Cation cards (e.g., Na⁺, Mg²⁺, Al³⁺, NH₄⁺, Ca²⁺, Fe²⁺, Fe³⁺, Cu⁺, Cu²⁺, Zn²⁺) and Anion cards (e.g., Cl⁻, O²⁻, OH⁻, NO₃⁻, CO₃²⁻, SO₄²⁻, PO₄³⁻, CH₃COO⁻, S²⁻, HCO₃⁻). Each player draws one cation and one anion card, writes the formula on a whiteboard using the cross method, and shows it. Other players verify: correct formula with brackets and simplification = 2 points; correct but missing brackets/simplification = 1 point; incorrect = 0. The player with the highest score after 5 rounds wins. A poor answer (e.g., no brackets rule, no polyatomic ions) reveals the student hasn't internalized the critical nuances of the method.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The valency cross method is a systematic rule for writing the chemical formula of a compound by crossing over the numerical valencies of the combining ions or elements (cations and anions) to become the subscripts of the opposite ion, then ______ the subscripts to the lowest whole-number ratio to obtain the correct empirical formula.",
+     "a": "simplifying",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe ______ household chemicals: table salt (NaCl), baking soda (NaHCO₃), washing soda (Na₂CO₃), and limestone (CaCO₃).",
+     "a": "common",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently write the correct chemical formula for any binary or ternary ionic/covalent compound (including polyatomic ions) by identifying the constituent ions, stating their valencies, applying the cross-over rule, using brackets correctly for polyatomic ions, and simplifying the subscripts to the simplest ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe common ______ chemicals: table salt (NaCl), baking soda (NaHCO₃), washing soda (Na₂CO₃), and limestone (CaCO₃).",
+     "a": "household",
+     "self_check": true
     }
    ]
   }

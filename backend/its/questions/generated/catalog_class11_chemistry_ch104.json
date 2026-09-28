@@ -1,0 +1,364 @@
+{
+ "catalog": "catalog_class11_chemistry_ch104.json",
+ "concepts": [
+  {
+   "id": "kech.4.1.1",
+   "title": "Lewis Symbols and Valence Electrons",
+   "converted_to_compute": true,
+   "formula": "valence_electrons = group_number_count",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "valence_electrons = group_number_count",
+     "compute": "valence_electrons = group_number_count"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "kech.4.1.1",
+     "question_pattern": "write the Lewis dot symbols for {group_number_count}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Lewis Symbols and Valence Electrons: given group_number_count = 1.5, find valence electrons.",
+     "a": "1.5",
+     "self_check": false
+    },
+    {
+     "q": "write the Lewis dot symbols for 1.5?",
+     "a": "1.5",
+     "self_check": false
+    },
+    {
+     "q": "For Lewis Symbols and Valence Electrons: given group_number_count = 2.3, find valence electrons.",
+     "a": "2.3",
+     "self_check": false
+    },
+    {
+     "q": "write the Lewis dot symbols for 2.3?",
+     "a": "2.3",
+     "self_check": false
+    },
+    {
+     "q": "For Lewis Symbols and Valence Electrons: given group_number_count = 4.6, find valence electrons.",
+     "a": "4.6",
+     "self_check": false
+    },
+    {
+     "q": "write the Lewis dot symbols for 4.6?",
+     "a": "4.6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kech.4.1.4",
+   "title": "Formal Charge",
+   "converted_to_compute": true,
+   "formula": "formal_charge = valence - lone_pair_e - (1/2) * shared_e",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "formal_charge = valence - lone_pair_e - (1/2) * shared_e",
+     "compute": "formal_charge = valence - lone_pair_e - (1/2) * shared_e"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Formal Charge: given valence = 6.8, lone_pair_e = 37, shared_e = 31, find formal charge.",
+     "a": "-45.7",
+     "self_check": false
+    },
+    {
+     "q": "For Formal Charge: given valence = 55, lone_pair_e = 17.9, shared_e = 70, find formal charge.",
+     "a": "2.1",
+     "self_check": false
+    },
+    {
+     "q": "For Formal Charge: given valence = 39, lone_pair_e = 22, shared_e = 88, find formal charge.",
+     "a": "-27",
+     "self_check": false
+    },
+    {
+     "q": "For Formal Charge: given valence = 94, lone_pair_e = 6.8, shared_e = 16.2, find formal charge.",
+     "a": "79.1",
+     "self_check": false
+    },
+    {
+     "q": "For Formal Charge: given valence = 6.2, lone_pair_e = 22, shared_e = 16, find formal charge.",
+     "a": "-23.8",
+     "self_check": false
+    },
+    {
+     "q": "For Formal Charge: given valence = 64, lone_pair_e = 22, shared_e = 96, find formal charge.",
+     "a": "-6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kech.4.3.1",
+   "title": "Bond Length",
+   "converted_to_compute": true,
+   "formula": "bond_length = radius_a + radius_b",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "bond_length = radius_a + radius_b",
+     "compute": "bond_length = radius_a + radius_b"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "kech.4.3.1",
+     "question_pattern": "what is the bond length if covalent radii are {radius_a} and {radius_b}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Bond Length: given radius_a = 33, radius_b = 16.5, find bond length.",
+     "a": "49.5",
+     "self_check": false
+    },
+    {
+     "q": "what is the bond length if covalent radii are 33 and 16.5?",
+     "a": "49.5",
+     "self_check": false
+    },
+    {
+     "q": "For Bond Length: given radius_a = 26, radius_b = 9.1, find bond length.",
+     "a": "35.1",
+     "self_check": false
+    },
+    {
+     "q": "what is the bond length if covalent radii are 26 and 9.1?",
+     "a": "35.1",
+     "self_check": false
+    },
+    {
+     "q": "For Bond Length: given radius_a = 45, radius_b = 6.6, find bond length.",
+     "a": "51.6",
+     "self_check": false
+    },
+    {
+     "q": "what is the bond length if covalent radii are 45 and 6.6?",
+     "a": "51.6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kech.4.3.6",
+   "title": "Dipole Moment",
+   "converted_to_compute": true,
+   "formula": "dipole_moment = charge * distance",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "dipole_moment = charge * distance",
+     "compute": "dipole_moment = charge * distance"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "kech.4.3.6",
+     "question_pattern": "find the dipole moment given charge {charge} and distance {distance}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Dipole Moment: given charge = 30, distance = 367, find dipole moment.",
+     "a": "11010",
+     "self_check": false
+    },
+    {
+     "q": "find the dipole moment given charge 30 and distance 367?",
+     "a": "11010",
+     "self_check": false
+    },
+    {
+     "q": "For Dipole Moment: given charge = 24, distance = 419, find dipole moment.",
+     "a": "10056",
+     "self_check": false
+    },
+    {
+     "q": "find the dipole moment given charge 24 and distance 419?",
+     "a": "10056",
+     "self_check": false
+    },
+    {
+     "q": "For Dipole Moment: given charge = 13.7, distance = 473, find dipole moment.",
+     "a": "6480.1",
+     "self_check": false
+    },
+    {
+     "q": "find the dipole moment given charge 13.7 and distance 473?",
+     "a": "6480.1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kech.4.4.1",
+   "title": "VSEPR Theory - Electron Pairs",
+   "converted_to_compute": true,
+   "formula": "total_pairs = bond_pairs + lone_pairs",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_pairs = bond_pairs + lone_pairs",
+     "compute": "total_pairs = bond_pairs + lone_pairs"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "kech.4.4.1",
+     "question_pattern": "what is the geometry of a molecule with {bond_pairs} bond pairs and {lone_pairs} lone pairs"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For VSEPR Theory - Electron Pairs: given bond_pairs = 68, lone_pairs = 92, find total pairs.",
+     "a": "160",
+     "self_check": false
+    },
+    {
+     "q": "what is the geometry of a molecule with 68 bond pairs and 92 lone pairs?",
+     "a": "160",
+     "self_check": false
+    },
+    {
+     "q": "For VSEPR Theory - Electron Pairs: given bond_pairs = 37, lone_pairs = 62, find total pairs.",
+     "a": "99",
+     "self_check": false
+    },
+    {
+     "q": "what is the geometry of a molecule with 37 bond pairs and 62 lone pairs?",
+     "a": "99",
+     "self_check": false
+    },
+    {
+     "q": "For VSEPR Theory - Electron Pairs: given bond_pairs = 97, lone_pairs = 42, find total pairs.",
+     "a": "139",
+     "self_check": false
+    },
+    {
+     "q": "what is the geometry of a molecule with 97 bond pairs and 42 lone pairs?",
+     "a": "139",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kech.4.6.1",
+   "title": "Hybridization",
+   "converted_to_compute": true,
+   "formula": "hybrid_orbitals_count = atomic_orbitals_mixed",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "hybrid_orbitals_count = atomic_orbitals_mixed",
+     "compute": "hybrid_orbitals_count = atomic_orbitals_mixed"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Hybridization: given atomic_orbitals_mixed = 40, find hybrid orbitals count.",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "For Hybridization: given atomic_orbitals_mixed = 51, find hybrid orbitals count.",
+     "a": "51",
+     "self_check": false
+    },
+    {
+     "q": "For Hybridization: given atomic_orbitals_mixed = 4.7, find hybrid orbitals count.",
+     "a": "4.7",
+     "self_check": false
+    },
+    {
+     "q": "For Hybridization: given atomic_orbitals_mixed = 76, find hybrid orbitals count.",
+     "a": "76",
+     "self_check": false
+    },
+    {
+     "q": "For Hybridization: given atomic_orbitals_mixed = 37, find hybrid orbitals count.",
+     "a": "37",
+     "self_check": false
+    },
+    {
+     "q": "For Hybridization: given atomic_orbitals_mixed = 32, find hybrid orbitals count.",
+     "a": "32",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kech.4.7.4",
+   "title": "MO Theory Bond Order",
+   "converted_to_compute": true,
+   "formula": "bond_order = (bonding_e - antibonding_e) / 2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "bond_order = (bonding_e - antibonding_e) / 2",
+     "compute": "bond_order = (bonding_e - antibonding_e) / 2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "kech.4.7.4",
+     "question_pattern": "what is the bond order for a molecule with {bonding_e} bonding and {antibonding_e} antibonding electrons"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For MO Theory Bond Order: given bonding_e = 28, antibonding_e = 9.1, find bond order.",
+     "a": "9.45",
+     "self_check": false
+    },
+    {
+     "q": "what is the bond order for a molecule with 28 bonding and 9.1 antibonding electrons?",
+     "a": "9.45",
+     "self_check": false
+    },
+    {
+     "q": "For MO Theory Bond Order: given bonding_e = 45, antibonding_e = 20, find bond order.",
+     "a": "12.5",
+     "self_check": false
+    },
+    {
+     "q": "what is the bond order for a molecule with 45 bonding and 20 antibonding electrons?",
+     "a": "12.5",
+     "self_check": false
+    },
+    {
+     "q": "For MO Theory Bond Order: given bonding_e = 86, antibonding_e = 49, find bond order.",
+     "a": "18.5",
+     "self_check": false
+    },
+    {
+     "q": "what is the bond order for a molecule with 86 bonding and 49 antibonding electrons?",
+     "a": "18.5",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

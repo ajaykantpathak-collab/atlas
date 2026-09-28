@@ -34,6 +34,31 @@
      "q": "Design a composite tile unit consisting of a square and four right-angled triangles that possesses both 4-fold rotational symmetry and four lines of symmetry when tessellated. Describe its layout.",
      "a": "The expected design places a central square of side $s$, with four identical right-angled triangles attached to its four outer edges such that their hypotenuses or legs match the square's sides, arranged symmetrically so that rotating the composite unit by 90°, 180°, or 270° maps it onto itself, and reflecting across horizontal, vertical, and diagonal axes maintains exact overlap. A poor answer lacks proper angle or side alignment, creating gaps or asymmetric layouts.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Symmetry in tilings and patterns refers to the presence of ______, rotational, or reflectional balance when a plane is covered repeatedly with geometric shapes without gaps or overlaps.",
+     "a": "translational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine walking into a grand palace in Jaipur and looking at the intricate marble floor tiles or the ______ jali window screens.",
+     "a": "decorative",
+     "self_check": true
+    },
+    {
+     "q": "What is Symmetry in tilings and patterns? State the definition given in this lesson.",
+     "a": "Symmetry in tilings and patterns refers to the presence of translational, rotational, or reflectional balance when a plane is covered repeatedly with geometric shapes without gaps or overlaps.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Symmetry in tilings and patterns?",
+     "a": "Students often confuse translational symmetry with rotational symmetry in repetitive wallpaper patterns.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify lines of symmetry, centers of rotational symmetry, and translation vectors in complex geometric tilings and patterns, and can construct a symmetric pattern using regular polygons.",
+     "self_check": true
     }
    ]
   }

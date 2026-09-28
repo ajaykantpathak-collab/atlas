@@ -34,6 +34,31 @@
      "q": "Construct a decimal number between 0.5 and 0.6 that is guaranteed to be irrational. Explain your construction method and prove it is irrational.",
      "a": "Correct answer: Example: 0.501001000100001... (start with 0.5, then follow the non-recurring pattern of increasing zeros between ones). \nMethod: Take any terminating decimal in the interval (e.g., 0.5) and append a known non-recurring pattern (like 010010001...). The resulting decimal is non-terminating (infinite pattern) and non-recurring (no repeating block because zeros increase). It lies between 0.5 and 0.6 because it starts with 0.5 and all subsequent digits are less than 0.1. \nProof: If it were rational, its decimal would eventually repeat. But the appended pattern has blocks of zeros of increasing length (1,2,3,4,...), so no finite block can repeat forever. Hence irrational. \nA poor answer reveals the student cannot design a non-recurring pattern, or thinks any random digits work without ensuring non-recurrence.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An irrational number is a real number whose decimal expansion is non-terminating and non-recurring (non-repeating), meaning it continues infinitely without any block of digits repeating ______.",
+     "a": "periodically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ the diagonal of a square floor tile of side 1 metre using a ruler marked in millimetres.",
+     "a": "measuring",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Equivalently, a number is irrational if and only if it cannot be expressed as a ratio p/q where p and q are integers and q ≠ ______.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify whether a given decimal expansion represents a rational or irrational number by checking for termination or recurrence, and can explain why numbers like √2, π, and e have non-terminating non-recurring expansions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are measuring the diagonal of a square floor tile of side 1 metre using a ruler marked in ______.",
+     "a": "millimetres",
+     "self_check": true
     }
    ]
   }

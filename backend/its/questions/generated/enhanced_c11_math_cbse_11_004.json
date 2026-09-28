@@ -34,6 +34,26 @@
      "q": "Construct a real-world problem involving a parabolic arch (like a bridge or gateway) where the span is 20 metres and the maximum height is 5 metres. Set up a coordinate system, derive the equation of the parabola, and find the height of the arch 3 metres from the centre.",
      "a": "Place vertex at (0,5) with axis vertical downward: x² = -4a(y-5). Arch passes through (10,0): 100 = -4a(-5) → 100 = 20a → a = 5. Equation: x² = -20(y-5). At x = 3: 9 = -20(y-5) → y-5 = -9/20 → y = 5 - 0.45 = 4.55 metres. A good answer includes coordinate system justification. A poor answer puts vertex at (0,0) and gets wrong equation, or uses y² = 4ax form incorrectly for a vertical arch.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A parabola is the set of all points in a plane that are ______ from a fixed point (focus) and a fixed line (directrix) in the same plane.",
+     "a": "equidistant",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ dish on your terrace - its curved shape is a parabola that reflects all incoming signals to a single point (the focus).",
+     "a": "satellite",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now consider a fixed point F(a,______) and a fixed line x = -a.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the standard equation of a parabola from its geometric definition, identify the focus, directrix, axis, vertex, and latus rectum from any given standard equation, and sketch the parabola with all key elements labeled correctly.",
+     "self_check": true
     }
    ]
   }

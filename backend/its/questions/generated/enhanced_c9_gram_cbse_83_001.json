@@ -1,0 +1,51 @@
+{
+ "catalog": "enhanced_c9_gram_cbse_83_001",
+ "concepts": [
+  {
+   "id": "enh:c9_gram_cbse_83_001",
+   "title": "c9_gram_cbse_83_001",
+   "questions": [
+    {
+     "q": "Report: 'Where are you going?' she asked me.",
+     "a": "'She asked me where I was going.' wh-word kept, order restored, are→was. A wrong answer 'where was I going' keeps question order inside the report.",
+     "self_check": true
+    },
+    {
+     "q": "Report: 'Please wait here,' the teacher said to us.",
+     "a": "'The teacher requested us to wait there.' 'please' → requested; here→there. A wrong answer 'the teacher said that please wait' glues 'that' onto an imperative — illegal frame.",
+     "self_check": true
+    },
+    {
+     "q": "Report: 'I may go to Delhi tomorrow,' he said.",
+     "a": "'He said (that) he might go to Delhi the next day.' may→might, tomorrow→the next day. A wrong answer 'he may go tomorrow' skips both shifts.",
+     "self_check": true
+    },
+    {
+     "q": "The full ______ machine at class 9: statements take 'that' + backshift; questions take if/whether (yes/no) or the wh-word, with statement order restored and the question mark dropped; commands take told/ordered/requested + object + (not) to-infinitive.",
+     "a": "reported-speech",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The full reported-speech machine at class 9: ______ take 'that' + backshift; questions take if/whether (yes/no) or the wh-word, with statement order restored and the question mark dropped; commands take told/ordered/requested + object + (not) to-infinitive.",
+     "a": "statements",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Type-check first, transform second: (1) statement → said/told + that + backshifted clause; (2) yes/no question → asked + if/whether + statement order; (3) wh-question → asked + wh-word + statement order; (4) command → told + object + (not) to-______.",
+     "a": "infinitive",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student converts all three sentence types between direct and indirect speech with correct backshift, connector choice, and deictic changes, and reports with appropriate verbs (asked, told, ordered, requested, advised, warned).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Type-check first, transform second: (1) statement → said/told + that + ______ clause; (2) yes/no question → asked + if/whether + statement order; (3) wh-question → asked + wh-word + statement order; (4) command → told + object + (not) to-infinitive.",
+     "a": "backshifted",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,31 @@
      "q": "Design a field investigation plan to determine whether a newly discovered volcanic rock suite in the Andaman Islands represents a subduction-related arc magma or a hotspot-related melt. Specify three key geochemical criteria and the tectonic reasoning for each.",
      "a": "A strong plan includes: (1) **K₂O vs. SiO₂ plot** — arc magmas define medium-K to high-K calc-alkaline trends; hotspot (OIB) magmas are typically low-K tholeiitic or alkaline. Reason: subduction fluids enrich LILE (K, Rb, Ba). (2) **Trace element spider diagram (normalized to primitive mantle)** — arc shows strong Nb-Ta negative anomaly (subduction signature); OIB shows smooth or Nb-Ta positive. Reason: slab fluids carry LILE but not HFSE (Nb, Ta). (3) **Radiogenic isotopes (⁸⁷Sr/⁸⁶Sr, ¹⁴³Nd/¹⁴⁴Nd)** — arc has elevated ⁸⁷Sr/⁸⁶Sr (sediment input); OIB has lower ratios (depleted or primitive mantle). Reason: crustal recycling vs. deep mantle source. Poor plans rely only on rock color or texture, ignoring geochemical fingerprints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Volcanism is the process by which molten rock (magma), gases, and solid fragments from Earth's mantle and crust are erupted onto the surface, providing direct physical samples of deep interior material that reveal the chemical ______, mineralogy, temperature, and pressure conditions of the mantle and crust.",
+     "a": "composition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine holding a piece of black, vesicular rock from the ______ Traps near Pune — this basalt solidified from magma that originated 100+ km below your feet.",
+     "a": "Deccan",
+     "self_check": true
+    },
+    {
+     "q": "What is Volcanism? State the definition given in this lesson.",
+     "a": "Volcanism is the process by which molten rock (magma), gases, and solid fragments from Earth's mantle and crust are erupted onto the surface, providing direct physical samples of deep interior material that reveal the chemical composition, mineralogy, temperature, and pressure conditions of the mantle and crust.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Volcanism?",
+     "a": "Students believe \"volcanoes erupt mantle material directly\" — imagining lava is simply molten mantle rock.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how volcanic products (lava composition, xenoliths, gas emissions) constrain models of mantle composition, differentiate between primary magma and differentiated products, and use volcanic evidence to justify the peridotitic composition of the upper mantle and the basaltic nature of oceanic crust.",
+     "self_check": true
     }
    ]
   }

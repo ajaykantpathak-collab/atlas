@@ -34,6 +34,31 @@
      "q": "Create a realistic BRS problem (with numbers) where \"cheques deposited but not collected\" appears alongside TWO other timing differences, and the starting point is \"Credit balance as per passbook ₹40,000\". Provide the complete BRS solution with proper format.",
      "a": "**Problem**: As on March 31, 2024, passbook shows credit balance ₹40,000. (1) Cheques deposited but not collected ₹15,000. (2) Cheques issued but not presented ₹8,000. (3) Bank charges debited by bank not in cash book ₹500.\n**Solution**:\nBank Reconciliation Statement as on March 31, 2024\n| Particulars | (+) Amount ₹ | (-) Amount ₹ |\n|-------------|-------------|-------------|\n| Credit balance as per passbook | 40,000 | |\n| Add: Cheques deposited but not collected | 15,000 | |\n| Less: Cheques issued but not presented | | 8,000 |\n| Less: Bank charges not in cash book | | 500 |\n| **Debit balance as per cash book** | | **46,500** |\n| **Total** | **55,000** | **55,000** |\nA poor answer would use wrong signs, wrong format, or miss that credit passbook = favourable = starting point. A good answer shows understanding that from passbook, we reverse the cash book logic: cheques deposited not collected → ADD (cash book has it, passbook doesn't), cheques issued not presented → LESS (passbook has it, cash book doesn't), bank charges → LESS (passbook deducted, cash book didn't).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cheques deposited but not collected refers to a timing difference in Bank ______ Statement where the business has recorded cheques received from customers on the debit side of the cash book (increasing the bank balance), but the bank has not yet credited the amount to the business account because the cheques are still under clearing process.",
+     "a": "Reconciliation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ from Mumbai pays you ₹15,000 via cheque on March 28th.",
+     "a": "customer",
+     "self_check": true
+    },
+    {
+     "q": "What is Cheques deposited but not collected? State the definition given in this lesson.",
+     "a": "Cheques deposited but not collected refers to a timing difference in Bank Reconciliation Statement where the business has recorded cheques received from customers on the debit side of the cash book (increasing the bank balance), but the bank has not yet credited the amount to the business account because the cheques are still under.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Cheques deposited but not collected?",
+     "a": "The \"Always Deduct\" Trap: Students memorize \"cheques deposited but not collected → deduct\" from the standard format where cash book balance is the starting point (Illustration 1, 2 in NCERT).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Identify this cause of difference in any BRS problem and correctly determine whether to add or deduct the amount based on the starting point (cash book or passbook); (2) Explain why this creates a timing difference using the concept of clearing cycle; (3) Calculate the correct adjusted balance in a.",
+     "self_check": true
     }
    ]
   }

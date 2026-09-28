@@ -34,6 +34,31 @@
      "q": "Design a state-level land use reallocation plan for a hypothetical state (Geographical Area: 50,000 km²) that currently has: NSA 40%, Forests 15%, Culturable Waste 12%, Fallow 8%, Pastures 5%, Non-Ag Uses 7%, Barren 8%, Misc Tree Crops 3%, Other Fallow 2%. Target: Achieve 33% forest cover (policy goal) and 50% NSA (food security) in 20 years without reducing pastures below 4%. Specify which categories will donate area, by how much, and the policy instruments for each transfer.",
      "a": "Current area (km²): NSA 20,000; Forest 7,500; CW 6,000; Fallow 4,000; Pasture 2,500; Non-Ag 3,500; Barren 4,000; Misc 1,500; Other Fallow 1,000. Target: Forest 16,500 (+9,000); NSA 25,000 (+5,000); Pasture ≥2,000 (allow -500). Total needed: +14,000 km². Donors: Culturable Waste -6,000 (full conversion via watershed development + irrigation); Fallow -4,000 (recultivation via credit/insurance); Barren -2,000 (afforestation on treatable wasteland); Non-Ag Uses -1,000 (densification, vertical growth); Pasture -500 (silvipasture integration). Policy instruments: Forest Rights Act (community forest management), PMKSY (irrigation for fallow recultivation), CAMPA funds (afforestation on barren), Urban Land Ceiling Reform (densification), Wasteland Atlas-guided reclamation. A poor answer treats categories as fungible without physical feasibility (e.g., converting barren rocky land to NSA) or ignores social safeguards for pastoralists.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Land use categories in India refer to the systematic ______ of the country's total geographical area (328.73 million hectares) into nine distinct functional classes based on primary human activity and natural cover: Forests, Barren and Unculturable Land, Land Put to Non-Agricultural Uses, Permanent Pastures and Grazing Land, Land Under Miscellaneous Tree Crops and Groves, Culturable Waste Land, Fallow Lands (Current and Other), and Net Sown Area, with changes tracked decennially through the Land Use Statistics published by the Directorate of Economics and Statistics, Ministry of Agriculture.",
+     "a": "classification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your ______'s outskirts: ten years ago you saw open scrub land where cattle grazed; today that same patch has a housing colony, a solar park, or a new highway.",
+     "a": "district",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Land use categories in India refer to the systematic classification of the country's total geographical area (______ million hectares) into nine distinct functional classes based on primary human activity and natural cover: Forests, Barren and Unculturable Land, Land Put to Non-Agricultural Uses, Permanent Pastures and Grazing Land, Land Under Miscellaneous Tree Crops and Groves, Culturable Waste Land, Fallow Lands (Current and Other), and Net Sown Area, with changes tracked decennially through the Land Use Statistics published by the Directorate of Economics and Statistics, Ministry of Agriculture.",
+     "a": "328.73",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can interpret the nine-fold land use classification table for any Indian state, calculate percentage share and decadal change for each category, explain the inverse relationship between net sown area expansion and culturable waste/fallow land reduction, and justify why forest area remains stagnant at ~23% despite policy targets.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your district's ______: ten years ago you saw open scrub land where cattle grazed; today that same patch has a housing colony, a solar park, or a new highway.",
+     "a": "outskirts",
+     "self_check": true
     }
    ]
   }

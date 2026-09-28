@@ -34,6 +34,31 @@
      "q": "Create a real-world scenario involving inverse proportion that is NOT about workers or time.",
      "a": "Example: \"A fixed amount of money (₹100) is used to buy pens. If the price per pen increases, the number of pens you can buy decreases.\" A poor answer would be \"Buying more apples costs more money,\" which is direct, not inverse, proportion.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Inverse proportion is a ______ between two quantities where an increase in one causes a proportional decrease in the other, such that their product remains constant.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a bag of 24 ______ to share among your friends.",
+     "a": "candies",
+     "self_check": true
+    },
+    {
+     "q": "What is Inverse proportion? State the definition given in this lesson.",
+     "a": "Inverse proportion is a relationship between two quantities where an increase in one causes a proportional decrease in the other, such that their product remains constant.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a bag of ______ candies to share among your friends.",
+     "a": "24",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Inverse proportion?",
+     "a": "They do this because they are used to solving ratios and forget that in inverse proportion, the *product* stays the same, not the ratio.",
+     "self_check": true
     }
    ]
   }

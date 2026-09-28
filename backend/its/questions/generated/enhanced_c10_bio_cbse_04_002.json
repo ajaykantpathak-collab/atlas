@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using pea plants (or any locally available plant with a clear dominant/recessive trait) to verify Mendel's 3:1 phenotypic ratio in F2. List the steps, controls, and how you would count and analyze results.",
      "a": "Steps: (1) Obtain pure-breeding lines for contrasting traits (e.g., green vs. yellow seeds). (2) Cross-pollinate them (P generation). (3) Grow F1 seeds — confirm all show dominant trait. (4) Self-pollinate multiple F1 plants. (5) Collect F2 seeds, grow them, count phenotypes. (6) Use chi-square test to compare observed ratio to 3:1. Controls: prevent unwanted pollination, use large sample size (>100 F2 plants). A poor answer lacking controls, small sample, or statistical check shows inability to design a valid heredity experiment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A monohybrid cross is a genetic cross between two pure-breeding (homozygous) parents that differ in only one pair of contrasting traits (e.g., tall vs. dwarf pea plants), where the F1 generation shows only the dominant trait and the F2 generation, produced by self-pollination of F1 hybrids, exhibits a phenotypic ratio of 3:1 (dominant:recessive) and a genotypic ratio of 1:2:1 (homozygous dominant : ______ : homozygous recessive).",
+     "a": "heterozygous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you plant seeds from a tall pea plant and a dwarf pea plant in your school garden in Delhi — all F1 plants grow tall, but when you self-pollinate them, the next ______ (F2) shows both tall and dwarf plants in a predictable 3:1 ratio.",
+     "a": "generation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by observing that traits don't blend (no medium-height plants) but reappear unchanged in F______.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently set up a Punnett square for a monohybrid cross, derive the F1 and F2 genotypic and phenotypic ratios, explain why the recessive trait reappears in F2, and distinguish between genotype and phenotype using Mendel's pea plant traits as examples.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you plant seeds from a tall pea plant and a dwarf pea plant in your school garden in Delhi — all F1 plants grow tall, but when you self-pollinate them, the next generation (F2) shows both tall and dwarf plants in a ______ 3:1 ratio.",
+     "a": "predictable",
+     "self_check": true
     }
    ]
   }

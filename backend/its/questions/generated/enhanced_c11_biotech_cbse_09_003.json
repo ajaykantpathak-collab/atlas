@@ -34,6 +34,26 @@
      "q": "Design a workflow for a Class 11 student who has obtained a Sanger sequencing chromatogram (.ab1 file) of a plant gene and wants to deposit it in the public domain. Include steps from quality check to accession number receipt, specifying which INSDC database they should use and why.",
      "a": "A good workflow: 1) View chromatogram in FinchTV/Chromas, trim low-quality ends. 2) Export consensus sequence in FASTA format. 3) Choose submission portal: GenBank (via BankIt) or EMBL (via Webin) - both accept direct submissions; DDBJ prefers Sakura. 4) Fill metadata (organism, gene, authors, publication status). 5) Submit; receive accession number (e.g., MKxxxxxx). 6) Verify entry appears in all three after 24h. A poor answer skips quality control, metadata, or suggests submitting to all three separately.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: GenBank, EMBL (European Molecular Biology Laboratory), and DDBJ (DNA Data Bank of Japan) are the three primary nucleotide sequence databases that constitute the ______ Nucleotide Sequence Database Collaboration (INSDC), exchanging data daily to maintain identical content while providing distinct accession number formats and flat-file annotations for DNA/RNA sequences submitted by researchers worldwide.",
+     "a": "International",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just sequenced a novel gene from a ______ plant in your school lab and want to share it with scientists globally.",
+     "a": "medicinal",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the INSDC collaboration model, differentiate the three databases by their host institutions and accession number prefixes, and describe how a sequence submission propagates across all three databases within 24 hours.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just sequenced a novel gene from a medicinal plant in your school lab and want to share it with ______ globally.",
+     "a": "scientists",
+     "self_check": true
     }
    ]
   }

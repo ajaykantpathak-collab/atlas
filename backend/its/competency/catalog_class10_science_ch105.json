@@ -215,7 +215,16 @@
      "explain": "The computed energy value is the total energy released in kJ from hydrolysing the given moles of ATP to ADP and inorganic phosphate.",
      "compute": "result = energy"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "energy = moles * 30.5",
+     "compute": "energy = moles * 30.5"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.5.6",
@@ -387,6 +396,21 @@
      "action": "Calculate reabsorbed volume",
      "explain": "Subtract excreted_volume from initial_filtrate to find the reabsorbed_volume.",
      "compute": "reabsorbed_volume = initial_filtrate - excreted_volume"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "reabsorbed_volume = initial_filtrate - excreted_volume",
+     "compute": "reabsorbed_volume = initial_filtrate - excreted_volume"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "jesc.5.9.1",
+     "question_pattern": "If the initial filtrate is {initial_filtrate} and the excreted urine is {excreted_volume}, find the reabsorbed volume"
     }
    ]
   },

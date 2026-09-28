@@ -1,65 +1,385 @@
 {
- "catalog": "catalog_class11_accountancy_ch201",
+ "catalog": "catalog_class11_accountancy_ch201.json",
  "concepts": [
   {
    "id": "keac.8.2.1",
    "title": "Classification of Capital and Revenue Expenditures",
+   "converted_to_compute": true,
+   "formula": "total_expenditure = capital_expenditure + revenue_expenditure",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_expenditure = capital_expenditure + revenue_expenditure",
+     "compute": "total_expenditure = capital_expenditure + revenue_expenditure"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Classification of Capital and Revenue Expenditures', work with: capital_expenditure = 12000, revenue_expenditure = 5000. Carry the chain through step by step and give the final value of total_expenditure.",
-     "a": "17000 units",
+     "q": "For Classification of Capital and Revenue Expenditures: given capital_expenditure = 3, revenue_expenditure = 27, find total expenditure.",
+     "a": "30",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Classification of Capital and Revenue Expenditures' and work with: capital_expenditure = 50000, revenue_expenditure = 5000. Carry the chain through step by step and give the final value of total_expenditure.",
-     "a": "55000 units",
+     "q": "For Classification of Capital and Revenue Expenditures: given capital_expenditure = 25, revenue_expenditure = 83, find total expenditure.",
+     "a": "108",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Classification of Capital and Revenue Expenditures' refers to.",
-     "a": "Expenditures that yield enduring advantages across multiple accounting cycles and enhance asset capacity are capital, whereas outlays consumed entirely within the current accounting period to support routine operations are revenue.",
-     "self_check": true
+     "q": "For Classification of Capital and Revenue Expenditures: given capital_expenditure = 13.4, revenue_expenditure = 29, find total expenditure.",
+     "a": "42.4",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Classification of Capital and Revenue Expenditures'.",
-     "a": "Capital outlays provide multi-period benefits and go to the balance sheet, while revenue outlays maintain ongoing business activities and appear in the income statement.",
-     "self_check": true
+     "q": "For Classification of Capital and Revenue Expenditures: given capital_expenditure = 79, revenue_expenditure = 26, find total expenditure.",
+     "a": "105",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Classification of Capital and Revenue Expenditures', in plain ASCII form.",
-     "a": "total_expenditure = capital_expenditure + revenue_expenditure",
-     "self_check": true
+     "q": "For Classification of Capital and Revenue Expenditures: given capital_expenditure = 45, revenue_expenditure = 38, find total expenditure.",
+     "a": "83",
+     "self_check": false
+    },
+    {
+     "q": "For Classification of Capital and Revenue Expenditures: given capital_expenditure = 9.5, revenue_expenditure = 56, find total expenditure.",
+     "a": "65.5",
+     "self_check": false
     }
    ]
   },
   {
    "id": "keac.8.2.2",
    "title": "Capital Receipts and Revenue Receipts",
+   "converted_to_compute": true,
+   "formula": "total_receipts = capital_receipts + revenue_receipts",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_receipts = capital_receipts + revenue_receipts",
+     "compute": "total_receipts = capital_receipts + revenue_receipts"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Capital Receipts and Revenue Receipts', work with: capital_receipts = 20000, revenue_receipts = 5000. Carry the chain through step by step and give the final value of total_receipts.",
-     "a": "25000 units",
+     "q": "For Capital Receipts and Revenue Receipts: given capital_receipts = 19.2, revenue_receipts = 53, find total receipts.",
+     "a": "72.2",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Capital Receipts and Revenue Receipts' and work with: capital_receipts = 120000, revenue_receipts = 50000. Carry the chain through step by step and give the final value of total_receipts.",
-     "a": "170000 units",
+     "q": "For Capital Receipts and Revenue Receipts: given capital_receipts = 9, revenue_receipts = 77, find total receipts.",
+     "a": "86",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Capital Receipts and Revenue Receipts' refers to.",
-     "a": "Monetary inflows that establish a future settlement obligation or arise from disposing of long-term assets are capital receipts, whereas inflows generated from ordinary sales and recurring investments are revenue receipts.",
-     "self_check": true
+     "q": "For Capital Receipts and Revenue Receipts: given capital_receipts = 26, revenue_receipts = 87, find total receipts.",
+     "a": "113",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Capital Receipts and Revenue Receipts'.",
-     "a": "Capital receipts create claims or decrease fixed assets, whereas revenue receipts augment routine trading income.",
-     "self_check": true
+     "q": "For Capital Receipts and Revenue Receipts: given capital_receipts = 19.7, revenue_receipts = 10, find total receipts.",
+     "a": "29.7",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Capital Receipts and Revenue Receipts', in plain ASCII form.",
-     "a": "total_receipts = capital_receipts + revenue_receipts",
-     "self_check": true
+     "q": "For Capital Receipts and Revenue Receipts: given capital_receipts = 27, revenue_receipts = 7.9, find total receipts.",
+     "a": "34.9",
+     "self_check": false
+    },
+    {
+     "q": "For Capital Receipts and Revenue Receipts: given capital_receipts = 22, revenue_receipts = 65, find total receipts.",
+     "a": "87",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.8.4.3",
+   "title": "Preparation of Trading Account and Closing Entries",
+   "converted_to_compute": true,
+   "formula": "trading_account_balance = net_sales + closing_stock - (opening_stock + net_purchases + direct_expenses)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "trading_account_balance = net_sales + closing_stock - (opening_stock + net_purchases + direct_expenses)",
+     "compute": "trading_account_balance = net_sales + closing_stock - (opening_stock + net_purchases + direct_expenses)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Preparation of Trading Account and Closing Entries: given net_sales = 57, closing_stock = 71, opening_stock = 41, net_purchases = 19, direct_expenses = 23, find trading account balance.",
+     "a": "45",
+     "self_check": false
+    },
+    {
+     "q": "For Preparation of Trading Account and Closing Entries: given net_sales = 23, closing_stock = 85, opening_stock = 5.2, net_purchases = 82, direct_expenses = 13.4, find trading account balance.",
+     "a": "7.4",
+     "self_check": false
+    },
+    {
+     "q": "For Preparation of Trading Account and Closing Entries: given net_sales = 19.2, closing_stock = 93, opening_stock = 69, net_purchases = 55, direct_expenses = 22, find trading account balance.",
+     "a": "-33.8",
+     "self_check": false
+    },
+    {
+     "q": "For Preparation of Trading Account and Closing Entries: given net_sales = 79, closing_stock = 19.6, opening_stock = 12.5, net_purchases = 114, direct_expenses = 87, find trading account balance.",
+     "a": "-114.9",
+     "self_check": false
+    },
+    {
+     "q": "For Preparation of Trading Account and Closing Entries: given net_sales = 61, closing_stock = 51, opening_stock = 33, net_purchases = 75, direct_expenses = 27, find trading account balance.",
+     "a": "-23",
+     "self_check": false
+    },
+    {
+     "q": "For Preparation of Trading Account and Closing Entries: given net_sales = 60, closing_stock = 90, opening_stock = 40, net_purchases = 104, direct_expenses = 23, find trading account balance.",
+     "a": "-17",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.8.4.4",
+   "title": "Computation of Net Profit or Net Loss",
+   "converted_to_compute": true,
+   "formula": "net_profit = gross_profit + other_incomes - indirect_expenses",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_profit = gross_profit + other_incomes - indirect_expenses",
+     "compute": "net_profit = gross_profit + other_incomes - indirect_expenses"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Computation of Net Profit or Net Loss: given gross_profit = 29, other_incomes = 86, indirect_expenses = 47, find net profit.",
+     "a": "68",
+     "self_check": false
+    },
+    {
+     "q": "For Computation of Net Profit or Net Loss: given gross_profit = 88, other_incomes = 66, indirect_expenses = 48, find net profit.",
+     "a": "106",
+     "self_check": false
+    },
+    {
+     "q": "For Computation of Net Profit or Net Loss: given gross_profit = 68, other_incomes = 12.5, indirect_expenses = 5.6, find net profit.",
+     "a": "74.9",
+     "self_check": false
+    },
+    {
+     "q": "For Computation of Net Profit or Net Loss: given gross_profit = 22, other_incomes = 40, indirect_expenses = 109, find net profit.",
+     "a": "-47",
+     "self_check": false
+    },
+    {
+     "q": "For Computation of Net Profit or Net Loss: given gross_profit = 70, other_incomes = 96, indirect_expenses = 36, find net profit.",
+     "a": "130",
+     "self_check": false
+    },
+    {
+     "q": "For Computation of Net Profit or Net Loss: given gross_profit = 64, other_incomes = 22, indirect_expenses = 19.6, find net profit.",
+     "a": "66.4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.8.5.1",
+   "title": "Computation of Operating Profit (EBIT)",
+   "converted_to_compute": true,
+   "formula": "operating_profit = net_profit + non_operating_expenses - non_operating_incomes",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "operating_profit = net_profit + non_operating_expenses - non_operating_incomes",
+     "compute": "operating_profit = net_profit + non_operating_expenses - non_operating_incomes"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keac.8.5.1",
+     "question_pattern": "compute operating profit when net profit is {net_profit} non-operating expenses are {non_operating_expenses} and non-operating incomes are {non_operating_incomes}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Computation of Operating Profit (EBIT): given net_profit = 15.2, non_operating_expenses = 16.3, non_operating_incomes = 4.9, find operating profit.",
+     "a": "26.6",
+     "self_check": false
+    },
+    {
+     "q": "compute operating profit when net profit is 15.2 non-operating expenses are 16.3 and non-operating incomes are 4.9?",
+     "a": "26.6",
+     "self_check": false
+    },
+    {
+     "q": "For Computation of Operating Profit (EBIT): given net_profit = 77, non_operating_expenses = 1.6, non_operating_incomes = 3.9, find operating profit.",
+     "a": "74.7",
+     "self_check": false
+    },
+    {
+     "q": "compute operating profit when net profit is 77 non-operating expenses are 1.6 and non-operating incomes are 3.9?",
+     "a": "74.7",
+     "self_check": false
+    },
+    {
+     "q": "For Computation of Operating Profit (EBIT): given net_profit = 92, non_operating_expenses = 3.9, non_operating_incomes = 16.2, find operating profit.",
+     "a": "79.7",
+     "self_check": false
+    },
+    {
+     "q": "compute operating profit when net profit is 92 non-operating expenses are 3.9 and non-operating incomes are 16.2?",
+     "a": "79.7",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.8.6.1",
+   "title": "Computation of Closing Capital in Balance Sheet",
+   "converted_to_compute": true,
+   "formula": "closing_capital = opening_capital + net_profit - drawings - income_tax",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "closing_capital = opening_capital + net_profit - drawings - income_tax",
+     "compute": "closing_capital = opening_capital + net_profit - drawings - income_tax"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Computation of Closing Capital in Balance Sheet: given opening_capital = 41, net_profit = 6.6, drawings = 21, income_tax = 58, find closing capital.",
+     "a": "-31.4",
+     "self_check": false
+    },
+    {
+     "q": "For Computation of Closing Capital in Balance Sheet: given opening_capital = 46, net_profit = 1.1, drawings = 52, income_tax = 104, find closing capital.",
+     "a": "-108.9",
+     "self_check": false
+    },
+    {
+     "q": "For Computation of Closing Capital in Balance Sheet: given opening_capital = 51, net_profit = 72, drawings = 82, income_tax = 100, find closing capital.",
+     "a": "-59",
+     "self_check": false
+    },
+    {
+     "q": "For Computation of Closing Capital in Balance Sheet: given opening_capital = 17.2, net_profit = 56, drawings = 52, income_tax = 87, find closing capital.",
+     "a": "-65.8",
+     "self_check": false
+    },
+    {
+     "q": "For Computation of Closing Capital in Balance Sheet: given opening_capital = 33, net_profit = 5.8, drawings = 98, income_tax = 69, find closing capital.",
+     "a": "-128.2",
+     "self_check": false
+    },
+    {
+     "q": "For Computation of Closing Capital in Balance Sheet: given opening_capital = 69, net_profit = 66, drawings = 3.5, income_tax = 39, find closing capital.",
+     "a": "92.5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.8.6.2",
+   "title": "Marshalling and Grouping of Balance Sheet Items",
+   "converted_to_compute": true,
+   "formula": "total_assets = current_assets + non_current_assets",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_assets = current_assets + non_current_assets",
+     "compute": "total_assets = current_assets + non_current_assets"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Marshalling and Grouping of Balance Sheet Items: given current_assets = 70, non_current_assets = 56, find total assets.",
+     "a": "126",
+     "self_check": false
+    },
+    {
+     "q": "For Marshalling and Grouping of Balance Sheet Items: given current_assets = 103, non_current_assets = 19.3, find total assets.",
+     "a": "122.3",
+     "self_check": false
+    },
+    {
+     "q": "For Marshalling and Grouping of Balance Sheet Items: given current_assets = 14.8, non_current_assets = 76, find total assets.",
+     "a": "90.8",
+     "self_check": false
+    },
+    {
+     "q": "For Marshalling and Grouping of Balance Sheet Items: given current_assets = 22, non_current_assets = 114, find total assets.",
+     "a": "136",
+     "self_check": false
+    },
+    {
+     "q": "For Marshalling and Grouping of Balance Sheet Items: given current_assets = 46, non_current_assets = 19.6, find total assets.",
+     "a": "65.6",
+     "self_check": false
+    },
+    {
+     "q": "For Marshalling and Grouping of Balance Sheet Items: given current_assets = 58, non_current_assets = 36, find total assets.",
+     "a": "94",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.8.7.1",
+   "title": "Recording the Opening Journal Entry",
+   "converted_to_compute": true,
+   "formula": "total_debit_assets = total_credit_liabilities + closing_capital",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_debit_assets = total_credit_liabilities + closing_capital",
+     "compute": "total_debit_assets = total_credit_liabilities + closing_capital"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Recording the Opening Journal Entry: given total_credit_liabilities = 86, closing_capital = 36, find total debit assets.",
+     "a": "122",
+     "self_check": false
+    },
+    {
+     "q": "For Recording the Opening Journal Entry: given total_credit_liabilities = 36, closing_capital = 79, find total debit assets.",
+     "a": "115",
+     "self_check": false
+    },
+    {
+     "q": "For Recording the Opening Journal Entry: given total_credit_liabilities = 70, closing_capital = 46, find total debit assets.",
+     "a": "116",
+     "self_check": false
+    },
+    {
+     "q": "For Recording the Opening Journal Entry: given total_credit_liabilities = 54, closing_capital = 36, find total debit assets.",
+     "a": "90",
+     "self_check": false
+    },
+    {
+     "q": "For Recording the Opening Journal Entry: given total_credit_liabilities = 70, closing_capital = 31, find total debit assets.",
+     "a": "101",
+     "self_check": false
+    },
+    {
+     "q": "For Recording the Opening Journal Entry: given total_credit_liabilities = 12.2, closing_capital = 7.4, find total debit assets.",
+     "a": "19.6",
+     "self_check": false
     }
    ]
   },
@@ -121,192 +441,6 @@
     {
      "q": "Write the standard relation used for 'Computation of Gross Profit or Gross Loss', in plain ASCII form.",
      "a": "gross_profit = net_sales - cost_of_goods_sold",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.8.4.3",
-   "title": "Preparation of Trading Account and Closing Entries",
-   "questions": [
-    {
-     "q": "Using the method 'Preparation of Trading Account and Closing Entries', work with: closing_stock = 400, direct_expenses = 8000, net_purchases = 2500, net_sales = 1200, opening_stock = 4. Carry the chain through step by step and give the final value of trading_account_balance.",
-     "a": "-8904 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Preparation of Trading Account and Closing Entries' and work with: closing_stock = 6, direct_expenses = 1200, net_purchases = 500, net_sales = 12000, opening_stock = 500. Carry the chain through step by step and give the final value of trading_account_balance.",
-     "a": "9806 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Preparation of Trading Account and Closing Entries' refers to.",
-     "a": "The trading account is the initial segment of the income statement designed to establish direct operational results through ledger closing entries transferring trading items.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Preparation of Trading Account and Closing Entries'.",
-     "a": "Direct manufacturing and acquisition balances are closed to debit of trading account, and sales revenue to credit.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Preparation of Trading Account and Closing Entries', in plain ASCII form.",
-     "a": "trading_account_balance = net_sales + closing_stock - (opening_stock + net_purchases + direct_expenses)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.8.4.4",
-   "title": "Computation of Net Profit or Net Loss",
-   "questions": [
-    {
-     "q": "Calculate net profit from the given profit and loss account balances. Use the method 'Computation of Net Profit or Net Loss'. Work with: gross_profit = 1200, indirect_expenses = 80000, other_incomes = 80000. Carry the chain through step by step and give the final value of net_profit.",
-     "a": "1200 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Compute net profit or net loss for the year ended .... Use the method 'Computation of Net Profit or Net Loss'. Work with: gross_profit = 8000, indirect_expenses = 50000, other_incomes = 20000. Carry the chain through step by step and give the final value of net_profit.",
-     "a": "-22000 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Computation of Net Profit or Net Loss' refers to.",
-     "a": "Net profit is the definitive earnings figure of a firm for an accounting year after incorporating all secondary incomes and deducting administrative, selling, financial, and other indirect operating and non-operating expenses from gross profit.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Computation of Net Profit or Net Loss'.",
-     "a": "Net profit equals gross profit plus non-trading revenues less all indirect administrative, selling, and general expenses.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Computation of Net Profit or Net Loss', in plain ASCII form.",
-     "a": "net_profit = gross_profit + other_incomes - indirect_expenses",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.8.5.1",
-   "title": "Computation of Operating Profit (EBIT)",
-   "questions": [
-    {
-     "q": "Calculate operating profit from the given particulars. Use the method 'Computation of Operating Profit (EBIT)'. Work with: net_profit = 1200, non_operating_expenses = 5000, non_operating_incomes = 80000. Carry the chain through step by step and give the final value of operating_profit.",
-     "a": "-73800 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the operating profit (EBIT) of the firm. Use the method 'Computation of Operating Profit (EBIT)'. Work with: net_profit = 5000, non_operating_expenses = 1200, non_operating_incomes = 120000. Carry the chain through step by step and give the final value of operating_profit.",
-     "a": "-113800 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Computation of Operating Profit (EBIT)' refers to.",
-     "a": "Operating profit measures earnings derived exclusively from the core commercial activities of an enterprise prior to deducting non-operating finance charges and abnormal losses, and before adding extraneous investment gains.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Computation of Operating Profit (EBIT)'.",
-     "a": "Earnings before interest, taxes, and abnormal events isolate regular operational earnings from financial financing decisions.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Computation of Operating Profit (EBIT)', in plain ASCII form.",
-     "a": "operating_profit = net_profit + non_operating_expenses - non_operating_incomes",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.8.6.1",
-   "title": "Computation of Closing Capital in Balance Sheet",
-   "questions": [
-    {
-     "q": "Calculate closing capital to be shown in the balance sheet. Use the method 'Computation of Closing Capital in Balance Sheet'. Work with: drawings = 4, income_tax = 20, net_profit = 8000, opening_capital = 12000. Carry the chain through step by step and give the final value of closing_capital.",
-     "a": "19976 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Compute the owner's net equity at the end of the year. Use the method 'Computation of Closing Capital in Balance Sheet'. Work with: drawings = 240, income_tax = 12, net_profit = 50000, opening_capital = 2500. Carry the chain through step by step and give the final value of closing_capital.",
-     "a": "52248 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Computation of Closing Capital in Balance Sheet' refers to.",
-     "a": "Closing capital represents the proprietor's net residual equity at the end of the period, obtained by augmenting beginning capital with net profit and reducing it by drawings, income tax, and personal withdrawals.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Computation of Closing Capital in Balance Sheet'.",
-     "a": "The owner's opening equity increases with annual profits and decreases with personal cash or goods drawings and income tax outlays.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Computation of Closing Capital in Balance Sheet', in plain ASCII form.",
-     "a": "closing_capital = opening_capital + net_profit - drawings - income_tax",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.8.6.2",
-   "title": "Marshalling and Grouping of Balance Sheet Items",
-   "questions": [
-    {
-     "q": "Using the method 'Marshalling and Grouping of Balance Sheet Items', work with: current_assets = 80000, non_current_assets = 50000. Carry the chain through step by step and give the final value of total_assets.",
-     "a": "130000 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Marshalling and Grouping of Balance Sheet Items' and work with: current_assets = 8000, non_current_assets = 500. Carry the chain through step by step and give the final value of total_assets.",
-     "a": "8500 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Marshalling and Grouping of Balance Sheet Items' refers to.",
-     "a": "Marshalling is the systematic sequence of presenting assets and liabilities in the position statement under either the order of permanence or the order of liquidity, grouped under appropriate category headings.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Marshalling and Grouping of Balance Sheet Items'.",
-     "a": "Order of permanence lists least convertible assets and owner's equity first, whereas order of liquidity starts with cash and short-term debt.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Marshalling and Grouping of Balance Sheet Items', in plain ASCII form.",
-     "a": "total_assets = current_assets + non_current_assets",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.8.7.1",
-   "title": "Recording the Opening Journal Entry",
-   "questions": [
-    {
-     "q": "Using the method 'Recording the Opening Journal Entry', work with: closing_capital = 2500, total_credit_liabilities = 25. Carry the chain through step by step and give the final value of total_debit_assets.",
-     "a": "2525 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Recording the Opening Journal Entry' and work with: closing_capital = 5000, total_credit_liabilities = 8. Carry the chain through step by step and give the final value of total_debit_assets.",
-     "a": "5008 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Recording the Opening Journal Entry' refers to.",
-     "a": "An opening journal entry is passed on the first day of an accounting period to record the carried-forward balances of assets, liabilities, and proprietor's capital from the prior year's balance sheet.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Recording the Opening Journal Entry'.",
-     "a": "All individual asset accounts are debited, while liability accounts and owner's capital account are credited.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Recording the Opening Journal Entry', in plain ASCII form.",
-     "a": "total_debit_assets = total_credit_liabilities + closing_capital",
      "self_check": true
     }
    ]

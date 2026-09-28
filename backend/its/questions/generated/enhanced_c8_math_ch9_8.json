@@ -34,6 +34,31 @@
      "q": "Create a real-life problem (in Indian context) that requires using the Pythagoras theorem to find an unknown side. The problem must involve a right triangle where the unknown is a leg (not the hypotenuse). Provide the problem statement, a diagram description, and the solution steps.",
      "a": "Example problem: \"A kite is flying at a height of 20 m. The string is 25 m long. How far horizontally is the kite from the person holding the string?\" Diagram: right triangle with vertical leg 20 m (height), hypotenuse 25 m (string), horizontal leg unknown. Solution: horizontal distance = \\(\\sqrt{25^2 - 20^2} = \\sqrt{625 - 400} = \\sqrt{225} = 15\\) m. A poor answer might create a problem where the unknown is the hypotenuse, or uses a non-right triangle, showing they don't understand the condition for applying the theorem.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ theorem states that in a right-angled triangle, the square of the hypotenuse equals the sum of the squares of the other two sides.",
+     "a": "Pythagoras",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your father set up a ______ to reach a window 4 metres high.",
+     "a": "ladder",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your father set up a ladder to reach a window ______ metres high.",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly identify the hypotenuse and legs in a right-angled triangle, choose the appropriate rearrangement of the Pythagoras theorem, compute the unknown side length (including square roots), and verify the answer by checking if the three sides satisfy the theorem.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are helping your father set up a ladder to reach a window 4 metres high.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

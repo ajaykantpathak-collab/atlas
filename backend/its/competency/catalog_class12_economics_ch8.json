@@ -192,7 +192,7 @@
    "title": "GDP Growth Comparison: India, Pakistan, China",
    "section": "8.2",
    "definition": "GDP growth comparison examines the rate at which the gross domestic product of the three countries has expanded over time, reflecting the pace of economic progress.",
-   "formula": "gdp_growth_rate = ((gdp_t1 - gdp_t0) / gdp_t0) * 100",
+   "formula": "gdp_growth_rate = ((gdp_t_1 - gdp_t_0) / gdp_t_0) * 100",
    "key_idea": "China has consistently recorded the highest GDP growth among the three, followed by India, with Pakistan lagging behind over the reform period.",
    "textbook_ref": "",
    "question_patterns": [
@@ -247,7 +247,16 @@
      "question": "Why has China recorded higher GDP growth than India and Pakistan?",
      "type": "short_answer"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "gdp_growth_rate = ((gdp_t_1 - gdp_t_0) / gdp_t_0) * 100",
+     "compute": "gdp_growth_rate = ((gdp_t_1 - gdp_t_0) / gdp_t_0) * 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c12eco.8.5",
@@ -309,7 +318,16 @@
      "question": "Why is the service sector dominant in India's GDP?",
      "type": "short_answer"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "sector_share = (sector_output / total_gdp) * 100",
+     "compute": "sector_share = (sector_output / total_gdp) * 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c12eco.8.6",

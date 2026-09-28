@@ -34,6 +34,21 @@
      "q": "Design a construction challenge where a carpenter needs to find the exact center of a wooden plank of length $12\\text{ cm}$ without using a ruler marked with numbers, relying solely on a compass and an unmarked straightedge. Describe the steps.",
      "a": "Steps: 1) Place the compass pointer on one end of the $12\\text{ cm}$ plank and open it to roughly $8\\text{ cm}$ (more than half). 2) Draw arcs above and below the plank. 3) Keep the exact same compass width, place the pointer on the other end of the plank, and draw intersecting arcs above and below. 4) Use the straightedge to connect the top and bottom intersection points. 5) Mark the spot where this connecting line crosses the plank; that point is the exact center ($6\\text{ cm}$). A poor answer suggests guessing or folding the wood, which fails the geometric construction requirement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Using a compass and ruler, it is constructed by drawing ______ arcs from both endpoints of the segment with a radius greater than half its length.",
+     "a": "intersecting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and your friend Priya are ______ at opposite ends of a long school corridor, and you want to place a plant pot on the floor exactly halfway between you, but positioned in a way that forms a straight T-junction with the corridor wall.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and your friend Priya are standing at opposite ends of a long school corridor, and you want to place a plant pot on the floor exactly halfway between you, but ______ in a way that forms a straight T-junction with the corridor wall.",
+     "a": "positioned",
+     "self_check": true
     }
    ]
   }

@@ -31,8 +31,28 @@
      "self_check": true
     },
     {
-     "q": "Design a simple mental model or analogy to explain to a younger student why an atom is considered the \"building block\" of an element.",
-     "a": "A good answer uses an analogy like Lego bricks, where a single red Lego brick represents an atom of one element (like copper), and a massive structure built entirely of those red bricks represents the bulk element. A poor answer relies on vague statements without a clear structural comparison, showing a weak grasp of how microscopic units form macroscopic matter.",
+     "q": "Trace the correct sequence of scaling from a single atom to a visible piece of an element like copper.",
+     "a": "The scaling ladder runs: (1) One copper atom keeps the element's chemical properties (2) Countless identical atoms pack together (3) The assembly forms the bulk copper wire we can see (4) The visible metal still behaves chemically as copper. A wrong answer that calls the smallest unit a molecule shows the student has confused the smallest unit of an element with the smallest independent unit of a compound, and an analogy with no structural match shows a weak grasp of how microscopic units build macroscopic matter.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An atom is the smallest unit of an element that retains all the chemical ______ of that element and can take part in a chemical reaction.",
+     "a": "properties",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you look at a pure iron rod used in construction, or a piece of pure ______ wire, you see a solid mass of metal.",
+     "a": "copper",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can define an atom, identify an atom as the smallest unit of an element, distinguish between atoms of different elements using their chemical symbols, and explain that atoms retain the chemical identity of the element they belong to.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you look at a pure iron rod used in ______, or a piece of pure copper wire, you see a solid mass of metal.",
+     "a": "construction",
      "self_check": true
     }
    ]

@@ -34,6 +34,31 @@
      "q": "Design a pollution control strategy for a new integrated steel plant (5 MTPA) proposed in a water-stressed district of Odisha. Specify: (a) air pollution control devices for each major emission point (sinter plant, blast furnace, BOF, coke oven), (b) water management plan to achieve zero liquid discharge, (c) solid waste utilisation targets for slag and fly ash, (d) noise mitigation for nearby villages (500 m from boundary). Justify each choice with techno-economic reasoning.",
      "a": "(a) Air: Sinter plant — ESP + alkaline scrubber (SO₂); Blast furnace — dry gas cleaning (cyclone + wet scrubber) for top gas recovery; BOF — doghouse with venturi scrubber (high temp, CO-rich); Coke oven — battery charging emission control (hood + bag filter), pushing emission control (quench car + scrubber). Justification: high dust loads, toxic organics (PAHs), SO₂ — need high-efficiency (>99.9%) devices; energy recovery offsets O&M.\n(b) Water: Cascade reuse — cooling tower blowdown → DM plant → process; effluent → primary (oil/scale removal) → secondary (activated sludge) → tertiary (RO + MEE) → permeate recycled, solids to secure landfill. ZLD capital intensive but mandatory in water-stressed zones (CGWA guideline).\n(c) Solid waste: Blast furnace slag → 100% granulated for cement (GGBS); BOF slag → road base, sinter flux after aging; fly ash → bricks, cement, mine backfill. Target: >95% utilisation (MoEFCC notification).\n(d) Noise: Green belt 50 m wide (3-row: evergreen + broadleaf + shrub) reduces 15-20 dB; acoustic enclosures for compressors/blowers; boundary wall 4 m high. Justification: low-cost, co-benefits (dust capture, aesthetics). A poor answer lists devices without matching to emission characteristics or ignores water stress context.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Industrial pollution refers to the ______ of the natural environment (air, water, soil) and the generation of excessive noise resulting from manufacturing processes, which degrades environmental quality and poses risks to human health and ecosystems.",
+     "a": "contamination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking students to observe a photograph of a ______ cluster (e.g., Dhanbad coal washeries or Ludhiana dyeing units) and list visible/audible signs of pollution — black smoke, coloured effluent in a drain, dust on leaves, constant hum.",
+     "a": "industrial",
+     "self_check": true
+    },
+    {
+     "q": "What is Industrial pollution? State the definition given in this lesson.",
+     "a": "Industrial pollution refers to the contamination of the natural environment (air, water, soil) and the generation of excessive noise resulting from manufacturing processes, which degrades environmental quality and poses risks to human health and ecosystems.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Industrial pollution?",
+     "a": "Students believe \"pollution control\" means installing an end-of-pipe device (ESP, ETP) and the problem is solved.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) classify industrial pollutants into air, water, soil, and noise categories with specific examples from Indian industries (e.g., SPM from cement, heavy metals from tanneries, BOD from pulp & paper, noise from textile looms), (2) explain the mechanism of each pollution type and its spatial impact (local, regional.",
+     "self_check": true
     }
    ]
   }

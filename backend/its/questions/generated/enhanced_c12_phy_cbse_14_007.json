@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a variable DC power supply (0–30 V), a 10 V Zener diode (1N4740), a 1 kΩ potentiometer as series resistor, a 1 kΩ load resistor, and two multimeters to demonstrate voltage regulation. Describe the procedure, what to measure, and how to plot the regulation characteristic (VL vs Vin). What key observation confirms regulation?",
      "a": "**Procedure:**  \n1. Connect circuit: Power supply (+) → potentiometer (as Rs, set to ~1 kΩ) → node A. From node A: Zener diode cathode (reverse bias), load resistor (1 kΩ) to ground. Zener anode to ground.  \n2. Connect multimeter 1 across load (VL), multimeter 2 in series with Zener (Iz) or measure Vin and VL and compute Iz = (Vin - VL)/Rs.  \n3. Vary Vin from 0 V to 20 V in steps (e.g., 2 V). At each step, record Vin, VL, and Iz (or compute).  \n4. Plot VL (y-axis) vs Vin (x-axis). Also plot Iz vs Vin.  \n**Key observation:** For Vin < Vz (~10 V), VL rises with Vin (diode not in breakdown). For Vin > Vz, VL remains nearly constant at ~10 V while Iz increases linearly with Vin. The flat portion of the VL vs Vin curve confirms regulation.  \nA poor answer (e.g., \"measure current only\" or \"plot Vin vs time\") shows the student cannot design a basic characterization experiment, a skill needed for practical exams and lab work.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Zener diode is a ______ designed, heavily doped p-n junction diode that operates reliably in the reverse breakdown region (Zener breakdown) to maintain a nearly constant voltage across its terminals, known as the Zener voltage (Vz), over a specified range of reverse currents.",
+     "a": "specially",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a voltage stabilizer ______ to a refrigerator or TV in an Indian home — it keeps the appliance voltage steady at 230 V even when the mains fluctuates between 180 V and 260 V.",
+     "a": "connected",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In a heavily doped Zener diode, this breakdown is sharp and occurs at a precise low voltage (Vz < ______ V) due to quantum tunnelling (Zener breakdown).",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) draw the circuit diagram of a Zener diode voltage regulator with a series resistor and load, (2) explain how the Zener diode maintains constant voltage when input voltage or load current changes, (3) calculate the required series resistance value and its power rating for given input voltage range, Zener.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a voltage stabilizer connected to a ______ or TV in an Indian home — it keeps the appliance voltage steady at 230 V even when the mains fluctuates between 180 V and 260 V.",
+     "a": "refrigerator",
+     "self_check": true
     }
    ]
   }

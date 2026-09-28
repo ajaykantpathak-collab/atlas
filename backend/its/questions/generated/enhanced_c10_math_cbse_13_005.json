@@ -34,6 +34,31 @@
      "q": "Create a grouped frequency distribution with 5 classes, equal class width 10, total frequency N=40, such that the median is exactly 35. Write the full table with frequencies and cumulative frequencies. Explain how you chose the frequencies.",
      "a": "One valid distribution: Classes 0-10, 10-20, 20-30, 30-40, 40-50. N=40, N/2=20. Median=35 lies in 30-40, so median class = 30-40, l=30, h=10. Need 30 + [(20 - cf)/f]×10 = 35 → (20-cf)/f = 0.5 → 20-cf = 0.5f → cf = 20 - 0.5f. Choose f=8 (even), then cf=16. So cumulative frequency before median class = 16. Frequencies: 0-10: 5, 10-20: 5, 20-30: 6 (cf=16), 30-40: 8, 40-50: 16 (total 40). Cumulative: 5, 10, 16, 24, 40. A poor answer reveals the student cannot work backwards from the formula — they might guess frequencies randomly or not satisfy the cf constraint.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The median of grouped data is the value that divides the frequency ______ into two equal halves, such that 50% of observations lie below it and 50% above it.",
+     "a": "distribution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your class teacher has the mathematics marks of 60 students grouped into ______ like 0-10, 10-20, ..., 90-100.",
+     "a": "intervals",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For continuous frequency distributions with equal class intervals, it is calculated using the formula: Median = l + [(N/______ - cf)/f] × h, where l is the lower limit of the median class, N is the total frequency, cf is the cumulative frequency of the class preceding the median class, f is the frequency of the median class, and h is the class size.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently identify the median class from a grouped frequency distribution, correctly compute cumulative frequencies, substitute all five variables into the median formula, and interpret the result in context.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your class teacher has the ______ marks of 60 students grouped into intervals like 0-10, 10-20, ..., 90-100.",
+     "a": "mathematics",
+     "self_check": true
     }
    ]
   }

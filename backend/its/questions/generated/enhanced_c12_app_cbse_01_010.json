@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_01_010",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_01_010",
+   "title": "c12_app_cbse_01_010",
+   "questions": [
+    {
+     "q": "In a 500 m race, P gives Q a start of 50 m. What distance does Q actually run when P completes the race?",
+     "a": "Q runs 450 m. A wrong answer of 50 m or 550 m reveals the student confuses \"start of x metres\" with the distance Q runs, instead of understanding Q starts ahead and therefore covers (race distance – start).",
+     "self_check": true
+    },
+    {
+     "q": "\"A beats B by 20 m in a 200 m race.\" A student writes: \"Speed of B = 20 / (time taken by A)\". Is this correct? Explain why or why not.",
+     "a": "Incorrect. When A finishes 200 m, B has covered 180 m (not 20 m). The 20 m is the *gap*, not B's distance. Speed of B = 180 / (time taken by A). This error shows the student interprets \"beats by x m\" as the distance covered by the loser, rather than the shortfall from the finish line.",
+     "self_check": true
+    },
+    {
+     "q": "In a 1000 m race, A gives B a start of 100 m and beats B by 20 seconds. If A's speed is 5 m/s, find B's speed.",
+     "a": "A's time = 1000/5 = 200 s. B runs 900 m in 200 + 20 = 220 s. B's speed = 900/220 = 45/11 ≈ 4.09 m/s. A wrong answer using 1000/220 or 100/20 reveals confusion between the race distance, the start distance, and the distance B actually covers.",
+     "self_check": true
+    },
+    {
+     "q": "Three runners X, Y, Z run a 1200 m race. X beats Y by 150 m. Y beats Z by 100 m. By how many metres does X beat Z? (Hint: Use ratios of speeds.)",
+     "a": "X:Y = 1200:1050 = 8:7. Y:Z = 1200:1100 = 12:11. Make Y common: X:Y = 96:84, Y:Z = 84:77 → X:Z = 96:77. When X runs 1200 m, Z runs (77/96)×1200 = 962.5 m. X beats Z by 237.5 m. A student who simply adds 150 + 100 = 250 m fails to understand that the margins are measured at *different* finish times (Y's finish vs X's finish), so ratios of speeds must be used.",
+     "self_check": true
+    },
+    {
+     "q": "Statement: \"If A gives B a start of 40 m in a 200 m race and they finish in a dead heat, then A's speed is 5/4 times B's speed.\" Evaluate this statement as True or False and justify.",
+     "a": "True. Dead heat means both finish simultaneously. A runs 200 m, B runs 160 m in the *same* time. Speed ratio = distance ratio = 200:160 = 5:4. A student who says False likely thinks \"start of 40 m\" means B runs 40 m, or does not grasp that dead heat implies equal time.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own race problem involving three runners where the winner beats the second by a distance margin, and the second beats the third by a time margin. Provide the full problem statement and solve it step by step.",
+     "a": "Sample problem: \"In a 800 m race, P beats Q by 80 m. Q beats R by 10 seconds. If Q's speed is 4 m/s, by how many metres does P beat R?\" Solution: Q runs 720 m when P runs 800 m → P:Q speed = 800:720 = 10:9. Q's time for 800 m = 800/4 = 200 s. R's time = 210 s. R's speed = 800/210 = 80/21 m/s. P's speed = (10/9)×4 = 40/9 m/s. P's time for 800 m = 800/(40/9) = 180 s. In 180 s, R covers (80/21)×180 ≈ 685.7 m. P beats R by ≈ 114.3 m. A poor answer would mix distance and time margins incorrectly or assume constant time for all.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,31 @@
      "q": "Design a minimal medium formulation (list 5 key components with concentrations) for a fed-batch production of L-glutamic acid by *Corynebacterium glutamicum*, justifying each component's role in triggering glutamate overflow (the \"biotin limitation\" strategy).",
      "a": "1. Glucose (carbon source): 150 g/L total, fed gradually to maintain ~20 g/L (prevents catabolite repression, ensures high flux through glycolysis/TCA). 2. (NH₄)₂SO₄ (nitrogen): 30 g/L initial, then fed to maintain growth then limitation. 3. KH₂PO₄ (phosphate buffer): 5 g/L (pH control, phosphate limitation also triggers overflow). 4. MgSO₄·7H₂O: 1 g/L (Mg²⁺ cofactor for enzymes). 5. Biotin: 0.2 μg/L (suboptimal, ~1/10th optimal) → limits fatty acid synthesis → reduces NADPH consumption → increases NADPH/NADP⁺ ratio → stimulates isocitrate dehydrogenase → α-ketoglutarate accumulation → transamination to glutamate. A poor answer omits biotin limitation or uses rich media (corn steep liquor) without explaining the metabolic trigger.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Industrial fermentation is the controlled, large-scale cultivation of microorganisms (bacteria, yeast, fungi) in bioreactors to metabolically convert substrates (like glucose, molasses, corn steep liquor) into commercially valuable products such as organic acids (citric acid, lactic acid), alcohols (ethanol, butanol), antibiotics (penicillin), amino acids (glutamic acid), vitamins, and enzymes, under optimized ______ conditions (pH, temperature, aeration, agitation).",
+     "a": "physicochemical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are visiting a large factory that produces citric acid for soft drinks and ______ for medicines.",
+     "a": "penicillin",
+     "self_check": true
+    },
+    {
+     "q": "What is Industrial fermentation? State the definition given in this lesson.",
+     "a": "Industrial fermentation is the controlled, large-scale cultivation of microorganisms (bacteria, yeast, fungi) in bioreactors to metabolically convert substrates (like glucose, molasses, corn steep liquor) into commercially valuable products such as organic acids (citric acid, lactic acid), alcohols (ethanol, butanol), antibiotics.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Industrial fermentation?",
+     "a": "Students often believe \"fermentation = anaerobic process producing alcohol\" because Class 10 defines fermentation as anaerobic respiration in yeast/muscle.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the metabolic basis (aerobic/anaerobic) for at least three major industrial fermentation products, describe the role of bioreactor control parameters (pH, DO, temperature) in maximizing yield, and differentiate between primary and secondary metabolite production with examples.",
+     "self_check": true
     }
    ]
   }

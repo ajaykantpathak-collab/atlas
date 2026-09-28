@@ -34,6 +34,31 @@
      "q": "Design a simple community-level intervention plan to reduce the incidence of all three diseases simultaneously in a dense urban slum. List three specific actions, each targeting a different disease's primary transmission route.",
      "a": "Good answer must include: (1) **Typhoid**: Provide chlorinated piped water / promote boiling water / build toilets with safe sewage disposal (faecal-oral route). (2) **Pneumonia**: Reduce indoor air pollution (clean cookstoves), promote ventilation, encourage pneumococcal vaccination for children/elderly (droplet/aspiration route). (3) **Common cold**: Install handwashing stations with soap, educate on respiratory hygiene (cover cough, dispose tissues), avoid overcrowding (droplet/contact route). A poor answer lists generic \"cleanliness\" without linking each action to a specific transmission biology — shows lack of analytical application.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Typhoid, pneumonia, and the common cold are three distinct infectious diseases caused by specific pathogens: *Salmonella typhi* (bacterium) for typhoid, *______ pneumoniae* and *Haemophilus influenzae* (bacteria) for pneumonia, and rhinoviruses (viruses) for the common cold.",
+     "a": "Streptococcus",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a familiar observation: a classmate misses school for a week with high fever and abdominal pain (typhoid), another is hospitalized with ______ breathing and chest pain (pneumonia), and almost everyone gets a runny nose and sore throat during winter (common cold).",
+     "a": "difficulty",
+     "self_check": true
+    },
+    {
+     "q": "What is Typhoid, pneumonia, and the common cold? State the definition given in this lesson.",
+     "a": "Typhoid, pneumonia, and the common cold are three distinct infectious diseases caused by specific pathogens: *Salmonella typhi* (bacterium) for typhoid, *Streptococcus pneumoniae* and *Haemophilus influenzae* (bacteria) for pneumonia, and rhinoviruses (viruses) for the common cold.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Typhoid, pneumonia, and the common cold?",
+     "a": "\"All respiratory infections are 'flu' and need antibiotics.\" Students conflate common cold (viral), flu (influenza virus), and bacterial pneumonia — they think fever + cough = antibiotics.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Name the causative agent, mode of transmission, major symptoms, and one preventive measure for each disease; (2) Explain why antibiotics work for typhoid and bacterial pneumonia but not for the common cold; (3) Distinguish between the three diseases based on clinical presentation in a case-based question.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Create a one-sentence \"telegraphic summary\" (strictly 25 words max) of the mother's letter that a daughter could text to her friend. It must include: sender, recipient, core advice, and one key metaphor.",
      "a": "Mother to daughter: pursue dreams with conviction, not shortcuts; life rechoreographs unfulfilled dreams (like my dance); family supports you. (24 words) Criteria: includes all four required elements, uses reported speech, preserves metaphor (\"rechoreographs\"), stays within word limit. A poor answer like \"Mom says follow dreams but be careful, she didn't dance but it's ok, we support u\" fails by using informal language, losing the metaphor's precision, and exceeding casual tone appropriate for a board-level summary skill.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A text summary of an epistolary piece condenses the letter's core message, the writer's purpose, key supporting details, and emotional tone into a concise, objective paragraph written in the student's own words, preserving the logical flow from opening to closing without personal ______.",
+     "a": "interpretation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your younger sibling asks you what the letter in today's ______ class was about, but they only have two minutes before their tuition starts.",
+     "a": "English",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write a 80-100 word summary of the mother's letter that identifies the sender/recipient, states the central advice about pursuing dreams, includes 2-3 key supporting anecdotes or arguments, and captures the encouraging yet realistic tone, all in third-person reported speech.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ your younger sibling asks you what the letter in today's English class was about, but they only have two minutes before their tuition starts.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a risk assessment matrix for a hypothetical GM rice event expressing *Cry1Ac* (Bt toxin) and *bar* (glufosinate tolerance) genes. Define three hazard identification categories, two exposure pathways for each, and one mitigation measure per pathway. Present as a structured table.",
      "a": "A good answer produces a table with columns: Hazard Category | Exposure Pathway | Mitigation Measure.\nExample rows:\n1. **Human/Animal Toxicity/Allergenicity** | (a) Dietary consumption of grain | (a) Compositional analysis + 90-day rodent feeding study; (b) Occupational inhalation during processing | (b) Dust control/PPE in mills.\n2. **Gene Flow to Wild Relatives** | (a) Pollen dispersal to weedy rice (*O. rufipogon*) | (a) Spatial isolation distances + male sterility trait; (b) Seed spillage during transport | (b) Dedicated supply chain/containers.\n3. **Non-target Organism Effects** | (a) *Cry1Ac* exposure to beneficial insects via pollen/plant debris | (a) Tier-1/2 non-target testing (e.g., silkworm, bees); (b) Soil accumulation affecting microbiota | (b) Post-harvest residue management + soil monitoring.\nA poor answer lists generic hazards without specific exposure pathways or proposes mitigations not feasible for rice (e.g., \"greenhouse containment\" for field trials).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Biosafety refers to the principles, practices, and containment measures applied to prevent ______ exposure to biological agents (pathogens, genetically modified organisms, recombinant DNA) and their accidental release into the environment, thereby protecting human health, agriculture, and ecosystems.",
+     "a": "unintentional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a research team in Delhi has ______ a strain of *E. coli* to produce a novel antibiotic.",
+     "a": "engineered",
+     "self_check": true
+    },
+    {
+     "q": "What is Biosafety? State the definition given in this lesson.",
+     "a": "Biosafety refers to the principles, practices, and containment measures applied to prevent unintentional exposure to biological agents (pathogens, genetically modified organisms, recombinant DNA) and their accidental release into the environment, thereby protecting human health, agriculture, and ecosystems.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Biosafety?",
+     "a": "Students believe \"Biosafety Level\" is determined *solely* by the pathogenicity of the *wild-type host organism* (e.g., \"*E. coli* K-12 is RG1, so my rDNA work is BSL-1\").",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Classify a given biotechnology experiment into the correct Biosafety Level (BSL-1 to BSL-4) based on the risk group of the organism and the nature of the work, and (2) Trace the regulatory pathway for a hypothetical GM crop in India from IBSC approval to GEAC clearance, identifying the specific function.",
+     "self_check": true
     }
    ]
   }

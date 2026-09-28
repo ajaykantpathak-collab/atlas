@@ -34,6 +34,21 @@
      "q": "Create a real-world scenario involving capacity (litres and millilitres) where three liquid containers contain $2\\text{ L } 45\\text{ mL}$, $1.5\\text{ L}$, and $750\\text{ mL}$. Write their total volume in litres using decimal notation.",
      "a": "Container 1 = $2.045\\text{ L}$, Container 2 = $1.500\\text{ L}$, Container 3 = $0.750\\text{ L}$. Total = $2.045 + 1.500 + 0.750 = 4.295\\text{ L}$. A poor answer reveals an inability to convert millilitres to litres ($1\\text{ mL} = 0.001\\text{ L}$) or misaligning place values during decimal addition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Units of ______ and decimal notation involve expressing fractional parts of standard metric units (such as metres, kilograms, and litres) using decimal fractions and place value notation.",
+     "a": "measurement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: By ______ that sub-units are fractional parts of whole base units, we can write any smaller unit as a decimal fraction of the larger base unit.",
+     "a": "understanding",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can convert mixed metric units (e.g., centimetres to metres, grams to kilograms) into single decimal notation, perform arithmetic operations with these decimal units in real-world contexts, and interpret the decimal place value in terms of sub-units.",
+     "self_check": true
     }
    ]
   }

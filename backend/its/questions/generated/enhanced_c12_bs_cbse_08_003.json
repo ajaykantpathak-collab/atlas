@@ -34,6 +34,36 @@
      "q": "Design a 3-month \"Plan-Control Cycle\" for a school's Class 12 Board Exam preparation program. Your cycle must show: (i) a specific planning output that becomes a controlling standard, (ii) a controlling step that measures against that standard, (iii) a corrective action, and (iv) how the corrective action feeds into the *next* month's plan. Present as a table with columns: Month, Planning Output (Standard), Controlling Measure, Deviation Found, Corrective Action, Input to Next Plan.",
      "a": "| Month | Planning Output (Standard) | Controlling Measure | Deviation Found | Corrective Action | Input to Next Plan |\n|-------|----------------------------|---------------------|-----------------|-------------------|---------------------|\n| Jan   | Complete Ch 1-3 syllabus; 3 mock tests; target avg 75% | Weekly test scores; syllabus coverage tracker | Avg 62%; Ch 3 only 40% done | Extra 2 hrs/week for Ch 3; peer tutoring for weak students | Feb plan: Reduce new syllabus load; add 1 revision test/week; include Ch 3 remediation slot |\n| Feb   | Complete Ch 4-6; 4 mock tests (incl. 1 full-length); target avg 80% | Mock test analysis; chapter-wise accuracy | Full-length test: 68%; time management poor | Timed practice drills; exam strategy workshop | Mar plan: Shift focus to full-length tests (2/week); drop new topics; add stress-management session |\n| Mar   | 6 full-length mocks; target avg 85%; zero new content | Mock scores vs Board pattern; error-type analysis | Careless errors 30%; conceptual gaps in Ch 5 | Error-log maintenance; targeted Ch 5 micro-revision | **Next cycle (Board Exam)**: Final strategy — time allocation per section; error-check protocol; confidence anchors from mock trends |\n\nA poor answer lists activities without showing the *data flow* from control → plan (e.g., \"Jan deviation → Feb plan change\" missing). The key is column 6 explicitly deriving from column 5.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Planning and controlling are ______ functions of management where planning sets the performance standards and future course of action, while controlling measures actual performance against those standards, identifies deviations, and initiates corrective action to ensure plans are realised; planning is prescriptive and forward-looking, controlling is evaluative and backward-looking, yet both functions are simultaneously forward and backward-looking as planning uses past control data and controlling aims to improve future performance.",
+     "a": "interdependent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the captain of a cricket team (like Rohit Sharma) preparing for the IPL ______.",
+     "a": "final",
+     "self_check": true
+    },
+    {
+     "q": "What is Planning and controlling? State the definition given in this lesson.",
+     "a": "Planning and controlling are interdependent functions of management where planning sets the performance standards and future course of action, while controlling measures actual performance against those standards, identifies deviations, and initiates corrective action to ensure plans are realised; planning is prescriptive and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When a bowler goes for ______ runs in an over, you intervene — change the bowler, adjust the field (this is controlling).",
+     "a": "15",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Planning and controlling?",
+     "a": "Students often write: \"Planning is forward-looking, controlling is backward-looking — they are opposite functions.\" This is the #1 board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) explain why planning is a prerequisite for controlling and why controlling is meaningless without planning, using the concept of standards; (2) distinguish between the prescriptive nature of planning and evaluative nature of controlling with a concrete organisational example; (3) describe how the two.",
+     "self_check": true
     }
    ]
   }

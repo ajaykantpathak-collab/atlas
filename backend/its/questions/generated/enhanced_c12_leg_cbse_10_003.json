@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_10_003",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_10_003",
+   "title": "c12_leg_cbse_10_003",
+   "questions": [
+    {
+     "q": "Name the Supreme Court case that first recognized \"speedy trial\" as a fundamental right under Article 21 and led to the release of thousands of undertrial prisoners in Bihar.",
+     "a": "*Hussainara Khatoon v. State of Bihar* (1979). A wrong answer (e.g., *Maneka Gandhi* or *Kesavananda Bharati*) reveals the student confuses the *expansion* of Article 21 (Maneka) or the *basic structure* doctrine (Kesavananda) with the specific right to speedy trial and free legal aid for undertrials established in Hussainara Khatoon.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the Supreme Court in *Maneka Gandhi v. Union of India* (1978) held that \"procedure established by law\" under Article 21 must be \"fair, just, and reasonable\" — and not merely any procedure enacted by the legislature.",
+     "a": "The Court ruled that Articles 14, 19, and 21 form a \"Golden Triangle\" — a law depriving personal liberty must satisfy the reasonableness test of Article 14 and the freedoms under Article 19. A wrong answer that says \"Article 21 includes due process\" reveals the student misses the nuance: India did not adopt the U.S. \"due process\" clause; instead, the Court *read* fairness into \"procedure established by law\" via judicial interpretation, making the procedure itself subject to constitutional scrutiny.",
+     "self_check": true
+    },
+    {
+     "q": "A state government passes a law allowing preventive detention for up to 6 months without judicial review for \"threats to public order.\" A detainee challenges it. Apply the principles from *Maneka Gandhi* and *A.K. Gopalan* to argue whether the law is constitutional.",
+     "a": "The law is likely unconstitutional. *A.K. Gopalan* (1950) held Article 21 only requires a procedure enacted by legislature — but *Maneka Gandhi* (1978) overruled this narrow view: the procedure must be \"fair, just, and reasonable.\" Preventive detention without judicial review for 6 months fails the reasonableness test under Article 14 and violates Article 22 safeguards (production before magistrate within 24 hours). A wrong answer citing only *A.K. Gopalan* shows the student hasn't grasped the doctrinal shift from \"procedure established by law\" to \"due process-like\" fairness.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the *Kesavananda Bharati* (1973) and *Minerva Mills* (1980) judgments on the \"basic structure\" doctrine. What new basic feature did *Minerva Mills* add that *Kesavananda* did not explicitly enumerate?",
+     "a": "*Kesavananda* established that Parliament cannot amend the \"basic structure\" (democracy, secularism, federalism, judicial review, etc.) but did not give an exhaustive list. *Minerva Mills* explicitly added **judicial review** and **balance between Fundamental Rights and DPSP** as basic features. A wrong answer listing \"rule of law\" or \"secularism\" (already in Kesavananda) reveals the student cannot distinguish the *evolution* of the doctrine across cases.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"The Supreme Court's creation of 'Absolute Liability' in *M.C. Mehta v. Union of India* (Oleum Gas Leak, 1987) was judicial overreach because it removed all defenses (Act of God, Act of Stranger) available under *Rylands v. Fletcher* (Strict Liability).\" Defend or critique using constitutional principles.",
+     "a": "Critique is weak; the judgment is defensible. The Court derived Absolute Liability from Article 21 (right to life) and the Directive Principles (environment protection). Hazardous industries deriving commercial profit owe a non-delegable duty to the community. Removing defenses ensures accountability for catastrophic harm — aligning with the \"polluter pays\" principle and the State's duty under Article 48A. A wrong answer calling it \"overreach\" without engaging Article 21/48A reveals the student views it as mere tort law expansion, not constitutional human rights jurisprudence.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario where a High Court must apply the *Vishaka Guidelines* (1997) on workplace sexual harassment *before* the POSH Act (2013) was enacted. Write the legal question the court would frame and the ratio decidendi it would follow.",
+     "a": "**Scenario:** A female employee in a private company in 2005 complains of sexual harassment by her supervisor. No internal committee exists. She approaches the High Court under Article 226.  \n**Legal Question:** Whether the employer has a constitutional obligation to provide a safe workplace free from sexual harassment in the absence of legislation?  \n**Ratio Decidendi:** The Court would hold that Articles 14, 19(1)(g), and 21 impose a duty on the State (and by extension, employers) to prevent sexual harassment. The *Vishaka Guidelines* — drawn from CEDAW (ratified by India) — fill the legislative vacuum and are binding under Article 141 until Parliament enacts a law. A poor answer that cites only the POSH Act (2013) reveals the student doesn't understand the *interim binding force* of judicial guidelines in a legislative gap.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,31 @@
      "q": "Design a comparative genomics study to identify the genetic basis of drought tolerance in a wild rice relative (Oryza rufipogon) compared to cultivated rice (Oryza sativa). Specify: (a) the genomic datasets needed, (b) the analytical pipeline (tools and steps), (c) how you would distinguish causal variants from neutral divergence, and (d) one experimental validation strategy.",
      "a": "(a) Datasets: High-quality genome assemblies + annotations for both species; RNA-seq from root/leaf tissues under drought vs. control for both; resequencing data from multiple accessions of each species. (b) Pipeline: 1) Whole-genome alignment (MUMmer/Minimap2) to identify syntenic blocks and structural variants; 2) Ortholog identification (OrthoFinder/InParanoid) + Ka/Ks calculation (PAML) to detect positive selection; 3) Differential expression analysis (DESeq2) of RNA-seq to find drought-responsive genes; 4) Overlap selection: genes with both signatures (positive selection + drought-induced expression) in syntenic regions; 5) GWAS/selection sweep analysis (XP-CLR) on resequencing data to pinpoint causal SNPs. (c) Causal vs. neutral: Prioritize non-synonymous SNPs in conserved domains, regulatory variants in promoters/enhancers (ATAC-seq if available), and structural variants affecting gene dosage; filter out variants with high frequency in both tolerant/sensitive accessions. (d) Validation: CRISPR-Cas9 knockout/allele swap in rice followed by drought phenotyping in controlled conditions. A poor answer would only list tools without logical flow or validation — this reveals the student treats comparative genomics as a tool catalogue rather than a hypothesis-driven framework.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Comparative genomics is the systematic analysis of genome structure, gene content, and sequence conservation across multiple species or individuals to identify evolutionary ______, conserved functional elements, and species-specific innovations.",
+     "a": "relationships",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you just sequenced the genome of a newly ______ medicinal plant from the Western Ghats.",
+     "a": "discovered",
+     "self_check": true
+    },
+    {
+     "q": "What is Comparative genomics? State the definition given in this lesson.",
+     "a": "Comparative genomics is the systematic analysis of genome structure, gene content, and sequence conservation across multiple species or individuals to identify evolutionary relationships, conserved functional elements, and species-specific innovations.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Comparative genomics?",
+     "a": "Students often believe \"synteny means identical gene order\" and \"high sequence similarity = orthologs\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) interpret a synteny dot-plot or genome alignment to identify conserved blocks, inversions, and translocations between two species; (2) explain how comparative genomics distinguishes core genome from accessory genome using a real example (e.g., human-mouse or rice-Arabidopsis); (3) design a comparative.",
+     "self_check": true
     }
    ]
   }

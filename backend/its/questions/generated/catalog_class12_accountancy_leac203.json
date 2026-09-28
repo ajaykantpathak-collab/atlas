@@ -1,6 +1,241 @@
 {
- "catalog": "catalog_class12_accountancy_leac203",
+ "catalog": "catalog_class12_accountancy_leac203.json",
  "concepts": [
+  {
+   "id": "leac.203.2.1",
+   "title": "Nature of Financial Statements",
+   "converted_to_compute": true,
+   "formula": "statement_figures = recorded_facts + accounting_conventions + personal_judgements",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "statement_figures = recorded_facts + accounting_conventions + personal_judgements",
+     "compute": "statement_figures = recorded_facts + accounting_conventions + personal_judgements"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Nature of Financial Statements: given recorded_facts = 77, accounting_conventions = 333, personal_judgements = 6.4, find statement figures.",
+     "a": "416.4",
+     "self_check": false
+    },
+    {
+     "q": "For Nature of Financial Statements: given recorded_facts = 17.6, accounting_conventions = 205, personal_judgements = 64, find statement figures.",
+     "a": "286.6",
+     "self_check": false
+    },
+    {
+     "q": "For Nature of Financial Statements: given recorded_facts = 9.7, accounting_conventions = 63, personal_judgements = 6.9, find statement figures.",
+     "a": "79.6",
+     "self_check": false
+    },
+    {
+     "q": "For Nature of Financial Statements: given recorded_facts = 38, accounting_conventions = 220, personal_judgements = 98, find statement figures.",
+     "a": "356",
+     "self_check": false
+    },
+    {
+     "q": "For Nature of Financial Statements: given recorded_facts = 22, accounting_conventions = 196, personal_judgements = 71, find statement figures.",
+     "a": "289",
+     "self_check": false
+    },
+    {
+     "q": "For Nature of Financial Statements: given recorded_facts = 98, accounting_conventions = 333, personal_judgements = 51, find statement figures.",
+     "a": "482",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leac.203.4.5",
+   "title": "Balance Sheet Total",
+   "converted_to_compute": true,
+   "formula": "balance_sheet_total = shareholders_funds + non_current_liabilities + current_liabilities",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "balance_sheet_total = shareholders_funds + non_current_liabilities + current_liabilities",
+     "compute": "balance_sheet_total = shareholders_funds + non_current_liabilities + current_liabilities"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Balance Sheet Total: given shareholders_funds = 42, non_current_liabilities = 9.6, current_liabilities = 57, find balance sheet total.",
+     "a": "108.6",
+     "self_check": false
+    },
+    {
+     "q": "For Balance Sheet Total: given shareholders_funds = 70, non_current_liabilities = 117, current_liabilities = 48, find balance sheet total.",
+     "a": "235",
+     "self_check": false
+    },
+    {
+     "q": "For Balance Sheet Total: given shareholders_funds = 64, non_current_liabilities = 29, current_liabilities = 54, find balance sheet total.",
+     "a": "147",
+     "self_check": false
+    },
+    {
+     "q": "For Balance Sheet Total: given shareholders_funds = 64, non_current_liabilities = 51, current_liabilities = 57, find balance sheet total.",
+     "a": "172",
+     "self_check": false
+    },
+    {
+     "q": "For Balance Sheet Total: given shareholders_funds = 20, non_current_liabilities = 98, current_liabilities = 37, find balance sheet total.",
+     "a": "155",
+     "self_check": false
+    },
+    {
+     "q": "For Balance Sheet Total: given shareholders_funds = 63, non_current_liabilities = 99, current_liabilities = 70, find balance sheet total.",
+     "a": "232",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leac.203.4.6",
+   "title": "Statement of Profit and Loss Format",
+   "converted_to_compute": true,
+   "formula": "profit_before_tax = total_revenue - total_expenses",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "profit_before_tax = total_revenue - total_expenses",
+     "compute": "profit_before_tax = total_revenue - total_expenses"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Statement of Profit and Loss Format: given total_revenue = 93, total_expenses = 34, find profit before tax.",
+     "a": "59",
+     "self_check": false
+    },
+    {
+     "q": "For Statement of Profit and Loss Format: given total_revenue = 79, total_expenses = 47, find profit before tax.",
+     "a": "32",
+     "self_check": false
+    },
+    {
+     "q": "For Statement of Profit and Loss Format: given total_revenue = 88, total_expenses = 28, find profit before tax.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "For Statement of Profit and Loss Format: given total_revenue = 30, total_expenses = 90, find profit before tax.",
+     "a": "-60",
+     "self_check": false
+    },
+    {
+     "q": "For Statement of Profit and Loss Format: given total_revenue = 12, total_expenses = 10.9, find profit before tax.",
+     "a": "1.1",
+     "self_check": false
+    },
+    {
+     "q": "For Statement of Profit and Loss Format: given total_revenue = 18.7, total_expenses = 78, find profit before tax.",
+     "a": "-59.3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leac.203.5.1",
+   "title": "Uses and Users of Financial Statements",
+   "converted_to_compute": true,
+   "formula": "statement_users = management + investors + creditors + government + employees",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "statement_users = management + investors + creditors + government + employees",
+     "compute": "statement_users = management + investors + creditors + government + employees"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Uses and Users of Financial Statements: given management = 79, investors = 4.9, creditors = 41, government = 33, employees = 42, find statement users.",
+     "a": "199.9",
+     "self_check": false
+    },
+    {
+     "q": "For Uses and Users of Financial Statements: given management = 55, investors = 76, creditors = 7.6, government = 8.6, employees = 68, find statement users.",
+     "a": "215.2",
+     "self_check": false
+    },
+    {
+     "q": "For Uses and Users of Financial Statements: given management = 93, investors = 65, creditors = 83, government = 71, employees = 48, find statement users.",
+     "a": "360",
+     "self_check": false
+    },
+    {
+     "q": "For Uses and Users of Financial Statements: given management = 31, investors = 57, creditors = 78, government = 45, employees = 14.8, find statement users.",
+     "a": "225.8",
+     "self_check": false
+    },
+    {
+     "q": "For Uses and Users of Financial Statements: given management = 26, investors = 62, creditors = 25, government = 97, employees = 45, find statement users.",
+     "a": "255",
+     "self_check": false
+    },
+    {
+     "q": "For Uses and Users of Financial Statements: given management = 65, investors = 99, creditors = 85, government = 39, employees = 34, find statement users.",
+     "a": "322",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leac.203.6.1",
+   "title": "Limitations of Financial Statements",
+   "converted_to_compute": true,
+   "formula": "statement_reliability = full_picture - unmeasured_factors",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "statement_reliability = full_picture - unmeasured_factors",
+     "compute": "statement_reliability = full_picture - unmeasured_factors"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Limitations of Financial Statements: given full_picture = 11.4, unmeasured_factors = 17.7, find statement reliability.",
+     "a": "-6.3",
+     "self_check": false
+    },
+    {
+     "q": "For Limitations of Financial Statements: given full_picture = 42, unmeasured_factors = 48, find statement reliability.",
+     "a": "-6",
+     "self_check": false
+    },
+    {
+     "q": "For Limitations of Financial Statements: given full_picture = 60, unmeasured_factors = 89, find statement reliability.",
+     "a": "-29",
+     "self_check": false
+    },
+    {
+     "q": "For Limitations of Financial Statements: given full_picture = 43, unmeasured_factors = 16, find statement reliability.",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "For Limitations of Financial Statements: given full_picture = 84, unmeasured_factors = 67, find statement reliability.",
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "For Limitations of Financial Statements: given full_picture = 37, unmeasured_factors = 92, find statement reliability.",
+     "a": "-55",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "leac.203.1.1",
    "title": "Meaning of Financial Statements",
@@ -28,37 +263,6 @@
     {
      "q": "Write the standard relation used for 'Meaning of Financial Statements', in plain ASCII form.",
      "a": "financial_statements = balance_sheet + statement_of_profit_and_loss + cash_flow_statement",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leac.203.2.1",
-   "title": "Nature of Financial Statements",
-   "questions": [
-    {
-     "q": "Using the method 'Nature of Financial Statements', work with: accounting_conventions = 3, personal_judgements = 45, recorded_facts = 24. Carry the chain through step by step and give the final value of statement_figures.",
-     "a": "72 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Nature of Financial Statements' and work with: accounting_conventions = 200, personal_judgements = 8, recorded_facts = 40. Carry the chain through step by step and give the final value of statement_figures.",
-     "a": "248 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Nature of Financial Statements' refers to.",
-     "a": "The figures in financial statements rest on recorded facts expressed in money, on accounting conventions the preparers adopt, and on personal judgements about matters like asset lives and provision levels, so the statements describe but never photograph reality.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Nature of Financial Statements'.",
-     "a": "Because conventions and judgement enter the numbers, two honest accountants can produce slightly different statements for the same business.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Nature of Financial Statements', in plain ASCII form.",
-     "a": "statement_figures = recorded_facts + accounting_conventions + personal_judgements",
      "self_check": true
     }
    ]
@@ -219,68 +423,6 @@
    ]
   },
   {
-   "id": "leac.203.4.5",
-   "title": "Balance Sheet Total",
-   "questions": [
-    {
-     "q": "Find the total of the balance sheet from the given items. Use the method 'Balance Sheet Total'. Work with: current_liabilities = 240, non_current_liabilities = 45, reserves_and_surplus = 5, share_capital = 0.8. Carry the chain through step by step and give the final value of balance_sheet_total.",
-     "a": "290.8 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Compute the closing balance sheet total after classifying items. Use the method 'Balance Sheet Total'. Work with: current_liabilities = 240, non_current_liabilities = 40, reserves_and_surplus = 400, share_capital = 0.4. Carry the chain through step by step and give the final value of balance_sheet_total.",
-     "a": "680.4 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Balance Sheet Total' refers to.",
-     "a": "The grand total of the company balance sheet is the sum of shareholders' funds, non-current liabilities and current liabilities, and it must equal the total of non-current and current assets on the other side.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Balance Sheet Total'.",
-     "a": "Both sides carry the same total by construction; any gap means an item landed in the wrong head.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Balance Sheet Total', in plain ASCII form.",
-     "a": "balance_sheet_total = shareholders_funds + non_current_liabilities + current_liabilities",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leac.203.4.6",
-   "title": "Statement of Profit and Loss Format",
-   "questions": [
-    {
-     "q": "Using the method 'Statement of Profit and Loss Format', work with: total_expenses = 12000, total_revenue = 120000. Carry the chain through step by step and give the final value of profit_before_tax.",
-     "a": "108000 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Statement of Profit and Loss Format' and work with: total_expenses = 12000, total_revenue = 50000. Carry the chain through step by step and give the final value of profit_before_tax.",
-     "a": "38000 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Statement of Profit and Loss Format' refers to.",
-     "a": "The Schedule III profit statement runs from revenue from operations plus other income, through classified expenses (materials, employees, finance, depreciation, others), to profit before tax, then tax, to the profit for the period, ending with earnings per share.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Statement of Profit and Loss Format'.",
-     "a": "Employee benefit expenses collect wages and salaries into one line; finance cost holds only interest -- bank charges go elsewhere.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Statement of Profit and Loss Format', in plain ASCII form.",
-     "a": "profit_before_tax = total_revenue - total_expenses",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "leac.203.4.7",
    "title": "Profit before Tax under Schedule III",
    "questions": [
@@ -307,68 +449,6 @@
     {
      "q": "Write the standard relation used for 'Profit before Tax under Schedule III', in plain ASCII form.",
      "a": "profit_before_tax = (revenue_from_operations + other_income) - (cost_of_materials + employee_benefits + finance_costs + depreciation)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leac.203.5.1",
-   "title": "Uses and Users of Financial Statements",
-   "questions": [
-    {
-     "q": "Using the method 'Uses and Users of Financial Statements', work with: creditors = 45, employees = 120, government = 500, investors = 3, management = 150. Carry the chain through step by step and give the final value of statement_users.",
-     "a": "818 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Uses and Users of Financial Statements' and work with: creditors = 8, employees = 25, government = 100, investors = 3, management = 2600. Carry the chain through step by step and give the final value of statement_users.",
-     "a": "2736 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Uses and Users of Financial Statements' refers to.",
-     "a": "Management, investors, lenders, employees, government and the public each read the same statements for their own reason -- performance, security, wages, taxation or regulation -- which is why the disclosures must stay standard.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Uses and Users of Financial Statements'.",
-     "a": "One standard package serves many decisions: lending, taxing, investing, bargaining and regulating.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Uses and Users of Financial Statements', in plain ASCII form.",
-     "a": "statement_users = management + investors + creditors + government + employees",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leac.203.6.1",
-   "title": "Limitations of Financial Statements",
-   "questions": [
-    {
-     "q": "Using the method 'Limitations of Financial Statements', work with: full_picture = 50, unmeasured_factors = 8. Carry the chain through step by step and give the final value of statement_reliability.",
-     "a": "42 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Limitations of Financial Statements' and work with: full_picture = 120, unmeasured_factors = 15. Carry the chain through step by step and give the final value of statement_reliability.",
-     "a": "105 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Limitations of Financial Statements' refers to.",
-     "a": "The statements report only what money can measure, lean on historical cost, hide qualitative strengths, and depend on estimates and window dressing, so they guide but cannot guarantee a full picture of the business.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Limitations of Financial Statements'.",
-     "a": "Intangibles like skill and brand, inflation effects and management bias stay outside the numbers.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Limitations of Financial Statements', in plain ASCII form.",
-     "a": "statement_reliability = full_picture - unmeasured_factors",
      "self_check": true
     }
    ]

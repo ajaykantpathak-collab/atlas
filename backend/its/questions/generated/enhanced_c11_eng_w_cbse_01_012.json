@@ -34,6 +34,26 @@
      "q": "Write a 4-line dialogue between Iona and a new passenger (a journalist) where the journalist asks an inferential question about Iona's grief, and Iona responds with a literal fact that ironically deepens the tragedy.",
      "a": "Example:\nJournalist: \"Sir, does your heart ache because no one listens?\" (inferential)\nIona: \"My heart aches because my son Kuzma Ionitch died of high fever on Tuesday.\" (literal fact)\nJournalist: \"But why tell me?\"\nIona: \"Because you asked, and the snow covers my voice.\"\nCriteria: The dialogue must show the journalist asking an inferential question (probing feelings/motives) and Iona answering with a literal fact from the text, highlighting the gap between feeling and fact. A poor answer would have both lines literal or both inferential, missing the irony.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal ______ questions ask for information explicitly stated in the text (who, what, when, where).",
+     "a": "comprehension",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're ______ a WhatsApp message from a friend: \"I'm fine.\" You ask, \"What did they say?\" (literal) vs.",
+     "a": "reading",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently classify a given question as literal or inferential, locate explicit textual evidence for literal questions, and construct a logical inference supported by textual clues for inferential questions, writing answers in the PEEL structure.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're reading a ______ message from a friend: \"I'm fine.\" You ask, \"What did they say?\" (literal) vs.",
+     "a": "WhatsApp",
+     "self_check": true
     }
    ]
   }

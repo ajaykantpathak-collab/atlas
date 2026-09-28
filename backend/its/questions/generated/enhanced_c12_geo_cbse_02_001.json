@@ -34,6 +34,31 @@
      "q": "Design a choropleth map legend for world population distribution using five classes that effectively communicates both the extreme concentration (90% in 10% land) and the vast empty areas. Specify class intervals, color scheme rationale, and one annotation you would add to prevent misinterpretation.",
      "a": "Class intervals (persons/sq km): 0–2 (white/very light yellow — non-ecumene: deserts, ice caps, high mountains), 2–25 (light orange — sparse: boreal forests, semi-arid margins), 25–100 (medium orange — moderate: temperate grasslands, Mediterranean), 100–500 (dark orange — dense: coastal plains, river valleys), >500 (red/brown — very dense: Indo-Gangetic, North China, Java, NW Europe, NE USA). Color progression from cool/light to warm/dark mirrors intensity. Critical annotation: \"Classes represent density, not total population; large low-density areas may contain fewer people than small high-density areas.\" A poor legend using equal intervals (e.g., 0–100, 100–200…) would visually overemphasize empty lands and hide the extreme concentration, misleading the map reader.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: World population distribution refers to the spatial arrangement of human populations across Earth's surface, characterized by extreme unevenness where approximately 90% of the global population occupies only 10% of the total land area, with ______ in South and East Asia, Europe, and eastern North America.",
+     "a": "concentrations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking students to observe a night-time satellite image of Earth — bright ______ reveal where people live.",
+     "a": "clusters",
+     "self_check": true
+    },
+    {
+     "q": "What is World population distribution? State the definition given in this lesson.",
+     "a": "World population distribution refers to the spatial arrangement of human populations across Earth's surface, characterized by extreme unevenness where approximately 90% of the global population occupies only 10% of the total land area, with concentrations in South and East Asia, Europe, and eastern North America.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about World population distribution?",
+     "a": "Students conflate \"population distribution\" (the spatial pattern — where people live) with \"population density\" (the ratio — people per sq km), and consequently misinterpret the NCERT statement \"90% population in 10% land area\" as a density value rather than a distribution statistic.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can identify the three major population concentration zones on a world map, explain the geographical-economic-social factors causing clustering in each zone, and distinguish between distribution (where people are) and density (people per unit area).",
+     "self_check": true
     }
    ]
   }

@@ -120,7 +120,7 @@
     "For the sample space of throwing a die, list the event of getting a number less than 3.",
     "Write the sample space when a coin and a die are tossed together."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -164,7 +164,16 @@
      "question": "For a single throw of a die, list the event of getting a number less than 3 and find its probability.",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "divide favourable outcomes by total outcomes",
+     "explain": "divide favourable outcomes by total outcomes: p = 2 / 6 gives 0.333333",
+     "compute": "p = 2 / 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.14.4",
@@ -233,7 +242,7 @@
     "From a bag of red balls only, find the probability of drawing a blue ball (impossible event).",
     "Classify the event of getting 8 on a die as sure, impossible, or neither."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -272,7 +281,16 @@
      "question": "A coin is tossed. Find the probability of getting either a head or a tail.",
      "type": "verify_property"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "divide favourable outcomes by total outcomes",
+     "explain": "divide favourable outcomes by total outcomes: p = 2 / 6 gives 0.333333",
+     "compute": "p = 2 / 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.14.6",

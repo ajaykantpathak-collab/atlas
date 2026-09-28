@@ -34,6 +34,26 @@
      "q": "Design a minimal CSV file (show 3 rows including header) that would break a naive `line.split(',')` parser but is correctly handled by `csv.reader`. Explain the breaking feature.",
      "a": "Example CSV:\n```\nName,Address,Age\n\"Sharma, Ravi\",\"12, Park Street, Delhi\",25\n\"Gupta, Neha\",\"Flat 3B, \\\"Rose\\\" Apartment\",30\n```\nBreaking features: 1) Comma inside quoted field (`\"Sharma, Ravi\"`), 2) Quoted field with escaped quotes (`\\\"Rose\\\"`), 3) Comma inside address. `csv.reader` parses correctly; `split(',')` produces 4+ fields per row. A poor answer without quotes or escaped quotes shows the student doesn't know CSV quoting/escaping rules.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A CSV (Comma Separated Values) file is a plain text file that stores tabular data where each line ______ a row and values within a row are separated by a delimiter (typically a comma).",
+     "a": "represents",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a marksheet in Excel with ______: Roll No, Name, Math, Science, English.",
+     "a": "columns",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain the structure of a CSV file, identify when to use the csv module over manual string splitting, and write Python code to open a CSV file correctly using newline='' and the appropriate mode (r, w, a) for reading or writing.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a ______ in Excel with columns: Roll No, Name, Math, Science, English.",
+     "a": "marksheet",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using two spring balances, a string, and a fixed support to demonstrate that action and reaction forces are equal in magnitude and simultaneous. Describe the setup, what you would observe, and how you would verify simultaneity without electronic sensors.",
      "a": "**Setup:** Fix one spring balance (S1) to a wall. Hook a string to S1, pass it over a frictionless pulley, and attach the second spring balance (S2) to the free end. Pull S2 horizontally with a steady force.\n**Observation:** Both S1 and S2 show **identical readings** at all times during pulling, holding, and releasing.\n**Verification of simultaneity:** The readings change **together** — when you increase pull, both needles move simultaneously; when you stop, both stop changing at the same instant. No lag is observable. This confirms equal magnitude and simultaneity. A poor answer (e.g., \"use a single spring balance\") shows the student doesn't understand that two bodies are needed to manifest the pair.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Newton's Third Law states that for every force exerted by body A on body B, there exists a ______ force of equal magnitude but opposite direction exerted by body B on body A.",
+     "a": "simultaneous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Place a heavy book on a spring balance held ______.",
+     "a": "vertically",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify action-reaction pairs in complex multi-body systems (e.g., block on accelerating wedge, rocket propulsion, walking on rough surface), explain why action-reaction forces do not cancel for a single body's motion, and apply the third law with the second law to solve for unknown forces in connected-body.",
+     "self_check": true
     }
    ]
   }

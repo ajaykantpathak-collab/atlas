@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using only test tubes, solutions of ZnSO₄, FeSO₄, CuSO₄, and metal strips of Zn, Fe, Cu to determine the reactivity order of these three metals. Describe the procedure, observations table, and conclusion.",
      "a": "**Procedure**: Place each metal strip in each of the three solutions (9 combinations). Observe for colour change/deposit/gas over 5 min. **Observations**: Zn displaces Fe and Cu (colour fades, deposits form); Fe displaces Cu only; Cu displaces none. **Conclusion**: Reactivity order: **Zn > Fe > Cu**. A poor answer (e.g., testing only one combination, not recording \"no reaction\" for Cu) shows inability to design a controlled comparative experiment — a skill tested in CBSE practical and case-based questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ reaction is a chemical reaction in which a more reactive element displaces a less reactive element from its compound, following the general pattern: A + BC → AC + B (where A is more reactive than B).",
+     "a": "displacement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine dropping an iron nail into a blue copper ______ solution — within minutes, the blue colour fades and a reddish-brown coating appears on the nail.",
+     "a": "sulphate",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly predict whether a displacement reaction will occur between a given element and a compound using the reactivity series, write the balanced chemical equation for the reaction, and identify the reaction as a single displacement reaction.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine ______ an iron nail into a blue copper sulphate solution — within minutes, the blue colour fades and a reddish-brown coating appears on the nail.",
+     "a": "dropping",
+     "self_check": true
     }
    ]
   }

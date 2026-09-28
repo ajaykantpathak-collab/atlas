@@ -34,6 +34,31 @@
      "q": "Design a simple community-level project that uses a Class 9 physics concept (choose one: work/energy, sound, or gravitation) to solve a local problem (e.g., water lifting, noise reduction, crop drying). Outline the physics principle, the prototype, and one societal benefit and one risk.",
      "a": "Example: Gravitational potential energy → kinetic energy → water turbine for irrigation. Prototype: a rainwater tank on a rooftop (height h) feeds a pipe to a small turbine that charges a battery for a drip-irrigation pump. Benefit: reduces manual labor and diesel use. Risk: tank collapse hazard if not maintained; mosquito breeding in stagnant water. A poor answer proposes a \"magic\" device without energy accounting or ignores maintenance/social context.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Science and Society: Impact on Daily Life refers to the ______ relationship where scientific discoveries and technological innovations transform human activities, health, communication, and environment, while societal needs, values, and policies shape the direction and funding of scientific research.",
+     "a": "bidirectional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan in your classroom: it converts ______ energy into kinetic energy of air using a motor based on the magnetic effect of current (studied in Class 8).",
+     "a": "electrical",
+     "self_check": true
+    },
+    {
+     "q": "What is Science and Society? State the definition given in this lesson.",
+     "a": "Science and Society: Impact on Daily Life refers to the bidirectional relationship where scientific discoveries and technological innovations transform human activities, health, communication, and environment, while societal needs, values, and policies shape the direction and funding of scientific research.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Science and Society?",
+     "a": "Students think \"science impacts society only through big inventions like rockets or smartphones\" and overlook how fundamental principles (e.g., pressure in a pressure cooker, friction in brakes, convex mirrors in traffic) permeate daily objects.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain, with at least three specific physics-based examples, how a fundamental principle leads to a technology that changes daily life, and can articulate one societal trade-off (e.g., energy access vs. carbon emissions) for each example.",
+     "self_check": true
     }
    ]
   }

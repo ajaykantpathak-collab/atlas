@@ -39,8 +39,8 @@ from neo4j import GraphDatabase
 
 # === CONFIG ===
 API_KEYS = [
-    "sk-ant-co-QsK1rhxdfRWZ65OJ5cVxaAZ5ISNUY0lK",
-    "sk-ant-co-gIEUzRWw_mtUpxKk668B1lzJe3XntCna",
+    "<redacted>",
+    "<redacted>",
 ]
 API_KEY = os.environ.get("CLAUDE_API_KEY", API_KEYS[1])  # use 2nd key
 API_URL = "https://api.claudeopus.pro/v1/messages"

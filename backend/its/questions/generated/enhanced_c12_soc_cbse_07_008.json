@@ -1,0 +1,71 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_07_008",
+   "title": "c12_soc_cbse_07_008",
+   "questions": [
+    {
+     "q": "What are the mandatory sections of a CBSE Class 12 sociology project report in the correct sequential order?",
+     "a": "The mandatory sections in order are: Title Page, Declaration, Acknowledgements, Table of Contents, Introduction, Literature Review, Methodology, Data Presentation, Analysis and Interpretation, Conclusion, Bibliography/References, Appendices. A wrong answer (e.g., putting Literature Review before Introduction, omitting Declaration, or placing Bibliography before Conclusion) reveals the student does not understand the logical flow of academic argumentation — each section builds on the previous one, and examiners check for this exact sequence in board evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes in their project report: \"Many studies show that social media affects mental health (Smith, 2020; Gupta, 2019; Sharma, 2021).\" They include all three sources in the bibliography. Is this correct APA 7th edition citation practice? Explain why or why not.",
+     "a": "This is partially correct but incomplete for APA 7th edition. For multiple citations in one parenthesis, sources must be ordered alphabetically by first author's surname (Gupta, 2019; Sharma, 2021; Smith, 2020) and separated by semicolons. The student's order (Smith, Gupta, Sharma) violates alphabetical sequencing. A wrong answer reveals the student treats citation as a mechanical \"include the names\" task rather than a rule-governed system with specific ordering conventions that examiners verify.",
+     "self_check": true
+    },
+    {
+     "q": "You are writing the Methodology section for a project on \"Use of Public Space in Your Neighbourhood\" using observation and interviews. Draft a 150-word Methodology subsection that specifies: research design, sampling technique, sample size, data collection tools, and ethical considerations — all appropriate for a Class 12 project.",
+     "a": "A correct response includes: (1) Research design: \"Qualitative exploratory design using non-participant observation and semi-structured interviews.\" (2) Sampling: \"Purposive sampling of 3 public spaces (park, market, bus stop) and 15 respondents (5 per space) selected for diversity in age, gender, and occupation.\" (3) Tools: \"Observation schedule with behavioural categories; interview guide with 10 open-ended questions.\" (4) Ethics: \"Informed verbal consent obtained; anonymity maintained using pseudonyms; right to withdraw explained.\" A wrong answer that omits sampling rationale, uses \"random sampling\" incorrectly for qualitative work, or neglects ethics reveals confusion between quantitative survey methodology (learned in Class 11) and qualitative project requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the purpose and content of the \"Literature Review\" section versus the \"Analysis and Interpretation\" section in a sociology project report. Why can they not be merged?",
+     "a": "Literature Review synthesizes existing scholarly knowledge on the topic (what others have found), identifies gaps, and positions your research question. Analysis and Interpretation presents YOUR original findings from YOUR data, connects them to your research question, and discusses patterns using sociological concepts. Merging them conflates secondary sources with primary data — a fundamental category error. A student who merges them typically cannot distinguish between \"what Durkheim said about anomie\" and \"what my respondents revealed about workplace alienation,\" leading to a report that lacks analytical depth and appears derivative.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this bibliography entry for a Class 12 project: \"NCERT. (2023). Indian Society: Textbook for Class XII. New Delhi: NCERT.\" Identify all APA 7th edition errors and provide the corrected version.",
+     "a": "Errors: (1) Author should be \"NCERT\" as corporate author — correct. (2) Year: NCERT textbooks don't have a single publication year; use \"n.d.\" or the specific edition year. (3) Title: Only first word and proper nouns capitalized — \"Indian society: Textbook for class XII\" (sentence case). (4) Publisher location \"New Delhi\" is no longer required in APA 7th. (5) Publisher name \"NCERT\" repeated — omit if same as author. Corrected: NCERT. (n.d.). *Indian society: Textbook for class XII*. https://ncert.nic.in/textbook.php (if accessed online) or NCERT. (2023). *Indian society: Textbook for class XII*. NCERT. A student missing these shows they are applying outdated APA 6th rules or guessing formatting — both cost board marks.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-page \"Appendix\" sample for a project on \"Household Appliances and Domestic Work\" that includes: (a) a cleaned interview transcript excerpt (3 exchanges), (b) an observation schedule with 5 behavioural categories, and (c) a reflexivity note (50 words). Label each component clearly.",
+     "a": "A strong answer provides three clearly labeled components: **Appendix A: Interview Transcript Excerpt (Respondent R3, 45-year-old homemaker)** with Q-A format showing probing; **Appendix B: Observation Schedule — Kitchen Appliance Use** with categories (e.g., \"Appliance operated by\", \"Duration of use\", \"Assistance sought\", \"Multitasking observed\", \"Emotional tone\"); **Appendix C: Reflexivity Note** acknowledging researcher's gender/class position influencing rapport. A poor answer merges components, uses raw unedited transcript, omits behavioural categories, or writes a generic \"I tried to be objective\" reflexivity — revealing they treat appendices as dumping grounds rather than curated evidence of methodological rigour.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Writing the project report is the final stage of sociological research where the researcher ______ organizes and presents the entire research process — from research question and methodology to data analysis, findings, and conclusions — in a structured academic document that follows standardized conventions of citation, referencing, and presentation to ensure credibility, replicability, and scholarly communication.",
+     "a": "systematically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have spent weeks conducting interviews about \"Changing Aspirations of School Children\" (a suggested NCERT topic), ______ 20 hours of recordings, and coded your data — now you face a blank document.",
+     "a": "transcribed",
+     "self_check": true
+    },
+    {
+     "q": "What is Writing the project report? State the definition given in this lesson.",
+     "a": "Writing the project report is the final stage of sociological research where the researcher systematically organizes and presents the entire research process — from research question and methodology to data analysis, findings, and conclusions — in a structured academic document that follows standardized conventions of citation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have spent weeks conducting interviews about \"Changing Aspirations of School Children\" (a suggested NCERT topic), transcribed ______ hours of recordings, and coded your data — now you face a blank document.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Writing the project report?",
+     "a": "Students believe the project report is just \"writing up what I did\" — a chronological diary of fieldwork activities.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently structure a complete sociological project report with all mandatory sections (title page, declaration, acknowledgements, contents, introduction, literature review, methodology, data presentation, analysis, conclusion, bibliography, appendices), apply a consistent citation style (APA 7th edition).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

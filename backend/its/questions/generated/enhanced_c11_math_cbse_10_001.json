@@ -34,6 +34,21 @@
      "q": "Create a real-life situation (Indian context) where locating a point using two coordinates is essential. Define your axes, origin, and scale, then give the coordinates of three important locations in your scenario.",
      "a": "Example: A school ground with the flagpole as origin. x-axis points East, y-axis points North. Scale: 1 unit = 10 m. Library at (30, 20) means 300 m East, 200 m North. Canteen at (−15, 10). Playground at (0, −40). A good answer defines axes clearly, uses consistent scale, and gives coordinates with correct signs. A poor answer uses vague directions, mixes up axes, or gives coordinates that don't match the described positions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In the Cartesian ______ system, a point is uniquely identified by an ordered pair (x, y) where x (the abscissa) is the signed perpendicular distance from the y-axis, and y (the ordinate) is the signed perpendicular distance from the x-axis.",
+     "a": "coordinate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are sitting in a cinema hall where seats are ______ by row number (distance from the screen) and seat number (distance from the left aisle).",
+     "a": "identified",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly write the coordinates of any point given its position, determine the quadrant or axis on which a point lies from its coordinates, and explain why the order (x, y) matters.",
+     "self_check": true
     }
    ]
   }

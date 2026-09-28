@@ -22,7 +22,7 @@
     },
     {
      "q": "Compare the two sentences: (a) \"I am a thief and a murderer\" and (b) \"The bud opens\". For each, state the verb class, the complement (if any), and the complement category. Then explain why the verb in (a) cannot be intransitive in the same way as (b).",
-     "a": "(a) \"am\" = linking verb (copula); complement = \"a thief and a murderer\" (noun phrase); category = **subject complement (noun phrase)** — it renames the subject \"I\".  \n(b) \"opens\" = intransitive verb; complement = none (or optional adverbial like \"in spring\" — not present); category = **N/A**.  \n**Why different:** \"am\" establishes an identity/equivalence (I = thief/murderer); \"opens\" describes an action the bud performs independently. \"Am\" requires a complement to complete the meaning; \"opens\" is complete alone.  \n**Wrong answer reveals:** If the student calls \"am\" intransitive with a noun phrase complement, they conflate the two classes. If they say \"opens\" has a subject complement, they misunderstand that intransitive action verbs don't take subject complements.",
+     "a": "(a) \"am\" = linking verb (copula); complement = \"a thief and a murderer\" (noun phrase); category = **subject complement (noun phrase)** — it renames the subject \"I\".  \n(b) \"opens\" = intransitive verb; complement = N/A (or optional adverbial like \"in spring\" — not present); category = **N/A**.  \n**Why different:** \"am\" establishes an identity/equivalence (I = thief/murderer); \"opens\" describes an action the bud performs independently. \"Am\" requires a complement to complete the meaning; \"opens\" is complete alone.  \n**Wrong answer reveals:** If the student calls \"am\" intransitive with a noun phrase complement, they conflate the two classes. If they say \"opens\" has a subject complement, they misunderstand that intransitive action verbs don't take subject complements.",
      "self_check": true
     },
     {
@@ -33,6 +33,21 @@
     {
      "q": "Create two original sentences that imitate Lawrence's style in the essay:  \n(1) One with an intransitive verb + adverbial complement (prepositional phrase).  \n(2) One with a linking verb + noun phrase subject complement.  \nUse abstract nouns (like \"integrity\", \"inertia\", \"revelation\") as subjects, reflecting the essay's philosophical tone.",
      "a": "**Expected answer criteria:**  \n(1) Example: \"Integrity slips through the fingers of the rigid.\" → Verb \"slips\" (intransitive), complement \"through the fingers of the rigid\" (prepositional phrase, adverbial).  \n(2) Example: \"Inertia becomes a prison without walls.\" → Verb \"becomes\" (linking), complement \"a prison without walls\" (noun phrase, subject complement).  \n**Poor answer reveals:** If the student uses transitive verbs (\"Integrity builds character\"), linking verbs with adjective complements only (\"Inertia feels heavy\"), or fails to use abstract nouns, they haven't internalized the verb-class distinction or the essay's register.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This node covers the ______ analysis of verb classes in D.H.",
+     "a": "grammatical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're reading the sentence \"The ______ creeps from a brown rock on to a green leaf\" and wonder why \"creeps\" doesn't have an object like \"eats\" does.",
+     "a": "chameleon",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently identify the verb class (intransitive vs. linking) in any sentence from the essay, correctly categorize the following phrase as an adverbial complement or a subject complement (noun phrase/adjective phrase), and explain why the verb belongs to that class using grammatical evidence from the sentence structure.",
      "self_check": true
     }
    ]

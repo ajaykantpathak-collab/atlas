@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a ball (Earth), a lamp (Sun), and a protractor to demonstrate why the Arctic Circle experiences 24-hour daylight on the June solstice. List materials, steps, and the key observation.",
      "a": "Materials: Globe/ball with marked axis and latitude lines, lamp, protractor, dark room. Steps: 1) Tilt ball axis 23.5° from vertical. 2) Place lamp at distance. 3) Position ball so Northern Hemisphere tilts toward lamp (June solstice). 4) Rotate ball on axis. 5) Observe the Arctic Circle (66.5° N) — it remains in light throughout full rotation. Key observation: The terminator (shadow line) does not cross the Arctic Circle because the tilt directs the pole toward the light source. A poor answer (e.g., no tilt, or observing equator) reveals inability to connect axial tilt geometry to the circle of illumination's latitude-dependent behavior.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Earth's rotation is its spin on an axis tilted at 23.5° relative to its orbital plane, completing one turn in ______ 23 hours 56 minutes (sidereal day), causing the cyclic alternation of daylight and darkness.",
+     "a": "approximately",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan ______: the blades move but the center stays fixed.",
+     "a": "rotating",
+     "self_check": true
+    },
+    {
+     "q": "What is Earth's rotation? State the definition given in this lesson.",
+     "a": "Earth's rotation is its spin on an axis tilted at 23.5° relative to its orbital plane, completing one turn in approximately 23 hours 56 minutes (sidereal day), causing the cyclic alternation of daylight and darkness.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Earth's rotation?",
+     "a": "Students often think the Earth's elliptical orbit causes seasons: \"Earth is closer to the Sun in summer, farther in winter.\" They cite perihelion (early January) as summer for the Northern Hemisphere, but January is winter there.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why the Sun appears to move across the sky using a model of Earth's west-to-east rotation, and can predict which hemisphere experiences summer/winter on a given date by analyzing the orientation of Earth's tilted axis relative to the Sun during revolution.",
+     "self_check": true
     }
    ]
   }

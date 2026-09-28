@@ -34,6 +34,36 @@
      "q": "Design a transformation protocol for a plant cell line that has a rigid cell wall and is not amenable to *Agrobacterium* infection. Specify the method, key parameters (e.g., particle size, pressure, target tissue), and two critical controls needed to validate the experiment.",
      "a": "Use biolistics (particle bombardment). Key parameters: 0.6–1.0 µm gold/tungsten particles coated with plasmid DNA (precipitated with CaCl₂/spermidine), helium pressure 1100–1500 psi, target tissue: embryogenic callus or immature embryos placed at optimal distance (6–9 cm) from the stopping screen. Critical controls: (1) Bombardment with empty vector (no insert) to check for background expression/selection escape; (2) Non-bombarded tissue on selection medium to confirm antibiotic/herbicide stringency. A poor answer that omits particle size, pressure, or controls shows the student cannot create a complete experimental design, a skill tested in board case-study questions and NEET application problems.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the process by which a host cell (typically bacterial) takes up exogenous recombinant DNA (rDNA) from its environment, enabling the propagation and expression of the inserted gene.",
+     "a": "Transformation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just ligated your gene of interest into a ______ vector (as learned in the DNA ligase node).",
+     "a": "plasmid",
+     "self_check": true
+    },
+    {
+     "q": "What is Transformation? State the definition given in this lesson.",
+     "a": "Transformation is the process by which a host cell (typically bacterial) takes up exogenous recombinant DNA (rDNA) from its environment, enabling the propagation and expression of the inserted gene.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The classic method uses cold CaCl₂ to neutralize charge repulsion between DNA and the membrane, followed by a sudden ______°C heat shock that creates a thermal gradient driving DNA into the cell.",
+     "a": "42",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Transformation?",
+     "a": "Students often believe that *all* bacteria are naturally competent and that transformation efficiency depends only on the amount of DNA added.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) list and explain the principle of at least three transformation methods (chemical, electroporation, biolistics, microinjection), (2) identify factors that affect transformation efficiency, and (3) calculate transformation efficiency from experimental data using the standard formula.",
+     "self_check": true
     }
    ]
   }

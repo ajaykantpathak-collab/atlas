@@ -34,6 +34,26 @@
      "q": "Create a decimal multiplication problem using a power of 10 where the answer becomes a whole number, and explain why the decimal point disappears.",
      "a": "An example is $4.25 \\times 100 = 425$. The decimal point disappears because shifting it two places to the right places it immediately after the last digit (5), meaning there are no remaining decimal parts, turning the decimal into a whole number. A poor answer would use a power of 10 too small (like 10), resulting in $42.5$, which still contains a decimal part, failing to demonstrate the condition where the decimal point is eliminated.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Multiplying a decimal number by 10, 100, or 1000 shifts the decimal point to the right by 1, 2, or 3 places ______, while dividing by 10, 100, or 1000 shifts the decimal point to the left by 1, 2, or 3 places.",
+     "a": "respectively",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at the vegetable market buying tomatoes, and the shopkeeper tells you that 1 kg costs ₹45.85, but if you buy a bundle of 10 kg, the ______ changes.",
+     "a": "calculation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: We already know from studying decimals that moving a digit one place to the left makes it ______ times larger.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can quickly multiply and divide any given decimal number by powers of 10 (10, 100, 1000, etc.) by shifting the decimal point correctly without performing traditional long multiplication or division, handling cases where place-holding zeros must be added.",
+     "self_check": true
     }
    ]
   }

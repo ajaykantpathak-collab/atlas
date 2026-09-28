@@ -34,6 +34,21 @@
      "q": "Create a real-life word problem involving litres of milk where the solution requires multiplying a proper fraction by a whole number, and provide the solved answer.",
      "a": "A good problem: \"A family consumes $\\frac{3}{4}$ litres of milk every day. How many litres of milk do they consume in 5 days?\" Solution: $5 \\times \\frac{3}{4} = \\frac{15}{4} = 3\\frac{3}{4}$ litres. A poor answer uses incorrect units or sets up a division instead of multiplication, showing confusion about scaling a fractional daily amount over multiple days.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Multiplying a fraction by a whole number means finding a repeated sum or a fractional part of that whole number, calculated by multiplying the whole number by the numerator and keeping the ______ the same.",
+     "a": "denominator",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Connect this to what you learned in Class 6 about addition of like ______.",
+     "a": "fractions",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can successfully multiply any proper, improper, or mixed fraction by a positive whole number, simplify the resulting fraction to its lowest terms, and interpret the product in real-world contexts involving units such as kilograms, litres, or rupees.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a climate-resilient cropping calendar for a smallholder in semi-arid Maharashtra (500 mm rain, June–Sept, no irrigation) that maximizes food security and minimizes risk. Specify crops, varieties, and contingency plans.",
      "a": "Kharif: Pearl millet (drought-tolerant, 70-day variety) + pigeonpea intercrop (deep roots). Rabi: Chickpea (on residual moisture, short-duration). Zaid: None (no water). Contingency: If monsoon delayed >2 weeks, switch to sorghum + cluster bean; if early withdrawal, harvest millet for fodder. Good answer integrates risk management, not just crop listing. Poor answer ignores contingency or suggests water-intensive crops.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cropping pattern refers to the yearly sequence and spatial arrangement of crops cultivated on a given piece of land, determined by the interplay of monsoon onset/withdrawal, temperature regimes, photoperiod sensitivity, and soil moisture ______.",
+     "a": "availability",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a farmer in Punjab planting rice in June (______ water in fields) and wheat in November (dry, cool soil).",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What is Cropping pattern? State the definition given in this lesson.",
+     "a": "Cropping pattern refers to the yearly sequence and spatial arrangement of crops cultivated on a given piece of land, determined by the interplay of monsoon onset/withdrawal, temperature regimes, photoperiod sensitivity, and soil moisture availability.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Cropping pattern?",
+     "a": "Students think Kharif = \"rainy season crops\" and Rabi = \"winter crops\" as fixed calendar dates (e.g., Kharif always June–October).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) classify any major Indian crop into its correct season using temperature, rainfall, and photoperiod criteria; (2) explain why the same crop (e.g., maize) can be grown in multiple seasons in different regions; (3) predict cropping pattern shifts if monsoon onset is delayed by 15 days or winter temperatures rise by 2°C.",
+     "self_check": true
     }
    ]
   }

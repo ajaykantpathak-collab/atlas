@@ -34,6 +34,21 @@
      "q": "Create a single transaction that involves all three types of accounts (Personal, Real, Nominal) and write the compound journal entry using traditional rules.",
      "a": "Example: \"Paid ₹15,000 by cheque to landlord for rent, including ₹2,000 for outstanding rent of last month.\" Accounts: Rent A/c (Nominal – expense) Dr. ₹13,000; Outstanding Rent A/c (Personal – giver) Dr. ₹2,000; To Bank A/c (Personal – giver) Cr. ₹15,000. A poor answer would omit one category or misclassify Outstanding Rent as Nominal.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The traditional ______ approach categorizes all accounts into three types—Personal, Real, and Nominal—and applies specific debit/credit rules: Personal – Debit the receiver, Credit the giver; Real – Debit what comes in, Credit what goes out; Nominal – Debit all expenses and losses, Credit all incomes and gains.",
+     "a": "classification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your uncle record ______ for his kirana store.",
+     "a": "transactions",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) correctly classify any given account as Personal, Real, or Nominal, and (2) apply the corresponding traditional debit/credit rule to determine which account to debit and which to credit for a transaction, without relying on the modern accounting equation approach.",
+     "self_check": true
     }
    ]
   }

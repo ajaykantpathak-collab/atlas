@@ -22,15 +22,33 @@
     "form a pair of equations for the given situation and solve graphically",
     "identify the point of intersection of the two given lines"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "draw both lines",
-     "explain": "Plot at least two points of each equation and join them."},
-    {"step": 2, "action": "locate the meeting",
-     "explain": "The intersection point, if any, is the common solution."},
-    {"step": 3, "action": "classify the pair",
-     "explain": "Parallel lines mean no solution; coincident lines mean infinitely many."}
-   ]
+    {
+     "step": 1,
+     "action": "draw both lines",
+     "explain": "Plot at least two points of each equation and join them."
+    },
+    {
+     "step": 2,
+     "action": "locate the meeting",
+     "explain": "The intersection point, if any, is the common solution."
+    },
+    {
+     "step": 3,
+     "action": "classify the pair",
+     "explain": "Parallel lines mean no solution; coincident lines mean infinitely many."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (77 - 11) / 6 gives 11",
+     "compute": "x = (77 - 11) / 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.103.3.2",
@@ -50,12 +68,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "form the first ratio",
+    {
+     "step": 1,
+     "action": "form the first ratio",
      "explain": "Divide the x-coefficients.",
-     "compute": "ratio_a = a1 / a2"},
-    {"step": 2, "action": "form the second ratio",
+     "compute": "ratio_a = a1 / a2"
+    },
+    {
+     "step": 2,
+     "action": "form the second ratio",
      "explain": "Divide the y-coefficients.",
-     "compute": "ratio_b = b1 / b2"}
+     "compute": "ratio_b = b1 / b2"
+    }
    ]
   },
   {
@@ -74,15 +98,33 @@
     "solve the pair and verify by substituting in both equations",
     "use substitution to solve the given word problem pair"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "express one variable",
-     "explain": "Write x or y in terms of the other from the simpler equation."},
-    {"step": 2, "action": "substitute into the other equation",
-     "explain": "This gives one linear equation in a single variable."},
-    {"step": 3, "action": "solve and back-substitute",
-     "explain": "Find the first variable, then recover the second; the answer is the pair (x, y)."}
-   ]
+    {
+     "step": 1,
+     "action": "express one variable",
+     "explain": "Write x or y in terms of the other from the simpler equation."
+    },
+    {
+     "step": 2,
+     "action": "substitute into the other equation",
+     "explain": "This gives one linear equation in a single variable."
+    },
+    {
+     "step": 3,
+     "action": "solve and back-substitute",
+     "explain": "Find the first variable, then recover the second; the answer is the pair (x, y)."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (19 - 4) / 5 gives 3",
+     "compute": "x = (19 - 4) / 5"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.103.3.4",
@@ -100,15 +142,33 @@
     "solve the pair and check the solution in both equations",
     "choose between substitution and elimination for the given pair - justify"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "match the coefficients",
-     "explain": "Multiply the equations so one variable gets opposite equal coefficients."},
-    {"step": 2, "action": "eliminate and solve",
-     "explain": "Add the equations to remove that variable and solve the survivor."},
-    {"step": 3, "action": "back-substitute",
-     "explain": "Substitute back to obtain the other variable and the solution pair."}
-   ]
+    {
+     "step": 1,
+     "action": "match the coefficients",
+     "explain": "Multiply the equations so one variable gets opposite equal coefficients."
+    },
+    {
+     "step": 2,
+     "action": "eliminate and solve",
+     "explain": "Add the equations to remove that variable and solve the survivor."
+    },
+    {
+     "step": 3,
+     "action": "back-substitute",
+     "explain": "Substitute back to obtain the other variable and the solution pair."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (67 - 12) / 5 gives 11",
+     "compute": "x = (67 - 12) / 5"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -125,12 +185,18 @@
     "b2": "y-coefficient of the second equation"
    },
    "solution_template": [
-    {"step": 1, "action": "divide the x-coefficients",
+    {
+     "step": 1,
+     "action": "divide the x-coefficients",
      "explain": "First comparison ratio.",
-     "compute": "ratio_a = a1 / a2"},
-    {"step": 2, "action": "divide the y-coefficients",
+     "compute": "ratio_a = a1 / a2"
+    },
+    {
+     "step": 2,
+     "action": "divide the y-coefficients",
      "explain": "Compare with the first ratio to classify the pair.",
-     "compute": "ratio_b = b1 / b2"}
+     "compute": "ratio_b = b1 / b2"
+    }
    ]
   },
   {
@@ -146,12 +212,18 @@
     "b2": "second equation y-coefficient"
    },
    "solution_template": [
-    {"step": 1, "action": "form the x ratio",
+    {
+     "step": 1,
+     "action": "form the x ratio",
      "explain": "a1 over a2.",
-     "compute": "ratio_a = a1 / a2"},
-    {"step": 2, "action": "form the y ratio",
+     "compute": "ratio_a = a1 / a2"
+    },
+    {
+     "step": 2,
+     "action": "form the y ratio",
      "explain": "Equal ratios point to parallel or coincident lines.",
-     "compute": "ratio_b = b1 / b2"}
+     "compute": "ratio_b = b1 / b2"
+    }
    ]
   }
  ],
@@ -160,17 +232,17 @@
    "id": "ex3.1",
    "source_ref": "jemh103.txt EXERCISE 3.1-3.3",
    "questions": [
-     "Form the pair of linear equations for the given situations and solve graphically.",
-     "On comparing the ratios find whether the given pairs are consistent or inconsistent.",
-     "Solve the given pairs by substitution and by elimination."
+    "Form the pair of linear equations for the given situations and solve graphically.",
+    "On comparing the ratios find whether the given pairs are consistent or inconsistent.",
+    "Solve the given pairs by substitution and by elimination."
    ]
   },
   {
    "id": "ex3.2",
    "source_ref": "jemh103.txt EXERCISE 3.4 word problems",
    "questions": [
-     "The sum of two numbers is given with their difference - find the numbers.",
-     "Solve the fraction and age word problems using pairs of equations."
+    "The sum of two numbers is given with their difference - find the numbers.",
+    "Solve the fraction and age word problems using pairs of equations."
    ]
   }
  ]

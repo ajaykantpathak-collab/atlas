@@ -34,6 +34,26 @@
      "q": "Create a research scenario where a quasi-experiment is the ONLY feasible design. Explain why laboratory and field experiments are impossible or unethical in this case.",
      "a": "Scenario: Studying the effect of parental divorce on adolescent self-esteem. Quasi-experiment: Compare adolescents from divorced families (experimental group) with matched adolescents from intact families (control group). Laboratory experiment impossible: Cannot ethically assign children to divorce. Field experiment impossible: Cannot manipulate divorce in real life. A poor answer that suggests \"just observe them\" describes correlational research, not quasi-experiment. A poor answer that chooses a topic like \"effect of sleep on memory\" ignores that sleep can be manipulated in lab/field.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ method is a systematic research procedure in which an investigator manipulates an independent variable (IV) to observe its effect on a dependent variable (DV) while controlling extraneous variables through random assignment, control groups, and standardized conditions to establish a cause-effect relationship.",
+     "a": "experimental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to test if drinking tulsi (holy basil) tea before exams ______ anxiety.",
+     "a": "reduces",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) correctly identify IV, DV, control group, and experimental group in a novel research scenario, (2) explain why random assignment and control techniques (matching, counterbalancing, elimination) are necessary for internal validity, and (3) distinguish between laboratory experiments, field experiments, and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to test if ______ tulsi (holy basil) tea before exams reduces anxiety.",
+     "a": "drinking",
+     "self_check": true
     }
    ]
   }

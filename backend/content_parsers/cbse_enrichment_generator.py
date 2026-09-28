@@ -1,3 +1,4 @@
+import os
 """
 CBSE Enrichment Generator — generates .marker enrichment files for CBSE C6-12 nodes.
 
@@ -26,7 +27,7 @@ from pathlib import Path
 from collections import defaultdict
 
 # ─── Config (key 1 only, 10 workers) ───
-API_KEY = "sk-ant-co-gIEUzRWw_mtUpxKk668B1lzJe3XntCna"  # key 1
+API_KEY = os.environ.get('ANTHROPIC_API_KEY') or ''  # key 1
 API_URL = "https://api.claudeopus.pro/v1/messages"
 MODEL = "claude-opus-5"
 MAX_TOKENS = 128000

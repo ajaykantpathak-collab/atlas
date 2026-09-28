@@ -22,7 +22,7 @@
     },
     {
      "q": "Compare the balancing approach for these two reactions: (i) Na(s) + Cl₂(g) → NaCl(s) and (ii) P₄(s) + Cl₂(g) → PCl₃(l). Which reaction requires balancing the diatomic element first? Justify your answer by analyzing the element inventory.",
-     "a": "Reaction (ii) requires balancing the diatomic element (Cl₂) first. In (i), Na and Cl₂ both appear once; we balance Cl by putting 2 before NaCl, then 2 before Na. In (ii), P₄ has 4 P atoms, so we put 4 before PCl₃, giving 12 Cl on right. Then we balance Cl₂ by putting 6 before it. If a student starts with P₄ in (i) or Cl₂ in (ii) without checking which element appears in multiple compounds, they create fractional coefficients or dead ends. Wrong answer reveals inability to strategize — they follow a rigid \"left to right\" rule instead of analyzing the equation structure.",
+     "a": "(1) Reaction two needs the diatomic element balanced first — 4 goes before PCl3 and then 6 goes before Cl2 so the 12 chlorine atoms match, (2) Reaction one is direct — Na and Cl2 each appear once, so 2 before NaCl and 2 before Na finishes it, (3) Strategy — start with the element that appears in several compounds or inside a diatomic molecule instead of working rigidly left to right. A student who starts with P4 in reaction one or leaves Cl2 last in reaction two without checking the element inventory creates fractional coefficients or dead ends, revealing inability to strategize.",
      "self_check": true
     },
     {
@@ -33,6 +33,26 @@
     {
      "q": "Design a 3-step experimental procedure to prove that the reaction between iron nails and copper sulphate solution follows the balanced equation: Fe(s) + CuSO₄(aq) → FeSO₄(aq) + Cu(s). Your procedure must include how to verify the stoichiometric ratio 1:1:1:1.",
      "a": "Good answer: Step 1: Weigh a clean iron nail (mass m₁). Step 2: Immerse in 50 mL of 0.1 M CuSO₄ solution until reaction stops (blue colour fades, reddish Cu deposits). Step 3: Remove nail, wash, dry, weigh again (mass m₂). Mass loss = m₁ - m₂ = mass of Fe reacted. Filter and dry the Cu deposit, weigh (mass m₃). Calculate moles: n(Fe) = (m₁-m₂)/56, n(Cu) = m₃/63.5. If n(Fe) ≈ n(Cu), 1:1 ratio verified. Poor answer: \"Observe colour change\" — reveals inability to connect symbolic equation to quantitative experimental verification, a key competency in CBSE practical assessment.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A chemical equation is a symbolic ______ of a chemical reaction where reactants (starting substances) are written on the left side and products (new substances formed) on the right side, separated by an arrow (→), with physical states indicated in parentheses.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a magnesium ribbon burning in air — it produces a blinding white light and leaves a white ash (magnesium oxide).",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently convert a word equation into a correct skeleton equation with proper chemical formulas and physical states, then balance it by inspection using the \"element-by-element\" strategy, and verify atom counts on both sides for combination, decomposition, displacement, and double displacement reactions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a magnesium ribbon burning in air — it ______ a blinding white light and leaves a white ash (magnesium oxide).",
+     "a": "produces",
      "self_check": true
     }
    ]

@@ -34,6 +34,26 @@
      "q": "Construct a brief policy brief (4-5 bullet points) for a state finance minister arguing why increasing per-student expenditure in elementary education should be prioritized over expanding higher education seats, using the textbook's argument about teacher supply and inter-state equity.",
      "a": "A strong brief would include: (1) Elementary education takes the major share of total expenditure but per-student spending is lowest there. (2) Expanding school enrolment requires more trained teachers, who are produced by higher education — so both levels need funding, not substitution. (3) Inter-state disparity (₹10,710 in Bihar vs ₹96,968 in Sikkim) violates equity and undermines national human capital. (4) Low elementary spending yields high dropout → child labour → permanent human capital loss (Fig 4.6). (5) Quality at foundation determines later productivity; weak base makes higher education spending inefficient. A poor answer focuses only on \"more schools\" without linking teacher pipeline, equity, or the dropout-child labour nexus.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The education sector in India encompasses the system of public and private ______, policies, and expenditures aimed at building human capital through formal schooling and higher education; its achievements are measured by literacy rates, enrolment ratios, and completion rates, while its problems include inadequate public spending (below the 6% of GDP benchmark), stark inter-state disparities in per-student expenditure, high dropout rates leading to child labour, and rising unemployment among educated youth due to skill mismatches.",
+     "a": "institutions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a policy analyst comparing two Indian states: Bihar (per capita elementary education ______ ₹10,710) and Sikkim (₹96,968) in 2020-21.",
+     "a": "expenditure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The education sector in India encompasses the system of public and private institutions, policies, and expenditures aimed at building human capital through formal schooling and higher education; its achievements are measured by literacy rates, enrolment ratios, and completion rates, while its problems include inadequate public spending (below the ______% of GDP benchmark), stark inter-state disparities in per-student expenditure, high dropout rates leading to child labour, and rising unemployment among educated youth due to skill mismatches.",
+     "a": "6",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can interpret time-series data on education expenditure (% of GDP, % of total government expenditure) and educational attainment indicators (adult/youth literacy, primary completion) to evaluate whether India's education sector is meeting human capital formation goals, and can explain the linkage between low per-student spending.",
+     "self_check": true
     }
    ]
   }

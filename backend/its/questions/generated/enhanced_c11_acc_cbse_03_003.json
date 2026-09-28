@@ -34,6 +34,26 @@
      "q": "Create a single transaction that simultaneously increases Assets by ₹30,000, increases Liabilities by ₹20,000, and increases Capital by ₹10,000. Describe the transaction in business terms.",
      "a": "Example: \"Purchased a delivery van for ₹30,000, paying ₹20,000 cash and signing a ₹10,000 note payable; the van's fair value is ₹30,000 but the seller gave a ₹10,000 discount as goodwill.\" Effect: Van ↑₹30,000 (Asset), Cash ↓₹20,000 (Asset), Note Payable ↑₹20,000 (Liability) — wait, that doesn't match. Better: \"Started business with ₹10,000 cash and ₹20,000 loan from bank, then purchased machinery for ₹30,000 cash.\" Combined: Cash +₹10,000 (capital) +₹20,000 (loan) −₹30,000 (machinery) = 0; Machinery +₹30,000; Loan +₹20,000; Capital +₹10,000. Net: Assets +₹30,000, Liabilities +₹20,000, Capital +₹10,000. A poor answer shows inability to compose multi-element transactions or confusion about simultaneous changes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The accounting equation (A = L + C) expresses the ______ duality that every business transaction affects at least two elements — Assets, Liabilities, or Capital — such that total resources (Assets) always equal total claims (Liabilities + Capital).",
+     "a": "fundamental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you buy a smartphone worth ₹25,000 on ______ from a local dealer.",
+     "a": "credit",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently analyze any business transaction, identify which accounts are affected, classify them as Asset/Liability/Capital, determine the direction of change (increase/decrease), and prove that the accounting equation remains balanced by constructing a transaction analysis table.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you buy a ______ worth ₹25,000 on credit from a local dealer.",
+     "a": "smartphone",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a minimal synthetic transcription unit for high-level expression of a toxic protein in E. coli that can be tightly induced. Specify: promoter type, operator placement, terminator choice, and one genetic element to prevent basal transcription. Explain how each choice contributes to tight regulation.",
      "a": "Strong answer: (1) Promoter: T7 promoter (recognized only by T7 RNAP, not E. coli RNAP) - eliminates host basal transcription. (2) Operator: LacO placed between -10 and +1 of T7 promoter - allows LacI repression of T7 RNAP binding. (3) Terminator: Strong rho-independent terminator (e.g., T7Te or rrnB T1) - prevents read-through into vector backbone. (4) Anti-basal element: LacIq allele (high-copy lacI) on same plasmid - ensures excess repressor for tight LacO occupancy. Each choice addresses a specific leakage pathway: T7 promoter removes host polymerase recognition; LacO blocks T7 RNAP access; strong terminator prevents transcriptional read-through; LacIq ensures repressor saturation. A poor answer using native E. coli promoter (e.g., lacUV5) with just LacO reveals failure to understand that host RNAP still initiates at low frequency even with repressor bound. A poor answer omitting terminator choice reveals ignorance of transcriptional interference.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the enzyme-catalysed synthesis of a complementary RNA strand using a DNA template strand, proceeding in the 5'→3' direction through three sequential stages: initiation (promoter recognition and open complex formation), elongation (processive nucleotide addition to the 3'-OH of the growing RNA chain), and termination (release of RNA transcript and polymerase from the DNA template).",
+     "a": "Transcription",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To identify the suspect, you need to amplify the genetic ______ - but DNA polymerase requires a primer and copies the whole genome.",
+     "a": "information",
+     "self_check": true
+    },
+    {
+     "q": "What is Transcription? State the definition given in this lesson.",
+     "a": "Transcription is the enzyme-catalysed synthesis of a complementary RNA strand using a DNA template strand, proceeding in the 5'→3' direction through three sequential stages: initiation (promoter recognition and open complex formation), elongation (processive nucleotide addition to the 3'-OH of the growing RNA chain), and termination.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Transcription?",
+     "a": "Students believe \"the coding strand is the template for transcription because it has the same sequence as mRNA (except T/U).\" This error arises from the name \"coding strand\" and the visual similarity to mRNA.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) distinguish template vs coding strand and predict the exact mRNA sequence from a given DNA segment including 5'/3' polarity, (2) explain the mechanistic differences in initiation complexes between prokaryotes (sigma factor) and eukaryotes (general transcription factors + TATA box), and (3) compare.",
+     "self_check": true
     }
    ]
   }

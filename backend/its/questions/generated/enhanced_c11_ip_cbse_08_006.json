@@ -34,6 +34,26 @@
      "q": "Design a new real-world scenario (different from electricity consumption) where you would need to plot three data series on one chart, customize all elements (labels, title, legend), and save the figure. Describe the dataset, the chart type, and the exact customization choices you would make (including units in labels).",
      "a": "Example: Compare the monthly average temperature (°C) of three cities (Delhi, Mumbai, Chennai) over a year using a line chart. Dataset: months 1-12, three temperature lists. Customization: `xlabel('Month')`, `ylabel('Temperature (°C)')`, `title('Monthly Average Temperature Comparison - 2023')`, each `plot()` with `label='City Name'`, `legend(loc='upper right')`, `savefig('temp_comparison.png', dpi=300)`. A poor answer lacks units in labels, omits legend location, or chooses an inappropriate chart type (e.g., pie chart for time series).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Customising charts in Matplotlib involves adding descriptive elements (xlabel, ylabel, title, legend) to make plots self-explanatory and using savefig to export the figure as an image file (e.g., PNG, PDF) for reports or ______.",
+     "a": "presentations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have plotted the monthly ______ consumption (in kWh) for two households over a year using a line chart.",
+     "a": "electricity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Finally, you save the polished chart as a high-resolution PNG using plt.savefig('consumption.png', dpi=______) so it can be inserted into a project report.",
+     "a": "300",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently write a complete Matplotlib script that: (1) plots multiple data series on the same figure, (2) adds appropriate axis labels with units, (3) sets a descriptive title, (4) includes a legend that correctly identifies each series, and (5) saves the figure to a specified file format with a given resolution (dpi).",
+     "self_check": true
     }
    ]
   }

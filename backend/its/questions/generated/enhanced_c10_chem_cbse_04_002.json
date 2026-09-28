@@ -34,6 +34,31 @@
      "q": "Design a simple activity using matchsticks (for bonds) and clay balls of two colours (carbon = black, hydrogen = white) to demonstrate both tetravalency and catenation. List the steps and the key observation a student must record to prove each property.",
      "a": "Activity: \n1. Make a methane model: 1 black ball (C) with 4 matchsticks connected to 4 white balls (H). Observation: Carbon uses all 4 matchsticks → tetravalency.\n2. Make ethane: Join two black balls with 1 matchstick (C–C). Add 3 white balls to each black ball. Observation: Each carbon still has 4 matchsticks total (1 C–C + 3 C–H) → tetravalency maintained; C–C bond formed → catenation.\n3. Extend to propane, butane (chains). Then make isobutane (branched): central C connected to 3 other C + 1 H. Observation: Branching possible → catenation includes branches.\n4. Close a chain to form cyclobutane: 4 black balls in a ring, each with 2 white balls. Observation: Ring formation → catenation includes cycles; each C still has 4 bonds (2 C–C + 2 C–H).\nA poor answer only makes straight chains and says \"carbon makes long chains\" — missing branching, rings, and the explicit verification of 4 bonds per carbon in every model.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Carbon's ______ is its ability to form four covalent bonds by sharing its four valence electrons with other atoms.",
+     "a": "tetravalency",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the incredible variety of carbon-based materials around you: the petrol in vehicles, the plastic buckets in your home, the cotton clothes you wear, the medicines you take, and the food you eat (carbohydrates, proteins, fats) — all are ______ of carbon.",
+     "a": "compounds",
+     "self_check": true
+    },
+    {
+     "q": "What is Carbon's tetravalency? State the definition given in this lesson.",
+     "a": "Carbon's tetravalency is its ability to form four covalent bonds by sharing its four valence electrons with other atoms.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Carbon's tetravalency?",
+     "a": "Students believe catenation only produces straight chains.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain how tetravalency and catenation together lead to the vast diversity of carbon compounds, and can illustrate with correct structural formulas for chain, branched, and cyclic hydrocarbons satisfying the tetravalency of each carbon atom.",
+     "self_check": true
     }
    ]
   }

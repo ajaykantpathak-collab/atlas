@@ -1,0 +1,177 @@
+{
+ "catalog": "catalog_class11_chemistry_ch201.json",
+ "concepts": [
+  {
+   "id": "kech.201.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "Oxygen = 88",
+      "Hydrogen = 93",
+      "Oxidation = +Oxygen / -Hydrogen",
+      "Reduction = -Oxygen / +Hydrogen"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "Oxygen = 39",
+      "Hydrogen = 85",
+      "Oxidation = +Oxygen / -Hydrogen",
+      "Reduction = -Oxygen / +Hydrogen"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "Oxygen = 24",
+      "Hydrogen = 24",
+      "Oxidation = +Oxygen / -Hydrogen",
+      "Reduction = -Oxygen / +Hydrogen"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "Oxygen = 77",
+      "Hydrogen = 72",
+      "Oxidation = +Oxygen / -Hydrogen",
+      "Reduction = -Oxygen / +Hydrogen"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "Oxygen = 88",
+      "Hydrogen = 46",
+      "Oxidation = +Oxygen / -Hydrogen",
+      "Reduction = -Oxygen / +Hydrogen"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "Oxygen = 57",
+      "Hydrogen = 15.3",
+      "Oxidation = +Oxygen / -Hydrogen",
+      "Reduction = -Oxygen / +Hydrogen"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "Oxidation = +Oxygen / -Hydrogen",
+    "Reduction = -Oxygen / +Hydrogen"
+   ]
+  },
+  {
+   "id": "kech.201.9",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total_decrease = 11.9",
+      "total_increase = total_decrease"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total_decrease = 46",
+      "total_increase = total_decrease"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_decrease = 78",
+      "total_increase = total_decrease"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total_decrease = 14.1",
+      "total_increase = total_decrease"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "total_decrease = 18.6",
+      "total_increase = total_decrease"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total_decrease = 35",
+      "total_increase = total_decrease"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_increase = total_decrease"
+   ]
+  },
+  {
+   "id": "kech.201.11",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "E_0_cathode = 28",
+      "E_0_anode = 78",
+      "E_0_cell = E_0_cathode - E_0_anode"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "E_0_cathode = 38",
+      "E_0_anode = 57",
+      "E_0_cell = E_0_cathode - E_0_anode"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "E_0_cathode = 35",
+      "E_0_anode = 97",
+      "E_0_cell = E_0_cathode - E_0_anode"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "E_0_cathode = 41",
+      "E_0_anode = 35",
+      "E_0_cell = E_0_cathode - E_0_anode"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "E_0_cathode = 43",
+      "E_0_anode = 70",
+      "E_0_cell = E_0_cathode - E_0_anode"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "E_0_cathode = 83",
+      "E_0_anode = 17.1",
+      "E_0_cell = E_0_cathode - E_0_anode"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "E_0_cell = E_0_cathode - E_0_anode"
+   ]
+  }
+ ]
+}

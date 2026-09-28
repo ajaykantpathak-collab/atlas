@@ -24,10 +24,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "locate the carbon bonded to the halogen",
-     "explain": "every class label hangs on this one carbon"},
-    {"step": 2, "action": "read its hybridisation and its neighbours",
-     "explain": "sp3 next to C=C means allylic, sp3 next to a ring means benzylic, sp3 in a plain chain means alkyl (1, 2 or 3 degree by attached carbons), sp2 on C=C means vinylic, sp2 in a ring means aryl"}
+    {
+     "step": 1,
+     "action": "locate the carbon bonded to the halogen",
+     "explain": "every class label hangs on this one carbon"
+    },
+    {
+     "step": 2,
+     "action": "read its hybridisation and its neighbours",
+     "explain": "sp3 next to C=C means allylic, sp3 next to a ring means benzylic, sp3 in a plain chain means alkyl (1, 2 or 3 degree by attached carbons), sp2 on C=C means vinylic, sp2 in a ring means aryl"
+    }
    ]
   },
   {
@@ -46,13 +52,28 @@
     "draw the structure of 2-chloro-3-methylpentane from its name",
     "convert the common name allyl bromide into its systematic name"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "pick the parent chain through the C-X carbon",
-     "explain": "the longest chain holding the halogen carbon sets the hydrocarbon name"},
-    {"step": 2, "action": "number for lowest locants and list prefixes",
-     "explain": "halo and alkyl prefixes go alphabetically with their positions"}
-   ]
+    {
+     "step": 1,
+     "action": "pick the parent chain through the C-X carbon",
+     "explain": "the longest chain holding the halogen carbon sets the hydrocarbon name"
+    },
+    {
+     "step": 2,
+     "action": "number for lowest locants and list prefixes",
+     "explain": "halo and alkyl prefixes go alphabetically with their positions"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "name = halogen_prefix + locants + parent_hydrocarbon",
+     "compute": "name = halogen_prefix + locants + parent_hydrocarbon"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lech201.6.4.1.1",
@@ -72,10 +93,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "match the alcohol class to the reagent",
-     "explain": "3 degree alcohols react with concentrated HCl alone; 1 and 2 degree need ZnCl2 catalyst"},
-    {"step": 2, "action": "check the by-product route for purity",
-     "explain": "SOCl2 wins because gaseous SO2 and HCl escape, leaving the halide behind"}
+    {
+     "step": 1,
+     "action": "match the alcohol class to the reagent",
+     "explain": "3 degree alcohols react with concentrated HCl alone; 1 and 2 degree need ZnCl2 catalyst"
+    },
+    {
+     "step": 2,
+     "action": "check the by-product route for purity",
+     "explain": "SOCl2 wins because gaseous SO2 and HCl escape, leaving the halide behind"
+    }
    ]
   },
   {
@@ -96,10 +123,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "identify which halide is wanted",
-     "explain": "iodides come from NaI in acetone; fluorides come from Swarts metal fluorides"},
-    {"step": 2, "action": "write the departing halogen salt",
-     "explain": "the NaCl or NaBr by-product precipitating in acetone drives the exchange forward"}
+    {
+     "step": 1,
+     "action": "identify which halide is wanted",
+     "explain": "iodides come from NaI in acetone; fluorides come from Swarts metal fluorides"
+    },
+    {
+     "step": 2,
+     "action": "write the departing halogen salt",
+     "explain": "the NaCl or NaBr by-product precipitating in acetone drives the exchange forward"
+    }
    ]
   },
   {
@@ -120,10 +153,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "diazotise the amine",
-     "explain": "sodium nitrite in cold aqueous mineral acid converts the primary aromatic amine into the diazonium salt"},
-    {"step": 2, "action": "swap the diazonium group for the halogen",
-     "explain": "CuCl or CuBr gives the aryl chloride or bromide; KI alone gives the aryl iodide"}
+    {
+     "step": 1,
+     "action": "diazotise the amine",
+     "explain": "sodium nitrite in cold aqueous mineral acid converts the primary aromatic amine into the diazonium salt"
+    },
+    {
+     "step": 2,
+     "action": "swap the diazonium group for the halogen",
+     "explain": "CuCl or CuBr gives the aryl chloride or bromide; KI alone gives the aryl iodide"
+    }
    ]
   },
   {
@@ -144,10 +183,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "weigh surface area against symmetry",
-     "explain": "branching cuts contact area so boiling point drops; para symmetry packs the crystal so melting point rises"},
-    {"step": 2, "action": "follow halogen mass down the group",
-     "explain": "heavier, more polarisable halogens strengthen dispersion forces and add density"}
+    {
+     "step": 1,
+     "action": "weigh surface area against symmetry",
+     "explain": "branching cuts contact area so boiling point drops; para symmetry packs the crystal so melting point rises"
+    },
+    {
+     "step": 2,
+     "action": "follow halogen mass down the group",
+     "explain": "heavier, more polarisable halogens strengthen dispersion forces and add density"
+    }
    ]
   },
   {
@@ -155,7 +200,7 @@
    "title": "SN2 Kinetics: Bimolecular Substitution Rate",
    "section": "6.7.1",
    "definition": "A bimolecular substitution is a single backside attack in which bond making and bond breaking happen together, so the rate tracks both concentrations: rate constant times halide molarity times nucleophile molarity.",
-   "formula": "rate_sn2 = k_sn2 * conc_halide * conc_nuc",
+   "formula": "rate_sn_2 = k_sn_2 * conc_halide * conc_nuc",
    "key_idea": "Crowding around the reacting carbon sets the speed order primary > secondary > tertiary, and every SN2 event inverts the configuration like an umbrella in wind.",
    "textbook_ref": "lech201.txt section 6.7.1(a), SN2 mechanism and Fig 6.2-6.3 (lines ~726-813)",
    "question_patterns": [
@@ -168,20 +213,35 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "multiply the two molarities",
+    {
+     "step": 1,
+     "action": "multiply the two molarities",
      "explain": "the bimolecular rate law needs the product of the halide and nucleophile concentrations",
-     "compute": "combined_conc = conc_halide * conc_nuc"},
-    {"step": 2, "action": "scale by the rate constant",
+     "compute": "combined_conc = conc_halide * conc_nuc"
+    },
+    {
+     "step": 2,
+     "action": "scale by the rate constant",
      "explain": "the second-order rate constant converts the concentration product into a rate",
-     "compute": "rate_sn2 = k_sn2 * combined_conc"}
-   ]
+     "compute": "rate_sn2 = k_sn2 * combined_conc"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rate_sn_2 = k_sn_2 * conc_halide * conc_nuc",
+     "compute": "rate_sn_2 = k_sn_2 * conc_halide * conc_nuc"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lech201.6.7.1.2",
    "title": "SN1 Kinetics: Unimolecular Substitution Rate",
    "section": "6.7.1",
    "definition": "An unimolecular substitution runs through a slow ionisation that frees a planar carbocation, so only the alkyl halide molarity governs the rate; halide molarity is moles divided by litres, then scaled by the rate constant.",
-   "formula": "rate_sn1 = k_sn1 * conc_halide",
+   "formula": "rate_sn_1 = k_sn_1 * conc_halide",
    "key_idea": "Carbocation stability puts tertiary, benzylic and allylic halides on top for SN1, and attack on either face of the flat intermediate racemises a chiral substrate.",
    "textbook_ref": "lech201.txt section 6.7.1(b), SN1 mechanism with tert-butyl bromide (lines ~814-932)",
    "question_patterns": [
@@ -194,13 +254,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "convert moles and volume to molarity",
+    {
+     "step": 1,
+     "action": "convert moles and volume to molarity",
      "explain": "the rate law uses concentration, so divide the dissolved moles by the volume in litres",
-     "compute": "conc_halide = moles_halide / vol_litres"},
-    {"step": 2, "action": "scale by the first-order constant",
+     "compute": "conc_halide = moles_halide / vol_litres"
+    },
+    {
+     "step": 2,
+     "action": "scale by the first-order constant",
      "explain": "only the alkyl halide enters the rate because ionisation is the slow step",
-     "compute": "rate_sn1 = k_sn1 * conc_halide"}
-   ]
+     "compute": "rate_sn1 = k_sn1 * conc_halide"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rate_sn_1 = k_sn_1 * conc_halide",
+     "compute": "rate_sn_1 = k_sn_1 * conc_halide"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lech201.6.7.1.3",
@@ -220,13 +295,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "normalise the reading per decimetre",
+    {
+     "step": 1,
+     "action": "normalise the reading per decimetre",
      "explain": "longer tubes proportionally rotate light further, so divide the observed angle by tube length",
-     "compute": "per_dm = obs_angle / tube_dm"},
-    {"step": 2, "action": "normalise per unit concentration",
+     "compute": "per_dm = obs_angle / tube_dm"
+    },
+    {
+     "step": 2,
+     "action": "normalise per unit concentration",
      "explain": "rotation also scales with how much solute each millilitre carries",
-     "compute": "spec_rot = per_dm / conc"}
-   ]
+     "compute": "spec_rot = per_dm / conc"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "spec_rot = obs_angle / (tube_dm * conc)",
+     "compute": "spec_rot = obs_angle / (tube_dm * conc)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lech201.6.7.1.4",
@@ -246,13 +336,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "form the rotation ratio",
+    {
+     "step": 1,
+     "action": "form the rotation ratio",
      "explain": "sample rotation divided by pure-enantiomer rotation equals the fraction of net excess",
-     "compute": "rot_ratio = obs_rot / pure_rot"},
-    {"step": 2, "action": "convert the fraction to a percentage",
+     "compute": "rot_ratio = obs_rot / pure_rot"
+    },
+    {
+     "step": 2,
+     "action": "convert the fraction to a percentage",
      "explain": "multiplying by 100 reports the enantiomeric excess on the percent scale",
-     "compute": "ee_percent = rot_ratio * 100"}
-   ]
+     "compute": "ee_percent = rot_ratio * 100"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ee_percent = (obs_rot / pure_rot) * 100",
+     "compute": "ee_percent = (obs_rot / pure_rot) * 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lech201.6.7.1.5",
@@ -272,10 +377,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "read the counter-ion character",
-     "explain": "ionic K+ salts release the free ion; covalent Ag+ salts tie up one end so the other atom attacks"},
-    {"step": 2, "action": "name the linking atom and the product class",
-     "explain": "carbon attack gives cyanides or nitro compounds; nitrogen attack gives isocyanides or nitrites"}
+    {
+     "step": 1,
+     "action": "read the counter-ion character",
+     "explain": "ionic K+ salts release the free ion; covalent Ag+ salts tie up one end so the other atom attacks"
+    },
+    {
+     "step": 2,
+     "action": "name the linking atom and the product class",
+     "explain": "carbon attack gives cyanides or nitro compounds; nitrogen attack gives isocyanides or nitrites"
+    }
    ]
   },
   {
@@ -296,10 +407,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "mark alpha and beta carbons",
-     "explain": "the halogen carbon is alpha; each adjacent carbon is a possible beta site for hydrogen loss"},
-    {"step": 2, "action": "rank the possible alkenes by substitution",
-     "explain": "the double bond carrying more alkyl groups is the Saytzeff product and dominates"}
+    {
+     "step": 1,
+     "action": "mark alpha and beta carbons",
+     "explain": "the halogen carbon is alpha; each adjacent carbon is a possible beta site for hydrogen loss"
+    },
+    {
+     "step": 2,
+     "action": "rank the possible alkenes by substitution",
+     "explain": "the double bond carrying more alkyl groups is the Saytzeff product and dominates"
+    }
    ]
   },
   {
@@ -320,10 +437,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "test for resonance and hybridisation effects",
-     "explain": "partial double-bond character plus a shorter, tighter sp2 C-X bond blocks the SN routes and an unstable phenyl cation rules out SN1"},
-    {"step": 2, "action": "check the directing pattern",
-     "explain": "resonance donation raises electron density at ortho and para, so electrophiles attack there while the stronger -I effect slows the ring overall"}
+    {
+     "step": 1,
+     "action": "test for resonance and hybridisation effects",
+     "explain": "partial double-bond character plus a shorter, tighter sp2 C-X bond blocks the SN routes and an unstable phenyl cation rules out SN1"
+    },
+    {
+     "step": 2,
+     "action": "check the directing pattern",
+     "explain": "resonance donation raises electron density at ortho and para, so electrophiles attack there while the stronger -I effect slows the ring overall"
+    }
    ]
   }
  ],
@@ -334,10 +457,24 @@
    "concept": "lech201.6.7.1.1",
    "question_type": "sn2_initial_rate",
    "question_pattern": "A solution 0.10 M in chloromethane is treated with 0.20 M hydroxide. With k = 0.25 per molar per second, what initial rate does the SN2 substitution show?",
-   "extracted_variables": {"k_sn2": 0.25, "conc_halide": 0.10, "conc_nuc": 0.20},
+   "extracted_variables": {
+    "k_sn2": 0.25,
+    "conc_halide": 0.1,
+    "conc_nuc": 0.2
+   },
    "solution_template": [
-    {"step": 1, "action": "multiply the two molarities", "explain": "bimolecular rate law needs both concentrations", "compute": "combined_conc = conc_halide * conc_nuc"},
-    {"step": 2, "action": "scale by the rate constant", "explain": "k converts the product into a rate", "compute": "rate_sn2 = k_sn2 * combined_conc"}
+    {
+     "step": 1,
+     "action": "multiply the two molarities",
+     "explain": "bimolecular rate law needs both concentrations",
+     "compute": "combined_conc = conc_halide * conc_nuc"
+    },
+    {
+     "step": 2,
+     "action": "scale by the rate constant",
+     "explain": "k converts the product into a rate",
+     "compute": "rate_sn2 = k_sn2 * combined_conc"
+    }
    ]
   },
   {
@@ -346,10 +483,24 @@
    "concept": "lech201.6.7.1.1",
    "question_type": "sn2_initial_rate",
    "question_pattern": "An alkyl bromide at 0.05 M meets 0.15 M cyanide with rate constant 1.2 per molar per second. Calculate the reaction rate.",
-   "extracted_variables": {"k_sn2": 1.2, "conc_halide": 0.05, "conc_nuc": 0.15},
+   "extracted_variables": {
+    "k_sn2": 1.2,
+    "conc_halide": 0.05,
+    "conc_nuc": 0.15
+   },
    "solution_template": [
-    {"step": 1, "action": "multiply the two molarities", "explain": "both reactants enter the rate law", "compute": "combined_conc = conc_halide * conc_nuc"},
-    {"step": 2, "action": "scale by the rate constant", "explain": "second-order constant applied", "compute": "rate_sn2 = k_sn2 * combined_conc"}
+    {
+     "step": 1,
+     "action": "multiply the two molarities",
+     "explain": "both reactants enter the rate law",
+     "compute": "combined_conc = conc_halide * conc_nuc"
+    },
+    {
+     "step": 2,
+     "action": "scale by the rate constant",
+     "explain": "second-order constant applied",
+     "compute": "rate_sn2 = k_sn2 * combined_conc"
+    }
    ]
   },
   {
@@ -358,10 +509,24 @@
    "concept": "lech201.6.7.1.2",
    "question_type": "sn1_initial_rate",
    "question_pattern": "0.06 mol of tert-butyl bromide is dissolved to make 300 mL of solution. With k = 0.0045 per second, find the initial SN1 rate.",
-   "extracted_variables": {"moles_halide": 0.06, "vol_litres": 0.3, "k_sn1": 0.0045},
+   "extracted_variables": {
+    "moles_halide": 0.06,
+    "vol_litres": 0.3,
+    "k_sn1": 0.0045
+   },
    "solution_template": [
-    {"step": 1, "action": "convert moles and volume to molarity", "explain": "rate law uses concentration", "compute": "conc_halide = moles_halide / vol_litres"},
-    {"step": 2, "action": "scale by the rate constant", "explain": "only the halide enters the SN1 rate", "compute": "rate_sn1 = k_sn1 * conc_halide"}
+    {
+     "step": 1,
+     "action": "convert moles and volume to molarity",
+     "explain": "rate law uses concentration",
+     "compute": "conc_halide = moles_halide / vol_litres"
+    },
+    {
+     "step": 2,
+     "action": "scale by the rate constant",
+     "explain": "only the halide enters the SN1 rate",
+     "compute": "rate_sn1 = k_sn1 * conc_halide"
+    }
    ]
   },
   {
@@ -370,10 +535,24 @@
    "concept": "lech201.6.7.1.2",
    "question_type": "sn1_initial_rate",
    "question_pattern": "A tertiary chloride solution contains 0.025 mol in 500 mL. Given k = 0.002 per second, calculate the solvolysis rate.",
-   "extracted_variables": {"moles_halide": 0.025, "vol_litres": 0.5, "k_sn1": 0.002},
+   "extracted_variables": {
+    "moles_halide": 0.025,
+    "vol_litres": 0.5,
+    "k_sn1": 0.002
+   },
    "solution_template": [
-    {"step": 1, "action": "convert moles and volume to molarity", "explain": "0.025 mol in 0.5 L gives the molarity", "compute": "conc_halide = moles_halide / vol_litres"},
-    {"step": 2, "action": "scale by the rate constant", "explain": "first-order constant applied", "compute": "rate_sn1 = k_sn1 * conc_halide"}
+    {
+     "step": 1,
+     "action": "convert moles and volume to molarity",
+     "explain": "0.025 mol in 0.5 L gives the molarity",
+     "compute": "conc_halide = moles_halide / vol_litres"
+    },
+    {
+     "step": 2,
+     "action": "scale by the rate constant",
+     "explain": "first-order constant applied",
+     "compute": "rate_sn1 = k_sn1 * conc_halide"
+    }
    ]
   },
   {
@@ -382,10 +561,24 @@
    "concept": "lech201.6.7.1.3",
    "question_type": "specific_rotation",
    "question_pattern": "A 1.0 dm polarimeter tube holds a solution of concentration 0.20 g per mL and reads +2.6 degrees. Find the specific rotation.",
-   "extracted_variables": {"obs_angle": 2.6, "tube_dm": 1.0, "conc": 0.20},
+   "extracted_variables": {
+    "obs_angle": 2.6,
+    "tube_dm": 1.0,
+    "conc": 0.2
+   },
    "solution_template": [
-    {"step": 1, "action": "normalise per decimetre", "explain": "divide the observed angle by tube length", "compute": "per_dm = obs_angle / tube_dm"},
-    {"step": 2, "action": "normalise per unit concentration", "explain": "divide further by the solution concentration", "compute": "spec_rot = per_dm / conc"}
+    {
+     "step": 1,
+     "action": "normalise per decimetre",
+     "explain": "divide the observed angle by tube length",
+     "compute": "per_dm = obs_angle / tube_dm"
+    },
+    {
+     "step": 2,
+     "action": "normalise per unit concentration",
+     "explain": "divide further by the solution concentration",
+     "compute": "spec_rot = per_dm / conc"
+    }
    ]
   },
   {
@@ -394,10 +587,24 @@
    "concept": "lech201.6.7.1.3",
    "question_type": "specific_rotation",
    "question_pattern": "An optically active liquid shows -1.98 degrees in a 1.5 dm tube at 0.30 g per mL. Determine its specific rotation.",
-   "extracted_variables": {"obs_angle": -1.98, "tube_dm": 1.5, "conc": 0.30},
+   "extracted_variables": {
+    "obs_angle": -1.98,
+    "tube_dm": 1.5,
+    "conc": 0.3
+   },
    "solution_template": [
-    {"step": 1, "action": "normalise per decimetre", "explain": "the minus sign travels with the angle", "compute": "per_dm = obs_angle / tube_dm"},
-    {"step": 2, "action": "normalise per unit concentration", "explain": "concentration division gives the standard value", "compute": "spec_rot = per_dm / conc"}
+    {
+     "step": 1,
+     "action": "normalise per decimetre",
+     "explain": "the minus sign travels with the angle",
+     "compute": "per_dm = obs_angle / tube_dm"
+    },
+    {
+     "step": 2,
+     "action": "normalise per unit concentration",
+     "explain": "concentration division gives the standard value",
+     "compute": "spec_rot = per_dm / conc"
+    }
    ]
   },
   {
@@ -406,10 +613,23 @@
    "concept": "lech201.6.7.1.4",
    "question_type": "enantiomeric_excess",
    "question_pattern": "The pure enantiomer of a compound rotates at +9.0 degrees and a partially resolved sample reads +4.5 degrees. Find the enantiomeric excess in percent.",
-   "extracted_variables": {"obs_rot": 4.5, "pure_rot": 9.0},
+   "extracted_variables": {
+    "obs_rot": 4.5,
+    "pure_rot": 9.0
+   },
    "solution_template": [
-    {"step": 1, "action": "form the rotation ratio", "explain": "sample over pure gives the net excess fraction", "compute": "rot_ratio = obs_rot / pure_rot"},
-    {"step": 2, "action": "convert to percent", "explain": "multiply the fraction by 100", "compute": "ee_percent = rot_ratio * 100"}
+    {
+     "step": 1,
+     "action": "form the rotation ratio",
+     "explain": "sample over pure gives the net excess fraction",
+     "compute": "rot_ratio = obs_rot / pure_rot"
+    },
+    {
+     "step": 2,
+     "action": "convert to percent",
+     "explain": "multiply the fraction by 100",
+     "compute": "ee_percent = rot_ratio * 100"
+    }
    ]
   },
   {
@@ -418,10 +638,23 @@
    "concept": "lech201.6.7.1.4",
    "question_type": "enantiomeric_excess",
    "question_pattern": "A mixture rotates plane-polarised light by 3.2 degrees while the pure isomer gives 8.0 degrees under identical conditions. Calculate its optical purity as a percentage.",
-   "extracted_variables": {"obs_rot": 3.2, "pure_rot": 8.0},
+   "extracted_variables": {
+    "obs_rot": 3.2,
+    "pure_rot": 8.0
+   },
    "solution_template": [
-    {"step": 1, "action": "form the rotation ratio", "explain": "3.2 over 8.0 measures the resolved fraction", "compute": "rot_ratio = obs_rot / pure_rot"},
-    {"step": 2, "action": "convert to percent", "explain": "percentage scale for optical purity", "compute": "ee_percent = rot_ratio * 100"}
+    {
+     "step": 1,
+     "action": "form the rotation ratio",
+     "explain": "3.2 over 8.0 measures the resolved fraction",
+     "compute": "rot_ratio = obs_rot / pure_rot"
+    },
+    {
+     "step": 2,
+     "action": "convert to percent",
+     "explain": "percentage scale for optical purity",
+     "compute": "ee_percent = rot_ratio * 100"
+    }
    ]
   }
  ],

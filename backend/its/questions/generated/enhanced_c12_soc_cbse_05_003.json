@@ -1,0 +1,71 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_05_003",
+   "title": "c12_soc_cbse_05_003",
+   "questions": [
+    {
+     "q": "Define social exclusion in your own words, and state the three criteria from the NCERT that make inequality 'social' rather than individual.",
+     "a": "Social exclusion is the systematic denial of full participation in society — access to education, health, employment, justice, and social networks — due to structural barriers linked to group identity (caste, gender, religion, disability). The three NCERT criteria: (1) it is about groups, not individuals; (2) it is not solely economic — it includes cultural, social, and symbolic dimensions; (3) it is systematic and structured, not random or accidental. A wrong answer that defines exclusion only as 'being poor' or 'not having friends' reveals the misconception that exclusion is individual or purely economic, missing the structural, group-based, and multi-dimensional nature.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Social exclusion is just another word for poverty. If you give people money, exclusion disappears.\" Using Bourdieu's three forms of capital, explain why this statement is incorrect. Give a concrete example.",
+     "a": "The statement is incorrect because poverty is only economic capital deficit, while social exclusion involves deficits in all three capitals that reinforce each other. Economic capital = money/assets; cultural capital = education, skills, cultural knowledge; social capital = networks, contacts, institutional access. Example: A Dalit entrepreneur may have money (economic capital) but still be denied bank loans, excluded from business networks, and face discrimination in market transactions due to lack of social capital and cultural capital (e.g., not knowing 'how things work' in formal institutions). Money alone cannot buy entry into dominant social networks or erase caste stigma. A wrong answer that agrees with the statement shows the student conflates economic inequality with social exclusion and misses the multi-capital framework.",
+     "self_check": true
+    },
+    {
+     "q": "Consider a Musahar (Dalit) family in rural Bihar: landless, illiterate, working as agricultural labourers for three generations. The youngest daughter, age 10, is malnourished, attends school irregularly, and has no access to a functioning PHC. Trace how cumulative deprivation operates across THREE generations in this family, identifying at least two points where one form of capital deficit leads to another.",
+     "a": "(1) First generation — landlessness forces the grandparents into bonded labour, keeping them out of school and unaware of their rights, (2) Second generation — the parents inherit landlessness and illiteracy, find only casual migratory work, pull children out of school and depend on the contractor, (3) Third generation — malnutrition stunts the daughter's cognition, attendance and performance fall, and with no mentors the dropout risk peaks, (4) Conversion point one — owning no land becomes a cultural deficit because survival labour replaces schooling, (5) Conversion point two — illiteracy becomes a social deficit when the family cannot navigate offices and banks to reach schemes. A weak answer lists hardships without the causal chain between the forms of capital.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast 'social exclusion' and 'discrimination' using the NCERT framework. Can a group face exclusion without overt discrimination? Can a group face discrimination without systemic exclusion? Give one example of each.",
+     "a": "Discrimination is behavioural — differential treatment based on prejudice (e.g., refusing to rent a flat to a Muslim family). Social exclusion is structural — the outcome of institutional arrangements that systematically block access (e.g., no schools in a tribal hamlet, no ramps in government buildings). Yes, exclusion without overt discrimination: Adivasis in remote forests lack healthcare not because doctors hate them, but because the state never built clinics there — structural neglect. Yes, discrimination without full systemic exclusion: A middle-class Dalit professor faces casteist slurs (discrimination) but still holds a university job, accesses healthcare, and lives in a gated colony — not fully excluded. A wrong answer that treats them as synonyms misses that discrimination is a mechanism while exclusion is a structural condition; exclusion can exist without intentional discriminatory acts.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The reservation policy in India addresses social exclusion by redistributing economic capital (jobs, seats). Therefore, it is primarily an economic policy.\" Use the concepts of cultural capital and social capital to critique this view.",
+     "a": "The claim is reductionist. Reservation does redistribute economic capital (jobs, education seats), but its deeper function is addressing cultural and social capital deficits. Cultural capital: Reserved seats in elite institutions (IITs, JNU) give Dalit/OBC students access to credentials, academic networks, and 'legitimate' knowledge previously monopolised by upper castes. Social capital: Entry into bureaucracy/politics creates networks of mentorship, information flows, and collective voice for marginalised groups. Moreover, reservation challenges the ideology of 'merit' that masks cultural capital advantages of the privileged (e.g., English fluency, coaching access). Treating it as only economic ignores how exclusion operates through cultural codes and social closure. A weak answer agrees with the claim or only cites economic benefits, missing the symbolic and network dimensions of exclusion.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 4-indicator 'Social Exclusion Index' for a village study that captures cumulative deprivation across economic, cultural, social, and political dimensions. For each indicator, specify: (a) what it measures, (b) why it reflects cumulative (not just current) deprivation, and (c) one data source.",
+     "a": "(1) Economic — households with no land and no regularly salaried member across two generations, from land records and job-card history, (2) Cultural — adults with under five years of schooling whose own children are out of school, from census and enrolment registers, (3) Social — households with no member in any self-help group, cooperative, panchayat committee or beneficiary list, from panchayat records, (4) Political — eligible voters who never vote, never complain and never attend the gram sabha, from turnout and meeting records. Each indicator captures transmission across generations rather than a single year's status. A poor index uses only current income or attendance, missing the cumulative intergenerational logic.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Social exclusion is a systematic process by which individuals or groups are denied full access to rights, ______, resources, and participation in the normal activities of society — not due to individual failings but because of structural barriers rooted in social institutions like caste, class, gender, religion, or disability.",
+     "a": "opportunities",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two 14-year-olds in the same village: Rohan, son of a ______, and Meena, daughter of a manual scavenger.",
+     "a": "contractor",
+     "self_check": true
+    },
+    {
+     "q": "What is Social exclusion? State the definition given in this lesson.",
+     "a": "Social exclusion is a systematic process by which individuals or groups are denied full access to rights, opportunities, resources, and participation in the normal activities of society — not due to individual failings but because of structural barriers rooted in social institutions like caste, class, gender, religion, or disability.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two ______-year-olds in the same village: Rohan, son of a contractor, and Meena, daughter of a manual scavenger.",
+     "a": "14",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Social exclusion?",
+     "a": "Students equate social exclusion with 'being left out' in everyday sense (e.g., not invited to a party) or with 'poverty'.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish social exclusion from individual inequality and economic poverty using the three criteria (group-based, non-economic dimensions, systematic/structural), (2) explain how cumulative deprivation operates through the interplay of economic, cultural, and social capital deficits, and (3) apply this framework to.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

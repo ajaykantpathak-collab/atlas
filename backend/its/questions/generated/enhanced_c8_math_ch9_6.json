@@ -34,6 +34,31 @@
      "q": "Create your own visual proof idea for the Pythagoras theorem using a different large shape (not a square of side a+b). Sketch the concept and describe the area equivalence in words.",
      "a": "A good answer might use a rectangle of dimensions (a+b) by c, or a trapezoid, showing that the total area can be expressed in two ways leading to a²+b²=c². The key is a clear description of two area decompositions of the same shape. A poor answer simply redraws the standard square proof or fails to show two distinct area expressions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A visual proof of the Pythagoras theorem using area demonstrates that in a right-angled triangle, the area of the square constructed on the hypotenuse equals the sum of the areas of the squares constructed on the other two sides, by dissecting and ______ geometric shapes without changing their total area.",
+     "a": "rearranging",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping a carpenter in Jaipur who needs to verify that a wooden frame for a rectangular window has a ______ right angle.",
+     "a": "perfect",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the logical steps of a classic area-based proof (such as the square-on-the-hypotenuse dissection or the rearrangement proof), identify the key geometric invariants (area conservation, congruent triangles), and justify why the rearrangement proves the theorem for all right triangles.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A visual proof of the Pythagoras theorem using area ______ that in a right-angled triangle, the area of the square constructed on the hypotenuse equals the sum of the areas of the squares constructed on the other two sides, by dissecting and rearranging geometric shapes without changing their total area.",
+     "a": "demonstrates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping a carpenter in Jaipur who needs to verify that a wooden frame for a ______ window has a perfect right angle.",
+     "a": "rectangular",
+     "self_check": true
     }
    ]
   }

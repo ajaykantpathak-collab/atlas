@@ -22,7 +22,7 @@
     "which is greater the gcf or any other common factor",
     "solve the house building question using common factors"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -39,7 +39,16 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
+     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 12 * 1 gives 12",
+     "compute": "hcf = 12 * 1"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp2.3.2",
@@ -89,7 +98,7 @@
     "solve the given sharing problem with the hcf",
     "make a word problem whose answer is the hcf of two numbers"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -106,7 +115,16 @@
      "action": "check the answer",
      "explain": "Verify by reversing or re-checking, then conclude."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
+     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 5 * 1 gives 5",
+     "compute": "hcf = 5 * 1"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp2.3.4",
@@ -124,7 +142,7 @@
     "which pairs in the given list are co prime",
     "why are primes the right tools for finding common factors"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -141,7 +159,22 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

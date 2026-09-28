@@ -34,6 +34,21 @@
      "q": "Construct a real-world scenario involving two stages (e.g., manufacturing, testing, weather) where the events are **clearly independent** by physical reasoning, not just calculation. Define events E and F, state their probabilities, and explain why the product rule must hold without computing numbers.",
      "a": "**Expected answer criteria:** A good answer describes a scenario with **physically separate mechanisms** where the outcome of one cannot influence the other. Example: \"A factory has two independent assembly lines. Line 1 produces widgets with defect rate 2% (E = widget from line 1 is defective). Line 2 produces gadgets with defect rate 5% (F = gadget from line 2 is defective). Since the lines operate in separate buildings with different machines and workers, a defect in one line gives zero information about the other. The joint probability of both being defective must be (0.02)(0.05) = 0.001 by physical independence.\"  \n**What a poor answer reveals:** If the student gives a scenario like \"rain today and rain tomorrow\" or \"stock market up today and up tomorrow\" without acknowledging temporal dependence, they don't understand that real-world independence requires **causal separation**, not just distinct events. If they define E and F from the same experiment (e.g., \"first card is heart, second card is spade without replacement\"), they haven't grasped that independence is a property of the **experimental setup**, not just the events.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Your friend ______ that getting a 6 on the die makes it more likely to get heads on the coin.",
+     "a": "claims",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Your friend claims that getting a ______ on the die makes it more likely to get heads on the coin.",
+     "a": "6",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Your friend claims that ______ a 6 on the die makes it more likely to get heads on the coin.",
+     "a": "getting",
+     "self_check": true
     }
    ]
   }

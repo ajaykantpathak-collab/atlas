@@ -34,6 +34,31 @@
      "q": "Create a mini-case: A company has ₹1 crore to invest. Design two mutually exclusive projects with different cash flow patterns (one front-loaded, one back-loaded) such that at 10% cost of capital, NPV and IRR give conflicting rankings. Provide the cash flows and show the conflict numerically.",
      "a": "Example: Project A (front-loaded): -1,00,00,000; Y1: 60,00,000; Y2: 40,00,000; Y3: 20,00,000; Y4: 10,00,000; Y5: 10,00,000.\nProject B (back-loaded): -1,00,00,000; Y1: 10,00,000; Y2: 20,00,000; Y3: 30,00,000; Y4: 40,00,000; Y5: 60,00,000.\nAt 10%: NPV_A ≈ ₹17.5 lakh, IRR_A ≈ 24%; NPV_B ≈ ₹14.2 lakh, IRR_B ≈ 18%. NPV prefers A, IRR prefers A — no conflict? Wait, need a real conflict. Let's adjust: Project A: -100; Y1: 80; Y2: 40; Y3: 0; Y4: 0; Y5: 0. Project B: -100; Y1: 0; Y2: 0; Y3: 0; Y4: 0; Y5: 200.\nAt 10%: NPV_A = 80/1.1 + 40/1.21 - 100 = 72.7+33.1-100=5.8; IRR_A ≈ 28%. NPV_B = 200/1.6105 - 100 = 124.2-100=24.2; IRR_B ≈ 14.9%. NPV prefers B, IRR prefers A — CONFLICT. A good answer shows correct discounting and explains the conflict arises from reinvestment rate assumption. A poor answer fails to generate a true conflict or miscalculates NPV/IRR.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Capital Budgeting is the process of evaluating and selecting long-term investment proposals that involve significant capital outlay, are irreversible in nature, and affect the firm's ______ and risk profile over multiple years; it uses techniques like Payback Period, ARR, NPV, IRR, and PI to compare expected cash inflows against the cost of capital.",
+     "a": "profitability",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family runs a small manufacturing unit and has ₹50 lakh to invest: should you buy a new CNC ______ that saves ₹12 lakh/year for 6 years, or expand the warehouse to rent out space for ₹9 lakh/year for 10 years?",
+     "a": "machine",
+     "self_check": true
+    },
+    {
+     "q": "What is Capital Budgeting? State the definition given in this lesson.",
+     "a": "Capital Budgeting is the process of evaluating and selecting long-term investment proposals that involve significant capital outlay, are irreversible in nature, and affect the firm's profitability and risk profile over multiple years; it uses techniques like Payback Period, ARR, NPV, IRR, and PI to compare expected cash inflows against.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Capital Budgeting?",
+     "a": "Students often believe IRR is always the best measure because \"it gives a percentage return which is easy to compare.\" They fail to realize IRR assumes reinvestment of intermediate cash flows at the IRR itself, which is unrealistic when IRR > cost of capital.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) compute Payback Period, ARR, NPV, IRR, and PI for a given project with uneven cash flows, (2) rank mutually exclusive projects using NPV and IRR and explain conflicts, and (3) justify acceptance/rejection decisions in a board-style case study with proper interpretation of results.",
+     "self_check": true
     }
    ]
   }

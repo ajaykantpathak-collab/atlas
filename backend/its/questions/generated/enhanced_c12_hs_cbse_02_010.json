@@ -34,6 +34,31 @@
      "q": "Design a preservation protocol for fresh coconut water (pH 5.0, aw 0.99, high potassium, heat-sensitive flavour) targeting 6-month shelf-life at room temperature. Justify each step and specify the critical control points.",
      "a": "Protocol: (1) Harvest young coconuts (9-10 months) under hygienic conditions — CCP: microbial load < 10^3 CFU/mL. (2) Filter (0.45 µm) to remove particles/spores — CCP: turbidity < 1 NTU. (3) Acidify to pH ≤ 4.2 with food-grade citric acid — CCP: pH verification (botulism barrier). (4) UHT treatment: 135-140°C for 4-6 seconds in aseptic system — CCP: time-temperature integration (F0 ≥ 3). (5) Aseptic fill into pre-sterilised multilayer cartons (paper/PE/Al/PE) — CCP: sterility assurance (incubation test). (6) Cool rapidly, store at 25°C. Justification: Natural pH 5.0 permits C. botulinum growth → acidification essential. Heat-sensitive flavour → UHT (seconds) minimises Maillard/cooked flavour vs. retort (minutes). Aseptic packaging prevents recontamination. A POOR answer suggesting only pasteurisation (90°C) ignores spore risk at pH 5.0; suggesting only acidification ignores spore survival; suggesting freezing ignores \"room temperature\" requirement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Food processing is the ______ of raw agricultural produce into safe, palatable, and shelf-stable food products through physical, chemical, or biological methods, while preservation techniques specifically prevent spoilage by inhibiting microbial growth, enzymatic activity, and oxidative deterioration to extend shelf life and maintain nutritional quality.",
+     "a": "transformation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you buy fresh ______ from the market — within 3 days they turn mushy and mouldy, but a bottle of tomato ketchup lasts 12 months in your pantry.",
+     "a": "tomatoes",
+     "self_check": true
+    },
+    {
+     "q": "What is Food processing? State the definition given in this lesson.",
+     "a": "Food processing is the transformation of raw agricultural produce into safe, palatable, and shelf-stable food products through physical, chemical, or biological methods, while preservation techniques specifically prevent spoilage by inhibiting microbial growth, enzymatic activity, and oxidative deterioration to extend shelf life and.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Food processing?",
+     "a": "Students believe \"processed food = unhealthy\" and \"preservatives = harmful chemicals.\" They equate all processing with ultra-processed foods (NOVA Group 4) and assume sodium benzoate or potassium sorbate are toxic at permitted levels.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) classify any given food processing method as primary, secondary, or tertiary processing with justification, and (2) select the appropriate preservation technique for a specific food commodity by analyzing its water activity, pH, nutrient profile, and spoilage risk factors.",
+     "self_check": true
     }
    ]
   }

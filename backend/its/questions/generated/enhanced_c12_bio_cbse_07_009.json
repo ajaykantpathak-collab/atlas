@@ -34,6 +34,36 @@
      "q": "Design a simple comparative study using three fossil skull replicas (Australopithecus africanus, Homo erectus, Homo sapiens) to demonstrate the trend of encephalization. Specify the measurements you would take, the ratio you would calculate, and the expected pattern.",
      "a": "Measure cranial capacity (using mustard seeds or water displacement) and estimate body mass from femoral head diameter or long bone length. Calculate the encephalization quotient (EQ) or simply the brain-to-body mass ratio. Expected pattern: A. africanus (~450 cc, ~30 kg) < H. erectus (~900 cc, ~60 kg) < H. sapiens (~1350 cc, ~60 kg), showing a clear increase in relative brain size. A poor design that only measures absolute cranial capacity without accounting for body size reveals the student does not understand that encephalization is about relative, not absolute, brain expansion.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Human evolution refers to the evolutionary process leading to the emergence of anatomically modern humans (Homo sapiens) from ancestral hominids, characterized by key trends such as bipedalism, ______ (increase in brain size), reduction in prognathism and canine size, and development of complex tool use and culture, documented through a fossil record spanning approximately 7 million years.",
+     "a": "encephalization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking the student to observe their own hand — the ______ grip enabled by a fully opposable thumb and the ability to walk upright on two legs.",
+     "a": "precision",
+     "self_check": true
+    },
+    {
+     "q": "What is Human evolution? State the definition given in this lesson.",
+     "a": "Human evolution refers to the evolutionary process leading to the emergence of anatomically modern humans (Homo sapiens) from ancestral hominids, characterized by key trends such as bipedalism, encephalization (increase in brain size), reduction in prognathism and canine size, and development of complex tool use and culture, documented.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Human evolution refers to the evolutionary process leading to the emergence of anatomically modern humans (Homo sapiens) from ancestral hominids, characterized by key trends such as bipedalism, encephalization (increase in brain size), reduction in prognathism and canine size, and development of complex tool use and culture, documented through a fossil record spanning approximately ______ million years.",
+     "a": "7",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Human evolution?",
+     "a": "Students often believe human evolution followed a straight line: Dryopithecus → Ramapithecus → Australopithecus → Homo habilis → Homo erectus → Homo neanderthalensis → Homo sapiens, with each species transforming directly into the next.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can sequence major hominid genera (Dryopithecus, Australopithecus, Homo habilis, Homo erectus, Homo neanderthalensis, Homo sapiens) chronologically with approximate time ranges, correlate each with defining morphological traits (cranial capacity, bipedal adaptations, dental formula, tool culture), and explain how fossil.",
+     "self_check": true
     }
    ]
   }

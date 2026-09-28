@@ -22,7 +22,7 @@
     },
     {
      "q": "Compare \"projected visual aids\" and \"non-projected visual aids\" on FOUR dimensions: equipment requirement, portability, audience size suitability, and cost. Present as a table.",
-     "a": "| Dimension | Projected Visual Aids (slides, filmstrips, OHP, LCD) | Non-Projected Visual Aids (posters, charts, models, specimens) |\n|---|---|---|\n| Equipment | Requires projector, screen, power source | None needed; self-supporting |\n| Portability | Low — bulky equipment, fragile bulbs | High — lightweight, foldable/rollable |\n| Audience Size | Large groups (50+) in darkened room | Small to medium groups (5-30) in normal light |\n| Cost | High — equipment, maintenance, consumables | Low — one-time production, minimal recurring |\n\nA wrong answer that says \"projected aids are always better for large groups\" misses that they require darkened rooms (often unavailable in villages) and power; a wrong answer that equates cost only with production ignores recurring costs (bulbs, electricity, technician).",
+     "a": "| Dimension | Projected Visual Aids (slides, filmstrips, OHP, LCD) | Non-Projected Visual Aids (posters, charts, models, specimens) |\n|---|---|---|\n| Equipment | Requires projector, screen, power source | N/A needed; self-supporting |\n| Portability | Low — bulky equipment, fragile bulbs | High — lightweight, foldable/rollable |\n| Audience Size | Large groups (50+) in darkened room | Small to medium groups (5-30) in normal light |\n| Cost | High — equipment, maintenance, consumables | Low — one-time production, minimal recurring |\n\nA wrong answer that says \"projected aids are always better for large groups\" misses that they require darkened rooms (often unavailable in villages) and power; a wrong answer that equates cost only with production ignores recurring costs (bulbs, electricity, technician).",
      "self_check": true
     },
     {
@@ -33,6 +33,36 @@
     {
      "q": "Design a low-cost audio-visual aid kit for an extension worker promoting \"balanced diet for pregnant women\" in a tribal hamlet with no electricity, low literacy, and strong oral tradition. List 5 items with justification for each.",
      "a": "1. **Flip chart with laminated illustrated panels** — sequential visuals of food groups, portion sizes, meal timing; works without power, presenter controls pace, durable for repeated use. 2. **Food models (locally made from clay/cloth)** — concrete, touchable replicas of local foods (ragi balls, drumstick leaves, eggs); bridges abstract \"nutrient\" concept to familiar items. 3. **Pre-recorded audio messages on SD card played via solar-powered speaker** — leverages oral tradition, delivers key messages in local dialect, solar charging bypasses grid dependency. 4. **Colour-coded food group sorting cards** — interactive game: mothers sort food pictures into groups; reinforces classification through doing. 5. **Puppet set (2-3 characters: pregnant mother, dai/ASHA, elder)** — enables role-play of dialogues about myths vs facts; culturally resonant, low-cost, highly engaging. A poor answer lists \"projector and laptop\" ignoring context; a good answer justifies each item against at least two selection criteria (audience, message, context, culture).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Audio-Visual (AV) aids in extension are ______ devices that communicate messages through auditory and/or visual sensory channels to enhance learning, retention, and behaviour change among target audiences in extension education programmes.",
+     "a": "instructional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an ______ worker in a rural Maharashtra village promoting kitchen gardening.",
+     "a": "extension",
+     "self_check": true
+    },
+    {
+     "q": "What is Audio-Visual (AV) aids in extension? State the definition given in this lesson.",
+     "a": "Audio-Visual (AV) aids in extension are instructional devices that communicate messages through auditory and/or visual sensory channels to enhance learning, retention, and behaviour change among target audiences in extension education programmes.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Which aid do you choose for a group of ______ women with mixed literacy levels, limited electricity, and a message about seasonal planting cycles?",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Audio-Visual (AV) aids in extension?",
+     "a": "Students confuse \"classification by sensory channel\" (audio/visual/audio-visual) with \"classification by projection technology\" (projected/non-projected).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify any given AV aid into audio, visual, or audio-visual categories using Edgar Dale's Cone of Experience, and justify the selection of a specific aid for a given extension scenario by applying at least three selection criteria (audience characteristics, message complexity, resource availability, cultural.",
      "self_check": true
     }
    ]

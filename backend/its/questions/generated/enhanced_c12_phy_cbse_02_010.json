@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a parallel plate capacitor (two aluminum plates), a battery, a dielectric sheet (e.g., plastic), and a high-resistance voltmeter to demonstrate the effect of dielectric on capacitance. Describe the steps and what you would observe.",
      "a": "Step 1: Charge the capacitor with battery to voltage V, then disconnect battery. Step 2: Measure voltage V₀ with voltmeter. Step 3: Insert dielectric sheet completely between plates. Step 4: Measure new voltage V. Observation: V < V₀ (voltage drops). Step 5: Reconnect battery, charge again to V, disconnect, then remove dielectric. Observation: voltage rises above V. This shows capacitance increases with dielectric (Q constant, V drops) and decreases when removed. A poor answer (e.g., \"measure current\") reveals lack of understanding of how to infer capacitance from voltage changes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A parallel plate capacitor consists of two large, flat, parallel ______ plates of area A separated by a small distance d.",
+     "a": "conducting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan ______ (a small cylindrical component) – it stores charge to give the motor a starting torque.",
+     "a": "capacitor",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the capacitance formula for a parallel plate capacitor from the electric field of an infinite sheet, explain how polarization reduces the net field inside a dielectric, and calculate the new capacitance, charge, voltage, or energy for both isolated and battery-connected capacitors when a dielectric is inserted or.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan capacitor (a small ______ component) – it stores charge to give the motor a starting torque.",
+     "a": "cylindrical",
+     "self_check": true
     }
    ]
   }

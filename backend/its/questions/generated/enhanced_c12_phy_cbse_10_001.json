@@ -34,6 +34,26 @@
      "q": "Design a simple home experiment using a ripple tank (or a shallow tray of water) to demonstrate Huygens' construction for a plane wave. Specify how you would generate a plane wave, mark the initial wavefront, and observe the new wavefront after a short time. What would you measure to verify the construction?",
      "a": "Use a straight vibrator (ruler) at one end of a ripple tank to generate plane waves. Freeze the pattern with a stroboscope synchronized to the vibrator frequency. Mark the initial wavefront position on the tank bottom. After a known time Δt (e.g., 10 periods), mark the new wavefront. Measure the distance between wavefronts; it should equal vΔt where v = fλ (measured separately). Verify the new wavefront is parallel to the initial one. A poor answer (e.g., \"use a point source\") fails to produce a plane wave; \"measure angle\" is irrelevant for plane waves.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A wavefront is the locus of all points in a medium that oscillate in the same phase at a given instant; it ______ a surface of constant phase.",
+     "a": "represents",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the circular ripples ______ outward when a pebble is dropped into a still pond — each ring is a wavefront where water particles oscillate in phase.",
+     "a": "spreading",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by drawing a spherical wavefront at t=______, mark several points on it as secondary sources, draw wavelets of radius vΔt from each, and sketch the forward tangent surface — this is the wavefront at t=Δt.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish between spherical and plane wavefronts and identify them in ray diagrams, (2) apply Huygens' geometrical construction step-by-step to draw the new wavefront after a given time interval for both spherical and plane waves, and (3) explain why the backward wave is absent using the forward-envelope argument.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Create a word problem in an Indian context (e.g., shopping, travel, finance) that requires adding or subtracting two complex numbers to solve. Define what the real and imaginary parts represent in your problem.",
      "a": "Good answer example: \"Rahul has a wallet with ₹500 cash and 3 UPI coupons. His friend Priya gives him ₹200 cash but takes back 2 UPI coupons. Represent Rahul's initial holdings as \\(500 + 3i\\) and the transaction as \\(200 - 2i\\). Find his final holdings.\" (Answer: \\(700 + i\\)). A poor answer uses complex numbers for quantities that don't have two independent dimensions (e.g., \"5 apples and 3 oranges\" but then adds them as if they were same unit) or creates a problem where multiplication is needed. This reveals whether the student understands that complex numbers model two-component quantities that add component-wise.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Addition and ______ of complex numbers are performed by separately adding or subtracting their real parts and imaginary parts.",
+     "a": "subtraction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a shopkeeper in Delhi tracking inventory of two items: ______ (real part) and pens (imaginary part).",
+     "a": "notebooks",
+     "self_check": true
+    },
+    {
+     "q": "What is Addition and subtraction of complex numbers? State the definition given in this lesson.",
+     "a": "Addition and subtraction of complex numbers are performed by separately adding or subtracting their real parts and imaginary parts.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly add and subtract any two complex numbers given in standard form, express the result in standard form, and solve for unknown real coefficients in equations involving sums/differences of complex numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ in Delhi tracking inventory of two items: notebooks (real part) and pens (imaginary part).",
+     "a": "shopkeeper",
+     "self_check": true
     }
    ]
   }

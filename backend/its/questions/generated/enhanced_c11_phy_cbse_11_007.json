@@ -34,6 +34,26 @@
      "q": "Design a simple thought experiment to verify Mayer's formula using a gas in a cylinder with a movable piston and a fixed piston, assuming you can measure heat supplied and temperature change.",
      "a": "Take 1 mole of ideal gas in two identical cylinders: Cylinder A has a fixed piston (constant volume), Cylinder B has a frictionless movable piston exposed to atmospheric pressure (constant pressure). Supply the same amount of heat Q to both and measure temperature rises ΔT_v and ΔT_p. Then Cv = Q/ΔT_v, Cp = Q/ΔT_p. Compute Cp – Cv and compare with R. A good answer includes controlling initial T, P, V and using the same gas. A poor answer omits the need for equal moles or same initial conditions, or suggests measuring work directly without using the first law.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mayer's formula states that for an ideal gas, the ______ between the molar specific heat capacity at constant pressure (Cp) and the molar specific heat capacity at constant volume (Cv) is equal to the universal gas constant R.",
+     "a": "difference",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a pressure cooker on a stove: when heated, the steam inside builds pressure and lifts the weight (does work), whereas if the same steam were in a rigid sealed container, all heat would only raise ______ and pressure.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mathematically, Cp – Cv = R, where Cp and Cv are in J mol⁻¹ K⁻¹ and R = ______ J mol⁻¹ K⁻¹.",
+     "a": "8.31",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to derive Mayer's formula from the first law of thermodynamics and the ideal gas equation, and apply it to calculate Cp or Cv when the other is given, including for monoatomic, diatomic, and polyatomic gases using degrees of freedom.",
+     "self_check": true
     }
    ]
   }

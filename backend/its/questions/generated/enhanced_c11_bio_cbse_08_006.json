@@ -34,6 +34,36 @@
      "q": "Design an experiment using differential centrifugation and marker enzymes to prove that a newly discovered organelle in a thermophilic alga is a mitochondrion-derived hydrogenosome (lacks cytochrome-based ETC, produces H₂ and ATP via substrate-level phosphorylation). Specify the fractionation steps, marker enzymes, and expected results.",
      "a": "1. Homogenise cells in isotonic buffer; 2. Low-speed spin (1,000g) to remove nuclei/debris; 3. Medium-speed spin (10,000g) to pellet mitochondria/hydrogenosomes; 4. Assay pellet for: citrate synthase (mitochondrial matrix marker) — should be POSITIVE; cytochrome c oxidase (ETC marker) — should be NEGATIVE; hydrogenase (hydrogenosome marker) — should be POSITIVE; 5. Confirm ATP production in pellet with pyruvate + ADP but without oxygen. Expected: organelle sediments at 10,000g, has matrix enzymes and hydrogenase, lacks cytochromes, makes ATP anaerobically. A poor design (e.g., skipping marker enzymes) reveals inability to use biochemical criteria for organelle identity beyond morphology.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mitochondria are double-membrane-bound organelles present in almost all eukaryotic cells that serve as the primary site of aerobic respiration, generating ATP through oxidative ______, while plastids are a family of double-membrane-bound organelles found in plant cells and euglenoids, classified into chloroplasts (photosynthesis), chromoplasts (pigment storage), and leucoplasts (nutrient storage), each containing their own 70S ribosomes and circular DNA supporting endosymbiotic origin.",
+     "a": "phosphorylation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you sprint up the stairs to your third-floor classroom, your leg muscles burn — that burning sensation comes from ______ working overtime to supply ATP when oxygen supply lags behind demand.",
+     "a": "mitochondria",
+     "self_check": true
+    },
+    {
+     "q": "What is Mitochondria? State the definition given in this lesson.",
+     "a": "Mitochondria are double-membrane-bound organelles present in almost all eukaryotic cells that serve as the primary site of aerobic respiration, generating ATP through oxidative phosphorylation, while plastids are a family of double-membrane-bound organelles found in plant cells and euglenoids, classified into chloroplasts.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mitochondria are double-membrane-bound organelles present in almost all eukaryotic cells that serve as the primary site of aerobic respiration, generating ATP through oxidative phosphorylation, while plastids are a family of double-membrane-bound organelles found in plant cells and euglenoids, classified into chloroplasts (photosynthesis), chromoplasts (pigment storage), and leucoplasts (nutrient storage), each containing their own ______S ribosomes and circular DNA supporting endosymbiotic origin.",
+     "a": "70",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Mitochondria?",
+     "a": "Students believe chloroplasts are \"plant mitochondria\" — i.e., they think chloroplasts perform cellular respiration in plants while mitochondria are only in animals.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can draw and label the ultrastructure of both mitochondria and chloroplast, explain how cristae and thylakoid arrangements increase surface area for their respective energy-transduction processes, and justify why both organelles possess 70S ribosomes and circular DNA as evidence for endosymbiotic theory.",
+     "self_check": true
     }
    ]
   }

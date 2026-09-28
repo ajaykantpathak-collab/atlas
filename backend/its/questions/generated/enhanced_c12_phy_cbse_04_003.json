@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a cathode-ray tube (or a simulated applet) to verify that the radius of an electron’s path in a magnetic field is proportional to its speed. List the measurements you would take and how you would plot the data.",
      "a": "Vary the accelerating voltage V to change electron speed \\( v = \\sqrt{2eV/m} \\). Apply a constant magnetic field B perpendicular to the beam. Measure the radius r of the circular spot on the screen (or from the applet). Plot r vs \\( \\sqrt{V} \\); a straight line through origin confirms \\( r \\propto v \\). A poor answer might suggest plotting r vs V directly, not recognizing the square-root relationship, or forgetting to keep B constant.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When a charged particle moves in a uniform magnetic field with its velocity ______ to the field, the magnetic force acts as a centripetal force, causing the particle to execute uniform circular motion in a plane normal to the field.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe an old cathode-ray tube television or a ______ accelerator photograph: electrons hit the screen in a circular spot when a magnet is brought near, showing curved paths.",
+     "a": "particle",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the radius, frequency, time period, and pitch for a given charged particle in a uniform magnetic field, determine the direction of rotation for positive and negative charges using the right-hand rule, and explain why magnetic force does no work and kinetic energy remains constant.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe an old cathode-ray tube television or a particle ______ photograph: electrons hit the screen in a circular spot when a magnet is brought near, showing curved paths.",
+     "a": "accelerator",
+     "self_check": true
     }
    ]
   }

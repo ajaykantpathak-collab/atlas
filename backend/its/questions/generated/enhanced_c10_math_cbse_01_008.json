@@ -16,8 +16,8 @@
      "self_check": true
     },
     {
-     "q": "A student argues: \"5 is rational, √3 is irrational, so 5 − √3 must be irrational because rational and irrational don't mix.\" Identify the flaw in this reasoning.",
-     "a": "The flaw is that \"rational and irrational don't mix\" is an unproven assertion, not a theorem. While the result is correct, the justification is incomplete. The board exam requires the contradiction argument: assume rational, isolate the irrational, derive contradiction. A wrong answer accepting this as sufficient shows the student does not understand the need for rigorous proof.",
+     "q": "Give the correct order of steps in the contradiction proof that 5 minus √3 is irrational.",
+     "a": "The proof runs: (1) Assume 5 minus √3 equals a rational number r (2) Rearrange to get √3 equals 5 minus r (3) Closure under subtraction makes 5 minus r rational (4) This contradicts the proven irrationality of √3, so the assumption fails. A wrong answer that accepts the slogan that rational and irrational never mix as a proof shows the student has missed that the assertion needs the contradiction argument, not intuition.",
      "self_check": true
     },
     {
@@ -33,6 +33,26 @@
     {
      "q": "Prove that 7 − 2√5 is irrational. (Hint: Use the irrationality of √5 and closure of rationals.)",
      "a": "Assume 7 − 2√5 = r (rational). Then 2√5 = 7 − r. Since 7 and r are rational, 7 − r is rational, so 2√5 is rational. Then √5 = (7 − r)/2, which is rational (division of rational by non-zero rational 2). But √5 is irrational (proved similarly to √3). Contradiction. Hence 7 − 2√5 is irrational. A poor answer fails to handle the coefficient 2 correctly or forgets that √5 must be proven or assumed irrational.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This is proved by ______ using the sum/difference property: the sum or difference of a non-zero rational number and an irrational number is always irrational.",
+     "a": "contradiction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: We also know that rational numbers are closed under addition and ______: if you subtract two rationals, you get a rational.",
+     "a": "subtraction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If √______ becomes a difference of two rationals, it must be rational — contradicting what we already proved.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently prove that 5 − √3 is irrational by assuming the contrary, isolating √3, and invoking the closure of rationals under subtraction along with the known irrationality of √3 to derive a contradiction.",
      "self_check": true
     }
    ]

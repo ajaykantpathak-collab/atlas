@@ -34,6 +34,31 @@
      "q": "Design a 3-minute \"cyber safety micro-lesson\" for Class 9 students that teaches them to recognise *one* specific cyber threat category using a relatable Indian context (e.g., UPI fraud, fake exam result links, gaming scams). Your lesson must include: (a) a hook scenario, (b) the \"red flag\" indicator, (c) the CIA pillar at risk, (d) one actionable defence step.",
      "a": "**Example Lesson: UPI \"Collect Request\" Scam**\n- **Hook**: \"You're selling your old bicycle on OLX. A buyer messages: 'I'll send ₹5,000 advance via UPI — just approve this collect request for ₹1 to verify your account.'\"\n- **Red Flag**: Legitimate UPI payments *never* require you to approve a \"collect request\" (money going OUT) to receive money. Any request asking for UPI PIN entry is fraudulent.\n- **CIA Pillar**: **Integrity** (unauthorized transaction alters account balance) and **Confidentiality** (UPI PIN exposure enables full account takeover).\n- **Defence Step**: \"Never enter UPI PIN for incoming money. Only scan QR or enter UPI ID to *send* money. Report collect requests from strangers to bank/cybercrime.gov.in.\"\nA poor answer using generic advice (\"don't click links\") without a specific Indian context, red flag, or CIA mapping shows the student cannot translate abstract concepts into teachable, actionable guidance — a key competency for board exam case-study questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cyber safety refers to the practice of protecting digital systems, networks, devices, and data from ______ access, attacks, damage, or theft through informed user behaviour and technical safeguards.",
+     "a": "unauthorized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive a ______ message claiming your bank account will be closed unless you \"verify\" your details by clicking a link — this is a real situation Class 11 students frequently encounter.",
+     "a": "WhatsApp",
+     "self_check": true
+    },
+    {
+     "q": "What is Cyber safety? State the definition given in this lesson.",
+     "a": "Cyber safety refers to the practice of protecting digital systems, networks, devices, and data from unauthorized access, attacks, damage, or theft through informed user behaviour and technical safeguards.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify a given real-world scenario into the correct category of cyber threat (malware, phishing, identity theft, cyberbullying) and justify the classification by identifying the specific attack vector and potential impact on confidentiality, integrity, or availability.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive a WhatsApp message claiming your bank account will be closed unless you \"verify\" your details by clicking a link — this is a real situation Class 11 students ______ encounter.",
+     "a": "frequently",
+     "self_check": true
     }
    ]
   }

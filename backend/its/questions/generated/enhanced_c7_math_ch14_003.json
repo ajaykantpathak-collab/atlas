@@ -34,6 +34,21 @@
      "q": "Describe how you would use the angle bisector construction method to divide a straight angle ($180^\\circ$) into four equal parts of $45^\\circ$ each.",
      "a": "The expected response involves a multi-step construction: First, construct the perpendicular bisector or use a straight line to establish the $180^\\circ$ angle. Second, construct the angle bisector of the $180^\\circ$ angle to create two $90^\\circ$ angles. Third, construct the angle bisectors of each of those two $90^\\circ$ angles to yield four equal parts of $45^\\circ$ each. A poor answer would suggest using a protractor to measure $45^\\circ$ increments directly, which misses the entire geometric construction requirement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Bisecting an angle using a geometric ______ method involves dividing a given angle into two equal halves using only a ruler and a compass, without relying on a protractor for measurement.",
+     "a": "construction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Instead of guessing with a plastic protractor, you can use a trusty pair of compasses and a ______ to find the exact middle of any angle with pure geometric precision.",
+     "a": "straightedge",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can construct the exact angle bisector of any given angle (acute, obtuse, or straight) using a compass and ruler, and can verify that the two resulting angles are equal in measure.",
+     "self_check": true
     }
    ]
   }

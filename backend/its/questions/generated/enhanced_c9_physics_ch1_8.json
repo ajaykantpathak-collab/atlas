@@ -34,6 +34,21 @@
      "q": "Design a 4-step collaborative investigation for your class to test \"Does classroom CO₂ level affect concentration?\" Include: (1) hypothesis, (2) division of labor with communication checkpoints, (3) data sharing method, (4) how you will present findings to the school principal.",
      "a": "A strong answer: (1) Hypothesis: \"If CO₂ > 1000 ppm, reaction time on a standard test increases by >10%.\" (2) Roles: sensor team (calibrate & log), test team (administer cognitive task), coordinator (sync timestamps); checkpoint: daily 5-min sync to verify sensor drift. (3) Shared Google Sheet with columns: timestamp, CO₂ (ppm), student ID, reaction time (ms); locked after entry. (4) Presentation: 3-slide deck – graph of CO₂ vs. reaction time, statistical summary, recommendation for ventilation breaks. A poor answer lacks quantitative hypothesis, defined checkpoints, or a structured data schema, revealing the student sees collaboration as \"working together\" not \"engineering a shared process.\"",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Collaboration and communication in science refer to the structured processes by which scientists share methods, data, and ______ across teams, institutions, and borders to validate findings, build consensus, and accelerate discovery.",
+     "a": "interpretations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine reading a news headline: \"Indian scientists at IUCAA and global partners detect ______ waves using LIGO.\" A Class 9 student sees that this discovery involved thousands of researchers across 20 countries.",
+     "a": "gravitational",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why modern scientific breakthroughs (e.g., gravitational wave detection, COVID-19 vaccine development) require large-scale collaboration, describe the role of peer review in filtering errors, and design a collaborative investigation plan for a Class 9 project that includes defined roles, shared data protocols, and.",
+     "self_check": true
     }
    ]
   }

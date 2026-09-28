@@ -1,0 +1,46 @@
+{
+ "catalog": "enhanced_c6_gram_cbse_80_001",
+ "concepts": [
+  {
+   "id": "enh:c6_gram_cbse_80_001",
+   "title": "c6_gram_cbse_80_001",
+   "questions": [
+    {
+     "q": "Split: 'The tall girl with red ribbons skipped to school.'",
+     "a": "Subject: 'The tall girl with red ribbons' — predicate: 'skipped to school'. A wrong answer making 'girl' alone the subject or 'with red ribbons' the predicate shows the student cuts phrases at word boundaries instead of asking who-did-what.",
+     "self_check": true
+    },
+    {
+     "q": "Sentence or fragment: 'Because it was raining very hard.'",
+     "a": "Fragment — 'because' makes it depend on a main clause that is missing. A wrong answer calling it a sentence reveals the student counts words, not completeness — length does not make a sentence.",
+     "self_check": true
+    },
+    {
+     "q": "Which is the complete subject: 'My elder brother, who lives in Delhi, is a doctor.'",
+     "a": "'My elder brother, who lives in Delhi,' — the who-clause rides along inside the subject. A wrong answer stopping at 'brother' shows the student hasn't learned a subject can carry its own describing clause.",
+     "self_check": true
+    },
+    {
+     "q": "Every English sentence needs two parts that answer two questions: the subject (WHO or WHAT the sentence is about) and the ______ (what the subject DOES or IS).",
+     "a": "predicate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Every English sentence needs two parts that answer two ______: the subject (WHO or WHAT the sentence is about) and the predicate (what the subject DOES or IS). 'The little boy / ran home.' A group of words missing either part is a phrase, not a sentence.",
+     "a": "questions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cover the verb: 'The ______ boy ran home' — cover 'ran home'.",
+     "a": "little",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can split any simple sentence into subject and predicate, and can tell a complete sentence from a fragment (phrase) every time.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

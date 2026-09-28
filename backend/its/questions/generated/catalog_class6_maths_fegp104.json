@@ -4,15 +4,8 @@
   {
    "id": "fegp.4.1",
    "title": "Collecting and Organising Data",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "read the table or chart with its key",
-     "explain": "read the table or chart with its key: total = 6 + 2 + 6 gives 14",
-     "compute": "total = 6 + 2 + 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a frequency table the rows have frequencies 6, 2 and 6. Find the total frequency.",
@@ -49,15 +42,8 @@
   {
    "id": "fegp.4.2",
    "title": "Pictographs and Their Keys",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "read the table or chart with its key",
-     "explain": "read the table or chart with its key: total = 2 + 5 + 2 gives 9",
-     "compute": "total = 2 + 5 + 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a frequency table the rows have frequencies 2, 5 and 2. Find the total frequency.",
@@ -95,6 +81,8 @@
    "id": "fegp.4.3",
    "title": "Totals from a Frequency Table",
    "converted_to_compute": false,
+   "formula": "total = f1 + f2 + f3",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a frequency table the rows have frequencies 7, 7 and 4. Find the total frequency.",
@@ -131,15 +119,8 @@
   {
    "id": "fegp.4.4",
    "title": "Bar Graphs and Reading Them",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "read the table or chart with its key",
-     "explain": "read the table or chart with its key: total = 5 + 8 + 5 gives 18",
-     "compute": "total = 5 + 8 + 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a frequency table the rows have frequencies 5, 8 and 5. Find the total frequency.",

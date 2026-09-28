@@ -1,0 +1,137 @@
+{
+ "catalog": "catalog_class12_computer_science_lecs104.json",
+ "concepts": [
+  {
+   "id": "lecs104.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "start_size = 75",
+      "enqueues = 36",
+      "dequeues = 64",
+      "final_size = start_size + (enqueues - dequeues)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "start_size = 1.9",
+      "enqueues = 49",
+      "dequeues = 47",
+      "final_size = start_size + (enqueues - dequeues)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "start_size = 114",
+      "enqueues = 82",
+      "dequeues = 92",
+      "final_size = start_size + (enqueues - dequeues)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "start_size = 9.6",
+      "enqueues = 88",
+      "dequeues = 95",
+      "final_size = start_size + (enqueues - dequeues)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "start_size = 1.8",
+      "enqueues = 34",
+      "dequeues = 8.3",
+      "final_size = start_size + (enqueues - dequeues)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "start_size = 98",
+      "enqueues = 31",
+      "dequeues = 54",
+      "final_size = start_size + (enqueues - dequeues)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "final_size = start_size + (enqueues - dequeues)"
+   ]
+  },
+  {
+   "id": "lecs104.6",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "front_inserts = 63",
+      "rear_inserts = 83",
+      "front_deletes = 65",
+      "rear_deletes = 72",
+      "final_size = (front_inserts + rear_inserts) - (front_deletes + rear_deletes)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "front_inserts = 27",
+      "rear_inserts = 37",
+      "front_deletes = 103",
+      "rear_deletes = 12.7",
+      "final_size = (front_inserts + rear_inserts) - (front_deletes + rear_deletes)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "front_inserts = 64",
+      "rear_inserts = 26",
+      "front_deletes = 89",
+      "rear_deletes = 51",
+      "final_size = (front_inserts + rear_inserts) - (front_deletes + rear_deletes)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "front_inserts = 91",
+      "rear_inserts = 28",
+      "front_deletes = 66",
+      "rear_deletes = 42",
+      "final_size = (front_inserts + rear_inserts) - (front_deletes + rear_deletes)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "front_inserts = 7.7",
+      "rear_inserts = 5.6",
+      "front_deletes = 80",
+      "rear_deletes = 43",
+      "final_size = (front_inserts + rear_inserts) - (front_deletes + rear_deletes)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "front_inserts = 77",
+      "rear_inserts = 46",
+      "front_deletes = 110",
+      "rear_deletes = 51",
+      "final_size = (front_inserts + rear_inserts) - (front_deletes + rear_deletes)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "final_size = (front_inserts + rear_inserts) - (front_deletes + rear_deletes)"
+   ]
+  }
+ ]
+}

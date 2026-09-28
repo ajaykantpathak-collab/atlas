@@ -34,6 +34,31 @@
      "q": "Create a real-world problem from Indian context (e.g., a clock, a vehicle wheel, a circular track) that requires using l = rθ with θ in radians, where the given angle is in degrees and the answer must be in metres. The problem should have a \"twist\" that tests whether the student automatically converts to radians.",
      "a": "Sample problem: \"The minute hand of the clock on the Mumbai Railway Station tower is 1.2 m long. How far does its tip move in 25 minutes? (Use π = 3.14)\" Twist: 25 minutes = 25/60 × 360° = 150° = 5π/6 rad. l = 1.2 × 5π/6 = π m = 3.14 m. A poor problem would give the angle directly in radians or ask for degrees only, not testing the conversion step. A good answer shows the student can design a problem that forces the degree→radian→arc length chain.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An angle is a measure of rotation of a ray about its initial point, where the amount of rotation from the initial side to the terminal side ______ its measure.",
+     "a": "determines",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a Ferris wheel at a fair in Delhi with a ______ of 20 metres.",
+     "a": "radius",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a Ferris wheel at a fair in Delhi with a radius of ______ metres.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can fluently convert between degree and radian measures (including degrees-minutes-seconds), apply the arc length formula l = rθ with θ in radians, and explain why radian measure is the natural unit for calculus and circular motion by relating arc length to radius.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a Ferris wheel at a fair in Delhi with a radius of 20 metres.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

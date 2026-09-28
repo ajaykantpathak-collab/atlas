@@ -34,6 +34,31 @@
      "q": "Design a two-step purification scheme for a target enzyme (MW 60 kDa, pI 5.0) from a crude plant extract containing proteases (MW 25 kDa, pI 8.0), polysaccharides, and pigments. Justify the order of steps.",
      "a": "Step 1: Ion exchange on DEAE-agarose at pH 7.0. Target (pI 5.0) binds (negative); proteases (pI 8.0) flow through (positive); polysaccharides/pigments often flow through or wash off. Elute target with 0–0.5 M NaCl gradient. Step 2: Gel filtration (Sephadex G-75) to separate target (60 kDa) from any remaining similarly charged contaminants and to exchange into storage buffer. Order justification: Ion exchange first for high-capacity capture and removal of bulk contaminants (proteases); gel filtration last for high-resolution polishing and buffer exchange. A poor answer reversing the order reveals misunderstanding of capacity vs resolution trade-offs — gel filtration has low sample capacity and would be overloaded by crude extract.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is a separation technique where components of a mixture are distributed between a mobile phase (liquid/gas) and a stationary phase (solid/gel) such that each component migrates at a different rate based on its differential affinity for the stationary phase.",
+     "a": "Chromatography",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a crude bacterial lysate containing your target protein (50 kDa, pI 6.5) mixed with larger aggregates (500 kDa), smaller ______ (10 kDa), and proteins of similar size but different charge.",
+     "a": "contaminants",
+     "self_check": true
+    },
+    {
+     "q": "What is Chromatography? State the definition given in this lesson.",
+     "a": "Chromatography is a separation technique where components of a mixture are distributed between a mobile phase (liquid/gas) and a stationary phase (solid/gel) such that each component migrates at a different rate based on its differential affinity for the stationary phase.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Chromatography?",
+     "a": "Students consistently confuse \"molecular weight\" with \"hydrodynamic size\" in gel filtration, believing a 100 kDa globular protein and a 100 kDa fibrous protein co-elute.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) explain the physical basis of separation in gel filtration (size exclusion limit, fractionation range) and ion exchange (charge-charge interaction, pI vs pH) using correct terminology, and (2) predict the elution order of a given set of biomolecules in both techniques and design a logical two-step.",
+     "self_check": true
     }
    ]
   }

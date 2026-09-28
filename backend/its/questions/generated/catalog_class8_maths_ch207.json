@@ -5,6 +5,8 @@
    "id": "hegp.207.1",
    "title": "Area of a Rectangle",
    "converted_to_compute": false,
+   "formula": "area = length * width",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 17 cm by 9 cm.",
@@ -42,6 +44,8 @@
    "id": "hegp.207.2",
    "title": "Area of a Triangle",
    "converted_to_compute": false,
+   "formula": "area = 0.5 * base * height",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 10 cm by 8 cm.",
@@ -79,6 +83,8 @@
    "id": "hegp.207.3",
    "title": "Area of a General Quadrilateral",
    "converted_to_compute": false,
+   "formula": "area = 0.5 * diagonal * (h1 + h2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a parallelogram with base 19 cm and height 8 cm.",
@@ -116,6 +122,8 @@
    "id": "hegp.207.4",
    "title": "Area of a Parallelogram",
    "converted_to_compute": false,
+   "formula": "area = base * height",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a parallelogram with base 7 cm and height 13 cm.",
@@ -153,6 +161,8 @@
    "id": "hegp.207.5",
    "title": "Area of a Rhombus",
    "converted_to_compute": false,
+   "formula": "area = 0.5 * d1 * d2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a parallelogram with base 18 cm and height 10 cm.",
@@ -190,6 +200,8 @@
    "id": "hegp.207.6",
    "title": "Area of a Trapezium",
    "converted_to_compute": false,
+   "formula": "area = 0.5 * height * (side_a + side_b)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a parallelogram with base 10 cm and height 8 cm.",
@@ -227,6 +239,8 @@
    "id": "hegp.207.7",
    "title": "Area Unit Conversion (Square Inches to Square Centimeters)",
    "converted_to_compute": false,
+   "formula": "area_cm2 = area_in2 * 6.4516",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 16.",
@@ -264,6 +278,8 @@
    "id": "hegp.207.8",
    "title": "Finding Altitude using Area Equivalence",
    "converted_to_compute": false,
+   "formula": "alt2 = (base1 * alt1) / base2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a parallelogram with base 13 cm and height 24 cm.",

@@ -34,6 +34,21 @@
      "q": "Design a research scenario where a census is clearly inappropriate and a sample survey is the only viable option. Specify the population, the variable, and three practical constraints that rule out a census.",
      "a": "Scenario: Estimating the average lead content in paint used on toys sold in Delhi markets. Population: All toy units sold in Delhi in a year (millions). Variable: Lead concentration (mg/kg). Constraints: (1) Testing destroys the toy (destructive testing); (2) Cost per lab test is ₹2,000—census would cost billions; (3) Results needed in 3 months for regulatory action—census would take years. A poor answer (e.g., \"surveying all students in a school\") fails to identify a context where census is *impossible*, not just inconvenient, revealing the student cannot distinguish feasibility constraints from preference.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A census (complete enumeration) collects data from every unit of the defined population, while a sample survey collects data from a ______ subset; the choice between them involves a trade-off between accuracy, cost, time, and feasibility, where sampling error exists only in sample surveys but non-sampling errors can occur in both.",
+     "a": "representative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine the government wants to know the average monthly household ______ in your city to design a new subsidy scheme.",
+     "a": "expenditure",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish between population and sample in any given research scenario, identifying the target population and sampling frame; (2) Compare census and sample surveys across at least five dimensions (cost, time, accuracy, detail, feasibility) and justify the appropriate method for a specific economic.",
+     "self_check": true
     }
    ]
   }

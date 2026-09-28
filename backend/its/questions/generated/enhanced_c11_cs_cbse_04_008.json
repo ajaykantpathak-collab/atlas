@@ -34,6 +34,26 @@
      "q": "Design a mini-program that reads a single line containing three values — item name (string), price (float), quantity (int) — separated by commas, splits them, converts appropriately, and prints the total cost in the format: `Total for <item>: ₹<total>`.",
      "a": "```python\nline = input(\"Enter item,price,qty: \")\nparts = line.split(',')\nitem = parts[0].strip()\nprice = float(parts[1].strip())\nqty = int(parts[2].strip())\ntotal = price * qty\nprint(\"Total for\", item, \": ₹\", total, sep='')\n```\nA poor answer might use three separate `input()` calls, ignore splitting, or forget `strip()` and conversion. This reveals the student cannot compose `input()`, string methods, type conversion, and `print()` formatting into a cohesive solution.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The input() ______ reads a line of text from standard input (keyboard), converts it to a string, and returns that string to the program.",
+     "a": "function",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a ______ \"Grocery Bill Calculator\" for a local kirana store.",
+     "a": "simple",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write a Python program that prompts the user for multiple numeric and string values using input(), converts the string results to appropriate numeric types, performs arithmetic or string operations, and displays the results using print() with custom separators and end characters.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a simple \"Grocery Bill ______\" for a local kirana store.",
+     "a": "Calculator",
+     "self_check": true
     }
    ]
   }

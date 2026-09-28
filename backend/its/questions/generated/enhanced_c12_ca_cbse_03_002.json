@@ -34,6 +34,31 @@
      "q": "Design a spreadsheet template for a new asset category 'Solar Power Plant' (useful life 25 years, SLM rate 3.17% per Companies Act). The template must handle: (a) mid-year installation with pro-rata depreciation, (b) automatic flag if salvage value > 5% of acquisition cost (violates Schedule XIV), (c) dynamic update when asset life is revised mid-life. List the key columns, formulas, and validation rules.",
      "a": "Key columns: Asset ID, Name, Purchase Date, Install Date, Purchase Cost, Install Exp, Pre-op Exp, Acquisition Cost (formula: sum), Salvage Value (input + validation: <=5% of Acquisition Cost), Life (input), Method (SLM/WDV), Depreciation Start Year (IF install month>3 then Year+1 else Year), Annual Depreciation (SLN with absolute salvage/life), Accumulated Depreciation (running sum), Net Book Value (Acquisition - Accumulated). Validation: Data Validation on Salvage Value cell with custom formula =H5<=0.05*G5. For life revision: add 'Revised Life' column, use IF(Revised<>\"\", Revised, Life) in SLN. A poor answer misses pro-rata logic or validation — showing inability to translate regulatory rules into spreadsheet controls.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Asset Accounting in ______ accounting refers to the systematic process of recording, tracking, and computing depreciation on fixed assets (tangible and intangible) using spreadsheet functions like SLN (Straight Line Method) and DB (Written Down Value Method) to generate depreciation schedules and fixed asset registers for financial reporting.",
+     "a": "computerised",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family's small manufacturing business just purchased a ₹15 lakh CNC machine with ₹2 lakh ______ costs — how do you decide how much of this cost to expense each year for the next 10 years, and how would you automate this in Excel so the accountant doesn't recalculate manually every March?",
+     "a": "installation",
+     "self_check": true
+    },
+    {
+     "q": "What is Asset Accounting in computerised accounting? State the definition given in this lesson.",
+     "a": "Asset Accounting in computerised accounting refers to the systematic process of recording, tracking, and computing depreciation on fixed assets (tangible and intangible) using spreadsheet functions like SLN (Straight Line Method) and DB (Written Down Value Method) to generate depreciation schedules and fixed asset registers for financial.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Asset Accounting in computerised accounting?",
+     "a": "Students believe the DB function's 'Period' argument (column J in Figure 3.7) is simply the current year number (1, 2, 3...).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Design a spreadsheet template for asset depreciation using SLN and DB functions with correct absolute/relative cell references, (2) Compute acquisition cost, salvage value, useful life, and period-specific depreciation for both SLM and WDV methods, (3) Prepare a Schedule of Fixed Assets forming part of.",
+     "self_check": true
     }
    ]
   }

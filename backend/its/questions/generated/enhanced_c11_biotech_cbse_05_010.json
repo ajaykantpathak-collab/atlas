@@ -34,6 +34,31 @@
      "q": "Design a hypothetical experiment using temperature-sensitive mutants of CDK1 in fission yeast (Schizosaccharomyces pombe) to demonstrate that CDK1 activity is both necessary and sufficient for the G2/M transition. Outline the key experimental steps and the expected phenotypes at permissive and restrictive temperatures.",
      "a": "Expected answer: 1) Isolate a ts-cdc2 (CDK1) mutant that is functional at 25°C but inactive at 36°C. 2) Synchronize cells in G2 (e.g., by nitrogen starvation). 3) Shift to restrictive temperature: cells arrest in G2 with unreplicated DNA? No, they arrest with 2C DNA content, condensed chromosomes? Actually, cdc2 mutants arrest in G2 with unseparated chromosomes. 4) Shift back to permissive temperature: cells synchronously enter mitosis. 5) For sufficiency, use a constitutively active CDK1 mutant (e.g., cdc2-AF lacking inhibitory phosphorylation sites) and show it drives premature mitosis even in S phase. A poor answer (e.g., only describing arrest without the rescue, or confusing with cdc25 mutants) reveals the student cannot design a classic genetic experiment that separates necessity (loss-of-function arrest) from sufficiency (gain-of-function premature entry).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cyclins are regulatory proteins whose ______ oscillate cyclically during the cell cycle, while Cyclin-Dependent Kinases (CDKs) are serine/threonine kinases that remain constitutively expressed but require binding to specific cyclin partners for catalytic activity; together, distinct Cyclin-CDK complexes phosphorylate key substrate proteins to drive irreversible transitions through G1/S and G2/M checkpoints.",
+     "a": "concentrations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a car engine (CDK) that cannot run without a specific gear (cyclin) engaged at the right moment; the cell cycle is the journey, and ______ are toll booths that only open when the correct cyclin-CDK gear is engaged.",
+     "a": "checkpoints",
+     "self_check": true
+    },
+    {
+     "q": "What is Cyclins? State the definition given in this lesson.",
+     "a": "Cyclins are regulatory proteins whose concentrations oscillate cyclically during the cell cycle, while Cyclin-Dependent Kinases (CDKs) are serine/threonine kinases that remain constitutively expressed but require binding to specific cyclin partners for catalytic activity; together, distinct Cyclin-CDK complexes phosphorylate key.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Cyclins?",
+     "a": "Students often believe that CDKs are *only* active when bound to cyclins, and that cyclin binding alone fully activates the kinase.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) match each major cyclin (D, E, A, B) with its cognate CDK partner(s) and the specific checkpoint it controls, and (2) predict the phenotypic consequence (arrest or uncontrolled proliferation) of a given mutation in a cyclin, CDK, or CDK inhibitor (CKI) using the principle of checkpoint regulation.",
+     "self_check": true
     }
    ]
   }

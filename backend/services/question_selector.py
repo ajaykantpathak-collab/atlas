@@ -19,6 +19,7 @@ import asyncio
 import hashlib
 import logging
 import random
+import re
 from datetime import datetime, timedelta, timezone
 from typing import Any, Optional
 
@@ -260,6 +261,9 @@ class QuestionSelector:
         subject: str,
         previous_correct: Optional[bool] = None,
         previous_difficulty: Optional[float] = None,
+        class_level: Optional[int] = None,
+        topic_ids: Optional[list] = None,
+        exclude_question_ids: Optional[set] = None,
     ) -> dict[str, Any]:
         """
         Select the optimal next question for a student.
@@ -270,6 +274,13 @@ class QuestionSelector:
             subject: Subject to select question from
             previous_correct: Was the last answer correct?
             previous_difficulty: Difficulty of last question
+            class_level: Explicit class filter override. Applied when the
+                student row carries no numeric class (shared demo row) so
+                the candidate pool never leaks off-class questions.
+            topic_ids: Node ids the session is scoped to (chapter practice).
+                When provided, the corpus lane is CHAPTER-gated: candidates
+                come from these nodes' questions whenever that pool can
+                fill, and generators never serve a chapter-scoped session.
 
         Returns:
             Question dict with text, options, difficulty, type, etc.
@@ -284,7 +295,7 @@ class QuestionSelector:
         # Parallel data fetching — reduce latency
         try:
             mastery, review_items, recent_hashes, student_theta = await asyncio.gather(
-                get_mastery(self.db, student_id, subject),
+                self._mastery_score(student_id, subject),
                 self._get_review_items(student_id, subject),
                 self._get_recent_attempt_hashes(student_id, subject),
                 self._get_student_theta(student_id, subject),
@@ -311,12 +322,22 @@ class QuestionSelector:
         # ── Path 2: Determine question type (competency vs standard) ──
         is_competency = random.random() < competency_ratio
 
+        resolved_class = await self._resolve_class_level(student_id)
+        if resolved_class is None and class_level is not None:
+            # student row has no numeric class — fall back to the caller's
+            # explicit override (token user / request) instead of running
+            # the pool class-unfiltered (off-class question leak).
+            resolved_class = class_level
+        class_level = resolved_class
+
         # ── Path 3: Generate and score candidates ──
         candidates = await self._get_candidates(
             subject, student_theta,
             diff_lower, diff_upper,
             is_competency, recent_hashes,
-            mastery
+            mastery, class_level,
+            topic_ids=topic_ids,
+            exclude_question_ids=exclude_question_ids,
         )
 
         if not candidates:
@@ -324,7 +345,9 @@ class QuestionSelector:
             candidates = await self._get_candidates(
                 subject, student_theta,
                 DIFFICULTY_MIN, DIFFICULTY_MAX,
-                is_competency, set(), mastery
+                is_competency, set(), mastery, class_level,
+                topic_ids=topic_ids,
+                exclude_question_ids=exclude_question_ids,
             )
 
         if not candidates:
@@ -355,6 +378,9 @@ class QuestionSelector:
             "correct_answer": best["correct_answer"],
             "difficulty": round(best["difficulty"], 3),
             "topic": best["topic"],
+            "node_id": best.get("node_id"),  # internal only — mastery tracking
+            "marking_scheme": best.get("marking_scheme"),
+            "explanation": best.get("explanation", ""),
             "question_type": best["question_type"],
             "seed_hash": best["seed_hash"],
             "expected_theta": round(student_theta, 4),
@@ -391,6 +417,25 @@ class QuestionSelector:
         "psychology": ["psy"],
         "sociology": ["soc"],
         "political_science": ["pol"],
+        # plain "science" must reach the school-science generators — the
+        # naive substring fallback leaks home_science/political_science
+        # (B22: kitchen-ergonomics questions in a class-6 science session).
+        "science": ["science", "sci", "physics", "chem", "bio", "evs"],
+    }
+
+    # Modules whose names CONTAIN the subject word but belong to a
+    # different discipline — excluded for that subject's sessions.
+    _SUBJECT_EXCLUSIONS = {
+        "science": ("home_science", "political_science", "social_science",
+                    "computer_science", "home", "political", "social"),
+        "biology": ("biotech",),
+        # C10 audit: "appmath" contains "math", so the applied-maths
+        # generators matched core-mathematics sessions. Applied Maths is a
+        # class 11/12 ELECTIVE (subject applied_maths) — its propositional-
+        # logic items must never serve a "mathematics" session.
+        "mathematics": ("appmath", "appliedmath", "applied_math", "applied"),
+        "maths": ("appmath", "appliedmath", "applied_math", "applied"),
+        "math": ("appmath", "appliedmath", "applied_math", "applied"),
     }
 
     def _match_generators(
@@ -422,6 +467,22 @@ class QuestionSelector:
         subject_grade_match = []
         subject_match = []
 
+        # ── Syllabus-fit guard (C10 audit) ──
+        # Some generator modules encode a class that doesn't offer the
+        # subject: CBSE class 10 has no "applied mathematics" (code 241
+        # is an 11-12 elective), no EVS (a c1-5 subject), and none of the
+        # CISCE-only applied electives (Commercial Studies/Apps, Economic
+        # Applications). Their ids look on-grade ("C10-APP-*") so the
+        # class-proof check can't catch them — exclude at source so
+        # diagnostics/practice never serve them.
+        _OUT_OF_SYLLABUS = {
+            "evs": {6, 7, 8, 9, 10, 11, 12},
+            "appmath": {6, 7, 8, 9, 10},
+            "commapp": {6, 7, 8, 9, 10},
+            "commstud": {6, 7, 8, 9, 10},
+            "econapp": {6, 7, 8, 9, 10},
+        }
+
         for qt in qgen_types:
             # Namespaced key: "module_name:qtype_name"
             # Module name is the prefix before ":"
@@ -432,6 +493,18 @@ class QuestionSelector:
 
             qt_lower = qt.lower()
             module_lower = module_name.lower()
+
+            if any(
+                frag in module_lower and grade in grades
+                for frag, grades in _OUT_OF_SYLLABUS.items()
+            ):
+                continue
+
+            # discipline-name containment: "science" is inside
+            # "home_science" — those modules are a different subject
+            exclusions = self._SUBJECT_EXCLUSIONS.get(subject_lower, ())
+            if any(x in module_lower or x in qt_lower for x in exclusions):
+                continue
 
             matches_subject = any(a in qt_lower or a in module_lower for a in aliases)
             matches_grade = (
@@ -474,9 +547,12 @@ class QuestionSelector:
         if not subject_grade_match and not subject_match:
             return self._placeholder_questions(topic, count, difficulties)
 
-        # Build ordered generator list: subject+grade first, then subject fallback
-        fallback = [s for s in subject_match if s not in subject_grade_match]
-        ordered = subject_grade_match + fallback
+        # GRADE PIN (C8): only generators built for the student's class.
+        # The old any-grade subject fallback served class-11/12 generator
+        # templates to a grade-8 diagnostic — off-grade content must not be
+        # generated at all, even as a fallback (a missing grade-match yields
+        # an honest placeholder, which the caller's answerable-filter drops).
+        ordered = subject_grade_match
 
         # Filter to only generators that have a working adapter
         # (adapter creation does pattern detection once and caches it)
@@ -694,6 +770,29 @@ class QuestionSelector:
 
     # ─── Private: Data Access ──────────────────────────────────────────────
 
+    async def _mastery_score(self, student_id: str, subject: str) -> Optional[float]:
+        """Overall [0,1] mastery score for the student/subject.
+
+        services.mastery_sync's get_mastery takes NO db session (it owns
+        its connection) and returns the mastery DICT; callers here (and
+        _get_candidates/_corpus_candidates scoring) want a scalar.
+        BKT p_know is the canonical [0,1] knowledge probability, so it
+        is the score.  Returns None on any failure — the caller treats
+        that as 'no mastery signal' (previous behavior on fetch errors).
+        """
+        try:
+            m = await get_mastery(student_id, subject)
+        except Exception:
+            return None
+        if isinstance(m, dict):
+            try:
+                return float(m.get("bkt_p_know"))
+            except (TypeError, ValueError):
+                return None
+        if isinstance(m, (int, float)):
+            return float(m)
+        return None
+
     async def _get_student_theta(self, student_id: str, subject: str) -> float:
         """
         Get student's IRT ability estimate (theta).
@@ -711,10 +810,10 @@ class QuestionSelector:
 
         # Fallback: estimate from mastery score
         try:
-            mastery = await get_mastery(self.db, student_id, subject)
-            if mastery is not None:
+            mastery_score = await self._mastery_score(student_id, subject)
+            if mastery_score is not None:
                 # Map mastery [0,1] to theta [-3, 3]
-                return float(np.clip((mastery - 0.5) * 5, THETA_CLAMP_MIN, THETA_CLAMP_MAX))
+                return float(np.clip((mastery_score - 0.5) * 5, THETA_CLAMP_MIN, THETA_CLAMP_MAX))
         except Exception:
             pass
 
@@ -725,7 +824,7 @@ class QuestionSelector:
     ) -> list[dict[str, Any]]:
         """Fetch SM-2 due review items for a student."""
         try:
-            return await get_review_schedule(self.db, student_id, subject)
+            return await get_review_schedule(student_id, subject)
         except Exception:
             return []
 
@@ -772,6 +871,36 @@ class QuestionSelector:
 
     # ─── Private: Candidate Generation & Scoring ───────────────────────────
 
+    async def _resolve_class_level(self, student_id: str) -> Optional[int]:
+        """Student.student_class → int, or None when unset/non-numeric."""
+        if self.db is None or not student_id:
+            return None
+        try:
+            from database import Student
+            row = (await self.db.execute(
+                select(Student.student_class).where(
+                    Student.id == student_id))).scalar_one_or_none()
+            if row:
+                import re
+                m = re.search(r"\d+", str(row))
+                if m:
+                    return int(m.group())
+        except Exception:
+            pass
+        try:
+            # students row has no class — the users table (same id for
+            # auth users) usually does; without this the corpus pool
+            # runs ungated and other-class questions leak in
+            from backend.models.user import User as _UserModel
+            row = (await self.db.execute(
+                select(_UserModel.class_level).where(
+                    _UserModel.id == student_id))).scalar_one_or_none()
+            if row:
+                return int(row)
+        except Exception:
+            pass
+        return None
+
     async def _get_candidates(
         self,
         subject: str,
@@ -781,18 +910,43 @@ class QuestionSelector:
         is_competency: bool,
         exclude_hashes: set[str],
         mastery: Optional[float],
+        class_level: Optional[int] = None,
+        topic_ids: Optional[list] = None,
+        exclude_question_ids: Optional[set] = None,
     ) -> list[dict[str, Any]]:
         """Generate candidate questions and score them via IRT.
 
         Uses the adapter layer to generate questions through a unified
         interface regardless of the underlying generator pattern.
         """
+        candidates: list[dict[str, Any]] = []
+
+        # Corpus-first: real node-derived questions (enhanced_nodes_md →
+        # board_questions). Generators fill only what the corpus can't.
+        corpus = await self._corpus_candidates(
+            subject, theta, diff_lower, diff_upper,
+            is_competency, exclude_hashes, mastery, class_level,
+            topic_ids=topic_ids,
+            exclude_question_ids=exclude_question_ids)
+        candidates.extend(corpus)
+
+        # Chapter-scoped sessions NEVER draw from generators: generator
+        # items carry no chapter at all, so "practice this chapter" that
+        # serves them is the exact C10 grammar-leak defect class.
+        if topic_ids:
+            return candidates
+
+        if len(corpus) >= 8:
+            # Enough real content — generators not needed for this pick
+            return candidates
+
         qtypes = self._get_generators_for_subject(subject)
         if not qtypes:
+            if candidates:
+                return candidates
             logger.warning("No generators found for subject: %s", subject)
             return []
 
-        candidates: list[dict[str, Any]] = []
         date_str = datetime.now(timezone.utc).strftime("%Y%m%d")
 
         for qtype in qtypes:
@@ -824,6 +978,24 @@ class QuestionSelector:
                 question = qs[0]
                 if not question.get("question_text"):
                     continue
+
+                # Syllabus-fit (C10 audit): ids like "C10-APP-*" encode the
+                # class but not the curriculum — applied maths is an 11/12
+                # elective, EVS ends at c5, and the CISCE-only applied
+                # electives aren't CBSE subjects. The qtype-level guard in
+                # _match_generators covers the subject-matched lanes; this
+                # qid-level check is the last line for every other lane.
+                _qid0 = str(question.get("question_id") or "")
+                _seg0 = re.match(
+                    r"(?i)^c(\d{1,2})-(app|evs|commapp|commstud|econapp)-",
+                    _qid0)
+                if _seg0:
+                    _gc0 = int(_seg0.group(1))
+                    _pk0 = _seg0.group(2).lower()
+                    if ((_pk0 == "evs" and _gc0 >= 6)
+                            or (_pk0 == "app" and _gc0 <= 10)
+                            or _pk0 in ("commapp", "commstud", "econapp")):
+                        continue
 
                 actual_diff = target_diff
                 discrim = DEFAULT_DISCRIMINATION
@@ -860,6 +1032,339 @@ class QuestionSelector:
                 })
 
         return candidates
+
+    @staticmethod
+    def _syllabus_filters(subject: Optional[str], class_level: Optional[int]):
+        """SQL conditions excluding rationalised-out topics.
+
+        board_questions rows are tagged by class/subject only — the class-10
+        maths tag still carries frustum, Euclid's-division-lemma and
+        mathematical-logic items that the rationalised CBSE syllabus
+        removed. Exclude them at query level for c10 maths so no lane
+        (diagnostic corpus, practice candidates) can serve them.
+        """
+        try:
+            from backend.models.enrichment import BoardQuestion
+        except Exception:
+            return []
+        if class_level != 10:
+            return []
+        s = (subject or "").lower()
+        if s not in ("math", "maths", "mathematics"):
+            return []
+        return [
+            ~BoardQuestion.question_text.ilike(p)
+            for p in (
+                "%frustum%",
+                "%euclid%",
+                "%tautology%",
+                "%truth table%",
+                "%syllogism%",
+            )
+        ]
+
+    async def get_next_question(
+        self,
+        ability_estimate: float = 0.0,
+        subskill: str = "",
+        exclude_ids: Optional[list] = None,
+        target_difficulty: float = 0.0,
+        subject: Optional[str] = None,
+        class_level: Optional[int] = None,
+    ) -> dict[str, Any]:
+        """Diagnostic-facing corpus selector (enhanced_nodes_md only).
+
+        Theta-scale ability/target (-2..+2) maps onto the node difficulty
+        ladder (0..1); nearest corpus diagnostic question wins.
+        """
+        if self.db is None:
+            return {}
+        try:
+            from backend.models.enrichment import BoardQuestion
+            from sqlalchemy import func as sa_func
+
+            target01 = max(0.05, min((target_difficulty + 2.0) / 4.0, 0.95))
+
+            q = select(BoardQuestion).where(
+                BoardQuestion.board == "CBSE",
+                BoardQuestion.correct_answer.isnot(None),
+            )
+            subs = self._CORPUS_SUBJECTS.get(
+                (subject or "").lower().replace(" ", "_"),
+                [(subject or "").lower()] if subject else None)
+            if subs is not None:
+                q = q.where(BoardQuestion.subject.in_(subs))
+            if class_level:
+                q = q.where(BoardQuestion.class_level == class_level)
+            for cond in self._syllabus_filters(subject, class_level):
+                q = q.where(cond)
+            if exclude_ids:
+                import uuid as _uuid
+                excl = []
+                for i in exclude_ids:
+                    s = str(i)
+                    if s.startswith("corpus:"):
+                        try:
+                            excl.append(_uuid.UUID(s[7:]))
+                        except ValueError:
+                            pass
+                if excl:
+                    q = q.where(~BoardQuestion.id.in_(excl))
+            rows = (await self.db.execute(
+                q.order_by(sa_func.random()).limit(120))).scalars().all()
+            if not rows:
+                return {}
+
+            best = min(rows, key=lambda r: abs(
+                self._corpus_difficulty(r) - target01))
+            diff01 = self._corpus_difficulty(best)
+            node = (best.node_tags or [None])[0]
+            return {
+                "id": f"corpus:{best.id}",
+                "question_id": f"corpus:{best.id}",
+                "text": best.question_text,
+                "question_text": best.question_text,
+                "options": best.options or [],
+                "correct_answer": best.correct_answer,
+                "marking_scheme": best.marking_scheme,
+                "explanation": best.explanation or best.model_answer or "",
+                "difficulty": target_difficulty,   # theta-scale for the engine
+                "beta": target_difficulty,
+                "subskill": subskill or best.subject,
+                "question_type": best.question_type or "text",
+                "node_id": node,
+                "topic": best.chapter or subject or "",
+            }
+        except Exception as e:
+            logger.warning("corpus diagnostic select failed: %s", e)
+            return {}
+
+    async def get_question(self, question_id: str) -> Optional[dict]:
+        """Fetch a corpus question's canonical record for grading."""
+        if self.db is None or not str(question_id).startswith("corpus:"):
+            return None
+        try:
+            import uuid as _uuid
+            from backend.models.enrichment import BoardQuestion
+            rid = _uuid.UUID(str(question_id).replace("corpus:", ""))
+            row = (await self.db.execute(
+                select(BoardQuestion).where(BoardQuestion.id == rid))
+            ).scalar_one_or_none()
+            if not row:
+                return None
+            return {
+                "id": question_id,
+                "question_id": question_id,
+                "text": row.question_text,
+                "options": row.options or [],
+                "correct_answer": row.correct_answer,
+                "marking_scheme": row.marking_scheme,
+                "explanation": row.explanation or row.model_answer or "",
+                "subskill": row.subject,
+                "difficulty": self._corpus_difficulty(row),
+                "node_id": (row.node_tags or [None])[0],
+            }
+        except Exception as e:
+            logger.warning("corpus get_question failed: %s", e)
+            return None
+
+    # ─── Corpus questions (enhanced_nodes_md → board_questions) ───────────
+
+    _CORPUS_SUBJECTS = {
+        "mathematics": ["math", "maths"], "maths": ["math", "maths"],
+        "math": ["math", "maths"], "biology": ["bio", "biology"],
+        "bio": ["bio", "biology"], "physics": ["phy", "physics"],
+        "phy": ["phy", "physics"], "chemistry": ["chem", "chemistry"],
+        "chem": ["chem", "chemistry"],
+        "english": ["engl", "english", "eng_k", "eng_w", "eng_f",
+                    "eng_v", "eng_s", "eng_h", "gram", "comp"],
+        "computer_science": ["cs"], "cs": ["cs"],
+        # C10 audit [STUDENT-C10][P1 OFFSYLL-LOGIC-BANK]: the practice page
+        # passes the corpus slugs "grammar" and "computer" directly. They
+        # matched NOTHING here (the corpus codes are "gram"/"comp"), so the
+        # corpus lane returned zero rows and the subject-blind generator
+        # fallback served the class-10 applied-maths generator — grammar
+        # practice was 100% propositional-logic items. Map the slugs to
+        # their real corpus codes so practice serves the subject it says.
+        "grammar": ["gram", "grammar"], "gram": ["gram"],
+        "computer": ["comp", "cs", "computer"], "comp": ["comp"],
+        "economics": ["eco", "economics"], "eco": ["eco", "economics"],
+        "history": ["hist", "history"], "hist": ["hist", "history"],
+        "geography": ["geo", "geography"], "geo": ["geo", "geography"],
+        "accountancy": ["acc"], "acc": ["acc"],
+        "business_studies": ["bs"], "bs": ["bs"],
+        "civics": ["civ", "civics"], "civ": ["civ", "civics"],
+        "hindi": ["hin_ar", "hin_a", "hin_v", "hin_al"],
+        # Electives that exist in board_questions but were missing here:
+        # without an alias the fallback list (e.g. ["psychology"]) matches
+        # nothing, so their diagnostics silently fill with off-subject
+        # generator questions instead of real corpus content.
+        "psychology": ["psy"], "psy": ["psy"],
+        "biotechnology": ["biotech"], "biotech": ["biotech"],
+        "statistics": ["stat"], "stat": ["stat"],
+        # science sessions used to match NOTHING (no sci/science subject
+        # in board_questions) and fall through to subject-blind
+        # generators -> home-science etc. leaked in (B22). Map to the
+        # real corpus science subjects; hs/soc/ps stay OUT.
+        "science": ["sci", "science", "phy", "chem", "bio", "physics",
+                    "chemistry", "biology"],
+        "home_science": ["hs"], "hs": ["hs"],
+        # social_science diagnostics (C7/C8): the corpus stores the four SST
+        # disciplines under their own tags — "soc"/"social_science"/"sst"
+        # match zero rows, so SST plans fell through to unfiltered
+        # generator content (accountancy HRM items in a class-7 SST run).
+        "social_science": ["hist", "geo", "civ", "eco", "soc", "sst"],
+        "soc": ["soc"],
+        "physical_education": ["ps"], "ps": ["ps"],
+        "general": None,  # no subject filter
+    }
+
+    _CORPUS_DIFF = {"easy": 0.3, "medium": 0.55, "hard": 0.8}
+
+    @staticmethod
+    def _corpus_difficulty(row) -> float:
+        """Continuous difficulty from the node's built-in ladder.
+
+        diagnostic Q1-6 are ordered recall→create (0.18 → 0.80);
+        worked_example numbers rise with complexity;
+        competency/seed carry their own labels.
+        """
+        st = row.source_type or ""
+        qn = row.question_number or 1
+        if st == "diagnostic":
+            return min(0.18 + (qn - 1) * 0.125, 0.93)
+        if st == "worked_example":
+            return min(0.40 + (qn - 1) * 0.12, 0.85)
+        if st == "seed":
+            # question_number encodes seed_index*100 + subpart letter
+            sub = (qn % 100) - 1
+            return min(0.60 + max(sub, 0) * 0.06, 0.95)
+        base = {"easy": 0.3, "medium": 0.55, "hard": 0.8}.get(
+            row.difficulty or "medium", 0.55)
+        return min(base + (qn - 1) * 0.05, 0.95)
+
+    async def _corpus_candidates(
+        self,
+        subject: str,
+        theta: float,
+        diff_lower: float,
+        diff_upper: float,
+        is_competency: bool,
+        exclude_hashes: set[str],
+        mastery: Optional[float],
+        class_level: Optional[int] = None,
+        pool: int = 120,
+        topic_ids: Optional[list] = None,
+        exclude_question_ids: Optional[set] = None,
+    ) -> list[dict[str, Any]]:
+        """Pull answered questions from the node corpus and IRT-score them.
+
+        board_questions rows are all extracted from enhanced_nodes_md
+        (diagnostics / competency / seed sub-parts / worked examples).
+        Node ids are kept internal — never surfaced to the client.
+
+        CHAPTER GATING (C10 audit): when ``topic_ids`` (the session's node
+        ids) are provided, candidates are drawn ONLY from those nodes'
+        questions while that pool can fill; a too-thin chapter pool widens
+        to the subject pool rather than inventing content.
+        """
+        if self.db is None:
+            return []
+        try:
+            from backend.models.enrichment import BoardQuestion
+            from sqlalchemy import func as sa_func, or_, cast, Text as sa_Text
+
+            base = [
+                BoardQuestion.board == "CBSE",
+                BoardQuestion.correct_answer.isnot(None),
+            ]
+            subs = self._CORPUS_SUBJECTS.get(
+                (subject or "").lower(), [(subject or "").lower()])
+            if subs is not None:
+                base.append(BoardQuestion.subject.in_(subs))
+            if class_level:
+                base.append(BoardQuestion.class_level == class_level)
+            base.extend(self._syllabus_filters(subject, class_level))
+            # competency/seed is a NARROW slice — thin pools (small chapter
+            # banks, e.g. the 14-row c10 grammar chapters) often have none,
+            # so it degrades instead of emptying the pool (a grammar
+            # chapter session used to die into the generator fallback).
+            comp_cond = BoardQuestion.source_type.in_(["competency", "seed"])
+            base_comp = base + [comp_cond] if is_competency else base
+
+            async def _fetch(conds, lim):
+                q = (select(BoardQuestion)
+                     .where(*conds)
+                     .order_by(sa_func.random())
+                     .limit(lim))
+                return list((await self.db.execute(q)).scalars().all())
+
+            rows = []
+            topic_norm = [str(t).strip() for t in (topic_ids or []) if str(t).strip()]
+            if topic_norm:
+                tag_like = cast(BoardQuestion.node_tags, sa_Text)
+                conds = list(base_comp) + [or_(*[
+                    tag_like.ilike(f"%{t}%") for t in topic_norm])]
+                rows = await _fetch(conds, pool * 4)
+                if not rows and is_competency:
+                    rows = await _fetch(list(base) + [or_(*[
+                        tag_like.ilike(f"%{t}%") for t in topic_norm])],
+                        pool * 4)
+                # thin chapter pool → widen to the subject below
+            if not rows:
+                rows = await _fetch(base_comp, pool)
+            if not rows and is_competency:
+                rows = await _fetch(base, pool)
+        except Exception as e:
+            logger.warning("corpus candidate fetch failed: %s", e)
+            return []
+
+        out = []
+        excl_ids = {str(i) for i in (exclude_question_ids or set())}
+        for row in rows:
+            if excl_ids:
+                row_qid = f"corpus:{row.id}"
+                if row_qid in excl_ids:
+                    continue  # already issued in this session
+            diff = self._corpus_difficulty(row)
+            if not (diff_lower <= diff <= diff_upper + 0.15):
+                continue
+            seed_hash = hashlib.md5(
+                f"corpus:{row.id}".encode()).hexdigest()[:16]
+            if seed_hash in exclude_hashes:
+                continue
+            info = irt_information(theta, diff, DEFAULT_DISCRIMINATION)
+            p_correct = irt_probability(theta, diff, DEFAULT_DISCRIMINATION)
+            gain = irt_expected_gain(theta, diff, DEFAULT_DISCRIMINATION)
+            score = self._composite_score(
+                info=info, expected_gain=gain, p_correct=p_correct,
+                difficulty=diff, mastery=mastery,
+                is_competency=is_competency)
+            out.append({
+                "question_id": f"corpus:{row.id}",
+                "text": row.question_text,
+                "options": row.options or [],
+                "correct_answer": row.correct_answer,
+                "marking_scheme": row.marking_scheme,
+                "explanation": row.explanation or row.model_answer or "",
+                "difficulty": diff,
+                "discrimination": DEFAULT_DISCRIMINATION,
+                "topic": (row.chapter or subject),  # display-safe label
+                "node_id": (row.node_tags or [None])[0],
+                "question_type": row.question_type or "text",
+                # Provenance (audit §12): real board-paper year/marks ride the
+                # candidate so the UI can show "CBSE 2023 · 3 marks" — NULL for
+                # node-derived rows, which render no chip (honest-hide).
+                "year": getattr(row, "year", None),
+                "marks": row.marks or 1,
+                "seed_hash": seed_hash,
+                "seed": seed_hash,
+                "information": info,
+                "p_correct": p_correct,
+                "expected_gain": gain,
+                "composite_score": score,
+            })
+        return out
 
     def _composite_score(
         self,
@@ -1066,12 +1571,28 @@ class QuestionSelector:
 
         Returns qtype names (strings) that have working adapters.
         The caller uses self._adapters.generate(qtype, ...) to get questions.
+
+        C10 audit [STUDENT-C10][P1 OFFSYLL-LOGIC-BANK]: subject-gated — a
+        subject with no matching generator returns [] instead of the old
+        subject-blind "first 10 registered types" fallback, which served
+        the class-10 applied-maths (propositional-logic) generator into
+        grammar/computer practice. Corpus coverage is the honest fallback
+        for unmapped subjects (the corpus lane runs before generators).
         """
         if self._registry is None or self._adapters is None:
             return []
 
         subject_lower = subject.lower().strip()
-        aliases = self._SUBJECT_ALIASES.get(subject_lower, [subject_lower])
+        if not subject_lower or subject_lower in ("general", "mixed"):
+            # deliberately generic subjects may draw from any generator —
+            # every named subject must match by subject, never by luck.
+            generic = True
+            aliases: list[str] = []
+            exclusions: tuple[str, ...] = ()
+        else:
+            generic = False
+            aliases = self._SUBJECT_ALIASES.get(subject_lower, [subject_lower])
+            exclusions = self._SUBJECT_EXCLUSIONS.get(subject_lower, ())
 
         try:
             reg_types = self._registry.list_question_gen_types()
@@ -1087,20 +1608,13 @@ class QuestionSelector:
                 module_name, qtype_name = qt, qt
             qt_lower = qt.lower()
             module_lower = module_name.lower()
-            if any(a in qt_lower or a in module_lower for a in aliases):
+            if any(x in module_lower or x in qt_lower for x in exclusions):
+                continue
+            if generic or any(a in qt_lower or a in module_lower for a in aliases):
                 # Only include if adapter can wrap it
                 adapter = self._adapters.get_adapter(qt)
                 if adapter is not None:
                     matching.append(qt)
-
-        if not matching:
-            # Fallback: try first 10 registered types with adapters
-            for qt in reg_types[:20]:
-                adapter = self._adapters.get_adapter(qt)
-                if adapter is not None:
-                    matching.append(qt)
-                if len(matching) >= 10:
-                    break
 
         return matching
 
@@ -1166,7 +1680,7 @@ class BatchQuestionSelector:
             Dict with session config and list of questions
         """
         student_theta = await self.inner._get_student_theta(student_id, subject)
-        mastery = await get_mastery(self.db, student_id, subject)
+        mastery = await self.inner._mastery_score(student_id, subject)
         review_items = await self.inner._get_review_items(student_id, subject)
         recent_hashes = await self.inner._get_recent_attempt_hashes(student_id, subject)
 
@@ -1200,7 +1714,8 @@ class BatchQuestionSelector:
                 subject, current_theta,
                 diff_lower, diff_upper,
                 is_competency, recent_hashes,
-                mastery
+                mastery,
+                await self.inner._resolve_class_level(student_id)
             )
 
             if candidates:

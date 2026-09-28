@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_08_006",
+   "title": "c11_leg_cbse_08_006",
+   "questions": [
+    {
+     "q": "State the five essential tests a custom must satisfy to be recognized as a valid source of law in India, as per the NCERT textbook.",
+     "a": "The five tests are: (1) Antiquity — practice since time immemorial (no fixed date like 1189 in England); (2) Continuity — uninterrupted practice; (3) Exercise as a matter of right — open, not secret, claimed as right; (4) Reasonableness — conforms to justice and public utility; (5) Morality — not immoral or opposed to public policy. Additionally, it must not be contrary to legislation (statutory override). A wrong answer (e.g., listing only 3 tests or confusing with English law's 1189 cutoff) reveals the student has memorized a list without understanding the Indian context where no fixed temporal limit exists and statutory conformity is an explicit sixth constraint.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between *ratio decidendi* and *obiter dicta* in a judicial decision, and why only the former is binding on lower courts under the doctrine of stare decisis in India.",
+     "a": "*Ratio decidendi* is the legal principle or reason for the decision, derived from the material facts of the case, and is binding on lower courts. *Obiter dicta* are incidental remarks, hypothetical reasoning, or observations not necessary for the decision, carrying only persuasive value. A wrong answer (e.g., \"everything a judge says is binding\" or \"obiter is binding if from Supreme Court\") reveals a fundamental misunderstanding of the hierarchical precedent system: the binding force stems from the *necessity* of the reasoning to the outcome, not the authority of the speaker. The Supreme Court itself is not bound by its own *obiter* (e.g., *Bengal Immunity Co. v. State of Bihar*).",
+     "self_check": true
+    },
+    {
+     "q": "A State Legislature passes a law banning a specific tribal marriage ritual. The tribe claims the ritual is a valid custom protected under Article 13(3)(a) of the Constitution (custom having force of law). The State argues the ritual violates Articles 14 and 21. Apply the validity tests for custom and constitutional supremacy to determine which source prevails.",
+     "a": "Step 1: Identify sources — Custom (tribal ritual) vs. Legislation (State law) vs. Constitution (Articles 14, 21, 13). Step 2: Test custom validity — assume it meets antiquity, continuity, certainty, but check reasonableness and morality through constitutional lens. Step 3: Article 13(3)(a) includes custom in \"law\" for Article 13(1) — any custom inconsistent with fundamental rights is void. Step 4: If ritual violates equality (Art. 14) or dignity/life (Art. 21), it fails the \"reasonableness\" and \"morality\" tests *as informed by the Constitution*. Step 5: Constitution > Legislation > Valid Custom. The State law banning it may be redundant if custom is already void under Art. 13, but the legislation reinforces the constitutional mandate. A wrong answer (e.g., \"custom prevails because it's ancient\" or \"legislation always overrides custom\") reveals failure to grasp that the Constitution is the supreme source and validates/invalidates both custom and legislation via Article 13.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the binding force of a Supreme Court judgment on: (a) a High Court within the same state, (b) a High Court of a different state, (c) a District Court in a different state, (d) a smaller bench of the Supreme Court itself, (e) a larger bench of the Supreme Court. Explain the hierarchical logic.",
+     "a": "(a) Binding — vertical stare decisis (Art. 141). (b) Binding — Art. 141 applies to \"all courts within the territory of India\". (c) Binding — District Courts are subordinate to their High Court, but SC binds all courts directly. (d) Binding — smaller bench bound by larger/co-equal bench (*Central Board of Dawoodi Bohra Community v. State of Maharashtra*). (e) NOT binding — larger bench can overrule smaller bench (e.g., *Keshavananda Bharati* overruling *Golaknath*). A wrong answer (e.g., \"High Court of another state is only persuasive\") reveals confusion between High Court inter-se precedent (persuasive) and Supreme Court precedent (binding nationwide per Art. 141). The hierarchy is: Constitution > SC (larger bench) > SC (smaller bench) = HC (own state) > HC (other states, persuasive) > District Courts.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: \"Delegated legislation is a necessary evil in the modern welfare state.\" Use the NCERT classification of subordinate legislation and the reasons for its growth to justify your position.",
+     "a": "The statement is largely accurate but requires nuance. \"Necessary\" because: (1) Paucity of parliamentary time — legislature cannot micromanage technical details (e.g., pollution standards under Environment Protection Act). (2) Technical expertise — executive has domain knowledge (e.g., drug regulations under Drugs & Cosmetics Act). (3) Flexibility — rules can be updated faster than statutes (e.g., GST rates). (4) Emergency — ordinances (Art. 123) allow immediate action. \"Evil\" because: (1) Democratic deficit — unelected officials make law. (2) Excessive delegation — \"Henry VIII clauses\" let executive amend parent act. (3) Inadequate scrutiny — parliamentary committees often rubber-stamp. (4) Retrospective application risks. NCERT classifies 5 types of subordinate legislation (Autonomous, Judicial Rules, Local Laws, Colonial, Executive/Delegated). The \"evil\" is mitigated by: (a) Parliamentary control (laying rules, negative/affirmative resolution), (b) Judicial review (ultra vires — substantive/procedural), (c) Procedural safeguards (consultation, publication). A one-sided answer (\"it's good\" or \"it's bad\") reveals failure to weigh competing constitutional values: efficiency vs. accountability.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel legal scenario where a conflict arises between a local custom, a Supreme Court precedent, and a recent parliamentary amendment. Define the facts, identify the applicable sources, and argue which should prevail with a reasoned hierarchy analysis.",
+     "a": "Scenario: A 2024 Amendment to the Hindu Succession Act grants daughters equal coparcenary rights *retrospectively* from 1956. A family in Rajasthan follows a local custom (proved ancient, continuous, certain) where only sons inherit ancestral agricultural land to prevent fragmentation. The Supreme Court in *Vineeta Sharma v. Rakesh Sharma* (2020) held daughters have equal rights *prospectively* from 2005 Amendment. Sources: (1) Custom (local, agricultural), (2) SC Precedent (*Vineeta Sharma* — ratio: prospective only), (3) Legislation (2024 Amendment — retrospective). Hierarchy: Constitution (Art. 14, 15) > Legislation (2024 Amendment, validly enacted) > SC Precedent (overruled by statute) > Custom (void if contrary to statute per HSA Section 4). The 2024 Amendment expressly overrides *Vineeta Sharma* and the custom. Prevails: 2024 Legislation. A poor answer (e.g., \"custom prevails because it's local tradition\" or \"SC precedent is final\") reveals inability to apply the dynamic hierarchy: a valid subsequent statute can abrogate both precedent and custom, and constitutional equality values legitimize such legislative action.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

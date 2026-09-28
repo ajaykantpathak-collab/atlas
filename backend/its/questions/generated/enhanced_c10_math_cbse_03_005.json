@@ -34,6 +34,26 @@
      "q": "Create a word problem involving two unknowns (e.g., cost of items, ages, speeds) that leads to a pair of linear equations where the substitution method is the natural choice because one equation has a variable with coefficient 1. Write the problem, form the equations, and solve.",
      "a": "Example problem: \"Riya buys 1 kg of apples and 2 kg of oranges for ₹180. The cost of 1 kg of apples is ₹20 more than 1 kg of oranges. Find the cost per kg of each fruit.\"\nEquations: x + 2y = 180 and x = y + 20 (coefficient of x is 1 in both).\nSubstitute x = y + 20 into first: (y + 20) + 2y = 180 → 3y = 160 → y = 160/3 ≈ 53.33; x = 73.33.\nA good answer shows a realistic scenario, correctly forms equations with a unit coefficient, and solves completely. A poor answer creates equations without a unit coefficient (forcing elimination) or makes arithmetic errors, indicating they don't recognize when substitution is advantageous.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ method is an algebraic technique for solving a pair of linear equations in two variables where one equation is solved for one variable in terms of the other, and this expression is substituted into the second equation to obtain a linear equation in a single variable, which is then solved; the value found is back-substituted to find the other variable.",
+     "a": "substitution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you went to a stationery shop and bought 3 pens and 2 ______ for ₹40.",
+     "a": "pencils",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently solve any pair of linear equations in two variables using the substitution method, including equations requiring rearrangement of terms, handling of negative coefficients, and fractional solutions, and can verify the solution by substituting into both original equations.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you went to a ______ shop and bought 3 pens and 2 pencils for ₹40.",
+     "a": "stationery",
+     "self_check": true
     }
    ]
   }

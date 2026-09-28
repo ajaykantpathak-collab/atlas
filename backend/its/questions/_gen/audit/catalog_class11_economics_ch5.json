@@ -1,0 +1,62 @@
+{
+ "catalog": "catalog_class11_economics_ch5.json",
+ "concepts": [
+  {
+   "id": "c11eco.5.7",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "P_x = 19.4",
+      "P_y = 49",
+      "MRS_xy = P_x / P_y"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "P_x = 53",
+      "P_y = 36",
+      "MRS_xy = P_x / P_y"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "P_x = 24",
+      "P_y = 60",
+      "MRS_xy = P_x / P_y"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "P_x = 70",
+      "P_y = 54",
+      "MRS_xy = P_x / P_y"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "P_x = 57",
+      "P_y = 66",
+      "MRS_xy = P_x / P_y"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "P_x = 33",
+      "P_y = 36",
+      "MRS_xy = P_x / P_y"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "MRS_xy = P_x / P_y"
+   ]
+  }
+ ]
+}

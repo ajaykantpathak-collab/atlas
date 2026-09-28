@@ -34,6 +34,31 @@
      "q": "Design a conceptual direct-use geothermal system for a rural community in Ladakh (cold desert, high altitude) using a 90°C hydrothermal resource at 1.5 km depth. Specify: (a) two direct-use applications prioritized for local needs, (b) one reason why binary cycle electricity generation is less favorable than direct use here, (c) one geological risk specific to Himalayan tectonics.",
      "a": "(a) **Space heating** (greenhouses, homes, livestock shelters) and **agricultural drying** (apricots, barley) — highest thermal demand in cold desert, uses 90°C fluid directly without conversion losses.  \n(b) Binary cycle at 90°C has very low Carnot efficiency (1 - 273/363 ≈ 25% theoretical, ~8-10% net); parasitic losses from pumping at high altitude (low air density → poor condenser cooling) further reduce net output. Direct use captures ~90% of thermal energy.  \n(c) **Active faulting/seismicity**: Himalayan convergence zone has frequent earthquakes; reinjection-induced seismicity risk is amplified on pre-stressed faults, potentially triggering damaging events.  \nA poor answer suggesting electricity generation as priority misjudges energy quality matching; ignoring altitude effect on air-cooled condensers shows lack of systems thinking.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Geothermal energy is the thermal energy generated and stored within the Earth's crust due to ______ decay of minerals and residual heat from planetary formation, which can be harnessed by drilling wells to access steam or hot water for direct heating or electricity generation via turbines.",
+     "a": "radioactive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe hot springs at Manikaran (Himachal Pradesh) or Tattapani (Chhattisgarh) where groundwater heated by deep Earth emerges naturally — this visible phenomenon is the surface expression of ______ energy.",
+     "a": "geothermal",
+     "self_check": true
+    },
+    {
+     "q": "What is Geothermal energy? State the definition given in this lesson.",
+     "a": "Geothermal energy is the thermal energy generated and stored within the Earth's crust due to radioactive decay of minerals and residual heat from planetary formation, which can be harnessed by drilling wells to access steam or hot water for direct heating or electricity generation via turbines.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Geothermal energy?",
+     "a": "Students believe geothermal energy is \"free heat from volcanoes\" available everywhere — they conflate volcanic regions (high-grade, rare) with conductive geothermal resources (low-grade, widespread but requiring deep drilling).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the origin of geothermal energy (radioactive decay + primordial heat), describe the three main types of geothermal resources (hydrothermal, geo-pressured, hot dry rock), and evaluate site suitability criteria (temperature gradient >30°C/km, permeable reservoir, shallow depth <3km) for power plant installation.",
+     "self_check": true
     }
    ]
   }

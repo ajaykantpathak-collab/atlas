@@ -34,6 +34,31 @@
      "q": "Design a simple classroom demonstration (using students as \"neurons\") to show how a reflex arc works without brain involvement. Specify roles, signal direction, and why the brain learns about the reflex only after the response.",
      "a": "Five students: Receptor (taps knee), Sensory neuron (passes \"signal\" to interneuron), Interneuron (in spinal cord - immediately passes to motor neuron), Motor neuron (signals effector), Effector (kicks leg). Brain student watches and records after. Key: signal goes receptor → sensory → interneuron → motor → effector (spinal loop). Brain is informed via ascending tracts AFTER. A poor demo (signal goes to brain first) shows misunderstanding of reflex arc's survival value: speed via bypassing brain. This tests ability to model biological processes - a board competency skill.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Nervous tissue is a specialized animal tissue composed of neurons (structural and functional units) and neuroglia (supporting cells) that detects stimuli, conducts ______ impulses, and coordinates rapid responses across the body.",
+     "a": "electrochemical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you touch a hot pan, your hand pulls back before you even feel the pain - this lightning-fast ______ happens because of nervous tissue.",
+     "a": "response",
+     "self_check": true
+    },
+    {
+     "q": "What is Nervous tissue? State the definition given in this lesson.",
+     "a": "Nervous tissue is a specialized animal tissue composed of neurons (structural and functional units) and neuroglia (supporting cells) that detects stimuli, conducts electrochemical impulses, and coordinates rapid responses across the body.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Nervous tissue?",
+     "a": "Students believe the myelin sheath is part of the neuron itself (like a coating the neuron makes), and that nodes of Ranvier are \"breaks in the neuron\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can label all parts of a multipolar neuron in a diagram and explain the direction of impulse flow from dendrite to axon terminal.",
+     "self_check": true
     }
    ]
   }

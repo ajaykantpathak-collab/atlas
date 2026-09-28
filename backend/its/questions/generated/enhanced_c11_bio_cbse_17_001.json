@@ -34,6 +34,31 @@
      "q": "Design a simple microscopy-based experiment to distinguish between amoeboid and ciliary movement in a mixed cell sample containing macrophages and ciliated epithelial cells. Specify what you would observe, the expected motion pattern for each, and how you would confirm the cell type.",
      "a": "Place sample on a slide, observe under phase-contrast microscopy at 400x. Amoeboid cells (macrophages): irregular shape, slow (µm/min) extension/retraction of blunt pseudopodia, cytoplasmic streaming visible inside. Ciliated epithelial cells: fixed position, regular shape, rapid (10-20 Hz) coordinated waving of hair-like cilia at free surface. Confirm by adding India ink particles: macrophages engulf particles (phagocytosis); ciliated cells move particles directionally across surface without engulfing. A poor answer (e.g., \"both move so hard to tell\") reveals inability to recognize distinct motion signatures: continuous shape change vs. fixed-cell surface beating.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Amoeboid, ciliary, and muscular movements are the three fundamental types of cellular movements exhibited by specialized cells in the human body: amoeboid movement involves pseudopodia formation through cytoplasmic streaming and ______ rearrangement (e.g., macrophages, leucocytes); ciliary movement involves coordinated beating of cilia on ciliated epithelium lining internal tubular organs (e.g., trachea, fallopian tubes); muscular movement involves contraction of muscle fibers through actin-myosin sliding filament mechanism, enabling locomotion and posture changes.",
+     "a": "microfilament",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you sneeze, dust ______ trapped in your trachea are expelled - this is ciliary movement at work.",
+     "a": "particles",
+     "self_check": true
+    },
+    {
+     "q": "What is Amoeboid, ciliary, and muscular movements? State the definition given in this lesson.",
+     "a": "Amoeboid, ciliary, and muscular movements are the three fundamental types of cellular movements exhibited by specialized cells in the human body: amoeboid movement involves pseudopodia formation through cytoplasmic streaming and microfilament rearrangement (e.g., macrophages, leucocytes); ciliary movement involves coordinated beating of.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Amoeboid, ciliary, and muscular movements?",
+     "a": "Students believe ciliary movement and muscular movement are similar because both involve \"beating\" or \"contraction\" - they think cilia are tiny muscles.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between the three movement types by identifying the cellular mechanism, location in the human body, and physiological function for each; and can explain how cytoskeletal elements (microfilaments, cilia, myofibrils) enable each movement type.",
+     "self_check": true
     }
    ]
   }

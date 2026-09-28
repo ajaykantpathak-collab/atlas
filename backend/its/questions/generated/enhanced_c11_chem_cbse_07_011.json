@@ -31,8 +31,28 @@
      "self_check": true
     },
     {
-     "q": "Design a simple experiment using only household materials (vinegar, baking soda, pH paper, measuring cups) to demonstrate that acetic acid is a weak acid while HCl (toilet cleaner) is a strong acid. Explain how your observations would differ and what quantitative estimate you could make.",
-     "a": "Take equal volumes (e.g., 50 mL) of vinegar (~0.8 M CH₃COOH) and diluted toilet cleaner (~0.1 M HCl). Add 1 tsp baking soda (NaHCO₃) to each. HCl reacts vigorously with immediate CO₂ evolution (strong acid → complete H⁺). Vinegar reacts slowly with less vigorous fizzing (weak acid → partial H⁺, equilibrium shifts as CO₂ leaves). Use pH paper: HCl solution pH ≈ 1, vinegar pH ≈ 2.4. Estimate Ka: from vinegar pH, [H⁺] = 10⁻²·⁴ = 4×10⁻³ M, α = 4×10⁻³/0.8 = 0.5%, Ka ≈ Cα² = 0.8×(0.005)² = 2×10⁻⁵ (close to actual 1.8×10⁻⁵). A poor answer uses only qualitative \"more fizz\" without pH measurement or quantitative estimation, showing they can't connect observation to equilibrium constant.",
+     "q": "Give the correct order of steps for the baking-soda test that separates a weak acid from a strong one.",
+     "a": "The comparison runs: (1) Measure equal volumes of vinegar and diluted toilet cleaner (2) Add a spoon of baking soda to each and watch the fizzing (3) Note the vigorous carbon dioxide rush from the strong acid and the gentler release from vinegar (4) Confirm with pH paper that the toilet cleaner is far more acidic at equal concentration. A wrong answer that expects identical fizzing shows the student has missed that a weak acid ionises only partially, so its free hydrogen ion concentration stays low.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ionisation constant of a weak acid (Ka) is the equilibrium constant for its partial ______ in aqueous solution: HA(aq) ⇌ H⁺(aq) + A⁻(aq), where Ka = [H⁺][A⁻]/[HA].",
+     "a": "dissociation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bottle of vinegar (5% acetic acid) and a bottle of ammonia ______ (used for cleaning) in your kitchen.",
+     "a": "solution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bottle of vinegar (______% acetic acid) and a bottle of ammonia solution (used for cleaning) in your kitchen.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Write correct ionisation equilibrium expressions for any weak acid/base and calculate Ka/Kb from given concentration and pH data; (2) Apply Ostwald's dilution law (α = √(Ka/C)) to find degree of ionisation and verify the 5% approximation rule; (3) Use Ka × Kb = Kw for conjugate acid-base pairs to solve multi-step.",
      "self_check": true
     }
    ]

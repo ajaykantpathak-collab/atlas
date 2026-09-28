@@ -34,6 +34,26 @@
      "q": "Design a simple classroom activity using a metre scale, a piece of string, and two fixed points A and B on a lab table to demonstrate that displacement is independent of the path taken, while distance depends on the path. Describe the procedure and what measurements students should record.",
      "a": "Procedure: Fix points A and B 50 cm apart. Path 1: Stretch string straight from A to B — measure string length (distance = displacement magnitude = 50 cm). Path 2: Lay string in a curved/semi-circular path from A to B — measure string length (distance > 50 cm, displacement magnitude still 50 cm). Path 3: Lay string in a zigzag path from A to B — measure string length (distance even larger, displacement magnitude still 50 cm). Record: path length for each path, and displacement magnitude (straight-line A to B) for each. Expected outcome: displacement magnitude constant, path length varies. A poor answer would measure only one path, or confuse the string length with displacement for curved paths.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A scalar is a physical quantity completely specified by its magnitude (a single numerical value with proper SI unit) and has no direction; it obeys ordinary algebraic rules for addition, subtraction, ______, and division.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan in your ______: the blades rotate at constant speed, so each point on a blade has a speed (scalar) that stays the same, but its velocity (vector) changes continuously because the direction changes at every instant.",
+     "a": "classroom",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify any given physical quantity as scalar or vector with justification, represent a vector graphically with proper magnitude and direction, determine equality of two vectors by parallel translation, and explain why displacement is a vector while distance is a scalar using the path-independence property.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan in your classroom: the blades rotate at constant speed, so each point on a blade has a speed (scalar) that stays the same, but its velocity (vector) changes ______ because the direction changes at every instant.",
+     "a": "continuously",
+     "self_check": true
     }
    ]
   }

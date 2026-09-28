@@ -34,6 +34,31 @@
      "q": "Design a function `analyze_text_file(filename)` that returns a dictionary with keys `'lines'`, `'words'`, `'chars_total'`, `'chars_no_space'`, and `'avg_word_length'`. It must handle missing files gracefully and work for files up to 100 MB on a 512 MB RAM system.",
      "a": "```python\ndef analyze_text_file(filename):\n    try:\n        with open(filename, 'r') as f:\n            lines = words = chars_total = chars_no_space = 0\n            for line in f:\n                lines += 1\n                chars_total += len(line)\n                chars_no_space += len(line.replace(' ', '').replace('\\n', '').replace('\\t', ''))\n                words += len(line.split())\n            avg_word_len = chars_no_space / words if words else 0\n            return {\n                'lines': lines,\n                'words': words,\n                'chars_total': chars_total,\n                'chars_no_space': chars_no_space,\n                'avg_word_length': round(avg_word_len, 2)\n            }\n    except FileNotFoundError:\n        return {'error': 'File not found'}\n```\nGood answer uses iteration (memory-safe), accumulates counts in one pass, handles division by zero, and catches `FileNotFoundError`. Poor answer uses `read()` or `readlines()` (memory risk), ignores exceptions, or computes `avg_word_length` incorrectly using `chars_total`.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Text file ______ for counting words, lines, and characters involve reading a text file's content and applying string processing methods to compute three metrics: line count (number of newline-separated segments), word count (number of whitespace-delimited tokens), and character count (total characters including or excluding whitespace/newlines).",
+     "a": "operations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're building a simple plagiarism checker for school essays — you need to know how many lines, words, and ______ each submitted file has.",
+     "a": "characters",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To count lines, you can use content.count('\\n') + ______ (accounting for the last line without trailing newline) or len(content.splitlines()).",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write a complete Python program that opens a text file using the with statement, reads its content appropriately, and correctly computes lines, words, and characters — handling edge cases like empty files, trailing newlines, and multiple spaces — while explaining why split() without arguments handles variable whitespace.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're building a simple ______ checker for school essays — you need to know how many lines, words, and characters each submitted file has.",
+     "a": "plagiarism",
+     "self_check": true
     }
    ]
   }

@@ -2,6 +2,53 @@
  "catalog": "catalog_class9_science_iesc110.json",
  "concepts": [
   {
+   "id": "iesc.110.10.2",
+   "title": "Characteristics of Sound Waves",
+   "converted_to_compute": true,
+   "formula": "speed = frequency * wavelength",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "speed = frequency * wavelength",
+     "compute": "speed = frequency * wavelength"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Characteristics of Sound Waves: given frequency = 665, wavelength = 99, find speed.",
+     "a": "65835",
+     "self_check": false
+    },
+    {
+     "q": "For Characteristics of Sound Waves: given frequency = 499, wavelength = 431, find speed.",
+     "a": "215069",
+     "self_check": false
+    },
+    {
+     "q": "For Characteristics of Sound Waves: given frequency = 664, wavelength = 321, find speed.",
+     "a": "213144",
+     "self_check": false
+    },
+    {
+     "q": "For Characteristics of Sound Waves: given frequency = 730, wavelength = 21, find speed.",
+     "a": "15330",
+     "self_check": false
+    },
+    {
+     "q": "For Characteristics of Sound Waves: given frequency = 215, wavelength = 363, find speed.",
+     "a": "78045",
+     "self_check": false
+    },
+    {
+     "q": "For Characteristics of Sound Waves: given frequency = 564, wavelength = 134, find speed.",
+     "a": "75576",
+     "self_check": false
+    }
+   ]
+  },
+  {
    "id": "iesc.110.10.1",
    "title": "Sound as a Mechanical Wave",
    "solution_type": "verify_property",
@@ -20,88 +67,6 @@
      "q": "In which direction do particles vibrate in a sound wave?",
      "a": "Along the direction of wave travel - sound is longitudinal.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "iesc.110.10.2",
-   "title": "Characteristics of Sound Waves",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "period_s",
-     "expr": "1 / frequency",
-     "explain": "time period is the reciprocal of frequency"
-    },
-    {
-     "step": 2,
-     "name": "waves_per_minute",
-     "expr": "frequency * 60",
-     "explain": "waves per minute"
-    },
-    {
-     "step": 3,
-     "name": "speed",
-     "expr": "wavelength * frequency",
-     "explain": "v = f x lambda"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A sound has frequency 250 Hz and wavelength 1.36 m. Find the speed of sound.",
-     "vals": {
-      "frequency": 250,
-      "wavelength": 1.36
-     },
-     "unit": "m/s",
-     "steps": null,
-     "a": "340 m/s",
-     "self_check": false
-    },
-    {
-     "q": "A wave of frequency 512 Hz has wavelength 0.65 m. Calculate its speed.",
-     "vals": {
-      "frequency": 512,
-      "wavelength": 0.65
-     },
-     "unit": "m/s",
-     "steps": null,
-     "a": "332.8 m/s",
-     "self_check": false
-    },
-    {
-     "q": "Sound of wavelength 2 m has frequency 170 Hz. Compute its speed.",
-     "vals": {
-      "frequency": 170,
-      "wavelength": 2
-     },
-     "unit": "m/s",
-     "steps": null,
-     "a": "340 m/s",
-     "self_check": false
-    },
-    {
-     "q": "A tuning fork of 340 Hz sends waves of 1 m. What is the wave speed?",
-     "vals": {
-      "frequency": 340,
-      "wavelength": 1
-     },
-     "unit": "m/s",
-     "steps": null,
-     "a": "340 m/s",
-     "self_check": false
-    },
-    {
-     "q": "Waves of wavelength 0.25 m at frequency 1360 Hz: find their speed.",
-     "vals": {
-      "frequency": 1360,
-      "wavelength": 0.25
-     },
-     "unit": "m/s",
-     "steps": null,
-     "a": "340 m/s",
-     "self_check": false
     }
    ]
   },

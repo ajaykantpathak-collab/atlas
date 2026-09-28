@@ -1,0 +1,428 @@
+{
+ "catalog": "catalog_class11_physics_ch204.json",
+ "concepts": [
+  {
+   "id": "keph.204.2",
+   "title": "First Law of Thermodynamics and Energy Conservation",
+   "converted_to_compute": true,
+   "formula": "delta_U = delta_Q - delta_W",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "delta_U = delta_Q - delta_W",
+     "compute": "delta_U = delta_Q - delta_W"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For First Law of Thermodynamics and Energy Conservation: given delta_Q = 79, delta_W = 58, find delta U.",
+     "a": "21",
+     "self_check": false
+    },
+    {
+     "q": "For First Law of Thermodynamics and Energy Conservation: given delta_Q = 62, delta_W = 48, find delta U.",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "For First Law of Thermodynamics and Energy Conservation: given delta_Q = 98, delta_W = 60, find delta U.",
+     "a": "38",
+     "self_check": false
+    },
+    {
+     "q": "For First Law of Thermodynamics and Energy Conservation: given delta_Q = 54, delta_W = 9.9, find delta U.",
+     "a": "44.1",
+     "self_check": false
+    },
+    {
+     "q": "For First Law of Thermodynamics and Energy Conservation: given delta_Q = 74, delta_W = 66, find delta U.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "For First Law of Thermodynamics and Energy Conservation: given delta_Q = 42, delta_W = 24, find delta U.",
+     "a": "18",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.204.3",
+   "title": "Work Done in Isobaric Expansion",
+   "converted_to_compute": true,
+   "formula": "work = pressure * (final_volume - initial_volume)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "work = pressure * (final_volume - initial_volume)",
+     "compute": "work = pressure * (final_volume - initial_volume)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Work Done in Isobaric Expansion: given pressure = 27, final_volume = 17.5, initial_volume = 51, find work.",
+     "a": "-904.5",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done in Isobaric Expansion: given pressure = 427, final_volume = 31, initial_volume = 28, find work.",
+     "a": "1281",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done in Isobaric Expansion: given pressure = 347, final_volume = 56, initial_volume = 85, find work.",
+     "a": "-10063",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done in Isobaric Expansion: given pressure = 49, final_volume = 100, initial_volume = 96, find work.",
+     "a": "196",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done in Isobaric Expansion: given pressure = 144, final_volume = 53, initial_volume = 71, find work.",
+     "a": "-2592",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done in Isobaric Expansion: given pressure = 232, final_volume = 106, initial_volume = 106, find work.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.204.4",
+   "title": "Heat Transfer and Specific Heat Capacity",
+   "converted_to_compute": true,
+   "formula": "heat = mass * sp_heat * delta_T",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "heat = mass * sp_heat * delta_T",
+     "compute": "heat = mass * sp_heat * delta_T"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Heat Transfer and Specific Heat Capacity: given mass = 153, sp_heat = 7017, delta_T = 39, find heat.",
+     "a": "41870439",
+     "self_check": false
+    },
+    {
+     "q": "For Heat Transfer and Specific Heat Capacity: given mass = 6.2, sp_heat = 482, delta_T = 31, find heat.",
+     "a": "92640.4",
+     "self_check": false
+    },
+    {
+     "q": "For Heat Transfer and Specific Heat Capacity: given mass = 67, sp_heat = 7361, delta_T = 4.1, find heat.",
+     "a": "2022066.7",
+     "self_check": false
+    },
+    {
+     "q": "For Heat Transfer and Specific Heat Capacity: given mass = 96, sp_heat = 1398, delta_T = 115, find heat.",
+     "a": "15433920",
+     "self_check": false
+    },
+    {
+     "q": "For Heat Transfer and Specific Heat Capacity: given mass = 109, sp_heat = 4044, delta_T = 79, find heat.",
+     "a": "34822884",
+     "self_check": false
+    },
+    {
+     "q": "For Heat Transfer and Specific Heat Capacity: given mass = 42, sp_heat = 223, delta_T = 78, find heat.",
+     "a": "730548",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.204.5",
+   "title": "Mayer's Relation for Ideal Gas Specific Heats",
+   "converted_to_compute": true,
+   "formula": "Cp = Cv + 8.314",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "Cp = Cv + 8.314",
+     "compute": "Cp = Cv + 8.314"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Mayer's Relation for Ideal Gas Specific Heats: given Cv = 55, find Cp.",
+     "a": "63.314",
+     "self_check": false
+    },
+    {
+     "q": "For Mayer's Relation for Ideal Gas Specific Heats: given Cv = 46, find Cp.",
+     "a": "54.314",
+     "self_check": false
+    },
+    {
+     "q": "For Mayer's Relation for Ideal Gas Specific Heats: given Cv = 42, find Cp.",
+     "a": "50.314",
+     "self_check": false
+    },
+    {
+     "q": "For Mayer's Relation for Ideal Gas Specific Heats: given Cv = 26, find Cp.",
+     "a": "34.314",
+     "self_check": false
+    },
+    {
+     "q": "For Mayer's Relation for Ideal Gas Specific Heats: given Cv = 61, find Cp.",
+     "a": "69.314",
+     "self_check": false
+    },
+    {
+     "q": "For Mayer's Relation for Ideal Gas Specific Heats: given Cv = 77, find Cp.",
+     "a": "85.314",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.204.7",
+   "title": "Work Done in Adiabatic Expansion of Ideal Gas",
+   "converted_to_compute": true,
+   "formula": "work = moles * 8.314 * (T_1 - T_2) / (gamma - 1)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "work = moles * 8.314 * (T_1 - T_2) / (gamma - 1)",
+     "compute": "work = moles * 8.314 * (T_1 - T_2) / (gamma - 1)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Work Done in Adiabatic Expansion of Ideal Gas: given moles = 10.6, T_1 = 71, T_2 = 29, gamma = 17.1, find work.",
+     "a": "229.9",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done in Adiabatic Expansion of Ideal Gas: given moles = 9.2, T_1 = 96, T_2 = 68, gamma = 60, find work.",
+     "a": "36.2998",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done in Adiabatic Expansion of Ideal Gas: given moles = 13.9, T_1 = 106, T_2 = 117, gamma = 94, find work.",
+     "a": "-13.6689",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done in Adiabatic Expansion of Ideal Gas: given moles = 10.3, T_1 = 60, T_2 = 58, gamma = 32, find work.",
+     "a": "5.52479",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done in Adiabatic Expansion of Ideal Gas: given moles = 14.3, T_1 = 7, T_2 = 84, gamma = 67, find work.",
+     "a": "-138.705",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done in Adiabatic Expansion of Ideal Gas: given moles = 15.5, T_1 = 106, T_2 = 73, gamma = 6.8, find work.",
+     "a": "733.209",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.204.8",
+   "title": "Work Done in Cyclic Thermodynamic Process",
+   "converted_to_compute": true,
+   "formula": "work = 0.5 * (V_2 - V_1) * (P_2 - P_1)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "work = 0.5 * (V_2 - V_1) * (P_2 - P_1)",
+     "compute": "work = 0.5 * (V_2 - V_1) * (P_2 - P_1)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Work Done in Cyclic Thermodynamic Process: given V_2 = 51, V_1 = 18.3, P_2 = 71, P_1 = 4.4, find work.",
+     "a": "1088.91",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done in Cyclic Thermodynamic Process: given V_2 = 46, V_1 = 5.6, P_2 = 58, P_1 = 84, find work.",
+     "a": "-525.2",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done in Cyclic Thermodynamic Process: given V_2 = 18.3, V_1 = 98, P_2 = 88, P_1 = 92, find work.",
+     "a": "159.4",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done in Cyclic Thermodynamic Process: given V_2 = 104, V_1 = 103, P_2 = 66, P_1 = 13.9, find work.",
+     "a": "26.05",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done in Cyclic Thermodynamic Process: given V_2 = 29, V_1 = 90, P_2 = 89, P_1 = 30, find work.",
+     "a": "-1799.5",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done in Cyclic Thermodynamic Process: given V_2 = 3.1, V_1 = 9.9, P_2 = 39, P_1 = 51, find work.",
+     "a": "40.8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.204.10",
+   "title": "Reversible and Irreversible Processes",
+   "converted_to_compute": true,
+   "formula": "reversible = quasi_static + zero_dissipation",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "reversible = quasi_static + zero_dissipation",
+     "compute": "reversible = quasi_static + zero_dissipation"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Reversible and Irreversible Processes: given quasi_static = 6, zero_dissipation = 23, find reversible.",
+     "a": "29",
+     "self_check": false
+    },
+    {
+     "q": "For Reversible and Irreversible Processes: given quasi_static = 23, zero_dissipation = 74, find reversible.",
+     "a": "97",
+     "self_check": false
+    },
+    {
+     "q": "For Reversible and Irreversible Processes: given quasi_static = 11.7, zero_dissipation = 82, find reversible.",
+     "a": "93.7",
+     "self_check": false
+    },
+    {
+     "q": "For Reversible and Irreversible Processes: given quasi_static = 8.9, zero_dissipation = 49, find reversible.",
+     "a": "57.9",
+     "self_check": false
+    },
+    {
+     "q": "For Reversible and Irreversible Processes: given quasi_static = 48, zero_dissipation = 10.6, find reversible.",
+     "a": "58.6",
+     "self_check": false
+    },
+    {
+     "q": "For Reversible and Irreversible Processes: given quasi_static = 28, zero_dissipation = 66, find reversible.",
+     "a": "94",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.204.11",
+   "title": "Efficiency of Carnot Heat Engine",
+   "converted_to_compute": true,
+   "formula": "efficiency = 1 - (T_sink / T_source)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "efficiency = 1 - (T_sink / T_source)",
+     "compute": "efficiency = 1 - (T_sink / T_source)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Efficiency of Carnot Heat Engine: given T_sink = 18.7, T_source = 96, find efficiency.",
+     "a": "0.805208",
+     "self_check": false
+    },
+    {
+     "q": "For Efficiency of Carnot Heat Engine: given T_sink = 17.9, T_source = 61, find efficiency.",
+     "a": "0.706557",
+     "self_check": false
+    },
+    {
+     "q": "For Efficiency of Carnot Heat Engine: given T_sink = 9.3, T_source = 43, find efficiency.",
+     "a": "0.783721",
+     "self_check": false
+    },
+    {
+     "q": "For Efficiency of Carnot Heat Engine: given T_sink = 21, T_source = 79, find efficiency.",
+     "a": "0.734177",
+     "self_check": false
+    },
+    {
+     "q": "For Efficiency of Carnot Heat Engine: given T_sink = 90, T_source = 21, find efficiency.",
+     "a": "-3.28571",
+     "self_check": false
+    },
+    {
+     "q": "For Efficiency of Carnot Heat Engine: given T_sink = 94, T_source = 40, find efficiency.",
+     "a": "-1.35",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.204.12",
+   "title": "Heat Transfer Ratio in Carnot Engine",
+   "converted_to_compute": true,
+   "formula": "Q_sink = Q_source * (T_sink / T_source)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "Q_sink = Q_source * (T_sink / T_source)",
+     "compute": "Q_sink = Q_source * (T_sink / T_source)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Heat Transfer Ratio in Carnot Engine: given Q_source = 32, T_sink = 73, T_source = 32, find Q sink.",
+     "a": "73",
+     "self_check": false
+    },
+    {
+     "q": "For Heat Transfer Ratio in Carnot Engine: given Q_source = 45, T_sink = 27, T_source = 24, find Q sink.",
+     "a": "50.625",
+     "self_check": false
+    },
+    {
+     "q": "For Heat Transfer Ratio in Carnot Engine: given Q_source = 86, T_sink = 11.7, T_source = 91, find Q sink.",
+     "a": "11.0571",
+     "self_check": false
+    },
+    {
+     "q": "For Heat Transfer Ratio in Carnot Engine: given Q_source = 50, T_sink = 31, T_source = 95, find Q sink.",
+     "a": "16.3158",
+     "self_check": false
+    },
+    {
+     "q": "For Heat Transfer Ratio in Carnot Engine: given Q_source = 81, T_sink = 118, T_source = 99, find Q sink.",
+     "a": "96.5455",
+     "self_check": false
+    },
+    {
+     "q": "For Heat Transfer Ratio in Carnot Engine: given Q_source = 59, T_sink = 24, T_source = 50, find Q sink.",
+     "a": "28.32",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

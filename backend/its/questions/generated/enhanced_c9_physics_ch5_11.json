@@ -34,6 +34,36 @@
      "q": "A student says: \"Echoes and reverberation are the same thing.\" Evaluate this statement and explain the difference.",
      "a": "The statement is incorrect. Echo and reverberation are related (both involve sound reflection) but different. Echo is a single, distinct reflected sound heard separately from the original, requiring a reflecting surface at least 17 m away (so the delay is >= 0.1 s). Reverberation is the persistence of sound due to many rapid, overlapping reflections in an enclosed space, where the reflections blend together and are not heard as distinct. Echo = distinct, separated reflection (far surface). Reverberation = overlapping, blended reflections (near surfaces, enclosed space).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Reflection of sound is the bouncing back of sound waves when they ______ a boundary between two media (e.g., a wall, a cliff, a building), following the law of reflection (angle of incidence = angle of reflection).",
+     "a": "encounter",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You hear your voice ______ after a delay — this is an echo.",
+     "a": "return",
+     "self_check": true
+    },
+    {
+     "q": "What is Reflection of sound? State the definition given in this lesson.",
+     "a": "Reflection of sound is the bouncing back of sound waves when they encounter a boundary between two media (e.g., a wall, a cliff, a building), following the law of reflection (angle of incidence = angle of reflection).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Echoes are distinct reflected sounds heard when the reflecting surface is far enough (typically >______ m) that the reflected sound is heard separately from the original.",
+     "a": "17",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Reflection of sound?",
+     "a": "Students confuse echo with reverberation.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can define reflection of sound, state the law of reflection (angle of incidence = angle of reflection), distinguish echo from reverberation, explain why a minimum distance (~17 m) is needed to hear an echo, and give two real-life examples of sound reflection.",
+     "self_check": true
     }
    ]
   }

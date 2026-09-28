@@ -34,6 +34,31 @@
      "q": "Design a simple backyard experiment using a rolling marble, a measuring tape, and a stopwatch to determine the average speed of the marble down an inclined wooden plank.",
      "a": "A good answer will state: Set up a wooden plank at an angle, mark a starting point (0 cm) and a finish point (e.g., 200 cm) using the measuring tape. Release the marble and use the stopwatch to record the exact time $t$ in seconds it takes to roll from start to finish. Finally, divide the measured distance by the recorded time to find the average speed in cm/s. A poor answer fails to include measurable parameters, lacks timing tools, or does not mention the formula calculation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The standard ______ (SI) unit of speed is meters per second (m/s), and it measures how fast an object changes its position in a given direction.",
+     "a": "international",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a school bus ______ down an Indian residential road past a landmark, noting how much ground it covers as a wall clock ticks off seconds.",
+     "a": "traveling",
+     "self_check": true
+    },
+    {
+     "q": "What is Speed? State the definition given in this lesson.",
+     "a": "The standard international (SI) unit of speed is meters per second (m/s), and it measures how fast an object changes its position in a given direction.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Speed?",
+     "a": "Students often confuse the units of speed and add or multiply distance and time values arbitrarily instead of dividing them.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate speed, distance, or time given the other two variables, perform correct unit conversions between km/h and m/s, and explain physical motion from word problems or experimental data.",
+     "self_check": true
     }
    ]
   }

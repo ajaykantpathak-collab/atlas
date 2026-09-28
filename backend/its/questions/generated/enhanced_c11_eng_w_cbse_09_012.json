@@ -34,6 +34,26 @@
      "q": "Create a new inferential question about the poem that requires connecting the \"veranda\" setting to the theme of elusive beauty, and provide a model answer.",
      "a": "Question: \"Why does the poet specify sitting in the veranda rather than indoors or in the garden?\" Model answer: The veranda is a threshold space — neither fully inside nor outside — mirroring the peacock's liminal presence; it requires patient stillness (reading) to witness fleeting beauty, suggesting nature reveals itself only to undemanding attention. A poor answer like \"verandas are common in India\" ignores thematic function.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal comprehension questions require answers directly stated in the text (who, what, where, when), while ______ comprehension questions require reading between the lines using textual evidence, context, and reasoning to draw conclusions not explicitly stated.",
+     "a": "inferential",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're ______ in your veranda reading your favorite novel, just like the poem describes.",
+     "a": "sitting",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently distinguish between literal and inferential questions, locate explicit textual evidence for literal answers, and construct logical inferences supported by specific textual clues for inferential answers in board-exam style responses.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're sitting in your veranda reading your favorite novel, just like the poem ______.",
+     "a": "describes",
+     "self_check": true
     }
    ]
   }

@@ -22,7 +22,7 @@
     "expand 12.304 using place values",
     "give a daily life measure written as a decimal"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -39,7 +39,16 @@
      "action": "check the answer",
      "explain": "Verify by reversing or re-checking, then conclude."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "line up and combine the decimal values",
+     "explain": "line up and combine the decimal values: val = 8 + 4 / 10 + 3 / 100 gives 8.43",
+     "compute": "val = 8 + 4 / 10 + 3 / 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp2.4.2",
@@ -121,7 +130,7 @@
     "place these decimals on a number line 1.2 1.25 1.1",
     "why is the length of a decimal not a measure of its size"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -138,7 +147,16 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "line up and combine the decimal values",
+     "explain": "line up and combine the decimal values: val = 9 + 9 / 10 + 5 / 100 gives 9.95",
+     "compute": "val = 9 + 9 / 10 + 5 / 100"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

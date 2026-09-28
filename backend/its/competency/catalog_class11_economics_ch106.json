@@ -75,7 +75,16 @@
      "solution": "Step 1: divide total workers by total population. Step 2: convert to percentage. Working: total_workers / total_population, ratio * 100.",
      "answer": "The method of worker-population ratio leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "worker_population_ratio = (total_workers / total_population) * 100",
+     "compute": "worker_population_ratio = (total_workers / total_population) * 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keec.6.3.2",
@@ -118,7 +127,16 @@
      "solution": "Step 1: multiply population by worker population ratio. Step 2: divide by 100. Working: population * worker_population_ratio, total_product / 100.",
      "answer": "The method of estimation of workforce from worker-population ratio leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "workforce = (population * worker_population_ratio) / 100",
+     "compute": "workforce = (population * worker_population_ratio) / 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keec.6.4.1",
@@ -135,7 +153,7 @@
     "explain why casual labourers are the most vulnerable group",
     "Explain classification of workers by employment status in your own words."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -147,7 +165,16 @@
      "action": "assign employment category",
      "explain": "Place into self-employed, regular salaried employee, or casual wage labourer based on terms of remuneration and attachment."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_workforce = self_employed + regular_salaried + casual_wage_labourers",
+     "compute": "total_workforce = self_employed + regular_salaried + casual_wage_labourers"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keec.6.5.1",
@@ -164,7 +191,7 @@
     "why does female employment remain heavily concentrated in the primary sector",
     "Explain sectoral distribution of workforce in your own words."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -176,7 +203,16 @@
      "action": "evaluate sector shares",
      "explain": "Examine workforce proportion residing in rural versus urban regions across the three broad sectors."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_share = primary_share + secondary_share + tertiary_share",
+     "compute": "total_share = primary_share + secondary_share + tertiary_share"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keec.6.6.1",
@@ -248,7 +284,16 @@
      "solution": "Step 1: compute informal workforce fraction. Step 2: convert to percentage. Working: informal_workers / total_workers, fraction * 100.",
      "answer": "The method of informalisation of the workforce leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "informal_share_pct = (informal_workers / total_workers) * 100",
+     "compute": "informal_share_pct = (informal_workers / total_workers) * 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keec.6.8.1",
@@ -265,7 +310,7 @@
     "what are the main sources of unemployment data in India",
     "Explain forms of unemployment: open, disguised, and seasonal in your own words."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -277,7 +322,16 @@
      "action": "classify unemployment type",
      "explain": "Assign the appropriate category based on seasonal cycles or zero marginal productivity."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "unemployed_count = labour_force - workforce",
+     "compute": "unemployed_count = labour_force - workforce"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keec.6.9.1",

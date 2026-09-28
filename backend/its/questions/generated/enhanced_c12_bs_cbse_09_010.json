@@ -34,6 +34,36 @@
      "q": "Design a mini-case (with numbers) where a company has RoI = 15%, Cost of Debt = 12%, Tax = 30%, Total Capital = ₹80 lakh. Show three leverage scenarios (0%, 30%, 50% debt) and prove that EPS increases with leverage. Then, change *only* the RoI to 10% (keeping everything else same) and show how the conclusion reverses.",
      "a": "**Case 1 (RoI=15%):** EBIT = 12 lakh. Sit I: EPS=₹1.05; Sit II (30% debt=24L): EPS=₹1.22; Sit III (50% debt=40L): EPS=₹1.46 → EPS rises.\n**Case 2 (RoI=10%):** EBIT = 8 lakh. Sit I: EPS=₹0.70; Sit II: EPS=₹0.63; Sit III: EPS=₹0.56 → EPS falls.\nA poor answer shows identical EPS trends in both cases, revealing the student cannot dynamically apply the RoI > Cost of Debt condition — they are likely plugging numbers into a memorised table without grasping the *driver* of the trend.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Financial leverage is the ______ of debt in a company's capital structure, measured as Debt/Equity (D/E) or Debt/(Debt+Equity) [D/(D+E)], which magnifies the effect of changes in EBIT on earnings per share (EPS) due to the presence of fixed financial charges (interest on debt).",
+     "a": "proportion",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You can either issue equity shares or take a bank loan at 10% ______.",
+     "a": "interest",
+     "self_check": true
+    },
+    {
+     "q": "What is Financial leverage? State the definition given in this lesson.",
+     "a": "Financial leverage is the proportion of debt in a company's capital structure, measured as Debt/Equity (D/E) or Debt/(Debt+Equity) [D/(D+E)], which magnifies the effect of changes in EBIT on earnings per share (EPS) due to the presence of fixed financial charges (interest on debt).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the CFO of a startup that needs ₹______ lakh to expand.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Financial leverage?",
+     "a": "Students believe \"Financial Leverage = Trading on Equity\" and use the terms interchangeably.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) compute financial leverage ratios (D/E and D/(D+E)) from given capital structure data; (2) perform EBIT-EPS analysis for three or more leverage scenarios to determine whether financial leverage is favourable or unfavourable; (3) explain the concept of Trading on Equity and identify the precise condition.",
+     "self_check": true
     }
    ]
   }

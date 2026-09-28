@@ -34,6 +34,21 @@
      "q": "Design a real-world experiment using a force table (or three spring balances and a knot) to verify the parallelogram law of vector addition for two forces. Specify the apparatus, procedure, measurements, and how you would calculate percentage error between experimental and theoretical resultant.",
      "a": "Apparatus: force table with pulleys, three weight hangers, slotted weights, protractor, ruler. Procedure: (1) Fix two pulleys at angles θ₁, θ₂ with weights W₁, W₂ representing forces **F₁**, **F₂**. (2) Adjust third pulley with weight W₃ to centre the knot (equilibrium). (3) **F₃** = -**R** (theoretical resultant). (4) Measure θ₃, W₃. (5) Theoretical |**R**| = √(W₁² + W₂² + 2W₁W₂cos θ). (6) % error = |W₃ - |**R**|| / |**R**| × 100%. A poor design (e.g., ignoring friction, not centring knot precisely) reveals lack of understanding of equilibrium as vector sum = 0, or confusion between resultant and equilibrant.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The graphical method of vector addition involves representing vectors as directed line segments with lengths proportional to their magnitudes and adding them using the head-to-tail (triangle) method or ______ method to obtain a resultant vector whose magnitude and direction represent the combined effect of the individual vectors.",
+     "a": "parallelogram",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a boat ______ a river with a steady current: the boat's velocity relative to water and the river's current velocity combine to give the actual path across the river.",
+     "a": "crossing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can accurately construct scaled vector diagrams using both triangle and parallelogram methods for 2-3 vectors, measure the resultant magnitude and direction with a ruler and protractor within 2% error, and explain why vector addition is commutative and associative using geometric reasoning.",
+     "self_check": true
     }
    ]
   }

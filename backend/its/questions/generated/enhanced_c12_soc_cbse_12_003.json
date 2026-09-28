@@ -1,0 +1,71 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_12_003",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_12_003",
+   "title": "c12_soc_cbse_12_003",
+   "questions": [
+    {
+     "q": "What was the primary role of the 'mistri' (jobber) in early Indian textile mills, and how did this role differ from a foreman in a British factory?",
+     "a": "The mistri was a worker-recruiter from the same region/community as the labourers who used personal ties and the owner's backing to control hiring, discipline, and wage advances; unlike a British foreman who was a supervisory employee with formal authority, the mistri combined community pressure with managerial power, making labour control personalistic rather than bureaucratic. A wrong answer that describes the mistri as merely a 'supervisor' misses the dual role of community enforcer and labour contractor — a uniquely Indian feature rooted in the absence of a free labour market.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the convergence thesis (Clark Kerr) — that industrialised India would resemble industrialised USA/China more than 19th century India — fails to account for the persistence of caste and regional networks in factory recruitment.",
+     "a": "The convergence thesis assumes technology determines social structure, but in India, pre-existing kinship, caste, and regional networks were actively used by employers to recruit and control labour (e.g., mistris hiring from their home districts), so social relations shaped industrial organisation rather than being erased by it. A wrong answer that says 'caste disappeared in factories' ignores NCERT evidence that 'older forms of discrimination may persist even in new factory settings' and that jobbers 'came from the same regions and communities as the workers'.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher finds that in a 1950s Kanpur cotton mill, 70% of weavers were from the same district (Ratnagiri) and shared a caste identity. The mill owner claims this is because 'these workers have traditional weaving skills.' Using the concept of 'labour segmentation', critique this claim and identify the real reason for such homogeneity.",
+     "a": "The claim masks labour segmentation: the mistri system recruited through kinship/regional networks to ensure a controllable, low-cost workforce, not because of inherent skill — weaving on power looms required new discipline, not traditional craft. The real reason is that segmented recruitment reduced turnover and unionisation risk by binding workers to a community-enforced contract. A wrong answer accepting the 'traditional skill' narrative fails to see how employers exploit social identities to fragment the working class.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the labour process in a 1940s Kanpur cotton mill (as described by Ramcharan) with that in a 1990s Maruti Udyog assembly line. Identify two continuities and one critical difference in how 'machine pace' governs the worker's body and time.",
+     "a": "Continuities: (1) Workers' movements are synchronised to the machine cycle (loom/assembly line), leaving no autonomy; (2) Both induce exhaustion — Ramcharan's 'eyes, neck, legs, hands' moving continuously parallels Maruti workers exhausted by 40. Difference: In Kanpur, the mistri enforced pace through personal authority; in Maruti, just-in-time outsourcing and flexi-time create systemic pressure where 'supplies arrive every two hours' and workers 'run to keep up' — control is impersonal, algorithmic, and globalised. A wrong answer focusing only on 'both are tiring' misses the shift from personalistic to structural coercion.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: 'The Bombay Textile Strike of 1982 failed because workers lacked solidarity.' Use evidence from the strike's duration, outcome, and the role of mill owners to support your judgment.",
+     "a": "The statement is false. Workers sustained a strike for nearly two years — extraordinary solidarity. The strike collapsed because: (1) Mill owners refused to modernise, preferring to sell land for real estate; (2) The state did not enforce labour laws; (3) 1 lakh workers lost jobs and were forced into casual powerloom work in Bhiwandi/Malegaon. The failure was structural — capital's exit strategy — not worker disunity. A wrong answer blaming workers ignores the NCERT's emphasis on 'mill owners did not invest in machinery and modernisation' and the 'battle over who will define the future of Mumbai'.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research question for a sociological study comparing home-based bidi rolling (as described in NCERT) with contemporary 'work from home' in the IT sector during COVID-19. Your question must capture both the similarity (piece-rate/outsourced labour) and the difference (class, autonomy, digital surveillance).",
+     "a": "A strong question: 'How does the shift from contractor-controlled piece-rate home work (bidi rolling) to algorithmically managed remote IT work reconfigure the boundaries of exploitation, autonomy, and social isolation for women workers across class?' This captures: (1) similarity — both are outsourced, home-based, piece/target-based; (2) difference — bidi workers are poor, rural women with zero autonomy; IT workers are middle-class, urban, with nominal 'flexi-time' but intense digital surveillance. A poor question would only compare 'working conditions' without theorising class and control mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ in India refers to the historical process of establishing factory-based manufacturing, particularly in textiles, under colonial and post-colonial conditions, characterised by a distinctive mix of modern machinery and pre-capitalist labour relations (e.g., jobber/mistri systems), resulting in a dualistic economy where a small organised sector coexists with a vast informal workforce.",
+     "a": "Industrialisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing in ______, Mumbai, in 1980 — the air humming with the sound of thousands of looms, workers living in chawls, and a strike brewing that will shut down the city's textile heart for two years.",
+     "a": "Girangaon",
+     "self_check": true
+    },
+    {
+     "q": "What is Industrialisation in India? State the definition given in this lesson.",
+     "a": "Industrialisation in India refers to the historical process of establishing factory-based manufacturing, particularly in textiles, under colonial and post-colonial conditions, characterised by a distinctive mix of modern machinery and pre-capitalist labour relations (e.g., jobber/mistri systems), resulting in a dualistic economy where a.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing in Girangaon, Mumbai, in ______ — the air humming with the sound of thousands of looms, workers living in chawls, and a strike brewing that will shut down the city's textile heart for two years.",
+     "a": "1980",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Industrialisation in India?",
+     "a": "Students often think the factory system in India simply replicated the British model with Indian workers.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) explain how the factory system in India differed from the European model in terms of labour recruitment, technology adoption, and state policy; (2) analyse the social composition of early textile mill workers (caste, gender, region) and the role of intermediaries like mistris; (3) evaluate the impact of.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

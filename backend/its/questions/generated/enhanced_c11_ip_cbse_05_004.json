@@ -34,6 +34,21 @@
      "q": "Design a function `split_bill(total, num_people)` that returns **two values**: the amount each person pays (rounded to 2 decimals) and the remainder (in paise) that one person covers extra. Example: `split_bill(1000, 3)` → each pays 333.33, remainder 1 paise. Show how to call it and unpack the two returned values into separate variables.",
      "a": "```python\ndef split_bill(total, num_people):\n    each = round(total / num_people, 2)\n    remainder_paise = round((total - each * num_people) * 100)\n    return each, remainder_paise\n\nshare, extra = split_bill(1000, 3)\nprint(f\"Each pays: ₹{share}, Extra covered: {extra} paise\")\n```\nOutput: `Each pays: ₹333.33, Extra covered: 1 paise`. A poor answer that returns only one value or uses global variables reveals the student doesn't know Python functions can return multiple values as a tuple, and that tuple unpacking (`share, extra = ...`) captures them cleanly.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A function that uses the return statement sends a computed value back to the caller, allowing the function call to be used as an expression in ______, conditions, or larger expressions.",
+     "a": "assignments",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're building a billing system for a kirana store: you need a function that ______ the total price after GST for any item.",
+     "a": "calculates",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write a function that computes a result and returns it using return, correctly capture the returned value in a variable, and explain why a function without an explicit return evaluates to None when used in an expression.",
+     "self_check": true
     }
    ]
   }

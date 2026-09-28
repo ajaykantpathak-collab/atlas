@@ -34,6 +34,36 @@
      "q": "Design a simple classroom experiment using a 500 mL plastic bottle, a balloon, a Y-tube, and two balloons to model the mechanism of breathing. Specify which component represents the diaphragm, which represents the lungs, and demonstrate one inspiration-expiration cycle. Explain the limitation of this model regarding residual volume.",
      "a": "Model: Bottle = thoracic cavity (rigid). Y-tube = trachea/bronchi. Two balloons on Y-tube arms = lungs. Third balloon stretched across bottle bottom = diaphragm. Pull bottom balloon down → volume inside bottle increases → lung balloons inflate (inspiration). Push bottom balloon up → volume decreases → lung balloons deflate (expiration). Limitation: Model cannot show *residual volume* because the \"lung\" balloons can collapse completely; real lungs never fully empty due to RV (≈1200 mL) maintained by surfactant and pleural pressure. A poor answer (omitting the limitation or misassigning components) reveals inability to translate abstract physiology into physical analogy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mechanism of breathing is the ______ process by which air moves into (inspiration) and out of (expiration) the lungs due to pressure gradients generated between the atmosphere and the alveoli through coordinated contractions and relaxations of the diaphragm and intercostal muscles, altering thoracic cavity volume in accordance with Boyle's Law.",
+     "a": "physiological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Place your hand on your chest while sitting quietly in a ______ - you feel gentle upward-outward movement during each breath.",
+     "a": "classroom",
+     "self_check": true
+    },
+    {
+     "q": "What is Mechanism of breathing? State the definition given in this lesson.",
+     "a": "Mechanism of breathing is the physiological process by which air moves into (inspiration) and out of (expiration) the lungs due to pressure gradients generated between the atmosphere and the alveoli through coordinated contractions and relaxations of the diaphragm and intercostal muscles, altering thoracic cavity volume in accordance.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now we quantify this: when thoracic volume increases, intra-pulmonary pressure drops below ______ mm Hg (atmospheric pressure), and air flows in.",
+     "a": "760",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Mechanism of breathing?",
+     "a": "Students believe expiration is always an active muscular process because they feel abdominal effort during heavy breathing (e.g., after running).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) trace the complete sequence of muscular actions and pressure changes during quiet and forced inspiration/expiration, (2) calculate any respiratory volume or capacity given the other four standard values, and (3) explain why intra-pulmonary pressure becomes negative during inspiration and positive during expiration using.",
+     "self_check": true
     }
    ]
   }

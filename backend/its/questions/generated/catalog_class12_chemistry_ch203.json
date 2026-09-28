@@ -1,0 +1,146 @@
+{
+ "catalog": "catalog_class12_chemistry_ch203.json",
+ "concepts": [
+  {
+   "id": "lech.8.6.1",
+   "title": "Nomenclature and Structure of Carboxylic Acids",
+   "converted_to_compute": true,
+   "formula": "IUPAC_name = Alkane_root_minus_e + oic_acid",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "IUPAC_name = Alkane_root_minus_e + oic_acid",
+     "compute": "IUPAC_name = Alkane_root_minus_e + oic_acid"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Nomenclature and Structure of Carboxylic Acids: given Alkane_root_minus_e = 53, oic_acid = 64, find IUPAC name.",
+     "a": "117",
+     "self_check": false
+    },
+    {
+     "q": "For Nomenclature and Structure of Carboxylic Acids: given Alkane_root_minus_e = 72, oic_acid = 56, find IUPAC name.",
+     "a": "128",
+     "self_check": false
+    },
+    {
+     "q": "For Nomenclature and Structure of Carboxylic Acids: given Alkane_root_minus_e = 14.1, oic_acid = 61, find IUPAC name.",
+     "a": "75.1",
+     "self_check": false
+    },
+    {
+     "q": "For Nomenclature and Structure of Carboxylic Acids: given Alkane_root_minus_e = 1, oic_acid = 95, find IUPAC name.",
+     "a": "96",
+     "self_check": false
+    },
+    {
+     "q": "For Nomenclature and Structure of Carboxylic Acids: given Alkane_root_minus_e = 57, oic_acid = 13.5, find IUPAC name.",
+     "a": "70.5",
+     "self_check": false
+    },
+    {
+     "q": "For Nomenclature and Structure of Carboxylic Acids: given Alkane_root_minus_e = 46, oic_acid = 75, find IUPAC name.",
+     "a": "121",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.8.0.1",
+   "title": "Degree of Unsaturation in Carbonyl Compounds",
+   "converted_to_compute": true,
+   "formula": "ihd = (2 * c_count + 2 - h_count) // 2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ihd = (2 * c_count + 2 - h_count) // 2",
+     "compute": "ihd = (2 * c_count + 2 - h_count) // 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Degree of Unsaturation in Carbonyl Compounds: given c_count = 74, h_count = 25, find ihd.",
+     "a": "62",
+     "self_check": false
+    },
+    {
+     "q": "For Degree of Unsaturation in Carbonyl Compounds: given c_count = 161, h_count = 375, find ihd.",
+     "a": "-26",
+     "self_check": false
+    },
+    {
+     "q": "For Degree of Unsaturation in Carbonyl Compounds: given c_count = 418, h_count = 2, find ihd.",
+     "a": "418",
+     "self_check": false
+    },
+    {
+     "q": "For Degree of Unsaturation in Carbonyl Compounds: given c_count = 440, h_count = 45, find ihd.",
+     "a": "418",
+     "self_check": false
+    },
+    {
+     "q": "For Degree of Unsaturation in Carbonyl Compounds: given c_count = 369, h_count = 465, find ihd.",
+     "a": "137",
+     "self_check": false
+    },
+    {
+     "q": "For Degree of Unsaturation in Carbonyl Compounds: given c_count = 168, h_count = 270, find ihd.",
+     "a": "34",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.8.0.2",
+   "title": "Molecular Mass Calculation of Organic Carbonyl Compounds",
+   "converted_to_compute": true,
+   "formula": "mol_mass = c_count * 12 + h_count * 1 + o_count * 16",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mol_mass = c_count * 12 + h_count * 1 + o_count * 16",
+     "compute": "mol_mass = c_count * 12 + h_count * 1 + o_count * 16"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Molecular Mass Calculation of Organic Carbonyl Compounds: given c_count = 233, h_count = 102, o_count = 498, find mol mass.",
+     "a": "10866",
+     "self_check": false
+    },
+    {
+     "q": "For Molecular Mass Calculation of Organic Carbonyl Compounds: given c_count = 107, h_count = 360, o_count = 217, find mol mass.",
+     "a": "5116",
+     "self_check": false
+    },
+    {
+     "q": "For Molecular Mass Calculation of Organic Carbonyl Compounds: given c_count = 421, h_count = 38, o_count = 143, find mol mass.",
+     "a": "7378",
+     "self_check": false
+    },
+    {
+     "q": "For Molecular Mass Calculation of Organic Carbonyl Compounds: given c_count = 217, h_count = 47, o_count = 338, find mol mass.",
+     "a": "8059",
+     "self_check": false
+    },
+    {
+     "q": "For Molecular Mass Calculation of Organic Carbonyl Compounds: given c_count = 114, h_count = 442, o_count = 319, find mol mass.",
+     "a": "6914",
+     "self_check": false
+    },
+    {
+     "q": "For Molecular Mass Calculation of Organic Carbonyl Compounds: given c_count = 279, h_count = 160, o_count = 255, find mol mass.",
+     "a": "7588",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "catalog": "catalog_class11_economics_ch103.json",
+ "concepts": [
+  {
+   "id": "keec.103.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "gdp = 76",
+      "subsidies = 73",
+      "indirect_taxes = 77",
+      "gva = gdp + subsidies - indirect_taxes"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "gdp = 76",
+      "subsidies = 73",
+      "indirect_taxes = 77",
+      "gva = gdp + subsidies - indirect_taxes"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gdp = 61",
+      "subsidies = 62",
+      "indirect_taxes = 5.2",
+      "gva = gdp + subsidies - indirect_taxes"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "gdp = 61",
+      "subsidies = 62",
+      "indirect_taxes = 5.2",
+      "gva = gdp + subsidies - indirect_taxes"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "gdp = 77",
+      "subsidies = 95",
+      "indirect_taxes = 74",
+      "gva = gdp + subsidies - indirect_taxes"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "gdp = 77",
+      "subsidies = 95",
+      "indirect_taxes = 74",
+      "gva = gdp + subsidies - indirect_taxes"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "gva = gdp + subsidies - indirect_taxes"
+   ]
+  },
+  {
+   "id": "keec.103.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "actual_mobilised = 60",
+      "target_disinvestment = 64",
+      "disinvestment_surplus = actual_mobilised - target_disinvestment"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "actual_mobilised = 60",
+      "target_disinvestment = 64",
+      "disinvestment_surplus = actual_mobilised - target_disinvestment"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "actual_mobilised = 79",
+      "target_disinvestment = 73",
+      "disinvestment_surplus = actual_mobilised - target_disinvestment"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "actual_mobilised = 79",
+      "target_disinvestment = 73",
+      "disinvestment_surplus = actual_mobilised - target_disinvestment"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "actual_mobilised = 97",
+      "target_disinvestment = 111",
+      "disinvestment_surplus = actual_mobilised - target_disinvestment"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "actual_mobilised = 97",
+      "target_disinvestment = 111",
+      "disinvestment_surplus = actual_mobilised - target_disinvestment"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "disinvestment_surplus = actual_mobilised - target_disinvestment"
+   ]
+  }
+ ]
+}

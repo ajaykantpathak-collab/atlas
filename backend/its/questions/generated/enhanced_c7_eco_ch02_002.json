@@ -34,6 +34,31 @@
      "q": "Design a simple transaction record for a school stationery shop where 2 items are sold to a student, showing the calculation of total revenue for the seller and total expenditure for the buyer.",
      "a": "A valid response should list Item 1 (e.g., 2 Notebooks at ₹40 each = ₹80) and Item 2 (e.g., 3 Pens at ₹10 each = ₹30), sum them up to show Total Exchange Value = ₹110, and identify the buyer's expenditure as ₹110 and the seller's revenue as ₹110. A poor answer lists items without quantities or prices, or fails to show the mathematical link between units sold and total money transferred.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Market exchange is an economic process where buyers and sellers interact to trade goods, services, or ______ in return for money, guided by mutual agreement on price and quantity.",
+     "a": "resources",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine visiting a busy ______ market in your neighborhood on a Sunday morning.",
+     "a": "vegetable",
+     "self_check": true
+    },
+    {
+     "q": "What is Market exchange? State the definition given in this lesson.",
+     "a": "Market exchange is an economic process where buyers and sellers interact to trade goods, services, or resources in return for money, guided by mutual agreement on price and quantity.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Market exchange?",
+     "a": "Students often think that market exchange is purely a physical transfer of goods, ignoring the flow of information and money that must accompany it.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can analyze a market transaction scenario by identifying the roles of buyers and sellers, determining the medium of exchange, and calculating the total value of exchange based on price and quantity.",
+     "self_check": true
     }
    ]
   }

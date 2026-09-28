@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_06_002",
+   "title": "c12_app_cbse_06_002",
+   "questions": [
+    {
+     "q": "Which of the following is NOT listed as a Learning Outcome in NCERT Section 4.0 for Probability Distributions?\na) Understand and apply the concept of Binomial Distribution\nb) Calculate the mathematical expectation and variance for a binomial distribution\nc) Derive the moment generating function of a Poisson distribution\nd) Calculate Z-Score and Use Z-Table to interpret normal distribution data set",
+     "a": "Correct answer: **c) Derive the moment generating function of a Poisson distribution**. The NCERT Learning Outcomes (Section 4.0) explicitly list 10 competencies — moment generating functions are NOT in the Class 12 Applied Mathematics syllabus. A student selecting (a), (b), or (d) has confused the syllabus with higher-level statistics (B.Sc./Actuarial Science). This reveals the student hasn't actually read the official Learning Outcomes and is relying on hearsay about \"what's in the chapter.\"",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Learning Outcome #3 says 'Understand and apply the concept of Probability Distribution' — this is the same as Outcome #4 'Write probability distribution of discrete random variable' because both are about probability distributions.\" Explain why this reasoning is flawed using the distinction between *conceptual understanding* and *procedural skill*.",
+     "a": "The reasoning is flawed because **Outcome #3 is conceptual** (can you explain what a probability distribution IS, recognize valid/invalid distributions, identify properties like Σp=1?) while **Outcome #4 is procedural** (can you actually construct the table for a given random variable X?). Board exams test both separately: a 1-mark MCQ might test #3 (\"Which of these is NOT a probability distribution?\") while a 4-mark question tests #4 (\"Construct the probability distribution of the number of defective items in a sample of 3 drawn with replacement\"). Confusing them leads to studying only construction and failing concept-check questions.",
+     "self_check": true
+    },
+    {
+     "q": "You encounter this CBSE Board 2023 question: *\"A random variable X has the following probability distribution: X: 0, 1, 2, 3; P(X): k, 2k, 3k, 4k. Find k and E(X).\"* Which TWO Learning Outcomes does this question directly assess? Justify your mapping.",
+     "a": "This question assesses **Outcome #4: \"Write probability distribution of discrete random variable\"** (student must verify Σp=1 to find k) and **Outcome #5: \"Calculate the mathematical expectation and variance of a discrete random variable\"** (student must compute E(X) = Σxᵢpᵢ). It does NOT assess Outcome #6 (Binomial) because no Bernoulli trials are described, nor Outcome #9 (Normal) because X is discrete. A student who maps this to \"Binomial Distribution\" has misidentified the problem type — a classic error when students force every discrete distribution into the binomial framework.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Learning Outcome #7 (\"Understand and apply the concept of Poisson Distribution\") with Outcome #10 (\"Calculate Z-Score and Use Z-Table to interpret normal distribution data set\"). Identify the fundamental difference in the *nature of the random variable* each outcome addresses, and explain why this distinction determines which formula sheet a student reaches for.",
+     "a": "**Outcome #7 addresses a DISCRETE random variable** (count of events in fixed interval: k = 0, 1, 2, ... using P(X=k) = λᵏe⁻ˡ/k!) while **Outcome #10 addresses a CONTINUOUS random variable** (measurements like height/weight/marks using Z = (x-μ)/σ and area-under-curve via Z-table). The distinction is critical: Poisson uses *summation* of probabilities (ΣP = 1), Normal uses *integration* of density (∫f(x)dx = 1). A student reaching for the Poisson formula when given \"mean=50, sd=10, find P(40<X<60)\" has failed to recognize the continuous nature — this is the #1 error in CUET Applied Mathematics.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this study plan: \"I'll master Learning Outcomes 1-5 (Discrete distributions) thoroughly, then skim Outcomes 6-10 (Binomial/Poisson/Normal) because they're just special cases of discrete distributions anyway.\" Is this plan sound for scoring 90+ in CBSE Applied Mathematics? Defend your evaluation with reference to the marks distribution in the official CBSE sample paper.",
+     "a": "**The plan is UNSOUND and dangerous.** CBSE Applied Mathematics Sample Paper 2023-24 allocates approximately **18-20 marks to Binomial/Poisson/Normal (Outcomes 6-10)** out of 80 total — that's 25% of the paper. Moreover, Normal Distribution (Outcomes 9-10) carries the highest-weight long-answer questions (4-6 marks each) because Z-table interpretation requires multi-step reasoning. Binomial/Poisson are NOT \"special cases of discrete distributions\" in the syllabus sense — they are *named distributions with dedicated formulas* (np, npq, λ) that students must memorize and apply. Skimming them guarantees losing the easiest high-weight marks.",
+     "self_check": true
+    },
+    {
+     "q": "Create a one-page \"Learning Outcome Tracker\" for this chapter that a Class 12 student can use for weekly self-assessment. Your tracker must have: (a) the 10 outcomes in student-friendly language, (b) a column for \"Can I teach this to a friend?\" (Feynman test), (c) a column for \"Solved 3+ problems of this type?\", and (d) a column linking each outcome to its sibling node ID (e.g., Outcome #3 → c12_app_cbse_06_008). Provide the tracker as a markdown table.",
+     "a": "| # | Learning Outcome (Student-Friendly) | Can I Teach It? (Y/N) | Solved 3+ Problems? (Y/N) | Sibling Node ID |\n|---|--------------------------------------|------------------------|----------------------------|-----------------|\n| 1 | Define random variable & give examples | | | c12_app_cbse_06_007 |\n| 2 | Distinguish discrete vs continuous RV | | | c12_app_cbse_06_007 |\n| 3 | Explain what a probability distribution IS (properties, validity checks) | | | c12_app_cbse_06_008 |\n| 4 | Construct probability distribution table for a given discrete RV | | | c12_app_cbse_06_008 |\n| 5 | Calculate E(X) and Var(X) for any discrete distribution | | | c12_app_cbse_06_009, c12_app_cbse_06_010 |\n| 6 | Identify Bernoulli trials & write Binomial Distribution B(n,p) | | | c12_app_cbse_06_001 (Binomial section) |\n| 7 | Calculate E(X), Var(X) for Binomial (np, npq) | | | c12_app_cbse_06_001 (Binomial section) |\n| 8 | Identify Poisson conditions & compute P(X=k) = λᵏe⁻ˡ/k! | | | c12_app_cbse_06_001 (Poisson section) |\n| 9 | Calculate E(X), Var(X) for Poisson (both = λ) | | | c12_app_cbse_06_001 (Poisson section) |\n| 10 | Compute Z = (x-μ)/σ, use Z-table for areas/probabilities | | | c12_app_cbse_06_001 (Normal section) |\n\nA poor answer would list outcomes verbatim from NCERT without the \"student-friendly\" translation or the sibling node mapping — indicating the student hasn't connected the syllabus document to the actual teaching modules.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

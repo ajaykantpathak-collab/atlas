@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (Indian context) that requires finding the area under a simple curve using integration. Specify the curve, bounds, and what the area represents.",
      "a": "Example: A farmer's irrigation channel has a cross-section shaped like y = 4 - x^2 from x = -2 to x = 2 (in metres). Find the cross-sectional area to estimate water flow. The area is ∫_{-2}^2 (4 - x^2) dx = [4x - x^3/3]_{-2}^2 = (8 - 8/3) - (-8 + 8/3) = 32/3 m². A good answer includes a clear scenario, correct function, bounds, and interpretation. A poor answer might use a linear function (trivial) or forget units.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The area under a simple curve y = f(x) from x = a to x = b (with f(x) ≥ 0 on [a,b]) is defined as the definite integral ∫_a^b f(x) dx, which represents the limit of the sum of areas of ______ thin vertical strips of width dx and height f(x).",
+     "a": "infinitesimally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a curved garden bed along the side of a ______ plot in your school.",
+     "a": "rectangular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The area under a simple curve y = f(x) from x = a to x = b (with f(x) ≥ ______ on [a,b]) is defined as the definite integral ∫_a^b f(x) dx, which represents the limit of the sum of areas of infinitesimally thin vertical strips of width dx and height f(x).",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly set up the definite integral for the area under a given curve y = f(x) or x = g(y) between specified bounds, identify when to take absolute value for curves below the axis, and explain the geometric meaning of the integral as a limit of Riemann sums.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a hypothetical combinatorial gene therapy regimen for pancreatic ductal adenocarcinoma (PDAC) incorporating two distinct mechanistic strategies. Specify: (a) the two strategies, (b) therapeutic genes, (c) vector system(s), (d) delivery route, (e) rationale for synergy. Justify each choice using PDAC biology (dense stroma, hypovascularity, KRAS mutation, immunosuppressive microenvironment).",
      "a": "A strong answer: (a) Strategy 1: Oncolytic virotherapy + immunogene therapy; Strategy 2: Anti-angiogenesis + suicide gene therapy. (b) Genes: Strategy 1 — oncolytic adenovirus (Δ24-RGD) expressing GM-CSF; Strategy 2 — AAV vector co-expressing endostatin and HSV-tk. (c) Vectors: conditionally replicative adenovirus (targets Rb-pathway defective PDAC cells) + AAV2/8 (good pancreatic tropism). (d) Delivery: image-guided intratumoral injection for adenovirus; systemic IV for AAV (crosses stroma via enhanced permeability). (e) Synergy: oncolysis releases tumor antigens + GM-CSF recruits DCs → anti-tumor immunity; endostatin normalizes vasculature → improves adenovirus spread and GCV delivery for HSV-tk bystander killing; normalized vessels also enhance T cell infiltration. A poor answer using only one vector type or ignoring stromal barrier reveals lack of integration of tumor biology with vector engineering.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Gene therapy for cancer involves the ______ of genetic material into a patient's cells to treat or prevent cancer by correcting defective genes, enhancing immune recognition of tumor cells, inducing apoptosis, inhibiting angiogenesis, or sensitizing tumors to conventional therapies, using viral or non-viral vectors for targeted delivery.",
+     "a": "introduction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a patient with advanced hepatocellular carcinoma who cannot undergo surgery — how can we use ______ to deliver a \"genetic drug\" directly to tumor cells?",
+     "a": "biotechnology",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) classify cancer gene therapy strategies into at least four distinct mechanistic categories with one specific gene/vector example each, and (2) evaluate the advantages and limitations of viral vs. non-viral delivery systems for solid tumors in a written response suitable for a 3-mark CBSE board question.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a patient with advanced ______ carcinoma who cannot undergo surgery — how can we use biotechnology to deliver a \"genetic drug\" directly to tumor cells?",
+     "a": "hepatocellular",
+     "self_check": true
     }
    ]
   }

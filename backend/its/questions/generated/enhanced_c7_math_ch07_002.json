@@ -34,6 +34,31 @@
      "q": "Design a word problem involving a school garden shaped like an equilateral triangle where students need to calculate the cost of fencing. Provide the side length and the cost per metre.",
      "a": "Expected response: A problem stating \"A school flower bed is in the shape of an equilateral triangle with each side measuring 8 metres. If wire fencing costs ₹50 per metre, find the total cost of fencing the flower bed.\" A poor response would give inconsistent dimensions or omit the cost rate, showing a failure to connect shape properties (perimeter) with real-world unit pricing.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An ______ triangle is a special three-sided polygon in which all three sides are equal in length and all three interior angles are equal, measuring exactly 60° each.",
+     "a": "equilateral",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an architect designing a stained-glass window for a school auditorium in Delhi, and you need to cut three glass panels that are ______ in every way, forming a perfectly balanced triangle where every corner and edge matches.",
+     "a": "identical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An equilateral triangle is a special three-sided polygon in which all three sides are equal in length and all three interior angles are equal, measuring exactly ______° each.",
+     "a": "60",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can construct an equilateral triangle using a ruler and compass when given a single side length, and can apply the properties of equal sides and equal 60° angles to solve multi-step geometric problems involving perimeter and unknown angles.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an architect designing a stained-glass window for a school ______ in Delhi, and you need to cut three glass panels that are identical in every way, forming a perfectly balanced triangle where every corner and edge matches.",
+     "a": "auditorium",
+     "self_check": true
     }
    ]
   }

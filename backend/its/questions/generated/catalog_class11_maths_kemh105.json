@@ -4,15 +4,8 @@
   {
    "id": "kemh.105.1.1",
    "title": "Complex Numbers: Definition, Powers of i and Algebra",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "expand the determinant or matrix product entry",
-     "explain": "expand the determinant or matrix product entry: det = -2 * 8 - 6 * 6 gives -52",
-     "compute": "det = -2 * 8 - 6 * 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the determinant of [[-2, 6], [6, 8]].",
@@ -50,6 +43,8 @@
    "id": "kemh.105.2.1",
    "title": "Argand Plane Representation of Complex Numbers and Their Absolute Value",
    "converted_to_compute": false,
+   "formula": "modulus = sqrt(a * a + b * b)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the determinant of [[-1, -3], [-1, -3]].",
@@ -86,15 +81,8 @@
   {
    "id": "kemh.105.3.1",
    "title": "Quadratic Equations with Complex Roots",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "expand the determinant or matrix product entry",
-     "explain": "expand the determinant or matrix product entry: det = 8 * -1 - 6 * -2 gives 4",
-     "compute": "det = 8 * -1 - 6 * -2"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the determinant of [[8, 6], [-2, -1]].",

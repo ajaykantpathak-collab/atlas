@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using three iron nails, three test tubes, water, oil, and anhydrous calcium chloride to prove that both air and water are necessary for rusting. Draw labeled diagrams and state expected observations after 3 days.",
      "a": "Tube 1: Nail in tap water (air + water) → rust forms (reddish-brown deposit). Tube 2: Nail in boiled water + oil layer (water but no air) → no rust. Tube 3: Nail in dry air with CaCl₂ (air but no water) → no rust. Diagram must show oil layer sealing boiled water, CaCl₂ at bottom of dry tube. Poor answer (missing control, wrong prediction, no diagram) shows inability to design controlled experiments or isolate variables.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Corrosion is the gradual deterioration of a metal due to ______ reaction with its environment, primarily oxidation by atmospheric oxygen in the presence of moisture, forming metal oxides/hydroxides.",
+     "a": "electrochemical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a rusted iron gate or a green-coated copper statue in your neighborhood — both are familiar examples of metals \"rotting\" due to ______.",
+     "a": "oxidation",
+     "self_check": true
+    },
+    {
+     "q": "What is Corrosion? State the definition given in this lesson.",
+     "a": "Corrosion is the gradual deterioration of a metal due to electrochemical reaction with its environment, primarily oxidation by atmospheric oxygen in the presence of moisture, forming metal oxides/hydroxides.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Corrosion?",
+     "a": "Students write the rust formula as Fe₂O₃ (anhydrous) instead of Fe₂O₃·xH₂O (hydrated), and think rusting is a simple combination reaction (Fe + O₂ → Fe₂O₃) ignoring the essential role of water as electrolyte and the multi-step redox mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the electrochemical mechanism of rusting using half-reactions, write the balanced overall chemical equation for rust formation, list the two necessary conditions (oxygen and water), and describe at least three prevention methods (galvanization, painting, cathodic protection, alloying) with the chemical reasoning.",
+     "self_check": true
     }
    ]
   }

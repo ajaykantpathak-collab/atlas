@@ -34,6 +34,31 @@
      "q": "Create a realistic adjustment scenario for a Class 11 problem where: (a) an asset was purchased mid-year, (b) depreciation rate is given, (c) old provision for depreciation exists in trial balance, and (d) the question asks for adjustment entry, P&L treatment, and Balance Sheet presentation. Write the full problem statement with numbers.",
      "a": "Good answer example: \"Trial Balance shows: Plant & Machinery ₹10,00,000 (purchased 1st Oct 2023), Provision for Depreciation ₹1,20,000 (cr). Additional info: Charge depreciation @ 15% p.a. on SLM. Accounting year ends 31st March 2024.\" Steps: 1) Depreciation for 6 months = ₹10,00,000 × 15% × 6/12 = ₹75,000. 2) Entry: Depreciation A/c Dr. ₹75,000 To Provision for Depreciation A/c ₹75,000. 3) P&L: Debit ₹75,000. 4) Balance Sheet: Plant & Machinery ₹10,00,000 Less Provision (₹1,20,000 + ₹75,000) = ₹8,05,000. A poor answer that ignores the existing provision or calculates full-year depreciation reveals inability to handle accumulated depreciation and pro-rata together.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the systematic allocation of the depreciable amount of a tangible fixed asset over its useful life, representing the decline in value due to wear and tear, efflux of time, obsolescence, or depletion.",
+     "a": "Depreciation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you buy a delivery van for ₹8,00,000 for your bakery ______.",
+     "a": "business",
+     "self_check": true
+    },
+    {
+     "q": "What is Depreciation? State the definition given in this lesson.",
+     "a": "Depreciation is the systematic allocation of the depreciable amount of a tangible fixed asset over its useful life, representing the decline in value due to wear and tear, efflux of time, obsolescence, or depletion.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Depreciation?",
+     "a": "Students believe depreciation is \"saving money to buy a new asset\" – they think the depreciation expense debited to P&L creates a cash reserve.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) calculate depreciation amount using given rate and method (straight-line or written-down value) for full or partial years, (2) pass the correct adjustment journal entry, (3) show the dual treatment in Trading and Profit & Loss Account (debit side) and Balance Sheet (asset deduction), and (4) explain how.",
+     "self_check": true
     }
    ]
   }

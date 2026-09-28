@@ -5,6 +5,8 @@
    "id": "hemh.111.11.1",
    "title": "Direct Proportion",
    "converted_to_compute": false,
+   "formula": "y2 = y1 * x2 / x1",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 10 : 18 in its simplest form and give the first term of the simplest form.",
@@ -42,6 +44,8 @@
    "id": "hemh.111.11.2",
    "title": "Inverse Proportion",
    "converted_to_compute": false,
+   "formula": "x2_y2 = x1 * y1",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 6 : 42 in its simplest form and give the first term of the simplest form.",
@@ -78,15 +82,9 @@
   {
    "id": "hemh.111.11.3",
    "title": "Telling Direct and Inverse Apart",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "set up the proportion and solve for the unknown part",
-     "explain": "set up the proportion and solve for the unknown part: t1 = 24 / 8 gives 3",
-     "compute": "t1 = 24 / 8"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 24 : 88 in its simplest form and give the first term of the simplest form.",

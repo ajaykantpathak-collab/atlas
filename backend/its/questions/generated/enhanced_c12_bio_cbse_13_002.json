@@ -34,6 +34,31 @@
      "q": "Design a simple experiment to test whether light intensity or soil moisture is the primary limiting factor for seedling survival of a native tree species (e.g., Sal, Shorea robusta) in a Central Indian forest gap.",
      "a": "Create four plots: (1) high light + high water, (2) high light + low water, (3) low light + high water, (4) low light + low water. Plant equal seedlings, measure survival/growth after 60 days. If (2) and (4) show similar low survival but (3) survives well → water limits. If (3) and (4) low but (2) survives → light limits. A poor design tests only one factor at a time (no factorial design) or uses non-native species, missing the ecological context. If they suggest \"measure photosynthesis,\" they confuse mechanism with limiting factor identification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Abiotic factors are the non-living physical and chemical components of an ecosystem — specifically temperature, water availability, and light intensity — that directly determine the survival, distribution, behaviour, and ______ functioning of organisms by setting the limits of their fundamental niche.",
+     "a": "physiological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine standing in the Thar Desert at noon — the sand burns your feet (______), your throat is parched (water), and the glare is blinding (light).",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "What is Abiotic factors? State the definition given in this lesson.",
+     "a": "Abiotic factors are the non-living physical and chemical components of an ecosystem — specifically temperature, water availability, and light intensity — that directly determine the survival, distribution, behaviour, and physiological functioning of organisms by setting the limits of their fundamental niche.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Abiotic factors?",
+     "a": "Students think \"adaptation eliminates the abiotic factor as a limitation.\" Example: \"Camels store water in humps, so water isn't limiting for them.\" WRONG.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain how each abiotic factor (temperature, water, light) acts as a limiting factor for organism distribution, describe at least two physiological or behavioural responses per factor with Indian examples, and apply Liebig's Law of the Minimum to predict which factor limits a population in a given scenario.",
+     "self_check": true
     }
    ]
   }

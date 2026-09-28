@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch9_7",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch9_7",
+   "title": "c9_math_ch9_7",
+   "questions": [
+    {
+     "q": "Define \"consistent axiom system\" and \"independent axiom system\" in your own words. Give a one-sentence example of a system that is consistent but NOT independent.",
+     "a": "**Correct answer:** A consistent axiom system has no contradictions (cannot prove both P and not-P). An independent axiom system has no redundant axioms (no axiom is provable from the others). Example: {A, B, A∧B} is consistent (no contradiction) but not independent because A∧B is derivable from A and B.  \n**What a wrong answer reveals:** If a student says \"consistent means all statements are true\", they confuse truth with consistency (a system can be consistent but have false statements in a particular interpretation). If they say \"independent means axioms are different\", they miss the logical derivability requirement — independence is about *proof*, not just syntactic difference.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the axiom set: {A: \"All squares are rectangles\", B: \"All rectangles have four sides\", C: \"All squares have four sides\"}. Is this system independent? Explain why or why not by showing a derivation.",
+     "a": "**Correct answer:** No, the system is NOT independent. Axiom C (\"All squares have four sides\") can be derived from A and B: From A, every square is a rectangle; from B, every rectangle has four sides; therefore, every square has four sides (C). So C is redundant.  \n**What a wrong answer reveals:** If a student says \"Yes, they are all different statements\", they confuse syntactic difference with logical independence. If they try to derive A from B and C and fail, then claim independence, they misunderstand that *only one* redundant axiom breaks independence — you must check *each* axiom against the *rest*.",
+     "self_check": true
+    },
+    {
+     "q": "A student proposes the following axioms for a geometry of \"paths\":\nP1: Every path has a start and an end.\nP2: If path A connects to path B, then path B connects to path A.\nP3: There exists a path that connects to itself.\nP4: No path connects to itself.\nIs this system consistent? Justify your answer by identifying the contradiction.",
+     "a": "**Correct answer:** The system is **inconsistent**. Axiom P3 asserts existence of a path connecting to itself. Axiom P4 asserts NO path connects to itself. Together they directly contradict: P3 ⇒ ∃x (x connects to x), P4 ⇒ ∀x ¬(x connects to x). These cannot both be true.  \n**What a wrong answer reveals:** If a student says \"It's consistent because P1 and P2 don't contradict\", they fail to check *all pairs* — consistency requires *no* contradiction anywhere in the system. If they say \"P3 and P4 are just different, not contradictory\", they don't recognize explicit negation (∃ vs ∀¬).",
+     "self_check": true
+    },
+    {
+     "q": "Compare Euclid's five postulates with the following modified set:\nM1: A straight line can be drawn between any two points.\nM2: A finite straight line can be extended continuously.\nM3: A circle can be drawn with any center and radius.\nM4: All right angles are equal.\nM5: Through a point not on a line, exactly one parallel line can be drawn.\nM6: Through a point not on a line, more than one parallel line can be drawn.\nAnalyze: Is {M1–M6} consistent? Is it independent? Explain both answers.",
+     "a": "**Correct answer:** The system is **inconsistent** because M5 and M6 directly contradict (exactly one vs more than one). Since it's inconsistent, independence is irrelevant (an inconsistent system proves everything, so all axioms become derivable).  \n**What a wrong answer reveals:** If a student says \"It's independent because M5 and M6 are different\", they don't grasp that contradiction destroys independence (in an inconsistent system, *any* statement is provable, so every axiom is trivially derivable from the others). If they check independence first without checking consistency, they miss the logical priority: consistency is a prerequisite for meaningful independence.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student's claim: \"Euclid's fifth postulate is not independent because many mathematicians tried to prove it from the first four — the fact that they failed doesn't mean it's independent; it just means they weren't smart enough.\" Is the claim correct? Defend your answer using the definition of independence.",
+     "a": "**Correct answer:** The claim is **incorrect**. Independence is a *logical* property: an axiom is independent if there exists *no proof* of it from the others — not just that no one has found one yet. The failure of centuries of attempts *suggested* independence, but it was only *proved* independent when models (like hyperbolic geometry) were constructed where the first four postulates hold but the fifth fails. Independence is proved by *exhibiting a model*, not by exhausting human effort.  \n**What a wrong answer reveals:** If a student agrees with the claim, they confuse *epistemic limitation* (\"we haven't found a proof\") with *logical impossibility* (\"no proof exists\"). This is a deep misunderstanding of mathematical proof — truth in mathematics is not determined by human cleverness but by logical structure.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own set of 3–4 axioms for a simple system (e.g., \"rules for a new card game\", \"properties of a new shape called a 'tri-square'\") that is **consistent but not independent**. Write the axioms, identify the redundant one, and show the derivation that proves it's not independent.",
+     "a": "**Example good answer:**  \nAxioms for \"Tri-squares\":  \nT1: Every tri-square has exactly three corners.  \nT2: Every tri-square has exactly three sides.  \nT3: Every tri-square has exactly three angles.  \nT4: The sum of angles in a tri-square is 180°.  \n*Redundant:* T3 (or T4, depending on other geometric assumptions).  \n*Derivation:* From T1 and T2, a tri-square is a triangle; from Euclidean geometry (assumed background), a triangle has three angles ⇒ T3. Or: T1+T2 ⇒ triangle ⇒ angle sum 180° ⇒ T4.  \n**What a poor answer reveals:** If the student creates axioms with a direct contradiction (e.g., \"has 3 sides\" and \"has 4 sides\"), they made it inconsistent, not \"consistent but not independent\". If they cannot show a *logical derivation* (just say \"it's obvious\"), they don't understand independence requires *provability*, not just intuition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

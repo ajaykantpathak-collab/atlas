@@ -34,6 +34,26 @@
      "q": "Design a spatial data storage plan for a district-level crop monitoring system in Punjab that must track: (i) individual farm boundaries (cadastral parcels), (ii) weekly NDVI from Sentinel-2 (10 m resolution), (iii) soil type polygons from a survey, and (iv) daily weather station points (temperature, humidity). Specify vector/raster for each, the primary file format, and one key reason per choice.",
      "a": "| Feature | Model | Format | Key Reason |\n|---|---|---|---|\n| (i) Farm boundaries | Vector (polygon) | GeoPackage (.gpkg) | Single-file, supports topology, attributes, and spatial index; ideal for parcel editing/queries. |\n| (ii) Weekly NDVI | Raster (time series) | Cloud-Optimized GeoTIFF (COG) per date, or NetCDF (multi-band) | COG enables HTTP range requests for web viewing; NetCDF stores time dimension natively. |\n| (iii) Soil type polygons | Vector (polygon) | GeoPackage (same DB as parcels) | Joins with parcel table via foreign key; supports complex attribute domains. |\n| (iv) Weather stations | Vector (point) | GeoJSON (API) or GeoPackage | Points with time-series attributes; GeoJSON for REST API, GeoPackage for offline analysis. |\nA poor answer uses Shapefile for everything (ignores 2 GB limit, no time-series support, multi-file fragility) or rasterizes parcels (loses precise boundaries, creates MAUP). The design must match *data structure* to *model*, not default to one format.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Spatial data represents geographic features and phenomena through two ______ digital formats: vector (discrete objects defined by coordinate geometry — points, lines, polygons with explicit topology) and raster (continuous surfaces divided into a regular grid of cells/pixels, each holding a single attribute value).",
+     "a": "fundamental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Open Google Maps on your phone and zoom into your neighbourhood: the road network you see (lines with junctions), the building footprints (polygons), and the POI markers (points) are vector — each feature has explicit coordinates and ______.",
+     "a": "connectivity",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) identify whether a given geographic phenomenon (e.g., river network, DEM, cadastral map) is best stored as vector or raster and justify the choice, (2) explain how topology differs between the two formats, (3) describe the storage implications of resolution in raster and vertex density in vector, and (4) name at least two.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Open Google Maps on your phone and zoom into your ______: the road network you see (lines with junctions), the building footprints (polygons), and the POI markers (points) are vector — each feature has explicit coordinates and connectivity.",
+     "a": "neighbourhood",
+     "self_check": true
     }
    ]
   }

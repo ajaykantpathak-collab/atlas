@@ -34,6 +34,36 @@
      "q": "Design a method to check the purity of a commercial sample of washing soda (Na₂CO₃·10H₂O) using only percentage composition analysis. What %Na would you expect for pure sample?",
      "a": "Expected %Na for pure Na₂CO₃·10H₂O: Molar mass = 2(23) + 12 + 3(16) + 10(18) = 286 g/mol. Mass Na = 46 g. %Na = (46/286)×100 = 16.08%. Method: Accurately weigh ~2 g sample, dissolve, precipitate carbonate as CaCO₃ using excess CaCl₂, filter, dry, weigh CaCO₃. From mass CaCO₃, calculate mass CO₃²⁻, then mass Na₂CO₃, then %Na. Compare to 16.08%. Lower %Na indicates impurities (like NaCl, Na₂SO₄) or partial dehydration. A poor answer would suggest \"measure %Na directly\" without a chemical method, or forget the water of crystallization in molar mass (giving %Na = 46/106 = 43.4% for anhydrous). This tests application to real-world quality control and hydrate handling.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Percentage ______ of a compound is the mass percent of each constituent element present in one mole of the compound, calculated as (total mass of the element in one formula unit / molar mass of the compound) × 100.",
+     "a": "composition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a packet of common salt (NaCl) in your kitchen - it always tastes the same whether from Gujarat or Tamil Nadu because sodium and ______ combine in a fixed 39.34% Na and 60.66% Cl ratio by mass.",
+     "a": "chlorine",
+     "self_check": true
+    },
+    {
+     "q": "What is Percentage composition of a compound? State the definition given in this lesson.",
+     "a": "Percentage composition of a compound is the mass percent of each constituent element present in one mole of the compound, calculated as (total mass of the element in one formula unit / molar mass of the compound) × 100.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Percentage composition of a compound is the mass percent of each constituent element present in one mole of the compound, calculated as (total mass of the element in one formula unit / molar mass of the compound) × ______.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Percentage composition of a compound?",
+     "a": "Students calculate percentage composition using atomic numbers instead of atomic masses.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can calculate the percentage composition of any compound given its molecular formula and atomic masses, and can use percentage composition data to verify sample purity or determine empirical formulas.",
+     "self_check": true
     }
    ]
   }

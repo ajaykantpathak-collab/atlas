@@ -34,6 +34,26 @@
      "q": "Design a transaction scenario (with numbers) where: (a) Old Provision = ₹6,000, (b) Further Bad Debts = ₹2,000, (c) New Provision Rate = 8%, (d) Final Net Debtors in Balance Sheet = ₹64,400. Show all workings to prove your numbers are consistent.",
      "a": "**Scenario:** Trial Balance: Sundry Debtors ₹90,000; Provision for Doubtful Debts ₹6,000 (Cr.). Adjustments: Further Bad Debts ₹2,000; Maintain provision at 8% on debtors.\n\n**Workings:**\n1. Debtors after further bad debts = ₹90,000 - ₹2,000 = ₹88,000\n2. New Provision = 8% of ₹88,000 = ₹7,040\n3. Old Provision = ₹6,000 → Additional provision needed = ₹7,040 - ₹6,000 = ₹1,040 (Dr. P&L)\n4. Net Debtors in B/S = ₹88,000 - ₹7,040 = **₹80,960** ❌ (Doesn't match ₹64,400)\n\n**Correct Scenario Design:**\nLet Debtors = D, Further Bad Debts = ₹2,000, Rate = 8%, Net Debtors = ₹64,400\nNet Debtors = (D - 2,000) × (1 - 0.08) = 0.92(D - 2,000) = 64,400\n→ D - 2,000 = 70,000 → **D = ₹72,000**\nOld Provision = ₹6,000 (given)\nNew Provision = 8% of ₹70,000 = ₹5,600\nSince New < Old: Excess provision = ₹400 → Credit P&L ₹400\nNet Debtors = ₹70,000 - ₹5,600 = ₹64,400 ✓\n\nA poor answer reveals inability to reverse-engineer from Balance Sheet figure — a key skill for \"missing figure\" board questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Bad Debts represent the ______ amount from debtors that is written off as a definite loss, while Provision for Doubtful Debts is an estimated reserve created against anticipated future losses from debtors whose recovery is uncertain, calculated as a percentage of net debtors after deducting further bad debts.",
+     "a": "irrecoverable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small wholesale business and sold goods worth ₹50,000 to a retailer who suddenly closes shop and disappears — that ₹50,000 is a bad debt, a ______ loss you must record immediately.",
+     "a": "confirmed",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently: (1) pass correct journal entries for further bad debts and provision creation considering old provision balance, (2) compute the net amount debited to Profit & Loss Account as (Bad Debts + Further Bad Debts + New Provision - Old Provision), and (3) present Sundry Debtors in the Balance Sheet at.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small wholesale business and sold goods worth ₹50,000 to a retailer who suddenly closes shop and disappears — that ₹50,000 is a bad debt, a confirmed loss you must record ______.",
+     "a": "immediately",
+     "self_check": true
     }
    ]
   }

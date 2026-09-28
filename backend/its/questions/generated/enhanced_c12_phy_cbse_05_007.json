@@ -34,6 +34,31 @@
      "q": "Design a simple school-lab experiment to trace the hysteresis loop of a ferromagnetic wire using a solenoid, a variable DC power supply, and a fluxmeter (or ballistic galvanometer). List the key steps and the measurements needed at each stage.",
      "a": "Key steps:  \n1. Wind a solenoid (known n turns/m) on a non-magnetic former; insert the ferromagnetic wire sample along its axis.  \n2. Connect solenoid to variable DC supply; include an ammeter to measure I.  \n3. Connect a search coil (wound over the sample) to a fluxmeter/ballistic galvanometer to measure flux change ΔΦ.  \n4. Start with demagnetised sample (use AC demagnetisation or thermal method). Set I=0, fluxmeter zero.  \n5. Increase I in small steps; at each step, record I (→ H = nI) and the fluxmeter reading (→ B = ΔΦ/(N_search·A_sample)). Plot B vs H (ascending branch).  \n6. Decrease I to zero, then reverse and increase in opposite direction; continue recording to trace the full loop.  \n7. Repeat for several cycles to ensure closure.  \nA poor answer omits demagnetisation step, uses only one direction of current, or confuses fluxmeter reading with B directly without area/turns correction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Magnetic ______ (χ) is a dimensionless measure of how much a material becomes magnetised in response to an applied magnetic field H, defined as χ = M/H where M is the magnetisation (magnetic moment per unit volume).",
+     "a": "susceptibility",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ humming and warming up in a household stabilizer — that heat comes from hysteresis loss in its silicon-steel core.",
+     "a": "transformer",
+     "self_check": true
+    },
+    {
+     "q": "What is Magnetic susceptibility (χ)? State the definition given in this lesson.",
+     "a": "Magnetic susceptibility (χ) is a dimensionless measure of how much a material becomes magnetised in response to an applied magnetic field H, defined as χ = M/H where M is the magnetisation (magnetic moment per unit volume).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Magnetic susceptibility (χ)?",
+     "a": "Students often think the hysteresis loop area represents power loss (watts) rather than energy loss per cycle per unit volume (joules/m³).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) sketch and label a hysteresis loop identifying saturation magnetisation, retentivity (remnant magnetisation), and coercivity; (2) calculate magnetic susceptibility from given M and H values and state its sign for dia/para/ferro materials; (3) explain why soft iron is used for transformer cores and alnico for permanent.",
+     "self_check": true
     }
    ]
   }

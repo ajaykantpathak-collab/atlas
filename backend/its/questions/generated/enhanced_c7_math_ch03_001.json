@@ -34,6 +34,21 @@
      "q": "Create a real-life scenario where measuring in whole numbers (like kilograms or meters) would cause a significant problem or error, and explain how introducing a smaller unit resolves the issue.",
      "a": "An expected good answer describes measuring medicine dosage in liters or milligrams for a child, where giving 1 whole pill or 1 whole ml instead of a fraction ($\\frac{5}{10}$ ml) could lead to an incorrect dose. A poor answer gives a scenario where whole numbers are already sufficient (like counting students in a class), failing to demonstrate the need for smaller measurement units.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The need for smaller units arises when whole numbers and standard large measurement units are ______ to express fractional amounts or precise quantities between two consecutive whole units, requiring the division of a whole into equal smaller parts such as tenths or hundredths.",
+     "a": "insufficient",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ the length of your science notebook with a standard plastic ruler, and the edge lands somewhere between 14 cm and 15 cm.",
+     "a": "measuring",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can explain why whole numbers fail to measure quantities that fall strictly between two consecutive integers and can demonstrate how a single whole unit must be divided into 10 or 100 equal parts to represent smaller fractional quantities.",
+     "self_check": true
     }
    ]
   }

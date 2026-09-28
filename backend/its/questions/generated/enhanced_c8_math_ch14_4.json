@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (Indian context) where a triangular area must be found using the parallelogram method, and the answer is used to decide between two options (e.g., buying paint, planting crops). Include all necessary measurements.",
      "a": "Example: \"A farmer has a triangular field with base 50 m and height 30 m. He wants to grow wheat (₹2000 per 100 m²) or rice (₹2500 per 100 m²). Which crop gives higher revenue?\" Good answer: Area = ½ × 50 × 30 = 750 m². Wheat revenue = (750/100)×2000 = ₹15000; Rice = (750/100)×2500 = ₹18750 → Rice is better. A poor answer omits the half, uses wrong units, or doesn't compare revenues, showing inability to apply the concept in a decision context.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The area of any triangle is exactly half the area of a ______ formed by duplicating the triangle and joining them along a corresponding side.",
+     "a": "parallelogram",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping a tailor in Delhi cut ______ patches from a rectangular cloth of length 40 cm and width 30 cm.",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the triangle area formula from the parallelogram area formula, correctly identify base-height pairs in any triangle (acute, right, obtuse), and solve problems where the triangle is embedded in a parallelogram or composite shape.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping a tailor in Delhi cut triangular patches from a ______ cloth of length 40 cm and width 30 cm.",
+     "a": "rectangular",
+     "self_check": true
     }
    ]
   }

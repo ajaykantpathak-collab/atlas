@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_10_003",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_10_003",
+   "title": "c11_leg_cbse_10_003",
+   "questions": [
+    {
+     "q": "What was the core constitutional defect identified by the Supreme Court in *Shreya Singhal v. Union of India* (2015) regarding Section 66A of the IT Act, 2000?",
+     "a": "The Supreme Court held that Section 66A was unconstitutionally vague and overbroad because terms like \"grossly offensive\" and \"menacing\" were not defined, leading to arbitrary enforcement and a chilling effect on free speech under Article 19(1)(a). A wrong answer (e.g., \"it violated privacy\" or \"it was not passed properly\") reveals the student confuses the *grounds* of the judgment — they may know the case name but not the *legal reasoning* (vagueness, overbreadth, chilling effect), which is essential for board exam answers.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the distinction between \"content-based\" and \"conduct-based\" cyber offences matters for constitutional validity.",
+     "a": "Content-based offences (like Section 66A) regulate *what is said* — they target speech, expression, or information — and must meet strict scrutiny under Article 19(2) (reasonable restrictions). Conduct-based offences (like Section 66 — hacking, Section 66C — identity theft) regulate *actions* (unauthorized access, fraud) regardless of the message content, so they are easier to justify as reasonable restrictions. A wrong answer that says \"both are the same\" or \"conduct-based also violates free speech\" shows the student fails to grasp the *hierarchy of constitutional protection* — speech gets higher protection than conduct, so vague speech laws are struck down while conduct laws survive.",
+     "self_check": true
+    },
+    {
+     "q": "A journalist publishes an investigative article exposing corruption in a government department. A minister files a complaint alleging the article is \"grossly offensive\" and \"menacing\" to national security. The police invoke Section 66A. As a legal advisor, explain step-by-step why this invocation is invalid post-*Shreya Singhal*.",
+     "a": "Step 1: Identify the provision — Section 66A, IT Act, 2000. Step 2: Recall *Shreya Singhal* (2015) — Supreme Court struck down Section 66A as unconstitutional under Article 19(1)(a). Step 3: Apply the three defects — (a) Vagueness: \"grossly offensive\" is subjective; (b) Overbreadth: covers legitimate journalism, dissent, satire; (c) Chilling effect: journalists self-censor. Step 4: Note the article is *content*, not *conduct* — no hacking, no fraud, no unauthorized access. Step 5: Conclude — invocation is illegal; Section 66A no longer exists. A wrong answer that cites Section 66 or 67 shows the student cannot *differentiate* offences — they treat all cybercrimes as interchangeable, missing the speech-vs-conduct distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the constitutional fate of Section 66A (struck down) and Section 66 (upheld) of the IT Act. Why did one fail and the other survive judicial scrutiny?",
+     "a": "Section 66A regulated *speech content* (\"grossly offensive\", \"menacing\" messages) — vague, overbroad, chilled legitimate expression — failed Article 19(2) \"reasonable restriction\" test. Section 66 regulates *conduct*: \"dishonestly or fraudulently\" causing damage to a computer system (hacking, data theft) — defines *acts* (access, download, damage) with *mens rea* (\"dishonestly/fraudulently\") — clear, narrow, targets harmful *behaviour*, not ideas — survives as reasonable restriction. A wrong answer saying \"both deal with computers\" misses the *analytical core*: the *nature of the regulated activity* (speech vs. conduct) determines constitutional validity, not the medium.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the argument: \"Since cybercrimes are increasing, the government should re-enact Section 66A with clearer definitions to combat online hate speech and fake news.\"",
+     "a": "The argument fails because: (1) *Shreya Singhal* did not strike down Section 66A only for vagueness — it also held the provision *inherently overbroad* as it criminalized \"annoyance\", \"inconvenience\", \"insult\" — categories that *cannot* be narrowly tailored to meet Article 19(2) \"public order\" or \"decency\" exceptions; (2) existing laws *already* cover hate speech (IPC Sections 153A, 295A, 505) and fake news (Section 66D, 67, 67A, 67B, IPC 469, 505); (3) re-enacting a \"content-based\" offence with subjective terms risks the same chilling effect. A good evaluation acknowledges the *legislative alternatives* and the *structural constitutional barrier* to regulating speech via vague content-based laws. A weak answer says \"we need stronger laws\" without engaging the *constitutional limits* on speech regulation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical cyber law provision that regulates \"harmful online content\" but would *survive* the *Shreya Singhal* test. Specify: (a) the precise conduct targeted, (b) the mental element required, (c) the harm threshold, and (d) why it avoids vagueness and overbreadth.",
+     "a": "A strong answer: \"Section X: Whoever, *with intent to incite imminent violence*, publishes *a direct call for physical harm against an identifiable group* on a computer resource, *where such call is likely to cause actual violence within 48 hours*, shall be punished.\" (a) Conduct: publishing a *direct call for physical harm* (not \"offensive\" speech); (b) Mens rea: *specific intent to incite imminent violence*; (c) Harm threshold: *imminent likelihood of actual violence* (objective, time-bound); (d) Avoids *Shreya Singhal* defects: terms are *objective* (\"direct call\", \"identifiable group\", \"imminent violence\"), *narrow* (only incitement, not annoyance/insult), and *tied to conduct* (violence), not mere expression. A poor answer uses terms like \"harmful\", \"offensive\", \"fake\", \"misleading\" — revealing the student cannot *operationalize* constitutional standards into legislative drafting.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

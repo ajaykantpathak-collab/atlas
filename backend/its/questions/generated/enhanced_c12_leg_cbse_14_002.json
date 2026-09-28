@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_14_002",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_14_002",
+   "title": "c12_leg_cbse_14_002",
+   "questions": [
+    {
+     "q": "What is the constitutional basis for free legal aid in India, and which Article explicitly mandates the State to provide it?",
+     "a": "The constitutional basis is Article 39A (inserted by the 42nd Amendment, 1976), which directs the State to secure equal justice and provide free legal aid by suitable legislation or schemes so that opportunities for justice are not denied due to economic or other disabilities. Articles 14 and 21 support it as facets of equality and access to justice. A wrong answer (e.g., citing only Article 21 or Article 32) reveals the student confuses the *directive principle* (Art. 39A) with *fundamental rights* — Art. 39A is non-justiciable but mandates legislation; Arts. 14/21 make it enforceable via judicial interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "A 35-year-old male daily wage carpenter in Rajasthan earns ₹8,500/month. He is not SC/ST, not disabled, not a victim of trafficking or disaster. He has a civil dispute with his employer over unpaid wages. Is he eligible for free legal aid under Section 12 of the Legal Services Authorities Act, 1987? Explain why or why not.",
+     "a": "Yes, he is eligible. Section 12(h) entitles persons with annual income less than ₹9,000 (or higher as prescribed by State Government) if the case is before a court other than the Supreme Court. His annual income is ₹1,02,000 (₹8,500 × 12), which exceeds ₹9,000 — BUT the State Government (Rajasthan) may have prescribed a higher ceiling. The student must check the *State Rules*. If Rajasthan has not enhanced it, he is *not* eligible under income criterion. However, he may qualify as an \"industrial workman\" under Section 12(f) if his work falls under the Industrial Disputes Act. A wrong answer (saying \"yes, because he's poor\") reveals the student ignores the *statutory income ceiling* and *State-specific notification* — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A woman in Delhi, aged 62, widow, annual income ₹1.2 lakh, faces eviction from her rented home by the landlord. She approaches DLSA for legal aid. The DLSA rejects her application saying her income exceeds ₹9,000. She appeals. On what *two* grounds can she challenge this rejection? Cite specific provisions.",
+     "a": "She can challenge on: (1) **Gender-based eligibility**: Section 12(c) — \"a woman\" is eligible *regardless of income*. The income ceiling in 12(h) applies only to persons *not* covered under 12(a)–(g). (2) **Senior citizen eligibility under Delhi Rules**: Delhi State Legal Services Authority Rules notify that senior citizens (60+) are eligible for free legal aid subject to a *higher* income ceiling (often ₹3 lakh). The DLSA erred by applying the general ₹9,000 ceiling instead of checking her category-specific entitlement. A wrong answer reveals the student thinks income ceiling is *universal* — it's not; it's a residual category.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: (a) Lok Adalat under the original 1987 Act, and (b) Permanent Lok Adalat under the 2002 Amendment. Focus on: jurisdiction (stage of dispute), subject matter, and finality of award.",
+     "a": "| Feature | Lok Adalat (1987 Act) | Permanent Lok Adalat (2002 Amendment) |\n|--------|------------------------|----------------------------------------|\n| **Stage** | Pending cases in court OR pre-litigation (voluntary) | **Only pre-litigation** (before case filed) |\n| **Subject** | Any civil/compoundable criminal dispute | **Only public utility services** (transport, postal, power, water, hospital, insurance, etc.) |\n| **Award** | Binding, deemed decree of civil court | **Final, binding, deemed decree** — but *only if parties fail to settle*, PLA decides on merit |\n| **Procedure** | Conciliation, flexible | Conciliation first; if fails, **decides on merit** guided by natural justice, not bound by CPC/Evidence Act |\nA wrong answer (e.g., \"both are same\") reveals confusion between *supplementary* forum (Lok Adalat) and *mandatory pre-litigation* forum for essential services (Permanent Lok Adalat) — a frequent CUET/board distinction question.",
+     "self_check": true
+    },
+    {
+     "q": "\"Legal aid is not a charity but a constitutional obligation.\" Evaluate this statement with reference to: (i) Article 39A, (ii) Article 21 (as interpreted in Hussainara Khatoon), and (iii) the Legal Services Authorities Act, 1987. Is the statement legally accurate?",
+     "a": "Yes, legally accurate. (i) Article 39A (DPSP) mandates the State to *provide* free legal aid by legislation — it's a directive, but (ii) *Hussainara Khatoon v. State of Bihar (1979)* read Article 21 (Right to Life) to include **right to free legal aid** and **speedy trial** as part of \"procedure established by law\" — making it a *fundamental right* enforceable under Article 32. (iii) The 1987 Act *operationalizes* this obligation by creating NALSA/SLSA/DLSA, defining eligibility (Sec. 12), and making legal aid a *statutory entitlement*, not discretionary charity. The shift from \"State shall endeavour\" (Art. 39A) to \"shall be entitled\" (Sec. 12) confirms it's a right. A wrong answer treating it as mere DPSP reveals ignorance of judicial activism expanding Art. 21.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical \"Legal Aid Eligibility Checker\" flowchart for a paralegal volunteer at a TLSC (Taluk Legal Services Committee). The flowchart must correctly route 5 distinct applicant profiles to \"Eligible\" or \"Not Eligible\" using Section 12 categories and income ceilings. Include at least one profile where *State Rules* override the central ceiling.",
+     "a": "**Flowchart Logic (Text Version):**\n```\nSTART → Input: Applicant Profile (Category, Income, Case Court, State)\n│\n├─ Is applicant: SC/ST / Victim of Trafficking/Begar / Woman / Child / Disabled / Industrial Workman / In Custody?\n│   ├─ YES → ELIGIBLE (Sec. 12(a)–(g)) — STOP\n│   └─ NO → Go to Income Check\n│\n├─ INCOME CHECK:\n│   ├─ Case in Supreme Court? → Ceiling = ₹12,000 (or Central Govt. notified higher)\n│   └─ Case in other court? → Ceiling = ₹9,000 (or **State Govt. notified higher**)\n│\n├─ Is Annual Income ≤ Applicable Ceiling?\n│   ├─ YES → ELIGIBLE (Sec. 12(h)) — STOP\n│   └─ NO → Check State-Specific Rules\n│\n├─ STATE RULES OVERRIDE?\n│   ├─ e.g., Delhi: Senior Citizen (60+) → Ceiling ₹3 lakh\n│   │   ├─ YES → ELIGIBLE — STOP\n│   │   └─ NO → NOT ELIGIBLE\n│   ├─ e.g., Maharashtra: Transgender person → Eligible regardless of income\n│   │   ├─ YES → ELIGIBLE — STOP\n│   │   └─ NO → NOT ELIGIBLE\n│   └─ No special rule → NOT ELIGIBLE\n```\nA poor answer uses only the central ₹9,000/₹12,000 ceilings and ignores State Rules — missing that **States can and do enhance ceilings** (e.g., Delhi, Karnataka, Tamil Nadu). This is a practical skill tested in CUET legal aptitude.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

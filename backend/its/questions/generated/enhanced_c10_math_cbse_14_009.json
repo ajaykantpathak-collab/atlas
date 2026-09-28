@@ -34,6 +34,26 @@
      "q": "Create a word problem on playing cards probability that requires using the complement rule P(not E) = 1 - P(E) and involves at least two conditions (e.g., \"neither a king nor a heart\"). Write the problem, solve it step-by-step, and explain why the complement method is easier than direct counting.",
      "a": "Sample problem: \"A card is drawn from a well-shuffled deck. Find the probability that it is neither a king nor a heart.\"\nSolution: P(king ∪ heart) = 4/52 + 13/52 - 1/52 = 16/52 = 4/13. P(neither) = 1 - 4/13 = 9/13.\nDirect counting: Cards that are neither king nor heart = 52 - 16 = 36. P = 36/52 = 9/13.\nComplement is easier because counting the union (16 cards) is simpler than listing 36 excluded cards. A poor problem would be trivial (e.g., \"not an ace\") or not require complement. This tests synthesis of complement rule with union of events.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Word problems on probability with playing cards involve ______ the likelihood of drawing specific cards or types of cards from a well-shuffled standard deck of 52 cards, using the classical probability formula P(E) = n(E)/n(S) where n(S) = 52 and n(E) is the count of favourable cards satisfying the given condition.",
+     "a": "calculating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're playing a card game with friends during Diwali and someone asks: \"What are the chances I draw a red king from this ______ deck?\" To begin, write down the total cards = 52.",
+     "a": "shuffled",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're playing a card game with friends during Diwali and someone asks: \"What are the chances I draw a red king from this shuffled deck?\" To begin, write down the total cards = ______.",
+     "a": "52",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the sample space (52 cards), classify cards by suit/colour/rank, count favourable outcomes for compound events (e.g., \"king or queen\", \"red face card\"), apply P(E) = favourable/52, simplify fractions, and solve multi-step problems involving \"and/or\" conditions without replacement.",
+     "self_check": true
     }
    ]
   }

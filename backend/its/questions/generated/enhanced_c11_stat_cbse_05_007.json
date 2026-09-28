@@ -34,6 +34,26 @@
      "q": "Create a continuous frequency distribution with 5 classes where the mode is exactly at the lower limit of the modal class. Provide the class intervals and frequencies, then verify using the formula.",
      "a": "Example: Classes 0–10, 10–20, 20–30, 30–40, 40–50; Frequencies 5, 10, 20, 20, 5. Modal class is 20–30 (frequency 20, tied with 30–40 but first occurrence). \\( L = 20 \\), \\( f_m = 20 \\), \\( f_{m-1} = 10 \\), \\( f_{m+1} = 20 \\). \\( D_1 = 10 \\), \\( D_2 = 0 \\). Mode \\( = 20 + \\frac{10}{10+0} \\times 10 = 30 \\) — wait, that gives upper limit. To get mode at lower limit, need \\( D_1 = 0 \\). So set frequencies: 5, 20, 20, 10, 5. Modal class 10–20 (first highest). \\( L = 10 \\), \\( f_m = 20 \\), \\( f_{m-1} = 5 \\), \\( f_{m+1} = 20 \\). \\( D_1 = 15 \\), \\( D_2 = 0 \\) → mode = 20. Not lower limit. Correct construction: make \\( D_1 = 0 \\) → \\( f_m = f_{m-1} \\). But then modal class not unique. Actually, mode = L when \\( D_1 = 0 \\) i.e., \\( f_m = f_{m-1} \\). But then two classes have same max frequency → bimodal. So mode cannot be exactly at lower limit unless we accept bimodal or use a different definition. A good answer recognises this subtlety: mode = L only if \\( D_1 = 0 \\), which implies the preceding class has equal frequency, making the distribution bimodal. A poor answer gives a distribution without checking the condition, revealing lack of algebraic insight into the formula.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you own a shoe store and want to ______ the size that sells the most — that is the mode, the most \"fashionable\" value.",
+     "a": "stock",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Mode?",
+     "a": "Students often apply the continuous series mode formula to discrete series by converting variables into class intervals of width 1 (e.g., 10 becomes 9.5–10.5) and then using the formula, which yields a decimal mode like 30.2 instead of the correct discrete mode 30.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the modal class in a continuous frequency distribution, apply the mode formula with proper handling of inclusive class intervals and cumulative frequency conversions, and justify the choice of mode over mean or median for qualitative or open-ended data.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you own a shoe store and want to stock the size that sells the most — that is the mode, the most \"______\" value.",
+     "a": "fashionable",
+     "self_check": true
     }
    ]
   }

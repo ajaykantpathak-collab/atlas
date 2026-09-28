@@ -22,7 +22,7 @@
     },
     {
      "q": "Analyse the impact on the Indian rupee exchange rate (₹/$) if: (a) Global crude oil prices rise sharply, (b) The US Federal Reserve raises interest rates while RBI keeps rates unchanged, (c) Foreign portfolio investors (FPIs) sell Indian stocks and repatriate funds. For each, state whether the rupee appreciates or depreciates and explain the demand/supply shift.",
-     "a": "(a) Crude oil price rise → India's import bill increases → demand for $ increases (demand curve shifts right) → rupee depreciates (e rises).\n(b) US rate hike → higher returns on US assets → capital outflow from India → demand for $ increases (Indians buy US bonds) AND supply of $ decreases (FPIs sell Indian assets, convert ₹ to $) → both shifts raise e → rupee depreciates.\n(c) FPI sell-off → supply of ₹ increases in forex market (they sell ₹ to buy $) → effectively demand for $ increases → demand curve shifts right → rupee depreciates.\nA WRONG answer (e.g., \"US rate hike makes dollar cheaper\" or \"FPI selling increases supply of dollars\") reveals confusion between asset returns and currency flows, and misunderstanding of who supplies what in the forex market. This tests multi-factor analysis required for CUET/JEE.",
+     "a": "(1) Crude oil prices rise sharply — the import bill grows, demand for dollars shifts right, and the rupee depreciates, (2) US Fed hikes while RBI holds — higher US asset returns pull capital out, raising dollar demand while FPI selling cuts dollar supply, so both shifts push the exchange rate up and the rupee depreciates, (3) FPIs sell Indian stocks and repatriate — rupees are sold for dollars, raising dollar demand, so the demand curve shifts right and the rupee depreciates. A wrong answer such as a US rate hike making the dollar cheaper, or FPI selling increasing the supply of dollars, confuses asset returns with currency flows and misses who supplies what in the forex market.",
      "self_check": true
     },
     {
@@ -33,6 +33,26 @@
     {
      "q": "Construct a numerical example showing how a 10% depreciation of the rupee (from ₹80/$ to ₹88/$) affects the rupee price of an imported good priced at $100 and an exported good priced at ₹5,000. Calculate the percentage change in rupee prices and explain the impact on import volume and export volume assuming price elasticity of demand for imports = -0.5 and for exports = -1.5.",
      "a": "Import: Initial price = $100 × 80 = ₹8,000. New price = $100 × 88 = ₹8,800. %ΔP = +10%. %ΔQ_import = elasticity × %ΔP = -0.5 × 10% = -5% (import volume falls 5%).\nExport: Initial $ price = ₹5,000 / 80 = $62.5. New $ price = ₹5,000 / 88 = $56.82. %ΔP_$ = -9.09%. %ΔQ_export = -1.5 × (-9.09%) = +13.6% (export volume rises 13.6%).\nTrade balance impact: Import value in $ = $100 × 0.95 = $95m. Export value in $ = $62.5 × 1.136 = $71m. Net effect depends on initial trade volumes.\nA POOR answer (e.g., only calculates rupee prices, ignores elasticity, or assumes export price in rupees changes) reveals inability to distinguish between currency of invoicing and elasticity effects — a key distinction in competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The foreign exchange rate is the price of one country's currency expressed in terms of another country's currency, determined by the ______ of demand for and supply of foreign exchange in the foreign exchange market under a flexible exchange rate regime.",
+     "a": "interaction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an Indian ______ wanting to buy crude oil priced in US dollars, or an IT firm in Bengaluru receiving payment in dollars for software services exported to the US.",
+     "a": "importer",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how the equilibrium exchange rate is determined by the intersection of demand and supply curves for foreign exchange, identify factors that shift these curves (imports, exports, capital flows, speculation), and predict the direction of exchange rate movement (appreciation/depreciation) given a specific economic.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an Indian importer wanting to buy crude oil priced in US dollars, or an IT firm in ______ receiving payment in dollars for software services exported to the US.",
+     "a": "Bengaluru",
      "self_check": true
     }
    ]

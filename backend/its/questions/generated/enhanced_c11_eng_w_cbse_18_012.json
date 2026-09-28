@@ -34,6 +34,21 @@
      "q": "Create your own inferential question based on the poem's final stanza (\"Where there are no trees except the one / Which grows and seethes in one's dreams...\") and provide a model answer using the PEEL structure.",
      "a": "Question: \"How does the contrast between Bombay's treeless reality and the dream-tree reflect the poem's central concern?\" \nModel PEEL answer: Point: The contrast highlights the irreversible loss of nature and the poet's psychological displacement. Evidence: The poem states \"Where there are no trees except the one / Which grows and seethes in one's dreams.\" Explanation: The physical absence of trees in the urban metropolis is compensated by a mental tree that \"seethes\" with unresolved emotion, showing that environmental destruction haunts the human psyche. Link: This reinforces the theme that ecological violence leaves lasting scars on memory and identity. A poor answer would only describe the two settings without connecting them to the theme.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal comprehension questions require answers directly stated in the text, while ______ comprehension questions require drawing conclusions by combining textual evidence with reasoning.",
+     "a": "inferential",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are sitting in an exam hall and the first question asks: \"What was the ______ of the banyan tree's trunk?\" You can point to the exact line.",
+     "a": "circumference",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently distinguish between literal and inferential questions, locate explicit textual evidence for literal answers, and construct inferential answers by synthesizing at least two textual clues with logical reasoning, using the PEEL (Point, Evidence, Explanation, Link) structure.",
+     "self_check": true
     }
    ]
   }

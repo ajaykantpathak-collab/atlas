@@ -34,6 +34,36 @@
      "q": "Design a non-random sampling plan to study the challenges faced by first-generation college students in your district. Specify which of the three methods you would use, define your selection criteria/quotas, and justify why a random sample is impractical here.",
      "a": "**Method: Purposive (Judgment) Sampling.** Selection criteria: (1) Currently enrolled in a district college, (2) Neither parent completed a bachelor's degree, (3) Willing to participate in a 60-minute interview. I would use college administrative records (with permission) to identify potential participants and purposively select 15-20 students ensuring variation across gender, stream (Arts/Science/Commerce), and college type (govt/private). **Why random sampling is impractical**: No comprehensive, accessible list (sampling frame) of *only* first-generation students exists; identifying them would require screening the entire student population — prohibitively expensive and time-consuming for a qualitative study. A poor answer proposing \"convenience sampling at the college gate\" fails to address the need for *variation* in a qualitative study and shows inability to match method to research purpose.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Non-random sampling is a sampling technique where the selection of units from the population is based on the researcher's judgment, ______, or pre-determined quotas rather than on a random mechanism, meaning not every unit in the population has a known or equal probability of being included in the sample.",
+     "a": "convenience",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to quickly gauge Class 11 students' opinion on the new Economics ______ but have only 15 minutes before the bell rings.",
+     "a": "textbook",
+     "self_check": true
+    },
+    {
+     "q": "What is Non-random sampling? State the definition given in this lesson.",
+     "a": "Non-random sampling is a sampling technique where the selection of units from the population is based on the researcher's judgment, convenience, or pre-determined quotas rather than on a random mechanism, meaning not every unit in the population has a known or equal probability of being included in the sample.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You stand at the classroom door and ask the first ______ students who walk in.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Non-random sampling?",
+     "a": "Students often believe quota sampling is a type of random sampling because it \"controls for subgroups like stratified sampling.\" They see the subgroup quotas and assume the selection *within* quotas is random.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify a given real-world sampling scenario as purposive, quota, or convenience sampling, explain the specific selection mechanism for each, and articulate why the resulting sample cannot support statistical inference about population parameters with known confidence levels.",
+     "self_check": true
     }
    ]
   }

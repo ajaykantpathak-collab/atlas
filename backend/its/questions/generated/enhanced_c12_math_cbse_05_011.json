@@ -34,6 +34,16 @@
      "q": "Construct two different functions \\(y = f(x)\\) that satisfy the differential equation \\(\\frac{d^2y}{dx^2} + 9y = 0\\). Write the functions and verify they work.",
      "a": "The equation \\(y'' + 9y = 0\\) has solutions \\(y = \\sin 3x\\) and \\(y = \\cos 3x\\) (and any linear combination).  \nCheck \\(y = \\sin 3x\\): \\(y' = 3\\cos 3x\\), \\(y'' = -9\\sin 3x = -9y \\Rightarrow y'' + 9y = 0\\).  \nCheck \\(y = \\cos 3x\\): \\(y' = -3\\sin 3x\\), \\(y'' = -9\\cos 3x = -9y \\Rightarrow y'' + 9y = 0\\).  \nA poor answer (e.g., \\(y = e^{3x}\\) or \\(y = x^2\\)) reveals the student does not recognize the characteristic equation \\(r^2 + 9 = 0 \\Rightarrow r = \\pm 3i\\) leading to trigonometric solutions. This connects directly to JEE differential equations.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analyzing the ______ of a toy car on a track.",
+     "a": "motion",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ the motion of a toy car on a track.",
+     "a": "analyzing",
+     "self_check": true
     }
    ]
   }

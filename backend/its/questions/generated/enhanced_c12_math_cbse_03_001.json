@@ -21,7 +21,7 @@
      "self_check": true
     },
     {
-     "q": "Given matrices P = [[2, 0], [0, 2]] and Q = [[2, 0], [0, 3]], classify each as: diagonal, scalar, identity, or none. Justify your classification for each.",
+     "q": "Given matrices P = [[2, 0], [0, 2]] and Q = [[2, 0], [0, 3]], classify each as: diagonal, scalar, identity, or N/A. Justify your classification for each.",
      "a": "P is diagonal (non-diagonal elements zero) AND scalar (diagonal elements equal, k=2) but NOT identity (diagonal elements not 1). Q is diagonal (non-diagonal elements zero) but NOT scalar (diagonal elements 2 and 3 are unequal) and NOT identity. A student who calls Q a scalar matrix is applying the \"diagonal elements non-zero\" condition but missing the \"all diagonal elements equal\" requirement.",
      "self_check": true
     },
@@ -33,6 +33,26 @@
     {
      "q": "Create a real-world scenario (different from marks or inventory) where a 3 × 2 matrix naturally arises. Define what the rows and columns represent, and give a plausible numerical example.",
      "a": "Example: A small café sells 3 items (coffee, tea, sandwich) over 2 days (Monday, Tuesday). Rows = items, Columns = days. Matrix = [[50, 60], [40, 45], [30, 35]] where entry (i,j) = quantity of item i sold on day j. A poor answer uses rows/columns interchangeably without definition, or creates a scenario that forces a 2×3 matrix instead (e.g., 2 items over 3 days), showing the student cannot distinguish row vs column meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A matrix is an ordered ______ array of numbers or functions arranged in rows and columns, denoted by a capital letter.",
+     "a": "rectangular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class monitor and need to ______ the marks of 40 students in 5 subjects.",
+     "a": "record",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify the order of any given matrix, classify it into the correct type (row, column, square, diagonal, scalar, identity, zero), and determine whether two matrices are equal by comparing their orders and corresponding elements.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class monitor and need to record the marks of 40 students in 5 ______.",
+     "a": "subjects",
      "self_check": true
     }
    ]

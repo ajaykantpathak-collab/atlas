@@ -34,6 +34,31 @@
      "q": "Design an experiment to determine the degree of dimerization of acetic acid in benzene using freezing point depression. List the measurements needed and the calculation steps.",
      "a": "Measure ΔTf for a known mass of acetic acid in a known mass of benzene. Calculate experimental molar mass M_exp = (Kf × w₂ × 1000)/(ΔTf × w₁). Theoretical monomer molar mass = 60 g mol⁻¹. For dimerization 2CH₃COOH ⇌ (CH₃COOH)₂, i = M_theor/M_exp = (1 - α/2) where α is degree of association. Solve for α. A poor answer omits the factor of 1/2 in the dimer equilibrium or uses i = 1 - α incorrectly.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Depression of freezing point is a colligative property where the freezing point of a solvent decreases upon addition of a non-volatile solute, ______ given by ΔTf = Kf × m, where ΔTf is the freezing point depression, Kf is the cryoscopic constant of the solvent, and m is the molality of the solute.",
+     "a": "quantitatively",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with the ______ that spreading salt on icy roads in winter (common in North India) melts ice — this is freezing point depression in action.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "What is Depression of freezing point? State the definition given in this lesson.",
+     "a": "Depression of freezing point is a colligative property where the freezing point of a solvent decreases upon addition of a non-volatile solute, quantitatively given by ΔTf = Kf × m, where ΔTf is the freezing point depression, Kf is the cryoscopic constant of the solvent, and m is the molality of the solute.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Depression of freezing point?",
+     "a": "Students often use molarity (mol L⁻¹) instead of molality (mol kg⁻¹) in ΔTf = Kf·m because they confuse the two concentration terms.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the freezing point depression for a given solution, determine the molar mass of an unknown solute from experimental ΔTf data, and correctly apply the van't Hoff factor for electrolytes or associating solutes.",
+     "self_check": true
     }
    ]
   }

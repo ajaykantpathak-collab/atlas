@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_09_004",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_09_004",
+   "title": "c11_hist_cbse_09_004",
+   "questions": [
+    {
+     "q": "In what year was the Meiji Restoration proclaimed, and what immediate political change did it enact regarding the Shogunate and the Emperor?",
+     "a": "The Meiji Restoration was proclaimed in 1868; it forcibly removed the Tokugawa Shogun from power and restored the Emperor to nominal political authority, moving the capital from Kyoto to Edo (renamed Tokyo). A wrong answer (e.g., citing 1854 Perry's arrival or 1889 Constitution) reveals the student confuses the *trigger* (external pressure), the *event* (Restoration), and the *institutionalization* (Constitution) — a classic sequence error in Japanese modernization.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Qing Dynasty's 'Self-Strengthening Movement' (1860s–1890s) fail to prevent China's military defeats, whereas Japan's Meiji reforms succeeded in building a modern military?",
+     "a": "The Self-Strengthening Movement failed because it adopted Western *technology* (arsenals, ships) while retaining the Confucian *political structure* (civil service exams, Manchu dominance, decentralized provincial armies), leading to corruption and lack of coordination. Japan succeeded because the Meiji oligarchs *first* abolished feudal domains (han), created a national conscript army loyal to the Emperor, and centralized taxation — building the *institutional capacity* to sustain modern military power. A wrong answer focusing only on \"corruption\" or \"conservatism\" misses the structural difference: China tried modernization *without* political centralization; Japan did centralization *first*.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following two sources and explain what they reveal about the *different roles of the state* in Japanese and Chinese industrialization:\nSource A (Japan): \"Companies like Mitsubishi and Sumitomo were helped through subsidies and tax benefits to become major shipbuilders so that Japanese trade was from now on carried in Japanese ships. Zaibatsu dominated the economy till after the Second World War.\"\nSource B (China): \"Industrial growth was slow and limited. In cities such as Shanghai... by 1919 an industrial working class had appeared numbering 500,000. Of these, however, only a small percentage were employed in modern industries such as shipbuilding. Most were 'petty urbanites'... The Guomindang... ignored the peasantry and the rising social inequalities.\"",
+     "a": "Source A shows Japan's *state-led capitalism*: the Meiji government strategically nurtured family-owned Zaibatsu (Mitsubishi, Sumitomo) with subsidies, protection, and military contracts to build strategic sectors (shipping, heavy industry) serving national goals (fukoku kyohei). Source B reveals China's *fragmented, treaty-port capitalism*: industry grew haphazardly in foreign-controlled concessions (Shanghai), dominated by light consumer goods, with a weak Guomindang state unable to direct investment, protect tariffs, or mobilize the rural majority. A wrong answer merely describing \"Japan had big companies, China had small workshops\" misses the *causal role of the state*: Japan's state *created* its capitalists; China's warlord/fragmented state *could not*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the ideological foundations of nationalism in Meiji Japan (c. 1868–1912) and the May Fourth Movement in China (1919). How did each use 'tradition' and 'the West' to define the nation?",
+     "a": "Meiji nationalism was *state-engineered*: the oligarchs invented an \"Emperor System\" (tennōsei) blending Shinto mythology (descent from Sun Goddess) with Western constitutionalism (Prussian model) to legitimize a modern bureaucratic-military state — tradition was *reconstructed* for unity. May Fourth nationalism was *intellectual and popular*: radicals like Chen Duxiu and Hu Shih attacked Confucianism as \"feudal\" and \"cannibalistic,\" demanding \"Mr. Science and Mr. Democracy\" — tradition was *rejected* as the cause of weakness. Japan used tradition to *anchor* Westernization; China (May Fourth) saw tradition as the *obstacle* to Westernization. A wrong answer claiming \"both wanted to Westernize\" ignores that Meiji leaders *controlled* the pace and content of Westernization to preserve sovereignty, while May Fourth intellectuals initially *welcomed* total cultural Westernization as liberation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Japan's path to modernity was 'successful' because it avoided colonization, while China's path was a 'failure' until 1949.\" Use evidence from both trajectories (1850–1945) to support or challenge this binary.",
+     "a": "The binary is analytically flawed. Japan avoided colonization *but* paid the price of aggressive militarism (wars with China 1894, Russia 1904, Manchuria 1931, Pacific War 1941), colonial oppression (Korea, Taiwan), and domestic repression (Peace Preservation Laws, dissolution of parties 1940) — its \"success\" generated catastrophic regional war and nuclear devastation. China suffered semi-colonization, warlordism, famine, and Japanese invasion *but* the CCP's revolutionary path (1921–1949) achieved genuine mass mobilization, land reform, and sovereign unity — the *foundation* for later development. \"Success\" depends on the metric: state survival (Japan wins 1895–1945), human cost (China's revolutionary path extracted terrible tolls but ended feudalism), or long-term sovereignty (both achieved it, differently). A wrong answer picking one side reveals a presentist bias — judging 19th-century outcomes by 21st-century endpoints.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a comparative timeline (1839–1949) with 6 paired entries showing *simultaneous but divergent* developments in China and Japan (e.g., 1868: Meiji Restoration vs. Tongzhi Restoration/Self-Strengthening). For each pair, state the *structural reason* for the divergence.",
+     "a": "A strong answer pairs: (1) 1839–42 Opium War (China defeated, Treaty of Nanjing) vs. 1853–54 Perry Mission (Japan opens, unequal treaties) — *Reason: China faced naval power first; Japan had 14 years' warning.* (2) 1868 Meiji Restoration (centralized imperial rule) vs. 1861–75 Tongzhi Restoration (failed recentralization) — *Reason: Japanese samurai elite overthrew Shogun; Chinese Han officials propped up Manchu dynasty.* (3) 1889 Meiji Constitution (oligarchic constitutionalism) vs. 1905 Abolition of Exams (institutional vacuum) — *Reason: Japan built institutions before participation; China dismantled old without building new.* (4) 1894–95 Sino-Japanese War (Japan gains Taiwan) vs. 1898 Hundred Days Reform (crushed by conservatives) — *Reason: Japan tested its new army; China's reform threatened elite interests.* (5) 1919 May Fourth (cultural revolution) vs. 1918–19 Taisho Democracy (party cabinets) — *Reason: Japan had institutional channels for dissent; China had none.* (6) 1931 Manchurian Incident (Japanese military rogue) vs. 1934 Long March (CCP survival) — *Reason: Japan's military escaped civilian control; China's communists built peasant-based alternative.* A poor answer lists events without the *structural reason* — the core comparative skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

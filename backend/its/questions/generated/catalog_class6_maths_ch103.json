@@ -4,15 +4,9 @@
   {
    "id": "fegp.3.2.1",
    "title": "Supercells in a Number Grid",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "split the number into digits and apply the rule",
-     "explain": "split the number into digits and apply the rule: diff = 9 * abs(4 - 1) gives 27",
-     "compute": "diff = 9 * abs(4 - 1)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "cell_value > max(neighbours)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "The digits of the 2-digit number 41 are swapped to make 14. Find the difference between the two numbers using 9 x |a - b|.",
@@ -50,6 +44,8 @@
    "id": "fegp.3.4.1",
    "title": "Count of n-Digit Numbers",
    "converted_to_compute": false,
+   "formula": "count = 9 * 10**(digits - 1)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "The digits of the 2-digit number 61 are swapped to make 16. Find the difference between the two numbers using 9 x |a - b|.",
@@ -87,6 +83,8 @@
    "id": "fegp.3.4.2",
    "title": "Digit Sum of a Number",
    "converted_to_compute": false,
+   "formula": "digit_sum = d1 + d2 + d3 + d4",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "The digits of the 2-digit number 14 are swapped to make 41. Find the difference between the two numbers using 9 x |a - b|.",
@@ -124,6 +122,8 @@
    "id": "fegp.3.5.1",
    "title": "Palindromic Numbers",
    "converted_to_compute": false,
+   "formula": "palindrome = reverse(number)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "For the digits 7, 9, 1, 1 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
@@ -161,6 +161,8 @@
    "id": "fegp.3.6.1",
    "title": "Kaprekar Routine Difference",
    "converted_to_compute": false,
+   "formula": "difference = largest_arrangement - smallest_arrangement",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "For the digits 5, 4, 8, 2 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
@@ -198,6 +200,8 @@
    "id": "fegp.3.7.1",
    "title": "Clock Palindrome Elapsed Time",
    "converted_to_compute": false,
+   "formula": "elapsed_minutes = (next_hour - curr_hour) * 60 + (next_minute - curr_minute)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "For the digits 4, 9, 1, 2 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
@@ -235,6 +239,8 @@
    "id": "fegp.3.9.1",
    "title": "Quick Summation by Grouping",
    "converted_to_compute": false,
+   "formula": "total_sum = sum_of_groups = count1 * val1 + count2 * val2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "For the digits 3, 9, 2, 1 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
@@ -272,6 +278,8 @@
    "id": "fegp.3.10.1",
    "title": "Collatz Sequence Step",
    "converted_to_compute": false,
+   "formula": "next_val = n // 2 (if even) or 3 * n + 1 (if odd)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 5th term of the AP with first term 9 and common difference 2.",
@@ -309,6 +317,8 @@
    "id": "fegp.3.12.1",
    "title": "Winning Strategy in Nim-type Addition Game",
    "converted_to_compute": false,
+   "formula": "first_move = target % (max_step + 1)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "For the digits 3, 5, 6, 4 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",

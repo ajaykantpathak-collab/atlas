@@ -147,7 +147,16 @@
      "explain": "Reading minus normal gives the rise above normal.",
      "compute": "rise = body_temp - normal_temp"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rise = body_temp - normal_temp",
+     "compute": "rise = body_temp - normal_temp"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

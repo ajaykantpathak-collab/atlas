@@ -1,0 +1,56 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_04_007",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_04_007",
+   "title": "c12_soc_cbse_04_007",
+   "questions": [
+    {
+     "q": "A student writes: \"Bonded labour and attached labour are the same thing — both mean the worker is tied to the employer.\" What conceptual error does this reveal?",
+     "a": "The student conflates **coercion mechanism** (debt bondage) with **attachment mechanism** (hereditary/long-term customary tie). Bonded labour is legally defined by the Bonded Labour System (Abolition) Act, 1976 as forced labour arising from a debt advance; attached labour (e.g., *halpati* in Gujarat, *jeeta* in Rajasthan) is a customary, often intergenerational, relationship where the worker is tied to a landlord through social obligation, not necessarily a current debt. The error reveals a failure to distinguish **legal-coercive** from **customary-structural** forms of unfreedom.",
+     "self_check": true
+    },
+    {
+     "q": "\"In the informal labour market, workers have complete freedom to sell their labour to anyone — that's why it's called 'free' labour.\" Explain why this statement is sociologically incorrect, using the concept of *structural constraint*.",
+     "a": "The statement confuses **formal legal freedom** with **substantive freedom**. Informal workers are legally free but structurally constrained by: (a) lack of assets forcing distress migration; (b) caste-based occupational segregation (e.g., sanitation work reserved for Dalits); (c) absence of social protection making job refusal impossible. As the NCERT notes, commodification of labour occurs under capitalism, but in India it is *mediated by caste and class* — so \"freedom\" is highly unequal. The error reveals a **liberal-individualist** reading that ignores social embeddedness.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher finds that in a village in Bihar, agricultural labourers from the Musahar caste take an advance of ₹5,000 from a landlord before the planting season and then work on his fields for the whole year at below-market wages. The advance is deducted from their wages, but the debt never clears. Classify this labour arrangement and justify your classification in three steps.",
+     "a": "**Classification: Bonded labour (debt bondage).**  \nStep 1: Identify the **advance (debt)** as the entry point — the worker receives a loan (₹5,000) that creates a debtor-creditor relation.  \nStep 2: Observe the **coercive repayment mechanism** — labour is the *only* repayment mode, at wages set unilaterally by the creditor, violating market wage norms.  \nStep 3: Note the **perpetual debt cycle** — the debt \"never clears\" because wages are kept below subsistence, making it impossible to repay — this is the hallmark of bonded labour per the 1976 Act.  \n*Why not attached labour?* No evidence of hereditary/customary tie; the tie is explicitly monetary. *Why not informal?* It is a specific, coercive, long-term tie — not casual/day labour.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of **caste** in reproducing bonded labour versus informal labour in urban gig work (e.g., food delivery). How does the *mechanism* of caste exploitation differ?",
+     "a": "In **bonded labour** (rural/agrarian), caste operates through **direct status coercion**: dominant castes (landlords/creditors) use traditional authority and debt to bind lower-caste (often Dalit/Adivasi) workers — the relation is *personal, hereditary, and visible*.  \nIn **urban gig work**, caste operates through **occupational segregation and algorithmic invisibility**: Dalit/Bahujan workers are overrepresented in precarious delivery/ride-hailing jobs due to historical exclusion from education/capital, but the platform masks caste behind \"partner\" contracts and ratings. Exploitation is *impersonal, structural, and disguised as market competition*.  \nThe difference: **personal domination vs. structural channeling** — both reproduce caste inequality but through distinct social mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "\"Liberalisation has expanded the informal labour market in India, but it has also weakened bonded labour.\" Evaluate this claim with two arguments for and two against, using sociological reasoning.",
+     "a": "**For:**  \n1. **Legal enforcement & NGO activism** post-1990s (e.g., Bandhua Mukti Morcha) used liberalised media/courts to free bonded labourers.  \n2. **New non-agricultural jobs** (construction, factories) gave bonded workers exit options, weakening landlord monopoly.  \n\n**Against:**  \n1. **Agrarian distress** from withdrawal of subsidies (per NCERT on liberalisation) pushed peasants into *new* debt bondage with contractors/brick kilns — **bondage mutated, not vanished**.  \n2. **Informalisation of formal jobs** (contractualisation, gig work) created *new forms of precarity* that mimic bondage (e.g., algorithmic control, debt for vehicle purchase) — **unfreedom moved from field to platform**.  \n\n**Judgment:** The claim is **partially true but misleading** — bonded labour declined in *classical agrarian form* but **reappeared in neo-bondage** within the expanding informal sector. Liberalisation restructured, not eliminated, unfree labour.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sociological research question to study \"attached labour\" in a contemporary setting (e.g., domestic work, construction, agriculture). Your question must: (a) go beyond \"does it exist?\", (b) incorporate *two* structural factors (caste, gender, migration, state policy), and (c) be answerable through qualitative fieldwork.",
+     "a": "**Example question:**  \n*\"How do caste endogamy and interstate migration policies jointly shape the transformation of hereditary attached labour (e.g., *halpati* system) into contractual but coercive domestic work arrangements for Adivasi women in Gujarat's urban households?\"*  \n\n**Why it works:**  \n(a) Asks *how* (process), not *whether* (existence).  \n(b) Integrates **caste** (endogamy maintains labour supply) and **state policy** (lack of portability of ration cards, no urban housing) as structural factors.  \n(c) Answerable via: life histories of workers, employer interviews, observation of hiring practices, policy document analysis.  \n\n**Poor answer would be:** \"Is attached labour still found in domestic work?\" — too descriptive, no structural analysis, yes/no answer.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The market for labour refers to the social institution through which human labour power is exchanged for wages or other ______, shaped by historical, cultural, and structural forces such as caste, class, credit relations, and state policy.",
+     "a": "compensation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking: \"Why does a brick kiln worker in Tamil Nadu work for 14 hours a day, seven days a week, for an advance of ₹20,000 that never gets repaid?\" This is not just an ______ contract — it is a social relation of bondage.",
+     "a": "economic",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Distinguish between bonded, attached, and informal labour using sociological criteria (coercion, duration, regulation, social ties); (2) Explain how caste, credit, and land relations reproduce these labour forms; (3) Analyze a real-world case (e.g., brick kiln workers, agricultural labourers, gig workers) to identify.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

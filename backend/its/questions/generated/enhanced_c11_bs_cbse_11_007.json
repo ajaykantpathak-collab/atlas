@@ -34,6 +34,31 @@
      "q": "Create a decision framework (flowchart or checklist) that a mid-sized Indian pharmaceutical company (₹500 cr turnover, patented drug delivery technology, ₹150 cr expansion budget) should use to choose between JV and WOS for entering: (a) USA (strict IP laws, 100% FDI allowed, high labour cost), (b) Indonesia (weak IP enforcement, 75% FDI cap in pharma, growing market). Specify the decision rule for each country.",
      "a": "Framework: Step 1 — Assess IP sensitivity: If core tech is patented & leakage risk high → favour WOS. Step 2 — Check FDI cap: If <100% → JV mandatory (Indonesia 75% cap). Step 3 — Evaluate capital adequacy: If budget ≥ greenfield cost → WOS feasible. Step 4 — Assess market knowledge need: If high → JV adds value. Decision rules: (a) USA: WOS — 100% FDI allowed, strong IP protection makes WOS safe, ₹150 cr sufficient for US facility, no local partner needed for market access. (b) Indonesia: JV mandatory — 75% FDI cap legally requires local partner; additionally, weak IP enforcement makes technology sharing risky, so structure JV with contractual safeguards (limited tech transfer, audit rights). A poor answer giving same mode for both countries reveals failure to incorporate host country policy constraints (FDI caps) as binding decision rules, treating entry mode as purely firm-driven rather than policy-constrained.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Joint Venture is a strategic alliance where two or more ______ firms create a jointly owned enterprise by combining equity capital, technology, and managerial expertise, sharing both control and risks.",
+     "a": "independent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a successful Indian spice brand \"Masala Magic\" with ₹50 crore annual ______.",
+     "a": "turnover",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Wholly Owned Subsidiary is a foreign market entry mode where the parent company acquires ______% equity capital in a foreign firm, either by establishing a new entity (greenfield venture) or acquiring an existing firm, thereby exercising full control over operations without sharing ownership.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish between joint ventures and wholly owned subsidiaries across ownership structure, control, risk, investment requirement, and technology protection dimensions using a comparison table, and (2) Given a business scenario with specific constraints (capital availability, risk appetite, control.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a ______ Indian spice brand \"Masala Magic\" with ₹50 crore annual turnover.",
+     "a": "successful",
+     "self_check": true
     }
    ]
   }

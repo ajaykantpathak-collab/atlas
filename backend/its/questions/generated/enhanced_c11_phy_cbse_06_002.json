@@ -34,6 +34,16 @@
      "q": "Design a simple experiment using a low-friction trolley, a ball, and a spring-loaded launcher to demonstrate that the centre of mass of the (trolley + ball) system moves with constant velocity when the ball is launched internally. Describe the measurements needed.",
      "a": "Place a ball in a spring launcher fixed on a trolley on a smooth horizontal track. Release the spring so the ball shoots forward and the trolley recoils backward. Use a smartphone camera to record the motion. Track positions of trolley centre and ball frame-by-frame. Compute \\( x_{cm} = \\frac{m_{trolley} x_{trolley} + m_{ball} x_{ball}}{M} \\) for each frame. Plot \\( x_{cm} \\) vs time; it should be a straight line (constant velocity). A poor design would omit mass measurements, use a rough surface (external friction), or fail to track both objects simultaneously.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The centre of mass moves as if the entire mass of the system were ______ at that point and all external forces were applied there, regardless of the internal motions or rotations of individual particles.",
+     "a": "concentrated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a firework rocket launched during Diwali: it follows a parabolic path, then explodes into many coloured fragments that scatter in all ______.",
+     "a": "directions",
+     "self_check": true
     }
    ]
   }

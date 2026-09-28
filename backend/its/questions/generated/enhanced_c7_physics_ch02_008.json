@@ -34,6 +34,31 @@
      "q": "Design a schematic circuit description for a corridor lighting system in an Indian home where a single lamp can be controlled by a switch, and explain how you would translate this into a standard circuit diagram.",
      "a": "A complete response will specify a closed loop containing a battery/cell source, a standard open/closed switch symbol, and a lamp symbol connected by straight lines representing conducting wires. A poor answer fails to include a power source or draws disconnected components, revealing that the student does not understand the complete closed-loop requirement of schematic representation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Circuit diagrams are standardized graphical ______ of electrical circuits using universal symbols for components like cells, switches, wires, and lamps, allowing scientists and engineers to design and communicate electrical connections clearly.",
+     "a": "representations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you look inside an inverter box or behind a television remote ______ in an Indian household, you see complex arrangements of wires that would be impossible to draw realistically on paper.",
+     "a": "control",
+     "self_check": true
+    },
+    {
+     "q": "What is Circuit diagrams? State the definition given in this lesson.",
+     "a": "Circuit diagrams are standardized graphical representations of electrical circuits using universal symbols for components like cells, switches, wires, and lamps, allowing scientists and engineers to design and communicate electrical connections clearly.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Circuit diagrams?",
+     "a": "Students often think that the length of the connecting lines in a circuit diagram changes the electrical properties or resistance of the circuit, or they draw crossing wires without a bridge hump, thinking wires can touch anywhere without causing a short circuit.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can draw a neat, standardized schematic circuit diagram from a physical description of a circuit, correctly interpreting and placing symbols for cells, open/closed switches, connecting wires, and electric lamps.",
+     "self_check": true
     }
    ]
   }

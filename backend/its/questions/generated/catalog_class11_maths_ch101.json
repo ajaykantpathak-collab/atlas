@@ -4,15 +4,9 @@
   {
    "id": "kemh.101.1",
    "title": "Definition of a Set",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 2 gives 2",
-     "compute": "count = 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "A = {x1, x2, x3, ...}",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 2 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -49,15 +43,9 @@
   {
    "id": "kemh.101.2",
    "title": "Roster or Tabular Form",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 2 gives 2",
-     "compute": "count = 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "Set = {element1, element2, ...}",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 2 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -94,15 +82,9 @@
   {
    "id": "kemh.101.3",
    "title": "Set-Builder Form",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 3 gives 3",
-     "compute": "count = 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "A = {x : P(x) is true}",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 3 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -139,15 +121,9 @@
   {
    "id": "kemh.101.4",
    "title": "The Empty Set",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 5 gives 5",
-     "compute": "count = 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "A = phi or A = {}",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 5 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -184,15 +160,9 @@
   {
    "id": "kemh.101.5",
    "title": "Finite and Infinite Sets",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 3 gives 3",
-     "compute": "count = 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "n(A) = k (where k is a whole number)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 3 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -229,15 +199,9 @@
   {
    "id": "kemh.101.6",
    "title": "Equal Sets",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 6 gives 6",
-     "compute": "count = 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "A = B iff (x in A <=> x in B)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 6 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -274,15 +238,9 @@
   {
    "id": "kemh.101.7",
    "title": "Subsets",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 2 gives 2",
-     "compute": "count = 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "A subset B <=> (x in A => x in B)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 2 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -320,6 +278,8 @@
    "id": "kemh.101.8",
    "title": "Intervals as Subsets of R",
    "converted_to_compute": false,
+   "formula": "length = b - a",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 6 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -356,15 +316,9 @@
   {
    "id": "kemh.101.9",
    "title": "Union of Sets",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 5 gives 5",
-     "compute": "count = 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "A union B = {x : x in A or x in B}",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 5 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -401,15 +355,9 @@
   {
    "id": "kemh.101.10",
    "title": "Intersection of Sets",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 2 gives 2",
-     "compute": "count = 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "A intersection B = {x : x in A and x in B}",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 2 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -446,15 +394,9 @@
   {
    "id": "kemh.101.11",
    "title": "Difference of Sets",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 2 gives 2",
-     "compute": "count = 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "A - B = {x : x in A and x not in B}",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 2 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -491,15 +433,9 @@
   {
    "id": "kemh.101.12",
    "title": "Complement of a Set",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 2 gives 2",
-     "compute": "count = 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "A' = U - A",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 2 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -536,15 +472,9 @@
   {
    "id": "kemh.101.13",
    "title": "De Morgan's Laws",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 5 gives 5",
-     "compute": "count = 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "(A union B)' = A' intersection B'",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 5 elements. How many elements are in its identity relation (a, a) for every element?",

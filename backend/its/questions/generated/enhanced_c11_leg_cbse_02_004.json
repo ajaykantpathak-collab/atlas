@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_02_004",
+   "title": "c11_leg_cbse_02_004",
+   "questions": [
+    {
+     "q": "**REMEMBER**: List the *exact* three categories of Bills defined in the Constitution (Articles 107–110) and state the *sole* House where a Money Bill *must* originate.",
+     "a": "The three categories are: (1) Ordinary Bills (Art. 107), (2) Money Bills (Art. 109), (3) Constitution Amendment Bills (Art. 368). A Money Bill *must* originate only in the **Lok Sabha (House of the People)**. A wrong answer (e.g., \"Rajya Sabha\" or \"either House\") reveals the student has confused Money Bills with Ordinary Bills, a fatal error in Board exams where \"originates only in Lok Sabha\" is a standard 1-mark fact.",
+     "self_check": true
+    },
+    {
+     "q": "**UNDERSTAND**: Explain in your own words *why* the Constitution mandates a **Joint Sitting (Art. 108)** for deadlocks on Ordinary Bills but *excludes* Money Bills and Constitution Amendment Bills from this mechanism.",
+     "a": "A Joint Sitting resolves deadlocks where both Houses have equal legislative weight (Ordinary Bills). Money Bills are excluded because the Lok Sabha (directly elected) has *supremacy* over financial matters—Rajya Sabha can only recommend amendments, which Lok Sabha may reject (Art. 109). Constitution Amendment Bills are excluded because they require a *special majority* in *each* House separately (Art. 368); a Joint Sitting would dilute the federal consensus requirement. A wrong answer (e.g., \"Joint Sitting applies to all Bills\") shows the student hasn't grasped the *graded hierarchy* of legislative power: Financial > Constitutional > Ordinary.",
+     "self_check": true
+    },
+    {
+     "q": "**APPLY**: A Bill imposing a new \"Green Tax\" on plastic packaging is introduced in the Rajya Sabha. The Bill passes Rajya Sabha but is rejected by Lok Sabha. The Government advises the President to promulgate an Ordinance with identical provisions. Analyze the constitutional validity of (a) the Bill's introduction and (b) the Ordinance.",
+     "a": "**(a) Invalid introduction.** A \"Green Tax\" Bill is a **Money Bill** (Art. 110: imposes tax). Money Bills *cannot* originate in Rajya Sabha (Art. 109). The Bill is procedurally void *ab initio*. **(b) Ordinance invalid.** Article 123 allows Ordinances only when *both* Houses are not in session. Here, Parliament *was* in session (Bill was debated). Moreover, an Ordinance cannot bypass the Money Bill procedure (Art. 110/109). The Ordinance would be *ultra vires* and struck down under Judicial Review (Art. 13/32). A wrong answer reveals the student treats Ordinance power as a \"parallel legislative track\" rather than an *emergency stop-gap* subject to the same Bill-classification rules.",
+     "self_check": true
+    },
+    {
+     "q": "**ANALYZE**: Compare the **writ jurisdiction of the Supreme Court (Art. 32)** and **High Courts (Art. 226)** on three parameters: (i) Territorial scope, (ii) Nature of rights enforceable, (iii) Discretion to refuse relief.",
+     "a": "| Parameter | Supreme Court (Art. 32) | High Court (Art. 226) |\n|-----------|-------------------------|------------------------|\n| **Territorial Scope** | Whole of India | Only within the State/UT jurisdiction |\n| **Rights Enforceable** | **Only** Fundamental Rights (Part III) | Fundamental Rights **+** \"any other purpose\" (statutory/contractual/tortious rights) |\n| **Discretion** | **Mandatory** (\"shall have power\")—SC *cannot* refuse if FR violated | **Discretionary** (\"may issue\")—HC *can* refuse on grounds like laches, alternative remedy |\n\nA wrong answer (e.g., \"both have same scope\") misses the *strategic* difference: Art. 32 is a FR itself (remedy for FR); Art. 226 is a *supervisory* power. Board questions often ask: \"Can HC refuse a writ petition?\" Answer: Yes, unlike SC.",
+     "self_check": true
+    },
+    {
+     "q": "**EVALUATE**: \"The re-promulgation of Ordinances without legislative approval (as seen in the *Bihar Ordinances case*, *DC Wadhwa v. State of Bihar*, 1987) is a 'fraud on the Constitution'.\" Critique this statement using the *Krishna Kumar Singh v. State of Bihar* (2017) 7-judge bench ruling.",
+     "a": "The statement is **constitutionally sound**. In *DC Wadhwa*, the SC held repeated re-promulgation (Bihar issued 256 Ordinances, some for 14 years) bypasses legislative supremacy—Art. 123 is for *emergencies*, not parallel law-making. *Krishna Kumar Singh* (2017) strengthened this: (1) Re-promulgation *without* legislative approval is *unconstitutional* unless \"compelling circumstances\" prevent Legislature meeting; (2) An Ordinance lapses *automatically* after 6 weeks of reassembly; (3) Effects of a lapsed Ordinance *do not* survive unless saved by a validating Act. The Court explicitly called repeated re-promulgation a \"fraud on the Constitution.\" A weak answer treats Ordinance as a routine legislative tool, ignoring the *temporal* (6 weeks) and *situational* (recess only) constraints.",
+     "self_check": true
+    },
+    {
+     "q": "**CREATE**: Design a **flowchart decision-tree** (text-based) that a Legislative Counsel would use to classify a *new* Bill draft into: Ordinary Bill / Money Bill / Financial Bill (Art. 117) / Constitution Amendment Bill. Include *exact* constitutional tests (Articles) at each decision node.",
+     "a": "**Decision Tree:**\n```\nSTART: Does the Bill seek to amend the Constitution? (Art. 368)\n  YES → CONSTITUTION AMENDMENT BILL (Special majority in each House + ratification by ½ States if federal)\n  NO → Does the Bill contain *only* provisions under Art. 110 (tax, borrowing, Consolidated Fund, etc.)?\n    YES → MONEY BILL (Art. 110) → Originates ONLY in Lok Sabha → Rajya Sabha recommends (14 days) → Lok Sabha accepts/rejects → President assent (Art. 111)\n    NO → Does the Bill contain *any* Art. 110 matter *plus* other matters? (Art. 117)\n      YES → FINANCIAL BILL (Category I: Art. 117(1) - needs President's recommendation + Lok Sabha origin; Category II: Art. 117(3) - involves Consolidated Fund expenditure)\n      NO → ORDINARY BILL (Art. 107) → Can originate in either House → Passed by both → President assent (Art. 111) → Deadlock? Joint Sitting (Art. 108)\nEND\n```\nA poor answer lists categories without the *exclusionary logic* (e.g., \"Money Bill first, then Financial Bill\") or omits the President's recommendation requirement for Financial Bills (Art. 117).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

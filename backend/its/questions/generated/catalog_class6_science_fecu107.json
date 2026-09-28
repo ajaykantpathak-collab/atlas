@@ -2,6 +2,53 @@
  "catalog": "catalog_class6_science_fecu107.json",
  "concepts": [
   {
+   "id": "fecu.7.4",
+   "title": "Reading a Fever: Rise above Normal",
+   "converted_to_compute": true,
+   "formula": "rise = body_temp - normal_temp",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rise = body_temp - normal_temp",
+     "compute": "rise = body_temp - normal_temp"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Reading a Fever: Rise above Normal: given body_temp = 4.3, normal_temp = 16.9, find rise.",
+     "a": "-12.6",
+     "self_check": false
+    },
+    {
+     "q": "For Reading a Fever: Rise above Normal: given body_temp = 39, normal_temp = 99, find rise.",
+     "a": "-60",
+     "self_check": false
+    },
+    {
+     "q": "For Reading a Fever: Rise above Normal: given body_temp = 96, normal_temp = 108, find rise.",
+     "a": "-12",
+     "self_check": false
+    },
+    {
+     "q": "For Reading a Fever: Rise above Normal: given body_temp = 116, normal_temp = 31, find rise.",
+     "a": "85",
+     "self_check": false
+    },
+    {
+     "q": "For Reading a Fever: Rise above Normal: given body_temp = 81, normal_temp = 84, find rise.",
+     "a": "-3",
+     "self_check": false
+    },
+    {
+     "q": "For Reading a Fever: Rise above Normal: given body_temp = 42, normal_temp = 100, find rise.",
+     "a": "-58",
+     "self_check": false
+    }
+   ]
+  },
+  {
    "id": "fecu.7.1",
    "title": "Hot, Cold and Temperature",
    "solution_type": "verify_property",
@@ -118,88 +165,6 @@
      "unit": "deg F",
      "steps": null,
      "a": "77 deg F",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "fecu.7.4",
-   "title": "Reading a Fever: Rise above Normal",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "body_f",
-     "expr": "1.8 * body_temp + 32",
-     "explain": "body temperature in deg F"
-    },
-    {
-     "step": 2,
-     "name": "normal_f",
-     "expr": "1.8 * normal_temp + 32",
-     "explain": "normal temperature in deg F"
-    },
-    {
-     "step": 3,
-     "name": "rise",
-     "expr": "body_temp - normal_temp",
-     "explain": "fever is measured as the rise above normal body temperature"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A patient's temperature is 39 deg C. Normal body temperature is 37 deg C. Find the rise.",
-     "vals": {
-      "body_temp": 39,
-      "normal_temp": 37
-     },
-     "unit": "deg C",
-     "steps": null,
-     "a": "2 deg C",
-     "self_check": false
-    },
-    {
-     "q": "A child's fever reads 38.5 deg C against a normal of 37 deg C. How much is the rise?",
-     "vals": {
-      "body_temp": 38.5,
-      "normal_temp": 37
-     },
-     "unit": "deg C",
-     "steps": null,
-     "a": "1.5 deg C",
-     "self_check": false
-    },
-    {
-     "q": "A thermometer shows 40 deg C. Calculate the fever rise above 37 deg C.",
-     "vals": {
-      "body_temp": 40,
-      "normal_temp": 37
-     },
-     "unit": "deg C",
-     "steps": null,
-     "a": "3 deg C",
-     "self_check": false
-    },
-    {
-     "q": "Body temperature is 38.2 deg C; normal is 37 deg C. Find the rise.",
-     "vals": {
-      "body_temp": 38.2,
-      "normal_temp": 37
-     },
-     "unit": "deg C",
-     "steps": null,
-     "a": "1.2 deg C",
-     "self_check": false
-    },
-    {
-     "q": "After medicine the fever came down to 37.5 deg C. What rise above the normal 37 deg C still remains?",
-     "vals": {
-      "body_temp": 37.5,
-      "normal_temp": 37
-     },
-     "unit": "deg C",
-     "steps": null,
-     "a": "0.5 deg C",
      "self_check": false
     }
    ]

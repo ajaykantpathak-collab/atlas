@@ -34,6 +34,21 @@
      "q": "Design a simple activity using household items to demonstrate the difference between concave and convex mirrors to a Class 6 student. List the items needed and the steps.",
      "a": "Items: a stainless steel spoon, a shiny steel bowl (katori), a flat steel plate. Steps: (1) Look at your reflection in the flat plate — note the image is same size, upright. (2) Look in the inner side of the spoon (concave) — move it closer and farther, observe image changes from inverted to upright and magnified. (3) Look in the outer side of the spoon (convex) — image is always upright and smaller. (4) Repeat with the bowl: inner side = concave, outer side = convex. A good answer identifies both sides of each object and links curvature to image behaviour. A poor answer only lists items without explaining what to observe or why the two sides differ.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A spherical mirror is a ______ surface that forms a part of a hollow sphere; if the inner (concave) surface is polished and reflects light, it is a concave mirror, and if the outer (convex) surface is polished and reflects light, it is a convex mirror.",
+     "a": "reflecting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Take a stainless steel spoon from the kitchen and look at your face in the inner curved side — you see a magnified, upright image when close, but an inverted image when far away; now flip it and look at the outer curved side — you always see a ______, upright image no matter the distance.",
+     "a": "diminished",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between concave and convex mirrors by identifying which side of the spherical surface is the reflecting surface, and can explain why a spoon shows two different types of images on its two sides.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a mini-project scenario where a student must choose between `'w'`, `'a'`, and `'a+'` modes for three different files in a school library system: (1) `daily_issue_log.txt` — records each book issue transaction, (2) `current_borrowers.txt` — overwritten daily with the list of students who currently have books, (3) `fine_calculator.py` — needs to read existing fines from `fines.txt`, compute new fines, and append updated records. Specify the mode for each and justify.",
      "a": "(1) `daily_issue_log.txt` → `'a'`: transactions only accumulate, never erased. (2) `current_borrowers.txt` → `'w'`: daily snapshot replaces previous day's list entirely. (3) `fines.txt` in `fine_calculator.py` → `'a+'`: must read existing fines (seek to start, read), then append updated records. A poor answer uses `'w'` for the log (loses history) or `'a'` for fines (cannot read). The key is matching mode to data lifecycle: append-only log, replaceable snapshot, read-modify-append.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Appending data to an existing file in Python uses the file mode 'a' (or 'a+' for read-append) which opens the file for writing at the end of the file without ______ existing content; the file pointer is positioned at the end of the file on every write operation, ensuring new data is added after the last byte of existing data.",
+     "a": "truncating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a daily expense tracker in Python: each day you run the ______ and it must add today's expenses to expenses.txt without erasing yesterday's entries.",
+     "a": "program",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) correctly choose between 'w', 'a', and 'a+' modes for a given scenario, (2) write Python code using with open(filename, 'a') to append single/multiple lines without data loss, and (3) explain why the file pointer cannot be moved before the end in append mode.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a daily expense tracker in Python: each day you run the program and it must add today's expenses to expenses.txt without erasing ______'s entries.",
+     "a": "yesterday",
+     "self_check": true
     }
    ]
   }

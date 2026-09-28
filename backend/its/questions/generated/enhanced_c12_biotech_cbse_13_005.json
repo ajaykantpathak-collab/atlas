@@ -34,6 +34,31 @@
      "q": "Design a simple field experiment to estimate the frequency of pollen-mediated gene flow from a GM maize field to a non-GM maize field at distances of 10 m, 50 m, and 100 m. Specify the selectable marker, sampling strategy, and statistical test you would use to compare frequencies across distances.",
      "a": "Use GM maize expressing a herbicide-tolerance marker (e.g., BAR gene for glufosinate resistance). At each distance, plant a 10 m × 10 m non-GM maize block. At harvest, collect 500 kernels per block, grow seedlings, and spray with glufosinate; count survivors. Frequency = survivors / 500. Use chi-square test for trend (or logistic regression) to test if frequency declines significantly with distance. A poor design that samples only one ear per distance or uses a non-selective marker (e.g., GUS) reveals lack of understanding of statistical power and the need for a selectable phenotype.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Gene flow from GM crops refers to the transfer of transgenic DNA (including the inserted gene and regulatory sequences) from a ______ modified crop to its wild relatives, non-GM crops of the same species, or other sexually compatible plants through natural processes such as pollen-mediated cross-pollination, seed dispersal, or horizontal gene transfer.",
+     "a": "genetically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a farmer growing Bt cotton next to a field of ______ cotton.",
+     "a": "conventional",
+     "self_check": true
+    },
+    {
+     "q": "What is Gene flow from GM crops? State the definition given in this lesson.",
+     "a": "Gene flow from GM crops refers to the transfer of transgenic DNA (including the inserted gene and regulatory sequences) from a genetically modified crop to its wild relatives, non-GM crops of the same species, or other sexually compatible plants through natural processes such as pollen-mediated cross-pollination, seed dispersal, or.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Gene flow from GM crops?",
+     "a": "Students often believe that gene flow requires the GM crop and the recipient to be the same species.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) trace the complete pathway of transgene movement from a GM crop to a recipient plant via pollen or seed, identifying all biological barriers and promoters, and (2) evaluate a given case study for biosafety risk by applying the concepts of reproductive compatibility, distance, pollinator behavior, and.",
+     "self_check": true
     }
    ]
   }

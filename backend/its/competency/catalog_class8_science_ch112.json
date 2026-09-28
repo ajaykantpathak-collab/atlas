@@ -282,7 +282,7 @@
    "title": "Richter Scale Energy Comparison",
    "section": "12.7",
    "definition": "A non-linear scale expressing earthquake magnitude, where every increase of 2 units signifies a 1000-fold increase in destructive kinetic energy.",
-   "formula": "energy_ratio = 1000 ** ((mag2 - mag1) / 2)",
+   "formula": "energy_ratio = 1000 ** ((mag_2 - mag_1) / 2)",
    "key_idea": "Magnitude differences on the Richter scale translate non-linearly to exponential jumps in destructive energy.",
    "textbook_ref": "hesc112.txt lines 371-395",
    "question_patterns": [
@@ -312,7 +312,16 @@
      "explain": "Raise 1000 to the power of factor_count",
      "compute": "energy_ratio = 1000 ** factor_count"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "energy_ratio = 1000 ** ((mag_2 - mag_1) / 2)",
+     "compute": "energy_ratio = 1000 ** ((mag_2 - mag_1) / 2)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hesc.112.10",

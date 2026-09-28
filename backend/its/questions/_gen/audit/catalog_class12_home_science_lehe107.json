@@ -1,0 +1,233 @@
+{
+ "catalog": "catalog_class12_home_science_lehe107.json",
+ "concepts": [
+  {
+   "id": "lehe107.13",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total_children = 38",
+      "village_count = 338",
+      "children_per_village = total_children / village_count"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total_children = 5.1",
+      "village_count = 193",
+      "children_per_village = total_children / village_count"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_children = 92",
+      "village_count = 243",
+      "children_per_village = total_children / village_count"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total_children = 87",
+      "village_count = 5",
+      "children_per_village = total_children / village_count"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "total_children = 54",
+      "village_count = 196",
+      "children_per_village = total_children / village_count"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total_children = 70",
+      "village_count = 342",
+      "children_per_village = total_children / village_count"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "children_per_village = total_children / village_count"
+   ]
+  },
+  {
+   "id": "lehe107.14",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "current_expectancy = 70",
+      "past_expectancy = 85",
+      "expectancy_gain = current_expectancy - past_expectancy"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "current_expectancy = 83",
+      "past_expectancy = 93",
+      "expectancy_gain = current_expectancy - past_expectancy"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "current_expectancy = 42",
+      "past_expectancy = 50",
+      "expectancy_gain = current_expectancy - past_expectancy"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "current_expectancy = 44",
+      "past_expectancy = 100",
+      "expectancy_gain = current_expectancy - past_expectancy"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "current_expectancy = 24",
+      "past_expectancy = 95",
+      "expectancy_gain = current_expectancy - past_expectancy"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "current_expectancy = 16.1",
+      "past_expectancy = 112",
+      "expectancy_gain = current_expectancy - past_expectancy"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "expectancy_gain = current_expectancy - past_expectancy"
+   ]
+  },
+  {
+   "id": "lehe107.15",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total_elderly = 27",
+      "share_pct = 55",
+      "elderly_count = total_elderly * share_pct / 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total_elderly = 52",
+      "share_pct = 9",
+      "elderly_count = total_elderly * share_pct / 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_elderly = 57",
+      "share_pct = 2.4",
+      "elderly_count = total_elderly * share_pct / 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total_elderly = 37",
+      "share_pct = 54",
+      "elderly_count = total_elderly * share_pct / 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "total_elderly = 93",
+      "share_pct = 72",
+      "elderly_count = total_elderly * share_pct / 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total_elderly = 35",
+      "share_pct = 32",
+      "elderly_count = total_elderly * share_pct / 100"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "elderly_count = total_elderly * share_pct / 100"
+   ]
+  },
+  {
+   "id": "lehe107.16",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "reached_count = 350",
+      "enrolled_count = 317",
+      "retention_pct = reached_count / enrolled_count * 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "reached_count = 440",
+      "enrolled_count = 135",
+      "retention_pct = reached_count / enrolled_count * 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "reached_count = 228",
+      "enrolled_count = 141",
+      "retention_pct = reached_count / enrolled_count * 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "reached_count = 268",
+      "enrolled_count = 191",
+      "retention_pct = reached_count / enrolled_count * 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "reached_count = 214",
+      "enrolled_count = 102",
+      "retention_pct = reached_count / enrolled_count * 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "reached_count = 452",
+      "enrolled_count = 38",
+      "retention_pct = reached_count / enrolled_count * 100"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "retention_pct = reached_count / enrolled_count * 100"
+   ]
+  }
+ ]
+}

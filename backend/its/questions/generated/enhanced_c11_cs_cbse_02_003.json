@@ -34,6 +34,21 @@
      "q": "Create a real-world scenario (different from the locker example) that requires all three operations (AND, OR, NOT) in a single Boolean expression. Write the expression and explain the role of each operation.",
      "a": "Example: A smart irrigation system waters the garden if (soil is dry AND it is not raining) OR (manual override is on). Expression: (Dry AND NOT Raining) OR Override. Here AND combines two required conditions, NOT inverts the rain sensor, OR allows an alternative trigger. A poor answer would use only one or two operations, or not explain each operation's role.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The three ______ Boolean operations are AND (logical conjunction), OR (logical disjunction), and NOT (logical negation).",
+     "a": "fundamental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a security system for a locker that opens only when two ______ are met: a correct keycard is presented AND a valid PIN is entered.",
+     "a": "conditions",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to correctly evaluate any Boolean expression containing AND, OR, and NOT operations given the truth values of the variables, and explain the behavior of each operation in their own words.",
+     "self_check": true
     }
    ]
   }

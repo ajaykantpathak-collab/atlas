@@ -34,6 +34,31 @@
      "q": "Design a mini-experiment (3-4 steps) using a Skinner-box-like setup to demonstrate that a secondary reinforcer (e.g., a clicker sound) can acquire reinforcing power through pairing with a primary reinforcer (food). State the predicted outcome.",
      "a": "Step 1: Place a hungry rat in the box; deliver food pellet (primary reinforcer) simultaneously with a click sound for 20 trials. Step 2: Test phase—present only the click sound contingent on lever press; measure press rate. Step 3: Control—another rat receives clicks without prior food pairing. Step 4: Compare: experimental rat presses lever for clicks alone; control rat does not. Predicted outcome: click becomes a secondary reinforcer via classical pairing. A poor design that omits the control group or tests before pairing shows the student cannot operationalise secondary reinforcement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Operant ______ is a type of learning in which voluntary behaviours (operants) are strengthened or weakened by their consequences; a reinforcer is any stimulus or event that increases the probability of the response that precedes it, while punishment decreases that probability.",
+     "a": "conditioning",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are training a stray dog to sit on command: you say \"sit,\" gently push its hindquarters down, and ______ give a biscuit.",
+     "a": "immediately",
+     "self_check": true
+    },
+    {
+     "q": "What is Operant conditioning? State the definition given in this lesson.",
+     "a": "Operant conditioning is a type of learning in which voluntary behaviours (operants) are strengthened or weakened by their consequences; a reinforcer is any stimulus or event that increases the probability of the response that precedes it, while punishment decreases that probability.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) distinguish between positive reinforcement, negative reinforcement, and punishment using novel real-life examples, and (2) explain how the schedule, delay, amount, and quality of reinforcement alter the acquisition and extinction of an operant response.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are training a stray dog to sit on command: you say \"sit,\" gently push its ______ down, and immediately give a biscuit.",
+     "a": "hindquarters",
+     "self_check": true
     }
    ]
   }

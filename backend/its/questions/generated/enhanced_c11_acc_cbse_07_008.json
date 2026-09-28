@@ -34,6 +34,26 @@
      "q": "Design a scenario where a company has two machines purchased on different dates, uses Provision for Depreciation method with Written Down Value at 15% p.a., and sells one machine mid-year. Outline the ledger accounts (Machine, Provision for Depreciation, Machine Disposal) for the year of sale, showing all working notes.",
      "a": "A good answer will: (1) Define two machines with costs, purchase dates; (2) Compute opening WDV and provision for each; (3) Calculate depreciation for part-year on sold machine and full year on other; (4) Show Machine Account at original costs (no change except disposal); (5) Show Provision for Depreciation with opening balance, current year depreciation, transfer to disposal; (6) Show Machine Disposal Account with original cost of sold machine, provision transferred, sale proceeds, profit/loss. A poor answer reveals inability to handle multiple assets with different purchase dates, part-year WDV depreciation, and the mechanics of the Disposal Account when provision method is used.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Provision for Depreciation (or ______ Depreciation) method is a system of recording depreciation where the fixed asset account is maintained at its original cost throughout its useful life, and a separate contra-asset account called 'Provision for Depreciation' is credited each period to accumulate the total depreciation charged to date.",
+     "a": "Accumulated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you buy a ______ for ₹50,000 for your freelance work.",
+     "a": "laptop",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Pass correct journal entries for asset purchase, annual depreciation, and disposal under the Provision for Depreciation method; (2) Prepare the Asset Account, Provision for Depreciation Account, and Depreciation Account for multiple years including part-year calculations; (3) Show the correct Balance.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you buy a laptop for ₹50,000 for your ______ work.",
+     "a": "freelance",
+     "self_check": true
     }
    ]
   }

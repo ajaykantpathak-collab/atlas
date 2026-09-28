@@ -34,6 +34,31 @@
      "q": "Design a minimal viable product (MVP) for a digital PACS lending workflow that reduces loan sanction time from 15 days to 48 hours for KCC renewals. Specify: (a) three data sources for automated credit appraisal, (b) one digital disbursement channel, (c) one mechanism to prevent diversion of crop loan to non-agricultural use.",
      "a": "(a) Data sources: (i) **Satellite-based crop health index** (NDVI from Sentinel-2) verifying actual cultivation on declared land parcels; (ii) **Land record integration** (Bhulekh/Record of Rights) for tenure verification and charge creation; (iii) **PM-KISAN beneficiary database** cross-referenced for identity and operational holding. (b) Disbursement: **Direct Benefit Transfer (DBT) to farmer's Aadhaar-linked bank account** with UPI mandate for input dealers — funds released only against verified invoice from authorized agro-input dealer. (c) Anti-diversion: **End-use tracking via UPI merchant category codes** — loan amount tagged to \"agricultural inputs\" MCC; any transaction at non-agri MCC triggers alert and temporary freeze. A poor answer suggesting \"mobile app for application\" without data integration misses that the bottleneck is verification, not application submission. A poor answer ignoring land records fails the collateral requirement for KCC > ₹1.6 lakh.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cooperative Credit Societies are member-owned, ______ controlled financial institutions operating on the principle of \"one member, one vote\" that provide short-term and medium-term credit to rural households, particularly small and marginal farmers, at reasonable interest rates through a three-tier federal structure (Primary Agricultural Credit Societies at village level → Central Cooperative Banks at district level → State Cooperative Banks at state level) to replace exploitative moneylender credit and ensure timely, adequate institutional finance for agricultural and allied activities.",
+     "a": "democratically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small farmer in ______'s Vidarbha region needing ₹50,000 for cotton seeds and fertilizer in June.",
+     "a": "Maharashtra",
+     "self_check": true
+    },
+    {
+     "q": "What is Cooperative Credit Societies? State the definition given in this lesson.",
+     "a": "Cooperative Credit Societies are member-owned, democratically controlled financial institutions operating on the principle of \"one member, one vote\" that provide short-term and medium-term credit to rural households, particularly small and marginal farmers, at reasonable interest rates through a three-tier federal structure (Primary.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Cooperative Credit Societies?",
+     "a": "Students believe cooperative credit societies failed because \"farmers don't repay loans\" — treating high overdues as a borrower-character flaw.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) diagram the three-tier cooperative credit structure with flow of funds and explain the functional distinction between PACS, CCBs, and SCBs; (2) calculate the effective interest rate burden on a farmer borrowing from PACS vs moneylender given nominal rates, loan tenure, and compounding frequency; (3) evaluate why high.",
+     "self_check": true
     }
    ]
   }

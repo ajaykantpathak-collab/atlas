@@ -34,6 +34,31 @@
      "q": "Design a microcosm experiment using Drosophila to demonstrate that genetic drift causes greater allele frequency variance in small populations than in large ones. Specify: starting allele frequency, population sizes, number of replicates, generations, and how you would quantify drift.",
      "a": "Start with a heterozygous population (p = q = 0.5) for a visible marker (e.g., sepia vs. wild-type eyes). Set up 20 replicate populations of N=10 and 20 replicates of N=100. Maintain discrete generations for 10 generations by random sampling of parents each generation. Measure allele frequency in each replicate at generation 10. Calculate variance of p across replicates for each size. Expect variance ≈ pq/2N per generation; cumulative variance after 10 gens ≈ 10×pq/2N. For N=10, variance ≈ 0.125; for N=100, variance ≈ 0.0125. A poor design (e.g., no replicates, or not controlling for selection) shows the student doesn't understand drift as a stochastic process requiring replication to observe its variance signature.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the change in allele frequencies within a population over successive generations, driven by evolutionary forces including natural selection, genetic drift, gene flow, mutation, and non-random mating.",
+     "a": "Microevolution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a population of peppered moths in industrial Manchester: initially 95% light-coloured (camouflaged on lichen-covered trees), but after pollution darkens tree bark, the dark morph rises to 98% within 50 ______.",
+     "a": "generations",
+     "self_check": true
+    },
+    {
+     "q": "What is Microevolution? State the definition given in this lesson.",
+     "a": "Microevolution is the change in allele frequencies within a population over successive generations, driven by evolutionary forces including natural selection, genetic drift, gene flow, mutation, and non-random mating.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Microevolution?",
+     "a": "Students believe \"evolution by natural selection\" and \"microevolution\" are synonyms, and that every allele frequency change implies adaptation.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can calculate allele frequency changes after one generation of selection/migration/drift given initial frequencies, identify which evolutionary force is operating in a described scenario, and explain why microevolution does not necessarily lead to speciation.",
+     "self_check": true
     }
    ]
   }

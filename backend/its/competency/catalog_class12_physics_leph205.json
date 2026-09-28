@@ -36,7 +36,16 @@
      "explain": "divide the weighted total by 100 to get the mean atomic mass",
      "compute": "avg_mass_u = weighted_sum / 100.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "avg_mass_u = (pct_1 * mass_iso_1 + pct_2 * mass_iso_2) / 100",
+     "compute": "avg_mass_u = (pct_1 * mass_iso_1 + pct_2 * mass_iso_2) / 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph205.13.2.2",
@@ -54,7 +63,7 @@
     "explain why isotopes of an element show identical chemical behaviour",
     "state how the mass number and atomic number of a nucleus are related"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -71,7 +80,16 @@
      "action": "compare across nuclides",
      "explain": "equal Z means isotopes, equal A means isobars, equal N means isotones"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "nucleon_count_a = protons_z + neutrons_n",
+     "compute": "nucleon_count_a = protons_z + neutrons_n"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph205.13.3.1",
@@ -103,7 +121,16 @@
      "explain": "multiply the cube root by 1.2e-15 metre to get the radius",
      "compute": "radius_m = 1.2e-15 * cube_root_a"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "radius_m = 1.2e-15 * (mass_a ** (1.0/3.0))",
+     "compute": "radius_m = 1.2e-15 * (mass_a ** (1.0/3.0))"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph205.13.3.2",
@@ -153,7 +180,16 @@
      "explain": "the quotient is the nuclear density, about 2.3e17 kg per cubic metre for any A",
      "compute": "nuclear_density = nucleus_mass_kg / radius_cu_m"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "nuclear_density = nucleus_mass_kg / ((4.0/3.0) * pi * radius_m ** 3)",
+     "compute": "nuclear_density = nucleus_mass_kg / ((4.0/3.0) * pi * radius_m ** 3)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph205.13.4.1",
@@ -185,7 +221,16 @@
      "explain": "mass in kilograms times the squared speed gives the equivalent energy in joules",
      "compute": "energy_joule = mass_kg * light_sq"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "energy_joule = mass_kg * (3.0e8 ** 2)",
+     "compute": "energy_joule = mass_kg * (3.0e8 ** 2)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph205.13.4.2",
@@ -223,7 +268,16 @@
      "explain": "each atomic mass unit carries 931.5 MeV of energy",
      "compute": "binding_mev = defect_u * 931.5"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "binding_mev = 931.5 * ((protons_z * 1.007825 + (mass_a - protons_z) * 1.008665) - atom_mass_u)",
+     "compute": "binding_mev = 931.5 * ((protons_z * 1.007825 + (mass_a - protons_z) * 1.008665) - atom_mass_u)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph205.13.4.3",
@@ -249,7 +303,16 @@
      "explain": "divide the total binding energy by the nucleon count A",
      "compute": "ebn_mev = binding_mev / mass_a"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ebn_mev = binding_mev / mass_a",
+     "compute": "ebn_mev = binding_mev / mass_a"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph205.13.4.4",
@@ -386,7 +449,16 @@
      "explain": "multiply by 931.5; a positive result means the reaction liberates energy",
      "compute": "q_value_mev = mass_lost_u * 931.5"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "q_value_mev = (mass_initial_u - mass_final_u) * 931.5",
+     "compute": "q_value_mev = (mass_initial_u - mass_final_u) * 931.5"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph205.13.7.2",
@@ -418,7 +490,16 @@
      "explain": "moles times 6.023e23 nuclei per mole, times the MeV per fission, times 1.6e-13 joule per MeV -- one kilogram of fissile fuel pays out around 1e14 joule",
      "compute": "energy_joule = mole_count * 6.023e23 * mev_per_fission * 1.6e-13"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "energy_joule = (sample_g / mass_a) * 6.023e23 * mev_per_fission * 1.6e-13",
+     "compute": "energy_joule = (sample_g / mass_a) * 6.023e23 * mev_per_fission * 1.6e-13"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph205.13.7.3",
@@ -463,10 +544,25 @@
    "concept": "leph205.13.2.1",
    "question_type": "weighted_average_mass",
    "question_pattern": "Chlorine occurs as isotopes of mass {mass_isotope_1} u and {mass_isotope_2} u with abundances {abundance_1} percent and {abundance_2} percent. Find the average atomic mass of chlorine.",
-   "extracted_variables": {"mass_isotope_1": 34.98, "abundance_1": 75.4, "mass_isotope_2": 36.98, "abundance_2": 24.6},
+   "extracted_variables": {
+    "mass_isotope_1": 34.98,
+    "abundance_1": 75.4,
+    "mass_isotope_2": 36.98,
+    "abundance_2": 24.6
+   },
    "solution_template": [
-    {"step": 1, "action": "weight each isotope", "explain": "75.4 * 34.98 + 24.6 * 36.98 = 3547.2", "compute": "weighted_sum = abundance_1 * mass_isotope_1 + abundance_2 * mass_isotope_2"},
-    {"step": 2, "action": "divide by 100", "explain": "3547.2 / 100 gives the mean mass", "compute": "avg_mass_u = weighted_sum / 100.0"}
+    {
+     "step": 1,
+     "action": "weight each isotope",
+     "explain": "75.4 * 34.98 + 24.6 * 36.98 = 3547.2",
+     "compute": "weighted_sum = abundance_1 * mass_isotope_1 + abundance_2 * mass_isotope_2"
+    },
+    {
+     "step": 2,
+     "action": "divide by 100",
+     "explain": "3547.2 / 100 gives the mean mass",
+     "compute": "avg_mass_u = weighted_sum / 100.0"
+    }
    ]
   },
   {
@@ -475,12 +571,35 @@
    "concept": "leph205.13.3.2",
    "question_type": "nuclear_density",
    "question_pattern": "The mass of an iron nucleus is {mass_u} u and its mass number is {mass_a}. Find the nuclear density.",
-   "extracted_variables": {"mass_u": 55.85, "mass_a": 56},
+   "extracted_variables": {
+    "mass_u": 55.85,
+    "mass_a": 56
+   },
    "solution_template": [
-    {"step": 1, "action": "mass in kilograms", "explain": "55.85 u * 1.6605e-27 kg = 9.27e-26 kg", "compute": "nucleus_mass_kg = mass_u * 1.6605e-27"},
-    {"step": 2, "action": "radius", "explain": "1.2e-15 * 56^(1/3) = 4.59e-15 m", "compute": "radius_m = 1.2e-15 * (mass_a ** (1.0 / 3.0))"},
-    {"step": 3, "action": "sphere volume", "explain": "(4/3) pi r^3 = 4.05e-43 cubic metre", "compute": "radius_cu_m = (4.0 / 3.0) * pi * radius_m ** 3"},
-    {"step": 4, "action": "divide", "explain": "9.27e-26 / 4.05e-43 = 2.29e17 kg per cubic metre", "compute": "nuclear_density = nucleus_mass_kg / radius_cu_m"}
+    {
+     "step": 1,
+     "action": "mass in kilograms",
+     "explain": "55.85 u * 1.6605e-27 kg = 9.27e-26 kg",
+     "compute": "nucleus_mass_kg = mass_u * 1.6605e-27"
+    },
+    {
+     "step": 2,
+     "action": "radius",
+     "explain": "1.2e-15 * 56^(1/3) = 4.59e-15 m",
+     "compute": "radius_m = 1.2e-15 * (mass_a ** (1.0 / 3.0))"
+    },
+    {
+     "step": 3,
+     "action": "sphere volume",
+     "explain": "(4/3) pi r^3 = 4.05e-43 cubic metre",
+     "compute": "radius_cu_m = (4.0 / 3.0) * pi * radius_m ** 3"
+    },
+    {
+     "step": 4,
+     "action": "divide",
+     "explain": "9.27e-26 / 4.05e-43 = 2.29e17 kg per cubic metre",
+     "compute": "nuclear_density = nucleus_mass_kg / radius_cu_m"
+    }
    ]
   },
   {
@@ -489,11 +608,30 @@
    "concept": "leph205.13.4.2",
    "question_type": "binding_energy",
    "question_pattern": "Find the binding energy in MeV of a nitrogen-14 nucleus whose atomic mass is {atom_mass_u} u (Z = {protons_z}, A = {mass_a}).",
-   "extracted_variables": {"protons_z": 7, "mass_a": 14, "atom_mass_u": 14.00307},
+   "extracted_variables": {
+    "protons_z": 7,
+    "mass_a": 14,
+    "atom_mass_u": 14.00307
+   },
    "solution_template": [
-    {"step": 1, "action": "mass the free nucleons", "explain": "7 * 1.007825 + 7 * 1.008665 = 14.11543 u", "compute": "bound_mass_u = protons_z * 1.007825 + (mass_a - protons_z) * 1.008665"},
-    {"step": 2, "action": "mass defect", "explain": "14.11543 - 14.00307 = 0.11236 u", "compute": "defect_u = bound_mass_u - atom_mass_u"},
-    {"step": 3, "action": "to MeV", "explain": "0.11236 * 931.5 = 104.7 MeV", "compute": "binding_mev = defect_u * 931.5"}
+    {
+     "step": 1,
+     "action": "mass the free nucleons",
+     "explain": "7 * 1.007825 + 7 * 1.008665 = 14.11543 u",
+     "compute": "bound_mass_u = protons_z * 1.007825 + (mass_a - protons_z) * 1.008665"
+    },
+    {
+     "step": 2,
+     "action": "mass defect",
+     "explain": "14.11543 - 14.00307 = 0.11236 u",
+     "compute": "defect_u = bound_mass_u - atom_mass_u"
+    },
+    {
+     "step": 3,
+     "action": "to MeV",
+     "explain": "0.11236 * 931.5 = 104.7 MeV",
+     "compute": "binding_mev = defect_u * 931.5"
+    }
    ]
   },
   {
@@ -502,10 +640,24 @@
    "concept": "leph205.13.7.1",
    "question_type": "q_value",
    "question_pattern": "Two deuterons of mass {mass_d_u} u each react to give a triton of mass {mass_t_u} u and a proton of mass {mass_p_u} u. Determine the Q value and say whether the reaction is exothermic.",
-   "extracted_variables": {"mass_d_u": 2.014102, "mass_t_u": 3.016049, "mass_p_u": 1.007825},
+   "extracted_variables": {
+    "mass_d_u": 2.014102,
+    "mass_t_u": 3.016049,
+    "mass_p_u": 1.007825
+   },
    "solution_template": [
-    {"step": 1, "action": "total masses of both sides", "explain": "reactants 2 * 2.014102 = 4.028204 u; products 3.016049 + 1.007825 = 4.023874 u", "compute": "mass_lost_u = (2.0 * mass_d_u) - (mass_t_u + mass_p_u)"},
-    {"step": 2, "action": "convert to MeV", "explain": "0.00433 u * 931.5 = 4.03 MeV, positive so exothermic", "compute": "q_value_mev = mass_lost_u * 931.5"}
+    {
+     "step": 1,
+     "action": "total masses of both sides",
+     "explain": "reactants 2 * 2.014102 = 4.028204 u; products 3.016049 + 1.007825 = 4.023874 u",
+     "compute": "mass_lost_u = (2.0 * mass_d_u) - (mass_t_u + mass_p_u)"
+    },
+    {
+     "step": 2,
+     "action": "convert to MeV",
+     "explain": "0.00433 u * 931.5 = 4.03 MeV, positive so exothermic",
+     "compute": "q_value_mev = mass_lost_u * 931.5"
+    }
    ]
   },
   {
@@ -514,10 +666,24 @@
    "concept": "leph205.13.7.2",
    "question_type": "fission_yield",
    "question_pattern": "Fission of one plutonium-239 nucleus releases {mev_per_fission} MeV. How much energy in joules is set free when all atoms in {sample_g} g of pure plutonium undergo fission?",
-   "extracted_variables": {"mev_per_fission": 180.0, "sample_g": 1000.0, "mass_a": 239},
+   "extracted_variables": {
+    "mev_per_fission": 180.0,
+    "sample_g": 1000.0,
+    "mass_a": 239
+   },
    "solution_template": [
-    {"step": 1, "action": "moles of fuel", "explain": "1000 g / 239 = 4.18 mol", "compute": "mole_count = sample_g / mass_a"},
-    {"step": 2, "action": "energy in joules", "explain": "2.52e24 nuclei at 180 MeV each is 4.54e26 MeV, and times 1.6e-13 J per MeV gives 7.3e13 J", "compute": "energy_joule = mole_count * 6.023e23 * mev_per_fission * 1.6e-13"}
+    {
+     "step": 1,
+     "action": "moles of fuel",
+     "explain": "1000 g / 239 = 4.18 mol",
+     "compute": "mole_count = sample_g / mass_a"
+    },
+    {
+     "step": 2,
+     "action": "energy in joules",
+     "explain": "2.52e24 nuclei at 180 MeV each is 4.54e26 MeV, and times 1.6e-13 J per MeV gives 7.3e13 J",
+     "compute": "energy_joule = mole_count * 6.023e23 * mev_per_fission * 1.6e-13"
+    }
    ]
   }
  ],

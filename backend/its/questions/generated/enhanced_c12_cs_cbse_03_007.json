@@ -34,6 +34,31 @@
      "q": "Design a tiny 3-page website (home, about, contact) that shares the same header style (dark background, white text, centered). Show the folder structure, the single external CSS file, and the `<head>` section for each HTML page. Explain why this approach scales better than copying internal CSS into each page.",
      "a": "Folder:\n```\n/project\n  index.html\n  about.html\n  contact.html\n  style.css\n```\nEach HTML head: `<link rel=\"stylesheet\" href=\"style.css\">`.\nstyle.css: `header { background: #333; color: white; text-align: center; }`.\nIf the client wants the header background changed, you edit one line in `style.css` — not three files. A poor answer copies the same `<style>` block into each HTML file, showing they don't grasp separation of concerns and the DRY principle.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: CSS (Cascading Style Sheets) is a stylesheet language used to describe the ______ and layout of HTML documents.",
+     "a": "presentation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you've built a webpage with HTML — headings, ______, a table — but it looks plain, like a raw text document.",
+     "a": "paragraphs",
+     "self_check": true
+    },
+    {
+     "q": "What is CSS (Cascading Style Sheets)? State the definition given in this lesson.",
+     "a": "CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation and layout of HTML documents.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about CSS (Cascading Style Sheets)?",
+     "a": "Students often think CSS is \"part of HTML\" and write things like <p font-color=\"red\"> or put CSS properties directly on tags without the style attribute.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write a complete HTML file that uses all three methods of adding CSS (inline, internal, external) to style at least three different elements, and explain in their own words why separating style from structure improves maintainability.",
+     "self_check": true
     }
    ]
   }

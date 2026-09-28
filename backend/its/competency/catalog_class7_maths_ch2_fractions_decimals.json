@@ -140,7 +140,7 @@
     "value of product of two improper fractions",
     "which is greater product or fraction"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -157,7 +157,16 @@
      "action": "compare",
      "explain": "Compare product with each fraction"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "combine the fractions with the fraction operation rules",
+     "explain": "combine the fractions with the fraction operation rules: prod = 6 * 5 / 6 gives 5",
+     "compute": "prod = 6 * 5 / 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m2.2.1",

@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a Geiger-Müller counter, a set of absorbers (paper, aluminum, lead), and a mixed α-β-γ source to identify which radiation type is which. Describe the procedure and expected count-rate pattern.",
      "a": "Procedure: Place source near GM tube, record background-subtracted count rate R₀. Insert paper → count rate drops sharply (α stopped). Remove paper, insert 3 mm Al → further drop (β stopped). Remove Al, insert 1 cm Pb → count rate reduces but not to zero (γ attenuated). The remaining counts are γ. A poor answer lacks systematic absorber sequencing or fails to link count-rate changes to specific radiation properties.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The SI unit of activity (decays per second) is the ______ (Bq), where 1 Bq = 1 decay/s.",
+     "a": "becquerel",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a smoke detector at home — it contains a tiny americium-241 source that emits alpha ______ to ionize air.",
+     "a": "particles",
+     "self_check": true
+    },
+    {
+     "q": "What is Radioactivity? State the definition given in this lesson.",
+     "a": "The SI unit of activity (decays per second) is the becquerel (Bq), where 1 Bq = 1 decay/s.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Radioactivity?",
+     "a": "Students often think γ-decay changes the element (Z or A) because they confuse it with α/β decay.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write balanced nuclear equations for α, β⁻, β⁺, and γ decays, identify the daughter nucleus (Z, A) from the parent, and explain how each decay changes the neutron-to-proton ratio to move toward the valley of stability.",
+     "self_check": true
     }
    ]
   }

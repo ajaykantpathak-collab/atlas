@@ -34,6 +34,31 @@
      "q": "Design a simple mental experiment using a syringe filled with air to demonstrate that gas particles have large inter-particle spaces and can be compressed. Describe what happens to the particle arrangement when the plunger is pushed inward.",
      "a": "The correct answer should state that pushing the plunger decreases the volume of the gas, forcing the gas particles closer together by reducing the empty space between them, though the particles themselves do not shrink. A poor answer would claim that the particles vanish or that the gas particles themselves become smaller, failing to distinguish between particle size and inter-particle space.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In gases, particles are arranged with very large empty spaces between them and move about randomly at high speeds in all possible ______.",
+     "a": "directions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To ______ how this happens, we must look at how gas particles are organized and how they move.",
+     "a": "understand",
+     "self_check": true
+    },
+    {
+     "q": "What is In gases, particles? State the definition given in this lesson.",
+     "a": "In gases, particles are arranged with very large empty spaces between them and move about randomly at high speeds in all possible directions.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about In gases, particles?",
+     "a": "Students often think that individual gas particles expand or swell up in size when a gas is heated or when its volume increases, rather than understanding that the empty space between particles increases while the particles themselves remain the exact same size.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Students can explain why gases fill any container completely, describe the arrangement and movement of particles in the gaseous state, and contrast gas behavior with solids and liquids using kinetic theory.",
+     "self_check": true
     }
    ]
   }

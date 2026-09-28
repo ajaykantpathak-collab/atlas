@@ -17,11 +17,11 @@
     },
     {
      "q": "Write a function `calculate_total(base_price, *discounts, tax_rate=0.18, **fees)` that:\n- Accepts a base price (required)\n- Accepts any number of discount percentages (e.g., 10, 5 for 10% and 5%)\n- Accepts an optional tax_rate keyword argument (default 18%)\n- Accepts any number of named fees (e.g., `delivery=50, packing=20`)\n- Returns the final amount after applying discounts sequentially, then adding fees, then applying tax on the subtotal.\nShow a call: `calculate_total(1000, 10, 5, delivery=50, packing=20, tax_rate=0.12)`",
-     "a": "```python\ndef calculate_total(base_price, *discounts, tax_rate=0.18, **fees):\n    price = base_price\n    for d in discounts:\n        price -= price * d / 100\n    subtotal = price + sum(fees.values())\n    return subtotal * (1 + tax_rate)",
+     "a": "```python\ndef calculate_total(base_price, *discounts, tax_rate=0.18, **fees):\n    price = base_price\n    for d in discounts:\n        price -= price * d / 100\n    subtotal = price + sum(fees.values())\n    return subtotal * (1 + tax_rate)\n\n# Call:\nresult = calculate_total(1000, 10, 5, delivery=50, packing=20, tax_rate=0.12)\n# Steps: 1000 → 900 (10% off) → 855 (5% off) → +70 fees = 925 → ×1.12 = 1036.0\n```\nA wrong answer that applies tax before fees, or adds discounts instead of chaining them, shows misunderstanding of business logic vs parameter mechanics. A student who writes `price = base_price * (1 - sum(discounts)/100)` treats discounts as additive, not sequential — a common real-world error.",
      "self_check": true
     },
     {
-     "q": "Compare these two calls and explain the difference in what `args` and `kwargs` receive inside the function:\n```python\ndef f(*args, **kwargs): print(args, kwargs)",
+     "q": "Compare these two calls and explain the difference in what `args` and `kwargs` receive inside the function:\n```python\ndef f(*args, **kwargs): print(args, kwargs)\n\n# Call A\nf(1, 2, a=3, b=4)\n\n# Call B\nf(*(1, 2), **{'a': 3, 'b': 4})\n```",
      "a": "Both calls produce identical output: `(1, 2) {'a': 3, 'b': 4}`.  \nCall A uses literal positional and keyword arguments. Call B uses *unpacking*: `*(1, 2)` expands the tuple into positional arguments, and `**{'a': 3, 'b': 4}` expands the dict into keyword arguments. A student who says \"Call B gives args=((1,2),), kwargs={'a':3,'b':4}\" thinks unpacking passes the container itself rather than its contents — this confusion between \"passing a tuple\" and \"unpacking a tuple\" is a critical JEE/Board trap. Another error: thinking `**` works on lists — it only works on mappings.",
      "self_check": true
     },
@@ -31,8 +31,23 @@
      "self_check": true
     },
     {
-     "q": "Design a function `log_event(event_type, *messages, timestamp=None, **metadata)` for a logging system. Requirements:\n- `event_type`: required string (e.g., \"ERROR\", \"INFO\")\n- `messages`: zero or more strings to log\n- `timestamp`: optional, defaults to current ISO format time if not provided\n- `metadata`: arbitrary key-value pairs (e.g., `user_id=42, request_id=\"abc\"`)\n- Returns a formatted string: `[TIMESTAMP] EVENT_TYPE: message1 | message2 | ... | key1=val1, key2=val2`\nShow the function definition and two example calls with outputs.",
-     "a": "```python\nfrom datetime import datetime\n\ndef log_event(event_type, *messages, timestamp=None, **metadata):\n    if timestamp is None:\n        timestamp = datetime.now().isoformat(timespec='seconds')\n    msg_part = \" | \".join(messages) if messages else \"(no message)\"\n    meta_part = \", \".join(f\"{k}={v}\" for k, v in metadata.items())\n    if meta_part:\n        return f\"[{timestamp}] {event_type}: {msg_part} | {meta_part}\"\n    return f\"[{timestamp}] {event_type}: {msg_part}\"",
+     "q": "Design a function `log_event(event_type, *messages, timestamp=N/A, **metadata)` for a logging system. Requirements:\n- `event_type`: required string (e.g., \"ERROR\", \"INFO\")\n- `messages`: zero or more strings to log\n- `timestamp`: optional, defaults to current ISO format time if not provided\n- `metadata`: arbitrary key-value pairs (e.g., `user_id=42, request_id=\"abc\"`)\n- Returns a formatted string: `[TIMESTAMP] EVENT_TYPE: message1 | message2 | ... | key1=val1, key2=val2`\nShow the function definition and two example calls with outputs.",
+     "a": "```python\nfrom datetime import datetime\n\ndef log_event(event_type, *messages, timestamp=N/A, **metadata):\n    if timestamp is N/A:\n        timestamp = datetime.now().isoformat(timespec='seconds')\n    msg_part = \" | \".join(messages) if messages else \"(no message)\"\n    meta_part = \", \".join(f\"{k}={v}\" for k, v in metadata.items())\n    if meta_part:\n        return f\"[{timestamp}] {event_type}: {msg_part} | {meta_part}\"\n    return f\"[{timestamp}] {event_type}: {msg_part}\"\n\n# Call 1:\nlog_event(\"INFO\", \"User logged in\", \"Session started\", user_id=42, ip=\"192.168.1.1\")\n# Output: [2024-01-15T10:30:45] INFO: User logged in | Session started | user_id=42, ip=192.168.1.1\n\n# Call 2:\nlog_event(\"ERROR\", timestamp=\"2024-01-15T10:30:00\", code=500, path=\"/api/users\")\n# Output: [2024-01-15T10:30:00] ERROR: (no message) | code=500, path=/api/users\n```\nA poor answer omits the `timestamp=N/A` default with runtime evaluation (using `datetime.now()` directly in default would freeze the time at module load), or joins messages without handling empty case, or formats metadata as raw dict instead of `key=val` pairs.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Keyword arguments allow passing values to a function by ______ naming the parameter (e.g., func(a=1, b=2)), making argument order irrelevant. *args collects extra positional arguments into a tuple, while kwargs collects extra keyword arguments into a dictionary, enabling functions to accept variable numbers of arguments.",
+     "a": "explicitly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're building a pizza ordering system where customers can choose any number of toppings, specify special ______ by name (like gluten_free=True), and you want one function place_order() that handles all variations without writing separate functions for 2 toppings, 3 toppings, etc.",
+     "a": "instructions",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write a function definition using *args and kwargs together with regular parameters, correctly call it with mixed positional, keyword, and unpacked arguments, and explain the order of parameter matching (positional → keyword → *args → kwargs) without syntax errors.",
      "self_check": true
     }
    ]

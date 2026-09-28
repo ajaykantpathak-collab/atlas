@@ -42,9 +42,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = -2 + (-6)"
-   ]
+   "steps_chain": []
   },
   {
    "id": "hegp.106.6.2",
@@ -262,9 +260,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "sq = 32 ** 2"
-   ]
+   "steps_chain": []
   }
  ]
 }

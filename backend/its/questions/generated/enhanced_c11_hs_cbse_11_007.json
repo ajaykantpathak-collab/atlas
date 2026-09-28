@@ -34,6 +34,31 @@
      "q": "Design a 3-step home experiment to demonstrate that water alone cannot prevent redeposition of carbon particles (simulated soot) on cotton. Specify materials, procedure, and the observable evidence for redeposition.",
      "a": "Materials: two identical white cotton swatches, carbon powder (soot), two beakers, distilled water, stirrer. Step 1: Soil both swatches equally with carbon powder. Step 2: Agitate swatch A in water for 5 min, rinse, dry. Agitate swatch B in water + 0.1% liquid detergent, rinse, dry. Step 3: Compare grayness visually or via photo. Evidence: Swatch A shows gray haze (redeposited carbon); Swatch B remains whiter (surfactant suspended carbon). Poor answer omits control (swatch B) or uses tap water (confounds hardness).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Dirt refers to foreign matter (grease, grime, dust, particulate soil) adhering to fabric, classified as loose dirt (______ trapped, removable by mechanical action) and fixed dirt (bound by oily/greasy films requiring chemical action).",
+     "a": "mechanically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you spill cold coffee on a cotton kurta and also brush against a dusty wall — two different \"dirts.\" Why does ______ remove the dust but not the coffee stain?",
+     "a": "shaking",
+     "self_check": true
+    },
+    {
+     "q": "What is Dirt? State the definition given in this lesson.",
+     "a": "Dirt refers to foreign matter (grease, grime, dust, particulate soil) adhering to fabric, classified as loose dirt (mechanically trapped, removable by mechanical action) and fixed dirt (bound by oily/greasy films requiring chemical action).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Dirt?",
+     "a": "Students believe \"hot water + agitation = clean\" for all soils because they conflate thermal softening of fats with emulsification, and mistake mechanical dislodgement for permanent removal.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can distinguish loose vs fixed dirt in a given fabric scenario, explain why water temperature matters for each type, and articulate why water alone fails to remove oily soil and causes graying via redeposition — using terms: adhesion, penetration, pedesis, emulsification, redeposition, graying.",
+     "self_check": true
     }
    ]
   }

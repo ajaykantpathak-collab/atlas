@@ -34,6 +34,31 @@
      "q": "Design a simple experiment or observation that could distinguish between a molecule with localized double bonds (like ethene) and one with resonance-delocalized bonds (like benzene), using only bond length data or chemical reactivity.",
      "a": "Good answer: Measure C–C bond lengths via X-ray diffraction. Ethene shows distinct C=C (133 pm) and C–C (154 pm) bonds. Benzene shows all six C–C bonds identical at 139 pm (intermediate). Alternatively, test reactivity: ethene undergoes rapid addition reactions (e.g., Br₂ decolorization) due to localized π-bond; benzene resists addition, preferring substitution, because delocalization stabilizes the ring. A poor answer (e.g., \"burn them and see\") shows inability to connect resonance theory to measurable physical/chemical properties.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Resonance structures are multiple valid Lewis structures for a molecule or polyatomic ion that have the same arrangement of atoms but differ in the ______ of electrons (bonding and lone pairs).",
+     "a": "distribution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the ozone layer protecting Earth from UV radiation – ozone (O₃) has a bent shape but ______ data shows both O–O bonds are identical (128 pm), intermediate between a single bond (148 pm) and double bond (121 pm).",
+     "a": "experimental",
+     "self_check": true
+    },
+    {
+     "q": "What is Resonance structures? State the definition given in this lesson.",
+     "a": "Resonance structures are multiple valid Lewis structures for a molecule or polyatomic ion that have the same arrangement of atoms but differ in the distribution of electrons (bonding and lone pairs).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Resonance structures?",
+     "a": "Students believe resonance means the molecule \"resonates\" or flips back and forth between canonical structures (like a tautomeric equilibrium).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Identify molecules/ions requiring resonance description (delocalized π-systems, charge delocalization).",
+     "self_check": true
     }
    ]
   }

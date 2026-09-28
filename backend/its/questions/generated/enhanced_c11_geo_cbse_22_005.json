@@ -34,6 +34,31 @@
      "q": "Design a step-by-step procedure to construct a cross-section along a line XY on a 1:50,000 topographic sheet with contour interval 20 m, such that the vertical exaggeration is exactly 5 times. Specify the vertical scale to use.",
      "a": "Procedure:  \n1. Draw line XY on the map; mark every contour crossing and spot height along it.  \n2. Measure horizontal map distance between X and Y (say 12 cm). Ground distance = 12 cm × 50,000 = 600,000 cm = 6 km.  \n3. For vertical exaggeration (VE) = 5, vertical scale (VS) = horizontal scale (HS) / VE. HS = 1:50,000, so VS = 1:10,000 (i.e., 1 cm = 100 m).  \n4. On graph paper, draw horizontal axis to same length as XY (12 cm).  \n5. Draw vertical axis using VS: each cm = 100 m. Plot elevations at each contour crossing.  \n6. Join points with smooth curve. Label features.  \nA poor answer omits the vertical scale calculation or uses the same scale for both axes (VE=1), showing misunderstanding of vertical exaggeration concept.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Map reading is the systematic ______ of topographic maps to determine direction (using true, magnetic, and grid bearings), measure horizontal and slope distances (applying Representative Fraction, statement, or graphical scales), and analyze relief features (through contour patterns, spot heights, bench marks, and cross-sections) to reconstruct the three-dimensional terrain on a two-dimensional sheet.",
+     "a": "interpretation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are planning a trek from Manali to Hamta Pass using a 1:50,000 ______ sheet.",
+     "a": "topographic",
+     "self_check": true
+    },
+    {
+     "q": "What is Map reading? State the definition given in this lesson.",
+     "a": "Map reading is the systematic interpretation of topographic maps to determine direction (using true, magnetic, and grid bearings), measure horizontal and slope distances (applying Representative Fraction, statement, or graphical scales), and analyze relief features (through contour patterns, spot heights, bench marks, and cross-sections).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Map reading?",
+     "a": "Students often believe that contour lines can cross or merge to form a cliff, but in reality contour lines never cross (except at overhanging cliffs which are shown by hachures on specialized maps).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently measure straight-line and curved distances on a 1:50,000 topographic sheet using a divider and graphical scale, compute gradient between two points from contour intervals, and draw an annotated cross-section showing landform types (valley, spur, ridge, cliff) with correct vertical exaggeration.",
+     "self_check": true
     }
    ]
   }

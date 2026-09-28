@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using two sets of detached bean leaves to demonstrate that cytokinins delay senescence. Specify the control, treatment, measurable parameter, and expected observation after 7 days.",
      "a": "Control: leaves in distilled water. Treatment: leaves in 10 ppm kinetin/zeatin solution. Measurable parameter: chlorophyll content (SPAD meter) or visual yellowing score. Expected: treated leaves retain green colour and higher chlorophyll; control leaves yellow. A poor design lacks a control, uses inappropriate concentration, or measures irrelevant parameters (e.g., leaf length).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Gibberellins are a group of over 100 acidic diterpenoid plant growth regulators (denoted GA₁, GA₂, GA₃...) that primarily promote stem elongation, seed germination, and flowering; cytokinins are adenine-derived purine derivatives (e.g., kinetin, zeatin) that specifically stimulate cytokinesis, delay senescence, and promote lateral bud growth by ______ apical dominance.",
+     "a": "counteracting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by showing a time-lapse video of a dwarf pea plant treated with GA₃ versus an untreated control – the dramatic stem ______ is visible within days.",
+     "a": "elongation",
+     "self_check": true
+    },
+    {
+     "q": "What is Gibberellins? State the definition given in this lesson.",
+     "a": "Gibberellins are a group of over 100 acidic diterpenoid plant growth regulators (denoted GA₁, GA₂, GA₃...) that primarily promote stem elongation, seed germination, and flowering; cytokinins are adenine-derived purine derivatives (e.g., kinetin, zeatin) that specifically stimulate cytokinesis, delay senescence, and promote lateral bud.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Gibberellins are a group of over ______ acidic diterpenoid plant growth regulators (denoted GA₁, GA₂, GA₃...) that primarily promote stem elongation, seed germination, and flowering; cytokinins are adenine-derived purine derivatives (e.g., kinetin, zeatin) that specifically stimulate cytokinesis, delay senescence, and promote lateral bud growth by counteracting apical dominance.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the distinct physiological roles of gibberellins and cytokinins with specific examples, describe their discovery history, and predict the outcome of their application or deficiency in agricultural scenarios (e.g., bolting in rosette plants, delaying leaf senescence in cut flowers).",
+     "self_check": true
     }
    ]
   }

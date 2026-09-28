@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (Indian context) involving a cone-on-cylinder or hemisphere-on-cone solid where the total volume is given and the student must find a missing dimension. The problem must require at least 4 steps to solve and use π = 22/7. Write the problem statement and outline the solution steps.",
      "a": "Problem: \"A temple kalash (finial) is made of a hemispherical dome of radius 14 cm mounted on a conical base of the same radius. The total volume of brass used is 14373.33 cm³. Find the height of the conical base. (Use π = 22/7)\"\nSolution steps:\n1. Write V_hemisphere = (2/3)πr³ = (2/3)×(22/7)×14³ = (2/3)×(22/7)×2744 = 120896/21 = 5756.95 cm³.\n2. Let h be cone height. V_cone = (1/3)πr²h = (1/3)×(22/7)×196×h = (4312/21)h.\n3. Total V = 5756.95 + (4312/21)h = 14373.33.\n4. Solve: (4312/21)h = 8616.38 → h = (8616.38 × 21)/4312 = 42 cm.\nA poor problem would give the answer directly or miss the unit conversion step. A good problem tests the reverse calculation and checks if the student can isolate h algebraically.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The volume of a ______ of solids formed by joining a cone on top of a cylinder or a hemisphere on top of a cone is the sum of the individual volumes of the constituent solids, provided they share the same base radius and are joined base-to-base without overlapping.",
+     "a": "combination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ lamp base for your Diwali celebration — the base is a cylinder of radius 7 cm and height 10 cm, topped by a cone of the same radius and height 6 cm.",
+     "a": "decorative",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly compute the volume of combined solids (cone on cylinder, hemisphere on cone) by identifying individual solid dimensions, applying the correct volume formulas, and summing them with proper units.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a decorative lamp base for your Diwali ______ — the base is a cylinder of radius 7 cm and height 10 cm, topped by a cone of the same radius and height 6 cm.",
+     "a": "celebration",
+     "self_check": true
     }
    ]
   }

@@ -1,6 +1,112 @@
 {
- "catalog": "catalog_class11_economics_ch105",
+ "catalog": "catalog_class11_economics_ch105.json",
  "concepts": [
+  {
+   "id": "keec.105.9",
+   "title": "Fisheries Production Distribution",
+   "converted_to_compute": true,
+   "formula": "inland_output = 0.75 * total_fish_output",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "inland_output = 0.75 * total_fish_output",
+     "compute": "inland_output = 0.75 * total_fish_output"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keec.105.9",
+     "question_pattern": "Calculate the inland fish production if total production is {total_fish_output}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Fisheries Production Distribution: given total_fish_output = 48, find inland output.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the inland fish production if total production is 48?",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "For Fisheries Production Distribution: given total_fish_output = 32, find inland output.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the inland fish production if total production is 32?",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "For Fisheries Production Distribution: given total_fish_output = 91, find inland output.",
+     "a": "68.25",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the inland fish production if total production is 91?",
+     "a": "68.25",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keec.105.12",
+   "title": "Livestock Composition: Poultry Share",
+   "converted_to_compute": true,
+   "formula": "poultry_count = 0.61 * total_livestock",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "poultry_count = 0.61 * total_livestock",
+     "compute": "poultry_count = 0.61 * total_livestock"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keec.105.12",
+     "question_pattern": "Calculate the number of poultry if total livestock is {total_livestock}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Livestock Composition: Poultry Share: given total_livestock = 70, find poultry count.",
+     "a": "42.7",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the number of poultry if total livestock is 70?",
+     "a": "42.7",
+     "self_check": false
+    },
+    {
+     "q": "For Livestock Composition: Poultry Share: given total_livestock = 62, find poultry count.",
+     "a": "37.82",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the number of poultry if total livestock is 62?",
+     "a": "37.82",
+     "self_check": false
+    },
+    {
+     "q": "For Livestock Composition: Poultry Share: given total_livestock = 66, find poultry count.",
+     "a": "40.26",
+     "self_check": false
+    },
+    {
+     "q": "Calculate the number of poultry if total livestock is 66?",
+     "a": "40.26",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "keec.105.1",
    "title": "Defining Rural Development",
@@ -170,37 +276,6 @@
    ]
   },
   {
-   "id": "keec.105.9",
-   "title": "Fisheries Production Distribution",
-   "questions": [
-    {
-     "q": "Calculate the inland fish production if total production is .... Use the method 'Fisheries Production Distribution'. Work with: total_fish_output = 15, total_val = 300. Carry the chain through step by step and give the final value of the result.",
-     "a": "225 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the total fish output given inland production. Use the method 'Fisheries Production Distribution'. Work with: total_fish_output = 30, total_val = 45. Carry the chain through step by step and give the final value of the result.",
-     "a": "33.75 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Fisheries Production Distribution' refers to.",
-     "a": "The calculation of fish output based on the source, where inland sources dominate the total production in India.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Fisheries Production Distribution'.",
-     "a": "Inland fisheries contribute three-quarters of India's total fish production.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Fisheries Production Distribution', in plain ASCII form.",
-     "a": "inland_output = 0.75 * total_fish_output",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "keec.105.10",
    "title": "Horticulture and its Impact",
    "questions": [
@@ -238,37 +313,6 @@
     {
      "q": "Under which section is 'Organic Farming' taught, and from which source text?",
      "a": "5.6 (source: keec105.txt lines 620-655)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keec.105.12",
-   "title": "Livestock Composition: Poultry Share",
-   "questions": [
-    {
-     "q": "Calculate the number of poultry if total livestock is .... Use the method 'Livestock Composition: Poultry Share'. Work with: total_livestock = 45, total_val = 8. Carry the chain through step by step and give the final value of the result.",
-     "a": "4.88 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the poultry count from a total livestock population of .... Use the method 'Livestock Composition: Poultry Share'. Work with: total_livestock = 60, total_val = 24. Carry the chain through step by step and give the final value of the result.",
-     "a": "14.64 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Livestock Composition: Poultry Share' refers to.",
-     "a": "Determining the number of poultry birds within the total livestock population based on its dominant percentage share.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Livestock Composition: Poultry Share'.",
-     "a": "Poultry is the largest segment of the livestock sector in India.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Livestock Composition: Poultry Share', in plain ASCII form.",
-     "a": "poultry_count = 0.61 * total_livestock",
      "self_check": true
     }
    ]

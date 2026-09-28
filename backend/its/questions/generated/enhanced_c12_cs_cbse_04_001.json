@@ -34,6 +34,26 @@
      "q": "Design a mini database scenario for a local library (not a school library). Identify: (a) at least three entity types, (b) one relationship between two entities, (c) two examples of metadata that would be stored in the system catalog, and (d) one view that a librarian would need but a member would not.",
      "a": "(a) Entities: Book, Member, Loan. (b) Relationship: Member borrows Book (via Loan). (c) Metadata: data type of Book.ISBN (e.g., VARCHAR(13)), constraint that Loan.due_date cannot be NULL. (d) Librarian view: \"All overdue loans with member contact details\" — members should not see others' privacy data. A poor answer that lists entities without relationships, or confuses metadata with data (e.g., \"book title\" as metadata), reveals the student cannot abstract the database structure from the application content.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A database is an organized collection of structured data stored ______ in a computer system, typically managed by a Database Management System (DBMS) — software that provides controlled access, efficient retrieval, and secure manipulation of data while ensuring consistency, integrity, and concurrency control.",
+     "a": "electronically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Orders, customer details, book ______, and payment records are currently stored in separate Excel files.",
+     "a": "inventory",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by distinguishing data (raw facts like \"______, R.",
+     "a": "101",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to define database and DBMS precisely, list at least four key characteristics of the database approach, explain the difference between data and information in this context, and describe the three main categories of DBMS users (end users, application programmers, database administrators) with their roles.",
+     "self_check": true
     }
    ]
   }

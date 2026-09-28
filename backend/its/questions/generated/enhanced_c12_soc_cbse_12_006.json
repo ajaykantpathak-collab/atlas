@@ -1,0 +1,71 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_12_006",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_12_006",
+   "title": "c12_soc_cbse_12_006",
+   "questions": [
+    {
+     "q": "Name the three major national trade union federations in India mentioned in the Class 12 NCERT curriculum and state the year each was founded.",
+     "a": "AITUC (All India Trade Union Congress) — 1920; INTUC (Indian National Trade Union Congress) — 1947; CITU (Centre of Indian Trade Unions) — 1970. A wrong answer (e.g., naming BMS or HMS instead of CITU, or swapping founding years) reveals the student is memorising acronyms without linking them to historical phases: AITUC emerges from early communist/nationalist labour mobilisation; INTUC from post-independence Congress consolidation; CITU from the 1964 CPI split and 1970 CPI(M) formation.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT text states: \"Very few people in India have access to secure jobs with benefits. Of those who do, two-thirds work for the government.\" Explain why this fact directly undermines trade union strength in the private organised sector.",
+     "a": "Secure jobs with benefits (pension, grievance redressal, legal protection) are concentrated in the public sector, where unions have institutionalised bargaining channels (e.g., Joint Consultative Machinery). In the private organised sector, liberalisation since 1991 has accelerated outsourcing, contract labour, and \"just-in-time\" production (as in the Maruti Udyog example), making permanent employment rare. Workers in precarious jobs fear victimisation if they unionise — the NCERT notes \"it is more difficult for trade unions to organise in smaller firms.\" A wrong answer that focuses only on \"anti-union laws\" misses the structural point: informalisation of even formal-sector work erodes the material basis for unionisation.",
+     "self_check": true
+    },
+    {
+     "q": "A factory employs 500 workers: 200 permanent, 200 contract (through a contractor), and 100 casual daily-wage. The permanent workers want to form a union. The contractor threatens to replace contract workers if they join. Using the concept of \"fragmentation of the workforce,\" explain why the union drive will likely fail even if permanent workers are supportive.",
+     "a": "The workforce is segmented into three tiers with divergent interests and vulnerabilities: (1) Permanent workers have job security and legal standing to unionise under the Trade Unions Act. (2) Contract workers are employed by the contractor, not the principal employer — their \"employer\" can terminate them without the factory's direct involvement, and the contractor controls their wages. (3) Casual workers have no continuity of employment. The contractor's threat exploits this legal fissure: contract workers cannot legally strike against the principal employer, and the contractor can blacklist them across sites. The NCERT describes this in the \"contractor system\" section: \"the loaned money is treated as an advance wage and the worker works without wages until the loan is repaid\" — debt bondage coexists with contractual fragmentation. A wrong answer that says \"all workers can join one union\" ignores the legal reality that the Trade Unions Act requires a common employer, which contract workers lack.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the political orientation of AITUC, INTUC, and CITU. How does each federation's party affiliation shape its strategy toward the state — collaboration, confrontation, or conditional cooperation? Give one historical example per federation.",
+     "a": "(1) AITUC — linked to the communist party, it swung between supporting provincial ministries in the late thirties and striking against the colonial state, later pursuing united-front pressure and conditional cooperation on labour legislation, (2) INTUC — founded by the Congress to anchor labour in the nationalist project, it works through tripartite institutions such as the Indian Labour Conference and avoids militant strikes that would embarrass Congress governments, as in the seventies layoff-protection amendment, (3) CITU — the Marxist party's class-struggle federation born in 1970, it rejects collaboration with the bourgeois state, mobilising general strikes and organising unorganised workers such as anganwadi and beedi workers, (4) The strategic map — legislative gains through state access for one, mass disruption for another, and united-front pressure for the third. A student who lumps all three together as left-wing unions misses this strategic divergence.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The decline of trade unions in India after 1991 is solely due to anti-labour policies of liberalisation.\" Use evidence from the NCERT text on informalisation, contract labour, and the changing nature of work.",
+     "a": "The statement is reductionist. Liberalisation accelerated decline but did not initiate it. NCERT evidence: (1) Pre-1991, only 24% of workers were in regular salaried employment; over 52% self-employed — unions never had a broad base. (2) The Bombay Textile Strike (1982) — pre-liberalisation — failed because mill owners refused to modernise, workers lost jobs, and the union (RMMS) was seen as compromised. (3) Post-1991, outsourcing and \"just-in-time\" production (Maruti example) fragmented the workforce further: permanent jobs shrank, contract labour rose, and \"it is more difficult for trade unions to organise in smaller firms.\" (4) The state withdrew from job creation: \"employment by the government was a major avenue for increasing well-being… but now even that is coming down.\" Unions declined because the social structure of work shifted from stable, large-factory employment to precarious, dispersed, informalised labour — a structural transformation that liberalisation intensified but did not create. A wrong answer blaming only \"neo-liberal policies\" ignores the pre-existing weakness documented in the 1972–2019 employment status chart.",
+     "self_check": true
+    },
+    {
+     "q": "Design a union organising strategy for home-based women bidi rollers in Nipani (Karnataka) described in the NCERT. Your strategy must address: (a) the piece-rate payment system, (b) the contractor's control over raw materials and product collection, (c) the workers' domestic responsibilities, and (d) the lack of a common workplace. Justify each element.",
+     "a": "(1) The form — a worker-producer cooperative rather than a union, since no single employer exists, and it bargains over piece rates while cutting out the contractor's margin, (2) The legal lever — petition the labour commissioner for statutory minimum piece rates under the scheduled-employment notification for bidi rolling, (3) The meeting space — piggyback meetings on self-help group gatherings the women already attend, since domestic time is scarce, (4) The tangible benefit — register members for life and disability cover under the unorganised workers' law so membership pays immediately, (5) The scale — federate across village clusters, because home-based work has no workplace and a federation creates bargaining mass. A poor answer proposes registering a union, which is legally impossible without an employer.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Trade unions in India are formal ______ of workers formed to protect and promote their collective interests — primarily wages, working conditions, job security, and social security — through collective bargaining, legal advocacy, and, when necessary, industrial action such as strikes.",
+     "a": "organisations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a textile worker in Mumbai's Girangaon in 1982 — you earn ₹300/month, work 12-hour shifts with no safety gear, and your ______ can fire you instantly.",
+     "a": "contractor",
+     "self_check": true
+    },
+    {
+     "q": "What is Trade unions in India? State the definition given in this lesson.",
+     "a": "Trade unions in India are formal organisations of workers formed to protect and promote their collective interests — primarily wages, working conditions, job security, and social security — through collective bargaining, legal advocacy, and, when necessary, industrial action such as strikes.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Why did ______ lakh workers risk starvation for nearly two years?",
+     "a": "2.5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Trade unions in India?",
+     "a": "Students conflate \"trade union\" with \"political party front\" and assume all unions are externally controlled.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) explain the historical trajectory of trade union formation in India from colonial period to post-liberalisation, linking each phase to changes in the political economy; (2) distinguish the ideological orientations and organisational strategies of AITUC, INTUC, and CITU with specific examples; (3) analyse why union.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

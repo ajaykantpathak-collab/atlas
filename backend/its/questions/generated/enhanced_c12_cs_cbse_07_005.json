@@ -34,6 +34,31 @@
      "q": "Create a Boolean expression with three variables (A, B, C) that evaluates to 1 **only** when exactly two of the three variables are 1. Write the expression and verify it with a truth table.",
      "a": "Expression: `A·B·C' + A·B'·C + A'·B·C`. Verification: For (1,1,0): first term = 1·1·1 = 1 → output 1. For (1,0,1): second term = 1·1·1 = 1 → output 1. For (0,1,1): third term = 1·1·1 = 1 → output 1. All other rows give 0. A poor answer might omit one product term, use OR incorrectly, or not verify all 8 rows — indicating the student hasn’t internalised that each row in a truth table is an independent check.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Boolean expression is a valid ______ of Boolean variables (e.g., A, B), Boolean constants (0/1 or False/True), and Boolean operators (AND, OR, NOT) that evaluates to a single Boolean value (0 or 1) when the variables are assigned specific values.",
+     "a": "combination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a smart‑home security system: the alarm triggers if (motion sensor ON AND it is night) OR (emergency button ______).",
+     "a": "pressed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by listing all possible combinations of M, N, E (______ rows).",
+     "a": "8",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Given any Boolean expression with up to 4 variables and mixed operators (including nested parentheses), the student must correctly evaluate it for all possible input combinations by constructing a complete truth table or by step‑by‑step substitution, respecting operator precedence and showing intermediate results for each sub‑expression.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a smart‑home security system: the alarm triggers if (motion sensor ON AND it is night) OR (______ button pressed).",
+     "a": "emergency",
+     "self_check": true
     }
    ]
   }

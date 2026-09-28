@@ -34,6 +34,26 @@
      "q": "Create a word problem based on a real-life Indian context (e.g., a triangular park, a piece of farmland, a roof tile) where the area of a triangle is found using the coordinate formula. The problem must require the student to first assign coordinates to the vertices based on the description, then compute the area. Provide the problem statement and the solution.",
      "a": "**Sample Problem:** A triangular community garden in a housing society in Delhi has corners at points A, B, and C. On the society map, corner A is at the gate (0,0), corner B is 10 m east and 0 m north of the gate (10,0), and corner C is 0 m east and 8 m north of the gate (0,8). Find the area of the garden. If grass sod costs ₹50 per sq m, find the total cost to cover the garden.\n**Solution:** Coordinates: A(0,0), B(10,0), C(0,8). Area = \\(\\frac{1}{2} |0(0-8) + 10(8-0) + 0(0-0)| = \\frac{1}{2} |80| = 40\\) sq m. Cost = \\(40 \\times 50 = ₹2000\\).\nA poor answer would be a problem that doesn't require coordinate assignment (e.g., directly gives coordinates) or uses base-height method without justifying coordinates. It shows inability to translate a physical scenario into a coordinate geometry problem.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of this formula include calculating the area when coordinates are known, finding a missing coordinate when the area is given, determining if three points are collinear (area = 0), and solving real-world problems involving triangular regions on a coordinate plane.",
+     "a": "Applications",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer in Punjab has a ______ plot of land.",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Applications of this formula include calculating the area when coordinates are known, finding a missing coordinate when the area is given, determining if three points are collinear (area = ______), and solving real-world problems involving triangular regions on a coordinate plane.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can solve multi-step problems using the coordinate geometry area formula, including finding the area of a triangle from given vertices, determining an unknown coordinate when the area is specified, and applying the concept to real-life scenarios such as calculating land area or fencing costs.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Design a real-world scenario where you would convert a dictionary to a list of tuples, then to a set, then back to a dictionary. Explain why each conversion is necessary in your scenario.",
      "a": "Scenario: A voting system stores `votes = {\"Alice\": 120, \"Bob\": 95, \"Charlie\": 120}`. Step 1: `list(votes.items())` → `[('Alice',120), ('Bob',95), ('Charlie',120)]` to allow sorting by vote count. Step 2: `set(...)` → `{('Alice',120), ('Bob',95), ('Charlie',120)}` to remove duplicate vote-count pairs (if any). Step 3: `dict(...)` → back to dictionary for O(1) candidate lookup. A poor answer that omits the purpose of each step (e.g., \"just to practice\") reveals lack of understanding of the computational trade-offs each structure offers.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Converting between data structures in Python refers to transforming data from one built-in collection type (list, tuple, set, dictionary, string) to another using constructor functions (e.g., list(), tuple(), set(), dict()) or ______, preserving or restructuring the underlying data as required by the problem context.",
+     "a": "comprehensions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a list of student roll numbers collected from multiple class registers, and you need to: (1) remove ______, (2) sort them, (3) assign each a unique index for a dictionary lookup, and (4) finally store them in an immutable record for the school archive.",
+     "a": "duplicates",
+     "self_check": true
+    },
+    {
+     "q": "What is Converting between data structures in Python? State the definition given in this lesson.",
+     "a": "Converting between data structures in Python refers to transforming data from one built-in collection type (list, tuple, set, dictionary, string) to another using constructor functions (e.g., list(), tuple(), set(), dict()) or comprehensions, preserving or restructuring the underlying data as required by the problem context.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: \"Which structure gives O(______) key-based access?\" → dict.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Converting between data structures in Python?",
+     "a": "Students often believe that converting a list to a dictionary using dict(my_list) works directly if the list contains alternating keys and values (e.g., ['a', 1, 'b', 2]).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write correct Python code to convert among lists, tuples, sets, dictionaries, and strings for a given scenario, explain the effect of each conversion (e.g., duplicate removal, ordering, key-value pairing), and choose the appropriate target structure for a specified operation (e.g., fast membership test → set, immutable.",
+     "self_check": true
     }
    ]
   }

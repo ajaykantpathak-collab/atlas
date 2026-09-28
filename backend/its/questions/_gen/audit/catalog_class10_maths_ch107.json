@@ -315,11 +315,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "dx = 17 - 5",
-    "dy = 10 - -6",
-    "dist = sqrt(dx * dx + dy * dy)"
-   ]
+   "steps_chain": []
   },
   {
    "id": "jemh.7.8",
@@ -408,9 +404,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "adj = 180 - 80"
-   ]
+   "steps_chain": []
   }
  ]
 }

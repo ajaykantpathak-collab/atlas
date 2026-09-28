@@ -34,6 +34,21 @@
      "q": "Design a simple dichotomous key using only body cavity type, digestive tract completeness, and segmentation to separate Platyhelminthes, Aschelminthes, and Annelida.",
      "a": "Expected answer: \n1a. Body cavity absent (acoelomate) → Platyhelminthes\n1b. Body cavity present → go to 2\n2a. Body cavity true coelom (mesoderm-lined), segmented → Annelida\n2b. Body cavity pseudocoelom (not mesoderm-lined), unsegmented → Aschelminthes\nA poor answer (e.g., using symmetry or cephalization) shows the student cannot prioritize the three key classificatory characters emphasized in NCERT for these phyla.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Phylum Aschelminthes (______) comprises bilaterally symmetrical, triploblastic, pseudocoelomate animals with organ-system level of organisation, a complete alimentary canal with a muscular pharynx, an excretory tube opening via an excretory pore, and separate sexes (dioecious) with internal fertilisation.",
+     "a": "Nemathelminthes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a child in a rural Indian village receiving a deworming tablet (Albendazole) during a school health camp – the target is often *Ascaris ______*, a roundworm.",
+     "a": "lumbricoides",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can list all diagnostic features of Aschelminthes, differentiate them from Platyhelminthes (acoelomate, incomplete gut) and Annelida (true coelomate, segmented) using a comparison table, and identify Ascaris, Wuchereria, and Ancylostoma as parasitic examples with their specific disease associations.",
+     "self_check": true
     }
    ]
   }

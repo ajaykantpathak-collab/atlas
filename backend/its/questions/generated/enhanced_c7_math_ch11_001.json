@@ -34,6 +34,31 @@
      "q": "Create a pair of numbers between 10 and 30 that share exactly three common factors. Show your work.",
      "a": "An example pair is 12 and 18. Factors of 12 are 1, 2, 3, 4, 6, 12. Factors of 18 are 1, 2, 3, 6, 9, 18. Their common factors are 1, 2, 3, and 6 (which is four common factors). Let's try 8 and 12: Factors of 8: 1, 2, 4, 8. Factors of 12: 1, 2, 3, 4, 6, 12. Common factors: 1, 2, 4 (exactly three). A poor answer lists numbers with random factors without verifying the count.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Common factors of two numbers are the whole numbers that divide both given numbers exactly without leaving any ______.",
+     "a": "remainder",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are organizing a school sports ______ and have 12 red flags and 18 blue flags.",
+     "a": "event",
+     "self_check": true
+    },
+    {
+     "q": "What is Common factors of two numbers? State the definition given in this lesson.",
+     "a": "Common factors of two numbers are the whole numbers that divide both given numbers exactly without leaving any remainder.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Common factors of two numbers?",
+     "a": "Students often confuse common factors with common multiples, listing numbers that are larger than the given numbers instead of smaller divisors.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can list all individual factors of two separate numbers, compare the two lists to identify matching numbers, and correctly state the common factors with 100% accuracy.",
+     "self_check": true
     }
    ]
   }

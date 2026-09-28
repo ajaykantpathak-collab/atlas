@@ -34,6 +34,31 @@
      "q": "Design a 3-point field identification key that a forester could use in April to distinguish a Moist Deciduous stand from a Dry Deciduous stand without measuring rainfall, using only visible traits (canopy, bark, leaf litter, species).",
      "a": "Key:  \n1. **Canopy closure in April**: Moist = 40–60% foliage retained (some evergreen admixture); Dry = <10% foliage, bare branches dominant.  \n2. **Bark texture of dominant trees**: Sal (Moist) — thick, deeply fissured, dark grey; Axlewood/Teak (Dry) — smoother, pale, exfoliating in thin flakes.  \n3. **Leaf litter depth & composition**: Moist — thick (5–8 cm), broad sal/teak leaves decomposing slowly; Dry — thin (1–2 cm), small axlewood/tendu leaves, rapid decomposition.  \nPoor answer (e.g., \"count teak trees\") fails because teak occurs in both; the key must use traits that **diverge** at the 100 cm threshold.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Tropical Deciduous Forests are the most widespread forest type in India, occurring in regions receiving 70–200 cm annual rainfall with a distinct dry season, where trees shed leaves for 6–8 weeks during summer (March–May) to conserve moisture; they are classified into Moist Deciduous (100–200 cm rainfall, dominated by teak, sal, shisham) and Dry Deciduous (70–100 cm rainfall, dominated by teak, axlewood, tendu) based on rainfall threshold and species ______.",
+     "a": "composition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the teak furniture in your home or the sal trees lining a highway in ______ — both come from forests that stand leafless in April, yet one grows where rainfall exceeds 150 cm and the other survives on 80 cm.",
+     "a": "Jharkhand",
+     "self_check": true
+    },
+    {
+     "q": "What is Tropical Deciduous Forests? State the definition given in this lesson.",
+     "a": "Tropical Deciduous Forests are the most widespread forest type in India, occurring in regions receiving 70–200 cm annual rainfall with a distinct dry season, where trees shed leaves for 6–8 weeks during summer (March–May) to conserve moisture; they are classified into Moist Deciduous (100–200 cm rainfall, dominated by teak, sal, shisham).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Tropical Deciduous Forests?",
+     "a": "Students believe \"all deciduous forests shed leaves in winter\" because they transfer the temperate pattern (Class 9: \"trees shed leaves in autumn\") to the tropics.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can differentiate Moist and Dry Deciduous forests using rainfall thresholds (100 cm and 70 cm), identify their characteristic species (sal vs. axlewood), locate their distribution on an outline map of India (Chotanagpur plateau vs. rain shadow Deccan), and explain the physiological adaptation of leaf-shedding in relation to.",
+     "self_check": true
     }
    ]
   }

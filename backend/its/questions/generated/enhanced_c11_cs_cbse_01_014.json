@@ -34,6 +34,31 @@
      "q": "Create a real-world scenario (Indian context) involving three conditions that requires a Boolean expression. Write the expression, then simplify it using De Morgan's Laws and at least two other Boolean laws. Show the simplified expression and explain what it means in your scenario.",
      "a": "Scenario: A student gets a scholarship if (marks ≥ 90% AND family income < ₹2L) OR (sports quota AND family income < ₹5L). Let M=marks≥90, I2=income<2L, S=sports, I5=income<5L. Expression: F = (M·I2) + (S·I5). Note I2 implies I5 (if income<2L then income<5L), so I2 = I2·I5. Simplify: F = M·I2 + S·I5 = I2·M + I5·S. Using absorption: since I2 implies I5, the term M·I2 is covered when I2=1. Actually, a better simplification: F = (M + S)·(I2 + I5)? No, distributive doesn't work that way directly. Let's use consensus: F = M·I2 + S·I5. If we assume I2 ⇒ I5, then I2 = I2·I5. Then F = M·I2·I5 + S·I5 = I5·(M·I2 + S). A good answer shows correct application of laws and a valid scenario. A poor answer (e.g., expression doesn't match scenario, or simplification uses arithmetic cancellation) reveals inability to map real-world logic to Boolean variables or misuse of laws.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Boolean Algebra is a ______ system for logical reasoning where variables take only two values: TRUE (1) or FALSE (0).",
+     "a": "mathematical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a smart home ______: the AC turns on ONLY if (temperature > 25°C) AND (someone is home) OR (manual override is ON).",
+     "a": "system",
+     "self_check": true
+    },
+    {
+     "q": "What is Boolean Algebra? State the definition given in this lesson.",
+     "a": "Boolean Algebra is a mathematical system for logical reasoning where variables take only two values: TRUE (1) or FALSE (0).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Boolean Algebra?",
+     "a": "Students often treat the '+' operator as arithmetic addition and '·' as multiplication, leading to errors like \"A + A = 2A\" or \"A' = 1/A\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to construct truth tables for any Boolean expression with up to 3 variables, simplify expressions using Boolean laws (including De Morgan's), and prove equivalences algebraically or via truth tables without errors.",
+     "self_check": true
     }
    ]
   }

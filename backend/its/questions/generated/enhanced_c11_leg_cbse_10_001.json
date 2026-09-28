@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_10_001",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_10_001",
+   "title": "c11_leg_cbse_10_001",
+   "questions": [
+    {
+     "q": "What is the exact legal definition of 'cybersecurity' under Section 2(nb) of the Information Technology Act, 2000 (as amended in 2008)?",
+     "a": "**Correct Answer:** \"Protecting information, equipment, devices, computers, computer resources, communication devices and information stored therein from unauthorised access, use, disclosure, disruption, modification or destruction.\"  \n**Misconception Revealed:** If a student defines it only as \"preventing hacking\" or \"installing antivirus,\" they confuse the **statutory definition** (which is broad, covering *integrity, availability, and confidentiality* across devices and data) with a **technical security practice**. The Act's definition is legally operative—it determines what the government can mandate under Section 69B (monitoring) and what intermediaries must report under Section 70B.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the IT Act, 2000 applies to a hacker sitting in Country X who breaches a server located in Mumbai, even if the hacker is not an Indian citizen.",
+     "a": "**Correct Answer:** Section 1(2) read with Section 75 of the IT Act extends its provisions to **any offence or contravention committed outside India by any person**, provided the act involves a **computer, computer system, or computer network located in India**. Nationality of the offender is irrelevant; the *location of the target infrastructure* triggers jurisdiction.  \n**Misconception Revealed:** A student who says \"it applies only if the hacker is Indian\" or \"only if the victim is Indian\" misses the **territorial nexus principle**—the law protects *infrastructure within India*, not just Indian citizens. This is a classic confusion between *personal jurisdiction* (who did it) and *subject-matter jurisdiction* (what was affected).",
+     "self_check": true
+    },
+    {
+     "q": "A 17-year-old student creates a fake Instagram profile of a classmate, posts morphed obscene images, and sends the link to 50 peers. The victim suffers severe anxiety and misses school for two weeks. Identify the **specific categories of cybercrime** (from the textbook's classification) this act falls under, and cite **one specific section of the IT Act** (post-2008 amendment) that can be invoked.",
+     "a": "**Correct Answer:**  \n**Categories:** (1) Cybercrime against **person** — cyber harassment, cyber bullying, and transmission of obscene material (child pornography provisions may apply if victim is minor); (2) Cybercrime against **property** — unauthorized use of identity/data (intellectual property/privacy violation).  \n**Specific Section:** **Section 66E** (violation of privacy — capturing/publishing private images without consent) and **Section 67/67A/67B** (publishing/transmitting obscene/sexually explicit material, including child sexual abuse material).  \n**Misconception Revealed:** If the student only says \"cyber bullying\" or \"hacking,\" they fail to **map the factual matrix to statutory categories**. The act is *not* hacking (no unauthorized access to a system); it is *content-based harm* using a platform. This tests the ability to classify crimes by **legal ingredient**, not colloquial label.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the **scope of 'cybercrime' definition** in the IT Act, 2000 vs. the National Cyber Crime Reporting Portal (NCCRP). Why does this gap matter for a victim filing an FIR?",
+     "a": "**Correct Answer:** The **IT Act, 2000 does not define 'cybercrime' at all**—it only lists specific offences (Sections 43, 65-74). The **NCCRP defines it broadly** as \"any unlawful act where a computer/communication device/network is used to commit or facilitate crime.\"  \n**Why it matters:** An FIR under the IT Act requires fitting the act into a *specific section* (e.g., Sec 66C for identity theft). If the conduct is novel (e.g., deepfake revenge porn not explicitly listed), police may refuse FIR saying \"no section applies.\" The NCCRP definition helps victims **persuade police to register FIR under IPC/IT Act residually** by showing the *computer-facilitated nature* of the crime.  \n**Misconception Revealed:** Students often assume the IT Act *has* a definition clause for \"cybercrime.\" This gap tests whether they understand **statutory silence vs. administrative definition** and its procedural impact on *access to justice*.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"Striking down Section 66A in *Shreya Singhal* (2015) left a legislative vacuum for online hate speech and harassment. Parliament should immediately enact a replacement with narrowly defined terms.\" Defend or oppose with **two constitutional arguments**.",
+     "a": "**Correct Answer (Oppose with nuance):**  \n**Argument 1 (Against immediate replacement):** The **vagueness doctrine** (Article 14 + 19) requires *precision* in penal laws. Section 66A failed because \"grossly offensive\" and \"menacing\" had *no objective standard*—any replacement risks the same flaw unless it uses *specific, narrowly tailored language* (e.g., \"incitement to imminent violence\" per *Brandenburg* test). Rushing a replacement without judicial pre-screening repeats the constitutional defect.  \n**Argument 2 (Existing remedies suffice):** **IPC Sections 153A, 295A, 505, 506, 509** and **IT Act Sections 66C, 66D, 67, 67A** already cover hate speech, harassment, and obscenity *with defined ingredients*. The vacuum is *enforcement*, not legislation.  \n**Misconception Revealed:** A student who says \"yes, we need a new law immediately\" confuses **legislative gap** with **enforcement gap**. They miss that *over-breadth* and *chilling effect* are constitutional bars—Parliament *cannot* simply \"define terms narrowly\" if the core intent is to police *offensiveness* rather than *harm*.",
+     "self_check": true
+    },
+    {
+     "q": "Design a **one-page \"Cyber Safety Charter\" for your school** that translates the IT Act's key protections (Sections 66E, 67B, 70B, 79) into **student-friendly rules** for: (a) sharing photos, (b) reporting suspicious links, (c) teacher responsibilities for student data. Include **one consequence** for violation that is *educational*, not punitive.",
+     "a": "**Expected Answer Criteria:**  \n- **Sharing photos:** \"No forwarding/classmate photos without written consent — violates Sec 66E (privacy) & Sec 67B (if minor).\"  \n- **Suspicious links:** \"Report to IT teacher + NCCRP portal (cybercrime.gov.in) — triggers Sec 70B (CERT-In) duty.\"  \n- **Teacher data duty:** \"Encrypt grade sheets; no WhatsApp groups for marks — Sec 79 intermediary liability + Sec 43A (reasonable security).\"  \n- **Educational consequence:** \"Violator attends a 2-hour peer-led workshop on digital footprint + writes a reflection essay on *Shreya Singhal*.\"  \n**Poor Answer Reveals:** Listing \"suspension\" or \"police complaint\" as consequence shows **misalignment with juvenile justice philosophy** (reform > punishment). Missing Sec 79/43A shows **ignorance of intermediary/data-protector duties**—treating teachers as mere users, not data fiduciaries.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

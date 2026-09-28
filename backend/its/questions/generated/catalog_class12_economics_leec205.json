@@ -1,34 +1,50 @@
 {
- "catalog": "catalog_class12_economics_leec205",
+ "catalog": "catalog_class12_economics_leec205.json",
  "concepts": [
   {
    "id": "leec.205.1.1",
    "title": "Market Equilibrium: Equilibrium Price and Quantity",
+   "converted_to_compute": true,
+   "formula": "equilibrium_price = price_gap / slope_sum",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "equilibrium_price = price_gap / slope_sum",
+     "compute": "equilibrium_price = price_gap / slope_sum"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Market Equilibrium: Equilibrium Price and Quantity', work with: demand_intercept = 100, demand_slope = 3, supply_intercept = 240, supply_slope = 120. Carry the chain through step by step and give the final value of equilibrium_quantity.",
-     "a": "103.4146 units",
+     "q": "For Market Equilibrium: Equilibrium Price and Quantity: given price_gap = 35, slope_sum = 37, find equilibrium price.",
+     "a": "0.945946",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Market Equilibrium: Equilibrium Price and Quantity' and work with: demand_intercept = 8, demand_slope = 300, supply_intercept = 3, supply_slope = 150. Carry the chain through step by step and give the final value of equilibrium_quantity.",
-     "a": "4.6667 units",
+     "q": "For Market Equilibrium: Equilibrium Price and Quantity: given price_gap = 98, slope_sum = 39, find equilibrium price.",
+     "a": "2.51282",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Market Equilibrium: Equilibrium Price and Quantity' refers to.",
-     "a": "A competitive market is in equilibrium where the quantity all buyers plan to purchase equals the quantity all firms plan to sell, so the market clears; for straight-line demand and supply curves the clearing price is found by solving the two equations together.",
-     "self_check": true
+     "q": "For Market Equilibrium: Equilibrium Price and Quantity: given price_gap = 95, slope_sum = 79, find equilibrium price.",
+     "a": "1.20253",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Market Equilibrium: Equilibrium Price and Quantity'.",
-     "a": "One price reconciles the plans of every buyer and seller, and the quantity traded there is the equilibrium quantity.",
-     "self_check": true
+     "q": "For Market Equilibrium: Equilibrium Price and Quantity: given price_gap = 83, slope_sum = 51, find equilibrium price.",
+     "a": "1.62745",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Market Equilibrium: Equilibrium Price and Quantity', in plain ASCII form.",
-     "a": "equilibrium_price = price_gap / slope_sum",
-     "self_check": true
+     "q": "For Market Equilibrium: Equilibrium Price and Quantity: given price_gap = 61, slope_sum = 50, find equilibrium price.",
+     "a": "1.22",
+     "self_check": false
+    },
+    {
+     "q": "For Market Equilibrium: Equilibrium Price and Quantity: given price_gap = 41, slope_sum = 86, find equilibrium price.",
+     "a": "0.476744",
+     "self_check": false
     }
    ]
   },

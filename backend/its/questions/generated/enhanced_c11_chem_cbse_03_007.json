@@ -34,6 +34,31 @@
      "q": "Design a thought experiment using X-ray diffraction data of three alkali halides (LiF, NaCl, KBr) to estimate the ionic radii of Li⁺, Na⁺, K⁺, F⁻, Cl⁻, Br⁻, assuming the sum of cation and anion radii equals the measured internuclear distance. What additional assumption is needed to separate the individual radii?",
      "a": "Measure internuclear distances: d(LiF), d(NaCl), d(KBr). Assume r(Li⁺) + r(F⁻) = d(LiF), etc. To separate individual radii, assume one radius is known from a compound with a large, weakly polarising cation (e.g., assume r(I⁻) from KI or use Pauling's assumption that r(Na⁺) ≈ 95 pm based on NaF crystal). A poor answer (e.g., \"just divide by 2\") reveals the student does not understand that internuclear distance is a sum of two unknowns requiring an external reference.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ionic radius is the effective distance from the nucleus of an ion to the outermost electron cloud, estimated from ______ distances in ionic crystals; it decreases for cations (loss of electrons reduces electron-electron repulsion and increases effective nuclear charge per electron) and increases for anions (gain of electrons increases repulsion and decreases effective nuclear charge per electron) relative to the parent atom.",
+     "a": "internuclear",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe table salt (NaCl) ______ under a magnifying glass — the regular cubic shape arises from Na⁺ and Cl⁻ ions packing in a fixed ratio dictated by their sizes.",
+     "a": "crystals",
+     "self_check": true
+    },
+    {
+     "q": "What is Ionic radius? State the definition given in this lesson.",
+     "a": "Ionic radius is the effective distance from the nucleus of an ion to the outermost electron cloud, estimated from internuclear distances in ionic crystals; it decreases for cations (loss of electrons reduces electron-electron repulsion and increases effective nuclear charge per electron) and increases for anions (gain of electrons.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Ionic radius?",
+     "a": "Students often apply neutral-atom periodic trends to ions: they think \"Na⁺ is in Period 3, so it's larger than F⁻ in Period 2\" or \"Mg²⁺ is larger than Na⁺ because Mg is to the right of Na.\" The exact error is ignoring that ionic radius depends on electron count and nuclear charge *of the ion*, not the parent atom's position.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can quantitatively compare ionic radii across isoelectronic series and periodic trends, justify size differences using effective nuclear charge and electron-electron repulsion arguments, and predict relative sizes of ions in crystal lattice problems.",
+     "self_check": true
     }
    ]
   }

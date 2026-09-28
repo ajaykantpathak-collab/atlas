@@ -34,6 +34,26 @@
      "q": "Create a small dataset (at least 4 items) where the simple aggregative price index and the simple average of price relatives index differ by more than 5 index points. Show both calculations.",
      "a": "Example: Item1: P0=100, P1=120; Item2: P0=10, P1=15; Item3: P0=50, P1=55; Item4: P0=200, P1=210.\nSimple aggregative: ΣP0=360, ΣP1=400 → index = 111.11.\nRelatives: 120, 150, 110, 105 → mean = 121.25.\nDifference ≈ 10.14 points. A poor answer would use items with similar price levels, yielding a small difference, indicating the student does not grasp how price dispersion drives the divergence.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A simple index number measures the average relative change in a variable (price or quantity) of a group of items over time, without assigning weights to ______ items.",
+     "a": "individual",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are tracking the prices of five ______ grocery items (rice, wheat, milk, oil, sugar) over two years to see how much your monthly grocery bill has changed.",
+     "a": "essential",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It is computed either by the simple aggregative method (ratio of sums of current and base period values multiplied by ______) or by the simple average of relatives method (arithmetic mean of individual price/quantity relatives, each expressed as a percentage of the base period value).",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently compute both price and quantity index numbers using the simple aggregative method and the simple average of relatives method for a given dataset, and interpret the resulting index number as a percentage change relative to the base period.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Create a classification table for these 6 resources showing all four categories each resource could belong to in different contexts: (1) A bicycle, (2) Solar energy, (3) A textbook, (4) A village pond, (5) Medical knowledge, (6) A public library building.",
      "a": "Good answer shows context-dependent classification for each:\n(1) Bicycle: Individual (your personal cycle), Shared (family cycle), Community (city bike-sharing scheme), Natural (never).\n(2) Solar energy: Natural (sunlight), Individual (your rooftop panel), Shared (apartment building solar array), Community (government solar grid).\n(3) Textbook: Individual (your copy), Shared (shared with sibling), Community (school library copy), Natural (never).\n(4) Village pond: Natural (rain-fed), Shared (villagers use informally), Community (panchayat maintains/regulates), Individual (never).\n(5) Medical knowledge: Individual (doctor's expertise), Shared (family health tips), Community (government health guidelines), Natural (never).\n(6) Public library: Community (government-run), Shared (reading room used by many), Individual (never), Natural (never).\nPoor answer assigns only one category per resource, missing the context-dependency central to this topic.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Resources are classified based on ownership and ______ into four categories: Individual resources are owned and used exclusively by one person (e.g., personal skills, clothing); Shared resources are used by multiple people but not necessarily the whole community (e.g., family car, shared textbook); Natural resources exist in nature without human creation and are universally accessible (e.g., air, sunlight, rivers); Community resources are human-made or managed facilities/services provided by governing bodies for public use (e.g., public parks, government hospitals, roads).",
+     "a": "accessibility",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family decides to install a rooftop ______ harvesting system.",
+     "a": "rainwater",
+     "self_check": true
+    },
+    {
+     "q": "What is Resources? State the definition given in this lesson.",
+     "a": "Resources are classified based on ownership and accessibility into four categories: Individual resources are owned and used exclusively by one person (e.g., personal skills, clothing); Shared resources are used by multiple people but not necessarily the whole community (e.g., family car, shared textbook); Natural resources exist in.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by listing everything your family uses daily: your mother's recipe knowledge, the family car, the neighborhood park, the river ______ km away, the government hospital.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Resources?",
+     "a": "Students believe \"shared\" and \"community\" are interchangeable because both involve multiple users.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify any given resource into all four categories with justification, explain how a single resource (e.g., water) can shift categories based on context (river water vs. tap water), and distinguish between shared and community resources using ownership and management criteria.",
+     "self_check": true
     }
    ]
   }

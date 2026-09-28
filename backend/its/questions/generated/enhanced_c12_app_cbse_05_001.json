@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_05_001",
+   "title": "c12_app_cbse_05_001",
+   "questions": [
+    {
+     "q": "Which of the following is an ordinary differential equation?\n(A) ∂u/∂t = α ∂²u/∂x²\n(B) dy/dx + y = e^x\n(C) ∂²z/∂x² + ∂²z/∂y² = 0\n(D) dz/dx = ∂z/∂y + x",
+     "a": "Correct answer: (B) dy/dx + y = e^x. This is an ordinary differential equation because it involves derivatives of the dependent variable y with respect to only one independent variable x. Options (A), (C), and (D) involve partial derivatives with respect to multiple independent variables, making them partial differential equations. A wrong answer reveals the student cannot distinguish between ordinary and partial differential equations — a critical classification tested in both board and competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the equation d²y/dx² + 3(dy/dx)² = sin x has degree 1, while the equation (d²y/dx²)³ + dy/dx = x has degree 3. What condition must be satisfied for degree to be defined?",
+     "a": "Correct explanation: Degree is defined only when the differential equation is a polynomial in its derivatives. In the first equation, the highest order derivative is d²y/dx² (order 2) and it appears with power 1 (since (dy/dx)² is a lower-order derivative squared), so degree = 1. In the second, the highest order derivative d²y/dx² appears with power 3, so degree = 3. The condition: the equation must be expressible as a polynomial in derivatives with no fractional powers, transcendental functions of derivatives (like sin(dy/dx)), or derivatives in denominators. A wrong answer reveals the student confuses \"power of highest derivative\" with \"highest power anywhere in the equation\" or doesn't know the polynomial prerequisite for degree.",
+     "self_check": true
+    },
+    {
+     "q": "Verify that y = 3e^(2x) + 4e^(-x) is a solution of the differential equation d²y/dx² - dy/dx - 2y = 0. Show all steps of differentiation and substitution.",
+     "a": "Step 1: y = 3e^(2x) + 4e^(-x)\nStep 2: dy/dx = 6e^(2x) - 4e^(-x)\nStep 3: d²y/dx² = 12e^(2x) + 4e^(-x)\nStep 4: LHS = (12e^(2x) + 4e^(-x)) - (6e^(2x) - 4e^(-x)) - 2(3e^(2x) + 4e^(-x))\n= 12e^(2x) + 4e^(-x) - 6e^(2x) + 4e^(-x) - 6e^(2x) - 8e^(-x)\n= (12-6-6)e^(2x) + (4+4-8)e^(-x) = 0 = RHS.\nA wrong answer (e.g., sign error in differentiation of e^(-x), or forgetting to multiply the -2 across both terms) reveals poor algebraic manipulation or misunderstanding that verification requires the equation to hold identically for all x.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the general solution and particular solution of a second-order differential equation. If the general solution is y = C₁e^x + C₂e^(-x), how many initial conditions are needed to obtain a particular solution? What would those conditions typically specify?",
+     "a": "A second-order differential equation has a general solution with 2 arbitrary constants (C₁, C₂). To obtain a particular solution, exactly 2 initial/boundary conditions are needed — typically the value of y and dy/dx at a specific x (e.g., y(0)=5, y'(0)=3), or values of y at two points (e.g., y(0)=5, y(1)=2). These conditions allow solving for C₁ and C₂ uniquely. A wrong answer (e.g., \"1 condition\" or \"conditions on C₁, C₂ directly\") reveals confusion between the number of arbitrary constants and the order, or misunderstanding that initial conditions apply to the function and its derivatives, not the constants.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The differential equation dy/dx = y² has degree 2 because y is squared.\" Evaluate this claim. Is the student correct? Justify your answer with the precise definition of degree.",
+     "a": "The student is incorrect. The degree of a differential equation is the highest power of the highest order derivative when the equation is a polynomial in its derivatives. Here, the highest order derivative is dy/dx (order 1), and it appears with power 1. The term y² is the dependent variable squared, not a derivative. Degree = 1. The student's error: confusing the dependent variable with its derivative — a very common trap in board MCQs and JEE objective questions. The correct reasoning: identify the highest derivative first, then check its power.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own example of a first-order, first-degree differential equation that is NOT separable, and explain why it cannot be solved by simple integration (Case 1 or 2 from NCERT). Then suggest what method might be needed (preview of later nodes).",
+     "a": "Example: dy/dx + y = x (or dy/dx = x - y). This is first-order (highest derivative dy/dx) and first-degree (power of dy/dx is 1). It is not separable because we cannot write it as dy = f(x)dx or dy/dx = g(y) — the variables x and y are mixed additively. Simple integration (Cases 1 & 2) works only when the equation is directly integrable (dy/dx = f(x)) or separable (dy/dx = f(x)g(y)). This equation requires the integrating factor method for linear first-order ODEs (covered later). A poor answer (e.g., giving a separable equation, or saying \"it's not integrable\" without explaining variable mixing) reveals the student hasn't internalized the classification of solvable types.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

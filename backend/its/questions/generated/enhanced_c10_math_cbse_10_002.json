@@ -34,6 +34,21 @@
      "q": "Create a real-world scenario (Indian context) where distinguishing between a secant and a tangent is practically important. Describe the situation and explain what would go wrong if the two were confused.",
      "a": "**Scenario:** Designing a circular railway track (circle) and a straight crossing road (line). If the road is a **tangent**, it touches the track at one point — a level crossing is needed. If the road is a **secant**, it cuts across the track at two points — two crossings or a bridge/tunnel is required. Confusing them leads to building only one crossing when two are needed, causing accidents.  \n**Poor answer reveals:** If the student gives a vague example like \"a ball hitting a wall\" without specifying the geometric consequence, they cannot translate abstract geometry to engineering decisions. Board exams often ask case-study questions requiring such translation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A secant is a line that ______ a circle at exactly two distinct points, while a tangent is a line that touches the circle at exactly one point (called the point of contact).",
+     "a": "intersects",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a bicycle wheel (circle) leaning against a ______ wall (line).",
+     "a": "straight",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify a given line as a secant, tangent, or neither based on its intersection with a circle; explain the limiting-case relationship between secant and tangent; and determine the number of tangents/secants possible from a given point relative to the circle.",
+     "self_check": true
     }
    ]
   }

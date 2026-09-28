@@ -34,6 +34,36 @@
      "q": "Design a GIS workflow to identify optimal locations for new public toilets in a municipal ward using these data layers: slum settlements (polygon), existing toilets (point), road network (line), and ward boundary (polygon). Constraints: (i) within 200 m of slum clusters, (ii) on road frontage, (iii) not within 100 m of existing toilets, (iv) inside ward boundary. List tools, order, and key parameters.",
      "a": "1. Buffer slum settlements by 200 m → slum_buffer_200m (polygon). 2. Buffer existing toilets by 100 m → toilet_buffer_100m (polygon). 3. Erase (Difference) slum_buffer_200m minus toilet_buffer_100m → candidate_zone (polygon). 4. Intersect candidate_zone with ward boundary → candidate_zone_ward (polygon). 5. Convert road network lines to a 10 m buffer → road_frontage (polygon). 6. Intersect candidate_zone_ward with road_frontage → final_sites (polygon). 7. Convert final_sites polygons to centroids → candidate_points (point). A poor answer omits the erase step (constraint iii), uses Euclidean distance for road frontage instead of line buffer, or forgets to clip to ward boundary, revealing weak logical sequencing of spatial operators.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Spatial data analysis in GIS refers to the set of geo-processing operations — overlay analysis, buffer analysis, and network analysis — that integrate multiple spatial data layers and their attribute tables to derive new spatial information, answer proximity questions, and solve routing or connectivity problems on a ______ referenced database.",
+     "a": "geographically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a planner for the Delhi Metro Rail ______ and must decide where to place a new station so it serves the maximum number of residential colonies within 1 km, avoids flood-prone zones, and connects efficiently to the existing rail network.",
+     "a": "Corporation",
+     "self_check": true
+    },
+    {
+     "q": "What is Spatial data analysis in GIS? State the definition given in this lesson.",
+     "a": "Spatial data analysis in GIS refers to the set of geo-processing operations — overlay analysis, buffer analysis, and network analysis — that integrate multiple spatial data layers and their attribute tables to derive new spatial information, answer proximity questions, and solve routing or connectivity problems on a geographically.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a planner for the Delhi Metro Rail Corporation and must decide where to place a new station so it serves the maximum number of residential colonies within ______ km, avoids flood-prone zones, and connects efficiently to the existing rail network.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Spatial data analysis in GIS?",
+     "a": "Students often believe that “overlay” and “buffer” are interchangeable because both combine spatial layers.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) design a multi-step overlay workflow to detect land-use change between two time periods, (2) compute buffer zones of specified distances around point/line/polygon features and interpret the resulting proximity polygons, and (3) explain how network analysis uses topology (nodes, edges, impedance) to find shortest paths.",
+     "self_check": true
     }
    ]
   }

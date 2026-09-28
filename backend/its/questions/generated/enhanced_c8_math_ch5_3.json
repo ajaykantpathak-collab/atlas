@@ -34,6 +34,31 @@
      "q": "Create a word problem (in an Indian context, e.g., rupees, marbles, books) that requires finding two consecutive numbers that add up to a given odd number. Provide the solution.",
      "a": "Example: \"Priya has 31 chocolates. She wants to give them to her two brothers such that the elder gets one more than the younger. How many does each get?\" Solution: Let younger get \\(x\\), elder gets \\(x+1\\). \\(x+x+1=31 \\Rightarrow 2x=30 \\Rightarrow x=15\\). Younger gets 15, elder gets 16. A poor answer (e.g., a problem that doesn't match the structure, or an incorrect solution) reveals the student cannot construct a situation that maps to the mathematical model \\(x + (x+1) = \\text{odd}\\).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An odd number can always be expressed as the sum of two ______ integers.",
+     "a": "consecutive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine Rohan has 11 ______ and wants to split them into two piles such that one pile has exactly one more marble than the other.",
+     "a": "marbles",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine Rohan has ______ marbles and wants to split them into two piles such that one pile has exactly one more marble than the other.",
+     "a": "11",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why any odd number greater than 1 can be written as the sum of two consecutive positive integers, and can find the two consecutive numbers for a given odd number (and vice versa) using algebraic reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ Rohan has 11 marbles and wants to split them into two piles such that one pile has exactly one more marble than the other.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

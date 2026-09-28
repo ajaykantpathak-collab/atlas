@@ -1,0 +1,62 @@
+{
+ "catalog": "catalog_class11_political_science_ch3.json",
+ "concepts": [
+  {
+   "id": "c11ps.3.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "party_vote_share = 67",
+      "total_seats = 14.7",
+      "seats_for_party = (party_vote_share / 100) * total_seats"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "party_vote_share = 42",
+      "total_seats = 43",
+      "seats_for_party = (party_vote_share / 100) * total_seats"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "party_vote_share = 88",
+      "total_seats = 84",
+      "seats_for_party = (party_vote_share / 100) * total_seats"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "party_vote_share = 105",
+      "total_seats = 16.1",
+      "seats_for_party = (party_vote_share / 100) * total_seats"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "party_vote_share = 45",
+      "total_seats = 61",
+      "seats_for_party = (party_vote_share / 100) * total_seats"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "party_vote_share = 39",
+      "total_seats = 25",
+      "seats_for_party = (party_vote_share / 100) * total_seats"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "seats_for_party = (party_vote_share / 100) * total_seats"
+   ]
+  }
+ ]
+}

@@ -34,6 +34,16 @@
      "q": "Design a real-world scenario in a school playground involving two boundary chalk lines where you must guarantee they are perpendicular using only a measuring tape and the properties of numbers. Describe your steps.",
      "a": "The expected response should use the Pythagorean relationship (or right-angle properties) as a practical extension: measure a length of 3 metres along one line, 4 metres along the second line from the same vertex, and adjust the angle until the diagonal distance connecting those two points measures exactly 5 metres ($3^2 + 4^2 = 5^2$). A poor answer simply states \"draw it with a square tool\" without explaining how to mathematically verify or construct a perpendicular line in an open field using numerical measurements.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine walking into your classroom and looking at the corner where the walls meet the floor—the vertical wall and the ______ floor form a square corner, which is a right angle!",
+     "a": "horizontal",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify, draw, and calculate unknown angles involving perpendicular lines in geometric figures and real-world grid layouts.",
+     "self_check": true
     }
    ]
   }

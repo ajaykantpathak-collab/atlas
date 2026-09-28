@@ -22,7 +22,7 @@
     },
     {
      "q": "Compare the immune response elicited by a DNA vaccine versus an mRNA vaccine (e.g., COVID-19 vaccines) with respect to: (a) requirement for nuclear entry, (b) risk of genomic integration, (c) stability at room temperature, and (d) need for cold chain. Present as a 4-row comparison table.",
-     "a": "| Parameter | DNA Vaccine | mRNA Vaccine |\n|---|---|---|\n| Nuclear entry required? | **Yes** (transcription occurs in nucleus) | **No** (translation in cytoplasm) |\n| Genomic integration risk? | **Theoretical, very low** (non-integrating plasmid) | **None** (no DNA intermediate) |\n| Stability at room temp | **High** (dsDNA stable) | **Low** (RNA degrades rapidly) |\n| Cold chain requirement | **Moderate** (2–8°C or lyophilised) | **Ultra-cold** (-20°C to -80°C for some) |\nA wrong answer (e.g., \"both need nuclear entry\") reveals confusion between transcription (DNA→RNA in nucleus) and translation (RNA→protein in cytoplasm) — a fundamental molecular biology gap that costs marks in both board and NEET questions on vaccine platforms.",
+     "a": "| Parameter | DNA Vaccine | mRNA Vaccine |\n|---|---|---|\n| Nuclear entry required? | **Yes** (transcription occurs in nucleus) | **No** (translation in cytoplasm) |\n| Genomic integration risk? | **Theoretical, very low** (non-integrating plasmid) | **N/A** (no DNA intermediate) |\n| Stability at room temp | **High** (dsDNA stable) | **Low** (RNA degrades rapidly) |\n| Cold chain requirement | **Moderate** (2–8°C or lyophilised) | **Ultra-cold** (-20°C to -80°C for some) |\nA wrong answer (e.g., \"both need nuclear entry\") reveals confusion between transcription (DNA→RNA in nucleus) and translation (RNA→protein in cytoplasm) — a fundamental molecular biology gap that costs marks in both board and NEET questions on vaccine platforms.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Design a **next-generation DNA vaccine strategy** to overcome the two biggest limitations of first-generation DNA vaccines: (1) low transfection efficiency in vivo, and (2) weak immunogenicity in large animals/humans. Your design must include: (a) a physical delivery method, (b) a molecular adjuvant encoded in the plasmid, and (c) a prime-boost regimen. Justify each choice immunologically.",
      "a": "**Design:** (a) **Electroporation (EP)** at injection site — creates transient pores in cell membranes, increasing DNA uptake 100–1000x over needle injection alone. (b) **Plasmid encodes IL-12 or GM-CSF as molecular adjuvant** — IL-12 drives Th1 differentiation and CTL expansion; GM-CSF recruits DCs to injection site. Both are secreted by transfected cells, acting locally. (c) **DNA prime → viral vector (e.g., adenovirus) or protein boost** — DNA prime establishes T-cell memory; heterologous boost expands high-avidity T cells and antibodies (original antigenic sin avoided). **Justification:** EP solves delivery; molecular adjuvant replaces need for external adjuvant and skews response to Th1/CTL; heterologous boost overcomes anti-vector immunity and amplifies magnitude. A poor answer lists \"better delivery\" without naming EP or \"add adjuvant\" without specifying *encoded* cytokine — showing lack of translational vaccinology knowledge.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A DNA vaccine is a plasmid-based vaccine that delivers a gene encoding a specific antigenic protein directly into host cells, where the host's own cellular machinery ______ and translates the gene to produce the antigen in situ, eliciting both humoral and cell-mediated immune responses without the risk of pathogen replication or reversion to virulence.",
+     "a": "transcribes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a scientist in 1990 trying to make a vaccine for a dangerous virus — you cannot grow the virus in large quantities safely, and killed ______ give weak immunity.",
+     "a": "vaccines",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) explain the step-by-step mechanism of how a DNA vaccine generates immunity from plasmid injection to T-cell activation, and (2) construct a labelled diagram of a DNA vaccine plasmid showing all essential elements (promoter, antigen gene, polyadenylation signal, antibiotic resistance marker, origin of.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a scientist in 1990 trying to make a vaccine for a dangerous virus — you cannot grow the virus in large ______ safely, and killed vaccines give weak immunity.",
+     "a": "quantities",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a scientist in ______ trying to make a vaccine for a dangerous virus — you cannot grow the virus in large quantities safely, and killed vaccines give weak immunity.",
+     "a": "1990",
      "self_check": true
     }
    ]

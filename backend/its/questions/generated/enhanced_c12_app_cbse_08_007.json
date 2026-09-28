@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_08_007",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_08_007",
+   "title": "c12_app_cbse_08_007",
+   "questions": [
+    {
+     "q": "Define \"Relative Price Index Number\" for a single commodity and state the formula. If the base year price of wheat is ₹20/kg and current year price is ₹28/kg, what is the relative price index? What does the value 140 mean in practical terms?",
+     "a": "Relative Price Index Number for period n with base period 0 is \\( I_n = \\frac{p_n}{p_0} \\times 100 \\). For wheat: \\( \\frac{28}{20} \\times 100 = 140 \\). This means the price of wheat is 40% higher in the current year compared to the base year. A wrong answer (e.g., 28/20 = 1.4 without ×100, or 20/28 × 100 = 71.4) reveals confusion between price relative (ratio) and index number (percentage), or reversal of base/current period — a classic error in board exams where students lose 1 mark for missing \"×100\" or misidentifying base year.",
+     "self_check": true
+    },
+    {
+     "q": "A student computes a simple aggregative price index for 4 commodities: A (₹50→₹60), B (₹200→₹220), C (₹1000→₹1050), D (₹10→₹12). They get 104.5. Explain why this index is misleading even though the calculation is arithmetically correct. What property of the commodities makes it misleading?",
+     "a": "The simple aggregative index is \\( \\frac{\\sum p_n}{\\sum p_0} \\times 100 = \\frac{1342}{1260} \\times 100 = 106.5 \\) (not 104.5 — but even if correct, it's misleading). Commodity C (price ₹1000) dominates the sum, so its 5% increase outweighs the 20% increases in A, B, D. The index reflects C's price movement, not the overall basket. A student who says \"it's correct because formula is right\" misses the conceptual flaw: simple aggregative method assigns *implicit weights* equal to base-year prices, so high-priced items become \"concealed weights.\" This is exactly the NCERT Example 3 flaw — students must recognize that units and price magnitudes distort unweighted aggregates.",
+     "self_check": true
+    },
+    {
+     "q": "Given base year (2020) and current year (2023) data for 3 commodities:\n| Commodity | Qty 2020 | Price 2020 | Qty 2023 | Price 2023 |\n|-----------|----------|------------|----------|------------|\n| Rice      | 10 kg    | ₹40/kg     | 12 kg    | ₹50/kg     |\n| Wheat     | 20 kg    | ₹30/kg     | 18 kg    | ₹36/kg     |\n| Milk      | 15 L     | ₹50/L      | 20 L     | ₹60/L      |\nCompute Laspeyres, Paasche, and Fisher price indices for 2023 with base 2020. Show all steps.",
+     "a": "**Laspeyres (base-year qty weights):**  \n\\( \\sum p_0 q_0 = (40×10)+(30×20)+(50×15) = 400+600+750 = 1750 \\)  \n\\( \\sum p_n q_0 = (50×10)+(36×20)+(60×15) = 500+720+900 = 2120 \\)  \n\\( I_{La} = \\frac{2120}{1750} × 100 = 121.14 \\)\n\n**Paasche (current-year qty weights):**  \n\\( \\sum p_0 q_n = (40×12)+(30×18)+(50×20) = 480+540+1000 = 2020 \\)  \n\\( \\sum p_n q_n = (50×12)+(36×18)+(60×20) = 600+648+1200 = 2448 \\)  \n\\( I_{Pa} = \\frac{2448}{2020} × 100 = 121.19 \\)\n\n**Fisher (GM of La & Pa):**  \n\\( I_F = \\sqrt{121.14 × 121.19} = \\sqrt{14680.96} = 121.16 \\)\n\nA wrong answer where Laspeyres uses \\( q_n \\) or Paasche uses \\( q_0 \\) reveals confusion between the two methods — the #1 error in JEE/board exams. Students must memorize: Laspeyres = base qty, Paasche = current qty. Also, forgetting ×100 gives 1.21 instead of 121.14.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Laspeyres and Paasche indices for the same dataset. Under what condition will Laspeyres index be greater than Paasche index? Explain using the concept of consumer substitution behavior. Give a real-world example where this happens.",
+     "a": "Laspeyres > Paasche when consumers substitute away from goods whose prices have risen relatively more. Laspeyres uses base-year quantities (fixed basket), so it assumes no substitution — it overstates cost of living. Paasche uses current-year quantities (which reflect substitution toward cheaper goods), so it understates cost of living. Example: If petrol price doubles but diesel price rises 10%, consumers shift to diesel. Laspeyres still weights petrol heavily (base qty), showing high inflation. Paasche weights diesel more (current qty), showing lower inflation. A student who says \"Laspeyres is always higher\" is wrong — it depends on price-quantity correlation. The correct condition: \\( \\sum (p_n - p_0)(q_n - q_0) < 0 \\) (negative correlation between price change and quantity change).",
+     "self_check": true
+    },
+    {
+     "q": "\"Fisher's Ideal Index satisfies the Time Reversal Test, but Laspeyres and Paasche do not.\" Verify this statement for the data in Diagnostic Question 3. Show the Time Reversal Test condition mathematically and compute \\( I_{01} \\times I_{10} \\) for Fisher.",
+     "a": "Time Reversal Test requires \\( I_{01} \\times I_{10} = 1 \\) (or 100×100=10000 if using percentage form), where \\( I_{01} \\) is index for current year (1) on base year (0), and \\( I_{10} \\) is index for base year (0) on current year (1).\n\nFor Fisher:  \n\\( I_{01}^F = \\sqrt{ \\frac{\\sum p_1 q_0}{\\sum p_0 q_0} \\times \\frac{\\sum p_1 q_1}{\\sum p_0 q_1} } \\)  \n\\( I_{10}^F = \\sqrt{ \\frac{\\sum p_0 q_1}{\\sum p_1 q_1} \\times \\frac{\\sum p_0 q_0}{\\sum p_1 q_0} } \\)  \nProduct = \\( \\sqrt{ \\frac{\\sum p_1 q_0}{\\sum p_0 q_0} \\times \\frac{\\sum p_1 q_1}{\\sum p_0 q_1} \\times \\frac{\\sum p_0 q_1}{\\sum p_1 q_1} \\times \\frac{\\sum p_0 q_0}{\\sum p_1 q_0} } = \\sqrt{1} = 1 \\). Satisfied.\n\nFor Laspeyres: \\( I_{01}^{La} = \\frac{\\sum p_1 q_0}{\\sum p_0 q_0} \\), \\( I_{10}^{La} = \\frac{\\sum p_0 q_1}{\\sum p_1 q_1} \\). Product = \\( \\frac{\\sum p_1 q_0}{\\sum p_0 q_0} \\times \\frac{\\sum p_0 q_1}{\\sum p_1 q_1} \\neq 1 \\) generally. Fails.\n\nA student who writes \"Fisher passes because it's geometric mean\" without showing the algebraic cancellation misses the *reason* — the symmetry of using both \\( q_0 \\) and \\( q_1 \\) in numerator and denominator. Board exams require the derivation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical dataset of 3 commodities (with prices and quantities for base and current year) where:\n- Laspeyres index = 130\n- Paasche index = 110\n- Fisher index = 119.58 (approx)\nExplain how you chose the numbers to create a large gap between Laspeyres and Paasche. What does this gap imply about consumer behavior?",
+     "a": "One possible dataset (base year 0, current year 1):\n| Commodity | \\( p_0 \\) | \\( q_0 \\) | \\( p_1 \\) | \\( q_1 \\) |\n|-----------|----------|----------|----------|----------|\n| A         | 10       | 100      | 20       | 10       |\n| B         | 20       | 50       | 22       | 60       |\n| C         | 50       | 20       | 55       | 25       |\n\nCheck:  \n\\( \\sum p_0 q_0 = 1000+1000+1000 = 3000 \\)  \n\\( \\sum p_1 q_0 = 2000+1100+1100 = 4200 \\) → La = 4200/3000×100 = 140  \n\\( \\sum p_0 q_1 = 100+1200+1250 = 2550 \\)  \n\\( \\sum p_1 q_1 = 200+1320+1375 = 2895 \\) → Pa = 2895/2550×100 = 113.5  \nFisher = √(140×113.5) = √15890 = 126.06\n\nTo get La=130, Pa=110, Fisher=119.58, adjust quantities so that high-price-increase items (A) have large \\( q_0 \\) but small \\( q_1 \\) (substitution away), while low-price-increase items (B) have small \\( q_0 \\) but large \\( q_1 \\) (substitution toward). The gap implies strong substitution behavior — consumers significantly changed consumption pattern in response to price changes. A poor answer gives random numbers without checking the indices or explaining the economic meaning of the gap.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

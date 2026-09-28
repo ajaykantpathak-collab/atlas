@@ -34,6 +34,36 @@
      "q": "Create a realistic scenario where BOTH Utmost Good Faith and Insurable Interest are simultaneously violated. Explain how each violation independently voids the contract.",
      "a": "Scenario: Mr. A takes a ₹2 crore life insurance policy on Mr. B (a casual acquaintance) without Mr. B's knowledge. Mr. A hides that Mr. B has terminal cancer. Violations: (1) Utmost Good Faith: Mr. A concealed a material fact (terminal illness) that would lead to certain rejection or very high premium. Contract voidable by insurer. (2) Insurable Interest: Mr. A has no pecuniary interest in Mr. B's life - no blood relation, no financial dependency, no creditor-debtor relationship. This is a wagering contract, void ab initio. A poor answer focusing only on one violation shows the student treats principles as a checklist rather than understanding they operate independently - either violation alone kills the contract.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Utmost Good Faith (Uberrimae Fidei) is the ______ principle requiring both insurer and insured to voluntarily disclose all material facts accurately and completely before contract formation, where a material fact is any information that would influence a prudent insurer's decision to accept the risk or determine the premium.",
+     "a": "fundamental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you want to insure your father's life for ₹1 crore.",
+     "a": "Imagine",
+     "self_check": true
+    },
+    {
+     "q": "What is Utmost Good Faith (Uberrimae Fidei)? State the definition given in this lesson.",
+     "a": "Utmost Good Faith (Uberrimae Fidei) is the fundamental principle requiring both insurer and insured to voluntarily disclose all material facts accurately and completely before contract formation, where a material fact is any information that would influence a prudent insurer's decision to accept the risk or determine the premium.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to insure your father's life for ₹______ crore.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Utmost Good Faith (Uberrimae Fidei)?",
+     "a": "Students believe \"Utmost Good Faith means the insurer must also disclose everything to the insured\" - they think it's a symmetric duty.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) distinguish between material and non-material facts in a given insurance proposal scenario and explain the consequence of non-disclosure, and (2) determine whether insurable interest exists in a specific situation by identifying the pecuniary relationship and verifying its timing requirement for the.",
+     "self_check": true
     }
    ]
   }

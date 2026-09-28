@@ -1,0 +1,56 @@
+{
+ "catalog": "enhanced_c12_gram_cbse_80_001",
+ "concepts": [
+  {
+   "id": "enh:c12_gram_cbse_80_001",
+   "title": "c12_gram_cbse_80_001",
+   "questions": [
+    {
+     "q": "Fix: 'The concert was cancelled, many fans were disappointed.'",
+     "a": "Comma splice — fix as 'cancelled; many fans' or 'cancelled, so many fans' or a full stop. A wrong answer keeping the comma shows comma-power belief.",
+     "self_check": true
+    },
+    {
+     "q": "Semicolon or comma: 'The exam was hard ___ it was fair.'",
+     "a": "Semicolon — two independent clauses, closely related, no conjunction. A wrong answer choosing comma creates a splice; 'and' + comma is the other legal fix.",
+     "self_check": true
+    },
+    {
+     "q": "'The students book's were stolen' — find both errors.",
+     "a": "'students'' (possessive apostrophe after s) and 'books' (plural takes no apostrophe). A wrong answer fixing only one shows partial apostrophe rules.",
+     "self_check": true
+    },
+    {
+     "q": "Punctuation is traffic control: commas separate but never join clauses; semicolons join related independent clauses without a conjunction; colons introduce lists/______; apostrophes mark possession and contraction — never plurals.",
+     "a": "explanations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Punctuation is traffic control: commas separate but never join clauses; semicolons join related independent clauses without a conjunction; colons introduce lists/______; apostrophes mark possession and contraction — never plurals.",
+     "a": "explanations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The comma's limits: 'It rained, we stayed home' is a splice — the comma cannot do a ______'s job.",
+     "a": "conjunction",
+     "self_check": true
+    },
+    {
+     "q": "What is Punctuation? State the definition given in this lesson.",
+     "a": "Punctuation is traffic control: commas separate but never join clauses; semicolons join related independent clauses without a conjunction; colons introduce lists/explanations; apostrophes mark possession and contraction — never plurals.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Punctuation?",
+     "a": "Students sprinkle commas as pauses ('wherever a breath fits'), use semicolons as super-commas, and apostrophize plurals ('apple's for sale').",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student punctuates complex sentences correctly — comma splices fixed, semicolons for balanced clauses, colons before lists, apostrophes confined to possession/contraction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,21 @@
      "q": "Design a nested dictionary structure to store a school timetable: each class (e.g., '11A') has a weekly schedule where each day (Mon-Fri) maps to a list of period dictionaries with keys 'subject', 'teacher', 'room'. Show the structure for Class 11A with Monday having two periods.",
      "a": "```python\ntimetable = {\n    '11A': {\n        'Monday': [\n            {'subject': 'Physics', 'teacher': 'Dr. Rao', 'room': 'Lab 1'},\n            {'subject': 'Math', 'teacher': 'Ms. Iyer', 'room': 'Room 203'}\n        ],\n        'Tuesday': [],\n        ...\n    }\n}\n```\nA poor answer uses flat keys like `'11A_Monday_1_subject'` showing inability to model hierarchical relationships. A good answer uses three levels (class → day → list of periods) with appropriate data types (dict for class/day, list for ordered periods, dict for period details), demonstrating structural thinking.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A nested dictionary is a dictionary data structure where one or more values are themselves ______, allowing hierarchical storage of related data with multiple levels of key-value pairs accessible through chained key indexing (e.g., outer_dict[outer_key][inner_key]).",
+     "a": "dictionaries",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school wants to store each student's marks for multiple subjects, where each subject has both theory and ______ scores.",
+     "a": "practical",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can create, access, modify, and traverse nested dictionaries with at least two levels of nesting, and can write code to process real-world hierarchical data (like student records with subject-wise marks) using appropriate loops and conditional logic.",
+     "self_check": true
     }
    ]
   }

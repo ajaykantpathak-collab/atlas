@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_08_005",
+   "title": "c12_soc_cbse_08_005",
+   "questions": [
+    {
+     "q": "What was the primary legal instrument used to recruit and retain labour for Assam tea plantations in the 1860s–1870s, and what made it \"penal\" in character?",
+     "a": "The Transport of Native Labourers Act (Act III of 1863, amended 1865, 1870, 1873) was the primary instrument. It was \"penal\" because it criminalised breach of contract by workers (desertion, refusal to work) with imprisonment, while planters faced only civil penalties for violations. A wrong answer—naming the Indian Contract Act or general labour laws—reveals the student misses the coercive, asymmetric legal architecture that defined colonial plantation labour.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Census of India 1911 noted that British industrialisation led to *more* people moving into agriculture in India, whereas in Britain it drove people *out of* agriculture into cities.",
+     "a": "In Britain, industrialisation created urban factory jobs that absorbed rural surplus labour. In India, British machine-made imports (Manchester textiles) destroyed village handicrafts, while colonial land revenue policies forced peasants into cash-crop cultivation; with few factory jobs created, displaced artisans and peasants fell back on agriculture as a last resort, increasing agricultural workforce share. A wrong answer attributing this to \"India's backwardness\" or \"lack of entrepreneurship\" reveals a failure to see the *active* role of colonial policy in deindustrialisation and the structural blockage of industrial employment generation.",
+     "self_check": true
+    },
+    {
+     "q": "A historian argues: \"The jute mills of Calcutta and cotton mills of Bombay represent genuine industrialisation because they used steam power, employed thousands, and produced for global markets.\" Using the concept of *colonial capitalism*, evaluate this claim by identifying two structural features that distinguish these factories from their British counterparts.",
+     "a": "Two distinguishing features: (1) Capital and control: jute mills were overwhelmingly British-owned (Dundee capital), managed by British managing agencies, with profits repatriated; cotton mills had Indian capital but operated under colonial trade and tariff policies favouring British goods. (2) Labour regime: both relied on migrant \"coolie\" labour recruited through contractors (jobbers) under conditions of debt bondage and seasonal migration, not a settled urban proletariat. A student who only lists \"steam power\" or \"factory size\" misses the *social relations of production* that define colonial capitalism.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the recruitment and living conditions of labour in (a) Assam tea plantations and (b) Jharia coal mines (Bihar) in the late 19th century. Identify one similarity and one difference in how colonial capital secured labour control.",
+     "a": "Similarity: both used contractor-mediated recruitment (sardars/kanganis) advancing loans (dadni) that created debt bondage, and both operated under penal contract laws criminalising desertion. Difference: plantation labour was *imported* from distant regions (Bihar, UP, Madras) into isolated enclaves with total planter control over housing, rations, and movement; mine labour was often *local* (tribal/adivasi) or short-distance migrants, living in adjacent villages with slightly more autonomy but facing extreme hazard and piece-rate exploitation. A wrong answer treating both as \"just migrant labour\" misses the spatial and legal architecture of control specific to each sector.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the view that \"colonial railways modernised India and laid the foundation for industrial growth.\" Use evidence from the location of early industrial towns and freight policies to support your argument.",
+     "a": "Railways were built to connect resource hinterlands (coal, cotton, jute, tea) to *ports* (Bombay, Calcutta, Madras) for export, not to integrate internal markets. Freight rates favoured raw material export and manufactured import; differential rates discouraged inter-regional trade. Early industrial towns (Jamshedpur, Bhilai later) emerged at resource–rail junctions, not at consumption centres. A student who cites \"railways unified the market\" repeats the colonial apologetic narrative without analysing the *asymmetric* freight structure and port-oriented network geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Design a comparative table with four columns (Sector, Capital Origin, Labour Recruitment Mechanism, State Support) and three rows (Tea Plantations, Coal Mining, Cotton Textiles) that captures the *variations within* colonial industrialisation. Fill in two cells for each row with specific historical details.",
+     "a": "Expected table (sample entries): Tea Plantations — Capital: British (sterling companies); Labour: Transport of Native Labourers Act, contractor (arkatti) recruitment from Bihar/UP; State: land grants (waste land rules), penal law, Assam Labour Act 1901. Coal Mining — Capital: British (Bird & Co., Tata later); Labour: sardari system, tribal/adivasi migrants, no penal law but piece-rate bondage; State: mining leases, railway sidings, Indian Mines Act 1901 (safety only). Cotton Textiles — Capital: Indian (Merchant capital, later Tata); Labour: jobber (kangani) system, rural migrants from Ratnagiri/Konkan; State: tariff protection (1920s), no penal contract law. A poor answer fills generic categories without sector-specific legal/institutional detail, showing inability to differentiate *within* the colonial industrial pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ in colonial India refers to the emergence of machine-based production in plantations, mines, and early factories under British rule, characterised by a distorted pattern where colonial capital extraction shaped industrial location, labour recruitment through coercive laws, and sectoral growth that served British metropolitan interests rather than indigenous economic development.",
+     "a": "Industrialisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a tea ______ worker in Assam, 1890: recruited by a contractor from Bihar with false promises, bound by a penal contract that criminalises desertion, living in a \"coolie line\" while the British planter lives in a stilted bungalow with servants.",
+     "a": "plantation",
+     "self_check": true
+    },
+    {
+     "q": "What is Industrialisation in colonial India? State the definition given in this lesson.",
+     "a": "Industrialisation in colonial India refers to the emergence of machine-based production in plantations, mines, and early factories under British rule, characterised by a distorted pattern where colonial capital extraction shaped industrial location, labour recruitment through coercive laws, and sectoral growth that served British.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) contrast the trajectory of Indian industrialisation with the British model by identifying at least three structural differences (labour recruitment, capital source, market orientation), and (2) explain how colonial laws (e.g., Transport of Native Labourers Act) and infrastructure (railways, ports) created.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a tea plantation worker in Assam, 1890: recruited by a contractor from Bihar with false promises, bound by a penal contract that ______ desertion, living in a \"coolie line\" while the British planter lives in a stilted bungalow with servants.",
+     "a": "criminalises",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

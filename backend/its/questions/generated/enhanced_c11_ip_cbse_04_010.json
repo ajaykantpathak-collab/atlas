@@ -26,13 +26,38 @@
      "self_check": true
     },
     {
-     "q": "Evaluate this code for a student database. Identify the bug and explain why it fails:\n```python\nstudents = {}\nroll = input(\"Enter roll number: \")\nname = input(\"Enter name: \")\nstudents[roll] = name\nprint(\"Student added:\", students[roll])",
+     "q": "Evaluate this code for a student database. Identify the bug and explain why it fails:\n```python\nstudents = {}\nroll = input(\"Enter roll number: \")\nname = input(\"Enter name: \")\nstudents[roll] = name\nprint(\"Student added:\", students[roll])\n# Later...\nsearch = input(\"Enter roll to search: \")\nif students[search]:\n    print(\"Found:\", students[search])\nelse:\n    print(\"Not found\")\n```",
      "a": "Bug: `students[search]` raises KeyError if roll doesn't exist, crashing before the else block. The `if students[search]:` attempts direct access instead of using `if search in students:` or `students.get(search)`. This evaluates to \"always crash on missing key\" rather than \"handle missing key\". A student missing this reveals they don't understand KeyError propagation in conditional expressions.",
      "self_check": true
     },
     {
      "q": "Design a dictionary-based solution for a library system where each book has a unique ISBN (string) mapping to a tuple (title, author, available_copies). Write code to: (a) add a new book, (b) borrow a book (decrease copies if >0), (c) return a book (increase copies), (d) check availability.",
-     "a": "```python\nlibrary = {}",
+     "a": "```python\nlibrary = {}\n# (a) library['978-0134685991'] = ('Effective Java', 'Joshua Bloch', 3)\n# (b) def borrow(isbn):\n#         if isbn in library and library[isbn][2] > 0:\n#             title, author, copies = library[isbn]\n#             library[isbn] = (title, author, copies - 1)\n#             return True\n#         return False\n# (c) def return_book(isbn):\n#         if isbn in library:\n#             title, author, copies = library[isbn]\n#             library[isbn] = (title, author, copies + 1)\n# (d) def available(isbn):\n#         return library.get(isbn, (None, None, 0))[2]\n```\nPoor answers use lists instead of tuples for values, forget immutability of tuples requiring reassignment, or omit existence checks.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ in Python is a mutable, ordered collection of key-value pairs where each unique key (of immutable type) maps to exactly one value (of any type), enabling direct access to values via their associated keys using square bracket notation or the get() method.",
+     "a": "dictionary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're building a ______ app for your phone - you need to store names and phone numbers so you can instantly look up a number by typing the name.",
+     "a": "contact",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight: dictionaries trade memory for speed - they use hash tables to achieve O(______) average lookup time, unlike lists which require O(n) searching.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can create dictionaries using curly braces with key-value pairs, access values by key using both square brackets and get() method, handle KeyError exceptions, and verify key existence using membership operators.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're building a contact app for your phone - you need to store names and phone numbers so you can ______ look up a number by typing the name.",
+     "a": "instantly",
      "self_check": true
     }
    ]

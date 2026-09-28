@@ -16,8 +16,8 @@
      "self_check": true
     },
     {
-     "q": "Classify the following into Current and Non-Current Liabilities for a Balance Sheet as at 31st March 2026 (operating cycle = 12 months):\n1. 10% Bank Loan taken on 1st April 2020, repayable in 5 equal annual installments starting 31st March 2021.\n2. Outstanding Salaries for March 2026: ₹25,000.\n3. Bills Payable due on 15th April 2026: ₹40,000.\n4. 8% Debentures issued on 1st April 2024, redeemable on 31st March 2030.",
-     "a": "**Correct Answer:**\n1. **Current Liability** (₹ installment due on 31st March 2027 is within 12 months? Wait: As on 31st March 2026, the next installment is due on 31st March 2027? Actually, installments start 31st March 2021. So by 31st March 2026, 5 installments would have been paid? Let's recalc: Loan taken 1 Apr 2020, 5 equal annual installments starting 31 Mar 2021. So installments due: 31 Mar 2021, 2022, 2023, 2024, 2025. That's 5 installments. By 31 Mar 2026, the loan is fully repaid. So it would not appear at all. But if the question implies the loan is still outstanding with an installment due in the next 12 months, then that portion is current. Let's assume a typical scenario: Loan of ₹5,00,000, 5 yearly installments of ₹1,00,000. On 31 Mar 2026, the 5th installment was paid on 31 Mar 2025? Actually, if taken 1 Apr 2020, first installment 31 Mar 2021, second 31 Mar 2022, third 31 Mar 2023, fourth 31 Mar 2024, fifth 31 Mar 2025. So on 31 Mar 2026, loan is fully paid. This is a trick! The liability doesn't exist. But if the loan was taken later, say 1 Apr 2022, then on 31 Mar 2026, two installments paid, next due 31 Mar 2027 (within 12 months) -> Current portion. We'll adjust the example to avoid confusion.)\nLet's rephrase the question to be clearer:\n1. 10% Bank Loan of ₹5,00,000 taken on 1st April 2022, repayable in 5 equal annual installments starting 31st March 2023. (On 31st March 2026, two installments paid, next due 31st March 2027 = within 12 months -> Current Liability for the installment due; the remaining balance after that installment is Non-Current.)\n2. Outstanding Salaries: **Current Liability** (due within a month).\n3. Bills Payable due 15th April 2026: **Current Liability** (due within 15 days).\n4. 8% Debentures redeemable 31st March 2030: **Non-Current Liability** (redemption > 12 months away).\n\n**What a wrong answer reveals:** If the student classifies the entire Bank Loan as Non-Current, they fail to separate the current portion (installment due within 12 months). If they classify Bills Payable as Non-Current because it's a \"Bill\", they misunderstand that maturity date determines classification. If they classify Debentures as Current because they are \"payable\", they ignore the redemption date.",
+     "q": "Classify the following into Current and Non-Current Liabilities as at 31st March 2026 (operating cycle 12 months): a 10% bank loan of ₹5,00,000 taken on 1st April 2022 repayable in five equal annual installments from 31st March 2023; outstanding salaries for March 2026 ₹25,000; bills payable ₹40,000 due on 15th April 2026; and 8% debentures issued 1st April 2024, redeemable on 31st March 2030.",
+     "a": "(1) The loan installment due on 31st March 2027 — a current liability because it falls within the next twelve months, (2) The remaining loan balance after that installment — a non-current liability, (3) Outstanding salaries for March 2026 — a current liability because they are due within a month, (4) Bills payable due on 15th April 2026 — a current liability because maturity is about fifteen days away, (5) 8% debentures redeemable on 31st March 2030 — a non-current liability because redemption is more than twelve months away. A wrong answer that treats the whole bank loan as non-current fails to split off the current portion, and classifying bills payable as non-current because it is a \"bill\" ignores that the maturity date decides classification.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Create a mini Balance Sheet (Liabilities side only) for a fictional bakery as at 31st March 2026, using the Order of Liquidity. Include at least 2 Current Liabilities, 1 Non-Current Liability, and Capital. Invent reasonable amounts.",
      "a": "**Expected Answer (Criteria):**\n- Correct headings: Liabilities side, Order of Liquidity.\n- Current Liabilities listed first (e.g., Bank Overdraft ₹15,000; Creditors ₹45,000; Outstanding Expenses ₹5,000).\n- Non-Current Liability next (e.g., 10% Bank Loan ₹2,00,000).\n- Capital last (e.g., Capital ₹3,00,000 + Net Profit ₹50,000 - Drawings ₹20,000 = ₹3,30,000).\n- Total both sides match (not required here but implied).\n**What a poor answer reveals:** If the student lists Capital first, they used Order of Permanence. If they omit Outstanding Expenses or include \"Sales\" as a liability, they confuse revenue with liabilities. If amounts are unrealistic (e.g., Capital ₹500), they lack sense of magnitude.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In a Balance Sheet, liabilities are ______ as Current Liabilities (obligations expected to be settled within 12 months after the reporting date or within the normal operating cycle, whichever is longer) and Non-Current (Fixed/Long-term) Liabilities (obligations not meeting the current criteria, typically payable after one year).",
+     "a": "classified",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a bank manager reviewing a loan application from a small ______.",
+     "a": "business",
+     "self_check": true
+    },
+    {
+     "q": "What is In a Balance Sheet, liabilities? State the definition given in this lesson.",
+     "a": "In a Balance Sheet, liabilities are classified as Current Liabilities (obligations expected to be settled within 12 months after the reporting date or within the normal operating cycle, whichever is longer) and Non-Current (Fixed/Long-term) Liabilities (obligations not meeting the current criteria, typically payable after one year).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In a Balance Sheet, liabilities are classified as Current Liabilities (obligations expected to be settled within ______ months after the reporting date or within the normal operating cycle, whichever is longer) and Non-Current (Fixed/Long-term) Liabilities (obligations not meeting the current criteria, typically payable after one year).",
+     "a": "12",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify any given liability (e.g., bank overdraft, 5-year loan, creditors, outstanding wages) as Current or Non-Current with justification based on the 12-month/operating cycle rule, and present them in the correct order (permanence or liquidity) in a Balance Sheet format.",
      "self_check": true
     }
    ]

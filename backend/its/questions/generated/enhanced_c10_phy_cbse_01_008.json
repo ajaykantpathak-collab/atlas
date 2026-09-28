@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a battery, a nichrome wire, water in a calorimeter, and a thermometer to verify Joule's Law. List the variables you will control, the measurements you will take, and how you will analyse the data to confirm H ∝ I².",
      "a": "Control: resistance (same nichrome wire), time (e.g., 2 min), mass of water. Vary: current by changing number of cells in series (1 cell, 2 cells, 3 cells). Measure: initial and final temperature of water. Calculate heat absorbed by water: H = mcΔθ. Plot H vs I. If parabolic, H ∝ I² is confirmed. A poor answer (e.g., \"measure temperature after 2 minutes for different wires\") reveals the student does not understand controlled variables — they would change resistance instead of current, confusing the two factors.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Joule's Law states that the heat produced in a conductor is directly ______ to the square of the current passing through it, the resistance of the conductor, and the time for which the current flows, provided the physical conditions (temperature, dimensions) of the conductor remain constant.",
+     "a": "proportional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking the student to touch a mobile phone ______ after it has been plugged in for 10 minutes — it feels warm.",
+     "a": "charger",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking the student to touch a mobile phone charger after it has been plugged in for ______ minutes — it feels warm.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the heat produced in a resistor using H = I²Rt, explain why the heating effect depends on the square of current, and predict how changing any one variable (I, R, t) affects the heat produced in a domestic appliance like an electric iron or geyser.",
+     "self_check": true
     }
    ]
   }

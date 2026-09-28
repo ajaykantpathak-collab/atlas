@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using two convex lenses (one of focal length 50 cm, another of focal length 2 cm) to build an astronomical telescope. Describe how you would adjust it for normal adjustment and for viewing at the near point. What measurements would you take to verify the magnifying power experimentally?",
      "a": "Mount the two lenses on an optical bench with the 50 cm lens as objective and 2 cm lens as eyepiece. For normal adjustment: point the objective at a distant object (e.g., a building 100 m away). Move the eyepiece until the final image is sharp and at infinity (eye relaxed, no accommodation). Measure the separation \\( L = f_o + f_e = 52 \\) cm. To verify magnifying power: use a distant object of known angular size (e.g., a meter scale at 100 m subtends \\( \\alpha = 1/100 \\) rad). Observe the final image and measure its angular size \\( \\beta \\) by comparing with a reference scale at the near point or using a protractor. Compute \\( m = \\beta/\\alpha \\). For near point: move the eyepiece closer to the objective until the final image is at 25 cm (maximum strain). Measure new separation \\( L' = f_o + \\frac{f_e D}{f_e + D} \\approx 50 + \\frac{2 \\times 25}{27} = 51.85 \\) cm. Verify magnification \\( m_D = m_\\infty (1 + f_e/D) \\). A poor experimental design would use a nearby object (not at infinity) or not account for eye relief. The student must understand that the telescope is an angular magnification device, not a linear one.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An astronomical telescope is an optical instrument designed to provide angular ______ of distant celestial objects (stars, planets) by using an objective lens of large focal length and aperture to form a real, inverted, diminished image at its focal plane, which is then magnified by an eyepiece lens of short focal length acting as a simple microscope.",
+     "a": "magnification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a pair of binoculars or a small ______ used during a school astronomy night: you point it at the moon, adjust the eyepiece until the image is sharp, and notice the moon appears larger but inverted.",
+     "a": "telescope",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If the eyepiece is moved slightly closer to the objective, the intermediate image lies within the focal length of the eyepiece, producing a virtual image at D = ______ cm (maximum angular magnification).",
+     "a": "25",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a pair of ______ or a small telescope used during a school astronomy night: you point it at the moon, adjust the eyepiece until the image is sharp, and notice the moon appears larger but inverted.",
+     "a": "binoculars",
+     "self_check": true
     }
    ]
   }

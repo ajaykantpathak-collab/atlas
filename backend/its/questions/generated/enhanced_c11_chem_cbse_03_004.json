@@ -34,6 +34,31 @@
      "q": "Design a step-by-step method to determine the period, group, and block of any element given only its atomic number (Z), without memorizing the periodic table. Test your method on Z=114 and Z=117.",
      "a": "Method: (1) Write electronic configuration using Aufbau/(n+l) rule. (2) Period = highest n in configuration. (3) Block = orbital type (s/p/d/f) of last added electron. (4) Group: For s-block = valence e⁻ count (1 or 2); p-block = 10 + valence e⁻ count; d-block = (n-1)d e⁻ + ns e⁻; f-block = separate (lanthanoids/actinoids). For Z=114: [Rn]5f¹⁴6d¹⁰7s²7p² → Period 7, p-block, Group 14 (10+4). For Z=117: [Rn]5f¹⁴6d¹⁰7s²7p⁵ → Period 7, p-block, Group 17 (10+7). A poor answer that just says \"look at the table\" fails to demonstrate the algorithmic connection between quantum numbers and table position. A good answer shows the configuration writing steps explicitly.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Electronic ______ is the distribution of electrons in an atom's orbitals, described by the principal quantum number (n), azimuthal quantum number (l), magnetic quantum number (m_l), and spin quantum number (m_s).",
+     "a": "configuration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This ______ stems from how Na and Cl atoms arrange their electrons — Na loses one easily, Cl gains one readily.",
+     "a": "difference",
+     "self_check": true
+    },
+    {
+     "q": "What is Electronic configuration? State the definition given in this lesson.",
+     "a": "Electronic configuration is the distribution of electrons in an atom's orbitals, described by the principal quantum number (n), azimuthal quantum number (l), magnetic quantum number (m_l), and spin quantum number (m_s).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Electronic configuration?",
+     "a": "Students write electronic configurations in filling order (e.g., 1s²2s²2p⁶3s²3p⁶4s²3d¹⁰4p⁶5s²4d¹⁰5p⁶6s²4f¹⁴5d¹⁰6p⁶...) but fail to reorder by principal quantum number (n) for the standard notation.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write the ground-state electronic configuration of any element (Z=1-118) using the Aufbau principle, identify its block (s/p/d/f), period, and group in the modern periodic table, and justify the position using quantum numbers.",
+     "self_check": true
     }
    ]
   }

@@ -19,7 +19,7 @@
     "Compute the trigonometric ratios when the perpendicular and base are given.",
     "Express sin, cos, and tan in terms of the sides of a right triangle."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -58,7 +58,16 @@
      "question": "Given perpendicular = 7 and base = 24, find all six trigonometric ratios of the acute angle.",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "take the ratio of the relevant sides",
+     "explain": "take the ratio of the relevant sides: s = 10 / 26 gives 0.384615",
+     "compute": "s = 10 / 26"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.8.2",
@@ -176,7 +185,7 @@
     "Evaluate the expression sin 30 cos 60 + cos 30 sin 60.",
     "Determine the value of tan 45 + cot 45."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -215,7 +224,16 @@
      "question": "Find the value of cos 0 + cos 30 + cos 45 + cos 60 + cos 90.",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "take the ratio of the relevant sides",
+     "explain": "take the ratio of the relevant sides: s = 6 / 10 gives 0.6",
+     "compute": "s = 6 / 10"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.8.5",
@@ -232,7 +250,7 @@
     "Evaluate sin(90 - 30) + cos(90 - 60).",
     "Show that cosec(90 - x) equals sec x."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -271,7 +289,16 @@
      "question": "Express sec(90 - x) in terms of a trigonometric ratio of x.",
      "type": "verify_property"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "take the ratio of the relevant sides",
+     "explain": "take the ratio of the relevant sides: s = 7 / 25 gives 0.28",
+     "compute": "s = 7 / 25"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.8.6",
@@ -406,7 +433,7 @@
     "Simplify the expression sec^2 A - tan^2 A.",
     "Compute (sin^2 A + cos^2 A) / (1 + tan^2 A)."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -445,7 +472,16 @@
      "question": "Evaluate sin^2 30 + sin^2 45 + sin^2 60 + sin^2 90.",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "take the ratio of the relevant sides",
+     "explain": "take the ratio of the relevant sides: s = 12 / 20 gives 0.6",
+     "compute": "s = 12 / 20"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.8.9",
@@ -462,7 +498,7 @@
     "Express all six ratios in terms of sin A.",
     "Find the remaining ratios when one ratio is given."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -501,7 +537,16 @@
      "question": "If tan A = 8/15, determine sin A, cos A, sec A, cosec A, and cot A.",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "take the ratio of the relevant sides",
+     "explain": "take the ratio of the relevant sides: s = 10 / 26 gives 0.384615",
+     "compute": "s = 10 / 26"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [],

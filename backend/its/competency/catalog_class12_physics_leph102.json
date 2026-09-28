@@ -24,10 +24,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "split the work by the charge moved",
+    {
+     "step": 1,
+     "action": "split the work by the charge moved",
      "explain": "potential difference equals work done per unit charge, so divide work by the test charge",
-     "compute": "potential = work_done / test_charge"}
-   ]
+     "compute": "potential = work_done / test_charge"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "V = W / q",
+     "compute": "V = W / q"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph102.2.3.1",
@@ -46,13 +58,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "write the Coulomb constant",
+    {
+     "step": 1,
+     "action": "write the Coulomb constant",
      "explain": "the point-charge potential is k Q over r with k = 9e9 in SI units",
-     "compute": "k_const = 9.0e9"},
-    {"step": 2, "action": "multiply by charge and divide by distance",
+     "compute": "k_const = 9.0e9"
+    },
+    {
+     "step": 2,
+     "action": "multiply by charge and divide by distance",
      "explain": "scaling the constant by the source charge and the reciprocal distance gives the potential",
-     "compute": "potential = k_const * source_charge / point_distance"}
-   ]
+     "compute": "potential = k_const * source_charge / point_distance"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "V = k * Q / r",
+     "compute": "V = k * Q / r"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph102.2.4.1",
@@ -71,13 +98,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "build the dipole moment",
+    {
+     "step": 1,
+     "action": "build the dipole moment",
      "explain": "the moment is charge times full separation, the product the far field actually responds to",
-     "compute": "dipole_moment = 2 * dipole_charge * half_separation"},
-    {"step": 2, "action": "scale by angle and inverse square",
+     "compute": "dipole_moment = 2 * dipole_charge * half_separation"
+    },
+    {
+     "step": 2,
+     "action": "scale by angle and inverse square",
      "explain": "multiply k by the moment and cos(theta), then divide by the squared distance",
-     "compute": "potential = 9.0e9 * dipole_moment * cos_theta / (point_distance ** 2)"}
-   ]
+     "compute": "potential = 9.0e9 * dipole_moment * cos_theta / (point_distance ** 2)"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "V = k * p * cos_theta / r**2",
+     "compute": "V = k * p * cos_theta / r**2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph102.2.5.1",
@@ -96,15 +138,24 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "potential of the first charge",
+    {
+     "step": 1,
+     "action": "potential of the first charge",
      "explain": "apply the point-charge rule to charge1 with its own distance to the field point",
-     "compute": "v_one = 9.0e9 * charge1 / distance1"},
-    {"step": 2, "action": "potential of the second charge",
+     "compute": "v_one = 9.0e9 * charge1 / distance1"
+    },
+    {
+     "step": 2,
+     "action": "potential of the second charge",
      "explain": "repeat for charge2 at its own distance, keeping its sign",
-     "compute": "v_two = 9.0e9 * charge2 / distance2"},
-    {"step": 3, "action": "add the contributions",
+     "compute": "v_two = 9.0e9 * charge2 / distance2"
+    },
+    {
+     "step": 3,
+     "action": "add the contributions",
      "explain": "potentials superpose as plain signed numbers, so the total is their arithmetic sum",
-     "compute": "total_potential = v_one + v_two"}
+     "compute": "total_potential = v_one + v_two"
+    }
    ]
   },
   {
@@ -124,22 +175,40 @@
     "in which direction does the electric field point relative to the steepest decrease of potential",
     "the field runs down the steepest potential slope; state its size as the potential change per unit normal distance"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "apply the no-work condition on the surface",
-     "explain": "moving a test charge between points of equal potential needs zero work, so the field cannot have a tangential part"},
-    {"step": 2, "action": "conclude the perpendicularity rule",
-     "explain": "the field must therefore cross every equipotential at right angles"},
-    {"step": 3, "action": "read the field from the potential gradient",
-     "explain": "the magnitude equals the potential change per unit normal distance, directed down the slope"}
-   ]
+    {
+     "step": 1,
+     "action": "apply the no-work condition on the surface",
+     "explain": "moving a test charge between points of equal potential needs zero work, so the field cannot have a tangential part"
+    },
+    {
+     "step": 2,
+     "action": "conclude the perpendicularity rule",
+     "explain": "the field must therefore cross every equipotential at right angles"
+    },
+    {
+     "step": 3,
+     "action": "read the field from the potential gradient",
+     "explain": "the magnitude equals the potential change per unit normal distance, directed down the slope"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "E = dV / dl",
+     "compute": "E = dV / dl"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph102.2.7.1",
    "title": "Potential Energy of Two Charges",
    "section": "2.7",
    "definition": "Assembling two charges at a fixed separation stores work as energy k q1 q2 over r12, positive for like charges and negative for unlike ones.",
-   "formula": "U = k * q1 * q2 / r12",
+   "formula": "U = k * q_1 * q_2 / r_1_2",
    "key_idea": "The energy belongs to the configuration, not to the assembly route, because electrostatic work is path-independent.",
    "textbook_ref": "leph102.txt section 2.7 (Eqs. 2.22, 2.26, Example 2.4-2.5)",
    "question_patterns": [
@@ -151,13 +220,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "write the Coulomb constant",
+    {
+     "step": 1,
+     "action": "write the Coulomb constant",
      "explain": "the pair energy uses the same constant as the force law",
-     "compute": "k_const = 9.0e9"},
-    {"step": 2, "action": "combine charges over the gap",
+     "compute": "k_const = 9.0e9"
+    },
+    {
+     "step": 2,
+     "action": "combine charges over the gap",
      "explain": "multiply k by both charges and divide by their separation to get the stored energy",
-     "compute": "pair_energy = k_const * charge1 * charge2 / pair_distance"}
-   ]
+     "compute": "pair_energy = k_const * charge1 * charge2 / pair_distance"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "U = k * q_1 * q_2 / r_1_2",
+     "compute": "U = k * q_1 * q_2 / r_1_2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph102.2.8.1",
@@ -176,9 +260,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "project the field on the moment",
+    {
+     "step": 1,
+     "action": "project the field on the moment",
      "explain": "only the field component along the moment counts, so multiply pE by cos(theta) and attach the minus sign",
-     "compute": "dipole_energy = -dipole_moment * e_field * cos_theta"}
+     "compute": "dipole_energy = -dipole_moment * e_field * cos_theta"
+    }
    ]
   },
   {
@@ -186,7 +273,7 @@
    "title": "Electrostatic Properties of Conductors",
    "section": "2.9",
    "definition": "In the static state a conductor shows five hallmark behaviours: zero interior field, a surface field strictly perpendicular to the face, excess charge living only on the surface, one constant potential everywhere within and on the body, and complete shielding of an empty cavity.",
-   "formula": "E_surface = sigma / eps0",
+   "formula": "E_surface = sigma / eps_0",
    "key_idea": "Free electrons rearrange until the interior field cancels; that single fact generates all five conductor rules including shielding.",
    "textbook_ref": "leph102.txt section 2.9 (results 1-6, Eq. 2.35, Example 2.7)",
    "question_patterns": [
@@ -197,15 +284,33 @@
     "is the potential the same at every point of a charged conductor and on its surface",
     "five hallmark static behaviours of a conductor; list them and connect each to zero interior field"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "impose the zero interior field",
-     "explain": "any residual field would drive the free electrons until it cancels, defining the static state"},
-    {"step": 2, "action": "push charge to the surface",
-     "explain": "a Gauss pillbox inside the body encloses zero flux, hence zero interior net charge"},
-    {"step": 3, "action": "set the surface field and shielding",
-     "explain": "the surface field is sigma over eps0 along the outward normal, and an empty cavity stays field-free whatever happens outside"}
-   ]
+    {
+     "step": 1,
+     "action": "impose the zero interior field",
+     "explain": "any residual field would drive the free electrons until it cancels, defining the static state"
+    },
+    {
+     "step": 2,
+     "action": "push charge to the surface",
+     "explain": "a Gauss pillbox inside the body encloses zero flux, hence zero interior net charge"
+    },
+    {
+     "step": 3,
+     "action": "set the surface field and shielding",
+     "explain": "the surface field is sigma over eps0 along the outward normal, and an empty cavity stays field-free whatever happens outside"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "E_surface = sigma / eps_0",
+     "compute": "E_surface = sigma / eps_0"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph102.2.10.1",
@@ -224,12 +329,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "sort the molecules",
-     "explain": "non-polar molecules have coinciding charge centres, polar ones keep separated centres with a permanent moment"},
-    {"step": 2, "action": "describe the polarisation mechanism",
-     "explain": "the field stretches non-polar molecules or lines up polar ones, giving a net moment per unit volume"},
-    {"step": 3, "action": "account for the induced surface charge",
-     "explain": "unaligned dipole ends pile up on the faces normal to the field, and their field opposes but does not fully cancel the applied one"}
+    {
+     "step": 1,
+     "action": "sort the molecules",
+     "explain": "non-polar molecules have coinciding charge centres, polar ones keep separated centres with a permanent moment"
+    },
+    {
+     "step": 2,
+     "action": "describe the polarisation mechanism",
+     "explain": "the field stretches non-polar molecules or lines up polar ones, giving a net moment per unit volume"
+    },
+    {
+     "step": 3,
+     "action": "account for the induced surface charge",
+     "explain": "unaligned dipole ends pile up on the faces normal to the field, and their field opposes but does not fully cancel the applied one"
+    }
    ]
   },
   {
@@ -250,9 +364,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "multiply capacitance by voltage",
+    {
+     "step": 1,
+     "action": "multiply capacitance by voltage",
      "explain": "the defining ratio Q over V rearranges to give the stored charge directly",
-     "compute": "stored_charge = capacitance * voltage_diff"}
+     "compute": "stored_charge = capacitance * voltage_diff"
+    }
    ]
   },
   {
@@ -260,7 +377,7 @@
    "title": "Parallel Plate Capacitor Capacitance",
    "section": "2.12",
    "definition": "Two wide plates a narrow gap apart hold capacitance eps0 A over d, set purely by plate area, separation and the filling medium.",
-   "formula": "C = eps0 * A / d",
+   "formula": "C = eps_0 * A / d",
    "key_idea": "The field lives only in the gap and equals sigma over eps0, which is what turns the geometry directly into capacitance.",
    "textbook_ref": "leph102.txt section 2.12 (Eqs. 2.39-2.45, Exercise 2.8)",
    "question_patterns": [
@@ -272,17 +389,29 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "scale eps0 by area over gap",
+    {
+     "step": 1,
+     "action": "scale eps0 by area over gap",
      "explain": "insert eps0 = 8.85e-12, multiply by the plate area and divide by the separation",
-     "compute": "capacitance = 8.85e-12 * plate_area / gap"}
-   ]
+     "compute": "capacitance = 8.85e-12 * plate_area / gap"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "C = eps_0 * A / d",
+     "compute": "C = eps_0 * A / d"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph102.2.13.1",
    "title": "Dielectric Filling and Capacitance Gain",
    "section": "2.13",
    "definition": "Filling the gap with a dielectric multiplies the vacuum capacitance by the dielectric constant K, because polarisation shrinks the interior field and with it the plate voltage.",
-   "formula": "C = K * C0",
+   "formula": "C = K * C_0",
    "key_idea": "K above 1 is the capacitance growth factor; permittivity of the medium is eps0 K, and a thinner gap scales C up in the same ratio.",
    "textbook_ref": "leph102.txt section 2.13 (Eqs. 2.46-2.54, Example 2.8, Exercise 2.5)",
    "question_patterns": [
@@ -294,13 +423,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "ratio the gap change",
+    {
+     "step": 1,
+     "action": "ratio the gap change",
      "explain": "capacitance varies as one over the gap, so closing the gap multiplies C by old gap over new gap",
-     "compute": "geometry_factor = old_gap / new_gap"},
-    {"step": 2, "action": "apply the dielectric factor",
+     "compute": "geometry_factor = old_gap / new_gap"
+    },
+    {
+     "step": 2,
+     "action": "apply the dielectric factor",
      "explain": "the filled capacitance is K times the vacuum value times the geometry factor",
-     "compute": "new_capacitance = dielectric_constant * vacuum_capacitance * geometry_factor"}
-   ]
+     "compute": "new_capacitance = dielectric_constant * vacuum_capacitance * geometry_factor"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "C = K * C_0",
+     "compute": "C = K * C_0"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph102.2.14.1",
@@ -319,12 +463,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "add the reciprocals",
+    {
+     "step": 1,
+     "action": "add the reciprocals",
      "explain": "equal charge and added voltage drops make the reciprocals of the capacitances add",
-     "compute": "inv_total = 1 / cap1 + 1 / cap2"},
-    {"step": 2, "action": "invert the sum",
+     "compute": "inv_total = 1 / cap1 + 1 / cap2"
+    },
+    {
+     "step": 2,
+     "action": "invert the sum",
      "explain": "the equivalent capacitance is the reciprocal of the summed reciprocals",
-     "compute": "equivalent_capacitance = 1 / inv_total"}
+     "compute": "equivalent_capacitance = 1 / inv_total"
+    }
    ]
   },
   {
@@ -332,7 +482,7 @@
    "title": "Capacitors in Parallel",
    "section": "2.14.2",
    "definition": "Wiring capacitors side by side puts the same voltage on every unit while their charges add, so the capacitances add straight to one larger equivalent.",
-   "formula": "C = C1 + C2",
+   "formula": "C = C_1 + C_2",
    "key_idea": "Parallel shares voltage but pools charge, giving an equivalent at least as large as the biggest branch.",
    "textbook_ref": "leph102.txt section 2.14.2 (Eqs. 2.61-2.67, Example 2.9)",
    "question_patterns": [
@@ -344,10 +494,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "sum the branch capacitances",
+    {
+     "step": 1,
+     "action": "sum the branch capacitances",
      "explain": "common voltage means charges C1V, C2V and so on add, so the capacitances simply add",
-     "compute": "equivalent_capacitance = cap1 + cap2"}
-   ]
+     "compute": "equivalent_capacitance = cap1 + cap2"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "C = C_1 + C_2",
+     "compute": "C = C_1 + C_2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph102.2.15.1",
@@ -366,9 +528,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "apply the one-half C V squared rule",
+    {
+     "step": 1,
+     "action": "apply the one-half C V squared rule",
      "explain": "charging work integrates Q dQ over C, ending at half the product of capacitance and voltage squared",
-     "compute": "stored_energy = 0.5 * capacitance * voltage_diff ** 2"}
+     "compute": "stored_energy = 0.5 * capacitance * voltage_diff ** 2"
+    }
    ]
   }
  ],
@@ -379,17 +544,30 @@
    "concept": "leph102.2.3.1",
    "question_type": "potential_then_work",
    "question_pattern": "A charge of {Q} C sits 9 cm from point P. Find the potential at P, then the work to carry {q_moved} C there from infinity.",
-   "extracted_variables": {"Q": 4e-07, "r": 0.09, "q_moved": 2e-09},
+   "extracted_variables": {
+    "Q": 4e-07,
+    "r": 0.09,
+    "q_moved": 2e-09
+   },
    "solution_template": [
-    {"step": 1, "action": "write the Coulomb constant",
+    {
+     "step": 1,
+     "action": "write the Coulomb constant",
      "explain": "k = 9e9 in SI units",
-     "compute": "k_const = 9.0e9"},
-    {"step": 2, "action": "point-charge potential",
+     "compute": "k_const = 9.0e9"
+    },
+    {
+     "step": 2,
+     "action": "point-charge potential",
      "explain": "V equals k Q over r",
-     "compute": "potential = k_const * Q / r"},
-    {"step": 3, "action": "work from the potential",
+     "compute": "potential = k_const * Q / r"
+    },
+    {
+     "step": 3,
+     "action": "work from the potential",
      "explain": "the carrying work is the moved charge times the potential at the destination",
-     "compute": "work_needed = q_moved * potential"}
+     "compute": "work_needed = q_moved * potential"
+    }
    ]
   },
   {
@@ -398,17 +576,29 @@
    "concept": "leph102.2.14.1",
    "question_type": "series_then_drop",
    "question_pattern": "Three capacitors of {c} F each are chained in series across a {supply} volt supply. Find the combination capacitance and the drop across one unit.",
-   "extracted_variables": {"c": 9e-12, "supply": 120.0},
+   "extracted_variables": {
+    "c": 9e-12,
+    "supply": 120.0
+   },
    "solution_template": [
-    {"step": 1, "action": "add the three reciprocals",
+    {
+     "step": 1,
+     "action": "add the three reciprocals",
      "explain": "series units carry the same charge, so reciprocals add",
-     "compute": "inv_total = 1 / c + 1 / c + 1 / c"},
-    {"step": 2, "action": "invert the sum",
+     "compute": "inv_total = 1 / c + 1 / c + 1 / c"
+    },
+    {
+     "step": 2,
+     "action": "invert the sum",
      "explain": "the equivalent capacitance is one over the summed reciprocals",
-     "compute": "equivalent = 1 / inv_total"},
-    {"step": 3, "action": "share the supply voltage",
+     "compute": "equivalent = 1 / inv_total"
+    },
+    {
+     "step": 3,
+     "action": "share the supply voltage",
      "explain": "each unit takes the supply times the equivalent over its own capacitance",
-     "compute": "drop = supply * equivalent / c"}
+     "compute": "drop = supply * equivalent / c"
+    }
    ]
   },
   {
@@ -417,11 +607,17 @@
    "concept": "leph102.2.15.1",
    "question_type": "stored_energy",
    "question_pattern": "A capacitor of {C} F is connected to a {V} volt battery. How much electrostatic energy does it store?",
-   "extracted_variables": {"C": 12e-12, "V": 50.0},
+   "extracted_variables": {
+    "C": 1.2e-11,
+    "V": 50.0
+   },
    "solution_template": [
-    {"step": 1, "action": "apply the energy rule",
+    {
+     "step": 1,
+     "action": "apply the energy rule",
      "explain": "stored energy is one-half capacitance times voltage squared",
-     "compute": "stored_energy = 0.5 * C * V ** 2"}
+     "compute": "stored_energy = 0.5 * C * V ** 2"
+    }
    ]
   }
  ],

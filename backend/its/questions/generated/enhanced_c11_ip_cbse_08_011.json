@@ -34,6 +34,31 @@
      "q": "Design a \"Digital Footprint Audit Checklist\" of 5 actionable items a Class 11 student can perform *today* to reduce their passive digital footprint. Each item must be a specific technical action, not generic advice.",
      "a": "Good checklist: (1) Disable \"Location History\" in Google Account → Data & Privacy → Location History → Turn Off. (2) Clear cookies and site data for all non-essential sites via browser settings (e.g., Chrome: Settings → Privacy → Clear browsing data → Cookies). (3) Revoke unused app permissions: Android Settings → Apps → Permissions → Location/Microphone/Contacts → Deny for apps not used in 30 days. (4) Opt out of ad personalization: Google Ad Settings → Ad Personalization → Off. (5) Use a privacy-focused search engine (DuckDuckGo) as default instead of Google. A poor answer listing \"be careful online\" shows inability to translate concept into technical agency.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Data protection refers to the practices, safeguards, and legal frameworks designed to secure personal and sensitive information from ______ access, use, disclosure, disruption, modification, or destruction.",
+     "a": "unauthorized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you install a \"free\" ______ app on your phone.",
+     "a": "flashlight",
+     "self_check": true
+    },
+    {
+     "q": "What is Data protection? State the definition given in this lesson.",
+     "a": "Data protection refers to the practices, safeguards, and legal frameworks designed to secure personal and sensitive information from unauthorized access, use, disclosure, disruption, modification, or destruction.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Data protection?",
+     "a": "Students believe Incognito/Private browsing mode makes them anonymous and prevents digital footprints.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish between active and passive digital footprints with concrete examples from their own device usage, and (2) Explain how data protection principles (consent, purpose limitation, data minimization, storage limitation) apply to a given real-world scenario such as a school app collecting attendance.",
+     "self_check": true
     }
    ]
   }

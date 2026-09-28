@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch10_9",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch10_9",
+   "title": "c9_math_ch10_9",
+   "questions": [
+    {
+     "q": "State the theorem \"Lines parallel to the same line are parallel to each other\" in your own words, and draw a labelled diagram showing three lines l, m, n and a transversal t that illustrates this theorem.",
+     "a": "Correct answer: \"If line l is parallel to line m, and line m is parallel to line n, then line l is parallel to line n.\" The diagram should show three distinct lines with double arrows (>>) on each pair, and a transversal intersecting all three, with corresponding angles marked equal. A wrong answer (e.g., \"lines parallel to each other are parallel to the same line\") reveals the student has reversed the logical direction — they confuse the hypothesis and conclusion, a common error when memorising theorems without understanding the \"if-then\" structure.",
+     "self_check": true
+    },
+    {
+     "q": "In the figure, line AB || CD and line CD || EF. A transversal PQ intersects AB at X, CD at Y, and EF at Z. If ∠AXY = 55°, find ∠CYZ and ∠EZY. Explain why ∠AXY = ∠EZY even though line AB and line EF are not directly given as parallel.",
+     "a": "∠CYZ = 55° (corresponding angles, AB || CD), ∠EZY = 55° (corresponding angles, CD || EF). ∠AXY = ∠EZY because both equal ∠CYZ — the transitivity of equality transfers the angle measure through the middle line CD. A wrong answer (e.g., ∠EZY = 125°) reveals the student treats each pair of parallel lines in isolation and fails to chain the equalities — they don't see that \"parallel to the same line\" creates a chain of equal corresponding angles across all three lines.",
+     "self_check": true
+    },
+    {
+     "q": "Three parallel lines l, m, n are cut by two transversals t1 and t2. On t1, the intercepts between l & m and m & n are 4 cm and 6 cm respectively. On t2, the intercept between l & m is 10 cm. Find the intercept between m & n on t2. (Hint: Use the property of parallel lines and transversals.)",
+     "a": "Step 1: By the intercept theorem (equal ratios for parallel lines), (intercept on t1 between l&m) / (intercept on t1 between m&n) = (intercept on t2 between l&m) / (intercept on t2 between m&n). Step 2: 4/6 = 10/x. Step 3: Cross-multiply: 4x = 60. Step 4: x = 15 cm. A wrong answer (e.g., x = 10 cm assuming equal intercepts) reveals the student confuses \"parallel lines make equal intercepts\" (only true for parallel transversals) with the correct proportional intercepts property — they don't recognise that the transversal ratio is preserved because all three lines are parallel to each other.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two statements: (A) \"If two lines are perpendicular to the same line, they are parallel to each other.\" (B) \"If two lines are parallel to the same line, they are parallel to each other.\" Are both true in Euclidean plane geometry? Justify your answer with a diagram or counterexample.",
+     "a": "Both are TRUE in Euclidean plane geometry. (A) Two lines perpendicular to the same line make 90° angles with it, so they have the same direction → parallel. (B) This is the theorem of this node. A wrong answer claiming (A) is false reveals the student confuses plane geometry with 3D space (where perpendiculars to a line can be skew) — they haven't internalised that Class 9 deals strictly with coplanar figures.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following proof: \"Given: l || m and m || n. To prove: l || n. Proof: Since l || m, ∠1 = ∠2 (corresponding angles). Since m || n, ∠2 = ∠3 (corresponding angles). Therefore ∠1 = ∠3. Hence l || n.\" Identify the missing step or assumption in this proof that makes it incomplete for a board exam.",
+     "a": "The proof assumes the transversal intersects all three lines at distinct points forming corresponding angles ∠1, ∠2, ∠3 in the same relative position. The missing step: \"Draw a transversal intersecting l, m, n at points P, Q, R respectively\" and \"∠1, ∠2, ∠3 are corresponding angles on the same side of the transversal.\" Without explicitly constructing the transversal and naming the angles, the proof lacks rigour. A student who thinks the proof is complete as written reveals they don't understand that geometric proofs require explicit construction and angle identification — they treat the theorem as a \"given\" rather than something to be derived from axioms.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (with Indian context) that requires using the theorem \"lines parallel to the same line are parallel to each other\" to solve. The problem must involve at least 3 parallel lines and a transversal, and the solution must find an unknown angle or length.",
+     "a": "Example problem: \"A railway track has three parallel lines: Main Line, Loop Line, and Siding. A crossing gate (transversal) makes a 38° angle with the Main Line. Find the angle the gate makes with the Siding.\" Solution: Since all three tracks are parallel to each other, the corresponding angles are equal → 38°. A poor answer (e.g., a problem with only 2 lines, or no transversal, or asking for something unrelated) reveals the student cannot synthesise the theorem into a meaningful application — they see it as an isolated fact, not a tool for modelling parallel structures in the real world.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

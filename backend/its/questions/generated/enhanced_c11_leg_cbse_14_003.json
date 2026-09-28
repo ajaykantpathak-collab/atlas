@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_14_003",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_14_003",
+   "title": "c11_leg_cbse_14_003",
+   "questions": [
+    {
+     "q": "Under HAMA 1956, what are the four mandatory conditions for a valid adoption, and which Section governs the actual giving-and-taking ceremony?",
+     "a": "The four conditions: (1) adoptive parent has capacity (Sections 7/8), (2) child is adoptable (Section 10 — Hindu, unmarried, under 15 unless custom permits), (3) actual giving and taking ceremony (Section 11), (4) age gap of 21 years if adopting opposite sex (Section 11). Section 11 governs the ceremony. A wrong answer (e.g., \"registration is enough\" or \"consent of biological parents is the only requirement\") reveals the student confuses adoption with guardianship or contract law — they miss that **ceremony is mandatory and non-waivable** under HAMA.",
+     "self_check": true
+    },
+    {
+     "q": "A Hindu widow adopts a son without her deceased husband's prior consent and without court permission. Is the adoption valid? Explain using the concept of \"capacity to adopt\" under HAMA.",
+     "a": "Invalid. Under Section 8, a female Hindu has capacity to adopt only if she is of sound mind, not a minor, and (if married) her husband is dead / has renounced world / has been declared of unsound mind / has ceased to be Hindu. A widow **can** adopt (husband is dead), but she must still comply with Section 11 (ceremony, age gap). However, if she adopted **during husband's lifetime without his consent**, it would be void under Section 7. A wrong answer (\"valid because she's a widow\") shows the student doesn't distinguish between **capacity to adopt** (Section 7/8) and **validity requirements** (Section 11) — they conflate \"who can adopt\" with \"how adoption must be done.\"",
+     "self_check": true
+    },
+    {
+     "q": "Apply the \"relation back\" doctrine from *Sitabai v. Ramachandra* (1970) to this scenario: A Hindu male dies in 2020. His widow adopts a son in 2022. The adopted son claims a share in the father's 2020 property. Will he succeed?",
+     "a": "Yes. Under Section 12 HAMA read with *Sitabai*, the adopted child is deemed to be born into the adoptive family **from the date of adoption** for all purposes — but for inheritance, the \"relation back\" doctrine (codified in Section 12(c)) treats the adoption as relating back to the date of the adoptive father's death **if the adoption is by a widow**. The adopted son steps into the shoes of a natural son as on 2020. A wrong answer (\"no, adoption was in 2022\") reveals the student doesn't know the **statutory fiction in Section 12(c)** that protects widows' adoptions from defeating vested rights — they treat adoption as purely prospective.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the legal effect of adoption under HAMA 1956 vs. guardianship under Guardians and Wards Act 1890 for a Muslim couple taking in a child. Focus on three differences: inheritance, maintenance, and severance of biological ties.",
+     "a": "Under HAMA: (1) adopted child inherits equally with natural children (Section 12), (2) adoptive parents have absolute maintenance obligation (Section 20), (3) biological ties fully severed (Section 12). Under GWA 1890: (1) ward has **no automatic inheritance** — only if willed, (2) guardian's maintenance duty is **limited to guardianship period**, (3) biological ties **remain intact** — ward stays legal child of biological parents. A wrong answer (\"same rights\") shows the student misses the **fundamental distinction: adoption creates filiation; guardianship creates a protective relationship only.**",
+     "self_check": true
+    },
+    {
+     "q": "Critique the CARA guidelines for inter-country adoption in light of *Lakshman Singh Kothari v. Union of India* (2020). Does the Supreme Court prioritize the child's welfare or procedural compliance?",
+     "a": "The Court prioritizes **child's welfare as paramount** but insists procedural compliance (CARA guidelines, Hague Convention) is the **means to secure that welfare**. In *Lakshman Singh Kothari*, the Court refused to regularize an adoption that bypassed CARA, stating \"welfare cannot be a cloak for illegality.\" A wrong answer (\"welfare overrides procedure\") reveals the student doesn't grasp that **in adoption law, procedure IS the protection** — skipping safeguards (home study, court order, CARA NOC) risks trafficking, which defeats welfare. The Court balances both: welfare is the *end*, procedure the *non-negotiable means*.",
+     "self_check": true
+    },
+    {
+     "q": "Design a valid adoption scenario for a Hindu couple (husband 40, wife 35) adopting a 12-year-old Hindu girl. Specify every statutory step they must complete under HAMA 1956, including the ceremony details and age-gap compliance.",
+     "a": "Valid scenario: (1) Couple has capacity (Section 7: husband of sound mind, major; wife's consent obtained — Section 7 proviso). (2) Girl is adoptable (Section 10: Hindu, unmarried, under 15). (3) Actual giving-taking ceremony: biological parents/guardian physically hand over child to adoptive parents with intent to transfer filiation (Section 11(i)) — e.g., *Datta Homam* or community-specific rite. (4) Age gap: husband (40) - girl (12) = 28 years ≥ 21 ✓; wife (35) - girl (12) = 23 years ≥ 21 ✓ (Section 11(iii)). (5) Registration optional but recommended (Section 16). A poor answer (missing ceremony or age-gap check) shows the student treats adoption as paperwork, not a **status-creating act requiring ritual + statutory compliance**.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

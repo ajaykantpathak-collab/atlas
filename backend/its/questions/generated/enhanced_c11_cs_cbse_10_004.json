@@ -34,6 +34,26 @@
      "q": "Design a `Stack` class that supports a `get_min()` method returning the minimum element in O(1) time, using only a single auxiliary list (no extra data structures). Provide the push, pop, and get_min logic.",
      "a": "Maintain a parallel `min_stack` list. On push(x): `self.items.append(x)`; if `not self.min_stack or x <= self.min_stack[-1]: self.min_stack.append(x)`. On pop(): `val = self.items.pop()`; if `val == self.min_stack[-1]: self.min_stack.pop()`. `get_min()` returns `self.min_stack[-1]` if not empty else raises error. This tests synthesis of stack properties with auxiliary tracking. A poor answer uses `min(self.items)` (O(n)) or fails to handle duplicate minimums correctly.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of Stack Using List in Python refers to using Python's built-in mutable list data structure to simulate the Last-In-First-Out (LIFO) behavior of a stack, where the end of the list serves as the top of the stack, utilizing append() for push and pop() for pop operations.",
+     "a": "Implementation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a simple undo ______ for a text editor: every time the user types a character, you save the previous state.",
+     "a": "feature",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write a complete Python class or set of functions that correctly implements push, pop, peek, and isEmpty operations using a list, handles underflow/overflow conditions, and traces the state of the stack after a sequence of mixed operations.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a simple undo feature for a text editor: every time the user types a ______, you save the previous state.",
+     "a": "character",
+     "self_check": true
     }
    ]
   }

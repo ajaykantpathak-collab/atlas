@@ -34,6 +34,26 @@
      "q": "Design a one-page \"Cartographic Revolution Timeline\" for a Class 11 exhibition. For each of the five revolutions (Ptolemaic, Portolan, Mercator, Triangulation, Digital), specify: (a) the core geometric innovation, (b) the primary user community, and (c) one lasting legacy in today's mapping.",
      "a": "Good answer includes a structured table:\n| Revolution | Core Innovation | Primary Users | Living Legacy |\n|---|---|---|---|\n| Ptolemaic | Lat/long grid + conic projection | Roman administrators, Renaissance scholars | Global coordinate standard (WGS 84) |\n| Portolan | Rhumb-line network from compass roses | Mediterranean pilots | Nautical chart symbology, ENC standards |\n| Mercator | Cylindrical conformal projection | Trans-oceanic navigators | Web Mercator (EPSG:3857) in Google Maps |\n| Triangulation | Ground control networks + theodolite chains | National states (tax, defence) | National topographic series, GPS control |\n| Digital | Layered geodatabases + on-the-fly projection | Planners, scientists, public | GIS, SDI, real-time location services |\n\nPoor answer lists dates/names without linking *innovation → user need → modern consequence*.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The history of map making traces the evolution of cartography from ancient symbolic ______ to modern scientific mapping, encompassing key milestones: Ptolemy's *Geographia* (c.",
+     "a": "representations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Open Google Maps on your phone and zoom from your neighbourhood to the whole Earth — notice how the grid of latitude/______ lines appears, how distances shrink near the poles, and how you can switch between satellite view and street map.",
+     "a": "longitude",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can sequence five major cartographic revolutions (Ptolemaic coordinates, portolan rhumb lines, Mercator projection, triangulation surveys, digital GIS) with their defining innovations, explain why each solved a specific navigational or administrative problem of its era, and evaluate how projection choices reflect the map's.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Open Google Maps on your phone and zoom from your ______ to the whole Earth — notice how the grid of latitude/longitude lines appears, how distances shrink near the poles, and how you can switch between satellite view and street map.",
+     "a": "neighbourhood",
+     "self_check": true
     }
    ]
   }

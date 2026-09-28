@@ -1,6 +1,53 @@
 {
- "catalog": "catalog_class11_biology_kebo111",
+ "catalog": "catalog_class11_biology_kebo111.json",
  "concepts": [
+  {
+   "id": "kebo.111.2.1",
+   "title": "Calvin Cycle and the ATP Requirement per Glucose",
+   "converted_to_compute": true,
+   "formula": "atp_needed = glucose_molecules * 18",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "atp_needed = glucose_molecules * 18",
+     "compute": "atp_needed = glucose_molecules * 18"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Calvin Cycle and the ATP Requirement per Glucose: given glucose_molecules = 17.3, find atp needed.",
+     "a": "311.4",
+     "self_check": false
+    },
+    {
+     "q": "For Calvin Cycle and the ATP Requirement per Glucose: given glucose_molecules = 18.2, find atp needed.",
+     "a": "327.6",
+     "self_check": false
+    },
+    {
+     "q": "For Calvin Cycle and the ATP Requirement per Glucose: given glucose_molecules = 18.8, find atp needed.",
+     "a": "338.4",
+     "self_check": false
+    },
+    {
+     "q": "For Calvin Cycle and the ATP Requirement per Glucose: given glucose_molecules = 5.4, find atp needed.",
+     "a": "97.2",
+     "self_check": false
+    },
+    {
+     "q": "For Calvin Cycle and the ATP Requirement per Glucose: given glucose_molecules = 4.3, find atp needed.",
+     "a": "77.4",
+     "self_check": false
+    },
+    {
+     "q": "For Calvin Cycle and the ATP Requirement per Glucose: given glucose_molecules = 16.8, find atp needed.",
+     "a": "302.4",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "kebo.111.1.1",
    "title": "Photosynthetic Pigments and the Light Reaction",
@@ -18,37 +65,6 @@
     {
      "q": "Under which section is 'Photosynthetic Pigments and the Light Reaction' taught, and from which source text?",
      "a": "11.2 Early Experiments, 11.3 Pigments, 11.6 The Electron Transport (source: kebo111.txt sections 11.3, 11.6)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebo.111.2.1",
-   "title": "Calvin Cycle and the ATP Requirement per Glucose",
-   "questions": [
-    {
-     "q": "How many atp are required to make one glucose molecule in the calvin cycle? Use the method 'Calvin Cycle and the ATP Requirement per Glucose'. Work with: glucose_molecules = 15. Carry the chain through step by step and give the final value of atp_needed.",
-     "a": "270 units",
-     "self_check": false
-    },
-    {
-     "q": "Calculate the atp demand for synthesising a given number of glucose molecules. Use the method 'Calvin Cycle and the ATP Requirement per Glucose'. Work with: glucose_molecules = 24. Carry the chain through step by step and give the final value of atp_needed.",
-     "a": "432 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Calvin Cycle and the ATP Requirement per Glucose' refers to.",
-     "a": "The Calvin cycle fixes carbon dioxide using ATP and NADPH of the light reaction, and for the formation of one molecule of glucose the cycle requires eighteen ATP and twelve NADPH, fixing six molecules of carbon dioxide in carboxylation steps.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Calvin Cycle and the ATP Requirement per Glucose'.",
-     "a": "RuBP carboxylation, reduction and regeneration of RuBP are the three stages of the Calvin cycle, and the energy budget of eighteen ATP per glucose shows the cost of carbon fixation.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Calvin Cycle and the ATP Requirement per Glucose', in plain ASCII form.",
-     "a": "atp_needed = glucose_molecules * 18",
      "self_check": true
     }
    ]

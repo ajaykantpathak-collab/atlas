@@ -34,6 +34,31 @@
      "q": "Design a 3-day cyclic menu for an Anganwadi supplementary nutrition programme (SNP) for 3-6 year olds providing 500 kcal and 12-15 g protein per day per child, using only ICDS-approved food items (wheat, rice, bengal gram, soybean, jaggery, groundnut, seasonal vegetables). Include cost per child per day ≤ ₹8. Show calculations for Day 1.",
      "a": "Day 1: Wheat 30 g (100 kcal, 3.5 g protein) + Bengal gram 20 g (70 kcal, 4 g protein) + Soybean 10 g (45 kcal, 3.5 g protein) + Jaggery 10 g (38 kcal) + Groundnut 5 g (28 kcal, 1.2 g protein) + Spinach 20 g (5 kcal, 0.6 g protein) + Oil 5 g (45 kcal). Total: 331 kcal, 12.8 g protein. To reach 500 kcal: increase wheat to 50 g, bengal gram to 30 g, oil to 8 g → 505 kcal, 16.5 g protein. Cost (2024 avg): ₹1.2 + ₹2.1 + ₹1.0 + ₹0.4 + ₹0.8 + ₹0.3 + ₹0.9 = ₹6.7. A good answer shows stepwise nutrient calculation, costing, and variety across 3 days (e.g., Day 2: khichdi; Day 3: upma) — demonstrating application of meal planning principles to real-world constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Preschool children (1-6 years) require nutrient-dense diets to support rapid physical growth, cognitive development, and high activity levels, with ICMR 2020 RDAs specifying 1060-1350 kcal/day energy, 16.7-20.1 g/day protein, and age-specific ______ allowances that exceed per-kg adult needs due to metabolic demands of tissue synthesis and brain maturation.",
+     "a": "micronutrient",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a dietetic intern at an ______ centre in rural Maharashtra.",
+     "a": "Anganwadi",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A mother brings her ______-year-old son who eats only rice and dal, refuses vegetables, and looks pale.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate individualized energy and protein requirements for a preschool child using ICMR 2020 RDA tables, design a day's balanced menu meeting ≥90% of RDAs for all nutrients using food exchange lists, and justify modifications for common conditions like poor appetite or iron deficiency anemia with specific food.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a dietetic intern at an Anganwadi centre in rural ______.",
+     "a": "Maharashtra",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a 4-step security protocol for a new B2C e-commerce startup that sells downloadable software. The protocol must address all three NCERT risk categories using only tools mentioned in the chapter. Explain the purpose of each step.",
      "a": "Example protocol:\n1. **Registration with email/phone OTP + cookie storage** – mitigates transaction risk (default on order) by verifying identity/location at sign-up.\n2. **Mandatory SSL/TLS encryption for all payment pages** – mitigates data transmission risk (interception of card details).\n3. **Digital signature on license agreement + IT Act 2000 compliant electronic record retention** – mitigates transaction risk (default on payment/delivery) and gives legal enforceability.\n4. **Automated anti-virus scan of downloadable files + privacy policy opt-in** – mitigates data storage risk (virus) and privacy risk (unauthorized data use).\nA weak answer (e.g., only listing SSL and anti-virus) reveals inability to map tools to all three risk categories and omission of legal/organizational measures.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Online ______ in e-business refer to the end-to-end digital process of purchasing goods or services over the internet, encompassing three operational stages: pre-purchase/sale (advertising, information search), purchase/sale (price negotiation, order placement, payment), and delivery (physical or digital fulfillment).",
+     "a": "transactions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to buy a ______ online at midnight.",
+     "a": "smartphone",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Payment mechanisms are the specific instruments and protocols—Cash on Delivery (CoD), cheque, net-banking transfers (IMPS/NEFT/RTGS), credit/debit cards, and digital cash—that enable the financial settlement stage, while security measures (encryption/SSL, digital signatures, identity verification, legal framework under IT Act ______) mitigate transaction risks (default on order, delivery, payment), data storage/transmission risks (virus, hacking), and intellectual property/privacy threats.",
+     "a": "2000",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) sequence the three stages and six steps of an online transaction from registration to delivery, (2) distinguish all five payment mechanisms on criteria of settlement timing, risk allocation, and infrastructure requirement, and (3) match each e-business risk category (transaction, data, privacy) with its.",
+     "self_check": true
     }
    ]
   }

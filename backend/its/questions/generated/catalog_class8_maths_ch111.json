@@ -4,15 +4,9 @@
   {
    "id": "hemh.111.1.1",
    "title": "Identifying Direct and Inverse Variation",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "set up the proportion and solve for the unknown part",
-     "explain": "set up the proportion and solve for the unknown part: t1 = 3 / 3 gives 1",
-     "compute": "t1 = 3 / 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "direct: x/y = k, inverse: x*y = k",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 3 : 24 in its simplest form and give the first term of the simplest form.",
@@ -50,10 +44,12 @@
    "id": "hemh.111.2.1",
    "title": "Direct Proportion Quantity Calculation",
    "converted_to_compute": false,
+   "formula": "y2 = (x2 * y1) / x1",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 40 : 120 in its simplest form and give the first term of the simplest form.",
-     "a": "4",
+     "a": "1",
      "self_check": false
     },
     {
@@ -87,10 +83,12 @@
    "id": "hemh.111.2.2",
    "title": "Scale Ratio and Map Distance Applications",
    "converted_to_compute": false,
+   "formula": "actual_distance = map_distance * scale_factor",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 12 : 30 in its simplest form and give the first term of the simplest form.",
-     "a": "4",
+     "a": "2",
      "self_check": false
     },
     {
@@ -124,10 +122,12 @@
    "id": "hemh.111.3.1",
    "title": "Inverse Proportion Quantity Calculation",
    "converted_to_compute": false,
+   "formula": "y2 = (x1 * y1) / x2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 16 : 64 in its simplest form and give the first term of the simplest form.",
-     "a": "2",
+     "a": "1",
      "self_check": false
     },
     {

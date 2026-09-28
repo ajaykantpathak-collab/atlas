@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_03_006",
+   "title": "c11_leg_cbse_03_006",
+   "questions": [
+    {
+     "q": "What are the three distinct meanings of 'Separation of Powers' as interpreted by Wade and Phillips (1960)?",
+     "a": "Wade and Phillips identified three meanings: (i) the same persons should not form part of more than one organ; (ii) one organ should not control or interfere with another's functions; (iii) one organ should not exercise the functions of another. A wrong answer (e.g., listing Montesquieu's reasons) reveals confusion between the *theoretical justification* and the *operational definitions* used in constitutional law.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Montesquieu argued that combining judicial power with legislative power exposes liberty to arbitrary control.",
+     "a": "Montesquieu reasoned that if the judge is also the legislator, the same person makes the law and applies it — there is no independent check on interpretation, allowing arbitrary application. A student who says \"it creates bias\" misses the structural point: it eliminates the *institutional separation* that ensures laws are general and prospective, not tailored to specific cases.",
+     "self_check": true
+    },
+    {
+     "q": "The President of India promulgates an Ordinance under Article 123 during Parliament's recess. Within six weeks of reassembly, Parliament rejects it. Has the doctrine of Separation of Powers been violated? Justify using the concept of 'checks and balances'.",
+     "a": "No violation. The executive exercised delegated legislative power (a check *on* the legislature's absence), but the legislature retains the *ultimate check* — approval or rejection within six weeks. This is a textbook example of checks and balances: temporary executive law-making subject to legislative ratification. A \"yes\" answer reveals a misconception that *any* executive law-making violates separation, ignoring the constitutional design of *regulated overlap*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the position of the judiciary in the UK (pre-2005) and India regarding institutional independence. Use the Lord Chancellor and Article 50/124(2) in your analysis.",
+     "a": "Pre-2005 UK: Lord Chancellor fused all three roles — Speaker of Lords (legislature), Cabinet Minister (executive), Head of Judiciary and judge (judiciary) — violating all three Wade-Phillips meanings. India: Article 50 directs separation of judiciary from executive in public services; Article 124(2) mandates judicial consultation in appointments (collegium system); judges' salaries charged on Consolidated Fund; removal only by impeachment. A weak answer ignores the *Constitutional Reform Act 2005* as the UK's corrective step or conflates \"independence\" with \"supremacy.\"",
+     "self_check": true
+    },
+    {
+     "q": "\"Judicial review is the most effective check on legislative and executive power in India.\" Evaluate this statement with reference to the Basic Structure doctrine (Kesavananda Bharati) and Article 368.",
+     "a": "The statement is largely correct but qualified. Judicial review (Articles 32, 226, 136) allows courts to strike down laws/amendments violating fundamental rights or Basic Structure (supremacy of Constitution, separation of powers, federalism, etc.). However, Parliament can amend *non-basic* features via Article 368 (special majority + state ratification for federal provisions). The judiciary cannot review *policy wisdom*, only *constitutional validity*. Overreach (judicial activism) risks violating separation itself. A one-sided \"yes\" ignores the *dialogue* between organs; a \"no\" ignores the *constitutional mandate* of judicial review as basic structure.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical constitutional crisis scenario where the executive, legislature, and judiciary each claim exclusive authority over a single issue (e.g., judicial appointments, treaty ratification, emergency powers). Resolve it using Indian constitutional provisions.",
+     "a": "Scenario: The President appoints a Supreme Court judge without consulting the CJI (executive claim); Parliament passes a law removing consultation requirement (legislative claim); the Supreme Court strikes it down as violating Basic Structure (judicial claim). Resolution: Article 124(2) + *Supreme Court Advocates-on-Record Association v. Union of India* (1993, 2015) — consultation with CJI/collegium is mandatory; NJAC Act struck down; judicial primacy in appointments is part of Basic Structure. A poor answer fails to cite the *binding precedent* or treats it as a political dispute rather than a constitutional interpretation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

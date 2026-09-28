@@ -5,6 +5,8 @@
    "id": "jemh.11.1",
    "title": "Circumference of Circle",
    "converted_to_compute": false,
+   "formula": "C = 2 * pi * r, where r is the radius of the circle and pi is approximately 22/7 or 3.14",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 77 cm (take pi = 22/7).",
@@ -42,6 +44,8 @@
    "id": "jemh.11.2",
    "title": "Area of Circle",
    "converted_to_compute": false,
+   "formula": "A = pi * r^2, where r is the radius of the circle",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 25 cm by 22 cm.",
@@ -79,6 +83,8 @@
    "id": "jemh.11.3",
    "title": "Length of Arc",
    "converted_to_compute": false,
+   "formula": "l = (theta / 360) * 2 * pi * r, where theta is the central angle in degrees and r is the radius",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 63 cm (take pi = 22/7).",
@@ -116,6 +122,8 @@
    "id": "jemh.11.4",
    "title": "Area of Sector",
    "converted_to_compute": false,
+   "formula": "A = (theta / 360) * pi * r^2, where theta is the central angle in degrees and r is the radius",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 21 cm (take pi = 22/7).",
@@ -152,15 +160,9 @@
   {
    "id": "jemh.11.5",
    "title": "Area of Segment of Circle",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the circle formula with pi = 22/7",
-     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 49 gives 308",
-     "compute": "circ = 2 * 22 / 7 * 49"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "Area of segment = Area of sector - Area of triangle = (theta/360) * pi * r^2 - (1/2) * r^2 * sin(theta)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 49 cm (take pi = 22/7).",
@@ -197,15 +199,9 @@
   {
    "id": "jemh.11.6",
    "title": "Area of Combination of Circular Regions",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the area formula base times height",
-     "explain": "apply the area formula base times height: area = 20 * 10 gives 200",
-     "compute": "area = 20 * 10"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "Total area = Sum of individual areas (with appropriate addition or subtraction for overlaps)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 20 cm by 10 cm.",
@@ -243,6 +239,8 @@
    "id": "jemh.11.7",
    "title": "Area Between Two Concentric Circles",
    "converted_to_compute": false,
+   "formula": "Area = pi * R^2 - pi * r^2 = pi * (R^2 - r^2), where R is the outer radius and r is the inner radius",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 84 cm (take pi = 22/7).",
@@ -279,15 +277,9 @@
   {
    "id": "jemh.11.8",
    "title": "Problems Involving Sector and Segment Areas",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the circle formula with pi = 22/7",
-     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 7 gives 44",
-     "compute": "circ = 2 * 22 / 7 * 7"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "Sector area = (theta/360)*pi*r^2; Segment area = Sector area - Triangle area",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 7 cm (take pi = 22/7).",

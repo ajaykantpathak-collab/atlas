@@ -34,6 +34,21 @@
      "q": "Design a simple thought experiment or real-world test to demonstrate that a refrigerator's COP decreases as the temperature difference between the inside (cold) and outside (hot) increases. Describe the setup, what you would measure, and the expected trend based on the Carnot formula.",
      "a": "Setup: Use a portable thermoelectric cooler (Peltier device) powered by a variable voltage source with an ammeter and voltmeter to measure electrical work input (W = VIt). Place it in an insulated box (cold reservoir) with a temperature sensor. Vary the outside (hot) temperature by placing the hot side in water baths at different temperatures (e.g., 20°C, 30°C, 40°C) while keeping the cold side target temperature constant (e.g., 5°C). Measure steady-state heat removal rate Q₂/t (by tracking temperature rise of a known mass of water inside) and electrical power input W/t. Calculate COP = (Q₂/t) / (W/t). Expected trend: As T_hot increases (T_cold fixed), T₁ - T₂ increases, so Carnot COP = T₂/(T₁ - T₂) decreases. Measured COP should show the same decreasing trend. A poor answer would not control variables (e.g., changing both temperatures) or would confuse the trend (expecting COP to increase with larger ΔT).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Coefficient of Performance (COP) of a refrigerator, denoted by α (alpha), is a ______ measure of its effectiveness defined as the ratio of heat extracted from the cold reservoir (Q₂) to the work input (W) required to achieve this extraction: α = Q₂/W.",
+     "a": "dimensionless",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a household ______: it keeps the inside cold (≈ 4°C) while the kitchen is warm (≈ 30°C), and its compressor motor consumes electricity.",
+     "a": "refrigerator",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Calculate the COP of a refrigerator given Q₂ and W, or given T₁ and T₂ for an ideal Carnot refrigerator, with correct unit handling (temperatures in Kelvin).",
+     "self_check": true
     }
    ]
   }

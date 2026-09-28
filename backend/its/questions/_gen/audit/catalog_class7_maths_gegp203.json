@@ -42,9 +42,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "hcf = 12 * 1"
-   ]
+   "steps_chain": []
   },
   {
    "id": "gegp2.3.2",
@@ -130,9 +128,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "hcf = 5 * 1"
-   ]
+   "steps_chain": []
   },
   {
    "id": "gegp2.3.4",
@@ -177,10 +173,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lhs = 3 ** 3 + 4 ** 3",
-    "diff = 5 ** 3 - lhs"
-   ]
+   "steps_chain": []
   }
  ]
 }

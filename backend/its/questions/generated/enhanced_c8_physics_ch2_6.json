@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a battery, a nichrome wire, and a thermometer to verify that heat produced is proportional to the square of the current. List the steps and what you would plot.",
      "a": "Steps: (1) Set up a circuit with a battery, variable resistor (rheostat), ammeter, and a fixed length of nichrome wire immersed in a known mass of water in an insulated cup. (2) Adjust rheostat to get a current I₁, close switch for fixed time t, measure temperature rise Δθ₁. (3) Repeat for different currents I₂, I₃, etc., keeping t and water mass same. (4) Calculate heat H = mcΔθ for each. (5) Plot H vs I and H vs I². The H vs I² graph should be a straight line through origin. A poor answer (e.g., \"measure heat for different currents\" without controlling time, mass, or plotting I²) shows the student cannot design a controlled experiment to isolate the I² relationship.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The heating effect of electric current is the ______ where electrical energy is converted into heat energy when current flows through a conductor.",
+     "a": "phenomenon",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: when you touch a phone ______ after it has been plugged in for a while, it feels warm.",
+     "a": "charger",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the heat produced in a circuit using H = I²Rt when given current, resistance, and time, and can explain why the heat depends on the square of the current rather than linearly.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world ______: when you touch a phone charger after it has been plugged in for a while, it feels warm.",
+     "a": "observation",
+     "self_check": true
     }
    ]
   }

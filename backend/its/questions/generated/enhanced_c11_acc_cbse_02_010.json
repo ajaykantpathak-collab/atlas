@@ -34,6 +34,31 @@
      "q": "Create a scenario with at least four transactions (mix of cash/credit, prepaid/accrued) where cash basis profit differs from accrual basis profit by exactly ₹15,000 for a year. Show the calculation for both.",
      "a": "Example: (1) Credit sales ₹40,000 (not received), (2) Cash sales ₹20,000, (3) Rent paid ₹12,000 (includes ₹3,000 for next year), (4) Salary outstanding ₹5,000. Accrual profit = (40,000+20,000) - (9,000+5,000) = ₹46,000. Cash profit = 20,000 - 12,000 = ₹8,000. Difference = ₹38,000 (adjust numbers to get ₹15,000). A good answer shows correct classification and arithmetic. A poor answer (e.g., missing outstanding salary) reveals inability to identify all accruals/prepayments affecting the period.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cash basis of ______ records revenues only when cash is received and expenses only when cash is paid, ignoring the timing of when the economic activity actually occurred.",
+     "a": "accounting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small online tutoring ______ in December.",
+     "a": "business",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Under cash basis, your December profit would only show the ______ payments received minus the rent paid.",
+     "a": "7",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify any given transaction as revenue/expense under both cash and accrual basis, compute the resulting profit difference, and explain why accrual basis provides a more accurate picture of financial performance for a given accounting period.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small online ______ business in December.",
+     "a": "tutoring",
+     "self_check": true
     }
    ]
   }

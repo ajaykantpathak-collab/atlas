@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_02_005",
+   "title": "c12_soc_cbse_02_005",
+   "questions": [
+    {
+     "q": "Define Total Fertility Rate (TFR) and state its unit of measurement. How does it differ from the Crude Birth Rate?",
+     "a": "TFR is the average number of children a woman would bear during her reproductive years (15-49) if she experienced the current age-specific fertility rates throughout her childbearing life. Its unit is \"children per woman\". Unlike CBR (live births per 1000 total population), TFR controls for age-sex structure by using age-specific rates, making it comparable across populations. A wrong answer that says \"TFR is births per 1000 women\" confuses it with GFR; a student who cannot explain the age-standardisation misses why TFR is the gold standard for fertility comparison.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the death rate in India fell sharply after 1921 while the birth rate declined only gradually. Use at least two distinct sociocultural factors.",
+     "a": "The death rate dropped due to (a) epidemic control (vaccination, sanitation) and famine relief (transport, state action) — technical interventions that work quickly — while the birth rate is tied to deep-seated norms: (1) son preference and old-age security motivate larger families, and (2) low female autonomy/education delays contraceptive adoption. A wrong answer that only cites \"poverty\" or \"illiteracy\" without distinguishing the speed of technical vs. behavioural change shows incomplete understanding of the demographic transition mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "A district has 12,000 live births in a year, a mid-year population of 800,000, and 200,000 women aged 15-49. Calculate the Crude Birth Rate and General Fertility Rate. Which rate would you use to compare fertility with a neighbouring district that has a younger age structure? Why?",
+     "a": "CBR = (12,000 / 800,000) × 1000 = 15 per 1000. GFR = (12,000 / 200,000) × 1000 = 60 per 1000 women 15-49. Use GFR for comparison because it removes the effect of different age-sex compositions; CBR would be distorted if one district has proportionally more women in reproductive ages. A student who picks CBR fails to grasp that GFR standardises for the population at risk.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the infant mortality rate (IMR) and maternal mortality ratio (MMR) as indicators of healthcare quality. Why is MMR expressed per 100,000 live births while IMR is per 1,000 live births?",
+     "a": "IMR reflects overall child health environment (nutrition, sanitation, immunisation); MMR specifically captures obstetric care access and quality. MMR uses 100,000 because maternal deaths are rare events — using 1,000 would yield many zeroes and unstable rates. A student who says \"both are per 1000\" or cannot explain the rarity justification reveals a mechanical memorisation without epidemiological reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "\"Kerala's TFR of 1.7 (below replacement) proves that high female literacy alone ensures low fertility.\" Evaluate this statement using evidence from at least two other Indian states.",
+     "a": "The statement is reductionist. Kerala combines high female literacy with early marriage age, widespread contraceptive access, and strong public health infrastructure. Contrast with Himachal Pradesh (similar TFR but lower literacy historically) and Tamil Nadu (low TFR driven by aggressive family welfare programmes, not just literacy). Conversely, states like West Bengal have high female literacy but TFR >1.7 due to cultural factors. A student who agrees uncritically ignores the multivariate nature of fertility decline.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple awareness campaign poster for a high-fertility district that uses the concept of \"demographic dividend\" to motivate smaller families. Your poster must include one quantitative fact and one emotional appeal.",
+     "a": "A good answer: Poster shows a young graduate with caption \"India's average age is 29 — our demographic dividend window closes by 2040. Every child you educate becomes a nation-builder. Choose quality over quantity: two children, two dreams.\" Quantitative fact: median age or dependency ratio projection. Emotional appeal: aspirations for child's future. A poor answer uses only slogans (\"Small family, happy family\") without linking to the dividend's time-bound nature, showing inability to translate demographic concepts into actionable communication.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Fertility and mortality measures are ______ indicators used to assess the reproductive and survival patterns of a population.",
+     "a": "quantitative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking: \"Why does a couple in rural Bihar typically have three children while a couple in urban Kerala stops at one, even though both want healthy families?\" This real-world contrast hooks students into the ______ drivers behind the numbers.",
+     "a": "sociocultural",
+     "self_check": true
+    },
+    {
+     "q": "What is Fertility and mortality measures? State the definition given in this lesson.",
+     "a": "Fertility and mortality measures are quantitative indicators used to assess the reproductive and survival patterns of a population.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Fertility and mortality measures?",
+     "a": "Students often confuse \"replacement level fertility\" (TFR ≈ 2.1) with \"zero population growth\" and assume that once TFR hits 2.1, population stops growing immediately.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) calculate and interpret at least three fertility rates and three mortality rates from given data, (2) explain why fertility declines slower than mortality using sociocultural factors, and (3) analyse state-level differentials to identify which states have achieved replacement-level fertility and which lag.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

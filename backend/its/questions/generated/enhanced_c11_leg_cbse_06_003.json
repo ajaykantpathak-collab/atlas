@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_06_003",
+   "title": "c11_leg_cbse_06_003",
+   "questions": [
+    {
+     "q": "Which school of jurisprudence asserts that \"an unjust law is not a true law\" (lex iniusta non est lex) and considers morality as a necessary condition for legal validity?",
+     "a": "Natural Law School. A wrong answer (e.g., Analytical School) reveals the student confuses \"law as command\" (positivism) with \"law as morality\" (natural law) — they haven't grasped that natural lawyers believe legal validity *depends* on moral content, while positivists separate the two entirely.",
+     "self_check": true
+    },
+    {
+     "q": "In the Speluncean Explorers case, Justice Foster argues the explorers were in a \"state of nature\" where natural law applies, and alternatively, that the statute should be interpreted purposively to avoid absurdity. Which TWO schools of jurisprudence does this dual reasoning reflect?",
+     "a": "Natural Law School (state of nature, higher moral law) and Sociological School (purposive interpretation balancing social interests). A wrong answer (e.g., \"Analytical and Historical\") shows the student cannot distinguish between schools that look *outside* the statute (natural law, sociological) versus those that focus *inside* the text (analytical) or *behind* it (historical).",
+     "self_check": true
+    },
+    {
+     "q": "A judge says: \"The statute says 'no vehicles in the park.' An ambulance enters to save a child. I rule the ambulance is not a 'vehicle' for this statute because the legislative purpose was noise/safety, not banning emergencies.\" Which school of jurisprudence does this reasoning exemplify?",
+     "a": "Sociological School (Roscoe Pound's \"social engineering\" — law as tool to balance competing interests). A wrong answer (e.g., \"Natural Law\") reveals the student thinks any moral reasoning = natural law, missing that sociological jurisprudence focuses on *social purpose and balancing interests*, not universal morality.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Justice Keen's and Justice Handy's opinions in the Speluncean Explorers case. Both vote to convict/acquit based on the *same* statute — but their reasoning is fundamentally different. Explain the jurisprudential divide between them.",
+     "a": "Keen = Analytical Positivism: law is sovereign command, morality irrelevant, judges apply text only. Handy = Legal Realism: law is what courts *do*, public opinion and \"common sense\" matter, judges should maintain legitimacy. The divide: Keen sees judging as mechanical application; Handy sees it as pragmatic governance. A wrong answer (e.g., \"both are positivists\") shows inability to distinguish formal validity (Keen) from sociological effectiveness (Handy).",
+     "self_check": true
+    },
+    {
+     "q": "Critique the Historical School's claim that \"law is found, not made\" (Savigny's Volksgeist) in the context of modern constitutional democracies like India. Is this school still relevant for interpreting personal laws?",
+     "a": "Historical School is partially relevant for personal laws (Hindu/Muslim law rooted in custom) but inadequate for constitutional law where rights are *enacted*, not evolved. In India, custom is a source but subject to constitutional morality (Art. 14, 21) — so \"law found in custom\" cannot override fundamental rights. A weak answer ignores the tension between customary law and constitutional supremacy.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new \"Speluncean-style\" scenario involving a modern Indian legal dilemma (e.g., passive euthanasia, triple talaq, or data privacy) and write a 3-sentence judgment from the perspective of a Legal Realist judge.",
+     "a": "Example: \"A terminally ill patient requests passive euthanasia. No statute permits it. But 80% of Indians support it, medical boards endorse it, and criminalizing it harms doctor-patient trust. I allow it — law must serve society, not strangle it.\" A poor answer writes a Natural Law judgment (\"right to dignity is divine\") or Positivist one (\"Parliament hasn't spoken, so no\") — showing they can't adopt the Realist lens of *consequences, context, and judicial behavior*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,36 @@
      "q": "Create a continuous frequency distribution with 5 classes where the standard deviation calculated by step-deviation method is exactly 10. Provide the class intervals, frequencies, assumed mean, and common factor used.",
      "a": "Example: Classes 0-10, 10-20, 20-30, 30-40, 40-50 with frequencies 2, 3, 5, 3, 2. Mid-values: 5,15,25,35,45. Choose A=25, h=10. u = (m-25)/10 → -2,-1,0,1,2. Σfu = 2(-2)+3(-1)+5(0)+3(1)+2(2)= -4-3+0+3+4=0. Σfu² = 2(4)+3(1)+5(0)+3(1)+2(4)=8+3+0+3+8=22. N=15. σ = h√[Σfu²/N - (Σfu/N)²] = 10√[22/15 - 0] = 10√1.4667 ≈ 12.11. To get exactly 10, adjust frequencies so Σfu²/N = 1. A valid answer must satisfy Σfu=0 and Σfu²=N. For instance, frequencies 1,1,1,1,1 (N=5) with same u gives Σfu²=10, σ=10√(10/5)=10√2≈14.14. The student must understand the step-deviation formula and how to engineer the numbers. A poor answer would not satisfy the formula constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Standard deviation (σ) is the positive square root of the arithmetic mean of the squared ______ of individual values from their arithmetic mean.",
+     "a": "deviations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are comparing the ______ of two cricket bowlers: Bowler A takes wickets in matches as 2, 3, 1, 4, 5 and Bowler B takes 0, 1, 6, 2, 6.",
+     "a": "consistency",
+     "self_check": true
+    },
+    {
+     "q": "What is Standard deviation (σ)? State the definition given in this lesson.",
+     "a": "Standard deviation (σ) is the positive square root of the arithmetic mean of the squared deviations of individual values from their arithmetic mean.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Both have mean ______ wickets per match, but their performances differ in consistency.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Standard deviation (σ)?",
+     "a": "Students often confuse the denominator in standard deviation formula: they use N-1 (sample formula) instead of N (population formula) even when the data represents the entire population.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to compute standard deviation for individual, discrete, and continuous series using direct method, assumed mean method, and step-deviation method, and correctly interpret the result as a measure of dispersion in the original units of the data.",
+     "self_check": true
     }
    ]
   }

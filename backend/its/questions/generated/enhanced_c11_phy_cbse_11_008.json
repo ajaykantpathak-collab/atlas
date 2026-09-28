@@ -34,6 +34,26 @@
      "q": "Design a simple classroom demonstration using a syringe (sealed at the tip) and a temperature sensor to distinguish between near-isothermal and near-adiabatic compression of air. Describe the procedure, what to measure, and the expected qualitative difference.",
      "a": "Procedure: (1) Seal a plastic syringe tip with glue/tape. (2) Insert a fast-response digital thermometer probe through a hole in the plunger seal. (3) For near-adiabatic: push plunger rapidly (~0.5 s) from 50 mL to 10 mL, record max temperature. (4) Allow to cool back to room temperature. (5) For near-isothermal: push plunger very slowly (~30 s) while holding syringe in a water bath at room temperature, record temperature. Expected: Adiabatic shows significant temperature rise (e.g., 20-30°C); isothermal shows negligible change (<1°C). A poor design that doesn't control timescale or thermal contact reveals misunderstanding of the quasi-static requirement and the role of thermal reservoirs.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An isothermal process is a ______ process in which the temperature of the system remains constant (ΔT = 0) throughout, achieved by allowing heat exchange with a thermal reservoir so that ΔU = 0 for an ideal gas and Q = W.",
+     "a": "thermodynamic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bicycle pump: when you compress air rapidly by pushing the piston quickly, the pump barrel becomes noticeably warm — this is an adiabatic ______ because there is no time for heat to escape.",
+     "a": "compression",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An adiabatic process is a thermodynamic process in which no heat is exchanged between the system and its surroundings (Q = ______), so the change in internal energy is entirely due to work done (ΔU = -W), resulting in a temperature change.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Derive and state the governing equations for both processes from the First Law, (2) Calculate work done, heat exchanged, and temperature change for given initial/final states, (3) Sketch and interpret P-V diagrams showing both processes on the same axes, identifying which is steeper and why, (4) Explain why an.",
+     "self_check": true
     }
    ]
   }

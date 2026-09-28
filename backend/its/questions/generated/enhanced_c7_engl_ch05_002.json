@@ -17,22 +17,42 @@
     },
     {
      "q": "If a soldier receives a posthumous gallantry award, what does this indicate about the nature of their service during a conflict?",
-     "a": "[Answer needed]",
+     "a": "It shows the soldier made the supreme sacrifice: the act of extraordinary courage was performed in the face of the enemy and cost the soldier's life, so the gallantry award is conferred after death. Assuming such awards are routine honours for veterans misses the wartime sacrifice they mark.",
      "self_check": true
     },
     {
      "q": "A posthumous award indicates that the soldier displayed extraordinary courage, leadership, or self-sacrifice in the face of the enemy, resulting in their death during the line of duty. A wrong answer might assume the award is given routinely to all retired veterans, missing the specific context of wartime bravery and supreme sacrifice.",
-     "a": "[Answer needed]",
+     "a": "Correct — a posthumous award recognises extraordinary courage, leadership, or self-sacrifice that ended in death during duty; it is not a routine honour given to retired veterans.",
      "self_check": true
     },
     {
      "q": "How do wars fought in high-altitude mountain terrains, such as Siachen or Kargil, present unique challenges compared to plains?",
-     "a": "[Answer needed]",
+     "a": "Mountain warfare adds extreme cold, thin oxygen, and treacherous icy heights to the danger of enemy fire, so a soldier battles the terrain and climate as much as the opposing army. Treating all battlefields as alike ignores how geography tests endurance and survival skills.",
      "self_check": true
     },
     {
      "q": "Mountain warfare involves extreme weather, freezing temperatures, oxygen deprivation, and treacherous vertical terrain where hostile enemy fire is compounded by harsh natural elements. A wrong answer usually treats all battlefields as identical, overlooking how geography and climate severely test a soldier's physical endurance and survival skills.",
-     "a": "[Answer needed]",
+     "a": "Correct — freezing weather, oxygen deprivation, and vertical terrain compound enemy fire in mountains, so geography and climate become enemies in themselves; assuming all battlefields are identical misses these natural challenges.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This topic explores the historical context of India's post-______ wars, examining the geopolitical challenges faced by the nation and the profound personal sacrifices made by soldiers to protect its sovereignty and territorial integrity.",
+     "a": "independence",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you see a monument like the India Gate or the ______ War Memorial, have you ever wondered what specific events led to the names engraved on those stone walls?",
+     "a": "National",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Students will be able to identify major post-independence conflicts fought by India, explain the historical reasons behind them, and analyze the human cost of war through the lens of soldiers' sacrifices.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you see a ______ like the India Gate or the National War Memorial, have you ever wondered what specific events led to the names engraved on those stone walls?",
+     "a": "monument",
      "self_check": true
     }
    ]

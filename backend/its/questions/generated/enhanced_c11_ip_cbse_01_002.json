@@ -34,6 +34,31 @@
      "q": "Design a block diagram for a computer system used in an ATM (Automated Teller Machine). Label all hardware components (including specialised I/O devices) and indicate the flow of data when a user withdraws cash. Briefly describe the role of the OS and the banking application software in this flow.",
      "a": "A good answer includes: CPU (SoC), RAM, Secure Cryptoprocessor (hardware security module), Card Reader (input), Keypad (input), Display (output), Receipt Printer (output), Cash Dispenser (output), Network Interface (communication), Encrypted Storage (secondary). Data flow: Card Reader → CPU (verify PIN via OS & banking app) → Network → Bank Server → Response → CPU → Cash Dispenser + Printer + Display. OS manages hardware resources, schedules tasks, handles secure storage; banking app implements withdrawal logic, communicates with bank server. A poor diagram omits the secure element, network interface, or treats the cash dispenser as a generic printer, showing inability to map abstract components to a specialised embedded system.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A computer system is an integrated set of physical components (hardware) and ______ sets (software) that work together to accept input, process data, store information, and produce output.",
+     "a": "instruction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying a new ______ for your Class 11 projects.",
+     "a": "laptop",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Group the code items (Windows ______, MS Office) as software.",
+     "a": "11",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) correctly classify any given computer component as hardware or software and further categorise hardware into input, output, processing, memory, or storage, and software into system, application, or programming tools; (2) explain the functional interdependence between hardware and software using the concept.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying a new laptop for your Class 11 ______.",
+     "a": "projects",
+     "self_check": true
     }
    ]
   }

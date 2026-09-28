@@ -22,7 +22,7 @@
     "read the time temperature graph",
     "what does the line graph display"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -39,7 +39,16 @@
      "action": "describe the trend",
      "explain": "Rising or falling segments show the trend between readings"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 2 gives 2",
+     "compute": "lines = 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c8m13.1.2",
@@ -94,7 +103,7 @@
     "identify the independent and dependent variables in the situation",
     "the number of litres of petrol you buy will decide the amount you pay which is independent"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -111,7 +120,16 @@
      "action": "confirm the relationship",
      "explain": "Verify that changing the independent variable causes a predictable change in the dependent variable, confirming the dependency"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 2 + 6 gives 12",
+     "compute": "val = 3 * 2 + 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c8m13.2.2",
@@ -130,7 +148,7 @@
     "join the points to get the graph",
     "is it a linear graph"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -152,7 +170,16 @@
      "action": "join the points",
      "explain": "Joining the points gives the graph; a whole unbroken line is a linear graph"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 15 / 3 gives 5",
+     "compute": "t1 = 15 / 3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c8m13.2.3",

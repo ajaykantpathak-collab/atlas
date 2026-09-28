@@ -34,6 +34,31 @@
      "q": "Design a **mini gene cloning project** for a Class 12 science exhibition: you want to clone the *Bt* toxin gene (*cry1Ac*) from *Bacillus thuringiensis* into *E. coli* and demonstrate insecticidal activity. Write a **6-step workflow** with **one specific enzyme/reagent per step** (use actual names like \"EcoRI\", \"T4 DNA ligase\", \"CaCl₂\", \"ampicillin\", \"X-gal/IPTG\", \"IPTG induction\"). Include a **blue-white screening** step.",
      "a": "1. **Isolate genomic DNA** from *B. thuringiensis* – reagent: **lysozyme + SDS + phenol-chloroform + ethanol**.  \n2. **Cut *cry1Ac* gene and plasmid vector (pUC19)** – enzyme: **EcoRI** (produces sticky ends in *lacZ* MCS).  \n3. **Ligate *cry1Ac* into pUC19** – enzyme: **T4 DNA ligase + ATP**.  \n4. **Transform into *E. coli* DH5α** – reagent: **CaCl₂ + heat shock (42°C, 90 sec)**.  \n5. **Select & screen recombinants** – plate on **LB + ampicillin + X-gal + IPTG**; pick **white colonies** (insert disrupts *lacZ*).  \n6. **Express & test toxin** – grow white colony in **LB + ampicillin + IPTG**; assay supernatant on *Helicoverpa armigera* larvae.  \n**Wrong answer analysis:** If the student uses \"blue colonies\" as recombinants, they invert the blue-white logic (white = insert present). If they omit IPTG in step 5, *lacZ* isn't induced → no color development. If they skip ampicillin in step 6, plasmid loss occurs. This tests **integrated application** of cloning + screening + expression — a CUET/board case-study favorite.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Gene cloning is the process of creating multiple identical copies (clones) of a specific gene or DNA fragment by inserting it into a vector (e.g., plasmid), ______ the recombinant DNA into a host cell (e.g., *E. coli*), and exploiting the host's cellular machinery to replicate the inserted DNA along with its own genome, yielding a population of cells each containing the same recombinant DNA molecule.",
+     "a": "introducing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a biotechnologist at Bharat Biotech tasked with ______ human insulin for diabetes patients — you cannot extract enough insulin from human pancreases, so you must \"clone\" the human insulin gene into bacteria to turn them into insulin factories.",
+     "a": "producing",
+     "self_check": true
+    },
+    {
+     "q": "What is Gene cloning? State the definition given in this lesson.",
+     "a": "Gene cloning is the process of creating multiple identical copies (clones) of a specific gene or DNA fragment by inserting it into a vector (e.g., plasmid), introducing the recombinant DNA into a host cell (e.g., *E. coli*), and exploiting the host's cellular machinery to replicate the inserted DNA along with its own genome, yielding a.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Gene cloning?",
+     "a": "\"Gene cloning = PCR because both amplify DNA.\" Students memorize \"cloning makes copies\" and \"PCR makes copies\" and equate them.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can list the seven major steps of the gene cloning workflow in correct sequential order (identification → isolation → cutting/ligation → transfer → selection → screening → amplification) and explain the specific purpose of each step in one sentence without referring to notes.",
+     "self_check": true
     }
    ]
   }

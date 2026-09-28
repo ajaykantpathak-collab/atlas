@@ -34,6 +34,36 @@
      "q": "Design a drying-and-ironing protocol for a mixed load containing: 100 % linen tablecloth, 70/30 polyester/cotton shirt, merino wool sweater, and silk scarf. Specify: drying method, drying equipment, ironing temperature, ironing equipment, and sequence — justifying each choice in one sentence.",
      "a": "Linen: shade line-dry to damp, steam press at 200 °C (cellulosic, high wet strength, needs pressure for crispness). Poly/cotton: tumble dry low heat (60 °C) to 10 % moisture, steam iron at 150 °C (polyester limits temp). Wool: flat dry on towel rack away from heat, steam iron at 140 °C with press cloth (protein, felting risk). Silk: flat dry in shade, steam iron at 110 °C dry side down with press cloth (protein, UV/heat sensitive). Sequence: dry all first (linen & poly/cotton can tumble; wool & silk flat), then iron coolest to hottest (silk → wool → poly/cotton → linen) to avoid re-heating soleplate. A poor answer treats all items identically or ignores the ironing sequence efficiency.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Drying and ironing are the final finishing stages of fabric care where wet textiles are ______ moisture-reduced using controlled air/heat exposure (drying) and then smoothed using heated pressure (ironing) to restore dimensional stability, remove wrinkles, and prepare garments for wear or storage, with temperature and method selected strictly according to fibre type, fabric construction, and finish sensitivity.",
+     "a": "systematically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you just washed a favourite silk kurta and a heavy ______ towel — both are dripping wet.",
+     "a": "cotton",
+     "self_check": true
+    },
+    {
+     "q": "What is Drying and ironing? State the definition given in this lesson.",
+     "a": "Drying and ironing are the final finishing stages of fabric care where wet textiles are systematically moisture-reduced using controlled air/heat exposure (drying) and then smoothed using heated pressure (ironing) to restore dimensional stability, remove wrinkles, and prepare garments for wear or storage, with temperature and method.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Emphasise that temperature is not a suggestion — it is a threshold: exceed wool's ______ °C and you permanently damage scales; under-heat cotton and wrinkles persist.",
+     "a": "150",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Drying and ironing?",
+     "a": "Students believe \"high heat + steam = better ironing for everything\" because steam irons advertise \"powerful steam removes tough wrinkles.\" They crank the dial to maximum for a polyester school uniform, producing irreversible glazed streaks.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently select the correct drying method (sun/shade/flat/machine), drying equipment, and ironing temperature setting for any given fabric (cotton, linen, wool, silk, polyester, blends) by interpreting care labels and fibre properties, and can explain the scientific reason for each choice in terms of fibre morphology.",
+     "self_check": true
     }
    ]
   }

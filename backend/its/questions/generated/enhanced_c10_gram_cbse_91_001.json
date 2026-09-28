@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c10_gram_cbse_91_001",
+ "concepts": [
+  {
+   "id": "enh:c10_gram_cbse_91_001",
+   "title": "c10_gram_cbse_91_001",
+   "questions": [
+    {
+     "q": "'The quality of these mangoes ___ (was/were) poor.'",
+     "a": "'was' — head noun is 'quality', singular; 'of these mangoes' is a decoy phrase. A wrong answer 'were' reveals proximity agreement — the student matched the verb to 'mangoes', the noun physically closest, instead of the head.",
+     "self_check": true
+    },
+    {
+     "q": "'The captain, as well as the players, ___ (was/were) congratulated.'",
+     "a": "'was' — 'as well as' is a parenthetical insert, not a coordinator; subject stays singular. A wrong answer 'were' reveals the student believes as-well-as = and, the exact misconception this node exists to kill.",
+     "self_check": true
+    },
+    {
+     "q": "'There ___ (is/are) a boy and two girls waiting outside.'",
+     "a": "'are' — compound subject 'a boy and two girls' follows the verb. (Some accept proximity 'is'; boards expect 'are'.) A wrong answer 'is' chosen because 'a boy' is singular shows the student applied proximity logic to the one construction where it is explicitly wrong.",
+     "self_check": true
+    },
+    {
+     "q": "'The box of chocolates is empty' — 'box' is the head, 'chocolates' is a ______ decoy.",
+     "a": "prepositional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Subject–verb agreement is decided by the HEAD of the subject phrase, never by the noun nearest the verb. 'The box of chocolates is empty' — 'box' is the head, 'chocolates' is a ______ decoy.",
+     "a": "prepositional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Take 'The leader, ______ with his followers, ___ (is/are) here.' Cover everything after the comma — the subject is just 'the leader'.",
+     "a": "along",
+     "self_check": true
+    },
+    {
+     "q": "What is Subject–verb agreement? State the definition given in this lesson.",
+     "a": "Subject–verb agreement is decided by the HEAD of the subject phrase, never by the noun nearest the verb. 'The box of chocolates is empty' — 'box' is the head, 'chocolates' is a prepositional decoy.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Subject–verb agreement?",
+     "a": "Students agree the verb with the nearest noun ('the box of chocolates are') — proximity agreement — and treat 'as well as / along with' like 'and', wrongly pluralizing the subject.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify the head noun in a subject phrase of any length, strip intervening phrases (of-, with-, along with-, as well as-), and choose the correct verb form in 9/10 items including inverted and there-sentences.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Take 'The leader, along with his followers, ___ (is/are) here.' Cover ______ after the comma — the subject is just 'the leader'.",
+     "a": "everything",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

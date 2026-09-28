@@ -21,8 +21,8 @@
      "self_check": true
     },
     {
-     "q": "Compare the coastal management challenges faced by a fishing village on the Kerala coast (rocky headlands, pocket beaches) with those of a port city on the Odisha coast (deltaic, cyclone-prone). Identify two physical geography factors and one human factor that make their adaptation strategies different.",
-     "a": "Physical factors: Kerala's rocky headlands limit beach nourishment but provide natural protection, while Odisha's low-lying deltaic coast with wide continental shelf amplifies storm surges; Human factor: Kerala's high population density and tourism demand hard engineering (sea walls), whereas Odisha's cyclone shelters and mangrove restoration reflect disaster-risk reduction priorities. A wrong answer (e.g., \"both need sea walls\") reveals the student cannot link physical setting to appropriate human response.",
+     "q": "Trace the correct sequence linking a coast's physical landforms to the adaptation choices of its communities.",
+     "a": "The adaptation chain runs: (1) Rocky headlands or deltaic plains set each coast's natural protection (2) Wave energy and storm-surge exposure differ between the two (3) Communities read these landform constraints (4) Kerala villages rely on natural headland shelter while low-lying Odisha builds cyclone shelters and restores mangroves. A wrong answer that prescribes sea walls for both coasts shows the student cannot connect landform type and sediment supply to suitable coastal management.",
      "self_check": true
     },
     {
@@ -31,8 +31,33 @@
      "self_check": true
     },
     {
-     "q": "Design a coastal zone management plan for a 20 km stretch of the Gujarat coast that includes a major port (Kandla), salt pans, mangrove patches, and fishing villages. Your plan must address: erosion control, livelihood protection, and biodiversity conservation. Annotate a sketch map with three zones and explain the landform-process reasoning for each.",
-     "a": "Zone 1 (Port headland): Rock armour revetment on erosional cliffs - hard engineering justified by high-value infrastructure and limited sediment supply; Zone 2 (Intertidal flats): Mangrove regeneration belt - uses depositional mudflats to attenuate waves, protect salt pans, and support fisheries; Zone 3 (Sandy beach villages): Beach nourishment + dune fencing + setback lines - works with longshore drift to maintain depositional beaches for tourism and fishing access. A poor answer (e.g., \"sea walls everywhere\") reveals the student cannot match management strategy to landform type and human use.",
+     "q": "Give the correct order of zones in a coastal management plan stretching from a port headland to sandy fishing villages.",
+     "a": "The zoning order runs: (1) Rock armour revetments guard the port headland where infrastructure value is highest (2) A mangrove regeneration belt on the intertidal mudflats attenuates waves and shields the salt pans (3) Beach nourishment with dune fencing serves the sandy village beaches (4) Setback lines keep new construction off the shifting shore. A wrong answer that applies one uniform treatment to every zone shows the student has ignored how landform and process must drive each management choice.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Coastal landforms are natural features shaped by the dynamic interaction of sea waves, currents, tides, and wind along the shoreline, classified as erosional (cliffs, wave-cut platforms, sea caves, arches, stacks) or ______ (beaches, spits, bars, tombolos, barrier islands, lagoons).",
+     "a": "depositional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stand on Marina Beach in Chennai at low tide and observe the wide sandy beach, then walk to the rocky headlands near Mahabalipuram where waves crash against cliffs - you are seeing ______ and erosional landforms side by side.",
+     "a": "depositional",
+     "self_check": true
+    },
+    {
+     "q": "What is Coastal landforms? State the definition given in this lesson.",
+     "a": "Coastal landforms are natural features shaped by the dynamic interaction of sea waves, currents, tides, and wind along the shoreline, classified as erosional (cliffs, wave-cut platforms, sea caves, arches, stacks) or depositional (beaches, spits, bars, tombolos, barrier islands, lagoons).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Coastal landforms?",
+     "a": "Students think all coastal erosion is \"bad\" and all deposition is \"good,\" leading them to believe sea walls should be built everywhere to stop erosion.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify and explain the formation sequence of at least three erosional and three depositional coastal landforms using labelled diagrams, and can evaluate how a specific Indian coastal community (e.g., fishing village in Kerala, port city like Mumbai) adapts to or modifies its coastal environment, citing specific.",
      "self_check": true
     }
    ]

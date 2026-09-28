@@ -32,7 +32,27 @@
     },
     {
      "q": "Design a print setup for a 12-month cash flow statement (columns A:M, rows 1:50) that must: (a) fit on one A4 page, (b) repeat row 1 (headers) on every page if it spills, (c) show \"Confidential - Page X of Y\" in footer. List the exact steps in order.",
-     "a": "Steps: 1. Page Layout → Print Area → Set Print Area (A1:M50). 2. Page Layout → Page Setup dialog → Page tab: Orientation=Landscape, Scaling=Fit to 1 page wide by 1 page tall. 3. Sheet tab: Rows to repeat at top = $1:$1. 4. Header/Footer tab: Custom Footer → Center: \"Confidential - Page &[Page] of &[Pages]\". 5. Print Preview to verify. A poor answer misses any step, especially \"Rows to repeat\" or dynamic page numbers (&[Page]), showing incomplete mastery of multi-page report setup.",
+     "a": "(1) Set the print area — Page Layout, then Print Area, then Set Print Area over the whole statement, (2) Fit the page — in the Page Setup dialog choose landscape orientation and scale to one page wide by one page tall, (3) Repeat the header — on the Sheet tab set rows to repeat at the top as the header row, (4) Stamp the footer — under the Header and Footer tab build a custom centred footer with dynamic page numbers of the form Confidential, Page X of Y, (5) Verify — use Print Preview before printing to confirm the layout. A poor answer misses the repeat-rows setting or types literal numbers instead of dynamic page codes, showing incomplete mastery of multi-page report setup.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Output Reports in a spreadsheet refer to the process of configuring, previewing, and printing worksheet data in a structured, formatted layout suitable for professional presentation, including defining print areas, setting headers/footers, adjusting page layout, and generating hard copies or print-to-file outputs for ______.",
+     "a": "documentation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Your ______ asks you to print a \"Monthly Sales Summary\" for the last quarter — but only the region-wise totals, not the 500-row raw data.",
+     "a": "manager",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently set a print area for a specific data range, configure page orientation and margins, insert dynamic headers/footers with page numbers and date, preview the report in Page Layout view, and print a professional-looking report that fits on a specified number of pages without data truncation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Your manager asks you to print a \"Monthly Sales Summary\" for the last quarter — but only the region-wise totals, not the ______-row raw data.",
+     "a": "500",
      "self_check": true
     }
    ]

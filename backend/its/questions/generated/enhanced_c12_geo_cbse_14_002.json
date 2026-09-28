@@ -34,6 +34,31 @@
      "q": "Design a locational decision matrix for a new integrated steel plant (capacity 3 MTPA) choosing between Site A (near iron ore mine, 300 km from coal, no port) and Site B (coastal, imported coal & ore, deep-water port). List five weighted criteria, score each site (1–5), and recommend.",
      "a": "Criteria & weights: (1) Raw material transport cost (30%), (2) Power availability (15%), (3) Export/import logistics (20%), (4) Environmental clearance ease (15%), (5) Social infrastructure (20%). Site A: (1) 5, (2) 3 (captive thermal), (3) 2, (4) 3 (forest clearance), (5) 2 → weighted 3.55. Site B: (1) 2, (2) 4 (grid + import), (3) 5, (4) 4 (coastal zone but simpler), (5) 4 → weighted 3.55. Tie-break: Site B preferred for export-oriented steel; Site A for domestic long products. A simplistic “Site A because near ore” ignores total logistics and policy risk.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Industrial location factors are the geographical, economic, and political determinants that influence where ______ units are established, including access to raw materials, power, labour, market, transport, capital, and government policies.",
+     "a": "manufacturing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a map of India’s major ______ clusters — notice how the iron & steel plants hug the Chota Nagpur Plateau while cotton textiles cluster around Mumbai and Ahmedabad.",
+     "a": "industrial",
+     "self_check": true
+    },
+    {
+     "q": "What is Industrial location factors? State the definition given in this lesson.",
+     "a": "Industrial location factors are the geographical, economic, and political determinants that influence where manufacturing units are established, including access to raw materials, power, labour, market, transport, capital, and government policies.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Industrial location factors?",
+     "a": "Students believe “nearness to raw material” is *always* the top factor.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the relative weightage of each locational factor for at least three major Indian industries (e.g., iron & steel, cotton textile, IT) and justify why certain regions became industrial hubs using map evidence and resource-distribution logic.",
+     "self_check": true
     }
    ]
   }

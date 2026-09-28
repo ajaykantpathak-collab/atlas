@@ -85,7 +85,16 @@
      "solution": "Step 1: subtract work done from heat supplied. Step 2: verify the sign convention for work and heat. Step 3: express the internal energy change with units. Working: delta_q - delta_w, delta_u.",
      "answer": "The method of first law of thermodynamics and energy conservation leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "delta_U = delta_Q - delta_W",
+     "compute": "delta_U = delta_Q - delta_W"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.204.3",
@@ -134,7 +143,16 @@
      "solution": "Step 1: calculate change in volume. Step 2: multiply pressure by volume change. Step 3: express the work done with units. Working: final_volume - initial_volume, pressure * delta_v, work.",
      "answer": "The method of work done in isobaric expansion leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "work = pressure * (final_volume - initial_volume)",
+     "compute": "work = pressure * (final_volume - initial_volume)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.204.4",
@@ -182,14 +200,23 @@
      "solution": "Step 1: multiply mass, specific heat, and temperature change. Step 2: determine the direction of heat flow. Step 3: express the heat transferred with units. Working: mass * sp_heat * delta_t, heat.",
      "answer": "The method of heat transfer and specific heat capacity leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "heat = mass * sp_heat * delta_T",
+     "compute": "heat = mass * sp_heat * delta_T"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.204.5",
    "title": "Mayer's Relation for Ideal Gas Specific Heats",
    "section": "11.6",
    "definition": "For an ideal gas, molar specific heat capacity at constant pressure exceeds molar specific heat capacity at constant volume by the universal gas constant.",
-   "formula": "Cp = Cv + R",
+   "formula": "Cp = Cv + 8.314",
    "key_idea": "Constant pressure heating requires additional energy to compensate for expansion work against external pressure.",
    "textbook_ref": "keph204.txt lines 265-295",
    "question_patterns": [
@@ -230,7 +257,16 @@
      "solution": "Step 1: add universal gas constant to constant volume heat capacity. Step 2: verify that Cp exceeds Cv. Step 3: express the molar heat capacity with units. Working: cv + r, cp.",
      "answer": "The method of mayer's relation for ideal gas specific heats leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "Cp = Cv + 8.314",
+     "compute": "Cp = Cv + 8.314"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.204.6",
@@ -271,7 +307,7 @@
    "title": "Work Done in Adiabatic Expansion of Ideal Gas",
    "section": "11.8.3",
    "definition": "During energy transfer without heat exchange, work executed by an ideal gas equals the decrease in internal energy calculated from initial and final temperatures.",
-   "formula": "work = moles * R * (T1 - T2) / (gamma - 1)",
+   "formula": "work = moles * 8.314 * (T_1 - T_2) / (gamma - 1)",
    "key_idea": "Adiabatic work output draws directly on internal thermal energy, producing a drop in temperature.",
    "textbook_ref": "keph204.txt lines 380-420",
    "question_patterns": [
@@ -313,14 +349,23 @@
      "solution": "Step 1: compute temperature difference. Step 2: compute adiabatic factor. Step 3: calculate adiabatic work done. Working: t1 - t2, gamma - 1, moles * r * delta_t / gamma_factor.",
      "answer": "The method of work done in adiabatic expansion of ideal gas leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "work = moles * 8.314 * (T_1 - T_2) / (gamma - 1)",
+     "compute": "work = moles * 8.314 * (T_1 - T_2) / (gamma - 1)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.204.8",
    "title": "Work Done in Cyclic Thermodynamic Process",
    "section": "11.8.6",
    "definition": "In a closed thermodynamic cycle, overall internal energy variation is zero, making net work performed equal to the area enclosed on a pressure-volume diagram.",
-   "formula": "work = 0.5 * (V2 - V1) * (P2 - P1)",
+   "formula": "work = 0.5 * (V_2 - V_1) * (P_2 - P_1)",
    "key_idea": "Total work in a cyclic process corresponds to the area within the closed PV loop.",
    "textbook_ref": "keph204.txt lines 430-450",
    "question_patterns": [
@@ -362,7 +407,16 @@
      "solution": "Step 1: calculate volume span. Step 2: calculate pressure span. Step 3: calculate enclosed triangular work area. Working: v2 - v1, p2 - p1, 0.5 * delta_v * delta_p.",
      "answer": "The method of work done in cyclic thermodynamic process leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "work = 0.5 * (V_2 - V_1) * (P_2 - P_1)",
+     "compute": "work = 0.5 * (V_2 - V_1) * (P_2 - P_1)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.204.9",
@@ -413,7 +467,7 @@
     "list main factors that cause irreversibility in natural processes",
     "verify whether quasi-static expansion with friction is reversible"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -430,7 +484,16 @@
      "action": "classify the process as reversible or irreversible",
      "explain": "if both quasi-static and non-dissipative conditions hold the process is reversible, otherwise it is irreversible."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "reversible = quasi_static + zero_dissipation",
+     "compute": "reversible = quasi_static + zero_dissipation"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.204.11",
@@ -479,7 +542,16 @@
      "solution": "Step 1: compute temperature ratio. Step 2: calculate efficiency. Step 3: express the efficiency as a percentage. Working: t_sink / t_source, 1 - ratio, efficiency * 100.",
      "answer": "The method of efficiency of carnot heat engine leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "efficiency = 1 - (T_sink / T_source)",
+     "compute": "efficiency = 1 - (T_sink / T_source)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.204.12",
@@ -528,7 +600,16 @@
      "solution": "Step 1: compute absolute temperature ratio. Step 2: calculate heat rejected to sink. Step 3: express the rejected heat with units. Working: t_sink / t_source, q_source * temp_ratio, q_sink.",
      "answer": "The method of heat transfer ratio in carnot engine leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "Q_sink = Q_source * (T_sink / T_source)",
+     "compute": "Q_sink = Q_source * (T_sink / T_source)"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

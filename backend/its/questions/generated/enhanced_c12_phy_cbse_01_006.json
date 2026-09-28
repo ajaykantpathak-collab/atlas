@@ -34,6 +34,31 @@
      "q": "Design a simple classroom activity using only a glass plate, castor oil, grass seeds (or semolina), and two metal electrodes connected to a high-voltage DC source (e.g., 5 kV) to map electric field lines for (a) two parallel plates and (b) a point and a plate. Describe the procedure and what the seed alignment shows.",
      "a": "Procedure: Place the glass plate on an insulating support. Arrange electrodes on the plate (parallel plates for (a), point and plate for (b)). Sprinkle a thin layer of grass seeds mixed with castor oil (to reduce friction and provide viscosity). Connect the electrodes to the 5 kV DC source. The seeds, being dielectric, polarize in the electric field and experience a torque aligning them along the local field direction. They form chains along the field lines. For (a), seeds align in straight parallel lines between plates, curving at edges (fringing). For (b), seeds show radial lines from point to plate, denser near the point. This demonstrates: (1) tangent to seed chains = field direction, (2) density of chains ∝ field strength. A poor answer omits the role of polarization/torque, uses AC voltage (seeds would vibrate, not align), or ignores safety (5 kV requires strict insulation and teacher supervision).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Electric field lines are ______ curves drawn in an electric field such that the tangent to the curve at any point gives the direction of the net electric field vector at that point.",
+     "a": "imaginary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a Van de Graaff generator in the school lab: when it runs, the metal dome becomes highly charged.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What is Electric field lines? State the definition given in this lesson.",
+     "a": "Electric field lines are imaginary curves drawn in an electric field such that the tangent to the curve at any point gives the direction of the net electric field vector at that point.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Electric field lines?",
+     "a": "Students believe electric field lines are *physical* entities that \"flow\" from positive to negative like water in a pipe, and that the *number* of lines drawn is fixed and absolute (e.g., \"a 1 C charge has exactly 6×10¹⁸ lines\").",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) draw qualitatively correct field line patterns for isolated point charges, dipoles, and pairs of like/unlike charges; (2) explain why two field lines never cross and why electrostatic field lines never form closed loops; (3) infer relative field strength from line density in a given diagram; and (4) identify the.",
+     "self_check": true
     }
    ]
   }

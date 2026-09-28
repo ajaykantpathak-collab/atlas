@@ -34,6 +34,21 @@
      "q": "Create an arithmetic expression involving four different integers where using the associative and commutative properties allows you to compute the answer entirely in your head without paper. Write the steps of your mental regrouping.",
      "a": "An example expression is $16 + 29 + 14 + 21$. Steps: 1. Group complementary numbers: $(16 + 14) + (29 + 21)$. 2. Simplify inside brackets: $30 + 50$. 3. Final answer: $80$. A poor answer would list random numbers that do not form easy pairs or fail to show how properties simplify the work.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying notebooks for ₹15, pens for ₹10, and erasers for ₹5 at the ______ stationery shop.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can apply commutative and associative properties of addition and multiplication to simplify complex arithmetic expressions mentally or in writing, and can explain why these properties fail for subtraction and division.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying notebooks for ₹15, pens for ₹10, and erasers for ₹5 at the school ______ shop.",
+     "a": "stationery",
+     "self_check": true
     }
    ]
   }

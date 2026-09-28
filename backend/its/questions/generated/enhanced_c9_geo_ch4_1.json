@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_geo_ch4_1",
+ "concepts": [
+  {
+   "id": "enh:c9_geo_ch4_1",
+   "title": "c9_geo_ch4_1",
+   "questions": [
+    {
+     "q": "What are the two main climatic factors that determine the distribution of major biomes across the world?",
+     "a": "The two main climatic factors are temperature and precipitation (rainfall). A student who answers only \"temperature\" or only \"rainfall\" shows a partial understanding and may mistakenly believe that one factor alone controls biome distribution, ignoring the interplay between heat and moisture that defines biomes like deserts (hot and dry) vs. tundra (cold and dry).",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Sahara Desert occur in northern Africa despite being near the equator, which typically receives high rainfall?",
+     "a": "The Sahara Desert occurs due to sinking air in the subtropical high-pressure zone (around 30°N latitude), which inhibits cloud formation and rainfall, creating arid conditions. A student who says \"it’s hot so it’s a desert\" reveals a misconception that temperature alone causes deserts, failing to recognize that some hot areas near the equator (like the Amazon) are rainy, while deserts form due to atmospheric circulation patterns, not just heat.",
+     "self_check": true
+    },
+    {
+     "q": "A city has an average annual temperature of 25°C and annual rainfall of 200 cm. Based on this data, which biome is most likely found here? Show your reasoning.",
+     "a": "The biome is tropical rainforest.\n- Step 1: Identify the given data—temperature 25°C (warm), rainfall 200 cm (very high).\n- Step 2: Recall that tropical rainforests require consistently high temperatures (above 24°C) and high rainfall (over 200 cm annually).\n- Step 3: Compare with other biomes: deserts have low rainfall (<50 cm), tundra has low temperature, grasslands have moderate rainfall (50–150 cm).\n- Step 4: The temperature and rainfall values match the tropical rainforest criteria.\n- Step 4 (continued): Since both conditions are met, the biome is tropical rainforest.\n- Step 5: Verify—regions like the Western Ghats or Northeast India have similar values and support rainforests.\nAnswer: Tropical rainforest. A student who selects \"desert\" or \"grassland\" likely confused rainfall thresholds or overlooked the need for both high temperature and high rainfall.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the climate and vegetation of the tundra biome and the taiga biome. How do their locations differ, and what explains this difference?",
+     "a": "Tundra is found in the Arctic (high latitudes, e.g., Alaska, Siberia), with very low temperatures, short summers, and low precipitation; vegetation is limited to mosses, lichens, and dwarf shrubs. Taiga (boreal forest) lies just south of the tundra (subarctic, e.g., Canada, Siberia), with longer summers, moderate precipitation, and coniferous trees like pine and spruce. The difference is due to latitude: tundra is colder because it receives less solar energy year-round, while taiga gets slightly more warmth, allowing tree growth. A student who says both are the same or reverses their locations fails to grasp the latitudinal temperature gradient and its ecological threshold for tree survival.",
+     "self_check": true
+    },
+    {
+     "q": "A proposal suggests converting part of the tundra in Siberia into farmland to grow wheat. Evaluate the sustainability of this idea based on biome characteristics.",
+     "a": "This idea is not sustainable. The tundra has permafrost (permanently frozen subsoil), low nutrient soil, very short growing season (50–60 days), and fragile vegetation. Farming would require destroying the permafrost, releasing greenhouse gases, and the soil cannot support crops like wheat without massive artificial inputs. Even then, the short season limits yield. A student who supports the idea likely overlooks permafrost and soil limitations, focusing only on temperature or assuming technology can override natural constraints—showing a lack of systems thinking about biome fragility.",
+     "self_check": true
+    },
+    {
+     "q": "Design a travel brochure for a tourist visiting one major biome. Include the biome’s location, climate, key plants and animals, and one activity suited to the environment.",
+     "a": "Example: Brochure for the Kenyan savanna.\n- Location: Eastern Africa (Kenya, Tanzania).\n- Climate: Hot year-round, distinct wet and dry seasons, rainfall 50–150 cm.\n- Plants: Acacia trees, tall grasses.\n- Animals: Lions, zebras, elephants.\n- Activity: Safari game drive during dry season when animals gather near water holes.\nA poor answer might list random animals or suggest skiing in the savanna, showing confusion between biomes or misunderstanding of climate-activity relationships (e.g., not knowing that savannas lack snow or dense forests for skiing).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

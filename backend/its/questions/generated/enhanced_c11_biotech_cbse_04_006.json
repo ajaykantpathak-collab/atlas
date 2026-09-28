@@ -34,6 +34,26 @@
      "q": "Design a simple experiment (outline only) to determine Vmax and Km for the enzyme catalase using hydrogen peroxide as substrate. Specify what you would measure, how you would vary [S], and how you would analyse the data to obtain the two parameters.",
      "a": "Measure initial rate of O₂ evolution (e.g., by gas syringe or pressure sensor) at several fixed H₂O₂ concentrations (e.g., 10, 20, 40, 80, 160 mM) with constant catalase amount. Plot v₀ vs [S]; fit the hyperbolic curve to the Michaelis‑Menten equation (or use a Lineweaver‑Burk plot of 1/v₀ vs 1/[S]) to extract Vmax and Km. A poor answer that suggests measuring total O₂ after a fixed time instead of initial rate, or using only one substrate concentration, reveals misunderstanding of initial‑velocity kinetics and the need for multiple [S] values.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The effect of substrate concentration on enzyme activity describes how the initial reaction velocity (v₀) increases with substrate concentration [S] until it reaches a maximum velocity (Vmax) when all enzyme active sites are saturated, following the hyperbolic Michaelis-Menten ______ v₀ = (Vmax × [S]) / (Km + [S]), where Km is the substrate concentration at half‑maximal velocity.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are testing how quickly ______ amylase breaks down starch in a school lab.",
+     "a": "salivary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: At first, the rate of maltose production rises sharply as you add more starch, but beyond ______% the rate barely changes – the enzyme is “busy” all the time.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) sketch and label the rectangular hyperbola of v₀ vs [S], identifying Vmax and Km graphically, (2) explain why the curve plateaus in terms of enzyme saturation, and (3) calculate v₀, Vmax, or Km given any two of the three parameters using the Michaelis‑Menten equation.",
+     "self_check": true
     }
    ]
   }

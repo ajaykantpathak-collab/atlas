@@ -34,6 +34,31 @@
      "q": "Design a Python function `tail_n_lines(filename: str, n: int) -> list[str]` that returns the last `n` lines of a text file *without reading the entire file into memory*, using only `seek`, `tell`, `read`, and binary mode operations. Handle files smaller than the read buffer and multi-byte UTF-8 characters correctly.",
      "a": "A strong answer implements a reverse chunk reader: start at `SEEK_END`, read 4KB chunks backward, accumulate bytes in a buffer, decode with `errors='ignore'` or incremental decoder, split on `b'\\n'`, and stop when `n` lines are found. Key details: use `f.seek(max(0, pos - chunk_size), 0)` to avoid negative positions, handle the final partial chunk, and reverse the collected lines at the end. A poor answer uses `readlines()` or assumes fixed line length, showing inability to compose random-access primitives into a higher-level algorithm.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A file pointer is an internal marker maintained by Python that tracks the current byte position for the next read or write operation in a file; the seek(offset, whence) method ______ this pointer to a specified byte offset relative to a reference point (start, current position, or end), while the tell() method returns the current byte position of the pointer as an integer.",
+     "a": "repositions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a 500-page diary (a ______ log file) and you need to read only the entry from last Tuesday — you don't want to flip through every page from the beginning.",
+     "a": "large",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a ______-page diary (a large log file) and you need to read only the entry from last Tuesday — you don't want to flip through every page from the beginning.",
+     "a": "500",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) predict the file pointer position after a sequence of read/write/seek operations on both text and binary files, and (2) write a Python program that uses seek() and tell() to implement random access (e.g., reading the last N lines, modifying a specific record in a fixed-length record file) without loading.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a 500-page diary (a large log file) and you need to read only the entry from last Tuesday — you don't want to flip through every page from the ______.",
+     "a": "beginning",
+     "self_check": true
     }
    ]
   }

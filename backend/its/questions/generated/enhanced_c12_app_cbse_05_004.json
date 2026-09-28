@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_05_004",
+   "title": "c12_app_cbse_05_004",
+   "questions": [
+    {
+     "q": "State the precise condition required for the degree of a differential equation to be defined, according to the NCERT definition.",
+     "a": "The differential equation must be a **polynomial equation in its derivatives** (i.e., no radicals, fractions, or transcendental functions like sin, cos, log, exp acting on any derivative). A wrong answer (e.g., \"degree is always the power of the highest derivative\") reveals the student ignores the polynomial condition — a critical error that leads to assigning a degree to equations like `d²y/dx² + sin(dy/dx) = 0` where degree is actually not defined.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the degree of the differential equation `√(d²y/dx²) + dy/dx = 0` is not defined, even though the highest order derivative is `d²y/dx²`.",
+     "a": "The equation contains a radical (square root) acting on the highest order derivative `d²y/dx²`. For degree to be defined, the equation must be a polynomial in derivatives — meaning derivatives can only appear with positive integer powers. A radical implies a fractional power (1/2), violating the polynomial condition. Squaring both sides to \"remove the root\" changes the equation's structure and is not allowed for degree determination. A wrong answer (e.g., \"degree is 1/2\" or \"degree is 1 after squaring\") shows the student either allows non-integer powers or mistakenly believes algebraic manipulation to clear radicals is permitted for degree definition.",
+     "self_check": true
+    },
+    {
+     "q": "Find the order and degree (if defined) of the differential equation: `(d³y/dx³)² + 3(d²y/dx²) + 5(dy/dx)⁴ = sin x`.",
+     "a": "**Order = 3** (highest derivative is `d³y/dx³`). **Degree = 2** (the highest order derivative `d³y/dx³` appears with power 2; the equation is a polynomial in derivatives because `sin x` is a function of the independent variable `x` only, not of any derivative). A wrong answer (e.g., degree = 4 because of `(dy/dx)⁴`) reveals the student confuses \"highest power among all derivatives\" with \"power of the highest order derivative\" — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the degree of the following two differential equations and explain the difference:\n(A) `(d²y/dx²)³ + (dy/dx)² = 0`\n(B) `d²y/dx² + sin(dy/dx) = 0`",
+     "a": "(A) Degree = 3 (polynomial in derivatives; highest order derivative `d²y/dx²` has power 3). (B) Degree is **not defined** because `sin(dy/dx)` is a transcendental function of the first derivative, violating the polynomial condition. The presence of `sin(dy/dx)` makes the entire equation non-polynomial in derivatives, even though the highest order derivative `d²y/dx²` appears linearly. A wrong answer (e.g., \"degree of B is 1\") shows the student only checks the highest derivative's power and ignores non-polynomial terms in *lower* derivatives.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"To find the degree, I always clear fractions and radicals first by raising to powers, then read the exponent of the highest derivative.\" Evaluate this claim with a counterexample.",
+     "a": "The claim is **false**. Counterexample: `(dy/dx)² + 1/√(d²y/dx²) = 0`. Clearing the radical by squaring would give a polynomial, but the *original* equation is not a polynomial in derivatives — degree is **not defined**. The NCERT definition applies to the *given* form of the equation; algebraic manipulation to \"force\" a polynomial form is invalid for degree determination. A wrong evaluation (e.g., \"the claim is correct\") reveals the student confuses \"solving the DE\" (where manipulation is allowed) with \"classifying the DE\" (where the given form must be polynomial).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a differential equation of order 3 and degree 2 that is a polynomial in derivatives. Then modify it slightly so that the degree becomes \"not defined\" while keeping order 3. Explain both.",
+     "a": "**Polynomial version (order 3, degree 2):** `(d³y/dx³)² + (d²y/dx²) + dy/dx = 0` — highest derivative `d³y/dx³` has power 2; all derivatives appear with positive integer powers. **Non-polynomial version (order 3, degree not defined):** `(d³y/dx³)² + sin(d²y/dx²) + dy/dx = 0` — `sin(d²y/dx²)` makes it non-polynomial in derivatives. A poor answer (e.g., using `√(d³y/dx³)` in the second) might accidentally change the order or fail to keep order 3; this tests if the student understands that *any* non-polynomial term in *any* derivative kills the degree, regardless of the highest derivative's form.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -4,15 +4,9 @@
   {
    "id": "c8m12.2.1",
    "title": "What is Factorisation",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute the given values and simplify",
-     "explain": "substitute the given values and simplify: val = 3 * 8 + 3 gives 27",
-     "compute": "val = 3 * 8 + 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "factorisation: expression = product of irreducible factors",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 3 when x = 8.",
@@ -49,15 +43,9 @@
   {
    "id": "c8m12.2.2",
    "title": "Method of Common Factors",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
-     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 7 * 1 gives 7",
-     "compute": "hcf = 7 * 1"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "common factor: a x m + a x n = a x (m + n)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 14 and 28 have HCF 7 with coprime multipliers 2 and 4. Verify by computing hcf = 7 x 1; then find the HCF value.",
@@ -76,12 +64,12 @@
     },
     {
      "q": "Two ropes of lengths 14 cm and 28 cm are cut into equal pieces of greatest length. What is the length of each piece?",
-     "a": "7",
+     "a": "14",
      "self_check": false
     },
     {
      "q": "Two bells ring together now. They ring at intervals of 14 minutes and 28 minutes. After how many minutes will they next ring together?",
-     "a": "56",
+     "a": "28",
      "self_check": false
     },
     {
@@ -94,27 +82,9 @@
   {
    "id": "c8m12.2.3",
    "title": "Factorisation by Regrouping",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the number-play rule digit by digit",
-     "explain": "apply the number-play rule digit by digit: big = 9 * 1000 + 7 * 100 + 7 * 10 + 6 gives 9776",
-     "compute": "big = 9 * 1000 + 7 * 100 + 7 * 10 + 6"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the number-play rule digit by digit: small = 6 * 1000 + 7 * 100 + 7 * 10 + 9 gives 6779",
-     "compute": "small = 6 * 1000 + 7 * 100 + 7 * 10 + 9"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the number-play rule digit by digit: diff = big - small gives 2997",
-     "compute": "diff = big - small"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "group terms -> common factor of each group -> common bracket factor",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "For the digits 6, 9, 7, 7 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
@@ -151,15 +121,9 @@
   {
    "id": "c8m12.2.4",
    "title": "Factorisation Using Identities",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "expand with the algebraic identity and evaluate",
-     "explain": "expand with the algebraic identity and evaluate: val = 8 * 8 + 2 * 8 * 9 + 9 * 9 gives 289",
-     "compute": "val = 8 * 8 + 2 * 8 * 9 + 9 * 9"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "a^2 + 2ab + b^2 = (a + b)^2; a^2 - 2ab + b^2 = (a - b)^2; a^2 - b^2 = (a + b)(a - b)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Use the identity (a + b)^2 = a^2 + 2ab + b^2 to find the square of 9 more than 8; report the value.",
@@ -196,15 +160,9 @@
   {
    "id": "c8m12.2.5",
    "title": "Factors of the Form (x + a)(x + b)",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "expand with the algebraic identity and evaluate",
-     "explain": "expand with the algebraic identity and evaluate: val = 12 * 12 + 2 * 12 * 3 + 3 * 3 gives 225",
-     "compute": "val = 12 * 12 + 2 * 12 * 3 + 3 * 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "(x + a)(x + b) = x^2 + (a + b)x + ab; find ab = q and a + b = p",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Use the identity (a + b)^2 = a^2 + 2ab + b^2 to find the square of 3 more than 12; report the value.",
@@ -242,6 +200,8 @@
    "id": "c8m12.3.1",
    "title": "Division of a Monomial by a Monomial",
    "converted_to_compute": false,
+   "formula": "divide coefficients, subtract powers: (a/b) x^(m-n)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 4^2 x 4^4.",
@@ -278,15 +238,9 @@
   {
    "id": "c8m12.3.2",
    "title": "Division of a Polynomial by a Monomial",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute the given values and simplify",
-     "explain": "substitute the given values and simplify: val = 3 * 4 + 2 gives 14",
-     "compute": "val = 3 * 4 + 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "divide each term of the polynomial by the monomial",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 2 when x = 4.",
@@ -323,15 +277,9 @@
   {
    "id": "c8m12.4.1",
    "title": "Division of a Polynomial by a Polynomial",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
-     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 12 * 1 gives 12",
-     "compute": "hcf = 12 * 1"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "factorise both polynomials and cancel common factors; dividend = divisor x quotient",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 24 and 36 have HCF 12 with coprime multipliers 2 and 3. Verify by computing hcf = 12 x 1; then find the HCF value.",

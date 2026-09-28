@@ -141,7 +141,16 @@
      "action": "interpret the breathing rate value",
      "explain": "Compare the calculated rate to the average resting human breathing rate of about 15 to 20 breaths per minute to assess whether it is normal, elevated, or reduced."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "breathing_rate = total_breaths / time_minutes",
+     "compute": "breathing_rate = total_breaths / time_minutes"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gesc.6.3.1",
@@ -158,7 +167,7 @@
     "how do changes in the chest cavity drive ventilation",
     "give one everyday example of mechanism of human breathing"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -175,7 +184,16 @@
      "action": "link pressure changes to air movement",
      "explain": "Expansion lowers pressure inside the chest drawing air in, while contraction raises pressure pushing air out, completing the breathing cycle."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "tidal_movement = chest_cavity_expansion - chest_cavity_contraction",
+     "compute": "tidal_movement = chest_cavity_expansion - chest_cavity_contraction"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gesc.6.3.2",
@@ -210,14 +228,23 @@
      "action": "interpret the expansion value",
      "explain": "A larger expansion value indicates greater lung capacity and chest flexibility, which reflects healthy respiratory function."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "chest_expansion = chest_inhalation - chest_exhalation",
+     "compute": "chest_expansion = chest_inhalation - chest_exhalation"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gesc.6.4.1",
    "title": "Composition of Inhaled and Exhaled Air",
    "section": "6.4",
    "definition": "The quantitative proportion of respiratory gases entering and leaving the body, showing oxygen uptake and carbon dioxide output.",
-   "formula": "oxygen_consumed_pct = inhaled_o2_pct - exhaled_o2_pct",
+   "formula": "oxygen_consumed_pct = inhaled_o_2_pct - exhaled_o_2_pct",
    "key_idea": "Exhaled air contains less oxygen and more carbon both dioxide and moisture than inhaled air.",
    "textbook_ref": "gesc106.txt lines 220-250",
    "question_patterns": [
@@ -247,7 +274,16 @@
      "explain": "The consumed oxygen and produced carbon dioxide values together demonstrate that respiration enriches exhaled air with CO2 while depleting oxygen.",
      "compute": "gas_exchange_summary = (oxygen_consumed_pct, co2_produced_pct)"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "oxygen_consumed_pct = inhaled_o_2_pct - exhaled_o_2_pct",
+     "compute": "oxygen_consumed_pct = inhaled_o_2_pct - exhaled_o_2_pct"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gesc.6.5.1",

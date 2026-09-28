@@ -34,6 +34,21 @@
      "q": "Write a new inferential question about the sheepdog's internal monologue after being ignored by Ajamil, and provide a model answer grounded in the poem.",
      "a": "Question: \"What might the sheepdog be thinking when Ajamil cuts the tigers loose?\" Model answer: The sheepdog thinks, \"My loyalty protected every sheep, yet my master sides with the killers. He values a treaty signed over a feast more than the truth I see.\" This infers the dog's perspective from its established honesty (\"never told a lie\"), its disgust at the king's lies, and Ajamil's deliberate avoidance of its gaze. A poor answer invents feelings unrelated to the text (e.g., \"The dog wants a treat\") showing failure to anchor inference in characterisation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal comprehension questions require retrieving ______ explicitly stated in the text, while inferential comprehension questions demand logical deductions by combining textual clues, context, and literary devices to uncover implied meanings not directly written.",
+     "a": "information",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are reading a WhatsApp forward about a local ______ making promises.",
+     "a": "politician",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently classify a question as literal or inferential, locate exact textual evidence for literal answers, and construct inferential answers by synthesising at least two textual clues with a clear explanation of the reasoning process.",
+     "self_check": true
     }
    ]
   }

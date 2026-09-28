@@ -34,6 +34,31 @@
      "q": "Create a real-world scenario where two things are in direct proportion and explain your reasoning.",
      "a": "Example: \"The number of pages I read vs. the time taken.\" Reasoning: The more time I spend reading, the more pages I finish, and the rate (pages/minute) stays roughly constant. A poor answer would describe something where one does not affect the other or they change inversely.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Two quantities are in direct proportion if they change in the same direction—when one increases, the other increases, or when one decreases, the other decreases—while ______ a constant ratio between them.",
+     "a": "maintaining",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"If 2 notebooks cost 40 ______, what will 5 notebooks cost?\" To solve this, first find the cost of one notebook (the unit rate) or set up the ratio: notebooks/cost = notebooks/cost.",
+     "a": "rupees",
+     "self_check": true
+    },
+    {
+     "q": "What is Two quantities? State the definition given in this lesson.",
+     "a": "Two quantities are in direct proportion if they change in the same direction—when one increases, the other increases, or when one decreases, the other decreases—while maintaining a constant ratio between them.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Two quantities?",
+     "a": "Students often try to use addition instead of multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to calculate an unknown value in a proportion by setting up an equivalent ratio equation (a/b = c/d) and solving for the missing term.",
+     "self_check": true
     }
    ]
   }

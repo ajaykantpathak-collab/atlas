@@ -34,6 +34,31 @@
      "q": "Design a minimal serum-free medium formulation for a hypothetical anchorage-dependent epithelial cell line that requires epidermal growth factor (EGF) and insulin for proliferation. List exactly 8 components with categories (basal salt, energy source, amino acid, vitamin, buffer, supplement, attachment factor, osmolality adjuster) and explain why each is included. Your formulation must be xeno-free.",
      "a": "Expected answer (example):\n1. Basal salt: DPBS (inorganic ions: Na⁺, K⁺, Mg²⁺, Ca²⁺, Cl⁻, HCO₃⁻, PO₄³⁻) — maintains membrane potential and osmolality.\n2. Energy source: D-glucose (4.5 g/L) — primary carbon/energy source for glycolysis.\n3. Amino acids: L-glutamine (2 mM) + essential amino acid mix — protein synthesis; glutamine also nitrogen donor.\n4. Vitamins: B-complex (thiamine, riboflavin, pyridoxine, B12) + ascorbic acid — enzyme cofactors, antioxidant.\n5. Buffer: HEPES (10 mM) + NaHCO₃ (1.2 g/L) — dual buffering for CO₂-independent and incubator use.\n6. Supplement: Recombinant human insulin (5 μg/mL) + recombinant human EGF (10 ng/mL) — mitogenic signalling (xeno-free).\n7. Attachment factor: Human recombinant fibronectin (coating) or synthetic RGD peptide — replaces serum adhesion factors.\n8. Osmolality adjuster: NaCl or mannitol to target 300 mOsmol/kg — fine-tunes after all components added.\nA poor answer lists \"FBS\" (not xeno-free), omits attachment factor (epithelial cells need it), or misses osmolality adjustment (critical per NCERT). The design must show understanding that each category serves a non-redundant function.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Culture media for animal cell culture are artificially prepared nutrient solutions that provide essential components — amino acids, vitamins, glucose, inorganic salts, growth factors, hormones, and buffering agents — to support the survival, ______, and function of animal cells in vitro; they are classified as natural media (biological fluids like plasma, serum, tissue extracts) and synthetic/artificial media (basal medium with defined supplements), with synthetic media further categorised into serum-containing, serum-free, chemically defined, protein-free, and xeno-free formulations based on supplement composition and definition.",
+     "a": "proliferation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a bioprocess engineer at a Pune-based biotech startup tasked with producing a ______ monoclonal antibody for cancer therapy using CHO cells.",
+     "a": "recombinant",
+     "self_check": true
+    },
+    {
+     "q": "What is Culture media for animal cell culture? State the definition given in this lesson.",
+     "a": "Culture media for animal cell culture are artificially prepared nutrient solutions that provide essential components — amino acids, vitamins, glucose, inorganic salts, growth factors, hormones, and buffering agents — to support the survival, proliferation, and function of animal cells in vitro; they are classified as natural media.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Culture media for animal cell culture?",
+     "a": "Students conflate \"serum-free\" with \"chemically defined\" and \"protein-free\" — treating them as synonyms.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) classify any given culture medium formulation into natural vs synthetic and further into serum-containing, serum-free, chemically defined, protein-free, or xeno-free categories with justification; (2) explain the role of each component category (basal salts, energy sources, amino acids, vitamins.",
+     "self_check": true
     }
    ]
   }

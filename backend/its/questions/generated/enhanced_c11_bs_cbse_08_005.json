@@ -34,6 +34,31 @@
      "q": "Design a new type of preference share for a green energy company that wants to attract impact investors. Specify three features (dividend structure, conversion option, voting rights) and justify each with respect to the company's long-term capital needs and investor expectations.",
      "a": "A good answer might propose: (1) Step-up dividend: 6% initially, increasing to 9% after 5 years if sustainability targets are met – aligns investor returns with company milestones. (2) Convertible into equity after 7 years at a pre-set ratio – gives investors upside if company grows, and company avoids perpetual fixed cost. (3) Conditional voting rights: vote only if dividend is in arrears for 2 consecutive years – protects investors without diluting control normally. Poor answers copy standard types without customization or omit justification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Preference shares are a class of shares that carry a fixed rate of dividend and have a ______ right over equity shares regarding payment of dividend and repayment of capital at the time of liquidation, but generally do not carry voting rights.",
+     "a": "preferential",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You want regular income with lower risk than equity shares but higher ______ than bank fixed deposits.",
+     "a": "returns",
+     "self_check": true
+    },
+    {
+     "q": "What is Preference shares? State the definition given in this lesson.",
+     "a": "Preference shares are a class of shares that carry a fixed rate of dividend and have a preferential right over equity shares regarding payment of dividend and repayment of capital at the time of liquidation, but generally do not carry voting rights.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Preference shares?",
+     "a": "Students often think preference shareholders are creditors like debenture holders because both get fixed returns.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify a given preference share as cumulative/non-cumulative, participating/non-participating, or convertible/non-convertible based on its terms, and explain how each feature affects the investor's risk and the company's obligation.",
+     "self_check": true
     }
    ]
   }

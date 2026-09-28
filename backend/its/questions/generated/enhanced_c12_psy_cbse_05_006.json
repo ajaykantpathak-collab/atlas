@@ -17,7 +17,7 @@
     },
     {
      "q": "**Case:** Rahul, 17, is not selected for the school football team. He thinks: \"The coach hates me. I'll never make any team. I'm useless at sports.\"  \nUsing **Beck's model**, identify: (a) the **negative automatic thought (NAT)**, (b) the **cognitive distortion** (name it), and (c) the **likely core schema** activated.",
-     "a": "(a) **Negative Automatic Thought (NAT):** \"The coach hates me. I'll never make any team. I'm useless at sports.\" (The *entire cluster* is the NAT — persistent, involuntary, and accepted as true.)  \n(b) **Cognitive Distortion:** **Overgeneralisation** (drawing a sweeping negative conclusion from a single event) + **Labelling** (\"I'm useless\") + **Fortune-telling** (\"I'll never make any team\"). *Any one correctly named with explanation earns credit.*  \n(c) **Core Schema:** \"I am incompetent / inadequate / unlovable\" — a deep, enduring belief formed from early experiences (e.g., repeated criticism from parents) that lies dormant until a critical incident (non-selection) activates it.  \n\nA wrong answer confusing NAT with core schema (e.g., writing \"Core schema: The coach hates me\") shows the student doesn't grasp the *hierarchy*: **Core schema (deep, global) → Critical incident → NATs (situation-specific, multiple) → Distortions (thinking errors in NATs).**",
+     "a": "(1) The negative automatic thought — the whole cluster of the coach hating him, never making any team and being useless at sports, which is persistent, involuntary and accepted as true, (2) The distortions — overgeneralisation from a single event, labelling himself useless, and fortune-telling about never making any team, with any one correctly named and explained earning credit, (3) The core schema — a deep enduring belief of being incompetent or inadequate, formed through earlier experiences and lying dormant until the non-selection activated it, (4) The hierarchy — schema first, then the critical incident, then situation-specific thoughts, with distortions as the thinking errors inside those thoughts. A wrong answer that calls the coach-hates-me thought a core schema confuses a deep global belief with a situation-specific one.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "**Create:** Design a **mini ABC-DE worksheet** (Ellis' extended model) for a Class 12 student who thinks: \"If I don't get into IIT, my parents will be ashamed of me and I'll have no future.\" Fill in A, B, C, then write **two disputing questions (D)** and **one effective new philosophy (E)**.",
      "a": "**Worksheet for: \"IIT or Shame\" Belief**  \n\n| Component | Content |\n|-----------|---------|\n| **A (Activating Event)** | JEE Advanced results declared; student did not qualify for IIT. |\n| **B (Irrational Belief)** | \"I *must* get into IIT. If I don't, my parents *will* be ashamed of me (and that's unbearable), and I *will* have no future (catastrophe).\" |\n| **C (Consequence)** | Intense shame, hopelessness, withdrawal from family, refusal to consider other colleges, suicidal ideation. |\n| **D (Disputation — 2 questions)** | 1. **Empirical:** \"What evidence proves your parents *will* be ashamed *forever*? Have they said 'We'll be ashamed if you don't get into IIT,' or is this your prediction?\"<br>2. **Pragmatic:** \"How does believing 'I have no future' help you plan your next step (e.g., other engineering colleges, drop year, alternative careers)?\" |\n| **E (Effective New Philosophy)** | \"I *strongly prefer* getting into IIT and worked hard for it. *Not* getting in is **disappointing**, not **shameful** or **fatal**. My parents' love isn't conditional on one exam. I have many viable paths — I will explore them calmly.\" |\n\nA poor answer writes D as \"Think positive\" or E as \"I will get into IIT next year\" (still a demand). The student must show **D attacks the irrationality** (demandingness, awfulising) and **E is a flexible, evidence-based preference**, not a new rigid demand.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cognitive therapy is a structured, short-term ______ that identifies and modifies distorted thinking patterns (cognitions) causing emotional distress and maladaptive behaviours; Ellis' Rational Emotive Therapy (RET) uses the ABC model (Antecedent-Belief-Consequence) to dispute irrational \"must/should\" beliefs, while Beck's Cognitive Therapy targets negative automatic thoughts and core schemas through collaborative cognitive restructuring.",
+     "a": "psychotherapy",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your friend says, \"I failed one test — I'm a total ______ and will never succeed in life.\" You notice they jump from one event to a global self-verdict.",
+     "a": "failure",
+     "self_check": true
+    },
+    {
+     "q": "What is Cognitive therapy? State the definition given in this lesson.",
+     "a": "Cognitive therapy is a structured, short-term psychotherapy that identifies and modifies distorted thinking patterns (cognitions) causing emotional distress and maladaptive behaviours; Ellis' Rational Emotive Therapy (RET) uses the ABC model (Antecedent-Belief-Consequence) to dispute irrational \"must/should\" beliefs, while Beck's.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Cognitive therapy?",
+     "a": "Misconception: \"Ellis and Beck are the same — both just challenge negative thoughts.\" Why it's wrong: Students conflate *cognitive therapy* as a monolith.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Apply the ABC model to a given case vignette by correctly identifying the Activating event, irrational Belief, and emotional/behavioural Consequence, and (2) Distinguish Ellis' disputation approach from Beck's cognitive restructuring by explaining how each therapist would question a client's negative.",
      "self_check": true
     }
    ]

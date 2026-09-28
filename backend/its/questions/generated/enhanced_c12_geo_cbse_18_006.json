@@ -34,6 +34,31 @@
      "q": "Design a simple data structure (list the fields) for a GIS layer representing \"Major Rivers of India\" that includes both spatial and non-spatial components. Specify which fields are spatial.",
      "a": "Fields: River_ID (non-spatial), River_Name (non-spatial), Length_km (non-spatial), Basin_Area_sqkm (non-spatial), Geometry (spatial — polyline with coordinates). Spatial field: Geometry only. A poor answer listing Length_km as spatial shows confusion between a measured attribute and the actual location geometry.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Spatial data refers to information that identifies the geographic location of features and boundaries on Earth, such as coordinates (latitude/longitude), addresses, or topology, enabling mapping and spatial analysis; non-spatial data (attribute data) describes ______ of those features without inherent location reference, such as population size, temperature, or crop yield, and is typically stored in tables linked to spatial features.",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you open a weather app showing a map of India with colored circles for temperature: the circles' positions (latitude/______) are spatial data, while the temperature values inside them are non-spatial data.",
+     "a": "longitude",
+     "self_check": true
+    },
+    {
+     "q": "What is Spatial data? State the definition given in this lesson.",
+     "a": "Spatial data refers to information that identifies the geographic location of features and boundaries on Earth, such as coordinates (latitude/longitude), addresses, or topology, enabling mapping and spatial analysis; non-spatial data (attribute data) describes characteristics of those features without inherent location reference, such as.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Spatial data?",
+     "a": "Students often think any data displayed on a map is spatial data.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish spatial from non-spatial data in a given geographical dataset, explain why both are needed for GIS analysis, and correctly classify examples (e.g., a shapefile of district boundaries vs. a CSV of district-wise literacy rates) into the two categories.",
+     "self_check": true
     }
    ]
   }

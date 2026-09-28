@@ -34,6 +34,31 @@
      "q": "Design a minimal \"Aadhaar Masking\" feature: an input field where the user types a 12-digit number, and on `blur`, the first 8 digits are replaced with `XXXX XXXX` while the last 4 remain visible. The original value must be stored in a `data-aadhaar` attribute for form submission. Provide the HTML and JavaScript.",
      "a": "**HTML:** `<input type=\"text\" id=\"aadhaar\" maxlength=\"12\" placeholder=\"Enter 12-digit Aadhaar\">`  \n**JS:**\n```js\nconst inp = document.getElementById('aadhaar');\ninp.addEventListener('blur', () => {\n  const raw = inp.value.replace(/\\s/g, '');\n  if (raw.length === 12 && /^\\d{12}$/.test(raw)) {\n    inp.dataset.aadhaar = raw;                    // store original\n    inp.value = 'XXXX XXXX ' + raw.slice(8);      // masked display\n  }\n});\n```\nA good answer uses `dataset` for custom attributes, `slice` for masking, and validates length/format. A poor answer uses `setAttribute('data-aadhaar', ...)` (works but verbose) or modifies `value` without saving original — revealing ignorance of `dataset` API and form-data separation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: DOM (Document Object Model) manipulation refers to the process of using JavaScript to ______ access, modify, create, or delete HTML elements and their attributes, styles, and content after the page has loaded, enabling dynamic and interactive web pages.",
+     "a": "programmatically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a \"Digital India\" ______ portal where citizens report civic issues.",
+     "a": "complaint",
+     "self_check": true
+    },
+    {
+     "q": "What is DOM (Document Object Model) manipulation? State the definition given in this lesson.",
+     "a": "DOM (Document Object Model) manipulation refers to the process of using JavaScript to programmatically access, modify, create, or delete HTML elements and their attributes, styles, and content after the page has loaded, enabling dynamic and interactive web pages.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about DOM (Document Object Model) manipulation?",
+     "a": "In reality, .style is a CSSStyleDeclaration object — you must set individual properties: el.style.color = 'red'; el.style.fontSize = '18px' (camelCase!).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write JavaScript code that selects specific HTML elements using document.getElementById, querySelector, or querySelectorAll, modifies their innerHTML, textContent, style, classList, or attributes, and creates/appends new elements to the DOM in response to user events.",
+     "self_check": true
     }
    ]
   }

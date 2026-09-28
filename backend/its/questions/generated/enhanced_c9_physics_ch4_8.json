@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using household items to demonstrate that a ball rolling down a ramp and a ball dropped vertically from the same height hit the ground with the same speed (ignoring friction). List materials, procedure, and how you would measure speed.",
      "a": "Materials: Two identical marbles, a long wooden plank (ramp), a chair (height ~1 m), stopwatch, meter scale. Procedure: (1) Drop marble A vertically from chair seat; time its fall. (2) Release marble B from rest at top of plank placed on chair; time its roll. (3) Calculate speed from v = gt for drop and v = 2s/t for ramp (if acceleration constant). Both should give v ≈ √(2gh) ≈ 4.4 m/s for h=1m. A poor answer uses different masses or measures time only without calculating speed, showing they don't connect the experiment to the energy equation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Law of ______ of Energy states that in an isolated system where only conservative forces (like gravity) act, the total mechanical energy (sum of kinetic energy and potential energy) remains constant.",
+     "a": "Conservation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a child on a swing in a playground: at the highest point the swing stops momentarily (zero kinetic, maximum potential), then ______ up at the bottom (maximum kinetic, minimum potential), and rises again to the same height on the other side.",
+     "a": "speeds",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can solve multi-step problems involving energy transformations (e.g., free fall, pendulum, projectile) by equating initial and final mechanical energy, correctly identifying when non-conservative forces do work, and verifying that the total energy remains constant within the system boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a child on a swing in a playground: at the highest point the swing stops ______ (zero kinetic, maximum potential), then speeds up at the bottom (maximum kinetic, minimum potential), and rises again to the same height on the other side.",
+     "a": "momentarily",
+     "self_check": true
     }
    ]
   }

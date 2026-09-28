@@ -34,6 +34,16 @@
      "q": "Create a real-life problem (Indian context) where finding the number of terms in an AP is required, and the solution yields two possible positive integer values for \\(n\\). Explain why both values make sense in the context.",
      "a": "Example: \"A contractor employs workers to complete a job. On day 1, 30 workers show up. Each subsequent day, 2 fewer workers come. The total worker-days required is 240. Find the number of days to complete the job.\" Here \\(a = 30\\), \\(d = -2\\), \\(S_n = 240\\). Solving gives \\(n = 10\\) or \\(n = 24\\). Both are valid: if workers stop coming after day 10, the job is done; if they continue, the negative workers (meaning workers leaving) still sum to 240 by day 24? Actually negative workers don't make sense, so the context must be adjusted: maybe a stack of logs where each layer has 2 fewer logs. A good answer will craft a context where both roots are physically meaningful (e.g., a ball bouncing up and down, or a savings plan with withdrawals). A poor answer gives a context where only one root works, showing the student doesn't understand the double-root phenomenon.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a student saving money: she puts ₹100 in the first week and ______ her savings by ₹20 each week.",
+     "a": "increases",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: After some weeks, she has saved ₹______ in a particular week.",
+     "a": "1000",
+     "self_check": true
     }
    ]
   }

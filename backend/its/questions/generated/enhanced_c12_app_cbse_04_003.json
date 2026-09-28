@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_04_003",
+   "title": "c12_app_cbse_04_003",
+   "questions": [
+    {
+     "q": "What is the correct differential substitution `dt` if we let `t = x² + 3x` in the integral `∫(2x+3)√(x²+3x) dx`?",
+     "a": "**Correct Answer:** `dt = (2x+3)dx`.\n**Why wrong answers reveal misunderstanding:** If a student writes `dt = 2x+3` (missing `dx`), they treat differentials as numbers, not operators — a fundamental calculus error. If they write `dt = 2x dx`, they differentiated only the first term, ignoring the Chain Rule on `3x`. This shows they don't see `t` as a composite function of `x`.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the substitution `t = x² + 1` works for `∫ x/(x²+1) dx` but fails for `∫ 1/(x²+1) dx` without additional manipulation.",
+     "a": "**Correct Answer:** For `∫ x/(x²+1) dx`, the numerator `x dx` is exactly `(1/2) d(x²+1) = (1/2)dt`, so the integral becomes `(1/2)∫(1/t)dt`. For `∫ 1/(x²+1) dx`, there is no `x` in the numerator to form `dt`; `dt = 2x dx` cannot be created from `dx` alone. This requires a trigonometric substitution (`x = tanθ`) or recognition of the standard form `arctan(x)`.\n**Why wrong answers reveal misunderstanding:** If a student says \"both work by putting `t = x²+1`\", they confuse the *form* of substitution with the *feasibility* of differential matching. They miss that substitution requires the derivative of the inner function to be present (or creatable) in the integrand.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate `∫ (3x² + 2x) e^(x³ + x²) dx` using substitution. Show all steps including the differential change.",
+     "a": "**Correct Answer:** Let `t = x³ + x²`. Then `dt = (3x² + 2x)dx`. The integral becomes `∫ e^t dt = e^t + C = e^(x³ + x²) + C`.\n**Why wrong answers reveal misunderstanding:** A student writing `e^(x³+x²) + C` without showing `dt` substitution is likely guessing the reverse Chain Rule. A student writing `∫ e^t dx` (keeping `dx`) fails to grasp that the variable of integration *must* change with the substitution. A student writing `dt = 3x² + 2x` (no `dx`) commits the differential notation error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the integrals `∫ (2x+1)/(x²+x+1) dx` and `∫ 1/(x²+x+1) dx`. Which is solvable by simple substitution `t = denominator`? For the other, what *first* algebraic step is needed before substitution?",
+     "a": "**Correct Answer:** `∫ (2x+1)/(x²+x+1) dx` is solvable by `t = x²+x+1` because `dt = (2x+1)dx` matches the numerator. For `∫ 1/(x²+x+1) dx`, the first step is **completing the square**: `x²+x+1 = (x+1/2)² + 3/4`. Then substitute `u = x + 1/2` to get `∫ 1/(u² + (√3/2)²) du`, a standard `arctan` form.\n**Why wrong answers reveal misunderstanding:** If a student attempts `t = x²+x+1` for the second integral, they don't recognize the missing derivative in the numerator. If they suggest \"partial fractions\" for the second, they miss that the quadratic is irreducible (discriminant < 0) — partial fractions only work for factorable denominators.",
+     "self_check": true
+    },
+    {
+     "q": "A student evaluates `∫₀¹ (2x)/(x²+1) dx` by letting `t = x²+1`, getting `∫₁² (1/t) dt = ln2`. Another student does the same substitution but writes `∫₀¹ (1/t) dt = ln1 - ln1 = 0`. Which is correct? Critique the error in the wrong approach.",
+     "a": "**Correct Answer:** The first student is correct. The error in the second approach: **limits were not changed**. When `x=0`, `t=1`; when `x=1`, `t=2`. The integral in `t` must use limits `1` to `2`. Keeping `x`-limits (`0` to `1`) while integrating in `t` mixes variables — a category error.\n**Why wrong answers reveal misunderstanding:** If a student defends the second approach, they treat limits as mere decorations, not as bounds on the *variable of integration*. This is a high-stakes error in board exams (loses 1-2 marks) and JEE (leads to wrong answer).",
+     "self_check": true
+    },
+    {
+     "q": "Create a definite integral problem from a business context (marginal cost/revenue) that *requires* substitution `t = ax+b` to solve, where `a ≠ 1`. Provide the problem statement, the substitution step, and the final answer.",
+     "a": "**Expected Answer:**\n*Problem:* \"Marginal Revenue is `MR = 50e^(0.1x+2)`. Find total revenue from 0 to 10 units.\"\n*Substitution:* Let `t = 0.1x + 2` → `dt = 0.1 dx` → `dx = 10 dt`. Limits: `x=0 → t=2`; `x=10 → t=3`. Integral: `∫₂³ 50e^t (10 dt) = 500 ∫₂³ e^t dt = 500(e³ - e²)`.\n*Criteria for good answer:* Correct `dt` conversion (`dx = 10 dt`), correct limit transformation, correct integration, final answer in terms of `e`. \n**Why poor answers reveal misunderstanding:** Missing the `10` factor (forgetting `dx = dt/0.1 = 10 dt`) shows confusion between `dt = 0.1dx` and `dx = dt/0.1`. Keeping old limits shows the same variable-mixing error as Q5.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

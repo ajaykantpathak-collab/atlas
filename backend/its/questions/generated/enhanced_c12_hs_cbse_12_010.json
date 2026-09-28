@@ -34,6 +34,36 @@
      "q": "Create a novel \"indicator dashboard\" for a hypothetical \"Adolescent Anaemia Prevention\" programme in a rural block. Include 5 indicators covering input, process, output, outcome, and impact levels. Present as a table with columns: Level, Indicator, Data Source, Frequency.",
      "a": "| Level | Indicator | Data Source | Frequency |\n|-------|-----------|-------------|-----------|\n| Input | Budget utilised for IFA tablets procurement (₹) | Financial records | Monthly |\n| Process | % of Anganwadi centres conducting weekly IFA distribution sessions | Supervisor reports | Monthly |\n| Output | % of adolescent girls (10-19 yrs) receiving 4 IFA tablets/month | Distribution registers | Monthly |\n| Outcome | % reduction in moderate/severe anaemia (Hb <10 g/dL) among enrolled girls after 6 months | Haemoglobin camps | Bi-annual |\n| Impact | Change in district-level adolescent anaemia prevalence (NFHS data) | NFHS survey | 3-5 years |\nA poor answer that lists only output indicators or uses the same data source for all levels reveals inability to conceptualise the *results chain* — a core competency for CUET/NEET-style case studies.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Programme evaluation in extension education is the systematic and objective assessment of an ongoing or completed extension programme's design, ______, and results to determine its relevance, effectiveness, efficiency, impact, and sustainability using predetermined criteria and measurable indicators.",
+     "a": "implementation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an ______ worker who just finished a 6-month \"Nutrition Garden\" programme in a tribal village.",
+     "a": "extension",
+     "self_check": true
+    },
+    {
+     "q": "What is Programme evaluation in extension education? State the definition given in this lesson.",
+     "a": "Programme evaluation in extension education is the systematic and objective assessment of an ongoing or completed extension programme's design, implementation, and results to determine its relevance, effectiveness, efficiency, impact, and sustainability using predetermined criteria and measurable indicators.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an extension worker who just finished a ______-month \"Nutrition Garden\" programme in a tribal village.",
+     "a": "6",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Programme evaluation in extension education?",
+     "a": "Students often believe \"evaluation happens only at the end of a programme\" and equate it with a final exam.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can differentiate between formative and summative evaluation, select appropriate criteria (relevance, effectiveness, efficiency, impact, sustainability) and indicators (quantitative/qualitative) for a given extension programme, and construct a basic evaluation framework with data collection methods.",
+     "self_check": true
     }
    ]
   }

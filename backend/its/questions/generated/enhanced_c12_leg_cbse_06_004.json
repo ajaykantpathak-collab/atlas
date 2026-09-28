@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_06_004",
+   "title": "c12_leg_cbse_06_004",
+   "questions": [
+    {
+     "q": "What is the statutory time limit for filing a Request for Examination (Form 18) for a patent application in India, and from which date is it calculated?",
+     "a": "The Request for Examination (Form 18) must be filed within 48 months from the date of filing of the application (or date of priority, whichever is earlier). A wrong answer (e.g., \"12 months\" or \"from date of publication\") reveals the student is confusing patent timelines with trademark opposition periods (4 months) or copyright registration timelines, or is mixing up the 18-month automatic publication deadline with the examination request deadline.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between pre-grant opposition and post-grant opposition under the Patents Act, 1970 in terms of who can oppose, time limit, and forum.",
+     "a": "Pre-grant opposition (Section 25(1)): any person can oppose, anytime after publication but before grant, before the Controller. Post-grant opposition (Section 25(2)): only a \"person interested\" can oppose, within 12 months of grant publication, before the Controller (appealable to High Court). A wrong answer that swaps the time limits or forums shows the student has memorized terms but not the procedural architecture — a classic board exam error where students write \"pre-grant opposition within 12 months of grant.\"",
+     "self_check": true
+    },
+    {
+     "q": "A startup files a trademark application (Form TM-A) for a logo on 15 January 2024. The application is examined and advertised in the Trade Marks Journal on 10 June 2024. No opposition is filed. On what date does the trademark proceed to registration, and what is the renewal deadline for the first renewal?",
+     "a": "Registration proceeds after the 4-month opposition period ends on 10 October 2024 (4 months from advertisement date). The trademark is registered for 10 years from the filing date (15 January 2024), so the first renewal is due by 15 January 2034 (with 6-month grace period on payment of surcharge). A wrong answer calculating renewal from advertisement date or grant date reveals confusion between filing-date-based term (trademarks) and grant-date-based term (patents), or ignorance of the 4-month opposition window.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the procedural requirements for copyright registration versus patent registration in India. Identify three fundamental procedural differences.",
+     "a": "(1) Copyright registration is voluntary (protection is automatic on creation); patent registration is mandatory for rights to exist. (2) Copyright application (Form XIV) goes to the Copyright Office; patent application goes to the Patent Office (Controller General). (3) Copyright has no substantive examination, opposition, or renewal fees; patent has rigorous examination, pre/post-grant opposition, and annual renewal fees. A wrong answer claiming copyright requires examination or renewal shows the student is conflating patent and copyright procedures — a frequent error in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "A patent holder fails to pay the 7th year renewal fee by the due date. The 6-month grace period (with surcharge) also expires. The patentee files a restoration application (Form 15) 14 months after the due date. Evaluate whether the Controller can restore the patent under Section 60 of the Patents Act, 1970.",
+     "a": "No. Section 60 requires the restoration application to be filed within 18 months from the date the patent ceased (i.e., expiry of grace period). Here, 14 months have passed since the due date, but the grace period adds 6 months, so the patent ceased 8 months ago (14 - 6 = 8 months after cessation). The application is within 18 months of cessation, so restoration *is* possible if unintentional delay is proven. A wrong answer saying \"time-barred\" reveals the student does not know the 18-month limit runs from *cessation* (end of grace period), not from the original due date — a nuanced procedural trap in competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Design a procedural checklist for a Class 12 student who has written an original mobile app code and wants to secure *both* copyright and patent protection in India. Include forms, offices, timelines, and costs (approximate).",
+     "a": "**Copyright**: Form XIV + Statement of Particulars + Statement of Further Particulars + 2 copies of code (first 30 & last 30 pages) → Copyright Office, New Delhi → no examination → registration certificate in 6-12 months → fee ₹500 (literary work). **Patent**: Prior art search → Provisional specification (Form 2) or Complete specification → Form 1, 2, 3, 5, 26 → appropriate Patent Office → fee ₹1,600 (individual) + ₹8,800 (examination request Form 18) → 18-month publication → Form 18 within 48 months → FER response in 6+3 months → grant → annual renewal from year 3. A poor answer misses the provisional/complete specification choice, omits Form 3 (foreign filing undertaking), or ignores the 48-month examination request deadline.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

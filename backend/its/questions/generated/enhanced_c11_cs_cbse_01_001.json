@@ -34,6 +34,26 @@
      "q": "Design a simple computer system for a vending machine that accepts coins, allows item selection, and dispenses the product. Draw a block diagram showing all four hardware components, label the input/output devices specific to this context, and explain what type of memory (RAM/ROM) would store the vending machine's control program and why.",
      "a": "Block diagram: Input devices = coin sensor, keypad; CPU = microcontroller; Memory = ROM (for control program) + small RAM (for temporary state like coin count); Output devices = display screen, product dispenser motor. The control program goes in ROM because it's non-volatile (survives power loss) and rarely changed. A poor answer (e.g., using RAM for the control program, missing coin sensor as input, or not justifying ROM choice) reveals inability to apply computer architecture concepts to an embedded system context.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A computer is an electronic device that accepts data (input), processes it according to a set of ______ (program), and produces meaningful results (output).",
+     "a": "instructions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're using your smartphone to send a message - you type on the screen (input), the phone ______ your keystrokes, and the message appears on your friend's screen (output).",
+     "a": "processes",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly label the four main hardware components of a computer system in a block diagram, explain the difference between volatile and non-volatile memory with examples, and trace the flow of data from input device through CPU to output device using the system bus concept.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're using your ______ to send a message - you type on the screen (input), the phone processes your keystrokes, and the message appears on your friend's screen (output).",
+     "a": "smartphone",
+     "self_check": true
     }
    ]
   }

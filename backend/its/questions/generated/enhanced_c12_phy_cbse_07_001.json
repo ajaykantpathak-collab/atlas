@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a resistor, an AC power supply (variable voltage), a DC power supply, and a thermometer to demonstrate that the RMS value of an AC voltage is the \"equivalent DC voltage\" for heating. Describe the procedure, measurements, and how you would verify Vrms = vm/√2.",
      "a": "Procedure: (1) Connect resistor to DC supply, adjust voltage Vdc until thermometer shows steady temperature rise ΔT after fixed time. Record Vdc. (2) Connect same resistor to AC supply, adjust peak voltage vm until same ΔT in same time. Record vm using oscilloscope. (3) Compute Vrms = vm/√2. (4) Verify Vdc ≈ Vrms. Expected outcome: Vdc = 10 V → vm ≈ 14.14 V. A poor answer would omit the oscilloscope measurement of vm, or use an AC voltmeter (which reads RMS directly) making the experiment circular. The key is independently measuring peak voltage and matching heating effects.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The root mean square (RMS) value of an ______ current or voltage is the equivalent steady direct current or voltage that would produce the same average power dissipation in a purely resistive load over one complete cycle.",
+     "a": "alternating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the ceiling fan in your classroom — it runs on the 220 V AC mains ______.",
+     "a": "supply",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the ceiling fan in your classroom — it runs on the ______ V AC mains supply.",
+     "a": "220",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the RMS value from the definition of average power in a resistive AC circuit, compute RMS values from given peak values (and vice versa), and explain why household voltage ratings (e.g., 220 V) refer to RMS values rather than peak values.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the ceiling fan in your ______ — it runs on the 220 V AC mains supply.",
+     "a": "classroom",
+     "self_check": true
     }
    ]
   }

@@ -20,7 +20,7 @@
     "identify sets from the given list",
     "Explain the method of Definition of a Set."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,16 @@
      "action": "verify with examples",
      "explain": "Test boundary cases to confirm the membership decision is unambiguous for every candidate object."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 2 gives 2",
+     "compute": "count = 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.101.2",
@@ -54,7 +63,7 @@
     "list the elements of the set",
     "Explain the method of Roster or Tabular Form."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -71,7 +80,16 @@
      "action": "verify roster form",
      "explain": "Confirm that order of elements does not matter and no element is repeated in the final listing."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 2 gives 2",
+     "compute": "count = 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.101.3",
@@ -88,7 +106,7 @@
     "express the set using a rule",
     "Explain the method of Set-Builder Form."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -105,7 +123,16 @@
      "action": "validate completeness",
      "explain": "Ensure every element satisfying the property is included and no outside element accidentally meets the condition."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 3 gives 3",
+     "compute": "count = 3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.101.4",
@@ -122,7 +149,7 @@
     "check if the set has any elements",
     "Explain the method of The Empty Set."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -139,7 +166,16 @@
      "action": "confirm null status",
      "explain": "Cross-check by attempting to list at least one member; failure to do so confirms the set is the empty set."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 5 gives 5",
+     "compute": "count = 5"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.101.5",
@@ -156,7 +192,7 @@
     "classify the set based on element count",
     "Explain the method of Finite and Infinite Sets."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -173,7 +209,16 @@
      "action": "justify classification",
      "explain": "Provide reasoning by referencing the nature of the elements, such as whether they form a bounded or unbounded collection."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 3 gives 3",
+     "compute": "count = 3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.101.6",
@@ -190,7 +235,7 @@
     "verify if A = B",
     "Explain the method of Equal Sets."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -207,7 +252,16 @@
      "action": "check cardinality",
      "explain": "Confirm both sets have the same number of elements, since equal sets must have identical cardinality."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 6 gives 6",
+     "compute": "count = 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.101.7",
@@ -224,7 +278,7 @@
     "check the inclusion relation",
     "Explain the method of Subsets."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -241,7 +295,16 @@
      "action": "state subset relationship",
      "explain": "Conclude whether A is a subset of B, and note that every set is a subset of itself and the empty set is a subset of every set."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 2 gives 2",
+     "compute": "count = 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.101.8",
@@ -306,7 +369,7 @@
     "combine the sets",
     "Explain the method of Union of Sets."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -323,7 +386,16 @@
      "action": "verify union result",
      "explain": "Confirm that every element from each original set appears in the union and no element has been omitted."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 5 gives 5",
+     "compute": "count = 5"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.101.10",
@@ -340,7 +412,7 @@
     "determine if sets are disjoint",
     "Explain the method of Intersection of Sets."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -357,7 +429,16 @@
      "action": "check for disjoint sets",
      "explain": "If no common elements exist, the intersection is the empty set, meaning the sets are disjoint."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 2 gives 2",
+     "compute": "count = 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.101.11",
@@ -374,7 +455,7 @@
     "find B - A",
     "Explain the method of Difference of Sets."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -391,7 +472,16 @@
      "action": "write difference set",
      "explain": "List the remaining elements of A within braces to form the result A - B."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 2 gives 2",
+     "compute": "count = 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.101.12",
@@ -408,7 +498,7 @@
     "find (A union B)'",
     "Explain the method of Complement of a Set."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -425,7 +515,16 @@
      "action": "verify complement",
      "explain": "Confirm that the union of the set and its complement equals the universal set U, and their intersection is empty."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 2 gives 2",
+     "compute": "count = 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.101.13",
@@ -442,7 +541,7 @@
     "prove the complement of union property",
     "Explain the method of De Morgan's Laws."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -459,7 +558,16 @@
      "action": "compare results",
      "explain": "Verify that both sets contain identical elements."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 5 gives 5",
+     "compute": "count = 5"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

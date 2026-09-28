@@ -125,7 +125,16 @@
      "q": "What is the net ATP yield of glycolysis per glucose?",
      "a": "2"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_yield = gross_atp - invested_atp",
+     "compute": "net_yield = gross_atp - invested_atp"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt105.4",
@@ -210,7 +219,16 @@
      "q": "One matrix NADH buys about how many ATP: 2.5 or 25?",
      "a": "2.5"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "atp_total = nadh_share + fadh_share",
+     "compute": "atp_total = nadh_share + fadh_share"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt105.6",
@@ -255,7 +273,16 @@
      "q": "Which cycle fixes carbon dioxide onto ribulose-1,5-bisphosphate: the Calvin cycle or the Krebs cycle?",
      "a": "the Calvin cycle"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "atp_cost = pga_total + regen_atp",
+     "compute": "atp_cost = pga_total + regen_atp"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt105.7",
@@ -293,7 +320,16 @@
      "q": "Starting from one cell, how many cells do 3 rounds of division leave?",
      "a": "8"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "cells_total = initial_cells * 2 ** rounds",
+     "compute": "cells_total = initial_cells * 2 ** rounds"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt105.8",

@@ -34,6 +34,31 @@
      "q": "Design a 4-week hardening protocol for tissue-cultured apple rootstocks (M9) that includes substrate, humidity schedule, light intensity, and sucrose withdrawal. Justify each parameter.",
      "a": "Week 1–2 (Primary): 90% RH (mist chamber), 16 h photoperiod, 50 µmol·m⁻²·s⁻¹ PPFD, 1:1 peat:perlite, 1% sucrose in irrigation. Week 3–4 (Secondary): 70% RH (shade house), natural photoperiod, 200 µmol·m⁻²·s⁻¹, same substrate, 0% sucrose. Justification: M9 is sensitive to desiccation; peat:perlite gives aeration + water holding; stepwise light increase matches photosynthetic acclimation; sucrose withdrawal by week 3 forces autotrophy. A poor answer lists parameters without physiological justification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Hardening and ______ is the stepwise process of adapting in vitro-regenerated plantlets from sterile, high-humidity, low-light, nutrient-rich culture conditions to ex vitro environments (greenhouse/field) by gradually reducing humidity, increasing light intensity, and withdrawing exogenous sugar to promote autotrophic growth, functional stomatal control, and root system competence.",
+     "a": "acclimatization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have 500 tissue-cultured banana ______ that look perfect in jars — but when you move them to soil, 80% wilt and die within a week.",
+     "a": "plantlets",
+     "self_check": true
+    },
+    {
+     "q": "What is Hardening and acclimatization? State the definition given in this lesson.",
+     "a": "Hardening and acclimatization is the stepwise process of adapting in vitro-regenerated plantlets from sterile, high-humidity, low-light, nutrient-rich culture conditions to ex vitro environments (greenhouse/field) by gradually reducing humidity, increasing light intensity, and withdrawing exogenous sugar to promote autotrophic growth.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Hardening and acclimatization?",
+     "a": "Students think hardening is simply \"keeping plants in a greenhouse for a few weeks\" and that survival depends only on humidity.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can design a complete hardening protocol (primary and secondary stages) for a given crop, specifying humidity, light, temperature, substrate, and duration at each step, and justify each parameter based on the physiological limitations of in vitro plantlets (e.g., poor cuticle, dysfunctional stomata, heterotrophic metabolism).",
+     "self_check": true
     }
    ]
   }

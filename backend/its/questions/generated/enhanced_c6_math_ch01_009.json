@@ -34,6 +34,31 @@
      "q": "Create a subtraction problem using the digits 1, 2, 3, 4, 5 that requires at least two instances of borrowing.",
      "a": "A valid example is 51,234 - 12,345. A student who creates a problem like 54,321 - 12,345 shows they understand the conditions required to trigger the \"borrowing\" mechanism.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of large numbers is the process of finding the difference between two values by aligning their digits according to their place values and subtracting from right to left, using borrowing when a top digit is smaller than the bottom digit.",
+     "a": "Subtraction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by writing the numbers one above the other, ______ the digits in their place value columns (ones, tens, hundreds, thousands, ten-thousands).",
+     "a": "aligning",
+     "self_check": true
+    },
+    {
+     "q": "What is Subtraction of large numbers? State the definition given in this lesson.",
+     "a": "Subtraction of large numbers is the process of finding the difference between two values by aligning their digits according to their place values and subtracting from right to left, using borrowing when a top digit is smaller than the bottom digit.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Subtraction of large numbers?",
+     "a": "The \"Always Subtract Smaller from Larger\" error: Students often subtract the smaller digit from the larger digit regardless of whether it is on top or bottom (e.g., in 52 - 18, they do 8 - 2 = 6, then 5 - 1 = 4, resulting in 46 instead of 34).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to subtract two multi-digit numbers (up to 5 digits), accurately managing borrowing across multiple columns to reach the correct difference.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a one-page annotated map for a Class 11 project showing the spatial correlation between slum clusters, major traffic congestion nodes, and air quality monitoring stations exceeding NAAQS in any one Indian megacity (e.g., Mumbai, Delhi, Kolkata). List the data sources you would use.",
      "a": "A good answer includes: Base map (ward boundaries), slum layer (Census 2011 slum enumeration blocks or state slum survey), congestion nodes (traffic police junction volume data or Google Maps typical traffic layer), AQI stations (CPCB/SAFAR real-time data), annotations linking co-location (e.g., \"M-East ward: 77% slum population, 3 congestion junctions, PM2.5 annual avg 120 µg/m³\"). Data sources: Census GIS, City Traffic Police, CPCB, SAFAR, OpenStreetMap. A poor answer uses only one data source or shows no spatial correlation reasoning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Problems of urban settlements refer to the adverse conditions arising from rapid, unplanned urbanization, primarily manifested as slums (illegal, overcrowded housing lacking basic services), congestion (excessive density of population and vehicles exceeding ______ capacity), and pollution (degradation of air, water, soil, and noise environments beyond permissible limits).",
+     "a": "infrastructure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking the student to recall their morning commute in any Indian metro — the sight of a dense ______ with blue tarpaulin roofs alongside a flyover, the standstill traffic at a junction, the smog reducing visibility.",
+     "a": "settlement",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can analyze the interlinked causes and consequences of slums, congestion, and pollution in a specific Indian city using census data and satellite imagery, and evaluate the effectiveness of a government scheme (e.g., PMAY, Smart Cities Mission) in mitigating any one of these problems.",
+     "self_check": true
     }
    ]
   }

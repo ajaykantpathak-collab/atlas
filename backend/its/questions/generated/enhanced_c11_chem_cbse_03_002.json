@@ -34,6 +34,21 @@
      "q": "Design a mnemonic or visual aid to help remember the IUPAC numerical roots for naming elements with Z>100 (0=nil, 1=un, 2=bi, 3=tri, 4=quad, 5=pent, 6=hex, 7=sept, 8=oct, 9=enn). Explain how your aid connects each digit to its root.",
      "a": "Example mnemonic: \"Nil Un Bi Tri Quad Pent Hex Sept Oct Enn\" -> \"Nil Uncle Bill Tripped Quadrillion Pentagons Hexing Seven Octopuses Entering November\". Visual aid: a table mapping digits to roots with color coding. A good answer shows creativity and correct mapping. A poor answer might mix up roots (e.g., using 'sept' for 7 but 'oct' for 8 incorrectly) indicating lack of memorization.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Modern Periodic Law states that the physical and chemical ______ of elements are periodic functions of their atomic numbers.",
+     "a": "properties",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This pattern of similar reactivity repeating at regular intervals is the essence of ______.",
+     "a": "periodicity",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can state the Modern Periodic Law, explain why atomic number is the basis instead of atomic mass, and identify the period, group, and block of an element given its atomic number or electronic configuration.",
+     "self_check": true
     }
    ]
   }

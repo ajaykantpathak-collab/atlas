@@ -1,6 +1,53 @@
 {
- "catalog": "catalog_class12_biology_ch108",
+ "catalog": "catalog_class12_biology_ch108.json",
  "concepts": [
+  {
+   "id": "lebo.108.7",
+   "title": "Biochemical Oxygen Demand (BOD) and Water Pollution Measurement",
+   "converted_to_compute": true,
+   "formula": "reduction_percent = (initial_bod - final_bod) * 100 / initial_bod",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "reduction_percent = (initial_bod - final_bod) * 100 / initial_bod",
+     "compute": "reduction_percent = (initial_bod - final_bod) * 100 / initial_bod"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Biochemical Oxygen Demand (BOD) and Water Pollution Measurement: given initial_bod = 50, final_bod = 42, find reduction percent.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "For Biochemical Oxygen Demand (BOD) and Water Pollution Measurement: given initial_bod = 51, final_bod = 98, find reduction percent.",
+     "a": "-92.1569",
+     "self_check": false
+    },
+    {
+     "q": "For Biochemical Oxygen Demand (BOD) and Water Pollution Measurement: given initial_bod = 75, final_bod = 19.8, find reduction percent.",
+     "a": "73.6",
+     "self_check": false
+    },
+    {
+     "q": "For Biochemical Oxygen Demand (BOD) and Water Pollution Measurement: given initial_bod = 65, final_bod = 77, find reduction percent.",
+     "a": "-18.4615",
+     "self_check": false
+    },
+    {
+     "q": "For Biochemical Oxygen Demand (BOD) and Water Pollution Measurement: given initial_bod = 16.3, final_bod = 25, find reduction percent.",
+     "a": "-53.3742",
+     "self_check": false
+    },
+    {
+     "q": "For Biochemical Oxygen Demand (BOD) and Water Pollution Measurement: given initial_bod = 22, final_bod = 19.6, find reduction percent.",
+     "a": "10.9091",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "lebo.108.1",
    "title": "Microbes in Household Food Products",
@@ -123,37 +170,6 @@
     {
      "q": "Write the standard relation used for 'Secondary Sewage Treatment and Floc Formation', in plain ASCII form.",
      "a": "primary effluent + aerobic flocs + oxygen -> digested effluent + activated sludge",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebo.108.7",
-   "title": "Biochemical Oxygen Demand (BOD) and Water Pollution Measurement",
-   "questions": [
-    {
-     "q": "Calculate the percentage reduction in BOD during sewage treatment. Use the method 'Biochemical Oxygen Demand (BOD) and Water Pollution Measurement'. Work with: final_bod = 3, initial_bod = 5. Carry the chain through step by step and give the final value of treatment_efficiency.",
-     "a": "40 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Find the change in BOD given initial and final values. Use the method 'Biochemical Oxygen Demand (BOD) and Water Pollution Measurement'. Work with: final_bod = 3, initial_bod = 200. Carry the chain through step by step and give the final value of treatment_efficiency.",
-     "a": "98.5 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Biochemical Oxygen Demand (BOD) and Water Pollution Measurement' refers to.",
-     "a": "The total amount of dissolved oxygen consumed by microorganisms to completely oxidize the organic matter present in one liter of water.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Biochemical Oxygen Demand (BOD) and Water Pollution Measurement'.",
-     "a": "BOD measures organic load indirectly; a higher BOD value indicates greater organic pollution in the water body.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Biochemical Oxygen Demand (BOD) and Water Pollution Measurement', in plain ASCII form.",
-     "a": "reduction_percent = (initial_bod - final_bod) * 100 / initial_bod",
      "self_check": true
     }
    ]

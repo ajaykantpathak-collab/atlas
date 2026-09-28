@@ -34,6 +34,26 @@
      "q": "Design a polyhedron that has exactly 8 faces and 12 vertices. Describe its faces (shapes and how many of each) and explain how you know it will have 12 vertices. (You may use Euler's formula if you know it, but try to reason geometrically.)",
      "a": "A hexagonal prism: 2 hexagonal bases + 6 rectangular lateral faces = 8 faces. Each hexagon has 6 vertices → 12 vertices total. Edges: 6×2 (base edges) + 6 (vertical) = 18 edges. Check: F+V-E = 8+12-18 = 2.  \nA poor answer (e.g., \"a cube with two extra faces\" without specifying structure) reveals the student cannot connect face/vertex counts to known polyhedron families and lacks spatial reasoning about prisms/pyramids.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A polyhedron is a three-______ solid bounded entirely by flat polygonal faces, where each face is a polygon, each edge is a line segment where two faces meet, and each vertex is a point where three or more edges meet.",
+     "a": "dimensional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are holding a ______ dice (a cube) and a pyramid-shaped paperweight.",
+     "a": "standard",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can accurately identify and count faces, edges, and vertices of any given polyhedron (including prisms, pyramids, and Platonic solids) using physical models, nets, or 2D representations, and can explain why a cylinder or cone is not a polyhedron.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are holding a standard dice (a cube) and a pyramid-shaped ______.",
+     "a": "paperweight",
+     "self_check": true
     }
    ]
   }

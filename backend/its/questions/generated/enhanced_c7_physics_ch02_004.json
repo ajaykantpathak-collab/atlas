@@ -31,8 +31,28 @@
      "self_check": true
     },
     {
-     "q": "Design a simple setup using standard household items to test whether a homemade battery of three lemon cells can light up a small LED, explaining the exact arrangement of the copper and zinc electrodes.",
-     "a": "The setup requires three lemons, three copper strips, and three zinc strips. Insert one copper and one zinc strip into each lemon. Connect the copper strip of lemon 1 to the zinc strip of lemon 2, and the copper strip of lemon 2 to the zinc strip of lemon 3. Finally, connect the remaining free copper and zinc ends to the LED terminals, ensuring correct polarity. A poor answer lacks the correct alternating series connection between dissimilar metals of adjacent cells.",
+     "q": "Give the correct order of connections for wiring three lemon cells so their voltages add up to light an LED.",
+     "a": "The series chain runs: (1) Place one copper and one zinc strip in each lemon (2) Join the copper strip of the first lemon to the zinc strip of the second (3) Join the copper of the second to the zinc of the third (4) Connect the two free ends, one copper and one zinc, to the LED terminals with correct polarity. A wrong answer that pairs like metals together shows the student does not understand that a battery adds cell voltages only when every cell pushes current in the same direction along the chain.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A battery is a ______ of two or more electric cells connected together to provide a higher total voltage and sustained electric current to a circuit.",
+     "a": "combination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you look inside a TV remote control or a large wall clock, you notice that ______ cylindrical electric cells are placed end-to-end rather than just a single cell.",
+     "a": "multiple",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can correctly connect two or more electric cells in series (positive terminal of one connected to the negative terminal of the next) to light up a bulb requiring higher voltage, and can calculate the total voltage by summing individual cell voltages.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you look inside a TV remote control or a large wall clock, you notice that multiple ______ electric cells are placed end-to-end rather than just a single cell.",
+     "a": "cylindrical",
      "self_check": true
     }
    ]

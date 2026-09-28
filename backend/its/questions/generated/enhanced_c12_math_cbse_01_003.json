@@ -34,6 +34,21 @@
      "q": "Construct a function \\( f: \\mathbb{N} \\to \\mathbb{N} \\) that is one-one but **not** onto, and prove both properties. Then modify the domain/codomain to make the same formula bijective.",
      "a": "Example: \\( f(n) = 2n \\) (or \\( f(n)=n+1 \\)).  \n**One-one:** \\( 2n_1 = 2n_2 \\implies n_1=n_2 \\).  \n**Not onto:** No \\( n \\in \\mathbb{N} \\) gives \\( f(n)=1 \\) (or any odd number).  \nTo make it bijective, change codomain to the range: \\( f: \\mathbb{N} \\to \\{2,4,6,\\dots\\} \\) (or \\( f: \\mathbb{N} \\to \\mathbb{N}\\setminus\\{1\\} \\) for \\( n+1 \\)). Then it becomes onto by definition, and remains one-one.  \nA poor answer might give a formula without proving both properties, or suggest changing the domain to \\( \\mathbb{Z} \\) (which would break injectivity for \\( n+1 \\) because \\( f(0)=f(-1)? \\) Wait, \\( n+1 \\) on \\( \\mathbb{Z} \\) is still injective but not onto unless codomain is \\( \\mathbb{Z} \\)). The key is to recognize that **restricting the codomain to the range** always turns an injective function into a bijection.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If this ______ fails, the function is called many-one.",
+     "a": "condition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a school ______ each student a unique roll number.",
+     "a": "assigns",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a school assigns each student a unique roll number.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

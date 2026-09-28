@@ -34,6 +34,31 @@
      "q": "Design a scenario where you must insert multiple rows into `Orders(OrderID, CustID, OrderDate, Amount)` from a staging table `NewOrders` but only for customers from 'Delhi' (column City in Customers table), using a single INSERT...SELECT statement with a JOIN. Write the full statement.",
      "a": "`INSERT INTO Orders (OrderID, CustID, OrderDate, Amount) SELECT n.OrderID, n.CustID, n.OrderDate, n.Amount FROM NewOrders n JOIN Customers c ON n.CustID = c.CustID WHERE c.City = 'Delhi';` — this demonstrates multi-table INSERT...SELECT with JOIN and filtering. A poor answer using subquery instead of JOIN or omitting column list shows inability to compose advanced DML combining multiple concepts.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: DML (Data ______ Language) commands are SQL statements used to add, modify, or remove data rows within existing database tables.",
+     "a": "Manipulation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a ______ admission system where new students register (INSERT), their contact details change (UPDATE), and withdrawn applications are removed (DELETE).",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What is DML (Data Manipulation Language) commands? State the definition given in this lesson.",
+     "a": "DML (Data Manipulation Language) commands are SQL statements used to add, modify, or remove data rows within existing database tables.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about DML (Data Manipulation Language) commands?",
+     "a": "Students believe that UPDATE and DELETE without a WHERE clause produce an error or prompt for confirmation.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must independently write correct INSERT, UPDATE, and DELETE statements for a given table schema, including handling NULL values, DEFAULT constraints, WHERE clause filtering, and multi-row operations, and must predict the exact row-level effect of each statement on sample data.",
+     "self_check": true
     }
    ]
   }

@@ -4,86 +4,328 @@
   {
    "id": "jesc.107.1",
    "title": "DNA Copying and Variation",
+   "converted_to_compute": true,
+   "formula": "variation_rate = total_errors / dna_replication_events",
    "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
-     "name": "total_errors",
-     "expr": "errors_gene_a + errors_gene_b",
-     "explain": "add the copying mistakes picked up in both stretches of DNA"
-    },
-    {
-     "step": 2,
-     "name": "variation_rate",
-     "expr": "total_errors / replication_events",
-     "explain": "average mistakes per DNA copying event"
-    },
-    {
-     "step": 3,
-     "name": "variation_percent",
-     "expr": "variation_rate * 100",
-     "explain": "report the rate as a percentage"
+     "action": "substitute the given values into the formula",
+     "explain": "variation_rate = total_errors / dna_replication_events",
+     "compute": "variation_rate = total_errors / dna_replication_events"
     }
    ],
    "questions": [
     {
-     "q": "In a bacterial line, DNA copying made 20 errors in stretch A and 10 in stretch B over 10 replication events. Find the variation rate and its percentage.",
-     "vals": {
-      "errors_gene_a": 20,
-      "errors_gene_b": 10,
-      "replication_events": 10
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "300 %",
+     "q": "For DNA Copying and Variation: given total_errors = 50, dna_replication_events = 15.3, find variation rate.",
+     "a": "3.26797",
      "self_check": false
     },
     {
-     "q": "A cell line shows 8 copying errors in one gene and 4 in another across 6 doublings. Compute the errors per event and as a per cent.",
-     "vals": {
-      "errors_gene_a": 8,
-      "errors_gene_b": 4,
-      "replication_events": 6
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "200 %",
+     "q": "For DNA Copying and Variation: given total_errors = 98, dna_replication_events = 16.1, find variation rate.",
+     "a": "6.08696",
      "self_check": false
     },
     {
-     "q": "Over 8 replication cycles, 15 errors appeared in one DNA segment and 9 in another. What is the variation rate and its per cent value?",
-     "vals": {
-      "errors_gene_a": 15,
-      "errors_gene_b": 9,
-      "replication_events": 8
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "300 %",
+     "q": "For DNA Copying and Variation: given total_errors = 96, dna_replication_events = 13.6, find variation rate.",
+     "a": "7.05882",
      "self_check": false
     },
     {
-     "q": "Seven errors were counted in gene X and five in gene Y after 12 DNA copying events. Calculate the variation rate and percentage.",
-     "vals": {
-      "errors_gene_a": 7,
-      "errors_gene_b": 5,
-      "replication_events": 12
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "100 %",
+     "q": "For DNA Copying and Variation: given total_errors = 27, dna_replication_events = 6.2, find variation rate.",
+     "a": "4.35484",
      "self_check": false
     },
     {
-     "q": "A tissue culture logged 26 errors in one stretch and 14 in another over 20 replication rounds. Find the rate per event and its per cent.",
-     "vals": {
-      "errors_gene_a": 26,
-      "errors_gene_b": 14,
-      "replication_events": 20
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "200 %",
+     "q": "For DNA Copying and Variation: given total_errors = 44, dna_replication_events = 5.3, find variation rate.",
+     "a": "8.30189",
+     "self_check": false
+    },
+    {
+     "q": "For DNA Copying and Variation: given total_errors = 87, dna_replication_events = 11.1, find variation rate.",
+     "a": "7.83784",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.107.4",
+   "title": "Budding",
+   "converted_to_compute": true,
+   "formula": "total_organisms = parent + active_buds",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_organisms = parent + active_buds",
+     "compute": "total_organisms = parent + active_buds"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Budding: given parent = 79, active_buds = 81, find total organisms.",
+     "a": "160",
+     "self_check": false
+    },
+    {
+     "q": "For Budding: given parent = 67, active_buds = 40, find total organisms.",
+     "a": "107",
+     "self_check": false
+    },
+    {
+     "q": "For Budding: given parent = 29, active_buds = 37, find total organisms.",
+     "a": "66",
+     "self_check": false
+    },
+    {
+     "q": "For Budding: given parent = 7.5, active_buds = 37, find total organisms.",
+     "a": "44.5",
+     "self_check": false
+    },
+    {
+     "q": "For Budding: given parent = 43, active_buds = 22, find total organisms.",
+     "a": "65",
+     "self_check": false
+    },
+    {
+     "q": "For Budding: given parent = 76, active_buds = 68, find total organisms.",
+     "a": "144",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.107.5",
+   "title": "Vegetative Propagation",
+   "converted_to_compute": true,
+   "formula": "plant_yield = cuttings * success_rate",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "plant_yield = cuttings * success_rate",
+     "compute": "plant_yield = cuttings * success_rate"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Vegetative Propagation: given cuttings = 12.4, success_rate = 60, find plant yield.",
+     "a": "744",
+     "self_check": false
+    },
+    {
+     "q": "For Vegetative Propagation: given cuttings = 19.7, success_rate = 49, find plant yield.",
+     "a": "965.3",
+     "self_check": false
+    },
+    {
+     "q": "For Vegetative Propagation: given cuttings = 24, success_rate = 13.8, find plant yield.",
+     "a": "331.2",
+     "self_check": false
+    },
+    {
+     "q": "For Vegetative Propagation: given cuttings = 35, success_rate = 2.3, find plant yield.",
+     "a": "80.5",
+     "self_check": false
+    },
+    {
+     "q": "For Vegetative Propagation: given cuttings = 97, success_rate = 27, find plant yield.",
+     "a": "2619",
+     "self_check": false
+    },
+    {
+     "q": "For Vegetative Propagation: given cuttings = 97, success_rate = 62, find plant yield.",
+     "a": "6014",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.107.6",
+   "title": "Spore Formation",
+   "converted_to_compute": true,
+   "formula": "spore_count = sporangia * spores_per_blob",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "spore_count = sporangia * spores_per_blob",
+     "compute": "spore_count = sporangia * spores_per_blob"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Spore Formation: given sporangia = 56, spores_per_blob = 84, find spore count.",
+     "a": "4704",
+     "self_check": false
+    },
+    {
+     "q": "For Spore Formation: given sporangia = 2.8, spores_per_blob = 26, find spore count.",
+     "a": "72.8",
+     "self_check": false
+    },
+    {
+     "q": "For Spore Formation: given sporangia = 85, spores_per_blob = 68, find spore count.",
+     "a": "5780",
+     "self_check": false
+    },
+    {
+     "q": "For Spore Formation: given sporangia = 66, spores_per_blob = 1.6, find spore count.",
+     "a": "105.6",
+     "self_check": false
+    },
+    {
+     "q": "For Spore Formation: given sporangia = 56, spores_per_blob = 85, find spore count.",
+     "a": "4760",
+     "self_check": false
+    },
+    {
+     "q": "For Spore Formation: given sporangia = 18.1, spores_per_blob = 51, find spore count.",
+     "a": "923.1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.107.7",
+   "title": "Sexual Reproduction and Meiosis",
+   "converted_to_compute": true,
+   "formula": "zygote_chromosomes = male_gamete_n + female_gamete_n",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "zygote_chromosomes = male_gamete_n + female_gamete_n",
+     "compute": "zygote_chromosomes = male_gamete_n + female_gamete_n"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Sexual Reproduction and Meiosis: given male_gamete_n = 6.7, female_gamete_n = 10.9, find zygote chromosomes.",
+     "a": "17.6",
+     "self_check": false
+    },
+    {
+     "q": "For Sexual Reproduction and Meiosis: given male_gamete_n = 6.1, female_gamete_n = 19.6, find zygote chromosomes.",
+     "a": "25.7",
+     "self_check": false
+    },
+    {
+     "q": "For Sexual Reproduction and Meiosis: given male_gamete_n = 17.7, female_gamete_n = 19.7, find zygote chromosomes.",
+     "a": "37.4",
+     "self_check": false
+    },
+    {
+     "q": "For Sexual Reproduction and Meiosis: given male_gamete_n = 19, female_gamete_n = 13.9, find zygote chromosomes.",
+     "a": "32.9",
+     "self_check": false
+    },
+    {
+     "q": "For Sexual Reproduction and Meiosis: given male_gamete_n = 15.3, female_gamete_n = 1.3, find zygote chromosomes.",
+     "a": "16.6",
+     "self_check": false
+    },
+    {
+     "q": "For Sexual Reproduction and Meiosis: given male_gamete_n = 17.4, female_gamete_n = 19, find zygote chromosomes.",
+     "a": "36.4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.107.9",
+   "title": "Human Male Reproductive System",
+   "converted_to_compute": true,
+   "formula": "semen = sperm_cells + glandular_secretions",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "semen = sperm_cells + glandular_secretions",
+     "compute": "semen = sperm_cells + glandular_secretions"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Human Male Reproductive System: given sperm_cells = 4.5, glandular_secretions = 62, find semen.",
+     "a": "66.5",
+     "self_check": false
+    },
+    {
+     "q": "For Human Male Reproductive System: given sperm_cells = 99, glandular_secretions = 6.5, find semen.",
+     "a": "105.5",
+     "self_check": false
+    },
+    {
+     "q": "For Human Male Reproductive System: given sperm_cells = 90, glandular_secretions = 2.8, find semen.",
+     "a": "92.8",
+     "self_check": false
+    },
+    {
+     "q": "For Human Male Reproductive System: given sperm_cells = 42, glandular_secretions = 84, find semen.",
+     "a": "126",
+     "self_check": false
+    },
+    {
+     "q": "For Human Male Reproductive System: given sperm_cells = 2.3, glandular_secretions = 33, find semen.",
+     "a": "35.3",
+     "self_check": false
+    },
+    {
+     "q": "For Human Male Reproductive System: given sperm_cells = 32, glandular_secretions = 51, find semen.",
+     "a": "83",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.107.11",
+   "title": "Reproductive Health and Contraception",
+   "converted_to_compute": true,
+   "formula": "contraceptive_efficacy = 100 - failure_rate",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "contraceptive_efficacy = 100 - failure_rate",
+     "compute": "contraceptive_efficacy = 100 - failure_rate"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Reproductive Health and Contraception: given failure_rate = 48, find contraceptive efficacy.",
+     "a": "52",
+     "self_check": false
+    },
+    {
+     "q": "For Reproductive Health and Contraception: given failure_rate = 86, find contraceptive efficacy.",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "For Reproductive Health and Contraception: given failure_rate = 80, find contraceptive efficacy.",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "For Reproductive Health and Contraception: given failure_rate = 96, find contraceptive efficacy.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "For Reproductive Health and Contraception: given failure_rate = 57, find contraceptive efficacy.",
+     "a": "43",
+     "self_check": false
+    },
+    {
+     "q": "For Reproductive Health and Contraception: given failure_rate = 97, find contraceptive efficacy.",
+     "a": "3",
      "self_check": false
     }
    ]
@@ -198,339 +440,6 @@
    ]
   },
   {
-   "id": "jesc.107.4",
-   "title": "Budding",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "new_buds",
-     "expr": "parents * buds_per_parent",
-     "explain": "each yeast parent cell raises its own bud"
-    },
-    {
-     "step": 2,
-     "name": "buds_per_pair",
-     "expr": "buds_per_parent * 2",
-     "explain": "buds raised by each pair of parents"
-    },
-    {
-     "step": 3,
-     "name": "total_organisms",
-     "expr": "parents + new_buds",
-     "explain": "parents plus the new buds"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A yeast colony has 10 parent cells and each raises 3 buds. How many organisms are there in all?",
-     "vals": {
-      "parents": 10,
-      "buds_per_parent": 3
-     },
-     "unit": "organisms",
-     "steps": null,
-     "a": "40 organisms",
-     "self_check": false
-    },
-    {
-     "q": "8 hydra polyps each grow 2 buds. Find the total number of individuals.",
-     "vals": {
-      "parents": 8,
-      "buds_per_parent": 2
-     },
-     "unit": "individuals",
-     "steps": null,
-     "a": "24 individuals",
-     "self_check": false
-    },
-    {
-     "q": "12 yeast cells show 4 buds each. What is the total count of cells now?",
-     "vals": {
-      "parents": 12,
-      "buds_per_parent": 4
-     },
-     "unit": "cells",
-     "steps": null,
-     "a": "60 cells",
-     "self_check": false
-    },
-    {
-     "q": "15 parent sponges bud off 2 buds apiece. Compute the total organisms.",
-     "vals": {
-      "parents": 15,
-      "buds_per_parent": 2
-     },
-     "unit": "organisms",
-     "steps": null,
-     "a": "45 organisms",
-     "self_check": false
-    },
-    {
-     "q": "25 budding yeast parents carry 1 bud each. What is the total number of cells?",
-     "vals": {
-      "parents": 25,
-      "buds_per_parent": 1
-     },
-     "unit": "cells",
-     "steps": null,
-     "a": "50 cells",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "jesc.107.5",
-   "title": "Vegetative Propagation",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "rooted_plants",
-     "expr": "cuttings * success_rate",
-     "explain": "only the successful fraction of cuttings grow into plants"
-    },
-    {
-     "step": 2,
-     "name": "fail_fraction",
-     "expr": "1 - success_rate",
-     "explain": "fraction of cuttings expected to fail"
-    },
-    {
-     "step": 3,
-     "name": "failed_cuttings",
-     "expr": "cuttings - rooted_plants",
-     "explain": "cuttings that did not strike root"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A gardener plants 20 rose cuttings and 80% strike root. How many new rose plants grow, and how many cuttings fail?",
-     "vals": {
-      "cuttings": 20,
-      "success_rate": 0.8
-     },
-     "unit": "plants",
-     "steps": null,
-     "a": "4 plants",
-     "self_check": false
-    },
-    {
-     "q": "50 stem cuttings of money plant are put in water; 60% develop roots. How many new plants result?",
-     "vals": {
-      "cuttings": 50,
-      "success_rate": 0.6
-     },
-     "unit": "plants",
-     "steps": null,
-     "a": "20 plants",
-     "self_check": false
-    },
-    {
-     "q": "A nursery sticks 40 sugarcane setts with a 75% sprouting rate. How many plants come up?",
-     "vals": {
-      "cuttings": 40,
-      "success_rate": 0.75
-     },
-     "unit": "plants",
-     "steps": null,
-     "a": "10 plants",
-     "self_check": false
-    },
-    {
-     "q": "From 25 bougainvillea cuttings, 90% root successfully. How many plants are raised?",
-     "vals": {
-      "cuttings": 25,
-      "success_rate": 0.9
-     },
-     "unit": "plants",
-     "steps": null,
-     "a": "2.5 plants",
-     "self_check": false
-    },
-    {
-     "q": "A school garden tries 60 hibiscus cuttings with half succeeding. How many new hibiscus plants grow?",
-     "vals": {
-      "cuttings": 60,
-      "success_rate": 0.5
-     },
-     "unit": "plants",
-     "steps": null,
-     "a": "30 plants",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "jesc.107.6",
-   "title": "Spore Formation",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "total_spores",
-     "expr": "sporangia * spores_per_blob",
-     "explain": "each sporangium (blob) releases its own batch of spores"
-    },
-    {
-     "step": 2,
-     "name": "half_batch",
-     "expr": "total_spores / 2",
-     "explain": "spores from half the sporangia"
-    },
-    {
-     "step": 3,
-     "name": "viable_spores",
-     "expr": "total_spores * germination_rate",
-     "explain": "only a fraction of the spores are able to germinate"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A bread mould has 5 sporangia and each releases 50 spores. How many spores are set free, and how many are viable if 80% germinate?",
-     "vals": {
-      "sporangia": 5,
-      "spores_per_blob": 50,
-      "germination_rate": 0.8
-     },
-     "unit": "spores",
-     "steps": null,
-     "a": "200 spores",
-     "self_check": false
-    },
-    {
-     "q": "8 sporangia of Rhizopus each burst to give 40 spores. Count the total spores and the viable ones at a 90% germination rate.",
-     "vals": {
-      "sporangia": 8,
-      "spores_per_blob": 40,
-      "germination_rate": 0.9
-     },
-     "unit": "spores",
-     "steps": null,
-     "a": "288 spores",
-     "self_check": false
-    },
-    {
-     "q": "6 sporangia produce 60 spores each. Find the total spores released and those viable at a 70% rate.",
-     "vals": {
-      "sporangia": 6,
-      "spores_per_blob": 60,
-      "germination_rate": 0.7
-     },
-     "unit": "spores",
-     "steps": null,
-     "a": "252 spores",
-     "self_check": false
-    },
-    {
-     "q": "10 sporangia each shed 30 spores. What is the total, and how many are viable if 60% germinate?",
-     "vals": {
-      "sporangia": 10,
-      "spores_per_blob": 30,
-      "germination_rate": 0.6
-     },
-     "unit": "spores",
-     "steps": null,
-     "a": "180 spores",
-     "self_check": false
-    },
-    {
-     "q": "4 sporangia carry 75 spores apiece. Compute the total spores and the viable count at a 0.8 germination rate.",
-     "vals": {
-      "sporangia": 4,
-      "spores_per_blob": 75,
-      "germination_rate": 0.8
-     },
-     "unit": "spores",
-     "steps": null,
-     "a": "240 spores",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "jesc.107.7",
-   "title": "Sexual Reproduction and Meiosis",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "male_gamete_n",
-     "expr": "diploid_m / 2",
-     "explain": "meiosis halves the father's chromosome number"
-    },
-    {
-     "step": 2,
-     "name": "female_gamete_n",
-     "expr": "diploid_f / 2",
-     "explain": "meiosis halves the mother's chromosome number"
-    },
-    {
-     "step": 3,
-     "name": "zygote_chromosomes",
-     "expr": "male_gamete_n + female_gamete_n",
-     "explain": "fertilisation restores the diploid number in the zygote"
-    }
-   ],
-   "questions": [
-    {
-     "q": "Human body cells carry 46 chromosomes in both parents. After meiosis and fertilisation, how many chromosomes does the zygote have?",
-     "vals": {
-      "diploid_m": 46,
-      "diploid_f": 46
-     },
-     "unit": "chromosomes",
-     "steps": null,
-     "a": "46 chromosomes",
-     "self_check": false
-    },
-    {
-     "q": "A species of dog has 78 chromosomes per body cell. How many does a puppy's zygote receive in all?",
-     "vals": {
-      "diploid_m": 78,
-      "diploid_f": 78
-     },
-     "unit": "chromosomes",
-     "steps": null,
-     "a": "78 chromosomes",
-     "self_check": false
-    },
-    {
-     "q": "Fruit fly body cells have 8 chromosomes. What count does a fertilised egg of this fly restore?",
-     "vals": {
-      "diploid_m": 8,
-      "diploid_f": 8
-     },
-     "unit": "chromosomes",
-     "steps": null,
-     "a": "8 chromosomes",
-     "self_check": false
-    },
-    {
-     "q": "One parent of a hybrid plant has 44 chromosomes per cell, the other 46. How many chromosomes will the zygote carry?",
-     "vals": {
-      "diploid_m": 44,
-      "diploid_f": 46
-     },
-     "unit": "chromosomes",
-     "steps": null,
-     "a": "45 chromosomes",
-     "self_check": false
-    },
-    {
-     "q": "Rice has 24 chromosomes in body cells. How many does the zygote get after the two gametes fuse?",
-     "vals": {
-      "diploid_m": 24,
-      "diploid_f": 24
-     },
-     "unit": "chromosomes",
-     "steps": null,
-     "a": "24 chromosomes",
-     "self_check": false
-    }
-   ]
-  },
-  {
    "id": "jesc.107.8",
    "title": "Reproduction in Flowering Plants",
    "solution_type": "verify_property",
@@ -548,28 +457,6 @@
     {
      "q": "What happens after the pollen lands on the stigma?",
      "a": "A pollen tube grows to the ovary; the male gamete fuses with the egg forming a zygote, which becomes the seed while the ovary becomes fruit.",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "jesc.107.9",
-   "title": "Human Male Reproductive System",
-   "solution_type": "verify_property",
-   "questions": [
-    {
-     "q": "Name the parts of the human male reproductive system.",
-     "a": "Testes, scrotum, vas deferens, seminal vesicles, prostate gland and penis.",
-     "self_check": true
-    },
-    {
-     "q": "Why are testes located outside the abdominal cavity?",
-     "a": "The scrotum keeps them a few degrees cooler than body temperature, which sperm production needs.",
-     "self_check": true
-    },
-    {
-     "q": "What do the seminal vesicles and prostate gland add?",
-     "a": "Their secretions nourish the sperm and make the transport medium (semen) easier to move.",
      "self_check": true
     }
    ]
@@ -593,88 +480,6 @@
      "q": "Where does fertilisation occur and where does the embryo develop?",
      "a": "Fertilisation occurs in the oviduct; the implanted embryo grows in the uterus till birth.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "jesc.107.11",
-   "title": "Reproductive Health and Contraception",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "efficacy_percent",
-     "expr": "100 - failure_rate",
-     "explain": "efficacy is the complement of failure"
-    },
-    {
-     "step": 2,
-     "name": "failed_users",
-     "expr": "users * failure_rate / 100",
-     "explain": "users for whom the method fails"
-    },
-    {
-     "step": 3,
-     "name": "protected_users",
-     "expr": "users * efficacy_percent / 100",
-     "explain": "apply the efficacy to the number of users"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A contraceptive method fails for 8% of users. Out of 500 users, how many are effectively protected?",
-     "vals": {
-      "failure_rate": 8,
-      "users": 500
-     },
-     "unit": "users",
-     "steps": null,
-     "a": "460 users",
-     "self_check": false
-    },
-    {
-     "q": "If a method has a 12% failure rate, how many of 250 users does it protect?",
-     "vals": {
-      "failure_rate": 12,
-      "users": 250
-     },
-     "unit": "users",
-     "steps": null,
-     "a": "220 users",
-     "self_check": false
-    },
-    {
-     "q": "A programme reports 5% failures. Among 400 users, how many are successfully protected?",
-     "vals": {
-      "failure_rate": 5,
-      "users": 400
-     },
-     "unit": "users",
-     "steps": null,
-     "a": "380 users",
-     "self_check": false
-    },
-    {
-     "q": "A method with 18% failure is used by 600 people. How many are protected by it?",
-     "vals": {
-      "failure_rate": 18,
-      "users": 600
-     },
-     "unit": "users",
-     "steps": null,
-     "a": "492 users",
-     "self_check": false
-    },
-    {
-     "q": "The most reliable methods fail only 2% of the time. For 1000 users, how many does this protect?",
-     "vals": {
-      "failure_rate": 2,
-      "users": 1000
-     },
-     "unit": "users",
-     "steps": null,
-     "a": "980 users",
-     "self_check": false
     }
    ]
   }

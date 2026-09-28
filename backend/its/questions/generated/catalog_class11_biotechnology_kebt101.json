@@ -1,6 +1,147 @@
 {
- "catalog": "catalog_class11_biotechnology_kebt101",
+ "catalog": "catalog_class11_biotechnology_kebt101.json",
  "concepts": [
+  {
+   "id": "kebt101.4",
+   "title": "Compound Microscope Magnification",
+   "converted_to_compute": true,
+   "formula": "total_power = eyepiece_mag * objective_mag",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_power = eyepiece_mag * objective_mag",
+     "compute": "total_power = eyepiece_mag * objective_mag"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Compound Microscope Magnification: given eyepiece_mag = 67, objective_mag = 19.4, find total power.",
+     "a": "1299.8",
+     "self_check": false
+    },
+    {
+     "q": "For Compound Microscope Magnification: given eyepiece_mag = 23, objective_mag = 97, find total power.",
+     "a": "2231",
+     "self_check": false
+    },
+    {
+     "q": "For Compound Microscope Magnification: given eyepiece_mag = 19.8, objective_mag = 3.4, find total power.",
+     "a": "67.32",
+     "self_check": false
+    },
+    {
+     "q": "For Compound Microscope Magnification: given eyepiece_mag = 38, objective_mag = 5.6, find total power.",
+     "a": "212.8",
+     "self_check": false
+    },
+    {
+     "q": "For Compound Microscope Magnification: given eyepiece_mag = 71, objective_mag = 26, find total power.",
+     "a": "1846",
+     "self_check": false
+    },
+    {
+     "q": "For Compound Microscope Magnification: given eyepiece_mag = 72, objective_mag = 54, find total power.",
+     "a": "3888",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebt101.5",
+   "title": "Fermented Share of the World Diet",
+   "converted_to_compute": true,
+   "formula": "fermented_part = total_food / 3",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "fermented_part = total_food / 3",
+     "compute": "fermented_part = total_food / 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Fermented Share of the World Diet: given total_food = 74, find fermented part.",
+     "a": "24.6667",
+     "self_check": false
+    },
+    {
+     "q": "For Fermented Share of the World Diet: given total_food = 53, find fermented part.",
+     "a": "17.6667",
+     "self_check": false
+    },
+    {
+     "q": "For Fermented Share of the World Diet: given total_food = 78, find fermented part.",
+     "a": "26",
+     "self_check": false
+    },
+    {
+     "q": "For Fermented Share of the World Diet: given total_food = 25, find fermented part.",
+     "a": "8.33333",
+     "self_check": false
+    },
+    {
+     "q": "For Fermented Share of the World Diet: given total_food = 5.1, find fermented part.",
+     "a": "1.7",
+     "self_check": false
+    },
+    {
+     "q": "For Fermented Share of the World Diet: given total_food = 68, find fermented part.",
+     "a": "22.6667",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebt101.6",
+   "title": "Bt Cotton Share of the Hybrid Seed Market",
+   "converted_to_compute": true,
+   "formula": "bt_value = seed_market * 45 / 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "bt_value = seed_market * 45 / 100",
+     "compute": "bt_value = seed_market * 45 / 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Bt Cotton Share of the Hybrid Seed Market: given seed_market = 66, find bt value.",
+     "a": "29.7",
+     "self_check": false
+    },
+    {
+     "q": "For Bt Cotton Share of the Hybrid Seed Market: given seed_market = 23, find bt value.",
+     "a": "10.35",
+     "self_check": false
+    },
+    {
+     "q": "For Bt Cotton Share of the Hybrid Seed Market: given seed_market = 45, find bt value.",
+     "a": "20.25",
+     "self_check": false
+    },
+    {
+     "q": "For Bt Cotton Share of the Hybrid Seed Market: given seed_market = 69, find bt value.",
+     "a": "31.05",
+     "self_check": false
+    },
+    {
+     "q": "For Bt Cotton Share of the Hybrid Seed Market: given seed_market = 89, find bt value.",
+     "a": "40.05",
+     "self_check": false
+    },
+    {
+     "q": "For Bt Cotton Share of the Hybrid Seed Market: given seed_market = 61, find bt value.",
+     "a": "27.45",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "kebt101.1",
    "title": "Meaning and Scope of Biotechnology",
@@ -60,99 +201,6 @@
     {
      "q": "Under which section is 'Fermentation in Traditional Food Processing' taught, and from which source text?",
      "a": "1.1 (source: kebt101.txt section 1.1 and Box 1 (curd making))",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebt101.4",
-   "title": "Compound Microscope Magnification",
-   "questions": [
-    {
-     "q": "Using the method 'Compound Microscope Magnification', work with: eyepiece_mag = 120, object_size = 4096, objective_mag = 100. Carry the chain through step by step and give the final value of apparent_size.",
-     "a": "49152000 bytes",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Compound Microscope Magnification' and work with: eyepiece_mag = 360, object_size = 1024, objective_mag = 12. Carry the chain through step by step and give the final value of apparent_size.",
-     "a": "4423680 bytes",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Compound Microscope Magnification' refers to.",
-     "a": "A compound microscope enlarges in two stages: the objective lens forms a first enlarged image of the specimen and the eyepiece magnifies that image again, so the overall power equals the product of the two lens powers.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Compound Microscope Magnification'.",
-     "a": "Multiply the two lens powers; a 10x eyepiece with a 40x objective shows the object 400 times larger.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Compound Microscope Magnification', in plain ASCII form.",
-     "a": "total_power = eyepiece_mag * objective_mag",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebt101.5",
-   "title": "Fermented Share of the World Diet",
-   "questions": [
-    {
-     "q": "Using the method 'Fermented Share of the World Diet', work with: food_each = 50, people = 1200. Carry the chain through step by step and give the final value of fermented_part.",
-     "a": "20000 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Fermented Share of the World Diet' and work with: food_each = 30, people = 2500. Carry the chain through step by step and give the final value of fermented_part.",
-     "a": "25000 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Fermented Share of the World Diet' refers to.",
-     "a": "Close to one third of everything humans eat worldwide is fermented, so the fermented tonnage for any population can be estimated as its total food intake divided by three.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Fermented Share of the World Diet'.",
-     "a": "Scale any food total by the factor one third to get its fermented component.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Fermented Share of the World Diet', in plain ASCII form.",
-     "a": "fermented_part = total_food / 3",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebt101.6",
-   "title": "Bt Cotton Share of the Hybrid Seed Market",
-   "questions": [
-    {
-     "q": "Using the method 'Bt Cotton Share of the Hybrid Seed Market', work with: seed_market = 24. Carry the chain through step by step and give the final value of non_bt_value.",
-     "a": "13.2 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Bt Cotton Share of the Hybrid Seed Market' and work with: seed_market = 5. Carry the chain through step by step and give the final value of non_bt_value.",
-     "a": "2.75 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Bt Cotton Share of the Hybrid Seed Market' refers to.",
-     "a": "Cotton engineered with the insect-killing Cry protein made by the soil bacterium Bacillus thuringiensis leads Indian hybrid seed sales, holding roughly 45 percent of that market by value.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Bt Cotton Share of the Hybrid Seed Market'.",
-     "a": "A percent share of a market means market total times 45 divided by 100; the remainder is the total minus that share.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Bt Cotton Share of the Hybrid Seed Market', in plain ASCII form.",
-     "a": "bt_value = seed_market * 45 / 100",
      "self_check": true
     }
    ]

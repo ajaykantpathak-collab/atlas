@@ -34,6 +34,31 @@
      "q": "Design a communication strategy for a new government scheme targeting women farmers in Odisha's tribal districts (Koraput, Malkangiri). Specify which *mix* of personal and mass communication systems you would use, justifying each choice with geographical reasoning about terrain, literacy, language, and infrastructure.",
      "a": "A strong answer proposes a *layered mix*: (1) **Mass base**: Akashwani (radio) in local dialects (Desia, Kui) — penetrates hilly/forested terrain via terrestrial waves, zero cost to listener, high trust, works without electricity (battery). (2) **Mass supplement**: Doordarshan (TV) via INSAT — visual demonstrations of farming techniques, reaches community centres/panchayat bhawans with dish antennas. (3) **Personal follow-up**: IVRS (Interactive Voice Response) calls in local language to registered mobile numbers — low literacy barrier, works on basic feature phones (high penetration even in tribal areas). (4) **Personal interactive**: WhatsApp groups for *literate* frontline workers (Anganwadi, ASHA) to share scheme updates, using internet where available. (5) **Exclude**: Print media (low literacy), internet-only portals (connectivity gaps), English-only content. A poor answer picks only one medium (e.g., \"use WhatsApp\") ignoring terrain-infrastructure-literacy constraints, or lists media without justifying *why* each fits the specific geography.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Communication in India refers to the systems and networks that enable the exchange of information, ideas, and messages across geographical space, categorised into personal communication (interactive, two-way systems like internet, telephone, postal services connecting individuals) and mass communication (one-to-many systems like radio, television, satellite broadcasting disseminating information to large audiences simultaneously), both supported by evolving technological infrastructure including terrestrial networks, satellite systems (INSAT for ______/meteorology, IRS for resource monitoring), and digital platforms.",
+     "a": "telecommunication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking students to list every way they communicated yesterday — ______, Instagram, a phone call, watching the news on TV, hearing a radio jingle in an auto-rickshaw.",
+     "a": "WhatsApp",
+     "self_check": true
+    },
+    {
+     "q": "What is Communication in India? State the definition given in this lesson.",
+     "a": "Communication in India refers to the systems and networks that enable the exchange of information, ideas, and messages across geographical space, categorised into personal communication (interactive, two-way systems like internet, telephone, postal services connecting individuals) and mass communication (one-to-many systems like radio.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between personal and mass communication systems in India, explain the historical evolution and current structure of each (radio, television, satellite, internet), identify the roles of INSAT and IRS satellite systems, and analyse how communication infrastructure influences regional development and the digital.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking students to list every way they ______ yesterday — WhatsApp, Instagram, a phone call, watching the news on TV, hearing a radio jingle in an auto-rickshaw.",
+     "a": "communicated",
+     "self_check": true
     }
    ]
   }

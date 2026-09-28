@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using household items to compare the power output of two different electric bulbs (e.g., LED vs incandescent) without using a power meter. Describe the procedure, measurements, and calculation.",
      "a": "Good answer: Use a calorimeter (or water container) to measure heat energy produced. Immerse each bulb in a known mass of water, run for fixed time, measure temperature rise. Heat energy = mcΔT. Power = energy/time. Compare powers. Poor answer: \"Look at brightness\" or \"check the wattage written on bulb\" reveals inability to design a measurement-based experiment and confusion between rated power and actual power.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Power is the rate at which work is done or energy is ______, measured as work done per unit time.",
+     "a": "transferred",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan and a table fan in your classroom: both move air, but the ceiling fan takes ______ to reach full speed.",
+     "a": "longer",
+     "self_check": true
+    },
+    {
+     "q": "What is Power? State the definition given in this lesson.",
+     "a": "Power is the rate at which work is done or energy is transferred, measured as work done per unit time.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Power?",
+     "a": "Students think \"higher power means more total energy consumed\" and confuse power (rate) with energy (total).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate power from given work and time values with correct SI units, and can explain why two devices doing the same work in different times have different power ratings.",
+     "self_check": true
     }
    ]
   }

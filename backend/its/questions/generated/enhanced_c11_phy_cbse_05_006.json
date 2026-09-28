@@ -34,6 +34,16 @@
      "q": "Design a simple experiment using a spring, a dynamics cart, and a motion sensor (or smartphone video analysis) to verify the work-energy theorem for the variable spring force \\(F = -kx\\). List the measurements needed, the graph to plot, and how you would extract the spring constant \\(k\\) from the data.",
      "a": "Measurements: cart mass \\(m\\), spring compression \\(x_i\\) (initial), and cart speed \\(v\\) at several positions \\(x\\) as the spring expands. Plot \\(v^2\\) vs. \\(x^2\\). From \\(\\frac{1}{2}mv^2 = \\frac{1}{2}k(x_i^2 - x^2)\\), we get \\(v^2 = \\frac{k}{m}(x_i^2 - x^2)\\). The slope of \\(v^2\\) vs. \\(x^2\\) is \\(-k/m\\), giving \\(k\\). A poor answer would only say \"measure speed and compression\" without specifying the linearization (\\(v^2\\) vs. \\(x^2\\)) or how to isolate \\(k\\), indicating the student cannot translate the theorem into a testable graphical method.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The work-energy theorem for a variable force states that the change in kinetic energy of a particle equals the net work done by the ______ variable force acting on it as it moves from an initial position to a final position.",
+     "a": "resultant",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a spring-loaded toy car released from a ______ spring on a smooth floor: the spring force decreases linearly as the spring expands, so the force is not constant.",
+     "a": "compressed",
+     "self_check": true
     }
    ]
   }

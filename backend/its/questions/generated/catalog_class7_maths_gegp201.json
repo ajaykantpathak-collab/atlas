@@ -4,15 +4,8 @@
   {
    "id": "gegp2.1.1",
    "title": "Geometric Twins: Congruence",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the congruence condition and angle sums",
-     "explain": "use the congruence condition and angle sums: third = 180 - 69 - 80 gives 31",
-     "compute": "third = 180 - 69 - 80"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two triangles are congruent. In triangle one the angles are 69 and 80 degrees; the third angle is what? (The third angles must match.)",
@@ -49,15 +42,8 @@
   {
    "id": "gegp2.1.2",
    "title": "Checking Twinship with Measurements",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the congruence condition and angle sums",
-     "explain": "use the congruence condition and angle sums: third = 180 - 61 - 71 gives 48",
-     "compute": "third = 180 - 61 - 71"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two triangles are congruent. In triangle one the angles are 61 and 71 degrees; the third angle is what? (The third angles must match.)",
@@ -94,15 +80,8 @@
   {
    "id": "gegp2.1.3",
    "title": "Corresponding Parts of Twins",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 18 gives 72",
-     "compute": "other = 90 - 18"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 18 degrees, find the other.",
@@ -139,15 +118,8 @@
   {
    "id": "gegp2.1.4",
    "title": "Twins in Tiling, Stamps and Daily Life",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the area formula base times height",
-     "explain": "apply the area formula base times height: area = 16 * 9 gives 144",
-     "compute": "area = 16 * 9"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 16 cm by 9 cm.",

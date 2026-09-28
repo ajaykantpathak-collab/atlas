@@ -34,6 +34,31 @@
      "q": "Create a scenario where a company issues 10,000 equity shares of ₹10 each at a premium of ₹2, but the allotment money (including premium) is not fully received. Design the journal entries up to allotment, showing the call account for the unpaid amount.",
      "a": "Scenario: Green Ltd. issues 10,000 shares @ ₹12 (₹10 face + ₹2 premium). Payable: ₹3 application, ₹5 allotment (incl. ₹2 premium), ₹4 call. Applications for 10,000 shares received. Allotment money received for 9,500 shares; 500 shares unpaid.\nEntries:\n1. Bank Dr. 30,000 → Share Application 30,000\n2. Share Application Dr. 30,000 → Share Capital 30,000\n3. Share Allotment Dr. 50,000 → Share Capital 30,000; Securities Premium Reserve 20,000\n4. Bank Dr. 47,500 → Share Allotment 47,500 (9,500 × ₹5)\n5. Calls in Arrears Dr. 2,500 → Share Allotment 2,500 (for 500 shares)\nA poor answer that credits Securities Premium Reserve only for shares paid misses that premium becomes due on allotment regardless of receipt; the unpaid premium goes to Calls in Arrears.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Issue of shares at par means shares are issued at a price equal to their face (nominal) value; at premium means issued at a price higher than face value (the excess is credited to Securities Premium Reserve); at discount means issued at a price lower than face value (the ______ is debited to Discount on Issue of Shares, written off against Securities Premium Reserve or Statement of Profit and Loss).",
+     "a": "shortfall",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a startup, \"GreenEnergy Ltd.\", wants to raise ₹50 lakh by ______ 5 lakh equity shares of ₹10 each.",
+     "a": "issuing",
+     "self_check": true
+    },
+    {
+     "q": "What is Issue of shares at par? State the definition given in this lesson.",
+     "a": "Issue of shares at par means shares are issued at a price equal to their face (nominal) value; at premium means issued at a price higher than face value (the excess is credited to Securities Premium Reserve); at discount means issued at a price lower than face value (the shortfall is debited to Discount on Issue of Shares, written off.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Issue of shares at par?",
+     "a": "Students often think that when shares are issued at a discount, the Share Capital account is credited with the net amount received (issue price) instead of the face value.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently pass journal entries for issue of equity/preference shares at par, premium, and discount — both in lump sum and in instalments (application, allotment, calls) — and correctly present the balances in the Balance Sheet under Share Capital and Reserves & Surplus.",
+     "self_check": true
     }
    ]
   }

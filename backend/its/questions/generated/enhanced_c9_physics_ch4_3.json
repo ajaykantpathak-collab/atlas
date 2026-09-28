@@ -34,6 +34,26 @@
      "q": "Design a simple classroom activity using a dynamics trolley, a pulley, hanging masses, and a ticker-timer (or motion sensor) to verify the Work-Energy Theorem. List the measurements needed and how you would calculate net work and change in kinetic energy.",
      "a": "Setup: Trolley on horizontal track connected by string over pulley to hanging mass. Release from rest. Measure: mass of trolley (\\(m_t\\)), hanging mass (\\(m_h\\)), distance fallen (\\(h\\)), final velocity (\\(v\\)) from ticker-tape or sensor. Net work = work by gravity on hanging mass = \\(m_h g h\\) (assuming friction negligible). Change in KE = \\(\\frac{1}{2}(m_t + m_h)v^2\\). Compare values. A poor answer (e.g., \"measure force and distance\" without specifying which force) shows the student doesn't distinguish between work by individual forces and net work, or doesn't realize the hanging mass also gains kinetic energy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Work-Energy ______ states that the net work done by all forces acting on an object is equal to the change in its kinetic energy.",
+     "a": "Theorem",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ ball being hit by a bat: the ball starts from rest and gains high speed.",
+     "a": "cricket",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state the theorem precisely, identify the net work in a multi-force situation (e.g., friction + applied force), and calculate the change in kinetic energy or final speed given the net work and mass.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a cricket ball being hit by a bat: the ball starts from rest and gains high speed.",
+     "a": "Observe",
+     "self_check": true
     }
    ]
   }

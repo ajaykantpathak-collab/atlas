@@ -228,7 +228,7 @@
     "What is the equation of line given x-intercept and y-intercept?",
     "Express the line equation in general linear form Ax + By + C = 0."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -245,7 +245,16 @@
      "action": "substitute values and simplify",
      "explain": "Rearrange into standard form Ax + By + C = 0."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the exponent law to the given powers",
+     "explain": "apply the exponent law to the given powers: val = 6 ** (4 + 2) gives 46656",
+     "compute": "val = 6 ** (4 + 2)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.109.4.1",

@@ -34,6 +34,21 @@
      "q": "Design a thought experiment: You have a container of hydrogen gas at room temperature (300 K). Estimate the fraction of atoms in the \\(n=2\\) state versus the ground state using the Boltzmann factor \\(e^{-\\Delta E/k_B T}\\) (with \\(k_B = 8.62 \\times 10^{-5} \\text{ eV/K}\\)). What does this imply for observing absorption lines at room temperature?",
      "a": "\\(\\Delta E = 10.2 \\text{ eV}\\), \\(k_B T \\approx 0.0259 \\text{ eV}\\). Boltzmann factor \\(= e^{-10.2/0.0259} \\approx e^{-394} \\approx 10^{-171}\\). Essentially zero atoms in \\(n=2\\) at 300 K. Thus, almost all atoms are in ground state; absorption spectra will show only Lyman series (transitions from \\(n=1\\)). A poor answer (e.g., \"about half are in n=2\") reveals ignorance of thermal equilibrium statistics and the huge gap between atomic energy scales (eV) and thermal energy (meV).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The SI unit of energy is the joule (J), though electronvolt (eV) is ______ used for atomic scales.",
+     "a": "conventionally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a hydrogen ______ tube in a dark lab: it emits a distinct pinkish glow, not a continuous rainbow.",
+     "a": "discharge",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a hydrogen discharge tube in a dark lab: it emits a distinct pinkish glow, not a ______ rainbow.",
+     "a": "continuous",
+     "self_check": true
     }
    ]
   }

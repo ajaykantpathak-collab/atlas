@@ -34,6 +34,31 @@
      "q": "Design a simple investigation using yeast, sugar, and water at different temperatures to demonstrate the effect of temperature on the rate of anaerobic respiration. State the independent, dependent, and two controlled variables, and predict the graph shape of CO₂ volume vs time at 30°C versus 45°C.",
      "a": "Independent variable: temperature (e.g., 30°C, 45°C). Dependent variable: volume of CO₂ produced per minute (measured by water displacement or gas syringe). Controlled variables: yeast concentration, sugar concentration, volume of water, pH. Predicted graph: at 30°C, steady linear increase in CO₂ (optimal enzyme activity); at 45°C, initial rapid rise then sharp decline as enzymes denature. A poor design that omits temperature control or uses boiling water shows lack of understanding that enzymes have optimal temperatures; predicting a straight line at 45°C reveals ignorance of thermal denaturation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Respiration is a catabolic ______ process in which living cells break down glucose (C₆H₁₂O₆) stepwise to release energy in the form of ATP; aerobic respiration occurs in the presence of oxygen and yields 36–38 ATP per glucose molecule with CO₂ and H₂O as end products, while anaerobic respiration occurs in the absence of oxygen and yields only 2 ATP per glucose molecule with ethanol (in yeast/plants) or lactic acid (in animal muscle cells) as end products.",
+     "a": "biochemical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you sprint the last 100 metres of a 400 m race on your school playground, your leg muscles burn and you gasp for air — that burning sensation is lactic acid ______ because your muscle cells switched to anaerobic respiration when oxygen supply could not meet demand.",
+     "a": "accumulating",
+     "self_check": true
+    },
+    {
+     "q": "What is Respiration? State the definition given in this lesson.",
+     "a": "Respiration is a catabolic biochemical process in which living cells break down glucose (C₆H₁₂O₆) stepwise to release energy in the form of ATP; aerobic respiration occurs in the presence of oxygen and yields 36–38 ATP per glucose molecule with CO₂ and H₂O as end products, while anaerobic respiration occurs in the absence of oxygen and.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Respiration?",
+     "a": "Students often write \"anaerobic respiration occurs in the absence of mitochondria\" or \"anaerobic respiration happens in the cytoplasm because mitochondria are absent in those cells.\" The exact wrong reasoning: they think the site difference is due to organelle presence/absence rather than oxygen availability.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write the balanced chemical equations for both aerobic and anaerobic respiration in animal and plant cells, explain the ATP yield difference using the concept of complete vs incomplete oxidation, and predict the metabolic fate of pyruvate under oxygen-limiting conditions in human muscle and yeast cells.",
+     "self_check": true
     }
    ]
   }

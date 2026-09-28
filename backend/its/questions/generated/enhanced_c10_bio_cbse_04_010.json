@@ -34,6 +34,36 @@
      "q": "Design a simple classroom activity using only paper, pens, and dice that demonstrates non-directional evolution. The activity must show how the same starting population can diverge into different \"species\" with different trait combinations based solely on random environmental changes, without any \"goal\" being built into the simulation.",
      "a": "**Activity: \"Dice-Driven Divergence.\"** Start with 10 \"organisms\" (paper slips) each with 3 traits (e.g., size: 1-6, color: 1-6, speed: 1-6). Roll dice to assign initial trait values. Each \"generation\": (1) Roll a die for \"environment\" — odd = cold/dark, even = warm/light. (2) Organisms with traits matching environment (e.g., large size + dark color favored in cold/dark) \"survive\" and reproduce (make copies with ±1 mutation on one trait). (3) Repeat for 10 generations. Run two parallel populations with different dice rolls. Result: Two populations diverge unpredictably — neither is \"better,\" just adapted to their random environmental histories. A poor activity (e.g., one where students *choose* traits to \"improve\" organisms) reveals the student still thinks evolution is goal-directed.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Evolution is a non-directional process of change in heritable ______ of populations over generations driven by natural selection, genetic drift, and mutation, where adaptations arise for immediate environmental fitness rather than progress toward a predetermined \"higher\" or \"more complex\" form.",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bacterium and a human being — both are alive today, both have survived 3.5 billion years of ______ history.",
+     "a": "evolutionary",
+     "self_check": true
+    },
+    {
+     "q": "What is Evolution? State the definition given in this lesson.",
+     "a": "Evolution is a non-directional process of change in heritable characteristics of populations over generations driven by natural selection, genetic drift, and mutation, where adaptations arise for immediate environmental fitness rather than progress toward a predetermined \"higher\" or \"more complex\" form.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bacterium and a human being — both are alive today, both have survived ______ billion years of evolutionary history.",
+     "a": "3.5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Evolution?",
+     "a": "Students believe evolution is a linear ladder from \"lower\" to \"higher\" forms, with humans at the top.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain with biological reasoning why the statement \"humans are the most evolved species\" is scientifically incorrect, using the concepts of branching evolution, environmental fitness, and the absence of directionality in natural selection.",
+     "self_check": true
     }
    ]
   }

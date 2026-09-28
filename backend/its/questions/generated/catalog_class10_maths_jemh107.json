@@ -5,6 +5,8 @@
    "id": "jemh.107.7.1",
    "title": "Distance Formula",
    "converted_to_compute": false,
+   "formula": "distance = sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (3, 5) and (15, 21).",
@@ -42,6 +44,8 @@
    "id": "jemh.107.7.2",
    "title": "Section Formula",
    "converted_to_compute": false,
+   "formula": "px = (m * x2 + n * x1) / (m + n)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (5, -5) and (8, -1).",
@@ -79,6 +83,8 @@
    "id": "jemh.107.7.3",
    "title": "Area of a Triangle from Its Vertices",
    "converted_to_compute": false,
+   "formula": "area = abs((x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)) / 2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 21 cm by 9 cm.",

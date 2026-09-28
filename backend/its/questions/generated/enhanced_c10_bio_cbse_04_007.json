@@ -34,6 +34,26 @@
      "q": "Design a simple thought experiment (no lab needed) to demonstrate that natural selection requires heritable variation. Describe the initial population, the selective pressure, and the expected outcome after 5 generations if (a) variation is heritable, (b) variation is not heritable (acquired).",
      "a": "Thought experiment: Population of 100 imaginary insects on grey bark. 10 are grey (camouflaged), 90 are white. Birds eat visible insects. (a) Heritable: Grey insects survive, reproduce; grey offspring inherit colour. After 5 generations, population is mostly grey. (b) Non-heritable (acquired): Grey insects survive but produce white offspring (colour not genetic). After 5 generations, population remains 90% white. A poor answer that shows the same outcome for both reveals the student does not grasp that heritability is the essential link between selection and evolutionary change.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Charles Darwin's Theory of Evolution by Natural Selection states that populations of organisms change over generations through the ______ survival and reproduction of individuals due to differences in heritable traits; individuals with advantageous variations are more likely to survive, reproduce, and pass those traits to offspring, leading to adaptation and, over long periods, the origin of new species.",
+     "a": "differential",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a familiar observation: the rapid spread of pesticide resistance in ______ in Indian villages or antibiotic resistance in bacteria causing tuberculosis.",
+     "a": "mosquitoes",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the four postulates of natural selection (variation, inheritance, differential survival/reproduction, adaptation) using a real biological example, and can distinguish natural selection from Lamarckian inheritance in a board-style explanatory question.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a familiar observation: the rapid spread of pesticide resistance in mosquitoes in Indian villages or antibiotic resistance in bacteria causing ______.",
+     "a": "tuberculosis",
+     "self_check": true
     }
    ]
   }

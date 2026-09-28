@@ -34,6 +34,26 @@
      "q": "Design a simple laboratory activity to demonstrate the chlor-alkali process using a 9V battery, two pencils (graphite electrodes), and concentrated salt solution. List the observations at each electrode and the test to confirm the identity of the gas at the anode.",
      "a": "Setup: Dissolve 4-5 spoons of common salt in 100 mL water. Sharpen both ends of two pencils. Connect to 9V battery via wires. Immerse pencil tips in solution without touching.  \nObservations: Bubbles at both electrodes. At cathode (negative): more bubbles, gas burns with 'pop' sound (H₂). At anode (positive): fewer bubbles, gas turns moist blue litmus red then bleaches it white (Cl₂).  \nTest for Cl₂: Hold moist blue litmus paper near anode bubbles — it turns red then white. A poor answer (e.g., \"test with burning splint for both\") shows the student cannot distinguish the gases or recall the specific test for chlorine (bleaching action), which is a standard practical-based board question.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The chlor-alkali process is the industrial ______ of concentrated aqueous sodium chloride (brine) to produce sodium hydroxide (NaOH), chlorine gas (Cl₂) at the anode, and hydrogen gas (H₂) at the cathode.",
+     "a": "electrolysis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real-world observation: when you sprinkle common salt (NaCl) on a cut lemon, nothing dramatic happens, but pass electricity through its ______ solution and you get a strong base (NaOH) used in soap, a gas (Cl₂) that disinfects tap water, and another gas (H₂) that can fuel rockets.",
+     "a": "concentrated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Write the half-reactions, combine them for the overall equation, and finally list the commercial uses of each product — this sequence mirrors the CBSE ______-mark question pattern.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write the balanced overall equation for the chlor-alkali process, identify the products formed at each electrode with their uses, and explain why the products must be kept separate during the process.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Design a simple community-level experiment to demonstrate that houseflies mechanically transmit enteric bacteria from faeces to food. Specify control, variables, and how you would confirm bacterial transfer without molecular tools.",
      "a": "Set up: Two identical plates of cooked rice — Plate A exposed to flies in a room with fresh human faeces; Plate B covered with fine mesh (control) in same room. After 2 hours, homogenise rice samples, streak on MacConkey agar, incubate 24h at 37°C. Count lactose-fermenting (pink) colonies (E. coli indicator). Expect significantly higher CFU on Plate A. Variables: independent = fly access; dependent = CFU count; controlled = rice type, temperature, time, room. Confirmation: pink colonies on MacConkey = lactose-fermenting enterics; Gram stain shows Gram-negative rods. A poor design (no control, no quantitative culture) fails to prove mechanical transfer versus environmental contamination.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mode of transmission refers to the specific pathway by which an infectious agent (pathogen) moves from a reservoir or infected host to a susceptible new host, classified as direct (physical contact, droplet spread) or indirect (airborne, vector-borne, vehicle-borne via ______ food/water/fomites, vertical transmission).",
+     "a": "contaminated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a classmate sneezing without ______ their mouth — droplets travel ~1 metre and land on your desk.",
+     "a": "covering",
+     "self_check": true
+    },
+    {
+     "q": "What is Mode of transmission? State the definition given in this lesson.",
+     "a": "Mode of transmission refers to the specific pathway by which an infectious agent (pathogen) moves from a reservoir or infected host to a susceptible new host, classified as direct (physical contact, droplet spread) or indirect (airborne, vector-borne, vehicle-borne via contaminated food/water/fomites, vertical transmission).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a classmate sneezing without covering their mouth — droplets travel ~______ metre and land on your desk.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Mode of transmission?",
+     "a": "Students often believe \"vector-borne\" and \"vehicle-borne\" are interchangeable because both involve an intermediary.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can list all five major categories of disease transmission with at least one disease example per category, differentiate between mechanical and biological vectors, and correctly identify the transmission route in a given case scenario (e.g., cholera → vehicle-borne water, malaria → biological vector).",
+     "self_check": true
     }
    ]
   }

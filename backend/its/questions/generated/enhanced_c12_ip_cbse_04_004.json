@@ -34,6 +34,31 @@
      "q": "Design a licensing strategy for a GitHub repository that contains: (a) a Python package you want to be widely used even in proprietary apps, (b) a set of Jupyter notebooks tutorials you want shared freely but with attribution, and (c) a logo image you want to allow modifications but not commercial exploitation. Specify the license for each component and explain your choices.",
      "a": "(a) Python package → MIT License (permissive, allows proprietary use with attribution). (b) Jupyter notebooks → CC BY 4.0 (attribution for creative content, allows commercial and derivative use). (c) Logo → CC BY-NC-SA 4.0 (attribution, non-commercial, share-alike ensures modifications stay under same terms). A poor answer would apply a single license to all, ignoring that software and creative works have different license ecosystems, or would choose GPL for the package, blocking proprietary adoption.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Open source software (OSS) is software whose source code is made freely available for anyone to view, modify, and distribute under a license that grants these ______.",
+     "a": "permissions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you've written a Python ______ for data cleaning and want to share it on GitHub so others can use and improve it.",
+     "a": "library",
+     "self_check": true
+    },
+    {
+     "q": "What is Open source software (OSS)? State the definition given in this lesson.",
+     "a": "Open source software (OSS) is software whose source code is made freely available for anyone to view, modify, and distribute under a license that grants these permissions.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Open source software (OSS)?",
+     "a": "Students often think \"open source\" means \"free of charge\" or \"public domain.\" They also confuse Creative Commons licenses with software licenses, e.g., applying CC BY to code (which is not recommended because CC licenses don't address source code distribution, patent rights, or warranty disclaimers).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) distinguish between open source and proprietary software licenses, (2) identify the four key freedoms of open source software, (3) explain the six Creative Commons license types and their conditions, and (4) choose an appropriate license for a given scenario involving code or creative content.",
+     "self_check": true
     }
    ]
   }

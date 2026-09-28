@@ -36,7 +36,16 @@
      "explain": "only the area component facing the field counts, giving BA cos(theta)",
      "compute": "mag_flux = mag_field * loop_area * cos_tilt"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mag_flux = mag_field * area * cos_tilt",
+     "compute": "mag_flux = mag_field * area * cos_tilt"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph106.6.4.1",
@@ -68,7 +77,16 @@
      "explain": "every turn contributes, so emf = N times flux change over time",
      "compute": "emf_ind = turns * flux_change / time_gap"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "emf_ind = turns * flux_change / time_gap",
+     "compute": "emf_ind = turns * flux_change / time_gap"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph106.6.4.2",
@@ -94,7 +112,16 @@
      "explain": "the emf acts like a battery of value emf_ind",
      "compute": "loop_current = emf_ind / loop_resist"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "loop_current = emf_ind / loop_resist",
+     "compute": "loop_current = emf_ind / loop_resist"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph106.6.5.1",
@@ -161,7 +188,16 @@
      "explain": "emf equals B times the area sweep rate, Blv",
      "compute": "motional_emf = mag_field * sweep_rate"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "motional_emf = mag_field * rod_len * speed",
+     "compute": "motional_emf = mag_field * rod_len * speed"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph106.6.6.2",
@@ -193,7 +229,16 @@
      "explain": "summing B omega r dr from 0 to R gives half B omega R squared",
      "compute": "emf_rot = 0.5 * mag_field * omega * radius ** 2"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "emf_rot = 0.5 * mag_field * omega * radius ** 2",
+     "compute": "emf_rot = 0.5 * mag_field * omega * radius ** 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph106.6.7.1",
@@ -211,7 +256,7 @@
     "how is flux linkage defined for a closely wound coil",
     "compare the role of inductance in a circuit with capacitance"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -228,7 +273,16 @@
      "action": "note the geometry lock",
      "explain": "shape and core set L; the current value cancels out"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "inductance = flux_link / current",
+     "compute": "inductance = flux_link / current"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph106.6.7.2",
@@ -260,7 +314,16 @@
      "explain": "the neighbour's emf is M times that rate",
      "compute": "emf_two = mutual_ind * current_rate"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "emf_two = mutual_ind * current_rate",
+     "compute": "emf_two = mutual_ind * current_rate"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph106.6.7.3",
@@ -292,14 +355,23 @@
      "explain": "the magnitude of the back emf is L times the rate",
      "compute": "back_emf = self_ind * current_rate"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "back_emf = self_ind * current_rate",
+     "compute": "back_emf = self_ind * current_rate"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph106.6.7.4",
    "title": "Solenoid Self Inductance",
    "section": "6.7.2",
    "definition": "For a long solenoid the linkage works out to mu0 n squared A l times the current, so its inductance is mu0 n squared A l - and an iron core of relative permeability mur multiplies that again.",
-   "formula": "sol_ind = mu0 * perm_rel * turns_per_len ** 2 * area * solenoid_len",
+   "formula": "sol_ind = mu_0 * perm_rel * turns_per_len ** 2 * area * solenoid_len",
    "key_idea": "Inductance grows with the square of the turn density, so winding more turns into the same length is the fastest way to raise L.",
    "textbook_ref": "leph106.txt section 6.7.2 (Eqs. 6.15-6.16 solenoid L derivation)",
    "question_patterns": [
@@ -324,7 +396,16 @@
      "explain": "L = mu0 mur n squared times the volume A l",
      "compute": "sol_ind = mu0 * perm_rel * turn_sq * area * solenoid_len"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "sol_ind = mu_0 * perm_rel * turns_per_len ** 2 * area * solenoid_len",
+     "compute": "sol_ind = mu_0 * perm_rel * turns_per_len ** 2 * area * solenoid_len"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph106.6.7.5",
@@ -356,14 +437,23 @@
      "explain": "the stored energy is half L times current squared",
      "compute": "stored_energy = 0.5 * self_ind * current_sq"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "stored_energy = 0.5 * self_ind * current ** 2",
+     "compute": "stored_energy = 0.5 * self_ind * current ** 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph106.6.7.6",
    "title": "Magnetic Energy Density in a Field",
    "section": "6.7.2",
    "definition": "Dividing an inductor's stored energy by its volume leaves B squared over 2 mu0 per unit volume - a universal price tag for magnetic field, matching epsilon0 E squared over 2 on the electric side.",
-   "formula": "energy_density = mag_field ** 2 / (2 * mu0)",
+   "formula": "energy_density = mag_field ** 2 / (2 * mu_0)",
    "key_idea": "Energy lives in the field itself, not the wires: any region holding field B carries this density, whether or not a coil is around.",
    "textbook_ref": "leph106.txt section 6.7.2 (Eq. 6.18, Example 6.9 part b comparison)",
    "question_patterns": [
@@ -388,7 +478,16 @@
      "explain": "u = B squared over 2 mu0 is the stored density",
      "compute": "energy_density = field_sq / (2 * mu0)"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "energy_density = mag_field ** 2 / (2 * mu_0)",
+     "compute": "energy_density = mag_field ** 2 / (2 * mu_0)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph106.6.8.1",
@@ -420,7 +519,16 @@
      "explain": "the amplitude of NBA omega sin(omega t) is NBA omega",
      "compute": "peak_emf = turns * mag_field * area * omega"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "peak_emf = turns * mag_field * area * omega",
+     "compute": "peak_emf = turns * mag_field * area * omega"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -430,12 +538,39 @@
    "concept": "leph106.6.4.1",
    "question_type": "flux_decay_emf_current",
    "question_pattern": "A square loop of side {side_len} m and resistance {loop_resist} ohm sits at {tilt_deg} degrees to a {mag_field} T field that falls steadily to zero in {time_gap} s. Find the induced emf and current.",
-   "extracted_variables": {"side_len": 0.1, "mag_field": 0.1, "cos_tilt": 0.7071, "time_gap": 0.7, "loop_resist": 0.5, "turns": 1.0},
+   "extracted_variables": {
+    "side_len": 0.1,
+    "mag_field": 0.1,
+    "cos_tilt": 0.7071,
+    "time_gap": 0.7,
+    "loop_resist": 0.5,
+    "turns": 1.0
+   },
    "solution_template": [
-    {"step": 1, "action": "loop area", "explain": "square area is side squared", "compute": "loop_area = side_len ** 2"},
-    {"step": 2, "action": "initial flux", "explain": "BA cos(theta) with the 45-degree cosine", "compute": "flux_start = mag_field * loop_area * cos_tilt"},
-    {"step": 3, "action": "average emf", "explain": "the full flux vanishes, so the change equals flux_start", "compute": "emf_ind = turns * flux_start / time_gap"},
-    {"step": 4, "action": "induced current", "explain": "I = emf over R", "compute": "loop_current = emf_ind / loop_resist"}
+    {
+     "step": 1,
+     "action": "loop area",
+     "explain": "square area is side squared",
+     "compute": "loop_area = side_len ** 2"
+    },
+    {
+     "step": 2,
+     "action": "initial flux",
+     "explain": "BA cos(theta) with the 45-degree cosine",
+     "compute": "flux_start = mag_field * loop_area * cos_tilt"
+    },
+    {
+     "step": 3,
+     "action": "average emf",
+     "explain": "the full flux vanishes, so the change equals flux_start",
+     "compute": "emf_ind = turns * flux_start / time_gap"
+    },
+    {
+     "step": 4,
+     "action": "induced current",
+     "explain": "I = emf over R",
+     "compute": "loop_current = emf_ind / loop_resist"
+    }
    ]
   },
   {
@@ -444,14 +579,52 @@
    "concept": "leph106.6.4.2",
    "question_type": "flipped_coil_emf",
    "question_pattern": "A coil of {turns} turns, radius {radius} m and resistance {loop_resist} ohm is flipped 180 degrees in a {mag_field} T field in {time_gap} s. Estimate the emf and current.",
-   "extracted_variables": {"turns": 500.0, "radius": 0.1, "mag_field": 3.0e-05, "time_gap": 0.25, "loop_resist": 2.0, "cos_start": 1.0, "cos_final": -1.0},
+   "extracted_variables": {
+    "turns": 500.0,
+    "radius": 0.1,
+    "mag_field": 3e-05,
+    "time_gap": 0.25,
+    "loop_resist": 2.0,
+    "cos_start": 1.0,
+    "cos_final": -1.0
+   },
    "solution_template": [
-    {"step": 1, "action": "coil area", "explain": "circle of given radius", "compute": "loop_area = pi * radius ** 2"},
-    {"step": 2, "action": "starting flux", "explain": "cos 0 gives the full flux", "compute": "flux_start = mag_field * loop_area * cos_start"},
-    {"step": 3, "action": "ending flux", "explain": "after 180 degrees the cosine is -1", "compute": "flux_final = mag_field * loop_area * cos_final"},
-    {"step": 4, "action": "flux swing", "explain": "final minus start doubles the flux", "compute": "flux_change = flux_final - flux_start"},
-    {"step": 5, "action": "average emf", "explain": "N times swing over time", "compute": "emf_ind = turns * flux_change / time_gap"},
-    {"step": 6, "action": "current", "explain": "emf over resistance", "compute": "loop_current = emf_ind / loop_resist"}
+    {
+     "step": 1,
+     "action": "coil area",
+     "explain": "circle of given radius",
+     "compute": "loop_area = pi * radius ** 2"
+    },
+    {
+     "step": 2,
+     "action": "starting flux",
+     "explain": "cos 0 gives the full flux",
+     "compute": "flux_start = mag_field * loop_area * cos_start"
+    },
+    {
+     "step": 3,
+     "action": "ending flux",
+     "explain": "after 180 degrees the cosine is -1",
+     "compute": "flux_final = mag_field * loop_area * cos_final"
+    },
+    {
+     "step": 4,
+     "action": "flux swing",
+     "explain": "final minus start doubles the flux",
+     "compute": "flux_change = flux_final - flux_start"
+    },
+    {
+     "step": 5,
+     "action": "average emf",
+     "explain": "N times swing over time",
+     "compute": "emf_ind = turns * flux_change / time_gap"
+    },
+    {
+     "step": 6,
+     "action": "current",
+     "explain": "emf over resistance",
+     "compute": "loop_current = emf_ind / loop_resist"
+    }
    ]
   },
   {
@@ -460,10 +633,24 @@
    "concept": "leph106.6.6.2",
    "question_type": "rotating_rod_emf",
    "question_pattern": "A rod of {radius} m spins about one end at {rev_freq} rev/s inside a {mag_field} T axial field. What emf joins centre and rim?",
-   "extracted_variables": {"radius": 1.0, "rev_freq": 50.0, "mag_field": 1.0},
+   "extracted_variables": {
+    "radius": 1.0,
+    "rev_freq": 50.0,
+    "mag_field": 1.0
+   },
    "solution_template": [
-    {"step": 1, "action": "angular speed", "explain": "omega = 2 pi n", "compute": "omega = 2 * pi * rev_freq"},
-    {"step": 2, "action": "centre-to-rim emf", "explain": "half B omega R squared", "compute": "emf_rot = 0.5 * mag_field * omega * radius ** 2"}
+    {
+     "step": 1,
+     "action": "angular speed",
+     "explain": "omega = 2 pi n",
+     "compute": "omega = 2 * pi * rev_freq"
+    },
+    {
+     "step": 2,
+     "action": "centre-to-rim emf",
+     "explain": "half B omega R squared",
+     "compute": "emf_rot = 0.5 * mag_field * omega * radius ** 2"
+    }
    ]
   },
   {
@@ -472,10 +659,24 @@
    "concept": "leph106.6.7.3",
    "question_type": "self_inductance_estimate",
    "question_pattern": "A circuit's current falls by {current_change} A in {time_gap} s, inducing an average {emf_ind} V. Estimate the circuit's self inductance.",
-   "extracted_variables": {"current_change": 5.0, "time_gap": 0.1, "emf_ind": 200.0},
+   "extracted_variables": {
+    "current_change": 5.0,
+    "time_gap": 0.1,
+    "emf_ind": 200.0
+   },
    "solution_template": [
-    {"step": 1, "action": "decay rate", "explain": "change per second", "compute": "current_rate = current_change / time_gap"},
-    {"step": 2, "action": "solve for L", "explain": "L is emf divided by the rate", "compute": "self_ind = emf_ind / current_rate"}
+    {
+     "step": 1,
+     "action": "decay rate",
+     "explain": "change per second",
+     "compute": "current_rate = current_change / time_gap"
+    },
+    {
+     "step": 2,
+     "action": "solve for L",
+     "explain": "L is emf divided by the rate",
+     "compute": "self_ind = emf_ind / current_rate"
+    }
    ]
   },
   {
@@ -484,11 +685,30 @@
    "concept": "leph106.6.7.2",
    "question_type": "flux_linkage_change",
    "question_pattern": "Adjacent coils share mutual inductance {mutual_ind} H. If the current in one climbs by {current_change} A in {time_gap} s, what flux-linkage change hits the other, and what emf appears?",
-   "extracted_variables": {"mutual_ind": 1.5, "current_change": 20.0, "time_gap": 0.5},
+   "extracted_variables": {
+    "mutual_ind": 1.5,
+    "current_change": 20.0,
+    "time_gap": 0.5
+   },
    "solution_template": [
-    {"step": 1, "action": "linkage change", "explain": "N phi change equals M times the current change", "compute": "flux_link = mutual_ind * current_change"},
-    {"step": 2, "action": "ramp rate", "explain": "change per second", "compute": "current_rate = current_change / time_gap"},
-    {"step": 3, "action": "induced emf", "explain": "M times the rate", "compute": "emf_two = mutual_ind * current_rate"}
+    {
+     "step": 1,
+     "action": "linkage change",
+     "explain": "N phi change equals M times the current change",
+     "compute": "flux_link = mutual_ind * current_change"
+    },
+    {
+     "step": 2,
+     "action": "ramp rate",
+     "explain": "change per second",
+     "compute": "current_rate = current_change / time_gap"
+    },
+    {
+     "step": 3,
+     "action": "induced emf",
+     "explain": "M times the rate",
+     "compute": "emf_two = mutual_ind * current_rate"
+    }
    ]
   },
   {
@@ -497,10 +717,25 @@
    "concept": "leph106.6.8.1",
    "question_type": "generator_peak_voltage",
    "question_pattern": "A {turns}-turn coil of area {area} m2 turns at {rev_freq} rev/s inside a {mag_field} T field. What peak voltage does the generator deliver?",
-   "extracted_variables": {"turns": 100.0, "area": 0.1, "rev_freq": 0.5, "mag_field": 0.01},
+   "extracted_variables": {
+    "turns": 100.0,
+    "area": 0.1,
+    "rev_freq": 0.5,
+    "mag_field": 0.01
+   },
    "solution_template": [
-    {"step": 1, "action": "angular speed", "explain": "omega = 2 pi n", "compute": "omega = 2 * pi * rev_freq"},
-    {"step": 2, "action": "peak emf", "explain": "NBA omega", "compute": "peak_emf = turns * mag_field * area * omega"}
+    {
+     "step": 1,
+     "action": "angular speed",
+     "explain": "omega = 2 pi n",
+     "compute": "omega = 2 * pi * rev_freq"
+    },
+    {
+     "step": 2,
+     "action": "peak emf",
+     "explain": "NBA omega",
+     "compute": "peak_emf = turns * mag_field * area * omega"
+    }
    ]
   }
  ],

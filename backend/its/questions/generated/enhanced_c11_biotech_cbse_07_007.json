@@ -34,6 +34,31 @@
      "q": "Design a *minimal* synthetic mRNA sequence (5'→3') that would produce a polypeptide of **exactly 5 amino acids** in a *prokaryotic* cell-free system, given these constraints: (1) Must include a functional Shine-Dalgarno sequence; (2) Must use only **four different codons** total (including start and stop); (3) The polypeptide must contain **at least one acidic and one basic amino acid**; (4) No codon may be used more than twice. Write the full mRNA sequence (including 5' UTR) and list the resulting amino acid sequence. Explain how your design satisfies each constraint.",
      "a": "**Design Strategy:**\n- Need 5 amino acids = 1 start + 3 internal + 1 stop = 5 codons total.\n- Only 4 *different* codons allowed → one codon must be reused (max twice).\n- Acidic: Asp (GAU/GAC) or Glu (GAA/GAG). Basic: Lys (AAA/AAG) or Arg (CGU/CGC/CGA/CGG/AGA/AGG).\n- Choose codons: AUG (Met, start), GAU (Asp, acidic), AAA (Lys, basic), UAA (Stop).\n- Reuse one codon twice: Use GAU twice (Asp appears twice).\n- Codon count: AUG(1), GAU(2), AAA(1), UAA(1) = 4 distinct codons, GAU used twice ✓.\n- Polypeptide: fMet-Asp-Lys-Asp (4 amino acids? Wait—need 5 amino acids *before* stop. 5 amino acids = 5 sense codons + 1 stop = 6 codons total. But constraint says \"polypeptide of exactly 5 amino acids\" → 5 sense codons + stop. With 4 distinct codons, one must be used 3 times? But constraint (4): \"No codon may be used more than twice.\" Contradiction? Let's re-read: \"Must use only four different codons total (including start and stop)\" and \"No codon may be used more than twice.\" 5 sense codons + 1 stop = 6 codon positions. With 4 distinct codons, max usage = 2 each → max 8 positions. Possible. But one codon used 3 times violates (4). So we need exactly: 2+2+1+1 = 6 positions. Yes.\n- Assign: AUG (start, used once), GAU (Asp, used twice), AAA (Lys, used twice), UAA (stop, used once). Total distinct = 4. Usage: AUG=1, GAU=2, AAA=2, UAA=1. All ≤2 ✓.\n- Polypeptide: fMet - Asp - Lys - Asp - Lys (5 amino acids). Contains acidic (Asp) and basic (Lys) ✓.\n- SD sequence: AGGAGG placed 8 nt upstream of AUG.\n- **mRNA (5'→3'):** 5'-**AGGAGGNNNNNN**AUG GAU AAA GAU AAA UAA-3' (N = spacer, e.g., AAAAAA)\n- **Amino acid sequence:** fMet-Asp-Lys-Asp-Lys\n\n**Constraint check:**\n(1) SD present ✓. (2) 4 distinct codons: AUG, GAU, AAA, UAA ✓. (3) Acidic (Asp), Basic (Lys) ✓. (4) Max usage: GAU=2, AAA=2, others=1 ✓. (5) 5 amino acids ✓.\nA poor answer (e.g., missing SD, using 5 distinct codons, or polypeptide length wrong) reveals inability to *simultaneously* satisfy multiple combinatorial constraints—a key skill for synthetic biology and board exam \"design\" questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Translation is the process by which the genetic information encoded in the nucleotide sequence of a mature mRNA molecule is decoded into the specific amino acid sequence of a polypeptide chain on ribosomes, involving four sequential stages: charging of tRNA (______), initiation, elongation, and termination, each requiring specific protein factors and GTP hydrolysis.",
+     "a": "aminoacylation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a quality-control engineer at a pharmaceutical company in Hyderabad producing ______ human insulin in *E. coli*.",
+     "a": "recombinant",
+     "self_check": true
+    },
+    {
+     "q": "What is Translation? State the definition given in this lesson.",
+     "a": "Translation is the process by which the genetic information encoded in the nucleotide sequence of a mature mRNA molecule is decoded into the specific amino acid sequence of a polypeptide chain on ribosomes, involving four sequential stages: charging of tRNA (aminoacylation), initiation, elongation, and termination, each requiring.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Translation?",
+     "a": "Misconception: \"The ribosome moves along the mRNA in the 3'→5' direction because the mRNA is read 5'→3'.\" Why it arises: Students know mRNA is read 5'→3' and that the ribosome \"moves\" along it.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) trace the complete journey of a specific amino acid from its activation by aminoacyl-tRNA synthetase through its incorporation into a growing polypeptide chain, including the ribosomal sites (A, P, E) it occupies at each step; (2) distinguish prokaryotic and eukaryotic initiation mechanisms.",
+     "self_check": true
     }
    ]
   }

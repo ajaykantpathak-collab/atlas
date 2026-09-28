@@ -220,6 +220,21 @@
      "explain": "Profit is the excess of revenue over expenses.",
      "compute": "profit = revenue - expenses"
     }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "profit = revenue - expenses",
+     "compute": "profit = revenue - expenses"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "keac.101.9",
+     "question_pattern": "calculate the profit when revenue is {revenue} and expenses are {expenses}"
+    }
    ]
   },
   {
@@ -244,6 +259,21 @@
      "action": "Calculate loss by subtracting revenue from expenses",
      "explain": "Loss is the excess of expenses over revenue.",
      "compute": "loss = expenses - revenue"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "loss = expenses - revenue",
+     "compute": "loss = expenses - revenue"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "keac.101.10",
+     "question_pattern": "calculate the loss when expenses are {expenses} and revenue is {revenue}"
     }
    ]
   },
@@ -270,6 +300,21 @@
      "explain": "Gain is the excess of selling price over cost price.",
      "compute": "gain = selling_price - cost_price"
     }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "gain = selling_price - cost_price",
+     "compute": "gain = selling_price - cost_price"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "keac.101.11",
+     "question_pattern": "calculate the gain when an asset costing {selling_price} is sold for {cost_price}"
+    }
    ]
   },
   {
@@ -294,6 +339,21 @@
      "action": "Calculate total outflow by adding expenses and losses",
      "explain": "Total outflow is the sum of expenses and losses.",
      "compute": "total_outflow = expenses + losses"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_outflow = expenses + losses",
+     "compute": "total_outflow = expenses + losses"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "keac.101.12",
+     "question_pattern": "calculate the total of expenses and losses when expenses are {expenses} and losses are {losses}"
     }
    ]
   },

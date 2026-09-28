@@ -34,6 +34,16 @@
      "q": "Create a real-life situation (Indian context: savings, instalments, stacking objects, etc.) that generates an AP whose general form has a fractional common difference. Write the general form with specific numbers, list the first 6 terms, and explain why the situation naturally leads to that general form.",
      "a": "Example situation: \"A water tank loses water due to a leak. Initially it has 100 litres. Every hour it loses 2.5 litres.\" First term \\(a = 100\\), common difference \\(d = -2.5 = -\\frac{5}{2}\\). General form: \\(100, 100 + (-\\frac{5}{2}), 100 + 2(-\\frac{5}{2}), 100 + 3(-\\frac{5}{2}), 100 + 4(-\\frac{5}{2}), 100 + 5(-\\frac{5}{2}), \\dots\\). First 6 terms: 100, 97.5, 95, 92.5, 90, 87.5 litres. The situation leads to this form because the amount decreases by the same quantity (2.5 L) each hour, so after \\(k\\) hours the amount is initial minus \\(k \\times 2.5\\), which matches \\(a + kd\\) with \\(d = -2.5\\). A poor answer uses integer \\(d\\) (e.g., \"saves ₹10 daily\") or writes the general form incorrectly (e.g., \\(100, 97.5, 95, \\dots\\) without the \\(a+kd\\) structure). A good answer uses a fractional/decimal \\(d\\), writes the general form symbolically with \\(a\\) and \\(d\\) identified, lists terms correctly, and explains the constant rate of change.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ money in a piggy bank: you put ₹10 on day 1, ₹15 on day 2, ₹20 on day 3, and so on, increasing by ₹5 each day.",
+     "a": "saving",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are saving money in a piggy bank: you put ₹10 on day 1, ₹15 on day 2, ₹20 on day 3, and so on, ______ by ₹5 each day.",
+     "a": "increasing",
+     "self_check": true
     }
    ]
   }

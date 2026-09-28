@@ -34,6 +34,31 @@
      "q": "Design a sequence of ALTER TABLE statements to transform a table EMPLOYEES (Emp_ID INT, Name VARCHAR(50), Dept_Code CHAR(3)) into a new structure: add Email VARCHAR(100) with UNIQUE constraint, change Dept_Code to Dept_ID INT with a foreign key to DEPARTMENTS(Dept_ID), and remove the Name column—all while preserving existing data where possible. Explain data loss implications.",
      "a": "1. `ALTER TABLE EMPLOYEES ADD COLUMN Email VARCHAR(100) UNIQUE;` (existing rows get NULL, UNIQUE allows multiple NULLs)\n2. `ALTER TABLE EMPLOYEES MODIFY COLUMN Dept_Code INT;` (fails if CHAR data not convertible to INT—data loss risk)\n3. `ALTER TABLE EMPLOYEES CHANGE COLUMN Dept_Code Dept_ID INT;` (renames and changes type)\n4. `ALTER TABLE EMPLOYEES ADD CONSTRAINT fk_emp_dept FOREIGN KEY (Dept_ID) REFERENCES DEPARTMENTS(Dept_ID);` (fails if existing Dept_ID values don't match DEPARTMENTS)\n5. `ALTER TABLE EMPLOYEES DROP COLUMN Name;` (permanent data loss). A poor answer misses conversion risks, constraint validation, or the irreversible nature of DROP COLUMN.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ALTER TABLE is a DDL command used to modify the structure of an existing table by adding, deleting, or modifying columns and constraints, while DROP TABLE is a DDL command that ______ removes a table definition along with all its data, indexes, triggers, and constraints from the database.",
+     "a": "permanently",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school library ______ has a BOOKS table created last year without an ISBN column.",
+     "a": "database",
+     "self_check": true
+    },
+    {
+     "q": "What is ALTER TABLE? State the definition given in this lesson.",
+     "a": "ALTER TABLE is a DDL command used to modify the structure of an existing table by adding, deleting, or modifying columns and constraints, while DROP TABLE is a DDL command that permanently removes a table definition along with all its data, indexes, triggers, and constraints from the database.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about ALTER TABLE?",
+     "a": "MODIFY COLUMN can change a column's data type freely (e.g., VARCHAR to INT) without data loss, and that DROP TABLE automatically removes dependent foreign keys in child tables.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write correct ALTER TABLE statements for adding/modifying/dropping columns and constraints, and DROP TABLE statements with IF EXISTS clause, while explaining the impact of each operation on existing data and dependent objects.",
+     "self_check": true
     }
    ]
   }

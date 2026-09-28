@@ -34,6 +34,31 @@
      "q": "Construct a function f(x) on [0, 4] such that the geometric area between f(x) and the x-axis is 10 square units, but the definite integral ∫_0^4 f(x) dx = 2. Explain your construction.",
      "a": "One example: Let f(x) = 3 on [0, 2] and f(x) = -2 on [2, 4]. Then ∫_0^4 f = 3*2 + (-2)*2 = 6 - 4 = 2. Geometric area = 3*2 + 2*2 = 10. Any piecewise constant or continuous function with positive area 10 and negative area -8 (net 2) works. A poor answer would be a function that doesn't satisfy both conditions, indicating the student doesn't grasp the relationship between signed and geometric area.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The area between a curve y = f(x) and the x-axis from x = a to x = b is given by the ______ integral ∫_a^b |f(x)| dx.",
+     "a": "definite",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ arch for a bridge over a river.",
+     "a": "curved",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To handle this, we first find where the curve crosses the x-axis (solve f(x)=______), split the interval at those points, integrate separately on each subinterval, and take the absolute value of each part before summing.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute the area between a curve and the x-axis for functions that are positive, negative, or change sign on the interval, by correctly setting up and evaluating definite integrals, including splitting at x-intercepts and taking absolute values where needed.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a curved arch for a bridge over a river.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

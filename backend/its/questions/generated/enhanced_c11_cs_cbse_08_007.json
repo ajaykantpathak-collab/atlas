@@ -34,6 +34,31 @@
      "q": "Create a new function `student_report(name, *subjects, **marks)` that prints the student's name, then each subject with its mark (if provided in marks), else \"Mark not available\". Demonstrate a call with at least two subjects where one has a mark and one doesn't.",
      "a": "```python\ndef student_report(name, *subjects, **marks):\n    print(f\"Report for {name}\")\n    for sub in subjects:\n        print(f\"{sub}: {marks.get(sub, 'Mark not available')}\")\n\nstudent_report(\"Riya\", \"Math\", \"Science\", \"English\", Math=95, English=88)\n```\nOutput:\n```\nReport for Riya\nMath: 95\nScience: Mark not available\nEnglish: 88\n```\nA poor answer would mishandle the dictionary lookup or confuse the order of parameters (e.g., putting **marks before *subjects). This tests synthesis of *args and **kwargs with fixed parameters.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: *args and kwargs are special parameter syntaxes in Python that allow a function to accept a variable number of positional arguments and keyword arguments ______. *args collects extra positional arguments into a tuple, while kwargs collects extra keyword arguments into a dictionary.",
+     "a": "respectively",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a billing system for a small shop where customers buy different numbers of items each time.",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "What is *args and kwargs? State the definition given in this lesson.",
+     "a": "*args and kwargs are special parameter syntaxes in Python that allow a function to accept a variable number of positional arguments and keyword arguments respectively. *args collects extra positional arguments into a tuple, while kwargs collects extra keyword arguments into a dictionary.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about *args and kwargs?",
+     "a": "Students often believe that *args and kwargs are variable names that must be spelled exactly as \"args\" and \"kwargs\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to define a function using *args and kwargs, explain how arguments are packed into tuple and dictionary, and correctly call such functions with varying numbers of positional and keyword arguments.",
+     "self_check": true
     }
    ]
   }

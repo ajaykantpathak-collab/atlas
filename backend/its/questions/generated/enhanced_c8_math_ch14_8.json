@@ -34,6 +34,26 @@
      "q": "Draw an irregular shape on 1 cm grid paper that has an estimated area of exactly 15 cm² using the counting convention. Describe your shape and show the count for each category (full, half, more than half, less than half).",
      "a": "Example: A shape with 10 full squares, 6 half squares, and 2 more-than-half squares (10 + 3 + 2 = 15). A poor answer draws a rectangle (regular, not irregular) or gives counts that don't sum to 15, showing inability to apply the convention creatively.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The area of an irregular shape can be estimated by placing it on a square grid and counting the number of unit squares it covers, using the ______: fully covered squares count as 1, squares more than half covered count as 1, exactly half covered count as 0.5, and squares less than half covered count as 0.",
+     "a": "convention",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to find the area of a mango leaf for a science project, but it has no ______ edges.",
+     "a": "straight",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Instead, place the leaf on ______ cm graph paper and trace its outline.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently trace any irregular shape on grid paper, correctly classify each square as full, half, more than half, or less than half, and compute the total estimated area in square units with correct units.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a conceptual model showing the feedback loops between ocean chemistry, atmospheric composition, and biological evolution from 4.0 Ga to 2.0 Ga. Include at least three coupled processes.",
      "a": "A robust model links: (1) Volcanic CO₂ → greenhouse warming → liquid oceans → silicate weathering (once continents emerge) → CO₂ drawdown → cooling (negative feedback). (2) Hydrothermal Fe²⁺ flux → anoxic oceans → anoxygenic photosynthesis → organic carbon burial → O₂ rise (after cyanobacteria evolve) → Fe²⁺ oxidation → banded iron formation deposition (negative feedback on Fe). (3) O₂ rise → ozone layer → UV shielding → continental colonization → enhanced weathering → nutrient (P) delivery → productivity → further O₂ rise (positive feedback). A poor model lists processes linearly without showing how ocean chemistry (e.g., Fe²⁺ concentration) controls biological metabolisms which in turn alter atmospheric composition that feeds back to weathering and ocean chemistry.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The evolution of the hydrosphere refers to the geological process by which water vapor released through volcanic degassing and delivered by cometary impacts condensed into liquid water as Earth cooled, ______ in topographic depressions to form the primordial oceans, with subsequent chemical modification through rock weathering, hydrothermal circulation, and biological activity establishing modern seawater composition and the global hydrological cycle.",
+     "a": "accumulating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This ______ is the same physical process that created Earth's first oceans 4 billion years ago.",
+     "a": "condensation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This condensation is the same physical process that created Earth's first oceans ______ billion years ago.",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the sequential stages of hydrosphere evolution from degassing to modern oceans, identify the sources of ocean salinity, and describe how the hydrological cycle became established, using appropriate geological terminology and timescales.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a word problem involving a real-world scenario (such as constructing a triangular park or a roof truss) where a builder uses the SAS congruence criterion to prove two support beams are identical. State the given measurements clearly.",
      "a": "Expected response criteria: The student must create a scenario (e.g., building a roof frame in a village house) where two sides are explicitly measured (e.g., Beam $AB = 3\\text{ m}$, Beam $AC = 4\\text{ m}$) along with their exact included angle ($\\angle BAC = 50^\\circ$), and state how matching these exact three items guarantees the second roof frame will be an exact duplicate. \nA poor answer lists random numbers without specifying which angle is between the two sides or uses non-matching labels.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The SAS (Side-Angle-Side) Congruence Criterion states that two triangles are congruent if two sides and the included angle of one triangle are equal ______ to two sides and the included angle of the other triangle.",
+     "a": "respectively",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are crafting two ______ wooden garden beds for your school project in New Delhi.",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify the included angle between two given sides of a triangle, apply the SAS criterion to prove triangle congruence, and use corresponding parts of congruent triangles (CPCTC) to find unknown side lengths or angles in geometric figures.",
+     "self_check": true
     }
    ]
   }

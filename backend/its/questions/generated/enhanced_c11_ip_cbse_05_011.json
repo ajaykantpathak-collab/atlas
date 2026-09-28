@@ -34,6 +34,21 @@
      "q": "Design a small Python program that uses both `math.sqrt` and a user-defined function `sqrt(x)` that returns `x ** 0.5`. Show the exact import statement(s) needed so both can coexist and be called correctly in the same script.",
      "a": "```python\nimport math as m\n\ndef sqrt(x):\n    return x ** 0.5\n\nprint(m.sqrt(25))   # 5.0\nprint(sqrt(25))     # 5.0\n```\nA poor answer uses `from math import sqrt` and then redefines `sqrt`, losing the math version — showing failure to apply namespace isolation via aliasing.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The from-import statement allows importing specific names (functions, variables, classes) from a module directly into the current namespace, while aliasing (import module as alias or from module import name as alias) provides an ______ name for a module or imported object to avoid naming conflicts or improve readability.",
+     "a": "alternative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a program that ______ both square roots and random numbers.",
+     "a": "calculates",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly write from module import name and import module as alias statements, explain how they affect the namespace, and predict the exact syntax required to call imported functions in each case without errors.",
+     "self_check": true
     }
    ]
   }

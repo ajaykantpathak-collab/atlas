@@ -34,6 +34,31 @@
      "q": "Design a simple experiment to prove that the infectious agent of potato spindle tuber disease is RNA-only and lacks protein.",
      "a": "Extract sap from infected plants. Treat one portion with protease (degrades protein) and another with RNase (degrades RNA). Inoculate healthy plants: protease-treated sap remains infectious (protein not needed), RNase-treated sap loses infectivity (RNA essential). This mirrors Diener's 1971 experiment. A poor answer suggesting only filtration or heat treatment shows inability to design a controlled biochemical test targeting specific macromolecules.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Viruses are non-cellular, obligate ______ parasites consisting of a nucleic acid core (either DNA or RNA, never both) enclosed in a protein coat called a capsid made of capsomeres; they are inert outside a host cell and replicate only by hijacking host machinery.",
+     "a": "intracellular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Think about the last time you had a common cold or flu — you felt sick, but the doctor said ______ won't work.",
+     "a": "antibiotics",
+     "self_check": true
+    },
+    {
+     "q": "What is Viruses? State the definition given in this lesson.",
+     "a": "Viruses are non-cellular, obligate intracellular parasites consisting of a nucleic acid core (either DNA or RNA, never both) enclosed in a protein coat called a capsid made of capsomeres; they are inert outside a host cell and replicate only by hijacking host machinery.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Viruses?",
+     "a": "Students often think viruses are \"alive\" because they replicate and evolve, ignoring that replication is entirely host-dependent and they lack any metabolic pathway (no ATP synthesis, no ribosomes).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain why viruses are considered non-living outside host cells but exhibit living characteristics inside, differentiate viruses from viroids based on structural components (capsid presence/absence) and genetic material, and describe the structural symmetry of TMV (helical) and bacteriophage (polyhedral with tail).",
+     "self_check": true
     }
    ]
   }

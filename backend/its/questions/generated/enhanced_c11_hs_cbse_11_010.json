@@ -34,6 +34,31 @@
      "q": "Design a step-by-step drying and ironing protocol for a household with these weekly items: 4 white cotton school shirts, 2 silk dupattas, 3 wool sweaters, 5 polyester-cotton bedsheets, 2 acrylic blankets. Include location, method, ironing temperature, and special handling for each category.",
      "a": "A complete protocol must specify: Cotton shirts — sun dry wrong side out, iron hot (210°C) with steam while damp. Silk dupattas — shade dry flat/indoors, iron low (120°C) damp with press cloth. Wool sweaters — dry flat in shade (reshape to outline), steam press only (120°C) or hang in steamy bathroom. Poly-cotton sheets — line dry shade, iron moderate (160°C). Acrylic blankets — dry flat shade (quick dry), iron low (120°C) if needed (usually wrinkle-free). A poor answer (e.g., \"sun dry all, iron all hot\") shows inability to differentiate fibre groups and apply fibre-property-to-care mapping systematically.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Drying is the process of removing moisture from washed fabrics using controlled ______ conditions (sunlight, shade, airflow) appropriate to the fibre type, while ironing is the application of controlled heat, moisture, and pressure to remove wrinkles and impart desired creases, with temperature settings specific to the fibre's thermal tolerance.",
+     "a": "environmental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just washed a favourite silk kurta, a cotton ______, and a wool sweater — all dripping wet.",
+     "a": "bedsheet",
+     "self_check": true
+    },
+    {
+     "q": "What is Drying? State the definition given in this lesson.",
+     "a": "Drying is the process of removing moisture from washed fabrics using controlled environmental conditions (sunlight, shade, airflow) appropriate to the fibre type, while ironing is the application of controlled heat, moisture, and pressure to remove wrinkles and impart desired creases, with temperature settings specific to the fibre's.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Drying?",
+     "a": "Students believe \"hotter iron = better wrinkle removal\" and \"sun drying = hygienic for all fabrics.\" They apply maximum heat to all fabrics thinking it speeds the process, not realising polyester melts at 210°C, silk yellows irreversibly, and wool felts.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to select the correct drying method (sun/shade/flat/line) and ironing technique (temperature, moisture, pressure vs. pressing) for any given fabric based on its fibre content, construction, and care label symbols, and justify each choice with reference to fibre properties.",
+     "self_check": true
     }
    ]
   }

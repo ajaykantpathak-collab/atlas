@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a smartphone, a small toy car, and a rubber band to verify F = ma. Explain how you would measure force, mass, and acceleration, and how you would handle friction.",
      "a": "**Answer:**  \n**Setup:** Toy car on smooth track. Rubber band stretched to fixed extension provides repeatable force F (calibrate using known masses hanging vertically: F = mg). Smartphone on car records acceleration via accelerometer app (or video analysis of position vs time). Vary mass by adding known weights to car.  \n**Procedure:** (1) Calibrate rubber band force: hang masses, measure extension. (2) For each mass m, stretch band to calibrated extension, release car, record a. (3) Plot F vs a — slope should be m. (4) Repeat for different m — slope changes. (5) To handle friction: measure deceleration when car coasts freely (a_fric = -μg). Add this to measured a_net to get a_applied.  \n**Good answer criteria:** Mentions calibration, repeated trials, friction correction, graphical verification (F ∝ a).  \n**Poor answer reveals:** If they ignore friction or calibration, or think \"push harder = more acceleration\" without quantification, they lack experimental rigor.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Newton's Second Law states that the rate of change of linear momentum of a body is directly ______ to the net external force acting on it and occurs in the direction of that force.",
+     "a": "proportional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a cricket fielder catching a fast ball — they pull their hands backward, ______ the stopping time.",
+     "a": "increasing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Draw a correct free-body diagram for a multi-body system, identify all forces with their agents, and write vector component equations; (2) Calculate acceleration, tension, or contact forces in connected-body problems (e.g., blocks on pulleys, blocks on inclined planes with friction) using F = ma in component form; (3).",
+     "self_check": true
     }
    ]
   }

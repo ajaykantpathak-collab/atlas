@@ -34,6 +34,36 @@
      "q": "Design a complete embryo rescue experiment to introgress drought tolerance from *Oryza rufipogon* (wild rice) into *O. sativa* cv. IR64. Specify: (a) crossing direction, (b) embryo excision timing, (c) medium recipe (key components only), (d) hardening strategy, and (e) one molecular marker to confirm hybridity.",
      "a": "(a) *O. sativa* ♀ × *O. rufipogon* ♂ (cultivated as mother for better endosperm support); (b) 8–10 DAP (torpedo stage, before abortion at 12 DAP); (c) N6 medium + 6% sucrose + 10% coconut water + 100 mg/L glutamine + 0.1 mg/L NAA + 0.5 mg/L BAP, pH 5.8; (d) Gradual humidity reduction over 14 days in mist chamber, then greenhouse; (e) SSR marker RM219 on chromosome 1 (linked to drought QTL). A poor answer uses generic MS medium, wrong stage, or skips molecular confirmation — revealing lack of integration across tissue culture, breeding, and molecular biology.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Embryo rescue is an in vitro plant tissue culture technique where immature or hybrid embryos that would normally abort due to post-zygotic ______ barriers are excised from developing seeds and cultured on artificial nutrient media to develop into complete, viable plants.",
+     "a": "incompatibility",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a wheat breeder trying to transfer rust ______ from a wild grass relative (Aegilops) into cultivated wheat.",
+     "a": "resistance",
+     "self_check": true
+    },
+    {
+     "q": "What is Embryo rescue? State the definition given in this lesson.",
+     "a": "Embryo rescue is an in vitro plant tissue culture technique where immature or hybrid embryos that would normally abort due to post-zygotic incompatibility barriers are excised from developing seeds and cultured on artificial nutrient media to develop into complete, viable plants.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The cross produces seeds, but they shrivel and die ______ days after pollination because the hybrid embryo starves — the endosperm fails to develop.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Embryo rescue?",
+     "a": "Students often believe embryo rescue \"creates\" hybrids that cannot form naturally.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) explain the step-by-step protocol of embryo rescue including explant selection, media composition, and culture conditions, and (2) analyze a given wide-cross breeding scenario to determine if embryo rescue is applicable and justify the choice of embryo developmental stage for excision.",
+     "self_check": true
     }
    ]
   }

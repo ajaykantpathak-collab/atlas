@@ -34,6 +34,26 @@
      "q": "Create a real-world LPP (Indian context: rupees, items) with two decision variables and three constraints (excluding non-negativity) such that the feasible region is a triangle with vertices (0,0), (10,0), (0,8). Write the objective function to maximise profit, and state the optimal solution.",
      "a": "Example: A toy maker produces cars (₹200 profit) and dolls (₹150 profit). Each car needs 2 hrs machine time, each doll 1 hr; total 20 hrs available. Each car needs 1 unit paint, each doll 2 units; total 16 units paint. Let \\(x\\) = cars, \\(y\\) = dolls. Constraints: \\(2x+y \\le 20\\), \\(x+2y \\le 16\\), \\(x\\ge0, y\\ge0\\). Corners: (0,0), (10,0), (0,8). Maximise \\(Z=200x+150y\\). Values: 0, 2000, 1200 → max ₹2000 at (10,0). A good answer must have constraints that exactly yield the given vertices, a sensible objective, and correct evaluation. A poor answer gives constraints that produce a different feasible region or forgets non-negativity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: By Theorem 1, if an optimal value exists, it must occur at a corner point; by Theorem 2, if the ______ region is bounded, both maximum and minimum values exist and occur at corner points.",
+     "a": "feasible",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ bakery in Delhi that makes only two products: chocolate cakes (₹500 profit each) and fruit tarts (₹300 profit each).",
+     "a": "small",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently: (1) graph a system of linear inequalities to identify the feasible region and its corner points; (2) evaluate the objective function at every corner point; (3) correctly determine the maximum and minimum values (or state that no optimal value exists for unbounded regions) and the corresponding decision.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small bakery in Delhi that makes only two products: ______ cakes (₹500 profit each) and fruit tarts (₹300 profit each).",
+     "a": "chocolate",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a simple clinical test to distinguish between a lower motor neuron (LMN) lesion and an upper motor neuron (UMN) lesion at the L4 level using reflex testing. Describe the expected findings for each.",
      "a": "Test the knee-jerk reflex (L2-L4). **LMN lesion at L4**: Reflex *absent* (areflexia), with flaccid paralysis, fasciculations, muscle atrophy. **UMN lesion above L4 (e.g., spinal cord compression at T10)**: Reflex *exaggerated* (hyperreflexia), with spastic paralysis, clonus, Babinski sign. A poor answer (e.g., \"both show increased reflex\") fails to distinguish the fundamental difference: LMN destroys the reflex arc's motor limb; UMN removes inhibitory control, disinhibiting the intact arc.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A reflex action is an ______, rapid, and stereotyped response to a specific stimulus mediated by a neural pathway called the reflex arc, which consists of a receptor, sensory neuron, interneuron (in spinal cord), motor neuron, and effector, allowing immediate response without conscious brain involvement.",
+     "a": "involuntary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you accidentally ______ a hot tawa while making rotis — your hand pulls back before you even feel the heat.",
+     "a": "touch",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can trace the complete reflex arc pathway for a given stimulus (e.g., touching a hot plate), identify each component's location and function, explain why the response occurs before pain perception, and predict the effect of damaging a specific component (e.g., dorsal root cut) on the reflex.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you ______ touch a hot tawa while making rotis — your hand pulls back before you even feel the heat.",
+     "a": "accidentally",
+     "self_check": true
     }
    ]
   }

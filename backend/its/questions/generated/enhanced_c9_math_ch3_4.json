@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (Indian context: rupees, metres, kg) that requires a Class 9 student to use the method of successive magnification to locate a rational number on a number line. The problem must involve a non-terminating recurring decimal. Provide the problem statement and the first two magnification steps for the solution.",
      "a": "Problem: A recipe requires 1/3 kg of sugar. You have a digital scale that shows weight in kg up to 3 decimal places. You want to mark the exact weight 1/3 kg on a number line drawn on the scale's display (range 0 to 1 kg) to check if the scale rounds correctly. Locate 1/3 kg using successive magnification.\nStep 1: 1/3 = 0.333... kg. Lies between 0 and 1. Divide [0,1] into 10 parts → [0.3, 0.4].\nStep 2: Magnify [0.3, 0.4] and divide into 10 parts → [0.33, 0.34].\nA poor answer would use a terminating decimal (like 0.5 kg) or fail to set up the recurring decimal, or not describe the magnification intervals correctly. This reveals the student cannot translate a fraction to its recurring decimal form or apply the magnification steps to a real measurement context.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A rational number is any number that can be expressed as the quotient p/q of two integers, where p is the numerator, q is the ______, and q ≠ 0.",
+     "a": "denominator",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a tailor ______ a piece of silk cloth that is exactly 2.375 metres long.",
+     "a": "measuring",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A rational number is any number that can be expressed as the quotient p/q of two integers, where p is the numerator, q is the denominator, and q ≠ ______.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can accurately locate any rational number (positive/negative, proper/improper fraction, terminating/non-terminating recurring decimal) on a number line using the successive magnification method, and can find at least three rational numbers between any two given distinct rational numbers using the mean method or equivalent.",
+     "self_check": true
     }
    ]
   }

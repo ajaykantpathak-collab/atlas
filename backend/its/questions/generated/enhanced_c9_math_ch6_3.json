@@ -34,6 +34,31 @@
      "q": "Create a real-world problem involving arc length where the radius is unknown but the arc length and central angle are given. The problem must be set in an Indian context (e.g., a circular park, a roundabout, a pizza). Provide the solution.",
      "a": "Example problem: \"A circular pizza has a slice with a curved crust (arc) of length 11 cm. The slice makes an angle of 60° at the centre. Find the radius of the pizza. Use π = 22/7.\" Solution: L = (θ/360) × 2πr → 11 = (60/360) × 2 × (22/7) × r → 11 = (1/6) × (44/7) × r → 11 = (44/42) r → r = 11 × 42 / 44 = 10.5 cm. A poor answer gives a trivial problem (e.g., direct formula plug-in) or fails to set up the equation correctly, showing inability to reverse the formula or create meaningful context.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The arc length of a circle is the distance along the curved line forming a portion of the ______, determined by the central angle θ (in degrees) subtended by the arc at the centre.",
+     "a": "circumference",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ running track of radius 20 m for your school sports day.",
+     "a": "circular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a circular running track of radius ______ m for your school sports day.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly calculate arc length given radius and central angle, find the central angle given arc length and radius, and solve multi-step problems involving arcs combined with chords or sectors in real-world contexts like circular tracks or garden paths.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a circular running track of radius 20 m for your school sports day.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

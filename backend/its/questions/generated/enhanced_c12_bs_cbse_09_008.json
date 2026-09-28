@@ -34,6 +34,36 @@
      "q": "Create a mini case study (3-4 sentences) where a company's RoI is exactly equal to its cost of debt. Explain what happens to EPS as debt increases in this boundary case, and why.",
      "a": "Case: Company Z has total capital ₹50 lakh, EBIT ₹5 lakh (RoI = 10%), debt cost = 10%, tax rate 30%. Situation A: No debt, equity ₹50 lakh (5 lakh shares). Interest=0, EBT=₹5L, Tax=₹1.5L, EAT=₹3.5L, EPS=₹0.70. Situation B: Debt ₹20 lakh, equity ₹30 lakh (3 lakh shares). Interest=₹2L, EBT=₹3L, Tax=₹0.9L, EAT=₹2.1L, EPS=₹0.70. EPS remains constant because the tax shield on interest (₹2L × 30% = ₹0.6L) exactly offsets the loss of earnings on the replaced equity. At RoI = Cost of debt, trading on equity is neutral — EPS unchanged regardless of leverage. A good answer shows the calculation and explains the offsetting effects. A poor answer claims EPS rises or falls without proof.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Capital structure refers to the mix between owners' funds (equity share capital, ______ share capital, reserves and surplus) and borrowed funds (debentures, loans, public deposits) that a company uses to finance its overall operations and growth.",
+     "a": "preference",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the CFO of a startup that ______ ₹50 crore to build a new factory.",
+     "a": "needs",
+     "self_check": true
+    },
+    {
+     "q": "What is Capital structure? State the definition given in this lesson.",
+     "a": "Capital structure refers to the mix between owners' funds (equity share capital, preference share capital, reserves and surplus) and borrowed funds (debentures, loans, public deposits) that a company uses to finance its overall operations and growth.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the CFO of a startup that needs ₹______ crore to build a new factory.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Capital structure?",
+     "a": "Students often believe: \"Trading on equity means using debt to increase EPS, so companies should always maximise debt to maximise EPS.\" This is wrong because: (1) Trading on equity is ONLY favourable when RoI > Cost of Debt — if RoI falls below cost of debt (as in NCERT Company Y), EPS decreases with more debt.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) calculate debt-equity ratio and debt-to-total-capital ratio from given financial data, (2) evaluate whether trading on equity is favourable by comparing RoI with cost of debt, and (3) justify a capital structure choice by analysing at least 5 factors (cash flow, ICR, DSCR, RoI, tax rate, risk, control.",
+     "self_check": true
     }
    ]
   }

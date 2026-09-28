@@ -34,6 +34,26 @@
      "q": "Create a Trading Account problem where Gross Loss occurs despite Net Sales exceeding Net Purchases. Provide full data and solution. Explain the condition that makes this possible.",
      "a": "Example: Opening Stock ₹2,00,000; Net Purchases ₹3,00,000; Net Sales ₹5,50,000; Direct Expenses ₹1,00,000; Closing Stock ₹50,000. Cost of Goods Sold = ₹2,00,000 + ₹3,00,000 + ₹1,00,000 – ₹50,000 = ₹5,50,000. Gross Profit = ₹5,50,000 – ₹5,50,000 = ₹0 (break-even). Increase Direct Expenses to ₹1,20,000 → Cost of Goods Sold = ₹5,70,000 → Gross Loss ₹20,000. Condition: High direct expenses and/or low closing stock relative to opening stock can erode the gross margin even when sales exceed purchases. A good answer shows the arithmetic and identifies the driver (direct expenses > gross margin before direct expenses).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Trading Account is a nominal account prepared to ascertain the gross profit or gross loss from core trading ______ (buying and selling of goods) during an accounting period.",
+     "a": "operations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: At year-end, you have unsold jeans worth ₹50,000 (closing stock), you bought jeans worth ₹5,00,000 but returned ₹20,000 defective ones, sold jeans for ₹8,00,000 but ______ returned ₹30,000, and paid ₹40,000 wages to tailors and ₹15,000 freight to bring goods to your shop.",
+     "a": "customers",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently prepare a Trading Account from a given trial balance or list of balances, correctly classifying each item as a direct expense, indirect expense, or revenue, computing Net Purchases and Net Sales after returns, incorporating Closing Stock via adjustment entry, and determining Gross Profit or Gross.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: At year-end, you have unsold jeans worth ₹50,000 (closing stock), you bought jeans worth ₹5,00,000 but returned ₹20,000 ______ ones, sold jeans for ₹8,00,000 but customers returned ₹30,000, and paid ₹40,000 wages to tailors and ₹15,000 freight to bring goods to your shop.",
+     "a": "defective",
+     "self_check": true
     }
    ]
   }

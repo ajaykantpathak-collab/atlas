@@ -34,6 +34,31 @@
      "q": "Design a 4-step organising process for a 3-day inter-school Model UN conference with 200 delegates, 5 committees, and a 15-member student secretariat. Specify the concrete output of each step (e.g., what document or structure is produced).",
      "a": "Step 1 Output: A \"Work Breakdown Structure\" listing all 50+ discrete activities (venue setup, delegate registration, committee simulations, crisis updates, catering, awards, cleanup). Step 2 Output: A \"Departmentalisation Chart\" grouping activities into 5 functional departments (Logistics, Academics, Delegate Services, Media & Outreach, Administration). Step 3 Output: A \"Role Assignment Matrix\" mapping each of the 15 secretariat members to specific roles within departments based on skills (e.g., best debater → Committee Chair, organised student → Registrar). Step 4 Output: An \"Authority & Reporting Organogram\" showing Secretary-General at top, 5 Department Heads reporting to SG, and 2-3 members per department reporting to their Head. A poor answer lists vague outputs like \"plan\" or \"teams\" without the specific artefacts that make the process verifiable and executable.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The organising process is a systematic sequence of four interdependent steps — identification and division of work, ______, assignment of duties, and establishing authority and reporting relationships — that transforms plans into an operational structure by grouping activities, allocating them to positions, and defining the hierarchy of command and accountability.",
+     "a": "departmentalisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ the student coordinator for your school's Annual Day.",
+     "a": "appointed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Finally, you tell each team leader: \"You report to me; your volunteers report to you.\" That is Step ______.",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) list the four steps in correct sequential order with NCERT terminology, (2) explain the purpose and outcome of each step using a concrete organisational example, and (3) identify which step is violated in a given case of organisational confusion (e.g., overlapping duties, unclear reporting lines, or work.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are appointed the student ______ for your school's Annual Day.",
+     "a": "coordinator",
+     "self_check": true
     }
    ]
   }

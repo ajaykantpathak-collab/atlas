@@ -1,0 +1,56 @@
+{
+ "catalog": "enhanced_c10_comp_cbse_90_002",
+ "concepts": [
+  {
+   "id": "enh:c10_comp_cbse_90_002",
+   "title": "c10_comp_cbse_90_002",
+   "questions": [
+    {
+     "q": "Fix the register: 'I'm writing coz the streetlight near my house hasn't worked for like two weeks and it's super annoying.'",
+     "a": "'I am writing to report that the streetlight near my residence has been non-functional for two weeks.' Every marker fixed: I'm→I am, coz→to report, like→(deleted), super annoying→non-functional. A wrong answer keeping contractions or 'super' shows the student treats register as optional polish, not as scored content.",
+     "self_check": true
+    },
+    {
+     "q": "Which opener for a letter to the editor: 'You won't believe what's happening in our park!' or 'Through the columns of your esteemed daily, I wish to highlight…'?",
+     "a": "The second — formal public register, no exclamation, no direct tease. A wrong answer preferring the first reveals the student confuses attention-grabbing (informal) with addressing (formal) — the genre confusion this node targets.",
+     "self_check": true
+    },
+    {
+     "q": "Is 'I would be grateful if you could look into this' appropriate as a letter's request line?",
+     "a": "Yes — courteous fixed phrase, polite indirection, the standard closing move of a formal request. A wrong answer calling it 'too weak' or replacing it with 'You must fix this' reveals the student thinks formality means assertiveness — it's the opposite: formal register commands through courtesy.",
+     "self_check": true
+    },
+    {
+     "q": "Formal register bans contractions (can't→cannot), slang, exclamation marks, first-person emotive phrasing, and vague fillers; it prefers precise nouns, passive ______ for objectivity, and courteous fixed phrases (I am writing to…, I would be grateful, kindly).",
+     "a": "constructions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Formal register bans contractions (can't→cannot), slang, exclamation marks, first-person emotive phrasing, and vague fillers; it prefers precise nouns, passive ______ for objectivity, and courteous fixed phrases (I am writing to…, I would be grateful, kindly).",
+     "a": "constructions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Contrast two openings: 'I wanna complain about the garbage — it's really bad and smells gross!!' vs 'I wish to draw your ______ to the non-collection of garbage in Ward 12.' Same complaint, different social costume.",
+     "a": "attention",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Given an informal draft, the student rewrites every informal marker — contractions, slang, emoticons of tone, vague quantities — into formal equivalents while preserving content, and can name the register rule each edit satisfies.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Contrast two openings: 'I wanna complain about the garbage — it's really bad and smells gross!!' vs 'I wish to draw your attention to the non-______ of garbage in Ward 12.' Same complaint, different social costume.",
+     "a": "collection",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Contrast two openings: 'I wanna complain about the garbage — it's really bad and smells gross!!' vs 'I wish to draw your attention to the non-collection of garbage in Ward ______.' Same complaint, different social costume.",
+     "a": "12",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

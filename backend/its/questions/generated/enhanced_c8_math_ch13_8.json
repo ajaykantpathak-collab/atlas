@@ -34,6 +34,26 @@
      "q": "Create a word problem that leads to the equation (x/5) + 3 = 10, and solve it using the balancing method.",
      "a": "Example: \"A number divided by 5, then increased by 3, gives 10. Find the number.\" Solution: Subtract 3 from both sides → x/5 = 7; multiply both sides by 5 → x = 35. A poor answer might not match the equation structure (e.g., using multiplication first) or have incorrect balancing steps.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The balancing method for solving linear equations states that performing the same arithmetic operation (addition, subtraction, ______, or division by a non-zero number) on both sides of an equation preserves the equality, allowing the variable to be isolated systematically.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This real ______ leads to the equation x/2 - 20 = 50.",
+     "a": "situation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: He spends half of it on a book and then ₹______ on a pen.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can solve linear equations in one variable involving integers, fractions, decimals, and variables on both sides using the balancing method, and verify the solution by substitution.",
+     "self_check": true
     }
    ]
   }

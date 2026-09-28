@@ -34,6 +34,21 @@
      "q": "Create a real-world problem involving a circular water tank of radius 3.5 m where a straight pipe touches the tank at exactly one point. The pipe makes an angle of 30° with the horizontal ground. Find the length of the pipe from the point of contact to where it meets the ground, given the tank's centre is 2 m above ground level. Draw the diagram and identify where the tangent-radius perpendicularity is used.",
      "a": "A good answer constructs: Circle (tank) centre O, 2 m above ground. Radius OP = 3.5 m to point of contact P. Tangent line (pipe) at P meets ground at T. OT is not vertical — the pipe is at 30° to horizontal. The right angle ∠OPT = 90° is the key. Drop perpendicular from O to ground at M (OM = 2 m). The geometry requires coordinate geometry or trigonometry: OP = 3.5, ∠OPT = 90°, ∠PT(ground) = 30°. Student must use the perpendicular property to set up the right triangle, then apply trigonometry. A poor answer ignores the 90° at P and tries to use the 30° directly with the radius, showing they don't recognise the right triangle formed by radius and tangent.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The tangent to a circle at any point P is ______ to the radius OP drawn to the point of contact P.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a bicycle wheel ______ the ground at exactly one point — the tyre is the circle, the ground is the tangent line, and the spoke from the centre to the ground contact point is the radius.",
+     "a": "touching",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state the theorem precisely using correct geometric notation (OP ⟂ tangent at P), identify the right angle in any diagram involving a tangent and radius, apply the perpendicular property to find unknown angles or lengths using Pythagoras theorem, and use this property as a step in multi-part geometry problems involving.",
+     "self_check": true
     }
    ]
   }

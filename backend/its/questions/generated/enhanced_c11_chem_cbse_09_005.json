@@ -34,6 +34,31 @@
      "q": "Design a laboratory-scale experiment to demonstrate the reducing action of dihydrogen on copper(II) oxide, including apparatus, observations, and a test for the gaseous product. Write the balanced equation.",
      "a": "Apparatus: Hard glass test tube, delivery tube, gas jar, CaCl₂ drying tube, Bunsen burner. Procedure: Heat ~2 g CuO in test tube, pass dry H₂ gas over it. Observations: Black CuO turns reddish-brown (Cu); water droplets condense in cooler part of tube. Test for H₂O: Anhydrous CuSO₄ turns blue. Equation: CuO(s) + H₂(g) → Cu(s) + H₂O(g). A poor answer omits drying of H₂ (causes explosion risk) or uses limewater test (for CO₂, not H₂O).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Dihydrogen (H₂) is the molecular form of hydrogen gas used ______ as a reducing agent, fuel, and chemical feedstock; its applications exploit its high bond enthalpy (436 kJ mol⁻¹), flammability, reducing nature, and ability to form hydrides with metals and non-metals.",
+     "a": "industrially",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a cylinder of cooking gas (LPG) at home – it contains hydrocarbons, but the clean blue flame reminds us of hydrogen's ______.",
+     "a": "combustion",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Dihydrogen (H₂) is the molecular form of hydrogen gas used industrially as a reducing agent, fuel, and chemical feedstock; its applications exploit its high bond enthalpy (______ kJ mol⁻¹), flammability, reducing nature, and ability to form hydrides with metals and non-metals.",
+     "a": "436",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write balanced chemical equations for at least five distinct industrial uses of dihydrogen, identify the role of H₂ (reducing agent, fuel, reactant) in each, and calculate stoichiometric quantities for Haber process and hydrogenation reactions given reactant masses.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a cylinder of cooking gas (LPG) at home – it contains ______, but the clean blue flame reminds us of hydrogen's combustion.",
+     "a": "hydrocarbons",
+     "self_check": true
     }
    ]
   }

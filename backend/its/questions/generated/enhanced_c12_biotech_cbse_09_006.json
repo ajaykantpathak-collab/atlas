@@ -34,6 +34,31 @@
      "q": "Design a stepwise experimental workflow to generate clinical-grade, integration-free iPSCs from a 10 mL peripheral blood sample of a Type 1 diabetes patient, differentiate them into pancreatic β-like cells, and validate function *in vitro*. Specify the cell type targeted, reprogramming method, two key validation checkpoints, and one functional assay for β-cell maturity.",
      "a": "Workflow: (1) Isolate PBMCs (CD34+ erythroblasts or T-cells) from blood. (2) Reprogram using episomal plasmids (pEB-C5: Oct4, Sox2, Klf4, L-Myc, Lin28; pEB-Tg: EBNA1) via nucleofection — footprint-free. (3) Culture on vitronectin in E8 medium; pick colonies at day 20–25. (4) Checkpoint 1: Karyotyping (G-banding) + whole-exome sequencing to exclude mutations. (5) Checkpoint 2: Teratoma assay in NSG mice + trilineage qPCR panel. (6) Differentiate via 7-stage protocol (Activin A → Wnt3a → FGF10 → retinoic acid → exendin-4 → nicotinamide → ALK5 inhibitor). (7) Functional assay: Glucose-stimulated insulin secretion (GSIS) — measure C-peptide release at 2.8 mM vs 16.7 mM glucose; stimulation index >2 indicates maturity. Poor answers omit karyotyping, use integrating vectors, or skip GSIS.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Induced Pluripotent Stem Cells (iPSCs) are somatic cells that have been genetically reprogrammed to an embryonic stem cell-like state by forced expression of specific ______ factors (Oct4, Sox2, Klf4, c-Myc), thereby acquiring pluripotency — the ability to differentiate into all three germ layers (ectoderm, mesoderm, endoderm) — without using embryos.",
+     "a": "transcription",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a patient with Parkinson's disease needs dopamine-producing neurons transplanted, but using ______ stem cells raises ethical concerns and immune rejection risks.",
+     "a": "embryonic",
+     "self_check": true
+    },
+    {
+     "q": "What is Induced Pluripotent Stem Cells (iPSCs)? State the definition given in this lesson.",
+     "a": "Induced Pluripotent Stem Cells (iPSCs) are somatic cells that have been genetically reprogrammed to an embryonic stem cell-like state by forced expression of specific transcription factors (Oct4, Sox2, Klf4, c-Myc), thereby acquiring pluripotency — the ability to differentiate into all three germ layers (ectoderm, mesoderm, endoderm) —.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) list the four Yamanaka factors and explain the role of each in reprogramming; (2) compare iPSCs with embryonic stem cells (ESCs) on ethical, immunological, and functional grounds; (3) describe the stepwise reprogramming process and identify critical checkpoints for validation (pluripotency markers.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a patient with Parkinson's disease needs dopamine-producing neurons ______, but using embryonic stem cells raises ethical concerns and immune rejection risks.",
+     "a": "transplanted",
+     "self_check": true
     }
    ]
   }

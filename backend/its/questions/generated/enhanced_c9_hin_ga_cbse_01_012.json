@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_hin_ga_cbse_01_012",
+ "concepts": [
+  {
+   "id": "enh:c9_hin_ga_cbse_01_012",
+   "title": "c9_hin_ga_cbse_01_012",
+   "questions": [
+    {
+     "q": "पाठ 1 के संदर्भ में, 'वस्तुनिष्ठ प्रश्न' और 'आशय-सूचक प्रश्न' के बीच मूलभूत अंतर क्या है? संक्षेप में लिखिए।",
+     "a": "**Correct Answer:** वस्तुनिष्ठ प्रश्न पाठ में स्पष्ट रूप से लिखे तथ्यों (तारीख, नाम, घटना) की जाँच करते हैं जिनका उत्तर एक ही सही होता है; आशय-सूचक प्रश्न पाठ के पीछे छिपे अर्थ, कारण, या भाव को समझने के लिए तर्क और प्रमाण माँगते हैं जिनका उत्तर विद्यार्थी अपने शब्दों में तर्कसंगत बनाता है।\n**Wrong Answer Reveals:** If a student says \"Objective questions are short and inferential are long,\" they confuse *length* with *cognitive demand*. If they say \"Both need text evidence,\" they miss that objective questions need *verbatim* retrieval while inferential needs *synthesis* of evidence.",
+     "self_check": true
+    },
+    {
+     "q": "मान लीजिए पाठ 1 में एक वाक्य है: \"रामू ने उदास मन से दरवाज़ा बंद किया।\" प्रश्न: \"रामू ने दरवाज़ा क्यों बंद किया?\" — यह वस्तुनिष्ठ है या आशय-सूचक? कारण बताइए।",
+     "a": "**Correct Answer:** यह **आशय-सूचक** प्रश्न है। पाठ में केवल क्रिया (दरवाज़ा बंद किया) और भाव (उदास मन) स्पष्ट हैं, लेकिन *कारण* (क्यों?) स्पष्ट नहीं लिखा। उत्तर के लिए विद्यार्थी को प्रसंग, पात्र की मनोस्थिति, और पूर्व घटनाओं को जोड़कर तर्क लगाना पड़ेगा।\n**Wrong Answer Reveals:** If a student labels it \"वस्तुनिष्ठ\" because the action is written, they fail to distinguish between *explicit action* and *implicit motive*. They treat 'Why' as a fact-retrieval cue rather than an inference trigger.",
+     "self_check": true
+    },
+    {
+     "q": "पाठ 1 से एक अंश दिया गया है (कल्पना करें): \"बारिश थम चुकी थी, पर आँगन में कीचड़ अब भी था। माँ ने चुपचाप झाड़ू उठाया और सफाई में लग गईं।\" \n**वस्तुनिष्ठ प्रश्न बनाइए:** _______________ \n**आशय-सूचक प्रश्न बनाइए:** _______________",
+     "a": "**Correct Answer:** \nवस्तुनिष्ठ: \"आँगन में क्या था?\" (उत्तर: कीचड़) या \"किसने झाड़ू उठाया?\" (उत्तर: माँ)। \nआशय-सूचक: \"माँ ने 'चुपचाप' झाड़ू क्यों उठाया? उनके मन की स्थिति क्या दर्शाता है?\" (उत्तर: सहनशीलता/कर्तव्यपरायणता — प्रमाण: बारिश थमने के बावजूद कीचड़, बिना शिकायत सफाई)।\n**Wrong Answer Reveals:** If the student writes \"माँ ने झाड़ू क्यों उठाया?\" as objective, they confuse *sequence* with *motive*. If their inferential question answer is just \"to clean,\" they remain at literal level, missing the adverb 'चुपचाप' as the key to character inference.",
+     "self_check": true
+    },
+    {
+     "q": "पाठ 1 में नायक की एक विशेषता 'संघर्षशील' है। केवल पाठ के दो प्रमाण (evidence) देकर सिद्ध कीजिए कि यह विशेषता **आशय-सूचक निष्कर्ष** है, न कि वस्तुनिष्ठ तथ्य।",
+     "a": "**Correct Answer:** \nप्रमाण 1: \"पहली बार असफल होने पर उसने दूसरा प्रयास किया\" (क्रिया क्रम)। \nप्रमाण 2: \"तीसरी बार में सफलता मिली\" (परिणाम)। \n**विश्लेषण:** पाठ में कहीं नहीं लिखा \"वह संघर्षशील है\" — यह विशेषण विद्यार्थी ने दोनों प्रमाणों को जोड़कर (संश्लेषण करके) निकाला है। वस्तुनिष्ठ होता यदि लिखा होता: \"वह एक संघर्षशील व्यक्ति था।\"\n**Wrong Answer Reveals:** If the student quotes a line like \"वह बहुत मेहनती था\" as evidence, they mistake *author's label* for *textual evidence*. They don't grasp that inferential traits are *constructed* by the reader from behavioral patterns, not *found* as adjectives.",
+     "self_check": true
+    },
+    {
+     "q": "बोर्ड परीक्षा में एक छात्र ने आशय-सूचक प्रश्न का उत्तर दिया: \"लेखक गरीबी की आलोचना कर रहा है क्योंकि पात्र गरीब हैं।\" इस उत्तर को 1/3 अंक मिले। मूल्यांकन कीजिए: इसमें कौन-सी दो कमियाँ हैं और बोर्ड मानक उत्तर कैसा होना चाहिए?",
+     "a": "**Correct Answer:** \nकमी 1: **सामान्यीकरण (Over-generalization)** — \"गरीबी की आलोचना\" बिना पाठ-विशिष्ट प्रसंग के। \nकमी 2: **प्रमाण का अभाव** — \"पात्र गरीब हैं\" तथ्य है, लेखक का आशय नहीं। \n**बोर्ड मानक उत्तर:** \"लेखक गरीबी को अभिशाप नहीं, बल्कि मानवीय गरिमा की परीक्षा के रूप में चित्रित करते हैं। प्रमाण: पात्र भूखा रहकर भी भीख नहीं माँगता (पैरा 3); दूसरों की सहायता करता है (पैरा 5)। इससे लेखक का आशय स्पष्ट होता है: गरीबी चरित्र को छोटा नहीं करती।\"\n**Wrong Answer Reveals:** If the student says \"answer is too short,\" they focus on length, not *analytical depth*. They don't understand that board marking schemes reward **Text-to-Inference mapping**, not opinions.",
+     "self_check": true
+    },
+    {
+     "q": "पाठ 1 के किसी एक प्रसंग (अनुच्छेद) को चुनकर, उस पर आधारित **एक वस्तुनिष्ठ** और **एक आशय-सूचक** प्रश्न बनाइए। फिर दोनों के आदर्श उत्तर लिखिए जिसमें आशय-सूचक उत्तर में **प्रमाण → निष्कर्ष → औचित्य** संरचना स्पष्ट दिखे।",
+     "a": "**Expected Criteria:** \n1. चुना गया प्रसंग पाठ 1 से सुसंगत हो। \n2. वस्तुनिष्ठ प्रश्न: तथ्य-आधारित (कौन/क्या/कब), उत्तर एक पंक्ति में। \n3. आशय-सूचक प्रश्न: 'क्यों/कैसे/आशय' आधारित। \n4. आशय-सूचक उत्तर: \n   - **प्रमाण:** पाठ की विशिष्ट पंक्ति/संदर्भ। \n   - **निष्कर्ष:** छिपा अर्थ/भाव/कारण। \n   - **औचित्य:** यह निष्कर्ष प्रमाण से कैसे निकलता है। \n**Poor Answer Reveals:** If the inferential answer merges evidence and inference (\"He was sad because he cried\"), the student hasn't internalized the 3-step structure. They treat inference as a longer fact, not a reasoned argument.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

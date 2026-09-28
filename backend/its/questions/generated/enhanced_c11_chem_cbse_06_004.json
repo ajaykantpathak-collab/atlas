@@ -34,6 +34,36 @@
      "q": "Design a thermochemical cycle (Hess's Law diagram) to determine the standard enthalpy of formation of CH₃COOH(l) using only these measurable quantities: ΔcH°(CH₃COOH(l)), ΔcH°(C(graphite)), ΔcH°(H₂(g)), and ΔfH°(CO₂(g)), ΔfH°(H₂O(l)). Draw the cycle and write the algebraic relationship.",
      "a": "Cycle: Elements (2C + 2H₂ + O₂) → CH₃COOH(l) [ΔfH°] → combustion products (2CO₂ + 2H₂O) [ΔcH°]. Alternative path: Elements → 2C(graphite) + 2H₂(g) + ½O₂(g) → 2CO₂(g) + 2H₂O(l) via combustion of elements. Algebraic: ΔfH°(CH₃COOH) = 2ΔfH°(CO₂) + 2ΔfH°(H₂O) − ΔcH°(CH₃COOH). Since ΔcH°(C) = ΔfH°(CO₂) and ΔcH°(H₂) = ΔfH°(H₂O), this simplifies to ΔfH°(CH₃COOH) = 2ΔcH°(C) + 2ΔcH°(H₂) − ΔcH°(CH₃COOH). A poor answer reveals inability to construct a closed thermodynamic cycle or confusion between formation and combustion directions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Standard enthalpy of formation (ΔfH°) is the enthalpy change when one mole of a compound is formed from its ______ elements in their standard states (1 bar, 298 K) under standard conditions.",
+     "a": "constituent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a kitchen gas stove burning LPG (mainly butane) – the blue flame ______ heat that cooks food.",
+     "a": "releases",
+     "self_check": true
+    },
+    {
+     "q": "What is Standard enthalpy of formation (ΔfH°)? State the definition given in this lesson.",
+     "a": "Standard enthalpy of formation (ΔfH°) is the enthalpy change when one mole of a compound is formed from its constituent elements in their standard states (1 bar, 298 K) under standard conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: We start by writing the formation equation for each compound from its elements in standard states (e.g., C(graphite) + ______H₂(g) → CH₄(g)), then use Hess's Law: the total enthalpy change depends only on initial and final states.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Standard enthalpy of formation (ΔfH°)?",
+     "a": "Students write formation equations with 1 mole of each element instead of 1 mole of compound (e.g., C + H₂ + O → CH₃OH instead of C + 2H₂ + ½O₂ → CH₃OH).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can calculate ΔrH° for any reaction using standard enthalpies of formation, write formation and combustion equations with correct states and stoichiometry, and apply Hess's Law to determine unknown enthalpies from given thermochemical data.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_08_001",
+   "title": "c11_leg_cbse_08_001",
+   "questions": [
+    {
+     "q": "What are the three major sources of law identified in modern legal systems according to the NCERT textbook?",
+     "a": "The three major sources are Custom, Judicial Precedent, and Legislation. A wrong answer (e.g., \"Constitution, Parliament, Courts\") reveals confusion between sources of law and organs of government — the student is mixing Chapter 8 (Sources) with Unit 1 (Political Institutions).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a custom must satisfy the test of \"reasonableness\" to be recognized as law, using the Bombay High Court example from the textbook.",
+     "a": "A custom must conform to norms of justice and public utility; if it causes more mischief than convenience, it fails. In Mathura Naikon v. Esu Naekin (1880), the custom of adopting girls for immoral purposes was declared invalid as unreasonable and immoral. A wrong answer focusing only on \"antiquity\" reveals the student memorized the list of tests but doesn't understand they work together — a 500-year-old custom can still be invalid if unreasonable.",
+     "self_check": true
+    },
+    {
+     "q": "The Supreme Court in 2015 banned diesel cars registered before 2005 in Delhi NCR. The judgment included remarks on construction dust and crop burning as pollution sources. A district court in Delhi is hearing a similar case in 2024. Which part of the 2015 judgment is binding on this district court, and why?",
+     "a": "Only the ratio decidendi (the ban on pre-2005 diesel cars based on engine deterioration and pollution) is binding. The remarks on construction dust and crop burning are obiter dicta — persuasive but not binding. A wrong answer saying \"the whole judgment is binding\" shows failure to distinguish ratio from obiter, a critical skill for legal reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the hierarchy of judicial precedent in India with the UK before 2009. What key structural difference explains why the UK moved to a separate Supreme Court?",
+     "a": "In India, the Supreme Court is separate from Parliament and the executive. In pre-2009 UK, Law Lords sat in the House of Lords (legislature) while serving as the highest court — violating separation of powers. The Constitutional Reform Act 2005 created the UK Supreme Court to fix this fusion. A wrong answer focusing only on \"both have Supreme Courts\" misses the constitutional principle: India's basic structure doctrine (Keshavananda Bharati) requires judicial independence as a basic feature, which the UK achieved only in 2009.",
+     "self_check": true
+    },
+    {
+     "q": "\"Delegated legislation is a necessary evil.\" Evaluate this statement with reference to the reasons for its growth and the safeguards in the Indian system.",
+     "a": "It is \"necessary\" because Parliament lacks time, technical expertise, and flexibility for detailed rules (e.g., traffic regulations, drug standards). It is \"evil\" because it transfers law-making to the unelected executive, risking arbitrariness. Safeguards: parent Act must lay down policy (delegatus non potest delegare), judicial review for ultra vires, and parliamentary oversight (laying on table). A one-sided answer (\"it's good\" or \"it's bad\") fails to evaluate — the student must weigh both sides using the textbook's \"paucity of time, technicalities, emergency\" vs \"increasing tendency criticized.\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a local custom conflicts with a central legislation. Explain which prevails and why, using the \"Status of Custom with regard to Legislation\" principle.",
+     "a": "Scenario: A tribal community in Chhattisgarh follows a custom of marrying girls at 16. The Prohibition of Child Marriage Act, 2006 sets 18 as minimum age. The legislation prevails because modern law abrogates contrary customs (textbook: \"when a new legislation is enacted, it is generally preferred to the custom\"). A poor answer ignores the hierarchy (legislation > custom) or suggests the custom survives due to \"antiquity\" — showing the student hasn't grasped that validity tests include consistency with statute.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

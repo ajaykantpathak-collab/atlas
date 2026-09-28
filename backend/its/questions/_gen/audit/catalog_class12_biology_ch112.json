@@ -1,0 +1,113 @@
+{
+ "catalog": "catalog_class12_biology_ch112.json",
+ "concepts": [
+  {
+   "id": "jebh.14.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "GPP = 74",
+      "R = 19.1",
+      "NPP = GPP - R"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "GPP = 66",
+      "R = 21",
+      "NPP = GPP - R"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "GPP = 28",
+      "R = 89",
+      "NPP = GPP - R"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "GPP = 64",
+      "R = 50",
+      "NPP = GPP - R"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "GPP = 96",
+      "R = 73",
+      "NPP = GPP - R"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "GPP = 42",
+      "R = 65",
+      "NPP = GPP - R"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "NPP = GPP - R"
+   ]
+  },
+  {
+   "id": "jebh.14.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "E_current = 23",
+      "E_next = E_current * 0.10"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "E_current = 8.7",
+      "E_next = E_current * 0.10"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "E_current = 29",
+      "E_next = E_current * 0.10"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "E_current = 8.6",
+      "E_next = E_current * 0.10"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "E_current = 5.2",
+      "E_next = E_current * 0.10"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "E_current = 7.4",
+      "E_next = E_current * 0.10"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "E_next = E_current * 0.10"
+   ]
+  }
+ ]
+}

@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a school laboratory setup (e.g., a dynamics cart on a track, a spring, a motion sensor) to verify the conservation of mechanical energy for a spring-block system. What measurements would you take? How would you account for non-conservative forces?",
      "a": "**Setup:** Attach a spring (known k) to a cart on a level air track (to minimize friction). Compress the spring by a measured distance x₀, release from rest. Use a motion sensor to record velocity v at the equilibrium position (x = 0).\n**Measurements:** k (from static extension test), x₀ (initial compression), v_max (at x = 0), mass m of cart.\n**Verification:** Initial energy = ½kx₀². Final energy = ½mv_max². Compare. They should be equal within experimental error.\n**Accounting for non-conservative forces:** If track has friction, measure the decrease in amplitude over successive oscillations. The work done by friction per cycle = energy loss per cycle. Plot total mechanical energy vs. time — the slope gives power dissipated. A poor answer (e.g., \"just measure speed\" without specifying where, or ignoring friction entirely) reveals the student cannot translate the abstract principle into a measurable experimental protocol.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The principle of conservation of mechanical energy states that in an isolated system where only conservative forces (e.g., ______ force, spring force) do work, the total mechanical energy — defined as the sum of kinetic energy (K = ½mv²) and potential energy (V) — remains constant throughout the motion: E = K + V = constant.",
+     "a": "gravitational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a simple ______ in your school lab — pull the bob to one side and release it.",
+     "a": "pendulum",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This means ΔK + ΔV = ______, or equivalently, Ki + Vi = Kf + Vf, where i and f denote initial and final states.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Identify whether mechanical energy is conserved in a given physical scenario by analyzing the forces involved; (2) Apply Ki + Vi = Kf + Vf to solve multi-step problems involving gravitational and/or spring potential energy; (3) Distinguish between conservative and non-conservative forces and correctly modify the.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Design a three-pillar air quality management strategy for a Tier-2 Indian city (e.g., Lucknow or Patna) that integrates: (i) emission reduction technology, (ii) institutional governance, and (iii) behavioural nudges. Specify one measurable target for each pillar with a 5-year horizon.",
      "a": "Pillar 1 (Technology): Mandate BS-VI fuel + vehicle retrofit for commercial fleets; target: 90% BS-VI compliance in 5 years, measured by PUC certification data.\nPillar 2 (Governance): Establish city-level Air Quality Management Committee with statutory powers under Air Act 1981; target: 100% industrial CEMS (Continuous Emission Monitoring Systems) data publicly reported monthly within 2 years.\nPillar 3 (Behaviour): Congestion pricing in core zone + subsidised e-bus fleet; target: 15% modal shift from private to public transport in 5 years, measured by traffic count surveys.\nA poor answer lists generic \"awareness campaigns\" without measurable targets or ignores the institutional pillar (who enforces?), revealing a techno-centric bias common in student responses.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Air pollution refers to the ______ of the atmosphere by harmful substances — including particulate matter (PM2.5, PM10), nitrogen oxides (NOx), sulphur dioxide (SO2), carbon monoxide (CO), ozone (O3), and lead — emitted from anthropogenic sources (vehicles, industries, thermal power plants, construction, biomass burning) and natural sources (dust storms, wildfires), which degrade ambient air quality beyond the assimilative capacity of the environment and impose negative externalities on human health, agricultural productivity, and climate systems.",
+     "a": "contamination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ at a busy Delhi intersection at 8 AM on a November morning — the air smells of diesel and burnt plastic, visibility is low, and your eyes sting.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What is Air pollution? State the definition given in this lesson.",
+     "a": "Air pollution refers to the contamination of the atmosphere by harmful substances — including particulate matter (PM2.5, PM10), nitrogen oxides (NOx), sulphur dioxide (SO2), carbon monoxide (CO), ozone (O3), and lead — emitted from anthropogenic sources (vehicles, industries, thermal power plants, construction, biomass burning) and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing at a busy Delhi intersection at ______ AM on a November morning — the air smells of diesel and burnt plastic, visibility is low, and your eyes sting.",
+     "a": "8",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Air pollution?",
+     "a": "Students believe \"air pollution is only a winter problem in North India\" because media highlights Delhi's November smog.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) interpret Air Quality Index (AQI) data to classify pollution severity and identify dominant pollutants in a given Indian city; (2) explain the causal chain linking vehicular fleet growth, fuel quality, and industrial concentration to specific pollutant concentrations using the concept of assimilative capacity; (3).",
+     "self_check": true
     }
    ]
   }

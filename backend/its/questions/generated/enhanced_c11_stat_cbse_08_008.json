@@ -34,6 +34,31 @@
      "q": "Design a mini-CPI for \"Class 11 Students in Urban India\" with exactly 5 commodity groups. Specify: (a) the 5 groups, (b) plausible weights summing to 100 based on a hypothetical survey, (c) one representative item per group with base-year (2023) and current-year (2025) prices, (d) compute the index. Justify your weight choices.",
      "a": "Example: (a) Groups: Tuition/Coaching, Stationery/Books, Transport, Snacks/Food, Digital/Internet. (b) Weights: 40, 15, 20, 15, 10 (sum=100). Justification: Coaching dominates student budgets; transport significant for urban commute. (c) Items & prices: Coaching (₹3000→₹3600), Notebooks (₹200→₹240), Bus pass (₹800→₹900), Samosa (₹15→₹18), Mobile data (₹300→₹299). (d) CPI = Σ(p₁q₀)/Σ(p₀q₀)×100 = (40×1.2 + 15×1.2 + 20×1.125 + 15×1.2 + 10×0.997)/100 × 100 = 117.0. A poor answer uses equal weights (ignoring expenditure reality), omits justification, or computes simple average of price relatives—showing inability to apply *weighted aggregation* and *representative basket* principles.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Consumer Price Index (CPI) is a weighted index number that measures the average change over time in the retail prices of a fixed basket of goods and services typically consumed by a specific population group (e.g., industrial workers, ______ labourers, urban non-manual employees), using base-year consumption expenditure patterns as weights to reflect the cost of living for that group.",
+     "a": "agricultural",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family's monthly grocery bill was ₹8,000 in 2020 but the same items cost ₹10,400 in 2024—how would you prove to your employer that your salary needs a 30% raise just to ______ the same standard of living?",
+     "a": "maintain",
+     "self_check": true
+    },
+    {
+     "q": "What is Consumer Price Index (CPI)? State the definition given in this lesson.",
+     "a": "Consumer Price Index (CPI) is a weighted index number that measures the average change over time in the retail prices of a fixed basket of goods and services typically consumed by a specific population group (e.g., industrial workers, agricultural labourers, urban non-manual employees), using base-year consumption expenditure patterns as.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Consumer Price Index (CPI)?",
+     "a": "Students believe CPI measures \"general inflation\" for the *entire economy* and that a single CPI number applies to everyone.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Explain the step-by-step construction of CPI including selection of base year, commodity basket, price collection, weighting diagram, and formula choice; (2) Calculate CPI using Laspeyres formula given price and quantity data for base and current periods; (3) Interpret CPI values to compute inflation rate.",
+     "self_check": true
     }
    ]
   }

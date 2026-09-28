@@ -34,6 +34,31 @@
      "q": "Create your own simple cryptarithm using two 2-digit numbers that sum to a 3-digit number, with a unique solution. Explain how you ensured uniqueness.",
      "a": "A good example: AB + BA = 132 where A and B are distinct. This gives 11A + 11B = 132, so A + B = 12. Pairs: (3,9), (4,8), (5,7), (7,5), (8,4), (9,3). To ensure uniqueness, add a constraint like \"A > B\" which gives (9,3), (8,4), (7,5) — still not unique. Better: specify \"A is odd\" giving (9,3) and (7,5) — still two. Specify \"B is a perfect square\" giving (9,9) — not distinct. A truly unique puzzle needs tighter constraints or more columns. A poor answer that creates a puzzle with multiple solutions reveals the student has not verified uniqueness by checking all digit combinations.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A cryptarithm is a mathematical puzzle where digits in an arithmetic operation (addition, subtraction, ______, division) are replaced by letters or symbols; each letter represents a unique digit (0-9), and the same letter always represents the same digit throughout the puzzle.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive a coded message: SEND + MORE = ______.",
+     "a": "MONEY",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now look at the thousands column: S + E + carry = O + ______ × (carry to ten-thousands).",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can solve a 2-3 digit cryptarithm by setting up column-wise equations, identifying forced digits (leading digits cannot be zero, single-letter columns give direct values), tracking carries, and using the uniqueness constraint (each letter maps to a distinct digit) to eliminate impossibilities and arrive at the unique solution.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you receive a coded message: SEND + MORE = MONEY.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

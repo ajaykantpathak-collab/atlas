@@ -271,9 +271,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "t1 = 25 / 5"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c7m3.5.2",
@@ -316,9 +314,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = 3 + 6 + 2"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c7m3.5.3",
@@ -362,10 +358,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = sum((38, 29, 32, 40, 16))",
-    "mean = total / 5"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c7m3.6.1",

@@ -34,6 +34,31 @@
      "q": "Design a real-life latent learning scenario for a Class 11 student that does NOT involve mazes or rats. Specify: (a) the exploration phase (no reinforcement), (b) the incentive introduction, (c) the predicted performance jump, and (d) why this demonstrates a cognitive map, not habit.",
      "a": "(a) A student cycles to school daily via the main road, casually noticing side lanes and shortcuts but never using them (no reinforcement for shortcuts). (b) One day, the main road is flooded (incentive: avoid delay). (c) The student immediately takes a shortcut through side lanes, reaching school faster. (d) This shows a cognitive map because the student *flexibly recombines* known paths into a novel route — not a fixed habit chain. A poor answer describes rote memorisation of one shortcut, missing the *generative* nature of map-based navigation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Latent learning is a form of cognitive learning in which an organism acquires knowledge about its environment (e.g., a spatial layout) without any immediate reinforcement or overt behavioural change; this learning remains hidden (\"latent\") until a motivating incentive (reinforcement) is introduced, at which point the learned behaviour is rapidly ______.",
+     "a": "demonstrated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you walk through a new ______ every day on your way to tuition, but you never stop to explore the side lanes.",
+     "a": "neighbourhood",
+     "self_check": true
+    },
+    {
+     "q": "What is Latent learning? State the definition given in this lesson.",
+     "a": "Latent learning is a form of cognitive learning in which an organism acquires knowledge about its environment (e.g., a spatial layout) without any immediate reinforcement or overt behavioural change; this learning remains hidden (\"latent\") until a motivating incentive (reinforcement) is introduced, at which point the learned behaviour is.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Latent learning?",
+     "a": "Students often confuse *latent learning* with *insight learning*, thinking both involve \"sudden understanding.\" They write: \"The rats suddenly realised the maze layout on Day 11.\" This is wrong because latent learning is *gradual and incidental* during exploration (Days 1–10); only the *performance* is sudden.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) distinguish latent learning from classical and operant conditioning by explaining the role of reinforcement in performance versus acquisition, and (2) describe Tolman's maze experiment with the two groups of rats and explain how the results support the concept of a cognitive map.",
+     "self_check": true
     }
    ]
   }

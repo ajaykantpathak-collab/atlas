@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c10_hin_ks_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c10_hin_ks_cbse_04_002",
+   "title": "c10_hin_ks_cbse_04_002",
+   "questions": [
+    {
+     "q": "पद्यांश-वार भावार्थ और अनुवाद में मूल अंतर क्या है? एक वाक्य में बताइए।",
+     "a": "**Correct answer:** अनुवाद शब्दों का शाब्दिक रूपांतरण है, जबकि भावार्थ पद्यांश के अंतर्निहित भाव, प्रसंग और भावनात्मक सार को अपनी भाषा में व्यक्त करता है।  \n**What a wrong answer reveals:** If the student says \"दोनों एक ही हैं\" or \"भावार्थ में कठिन शब्दों के अर्थ लिखते हैं\", they confuse dictionary lookup with interpretation. This is the #1 error in board exams — students write शब्दार्थ and label it भावार्थ, losing 1-2 marks per stanza.",
+     "self_check": true
+    },
+    {
+     "q": "किसी कविता के दो लगातार पद्यांशों का भावार्थ लिखते समय आप कैसे तय करेंगे कि दूसरे पद्यांश का भाव पहले से अलग है या उसी का विस्तार? समझाइए।",
+     "a": "**Correct answer:** दूसरे पद्यांश के की-वर्ड्स (संज्ञा, क्रिया, विशेषण), टोन (उदासी/उत्साह/विद्रोह), और बिंब (प्रकृति/मानवीय संबंध) में परिवर्तन देखें। यदि की-वर्ड्स बदल गए हों (जैसे पहले 'फूल' फिर 'काँटा'), टोन बदला हो (शांत → उद्वेलित), या बिंब का क्षेत्र बदला हो (बाहरी प्रकृति → आंतरिक मन) — तो भाव अलग है।  \n**What a wrong answer reveals:** If the student only compares word meanings or says \"दोनों एक ही विषय पर हैं\", they miss structural shifts. Board exams often ask \"दूसरे पद्यांश में कवि के भावों में क्या परिवर्तन आया?\" — this requires detecting *change*, not just summarizing.",
+     "self_check": true
+    },
+    {
+     "q": "नीचे दिए गए काल्पनिक पद्यांश का भावार्थ लिखिए (शब्दार्थ अलग से न लिखें):  \n\"सूखे पत्ते जब झड़ते हैं,  \nतब जड़ें मुस्कुराती हैं।\"",
+     "a": "**Steps & Answer:**  \n1. **की-वर्ड्स पहचानें:** सूखे पत्ते (पुराना/बीता), झड़ते हैं (छूटना), जड़ें (मूल/आधार), मुस्कुराती हैं (स्वीकार/आशा)।  \n2. **शाब्दिक अर्थ:** जब सूखे पत्ते गिरते हैं, जड़ें खुश होती हैं।  \n3. **प्रसंग जोड़ें:** पत्ते = बीते दुःख/पुरानी यादें; जड़ें = व्यक्ति का आंतरिक बल/संस्कार।  \n4. **भावार्थ लिखें:** \"कवि कहते हैं कि जब जीवन के कटु अनुभव (सूखे पत्ते) बीत जाते हैं, तब हमारा आंतरिक बल (जड़ें) उन्हें सहजता से स्वीकार कर नई आशा से भर जाता है — यह पीड़ा का अंत नहीं, परिपक्वता की शुरुआत है।\"  \n**What a wrong answer reveals:** Writing only \"सूखे पत्ते गिरते हैं तो जड़ें खुश होती हैं\" shows literal comprehension only. Board examiners look for the *metaphorical leap* (पत्ते→अनुभव, जड़ें→आंतरिक बल) — without it, the answer gets 0.5/2 marks.",
+     "self_check": true
+    },
+    {
+     "q": "एक कविता के पहले पद्यांश में 'सूरज' को 'मित्र' कहा गया है, जबकि तीसरे पद्यांश में वही 'सूरज' 'निर्दयी' लगता है। इस परिवर्तन का भावार्थ में विश्लेषण कैसे करेंगे? दो चरणों में बताइए।",
+     "a": "**Correct answer:**  \n**चरण 1:** दोनों पद्यांशों के की-वर्ड्स और बिंबों की तुलना करें — पहले में 'मित्र', 'गर्मी', 'ऊर्जा' जैसे सकारात्मक शब्द; तीसरे में 'निर्दयी', 'तपन', 'थकान' जैसे नकारात्मक शब्द।  \n**चरण 2:** प्रसंग परिवर्तन पहचानें — पहले पद्यांश में कवि सुबह की आशा में है (सूरज = नई शुरुआत), तीसरे में दोपहर की थकान में (सूरज = शोषण/पीड़ा)। भावार्थ में लिखें: \"कवि की मनःस्थिति बदलने से वही सूरज मित्र से शत्रु बन जाता है — यह मानवीय भावों की सापेक्षता दर्शाता है।\"  \n**What a wrong answer reveals:** Saying \"कवि का मन बदल गया\" without textual evidence (की-वर्ड्स/बिंब) gets partial marks. Board marking scheme requires *textual proof* for every emotional shift claimed.",
+     "self_check": true
+    },
+    {
+     "q": "एक छात्र ने पद्यांश का भावार्थ लिखा: \"कवि कहता है कि फूल सुंदर होते हैं और वे खुशबू देते हैं।\"  \nमूल पद्यांश: \"मुरझाए फूल भी खुशबू देते हैं,  \nटूटी डालियाँ भी छाया देती हैं।\"  \nक्या यह भावार्थ सही है? कारण सहित मूल्यांकन कीजिए।",
+     "a": "**Correct answer:** **नहीं, यह भावार्थ गलत है।**  \n**कारण:**  \n1. छात्र ने 'मुरझाए' (withered) और 'टूटी' (broken) जैसे निर्णायक विशेषणों को छोड़ दिया — ये कवि का केंद्रीय बिंब हैं।  \n2. भावार्थ में 'भी' (also) कण का भाव गायब है — कवि कह रहे हैं कि *अपूर्ण* चीज़ें भी मूल्यवान हैं, न कि सामान्य फूल/डालियाँ।  \n3. केंद्रीय संदेश (अपूर्णता में भी सार्थकता) पूरी तरह छूट गया।  \n**सही भावार्थ:** \"कवि दर्शाते हैं कि जीवन की टूटन और मुरझाहट (कठिनाइयाँ) भी दूसरों को सुगंध (स्नेह) और छाया (सहारा) दे सकती हैं — पूर्णता नहीं, अपूर्णता में ही सच्ची उदारता निहित है।\"  \n**What a wrong answer reveals:** If the student defends the answer saying \"अर्थ तो वही है\", they lack the precision to distinguish between *general statement* and *poet's specific insight* — a fatal error in 3-mark \"आशय स्पष्ट कीजिए\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "'समय' विषय पर दो पद्यांशों की एक छोटी कविता लिखिए और फिर प्रत्येक का भावार्थ अलग-अलग लिखिए। ध्यान रखें: दोनों पद्यांशों का भाव भिन्न होना चाहिए।",
+     "a": "**Expected criteria for good answer:**  \n- **Poem:** Stanza 1 about time as healer (positive), Stanza 2 about time as destroyer (negative) — clear tonal shift.  \n- **भावार्थ 1:** Captures hope/healing imagery (e.g., \"घाव भरते हैं\").  \n- **भावार्थ 2:** Captures loss/impermanence imagery (e.g., \"यादें धुंधली पड़ती हैं\").  \n- **Connection:** Student explicitly notes the contrast in a concluding line.  \n**What a poor answer reveals:** Writing two similar stanzas (both positive) or भावार्थ that are mere translations. Shows inability to *create* structural contrast — which means they can't *detect* it in board exam poems either.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

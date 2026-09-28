@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_06_006",
+   "title": "c12_app_cbse_06_006",
+   "questions": [
+    {
+     "q": "In a random experiment, a coin is tossed twice. The sample space is S = {HH, HT, TH, TT}. A student defines a random variable Y as \"the outcome of the tosses\". Is Y a valid random variable? Why or why not?",
+     "a": "No, Y is not a valid random variable. A random variable must assign a **real number** to each outcome, but \"the outcome of the tosses\" (e.g., HT) is a string/event, not a number. A correct definition would be Y = number of heads (giving values 2, 1, 1, 0) or Y = number of tails minus heads (giving -2, 0, 0, 2). A wrong answer here reveals the student confuses the *outcome* (element of sample space) with the *value of the random variable* (real number assigned to that outcome).",
+     "self_check": true
+    },
+    {
+     "q": "Two random variables X and Y are defined on the same sample space S = {1, 2, 3, 4, 5, 6} (rolling a fair die).\nX(ω) = ω (the face value)\nY(ω) = 7 - ω\nA student claims: \"Since X and Y give different values for the same outcome (e.g., X(3)=3 but Y(3)=4), they cannot be defined on the same sample space.\" Evaluate this claim.",
+     "a": "The claim is **false**. Multiple random variables can absolutely be defined on the same sample space—this is a fundamental property. X and Y are just two different functions (rules) mapping the same domain S to ℝ. For ω=3, X assigns 3, Y assigns 4; both are valid real-valued functions. A student who agrees with the claim misunderstands the definition of a function: the *domain* (sample space) can be shared, but the *rule* (assignment) differs. This is exactly what the NCERT sweater example shows (X = white count, Y = black count on same S).",
+     "self_check": true
+    },
+    {
+     "q": "A game involves drawing a card from a well-shuffled standard deck of 52 cards. You win ₹100 if it's an Ace, ₹50 if it's a King, and lose ₹20 otherwise. Define a random variable W for your net winnings. Write W as a function on the sample space by specifying its value for each *type* of outcome (you don't need to list all 52 cards). What is the range of W?",
+     "a": "Sample space can be partitioned into 3 events: A = {4 Aces}, K = {4 Kings}, O = {44 Others}.\nW(Ace) = +100, W(King) = +50, W(Other) = -20.\nRange of W = {100, 50, -20}.\nSteps: (1) Identify distinct outcome categories based on the game rules. (2) Assign the monetary value to each category. (3) Collect distinct assigned values for the range. A wrong answer (e.g., listing 52 values, or missing -20) shows the student doesn't grasp that a random variable groups outcomes by their assigned numerical value, and the range is the set of *distinct* values taken.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the experiment: \"Roll a die until a 6 appears.\" The sample space is infinite: S = {6, (1,6), (2,6), ..., (1,1,6), ...}. A student defines X = \"the number of rolls needed to get the first 6\". Is X a discrete random variable or a continuous random variable? Justify your answer using the definition of discrete random variables from the text.",
+     "a": "X is a **discrete random variable**. Its possible values are 1, 2, 3, ... (countably infinite). The NCERT text defines a discrete random variable as one taking \"distinct and countable (measurable) values\" with \"no number in between these values\". Here, X takes values 1, 2, 3,... — each distinct, countable, and no value exists between 2 and 3 rolls. A student calling it continuous confuses \"infinite possible values\" with \"uncountable/measured values\". Continuous variables (like height) take *any* value in an interval; discrete variables can have infinite but *countable* values (like number of rolls).",
+     "self_check": true
+    },
+    {
+     "q": "In the NCERT sweater example (2 black, 1 white; draw 2 with replacement), the sample space has 9 outcomes. Random variable X = number of white sweaters drawn. A student argues: \"Since there are 9 outcomes but X only takes 3 values (0, 1, 2), X is not a function because a function must have a unique output for each input, and here multiple inputs give the same output.\" Critique this reasoning.",
+     "a": "The student's reasoning is **incorrect**. A function *requires* each input to have exactly *one* output—but it *allows* multiple inputs to share the *same* output. That is the definition of a \"many-to-one\" function, which is perfectly valid. X(B1B1)=0, X(B1B2)=0, X(B2B1)=0, X(B2B2)=0 — four inputs map to 0; this is fine. The student confuses \"function\" with \"one-to-one (injective) function\". This misconception is critical because it undermines the core idea that a random variable *groups* outcomes by a numerical characteristic (like \"number of whites\").",
+     "self_check": true
+    },
+    {
+     "q": "Create your own real-world scenario (Indian context) involving a random experiment with a finite sample space. Define **two different** random variables on the same sample space. For each, specify: (a) the sample space, (b) the rule assigning numbers to outcomes, (c) the range. Ensure at least one random variable takes negative values.",
+     "a": "**Scenario:** An auto-rickshaw driver in Delhi makes 2 trips. Each trip earns ₹50 (short) or ₹120 (long) with equal chance, independent.\nSample space S = {SS, SL, LS, LL} where S=short, L=long.\nRandom Variable X = Total earnings (in ₹): X(SS)=100, X(SL)=170, X(LS)=170, X(LL)=240. Range = {100, 170, 240}.\nRandom Variable Y = Profit after ₹80 fuel cost per trip: Y = X - 160. Y(SS)=-60, Y(SL)=10, Y(LS)=10, Y(LL)=80. Range = {-60, 10, 80}.\n**Criteria for good answer:** Valid finite sample space, two distinct rules, correct ranges, at least one negative value in a range, clear notation. A poor answer uses vague rules (\"Y = profit\" without formula), misses negative values, or defines variables on different sample spaces.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

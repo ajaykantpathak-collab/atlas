@@ -21,6 +21,7 @@ Endpoints:
 from __future__ import annotations
 
 import json
+import os
 import random
 import re
 import threading
@@ -28,7 +29,7 @@ from fractions import Fraction
 from pathlib import Path
 from typing import Dict, List, Optional
 
-from fastapi import APIRouter, HTTPException, Query
+from fastapi import APIRouter, File, HTTPException, Query, UploadFile, status
 from pydantic import BaseModel, Field
 
 from backend.its.solver.ir import ir_from_dict
@@ -436,6 +437,251 @@ async def solve_deterministic(body: SolveTextRequest):
         "refusal_reason": result.refusal_reason,
         "elapsed_ms": result.audit.elapsed_ms,
     }
+
+
+# --------------------------------------------------------------------------- #
+# PHOTO-1: image input — vision model transcribes the question (extraction
+# only), the SAME deterministic pipeline answers it.  The photo never
+# bypasses the truth gates.
+# --------------------------------------------------------------------------- #
+
+_OCR_PROMPT = (
+    "Transcribe the exam question in this image exactly. Output ONLY the "
+    "question text — no commentary, no answer, no formatting. Preserve "
+    "numbers, units, and mathematical notation (write x^2, sqrt(3), "
+    "fractions as a/b). If the image contains no readable question, "
+    "output exactly: UNREADABLE")
+
+
+def _clean_llm_text(text: str) -> str:
+    """Strip thinking/reasoning blocks (gemma <thought>, qwen <think>)
+    so the pipeline never sees reasoning noise as input."""
+    text = re.sub(r"<(thought|think|reasoning)>.*?</\1>",
+                  "", text, flags=re.S | re.I)
+    text = re.sub(r"</?(thought|think|reasoning)>", "", text, flags=re.I)
+    return text.strip()
+
+
+async def _extract_question_from_image(image_bytes: bytes,
+                                       media_type: str) -> Optional[str]:
+    """Vision-LLM OCR — extraction only, never answering."""
+    import base64
+    from backend.services.llm_client import get_llm_client
+    b64 = base64.b64encode(image_bytes).decode()
+    client = get_llm_client()
+    text = await client.chat(
+        [{"role": "user", "content": [
+            {"type": "text", "text": _OCR_PROMPT},
+            {"type": "image_url",
+             "image_url": {"url": f"data:{media_type};base64,{b64}"}}]}],
+        temperature=0.0, max_tokens=800, use_cache=False,
+        model=os.environ.get("VISION_MODEL", "gemma-4-26b-a4b-it"))
+    text = _clean_llm_text(text or "")
+    if not text or "UNREADABLE" in text or "[LLM error" in text \
+            or text.lower().startswith(("sorry", "i can't", "error")):
+        return None
+    return text[:4000]
+
+
+@router.post("/solve-image")
+async def solve_image(file: UploadFile = File(...)):
+    """Photo of a question -> transcribe -> same solve pipeline."""
+    if file is None:
+        raise HTTPException(status.HTTP_422_UNPROCESSABLE_ENTITY,
+                            "image file required")
+    media = (file.content_type or "image/jpeg")
+    if not media.startswith("image/"):
+        raise HTTPException(status.HTTP_400_BAD_REQUEST,
+                            "expected an image file")
+    image_bytes = await file.read()
+    if len(image_bytes) > 8 * 1024 * 1024:
+        raise HTTPException(status.HTTP_413_REQUEST_ENTITY_TOO_LARGE,
+                            "image too large (8MB max)")
+    text = await _extract_question_from_image(image_bytes, media)
+    if not text:
+        raise HTTPException(status.HTTP_422_UNPROCESSABLE_ENTITY,
+                            "could not read a question from the image")
+    from backend.its.solver.answer_pipeline import answer as pipeline_answer
+    import asyncio as _aio
+    result = await _aio.to_thread(pipeline_answer, text)
+    verified = result.label in ("VERIFIED", "VERIFIED_WITH_ASSUMPTIONS")
+    return {
+        "extracted_text": text,
+        "tier": result.label,
+        "solved": result.label in ("VERIFIED", "VERIFIED_WITH_ASSUMPTIONS",
+                                   "VERIFIED_OFFICIAL"),
+        "stage": result.audit.lane,
+        "answer": result.answer if verified else None,
+        "numeric": result.numeric if verified else None,
+        "steps": result.steps,
+        "socratic": result.socratic,
+        "refusal_reason": result.refusal_reason,
+        "elapsed_ms": result.audit.elapsed_ms,
+    }
+
+async def _extract_steps_from_image(image_bytes: bytes,
+                                    media_type: str) -> Optional[str]:
+    """Transcribe handwritten/printed working as numbered steps."""
+    import base64
+    from backend.services.llm_client import get_llm_client
+    b64 = base64.b64encode(image_bytes).decode()
+    client = get_llm_client()
+    text = await client.chat(
+        [{"role": "user", "content": [
+            {"type": "text", "text":
+             "This is a student's handwritten/printed math or science "
+             "working. Transcribe it faithfully as numbered steps: "
+             "'Step 1: ... Step 2: ...' Preserve every number, unit and "
+             "symbol exactly. Include the question line if visible at the "
+             "top. If illegible, output 'UNREADABLE'."},
+            {"type": "image_url",
+             "image_url": {"url": f"data:{media_type};base64,{b64}"}}]}],
+        temperature=0.0, max_tokens=1200, use_cache=False,
+        model=os.environ.get("VISION_MODEL", "gemma-4-26b-a4b-it"))
+    text = _clean_llm_text(text or "")
+    if not text or "UNREADABLE" in text or "[LLM error" in text \
+            or text.lower().startswith(("sorry", "i can't", "error")):
+        return None
+    return text[:4000]
+
+
+@router.post("/grade-work")
+async def grade_work(file: UploadFile = File(...)):
+    """Step-level grading: photo of handwritten working -> transcribe steps
+    -> check each step against the canonical compute chain. Returns
+    per-step verdicts so students see WHERE it broke — mirrors CBSE
+    step marking."""
+    if file is None:
+        raise HTTPException(status.HTTP_422_UNPROCESSABLE_ENTITY,
+                            "image file required")
+    media = (file.content_type or "image/jpeg")
+    if not media.startswith("image/"):
+        raise HTTPException(status.HTTP_400_BAD_REQUEST,
+                            "expected an image file")
+    image_bytes = await file.read()
+    if len(image_bytes) > 8 * 1024 * 1024:
+        raise HTTPException(status.HTTP_413_REQUEST_ENTITY_TOO_LARGE,
+                            "image too large (8MB max)")
+    transcript = await _extract_steps_from_image(image_bytes, media)
+    if not transcript:
+        raise HTTPException(status.HTTP_422_UNPROCESSABLE_ENTITY,
+                            "could not read steps from the image")
+
+    # split into question (pre-first-step) + numbered steps
+    parts = re.split(r"(?i)\bstep\s*\d+\s*[:.\-]", transcript)
+    question = parts[0].strip() if len(parts) > 1 else transcript.strip()
+    steps = [s.strip() for s in parts[1:] if s.strip()] \
+        if len(parts) > 1 else []
+
+    # canonical path: run the question through the same pipeline
+    from backend.its.solver.answer_pipeline import answer as pipeline_answer
+    import asyncio as _aio
+    result = await _aio.to_thread(pipeline_answer, question or transcript)
+    canonical_steps = result.steps or []
+
+    # rubric-match each student step against canonical steps
+    step_verdicts = []
+    if steps and canonical_steps:
+        from backend.services.enhanced_nodes import (
+            _mp_terms, _point_covered, _grade_model)
+        model = _grade_model()
+        for i, st in enumerate(steps):
+            st_terms = _mp_terms(st)
+            best, best_sc = None, 0.0
+            for cs in canonical_steps:
+                _, sc = _point_covered(str(cs), st_terms, [st], model)
+                if sc > best_sc:
+                    best, best_sc = str(cs), sc
+            step_verdicts.append({
+                "step": i + 1,
+                "text": st,
+                "matches_canonical": best if best_sc >= 0.35 else None,
+                "score": round(best_sc, 3),
+                "ok": best_sc >= 0.35,
+            })
+    n_ok = sum(1 for s in step_verdicts if s["ok"])
+    return {
+        "tier": "STEP_FEEDBACK",
+        "question": question,
+        "transcript": transcript,
+        "steps": step_verdicts,
+        "steps_ok": n_ok,
+        "steps_total": len(step_verdicts),
+        "solve_tier": result.label,
+        "canonical_answer": result.answer
+        if result.label.startswith("VERIFIED") else None,
+        "canonical_steps": canonical_steps,
+        "verdict": ("correct" if step_verdicts and n_ok == len(step_verdicts)
+                    else "partial" if n_ok else "incorrect"),
+    }
+
+
+@router.post("/solve-voice")
+async def solve_voice(file: UploadFile = File(...)):
+    """Voice doubt -> transcription -> same deterministic pipeline.
+    Spoken questions (esp. Hindi/Hinglish) reach the solver without
+    typing — the audio is transcribed, never answered by the LLM."""
+    if file is None:
+        raise HTTPException(status.HTTP_422_UNPROCESSABLE_ENTITY,
+                            "audio file required")
+    media = (file.content_type or "audio/webm").split(";")[0]
+    audio = await file.read()
+    if len(audio) > 20 * 1024 * 1024:
+        raise HTTPException(status.HTTP_413_REQUEST_ENTITY_TOO_LARGE,
+                            "audio too large (20MB max)")
+    import base64
+    from backend.services.llm_client import get_llm_client
+    b64 = base64.b64encode(audio).decode()
+    client = get_llm_client()
+    text = await client.chat(
+        [{"role": "user", "content": [
+            {"type": "text", "text":
+             "Transcribe this student's spoken question verbatim. "
+             "Preserve numbers, units and symbols exactly. Output only "
+             "the question text — no commentary. If unintelligible, "
+             "output 'UNINTELLIGIBLE'."},
+            {"type": "input_audio",
+             "input_audio": {"data": b64,
+                             "format": media.split("/")[-1]}}]}],
+        temperature=0.0, max_tokens=400, use_cache=False,
+        model=os.environ.get("AUDIO_MODEL", "gemini-flash-latest"))
+    text = _clean_llm_text(text or "")
+    if not text or "UNINTELLIGIBLE" in text or "[LLM error" in text:
+        raise HTTPException(status.HTTP_422_UNPROCESSABLE_ENTITY,
+                            "could not transcribe the audio")
+    from backend.its.solver.answer_pipeline import answer as pipeline_answer
+    import asyncio as _aio
+    result = await _aio.to_thread(pipeline_answer, text)
+    verified = result.label in ("VERIFIED", "VERIFIED_WITH_ASSUMPTIONS")
+    return {
+        "transcribed_text": text,
+        "tier": result.label,
+        "solved": result.label in ("VERIFIED", "VERIFIED_WITH_ASSUMPTIONS",
+                                   "VERIFIED_OFFICIAL"),
+        "answer": result.answer if verified else None,
+        "numeric": result.numeric if verified else None,
+        "steps": result.steps,
+        "socratic": result.socratic,
+        "refusal_reason": result.refusal_reason,
+    }
+
+
+@router.get("/queue")
+async def answer_queue(limit: int = Query(100, ge=1, le=1000)):
+    """Unanswered-question review queue (QUEUE-1): every solve request that
+    returned no verified/authored answer, newest first.  The offline
+    promotion path reads this to grow coverage where students actually ask."""
+    from backend.its.solver.answer_pipeline import _queue_path
+    path = _queue_path()
+    try:
+        with open(path, encoding="utf-8") as fh:
+            lines = fh.readlines()
+    except OSError:
+        return {"items": [], "total": 0}
+    items = [json.loads(l) for l in lines[-limit:] if l.strip()]
+    items.reverse()
+    return {"items": items, "total": len(lines)}
+
 
 # --------------------------------------------------------------------------- #
 # Lane C: student-bound execution.  The student assigns roles to the

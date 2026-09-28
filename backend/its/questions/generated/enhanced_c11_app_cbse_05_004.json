@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_05_004",
+   "title": "c11_app_cbse_05_004",
+   "questions": [
+    {
+     "q": "State Property (iii) of an A.P. precisely: If each term of an A.P. is multiplied by a non-zero constant k, what happens to the common difference? Give the new common difference in terms of the original d and k.",
+     "a": "**Correct Answer:** The resulting sequence is also an A.P. with common difference k·d.  \n**Why wrong answers reveal misunderstanding:** If a student says \"common difference remains d\", they confuse multiplication with addition (Property i). If they say \"common difference becomes d/k\", they confuse multiplication with division (Property iv). This tests precise recall of the scaling effect — a board-exam staple.",
+     "self_check": true
+    },
+    {
+     "q": "The nth term of a sequence is given by aₙ = 3n² + 2n - 1. A student claims it is an A.P. because \"it has a formula in n\". Explain why this reasoning is flawed using Property (v). What specific condition must the nth term satisfy to be an A.P.?",
+     "a": "**Correct Answer:** Property (v) states a sequence is an A.P. **iff** its nth term is a **linear** expression in n, i.e., aₙ = An + B (degree 1 polynomial). Here aₙ = 3n² + 2n - 1 is quadratic (degree 2), so differences aₙ₊₁ - aₙ = 6n + 5 are not constant — they depend on n. The student’s error: assuming *any* formula in n implies A.P., missing the **linearity** requirement.  \n**Why wrong answers reveal misunderstanding:** If a student says \"it's an A.P. because it has a pattern\", they lack the precise algebraic criterion (linear in n). If they say \"common difference is not constant\" but cannot link to degree of polynomial, they miss the structural reason.",
+     "self_check": true
+    },
+    {
+     "q": "In a finite A.P. with 15 terms, the 4th term is 14 and the 12th term is 38. Without finding the first term or common difference, find the sum of the 7th and 9th terms. Which property do you use?",
+     "a": "**Correct Answer:** Sum = 52. Property used: (vi) — In a finite A.P., sum of terms equidistant from beginning and end is constant and equals a₁ + a₁₅.  \n**Steps:** Terms equidistant from ends: a₄ + a₁₂ = a₇ + a₉ = a₁ + a₁₅. Given a₄ = 14, a₁₂ = 38 → a₄ + a₁₂ = 52. Therefore a₇ + a₉ = 52.  \n**Why wrong answers reveal misunderstanding:** If a student tries to find a and d first (solving a+3d=14, a+11d=38), they miss the elegant symmetry property. If they say a₇ + a₉ = a₄ + a₁₂ but compute 14+38=42 (arithmetic error), it's carelessness. If they don't recognize equidistant pairs (4 & 12, 7 & 9 are both 3 steps from center), they don't grasp the structural symmetry.",
+     "self_check": true
+    },
+    {
+     "q": "Two A.P.s have the same first term a. The first has common difference d₁, the second d₂. A new sequence is formed by adding corresponding terms: (a+a), (a+d₁ + a+d₂), (a+2d₁ + a+2d₂), ... Is this new sequence an A.P.? If yes, what is its common difference? Justify using properties.",
+     "a": "**Correct Answer:** Yes, it is an A.P. with common difference d₁ + d₂.  \n**Justification:** Let first A.P. be a, a+d₁, a+2d₁,... (Property v: aₙ = a + (n-1)d₁). Second: a, a+d₂, a+2d₂,... (aₙ = a + (n-1)d₂). Sum of corresponding terms: 2a, 2a+(d₁+d₂), 2a+2(d₁+d₂),... This is of the form A + (n-1)D with A=2a, D=d₁+d₂ → linear in n → A.P. by Property (v). Alternatively, use Property (i) twice: adding two A.P.s term-wise is like adding a constant sequence (which is A.P. with d=0) repeatedly — but the direct linearity argument is cleaner.  \n**Why wrong answers reveal misunderstanding:** If a student says \"common difference is d₁·d₂\" or \"not an A.P. because first term changed\", they don't see that term-wise addition preserves linearity. If they say \"first term is 2a so it's not same A.P.\", they confuse \"same A.P.\" with \"is an A.P.\".",
+     "self_check": true
+    },
+    {
+     "q": "A textbook states: \"If each term of an A.P. is divided by a non-zero constant k, the new common difference is d/k.\" A student argues: \"But if k = -2 and d = 6, new d = -3. The sequence becomes decreasing even though original was increasing. Is that allowed?\" Evaluate the student's concern. Is the textbook correct? Explain the role of the sign of k.",
+     "a": "**Correct Answer:** The textbook is **correct**. The student's concern is based on a misconception: **an A.P. can be increasing, decreasing, or constant — the sign of d determines this**. Dividing by negative k flips the sign of d, reversing the order (increasing ↔ decreasing), but the sequence **remains an A.P.** Property (iv) holds for *any* non-zero constant k (positive or negative). The definition of A.P. only requires constant difference, not positive difference.  \n**Why wrong answers reveal misunderstanding:** If a student agrees with the student (\"not allowed because sequence becomes decreasing\"), they think A.P. must be increasing (Class 10 hangover). If they say \"textbook wrong for negative k\", they miss that properties hold for all non-zero real constants. This tests deep understanding of the definition vs. properties.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where **Property (vii)** — \"terms chosen at regular intervals from an A.P. form an A.P.\" — is naturally used. Define the original A.P., the interval, and the resulting A.P. with its common difference. Make it non-trivial (not just \"every 2nd term\").",
+     "a": "**Expected Answer (criteria for good answer):**  \n- Scenario must be realistic (e.g., Delhi Metro train stops, salary increments, loan EMI dates, crop harvest cycles).  \n- Original A.P. clearly defined (first term, common difference).  \n- Interval k > 1 clearly stated (e.g., every 3rd term).  \n- Resulting A.P. identified with new common difference = k·d (derived from Property iii/vii).  \n- Example: \"A farmer plants trees every 4m along a 100m road (positions: 4, 8, 12,..., 100 — A.P. with a=4, d=4). He decides to water only every 3rd tree (positions: 12, 24, 36,..., 96). This is an A.P. with a=12, d=12 = 3×4.\"  \n**Why poor answers reveal misunderstanding:** If interval k=1 (trivial), they didn't engage with \"regular intervals\". If new d ≠ k·d, they missed the scaling. If scenario is abstract (\"take every 2nd term of 1,2,3...\"), they can't contextualize — a key applied math skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

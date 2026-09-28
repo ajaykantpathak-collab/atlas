@@ -20,7 +20,7 @@
     "translate the word problem into a system of two linear equations",
     "express the given real life situation as linear equations"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,16 @@
      "action": "Verify the pair of equations captures all constraints",
      "explain": "Check that both equations together represent every condition stated in the word problem."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 3 + 9 gives 18",
+     "compute": "val = 3 * 3 + 9"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.3.2.1",
@@ -54,7 +63,7 @@
     "check if the system of equations has unique, infinitely many, or no solutions",
     "examine the ratio of coefficients to classify the pair of lines"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -71,7 +80,16 @@
      "action": "Classify the system as consistent or inconsistent",
      "explain": "Conclude whether the pair has a unique solution, infinitely many solutions, or no solution based on the ratio comparison."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 8 / 4 gives 2",
+     "compute": "t1 = 8 / 4"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.3.2.2",
@@ -88,7 +106,7 @@
     "graph the linear equations and find their common point",
     "check graphically if the given pair of equations has a solution"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -105,7 +123,16 @@
      "action": "Verify the intersection point satisfies both equations",
      "explain": "Substitute the intersection coordinates back into both original equations to confirm they hold true."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 3 gives 3",
+     "compute": "lines = 3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.3.3.1",
@@ -122,7 +149,7 @@
     "apply substitution method to solve the equations",
     "determine x and y by expressing one variable in terms of another"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -139,7 +166,16 @@
      "action": "Solve for the single variable and back-substitute",
      "explain": "Find value of first variable, then substitute back to find the second variable."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (16 - 8) / 2 gives 4",
+     "compute": "x = (16 - 8) / 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.3.3.2",
@@ -156,7 +192,7 @@
     "apply elimination technique to solve the given pair of equations",
     "use elimination by equating coefficients to solve for variables"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -173,7 +209,16 @@
      "action": "Solve for the variable and substitute back",
      "explain": "Calculate value of the remaining variable and substitute into an original equation to find the other."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (23 - 5) / 9 gives 2",
+     "compute": "x = (23 - 5) / 9"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.3.3.3",

@@ -34,6 +34,31 @@
      "q": "Create a supply schedule for a hypothetical vegetable vendor in a Delhi weekly market who sells tomatoes. Assume the vendor can source tomatoes from three farms with increasing transport costs: Farm A (local, 100 kg at ₹20/kg), Farm B (50 km, 150 kg at ₹25/kg), Farm C (100 km, 200 kg at ₹35/kg). The vendor sells at the market price. Show the schedule and explain the step-wise shape.",
      "a": "Supply Schedule: Price (₹/kg) | Qty Supplied (kg) — Below 20 | 0; 20–24 | 100 (only Farm A); 25–34 | 250 (Farms A+B); 35+ | 450 (All three). The step-wise shape occurs because each farm has a minimum price (reservation price) covering its marginal cost (production + transport). The vendor adds sources sequentially as price rises. A poor answer (smooth linear schedule) reveals the student assumes continuous marginal cost increase, not discrete supply sources with fixed capacities — a common error when ignoring real-world supply chain constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Supply refers to the quantity of a good or service that ______ are willing and able to offer for sale at various possible prices during a given period, assuming all other factors remain constant.",
+     "a": "producers",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you run a small mango farm near Ratnagiri, Maharashtra.",
+     "a": "Imagine",
+     "self_check": true
+    },
+    {
+     "q": "What is Supply? State the definition given in this lesson.",
+     "a": "Supply refers to the quantity of a good or service that producers are willing and able to offer for sale at various possible prices during a given period, assuming all other factors remain constant.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Supply?",
+     "a": "Students often believe \"supply increases when price increases\" means the *supply curve shifts right* when price rises.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the law of supply using a supply schedule and distinguish between a change in quantity supplied (movement along the curve) and a change in supply (shift of the curve).",
+     "self_check": true
     }
    ]
   }

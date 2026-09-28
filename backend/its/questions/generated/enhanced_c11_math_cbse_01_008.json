@@ -34,6 +34,21 @@
      "q": "Create a real-world scenario involving three categories (e.g., students taking subjects, people with skills, items with features) that would require a 3-set Venn diagram with exactly 5 non-empty regions out of 8 possible regions. Describe the scenario, define the sets, and specify which 3 regions are empty and why.",
      "a": "Scenario: A school offers three clubs: Robotics (R), Debate (D), and Chess (C). Rule: Robotics club meets same time as Debate, so no student can be in both. All Chess members must also be in Robotics (C ⊂ R). Sets: R, D, C. Empty regions: (1) R∩D (time conflict), (2) R∩D∩C (impossible since R∩D empty), (3) D∩C (since C⊂R, C∩D ⊂ R∩D = ∅). Non-empty: R only, D only, C only (but C only = ∅ since C⊂R), R∩C (which is C), and outside all. Wait - C only is empty because C⊂R. So non-empty: R only, D only, R∩C, outside. That's 4. Let me adjust: C not subset of R. Better scenario: Students studying Physics (P), Chemistry (C), Biology (B). Medical students must take all three (P∩C∩B non-empty). Engineering students take P and C but not B (P∩C∩B' non-empty). Pure science take P only, C only, B only. No one takes C and B without P (C∩B∩P' = ∅). No one takes only P and B without C (P∩B∩C' = ∅). Empty regions: C∩B∩P', P∩B∩C', and outside all (if all students take at least one). A poor answer with arbitrary empty regions reveals inability to connect real constraints to set logic.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Venn diagram is a graphical ______ of sets using closed curves (usually circles) within a rectangle, where the rectangle represents the universal set U and each closed curve represents a subset; elements belonging to a set are placed inside its corresponding curve, and the spatial relationships between curves (overlap, containment, separation) visually encode set relationships such as intersection, union, subset, and disjointness.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You have three ______: Decoration (D), Food (F), and Music (M).",
+     "a": "committees",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly draw and interpret Venn diagrams for up to three sets, accurately placing elements in all regions (including intersections and complements), and can translate between set-builder/roster descriptions, verbal statements, and Venn diagram representations without error.",
+     "self_check": true
     }
    ]
   }

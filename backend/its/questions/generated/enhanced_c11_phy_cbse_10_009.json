@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using household items to demonstrate that boiling point of water decreases with reduced pressure. List materials, procedure, and expected observation.",
      "a": "Materials: Syringe (50 mL), water at room temperature, hot water bath (optional).\nProcedure: Fill syringe with ~10 mL water, seal tip. Pull plunger back to create low pressure. Observe boiling at room temperature. Alternatively, boil water in a flask, seal, invert, pour cold water on flask — water boils again at lower temperature due to condensed vapour reducing pressure.\nExpected: Vigorous bubbling (boiling) occurs well below 100°C when pressure is reduced.\nA poor answer (e.g., \"heat water on stove\") shows inability to manipulate pressure variable and confusion between heating and pressure effects.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Change of state is a physical process where matter ______ between solid, liquid, and gas phases due to heat exchange at constant temperature and pressure.",
+     "a": "transitions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe an ice cube melting in a glass of water at room temperature — the ice stays at 0°C until fully melted, even though the ______ are warmer.",
+     "a": "surroundings",
+     "self_check": true
+    },
+    {
+     "q": "What is Change of state? State the definition given in this lesson.",
+     "a": "Change of state is a physical process where matter transitions between solid, liquid, and gas phases due to heat exchange at constant temperature and pressure.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe an ice cube melting in a glass of water at room temperature — the ice stays at ______°C until fully melted, even though the surroundings are warmer.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Change of state?",
+     "a": "Students believe \"boiling point of water is always 100°C\" and \"melting point of ice is always 0°C\" as absolute constants, not understanding these are values at standard atmospheric pressure only.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) explain why temperature remains constant during melting/boiling using molecular energy arguments, (2) predict how melting/boiling points change with pressure using the phase diagram, (3) describe regelation and its everyday examples (skating, wire through ice), and (4) calculate heat required for phase change using Q.",
+     "self_check": true
     }
    ]
   }

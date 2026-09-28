@@ -34,6 +34,31 @@
      "q": "Create a real-world scenario involving three categorical groups and two numerical variables where a multiple bar diagram is clearly superior to both simple and component bar diagrams. Provide the data table and sketch a rough diagram description explaining why the other two types would fail.",
      "a": "Scenario: Comparing male and female literacy rates (two variables) across four states (four categories). Data: State 1: M=80%, F=60%; State 2: M=75%, F=70%; State 3: M=90%, F=85%; State 4: M=65%, F=50%. Multiple bar diagram places male/female bars side-by-side per state, enabling direct gender gap comparison within each state and cross-state comparison for each gender. Simple bar diagram would require two separate diagrams (losing direct comparison). Component bar diagram would stack male+female, but literacy rates are not parts of a whole (they don't sum to 100%), making stacking meaningless. A scenario where variables sum to a total (like expenses) would be a poor answer, as that suits component diagrams.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Bar diagrams are one-dimensional geometric diagrams where rectangular bars of equal width represent data values through their height/length, with simple bar diagrams showing single variables per category, multiple bar diagrams comparing two or more variables across identical categories, and component bar diagrams (stacked bars) displaying the composition of a total by subdividing each bar into ______ segments representing component parts.",
+     "a": "proportional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're analyzing your family's monthly ______ for the past three months: you have categories (Food, Rent, Transport, Education) and want to compare both the total spending each month AND how the composition changes.",
+     "a": "expenditure",
+     "self_check": true
+    },
+    {
+     "q": "What is Bar diagrams? State the definition given in this lesson.",
+     "a": "Bar diagrams are one-dimensional geometric diagrams where rectangular bars of equal width represent data values through their height/length, with simple bar diagrams showing single variables per category, multiple bar diagrams comparing two or more variables across identical categories, and component bar diagrams (stacked bars).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Bar diagrams?",
+     "a": "Students believe component bar diagrams can be used for ANY multiple-variable data, not realizing they require the variables to be mutually exclusive components that sum to a meaningful total (e.g., expenditure categories summing to total expenditure).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently construct accurate simple, multiple, and component bar diagrams from raw data tables, choose the appropriate diagram type for a given comparison objective, and interpret all three diagram types to answer quantitative questions about magnitudes, comparisons, and part-to-whole relationships.",
+     "self_check": true
     }
    ]
   }

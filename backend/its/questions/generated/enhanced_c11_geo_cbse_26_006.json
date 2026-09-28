@@ -34,6 +34,26 @@
      "q": "Design a 1988-era proposal for a state agricultural department to use IRS-1A data for kharif crop acreage estimation. Specify: (a) which sensor (LISS-I or LISS-II), (b) optimal acquisition window (month), (c) interpretation method (visual/digital), and (d) one limitation they must accept. Justify each choice using sensor specs and crop calendar.",
      "a": "(a) LISS-II (36.25 m) — typical kharif fields (rice, cotton, millets) are 1–5 ha; LISS-I's 72.5 m cannot resolve field boundaries. (b) September–October — peak vegetative growth for kharif crops, maximum spectral contrast between crop types in red/NIR bands, minimal cloud cover post-monsoon. (c) Visual interpretation on FCC (False Colour Composite: Band 4→Red, Band 3→Green, Band 2→Blue) — 1988 computing infrastructure limited digital processing; FCC shows healthy kharif crops in bright red, fallow in light blue, water in dark blue. (d) Limitation: 22-day revisit cycle means cloud cover during critical growth stages may cause data gaps — no daily monitoring like geostationary. A poor proposal choosing LISS-I for \"wider coverage\" or suggesting digital classification without acknowledging 1988 hardware limits shows the student cannot match sensor capability to user context and historical constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Indian Remote Sensing (IRS) Programme is India's indigenous series of Earth observation satellites operating in sun-synchronous polar orbits (700–900 km altitude) that carry ______ sensors (LISS-I, LISS-II, LISS-III, PAN) to acquire digital imagery of the Earth's surface for natural resource management, agricultural monitoring, and disaster assessment.",
+     "a": "multispectral",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by showing students a side-by-side comparison of a 1979 Bhaskar-1 image (coarse, experimental) and a modern IRS Resourcesat-2 image (sharp, ______) of the same region — perhaps the Indira Gandhi Canal in Rajasthan.",
+     "a": "multispectral",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ask: \"What technological leap allowed India to go from blurry experimental pictures to precise crop mapping in three decades?\" Guide them to trace the sequence: Bhaskar proved India could build and launch Earth-observation satellites; IRS-______A operationalised it with two pushbroom sensors (LISS-I, LISS-II) in sun-synchronous orbit ensuring same local solar time for consistent illumination.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the evolutionary sequence of IRS satellites from Bhaskar to IRS-1A, compare the sensor specifications (spatial resolution, spectral bands, swath) of LISS-I and LISS-II, and justify why sun-synchronous orbit at 700–900 km is optimal for repetitive Earth resource monitoring compared to geostationary satellites.",
+     "self_check": true
     }
    ]
   }

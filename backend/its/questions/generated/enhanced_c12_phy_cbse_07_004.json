@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a capacitor, a variable-frequency AC source (e.g., a function generator), an ammeter, and a voltmeter to verify that capacitive reactance is inversely proportional to frequency. Describe the procedure, measurements, and how you would analyze the data.",
      "a": "Connect the capacitor in series with the ammeter across the function generator; connect the voltmeter in parallel with the capacitor. Set the generator to a fixed voltage amplitude (e.g., 5 V peak). Vary frequency (e.g., 100 Hz, 200 Hz, 500 Hz, 1 kHz, 2 kHz) and record rms current at each frequency. Calculate X_C = V_rms / I_rms for each f. Plot X_C vs 1/f; a straight line through origin confirms X_C ∝ 1/f. A poor answer would omit controlling voltage amplitude or not plotting to verify proportionality.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Capacitive reactance (X_C) is the opposition offered by a pure capacitor to the flow of ______ current, measured in ohms (Ω).",
+     "a": "alternating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan’s ______ (a small black box) — it helps the single-phase motor start by creating a phase shift.",
+     "a": "capacitor",
+     "self_check": true
+    },
+    {
+     "q": "What is Capacitive reactance (X_C)? State the definition given in this lesson.",
+     "a": "Capacitive reactance (X_C) is the opposition offered by a pure capacitor to the flow of alternating current, measured in ohms (Ω).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Differentiate v to get i = ωC v_m cos(ωt) = ωC v_m sin(ωt + π/______).",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Capacitive reactance (X_C)?",
+     "a": "Students often think that because the average power in a pure capacitor is zero, the capacitor “does not draw any current” or “the current is wattless so it’s not real.” They confuse zero *average* power with zero *instantaneous* current.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) calculate capacitive reactance for given C and f, (2) determine the rms and peak current in a pure capacitive circuit using V = I X_C, (3) draw the phasor diagram showing current leading voltage by 90°, and (4) explain why the average power consumed is zero despite non-zero current.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a locational decision matrix for a new 5 MTPA integrated steel plant in India. Choose four criteria (with weights), score two candidate sites (one inland near ore/coal, one coastal), and justify your final choice in 3 sentences.",
      "a": "Criteria & weights: Raw material access (30%), Infrastructure (rail/port/power) (25%), Market access (20%), Environmental compliance ease (15%), Land cost (10%).\nSite A (Inland, e.g., Latehar, Jharkhand): Ore/coal proximity = 9, Infra = 5, Market = 6, Env = 4, Land = 8 → Weighted = 6.55.\nSite B (Coastal, e.g., Dhamra, Odisha): Ore/coal proximity = 6 (pipeline/rail), Infra = 9 (port), Market = 9 (export), Env = 7, Land = 5 → Weighted = 7.25.\nChoose Site B because coastal location enables imported coking coal, export competitiveness, and better infrastructure — aligning with India's current steel policy direction. A poor answer uses equal weights or ignores imported coal reality.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The iron and steel industry is a mineral-based heavy industry that uses iron ore, coking coal, and ______ as primary raw materials to produce pig iron, crude steel, and finished steel products.",
+     "a": "limestone",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ goods wagon passing through your town — it carries steel rails made in Bhilai or Bokaro.",
+     "a": "railway",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the locational factors for any given iron and steel plant in India using a map, calculate the approximate raw material ratio (iron ore : coal : limestone) for a hypothetical production target, and evaluate why the Chotanagpur plateau hosts the maximum concentration of integrated steel plants despite.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a railway goods wagon passing through your town — it carries steel rails made in Bhilai or Bokaro.",
+     "a": "Observe",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Create a real-world problem where a carpenter needs to verify a rectangular frame has equal diagonals without a measuring tape long enough to reach across. Describe the geometric reasoning they would use.",
      "a": "Problem: A carpenter builds a rectangular door frame 210 cm tall and 90 cm wide. Their measuring tape is only 150 cm long, too short to measure the diagonal directly. They can verify the frame is rectangular by measuring both diagonals with a string: cut a string to match diagonal AC, then check if it exactly matches diagonal BD. If equal, the frame is rectangular (converse of the theorem). Geometric reasoning: In a quadrilateral, if diagonals are equal AND it has right angles (checked with a carpenter's square), it must be a rectangle. A poor answer would just say \"measure the sides\" without using the diagonal property, or would not explain why equal diagonals + right angles guarantees a rectangle.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This is proven by showing that the two triangles formed by one diagonal are congruent to the two triangles formed by the other diagonal using the SAS (Side-Angle-Side) ______ criterion, since opposite sides of a rectangle are equal and all angles are right angles.",
+     "a": "congruence",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a ______ frame for a window grill using metal rods.",
+     "a": "rectangular",
+     "self_check": true
+    },
+    {
+     "q": "What is In a rectangle, the two diagonals? State the definition given in this lesson.",
+     "a": "In a rectangle, the two diagonals are equal in length.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Write down the three pairs of equal parts: AB = DC (opposite sides), ∠ABC = ∠DCB = ______° (rectangle property), and BC = CB (common side).",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about In a rectangle, the two diagonals?",
+     "a": "Students often write the congruence statement with incorrect vertex order, such as ΔABC ≅ ΔDCB (correct) vs ΔABC ≅ ΔBCD (incorrect).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently construct a step-by-step geometric proof that the diagonals of a rectangle are equal, correctly identifying the congruent triangles, stating the congruence criterion used (SAS or RHS), and justifying each pair of equal sides/angles using rectangle properties.",
+     "self_check": true
     }
    ]
   }

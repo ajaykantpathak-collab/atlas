@@ -34,6 +34,31 @@
      "q": "Draw or describe two different irregular 4-sided polygons (quadrilaterals) that are NOT congruent to each other, yet both have a total perimeter of $20\\text{ cm}$.",
      "a": "The expected response should describe two quadrilaterals with different side length combinations that add up to $20\\text{ cm}$, such as one with sides $4\\text{ cm}, 5\\text{ cm}, 6\\text{ cm}, 5\\text{ cm}$ and another with sides $2\\text{ cm}, 8\\text{ cm}, 2\\text{ cm}, 8\\text{ cm}$. A poor answer would provide two shapes with the same side lengths rearranged, which would actually make them congruent, failing to understand that different shapes can share a perimeter without being congruent.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Congruent figures are geometric shapes that have the exact same shape and the exact same size, meaning one can be placed precisely over the other so that they cover each other completely through rigid ______ like translation, rotation, or reflection.",
+     "a": "transformations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you buy two ______ brand-new exercise notebooks from a stationery shop in your market for ₹40 each.",
+     "a": "identical",
+     "self_check": true
+    },
+    {
+     "q": "What is Congruent figures? State the definition given in this lesson.",
+     "a": "Congruent figures are geometric shapes that have the exact same shape and the exact same size, meaning one can be placed precisely over the other so that they cover each other completely through rigid transformations like translation, rotation, or reflection.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Congruent figures?",
+     "a": "Students often confuse \"similar\" figures with \"congruent\" figures, assuming that if two objects look alike (like a small photo and a large poster of the same picture), they are congruent.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify whether two given 2D or 3D figures are congruent by comparing their corresponding side lengths and angle measures, and can explain why tracing and superimposing shapes demonstrates congruence.",
+     "self_check": true
     }
    ]
   }

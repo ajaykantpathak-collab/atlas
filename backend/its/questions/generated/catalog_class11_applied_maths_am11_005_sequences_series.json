@@ -5,6 +5,8 @@
    "id": "am11_005.1",
    "title": "General Term of an Arithmetic Progression",
    "converted_to_compute": false,
+   "formula": "a_n = a + (n - 1) * d",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 10th term of the AP with first term 4 and common difference 5.",
@@ -42,6 +44,8 @@
    "id": "am11_005.2",
    "title": "Number of Terms of an AP",
    "converted_to_compute": false,
+   "formula": "n_terms = (l - a) / d + 1",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 11th term of the AP with first term 6 and common difference 9.",
@@ -79,6 +83,8 @@
    "id": "am11_005.3",
    "title": "Sum of n Terms of an AP",
    "converted_to_compute": false,
+   "formula": "s_n = n * (2 * a + (n - 1) * d) / 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 12th term of the AP with first term 6 and common difference 4.",
@@ -116,6 +122,8 @@
    "id": "am11_005.4",
    "title": "Arithmetic Mean and Inserting Means",
    "converted_to_compute": false,
+   "formula": "a_mean = (a + b) / 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 14th term of the AP with first term 3 and common difference 6.",
@@ -152,15 +160,9 @@
   {
    "id": "am11_005.5",
    "title": "Properties of an AP",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the AP/GP term or sum formula",
-     "explain": "apply the AP/GP term or sum formula: an = 7 + (13 - 1) * 5 gives 67",
-     "compute": "an = 7 + (13 - 1) * 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "b_in_ap = (a + c) / 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 13th term of the AP with first term 7 and common difference 5.",
@@ -198,6 +200,8 @@
    "id": "am11_005.6",
    "title": "General Term of a GP",
    "converted_to_compute": false,
+   "formula": "a_n = a * r**(n - 1)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 15th term of the AP with first term 3 and common difference 3.",
@@ -235,6 +239,8 @@
    "id": "am11_005.7",
    "title": "Sum of n Terms of a GP",
    "converted_to_compute": false,
+   "formula": "s_n = a * (r**n - 1) / (r - 1)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 6th term of the AP with first term 6 and common difference 8.",
@@ -272,6 +278,8 @@
    "id": "am11_005.8",
    "title": "Geometric Mean",
    "converted_to_compute": false,
+   "formula": "g_mean = sqrt(a * b)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 8th term of the AP with first term 4 and common difference 4.",
@@ -309,6 +317,8 @@
    "id": "am11_005.9",
    "title": "AM-GM Inequality and Extremes",
    "converted_to_compute": false,
+   "formula": "abc_max = (total / 3)**3",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 5th term of the AP with first term 5 and common difference 3.",
@@ -346,6 +356,8 @@
    "id": "am11_005.10",
    "title": "Sum to Infinity of a GP",
    "converted_to_compute": false,
+   "formula": "s_inf = a / (1 - r)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 5th term of the AP with first term 5 and common difference 6.",
@@ -383,6 +395,8 @@
    "id": "am11_005.11",
    "title": "Growth, Decay and Depreciation Word Problems",
    "converted_to_compute": false,
+   "formula": "value = cost * (1 - d / 100)**years",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the simple interest on Rs 2000 at 4% per annum for 5 years.",

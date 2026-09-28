@@ -34,6 +34,36 @@
      "q": "Design a simple thought experiment to estimate the minimum temperature required for two deuterons to overcome the Coulomb barrier classically (ignoring tunneling). Assume deuterons are hard spheres of radius 2.0 fm. What temperature do you get, and how does it compare to the Sun's core temperature?",
      "a": "Coulomb barrier height U = (1/4πε₀) (e² / r) with r = 4.0 fm (sum of radii).  \nU = (9×10⁹ N·m²/C²) × (1.6×10⁻¹⁹ C)² / (4×10⁻¹⁵ m) ≈ 5.76×10⁻¹⁴ J ≈ 360 keV.  \nEquate average kinetic energy (3/2)kT = U → T = 2U/(3k) ≈ 2×360×10³×1.6×10⁻¹⁹ / (3×1.38×10⁻²³) ≈ 2.8×10⁹ K.  \nThis is ~200 times hotter than the Sun's core (1.5×10⁷ K). The huge discrepancy shows classical overcoming is impossible; quantum tunneling is essential. A poor answer that gets T ≈ 10⁷ K reveals the student used the wrong distance (e.g., 2 fm instead of 4 fm) or forgot the factor of 3/2, indicating a lack of care in unit handling and physical modeling.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Nuclear fusion is the process in which two or more light atomic nuclei combine to form a heavier nucleus, ______ energy because the binding energy per nucleon of the product nucleus is greater than that of the reactant nuclei.",
+     "a": "releasing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at the Sun — a steady, blindingly bright source of energy that has shone for 4.6 ______ years.",
+     "a": "billion",
+     "self_check": true
+    },
+    {
+     "q": "What is Nuclear fusion? State the definition given in this lesson.",
+     "a": "Nuclear fusion is the process in which two or more light atomic nuclei combine to form a heavier nucleus, releasing energy because the binding energy per nucleon of the product nucleus is greater than that of the reactant nuclei.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: They must get within ~______ fm for the strong nuclear force to take over.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Nuclear fusion?",
+     "a": "Students often think that the Sun \"burns\" hydrogen like a chemical fire, consuming it rapidly.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) write balanced nuclear equations for the proton-proton cycle and other fusion reactions (e.g., deuteron-deuteron), (2) calculate the Q-value of a fusion reaction using atomic masses and the conversion 1 u = 931.5 MeV/c², (3) explain why high temperatures (~10⁷–10⁹ K) are required to overcome the Coulomb barrier, and.",
+     "self_check": true
     }
    ]
   }

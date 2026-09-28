@@ -34,6 +34,26 @@
      "q": "Design a hypothetical experiment to determine Kₘ and Vₘₐₓ for a novel enzyme. Specify: (a) the range of [S] you would test relative to expected Kₘ, (b) the data to collect, (c) the plot to make, and (d) how to extract Kₘ and Vₘₐₓ from that plot without using linear transformations.",
      "a": "(a) Test [S] from 0.1×Kₘ_est to 10×Kₘ_est (e.g., if Kₘ_est ≈ 1 mM, use 0.1, 0.2, 0.5, 1, 2, 5, 10 mM). (b) Measure initial velocity v₀ (μmol min⁻¹) for each [S]. (c) Plot v₀ (y-axis) vs [S] (x-axis) — rectangular hyperbola. (d) Vₘₐₓ = plateau value; Kₘ = [S] at v₀ = Vₘₐₓ/2 (read from curve). A poor answer that suggests only high [S] or uses Lineweaver-Burk (not in NCERT scope) shows the student doesn't grasp the need for data spanning both kinetic regimes or the direct graphical method taught in the textbook.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Michaelis-Menten equation describes the initial velocity (v₀) of a single-substrate enzyme-catalyzed reaction as a ______ function of substrate concentration [S]: v₀ = (Vₘₐₓ[S])/(Kₘ + [S]), where Vₘₐₓ is the maximum velocity at enzyme saturation and Kₘ (Michaelis constant) is the substrate concentration at which v₀ = Vₘₐₓ/2.",
+     "a": "hyperbolic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are testing salivary amylase on starch: you keep enzyme amount fixed but vary starch ______ from 1 mM to 100 mM.",
+     "a": "concentration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Michaelis-Menten equation describes the initial velocity (v₀) of a single-substrate enzyme-catalyzed reaction as a hyperbolic function of substrate concentration [S]: v₀ = (Vₘₐₓ[S])/(Kₘ + [S]), where Vₘₐₓ is the maximum velocity at enzyme saturation and Kₘ (Michaelis constant) is the substrate concentration at which v₀ = Vₘₐₓ/______.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can calculate v₀, Vₘₐₓ, or Kₘ given the other two parameters and [S]; interpret the physical meaning of Kₘ (enzyme-substrate affinity) and Vₘₐₓ (catalytic capacity); and identify the kinetic order (first-order vs zero-order) from a v₀ vs [S] graph.",
+     "self_check": true
     }
    ]
   }

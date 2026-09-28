@@ -32,7 +32,32 @@
     },
     {
      "q": "Design a 3-step financial planning checklist for a Class 12 student's family planning a ₹15 lakh home renovation over 18 months. The father gets a ₹50,000/month salary, mother ₹30,000/month, and they have ₹3 lakh savings. Include: (a) sales forecast equivalent, (b) fund requirement estimation, (c) source identification.",
-     "a": "Step 1 (Sales Forecast Equivalent): Create a monthly \"income forecast\" — father's salary (₹50k), mother's salary (₹30k), any bonuses/increments expected. Total monthly inflow = ₹80k. Project for 18 months = ₹14.4 lakh.  \nStep 2 (Fund Requirement): Renovation cost ₹15 lakh + 10% contingency = ₹16.5 lakh. Monthly living expenses (rent, food, EMIs) = ₹40k × 18 = ₹7.2 lakh. Total outflow = ₹23.7 lakh. Net deficit = ₹23.7L – ₹14.4L = ₹9.3 lakh.  \nStep 3 (Sources): Internal = ₹3 lakh savings + ₹9.3 lakh from salary surplus? But salary surplus is only ₹40k/month × 18 = ₹7.2 lakh. Gap = ₹2.1 lakh. External sources: (i) Top-up home loan (lowest cost, tax benefit), (ii) Loan against FD (if any), (iii) Personal loan (last resort). Prioritise by cost and flexibility.  \nA poor answer that just says \"save more\" or \"take a loan\" without quantifying the gap and sequencing sources by cost reveals the student cannot translate the corporate financial planning process to personal finance — missing the core competency of \"linking present with future.\"",
+     "a": "(1) Income forecast — the family's eighty thousand rupees of monthly inflow projects to about 14.4 lakh over the eighteen months, (2) Fund requirement — the renovation with a contingency is 16.5 lakh and living expenses add 7.2 lakh, leaving a net deficit of about 9.3 lakh, (3) Source identification — three lakh of savings and the salary surplus cover most of the gap, and the residual is met by a top-up home loan for its low cost, with costlier personal loans as the last resort. A poor answer that just says save more or take a loan, without quantifying the gap and sequencing sources by cost, cannot translate corporate financial planning into personal finance.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Financial Planning is the process of preparing a financial blueprint of an ______'s future operations by estimating fund requirements (both quantum and timing) and specifying sources of funds to ensure adequate funds are available when needed while avoiding idle resources.",
+     "a": "organisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're the CFO of a startup ______ to launch a new electric scooter plant.",
+     "a": "planning",
+     "self_check": true
+    },
+    {
+     "q": "What is Financial Planning? State the definition given in this lesson.",
+     "a": "Financial Planning is the process of preparing a financial blueprint of an organisation's future operations by estimating fund requirements (both quantum and timing) and specifying sources of funds to ensure adequate funds are available when needed while avoiding idle resources.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Financial Planning?",
+     "a": "Students think financial planning = making a budget.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) explain the twin objectives of financial planning with a concrete business example, and (2) construct a simple 3-year financial plan outline showing sales forecast, fund requirements for fixed/working capital, internal accruals estimation, and external funding sources identification.",
      "self_check": true
     }
    ]

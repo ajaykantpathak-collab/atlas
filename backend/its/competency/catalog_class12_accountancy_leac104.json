@@ -21,13 +21,38 @@
     "which items appear on each side of the realisation account",
     "explain the purpose of the realisation account in winding up a firm"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "transfer assets at book value", "explain": "every asset except cash, bank and fictitious items goes to the debit side; provisions travel to the credit side"},
-    {"step": 2, "action": "transfer external liabilities", "explain": "creditors, bills payable, bank overdraft and similar outside claims go to the credit side"},
-    {"step": 3, "action": "record wind-up transactions", "explain": "sale proceeds and liabilities assumed by partners credit the account; payments, expenses and remuneration debit it"},
-    {"step": 4, "action": "close the balance to partners", "explain": "a credit balance is profit on realisation, a debit balance a loss, shared in the profit ratio"}
-   ]
+    {
+     "step": 1,
+     "action": "transfer assets at book value",
+     "explain": "every asset except cash, bank and fictitious items goes to the debit side; provisions travel to the credit side"
+    },
+    {
+     "step": 2,
+     "action": "transfer external liabilities",
+     "explain": "creditors, bills payable, bank overdraft and similar outside claims go to the credit side"
+    },
+    {
+     "step": 3,
+     "action": "record wind-up transactions",
+     "explain": "sale proceeds and liabilities assumed by partners credit the account; payments, expenses and remuneration debit it"
+    },
+    {
+     "step": 4,
+     "action": "close the balance to partners",
+     "explain": "a credit balance is profit on realisation, a debit balance a loss, shared in the profit ratio"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "realisation_result = credit_side_total - debit_side_total",
+     "compute": "realisation_result = credit_side_total - debit_side_total"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.104.4.2",
@@ -46,8 +71,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "net the two sides of the account", "explain": "subtract the total debits from the total credits; positive means profit, negative means loss", "compute": "realisation_result = credits_total - debits_total"}
-   ]
+    {
+     "step": 1,
+     "action": "net the two sides of the account",
+     "explain": "subtract the total debits from the total credits; positive means profit, negative means loss",
+     "compute": "realisation_result = credits_total - debits_total"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "realisation_result = credits_total - debits_total",
+     "compute": "realisation_result = credits_total - debits_total"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.104.4.3",
@@ -66,8 +105,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "apply the profit fraction to the result", "explain": "each partner takes his ratio slice of the wind-up result", "compute": "partner_share = realisation_result * profit_share_fraction"}
-   ]
+    {
+     "step": 1,
+     "action": "apply the profit fraction to the result",
+     "explain": "each partner takes his ratio slice of the wind-up result",
+     "compute": "partner_share = realisation_result * profit_share_fraction"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "partner_share = realisation_result * profit_share_fraction",
+     "compute": "partner_share = realisation_result * profit_share_fraction"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.104.4.4",
@@ -86,8 +139,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "scale the book value by the realisation percent", "explain": "multiply the book value by the realisation percent over one hundred; a discount of x percent means realising (100 - x) percent", "compute": "realised_amount = book_value * realisation_percent / 100"}
-   ]
+    {
+     "step": 1,
+     "action": "scale the book value by the realisation percent",
+     "explain": "multiply the book value by the realisation percent over one hundred; a discount of x percent means realising (100 - x) percent",
+     "compute": "realised_amount = book_value * realisation_percent / 100"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "realised_amount = book_value * realisation_percent / 100",
+     "compute": "realised_amount = book_value * realisation_percent / 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.104.4.5",
@@ -106,9 +173,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "value the portion taken", "explain": "multiply the book value of the asset by the fraction the partner absorbs", "compute": "portion_value = book_value * portion_fraction"},
-    {"step": 2, "action": "apply the agreed discount", "explain": "multiply the portion value by one minus the discount percent over one hundred", "compute": "takeover_value = portion_value * (1 - discount_percent / 100)"}
-   ]
+    {
+     "step": 1,
+     "action": "value the portion taken",
+     "explain": "multiply the book value of the asset by the fraction the partner absorbs",
+     "compute": "portion_value = book_value * portion_fraction"
+    },
+    {
+     "step": 2,
+     "action": "apply the agreed discount",
+     "explain": "multiply the portion value by one minus the discount percent over one hundred",
+     "compute": "takeover_value = portion_value * (1 - discount_percent / 100)"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "takeover_value = book_value * portion_fraction * (1 - discount_percent / 100)",
+     "compute": "takeover_value = book_value * portion_fraction * (1 - discount_percent / 100)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.104.4.6",
@@ -127,8 +213,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "trim the liability by the discount", "explain": "multiply the booked liability by one minus the discount percent over one hundred", "compute": "payment_amount = liability_amount * (1 - discount_percent / 100)"}
-   ]
+    {
+     "step": 1,
+     "action": "trim the liability by the discount",
+     "explain": "multiply the booked liability by one minus the discount percent over one hundred",
+     "compute": "payment_amount = liability_amount * (1 - discount_percent / 100)"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "payment_amount = liability_amount * (1 - discount_percent / 100)",
+     "compute": "payment_amount = liability_amount * (1 - discount_percent / 100)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.104.4.7",
@@ -147,9 +247,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "identify who pays", "explain": "firm-paid costs debit realisation and credit bank; partner-paid costs on the firm's behalf debit realisation and credit that partner's capital"},
-    {"step": 2, "action": "apply the remuneration rule", "explain": "an agreed remuneration debits realisation and credits the partner's capital; his actual expenses then need no entry"},
-    {"step": 3, "action": "handle partial bearing", "explain": "if a partner bears expenses only up to a limit, the excess actually paid is credited to his capital separately"}
+    {
+     "step": 1,
+     "action": "identify who pays",
+     "explain": "firm-paid costs debit realisation and credit bank; partner-paid costs on the firm's behalf debit realisation and credit that partner's capital"
+    },
+    {
+     "step": 2,
+     "action": "apply the remuneration rule",
+     "explain": "an agreed remuneration debits realisation and credits the partner's capital; his actual expenses then need no entry"
+    },
+    {
+     "step": 3,
+     "action": "handle partial bearing",
+     "explain": "if a partner bears expenses only up to a limit, the excess actually paid is credited to his capital separately"
+    }
    ]
   },
   {
@@ -167,13 +279,38 @@
     "how are losses made good when a firm is dissolved",
     "explain the priority of creditors, partner loans and capitals at dissolution"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "pay outside debts", "explain": "creditors, bank loans and bills payable come first, secured claims before unsecured"},
-    {"step": 2, "action": "repay partner loans", "explain": "advances by partners rank next, proportionately if money runs short"},
-    {"step": 3, "action": "return capitals", "explain": "capital balances are settled after the loans"},
-    {"step": 4, "action": "share the residue or the shortfall", "explain": "any surplus divides in the profit ratio; losses first absorb profits, then capitals, then the partners personally"}
-   ]
+    {
+     "step": 1,
+     "action": "pay outside debts",
+     "explain": "creditors, bank loans and bills payable come first, secured claims before unsecured"
+    },
+    {
+     "step": 2,
+     "action": "repay partner loans",
+     "explain": "advances by partners rank next, proportionately if money runs short"
+    },
+    {
+     "step": 3,
+     "action": "return capitals",
+     "explain": "capital balances are settled after the loans"
+    },
+    {
+     "step": 4,
+     "action": "share the residue or the shortfall",
+     "explain": "any surplus divides in the profit ratio; losses first absorb profits, then capitals, then the partners personally"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "residue_for_partners = assets_available - outside_claims - partner_loans - capital_balances",
+     "compute": "residue_for_partners = assets_available - outside_claims - partner_loans - capital_balances"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.104.3.2",
@@ -192,8 +329,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "apply the capital fraction to the deficiency", "explain": "each solvent partner bears the unrecoverable amount in the ratio of his capital", "compute": "loss_share = deficiency_amount * capital_fraction"}
-   ]
+    {
+     "step": 1,
+     "action": "apply the capital fraction to the deficiency",
+     "explain": "each solvent partner bears the unrecoverable amount in the ratio of his capital",
+     "compute": "loss_share = deficiency_amount * capital_fraction"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "loss_share = deficiency_amount * capital_fraction",
+     "compute": "loss_share = deficiency_amount * capital_fraction"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.104.4.8",
@@ -212,8 +363,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "apply the profit fraction to the accumulated amount", "explain": "each partner's slice of reserves or write-offs follows the profit ratio", "compute": "partner_share = accumulated_amount * profit_share_fraction"}
-   ]
+    {
+     "step": 1,
+     "action": "apply the profit fraction to the accumulated amount",
+     "explain": "each partner's slice of reserves or write-offs follows the profit ratio",
+     "compute": "partner_share = accumulated_amount * profit_share_fraction"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "partner_share = accumulated_amount * profit_share_fraction",
+     "compute": "partner_share = accumulated_amount * profit_share_fraction"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.104.4.9",
@@ -232,7 +397,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "gross up the principal by the rate", "explain": "multiply the loan amount by one plus the yearly rate over one hundred", "compute": "payment_with_interest = loan_amount * (1 + interest_rate / 100)"}
+    {
+     "step": 1,
+     "action": "gross up the principal by the rate",
+     "explain": "multiply the loan amount by one plus the yearly rate over one hundred",
+     "compute": "payment_with_interest = loan_amount * (1 + interest_rate / 100)"
+    }
    ]
   },
   {
@@ -252,8 +422,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "apply the rate to the proceeds", "explain": "multiply the total assets sold by the commission rate over one hundred", "compute": "commission_amount = assets_sold_total * commission_rate / 100"}
-   ]
+    {
+     "step": 1,
+     "action": "apply the rate to the proceeds",
+     "explain": "multiply the total assets sold by the commission rate over one hundred",
+     "compute": "commission_amount = assets_sold_total * commission_rate / 100"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "commission_amount = assets_sold_total * commission_rate / 100",
+     "compute": "commission_amount = assets_sold_total * commission_rate / 100"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -263,9 +447,17 @@
    "concept": "leac.104.4.2",
    "question_type": "numeric",
    "question_pattern": "On dissolution, the realisation account carries credits of {credits_total} and debits of {debits_total}. Find the realisation result.",
-   "extracted_variables": {"credits_total": 117925, "debits_total": 115000},
+   "extracted_variables": {
+    "credits_total": 117925,
+    "debits_total": 115000
+   },
    "solution_template": [
-    {"step": 1, "action": "net the two sides of the account", "explain": "117925 - 115000 = 2925 profit", "compute": "realisation_result = credits_total - debits_total"}
+    {
+     "step": 1,
+     "action": "net the two sides of the account",
+     "explain": "117925 - 115000 = 2925 profit",
+     "compute": "realisation_result = credits_total - debits_total"
+    }
    ]
   },
   {
@@ -274,9 +466,17 @@
    "concept": "leac.104.4.3",
    "question_type": "numeric",
    "question_pattern": "Realisation profit is {realisation_result}; Supriya and Monika share 3:2. Find Supriya's share.",
-   "extracted_variables": {"realisation_result": 2925, "profit_share_fraction": 0.6},
+   "extracted_variables": {
+    "realisation_result": 2925,
+    "profit_share_fraction": 0.6
+   },
    "solution_template": [
-    {"step": 1, "action": "apply the profit fraction to the result", "explain": "2925 x 3/5 = 1755", "compute": "partner_share = realisation_result * profit_share_fraction"}
+    {
+     "step": 1,
+     "action": "apply the profit fraction to the result",
+     "explain": "2925 x 3/5 = 1755",
+     "compute": "partner_share = realisation_result * profit_share_fraction"
+    }
    ]
   },
   {
@@ -285,9 +485,17 @@
    "concept": "leac.104.4.4",
    "question_type": "numeric",
    "question_pattern": "Debtors of book value {book_value} are realised at a discount of {discount_percent} percent. Find the amount realised.",
-   "extracted_variables": {"book_value": 21500, "realisation_percent": 95},
+   "extracted_variables": {
+    "book_value": 21500,
+    "realisation_percent": 95
+   },
    "solution_template": [
-    {"step": 1, "action": "scale the book value by the realisation percent", "explain": "a 5 percent discount means 95 percent realised: 21500 x 95/100 = 20425", "compute": "realised_amount = book_value * realisation_percent / 100"}
+    {
+     "step": 1,
+     "action": "scale the book value by the realisation percent",
+     "explain": "a 5 percent discount means 95 percent realised: 21500 x 95/100 = 20425",
+     "compute": "realised_amount = book_value * realisation_percent / 100"
+    }
    ]
   },
   {
@@ -296,10 +504,24 @@
    "concept": "leac.104.4.5",
    "question_type": "numeric",
    "question_pattern": "Stock is worth {book_value}; Aziz takes over {portion_fraction} of it at a discount of {discount_percent} percent. Find the takeover value.",
-   "extracted_variables": {"book_value": 160000, "portion_fraction": 0.5, "discount_percent": 20},
+   "extracted_variables": {
+    "book_value": 160000,
+    "portion_fraction": 0.5,
+    "discount_percent": 20
+   },
    "solution_template": [
-    {"step": 1, "action": "value the portion taken", "explain": "160000 x 0.5 = 80000", "compute": "portion_value = book_value * portion_fraction"},
-    {"step": 2, "action": "apply the agreed discount", "explain": "80000 x 0.8 = 64000", "compute": "takeover_value = portion_value * (1 - discount_percent / 100)"}
+    {
+     "step": 1,
+     "action": "value the portion taken",
+     "explain": "160000 x 0.5 = 80000",
+     "compute": "portion_value = book_value * portion_fraction"
+    },
+    {
+     "step": 2,
+     "action": "apply the agreed discount",
+     "explain": "80000 x 0.8 = 64000",
+     "compute": "takeover_value = portion_value * (1 - discount_percent / 100)"
+    }
    ]
   },
   {
@@ -308,9 +530,17 @@
    "concept": "leac.104.4.6",
    "question_type": "numeric",
    "question_pattern": "Creditors of {liability_amount} are paid at a discount of {discount_percent} percent. Find the payment made.",
-   "extracted_variables": {"liability_amount": 70000, "discount_percent": 10},
+   "extracted_variables": {
+    "liability_amount": 70000,
+    "discount_percent": 10
+   },
    "solution_template": [
-    {"step": 1, "action": "trim the liability by the discount", "explain": "70000 x 0.9 = 63000", "compute": "payment_amount = liability_amount * (1 - discount_percent / 100)"}
+    {
+     "step": 1,
+     "action": "trim the liability by the discount",
+     "explain": "70000 x 0.9 = 63000",
+     "compute": "payment_amount = liability_amount * (1 - discount_percent / 100)"
+    }
    ]
   },
   {
@@ -319,9 +549,17 @@
    "concept": "leac.104.3.2",
    "question_type": "numeric",
    "question_pattern": "An insolvent partner's capital deficiency is {deficiency_amount}; the solvent partners' capitals stand at 60000 and 40000. Find the loss borne by the partner with capital 60000.",
-   "extracted_variables": {"deficiency_amount": 9000, "capital_fraction": 0.6},
+   "extracted_variables": {
+    "deficiency_amount": 9000,
+    "capital_fraction": 0.6
+   },
    "solution_template": [
-    {"step": 1, "action": "apply the capital fraction to the deficiency", "explain": "9000 x 60000/100000 = 5400", "compute": "loss_share = deficiency_amount * capital_fraction"}
+    {
+     "step": 1,
+     "action": "apply the capital fraction to the deficiency",
+     "explain": "9000 x 60000/100000 = 5400",
+     "compute": "loss_share = deficiency_amount * capital_fraction"
+    }
    ]
   },
   {
@@ -330,9 +568,17 @@
    "concept": "leac.104.4.8",
    "question_type": "numeric",
    "question_pattern": "A general reserve of {accumulated_amount} exists at dissolution; the partners share 3:2. Find Supriya's share of the reserve.",
-   "extracted_variables": {"accumulated_amount": 13500, "profit_share_fraction": 0.6},
+   "extracted_variables": {
+    "accumulated_amount": 13500,
+    "profit_share_fraction": 0.6
+   },
    "solution_template": [
-    {"step": 1, "action": "apply the profit fraction to the accumulated amount", "explain": "13500 x 3/5 = 8100", "compute": "partner_share = accumulated_amount * profit_share_fraction"}
+    {
+     "step": 1,
+     "action": "apply the profit fraction to the accumulated amount",
+     "explain": "13500 x 3/5 = 8100",
+     "compute": "partner_share = accumulated_amount * profit_share_fraction"
+    }
    ]
   },
   {
@@ -341,9 +587,17 @@
    "concept": "leac.104.4.9",
    "question_type": "numeric",
    "question_pattern": "A bank loan of {loan_amount} is paid along with one year's interest at {interest_rate} percent. Find the total payment.",
-   "extracted_variables": {"loan_amount": 60000, "interest_rate": 6},
+   "extracted_variables": {
+    "loan_amount": 60000,
+    "interest_rate": 6
+   },
    "solution_template": [
-    {"step": 1, "action": "gross up the principal by the rate", "explain": "60000 x 1.06 = 63600", "compute": "payment_with_interest = loan_amount * (1 + interest_rate / 100)"}
+    {
+     "step": 1,
+     "action": "gross up the principal by the rate",
+     "explain": "60000 x 1.06 = 63600",
+     "compute": "payment_with_interest = loan_amount * (1 + interest_rate / 100)"
+    }
    ]
   },
   {
@@ -352,9 +606,17 @@
    "concept": "leac.104.4.10",
    "question_type": "numeric",
    "question_pattern": "Sanjay realises assets worth {assets_sold_total} and is entitled to {commission_rate} percent commission. Find his commission.",
-   "extracted_variables": {"assets_sold_total": 305000, "commission_rate": 6},
+   "extracted_variables": {
+    "assets_sold_total": 305000,
+    "commission_rate": 6
+   },
    "solution_template": [
-    {"step": 1, "action": "apply the rate to the proceeds", "explain": "305000 x 6/100 = 18300", "compute": "commission_amount = assets_sold_total * commission_rate / 100"}
+    {
+     "step": 1,
+     "action": "apply the rate to the proceeds",
+     "explain": "305000 x 6/100 = 18300",
+     "compute": "commission_amount = assets_sold_total * commission_rate / 100"
+    }
    ]
   }
  ],

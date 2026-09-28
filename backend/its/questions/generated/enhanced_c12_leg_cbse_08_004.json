@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_08_004",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_08_004",
+   "title": "c12_leg_cbse_08_004",
+   "questions": [
+    {
+     "q": "Define \"separate legal entity\" in the context of business organisations and name the THREE forms from the NCERT chapter that possess this status.",
+     "a": "Correct: A separate legal entity means the organisation is distinct from its owners in the eyes of law — it can own property, sue, be sued, and enter contracts in its own name. The three forms are: Limited Liability Partnership (LLP), Private Limited Company, and Public Limited Company (also One Person Company). Wrong answer reveals: Student confuses \"registration\" with \"separate legal entity\" — e.g., saying \"registered partnership\" has separate legal entity (it does not; partners and firm are legally identical).",
+     "self_check": true
+    },
+    {
+     "q": "A partnership firm is NOT a separate legal entity. Explain what this means for (a) liability of partners and (b) continuity of the firm if a partner dies.",
+     "a": "Correct: (a) Partners have unlimited, joint and several liability — creditors can recover firm's debts from any partner's personal assets. (b) The firm dissolves on death/insolvency of a partner unless the partnership deed provides otherwise — no perpetual succession. Wrong answer reveals: Student thinks \"registration\" gives the firm independent existence (it doesn't; registration only enables suits by/against the firm, but partners remain personally liable and firm lacks perpetual succession).",
+     "self_check": true
+    },
+    {
+     "q": "Scenario: Four friends want to start a tech consultancy. They need: (i) limited liability, (ii) ability to raise venture capital later, (iii) no mandatory audit if turnover < ₹40 lakh, (iv) flexible profit-sharing not tied to capital ratio. Recommend the BEST entity and justify using specific provisions from LLP Act 2008 and Companies Act 2013.",
+     "a": "Correct: **LLP** is optimal. (i) LLP Act 2008, s.26: partners' liability limited to agreed contribution. (ii) LLPs can raise funds from private equity/VCs (though less easily than companies). (iii) LLP Act 2008, s.34: audit mandatory only if turnover > ₹40 lakh or contribution > ₹25 lakh. (iv) LLP Agreement governs profit-sharing — flexible, not tied to capital. Private Ltd Company fails (iii) — mandatory audit regardless of turnover. Wrong answer reveals: Student defaults to \"Private Ltd Company\" for all startups, ignoring LLP's audit exemption and flexible internal governance — a common board-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"transfer of ownership\" process in: (a) Partnership, (b) Private Ltd Company, (c) Public Ltd Company. Analyse how each affects business continuity and investor entry/exit.",
+     "a": "Correct: (a) Partnership: Transfer requires consent of all partners (s.31 Partnership Act 1932) — difficult, disrupts continuity. (b) Private Ltd: Shares transferable but restricted by Articles of Association (often pre-emption rights) — moderate ease, continuity preserved. (c) Public Ltd: Freely transferable on stock exchange (if listed) — highest liquidity, seamless continuity, easy investor exit. Wrong answer reveals: Student says \"partnership interest freely transferable\" or \"private company shares freely tradable on stock exchange\" — confusing private/public company share transfer rules.",
+     "self_check": true
+    },
+    {
+     "q": "\"An OPC (One Person Company) is just a fancy sole proprietorship with a registration certificate.\" Evaluate this statement. Is it legally accurate? Support your judgment with three distinct legal differences.",
+     "a": "Correct: The statement is FALSE. Three legal differences: (1) **Separate legal entity**: OPC is distinct from its member (Companies Act 2013, s.2(62)); sole proprietorship has no separate existence. (2) **Limited liability**: OPC member's liability limited to share capital; sole proprietor has unlimited liability. (3) **Perpetual succession**: OPC continues via nominee on member's death (s.3); sole proprietorship ends. Wrong answer reveals: Student focuses only on \"single owner\" similarity, ignoring the corporate veil — a critical distinction for creditor protection and business continuity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new hybrid entity for rural artisans (like the 100 weavers in NCERT Exercise Q3) that combines: (a) ease of formation of partnership, (b) limited liability of company, (c) democratic control (one member one vote), (d) ability to raise grants/donations. Name it, define its 4 key features, and explain which existing Act would need amendment to create it.",
+     "a": "Expected: **Artisan Collective Limited (ACL)**. Features: (1) Formed by simple deed + registration (like partnership/LLP), min 10 members, no min capital. (2) Limited liability to contribution. (3) One member one vote (cooperative principle), not share-based. (4) Can receive CSR funds, government grants, donations tax-exempt under s.80G. Legal basis: Amend **Cooperative Societies Act** or create new **Artisan Collectives Act** — existing Companies Act 2013 (share-based voting) and LLP Act 2008 (profit-sharing tied to agreement) don't fit. Poor answer reveals: Student copies \"Producer Company\" (s.465 Companies Act) without adapting to artisan-specific needs (grants, democratic control, low compliance).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

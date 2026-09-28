@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a metre scale (least count 0.1 cm) and a stopwatch (least count 0.1 s) to determine the average speed of a toy car. List the measurements you would take, the formula you would use, and explain how you would apply significant figure rules to report the final speed.",
      "a": "Measure distance (e.g., 200.0 cm, 4 SF) and time for 5 trials (e.g., 4.2 s, 4.3 s, 4.1 s, 4.4 s, 4.2 s — each 2 SF). Average time = (sum)/5 = 21.2/5 = 4.24 s (retain 3 SF in intermediate). Speed = distance/time = 200.0/4.24 = 47.169... cm/s. Distance has 4 SF, time has 2 SF (least precise measurement is 2 SF), so final speed = 47 cm/s (2 SF). A poor answer would ignore the least count of instruments, use only one time trial, or round intermediate average to 4.2 s prematurely.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Significant figures in ______ refer to the rules that dictate how many digits in a computed result are meaningful, based on the precision of the measured inputs.",
+     "a": "calculations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you measure the length of a classroom table with a metre scale (least count 0.1 cm) and get 120.5 cm, then measure its ______ as 60.2 cm.",
+     "a": "breadth",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If you multiply directly on a calculator, you get ______ cm².",
+     "a": "7254.1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly apply significant figure rules to multi-step calculations involving mixed operations (addition/subtraction and multiplication/division), track units throughout, and round the final answer to the appropriate precision without prematurely rounding intermediate steps.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you measure the length of a ______ table with a metre scale (least count 0.1 cm) and get 120.5 cm, then measure its breadth as 60.2 cm.",
+     "a": "classroom",
+     "self_check": true
     }
    ]
   }

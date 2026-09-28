@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_06_004",
+   "title": "c11_app_cbse_06_004",
+   "questions": [
+    {
+     "q": "State the formula for the number of permutations of $n$ distinct objects taken $r$ at a time without repetition, and explain what each symbol represents.",
+     "a": "The formula is $^nP_r = \\frac{n!}{(n-r)!}$, where $n$ is the total number of distinct objects, $r$ is the number of objects taken at a time for arrangement ($0 < r \\le n$), and $!$ denotes factorial. A wrong answer (e.g., writing $^nC_r$ or $n^r$) reveals the student confuses permutations with combinations or permutations with repetition, indicating they have not internalized the \"order matters\" distinction.",
+     "self_check": true
+    },
+    {
+     "q": "In how many ways can 5 students stand in a line for a photograph if two particular students, A and B, must always stand together? A student answers $5! - 4!$. Explain why this reasoning is incorrect and provide the correct approach.",
+     "a": "The student subtracted arrangements where A and B are *not* together from total arrangements, but $4!$ does not represent \"A and B not together.\" Correct approach: Treat A and B as a single block (1 unit). Now arrange 4 units (block + 3 others) in $4!$ ways. A and B can swap inside the block in $2!$ ways. Total = $4! \\times 2! = 48$. A wrong answer reveals the student misunderstands the \"together\" restriction as a simple subtraction rather than a bundling strategy.",
+     "self_check": true
+    },
+    {
+     "q": "A password must be exactly 6 characters long, formed from the letters {A, B, C, D, E} and digits {1, 2, 3}. Repetition is **not** allowed. How many such passwords can be formed if the password must start with a vowel (A or E)?",
+     "a": "Step 1: First character (vowel) — 2 choices (A or E).\nStep 2: Remaining 5 characters chosen from the leftover 7 characters (3 letters + 3 digits + 1 unused vowel) without repetition: $^7P_5 = 7 \\times 6 \\times 5 \\times 4 \\times 3 = 2520$.\nStep 3: Total = $2 \\times 2520 = 5040$.\nA wrong answer (e.g., $^8P_6$ or $2 \\times 7^5$) reveals the student either ignores the restriction on the first position or incorrectly assumes repetition is allowed.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the number of 4-letter \"words\" (arrangements) formed from the letters of the word \"LOGIC\" when:\n(i) Repetition is NOT allowed.\n(ii) Repetition IS allowed.\nExplain why the ratio of (ii) to (i) is not simply $5^4 / ^5P_4$.",
+     "a": "(i) $^5P_4 = 120$. (ii) $5^4 = 625$. Ratio = $625/120 = 125/24 \\approx 5.2$. The ratio is not an integer because the two counting principles are fundamentally different: (i) uses falling factorial (multiplication with decreasing choices), (ii) uses constant multiplication (independent choices). A wrong explanation (e.g., \"ratio is 5\") reveals the student thinks repetition just multiplies each slot by a constant factor, missing that without repetition the *pool shrinks*.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The number of ways to arrange 7 different books on a shelf such that 3 particular books are never together is $7! - 5! \\times 3!$.\" Evaluate this claim. Is it correct? If not, what is the correct expression and why?",
+     "a": "The claim is **incorrect**. $5! \\times 3!$ counts arrangements where the 3 books are **all together as a single contiguous block**. \"Never together\" means **no two of those three are adjacent** — a much stricter condition.\nCorrect method: Arrange the other 4 books first ($4!$ ways), creating 5 gaps (including ends). Choose 3 gaps out of 5 for the 3 books ($^5P_3$ ways). Total = $4! \\times ^5P_3 = 24 \\times 60 = 1440$.\nA wrong answer reveals the student conflates \"all three together\" with \"any two together,\" a classic senior-secondary error in restriction handling.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where you need to find the number of permutations of 6 distinct items taken 4 at a time with the restriction that 2 specific items must occupy the first and last positions (in either order). Write the problem statement and solve it.",
+     "a": "**Scenario**: A school's annual day committee has 6 students: {A, B, C, D, E, F}. They need to assign 4 distinct roles (Chief Guest Welcomer, Speaker, Vote of Thanks, Stage Manager) to 4 different students. The roles of \"Chief Guest Welcomer\" (first) and \"Stage Manager\" (last) must be filled by A and B (in any order). How many assignments are possible?\n**Solution**: Step 1: Assign first and last roles to A and B: $2! = 2$ ways. Step 2: Fill the 2 middle roles from remaining 4 students (C, D, E, F) without repetition: $^4P_2 = 12$. Step 3: Total = $2 \\times 12 = 24$.\nA poor answer (e.g., just $^6P_4 = 360$) reveals the student cannot translate positional restrictions into a staged counting process.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

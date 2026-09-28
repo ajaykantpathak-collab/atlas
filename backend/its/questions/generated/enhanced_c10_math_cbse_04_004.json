@@ -34,6 +34,21 @@
      "q": "Construct a quadratic equation with integer coefficients that, when solved by completing the square, requires adding a fraction (not an integer) to both sides, and has two distinct irrational roots. Show the completed-square form and the roots in simplest radical form.",
      "a": "Example: \\(2x^2 - 3x - 1 = 0\\).\nDivide by 2: \\(x^2 - \\frac{3}{2}x - \\frac{1}{2} = 0\\) → \\(x^2 - \\frac{3}{2}x = \\frac{1}{2}\\).\nHalf of \\(-\\frac{3}{2}\\) is \\(-\\frac{3}{4}\\); square is \\(\\frac{9}{16}\\). Add to both sides:\n\\(x^2 - \\frac{3}{2}x + \\frac{9}{16} = \\frac{1}{2} + \\frac{9}{16} = \\frac{8}{16} + \\frac{9}{16} = \\frac{17}{16}\\).\n\\(\\left(x - \\frac{3}{4}\\right)^2 = \\frac{17}{16}\\).\n\\(x - \\frac{3}{4} = \\pm \\frac{\\sqrt{17}}{4}\\).\nRoots: \\(x = \\frac{3 \\pm \\sqrt{17}}{4}\\).\nA good answer demonstrates: (1) leading coefficient ≠ 1 to force fractions, (2) discriminant not a perfect square (here \\(b^2-4ac = 9+8=17\\)) for irrational roots, (3) correct completed-square form with fractions. A poor answer might give an equation that factorises (rational roots) or has integer half-coefficient (e.g., \\(x^2+3x+1=0\\) where half of 3 is 1.5, still fraction but simpler) — the key is to show awareness of when fractions appear and how they are handled.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ garden in your school where the length is 5 metres more than the breadth, and the area is 150 square metres.",
+     "a": "rectangular",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Completing the square?",
+     "a": "Another frequent error is adding the square term only to the left side, breaking equality.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can also identify when this method is more efficient than factorisation (e.g., when roots are irrational or the quadratic does not factorise neatly over integers).",
+     "self_check": true
     }
    ]
   }

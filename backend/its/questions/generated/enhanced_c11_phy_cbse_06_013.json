@@ -34,6 +34,26 @@
      "q": "Design a simple school-lab experiment to verify τ = Iα using a rotating platform (like a lazy Susan), a hanging mass on a string wound around the axle, and a stopwatch. List the measurements needed and how you would compute I experimentally.",
      "a": "Measure: axle radius r, hanging mass m, time t for mass to fall distance h.  \nCompute linear acceleration a = 2h/t². Torque τ = (mg - ma)r ≈ mgr if a << g. Angular acceleration α = a/r.  \nThen I = τ/α = (mgr) / (a/r) = mgr²/a.  \nPlot τ vs α for different m; slope gives I.  \nA poor answer that ignores the tension in the string (using τ = mgr exactly) or doesn't convert linear to angular quantities reveals incomplete understanding of the torque-acceleration relationship.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The dynamics of rotational motion about a fixed axis is governed by the rotational analogue of Newton's second law: the net external torque (τ) acting on a rigid body equals the product of its moment of inertia (I) about that axis and its angular ______ (α).",
+     "a": "acceleration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan starting from rest: you press the switch (apply electrical energy), the motor exerts a torque on the blades, and they gradually pick up ______ speed.",
+     "a": "angular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate angular acceleration from given net torque and moment of inertia, apply the work-energy theorem for rotation (W = τθ = ½Iω²), and use conservation of angular momentum (L = Iω = constant) for fixed-axis rotation when net external torque is zero.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan starting from rest: you press the switch (apply ______ energy), the motor exerts a torque on the blades, and they gradually pick up angular speed.",
+     "a": "electrical",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a simple numeral system for a fictional civilization that counts in base-6 (using six fingers). Your system must have: (a) six distinct digit symbols, (b) positional place value, (c) a zero placeholder. Write the base-6 number for \"thirty-five\" (in decimal) and show how your zero placeholder is used.",
      "a": "Example solution: Symbols: @=0, #=1, $=2, %=3, ^=4, &=5. Base-6 places: 6^0=1, 6^1=6, 6^2=36. 35 decimal = 5×6 + 5 = 55 in base-6 → written as \"&&\". To show zero: 36 decimal = 1×36 + 0×6 + 0 = 100 in base-6 → written as \"#@@\". The two @ symbols hold the 6^1 and 6^0 places. A poor answer that uses only additive symbols (e.g., &&&&& for 35) or omits zero (writing \"1\" for 36) shows the student cannot transfer the Hindu system's structural principles (position + zero) to a new base.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Hindu numeral system is the ancient Indian positional decimal system that introduced the concept of zero as both a ______ and a number, using a set of ten distinct symbols (1-9 and 0) where the value of a digit depends on its position (place value).",
+     "a": "placeholder",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a merchant in ancient India trying to record a transaction of 1,05,000 (one lakh five thousand) sacks of grain using Roman numerals — you would need hundreds of symbols like M, C, D and complex ______ rules.",
+     "a": "subtraction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight: the Hindu system combined base-______ grouping, positional notation, and zero as a number — three ideas that together make arithmetic algorithms (addition, multiplication) systematic and scalable.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the three defining features of the Hindu numeral system (base-10, place value, zero), describe its historical evolution from Brahmi to Gupta to Nagari scripts, and articulate why it was more efficient for calculation than additive systems like Roman numerals.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a merchant in ancient India trying to record a ______ of 1,05,000 (one lakh five thousand) sacks of grain using Roman numerals — you would need hundreds of symbols like M, C, D and complex subtraction rules.",
+     "a": "transaction",
+     "self_check": true
     }
    ]
   }

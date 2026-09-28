@@ -34,6 +34,36 @@
      "q": "Construct a word problem involving a large municipal budget of over ₹5 crores divided equally among a number of wards, ensuring your problem results in a non-zero remainder.",
      "a": "The expected response should feature a clear scenario: \"A city corporation allocates a budget of ₹7,50,05,250 to be distributed equally among 45 development wards. How much does each ward receive, and how much money is left over?\" The poor answer would be a trivial division with a zero remainder or numbers chosen arbitrarily without real-world scale context.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Operations with large numbers: ______ and division involves finding the product of multi-digit numbers (up to 8 digits and beyond, into lakhs and crores) or sharing/distributing a large total into equal groups using long division, following strict place value alignment and regrouping rules.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your city's municipal ______ collects water bills from 35,420 households every single month, and each household pays exactly ₹1,250.",
+     "a": "corporation",
+     "self_check": true
+    },
+    {
+     "q": "What is Operations with large numbers? State the definition given in this lesson.",
+     "a": "Operations with large numbers: multiplication and division involves finding the product of multi-digit numbers (up to 8 digits and beyond, into lakhs and crores) or sharing/distributing a large total into equal groups using long division, following strict place value alignment and regrouping rules.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Operations with large numbers: multiplication and division involves finding the product of multi-digit numbers (up to ______ digits and beyond, into lakhs and crores) or sharing/distributing a large total into equal groups using long division, following strict place value alignment and regrouping rules.",
+     "a": "8",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Operations with large numbers?",
+     "a": "Students frequently drop a place-holder zero in the quotient during long division when a brought-down digit is smaller than the divisor, or they misalign partial products during multi-digit multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can accurately multiply and divide 7-digit and 8-digit numbers by multi-digit divisors and multipliers, apply properties of operations, and solve complex real-world word problems involving large financial or demographic data in the Indian numbering system.",
+     "self_check": true
     }
    ]
   }

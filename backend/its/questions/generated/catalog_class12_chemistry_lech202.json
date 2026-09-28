@@ -1,0 +1,287 @@
+{
+ "catalog": "catalog_class12_chemistry_lech202.json",
+ "concepts": [
+  {
+   "id": "lech202.7.4.1.1",
+   "title": "Alcohols from Alkenes: Markovnikov Hydration versus Hydroboration",
+   "converted_to_compute": true,
+   "formula": "hydroboration_product = anti_markovnikov_alcohol",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "hydroboration_product = anti_markovnikov_alcohol",
+     "compute": "hydroboration_product = anti_markovnikov_alcohol"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Alcohols from Alkenes: Markovnikov Hydration versus Hydroboration: given anti_markovnikov_alcohol = 25, find hydroboration product.",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "For Alcohols from Alkenes: Markovnikov Hydration versus Hydroboration: given anti_markovnikov_alcohol = 15, find hydroboration product.",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "For Alcohols from Alkenes: Markovnikov Hydration versus Hydroboration: given anti_markovnikov_alcohol = 51, find hydroboration product.",
+     "a": "51",
+     "self_check": false
+    },
+    {
+     "q": "For Alcohols from Alkenes: Markovnikov Hydration versus Hydroboration: given anti_markovnikov_alcohol = 93, find hydroboration product.",
+     "a": "93",
+     "self_check": false
+    },
+    {
+     "q": "For Alcohols from Alkenes: Markovnikov Hydration versus Hydroboration: given anti_markovnikov_alcohol = 29, find hydroboration product.",
+     "a": "29",
+     "self_check": false
+    },
+    {
+     "q": "For Alcohols from Alkenes: Markovnikov Hydration versus Hydroboration: given anti_markovnikov_alcohol = 79, find hydroboration product.",
+     "a": "79",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech202.7.4.2.2",
+   "title": "Four Laboratory Routes to Phenol",
+   "converted_to_compute": true,
+   "formula": "cumene_route = phenol + acetone",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "cumene_route = phenol + acetone",
+     "compute": "cumene_route = phenol + acetone"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Four Laboratory Routes to Phenol: given phenol = 89, acetone = 99, find cumene route.",
+     "a": "188",
+     "self_check": false
+    },
+    {
+     "q": "For Four Laboratory Routes to Phenol: given phenol = 15.5, acetone = 71, find cumene route.",
+     "a": "86.5",
+     "self_check": false
+    },
+    {
+     "q": "For Four Laboratory Routes to Phenol: given phenol = 42, acetone = 94, find cumene route.",
+     "a": "136",
+     "self_check": false
+    },
+    {
+     "q": "For Four Laboratory Routes to Phenol: given phenol = 50, acetone = 39, find cumene route.",
+     "a": "89",
+     "self_check": false
+    },
+    {
+     "q": "For Four Laboratory Routes to Phenol: given phenol = 74, acetone = 35, find cumene route.",
+     "a": "109",
+     "self_check": false
+    },
+    {
+     "q": "For Four Laboratory Routes to Phenol: given phenol = 10.4, acetone = 15.3, find cumene route.",
+     "a": "25.7",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech202.7.4.4.2",
+   "title": "Acid Strength Ratio from pKa Values",
+   "converted_to_compute": true,
+   "formula": "strength_ratio = 10 ** (pka_b - pka_a)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "strength_ratio = 10 ** (pka_b - pka_a)",
+     "compute": "strength_ratio = 10 ** (pka_b - pka_a)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Acid Strength Ratio from pKa Values: given pka_b = 6.8, pka_a = 57, find strength ratio.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Acid Strength Ratio from pKa Values: given pka_b = 54, pka_a = 61, find strength ratio.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Acid Strength Ratio from pKa Values: given pka_b = 45, pka_a = 63, find strength ratio.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Acid Strength Ratio from pKa Values: given pka_b = 19.1, pka_a = 64, find strength ratio.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Acid Strength Ratio from pKa Values: given pka_b = 28, pka_a = 15.4, find strength ratio.",
+     "a": "3981071705534.969238",
+     "self_check": false
+    },
+    {
+     "q": "For Acid Strength Ratio from pKa Values: given pka_b = 16.9, pka_a = 28, find strength ratio.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech202.7.5.1",
+   "title": "Fermentation Stoichiometry of Glucose to Ethanol",
+   "converted_to_compute": true,
+   "formula": "ethanol_moles = 2 * glucose_moles",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ethanol_moles = 2 * glucose_moles",
+     "compute": "ethanol_moles = 2 * glucose_moles"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Fermentation Stoichiometry of Glucose to Ethanol: given glucose_moles = 4.3, find ethanol moles.",
+     "a": "8.6",
+     "self_check": false
+    },
+    {
+     "q": "For Fermentation Stoichiometry of Glucose to Ethanol: given glucose_moles = 1, find ethanol moles.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "For Fermentation Stoichiometry of Glucose to Ethanol: given glucose_moles = 19.7, find ethanol moles.",
+     "a": "39.4",
+     "self_check": false
+    },
+    {
+     "q": "For Fermentation Stoichiometry of Glucose to Ethanol: given glucose_moles = 8.1, find ethanol moles.",
+     "a": "16.2",
+     "self_check": false
+    },
+    {
+     "q": "For Fermentation Stoichiometry of Glucose to Ethanol: given glucose_moles = 10.4, find ethanol moles.",
+     "a": "20.8",
+     "self_check": false
+    },
+    {
+     "q": "For Fermentation Stoichiometry of Glucose to Ethanol: given glucose_moles = 4.5, find ethanol moles.",
+     "a": "9",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech202.7.6.1.1",
+   "title": "Making Ethers: Acid Dehydration and Williamson Synthesis",
+   "converted_to_compute": true,
+   "formula": "williamson_pair = primary_halide + sodium_alkoxide",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "williamson_pair = primary_halide + sodium_alkoxide",
+     "compute": "williamson_pair = primary_halide + sodium_alkoxide"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Making Ethers: Acid Dehydration and Williamson Synthesis: given primary_halide = 42, sodium_alkoxide = 54, find williamson pair.",
+     "a": "96",
+     "self_check": false
+    },
+    {
+     "q": "For Making Ethers: Acid Dehydration and Williamson Synthesis: given primary_halide = 12.3, sodium_alkoxide = 27, find williamson pair.",
+     "a": "39.3",
+     "self_check": false
+    },
+    {
+     "q": "For Making Ethers: Acid Dehydration and Williamson Synthesis: given primary_halide = 97, sodium_alkoxide = 87, find williamson pair.",
+     "a": "184",
+     "self_check": false
+    },
+    {
+     "q": "For Making Ethers: Acid Dehydration and Williamson Synthesis: given primary_halide = 99, sodium_alkoxide = 18.9, find williamson pair.",
+     "a": "117.9",
+     "self_check": false
+    },
+    {
+     "q": "For Making Ethers: Acid Dehydration and Williamson Synthesis: given primary_halide = 97, sodium_alkoxide = 89, find williamson pair.",
+     "a": "186",
+     "self_check": false
+    },
+    {
+     "q": "For Making Ethers: Acid Dehydration and Williamson Synthesis: given primary_halide = 77, sodium_alkoxide = 58, find williamson pair.",
+     "a": "135",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech202.7.6.3.1",
+   "title": "Reactions of Ethers: HI Cleavage and Activated Ring Substitution",
+   "converted_to_compute": true,
+   "formula": "anisole_cleavage = phenol + methyl_iodide",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "anisole_cleavage = phenol + methyl_iodide",
+     "compute": "anisole_cleavage = phenol + methyl_iodide"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Reactions of Ethers: HI Cleavage and Activated Ring Substitution: given phenol = 30, methyl_iodide = 0.7, find anisole cleavage.",
+     "a": "30.7",
+     "self_check": false
+    },
+    {
+     "q": "For Reactions of Ethers: HI Cleavage and Activated Ring Substitution: given phenol = 67, methyl_iodide = 46, find anisole cleavage.",
+     "a": "113",
+     "self_check": false
+    },
+    {
+     "q": "For Reactions of Ethers: HI Cleavage and Activated Ring Substitution: given phenol = 66, methyl_iodide = 87, find anisole cleavage.",
+     "a": "153",
+     "self_check": false
+    },
+    {
+     "q": "For Reactions of Ethers: HI Cleavage and Activated Ring Substitution: given phenol = 25, methyl_iodide = 41, find anisole cleavage.",
+     "a": "66",
+     "self_check": false
+    },
+    {
+     "q": "For Reactions of Ethers: HI Cleavage and Activated Ring Substitution: given phenol = 99, methyl_iodide = 14.6, find anisole cleavage.",
+     "a": "113.6",
+     "self_check": false
+    },
+    {
+     "q": "For Reactions of Ethers: HI Cleavage and Activated Ring Substitution: given phenol = 60, methyl_iodide = 80, find anisole cleavage.",
+     "a": "140",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

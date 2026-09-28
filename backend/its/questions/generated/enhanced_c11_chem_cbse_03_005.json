@@ -34,6 +34,36 @@
      "q": "Design a mnemonic or visual scheme to remember the order of orbital filling (aufbau) for periods 4–7 that clearly shows where s, p, d, f blocks begin and end. Explain how your scheme helps predict the number of elements in each period.",
      "a": "Example scheme: Write n=4 row: 4s (2) → 3d (10) → 4p (6) = 18 elements. n=5: 5s (2) → 4d (10) → 5p (6) = 18. n=6: 6s (2) → 4f (14) → 5d (10) → 6p (6) = 32. n=7: 7s (2) → 5f (14) → 6d (10) → 7p (6) = 32 (incomplete). A good scheme uses arrows or a diagonal diagram (Madelung rule) linking (n+l) values. Poor answers merely list orbitals without connecting to period length or block boundaries.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Elements are classified into s, p, d, and f blocks based on the subshell (s, p, d, f) that receives the last electron (______ electron) in their ground-state electronic configuration.",
+     "a": "differentiating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Notice the two tall columns on the far left (Groups 1 & 2), the six columns on the far right (Groups 13–18), the ten columns in the middle (Groups 3–12), and the two ______ rows at the bottom.",
+     "a": "separate",
+     "self_check": true
+    },
+    {
+     "q": "What is Elements? State the definition given in this lesson.",
+     "a": "Elements are classified into s, p, d, and f blocks based on the subshell (s, p, d, f) that receives the last electron (differentiating electron) in their ground-state electronic configuration.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Hydrogen (______s¹) shows dual behaviour and is placed separately.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Elements?",
+     "a": "For example, they say \"Group 13 is p-block, so aluminium is p-block\" without referencing the 3p¹ electron.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write the general outer electronic configuration for each block, locate any element (Z ≤ 118) in the correct block/group/period using its configuration, and justify the placement of helium in the p-block and hydrogen separately.",
+     "self_check": true
     }
    ]
   }

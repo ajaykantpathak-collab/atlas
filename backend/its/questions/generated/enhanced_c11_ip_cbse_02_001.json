@@ -34,6 +34,31 @@
      "q": "Design a short Python program (3-5 lines) that demonstrates at least three key features of Python simultaneously. Explain which feature each line illustrates.",
      "a": "Good answer example:\n```python\ndata = [1, 2, 3]          # Dynamic typing: no type declaration\ndata.append(\"hello\")      # Heterogeneous lists: dynamic typing + high-level data structures\nprint(sum(x for x in data if isinstance(x, int)))  # Interpreted execution, generator expression, built-in functions\n```\nFeatures shown: dynamic typing, high-level built-in data structures (list), interpreted immediate execution, first-class functions/generators. A poor answer (e.g., a trivial `print(\"Hello\")`) shows the student cannot synthesize multiple features; they need practice mapping code constructs to language characteristics.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Python is a high-level, interpreted, general-purpose programming language ______ by dynamic typing, automatic memory management, and a design philosophy that emphasizes code readability through significant indentation.",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to build a tool that can quickly process your school's attendance data stored in CSV files, run on both your Windows laptop and the lab's Linux computers, and be readable enough that your teacher can ______ the logic.",
+     "a": "understand",
+     "self_check": true
+    },
+    {
+     "q": "What is Python? State the definition given in this lesson.",
+     "a": "Python is a high-level, interpreted, general-purpose programming language characterized by dynamic typing, automatic memory management, and a design philosophy that emphasizes code readability through significant indentation.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to list at least five key features of Python (e.g., interpreted, dynamically typed, cross-platform, open source, large standard library) and explain how each feature influences program development or execution.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to build a tool that can quickly process your school's ______ data stored in CSV files, run on both your Windows laptop and the lab's Linux computers, and be readable enough that your teacher can understand the logic.",
+     "a": "attendance",
+     "self_check": true
     }
    ]
   }

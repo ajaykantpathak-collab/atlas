@@ -34,6 +34,31 @@
      "q": "A student says: \"If a sound is very loud, it must be within the audible range.\" Evaluate this statement.",
      "a": "The statement is incorrect. Loudness (amplitude) and audibility (frequency range) are independent. An infrasound wave (below 20 Hz) can be very loud (high amplitude) but still inaudible — you might feel it as vibration but not hear it. An ultrasound wave (above 20,000 Hz) can be very loud but inaudible. Loudness does not determine whether a sound is audible — frequency does. A sound must be within 20-20,000 Hz to be audible, regardless of its loudness. A wrong evaluation (agreeing with the student) confuses amplitude (loudness) with frequency (audibility).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The audible range is the range of sound frequencies that the human ear can detect: ______ 20 Hz to 20,000 Hz (20 kHz).",
+     "a": "approximately",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The lowest ______ you can hear is about 20 Hz — a deep rumble.",
+     "a": "sound",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The lowest sound you can hear is about ______ Hz — a deep rumble.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can state the audible range (20 Hz - 20,000 Hz), define infrasound and ultrasound, explain why the upper limit decreases with age, and give examples of sounds within and outside the audible range.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ sound you can hear is about 20 Hz — a deep rumble.",
+     "a": "lowest",
+     "self_check": true
     }
    ]
   }

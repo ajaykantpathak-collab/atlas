@@ -11,7 +11,7 @@
      "self_check": true
     },
     {
-     "q": "Explain why the following two code fragments are NOT logically equivalent for all values of `x`:\n```python",
+     "q": "Explain why the following two code fragments are NOT logically equivalent for all values of `x`:\n```python\n# Fragment A\nif x > 0:\n    if x < 10:\n        print(\"Small positive\")\n    else:\n        print(\"Large positive\")\nelse:\n    print(\"Non-positive\")\n\n# Fragment B\nif x > 0 and x < 10:\n    print(\"Small positive\")\nelif x > 0:\n    print(\"Large positive\")\nelse:\n    print(\"Non-positive\")\n```",
      "a": "They are logically equivalent for all integer/real `x`; the statement in the question is false — they ARE equivalent. Fragment A uses nesting: the inner `if-else` only runs when `x > 0`. Fragment B flattens it using `and` and `elif`. Both print \"Small positive\" for 0 < x < 10, \"Large positive\" for x >= 10, and \"Non-positive\" for x <= 0. A student who claims they are not equivalent likely misunderstands that `elif x > 0` in Fragment B is only reached when the first condition `x > 0 and x < 10` is false, which implies `x >= 10` (since `x > 0` must be true to reach that `elif`). This misconception stems from not tracing the short-circuit logic of `elif`.",
      "self_check": true
     },
@@ -33,6 +33,31 @@
     {
      "q": "Design a real-world problem (Indian context) that requires a three-level nested if-else structure where the outer condition has three branches, the middle has two, and the inner has two. Write the problem statement and the skeleton code with comments only (no actual conditions).",
      "a": "Problem: A bank offers loan interest rates based on customer type (Salaried, Self-Employed, Student), loan amount (≤5 lakh, >5 lakh), and credit score (≥750, <750). Skeleton:\n```python\ncustomer_type = input(\"Type (Salaried/Self-Employed/Student): \")\nloan_amount = float(input(\"Loan amount in lakhs: \"))\ncredit_score = int(input(\"Credit score: \"))\n\nif customer_type == \"Salaried\":\n    # outer branch 1\n    if loan_amount <= 5:\n        # middle branch 1\n        if credit_score >= 750:\n            # inner branch 1\n            pass\n        else:\n            # inner branch 2\n            pass\n    else:\n        # middle branch 2\n        if credit_score >= 750:\n            pass\n        else:\n            pass\nelif customer_type == \"Self-Employed\":\n    # outer branch 2 (similar structure)\n    pass\nelse:\n    # outer branch 3 (Student)\n    pass\n```\nA poor answer would use an if-elif-else ladder for customer_type but then fail to nest the subsequent decisions inside each branch, showing confusion about when nesting is required (hierarchical decisions) vs when a ladder suffices (flat, mutually exclusive choices at same level).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Nested if statements allow placing one if-else construct inside another to evaluate ______ conditions, while the if-elif-else ladder provides a sequential multi-branch structure where only the first true condition's block executes and subsequent conditions are skipped.",
+     "a": "hierarchical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ticket pricing system for Delhi Metro: ______ under 5 ride free, students (5-18) get 50% discount, seniors (60+) get 30% discount, and everyone else pays full fare.",
+     "a": "children",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now consider a nested scenario: \"If the passenger has a smart card, apply an additional ______% discount on the already computed fare.\" Here the smart-card check is independent of age category, so it nests inside each branch.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly write, trace, and debug nested if-else structures and if-elif-else ladders for problems requiring three or more mutually exclusive or hierarchical decision paths, and can explain the exact execution flow for given inputs.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a ticket pricing system for Delhi Metro: children under 5 ride free, students (5-18) get 50% discount, seniors (60+) get 30% discount, and everyone else pays full fare.",
+     "a": "designing",
      "self_check": true
     }
    ]

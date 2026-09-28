@@ -2,6 +2,100 @@
  "catalog": "catalog_class6_science_fecu110.json",
  "concepts": [
   {
+   "id": "fecu.10.2",
+   "title": "Germination of a Seed",
+   "converted_to_compute": true,
+   "formula": "germination = seed + air + water + warmth",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "germination = seed + air + water + warmth",
+     "compute": "germination = seed + air + water + warmth"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Germination of a Seed: given seed = 26, air = 62, water = 3.5, warmth = 80, find germination.",
+     "a": "171.5",
+     "self_check": false
+    },
+    {
+     "q": "For Germination of a Seed: given seed = 20, air = 73, water = 62, warmth = 26, find germination.",
+     "a": "181",
+     "self_check": false
+    },
+    {
+     "q": "For Germination of a Seed: given seed = 77, air = 40, water = 80, warmth = 91, find germination.",
+     "a": "288",
+     "self_check": false
+    },
+    {
+     "q": "For Germination of a Seed: given seed = 29, air = 76, water = 52, warmth = 58, find germination.",
+     "a": "215",
+     "self_check": false
+    },
+    {
+     "q": "For Germination of a Seed: given seed = 98, air = 4.3, water = 60, warmth = 42, find germination.",
+     "a": "204.3",
+     "self_check": false
+    },
+    {
+     "q": "For Germination of a Seed: given seed = 90, air = 91, water = 56, warmth = 99, find germination.",
+     "a": "336",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fecu.10.3",
+   "title": "Life Cycles of Plants and Animals",
+   "converted_to_compute": true,
+   "formula": "cycle = birth + growth + reproduction",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "cycle = birth + growth + reproduction",
+     "compute": "cycle = birth + growth + reproduction"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Life Cycles of Plants and Animals: given birth = 61, growth = 40, reproduction = 14.8, find cycle.",
+     "a": "115.8",
+     "self_check": false
+    },
+    {
+     "q": "For Life Cycles of Plants and Animals: given birth = 81, growth = 77, reproduction = 27, find cycle.",
+     "a": "185",
+     "self_check": false
+    },
+    {
+     "q": "For Life Cycles of Plants and Animals: given birth = 14.2, growth = 75, reproduction = 8.7, find cycle.",
+     "a": "97.9",
+     "self_check": false
+    },
+    {
+     "q": "For Life Cycles of Plants and Animals: given birth = 22, growth = 75, reproduction = 11.2, find cycle.",
+     "a": "108.2",
+     "self_check": false
+    },
+    {
+     "q": "For Life Cycles of Plants and Animals: given birth = 57, growth = 17.2, reproduction = 90, find cycle.",
+     "a": "164.2",
+     "self_check": false
+    },
+    {
+     "q": "For Life Cycles of Plants and Animals: given birth = 12.9, growth = 54, reproduction = 21, find cycle.",
+     "a": "87.9",
+     "self_check": false
+    }
+   ]
+  },
+  {
    "id": "fecu.10.1",
    "title": "Characteristics of Living Beings",
    "solution_type": "verify_property",
@@ -19,50 +113,6 @@
     {
      "q": "How do plants show response to stimuli?",
      "a": "Shoots bend toward light; mimosa leaves fold on touch.",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "fecu.10.2",
-   "title": "Germination of a Seed",
-   "solution_type": "verify_property",
-   "questions": [
-    {
-     "q": "What is germination?",
-     "a": "A seed sprouting into a seedling when it gets air, water and warmth.",
-     "self_check": true
-    },
-    {
-     "q": "Name the conditions needed for germination.",
-     "a": "Air (oxygen), water and warmth - light is not needed for most seeds.",
-     "self_check": true
-    },
-    {
-     "q": "What comes out first from a germinating seed?",
-     "a": "The baby root (radicle), which grows downward, then the shoot.",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "fecu.10.3",
-   "title": "Life Cycles of Plants and Animals",
-   "solution_type": "verify_property",
-   "questions": [
-    {
-     "q": "What is a life cycle?",
-     "a": "The stages of an organism's life from birth to reproduction of the next generation.",
-     "self_check": true
-    },
-    {
-     "q": "Name the stages of a butterfly's life cycle.",
-     "a": "Egg -> larva (caterpillar) -> pupa -> adult butterfly.",
-     "self_check": true
-    },
-    {
-     "q": "Do all animals have the same life cycle stages?",
-     "a": "No - mammals grow young directly; insects and frogs change form (metamorphosis).",
      "self_check": true
     }
    ]

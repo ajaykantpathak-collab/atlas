@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch14_4",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch14_4",
+   "title": "c9_math_ch14_4",
+   "questions": [
+    {
+     "q": "What is the formula for the mean of ungrouped data with observations \\(x_1, x_2, ..., x_n\\)?\n\nWhat is the formula for the mean of ungrouped data with observations \\(x_1, x_2, ..., x_n\\)?",
+     "a": "\\(\\bar{x} = \\frac{x_1 + x_2 + ... + x_n}{n}\\). A wrong answer like \\(\\bar{x} = x_1 + x_2 + ... + x_n\\) reveals the student forgets to divide by the number of observations, confusing mean with total sum — a critical error that would make the mean unreasonably large.\n\n\\(\\bar{x} = \\frac{x_1 + x_2 + ... + x_n}{n}\\). A wrong answer like \\(\\bar{x} = x_1 + x_2 + ... + x_n\\) reveals the student forgets to divide by the number of observations, confusing mean with total sum — a critical error that would make the mean unreasonably large.",
+     "self_check": true
+    },
+    {
+     "q": "Why do we use the class mark (midpoint) instead of the lower or upper limit when calculating the mean of grouped data?\n\nWhy do we use the class mark (midpoint) instead of the lower or upper limit when calculating the mean of grouped data?",
+     "a": "We use the class mark because it represents the best estimate of a typical value within the class interval, assuming data is evenly distributed. Using the lower or upper limit would systematically underestimate or overestimate the mean. A wrong answer suggesting we use the lower limit shows the student doesn’t grasp that grouped data loses exact values, so we need a representative value — this reflects a lack of understanding of approximation in statistics.\n\nWe use the class mark because it represents the best estimate of a typical value within the class interval, assuming data is evenly distributed. Using the lower or upper limit would systematically underestimate or overestimate the mean. A wrong answer suggesting we use the lower limit shows the student doesn’t grasp that grouped data loses exact values, so we need a representative value — this reflects a lack of understanding of approximation in statistics.",
+     "self_check": true
+    },
+    {
+     "q": "Find the mean of the following ungrouped data: 12, 15, 18, 21, 24.\n\nFind the mean of the following ungrouped data: 12, 15, 18, 21, 24.",
+     "a": "Step 1: Sum = 12 + 15 + 18 + 21 + 24 = 90  \nStep 2: Number of observations, n = 5  \nStep 3: Mean = 90 / 5 = 18  \nAnswer: 18  \nA wrong answer like 90 (forgetting to divide) or 15 (miscalculating sum as 75) reveals arithmetic errors in addition or division — specifically, failing to complete the full process of summing and then dividing.\n\nStep 1: Sum = 12 + 15 + 18 + 21 + 24 = 90  \nStep 2: Number of observations, n = 5  \nStep 3: Mean = 90 / 5 = 18  \nAnswer: 18  \nA wrong answer like 90 (forgetting to divide) or 15 (miscalculating sum as 75) reveals arithmetic errors in addition or division — specifically, failing to complete the full process of summing and then dividing.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mean of ungrouped data [10, 20, 30] with the mean of grouped data where 10 and 20 are in class 0-25 (frequency 2) and 30 is in class 25-50 (frequency 1). What do you notice?\n\nCompare the mean of ungrouped data [10, 20, 30] with the mean of grouped data where 10 and 20 are in class 0-25 (frequency 2) and 30 is in class 25-50 (frequency 1). What do you notice?",
+     "a": "Ungrouped mean: (10+20+30)/3 = 60/3 = 20  \nGrouped: Class marks = 12.5 (for 0-25) and 37.5 (for 25-50)  \nSum of f_i x_i = (2 × 12.5) + (1 × 37.5) = 25 + 37.5 = 62.5  \nTotal frequency = 3  \nMean = 62.5 / 3 ≈ 20.83  \nThe grouped mean is slightly higher because the class mark 12.5 is greater than the average of 10 and 20 (which is 15), and 37.5 > 30. A wrong answer saying the means are equal reveals the student doesn’t realize that grouping approximates data and can shift the mean depending on distribution within intervals.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculated the mean of grouped data as follows:  \nClass: 0-10, 10-20, 20-30  \nFrequency: 3, 5, 2  \nThey used lower limits (0, 10, 20) and got mean = (3×0 + 5×10 + 2×20)/(3+5+2) = 90/10 = 9.  \nIs this correct? Justify your answer.\n\nA student calculated the mean of grouped data as follows:  \nClass: 0-10, 10-20, 20-30  \nFrequency: 3, 5, 2  \nThey used lower limits (0, 10, 20) and got mean = (3×0 + 5×10 + 2×20)/(3+5+2) = 90/10 = 9.  \nIs this correct? Justify your answer.",
+     "a": "No, it is incorrect. The student used lower limits instead of class marks. Correct class marks: 5, 15, 25.  \nCorrect sum = (3×5) + (5×15) + (2×25) = 15 + 75 + 50 = 140  \nTotal frequency = 10  \nMean = 140/10 = 14  \nUsing lower limits assumes all data points are at the start of each interval, which grossly underestimates the mean. A wrong answer saying \"yes, it’s correct\" reveals the student doesn’t understand that grouped data requires a representative value per class — a fundamental flaw in applying the formula.\n\nNo, it is incorrect. The student used lower limits instead of class marks. Correct class marks: 5, 15, 25.  \nCorrect sum = (3×5) + (5×15) + (2×25) = 15 + 75 + 50 = 140  \nTotal frequency = 10  \nMean = 140/10 = 14  \nUsing lower limits assumes all data points are at the start of each interval, which grossly underestimates the mean. A wrong answer saying \"yes, it’s correct\" reveals the student doesn’t understand that grouped data requires a representative value per class — a fundamental flaw in applying the formula.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario where calculating the mean of grouped data would be more practical than ungrouped data, and explain why.\n\nCreate a real-world scenario where calculating the mean of grouped data would be more practical than ungrouped data, and explain why.",
+     "a": "Example: Recording annual household incomes in a city survey. Exact incomes vary widely and are time-consuming to list individually, but grouping into ranges (0-2L, 2-5L, 5-10L, etc.) with frequencies is efficient. Mean income gives a sense of average economic status. A poor answer might say \"because it’s easier\" without explaining why grouping arises naturally in large datasets or how the mean still provides meaningful interpretation despite approximation.\n\nExample: Recording annual household incomes in a city survey. Exact incomes vary widely and are time-consuming to list individually, but grouping into ranges (0-2L, 2-5L, 5-10L, etc.) with frequencies is efficient. Mean income gives a sense of average economic status. A poor answer might say \"because it’s easier\" without explaining why grouping arises naturally in large datasets or how the mean still provides meaningful interpretation despite approximation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

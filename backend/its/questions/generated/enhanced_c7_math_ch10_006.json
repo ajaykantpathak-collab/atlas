@@ -34,6 +34,21 @@
      "q": "Create a real-world word problem involving money or temperature where the solution requires calculating the product of a positive integer and a negative integer, and provide its solution.",
      "a": "A good problem: \"A deep-sea submarine descends at a constant rate of 4 metres per minute. What is its change in position after 7 minutes?\" Solution: The rate of descent is $-4$ metres per minute, and time is $+7$ minutes. Multiplying $+7 \\times (-4) = -28$, so the submarine is 28 metres below its starting point ($-28$ metres). A poor answer would use two positive numbers or fail to incorporate a negative integer representing a loss or downward direction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The product of a positive integer and a negative integer is always a negative integer, found by ______ their absolute values and attaching a negative sign.",
+     "a": "multiplying",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To begin solving these without writing out long ______ chains, we write down the numbers and multiply their absolute values first, just like whole numbers.",
+     "a": "addition",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can correctly compute the product of any positive and negative integer, explain the sign rule using repeated addition or patterns, and solve real-world problems involving financial debts, temperature drops, or elevation losses.",
+     "self_check": true
     }
    ]
   }

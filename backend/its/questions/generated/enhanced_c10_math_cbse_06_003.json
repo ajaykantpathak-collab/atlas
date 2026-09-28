@@ -34,6 +34,31 @@
      "q": "Create a real-world problem (Indian context: farming, construction, tailoring, etc.) that requires BPT to solve. The problem must involve a triangle with a parallel line dividing sides, give three segment lengths, and ask for the fourth. Write the problem statement and the complete solution.",
      "a": "Sample problem: \"A triangular field ABC has a boundary wall along BC. A farmer wants to put a fence DE parallel to BC connecting sides AB and AC. He measures AD = 15 m, DB = 25 m, and AE = 18 m. How much fencing wire does he need for EC?\" Solution: AD/DB = AE/EC → 15/25 = 18/EC → 3/5 = 18/EC → EC = 30 m. A poor problem (e.g., missing parallel condition, or asking for a length not determinable by BPT) reveals the student does not understand what BPT actually determines — they confuse it with similarity or Pythagoras.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If a line is drawn parallel to one side of a triangle ______ the other two sides at distinct points, then it divides those two sides in the same ratio.",
+     "a": "intersecting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ garden plot with vertices at three trees.",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "What is If a line? State the definition given in this lesson.",
+     "a": "If a line is drawn parallel to one side of a triangle intersecting the other two sides at distinct points, then it divides those two sides in the same ratio.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about If a line?",
+     "a": "Students write AD/AB = AE/AC instead of AD/DB = AE/EC.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state the theorem with correct conditions, identify the parallel line and corresponding segments in any triangle diagram, set up the correct proportion equation, and solve for unknown lengths in multi-step board exam problems involving nested triangles or combined figures.",
+     "self_check": true
     }
    ]
   }

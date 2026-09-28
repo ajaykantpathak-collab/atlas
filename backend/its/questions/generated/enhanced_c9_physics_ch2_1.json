@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a meter scale, a toy car, and tape to demonstrate that distance ≥ |displacement|. Describe the procedure, measurements, and how you would record results in a table.",
      "a": "Procedure: Mark start point A. Run car along a curved path (e.g., half-circle) to point B. Measure curved path length with thread (distance) and straight-line AB (displacement magnitude). Repeat for different paths. Table columns: Path shape, Distance (m), Displacement magnitude (m), Difference. A poor answer (e.g., only straight line) fails to show path-dependence of distance.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Distance is a scalar quantity ______ the total path length traveled by an object, with SI unit meter (m).",
+     "a": "measuring",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ask: \"What is the total ground covered?\" (distance) and \"Where is the student relative to the start?\" (______).",
+     "a": "displacement",
+     "self_check": true
+    },
+    {
+     "q": "What is Distance? State the definition given in this lesson.",
+     "a": "Distance is a scalar quantity measuring the total path length traveled by an object, with SI unit meter (m).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Introduce a number line: mark start at ______, each turn as a coordinate.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Distance?",
+     "a": "Students think displacement is \"distance with a direction sign\" and calculate it by adding signed segment lengths (e.g., +5 for east, -3 for west) but then take the absolute value of the sum, missing that displacement is the vector from start to end, not the algebraic sum of signed distances.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can calculate both distance and displacement for a given multi-segment motion described in words or a diagram, state the correct SI units, and explain why distance is always greater than or equal to the magnitude of displacement.",
+     "self_check": true
     }
    ]
   }

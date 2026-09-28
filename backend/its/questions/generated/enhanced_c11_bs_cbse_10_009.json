@@ -31,8 +31,23 @@
      "self_check": true
     },
     {
-     "q": "Design a hybrid retail format for a Tier-3 Indian town (population ~2 lakh) that combines supermarket efficiencies with kirana-store convenience. Specify: (a) Product categories; (b) Service model; (c) Payment options; (d) Location; (e) One unique feature addressing local needs. Justify each choice.",
-     "a": "(a) Staples, fresh produce, daily-use FMCG, basic electronics (chargers, bulbs), school supplies—high-frequency, low-involvement items. (b) Assisted self-service: staff replenish shelves and guide elderly customers; home delivery within 3 km for orders >₹500. (c) Cash, UPI, and weekly credit for KYC-verified local residents (bridges cash-only limitation). (d) Near residential clusters, not main market—reduces rent, accessible by foot/two-wheeler. (e) \"Kirana Corner\": dedicated shelf for local brands (pickles, snacks, handicrafts) on consignment—supports local economy, differentiates from national chains. A generic answer copying metro formats without local adaptation reveals lack of creative application.",
+     "q": "Give the correct order of design decisions in a hybrid format that blends supermarket efficiency with kirana convenience.",
+     "a": "The design runs: (1) Stock high-frequency low-involvement goods such as staples, fresh produce and daily-use items (2) Run assisted self-service with staff who guide elderly customers (3) Take cash and UPI plus weekly credit for verified local residents (4) Locate near residential clusters and add short-range home delivery for local orders. A wrong answer that copies the cash-only rule untouched shows the student has missed that a hybrid must soften each supermarket limitation that the kirana customarily solves.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A supermarket is a large-scale retail ______ operating on a self-service basis, offering a wide assortment of food, grocery, and non-food consumer goods at relatively low prices through bulk purchasing, low operational costs, and low profit margins, with sales conducted strictly on a cash-and-carry basis.",
+     "a": "establishment",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you walk into a Big Bazaar or DMart on a weekend: you pick up a trolley, navigate aisles labelled \"Staples,\" \"Fresh Produce,\" \"Home Care,\" select branded items with visible price tags, and pay at a checkout counter—no ______ persuades you, no credit is offered, and you carry bags home.",
+     "a": "salesperson",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish supermarkets and discount stores from departmental stores and chain stores using at least four differentiating features with Indian examples; (2) Evaluate the suitability of each format for specific product categories and consumer segments by analysing the trade-offs between price, service.",
      "self_check": true
     }
    ]

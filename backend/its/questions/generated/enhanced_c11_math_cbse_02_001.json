@@ -34,6 +34,26 @@
      "q": "Create a real-world scenario involving two finite sets (e.g., menu items and sizes, shirt colors and sizes) where the Cartesian product naturally models the situation. Define your sets, write the Cartesian product, and explain what each ordered pair represents in your context. Then, explain why swapping the order of the sets would change the meaning of the ordered pairs.",
      "a": "Example: A = {Small, Medium, Large} (sizes), B = {Red, Blue} (colors). A × B = {(Small, Red), (Small, Blue), (Medium, Red), (Medium, Blue), (Large, Red), (Large, Blue)}. Each pair represents a specific T-shirt variant: first coordinate = size, second = color. B × A = {(Red, Small), (Red, Medium), ...} would represent color-first variants, which is a different cataloguing system. A poor answer uses sets where order doesn't matter (e.g., {boys, girls} × {boys, girls}) or fails to explain the semantic difference, revealing they don't understand that ordered pairs encode directional relationships.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ product of two non-empty sets A and B, denoted by A × B, is the set of all ordered pairs (a, b) where a ∈ A and b ∈ B.",
+     "a": "Cartesian",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ timetable: you have a set of 3 subjects {Math, Physics, Chemistry} and a set of 2 teachers {Ms.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly construct the Cartesian product of any two given finite sets, determine the number of elements in the product, identify when two Cartesian products are equal, and extract the original sets from a given Cartesian product.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a school timetable: you have a set of 3 subjects {Math, Physics, Chemistry} and a set of 2 teachers {Ms.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

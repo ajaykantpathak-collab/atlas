@@ -34,6 +34,21 @@
      "q": "Design a simple investigation using a torch bulb, a dry cell, and connecting wires to test whether a glass bulb filled with air behaves differently if the glass is cracked, and predict the outcome.",
      "a": "To test this, connect a functional torch bulb in a circuit so it glows, then carefully crack the outer glass casing (under teacher supervision or using an already fused bulb) so air reaches the hot tungsten filament. The student should predict that the glowing filament will instantly burn out and turn black. A poor answer would suggest the bulb continues to shine normally, failing to account for the fact that hot tungsten reacts with oxygen in the air and oxidizes (burns out) instantly.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An electric lamp is a device that converts ______ energy into light energy (and thermal energy) through the heating of a high-resistance tungsten filament until it glows white-hot.",
+     "a": "electrical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you switch on a study lamp at your desk in the evening, you observe that ______ current flows from the battery or wall socket into the bulb, causing it to emit bright light and heat up within a fraction of a second.",
+     "a": "electrical",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can trace the energy transformation pathway from an electric cell through a circuit to an electric lamp, identifying the role of the filament, terminals, and glass bulb.",
+     "self_check": true
     }
    ]
   }

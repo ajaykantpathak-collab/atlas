@@ -34,6 +34,31 @@
      "q": "Construct a scenario where two triangles are drawn on grid paper in different orientations (one rotated or flipped). Describe how you would prove they are congruent by identifying their corresponding vertices, sides, and angles.",
      "a": "The expected answer should describe drawing a triangle on a grid, rotating or reflecting it to create a second triangle, and then listing coordinates or measuring side lengths and angles to show that all three pairs of sides and three pairs of angles match perfectly. A poor answer merely states \"they look the same\" without providing a systematic method for checking corresponding vertices and measurements.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of triangles means that two triangles have the exact same shape and size, such that when one is placed over the other, they coincide completely.",
+     "a": "Congruence",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and your friend buy two identical plastic ______ set-squares from the school stationery shop in Delhi.",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "What is Congruence of triangles? State the definition given in this lesson.",
+     "a": "Congruence of triangles means that two triangles have the exact same shape and size, such that when one is placed over the other, they coincide completely.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Congruence of triangles?",
+     "a": "This error breaks the fundamental rule of vertex-to-vertex correspondence, leading to incorrect matching of sides and angles in multi-step geometry problems.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify corresponding vertices, sides, and angles of two congruent triangles, write a congruence statement in correct vertex order, and explain why matching vertex order is critical.",
+     "self_check": true
     }
    ]
   }

@@ -4,15 +4,9 @@
   {
    "id": "iemh.105.5.1",
    "title": "The Circle and Its Symmetries",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the circle formula with pi = 22/7",
-     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 14 gives 88",
-     "compute": "circ = 2 * 22 / 7 * 14"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 14 cm (take pi = 22/7).",
@@ -49,15 +43,9 @@
   {
    "id": "iemh.105.5.2",
    "title": "Equal Chords Subtend Equal Angles",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the circle formula with pi = 22/7",
-     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 56 gives 352",
-     "compute": "circ = 2 * 22 / 7 * 56"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 56 cm (take pi = 22/7).",
@@ -94,15 +82,9 @@
   {
    "id": "iemh.105.5.3",
    "title": "Perpendicular from the Centre to a Chord",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the circle formula with pi = 22/7",
-     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 35 gives 220",
-     "compute": "circ = 2 * 22 / 7 * 35"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 35 cm (take pi = 22/7).",
@@ -140,6 +122,8 @@
    "id": "iemh.105.5.4",
    "title": "Chord Length from Radius and Distance",
    "converted_to_compute": false,
+   "formula": "chord = 2 * sqrt(r * r - d * d)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 14 cm (take pi = 22/7).",
@@ -176,15 +160,9 @@
   {
    "id": "iemh.105.5.5",
    "title": "Angles in the Same Segment",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the circle formula with pi = 22/7",
-     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 7 gives 44",
-     "compute": "circ = 2 * 22 / 7 * 7"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 7 cm (take pi = 22/7).",

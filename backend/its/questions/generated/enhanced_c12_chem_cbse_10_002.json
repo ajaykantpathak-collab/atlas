@@ -34,6 +34,36 @@
      "q": "Design a simple experiment to demonstrate mutarotation of glucose using a polarimeter. Outline the steps and the expected observation.",
      "a": "Dissolve pure α‑D‑glucose (m.p. 419 K) in water and measure optical rotation immediately; then measure at intervals until constant. Rotation changes from +112° to +52.7° (equilibrium). Repeat with β‑D‑glucose (m.p. 423 K, initial +18.7°) — rotation rises to +52.7°. A poor design (e.g., using solid glucose, not measuring over time, or expecting no change) reveals the student doesn’t understand that mutarotation is the interconversion of anomers via the open chain in solution.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Glucose is an aldohexose (C₆H₁₂O₆) that exists in equilibrium between an open-chain aldehyde form and two cyclic hemiacetal forms (α‑ and β‑pyranose) differing only in the ______ at the anomeric carbon (C‑1).",
+     "a": "configuration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a spoonful of honey or a ripe grape — the sweetness comes largely from glucose.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What is Glucose? State the definition given in this lesson.",
+     "a": "Glucose is an aldohexose (C₆H₁₂O₆) that exists in equilibrium between an open-chain aldehyde form and two cyclic hemiacetal forms (α‑ and β‑pyranose) differing only in the configuration at the anomeric carbon (C‑1).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Glucose is an aldohexose (C₆H₁₂O₆) that exists in equilibrium between an open-chain aldehyde form and two cyclic hemiacetal forms (α‑ and β‑pyranose) differing only in the configuration at the anomeric carbon (C‑______).",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Glucose?",
+     "a": "Students often write the open-chain Fischer projection as the “only” structure of glucose and then try to explain all reactions from it.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) draw the Fischer projection of D‑glucose and the Haworth projections of α‑ and β‑D‑glucopyranose, (2) explain why glucose fails Schiff’s test and does not form a bisulphite addition product, (3) write balanced equations for its oxidation with Br₂/H₂O, HNO₃, and HI, and (4) describe mutarotation as the interconversion.",
+     "self_check": true
     }
    ]
   }

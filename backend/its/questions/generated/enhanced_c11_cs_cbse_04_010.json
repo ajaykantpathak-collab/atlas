@@ -34,6 +34,26 @@
      "q": "Design a small program that demonstrates the difference between shallow copy and deep copy for a nested mutable structure (e.g., list of lists). Show how mutability of inner objects affects both copy types.",
      "a": "Example:\n```python\nimport copy\noriginal = [[1,2], [3,4]]\nshallow = copy.copy(original)\ndeep = copy.deepcopy(original)\noriginal[0].append(99)\nprint(shallow)  # [[1,2,99], [3,4]] — inner list mutated\nprint(deep)     # [[1,2], [3,4]] — unchanged\n```\nA poor answer might only copy the outer list and not demonstrate nested mutation, indicating incomplete grasp of mutability propagation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In Python, a mutable data type allows modification of its internal state or contents after creation without changing its identity (memory address), while an ______ data type does not allow any modification after creation; any operation that appears to change the value actually creates a new object.",
+     "a": "immutable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a notebook (list) where you can erase and rewrite entries, versus a printed certificate (tuple) where any ______ requires reprinting the whole document.",
+     "a": "correction",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify any given Python object as mutable or immutable, predict the behavior of assignment and function parameter passing for both categories, and explain the implications for aliasing and unintended side-effects in a program.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a notebook (list) where you can erase and rewrite entries, versus a printed ______ (tuple) where any correction requires reprinting the whole document.",
+     "a": "certificate",
+     "self_check": true
     }
    ]
   }

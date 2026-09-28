@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_13_002",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_13_002",
+   "title": "c11_leg_cbse_13_002",
+   "questions": [
+    {
+     "q": "What is the constitutional definition of a 'child' in India for the purpose of Fundamental Rights, and which Article explicitly prohibits employment of children below 14 years in factories and hazardous occupations?",
+     "a": "The Constitution does not define 'child' in a single Article; the age of majority is 18 under the Indian Majority Act, 1875. Article 24 explicitly prohibits employment of children below 14 years in factories, mines, or hazardous employment. A wrong answer (e.g., citing Art. 21 or Art. 45) reveals confusion between the *prohibition of child labour* (Art. 24, justiciable) and the *directive for free education* (Art. 45, originally non-justiciable, now largely superseded by Art. 21A).",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference in legal consequences if a 13-year-old is found working in (a) a family-run agricultural field vs. (b) a family-run bangle-making unit (hazardous process) under the Child Labour (Prohibition and Regulation) Amendment Act, 2016.",
+     "a": "Under the 2016 Amendment, (a) is *permitted* if the work is after school hours/holidays and non-hazardous (Section 3(2)(a) exception for family enterprises). (b) is *strictly prohibited* because bangle-making is a scheduled hazardous process (Schedule Part A), and the family exception *does not apply* to hazardous occupations. A wrong answer reveals the misconception that the \"family enterprise\" exception is a blanket exemption; it is carved out for hazardous processes to prevent home-based exploitation.",
+     "self_check": true
+    },
+    {
+     "q": "A 16-year-old is apprehended for a heinous offence (punishment >7 years). The Juvenile Justice Board (JJB) must decide whether to try them as an adult. Apply the *three-step statutory test* under Section 15 of the JJ Act, 2015, to determine the outcome.",
+     "a": "Step 1: JJB conducts a *preliminary assessment* (not trial) within 3 months: (i) mental/physical capacity to commit offence, (ii) ability to understand consequences, (iii) circumstances of offence. Step 2: If JJB finds capacity, it *may* transfer to Children's Court (Section 18(3)). Step 3: Children's Court decides *de novo* whether to try as adult (Section 19), considering the JJB report and the child's best interest. A wrong answer (e.g., \"automatic transfer at 16\") reveals ignorance of the *discretionary, assessment-based* nature of the 2015 reform—it is not a legislative lowering of the age of majority.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 'best interest of the child' standard in a custody dispute under the Guardians and Wards Act, 1890 (Civil Court) vs. a 'child in need of care and protection' (CNCP) proceeding before the Child Welfare Committee (CWC) under the JJ Act, 2015. How does the *burden of proof* and *state's role* differ?",
+     "a": "In Guardians and Wards Act proceedings (private law), the *parents* contest custody; the court decides based on the child's welfare, but the state is a neutral arbiter. In JJ Act CNCP proceedings (public law), the *state* (via CWC/Police) initiates action *suo motu* or on complaint; the burden shifts to the *parents/guardians to prove fitness*; the state acts as *parens patriae* with a statutory duty to protect. A wrong answer conflates private family law disputes with the state's protective jurisdiction, missing that JJ Act creates a *non-adversarial, welfare-first* inquisitorial process.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The POCSO Act, 2012, by mandating mandatory reporting (Section 19) and reversing the burden of proof (Section 29), violates the presumption of innocence under Article 21 for the accused.\" Use the Supreme Court's reasoning in *Alakh Alok Srivastava v. Union of India* (2018) or similar jurisprudence.",
+     "a": "The statement is *legally unsound*. The Supreme Court upheld mandatory reporting as a *reasonable restriction* on the accused's rights to protect the *vulnerable victim class* (children), recognizing the power imbalance and trauma inhibiting disclosure. The reverse burden (Section 29) applies only to *specific offences* (penetrative/aggravated sexual assault) and only *after the prosecution proves basic facts*; it is an *evidentiary presumption*, not a conclusive proof of guilt, and is subject to judicial review. A weak answer treats \"presumption of innocence\" as absolute, ignoring that Article 21 permits *fair, just, and reasonable* procedural modifications for vulnerable groups.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a *Public Interest Litigation (PIL) prayer clause* for the Supreme Court under Article 32, seeking enforcement of the Right to Education (Art. 21A) for migrant children living in temporary settlements who are denied admission in local government schools for lack of 'residence proof'. Cite the specific statutory duty under the RTE Act, 2009.",
+     "a": "A model prayer: \"Issue a Writ of Mandamus directing the State/UT to: (1) Admit all migrant children aged 6-14 in neighbourhood schools *without* demanding residence proof, treating 'local authority' duty under Section 8/9 RTE Act as location-agnostic; (2) Appoint 'Education Volunteers' under Section 21(2) RTE Act for bridge courses; (3) Report compliance in 8 weeks.\" A poor answer asks for \"general improvement\" or cites only Art. 21A without the *statutory machinery* (S. 8, 9, 12(1)(c) RTE Act) that makes the right *operationally enforceable* against specific officials.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

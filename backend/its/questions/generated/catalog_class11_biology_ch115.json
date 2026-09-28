@@ -1,6 +1,253 @@
 {
- "catalog": "catalog_class11_biology_ch115",
+ "catalog": "catalog_class11_biology_ch115.json",
  "concepts": [
+  {
+   "id": "kebo.15.6",
+   "title": "Cardiac Output Calculation",
+   "converted_to_compute": true,
+   "formula": "cardiac_output = stroke_volume * heart_rate",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "cardiac_output = stroke_volume * heart_rate",
+     "compute": "cardiac_output = stroke_volume * heart_rate"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "kebo.15.6",
+     "question_pattern": "find the volume of blood pumped by a ventricle per minute when stroke volume is {stroke_volume} and heart rate is {heart_rate}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Cardiac Output Calculation: given stroke_volume = 29, heart_rate = 69, find cardiac output.",
+     "a": "2001",
+     "self_check": false
+    },
+    {
+     "q": "find the volume of blood pumped by a ventricle per minute when stroke volume is 29 and heart rate is 69?",
+     "a": "2001",
+     "self_check": false
+    },
+    {
+     "q": "For Cardiac Output Calculation: given stroke_volume = 117, heart_rate = 82, find cardiac output.",
+     "a": "9594",
+     "self_check": false
+    },
+    {
+     "q": "find the volume of blood pumped by a ventricle per minute when stroke volume is 117 and heart rate is 82?",
+     "a": "9594",
+     "self_check": false
+    },
+    {
+     "q": "For Cardiac Output Calculation: given stroke_volume = 116, heart_rate = 118, find cardiac output.",
+     "a": "13688",
+     "self_check": false
+    },
+    {
+     "q": "find the volume of blood pumped by a ventricle per minute when stroke volume is 116 and heart rate is 118?",
+     "a": "13688",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebo.15.7",
+   "title": "Duration of Cardiac Cycle",
+   "converted_to_compute": true,
+   "formula": "cycle_duration = 60 / heart_rate",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "cycle_duration = 60 / heart_rate",
+     "compute": "cycle_duration = 60 / heart_rate"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "kebo.15.7",
+     "question_pattern": "find the duration of a single heart beat when heart rate is {heart_rate} beats per minute"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Duration of Cardiac Cycle: given heart_rate = 103, find cycle duration.",
+     "a": "0.582524",
+     "self_check": false
+    },
+    {
+     "q": "find the duration of a single heart beat when heart rate is 103 beats per minute?",
+     "a": "0.582524",
+     "self_check": false
+    },
+    {
+     "q": "For Duration of Cardiac Cycle: given heart_rate = 2.8, find cycle duration.",
+     "a": "21.4286",
+     "self_check": false
+    },
+    {
+     "q": "find the duration of a single heart beat when heart rate is 2.8 beats per minute?",
+     "a": "21.4286",
+     "self_check": false
+    },
+    {
+     "q": "For Duration of Cardiac Cycle: given heart_rate = 20, find cycle duration.",
+     "a": "3",
+     "self_check": false
+    },
+    {
+     "q": "find the duration of a single heart beat when heart rate is 20 beats per minute?",
+     "a": "3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebo.15.8",
+   "title": "Electrocardiogram (ECG)",
+   "converted_to_compute": true,
+   "formula": "ECG = P_wave + QRS_complex + T_wave",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ECG = P_wave + QRS_complex + T_wave",
+     "compute": "ECG = P_wave + QRS_complex + T_wave"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Electrocardiogram (ECG): given P_wave = 43, QRS_complex = 52, T_wave = 62, find ECG.",
+     "a": "157",
+     "self_check": false
+    },
+    {
+     "q": "For Electrocardiogram (ECG): given P_wave = 10.7, QRS_complex = 42, T_wave = 68, find ECG.",
+     "a": "120.7",
+     "self_check": false
+    },
+    {
+     "q": "For Electrocardiogram (ECG): given P_wave = 28, QRS_complex = 92, T_wave = 70, find ECG.",
+     "a": "190",
+     "self_check": false
+    },
+    {
+     "q": "For Electrocardiogram (ECG): given P_wave = 12.7, QRS_complex = 52, T_wave = 89, find ECG.",
+     "a": "153.7",
+     "self_check": false
+    },
+    {
+     "q": "For Electrocardiogram (ECG): given P_wave = 65, QRS_complex = 25, T_wave = 7.1, find ECG.",
+     "a": "97.1",
+     "self_check": false
+    },
+    {
+     "q": "For Electrocardiogram (ECG): given P_wave = 82, QRS_complex = 2.2, T_wave = 80, find ECG.",
+     "a": "164.2",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebo.15.9",
+   "title": "Double Circulation and Hepatic Portal System",
+   "converted_to_compute": true,
+   "formula": "double_circulation = pulmonary_circuit + systemic_circuit",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "double_circulation = pulmonary_circuit + systemic_circuit",
+     "compute": "double_circulation = pulmonary_circuit + systemic_circuit"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Double Circulation and Hepatic Portal System: given pulmonary_circuit = 24, systemic_circuit = 63, find double circulation.",
+     "a": "87",
+     "self_check": false
+    },
+    {
+     "q": "For Double Circulation and Hepatic Portal System: given pulmonary_circuit = 47, systemic_circuit = 18.1, find double circulation.",
+     "a": "65.1",
+     "self_check": false
+    },
+    {
+     "q": "For Double Circulation and Hepatic Portal System: given pulmonary_circuit = 85, systemic_circuit = 15.8, find double circulation.",
+     "a": "100.8",
+     "self_check": false
+    },
+    {
+     "q": "For Double Circulation and Hepatic Portal System: given pulmonary_circuit = 67, systemic_circuit = 80, find double circulation.",
+     "a": "147",
+     "self_check": false
+    },
+    {
+     "q": "For Double Circulation and Hepatic Portal System: given pulmonary_circuit = 7.3, systemic_circuit = 84, find double circulation.",
+     "a": "91.3",
+     "self_check": false
+    },
+    {
+     "q": "For Double Circulation and Hepatic Portal System: given pulmonary_circuit = 71, systemic_circuit = 56, find double circulation.",
+     "a": "127",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebo.15.10",
+   "title": "Regulation of Cardiac Activity and Circulatory Disorders",
+   "converted_to_compute": true,
+   "formula": "cardiac_output_control = intrinsic_myogenic + autonomic_signals + adrenal_hormones",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "cardiac_output_control = intrinsic_myogenic + autonomic_signals + adrenal_hormones",
+     "compute": "cardiac_output_control = intrinsic_myogenic + autonomic_signals + adrenal_hormones"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Regulation of Cardiac Activity and Circulatory Disorders: given intrinsic_myogenic = 82, autonomic_signals = 78, adrenal_hormones = 14.1, find cardiac output control.",
+     "a": "174.1",
+     "self_check": false
+    },
+    {
+     "q": "For Regulation of Cardiac Activity and Circulatory Disorders: given intrinsic_myogenic = 15.5, autonomic_signals = 69, adrenal_hormones = 42, find cardiac output control.",
+     "a": "126.5",
+     "self_check": false
+    },
+    {
+     "q": "For Regulation of Cardiac Activity and Circulatory Disorders: given intrinsic_myogenic = 46, autonomic_signals = 41, adrenal_hormones = 88, find cardiac output control.",
+     "a": "175",
+     "self_check": false
+    },
+    {
+     "q": "For Regulation of Cardiac Activity and Circulatory Disorders: given intrinsic_myogenic = 46, autonomic_signals = 9.3, adrenal_hormones = 69, find cardiac output control.",
+     "a": "124.3",
+     "self_check": false
+    },
+    {
+     "q": "For Regulation of Cardiac Activity and Circulatory Disorders: given intrinsic_myogenic = 60, autonomic_signals = 55, adrenal_hormones = 85, find cardiac output control.",
+     "a": "200",
+     "self_check": false
+    },
+    {
+     "q": "For Regulation of Cardiac Activity and Circulatory Disorders: given intrinsic_myogenic = 16.4, autonomic_signals = 88, adrenal_hormones = 33, find cardiac output control.",
+     "a": "137.4",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "kebo.15.1",
    "title": "Plasma and Formed Elements",
@@ -122,151 +369,6 @@
     {
      "q": "Write the standard relation used for 'Human Heart Structure and Nodal Conducting System', in plain ASCII form.",
      "a": "impulse_pathway: SAN -> AVN -> AV_bundle -> Purkinje_fibres",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebo.15.6",
-   "title": "Cardiac Output Calculation",
-   "questions": [
-    {
-     "q": "Calculate the cardiac output given stroke volume and heart rate. Use the method 'Cardiac Output Calculation'. Work with: heart_rate = 20, stroke_volume = 8. Carry the chain through step by step and give the final value of cardiac_output.",
-     "a": "160 units",
-     "self_check": false
-    },
-    {
-     "q": "Find the volume of blood pumped by a ventricle per minute when stroke volume is ... and heart rate is .... Use the method 'Cardiac Output Calculation'. Work with: heart_rate = 10, stroke_volume = 4. Carry the chain through step by step and give the final value of cardiac_output.",
-     "a": "40 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Cardiac Output Calculation' refers to.",
-     "a": "How much blood each ventricle pumps out in one minute, obtained as heart rate times the stroke volume.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Cardiac Output Calculation'.",
-     "a": "Cardiac output measures heart performance and equals the product of volume per beat and beats per minute.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Cardiac Output Calculation', in plain ASCII form.",
-     "a": "cardiac_output = stroke_volume * heart_rate",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebo.15.7",
-   "title": "Duration of Cardiac Cycle",
-   "questions": [
-    {
-     "q": "Calculate the time duration of one cardiac cycle. Use the method 'Duration of Cardiac Cycle'. Work with: heart_rate = 5. Carry the chain through step by step and give the final value of cycle_duration.",
-     "a": "12 times",
-     "self_check": false
-    },
-    {
-     "q": "Find the duration of a single heart beat when heart rate is ... beats per minute. Use the method 'Duration of Cardiac Cycle'. Work with: heart_rate = 12. Carry the chain through step by step and give the final value of cycle_duration.",
-     "a": "5 times",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Duration of Cardiac Cycle' refers to.",
-     "a": "The elapsed time for one complete sequence of atrial and ventricular both systole and diastole, calculated by dividing sixty seconds by the heart rate.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Duration of Cardiac Cycle'.",
-     "a": "The total time duration of a single cardiac cycle varies in inverse proportion with the heart rate.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Duration of Cardiac Cycle', in plain ASCII form.",
-     "a": "cycle_duration = 60 / heart_rate",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebo.15.8",
-   "title": "Electrocardiogram (ECG)",
-   "questions": [
-    {
-     "q": "Explain in your own words what 'Electrocardiogram (ECG)' refers to.",
-     "a": "A standard electrical trace recording cardiac cycle depolarization and repolarization waves across P-wave, QRS complex, and T-wave segments.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Electrocardiogram (ECG)'.",
-     "a": "ECG waves represent distinct electrical events in the cardiac cycle used to evaluate heart health.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Electrocardiogram (ECG)', in plain ASCII form.",
-     "a": "ECG = P_wave + QRS_complex + T_wave",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebo.15.9",
-   "title": "Double Circulation and Hepatic Portal System",
-   "questions": [
-    {
-     "q": "Using the method 'Double Circulation and Hepatic Portal System', work with: pulmonary_circuit = 12, systemic_circuit = 18. Carry the chain through step by step and give the final value of double_circulation.",
-     "a": "30 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Double Circulation and Hepatic Portal System' and work with: pulmonary_circuit = 150, systemic_circuit = 4. Carry the chain through step by step and give the final value of double_circulation.",
-     "a": "154 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Double Circulation and Hepatic Portal System' refers to.",
-     "a": "The dual circulatory architecture comprising pulmonary circuit (heart-lungs-heart) and systemic circuit (heart-body-heart), along with specialized portal systems.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Double Circulation and Hepatic Portal System'.",
-     "a": "Double circulation ensures strict separation of both oxygenated and deoxygenated blood to optimize oxygen delivery.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Double Circulation and Hepatic Portal System', in plain ASCII form.",
-     "a": "double_circulation = pulmonary_circuit + systemic_circuit",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebo.15.10",
-   "title": "Regulation of Cardiac Activity and Circulatory Disorders",
-   "questions": [
-    {
-     "q": "Using the method 'Regulation of Cardiac Activity and Circulatory Disorders', work with: adrenal_hormones = 100, autonomic_signals = 150, intrinsic_myogenic = 150. Carry the chain through step by step and give the final value of cardiac_output_control.",
-     "a": "400 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Regulation of Cardiac Activity and Circulatory Disorders' and work with: adrenal_hormones = 24, autonomic_signals = 4, intrinsic_myogenic = 40. Carry the chain through step by step and give the final value of cardiac_output_control.",
-     "a": "68 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Regulation of Cardiac Activity and Circulatory Disorders' refers to.",
-     "a": "Intrinsic myogenic control of heart rhythm modulated by autonomic neural both signals and hormones, alongside pathologies affecting blood pressure and coronary perfusion.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Regulation of Cardiac Activity and Circulatory Disorders'.",
-     "a": "Autonomic nerves and hormones modulate cardiac output, while vascular arterial blockages produce hypertension, CAD, angina, and heart failure.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Regulation of Cardiac Activity and Circulatory Disorders', in plain ASCII form.",
-     "a": "cardiac_output_control = intrinsic_myogenic + autonomic_signals + adrenal_hormones",
      "self_check": true
     }
    ]

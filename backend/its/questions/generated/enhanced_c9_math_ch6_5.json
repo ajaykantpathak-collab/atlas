@@ -34,6 +34,16 @@
      "q": "Create a real-world problem (Indian context) where a triangular plot's area must be found using base and height, but the height is not directly given — it must be deduced from a right-triangle relationship (e.g., a ladder leaning against a wall forming a triangle with the ground). Provide the full problem statement and solution.",
      "a": "Example problem: \"A 13 m long ladder leans against a vertical wall. Its foot is 5 m from the wall. Find the area of the triangle formed by the ladder, wall, and ground.\"  \nSolution: The ladder is the hypotenuse. Height on wall = \\( \\sqrt{13^2 - 5^2} = 12 \\) m. Base = 5 m. Area = \\( \\frac{1}{2} \\times 5 \\times 12 = 30 \\) m².  \nA poor answer (e.g., using 13 m as height or base) reveals the student cannot identify which sides are perpendicular in a right-triangle context, confusing hypotenuse with altitude.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The area of a triangle is half the product of any side chosen as the base and the ______ altitude (height), where the altitude is the perpendicular distance from the opposite vertex to the line containing the base.",
+     "a": "corresponding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ garden bed in your backyard with sides 6 m, 8 m, and 10 m.",
+     "a": "triangular",
+     "self_check": true
     }
    ]
   }

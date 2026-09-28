@@ -34,6 +34,36 @@
      "q": "Create a real-life problem where a quantity undergoes a percentage decrease, and the final value is given. The problem should require finding the original value. Provide the solution.",
      "a": "Example problem: \"After a 15% discount, a pair of shoes costs ₹1,700. What was the marked price?\" Solution: Let marked price be x. After 15% decrease, price = 0.85x = 1700. So x = 1700 / 0.85 = ₹2,000. A poor answer would create a problem asking for the discount amount instead of the original value, or would set up the equation as x - 0.15x = 1700 but then incorrectly compute 0.15 × 1700 and subtract, showing the same base confusion.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Percentage increase is the change in a quantity expressed as a percentage of the original value, ______ as ((New Value - Original Value) / Original Value) × 100.",
+     "a": "calculated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine the price of your favourite ______ was ₹3,000 last year, but this year the same model costs ₹3,300.",
+     "a": "bicycle",
+     "self_check": true
+    },
+    {
+     "q": "What is Percentage increase? State the definition given in this lesson.",
+     "a": "Percentage increase is the change in a quantity expressed as a percentage of the original value, calculated as ((New Value - Original Value) / Original Value) × 100.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Percentage increase is the change in a quantity expressed as a percentage of the original value, calculated as ((New Value - Original Value) / Original Value) × ______.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Percentage increase?",
+     "a": "Students consistently use the new value (the value after change) as the denominator when calculating percentage increase/decrease, instead of the original value.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can solve problems finding percentage increase/decrease given original and new values, find the new value given original value and percentage change, and find the original value given the new value and percentage change.",
+     "self_check": true
     }
    ]
   }

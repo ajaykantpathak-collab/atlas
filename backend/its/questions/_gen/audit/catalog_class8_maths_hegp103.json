@@ -42,9 +42,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "t1 = 32 / 8"
-   ]
+   "steps_chain": []
   },
   {
    "id": "hegp.103.3.2",
@@ -89,11 +87,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "big = 9 * 1000 + 5 * 100 + 5 * 10 + 1",
-    "small = 1 * 1000 + 5 * 100 + 5 * 10 + 9",
-    "diff = big - small"
-   ]
+   "steps_chain": []
   },
   {
    "id": "hegp.103.3.3",
@@ -273,11 +267,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "big = 8 * 1000 + 8 * 100 + 7 * 10 + 6",
-    "small = 6 * 1000 + 7 * 100 + 8 * 10 + 8",
-    "diff = big - small"
-   ]
+   "steps_chain": []
   }
  ]
 }

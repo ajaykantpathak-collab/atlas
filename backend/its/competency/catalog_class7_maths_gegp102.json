@@ -22,7 +22,7 @@
     "make an expression whose value is 20",
     "how is an expression different from an equation"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -39,7 +39,16 @@
      "action": "check the answer",
      "explain": "Verify by reversing or re-checking, then conclude."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 6 + 4 gives 22",
+     "compute": "val = 3 * 6 + 4"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.2.2",
@@ -89,7 +98,7 @@
     "evaluate 36 divided by (2 + 4)",
     "write a story sum that needs brackets"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -106,7 +115,16 @@
      "action": "check the answer",
      "explain": "Verify by reversing or re-checking, then conclude."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 3 + 3 gives 12",
+     "compute": "val = 3 * 3 + 3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.2.4",
@@ -124,7 +142,7 @@
     "which operation shows many equal groups",
     "check a friend's expression for your story sum"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -141,7 +159,16 @@
      "action": "check the answer",
      "explain": "Verify by reversing or re-checking, then conclude."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 6 + 8 gives 26",
+     "compute": "val = 3 * 6 + 8"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

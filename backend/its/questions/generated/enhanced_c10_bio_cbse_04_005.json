@@ -34,6 +34,31 @@
      "q": "Design a simple classroom simulation using coloured beads or cards to model human sex determination. Describe the materials, procedure, and how you would use the results to demonstrate the 1:1 sex ratio and the independence of each fertilization event.",
      "a": "Materials: Two containers — one with 50 blue beads (X-sperm) and 50 pink beads (Y-sperm) for male; another with 100 white beads (X-ovum) for female. Procedure: Randomly draw one bead from male container and one from female container, record combination (XX or XY), replace beads, repeat 50 times. Expected outcome: ~25 XX (female) and ~25 XY (male), showing 1:1 ratio. Independence shown by replacing beads each time. A poor answer (e.g., not replacing beads, or using unequal numbers) reveals misunderstanding of independent assortment and constant gamete ratios.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sex ______ in humans is the biological process by which the sex of an offspring is established at fertilization through the combination of sex chromosomes: females possess two X chromosomes (XX) and produce only X-bearing ova, while males possess one X and one Y chromosome (XY) and produce both X-bearing and Y-bearing sperm; the sex of the child is determined solely by whether the fertilizing sperm carries an X chromosome (resulting in XX female) or a Y chromosome (resulting in XY male).",
+     "a": "determination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a family in your neighbourhood where the first child is a girl and the second is a boy — have you ever wondered what decides this?",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What is Sex determination in humans? State the definition given in this lesson.",
+     "a": "Sex determination in humans is the biological process by which the sex of an offspring is established at fertilization through the combination of sex chromosomes: females possess two X chromosomes (XX) and produce only X-bearing ova, while males possess one X and one Y chromosome (XY) and produce both X-bearing and Y-bearing sperm; the.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Sex determination in humans?",
+     "a": "Students often believe that the mother's diet, body pH, timing of intercourse, or the father's \"virility\" can influence the sex of the child.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain step-by-step how the sex of a human child is determined at fertilization using a Punnett square, identify which parent's gamete decides the sex, and articulate why the probability of having a male or female child is 50% each, using the terms 'sex chromosomes', 'gametes', 'fertilization', and 'zygote' correctly.",
+     "self_check": true
     }
    ]
   }

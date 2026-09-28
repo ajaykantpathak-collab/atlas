@@ -32,7 +32,27 @@
     },
     {
      "q": "Design a compound microscope to achieve a magnifying power of 400 with the final image at infinity. You have available objective lenses of focal lengths 2 mm, 4 mm, 8 mm, and eyepieces of focal lengths 1 cm, 2 cm, 4 cm. The tube length is fixed at 16 cm. Choose the combination that gives exactly 400 and justify your choice.",
-     "a": "We need m = (L/fo) × (D/fe) = 400. With L = 16 cm, D = 25 cm, m = (16/fo) × (25/fe) = 400/(fo·fe) where fo, fe are in cm. So fo·fe = 1 cm². Possible pairs: fo = 0.2 cm (2 mm), fe = 5 cm (not available); fo = 0.4 cm (4 mm), fe = 2.5 cm (not available); fo = 0.8 cm (8 mm), fe = 1.25 cm (not available). None of the given combinations yield exactly 400. The closest is fo = 4 mm (0.4 cm) and fe = 2 cm: m = (16/0.4)×(25/2) = 40×12.5 = 500. A good answer explains the calculation and concludes that no combination gives exactly 400, but 500 is achievable with fo = 4 mm, fe = 2 cm. A poor answer picks a combination without checking the product.",
+     "a": "We need m = (L/fo) × (D/fe) = 400. With L = 16 cm, D = 25 cm, m = (16/fo) × (25/fe) = 400/(fo·fe) where fo, fe are in cm. So fo·fe = 1 cm². Possible pairs: fo = 0.2 cm (2 mm), fe = 5 cm (not available); fo = 0.4 cm (4 mm), fe = 2.5 cm (not available); fo = 0.8 cm (8 mm), fe = 1.25 cm (not available). N/A of the given combinations yield exactly 400. The closest is fo = 4 mm (0.4 cm) and fe = 2 cm: m = (16/0.4)×(25/2) = 40×12.5 = 500. A good answer explains the calculation and concludes that no combination gives exactly 400, but 500 is achievable with fo = 4 mm, fe = 2 cm. A poor answer picks a combination without checking the product.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A compound ______ is an optical instrument consisting of two converging lenses — an objective (short focal length, facing the object) and an eyepiece (short focal length, facing the eye) — separated by a fixed tube length.",
+     "a": "microscope",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Recall using a magnifying glass (simple microscope) to read fine print — you can get about 10× ______, but to see bacteria or cell structure you need far more.",
+     "a": "magnification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The objective forms a real, inverted, magnified intermediate image of a tiny object placed just beyond its focal point; the eyepiece then acts as a simple microscope to produce a final virtual image at the near point (______ cm) or at infinity for relaxed viewing.",
+     "a": "25",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Draw a complete ray diagram showing image formation by both lenses, labeling all key distances (fo, fe, L, D, u_o, v_o, u_e, v_e).",
      "self_check": true
     }
    ]

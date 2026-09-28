@@ -34,6 +34,31 @@
      "q": "Design a procedure to experimentally determine the equilibrium constant of the reaction Cu(s) + 2Ag⁺(aq) ⇌ Cu²⁺(aq) + 2Ag(s) using only a voltmeter, standard solutions, and a salt bridge. You may not measure concentrations at equilibrium directly.",
      "a": "Construct the galvanic cell: Cu(s)|Cu²⁺(aq, 1 M)||Ag⁺(aq, 1 M)|Ag(s). Measure its EMF under standard conditions (all concentrations 1 M) — this gives E°_cell directly (≈ 0.46 V). Then use the formula E°_cell = (0.059/n) log K with n=2 to calculate K. No equilibrium concentration measurements are needed because E°_cell is a thermodynamic quantity that encodes K. A poor answer would involve letting the cell run until voltage drops to zero and then measuring concentrations — which is impractical and misses the entire point of the Nernst-equilibrium connection. This tests whether the student understands that E°_cell is a shortcut to K.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The equilibrium constant (K) of a redox reaction occurring in an ______ cell is quantitatively related to the standard cell potential (E°_cell) through the Nernst equation at equilibrium (where E_cell = 0).",
+     "a": "electrochemical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a Daniell cell (Zn-Cu) connected to a ______: initially it reads 1.1 V, but as the reaction proceeds, the voltage slowly drops to zero.",
+     "a": "voltmeter",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The equilibrium constant (K) of a redox reaction occurring in an electrochemical cell is quantitatively related to the standard cell potential (E°_cell) through the Nernst equation at equilibrium (where E_cell = ______).",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the E°_cell vs. log K relationship from the Nernst equation, correctly identify n from the balanced redox reaction, calculate K from a given E°_cell (or vice versa) at 298 K and other temperatures, and predict whether a reaction is product-favored (K > 1) or reactant-favored (K < 1) based on the sign of E°_cell.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a Daniell cell (Zn-Cu) ______ to a voltmeter: initially it reads 1.1 V, but as the reaction proceeds, the voltage slowly drops to zero.",
+     "a": "connected",
+     "self_check": true
     }
    ]
   }

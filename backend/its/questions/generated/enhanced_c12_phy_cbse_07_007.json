@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a school physics lab (AC power supply, resistor, inductor, capacitor, multimeter, CRO) to demonstrate that a pure inductor draws current but dissipates zero average power. Describe the measurements, calculations, and how you would verify the wattless nature of the current.",
      "a": "Connect a pure inductor (e.g., a coil with negligible resistance) to the AC supply. Use multimeter in AC mode to measure V_rms across inductor and I_rms through it. Use CRO to measure phase difference φ between V and I (should be 90°). Calculate apparent power S = V_rms I_rms. Calculate real power P = V_rms I_rms cos φ = S × cos 90° = 0. Verify by checking that the inductor does not heat up (no temperature rise) while a resistor of same current rating would. A poor answer would use DC measurements or assume multimeter measures real power directly (it measures apparent power in AC mode unless it's a true power meter).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The power factor in an AC ______ is defined as the cosine of the phase angle (φ) between the RMS voltage and RMS current, denoted by cos φ.",
+     "a": "circuit",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your household electricity meter — it measures active energy in kWh, but the utility company also cares about power factor because low power factor causes higher ______ losses.",
+     "a": "transmission",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The instantaneous power p = vi contains a constant term and an oscillating term at ______ω.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) calculate the power factor given resistance, inductive reactance, and capacitive reactance in a series LCR circuit; (2) compute the average power dissipated using P = V_rms I_rms cos φ and verify that power is dissipated only in the resistive element; (3) explain why a pure inductor or capacitor has zero.",
+     "self_check": true
     }
    ]
   }

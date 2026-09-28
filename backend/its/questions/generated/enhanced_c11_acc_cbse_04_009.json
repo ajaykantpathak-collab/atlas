@@ -34,6 +34,31 @@
      "q": "Create a mini-case: A trader has the following end-of-month totals: Purchases Book ₹4,20,000 (including CGST ₹32,000, SGST ₹32,000), Sales Book ₹6,50,000 (including CGST ₹48,000, SGST ₹48,000), Purchases Return Book ₹18,000 (including CGST ₹1,440, SGST ₹1,440), Sales Return Book ₹25,000 (including CGST ₹2,000, SGST ₹2,000). Design the ledger posting for **Purchases Account**, **Sales Account**, **CGST Input**, **SGST Input**, **CGST Output**, **SGST Output**, **Purchases Return Account**, **Sales Return Account**. Show only the periodical total postings (not individual party accounts).",
      "a": "**Purchases A/c** Dr. 4,20,000 — \"To Sundries as per Purchases Book\"  \n**Sales A/c** Cr. 6,50,000 — \"By Sundries as per Sales Book\"  \n**CGST Input A/c** Dr. 32,000 — \"To Sundries as per Purchases Book\"  \n**SGST Input A/c** Dr. 32,000 — \"To Sundries as per Purchases Book\"  \n**CGST Output A/c** Cr. 48,000 — \"By Sundries as per Sales Book\"  \n**SGST Output A/c** Cr. 48,000 — \"By Sundries as per Sales Book\"  \n**Purchases Return A/c** Cr. 18,000 — \"By Sundries as per Purchases Return Book\"  \n**Sales Return A/c** Dr. 25,000 — \"To Sundries as per Sales Return Book\"  \n*Criteria for good answer*: Correct side (debit/credit) for each, correct narration pattern (\"To/By Sundries as per ___ Book\"), and separating GST Input/Output. Poor answer: mixing Input/Output, wrong side for return accounts, or omitting GST column postings entirely — reveals lack of analytical book structure understanding.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Posting from other subsidiary books refers to the systematic process of transferring the periodical totals and individual entries from special journals (Purchases Book, Sales Book, Purchases Return Book, Sales Return Book, and Journal Proper) to their respective ledger accounts, following the double-entry rule that every debit must have a ______ credit and vice versa.",
+     "a": "corresponding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: At month-end, your Purchases Book shows ₹2,45,000 of credit purchases from 12 ______, Sales Book shows ₹3,10,000 of credit sales to 18 customers, and you have return entries and journal proper entries for furniture purchased on credit.",
+     "a": "suppliers",
+     "self_check": true
+    },
+    {
+     "q": "What is Posting from other subsidiary books? State the definition given in this lesson.",
+     "a": "Posting from other subsidiary books refers to the systematic process of transferring the periodical totals and individual entries from special journals (Purchases Book, Sales Book, Purchases Return Book, Sales Return Book, and Journal Proper) to their respective ledger accounts, following the double-entry rule that every debit must have.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Posting from other subsidiary books?",
+     "a": "Students believe that only the periodical totals are posted from subsidiary books to the ledger, and individual party accounts (suppliers/customers) are *not* posted daily.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently post a month's transactions from all five subsidiary books (Purchases, Sales, Purchases Return, Sales Return, Journal Proper) to the ledger, correctly identifying which accounts are debited/credited, writing appropriate narrations (\"Sundries as per Purchases Book\", \"By Sundries as per Sales.",
+     "self_check": true
     }
    ]
   }

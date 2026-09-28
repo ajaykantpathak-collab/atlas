@@ -34,6 +34,31 @@
      "q": "Design a scenario where a company has Profit before tax ₹50,00,000. It needs to create a provision for taxation (30%), a provision for doubtful debts (2% of debtors ₹2,00,000), and transfer ₹5,00,000 to General Reserve. Prepare the Profit and Loss Appropriation section and the relevant Balance Sheet extracts (Shareholders' Funds and Current Liabilities) showing correct disclosure.",
      "a": "Profit before tax = ₹50,00,000\nLess: Provision for doubtful debts = ₹4,000 (charge) → Profit before tax = ₹49,96,000\nLess: Provision for taxation @30% = ₹14,98,800 (charge) → Profit after tax = ₹34,97,200\nLess: Transfer to General Reserve = ₹5,00,000 (appropriation) → Surplus = ₹29,97,200\nBalance Sheet:\nShareholders' Funds: Reserves and Surplus → General Reserve ₹5,00,000; Surplus ₹29,97,200\nCurrent Liabilities: Short-term Provisions → Provision for Taxation ₹14,98,800; Provision for Doubtful Debts ₹4,000\nA poor answer misses the order (charge before tax, appropriation after tax) or misplaces items.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Provisions are amounts set aside from profits to meet known liabilities whose exact amount or timing is uncertain (e.g., provision for doubtful debts, provision for taxation), while reserves are ______ of profits to strengthen the financial position or meet future contingencies (e.g., general reserve, capital reserve).",
+     "a": "appropriations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are reviewing the Balance Sheet of a company and see \"Provision for Taxation ₹5,00,000\" under Current ______ and \"General Reserve ₹20,00,000\" under Reserves and Surplus.",
+     "a": "Liabilities",
+     "self_check": true
+    },
+    {
+     "q": "What is Provisions? State the definition given in this lesson.",
+     "a": "Provisions are amounts set aside from profits to meet known liabilities whose exact amount or timing is uncertain (e.g., provision for doubtful debts, provision for taxation), while reserves are appropriations of profits to strengthen the financial position or meet future contingencies (e.g., general reserve, capital reserve).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Provisions?",
+     "a": "Students often think \"Provision for Depreciation\" is a provision in the same sense as \"Provision for Doubtful Debts\" and show it as a liability.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) classify a given item as a provision or a reserve with justification based on the charge/appropriation principle, and (2) prepare the relevant Balance Sheet extracts showing correct disclosure of provisions and reserves as per Schedule III format.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,193 @@
+{
+ "catalog": "catalog_class11_physics_keph206.json",
+ "concepts": [
+  {
+   "id": "keph206.13.5.1",
+   "title": "Velocity and Acceleration in SHM",
+   "converted_to_compute": true,
+   "formula": "accel_mag = omega ** 2 * displacement",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "accel_mag = omega ** 2 * displacement",
+     "compute": "accel_mag = omega ** 2 * displacement"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Velocity and Acceleration in SHM: given omega = 60, displacement = 479, find accel mag.",
+     "a": "1724400",
+     "self_check": false
+    },
+    {
+     "q": "For Velocity and Acceleration in SHM: given omega = 0.6, displacement = 292, find accel mag.",
+     "a": "105.12",
+     "self_check": false
+    },
+    {
+     "q": "For Velocity and Acceleration in SHM: given omega = 69, displacement = 289, find accel mag.",
+     "a": "1375929",
+     "self_check": false
+    },
+    {
+     "q": "For Velocity and Acceleration in SHM: given omega = 41, displacement = 1, find accel mag.",
+     "a": "1681",
+     "self_check": false
+    },
+    {
+     "q": "For Velocity and Acceleration in SHM: given omega = 95, displacement = 46, find accel mag.",
+     "a": "415150",
+     "self_check": false
+    },
+    {
+     "q": "For Velocity and Acceleration in SHM: given omega = 75, displacement = 101, find accel mag.",
+     "a": "568125",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph206.13.6.1",
+   "title": "Period of a Spring-Block Oscillator",
+   "converted_to_compute": true,
+   "formula": "period = 2 * pi * sqrt(mass / spring_const)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "period = 2 * pi * sqrt(mass / spring_const)",
+     "compute": "period = 2 * pi * sqrt(mass / spring_const)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Period of a Spring-Block Oscillator: given mass = 101, spring_const = 81, find period.",
+     "a": "7.01614",
+     "self_check": false
+    },
+    {
+     "q": "For Period of a Spring-Block Oscillator: given mass = 134, spring_const = 19.2, find period.",
+     "a": "16.599",
+     "self_check": false
+    },
+    {
+     "q": "For Period of a Spring-Block Oscillator: given mass = 93, spring_const = 75, find period.",
+     "a": "6.99666",
+     "self_check": false
+    },
+    {
+     "q": "For Period of a Spring-Block Oscillator: given mass = 140, spring_const = 7.7, find period.",
+     "a": "26.7916",
+     "self_check": false
+    },
+    {
+     "q": "For Period of a Spring-Block Oscillator: given mass = 183, spring_const = 57, find period.",
+     "a": "11.2582",
+     "self_check": false
+    },
+    {
+     "q": "For Period of a Spring-Block Oscillator: given mass = 10.9, spring_const = 49, find period.",
+     "a": "2.96343",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph206.13.7.1",
+   "title": "Energy in Simple Harmonic Motion",
+   "converted_to_compute": true,
+   "formula": "total_energy = 0.5 * spring_const * amplitude ** 2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_energy = 0.5 * spring_const * amplitude ** 2",
+     "compute": "total_energy = 0.5 * spring_const * amplitude ** 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Energy in Simple Harmonic Motion: given spring_const = 15, amplitude = 93, find total energy.",
+     "a": "64867.5",
+     "self_check": false
+    },
+    {
+     "q": "For Energy in Simple Harmonic Motion: given spring_const = 41, amplitude = 47, find total energy.",
+     "a": "45284.5",
+     "self_check": false
+    },
+    {
+     "q": "For Energy in Simple Harmonic Motion: given spring_const = 4.8, amplitude = 29, find total energy.",
+     "a": "2018.4",
+     "self_check": false
+    },
+    {
+     "q": "For Energy in Simple Harmonic Motion: given spring_const = 23, amplitude = 21, find total energy.",
+     "a": "5071.5",
+     "self_check": false
+    },
+    {
+     "q": "For Energy in Simple Harmonic Motion: given spring_const = 81, amplitude = 58, find total energy.",
+     "a": "136242",
+     "self_check": false
+    },
+    {
+     "q": "For Energy in Simple Harmonic Motion: given spring_const = 62, amplitude = 66, find total energy.",
+     "a": "135036",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph206.13.8.1",
+   "title": "The Simple Pendulum",
+   "converted_to_compute": true,
+   "formula": "period_p = 2 * pi * sqrt(pend_length / gravity)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "period_p = 2 * pi * sqrt(pend_length / gravity)",
+     "compute": "period_p = 2 * pi * sqrt(pend_length / gravity)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For The Simple Pendulum: given pend_length = 461, gravity = 4, find period p.",
+     "a": "67.4529",
+     "self_check": false
+    },
+    {
+     "q": "For The Simple Pendulum: given pend_length = 124, gravity = 0.9, find period p.",
+     "a": "73.7513",
+     "self_check": false
+    },
+    {
+     "q": "For The Simple Pendulum: given pend_length = 94, gravity = 68, find period p.",
+     "a": "7.38736",
+     "self_check": false
+    },
+    {
+     "q": "For The Simple Pendulum: given pend_length = 221, gravity = 10.4, find period p.",
+     "a": "28.9641",
+     "self_check": false
+    },
+    {
+     "q": "For The Simple Pendulum: given pend_length = 12.6, gravity = 27, find period p.",
+     "a": "4.29223",
+     "self_check": false
+    },
+    {
+     "q": "For The Simple Pendulum: given pend_length = 253, gravity = 54, find period p.",
+     "a": "13.6001",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

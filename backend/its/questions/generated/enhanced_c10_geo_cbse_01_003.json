@@ -34,6 +34,31 @@
      "q": "Design a one-page resource ownership map legend for your district that a Class 10 student could use to classify any land parcel they see on a cadastral map. Include symbols, ownership category, legal basis, and one local example for each of the four categories.",
      "a": "A good answer includes: (1) Individual: 🟦 Private patta land — Land Revenue Code — Example: Farmer's field in your village. (2) Community: 🟩 Gram Sabha land / CFR — Panchayat Act / FRA 2006 — Example: Village grazing land / community forest. (3) National: 🟥 Reserved Forest / Government land / Minerals — Indian Forest Act / Mines Act — Example: Nearby Reserved Forest / Coal block. (4) International: 🟪 Not applicable at district level (only at national boundary/EEZ) — UNCLOS — Example: Indian Ocean seabed beyond EEZ. A poor answer misses legal basis, uses vague symbols, or incorrectly assigns international resources at district scale.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Resources classified by ownership refer to the ______ of natural and human-made resources based on who holds the legal rights to access, use, manage, and control them.",
+     "a": "categorization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing in your family's backyard garden — the vegetables growing there belong to your family alone; that is an ______ resource.",
+     "a": "individual",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Finally, picture the open ocean beyond ______ nautical miles from India's coast — no single country owns it; it is governed by international law as an international resource.",
+     "a": "200",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify any given resource example into one of the four ownership categories with justification, and can explain how ownership type influences resource management decisions and sustainability outcomes in the Indian context.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing in your family's backyard garden — the ______ growing there belong to your family alone; that is an individual resource.",
+     "a": "vegetables",
+     "self_check": true
     }
    ]
   }

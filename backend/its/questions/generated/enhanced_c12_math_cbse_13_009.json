@@ -34,6 +34,16 @@
      "q": "Create a real-world scenario (different from coins, dice, or multiple-choice tests) that can be modeled by a binomial distribution with \\(n=15\\) and \\(p=0.2\\). Clearly state the random variable \\(X\\) and verify all four binomial conditions for your scenario.",
      "a": "Example: A call centre receives 15 calls in an hour. Historically, 20% of calls result in a sale. Let \\(X\\) = number of sales in that hour.  \nConditions: (1) Fixed \\(n=15\\) calls. (2) Each call: sale (success) or no sale (failure). (3) \\(p=0.2\\) constant for each call (assumes same customer base, no fatigue). (4) Calls are independent (one caller's decision doesn't affect another).  \nA poor answer uses a scenario without fixed \\(n\\) (e.g., \"number of sales until 3 successes\" — that's negative binomial) or assumes \\(p\\) changes (e.g., \"probability increases with each call\").",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a student taking a 10-question ______-choice test where each question has 4 options and only one is correct.",
+     "a": "multiple",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: We want to know the probability of getting exactly ______ questions right.",
+     "a": "3",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a green computing policy for a college computer lab with 100 computers. Include at least three specific measures with justification.",
      "a": "A good policy includes: (1) Enable power management (sleep/hibernate after 15 minutes idle) to cut idle energy waste. (2) Implement virtualization for servers to reduce hardware count. (3) Establish e-waste collection partnership with certified recycler for end-of-life devices. (4) Procure Energy Star certified equipment. Justification links each measure to energy reduction, resource efficiency, or responsible disposal. A poor answer lists generic measures without justification or context-specific details.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sustainable Technology and Green Computing refers to the practice of designing, manufacturing, using, and disposing of computing resources in an ______ responsible manner to reduce carbon footprint, energy consumption, and electronic waste while promoting resource efficiency and long-term ecological balance.",
+     "a": "environmentally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"Have you ever wondered what happens to your old ______ or laptop after you discard it, and how much energy data centers consume to keep your favorite apps running?\" Connect this to the student's daily use of technology.",
+     "a": "smartphone",
+     "self_check": true
+    },
+    {
+     "q": "What is Sustainable Technology and Green Computing? State the definition given in this lesson.",
+     "a": "Sustainable Technology and Green Computing refers to the practice of designing, manufacturing, using, and disposing of computing resources in an environmentally responsible manner to reduce carbon footprint, energy consumption, and electronic waste while promoting resource efficiency and long-term ecological balance.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Sustainable Technology and Green Computing?",
+     "a": "Students often think green computing is only about turning off monitors or buying energy-efficient hardware.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain the key principles of green computing (energy efficiency, e-waste reduction, virtualization, cloud computing) and evaluate a given computing scenario to suggest sustainable improvements with justification.",
+     "self_check": true
     }
    ]
   }

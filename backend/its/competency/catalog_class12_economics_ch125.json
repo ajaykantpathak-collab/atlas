@@ -46,7 +46,16 @@
      "solution": "Step 1: Sum the lengths of the Iliad and the Odyssey: combined_homer = iliad_length + odyssey_length = 8.0 Step 2: Multiply the combined length by seven: mahabharata_length = 7 * combined_homer = 56.0 Final result: 56.0",
      "answer": "56.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mahabharata_length = 7 * (iliad_length + odyssey_length)",
+     "compute": "mahabharata_length = 7 * (iliad_length + odyssey_length)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lekl.125.2",
@@ -63,7 +72,7 @@
     "What is the theological importance of Krishna's removal of Arjuna's doubts?",
     "Explain Deontological Ethics (Krishna's Position) with a suitable example."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -80,7 +89,16 @@
      "action": "Affirm the action based on obligation",
      "explain": "The action is deemed correct solely because it fulfills a duty."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "moral_action = duty_fulfillment",
+     "compute": "moral_action = duty_fulfillment"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lekl.125.3",
@@ -123,7 +141,16 @@
      "solution": "Step 1: Quantify the negative outcomes: total_harm = misery + slaughter = 8.0 Step 2: Subtract harm from the value of the cause: net_moral_value = just_cause_value - total_harm = -4.0 Final result: -4.0",
      "answer": "-4.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_moral_value = just_cause_value - (misery + slaughter)",
+     "compute": "net_moral_value = just_cause_value - (misery + slaughter)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lekl.125.4",
@@ -157,16 +184,19 @@
    ],
    "worked_examples": [
     {
-     "question": "Using The Opulence-Capability Gap, compute the result for economic_opulence = 3, capability_freedom = 3.",
-     "solution": "Step 1: Identify material wealth: base_opulence = economic_opulence = 3.0 Step 2: Add non-material capability factors: total_well_being = base_opulence + capability_freedom = 6.0 Final result: 6.0",
-     "answer": "6.0"
-    },
-    {
-     "question": "Using The Opulence-Capability Gap, compute the result for economic_opulence = 4, capability_freedom = 4.",
-     "solution": "Step 1: Identify material wealth: base_opulence = economic_opulence = 4.0 Step 2: Add non-material capability factors: total_well_being = base_opulence + capability_freedom = 8.0 Final result: 8.0",
-     "answer": "8.0"
+     "concept": "lekl.125.4",
+     "question_pattern": "Calculate total well-being given opulence {economic_opulence} and capability {capability_freedom}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_well_being = economic_opulence + capability_freedom",
+     "compute": "total_well_being = economic_opulence + capability_freedom"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lekl.125.5",
@@ -183,7 +213,7 @@
     "Is the argumentative tradition in India restricted to men?",
     "Explain Gender Inclusion in Indian Argument with a suitable example."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -200,7 +230,16 @@
      "action": "Verify political leadership roles",
      "explain": "Check for women in high-ranking positions like Congress Presidents."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "discourse_participation = male_voice + female_voice",
+     "compute": "discourse_participation = male_voice + female_voice"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lekl.125.6",
@@ -268,16 +307,19 @@
    ],
    "worked_examples": [
     {
-     "question": "Using Democracy as Public Reasoning, compute the result for institutional_structure = 3, reasoning_tradition = 3.",
-     "solution": "Step 1: Assess the institutional framework: base_score = institutional_structure = 3.0 Step 2: Add the value of the dialogic tradition: total_viability = base_score + reasoning_tradition = 6.0 Final result: 6.0",
-     "answer": "6.0"
-    },
-    {
-     "question": "Using Democracy as Public Reasoning, compute the result for institutional_structure = 4, reasoning_tradition = 4.",
-     "solution": "Step 1: Assess the institutional framework: base_score = institutional_structure = 4.0 Step 2: Add the value of the dialogic tradition: total_viability = base_score + reasoning_tradition = 8.0 Final result: 8.0",
-     "answer": "8.0"
+     "concept": "lekl.125.7",
+     "question_pattern": "Calculate a democracy's viability index based on institutions {institutional_structure} and tradition {reasoning_tradition}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "democracy_strength = institutional_structure + reasoning_tradition",
+     "compute": "democracy_strength = institutional_structure + reasoning_tradition"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

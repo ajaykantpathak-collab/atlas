@@ -1,3 +1,4 @@
+import os
 """
 Topicwise Remaining Generator
 - Builds topics at MAX_CHAPTERS=40 (merged, fewer parts)
@@ -16,7 +17,7 @@ from pathlib import Path
 from collections import defaultdict
 
 # ─── Config ───
-API_KEY = "sk-ant-co-QsK1rhxdfRWZ65OJ5cVxaAZ5ISNUY0lK"  # key 0
+API_KEY = os.environ.get('ANTHROPIC_API_KEY') or ''  # key 0
 API_URL = "https://api.claudeopus.pro/v1/messages"
 MODEL = "claude-opus-5"
 MAX_TOKENS = 128000

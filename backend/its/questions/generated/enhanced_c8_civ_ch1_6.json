@@ -34,6 +34,26 @@
      "q": "Design a simple voting scenario for a medium-sized town in India where a citizen participates in all three tiers of elections within a five-year cycle. Describe which office is being chosen in each election.",
      "a": "A good response outlines three distinct elections: 1) A Municipal Corporation election (Local Body) to choose ward councillors for garbage collection and local water supply; 2) A State Assembly election to choose an MLA representing their constituency in the state capital for matters like state schools and transport; 3) A Lok Sabha election to choose an MP representing their parliamentary constituency in New Delhi for national laws and foreign policy. A poor answer merges all three levels into one election or mistakes local councillors for national lawmakers.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Indian electoral system operates across three distinct tiers of governance—national, state, and local—through three primary types of elections: Lok Sabha elections for the national Parliament, State Legislative Assembly (Vidhan Sabha) elections for state governments, and Local Body elections (Panchayats and ______) for grassroots administration.",
+     "a": "Municipalities",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine walking down your street and noticing that the local garbage has not been collected for three days, while on television, you hear a debate about a ______ trade agreement signed by the Prime Minister.",
+     "a": "national",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Students must be able to distinguish between Lok Sabha, State Assembly, and Local Body elections based on the level of government they serve, the geographical constituency size, and the primary responsibilities of the elected representatives.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine walking down your street and noticing that the local garbage has not been collected for three days, while on ______, you hear a debate about a national trade agreement signed by the Prime Minister.",
+     "a": "television",
+     "self_check": true
     }
    ]
   }

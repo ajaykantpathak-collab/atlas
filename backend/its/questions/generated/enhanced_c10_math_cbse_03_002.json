@@ -34,6 +34,21 @@
      "q": "Given the system x + 2y = 4 and 2x + 3y = 7, find the unique solution using substitution and verify it satisfies both equations.",
      "a": "From the first equation: x = 4 − 2y. Substitute into the second: 2(4 − 2y) + 3y = 7 ⇒ 8 − 4y + 3y = 7 ⇒ 8 − y = 7 ⇒ y = 1. Then x = 4 − 2(1) = 2. Solution: (2, 1). Verify: 2 + 2(1) = 4 ✓ and 2(2) + 3(1) = 7 ✓. A wrong answer (e.g., x = 1, y = 2) shows an algebraic error in substitution or solving.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A system of two linear equations in two variables is ______ if it has at least one solution.",
+     "a": "consistent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are given two ______: 2x + 3y = 8 and x − y = 1.",
+     "a": "equations",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify whether a pair of linear equations has a unique solution by checking the ratio condition a₁/a₂ ≠ b₁/b₂, graphically interpret this as intersecting lines, and find the unique solution by substitution or elimination.",
+     "self_check": true
     }
    ]
   }

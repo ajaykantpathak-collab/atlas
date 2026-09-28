@@ -34,6 +34,21 @@
      "q": "**CREATE**: Design a **mini communication plan** (Source, Message, Channel) for a new *government scheme* providing free sanitary pads in schools. Target: **adolescent girls (13–16) in semi-urban government schools**. Present as a 3-row table with justifications.",
      "a": "**Answer**:  \n| Element | Choice | Justification |\n|---------|--------|---------------|\n| **Source** | Trained female teacher + peer leader (girls' captain) | Teacher = authority/access; Peer leader = relatability, reduces stigma. |\n| **Message** | Short video (2 min) + demo kit: \"How to use, dispose, and ask for pads\" in local language + Hindi | Visual demo overcomes literacy variance; addresses taboo by normalising \"asking\". |\n| **Channel** | School assembly screening + WhatsApp group for girls (video share) + poster in girls' toilet | Assembly = captive audience; WhatsApp = private revisit/sharing; Poster = point-of-use reminder. |  \n**Poor answer reveals**: Student picks only one channel (e.g., \"teacher announces in class\") ignoring the need for *redundancy* (multiple channels) and *privacy* (critical for menstrual health), showing failure to design a *system* of SMC elements.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The SMCRE model's first three elements—Source, Message, and Channel—constitute the transmission phase of ______: the Source (sender/originator) initiates the process by encoding a purposeful Message (content/information) and transmits it through a selected Channel (medium/pathway) to reach the intended receiver.",
+     "a": "communication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an extension worker designing a campaign to promote iron-rich diets among ______ girls in a rural village.",
+     "a": "adolescent",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can analyse a given communication scenario (e.g., a health campaign, classroom lecture, social media post) and explicitly identify the source characteristics, message design choices, and channel selection, justifying why each element suits—or fails—the intended audience and purpose.",
+     "self_check": true
     }
    ]
   }

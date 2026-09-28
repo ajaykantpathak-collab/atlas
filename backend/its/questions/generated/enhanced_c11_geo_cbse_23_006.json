@@ -34,6 +34,26 @@
      "q": "Design a map for a shipping company that needs to plot constant-bearing (rhumb line) routes across the Indian Ocean. Specify the projection, its aspect, and the mathematical property that makes it suitable. Annotate a sketch of the graticule showing the standard line and distortion pattern.",
      "a": "Projection: Normal aspect Mercator (cylindrical conformal). Property: Conformality (local angles preserved) → rhumb lines (loxodromes) plot as straight lines. Standard line: Equator (tangent) or two standard parallels (secant). Graticule sketch: rectangular grid; meridians equally spaced vertical lines; parallels horizontal lines spaced increasingly farther apart toward poles. Distortion: area and scale increase as sec φ; poles at infinity.  \nA poor answer that suggests a conical or azimuthal projection, or a cylindrical equal-area, shows the student cannot link the navigational requirement (constant bearing) to the conformal property of the Mercator.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A cylindrical projection is a map projection created by ______ wrapping a cylinder around the globe, projecting the graticule onto the cylinder, and then unrolling it into a flat rectangle where meridians appear as equally spaced vertical lines and parallels as horizontal lines.",
+     "a": "conceptually",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at the world map hanging in your classroom — notice how Greenland appears larger than India, even though India's land area is ______ greater.",
+     "a": "actually",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) derive the distortion pattern (scale, area, shape) for any normal, transverse, or oblique cylindrical projection given its mathematical formulation; (2) justify the selection of a specific cylindrical projection (Mercator, Miller, Gall-Peters, etc.) for a stated mapping purpose by evaluating its property preservation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at the world map hanging in your ______ — notice how Greenland appears larger than India, even though India's land area is actually greater.",
+     "a": "classroom",
+     "self_check": true
     }
    ]
   }

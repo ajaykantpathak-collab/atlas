@@ -34,6 +34,36 @@
      "q": "Design a simple experiment to compare the efficiency of an incandescent bulb and a CFL using equipment available in a school lab (ammeter, voltmeter, lux meter, power supply).",
      "a": "Connect each bulb to the power supply with ammeter in series and voltmeter in parallel. Measure voltage (V) and current (I) to calculate electrical power input (P = VI). Use the lux meter at a fixed distance to measure illuminance (lux) as a proxy for light output. Ensure both bulbs are at the same distance and orientation. Calculate efficiency ratio = (Illuminance / Electrical Power) for each; higher ratio means more efficient. A poor answer that only measures temperature or heat shows the student confuses heating effect with light output measurement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of a light bulb is the ratio of useful light energy output to the total electrical energy input, expressed as a percentage.",
+     "a": "Efficiency",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe two lamps at home: an old ______ bulb and a modern CFL, both giving similar brightness.",
+     "a": "incandescent",
+     "self_check": true
+    },
+    {
+     "q": "What is Efficiency of a light bulb? State the definition given in this lesson.",
+     "a": "Efficiency of a light bulb is the ratio of useful light energy output to the total electrical energy input, expressed as a percentage.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then understand that efficiency = (light power output / electrical power input) × ______%.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Efficiency of a light bulb?",
+     "a": "Students think a bulb with higher wattage is always \"more powerful\" and therefore better, not realizing wattage indicates electrical energy consumption rate, not light output.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can calculate the efficiency of a bulb given its light output power and electrical input power, and can compare two bulbs to determine which is more energy-efficient for the same brightness.",
+     "self_check": true
     }
    ]
   }

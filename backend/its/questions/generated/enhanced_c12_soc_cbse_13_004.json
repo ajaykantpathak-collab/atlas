@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_13_004",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_13_004",
+   "title": "c12_soc_cbse_13_004",
+   "questions": [
+    {
+     "q": "Define a Transnational Corporation (TNC) and give two examples from the NCERT text.",
+     "a": "A TNC is a company that produces goods or markets services in more than one country, with a global profit orientation. Examples: Coca Cola, General Motors, Colgate-Palmolive, Kodak, Mitsubishi. A wrong answer (e.g., \"any big Indian company\" or \"a company that only exports\") reveals the student confuses MNCs with large domestic firms or exporters, missing the core feature of multi-country production/operations.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between Fordism and post-Fordism in the context of MNC production strategies. Why does the Nike example illustrate post-Fordism?",
+     "a": "Fordism = centralised mass production at a single location (e.g., early automobile plants). Post-Fordism = flexible, dispersed production across multiple global sites to minimise costs. Nike illustrates post-Fordism because it shifted production from Japan → South Korea → Thailand/Indonesia → India as labour costs rose, with no permanent factories — production moves to wherever labour is cheapest. A wrong answer that describes Nike as simply \"outsourcing\" without mentioning the *systematic shifting* of production bases in response to labour costs misses the structural logic of post-Fordism.",
+     "self_check": true
+    },
+    {
+     "q": "Using the General Motors (Pontiac Le Mans) example from Box 6.4, calculate the percentage of the showroom price that goes to the United States. Then explain what this breakdown reveals about the new international division of labour.",
+     "a": "Showroom price = $20,000. Amount to Americans = $7,600. Percentage = (7600/20000) × 100 = 38%. The breakdown reveals that a single \"American\" car is actually a global product: 48% to South Korea (labour/assembly), 28% to Japan (advanced components), 12% to Germany (design), 7% to Taiwan/Singapore (small components), 4% to UK (marketing), 1% to Barbados/Ireland (data processing). This shows MNCs fragment production across countries based on comparative advantage (cheap labour, advanced tech, design skills), creating a new international division of labour. A wrong answer that only gives the percentage without interpreting the global fragmentation misses the sociological significance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of MNC-driven globalisation on two groups: (a) urban middle-class youth in India and (b) traditional weavers in Sircilla/Dubakka (Andhra Pradesh). Use specific examples from the text.",
+     "a": "(a) Urban middle-class youth: new career opportunities in IT, call centres/BPOs, shopping malls, restaurants — \"high-flying professionals with exorbitant salaries\" driving consumer culture. (b) Sircilla/Dubakka weavers: unable to invest in technology, outcompeted by power looms, leading to suicides. The contrast shows MNCs create *polarised* outcomes: upward mobility for educated urbanites versus livelihood destruction for traditional artisans lacking capital/skills. A wrong answer that claims \"globalisation benefits everyone\" or \"only harms the poor\" fails to capture the *uneven, class-specific* impact central to sociological analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Glocalisation is merely a marketing strategy adopted by MNCs to sell products; no genuine cultural synthesis occurs.\" Use evidence from the text to support your position.",
+     "a": "The text presents glocalisation as a *strategy* (McDonald's vegetarian menu, Navaratri specials, MTV/Star using Indian languages) but also notes *organic* cultural mixing: Bhangra pop, Indi pop, fusion music, remixes, and Bollywood stories shifting from foreign locations to diaspora narratives. A strong critique acknowledges the commercial intent but argues that once global forms enter local spaces, they are reinterpreted — e.g., Indian youth creating new fusion genres — producing *genuine* hybrid cultures. A weak answer takes only one side (purely commercial OR purely organic) without recognising the dialectic: MNCs *initiate* glocalisation for profit, but local actors *appropriate* it, creating new cultural forms beyond corporate control.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sociological study to investigate how the entry of a specific MNC (e.g., a global retail chain) affects a local weekly market (haat) in a semi-urban Indian town. Specify: (1) research question, (2) two methods you would use, (3) two key variables, (4) one ethical consideration.",
+     "a": "(1) Research question: \"How does the opening of a global retail chain alter the livelihood patterns, social interactions, and cultural practices of vendors and customers in a traditional weekly haat?\" (2) Methods: Participant observation (to experience daily market rhythms) + in-depth interviews with vendors, customers, and chain-store employees (to capture perceptions). (3) Variables: (a) Change in vendor income/source diversification; (b) Shift in social composition of market-goers (caste/class/gender). (4) Ethical consideration: Informed consent in local language; anonymity for vendors fearing retaliation from chain store or local elites. A poor answer proposes a questionnaire-only design (missing the *social interaction* dimension) or ignores power dynamics between corporate and informal sectors.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ Corporations (MNCs) or Transnational Corporations (TNCs) are companies that produce goods or market services in more than one country, operating through a network of subsidiaries and affiliates coordinated by a central headquarters, and oriented towards global markets and global profits rather than solely national ones.",
+     "a": "Multinational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are holding a smartphone: its chip is designed in the USA, screen made in South Korea, assembled in China or India, and sold ______.",
+     "a": "globally",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how MNCs drive economic globalisation through the new international division of labour, analyse the shift from Fordism to post-Fordism using the Nike case study, and evaluate the uneven impact of MNCs on employment, culture, and indigenous knowledge systems with sociological reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are holding a ______: its chip is designed in the USA, screen made in South Korea, assembled in China or India, and sold globally.",
+     "a": "smartphone",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

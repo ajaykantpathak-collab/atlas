@@ -34,6 +34,36 @@
      "q": "Design a classroom simulation for 30 students to demonstrate FPTP's disproportionality. Specify: number of constituencies, party options, vote distribution, and the expected seat-vote gap to be revealed.",
      "a": "Divide class into 5 constituencies of 6 voters each. 3 parties: X, Y, Z. Distribute votes: Constituency 1-3: X=3, Y=2, Z=1; Constituency 4-5: X=1, Y=3, Z=2. Total votes: X=11, Y=12, Z=7 (30 votes). FPTP result: X wins 3 seats (60%), Y wins 2 seats (40%), Z wins 0. Vote share: X=37%, Y=40%, Z=23%. Disproportionality: X gets 60% seats with 37% votes; Z gets 0 seats with 23% votes. A poor simulation uses one big constituency (which would be PR) or ignores geographic distribution.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: First Past the Post (FPTP) is a plurality-based electoral system where the territory is divided into single-member ______, each voter casts one vote for a candidate, and the candidate securing the highest number of votes (plurality) is declared elected, irrespective of whether they achieve an absolute majority (50%+1).",
+     "a": "constituencies",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your class of 40 students electing a monitor: 4 ______ stand, votes are 12, 11, 10, 7.",
+     "a": "candidates",
+     "self_check": true
+    },
+    {
+     "q": "What is First Past the Post (FPTP)? State the definition given in this lesson.",
+     "a": "First Past the Post (FPTP) is a plurality-based electoral system where the territory is divided into single-member constituencies, each voter casts one vote for a candidate, and the candidate securing the highest number of votes (plurality) is declared elected, irrespective of whether they achieve an absolute majority (50%+1).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This mirrors how FPTP works in India's ______ Lok Sabha constituencies.",
+     "a": "543",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about First Past the Post (FPTP)?",
+     "a": "Students believe FPTP requires the winner to secure an absolute majority (50%+1) of votes cast.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the mechanical conversion of votes into seats under FPTP using the concepts of single-member constituencies and plurality rule, and critically evaluate its impact on proportionality, representation of minorities, and party system formation with reference to Indian electoral outcomes.",
+     "self_check": true
     }
    ]
   }

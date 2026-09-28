@@ -34,6 +34,31 @@
      "q": "Design a simple school-based investigation to measure the temperature difference between a grassy area and a paved area over a week, and explain how this models the urban heat island effect linked to deforestation.",
      "a": "A good design: Place identical thermometers at 1.5 m height in a shaded grassy spot and a shaded paved spot (to isolate surface effect), record max/min daily at same time for 7 days, calculate average difference. Relate: pavement mimics deforested land (low albedo, high heat capacity, no evapotranspiration), grass mimics forest. A poor design that measures in direct sun or uses different times confounds variables, indicating poor experimental control understanding.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Human impact on climate refers to the alteration of Earth's atmospheric composition and surface properties through activities such as burning fossil fuels (releasing greenhouse gases like CO₂ and CH₄) and large-scale ______ (reducing carbon sequestration and changing albedo), leading to enhanced greenhouse effect and global warming.",
+     "a": "deforestation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking students to observe the difference in ______ between a shaded area under a tree and an open concrete playground in their school at noon.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "What is Human impact on climate? State the definition given in this lesson.",
+     "a": "Human impact on climate refers to the alteration of Earth's atmospheric composition and surface properties through activities such as burning fossil fuels (releasing greenhouse gases like CO₂ and CH₄) and large-scale deforestation (reducing carbon sequestration and changing albedo), leading to enhanced greenhouse effect and global.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Human impact on climate?",
+     "a": "Students often think that the greenhouse effect is caused by the ozone hole, or that all air pollution (like smog/particulate matter) warms the planet.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the mechanism by which specific pollutants (CO₂, CH₄, CFCs, particulate matter) and deforestation alter the Earth's energy balance, and can trace the causal chain from human activity to changes in the carbon cycle, radiative forcing, and observed climate trends using data from the carbon cycle and atmospheric.",
+     "self_check": true
     }
    ]
   }

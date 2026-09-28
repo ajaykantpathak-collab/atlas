@@ -5,6 +5,8 @@
    "id": "am11_012.1",
    "title": "Slope of a Line from Two Points",
    "converted_to_compute": false,
+   "formula": "m = (y2 - y1) / (x2 - x1)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (1, 8) and (21, 29).",
@@ -42,6 +44,8 @@
    "id": "am11_012.2",
    "title": "Perpendicular Slopes and Negative Reciprocal",
    "converted_to_compute": false,
+   "formula": "m_perp = -1 / m",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 43 degrees, find the other.",
@@ -79,6 +83,8 @@
    "id": "am11_012.3",
    "title": "Forms of the Equation of a Line",
    "converted_to_compute": false,
+   "formula": "b = y1 - m * x1",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 4x + 7 = 15.",
@@ -116,6 +122,8 @@
    "id": "am11_012.4",
    "title": "Intersection of Two Lines and Market Equilibrium",
    "converted_to_compute": false,
+   "formula": "p_eq = (b2 - b1) / (m1 - m2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 4 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -153,6 +161,8 @@
    "id": "am11_012.5",
    "title": "Distance of a Point from a Line",
    "converted_to_compute": false,
+   "formula": "d = abs(a * x1 + b * y1 + c) / sqrt(a**2 + b**2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a equilateral triangle have?",
@@ -190,6 +200,8 @@
    "id": "am11_012.6",
    "title": "Distance Between Parallel Lines",
    "converted_to_compute": false,
+   "formula": "d = abs(c2 - c1) / sqrt(a**2 + b**2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 66 degrees, find the other.",
@@ -227,6 +239,8 @@
    "id": "am11_012.7",
    "title": "Equation, Centre and Radius of a Circle",
    "converted_to_compute": false,
+   "formula": "r = sqrt(g**2 + f**2 - c)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 84 cm (take pi = 22/7).",
@@ -264,6 +278,8 @@
    "id": "am11_012.8",
    "title": "Parabola Parameter, Focus and Latus Rectum",
    "converted_to_compute": false,
+   "formula": "a_param = y * y / (4 * x)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the value of the polynomial 1x^2 + 6x + 2 at x = 5.",

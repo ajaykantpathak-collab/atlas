@@ -34,6 +34,31 @@
      "q": "Design a simple observational strategy using the Giant Metrewave Radio Telescope (GMRT) near Pune to distinguish between a star-forming spiral galaxy and a quiescent elliptical galaxy at redshift z≈0.1.",
      "a": "Observe 21-cm HI line emission: spirals show strong, broad HI lines (rotating gas disk); ellipticals show weak/no HI. Observe radio continuum at 1.4 GHz: spirals show extended synchrotron emission from supernova remnants; ellipticals may show compact AGN cores. A poor answer (e.g., \"take optical photos\") reveals ignorance of radio tracers of gas and star formation, and of GMRT's capabilities.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Formation of stars and galaxies is the gravitational collapse of primordial hydrogen-helium gas clouds (nebulae) within expanding cosmic matter after the Big Bang, leading to nuclear fusion ignition in dense cores (stars) and their aggregation into massive ______ bound systems (galaxies) containing billions of stars, gas, dust, and dark matter.",
+     "a": "gravitationally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look up at the night sky from a dark village in Ladakh or Rajasthan — you see the ______ Way as a hazy band.",
+     "a": "Milky",
+     "self_check": true
+    },
+    {
+     "q": "What is Formation of stars and galaxies? State the definition given in this lesson.",
+     "a": "Formation of stars and galaxies is the gravitational collapse of primordial hydrogen-helium gas clouds (nebulae) within expanding cosmic matter after the Big Bang, leading to nuclear fusion ignition in dense cores (stars) and their aggregation into massive gravitationally bound systems (galaxies) containing billions of stars, gas, dust.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Formation of stars and galaxies?",
+     "a": "Students often believe galaxies formed *before* stars (like pre-made containers), or that all stars in a galaxy formed simultaneously in a single burst.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can sequence the stages from post-Big Bang matter distribution to galaxy and star formation, explain the role of gravity and nuclear fusion, and distinguish between spiral, elliptical, and irregular galaxy types using Indian observatory examples (e.g., Hanle, Giant Metrewave Radio Telescope).",
+     "self_check": true
     }
    ]
   }

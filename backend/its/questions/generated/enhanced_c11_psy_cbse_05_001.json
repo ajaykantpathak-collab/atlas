@@ -34,6 +34,36 @@
      "q": "Design a 2-trial mini-experiment to demonstrate that learning is inferred, not observed. Specify: (1) pre-test, (2) experience/practice phase, (3) post-test, (4) the inference step. Use a verbal learning task.",
      "a": "(1) Pre-test: Ask participant to recall a list of 10 nonsense syllables — score 0. (2) Experience: Show each syllable for 2 sec, repeat list 5 times. (3) Post-test: Ask for recall — score 7. (4) Inference: Since pre-test was 0 and post-test 7 after practice, we *infer* learning occurred. We did not \"see\" learning; we saw performance change and inferred the internal change. Poor answer: omits pre-test or treats post-test score as direct observation of learning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Learning is any relatively permanent change in behaviour or ______ potential that results from experience or practice, excluding temporary changes due to fatigue, habituation, drugs, or maturation.",
+     "a": "behavioural",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you stayed up all night ______ and now your hands shake while writing — is that learning?",
+     "a": "studying",
+     "self_check": true
+    },
+    {
+     "q": "What is Learning? State the definition given in this lesson.",
+     "a": "Learning is any relatively permanent change in behaviour or behavioural potential that results from experience or practice, excluding temporary changes due to fatigue, habituation, drugs, or maturation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now imagine you practiced driving for ______ days and now drive smoothly without conscious effort — that is learning.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Learning?",
+     "a": "Students equate \"relatively permanent\" with \"permanent forever\" and argue that forgetting disproves learning.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can accurately distinguish learning from non-learning behavioural changes in five novel scenarios, justify each distinction using the criteria of permanence and experiential origin, and explain why learning is an inferred process rather than a directly observed one.",
+     "self_check": true
     }
    ]
   }

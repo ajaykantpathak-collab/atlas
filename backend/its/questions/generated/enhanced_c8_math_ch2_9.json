@@ -34,6 +34,26 @@
      "q": "Create a real-world problem involving area or volume where you would use (a^m)^n. Write the problem and solve it showing the power of a power rule.",
      "a": "Sample good answer: \"A cubical storage box has side length 10^2 cm. Find its volume.\" Volume = (side)^3 = (10^2)^3 = 10^(2×3) = 10^6 cm^3. This uses power of a power because the side itself is a power (10^2) and we raise it to power 3 for volume. A poor answer using simple numbers like \"side = 2 cm, volume = 2^3\" doesn't demonstrate the rule. An answer using (2^3)^2 for area of a square with side 2^3 works but shows less creativity in context.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The power of a power rule states that when a power is raised to another power, the base remains the same and the exponents are ______: (a^m)^n = a^(m×n), where a is any non-zero number and m, n are positive integers.",
+     "a": "multiplied",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are folding a square piece of paper 3 times, and then you repeat this entire folding ______ 4 more times.",
+     "a": "process",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly apply (a^m)^n = a^(mn) to simplify expressions with nested exponents, explain why the exponents multiply using repeated multiplication, and identify when this rule applies versus when to add exponents (product rule) or subtract exponents (quotient rule).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are folding a square piece of paper 3 times, and then you repeat this entire folding process 4 more times.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

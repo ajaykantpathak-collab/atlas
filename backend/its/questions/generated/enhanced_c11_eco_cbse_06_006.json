@@ -34,6 +34,31 @@
      "q": "Construct a hypothetical case study of a 35-year-old worker transitioning from a formal textile mill (permanent, 200 workers) to informal sector after mill closure. Describe his new work arrangement, list 4 specific vulnerabilities he newly faces, and suggest 2 government schemes that could partially mitigate each vulnerability.",
      "a": "Case: Ahmedabad mill worker (from Box 6.2) becomes casual construction worker. Vulnerabilities: (1) No PF → no retirement corpus; mitigation: PM-SYM (Pradhan Mantri Shram Yogi Maandhan) for pension. (2) No ESI → health shock risk; mitigation: Ayushman Bharat PM-JAY. (3) No maternity benefit → wife's delivery costs; mitigation: PMMVY (Pradhan Mantri Matru Vandana Yojana). (4) Arbitrary dismissal → income loss; mitigation: MGNREGA (100 days guaranteed work). A poor answer lists generic schemes without mapping to specific vulnerabilities.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The informal sector comprises all ______ private enterprises owned by individuals or households engaged in the production and sale of goods and services, operated on a proprietary or partnership basis with less than 10 total workers (including hired and family workers), where workers lack statutory social security coverage (provident fund, gratuity, maternity benefits, pension), formal employment contracts, and legal protection against arbitrary dismissal.",
+     "a": "unincorporated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine standing at a busy Delhi intersection at 8 AM: a cycle-rickshaw puller (owns his vehicle, no hired workers), a street vendor selling chai (family helper only), a ______ worker loading bricks (paid daily, no contract), and a security guard at a corporate office (employed by agency with 500 guards).",
+     "a": "construction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The informal sector comprises all unincorporated private enterprises owned by individuals or households engaged in the production and sale of goods and services, operated on a proprietary or partnership basis with less than ______ total workers (including hired and family workers), where workers lack statutory social security coverage (provident fund, gratuity, maternity benefits, pension), formal employment contracts, and legal protection against arbitrary dismissal.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify a given worker into formal/informal sector using the 10-worker threshold and employment contract criteria, explain how casualisation increases vulnerability by eroding social security access, and calculate the informal sector share from workforce distribution data.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine standing at a busy Delhi ______ at 8 AM: a cycle-rickshaw puller (owns his vehicle, no hired workers), a street vendor selling chai (family helper only), a construction worker loading bricks (paid daily, no contract), and a security guard at a corporate office (employed by agency with 500 guards).",
+     "a": "intersection",
+     "self_check": true
     }
    ]
   }

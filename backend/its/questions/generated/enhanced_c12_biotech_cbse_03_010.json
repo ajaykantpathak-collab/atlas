@@ -34,6 +34,26 @@
      "q": "Design a strategy to amplify a 2.5 kb human gene cloned into a low-copy-number plasmid (copy number ~15) to obtain 10 µg of purified plasmid DNA. Specify: host strain, culture volume, antibiotic, and how you would verify amplification success at each stage.",
      "a": "Strategy:  \n1. Transform into *E. coli* DH5α (high transformation efficiency, recA- for stability).  \n2. Plate on LB + ampicillin (100 µg/mL) → pick single colony → inoculate 5 mL LB+amp → grow 8 h (starter).  \n3. Scale up to 500 mL LB+amp in 2 L flask, shake at 37°C, 200 rpm until OD600 ~1.5 (~16 generations).  \n4. Harvest cells, use midi-prep kit (alkaline lysis) for low-copy plasmid. Expected yield: ~10 µg from 500 mL.  \n5. Verify: (a) Colony PCR on starter culture, (b) Analytical restriction digest of midi-prep DNA, (c) Nanodrop 260/280 ~1.8, (d) Agarose gel for supercoiled band.  \nA poor answer omits verification steps, uses high-copy plasmid assumptions, or ignores low-copy yield adjustments — showing lack of practical lab planning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of cloned genes in host cells refers to the process where a recombinant vector (e.g., plasmid) carrying the gene of interest is replicated inside a living host cell (typically *E. coli*) through the host's own DNA replication machinery during cell division, producing a large population of identical recombinant clones.",
+     "a": "Amplification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just successfully inserted the human insulin gene into a plasmid and ______ *E. coli* cells (previous nodes).",
+     "a": "transformed",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the step-by-step process of in vivo gene amplification from transformation to colony formation, distinguish it from PCR-based amplification, and calculate the theoretical yield of recombinant plasmids after a given number of bacterial generations under selective pressure.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just ______ inserted the human insulin gene into a plasmid and transformed *E. coli* cells (previous nodes).",
+     "a": "successfully",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Create a number sequence of 5 terms that starts with the number 3 and uses a two-step rule: \"multiply by 2, then subtract 1\". Show all terms.",
      "a": "The expected sequence is: $3, 5, 9, 17, 33$. Working criteria: Term 1 is 3. Term 2: $(3 \\times 2) - 1 = 5$. Term 3: $(5 \\times 2) - 1 = 9$. Term 4: $(9 \\times 2) - 1 = 17$. Term 5: $(17 \\times 2) - 1 = 33$. A poor answer shows arithmetic errors in the multi-step calculation or applies the operations in the wrong order.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ patterns in number sequences involves observing how consecutive terms change by a constant difference, ratio, or rule to predict subsequent terms or find a general expression.",
+     "a": "Identifying",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ pocket money in your piggy bank: ₹10 on Day 1, ₹15 on Day 2, ₹20 on Day 3, and ₹25 on Day 4.",
+     "a": "saving",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How much will you save on Day ______ without counting every single day?",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are saving pocket money in your piggy bank: ₹10 on Day 1, ₹15 on Day 2, ₹20 on Day 3, and ₹25 on Day 4.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

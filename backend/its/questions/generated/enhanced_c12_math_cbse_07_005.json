@@ -34,6 +34,36 @@
      "q": "Create a trigonometric integrand that requires using the identity 1 + tan²x = sec²x before integration, and then evaluate it. Explain your choice of identity.",
      "a": "Consider ∫ tan²x dx. Using 1 + tan²x = sec²x, we rewrite tan²x = sec²x – 1. Then ∫ tan²x dx = ∫ (sec²x – 1) dx = tan x – x + C. A good answer shows the identity substitution explicitly. A poor answer might try to integrate tan²x directly as (tan³x)/3 or attempt a substitution without simplifying, revealing a lack of strategy for reducing powers of trigonometric functions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Standard integrals of trigonometric functions are the ______ of the six basic trigonometric functions (sin x, cos x, tan x, cot x, sec x, cosec x) and their linear transformations (e.g., sin(ax+b)), derived directly from differentiation formulas.",
+     "a": "antiderivatives",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a physics problem: a ______'s velocity is given by v(t) = 5 sin(2t) m/s.",
+     "a": "particle",
+     "self_check": true
+    },
+    {
+     "q": "What is Standard integrals of trigonometric functions? State the definition given in this lesson.",
+     "a": "Standard integrals of trigonometric functions are the antiderivatives of the six basic trigonometric functions (sin x, cos x, tan x, cot x, sec x, cosec x) and their linear transformations (e.g., sin(ax+b)), derived directly from differentiation formulas.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To find its displacement, you need the antiderivative of sin(______t).",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Standard integrals of trigonometric functions?",
+     "a": "The most pervasive error is sign confusion in the basic integrals: writing ∫ sin x dx = cos x + C (missing the minus sign) and ∫ cos x dx = –sin x + C (adding an extra minus).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can recall and correctly write all six standard trigonometric integrals and their linear-argument variants without hesitation.",
+     "self_check": true
     }
    ]
   }

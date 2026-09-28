@@ -34,6 +34,36 @@
      "q": "Design a minimal valid GenBank entry (show all mandatory fields) for a synthetic 150-bp plasmid insert named \"pSyn_GFP\" with one CDS (ATG...TAA) and no introns. Use invented but syntactically correct accession, version, and today's date.",
      "a": "Must include: LOCUS, DEFINITION, ACCESSION, VERSION, KEYWORDS, SOURCE, ORGANISM, REFERENCE (at least one with AUTHORS, TITLE, JOURNAL), FEATURES (source 1..150, CDS 1..150 with /codon_start=1, /transl_table=1, /product=\"GFP\", /translation=\"M...K\"), ORIGIN (150 bp in 10-column blocks), // terminator. Missing any field (e.g., no REFERENCE or no //) makes it invalid for GenBank submission. Poor answer omits VERSION or uses spaces instead of fixed columns.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: FASTA format is a text-based sequence ______ where the first line begins with a '>' symbol followed by a description (accession number, gene name), and subsequent lines contain the nucleotide or amino acid sequence in single-letter codes.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If you choose \"FASTA\", you get a clean '>NM_007294.3 Homo sapiens BRCA1...' ______ by ATGC... — perfect for pasting into BLAST.",
+     "a": "followed",
+     "self_check": true
+    },
+    {
+     "q": "What is FASTA format? State the definition given in this lesson.",
+     "a": "FASTA format is a text-based sequence representation where the first line begins with a '>' symbol followed by a description (accession number, gene name), and subsequent lines contain the nucleotide or amino acid sequence in single-letter codes.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you download the *BRCA______* gene from NCBI.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about FASTA format?",
+     "a": "Students treat GenBank as \"just a database\" and FASTA as \"just a format\", not realising GenBank *is* a flat-file format with rigid column positions (e.g., field names in columns 1-12, data from column 13).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can parse a raw GenBank flat file to extract the coding sequence (CDS) coordinates from the FEATURES table, convert a GenBank entry to FASTA format preserving the correct accession and description, and explain why BLAST requires FASTA input while genome browsers require GenBank/GFF.",
+     "self_check": true
     }
    ]
   }

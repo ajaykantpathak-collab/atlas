@@ -34,6 +34,26 @@
      "q": "Design a thought experiment to verify the 1/r dependence of the electric field of an infinite line charge using only a test charge, a force sensor, and a measuring tape. Describe the procedure, the data to collect, and how you would analyse it to confirm E ∝ 1/r.",
      "a": "Procedure: Fix the infinite wire vertically. Place a small positive test charge q on an insulating rod attached to a force sensor. Measure the electrostatic force F on q at several perpendicular distances r (e.g., 10 cm, 20 cm, 30 cm) using the tape. Since E = F/q, plot F vs 1/r. If the data falls on a straight line through the origin, F ∝ 1/r, confirming E ∝ 1/r. A poor answer would measure force at different distances but plot F vs r, missing the inverse relationship.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The electric field due to an infinitely long straight wire with uniform linear charge density λ at a ______ distance r is given by E = λ/(2πε₀r), directed radially outward if λ > 0 and radially inward if λ < 0.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine standing near a high-voltage power line (a long ______ wire) — you might wonder how the electric field varies as you move away from it.",
+     "a": "straight",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) justify the choice of a cylindrical Gaussian surface using symmetry arguments, (2) compute the electric flux through the curved surface and show flux through the ends is zero, (3) apply Gauss's law to derive E = λ/(2πε₀r), and (4) solve numerical problems involving infinite line charges, including.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine ______ near a high-voltage power line (a long straight wire) — you might wonder how the electric field varies as you move away from it.",
+     "a": "standing",
+     "self_check": true
     }
    ]
   }

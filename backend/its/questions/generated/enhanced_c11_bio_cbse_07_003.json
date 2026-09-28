@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a frog gastrocnemius muscle (skeletal) to demonstrate that muscle contraction requires ATP. List materials, procedure, and expected observation.",
      "a": "**Materials:** Frog gastrocnemius muscle-sciatic nerve preparation, Ringer's solution, ATP solution, ATP-depleting agent (e.g., iodoacetate + iodoacetamide to inhibit glycolysis, or apyrase to degrade ATP), kymograph or force transducer. **Procedure:** (1) Mount muscle in oxygenated Ringer's; record normal twitches on nerve stimulation. (2) Perfuse with ATP-depleting agent; stimulate repeatedly until contraction fails. (3) Wash and perfuse with ATP-supplemented Ringer's; stimulate again. **Expected observation:** Contraction force declines to zero in step 2 (rigor develops), and recovers in step 3. A poor answer (e.g., \"add ATP and see contraction\") reveals lack of understanding of controls, rigor mortis concept, or that ATP is needed for *both* cross-bridge cycling *and* detachment (Ca²⁺ pumping).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Muscular tissue is a ______ animal tissue composed of elongated cells (muscle fibers) containing contractile proteins (actin and myosin) that generate force and produce movement through ATP-dependent sliding filament mechanism; it is classified into skeletal (striated, voluntary), smooth (non-striated, involuntary), and cardiac (striated, involuntary) types based on structure, location, and control.",
+     "a": "specialized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you lift your school bag, your biceps bulge and harden — that visible change is ______ muscle contracting.",
+     "a": "skeletal",
+     "self_check": true
+    },
+    {
+     "q": "What is Muscular tissue? State the definition given in this lesson.",
+     "a": "Muscular tissue is a specialized animal tissue composed of elongated cells (muscle fibers) containing contractile proteins (actin and myosin) that generate force and produce movement through ATP-dependent sliding filament mechanism; it is classified into skeletal (striated, voluntary), smooth (non-striated, involuntary), and cardiac.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Muscular tissue?",
+     "a": "Students believe that during muscle contraction, the thick (myosin) and thin (actin) filaments *themselves* shorten or compress like springs.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can draw and label the ultrastructure of a skeletal muscle sarcomere, explain the sliding filament theory of contraction with the role of Ca²⁺, troponin, tropomyosin, and ATP, and differentiate the three muscle types by microscopic features, innervation, and functional properties using a comparison table.",
+     "self_check": true
     }
    ]
   }

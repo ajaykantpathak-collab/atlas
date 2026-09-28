@@ -34,6 +34,31 @@
      "q": "Create a 3x3 matrix (rows: Level — Top, Middle, Lower; columns: View — American, British, Modern) showing whether administration or management dominates at each level under each view. Fill any two cells and explain your entries.",
      "a": "Example fill: American-Top = Administration (policy); British-Top = Management (comprehensive); Modern-Top = Both (interchangeable). A correct matrix shows the student can synthesise all three perspectives. A poor matrix repeats the same term everywhere or misaligns levels, indicating failure to grasp that the *same* organisational level is labelled differently across views.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Management is the process of planning, organising, staffing, directing, and controlling ______ resources to achieve goals efficiently and effectively; Administration is the higher-level function of determining objectives, policies, and broad strategies, typically performed by top-level management (owners, board of directors).",
+     "a": "organisational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the Principal of a school (top-level ______) and also the Head of the Science Department (middle-level manager).",
+     "a": "administrator",
+     "self_check": true
+    },
+    {
+     "q": "What is Management? State the definition given in this lesson.",
+     "a": "Management is the process of planning, organising, staffing, directing, and controlling organisational resources to achieve goals efficiently and effectively; Administration is the higher-level function of determining objectives, policies, and broad strategies, typically performed by top-level management (owners, board of directors).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Management?",
+     "a": "Students often memorise the American view as \"the correct answer\" and treat the British view as \"wrong\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) list at least four distinct bases of difference (nature, level, scope, function, usage) between management and administration, (2) classify a given organisational role or decision as administrative or managerial with justification, and (3) explain why modern organisations often blur this distinction.",
+     "self_check": true
     }
    ]
   }

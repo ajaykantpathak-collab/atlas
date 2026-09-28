@@ -34,6 +34,31 @@
      "q": "Design a new base-5 number system for a fictional alien species with 5 fingers. Define its digit set, write the first ten numbers in this system (starting from 0), and explain how the place values differ from decimal.",
      "a": "Digit set: {0,1,2,3,4}. First ten numbers: 0, 1, 2, 3, 4, 10, 11, 12, 13, 14. Place values are powers of 5 (1, 5, 25, 125...) instead of powers of 10. A poor answer uses digit '5' or writes 5 instead of 10 for the fifth number, showing failure to generalise the carry-over rule to an arbitrary base.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A number system is a ______ notation for representing numbers using a set of digits and a base (radix).",
+     "a": "mathematical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a secret code using only two symbols: ● and ○.",
+     "a": "writing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In positional notation, the value of a digit depends on its position, calculated as digit × base^position_index (starting from ______ at the rightmost digit).",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the valid digit set for each system, write the positional weight (place value) for any given position in binary, octal, and hexadecimal, and explain why computers use binary internally while octal/hexadecimal are used as human-friendly shorthand for binary.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are writing a secret code using only two symbols: ● and ○.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

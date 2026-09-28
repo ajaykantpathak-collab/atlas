@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_07_007",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_07_007",
+   "title": "c12_soc_cbse_07_007",
+   "questions": [
+    {
+     "q": "Define the core difference between qualitative and quantitative data analysis in sociological research, giving one example of a technique used for each.",
+     "a": "Correct answer: Qualitative analysis interprets non-numerical data (text, audio, visual) to uncover meanings, themes, and patterns through coding (e.g., thematic analysis of interview transcripts). Quantitative analysis uses statistical methods on numerical data to measure variables, test relationships, and generalize (e.g., chi-square test on survey cross-tabulation). A wrong answer that says \"qualitative is about words, quantitative is about numbers\" without mentioning systematic coding or statistical testing reveals a superficial understanding — it misses the *analytical procedure* that transforms raw data into evidence.",
+     "self_check": true
+    },
+    {
+     "q": "A student analyzes 10 in-depth interviews on \"Changing Aspirations\" by counting how many times the word \"doctor\" appears and reporting \"30% of respondents want to be doctors.\" Explain why this is a category error in qualitative analysis.",
+     "a": "Correct answer: Counting word frequency converts rich narrative data into a crude quantitative metric, losing context, meaning, and nuance — the very purpose of qualitative research. Qualitative analysis requires *thematic coding*: identifying recurring ideas (e.g., \"parental pressure\", \"economic insecurity\", \"gendered expectations\") across interviews, not keyword counting. A wrong answer that defends the counting approach (\"it makes the data objective\") reveals the misconception that qualitative data must be quantified to be valid, ignoring that qualitative validity comes from interpretive depth and reflexivity, not numerical representation.",
+     "self_check": true
+    },
+    {
+     "q": "You have survey data from 60 students: \"Mode of Transport to School\" (Walk, Cycle, Bus, Auto, Car) and \"Gender\" (Boy, Girl). Which specific statistical test should you use to determine if mode of transport is associated with gender? State the test, its null hypothesis, and the minimum expected frequency required per cell.",
+     "a": "Correct answer: Chi-square test of independence. Null hypothesis (H₀): Mode of transport and gender are independent (no association). Minimum expected frequency: 5 per cell (if violated, use Fisher's exact test or collapse categories). Steps: (1) Create 5×2 contingency table with observed frequencies. (2) Calculate expected frequency for each cell = (row total × column total) / grand total. (3) Compute χ² = Σ[(O−E)²/E]. (4) df = (5−1)×(2−1) = 4. (5) Compare χ² to critical value at α=0.05 (9.488). A wrong answer suggesting t-test or correlation reveals confusion between categorical vs continuous variables — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the analytical logic of thematic analysis (qualitative) and cross-tabulation (quantitative) when examining the *same* research question: \"How does gender shape experiences of public transport?\" Highlight one strength and one limitation of each approach for this specific question.",
+     "a": "Correct answer: Thematic analysis (qualitative) reads interview transcripts to identify themes like \"safety strategies\", \"time poverty\", \"harassment normalization\" — strength: captures *how* and *why* gender shapes experience in respondents' own words; limitation: cannot generalize to all women commuters. Cross-tabulation (quantitative) creates a gender × satisfaction level table and runs chi-square — strength: tests if gender-satisfaction association is statistically significant in the sample, allowing generalization; limitation: reduces complex experiences to a satisfaction score, missing the *mechanisms* (e.g., *why* women report lower satisfaction). A wrong answer that says \"qualitative gives depth, quantitative gives breadth\" without linking to the *specific question* shows generic understanding, not analytical comparison.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"In a mixed-methods project, you should always collect quantitative and qualitative data simultaneously, analyze them separately, and only combine findings at the end.\" Defend or critique with reference to the NCERT's emphasis on method-question fit.",
+     "a": "Correct answer: Critique. The NCERT (p.119) states: \"You can also try to combine methods to approach the same research question from different angles. In fact, this is often highly recommended.\" The claim describes a *convergent parallel design* (one type of mixed methods), but the *design must follow the research question*. For exploratory questions (e.g., \"What are the dimensions of...?\"), a sequential design (qualitative first to build survey) is better. For validation (e.g., \"Do survey patterns hold in lived experience?\"), concurrent is fine. Rigid adherence to one design violates the principle that \"a given research method is not necessarily appropriate for all questions\" (NCERT p.117). A wrong answer that agrees with the claim reveals a \"methodology fetish\" — treating methods as recipes rather than tools fitted to questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mixed-methods analysis plan for a project on \"Household Appliances and Domestic Work\" (NCERT suggested topic). Specify: (a) one quantitative technique for survey data on appliance ownership/time-use, (b) one qualitative technique for observation/interview data on gendered division of labour, (c) how you will triangulate the two at the interpretation stage.",
+     "a": "Expected answer: (a) Quantitative: Cross-tabulation of appliance ownership (yes/no) vs. reported hours of domestic work by gender, with chi-square test for association and mean comparison (t-test) for time-use. (b) Qualitative: Thematic analysis of observation field notes and interviews using open coding → axial coding → themes (e.g., \"technology as reinforcement\", \"time reallocation\", \"gender performance\"). (c) Triangulation: Use quantitative pattern (e.g., \"washing machine ownership correlates with reduced women's laundry time\") to *select* qualitative cases for deep dive (e.g., observe households with/without machine). Then check if qualitative themes explain *why* the correlation exists (e.g., \"men operate machine but women still sort/fold\") or contradict it (e.g., \"machine frees time but raises cleanliness standards\"). A poor answer that lists techniques without a *triangulation logic* (e.g., \"I will do both and compare\") shows mechanical mixing, not integrated analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Qualitative data analysis in sociology involves systematic ______ of non-numerical data (interview transcripts, field notes, documents) to identify patterns, themes, and meanings through coding and thematic analysis.",
+     "a": "interpretation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just finished fieldwork for your project on \"Public Transport in My City\" — you have 50 completed survey questionnaires (______) and 8 in-depth interview recordings (qualitative).",
+     "a": "quantitative",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) distinguish between qualitative and quantitative data types and select the appropriate analytical technique for each; (2) demonstrate the step-by-step process of coding qualitative data into themes and running basic descriptive/inferential statistics on quantitative data; (3) integrate findings from both.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just finished fieldwork for your project on \"Public Transport in My City\" — you have 50 completed survey ______ (quantitative) and 8 in-depth interview recordings (qualitative).",
+     "a": "questionnaires",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

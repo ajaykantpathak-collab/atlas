@@ -34,6 +34,26 @@
      "q": "Create a statement p such that both p and ∼p are false in the real world, or explain why this is impossible.",
      "a": "It is impossible. By definition of negation, p and ∼p always have opposite truth values; one must be true and the other false. A student who tries to create such an example reveals they do not grasp the law of excluded middle or think truth values depend on external facts rather than logical structure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ of a statement p, denoted by ∼p (read as \"not p\"), is a new statement whose truth value is exactly opposite to that of p.",
+     "a": "negation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you tell your friend \"It is raining in Delhi today.\" Your friend disagrees and says \"It is not raining in Delhi today.\" That second sentence is the negation of your ______.",
+     "a": "statement",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly write the negation of any simple or compound statement (including those with quantifiers) in natural language and symbolic form, identify the truth value of a negation given the original statement's truth value, and explain why double negation restores the original statement.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you tell your friend \"It is raining in Delhi today.\" Your friend ______ and says \"It is not raining in Delhi today.\" That second sentence is the negation of your statement.",
+     "a": "disagrees",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Create a new scenario: a school database has a table 'exams' with columns exam_id, subject, date, max_marks. Write a SELECT query to list all subjects and their maximum marks, with column headers 'Subject' and 'Max Marks'.",
      "a": "`SELECT subject AS \"Subject\", max_marks AS \"Max Marks\" FROM exams;` (or without quotes if single word). A poor answer might omit aliases or use incorrect alias syntax, indicating the student cannot apply aliasing to improve readability.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The SELECT ______ in SQL is used to retrieve data from one or more database tables.",
+     "a": "statement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a librarian who needs to quickly ______ a list of all book titles and their authors from the library database.",
+     "a": "generate",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write a correct SELECT query to retrieve specific columns from a single table, apply basic filtering using WHERE clause (covered in next node), and explain the purpose of each clause (SELECT, FROM) in the query.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ who needs to quickly generate a list of all book titles and their authors from the library database.",
+     "a": "librarian",
+     "self_check": true
     }
    ]
   }

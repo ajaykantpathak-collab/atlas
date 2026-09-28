@@ -34,6 +34,31 @@
      "q": "Design a fabric specification sheet for **monsoon rainwear** (urban commuter, 30 min walk in heavy rain, then 8 hours in AC office). Define minimum test values for: (1) Hydrostatic head, (2) MVTR, (3) Abrasion (Martindale), (4) Colorfastness to washing, (5) Drape coefficient. Justify each value.",
      "a": "| Property | Minimum Value | Justification |\n|---|---|---|\n| **Hydrostatic head** | **≥ 10,000 mm** (ISO 811) | Withstands heavy rain + backpack strap pressure; 5,000 mm is light rain only. |\n| **MVTR** | **≥ 5,000 g/m²/day** (ASTM E96 upright cup) | Must vent sweat during 30-min walk; <3,000 causes condensation inside. |\n| **Martindale abrasion** | **≥ 15,000 cycles** (ISO 12947) | Backpack straps, seat friction daily; 10,000 is minimum for outerwear. |\n| **Colorfastness to washing** | **Grade 4-5** (ISO 105-C06) | Frequent washing; Grade 3 shows visible fading after 10 cycles. |\n| **Drape coefficient** | **0.35–0.45** (Cusick drape tester) | Balances structured look (professional) with ease of movement; <0.3 too limp, >0.5 too stiff. |\n\nA poor answer gives generic \"high/low\" without test standards or end-use justification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Fabric selection criteria for apparel is the systematic evaluation of textile materials based on three primary performance dimensions—comfort (thermal, moisture, tactile, and pressure comfort), durability (abrasion resistance, tensile/tear strength, pilling resistance, ______, dimensional stability), and aesthetics (drape, luster, texture, color retention, visual appeal)—to match the functional requirements of specific end-use applications such as sportswear, formal wear, or protective clothing.",
+     "a": "colorfastness",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're designing a uniform for Delhi Metro staff who work 12-hour shifts in air-conditioned stations but walk on hot platforms—what fabric keeps them cool, resists daily abrasion, and looks ______ after 50 washes?",
+     "a": "professional",
+     "self_check": true
+    },
+    {
+     "q": "What is Fabric selection criteria for apparel? State the definition given in this lesson.",
+     "a": "Fabric selection criteria for apparel is the systematic evaluation of textile materials based on three primary performance dimensions—comfort (thermal, moisture, tactile, and pressure comfort), durability (abrasion resistance, tensile/tear strength, pilling resistance, colorfastness, dimensional stability), and aesthetics (drape, luster.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Fabric selection criteria for apparel?",
+     "a": "\"Higher thread count always means better quality and durability.\" Students equate thread count (threads per inch) with fabric performance across all criteria.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Given a specific apparel end-use scenario (e.g., summer sportswear, winter formal wear, children's playwear), select the optimal fabric by evaluating fiber properties, yarn structure, fabric construction, and finish effects against weighted comfort, durability, and aesthetic criteria; (2) Justify the.",
+     "self_check": true
     }
    ]
   }

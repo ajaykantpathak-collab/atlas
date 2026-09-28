@@ -4,26 +4,13 @@
   {
    "id": "fegp.3.1",
    "title": "Numbers Can Tell Us Things",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "verify the number-theory claim numerically",
-     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
-     "compute": "lhs = 3 ** 3 + 4 ** 3"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
-     "compute": "diff = 5 ** 3 - lhs"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
      "a": "34",
-     "self_check": false
+     "self_check": true
     },
     {
      "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
@@ -42,7 +29,7 @@
     },
     {
      "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
-     "a": "0",
+     "a": "18",
      "self_check": false
     },
     {
@@ -55,15 +42,8 @@
   {
    "id": "fegp.3.2",
    "title": "Supercells",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "split the number into digits and apply the rule",
-     "explain": "split the number into digits and apply the rule: diff = 9 * abs(4 - 6) gives 18",
-     "compute": "diff = 9 * abs(4 - 6)"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "The digits of the 2-digit number 46 are swapped to make 64. Find the difference between the two numbers using 9 x |a - b|.",
@@ -101,6 +81,8 @@
    "id": "fegp.3.3",
    "title": "Kaprekar's Routine to 6174",
    "converted_to_compute": false,
+   "formula": "diff = desc_digits - asc_digits",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "For the digits 8, 3, 3, 3 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
@@ -137,15 +119,8 @@
   {
    "id": "fegp.3.4",
    "title": "Patterns of Numbers on the Number Line",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the integer operation sign rules",
-     "explain": "apply the integer operation sign rules: total = 3 + (6) gives 9",
-     "compute": "total = 3 + (6)"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers 3 and 6.",

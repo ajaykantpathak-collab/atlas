@@ -34,6 +34,36 @@
      "q": "Create a scenario where the probability of an event is 1.",
      "a": "An example is: \"What is the probability that the sun will rise tomorrow?\" or \"If a bag contains only red balls, what is the probability of picking a red ball?\" A student who provides a scenario that is merely \"likely\" (e.g., \"the probability of raining\") has not understood that 1 means the event is certain.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is a numerical measure of the likelihood that a specific event will occur, ranging from 0 (impossible) to 1 (certain).",
+     "a": "Probability",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a bag of 5 different coloured ______.",
+     "a": "marbles",
+     "self_check": true
+    },
+    {
+     "q": "What is Probability? State the definition given in this lesson.",
+     "a": "Probability is a numerical measure of the likelihood that a specific event will occur, ranging from 0 (impossible) to 1 (certain).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a bag of ______ different coloured marbles.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Probability?",
+     "a": "Students often mistake the \"total outcomes\" by only counting the outcomes that are different from the one they want.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the probability of simple events (like coin tosses or die rolls) and classify them as impossible, possible, or certain.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Create a real-world problem (Indian context) where a student must distinguish between similarity and congruence to solve it. The problem should involve a scale drawing or map, and require the student to explain why the actual object and its drawing are similar but not congruent. Provide the problem statement and the expected solution structure.",
      "a": "**Expected problem:** \"An architect draws a floor plan of a rectangular room measuring 6 m × 4 m on a sheet of paper using a scale of 1 cm = 1 m. The drawing shows a rectangle of 6 cm × 4 cm. Are the actual room and the drawing congruent or similar? Justify your answer. If the architect changes the scale to 1 cm = 50 cm, what are the new drawing dimensions? Are the two drawings (1 cm = 1 m and 1 cm = 50 cm) congruent to each other?\"  \n**Expected solution structure:**  \n1. Actual room: 600 cm × 400 cm. Drawing 1: 6 cm × 4 cm. Angles all 90°. Side ratios: 600/6 = 100, 400/4 = 100 → proportional, scale factor 100. Similar, NOT congruent (sizes differ).  \n2. Drawing 2 scale 1 cm = 50 cm → dimensions: 600/50 = 12 cm, 400/50 = 8 cm → 12 cm × 8 cm.  \n3. Drawing 1 (6×4) vs Drawing 2 (12×8): angles equal, side ratios 6/12 = 4/8 = 1/2 → similar, NOT congruent.  \n**What a poor answer reveals:** If a student says the room and drawing are congruent because \"both are rectangles,\" they fundamentally misunderstand congruence. If they cannot compute the new dimensions, they lack ratio/proportion skills from c6_math_ch06_062. If they think the two drawings are congruent because \"both represent the same room,\" they confuse the object with its representation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Two figures are similar if they have the same shape but not ______ the same size; corresponding angles are equal and corresponding sides are in proportion.",
+     "a": "necessarily",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have two photographs of the Taj Mahal — one printed on a 10 cm × 15 cm postcard and ______ enlarged to a 1 m × 1.5 m poster for your classroom wall.",
+     "a": "another",
+     "self_check": true
+    },
+    {
+     "q": "What is Two figures? State the definition given in this lesson.",
+     "a": "Two figures are similar if they have the same shape but not necessarily the same size; corresponding angles are equal and corresponding sides are in proportion.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Congruence is a special case of similarity where the scale factor (ratio of corresponding sides) is exactly ______.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Two figures?",
+     "a": "Misconception: \"If two figures have the same shape, they are congruent.\" Students often equate \"same shape\" with congruence, ignoring size.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify any pair of geometric figures as similar, congruent, or neither by checking angle equality and side proportionality/equality.",
+     "self_check": true
     }
    ]
   }

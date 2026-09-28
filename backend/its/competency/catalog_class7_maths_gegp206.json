@@ -22,7 +22,7 @@
     "construct a rectangle with given sides",
     "list the steps of the construction done in class"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -39,7 +39,16 @@
      "action": "check the answer",
      "explain": "Verify by reversing or re-checking, then conclude."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 2 gives 2",
+     "compute": "lines = 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp2.6.2",
@@ -57,7 +66,7 @@
     "find tiling patterns on floors around you",
     "what angles must meet at every point of a tiling"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -74,7 +83,16 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the area formula base times height",
+     "explain": "apply the area formula base times height: area = 16 * 5 gives 80",
+     "compute": "area = 16 * 5"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp2.6.3",
@@ -92,7 +110,7 @@
     "construct two lines that must meet at 60 degrees",
     "explain how equal angles make parallel lines"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -109,7 +127,16 @@
      "action": "check the answer",
      "explain": "Verify by reversing or re-checking, then conclude."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 19 gives 71",
+     "compute": "other = 90 - 19"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp2.6.4",
@@ -127,7 +154,7 @@
     "find and fix the error in a classmate's construction",
     "write the property checklist for your construction"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -144,7 +171,16 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 3 gives 3",
+     "compute": "lines = 3"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

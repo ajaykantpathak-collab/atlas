@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using household items to demonstrate that atmospheric pressure acts in all directions, not just downward. Describe the procedure, what you expect to observe, and how it proves the point.",
      "a": "Good experiment: Fill a glass completely with water, cover with a stiff card (like an index card), hold the card in place, invert the glass, then release the card. Observation: The card stays in place and water doesn't spill. Explanation: Atmospheric pressure pushes UP on the card with force ≈ P × A, balancing the weight of water pushing down. Since the card holds horizontally, this proves pressure acts upward. For sideways: poke a small hole near the bottom of a water-filled plastic bottle, seal the cap tightly. Water stops flowing because internal pressure drops below atmospheric; loosening the cap lets air in, equalizing pressure, and water spurts out sideways. A poor answer that only shows the \"crushed bottle\" demo (which only shows inward pressure) reveals incomplete understanding that pressure is isotropic.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ pressure is the pressure exerted by the weight of the air column above a unit area of Earth's surface, measured in pascals (Pa) where 1 Pa = 1 N/m².",
+     "a": "Atmospheric",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Notice how a plastic water bottle ______ when you suck air out of it and seal the cap - the bottle crumples because outside air pushes harder than the reduced pressure inside.",
+     "a": "collapses",
+     "self_check": true
+    },
+    {
+     "q": "What is Atmospheric pressure? State the definition given in this lesson.",
+     "a": "Atmospheric pressure is the pressure exerted by the weight of the air column above a unit area of Earth's surface, measured in pascals (Pa) where 1 Pa = 1 N/m².",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Atmospheric pressure?",
+     "a": "Students believe atmospheric pressure only pushes downward because they visualize the \"weight of air column\" as a vertical stack pressing down, like a pile of books.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why atmospheric pressure exists using the weight-of-air-column model, calculate the force exerted by atmospheric pressure on a given surface area, and predict how pressure changes with altitude using the concept of decreasing air column height.",
+     "self_check": true
     }
    ]
   }

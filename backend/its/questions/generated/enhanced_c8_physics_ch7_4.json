@@ -34,6 +34,21 @@
      "q": "Design a simple observation activity for a Class 8 student to distinguish between waxing and waning phases over two weeks without using a calendar or app.",
      "a": "Observe the Moon at the same time each evening (e.g., 7 PM) for 14 days. Sketch the shape and note which side is lit. If the lit portion grows and the bright side is on the right, it's waxing; if it shrinks and the bright side is on the left, it's waning. A poor answer (e.g., \"look at the Moon once\" or \"check the calendar\") reveals the student does not understand that phases change gradually and require systematic observation to determine the trend.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Waxing and waning describe the cyclic change in the visible sunlit portion of the Moon as it orbits Earth: waxing is the period when the ______ fraction increases from New Moon to Full Moon, and waning is the period when it decreases from Full Moon back to New Moon.",
+     "a": "illuminated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at the Moon tonight and note its shape — is it a thin ______, a half circle, or nearly full?",
+     "a": "crescent",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify whether the Moon is waxing or waning from a diagram or description of its phase and the direction of illumination change, and can explain the geometric reason (changing Sun-Earth-Moon angle) for the increasing or decreasing bright portion.",
+     "self_check": true
     }
    ]
   }

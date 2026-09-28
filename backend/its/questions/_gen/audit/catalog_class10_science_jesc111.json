@@ -1,0 +1,233 @@
+{
+ "catalog": "catalog_class10_science_jesc111.json",
+ "concepts": [
+  {
+   "id": "jesc.111.11.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "charge = 16.2",
+      "time = 84",
+      "current = charge / time"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "charge = 18",
+      "time = 16.9",
+      "current = charge / time"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "charge = 29",
+      "time = 1.7",
+      "current = charge / time"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "charge = 24",
+      "time = 83",
+      "current = charge / time"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "charge = 8.1",
+      "time = 64",
+      "current = charge / time"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "charge = 23",
+      "time = 15.1",
+      "current = charge / time"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "current = charge / time"
+   ]
+  },
+  {
+   "id": "jesc.111.11.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "current = 10.2",
+      "resistance = 302",
+      "potential = current * resistance"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "current = 27",
+      "resistance = 240",
+      "potential = current * resistance"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "current = 25",
+      "resistance = 231",
+      "potential = current * resistance"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "current = 3.8",
+      "resistance = 149",
+      "potential = current * resistance"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "current = 3.9",
+      "resistance = 99",
+      "potential = current * resistance"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "current = 7",
+      "resistance = 390",
+      "potential = current * resistance"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "potential = current * resistance"
+   ]
+  },
+  {
+   "id": "jesc.111.11.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "r_1 = 99",
+      "r_2 = 8",
+      "series_res = r_1 + r_2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "r_1 = 42",
+      "r_2 = 93",
+      "series_res = r_1 + r_2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "r_1 = 44",
+      "r_2 = 1.2",
+      "series_res = r_1 + r_2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "r_1 = 21",
+      "r_2 = 80",
+      "series_res = r_1 + r_2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "r_1 = 90",
+      "r_2 = 72",
+      "series_res = r_1 + r_2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "r_1 = 77",
+      "r_2 = 8.9",
+      "series_res = r_1 + r_2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "series_res = r_1 + r_2"
+   ]
+  },
+  {
+   "id": "jesc.111.11.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "potential = 18.7",
+      "current = 5.4",
+      "power = potential * current"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "potential = 100",
+      "current = 18.6",
+      "power = potential * current"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "potential = 35",
+      "current = 21",
+      "power = potential * current"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "potential = 187",
+      "current = 16.3",
+      "power = potential * current"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "potential = 242",
+      "current = 23",
+      "power = potential * current"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "potential = 395",
+      "current = 9.5",
+      "power = potential * current"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "power = potential * current"
+   ]
+  }
+ ]
+}

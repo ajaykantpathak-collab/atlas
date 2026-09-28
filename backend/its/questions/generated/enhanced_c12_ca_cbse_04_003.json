@@ -34,6 +34,31 @@
      "q": "**CREATE:** Design a **one-slide visual** (describe in words) for a **GST Officer** presenting to a **small-trader association** on \"Why file GSTR-1 on time?\" The slide must use *all three advantages* sequentially: explore → present → convince. Specify chart types, data variables, and the logical flow.",
      "a": "**Expected answer (criteria for a good response):**  \n1. **Explore (top-left):** Scatter chart — X: \"Days late filing GSTR-1\", Y: \"Penalty + interest paid (₹)\". Each dot = one trader. *Pattern:* upward curve showing exponential cost of delay.  \n2. **Present (top-right):** Horizontal bar chart — \"Avg. penalty by turnover slab\" (micro, small, medium). Shows small traders pay disproportionately higher % of turnover as penalty.  \n3. **Convince (bottom):** Waterfall chart — \"Cash flow impact of timely vs late filing\" for a ₹50L turnover trader. Bars: Revenue → GST liability → Input credit → Penalty (if late) → Net cash. Late-filing penalty bar visibly shrinks net cash.  \n**Flow:** \"See the pattern (explore) → See your segment's burden (present) → See your money saved (convince).\"  \n\n**What a poor answer reveals:** Using only one chart type, missing the sequential logic, or choosing charts unsuited to variables (e.g., pie for time-series) shows failure to *synthesize* the three advantages into a coherent communication strategy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The advantages of using graphs and charts in computerised accounting refer to the three core benefits — exploration (discovering hidden relationships between variables), presentation (communicating complex data quickly and clearly), and persuasion (convincing stakeholders by transforming raw numbers into compelling visual evidence) — that make graphical ______ indispensable for business decision-making.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The board asks: \"Why did our profit ______ drop in Q3 despite higher sales?\" You have 50,000 rows of raw transaction data.",
+     "a": "margin",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Next, you embed this chart in a one-page board memo — no tables, just the visual with a title \"Q______ Margin Erosion: Volume vs Value\".",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) correctly classify a given real-world business scenario as primarily leveraging the exploration, presentation, or persuasion advantage of graphs/charts, and (2) justify the choice by linking specific chart features (e.g., trend lines, comparative bars, proportional pies) to the decision-making need.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The board asks: \"Why did our profit margin drop in Q3 despite higher sales?\" You have 50,000 rows of raw ______ data.",
+     "a": "transaction",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,569 @@
+{
+ "catalog": "catalog_class12_physics_leph106.json",
+ "concepts": [
+  {
+   "id": "leph106.6.3.1",
+   "title": "Flux Linking a Tilted Coil",
+   "converted_to_compute": true,
+   "formula": "mag_flux = mag_field * area * cos_tilt",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mag_flux = mag_field * area * cos_tilt",
+     "compute": "mag_flux = mag_field * area * cos_tilt"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Flux Linking a Tilted Coil: given mag_field = 56, area = 5.6, cos_tilt = 43, find mag flux.",
+     "a": "13484.8",
+     "self_check": false
+    },
+    {
+     "q": "For Flux Linking a Tilted Coil: given mag_field = 20, area = 47, cos_tilt = 30, find mag flux.",
+     "a": "28200",
+     "self_check": false
+    },
+    {
+     "q": "For Flux Linking a Tilted Coil: given mag_field = 78, area = 21, cos_tilt = 93, find mag flux.",
+     "a": "152334",
+     "self_check": false
+    },
+    {
+     "q": "For Flux Linking a Tilted Coil: given mag_field = 79, area = 96, cos_tilt = 80, find mag flux.",
+     "a": "606720",
+     "self_check": false
+    },
+    {
+     "q": "For Flux Linking a Tilted Coil: given mag_field = 3.2, area = 44, cos_tilt = 6.2, find mag flux.",
+     "a": "872.96",
+     "self_check": false
+    },
+    {
+     "q": "For Flux Linking a Tilted Coil: given mag_field = 73, area = 33, cos_tilt = 73, find mag flux.",
+     "a": "175857",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph106.6.4.1",
+   "title": "Induced Emf from Faraday Law",
+   "converted_to_compute": true,
+   "formula": "emf_ind = turns * flux_change / time_gap",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "emf_ind = turns * flux_change / time_gap",
+     "compute": "emf_ind = turns * flux_change / time_gap"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Induced Emf from Faraday Law: given turns = 474, flux_change = 33, time_gap = 82, find emf ind.",
+     "a": "190.756",
+     "self_check": false
+    },
+    {
+     "q": "For Induced Emf from Faraday Law: given turns = 395, flux_change = 84, time_gap = 31, find emf ind.",
+     "a": "1070.32",
+     "self_check": false
+    },
+    {
+     "q": "For Induced Emf from Faraday Law: given turns = 455, flux_change = 25, time_gap = 28, find emf ind.",
+     "a": "406.25",
+     "self_check": false
+    },
+    {
+     "q": "For Induced Emf from Faraday Law: given turns = 406, flux_change = 91, time_gap = 92, find emf ind.",
+     "a": "401.587",
+     "self_check": false
+    },
+    {
+     "q": "For Induced Emf from Faraday Law: given turns = 201, flux_change = 80, time_gap = 63, find emf ind.",
+     "a": "255.238",
+     "self_check": false
+    },
+    {
+     "q": "For Induced Emf from Faraday Law: given turns = 438, flux_change = 78, time_gap = 91, find emf ind.",
+     "a": "375.429",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph106.6.4.2",
+   "title": "Induced Current in a Closed Loop",
+   "converted_to_compute": true,
+   "formula": "loop_current = emf_ind / loop_resist",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "loop_current = emf_ind / loop_resist",
+     "compute": "loop_current = emf_ind / loop_resist"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Induced Current in a Closed Loop: given emf_ind = 159, loop_resist = 28, find loop current.",
+     "a": "5.67857",
+     "self_check": false
+    },
+    {
+     "q": "For Induced Current in a Closed Loop: given emf_ind = 55, loop_resist = 96, find loop current.",
+     "a": "0.572917",
+     "self_check": false
+    },
+    {
+     "q": "For Induced Current in a Closed Loop: given emf_ind = 20, loop_resist = 66, find loop current.",
+     "a": "0.30303",
+     "self_check": false
+    },
+    {
+     "q": "For Induced Current in a Closed Loop: given emf_ind = 229, loop_resist = 36, find loop current.",
+     "a": "6.36111",
+     "self_check": false
+    },
+    {
+     "q": "For Induced Current in a Closed Loop: given emf_ind = 281, loop_resist = 63, find loop current.",
+     "a": "4.46032",
+     "self_check": false
+    },
+    {
+     "q": "For Induced Current in a Closed Loop: given emf_ind = 73, loop_resist = 36, find loop current.",
+     "a": "2.02778",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph106.6.6.1",
+   "title": "Motional Emf of a Moving Rod",
+   "converted_to_compute": true,
+   "formula": "motional_emf = mag_field * rod_len * speed",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "motional_emf = mag_field * rod_len * speed",
+     "compute": "motional_emf = mag_field * rod_len * speed"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Motional Emf of a Moving Rod: given mag_field = 41, rod_len = 97, speed = 68, find motional emf.",
+     "a": "270436",
+     "self_check": false
+    },
+    {
+     "q": "For Motional Emf of a Moving Rod: given mag_field = 9.7, rod_len = 11.4, speed = 69, find motional emf.",
+     "a": "7630.02",
+     "self_check": false
+    },
+    {
+     "q": "For Motional Emf of a Moving Rod: given mag_field = 62, rod_len = 7.2, speed = 70, find motional emf.",
+     "a": "31248",
+     "self_check": false
+    },
+    {
+     "q": "For Motional Emf of a Moving Rod: given mag_field = 6.6, rod_len = 30, speed = 49, find motional emf.",
+     "a": "9702",
+     "self_check": false
+    },
+    {
+     "q": "For Motional Emf of a Moving Rod: given mag_field = 75, rod_len = 62, speed = 21, find motional emf.",
+     "a": "97650",
+     "self_check": false
+    },
+    {
+     "q": "For Motional Emf of a Moving Rod: given mag_field = 10.1, rod_len = 35, speed = 68, find motional emf.",
+     "a": "24038",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph106.6.6.2",
+   "title": "Emf of a Rotating Conductor",
+   "converted_to_compute": true,
+   "formula": "emf_rot = 0.5 * mag_field * omega * radius ** 2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "emf_rot = 0.5 * mag_field * omega * radius ** 2",
+     "compute": "emf_rot = 0.5 * mag_field * omega * radius ** 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Emf of a Rotating Conductor: given mag_field = 62, omega = 14.4, radius = 35, find emf rot.",
+     "a": "546840",
+     "self_check": false
+    },
+    {
+     "q": "For Emf of a Rotating Conductor: given mag_field = 71, omega = 4.2, radius = 2, find emf rot.",
+     "a": "596.4",
+     "self_check": false
+    },
+    {
+     "q": "For Emf of a Rotating Conductor: given mag_field = 97, omega = 2.9, radius = 3, find emf rot.",
+     "a": "1265.85",
+     "self_check": false
+    },
+    {
+     "q": "For Emf of a Rotating Conductor: given mag_field = 71, omega = 0.8, radius = 14.5, find emf rot.",
+     "a": "5971.1",
+     "self_check": false
+    },
+    {
+     "q": "For Emf of a Rotating Conductor: given mag_field = 20, omega = 57, radius = 6.4, find emf rot.",
+     "a": "23347.2",
+     "self_check": false
+    },
+    {
+     "q": "For Emf of a Rotating Conductor: given mag_field = 93, omega = 27, radius = 1.9, find emf rot.",
+     "a": "4532.35",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph106.6.7.1",
+   "title": "Inductance as Flux Linkage per Current",
+   "converted_to_compute": true,
+   "formula": "inductance = flux_link / current",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "inductance = flux_link / current",
+     "compute": "inductance = flux_link / current"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Inductance as Flux Linkage per Current: given flux_link = 52, current = 12.6, find inductance.",
+     "a": "4.12698",
+     "self_check": false
+    },
+    {
+     "q": "For Inductance as Flux Linkage per Current: given flux_link = 42, current = 24, find inductance.",
+     "a": "1.75",
+     "self_check": false
+    },
+    {
+     "q": "For Inductance as Flux Linkage per Current: given flux_link = 16.3, current = 16.7, find inductance.",
+     "a": "0.976048",
+     "self_check": false
+    },
+    {
+     "q": "For Inductance as Flux Linkage per Current: given flux_link = 2.6, current = 16.1, find inductance.",
+     "a": "0.161491",
+     "self_check": false
+    },
+    {
+     "q": "For Inductance as Flux Linkage per Current: given flux_link = 31, current = 3.4, find inductance.",
+     "a": "9.11765",
+     "self_check": false
+    },
+    {
+     "q": "For Inductance as Flux Linkage per Current: given flux_link = 59, current = 16.8, find inductance.",
+     "a": "3.5119",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph106.6.7.2",
+   "title": "Mutual Inductance Between Two Coils",
+   "converted_to_compute": true,
+   "formula": "emf_two = mutual_ind * current_rate",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "emf_two = mutual_ind * current_rate",
+     "compute": "emf_two = mutual_ind * current_rate"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Mutual Inductance Between Two Coils: given mutual_ind = 98, current_rate = 32, find emf two.",
+     "a": "3136",
+     "self_check": false
+    },
+    {
+     "q": "For Mutual Inductance Between Two Coils: given mutual_ind = 19.7, current_rate = 109, find emf two.",
+     "a": "2147.3",
+     "self_check": false
+    },
+    {
+     "q": "For Mutual Inductance Between Two Coils: given mutual_ind = 29, current_rate = 55, find emf two.",
+     "a": "1595",
+     "self_check": false
+    },
+    {
+     "q": "For Mutual Inductance Between Two Coils: given mutual_ind = 13.4, current_rate = 7.7, find emf two.",
+     "a": "103.18",
+     "self_check": false
+    },
+    {
+     "q": "For Mutual Inductance Between Two Coils: given mutual_ind = 61, current_rate = 13.7, find emf two.",
+     "a": "835.7",
+     "self_check": false
+    },
+    {
+     "q": "For Mutual Inductance Between Two Coils: given mutual_ind = 78, current_rate = 62, find emf two.",
+     "a": "4836",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph106.6.7.3",
+   "title": "Self Inductance and the Back Emf",
+   "converted_to_compute": true,
+   "formula": "back_emf = self_ind * current_rate",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "back_emf = self_ind * current_rate",
+     "compute": "back_emf = self_ind * current_rate"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Self Inductance and the Back Emf: given self_ind = 99, current_rate = 93, find back emf.",
+     "a": "9207",
+     "self_check": false
+    },
+    {
+     "q": "For Self Inductance and the Back Emf: given self_ind = 41, current_rate = 68, find back emf.",
+     "a": "2788",
+     "self_check": false
+    },
+    {
+     "q": "For Self Inductance and the Back Emf: given self_ind = 55, current_rate = 16.1, find back emf.",
+     "a": "885.5",
+     "self_check": false
+    },
+    {
+     "q": "For Self Inductance and the Back Emf: given self_ind = 38, current_rate = 12.8, find back emf.",
+     "a": "486.4",
+     "self_check": false
+    },
+    {
+     "q": "For Self Inductance and the Back Emf: given self_ind = 36, current_rate = 2, find back emf.",
+     "a": "72",
+     "self_check": false
+    },
+    {
+     "q": "For Self Inductance and the Back Emf: given self_ind = 89, current_rate = 94, find back emf.",
+     "a": "8366",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph106.6.7.4",
+   "title": "Solenoid Self Inductance",
+   "converted_to_compute": true,
+   "formula": "sol_ind = mu_0 * perm_rel * turns_per_len ** 2 * area * solenoid_len",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "sol_ind = mu_0 * perm_rel * turns_per_len ** 2 * area * solenoid_len",
+     "compute": "sol_ind = mu_0 * perm_rel * turns_per_len ** 2 * area * solenoid_len"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Solenoid Self Inductance: given mu_0 = 5.5, perm_rel = 63, turns_per_len = 236, area = 62, solenoid_len = 75, find sol ind.",
+     "a": "89738787600",
+     "self_check": false
+    },
+    {
+     "q": "For Solenoid Self Inductance: given mu_0 = 67, perm_rel = 48, turns_per_len = 269, area = 8.2, solenoid_len = 98, find sol ind.",
+     "a": "187008147513.599976",
+     "self_check": false
+    },
+    {
+     "q": "For Solenoid Self Inductance: given mu_0 = 78, perm_rel = 83, turns_per_len = 386, area = 25, solenoid_len = 40, find sol ind.",
+     "a": "964600104000",
+     "self_check": false
+    },
+    {
+     "q": "For Solenoid Self Inductance: given mu_0 = 37, perm_rel = 43, turns_per_len = 120, area = 6.4, solenoid_len = 97, find sol ind.",
+     "a": "14222776320",
+     "self_check": false
+    },
+    {
+     "q": "For Solenoid Self Inductance: given mu_0 = 14.1, perm_rel = 69, turns_per_len = 149, area = 29, solenoid_len = 10.9, find sol ind.",
+     "a": "6827555451.69",
+     "self_check": false
+    },
+    {
+     "q": "For Solenoid Self Inductance: given mu_0 = 76, perm_rel = 59, turns_per_len = 101, area = 5, solenoid_len = 82, find sol ind.",
+     "a": "18753926440",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph106.6.7.5",
+   "title": "Energy Stored in an Inductor",
+   "converted_to_compute": true,
+   "formula": "stored_energy = 0.5 * self_ind * current ** 2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "stored_energy = 0.5 * self_ind * current ** 2",
+     "compute": "stored_energy = 0.5 * self_ind * current ** 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Energy Stored in an Inductor: given self_ind = 19.9, current = 8.5, find stored energy.",
+     "a": "718.887",
+     "self_check": false
+    },
+    {
+     "q": "For Energy Stored in an Inductor: given self_ind = 74, current = 27, find stored energy.",
+     "a": "26973",
+     "self_check": false
+    },
+    {
+     "q": "For Energy Stored in an Inductor: given self_ind = 52, current = 13.3, find stored energy.",
+     "a": "4599.14",
+     "self_check": false
+    },
+    {
+     "q": "For Energy Stored in an Inductor: given self_ind = 11.3, current = 1.4, find stored energy.",
+     "a": "11.074",
+     "self_check": false
+    },
+    {
+     "q": "For Energy Stored in an Inductor: given self_ind = 92, current = 28, find stored energy.",
+     "a": "36064",
+     "self_check": false
+    },
+    {
+     "q": "For Energy Stored in an Inductor: given self_ind = 49, current = 19.6, find stored energy.",
+     "a": "9411.92",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph106.6.7.6",
+   "title": "Magnetic Energy Density in a Field",
+   "converted_to_compute": true,
+   "formula": "energy_density = mag_field ** 2 / (2 * mu_0)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "energy_density = mag_field ** 2 / (2 * mu_0)",
+     "compute": "energy_density = mag_field ** 2 / (2 * mu_0)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Magnetic Energy Density in a Field: given mag_field = 9.1, mu_0 = 3.3, find energy density.",
+     "a": "12.547",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetic Energy Density in a Field: given mag_field = 27, mu_0 = 11.5, find energy density.",
+     "a": "31.6957",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetic Energy Density in a Field: given mag_field = 12.3, mu_0 = 71, find energy density.",
+     "a": "1.06542",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetic Energy Density in a Field: given mag_field = 16, mu_0 = 43, find energy density.",
+     "a": "2.97674",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetic Energy Density in a Field: given mag_field = 48, mu_0 = 32, find energy density.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetic Energy Density in a Field: given mag_field = 11.1, mu_0 = 16.1, find energy density.",
+     "a": "3.8264",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph106.6.8.1",
+   "title": "Peak Emf of an AC Generator",
+   "converted_to_compute": true,
+   "formula": "peak_emf = turns * mag_field * area * omega",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "peak_emf = turns * mag_field * area * omega",
+     "compute": "peak_emf = turns * mag_field * area * omega"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Peak Emf of an AC Generator: given turns = 254, mag_field = 10.7, area = 31, omega = 27, find peak emf.",
+     "a": "2274798.6",
+     "self_check": false
+    },
+    {
+     "q": "For Peak Emf of an AC Generator: given turns = 258, mag_field = 96, area = 21, omega = 58, find peak emf.",
+     "a": "30167424",
+     "self_check": false
+    },
+    {
+     "q": "For Peak Emf of an AC Generator: given turns = 59, mag_field = 55, area = 68, omega = 100, find peak emf.",
+     "a": "22066000",
+     "self_check": false
+    },
+    {
+     "q": "For Peak Emf of an AC Generator: given turns = 81, mag_field = 24, area = 28, omega = 14.4, find peak emf.",
+     "a": "783821",
+     "self_check": false
+    },
+    {
+     "q": "For Peak Emf of an AC Generator: given turns = 37, mag_field = 82, area = 41, omega = 68, find peak emf.",
+     "a": "8458792",
+     "self_check": false
+    },
+    {
+     "q": "For Peak Emf of an AC Generator: given turns = 6, mag_field = 69, area = 72, omega = 66, find peak emf.",
+     "a": "1967328",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,31 @@
      "q": "Design a 5‑step \"Monthly Privacy Audit Checklist\" for a Class 12 student who uses Instagram, WhatsApp, and Snapchat. Each step must be a concrete action (not vague advice) and address a distinct risk category (audience, location, third‑party apps, profile data, account security).",
      "a": "A strong answer includes five specific, verifiable actions, e.g.:\n1. **Audience**: On Instagram, go to Settings → Privacy → Posts → \"Hide Story From\" and \"Close Friends\" list → remove anyone no longer trusted.\n2. **Location**: On Snapchat, open Snap Map → ensure \"Ghost Mode\" is ON; on WhatsApp, check Settings → Privacy → Live Location → stop any active shares.\n3. **Third‑party apps**: On Instagram, go to Settings → Security → Apps and Websites → remove unused/unknown apps; on Facebook (linked), check Settings → Apps and Websites.\n4. **Profile data**: On WhatsApp, Settings → Privacy → About / Profile Photo / Last Seen → set to \"My Contacts\" or \"My Contacts Except…\".\n5. **Account security**: On all three, verify 2FA is enabled (Instagram: Settings → Security → Two‑Factor Auth; WhatsApp: Settings → Account → Two‑step verification; Snapchat: Settings → Two‑Factor Authentication).\nA weak answer gives generic advice like \"check settings\" without navigation paths or distinct risk categories.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Privacy protection on social media platforms refers to the set of practices, ______, and awareness strategies that enable users to control who can access their personal information, posts, location data, and digital interactions, thereby minimizing risks of identity theft, profiling, cyberstalking, and unauthorized data harvesting by third parties.",
+     "a": "configurations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you post a photo of your new Aadhaar card on ______ Stories thinking only \"Close Friends\" see it — but you forgot that your Stories setting was reset to \"Everyone\" after an app update.",
+     "a": "Instagram",
+     "self_check": true
+    },
+    {
+     "q": "What is Privacy protection on social media platforms? State the definition given in this lesson.",
+     "a": "Privacy protection on social media platforms refers to the set of practices, configurations, and awareness strategies that enable users to control who can access their personal information, posts, location data, and digital interactions, thereby minimizing risks of identity theft, profiling, cyberstalking, and unauthorized data.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Privacy protection on social media platforms?",
+     "a": "Students believe \"Private Account\" = \"Total Privacy\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently audit a social media profile's privacy settings across at least three major platforms (e.g., Facebook, Instagram, WhatsApp), identify five distinct overexposure risks, and configure granular audience controls for posts, profile visibility, location sharing, and third‑party app permissions without.",
+     "self_check": true
     }
    ]
   }

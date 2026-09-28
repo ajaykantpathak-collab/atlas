@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a concave mirror, a candle, and a screen to demonstrate that a real image is formed when the object is beyond the focus, but a virtual image is formed when the object is between the focus and the mirror. List the steps and expected observations.",
      "a": "Steps: 1) Find approximate focal length by focusing sunlight on paper. 2) Place candle beyond F (e.g., at 2F), adjust screen to get sharp inverted image → real image caught on screen. 3) Move candle between F and P, try to catch image on screen → no image on screen; look into mirror → see erect magnified virtual image. 4) Record observations in table. A poor answer (e.g., only describes one position) shows inability to systematically vary object position to test the concept.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A real image is formed when light rays actually converge at a point after ______ or refraction and can be obtained on a screen; a virtual image is formed when light rays appear to diverge from a point and cannot be captured on a screen.",
+     "a": "reflection",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a spoon: the inner curved side (concave) shows your upside-down reflection when held far away, but a right-side-up ______ reflection when brought close to your eye.",
+     "a": "magnified",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify an image as real or virtual for any given object position in front of a concave mirror, convex mirror, convex lens, or concave lens, and justify the classification using ray diagram rules.",
+     "self_check": true
     }
    ]
   }

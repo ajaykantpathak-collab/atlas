@@ -34,6 +34,31 @@
      "q": "Design a one-page \"Incorporation Readiness Checklist\" for a public company promoter that sequences the eight documents in the order the Registrar would verify them, includes the DIN pre-requisite for each proposed director, and flags the 30-day window for registered office address filing. Use a table format with columns: Sequence #, Document Name, Signatory/Authority, Statutory Deadline.",
      "a": "A good answer produces a 9-row table (8 documents + DIN pre-step):\n1. DIN allotment for each proposed director (Pre-requisite, Director applicant, Before filing)\n2. Name approval letter (1, ROC, Before filing)\n3. MoA (2, Min. 7 subscribers + witness, At filing)\n4. AoA (3, Same signatories as MoA, At filing)\n5. Consent of Directors + qualification shares undertaking (4, Each proposed director, At filing)\n6. Agreement with MD/WTD (5, Company & appointee, At filing if applicable)\n7. Statutory declaration (6, Advocate/CA/CS/Director, At filing)\n8. Fee receipt (7, Bank/Online, At filing)\n9. Registered office notice (8, Company, Within 30 days of incorporation)\nA poor answer lists documents randomly, omits DIN, misses the 30-day rule, or doesn't distinguish signatory requirements—showing they haven't internalised the procedural sequence the Registrar follows.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Incorporation of a company is the legal process by which promoters submit a formal application with prescribed documents (Memorandum of Association, Articles of Association, consent of directors, statutory declaration, and fee receipt) to the Registrar of Companies, who upon ______ issues a Certificate of Incorporation—the conclusive evidence of the company's legal birth as a distinct entity with perpetual succession.",
+     "a": "verification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine Avtar from our textbook has completed promotion—he has his carburettor design, ______ studies done, name \"EcoMile Carburetors Ltd.\" approved, and first directors identified.",
+     "a": "feasibility",
+     "self_check": true
+    },
+    {
+     "q": "What is Incorporation of a company? State the definition given in this lesson.",
+     "a": "Incorporation of a company is the legal process by which promoters submit a formal application with prescribed documents (Memorandum of Association, Articles of Association, consent of directors, statutory declaration, and fee receipt) to the Registrar of Companies, who upon verification issues a Certificate of Incorporation—the.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Incorporation of a company?",
+     "a": "Students consistently confuse three distinct concepts: (1) They treat \"Certificate of Incorporation\" as authorising *immediate business commencement* for public companies, ignoring the separate \"Certificate of Commencement of Business\" (node 008) required within 180 days.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) list all eight documents required for incorporation in the correct statutory sequence with their specific signatory requirements; (2) distinguish between preliminary contracts (pre-incorporation) and provisional contracts (post-incorporation/pre-commencement) with legal enforceability consequences; (3).",
+     "self_check": true
     }
    ]
   }

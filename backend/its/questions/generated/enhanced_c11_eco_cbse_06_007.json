@@ -34,6 +34,36 @@
      "q": "Construct a 4×4 matrix with rows = unemployment types (Frictional, Structural, Cyclical, Seasonal) and columns = (Primary Cause, Typical Duration, Policy Response, Indian Example). Fill all 16 cells with precise economic terminology.",
      "a": "| Type | Primary Cause | Typical Duration | Policy Response | Indian Example |\n|------|---------------|------------------|-----------------|----------------|\n| Frictional | Information asymmetry / job search | Short (weeks-months) | Job portals, career counselling, unemployment insurance | Fresher searching for first job via Naukri.com |\n| Structural | Skill mismatch / technological change / geographical immobility | Long (years) | Reskilling (PMKVY), apprenticeship, labour mobility schemes | Handloom weaver displaced by powerlooms in Varanasi |\n| Cyclical | Deficient aggregate demand (recession) | Medium (business cycle) | Expansionary fiscal/monetary policy, public works | Construction worker laid off during 2020 lockdown |\n| Seasonal | Predictable seasonal demand fluctuations | Recurring annually (months) | Crop diversification, MGNREGA, off-season training | Sugarcane cutter migrating to Delhi Nov-Feb |\n\nA poor answer (vague causes like \"economy bad\", missing policy distinction) reveals inability to operationalise concepts for policy design — a key board exam competency.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ refers to a situation where individuals who are willing and able to work at the prevailing wage rate cannot find employment.",
+     "a": "Unemployment",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 24-year-old engineering graduate in Bengaluru who quit her IT job to find a role matching her AI specialization — she represents frictional ______.",
+     "a": "unemployment",
+     "self_check": true
+    },
+    {
+     "q": "What is Unemployment? State the definition given in this lesson.",
+     "a": "Unemployment refers to a situation where individuals who are willing and able to work at the prevailing wage rate cannot find employment.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______-year-old engineering graduate in Bengaluru who quit her IT job to find a role matching her AI specialization — she represents frictional unemployment.",
+     "a": "24",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Unemployment?",
+     "a": "Students believe \"cyclical unemployment is the only 'real' unemployment\" and that frictional/structural/seasonal are 'not serious' or 'voluntary'.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Classify a given real-world unemployment scenario into the correct type with justification referencing the underlying economic cause; (2) Explain how each type responds differently to policy interventions (monetary, fiscal, supply-side); (3) Calculate and interpret the natural rate of unemployment as the sum of.",
+     "self_check": true
     }
    ]
   }

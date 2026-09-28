@@ -34,6 +34,21 @@
      "q": "Create a real‑world scenario (Indian context) that leads to a Linear Programming Problem with **exactly three constraints** (excluding non‑negativity) and **two decision variables**. The objective must be **minimisation**. Write the complete formulation and explain why each constraint is linear.",
      "a": "**Scenario:** A hospital in Mumbai needs to prepare a daily diet for patients using two food mixes: Mix A (cost ₹50/kg, provides 10 units protein, 5 units vitamins) and Mix B (cost ₹40/kg, provides 5 units protein, 10 units vitamins). Minimum daily requirements: protein ≥ 100 units, vitamins ≥ 80 units. The kitchen can store at most 15 kg total of the two mixes. Minimise cost.  \n**Formulation:**  \nLet \\(x\\) = kg of Mix A, \\(y\\) = kg of Mix B.  \nMinimise \\(Z = 50x + 40y\\)  \nSubject to:  \nProtein: \\(10x + 5y \\ge 100\\)  \nVitamins: \\(5x + 10y \\ge 80\\)  \nStorage: \\(x + y \\le 15\\)  \n\\(x \\ge 0,\\ y \\ge 0\\)  \n**Linearity explanation:** Each constraint is a linear combination of \\(x\\) and \\(y\\) with constant coefficients (protein/vitamin content per kg, storage capacity per kg). The objective is a linear cost function. All relations are first‑degree — no products, powers, or non‑linear functions of variables.  \nA poor answer might give a scenario with non‑linear constraints (e.g., \"cost per kg decreases after 10 kg\") or forget non‑negativity, showing inability to distinguish linear from non‑linear relationships — a critical gap for competitive exams where non‑linear problems are not LPP.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The term \"linear\" indicates that all relations — objective function and ______ — are linear; \"programming\" refers to determining an optimal plan of action.",
+     "a": "constraints",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small bakery owner in Delhi who makes two types of cakes: ______ (profit ₹120 per cake) and Vanilla (profit ₹80 per cake).",
+     "a": "Chocolate",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can translate a real‑world optimisation scenario (investment, diet, production, transportation) into a complete mathematical LPP formulation: identify decision variables, write the objective function (maximise/minimise), list all constraints including non‑negativity restrictions, and state the problem in standard form.",
+     "self_check": true
     }
    ]
   }

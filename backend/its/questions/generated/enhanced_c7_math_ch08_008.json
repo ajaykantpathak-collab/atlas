@@ -34,6 +34,21 @@
      "q": "Create a real-life word problem about buying fruits or vegetables where the answer requires calculating $5\\frac{1}{4} \\div \\frac{3}{4}$, and state the final answer.",
      "a": "An acceptable problem: \"A fruit vendor has $5\\frac{1}{4}$ kg of apples and packs them into small bags weighing $\\frac{3}{4}$ kg each. How many bags can he fill?\" Solution: $5\\frac{1}{4} = \\frac{21}{4}$, so $\\frac{21}{4} \\div \\frac{3}{4} = \\frac{21}{4} \\times \\frac{4}{3} = 7$ bags. A poor answer uses incorrect units, improper fraction conversion, or sets up a multiplication instead of a grouping division.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Word problems involving fraction division require translating real-world scenarios of ______ or sharing quantities into division expressions with fractions, and solving them using the reciprocal method.",
+     "a": "partitioning",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To begin, you must read ______ to identify the total quantity available and the size of each part or group being created.",
+     "a": "carefully",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can read a multi-sentence word problem, correctly identify the total amount and the dividing amount or fraction, set up a fraction division expression, multiply by the reciprocal, and interpret the final answer with appropriate real-world units.",
+     "self_check": true
     }
    ]
   }

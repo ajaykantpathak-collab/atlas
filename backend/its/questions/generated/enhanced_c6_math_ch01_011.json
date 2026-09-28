@@ -34,6 +34,31 @@
      "q": "Create a real-world scenario where a remainder of 3 when dividing by 5 would make sense.",
      "a": "An example would be: \"I have 18 apples and want to pack them into bags of 5; I will have 3 apples left over that don't fit into a bag.\" A poor answer involves things that cannot be left over (like half a person), showing a lack of contextual logic.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Division is the ______ process of splitting a total quantity into equal groups or finding how many times one number fits into another.",
+     "a": "mathematical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a ______ bag of 4,567 marbles and you need to put them into bags of 13 marbles each for your friends.",
+     "a": "large",
+     "self_check": true
+    },
+    {
+     "q": "What is Division? State the definition given in this lesson.",
+     "a": "Division is the mathematical process of splitting a total quantity into equal groups or finding how many times one number fits into another.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Division?",
+     "a": "Students often \"drop\" a number and forget to place a placeholder zero in the quotient.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to perform long division on 4-digit numbers by 2-digit divisors, correctly identify the quotient and remainder, and interpret the remainder in the context of a word problem.",
+     "self_check": true
     }
    ]
   }

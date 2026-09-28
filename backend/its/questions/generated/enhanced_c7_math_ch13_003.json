@@ -34,6 +34,31 @@
      "q": "Construct a data set of 6 integers where the mode is 10, the median is 12, and the mean is 14. Show your verification.",
      "a": "One valid data set is: 8, 10, 10, 14, 18, 24. \nVerification: Mode is 10 (appears twice). Sorted values: 8, 10, 10, 14, 18, 24. Middle two are 10 and 14, average is 12 (median). Sum = $8+10+10+14+18+24 = 84$, and $84 \\div 6 = 14$ (mean). A poor answer lists numbers randomly without checking if the three representative constraints are simultaneously satisfied.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ values are single summary numbers—namely the mean, median, and mode—that attempt to summarize an entire set of numerical data by describing its central tendency or typical value.",
+     "a": "Representative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you ______ 45, 50, 48, 52, and 95 marks in five different math tests this term.",
+     "a": "scored",
+     "self_check": true
+    },
+    {
+     "q": "What is Representative values? State the definition given in this lesson.",
+     "a": "Representative values are single summary numbers—namely the mean, median, and mode—that attempt to summarize an entire set of numerical data by describing its central tendency or typical value.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Representative values?",
+     "a": "Students frequently fail to sort data in ascending or descending order before attempting to find the median.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify, compute, and interpret the mean, median, and mode for a given raw data set, and explain which representative value best summarizes a dataset containing extreme outliers or non-numeric repetitions.",
+     "self_check": true
     }
    ]
   }

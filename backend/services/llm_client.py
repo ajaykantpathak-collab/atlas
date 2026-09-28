@@ -28,6 +28,8 @@ import json
 import logging
 import os
 import re
+import threading
+import time
 from typing import Optional
 
 import httpx
@@ -152,12 +154,41 @@ class LLMClient:
         self.timeout = timeout or float(os.environ.get("LLM_TIMEOUT", "60"))
         self._cache: dict[str, str] = {}  # simple in-memory prompt-hash cache
 
+    # -- circuit breaker (class state, shared across instances) -----------
+    _cb_lock = threading.Lock()
+    _cb_failures = 0
+    _cb_open_until = 0.0
+    _CB_THRESHOLD = 3        # consecutive 5xx/timeout failures to trip
+    _CB_COOLDOWN = 30.0      # seconds to fail-fast once tripped
+
+    @property
+    def _circuit_open_until(self) -> float:
+        return type(self)._cb_open_until
+
+    @classmethod
+    def _record_failure(cls) -> None:
+        with cls._cb_lock:
+            cls._cb_failures += 1
+            if cls._cb_failures >= cls._CB_THRESHOLD:
+                cls._cb_open_until = time.time() + cls._CB_COOLDOWN
+                logger.warning(
+                    "LLM circuit OPEN — %d consecutive failures, "
+                    "fail-fast for %ss", cls._cb_failures,
+                    int(cls._CB_COOLDOWN))
+
+    @classmethod
+    def _record_success(cls) -> None:
+        with cls._cb_lock:
+            cls._cb_failures = 0
+            cls._cb_open_until = 0.0
+
     async def chat(
         self,
         messages: list[dict],
         temperature: float = 0.0,
         max_tokens: int = 500,
         use_cache: bool = True,
+        model: Optional[str] = None,
     ) -> str:
         """Send a chat completion request and return the response text.
 
@@ -177,12 +208,22 @@ class LLMClient:
                 logger.debug("LLM cache hit")
                 return self._cache[cache_key]
 
+        # Circuit breaker: when the upstream is 503ing, every request
+        # otherwise eats N x timeout seconds of doomed retries and wedges
+        # the worker. After CIRCUIT_THRESHOLD consecutive failures, fail
+        # instantly for CIRCUIT_COOLDOWN seconds.
+        if (self._circuit_open_until > time.time()):
+            return "[LLM circuit open — upstream congested]"
+
         headers = {
             "Authorization": f"Bearer {self.api_key}",
             "Content-Type": "application/json",
         }
         payload = {
-            "model": self._models[next(_MODEL_RR) % len(self._models)],
+            # explicit `model` (multimodal/audio callers) wins over the
+            # round-robin pool — an image or audio payload must never land
+            # on a text-only model
+            "model": model or self._models[next(_MODEL_RR) % len(self._models)],
             "messages": messages,
             "temperature": temperature,
             "max_tokens": max_tokens,
@@ -210,14 +251,18 @@ class LLMClient:
                     result = _strip_thinking(content)
                     if cache_key:
                         self._cache[cache_key] = result
+                    LLMClient._record_success()
                     return result
                 except httpx.TimeoutException:
+                    LLMClient._record_failure()
                     logger.warning("LLM timeout — falling back to pre-written content")
                     return "[LLM timeout — using pre-written content]"
                 except httpx.HTTPStatusError as e:
                     if e.response.status_code == 429:
                         logger.warning(f"LLM rate-limited after {max_retries} retries")
                         return "[LLM rate-limited — using pre-written content]"
+                    if e.response.status_code >= 500:
+                        LLMClient._record_failure()
                     logger.warning(f"LLM HTTP error: {e}")
                     return "[LLM error — using pre-written content]"
                 except httpx.HTTPError as e:

@@ -1,0 +1,176 @@
+{
+ "catalog": "catalog_class12_biotechnology_lebt103.json",
+ "concepts": [
+  {
+   "id": "lebt103.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "type_1_distance = 473",
+      "type_3_distance = 356",
+      "distance_ratio = type_1_distance / type_3_distance"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "type_1_distance = 236",
+      "type_3_distance = 462",
+      "distance_ratio = type_1_distance / type_3_distance"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "type_1_distance = 149",
+      "type_3_distance = 31",
+      "distance_ratio = type_1_distance / type_3_distance"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "type_1_distance = 198",
+      "type_3_distance = 58",
+      "distance_ratio = type_1_distance / type_3_distance"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "type_1_distance = 263",
+      "type_3_distance = 243",
+      "distance_ratio = type_1_distance / type_3_distance"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "type_1_distance = 235",
+      "type_3_distance = 341",
+      "distance_ratio = type_1_distance / type_3_distance"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "distance_ratio = type_1_distance / type_3_distance"
+   ]
+  },
+  {
+   "id": "lebt103.7",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "template_count = 239",
+      "cycles = 31",
+      "copies = template_count * 2 ** cycles"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "template_count = 306",
+      "cycles = 48",
+      "copies = template_count * 2 ** cycles"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "template_count = 202",
+      "cycles = 11.6",
+      "copies = template_count * 2 ** cycles"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "template_count = 393",
+      "cycles = 27",
+      "copies = template_count * 2 ** cycles"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "template_count = 325",
+      "cycles = 42",
+      "copies = template_count * 2 ** cycles"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "template_count = 291",
+      "cycles = 7.5",
+      "copies = template_count * 2 ** cycles"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "copies = template_count * 2 ** cycles"
+   ]
+  },
+  {
+   "id": "lebt103.8",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "genome_bp = 12.4",
+      "gene_bp = 24",
+      "genome_fold = genome_bp / gene_bp"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "genome_bp = 65",
+      "gene_bp = 68",
+      "genome_fold = genome_bp / gene_bp"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "genome_bp = 66",
+      "gene_bp = 47",
+      "genome_fold = genome_bp / gene_bp"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "genome_bp = 85",
+      "gene_bp = 55",
+      "genome_fold = genome_bp / gene_bp"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "genome_bp = 73",
+      "gene_bp = 65",
+      "genome_fold = genome_bp / gene_bp"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "genome_bp = 45",
+      "gene_bp = 16.2",
+      "genome_fold = genome_bp / gene_bp"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "genome_fold = genome_bp / gene_bp"
+   ]
+  }
+ ]
+}

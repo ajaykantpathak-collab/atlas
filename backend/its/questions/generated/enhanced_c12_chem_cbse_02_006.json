@@ -34,6 +34,21 @@
      "q": "Design a procedure to determine the dissociation constant of a weak acid HA using only conductivity measurements and tabulated limiting ionic conductivities. List the measurements needed, the calculations, and the assumptions.",
      "a": "Measurements: (1) Conductivity (κ) of HA solution at known concentration c. (2) Cell constant (G*) using standard KCl. Calculations: Λm = κ/c (ensure units: S cm² mol⁻¹). Λ°m(HA) = λ°(H⁺) + λ°(A⁻) from tables. α = Λm/Λ°m. Ka = cα²/(1-α). Assumptions: (i) Ostwald's dilution law holds (no ion pairing), (ii) Λ°m values are at same temperature, (iii) solution is dilute enough that activity coefficients ≈ 1. A poor answer omits the cell constant determination, unit consistency, or the assumption of negligible activity corrections — showing the student treats the formula as a black box.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Kohlrausch's law of independent migration of ions states that the limiting molar conductivity (Λ°m) of an electrolyte is the sum of the limiting molar conductivities of its constituent ions: Λ°m = ν+λ°+ + ν-λ°-, where ν+ and ν- are the ______ numbers of cations and anions, and λ°+ and λ°- are their limiting molar conductivities at infinite dilution.",
+     "a": "stoichiometric",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a bottle of vinegar (acetic acid solution) and a bottle of salt water (NaCl solution) in your kitchen.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate Λ°m for any strong or weak electrolyte using tabulated ion conductivities, determine the dissociation constant (Ka) of a weak electrolyte from its molar conductivity at a given concentration, and predict the degree of dissociation (α) using α = Λm/Λ°m.",
+     "self_check": true
     }
    ]
   }

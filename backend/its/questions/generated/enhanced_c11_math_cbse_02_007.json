@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (Indian context) that can be modeled by a quadratic function \\( f(x) = ax^2 + bx + c \\) where \\( a < 0 \\). Define the variables, state the domain restriction based on context, and explain what the vertex represents in your problem.",
      "a": "Example: A farmer in Punjab has 100 metres of fencing to build a rectangular enclosure along a river (river side needs no fence). Let \\( x \\) = width perpendicular to river (metres). Then length parallel to river = \\( 100 - 2x \\). Area \\( A(x) = x(100 - 2x) = -2x^2 + 100x \\). Domain: \\( 0 < x < 50 \\) (width positive, length positive). Vertex at \\( x = 25 \\) gives maximum area 1250 m². A poor answer (e.g., linear model, no domain restriction, vertex misinterpreted) reveals inability to translate constraints into a quadratic model or connect vertex to optimization.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are tracking the height of a ball thrown upward from a ______ in Mumbai.",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This is a quadratic function — a polynomial of degree ______.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify the degree and coefficients of a polynomial function, determine its domain and range, sketch the graph of linear and quadratic functions using key features (slope, intercepts, vertex, axis of symmetry), and apply the algebra of functions (sum, difference, product, quotient) to combine polynomial functions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ the height of a ball thrown upward from a building in Mumbai.",
+     "a": "tracking",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a pollution-source map annotation for a hypothetical industrial corridor along the Mumbai-Pune expressway showing: (a) three industries with their dominant pollutant type, (b) the likely environmental sink for each, and (c) one sensitive receptor (school, hospital, wetland) at risk. Use standard map symbols.",
      "a": "Expected answer: Map should show: (1) Chemical plant → air pollution (SO2, VOCs) → atmosphere sink → receptor: residential school 2 km downwind (prevailing SW wind). (2) Textile dyeing unit → water pollution (coloured effluent, Cr) → river sink (Mula-Mutha) → receptor: wetland bird sanctuary downstream. (3) Cement grinding unit → noise (100+ dB) + air (PM) → local airshed → receptor: hospital 500 m away. Criteria: Correct industry-pollutant pairing, realistic sink routing using topography/drainage, receptor placed in actual impact pathway. Poor answers use generic symbols without spatial logic (e.g., placing receptor upwind of air polluter).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Industrial pollution refers to the ______ of air, water, soil, and the acoustic environment caused by the release of harmful substances (gases, particulate matter, chemical effluents, solid waste) and excessive noise from manufacturing processes, which degrades environmental quality and poses risks to human health and ecosystems.",
+     "a": "contamination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the yellowish haze over Delhi in winter or the froth on the Yamuna river near industrial drains — these are visible signatures of industrial ______.",
+     "a": "pollution",
+     "self_check": true
+    },
+    {
+     "q": "What is Industrial pollution? State the definition given in this lesson.",
+     "a": "Industrial pollution refers to the contamination of air, water, soil, and the acoustic environment caused by the release of harmful substances (gases, particulate matter, chemical effluents, solid waste) and excessive noise from manufacturing processes, which degrades environmental quality and poses risks to human health and ecosystems.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Industrial pollution?",
+     "a": "Students believe \"industrial pollution\" means only visible smoke from chimneys or coloured water in drains.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify industrial pollutants into air, water, soil, and noise categories with specific examples from Indian industries (e.g., thermal power plants, textile dyeing, iron & steel), explain the pathway from industrial process to environmental sink, and distinguish point-source from non-point-source industrial pollution on.",
+     "self_check": true
     }
    ]
   }

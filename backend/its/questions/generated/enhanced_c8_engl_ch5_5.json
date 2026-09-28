@@ -34,6 +34,31 @@
      "q": "Create a short 2-sentence science fiction scenario that uses zero gravity to create a problem for an astronaut performing an everyday task.",
      "a": "Expected Answer: The narrative should explicitly describe an ordinary task disrupted by weightlessness (e.g., \"Rohan tried to squeeze toothpaste onto his brush, but the blue gel broke into small floating spheres that drifted toward the computer console. As he scrambled to catch them, his sudden push launched him backward across the control room.\").\nExplanation: A weak answer will include non-scientific elements like magic spells or ignore the physical behavior of unanchored objects in weightlessness.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Science fiction (sci-fi) is a genre of ______ that uses plausible scientific principles, technology, and futuristic settings—such as life in zero gravity—to explore human behavior and plot dynamics.",
+     "a": "literature",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine trying to pour a glass of water, eat a meal, or take a nap while ______ mid-air without touching the ground!",
+     "a": "floating",
+     "self_check": true
+    },
+    {
+     "q": "What is Science fiction (sci-fi)? State the definition given in this lesson.",
+     "a": "Science fiction (sci-fi) is a genre of literature that uses plausible scientific principles, technology, and futuristic settings—such as life in zero gravity—to explore human behavior and plot dynamics.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Science fiction (sci-fi)?",
+     "a": "Students often confuse science fiction with fantasy, assuming any story set in space can include impossible, magical occurrences without scientific logic.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Students can identify elements of science fiction in a narrative text, specifically explaining how the physics of zero gravity drives the plot, influences character actions, and creates distinct environmental challenges.",
+     "self_check": true
     }
    ]
   }

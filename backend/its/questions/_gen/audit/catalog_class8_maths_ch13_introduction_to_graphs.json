@@ -42,9 +42,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lines = 2"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c8m13.1.2",
@@ -130,9 +128,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 3 * 2 + 6"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c8m13.2.2",
@@ -175,9 +171,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "t1 = 15 / 3"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c8m13.2.3",

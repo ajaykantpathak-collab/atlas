@@ -34,6 +34,21 @@
      "q": "Design a labelled schematic cross-section of Earth's interior (radius 6,371 km) showing: crust (continental & oceanic), mantle subdivisions, core subdivisions, and all four major discontinuities (Mohorovičić, Repetti, Gutenberg, Lehmann). Annotate each layer with: thickness, dominant composition, physical state, and P-wave velocity range.",
      "a": "A good answer produces a scaled diagram (e.g., 1 cm = 500 km) with: Crust 0–35 km (cont.) / 0–7 km (ocean.), SIAL/SIMA, solid, Vp 5.5–7.0 km/s; Moho at 35/7 km; Upper Mantle to 410 km, peridotite, solid, Vp 7.8–8.5 km/s; Repetti/Transition Zone 410–660 km, wadsleyite/ringwoodite, solid, Vp 8.5–10.5 km/s; Lower Mantle 660–2,900 km, bridgmanite/ferropericlase, solid, Vp 10.5–13.7 km/s; Gutenberg at 2,900 km; Outer Core 2,900–5,150 km, Fe-Ni liquid, Vp 8.1–10.3 km/s (S-wave = 0); Lehmann at 5,150 km; Inner Core 5,150–6,371 km, Fe-Ni solid, Vp 11.2 km/s. Poor answers omit the Repetti/transition zone, mislabel states, or use uniform scaling that obscures the thin crust.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Earth's interior is ______ layered into three principal compositional zones: the Crust (thin, solid outer skin, 5–70 km thick, differentiated into granitic continental crust and basaltic oceanic crust), the Mantle (thick, predominantly solid but ductile silicate shell extending to 2,900 km depth, subdivided into upper mantle, transition zone, and lower mantle), and the Core (dense, metallic sphere of iron-nickel alloy from 2,900 km to the centre at 6,371 km, with a liquid outer core and solid inner core).",
+     "a": "concentrically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine standing on the railway platform at Leh (Ladakh, 3,500 m ______) and then at Chennai beach (sea level) — the ground beneath your feet feels solid, yet the crust is only 30–50 km thick here versus 5–10 km under the Indian Ocean.",
+     "a": "elevation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) sketch a labelled cross-section of Earth showing crust, mantle, core with correct relative thicknesses and discontinuity names (Mohorovičić, Gutenberg, Lehmann), and (2) explain how seismic wave velocity changes (P-wave/S-wave behaviour) at each boundary provide evidence for compositional and phase changes.",
+     "self_check": true
     }
    ]
   }

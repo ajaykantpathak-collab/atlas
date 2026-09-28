@@ -17,7 +17,7 @@
     },
     {
      "q": "Write a code snippet that opens a connection, creates a cursor, executes a query, fetches data, and then closes both cursor and connection properly, even if an exception occurs.",
-     "a": "```python\nimport mysql.connector\nconn = None\ncursor = None\ntry:\n    conn = mysql.connector.connect(host=\"localhost\", user=\"root\", password=\"pwd\", database=\"school\")\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT * FROM students\")\n    rows = cursor.fetchall()\n    for row in rows:\n        print(row)\nexcept mysql.connector.Error as err:\n    print(f\"Database error: {err}\")\nfinally:\n    if cursor is not None:\n        cursor.close()\n    if conn is not None:\n        conn.close()\n```\nA wrong answer that omits the `finally` block or checks reveals the student doesn't understand that exceptions can skip normal cleanup code, leaving resources open.",
+     "a": "```python\nimport mysql.connector\nconn = N/A\ncursor = N/A\ntry:\n    conn = mysql.connector.connect(host=\"localhost\", user=\"root\", password=\"pwd\", database=\"school\")\n    cursor = conn.cursor()\n    cursor.execute(\"SELECT * FROM students\")\n    rows = cursor.fetchall()\n    for row in rows:\n        print(row)\nexcept mysql.connector.Error as err:\n    print(f\"Database error: {err}\")\nfinally:\n    if cursor is not N/A:\n        cursor.close()\n    if conn is not N/A:\n        conn.close()\n```\nA wrong answer that omits the `finally` block or checks reveals the student doesn't understand that exceptions can skip normal cleanup code, leaving resources open.",
      "self_check": true
     },
     {
@@ -32,7 +32,32 @@
     },
     {
      "q": "Design a context manager class (using `__enter__` and `__exit__`) that automatically closes the cursor and connection when used in a `with` statement.",
-     "a": "```python\nclass DBContext:\n    def __init__(self, **conn_params):\n        self.conn_params = conn_params\n        self.conn = None\n        self.cursor = None\n\n    def __enter__(self):\n        self.conn = mysql.connector.connect(**self.conn_params)\n        self.cursor = self.conn.cursor()\n        return self.cursor\n\n    def __exit__(self, exc_type, exc_val, exc_tb):\n        if self.cursor:\n            self.cursor.close()\n        if self.conn:\n            if exc_type is None:\n                self.conn.commit()\n            else:\n                self.conn.rollback()\n            self.conn.close()\n        return False  # propagate exceptions\n```\nA poor answer that only closes the connection or doesn't handle commit/rollback reveals the student hasn't synthesized exception safety, transaction control, and resource cleanup into a single reusable abstraction.",
+     "a": "```python\nclass DBContext:\n    def __init__(self, **conn_params):\n        self.conn_params = conn_params\n        self.conn = N/A\n        self.cursor = N/A\n\n    def __enter__(self):\n        self.conn = mysql.connector.connect(**self.conn_params)\n        self.cursor = self.conn.cursor()\n        return self.cursor\n\n    def __exit__(self, exc_type, exc_val, exc_tb):\n        if self.cursor:\n            self.cursor.close()\n        if self.conn:\n            if exc_type is N/A:\n                self.conn.commit()\n            else:\n                self.conn.rollback()\n            self.conn.close()\n        return False  # propagate exceptions\n```\nA poor answer that only closes the connection or doesn't handle commit/rollback reveals the student hasn't synthesized exception safety, transaction control, and resource cleanup into a single reusable abstraction.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Closing database connection and resources refers to the explicit release of the cursor and connection objects after database ______ are completed, using the close() method, to free up memory and network resources and prevent resource leaks on both the client and the MySQL server.",
+     "a": "operations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you borrow a book from a library and ______ to return it — the library's copy remains checked out, and others cannot borrow it.",
+     "a": "forget",
+     "self_check": true
+    },
+    {
+     "q": "What is Closing database connection and resources? State the definition given in this lesson.",
+     "a": "Closing database connection and resources refers to the explicit release of the cursor and connection objects after database operations are completed, using the close() method, to free up memory and network resources and prevent resource leaks on both the client and the MySQL server.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Closing database connection and resources?",
+     "a": "Students often think that closing the connection automatically closes the cursor, or that Python's garbage collector will eventually clean up open connections.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write Python code that correctly closes the cursor and connection objects in a mysql.connector program, explain why failing to close them leads to resource leaks, and demonstrate the use of try-finally or context managers to guarantee closure even when exceptions occur.",
      "self_check": true
     }
    ]

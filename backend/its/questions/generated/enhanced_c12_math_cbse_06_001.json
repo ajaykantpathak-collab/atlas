@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (Indian context) where two geometric quantities vary with time and you need to find one rate given the other. Write the problem statement and the first two steps of the solution (identify variables, write the relation).",
      "a": "Example: \"Water is poured into a conical tank (vertex down) of height 12 m and base radius 6 m at 2 m³/min. How fast is the water level rising when depth is 4 m?\" Steps: (1) Let h = depth, r = surface radius, V = volume. By similar triangles, r/h = 6/12 = 1/2 ⇒ r = h/2. (2) V = (1/3)πr²h = (1/3)π(h/2)²h = πh³/12. A poor answer uses a cylinder instead of a cone, or forgets the similar triangles relation, showing they cannot translate geometry into algebra.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The rate of change of a quantity y with respect to another quantity x is defined as the ______ dy/dx (or f'(x)) where y = f(x).",
+     "a": "derivative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are filling a ______ balloon with helium at a steady rate of 900 cm³/s.",
+     "a": "spherical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are filling a spherical balloon with helium at a steady rate of ______ cm³/s.",
+     "a": "900",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) set up the correct derivative expression for a given real-world rate problem, (2) apply the chain rule when quantities depend on a common parameter (usually time), (3) compute the numerical rate with correct units, and (4) interpret the sign of the rate (increasing/decreasing) in context.",
+     "self_check": true
     }
    ]
   }

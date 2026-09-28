@@ -170,5 +170,6 @@ async def stats():
         "classes": idx.classes(),
         "subjects": idx.subjects(),
         "per_class": idx.per_class_counts(),
+        "per_class_subject": idx.per_class_subject_counts(),
         "load_stats": idx.stats,
     }

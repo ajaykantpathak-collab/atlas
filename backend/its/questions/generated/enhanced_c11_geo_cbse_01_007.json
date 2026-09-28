@@ -34,6 +34,31 @@
      "q": "CREATE: Design a 3-week interdisciplinary field study plan for a Class 11 project investigating how the geology of the Chotanagpur Plateau (gneissic basement, Gondwana coal measures, laterite caps) controls its drainage pattern (radial/trellis), soil chemistry (lateritic vs alluvial), and microclimate (temperature inversion in Damodar valley). Specify the physics/geology measurements, instruments, and geographical mapping techniques required.",
      "a": "Expected answer criteria: (1) Geology: Brunton compass for foliation/joint mapping in gneiss; stratigraphic logging of Gondwana sequence (Talchir, Barakar, Raniganj); laterite thickness/profile description. (2) Physics: Stevenson screen + dataloggers for 48-hr temp/RH at valley floor vs plateau top (inversion detection); Kestrel meter for wind profiling; infiltrometer for hydraulic conductivity of laterite vs alluvium. (3) Geography: SOI toposheet (1:50,000) drainage ordering (Strahler); GIS (QGIS) for DEM-derived slope/aspect/curvature; soil sampling grid (pH, EC, NPK) correlated with parent rock. (4) Synthesis: Cross-section showing geological control on valley asymmetry; scatter plots of soil pH vs rock type; diurnal temperature curves proving inversion. Poor answer (only \"collect rocks and measure rain\") reveals no grasp of interdisciplinary methodology, instrument principles, or spatial analysis frameworks.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Geography's relation with natural sciences refers to the ______ integration where physical geography employs principles of Physics (solar radiation, thermodynamics, atmospheric dynamics, gravitational forces) to explain energy transfers and climatic processes, and principles of Geology (plate tectonics, rock cycle, structural geology, geomorphology) to explain the origin, evolution, and classification of Earth's surface features.",
+     "a": "interdisciplinary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stand on the Marina Beach in Chennai at noon in May and feel the intense heat on your skin — that is solar ______ (Physics) interacting with the coastal landmass (Geography).",
+     "a": "radiation",
+     "self_check": true
+    },
+    {
+     "q": "What is Geography's relation with natural sciences? State the definition given in this lesson.",
+     "a": "Geography's relation with natural sciences refers to the interdisciplinary integration where physical geography employs principles of Physics (solar radiation, thermodynamics, atmospheric dynamics, gravitational forces) to explain energy transfers and climatic processes, and principles of Geology (plate tectonics, rock cycle, structural.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Geography's relation with natural sciences?",
+     "a": "Students believe \"geography describes places, physics explains processes, geology studies rocks\" as separate boxes.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how specific laws of physics (e.g., Stefan-Boltzmann law, gas laws, Coriolis effect) govern geographical phenomena like insolation distribution and monsoon dynamics, and how geological concepts (e.g., isostasy, seafloor spreading, weathering sequences) explain landform assemblages such as the Himalaya or the.",
+     "self_check": true
     }
    ]
   }

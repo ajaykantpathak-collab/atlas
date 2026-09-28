@@ -34,6 +34,31 @@
      "q": "Create a novel scenario (not from the textbook) involving a shared community resource where utility and accessibility conflict for different user groups. Describe the resource, two user groups with different goals, and how the conflict could be resolved through resource management.",
      "a": "Scenario: A community library with one computer lab (10 computers). Group A: Class 10 students needing computers for board exam online mock tests (goal: timed practice, high utility). Group B: Senior citizens learning basic digital literacy (goal: self-paced learning, high utility). Conflict: Limited computers (low accessibility during peak hours). Resolution: Time-slot allocation (morning for seniors, afternoon for students), booking system, or fundraising for more computers. A poor answer proposing \"first-come-first-served\" reveals failure to apply management principles to balance competing utilities under accessibility constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Utility is the capacity of a resource to satisfy a specific human want or achieve a defined goal, which is context-______ and varies with the user's objective and situation.",
+     "a": "dependent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a brand-new ______ but no internet connection at home—does the phone have utility for your online class goal?",
+     "a": "smartphone",
+     "self_check": true
+    },
+    {
+     "q": "What is Utility? State the definition given in this lesson.",
+     "a": "Utility is the capacity of a resource to satisfy a specific human want or achieve a defined goal, which is context-dependent and varies with the user's objective and situation.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Utility?",
+     "a": "Students conflate \"utility\" with \"usefulness in general\" and \"accessibility\" with \"physical availability.\" They incorrectly believe: (1) If a resource exists, it has utility—ignoring that utility is goal-specific (e.g., a ladder has no utility for a goal of \"digging a hole\").",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish utility from mere availability by explaining why a resource has utility only in relation to a specific goal and user context, and (2) Analyze a real-life scenario to identify at least three distinct dimensions of accessibility (physical, economic, temporal, social, legal) that affect resource.",
+     "self_check": true
     }
    ]
   }

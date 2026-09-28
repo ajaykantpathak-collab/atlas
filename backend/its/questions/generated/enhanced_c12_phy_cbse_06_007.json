@@ -34,6 +34,31 @@
      "q": "Design a simple classroom experiment to demonstrate eddy current damping using readily available materials (magnets, copper/aluminum plates, pendulum setup). Describe the procedure, what to observe, and how to vary the damping effect.",
      "a": "A good answer: Suspend a copper plate as a pendulum between the poles of a strong horseshoe magnet. Let it oscillate and note the rapid damping. Repeat with a plastic plate (no damping). To vary damping: (1) use plates of different thickness (thicker = more damping), (2) use slotted copper plate (slots break eddy current paths, reducing damping), (3) change magnet strength. A poor answer (e.g., \"drop a magnet through a copper tube\" without explaining the comparison or variables) shows inability to design a controlled experiment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Eddy currents are ______ currents induced in bulk conductors (like metal plates, cores, or pipes) when they experience a changing magnetic flux, either due to a time-varying magnetic field or due to motion of the conductor in a magnetic field.",
+     "a": "circulating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a metal plate swinging like a ______ between the poles of a strong magnet – it stops abruptly due to eddy current braking.",
+     "a": "pendulum",
+     "self_check": true
+    },
+    {
+     "q": "What is Eddy currents? State the definition given in this lesson.",
+     "a": "Eddy currents are circulating currents induced in bulk conductors (like metal plates, cores, or pipes) when they experience a changing magnetic flux, either due to a time-varying magnetic field or due to motion of the conductor in a magnetic field.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Eddy currents?",
+     "a": "Students often think eddy currents only occur in magnetic materials (like iron) because they associate them with transformer cores.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) explain the physical origin of eddy currents using Faraday's and Lenz's laws, (2) identify at least three practical applications (e.g., induction furnace, electromagnetic braking, speedometer) and two major disadvantages (energy loss in transformers/motors, unwanted heating), and (3) describe how laminated cores.",
+     "self_check": true
     }
    ]
   }

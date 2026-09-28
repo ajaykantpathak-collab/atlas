@@ -34,6 +34,31 @@
      "q": "Design a scenario where you would need to switch from a list-based stack to a deque-based stack in an existing application. Describe the change and the reason.",
      "a": "Scenario: A web server uses a list-based stack to track active user sessions for a \"recently closed tabs\" feature. As traffic increases, the server becomes multi-threaded and the list-based stack causes race conditions. Switching to `deque` ensures thread-safe push/pop without external locks. The change: replace `stack = []` with `stack = deque()` and keep `append`/`pop` the same. A poor answer might not mention thread-safety or might suggest changing the algorithm unnecessarily, indicating a lack of understanding of real-world constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A stack ______ using collections.deque uses a double-ended queue where push operations are performed using append() (adding to the right end) and pop operations using pop() (removing from the right end), both in O(1) time complexity, adhering to the LIFO principle.",
+     "a": "implemented",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a ______'s back button feature: each visited URL is pushed onto a stack, and clicking back pops the most recent URL.",
+     "a": "browser",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A stack implemented using collections.deque uses a double-ended queue where push operations are performed using append() (adding to the right end) and pop operations using pop() (removing from the right end), both in O(______) time complexity, adhering to the LIFO principle.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write Python code to implement a stack using deque, correctly use append() for push and pop() for pop, and explain why deque is more efficient than a list for stack operations when frequent insertions/deletions occur at both ends (though stack uses only one end).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a browser's back button feature: each visited URL is pushed onto a stack, and clicking back pops the most recent URL.",
+     "a": "building",
+     "self_check": true
     }
    ]
   }

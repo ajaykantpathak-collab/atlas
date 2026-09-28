@@ -34,6 +34,21 @@
      "q": "Design a simple dichotomous key (3-4 steps) to distinguish a specimen each of Balanoglossus (Hemichordata), Asterias (Echinodermata), and Branchiostoma (Cephalochordata) using only external adult features observable in a laboratory dish.",
      "a": "1. Body covered in spiny calcareous ossicles / water vascular system visible? YES → Asterias. NO → Go to 2.\n2. Body divisible into distinct proboscis, collar, trunk? YES → Balanoglossus. NO → Go to 3.\n3. Body laterally compressed, segmented myotomes, persistent notochord extending to anterior tip, dorsal hollow nerve cord? YES → Branchiostoma.\nA poor key (e.g., using \"presence of gill slits\" as first step) fails because all three have pharyngeal gill slits, showing the student cannot select diagnostic vs. shared characters.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Phylum Hemichordata comprises a small group of exclusively marine, worm-like ______ that exhibit bilateral symmetry, triploblastic organisation, and a true coelom.",
+     "a": "deuterostomes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine finding a soft, worm-like creature burrowing in the ______ sand flats of the Gulf of Kutch.",
+     "a": "intertidal",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can differentiate Hemichordata from Chordata and Echinodermata by comparing the stomochord vs. notochord, explain the significance of their deuterostome development and pharyngeal gill slits, and classify a given specimen as Hemichordata based on the proboscis-collar-trunk body plan and open circulation.",
+     "self_check": true
     }
    ]
   }

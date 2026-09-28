@@ -87,6 +87,12 @@ def _exam_to_detail_dict(exam, sections=None) -> dict:
     section_items = []
     for sec in (sections or []):
         raw_questions = sec.questions or []
+        if isinstance(raw_questions, str):
+            try:
+                import json as _json
+                raw_questions = _json.loads(raw_questions)
+            except Exception:
+                raw_questions = []
         section_items.append(
             {
                 "section_id": sec.section_id,
@@ -366,16 +372,19 @@ async def get_exam_status(
     db: AsyncSession = Depends(get_db),
 ):
     """Get the current status of an exam session — time remaining, current question."""
-    from backend.services.exam_service import _EXAM_SESSIONS
-    from datetime import datetime
+    from backend.services.exam_service import _exam_load
+    from datetime import datetime, timezone
 
-    session = _EXAM_SESSIONS.get(session_id)
+    session = await _exam_load(session_id)
     if not session:
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
             detail="Exam session not found",
         )
-    elapsed = (datetime.now() - session.started_at).total_seconds()
+    _started = session.started_at
+    if _started is not None and _started.tzinfo is None:
+        _started = _started.replace(tzinfo=timezone.utc)  # legacy naive stamp
+    elapsed = (datetime.now(timezone.utc) - _started).total_seconds()
     remaining = max(0, session.duration_minutes * 60 - elapsed)
     return {
         "session_id": session_id,
@@ -398,9 +407,9 @@ async def finish_exam(
 
     Any unanswered questions are marked as skipped.
     """
-    from backend.services.exam_service import _EXAM_SESSIONS, ExamService
+    from backend.services.exam_service import _exam_load, ExamService
 
-    session = _EXAM_SESSIONS.get(session_id)
+    session = await _exam_load(session_id)
     if not session:
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,

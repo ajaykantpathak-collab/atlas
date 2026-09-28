@@ -34,6 +34,31 @@
      "q": "Design a simple classroom activity using a globe, a torch (Sun), and two pins placed at Gujarat and Arunachal Pradesh to demonstrate why local noon occurs at different clock times across India. Write the step-by-step procedure and the key geographical concept each step illustrates.",
      "a": "Procedure: (1) Mark Gujarat (69°E) and Arunachal (93°E) with pins on the globe. (2) Align globe so the Prime Meridian faces the torch (Sun at Greenwich noon). (3) Rotate globe westward (simulating Earth's rotation) until Gujarat pin faces the torch — note time elapsed. (4) Continue rotating until Arunachal pin faces the torch — note additional time. (5) Measure angle between pins; calculate time difference (angle/15° per hour). Concepts: (1) Longitude determines solar time. (2) Earth rotates west-to-east, so east experiences noon earlier. (3) Standard time is a human convention to synchronise clocks. A poor activity that just shows \"sun rises in east\" without measuring the angular difference or linking to the 4-min/degree rule fails to build quantitative geographical reasoning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Indian Standard Time (IST) is the uniform time observed across India, based on the local time of the Standard Meridian at 82°30'E ______, which passes through Mirzapur (Uttar Pradesh).",
+     "a": "longitude",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are on a video call with a friend in Gujarat (west) at 6:00 PM while you are in ______ Pradesh (east).",
+     "a": "Arunachal",
+     "self_check": true
+    },
+    {
+     "q": "What is Indian Standard Time (IST)? State the definition given in this lesson.",
+     "a": "Indian Standard Time (IST) is the uniform time observed across India, based on the local time of the Standard Meridian at 82°30'E longitude, which passes through Mirzapur (Uttar Pradesh).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Indian Standard Time (IST)?",
+     "a": "Students often think IST is the local time of the exact centre of India (e.g., 82°30'E is the midpoint of 68°7'E and 97°25'E).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the time difference between any two Indian longitudes using the 1° = 4 minutes rule, explain why IST is referenced to 82°30'E and not the central meridian of the longitudinal extremes, and justify the socio-economic necessity of a single time zone for a country of India's east-west span.",
+     "self_check": true
     }
    ]
   }

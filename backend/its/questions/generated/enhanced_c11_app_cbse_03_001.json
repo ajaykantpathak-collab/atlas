@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_03_001",
+   "title": "c11_app_cbse_03_001",
+   "questions": [
+    {
+     "q": "State the definition of a set as per the NCERT textbook and identify the two key adjectives used to describe the collection.",
+     "a": "A set is a well-defined collection of distinct objects. The two key adjectives are **well-defined** (membership rule is objective and unambiguous) and **distinct** (no repetition of elements). A wrong answer (e.g., \"a collection of objects\" without the adjectives) reveals the student misses the *defining* feature that separates sets from arbitrary groups.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why \"the collection of all intelligent students in Class 11\" is **not** a set, but \"the collection of all students in Class 11 who scored above 90% in the Term 1 exam\" **is** a set.",
+     "a": "\"Intelligent\" is subjective—different teachers/parents have different criteria, so membership cannot be decided objectively. \"Scored above 90%\" is a precise, verifiable rule: given any student, we check their marksheet and get a definite yes/no. A wrong answer (e.g., \"both are sets because they describe groups\") shows the student confuses *description* with *well-defined criterion*.",
+     "self_check": true
+    },
+    {
+     "q": "Given the set A = {x : x is a letter in the word \"BANANA\"}, write A in roster form and state the cardinal number n(A). Then, determine whether 'N' ∈ A and 'B' ∉ A are true or false.",
+     "a": "A = {B, A, N} (distinct letters only). n(A) = 3. 'N' ∈ A is **True** (N appears in BANANA). 'B' ∉ A is **False** (B is the first letter). A wrong roster form {B, A, N, A, N, A} reveals the student ignores \"distinct\"; a wrong cardinality reveals they counted repetitions; wrong ∈/∉ reveals confusion about membership vs. non-membership.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two collections: (i) C = {x : x is a root of x² - 5x + 6 = 0} and (ii) D = {x : x is a \"difficult\" chapter in the NCERT Class 11 Maths textbook}. Analyze which is a set and why, focusing on the *nature of the defining property*.",
+     "a": "C is a set: the equation has exactly two roots (2 and 3), verifiable by any student. D is **not** a set: \"difficult\" is relative—one student finds Trigonometry hard, another finds Calculus hard; no universal rule exists. A wrong answer (e.g., \"both are sets because they have elements\") shows the student cannot distinguish *objective mathematical property* from *subjective human judgment*.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"The collection of all real numbers between 0 and 1 is not a set because it has infinitely many elements and we cannot list them.\" Evaluate this claim and defend your judgment using the definition of a set.",
+     "a": "The claim is **false**. A set does **not** require listability (roster form); it only requires a well-defined membership rule. The rule \"x ∈ R and 0 < x < 1\" is perfectly objective—any real number can be tested. The set is infinite but well-defined (it is the open interval (0,1)). A wrong evaluation reveals the student conflates *finiteness/representability* with *well-definedness*.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own real-life example of a collection that **looks like** a set but fails the \"well-defined\" test due to a subtle ambiguity. State the collection, the ambiguous term, and rewrite it to make it a valid set.",
+     "a": "Example: \"The collection of all *tall* buildings in Mumbai.\" Ambiguous term: \"tall\" (no fixed height threshold). Rewritten set: \"The collection of all buildings in Mumbai with height > 100 meters.\" A poor answer (e.g., \"collection of good movies\" without identifying the ambiguous term or fixing it) shows the student cannot *construct* well-defined criteria, only recognize them.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

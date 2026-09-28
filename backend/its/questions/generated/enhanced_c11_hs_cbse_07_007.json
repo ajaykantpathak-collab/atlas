@@ -34,6 +34,31 @@
      "q": "Design a 7-day personal hygiene audit checklist for a Class 11 hostel student that includes frequency, method, and a \"why\" column linking each practice to a specific pathogen or health outcome. Provide 3 completed rows as examples.",
      "a": "| Practice | Frequency | Method | Why (Pathogen/Outcome) |\n|---|---|---|---|\n| Hand wash | Before meals, after toilet | Soap + water, 20 sec, scrub nails | Removes Salmonella, Shigella, E. coli → prevents diarrhoea |\n| Tooth brushing | 2× daily (morning/night) | Fluoride toothpaste, Bass technique 2 min | Disrupts Streptococcus mutans biofilm → prevents dental caries |\n| Bathing | Daily + after sports | Mild soap, attention to axilla, groin, feet | Removes Corynebacterium (odour), dermatophytes (tinea) |\n| ... | ... | ... | ... |\nA poor answer listing only \"wash hands, brush teeth, bathe\" without frequency/method/why columns shows the student treats hygiene as a checklist of tasks rather than targeted microbial control.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Personal hygiene refers to the set of practices performed by an individual to maintain bodily cleanliness, prevent disease ______, and promote physical, mental, and social well-being through care of the skin, hair, nails, teeth, clothing, and bodily orifices.",
+     "a": "transmission",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you wake up with a sticky ______, oily hair, and dirt under your fingernails—would you feel confident sitting next to your friend in class?",
+     "a": "mouth",
+     "self_check": true
+    },
+    {
+     "q": "What is Personal hygiene? State the definition given in this lesson.",
+     "a": "Personal hygiene refers to the set of practices performed by an individual to maintain bodily cleanliness, prevent disease transmission, and promote physical, mental, and social well-being through care of the skin, hair, nails, teeth, clothing, and bodily orifices.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Personal hygiene?",
+     "a": "Students believe \"personal hygiene = bathing daily + using deodorant\" because advertisements equate hygiene with fragrance and social acceptance.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can list all seven components of personal hygiene with one specific practice for each, explain how poor personal hygiene contributes to the nutrition-infection cycle, and design a daily hygiene routine for an adolescent that addresses puberty-specific needs.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Create a realistic mini-case (3-4 sentences) involving a partnership with at least THREE different partner types. Include a specific transaction with a third party. Ask: \"Who is liable to the third party and to what extent?\" Provide the answer key with reasoning.",
      "a": "Mini-case: \"M/s GreenFields, a partnership, has four partners: Maya (Active, manages operations), Rohan (Sleeping, invested ₹15 lakh), and Ms. Iyer (Nominal, renowned environmentalist, lends name only). GreenFields orders ₹50 lakh raw materials from EcoSupplies on credit, representing all three as partners. EcoSupplies delivers but GreenFields defaults.\" Answer: ALL THREE — Maya, Rohan, Ms. Iyer — are jointly and severally liable for the FULL ₹50 lakh. Reason: Partnership Act makes every partner (including nominal) an agent of the firm; third parties can recover from any partner regardless of internal role. Maya/Rohan liable as actual partners; Ms. Iyer liable as nominal partner who allowed name use. Good answer identifies all three, cites \"joint and several liability,\" explains nominal partner's exposure. Poor answer excludes nominal partner or apportions liability by capital contribution.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A partnership firm may have partners with varying degrees of ______, capital contribution, profit-sharing, and liability exposure.",
+     "a": "participation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: His ______ Priya has hospitality experience but only ₹2 lakh.",
+     "a": "friend",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Indian Partnership Act, ______ recognises six distinct categories: Active Partner (manages business, unlimited liability), Sleeping/Dormant Partner (contributes capital only, unlimited liability), Secret Partner (actively manages but identity undisclosed, unlimited liability), Nominal Partner (lends name only, no capital/profit share, unlimited liability to third parties), Partner by Estoppel (represents self as partner through conduct, liable to third parties), and Partner by Holding Out (knowingly allows firm to represent them as partner, liable to third parties).",
+     "a": "1932",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly classify any given partner scenario into one of the six types by evaluating four parameters (capital contribution, management participation, profit/loss sharing, liability to third parties), and explain the legal consequences for the firm and third parties in each case.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: His friend Priya has ______ experience but only ₹2 lakh.",
+     "a": "hospitality",
+     "self_check": true
     }
    ]
   }

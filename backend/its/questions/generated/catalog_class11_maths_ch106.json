@@ -5,6 +5,8 @@
    "id": "kemh.6.1",
    "title": "Fundamental Principle of Counting",
    "converted_to_compute": false,
+   "formula": "total_ways = m * n",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A canteen offers 6 drinks and 4 snacks. How many drink-snack combos are possible (rule of product)?",
@@ -42,6 +44,8 @@
    "id": "kemh.6.2",
    "title": "Factorial Notation",
    "converted_to_compute": false,
+   "formula": "n! = n * (n - 1) * ... * 1",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A canteen offers 8 drinks and 4 snacks. How many drink-snack combos are possible (rule of product)?",
@@ -79,6 +83,8 @@
    "id": "kemh.6.3",
    "title": "Permutations of Distinct Objects without Repetition",
    "converted_to_compute": false,
+   "formula": "nPr = n! / (n - r)!",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A canteen offers 8 drinks and 9 snacks. How many drink-snack combos are possible (rule of product)?",
@@ -116,6 +122,8 @@
    "id": "kemh.6.4",
    "title": "Permutations with Repetition Allowed",
    "converted_to_compute": false,
+   "formula": "total = n ** r",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A canteen offers 5 drinks and 6 snacks. How many drink-snack combos are possible (rule of product)?",
@@ -153,6 +161,8 @@
    "id": "kemh.6.5",
    "title": "Permutations when Objects are Not All Distinct",
    "converted_to_compute": false,
+   "formula": "total = n! / (p1! * p2! * ... * pk!)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A canteen offers 6 drinks and 4 snacks. How many drink-snack combos are possible (rule of product)?",
@@ -190,6 +200,8 @@
    "id": "kemh.6.6",
    "title": "Combinations of Distinct Objects",
    "converted_to_compute": false,
+   "formula": "nCr = n! / (r! * (n - r)!)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A canteen offers 5 drinks and 6 snacks. How many drink-snack combos are possible (rule of product)?",
@@ -226,15 +238,9 @@
   {
    "id": "kemh.6.7",
    "title": "Properties and Identities of Combinations",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "expand with the algebraic identity and evaluate",
-     "explain": "expand with the algebraic identity and evaluate: val = 7 * 7 + 2 * 7 * 8 + 8 * 8 gives 225",
-     "compute": "val = 7 * 7 + 2 * 7 * 8 + 8 * 8"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "nCr = nC(n-r) and nCr + nC(r-1) = (n+1)Cr",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Use the identity (a + b)^2 = a^2 + 2ab + b^2 to find the square of 8 more than 7; report the value.",
@@ -272,6 +278,8 @@
    "id": "kemh.6.8",
    "title": "Restricted Permutations and Grouped Elements",
    "converted_to_compute": false,
+   "formula": "total = block_outer_ways * block_inner_ways",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A canteen offers 2 drinks and 4 snacks. How many drink-snack combos are possible (rule of product)?",

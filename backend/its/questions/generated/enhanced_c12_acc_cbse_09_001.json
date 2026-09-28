@@ -34,6 +34,26 @@
      "q": "Create a realistic scenario for a \"Software Development Company\" where the same activity — \"Purchase of shares\" — could be classified as operating for one company and investing for another. Explain both classifications.",
      "a": "Scenario: Company A is a share brokerage firm (operating activity — shares are inventory held for trading). Company B is a software firm investing surplus funds in shares (investing activity — shares are long-term investments). AS-3 explicitly states: \"An enterprise may hold securities for dealing or trading purposes... cash flows arising from purchase and sale of dealing or trading securities are classified as operating activities.\" A poor answer would give generic definitions without linking to the \"nature of enterprise\" principle. This tests the highest-level understanding that classification is not absolute but context-dependent.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Cash Flow Statement is a financial statement prepared as per Accounting Standard-3 (AS-3) that shows the inflows and outflows of cash and cash ______ of an enterprise during a specific period, classified into operating, investing, and financing activities, to help users assess the entity's ability to generate cash and the timing and certainty of such generation.",
+     "a": "equivalents",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Your profit and loss ______ shows a profit of ₹50,000, but your bank balance has actually decreased.",
+     "a": "statement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"What cash came in and went out?\" Then learn the three buckets AS-______ requires: Operating (core business like selling cakes, buying flour), Investing (buying ovens, selling old equipment), Financing (taking loans, repaying owners).",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify any given transaction into operating, investing, or financing activity (or cash equivalent) as per AS-3, explain the three objectives of a cash flow statement, and distinguish between cash, cash equivalents, and cash flows with appropriate examples.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Create a decimal number that satisfies all three conditions: (1) It has three decimal places, (2) The digit in the hundredths place is twice the digit in the thousandths place, and (3) The sum of all its digits is $15$.",
      "a": "An expected correct answer is $4.521$ (since digits are $4, 5, 2, 1$; sum = $12$? Wait, $4+5+2+1 = 12$. Let's use $5.631$: sum = $5+6+3+1 = 15$, hundredths is $3$, thousandths is $1$ ($3$ is not twice of $1$). Let's use $3.642$: whole number $3$, tenths $6$, hundredths $4$, thousandths $2$. Check: hundredths ($4$) is twice thousandths ($2$). Sum of digits: $3 + 6 + 4 + 2 = 15$. Correct!). A poor answer fails one or more constraints, such as ignoring the place value ratio or miscalculating the digit sum, revealing a weak grasp of multi-constraint number composition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Decimals are an extension of our place value system used to represent numbers smaller than one by utilizing powers of ten in the ______, separated from the whole number part by a decimal point.",
+     "a": "denominator",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How do we ______ what the .75 actually means in terms of parts of a whole?",
+     "a": "understand",
+     "self_check": true
+    },
+    {
+     "q": "What is Decimals? State the definition given in this lesson.",
+     "a": "Decimals are an extension of our place value system used to represent numbers smaller than one by utilizing powers of ten in the denominator, separated from the whole number part by a decimal point.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How do we understand what the .______ actually means in terms of parts of a whole?",
+     "a": "75",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Decimals?",
+     "a": "They ignore the place value of the first digit after the decimal point (the tenths place) and treat the decimal part as a standalone whole number.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can read, write, represent, and compare decimal numbers up to thousandths, and can express decimals as fractions in their lowest terms and vice versa.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_07_003",
+   "title": "c11_leg_cbse_07_003",
+   "questions": [
+    {
+     "q": "Define \"Substantive Law\" and \"Procedural Law\" as per the NCERT Classification of Laws chapter, and give one statutory example of each from Indian law.",
+     "a": "Substantive Law defines rights, duties, and liabilities (e.g., Indian Penal Code, 1860 defining theft, murder; Consumer Protection Act, 2019 defining consumer rights). Procedural Law prescribes the machinery and process for enforcing those rights (e.g., Code of Criminal Procedure, 1973 for criminal trials; Code of Civil Procedure, 1908 for civil suits). A wrong answer (e.g., citing CrPC as substantive) reveals the student confuses the *source of the right* with the *method of enforcement* — a fundamental category error that leads to filing the wrong petition in the wrong forum.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since the Hindu Marriage Act, 1955 provides for divorce, it is a procedural law because it tells you how to get divorced.\" Explain why this classification is incorrect using the distinction between substantive and procedural law.",
+     "a": "The Hindu Marriage Act, 1955 is a **substantive law** because it *creates* the legal ground for divorce (e.g., cruelty, desertion, adultery under Section 13), defines the marital status, and confers the *right* to seek dissolution. The *procedure* for filing the petition, serving notice, leading evidence, and appeals is governed by the Code of Civil Procedure, 1908 (and Family Courts Act, 1984). The student's error stems from confusing the *content of the right* (what you can claim) with the *mechanism to claim it* (how you claim it). This misconception causes students to misidentify the applicable limitation period and forum.",
+     "self_check": true
+    },
+    {
+     "q": "Scenario: Priya (Indian citizen) enters into a contract with a US-based company for software services. The company fails to pay. Priya wants to sue. Classify the dispute by: (a) Subject Matter, (b) Scope (which law governs the contract formation vs. the court process), (c) Jurisdiction (Municipal vs. International, Public vs. Private). Justify each.",
+     "a": "(a) Subject Matter: **Civil Law** (Private Law → Law of Obligations/Contract) — dispute between private parties over enforceable promise, remedy is damages/specific performance, not punishment. (b) Scope: **Substantive** — Indian Contract Act, 1872 governs formation, validity, breach, remedies; **Procedural** — CPC, 1908 governs filing suit, jurisdiction of court, evidence, execution of decree. (c) Jurisdiction: **Private International Law (Conflict of Laws)** — because a \"foreign element\" exists (foreign party, possibly foreign place of performance). It is **not** Public International Law (no state-to-state dispute) nor Municipal Private Law purely (foreign element triggers PIL rules on choice of law/forum). A wrong classification (e.g., calling it Criminal or Public International Law) shows failure to spot the \"foreign element\" and the private-party nature.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"Public International Law\" and \"Private International Law\" on three dimensions: (1) Parties involved, (2) Source of obligation, (3) Enforcement mechanism. Use concrete Indian examples.",
+     "a": "| Dimension | Public International Law | Private International Law (Conflict of Laws) |\n|---|---|---|\n| **Parties** | Sovereign States / International Organizations (e.g., India vs. Pakistan at ICJ on Kishenganga) | Private parties (individuals/corporations) with a foreign element (e.g., NRI marriage, cross-border contract) |\n| **Source** | Treaties, Custom, General Principles (Art 38 ICJ Statute) — consent-based | Domestic law (Indian PIL rules in CPC, Specific Relief Act, judicial precedent) — forum's choice-of-law rules |\n| **Enforcement** | No central enforcement; relies on reciprocity, UNSC, reputation | Enforced by domestic courts (e.g., Delhi HC enforcing a foreign arbitral award under Arbitration Act, 1996 / New York Convention) |\nA weak answer conflates the two (e.g., \"both deal with countries\") or misses that PIL is *domestic law* applying to cross-border private disputes, not a supranational legal order.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The distinction between Civil and Criminal law in India is purely academic; in practice, the same facts (e.g., a car accident causing injury) can trigger both a civil suit for compensation and a criminal prosecution for rash driving, so the classification has no real consequence.\" Defend or critique with three specific procedural consequences that flow from the classification.",
+     "a": "**Critique.** The classification has **profound procedural consequences**:\n1. **Burden & Standard of Proof**: Criminal — prosecution proves *beyond reasonable doubt*; Civil — plaintiff proves *preponderance of probability*.\n2. **Initiation & Control**: Criminal — State (police/prosecutor) initiates and controls (victim is witness); Civil — injured party initiates and controls (can withdraw/compound).\n3. **Remedy & Limitation**: Criminal — imprisonment/fine (state-centric), limitation varies (CrPC); Civil — damages/injunction (party-centric), 3-year limitation (Limitation Act).\n4. **Compounding**: Many criminal offences (e.g., Sec 323 IPC) are non-compoundable; civil claims always compromisable.\nA student calling it \"academic\" ignores that **forum, evidence rules, appellate route, and even constitutional protections (Art 20/21) differ radically** — a practical trap for litigants.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel \"classification decision tree\" (flowchart logic in text) that a lawyer would mentally run through when a new client walks in with a problem, to determine: (1) Which law applies? (2) Which court? (3) What remedy? Start from \"Client narrates facts\" and end at \"File [X] before [Y] under [Z].\"",
+     "a": "**Decision Tree Logic:**\n1. **FACTS** → Identify legal issue (right violated? duty breached? crime committed?)\n2. **SUBJECT MATTER** → Is it an offence against society (State prosecutes) → **CRIMINAL** (IPC + CrPC) OR dispute between private parties → **CIVIL** (Contract/Tort/Property/Family + CPC)?\n3. **SCOPE** → Need *right/duty definition* → **SUBSTANTIVE** statute (IPC, Contract Act, Hindu Marriage Act) + Need *process* → **PROCEDURAL** statute (CrPC, CPC, Evidence Act).\n4. **JURISDICTION** → Any foreign element? (Foreign party, property abroad, cause of action abroad) → **YES** → Private International Law (Choice of Law/Forum rules) → **NO** → Municipal Law.\n5. **MUNICIPAL SUB-TYPE** → State vs. Citizen (Fundamental Rights, Admin action) → **PUBLIC LAW** (Constitutional/Admin/Criminal) → Citizen vs. Citizen → **PRIVATE LAW** (Contract, Tort, Property, Family).\n6. **FORUM** → Pecuniary/Territorial/Subject-matter jurisdiction → District Court / High Court / Tribunal / Family Court / Consumer Forum.\n7. **OUTPUT** → \"File [Civil Suit / Criminal Complaint / Writ Petition / Arbitration] before [Specific Court] under [Substantive Act] read with [Procedural Act].\"\nA poor answer lists categories without *sequencing* them as a diagnostic funnel — showing the student hasn't internalized the *operational* logic of classification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

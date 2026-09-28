@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_09_002",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_09_002",
+   "title": "c11_leg_cbse_09_002",
+   "questions": [
+    {
+     "q": "What is the constitutional basis for the Law Commission of India's existence, and how does it differ from a statutory body like the National Human Rights Commission?",
+     "a": "The Law Commission of India is **not** a constitutional body — it is an **executive body** constituted by a **Government resolution** (not by an Act of Parliament or Constitutional provision). The NHRC, by contrast, is a **statutory body** created under the Protection of Human Rights Act, 1993. A wrong answer (e.g., \"Article 39A creates the Law Commission\") reveals confusion between **Directive Principles** (Article 39A mandates free legal aid, not Law Commission) and **institutional design**. The Law Commission's legitimacy flows from **executive authority** and **parliamentary acceptance** of its reports, not constitutional text.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Right to Information Act, 2005 is considered a \"law reform\" rather than a \"new law\" in the strict sense, linking it to pre-existing constitutional provisions.",
+     "a": "The RTI Act, 2005 is a **law reform** because it **operationalizes** the **implicit right to information** derived from **Article 19(1)(a) (freedom of speech and expression)** and **Article 21 (right to life and personal liberty)**, as interpreted by the Supreme Court in *State of U.P. v. Raj Narain (1975)* and *S.P. Gupta v. Union of India (1981)*. It did not create a new right — it **procedurally enforced** an existing constitutional guarantee. A wrong answer (e.g., \"It created a new fundamental right\") reveals failure to distinguish between **substantive right creation** (constitutional amendment) and **procedural enforcement legislation** (law reform under Article 246 + Seventh Schedule).",
+     "self_check": true
+    },
+    {
+     "q": "A Bill to amend the Indian Penal Code to criminalize \"deepfake pornography\" is introduced in Lok Sabha. Trace the **exact constitutional stages** it must clear before becoming law, citing specific Articles.",
+     "a": "Steps: (1) **Introduction in Lok Sabha** (Article 107) — can be Government or Private Member's Bill; (2) **Passage by Lok Sabha** (simple majority, Article 100); (3) **Transmission to Rajya Sabha** (Article 108) — Rajya Sabha can recommend amendments but cannot reject Money Bills (this is not a Money Bill); (4) **Joint Sitting if deadlock** (Article 108, President summons); (5) **Presidential Assent** (Article 111) — President *must* assent (no pocket veto for non-Constitution Amendment Bills); (6) **Notification in Gazette** → becomes Act. A wrong answer skipping **Article 108 (Joint Sitting)** or misclassifying it as a **Money Bill (Article 109/110)** reveals confusion between **ordinary legislative procedure** and **financial legislation** — a critical distinction in law reform process.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the **law reform role of the Supreme Court** under **Article 32** (writ jurisdiction) vs. **Article 136** (special leave to appeal) vs. **Article 141** (binding precedent). How do these create a \"judicial law reform\" pathway distinct from legislative reform?",
+     "a": "- **Article 32**: Direct access for **fundamental rights enforcement** — Court *creates remedies* (e.g., *Vishakha Guidelines* for sexual harassment, later codified in POSH Act).  \n- **Article 136**: **Discretionary appellate review** of *any* court/tribunal order — allows Court to **reinterpret statutes** (e.g., reading down Section 377 IPC in *Navtej Johar*).  \n- **Article 141**: **Binding precedent** — Court's interpretation *becomes law* for all courts (e.g., *Kesavananda Bharati* basic structure doctrine).  \nTogether, these let the Court **fill legislative gaps**, **strike down unconstitutional laws** (Article 13), and **evolve new rights** (privacy in *Puttaswamy*) — **judicial law reform** is **reactive, case-specific, and precedent-based**, unlike **legislative reform** which is **proactive, general, and statutory**. A wrong answer conflating Article 32 with Article 136 (e.g., \"both are appeals\") reveals misunderstanding of **original vs. appellate jurisdiction** and **remedial vs. precedential function**.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The Muslim Women (Protection of Rights on Marriage) Act, 2019 (Triple Talaq Act) violates Article 25 (freedom of religion) because it interferes with Islamic personal law.\" Use constitutional provisions and case law.",
+     "a": "The critique **fails**. Article 25 protects **essential religious practices** (*Shirur Mutt* test), not all practices. In *Shayara Bano v. Union of India (2017)*, the Supreme Court held **triple talaq (talaq-e-biddat) is not essential to Islam** — it is **sinful even in Hanafi law**. The 2019 Act **criminalizes only instant triple talaq**, not other forms (talaq-e-ahsan, talaq-e-hasan). Further, **Article 25(2)** allows State to regulate **secular activities associated with religion** and **social welfare/reform**. The Act advances **gender justice (Articles 14, 15, 21)** and implements **Directive Principle Article 44 (Uniform Civil Code aspiration)**. A wrong answer accepting the critique reveals confusion between **absolute religious freedom** (not in Constitution) and **qualified freedom subject to public order, morality, health, and other fundamental rights**.",
+     "self_check": true
+    },
+    {
+     "q": "Design a **law reform proposal** to address **algorithmic bias in AI-based hiring tools** used by Indian companies. Specify: (a) which Law Commission report would be the starting point, (b) which constitutional Articles justify State intervention, (c) whether it should be a new Act or amendment to existing law, and (d) one judicial precedent the Court might rely on.",
+     "a": "(a) **277th Law Commission Report (2018) on \"Assisted Reproductive Technology\"** — not directly on AI, but shows Commission's approach to **techno-legal gaps**; ideally, a **new reference** to Law Commission on \"AI and Discrimination\".  \n(b) **Articles 14 (equality), 15(1) (non-discrimination), 16(2) (equal opportunity in public employment), 21 (dignity/livelihood), 38(2) (minimize inequalities), 39A (equal justice)**.  \n(c) **Amendment to the Information Technology Act, 2000** (add Chapter on \"Algorithmic Accountability\") + **amendment to Equal Remuneration Act, 1976** — avoids fragmentation.  \n(d) **Anuradha Bhasin v. Union of India (2020)** — proportionality test for State restriction on digital rights; **K.S. Puttaswamy (2017)** — privacy as fundamental right.  \nA poor answer (e.g., \"new AI Act under Article 253\") reveals ignorance of **Seventh Schedule** (AI regulation = Concurrent List Entry 20/23, not Union List) and **legislative competence**.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

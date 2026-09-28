@@ -4,15 +4,8 @@
   {
    "id": "kemh.103.1.1",
    "title": "Angles, Radian Measure and Degree Conversion",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 52 gives 38",
-     "compute": "other = 90 - 52"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 52 degrees, find the other.",
@@ -49,15 +42,8 @@
   {
    "id": "kemh.103.2.1",
    "title": "Trigonometric Functions, Identities and Their Signs",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute into the identity and simplify",
-     "explain": "substitute into the identity and simplify: val = (12 / 20) ** 2 + (16 / 20) ** 2 gives 1",
-     "compute": "val = (12 / 20) ** 2 + (16 / 20) ** 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Verify sin^2 A + cos^2 A = 1 for the right triangle with legs 12, 16 and hypotenuse 20 by computing (12/20)^2 + (16/20)^2.",
@@ -94,15 +80,8 @@
   {
    "id": "kemh.103.3.1",
    "title": "Compound Angles, Sum-Difference Formulas and General Solutions",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the simple or compound interest formula",
-     "explain": "apply the simple or compound interest formula: si = 8000 * 8 * 4 / 100 gives 2560",
-     "compute": "si = 8000 * 8 * 4 / 100"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the simple interest on Rs 8000 at 8% per annum for 4 years.",

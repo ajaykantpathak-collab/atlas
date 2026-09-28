@@ -34,6 +34,31 @@
      "q": "Design a minimal \"life-detection protocol\" for a Mars rover that tests for the seven characteristics without assuming Earth-like biochemistry. Specify one measurable test per characteristic that could work for alternative biochemistries (e.g., non-DNA genetics, non-water solvent).",
      "a": "**Cellular organization**: Microscopy + dye binding for membrane-bound compartments (amphiphile detection). **Metabolism**: Isotopic tracer uptake (¹³C, ¹⁵N) showing *catalyzed* conversion to complex molecules (detect via mass spec). **Homeostasis**: Measure internal vs. external gradients (pH, ion concentration, redox) maintained against environment. **Growth**: Time-lapse imaging showing *internal* volume/mass increase with morphological complexity. **Reproduction**: Detect information-carrying polymer replication (sequencing for repeated motifs, not just DNA). **Response**: Controlled stimulus (light, chemical gradient) → measurable behavioral/metabolic change. **Adaptation**: Serial passage experiment showing heritable phenotypic change. A poor answer lists Earth-specific tests (PCR for DNA, O₂ consumption) revealing inability to abstract the *functional logic* of each characteristic from its terrestrial implementation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Living organisms are self-sustaining, ______ open systems characterized by cellular organization, metabolism (catabolism and anabolism), homeostasis, growth through intracellular accretion, reproduction (genetic continuity), response to stimuli (consciousness at cellular level), and adaptation through evolution.",
+     "a": "thermodynamically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a sprouting moong dal seed on your kitchen counter versus a salt crystal growing in a saturated solution — both ______ in size, yet only one is alive.",
+     "a": "increase",
+     "self_check": true
+    },
+    {
+     "q": "What is Living organisms? State the definition given in this lesson.",
+     "a": "Living organisms are self-sustaining, thermodynamically open systems characterized by cellular organization, metabolism (catabolism and anabolism), homeostasis, growth through intracellular accretion, reproduction (genetic continuity), response to stimuli (consciousness at cellular level), and adaptation through evolution.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Living organisms?",
+     "a": "Students equate \"movement\" with life (e.g., \"fire moves, so it's alive\") or \"growth\" with any size increase (crystal, raisin).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can list all seven defining characteristics of life with precise biological terminology, distinguish living from non-living using multiple criteria (not just one), and explain why viruses challenge the definition using specific characteristic failures.",
+     "self_check": true
     }
    ]
   }

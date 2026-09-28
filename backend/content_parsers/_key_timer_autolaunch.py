@@ -1,10 +1,11 @@
+import os
 """
 Wait for the ClaudeOpus key to reset, then auto-launch all 3 supporting file generators.
 Checks every 5 minutes. Launches the moment the key works.
 """
 import urllib.request, json, ssl, time, subprocess, sys, re
 
-KEY = 'sk-ant-co-QsK1rhxdfRWZ65OJ5cVxaAZ5ISNUY0lK'
+KEY = os.environ.get('ANTHROPIC_API_KEY') or ''
 URL = 'https://api.claudeopus.pro/v1/messages'
 MODEL = 'claude-opus-5'
 ctx = ssl.create_default_context()

@@ -34,6 +34,31 @@
      "q": "Design a pollution control strategy for a new integrated steel plant (3 MTPA) in Odisha's Angul-Dhenkanal region. Specify: (a) primary air pollution control device for blast furnace gas, (b) water recycling target (% of total water intake), (c) solid waste utilization plan for blast furnace slag and SMS slag, (d) noise control for 120 dB(A) rolling mill. Justify each choice with techno-economic reasoning.",
      "a": "(a) Blast furnace gas: *Dry dedusting* (cyclone → venturi scrubber → wet ESP) — recovers sensible heat (300°C) for power generation; wet scrubbing alone wastes energy. (b) Water recycling: ≥95% (CPCB charter for steel) — achieved via cascade cooling, RO/UF for blowdown reuse; reduces freshwater draw from Brahmani river. (c) Slag utilization: BF slag → 100% granulated for cement (GGBS); SMS slag → metal recovery → aggregate for road base/rail ballast; *zero landfill* target per MoEFCC 2019 guidelines. (d) Rolling mill noise: *Enclosure + vibration damping pads + silenced gearboxes* to reduce source to ≤85 dB(A); green belt as secondary barrier. A poor answer lists generic devices without *process-specific justification* (e.g., suggesting bag filter for hot BF gas — fails at temperature) or ignores *regional context* (water scarcity in Angul).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Industrial pollution refers to the ______ of air, water, soil, and acoustic environment by harmful substances (pollutants) released during manufacturing processes, including gaseous emissions (SO₂, NOₓ, CO, particulate matter), liquid effluents (heavy metals, organic compounds, thermal discharge), solid/hazardous wastes (slag, fly ash, chemical sludge), and noise/vibration exceeding permissible limits set by the Central Pollution Control Board (CPCB) under the Environment (Protection) Act, 1986.",
+     "a": "contamination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the ______ stack of a nearby thermal power plant or brick kiln — the visible plume contains invisible PM₂.₅ and SO₂ that settle on crop leaves and enter lungs.",
+     "a": "chimney",
+     "self_check": true
+    },
+    {
+     "q": "What is Industrial pollution? State the definition given in this lesson.",
+     "a": "Industrial pollution refers to the contamination of air, water, soil, and acoustic environment by harmful substances (pollutants) released during manufacturing processes, including gaseous emissions (SO₂, NOₓ, CO, particulate matter), liquid effluents (heavy metals, organic compounds, thermal discharge), solid/hazardous wastes (slag, fly.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Industrial pollution?",
+     "a": "Students believe \"pollution control = installing one device at the chimney/pipe end\" (end-of-pipe mindset).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can classify industrial pollutants by medium and source, explain the working principle of at least three control technologies (e.g., electrostatic precipitator, effluent treatment plant, green belt), interpret CPCB emission/effluent standards for a given industry, and evaluate the effectiveness of pollution control measures using.",
+     "self_check": true
     }
    ]
   }

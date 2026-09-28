@@ -34,6 +34,26 @@
      "q": "Design a simple, low-cost experiment using a rolling marble, a metre scale, and a digital stopwatch to verify that doubling the time travelled at a constant speed doubles the distance covered.",
      "a": "To perform this, release a rolling marble along a smooth floor and use a stopwatch to record how far it travels in 2 seconds, marking the stopping point with chalk and measuring the distance. Then, allow the marble to roll for 4 seconds (double the time) while maintaining a uniform rolling speed, and measure the new distance. You will find that the distance at 4 seconds is twice the distance measured at 2 seconds, verifying direct proportionality ($d = v \\times t$). A poor answer fails to keep speed constant or lacks a method to measure time accurately.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In the ______ System of Units (SI), distance is measured in metres (m), time in seconds (s), and speed in metres per second (m/s).",
+     "a": "International",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you ride your bicycle from your home to a nearby shop in your neighbourhood, you notice that it takes a certain ______ of clock time to cover that length of the road.",
+     "a": "duration",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate any missing variable (speed, distance, or time) from a given motion scenario, correctly perform unit conversions between kilometres per hour (km/h) and metres per second (m/s), and interpret how changes in distance or time affect speed.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you ride your bicycle from your home to a nearby shop in your ______, you notice that it takes a certain duration of clock time to cover that length of the road.",
+     "a": "neighbourhood",
+     "self_check": true
     }
    ]
   }

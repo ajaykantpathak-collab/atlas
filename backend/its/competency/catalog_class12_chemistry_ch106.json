@@ -315,7 +315,7 @@
    "title": "Thermodynamic Principles of Metallurgy: Ellingham Diagram",
    "section": "Thermodynamic Principles of Metallurgy",
    "definition": "The Ellingham diagram plots the variation of Gibbs free energy change (deltaG) with temperature for the formation of oxides (M + O2 -> MO2). It helps predict the feasibility of reducing a metal oxide by a given reducing agent. A reducing agent can reduce an oxide whose formation line lies above it; the line lower in the diagram represents a more stable oxide.",
-   "formula": "deltaG = deltaH - T*deltaS; Ellingham plot: deltaG vs T for M + O2 -> MO2",
+   "formula": "deltaG = deltaH - T*deltaS",
    "key_idea": "The Ellingham diagram shows that carbon (coke) can reduce most metal oxides at sufficiently high temperatures because the C->CO line has a negative slope (entropy increases). Carbon is a better reducing agent than CO at high T. Aluminium (Al2O3 line) can reduce many oxides (thermite process) since Al2O3 is very stable. The diagram predicts the temperature at which reduction becomes feasible (deltaG < 0).",
    "textbook_ref": "",
    "question_patterns": [
@@ -374,14 +374,23 @@
      "question": "Using the Ellingham diagram, explain why MgO cannot be reduced by carbon below 2000 K.",
      "type": "short_answer"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "deltaG = deltaH - T*deltaS",
+     "compute": "deltaG = deltaH - T*deltaS"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jech.6.7",
    "title": "Electrochemical Principles of Metallurgy",
    "section": "Electrochemical Principles of Metallurgy",
    "definition": "Electrochemical principles are used to extract highly reactive metals (like Na, K, Mg, Al) by electrolytic reduction of their molten salts/oxides, since chemical reduction is not feasible. The electrode potential (E) determines the ease of reduction; metals with more negative E require electrolytic reduction. For example, aluminium is extracted by electrolysis of alumina dissolved in molten cryolite (Na3AlF6).",
-   "formula": "deltaG = -nFE; Electrolysis: M(n+) + ne- -> M (at cathode)",
+   "formula": "deltaG = -nFE",
    "key_idea": "The feasibility of reducing a metal ion is governed by its electrode potential. Highly reactive metals (more negative E) cannot be reduced by common chemical reducing agents and need electrolysis. In electrolytic reduction, the metal ion is reduced at the cathode. Cryolite lowers the melting point of alumina and increases conductivity in aluminium extraction (Hall-Heroult process).",
    "textbook_ref": "",
    "question_patterns": [
@@ -435,7 +444,16 @@
      "question": "Write the electrode reactions for electrolysis of molten MgCl2.",
      "type": "short_answer"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "deltaG = -nFE",
+     "compute": "deltaG = -nFE"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jech.6.8",

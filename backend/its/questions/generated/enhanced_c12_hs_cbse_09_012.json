@@ -34,6 +34,31 @@
      "q": "Create a patient education handout (5 bullet points) explaining \"carbohydrate exchange system\" to a newly diagnosed diabetic with low literacy. Use analogies, avoid technical terms.",
      "a": "Good answer: \"Think of carb exchanges like currency notes — each 'note' = 15g carb. Your daily budget = X notes. Spend them across meals. 1 roti = 1 note, 1 katori rice = 2 notes, 1 apple = 1 note. Swap notes but don't overspend.\" Poor answer uses jargon like \"macronutrient distribution\" — reveals inability to translate clinical concepts for patient communication.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Therapeutic diet for diabetes mellitus is a ______ planned meal pattern that modifies macronutrient distribution (carbohydrates 50-55%, proteins 15-20%, fats 25-30% of total calories), emphasizes low glycemic index foods, distributes carbohydrates evenly across meals, and incorporates high-fiber sources to achieve glycemic control while meeting nutritional requirements for age, weight, activity level, and comorbid conditions.",
+     "a": "scientifically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your 55-year-old uncle just ______ with Type 2 diabetes — fasting glucose 145 mg/dL, HbA1c 8.2%, BMI 28, sedentary job.",
+     "a": "diagnosed",
+     "self_check": true
+    },
+    {
+     "q": "What is Therapeutic diet for diabetes mellitus? State the definition given in this lesson.",
+     "a": "Therapeutic diet for diabetes mellitus is a scientifically planned meal pattern that modifies macronutrient distribution (carbohydrates 50-55%, proteins 15-20%, fats 25-30% of total calories), emphasizes low glycemic index foods, distributes carbohydrates evenly across meals, and incorporates high-fiber sources to achieve glycemic.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Therapeutic diet for diabetes mellitus?",
+     "a": "Students believe \"diabetic diet = sugar-free diet\" and recommend artificial sweeteners freely.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can calculate individualized calorie and macronutrient targets for a diabetic patient, design a day's menu with carbohydrate distribution across 5-6 meals using exchange lists, and justify food selections based on glycemic index and fiber content.",
+     "self_check": true
     }
    ]
   }

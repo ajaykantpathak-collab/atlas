@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_06_001",
+   "title": "c12_app_cbse_06_001",
+   "questions": [
+    {
+     "q": "Define a discrete random variable and state the two necessary conditions for a valid probability distribution of a discrete random variable.",
+     "a": "A discrete random variable is a real-valued function defined on the sample space of a random experiment that takes distinct, countable values. The two conditions for a valid probability distribution are: (1) 0 ≤ P(X = xᵢ) ≤ 1 for every possible value xᵢ, and (2) Σ P(X = xᵢ) = 1 over all possible values. A wrong answer (e.g., saying \"probabilities sum to 100%\" without the ≤1 condition, or confusing continuous/discrete) reveals the student memorizes formulas but doesn't grasp the axiomatic foundation — they'll fail when asked to verify a given table or construct one from a non-standard experiment.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following as a probability distribution for a random variable X: X: 1, 2, 3; P(X): 0.3, 0.5, 0.3. They argue it's valid because \"all probabilities are positive and they add up to 1.1 which is close to 1\". Explain why this reasoning is incorrect and what the actual error is.",
+     "a": "The distribution is invalid because ΣP(X) = 0.3 + 0.5 + 0.3 = 1.1 ≠ 1. The condition ΣP(X) = 1 is exact, not approximate — it follows from the axiom that the probability of the entire sample space is 1, and the random variable partitions the sample space into mutually exclusive events. \"Close to 1\" violates Kolmogorov's axioms. A student who accepts 1.1 reveals they treat probability as a heuristic rather than a rigorous measure; they'll later struggle with finding unknown constants (k) in distributions where exact summation is required.",
+     "self_check": true
+    },
+    {
+     "q": "A bag contains 4 red and 6 blue balls. Two balls are drawn at random *without replacement*. Let X be the number of red balls drawn. Construct the probability distribution table for X.",
+     "a": "Sample space: 10 balls, draw 2 without replacement → total outcomes = ¹⁰C₂ = 45.\nX = 0 (0 red, 2 blue): P = ⁶C₂/¹⁰C₂ = 15/45 = 1/3\nX = 1 (1 red, 1 blue): P = (⁴C₁ × ⁶C₁)/¹⁰C₂ = 24/45 = 8/15\nX = 2 (2 red, 0 blue): P = ⁴C₂/¹⁰C₂ = 6/45 = 2/15\nDistribution table:\nX | 0 | 1 | 2\nP(X) | 1/3 | 8/15 | 2/15\nCheck: 1/3 + 8/15 + 2/15 = 5/15 + 8/15 + 2/15 = 15/15 = 1 ✓\nA wrong answer (e.g., using binomial ²Cₓ(0.4)ˣ(0.6)²⁻ˣ) reveals the student doesn't distinguish between with/without replacement — they apply binomial formula blindly. This is a classic board/JEE trap: \"without replacement\" means trials are NOT independent, so binomial does NOT apply.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the probability distributions of X = number of heads in 3 tosses of a fair coin, and Y = number of heads in 3 tosses of a biased coin with P(H) = 0.7. How do the shapes differ? What stays the same?",
+     "a": "Both distributions have the same support: {0, 1, 2, 3} — same possible values. Both sum to 1. But the probabilities differ: X ~ Binomial(3, 0.5) is symmetric (P(0)=P(3)=1/8, P(1)=P(2)=3/8), while Y ~ Binomial(3, 0.7) is right-skewed (P(0)=0.027, P(1)=0.189, P(2)=0.441, P(3)=0.343). The *structure* (support, ΣP=1) is invariant; the *shape* (symmetry, peak) depends on p. A student who says \"they're the same because both are 3 tosses\" confuses the random variable's range with its distribution — they miss that distribution = values + probabilities.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher gives a multiple-choice test with 5 questions, each having 4 options (only 1 correct). A student guesses randomly. The teacher claims: \"The probability distribution of the number of correct answers is uniform because each question is equally likely to be right or wrong.\" Evaluate this claim.",
+     "a": "The claim is false. The number of correct answers X ~ Binomial(5, 0.25). The distribution is NOT uniform: P(X=0) = (0.75)⁵ ≈ 0.237, P(X=1) = 5×0.25×(0.75)⁴ ≈ 0.396, P(X=2) ≈ 0.264, P(X=3) ≈ 0.088, P(X=4) ≈ 0.015, P(X=5) ≈ 0.001. The teacher incorrectly assumes \"equally likely questions\" implies \"equally likely total scores\" — this is the *equiprobability bias*. The random variable X aggregates 5 independent trials; its distribution is binomial, not uniform. A student who agrees reveals they don't understand that the distribution of a sum is not the same as the distribution of a single trial.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) involving a discrete random variable with exactly 4 possible values. Define the random variable, list its possible values, and describe how you would compute the probabilities (you don't need to calculate exact numbers, just explain the method).",
+     "a": "Scenario: A Delhi Metro train has 4 doors. During peak hour, a commuter randomly chooses a door to board. Let X = number of commuters (out of 3 observed) who choose Door 1. Possible values: {0, 1, 2, 3}. Assuming each commuter independently chooses any door with equal probability (1/4), X ~ Binomial(3, 1/4). Probabilities computed using P(X=k) = ³Cₖ(1/4)ᵏ(3/4)³⁻ᵏ. A poor answer would be: \"X = number of rotis eaten at dinner, values 0-3, probabilities guessed\" — this reveals the student cannot map real situations to proper random experiments with well-defined sample spaces and independence assumptions. Good answers specify the random experiment, independence, and computation method.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

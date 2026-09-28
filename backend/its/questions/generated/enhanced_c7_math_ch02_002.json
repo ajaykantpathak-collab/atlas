@@ -34,6 +34,26 @@
      "q": "Construct an arithmetic expression using the numbers $2, 3, 4,$ and $6$, along with at least three different operations (including one set of brackets), such that when evaluated correctly using BODMAS, the final result equals $20$.",
      "a": "An example of a correct expression is: $(6 + 4) \\times 2 - 3 \\times 0$ (or simpler: $(6 + 4) \\times 2 + 0$, or $4 \\times (6 - 3) + 8$). Let's check $(6 + 4) \\times 2$: Brackets give $10$, then $10 \\times 2 = 20$. A poor answer would be an expression where brackets are placed redundantly or evaluated incorrectly, yielding a different number due to ignoring BODMAS.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Evaluating an arithmetic expression requires computing its final numerical value by following a strict, universally agreed-upon sequence of operations known as BODMAS/PEMDAS (Brackets, Orders/Exponents, Division and ______ from left to right, Addition and Subtraction from left to right).",
+     "a": "Multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a local stationery shop in Delhi buying ______ and pens for school.",
+     "a": "notebooks",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can evaluate multi-step arithmetic expressions containing mixed operations and grouping symbols by correctly applying the order of operations (BODMAS), showing step-by-step reduction without calculation errors.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a local ______ shop in Delhi buying notebooks and pens for school.",
+     "a": "stationery",
+     "self_check": true
     }
    ]
   }

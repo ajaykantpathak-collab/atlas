@@ -34,6 +34,31 @@
      "q": "Create a real-world problem (Indian context, using ₹, kg, or litres) where the weighted arithmetic mean is the ONLY appropriate average, and the simple arithmetic mean would be misleading. Provide the data, weights, and both means, then explain why the weighted mean is correct.",
      "a": "Example: A farmer sells three crops: Wheat (500 kg at ₹22/kg), Rice (300 kg at ₹35/kg), Millet (200 kg at ₹18/kg). Simple mean price = ₹25/kg. Weighted mean (weights = quantities) = \\(\\frac{500\\times22 + 300\\times35 + 200\\times18}{1000} = \\frac{11000+10500+3600}{1000} = ₹25.1/\\text{kg}\\). The simple mean misleads because it treats each crop equally despite vastly different quantities sold. The weighted mean gives the true average revenue per kg. A poor answer uses trivial weights (e.g., 1,2,3) or contexts where simple mean suffices (equal importance), showing inability to identify situations requiring differential importance.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Weighted Arithmetic Mean is a measure of central tendency where each observation is assigned a weight reflecting its relative importance, calculated as the sum of the products of values and their ______ weights divided by the sum of the weights.",
+     "a": "corresponding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a Class 11 student ______ your final percentage: your unit tests (weight 20%), half-yearly (weight 30%), and final exam (weight 50%).",
+     "a": "calculating",
+     "self_check": true
+    },
+    {
+     "q": "What is Weighted Arithmetic Mean? State the definition given in this lesson.",
+     "a": "Weighted Arithmetic Mean is a measure of central tendency where each observation is assigned a weight reflecting its relative importance, calculated as the sum of the products of values and their corresponding weights divided by the sum of the weights.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Weighted Arithmetic Mean?",
+     "a": "Students often confuse weights with frequencies.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to compute the weighted arithmetic mean for discrete and continuous data, justify the choice of weights in a real-world scenario, and explain how the weighted mean differs from the simple arithmetic mean when weights are not uniform.",
+     "self_check": true
     }
    ]
   }

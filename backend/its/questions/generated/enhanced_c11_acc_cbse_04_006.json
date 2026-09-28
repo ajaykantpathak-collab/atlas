@@ -34,6 +34,31 @@
      "q": "Create a realistic scenario involving **three distinct types** of Journal Proper entries (from the seven categories) that could occur in a single week for a wholesale garment trader. Write the complete Journal Proper entries with narrations for all three.",
      "a": "**Scenario:** Week 1 of new financial year (April). \n1. **Opening Entry (Apr 1):** Bring forward last year's balances: Cash ₹50,000, Bank ₹2,00,000, Stock ₹3,00,000, Debtors ₹1,50,000, Creditors ₹1,00,000, Furniture ₹80,000, Capital ₹6,80,000.\n2. **Adjustment Entry (Apr 5):** Rent outstanding for March ₹15,000 not yet paid.\n3. **Other Entry (Apr 7):** Proprietor withdrew 10 shirts (cost ₹500 each, sale price ₹800) for personal use. Record at cost.\n\n**Entries:**\n1. Cash A/c Dr. 50,000; Bank A/c Dr. 2,00,000; Stock A/c Dr. 3,00,000; Debtors A/c Dr. 1,50,000; Furniture A/c Dr. 80,000; To Creditors A/c 1,00,000; To Capital A/c 6,80,000 (Opening balances brought forward)\n2. Rent A/c Dr. 15,000; To Outstanding Rent A/c 15,000 (Rent outstanding for March provided for)\n3. Drawings A/c Dr. 5,000; To Purchases A/c 5,000 (Goods withdrawn by proprietor for personal use at cost)\n\n**Criteria for good answer:** Correct classification of three distinct categories, proper debit/credit logic (especially Drawings debited, Purchases credited at cost), and narrations referencing the specific category. A poor answer uses same category twice, records withdrawal at sale price, or misses narration.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Journal Proper is a residual journal used to record ______ that cannot be entered in any of the special purpose books (Cash Book, Purchases Book, Sales Book, Purchases Return Book, Sales Return Book).",
+     "a": "transactions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the ______ for a growing furniture shop.",
+     "a": "accountant",
+     "self_check": true
+    },
+    {
+     "q": "What is Journal Proper? State the definition given in this lesson.",
+     "a": "Journal Proper is a residual journal used to record transactions that cannot be entered in any of the special purpose books (Cash Book, Purchases Book, Sales Book, Purchases Return Book, Sales Return Book).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Journal Proper?",
+     "a": "Students often think \"Journal Proper is only for rare/errors entries\" and miss that Opening Entries (every year) and Closing/Transfer Entries (every year) are mandatory, high-volume Journal Proper entries.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify a given transaction as either belonging to a special journal or Journal Proper, and then write the correct journal entry in Journal Proper format with proper narration, demonstrating understanding of why the transaction does not fit in any special journal.",
+     "self_check": true
     }
    ]
   }

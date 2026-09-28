@@ -112,7 +112,16 @@
      "explain": "The difference is the length, safe even when the zero is missing.",
      "compute": "length = end_mark - start_mark"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "length = end_reading - start_reading",
+     "compute": "length = end_reading - start_reading"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fecu.5.4",

@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using Ames test principle to determine if a newly synthesized food additive is mutagenic (and thus potentially carcinogenic). Specify the bacterial strain, the metabolic activation system, and the endpoint measured.",
      "a": "Use Salmonella typhimurium his⁻ strain (cannot synthesize histidine). Expose bacteria to additive ± rat liver S9 fraction (provides mammalian metabolic activation to convert pro-mutagens to mutagens). Plate on histidine-free medium. Count revertant his⁺ colonies. Significant increase over spontaneous revertants indicates mutagenicity. A poor answer (omitting S9 fraction or using wrong strain) shows lack of understanding that many carcinogens are pro-carcinogens requiring metabolic activation, and that Ames test detects reverse mutation, not forward mutation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cancer is a group of diseases ______ by uncontrolled and abnormal cell division resulting from genetic mutations that disrupt normal cell cycle regulation, leading to the formation of malignant tumors (in solid cancers) or abnormal cell proliferation in blood/lymph (in hematological cancers) that can invade surrounding tissues and metastasize to distant sites.",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: a family member or neighbor diagnosed with \"cancer\" — the word carries fear, but biologically it means cells have lost their \"stop ______\" signals.",
+     "a": "dividing",
+     "self_check": true
+    },
+    {
+     "q": "What is Cancer? State the definition given in this lesson.",
+     "a": "Cancer is a group of diseases characterized by uncontrolled and abnormal cell division resulting from genetic mutations that disrupt normal cell cycle regulation, leading to the formation of malignant tumors (in solid cancers) or abnormal cell proliferation in blood/lymph (in hematological cancers) that can invade surrounding tissues and.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Cancer?",
+     "a": "Students think \"cancer is a single disease\" and \"all cancers are caused by viruses\" — they conflate infectious etiology (e.g., HPV, HBV) with the majority of cancers that are non-communicable and driven by somatic mutations from environmental/lifestyle factors.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can classify a given cancer case into carcinoma, sarcoma, leukemia, or lymphoma based on tissue of origin, and explain how specific carcinogens (physical, chemical, biological) or genetic alterations (oncogene activation, tumor suppressor inactivation) initiate carcinogenesis.",
+     "self_check": true
     }
    ]
   }

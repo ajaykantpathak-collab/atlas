@@ -34,6 +34,16 @@
      "q": "Create a real-life problem (Indian context) where you need to find the circumference of a circle, but the given measurement is the area of the circle. Write the full problem statement and outline the steps to solve it without doing the final calculation.",
      "a": "Example problem: \"A circular garden has an area of 616 m². Find the cost of fencing it at ₹50 per metre. (Use \\(\\pi = 22/7\\))\"\nSteps: 1. Use area formula \\(A = \\pi r^2\\) to find \\(r\\). 2. Substitute \\(A = 616\\), \\(\\pi = 22/7\\), solve for \\(r\\). 3. Use \\(r\\) to find circumference \\(C = 2\\pi r\\). 4. Multiply \\(C\\) by cost per metre (₹50) to get total cost. A poor answer would skip the area-to-radius step or confuse area and circumference formulas, showing inability to connect two circle concepts.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your father fence a ______ garden bed with a radius of 7 metres.",
+     "a": "circular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your father fence a circular garden bed with a radius of ______ metres.",
+     "a": "7",
+     "self_check": true
     }
    ]
   }

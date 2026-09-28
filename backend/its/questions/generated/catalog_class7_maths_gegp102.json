@@ -4,15 +4,8 @@
   {
    "id": "gegp.2.1",
    "title": "Arithmetic Expressions and Their Values",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute the given values and simplify",
-     "explain": "substitute the given values and simplify: val = 3 * 6 + 4 gives 22",
-     "compute": "val = 3 * 6 + 4"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 4 when x = 6.",
@@ -50,6 +43,8 @@
    "id": "gegp.2.2",
    "title": "Order of Operations",
    "converted_to_compute": false,
+   "formula": "val = a + b * c",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 3 when x = 4.",
@@ -86,15 +81,8 @@
   {
    "id": "gegp.2.3",
    "title": "Brackets Change Everything",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute the given values and simplify",
-     "explain": "substitute the given values and simplify: val = 3 * 3 + 3 gives 12",
-     "compute": "val = 3 * 3 + 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 3 when x = 3.",
@@ -131,15 +119,8 @@
   {
    "id": "gegp.2.4",
    "title": "Expressions from Everyday Situations",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute the given values and simplify",
-     "explain": "substitute the given values and simplify: val = 3 * 6 + 8 gives 26",
-     "compute": "val = 3 * 6 + 8"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 8 when x = 6.",

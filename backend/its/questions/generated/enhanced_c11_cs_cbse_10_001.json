@@ -34,6 +34,26 @@
      "q": "Design a minimal data structure to implement an \"undo\" feature in a text editor that supports only two operations: type(character) and undo(). Specify the ADT, the underlying concrete structure, and the exact algorithm for each operation in pseudocode.",
      "a": "ADT: Stack (LIFO). Concrete: Dynamic array (Python list) or singly linked list. Algorithm: type(c): push(c) onto stack. undo(): if stack not empty: pop() and remove last character from document; else: ignore. A good answer explicitly states LIFO property matches \"last action undone first\", names push/pop, and handles empty-stack edge case. A poor answer uses a queue (wrong order), omits the empty check, or suggests storing entire document snapshots (space inefficient) revealing misunderstanding of incremental state capture.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A data structure is a specialized format for organizing, processing, retrieving, and storing data in computer memory so that it can be accessed and modified efficiently; it defines the logical ______ between data elements and the operations permitted on them.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a music playlist app: you need to add songs, play the most ______ added song first (like a stack), or play songs in the order they were added (like a queue).",
+     "a": "recently",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify a given real-world scenario (e.g., browser history, printer queue, file system) as requiring a linear or non-linear data structure and justify the choice based on access pattern (sequential vs hierarchical) and operation frequency (insertion/deletion at ends vs middle).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a music playlist app: you need to add songs, play the most recently added song first (like a stack), or play songs in the order they were added (like a queue).",
+     "a": "building",
+     "self_check": true
     }
    ]
   }

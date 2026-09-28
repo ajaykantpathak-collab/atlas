@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_09_002",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_09_002",
+   "title": "c11_app_cbse_09_002",
+   "questions": [
+    {
+     "q": "State the two necessary and sufficient conditions for a process to be classified as a random experiment.",
+     "a": "A process is a random experiment if and only if: (1) it has more than one possible outcome, and (2) the outcome cannot be predicted in advance. A wrong answer (e.g., \"it involves chance\" or \"it can be repeated\") reveals the student is confusing colloquial randomness with the formal definition — they miss the dual requirement of multiplicity and unpredictability, which is essential for distinguishing deterministic processes (like calculating 2+2) from random ones.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Tossing a coin once and tossing a coin three times are the same random experiment because both involve a coin.\" Explain why this is incorrect, using the concept of sample space.",
+     "a": "The two experiments are different because their sample spaces differ fundamentally: tossing once gives S = {H, T} (2 outcomes), while tossing three times with sequence observed gives S = {HHH, HHT, HTH, THH, HTT, THT, TTH, TTT} (8 outcomes). A wrong answer shows the student thinks the *physical apparatus* defines the experiment, not the *procedure and outcome definition*. This misconception blocks understanding of how sample space construction depends on experimental design — a core Class 11 concept.",
+     "self_check": true
+    },
+    {
+     "q": "A bag contains 4 red balls (R1, R2, R3, R4) and 3 blue balls (B1, B2, B3). Two balls are drawn one after the other *without replacement*. Write the sample space if the outcome is defined as the *ordered pair of colors* (e.g., (Red, Blue)).",
+     "a": "S = {(R,R), (R,B), (B,R), (B,B)}. Steps: (1) Identify possible colors on first draw: R or B. (2) For each, identify possible colors on second draw without replacement: if first R, second can be R or B; if first B, second can be R or B. (3) Form ordered pairs. A wrong answer like {RR, RB, BB} (missing BR) or {R1R2, R1R3, ...} (listing balls instead of colors) reveals confusion between *outcome definition* (colors vs. labeled balls) and *order significance* — both critical for correct sample space construction in later problems.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sample spaces for these two experiments:  \nExperiment A: Roll a die and observe the number.  \nExperiment B: Roll a die and observe whether the number is prime or composite.  \nAre they the same random experiment? Justify your answer using the definition of sample space.",
+     "a": "No, they are not the same random experiment. Experiment A has sample space S_A = {1,2,3,4,5,6} (6 outcomes). Experiment B has sample space S_B = {Prime, Composite} (2 outcomes; note 1 is neither, so it may need a third category — but as defined, it's ambiguous). The physical action (rolling a die) is identical, but the *outcome definition* differs, so the sample spaces differ. A wrong answer (\"yes, same experiment\") shows the student conflates the physical trial with the random experiment — a senior-secondary error that undermines the formalism needed for conditional probability and Bayes' theorem later.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher claims: \"The sample space for 'number of goals in a soccer match' is {0,1,2,3} because no team scores more than 3 goals.\" Evaluate this claim. Is the sample space correctly specified? Why or why not?",
+     "a": "The claim is incorrect. The sample space for \"number of goals in a soccer match\" must be {0,1,2,3,...} — the set of all non-negative integers — because there is no theoretical upper bound on goals (even if 4+ is rare). The teacher imposed a practical limit, but sample space is defined by *possible* outcomes in principle, not observed frequency. A wrong defense (\"but 4 goals never happens\") reveals confusion between *sample space* (theoretical universal set) and *probability distribution* (which assigns near-zero probability to high values). This distinction is vital for Theorem of Total Probability and Bayes' theorem where infinite sample spaces appear.",
+     "self_check": true
+    },
+    {
+     "q": "Design a random experiment from daily life (not coins, dice, or cards) whose sample space is countably infinite. Define the experiment clearly, state the outcome, and write the sample space as a set.",
+     "a": "Example: \"Observing the number of customers entering a tea stall in one hour.\" Outcome: number of customers. Sample space: S = {0, 1, 2, 3, ...}. A good answer specifies a process with no fixed upper bound on outcomes. A poor answer (e.g., \"number of heads in 10 coin tosses\") gives a finite sample space {0,1,...,10}, showing the student doesn't grasp *countably infinite* vs. *finite* sample spaces — a prerequisite for understanding geometric distributions and Poisson processes in higher studies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

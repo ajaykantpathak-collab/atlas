@@ -34,6 +34,21 @@
      "q": "Design a simple home-based reasoning test to prove that table sugar ($C_{12}H_{22}O_{11}$) is a compound and not an element. Describe what you would observe.",
      "a": "A good answer would suggest heating white sugar strongly in a test tube; it decomposes into black carbon residue and water droplets on the container walls, proving it breaks down into multiple simpler substances. A poor answer relies merely on appearance or fails to show how compounds decompose into constituent elements.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A compound is a pure substance composed of two or more different elements ______ combined in a fixed proportion by mass.",
+     "a": "chemically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you dissolve table salt into a glass of drinking water in your kitchen, you are mixing two different chemical ______.",
+     "a": "substances",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can distinguish between elements and compounds based on chemical composition and properties, and can identify the constituent elements of common compounds such as water, salt, and sugar.",
+     "self_check": true
     }
    ]
   }

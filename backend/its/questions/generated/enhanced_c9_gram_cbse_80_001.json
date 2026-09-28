@@ -1,0 +1,51 @@
+{
+ "catalog": "enhanced_c9_gram_cbse_80_001",
+ "concepts": [
+  {
+   "id": "enh:c9_gram_cbse_80_001",
+   "title": "c9_gram_cbse_80_001",
+   "questions": [
+    {
+     "q": "'She ___ (teach) here for ten years.'",
+     "a": "'has been teaching' / 'has taught' — 'for' demands the perfect family. A wrong answer 'is teaching' anchors to present and ignores the duration marker entirely.",
+     "self_check": true
+    },
+    {
+     "q": "'I ___ (not understand) this chapter — please explain again.'",
+     "a": "'do not understand' — stative verb, no continuous. A wrong answer 'am not understanding' is the stative-ing error that markers cannot excuse.",
+     "self_check": true
+    },
+    {
+     "q": "'The train had left before we reached' — which event is earlier, and which tense marks it?",
+     "a": "The leaving is earlier, marked by past perfect 'had left'. A wrong answer saying 'reached' is earlier shows the student reads clauses in order rather than using 'before' to order events.",
+     "self_check": true
+    },
+    {
+     "q": "CBSE class 9 tests tense through gap-fills and editing, not definitions: the examiners' tools are ______ (since, for, by the time, while, already, yet), stative verbs (know, believe, own — no -ing), and two-event ordering (earlier past = past perfect).",
+     "a": "time-markers",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: CBSE class 9 tests tense through gap-fills and editing, not ______: the examiners' tools are time-markers (since, for, by the time, while, already, yet), stative verbs (know, believe, own — no -ing), and two-event ordering (earlier past = past perfect).",
+     "a": "definitions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The exam pattern: every tense item hides a marker. 'I ___ here since 2019' — 'since' demands perfect. 'While she ___ , the phone rang' — 'while' demands ______ background. 'The train ___ before we reached' — 'before' demands past perfect on the earlier event.",
+     "a": "continuous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The exam pattern: every tense item hides a marker. 'I ___ here since ______' — 'since' demands perfect. 'While she ___ , the phone rang' — 'while' demands continuous background. 'The train ___ before we reached' — 'before' demands past perfect on the earlier event.",
+     "a": "2019",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student selects correct tense forms in gap-fill items by reading markers first, avoids stative-continuous errors, and orders two past events with past perfect.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

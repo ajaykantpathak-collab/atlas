@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a 1.5 V cell, a variable resistor (0–10 Ω), an ammeter, and a voltmeter to determine the EMF and internal resistance of the cell. Draw the circuit diagram, list the measurements you would take, and explain how you would plot the data to find ε and r. What precaution must you take to avoid heating the cell and changing its internal resistance during the experiment?",
      "a": "Circuit: Cell in series with variable resistor (rheostat), ammeter, and voltmeter across the cell terminals. Procedure: Vary the rheostat to get at least 5 pairs of (I, V) readings from near open-circuit (high R, low I) to near short-circuit (low R, high I). Plot V (y-axis) vs I (x-axis). The graph is a straight line V = ε – Ir. Y-intercept = ε, slope = –r. Precaution: Use a rheostat with high enough resistance to keep current low; take readings quickly and allow the cell to cool between readings; avoid sustained short-circuit conditions. A poor answer omits the graph method, suggests measuring only one data point, or ignores heating effects.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ force (EMF) of a cell is the maximum potential difference between its terminals when no current is drawn (open circuit), measured in volts (V).",
+     "a": "Electromotive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a torch that dims as its batteries age — the bulb receives less voltage even though the battery's \"rating\" (EMF) hasn't changed.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What is Electromotive force (EMF) of a cell? State the definition given in this lesson.",
+     "a": "Electromotive force (EMF) of a cell is the maximum potential difference between its terminals when no current is drawn (open circuit), measured in volts (V).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then connect a known resistor (e.g., ______ Ω) across it and measure the terminal voltage V and current I.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Electromotive force (EMF) of a cell?",
+     "a": "Students often believe that the terminal voltage of a cell is always equal to its EMF, ignoring the internal voltage drop Ir.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish between EMF and terminal voltage in a circuit with a real cell, (2) calculate the current, terminal voltage, or internal resistance given any three of ε, I, R, r, and (3) derive and apply the equivalent EMF and internal resistance for cells in series and parallel combinations.",
+     "self_check": true
     }
    ]
   }

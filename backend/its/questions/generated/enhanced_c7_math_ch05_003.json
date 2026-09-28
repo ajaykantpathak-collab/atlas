@@ -34,6 +34,21 @@
      "q": "Construct a word problem scenario involving a scissor blade opening up at an angle of $72^\\circ$, where a student must use vertically opposite angles to find the measurement of the angle directly across from it, including an algebraic twist.",
      "a": "Expected answer format: A scenario where a pair of open scissor blades forms an intersection point. One blade angle is expressed as $(5x + 2)^\\circ$ and the vertically opposite angle is given as $37^\\circ$, requiring the student to set $5x + 2 = 37$ and solve for $x$. A poor answer creates adjacent angles instead of opposite ones or sets them up to equal $180^\\circ$ incorrectly.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When two straight lines intersect each other, the pairs of opposite angles formed at the point of ______ are called vertically opposite angles, and they are always equal in measure.",
+     "a": "intersection",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two wooden sticks crossing each other at a school ______ site, forming an 'X' shape where the ropes cross.",
+     "a": "construction",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify vertically opposite angle pairs from any intersecting line diagram, set up and solve algebraic equations based on their equality property, and calculate unknown angle measures in multi-line geometry problems.",
+     "self_check": true
     }
    ]
   }

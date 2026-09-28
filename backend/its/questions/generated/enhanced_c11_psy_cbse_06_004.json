@@ -34,6 +34,31 @@
      "q": "Create a novel, real-life scenario (Indian context) that illustrates **all three** of Tulving's long-term memory systems (episodic, semantic, procedural) interacting simultaneously. Label each component in your scenario.",
      "a": "**Scenario:** *Priya, a Class 11 student, is taking her practical exam in Biology. She picks up the microscope (procedural: skilled motor sequence of focusing, adjusting diaphragm), recalls the definition of \"plasmolysis\" she memorized last week (semantic: general knowledge, no personal context), and suddenly remembers the specific afternoon in the lab when her teacher used a salt solution on onion peel and she felt excited seeing the cell membrane pull away (episodic: personal, dated, emotional).*  \n**Criteria for a good answer:** The scenario must be a single coherent episode, not three separate anecdotes. Each label must correctly match the defining features (procedural = skill, semantic = fact, episodic = autobiographical event with spatiotemporal context). A poor answer lists three unrelated examples (e.g., \"I know how to cook rice [procedural], I know Delhi is the capital [semantic], I remember my birthday [episodic]\")—this shows the student sees them as independent storage bins rather than interacting systems in a single cognitive act.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Long-term memory (LTM) is a relatively permanent memory system with virtually unlimited capacity that stores information encoded ______ (by meaning).",
+     "a": "semantically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are teaching your younger cousin to ride a ______.",
+     "a": "bicycle",
+     "self_check": true
+    },
+    {
+     "q": "What is Long-term memory (LTM)? State the definition given in this lesson.",
+     "a": "Long-term memory (LTM) is a relatively permanent memory system with virtually unlimited capacity that stores information encoded semantically (by meaning).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Long-term memory (LTM)?",
+     "a": "Misconception: \"Declarative memory is 'knowing that' and procedural memory is 'knowing how'—so if I can explain *how* to do something, it's declarative.\" Why it's wrong: This confuses *declarative knowledge about a procedure* (semantic memory) with *procedural memory itself*.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can accurately classify a given real-life memory example as declarative (episodic or semantic) or procedural, justify the classification using the defining characteristics (verbalizability, conscious awareness, content type), and explain why procedural memories are resistant to verbal description while declarative memories.",
+     "self_check": true
     }
    ]
   }

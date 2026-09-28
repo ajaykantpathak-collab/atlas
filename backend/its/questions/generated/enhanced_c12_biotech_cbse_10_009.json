@@ -34,6 +34,21 @@
      "q": "Propose a novel PCR-based diagnostic strategy for early detection of antimicrobial resistance (AMR) in *Staphylococcus aureus* from blood culture. Include: target genes, PCR format, turnaround time advantage over culture-based AST.",
      "a": "Target: *mecA* (methicillin resistance), *blaZ* (penicillinase), *erm* genes (macrolide resistance). Format: Multiplex qPCR with hydrolysis probes (FAM/HEX/Cy5) on DNA extracted directly from positive blood culture broth (skip subculture). Turnaround: 3-4 hours vs 24-48h for conventional AST. Good answer includes: internal control (e.g., *nuc* gene for *S. aureus* ID), resistance gene panel covering major classes, validation against phenotypic AST. Poor answer (single target, conventional PCR, no workflow integration) shows inability to translate concept into clinical solution.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Molecular diagnostics using PCR (Polymerase Chain Reaction) is a technique that amplifies specific DNA/RNA sequences from pathogens or genetic mutations in patient samples to detect diseases with high sensitivity and specificity, enabling early diagnosis, ______ of pathogen load, and identification of genetic variants.",
+     "a": "quantification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a patient with persistent fever — the doctor suspects ______ but sputum microscopy is negative.",
+     "a": "tuberculosis",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Design a diagnostic PCR strategy for a given disease scenario by selecting appropriate primer targets, PCR variant (conventional, RT-PCR, qPCR), and controls; (2) Interpret amplification curves and Ct values from real-time PCR data to determine positive/negative status and estimate initial template.",
+     "self_check": true
     }
    ]
   }

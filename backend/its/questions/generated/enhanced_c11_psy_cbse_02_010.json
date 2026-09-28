@@ -34,6 +34,26 @@
      "q": "Design a psychological study where a one-tailed t-test would be more appropriate than a two-tailed test. Justify your choice of tail.",
      "a": "Example: Testing if a new depression therapy *reduces* symptoms compared to standard care. H₀: μ_new ≥ μ_standard, H₁: μ_new < μ_standard (one-tailed, left-tailed). Justification: Theory and prior research strongly predict direction (reduction only); a increase would be theoretically implausible and practically equivalent to no effect. Using two-tailed would waste power (α/2 each tail) when only one direction is meaningful. Poor answers use one-tailed without strong directional justification (\"to get significant results\").",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Inferential statistics involves using sample data to make ______ about a population through probability-based hypothesis testing, where a null hypothesis (H₀) of no effect/difference is tested against an alternative hypothesis (H₁) using test statistics (e.g., t-test, chi-square) to determine if observed results are statistically significant at a predetermined α-level (typically 0.05).",
+     "a": "generalizations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you conducted an ______ comparing memory recall between students who studied with music (Group A, n=30) and without music (Group B, n=30).",
+     "a": "experiment",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Inferential statistics involves using sample data to make generalizations about a population through probability-based hypothesis testing, where a null hypothesis (H₀) of no effect/difference is tested against an alternative hypothesis (H₁) using test statistics (e.g., t-test, chi-square) to determine if observed results are statistically significant at a predetermined α-level (typically ______).",
+     "a": "0.05",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Formulate null and alternative hypotheses for a given psychological research scenario, (2) Select the appropriate inferential test (t-test for mean comparison, chi-square for frequency comparison), (3) Interpret p-values relative to α=0.05 to make correct reject/fail-to-reject decisions, and (4) Explain.",
+     "self_check": true
     }
    ]
   }

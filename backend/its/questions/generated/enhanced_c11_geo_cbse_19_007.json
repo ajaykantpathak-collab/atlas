@@ -34,6 +34,31 @@
      "q": "Design a state-level energy mix plan for Rajasthan that maximizes non-conventional potential. Specify which sources, their locations within the state, and the geographical reasoning.",
      "a": "Good answer: Solar PV in Jodhpur/Jaisalmer (high insolation, waste land), wind in Jaisalmer/Barmer (western margin, consistent winds), biomass in eastern districts (agricultural residue). No tidal/geothermal. Reasoning links each to Rajasthan's geography: arid climate, Thar Desert, wind corridors, crop pattern. Poor answer lists sources without locational justification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Non-conventional energy sources are renewable, eco-friendly alternatives to fossil fuels that harness natural processes such as solar radiation, wind kinetic energy, tidal movements, geothermal heat, and nuclear fission to generate electricity or thermal energy, with minimal ______ impact and sustainable availability.",
+     "a": "environmental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by observing solar panels on rooftops in your neighbourhood or wind ______ along the highway to Tamil Nadu.",
+     "a": "turbines",
+     "self_check": true
+    },
+    {
+     "q": "What is Non-conventional energy sources? State the definition given in this lesson.",
+     "a": "Non-conventional energy sources are renewable, eco-friendly alternatives to fossil fuels that harness natural processes such as solar radiation, wind kinetic energy, tidal movements, geothermal heat, and nuclear fission to generate electricity or thermal energy, with minimal environmental impact and sustainable availability.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Non-conventional energy sources?",
+     "a": "Students think \"non-conventional energy\" means \"unlimited and free everywhere.\" They ignore that each source has strict geographical prerequisites: solar needs high insolation and land, wind needs specific wind corridors, tidal needs high tidal range (>5m), geothermal needs tectonic activity, nuclear needs uranium and water for cooling.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the working principle, geographical distribution, advantages, and limitations of each non-conventional energy source (solar, wind, tidal, geothermal, nuclear) in the Indian context, and can identify suitable regions for their development on a map of India.",
+     "self_check": true
     }
    ]
   }

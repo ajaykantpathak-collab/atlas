@@ -42,9 +42,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 6 ** (3 + 3)"
-   ]
+   "steps_chain": []
   },
   {
    "id": "jemh.2.2",
@@ -87,9 +85,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 2 * 3 * 3 + 2 * 3 + 6"
-   ]
+   "steps_chain": []
   },
   {
    "id": "jemh.2.3",
@@ -136,10 +132,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "rate = 1 / 4 + 1 / 6",
-    "days = 1 / rate"
-   ]
+   "steps_chain": []
   },
   {
    "id": "jemh.2.5",
@@ -182,9 +175,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 2 * 3 * 3 + 2 * 3 + 9"
-   ]
+   "steps_chain": []
   },
   {
    "id": "jemh.2.6",
@@ -227,9 +218,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 2 * 5 * 5 + 5 * 5 + 7"
-   ]
+   "steps_chain": []
   },
   {
    "id": "jemh.2.7",
@@ -272,9 +261,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 4 * 2 * 2 + 1 * 2 + 4"
-   ]
+   "steps_chain": []
   },
   {
    "id": "jemh.2.9",
@@ -317,9 +304,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 4 * 5 * 5 + 6 * 5 + 6"
-   ]
+   "steps_chain": []
   },
   {
    "id": "jemh.2.10",
@@ -362,9 +347,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 2 * 4 * 4 + 1 * 4 + 5"
-   ]
+   "steps_chain": []
   }
  ]
 }

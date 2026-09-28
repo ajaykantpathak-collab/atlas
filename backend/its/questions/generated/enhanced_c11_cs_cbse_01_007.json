@@ -34,6 +34,36 @@
      "q": "Design a backup strategy for a school computer lab with 30 PCs, each having 256 GB SSD. The lab generates 50 GB of new student project data per week that must be retained for 3 years. Specify: (a) primary backup medium, (b) secondary (off-site) medium, (c) backup frequency, and (d) one reason to avoid using only pen drives for this task.",
      "a": "(a) Primary: External HDD array (e.g., 4 TB USB HDD) — high capacity, low cost/GB, fast enough for weekly incremental backups. (b) Off-site: Cloud storage (or rotated HDD taken off-site) — protects against fire/theft. (c) Frequency: Weekly full + daily incremental (or weekly full if daily is impractical). (d) Pen drives: Too small capacity (would need dozens), easy to lose, no central management, and flash wear-out from frequent writes. A poor answer that chooses pen drives for primary backup shows the student ignores scalability, management overhead, and endurance limits of flash memory for institutional backup.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Secondary storage devices are non-volatile, high-capacity auxiliary memory units used to ______ store data, programs, and operating system files for future use; they cannot be accessed directly by the CPU and require data to be first transferred to primary memory (RAM) for processing.",
+     "a": "permanently",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a 2 GB video ______ file on your laptop.",
+     "a": "project",
+     "self_check": true
+    },
+    {
+     "q": "What is Secondary storage devices? State the definition given in this lesson.",
+     "a": "Secondary storage devices are non-volatile, high-capacity auxiliary memory units used to permanently store data, programs, and operating system files for future use; they cannot be accessed directly by the CPU and require data to be first transferred to primary memory (RAM) for processing.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a ______ GB video project file on your laptop.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Secondary storage devices?",
+     "a": "Students often believe that “SSD is just a faster pen drive” and that both are interchangeable for all purposes.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify given storage devices (HDD, SSD, CD, DVD, Pen Drive) by technology (magnetic, optical, solid-state), volatility, access method (sequential vs random), typical capacity range, and speed; and can justify the appropriate device choice for a given real-world scenario (e.g., OS installation, large media.",
+     "self_check": true
     }
    ]
   }

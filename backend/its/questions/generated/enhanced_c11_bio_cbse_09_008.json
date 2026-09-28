@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using baker's yeast (Saccharomyces cerevisiae) to demonstrate that living cells maintain a non-equilibrium steady state. Specify: (i) measurable parameters, (ii) control vs experimental setup, (iii) expected data pattern proving steady state, (iv) how you would distinguish steady state from equilibrium.",
      "a": "(i) Measure: dissolved O₂, CO₂ evolution rate, ethanol production, cell density (OD₆₀₀), and extracellular glucose — every 30 min for 24h in a sealed, temperature-controlled bioreactor with defined medium. (ii) Control: live yeast culture; Experimental: identical medium + yeast killed by autoclaving (or 0.1% sodium azide). (iii) Live culture shows: exponential then linear CO₂/ethanol production, glucose decline, biomass increase — **constant specific rates** (qCO₂, qglucose) during mid-exponential phase = steady state. Dead control shows no change after initial abiotic equilibrium. (iv) Steady state proof: constant metabolite concentrations **with** continuous flux (glucose → ethanol + CO₂ + biomass) requiring constant energy dissipation. Equilibrium proof: dead control reaches final state with **zero net flux**, maximum entropy, no further change without external perturbation. A poor answer (e.g., \"measure CO₂ bubbles\") misses the need for constant-rate quantitative flux measurements and the critical dead control to distinguish thermodynamic equilibrium from biological steady state.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The living state is a non-equilibrium steady state ______ by constant metabolic turnover where biomolecules are continuously synthesized and degraded, maintained by energy input from catabolic pathways.",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a germinating moong bean sprout on your kitchen counter: it grows visibly each day without any external energy source except water, yet it ______ complex internal order.",
+     "a": "maintains",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain why a living cell is not at thermodynamic equilibrium, distinguish between anabolism and catabolism with examples, describe how ATP couples exergonic and endergonic reactions, and predict the consequence of blocking a specific metabolic pathway on cellular steady state.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ moong bean sprout on your kitchen counter: it grows visibly each day without any external energy source except water, yet it maintains complex internal order.",
+     "a": "germinating",
+     "self_check": true
     }
    ]
   }

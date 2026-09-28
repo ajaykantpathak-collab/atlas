@@ -1,0 +1,650 @@
+{
+ "catalog": "catalog_class11_biology_ch118.json",
+ "concepts": [
+  {
+   "id": "kebo.18.2.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "somatic_division = 4",
+      "autonomic_division = 46",
+      "PNS = somatic_division + autonomic_division"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "somatic_division = 65",
+      "autonomic_division = 50",
+      "PNS = somatic_division + autonomic_division"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "somatic_division = 26",
+      "autonomic_division = 90",
+      "PNS = somatic_division + autonomic_division"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "somatic_division = 35",
+      "autonomic_division = 94",
+      "PNS = somatic_division + autonomic_division"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "somatic_division = 33",
+      "autonomic_division = 64",
+      "PNS = somatic_division + autonomic_division"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "somatic_division = 61",
+      "autonomic_division = 44",
+      "PNS = somatic_division + autonomic_division"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "PNS = somatic_division + autonomic_division"
+   ]
+  },
+  {
+   "id": "kebo.18.2.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "afferent_pathways = 84",
+      "efferent_pathways = 84",
+      "total_pathways = afferent_pathways + efferent_pathways"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "afferent_pathways = 69",
+      "efferent_pathways = 112",
+      "total_pathways = afferent_pathways + efferent_pathways"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "afferent_pathways = 48",
+      "efferent_pathways = 30",
+      "total_pathways = afferent_pathways + efferent_pathways"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "afferent_pathways = 84",
+      "efferent_pathways = 86",
+      "total_pathways = afferent_pathways + efferent_pathways"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "afferent_pathways = 95",
+      "efferent_pathways = 57",
+      "total_pathways = afferent_pathways + efferent_pathways"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "afferent_pathways = 43",
+      "efferent_pathways = 27",
+      "total_pathways = afferent_pathways + efferent_pathways"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_pathways = afferent_pathways + efferent_pathways"
+   ]
+  },
+  {
+   "id": "kebo.18.3.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "dendrite_count = 439",
+      "axon_count = 7.5",
+      "neuron_processes = dendrite_count + axon_count"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "dendrite_count = 499",
+      "axon_count = 15.4",
+      "neuron_processes = dendrite_count + axon_count"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "dendrite_count = 57",
+      "axon_count = 17.8",
+      "neuron_processes = dendrite_count + axon_count"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "dendrite_count = 446",
+      "axon_count = 0.7",
+      "neuron_processes = dendrite_count + axon_count"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "dendrite_count = 469",
+      "axon_count = 10.4",
+      "neuron_processes = dendrite_count + axon_count"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "dendrite_count = 141",
+      "axon_count = 4.3",
+      "neuron_processes = dendrite_count + axon_count"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "neuron_processes = dendrite_count + axon_count"
+   ]
+  },
+  {
+   "id": "kebo.18.3.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "Na_out = 21",
+      "K_in = 46",
+      "net_cation_export_rate = (3 * Na_out) - (2 * K_in)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "Na_out = 94",
+      "K_in = 92",
+      "net_cation_export_rate = (3 * Na_out) - (2 * K_in)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "Na_out = 10.1",
+      "K_in = 53",
+      "net_cation_export_rate = (3 * Na_out) - (2 * K_in)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "Na_out = 25",
+      "K_in = 79",
+      "net_cation_export_rate = (3 * Na_out) - (2 * K_in)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "Na_out = 51",
+      "K_in = 44",
+      "net_cation_export_rate = (3 * Na_out) - (2 * K_in)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "Na_out = 96",
+      "K_in = 86",
+      "net_cation_export_rate = (3 * Na_out) - (2 * K_in)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "net_cation_export_rate = (3 * Na_out) - (2 * K_in)"
+   ]
+  },
+  {
+   "id": "kebo.18.3.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "cycles = 22",
+      "net_charge = cycles * (3 - 2)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "cycles = 90",
+      "net_charge = cycles * (3 - 2)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "cycles = 62",
+      "net_charge = cycles * (3 - 2)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "cycles = 75",
+      "net_charge = cycles * (3 - 2)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "cycles = 35",
+      "net_charge = cycles * (3 - 2)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "cycles = 15.7",
+      "net_charge = cycles * (3 - 2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "net_charge = cycles * (3 - 2)"
+   ]
+  },
+  {
+   "id": "kebo.18.3.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "depolarisation_phase = 17.3",
+      "repolarisation_phase = 5.2",
+      "action_potential = depolarisation_phase + repolarisation_phase"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "depolarisation_phase = 19.2",
+      "repolarisation_phase = 0.5",
+      "action_potential = depolarisation_phase + repolarisation_phase"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "depolarisation_phase = 19.5",
+      "repolarisation_phase = 11.8",
+      "action_potential = depolarisation_phase + repolarisation_phase"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "depolarisation_phase = 7.4",
+      "repolarisation_phase = 1",
+      "action_potential = depolarisation_phase + repolarisation_phase"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "depolarisation_phase = 5.8",
+      "repolarisation_phase = 6.7",
+      "action_potential = depolarisation_phase + repolarisation_phase"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "depolarisation_phase = 19.2",
+      "repolarisation_phase = 16",
+      "action_potential = depolarisation_phase + repolarisation_phase"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "action_potential = depolarisation_phase + repolarisation_phase"
+   ]
+  },
+  {
+   "id": "kebo.18.3.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "vesicle_fusion = 67",
+      "neurotransmitter_binding = 40",
+      "synaptic_transmission = vesicle_fusion + neurotransmitter_binding"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "vesicle_fusion = 76",
+      "neurotransmitter_binding = 30",
+      "synaptic_transmission = vesicle_fusion + neurotransmitter_binding"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "vesicle_fusion = 75",
+      "neurotransmitter_binding = 30",
+      "synaptic_transmission = vesicle_fusion + neurotransmitter_binding"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "vesicle_fusion = 63",
+      "neurotransmitter_binding = 89",
+      "synaptic_transmission = vesicle_fusion + neurotransmitter_binding"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "vesicle_fusion = 38",
+      "neurotransmitter_binding = 15.9",
+      "synaptic_transmission = vesicle_fusion + neurotransmitter_binding"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "vesicle_fusion = 30",
+      "neurotransmitter_binding = 50",
+      "synaptic_transmission = vesicle_fusion + neurotransmitter_binding"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "synaptic_transmission = vesicle_fusion + neurotransmitter_binding"
+   ]
+  },
+  {
+   "id": "kebo.18.4.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "dura_mater = 99",
+      "arachnoid_mater = 68",
+      "pia_mater = 22",
+      "cranial_meninges = dura_mater + arachnoid_mater + pia_mater"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "dura_mater = 99",
+      "arachnoid_mater = 98",
+      "pia_mater = 67",
+      "cranial_meninges = dura_mater + arachnoid_mater + pia_mater"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "dura_mater = 8.9",
+      "arachnoid_mater = 4.6",
+      "pia_mater = 33",
+      "cranial_meninges = dura_mater + arachnoid_mater + pia_mater"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "dura_mater = 5",
+      "arachnoid_mater = 7.7",
+      "pia_mater = 19.1",
+      "cranial_meninges = dura_mater + arachnoid_mater + pia_mater"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "dura_mater = 99",
+      "arachnoid_mater = 43",
+      "pia_mater = 12.1",
+      "cranial_meninges = dura_mater + arachnoid_mater + pia_mater"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "dura_mater = 73",
+      "arachnoid_mater = 64",
+      "pia_mater = 38",
+      "cranial_meninges = dura_mater + arachnoid_mater + pia_mater"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "cranial_meninges = dura_mater + arachnoid_mater + pia_mater"
+   ]
+  },
+  {
+   "id": "kebo.18.4.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "cerebrum = 81",
+      "thalamus = 90",
+      "hypothalamus = 85",
+      "forebrain = cerebrum + thalamus + hypothalamus"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "cerebrum = 82",
+      "thalamus = 78",
+      "hypothalamus = 88",
+      "forebrain = cerebrum + thalamus + hypothalamus"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "cerebrum = 50",
+      "thalamus = 68",
+      "hypothalamus = 54",
+      "forebrain = cerebrum + thalamus + hypothalamus"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "cerebrum = 77",
+      "thalamus = 12",
+      "hypothalamus = 17.1",
+      "forebrain = cerebrum + thalamus + hypothalamus"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "cerebrum = 66",
+      "thalamus = 48",
+      "hypothalamus = 10.1",
+      "forebrain = cerebrum + thalamus + hypothalamus"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "cerebrum = 72",
+      "thalamus = 8.8",
+      "hypothalamus = 55",
+      "forebrain = cerebrum + thalamus + hypothalamus"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "forebrain = cerebrum + thalamus + hypothalamus"
+   ]
+  },
+  {
+   "id": "kebo.18.4.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "midbrain = 70",
+      "pons = 6.6",
+      "medulla_oblongata = 74",
+      "brain_stem = midbrain + pons + medulla_oblongata"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "midbrain = 73",
+      "pons = 22",
+      "medulla_oblongata = 35",
+      "brain_stem = midbrain + pons + medulla_oblongata"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "midbrain = 57",
+      "pons = 47",
+      "medulla_oblongata = 95",
+      "brain_stem = midbrain + pons + medulla_oblongata"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "midbrain = 5.2",
+      "pons = 13.4",
+      "medulla_oblongata = 23",
+      "brain_stem = midbrain + pons + medulla_oblongata"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "midbrain = 61",
+      "pons = 38",
+      "medulla_oblongata = 13.4",
+      "brain_stem = midbrain + pons + medulla_oblongata"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "midbrain = 12.4",
+      "pons = 23",
+      "medulla_oblongata = 34",
+      "brain_stem = midbrain + pons + medulla_oblongata"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "brain_stem = midbrain + pons + medulla_oblongata"
+   ]
+  },
+  {
+   "id": "kebo.18.4.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "pons = 85",
+      "cerebellum = 5.5",
+      "medulla_oblongata = 5.7",
+      "hindbrain = pons + cerebellum + medulla_oblongata"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pons = 38",
+      "cerebellum = 55",
+      "medulla_oblongata = 60",
+      "hindbrain = pons + cerebellum + medulla_oblongata"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "pons = 15.9",
+      "cerebellum = 91",
+      "medulla_oblongata = 12.7",
+      "hindbrain = pons + cerebellum + medulla_oblongata"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "pons = 11.8",
+      "cerebellum = 94",
+      "medulla_oblongata = 29",
+      "hindbrain = pons + cerebellum + medulla_oblongata"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "pons = 79",
+      "cerebellum = 70",
+      "medulla_oblongata = 86",
+      "hindbrain = pons + cerebellum + medulla_oblongata"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "pons = 14.8",
+      "cerebellum = 91",
+      "medulla_oblongata = 3.1",
+      "hindbrain = pons + cerebellum + medulla_oblongata"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "hindbrain = pons + cerebellum + medulla_oblongata"
+   ]
+  }
+ ]
+}

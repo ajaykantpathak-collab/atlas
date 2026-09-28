@@ -34,6 +34,26 @@
      "q": "Design a simple tabletop model using a lamp, a ball, and your head to demonstrate why the Moon has phases. Describe the setup and what you would observe at three key positions.",
      "a": "**Setup:** Dark room. Lamp (Sun) at one end. Hold a white ball (Moon) at arm's length. Your head is Earth. **Position 1:** Ball between you and lamp → ball's lit side faces away → you see dark ball (New Moon). **Position 2:** Ball to your left, lamp in front → you see right half lit (First Quarter). **Position 3:** You between lamp and ball → ball fully lit facing you (Full Moon). A poor answer (e.g., moving the lamp instead of the ball, or casting a shadow of the head on the ball) reveals the student still thinks Earth's shadow causes phases or cannot adopt the Earth-centered perspective.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The changing shape of the Moon (phases) is caused by the changing relative positions of the Sun, Earth, and Moon as the Moon orbits Earth, which alters the fraction of the Moon's sunlit ______ that is visible from Earth.",
+     "a": "hemisphere",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the Moon on two different nights a week apart — you will see a distinctly different shape, like a thin ______ versus a half-circle.",
+     "a": "crescent",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Given a description or diagram of the Sun-Earth-Moon positions, the student can identify the resulting Moon phase as seen from Earth and explain why that specific illuminated portion is visible.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the Moon on two different nights a week apart — you will see a ______ different shape, like a thin crescent versus a half-circle.",
+     "a": "distinctly",
+     "self_check": true
     }
    ]
   }

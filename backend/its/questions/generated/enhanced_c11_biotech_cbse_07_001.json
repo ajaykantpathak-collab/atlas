@@ -34,6 +34,26 @@
      "q": "Design a hypothetical experiment (like Hershey-Chase) to prove that *protein* is NOT the genetic material in a newly discovered bacteriophage that has a protein coat and an RNA genome. Specify the radioactive labels, the blending/centrifugation steps, and the expected result that would confirm RNA (not protein) enters the host cell.",
      "a": "Label phage proteins with ³⁵S (sulfur in methionine/cysteine) and phage RNA with ³²P (phosphorus in ribose-phosphate backbone). Infect unlabeled E. coli. Blend to remove phage coats. Centrifuge: pellet = bacteria, supernatant = phage debris. **Expected result**: ³²P (RNA label) in pellet; ³⁵S (protein label) in supernatant. This proves RNA enters the cell and directs new phage production. A good answer must specify *why* ³⁵S labels protein (S in amino acids, not nucleotides) and ³²P labels RNA (P in backbone, not in amino acids), and that blending separates *adsorbed* phage parts from *internalized* genetic material. A poor answer uses ³²P for protein or forgets the blending step, confusing surface attachment with genome entry.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Central Dogma of Molecular Biology describes the ______ flow of genetic information in biological systems: DNA is replicated to DNA, transcribed into RNA, and translated into protein, with the exception of reverse transcription in retroviruses where RNA is reverse-transcribed into DNA.",
+     "a": "unidirectional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a bioengineer at an Indian vaccine company (like Serum Institute or Bharat ______) tasked with producing an mRNA vaccine for a new virus.",
+     "a": "Biotech",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) accurately draw and label the complete information flow pathway including replication, transcription, translation, and reverse transcription; (2) explain why mRNA is required as an intermediate in eukaryotes but not in prokaryotes; (3) predict the effect of a given mutation (e.g., promoter deletion.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ at an Indian vaccine company (like Serum Institute or Bharat Biotech) tasked with producing an mRNA vaccine for a new virus.",
+     "a": "bioengineer",
+     "self_check": true
     }
    ]
   }

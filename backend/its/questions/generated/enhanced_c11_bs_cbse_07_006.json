@@ -34,6 +34,31 @@
      "q": "Create a scenario where a third party deals with a company *before* its Certificate of Incorporation is issued, but the certificate later bears an earlier date. Explain whether the third party can enforce the contract against the company, citing the specific legal principle.",
      "a": "Scenario: Promoters of \"SolarBright Ltd\" sign a contract to purchase machinery on 5th January. Documents are filed with ROC on 6th January. ROC issues Certificate of Incorporation on 10th January, but the certificate states the date of incorporation as 6th January. The company can ratify the 5th January contract? No, the contract is *void ab initio* because the company did not exist on 5th January. The certificate's date (6th January) is the earliest date of existence. The principle: **The Certificate of Incorporation is conclusive evidence of incorporation *from the date stated therein*, not retrospectively for acts before that date.** A poor answer would claim the contract is valid because the certificate \"backdates\" existence, ignoring that the certificate only confirms existence *from its stated date* and cannot validate pre-incorporation acts (which remain personal liabilities of promoters).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Certificate of ______ is a legal document issued by the Registrar of Companies (ROC) that serves as conclusive evidence of a company's legal existence from the date mentioned on the certificate, granting it perpetual succession, a common seal, and the capacity to enter into contracts, irrespective of any procedural flaws in its registration.",
+     "a": "Incorporation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and your friends have completed all paperwork for your startup \"GreenTech Innovations Pvt Ltd\" and ______ it to the ROC.",
+     "a": "submitted",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You had signed a vendor contract on ______th March, before receiving the physical certificate.",
+     "a": "12",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain the legal effects of the Certificate of Incorporation (conclusive evidence, date of birth, legal personality) and distinguish it from the Certificate of Commencement of Business, applying this to scenario-based questions about flawed registrations or pre-incorporation contracts.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and your friends have completed all paperwork for your startup \"GreenTech ______ Pvt Ltd\" and submitted it to the ROC.",
+     "a": "Innovations",
+     "self_check": true
     }
    ]
   }

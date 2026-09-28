@@ -34,6 +34,21 @@
      "q": "Design a thought experiment to demonstrate that a p-n junction cannot be formed by simply pressing a p-type slab against an n-type slab. What atomic-scale property prevents this?",
      "a": "A good answer: Surface roughness (~micrometers) is much larger than interatomic spacing (~0.3 nm). Pressing two slabs together leaves air gaps; carriers cannot cross the discontinuity. The junction requires continuous crystal lattice across the interface, achieved by fabricating both regions from a single wafer (e.g., by diffusion/ion implantation). A poor answer (e.g., \"they don't stick\") shows lack of understanding of the need for atomic-level continuity for wavefunction overlap and carrier transport.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A p-n junction is formed when a p-type semiconductor and an n-type semiconductor are joined together at the atomic level, creating a ______ junction.",
+     "a": "metallurgical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have two adjacent rooms: one filled with red balls (holes) and the other with blue balls (______).",
+     "a": "electrons",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Explain the step-by-step formation of a p-n junction using diffusion and drift mechanisms, (2) Draw and label the energy band diagram of an unbiased p-n junction showing the depletion region, barrier potential, and Fermi level alignment, (3) Calculate the built-in potential and depletion width for a given.",
+     "self_check": true
     }
    ]
   }

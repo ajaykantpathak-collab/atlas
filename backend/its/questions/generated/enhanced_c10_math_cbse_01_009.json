@@ -34,6 +34,21 @@
      "q": "Create a new problem: \"Prove that k√m is irrational\" where k is a specific non-zero rational and m is a specific non-square integer. Choose values that would test if a student understands the condition k ≠ 0. Explain why your chosen values test this.",
      "a": "Example: \"Prove that 0 × √7 is irrational.\" This tests the condition k ≠ 0. The statement is FALSE — 0 × √7 = 0, which is rational. A good answer chooses k = 0 and explains the theorem fails because division by zero is undefined in the proof step √m = (p/q)/k. A poor answer gives k = 2, m = 5 (standard case) showing they missed the \"non-zero\" condition entirely.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ of a non-zero rational number and an irrational number is always irrational.",
+     "a": "product",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying fabric for a school project: the shopkeeper says \"This cloth costs ₹3 per metre, and you need exactly √2 metres.\" You wonder: \"Is the total cost a rational amount of money?\" Since √2 is ______ (proved earlier), and 3 is a non-zero rational, their product 3√2 represents the total cost.",
+     "a": "irrational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying fabric for a school project: the ______ says \"This cloth costs ₹3 per metre, and you need exactly √2 metres.\" You wonder: \"Is the total cost a rational amount of money?\" Since √2 is irrational (proved earlier), and 3 is a non-zero rational, their product 3√2 represents the total cost.",
+     "a": "shopkeeper",
+     "self_check": true
     }
    ]
   }

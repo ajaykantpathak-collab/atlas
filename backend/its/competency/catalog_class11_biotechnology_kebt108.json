@@ -83,7 +83,16 @@
      "q": "Losing one chromosome of a pair is called what: monosomy or trisomy?",
      "a": "monosomy"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "karyotype_total = diploid_base + extra_chromosomes",
+     "compute": "karyotype_total = diploid_base + extra_chromosomes"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt108.3",
@@ -162,7 +171,16 @@
      "q": "About one Down baby is born per how many live births: 800 or 8?",
      "a": "800"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "down_cases = births / down_rate",
+     "compute": "down_cases = births / down_rate"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt108.5",
@@ -241,7 +259,16 @@
      "q": "In a carrier-by-carrier recessive cross, what fraction of children are affected: one quarter or all?",
      "a": "one quarter"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "affected_children = children_total / 4",
+     "compute": "affected_children = children_total / 4"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt108.7",
@@ -279,14 +306,23 @@
      "q": "A carrier mother passes a recessive X to what fraction of her sons: half or none?",
      "a": "half"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "affected_sons = sons_total / 2",
+     "compute": "affected_sons = sons_total / 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt108.8",
    "title": "Polygenic Disorders and Mitochondrial Inheritance",
    "section": "8.3 and Box 2",
    "definition": "Several genes acting together produce the common chronic disorders - diabetes mellitus where type 2 makes up about ninety percent of cases against ten percent for insulin-dependent type 1, hypertension staged from 120 over 80 upward, and coronary heart disease built by atherosclerotic plaques; separately, mutated mitochondrial genes ride the egg alone, so severity tracks the mix of faulty and healthy mitochondria and only mothers transmit the disease.",
-   "formula": "type2_share = cases_total * 90 / 100",
+   "formula": "type_2_share = cases_total * 90 / 100",
    "key_idea": "Nine of every ten diabetics are type 2; and a mitochondrial father transmits nothing - only the maternal line matters.",
    "textbook_ref": "kebt108.txt section 8.3, Box 2, Figs. 8.11-8.12",
    "question_patterns": [
@@ -317,7 +353,16 @@
      "q": "About what percent of diabetes cases are type 2: ninety or ten?",
      "a": "ninety"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "type_2_share = cases_total * 90 / 100",
+     "compute": "type_2_share = cases_total * 90 / 100"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

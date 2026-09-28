@@ -34,6 +34,26 @@
      "q": "Create a mini-case: Invent a company with three years of data where Revenue from Operations grows 20% each year, but the Gross Profit % (Revenue minus Cost of Materials Consumed) declines from 45% to 40% to 35%. Provide the absolute figures for Year 1 (choose any base revenue) and show the common size percentages for all three years. Explain what this pattern suggests about the company's pricing or procurement strategy.",
      "a": "**Year 1:** Revenue = ₹1,00,00,000; Cost of Materials = ₹55,00,000 → GP% = 45%.  \n**Year 2:** Revenue = ₹1,20,00,000 (20% growth); Cost of Materials = ₹72,00,000 → GP% = 40%.  \n**Year 3:** Revenue = ₹1,44,00,000 (20% growth); Cost of Materials = ₹93,60,000 → GP% = 35%.  \n**Common Size:**  \nYear 1: Rev 100%, COGS 55%, GP 45%  \nYear 2: Rev 100%, COGS 60%, GP 40%  \nYear 3: Rev 100%, COGS 65%, GP 35%  \n**Interpretation:** Despite revenue growing steadily, material costs are rising faster than revenue (COGS % up 5 pp each year). This suggests either (a) the company is cutting prices to drive volume without proportional cost reduction, (b) input prices are rising and the company cannot pass them on, or (c) product mix is shifting to lower-margin items. A good answer must link the percentage trend to strategic implications, not just state the numbers. A poor answer merely recalculates percentages without diagnosis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Common Size Statement of Profit and Loss expresses each item of the Statement of Profit and Loss as a percentage of Revenue from Operations (Net Sales), enabling vertical analysis to assess the relative proportion of each cost, expense, and profit component and ______ inter-firm and intra-firm comparisons regardless of scale.",
+     "a": "facilitating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ two companies: a small local bakery with ₹10 lakh revenue and a large chain with ₹100 crore revenue.",
+     "a": "comparing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by identifying Revenue from Operations as the base (______%).",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently prepare a Common Size Statement of Profit and Loss from raw financial data, correctly selecting Revenue from Operations as the 100% base, computing each line item's percentage to two decimal places, and interpreting the resulting percentages to comment on cost structure and profitability trends.",
+     "self_check": true
     }
    ]
   }

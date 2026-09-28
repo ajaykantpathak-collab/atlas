@@ -34,6 +34,31 @@
      "q": "Design a small data set of 5 daily pocket money amounts (in rupees) where the mean is 50 rupees, the median is 50 rupees, but the mode is 40 rupees.",
      "a": "A valid data set is {40, 40, 50, 60, 60}, where the sum is 250 (mean = 50), the middle value is 50, and 40 appears twice as the most frequent value. A poor answer fails to satisfy all three statistical conditions simultaneously, often resulting in a mean or median that does not match 50.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Analysing real-world data sets involves examining collected numbers, ______, or observations to uncover underlying trends, patterns, and insights that help answer practical questions.",
+     "a": "measurements",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the captain of your school ______ team, and you need to decide which opening batsman to send out for a crucial match based on their last 10 scores.",
+     "a": "cricket",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the captain of your school cricket team, and you need to decide which opening batsman to send out for a crucial match based on their last ______ scores.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can inspect a raw or tabulated real-world data set, compute relevant summary statistics (mean, median, mode), interpret graphical representations, and write a cohesive paragraph explaining what the data reveals about the real-world situation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are the captain of your school cricket team, and you need to decide which opening batsman to send out for a crucial match based on their last 10 scores.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

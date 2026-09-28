@@ -4,15 +4,9 @@
   {
    "id": "jemh.103.3.1",
    "title": "Graphical Representation of a Pair of Linear Equations",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "transpose the terms and divide by the coefficient",
-     "explain": "transpose the terms and divide by the coefficient: x = (77 - 11) / 6 gives 11",
-     "compute": "x = (77 - 11) / 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 6x + 11 = 77.",
@@ -50,6 +44,8 @@
    "id": "jemh.103.3.2",
    "title": "Comparing Ratios to Classify the Pair",
    "converted_to_compute": false,
+   "formula": "ratio_a = a1 / a2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 10 : 18 in its simplest form and give the first term of the simplest form.",
@@ -86,15 +82,9 @@
   {
    "id": "jemh.103.3.3",
    "title": "Substitution Method",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "transpose the terms and divide by the coefficient",
-     "explain": "transpose the terms and divide by the coefficient: x = (19 - 4) / 5 gives 3",
-     "compute": "x = (19 - 4) / 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 5x + 4 = 19.",
@@ -131,15 +121,9 @@
   {
    "id": "jemh.103.3.4",
    "title": "Elimination Method",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "transpose the terms and divide by the coefficient",
-     "explain": "transpose the terms and divide by the coefficient: x = (67 - 12) / 5 gives 11",
-     "compute": "x = (67 - 12) / 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 5x + 12 = 67.",

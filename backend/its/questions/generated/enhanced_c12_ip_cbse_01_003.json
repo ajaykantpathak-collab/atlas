@@ -34,6 +34,26 @@
      "q": "Create a realistic scenario where a multi-row INSERT statement would fail due to a PRIMARY KEY violation even though all primary key values in the statement are distinct. Explain the cause and how to fix it.",
      "a": "Scenario: Table `STUDENT(RollNo INT PRIMARY KEY, Name VARCHAR(30))` already contains a row with `RollNo = 101`. A multi-row INSERT attempts to insert `(101, 'Amit'), (102, 'Rita')`. Even though 101 and 102 are distinct within the statement, the first row conflicts with the existing row in the table, causing the entire statement to fail (atomicity). The fix is to either delete/update the existing row first, or use `INSERT IGNORE` / `ON DUPLICATE KEY UPDATE` (MySQL) to handle conflicts. A poor answer that says \"multi-row insert never fails if keys are distinct in the statement\" reveals ignorance of existing data in the table and the atomic nature of the statement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The INSERT INTO statement in SQL is a Data Manipulation Language (DML) command used to add new rows (tuples) into an existing table, either by specifying values for all columns in the table's defined order or by explicitly listing target columns and providing ______ values for single or multiple rows in a single execution.",
+     "a": "corresponding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are managing a school library ______ and need to add new books to the BOOKS table.",
+     "a": "database",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write correct INSERT INTO statements for single and multiple rows, handle auto-increment primary keys, respect NOT NULL and FOREIGN KEY constraints, and diagnose common errors such as column-value mismatch, data type mismatch, and constraint violations.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a school library database and need to add new books to the BOOKS table.",
+     "a": "managing",
+     "self_check": true
     }
    ]
   }

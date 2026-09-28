@@ -32,7 +32,22 @@
     },
     {
      "q": "Design a thought experiment to test whether the condensation of steam on a cold mirror is reversible or irreversible. Specify the system, surroundings, and the criterion you would use to decide.",
-     "a": "System: steam + mirror. Surroundings: room air at T_room. Process: steam at T₁ > T_room condenses on mirror at T₂ < T₁. Criterion: check if (a) the process is quasi-static (infinitesimal T difference at interface) and (b) no dissipation occurs. In reality, condensation occurs with finite ΔT across the steam-mirror interface and involves latent heat release into a temperature gradient – both violate quasi-static condition. To reverse, you would need to supply heat from a reservoir at exactly T₂ to evaporate the water, but the mirror is at T₂ < T₁, so heat would flow from hot to cold, leaving a net change. A poor answer that says \"it's reversible because you can boil the water again\" misses that boiling requires a hotter source, changing the surroundings.",
+     "a": "(1) System — the steam and the mirror; surroundings — the room air at room temperature, (2) Criterion — the process is reversible only if it is quasi-static, with an infinitesimal temperature difference at the interface, and free of dissipation, (3) Observation — condensation runs at a finite temperature difference across the steam-mirror interface and releases latent heat into a temperature gradient, violating the quasi-static condition, (4) Reversal test — evaporating the water back needs a hotter source, which changes the surroundings and leaves a net change, so the process is irreversible. A poor answer claiming it is reversible because you can boil the water again misses that boiling requires a hotter source and alters the surroundings.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ process is reversible if it can be reversed such that both the system and the surroundings return to their original states with no net change anywhere else in the universe; it is irreversible if it cannot be reversed without leaving a net change in the universe.",
+     "a": "thermodynamic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a gas leaking from a punctured LPG cylinder in a kitchen – the gas spreads irreversibly throughout the room and never ______ returns to the cylinder.",
+     "a": "spontaneously",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) classify a given real-world or idealised thermodynamic process as reversible or irreversible by identifying the presence of non-equilibrium states or dissipative effects; (2) explain why a quasi-static process without dissipation is the idealised limit for reversibility; (3) apply the concept to justify why the.",
      "self_check": true
     }
    ]

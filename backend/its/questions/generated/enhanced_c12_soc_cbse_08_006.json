@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_08_006",
+   "title": "c12_soc_cbse_08_006",
+   "questions": [
+    {
+     "q": "Name the three villages leased by Job Charnock in 1690 that became the nucleus of Calcutta, and identify the defensive structure that anchored its early spatial layout.",
+     "a": "The three villages were Kolikata, Gobindapur, and Sutanuti. The defensive structure was Fort William, around which a large open area (the Maidan) was cleared for military engagements, forming the city's core. A wrong answer (e.g., naming Bombay's islands or Madras's Fort St. George) reveals confusion between the three Presidency cities' distinct origin stories — a common error because textbooks often list them together without comparative spatial detail.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the Census of India 1911 reported that British industrialisation led to *more* Indians moving into agriculture rather than into urban factory work, unlike in Britain.",
+     "a": "In Britain, industrialisation created factory jobs that pulled people from farms to cities. In colonial India, British machine-made textiles destroyed Indian handicrafts (deindustrialisation), while colonial land revenue policies forced peasants to grow cash crops for export. Artisans lost livelihoods and became agricultural labourers; no equivalent factory boom absorbed them. A wrong answer that says 'India was not industrialised yet' misses the crucial point: deindustrialisation and commercialisation of agriculture *were* the colonial industrial impact — they pushed people *into* agriculture, not out of it.",
+     "self_check": true
+    },
+    {
+     "q": "A sociologist argues: 'Cantonments were the \"purest\" colonial urban form because they were designed from scratch on empty land, unlike Presidency cities which grew organically.' Apply the concept of 'colonial urban template' to evaluate this claim using evidence from the NCERT text.",
+     "a": "The claim is partially correct but incomplete. Cantonments *were* planned on grid-iron patterns with strict racial zoning (European lines vs native lines), making their colonial logic spatially explicit. However, Presidency cities like Calcutta also *imposed* a colonial template (Fort William + Maidan + European town / native town divide) on existing settlements, as Box 1.4 shows — the European town got water, sewage, clubs, race courses; the native town did not. Hill stations (Shimla, Darjeeling) were a third template: built on 'empty' hilltops but replicating English villages with churches, malls, and bungalows. All three are colonial templates; cantonments are just the most *legible* one. A wrong answer that agrees fully ignores how Presidency cities were *actively restructured* (e.g., Bombay's reclamation, Calcutta's Maidan clearance) to fit the template.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the labour recruitment mechanism for Assam tea plantations (Box 1.5) with the migrant labour pattern described in M.S.A. Rao's first type of urban impact (Box 1.7). Identify two structural similarities and one key difference in the *state's role*.",
+     "a": "Similarities: (1) Both rely on long-distance circular migration — tea workers from Bihar/Jharkhand to Assam; Madhopur villagers to Bombay/Calcutta. (2) Both involve coercive/structural compulsion, not free choice — penal laws (Transport of Native Labourers Act) for tea; agrarian distress and lack of local employment for Madhopur migrants. Difference: In tea plantations, the colonial state *actively legislated* coercion (penal contracts, criminalising desertion). In Rao's post-independence case, the state is *absent* — migration is driven by market forces and agrarian crisis, not direct legal compulsion. A wrong answer that says 'both are voluntary' misses the structural unfreedom in both; one that says 'state role is same' misses the shift from legal coercion to structural abandonment.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: 'Urbanisation in independent India is a clean break from colonial urbanisation because the state now plans industrial towns (Bhilai, Rourkela) for national development, not imperial extraction.' Use M.S.A. Rao's three types of urban impact and the 1951–2011 urban growth data to support your evaluation.",
+     "a": "The statement is a mischaracterisation. Continuity: (1) Rao's Type 2 (villages near industrial towns) shows Bhilai/Rourkela replicated the *displacement* logic of colonial projects — land acquisition, immigrant workers, native-immigrant conflict. (2) Type 3 (metropolitan expansion absorbing villages) mirrors colonial port-city growth. (3) Urban growth data: 17.29% urban (1951) → 31.16% (2011) with declining decadal growth *until 2001* then a marginal rise — the *pattern* of primate city dominance (Bombay/Calcutta/Delhi) persists. Break: The *stated intent* shifted from imperial profit to national development (public sector), and some towns (e.g., Chandigarh) were consciously designed as post-colonial symbols. But the *spatial logic* — segregation, immigrant labour camps, elite enclaves — remains. A wrong answer that calls it a 'clean break' ignores Rao's evidence of structural continuity; one that calls it 'identical' ignores the democratic planning framework and welfare intent.",
+     "self_check": true
+    },
+    {
+     "q": "Design a comparative research question for a Class 12 sociology project that investigates how the 'European town / native town' spatial divide (Box 1.4) manifests in *one* contemporary Indian metropolis. Specify: (a) the city, (b) two measurable spatial indicators, (c) one qualitative method, and (d) the theoretical concept from this chapter you would operationalise.",
+     "a": "Example answer: City: Delhi. Indicators: (1) Per capita green cover / road width in Lutyens' Delhi vs Seelampur (measuring 'spacious bungalows, planned streets, trees' vs congestion). (2) Piped water supply hours / sewage connection % in the two zones (measuring 'domestic water supply, electric connections, sewage links... utilised fully' vs 'restricted'). Method: Semi-structured interviews with long-term residents in both zones about everyday experience of infrastructure access. Concept: 'Colonial urban template' — the enduring spatial inscription of racial/segregatory planning into post-colonial class/caste geography. A poor answer picks a city without colonial dual-core history (e.g., Gurugram), uses only census data (no qualitative depth), or invokes 'gentrification' without linking to the specific colonial template described in Box 1.4.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Urbanisation under colonialism refers to the historically specific process where British colonial rule restructured Indian urban settlements to serve imperial economic and ______ interests, creating new colonial cities (Presidency towns, cantonments, hill stations) while simultaneously de-urbanising traditional commercial and political centres through policies that prioritised resource extraction and military control over indigenous urban development.",
+     "a": "administrative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ at Churchgate station in Mumbai at 8:45 AM on a weekday — a tidal wave of commuters surges from the local trains onto streets originally laid out for bullock carts and British officials' carriages.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What is Urbanisation under colonialism? State the definition given in this lesson.",
+     "a": "Urbanisation under colonialism refers to the historically specific process where British colonial rule restructured Indian urban settlements to serve imperial economic and administrative interests, creating new colonial cities (Presidency towns, cantonments, hill stations) while simultaneously de-urbanising traditional commercial and.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Explain the structural differences between pre-colonial Indian cities and British colonial cities using the 'European town vs native town' spatial model, and (2) Trace how colonial urban policies (cantonments, hill stations, port cities) created enduring socio-spatial inequalities visible in contemporary Indian.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing at ______ station in Mumbai at 8:45 AM on a weekday — a tidal wave of commuters surges from the local trains onto streets originally laid out for bullock carts and British officials' carriages.",
+     "a": "Churchgate",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

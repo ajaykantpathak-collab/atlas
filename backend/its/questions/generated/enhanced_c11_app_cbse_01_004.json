@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_01_004",
+   "title": "c11_app_cbse_01_004",
+   "questions": [
+    {
+     "q": "What is the binary representation of the decimal number 13? Write it as a sum of powers of 2 to show your reasoning.",
+     "a": "13 = 8 + 4 + 1 = 2³ + 2² + 2⁰ → binary: 1101. A wrong answer like 1011 (which equals 11) reveals the student is placing bits left-to-right instead of aligning with correct powers of 2, or confusing the order of remainders in the division method.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the binary number 100000 has exactly five trailing zeros, and what this tells you about its divisibility by powers of 2.",
+     "a": "100000₂ = 2⁵ = 32. The five trailing zeros mean the lowest power of 2 with coefficient 1 is 2⁵, so the number is divisible by 2⁵ but not 2⁶. A wrong answer (e.g., \"it's divisible by 5\") reveals confusion between the count of zeros and the divisor, or misunderstanding that trailing zeros in base-2 directly indicate the exponent of the highest power of 2 dividing the number.",
+     "self_check": true
+    },
+    {
+     "q": "Add the binary numbers 10111 and 1101. Show all steps including carries.",
+     "a": "```\n  10111\n+ 01101\n-------\n 100100\n```\nStep-by-step: 1+1=10 (write 0, carry 1), 1+0+1=10 (write 0, carry 1), 1+1+1=11 (write 1, carry 1), 0+1+1=10 (write 0, carry 1), 1+0+1=10 (write 0, carry 1), final carry 1. Result: 100100₂ = 36₁₀. A wrong answer like 11100 reveals the student is adding without carries (decimal-style) or misaligning place values.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the binary representations of 27 and 54. What pattern do you notice? Use this to explain how multiplying by 2 affects a binary number.",
+     "a": "27₁₀ = 11011₂; 54₁₀ = 110110₂. Multiplying by 2 appends a zero (left shift), just as multiplying by 10 appends a zero in decimal. A student who says \"digits double\" or gives 22122 reveals they're treating binary digits as decimal quantities rather than positional coefficients.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The binary number 1010101 has four 1s, so it's divisible by 4.\" Evaluate this claim and correct the reasoning.",
+     "a": "False. 1010101₂ = 64+16+4+1 = 85₁₀, which is odd (not divisible by 2, let alone 4). Divisibility by 4 in binary requires the last TWO bits to be 00 (i.e., divisible by 2²). The student confuses \"count of 1s\" with \"trailing zeros\" — a common error from misapplying decimal divisibility rules (sum of digits for 3/9) to binary.",
+     "self_check": true
+    },
+    {
+     "q": "Design a method to convert any decimal number to binary WITHOUT using repeated division. Test it on 100 and verify.",
+     "a": "Method: Find largest power of 2 ≤ number, subtract, repeat (greedy algorithm using powers of 2). For 100: 64 (2⁶) → remainder 36; 32 (2⁵) → remainder 4; 4 (2²) → remainder 0. Powers used: 6,5,2 → binary: 1100100. A poor answer uses division but calls it \"different,\" or fails to verify 64+32+4=100. This tests if the student understands binary as sum of distinct powers of 2, not just a mechanical algorithm.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,26 @@
      "q": "Design a simple staining protocol using safranin and fast green to distinguish parenchyma, collenchyma, and sclerenchyma in a hand-section of *Helianthus* stem. Predict the color each tissue will take and justify based on wall chemistry.",
      "a": "Protocol: Section stem → stain 1 min in 1% safranin (red, binds lignin) → rinse → stain 30 sec in 0.5% fast green (green, binds cellulose/pectin) → mount in glycerin. Prediction: Parenchyma — green (only primary wall cellulose/pectin). Collenchyma — green with red corners (primary wall cellulose/pectin + possible lignin at thickened corners). Sclerenchyma — intense red (lignified secondary wall). A poor answer using only one stain or reversing colors reveals ignorance of differential affinity: safranin for lignin, fast green for non-lignified polysaccharides.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Simple permanent tissues are groups of structurally and functionally similar cells that have lost the ability to divide, ______ by specific cell wall modifications: parenchyma (thin, flexible primary walls, living), collenchyma (unevenly thickened primary walls at corners, living), and sclerenchyma (uniformly thick, lignified secondary walls, usually dead at maturity).",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine biting into a crisp apple (parenchyma-rich cortex) versus chewing a tough sugarcane stem (______-rich vascular bundles and hypodermis).",
+     "a": "sclerenchyma",
+     "self_check": true
+    },
+    {
+     "q": "What is Simple permanent tissues? State the definition given in this lesson.",
+     "a": "Simple permanent tissues are groups of structurally and functionally similar cells that have lost the ability to divide, characterized by specific cell wall modifications: parenchyma (thin, flexible primary walls, living), collenchyma (unevenly thickened primary walls at corners, living), and sclerenchyma (uniformly thick, lignified.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can differentiate the three simple tissues by cell wall composition, living status, and mechanical function; identify each tissue in labeled micrographs of root, stem, and leaf cross-sections; and explain how their distribution provides both metabolic flexibility and mechanical strength to plant organs.",
+     "self_check": true
     }
    ]
   }

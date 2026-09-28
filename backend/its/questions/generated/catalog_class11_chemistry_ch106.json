@@ -1,0 +1,381 @@
+{
+ "catalog": "catalog_class11_chemistry_ch106.json",
+ "concepts": [
+  {
+   "id": "kech.106.4.1",
+   "title": "Relationship between Kp and Kc in Gaseous Systems",
+   "converted_to_compute": true,
+   "formula": "Kp = Kc * (8.314 * T)**delta_n",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "Kp = Kc * (8.314 * T)**delta_n",
+     "compute": "Kp = Kc * (8.314 * T)**delta_n"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Relationship between Kp and Kc in Gaseous Systems: given Kc = 68, T = 76, delta_n = 3.9, find Kp.",
+     "a": "5687756576453.371094",
+     "self_check": false
+    },
+    {
+     "q": "For Relationship between Kp and Kc in Gaseous Systems: given Kc = 33, T = 99, delta_n = 1.2, find Kp.",
+     "a": "104004",
+     "self_check": false
+    },
+    {
+     "q": "For Relationship between Kp and Kc in Gaseous Systems: given Kc = 89, T = 19.9, delta_n = 1.5, find Kp.",
+     "a": "189402",
+     "self_check": false
+    },
+    {
+     "q": "For Relationship between Kp and Kc in Gaseous Systems: given Kc = 97, T = 95, delta_n = 3.7, find Kp.",
+     "a": "5100892235518.321289",
+     "self_check": false
+    },
+    {
+     "q": "For Relationship between Kp and Kc in Gaseous Systems: given Kc = 24, T = 78, delta_n = 5.2, find Kp.",
+     "a": "10048824942665398",
+     "self_check": false
+    },
+    {
+     "q": "For Relationship between Kp and Kc in Gaseous Systems: given Kc = 42, T = 43, delta_n = 0.3, find Kp.",
+     "a": "245.038",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kech.106.7.1",
+   "title": "Standard Gibbs Energy Change and Equilibrium Constant",
+   "converted_to_compute": true,
+   "formula": "delta_G = -1 * R * T * ln_Kc",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "delta_G = -1 * R * T * ln_Kc",
+     "compute": "delta_G = -1 * R * T * ln_Kc"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Standard Gibbs Energy Change and Equilibrium Constant: given R = 18.3, T = 70, ln_Kc = 16.5, find delta G.",
+     "a": "-21136.5",
+     "self_check": false
+    },
+    {
+     "q": "For Standard Gibbs Energy Change and Equilibrium Constant: given R = 14.4, T = 95, ln_Kc = 6.1, find delta G.",
+     "a": "-8344.8",
+     "self_check": false
+    },
+    {
+     "q": "For Standard Gibbs Energy Change and Equilibrium Constant: given R = 44, T = 96, ln_Kc = 5.7, find delta G.",
+     "a": "-24076.8",
+     "self_check": false
+    },
+    {
+     "q": "For Standard Gibbs Energy Change and Equilibrium Constant: given R = 84, T = 81, ln_Kc = 0.6, find delta G.",
+     "a": "-4082.4",
+     "self_check": false
+    },
+    {
+     "q": "For Standard Gibbs Energy Change and Equilibrium Constant: given R = 40, T = 28, ln_Kc = 8.3, find delta G.",
+     "a": "-9296",
+     "self_check": false
+    },
+    {
+     "q": "For Standard Gibbs Energy Change and Equilibrium Constant: given R = 67, T = 27, ln_Kc = 12.5, find delta G.",
+     "a": "-22612.5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kech.106.9.1",
+   "title": "Ionic Product of Water and Ion Concentrations",
+   "converted_to_compute": true,
+   "formula": "OH_conc = Kw / H_conc",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "OH_conc = Kw / H_conc",
+     "compute": "OH_conc = Kw / H_conc"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Ionic Product of Water and Ion Concentrations: given Kw = 18.4, H_conc = 1.8, find OH conc.",
+     "a": "10.2222",
+     "self_check": false
+    },
+    {
+     "q": "For Ionic Product of Water and Ion Concentrations: given Kw = 57, H_conc = 84, find OH conc.",
+     "a": "0.678571",
+     "self_check": false
+    },
+    {
+     "q": "For Ionic Product of Water and Ion Concentrations: given Kw = 56, H_conc = 46, find OH conc.",
+     "a": "1.21739",
+     "self_check": false
+    },
+    {
+     "q": "For Ionic Product of Water and Ion Concentrations: given Kw = 45, H_conc = 17.3, find OH conc.",
+     "a": "2.60116",
+     "self_check": false
+    },
+    {
+     "q": "For Ionic Product of Water and Ion Concentrations: given Kw = 78, H_conc = 74, find OH conc.",
+     "a": "1.05405",
+     "self_check": false
+    },
+    {
+     "q": "For Ionic Product of Water and Ion Concentrations: given Kw = 84, H_conc = 34, find OH conc.",
+     "a": "2.47059",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kech.106.10.1",
+   "title": "Ionization Constant and Dissociation of Weak Acids",
+   "converted_to_compute": true,
+   "formula": "H_conc = sqrt(Ka * c)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "H_conc = sqrt(Ka * c)",
+     "compute": "H_conc = sqrt(Ka * c)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Ionization Constant and Dissociation of Weak Acids: given Ka = 51, find H conc.",
+     "a": "123693",
+     "self_check": false
+    },
+    {
+     "q": "For Ionization Constant and Dissociation of Weak Acids: given Ka = 74, find H conc.",
+     "a": "148997",
+     "self_check": false
+    },
+    {
+     "q": "For Ionization Constant and Dissociation of Weak Acids: given Ka = 42, find H conc.",
+     "a": "112250",
+     "self_check": false
+    },
+    {
+     "q": "For Ionization Constant and Dissociation of Weak Acids: given Ka = 40, find H conc.",
+     "a": "109545",
+     "self_check": false
+    },
+    {
+     "q": "For Ionization Constant and Dissociation of Weak Acids: given Ka = 82, find H conc.",
+     "a": "156844",
+     "self_check": false
+    },
+    {
+     "q": "For Ionization Constant and Dissociation of Weak Acids: given Ka = 83, find H conc.",
+     "a": "157797",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kech.6.11.9",
+   "title": "pH of Salts of Weak Acid and Weak Base",
+   "converted_to_compute": true,
+   "formula": "pH = 7 + 0.5 * (pKa - pKb)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "pH = 7 + 0.5 * (pKa - pKb)",
+     "compute": "pH = 7 + 0.5 * (pKa - pKb)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For pH of Salts of Weak Acid and Weak Base: given pKa = 57, pKb = 36, find pH.",
+     "a": "17.5",
+     "self_check": false
+    },
+    {
+     "q": "For pH of Salts of Weak Acid and Weak Base: given pKa = 94, pKb = 15.9, find pH.",
+     "a": "46.05",
+     "self_check": false
+    },
+    {
+     "q": "For pH of Salts of Weak Acid and Weak Base: given pKa = 36, pKb = 49, find pH.",
+     "a": "0.5",
+     "self_check": false
+    },
+    {
+     "q": "For pH of Salts of Weak Acid and Weak Base: given pKa = 55, pKb = 69, find pH.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For pH of Salts of Weak Acid and Weak Base: given pKa = 62, pKb = 28, find pH.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "For pH of Salts of Weak Acid and Weak Base: given pKa = 78, pKb = 62, find pH.",
+     "a": "15",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kech.6.13.1a",
+   "title": "Molar Solubility of 1:1 Sparingly Soluble Salts",
+   "converted_to_compute": true,
+   "formula": "solubility = sqrt(Ksp)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "solubility = sqrt(Ksp)",
+     "compute": "solubility = sqrt(Ksp)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Molar Solubility of 1:1 Sparingly Soluble Salts: given Ksp = 86, find solubility.",
+     "a": "9.27362",
+     "self_check": false
+    },
+    {
+     "q": "For Molar Solubility of 1:1 Sparingly Soluble Salts: given Ksp = 39, find solubility.",
+     "a": "6.245",
+     "self_check": false
+    },
+    {
+     "q": "For Molar Solubility of 1:1 Sparingly Soluble Salts: given Ksp = 57, find solubility.",
+     "a": "7.54983",
+     "self_check": false
+    },
+    {
+     "q": "For Molar Solubility of 1:1 Sparingly Soluble Salts: given Ksp = 88, find solubility.",
+     "a": "9.38083",
+     "self_check": false
+    },
+    {
+     "q": "For Molar Solubility of 1:1 Sparingly Soluble Salts: given Ksp = 81, find solubility.",
+     "a": "9",
+     "self_check": false
+    },
+    {
+     "q": "For Molar Solubility of 1:1 Sparingly Soluble Salts: given Ksp = 18.2, find solubility.",
+     "a": "4.26615",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kech.6.13.1b",
+   "title": "Molar Solubility of MX2 Type Sparingly Soluble Salts",
+   "converted_to_compute": true,
+   "formula": "solubility = (Ksp / 4) ** (1/3)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "solubility = (Ksp / 4) ** (1/3)",
+     "compute": "solubility = (Ksp / 4) ** (1/3)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Molar Solubility of MX2 Type Sparingly Soluble Salts: given Ksp = 2.2, find solubility.",
+     "a": "0.819321",
+     "self_check": false
+    },
+    {
+     "q": "For Molar Solubility of MX2 Type Sparingly Soluble Salts: given Ksp = 78, find solubility.",
+     "a": "2.69161",
+     "self_check": false
+    },
+    {
+     "q": "For Molar Solubility of MX2 Type Sparingly Soluble Salts: given Ksp = 54, find solubility.",
+     "a": "2.3811",
+     "self_check": false
+    },
+    {
+     "q": "For Molar Solubility of MX2 Type Sparingly Soluble Salts: given Ksp = 70, find solubility.",
+     "a": "2.59625",
+     "self_check": false
+    },
+    {
+     "q": "For Molar Solubility of MX2 Type Sparingly Soluble Salts: given Ksp = 31, find solubility.",
+     "a": "1.97895",
+     "self_check": false
+    },
+    {
+     "q": "For Molar Solubility of MX2 Type Sparingly Soluble Salts: given Ksp = 60, find solubility.",
+     "a": "2.46621",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kech.6.13.2",
+   "title": "Common Ion Effect on Salt Solubility",
+   "converted_to_compute": true,
+   "formula": "solubility = Ksp / (common_ion_conc ** 2)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "solubility = Ksp / (common_ion_conc ** 2)",
+     "compute": "solubility = Ksp / (common_ion_conc ** 2)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Common Ion Effect on Salt Solubility: given Ksp = 30, common_ion_conc = 3.7, find solubility.",
+     "a": "2.19138",
+     "self_check": false
+    },
+    {
+     "q": "For Common Ion Effect on Salt Solubility: given Ksp = 42, common_ion_conc = 16.8, find solubility.",
+     "a": "0.14881",
+     "self_check": false
+    },
+    {
+     "q": "For Common Ion Effect on Salt Solubility: given Ksp = 62, common_ion_conc = 7.8, find solubility.",
+     "a": "1.01907",
+     "self_check": false
+    },
+    {
+     "q": "For Common Ion Effect on Salt Solubility: given Ksp = 54, common_ion_conc = 6.4, find solubility.",
+     "a": "1.31836",
+     "self_check": false
+    },
+    {
+     "q": "For Common Ion Effect on Salt Solubility: given Ksp = 41, common_ion_conc = 19, find solubility.",
+     "a": "0.113573",
+     "self_check": false
+    },
+    {
+     "q": "For Common Ion Effect on Salt Solubility: given Ksp = 60, common_ion_conc = 3.6, find solubility.",
+     "a": "4.62963",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

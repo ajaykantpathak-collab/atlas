@@ -34,6 +34,36 @@
      "q": "Design a step-by-step algorithm (in plain English) that converts any positive decimal integer to hexadecimal directly without using binary as an intermediate. Then apply it to convert 1000₁₀ to hex.",
      "a": "Algorithm: (1) Divide the decimal number by 16. (2) Record the remainder (0-15, using 0-9, A-F). (3) Replace the number with the quotient. (4) Repeat until quotient is 0. (5) Read remainders from last to first. Application: 1000÷16=62 r8, 62÷16=3 r14(E), 3÷16=0 r3 → `3E8`. A poor answer that uses binary intermediate or misorders remainders shows inability to generalise the division algorithm to arbitrary bases.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Conversion between number systems is the process of ______ a given numeric value in a different base (radix) using positional notation, where each digit's weight is a power of the base.",
+     "a": "representing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are programming a ______ that reads a temperature sensor giving 8-bit binary output (e.g., 10110110), but your display library only accepts hexadecimal strings.",
+     "a": "microcontroller",
+     "self_check": true
+    },
+    {
+     "q": "What is Conversion between number systems? State the definition given in this lesson.",
+     "a": "Conversion between number systems is the process of representing a given numeric value in a different base (radix) using positional notation, where each digit's weight is a power of the base.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How do you translate ______ to hex without a calculator?",
+     "a": "10110110",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Conversion between number systems?",
+     "a": "Students often treat the binary point (radix point) differently from the decimal point, believing that fractional conversion \"stops\" when the fractional part becomes zero in decimal, not realising that many decimal fractions (e.g., 0.1) are non-terminating in binary.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently convert any integer or fractional number between decimal, binary, octal, and hexadecimal systems using both direct methods (division/multiplication by base) and indirect grouping methods (binary↔octal via 3-bit groups, binary↔hex via 4-bit groups), and verify correctness by reverse conversion.",
+     "self_check": true
     }
    ]
   }

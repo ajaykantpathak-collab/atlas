@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_13_010",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_13_010",
+   "title": "c12_soc_cbse_13_010",
+   "questions": [
+    {
+     "q": "Define the term 'digital divide' as used in the NCERT Class 12 Sociology textbook, and cite the specific statistical evidence provided for India (2017-18).",
+     "a": "The digital divide is the gap between those who have access to computers and the internet and those who do not, leading to unequal opportunities. NCERT cites a 2017-18 study: only 1 in 10 Indian households owned a computer, and about a quarter had internet access via mobile or other devices, with rural areas largely unconnected due to erratic power, illiteracy, and lack of infrastructure. A wrong answer that only mentions 'lack of computers' without the capability/outcome dimensions or the specific Indian data reveals a superficial, non-sociological understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the NCERT text describes the digital divide as 'indicative of what is often termed as the digital divide in our country' when contrasting students who find multiple ICT links at home/office with those who do not. What sociological concept does this illustrate?",
+     "a": "The contrast illustrates how the digital divide is not merely technical but a manifestation of structured social inequality — it maps onto existing hierarchies of class (affluent vs poor), location (urban vs rural), and education (literate vs illiterate). The sociological concept is 'social stratification' (Class 11: c11_soc_cbse_02_003, c11_soc_cbse_06_002): digital access has become a new 'life chance' (Weber) that reinforces class, caste, and gender divides. A wrong answer that treats it as a simple infrastructure gap misses the sociological imagination linking micro (individual access) to macro (global stratification).",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of 'new international division of labour' (NIDL) to explain why the women silk spinners of Bihar lost their jobs when Chinese/Korean silk yarn entered the market, while Indian IT professionals gained high-paying jobs in the same globalised economy.",
+     "a": "NIDL means routine, low-skilled production shifts to low-wage countries (or cheaper regions within a country), while high-skilled, knowledge-intensive work concentrates in privileged hubs. Bihar's women spinners were in a 'flexible', dispensable segment of the global value chain — their labour was replaced by cheaper imports because they lacked bargaining power, digital skills, and capital to upgrade. Meanwhile, urban, English-speaking, digitally literate IT workers entered the 'weightless economy' (software, BPO) where their skills are globally valued. A wrong answer that blames 'competition' without analysing the structural positioning of different labour segments in the global chain fails to apply NIDL.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse how the 'culture of consumption' driven by globalisation (shopping malls, multiplexes, branded goods) deepens the digital divide and creates new status hierarchies among Indian youth.",
+     "a": "The culture of consumption redefines social status around branded, digitally mediated lifestyles (smartphones, fashion, entertainment). Youth with digital access participate in this global consumer culture, gaining cultural capital and social networks; those without are excluded from the reference groups that shape aspirations and identity. Malls and multiplexes physically replace inclusive public spaces, making consumption a prerequisite for social participation. This creates a 'double divide': material (cannot afford) and symbolic (cannot belong). A wrong answer that only lists new consumption sites without analysing exclusionary mechanisms misses the stratification dimension.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: 'Globalisation creates a level playing field because the internet gives everyone equal access to knowledge and markets.' Use evidence from the NCERT text on the dombari community, women gum collectors, and the digital divide statistics.",
+     "a": "The claim is false. The dombari acrobats lost livelihoods because television/circus reached villages — digital media disrupted their traditional audience without offering alternative income. Women gum collectors in Gujarat were displaced by cheaper imported gum, not empowered by market access. The 2017-18 data shows 75% of households lack internet; rural areas face power cuts, illiteracy, and no telephone lines. Digital access is a prerequisite for the 'level playing field', but it is unequally distributed along existing caste/class/urban-rural lines. Globalisation amplifies inequality by making digital capital a new determinant of life chances. A wrong answer that cites 'some people benefit' without structural analysis commits the fallacy of composition.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical case study of two 17-year-olds in India (one urban middle-class, one rural Dalit girl) that illustrates how the digital divide shapes their educational outcomes, career aspirations, and vulnerability to labour market flexibility under globalisation. Include at least three specific mechanisms from the NCERT chapter.",
+     "a": "A strong case study will contrast: (1) Urban student: broadband, laptop, coding classes, BPO/IT career path, parental safety net — positioned in 'weightless economy' with high life chances. (2) Rural Dalit girl: shared 2G phone, erratic power, no computer, school closures during COVID meant total learning loss, family depends on precarious informal work (e.g., gum collection, weaving) vulnerable to import competition — positioned in 'flexible, dispensable labour' segment. Mechanisms: digital access as educational infrastructure; NIDL determining labour vulnerability; cultural capital from consumption practices shaping aspirations. A weak case study treats differences as individual merit/luck, ignoring structural mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The digital divide refers to the unequal access to, use of, and impact of information and communication technologies (ICTs) between different social groups, regions, and countries, creating a new axis of global stratification where those with digital access gain educational, economic, and political advantages while the digitally excluded face deepening ______.",
+     "a": "marginalisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a Class 12 student in a metropolitan city attending online classes seamlessly on a high-speed broadband ______, while her cousin in a remote village in Bihar climbs a hill to catch a 2G signal on a shared smartphone to submit the same assignment.",
+     "a": "connection",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) explain how the digital divide operates at global, national, and local levels using specific Indian examples from the NCERT text, and (2) analyse how digital inequality intersects with existing social hierarchies (caste, class, gender, rural/urban) to produce new forms of stratification under globalisation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a Class 12 student in a ______ city attending online classes seamlessly on a high-speed broadband connection, while her cousin in a remote village in Bihar climbs a hill to catch a 2G signal on a shared smartphone to submit the same assignment.",
+     "a": "metropolitan",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,36 @@
      "q": "Design a \"Moon Phase Predictor\" wheel for your school science fair that lets visitors dial a date and see the Moon phase. Describe the two concentric circles, their markings, and how to align them for any month.",
      "a": "Inner circle: 29.5 equal sectors labeled with 8 phase names (repeating). Outer circle: calendar dates 1-31. Align by setting a known reference (e.g., \"Full Moon on 17th Oct\") — rotate inner circle until \"Full Moon\" sector aligns with 17 on outer. Then any date shows its phase. A poor answer (e.g., \"just draw Moon shapes on a calendar\") misses the cyclic alignment mechanism and reusability across months.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Predicting moon phases is the process of ______ the Moon's illuminated appearance on any future date by using the regular 29.5-day lunar cycle pattern, where the sequence of phases (New → Waxing Crescent → First Quarter → Waxing Gibbous → Full → Waning Gibbous → Third Quarter → Waning Crescent → New) repeats predictably.",
+     "a": "determining",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at the Moon tonight from your terrace or balcony in Delhi — suppose it appears as a Half Moon (First ______).",
+     "a": "Quarter",
+     "self_check": true
+    },
+    {
+     "q": "What is Predicting moon phases? State the definition given in this lesson.",
+     "a": "Predicting moon phases is the process of determining the Moon's illuminated appearance on any future date by using the regular 29.5-day lunar cycle pattern, where the sequence of phases (New → Waxing Crescent → First Quarter → Waxing Gibbous → Full → Waning Gibbous → Third Quarter → Waning Crescent → New) repeats predictably.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Predicting moon phases is the process of determining the Moon's illuminated appearance on any future date by using the regular ______-day lunar cycle pattern, where the sequence of phases (New → Waxing Crescent → First Quarter → Waxing Gibbous → Full → Waning Gibbous → Third Quarter → Waning Crescent → New) repeats predictably.",
+     "a": "29.5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Predicting moon phases?",
+     "a": "Students think the Moon's phase cycle is exactly 28 days (4 weeks × 7 days) because they memorize \"4 weeks per phase\" from primary school.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can predict the Moon's phase on a specific future date (e.g., \"What will the Moon look like on Diwali?\") by calculating the number of days from a known reference phase and advancing through the 8-phase cycle, correctly handling the 29.5-day period.",
+     "self_check": true
     }
    ]
   }

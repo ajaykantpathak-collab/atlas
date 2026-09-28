@@ -34,6 +34,26 @@
      "q": "Create your own inferential question based on the second stanza of the poem (\"Some twenty-thirty years later...\") and provide a model answer using textual evidence.",
      "a": "Sample question: \"Why does the mother laugh at the snapshot 'betraying' her past?\" Model answer: The mother laughs because the photograph captures a moment of carefree childhood that contrasts with her later life; the word \"betraying\" suggests the photo reveals a self she has left behind. Evidence: \"She'd laugh at the snapshot. 'See Betty and Dolly,' she'd say, 'and look how they dressed us for the beach.'\" The laughter is nostalgic, tinged with the irony that the past is both preserved and exposed. A poor question would be literal (e.g., \"Who are Betty and Dolly?\") showing inability to generate higher-order questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal comprehension questions require answers directly stated in the text; ______ comprehension questions require reading between the lines, using textual evidence to draw conclusions not explicitly stated.",
+     "a": "inferential",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you find an old ______ of your grandmother as a child.",
+     "a": "photograph",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently distinguish between literal and inferential questions, locate explicit textual evidence for literal answers, and combine implicit clues with textual evidence to formulate justified inferential answers for the poem \"A Photograph\".",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you find an old photograph of your ______ as a child.",
+     "a": "grandmother",
+     "self_check": true
     }
    ]
   }

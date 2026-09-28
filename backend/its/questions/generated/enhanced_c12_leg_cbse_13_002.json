@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_13_002",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_13_002",
+   "title": "c12_leg_cbse_13_002",
+   "questions": [
+    {
+     "q": "What is the single category of legal practitioners recognised under the Advocates Act, 1961, and what were the old categories it replaced?",
+     "a": "The Advocates Act, 1961 recognises only one category: \"Advocate.\" It abolished and consolidated the old categories of vakils, barristers, pleaders (of several grades), and mukhtars. A wrong answer (e.g., \"Senior Advocate\" or \"Advocate-on-Record\") reveals the student confuses classification *within* the profession with the *single recognised category* itself — a fundamental misunderstanding of Section 16 and the Act's consolidating purpose.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a law graduate cannot start practicing in court immediately after obtaining an LL.B. degree, even if they have passed all university exams.",
+     "a": "An LL.B. degree is necessary but not sufficient. The graduate must also: (1) pass the All India Bar Examination (AIBE) conducted by the Bar Council of India (mandatory since 2010), (2) apply for enrolment with a State Bar Council under Section 24 of the Advocates Act, 1961, and (3) obtain a Certificate of Practice. A wrong answer focusing only on the degree shows the student does not understand the statutory licensing framework — a common error because university curricula emphasise academic completion over professional registration.",
+     "self_check": true
+    },
+    {
+     "q": "A foreign national with a law degree from a UK university wants to practice law in India. Under what conditions can they be enrolled as an advocate?",
+     "a": "A foreign national can be enrolled only on a *reciprocal basis* — their country must allow Indian advocates to practice there on similar terms, and the Bar Council of India must recognise their foreign law degree. Without reciprocity, foreign nationals cannot practice in India. A wrong answer (e.g., \"they can practice if they pass AIBE\") ignores the statutory requirement of reciprocity under Section 24(1)(d) and the Bar Council's recognition list — a trap in competitive exams like CUET and CLAT PG.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the roles of the Bar Council of India (BCI) and a State Bar Council. Which body has the power to recognise universities for legal education, and which maintains the roll of advocates?",
+     "a": "The Bar Council of India *recognises universities* whose law degrees qualify for enrolment (Section 7(1)(i)), while *State Bar Councils maintain the roll of advocates* (Section 6(1)(b)). BCI sets *standards* for legal education and professional conduct; State Bar Councils *admit* advocates, *handle disciplinary cases* against advocates on their roll, and *organise legal aid*. A wrong answer swapping these functions shows confusion between the *national regulatory/standard-setting* role (BCI) and the *state-level administrative/disciplinary* role (State Bar Councils) — a distinction critical for understanding the federal structure of legal regulation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"The prohibition on advertising by advocates in India is outdated and violates their right to freedom of speech under Article 19(1)(a).\"",
+     "a": "The argument is weak. While Article 19(1)(a) protects commercial speech, the Supreme Court has upheld reasonable restrictions on professional advertising to preserve the dignity of the legal profession (e.g., *Indian Council of Legal Aid and Advice v. Bar Council of India*). The Bar Council of India Rules permit limited website information (name, contact, enrolment, qualifications, practice areas) after approval — a *balanced* approach. Unlike the USA (where *Bates v. State Bar* allowed advertising), India follows the British tradition of treating law as a \"noble profession\" where solicitation undermines public trust. A wrong answer claiming absolute free speech rights ignores the *reasonable restrictions* under Article 19(2) and the *professional ethics* rationale — a common error in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step pathway for a Class 12 student today to become a Senior Advocate of the Supreme Court of India. Include all statutory, educational, and experiential requirements.",
+     "a": "1. Complete 10+2 → 2. Clear CLAT/AILET/LSAT → 3. Complete 5-year integrated LL.B. (or 3-year LL.B. after graduation) from a BCI-recognised university → 4. Pass All India Bar Examination (AIBE) → 5. Enrol with a State Bar Council → 6. Practice as an advocate for *at least 10–15 years* (typically) with distinguished standing → 7. Be designated as Senior Advocate by the Supreme Court under Section 16(2) of the Advocates Act, 1961, based on \"ability, standing at the Bar, special knowledge or experience in law\" — *with the advocate's consent*. A poor answer misses the *consent requirement*, the *subjective judicial assessment* (not automatic by years), or the *bar on Senior Advocates from filing vakalatnamas or drafting* — showing superficial understanding of the designation's purpose and restrictions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

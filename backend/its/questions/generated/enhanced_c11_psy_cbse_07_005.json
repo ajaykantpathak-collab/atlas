@@ -34,6 +34,26 @@
      "q": "Create a short scenario (3-4 sentences) that illustrates a person using *both* deductive and inductive reasoning sequentially to solve a problem.",
      "a": "Example: \"Riya notices her phone battery drains quickly after installing a new app (inductive observation: specific instances → hypothesis: the app causes drain). She then recalls the general rule: 'Background apps consume battery' (deductive premise) and concludes: 'If I restrict this app's background activity, my battery will last longer' (deductive application).\" A poor answer that uses only one type or sequences them illogically shows inability to synthesize both reasoning modes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Reasoning is a goal-directed cognitive process of drawing conclusions by logically evaluating information; deductive reasoning moves from a general premise to a specific conclusion (if premises are true, conclusion must be true), while inductive reasoning moves from specific ______ to a probable general conclusion (conclusion is likely but not certain).",
+     "a": "observations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a detective arriving at a crime scene: you see a broken window (______) and hypothesize a burglary (general conclusion) — that is inductive reasoning.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "What is Reasoning? State the definition given in this lesson.",
+     "a": "Reasoning is a goal-directed cognitive process of drawing conclusions by logically evaluating information; deductive reasoning moves from a general premise to a specific conclusion (if premises are true, conclusion must be true), while inductive reasoning moves from specific observations to a probable general conclusion (conclusion is.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify a given reasoning scenario as deductive or inductive, explain why a deductive argument is valid or invalid based on premise truth, and describe why inductive conclusions are probabilistic rather than certain.",
+     "self_check": true
     }
    ]
   }

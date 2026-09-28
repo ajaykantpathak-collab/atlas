@@ -34,6 +34,26 @@
      "q": "Create a real-life problem (using an Indian context like a kite, a field, or a floor tile) that requires using the angle sum property of a quadrilateral to find a missing angle. Write the problem and solve it.",
      "a": "Example: A farmer has a quadrilateral field. Three corners measure 80°, 100°, and 110°. What is the fourth angle? Solution: 360° − (80°+100°+110°) = 70°. A poor problem (e.g., using a triangle, or not providing three angles) reveals the student cannot distinguish quadrilaterals from other polygons or does not understand what information is needed to apply the property.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The sum of the interior angles of any ______ is always 360 degrees.",
+     "a": "quadrilateral",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a rangoli pattern for Diwali using four straight sticks to make a ______ frame.",
+     "a": "quadrilateral",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The sum of the interior angles of any quadrilateral is always ______ degrees.",
+     "a": "360",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can prove the angle sum property by dividing a quadrilateral into two triangles, apply it to find missing angles in any quadrilateral (including those with algebraic expressions), and explain why the property holds for all quadrilaterals regardless of shape.",
+     "self_check": true
     }
    ]
   }

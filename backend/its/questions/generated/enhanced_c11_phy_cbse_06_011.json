@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using two identical cylindrical cans (one filled with sand, one empty but with sand glued only to the inner curved surface) to demonstrate the difference in moment of inertia between a solid cylinder and a hollow cylinder of the same mass and radius. Describe the procedure and the expected observation.",
      "a": "Procedure: Place both cans on a gentle incline (e.g., a wooden plank) and release them simultaneously from rest. Observe which reaches the bottom first. Expected observation: The can with sand distributed throughout (solid cylinder) will accelerate faster and reach the bottom before the can with sand only at the rim (hollow cylinder). This happens because the hollow cylinder has a larger moment of inertia (I = M R²) compared to the solid cylinder (I = ½ M R²), so more potential energy is converted to rotational kinetic energy. A poor answer might suggest using a stopwatch to measure time but not controlling the incline angle or not ensuring rolling without slipping. A good answer includes repeating the trial, ensuring no slipping, and explaining the energy partition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The moment of inertia of a rigid body about a given axis is the sum of the products of the masses of its constituent particles and the squares of their ______ distances from that axis.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a potter's wheel (chakki) in a village: a heavy stone disc rotates smoothly because its mass is ______ at the rim, giving it a large moment of inertia.",
+     "a": "concentrated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For common symmetric bodies (thin ring, disc, rod, cylinder, sphere), standard formulas about specific axes are tabulated (NCERT Table ______).",
+     "a": "6.1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) recall and correctly write the moment of inertia formulas for all eight standard bodies in Table 6.1 about their specified axes; (2) compute the radius of gyration k from I = Mk²; (3) apply the parallel and perpendicular axis theorems to find moments of inertia about axes not listed in the table; (4) select the.",
+     "self_check": true
     }
    ]
   }

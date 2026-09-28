@@ -1,0 +1,293 @@
+{
+ "catalog": "catalog_class12_economics_ch123.json",
+ "concepts": [
+  {
+   "id": "lekl.123.1",
+   "title": "Darkness Ratio in Cinematography",
+   "converted_to_compute": true,
+   "formula": "darkness_time = running_time * 0.45",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "darkness_time = running_time * 0.45",
+     "compute": "darkness_time = running_time * 0.45"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "lekl.123.1",
+     "question_pattern": "If a film runs for {running_time} hours, how many minutes of darkness does the audience experience"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Darkness Ratio in Cinematography: given running_time = 77, find darkness time.",
+     "a": "34.65",
+     "self_check": false
+    },
+    {
+     "q": "If a film runs for 77 hours, how many minutes of darkness does the audience experience?",
+     "a": "34.65",
+     "self_check": false
+    },
+    {
+     "q": "For Darkness Ratio in Cinematography: given running_time = 45, find darkness time.",
+     "a": "20.25",
+     "self_check": false
+    },
+    {
+     "q": "If a film runs for 45 hours, how many minutes of darkness does the audience experience?",
+     "a": "20.25",
+     "self_check": false
+    },
+    {
+     "q": "For Darkness Ratio in Cinematography: given running_time = 100, find darkness time.",
+     "a": "45",
+     "self_check": false
+    },
+    {
+     "q": "If a film runs for 100 hours, how many minutes of darkness does the audience experience?",
+     "a": "45",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lekl.123.2",
+   "title": "The Embryonic Nucleus of a Film",
+   "converted_to_compute": true,
+   "formula": "nucleus = stimulus + mental_state",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "nucleus = stimulus + mental_state",
+     "compute": "nucleus = stimulus + mental_state"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For The Embryonic Nucleus of a Film: given stimulus = 85, mental_state = 51, find nucleus.",
+     "a": "136",
+     "self_check": false
+    },
+    {
+     "q": "For The Embryonic Nucleus of a Film: given stimulus = 16.7, mental_state = 41, find nucleus.",
+     "a": "57.7",
+     "self_check": false
+    },
+    {
+     "q": "For The Embryonic Nucleus of a Film: given stimulus = 90, mental_state = 42, find nucleus.",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "For The Embryonic Nucleus of a Film: given stimulus = 84, mental_state = 53, find nucleus.",
+     "a": "137",
+     "self_check": false
+    },
+    {
+     "q": "For The Embryonic Nucleus of a Film: given stimulus = 49, mental_state = 50, find nucleus.",
+     "a": "99",
+     "self_check": false
+    },
+    {
+     "q": "For The Embryonic Nucleus of a Film: given stimulus = 93, mental_state = 22, find nucleus.",
+     "a": "115",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lekl.123.3",
+   "title": "Film Rhythm and Montage",
+   "converted_to_compute": true,
+   "formula": "film_vitality = montage + rhythm + shot_relationship",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "film_vitality = montage + rhythm + shot_relationship",
+     "compute": "film_vitality = montage + rhythm + shot_relationship"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Film Rhythm and Montage: given montage = 12, rhythm = 12.8, shot_relationship = 83, find film vitality.",
+     "a": "107.8",
+     "self_check": false
+    },
+    {
+     "q": "For Film Rhythm and Montage: given montage = 4.4, rhythm = 12.7, shot_relationship = 33, find film vitality.",
+     "a": "50.1",
+     "self_check": false
+    },
+    {
+     "q": "For Film Rhythm and Montage: given montage = 71, rhythm = 69, shot_relationship = 64, find film vitality.",
+     "a": "204",
+     "self_check": false
+    },
+    {
+     "q": "For Film Rhythm and Montage: given montage = 23, rhythm = 51, shot_relationship = 32, find film vitality.",
+     "a": "106",
+     "self_check": false
+    },
+    {
+     "q": "For Film Rhythm and Montage: given montage = 47, rhythm = 97, shot_relationship = 102, find film vitality.",
+     "a": "246",
+     "self_check": false
+    },
+    {
+     "q": "For Film Rhythm and Montage: given montage = 41, rhythm = 19.1, shot_relationship = 15.2, find film vitality.",
+     "a": "75.3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lekl.123.5",
+   "title": "The Imperfect Nature of the Screenplay",
+   "converted_to_compute": true,
+   "formula": "script_limitations = omitted_tempo + omitted_atmosphere + omitted_subtext",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "script_limitations = omitted_tempo + omitted_atmosphere + omitted_subtext",
+     "compute": "script_limitations = omitted_tempo + omitted_atmosphere + omitted_subtext"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For The Imperfect Nature of the Screenplay: given omitted_tempo = 77, omitted_atmosphere = 50, omitted_subtext = 48, find script limitations.",
+     "a": "175",
+     "self_check": false
+    },
+    {
+     "q": "For The Imperfect Nature of the Screenplay: given omitted_tempo = 72, omitted_atmosphere = 20, omitted_subtext = 5, find script limitations.",
+     "a": "97",
+     "self_check": false
+    },
+    {
+     "q": "For The Imperfect Nature of the Screenplay: given omitted_tempo = 23, omitted_atmosphere = 99, omitted_subtext = 97, find script limitations.",
+     "a": "219",
+     "self_check": false
+    },
+    {
+     "q": "For The Imperfect Nature of the Screenplay: given omitted_tempo = 91, omitted_atmosphere = 29, omitted_subtext = 7.6, find script limitations.",
+     "a": "127.6",
+     "self_check": false
+    },
+    {
+     "q": "For The Imperfect Nature of the Screenplay: given omitted_tempo = 17.9, omitted_atmosphere = 82, omitted_subtext = 2.5, find script limitations.",
+     "a": "102.4",
+     "self_check": false
+    },
+    {
+     "q": "For The Imperfect Nature of the Screenplay: given omitted_tempo = 52, omitted_atmosphere = 73, omitted_subtext = 81, find script limitations.",
+     "a": "206",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lekl.123.6",
+   "title": "The Cathedral-Building Metaphor",
+   "converted_to_compute": true,
+   "formula": "collective_art = collaboration + anonymity + common_purpose",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "collective_art = collaboration + anonymity + common_purpose",
+     "compute": "collective_art = collaboration + anonymity + common_purpose"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For The Cathedral-Building Metaphor: given collaboration = 3.4, anonymity = 42, common_purpose = 13.2, find collective art.",
+     "a": "58.6",
+     "self_check": false
+    },
+    {
+     "q": "For The Cathedral-Building Metaphor: given collaboration = 46, anonymity = 85, common_purpose = 8.9, find collective art.",
+     "a": "139.9",
+     "self_check": false
+    },
+    {
+     "q": "For The Cathedral-Building Metaphor: given collaboration = 51, anonymity = 59, common_purpose = 14.9, find collective art.",
+     "a": "124.9",
+     "self_check": false
+    },
+    {
+     "q": "For The Cathedral-Building Metaphor: given collaboration = 48, anonymity = 83, common_purpose = 11.6, find collective art.",
+     "a": "142.6",
+     "self_check": false
+    },
+    {
+     "q": "For The Cathedral-Building Metaphor: given collaboration = 31, anonymity = 12.9, common_purpose = 11.3, find collective art.",
+     "a": "55.2",
+     "self_check": false
+    },
+    {
+     "q": "For The Cathedral-Building Metaphor: given collaboration = 40, anonymity = 58, common_purpose = 5.5, find collective art.",
+     "a": "103.5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lekl.123.8",
+   "title": "Grammatical Analysis of a Sentence",
+   "converted_to_compute": true,
+   "formula": "sentence = subject + predicate",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "sentence = subject + predicate",
+     "compute": "sentence = subject + predicate"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Grammatical Analysis of a Sentence: given subject = 89, predicate = 33, find sentence.",
+     "a": "122",
+     "self_check": false
+    },
+    {
+     "q": "For Grammatical Analysis of a Sentence: given subject = 60, predicate = 11.1, find sentence.",
+     "a": "71.1",
+     "self_check": false
+    },
+    {
+     "q": "For Grammatical Analysis of a Sentence: given subject = 22, predicate = 16.4, find sentence.",
+     "a": "38.4",
+     "self_check": false
+    },
+    {
+     "q": "For Grammatical Analysis of a Sentence: given subject = 50, predicate = 83, find sentence.",
+     "a": "133",
+     "self_check": false
+    },
+    {
+     "q": "For Grammatical Analysis of a Sentence: given subject = 72, predicate = 37, find sentence.",
+     "a": "109",
+     "self_check": false
+    },
+    {
+     "q": "For Grammatical Analysis of a Sentence: given subject = 91, predicate = 68, find sentence.",
+     "a": "159",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

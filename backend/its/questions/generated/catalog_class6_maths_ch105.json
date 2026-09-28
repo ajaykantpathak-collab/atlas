@@ -5,6 +5,8 @@
    "id": "fegp.105.5.1.1",
    "title": "Count of Multiples up to a Limit",
    "converted_to_compute": false,
+   "formula": "count = limit // number",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate the limit of 1x^2 + 5x + 7 as x approaches 4 (direct substitution).",
@@ -42,6 +44,8 @@
    "id": "fegp.105.5.1.2",
    "title": "Nth Common Multiple",
    "converted_to_compute": false,
+   "formula": "nth_multiple = n * lcm",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 30 and 40 have HCF 10 with coprime multipliers 3 and 4. Verify by computing hcf = 10 x 1; then find the HCF value.",
@@ -78,15 +82,9 @@
   {
    "id": "fegp.105.5.1.3",
    "title": "Common Factors and Shared Divisors",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
-     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 8 * 1 gives 8",
-     "compute": "hcf = 8 * 1"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "common_factors = factors(a) intersect factors(b)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 56 and 16 have HCF 8 with coprime multipliers 7 and 2. Verify by computing hcf = 8 x 1; then find the HCF value.",
@@ -123,26 +121,14 @@
   {
    "id": "fegp.105.5.1.4",
    "title": "Perfect Numbers",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "verify the number-theory claim numerically",
-     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
-     "compute": "lhs = 3 ** 3 + 4 ** 3"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
-     "compute": "diff = 5 ** 3 - lhs"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "sum_of_factors = 2 * number",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
      "a": "34",
-     "self_check": false
+     "self_check": true
     },
     {
      "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
@@ -161,7 +147,7 @@
     },
     {
      "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
-     "a": "0",
+     "a": "18",
      "self_check": false
     },
     {
@@ -174,15 +160,9 @@
   {
    "id": "fegp.105.5.2.1",
    "title": "Prime and Composite Numbers",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
-     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 9 * 1 gives 9",
-     "compute": "hcf = 9 * 1"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "factor_count = 2 for prime, >2 for composite",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 45 and 72 have HCF 9 with coprime multipliers 5 and 8. Verify by computing hcf = 9 x 1; then find the HCF value.",
@@ -219,26 +199,14 @@
   {
    "id": "fegp.105.5.2.2",
    "title": "Twin Primes",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "verify the number-theory claim numerically",
-     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
-     "compute": "lhs = 3 ** 3 + 4 ** 3"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
-     "compute": "diff = 5 ** 3 - lhs"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "p2 - p1 = 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
      "a": "34",
-     "self_check": false
+     "self_check": true
     },
     {
      "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
@@ -257,7 +225,7 @@
     },
     {
      "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
-     "a": "0",
+     "a": "18",
      "self_check": false
     },
     {
@@ -270,26 +238,14 @@
   {
    "id": "fegp.105.5.3.1",
    "title": "Co-prime Numbers",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "verify the number-theory claim numerically",
-     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
-     "compute": "lhs = 3 ** 3 + 4 ** 3"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
-     "compute": "diff = 5 ** 3 - lhs"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "gcd(a, b) = 1",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
      "a": "34",
-     "self_check": false
+     "self_check": true
     },
     {
      "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
@@ -308,7 +264,7 @@
     },
     {
      "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
-     "a": "0",
+     "a": "18",
      "self_check": false
     },
     {
@@ -322,6 +278,8 @@
    "id": "fegp.105.5.4.1",
    "title": "Product of Prime Factors",
    "converted_to_compute": false,
+   "formula": "number = factor1 * factor2 * factor3",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 70 and 80 have HCF 10 with coprime multipliers 7 and 8. Verify by computing hcf = 10 x 1; then find the HCF value.",
@@ -358,15 +316,9 @@
   {
    "id": "fegp.105.5.4.2",
    "title": "Divisibility Check via Prime Factorisation",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
-     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 12 * 1 gives 12",
-     "compute": "hcf = 12 * 1"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "prime_factors(divisor) included in prime_factors(dividend)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 84 and 60 have HCF 12 with coprime multipliers 7 and 5. Verify by computing hcf = 12 x 1; then find the HCF value.",
@@ -403,15 +355,9 @@
   {
    "id": "fegp.105.5.5.1",
    "title": "Divisibility Rules for 2, 5, and 10",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
-     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 12 * 1 gives 12",
-     "compute": "hcf = 12 * 1"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "last_digit test for 2, 5, 10",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 12 and 96 have HCF 12 with coprime multipliers 1 and 8. Verify by computing hcf = 12 x 1; then find the HCF value.",
@@ -448,15 +394,9 @@
   {
    "id": "fegp.105.5.5.2",
    "title": "Divisibility Rules for 4 and 8",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
-     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 9 * 1 gives 9",
-     "compute": "hcf = 9 * 1"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "last_two_digits % 4 == 0 or last_three_digits % 8 == 0",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 45 and 72 have HCF 9 with coprime multipliers 5 and 8. Verify by computing hcf = 9 x 1; then find the HCF value.",

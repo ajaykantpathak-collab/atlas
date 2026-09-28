@@ -34,6 +34,31 @@
      "q": "Design a real-world problem for a Class 9 student where this theorem is used to find the centre of a circular object (e.g., a plate, a wheel, a roundabout) using only a ruler, a set square, and a pencil. The problem must require drawing at least two chords and explaining why the intersection gives the centre.",
      "a": "**Sample problem:** \"You have a circular metal plate with no centre mark. You need to drill a hole exactly at its centre for a shaft. Using only a ruler, set square, and pencil, describe the steps to mark the centre accurately.\" **Good answer:** (1) Draw chord AB anywhere on the plate. (2) Use set square to draw perpendicular bisector of AB. (3) Draw another chord CD not parallel to AB. (4) Draw perpendicular bisector of CD. (5) Mark intersection O of the two bisectors — this is the centre. **Justification:** By theorem, centre lies on perpendicular bisector of any chord. Two non-parallel chords give two distinct bisectors intersecting at the unique centre. A poor answer uses only one chord, or draws diameters by guessing, or doesn't justify why intersection is the centre. This tests ability to transfer geometric reasoning to practical construction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ bisector of any chord of a circle always passes through the centre of that circle.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a surveyor in Rajasthan trying to locate the exact centre of a circular ancient well using only a ______ tape and a plumb line.",
+     "a": "measuring",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: By SSS congruence, the triangles are congruent, so ∠OMA = ∠OMB = ______°, proving OM is perpendicular to AB and thus O lies on the perpendicular bisector.",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can prove the theorem using triangle congruence (SSS or RHS), apply it to find the centre of a given circle using two chords, and solve problems where the perpendicular distance from centre to chord is calculated using Pythagoras theorem combined with this property.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a surveyor in ______ trying to locate the exact centre of a circular ancient well using only a measuring tape and a plumb line.",
+     "a": "Rajasthan",
+     "self_check": true
     }
    ]
   }

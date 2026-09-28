@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_12_001",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_12_001",
+   "title": "c12_eco_cbse_12_001",
+   "questions": [
+    {
+     "q": "What is the Balance of Payments? State its two main accounts and explain how a transaction is classified as a credit or debit item.",
+     "a": "**Model Answer:**\nThe Balance of Payments (BoP) is a systematic record of all economic transactions in goods, services, and assets between the residents of a country and the rest of the world for a specified time period, typically a year. \n\nIts two main accounts are:\n1. **Current Account:** Records trade in goods, services, and transfer payments.\n2. **Capital Account:** Records all international transactions of assets.\n\n**Classification rule for Credit and Debit items:**\n* **Credit Item (+):** Any transaction that leads to an inflow of foreign exchange into the country is entered as a credit item. Examples include export of goods, services, or sale of domestic assets to foreigners.\n* **Debit Item (-):** Any transaction that leads to an outflow of foreign exchange from the country is entered as a debit item. Examples include import of goods, services, or purchase of foreign assets.\n\n**What a wrong answer reveals:**\nA wrong answer might confuse credit and debit rules with standard commercial accounting rules (where debits increase assets), or fail to define BoP from the perspective of foreign exchange flows.",
+     "self_check": true
+    },
+    {
+     "q": "Why are unilateral transfers included in the Current Account rather than the Capital Account, even though they do not involve any immediate exchange of goods or services?",
+     "a": "**Model Answer:**\nUnilateral transfers (such as gifts, remittances, and grants) are receipts or payments that the residents of a country get or give for 'free', without having to provide any goods or services in return. \n\nThey are included in the **Current Account** because:\n1. They do not create any future claim or liability for the country.\n2. They do not lead to any change in the ownership of assets or liabilities between the home country and the rest of the world.\n3. They represent current income/expenditure flows that are consumed within the given period, unlike capital account transactions which strictly record the transfer of wealth-holding assets.\n\n**What a wrong answer reveals:**\nA wrong answer would suggest that transfers belong to the Capital Account because there is no immediate \"quid pro quo\" or exchange of goods, showing a lack of understanding that the Capital Account is strictly reserved for transactions that alter asset/liability statuses.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the Current Account Balance from the following data (in million USD):\n1. Export of goods = 200\n2. Import of goods = 280\n3. Software services exported = 50\n4. Interest paid on foreign loans = 15\n5. Unilateral transfers received from abroad = 25\n\nShow your step-by-step calculations.",
+     "a": "**Model Answer:**\n* **Step 1: Calculate the Balance of Trade (BOT) / Trade Balance**\n  $$\\text{BOT} = \\text{Export of goods} - \\text{Import of goods}$$\n  $$\\text{BOT} = 200 - 280 = -80 \\text{ million USD (Trade Deficit)}$$\n\n* **Step 2: Calculate Net Invisibles**\n  Invisibles include services (factor and non-factor) and transfers.\n  * Non-factor services (Software services exported) = $+50$ million USD (Inflow/Credit)\n  * Factor income (Interest paid on foreign loans) = $-15$ million USD (Outflow/Debit)\n  * Transfer payments (Unilateral transfers received) = $+25$ million USD (Inflow/Credit)\n  \n  $$\\text{Net Invisibles} = 50 + (-15) + 25 = +60 \\text{ million USD}$$\n\n* **Step 3: Calculate Current Account Balance**\n  $$\\text{Current Account Balance} = \\text{Balance of Trade} + \\text{Net Invisibles}$$\n  $$\\text{Current Account Balance} = -80 + 60 = -20 \\text{ million USD}$$\n\n**Conclusion:** The Current Account Balance is a deficit of 20 million USD.\n\n**What a wrong answer reveals:**\nA wrong answer might incorrectly classify software services or interest payments under the capital account, or make arithmetic errors by adding imports instead of subtracting them.",
+     "self_check": true
+    },
+    {
+     "q": "Distinguish between Autonomous and Accommodating transactions in the Balance of Payments.",
+     "a": "**Model Answer:**\n\n| Basis of Distinction | Autonomous Transactions | Accommodating Transactions |\n| :--- | :--- | :--- |\n| **Motive / Reason** | Undertaken for individual economic motives, such as profit maximization, independent of the state of the BoP. | Undertaken specifically to bridge the gap (deficit or surplus) in the Balance of Payments. |\n| **Alternative Name** | These are referred to as **'above the line'** items in the BoP. | These are referred to as **'below the line'** items in the BoP. |\n| **Example** | Export and import of goods, private foreign direct investments. | Official reserve transactions by the Central Bank to cover a BoP deficit. |\n\n*(Marking Scheme: 2 marks for content accuracy—1 mark for each distinction point; 1 mark for clear expression and tabular structure).*\n\n**What a wrong answer reveals:**\nA wrong answer might mix up the terms \"above the line\" and \"below the line,\" or fail to explain that accommodating transactions are determined by the net consequences of autonomous transactions.",
+     "self_check": true
+    },
+    {
+     "q": "An Indian resident purchases a manufacturing factory in the United Kingdom. Identify the account and the specific head under which this transaction is recorded, and state whether it is a credit or debit item. Explain why.",
+     "a": "**Model Answer:**\n1. **Account:** Capital Account.\n2. **Specific Head:** Foreign Direct Investment (FDI) / Purchase of Assets.\n3. **Credit/Debit Status:** Debit item (-).\n\n**Reasoning:**\n* It is recorded in the **Capital Account** because it involves the acquisition of a physical/financial asset abroad, which alters the asset status of domestic residents relative to the rest of the world.\n* It is classified as a **Foreign Direct Investment (FDI)** because it involves the direct purchase and control of a business enterprise (a factory) abroad.\n* It is a **debit item** because purchasing an asset abroad requires the payment of foreign currency, leading to an **outflow of foreign exchange** from India.\n\n**What a wrong answer reveals:**\nA wrong answer might classify this under the Current Account because a \"factory\" produces goods, failing to distinguish between buying a capital *good* (current account) and buying a capital *asset* (capital account).",
+     "self_check": true
+    },
+    {
+     "q": "Explain how a persistent Current Account Deficit (CAD) affects a country's Capital Account and the role of the Central Bank's official reserves in achieving Balance of Payments equilibrium.",
+     "a": "**Model Answer:**\nA country with a Current Account Deficit (CAD) is spending more foreign exchange on imports of goods, services, and transfers than it is receiving from its exports. To finance this deficit, the country must find ways to cover the gap:\n\n1. **Financing via Capital Account Surplus:** The deficit must be financed by selling domestic assets or borrowing from abroad. This creates a net capital inflow, which translates into a Capital Account surplus. Thus, any current account deficit must be financed by a capital account surplus:\n   $$\\text{Current Account} + \\text{Capital Account} = 0$$\n\n2. **Role of Official Reserves:** If autonomous capital inflows (like FDI, loans, etc.) are insufficient to cover the current account deficit, the central bank must step in. The central bank sells foreign exchange from its foreign exchange reserves to bridge the remaining gap. This is called an **official reserve sale**. \n   * A decrease in official reserves is entered as a credit item in accommodating transactions, which mathematically balances the overall BoP deficit.\n   * If there is a surplus, the central bank purchases foreign exchange, increasing its official reserves (entered as a debit item).\n\n*(Marking Scheme: 3 marks for content—1.5 marks for CAD-Capital Account link, 1.5 marks for Central Bank reserve mechanism; 2 marks for expression/structure; 1 mark for accuracy of the macroeconomic identity).*\n\n**What a wrong answer reveals:**\nA wrong answer might state that a decrease in reserves is a debit item, or fail to explain that the central bank acts as the ultimate financier of the BoP gap.",
+     "self_check": true
+    },
+    {
+     "q": "Transactions undertaken for the sole purpose of bridging the gap in the Balance of Payments are called ________ transactions.",
+     "a": "accommodating",
+     "self_check": true
+    },
+    {
+     "q": "The difference between a country's exports of goods and imports of goods is known as the Balance of ________.",
+     "a": "Trade",
+     "self_check": true
+    },
+    {
+     "q": "What is Balance of Payments — Current and Capital Accounts? State the definition.",
+     "a": "The Balance of Payments (BoP) is a systematic record of all economic transactions in goods, services, and assets between the residents of a country and the rest of the world for a specified time period, typically a year. It consists of two main accounts: the Current Account, which records trade in goods, services, and transfer payments; and the Capital Account, which records all international transactions of assets.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag?",
+     "a": "Believing that the purchase or import of \"capital goods\" (such as heavy machinery, industrial equipment, or factory plants) is recorded in the Capital Account. In BoP accounting, the term \"Capital Account\" only records transactions in financial assets and liabilities (like stocks, bonds, bank loans, and land/property ownership). Physical machinery and equipment are tangible goods; therefore, their import or export is recorded under \"Trade in Goods\" (Merchandise Trade) in the Current Account.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to:\n1. Define and distinguish between the Current Account and Capital Account of the Balance of Payments.\n2. Classify any given international transaction (such as export of software, purchase of foreign shares, unilateral transfers, or external commercial borrowings) into its correct account and component, specifying whether it is a debit or credit item.\n3. Calculate the Balance of Trade (BOT), Net Invisibles, Current Account Balance, Capital Account Balance, and the Overall Balance of Payments using numerical data.\n4. Explain the relationship between a current account deficit and capital account surplus, including the role of official reserve transactions in balancing the BoP.\n5. Differentiate between autonomous and accommodating transactions (\"above the line\" and \"below the line\" items).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,6 +1,318 @@
 {
- "catalog": "catalog_class11_biology_ch114",
+ "catalog": "catalog_class11_biology_ch114.json",
  "concepts": [
+  {
+   "id": "kebo.14.3",
+   "title": "Mechanism of Breathing",
+   "converted_to_compute": true,
+   "formula": "pressure_gradient = atmospheric_pressure - intrapulmonary_pressure",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "pressure_gradient = atmospheric_pressure - intrapulmonary_pressure",
+     "compute": "pressure_gradient = atmospheric_pressure - intrapulmonary_pressure"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Mechanism of Breathing: given atmospheric_pressure = 253, intrapulmonary_pressure = 293, find pressure gradient.",
+     "a": "-40",
+     "self_check": false
+    },
+    {
+     "q": "For Mechanism of Breathing: given atmospheric_pressure = 90, intrapulmonary_pressure = 162, find pressure gradient.",
+     "a": "-72",
+     "self_check": false
+    },
+    {
+     "q": "For Mechanism of Breathing: given atmospheric_pressure = 453, intrapulmonary_pressure = 321, find pressure gradient.",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "For Mechanism of Breathing: given atmospheric_pressure = 162, intrapulmonary_pressure = 404, find pressure gradient.",
+     "a": "-242",
+     "self_check": false
+    },
+    {
+     "q": "For Mechanism of Breathing: given atmospheric_pressure = 11.2, intrapulmonary_pressure = 385, find pressure gradient.",
+     "a": "-373.8",
+     "self_check": false
+    },
+    {
+     "q": "For Mechanism of Breathing: given atmospheric_pressure = 489, intrapulmonary_pressure = 268, find pressure gradient.",
+     "a": "221",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.4.1",
+   "title": "Tidal Volume and Minute Ventilation",
+   "converted_to_compute": true,
+   "formula": "minute_volume = tidal_volume * breathing_rate",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "minute_volume = tidal_volume * breathing_rate",
+     "compute": "minute_volume = tidal_volume * breathing_rate"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "kebo.14.4.1",
+     "question_pattern": "calculate the minute volume of a healthy man with a tidal volume of {tidal_volume} mL and breathing rate of {breathing_rate} breaths per minute"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Tidal Volume and Minute Ventilation: given tidal_volume = 16.4, breathing_rate = 13.8, find minute volume.",
+     "a": "226.32",
+     "self_check": false
+    },
+    {
+     "q": "calculate the minute volume of a healthy man with a tidal volume of 16.4 mL and breathing rate of 13.8 breaths per minute?",
+     "a": "226.32",
+     "self_check": false
+    },
+    {
+     "q": "For Tidal Volume and Minute Ventilation: given tidal_volume = 35, breathing_rate = 7.2, find minute volume.",
+     "a": "252",
+     "self_check": false
+    },
+    {
+     "q": "calculate the minute volume of a healthy man with a tidal volume of 35 mL and breathing rate of 7.2 breaths per minute?",
+     "a": "252",
+     "self_check": false
+    },
+    {
+     "q": "For Tidal Volume and Minute Ventilation: given tidal_volume = 19.8, breathing_rate = 31, find minute volume.",
+     "a": "613.8",
+     "self_check": false
+    },
+    {
+     "q": "calculate the minute volume of a healthy man with a tidal volume of 19.8 mL and breathing rate of 31 breaths per minute?",
+     "a": "613.8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.4.2",
+   "title": "Inspiratory Capacity (IC)",
+   "converted_to_compute": true,
+   "formula": "inspiratory_capacity = tidal_volume + irv",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "inspiratory_capacity = tidal_volume + irv",
+     "compute": "inspiratory_capacity = tidal_volume + irv"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "kebo.14.4.2",
+     "question_pattern": "calculate the inspiratory capacity given tidal volume of {tidal_volume} mL and IRV of {irv} mL"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Inspiratory Capacity (IC): given tidal_volume = 56, irv = 96, find inspiratory capacity.",
+     "a": "152",
+     "self_check": false
+    },
+    {
+     "q": "calculate the inspiratory capacity given tidal volume of 56 mL and IRV of 96 mL?",
+     "a": "152",
+     "self_check": false
+    },
+    {
+     "q": "For Inspiratory Capacity (IC): given tidal_volume = 35, irv = 41, find inspiratory capacity.",
+     "a": "76",
+     "self_check": false
+    },
+    {
+     "q": "calculate the inspiratory capacity given tidal volume of 35 mL and IRV of 41 mL?",
+     "a": "76",
+     "self_check": false
+    },
+    {
+     "q": "For Inspiratory Capacity (IC): given tidal_volume = 79, irv = 7.7, find inspiratory capacity.",
+     "a": "86.7",
+     "self_check": false
+    },
+    {
+     "q": "calculate the inspiratory capacity given tidal volume of 79 mL and IRV of 7.7 mL?",
+     "a": "86.7",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.4.3",
+   "title": "Expiratory Capacity (EC)",
+   "converted_to_compute": true,
+   "formula": "expiratory_capacity = tidal_volume + erv",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "expiratory_capacity = tidal_volume + erv",
+     "compute": "expiratory_capacity = tidal_volume + erv"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "kebo.14.4.3",
+     "question_pattern": "calculate the expiratory capacity given tidal volume of {tidal_volume} mL and ERV of {erv} mL"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Expiratory Capacity (EC): given tidal_volume = 61, erv = 52, find expiratory capacity.",
+     "a": "113",
+     "self_check": false
+    },
+    {
+     "q": "calculate the expiratory capacity given tidal volume of 61 mL and ERV of 52 mL?",
+     "a": "113",
+     "self_check": false
+    },
+    {
+     "q": "For Expiratory Capacity (EC): given tidal_volume = 15.6, erv = 42, find expiratory capacity.",
+     "a": "57.6",
+     "self_check": false
+    },
+    {
+     "q": "calculate the expiratory capacity given tidal volume of 15.6 mL and ERV of 42 mL?",
+     "a": "57.6",
+     "self_check": false
+    },
+    {
+     "q": "For Expiratory Capacity (EC): given tidal_volume = 64, erv = 6.1, find expiratory capacity.",
+     "a": "70.1",
+     "self_check": false
+    },
+    {
+     "q": "calculate the expiratory capacity given tidal volume of 64 mL and ERV of 6.1 mL?",
+     "a": "70.1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.4.5",
+   "title": "Vital Capacity (VC)",
+   "converted_to_compute": true,
+   "formula": "vital_capacity = erv + tidal_volume + irv",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "vital_capacity = erv + tidal_volume + irv",
+     "compute": "vital_capacity = erv + tidal_volume + irv"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "kebo.14.4.5",
+     "question_pattern": "calculate the vital capacity given ERV of {erv} mL, TV of {tidal_volume} mL, and IRV of {irv} mL"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Vital Capacity (VC): given erv = 60, tidal_volume = 70, irv = 69, find vital capacity.",
+     "a": "199",
+     "self_check": false
+    },
+    {
+     "q": "calculate the vital capacity given ERV of 60 mL, TV of 70 mL, and IRV of 69 mL?",
+     "a": "199",
+     "self_check": false
+    },
+    {
+     "q": "For Vital Capacity (VC): given erv = 66, tidal_volume = 2.9, irv = 70, find vital capacity.",
+     "a": "138.9",
+     "self_check": false
+    },
+    {
+     "q": "calculate the vital capacity given ERV of 66 mL, TV of 2.9 mL, and IRV of 70 mL?",
+     "a": "138.9",
+     "self_check": false
+    },
+    {
+     "q": "For Vital Capacity (VC): given erv = 4.2, tidal_volume = 40, irv = 74, find vital capacity.",
+     "a": "118.2",
+     "self_check": false
+    },
+    {
+     "q": "calculate the vital capacity given ERV of 4.2 mL, TV of 40 mL, and IRV of 74 mL?",
+     "a": "118.2",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebo.14.4.6",
+   "title": "Total Lung Capacity (TLC)",
+   "converted_to_compute": true,
+   "formula": "total_lung_capacity = vital_capacity + residual_volume",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_lung_capacity = vital_capacity + residual_volume",
+     "compute": "total_lung_capacity = vital_capacity + residual_volume"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "kebo.14.4.6",
+     "question_pattern": "calculate the total lung capacity given vital capacity of {vital_capacity} mL and residual volume of {residual_volume} mL"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Total Lung Capacity (TLC): given vital_capacity = 36, residual_volume = 20, find total lung capacity.",
+     "a": "56",
+     "self_check": false
+    },
+    {
+     "q": "calculate the total lung capacity given vital capacity of 36 mL and residual volume of 20 mL?",
+     "a": "56",
+     "self_check": false
+    },
+    {
+     "q": "For Total Lung Capacity (TLC): given vital_capacity = 14.4, residual_volume = 42, find total lung capacity.",
+     "a": "56.4",
+     "self_check": false
+    },
+    {
+     "q": "calculate the total lung capacity given vital capacity of 14.4 mL and residual volume of 42 mL?",
+     "a": "56.4",
+     "self_check": false
+    },
+    {
+     "q": "For Total Lung Capacity (TLC): given vital_capacity = 57, residual_volume = 41, find total lung capacity.",
+     "a": "98",
+     "self_check": false
+    },
+    {
+     "q": "calculate the total lung capacity given vital capacity of 57 mL and residual volume of 41 mL?",
+     "a": "98",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "kebo.14.1",
    "title": "Respiratory Organs in Animals",
@@ -44,130 +356,6 @@
    ]
   },
   {
-   "id": "kebo.14.3",
-   "title": "Mechanism of Breathing",
-   "questions": [
-    {
-     "q": "Using the method 'Mechanism of Breathing', work with: atmospheric_pressure = 300, intrapulmonary_pressure = 40. Carry the chain through step by step and give the final value of pressure_gradient.",
-     "a": "260 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Mechanism of Breathing' and work with: atmospheric_pressure = 300, intrapulmonary_pressure = 150. Carry the chain through step by step and give the final value of pressure_gradient.",
-     "a": "150 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Mechanism of Breathing' refers to.",
-     "a": "The physical process of both inspiration and expiration driven by pressure gradients established between the both atmosphere and the lungs via diaphragmatic and intercostal muscle movements.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Mechanism of Breathing'.",
-     "a": "Air moves into lungs when intrapulmonary pressure is sub-atmospheric and moves out when it exceeds atmospheric pressure.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Mechanism of Breathing', in plain ASCII form.",
-     "a": "pressure_gradient = atmospheric_pressure - intrapulmonary_pressure",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebo.14.4.1",
-   "title": "Tidal Volume and Minute Ventilation",
-   "questions": [
-    {
-     "q": "Calculate the minute volume of a healthy man with a tidal volume of {tidal_volume} mL and breathing rate of {breathing_rate} breaths per minute. Use the method 'Tidal Volume and Minute Ventilation'. Work with: breathing_rate = 15, tidal_volume = 3. Carry the chain through step by step and give the final value of hourly_volume.",
-     "a": "2700 units",
-     "self_check": false
-    },
-    {
-     "q": "Find the breathing rate if minute volume is {minute_volume} mL and tidal volume is {tidal_volume} mL. Use the method 'Tidal Volume and Minute Ventilation'. Work with: breathing_rate = 10, tidal_volume = 240. Carry the chain through step by step and give the final value of hourly_volume.",
-     "a": "144000 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Tidal Volume and Minute Ventilation' refers to.",
-     "a": "Tidal volume is the volume of air moved in or out during normal breathing, which can be multiplied by the breathing rate to determine total minute ventilation.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Tidal Volume and Minute Ventilation'.",
-     "a": "Total air volume inspired or expired per minute is the result of multiplying single-breath volume and respiratory rate.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Tidal Volume and Minute Ventilation', in plain ASCII form.",
-     "a": "minute_volume = tidal_volume * breathing_rate",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebo.14.4.2",
-   "title": "Inspiratory Capacity (IC)",
-   "questions": [
-    {
-     "q": "Calculate the inspiratory capacity given tidal volume of {tidal_volume} mL and IRV of {irv} mL. Use the method 'Inspiratory Capacity (IC)'. Work with: irv = 10, tidal_volume = 24. Carry the chain through step by step and give the final value of inspiratory_capacity.",
-     "a": "34 bytes",
-     "self_check": false
-    },
-    {
-     "q": "Find the IC when TV is {tidal_volume} and inspiratory reserve volume is {irv}. Use the method 'Inspiratory Capacity (IC)'. Work with: irv = 3, tidal_volume = 75. Carry the chain through step by step and give the final value of inspiratory_capacity.",
-     "a": "78 bytes",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Inspiratory Capacity (IC)' refers to.",
-     "a": "The maximum volume of air that can be inspired following a normal, unforced expiration.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Inspiratory Capacity (IC)'.",
-     "a": "Sum of normal breathing volume and the additional volume from a forced inspiration.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Inspiratory Capacity (IC)', in plain ASCII form.",
-     "a": "inspiratory_capacity = tidal_volume + irv",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebo.14.4.3",
-   "title": "Expiratory Capacity (EC)",
-   "questions": [
-    {
-     "q": "Calculate the expiratory capacity given tidal volume of {tidal_volume} mL and ERV of {erv} mL. Use the method 'Expiratory Capacity (EC)'. Work with: erv = 200, tidal_volume = 120. Carry the chain through step by step and give the final value of expiratory_capacity.",
-     "a": "320 bytes",
-     "self_check": false
-    },
-    {
-     "q": "Find the EC when TV is {tidal_volume} and expiratory reserve volume is {erv}. Use the method 'Expiratory Capacity (EC)'. Work with: erv = 150, tidal_volume = 6. Carry the chain through step by step and give the final value of expiratory_capacity.",
-     "a": "156 bytes",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Expiratory Capacity (EC)' refers to.",
-     "a": "The maximum volume of air that can be expired following a normal, unforced inspiration.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Expiratory Capacity (EC)'.",
-     "a": "Sum of normal breathing volume and the additional volume from a forced expiration.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Expiratory Capacity (EC)', in plain ASCII form.",
-     "a": "expiratory_capacity = tidal_volume + erv",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "kebo.14.4.4",
    "title": "Functional Residual Capacity (FRC)",
    "questions": [
@@ -194,68 +382,6 @@
     {
      "q": "Write the standard relation used for 'Functional Residual Capacity (FRC)', in plain ASCII form.",
      "a": "functional_residual_capacity = erv + residual_volume",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebo.14.4.5",
-   "title": "Vital Capacity (VC)",
-   "questions": [
-    {
-     "q": "Calculate the vital capacity given ERV of {erv} mL, TV of {tidal_volume} mL, and IRV of {irv} mL. Use the method 'Vital Capacity (VC)'. Work with: erv = 24, irv = 80, tidal_volume = 3. Carry the chain through step by step and give the final value of vital_capacity.",
-     "a": "107 bytes",
-     "self_check": false
-    },
-    {
-     "q": "Find the VC when expiratory reserve volume is {erv}, tidal volume is {tidal_volume}, and inspiratory reserve volume is {irv}. Use the method 'Vital Capacity (VC)'. Work with: erv = 10, irv = 150, tidal_volume = 75. Carry the chain through step by step and give the final value of vital_capacity.",
-     "a": "235 bytes",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Vital Capacity (VC)' refers to.",
-     "a": "How much air can be pushed out at most after the deepest possible intake, or breathed in after the deepest exhale.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Vital Capacity (VC)'.",
-     "a": "The total exchangeable air volume in the lungs.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Vital Capacity (VC)', in plain ASCII form.",
-     "a": "vital_capacity = erv + tidal_volume + irv",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebo.14.4.6",
-   "title": "Total Lung Capacity (TLC)",
-   "questions": [
-    {
-     "q": "Calculate the total lung capacity given vital capacity of {vital_capacity} mL and residual volume of {residual_volume} mL. Use the method 'Total Lung Capacity (TLC)'. Work with: erv = 25, irv = 400, residual_volume = 8, tidal_volume = 100. Carry the chain through step by step and give the final value of total_lung_capacity.",
-     "a": "533 bytes",
-     "self_check": false
-    },
-    {
-     "q": "Find the TLC when VC is {vital_capacity} and RV is {residual_volume}. Use the method 'Total Lung Capacity (TLC)'. Work with: erv = 8, irv = 500, residual_volume = 200, tidal_volume = 400. Carry the chain through step by step and give the final value of total_lung_capacity.",
-     "a": "1108 bytes",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Total Lung Capacity (TLC)' refers to.",
-     "a": "The total volume of air that the lungs can hold at the end of a maximal, forced inspiration.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Total Lung Capacity (TLC)'.",
-     "a": "The sum of the vital both capacity and the non-exchangeable residual volume.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Total Lung Capacity (TLC)', in plain ASCII form.",
-     "a": "total_lung_capacity = vital_capacity + residual_volume",
      "self_check": true
     }
    ]

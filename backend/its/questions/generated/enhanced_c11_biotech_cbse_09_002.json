@@ -34,6 +34,31 @@
      "q": "Design a decision flowchart (text-based) that a bioinformatician would use to choose between primary, secondary, and composite databases for a new project. Include at least four decision nodes with yes/no branches, covering data rawness, curation need, multi-entity integration, and version control requirements.",
      "a": "```\nSTART: What is your primary need?\n├─ Need raw experimental data with original submitter metadata? → YES → PRIMARY (GenBank, PDB, SRA)\n│   └─ NO → Need expert-curated, annotated, non-redundant data for one molecular type?\n├─ YES → SECONDARY (UniProt, Pfam, PROSITE)\n│   └─ NO → Need integrated view across genes, proteins, pathways, diseases, literature?\n├─ YES → COMPOSITE (OMIM, KEGG, NCBI Entrez, Ensembl)\n│   └─ NO → Need to track exact version history for reproducibility?\n├─ YES → PRIMARY (accession.version system)\n│   └─ NO → Re-evaluate requirements\n```\nA poor answer (e.g., a linear list without branching) reveals the student cannot model the multi-criteria decision process that defines bioinformatics workflow design.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Primary databases store raw ______ data submitted directly by researchers (e.g., GenBank for nucleotide sequences, PDB for 3D structures).",
+     "a": "experimental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Where would you deposit this ______ data so other scientists can access it?",
+     "a": "original",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Primary databases store raw experimental data submitted directly by researchers (e.g., GenBank for nucleotide sequences, PDB for ______D structures).",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can classify any given biological database (GenBank, UniProt, PDB, KEGG, OMIM, RefSeq, Pfam) as primary, secondary, or composite with justification based on data origin and processing level, and explain why a researcher would choose each type for a specific bioinformatics task.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Where would you deposit this original data so other ______ can access it?",
+     "a": "scientists",
+     "self_check": true
     }
    ]
   }

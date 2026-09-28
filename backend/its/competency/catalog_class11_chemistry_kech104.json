@@ -134,7 +134,16 @@
      "explain": "Take the difference between bonding and antibonding electron counts and divide by 2",
      "compute": "bond_order = (bonding_electrons - antibonding_electrons) / 2"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "bond_order = (bonding_electrons - antibonding_electrons) / 2",
+     "compute": "bond_order = (bonding_electrons - antibonding_electrons) / 2"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

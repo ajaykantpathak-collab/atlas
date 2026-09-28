@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (Indian context) where finding the distance between two parallel lines is necessary. Define the lines, state the problem, and outline the steps to solve it without actually computing the final number.",
      "a": "Example: \"Two railway tracks run parallel. Their equations on a survey map are \\(5x - 12y + 30 = 0\\) and \\(5x - 12y - 150 = 0\\), where units are in metres. Find the distance between the tracks (gauge width).\" Steps: 1) Confirm parallelism (same \\(A=5, B=-12\\)). 2) Identify \\(C_1 = 30, C_2 = -150\\). 3) Apply formula \\(d = \\frac{|30 - (-150)|}{\\sqrt{5^2 + (-12)^2}} = \\frac{180}{13}\\) metres. 4) Interpret: the gauge is \\(\\frac{180}{13} \\approx 13.85\\) m (broad gauge is 1.676 m, so this is a scaled map). A poor problem would use non-parallel lines, forget units, or give lines needing coefficient normalization without mentioning it. This reveals whether the student can translate a physical situation into the mathematical model and recognise when preprocessing (scaling) is needed.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The distance between two parallel lines is the length of the ______ segment drawn from any point on one line to the other line.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ on one side of a straight road that runs perfectly parallel to the footpath.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly compute the distance between any two parallel lines given in general form, normal form, or slope-intercept form by first verifying parallelism, converting to required form, and applying the formula.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing on one side of a straight road that runs ______ parallel to the footpath.",
+     "a": "perfectly",
+     "self_check": true
     }
    ]
   }

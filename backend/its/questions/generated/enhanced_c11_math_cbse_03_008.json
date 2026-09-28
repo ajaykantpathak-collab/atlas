@@ -34,6 +34,16 @@
      "q": "Create a real-world problem (in an Indian context) where a surveyor or architect must use the Pythagorean identity \\(\\sin^2 x + \\cos^2 x = 1\\) to find an unknown trigonometric ratio, given one ratio and quadrant information. Provide the problem statement and the complete solution.",
      "a": "**Problem:** An architect designing a ramp for a metro station in Bengaluru knows the ramp makes an angle \\(x\\) with the horizontal where \\(\\cos x = \\frac{4}{5}\\) and the ramp slopes upward (angle between \\(0^\\circ\\) and \\(90^\\circ\\)). The vertical rise per metre of ramp length is \\(\\sin x\\). Find the exact value of \\(\\sin x\\) and the slope (rise/run) of the ramp.  \n**Solution:** Since the ramp slopes upward, \\(x\\) is in QI, so \\(\\sin x > 0\\). Using \\(\\sin^2 x + \\cos^2 x = 1\\): \\(\\sin^2 x = 1 - (\\frac{4}{5})^2 = 1 - \\frac{16}{25} = \\frac{9}{25}\\). \\(\\sin x = \\sqrt{\\frac{9}{25}} = \\frac{3}{5}\\) (positive because QI). Slope = \\(\\frac{\\text{rise}}{\\text{run}} = \\frac{\\sin x}{\\cos x} = \\frac{3/5}{4/5} = \\frac{3}{4}\\).  \nA poor answer would give \\(\\sin x = \\pm \\frac{3}{5}\\) without justifying the positive sign, or would compute slope as \\(\\frac{4}{3}\\) (confusing rise/run), showing lack of connection between trigonometric ratios and physical meaning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In Class 10, you used ______ triangles for acute angles only.",
+     "a": "right",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In Class 10, you used right ______ for acute angles only.",
+     "a": "triangles",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Design a procedure to prepare 100 mL of 0.05 M KMnO₄ solution from solid KMnO₄ (molar mass = 158.04 g mol⁻¹). Include all glassware, steps, and safety precautions. Why should KMnO₄ solutions be standardized before use in titrations?",
      "a": "Mass needed = 0.05 mol/L × 0.100 L × 158.04 g/mol = 0.790 g. Weigh 0.790 g KMnO₄ on analytical balance → transfer to beaker → dissolve in ~50 mL distilled water → transfer quantitatively to 100 mL volumetric flask → rinse beaker 3× into flask → dilute to mark → mix thoroughly. Safety: KMnO₄ is a strong oxidizer; avoid skin contact, clean spills immediately. Standardization needed because KMnO₄ decomposes slowly in light/heat and may contain MnO₂ impurity, so exact concentration drifts. A poor answer omits quantitative transfer, rinsing, or safety, or doesn't know KMnO₄ is a primary standard only after standardization.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Molarity (M) is defined as the amount of solute in moles ______ per liter of solution, expressed as M = n/V where n is moles of solute and V is solution volume in litres.",
+     "a": "dissolved",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in a chemistry lab preparing 250 mL of 0.1 M oxalic acid solution for a titration ______.",
+     "a": "experiment",
+     "self_check": true
+    },
+    {
+     "q": "What is Molarity (M)? State the definition given in this lesson.",
+     "a": "Molarity (M) is defined as the amount of solute in moles dissolved per liter of solution, expressed as M = n/V where n is moles of solute and V is solution volume in litres.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You hold a bottle of solid oxalic acid dihydrate (COOH)₂·______H₂O and a volumetric flask.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Molarity (M)?",
+     "a": "Students confuse \"dissolving solute in X mL water\" with \"making solution volume X mL.\" For example, to make 250 mL of 0.1 M NaCl, they weigh 1.46 g NaCl, add it to 250 mL water in a beaker, and think they have 0.1 M solution.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate molarity from given mass/volume data, perform dilution calculations using M₁V₁ = M₂V₂, solve stoichiometric problems involving solution reactions (e.g., titration), and convert between molarity and other concentration terms (molality, mole fraction) when density is provided.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "An example is 121. It is a palindrome because it reads the same forward and backward (1-2-1). A poor answer fails to provide the definition of reading the same in both directions.",
      "a": "**Correct Answer:** A 3-digit palindrome is 121. I know this is a palindrome because the digits read the same forwards and backwards, with the first and last digits being identical.\n\n**Analysis:** A wrong answer reveals the student likely confuses the definition of a palindrome with other number properties, such as being an even number, a multiple of a certain digit, or simply not understanding that the symmetry must occur across the center digit.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Numbers in our everyday life are specific values used to represent quantity, order, or ______, helping us organize and understand the world around us.",
+     "a": "measurement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How many ______ have you checked the clock this morning or counted the coins in your pocket?",
+     "a": "times",
+     "self_check": true
+    },
+    {
+     "q": "What is Numbers in our everyday life? State the definition given in this lesson.",
+     "a": "Numbers in our everyday life are specific values used to represent quantity, order, or measurement, helping us organize and understand the world around us.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Numbers in our everyday life?",
+     "a": "Students often believe that \"estimation\" is just a wild guess with no logical basis.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify at least five different real-world contexts where numbers are used and explain how those numbers help solve a specific problem (like estimating or ordering).",
+     "self_check": true
     }
    ]
   }

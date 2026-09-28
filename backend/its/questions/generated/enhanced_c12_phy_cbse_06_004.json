@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a solenoid, a battery, a switch, and an LED to demonstrate self-induction (back emf). Explain what you would observe when the switch is opened and why the LED might flash brightly at that moment but not when the switch is closed.",
      "a": "Connect solenoid, battery, and switch in series. Connect LED (with a series resistor for protection) in parallel across the solenoid. Close switch: current builds up slowly due to back emf; LED does not light (voltage across solenoid ≈ battery voltage minus small resistive drop, but LED needs ~2 V forward bias; solenoid drop is small during buildup). Open switch: current tries to drop to zero rapidly, producing large back emf ε = -L(dI/dt) with polarity *adding* to battery voltage (trying to maintain current). This high voltage spike forward-biases the LED, causing a bright flash. Poor answer (e.g., LED flashes on closing) reveals misunderstanding that back emf opposes *change* — it opposes increase on closing (small dI/dt) but opposes decrease on opening (huge dI/dt due to sudden interruption).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Self-induction is the ______ where a changing current in a coil induces an opposing emf in the same coil, quantified by self-inductance L = NΦ_B/I (henry, H).",
+     "a": "phenomenon",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan starting slowly — the motor ______ oppose the sudden current surge, causing a brief delay.",
+     "a": "windings",
+     "self_check": true
+    },
+    {
+     "q": "What is Self-induction? State the definition given in this lesson.",
+     "a": "Self-induction is the phenomenon where a changing current in a coil induces an opposing emf in the same coil, quantified by self-inductance L = NΦ_B/I (henry, H).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Self-induction?",
+     "a": "Students often think mutual inductance M depends on which coil carries the current (i.e., M₁₂ ≠ M₂₁) because the flux linkage calculations look different.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) derive and apply ε = -L(dI/dt) and ε₁ = -M(dI₂/dt) with correct sign conventions, (2) calculate L for a long solenoid and M for coaxial solenoids/concentric coils from geometry, (3) compute energy stored U = ½LI² and magnetic energy density u = B²/(2μ₀), and (4) solve multi-step problems combining mutual/self-induction.",
+     "self_check": true
     }
    ]
   }

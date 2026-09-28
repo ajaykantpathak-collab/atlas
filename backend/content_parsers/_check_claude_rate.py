@@ -1,10 +1,11 @@
+import os
 """Check Claude API rate limit status by making a minimal request and reading headers."""
 import asyncio
 import aiohttp
 import ssl
 import json
 
-API_KEY = "sk-ant-co-QsK1rhxdfRWZ65OJ5cVxaAZ5ISNUY0lK"
+API_KEY = os.environ.get('ANTHROPIC_API_KEY') or ''
 API_URL = "https://api.claudeopus.pro/v1/messages"
 MODEL = "claude-opus-5"
 

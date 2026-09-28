@@ -34,6 +34,21 @@
      "q": "Write one sentence about a time you failed at something and one sentence about how you 'tried again' like the spider.",
      "a": "The answer should show a clear link between a specific failure and a specific, persistent action. If the student provides a vague \"I tried,\" they haven't captured the spirit of deliberate persistence.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A narrative poem is a type of poetry that tells a story, featuring ______, a setting, and a sequence of events.",
+     "a": "characters",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever felt like giving up on a math problem or a ______ drawing because you didn't get it right the first time?",
+     "a": "difficult",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify the protagonist's struggle, the specific action taken to overcome failure, and articulate the poem's moral message in their own words.",
+     "self_check": true
     }
    ]
   }

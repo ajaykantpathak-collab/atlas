@@ -34,6 +34,31 @@
      "q": "Design a field investigation to determine the relative contribution of each erosion mechanism in a 500 m reach of the Chambal River near Kota (Deccan Trap basalt). Specify measurements, instruments, and how you would isolate each process.",
      "a": "Measure: (1) joint spacing and block size distribution on exposed banks (hydraulic action potential); (2) suspended sediment concentration and grain-size distribution at 3 cross-sections (abrasion tools); (3) pebble roundness (Zingg chart) and size downstream trend (attrition rate); (4) water chemistry (pH, EC, Ca²⁺, Mg²⁺, HCO₃⁻) for solution load. Instruments: current meter, sediment sampler, pebble callipers, water quality kit. Isolate processes by: comparing erosion rates on jointed vs. massive basalt (hydraulic action), correlating bedrock wear with bedload flux (abrasion), tracking roundness increase per km (attrition), and calculating solute flux from discharge × concentration (solution). A poor answer lists measurements without a strategy to disentangle simultaneous processes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Fluvial erosion mechanisms are the four primary processes by which flowing river water ______ wears away and removes bedrock and sediment from the channel bed and banks: hydraulic action (force of moving water dislodging particles), abrasion/corrasion (sediment load grinding against channel surfaces), attrition (mutual collision and size reduction of transported particles), and solution/corrosion (chemical dissolution of soluble rock minerals).",
+     "a": "mechanically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stand on a bridge over the Yamuna near Delhi during monsoon and observe the turbid, sediment-laden water rushing ______ — that brown colour is visible proof of erosion in action.",
+     "a": "downstream",
+     "self_check": true
+    },
+    {
+     "q": "What is Fluvial erosion mechanisms? State the definition given in this lesson.",
+     "a": "Fluvial erosion mechanisms are the four primary processes by which flowing river water mechanically wears away and removes bedrock and sediment from the channel bed and banks: hydraulic action (force of moving water dislodging particles), abrasion/corrasion (sediment load grinding against channel surfaces), attrition (mutual collision.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Fluvial erosion mechanisms?",
+     "a": "Students believe \"corrasion\" and \"corrosion\" are synonyms for the same process, or that attrition is a bedrock erosion mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain all four fluvial erosion mechanisms with correct terminology, identify which mechanism dominates under specific hydraulic conditions (gradient, velocity, rock type), and predict how changes in discharge or sediment supply alter the erosion balance in a given river reach.",
+     "self_check": true
     }
    ]
   }

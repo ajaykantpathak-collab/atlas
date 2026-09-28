@@ -32,7 +32,22 @@
     },
     {
      "q": "Construct a binary operation * on the set {0, 1} that is commutative but NOT associative. Provide the Cayley table and verify both properties.",
-     "a": "Example: Define * by the table:\n| * | 0 | 1 |\n|---|---|---|\n| 0 | 0 | 1 |\n| 1 | 1 | 0 |\nThis is XOR (addition mod 2), which IS associative — so this is a bad example!\nCorrect example: Define * by:\n| * | 0 | 1 |\n|---|---|---|\n| 0 | 0 | 0 |\n| 1 | 0 | 1 |\nThis is logical AND. It is commutative (table symmetric). Check associativity: (1 * 1) * 0 = 1 * 0 = 0, but 1 * (1 * 0) = 1 * 0 = 0 → OK. Wait, AND is associative.\nBetter example: Define * by:\n| * | 0 | 1 |\n|---|---|---|\n| 0 | 0 | 1 |\n| 1 | 1 | 1 |\nCommutative? Yes, symmetric. Associative? (0 * 1) * 1 = 1 * 1 = 1, but 0 * (1 * 1) = 0 * 1 = 1 → OK. Still associative.\nActually, on a 2-element set, all commutative operations are associative? No. Consider:\n| * | 0 | 1 |\n|---|---|---|\n| 0 | 1 | 0 |\n| 1 | 0 | 1 |\nThis is XNOR. Commutative: yes. (0*0)*1 = 1*1 = 1, 0*(0*1) = 0*0 = 1. (1*1)*0 = 1*0 = 0, 1*(1*0) = 1*0 = 0. Still associative.\nIt is a known fact that on a 2-element set, all 8 commutative operations are associative. So no such example exists on {0,1}. The student must realise this and state: \"On a 2-element set, every commutative binary operation is also associative; therefore no such example exists. The smallest set admitting a commutative but non-associative operation has 3 elements.\" This tests deep understanding of the space of binary operations.",
+     "a": "(1) The investigation — checking the two-element tables shows that the symmetric ones, such as the exclusive-or, logical-and and equivalence tables, all pass the associativity check on every triple, (2) The realisation — on a two-element set every commutative binary operation is also associative, so no counterexample can be constructed there, (3) The correct claim — no such operation exists on the set containing only zero and one, and the smallest set admitting a commutative but non-associative operation has three elements, (4) The lesson — a single counterexample disproves a universal property, but the counterexample must actually exist. A student who asserts a table without verifying associativity for every triple produces a wrong example.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A binary operation * on a set S is ______ if a * b = b * a for every a, b ∈ S.",
+     "a": "commutative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You wonder: \"Does it matter if I add apple cost first or orange cost first?\" This is ______ of addition in real life.",
+     "a": "commutativity",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) state the precise definitions of commutativity and associativity for a binary operation, (2) verify or disprove these properties for a given operation on a finite or infinite set by testing all pairs/triples or constructing algebraic proofs/counterexamples, and (3) explain why checking a few examples is insufficient.",
      "self_check": true
     }
    ]

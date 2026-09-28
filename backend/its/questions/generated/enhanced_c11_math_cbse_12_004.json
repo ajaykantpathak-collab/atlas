@@ -34,6 +34,26 @@
      "q": "Create a real-world problem where finding the midpoint in 3D is necessary. The problem must involve three-dimensional coordinates (not just 2D) and require the midpoint formula to solve. State the problem clearly with given coordinates and what needs to be found.",
      "a": "Example problem: \"A drone flies from point A(100, 50, 200) to point B(300, 150, 400) in metres (x=east, y=north, z=altitude). The drone's battery is low and it must land exactly halfway. Find the landing coordinates.\" Answer: M = (200, 100, 300). A poor problem like \"find midpoint of (1,2) and (3,4)\" is only 2D. A poor problem like \"find the centre of a circle\" doesn't require 3D. A good problem uses all three coordinates meaningfully (e.g., altitude changes, or finding centre of a sphere given diameter endpoints).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The midpoint of a line segment joining two points P(x₁, y₁, z₁) and Q(x₂, y₂, z₂) in three-______ space is the point M that divides the segment internally in the ratio 1:1.",
+     "a": "dimensional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ room and need to hang a chandelier exactly at the centre of the ceiling.",
+     "a": "rectangular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To find the exact centre point, you need the midpoint formula in ______D.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can find the midpoint of a line segment in 3D given the endpoints, find an endpoint given the midpoint and the other endpoint, and solve problems where the midpoint condition leads to equations in coordinates (e.g., finding unknown coordinates when the midpoint is known).",
+     "self_check": true
     }
    ]
   }

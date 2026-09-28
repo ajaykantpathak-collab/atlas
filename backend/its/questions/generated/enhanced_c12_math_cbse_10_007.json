@@ -34,6 +34,26 @@
      "q": "Create a problem where a point R divides PQ internally in ratio 2:3, and the position vectors of P and R are given. Ask for the position vector of Q. Write the problem statement and outline the solution steps.",
      "a": "Problem: \"Point P has position vector 2**i** - **j** + 4**k**. Point R divides PQ internally in ratio 2:3 and has position vector **i** + 3**j** - **k**. Find the position vector of Q.\" Solution: Use **r** = (2**b** + 3**a**)/5 → 5**r** = 2**b** + 3**a** → 2**b** = 5**r** - 3**a** → **b** = (5**r** - 3**a**)/2. Substitute: **b** = (5(**i**+3**j**-**k**) - 3(2**i**-**j**+4**k**))/2 = (5**i**+15**j**-5**k** -6**i**+3**j**-12**k**)/2 = (-**i**+18**j**-17**k**)/2 = -0.5**i** + 9**j** - 8.5**k**. A poor answer would use the formula in the wrong direction (e.g., **r** = (3**b**+2**a**)/5) or fail to isolate **b** algebraically, revealing weak algebraic rearrangement skills.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The section formula for vectors gives the position vector of a point R that divides the line segment joining two points P and Q (with position vectors a and b ______) in a given ratio m:n, either internally or externally.",
+     "a": "respectively",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a suspension bridge where a cable must be anchored at a point that ______ the span between two towers in a 3:2 ratio.",
+     "a": "divides",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly derive and apply both internal and external section formulas to find position vectors, coordinates of division points, and ratios of division in 2D and 3D.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ bridge where a cable must be anchored at a point that divides the span between two towers in a 3:2 ratio.",
+     "a": "suspension",
+     "self_check": true
     }
    ]
   }

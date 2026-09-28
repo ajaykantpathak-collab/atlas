@@ -4,15 +4,9 @@
   {
    "id": "jemh.104.4.1",
    "title": "Standard Form and Checking Roots",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the exponent law to the given powers",
-     "explain": "apply the exponent law to the given powers: val = 5 ** (2 + 2) gives 625",
-     "compute": "val = 5 ** (2 + 2)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 5^2 x 5^2.",
@@ -49,15 +43,9 @@
   {
    "id": "jemh.104.4.2",
    "title": "Solution by Factorisation",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "evaluate the polynomial or use the root relations",
-     "explain": "evaluate the polynomial or use the root relations: val = 5 * 5 * 5 + 3 * 5 + 6 gives 146",
-     "compute": "val = 5 * 5 * 5 + 3 * 5 + 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the value of the polynomial 5x^2 + 3x + 6 at x = 5.",
@@ -95,6 +83,8 @@
    "id": "jemh.104.4.3",
    "title": "Nature of Roots via the Discriminant",
    "converted_to_compute": false,
+   "formula": "disc = b * b - 4 * a * c",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the value of the polynomial 1x^2 + 6x + 4 at x = 2.",
@@ -131,15 +121,9 @@
   {
    "id": "jemh.104.4.4",
    "title": "Quadratic Formula and Word Problems",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "evaluate the polynomial or use the root relations",
-     "explain": "evaluate the polynomial or use the root relations: val = 2 * 5 * 5 + 4 * 5 + 4 gives 74",
-     "compute": "val = 2 * 5 * 5 + 4 * 5 + 4"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the value of the polynomial 2x^2 + 4x + 4 at x = 5.",

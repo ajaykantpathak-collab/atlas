@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using only AgNO₃ solution and conductivity measurements to distinguish between the two coordination isomers of CoCl₃·4NH₃ (green and violet). State what you would observe and how it confirms they are isomers.",
      "a": "Experiment: Dissolve 1 mol each of green and violet complexes in water. (1) Add excess AgNO₃ to both — both precipitate 1 mol AgCl (same ionizable Cl⁻ count). (2) Measure molar conductivity of both solutions — both show 1:1 electrolyte behaviour (same number of ions: [CoCl₂(NH₃)₄]⁺ and Cl⁻). Conclusion: Identical precipitation and conductivity prove same coordination sphere composition and ionization → same empirical formula, same ionization behaviour. They are isomers because they have different colours/properties despite identical formula and ionization — Werner explained this via different spatial arrangements (cis vs trans) of the two Cl⁻ ligands in the octahedral sphere. A POOR answer (e.g., \"measure colour only\" or \"they give different AgCl\") shows the student doesn't understand that isomers have IDENTICAL composition and ionization — the distinction is purely geometrical, detectable only by methods sensitive to spatial arrangement (optical activity, dipole moment, detailed spectroscopy), not by simple precipitation/conductivity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Werner's theory proposes that in coordination compounds, a central metal atom/ion exhibits two distinct types of valence: (i) primary valence (ionizable, equals oxidation state, satisfied only by anions) and (ii) secondary valence (non-ionizable, equals coordination number, satisfied by anions or neutral molecules in a fixed spatial geometry called coordination ______).",
+     "a": "polyhedron",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe what happens when you add concentrated ammonia to a pink ______ of cobalt(II) chloride — it turns blue, then on standing in air forms various coloured solids (yellow, purple, green, violet) all with formula CoCl₃·xNH₃.",
+     "a": "solution",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (a) distinguish primary vs secondary valence for any given coordination compound, (b) predict the number of ions produced in solution and moles of AgCl precipitated with excess AgNO₃, (c) differentiate double salts from coordination compounds based on dissociation behavior, and (d) apply Werner's postulates to explain the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe what happens when you add ______ ammonia to a pink solution of cobalt(II) chloride — it turns blue, then on standing in air forms various coloured solids (yellow, purple, green, violet) all with formula CoCl₃·xNH₃.",
+     "a": "concentrated",
+     "self_check": true
     }
    ]
   }

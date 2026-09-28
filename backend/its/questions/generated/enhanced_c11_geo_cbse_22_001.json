@@ -34,6 +34,26 @@
      "q": "Design a simple map legend for a thematic map showing the distribution of rice cultivation in India, using three categories: high, medium, low intensity. Specify the symbols/colors you would choose and justify your choices.",
      "a": "A good answer: Use a sequential color scheme (light yellow → orange → dark green) for low to high intensity, because it intuitively represents increasing density. Symbols: solid color fill for states/districts. Justification: color progression aids visual hierarchy; green associates with agriculture. A poor answer uses random colors (red, blue, purple) without order, showing lack of understanding of visual variables in cartography.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A map is a scaled, symbolized, and generalized ______ of the whole or a part of the Earth's surface on a flat plane, showing selected physical and human features using a specific projection system, scale, and conventional signs to convey spatial information accurately.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by showing students a ______ object: a Google Maps screenshot of their school locality on a phone.",
+     "a": "familiar",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can define a map with its essential components, classify maps into at least three major types (physical, political, thematic) with examples, and explain the purpose of each essential element (scale, direction, legend, projection, title) in map reading.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by showing students a familiar object: a Google Maps ______ of their school locality on a phone.",
+     "a": "screenshot",
+     "self_check": true
     }
    ]
   }

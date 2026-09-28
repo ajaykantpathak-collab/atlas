@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using household materials to demonstrate the greenhouse effect used in a solar cooker. List materials, procedure, and what you would measure.",
      "a": "Materials: Two identical cardboard boxes, black paint, aluminium foil, transparent plastic wrap or glass pane, thermometer, sunlight. Procedure: Paint inside of both boxes black. Cover one with plastic wrap (trap heat), leave other open. Place thermometers inside. Keep in direct sunlight for 30 minutes. Measure temperature every 5 minutes. Expected: Covered box shows higher temperature due to trapped infrared radiation. A poor answer that uses no control box or measures only final temperature reveals the student does not understand controlled experiments or the role of the transparent cover.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Solar energy is the radiant energy emitted by the Sun in the form of ______ waves (heat and light) that can be harnessed using devices like solar cookers, solar water heaters, and solar cells to perform useful work such as heating, cooking, or generating electricity.",
+     "a": "electromagnetic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: notice how a car parked in the summer sun becomes extremely hot inside, or how water in a black pipe on a ______ gets warm.",
+     "a": "rooftop",
+     "self_check": true
+    },
+    {
+     "q": "What is Solar energy? State the definition given in this lesson.",
+     "a": "Solar energy is the radiant energy emitted by the Sun in the form of electromagnetic waves (heat and light) that can be harnessed using devices like solar cookers, solar water heaters, and solar cells to perform useful work such as heating, cooking, or generating electricity.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Solar energy?",
+     "a": "Students believe a solar cooker works mainly because the mirrored lid reflects sunlight directly onto the food, and they ignore the crucial role of the insulated box and glass cover in trapping heat via the greenhouse effect.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the working principle of a box-type solar cooker, a solar water heater, and a solar cell; list two advantages and two limitations of solar energy; and calculate the power output of a solar panel given its area, solar intensity, and efficiency.",
+     "self_check": true
     }
    ]
   }

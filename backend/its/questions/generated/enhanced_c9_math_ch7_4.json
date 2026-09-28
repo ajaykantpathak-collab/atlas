@@ -34,6 +34,21 @@
      "q": "Design a simple random experiment with exactly 8 equally likely outcomes. Define an event E such that P(E) = 3/8. Describe the experiment, list the sample space, and specify the event.",
      "a": "Example: Spin a fair spinner divided into 8 equal sectors numbered 1 to 8. Sample space S = {1,2,3,4,5,6,7,8}. Let E = \"getting a multiple of 3\" = {3,6} → that gives 2/8. To get 3/8, choose E = {1,2,3} or \"number ≤ 3\". Any valid experiment with 8 equally likely outcomes and an event of size 3 is acceptable. A poor answer (e.g., experiment with non-equally likely outcomes, or event size not 3) reveals the student cannot construct a sample space with a given probability or misunderstands \"equally likely\".",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ probability (classical definition) states that for an experiment with a finite number of equally likely outcomes, the probability of an event E is the ratio of the number of outcomes favourable to E to the total number of possible outcomes in the sample space.",
+     "a": "Theoretical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are playing a board game with a fair six-sided die (______ 1 to 6) and you need a 4 to win.",
+     "a": "numbered",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the sample space and favourable outcomes for a given experiment with equally likely outcomes, compute the theoretical probability using the formula P(E) = n(E)/n(S), and explain why the assumption of equally likely outcomes is necessary for the classical definition to apply.",
+     "self_check": true
     }
    ]
   }

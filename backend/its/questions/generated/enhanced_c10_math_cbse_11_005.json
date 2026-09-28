@@ -34,6 +34,31 @@
      "q": "Create a real-life problem (Indian context) that requires finding the arc length of a sector where the angle is NOT a standard angle (like 30°, 45°, 60°, 90°). The problem must involve a practical situation (e.g., fencing, piping, track). Provide the problem statement and solve it completely.",
      "a": "Problem: A circular irrigation sprinkler covers a sector of a field with radius 20 metres. The sprinkler rotates through an angle of 135° to water a specific crop patch. Find the length of the curved boundary that gets watered. Use \\( \\pi = \\frac{22}{7} \\).\nSolution: \\( L = \\frac{135}{360} \\times 2 \\times \\frac{22}{7} \\times 20 = \\frac{3}{8} \\times \\frac{44}{7} \\times 20 = \\frac{3 \\times 44 \\times 20}{8 \\times 7} = \\frac{2640}{56} = \\frac{330}{7} = 47\\frac{1}{7} \\) m.\nA good answer includes: correct formula, proper substitution, simplification of \\( \\frac{135}{360} = \\frac{3}{8} \\), step-by-step arithmetic, and final answer in mixed fraction or decimal with units. A poor answer might use 135/360 without simplifying, leading to messy arithmetic, or forget to multiply by 2, or use radius as diameter. The problem tests whether the student can handle non-standard angles and simplify fractions before multiplying.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The length of an arc of a sector is the ______ along the curved part of the circle between the two radii that form the sector.",
+     "a": "distance",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ garden path that forms a 60° sector of a circle with radius 7 metres.",
+     "a": "circular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It is a fraction of the full circumference of the circle, where the fraction is determined by the central angle θ (in degrees) divided by ______°.",
+     "a": "360",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the arc length formula from the circumference formula using proportional reasoning, apply it to compute arc length given radius and central angle (or find missing radius/angle given arc length), and correctly distinguish it from the sector area formula in mixed problems.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a circular garden path that forms a 60° sector of a circle with radius 7 metres.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

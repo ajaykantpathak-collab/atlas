@@ -34,6 +34,36 @@
      "q": "Design an HTML snippet for a \"Student Profile Card\" that includes: a profile photo (with alt text), a definition list of details (Name, Class, Roll No), and a table of 3 subjects with marks. Use proper nesting and all required attributes.",
      "a": "```html\n<div>\n  <img src=\"photo.jpg\" alt=\"Student passport photo\" width=\"120\" height=\"150\">\n  <dl>\n    <dt>Name</dt><dd>Arjun Sharma</dd>\n    <dt>Class</dt><dd>12-A</dd>\n    <dt>Roll No</dt><dd>24</dd>\n  </dl>\n  <table border=\"1\" cellpadding=\"5\">\n    <tr><th>Subject</th><th>Marks</th></tr>\n    <tr><td>Physics</td><td>92</td></tr>\n    <tr><td>Chemistry</td><td>88</td></tr>\n    <tr><td>Maths</td><td>95</td></tr>\n  </table>\n</div>\n```\nA poor answer (missing alt, using `<ul>` for key-value pairs, no `<th>` in table) reveals the student treats HTML as visual layout only, ignoring semantics and accessibility.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: HTML images, lists, and tables are structural elements used to embed media, organize information sequentially or ______, and present tabular data in rows and columns respectively, enabling meaningful content layout on web pages.",
+     "a": "hierarchically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're building a class ______ webpage for your school.",
+     "a": "timetable",
+     "self_check": true
+    },
+    {
+     "q": "What is HTML images, lists, and tables? State the definition given in this lesson.",
+     "a": "HTML images, lists, and tables are structural elements used to embed media, organize information sequentially or hierarchically, and present tabular data in rows and columns respectively, enabling meaningful content layout on web pages.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: \"How do I make a grid where 'Monday' spans ______ periods?\" → leads to table with colspan.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about HTML images, lists, and tables?",
+     "a": "Students believe width and height attributes on <img> resize the image file (reducing bandwidth).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently write valid HTML code to: (1) insert an image with proper src, alt, width, and height attributes; (2) create nested ordered/unordered lists with correct nesting syntax; (3) build a data table using <table>, <tr>, <th>, <td> with rowspan/colspan for merged cells; and (4) explain the accessibility purpose of alt.",
+     "self_check": true
     }
    ]
   }

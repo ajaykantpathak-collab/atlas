@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using leaf discs from maize (C4) and wheat (C3) to demonstrate the difference in CO₂ compensation point. Specify measurements, controls, and expected results.",
      "a": "Place leaf discs in sealed syringes with NaHCO₃ solution of known initial CO₂ concentration. Illuminate at saturating intensity. Measure O₂ evolution (or CO₂ depletion) over time using a dissolved O₂ sensor. C4 discs will drive CO₂ to near 0 ppm (compensation point ~0-10 ppm); C3 discs will plateau at 40-60 ppm. Control: dark respiration measurement. Poor designs omit dark controls or use non-saturating light, confounding light limitation with CO₂ limitation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The C4 pathway (Hatch-Slack cycle) is a carbon fixation adaptation in certain tropical plants where CO₂ is initially fixed into a 4-carbon compound (oxaloacetate) via PEP carboxylase in mesophyll cells, then concentrated in bundle sheath cells to drive the Calvin cycle under conditions that minimize ______.",
+     "a": "photorespiration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a maize field in Punjab during May: leaves stay upright and green at 42°C while wheat (C3) ______ shows wilting and chlorosis.",
+     "a": "nearby",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) trace the complete Hatch-Slack cycle stepwise including subcellular compartmentation, (2) explain how Kranz anatomy and PEP carboxylase kinetics eliminate photorespiration, (3) quantitatively compare ATP/NADPH costs of C3 vs C4 pathways per glucose synthesized, and (4) predict photosynthetic performance of C3 vs C4.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a maize field in Punjab during May: leaves stay upright and green at 42°C while wheat (C3) nearby shows wilting and ______.",
+     "a": "chlorosis",
+     "self_check": true
     }
    ]
   }

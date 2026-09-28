@@ -1,0 +1,68 @@
+{
+ "catalog": "catalog_class11_chemistry_kech201.json",
+ "concepts": [
+  {
+   "id": "kech.201.2.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "charge_total = 1.9",
+      "known_sum = 1.7",
+      "n_atoms = 8.8",
+      "unknown_ox = (charge_total - known_sum) / n_atoms"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "charge_total = 4.4",
+      "known_sum = 1.8",
+      "n_atoms = 3.2",
+      "unknown_ox = (charge_total - known_sum) / n_atoms"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "charge_total = 86",
+      "known_sum = 5.8",
+      "n_atoms = 7.8",
+      "unknown_ox = (charge_total - known_sum) / n_atoms"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "charge_total = 109",
+      "known_sum = 14.2",
+      "n_atoms = 17.1",
+      "unknown_ox = (charge_total - known_sum) / n_atoms"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "charge_total = 90",
+      "known_sum = 9.5",
+      "n_atoms = 10",
+      "unknown_ox = (charge_total - known_sum) / n_atoms"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "charge_total = 29",
+      "known_sum = 18.8",
+      "n_atoms = 13.5",
+      "unknown_ox = (charge_total - known_sum) / n_atoms"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "unknown_ox = (charge_total - known_sum) / n_atoms"
+   ]
+  }
+ ]
+}

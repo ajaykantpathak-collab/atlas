@@ -34,6 +34,21 @@
      "q": "Create a real-life word problem (using Indian currency) that leads to a pair of linear equations which is inconsistent. Write the equations and verify inconsistency using the ratio method.",
      "a": "Example: \"Ravi buys 4 apples and 6 oranges for ₹80. Later, he buys 2 apples and 3 oranges for ₹50.\" Let x = price of one apple, y = price of one orange. Equations: \\(4x + 6y = 80\\) and \\(2x + 3y = 50\\). In standard form: \\(4x + 6y - 80 = 0\\) and \\(2x + 3y - 50 = 0\\). Ratios: \\(\\frac{4}{2} = 2\\), \\(\\frac{6}{3} = 2\\), \\(\\frac{-80}{-50} = 1.6\\). Since \\(2 = 2 \\neq 1.6\\), the system is inconsistent. A poor answer (e.g., a problem that yields consistent equations) shows the student cannot design a scenario where the same combination of items has two different total costs, indicating a lack of understanding of what inconsistency means in context.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A pair of linear equations in two variables is consistent if there exists at least one ordered pair (x, y) that satisfies both equations ______; it is inconsistent if no such ordered pair exists.",
+     "a": "simultaneously",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You buy 3 pens and 2 notebooks for ₹110, and your ______ buys 6 pens and 4 notebooks for ₹220.",
+     "a": "friend",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify any given pair of linear equations as consistent (unique/infinite solutions) or inconsistent by comparing the ratios of coefficients, and can justify the classification both algebraically and graphically.",
+     "self_check": true
     }
    ]
   }

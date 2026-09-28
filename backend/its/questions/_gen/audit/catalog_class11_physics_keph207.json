@@ -1,0 +1,302 @@
+{
+ "catalog": "catalog_class11_physics_keph207.json",
+ "concepts": [
+  {
+   "id": "keph207.14.3.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "frequency = 674",
+      "wavelength = 89",
+      "wave_speed = frequency * wavelength"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "frequency = 448",
+      "wavelength = 252",
+      "wave_speed = frequency * wavelength"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "frequency = 328",
+      "wavelength = 186",
+      "wave_speed = frequency * wavelength"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "frequency = 868",
+      "wavelength = 169",
+      "wave_speed = frequency * wavelength"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "frequency = 600",
+      "wavelength = 497",
+      "wave_speed = frequency * wavelength"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "frequency = 735",
+      "wavelength = 60",
+      "wave_speed = frequency * wavelength"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "wave_speed = frequency * wavelength"
+   ]
+  },
+  {
+   "id": "keph207.14.4.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "tension = 80",
+      "lin_density = 14.7",
+      "string_speed = sqrt(tension / lin_density)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "tension = 87",
+      "lin_density = 1.2",
+      "string_speed = sqrt(tension / lin_density)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "tension = 64",
+      "lin_density = 12.4",
+      "string_speed = sqrt(tension / lin_density)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "tension = 47",
+      "lin_density = 19.1",
+      "string_speed = sqrt(tension / lin_density)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "tension = 9.7",
+      "lin_density = 14.2",
+      "string_speed = sqrt(tension / lin_density)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "tension = 48",
+      "lin_density = 10.3",
+      "string_speed = sqrt(tension / lin_density)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "string_speed = sqrt(tension / lin_density)"
+   ]
+  },
+  {
+   "id": "keph207.14.4.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "gamma = 4.4",
+      "pressure = 33",
+      "density = 10.7",
+      "sound_speed = sqrt(gamma * pressure / density)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "gamma = 2.5",
+      "pressure = 386",
+      "density = 4.8",
+      "sound_speed = sqrt(gamma * pressure / density)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gamma = 7.4",
+      "pressure = 158",
+      "density = 10.3",
+      "sound_speed = sqrt(gamma * pressure / density)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "gamma = 29",
+      "pressure = 274",
+      "density = 6.2",
+      "sound_speed = sqrt(gamma * pressure / density)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "gamma = 4.8",
+      "pressure = 364",
+      "density = 15.5",
+      "sound_speed = sqrt(gamma * pressure / density)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "gamma = 12.5",
+      "pressure = 382",
+      "density = 16.5",
+      "sound_speed = sqrt(gamma * pressure / density)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "sound_speed = sqrt(gamma * pressure / density)"
+   ]
+  },
+  {
+   "id": "keph207.14.7.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "harmonic_n = 1.6",
+      "wave_speed = 109",
+      "length = 1.9",
+      "freq = harmonic_n * wave_speed / (2 * length)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "harmonic_n = 19.7",
+      "wave_speed = 4.2",
+      "length = 299",
+      "freq = harmonic_n * wave_speed / (2 * length)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "harmonic_n = 1.1",
+      "wave_speed = 101",
+      "length = 257",
+      "freq = harmonic_n * wave_speed / (2 * length)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "harmonic_n = 7.1",
+      "wave_speed = 64",
+      "length = 474",
+      "freq = harmonic_n * wave_speed / (2 * length)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "harmonic_n = 19.3",
+      "wave_speed = 110",
+      "length = 488",
+      "freq = harmonic_n * wave_speed / (2 * length)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "harmonic_n = 6.8",
+      "wave_speed = 98",
+      "length = 50",
+      "freq = harmonic_n * wave_speed / (2 * length)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "freq = harmonic_n * wave_speed / (2 * length)"
+   ]
+  },
+  {
+   "id": "keph207.14.9.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "freq_1 = 11.8",
+      "freq_2 = 12.6",
+      "beat_freq = abs(freq_1 - freq_2)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "freq_1 = 26",
+      "freq_2 = 88",
+      "beat_freq = abs(freq_1 - freq_2)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "freq_1 = 61",
+      "freq_2 = 6.9",
+      "beat_freq = abs(freq_1 - freq_2)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "freq_1 = 52",
+      "freq_2 = 88",
+      "beat_freq = abs(freq_1 - freq_2)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "freq_1 = 40",
+      "freq_2 = 41",
+      "beat_freq = abs(freq_1 - freq_2)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "freq_1 = 77",
+      "freq_2 = 15.1",
+      "beat_freq = abs(freq_1 - freq_2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "beat_freq = abs(freq_1 - freq_2)"
+   ]
+  }
+ ]
+}

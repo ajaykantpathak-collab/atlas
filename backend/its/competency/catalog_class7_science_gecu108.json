@@ -112,7 +112,16 @@
      "explain": "The quotient is the speed in metre per second when units are si.",
      "compute": "speed = distance / time"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "speed = distance / time",
+     "compute": "speed = distance / time"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gecu.8.4",

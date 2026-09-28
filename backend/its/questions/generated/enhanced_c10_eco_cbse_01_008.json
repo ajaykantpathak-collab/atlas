@@ -34,6 +34,36 @@
      "q": "Design a mini-survey plan for your class to collect height/weight data, compute BMI, and present findings in a way that highlights the link between nutrition and learning outcomes. Specify the steps, required tools, and how you would ensure ethical handling of sensitive data.",
      "a": "Steps: 1) Obtain consent; 2) Use calibrated scale and stadiometer; 3) Record data anonymously (ID codes); 4) Calculate BMI per student; 5) Aggregate by gender/age; 6) Correlate with attendance/grades (if available); 7) Present as bar graphs with WHO cut-off lines. Tools: weighing machine, height chart, spreadsheet. Ethics: no names, opt-out option, counseling referral for extreme values. A poor plan omits consent, uses self-reported data, or ignores privacy, revealing lack of practical research ethics.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Body Mass Index (BMI) is a numerical indicator of ______ status calculated as a person's weight in kilograms divided by the square of their height in meters (kg/m²), used to classify individuals as underweight, normal weight, overweight, or obese for assessing population health and development levels.",
+     "a": "nutritional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a health worker visiting a rural school in Bihar to assess children's ______.",
+     "a": "nutrition",
+     "self_check": true
+    },
+    {
+     "q": "What is Body Mass Index (BMI)? State the definition given in this lesson.",
+     "a": "Body Mass Index (BMI) is a numerical indicator of nutritional status calculated as a person's weight in kilograms divided by the square of their height in meters (kg/m²), used to classify individuals as underweight, normal weight, overweight, or obese for assessing population health and development levels.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This BMI falls in the \"underweight\" category (<______), signalling potential undernutrition.",
+     "a": "18.5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Body Mass Index (BMI)?",
+     "a": "Students often believe BMI directly measures body fat percentage and that a \"normal\" BMI guarantees good health.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate BMI from given height and weight data, interpret the resulting category using standard WHO cut-offs, and explain how BMI serves as a proxy for nutritional health in development comparisons between states or countries.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,353 @@
+{
+ "catalog": "catalog_class11_biology_ch114.json",
+ "concepts": [
+  {
+   "id": "kebo.14.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "atmospheric_pressure = 253",
+      "intrapulmonary_pressure = 293",
+      "pressure_gradient = atmospheric_pressure - intrapulmonary_pressure"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "atmospheric_pressure = 90",
+      "intrapulmonary_pressure = 162",
+      "pressure_gradient = atmospheric_pressure - intrapulmonary_pressure"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "atmospheric_pressure = 453",
+      "intrapulmonary_pressure = 321",
+      "pressure_gradient = atmospheric_pressure - intrapulmonary_pressure"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "atmospheric_pressure = 162",
+      "intrapulmonary_pressure = 404",
+      "pressure_gradient = atmospheric_pressure - intrapulmonary_pressure"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "atmospheric_pressure = 11.2",
+      "intrapulmonary_pressure = 385",
+      "pressure_gradient = atmospheric_pressure - intrapulmonary_pressure"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "atmospheric_pressure = 489",
+      "intrapulmonary_pressure = 268",
+      "pressure_gradient = atmospheric_pressure - intrapulmonary_pressure"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "pressure_gradient = atmospheric_pressure - intrapulmonary_pressure"
+   ]
+  },
+  {
+   "id": "kebo.14.4.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "tidal_volume = 16.4",
+      "breathing_rate = 13.8",
+      "minute_volume = tidal_volume * breathing_rate"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "tidal_volume = 16.4",
+      "breathing_rate = 13.8",
+      "minute_volume = tidal_volume * breathing_rate"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "tidal_volume = 35",
+      "breathing_rate = 7.2",
+      "minute_volume = tidal_volume * breathing_rate"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "tidal_volume = 35",
+      "breathing_rate = 7.2",
+      "minute_volume = tidal_volume * breathing_rate"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "tidal_volume = 19.8",
+      "breathing_rate = 31",
+      "minute_volume = tidal_volume * breathing_rate"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "tidal_volume = 19.8",
+      "breathing_rate = 31",
+      "minute_volume = tidal_volume * breathing_rate"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "minute_volume = tidal_volume * breathing_rate"
+   ]
+  },
+  {
+   "id": "kebo.14.4.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "tidal_volume = 56",
+      "irv = 96",
+      "inspiratory_capacity = tidal_volume + irv"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "tidal_volume = 56",
+      "irv = 96",
+      "inspiratory_capacity = tidal_volume + irv"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "tidal_volume = 35",
+      "irv = 41",
+      "inspiratory_capacity = tidal_volume + irv"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "tidal_volume = 35",
+      "irv = 41",
+      "inspiratory_capacity = tidal_volume + irv"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "tidal_volume = 79",
+      "irv = 7.7",
+      "inspiratory_capacity = tidal_volume + irv"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "tidal_volume = 79",
+      "irv = 7.7",
+      "inspiratory_capacity = tidal_volume + irv"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "inspiratory_capacity = tidal_volume + irv"
+   ]
+  },
+  {
+   "id": "kebo.14.4.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "tidal_volume = 61",
+      "erv = 52",
+      "expiratory_capacity = tidal_volume + erv"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "tidal_volume = 61",
+      "erv = 52",
+      "expiratory_capacity = tidal_volume + erv"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "tidal_volume = 15.6",
+      "erv = 42",
+      "expiratory_capacity = tidal_volume + erv"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "tidal_volume = 15.6",
+      "erv = 42",
+      "expiratory_capacity = tidal_volume + erv"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "tidal_volume = 64",
+      "erv = 6.1",
+      "expiratory_capacity = tidal_volume + erv"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "tidal_volume = 64",
+      "erv = 6.1",
+      "expiratory_capacity = tidal_volume + erv"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "expiratory_capacity = tidal_volume + erv"
+   ]
+  },
+  {
+   "id": "kebo.14.4.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "erv = 60",
+      "tidal_volume = 70",
+      "irv = 69",
+      "vital_capacity = erv + tidal_volume + irv"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "erv = 60",
+      "tidal_volume = 70",
+      "irv = 69",
+      "vital_capacity = erv + tidal_volume + irv"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "erv = 66",
+      "tidal_volume = 2.9",
+      "irv = 70",
+      "vital_capacity = erv + tidal_volume + irv"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "erv = 66",
+      "tidal_volume = 2.9",
+      "irv = 70",
+      "vital_capacity = erv + tidal_volume + irv"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "erv = 4.2",
+      "tidal_volume = 40",
+      "irv = 74",
+      "vital_capacity = erv + tidal_volume + irv"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "erv = 4.2",
+      "tidal_volume = 40",
+      "irv = 74",
+      "vital_capacity = erv + tidal_volume + irv"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "vital_capacity = erv + tidal_volume + irv"
+   ]
+  },
+  {
+   "id": "kebo.14.4.6",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "vital_capacity = 36",
+      "residual_volume = 20",
+      "total_lung_capacity = vital_capacity + residual_volume"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "vital_capacity = 36",
+      "residual_volume = 20",
+      "total_lung_capacity = vital_capacity + residual_volume"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "vital_capacity = 14.4",
+      "residual_volume = 42",
+      "total_lung_capacity = vital_capacity + residual_volume"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "vital_capacity = 14.4",
+      "residual_volume = 42",
+      "total_lung_capacity = vital_capacity + residual_volume"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "vital_capacity = 57",
+      "residual_volume = 41",
+      "total_lung_capacity = vital_capacity + residual_volume"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "vital_capacity = 57",
+      "residual_volume = 41",
+      "total_lung_capacity = vital_capacity + residual_volume"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_lung_capacity = vital_capacity + residual_volume"
+   ]
+  }
+ ]
+}

@@ -21,8 +21,8 @@
      "self_check": true
     },
     {
-     "q": "Explain why P(E) + P(not E) = 1.",
-     "a": "The sample space S is the union of E and \"not E\", and they are mutually exclusive (an outcome either is in E or is not, but not both). So P(E) + P(not E) = P(S) = 1. A wrong answer (e.g., \"because they are the same event\") shows the student does not understand that E and not E partition the sample space.",
+     "q": "Trace the correct sequence of reasoning that shows P(E) plus P(not E) equals 1 for any event E.",
+     "a": "The partition argument runs: (1) Every outcome of the sample space lies in E or in not E (2) The two events are mutually exclusive with no overlap (3) Their probabilities therefore add to the probability of the whole sample space (4) Since the probability of the sample space is 1, the two probabilities sum to 1. A wrong answer that treats E and not E as the same event shows the student has missed the partition of the sample space into an event and its complement.",
      "self_check": true
     },
     {
@@ -33,6 +33,26 @@
     {
      "q": "Three coins are tossed. Use the complement rule to find the probability of getting at least one head.",
      "a": "P(at least one head) = 1 − P(no heads) = 1 − P(TTT) = 1 − 1/8 = 7/8. The complement of \"at least one head\" is \"no heads\" (all tails), which is easier to compute. A wrong answer (e.g., listing all 7 favourable outcomes and getting 7/8 without using the complement) is correct but misses the efficiency of the method.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ of an event E, denoted E' or \"not E\", is the event that E does NOT occur.",
+     "a": "complement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you roll a die, the event E = \"______ a 6\" has P(E) = 1/6.",
+     "a": "rolling",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The probability of the complement is P(not E) = ______ − P(E).",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can define the complement of an event, state and derive the formula P(not E) = 1 − P(E), use it to find the probability of the complement when P(E) is known, and apply it to solve problems where direct computation of P(E) is difficult but P(not E) is easier to compute.",
      "self_check": true
     }
    ]

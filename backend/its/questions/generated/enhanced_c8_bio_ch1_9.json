@@ -34,6 +34,31 @@
      "q": "Design a simple classification key with three questions to help a classmate distinguish between a bacterium, a yeast (fungus), an amoeba (protozoan), and a microscopic green alga (algae) found in a water sample.",
      "a": "A good answer will propose sequential questions based on cell type and nutrition, such as: 1. Is it prokaryotic or eukaryotic? (If prokaryotic -> Bacterium). 2. If eukaryotic, does it contain chlorophyll for photosynthesis? (If yes -> Algae). 3. If it does not contain chlorophyll, does it have a rigid cell wall and reproduce by budding/spores like yeast, or is it a motile animal-like cell that engulfs food like an amoeba? A poor answer lists random traits without a logical, step-by-step diagnostic key.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ are extremely tiny living organisms—so small that they cannot be seen with the naked eye and require a microscope to be observed—and are classified into four major groups: bacteria, fungi, protozoa, and algae.",
+     "a": "Microorganisms",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When leaving a piece of moist bread out on a kitchen counter in humid weather for a few days, you notice greenish-black ______ appearing on its surface.",
+     "a": "patches",
+     "self_check": true
+    },
+    {
+     "q": "What is Microorganisms? State the definition given in this lesson.",
+     "a": "Microorganisms are extremely tiny living organisms—so small that they cannot be seen with the naked eye and require a microscope to be observed—and are classified into four major groups: bacteria, fungi, protozoa, and algae.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Microorganisms?",
+     "a": "Students often think that all microorganisms are harmful germs that cause diseases in humans, plants, and animals.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can define microorganisms, name the four major groups (bacteria, fungi, protozoa, algae), and correctly identify the defining structural or nutritional characteristics of each group from descriptions or diagrams.",
+     "self_check": true
     }
    ]
   }

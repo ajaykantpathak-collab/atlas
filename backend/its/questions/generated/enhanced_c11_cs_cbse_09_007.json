@@ -21,7 +21,7 @@
      "self_check": true
     },
     {
-     "q": "Compare the behaviour of these two snippets when `write()` raises an `OSError` (disk full). Which snippet leaves the file handle open?\n```python",
+     "q": "Compare the behaviour of these two snippets when `write()` raises an `OSError` (disk full). Which snippet leaves the file handle open?\n```python\n# Snippet A\nf = open(\"out.txt\", \"w\")\nf.write(\"Hello\")\nf.close()\n\n# Snippet B\nwith open(\"out.txt\", \"w\") as f:\n    f.write(\"Hello\")\n```",
      "a": "Snippet A leaves the file handle open because the exception jumps over `f.close()`. Snippet B guarantees closure via the context manager's `__exit__` method. A student who says \"both close the file\" or \"both leak\" has not traced exception flow and misses the core safety guarantee of `with`.",
      "self_check": true
     },
@@ -33,6 +33,26 @@
     {
      "q": "Design a tiny Python function `safe_append(filename, line)` that appends a line to a file, creates the file if it doesn't exist, and never leaves the file open, using only one `with` statement. Write the complete function.",
      "a": "```python\ndef safe_append(filename, line):\n    with open(filename, \"a\") as f:\n        f.write(line + \"\\n\")\n```\nA poor answer uses `open`/`close`, misses newline, or uses two `with` blocks. This tests synthesis: combining mode `\"a\"` (create + append), automatic closure, and minimal code.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The with statement in Python is a context manager that ______ handles resource acquisition and release for file operations, ensuring the file is properly closed even if an exception occurs during file processing, eliminating the need for explicit close() calls.",
+     "a": "automatically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're ______ a program to save student marks to a file.",
+     "a": "writing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write correct with open(...) as f: syntax for reading/writing files, explain why it is safer than manual open()/close(), and predict the behaviour when an exception occurs inside the with block.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you're writing a program to save student marks to a file.",
+     "a": "Imagine",
      "self_check": true
     }
    ]

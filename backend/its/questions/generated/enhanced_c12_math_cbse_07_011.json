@@ -34,6 +34,21 @@
      "q": "Create a definite integral problem that requires the substitution \\(u = \\sin x\\) and has a non-trivial limit change (i.e., not 0 to \\(\\pi/2\\)). Provide the integral, the substitution steps, and the final answer.",
      "a": "Example: \\(\\int_{\\pi/6}^{\\pi/3} \\frac{\\cos x}{\\sin^2 x}\\,dx\\). Let \\(u = \\sin x\\), \\(du = \\cos x\\,dx\\). Limits: \\(x=\\pi/6 \\to u=1/2\\), \\(x=\\pi/3 \\to u=\\sqrt{3}/2\\). Integral becomes \\(\\int_{1/2}^{\\sqrt{3}/2} u^{-2}\\,du = \\left[ -u^{-1} \\right]_{1/2}^{\\sqrt{3}/2} = -\\frac{2}{\\sqrt{3}} + 2 = 2 - \\frac{2}{\\sqrt{3}}\\). A good answer demonstrates correct limit change, integration of negative power, and simplification. A poor answer might forget the negative sign from \\(u^{-2}\\) integration or mishandle the fractional limits.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This method relies on the chain rule and the ______ Theorem of Calculus.",
+     "a": "Fundamental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight is that changing limits avoids the extra step of back-______ and reduces algebraic errors.",
+     "a": "substitution",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly choose a substitution that simplifies the integrand, change the limits of integration to match the new variable, perform the integration in the new variable, and evaluate the definite integral without reverting to the original variable.",
+     "self_check": true
     }
    ]
   }

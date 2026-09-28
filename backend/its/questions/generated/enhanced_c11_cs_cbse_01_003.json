@@ -34,6 +34,26 @@
      "q": "Design an input-system block diagram for a \"Smart Attendance Terminal\" used by construction workers wearing gloves and helmets in noisy, dusty outdoors. Label each block (sensor, transducer, encoder, interface) and specify the device chosen for each input: worker ID, presence verification, and override command. Justify each choice in one sentence.",
      "a": "Expected blocks: (1) **RFID reader** (sensor: antenna; transducer: inductive coupling; encoder: Manchester-coded bit stream; interface: USB/UART) for Worker ID — works through gloves/helmets, no contact. (2) **IR proximity + thermal sensor** (sensor: photodiode/thermopile; transducer: photon/heat → voltage; encoder: ADC → digital pulse; interface: GPIO) for Presence — detects living human, not just card. (3) **Rugged capacitive touch button** (sensor: conductive pad; transducer: capacitance change; encoder: debounced key-code; interface: I2C) for Override — large, gloved-finger operable, sealed against dust. A poor answer uses fingerprint scanner (fails with gloves/dirt), keyboard (dust ingress), or microphone (noise). Missing encoder/interface labels shows incomplete system-view.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An input device is a hardware component that captures data or ______ from the external world (text, images, sound, physical actions) and converts them into binary digital signals (0s and 1s) that the CPU can process.",
+     "a": "instructions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ kiosk for a rural Indian post office where many users are elderly, semi-literate, and speak only their local language.",
+     "a": "computer",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Classify any given input device by its data-capture modality (text, pointing, image, audio, biometric) and explain the transduction principle it uses; (2) For a given real-world scenario (e.g., digitizing a handwritten form, voice-controlled wheelchair), select the optimal input device and justify the choice based on.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a computer kiosk for a rural Indian post office where many users are elderly, semi-literate, and speak only their local language.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

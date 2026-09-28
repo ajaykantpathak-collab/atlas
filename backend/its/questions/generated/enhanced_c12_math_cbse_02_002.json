@@ -34,6 +34,26 @@
      "q": "Create a problem where a student must find the principal value of an inverse trigonometric function, but the input angle is deliberately outside the principal range, requiring them to use trigonometric identities to find an equivalent angle within the principal branch. Provide the problem and its solution.",
      "a": "Problem: Find the principal value of sin⁻¹(sin 7π/6). Solution: 7π/6 ∉ [–π/2, π/2]. sin(7π/6) = sin(π + π/6) = –sin(π/6) = –1/2. Now sin⁻¹(–1/2) = –π/6 (since –π/6 ∈ [–π/2, π/2] and sin(–π/6) = –1/2). So principal value = –π/6. A good student-created problem would test the same concept with a different function, e.g., cos⁻¹(cos 4π/3) or tan⁻¹(tan 3π/4), and the solution must show the reduction step using periodicity/symmetry identities.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ value branch of an inverse trigonometric function is the specific interval chosen as the range of that function to make it a well-defined (single-valued) function, since trigonometric functions are periodic and not one-to-one on their natural domains.",
+     "a": "principal",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're ______ a solar panel tracker for a rooftop in Delhi — the panel must rotate to follow the sun's elevation angle throughout the day.",
+     "a": "designing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the principal value range for all six inverse trigonometric functions, find principal values of given expressions by restricting angles to the appropriate principal branch, and distinguish between principal values and general solutions of trigonometric equations.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're designing a solar panel tracker for a rooftop in Delhi — the panel must rotate to follow the sun's elevation angle ______ the day.",
+     "a": "throughout",
+     "self_check": true
     }
    ]
   }

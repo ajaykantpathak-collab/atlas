@@ -32,7 +32,37 @@
     },
     {
      "q": "Design a single visualization to compare the *shape* of score distributions for three sections (A, B, C) of Class 12 in a subject, where the data is in a DataFrame `df` with columns `['Section', 'Score']`. The visualization must allow comparing central tendency, spread, and modality. Write the code and justify your choice over a grouped bar chart of mean scores.",
-     "a": "```python",
+     "a": "```python\n# Pivot to wide format: each section becomes a column\ndf_pivot = df.pivot(columns='Section', values='Score')\n# Overlaid histograms with transparency\ndf_pivot.plot(kind='hist', bins=15, alpha=0.5, density=True, figsize=(10,6), \n              title='Score Distribution by Section', xlabel='Score', ylabel='Density')\nplt.legend(title='Section')\nplt.show()\n```\nJustification: Overlaid histograms (or density plots) show *full distribution shape* — modality (peaks), skew, spread, outliers — which a bar chart of means completely hides. Two sections can have identical means but radically different distributions (e.g., bimodal vs normal). Board/competitive exams test this: \"Which visualization reveals distribution differences?\" Answer: histogram/kde, not bar chart of aggregates.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Plotting from Pandas refers to using the built-in .plot() method on Series and DataFrame objects to generate ______ (line, bar, histogram, etc.) directly from labelled data structures, with the method internally handling matplotlib figure/axes creation and data-to-aesthetic mapping.",
+     "a": "visualizations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a CSV file monthly_sales.csv with 12 rows (months) and columns Month, Revenue, ______.",
+     "a": "Expenses",
+     "self_check": true
+    },
+    {
+     "q": "What is Plotting from Pandas? State the definition given in this lesson.",
+     "a": "Plotting from Pandas refers to using the built-in .plot() method on Series and DataFrame objects to generate visualizations (line, bar, histogram, etc.) directly from labelled data structures, with the method internally handling matplotlib figure/axes creation and data-to-aesthetic mapping.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a CSV file monthly_sales.csv with ______ rows (months) and columns Month, Revenue, Expenses.",
+     "a": "12",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Plotting from Pandas?",
+     "a": "Students believe Pandas is only for data manipulation and matplotlib is only for plotting — they write plt.plot(df['Month'], df['Sales']) instead of df.plot(x='Month', y='Sales', kind='line').",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently write code to produce publication-quality line plots, grouped/stacked bar charts, and histograms from Pandas Series/DataFrame using .plot(kind=...) with appropriate parameters (x, y, figsize, title, xlabel, ylabel, grid, color, alpha, bins, stacked, rot, legend) and interpret the visual output for data analysis.",
      "self_check": true
     }
    ]

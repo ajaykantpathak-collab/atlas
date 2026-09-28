@@ -34,6 +34,26 @@
      "q": "Sketch a cross-section profile from a given contour map segment (contours at 100m, 120m, 140m, 160m, 180m with increasing spacing from top to bottom) and annotate it to show the slope type. Propose a suitable land use for this slope in the context of Indian agriculture.",
      "a": "The increasing spacing from top to bottom indicates a convex slope. Suitable land use: terraced farming or plantation crops (tea, coffee) on the upper gentle part, with soil conservation measures on the steeper lower part. A poor answer would misidentify the slope type or suggest inappropriate land use (e.g., intensive cultivation on steep lower slopes without conservation).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Contour ______ for slope types involves analyzing the spacing and arrangement of contour lines on a topographical map to classify terrain steepness and profile shape: gentle slopes show widely spaced contours, steep slopes show closely spaced contours, concave slopes display contours that are closely spaced at the top and widely spaced at the bottom, while convex slopes show the opposite pattern (widely spaced at the top, closely spaced at the bottom).",
+     "a": "interpretation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine trekking in the ______ Ghats near Munnar: some trails are easy while others are exhaustingly steep.",
+     "a": "Western",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can correctly identify gentle, steep, concave, and convex slopes on a Survey of India 1:50,000 topographical map by analyzing contour spacing and pattern, and can explain the quantitative relationship between contour interval, horizontal equivalent, and slope gradient.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine trekking in the Western Ghats near Munnar: some trails are easy while others are ______ steep.",
+     "a": "exhaustingly",
+     "self_check": true
     }
    ]
   }

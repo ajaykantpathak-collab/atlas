@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_04_002",
+   "title": "c11_leg_cbse_04_002",
+   "questions": [
+    {
+     "q": "What are the four categories of entities included in the definition of \"State\" under Article 12 of the Constitution of India?",
+     "a": "The four categories are: (1) Government and Parliament of India (Union Executive and Legislature), (2) Government and Legislature of each State (State Executive and Legislature), (3) All local authorities within the territory of India (e.g., Panchayats, Municipalities), and (4) All local and other authorities under the control of the Government of India (e.g., statutory corporations like ONGC, LIC). A wrong answer that omits \"other authorities\" or confuses \"Government\" with \"State\" reveals the student has not grasped the expansive, non-exhaustive nature of the definition — they are treating it as a closed list rather than a constitutional gateway for judicial interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the judiciary is not explicitly included in Article 12's definition of \"State,\" and what the practical consequence is for a citizen whose Fundamental Rights are violated by a court's *judicial* order versus its *administrative* action.",
+     "a": "The judiciary is excluded from Article 12 to protect judicial independence — if courts were \"State\" under Part III, their own judgments could be challenged as violating Fundamental Rights, undermining finality of adjudication. However, the Supreme Court in *Naresh Shridhar Mirajkar v. State of Maharashtra* (1967) held that while *judicial* decisions are not subject to writ jurisdiction under Article 32, *administrative* acts of the judiciary (e.g., appointments, rule-making for court procedures) can be challenged. A wrong answer claiming \"judiciary is never State\" or \"judiciary is always State\" shows the student misses this critical distinction between judicial and administrative functions — a frequent board exam differentiator.",
+     "self_check": true
+    },
+    {
+     "q": "A private university receives 90% of its funding from the State Government, its governing body is appointed by the Government, and it performs public functions like providing affordable higher education. A student is denied admission without reason. Can the student file a writ petition under Article 226 against the university? Apply the \"instrumentality test\" from *R.D. Shetty v. Airport Authority of India* to justify your answer.",
+     "a": "Yes, the student can file a writ petition. Applying the *R.D. Shetty* instrumentality test: (1) Financial control — 90% state funding meets the \"deep and pervasive\" control threshold; (2) Functional control — performing public educational functions ordinarily done by the State; (3) Administrative control — governing body appointed by Government; (4) The university is an \"authority\" created by statute or under government control. All factors satisfy the test, making the university an \"other authority\" under Article 12. A wrong answer focusing only on \"private\" status ignores that the test is functional, not formal — students often miss that *Ajay Hasia v. Khalid Mujib* (1981) extended this to societies registered under the Societies Registration Act if they meet the criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the \"control test\" (from *Sukhdev Singh v. Bhagatram*) and the \"instrumentality test\" (from *R.D. Shetty v. Airport Authority*) for determining \"other authorities\" under Article 12. Which test is broader and why?",
+     "a": "The *Sukhdev Singh* \"control test\" required \"deep and pervasive\" government control over the body's functioning — a stricter, control-centric standard. The *R.D. Shetty* \"instrumentality test\" is broader: it asks whether the body is an \"instrumentality or agency of the State\" by examining five factors — (1) State financial assistance, (2) State control over management/policies, (3) Monopoly status conferred by State, (4) Public importance of functions, (5) Whether a government department was transferred to the body. The instrumentality test is broader because it captures bodies with *functional* state-character even without day-to-day control (e.g., a monopoly public utility). A wrong answer treating them as identical misses the doctrinal evolution from control → instrumentality, which expanded the scope of Fundamental Rights enforcement.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The exclusion of the judiciary from Article 12 is a constitutional anomaly because it creates a zone where Fundamental Rights can be violated without remedy.\" Defend or critique this statement using *Naresh Mirajkar* and *Rupa Ashok Hurra v. Ashok Hurra* (2002).",
+     "a": "The statement is flawed. While *Naresh Mirajkar* held judicial orders are not \"State action\" under Article 12, it did not create a remediless zone: (1) Judicial decisions can be appealed/reviewed within the judicial hierarchy; (2) *Rupa Hurra* established curative petitions to cure gross miscarriages of justice; (3) Administrative acts of courts remain challengeable; (4) The exclusion preserves judicial independence — a core basic structure feature (*Kesavananda Bharati*). Including judiciary in Article 12 would subject every judgment to collateral attack via writs, destroying finality. A wrong answer agreeing with the statement ignores the multi-layered remedial architecture and confuses \"no Article 32 writ\" with \"no remedy at all.\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario where a body is *not* a \"local authority\" but qualifies as an \"other authority\" under Article 12. Define the body's structure, funding, functions, and control mechanism. Then explain why it fails the \"local authority\" test but passes the \"instrumentality test.\"",
+     "a": "Scenario: \"National Clean Energy Corporation (NCEC)\" — a statutory body created by Parliament, 100% government-funded, mandated to build solar plants nationwide, board appointed by Ministry of New Energy, no elected members, no territorial jurisdiction. It fails \"local authority\" test (*Mohammad Yasin v. Town Area Committee*, 1952) because local authorities require: (a) defined territorial area, (b) elected representatives, (c) power to raise taxes/fees locally, (d) statutory autonomy for local governance. NCEC has none. But it passes instrumentality test: (1) Total state funding, (2) Total state control over board/policy, (3) Performs sovereign-like function (national energy infrastructure), (4) Created by statute for public purpose. A poor answer conflates \"local authority\" with any government body — the territorial + electoral + fiscal autonomy triad is essential for local authority status.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

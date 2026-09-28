@@ -1,96 +1,144 @@
 {
- "catalog": "catalog_class11_biology_ch110",
+ "catalog": "catalog_class11_biology_ch110.json",
  "concepts": [
   {
    "id": "kebo.10.1.1",
    "title": "DNA Content Dynamics in Cell Cycle",
+   "converted_to_compute": true,
+   "formula": "final_dna = initial_dna * (2 ** replication_cycles) / (2 ** division_cycles)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "final_dna = initial_dna * (2 ** replication_cycles) / (2 ** division_cycles)",
+     "compute": "final_dna = initial_dna * (2 ** replication_cycles) / (2 ** division_cycles)"
+    }
+   ],
    "questions": [
     {
-     "q": "Calculate the DNA content at G2 phase. Use the method 'DNA Content Dynamics in Cell Cycle'. Work with: initial_dna = 500. Carry the chain through step by step and give the final value of final_dna.",
-     "a": "500 units",
+     "q": "For DNA Content Dynamics in Cell Cycle: given initial_dna = 56, replication_cycles = 10.4, division_cycles = 13.4, find final dna.",
+     "a": "7",
      "self_check": false
     },
     {
-     "q": "Find the final DNA content after mitosis. Use the method 'DNA Content Dynamics in Cell Cycle'. Work with: initial_dna = 45. Carry the chain through step by step and give the final value of final_dna.",
-     "a": "45 units",
+     "q": "For DNA Content Dynamics in Cell Cycle: given initial_dna = 43, replication_cycles = 1.1, division_cycles = 10.6, find final dna.",
+     "a": "0.0593859",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'DNA Content Dynamics in Cell Cycle' refers to.",
-     "a": "The cell cycle entails specific phases where the quantity of genetic material doubles during synthesis and returns to the original level after division.",
-     "self_check": true
+     "q": "For DNA Content Dynamics in Cell Cycle: given initial_dna = 63, replication_cycles = 18.4, division_cycles = 3.7, find final dna.",
+     "a": "1676800.850999",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'DNA Content Dynamics in Cell Cycle'.",
-     "a": "DNA content doubles in S-phase and halves during M-phase.",
-     "self_check": true
+     "q": "For DNA Content Dynamics in Cell Cycle: given initial_dna = 61, replication_cycles = 7.5, division_cycles = 16.6, find final dna.",
+     "a": "0.111162",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'DNA Content Dynamics in Cell Cycle', in plain ASCII form.",
-     "a": "final_dna = initial_dna * (2 ** replication_cycles) / (2 ** division_cycles)",
-     "self_check": true
+     "q": "For DNA Content Dynamics in Cell Cycle: given initial_dna = 73, replication_cycles = 8.1, division_cycles = 4.7, find final dna.",
+     "a": "770.593",
+     "self_check": false
+    },
+    {
+     "q": "For DNA Content Dynamics in Cell Cycle: given initial_dna = 9.3, replication_cycles = 20, division_cycles = 16.9, find final dna.",
+     "a": "79.7399",
+     "self_check": false
     }
    ]
   },
   {
    "id": "kebo.10.2.1",
    "title": "Mitosis Characteristics",
+   "converted_to_compute": true,
+   "formula": "daughter_chromosomes = parent_chromosomes",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "daughter_chromosomes = parent_chromosomes",
+     "compute": "daughter_chromosomes = parent_chromosomes"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Mitosis Characteristics', work with: parent_chromosomes = 8. Carry the chain through step by step and give the final value of daughter_chromosomes.",
-     "a": "8 units",
+     "q": "For Mitosis Characteristics: given parent_chromosomes = 29, find daughter chromosomes.",
+     "a": "29",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Mitosis Characteristics' and work with: parent_chromosomes = 75. Carry the chain through step by step and give the final value of daughter_chromosomes.",
-     "a": "75 units",
+     "q": "For Mitosis Characteristics: given parent_chromosomes = 41, find daughter chromosomes.",
+     "a": "41",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Mitosis Characteristics' refers to.",
-     "a": "A process of nuclear division where the parent cell produces two daughter cells with matching genetic information.",
-     "self_check": true
+     "q": "For Mitosis Characteristics: given parent_chromosomes = 45, find daughter chromosomes.",
+     "a": "45",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Mitosis Characteristics'.",
-     "a": "Equational division maintains chromosome number.",
-     "self_check": true
+     "q": "For Mitosis Characteristics: given parent_chromosomes = 15.6, find daughter chromosomes.",
+     "a": "15.6",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Mitosis Characteristics', in plain ASCII form.",
-     "a": "daughter_chromosomes = parent_chromosomes",
-     "self_check": true
+     "q": "For Mitosis Characteristics: given parent_chromosomes = 8.1, find daughter chromosomes.",
+     "a": "8.1",
+     "self_check": false
+    },
+    {
+     "q": "For Mitosis Characteristics: given parent_chromosomes = 65, find daughter chromosomes.",
+     "a": "65",
+     "self_check": false
     }
    ]
   },
   {
    "id": "kebo.10.4.1",
    "title": "Meiosis Reduction",
+   "converted_to_compute": true,
+   "formula": "daughter_chromosomes = parent_chromosomes / 2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "daughter_chromosomes = parent_chromosomes / 2",
+     "compute": "daughter_chromosomes = parent_chromosomes / 2"
+    }
+   ],
    "questions": [
     {
-     "q": "Calculate the chromosome number after meiosis. Use the method 'Meiosis Reduction'. Work with: parent_chromosomes = 240, gamete_count = 4. Carry the chain through step by step and give the final value of ploidy.",
-     "a": "120 units",
+     "q": "For Meiosis Reduction: given parent_chromosomes = 52, find daughter chromosomes.",
+     "a": "26",
      "self_check": false
     },
     {
-     "q": "How many chromosomes are in gametes? Use the method 'Meiosis Reduction'. Work with: parent_chromosomes = 40, gamete_count = 4. Carry the chain through step by step and give the final value of ploidy.",
-     "a": "20 units",
+     "q": "For Meiosis Reduction: given parent_chromosomes = 90, find daughter chromosomes.",
+     "a": "45",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Meiosis Reduction' refers to.",
-     "a": "The two-step cell division that halves the chromosome number, yielding haploid gametes.",
-     "self_check": true
+     "q": "For Meiosis Reduction: given parent_chromosomes = 33, find daughter chromosomes.",
+     "a": "16.5",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Meiosis Reduction'.",
-     "a": "Reduction division produces four haploid cells from one diploid cell.",
-     "self_check": true
+     "q": "For Meiosis Reduction: given parent_chromosomes = 7.9, find daughter chromosomes.",
+     "a": "3.95",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Meiosis Reduction', in plain ASCII form.",
-     "a": "daughter_chromosomes = parent_chromosomes / 2",
-     "self_check": true
+     "q": "For Meiosis Reduction: given parent_chromosomes = 58, find daughter chromosomes.",
+     "a": "29",
+     "self_check": false
+    },
+    {
+     "q": "For Meiosis Reduction: given parent_chromosomes = 109, find daughter chromosomes.",
+     "a": "54.5",
+     "self_check": false
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design an HTML snippet for a \"Student Profile Card\" that uses at least 3 semantic elements, 2 global attributes, and 1 void element. Explain your choices.",
      "a": "```html\n<article class=\"profile-card\" id=\"student-1\">\n  <header>\n    <img src=\"avatar.png\" alt=\"Student photo\">  <!-- void element -->\n    <h2>Arjun Sharma</h2>\n  </header>\n  <section>\n    <p>Class 12, Science Stream</p>\n  </section>\n  <footer>\n    <a href=\"mailto:arjun@example.com\">Contact</a>\n  </footer>\n</article>\n```\nSemantic: `<article>`, `<header>`, `<section>`, `<footer>`. Global attributes: `class`, `id`. Void: `<img>`. A poor answer uses only `<div>`/`<span>`, misses `alt` on `<img>`, or puts block elements inside inline ones — showing weak grasp of content categories.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: HTML (HyperText Markup Language) uses tags (keywords enclosed in angle brackets like <p>), elements (a complete structure ______ an opening tag, content, and closing tag like <p>Hello</p>), and attributes (name-value pairs inside opening tags that modify element behavior like <img src=\"logo.png\" alt=\"Logo\">) to define the structure and semantics of a web document.",
+     "a": "comprising",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're ______ a digital résumé for a college application.",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish between a tag, an element, and an attribute in any given HTML snippet, (2) write a valid HTML5 document skeleton with correct nesting of <html>, <head>, <body> and common child elements, and (3) explain why missing closing tags or incorrect attribute syntax breaks rendering.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're building a digital résumé for a college ______.",
+     "a": "application",
+     "self_check": true
     }
    ]
   }

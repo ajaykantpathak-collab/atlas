@@ -7,7 +7,7 @@
    "questions": [
     {
      "q": "State the two key experimental observations from the Geiger-Marsden alpha-scattering experiment that contradicted Thomson's plum pudding model.",
-     "a": "Correct answer: (1) Most α-particles passed through the gold foil with little or no deflection (indicating atoms are mostly empty space). (2) A very small fraction (~1 in 8000) were scattered at large angles >90°, some even backwards (indicating a concentrated, massive, positively charged nucleus).  \nA wrong answer (e.g., \"α-particles were absorbed\" or \"all particles deflected slightly\") reveals the student confuses Rutherford's experiment with Thomson's model predictions or misunderstands the rarity of large-angle scattering. The plum pudding model predicted only small deflections because positive charge was diffuse; the observation of rare but violent large-angle scattering is the smoking gun for a tiny nucleus.",
+     "a": "(1) Observation one — most alpha particles passed straight through the gold foil with little or no deflection, showing the atom is mostly empty space, (2) Observation two — a very small fraction, about one in eight thousand, scattered through angles beyond ninety degrees, some even bouncing backward, (3) The inference — rare but violent large-angle scattering is the smoking gun for a tiny, massive, positively charged nucleus at the centre. A wrong answer such as saying the particles were absorbed, or that all were deflected slightly, confuses Rutherford's result with the plum-pudding model's prediction of only small deflections from diffuse charge.",
      "self_check": true
     },
     {
@@ -33,6 +33,26 @@
     {
      "q": "Design a thought experiment: If you repeated the Geiger-Marsden experiment using a thin foil of solid hydrogen (Z = 1) at 14 K instead of gold (Z = 79), how would the scattering pattern change? Predict qualitatively the distance of closest approach for a 5.5 MeV α-particle and the fraction of particles scattered at >90°.",
      "a": "**Expected answer:**  \n- Distance of closest approach *d* ∝ Z. For hydrogen (Z=1), *d* is 79× smaller than for gold: ~0.37 fm (vs 29.5 fm for gold). This is *smaller* than the proton radius (~0.84 fm), meaning the α-particle would penetrate the nucleus — nuclear forces would dominate, and Rutherford's pure Coulomb formula breaks down.  \n- Scattering cross-section ∝ Z². For hydrogen, the probability of large-angle scattering drops by 79² ≈ 6241×. The fraction scattered >90° would be ~1 in 8000 / 6241 ≈ 1 in 50 million — essentially unobservable.  \n- The α-particle (mass 4 u) is heavier than the target proton (1 u), so the target recoils significantly; the \"stationary nucleus\" assumption fails.  \nA poor answer (e.g., \"same pattern but weaker\" or \"no scattering because hydrogen is light\") reveals the student misses the Z² dependence of the cross-section, the breakdown of the point-nucleus Coulomb model at small *d*, and the recoil effect — all critical for JEE-level analysis of scattering experiments.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Rutherford's nuclear model of the atom states that the entire positive charge and nearly all the mass of an atom are ______ in a tiny, dense nucleus (radius ~10⁻¹⁵ m), while electrons revolve around this nucleus at distances ~10⁻¹⁰ m, making the atom mostly empty space.",
+     "a": "concentrated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine holding a thin gold leaf used in Indian traditional sweets (varak) — it is so thin that ______ passes through, yet it is made of gold atoms.",
+     "a": "light",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) describe the Geiger-Marsden experimental setup and observations with correct terminology (impact parameter, scattering angle, distance of closest approach), (2) derive the distance of closest approach formula using conservation of energy, and (3) calculate the upper limit on nuclear size for a given α-particle energy.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine holding a thin gold leaf used in Indian ______ sweets (varak) — it is so thin that light passes through, yet it is made of gold atoms.",
+     "a": "traditional",
      "self_check": true
     }
    ]

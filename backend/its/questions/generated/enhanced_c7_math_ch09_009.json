@@ -27,12 +27,32 @@
     },
     {
      "q": "A classmate proves two triangles are congruent and writes: \"Since $\\triangle PQR \\cong \\triangle STU$, therefore angle $P$ equals angle $U$.\" Evaluate this statement and correct any error.",
-     "a": "[Answer needed]",
+     "a": "The classmate is wrong: in $\\triangle PQR \\cong \\triangle STU$ the letter order fixes the correspondence, so $P \\leftrightarrow S$, $Q \\leftrightarrow T$, $R \\leftrightarrow U$; hence $\\angle P = \\angle S$, not $\\angle U$. Ignoring the order of vertices in the congruence statement mixes up corresponding parts (CPCT).",
      "self_check": true
     },
     {
      "q": "The statement is incorrect because the vertex matching order matters. According to $\\triangle PQR \\cong \\triangle STU$, vertex $P$ corresponds to vertex $S$, so angle $P$ must equal angle $U$ is false; angle $P$ equals angle $S$. A wrong answer agreeing with the classmate indicates the student fails to check index alignment in congruence statements.",
-     "a": "[Answer needed]",
+     "a": "Correct — correspondence follows the letter order: $P$ pairs with $S$, so $\\angle P$ equals $\\angle S$; accepting the classmate's claim shows the student never checked the index alignment of the congruence statement.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Applying congruence involves using known triangle congruence criteria (SSS, SAS, ASA, RHS) and ______ parts of congruent triangles (CPCTC) to prove geometric properties, find unknown side lengths, or determine missing angle measures in complex figures.",
+     "a": "corresponding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a builder at a construction site in Jaipur and you need to verify if two ______ support beams for a roof are exact twins so that one can replace the other.",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can decompose a complex geometric figure into individual triangles, identify valid congruence criteria (SSS, SAS, ASA, RHS), write formal corresponding vertex matches, and apply CPCTC to solve for unknown lengths or angles in multi-step problems.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a builder at a ______ site in Jaipur and you need to verify if two triangular support beams for a roof are exact twins so that one can replace the other.",
+     "a": "construction",
      "self_check": true
     }
    ]

@@ -34,6 +34,31 @@
      "q": "Construct a rhombus with diagonals 6 cm and 8 cm using a ruler and compass. Describe the steps and explain why the construction works.",
      "a": "Draw a line segment AC = 6 cm. Construct its perpendicular bisector. On the bisector, mark points B and D such that OB = OD = 4 cm (half of 8 cm). Join A, B, C, D. This works because the diagonals of a rhombus are perpendicular bisectors; the construction ensures all sides become equal (each side = √(3²+4²)=5 cm). A poor answer that omits the perpendicular bisector step shows lack of connection between property and construction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In a rhombus, the two diagonals intersect each other at right angles (90°) and each diagonal divides the other into two equal segments; thus, the diagonals are ______ bisectors of each other.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a kite for a school festival in the shape of a rhombus with ______ of 30 cm and 40 cm.",
+     "a": "diagonals",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In a rhombus, the two diagonals intersect each other at right angles (______°) and each diagonal divides the other into two equal segments; thus, the diagonals are perpendicular bisectors of each other.",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can prove that the diagonals of a rhombus are perpendicular bisectors using triangle congruence (SSS or SAS), and can apply this property to find unknown angles, side lengths, or diagonal lengths in a rhombus.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a kite for a school festival in the shape of a rhombus with diagonals of 30 cm and 40 cm.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

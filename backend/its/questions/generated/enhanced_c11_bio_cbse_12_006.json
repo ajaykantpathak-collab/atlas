@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using isolated mitochondria, a Clark-type oxygen electrode, and specific substrates/inhibitors to demonstrate that electron transport and oxidative phosphorylation are coupled processes. Outline the sequence of additions and the expected oxygen consumption trace.",
      "a": "Add mitochondria + succinate (FADH₂ substrate) → steady O₂ consumption (State 2). Add ADP → rapid O₂ consumption increase (State 3, coupled phosphorylation). Add oligomycin (ATP synthase inhibitor) → O₂ consumption drops to low rate (State 4, gradient maximal, no proton flow through ATP synthase). Add DNP (uncoupler) → O₂ consumption increases to maximal uncoupled rate (gradient dissipated). Add cyanide → O₂ consumption stops. A good answer shows understanding of respiratory control: coupling means electron transport rate depends on ADP availability and proton gradient dissipation. A poor design (e.g., adding inhibitors before substrates) reveals lack of grasp of the sequence of coupling/uncoupling states.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Electron Transport Chain (ETC) is a series of protein complexes (I-IV) and mobile carriers embedded in the inner mitochondrial membrane that transfer electrons from NADH and FADH₂ to molecular oxygen, coupling this exergonic flow to the pumping of protons (H⁺) into the intermembrane space to create an ______ gradient.",
+     "a": "electrochemical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are climbing the stairs of a tall building like the Qutub Minar – each step you climb stores gravitational ______ energy.",
+     "a": "potential",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can trace the path of electrons from NADH and FADH₂ through Complexes I-IV to oxygen, explain how proton pumping at Complexes I, III, and IV creates the electrochemical gradient, and calculate ATP yield per glucose by accounting for the 3 ATP/NADH and 2 ATP/FADH₂ stoichiometry while distinguishing substrate-level.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are climbing the stairs of a tall building like the Qutub Minar – each step you climb stores ______ potential energy.",
+     "a": "gravitational",
+     "self_check": true
     }
    ]
   }

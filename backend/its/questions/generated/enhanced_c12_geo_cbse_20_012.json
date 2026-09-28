@@ -34,6 +34,31 @@
      "q": "Design a flow map to show inter-state migration from Bihar to Maharashtra, Punjab, and Delhi using 2011 Census data: Bihar→Maharashtra 1.2 million, Bihar→Punjab 0.8 million, Bihar→Delhi 0.5 million. Choose a scale, draw the map conceptually, and explain how you would represent the three flows.",
      "a": "Select scale: 1 cm = 0.2 million migrants (so max flow 1.2 million = 6 cm). Draw outline map of India with Bihar, Maharashtra, Punjab, Delhi. Draw curved flow lines from Bihar to each destination with widths: Maharashtra 6 cm, Punjab 4 cm, Delhi 2.5 cm. Add terraced legend, arrowheads for direction, and title. A poor design would use straight lines ignoring geography, omit legend, or use incorrect proportions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Flow maps are thematic maps that use lines of varying width to represent the volume of movement (goods, people, vehicles) between geographic locations, showing origin, ______, and flow magnitude.",
+     "a": "destination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by showing a real-world example: a map of Delhi Metro ______ where line thickness shows passenger volume between stations.",
+     "a": "ridership",
+     "self_check": true
+    },
+    {
+     "q": "What is Flow maps? State the definition given in this lesson.",
+     "a": "Flow maps are thematic maps that use lines of varying width to represent the volume of movement (goods, people, vehicles) between geographic locations, showing origin, destination, and flow magnitude.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Flow maps?",
+     "a": "Students often think flow maps only show transport (trains, vehicles) and forget they can represent any flow (migration, trade, water, data).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can construct a flow map from given transport data by selecting an appropriate scale, drawing proportional flow lines, and adding a terraced legend; and can construct a dot map by determining dot value, calculating number of dots per unit, and placing dots with reference to physiographic constraints.",
+     "self_check": true
     }
    ]
   }

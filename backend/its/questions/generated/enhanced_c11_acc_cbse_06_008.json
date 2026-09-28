@@ -34,6 +34,21 @@
      "q": "Create a scenario where a trial balance disagrees by ₹6,000 (excess credit). Invent two one-sided errors that could cause this difference, and show the suspense account ledger after opening and after rectifying both errors.",
      "a": "**Scenario:** Trial balance: Debit ₹5,00,000, Credit ₹5,06,000 → Excess credit ₹6,000. Open Suspense A/c on Debit side with ₹6,000.  \n**Error 1:** Sales return book overcast by ₹2,000 → Sales Return A/c credited excess → Rectification: Suspense A/c Dr. 2,000 To Sales Return A/c 2,000.  \n**Error 2:** Cash paid to creditor ₹8,000 not posted to creditor's account → Creditor's A/c short debit ₹8,000 → Rectification: Creditor's A/c Dr. 8,000 To Suspense A/c 8,000.  \n**Suspense A/c Ledger:**  \nDr. Side: Diff. as per TB 6,000 | Cr. Side: Sales Return 2,000, Creditor 8,000 → Total Cr. 10,000 → Balance c/d 4,000 (Cr.).  \nA poor answer (errors not one-sided, amounts not netting to the difference, or wrong ledger posting) reveals the student cannot synthesize the full cycle: disagreement → opening entry → rectification entries → closing balance.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Suspense Account is a temporary holding account used to record the difference in a trial balance when the total debits and credits do not agree, allowing the ______ of financial statements to proceed while errors are being located and rectified; it is closed once all one-sided errors affecting the trial balance are corrected.",
+     "a": "preparation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It's 31st March, and your senior hands you a trial balance where the debit column totals ₹12,45,000 and the credit column totals ₹12,30,000 — a ₹15,000 ______.",
+     "a": "difference",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently (1) calculate the suspense account opening balance from a disagreed trial balance, (2) pass correct rectification journal entries routing through suspense account for any one-sided error, and (3) prepare the suspense account ledger showing its closure (zero balance) or carry-forward balance.",
+     "self_check": true
     }
    ]
   }

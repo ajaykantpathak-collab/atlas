@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a concave mirror, a screen, and a distant object (e.g., the sun or a tree) to verify the relation f = R/2. Describe how you would measure R and f, and how you would apply the sign convention to your measurements.",
      "a": "Procedure: (1) Face the concave mirror towards the sun. (2) Move a white screen along the principal axis until a sharp, bright point image of the sun is formed. The distance from the pole to the screen is the focal length f (magnitude). (3) To find R, place the screen at the centre of curvature: move an object (e.g., a pin) along the axis until its real, inverted, same-size image forms on the screen beside it. The object distance equals R. (4) Apply sign convention: incident light from sun travels towards mirror (left to right). Both focus and centre of curvature are on the left (against incident light), so f and R are negative. Record f = –(measured distance), R = –(measured distance). Verify f = R/2. A poor answer measures distances without assigning signs or uses the centre of curvature method incorrectly (e.g., using image distance for a random object position).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Reflection of light is the ______ where a light ray, incident on a smooth surface, bounces back into the same medium following two laws: (1) The angle of incidence equals the angle of reflection (∠i = ∠r), and (2) the incident ray, reflected ray, and the normal to the surface at the point of incidence all lie in the same plane.",
+     "a": "phenomenon",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the side-view mirror of a parked car: objects appear smaller and ______ away.",
+     "a": "farther",
+     "self_check": true
+    },
+    {
+     "q": "What is Reflection of light? State the definition given in this lesson.",
+     "a": "Reflection of light is the phenomenon where a light ray, incident on a smooth surface, bounces back into the same medium following two laws: (1) The angle of incidence equals the angle of reflection (∠i = ∠r), and (2) the incident ray, reflected ray, and the normal to the surface at the point of incidence all lie in the same plane.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Reflection of light?",
+     "a": "Students often believe the sign convention is arbitrary and that \"object distance is always negative, image distance positive for real images, negative for virtual images\" as a fixed rule.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly apply the Cartesian sign convention to assign signs to object distance (u), image distance (v), focal length (f), radius of curvature (R), and heights (h, h') for any spherical mirror (concave/convex) and object position.",
+     "self_check": true
     }
    ]
   }

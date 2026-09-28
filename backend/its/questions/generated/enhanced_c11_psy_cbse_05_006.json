@@ -34,6 +34,31 @@
      "q": "Design a mini-experiment to test whether a 6-year-old can learn a novel multi-step task (e.g., origami crane) solely by observing a peer model, without any direct reinforcement. Specify the control condition, dependent variable, and how you would isolate attention and retention.",
      "a": "Experimental group: child watches peer fold crane twice. Control group: child sees finished crane only (no modeling). Dependent variable: number of correct folds in 5-minute test. To isolate attention: record gaze duration toward model's hands. To isolate retention: impose a 10-minute distractor task before test. A poor design that omits the control or distractor task fails to rule out trial-and-error learning or immediate mimicry, conflating retention with short-term motor mimicry.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ learning is a process through which individuals acquire new behaviours or information by watching others (models) and the consequences of their actions, without direct reinforcement to the observer; it involves four mediational processes: attention, retention, reproduction, and motivation.",
+     "a": "Observational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a family wedding and see your older cousin confidently negotiating a discount with a street vendor — you've never done that before, but later you try the same ______ and get a discount too.",
+     "a": "phrases",
+     "self_check": true
+    },
+    {
+     "q": "What is Observational learning? State the definition given in this lesson.",
+     "a": "Observational learning is a process through which individuals acquire new behaviours or information by watching others (models) and the consequences of their actions, without direct reinforcement to the observer; it involves four mediational processes: attention, retention, reproduction, and motivation.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Observational learning?",
+     "a": "Students often believe observational learning is simply \"copying\" or \"imitation\" and therefore requires the observer to perform the behaviour immediately while watching.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain Bandura's four mediational processes with a novel example, distinguish between acquisition and performance in the Bobo doll study, and predict how vicarious reinforcement/punishment alters imitation likelihood in a given social scenario.",
+     "self_check": true
     }
    ]
   }

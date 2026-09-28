@@ -1,0 +1,245 @@
+{
+ "catalog": "catalog_class12_accountancy_leca101.json",
+ "concepts": [
+  {
+   "id": "leca101.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "days_worked = 9709",
+      "rate_per_day = 94",
+      "pay_amount = days_worked * rate_per_day"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "days_worked = 7885",
+      "rate_per_day = 100",
+      "pay_amount = days_worked * rate_per_day"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "days_worked = 5632",
+      "rate_per_day = 34",
+      "pay_amount = days_worked * rate_per_day"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "days_worked = 2634",
+      "rate_per_day = 36",
+      "pay_amount = days_worked * rate_per_day"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "days_worked = 8630",
+      "rate_per_day = 69",
+      "pay_amount = days_worked * rate_per_day"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "days_worked = 4194",
+      "rate_per_day = 59",
+      "pay_amount = days_worked * rate_per_day"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "pay_amount = days_worked * rate_per_day"
+   ]
+  },
+  {
+   "id": "leca101.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "capital_open = 90",
+      "revenues = 2.7",
+      "expenses = 87",
+      "capital_after_results = capital_open + revenues - expenses"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "capital_open = 62",
+      "revenues = 21",
+      "expenses = 98",
+      "capital_after_results = capital_open + revenues - expenses"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "capital_open = 28",
+      "revenues = 27",
+      "expenses = 7.7",
+      "capital_after_results = capital_open + revenues - expenses"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "capital_open = 88",
+      "revenues = 81",
+      "expenses = 42",
+      "capital_after_results = capital_open + revenues - expenses"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "capital_open = 41",
+      "revenues = 46",
+      "expenses = 90",
+      "capital_after_results = capital_open + revenues - expenses"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "capital_open = 47",
+      "revenues = 96",
+      "expenses = 46",
+      "capital_after_results = capital_open + revenues - expenses"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "capital_after_results = capital_open + revenues - expenses"
+   ]
+  },
+  {
+   "id": "leca101.7",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "block_end = 85",
+      "block_start = 53",
+      "block_size = block_end - block_start + 1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "block_end = 79",
+      "block_start = 49",
+      "block_size = block_end - block_start + 1"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "block_end = 18.3",
+      "block_start = 32",
+      "block_size = block_end - block_start + 1"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "block_end = 1.9",
+      "block_start = 3.3",
+      "block_size = block_end - block_start + 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "block_end = 18.4",
+      "block_start = 3.3",
+      "block_size = block_end - block_start + 1"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "block_end = 21",
+      "block_start = 41",
+      "block_size = block_end - block_start + 1"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "block_size = block_end - block_start + 1"
+   ]
+  },
+  {
+   "id": "leca101.8",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "last_num = 39",
+      "first_num = 109",
+      "issued_count = 472",
+      "missing_count = (last_num - first_num + 1) - issued_count"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "last_num = 75",
+      "first_num = 42",
+      "issued_count = 41",
+      "missing_count = (last_num - first_num + 1) - issued_count"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "last_num = 109",
+      "first_num = 51",
+      "issued_count = 419",
+      "missing_count = (last_num - first_num + 1) - issued_count"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "last_num = 101",
+      "first_num = 108",
+      "issued_count = 325",
+      "missing_count = (last_num - first_num + 1) - issued_count"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "last_num = 17.9",
+      "first_num = 112",
+      "issued_count = 340",
+      "missing_count = (last_num - first_num + 1) - issued_count"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "last_num = 12.3",
+      "first_num = 10.6",
+      "issued_count = 17",
+      "missing_count = (last_num - first_num + 1) - issued_count"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "missing_count = (last_num - first_num + 1) - issued_count"
+   ]
+  }
+ ]
+}

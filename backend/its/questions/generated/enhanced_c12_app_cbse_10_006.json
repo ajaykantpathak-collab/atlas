@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_10_006",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_10_006",
+   "title": "c12_app_cbse_10_006",
+   "questions": [
+    {
+     "q": "Name the four standard types of Linear Programming Problems as per NCERT Class 12 Applied Mathematics, and state the typical objective (maximize or minimize) for each.",
+     "a": "The four types are: (1) Manufacturing Problem — typically **maximize profit**; (2) Diet Problem — typically **minimize cost**; (3) Transportation Problem — typically **minimize transportation cost**; (4) Assignment Problem — typically **minimize total time/cost** or **maximize efficiency**. A wrong answer (e.g., saying Diet Problem maximizes nutrition) reveals the student confuses the *goal* (meet minimum requirements) with the *objective function* (minimize cost). In Diet problems, nutrients have **minimum requirements (≥)**, so we minimize cost — not maximize nutrition.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer has 10 hectares of land to grow wheat and barley. Wheat requires 2 kg fertilizer/hectare, barley requires 1 kg/hectare. Only 15 kg fertilizer is available. Wheat gives ₹8000 profit/hectare, barley ₹6000. The farmer wants maximum profit. Is this a Manufacturing or Diet problem? Justify by comparing the constraint structure.",
+     "a": "This is a **Manufacturing Problem**. Constraints are **resource limits** (land ≤ 10, fertilizer ≤ 15) with **≤ inequalities**, and the objective is **maximize profit**. In a Diet Problem, constraints are **minimum requirements** (nutrients ≥ needed) with **≥ inequalities**, and the objective is **minimize cost**. A student who says \"Diet Problem\" because \"farmer grows food\" confuses the *context* with the *mathematical structure* — LPP types are defined by constraint/objective pattern, not the story.",
+     "self_check": true
+    },
+    {
+     "q": "Formulate the following as an LPP: A company has two factories (F1, F2) with capacities 50 and 40 units. Three warehouses (W1, W2, W3) need 20, 30, and 40 units. Transport costs per unit (in ₹) are: F1→W1: 4, F1→W2: 6, F1→W3: 8; F2→W1: 5, F2→W2: 3, F2→W3: 7. Minimize total transport cost. Define decision variables clearly.",
+     "a": "Let xᵢⱼ = units transported from Fi to Wj (i=1,2; j=1,2,3).  \nMinimize Z = 4x₁₁ + 6x₁₂ + 8x₁₃ + 5x₂₁ + 3x₂₂ + 7x₂₃  \nSubject to:  \nSupply: x₁₁ + x₁₂ + x₁₃ ≤ 50; x₂₁ + x₂₂ + x₂₃ ≤ 40  \nDemand: x₁₁ + x₂₁ ≥ 20; x₁₂ + x₂₂ ≥ 30; x₁₃ + x₂₃ ≥ 40  \nNon-negativity: xᵢⱼ ≥ 0 for all i,j.  \nA wrong answer with **equality constraints** (e.g., x₁₁ + x₁₂ + x₁₃ = 50) reveals the student assumes full capacity must be used — but LPP allows unused capacity (≤). Also, missing demand constraints (≥) or using ≤ for demand reveals confusion between supply (source limit) and demand (destination need).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the constraint structure of a Transportation Problem and an Assignment Problem. Both involve allocation — what is the fundamental mathematical difference in how decision variables and constraints are defined?",
+     "a": "In a **Transportation Problem**, decision variables xᵢⱼ represent **continuous quantities** (units shipped) from multiple sources to multiple destinations, with **supply constraints (≤)** and **demand constraints (≥)**. In an **Assignment Problem**, decision variables xᵢⱼ are **binary (0 or 1)** — each worker (source) is assigned to exactly one job (destination) and vice versa, so constraints are **∑xᵢⱼ = 1 for each row and column**. A student who writes continuous variables for Assignment Problem misses that it's a **special case of transportation with unit supply/demand and binary decisions** — this distinction is critical for JEE/NEET where Assignment is often solved via Hungarian Method, not graphical method.",
+     "self_check": true
+    },
+    {
+     "q": "A dietician must create a meal plan using Food A (₹10/unit, 5g protein, 2g fat) and Food B (₹15/unit, 3g protein, 6g fat). Minimum daily needs: 30g protein, 24g fat. The dietician formulates: Min Z = 10x + 15y, s.t. 5x + 3y ≤ 30, 2x + 6y ≤ 24, x,y ≥ 0. Evaluate this formulation. Is it correct? If not, fix it and explain the error.",
+     "a": "The formulation is **incorrect**. The constraints use **≤** but should be **≥** because protein and fat are **minimum requirements** — we need *at least* 30g protein and 24g fat. Correct: 5x + 3y ≥ 30, 2x + 6y ≥ 24. The student who wrote ≤ confuses \"resource limit\" (Manufacturing) with \"nutrient requirement\" (Diet). This is the #1 error in Diet Problems: **direction of inequality**. In boards, this loses 2-3 marks (wrong constraints = wrong feasible region = wrong optimal solution). Always ask: \"Is this a limit I cannot exceed (≤) or a need I must meet (≥)?\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a new real-world scenario (Indian context) for an **Assignment Problem** with 3 workers and 3 jobs. Define decision variables, objective function, and all constraints. Ensure it is a valid Assignment Problem (not Transportation).",
+     "a": "Scenario: A Delhi-based startup has 3 developers (Dev1, Dev2, Dev3) and 3 projects (AI, Web, Mobile). Each developer takes different days to complete each project:\n| | AI | Web | Mobile |\n|---|---|---|---|\n| Dev1 | 10 | 8 | 12 |\n| Dev2 | 9 | 11 | 7 |\n| Dev3 | 8 | 10 | 9 |\nAssign each developer to exactly one project to **minimize total days**.  \nLet xᵢⱼ = 1 if developer i assigned to project j, else 0.  \nMin Z = 10x₁₁ + 8x₁₂ + 12x₁₃ + 9x₂₁ + 11x₂₂ + 7x₂₃ + 8x₃₁ + 10x₃₂ + 9x₃₃  \ns.t. ∑ⱼ xᵢⱼ = 1 (each dev one project), ∑ᵢ xᵢⱼ = 1 (each project one dev), xᵢⱼ ∈ {0,1}.  \nA poor answer uses continuous variables (xᵢⱼ ≥ 0) or allows multiple assignments — revealing the student doesn't grasp the **one-to-one matching** essence of Assignment Problems.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,26 @@
      "q": "Create a real-world scenario with exactly 3 Boolean conditions (e.g., sensors, rules, eligibility criteria) where the final decision is TRUE only when **exactly two** of the three conditions are TRUE. Write the Boolean expression and its full truth table.",
      "a": "Scenario: A university scholarship requires **exactly two** of three criteria: (A) CGPA ≥ 8.5, (B) Family income < ₹5 lakh, (C) First-generation learner.  \nExpression: (A∧B∧¬C) ∨ (A∧¬B∧C) ∨ (¬A∧B∧C)  \nTruth table (A,B,C order): 000→0, 001→0, 010→0, 011→1, 100→0, 101→1, 110→1, 111→0.  \nA poor answer (wrong expression, missing rows, or incorrect outputs) reveals inability to translate \"exactly two\" into minterms or to systematically enumerate cases — a direct precursor to canonical forms (next node).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A truth table is a complete tabular enumeration of all possible ______ of input values for Boolean variables (0/False, 1/True) and the resulting output value(s) of a Boolean operation or expression.",
+     "a": "combinations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine designing a smart irrigation ______ that waters crops only when both the soil moisture sensor reads \"dry\" (0) AND the temperature sensor reads \"high\" (1) — but NOT when it's raining (rain sensor = 1).",
+     "a": "system",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently construct a truth table for any Boolean expression involving up to three variables (AND, OR, NOT, and their combinations) by systematically listing all 2^n input combinations, applying operator precedence correctly, and evaluating the output column(s) without omission or ordering errors.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine designing a smart irrigation system that waters crops only when both the soil moisture sensor reads \"dry\" (0) AND the ______ sensor reads \"high\" (1) — but NOT when it's raining (rain sensor = 1).",
+     "a": "temperature",
+     "self_check": true
     }
    ]
   }

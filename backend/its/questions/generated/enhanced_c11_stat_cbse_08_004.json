@@ -34,6 +34,31 @@
      "q": "Design a weighted price index to measure inflation for a typical urban household in your city. Specify: (i) 5-6 broad commodity groups, (ii) the weight you would assign to each group (summing to 100), (iii) whether you would use weighted aggregative or weighted average of relatives, and (iv) whether you would prefer base-year or current-year weights. Justify each choice in 2-3 sentences.",
      "a": "A good answer will: (i) list groups like Housing, Food, Transport, Education, Healthcare, Miscellaneous; (ii) assign plausible weights (e.g., Housing 35, Food 30, Transport 15, Education 10, Healthcare 5, Misc 5) based on consumer expenditure survey data; (iii) choose weighted average of relatives because price relatives are unit-free and groups have heterogeneous units; (iv) prefer base-year weights (Laspeyres-type) for practical CPI compilation because current-year weights require frequent surveys. A poor answer assigns arbitrary weights without justification or ignores unit heterogeneity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Weighted index numbers are index numbers in which different items are assigned weights according to their relative importance in the consumption basket or production output, so that more significant items exert a ______ larger influence on the overall index value.",
+     "a": "proportionally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are tracking the ______ expenses of a family in Delhi.",
+     "a": "monthly",
+     "self_check": true
+    },
+    {
+     "q": "What is Weighted index numbers? State the definition given in this lesson.",
+     "a": "Weighted index numbers are index numbers in which different items are assigned weights according to their relative importance in the consumption basket or production output, so that more significant items exert a proportionally larger influence on the overall index value.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Weighted index numbers?",
+     "a": "Students often believe that \"weighted index number\" refers to a single unique formula, and that the weights are arbitrary numbers chosen by the statistician.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain why simple index numbers are inadequate for realistic economic analysis, describe the two broad methods of constructing weighted index numbers (weighted aggregative and weighted average of price relatives), and identify the types of weights (quantity weights, value weights) used in each method.",
+     "self_check": true
     }
    ]
   }

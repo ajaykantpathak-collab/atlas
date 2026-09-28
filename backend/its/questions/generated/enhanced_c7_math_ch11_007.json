@@ -34,6 +34,26 @@
      "q": "Create a pair of numbers whose LCM is 12, other than 3 and 4 or 12 and 1, and show how the listing method proves it.",
      "a": "Numbers 2 and 6. Multiples of 2: 2, 4, 6, 8, 10, 12... Multiples of 6: 6, 12, 18... The first common multiple appearing in both lists is 12, proving the LCM is 12. A poor answer gives numbers whose LCM is not 12, such as 3 and 5 (LCM 15), showing a failure to work backward from a target LCM.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Finding the Least Common Multiple (LCM) by the listing multiples method involves writing out the non-zero multiples of each given number in increasing order, ______ the common multiples they share, and selecting the smallest one among those common multiples.",
+     "a": "identifying",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two ______ bell rings: one bell rings every 6 minutes and another bell rings every 8 minutes.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can list successive multiples of two or three given numbers, identify matching values across the lists, and correctly determine the lowest common multiple with accurate step-by-step documentation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ two school bell rings: one bell rings every 6 minutes and another bell rings every 8 minutes.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

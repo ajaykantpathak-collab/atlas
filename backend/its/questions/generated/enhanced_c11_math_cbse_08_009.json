@@ -34,6 +34,11 @@
      "q": "Construct a real-world problem where the binomial expansion for a fractional index is used to approximate a physical quantity (e.g., period of a pendulum, relativistic kinetic energy). Write the problem statement and outline the steps to solve it using the expansion.",
      "a": "Example: The period of a simple pendulum for small amplitude \\( \\theta_0 \\) is \\( T = 2\\pi\\sqrt{\\frac{L}{g}} \\left(1 + \\frac{1}{4}\\sin^2\\frac{\\theta_0}{2} + \\cdots\\right) \\). Using \\( (1+x)^{1/2} \\) with \\( x = \\frac{1}{4}\\sin^2\\frac{\\theta_0}{2} \\), approximate \\( T \\) for \\( \\theta_0 = 0.2 \\) rad. Steps: identify \\( n=1/2 \\), compute \\( x \\), expand to required terms, substitute. A poor answer indicates inability to map a physical formula to the binomial form or to choose an appropriate number of terms for desired accuracy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Compute each term step by step to get an ______.",
+     "a": "approximation",
+     "self_check": true
     }
    ]
   }

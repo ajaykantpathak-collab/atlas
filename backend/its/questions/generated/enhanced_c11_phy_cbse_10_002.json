@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using only a mercury-in-glass thermometer, ice, water, and a burner to verify the linear relationship between the Celsius and Fahrenheit scales. Describe the procedure, the data to collect, and how you would analyse it.",
      "a": "Procedure: (1) Prepare an ice-water bath (0 °C, 32 °F) and record the mercury length L0. (2) Heat water to boiling (100 °C, 212 °F) at 1 atm and record length L100. (3) At several intermediate temperatures (e.g., 20, 40, 60, 80 °C), record mercury length L_t and the corresponding Fahrenheit reading from a second thermometer or by calculation. (4) Plot tF vs. tC; the points should lie on a straight line. (5) Fit a line tF = m tC + c; verify m ≈ 9/5 = 1.8 and c ≈ 32. A poor answer would just say \"measure at two points\" — that assumes linearity rather than verifying it.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Temperature is a scalar physical quantity that quantifies the degree of hotness or coldness of a body on a defined scale; it is measured using a thermometric property (such as volume of a liquid, pressure of a gas, or electrical resistance) that varies ______ with temperature.",
+     "a": "monotonically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a clinical mercury thermometer and a ______ Celsius thermometer side by side: both use mercury expansion but have different scale markings.",
+     "a": "laboratory",
+     "self_check": true
+    },
+    {
+     "q": "What is Temperature? State the definition given in this lesson.",
+     "a": "Temperature is a scalar physical quantity that quantifies the degree of hotness or coldness of a body on a defined scale; it is measured using a thermometric property (such as volume of a liquid, pressure of a gas, or electrical resistance) that varies monotonically with temperature.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then introduce the constant-volume gas thermometer: plot pressure vs. temperature for different low-density gases, extrapolate to zero pressure to find absolute zero (–______ °C), and define the Kelvin scale with the same degree size as Celsius but zero at absolute zero.",
+     "a": "273.15",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Temperature?",
+     "a": "Students often treat the conversion formula tF = (9/5)tC + 32 as a mere algebraic recipe and forget that the +32 originates from the different zero points (ice point = 0 °C vs.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can convert any given temperature between Celsius, Fahrenheit, and Kelvin scales with correct significant figures and unit notation; can explain why the Kelvin scale is the absolute thermodynamic scale using the ideal gas law extrapolation; and can identify the fixed points (ice point, steam point, triple point) used to.",
+     "self_check": true
     }
    ]
   }

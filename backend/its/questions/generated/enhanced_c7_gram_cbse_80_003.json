@@ -1,0 +1,46 @@
+{
+ "catalog": "enhanced_c7_gram_cbse_80_003",
+ "concepts": [
+  {
+   "id": "enh:c7_gram_cbse_80_003",
+   "title": "c7_gram_cbse_80_003",
+   "questions": [
+    {
+     "q": "Label the object: 'The teacher praised the diligent student.'",
+     "a": "'the diligent student' — receives the praising. A wrong answer 'teacher' shows subject-object confusion; 'praised' alone shows verb-object confusion.",
+     "self_check": true
+    },
+    {
+     "q": "'The sky turned grey.' Is 'grey' an object or a complement — and why?",
+     "a": "Complement — 'turned' here is a being-verb (became); 'grey' describes the sky's state, nothing receives an action. A wrong answer 'object' reveals the everything-after-verb-is-object habit.",
+     "self_check": true
+    },
+    {
+     "q": "Which verb is intransitive (no object possible): 'She slept' / 'She ate' / 'She read'?",
+     "a": "'slept' — you cannot 'sleep something'; 'ate' and 'read' can take objects. A wrong answer reveals the student hasn't split verbs into transitive vs intransitive.",
+     "self_check": true
+    },
+    {
+     "q": "Inside a sentence, nouns do different jobs: subject (does the action), object (receives it), and complement (completes ______ — 'She is a DOCTOR').",
+     "a": "being-verbs",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Inside a sentence, nouns do different jobs: subject (does the action), object (receives it), and ______ (completes being-verbs — 'She is a DOCTOR').",
+     "a": "complement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now 'Ravi is a doctor' — 'a doctor' is not kicked, not acted upon; it renames Ravi — ______.",
+     "a": "complement",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student labels subject, verb, object, and complement in simple sentences, distinguishes objects from complements (after being-verbs there is no object), and identifies transitive vs intransitive verbs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

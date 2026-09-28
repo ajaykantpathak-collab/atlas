@@ -34,6 +34,26 @@
      "q": "Design a new table `LIBRARY_BOOK(BookID INT PRIMARY KEY, Title VARCHAR(50) NOT NULL, Author VARCHAR(30), Genre VARCHAR(15) DEFAULT 'Fiction', Copies INT DEFAULT 1)` and write a single INSERT statement that adds three books: (101, 'Wings of Fire', 'APJ Abdul Kalam', 'Biography', 5), (102, 'The Alchemist', 'Paulo Coelho', DEFAULT, DEFAULT), (103, 'Unknown', NULL, 'Mystery', 2). Explain any errors you anticipate.",
      "a": "Correct answer: The third row will fail because `Author` is not declared NOT NULL but the INSERT provides NULL — that is allowed. However, `Title` is NOT NULL and we gave 'Unknown' (valid). The statement:  \n`INSERT INTO LIBRARY_BOOK (BookID, Title, Author, Genre, Copies) VALUES (101, 'Wings of Fire', 'APJ Abdul Kalam', 'Biography', 5), (102, 'The Alchemist', 'Paulo Coelho', DEFAULT, DEFAULT), (103, 'Unknown', NULL, 'Mystery', 2);`  \nAll three rows insert successfully. A wrong answer flagging the NULL in Author as error shows the student confuses NOT NULL constraint (only on Title) with general NULL handling.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The INSERT INTO statement is a Data ______ Language (DML) command used to add new tuples (rows) into an existing table, either by explicitly specifying values for all columns in the defined order or by targeting specific columns while allowing others to take default or NULL values, and it supports inserting multiple rows in a single statement using a comma-separated list of value sets.",
+     "a": "Manipulation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class monitor maintaining a digital \"Student Club Membership\" register in ______.",
+     "a": "MySQL",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write syntactically correct INSERT INTO statements for single and multiple rows, correctly handle column ordering, NULL/default values, and string/date literals, and predict the resulting table state after execution including constraint violations.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class monitor ______ a digital \"Student Club Membership\" register in MySQL.",
+     "a": "maintaining",
+     "self_check": true
     }
    ]
   }

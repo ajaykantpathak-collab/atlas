@@ -34,6 +34,36 @@
      "q": "Design a list `scores` of 8 integers and a single slicing expression that extracts the middle 4 elements (positions 2,3,4,5 in 0-based indexing) regardless of whether you use positive or negative indices. Show both the positive-index and negative-index versions of your slice.",
      "a": "Example: `scores = [10,20,30,40,50,60,70,80]`. Positive: `scores[2:6]` → `[30,40,50,60]`. Negative: `scores[-6:-2]` → same result. The negative version works because -6 is index 2 (8-6) and -2 is index 6 (exclusive). A poor answer uses hardcoded indices that only work for length 8, or gets the stop index wrong (e.g., `scores[-6:-1]` includes 5 elements).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Indexing is the mechanism to access ______ elements of a list using their position (zero-based positive index from left, or negative index from right), while slicing is the operation to extract a sublist by specifying a range of indices with optional step size, returning a new list without modifying the original.",
+     "a": "individual",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a row of 10 lockers numbered 0 to 9 from left to right, and you want to pick ______ lockers or a consecutive block of lockers.",
+     "a": "specific",
+     "self_check": true
+    },
+    {
+     "q": "What is Indexing? State the definition given in this lesson.",
+     "a": "Indexing is the mechanism to access individual elements of a list using their position (zero-based positive index from left, or negative index from right), while slicing is the operation to extract a sublist by specifying a range of indices with optional step size, returning a new list without modifying the original.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To access a single locker, use square brackets with one number: lockers[______] gives the fourth locker.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Indexing?",
+     "a": "Students believe that slicing with an out-of-range index (e.g., lst[2:100] on a 5-element list) raises an IndexError, just like indexing does.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly predict the output of any indexing or slicing expression on a given list, including positive/negative indices, out-of-range handling, and step-based slicing, and can explain why slicing never raises IndexError while indexing does.",
+     "self_check": true
     }
    ]
   }

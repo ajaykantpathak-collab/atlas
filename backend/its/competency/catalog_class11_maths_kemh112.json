@@ -1,239 +1,409 @@
 {
-  "class": 11,
-  "subject": "maths",
-  "chapter": 112,
-  "chapter_title": "Limits and Derivatives",
-  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kemh112.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "concepts": [
+ "class": 11,
+ "subject": "maths",
+ "chapter": 112,
+ "chapter_title": "Limits and Derivatives",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kemh112.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kemh112.12.2.1",
+   "title": "Intuitive Idea of Derivatives",
+   "section": "12.2",
+   "definition": "Watch how a quantity responds as its input creeps forward: the ratio of the change in output to the change in input, taken over ever smaller windows, closes in on a single value called the derivative. Geometrically it is the slope of the tangent line -- for a moving object it plays the role of instantaneous velocity.",
+   "formula": "",
+   "key_idea": "Shrink the interval, watch the average rate settle -- the settled value is the instantaneous rate, the derivative.",
+   "textbook_ref": "kemh112.txt lines 25-90 (section 12.2 intuitive idea of derivatives, tangent as limiting position of secants, instant velocity example)",
+   "question_patterns": [
+    "explain the intuitive idea of a derivative as an instantaneous rate",
+    "in class 11 limits and derivatives: how does a secant line become a tangent",
+    "what does the derivative of position with respect to time represent",
+    "why do we shrink the interval when defining the derivative",
+    "connect average rate of change over an interval to rate at a point",
+    "sketch how the steepness of a curve is measured at a single point"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "kemh112.12.2.1",
-      "title": "Intuitive Idea of Derivatives",
-      "section": "12.2",
-      "definition": "Watch how a quantity responds as its input creeps forward: the ratio of the change in output to the change in input, taken over ever smaller windows, closes in on a single value called the derivative. Geometrically it is the slope of the tangent line -- for a moving object it plays the role of instantaneous velocity.",
-      "formula": "",
-      "key_idea": "Shrink the interval, watch the average rate settle -- the settled value is the instantaneous rate, the derivative.",
-      "textbook_ref": "kemh112.txt lines 25-90 (section 12.2 intuitive idea of derivatives, tangent as limiting position of secants, instant velocity example)",
-      "question_patterns": [
-        "explain the intuitive idea of a derivative as an instantaneous rate",
-        "in class 11 limits and derivatives: how does a secant line become a tangent",
-        "what does the derivative of position with respect to time represent",
-        "why do we shrink the interval when defining the derivative",
-        "connect average rate of change over an interval to rate at a point",
-        "sketch how the steepness of a curve is measured at a single point"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "measure an average change", "explain": "Pick two nearby inputs and divide the output difference by the input difference; this is the slope of the secant."},
-        {"step": 2, "action": "narrow the interval", "explain": "Slide the second point toward the first; the secant turns about the fixed point."},
-        {"step": 3, "action": "read the limiting slope", "explain": "The position the secants settle on is the tangent, and its slope is the derivative at that point."}
-      ]
+     "step": 1,
+     "action": "measure an average change",
+     "explain": "Pick two nearby inputs and divide the output difference by the input difference; this is the slope of the secant."
     },
     {
-      "id": "kemh112.12.3.1",
-      "title": "Limits and the Algebra of Limits",
-      "section": "12.3.1",
-      "definition": "The limit of a function at a point is the value its outputs approach as the inputs close in on that point. Limits respect arithmetic: the limit of a sum, difference, product or quotient (with non-zero denominator limit) is built from the separate limits by the same operation.",
-      "formula": "limit_of_product = limit_f * limit_g",
-      "key_idea": "Limits pass through plus, minus, times and (safely) divided-by -- evaluate the pieces, then combine.",
-      "textbook_ref": "kemh112.txt lines 91-200 (sections 12.3, 12.3.1 algebra of limits, naive definition, left and right approach)",
-      "question_patterns": [
-        "evaluate the limit of the given function as x approaches a value",
-        "in class 11 limits and derivatives: state the algebra of limits rules",
-        "find the limit of a product using the limits of the factors",
-        "what condition allows the limit of a quotient to be the quotient of limits",
-        "explain what it means for f(x) to approach L as x approaches a",
-        "compute the limit of a sum of two functions at a point"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "split the expression", "explain": "Break the function into sums, products and quotients of simpler pieces whose limits are known or easy."},
-        {"step": 2, "action": "apply the limit to each piece", "explain": "By the algebra of limits, limits distribute over addition, subtraction and multiplication, and over division when the bottom limit is not zero."},
-        {"step": 3, "action": "combine the results", "explain": "Reassemble the piecewise limits with the same operations to get the overall limit."}
-      ]
+     "step": 2,
+     "action": "narrow the interval",
+     "explain": "Slide the second point toward the first; the secant turns about the fixed point."
     },
     {
-      "id": "kemh112.12.3.2",
-      "title": "Limit of a Polynomial by Direct Substitution",
-      "section": "12.3.2",
-      "definition": "For a polynomial, approaching and arriving coincide: the limit at a point is just the value of the polynomial there, because evaluation is continuous. The same direct substitution works for rational functions wherever the denominator does not vanish.",
-      "formula": "result = a_coef * x_val ** 2 + b_coef * x_val + c_const",
-      "key_idea": "Polynomials are limit-friendly -- plug the point straight in; for fractions, first confirm the denominator is alive there.",
-      "textbook_ref": "kemh112.txt lines 201-260 (section 12.3.2 limits of polynomials and rational functions, direct substitution)",
-      "question_patterns": [
-        "evaluate the limit of the polynomial as x approaches the given point",
-        "find lim of the quadratic by direct substitution",
-        "in class 11 limits and derivatives: why can a polynomial limit be found by substitution",
-        "when does a rational function limit fail by direct substitution",
-        "compute the limit at a negative point of the given polynomial",
-        "evaluate the limit of the given rational function at a safe point"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "substitute the target point", "explain": "Put x_val in place of x throughout the polynomial.",
-         "compute": "square_val = x_val ** 2"},
-        {"step": 2, "action": "collect the terms", "explain": "Multiply through by the coefficients and add; the total is the limit.",
-         "compute": "result = a_coef * square_val + b_coef * x_val + c_const"}
-      ]
-    },
-    {
-      "id": "kemh112.12.4.1",
-      "title": "Limits of Trigonometric Functions",
-      "section": "12.4",
-      "definition": "Two small-angle benchmarks drive the trigonometric limits: as the angle tends to zero, sin of it divided by the angle tends to 1, while (1 - cos) divided by the angle tends to 0. The squeeze (sandwich) theorem -- trapping a function between two others with a shared limit -- is the tool that certifies them.",
-      "formula": "",
-      "key_idea": "sin(x)/x hugs 1 near zero, and the sandwich theorem does the proving -- multiply through by the angle to reuse it.",
-      "textbook_ref": "kemh112.txt lines 261-360 (section 12.4 limits of trigonometric functions, sandwich theorem, sin x over x tends to 1, 1 - cos x over x tends to 0)",
-      "question_patterns": [
-        "evaluate the limit of sin x divided by x as x tends to zero",
-        "in class 11 limits and derivatives: state the standard trigonometric limits",
-        "find the limit of 1 minus cos x over x at zero",
-        "what does the sandwich or squeeze theorem say",
-        "reduce the given trigonometric ratio to the sin x over x form",
-        "evaluate the limit of tan x over x as the angle shrinks to zero"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "recall the benchmark limits", "explain": "sin t / t -> 1 and (1 - cos t) / t -> 0 as t -> 0, with angles in radians."},
-        {"step": 2, "action": "rearrange toward the benchmark", "explain": "Factor constants and multiply-divide so the target expression contains sin(same)/same blocks."},
-        {"step": 3, "action": "justify with the sandwich", "explain": "For 0 < angle, sin angle is trapped between the angle itself and smaller bounds, forcing the ratio limit to 1."}
-      ]
-    },
-    {
-      "id": "kemh112.12.5.1",
-      "title": "Derivative as a First-Principles Limit",
-      "section": "12.5",
-      "definition": "The derivative of f at a point is defined as the limit of the difference quotient: f(x + h) - f(x) all divided by h, with h closing in on zero. When this limit exists the function is called differentiable there, and the value is read as f prime of the point.",
-      "formula": "",
-      "key_idea": "One limit defines it all: the difference quotient's surviving value after h vanishes is f prime.",
-      "textbook_ref": "kemh112.txt lines 361-430 (section 12.5 derivatives, definition of derivative as limit of difference quotient)",
-      "question_patterns": [
-        "define the derivative of a function from first principles",
-        "find the derivative of the given function using the limit definition",
-        "in class 11 limits and derivatives: what role does h play in the difference quotient",
-        "compute f prime of a point via the difference quotient",
-        "when is a function said to be differentiable at a point",
-        "derive the derivative of x squared from the limit definition"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "form the difference quotient", "explain": "Write f(x + h) - f(x) over h -- an average slope over a window of width h."},
-        {"step": 2, "action": "simplify the numerator", "explain": "Expand and cancel so that the h in the denominator can be safely divided out."},
-        {"step": 3, "action": "let h go to zero", "explain": "Whatever constant the simplified quotient approaches is the derivative at x."}
-      ]
-    },
-    {
-      "id": "kemh112.12.5.2",
-      "title": "Algebra of Derivatives",
-      "section": "12.5.1",
-      "definition": "Differentiation splits across arithmetic just as limits do: derivative of a sum is the sum of derivatives, constants slide out front, a product differentiates by the product rule (first times derivative of second plus second times derivative of first), and a quotient by the quotient rule with the denominator squared subtracted below.",
-      "formula": "",
-      "key_idea": "Sums are easy; products need the cross term -- d(uv) = u dv + v du.",
-      "textbook_ref": "kemh112.txt lines 431-490 (section 12.5.1 algebra of derivative of functions, sum, difference, product and quotient rules)",
-      "question_patterns": [
-        "state the rules for differentiating sums products and quotients",
-        "in class 11 limits and derivatives: differentiate the product of two functions",
-        "why does the product rule carry a cross term",
-        "how does a constant factor affect a derivative",
-        "write the quotient rule and name its parts",
-        "differentiate the given sum term by term"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "split sums and constants", "explain": "Differentiate term by term; constant factors ride along unchanged."},
-        {"step": 2, "action": "apply the product rule where needed", "explain": "For u times v, differentiate each factor while keeping the other: u v' + v u'."},
-        {"step": 3, "action": "apply the quotient rule where needed", "explain": "For u over v, the derivative is (v u' - u v') divided by v squared."}
-      ]
-    },
-    {
-      "id": "kemh112.12.5.3",
-      "title": "Derivative of a Power Term Evaluated at a Point",
-      "section": "12.5.2",
-      "definition": "For a power term a*x^n the derivative is a*n*x^(n-1); evaluated at a specific input it gives the slope of the curve there. Polynomials differentiate term by term, and sin and cos obey d(sin) = cos and d(cos) = -sin with angles in radians.",
-      "formula": "dydx = slope_coef * power * x_val ** (power - 1)",
-      "key_idea": "Bring the exponent down, knock it down by one -- then plug in the point to get the slope there.",
-      "textbook_ref": "kemh112.txt lines 491-560 (section 12.5.2 derivative of polynomials and trigonometric functions, d/dx x^n = n x^(n-1))",
-      "question_patterns": [
-        "find the derivative of the given power term and evaluate it at the point",
-        "differentiate a x to the n and compute its value at x equals the given value",
-        "in class 11 limits and derivatives: state the power rule for derivatives",
-        "what is the slope of the curve at the given point",
-        "evaluate the derivative of the polynomial at a specified x",
-        "write the derivatives of sin and cos functions"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "apply the power rule coefficient", "explain": "Multiply the leading coefficient by the exponent to get the new coefficient.",
-         "compute": "new_coef = slope_coef * power"},
-        {"step": 2, "action": "evaluate at the point", "explain": "Raise the point to exponent minus one, multiply, and the slope at that point appears.",
-         "compute": "dydx = new_coef * x_val ** (power - 1)"}
-      ]
+     "step": 3,
+     "action": "read the limiting slope",
+     "explain": "The position the secants settle on is the tangent, and its slope is the derivative at that point."
     }
-  ],
-  "worked_examples": [
+   ],
+   "compute_steps": [
     {
-      "id": "we1",
-      "source_ref": "kemh112.txt lines 201-260 (limits of polynomials)",
-      "concept": "kemh112.12.3.2",
-      "question_type": "compute",
-      "question_pattern": "Evaluate the limit as x approaches {x_val} of {a_coef} x squared + {b_coef} x + {c_const}.",
-      "extracted_variables": {"a_coef": 3, "b_coef": 2, "c_const": 1, "x_val": 2},
-      "solution_template": [
-        {"step": 1, "action": "substitute the target point", "explain": "square_val = 2 ** 2 = 4.", "compute": "square_val = x_val ** 2"},
-        {"step": 2, "action": "collect the terms", "explain": "result = 3*4 + 2*2 + 1 = 17.", "compute": "result = a_coef * square_val + b_coef * x_val + c_const"}
-      ]
-    },
-    {
-      "id": "we2",
-      "source_ref": "kemh112.txt lines 201-260 (limits of polynomials)",
-      "concept": "kemh112.12.3.2",
-      "question_type": "compute",
-      "question_pattern": "Find lim of {a_coef} x squared + {b_coef} x + {c_const} at x = {x_val}.",
-      "extracted_variables": {"a_coef": 2, "b_coef": -1, "c_const": 4, "x_val": -1},
-      "solution_template": [
-        {"step": 1, "action": "substitute the target point", "explain": "square_val = (-1) ** 2 = 1.", "compute": "square_val = x_val ** 2"},
-        {"step": 2, "action": "collect the terms", "explain": "result = 2*1 + (-1)*(-1) + 4 = 7.", "compute": "result = a_coef * square_val + b_coef * x_val + c_const"}
-      ]
-    },
-    {
-      "id": "we3",
-      "source_ref": "kemh112.txt lines 491-560 (derivative of polynomials)",
-      "concept": "kemh112.12.5.3",
-      "question_type": "compute",
-      "question_pattern": "Differentiate {slope_coef} x^{power} and evaluate the derivative at x = {x_val}.",
-      "extracted_variables": {"slope_coef": 3, "power": 2, "x_val": 2},
-      "solution_template": [
-        {"step": 1, "action": "apply the power rule coefficient", "explain": "new_coef = 3 * 2 = 6.", "compute": "new_coef = slope_coef * power"},
-        {"step": 2, "action": "evaluate at the point", "explain": "dydx = 6 * 2 ** 1 = 12.", "compute": "dydx = new_coef * x_val ** (power - 1)"}
-      ]
-    },
-    {
-      "id": "we4",
-      "source_ref": "kemh112.txt lines 491-560 (derivative of polynomials)",
-      "concept": "kemh112.12.5.3",
-      "question_type": "compute",
-      "question_pattern": "Find the slope of the curve {slope_coef} x^{power} at the point x = {x_val}.",
-      "extracted_variables": {"slope_coef": 5, "power": 3, "x_val": 1},
-      "solution_template": [
-        {"step": 1, "action": "apply the power rule coefficient", "explain": "new_coef = 5 * 3 = 15.", "compute": "new_coef = slope_coef * power"},
-        {"step": 2, "action": "evaluate at the point", "explain": "dydx = 15 * 1 ** 2 = 15.", "compute": "dydx = new_coef * x_val ** (power - 1)"}
-      ]
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 2 * 5 * 5 + 4 * 5 + 7 gives 77",
+     "compute": "val = 2 * 5 * 5 + 4 * 5 + 7"
     }
-  ],
-  "exercises": [
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "kemh112.12.3.1",
+   "title": "Limits and the Algebra of Limits",
+   "section": "12.3.1",
+   "definition": "The limit of a function at a point is the value its outputs approach as the inputs close in on that point. Limits respect arithmetic: the limit of a sum, difference, product or quotient (with non-zero denominator limit) is built from the separate limits by the same operation.",
+   "formula": "limit_of_product = limit_f * limit_g",
+   "key_idea": "Limits pass through plus, minus, times and (safely) divided-by -- evaluate the pieces, then combine.",
+   "textbook_ref": "kemh112.txt lines 91-200 (sections 12.3, 12.3.1 algebra of limits, naive definition, left and right approach)",
+   "question_patterns": [
+    "evaluate the limit of the given function as x approaches a value",
+    "in class 11 limits and derivatives: state the algebra of limits rules",
+    "find the limit of a product using the limits of the factors",
+    "what condition allows the limit of a quotient to be the quotient of limits",
+    "explain what it means for f(x) to approach L as x approaches a",
+    "compute the limit of a sum of two functions at a point"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "ex1",
-      "source_ref": "kemh112.txt end-of-chapter exercises, reworded",
-      "questions": [
-        "Evaluate the limit of (x squared + 3x - 5) as x approaches 2.",
-        "Find lim as x tends to 0 of sin x divided by 3x.",
-        "Show that the limit of (1 - cos x)/x at 0 equals 0.",
-        "Find the derivative of x squared + 3x from first principles.",
-        "Differentiate the polynomial 4x cubed - 2x + 7 term by term.",
-        "Find the derivative of sin x from the limit definition.",
-        "For the function f(x) = 3x squared, compute f prime at x = 4.",
-        "Explain why the limit of a quotient equals quotient of limits only under a condition."
-      ]
+     "step": 1,
+     "action": "split the expression",
+     "explain": "Break the function into sums, products and quotients of simpler pieces whose limits are known or easy."
+    },
+    {
+     "step": 2,
+     "action": "apply the limit to each piece",
+     "explain": "By the algebra of limits, limits distribute over addition, subtraction and multiplication, and over division when the bottom limit is not zero."
+    },
+    {
+     "step": 3,
+     "action": "combine the results",
+     "explain": "Reassemble the piecewise limits with the same operations to get the overall limit."
     }
-  ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 4 * 1 * 1 + 3 * 1 + 8 gives 15",
+     "compute": "val = 4 * 1 * 1 + 3 * 1 + 8"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "kemh112.12.3.2",
+   "title": "Limit of a Polynomial by Direct Substitution",
+   "section": "12.3.2",
+   "definition": "For a polynomial, approaching and arriving coincide: the limit at a point is just the value of the polynomial there, because evaluation is continuous. The same direct substitution works for rational functions wherever the denominator does not vanish.",
+   "formula": "result = a_coef * x_val ** 2 + b_coef * x_val + c_const",
+   "key_idea": "Polynomials are limit-friendly -- plug the point straight in; for fractions, first confirm the denominator is alive there.",
+   "textbook_ref": "kemh112.txt lines 201-260 (section 12.3.2 limits of polynomials and rational functions, direct substitution)",
+   "question_patterns": [
+    "evaluate the limit of the polynomial as x approaches the given point",
+    "find lim of the quadratic by direct substitution",
+    "in class 11 limits and derivatives: why can a polynomial limit be found by substitution",
+    "when does a rational function limit fail by direct substitution",
+    "compute the limit at a negative point of the given polynomial",
+    "evaluate the limit of the given rational function at a safe point"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the target point",
+     "explain": "Put x_val in place of x throughout the polynomial.",
+     "compute": "square_val = x_val ** 2"
+    },
+    {
+     "step": 2,
+     "action": "collect the terms",
+     "explain": "Multiply through by the coefficients and add; the total is the limit.",
+     "compute": "result = a_coef * square_val + b_coef * x_val + c_const"
+    }
+   ]
+  },
+  {
+   "id": "kemh112.12.4.1",
+   "title": "Limits of Trigonometric Functions",
+   "section": "12.4",
+   "definition": "Two small-angle benchmarks drive the trigonometric limits: as the angle tends to zero, sin of it divided by the angle tends to 1, while (1 - cos) divided by the angle tends to 0. The squeeze (sandwich) theorem -- trapping a function between two others with a shared limit -- is the tool that certifies them.",
+   "formula": "",
+   "key_idea": "sin(x)/x hugs 1 near zero, and the sandwich theorem does the proving -- multiply through by the angle to reuse it.",
+   "textbook_ref": "kemh112.txt lines 261-360 (section 12.4 limits of trigonometric functions, sandwich theorem, sin x over x tends to 1, 1 - cos x over x tends to 0)",
+   "question_patterns": [
+    "evaluate the limit of sin x divided by x as x tends to zero",
+    "in class 11 limits and derivatives: state the standard trigonometric limits",
+    "find the limit of 1 minus cos x over x at zero",
+    "what does the sandwich or squeeze theorem say",
+    "reduce the given trigonometric ratio to the sin x over x form",
+    "evaluate the limit of tan x over x as the angle shrinks to zero"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "recall the benchmark limits",
+     "explain": "sin t / t -> 1 and (1 - cos t) / t -> 0 as t -> 0, with angles in radians."
+    },
+    {
+     "step": 2,
+     "action": "rearrange toward the benchmark",
+     "explain": "Factor constants and multiply-divide so the target expression contains sin(same)/same blocks."
+    },
+    {
+     "step": 3,
+     "action": "justify with the sandwich",
+     "explain": "For 0 < angle, sin angle is trapped between the angle itself and smaller bounds, forcing the ratio limit to 1."
+    }
+   ]
+  },
+  {
+   "id": "kemh112.12.5.1",
+   "title": "Derivative as a First-Principles Limit",
+   "section": "12.5",
+   "definition": "The derivative of f at a point is defined as the limit of the difference quotient: f(x + h) - f(x) all divided by h, with h closing in on zero. When this limit exists the function is called differentiable there, and the value is read as f prime of the point.",
+   "formula": "",
+   "key_idea": "One limit defines it all: the difference quotient's surviving value after h vanishes is f prime.",
+   "textbook_ref": "kemh112.txt lines 361-430 (section 12.5 derivatives, definition of derivative as limit of difference quotient)",
+   "question_patterns": [
+    "define the derivative of a function from first principles",
+    "find the derivative of the given function using the limit definition",
+    "in class 11 limits and derivatives: what role does h play in the difference quotient",
+    "compute f prime of a point via the difference quotient",
+    "when is a function said to be differentiable at a point",
+    "derive the derivative of x squared from the limit definition"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "form the difference quotient",
+     "explain": "Write f(x + h) - f(x) over h -- an average slope over a window of width h."
+    },
+    {
+     "step": 2,
+     "action": "simplify the numerator",
+     "explain": "Expand and cancel so that the h in the denominator can be safely divided out."
+    },
+    {
+     "step": 3,
+     "action": "let h go to zero",
+     "explain": "Whatever constant the simplified quotient approaches is the derivative at x."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 1 * 5 * 5 + 4 * 5 + 4 gives 49",
+     "compute": "val = 1 * 5 * 5 + 4 * 5 + 4"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "kemh112.12.5.2",
+   "title": "Algebra of Derivatives",
+   "section": "12.5.1",
+   "definition": "Differentiation splits across arithmetic just as limits do: derivative of a sum is the sum of derivatives, constants slide out front, a product differentiates by the product rule (first times derivative of second plus second times derivative of first), and a quotient by the quotient rule with the denominator squared subtracted below.",
+   "formula": "",
+   "key_idea": "Sums are easy; products need the cross term -- d(uv) = u dv + v du.",
+   "textbook_ref": "kemh112.txt lines 431-490 (section 12.5.1 algebra of derivative of functions, sum, difference, product and quotient rules)",
+   "question_patterns": [
+    "state the rules for differentiating sums products and quotients",
+    "in class 11 limits and derivatives: differentiate the product of two functions",
+    "why does the product rule carry a cross term",
+    "how does a constant factor affect a derivative",
+    "write the quotient rule and name its parts",
+    "differentiate the given sum term by term"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "split sums and constants",
+     "explain": "Differentiate term by term; constant factors ride along unchanged."
+    },
+    {
+     "step": 2,
+     "action": "apply the product rule where needed",
+     "explain": "For u times v, differentiate each factor while keeping the other: u v' + v u'."
+    },
+    {
+     "step": 3,
+     "action": "apply the quotient rule where needed",
+     "explain": "For u over v, the derivative is (v u' - u v') divided by v squared."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 2 * 4 * 4 + 8 * 4 + 9 gives 73",
+     "compute": "val = 2 * 4 * 4 + 8 * 4 + 9"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "kemh112.12.5.3",
+   "title": "Derivative of a Power Term Evaluated at a Point",
+   "section": "12.5.2",
+   "definition": "For a power term a*x^n the derivative is a*n*x^(n-1); evaluated at a specific input it gives the slope of the curve there. Polynomials differentiate term by term, and sin and cos obey d(sin) = cos and d(cos) = -sin with angles in radians.",
+   "formula": "dydx = slope_coef * power * x_val ** (power - 1)",
+   "key_idea": "Bring the exponent down, knock it down by one -- then plug in the point to get the slope there.",
+   "textbook_ref": "kemh112.txt lines 491-560 (section 12.5.2 derivative of polynomials and trigonometric functions, d/dx x^n = n x^(n-1))",
+   "question_patterns": [
+    "find the derivative of the given power term and evaluate it at the point",
+    "differentiate a x to the n and compute its value at x equals the given value",
+    "in class 11 limits and derivatives: state the power rule for derivatives",
+    "what is the slope of the curve at the given point",
+    "evaluate the derivative of the polynomial at a specified x",
+    "write the derivatives of sin and cos functions"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the power rule coefficient",
+     "explain": "Multiply the leading coefficient by the exponent to get the new coefficient.",
+     "compute": "new_coef = slope_coef * power"
+    },
+    {
+     "step": 2,
+     "action": "evaluate at the point",
+     "explain": "Raise the point to exponent minus one, multiply, and the slope at that point appears.",
+     "compute": "dydx = new_coef * x_val ** (power - 1)"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "kemh112.txt lines 201-260 (limits of polynomials)",
+   "concept": "kemh112.12.3.2",
+   "question_type": "compute",
+   "question_pattern": "Evaluate the limit as x approaches {x_val} of {a_coef} x squared + {b_coef} x + {c_const}.",
+   "extracted_variables": {
+    "a_coef": 3,
+    "b_coef": 2,
+    "c_const": 1,
+    "x_val": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "substitute the target point",
+     "explain": "square_val = 2 ** 2 = 4.",
+     "compute": "square_val = x_val ** 2"
+    },
+    {
+     "step": 2,
+     "action": "collect the terms",
+     "explain": "result = 3*4 + 2*2 + 1 = 17.",
+     "compute": "result = a_coef * square_val + b_coef * x_val + c_const"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "kemh112.txt lines 201-260 (limits of polynomials)",
+   "concept": "kemh112.12.3.2",
+   "question_type": "compute",
+   "question_pattern": "Find lim of {a_coef} x squared + {b_coef} x + {c_const} at x = {x_val}.",
+   "extracted_variables": {
+    "a_coef": 2,
+    "b_coef": -1,
+    "c_const": 4,
+    "x_val": -1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "substitute the target point",
+     "explain": "square_val = (-1) ** 2 = 1.",
+     "compute": "square_val = x_val ** 2"
+    },
+    {
+     "step": 2,
+     "action": "collect the terms",
+     "explain": "result = 2*1 + (-1)*(-1) + 4 = 7.",
+     "compute": "result = a_coef * square_val + b_coef * x_val + c_const"
+    }
+   ]
+  },
+  {
+   "id": "we3",
+   "source_ref": "kemh112.txt lines 491-560 (derivative of polynomials)",
+   "concept": "kemh112.12.5.3",
+   "question_type": "compute",
+   "question_pattern": "Differentiate {slope_coef} x^{power} and evaluate the derivative at x = {x_val}.",
+   "extracted_variables": {
+    "slope_coef": 3,
+    "power": 2,
+    "x_val": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the power rule coefficient",
+     "explain": "new_coef = 3 * 2 = 6.",
+     "compute": "new_coef = slope_coef * power"
+    },
+    {
+     "step": 2,
+     "action": "evaluate at the point",
+     "explain": "dydx = 6 * 2 ** 1 = 12.",
+     "compute": "dydx = new_coef * x_val ** (power - 1)"
+    }
+   ]
+  },
+  {
+   "id": "we4",
+   "source_ref": "kemh112.txt lines 491-560 (derivative of polynomials)",
+   "concept": "kemh112.12.5.3",
+   "question_type": "compute",
+   "question_pattern": "Find the slope of the curve {slope_coef} x^{power} at the point x = {x_val}.",
+   "extracted_variables": {
+    "slope_coef": 5,
+    "power": 3,
+    "x_val": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the power rule coefficient",
+     "explain": "new_coef = 5 * 3 = 15.",
+     "compute": "new_coef = slope_coef * power"
+    },
+    {
+     "step": 2,
+     "action": "evaluate at the point",
+     "explain": "dydx = 15 * 1 ** 2 = 15.",
+     "compute": "dydx = new_coef * x_val ** (power - 1)"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "kemh112.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "Evaluate the limit of (x squared + 3x - 5) as x approaches 2.",
+    "Find lim as x tends to 0 of sin x divided by 3x.",
+    "Show that the limit of (1 - cos x)/x at 0 equals 0.",
+    "Find the derivative of x squared + 3x from first principles.",
+    "Differentiate the polynomial 4x cubed - 2x + 7 term by term.",
+    "Find the derivative of sin x from the limit definition.",
+    "For the function f(x) = 3x squared, compute f prime at x = 4.",
+    "Explain why the limit of a quotient equals quotient of limits only under a condition."
+   ]
+  }
+ ]
 }

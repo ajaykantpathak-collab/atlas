@@ -4,27 +4,9 @@
   {
    "id": "kemh.11.2.1",
    "title": "Octants and Coordinate Planes in 3D Space",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the coordinate-geometry formula",
-     "explain": "apply the coordinate-geometry formula: dx = 2 - -5 gives 7",
-     "compute": "dx = 2 - -5"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the coordinate-geometry formula: dy = 21 - -3 gives 24",
-     "compute": "dy = 21 - -3"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 25",
-     "compute": "dist = sqrt(dx * dx + dy * dy)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "octant_sign_rules",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (-5, -3) and (2, 21).",
@@ -61,27 +43,9 @@
   {
    "id": "kemh.11.3.1",
    "title": "Coordinates on Axes and Coordinate Planes",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the coordinate-geometry formula",
-     "explain": "apply the coordinate-geometry formula: dx = 8 - 0 gives 8",
-     "compute": "dx = 8 - 0"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the coordinate-geometry formula: dy = 20 - 5 gives 15",
-     "compute": "dy = 20 - 5"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 17",
-     "compute": "dist = sqrt(dx * dx + dy * dy)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "x_axis = (x, 0, 0), y_axis = (0, y, 0), z_axis = (0, 0, z), xy_plane = (x, y, 0)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (0, 5) and (8, 20).",
@@ -119,6 +83,8 @@
    "id": "kemh.11.4.1",
    "title": "Distance Between Two Points in 3D Space",
    "converted_to_compute": false,
+   "formula": "distance = sqrt((x2 - x1)**2 + (y2 - y1)**2 + (z2 - z1)**2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (0, 7) and (5, 19).",
@@ -156,6 +122,8 @@
    "id": "kemh.11.4.2",
    "title": "Distance of a Point from the Origin",
    "converted_to_compute": false,
+   "formula": "distance = sqrt(x**2 + y**2 + z**2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a rectangle have?",
@@ -192,27 +160,9 @@
   {
    "id": "kemh.11.4.3",
    "title": "Collinearity of Three Points in 3D Space",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the coordinate-geometry formula",
-     "explain": "apply the coordinate-geometry formula: dx = 11 - -1 gives 12",
-     "compute": "dx = 11 - -1"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the coordinate-geometry formula: dy = 17 - 1 gives 16",
-     "compute": "dy = 17 - 1"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 20",
-     "compute": "dist = sqrt(dx * dx + dy * dy)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "AB + BC = AC",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (-1, 1) and (11, 17).",
@@ -249,15 +199,9 @@
   {
    "id": "kemh.11.4.4",
    "title": "Geometric Classification of Triangles and Polygons",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 10 gives 80",
-     "compute": "other = 90 - 10"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "AB**2 + BC**2 = AC**2 (Right Triangle); AB = CD and BC = DA (Parallelogram)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 10 degrees, find the other.",
@@ -294,15 +238,9 @@
   {
    "id": "kemh.11.4.5",
    "title": "Locus Equation satisfying Distance Conditions",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "transpose the terms and divide by the coefficient",
-     "explain": "transpose the terms and divide by the coefficient: x = (106 - 7) / 9 gives 11",
-     "compute": "x = (106 - 7) / 9"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "PA**2 + PB**2 = k**2 or PA = PB",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 9x + 7 = 106.",
@@ -340,6 +278,8 @@
    "id": "kemh.11.M.1",
    "title": "Centroid of a Triangle in 3D Space",
    "converted_to_compute": false,
+   "formula": "centroid = ((x1 + x2 + x3)/3, (y1 + y2 + y3)/3, (z1 + z2 + z3)/3)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (-7, -3) and (13, 18).",

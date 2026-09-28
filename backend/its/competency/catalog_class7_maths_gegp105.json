@@ -22,7 +22,7 @@
     "which is parallel to which among the lines of your notebook",
     "why do railway tracks stay the same distance apart"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -39,7 +39,16 @@
      "action": "check the answer",
      "explain": "Verify by reversing or re-checking, then conclude."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 61 gives 29",
+     "compute": "other = 90 - 61"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.5.2",
@@ -89,7 +98,7 @@
     "what angles does a perpendicular crossing make",
     "where do you see perpendicular lines in road crossings"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -106,7 +115,16 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 67 gives 23",
+     "compute": "other = 90 - 67"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.5.4",
@@ -124,7 +142,7 @@
     "what changes when the crossed lines are not parallel",
     "find the angle pairs at both crossings in the given figure"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -141,7 +159,16 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 78 gives 12",
+     "compute": "other = 90 - 78"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

@@ -32,7 +32,27 @@
     },
     {
      "q": "Design a low-cost, farmer-level \"hardening protocol\" for tissue-cultured plantlets being transferred from culture vessels to field soil in a tropical Indian village lacking a polyhouse, misting system, or electricity. Specify the key environmental stresses to mitigate and the low-tech solutions for each.",
-     "a": "Key stresses & low-tech mitigations: (1) **Low humidity / high transpiration** — plantlets lack cuticle and functional stomatal control. *Solution*: Cover with transparent polythene bags supported by bamboo stakes (mini-cloches), gradually increasing ventilation holes daily over 10–14 days. (2) **High light intensity / photoinhibition** — cultured under low PPFD (20–50 μmol·m⁻²·s⁻¹). *Solution*: Place under 50% shade net or coconut frond thatch; gradually remove layers. (3) **Pathogen attack in non-sterile soil** — no microbiome competition. *Solution*: Use solarized soil (cover moist soil with clear plastic for 4–6 weeks in summer) mixed with compost + *Trichoderma* biofungicide. (4) **Nutrient shock** — medium had sucrose; soil has none. *Solution*: Foliar spray 0.5% urea + 0.2% KH₂PO₄ weekly for first 3 weeks. A poor answer lists only \"shade and water\" showing ignorance of the physiological vulnerabilities (cuticle, stomata, microbiome, heterotrophy).",
+     "a": "Key stresses & low-tech mitigations: (1) **Low humidity / high transpiration** — plantlets lack cuticle and functional stomatal control. *Solution*: Cover with transparent polythene bags supported by bamboo stakes (mini-cloches), gradually increasing ventilation holes daily over 10–14 days. (2) **High light intensity / photoinhibition** — cultured under low PPFD (20–50 μmol·m⁻²·s⁻¹). *Solution*: Place under 50% shade net or coconut frond thatch; gradually remove layers. (3) **Pathogen attack in non-sterile soil** — no microbiome competition. *Solution*: Use solarized soil (cover moist soil with clear plastic for 4–6 weeks in summer) mixed with compost + *Trichoderma* biofungicide. (4) **Nutrient shock** — medium had sucrose; soil has N/A. *Solution*: Foliar spray 0.5% urea + 0.2% KH₂PO₄ weekly for first 3 weeks. A poor answer lists only \"shade and water\" showing ignorance of the physiological vulnerabilities (cuticle, stomata, microbiome, heterotrophy).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Plant tissue culture (______) is an *in vitro* aseptic technique where small explants (meristems, nodes, leaves) from a selected mother plant are cultured on a defined nutrient medium under controlled environmental conditions to rapidly produce large numbers of genetically identical, disease-free plantlets through organogenesis or somatic embryogenesis.",
+     "a": "micropropagation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a banana orchard where every plant bears uniform bunches and resists Panama wilt — this ______ comes from tissue-cultured plantlets, not suckers.",
+     "a": "uniformity",
+     "self_check": true
+    },
+    {
+     "q": "What is Plant tissue culture (micropropagation)? State the definition given in this lesson.",
+     "a": "Plant tissue culture (micropropagation) is an *in vitro* aseptic technique where small explants (meristems, nodes, leaves) from a selected mother plant are cultured on a defined nutrient medium under controlled environmental conditions to rapidly produce large numbers of genetically identical, disease-free plantlets through organogenesis.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) list the four stages of micropropagation in correct sequence with the key objective and medium composition changes at each stage; (2) explain why an axillary bud or shoot-tip explant is preferred over a leaf disc for true-to-type clonal fidelity; (3) calculate the number of subculture cycles needed to obtain a target.",
      "self_check": true
     }
    ]

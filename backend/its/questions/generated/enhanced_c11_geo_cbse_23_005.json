@@ -34,6 +34,21 @@
      "q": "Design a projection selection flowchart for a cartographer mapping: (a) a polar ice sheet, (b) a transcontinental highway along 40°N, (c) a global climate zone map. Specify the developable surface class and tangent/secant condition for each.",
      "a": "Expected criteria: (a) Polar ice sheet → Zenithal (Azimuthal), tangent at pole (e.g., Stereographic for conformal, Lambert Azimuthal Equal-Area for equivalent). (b) Transcontinental highway along 40°N → Conical, secant with two standard parallels bracketing 40°N (e.g., Lambert Conformal Conic) to minimize scale distortion along the route. (c) Global climate zones → Pseudocylindrical equal-area (e.g., Mollweide, Eckert IV) or Interrupted Goode Homolosine; NOT a single developable surface class, but the student must recognize that no single cylindrical/conical/zenithal can adequately represent the whole world with low distortion for thematic mapping. A poor answer (e.g., \"use Mercator for all\") reveals the student cannot synthesize the geometric constraints of each developable surface class to match the spatial extent, location, and purpose – the ultimate synthesis skill for this chapter.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Map projection ______ by developable surface categorizes projections based on the geometric surface (cylinder, cone, or plane) that can be flattened without stretching or tearing, onto which the Earth's graticule of latitudes and longitudes is mathematically projected.",
+     "a": "classification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine peeling an orange and trying to flatten the peel on a table – it tears because a sphere has positive Gaussian curvature and cannot be developed onto a plane without ______.",
+     "a": "distortion",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify the developable surface type for any named projection (e.g., Mercator = cylindrical, Lambert Conformal Conic = conical, Stereographic = zenithal), explain the geometric contact relationship (tangent vs secant) for each class, and predict the general distortion pattern (shape, area, distance, direction) associated.",
+     "self_check": true
     }
    ]
   }

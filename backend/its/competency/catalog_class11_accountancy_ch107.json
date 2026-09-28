@@ -88,7 +88,16 @@
      ],
      "question_pattern": "what is the meaning of depreciation (given {cost}, {salvage_value}, {useful_life})"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "depreciation = (cost - salvage_value) / useful_life",
+     "compute": "depreciation = (cost - salvage_value) / useful_life"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.7.6.1",
@@ -126,7 +135,16 @@
      "solution": "Applying the concept's compute chain with cost = 10, salvage_value = 10, useful_life = 10 gives 0.0.",
      "answer": "0.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "annual_depreciation = (cost - salvage_value) / useful_life",
+     "compute": "annual_depreciation = (cost - salvage_value) / useful_life"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.7.6.2",
@@ -192,7 +210,7 @@
     "why would a firm create a secret reserve",
     "explain secret reserve"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -204,7 +222,16 @@
      "action": "verify balance sheet impact",
      "explain": "Confirm the reserve is not explicitly listed in the financial statements."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "secret_reserve = actual_net_worth - disclosed_net_worth",
+     "compute": "secret_reserve = actual_net_worth - disclosed_net_worth"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.7.SUM.1",
@@ -247,7 +274,16 @@
      "solution": "Applying the concept's compute chain with original_cost = 10, salvage_value = 10, useful_life = 2 gives 0.0.",
      "answer": "0.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "depreciation = (original_cost - salvage_value) / useful_life",
+     "compute": "depreciation = (original_cost - salvage_value) / useful_life"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.7.SUM.2",
@@ -264,14 +300,23 @@
     "explain depletion and amortisation",
     "what do you mean by depletion and amortisation"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
      "action": "classify asset type",
      "explain": "Determine if the asset is a natural resource (depletion) or intangible (amortisation)."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "amortisation_rate = cost / legal_life",
+     "compute": "amortisation_rate = cost / legal_life"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.7.SUM.5",
@@ -309,7 +354,16 @@
      "solution": "Applying the concept's compute chain with book_value = 10, rate = 10 gives 9.0.",
      "answer": "9.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "depreciation = book_value * (rate / 100)",
+     "compute": "depreciation = book_value * (rate / 100)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.7.SUM.6",
@@ -326,7 +380,7 @@
     "explain provisions vs reserves",
     "what do you mean by provisions vs reserves"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -338,7 +392,16 @@
      "action": "check source",
      "explain": "Provisions are deducted before net profit; reserves are taken from net profit."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_profit = gross_profit - provisions",
+     "compute": "net_profit = gross_profit - provisions"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.7.NUM.21",
@@ -387,7 +450,16 @@
      "solution": "Applying the concept's compute chain with bad_debts = 10, debtors = 10, further_bad_debts = 10, old_provision = 10, rate = 2 gives 10.0.",
      "answer": "10.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "new_provision = (debtors - further_bad_debts) * (rate / 100)",
+     "compute": "new_provision = (debtors - further_bad_debts) * (rate / 100)"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

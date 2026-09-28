@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_01_005",
+   "title": "c12_leg_cbse_01_005",
+   "questions": [
+    {
+     "q": "State the constitutional provisions for the original jurisdiction of the Supreme Court under Article 131 and Article 32. How do they differ in the nature of disputes they address?",
+     "a": "Article 131 grants original jurisdiction in disputes between the Government of India and one or more States, or between States inter se, involving questions of law/fact on which legal rights depend. Article 32 grants original jurisdiction for enforcement of fundamental rights through writs (habeas corpus, mandamus, etc.). The former addresses federal disputes (Centre-State/State-State), the latter protects individual rights against State action. A wrong answer (e.g., conflating them or omitting \"legal right\" requirement in Art. 131) reveals confusion between structural federalism disputes and individual rights enforcement — two distinct pillars of SC's original jurisdiction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Supreme Court in the Second Judges Case (1993) held that the Chief Justice of India must have primacy in judicial appointments. What constitutional principle was being protected?",
+     "a": "The Court held that \"consultation\" in Articles 124 and 217 requires the CJI's opinion to be determinative, not merely consultative, to protect judicial independence from executive interference. The principle protected is independence of judiciary as a basic feature of the Constitution (later affirmed in Kesavananda Bharati). A wrong answer (e.g., \"CJI has absolute power\" or \"executive has final say\") reveals misunderstanding of the collegium as a *consultative* yet *primacy-based* mechanism — not unilateral judicial control, but a check on executive dominance in appointments.",
+     "self_check": true
+    },
+    {
+     "q": "A factory storing hazardous chemicals leaks toxic gas, killing 3 people and injuring 50 in a nearby residential colony. The factory owner claims all safety protocols were followed and the leak was due to an unforeseeable equipment failure. Under which liability principle — strict or absolute — would the owner be held liable in India? Justify with the relevant case law.",
+     "a": "Absolute liability (M.C. Mehta v. Shri Ram Foods, 1987). Unlike strict liability (Rylands v. Fletcher), absolute liability: (1) applies to enterprises engaged in hazardous activities for commercial gain; (2) does not require \"escape\" from premises; (3) admits NO exceptions (not even Act of God, plaintiff's fault, or third-party act). The owner's \"safety protocols\" defense fails because absolute liability is non-delegable and fault-independent. A wrong answer citing strict liability or its exceptions reveals failure to distinguish the Indian judicial innovation (absolute liability) from the English common law rule — a critical distinction for environmental/commercial torts in India.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the writ jurisdiction of the Supreme Court (Article 32) and High Courts (Article 226). In what ways is the High Court's jurisdiction wider, and why did the Constitution makers design it so?",
+     "a": "Both can issue writs (habeas corpus, mandamus, prohibition, quo warranto, certiorari) for fundamental rights enforcement. However, Article 226 extends to \"any other purpose\" beyond fundamental rights (e.g., statutory duties, administrative actions), making HC jurisdiction wider. Also, HCs can hear writs against any authority within their territory, while SC's Art. 32 is limited to fundamental rights violations. The design reflects federalism: HCs as primary guardians of rights at State level, SC as ultimate interpreter. A wrong answer claiming SC has wider jurisdiction or that both are identical ignores the \"any other purpose\" clause and the constitutional scheme of distributed judicial review.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The Basic Structure doctrine (Kesavananda Bharati) makes the Supreme Court a 'super-legislature' because it can strike down constitutional amendments passed by Parliament's constituent power.\" Support your position with at least three Basic Structure features identified in post-Kesavananda cases.",
+     "a": "The doctrine does NOT make SC a super-legislature; it enforces constitutional supremacy over parliamentary supremacy. Three features added post-Kesavananda: (1) Judicial review (Minerva Mills, 1980); (2) Balance between Fundamental Rights and DPSP (Minerva Mills); (3) Rule of law (Indra Sawhney, 1992). These are not judicial inventions but implicit constitutional limits — the power to amend (Art. 368) is not power to destroy. A wrong answer agreeing with the \"super-legislature\" critique confuses judicial review of *amendments* with legislative power; it misses that SC only invalidates amendments violating the Constitution's identity, not policy choices.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a Public Interest Litigation petition (in outline form) on behalf of migrant workers denied minimum wages during a lockdown. Specify: (a) the constitutional articles invoked; (b) why locus standi is satisfied; (c) which PIL guideline category it falls under; (d) the relief sought.",
+     "a": "(a) Articles 21 (right to livelihood), 23 (prohibition of forced labour), 39A (free legal aid), 14 (equality). (b) Locus standi via \"representative standing\" — petitioner is a public-spirited organisation representing vulnerable workers unable to approach court (Hussainara Khatoon precedent). (c) Falls under PIL Guideline #3: \"Non-payment of minimum wages to workers and exploitation of casual workers.\" (d) Relief: (i) Direction to State to pay arrears; (ii) Monitoring mechanism for wage compliance; (iii) Compensation for distress. A poor answer omits the guideline category or invokes only Article 32 without linking to specific PIL categories — showing lack of procedural awareness for maintainability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

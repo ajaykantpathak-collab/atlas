@@ -34,6 +34,31 @@
      "q": "Design a simple classroom experiment using a **spring balance, a wooden block, a protractor, and an adjustable inclined plane** to verify that the coefficient of static friction μs = tan θ_max, where θ_max is the angle at which the block just begins to slide. Specify: (a) What you measure directly, (b) What you plot, (c) How you extract μs from the graph, (d) One precaution to ensure the block doesn't topple before sliding.",
      "a": "(a) Measure θ_max (angle of inclination) at which the block **just starts to slide** — repeat 5 times with different contact surfaces (sandpaper, cloth, plastic) by changing the block's bottom face. (b) Plot **tan θ_max (y-axis) vs. surface type (x-axis categorical)** or simply record values. (c) μs is directly the **average of tan θ_max** for each surface — no graph slope needed; the theory predicts μs = tan θ_max for each trial. (d) Precaution: Ensure the **block's center of mass is low and base wide** (height < base width) so that the line of action of weight stays within the base until sliding occurs — otherwise toppling precedes sliding, invalidating θ_max. A poor answer uses a spring balance to pull horizontally on a flat surface, which measures kinetic friction or requires dynamic measurement, missing the elegant static equilibrium method.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Free Body Diagram (FBD) is a schematic ______ of an isolated body (or system) showing all external forces acting on it, with each force drawn as a vector originating from the body's center of mass, labeled by its type (e.g., weight, normal reaction, tension, friction) and magnitude.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a loaded ______ parked on a sloped street in Shimla — the driver applies the handbrake, yet you notice the rear wheels are turned slightly toward the curb.",
+     "a": "rickshaw",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Finally, apply ΣFx = max and ΣFy = ______ (no vertical acceleration) to find the minimum friction coefficient needed.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently draw a complete and correct free body diagram for any single body in a multi-body system (including inclined planes, pulleys, and connected bodies), resolve forces into perpendicular components, write the correct ΣF = ma equations for each direction, and solve for unknown accelerations and constraint forces.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a loaded rickshaw parked on a sloped street in Shimla — the driver applies the ______, yet you notice the rear wheels are turned slightly toward the curb.",
+     "a": "handbrake",
+     "self_check": true
     }
    ]
   }

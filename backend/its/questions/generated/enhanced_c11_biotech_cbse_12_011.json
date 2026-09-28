@@ -34,6 +34,26 @@
      "q": "Design a minimal experiment to test whether a newly isolated plant species exhibits somatic embryogenesis or organogenesis as its primary regeneration pathway. Specify explant type, media sequence, observation timeline, and two quantitative metrics to distinguish the pathways.",
      "a": "Explant: young leaf segments (high regeneration competence). Media sequence: (1) Callus induction — MS + 2 mg/L 2,4-D + 0.5 mg/L kinetin, dark, 4 weeks; (2) Regeneration — transfer callus to MS + 0.1 mg/L NAA + 2 mg/L BAP (light, 16/8 h), subculture every 3 weeks. Timeline: observe weekly for 12 weeks. Metrics: (A) Bipolar structure frequency — count structures with distinct shoot and root poles (somatic embryos) vs unipolar shoots/roots (organogenesis) per 100 mg callus; (B) Histological origin — section callus weekly, score % of embryogenic structures arising from single superficial cells (somatic embryogenesis) vs organized meristemoids from pre-existing vascular tissue (organogenesis). A poor answer uses only visual morphology without histological confirmation or quantitative metrics, confusing adventitious shoots with somatic embryos.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cell culture is the laboratory technique of growing and ______ animal or plant cells, tissues, or organs under controlled artificial conditions (aseptic environment, defined nutrient media, regulated temperature, pH, and gas exchange) to study cellular physiology, produce biological products, or regenerate whole organisms.",
+     "a": "maintaining",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to produce a life-saving ______ antibody for cancer treatment — you cannot extract it directly from patients in sufficient quantity.",
+     "a": "monoclonal",
+     "self_check": true
+    },
+    {
+     "q": "What is Cell culture? State the definition given in this lesson.",
+     "a": "Cell culture is the laboratory technique of growing and maintaining animal or plant cells, tissues, or organs under controlled artificial conditions (aseptic environment, defined nutrient media, regulated temperature, pH, and gas exchange) to study cellular physiology, produce biological products, or regenerate whole organisms.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can design a basic protocol for establishing a primary animal cell culture from tissue explant including media composition, aseptic steps, and subculturing criteria, AND can explain how manipulating auxin:cytokinin ratio in plant tissue culture directs differentiation toward shoot formation, root formation, or callus maintenance.",
+     "self_check": true
     }
    ]
   }

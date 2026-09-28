@@ -34,6 +34,26 @@
      "q": "Design a 3-band band combination (specify spectral regions and wavelengths) for a hypothetical satellite sensor to simultaneously: (a) maximize vegetation stress detection, (b) delineate water bodies clearly, and (c) identify built-up areas. Assign each band to R/G/B channels for a false colour composite. Justify each choice with spectral reasoning.",
      "a": "**Expected Answer:**\n| Band | Spectral Region | Wavelength Range | R/G/B Assignment | Justification |\n|------|----------------|------------------|------------------|---------------|\n| 1    | Red            | 0.63–0.69 µm     | **Blue**         | Chlorophyll absorption peak → healthy veg = low reflectance (dark blue); stressed veg = higher reflectance (lighter blue). Water = low reflectance (dark). Built-up = moderate. |\n| 2    | NIR            | 0.76–0.90 µm     | **Red**          | High veg reflectance (bright red = healthy); sharp drop for stressed veg/water/built-up. Maximizes veg contrast. |\n| 3    | SWIR-1         | 1.55–1.75 µm     | **Green**        | Strong water absorption → water = dark green. Built-up/soil = high reflectance (bright green). Veg = moderate (water absorption in leaves). |\n\n**Resulting FCC interpretation:**\n- Healthy vegetation → **Bright Red** (High NIR→Red, Low Red→Blue, Mod SWIR→Green)\n- Stressed vegetation → **Pink/Magenta** (Moderate NIR→Red, Higher Red→Blue)\n- Clear water → **Dark/Black** (Low in all three)\n- Turbid water → **Bluish-Green** (Higher Red→Blue, Low NIR→Red, Low SWIR→Green)\n- Built-up → **Cyan/Bluish-Green** (Moderate Red→Blue, Low NIR→Red, High SWIR→Green)\n- Bare soil → **Light Green** (Moderate all bands, highest in SWIR→Green)\n\n**Poor answer reveals:** If a student puts NIR in Green channel and SWIR in Red, they don't understand standard FCC conventions (NIR→Red is universal in Indian/US systems for vegetation = red). If they omit Red band, they lose the chlorophyll absorption reference for stress detection. If they use TIR instead of SWIR for built-up, they ignore TIR's coarse spatial resolution (typically 60–100 m vs. 10–30 m for SWIR) and emissivity complexity. This tests **synthesis of spectral knowledge, application requirements, and display conventions**.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The electromagnetic spectrum is the continuous ______ of electromagnetic radiation (EMR) arranged by wavelength (λ) or frequency (ν), extending from gamma rays (λ < 0.01 nm) to radio waves (λ > 1 m), where all regions propagate at the speed of light (c = 3 × 10⁸ m/s) in vacuum.",
+     "a": "distribution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: \"When you see a rainbow after rain in Kerala or a mirage on a Rajasthan highway, you are witnessing visible light — a tiny slice (0.4–0.7 µm) of the ______ spectrum.",
+     "a": "electromagnetic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: But a satellite like Resourcesat-______A 'sees' far beyond this: it detects near-infrared reflected by healthy wheat crops in Punjab, thermal infrared emitted by urban heat islands in Delhi, and microwaves penetrating clouds over the Brahmaputra floodplain during monsoon.\" First, establish the inverse relationship between wavelength and frequency (c = λν).",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) calculate wavelength, frequency, or energy of EMR in any spectral region using c = λν and E = hc/λ; (2) identify which spectral bands correspond to atmospheric windows and explain why X-rays/gamma rays/UV are unsuitable for satellite remote sensing; (3) interpret a spectral signature curve to distinguish vegetation.",
+     "self_check": true
     }
    ]
   }

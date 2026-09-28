@@ -34,6 +34,31 @@
      "q": "Construct a real-world shopping word problem involving three items with decimal prices (in rupees) and quantities (in kilograms or litres) where a common decimal-placement mistake would yield a totally unreasonable total bill. Explain how estimation prevents falling for this error.",
      "a": "A good problem: \"Amit buys 2.5 kg of apples at ₹120.50 per kg, 1.5 kg of grapes at ₹90.25 per kg, and 3.0 litres of milk at ₹48.75 per litre. If a careless student computes the total bill as ₹64.44 by misplacing decimal points during addition and multiplication, estimation saves the day.\" By estimating: apples are about $2.5 \\times 120 = 300$, grapes are $1.5 \\times 90 = 135$, milk is $3 \\times 50 = 150$, giving an estimated total of $300 + 135 + 150 = ₹585$. A poor answer would fail to provide realistic numbers or omit the comparison between the exact sum and the estimated range.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Checking the ______ of answers involves using estimation, place value logic, and order of magnitude checks to determine whether a computed result makes logical sense before accepting it as final.",
+     "a": "reasonableness",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at the local vegetable market buying 3.5 ______ of potatoes priced at ₹24.50 per kg.",
+     "a": "kilograms",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you calculate the total on your notepad, you write down ₹______.",
+     "a": "857.50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can independently estimate decimal calculation outcomes, identify impossible results in multi-step word problems involving money and measurement, and verify accuracy using rough mental rounding before writing down a final answer.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at the local ______ market buying 3.5 kilograms of potatoes priced at ₹24.50 per kg.",
+     "a": "vegetable",
+     "self_check": true
     }
    ]
   }

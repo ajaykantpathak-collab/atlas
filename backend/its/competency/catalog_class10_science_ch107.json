@@ -20,7 +20,7 @@
     "Explain why offspring are similar but not identical to parents.",
     "explain dna copying and variation in your own words"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,16 @@
      "action": "Evaluate the outcome of variations",
      "explain": "Inaccurate copying leads to variations; while some are lethal, others allow individuals to survive niche changes."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "variation_rate = total_errors / dna_replication_events",
+     "compute": "variation_rate = total_errors / dna_replication_events"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.107.2",
@@ -122,7 +131,7 @@
     "Where does the bud develop on the parent body?",
     "why is budding important"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -139,7 +148,16 @@
      "action": "Final separation",
      "explain": "Once fully developed, the new individual detaches from the parent."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_organisms = parent + active_buds",
+     "compute": "total_organisms = parent + active_buds"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.107.5",
@@ -156,7 +174,7 @@
     "What is tissue culture and how is it performed?",
     "list the main features of vegetative propagation"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -173,7 +191,16 @@
      "action": "Verify genetic similarity",
      "explain": "Confirm that the offspring are clones of the parent plant."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "plant_yield = cuttings * success_rate",
+     "compute": "plant_yield = cuttings * success_rate"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.107.6",
@@ -190,7 +217,7 @@
     "Identify the reproductive and non-reproductive parts of bread mould.",
     "state two key points about spore formation"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -207,7 +234,16 @@
      "action": "Germination",
      "explain": "On reaching a suitable moist substrate, the spore grows into a new fungus."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "spore_count = sporangia * spores_per_blob",
+     "compute": "spore_count = sporangia * spores_per_blob"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.107.7",
@@ -244,7 +280,16 @@
      "explain": "Fusion of two gametes restores the diploid state.",
      "compute": "n_zygote = n_gamete + n_gamete"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "zygote_chromosomes = male_gamete_n + female_gamete_n",
+     "compute": "zygote_chromosomes = male_gamete_n + female_gamete_n"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.107.8",
@@ -295,7 +340,7 @@
     "Trace the path of sperm from the testes to the urethra.",
     "why is human male reproductive system important"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -312,7 +357,16 @@
      "action": "Glandular Addition",
      "explain": "Prostate and seminal vesicles add fluids for nutrition and easier transport."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "semen = sperm_cells + glandular_secretions",
+     "compute": "semen = sperm_cells + glandular_secretions"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.107.10",
@@ -363,7 +417,7 @@
     "Explain the surgical methods of birth control.",
     "how does reproductive health and contraception work"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -380,7 +434,16 @@
      "action": "Surgical Methods",
      "explain": "Vasectomy (male) or Tubectomy (female) blocks the gamete transport path."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "contraceptive_efficacy = 100 - failure_rate",
+     "compute": "contraceptive_efficacy = 100 - failure_rate"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

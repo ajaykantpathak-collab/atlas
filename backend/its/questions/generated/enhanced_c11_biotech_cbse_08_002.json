@@ -34,6 +34,36 @@
      "q": "Design a quality-controlled karyotyping workflow for a new diagnostic lab. Include: (a) minimum metaphases to analyze for constitutional vs mosaic detection, (b) banding resolution target, (c) two mandatory QC checkpoints with acceptance criteria, (d) reporting turnaround time for urgent prenatal vs routine postnatal.",
      "a": "(a) Constitutional: 20 metaphases (ISCN); Mosaic detection (≥10% level): 50 metaphases (95% confidence). (b) Target ≥550 bands (high-resolution) for prenatal; 400-550 for routine postnatal. (c) QC1: Mitotic index >5% after 72h culture — if <2%, re-culture. QC2: Band resolution ≥400 on 10 consecutive spreads — if <350, optimize trypsin time. (d) Urgent prenatal (CVS/amnio): 7-10 days; Routine postnatal: 14-21 days. A poor answer (e.g., \"analyze 5 cells, any banding, report in 1 week\") reveals ignorance of statistical sampling for mosaicism, banding standards, and clinical urgency tiers.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Karyotyping is the standardized laboratory process of arresting dividing cells at metaphase, staining chromosomes to reveal ______ banding patterns (e.g., G-banding), photographing them, and arranging the homologous pairs in descending order of size with centromere position (p-arm short, q-arm long) to produce a karyogram for detecting numerical and structural chromosomal abnormalities using ISCN nomenclature.",
+     "a": "characteristic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a genetic counselor receives a referral: \"Couple with three first-trimester ______.",
+     "a": "miscarriages",
+     "self_check": true
+    },
+    {
+     "q": "What is Karyotyping? State the definition given in this lesson.",
+     "a": "Karyotyping is the standardized laboratory process of arresting dividing cells at metaphase, staining chromosomes to reveal characteristic banding patterns (e.g., G-banding), photographing them, and arranging the homologous pairs in descending order of size with centromere position (p-arm short, q-arm long) to produce a karyogram for.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Suspected balanced translocation.\" How does ______ mL of blood reveal chromosome rearrangements invisible to the naked eye?",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Karyotyping?",
+     "a": "Students believe karyotyping detects all genetic disorders, including single-gene diseases like sickle cell anemia or cystic fibrosis.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) sequence the complete karyotype preparation protocol from blood draw to banded metaphase spread with correct reagents, incubation times, and temperature conditions, (2) interpret a G-banded karyogram to identify specific numerical abnormalities (e.g., trisomy 21, 45,X) and structural abnormalities (e.g., del(5p).",
+     "self_check": true
     }
    ]
   }

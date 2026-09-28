@@ -34,6 +34,21 @@
      "q": "Create a multi-step word problem involving a carpenter framing a gate in Jaipur where two wooden horizontal struts are crossed by a diagonal brace forming alternate interior angles of $(5x - 10)^\\circ$ and $(3x + 30)^\\circ$. State the equation and find the angle measure.",
      "a": "A good response will set up the equation $5x - 10 = 3x + 30$ because alternate interior angles are equal. Solving gives $2x = 40 \\implies x = 20$, and substituting back yields an angle measure of $5(20) - 10 = 90^\\circ$. A poor response uses incorrect angle relationships like setting their sum to $180^\\circ$ or has arithmetic errors in solving the linear equation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine walking along a ______ railway track crossed diagonally by a metal bridge girder at your school's engineering exhibition.",
+     "a": "straight",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify all eight angle pairs formed by a transversal intersecting two parallel lines, calculate unknown angle measures using angle properties (corresponding, alternate, interior-same-side), and set up and solve algebraic equations for unknown variables within geometric figures.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine walking along a straight railway track crossed diagonally by a metal bridge girder at your school's ______ exhibition.",
+     "a": "engineering",
+     "self_check": true
     }
    ]
   }

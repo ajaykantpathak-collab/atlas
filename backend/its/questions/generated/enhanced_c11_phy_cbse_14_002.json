@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a smartphone, a long string, and known masses to verify the relationship v = √(T/μ) for transverse waves on a string. Describe the procedure, measurements needed, and how you would analyse the data.",
      "a": "Procedure: Fix one end of string to a vibrator (phone speaker playing fixed frequency tone), other end over pulley with hanging mass for tension. Measure μ = mass/length of string. Vary hanging mass to change T. Use phone's slow-motion video to measure wavelength λ (distance between nodes). Calculate v = λν (ν known from tone frequency). Plot v² vs T - should be linear with slope 1/μ. Good answer shows understanding of controlling ν, measuring λ, and linearising v = √(T/μ) to v² = T/μ. Poor answer measures wave speed by timing a pulse over distance (hard to time accurately) or doesn't vary T systematically.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The speed of a ______ wave is the rate at which a particular phase point (such as a crest or trough) propagates through a medium, given by v = ω/k = λν = λ/T, where ω is angular frequency, k is angular wave number, λ is wavelength, ν is frequency, and T is period.",
+     "a": "travelling",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a guitar string being plucked - the ______ travels along the string at a definite speed.",
+     "a": "disturbance",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the wave speed formula v = λν from the phase constancy condition, calculate wave speed in different media using the appropriate elastic/inertial property formula, and explain why wave speed is independent of frequency for non-dispersive media but depends on medium properties.",
+     "self_check": true
     }
    ]
   }

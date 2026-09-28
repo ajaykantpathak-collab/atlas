@@ -16,8 +16,8 @@
      "self_check": true
     },
     {
-     "q": "Suppose a 15th-century European ship captain is trying to plan a voyage to India but lacks a magnetic compass and a caravel. Using historical reasoning, explain how these two specific technological innovations made deep-ocean travel possible where older Mediterranean ships failed.",
-     "a": "Older Mediterranean ships (galleys) relied on oars and square sails, making them unsuitable for rough, open-ocean winds. The *caravel* featured lateen (triangular) sails that allowed sailing *against* the wind (tacking), and a deep hull to withstand ocean waves. The *magnetic compass* allowed sailors to navigate in open waters away from the safety of the coastline, even during cloudy skies when stars weren't visible. Without these, a captain could not safely navigate the open Atlantic and Indian Oceans.\n*What a wrong answer reveals:* If a student thinks technology was just a minor convenience, it shows they do not appreciate the material and geographical constraints of pre-modern maritime travel and how scientific development directly enabled historical expansion.",
+     "q": "Trace the correct sequence of developments that carried European sailors from the 1453 route blockage to the open-ocean voyage to India.",
+     "a": "The maritime chain runs: (1) The Ottoman capture of Constantinople blocks the overland Silk Route (2) Spice prices soar under mercantilist competition (3) The caravel with lateen sails and the magnetic compass make open-ocean sailing possible (4) Portuguese captains sail directly to India and bypass the middlemen. A wrong answer that credits the Industrial Revolution or the East India Company shows the student has missed the chronological trigger in West Asia and the two navigational innovations that turned a spice crisis into the Age of Discovery.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Construct a conceptual flowchart showing the cause-and-effect chain starting from the \"Fall of Constantinople in 1453\" to the \"Establishment of European trading posts on the Malabar Coast of India.\"",
      "a": "1. Fall of Constantinople (1453) -> Land routes to Asia blocked/heavily taxed by Ottomans.\n2. High demand for Asian spices in Europe -> Price of spices skyrockets.\n3. Search for alternative pathways -> European monarchs fund maritime exploration to find direct sea routes.\n4. Navigational advancements (Caravel, Astrolabe, Compass) -> Safe open-ocean navigation becomes possible.\n5. Vasco da Gama rounds the Cape of Good Hope (1497-1498) -> Direct sea route to India discovered.\n6. Arrival at Calicut (1498) -> Establishment of armed Portuguese trading factories (Feitorias) on the Malabar Coast.\n*What a wrong answer reveals:* A poor answer that jumbles the chronological order (e.g., putting the British East India Company's formation before the Portuguese arrival) indicates a failure to comprehend the logical and chronological progression of colonial history.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Age of ______ from the 15th century refers to the era of global history when European maritime powers initiated extensive overseas exploration and established colonies.",
+     "a": "Colonialism",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ opening a spice box in an Indian kitchen and finding black pepper, cardamom, and cloves.",
+     "a": "Imagine",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Age of Colonialism from the ______th century refers to the era of global history when European maritime powers initiated extensive overseas exploration and established colonies.",
+     "a": "15",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Students can explain how the blocking of overland trade routes triggered maritime exploration, analyze the role of mercantilist economic policies in driving European expansion, and trace the cause-and-effect chain that led European merchants to the shores of India.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine opening a spice box in an Indian kitchen and finding black pepper, ______, and cloves.",
+     "a": "cardamom",
      "self_check": true
     }
    ]

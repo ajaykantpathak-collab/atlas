@@ -34,6 +34,36 @@
      "q": "Design a minimal bioinformatics project for a Class 11 student to demonstrate the full cycle: biological question → data acquisition → analysis → interpretation. Specify the biological question, the public database used, the tool category (not specific software), and the expected output format. The project must be completable in 2 hours on a standard laptop.",
      "a": "Biological question: \"Which human gene is most similar to the insulin gene of zebrafish?\" Data acquisition: Retrieve zebrafish insulin protein sequence (FASTA) from UniProt. Analysis: Homology search using BLASTp (blastp tool category) against human RefSeq protein database. Interpretation: Identify top hit, note % identity, E-value, and align conserved cysteine residues critical for disulfide bonds. Output: Screenshot of BLAST results table + annotated alignment snippet. A poor answer that suggests \"download all human genes and compare manually\" reveals the student does not grasp that bioinformatics relies on pre-indexed databases and algorithmic search, not brute-force inspection.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Bioinformatics is an ______ field that integrates computational, mathematical, statistical, and engineering approaches to store, retrieve, analyse, and interpret biological data—particularly molecular sequence and structural data—for solving biological problems and generating testable hypotheses.",
+     "a": "interdisciplinary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a doctor trying to diagnose a rare genetic ______ in a patient from a small village in Rajasthan.",
+     "a": "disorder",
+     "self_check": true
+    },
+    {
+     "q": "What is Bioinformatics? State the definition given in this lesson.",
+     "a": "Bioinformatics is an interdisciplinary field that integrates computational, mathematical, statistical, and engineering approaches to store, retrieve, analyse, and interpret biological data—particularly molecular sequence and structural data—for solving biological problems and generating testable hypotheses.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You have the patient's DNA sequence—a string of ______ billion letters (A, T, G, C).",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Bioinformatics?",
+     "a": "Students believe bioinformatics is synonymous with \"using BLAST\" or \"searching databases.\" They think the field begins and ends with submitting a sequence to NCBI and reading the top hit.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish bioinformatics from computational biology and mathematical biology by identifying the dominant disciplinary component in a given research scenario, and can justify why a specific biological database (e.g., GenBank vs PDB vs UniProt) is appropriate for a stated research question.",
+     "self_check": true
     }
    ]
   }

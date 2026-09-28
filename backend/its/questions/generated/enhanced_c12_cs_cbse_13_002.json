@@ -34,6 +34,31 @@
      "q": "Design a community-based digital inclusion program for a tribal block with 40% smartphone penetration but <5% usage of government e-services (e.g., PM-KISAN, Ayushman Bharat). Specify: (a) target groups, (b) three activities addressing different divide levels, (c) one measurable outcome indicator per activity.",
      "a": "(a) Target groups: Tribal women (SHG members), youth (15-25), elderly (for pension/health). (b) Activities: 1. First-level: Community Wi-Fi mesh network at Panchayat Bhavan with solar power (Indicator: % households within 500m of reliable hotspot). 2. Second-level: 'Digital Sathi' peer-training by trained youth in local dialect using voice/video tutorials for e-service navigation (Indicator: % trained users completing a target transaction independently). 3. Third-level: Monthly 'e-Seva Camp' with CSC-VLE assistance for actual benefit enrollment (Indicator: % increase in successful PM-KISAN/Ayushman registrations over 6 months). A poor answer focusing only on 'computer classes' misses the need for infrastructure, mediated usage, and outcome-linked support.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Digital Divide refers to the gap between individuals, households, businesses, and geographic areas at different socio-economic levels with regard to their ______ to access information and communication technologies (ICTs) and their use of the Internet for a wide variety of activities.",
+     "a": "opportunities",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a Class 12 student in a remote village in Jharkhand who wants to prepare for JEE using free YouTube lectures, but the only internet available is a patchy 2G ______ on a shared family phone with a 1.5 GB/day limit.",
+     "a": "connection",
+     "self_check": true
+    },
+    {
+     "q": "What is Digital Divide? State the definition given in this lesson.",
+     "a": "Digital Divide refers to the gap between individuals, households, businesses, and geographic areas at different socio-economic levels with regard to their opportunities to access information and communication technologies (ICTs) and their use of the Internet for a wide variety of activities.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Digital Divide?",
+     "a": "Students often equate digital divide solely with 'not having a computer or internet connection' (first-level divide).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) classify the three levels of digital divide (access, usage, and outcome) with real-world Indian examples for each, and (2) analyze a given case scenario to identify which specific barrier (infrastructure, affordability, digital literacy, language, or policy) is the primary driver of exclusion and propose.",
+     "self_check": true
     }
    ]
   }

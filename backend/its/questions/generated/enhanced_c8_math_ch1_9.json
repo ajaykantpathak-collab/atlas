@@ -34,6 +34,36 @@
      "q": "Create a real-world problem (Indian context) where estimating a square root is necessary, and solve it.",
      "a": "Example: \"A square garden has an area of 200 m². Estimate the side length to buy fencing wire sold by the metre.\" Solution: √200 ≈ 14.1 m, so buy 15 m (rounding up). A poor answer uses a perfect square area (like 196) or ignores the need to round up for purchase, showing lack of real-world application sense.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Estimating square roots is the process of finding an approximate value for the square root of a non-perfect square by identifying the two consecutive perfect squares between which the number lies and then using ______ or iterative refinement to get a close decimal approximation.",
+     "a": "interpolation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are tiling a square floor in your ______ with an area of 50 square feet.",
+     "a": "classroom",
+     "self_check": true
+    },
+    {
+     "q": "What is Estimating square roots? State the definition given in this lesson.",
+     "a": "Estimating square roots is the process of finding an approximate value for the square root of a non-perfect square by identifying the two consecutive perfect squares between which the number lies and then using interpolation or iterative refinement to get a close decimal approximation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are tiling a square floor in your classroom with an area of ______ square feet.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Estimating square roots?",
+     "a": "Students assume the square root function is linear and always take the midpoint between the two bounding integers.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can estimate the square root of any non-perfect square up to 4-digit numbers to one decimal place, explain why the estimate lies between two integers, and verify the reasonableness of their answer by squaring the estimate.",
+     "self_check": true
     }
    ]
   }

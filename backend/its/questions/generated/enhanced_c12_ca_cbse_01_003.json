@@ -34,6 +34,36 @@
      "q": "Design a 4-feature checklist (exclude Scalability) that an auditor would use to verify CAS compliance in a GST-registered firm. For each feature, specify one test the auditor would perform.",
      "a": "Checklist with auditor tests:\n1. Simple & Integrated: Test — Enter one Sales Voucher; verify auto-update in Sales Register, Customer Ledger, Stock Register, GSTR-1 JSON simultaneously.\n2. Transparency & Control: Test — Pick a random GST payment; trace from Payment Voucher → Bank Ledger → GSTR-3B liability → Challan — all in <30 seconds without manual cross-reference.\n3. Accuracy & Speed: Test — Process 500 vouchers via import; verify zero arithmetic mismatch between voucher total and ledger balances; time < 2 minutes.\n4. Reliability: Test — Simulate power failure during posting; verify data vault (encrypted backup) restores to last committed transaction with audit trail intact.\nA poor answer lists features without testable verification steps — shows theoretical knowledge without audit application.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Salient Features of CAS are the five essential ______ that define a robust Computerised Accounting System: Simple and Integrated design, Transparency and Control, Accuracy and Speed, Scalability, and Reliability.",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a growing retail business in Mumbai with 500 daily ______ — sales, purchases, expenses, payroll.",
+     "a": "transactions",
+     "self_check": true
+    },
+    {
+     "q": "What is Salient Features of CAS? State the definition given in this lesson.",
+     "a": "Salient Features of CAS are the five essential characteristics that define a robust Computerised Accounting System: Simple and Integrated design, Transparency and Control, Accuracy and Speed, Scalability, and Reliability.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a growing retail business in Mumbai with ______ daily transactions — sales, purchases, expenses, payroll.",
+     "a": "500",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Salient Features of CAS?",
+     "a": "They write advantages (e.g., \"timely reports,\" \"economy in processing,\" \"confidentiality\") when asked for features.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) list all five salient features with their specific functional descriptions, and (2) explain how each feature addresses a specific limitation of manual accounting using a real-world business scenario.",
+     "self_check": true
     }
    ]
   }

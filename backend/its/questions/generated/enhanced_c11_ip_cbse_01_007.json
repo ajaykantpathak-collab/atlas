@@ -34,6 +34,36 @@
      "q": "Design a 3-device storage strategy for a freelance photographer who: (a) shoots 50 GB RAW photos per wedding, (b) edits on a laptop, (c) delivers final 10 GB JPEGs to clients, (d) archives all RAWs for 10 years. Specify device type, capacity, and role for each. Justify why cloud storage alone is insufficient per NCERT's definition of secondary storage.",
      "a": "Device 1: 1 TB NVMe SSD (laptop internal) — active editing workspace (speed for random access to RAW files). Device 2: 4 TB portable HDD — project archive + client delivery (capacity/cost for 50 GB RAWs + 10 GB JPEGs per wedding). Device 3: 128 GB USB 3.2 pen drive — final JPEG handoff to client (portability, plug-and-play). Cloud insufficient because: (1) NCERT defines secondary storage as local physical devices; (2) 50 GB upload on typical Indian broadband (10 Mbps upload) takes ~11 hours per wedding; (3) archival for 10 years incurs recurring subscription cost vs one-time HDD purchase. A poor answer omits the upload bandwidth constraint or confuses cloud with local secondary storage.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Secondary storage devices are non-volatile, high-capacity auxiliary memory units that ______ store data and programs for future use, which cannot be directly accessed by the CPU and must first be transferred to primary memory (RAM) for processing.",
+     "a": "permanently",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a gaming PC for a ______ with a budget of ₹60,000.",
+     "a": "friend",
+     "self_check": true
+    },
+    {
+     "q": "What is Secondary storage devices? State the definition given in this lesson.",
+     "a": "Secondary storage devices are non-volatile, high-capacity auxiliary memory units that permanently store data and programs for future use, which cannot be directly accessed by the CPU and must first be transferred to primary memory (RAM) for processing.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Connect this to the block diagram from Node ______: secondary storage feeds primary memory, which feeds CPU.",
+     "a": "001",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Secondary storage devices?",
+     "a": "Students believe \"SSD is always better than HDD\" and recommend SSD for bulk archival (e.g., 10 TB family photo backup) ignoring cost per GB.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to compare and justify the selection of an appropriate secondary storage device for a given real-world scenario (e.g., OS installation, large video editing, portable document transfer, archival backup) by evaluating trade-offs among access speed, durability, capacity, cost per GB, portability, and volatility, and.",
+     "self_check": true
     }
    ]
   }

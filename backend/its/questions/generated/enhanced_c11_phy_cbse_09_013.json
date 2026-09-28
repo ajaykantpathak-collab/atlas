@@ -34,6 +34,31 @@
      "q": "Design a simple laboratory experiment to determine the surface tension of an unknown liquid using the capillary rise method. List the measurements needed, the equipment required, and the formula you would use. How would you ensure the contact angle is known or negligible?",
      "a": "**Equipment:** Capillary tubes of known radii (measured with a travelling microscope), a beaker, the unknown liquid, a ruler or cathetometer for height measurement, thermometer. **Measurements:** Capillary rise \\( h \\), tube radius \\( r \\), liquid density \\( \\rho \\) (via specific gravity bottle), temperature, and contact angle \\( \\theta \\) (using a goniometer or assuming \\( \\theta \\approx 0^\\circ \\) for pure water in clean glass). **Formula:** \\( S = \\frac{h \\rho g r}{2 \\cos\\theta} \\). **Ensuring \\( \\theta \\)):** Clean the tube thoroughly with chromic acid and rinse with distilled water to ensure \\( \\theta \\approx 0^\\circ \\) for water. For other liquids, measure \\( \\theta \\) independently using a sessile drop method. A poor answer omits radius measurement, ignores temperature control, or assumes \\( \\cos\\theta = 1 \\) without justification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Capillary rise is the ______ where a liquid ascends or descends in a narrow tube (capillary) due to the pressure difference across a curved meniscus caused by surface tension.",
+     "a": "phenomenon",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a glass ______ or a thin straw dipped in water: the water climbs up the tube, defying gravity.",
+     "a": "thermometer",
+     "self_check": true
+    },
+    {
+     "q": "What is Capillary rise? State the definition given in this lesson.",
+     "a": "Capillary rise is the phenomenon where a liquid ascends or descends in a narrow tube (capillary) due to the pressure difference across a curved meniscus caused by surface tension.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Capillary rise?",
+     "a": "The tube length and immersion depth do not appear in the force balance.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "They can also rearrange the formula to determine an unknown parameter (e.g., surface tension or contact angle) from experimental measurements.",
+     "self_check": true
     }
    ]
   }

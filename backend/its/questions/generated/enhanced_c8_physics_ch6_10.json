@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a convex lens, a screen, and a candle to determine the approximate focal length of the lens. List the steps and the measurement you would take.",
      "a": "Steps: (1) Place the candle at a distance > 2f (e.g., 2 m) so rays are nearly parallel. (2) Move the screen until a sharp inverted image forms. (3) Measure the distance between lens and screen – this is the approximate focal length. A poor answer (e.g., \"put candle at focus\") shows the student confuses object and image distances and does not grasp the \"distant object ≈ parallel rays\" principle.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A lens is a ______ optical medium bounded by two spherical surfaces (or one spherical and one plane surface) that refracts light to converge or diverge a beam.",
+     "a": "transparent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Hold a ______ glass (convex lens) in sunlight and observe the bright spot it forms on paper – that spot is where parallel sun rays converge.",
+     "a": "magnifying",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify a lens as convex or concave by its shape, explain in their own words how each type bends parallel rays of light, and correctly label the optical centre, principal axis, principal foci, and focal length on a diagram.",
+     "self_check": true
     }
    ]
   }

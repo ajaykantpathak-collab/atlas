@@ -34,6 +34,31 @@
      "q": "Design a one-time setup checklist for a new CAS implementation for a partnership firm starting on 1st July 2024. Include at least 5 specific master data items that must be created before any voucher entry, and explain why each is needed.",
      "a": "Checklist: (1) Organisation Master — firm name, address, GSTIN, PAN; needed for all reports and statutory compliance. (2) Accounting Year — 1-Jul-2024 to 30-Jun-2025; defines the financial period for closing. (3) Chart of Accounts (Ledger Masters) — grouped per Schedule III (Capital, Loans, Fixed Assets, Debtors, Creditors, Sales, Purchases, Expenses); without this, vouchers have no accounts to post to. (4) Voucher Types Configuration — enable required voucher types (Cash, Bank, Purchase, Sales, Journal, Contra); ensures correct transaction classification. (5) Security Setup — create users (Partner, Accountant) with role-based passwords; enforces segregation of duties. A poor answer lists generic items like \"install software\" or misses the linkage to voucher entry.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Using Software of CAS refers to the operational procedures for running a ______ Accounting System, comprising one-time setup activities (creating organisation details, accounting year, and master files like chart of accounts) and recurring activities (recording transactions through vouchers — cash, bank, purchase, sales, journal — and generating reports such as day books, ledgers, trial balance, financial statements, and cash flow statements), along with security features like password protection, data audit trails, and encryption (data vault).",
+     "a": "Computerised",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are hired as an intern at a small retail business that has just purchased ______ software.",
+     "a": "accounting",
+     "self_check": true
+    },
+    {
+     "q": "What is Using Software of CAS? State the definition given in this lesson.",
+     "a": "Using Software of CAS refers to the operational procedures for running a Computerised Accounting System, comprising one-time setup activities (creating organisation details, accounting year, and master files like chart of accounts) and recurring activities (recording transactions through vouchers — cash, bank, purchase, sales, journal —.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Using Software of CAS?",
+     "a": "Students often believe that \"using CAS software\" means only learning which buttons to click in Tally or similar packages.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to list the sequential steps for one-time setup and recurring voucher entry in a CAS, identify the correct voucher type for a given business transaction, and explain how the three security features (password, data audit, data vault) protect accounting data.",
+     "self_check": true
     }
    ]
   }

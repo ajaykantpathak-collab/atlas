@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using household items to demonstrate that moment of inertia depends on mass distribution, not just total mass. Describe the setup, procedure, and what observation confirms the concept.",
      "a": "Setup: Two identical rulers (same mass, length). Tape four 10 g coins near the centre of ruler A; tape the same four coins at the ends of ruler B. Hold each ruler at its centre and twist rapidly back and forth (torsional oscillation). Observation: Ruler B oscillates slower (larger period) because its mass is farther from the axis → larger I. This shows I depends on mass distribution. A poor answer would describe an experiment that doesn't isolate distribution (e.g., different total masses) or measures linear motion instead of rotational.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Moment of inertia (I) of a rigid body about a given axis of rotation is defined as the sum of the products of the masses of all constituent particles and the square of their respective ______ distances from that axis.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan starting from rest: the blades have the same mass whether stationary or rotating, but the effort needed to spin them up depends on how that mass is ______ relative to the axis.",
+     "a": "distributed",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute the moment of inertia for a given discrete mass distribution about a specified axis using I = Σ m_i r_i², identify the correct perpendicular distance r_i for each mass element, and explain why moment of inertia is the rotational analogue of mass by comparing K = ½ Iω² with K = ½ mv².",
+     "self_check": true
     }
    ]
   }

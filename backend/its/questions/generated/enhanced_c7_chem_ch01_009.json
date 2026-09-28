@@ -34,6 +34,31 @@
      "q": "Design a simple home investigation to distinguish between a metal rod, a lump of sulfur, and a silicon piece using everyday items like a battery, a small bulb, and a hammer.",
      "a": "A good design involves two tests: \n1. Mechanical Test: Gently tap each material with a hammer to check for malleability versus brittleness. \n2. Electrical Test: Connect each material in a simple electric circuit with a battery and bulb to see if the bulb lights up. \nA poor answer would suggest melting them or tasting them, which are unsafe and fail to test conductivity or brittleness.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Metalloids are a special group of elements that possess properties ______ between those of metals and non-metals.",
+     "a": "intermediate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you look at a solar panel on a rooftop or inside a computer processor powering a ______, you are seeing materials that do not quite fit the strict definitions of metals or non-metals.",
+     "a": "smartphone",
+     "self_check": true
+    },
+    {
+     "q": "What is Metalloids? State the definition given in this lesson.",
+     "a": "Metalloids are a special group of elements that possess properties intermediate between those of metals and non-metals.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Metalloids?",
+     "a": "Students frequently assume that any element with a shiny, lustrous appearance must be a metal and therefore a good conductor of electricity and heat in all conditions.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can classify an element as a metal, non-metal, or metalloid based on physical properties such as luster, malleability, brittleness, and electrical conductivity.",
+     "self_check": true
     }
    ]
   }

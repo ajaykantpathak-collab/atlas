@@ -34,6 +34,36 @@
      "q": "Design a hybrid architecture for a video-on-demand platform that uses Client-Server for metadata/search and P2P for video chunk delivery. Sketch the data flow for a user requesting a movie, labeling components and protocols at each step.",
      "a": "Expected flow: (1) User (client) → HTTPS request → API Server (metadata: title, chunk hashes, peer list) — Client-Server; (2) Client connects to Tracker/DHT → gets list of peers holding chunks — P2P control plane; (3) Client → direct TCP/uTP connections → multiple peers → downloads video chunks in parallel — P2P data plane; (4) Client simultaneously uploads chunks to other peers — P2P reciprocity; (5) Periodic heartbeat to API server for session/auth — Client-Server. A poor answer omits the metadata server, assumes pure P2P discovery (ignoring bootstrap), or misses that chunk verification requires trusted hashes from the central server.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Client-Server ______ is a distributed application structure that partitions tasks between service providers (servers) and service requesters (clients), where the server hosts, delivers, and manages resources/services for multiple clients.",
+     "a": "architecture",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you want to watch a movie: you open Netflix (client) which requests the video from Netflix's powerful servers (server) — this is Client-Server.",
+     "a": "Imagine",
+     "self_check": true
+    },
+    {
+     "q": "What is Client-Server architecture? State the definition given in this lesson.",
+     "a": "Client-Server architecture is a distributed application structure that partitions tasks between service providers (servers) and service requesters (clients), where the server hosts, delivers, and manages resources/services for multiple clients.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Peer-to-Peer (P______P) model is a decentralized architecture where each node (peer) acts as both a client and a server, sharing resources directly with other peers without a central server.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Client-Server architecture?",
+     "a": "Students often believe \"Peer-to-Peer means no server at all\" — they confuse the absence of a *central application server* with the absence of *any infrastructure*.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish between Client-Server and P2P architectures by comparing their structure, resource management, scalability, and fault tolerance, and (2) given a real-world application scenario (e.g., video streaming, file sharing, blockchain), justify which architecture is more suitable with at least three technical.",
+     "self_check": true
     }
    ]
   }

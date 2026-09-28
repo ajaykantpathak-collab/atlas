@@ -22,7 +22,7 @@
     "why can one number list fit more than one story",
     "write a puzzle where classmates guess what numbers mean"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -39,7 +39,22 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.6.2",
@@ -57,7 +72,7 @@
     "why do some numbers break the pattern in a game",
     "explain the rule to a friend using five examples"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -74,7 +89,16 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the financial or index-number formula",
+     "explain": "apply the financial or index-number formula: idx = 155 / 100 * 100 gives 155",
+     "compute": "idx = 155 / 100 * 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.6.3",
@@ -92,7 +116,7 @@
     "why does arranging numbers reveal hidden patterns",
     "predict the 10th term of the given number chain"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -109,7 +133,16 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the counting rule (product, factorial, 2^n)",
+     "explain": "apply the counting rule (product, factorial, 2^n): total = 9 * 6 gives 54",
+     "compute": "total = 9 * 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.6.4",
@@ -127,7 +160,7 @@
     "why should clues be applied in order",
     "check whether your answer obeys every clue"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -144,7 +177,22 @@
      "action": "check the answer",
      "explain": "Verify by reversing or re-checking, then conclude."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

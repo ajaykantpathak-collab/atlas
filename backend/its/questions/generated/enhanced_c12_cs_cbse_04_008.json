@@ -34,6 +34,31 @@
      "q": "Design a table `LIBRARY_BOOK` for a school library that stores `BookID`, `Title`, `Category` (only 'Fiction', 'Non‑Fiction', 'Reference'), `Copies` (positive integer), and `LastIssued` (date, can be NULL). Write the CREATE TABLE statement with all appropriate domain, key, and entity integrity constraints.",
      "a": "```sql\nCREATE TABLE LIBRARY_BOOK (\n    BookID      INT PRIMARY KEY,\n    Title       VARCHAR(100) NOT NULL,\n    Category    VARCHAR(20) CHECK (Category IN ('Fiction','Non-Fiction','Reference')),\n    Copies      INT CHECK (Copies > 0),\n    LastIssued  DATE\n);\n```\nA good answer includes PRIMARY KEY (entity integrity), NOT NULL on Title, CHECK for Category domain, CHECK for positive Copies, and allows NULL on LastIssued. Missing any constraint indicates incomplete mapping of requirements to constraint types.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Database ______ are rules enforced on data columns to ensure accuracy, consistency, and reliability of data in a relational database.",
+     "a": "constraints",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a student ______ for your school.",
+     "a": "database",
+     "self_check": true
+    },
+    {
+     "q": "What is Database constraints? State the definition given in this lesson.",
+     "a": "Database constraints are rules enforced on data columns to ensure accuracy, consistency, and reliability of data in a relational database.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Database constraints?",
+     "a": "Students often believe that a UNIQUE constraint automatically implies NOT NULL.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) define domain, key, and entity integrity constraints using precise terminology, (2) identify violations in a given table instance, and (3) write SQL DDL statements (CREATE TABLE / ALTER TABLE) that correctly implement these constraints for a described scenario.",
+     "self_check": true
     }
    ]
   }

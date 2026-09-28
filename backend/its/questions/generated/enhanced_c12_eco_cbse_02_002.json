@@ -34,6 +34,21 @@
      "q": "Construct a real-life scenario (Indian context) where a consumer's behavior appears to violate the Law of DMU but actually does not because one of the assumptions is violated. Identify the violated assumption and explain.",
      "a": "Scenario: During Diwali, Rahul buys 5 boxes of premium sweets (₹500 each) for gifting. The 5th box gives him more satisfaction than the 1st because completing the set for all relatives brings social prestige. Violated assumption: Homogeneous units / Independence of utilities. The units are not homogeneous — the 5th box completes a social obligation set, creating complementarity across units. DMU applies to identical units consumed for direct satisfaction, not to units whose value depends on the total collection. A poor answer might say \"DMU doesn't apply to festivals\" or \"utility increased so law is wrong,\" missing that the law's ceteris paribus conditions were broken — the good's characteristics changed across units.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Law of ______ Marginal Utility states that as a consumer consumes successive units of a homogeneous good within a given time period, the marginal utility derived from each additional unit declines, holding all other factors constant.",
+     "a": "Diminishing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a Delhi wedding buffet — the first plate of butter chicken gives immense ______, the second plate is enjoyable but less thrilling, and by the third plate you may feel discomfort.",
+     "a": "satisfaction",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state the law precisely with all assumptions, explain why marginal utility diminishes using the concept of satiation of wants, and apply it to derive the downward-sloping demand curve.",
+     "self_check": true
     }
    ]
   }

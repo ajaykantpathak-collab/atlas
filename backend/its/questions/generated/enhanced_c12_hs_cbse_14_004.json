@@ -32,7 +32,22 @@
     },
     {
      "q": "Design a complete laundry protocol for a mixed load containing: (a) white cotton chef's coat with protein stains (blood, egg), (b) navy blue cotton kurta, (c) beige wool sweater, (d) printed polyester scarf. Specify sorting groups, steeping conditions, washing method, detergent type, rinse steps, and finishing for each group. Justify every parameter choice.",
-     "a": "Sort into 4 groups (no mixing possible):\nGroup 1 (chef's coat): White cotton, protein stains. Steep 30 min cold water + enzymatic pre-soak (protease breaks proteins; heat coagulates proteins). Wash hot (60-70°C) with heavy-duty alkaline detergent + oxygen bleach. Friction wash. Rinse 3× hot→warm→cold. Finish: none (starch attracts soil).\nGroup 2 (navy kurta): Colored cotton. Steep 15 min warm (40°C) with color-safe detergent. Wash warm (40°C) gentle machine cycle. Rinse 2× warm→cold. Finish: optical brightener (no blue on dark colors).\nGroup 3 (wool sweater): Wool. Steep 10 min cold (30°C max) with wool-safe neutral detergent. Wash by suction/kneading only. Rinse 3× cold (temp shock causes felting). Finish: fabric conditioner (cationic surfactant lubricates scales).\nGroup 4 (polyester scarf): Synthetic. Steep 10 min cold with mild detergent. Wash gentle machine cold. Rinse 2× cold. Finish: anti-static agent (polyester builds static). Justifications tie each parameter to fibre thermal stability, chemical sensitivity, wet strength, and soil type.",
+     "a": "Sort into 4 groups (no mixing possible):\nGroup 1 (chef's coat): White cotton, protein stains. Steep 30 min cold water + enzymatic pre-soak (protease breaks proteins; heat coagulates proteins). Wash hot (60-70°C) with heavy-duty alkaline detergent + oxygen bleach. Friction wash. Rinse 3× hot→warm→cold. Finish: N/A (starch attracts soil).\nGroup 2 (navy kurta): Colored cotton. Steep 15 min warm (40°C) with color-safe detergent. Wash warm (40°C) gentle machine cycle. Rinse 2× warm→cold. Finish: optical brightener (no blue on dark colors).\nGroup 3 (wool sweater): Wool. Steep 10 min cold (30°C max) with wool-safe neutral detergent. Wash by suction/kneading only. Rinse 3× cold (temp shock causes felting). Finish: fabric conditioner (cationic surfactant lubricates scales).\nGroup 4 (polyester scarf): Synthetic. Steep 10 min cold with mild detergent. Wash gentle machine cold. Rinse 2× cold. Finish: anti-static agent (polyester builds static). Justifications tie each parameter to fibre thermal stability, chemical sensitivity, wet strength, and soil type.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The laundry process is a systematic sequence of stages—sorting, steeping, washing, rinsing, and finishing—designed to remove soil, stains, and ______ from textiles while preserving fabric integrity, color, and texture through appropriate mechanical action, chemical agents, and temperature control specific to each fibre type.",
+     "a": "microorganisms",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a laundry basket ______ a white cotton kurta with turmeric stains, a dark blue denim jeans, a red silk dupatta, and a woolen sweater—all mixed together.",
+     "a": "containing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently sort a mixed laundry load by fibre, color, and soil level; select correct steeping duration and temperature for each category; choose appropriate washing method (hand/machine) and detergent; execute rinsing and finishing steps (stiffening/bluing) with correct concentrations; and justify each decision based on.",
      "self_check": true
     }
    ]

@@ -34,6 +34,26 @@
      "q": "Design a thought experiment: You have the reaction CO(g) + H₂O(g) ⇌ CO₂(g) + H₂(g) with Kc = 1.0 at 1000 K. Propose THREE different sets of initial concentrations that would give Qc < Kc, Qc = Kc, and Qc > Kc respectively. For each set, state the predicted direction.",
      "a": "Good answer criteria: Three distinct sets showing understanding that Q depends on the ratio, not absolute values.\nExample:\nSet 1 (Qc < Kc): [CO]=1, [H₂O]=1, [CO₂]=0.1, [H₂]=0.1 → Qc=0.01 < 1 → forward\nSet 2 (Qc = Kc): [CO]=1, [H₂O]=1, [CO₂]=1, [H₂]=1 → Qc=1 = 1 → at equilibrium\nSet 3 (Qc > Kc): [CO]=0.1, [H₂O]=0.1, [CO₂]=1, [H₂]=1 → Qc=100 > 1 → reverse\nA poor answer uses only zero concentrations or doesn't vary all species, showing the student doesn't see Q as a continuous function of all concentrations.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The reaction quotient (Q) is the ratio of the product of molar ______ (or partial pressures) of products to reactants, each raised to their stoichiometric coefficients, calculated at any point during a reaction—not necessarily at equilibrium.",
+     "a": "concentrations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're watching a cricket match where the required run rate is 6 runs per over (this is your K—the \"______\" target).",
+     "a": "equilibrium",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're watching a cricket match where the required run rate is ______ runs per over (this is your K—the \"equilibrium\" target).",
+     "a": "6",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate Qc or Qp from given initial concentrations or pressures, compare it with Kc or Kp, and correctly predict the direction (forward, reverse, or at equilibrium) in which the reaction will proceed to reach equilibrium.",
+     "self_check": true
     }
    ]
   }

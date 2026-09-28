@@ -34,6 +34,26 @@
      "q": "Draw an L-shape and explain how you would calculate its area.",
      "a": "The student should describe splitting it into two rectangles, measuring the length and breadth of each, finding both areas, and adding them. A poor answer fails to mention the \"split\" strategy or tries to use a single formula for the whole irregular shape.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A composite shape is a complex figure formed by joining two or more basic shapes (like ______, squares, or triangles) together.",
+     "a": "rectangles",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a custom ______ fence that looks like an 'L' shape.",
+     "a": "garden",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to correctly decompose a complex polygon into simpler rectangles or triangles and perform the arithmetic to calculate the total area and perimeter.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a custom garden fence that looks like an 'L' shape.",
+     "a": "building",
+     "self_check": true
     }
    ]
   }

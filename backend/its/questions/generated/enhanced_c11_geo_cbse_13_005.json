@@ -34,6 +34,36 @@
      "q": "Design a hybrid system for a 50-household village in Barmer (slope 1.5%, sandy loam, 250 mm rain) that integrates a community Khadin for kharif fodder and household Tankas for drinking water. Sketch layout (verbal description) and list three governance rules needed.",
      "a": "Layout: Khadin bund at lowest contour (2 ha catchment → 1 ha cultivated), surplus spillway feeds recharge well; each house has 10,000 L Tanka connected to roof via first-flush diverter. Governance: (1) Village water committee allocates Khadin moisture to landless via sharecropping; (2) Tanka cleaning rotated before monsoon; (3) Ban on borewells within 500 m of Khadin to protect baseflow. Poor answer omits spillway-recharge link, ignores landless equity, or proposes top-down rules without community enforcement — missing the institutional design principle.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Khadins are earthen ______ built across sloping plains in the Thar Desert (Jaisalmer, Barmer) to capture monsoon runoff for seasonal agriculture, while Tankas are covered underground cisterns lined with lime plaster in Bikaner and Phalodi regions that store rooftop rainwater for year-round domestic use.",
+     "a": "embankments",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine standing in ______ in July: the ground cracks at 45°C, then a sudden 30 mm cloudburst turns dry channels into torrents.",
+     "a": "Jaisalmer",
+     "self_check": true
+    },
+    {
+     "q": "What is Khadins? State the definition given in this lesson.",
+     "a": "Khadins are earthen embankments built across sloping plains in the Thar Desert (Jaisalmer, Barmer) to capture monsoon runoff for seasonal agriculture, while Tankas are covered underground cisterns lined with lime plaster in Bikaner and Phalodi regions that store rooftop rainwater for year-round domestic use.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Both are community-managed, gravity-driven systems adapted to hyper-arid climates with <______ mm annual rainfall and high evaporation rates.",
+     "a": "200",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Khadins?",
+     "a": "Students think Khadins and Tankas are \"just old wells\" or \"small dams\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the hydro-geomorphic principle behind Khadin bund placement relative to slope gradient and soil permeability, calculate approximate storage volume of a Tanka given roof catchment area and rainfall, and evaluate why these systems remain sustainable where canal irrigation has failed.",
+     "self_check": true
     }
    ]
   }

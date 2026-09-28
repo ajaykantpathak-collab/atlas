@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_03_002",
+   "title": "c11_leg_cbse_03_002",
+   "questions": [
+    {
+     "q": "According to Wade and Phillips (1960), what are the three distinct meanings of the doctrine of Separation of Powers?",
+     "a": "The three meanings are: (i) The same persons should not form part of more than one of the three organs of government; (ii) One organ should not control or interfere with the exercise of its function by another organ; (iii) One organ should not exercise the functions of another organ. A wrong answer (e.g., listing Montesquieu's three reasons instead) reveals the student confuses the *theoretical justifications* (Montesquieu) with the *operational definitions* (Wade & Phillips) used to test constitutional compliance.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Indian Constitution is described as having a 'fusion of powers' between the Legislature and Executive, but a 'separation of powers' regarding the Judiciary. Cite specific Articles.",
+     "a": "India fuses Legislature and Executive because: (a) The Council of Ministers (Executive) is drawn from Parliament (Legislature) [Art. 75(1)]; (b) Ministers are collectively responsible to Lok Sabha [Art. 75(3)]; (c) President (Executive head) promulgates Ordinances with legislative force [Art. 123]. However, the Judiciary is separated: (a) Art. 50 directs the State to separate judiciary from executive in public services; (b) Judges' appointment involves collegium consultation [Art. 124(2), 217(1)]; (c) Salaries charged on Consolidated Fund, not voted by Parliament [Art. 125, 221]; (d) Conduct of judges cannot be discussed in Parliament except on impeachment [Art. 121, 211]. A wrong answer missing the *fusion* aspects reveals the student assumes India follows the US model of strict separation.",
+     "self_check": true
+    },
+    {
+     "q": "The President of India promulgates an Ordinance under Article 123 when Parliament is not in session. The Ordinance has the same force as an Act of Parliament but must be approved by Parliament within six weeks of reassembly. Does this violate the Separation of Powers doctrine? Justify your answer using the concept of 'checks and balances'.",
+     "a": "No, it does not violate the doctrine; it exemplifies **checks and balances**. The Executive (President/Cabinet) exercises *legislative power* (making law via Ordinance) only under strict *legislative control*: (1) It is temporary—expires if not approved within 6 weeks of Parliament reassembling; (2) Parliament can reject, modify, or replace it; (3) It cannot amend the Constitution. This is a *controlled overlap* designed for emergency governance, not an unchecked usurpation. A wrong answer claiming \"violation\" shows the student equates Separation of Powers with *absolute compartmentalization* (Montesquieu's strict theory), ignoring the Indian constitutional design of *functional overlap with accountability*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the mechanism of 'Checks and Balances' in the USA and India regarding the power to appoint judges. How does the Indian system differ from the US 'Advice and Consent' model?",
+     "a": "USA: President (Executive) nominates; Senate (Legislature) confirms by majority vote—clear *inter-branch check*. India: President (Executive) appoints *after consultation* with CJI and senior judges (Judiciary)—the **Collegium System** (established via *Supreme Court Advocates-on-Record Association v. Union of India*, 1993, and *In Re Presidential Reference*, 1999) gives the *Judiciary primacy* in appointments. The Executive's role is largely formal; the Legislature has *no direct role* (unlike US Senate). This makes the Indian judiciary *more insulated* from political branches but raises accountability concerns. A wrong answer stating \"Parliament approves judges\" or \"President appoints on Cabinet advice alone\" reveals confusion between the *original constitutional text* (Art. 124) and the *judicially evolved convention* (Collegium).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Basic Structure doctrine (Kesavananda Bharati, 1973) is the ultimate judicial check on legislative power, making the Indian Judiciary the most powerful organ of the state.\" Support your evaluation with two arguments for and two against.",
+     "a": "**For:** (1) Judiciary can strike down *constitutional amendments* (constituent power of Parliament under Art. 368) if they violate Basic Structure (supremacy of Constitution, judicial review, separation of powers, federalism, etc.)—no other organ can review this. (2) Judiciary interprets what constitutes 'Basic Structure' (an open-ended list), giving it *final say* on constitutional identity. **Against:** (1) Judiciary has *no enforcement arm*—it relies on the Executive to implement orders (e.g., court orders on police reform, environment); non-compliance renders judgments ineffective. (2) Parliament retains *constituent power* for non-basic structure amendments; Executive controls *appointments* (via President on Collegium recommendation), *budget*, and *contempt powers* (Art. 129, 215). A one-sided answer (\"Yes, judiciary is supreme\" or \"No, Parliament is supreme\") reveals failure to grasp *institutional interdependence*—power is *diffused*, not *concentrated*.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario where a State Government passes a law removing the High Court's power to hear writ petitions under Article 226 for service matters of state government employees, assigning this to a new Administrative Tribunal appointed *solely* by the State Executive. Identify which Separation of Powers principle (per Wade & Phillips) this violates and explain why.",
+     "a": "**Scenario:** State enacts \"State Service Tribunals Act, 2025\" stripping High Court's Art. 226 jurisdiction over service matters; Tribunal members are bureaucrats appointed by Chief Minister without judicial consultation. **Violated Principle:** Wade & Phillips Meaning (ii): *\"One organ of the government should not control or interfere with the exercise of its function by another organ.\"* **Why:** (1) The Legislature (State Assembly) *interferes* with the Judiciary's (High Court) *constitutional function* (Art. 226 is part of Basic Structure—*L. Chandra Kumar v. Union of India*, 1997). (2) The Executive (State Govt) *controls* the adjudicatory body (Tribunal) by appointing its members, violating *judicial independence* (Art. 50, 217). A poor answer citing only \"violation of Art. 226\" without linking to Wade & Phillips' *functional test* shows the student memorizes Articles but cannot *apply the doctrinal framework* to new institutional designs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

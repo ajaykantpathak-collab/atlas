@@ -34,6 +34,16 @@
      "q": "Create a real-life problem (using Indian context: rupees, metres, etc.) that requires using \\((a+b)^2\\) or \\((a-b)^2\\) to solve. Write the problem statement and show the solution.",
      "a": "Example: A square garden has side \\((x+4)\\) metres. Find its area. If \\(x=6\\) m, calculate the area using the identity. Solution: Area = \\((x+4)^2 = x^2 + 8x + 16\\). For \\(x=6\\): \\(36 + 48 + 16 = 100\\) m². A good answer shows a plausible scenario, correctly sets up the binomial square, expands it, and substitutes. A poor answer uses a non-square context (e.g., rectangle) or makes arithmetic errors in substitution.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: They express the square of a binomial as a trinomial where the middle term is twice the product of the two terms, with a positive sign for the sum and a negative sign for the ______.",
+     "a": "difference",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How would you calculate this quickly without ______ term-by-term every time?",
+     "a": "multiplying",
+     "self_check": true
     }
    ]
   }

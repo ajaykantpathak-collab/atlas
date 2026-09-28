@@ -34,6 +34,26 @@
      "q": "Design a way to add a \"switch\" using a simple paperclip and two thumbtacks to control the bulb.",
      "a": "The paperclip should be attached to one thumbtack so it can pivot and touch the second thumbtack, closing the gap in the wire. A poor answer fails to realize that the switch must be placed in the *path* of the wire to control the flow.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A simple ______ circuit is a complete, continuous path of conducting material that allows electric current to flow from a power source through a device and back again.",
+     "a": "electrical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever wondered how the light bulb in your room turns on the moment you flip a ______?",
+     "a": "switch",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to assemble a circuit that successfully lights a bulb and explain why the bulb stops glowing if a wire is disconnected or the path is broken.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever ______ how the light bulb in your room turns on the moment you flip a switch?",
+     "a": "wondered",
+     "self_check": true
     }
    ]
   }

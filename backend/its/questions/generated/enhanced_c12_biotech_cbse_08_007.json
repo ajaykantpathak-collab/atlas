@@ -34,6 +34,36 @@
      "q": "Design a passaging workflow for a newly established primary mouse embryonic fibroblast (MEF) culture that will be used for a CRISPR screen requiring 5 × 10⁷ cells. Include flask sizes, split ratios, timeline, and a strategy to minimize genetic drift.",
      "a": "MEFs are finite, adherent, and senesce by passage 5–6. Workflow: P1 (primary) in T-175 → at 80% confluency (~2 × 10⁷ cells), passage 1:3 into three T-175 (P2). P2: expand to nine T-175 (1:3) → ~1.8 × 10⁸ cells at P3. Harvest P3 for screen (use low passage). Minimize drift: use early passages only (≤P3), freeze master stock at P2, avoid high split ratios (>1:4) that select for faster-growing variants, maintain consistent seeding density (3 × 10⁴ cells/cm²). A poor answer uses high splits (1:10), ignores senescence, or doesn't freeze a master stock — showing lack of integration between finite lifespan, genetic stability, and experimental planning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ (or passaging) is the process of detaching adherent cells from their growth surface using enzymatic (e.g., trypsin-EDTA) or mechanical methods, then transferring a defined fraction of the cell suspension into fresh culture vessels with new medium to relieve overcrowding, replenish nutrients, and maintain cells in the logarithmic growth phase.",
+     "a": "Subculturing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: On Monday they are 30% confluent; by Wednesday they form a solid sheet covering 100% of the plastic — they have hit contact ______.",
+     "a": "inhibition",
+     "self_check": true
+    },
+    {
+     "q": "What is Subculturing (or passaging)? State the definition given in this lesson.",
+     "a": "Subculturing (or passaging) is the process of detaching adherent cells from their growth surface using enzymatic (e.g., trypsin-EDTA) or mechanical methods, then transferring a defined fraction of the cell suspension into fresh culture vessels with new medium to relieve overcrowding, replenish nutrients, and maintain cells in the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are culturing HeLa cells in a T-______ flask.",
+     "a": "75",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Subculturing (or passaging)?",
+     "a": "Students think \"passage number\" equals \"population doubling number\" and write them interchangeably in exams.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) describe the step-by-step protocol for passaging an adherent cell line including reagent volumes, incubation times, and centrifugation parameters, and (2) calculate the correct split ratio and seeding density for a given flask size to achieve a target confluency at the next passage.",
+     "self_check": true
     }
    ]
   }

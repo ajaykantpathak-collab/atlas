@@ -1,0 +1,71 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_02_001",
+   "title": "c12_soc_cbse_02_001",
+   "questions": [
+    {
+     "q": "Define demography and explain the meaning of its Greek roots *demos* and *graphein*.",
+     "a": "Demography is the systematic study of population. *Demos* means \"people\" and *graphein* means \"describe\", so demography literally means \"description of people\". A wrong answer that only says \"study of population\" without the etymology reveals the student has memorised the definition but not understood the term's origin, which is a common board-exam short-answer requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Distinguish between formal demography and social demography. Give one example of a research question each would address.",
+     "a": "Formal demography is primarily quantitative, focusing on measurement and analysis of population change components (birth, death, migration) using mathematical methodology for forecasting. Example: \"What will be India's population in 2030 based on current fertility and mortality trends?\" Social demography enquires into the wider social, economic, and political causes and consequences of population structures and change. Example: \"Why do women in Kerala have lower fertility than women in Bihar despite similar economic development?\" A student who swaps the examples or says both are \"just about numbers\" confuses the *scope* of the two branches — a frequent error in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher collects data on age-specific fertility rates for five Indian states over 20 years and uses a mathematical model to project future population size. Is this formal demography or social demography? Justify your answer in two sentences.",
+     "a": "This is formal demography because it involves quantitative measurement and forecasting of population change components (fertility rates) using mathematical methodology, without investigating the social reasons behind the fertility differences. A wrong answer that calls it social demography because \"it uses data from society\" shows the student cannot differentiate the *methodological focus* (quantitative forecasting vs. social explanation) — a key distinction in competitive exams like CUET.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the emergence of the modern nation-state in Europe create a demand for systematic social statistics? Connect this to the historical origin of the census.",
+     "a": "The modern state expanded its functions (public health, policing, taxation, urban governance) and needed regular, systematic quantitative data on population and economy to plan and implement policies. The first modern census (USA, 1790) provided this data; India's decennial census began in 1881 under British rule. A student who only says \"to count people\" misses the *causal link* between state expansion and statistical innovation — a point NCERT explicitly makes and board exams test in \"explain\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Demography is only useful for government planning; sociology does not need it.\" Use Durkheim's suicide study as evidence.",
+     "a": "The statement is false. Demography provided sociology with its first strong empirical justification: aggregate statistics (like suicide rates) are *social facts* that exist at the collective level and must be explained by social causes, not individual ones. Durkheim showed that suicide rates vary systematically across countries and social groups, proving that society shapes even the most personal act. A student who agrees with the statement or cannot explain \"social facts\" reveals a fundamental misunderstanding of why sociology *owes its establishment* to demography — a core NCERT argument.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-sentence research question that *only* social demography could answer, and explain why formal demography cannot address it.",
+     "a": "Example question: \"How does patriarchal kinship structure influence son preference and subsequent sex-selective abortion in Haryana?\" Formal demography cannot answer this because it only measures the *outcome* (child sex ratio) quantitatively; it lacks the conceptual tools to analyse *social norms, power relations, and cultural meanings* that drive the behaviour. A poor answer that gives a forecasting question (\"What will the sex ratio be in 2030?\") shows the student still conflates the two branches.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Demography is the systematic, scientific study of human populations, focusing on their size, structure, ______, and changes over time through the analysis of births, deaths, migration, and their social, economic, and political determinants and consequences.",
+     "a": "distribution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a policy analyst asked to design a healthcare program for a ______.",
+     "a": "district",
+     "self_check": true
+    },
+    {
+     "q": "What is Demography? State the definition given in this lesson.",
+     "a": "Demography is the systematic, scientific study of human populations, focusing on their size, structure, distribution, and changes over time through the analysis of births, deaths, migration, and their social, economic, and political determinants and consequences.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You have the total population count, but you need to know how many children under ______, how many elderly, and why fertility is high in some villages but low in others.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Demography?",
+     "a": "Students often think \"demography = census\" and that the census is just a headcount.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) distinguish between formal demography and social demography with appropriate examples, and (2) explain why demographic data (like census) are essential for both sociological theory and state policy, using the concept of social facts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

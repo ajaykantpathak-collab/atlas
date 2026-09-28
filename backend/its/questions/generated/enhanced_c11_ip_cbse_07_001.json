@@ -34,6 +34,26 @@
      "q": "Design a minimal relational schema for a \"School Canteen\" system that tracks Items (name, price, category), Students (admission no, name, class), and Purchases (date, student, item, quantity). Specify primary keys, foreign keys, and one composite key. Explain why the Purchases table needs a composite key.",
      "a": "Schema: Item(ItemCode PK, Name, Price, Category), Student(AdmNo PK, Name, Class), Purchase(AdmNo FK, ItemCode FK, PurchaseDate, Quantity, PK = {AdmNo, ItemCode, PurchaseDate}). Composite key needed because a student can buy the same item multiple times on the same day (e.g., two samosas at recess and lunch)—no single attribute uniquely identifies a purchase row. A poor answer (using only AdmNo+ItemCode as PK) fails to handle multiple purchases per day, violating tuple uniqueness.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Database Management System (DBMS) is a software system that enables users to define, create, maintain, and control access to a database—a logically organized collection of ______ data stored with minimal redundancy to serve multiple applications.",
+     "a": "interrelated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school library still uses paper registers: one register for book details, ______ for student details, and a third for issue/return records.",
+     "a": "another",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) distinguish between file system and DBMS by identifying at least three specific limitations of file systems with concrete examples, and (2) given a real-world scenario, design a basic relational schema identifying entities, attributes, primary keys, and foreign keys while justifying the choice of keys to.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school library still uses paper ______: one register for book details, another for student details, and a third for issue/return records.",
+     "a": "registers",
+     "self_check": true
     }
    ]
   }

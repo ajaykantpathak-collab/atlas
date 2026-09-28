@@ -34,6 +34,31 @@
      "q": "Design a dichotomous key using only taxonomic category names (Kingdom, Phylum, Class, Order, Family, Genus, Species) to distinguish between *Homo sapiens* (human), *Musca domestica* (housefly), *Mangifera indica* (mango), and *Triticum aestivum* (wheat). Show the decision pathway for each organism.",
      "a": "A valid key:\n1. Kingdom Animalia vs Plantae → separates animals (human, housefly) from plants (mango, wheat)\n2. For Animalia: Phylum Chordata vs Arthropoda → separates human (Chordata) from housefly (Arthropoda)\n3. For Plantae: Division Angiospermae (both) → Class Dicotyledonae vs Monocotyledonae → separates mango (Dicot) from wheat (Monocot)\n4. Further ranks refine within each group. A poor answer (e.g., using 'has wings' or 'is edible') reveals the student cannot abstract the hierarchy as a decision framework and relies on phenotypic traits instead of taxonomic rank logic — indicating they memorise tables but cannot operationalise classification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Taxonomic hierarchy is the systematic arrangement of organisms into a ranked series of categories (taxa) from the broadest (Kingdom) to the most specific (Species), where each successive rank represents a group sharing progressively more morphological, anatomical, physiological, and genetic ______, and the number of shared characters decreases as one ascends the hierarchy.",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you find an unfamiliar ______ plant in the Western Ghats — it has opposite leaves, square stem, and bilabiate flowers.",
+     "a": "flowering",
+     "self_check": true
+    },
+    {
+     "q": "What is Taxonomic hierarchy? State the definition given in this lesson.",
+     "a": "Taxonomic hierarchy is the systematic arrangement of organisms into a ranked series of categories (taxa) from the broadest (Kingdom) to the most specific (Species), where each successive rank represents a group sharing progressively more morphological, anatomical, physiological, and genetic characteristics, and the number of shared.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Taxonomic hierarchy?",
+     "a": "Students believe that 'Species' is defined solely by morphological similarity and that members of a species cannot interbreed with other species.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly place any given organism into all seven obligate taxonomic categories (Kingdom, Phylum/Division, Class, Order, Family, Genus, Species) using a taxonomic key, justify the placement at each level with at least two distinguishing characters, and explain why intermediate categories (subphylum, superclass, etc.) are.",
+     "self_check": true
     }
    ]
   }

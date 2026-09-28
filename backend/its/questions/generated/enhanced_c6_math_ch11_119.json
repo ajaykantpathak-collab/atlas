@@ -34,6 +34,26 @@
      "q": "Create a step-by-step plan to construct a triangle with a side of 8 cm and two angles of 40° and 50° at its ends.\nA) Expect steps involving drawing the 8 cm base, using a protractor at both ends, and labeling the intersection.",
      "a": "The plan should start with drawing the 8 cm base, followed by placing the protractor at one endpoint for 40° and the other for 50°, then drawing the rays. A poor answer lacks the order of operations or the correct use of the \"included\" side.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ triangles using ASA (Angle-Side-Angle) and RHS (Right-angle-Hypotenuse-Side) criteria allows us to draw a unique triangle by precisely replicating two angles and the included side, or a right angle, the hypotenuse, and one other side.",
+     "a": "Constructing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a carpenter building a ______ frame and you know exactly how long one side is and what angles it should make with the other two sides; how do you start?",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For an RHS triangle, draw the known leg first, use a square or protractor to build a ______-degree angle at one end, and then use your compass set to the length of the hypotenuse to mark the distance from the other end of the base to the vertical line.",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can accurately construct a triangle given specific measures of angles and sides using a ruler, protractor, and compass, and can correctly identify which criteria (ASA or RHS) is required for a given set of measurements.",
+     "self_check": true
     }
    ]
   }

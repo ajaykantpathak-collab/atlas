@@ -34,6 +34,31 @@
      "q": "Design a low-cost diagnostic test a farmer can perform weekly to detect early souring of the digester before gas production drops. Specify the parameter measured, the tool, the threshold, and the corrective action.",
      "a": "Measure slurry pH using a portable pH pen (or litmus paper calibrated for 5.5–8.0). Threshold: pH < 6.5 triggers action. Corrective: stop feeding for 2–3 days, add 10–15 kg lime (CaO) or wood ash to raise pH, then resume at half feed rate. A poor answer suggesting \"check gas flame color\" detects failure too late; board competency questions reward proactive monitoring with quantitative thresholds.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Gobar gas production is the anaerobic digestion of cattle dung (gobar) by a consortium of ______ — primarily hydrolytic bacteria, acidogenic bacteria, acetogenic bacteria, and methanogenic archaea — in a sealed digester, yielding biogas (50–70% methane, 30–50% CO₂, traces of H₂S, N₂, H₂) and a nutrient-rich slurry used as organic fertilizer.",
+     "a": "microorganisms",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Walk into any rural ______ household with a gobar gas plant: you see a buried brick dome fed daily with a slurry of fresh dung and water, and a gas pipe leading to a kitchen stove burning a clean blue flame.",
+     "a": "Indian",
+     "self_check": true
+    },
+    {
+     "q": "What is Gobar gas production? State the definition given in this lesson.",
+     "a": "Gobar gas production is the anaerobic digestion of cattle dung (gobar) by a consortium of microorganisms — primarily hydrolytic bacteria, acidogenic bacteria, acetogenic bacteria, and methanogenic archaea — in a sealed digester, yielding biogas (50–70% methane, 30–50% CO₂, traces of H₂S, N₂, H₂) and a nutrient-rich slurry used as organic.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Gobar gas production?",
+     "a": "Students think \"gobar gas is produced by bacteria\" and write *Methanobacterium* as a bacterium.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) list the four sequential stages of anaerobic digestion with the key microbial groups and their metabolic products at each stage, (2) explain why methanogens are strict anaerobes and how the digester design maintains anaerobiosis, and (3) calculate the theoretical methane yield from a given mass of cattle dung using.",
+     "self_check": true
     }
    ]
   }

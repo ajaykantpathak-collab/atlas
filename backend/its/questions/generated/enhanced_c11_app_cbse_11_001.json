@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_11_001",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_11_001",
+   "title": "c11_app_cbse_11_001",
+   "questions": [
+    {
+     "q": "What is the formula for the Annual Equivalent Rate (AER) when a nominal interest rate r% per annum is compounded m times per year?",
+     "a": "The formula is AER = (1 + r/(100m))^m - 1, expressed as a decimal, or multiplied by 100 for percentage. A wrong answer like AER = r/m or AER = r reveals the student confuses the periodic rate with the effective annual rate, or thinks compounding doesn't change the effective yield — a fundamental misunderstanding of interest-on-interest.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the effective annual rate is always greater than the nominal rate when compounding occurs more than once a year.",
+     "a": "Because interest is added to the principal within the year, subsequent interest calculations are based on a larger amount (principal + accrued interest), so interest earns interest. A wrong answer that says \"the rate is divided by m so it's smaller\" shows the student focuses only on the periodic rate and misses the compounding effect over m periods.",
+     "self_check": true
+    },
+    {
+     "q": "A bank offers 8% per annum compounded quarterly. Calculate the effective annual rate. If you deposit ₹50,000, what will be the amount after 1 year?",
+     "a": "Quarterly rate = 8%/4 = 2% per quarter. AER = (1 + 0.02)^4 - 1 = 1.08243216 - 1 = 0.08243216 = 8.2432%. Amount = 50000 × (1.02)^4 = 50000 × 1.08243216 = ₹54,121.61. A wrong answer using simple interest (₹54,000) or AER = 8% shows failure to apply the compounding formula correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the future value of ₹1,00,000 invested for 3 years at 10% per annum under: (a) simple interest, (b) compound interest annually, (c) compound interest half-yearly. Which option gives the highest return and why?",
+     "a": "(a) SI: A = 100000(1 + 0.10×3) = ₹1,30,000. (b) CI annual: A = 100000(1.10)^3 = ₹1,33,100. (c) CI half-yearly: rate = 5% per half-year, n = 6 periods; A = 100000(1.05)^6 = ₹1,34,009.56. Option (c) is highest because more frequent compounding means interest earns interest sooner and more often. A wrong ranking (e.g., (b) > (c)) reveals misunderstanding of compounding frequency impact.",
+     "self_check": true
+    },
+    {
+     "q": "A project requires an initial investment of ₹2,00,000 and generates cash inflows of ₹80,000 at the end of each year for 3 years. If the discount rate is 10% per annum, calculate the NPV. Should the project be accepted? Justify.",
+     "a": "PV of inflows = 80000/1.10 + 80000/(1.10)^2 + 80000/(1.10)^3 = 72727.27 + 66115.70 + 60105.18 = ₹1,98,948.15. NPV = 1,98,948.15 - 2,00,000 = -₹1,051.85. Since NPV < 0, the project should be rejected — it destroys value. A wrong answer accepting the project because \"total inflows ₹2,40,000 > ₹2,00,000\" ignores time value of money.",
+     "self_check": true
+    },
+    {
+     "q": "Design a monthly savings plan (annuity) for a student who wants to accumulate ₹5,00,000 in 5 years for higher education. The bank offers 6% per annum compounded monthly. Calculate the required monthly deposit. Then create a scenario where the interest rate changes after 2 years — how would you adjust the plan?",
+     "a": "Monthly rate = 0.5%, n = 60 months. FV = A × [(1.005)^60 - 1]/0.005 = A × 69.77. So A = 500000/69.77 ≈ ₹7,166.40/month. If rate changes after 2 years (24 months), compute FV of first 24 deposits at old rate, then treat that as PV for remaining 36 months at new rate, solve for new deposit. A poor answer that ignores the rate change or uses simple addition shows inability to handle dynamic financial modeling.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

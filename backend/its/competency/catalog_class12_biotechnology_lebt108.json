@@ -85,7 +85,16 @@
      "q": "Animal cell cultures incubate at what temperature: 37 degrees Celsius or 90?",
      "a": "37"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "colour_span = alkaline_ph - acidic_ph",
+     "compute": "colour_span = alkaline_ph - acidic_ph"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebt108.3",
@@ -209,7 +218,16 @@
      "q": "Cryopreservation stocks sleep in liquid nitrogen at about what temperature: minus 196 degrees Celsius or plus 196?",
      "a": "minus 196"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "dmso_volume = freeze_volume * dmso_pct / 100",
+     "compute": "dmso_volume = freeze_volume * dmso_pct / 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebt108.6",
@@ -288,7 +306,16 @@
      "q": "Animal cells divide once every how many hours: eighteen to twenty-four, or two?",
      "a": "eighteen to twenty-four"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "cells_after = starter_cells * 2 ** divisions",
+     "compute": "cells_after = starter_cells * 2 ** divisions"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebt108.8",

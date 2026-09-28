@@ -34,6 +34,26 @@
      "q": "Construct a real-world scenario involving a large municipal budget in crores where rounding to the nearest crore gives a misleading impression compared to rounding to the nearest lakh.",
      "a": "An example is a municipal budget of 1,48,50,000 rupees. Rounded to the nearest crore, it becomes 1,00,00,000 rupees (underestimating by nearly 49 lakhs!), whereas rounded to the nearest lakh, it is 1,49,00,000 rupees, which captures the true scale accurately. A poor answer gives a trivial example where rounding makes no significant difference or fails to show the mathematical impact of scale.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Estimation and ______ of large numbers involves replacing an exact large number with a nearby, simpler, and more manageable value (such as the nearest ten, hundred, thousand, lakh, or crore) to make calculations easier and mental visualization practical while preserving general accuracy.",
+     "a": "approximation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school library is organizing a massive book donation drive across three districts, collecting a total of 4,58,920 books, and you need to announce a quick, easy-to-remember ______ during the morning assembly without reading out the exact 6-digit number.",
+     "a": "estimate",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can round any 6-, 7-, or 8-digit number to a specified place value (nearest thousand, ten-thousand, lakh, or crore) and estimate the results of arithmetic operations (addition, subtraction, multiplication) involving large numbers with logical justification.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school library is ______ a massive book donation drive across three districts, collecting a total of 4,58,920 books, and you need to announce a quick, easy-to-remember estimate during the morning assembly without reading out the exact 6-digit number.",
+     "a": "organizing",
+     "self_check": true
     }
    ]
   }

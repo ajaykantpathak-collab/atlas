@@ -1,0 +1,588 @@
+{
+ "catalog": "catalog_class11_physics_ch101.json",
+ "concepts": [
+  {
+   "id": "keph.101.1",
+   "title": "Plane Angle",
+   "converted_to_compute": true,
+   "formula": "theta = arc_length / radius",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "theta = arc_length / radius",
+     "compute": "theta = arc_length / radius"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keph.101.1",
+     "question_pattern": "calculate the plane angle subtended by an arc of length {arc_length} and radius {radius}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Plane Angle: given arc_length = 443, radius = 25, find theta.",
+     "a": "17.72",
+     "self_check": false
+    },
+    {
+     "q": "calculate the plane angle subtended by an arc of length 443 and radius 25?",
+     "a": "17.72",
+     "self_check": false
+    },
+    {
+     "q": "For Plane Angle: given arc_length = 11.1, radius = 49, find theta.",
+     "a": "0.226531",
+     "self_check": false
+    },
+    {
+     "q": "calculate the plane angle subtended by an arc of length 11.1 and radius 49?",
+     "a": "0.226531",
+     "self_check": false
+    },
+    {
+     "q": "For Plane Angle: given arc_length = 159, radius = 45, find theta.",
+     "a": "3.53333",
+     "self_check": false
+    },
+    {
+     "q": "calculate the plane angle subtended by an arc of length 159 and radius 45?",
+     "a": "3.53333",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.101.2",
+   "title": "Solid Angle",
+   "converted_to_compute": true,
+   "formula": "omega = area / (radius ** 2)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "omega = area / (radius ** 2)",
+     "compute": "omega = area / (radius ** 2)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keph.101.2",
+     "question_pattern": "calculate the solid angle subtended by an area of {area} at a distance of {radius}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Solid Angle: given area = 73, radius = 17.9, find omega.",
+     "a": "0.227833",
+     "self_check": false
+    },
+    {
+     "q": "calculate the solid angle subtended by an area of 73 at a distance of 17.9?",
+     "a": "0.227833",
+     "self_check": false
+    },
+    {
+     "q": "For Solid Angle: given area = 61, radius = 6.8, find omega.",
+     "a": "1.3192",
+     "self_check": false
+    },
+    {
+     "q": "calculate the solid angle subtended by an area of 61 at a distance of 6.8?",
+     "a": "1.3192",
+     "self_check": false
+    },
+    {
+     "q": "For Solid Angle: given area = 54, radius = 27, find omega.",
+     "a": "0.0740741",
+     "self_check": false
+    },
+    {
+     "q": "calculate the solid angle subtended by an area of 54 at a distance of 27?",
+     "a": "0.0740741",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.101.3",
+   "title": "Density Calculation with Significant Figures",
+   "converted_to_compute": true,
+   "formula": "density = mass / volume",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "density = mass / volume",
+     "compute": "density = mass / volume"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keph.101.3",
+     "question_pattern": "calculate the density of a substance of mass {mass} and volume {volume}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Density Calculation with Significant Figures: given mass = 106, volume = 91, find density.",
+     "a": "1.16484",
+     "self_check": false
+    },
+    {
+     "q": "calculate the density of a substance of mass 106 and volume 91?",
+     "a": "1.16484",
+     "self_check": false
+    },
+    {
+     "q": "For Density Calculation with Significant Figures: given mass = 32, volume = 70, find density.",
+     "a": "0.457143",
+     "self_check": false
+    },
+    {
+     "q": "calculate the density of a substance of mass 32 and volume 70?",
+     "a": "0.457143",
+     "self_check": false
+    },
+    {
+     "q": "For Density Calculation with Significant Figures: given mass = 11, volume = 23, find density.",
+     "a": "0.478261",
+     "self_check": false
+    },
+    {
+     "q": "calculate the density of a substance of mass 11 and volume 23?",
+     "a": "0.478261",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.101.4",
+   "title": "Volume of a Cube",
+   "converted_to_compute": true,
+   "formula": "volume = side ** 3",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "volume = side ** 3",
+     "compute": "volume = side ** 3"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keph.101.4",
+     "question_pattern": "calculate the volume of a cube of side {side}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Volume of a Cube: given side = 167, find volume.",
+     "a": "4657463",
+     "self_check": false
+    },
+    {
+     "q": "calculate the volume of a cube of side 167?",
+     "a": "4657463",
+     "self_check": false
+    },
+    {
+     "q": "For Volume of a Cube: given side = 315, find volume.",
+     "a": "31255875",
+     "self_check": false
+    },
+    {
+     "q": "calculate the volume of a cube of side 315?",
+     "a": "31255875",
+     "self_check": false
+    },
+    {
+     "q": "For Volume of a Cube: given side = 395, find volume.",
+     "a": "61629875",
+     "self_check": false
+    },
+    {
+     "q": "calculate the volume of a cube of side 395?",
+     "a": "61629875",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.101.5",
+   "title": "Surface Area of a Cube",
+   "converted_to_compute": true,
+   "formula": "surface_area = 6 * (side ** 2)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "surface_area = 6 * (side ** 2)",
+     "compute": "surface_area = 6 * (side ** 2)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keph.101.5",
+     "question_pattern": "calculate the surface area of a cube of side {side}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Surface Area of a Cube: given side = 430, find surface area.",
+     "a": "1109400",
+     "self_check": false
+    },
+    {
+     "q": "calculate the surface area of a cube of side 430?",
+     "a": "1109400",
+     "self_check": false
+    },
+    {
+     "q": "For Surface Area of a Cube: given side = 120, find surface area.",
+     "a": "86400",
+     "self_check": false
+    },
+    {
+     "q": "calculate the surface area of a cube of side 120?",
+     "a": "86400",
+     "self_check": false
+    },
+    {
+     "q": "For Surface Area of a Cube: given side = 292, find surface area.",
+     "a": "511584",
+     "self_check": false
+    },
+    {
+     "q": "calculate the surface area of a cube of side 292?",
+     "a": "511584",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.101.6",
+   "title": "Time Period of a Simple Pendulum",
+   "converted_to_compute": true,
+   "formula": "T = k * sqrt(length / g)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "T = k * sqrt(length / g)",
+     "compute": "T = k * sqrt(length / g)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keph.101.6",
+     "question_pattern": "derive the time period of a simple pendulum of length {k} and acceleration due to gravity {length}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Time Period of a Simple Pendulum: given k = 62, length = 8.6, find T.",
+     "a": "58.0802",
+     "self_check": false
+    },
+    {
+     "q": "derive the time period of a simple pendulum of length 62 and acceleration due to gravity 8.6?",
+     "a": "58.0802",
+     "self_check": false
+    },
+    {
+     "q": "For Time Period of a Simple Pendulum: given k = 13.8, length = 485, find T.",
+     "a": "97.0816",
+     "self_check": false
+    },
+    {
+     "q": "derive the time period of a simple pendulum of length 13.8 and acceleration due to gravity 485?",
+     "a": "97.0816",
+     "self_check": false
+    },
+    {
+     "q": "For Time Period of a Simple Pendulum: given k = 79, length = 219, find T.",
+     "a": "373.453",
+     "self_check": false
+    },
+    {
+     "q": "derive the time period of a simple pendulum of length 79 and acceleration due to gravity 219?",
+     "a": "373.453",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.101.8",
+   "title": "Linear Magnification from Area Magnification",
+   "converted_to_compute": true,
+   "formula": "linear_magnification = sqrt(area_screen / area_slide)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "linear_magnification = sqrt(area_screen / area_slide)",
+     "compute": "linear_magnification = sqrt(area_screen / area_slide)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keph.101.8",
+     "question_pattern": "find the linear magnification given slide area {area_screen} and screen area {area_slide}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Linear Magnification from Area Magnification: given area_screen = 68, area_slide = 78, find linear magnification.",
+     "a": "0.9337",
+     "self_check": false
+    },
+    {
+     "q": "find the linear magnification given slide area 68 and screen area 78?",
+     "a": "0.9337",
+     "self_check": false
+    },
+    {
+     "q": "For Linear Magnification from Area Magnification: given area_screen = 70, area_slide = 61, find linear magnification.",
+     "a": "1.07123",
+     "self_check": false
+    },
+    {
+     "q": "find the linear magnification given slide area 70 and screen area 61?",
+     "a": "1.07123",
+     "self_check": false
+    },
+    {
+     "q": "For Linear Magnification from Area Magnification: given area_screen = 59, area_slide = 24, find linear magnification.",
+     "a": "1.56791",
+     "self_check": false
+    },
+    {
+     "q": "find the linear magnification given slide area 59 and screen area 24?",
+     "a": "1.56791",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.101.9",
+   "title": "Volume of a Cube with Unit Conversion",
+   "converted_to_compute": true,
+   "formula": "volume_m_3 = (side_cm / 100) ** 3",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "volume_m_3 = (side_cm / 100) ** 3",
+     "compute": "volume_m_3 = (side_cm / 100) ** 3"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keph.101.9",
+     "question_pattern": "find the volume of a cube of side {side_cm} cm in m3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Volume of a Cube with Unit Conversion: given side_cm = 409, find volume m 3.",
+     "a": "68.4179",
+     "self_check": false
+    },
+    {
+     "q": "find the volume of a cube of side 409 cm in m3?",
+     "a": "68.4179",
+     "self_check": false
+    },
+    {
+     "q": "For Volume of a Cube with Unit Conversion: given side_cm = 364, find volume m 3.",
+     "a": "48.2285",
+     "self_check": false
+    },
+    {
+     "q": "find the volume of a cube of side 364 cm in m3?",
+     "a": "48.2285",
+     "self_check": false
+    },
+    {
+     "q": "For Volume of a Cube with Unit Conversion: given side_cm = 52, find volume m 3.",
+     "a": "0.140608",
+     "self_check": false
+    },
+    {
+     "q": "find the volume of a cube of side 52 cm in m3?",
+     "a": "0.140608",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.101.10",
+   "title": "Surface Area of a Cylinder",
+   "converted_to_compute": true,
+   "formula": "area = 2 * pi * radius * (radius + height)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "area = 2 * pi * radius * (radius + height)",
+     "compute": "area = 2 * pi * radius * (radius + height)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keph.101.10",
+     "question_pattern": "calculate the surface area of a cylinder of radius {radius} and height {height}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Surface Area of a Cylinder: given radius = 49, height = 104, find area.",
+     "a": "47105",
+     "self_check": false
+    },
+    {
+     "q": "calculate the surface area of a cylinder of radius 49 and height 104?",
+     "a": "47105",
+     "self_check": false
+    },
+    {
+     "q": "For Surface Area of a Cylinder: given radius = 2.9, height = 11.2, find area.",
+     "a": "256.919",
+     "self_check": false
+    },
+    {
+     "q": "calculate the surface area of a cylinder of radius 2.9 and height 11.2?",
+     "a": "256.919",
+     "self_check": false
+    },
+    {
+     "q": "For Surface Area of a Cylinder: given radius = 40, height = 478, find area.",
+     "a": "130188",
+     "self_check": false
+    },
+    {
+     "q": "calculate the surface area of a cylinder of radius 40 and height 478?",
+     "a": "130188",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.101.11",
+   "title": "Speed Conversion from km/h to m/s",
+   "converted_to_compute": true,
+   "formula": "speed_ms = speed_kmh * 1000 / 3600",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "speed_ms = speed_kmh * 1000 / 3600",
+     "compute": "speed_ms = speed_kmh * 1000 / 3600"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keph.101.11",
+     "question_pattern": "convert a speed of {speed_kmh} km h-1 to m s-1"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Speed Conversion from km/h to m/s: given speed_kmh = 110, find speed ms.",
+     "a": "30.5556",
+     "self_check": false
+    },
+    {
+     "q": "convert a speed of 110 km h-1 to m s-1?",
+     "a": "30.5556",
+     "self_check": false
+    },
+    {
+     "q": "For Speed Conversion from km/h to m/s: given speed_kmh = 93, find speed ms.",
+     "a": "25.8333",
+     "self_check": false
+    },
+    {
+     "q": "convert a speed of 93 km h-1 to m s-1?",
+     "a": "25.8333",
+     "self_check": false
+    },
+    {
+     "q": "For Speed Conversion from km/h to m/s: given speed_kmh = 107, find speed ms.",
+     "a": "29.7222",
+     "self_check": false
+    },
+    {
+     "q": "convert a speed of 107 km h-1 to m s-1?",
+     "a": "29.7222",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.101.12",
+   "title": "Thickness of Hair from Microscope Magnification",
+   "converted_to_compute": true,
+   "formula": "actual_thickness = observed_width / magnification",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "actual_thickness = observed_width / magnification",
+     "compute": "actual_thickness = observed_width / magnification"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keph.101.12",
+     "question_pattern": "calculate the estimate on the thickness of hair given magnification {observed_width} and average width {magnification}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Thickness of Hair from Microscope Magnification: given observed_width = 469, magnification = 86, find actual thickness.",
+     "a": "5.45349",
+     "self_check": false
+    },
+    {
+     "q": "calculate the estimate on the thickness of hair given magnification 469 and average width 86?",
+     "a": "5.45349",
+     "self_check": false
+    },
+    {
+     "q": "For Thickness of Hair from Microscope Magnification: given observed_width = 479, magnification = 32, find actual thickness.",
+     "a": "14.9688",
+     "self_check": false
+    },
+    {
+     "q": "calculate the estimate on the thickness of hair given magnification 479 and average width 32?",
+     "a": "14.9688",
+     "self_check": false
+    },
+    {
+     "q": "For Thickness of Hair from Microscope Magnification: given observed_width = 394, magnification = 56, find actual thickness.",
+     "a": "7.03571",
+     "self_check": false
+    },
+    {
+     "q": "calculate the estimate on the thickness of hair given magnification 394 and average width 56?",
+     "a": "7.03571",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

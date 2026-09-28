@@ -42,9 +42,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 3 * 6 + 4"
-   ]
+   "steps_chain": []
   },
   {
    "id": "gegp.2.2",
@@ -130,9 +128,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 3 * 3 + 3"
-   ]
+   "steps_chain": []
   },
   {
    "id": "gegp.2.4",
@@ -175,9 +171,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 3 * 6 + 8"
-   ]
+   "steps_chain": []
   }
  ]
 }

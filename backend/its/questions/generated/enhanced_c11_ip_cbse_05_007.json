@@ -34,6 +34,21 @@
      "q": "Design a mini Python project structure (folder + files) for a \"School Utility Kit\" that demonstrates modular design. Show the directory tree, the content of one module file, and the main script that imports and uses it. Explain how this structure helps collaboration.",
      "a": "```\nschool_kit/\n├── main.py\n├── fees.py\n├── attendance.py\n└── reports.py\n```\n`fees.py`:\n```python\ndef calculate_fee(base, discount=0):\n    return base * (1 - discount/100)\n```\n`main.py`:\n```python\nimport fees\nprint(fees.calculate_fee(5000, 10))  # 4500.0\n```\nThis structure lets Team A work on `fees.py`, Team B on `attendance.py` simultaneously without merge conflicts; each module can be tested independently. A poor answer that puts everything in `main.py` or uses `from fees import *` shows the student hasn't internalized modular design principles.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A module in Python is a file containing Python ______ and statements (functions, variables, classes) that can be reused in other programs; the import statement loads a module into the current namespace, making its contents accessible via dot notation (e.g., module_name.function_name()).",
+     "a": "definitions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a large school management system in Python: you need fee ______, attendance tracking, and report generation.",
+     "a": "calculation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the purpose of modules, write correct import statements (including import module, import module as alias, from module import name, and from module import *), and call functions from imported modules using proper dot notation without syntax errors.",
+     "self_check": true
     }
    ]
   }

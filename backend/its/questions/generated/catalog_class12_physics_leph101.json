@@ -1,0 +1,381 @@
+{
+ "catalog": "catalog_class12_physics_leph101.json",
+ "concepts": [
+  {
+   "id": "leph101.1.4.3.1",
+   "title": "Quantisation of Electric Charge",
+   "converted_to_compute": true,
+   "formula": "q = n * 1.6e-19",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "q = n * 1.6e-19",
+     "compute": "q = n * 1.6e-19"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Quantisation of Electric Charge: given n = 60, find q.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Quantisation of Electric Charge: given n = 46, find q.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Quantisation of Electric Charge: given n = 9.8, find q.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Quantisation of Electric Charge: given n = 14.7, find q.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Quantisation of Electric Charge: given n = 3.6, find q.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Quantisation of Electric Charge: given n = 78, find q.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph101.1.5.1",
+   "title": "Coulomb Force Between Point Charges",
+   "converted_to_compute": true,
+   "formula": "F = k * q_1 * q_2 / r**2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "F = k * q_1 * q_2 / r**2",
+     "compute": "F = k * q_1 * q_2 / r**2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Coulomb Force Between Point Charges: given k = 92, q_1 = 33, q_2 = 88, r = 35, find F.",
+     "a": "218.096",
+     "self_check": false
+    },
+    {
+     "q": "For Coulomb Force Between Point Charges: given k = 83, q_1 = 74, q_2 = 78, r = 90, find F.",
+     "a": "59.1452",
+     "self_check": false
+    },
+    {
+     "q": "For Coulomb Force Between Point Charges: given k = 99, q_1 = 27, q_2 = 66, r = 22, find F.",
+     "a": "364.5",
+     "self_check": false
+    },
+    {
+     "q": "For Coulomb Force Between Point Charges: given k = 69, q_1 = 74, q_2 = 58, r = 57, find F.",
+     "a": "91.1505",
+     "self_check": false
+    },
+    {
+     "q": "For Coulomb Force Between Point Charges: given k = 47, q_1 = 58, q_2 = 75, r = 91, find F.",
+     "a": "24.689",
+     "self_check": false
+    },
+    {
+     "q": "For Coulomb Force Between Point Charges: given k = 70, q_1 = 84, q_2 = 64, r = 80, find F.",
+     "a": "58.8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph101.1.7.1",
+   "title": "Electric Field of a Point Charge",
+   "converted_to_compute": true,
+   "formula": "E = k * Q / r**2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "E = k * Q / r**2",
+     "compute": "E = k * Q / r**2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Electric Field of a Point Charge: given k = 85, Q = 30, r = 92, find E.",
+     "a": "0.301276",
+     "self_check": false
+    },
+    {
+     "q": "For Electric Field of a Point Charge: given k = 60, Q = 46, r = 40, find E.",
+     "a": "1.725",
+     "self_check": false
+    },
+    {
+     "q": "For Electric Field of a Point Charge: given k = 14.9, Q = 78, r = 30, find E.",
+     "a": "1.29133",
+     "self_check": false
+    },
+    {
+     "q": "For Electric Field of a Point Charge: given k = 98, Q = 92, r = 51, find E.",
+     "a": "3.46636",
+     "self_check": false
+    },
+    {
+     "q": "For Electric Field of a Point Charge: given k = 25, Q = 44, r = 73, find E.",
+     "a": "0.206418",
+     "self_check": false
+    },
+    {
+     "q": "For Electric Field of a Point Charge: given k = 10.5, Q = 80, r = 36, find E.",
+     "a": "0.648148",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph101.1.10.1",
+   "title": "Electric Dipole Moment",
+   "converted_to_compute": true,
+   "formula": "p = q * 2 * a",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "p = q * 2 * a",
+     "compute": "p = q * 2 * a"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Electric Dipole Moment: given q = 90, a = 99, find p.",
+     "a": "17820",
+     "self_check": false
+    },
+    {
+     "q": "For Electric Dipole Moment: given q = 92, a = 19.3, find p.",
+     "a": "3551.2",
+     "self_check": false
+    },
+    {
+     "q": "For Electric Dipole Moment: given q = 33, a = 61, find p.",
+     "a": "4026",
+     "self_check": false
+    },
+    {
+     "q": "For Electric Dipole Moment: given q = 37, a = 63, find p.",
+     "a": "4662",
+     "self_check": false
+    },
+    {
+     "q": "For Electric Dipole Moment: given q = 90, a = 89, find p.",
+     "a": "16020",
+     "self_check": false
+    },
+    {
+     "q": "For Electric Dipole Moment: given q = 51, a = 19.8, find p.",
+     "a": "2019.6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph101.1.10.2",
+   "title": "Dipole Field at a Far Axial Point",
+   "converted_to_compute": true,
+   "formula": "E_axial = 2 * k * p / r**3",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "E_axial = 2 * k * p / r**3",
+     "compute": "E_axial = 2 * k * p / r**3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Dipole Field at a Far Axial Point: given k = 54, p = 95, r = 56, find E axial.",
+     "a": "0.0584229",
+     "self_check": false
+    },
+    {
+     "q": "For Dipole Field at a Far Axial Point: given k = 51, p = 29, r = 45, find E axial.",
+     "a": "0.0324609",
+     "self_check": false
+    },
+    {
+     "q": "For Dipole Field at a Far Axial Point: given k = 70, p = 92, r = 61, find E axial.",
+     "a": "0.0567448",
+     "self_check": false
+    },
+    {
+     "q": "For Dipole Field at a Far Axial Point: given k = 56, p = 28, r = 47, find E axial.",
+     "a": "0.0302053",
+     "self_check": false
+    },
+    {
+     "q": "For Dipole Field at a Far Axial Point: given k = 88, p = 93, r = 37, find E axial.",
+     "a": "0.32314",
+     "self_check": false
+    },
+    {
+     "q": "For Dipole Field at a Far Axial Point: given k = 11.3, p = 23, r = 19.4, find E axial.",
+     "a": "0.071192",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph101.1.13.1",
+   "title": "Gauss Law: Enclosed Charge from Flux",
+   "converted_to_compute": true,
+   "formula": "phi = q_enclosed / eps_0",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "phi = q_enclosed / eps_0",
+     "compute": "phi = q_enclosed / eps_0"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Gauss Law: Enclosed Charge from Flux: given q_enclosed = 35, eps_0 = 50, find phi.",
+     "a": "0.7",
+     "self_check": false
+    },
+    {
+     "q": "For Gauss Law: Enclosed Charge from Flux: given q_enclosed = 98, eps_0 = 47, find phi.",
+     "a": "2.08511",
+     "self_check": false
+    },
+    {
+     "q": "For Gauss Law: Enclosed Charge from Flux: given q_enclosed = 28, eps_0 = 36, find phi.",
+     "a": "0.777778",
+     "self_check": false
+    },
+    {
+     "q": "For Gauss Law: Enclosed Charge from Flux: given q_enclosed = 27, eps_0 = 66, find phi.",
+     "a": "0.409091",
+     "self_check": false
+    },
+    {
+     "q": "For Gauss Law: Enclosed Charge from Flux: given q_enclosed = 70, eps_0 = 86, find phi.",
+     "a": "0.813953",
+     "self_check": false
+    },
+    {
+     "q": "For Gauss Law: Enclosed Charge from Flux: given q_enclosed = 48, eps_0 = 85, find phi.",
+     "a": "0.564706",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph101.1.14.2",
+   "title": "Field of a Charged Plane Sheet",
+   "converted_to_compute": true,
+   "formula": "E = sigma / (2 * eps_0)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "E = sigma / (2 * eps_0)",
+     "compute": "E = sigma / (2 * eps_0)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Field of a Charged Plane Sheet: given sigma = 76, eps_0 = 74, find E.",
+     "a": "0.513514",
+     "self_check": false
+    },
+    {
+     "q": "For Field of a Charged Plane Sheet: given sigma = 88, eps_0 = 21, find E.",
+     "a": "2.09524",
+     "self_check": false
+    },
+    {
+     "q": "For Field of a Charged Plane Sheet: given sigma = 5.8, eps_0 = 86, find E.",
+     "a": "0.0337209",
+     "self_check": false
+    },
+    {
+     "q": "For Field of a Charged Plane Sheet: given sigma = 71, eps_0 = 65, find E.",
+     "a": "0.546154",
+     "self_check": false
+    },
+    {
+     "q": "For Field of a Charged Plane Sheet: given sigma = 30, eps_0 = 83, find E.",
+     "a": "0.180723",
+     "self_check": false
+    },
+    {
+     "q": "For Field of a Charged Plane Sheet: given sigma = 96, eps_0 = 68, find E.",
+     "a": "0.705882",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph101.1.14.3",
+   "title": "Field of a Charged Spherical Shell",
+   "converted_to_compute": true,
+   "formula": "E_outside = k * q_shell / r**2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "E_outside = k * q_shell / r**2",
+     "compute": "E_outside = k * q_shell / r**2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Field of a Charged Spherical Shell: given k = 51, q_shell = 58, r = 69, find E outside.",
+     "a": "0.621298",
+     "self_check": false
+    },
+    {
+     "q": "For Field of a Charged Spherical Shell: given k = 98, q_shell = 10, r = 86, find E outside.",
+     "a": "0.132504",
+     "self_check": false
+    },
+    {
+     "q": "For Field of a Charged Spherical Shell: given k = 79, q_shell = 42, r = 34, find E outside.",
+     "a": "2.87024",
+     "self_check": false
+    },
+    {
+     "q": "For Field of a Charged Spherical Shell: given k = 85, q_shell = 27, r = 38, find E outside.",
+     "a": "1.58934",
+     "self_check": false
+    },
+    {
+     "q": "For Field of a Charged Spherical Shell: given k = 89, q_shell = 29, r = 59, find E outside.",
+     "a": "0.741454",
+     "self_check": false
+    },
+    {
+     "q": "For Field of a Charged Spherical Shell: given k = 65, q_shell = 62, r = 69, find E outside.",
+     "a": "0.846461",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

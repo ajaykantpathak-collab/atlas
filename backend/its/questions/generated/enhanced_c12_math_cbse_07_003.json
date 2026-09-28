@@ -34,6 +34,21 @@
      "q": "Create a rational function that requires all three types of partial fraction terms: a distinct linear factor, a repeated linear factor, and an irreducible quadratic factor. Write its denominator in factored form and the corresponding partial fraction decomposition form (do not solve for constants).",
      "a": "Example: Denominator \\( (x-1)(x+2)^2(x^2+4) \\). The decomposition form is \\( \\frac{A}{x-1} + \\frac{B}{x+2} + \\frac{C}{(x+2)^2} + \\frac{Dx+E}{x^2+4} \\). A poor answer might omit the repeated linear term \\( \\frac{B}{x+2} \\) (only keeping \\( \\frac{C}{(x+2)^2} \\)) or use a constant numerator \\( D \\) instead of \\( Dx+E \\) for the irreducible quadratic. This reveals the student has not memorized the exact patterns in Table 7.2 for each factor type.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To find the total cost function, you need to ______ this marginal cost.",
+     "a": "integrate",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Integration by partial fractions?",
+     "a": "This happens because they confuse the form for a linear factor with that for a quadratic factor.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly factor the denominator, set up the appropriate partial fraction form for each factor type (linear, repeated linear, irreducible quadratic), solve for the unknown constants, and integrate each term to obtain the final antiderivative.",
+     "self_check": true
     }
    ]
   }

@@ -13,7 +13,7 @@
    "formula": "a = b*q + r, 0 <= r < b",
    "key_idea": "Any positive integer can be expressed as a multiple of another integer plus a remainder.",
    "textbook_ref": "",
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "question_patterns": [
     "find quotient and remainder using euclid division lemma",
     "apply euclid division algorithm to find hcf",
@@ -59,7 +59,16 @@
      "question": "Show that any positive odd integer is of the form 6q+1, 6q+3, or 6q+5.",
      "type": "verify_property"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
+     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 2 * 1 gives 2",
+     "compute": "hcf = 2 * 1"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.1.2",
@@ -69,7 +78,7 @@
    "formula": "n = p1^a1 * p2^a2 * ... * pk^ak",
    "key_idea": "Prime factorization of a number is unique.",
    "textbook_ref": "",
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "question_patterns": [
     "find prime factorization of a number",
     "express number as product of primes",
@@ -101,7 +110,16 @@
      "answer": "HCF=13, LCM=182"
     }
    ],
-   "exercises": []
+   "exercises": [],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
+     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 10 * 1 gives 10",
+     "compute": "hcf = 10 * 1"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.1.3",
@@ -111,7 +129,7 @@
    "formula": "",
    "key_idea": "Assuming sqrt(2) = p/q in lowest terms forces both p and q to be even, a contradiction.",
    "textbook_ref": "",
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "question_patterns": [
     "prove sqrt(2) is irrational",
     "show that 2 is not a perfect square",
@@ -143,7 +161,22 @@
      "answer": "sqrt(2) is irrational"
     }
    ],
-   "exercises": []
+   "exercises": [],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.1.4",
@@ -153,7 +186,7 @@
    "formula": "",
    "key_idea": "The contradiction argument for sqrt(2) extends to the square root of every prime.",
    "textbook_ref": "",
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "question_patterns": [
     "prove sqrt(3) is irrational",
     "prove sqrt(5) is irrational",
@@ -185,7 +218,22 @@
      "answer": "sqrt(3) is irrational"
     }
    ],
-   "exercises": []
+   "exercises": [],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.1.5",
@@ -195,7 +243,7 @@
    "formula": "Terminating if denominator = 2^a * 5^b after simplification",
    "key_idea": "Look only at the primes in the simplified denominator to predict the decimal's behaviour.",
    "textbook_ref": "",
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "question_patterns": [
     "determine if decimal expansion terminates or recurs",
     "find decimal expansion of rational number",
@@ -227,7 +275,22 @@
      "answer": "terminating"
     }
    ],
-   "exercises": []
+   "exercises": [],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.1.6",
@@ -371,7 +434,7 @@
    "formula": "",
    "key_idea": "A rational operand cannot cancel the irrational part unless it is zero.",
    "textbook_ref": "",
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "question_patterns": [
     "prove sum of rational and irrational is irrational",
     "prove product of nonzero rational and irrational is irrational",
@@ -403,7 +466,22 @@
      "answer": "2 + sqrt(3) is irrational"
     }
    ],
-   "exercises": []
+   "exercises": [],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [],

@@ -34,6 +34,31 @@
      "q": "Design a nutrition intervention to reduce adolescent anaemia in a rural Indian block. Your plan must explicitly address all four dimensions of nutrition science. Describe one specific activity per dimension.",
      "a": "Expected criteria for a good answer:\n- Physiological: Weekly iron-folic acid supplementation (WIFS) + deworming, with haemoglobin monitoring.\n- Social: Community cooking demonstrations using local iron-rich foods (amaranth leaves, jaggery, sesame) involving mothers and Anganwadi workers to shift food norms.\n- Psychological: School-based body literacy sessions addressing myths (e.g., \"iron tablets cause weight gain\") and building self-efficacy for dietary change.\n- Economic: Link SHGs (Self Help Groups) to kitchen gardens for low-cost leafy vegetables; advocate for subsidised millets in PDS.\nA poor answer listing only \"give iron tablets and tell them to eat spinach\" reveals inability to translate the four-dimensional framework into actionable, context-specific programming.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Nutrition Science is the systematic study of foods, nutrients, and other bioactive substances, encompassing their ______ actions within the body (ingestion, digestion, absorption, metabolism, excretion) as well as their social, psychological, and economic dimensions that influence dietary behaviour and health outcomes.",
+     "a": "physiological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two teenagers, Riya and Arjun, both eat the same school lunch every day — yet Riya is energetic and maintains healthy weight while Arjun feels sluggish and is ______.",
+     "a": "underweight",
+     "self_check": true
+    },
+    {
+     "q": "What is Nutrition Science? State the definition given in this lesson.",
+     "a": "Nutrition Science is the systematic study of foods, nutrients, and other bioactive substances, encompassing their physiological actions within the body (ingestion, digestion, absorption, metabolism, excretion) as well as their social, psychological, and economic dimensions that influence dietary behaviour and health outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Nutrition Science?",
+     "a": "Students equate Nutrition Science with \"studying nutrients\" or \"healthy eating guidelines.\" They memorise the NCERT definition but fail to internalise that the social, psychological, and economic dimensions are not \"add-ons\" — they are constitutive of the science itself.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can accurately distinguish nutrition from food and nutrients, articulate all four dimensions (physiological, social, psychological, economic) with concrete examples, and explain why a multi-dimensional approach is essential for addressing real-world nutritional problems.",
+     "self_check": true
     }
    ]
   }

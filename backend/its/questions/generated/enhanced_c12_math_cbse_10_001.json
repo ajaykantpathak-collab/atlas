@@ -34,6 +34,31 @@
      "q": "Create a real-world scenario (Indian context) involving at least three different types of vectors from this node. Describe the scenario, identify each vector by type, and explain why it fits that type. Your scenario must include a zero vector naturally (not forced).",
      "a": "Example: A delivery drone flies from a warehouse (point W) to a customer's house (point H) — displacement vector **d₁** (type: vector, magnitude 2 km, direction 30° north of east). It hovers at H for 5 minutes — displacement during hover is zero vector **0** (type: zero vector, magnitude 0, no definite direction). Then it flies to another house (point K) — displacement **d₂** (type: vector). The vectors **d₁** and **d₂** are coinitial if both drawn from W? No, they are not coinitial (different initial points). But the unit vector in direction of **d₁** is **û** = **d₁**/|**d₁**| (type: unit vector). A good answer identifies at least three types correctly with reasoning. A poor answer forces zero vector artificially (e.g., \"a vector of magnitude 0\") without a natural physical situation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A vector is a quantity that possesses both magnitude (a non-negative real number ______ length or size) and direction (orientation in space).",
+     "a": "representing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a cricket bowler running up to ______ the ball.",
+     "a": "deliver",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The magnitude of a vector a is denoted by |a| or ‖a‖ and is always ≥ ______.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Distinguish between scalar and vector quantities in real-world scenarios and give three examples of each with correct units.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a cricket bowler running up to deliver the ball.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

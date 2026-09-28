@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a battery, an ammeter, a switch, and a conducting wire to demonstrate that current is the same at all points in a series circuit. Draw the circuit diagram using standard symbols (learned in Class 6, c6_physics_ch03_013) and explain what you would observe.",
      "a": "Circuit: Battery → Switch → Ammeter → Wire → back to Battery (all in series). Close the switch, note ammeter reading. Move the ammeter to different positions in the series loop (before/after wire, near battery) — reading remains the same. This shows current is constant in series (charge conservation).  \nA poor answer (e.g., parallel circuit, or \"current decreases as it moves\") reveals the student hasn't internalized charge conservation in series circuits — a prerequisite for node c10_phy_cbse_01_006 (series combinations).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Electric current is the rate of flow of electric charge through a ______.",
+     "a": "conductor",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan in your classroom: when you flip the switch, the fan starts rotating almost ______.",
+     "a": "instantly",
+     "self_check": true
+    },
+    {
+     "q": "What is Electric current? State the definition given in this lesson.",
+     "a": "Electric current is the rate of flow of electric charge through a conductor.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Electric current?",
+     "a": "Students often think \"current gets used up\" in a circuit — e.g., \"current is less after passing through a bulb because the bulb consumes it.\" This is wrong: current is the same everywhere in a series circuit; what changes is energy (potential difference drops across the bulb).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can define electric current precisely using the formula I = Q/t, state its SI unit (ampere) and its equivalent (coulomb/second), explain the direction of conventional current versus electron flow, and calculate current when given charge and time with proper unit conversion.",
+     "self_check": true
     }
    ]
   }

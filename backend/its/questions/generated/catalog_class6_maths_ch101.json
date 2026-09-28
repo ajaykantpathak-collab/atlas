@@ -4,26 +4,14 @@
   {
    "id": "fegp.101.1.2.1",
    "title": "Number Theory",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "verify the number-theory claim numerically",
-     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
-     "compute": "lhs = 3 ** 3 + 4 ** 3"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
-     "compute": "diff = 5 ** 3 - lhs"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "whole_numbers = 0, 1, 2, 3, 4, ...",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
      "a": "34",
-     "self_check": false
+     "self_check": true
     },
     {
      "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
@@ -42,7 +30,7 @@
     },
     {
      "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
-     "a": "0",
+     "a": "18",
      "self_check": false
     },
     {
@@ -56,6 +44,8 @@
    "id": "fegp.101.1.2.2",
    "title": "Triangular Numbers",
    "converted_to_compute": false,
+   "formula": "term = n * (n + 1) / 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "What is the 8th triangular number?",
@@ -93,6 +83,8 @@
    "id": "fegp.101.1.2.3",
    "title": "Square Numbers",
    "converted_to_compute": false,
+   "formula": "term = n * n",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 38.",
@@ -130,6 +122,8 @@
    "id": "fegp.101.1.2.4",
    "title": "Cube Numbers",
    "converted_to_compute": false,
+   "formula": "term = n ** 3",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the cube of 3.",
@@ -167,6 +161,8 @@
    "id": "fegp.101.1.4.1",
    "title": "Sum of Consecutive Odd Numbers",
    "converted_to_compute": false,
+   "formula": "sum = n * n",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Starting from 1, add the first 12 odd numbers: 1 + 3 + 5 + ... What square do you get?",
@@ -204,6 +200,8 @@
    "id": "fegp.101.1.4.2",
    "title": "Sum of Counting Numbers Up and Down",
    "converted_to_compute": false,
+   "formula": "sum = peak * peak",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add counting numbers up from 1 to 6 and then back down to 1 (1 + 2 + ... + 6 + ... + 2 + 1). What is the total?",
@@ -241,6 +239,8 @@
    "id": "fegp.101.1.4.5",
    "title": "Sum of Consecutive Triangular Numbers",
    "converted_to_compute": false,
+   "formula": "sum = n * n",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "What is the 10th triangular number?",
@@ -278,6 +278,8 @@
    "id": "fegp.101.1.4.8",
    "title": "Hexagonal Numbers",
    "converted_to_compute": false,
+   "formula": "term = 3 * n * (n - 1) + 1",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "What is the 7th triangular number?",
@@ -315,6 +317,8 @@
    "id": "fegp.101.1.4.9",
    "title": "Sum of Hexagonal Numbers",
    "converted_to_compute": false,
+   "formula": "sum = n ** 3",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "What is the 11th triangular number?",
@@ -351,15 +355,9 @@
   {
    "id": "fegp.101.1.6.1",
    "title": "Regular Polygons Properties",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 20 gives 70",
-     "compute": "other = 90 - 20"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "sides = corners",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 20 degrees, find the other.",
@@ -397,6 +395,8 @@
    "id": "fegp.101.1.6.5",
    "title": "Koch Snowflake Segments",
    "converted_to_compute": false,
+   "formula": "segments = 3 * (4 ** (n - 1))",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "What is the 14th triangular number?",

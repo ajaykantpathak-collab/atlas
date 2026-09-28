@@ -34,6 +34,31 @@
      "q": "Create a real-world problem (in an Indian context) that requires the 3D distance formula to solve. Provide the problem statement and the solution.",
      "a": "Example: A drone takes off from a point on the ground (0,0,0) and flies to a point directly above a building at (30 m, 40 m, 50 m). Find the straight-line distance travelled by the drone. Solution: Distance = √(30²+40²+50²) = √(900+1600+2500) = √5000 = 50√2 ≈ 70.71 m. A poor answer would be a trivial 2D problem or one that doesn't require all three coordinates, showing the student cannot design a genuine 3D scenario.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The distance between two points P(x₁, y₁, z₁) and Q(x₂, y₂, z₂) in three-______ space is the length of the line segment joining them, given by the formula: PQ = √[(x₂ - x₁)² + (y₂ - y₁)² + (z₂ - z₁)²].",
+     "a": "dimensional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an architect designing a multi-storey ______.",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In ______D, we add the third coordinate difference.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute the distance between any two points in 3D space using the formula, can determine if three points are collinear by checking if the sum of two distances equals the third, and can solve problems involving geometric properties (e.g., finding vertices of a right triangle, isosceles triangle, or parallelogram) in three.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an ______ designing a multi-storey building.",
+     "a": "architect",
+     "self_check": true
     }
    ]
   }

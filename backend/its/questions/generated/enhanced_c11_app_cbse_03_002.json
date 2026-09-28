@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_03_002",
+   "title": "c11_app_cbse_03_002",
+   "questions": [
+    {
+     "q": "Which of the following collections is a set? Justify your answer in one sentence.\n(i) The collection of all prime numbers less than 20.\n(ii) The collection of all difficult chapters in the Class 11 Mathematics textbook.",
+     "a": "(i) is a set because \"prime number less than 20\" is a precise mathematical property — we can definitively check any number. (ii) is not a set because \"difficult\" is subjective and varies from student to student; there is no objective rule to decide membership. A wrong answer here reveals the student thinks any named group is a set, missing the \"well-defined\" requirement.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Let S be the set of all integers x such that x² < 10.\" Another student says: \"That's not a set because it has infinite elements.\" Who is correct? Explain why.",
+     "a": "The first student is correct. The collection is a set because the rule \"x² < 10\" is well-defined — we can test any integer. The number of elements (finite or infinite) does not determine whether something is a set; only the clarity of the membership rule matters. A wrong answer reveals confusion between \"well-defined\" and \"finite\" — students often think infinite collections cannot be sets.",
+     "self_check": true
+    },
+    {
+     "q": "Let A = {x : x is a letter in the word \"MATHEMATICS\"}. Write A in roster form. Then state whether 'T' ∈ A and 'Z' ∈ A are true or false.",
+     "a": "A = {M, A, T, H, E, I, C, S}. Note: letters are distinct, so 'M', 'A', 'T' appear once each. 'T' ∈ A is true (T appears in MATHEMATICS). 'Z' ∈ A is false (Z does not appear). A wrong answer reveals two possible errors: (a) repeating letters in roster form (violating \"distinct\"), or (b) not understanding that ∈ checks membership in the final set, not in the original word with repetitions.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the collections:\nC₁ = {x : x ∈ ℕ and x is a factor of 12}\nC₂ = {x : x ∈ ℕ and x is a multiple of 12}\nC₃ = {x : x is a \"large\" natural number}\nCompare C₁, C₂, C₃ in terms of whether each is a set. What property distinguishes C₁ and C₂ from C₃?",
+     "a": "C₁ and C₂ are sets because their defining properties (\"factor of 12\" and \"multiple of 12\") are precise and unambiguous for any natural number. C₃ is not a set because \"large\" has no fixed mathematical definition — it is relative and subjective. The distinguishing property is **objective decidability**: for C₁ and C₂, there is an algorithm to test membership; for C₃, there is not. A wrong answer reveals the student cannot articulate the precise meaning of \"well-defined\" beyond vague language.",
+     "self_check": true
+    },
+    {
+     "q": "A textbook claims: \"The collection of all sets is a set.\" Evaluate this statement. Is it true or false? Defend your answer using the definition of a set.",
+     "a": "The statement is false. If \"the collection of all sets\" were a set, it would have to be a member of itself, leading to Russell's Paradox (a set that contains all sets that do not contain themselves). More simply at Class 11 level: the phrase \"all sets\" does not provide a well-defined membership rule that can be applied without contradiction — it is self-referential and ill-defined. A wrong answer reveals the student treats \"collection\" and \"set\" as synonyms without checking the well-defined criterion.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own example of a collection that is NOT a set, and another that IS a set. Both must be from real-life contexts (not pure math). For each, write the membership rule explicitly and explain why it passes or fails the \"well-defined\" test.",
+     "a": "Example of a set: \"The collection of all students in Class 11A who have a roll number ≤ 30.\" Rule: x ∈ S iff x is a student in Class 11A AND roll number ≤ 30. This is well-defined because roll numbers are unique, objective, and verifiable. Example of a non-set: \"The collection of all tall students in Class 11A.\" Rule: x ∈ T iff x is a student in Class 11A AND x is tall. This fails because \"tall\" has no fixed threshold — 170 cm might be tall to one person, not to another. A poor answer uses vague rules like \"good students\" or \"important books\" without recognizing the subjectivity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

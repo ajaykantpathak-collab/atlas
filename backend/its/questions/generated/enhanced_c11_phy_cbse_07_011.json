@@ -34,6 +34,36 @@
      "q": "Design a thought experiment to determine Earth's mass M_E using only measurements of a satellite's orbital period T and orbital radius r (measured from Earth's centre). Explain the steps and the formula you would use.",
      "a": "Measure T (e.g., by timing successive passes overhead) and r (e.g., by radar ranging). Use Kepler's third law derived from Newton's gravitation: T² = 4π²r³/(GM_E). Rearrange: M_E = 4π²r³/(GT²). This is how Cavendish \"weighed the Earth\" using the Moon's orbit. A poor answer uses g = GM_E/R_E² (requires knowing g and R_E separately) or suggests measuring force directly (impossible for distant satellite).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Orbital velocity is the minimum horizontal velocity required for a satellite to maintain a stable circular orbit around Earth at a given altitude, where the ______ force provides exactly the required centripetal force.",
+     "a": "gravitational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a video of the International Space Station passing ______ — it moves at about 7.7 km/s at 400 km altitude.",
+     "a": "overhead",
+     "self_check": true
+    },
+    {
+     "q": "What is Orbital velocity? State the definition given in this lesson.",
+     "a": "Orbital velocity is the minimum horizontal velocity required for a satellite to maintain a stable circular orbit around Earth at a given altitude, where the gravitational force provides exactly the required centripetal force.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For a satellite of mass m in circular orbit at distance r = R_E + h from Earth's centre (R_E = Earth's radius, h = altitude), orbital velocity v = √(GM_E/r) and period T = ______π√(r³/GM_E), where M_E is Earth's mass and G is the gravitational constant.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Orbital velocity?",
+     "a": "Students believe orbital velocity is constant for all satellites regardless of altitude because \"space has no gravity\" or \"satellites float.\" They confuse the sensation of weightlessness (free fall) with absence of gravitational force.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can calculate orbital velocity and period for any given satellite altitude using v = √(GM_E/(R_E+h)) and T = 2π√((R_E+h)³/GM_E), can derive the relation T² ∝ (R_E+h)³ from force balance, and can explain why orbital velocity decreases with altitude while period increases.",
+     "self_check": true
     }
    ]
   }

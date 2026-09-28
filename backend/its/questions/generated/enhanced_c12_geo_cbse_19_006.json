@@ -34,6 +34,26 @@
      "q": "Design a 5-step procedure to compare rainfall variability across three meteorological subdivisions of India (e.g., Konkan, Rayalaseema, West Rajasthan) using 30-year monthly data. Justify your choice of dispersion measure.",
      "a": "**Procedure:**  \n1. Compute mean monthly rainfall for each subdivision.  \n2. Calculate standard deviation for each (using grouped data method if data is in classes).  \n3. Compute coefficient of variation (CV = σ/x̄ × 100) to normalize for different mean magnitudes.  \n4. Rank subdivisions by CV — higher CV = higher relative variability.  \n5. Map results and correlate with agricultural cropping patterns.  \n**Justification:** CV allows comparison across regions with vastly different means (Konkan ~3000 mm, West Rajasthan ~300 mm). A poor answer uses only absolute SD, ignoring that 100 mm SD means something very different in arid vs humid zones — a classic geographical scale error.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Measures of dispersion quantify the spread or variability of ______ data around a central value (mean, median, or mode), indicating how much individual observations deviate from the centre.",
+     "a": "geographical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ monsoon rainfall in two districts: District A has readings 800, 820, 780, 810, 790 mm; District B has 600, 1000, 700, 900, 800 mm.",
+     "a": "comparing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Both have mean ______ mm, but District B shows wild fluctuations — critical for agricultural planning.",
+     "a": "800",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can compute range, variance, and standard deviation for both ungrouped and grouped geographical datasets (e.g., district-wise rainfall, state-wise literacy rates), interpret the results in terms of data reliability and regional disparity, and explain why standard deviation is preferred over range for comparing variability across.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Create a linear equation with variables on both sides where the final solution is a negative integer, specifically $x = -4$. Show the step-by-step verification that your created equation works.",
      "a": "A valid equation is $3x + 5 = 2x + 1$. Verification: Substitute $x = -4$ into LHS: $3(-4) + 5 = -12 + 5 = -7$. Substitute into RHS: $2(-4) + 1 = -8 + 1 = -7$. Since LHS = RHS, the equation works. A poor answer provides an equation that does not balance when $x = -4$ is substituted, showing a lack of understanding of how equations are constructed from known solutions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Equations with ______ on both sides are algebraic equations that contain the same unknown variable term on both the Left-Hand Side (LHS) and the Right-Hand Side (RHS).",
+     "a": "variables",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine Amit and ______ are playing a digital game where both are collecting bonus points, but they start with different initial scores and earn points at different rates per level.",
+     "a": "Priya",
+     "self_check": true
+    },
+    {
+     "q": "What is Equations with variables on both sides? State the definition given in this lesson.",
+     "a": "Equations with variables on both sides are algebraic equations that contain the same unknown variable term on both the Left-Hand Side (LHS) and the Right-Hand Side (RHS).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Equations with variables on both sides?",
+     "a": "Students frequently make a sign error when transposing a term across the equals sign or when moving a variable term with a negative coefficient.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can successfully transpose variable terms across the equals sign using inverse operations, simplify both sides of a linear equation, and solve for the unknown variable while correctly handling negative integers and fractional coefficients.",
+     "self_check": true
     }
    ]
   }

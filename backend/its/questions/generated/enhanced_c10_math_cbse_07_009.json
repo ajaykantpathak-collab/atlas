@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (Indian context) where the collinearity condition using area formula must be used to find an unknown coordinate. The problem should involve at least one negative coordinate and require solving for a variable. Write the problem statement, then solve it completely.",
      "a": "Problem: A telecom company is laying a straight underground cable between three junction boxes in a colony. The coordinates (in metres from a reference point) of two boxes are A(-4, 3) and B(2, -1). The third box C lies on the same straight line and has coordinates (8, k). Find k so that the cable runs straight through all three boxes.\nSolution:\nA(-4, 3), B(2, -1), C(8, k)\nx₁(y₂ - y₃) + x₂(y₃ - y₁) + x₃(y₁ - y₂) = 0\n-4(-1 - k) + 2(k - 3) + 8(3 - (-1)) = 0\n-4(-1 - k) + 2(k - 3) + 8(4) = 0\n4 + 4k + 2k - 6 + 32 = 0\n6k + 30 = 0\n6k = -30\nk = -5.\nA good answer includes: realistic context (telecom, metres, negative coordinates), correct setup, careful handling of double negatives (-4(-1 - k) = 4 + 4k), and final answer with units (k = -5 metres). A poor answer would use only positive coordinates, skip steps, or mishandle the negative signs — e.g., writing -4(-1 - k) = -4 + 4k instead of 4 + 4k.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Three points A(x₁, y₁), B(x₂, y₂), and C(x₃, y₃) are ______ if and only if the area of the triangle formed by them is zero.",
+     "a": "collinear",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your school's sports teacher mark a ______ 100-metre running track on the field.",
+     "a": "straight",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Using the coordinate geometry area formula, this condition is expressed as: x₁(y₂ - y₃) + x₂(y₃ - y₁) + x₃(y₁ - y₂) = ______.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can determine collinearity of three given points by substituting coordinates into the area formula and verifying if the expression equals zero.",
+     "self_check": true
     }
    ]
   }

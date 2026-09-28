@@ -34,6 +34,21 @@
      "q": "Create a real-life situation (Indian context) that can be modeled by an AP where the nth term formula is used to answer a specific question. Write the problem, identify \\(a\\), \\(d\\), and \\(n\\), and solve it.",
      "a": "Example: \"Rohan starts a fitness challenge. On day 1 he does 5 push-ups. Each day he increases by 3 push-ups. How many push-ups will he do on day 30?\"  \n\\(a = 5\\), \\(d = 3\\), \\(n = 30\\).  \n\\(a_{30} = 5 + 29 \\times 3 = 5 + 87 = 92\\) push-ups.  \nA good answer clearly states the scenario, correctly identifies parameters, and applies the formula. A poor answer might use a non-constant increase (not an AP), misidentify \\(n\\) (e.g., using 29), or confuse total push-ups with daily push-ups (sum vs nth term).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The nth term of an arithmetic ______ (AP) is the general term that gives the value of any term at position n in the sequence.",
+     "a": "progression",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are saving money: you put ₹100 in your piggy bank on day 1, and each day you add ₹20 more than the ______ day.",
+     "a": "previous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How much will you have added on the ______th day?",
+     "a": "15",
+     "self_check": true
     }
    ]
   }

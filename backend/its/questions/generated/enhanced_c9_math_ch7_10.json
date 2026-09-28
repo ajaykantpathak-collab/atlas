@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (Indian context) that requires a two-stage tree diagram with dependent events (without replacement). Provide the problem statement, the tree diagram description, and the question to be answered.",
      "a": "Example: \"A box contains 5 packets of Maggi (3 Masala, 2 Chicken). Rahul picks two packets at random without replacement. Draw a tree diagram and find the probability he gets one of each flavour.\" A good answer includes correct branching with adjusted denominators (5 then 4) and correct multiplication/addition. A poor problem might use replacement or independent events, showing the student cannot distinguish dependent scenarios.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A tree diagram is a graphical ______ used to map all possible outcomes of a multi-stage random experiment, where each branch represents a possible outcome at that stage and is labelled with its probability; the probability of any combined outcome (path from root to leaf) is found by multiplying the probabilities along the branches, assuming stages are independent or using conditional probabilities for dependent stages.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are playing a game at a school fair: you draw a ball from a bag containing 3 red and 2 blue balls, note the ______, and then draw a second ball without replacing the first.",
+     "a": "colour",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can construct a complete tree diagram for a two-stage experiment (with or without replacement), correctly label branches with probabilities, apply the multiplication rule along branches to find probabilities of compound events, and use the diagram to answer questions like \"probability of at least one success\" or \"probability.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are playing a game at a school fair: you draw a ball from a bag ______ 3 red and 2 blue balls, note the colour, and then draw a second ball without replacing the first.",
+     "a": "containing",
+     "self_check": true
     }
    ]
   }

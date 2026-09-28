@@ -1,0 +1,347 @@
+{
+ "catalog": "catalog_class12_accountancy_leca102.json",
+ "concepts": [
+  {
+   "id": "leca102.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "sheet_rows = 46",
+      "sheet_columns = 105",
+      "cells_total = sheet_rows * sheet_columns"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "sheet_rows = 48",
+      "sheet_columns = 14.7",
+      "cells_total = sheet_rows * sheet_columns"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "sheet_rows = 20",
+      "sheet_columns = 24",
+      "cells_total = sheet_rows * sheet_columns"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "sheet_rows = 25",
+      "sheet_columns = 97",
+      "cells_total = sheet_rows * sheet_columns"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "sheet_rows = 116",
+      "sheet_columns = 77",
+      "cells_total = sheet_rows * sheet_columns"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "sheet_rows = 94",
+      "sheet_columns = 116",
+      "cells_total = sheet_rows * sheet_columns"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "cells_total = sheet_rows * sheet_columns"
+   ]
+  },
+  {
+   "id": "leca102.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "quantity_bought = 28",
+      "unit_price = 12.1",
+      "item_value = quantity_bought * unit_price"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "quantity_bought = 99",
+      "unit_price = 110",
+      "item_value = quantity_bought * unit_price"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "quantity_bought = 99",
+      "unit_price = 115",
+      "item_value = quantity_bought * unit_price"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "quantity_bought = 27",
+      "unit_price = 87",
+      "item_value = quantity_bought * unit_price"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "quantity_bought = 85",
+      "unit_price = 41",
+      "item_value = quantity_bought * unit_price"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "quantity_bought = 90",
+      "unit_price = 30",
+      "item_value = quantity_bought * unit_price"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "item_value = quantity_bought * unit_price"
+   ]
+  },
+  {
+   "id": "leca102.7",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "week_total = 72",
+      "day_avg = week_total / 7"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "week_total = 100",
+      "day_avg = week_total / 7"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "week_total = 39",
+      "day_avg = week_total / 7"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "week_total = 94",
+      "day_avg = week_total / 7"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "week_total = 95",
+      "day_avg = week_total / 7"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "week_total = 116",
+      "day_avg = week_total / 7"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "day_avg = week_total / 7"
+   ]
+  },
+  {
+   "id": "leca102.9",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "days_gap = 16.4",
+      "age_years = days_gap / 365.25"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "days_gap = 32",
+      "age_years = days_gap / 365.25"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "days_gap = 9.5",
+      "age_years = days_gap / 365.25"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "days_gap = 80",
+      "age_years = days_gap / 365.25"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "days_gap = 25",
+      "age_years = days_gap / 365.25"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "days_gap = 96",
+      "age_years = days_gap / 365.25"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "age_years = days_gap / 365.25"
+   ]
+  },
+  {
+   "id": "leca102.12",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "item_cost = 75",
+      "markup_pct = 39",
+      "discount_pct = 6.1",
+      "net_price = item_cost * (1 + markup_pct / 100) * (1 - discount_pct / 100)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "item_cost = 62",
+      "markup_pct = 24",
+      "discount_pct = 72",
+      "net_price = item_cost * (1 + markup_pct / 100) * (1 - discount_pct / 100)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "item_cost = 6.1",
+      "markup_pct = 79",
+      "discount_pct = 7.5",
+      "net_price = item_cost * (1 + markup_pct / 100) * (1 - discount_pct / 100)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "item_cost = 48",
+      "markup_pct = 34",
+      "discount_pct = 44",
+      "net_price = item_cost * (1 + markup_pct / 100) * (1 - discount_pct / 100)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "item_cost = 25",
+      "markup_pct = 6.8",
+      "discount_pct = 13.5",
+      "net_price = item_cost * (1 + markup_pct / 100) * (1 - discount_pct / 100)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "item_cost = 65",
+      "markup_pct = 23",
+      "discount_pct = 67",
+      "net_price = item_cost * (1 + markup_pct / 100) * (1 - discount_pct / 100)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "net_price = item_cost * (1 + markup_pct / 100) * (1 - discount_pct / 100)"
+   ]
+  },
+  {
+   "id": "leca102.13",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "loan_amt = 6.2",
+      "rate_per = 33",
+      "periods = 66",
+      "loan_emi = loan_amt * rate_per * ((1 + rate_per) ** periods) / ((1 + rate_per) ** periods - 1)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "loan_amt = 5.3",
+      "rate_per = 43",
+      "periods = 27",
+      "loan_emi = loan_amt * rate_per * ((1 + rate_per) ** periods) / ((1 + rate_per) ** periods - 1)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "loan_amt = 19.3",
+      "rate_per = 79",
+      "periods = 4.2",
+      "loan_emi = loan_amt * rate_per * ((1 + rate_per) ** periods) / ((1 + rate_per) ** periods - 1)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "loan_amt = 2.4",
+      "rate_per = 49",
+      "periods = 26",
+      "loan_emi = loan_amt * rate_per * ((1 + rate_per) ** periods) / ((1 + rate_per) ** periods - 1)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "loan_amt = 4.3",
+      "rate_per = 29",
+      "periods = 11.9",
+      "loan_emi = loan_amt * rate_per * ((1 + rate_per) ** periods) / ((1 + rate_per) ** periods - 1)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "loan_amt = 12.1",
+      "rate_per = 91",
+      "periods = 64",
+      "loan_emi = loan_amt * rate_per * ((1 + rate_per) ** periods) / ((1 + rate_per) ** periods - 1)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "loan_emi = loan_amt * rate_per * ((1 + rate_per) ** periods) / ((1 + rate_per) ** periods - 1)"
+   ]
+  }
+ ]
+}

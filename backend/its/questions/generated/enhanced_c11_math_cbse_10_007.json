@@ -34,6 +34,36 @@
      "q": "Create a real-world problem involving parallel or perpendicular lines in coordinate geometry (e.g., roads, architecture, sports). Define the coordinate system, give one line's equation, and ask for the equation of a parallel or perpendicular line through a given point. Solve your own problem.",
      "a": "Example: A straight road runs along the line y = 0.5x + 10 (in km). A crossing road must be perpendicular and pass through the point (4, 12). Find its equation. Solution: m = 0.5, perpendicular m = -2. Equation: y - 12 = -2(x - 4) → y = -2x + 20. A good answer includes clear context, correct slope, and correct equation. A poor answer uses wrong slope or ignores the point.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Two non-______ lines are parallel if and only if their slopes are equal (m₁ = m₂).",
+     "a": "vertical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To make the adjacent edge ______, what slope must it have?",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "What is Two non-vertical lines? State the definition given in this lesson.",
+     "a": "Two non-vertical lines are parallel if and only if their slopes are equal (m₁ = m₂).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Vertical lines (undefined slope) are parallel to each other; a vertical line is perpendicular to a horizontal line (slope ______).",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Two non-vertical lines?",
+     "a": "Students often think that perpendicular lines have slopes that are just \"negative\" of each other (m₂ = -m₁) instead of negative reciprocals (m₂ = -1/m₁).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can determine whether given lines are parallel, perpendicular, or neither by computing slopes from equations or coordinates, and can find the equation of a line parallel or perpendicular to a given line through a specified point.",
+     "self_check": true
     }
    ]
   }

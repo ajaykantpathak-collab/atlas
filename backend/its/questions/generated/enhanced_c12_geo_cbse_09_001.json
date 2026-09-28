@@ -34,6 +34,36 @@
      "q": "Design a choropleth map legend (4-5 classes) for showing India's state-wise population distribution (absolute numbers) using 2011 Census data. Specify class intervals, colour scheme, and justify your classification method.",
      "a": "Expected answer: Use quantile or natural breaks (Jenks) classification — NOT equal intervals — because population data is highly skewed (UP 199.8M vs. Sikkim 0.6M). Suggested classes (in millions): Very High: >100 (UP, Maharashtra, Bihar, WB) — dark red; High: 50-100 (MP, Tamil Nadu, Rajasthan, Karnataka, Gujarat) — red; Moderate: 20-50 (Andhra, Odisha, Telangana, Kerala, Jharkhand, Assam, Punjab) — orange; Low: 5-20 (Haryana, Chhattisgarh, Delhi, J&K, Uttarakhand, Himachal) — yellow; Very Low: <5 (remaining NE states, Goa, UTs) — light yellow. Colour: sequential single-hue (light to dark red) for ordered data. Justification: quantiles ensure each class has similar number of states for visual balance; natural breaks reflect actual data clusters. A poor answer using equal intervals (e.g., 0-40, 40-80...) would put 25+ states in the lowest class and only 2-3 in higher classes — map would show no pattern. This tests cartographic competency for board practical/project work.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Population ______ refers to the spatial pattern of where people live across a geographic area, expressed as the arrangement or spread of population across the territory of India.",
+     "a": "distribution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking the student to observe a political map of India and guess which five states have the largest ______ — most will correctly name Uttar Pradesh, Maharashtra, Bihar, West Bengal, but often miss Madhya Pradesh or Rajasthan.",
+     "a": "populations",
+     "self_check": true
+    },
+    {
+     "q": "What is Population distribution? State the definition given in this lesson.",
+     "a": "Population distribution refers to the spatial pattern of where people live across a geographic area, expressed as the arrangement or spread of population across the territory of India.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then show Figure ______ (NCERT population distribution map) and ask them to describe the pattern in their own words: \"Where are the dark patches?",
+     "a": "1.1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Population distribution?",
+     "a": "Students conflate \"population distribution\" (WHERE people live — spatial pattern) with \"population density\" (HOW MANY people per sq km — ratio).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) interpret a population distribution map of India to identify high/low concentration zones and name the corresponding states, (2) explain the physical and socio-economic reasons for the observed spatial pattern using specific geographic terminology (alluvial plains, irrigation development, industrial corridors), and.",
+     "self_check": true
     }
    ]
   }

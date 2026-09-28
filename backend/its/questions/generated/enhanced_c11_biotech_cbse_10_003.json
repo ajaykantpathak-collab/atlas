@@ -34,6 +34,31 @@
      "q": "Design a minimal 12-residue sequence that would be predicted as a single continuous α-helix by Chou-Fasman but as two separate helices with a coil break by GOR. Justify your design using the proprietary parameters of each method.",
      "a": "A strong Chou-Fasman helix requires ≥ 4/6 residues with Pα > 1.00 and no breakers (Pro, Gly). Example: `Ala-Glu-Leu-Ala-Met-Glu-Lys-Ala-Leu-Glu-Met-Ala` (all Pα > 1.1). For GOR to predict a break, the central window must have low helix information; inserting a single residue with strongly negative Iα (e.g., Pro at position 6) flanked by moderate helix formers can split the prediction. A good answer provides the sequence, parameter values, and window scores. A poor answer merely states \"add proline\" without showing the window calculation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Secondary structure prediction is the ______ inference of local protein conformations—α-helices, β-sheets, and turns/coils—from the amino acid sequence alone.",
+     "a": "computational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just sequenced a novel enzyme from a soil bacterium—only the ______ sequence is known, and you need a quick hypothesis about where helices and sheets might form before attempting crystallisation.",
+     "a": "primary",
+     "self_check": true
+    },
+    {
+     "q": "What is Secondary structure prediction? State the definition given in this lesson.",
+     "a": "Secondary structure prediction is the computational inference of local protein conformations—α-helices, β-sheets, and turns/coils—from the amino acid sequence alone.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Secondary structure prediction?",
+     "a": "Students often believe Chou-Fasman and GOR \"predict 3D structure.\" In reality, both output only a one-dimensional string of H/E/C labels per residue—no φ/ψ angles, no coordinates, no tertiary contacts.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Given a short polypeptide sequence (≤ 20 residues) and a table of Chou-Fasman parameters (Pα, Pβ, Pτ) or GOR directional information values, the student must correctly identify nucleation sites, apply extension rules, resolve overlaps, and output a per-residue secondary structure assignment (H, E, C) with ≥ 80% agreement against a.",
+     "self_check": true
     }
    ]
   }

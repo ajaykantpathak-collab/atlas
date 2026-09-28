@@ -34,6 +34,36 @@
      "q": "Create your own real-world example (Indian context) where a high Spearman's rank correlation (ρ > 0.8) between two ranked variables would be misleading if interpreted as causation. Specify the two variables, the likely confounding factor, and explain why rank correlation does not resolve the causation problem.",
      "a": "Example: Rank correlation between \"number of wedding guests\" and \"gift value per guest\" across Indian states (ρ = 0.85). Confounder: per capita income of the state. Richer states have larger weddings AND more expensive gifts. Rank correlation only measures monotonic association of ranks; it is equally blind to confounding as Pearson's r. A poor answer gives a trivial example without a plausible confounder or claims rank correlation \"controls for outliers\" and thus solves causation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Correlation is a statistical measure that quantifies the degree to which two variables move in relation to each other, while causation implies that a change in one variable directly produces a change in the other; the fundamental distinction is that correlation only indicates association, not a cause-and-effect ______.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine reading a newspaper headline: \"Ice cream sales correlate strongly with drowning deaths — should we ban ice cream to save lives?\" This absurd example captures the core trap: a high ______ coefficient (say r = 0.85) between ice cream sales and drownings does NOT mean ice cream causes drowning.",
+     "a": "correlation",
+     "self_check": true
+    },
+    {
+     "q": "What is Correlation? State the definition given in this lesson.",
+     "a": "Correlation is a statistical measure that quantifies the degree to which two variables move in relation to each other, while causation implies that a change in one variable directly produces a change in the other; the fundamental distinction is that correlation only indicates association, not a cause-and-effect relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine reading a newspaper headline: \"Ice cream sales correlate strongly with drowning deaths — should we ban ice cream to save lives?\" This absurd example captures the core trap: a high correlation coefficient (say r = ______) between ice cream sales and drownings does NOT mean ice cream causes drowning.",
+     "a": "0.85",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Correlation?",
+     "a": "Students believe that a high correlation coefficient (|r| > 0.8) combined with a low p-value (p < 0.05) \"proves\" causation.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to examine a given bivariate data scenario, identify whether the observed correlation suggests causation, reverse causation, a common confounding variable, or spurious association, and justify their conclusion using statistical reasoning and domain knowledge.",
+     "self_check": true
     }
    ]
   }

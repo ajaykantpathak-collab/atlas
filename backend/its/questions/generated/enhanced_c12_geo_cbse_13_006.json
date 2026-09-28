@@ -34,6 +34,36 @@
      "q": "Design a coal evacuation corridor map for a new 4,000 MW ultra-supercritical thermal power plant proposed in Chhattisgarh's Korba district. Annotate: (a) source coalfields with seam thickness and grade, (b) rail/merry-go-round connectivity, (c) water source for cooling, (d) ash disposal area, and (e) transmission evacuation. Justify each choice using geological and infrastructural criteria.",
      "a": "Expected answer: (a) Source: Korba coalfield (Gondwana, Barakar formation), seams 10-30 m thick, Grade G11-G13 (3,500-4,000 kcal/kg), low sulphur — SECL's Gevra, Kusmunda, Dipka mines. (b) Rail: Dedicated merry-go-round (MGR) from Gevra to plant (30 km); mainline connectivity via Bilaspur-Nagpur route for backup. (c) Water: Hasdeo barrage (Hasdeo River, tributary of Mahanadi) — 120 cusec allocation; groundwater not permitted per CGWA. (d) Ash: Low-lying mined-out voids in Dipka OC mine for backfilling; dry ash collection for cement industry (ACC, Lafarge nearby). (e) Transmission: 765 kV D/C lines to Raipur pooling station → WR-NR corridor. Justification: Proximity to mine mouth minimises transport; ultra-supercritical needs consistent Grade G11+; Hasdeo water is only perennial source; ash utilisation mandated by MoEFCC. A poor answer lists generic items without site-specific geological-infrastructural matching.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Coal is a combustible sedimentary rock formed from buried plant matter over geological time through the process of ______, occurring in India primarily in two geological ages: Gondwana (Permian period, ~250-300 million years ago) yielding bituminous coal in the Damodar, Mahanadi, Godavari, and Sone valleys, and Tertiary (Eocene-Oligocene, ~30-60 million years ago) yielding lignite in northeastern states and coastal regions.",
+     "a": "coalification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your electricity bill — over 70% of that ______ comes from burning coal.",
+     "a": "power",
+     "self_check": true
+    },
+    {
+     "q": "What is Coal? State the definition given in this lesson.",
+     "a": "Coal is a combustible sedimentary rock formed from buried plant matter over geological time through the process of coalification, occurring in India primarily in two geological ages: Gondwana (Permian period, ~250-300 million years ago) yielding bituminous coal in the Damodar, Mahanadi, Godavari, and Sone valleys, and Tertiary.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your electricity bill — over ______% of that power comes from burning coal.",
+     "a": "70",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Coal?",
+     "a": "Students believe \"Gondwana coal = coking coal\" and \"Tertiary coal = lignite only.\" In reality: (1) Only ~15% of Gondwana coal is coking (prime coking in Jharia, medium coking in Raniganj); bulk is non-coking thermal coal.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) classify Indian coal by geological age, rank, and coking properties on a map; (2) explain why Gondwana coal dominates production while Tertiary coal remains marginal; (3) calculate calorific value implications for thermal power plant siting using coal quality data; and (4) evaluate the environmental-economic trade-offs of.",
+     "self_check": true
     }
    ]
   }

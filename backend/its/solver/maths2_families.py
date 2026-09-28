@@ -1423,6 +1423,947 @@ _BOOK_ROWS = [
 _TABLE.extend(_BOOK_ROWS)
 
 
+# --------------------------------------------------------------------------- #
+# BOOKS2 FAMILIES (classes 6-11, cross-checked against the actual textbook
+# inventory: Ganita Prakash 6-8, old NCERT 8 (comparing quantities,
+# mensuration, direct/inverse proportion), Ganita Manjari 9 (circles, arc
+# length, Heron, probability, progressions), NCERT 10 (polynomials, linear
+# pairs, discriminant, distance/midpoint, heights & distances, sectors,
+# cone/hemisphere solids, grouped median/mode, theoretical probability) and
+# NCERT 11 (nPr/nCr, complex modulus, GP sum, AM/GM, variance, double
+# angles, line through two points).  Each topic was verified present in the
+# corresponding book text cache before implementation.
+# --------------------------------------------------------------------------- #
+
+
+def _c_mean_list(g, m, text):
+    nums = _nums(g["list"])
+    if not nums:
+        return _GATE
+    val = sum(nums) / len(nums)
+    steps = ["sum = " + " + ".join(_fmt(x) for x in nums) +
+             f" = {_fmt(sum(nums))}",
+             f"mean = sum / n = {_fmt(sum(nums))}/{len(nums)} = {_fmt(val)}."]
+    return val, steps, None, None, "mean = (sum of values)/n", \
+        {"n": float(len(nums))}
+
+
+def _c_perimeter_rect(g, m, text):
+    l, w = float(g["l"]), float(g["w"])
+    val = 2 * (l + w)
+    steps = [f"Perimeter = 2(length + breadth) = 2 x ({l:g} + {w:g}) = "
+             f"{_fmt(val)}."]
+    return val, steps, None, None, "perimeter = 2(l + b)", \
+        {"area": l * w}
+
+
+def _c_perimeter_square(g, m, text):
+    s = float(g["s"])
+    val = 4 * s
+    steps = [f"Perimeter of a square = 4 x side = 4 x {s:g} = {_fmt(val)}.",
+             f"(Area = {s:g}^2 = {_fmt(s * s)}.)"]
+    return val, steps, None, None, "perimeter = 4 x side", {"area": s * s}
+
+
+def _c_tri_area_bh(g, m, text):
+    b, h = float(g["b"]), float(g["h"])
+    val = 0.5 * b * h
+    steps = [f"Area = (1/2) x base x height = (1/2) x {b:g} x {h:g} = "
+             f"{_fmt(val)}."]
+    return val, steps, None, None, "area = (1/2) b h", None
+
+
+def _c_tri_third_angle(g, m, text):
+    a, b = float(g["a"]), float(g["b"])
+    third = 180.0 - a - b
+    if third <= 0:
+        return _GATE  # angle-sum violation: no such triangle
+    steps = [f"Angle-sum property: the angles of a triangle add to 180.",
+             f"Third angle = 180 - {a:g} - {b:g} = {_fmt(third)} degrees."]
+    return third, steps, f"{_fmt(third)} degrees", None, "A + B + C = 180", None
+
+
+def _c_heron(g, m, text):
+    a, b, c = float(g["a"]), float(g["b"]), float(g["c"])
+    if min(a, b, c) <= 0 or a + b <= c or b + c <= a or a + c <= b:
+        return _GATE  # triangle inequality violation
+    s = (a + b + c) / 2.0
+    val = math.sqrt(s * (s - a) * (s - b) * (s - c))
+    steps = [f"semi-perimeter s = (a + b + c)/2 = ({a:g} + {b:g} + {c:g})/2 "
+             f"= {_fmt(s)}.",
+             f"area = sqrt(s(s-a)(s-b)(s-c)) = sqrt({_fmt(s)} x {_fmt(s - a)} "
+             f"x {_fmt(s - b)} x {_fmt(s - c)}) = {_fmt(val)}."]
+    return val, steps, None, None, "area = sqrt(s(s-a)(s-b)(s-c))", \
+        {"s": s}
+
+
+def _c_discount(g, m, text):
+    mp = float(g["mp"])
+    d1 = float(g["d1"])
+    d2 = float(g["d2"]) if g.get("d2") else 0.0
+    if not (0 <= d1 < 100 and 0 <= d2 < 100):
+        return _GATE
+    sp = mp * (1 - d1 / 100.0)
+    steps = [f"Marked price = {_fmt(mp)}, discount = {d1:g}%.",
+             f"SP after first discount = {_fmt(mp)} x (1 - {d1:g}/100) = "
+             f"{_fmt(sp)}."]
+    if d2:
+        sp2 = sp * (1 - d2 / 100.0)
+        steps.append(f"Second discount {d2:g}%: SP = {_fmt(sp)} x "
+                     f"(1 - {d2:g}/100) = {_fmt(sp2)}.")
+        sp = sp2
+    saved = mp - sp
+    steps.append(f"Discount amount = {_fmt(mp)} - {_fmt(sp)} = {_fmt(saved)}.")
+    return sp, steps, f"selling price = {_fmt(sp)} (saved {_fmt(saved)})", \
+        None, "SP = MP x (1 - d/100)", {"discount_amount": saved, "mp": mp}
+
+
+def _c_gst(g, m, text):
+    amt, r = float(g["amt"]), float(g["r"])
+    if not (0 <= r < 100):
+        return _GATE
+    tax = amt * r / 100.0
+    total = amt + tax
+    steps = [f"GST = {r:g}% of {_fmt(amt)} = {_fmt(amt)} x {r:g}/100 = "
+             f"{_fmt(tax)}.",
+             f"Bill amount = {_fmt(amt)} + {_fmt(tax)} = {_fmt(total)}."]
+    want_total = any(w in text for w in ("total", "bill", "final", "pay"))
+    val = total if want_total else tax
+    return val, steps, (f"GST = {_fmt(tax)}, bill = {_fmt(total)}"), None, \
+        "GST = rate% x price", {"tax": tax, "total": total}
+
+
+def _c_direct_prop(g, m, text):
+    n1, v1, n2 = float(g["n1"]), float(g["v1"]), float(g["n2"])
+    if n1 == 0:
+        return _GATE
+    one = v1 / n1
+    val = one * n2
+    steps = [f"Cost of 1 unit = {v1:g}/{n1:g} = {_fmt(one)}.",
+             f"Cost of {n2:g} units = {_fmt(one)} x {n2:g} = {_fmt(val)} "
+             f"(direct proportion)."]
+    return val, steps, None, None, "direct proportion: x1/y1 = x2/y2", \
+        {"unit_value": one}
+
+
+def _c_inverse_prop(g, m, text):
+    n1, d1, n2 = float(g["n1"]), float(g["d1"]), float(g["n2"])
+    if n2 == 0:
+        return _GATE
+    days = n1 * d1 / n2
+    steps = [f"Total work = {n1:g} workers x {d1:g} days = {_fmt(n1 * d1)} "
+             f"worker-days (inverse proportion).",
+             f"Time for {n2:g} workers = {_fmt(n1 * d1)}/{n2:g} = "
+             f"{_fmt(days)} days."]
+    return days, steps, f"{_fmt(days)} days", None, \
+        "x1 y1 = x2 y2 (inverse proportion)", None
+
+
+def _c_sa_cube(g, m, text):
+    s = float(g["s"])
+    val = 6 * s * s
+    steps = [f"Surface area of cube = 6 edge^2 = 6 x {s:g}^2 = {_fmt(val)}.",
+             f"(Volume = {s:g}^3 = {_fmt(s ** 3)}.)"]
+    return val, steps, None, None, "SA = 6 a^2", {"volume": s ** 3}
+
+
+def _c_sa_cylinder(g, m, text):
+    r, h = float(g["r"]), float(g["h"])
+    curved = 2 * math.pi * r * h
+    is_curved = any(w in text for w in ("curved", "lateral"))
+    if is_curved:
+        steps = [f"CSA = 2 pi r h = 2 x 3.14159 x {r:g} x {h:g} = "
+                 f"{_fmt(curved)}."]
+        return curved, steps, None, None, "CSA = 2 pi r h", None
+    val = curved + 2 * math.pi * r * r
+    steps = [f"CSA = 2 pi r h = {_fmt(curved)}.",
+             f"Circles = 2 pi r^2 = {_fmt(2 * math.pi * r * r)}.",
+             f"TSA = 2 pi r (r + h) = {_fmt(val)}."]
+    return val, steps, None, None, "TSA = 2 pi r (r + h)", {"csa": curved}
+
+
+def _c_sa_sphere(g, m, text):
+    r = float(g["r"])
+    val = 4 * math.pi * r * r
+    steps = [f"Surface area of sphere = 4 pi r^2 = 4 x 3.14159 x {r:g}^2 = "
+             f"{_fmt(val)}."]
+    return val, steps, None, None, "SA = 4 pi r^2", \
+        {"volume": 4.0 / 3.0 * math.pi * r ** 3}
+
+
+def _c_hemisphere(g, m, text):
+    r = float(g["r"])
+    if "surface" in text:
+        val = 3 * math.pi * r * r
+        steps = [f"TSA of hemisphere = 3 pi r^2 = 3 x 3.14159 x {r:g}^2 = "
+                 f"{_fmt(val)} (curved 2 pi r^2 + flat circle pi r^2)."]
+        return val, steps, None, None, "TSA = 3 pi r^2", None
+    val = 2.0 / 3.0 * math.pi * r ** 3
+    steps = [f"Volume of hemisphere = (2/3) pi r^3 = (2/3) x 3.14159 x "
+             f"{r:g}^3 = {_fmt(val)}."]
+    return val, steps, None, None, "V = (2/3) pi r^3", None
+
+
+def _c_volume_cone(g, m, text):
+    r, h = float(g["r"]), float(g["h"])
+    val = math.pi * r * r * h / 3.0
+    l = math.sqrt(r * r + h * h)
+    steps = [f"Volume of cone = (1/3) pi r^2 h = (1/3) x 3.14159 x {r:g}^2 "
+             f"x {h:g} = {_fmt(val)}.",
+             f"Slant height l = sqrt(r^2 + h^2) = {_fmt(l)}."]
+    return val, steps, None, None, "V = (1/3) pi r^2 h", {"slant": l}
+
+
+def _c_heights_distances(g, m, text):
+    d, ang = float(g["dist"]), float(g["ang"])
+    if not (0 < ang < 90) or d <= 0:
+        return _GATE  # angle of 0/90 gives no usable triangle
+    h = d * math.tan(math.radians(ang))
+    steps = [f"Angle of elevation = {ang:g} degrees; horizontal distance "
+             f"= {_fmt(d)}.",
+             f"tan({ang:g} degrees) = height/distance, so height = "
+             f"{_fmt(d)} x tan({ang:g}) = {_fmt(d)} x "
+             f"{_fmt(math.tan(math.radians(ang)))} = {_fmt(h)}."]
+    return h, steps, f"height = {_fmt(h)}", None, \
+        "height = distance x tan(elevation angle)", None
+
+
+def _c_poly_zeroes(g, m, text):
+    a = float(g["a"])
+    b = float(g["b"]) * (-1 if g["s1"] == "-" else 1)
+    c = float(g["c"]) * (-1 if g["s2"] == "-" else 1)
+    if a == 0:
+        return _GATE
+    want_product = text.find("product") >= 0 and \
+        text.find("product") < text.find("zero") + 40
+    if want_product:
+        val = c / a
+        steps = [f"For ax^2 + bx + c: product of zeroes = c/a = "
+                 f"{_fmt(c)}/{_fmt(a)} = {_fmt(val)}."]
+        return val, steps, None, None, "product of zeroes = c/a", None
+    val = -b / a
+    steps = [f"For ax^2 + bx + c: sum of zeroes = -b/a = "
+             f"{_fmt(-b)}/{_fmt(a)} = {_fmt(val)}.",
+             f"(product of zeroes = c/a = {_fmt(c / a)}.)"]
+    return val, steps, None, None, "sum of zeroes = -b/a", \
+        {"product": c / a}
+
+
+def _c_linear_system(g, m, text):
+    a1 = float(g["a1"])
+    b1 = (float(g["b1"]) if g.get("b1") else 1.0) \
+        * (-1 if g["s1"] == "-" else 1)
+    c1 = float(g["c1"])
+    a2 = float(g["a2"])
+    b2 = (float(g["b2"]) if g.get("b2") else 1.0) \
+        * (-1 if g["s2"] == "-" else 1)
+    c2 = float(g["c2"])
+    det = a1 * b2 - a2 * b1
+    if det == 0:
+        return _GATE  # parallel/coincident lines: no unique solution
+    x = (c1 * b2 - c2 * b1) / det
+    y = (a1 * c2 - a2 * c1) / det
+    steps = [f"Elimination: D = a1 b2 - a2 b1 = ({a1:g})({b2:g}) - "
+             f"({a2:g})({b1:g}) = {_fmt(det)}.",
+             f"x = (c1 b2 - c2 b1)/D = {_fmt(x)}",
+             f"y = (a1 c2 - a2 c1)/D = {_fmt(y)}"]
+    return x, steps, f"x = {_fmt(x)}, y = {_fmt(y)}", None, \
+        "Cramer: x = (c1 b2 - c2 b1)/D, y = (a1 c2 - a2 c1)/D", \
+        {"y": y, "det": det}
+
+
+def _c_discriminant(g, m, text):
+    a = float(g["a"])
+    b = float(g["b"]) * (-1 if g["bop"] == "-" else 1)
+    c = float(g["c"]) * (-1 if g["cop"] == "-" else 1)
+    if a == 0:
+        return _GATE
+    disc = b * b - 4 * a * c
+    if disc > 0:
+        nature = "two distinct real roots"
+    elif disc == 0:
+        nature = "two equal real roots"
+    else:
+        nature = "no real roots"
+    steps = [f"Discriminant D = b^2 - 4ac = ({b:g})^2 - 4({a:g})({c:g}) = "
+             f"{_fmt(disc)}.",
+             f"D {'>' if disc > 0 else ('=' if disc == 0 else '<')} 0, so "
+             f"the equation has {nature}."]
+    return disc, steps, f"D = {_fmt(disc)}: {nature}", None, \
+        "D = b^2 - 4ac", None
+
+
+def _c_distance_pts(g, m, text):
+    x1, y1 = float(g["ax"]), float(g["ay"])
+    x2, y2 = float(g["bx"]), float(g["by"])
+    d = math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
+    steps = [f"distance = sqrt((x2 - x1)^2 + (y2 - y1)^2)",
+             f"= sqrt(({_fmt(x2)} - {_fmt(x1)})^2 + ({_fmt(y2)} - "
+             f"{_fmt(y1)})^2) = sqrt({_fmt((x2 - x1) ** 2)} + "
+             f"{_fmt((y2 - y1) ** 2)}) = {_fmt(d)}."]
+    return d, steps, None, None, "d = sqrt((x2-x1)^2 + (y2-y1)^2)", None
+
+
+def _c_midpoint(g, m, text):
+    x1, y1 = float(g["ax"]), float(g["ay"])
+    x2, y2 = float(g["bx"]), float(g["by"])
+    mx, my = (x1 + x2) / 2, (y1 + y2) / 2
+    steps = [f"midpoint = ((x1 + x2)/2, (y1 + y2)/2)",
+             f"= ({_fmt((x1 + x2))}/2, {_fmt((y1 + y2))}/2) = "
+             f"({_fmt(mx)}, {_fmt(my)})"]
+    return mx, steps, f"({_fmt(mx)}, {_fmt(my)})", None, \
+        "M = ((x1+x2)/2, (y1+y2)/2)", {"my": my}
+
+
+def _trig_term(g, kk, ff, aa) -> Optional[float]:
+    """Evaluate optional-coefficient trig term; None on gate failure."""
+    ang = float(g[aa])
+    if not (0 <= ang <= 90):
+        return None
+    fn = g[ff]
+    if fn == "tan" and ang == 90:
+        return None  # tan 90 undefined
+    k = float(g[kk]) if g.get(kk) else 1.0
+    return k * _trig_val(fn, ang)
+
+
+def _c_trig_sum(g, m, text):
+    t1 = _trig_term(g, "k1", "f1", "a1")
+    t2 = _trig_term(g, "k2", "f2", "a2")
+    if t1 is None or t2 is None:
+        return _GATE
+    sign = -1.0 if g["op"] == "-" else 1.0
+    val = _snap(t1 + sign * t2)
+
+    def term_str(kk, ff, aa):
+        k = f"{g[kk]} x " if g.get(kk) else ""
+        return f"{k}{g[ff]}({g[aa]} degrees)"
+
+    steps = [f"{term_str('k1', 'f1', 'a1')} = {_fmt(t1)}, "
+             f"{term_str('k2', 'f2', 'a2')} = {_fmt(sign * t2)} "
+             f"{'(subtracted)' if sign < 0 else ''}.",
+             f"Result = {_fmt(t1)} {'-' if sign < 0 else '+'} "
+             f"{_fmt(abs(t2))} = {_fmt(val)}."]
+    return val, steps, f"{_fmt(val)}", None, "standard-angle trig values", None
+
+
+def _c_trig_single(g, m, text):
+    rest = text[m.end():]
+    if re.match(r"\s*\(", rest):
+        return _GATE  # e.g. "sin 2(30)" is a double-angle form, not sin(2)
+    t1 = _trig_term(g, None, "f1", "a1") if g.get("f1") else None
+    if t1 is None:
+        return _GATE
+    steps = [f"{g['f1']}({g['a1']} degrees) = {_fmt(t1)}."]
+    return t1, steps, f"{_fmt(t1)}", None, "standard-angle trig value", None
+
+
+def _sector_args(g):
+    r = float(g["r"])
+    ang = float(g["ang"])
+    if r <= 0 or not (0 < ang <= 360):
+        return None, None
+    return r, ang
+
+
+def _c_sector_area(g, m, text):
+    r, ang = _sector_args(g)
+    if r is None:
+        return _GATE
+    val = (ang / 360.0) * math.pi * r * r
+    steps = [f"Area of sector = (angle/360) x pi r^2 = ({ang:g}/360) x "
+             f"3.14159 x {r:g}^2 = {_fmt(val)}.",
+             f"(Arc length = ({ang:g}/360) x 2 pi r = "
+             f"{_fmt((ang / 360.0) * 2 * math.pi * r)}.)"]
+    return val, steps, None, None, "sector area = (theta/360) pi r^2", \
+        {"arc_length": (ang / 360.0) * 2 * math.pi * r}
+
+
+def _c_arc_length(g, m, text):
+    r, ang = _sector_args(g)
+    if r is None:
+        return _GATE
+    val = (ang / 360.0) * 2 * math.pi * r
+    steps = [f"Arc length = (angle/360) x 2 pi r = ({ang:g}/360) x 2 x "
+             f"3.14159 x {r:g} = {_fmt(val)}."]
+    return val, steps, None, None, "arc = (theta/360) 2 pi r", None
+
+
+def _grouped_capture(text: str, keyword: str):
+    """Shared (pairs, freqs) extraction for grouped median/mode rows."""
+    mm = re.search(
+        r"\b" + keyword + r"\b[^.]{0,80}?"
+        r"(?:grouped\s+data|frequency\s+distribution|frequency\s+table)"
+        r"[^.]{0,200}?"
+        r"(?P<cls>(?:\d+(?:\.\d+)?\s*-\s*\d+(?:\.\d+)?[,\s;]*)+)"
+        r"[^.]{0,120}?(?:f(?:req(?:uency)?)?\s*(?:=|:)?\s*"
+        r"(?P<fs>[\d.,\s]+))", text, re.I)
+    if not mm:
+        return None, None
+    pairs = [(float(lo), float(hi)) for lo, hi in
+             re.findall(r"(\d+(?:\.\d+)?)\s*-\s*(\d+(?:\.\d+)?)",
+                        mm.group("cls"))]
+    fs = _nums(mm.group("fs"))
+    if len(pairs) < 3 or len(pairs) != len(fs):
+        return None, None
+    return pairs, fs
+
+
+def _c_median_grouped(g, m, text):
+    pairs, fs = _grouped_capture(text, "median")
+    if pairs is None:
+        return _GATE
+    n = sum(fs)
+    half = n / 2.0
+    cf = 0.0
+    for (lo, hi), f, cf_prev in zip(pairs, fs,
+                                    [0.0] + [sum(fs[:i + 1])
+                                             for i in range(len(fs) - 1)]):
+        cf = cf_prev + f
+        if cf >= half:
+            med_cls = (lo, hi, f, cf_prev)
+            break
+    else:
+        return _GATE
+    lo, hi, f, cf_prev = med_cls
+    h = hi - lo
+    if f == 0 or h <= 0:
+        return _GATE
+    med = lo + (half - cf_prev) / f * h
+    steps = [f"cf: " + ", ".join(f"{_fmt(sum(fs[:i + 1]))}"
+                                 for i in range(len(fs))) +
+             f"; N/2 = {_fmt(half)}.",
+             f"Median class = {_fmt(lo)}-{_fmt(hi)} (cf {_fmt(cf)} first "
+             f"crosses N/2).",
+             f"median = L + ((N/2 - cf)/f) x h = {_fmt(lo)} + "
+             f"({_fmt(half - cf_prev)}/{_fmt(f)}) x {_fmt(h)} = {_fmt(med)}."]
+    return med, steps, None, None, \
+        "median = L + ((N/2 - cf)/f) h", {"N": n}
+
+
+def _c_mode_grouped(g, m, text):
+    pairs, fs = _grouped_capture(text, "mode")
+    if pairs is None:
+        return _GATE
+    k = fs.index(max(fs))
+    f1 = fs[k]
+    f0 = fs[k - 1] if k > 0 else 0.0
+    f2 = fs[k + 1] if k < len(fs) - 1 else 0.0
+    denom = 2 * f1 - f0 - f2
+    if denom <= 0:
+        return _GATE
+    lo, hi = pairs[k]
+    h = hi - lo
+    mode = lo + (f1 - f0) / denom * h
+    steps = [f"Modal class = {_fmt(lo)}-{_fmt(hi)} (highest frequency "
+             f"{f1:g}).",
+             f"mode = L + ((f1 - f0)/(2f1 - f0 - f2)) x h",
+             f"= {_fmt(lo)} + ({f1:g} - {f0:g})/({2 * f1:g} - {f0:g} - "
+             f"{f2:g}) x {_fmt(h)} = {_fmt(mode)}."]
+    return mode, steps, None, None, \
+        "mode = L + ((f1-f0)/(2f1-f0-f2)) h", None
+
+
+_CARD_RANKS = {"ace": 4, "king": 4, "queen": 4, "jack": 4}
+_SUITS = {"heart": 13, "spade": 13, "diamond": 13, "club": 13}
+
+
+def _c_probability_basic(g, m, text):
+    what = (g["what"] or "").lower()
+    full = text.lower()
+    # --- deck of cards ---
+    if any(w in what or w in full for w in ("card", "deck", "pack")):
+        if "face" in what:
+            n, tot = 12, 52
+        elif any(r in what for r in _CARD_RANKS):
+            n, tot = 4, 52
+        elif "red" in what and "card" in full:
+            n, tot = 26, 52
+        elif "black" in what and "card" in full:
+            n, tot = 26, 52
+        else:
+            for s, cnt in _SUITS.items():
+                if s in what:
+                    n, tot = cnt, 52
+                    break
+            else:
+                return _GATE
+        fr = Fraction(n, tot)
+        return (n / tot,
+                [f"A deck has 52 cards; favourable = {n}.",
+                 f"P = {n}/{tot} = {fr.numerator}/{fr.denominator}."],
+                f"{fr.numerator}/{fr.denominator}", None,
+                "P = favourable/total", {"favourable": float(n)})
+    # --- dice ---
+    if "die" in what or "dice" in what:
+        two = "two" in full or "2 dice" in full
+        mk = re.search(r"sum\s+(?:of\s+)?(?:exactly\s+)?(\d+)", what)
+        if two and mk:
+            k = int(mk.group(1))
+            cnt = sum(1 for i in range(1, 7) for j in range(1, 7)
+                      if i + j == k)
+            n, tot = cnt, 36
+        elif two:
+            return _GATE
+        elif "even" in what:
+            n, tot = 3, 6
+        elif "odd" in what:
+            n, tot = 3, 6
+        elif "prime" in what:
+            n, tot = 3, 6
+        elif "greater than" in what:
+            k = int(re.search(r"greater than\s+(\d+)", what).group(1))
+            n, tot = max(0, 6 - k), 6
+        elif "less than" in what:
+            k = int(re.search(r"less than\s+(\d+)", what).group(1))
+            n, tot = min(6, k - 1), 6
+        elif "at least" in what:
+            k = int(re.search(r"at least\s+(\d+)", what).group(1))
+            n, tot = max(0, 6 - k + 1), 6
+        elif "at most" in what:
+            k = int(re.search(r"at most\s+(\d+)", what).group(1))
+            n, tot = min(6, k), 6
+        elif "multiple of" in what:
+            k = int(re.search(r"multiple of\s+(\d+)", what).group(1))
+            n, tot = len([i for i in range(1, 7) if k and i % k == 0]), 6
+        else:
+            mk = re.search(r"(\d+)", what)
+            if not mk or not (1 <= int(mk.group(1)) <= 6):
+                return _GATE
+            n, tot = 1, 6
+        fr = Fraction(n, tot)
+        return (n / tot,
+                [f"A fair die has {tot} equally likely outcomes; "
+                 f"favourable = {n}.",
+                 f"P = {n}/{tot} = {fr.numerator}/{fr.denominator}."],
+                f"{fr.numerator}/{fr.denominator}", None,
+                "P = favourable/total", {"favourable": float(n)})
+    # --- coins ---
+    if "coin" in what:
+        if "at least one" in what:
+            n, tot = 3, 4
+        elif "exactly one" in what:
+            n, tot = 2, 4
+        elif "two heads" in what or "both heads" in what or \
+                ("both" in what and "head" in what):
+            n, tot = 1, 4
+        elif "two tails" in what or "both tails" in what:
+            n, tot = 1, 4
+        elif "head" in what or "tail" in what:
+            n, tot = 1, 2
+        else:
+            return _GATE
+        fr = Fraction(n, tot)
+        return (n / tot,
+                [f"Equally likely outcomes = {tot}; favourable = {n}.",
+                 f"P = {n}/{tot} = {fr.numerator}/{fr.denominator}."],
+                f"{fr.numerator}/{fr.denominator}", None,
+                "P = favourable/total", {"favourable": float(n)})
+    # --- bag of coloured balls ---
+    for col in _COLORS:
+        if col in what:
+            counts = _bag_counts(text)
+            if col not in counts:
+                return _GATE
+            n = counts[col]
+            tot = sum(counts.values())
+            if tot <= 0:
+                return _GATE
+            fr = Fraction(int(n), int(tot))
+            return (n / tot,
+                    [f"Bag: total {int(tot)} balls, {int(n)} {col}.",
+                     f"P = {int(n)}/{int(tot)} = "
+                     f"{fr.numerator}/{fr.denominator}."],
+                    f"{fr.numerator}/{fr.denominator}", None,
+                    "P = favourable/total", {"favourable": n})
+    return _GATE
+
+
+def _c_gp_sum(g, m, text):
+    a, r, n = float(g["a"]), float(g["r"]), float(g["n"])
+    if n < 1:
+        return _GATE
+    if abs(r - 1.0) < 1e-12:
+        val = a * n
+        steps = [f"r = 1, so S_n = a x n = {a:g} x {n:g} = {_fmt(val)}."]
+    else:
+        val = a * (r ** n - 1) / (r - 1)
+        steps = [f"S_n = a(r^n - 1)/(r - 1) = {a:g}({r:g}^{n:g} - 1)/"
+                 f"({r:g} - 1).",
+                 f"= {a:g} x {_fmt(r ** n - 1)}/{_fmt(r - 1)} = {_fmt(val)}."]
+    return val, steps, None, None, "S_n = a(r^n - 1)/(r - 1)", None
+
+
+def _c_gp_sum_infinite(g, m, text):
+    a, r = float(g["a"]), float(g["r"])
+    if abs(r) >= 1:
+        return _GATE  # infinite GP converges only for |r| < 1
+    val = a / (1 - r)
+    steps = [f"S_infinity = a/(1 - r), valid for |r| < 1.",
+             f"= {a:g}/(1 - {r:g}) = {a:g}/{_fmt(1 - r)} = {_fmt(val)}."]
+    return val, steps, None, None, "S_inf = a/(1 - r)", None
+
+
+def _c_am_two(g, m, text):
+    a, b = float(g["a"]), float(g["b"])
+    val = (a + b) / 2
+    steps = [f"Arithmetic mean = (a + b)/2 = ({a:g} + {b:g})/2 = "
+             f"{_fmt(val)}."]
+    return val, steps, None, None, "AM = (a + b)/2", None
+
+
+def _c_gm_two(g, m, text):
+    a, b = float(g["a"]), float(g["b"])
+    if a <= 0 or b <= 0:
+        return _GATE  # GM of the book is defined for positive numbers
+    val = math.sqrt(a * b)
+    steps = [f"Geometric mean = sqrt(ab) = sqrt({a:g} x {b:g}) = "
+             f"{_fmt(val)}."]
+    return val, steps, None, None, "GM = sqrt(ab)", None
+
+
+def _c_npr_ncr(g, m, text):
+    n, r = int(float(g["n"])), int(float(g["r"]))
+    if n < 0 or r < 0 or r > n or n > 500:
+        return _GATE
+    is_p = g["kind"].lower() == "p"
+    if is_p:
+        v = math.perm(n, r)
+        steps = [f"P(n, r) = n!/(n - r)! = {n}!/{n - r}!.",
+                 f"= {v}."]
+    else:
+        v = math.comb(n, r)
+        steps = [f"C(n, r) = n!/(r!(n - r)!) = {n}!/({r}! x {n - r}!).",
+                 f"= {v}."]
+    return float(v), steps, str(v), None, \
+        ("P(n,r) = n!/(n-r)!" if is_p else "C(n,r) = n!/(r!(n-r)!)"), None
+
+
+def _c_modulus_complex(g, m, text):
+    a = float(g["a"])
+    b = float(g["b"]) * (-1 if g["sgn"] == "-" else 1)
+    val = math.hypot(a, b)
+    steps = [f"|a + bi| = sqrt(a^2 + b^2) = sqrt(({a:g})^2 + ({b:g})^2) = "
+             f"{_fmt(val)}."]
+    return val, steps, f"{_fmt(val)}", None, "|a+bi| = sqrt(a^2+b^2)", None
+
+
+def _c_variance(g, m, text):
+    nums = _nums(g["list"])
+    n = len(nums)
+    if n < 2:
+        return _GATE
+    mean = sum(nums) / n
+    var = sum((x - mean) ** 2 for x in nums) / n
+    want_sd = "standard" in text or "deviation" in text
+    val = math.sqrt(var) if want_sd else var
+    steps = [f"mean = {_fmt(mean)}.",
+             f"sigma^2 = sum(x - mean)^2 / n = {_fmt(var)}.",
+             (f"sigma = sqrt({_fmt(var)}) = {_fmt(val)}." if want_sd
+              else f"variance = {_fmt(val)}.")]
+    return val, steps, None, None, "sigma^2 = sum(x-mean)^2/n", \
+        {"mean": mean, "variance": var}
+
+
+def _c_double_angle(g, m, text):
+    a = float(g["a"])
+    if not (0 <= a <= 90):
+        return _GATE
+    two_a = 2 * a
+    fn = g["fn"]
+    if fn == "tan" and two_a == 90:
+        return _GATE  # tan(90) undefined
+    val = _snap(_trig_val(fn, two_a))
+    steps = [f"Double-angle identity: {fn}(2A) with A = {a:g} degrees.",
+             f"{fn}({two_a:g} degrees) = {_fmt(val)}."]
+    return val, steps, f"{_fmt(val)}", None, f"{fn}(2A)", None
+
+
+def _c_double_product(g, m, text):
+    a1, a2 = float(g["a1"]), float(g["a2"])
+    if a1 != a2 or not (0 <= a1 <= 90):
+        return _GATE
+    val = _snap(_trig_val("sin", 2 * a1))
+    steps = [f"Double-angle identity: 2 sin(A)cos(A) = sin(2A).",
+             f"A = {a1:g}, so sin({2 * a1:g} degrees) = {_fmt(val)}."]
+    return val, steps, f"{_fmt(val)}", None, "2 sin A cos A = sin 2A", None
+
+
+def _c_line_two_points(g, m, text):
+    x1, y1 = float(g["ax"]), float(g["ay"])
+    x2, y2 = float(g["bx"]), float(g["by"])
+    if x2 == x1:
+        return _GATE  # vertical line: x = const, not y = mx + c
+    slope = (y2 - y1) / (x2 - x1)
+    inter = y1 - slope * x1
+    fs = Fraction(slope).limit_denominator(10000)
+    fi = Fraction(inter).limit_denominator(10000)
+
+    def _fr(x: Fraction) -> str:
+        return f"{x.numerator}" if x.denominator == 1 \
+            else f"{x.numerator}/{x.denominator}"
+
+    if fi == 0:
+        mx = ""
+    elif fi < 0:
+        mx = f" - {_fr(-fi)}"
+    else:
+        mx = f" + {_fr(fi)}"
+    ans = f"y = {_fr(fs)}x{mx}"
+    steps = [f"slope = ({_fmt(y2)} - {_fmt(y1)})/({_fmt(x2)} - {_fmt(x1)}) "
+             f"= {_fmt(slope)}.",
+             f"y - y1 = m(x - x1) -> y = {_fmt(slope)}x "
+             f"{'+' if inter >= 0 else '-'} {_fmt(abs(inter))}.",
+             f"Equation: {ans}."]
+    return slope, steps, ans, None, "y - y1 = m (x - x1)", \
+        {"y_intercept": inter}
+
+
+_TABLE_BOOKS2 = [
+    # NOTE: AM_TWO/GM_TWO precede MEAN_LIST ("mean of 4 and 10" would
+    # otherwise be eaten by the generic mean-of-list trigger), and
+    # DOUBLE_ANGLE precedes TRIG_STD_EVAL for the same reason.
+    # ---- class 11: series means ----
+    ("AM_TWO",
+     r"arithmetic\s+mean\s+of\s+(?P<a>" + _U_NUM + r")\s+and\s+(?P<b>"
+     + _U_NUM + r")",
+     _c_am_two),
+    ("GM_TWO",
+     r"geometric\s+mean\s+of\s+(?P<a>" + _U_NUM + r")\s+and\s+(?P<b>"
+     + _U_NUM + r")",
+     _c_gm_two),
+    # ---- class 11: double angles ----
+    ("DOUBLE_ANGLE",
+     r"\b(?P<fn>sin|cos|tan)\s*\(?\s*2\s*(?:\(|[x×*]\s*|\s+)(?P<a>"
+     + _U_NUM + r")\s*°?\s*\)?\s*\)?",
+     _c_double_angle),
+    ("DOUBLE_ANGLE",
+     r"2\s*[x×*]?\s*sin\s*\(?\s*(?P<a1>" + _U_NUM + r")\s*°?\s*\)?\s*"
+     r"[x×*]?\s*cos\s*\(?\s*(?P<a2>" + _U_NUM + r")\s*°?\s*\)?",
+     _c_double_product),
+    # ---- class 10-11: standard-angle trig values ----
+    ("TRIG_STD_EVAL",
+     r"\b(?:evaluate|find|calculate|value\s+of)\b[^.]{0,20}?"
+     r"(?:(?P<k1>\d+)\s*\*?\s*)?\b(?P<f1>sin|cos|tan)\s*\(?\s*"
+     r"(?P<a1>" + _U_NUM + r")\s*°?\s*\)?\s*(?P<op>[+-])\s*"
+     r"(?:(?P<k2>\d+)\s*\*?\s*)?\b(?P<f2>sin|cos|tan)\s*\(?\s*"
+     r"(?P<a2>" + _U_NUM + r")\s*°?\s*\)?",
+     _c_trig_sum),
+    ("TRIG_STD_EVAL",
+     r"\b(?:evaluate|find|calculate)\b[^.]{0,20}?(?:the\s+value\s+of\s+)?"
+     r"\b(?P<f1>sin|cos|tan)\s*\(?\s*(?P<a1>" + _U_NUM + r")\s*°?\s*\)?",
+     _c_trig_single),
+    # ---- class 6-8: mean of a raw list ----
+    ("MEAN_LIST",
+     r"\b(?:mean|average)\s+of\s+" + _LISTKW + r"(?P<list>" + _NUMCLS + r")",
+     _c_mean_list),
+    ("PERIMETER_RECTANGLE",
+     r"perimeter\s+of\s+(?:a\s+)?rectangle\s+(?:of|with)?\s*(?:length\s*)?"
+     r"(?:is\s+)?(?P<l>" + _NUM + r")\s*(?:cm|m)?\s*(?:and|by|x|\*)\s*"
+     r"(?:breadth|width)\s*(?:is\s+)?(?P<w>" + _NUM + r")",
+     _c_perimeter_rect),
+    ("PERIMETER_SQUARE",
+     r"perimeter\s+of\s+(?:a\s+)?square\s+(?:of|with)\s+side\s+(?:is\s+)?"
+     r"(?P<s>" + _NUM + r")",
+     _c_perimeter_square),
+    ("TRIANGLE_AREA_BH",
+     r"area\s+of\s+(?:a\s+)?triangle\s+(?:of|with|having)\s+base\s+"
+     r"(?:is\s+)?(?P<b>" + _NUM + r")\s*(?:cm|m)?\s*(?:and|,)\s*"
+     r"(?:height|altitude)\s*(?:is\s+)?(?P<h>" + _NUM + r")",
+     _c_tri_area_bh),
+    ("TRIANGLE_THIRD_ANGLE",
+     r"two\s+angles\s+of\s+(?:a\s+)?triangle\s+(?:are\s+)?(?P<a>" + _NUM +
+     r")\s*(?:degrees?|°)?\s+and\s+(?P<b>" + _NUM + r")",
+     _c_tri_third_angle),
+    ("HERONS_FORMULA",
+     r"area\s+of\s+(?:a\s+)?triangle\s+(?:with|having|whose)\s+sides\s+"
+     r"(?:are\s+|of\s+|of\s+length\s+)?(?P<a>" + _NUM + r")\s*,\s*"
+     r"(?P<b>" + _NUM + r")\s*(?:,\s*|and\s+)" + r"(?P<c>" + _NUM + r")",
+     _c_heron),
+    # ---- class 8 comparing quantities: discount, GST, proportion ----
+    ("DISCOUNT_SP",
+     r"(?:marked\s+price|list\s+price|\bmp\b)[^0-9]{0,20}(?P<mp>" + _NUM +
+     r")[^.]{0,80}?discount(?:s)?\s*(?:of)?[^.]{0,20}?(?P<d1>" + _U_NUM +
+     r")\s*%(?:\s*(?:and|,)\s*(?:then\s*)?(?P<d2>" + _U_NUM + r")\s*%)?",
+     _c_discount),
+    ("DISCOUNT_SP",
+     r"successive\s+discounts?\s+of\s+(?P<d1>" + _U_NUM + r")\s*%?"
+     r"(?:\s*(?:and|,)\s*(?P<d2>" + _U_NUM + r")\s*%?)?"
+     r"[^.]{0,60}?(?:on|from)\s+(?:rs\.?\s*|₹\s*)?[^.]{0,30}?"
+     r"(?P<mp>" + _NUM + r")",
+     _c_discount),
+    ("DISCOUNT_SP",
+     r"discount\s+of\s+(?P<d1>" + _U_NUM + r")\s*%"
+     r"(?:\s*(?:and|,)\s*(?P<d2>" + _U_NUM + r")\s*%)?"
+     r"[^.]{0,60}?(?:on|from)\s+(?:marked\s+price\s+(?:of\s+)?|rs\.?\s*|"
+     r"₹\s*|a\s+)?(?P<mp>" + _NUM + r")",
+     _c_discount),
+    ("GST_AMOUNT",
+     r"(?:gst|tax)\s+(?:of\s+)?(?P<r>" + _U_NUM + r")\s*%[^.]{0,60}?"
+     r"(?:on|for|of)\s+(?:rs\.?\s*|₹\s*)?[^.]{0,30}?(?P<amt>" + _NUM + r")",
+     _c_gst),
+    ("GST_AMOUNT",
+     r"(?P<amt>" + _NUM + r")[^.]{0,60}?(?:gst|tax)[^.]{0,30}?"
+     r"(?:at|of|@)\s*(?P<r>" + _U_NUM + r")\s*%",
+     _c_gst),
+    ("DIRECT_PROPORTION",
+     r"(?:if\s+)?(?:the\s+)?cost\s+of\s+(?P<n1>" + _NUM + r")\s*"
+     r"(?:m\b|met(?:er|re)s?|lit(?:er|re)s?|liters?|dozen|g\b|grams?)"
+     r"[^.]{0,40}?\s+is\s+(?:rs\.?\s*|₹\s*)?(?P<v1>" + _NUM + r")"
+     r"[^.]{0,90}?(?:cost|price)\s+of\s+(?P<n2>" + _NUM + r")",
+     _c_direct_prop),
+    ("INVERSE_PROPORTION",
+     r"(?P<n1>" + _U_NUM + r")\s*(?:workers?|men|labourers?|laborers?)"
+     r"[^.]{0,60}?(?:in|taking)\s+(?P<d1>" + _NUM + r")\s*days?"
+     r"[^.]{0,90}?(?P<n2>" + _U_NUM + r")\s*(?:workers?|men|labourers?|"
+     r"laborers?)",
+     _c_inverse_prop),
+    # ---- class 8-10 mensuration: surface areas, cone, hemisphere ----
+    ("SA_CUBE",
+     r"surface\s+area\s+of\s+(?:a\s+)?cube\s+(?:of|with)\s+(?:edge|side)\s+"
+     r"(?:is\s+)?(?P<s>" + _NUM + r")",
+     _c_sa_cube),
+    ("SA_CYLINDER",
+     r"(?:total\s+|curved\s+|lateral\s+)?surface\s+area\s+of\s+(?:a\s+)?"
+     r"cylinder\s+(?:of|with)\s+radius\s+(?:is\s+)?(?P<r>" + _NUM + r")"
+     r"\s*(?:cm|m)?\s*(?:and|,)\s*(?:height\s*)?(?:is\s+)?(?P<h>" + _NUM +
+     r")",
+     _c_sa_cylinder),
+    ("SA_SPHERE",
+     r"surface\s+area\s+of\s+(?:a\s+)?sphere\s+(?:of|with)\s+radius\s+"
+     r"(?:is\s+)?(?P<r>" + _NUM + r")",
+     _c_sa_sphere),
+    ("VOLUME_HEMISPHERE",
+     r"(?:volume\s+of|(?:total\s+)?surface\s+area\s+of)\s+(?:a\s+)?"
+     r"hemisphere\s+(?:of|with)\s+radius\s+(?:is\s+)?(?P<r>" + _NUM + r")",
+     _c_hemisphere),
+    ("VOLUME_CONE",
+     r"volume\s+of\s+(?:a\s+)?cone\s+(?:of|with)\s+(?:base\s+)?radius\s+"
+     r"(?:is\s+)?(?P<r>" + _NUM + r")\s*(?:cm|m)?\s*(?:and|,)\s*"
+     r"(?:height\s*)?(?:is\s+)?(?P<h>" + _NUM + r")",
+     _c_volume_cone),
+    # ---- class 10: heights and distances ----
+    ("HEIGHTS_DISTANCES",
+     r"(?:elevation|depression)[^.]{0,160}?(?:is\s+)?(?P<ang>" + _U_NUM +
+     r")\s*(?:degrees?|°)?[^.]{0,200}?(?:distance\s+of\s+|from\s+a\s+"
+     r"point\s+|from\s+)?(?P<dist>" + _NUM + r")\s*(?:m\b|met(?:er|re)s?|"
+     r"km\b)",
+     _c_heights_distances),
+    ("HEIGHTS_DISTANCES",
+     r"(?:point[^.]{0,40}?)?(?P<dist>" + _NUM + r")\s*(?:m\b|"
+     r"met(?:er|re)s?|km\b)\s*(?:away|from|distant)[^.]{0,200}?"
+     r"(?:elevation|depression|angle)[^.]{0,120}?(?:is\s+|of\s+)?"
+     r"(?P<ang>" + _U_NUM + r")\s*(?:degrees?|°)?",
+     _c_heights_distances),
+    # ---- class 9-10 algebra ----
+    ("POLY_ZEROES_QUAD",
+     r"(?:sum|product)\s+of\s+(?:the\s+)?(?:zeroes|zeros|roots)\s+of\s+"
+     r"(?:the\s+)?(?:polynomial\s+)?(?P<a>" + _NUM + r")\s*x\s*\^?\s*2\s*"
+     r"(?P<s1>[+-])\s*(?P<b>" + _NUM + r")\s*x\s*(?P<s2>[+-])\s*"
+     r"(?P<c>" + _NUM + r")",
+     _c_poly_zeroes),
+    ("LINEAR_SYSTEM_2X2",
+     r"solve[^.]{0,60}?(?P<a1>" + _NUM + r")\s*x\s*(?P<s1>[+-])\s*"
+     r"(?:(?P<b1>" + _NUM + r")\s*)?y\s*=\s*(?P<c1>" + _NUM + r")"
+     r"[^.]{0,60}?(?:and\s+)?(?P<a2>" + _NUM + r")\s*x\s*(?P<s2>[+-])\s*"
+     r"(?:(?P<b2>" + _NUM + r")\s*)?y\s*=\s*(?P<c2>" + _NUM + r")",
+     _c_linear_system),
+    ("DISTANCE_TWO_POINTS",
+     r"distance\s+between\s+(?:the\s+)?(?:points?\s+)?" + _pt("a") +
+     r"\s+and\s+(?:the\s+)?(?:points?\s+)?" + _pt("b"),
+     _c_distance_pts),
+    ("MIDPOINT_FORMULA",
+     r"midpoint\s+of\s+(?:the\s+)?(?:line\s+)?(?:segment\s+)?"
+     r"(?:join(?:ing|s)?\s+)?(?:the\s+)?(?:points?\s+)?" + _pt("a") +
+     r"\s+and\s+(?:the\s+)?(?:points?\s+)?" + _pt("b"),
+     _c_midpoint),
+    # ---- class 10-11 circles / sectors ----
+    ("CIRCLE_SECTOR_AREA",
+     r"area\s+of\s+(?:a\s+)?sector[^.]{0,120}?radius\s+(?:is\s+|of\s+)?"
+     r"(?P<r>" + _NUM + r")[^.]{0,120}?(?:central\s+)?angle\s+(?:is\s+|"
+     r"of\s+)?(?P<ang>" + _U_NUM + r")",
+     _c_sector_area),
+    ("CIRCLE_SECTOR_AREA",
+     r"sector\s+(?:of\s+)?(?:central\s+)?angle\s+(?:is\s+|of\s+)?"
+     r"(?P<ang>" + _U_NUM + r")[^.]{0,120}?radius\s+(?:is\s+|of\s+)?"
+     r"(?P<r>" + _NUM + r")",
+     _c_sector_area),
+    ("ARC_LENGTH",
+     r"length\s+of\s+(?:the\s+)?arc[^.]{0,120}?radius\s+(?:is\s+|of\s+)?"
+     r"(?P<r>" + _NUM + r")[^.]{0,120}?(?:central\s+)?angle\s+(?:is\s+|"
+     r"of\s+)?(?P<ang>" + _U_NUM + r")",
+     _c_arc_length),
+    ("ARC_LENGTH",
+     r"arc\s+(?:of\s+a\s+circle[^.]{0,40}?)?(?:that\s+)?subtend(?:s|ed)?\s+"
+     r"(?:an\s+)?angle\s+of\s+(?P<ang>" + _U_NUM + r")[^.]{0,120}?"
+     r"radius\s+(?:is\s+|of\s+)?(?P<r>" + _NUM + r")",
+     _c_arc_length),
+    # ---- class 10 statistics: grouped median/mode ----
+    ("MEDIAN_GROUPED",
+     r"\bmedian\b[^.]{0,80}?(?:grouped\s+data|frequency\s+distribution|"
+     r"frequency\s+table)", _c_median_grouped),
+    ("MODE_GROUPED",
+     r"\bmode\b[^.]{0,80}?(?:grouped\s+data|frequency\s+distribution|"
+     r"frequency\s+table)", _c_mode_grouped),
+    # ---- class 9-10 probability ----
+    ("PROBABILITY_BASIC",
+     r"\bprobability\s+(?:of|that)\s+(?:getting|drawing|selecting|choosing|"
+     r"picking)?\s*(?:a|an|the)?\s*(?P<what>[a-z][a-z\-\s]{1,44})", None),
+    # ---- class 11: series, P&C, complex, stats, lines ----
+    ("GP_SUM",
+     r"sum\s+of\s+(?:the\s+)?first\s+(?P<n>" + _U_NUM + r")\s+terms?\s+of\s+"
+     r"(?:the\s+)?(?:gp|g\.p\.|geometric\s+progression)"
+     r".{0,40}?first\s+term\s+(?:is\s+)?(?P<a>" + _NUM + r")"
+     r".{0,40}?(?:common\s+ratio|ratio)\s+(?:is\s+)?(?P<r>" + _NUM + r")",
+     _c_gp_sum),
+    ("GP_SUM_INFINITE",
+     r"sum\s+of\s+(?:the\s+)?infinite\s+(?:gp|g\.p\.|geometric\s+"
+     r"(?:progression|series))"
+     r".{0,40}?first\s+term\s+(?:is\s+)?(?P<a>" + _NUM + r")"
+     r".{0,40}?(?:common\s+ratio|ratio)\s+(?:is\s+)?(?P<r>" + _NUM + r")",
+     _c_gp_sum_infinite),
+    ("NPR_NCR_EVAL",
+     r"\b(?:evaluate|compute|find|calculate|value\s+of)\b[^a-z0-9]{0,10}"
+     r"(?:the\s+value\s+of\s+)?(?P<n>\d+)\s*(?P<kind>[PpCc])\s*(?P<r>\d+)\b",
+     _c_npr_ncr),
+    ("MODULUS_COMPLEX",
+     r"modulus\s+of\s+(?P<a>" + _NUM + r")\s*(?P<sgn>[+-])\s*(?P<b>" + _NUM
+     + r")\s*i\b",
+     _c_modulus_complex),
+    ("VARIANCE_STDDEV",
+     r"\b(?:variance|standard\s+deviation)\s+of\s+" + _LISTKW +
+     r"(?P<list>" + _NUMCLS + r")",
+     _c_variance),
+    ("LINE_THROUGH_TWO_POINTS",
+     r"equation\s+of\s+(?:the\s+)?line\s+(?:passing\s+through\s+|"
+     r"through\s+|joining\s+)" + _pt("a") +
+     r"\s+and\s+(?:the\s+)?(?:points?\s+)?" + _pt("b"),
+     _c_line_two_points),
+    # priority row: "nature of the roots ..." must beat QUADRATIC_ROOTS
+    # (same quadratic would otherwise be claimed and its roots reported).
+    ("DISCRIMINANT_NATURE",
+     r"nature\s+of\s+(?:the\s+)?roots\s+of\s+(?P<a>" + _NUM + r")\s*x\s*"
+     r"\^?\s*2\s*(?P<bop>[+-])\s*(?P<b>" + _NUM + r")\s*x\s*(?P<cop>[+-])\s*"
+     r"(?P<c>" + _NUM + r")\s*=\s*0",
+     _c_discriminant),
+]
+
+# PROBABILITY_BASIC handler is filled here (kept out of the literal above so
+# the table stays declarative; handler lives in _c_probability_basic).
+_TABLE_BOOKS2 = [(fid, pat, (_c_probability_basic if calc is None else calc))
+                 for fid, pat, calc in _TABLE_BOOKS2]
+
+_TABLE.extend(_TABLE_BOOKS2)
+
+# priority fix: move DISCRIMINANT_NATURE ahead of QUADRATIC_ROOTS so that
+# "nature of the roots of ax^2+bx+c=0" reports D, not the roots themselves.
+_i = next(i for i, r_ in enumerate(_TABLE) if r_[0] == "QUADRATIC_ROOTS")
+_disc_rows = [r_ for r_ in _TABLE if r_[0] == "DISCRIMINANT_NATURE"]
+for _row in _disc_rows:
+    _TABLE.remove(_row)
+    _TABLE.insert(_i, _row)
+
+
 TABLE = _TABLE
 
 TABLE = _TABLE

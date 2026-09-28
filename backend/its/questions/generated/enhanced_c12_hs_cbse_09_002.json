@@ -34,6 +34,21 @@
      "q": "Design a one‑day vegetarian meal plan (three meals + two snacks) for a 55 kg sedentary woman in her second trimester that meets at least 90 % of RDAs for energy, protein, iron, folic acid, and calcium. List foods with approximate quantities.",
      "a": "A good answer includes: (e.g., Breakfast: 150 g fortified cereal + 200 mL milk + 50 g banana; Mid‑morning: 30 g roasted chana + 100 g guava; Lunch: 100 g raw rice + 50 g dal + 100 g spinach sabzi + 100 g curd; Evening: 50 g peanuts + 100 g orange; Dinner: 2 rotis (60 g wheat) + 50 g paneer + 100 g methi leaves + salad). Quantities should yield ~2400 kcal, 80 g protein, 45 mg iron, 500 µg folate, 1200 mg calcium. A poor answer misses calcium‑rich foods or relies only on supplements, showing inability to translate RDA into food‑based planning — a key competency for board case studies.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Nutritional requirements during pregnancy refer to the increased need for energy, ______ (protein, fat, carbohydrates), and micronutrients (iron, folic acid, calcium, vitamin D, iodine, zinc) to support maternal physiological changes (expanded blood volume, uterine growth, placental development) and fetal growth, as quantified by the ICMR Recommended Dietary Allowances (RDA) for each trimester.",
+     "a": "macronutrients",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 25‑year‑old woman, 55 kg, ______, just confirmed pregnant.",
+     "a": "sedentary",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) list the major physiological changes in pregnancy and link each to specific nutrient demands, and (2) calculate the trimester‑wise RDA for energy, protein, iron, folic acid, and calcium for a given reference woman (55 kg, sedentary) using ICMR 2020 values.",
+     "self_check": true
     }
    ]
   }

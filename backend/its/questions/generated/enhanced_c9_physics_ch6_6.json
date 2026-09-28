@@ -34,6 +34,31 @@
      "q": "A student says: \"A higher voltage battery has more current.\" Evaluate this statement.",
      "a": "The statement is incomplete. Voltage (potential difference) and current are related by Ohm's law: V = IR, so I = V/R. A higher voltage does produce more current IF the resistance is the same. But current also depends on resistance — a high voltage with high resistance can give the same current as a low voltage with low resistance. The correct statement: \"A higher voltage battery produces more current if the resistance is the same; current depends on both voltage and resistance (I = V/R).\" A wrong evaluation (simply agreeing) ignores the role of resistance.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Electric potential at a point is the electric potential energy per unit charge at that point, V = E/Q, ______ in volts (V), where 1 volt = 1 joule per coulomb.",
+     "a": "measured",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Water flows from high pressure to low pressure — a pressure ______ drives the flow.",
+     "a": "difference",
+     "self_check": true
+    },
+    {
+     "q": "What is Electric potential at a point? State the definition given in this lesson.",
+     "a": "Electric potential at a point is the electric potential energy per unit charge at that point, V = E/Q, measured in volts (V), where 1 volt = 1 joule per coulomb.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Electric potential at a point?",
+     "a": "Students think voltage is the same as current.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can define electric potential and potential difference (V = W/Q), state the unit (volt), calculate potential difference given work and charge, explain the analogy to water pressure, and describe how a battery creates a potential difference.",
+     "self_check": true
     }
    ]
   }

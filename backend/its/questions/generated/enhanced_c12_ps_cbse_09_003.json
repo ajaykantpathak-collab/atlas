@@ -34,6 +34,26 @@
      "q": "Design a one-page voter education poster for a 1951 illiterate voter in Punjab explaining how to vote using the symbol-based ballot box system. Include: (a) how to identify the Congress box, (b) what to do with the blank ballot paper, (c) one safeguard against impersonation.",
      "a": "A good answer shows: (a) Congress symbol (bullock cart/yoked oxen) displayed on box exterior/interior in Urdu/Hindi/Punjabi; (b) voter receives blank paper, enters compartment, drops it in chosen candidate's box; (c) indelible ink on finger or voter's name struck off electoral roll. A poor answer uses text-heavy instructions, ignores multilingual labels, or misses the physical act of dropping paper into a box — revealing failure to grasp the material conditions of illiterate voting.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The First General Elections (1951-52) were India's inaugural nationwide democratic exercise under the ______, conducted under Article 326 (universal adult franchise) using the First-Past-The-Post (FPTP) system, where the Indian National Congress won 364 of 489 Lok Sabha seats (74.4%) with 45% vote share, establishing single-party dominance under democratic conditions.",
+     "a": "Constitution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're a 21-year-old voter in 1951 rural India — you cannot read or write, you've never voted before, and the ballot box has a picture of a bullock cart (Congress symbol) and a hut (______ symbol).",
+     "a": "Socialist",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This scenario frames the Election Commission's challenge: conducting free, fair elections for ______ crore mostly illiterate voters.",
+     "a": "17",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain how the FPTP system converted Congress's 45% vote share into 74% seats, analyze why the Election Commission's innovations (symbol-based voting, revision of electoral rolls excluding \"wife of\" entries) were critical for illiterate voters, and evaluate whether Congress dominance reflected democratic legitimacy or.",
+     "self_check": true
     }
    ]
   }

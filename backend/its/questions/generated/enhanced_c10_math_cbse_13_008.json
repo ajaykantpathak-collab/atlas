@@ -34,6 +34,21 @@
      "q": "A frequency distribution has Mean = 25, Median = 26, and Mode = 28. Verify whether the empirical relationship holds.",
      "a": "Check: 3 × Median − 2 × Mean = 3(26) − 2(25) = 78 − 50 = 28. This equals the given Mode (28). So the empirical relationship holds. A wrong answer (e.g., \"28 ≠ 26, so it doesn't hold\") shows the student is comparing mode to median directly instead of checking the formula.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The empirical ______ between mean, median, and mode for a moderately skewed (asymmetric) frequency distribution is given by: Mode = 3 × Median − 2 × Mean.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In a perfectly symmetric ______ (like a bell curve), the mean, median, and mode all coincide at the same point.",
+     "a": "distribution",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state the empirical formula Mode = 3 Median − 2 Mean, explain when it is applicable (moderately skewed, unimodal distributions), use it to find any one of the three measures given the other two, and recognise when the formula does not apply (symmetric or bimodal distributions).",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_01_004",
+   "title": "c12_app_cbse_01_004",
+   "questions": [
+    {
+     "q": "Compute $(-68) \\bmod 12$ and explain why the answer is not $-8$.",
+     "a": "**Answer:** $4$. By Euclid's division algorithm, we need $-68 = 12 \\times Q + R$ with $0 \\le R < 12$. The quotient $Q = -6$ (since $12 \\times (-6) = -72$) gives remainder $R = -68 - (-72) = 4$. The answer is not $-8$ because the definition of the modulo operator in this textbook **requires the remainder to be non-negative** ($0 \\le R < m$). A student answering $-8$ has applied the \"remainder\" concept from programming languages (like C++ or Python's `%` operator with negative dividends) instead of the mathematical definition used in NCERT.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"For any integers $A, B, C$ with $C > 0$, $(A - B) \\bmod C = (A \\bmod C) - (B \\bmod C)$.\" Is this statement true or false? Give a counterexample if false, or explain why it holds if true.",
+     "a": "**Answer:** False. The correct property is $(A - B) \\bmod C = \\big((A \\bmod C) - (B \\bmod C)\\big) \\bmod C$. The outer modulo is essential because $(A \\bmod C) - (B \\bmod C)$ can be negative or $\\ge C$. Counterexample: $A=3, B=7, C=5$. LHS: $(3-7) \\bmod 5 = (-4) \\bmod 5 = 1$. RHS without outer mod: $(3 \\bmod 5) - (7 \\bmod 5) = 3 - 2 = 1$ (accidentally works). Better counterexample: $A=2, B=7, C=5$. LHS: $(2-7) \\bmod 5 = (-5) \\bmod 5 = 0$. RHS without outer mod: $2 - 2 = 0$ (still works). Try $A=1, B=4, C=5$: LHS $= (-3) \\bmod 5 = 2$; RHS without outer mod $= 1 - 4 = -3 \\neq 2$. A student who says \"true\" has missed the outer modulo operation, which is the most common error in applying the subtraction property.",
+     "self_check": true
+    },
+    {
+     "q": "Find the remainder when $127 \\times 137 \\times 23 \\times 50 \\times 235 \\times 15$ is divided by $7$ using modular arithmetic properties. Show all steps.",
+     "a": "**Answer:** $4$.\nSteps:\n1. Reduce each factor modulo 7:\n   $127 \\bmod 7 = 1$ (since $126 = 7 \\times 18$)\n   $137 \\bmod 7 = 4$ (since $133 = 7 \\times 19$)\n   $23 \\bmod 7 = 2$\n   $50 \\bmod 7 = 1$ (since $49 = 7 \\times 7$)\n   $235 \\bmod 7 = 4$ (since $231 = 7 \\times 33$)\n   $15 \\bmod 7 = 1$\n2. Apply multiplication property repeatedly:\n   $(127 \\times 137 \\times 23 \\times 50 \\times 235 \\times 15) \\bmod 7$\n   $= (1 \\times 4 \\times 2 \\times 1 \\times 4 \\times 1) \\bmod 7$\n   $= 32 \\bmod 7$\n3. $32 = 7 \\times 4 + 4$, so remainder $= 4$.\nA student getting a different answer likely made an arithmetic error in one of the individual mods or forgot the final modulo reduction after multiplying the reduced terms.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two expressions for $m=8$: $E_1 = (5 +_8 11)$ and $E_2 = (5 + 11) \\bmod 8$. Are they equal? Now consider $E_3 = (3 +_8 11)$ and $E_4 = (3 + 11) \\bmod 8$. What do you observe about the relationship between $+_m$ and the standard modulo operator?",
+     "a": "**Answer:** $E_1 = 5 +_8 11 = 6$ (since $5+11=16 > 8$, so $16-8=6$). $E_2 = (5+11) \\bmod 8 = 16 \\bmod 8 = 0$. They are **not equal**. $E_3 = 3 +_8 11 = 6$ (since $3+11=14 > 8$, $14-8=6$). $E_4 = 14 \\bmod 8 = 6$. Here they are equal.\n**Observation:** The textbook defines $a +_m b$ as: if $a+b < m$, result is $a+b$; if $a+b \\ge m$, result is $a+b-m$. This is **not** the same as $(a+b) \\bmod m$ when $a+b$ is a multiple of $m$ (i.e., $(a+b) \\bmod m = 0$ but $a +_m b = m$ is not allowed since results should be in $\\{0,1,\\dots,m-1\\}$ — wait, the textbook Example 6(iii) says $17 +_{30} 13 = 0$ because $30 \\bmod 30 = 0$. So actually $a +_m b = (a+b) \\bmod m$ **always**. Let's re-check Example 6(i): $3 +_8 11 = 6$, and $(3+11) \\bmod 8 = 14 \\bmod 8 = 6$. Example 6(ii): $15 +_{25} 6 = 21$, $(15+6) \\bmod 25 = 21$. Example 6(iii): $17 +_{30} 13 = 0$, $(17+13) \\bmod 30 = 0$. They **are** equivalent. The student must recognize that $+_m$ is just a notational variant for $(a+b) \\bmod m$. A student who claims they differ has misread the definition box.",
+     "self_check": true
+    },
+    {
+     "q": "A competitive exam question asks: \"What is the unit digit of $7^{100}$?\" A student solves it by computing $7^{100} \\bmod 10$ using the property $(A \\times B) \\bmod C = ((A \\bmod C) \\times (B \\bmod C)) \\bmod C$ repeatedly. Is this a valid approach? Justify your answer and find the unit digit.",
+     "a": "**Answer:** Yes, it is perfectly valid. The unit digit of any integer $N$ is exactly $N \\bmod 10$. Since modular arithmetic respects multiplication, we can compute $7^{100} \\bmod 10$ by repeated squaring or pattern detection:\n$7^1 \\bmod 10 = 7$\n$7^2 \\bmod 10 = 49 \\bmod 10 = 9$\n$7^3 \\bmod 10 = (9 \\times 7) \\bmod 10 = 63 \\bmod 10 = 3$\n$7^4 \\bmod 10 = (3 \\times 7) \\bmod 10 = 21 \\bmod 10 = 1$\n$7^5 \\bmod 10 = (1 \\times 7) \\bmod 10 = 7$ → cycle of length 4.\n$100 \\bmod 4 = 0$, so $7^{100} \\bmod 10 = 7^4 \\bmod 10 = 1$.\n**Unit digit = 1.**\nA student who says \"invalid\" doesn't realize that the modulo operator distributes over multiplication, making it the standard tool for unit-digit problems. A student getting a different digit likely messed up the cycle length or the exponent modulo.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) that requires modular arithmetic to solve, involving a cycle length other than 7 (days) or 12 (hours). State the problem, the modulus used, and the solution.",
+     "a": "**Sample Problem:** \"A traffic light at a busy Delhi intersection cycles through Green (45 sec), Yellow (5 sec), Red (50 sec) repeatedly. If it turns Green at exactly 08:00:00, what colour will it show at 08:07:30?\"\n**Modulus:** Total cycle = $45+5+50 = 100$ seconds.\n**Solution:** Time elapsed = 7 min 30 sec = 450 seconds. $450 \\bmod 100 = 50$ seconds into the cycle.\nCycle: 0-45s Green, 45-50s Yellow, 50-100s Red. At 50s, it just turned Red.\n**Answer:** Red.\nA poor answer would use a trivial modulus (7 or 12), forget to convert units to a common base (seconds), or miscalculate the position within the cycle. This tests the ability to model a novel periodic situation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

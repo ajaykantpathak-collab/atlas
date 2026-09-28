@@ -52,7 +52,16 @@
      "solution": "Step 1: Divide normal force by area. Step 2: Identify the normal force and contact area from the problem. Step 3: Express pressure in pascals and verify units. Working: force / area, mass * g, pressure.",
      "answer": "The method of average fluid pressure leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "pressure = force / area",
+     "compute": "pressure = force / area"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.202.2",
@@ -101,7 +110,16 @@
      "solution": "Step 1: Divide mass by volume. Step 2: Identify the mass and volume of the fluid from the problem. Step 3: Express density in kg/m^3 and compare with known reference values. Working: mass / volume, length * breadth * height, density.",
      "answer": "The method of fluid density leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "density = mass / volume",
+     "compute": "density = mass / volume"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.202.3",
@@ -150,7 +168,16 @@
      "solution": "Step 1: Calculate the hydrostatic pressure contribution. Step 2: Add atmospheric pressure to get absolute pressure. Step 3: Report gauge pressure and absolute pressure separately. Working: density * g * depth, pressure_atm + hydrostatic_term, hydrostatic_term.",
      "answer": "The method of hydrostatic pressure at depth leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "pressure = pressure_atm + density * g * depth",
+     "compute": "pressure = pressure_atm + density * g * depth"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.202.4",
@@ -199,7 +226,16 @@
      "solution": "Step 1: Calculate the output force using the area ratio. Step 2: Compute the pressure on the smaller piston. Step 3: Verify pressure equality across both pistons. Working: force_small * area_large / area_small, force_small / area_small, pressure * area_large.",
      "answer": "The method of pascal's principle and hydraulic force multiplier leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "force_large = force_small * area_large / area_small",
+     "compute": "force_large = force_small * area_large / area_small"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.202.5",
@@ -297,7 +333,16 @@
      "solution": "Step 1: Compute the velocity using the free fall formula. Step 2: Identify the height of the liquid column above the orifice. Step 3: Compute the horizontal range of the efflux. Working: sqrt(2 * g * height), surface_level - orifice_level, velocity * sqrt(2 * orifice_height / g).",
      "answer": "The method of torricelli's law of efflux leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "velocity = sqrt(2 * g * height)",
+     "compute": "velocity = sqrt(2 * g * height)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.202.7",
@@ -346,7 +391,16 @@
      "solution": "Step 1: Calculate the shearing stress. Step 2: Calculate the strain rate. Step 3: Determine the viscosity. Working: force / area, velocity / thickness, stress / strain_rate.",
      "answer": "The method of coefficient of viscosity leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "viscosity = (force * thickness) / (area * velocity)",
+     "compute": "viscosity = (force * thickness) / (area * velocity)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.202.8",
@@ -401,7 +455,16 @@
      "solution": "Step 1: Find the density difference. Step 2: Calculate the numerator of the terminal velocity expression. Step 3: Calculate the denominator. Step 4: Divide numerator by denominator to get terminal velocity. Working: density_sphere - density_fluid, 2 * (radius**2) * density_diff * g, 9 * viscosity, numerator / denominator.",
      "answer": "The method of stokes' law and terminal velocity leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "v_terminal = 2 * (radius**2) * (density_sphere - density_fluid) * g / (9 * viscosity)",
+     "compute": "v_terminal = 2 * (radius**2) * (density_sphere - density_fluid) * g / (9 * viscosity)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.202.9",
@@ -450,7 +513,16 @@
      "solution": "Step 1: Divide the force by twice the length. Step 2: Account for the two surfaces of the film. Step 3: Express surface tension in N/m and verify units. Working: force / (2 * length), 2 * length, force / effective_length.",
      "answer": "The method of surface tension of a liquid film leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "surface_tension = force / (2 * length)",
+     "compute": "surface_tension = force / (2 * length)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.202.10",
@@ -499,7 +571,16 @@
      "solution": "Step 1: Calculate excess pressure. Step 2: Identify the surface tension and radius of the bubble. Step 3: Compute the absolute internal pressure of the bubble. Working: 4 * surface_tension / radius, radius, pressure_atm + excess_pressure.",
      "answer": "The method of excess pressure in a soap bubble leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "excess_pressure = 4 * surface_tension / radius",
+     "compute": "excess_pressure = 4 * surface_tension / radius"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.202.11",
@@ -548,7 +629,16 @@
      "solution": "Step 1: Calculate excess pressure. Step 2: Identify the surface tension and radius of the drop. Step 3: Compute the absolute internal pressure of the drop. Working: 2 * surface_tension / radius, radius, pressure_atm + excess_pressure.",
      "answer": "The method of excess pressure in a liquid drop leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "excess_pressure = 2 * surface_tension / radius",
+     "compute": "excess_pressure = 2 * surface_tension / radius"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.202.12",
@@ -597,7 +687,16 @@
      "solution": "Step 1: Calculate the numerator of the capillary rise formula. Step 2: Calculate the denominator. Step 3: Divide numerator by denominator to find height. Working: 2 * surface_tension * cos_theta, density * g * radius, numerator / denominator.",
      "answer": "The method of capillary rise leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "height = 2 * surface_tension * cos_theta / (density * g * radius)",
+     "compute": "height = 2 * surface_tension * cos_theta / (density * g * radius)"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

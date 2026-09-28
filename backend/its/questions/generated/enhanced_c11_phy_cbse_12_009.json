@@ -32,7 +32,27 @@
     },
     {
      "q": "Design a thought experiment using a velocity selector (rotating slotted disks) to experimentally verify the Maxwell-Boltzmann distribution for argon gas at 400 K. Specify the key measurements and how you would extract f(v).",
-     "a": "Use two coaxial disks with narrow radial slots offset by angle θ, separated by distance L. Only molecules with speed v = ωL/θ pass through both slots. Vary ω and measure the transmitted flux I(ω) with a detector. The flux is proportional to v^3 f(v) (accounting for flux ∝ v and the v^2 in f(v)). Plot I(ω) vs v; normalize area to 1. Compare with theoretical f(v). A poor answer omits the v^3 factor or assumes the selector transmits all speeds equally.",
+     "a": "(1) Apparatus — two coaxial disks with narrow radial slots offset by a fixed angle and separated by a known distance L, (2) Selection — only molecules with speed v equal to omega L over theta pass through both slots, (3) Measurement — vary omega and record the transmitted flux at a detector, (4) Analysis — the flux is proportional to v cubed times f of v, so plot the signal against v, normalise the area to one, and compare with the theoretical distribution. A poor answer omits the v-cubed factor or assumes the selector transmits all speeds equally.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Maxwell's Speed Distribution Law describes the ______ distribution of molecular speeds in an ideal gas at thermal equilibrium, giving the fraction of molecules having speeds between v and v+dv as f(v)dv = 4π (m/2πk_BT)^{3/2} v^2 e^{-mv^2/2k_BT} dv, where m is the molecular mass (kg), k_B is the Boltzmann constant (1.38×10^{-23} J/K), and T is the absolute temperature (K).",
+     "a": "statistical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine releasing a drop of perfume in one corner of a classroom – the scent doesn't reach everyone at once because air ______ move at vastly different speeds, not a single uniform speed.",
+     "a": "molecules",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can sketch the Maxwell-Boltzmann distribution curve, label the three characteristic speeds in correct order, explain how the curve shifts with temperature and molecular mass, and calculate the fraction of molecules in a given speed range using the distribution function or its approximations.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine ______ a drop of perfume in one corner of a classroom – the scent doesn't reach everyone at once because air molecules move at vastly different speeds, not a single uniform speed.",
+     "a": "releasing",
      "self_check": true
     }
    ]

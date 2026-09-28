@@ -34,6 +34,31 @@
      "q": "Design a hypothetical experiment using α-amanitin (a toxin that inhibits eukaryotic RNA polymerases at different concentrations) to determine which RNA polymerase transcribes a newly discovered small nuclear RNA (snRNA) gene in human cells. Specify concentrations, controls, and expected results for each polymerase.",
      "a": "Treat permeabilized human cells or isolated nuclei with: (1) 0.01 μg/mL α-amanitin (inhibits Pol II), (2) 1 μg/mL (inhibits Pol II and Pol III), (3) 100 μg/mL (inhibits all three). Measure snRNA synthesis via ³²P-UTP incorporation or qRT-PCR. Controls: untreated, vehicle-only, and known Pol II (mRNA), Pol I (45S pre-rRNA), Pol III (tRNA/5S rRNA) transcripts. Expected: If snRNA synthesis is inhibited at 0.01 μg/mL → Pol II transcript (most snRNAs are Pol II-dependent). If resistant at 0.01 but inhibited at 1 μg/mL → Pol III transcript (e.g., U6 snRNA). If resistant at 1 but inhibited at 100 μg/mL → Pol I transcript (unlikely for snRNA). A poor answer omits concentration gradients, proper controls, or fails to link known snRNA polymerase identities (Pol II for U1, U2, U4, U5; Pol III for U6) to the experimental design, showing inability to translate biochemical inhibition profiles into a diagnostic assay.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: RNA polymerase is a DNA-dependent RNA polymerase enzyme that synthesizes RNA molecules complementary to a DNA template strand in the 5'→3' direction using ______ triphosphates (rNTPs) as substrates, without requiring a primer; in prokaryotes a single holoenzyme (core α₂ββ' + σ factor) transcribes all RNA types, while eukaryotes possess three distinct nuclear RNA polymerases (Pol I, Pol II, Pol III) with specialized roles in transcribing rRNA, mRNA precursors, and tRNA/5S rRNA respectively.",
+     "a": "ribonucleoside",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a forensic biotechnologist analyzing a crime scene sample: you need to amplify a specific gene fragment using PCR, but first you must ______ which enzyme naturally makes RNA copies of DNA in living cells.",
+     "a": "understand",
+     "self_check": true
+    },
+    {
+     "q": "What is RNA polymerase? State the definition given in this lesson.",
+     "a": "RNA polymerase is a DNA-dependent RNA polymerase enzyme that synthesizes RNA molecules complementary to a DNA template strand in the 5'→3' direction using ribonucleoside triphosphates (rNTPs) as substrates, without requiring a primer; in prokaryotes a single holoenzyme (core α₂ββ' + σ factor) transcribes all RNA types, while eukaryotes.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about RNA polymerase?",
+     "a": "Students often believe that \"RNA Polymerase II transcribes all mRNAs\" and therefore assume it also transcribes the 5' cap and poly-A tail.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) distinguish the subunit composition and promoter recognition mechanism of prokaryotic RNA polymerase holoenzyme versus eukaryotic RNA polymerases I, II, and III; (2) predict the class of RNA affected by a mutation in a specific polymerase subunit or transcription factor; (3) explain why RNA polymerase.",
+     "self_check": true
     }
    ]
   }

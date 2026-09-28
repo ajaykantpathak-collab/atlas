@@ -32,7 +32,37 @@
     },
     {
      "q": "Design a simple experiment using household materials to demonstrate osmosis and estimate the osmotic pressure of a sugar solution qualitatively. List materials, procedure, observation, and how you would relate the observation to Π.",
-     "a": "Materials: Potato (semipermeable cell membranes), knife, two bowls, water, sugar, scale, ruler.\nProcedure: (1) Cut potato into 4 identical cylinders (same dimensions). (2) Weigh each (initial mass m₀). (3) Place two in pure water, two in saturated sugar solution (~2 M). (4) Wait 30 min. (5) Remove, blot dry, reweigh (final mass m).\nObservation: Potato in water gains mass (water enters cells → turgid). Potato in sugar solution loses mass (water leaves cells → plasmolysis).\nQualitative Π estimate: The sugar solution is hypertonic relative to potato cell sap. The mass loss rate correlates with Π difference. To quantify: Plot % mass change vs. sugar concentration for multiple solutions. The concentration where % change = 0 is isotonic with cell sap; its Π equals cell sap Π. At 298 K, 0.3 M sugar ≈ isotonic with plant cells → Π ≈ 0.3 × 0.083 × 298 ≈ 7.4 bar.\nA poor answer uses dialysis tubing (not household) or suggests measuring height of liquid column (requires thistle funnel). The potato method is accessible and demonstrates the core concept: water moves toward higher solute concentration.",
+     "a": "(1) Materials — a potato, a knife, two bowls, water, sugar and a scale, (2) Procedure — cut four identical potato cylinders, weigh them, keep two in pure water and two in saturated sugar solution for half an hour, then blot and reweigh, (3) Observation — cylinders in water gain mass and turn turgid while cylinders in the sugar solution lose mass by plasmolysis, (4) Estimating osmotic pressure — plotting percent mass change against sugar concentration locates the isotonic point of zero change, and near room temperature a 0.3 molar sugar solution is about isotonic with plant cell sap, giving roughly 7.4 bar. A poor answer uses dialysis tubing, which is not a household material, or a thistle-funnel column, while the potato method shows the core principle that water moves toward the higher solute concentration.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Osmotic pressure (Π) is the minimum excess pressure that must be applied to a solution to prevent the net flow of solvent molecules through a ______ membrane from the pure solvent (or dilute solution) into the solution.",
+     "a": "semipermeable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine placing a raw mango in concentrated brine (salt water) — it shrivels as water leaves its ______.",
+     "a": "cells",
+     "self_check": true
+    },
+    {
+     "q": "What is Osmotic pressure (Π)? State the definition given in this lesson.",
+     "a": "Osmotic pressure (Π) is the minimum excess pressure that must be applied to a solution to prevent the net flow of solvent molecules through a semipermeable membrane from the pure solvent (or dilute solution) into the solution.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by visualising the thistle funnel experiment (Fig ______ NCERT): semipermeable membrane tied at the mouth, filled with solution, inverted in pure solvent.",
+     "a": "1.9",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Osmotic pressure (Π)?",
+     "a": "Students confuse the formula Π = CRT with Π = (n₂/V)RT and use molality (m) instead of molarity (C).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Derive Π = iCRT from the ideal gas equation and explain the analogy between solute particles and gas molecules, (2) Calculate molar mass of macromolecules (proteins, polymers) from osmotic pressure data using M₂ = (w₂RT)/(ΠV), (3) Distinguish isotonic, hypotonic, and hypertonic solutions and predict direction of osmosis.",
      "self_check": true
     }
    ]

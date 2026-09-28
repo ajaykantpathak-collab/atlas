@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_03_001",
+   "title": "c12_leg_cbse_03_001",
+   "questions": [
+    {
+     "q": "What is the legal definition of a 'contract' under the Indian Contract Act, 1872?",
+     "a": "A contract is an agreement enforceable by law (Section 2(h), ICA). An agreement is every promise and every set of promises forming consideration for each other (Section 2(e)). A wrong answer (e.g., \"a written document signed by two parties\") reveals the student confuses the *form* of a contract with its *legal essence* — contracts can be oral, implied, or even formed by conduct (e.g., taking a seat in a bus). The law looks at enforceability, not paperwork.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the agreement in *Balfour v. Balfour* (1919) was not a contract, even though there was offer, acceptance, and consideration.",
+     "a": "The court held there was no *intention to create legal relations* — the husband's promise to pay £30/month was a domestic/moral arrangement between spouses, not a legally binding bargain. A wrong answer (e.g., \"because it was not in writing\" or \"because consideration was inadequate\") shows the student misses the *distinct* requirement of \"intention to create legal relations\" as a separate pillar from offer, acceptance, and consideration. Social/domestic agreements are presumed *not* to intend legal consequences unless rebutted.",
+     "self_check": true
+    },
+    {
+     "q": "A (major) offers to sell his car to B (minor, age 17) for ₹50,000. B accepts and pays ₹50,000. A delivers the car. Later, A wants the car back, claiming the contract is void. Is A correct? Apply the law.",
+     "a": "No, A is not correct. A contract with a minor is *void ab initio* (Mohori Bibee v. Dharmodas Ghose) — but only *at the option of the minor*. The minor can avoid the contract; the major *cannot*. Since B (minor) has performed (paid), and the contract is beneficial to B, B can enforce it. A's attempt to rescind fails. A wrong answer (e.g., \"contract is void so either party can cancel\") reveals the student doesn't know the *asymmetric* nature of minor's contracts: voidable *only by the minor*, not the adult. This is a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast 'void agreement' (Section 2(g)), 'void contract' (Section 2(j)), and 'voidable contract' (Section 2(i)) — focusing on *when* they lose enforceability and *who* can avoid them.",
+     "a": "- **Void agreement (2(g))**: Never enforceable from the start (e.g., agreement to commit crime). No one can enforce it.\n- **Void contract (2(j))**: Was valid when formed, but *later* becomes unenforceable due to supervening impossibility (e.g., subject matter destroyed). Neither party can enforce it *after* it becomes void.\n- **Voidable contract (2(i))**: Valid and enforceable *until* the party whose consent was not free (due to coercion, undue influence, fraud, misrepresentation) chooses to rescind. Only *that* party can avoid it.\nA wrong answer conflating these (e.g., \"void and voidable are the same\") shows failure to grasp the *timeline* (ab initio vs. subsequent) and *agency* (who holds the power to avoid) — both heavily tested in board and CUET.",
+     "self_check": true
+    },
+    {
+     "q": "\"All wagering agreements are void, but not all void agreements are wagering.\" Evaluate this statement with reference to Sections 30 and 23-24 ICA.",
+     "a": "True. Section 30 declares wagering agreements void *specifically* — they are a *subset* of void agreements. But agreements can be void under Sections 23-24 for other reasons: unlawful object (e.g., agreement to murder), unlawful consideration (e.g., bribe), or being expressly declared void (e.g., restraint of trade under Section 27). A wrong answer (e.g., \"all void agreements are bets\") reveals the student cannot classify void agreements by *cause* — a key analytical skill for case-based questions where you must identify *why* an agreement is void.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario (Indian context) involving a *contingent contract* (Section 31) that is *not* a wagering agreement. Explain why it passes the test.",
+     "a": "**Scenario**: A (farmer) agrees to sell 100 kg wheat to B (flour mill) at ₹25/kg *if* the monsoon rainfall in their district exceeds 800 mm this season (verified by IMD). **Why it's contingent, not wagering**: (1) The event (rainfall) is *collateral* — the contract is for sale of wheat, not betting on rain. (2) Both parties have *legitimate commercial interest* beyond winning/losing — A wants price security, B wants supply assurance. (3) No reciprocal promise to pay *each other* based solely on the event — B pays only if wheat is delivered. A poor answer (e.g., \"A bets B ₹10,000 on rain\") creates a wager — showing the student misses the *commercial purpose* and *collateral event* distinction central to Section 31 vs Section 30.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

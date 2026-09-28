@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a metre scale, a known mass, and a spring balance to demonstrate that the turning effect (torque) of a force about a pivot is given by the cross product **τ** = **r** × **F**. Describe the measurements, the vector quantities involved, and how you would verify the sin θ dependence.",
      "a": "Fix a metre scale horizontally on a pivot at the 0 cm mark. Hang a mass (force **F** = mg downward) at different positions (varying **r**) and at different angles (using a string pulled sideways). Measure the force with a spring balance and the angular acceleration (or balance with a known torque). Plot torque magnitude vs sin θ for fixed |**r**| and |**F**|; it should be linear. The direction of **τ** (axis of rotation) is perpendicular to the plane of **r** and **F**, verified by the right-hand rule. A poor answer would only describe balancing weights without varying the angle or identifying the vector nature.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The vector (cross) product of two vectors A and B is a vector C = A × B whose magnitude is |A||B| sin θ (where θ is the angle between A and B) and whose direction is ______ to the plane containing A and B, given by the right-hand rule.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan rotating: the blades push air ______.",
+     "a": "downward",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute the cross product of two vectors given in component form using the determinant method, determine its magnitude and direction using the right-hand rule, and explain why the cross product is non-commutative.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan ______: the blades push air downward.",
+     "a": "rotating",
+     "self_check": true
     }
    ]
   }

@@ -44,10 +44,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lhs = 3 ** 3 + 4 ** 3",
-    "diff = 5 ** 3 - lhs"
-   ]
+   "steps_chain": []
   },
   {
    "id": "gegp.1.2",
@@ -135,10 +132,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lhs = 3 ** 3 + 4 ** 3",
-    "diff = 5 ** 3 - lhs"
-   ]
+   "steps_chain": []
   },
   {
    "id": "gegp.1.4",
@@ -181,9 +175,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "circ = 2 * 22 / 7 * 63"
-   ]
+   "steps_chain": []
   }
  ]
 }

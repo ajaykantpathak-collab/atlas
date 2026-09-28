@@ -22,7 +22,7 @@
     "is there a magnetic field between capacitor plates while they charge",
     "state the four Maxwell equations in vacuum and what each says"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -39,7 +39,16 @@
      "action": "restore consistency",
      "explain": "adding this displacement current makes every spanning surface yield the same total current and hence the same field"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "displacement_current = permittivity * eflux_rate",
+     "compute": "displacement_current = permittivity * eflux_rate"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph108.8.2.2",
@@ -71,7 +80,16 @@
      "explain": "the supply voltage divided by the reactance; the same value flows as displacement current between the plates",
      "compute": "i_rms = volt_rms / react_c"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "i_rms = volt_rms * omega * capacitance",
+     "compute": "i_rms = volt_rms * omega * capacitance"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph108.8.3.1.1",
@@ -167,7 +185,16 @@
      "explain": "the amplitude ratio is fixed: B0 = E0 over c",
      "compute": "mag_amplitude = e_amplitude / wave_speed"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mag_amplitude = e_amplitude / wave_speed",
+     "compute": "mag_amplitude = e_amplitude / wave_speed"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph108.8.3.2.3",
@@ -193,7 +220,16 @@
      "explain": "wavelength equals c over frequency because c = nu lambda",
      "compute": "wavelength = wave_speed / freq"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "wavelength = wave_speed / freq",
+     "compute": "wavelength = wave_speed / freq"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph108.8.3.2.4",
@@ -231,7 +267,16 @@
      "explain": "multiply the magnetic amplitude by c to get E0",
      "compute": "e_amplitude = mag_amplitude * wave_speed"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "wavelength = 2 * pi / wave_number",
+     "compute": "wavelength = 2 * pi / wave_number"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph108.8.3.2.5",
@@ -263,7 +308,16 @@
      "explain": "v equals 1 over the square root of that product",
      "compute": "wave_speed = 1 / sqrt(em_product)"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "wave_speed = 1 / sqrt(permittivity * permeability)",
+     "compute": "wave_speed = 1 / sqrt(permittivity * permeability)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph108.8.4.1",
@@ -308,9 +362,17 @@
    "concept": "leph108.8.3.2.2",
    "question_type": "field_from_amplitude",
    "question_pattern": "A plane wave in free space has electric field {e_amplitude} V/m at a point. What is the magnetic field magnitude there, and which way does it point if E is along y and the wave along x?",
-   "extracted_variables": {"e_amplitude": 6.3, "wave_speed": 3.0e+08},
+   "extracted_variables": {
+    "e_amplitude": 6.3,
+    "wave_speed": 300000000.0
+   },
    "solution_template": [
-    {"step": 1, "action": "divide by c", "explain": "B = E over c", "compute": "mag_amplitude = e_amplitude / wave_speed"}
+    {
+     "step": 1,
+     "action": "divide by c",
+     "explain": "B = E over c",
+     "compute": "mag_amplitude = e_amplitude / wave_speed"
+    }
    ]
   },
   {
@@ -319,11 +381,31 @@
    "concept": "leph108.8.3.2.4",
    "question_type": "wave_expression_parameters",
    "question_pattern": "A magnetic field obeys B0 sin({wave_number} x + {ang_freq} t) T with B0 = {mag_amplitude} T. Find the wavelength, frequency, and the matching electric field expression.",
-   "extracted_variables": {"wave_number": 500.0, "ang_freq": 1.5e+11, "mag_amplitude": 2.0e-07, "wave_speed": 3.0e+08},
+   "extracted_variables": {
+    "wave_number": 500.0,
+    "ang_freq": 150000000000.0,
+    "mag_amplitude": 2e-07,
+    "wave_speed": 300000000.0
+   },
    "solution_template": [
-    {"step": 1, "action": "wavelength", "explain": "lambda = 2 pi over k", "compute": "wavelength = 2 * pi / wave_number"},
-    {"step": 2, "action": "frequency", "explain": "nu = omega over 2 pi", "compute": "wave_freq = ang_freq / (2 * pi)"},
-    {"step": 3, "action": "electric amplitude", "explain": "E0 = B0 c", "compute": "e_amplitude = mag_amplitude * wave_speed"}
+    {
+     "step": 1,
+     "action": "wavelength",
+     "explain": "lambda = 2 pi over k",
+     "compute": "wavelength = 2 * pi / wave_number"
+    },
+    {
+     "step": 2,
+     "action": "frequency",
+     "explain": "nu = omega over 2 pi",
+     "compute": "wave_freq = ang_freq / (2 * pi)"
+    },
+    {
+     "step": 3,
+     "action": "electric amplitude",
+     "explain": "E0 = B0 c",
+     "compute": "e_amplitude = mag_amplitude * wave_speed"
+    }
    ]
   },
   {
@@ -332,9 +414,17 @@
    "concept": "leph108.8.3.2.2",
    "question_type": "amplitude_pair",
    "question_pattern": "The magnetic part of a harmonic wave in vacuum peaks at {mag_amplitude} T. How large is the electric part's amplitude?",
-   "extracted_variables": {"mag_amplitude": 5.1e-07, "wave_speed": 3.0e+08},
+   "extracted_variables": {
+    "mag_amplitude": 5.1e-07,
+    "wave_speed": 300000000.0
+   },
    "solution_template": [
-    {"step": 1, "action": "multiply by c", "explain": "E0 = B0 c", "compute": "e_amplitude = mag_amplitude * wave_speed"}
+    {
+     "step": 1,
+     "action": "multiply by c",
+     "explain": "E0 = B0 c",
+     "compute": "e_amplitude = mag_amplitude * wave_speed"
+    }
    ]
   },
   {
@@ -343,9 +433,17 @@
    "concept": "leph108.8.3.2.3",
    "question_type": "band_wavelengths",
    "question_pattern": "A receiver covers {freq} Hz. What wavelength does that station correspond to in free space?",
-   "extracted_variables": {"freq": 7.5e+06, "wave_speed": 3.0e+08},
+   "extracted_variables": {
+    "freq": 7500000.0,
+    "wave_speed": 300000000.0
+   },
    "solution_template": [
-    {"step": 1, "action": "split the speed", "explain": "lambda = c over nu", "compute": "wavelength = wave_speed / freq"}
+    {
+     "step": 1,
+     "action": "split the speed",
+     "explain": "lambda = c over nu",
+     "compute": "wavelength = wave_speed / freq"
+    }
    ]
   },
   {
@@ -354,10 +452,24 @@
    "concept": "leph108.8.2.2",
    "question_type": "capacitor_ac_current",
    "question_pattern": "A {capacitance} F capacitor connects to a {volt_rms} V supply of angular frequency {omega} rad/s. What rms conduction current flows, and what displacement current runs between the plates?",
-   "extracted_variables": {"capacitance": 1.0e-10, "volt_rms": 230.0, "omega": 300.0},
+   "extracted_variables": {
+    "capacitance": 1e-10,
+    "volt_rms": 230.0,
+    "omega": 300.0
+   },
    "solution_template": [
-    {"step": 1, "action": "reactance", "explain": "XC = 1 over omega C", "compute": "react_c = 1 / (omega * capacitance)"},
-    {"step": 2, "action": "conduction current", "explain": "voltage over reactance; the displacement current between the plates takes the same value", "compute": "i_rms = volt_rms / react_c"}
+    {
+     "step": 1,
+     "action": "reactance",
+     "explain": "XC = 1 over omega C",
+     "compute": "react_c = 1 / (omega * capacitance)"
+    },
+    {
+     "step": 2,
+     "action": "conduction current",
+     "explain": "voltage over reactance; the displacement current between the plates takes the same value",
+     "compute": "i_rms = volt_rms / react_c"
+    }
    ]
   }
  ],

@@ -5,6 +5,8 @@
    "id": "iemh.105.1",
    "title": "Definition and Basic Properties of a Circle",
    "converted_to_compute": false,
+   "formula": "diameter = 2 * radius",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 14 cm (take pi = 22/7).",
@@ -41,15 +43,9 @@
   {
    "id": "iemh.105.2",
    "title": "Circumcircle of a Triangle",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the circle formula with pi = 22/7",
-     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 63 gives 396",
-     "compute": "circ = 2 * 22 / 7 * 63"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "OA = OB = OC",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 63 cm (take pi = 22/7).",
@@ -86,15 +82,9 @@
   {
    "id": "iemh.105.3",
    "title": "Central Angles Subtended by Chords",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the circle formula with pi = 22/7",
-     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 63 gives 396",
-     "compute": "circ = 2 * 22 / 7 * 63"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "angle_1 = angle_2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 63 cm (take pi = 22/7).",
@@ -132,6 +122,8 @@
    "id": "iemh.105.4",
    "title": "Chord Length from Radius and Distance from Centre",
    "converted_to_compute": false,
+   "formula": "chord_length = 2 * sqrt(radius**2 - distance**2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 28 cm (take pi = 22/7).",
@@ -169,6 +161,8 @@
    "id": "iemh.105.5",
    "title": "Radius of Circle from Chord Length and Distance",
    "converted_to_compute": false,
+   "formula": "radius = sqrt((chord_length / 2)**2 + distance**2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 84 cm (take pi = 22/7).",
@@ -206,6 +200,8 @@
    "id": "iemh.105.6",
    "title": "Angle Subtended by an Arc at Centre and Circumference",
    "converted_to_compute": false,
+   "formula": "central_angle = 2 * inscribed_angle",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 7 cm (take pi = 22/7).",
@@ -242,15 +238,9 @@
   {
    "id": "iemh.105.7",
    "title": "Angle in a Semicircle",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the circle formula with pi = 22/7",
-     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 28 gives 176",
-     "compute": "circ = 2 * 22 / 7 * 28"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "inscribed_angle = 90",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 28 cm (take pi = 22/7).",
@@ -287,15 +277,9 @@
   {
    "id": "iemh.105.8",
    "title": "Concyclic Points and Angles in Same Segment",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the circle formula with pi = 22/7",
-     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 7 gives 44",
-     "compute": "circ = 2 * 22 / 7 * 7"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "angle_1 = angle_2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 7 cm (take pi = 22/7).",
@@ -333,6 +317,8 @@
    "id": "iemh.105.9",
    "title": "Opposite Angles of a Cyclic Quadrilateral",
    "converted_to_compute": false,
+   "formula": "opposite_angle = 180 - angle",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Use Heron's formula to find the area of the triangle with sides 8, 15 and 17.",

@@ -34,6 +34,26 @@
      "q": "Design a PCR-based strategy to distinguish between a wild-type allele (sequence: 5'-ATGCCGTA-3') and a mutant allele with a single-base deletion (5'-ATGCGTA-3') in a diploid human sample. Specify primer placement, expected product sizes, and how you would interpret heterozygous vs homozygous results on a gel.",
      "a": "Strategy: Design one primer pair flanking the deletion site (e.g., forward 100 bp upstream, reverse 100 bp downstream). Wild-type amplicon = 208 bp (including the 8 bp target); mutant amplicon = 207 bp (1 bp shorter). Resolution: 1 bp difference on standard agarose gel is invisible — use 3–4% metaphor agarose or polyacrylamide gel electrophoresis (PAGE), or introduce a restriction site via primer engineering (RFLP-PCR). Interpretation: Heterozygote shows two bands (208 bp + 207 bp); homozygous wild-type shows one 208 bp band; homozygous mutant shows one 207 bp band. A poor answer suggesting \"just run on agarose gel\" ignores resolution limits; a good answer acknowledges the need for high-resolution separation or an alternative method (ARMS-PCR, TaqMan probe).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Polymerase Chain Reaction (PCR) is an in vitro enzymatic technique that amplifies a specific DNA sequence exponentially through repeated cycles of temperature-dependent denaturation, primer annealing, and DNA polymerase-mediated extension, using a thermostable DNA polymerase (e.g., Taq polymerase), two sequence-specific oligonucleotide primers, ______ triphosphates (dNTPs), and a DNA template.",
+     "a": "deoxyribonucleotide",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ lab in Delhi receives a single hair strand from a crime scene — the DNA is far too little for direct analysis.",
+     "a": "forensic",
+     "self_check": true
+    },
+    {
+     "q": "What is Polymerase Chain Reaction (PCR)? State the definition given in this lesson.",
+     "a": "Polymerase Chain Reaction (PCR) is an in vitro enzymatic technique that amplifies a specific DNA sequence exponentially through repeated cycles of temperature-dependent denaturation, primer annealing, and DNA polymerase-mediated extension, using a thermostable DNA polymerase (e.g., Taq polymerase), two sequence-specific oligonucleotide.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) explain the biochemical principle of each PCR step (denaturation, annealing, extension) with temperature ranges and molecular events, (2) calculate the theoretical amplification yield after n cycles and identify factors causing deviation from theoretical yield, and (3) design a PCR strategy (primer selection, cycle.",
+     "self_check": true
     }
    ]
   }

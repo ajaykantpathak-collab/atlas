@@ -34,6 +34,21 @@
      "q": "Design a short set of instructions using a ruler and compass to construct a pair of parallel railway tracks separated by exactly 4 cm, starting from a single straight chalk line on the floor.",
      "a": "1. Mark two points on the initial chalk line and construct perpendiculars of length 4 cm at each point using a compass. 2. Connect the top endpoints of these two perpendiculars with a straight ruler. 3. Verify the distance at multiple points. A poor answer would suggest free-hand drawing or measuring with a protractor instead of using compass arcs for perpendiculars or angle copying.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Drawing parallel lines using a ruler and a compass is a geometric construction method based on creating equal ______ angles or alternate interior angles relative to a transversal line.",
+     "a": "corresponding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ laying out two wooden tracks for a sliding door in your classroom cupboard; the tracks must maintain the exact same distance apart all along their length so the door never jams.",
+     "a": "carpenter",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can accurately construct a line parallel to a given line through a point not on the line using only a ruler and a compass, by correctly copying a corresponding or alternate angle.",
+     "self_check": true
     }
    ]
   }

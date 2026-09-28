@@ -34,6 +34,36 @@
      "q": "Design a simple experiment to verify that the period of a simple pendulum depends only on its length and acceleration due to gravity, not on the mass of the bob. List the measurements you would take, the instruments needed, and how you would use SI units throughout.",
      "a": "A good answer: Use a metre scale (length in m), a stopwatch (time in s), and bobs of different masses (kg) but same size. Measure length L from pivot to centre of bob. Time 20 oscillations, calculate period T = t/20. Repeat for different L, plot T² vs L; slope gives 4π²/g. All measurements in SI: L in m, t in s, m in kg. A poor answer that uses cm for length or doesn't specify timing multiple oscillations shows lack of understanding of SI consistency and experimental technique to reduce error.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ in science is the process of comparing an unknown physical quantity with a known fixed quantity of the same kind called a standard unit.",
+     "a": "Measurement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying cloth for a kurta in a Delhi market: the shopkeeper ______ it with a \"haath\" (forearm length), but your tailor in Mumbai uses a metre tape.",
+     "a": "measures",
+     "self_check": true
+    },
+    {
+     "q": "What is Measurement in science? State the definition given in this lesson.",
+     "a": "Measurement in science is the process of comparing an unknown physical quantity with a known fixed quantity of the same kind called a standard unit.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Practice converting ______ km/h to m/s step-by-step to see how prefixes (kilo, centi) are just powers of ten.",
+     "a": "60",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Measurement in science?",
+     "a": "Students believe that \"metric unit\" and \"SI unit\" are synonyms, so they write \"cm\" or \"g\" in final answers thinking they are using SI.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly identify the seven SI base units and their symbols, convert between common metric prefixes (kilo, centi, milli, micro) using powers of ten, and derive the SI unit of a derived quantity (e.g., force, pressure, speed) from its defining formula using dimensional analysis.",
+     "self_check": true
     }
    ]
   }

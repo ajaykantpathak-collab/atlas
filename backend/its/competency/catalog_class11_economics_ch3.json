@@ -482,7 +482,16 @@
      "question": "Explain how index numbers help in deflating nominal income to real income.",
      "type": "long_answer"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "inflation_rate = ((CPI_current - CPI_base) / CPI_base) * 100",
+     "compute": "inflation_rate = ((CPI_current - CPI_base) / CPI_base) * 100"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [],

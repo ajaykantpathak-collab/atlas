@@ -51,7 +51,16 @@
      "solution": "Step 1: divide individual event count by starting population: per_capita_rate = count / initial_pop = 1.0 Step 2: Convert the per capita rate to a per-individual basis if needed: per_capita_rate = count / initial_pop = 1.0 Final result: 1.0",
      "answer": "1.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "per_capita_rate = count / initial_pop",
+     "compute": "per_capita_rate = count / initial_pop"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebo.111.1.2",
@@ -100,7 +109,16 @@
      "solution": "Step 1: sum gains to the population: gains = births + immigration = 8.0 Step 2: sum losses from the population: losses = deaths + emigration = 7.0 Step 3: calculate net future population density: n_next = n_current + gains - losses = 4.0 Final result: 4.0",
      "answer": "4.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "N_next = N_current + (births + immigration) - (deaths + emigration)",
+     "compute": "N_next = N_current + (births + immigration) - (deaths + emigration)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebo.111.1.3",
@@ -147,7 +165,16 @@
      "solution": "Step 1: subtract per capita death rate from per capita birth rate: r = b - d = 0.0 Final result: 0.0",
      "answer": "0.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "r = b - d",
+     "compute": "r = b - d"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebo.111.1.4",
@@ -195,7 +222,16 @@
      "solution": "Step 1: multiply intrinsic growth rate by population size: growth_rate = r * n = 16.0 Step 3: Project the population size for the next time interval: n_next = n + growth_rate = 20.0 Final result: 20.0",
      "answer": "20.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "growth_rate = r * N",
+     "compute": "growth_rate = r * N"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebo.111.1.5",
@@ -243,7 +279,16 @@
      "solution": "Step 1: compute environmental resistance fraction: fraction_remaining = (k - n) / k = 0.0 Step 2: calculate net logistic growth rate: growth_rate = r * n * fraction_remaining = 0.0 Final result: 0.0",
      "answer": "0.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "growth_rate = r * N * (K - N) / K",
+     "compute": "growth_rate = r * N * (K - N) / K"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebo.111.1.6",

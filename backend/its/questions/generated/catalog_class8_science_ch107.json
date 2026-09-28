@@ -2,6 +2,53 @@
  "catalog": "catalog_class8_science_ch107.json",
  "concepts": [
   {
+   "id": "hesc.107.7.2.1",
+   "title": "Calculation of Full Height at Puberty",
+   "converted_to_compute": true,
+   "formula": "full_height = (present_height * 100) / percent_height",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "full_height = (present_height * 100) / percent_height",
+     "compute": "full_height = (present_height * 100) / percent_height"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Calculation of Full Height at Puberty: given present_height = 96, percent_height = 93, find full height.",
+     "a": "103.226",
+     "self_check": false
+    },
+    {
+     "q": "For Calculation of Full Height at Puberty: given present_height = 65, percent_height = 70, find full height.",
+     "a": "92.8571",
+     "self_check": false
+    },
+    {
+     "q": "For Calculation of Full Height at Puberty: given present_height = 100, percent_height = 6.4, find full height.",
+     "a": "1562.5",
+     "self_check": false
+    },
+    {
+     "q": "For Calculation of Full Height at Puberty: given present_height = 105, percent_height = 107, find full height.",
+     "a": "98.1308",
+     "self_check": false
+    },
+    {
+     "q": "For Calculation of Full Height at Puberty: given present_height = 77, percent_height = 39, find full height.",
+     "a": "197.436",
+     "self_check": false
+    },
+    {
+     "q": "For Calculation of Full Height at Puberty: given present_height = 24, percent_height = 102, find full height.",
+     "a": "23.5294",
+     "self_check": false
+    }
+   ]
+  },
+  {
    "id": "hesc.107.7.1",
    "title": "Adolescence and Puberty",
    "solution_type": "verify_property",
@@ -20,88 +67,6 @@
      "q": "Name the glands that control puberty changes.",
      "a": "The pituitary master gland, and the testes/ovaries which release testosterone and oestrogen.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "hesc.107.7.2.1",
-   "title": "Calculation of Full Height at Puberty",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "height_times_100",
-     "expr": "present_height * 100",
-     "explain": "scale the present height by 100"
-    },
-    {
-     "step": 2,
-     "name": "growth_left",
-     "expr": "100 - percent_height",
-     "explain": "per cent of growth still to come"
-    },
-    {
-     "step": 3,
-     "name": "full_height",
-     "expr": "height_times_100 / percent_height",
-     "explain": "present height is the given per cent of adult height, so divide"
-    }
-   ],
-   "questions": [
-    {
-     "q": "At 11 years a boy is 140 cm tall, which is 80% of his full height. Estimate his full height.",
-     "vals": {
-      "present_height": 140,
-      "percent_height": 80
-     },
-     "unit": "cm",
-     "steps": null,
-     "a": "175 cm",
-     "self_check": false
-    },
-    {
-     "q": "A girl measures 150 cm, said to be 75% of her adult height. What will her full height be?",
-     "vals": {
-      "present_height": 150,
-      "percent_height": 75
-     },
-     "unit": "cm",
-     "steps": null,
-     "a": "200 cm",
-     "self_check": false
-    },
-    {
-     "q": "A boy's 126 cm is 90% of his final height according to a chart. Find his full height.",
-     "vals": {
-      "present_height": 126,
-      "percent_height": 90
-     },
-     "unit": "cm",
-     "steps": null,
-     "a": "140 cm",
-     "self_check": false
-    },
-    {
-     "q": "A child is 90 cm tall, which is 60% of full height. Estimate the adult height.",
-     "vals": {
-      "present_height": 90,
-      "percent_height": 60
-     },
-     "unit": "cm",
-     "steps": null,
-     "a": "150 cm",
-     "self_check": false
-    },
-    {
-     "q": "At 160 cm a teen has reached 95% of full height. Predict the final height.",
-     "vals": {
-      "present_height": 160,
-      "percent_height": 95
-     },
-     "unit": "cm",
-     "steps": null,
-     "a": "168.421 cm",
-     "self_check": false
     }
    ]
   },

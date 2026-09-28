@@ -34,6 +34,21 @@
      "q": "Design a two-step synthesis to convert *optically active* (R)-butan-2-ol to (S)-2-iodobutane with **inversion of configuration**. Specify reagents for each step and explain why your choice guarantees inversion. What would happen if you used conc. HI instead?",
      "a": "**Step 1:** (R)-butan-2-ol + SOCl₂ / pyridine → (S)-2-chlorobutane (inversion via SN2).  \n**Step 2:** (S)-2-chlorobutane + NaI / dry acetone (Finkelstein) → (S)-2-iodobutane (inversion via SN2).  \n**Net:** Double inversion = retention? No! Wait — each SN2 inverts. Two inversions = **retention**. To get **single inversion to (S)**, use **direct SN2 with NaI/acetone on the alcohol? Not possible — -OH is poor leaving group.**  \n**Correct design:** Convert (R)-alcohol to a **good leaving group without inversion** (e.g., tosylate with TsCl/pyridine, retention), then SN2 with NaI (inversion) → (S)-2-iodobutane.  \n**If conc. HI used:** Protonation → carbocation (SN1, racemisation) → (±)-2-iodobutane.  \nA poor answer uses HI directly or misses the tosylate step, showing lack of mechanistic control over stereochemistry.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Preparation of haloalkanes from alcohols involves the ______ of the hydroxyl (-OH) group by a halogen atom (X = Cl, Br, I) using reagents such as concentrated halogen acids (HX), phosphorus halides (PX₃, PX₅), or thionyl chloride (SOCl₂).",
+     "a": "substitution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bottle of ______ HCl in the school lab — it fumes in moist air because HCl gas escapes.",
+     "a": "concentrated",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Write balanced chemical equations for conversion of 1°, 2°, 3° alcohols to haloalkanes using HX, PX₃, PX₅, and SOCl₂ with correct conditions; (2) Explain why thionyl chloride is preferred for laboratory preparation; (3) Predict the mechanism (SN1 vs SN2) based on alcohol structure and reagent; (4) Justify the reactivity.",
+     "self_check": true
     }
    ]
   }

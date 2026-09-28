@@ -34,6 +34,26 @@
      "q": "A CREATE level question: Design a stepwise strategy to generate a vascularized cardiac patch from a patient's own cells for post-infarction repair. Specify: (a) starting cell source, (b) reprogramming/differentiation steps, (c) scaffold requirements, (d) pre-transplantation validation assays.",
      "a": "Expected answer: (a) Patient dermal fibroblasts or peripheral blood mononuclear cells. (b) Reprogram to iPSCs (Yamanaka factors) → differentiate to cardiac mesoderm (Activin A + BMP4) → purify cardiomyocytes (mitochondrial dye) + endothelial cells (VEGF) + fibroblasts. (c) Decellularized cardiac ECM hydrogel or fibrin-collagen scaffold with VEGF-releasing microspheres for vascularization. (d) Validate: spontaneous beating, calcium transients, force measurement, electrophysiological coupling, absence of pluripotency markers (OCT4, NANOG), karyotype stability, sterility. A poor answer omits vascularization (critical for graft survival) or skips safety assays (tumorigenicity), showing lack of translational thinking.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Regenerative medicine applications of stem cells involve using the self-renewal and ______ potency of stem cells (embryonic, adult, or induced pluripotent) to repair, replace, or regenerate damaged tissues and organs, either by direct transplantation, stimulating endogenous repair, or generating organoids/organs in vitro for transplantation or disease modeling.",
+     "a": "differentiation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a patient with severe burns — conventional skin grafts often fail to restore full dermal ______.",
+     "a": "function",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain at least four distinct clinical applications of stem cells (e.g., neurological, cardiac, skin, autoimmune) with the specific stem cell type used and the mechanism of repair, and can evaluate two major challenges (immune rejection, tumorigenicity) with a proposed mitigation strategy for each.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a patient with severe burns — ______ skin grafts often fail to restore full dermal function.",
+     "a": "conventional",
+     "self_check": true
     }
    ]
   }

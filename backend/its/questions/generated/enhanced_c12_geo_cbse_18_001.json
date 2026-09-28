@@ -34,6 +34,31 @@
      "q": "Design a simple data-collection plan to study maximum temperature variation across your school campus over one week. Specify: (a) what you will measure, (b) number and selection of locations, (c) time of measurement, (d) how you will avoid the statistical fallacy of reporting only a single campus-wide average.",
      "a": "(a) Maximum air temperature using a calibrated thermometer.  \n(b) Minimum 5 locations representing different micro-environments: open playground, shaded courtyard, rooftop, near building wall, garden/lawn.  \n(c) Same time daily (e.g., 14:00 IST) to control for diurnal cycle.  \n(d) Record each location separately; compute **range, standard deviation, and daily spatial map** (isotherm sketch) instead of a single campus average. This reveals microclimatic variation (e.g., rooftop 2–3°C hotter than lawn) that a campus average would hide — directly applying the lesson from the river-depth fallacy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Geographical data are ______ collected numerical or categorical measurements representing real-world spatial phenomena (such as temperature, population, elevation, crop yield, or rainfall) that serve as the raw material for analyzing patterns, relationships, and processes on the Earth's surface.",
+     "a": "systematically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with the familiar TV news ticker showing ______ of Indian cities (Delhi 42°C, Mumbai 33°C, Shimla 22°C) — these numbers are *data*.",
+     "a": "temperatures",
+     "self_check": true
+    },
+    {
+     "q": "What is Geographical data? State the definition given in this lesson.",
+     "a": "Geographical data are systematically collected numerical or categorical measurements representing real-world spatial phenomena (such as temperature, population, elevation, crop yield, or rainfall) that serve as the raw material for analyzing patterns, relationships, and processes on the Earth's surface.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Geographical data?",
+     "a": "Students often treat data and information as synonyms, writing \"data means information\" in exams.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish between data and information with a geographical example, (2) explain why raw data alone are insufficient for geographical analysis using the concept of statistical fallacy, and (3) articulate the significance of data in shifting geography from qualitative description to quantitative analysis.",
+     "self_check": true
     }
    ]
   }

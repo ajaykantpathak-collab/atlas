@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a battery, a magnet, a few metres of insulated copper wire, and two paper clips to demonstrate the motor principle. Draw a labelled sketch and write the step-by-step procedure. Explain how your setup shows the conversion of electrical energy to mechanical energy and where the \"commutator action\" occurs naturally.",
      "a": "**Procedure:** (1) Wind the copper wire into a small coil (10-15 turns) leaving two long ends. (2) Scrape off insulation completely from one end; from the other end, scrape only the top half of the insulation (half-stripped). (3) Bend the two paper clips into supports and tape them to the battery terminals. (4) Place the magnet on the battery. (5) Rest the coil ends in the paper clip loops. (6) Give the coil a gentle spin.  \n**Explanation:** The half-stripped end acts as a natural commutator: when the bare copper contacts the paper clip, current flows and the coil experiences a torque (Fleming's left-hand rule). When the insulated half contacts the clip, current stops, and inertia carries the coil through the \"dead\" zone. The coil continues spinning in one direction.  \n**Energy conversion:** Chemical energy (battery) → electrical energy → kinetic energy (rotation).  \nA poor answer that just says \"make a coil and spin it\" without the half-stripping trick shows the student does not understand the need for current reversal (or interruption) to sustain rotation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An electric motor is a device that converts ______ energy into mechanical energy of rotation.",
+     "a": "electrical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan or a mixer grinder in your kitchen — when you switch it on, ______ energy makes the blades rotate.",
+     "a": "electrical",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can draw a labelled diagram of a simple DC motor, explain the role of each component (armature, commutator, brushes, field magnet), and apply Fleming's left-hand rule to predict the direction of rotation for a given current and magnetic field orientation.",
+     "self_check": true
     }
    ]
   }

@@ -5,6 +5,8 @@
    "id": "kemh109.9.2.1",
    "title": "Slope of a Line Through Two Points",
    "converted_to_compute": false,
+   "formula": "slope = (y2 - y1) / (x2 - x1)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (-2, 7) and (8, 31).",
@@ -41,15 +43,9 @@
   {
    "id": "kemh109.9.2.2",
    "title": "Parallel and Perpendicular Conditions",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 15 gives 75",
-     "compute": "other = 90 - 15"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "m1 = m2 for parallel, m1 * m2 = -1 for perpendicular",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 15 degrees, find the other.",
@@ -87,6 +83,8 @@
    "id": "kemh109.9.2.3",
    "title": "Angle Between Two Lines",
    "converted_to_compute": false,
+   "formula": "tan_theta = (m2 - m1) / (1 + m1 * m2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 27 degrees, find the other.",
@@ -123,27 +121,8 @@
   {
    "id": "kemh109.9.2.4",
    "title": "Collinearity of Three Points via Slopes",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the coordinate-geometry formula",
-     "explain": "apply the coordinate-geometry formula: dx = 2 - -3 gives 5",
-     "compute": "dx = 2 - -3"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the coordinate-geometry formula: dy = 13 - 1 gives 12",
-     "compute": "dy = 13 - 1"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 13",
-     "compute": "dist = sqrt(dx * dx + dy * dy)"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (-3, 1) and (2, 13).",
@@ -180,15 +159,9 @@
   {
    "id": "kemh109.9.3.1",
    "title": "Point-Slope, Two-Point and Slope-Intercept Forms",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "recall the count for the shape",
-     "explain": "recall the count for the shape: lines = 4 gives 4",
-     "compute": "lines = 4"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "y - y1 = m * (x - x1)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a square have?",
@@ -225,27 +198,9 @@
   {
    "id": "kemh109.9.3.2",
    "title": "Intercept Form of a Line",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the coordinate-geometry formula",
-     "explain": "apply the coordinate-geometry formula: dx = 25 - 5 gives 20",
-     "compute": "dx = 25 - 5"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the coordinate-geometry formula: dy = 20 - -1 gives 21",
-     "compute": "dy = 20 - -1"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 29",
-     "compute": "dist = sqrt(dx * dx + dy * dy)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "x / a + y / b = 1",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (5, -1) and (25, 20).",
@@ -283,6 +238,8 @@
    "id": "kemh109.9.4.1",
    "title": "Distance of a Point from a Line",
    "converted_to_compute": false,
+   "formula": "dist = abs(a_coef * x0 + b_coef * y0 + c_coef) / sqrt(a_coef ** 2 + b_coef ** 2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a kite have?",
@@ -320,6 +277,8 @@
    "id": "kemh109.9.4.2",
    "title": "Distance Between Two Parallel Lines",
    "converted_to_compute": false,
+   "formula": "gap = abs(c1 - c2) / sqrt(a_coef ** 2 + b_coef ** 2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 24 degrees, find the other.",

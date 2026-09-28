@@ -34,6 +34,31 @@
      "q": "Design a procedure to experimentally determine whether an unknown salt solution is acidic, basic, or neutral due to hydrolysis, using only pH paper, conductivity tester, and 0.1 M standard solutions of HCl and NaOH. Explain how you would distinguish between a salt of strong acid-strong base vs a salt of weak acid-weak base that happens to give pH ≈ 7.",
      "a": "Step 1: Measure pH of 0.1 M unknown salt with pH paper. If pH ≠ 7, classify directly. If pH ≈ 7, proceed. Step 2: Add few drops of 0.1 M HCl to one portion and 0.1 M NaOH to another. A strong-strong salt (e.g., NaCl) shows no buffering - pH changes drastically. A weak-weak salt (e.g., NH₄CN near pH 7) shows resistance due to conjugate acid/base pairs present (NH₄⁺/NH₃ and HCN/CN⁻). Step 3: Conductivity test - both conduct, but weak-weak salt has slightly lower molar conductivity due to partial hydrolysis reducing free ion concentration. A poor answer that only uses pH paper reveals inability to design confirmation tests and confusion between \"neutral salt\" and \"neutral pH from competing hydrolysis\".",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of salts is the reaction of cations or anions of a salt with water to produce H₃O⁺ or OH⁻ ions, thereby changing the pH of the solution from neutral.",
+     "a": "Hydrolysis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe what happens when you ______ ammonium chloride (NH₄Cl) and sodium acetate (CH₃COONa) in separate beakers of water and test with pH paper: NH₄Cl solution turns red (acidic), CH₃COONa turns blue (basic), while NaCl remains green (neutral).",
+     "a": "dissolve",
+     "self_check": true
+    },
+    {
+     "q": "What is Hydrolysis of salts? State the definition given in this lesson.",
+     "a": "Hydrolysis of salts is the reaction of cations or anions of a salt with water to produce H₃O⁺ or OH⁻ ions, thereby changing the pH of the solution from neutral.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Hydrolysis of salts?",
+     "a": "Students write the hydrolysis reaction for NH₄Cl as NH₄Cl + H₂O → NH₄OH + HCl, treating it as molecular dissociation rather than ionic hydrolysis.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) classify any given salt into one of four hydrolysis categories and predict solution pH qualitatively; (2) derive and apply the exact pH calculation formulas for each category using Kw, Ka, Kb relationships; (3) calculate degree of hydrolysis and hydrolysis constant for salts of weak acid-weak base; (4) solve multi-step.",
+     "self_check": true
     }
    ]
   }

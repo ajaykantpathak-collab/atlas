@@ -34,6 +34,31 @@
      "q": "Design a set of 5 \"element cards\" for a classroom activity demonstrating Mendeleev's method. Each card must show: element symbol, atomic mass (use approximate historical values), valency, and one key property. Choose elements that would reveal a gap for an undiscovered element between two known ones. Explain how a student would detect the gap.",
      "a": "Expected answer criteria:\n- Cards for: Ca (40, 2, metal), Ti (48, 4, metal), ?? (gap), Cr (52, 3/6, metal), Mn (55, 2/7, metal).\n- Gap detection: Atomic masses jump from 48 to 52 with no element of valency ~4-5 in between; properties break periodicity.\n- Student should notice missing element with atomic mass ~50, valency 4, properties between Ti and Cr (Eka-titanium = Zirconium? Actually Scandium is 45, but Mendeleev predicted Scandium as Eka-boron. Better example: Group III gap after Al (27) → ?? (gap) → In (114) — too big. Use Period 4 Group III: Ca (40, Gr II), ?? (gap, Gr III), Ti (48, Gr IV). Gap at ~44-45, valency 3 → Scandium).\nPoor answer: Cards without valency or property, or no logical gap — shows inability to reverse-engineer Mendeleev's predictive process.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mendeleev's Periodic Law states that the physical and chemical ______ of elements are a periodic function of their atomic masses.",
+     "a": "properties",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are organizing a library of 63 books where each book represents an ______.",
+     "a": "element",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mendeleev arranged the ______ known elements in increasing order of atomic masses into groups (vertical columns) and periods (horizontal rows) such that elements with similar properties fell in the same group, leaving gaps for undiscovered elements and predicting their properties.",
+     "a": "63",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state Mendeleev's Periodic Law precisely, explain how atomic mass was used as the basis for arrangement, and describe at least three major achievements (prediction of undiscovered elements with properties, correction of atomic masses, accommodation of noble gases) with specific examples like Eka-aluminium (Gallium) and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a library of 63 books where each book represents an element.",
+     "a": "organizing",
+     "self_check": true
     }
    ]
   }

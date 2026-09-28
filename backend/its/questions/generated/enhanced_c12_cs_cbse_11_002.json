@@ -17,12 +17,12 @@
     },
     {
      "q": "Given the list `marks = [85, 90, 75, 90, 80]`, write code to (a) remove the first 90, (b) pop the last element and store it in `last_mark`, and (c) sort the list in descending order. Show the final list and the value of `last_mark`.",
-     "a": "```python\nmarks = [85, 90, 75, 90, 80]\nmarks.remove(90)        # removes first 90 → [85, 75, 90, 80]\nlast_mark = marks.pop() # removes and returns last element (80) → marks = [85, 75, 90]\nmarks.sort(reverse=True) # sorts descending → [90, 85, 75]\n```\nFinal list: `[90, 85, 75]`, `last_mark = 80`.  \nA wrong answer where the student writes `marks = marks.sort(reverse=True)` shows they think `sort()` returns a new list (it returns `None`). A wrong answer where `pop()` is called without parentheses or with an index when not needed indicates confusion about `pop()`'s default behavior.",
+     "a": "```python\nmarks = [85, 90, 75, 90, 80]\nmarks.remove(90)        # removes first 90 → [85, 75, 90, 80]\nlast_mark = marks.pop() # removes and returns last element (80) → marks = [85, 75, 90]\nmarks.sort(reverse=True) # sorts descending → [90, 85, 75]\n```\nFinal list: `[90, 85, 75]`, `last_mark = 80`.  \nA wrong answer where the student writes `marks = marks.sort(reverse=True)` shows they think `sort()` returns a new list (it returns `N/A`). A wrong answer where `pop()` is called without parentheses or with an index when not needed indicates confusion about `pop()`'s default behavior.",
      "self_check": true
     },
     {
      "q": "Compare the effects of `list.pop()` and `list.remove(value)` on the list `[5, 10, 15, 10]`. Specifically, what does each return, and what is the resulting list if you call `pop(1)` followed by `remove(10)`? What if you reverse the order?",
-     "a": "- `pop(1)` removes and returns the element at index 1 (10) → list becomes `[5, 15, 10]`. Then `remove(10)` deletes the first 10 (now at index 2) → final list `[5, 15]`. Returns: `pop` returns 10, `remove` returns `None`.\n- Reverse order: `remove(10)` deletes the first 10 (index 1) → list becomes `[5, 15, 10]`. Then `pop(1)` removes and returns element at index 1 (15) → final list `[5, 10]`. Returns: `remove` returns `None`, `pop` returns 15.  \nA wrong answer that says both sequences give the same final list reveals the student doesn't track index shifts after each mutation. The correct analysis requires step‑by‑step index tracking.",
+     "a": "- `pop(1)` removes and returns the element at index 1 (10) → list becomes `[5, 15, 10]`. Then `remove(10)` deletes the first 10 (now at index 2) → final list `[5, 15]`. Returns: `pop` returns 10, `remove` returns `N/A`.\n- Reverse order: `remove(10)` deletes the first 10 (index 1) → list becomes `[5, 15, 10]`. Then `pop(1)` removes and returns element at index 1 (15) → final list `[5, 10]`. Returns: `remove` returns `N/A`, `pop` returns 15.  \nA wrong answer that says both sequences give the same final list reveals the student doesn't track index shifts after each mutation. The correct analysis requires step‑by‑step index tracking.",
      "self_check": true
     },
     {
@@ -33,6 +33,36 @@
     {
      "q": "Design a small Python program (3‑5 lines) that uses **all five methods** (`append`, `insert`, `remove`, `pop`, `sort`) exactly once each on a list representing a queue of customer tokens (integers). The program should simulate: a new customer joins (append), a VIP jumps to front (insert), a customer leaves (remove), the next customer is served (pop), and finally the remaining tokens are sorted for a report. Provide the initial list and the final list after all operations.",
      "a": "Example solution:\n```python\ntokens = [101, 102, 103]      # initial queue\ntokens.append(104)            # new customer → [101, 102, 103, 104]\ntokens.insert(0, 200)         # VIP → [200, 101, 102, 103, 104]\ntokens.remove(102)            # customer 102 leaves → [200, 101, 103, 104]\nserved = tokens.pop(0)        # serve first (VIP 200) → [101, 103, 104]\ntokens.sort()                 # sort for report → [101, 103, 104]\n```\nFinal list: `[101, 103, 104]`.  \nA poor answer might use `pop()` without index (serving the last instead of first) or forget that `insert(0, ...)` puts at front. The exercise tests whether the student can map real‑world actions to the correct method and index.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: List methods in Python are built-in functions that modify a list in-place or return ______ about its contents.",
+     "a": "information",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a program for a school canteen that tracks the prices of snacks in a list.",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "What is List methods in Python? State the definition given in this lesson.",
+     "a": "List methods in Python are built-in functions that modify a list in-place or return information about its contents.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then, one by one, apply append() to add a new price at the end, insert(______, value) to put a discount at the front, remove(value) to delete a specific price, pop() to take the last price for the special, and sort() to order the list.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about List methods in Python?",
+     "a": "Students often believe that list.sort() returns a new sorted list and write sorted_list = my_list.sort().",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) write correct Python code using each of the five methods with proper syntax and arguments, (2) predict the exact state of a list after a sequence of method calls, including side effects like pop() returning a value and sort() returning N/A, and (3) choose the appropriate method for a given real-world data.",
      "self_check": true
     }
    ]

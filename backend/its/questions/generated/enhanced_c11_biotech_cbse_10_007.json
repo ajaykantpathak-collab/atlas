@@ -34,6 +34,36 @@
      "q": "Design a PyMOL script snippet that: (1) Loads a PDB file provided as a command-line argument; (2) Colours the protein by secondary structure (helix=red, sheet=yellow, loop=green); (3) Identifies all residues within 5 Å of any HETATM ligand and shows them as sticks coloured by element; (4) Renders a 1200x1200 ray-traced image named after the PDB code. Write the script assuming it will be run as `pymol -c script.py 1abc.pdb`.",
      "a": "```python\nimport sys\npdb_file = sys.argv[1]\npdb_code = pdb_file.split('.')[0]\ncmd.load(pdb_file)\ncmd.color(\"red\", \"ss h\")\ncmd.color(\"yellow\", \"ss s\")\ncmd.color(\"green\", \"ss l\")\ncmd.select(\"ligand\", \"hetatm\")\ncmd.select(\"binding_site\", \"byres ligand around 5\")\ncmd.show(\"sticks\", \"binding_site\")\ncmd.util.cbag(\"binding_site\")  # colour by element\ncmd.ray(1200, 1200)\ncmd.png(f\"{pdb_code}_binding_site.png\")\n```\nA poor answer hardcodes the filename, uses `select all` instead of `byres`, or omits `cmd.util.cbag` (standard element colouring). This reveals inability to translate a multi-step visualisation workflow into reproducible code — a core competency for structural bioinformatics.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Molecular visualisation tools are software applications that render three-dimensional protein structures from atomic coordinate files (primarily PDB format) into interactive graphical ______, enabling analysis of spatial geometry, secondary structure elements, binding pockets, and molecular interactions.",
+     "a": "representations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by downloading the PDB file (e.g., 1ATP from PDB) and opening it in RasMol: type load 1ATP.pdb at the command line, then cartoon and colour ______ to instantly recognise alpha-helices and beta-sheets.",
+     "a": "structure",
+     "self_check": true
+    },
+    {
+     "q": "What is Molecular visualisation tools? State the definition given in this lesson.",
+     "a": "Molecular visualisation tools are software applications that render three-dimensional protein structures from atomic coordinate files (primarily PDB format) into interactive graphical representations, enabling analysis of spatial geometry, secondary structure elements, binding pockets, and molecular interactions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Next, switch to PyMOL for deeper analysis: fetch ______ATP, show cartoon, color ss, then select ligand, resn ATP and show sticks, ligand to inspect the bound nucleotide.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Molecular visualisation tools?",
+     "a": "Students believe RasMol and PyMOL are interchangeable \"structure viewers\" differing only in graphics quality.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Load a PDB file in both RasMol and PyMOL, select specific residues or chains, and switch between at least four representation styles (cartoon, spacefill, wireframe, surface); (2) Write a basic PyMOL script to colour a protein by secondary structure, highlight a ligand in stick representation, and save a.",
+     "self_check": true
     }
    ]
   }

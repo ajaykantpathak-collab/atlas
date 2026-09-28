@@ -34,6 +34,31 @@
      "q": "Design a 3-cycle iterative investigation to answer: \"Does the temperature of water affect how fast a sugar cube dissolves?\" For each cycle, state: (a) the specific question for that cycle, (b) what you will measure, (c) what you will change from the previous cycle, and (d) why that change improves the investigation.",
      "a": "Cycle 1: (a) Does hot vs. cold water make a visible difference in dissolving time? (b) Time for cube to disappear (stopwatch, seconds). (c) — (first cycle). (d) —. Cycle 2: (a) How does dissolving time change at 5 specific temperatures (10, 20, 30, 40, 50°C)? (b) Dissolving time at each temperature (3 trials each). (c) Use a thermometer to control/set exact temperatures; do 3 trials per temperature. (d) Cycle 1 only compared two vague temperatures; Cycle 2 quantifies the relationship and checks consistency. Cycle 3: (a) Is the relationship linear? (b) Dissolving time at 8 temperatures (5°C intervals from 5–40°C) with stirring rate controlled. (c) Add a mechanical stirrer at constant speed; increase temperature points. (d) Cycle 2 had hand-stirring (uncontrolled variable) and few points; Cycle 3 isolates temperature effect and tests linearity. A poor answer lists steps without linking each change to a specific limitation found in the previous cycle — showing they don't see iteration as evidence-driven refinement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Iterative ______ is the scientific process of repeatedly refining an experiment based on initial results, where each cycle involves modifying the hypothesis, controlling variables more carefully, or improving measurement techniques to reduce errors and build more reliable understanding of a phenomenon.",
+     "a": "investigation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a ceiling fan ______ at different speeds — sometimes it runs smoothly, sometimes it shakes.",
+     "a": "wobble",
+     "self_check": true
+    },
+    {
+     "q": "What is Iterative investigation? State the definition given in this lesson.",
+     "a": "Iterative investigation is the scientific process of repeatedly refining an experiment based on initial results, where each cycle involves modifying the hypothesis, controlling variables more carefully, or improving measurement techniques to reduce errors and build more reliable understanding of a phenomenon.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can describe how an investigation changes across at least two cycles by identifying what was modified (hypothesis, variable control, or measurement method) and explain why the change improved the reliability of the conclusion.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a ceiling fan wobble at different speeds — sometimes it runs ______, sometimes it shakes.",
+     "a": "smoothly",
+     "self_check": true
     }
    ]
   }

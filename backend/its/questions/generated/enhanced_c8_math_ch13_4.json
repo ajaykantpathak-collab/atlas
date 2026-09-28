@@ -34,6 +34,26 @@
      "q": "Create a 4-row number pyramid with two missing numbers in the bottom row such that the top number is 100. Write the algebraic expressions for each cell and set up the equation for the top. Choose values for the known bottom numbers and solve for the missing ones.",
      "a": "Example: Bottom row: x, 5, y, 10. Then second row: x+5, 5+y, y+10. Third row: x+10+y, 5+2y+10 = x+y+10, 2y+15. Top: (x+y+10)+(2y+15)= x+3y+25 = 100 => x+3y=75. Choose y=10 => x=45. A poor answer might not maintain the pyramid structure or might not set up the equation correctly, revealing difficulty in generalizing the addition rule to larger pyramids.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A number pyramid is a triangular ______ of numbers where each number in a higher row is the sum of the two numbers directly below it.",
+     "a": "arrangement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your younger sibling with a puzzle where some numbers in a ______ are missing.",
+     "a": "pyramid",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can assign variables to unknown cells in a number pyramid, set up equations using the addition rule, solve the resulting linear equations, and verify the solution by reconstructing the pyramid.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are helping your younger sibling with a puzzle where some numbers in a pyramid are missing.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

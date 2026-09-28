@@ -34,6 +34,21 @@
      "q": "Create a set of instructions for a friend to construct a triangle with sides 7cm, 8cm, and 9cm using only a ruler and a compass.",
      "a": "1. Draw a 9cm line segment. 2. Set the compass to 7cm and draw an arc from one endpoint. 3. Set the compass to 8cm and draw an arc from the other endpoint. 4. Connect the intersection point to both ends. A poor answer would lack the step of using the compass to \"fix\" the lengths of the other two sides.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ triangles using SSS (Side-Side-Side) and SAS (Side-Angle-Side) criteria involves using a ruler, a compass, and a protractor to draw a unique triangle when specific measurements are provided.",
+     "a": "Constructing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a carpenter trying to build a ______ wooden frame for a window, but you only have three sticks of specific lengths.",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to draw a triangle given three side lengths or two side lengths and an included angle using a compass and protractor accurately.",
+     "self_check": true
     }
    ]
   }

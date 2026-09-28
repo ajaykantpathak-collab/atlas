@@ -34,6 +34,26 @@
      "q": "Design a parallel resistor network using only 3 Ω, 4 Ω, and 6 Ω resistors (you may use multiple of each) to achieve an equivalent resistance of exactly 1 Ω. Draw the circuit diagram and show the calculation. Is there more than one solution?",
      "a": "**Expected answer criteria:** (1) Correct circuit diagram with standard symbols, (2) Valid combination yielding 1 Ω, (3) Calculation shown with units. **Example solution:** Use two 3 Ω resistors in parallel: 1/R_eq = 1/3 + 1/3 = 2/3 → R_eq = 1.5 Ω (not 1 Ω). Use 3 Ω, 4 Ω, 6 Ω all in parallel: 1/R_eq = 1/3 + 1/4 + 1/6 = 4/12 + 3/12 + 2/12 = 9/12 = 3/4 → R_eq = 4/3 Ω ≈ 1.33 Ω. Use two 4 Ω in parallel (2 Ω) then in parallel with 6 Ω: 1/2 + 1/6 = 2/3 → 1.5 Ω. **Actual 1 Ω solution:** Three 3 Ω resistors in parallel: 1/3 + 1/3 + 1/3 = 1 → R_eq = 1 Ω. Or two 6 Ω in parallel (3 Ω) then in parallel with 3 Ω: 1/3 + 1/3 = 2/3 → 1.5 Ω (no). **Only the three 3 Ω resistors work.** A poor answer randomly guesses without calculation or uses series combinations, showing lack of systematic approach to reciprocal sums.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In a parallel ______ of resistors, the potential difference (voltage) across each resistor is the same, and the total current divides among the branches.",
+     "a": "combination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the electrical outlets in your classroom or home — the fan, lights, and computer are all connected across the same 230 V supply but operate ______; switching off the fan does not turn off the lights.",
+     "a": "independently",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the electrical outlets in your classroom or home — the fan, lights, and computer are all connected across the same ______ V supply but operate independently; switching off the fan does not turn off the lights.",
+     "a": "230",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Derive the parallel equivalent resistance formula from Kirchhoff's current law and Ohm's law, (2) Calculate R_eq for any number of resistors in parallel with correct unit handling, (3) Determine the current through each branch given total voltage, and (4) Explain why household appliances are connected in parallel.",
+     "self_check": true
     }
    ]
   }

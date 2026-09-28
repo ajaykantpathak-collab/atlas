@@ -34,6 +34,21 @@
      "q": "Create an algebraic expression containing at least five terms with two different variables ($x$ and $y$) and at least one constant, such that when fully simplified, the result is $5x - 2y + 6$.",
      "a": "An acceptable response is any expression that expands out or rearranges to $5x - 2y + 6$, such as $3x - y + 2x - y + 6$. \nCriteria for evaluation: The student must include terms with $x$, terms with $y$, and constants that, when grouped and combined according to integer rules, yield exactly $5x$, $-2y$, and $+6$. A poor answer shows terms that cannot be simplified to these exact coefficients or mixes up variable powers.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of algebraic expressions involving like terms is the process of combining terms that contain the exact same variables raised to the exact same powers into a single term by adding or subtracting their numerical coefficients.",
+     "a": "Simplification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In algebra, we do the exact same thing when we encounter expressions with letters ______ items, measurements, or unknowns.",
+     "a": "representing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify like and unlike terms within an algebraic expression containing multiple variables and powers, group them together, and combine their coefficients using integer addition and subtraction rules to arrive at a fully simplified expression.",
+     "self_check": true
     }
    ]
   }

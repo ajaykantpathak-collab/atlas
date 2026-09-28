@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_08_001",
+   "title": "c11_hist_cbse_08_001",
+   "questions": [
+    {
+     "q": "In the NCERT textbook, the term *terra nullius* is explicitly linked to which region's colonial history, and what does the Latin term literally mean?",
+     "a": "*Terra nullius* (\"nobody's land\") was the legal doctrine applied to **Australia**, declaring the continent empty of ownership before British arrival (p. 151). A wrong answer (e.g., linking it to America) reveals the student conflates the *legal mechanisms* of displacement: America used treaties (however unequal); Australia denied Indigenous sovereignty entirely from the start.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT describes a fundamental misunderstanding in trade between Europeans and Native Americans: Europeans saw furs as *commodities* for profit; Native Americans saw them as *gifts* in a relationship. Explain why this difference made Native Americans vulnerable to market fluctuations they could not comprehend.",
+     "a": "Native Americans operated in a **gift economy** where exchange cemented social bonds and reciprocity was immediate and personal. Europeans operated in a **market economy** where prices fluctuated based on distant European demand (p. 139). When traders suddenly offered fewer goods for the same furs, Natives couldn't grasp \"supply and demand\" — they experienced it as betrayal of friendship. A wrong answer focusing only on \"greed\" misses the *structural* asymmetry: one side played by market rules, the other by kinship rules.",
+     "self_check": true
+    },
+    {
+     "q": "Chief Seattle's 1854 letter (quoted on pp. 145–146) says: *\"How can you buy or sell the sky, the warmth of the land?\"* Using this, contrast the **Indigenous concept of sovereignty** (relationship to land) with the **European legal concept of sovereignty** (exclusive control over territory). Why did the US government find the Indigenous concept legally inconvenient?",
+     "a": "Indigenous sovereignty = **stewardship within a web of obligations** (to ancestors, spirits, future generations, non-human beings); land is inalienable. European sovereignty = **absolute alienable title** (fee simple); land is a commodity. The US government needed the latter to grant clear titles to settlers, railroads, and speculators. Treaties were the tool to *convert* the former into the latter. A wrong answer treating both as \"ownership\" misses the *ontological* clash — it's not \"who owns it\" but \"what *is* land?\"",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT states: *\"The prairies were cleared for farmland, and wild bison killed off. 'Primitive man will disappear with the primitive animal'\"* (p. 144). Analyze how the **destruction of the bison** functioned as both an *ecological* and *political* strategy of displacement. Connect this to the railway's role.",
+     "a": "Ecologically: Bison were the keystone species of the Plains ecosystem — their grazing maintained grasslands, their bodies fed humans, wolves, scavengers. Politically: Bison *were* the Plains nations' economy, food, shelter, culture, and autonomy. **Railways** (completed 1869 in USA, 1885 in Canada) enabled industrial-scale hunting (hides shipped east) and brought settlers/farmers who fenced the land. The US Army *actively encouraged* slaughter (Sheridan: *\"Let them kill, skin, and sell until the buffalo is exterminated\"*). A weak answer lists only \"hunting\" without linking railways, military policy, and the *intent* to destroy the material basis of Indigenous resistance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the historian Howard Spodek's claim (Activity 3, p. 148): *\"For the indigenous [people] the effects of the American Revolution were exactly opposite to those of the settlers – expansion became contraction, democracy became tyranny, prosperity became poverty, and liberty became confinement.\"* Use evidence from the chapter to defend or critique this interpretation.",
+     "a": "**Defensible.** The Revolution (1776–83) removed British imperial restraint (Proclamation Line of 1763) on westward settlement. The new USA *accelerated* expansion (Louisiana Purchase 1803, Indian Removal Act 1830). \"Democracy\" (for white men) meant voting for leaders who promised cheap Indigenous land. \"Liberty\" meant freedom to settle — which required Indigenous confinement to reservations. **Critique:** The British *also* displaced Natives (e.g., in Canada post-1763). The Revolution changed the *pace* and *ideology*, not the *direction*. A poor answer agrees uncritically or dismisses it without evidence; a strong answer weighs *continuity vs. rupture* in colonial policy.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a comparative timeline (1750–1900) showing **three parallel tracks**: (1) Legal/Political milestones in USA, (2) Legal/Political milestones in Australia, (3) Indigenous resistance/responses in both. Identify *one key divergence* in how the two settler colonies legally justified land takeover.",
+     "a": "**Key divergence:** USA used **treaties** (nation-to-nation, however coercive) → later broken; Australia used **terra nullius** (no treaties ever) → High Court only rejected it in *Mabo* (1992).  \n**USA track:** 1763 Proclamation Line → 1783 Treaty of Paris → 1830 Indian Removal Act → 1871 End of treaty-making → 1887 Dawes Act (allotment).  \n**Australia track:** 1788 Penal colony → 1835 Batman's Treaty (void) → 1869–1970s Protection Acts → 1901 Federation (excluded Natives) → 1992 Mabo.  \n**Resistance:** Tecumseh (1810s), Black Hawk (1832), Lakota (1876) / Pemulwuy (1790s), Eureka Stockade (1854, miners but shows frontier violence), Wave Hill Walk-off (1966).  \nA weak answer lists dates without *analytical parallelism*; a strong answer shows how *law* was weaponized differently but to the same end.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,36 @@
      "q": "Design a synthetic mRNA for a COVID-19 vaccine candidate that must be highly stable and efficiently translated in human cells. Specify the exact 5' and 3' modifications you would engineer, and justify each choice based on the molecular mechanisms of cap and poly(A) tail function.",
      "a": "5' end: Incorporate a Cap 1 structure (m⁷GpppNm) where the first nucleotide (N) has 2'-O-methylation on the ribose, in addition to the N7-methylguanosine. This mimics the natural Cap 1 found in higher eukaryotes, enhancing translation and evading innate immune sensors (e.g., IFIT1). 3' end: Encode a poly(A) tail of ~120-150 adenosines (not the full 250) to balance stability with reduced risk of recombination; flank with a strong polyadenylation signal (AAUAAA) and a downstream GU-rich element for proper processing if delivered as DNA, or directly append the tail if delivered as RNA. Justification must link Cap 1 to eIF4E binding and IFIT1 avoidance, and poly(A) length to PABP coating and protection from deadenylation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Post-______ modifications are enzymatic processing events that convert the primary eukaryotic transcript (hnRNA/pre-mRNA) into mature mRNA; the two universal modifications are 5' capping (addition of 7-methylguanosine via a 5'-5' triphosphate linkage) and 3' polyadenylation (addition of ~200-250 adenosine residues), both of which protect the mRNA from exonucleolytic degradation and facilitate nuclear export and translation initiation.",
+     "a": "transcriptional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a pharmaceutical company in Hyderabad producing recombinant insulin: the human insulin gene is inserted into a ______ expression vector (e.g., CHO cells) because only eukaryotes add the 5' cap and poly(A) tail that stabilize the mRNA long enough for high-yield protein production.",
+     "a": "eukaryotic",
+     "self_check": true
+    },
+    {
+     "q": "What is Post-transcriptional modifications? State the definition given in this lesson.",
+     "a": "Post-transcriptional modifications are enzymatic processing events that convert the primary eukaryotic transcript (hnRNA/pre-mRNA) into mature mRNA; the two universal modifications are 5' capping (addition of 7-methylguanosine via a 5'-5' triphosphate linkage) and 3' polyadenylation (addition of ~200-250 adenosine residues), both of.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a pharmaceutical company in Hyderabad producing recombinant insulin: the human insulin gene is inserted into a eukaryotic expression vector (e.g., CHO cells) because only eukaryotes add the ______' cap and poly(A) tail that stabilize the mRNA long enough for high-yield protein production.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Post-transcriptional modifications?",
+     "a": "Students often believe that the 5' cap is simply a methylated guanine nucleotide attached by a normal 3'-5' phosphodiester bond (like the rest of the RNA chain).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the chemical structure of the 5' cap and poly(A) tail, describe the enzymatic steps for each modification, and predict the functional consequences if either modification is absent or defective in a eukaryotic cell.",
+     "self_check": true
     }
    ]
   }

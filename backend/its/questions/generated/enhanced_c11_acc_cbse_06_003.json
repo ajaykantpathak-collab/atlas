@@ -34,6 +34,31 @@
      "q": "Create a realistic business scenario (Indian context, ₹ amounts) where THREE different types of errors occur simultaneously: one disclosed by trial balance, one not disclosed, and one compensating pair. Write the scenario and identify each error with its classification.",
      "a": "Scenario: M/s Gupta Traders, Mumbai.  \n1. Disclosed error: Credit sales to Sharma ₹25,000 recorded in Sales Book but posted to Sharma's Account as ₹2,500 (partial posting → one-sided → disclosed).  \n2. Not disclosed (Error of Principle): ₹50,000 paid for new delivery van debited to Vehicle Repairs Account instead of Vehicles Account (wrong head, correct side/amount → two-sided → not disclosed).  \n3. Compensating pair: Purchases Book overcast by ₹8,000 (excess debit ₹8,000) AND Sales Returns Book undercast by ₹8,000 (short debit ₹8,000 = excess credit ₹8,000). Net zero effect on trial balance.  \nA poor answer (e.g., all errors same type, or compensating pair not actually compensating) reveals the student cannot independently construct multi-error scenarios or verify compensating logic.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Errors ______ by trial balance are one-sided errors that cause the total debits and total credits to be unequal, making the trial balance disagree.",
+     "a": "disclosed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're an ______ at a Delhi-based trading firm.",
+     "a": "accountant",
+     "self_check": true
+    },
+    {
+     "q": "What is Errors disclosed by trial balance? State the definition given in this lesson.",
+     "a": "Errors disclosed by trial balance are one-sided errors that cause the total debits and total credits to be unequal, making the trial balance disagree.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Errors disclosed by trial balance?",
+     "a": "Students believe that \"Error of Commission always affects trial balance\" and \"Error of Principle never affects trial balance.\" This is false.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify any given accounting error as either disclosed or not disclosed by trial balance, justify the classification using the double-entry principle, and determine whether a suspense account is required for rectification.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a novel selection/screening strategy for a cloning experiment where you cannot use antibiotics (e.g., for environmental release concerns) and cannot use X-gal (e.g., cost/unavailability). Your vector has a GFP gene. Describe the vector design, host requirements, and step-by-step screening protocol to isolate recombinants. Justify each step.",
      "a": "**Vector design**: Plasmid with (1) a nutritional marker for selection (e.g., *leu2* complementation in a leucine auxotroph host, or *URA3* in yeast), (2) GFP gene with MCS inserted in a non-critical loop (so insertion disrupts GFP folding/fluorescence), (3) origin of replication and promoter for GFP expression. **Host**: *E. coli* leucine auxotroph (Δleu) if using *leu2*, or appropriate auxotroph. **Protocol**: \n1. Transform ligation mix into auxotroph host. \n2. Plate on minimal medium lacking leucine (selects for transformants with vector). \n3. Incubate until colonies form. \n4. Screen colonies under blue light (470 nm) or UV transilluminator: non-recombinants fluoresce green (intact GFP); recombinants are dark (GFP disrupted by insert). \n5. Pick dark colonies for further analysis. \n**Justification**: Nutritional selection avoids antibiotics. GFP disruption provides visual screening without X-gal. Blue-light detection is non-destructive and allows live colony picking. This mirrors commercial \"fluorescence-based screening\" kits. A poor answer (e.g., \"just use GFP without a selectable marker\") fails to address how to eliminate non-transformed cells, or places the MCS in a way that doesn't disrupt fluorescence.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Selection of recombinant clones using markers is the process of identifying and isolating host cells that have ______ taken up a recombinant vector (with insert) from a mixed population of non-transformed cells, transformed cells with non-recombinant vectors, and transformed cells with recombinant vectors, by exploiting detectable phenotypic differences conferred by marker genes (e.g., antibiotic resistance, lacZ, GFP) on the vector.",
+     "a": "successfully",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just ______ E. coli with a ligation mixture containing recombinant plasmids (with your gene of interest) and non-recombinant plasmids (vector only).",
+     "a": "transformed",
+     "self_check": true
+    },
+    {
+     "q": "What is Selection of recombinant clones using markers? State the definition given in this lesson.",
+     "a": "Selection of recombinant clones using markers is the process of identifying and isolating host cells that have successfully taken up a recombinant vector (with insert) from a mixed population of non-transformed cells, transformed cells with non-recombinant vectors, and transformed cells with recombinant vectors, by exploiting detectable.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Selection of recombinant clones using markers?",
+     "a": "Students often believe that antibiotic resistance alone can identify recombinant clones.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) design a selection strategy using single or dual markers (antibiotic resistance, lacZ, GFP) to distinguish recombinant from non-recombinant clones, (2) interpret experimental outcomes on master and replica plates (including blue-white screening), and (3) explain the molecular basis of insertional.",
+     "self_check": true
     }
    ]
   }

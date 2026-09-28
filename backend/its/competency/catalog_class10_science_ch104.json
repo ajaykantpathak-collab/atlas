@@ -142,7 +142,22 @@
      "explain": "Add the mass of hydrogens to the mass of carbons",
      "compute": "molecular_mass = carbon_mass + hydrogen_count"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "hydrogen_count = 2 * n + 2",
+     "compute": "hydrogen_count = 2 * n + 2"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "molecular_mass = 12 * n + 1 * (2 * n + 2)",
+     "compute": "molecular_mass = 12 * n + 1 * (2 * n + 2)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.4.2.3",
@@ -255,7 +270,16 @@
      "action": "verify gradation in physical properties",
      "explain": "Confirm that successive members show a regular gradation in physical properties such as melting point and boiling point while retaining similar chemical properties."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mass_diff = delta_n * 14",
+     "compute": "mass_diff = delta_n * 14"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.4.2.6",

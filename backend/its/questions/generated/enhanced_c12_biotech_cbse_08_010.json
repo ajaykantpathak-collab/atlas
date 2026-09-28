@@ -34,6 +34,31 @@
      "q": "Design a scale-up strategy for a *new* anchorage-dependent human cell line (doubling time 24 h, strict serum-free requirement, shear-sensitive) from a 2 L shake flask (working volume 0.5 L, 100 cm² surface area) to a 500 L clinical manufacturing run. Specify: (i) The intermediate scale-up steps with vessel types, (ii) The key process parameter you will hold constant at each step, (iii) One critical quality attribute (CQA) you will monitor to confirm comparability, and (iv) Why you would *not* choose roller bottles as the primary platform.",
      "a": "**Strategy**:  \n(i) **Steps**: 2 L shake flask (adherent on coated surface) → 50 L single-use stirred-tank with microcarriers (Cytodex 1, 3 g/L) → 500 L stainless-steel stirred-tank with same microcarriers (perfusion mode).  \n(ii) **Constant parameter**: **Impeller tip speed** (0.03–0.05 m/s for shear-sensitive lines) at each step; microcarrier concentration (3 g/L) and cell-to-bead ratio maintained.  \n(iii) **CQA**: **Glycosylation profile of the product** (e.g., galactosylation, sialylation) — sensitive to pH, DO, and nutrient gradients that change with scale; more discriminating than viability or titer.  \n(iv) **Why not roller bottles**: Serum-free media often reduce cell adhesion robustness; roller bottles lack **real-time DO/pH control** and **perfusion capability** needed for high-density serum-free culture. Manual handling of 5,000+ bottles for 500 L introduces unacceptable contamination risk and batch variability for clinical material.  \nA poor design would skip the 50 L step (insufficient engineering data), hold P/V constant (wrong for shear-sensitive cells), or monitor only viability (insensitive to product quality shifts).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Scale-up in animal cell culture refers to the systematic process of increasing cell culture volume from laboratory-scale (millilitres in flasks) to industrial-scale (thousands of litres in bioreactors) while maintaining cell viability, product quality, and process consistency, using technologies such as roller bottles for adherent cells, ______ for high-density suspension culture of anchorage-dependent cells, and stirred-tank or airlift bioreactors with precise control of pH, dissolved oxygen, temperature, and shear stress.",
+     "a": "microcarriers",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have successfully cultured CHO cells producing a ______ antibody in a T-75 flask (75 cm² surface area, ~15 mL medium) — now your company needs 2,000 litres of the same product for clinical trials.",
+     "a": "recombinant",
+     "self_check": true
+    },
+    {
+     "q": "What is Scale-up in animal cell culture? State the definition given in this lesson.",
+     "a": "Scale-up in animal cell culture refers to the systematic process of increasing cell culture volume from laboratory-scale (millilitres in flasks) to industrial-scale (thousands of litres in bioreactors) while maintaining cell viability, product quality, and process consistency, using technologies such as roller bottles for adherent cells.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Scale-up in animal cell culture?",
+     "a": "Misconception: \"Scale-up means keeping the *same* parameters (pH, temperature, RPM) constant across all vessel sizes.\" Why it's wrong: Students confuse *setpoints* (pH 7.2, 37°C) with *hydrodynamic conditions*.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Select the appropriate scale-up system (roller bottles, microcarriers, or bioreactor type) for a given cell line and product requirement, justifying the choice based on anchorage dependence, shear sensitivity, and oxygen demand; (2) Calculate key scale-up parameters including surface-area-to-volume ratio.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a locational strategy for a new 1 MTPA greenfield cement plant in Maharashtra using the following data: limestone deposits at Chandrapur (grade 48% CaO), coal at Chandrapur (GCV 4200 kcal/kg), gypsum from Rajasthan (rail distance 950 km), market in Mumbai-Pune corridor (rail distance 850 km), and port access at JNPT (road 900 km). Justify your site choice with a weighted locational index.",
      "a": "Optimal site: Chandrapur (near limestone + coal). Weighted index: Limestone (weight 1.5, distance 5 km) = 7.5; Coal (weight 0.25, distance 5 km) = 1.25; Gypsum (weight 0.05, distance 950 km) = 47.5; Market (weight 1.0, distance 850 km) = 850; Export (weight 0.2, distance 900 km) = 180. Total = 1086.25. Alternative Mumbai site: Limestone 1.5×850=1275, Coal 0.25×850=212.5, Gypsum 0.05×950=47.5, Market 0, Export 0.2×50=10 → Total 1545. Chandrapur wins by 30%. A student choosing Mumbai for \"market access\" fails to weight inputs by volume and ignores that cement is weight-losing.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mineral-based industries are ______ sectors that use non-metallic and metallic minerals as primary raw materials; the aluminium industry extracts metal from bauxite ore through electrolysis, the cement industry calcines limestone with clay and gypsum to produce clinker, and the chemical industry transforms mineral feedstocks (salt, limestone, sulphur, phosphate rock) into inorganic and organic compounds.",
+     "a": "manufacturing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a cement bag at a construction site near you — the fine grey powder originated as ______ in a quarry, perhaps in Satna or Chanderia, was heated to 1450°C using coal, and travelled by rail to your city.",
+     "a": "limestone",
+     "self_check": true
+    },
+    {
+     "q": "What is Mineral-based industries? State the definition given in this lesson.",
+     "a": "Mineral-based industries are manufacturing sectors that use non-metallic and metallic minerals as primary raw materials; the aluminium industry extracts metal from bauxite ore through electrolysis, the cement industry calcines limestone with clay and gypsum to produce clinker, and the chemical industry transforms mineral feedstocks.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Mineral-based industries?",
+     "a": "Students believe aluminium smelters locate near bauxite mines (like Koraput) because \"raw material orientation\" applies uniformly.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the locational logic for each industry using Weber's least-cost theory, calculate the raw material-to-product weight ratio for aluminium and cement, and evaluate how India's mineral endowment and power geography shape the spatial distribution of these three industries on a map.",
+     "self_check": true
     }
    ]
   }

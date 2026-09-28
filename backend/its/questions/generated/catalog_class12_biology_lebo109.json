@@ -1,6 +1,53 @@
 {
- "catalog": "catalog_class12_biology_lebo109",
+ "catalog": "catalog_class12_biology_lebo109.json",
  "concepts": [
+  {
+   "id": "lebo109.9.3.2",
+   "title": "PCR Amplification of the Gene of Interest",
+   "converted_to_compute": true,
+   "formula": "copy_count = 2 ** cycles",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "copy_count = 2 ** cycles",
+     "compute": "copy_count = 2 ** cycles"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For PCR Amplification of the Gene of Interest: given cycles = 56, find copy count.",
+     "a": "72057594037927936",
+     "self_check": false
+    },
+    {
+     "q": "For PCR Amplification of the Gene of Interest: given cycles = 44, find copy count.",
+     "a": "17592186044416",
+     "self_check": false
+    },
+    {
+     "q": "For PCR Amplification of the Gene of Interest: given cycles = 11.9, find copy count.",
+     "a": "3821.7",
+     "self_check": false
+    },
+    {
+     "q": "For PCR Amplification of the Gene of Interest: given cycles = 10.7, find copy count.",
+     "a": "1663.49",
+     "self_check": false
+    },
+    {
+     "q": "For PCR Amplification of the Gene of Interest: given cycles = 41, find copy count.",
+     "a": "2199023255552",
+     "self_check": false
+    },
+    {
+     "q": "For PCR Amplification of the Gene of Interest: given cycles = 13.7, find copy count.",
+     "a": "13307.9",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "lebo109.9.1.1",
    "title": "Principles of Biotechnology: Genetic Engineering and Bioprocesses",
@@ -165,37 +212,6 @@
     {
      "q": "Under which section is 'Isolating and Cutting the Genetic Material' taught, and from which source text?",
      "a": "9.3.1, 9.3.2 (source: lebo109.txt lines 428-464 (enzyme lysis, RNase, protease, chilled ethanol spooling, digestion and gel check))",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebo109.9.3.2",
-   "title": "PCR Amplification of the Gene of Interest",
-   "questions": [
-    {
-     "q": "Using the method 'PCR Amplification of the Gene of Interest', work with: cycles = 10. Carry the chain through step by step and give the final value of copy_count.",
-     "a": "1024 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'PCR Amplification of the Gene of Interest' and work with: cycles = 25. Carry the chain through step by step and give the final value of copy_count.",
-     "a": "33554432 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'PCR Amplification of the Gene of Interest' refers to.",
-     "a": "The polymerase chain reaction synthesises multiple copies of a chosen dna segment in vitro using two primer sets -- short synthetic oligonucleotides complementary to the target's flanks -- plus a dna polymerase; every cycle of denaturation, primer annealing and extension doubles the copies, and the thermostable polymerase from thermus aquaticus survives the heat that separates the strands, so about thirty cycles build roughly a billion-fold amplification.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'PCR Amplification of the Gene of Interest'.",
-     "a": "Doubling per cycle is the whole arithmetic -- a thermostable polymerase is what lets the doubling repeat dozens of times without fresh enzyme.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'PCR Amplification of the Gene of Interest', in plain ASCII form.",
-     "a": "copy_count = 2 ** cycles",
      "self_check": true
     }
    ]

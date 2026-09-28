@@ -31,8 +31,38 @@
      "self_check": true
     },
     {
-     "q": "Design a \"Reservation Implementation Checklist\" for a state government preparing for the 106th Amendment (Lok Sabha/Assembly reservation). Include 4 specific steps addressing: (a) delimitation dependency, (b) intersectionality with SC/ST quotas, (c) rotation mechanism, (d) preventing proxy representation.",
-     "a": "A good answer includes: (a) **Delimitation Trigger**: \"Wait for next Census + Delimitation Commission report (per 106th Amendment) to identify which specific constituencies become reserved.\" (b) **Intersectionality**: \"Apply horizontal reservation: within every SC/ST reserved constituency (Art 330/332), reserve 33% for SC/ST women — do not create separate 'women-only' seats overlapping caste quotas.\" (c) **Rotation**: \"Design a lottery-based rotation system (like Panchayats) ensuring no constituency is reserved for women for more than two consecutive terms, preventing entrenchment.\" (d) **Anti-Proxy Measures**: \"Mandate minimum educational qualification? No (excludes marginalized women). Instead: (i) Capacity-building grants for women candidates, (ii) Strict enforcement of anti-defection/party whip rules to ensure elected women vote independently, (iii) Social audit of MP/MLA funds by women's collectives.\" A poor answer misses the delimitation dependency (crucial for 106th Amendment) or suggests separate women seats *outside* caste quotas (violating intersectionality).",
+     "q": "Give the correct order of steps a state follows to implement women's reservation in the Lok Sabha under the 106th Amendment.",
+     "a": "Implementation proceeds: (1) Wait for the next Census and Delimitation Commission report (2) Identify which specific constituencies become reserved for women (3) Apply horizontal reservation inside SC and ST reserved seats rather than overlapping separate quotas (4) Set a rotation mechanism and support elected women so proxy representation by male relatives is prevented. A wrong answer that overlays women's quotas on caste quotas as separate seats shows the student has missed the horizontal reservation principle used in Articles 243D and 330/332.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Women's political ______ refers to the presence and participation of women in elected legislative bodies (Parliament, State Assemblies, Local Governments).",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This creates a structural barrier where formal equality (Article 326) does not translate into actual ______.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "What is Women's political representation? State the definition given in this lesson.",
+     "a": "Women's political representation refers to the presence and participation of women in elected legislative bodies (Parliament, State Assemblies, Local Governments).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In India, despite universal adult franchise (Article ______), women remain severely underrepresented due to structural barriers like patriarchal norms, sexual division of labour, and lack of access to political networks.",
+     "a": "326",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Women's political representation?",
+     "a": "Misconception: \"The Women's Reservation Bill (106th Amendment) has already given women 33% seats in Parliament *right now*.\" Reality: The 106th Amendment was passed in September 2023, but it is not yet implemented.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the structural reasons for women's low political representation in India, describe the specific constitutional provisions for reservation in local governments (73rd/74th Amendments) and the 106th Amendment for legislatures, and analyze the arguments for and against reservation as a tool for achieving substantive.",
      "self_check": true
     }
    ]

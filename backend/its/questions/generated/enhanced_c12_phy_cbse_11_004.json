@@ -34,6 +34,26 @@
      "q": "Design a simple thought experiment to demonstrate that macroscopic objects (like a car) do not exhibit measurable wave properties, using the de Broglie formula. Specify the mass, speed, and calculate the wavelength. Compare it to a typical atomic spacing (~0.1 nm) and explain the implication.",
      "a": "Take a car of mass 1000 kg moving at 10 m/s. \\( p = 10^4 \\) kg·m/s. \\( \\lambda = 6.63 \\times 10^{-34} / 10^4 = 6.63 \\times 10^{-38} \\) m. This is ~28 orders of magnitude smaller than atomic spacing (10^-10 m). Diffraction requires slit width comparable to wavelength — impossible to construct. A poor answer (e.g., not calculating, or saying \"car is too big\" without quantitative comparison) shows lack of understanding of the scale of Planck's constant and the condition for observable wave effects.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This wavelength is called the de Broglie wavelength and ______ wave-particle duality for matter.",
+     "a": "establishes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a cricket ball thrown at 30 m/s — it travels in a straight line, shows no ______ or interference.",
+     "a": "diffraction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a cricket ball thrown at ______ m/s — it travels in a straight line, shows no diffraction or interference.",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a cricket ball thrown at 30 m/s — it travels in a straight line, shows no diffraction or ______.",
+     "a": "interference",
+     "self_check": true
     }
    ]
   }

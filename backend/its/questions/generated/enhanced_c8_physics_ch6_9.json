@@ -34,6 +34,31 @@
      "q": "Design a simple activity using a stainless steel spoon (convex side) and a plane mirror to demonstrate why convex mirrors are used as side-view mirrors in vehicles. List the steps and what the student should observe.",
      "a": "Steps: (1) Hold the spoon's convex side and a plane mirror at arm's length. (2) Look at a fixed scene (e.g., a bookshelf) through each. (3) Count how many books are visible in each reflection. (4) Note the size of the book images. Expected observation: The spoon shows more books (wider field) but each book image is smaller. A poor answer that only says \"spoon shows more\" without mentioning diminution, or that designs an activity without a fair comparison (same distance, same eye position), reveals inability to isolate the variable of mirror curvature.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Convex mirrors are spherical mirrors with reflecting surfaces curved outward, which diverge incident light rays to form virtual, erect, and diminished images ______ of object position, thereby providing a wider field of view than plane mirrors.",
+     "a": "irrespective",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a car's side-view mirror: notice how it shows a much larger portion of the road behind than a flat mirror of the same size would.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What is Convex mirrors? State the definition given in this lesson.",
+     "a": "Convex mirrors are spherical mirrors with reflecting surfaces curved outward, which diverge incident light rays to form virtual, erect, and diminished images irrespective of object position, thereby providing a wider field of view than plane mirrors.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Convex mirrors?",
+     "a": "Students often think convex mirrors are used in vehicle headlights (like concave mirrors) because both are \"curved mirrors.\" They confuse the diverging property of convex mirrors with the converging property of concave mirrors, not realizing headlights need a focused beam (concave) while side-view mirrors need a wide view (convex).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain why convex mirrors are preferred over plane mirrors for side-view mirrors in vehicles and security mirrors in shops, and can predict the nature, orientation, and relative size of the image formed for any object distance.",
+     "self_check": true
     }
    ]
   }

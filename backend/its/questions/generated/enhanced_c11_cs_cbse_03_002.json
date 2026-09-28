@@ -34,6 +34,21 @@
      "q": "Create a novel real-world problem (Indian context, involving at least two different data types and one conditional process) that requires a non-trivial IPO analysis. Write the complete IPO table for your problem.",
      "a": "**Expected answer criteria:** Problem must be original (not textbook), e.g., \"Calculate electricity bill: first 100 units at ₹5/unit, next 200 at ₹7/unit, above 300 at ₹10/unit; add 18% GST; output bill with consumer name.\" IPO table must show: Input – consumer_name (string), units_consumed (int); Process – slab-wise calculation with conditionals, GST computation; Output – formatted bill with name, units, slab amounts, GST, total.  \n**What a poor answer reveals:** Copying a textbook problem or using only one data type shows inability to *synthesize* a new scenario. Missing conditionals in process indicates they cannot design multi-step logic – a prerequisite for c11_cs_cbse_03_008 (branching).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Input-Process-Output (IPO) model is a systematic framework for problem analysis that identifies: (1) Input – the raw data, facts, or resources supplied to the system; (2) Process – the well-defined sequence of operations, calculations, or ______ applied to the input; and (3) Output – the meaningful information, result, or product generated after processing.",
+     "a": "transformations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a program for your school canteen: \"Calculate the total bill for a student's lunch order.\" Most students jump straight to coding, but the board exam expects you to first ask: *What exact data do I need from the user?* (Input), *What ______ transform that data?* (Process), *What does the user see at the end?* (Output).",
+     "a": "calculations",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently decompose a real-world problem statement into a complete IPO table, explicitly listing every input variable with its data type and source, every processing step with its logical operation, and every output with its format and destination, without missing any hidden or implicit requirements.",
+     "self_check": true
     }
    ]
   }

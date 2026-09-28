@@ -4,15 +4,9 @@
   {
    "id": "lemh.102.2.1",
    "title": "Domain Restriction for Invertibility",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 4 gives 4",
-     "compute": "count = 4"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "restrict the domain so the map becomes one-one and onto",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 4 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -49,15 +43,9 @@
   {
    "id": "lemh.102.2.2",
    "title": "Principal Value Branch of sin Inverse",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "set up the proportion and solve for the unknown part",
-     "explain": "set up the proportion and solve for the unknown part: t1 = 4 / 2 gives 2",
-     "compute": "t1 = 4 / 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "sin^-1 : [-1, 1] -> [-pi/2, pi/2]",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 4 : 14 in its simplest form and give the first term of the simplest form.",
@@ -94,15 +82,9 @@
   {
    "id": "lemh.102.2.3",
    "title": "Principal Branch of cos Inverse",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "set up the proportion and solve for the unknown part",
-     "explain": "set up the proportion and solve for the unknown part: t1 = 16 / 8 gives 2",
-     "compute": "t1 = 16 / 8"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "cos^-1 : [-1, 1] -> [0, pi]",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 16 : 56 in its simplest form and give the first term of the simplest form.",
@@ -139,15 +121,9 @@
   {
    "id": "lemh.102.2.4",
    "title": "Principal Branches of tan Inverse and cot Inverse",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "set up the proportion and solve for the unknown part",
-     "explain": "set up the proportion and solve for the unknown part: t1 = 18 / 6 gives 3",
-     "compute": "t1 = 18 / 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "tan^-1 : R -> (-pi/2, pi/2), cot^-1 : R -> (0, pi)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 18 : 42 in its simplest form and give the first term of the simplest form.",
@@ -184,19 +160,13 @@
   {
    "id": "lemh.102.2.5",
    "title": "Principal Branches of sec Inverse and cosec Inverse",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "set up the proportion and solve for the unknown part",
-     "explain": "set up the proportion and solve for the unknown part: t1 = 9 / 3 gives 3",
-     "compute": "t1 = 9 / 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "sec^-1 : R - (-1, 1) -> [0, pi] - {pi/2}, cosec^-1 : R - (-1, 1) -> [-pi/2, pi/2] - {0}",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 9 : 27 in its simplest form and give the first term of the simplest form.",
-     "a": "3",
+     "a": "1",
      "self_check": false
     },
     {
@@ -229,15 +199,9 @@
   {
    "id": "lemh.102.2.6",
    "title": "Principal Value Evaluation",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "take the ratio of the relevant sides",
-     "explain": "take the ratio of the relevant sides: s = 12 / 20 gives 0.6",
-     "compute": "s = 12 / 20"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "principal value = the branch angle whose trigonometric ratio matches the input",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a right triangle the sides adjacent to the right angle are 12 and 16, and the hypotenuse is 20. Find sin of the angle opposite the side 12. (give the fraction)",
@@ -246,7 +210,7 @@
     },
     {
      "q": "For the same triangle (legs 12 and 16, hypotenuse 20), find cos of the angle opposite the side 16. (give the fraction)",
-     "a": "4/5",
+     "a": "0.6",
      "self_check": false
     },
     {
@@ -274,15 +238,9 @@
   {
    "id": "lemh.102.3.1",
    "title": "Inverse Composition Property",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "set up the proportion and solve for the unknown part",
-     "explain": "set up the proportion and solve for the unknown part: t1 = 6 / 2 gives 3",
-     "compute": "t1 = 6 / 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "sin(sin^-1 x) = x for x in [-1, 1]",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 6 : 16 in its simplest form and give the first term of the simplest form.",
@@ -319,15 +277,9 @@
   {
    "id": "lemh.102.3.2",
    "title": "Inverse Symbol versus Reciprocal",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "set up the proportion and solve for the unknown part",
-     "explain": "set up the proportion and solve for the unknown part: t1 = 10 / 10 gives 1",
-     "compute": "t1 = 10 / 10"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "sin^-1 x is not 1 / sin x",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 10 : 70 in its simplest form and give the first term of the simplest form.",
@@ -365,6 +317,8 @@
    "id": "lemh.102.3.3",
    "title": "Simplest Form by Substitution",
    "converted_to_compute": false,
+   "formula": "sin^-1(2x sqrt(1 - x^2)) = 2 sin^-1 x for x in [-1/sqrt 2, 1/sqrt 2]",
+   "solution_type": "verify_property",
    "questions": [
     {
      "q": "State the principal value (in degrees) of the sin inverse of 1 (in degrees).",
@@ -401,15 +355,9 @@
   {
    "id": "lemh.102.3.4",
    "title": "Reducing Angles to the Principal Branch",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 38 gives 52",
-     "compute": "other = 90 - 38"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "sin^-1(sin x) = pi - x for x in (pi/2, 3pi/2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 38 degrees, find the other.",

@@ -34,6 +34,31 @@
      "q": "Design a mini-case: Create a hypothetical 3-year data set for a company's \"Revenue from Operations\" and \"Employee Benefits Expense\" where Horizontal Analysis shows a favourable trend but Vertical Analysis reveals a deteriorating structural position. Present the data and explain the contradiction.",
      "a": "**Hypothetical Data (₹ Lakhs):**\n| Year | Revenue | Employee Expense | Horizontal: Expense Growth | Vertical: Expense % of Revenue |\n|------|---------|------------------|----------------------------|-------------------------------|\n| 2021 | 100     | 20               | —                          | 20%                           |\n| 2022 | 120     | 22               | +10%                       | 18.3%                         |\n| 2023 | 150     | 30               | +36%                       | 20%                           |\n\n**Horizontal view:** Revenue grew 50% over 3 years; Employee Expense grew 50% (20→30) — seems proportional, \"favourable\".\n**Vertical view:** Employee Expense % was 20% (2021), dropped to 18.3% (2022), but **returned to 20% (2023)** — the structural gain was lost.\n**Contradiction:** Horizontal shows expense *kept pace* with revenue growth (both +50%), but Vertical exposes that the **expense ratio reverted to its original level**, meaning no sustainable efficiency improvement occurred. A good answer must show data where absolute growth rates match but the percentage-of-base ratio worsens or stagnates. A poor answer uses data where both analyses agree, missing the core concept that they measure different things.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ Analysis compares financial statement items across multiple accounting periods to identify trends and changes in absolute and percentage terms, while Vertical Analysis expresses each item in a financial statement as a percentage of a base figure (e.g., Revenue from Operations for Statement of Profit and Loss, Total Assets for Balance Sheet) within a single period.",
+     "a": "Horizontal",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing the ______ health of a company like Tata Motors.",
+     "a": "financial",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You have their Balance Sheets and Statements of Profit & Loss for the last ______ years.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) correctly classify a given analytical task as horizontal or vertical analysis, and (2) explain the distinct purpose, base of comparison, and output format of each method using a concrete financial statement example.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ the financial health of a company like Tata Motors.",
+     "a": "analysing",
+     "self_check": true
     }
    ]
   }

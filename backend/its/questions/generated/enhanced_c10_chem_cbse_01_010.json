@@ -34,6 +34,31 @@
      "q": "Design a simple home experiment to demonstrate that light accelerates rancidity in edible oil. Specify materials, procedure, control, observation, and the chemical reason for the expected result.",
      "a": "Materials: Two identical transparent bottles, edible oil (sunflower), aluminium foil, dropper. Procedure: Fill both bottles with same oil. Wrap one completely in aluminium foil (dark). Keep both on a sunny windowsill for 10 days. Control: The foil-wrapped bottle. Observation: Smell both oils — the light-exposed one develops rancid smell first. Reason: Light (especially UV) provides activation energy to initiate free-radical formation in unsaturated fats, accelerating the oxidation chain reaction. A poor answer omitting the control or attributing the effect to \"heat from light\" reveals the student cannot isolate variables or connect photochemical initiation to radical mechanisms.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Rancidity is the slow oxidation of fats and oils (______) in food materials by atmospheric oxygen, producing volatile aldehydes, ketones, and carboxylic acids that cause unpleasant smell and taste.",
+     "a": "triglycerides",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world ______: open a packet of chips or namkeen left exposed to air for two days — the stale, paint-like smell is rancidity.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "What is Rancidity? State the definition given in this lesson.",
+     "a": "Rancidity is the slow oxidation of fats and oils (triglycerides) in food materials by atmospheric oxygen, producing volatile aldehydes, ketones, and carboxylic acids that cause unpleasant smell and taste.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Rancidity?",
+     "a": "Students often write \"rancidity is caused by bacteria\" or \"rancidity happens because of moisture\" in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the chemical process of rancidity as oxidation of unsaturated fats, identify the conditions that accelerate it, and describe at least three prevention methods with their underlying chemical principles.",
+     "self_check": true
     }
    ]
   }

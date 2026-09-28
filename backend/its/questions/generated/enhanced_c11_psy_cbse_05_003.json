@@ -34,6 +34,31 @@
      "q": "Design a real-life classroom demonstration of stimulus generalisation that does not involve fear or aversion. Specify the CS, US, CR, and at least two generalisation stimuli with predicted relative response strengths.",
      "a": "Example: CS = a specific ringtone on the teacher's phone; US = the teacher distributing chocolate; CR = students feeling happy/excited and looking at the teacher. Generalisation stimuli: (1) a similar ringtone (same melody, different pitch) – strong CR; (2) a completely different ringtone (different melody) – weak CR. A good answer includes clear operational definitions and a logical similarity gradient. A poor answer (e.g., using a painful US or vague stimuli) indicates the student cannot translate the abstract concept into a concrete, ethical, and measurable demonstration.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In classical conditioning, extinction is the gradual weakening and disappearance of a conditioned response (CR) when the conditioned stimulus (CS) is repeatedly presented without the unconditioned stimulus (US); spontaneous recovery is the reappearance of an extinguished CR after a rest period when the CS is presented again; and ______ is the tendency to elicit the CR to stimuli that are similar to the original CS.",
+     "a": "generalisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a pet dog that salivates at the sound of a bell because you ______ paired the bell with food.",
+     "a": "repeatedly",
+     "self_check": true
+    },
+    {
+     "q": "What is In classical conditioning, extinction? State the definition given in this lesson.",
+     "a": "In classical conditioning, extinction is the gradual weakening and disappearance of a conditioned response (CR) when the conditioned stimulus (CS) is repeatedly presented without the unconditioned stimulus (US); spontaneous recovery is the reappearance of an extinguished CR after a rest period when the CS is presented again; and.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about In classical conditioning, extinction?",
+     "a": "Students often believe that extinction means the conditioned response is \"unlearned\" or permanently erased, so they are surprised by spontaneous recovery.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) distinguish extinction, spontaneous recovery, and generalisation using a novel conditioning scenario, and (2) predict how varying the number of extinction trials, the length of the rest period, or the similarity of a new stimulus will affect the strength of the CR.",
+     "self_check": true
     }
    ]
   }

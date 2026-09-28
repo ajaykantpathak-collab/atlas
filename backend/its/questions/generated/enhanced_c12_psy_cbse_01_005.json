@@ -17,7 +17,7 @@
     },
     {
      "q": "Priya is a 17-year-old who: (a) writes award-winning Hindi poetry, (b) cannot read maps or assemble furniture, (c) learns dance choreography after one demonstration, (d) struggles with algebraic word problems, (e) intuitively understands her friends' unspoken emotions. Map Priya's profile to Gardner's eight intelligences, indicating HIGH, AVERAGE, or LOW for each with one-sentence justification per intelligence.",
-     "a": "Mapping: Linguistic — HIGH (award-winning poetry demonstrates fluent, flexible language use). Logical-Mathematical — LOW (struggles with algebraic word problems). Spatial — LOW (cannot read maps/assemble furniture). Musical — not directly evidenced (AVERAGE assumed). Bodily-Kinaesthetic — HIGH (learns dance choreography rapidly). Interpersonal — HIGH (intuitive understanding of friends' emotions). Intrapersonal — not directly evidenced (AVERAGE assumed). Naturalistic — not evidenced (AVERAGE assumed). A wrong answer typically forces all intelligences into HIGH/LOW based on overall \"smartness,\" missing the independence principle. For example, marking Spatial as HIGH because \"she's intelligent\" violates the theory's core claim.",
+     "a": "(1) Linguistic — high, because award-winning poetry shows fluent and flexible language use, (2) Logical-mathematical and spatial — low, seen in the struggle with algebraic word problems and the inability to read maps or assemble furniture, (3) Musical — assumed average for lack of evidence, while bodily-kinaesthetic is high from learning dance choreography after a single demonstration, (4) Interpersonal — high from intuitively reading her friends' unspoken emotions, while intrapersonal and naturalistic stay average on present evidence, (5) The principle — the intelligences are relatively independent, so strength in one says nothing certain about the rest. A wrong answer forces every intelligence into high or low from overall smartness, violating the theory's core claim.",
      "self_check": true
     },
     {
@@ -33,6 +33,26 @@
     {
      "q": "Design a 4-week Class 12 Psychology project that allows students to demonstrate understanding of Gardner's theory through ALL eight intelligences. Specify: (a) the central theme, (b) one deliverable per intelligence, (c) how independence of intelligences is respected in assessment.",
      "a": "Theme: \"Understanding My Community.\" Deliverables: Linguistic — interview transcript + reflective essay; Logical-Mathematical — statistical analysis of survey data on community issues; Spatial — hand-drawn/annotated community map with scale; Musical — original soundscape/audio documentary of neighbourhood sounds; Bodily-Kinaesthetic — choreographed movement piece representing community rhythms; Interpersonal — facilitated focus group discussion with diverse residents; Intrapersonal — personal learning journal tracking biases/assumptions; Naturalistic — field guide of local flora/fauna with ecological notes. Assessment: Each deliverable graded on domain-specific rubric (e.g., Musical assessed for rhythm, timbre, structure — not writing quality). No single \"project grade\"; students receive 8 separate scores. A poor answer creates one integrated product (e.g., \"a report with charts\") and grades it holistically — violating independence by forcing compensation across domains.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Gardner's Theory of Multiple Intelligences proposes that intelligence is not a single general ability (g-factor) but rather eight distinct, relatively independent intelligences: Linguistic, Logical-Mathematical, Spatial, Musical, Bodily-Kinaesthetic, ______, Intrapersonal, and Naturalistic.",
+     "a": "Interpersonal",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a Class 12 student, Arjun, who struggles with textbook ______ but can effortlessly compose original ragas on the sitar, navigate Delhi's metro system blindfolded, and mediate conflicts between friends.",
+     "a": "mathematics",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) name all eight intelligences with their core defining features, and (2) analyse a real-world case profile to identify which intelligences are prominently displayed and justify the mapping using Gardner's criteria (independence, distinct neural basis, unique symbolic system, exceptional populations).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a Class 12 student, Arjun, who struggles with textbook mathematics but can ______ compose original ragas on the sitar, navigate Delhi's metro system blindfolded, and mediate conflicts between friends.",
+     "a": "effortlessly",
      "self_check": true
     }
    ]

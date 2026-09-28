@@ -34,6 +34,36 @@
      "q": "Design a fibre identification flowchart using only burning test observations that can distinguish between: cotton, wool, viscose rayon, nylon, polyester, and acrylic. Include decision nodes with observable criteria (no microscopy or chemicals).",
      "a": "Flowchart logic:\n1. Does it shrink from flame? YES → synthetic (nylon/polyester/acrylic); NO → natural/regenerated cellulosic/protein.\n2. If NO: Smell? Burning paper → cellulosic (cotton/rayon); Burning hair → protein (wool/silk).\n3. Cotton vs rayon: Cotton has afterglow, soft grey ash; rayon burns rapidly, no afterglow, fluffy light ash.\n4. If YES (shrinks): Does it melt AND drip? YES → nylon/polyester; NO (burns with melting but no drip) → acrylic.\n5. Nylon vs polyester: Nylon = acrid/celery odour, tan bead; Polyester = sweet/plastic odour, black bead.\nA poor flowchart missing the \"drip vs no-drip\" or \"afterglow\" decision nodes reveals inability to translate tabular burning data into diagnostic logic.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Manufactured fibres are textile fibres produced through industrial processes from either natural polymers (regenerated cellulosic/protein) or synthetic polymers (______ derivatives), where the raw material is converted into a spinning solution, extruded through spinnerettes, and solidified into continuous filaments with controllable properties.",
+     "a": "petrochemical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're shopping for a summer kurta and see labels saying \"100% viscose,\" \"______ blend,\" and \"modal\" — all feel silky but behave differently when you sweat or iron them.",
+     "a": "polyester",
+     "self_check": true
+    },
+    {
+     "q": "What is Manufactured fibres? State the definition given in this lesson.",
+     "a": "Manufactured fibres are textile fibres produced through industrial processes from either natural polymers (regenerated cellulosic/protein) or synthetic polymers (petrochemical derivatives), where the raw material is converted into a spinning solution, extruded through spinnerettes, and solidified into continuous filaments with.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're shopping for a summer kurta and see labels saying \"______% viscose,\" \"polyester blend,\" and \"modal\" — all feel silky but behave differently when you sweat or iron them.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Manufactured fibres?",
+     "a": "Students conflate \"manufactured\" with \"synthetic\" and assume all factory-made fibres are petroleum-based synthetics.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Classify any given manufactured fibre into regenerated cellulosic, modified cellulosic, synthetic, or mineral categories with justification based on raw material and process; (2) Predict the burning test behaviour, moisture regain, and end-use suitability of rayon, nylon, polyester, and acrylic by linking.",
+     "self_check": true
     }
    ]
   }

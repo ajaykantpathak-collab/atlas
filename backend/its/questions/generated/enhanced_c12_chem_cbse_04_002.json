@@ -34,6 +34,26 @@
      "q": "Design a decision flowchart (algorithm) that a student can use to determine whether a given d-block element (atomic number provided) is a transition element according to IUPAC. Your flowchart must handle neutral atoms and common oxidation states (+2, +3). Test it on Sc, Zn, Cu, and Pd.",
      "a": "Flowchart logic: (1) Write ground-state config of neutral atom. (2) If (n−1)d is incomplete → transition element. (3) If (n−1)d is complete (d¹⁰), write configs of common ions (M²⁺, M³⁺ by removing ns then (n−1)d electrons). (4) If any common ion has incomplete d → transition element. (5) Else → not transition element. Test: Sc [Ar] 3d¹4s² → d incomplete → YES. Zn [Ar] 3d¹⁰4s² → d¹⁰; Zn²⁺ [Ar] 3d¹⁰ → still d¹⁰ → NO. Cu [Ar] 3d¹⁰4s¹ → d¹⁰; Cu⁺ [Ar] 3d¹⁰ → d¹⁰; Cu²⁺ [Ar] 3d⁹ → d incomplete → YES. Pd [Kr] 4d¹⁰5s⁰ → d¹⁰; Pd²⁺ [Kr] 4d⁸ → d incomplete → YES. A poor answer would omit the ion-check step and misclassify Cu and Pd.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The d-block elements (Groups 3–12) are those in which the (n−1)d orbitals are ______ filled across four long periods (3d, 4d, 5d, 6d).",
+     "a": "progressively",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: a student notices that chromium (Cr) in stainless steel utensils and copper (Cu) in electrical wires are both d-block metals, yet their electron ______ \"break the rules\" taught in Class 11.",
+     "a": "configurations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Their general ground-state electronic configuration is (n−______)d¹⁻¹⁰ ns¹⁻², with notable exceptions (Cr, Cu, Pd, etc.) arising from the extra stability of half-filled (d⁵) and fully-filled (d¹⁰) d subshells.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) write the ground-state electronic configuration of any d-block element (Z = 21–30, 39–48, 57, 72–80, 89, 104–112) by applying the Aufbau principle, Hund's rule, and the half-filled/fully-filled stability exceptions; (2) explain why Cr, Cu, Pd, etc. deviate from the general (n−1)d¹⁻¹⁰ ns¹⁻² pattern; (3) derive the.",
+     "self_check": true
     }
    ]
   }

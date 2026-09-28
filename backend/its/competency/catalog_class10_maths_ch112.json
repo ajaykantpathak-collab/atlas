@@ -124,7 +124,7 @@
     "a solid is converted from one shape to another find new dimension",
     "metal is melted and recast into wire find length of wire"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -163,7 +163,16 @@
      "question": "A copper rod of diameter 1 cm and length 8 cm is drawn into a wire of length 18 m of uniform thickness. Find the thickness of the wire.",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the round solid's formula with pi = 22/7",
+     "explain": "apply the round solid's formula with pi = 22/7: vol = 22 / 7 * 28 * 28 * 21 / 3 gives 17248",
+     "compute": "vol = 22 / 7 * 28 * 28 * 21 / 3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.12.4",
@@ -341,7 +350,7 @@
     "rainfall on a roof collected in a cylindrical tank find the height of water",
     "a cone is melted and recast into a cylinder find the new height"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -380,7 +389,16 @@
      "question": "Water in a canal 6 m wide and 1.5 m deep flowing at 10 km/h irrigates a field of area 450000 m^2 in 30 minutes. Find the height of water standing in the field.",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the solid's surface area or volume formula",
+     "explain": "apply the solid's surface area or volume formula: vol = 2 * 8 * 9 gives 144",
+     "compute": "vol = 2 * 8 * 9"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.12.7a",

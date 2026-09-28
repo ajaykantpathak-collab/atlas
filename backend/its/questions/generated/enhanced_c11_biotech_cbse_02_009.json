@@ -34,6 +34,26 @@
      "q": "Design a fluorescence microscopy experiment to test whether a newly discovered protein X localizes to the nuclear pore complex, the nuclear lamina, or the nucleolus. Specify the markers you would use as controls and the expected co-localization patterns for each possible localization.",
      "a": "Use immunofluorescence with antibodies against: (a) Nucleoporin p62 (NPC marker), (b) Lamin B1 (lamina marker), (c) Fibrillarin (nucleolus marker). Co-stain with anti-protein X antibody. If X co-localizes with p62 in a punctate rim pattern → NPC. If X forms a smooth rim co-localizing with Lamin B1 → lamina. If X concentrates in 1-3 large internal foci co-localizing with fibrillarin → nucleolus. A poor answer omits appropriate markers or misinterprets co-localization patterns (e.g., confusing nucleolar foci with nuclear speckles).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The nucleus is a double-membrane-bound organelle that houses the eukaryotic genome as chromatin (DNA-histone complexes), regulates gene expression through controlled ______ transport via nuclear pore complexes, and contains the nucleolus where ribosomal RNA is transcribed and ribosomal subunits are assembled.",
+     "a": "nucleocytoplasmic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a customs officer at a busy international airport (the nuclear envelope) controlling what enters and leaves a secure government building (the nucleus) where the master ______ (genome) is stored.",
+     "a": "blueprint",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain how the nuclear envelope's continuity with the endoplasmic reticulum and its pore complexes enable selective transport, describe the nucleolus as the site of rRNA transcription and ribosome assembly, and relate chromatin's dynamic condensation states (euchromatin/heterochromatin) to transcriptional activity and cell.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a customs officer at a busy ______ airport (the nuclear envelope) controlling what enters and leaves a secure government building (the nucleus) where the master blueprint (genome) is stored.",
+     "a": "international",
+     "self_check": true
     }
    ]
   }

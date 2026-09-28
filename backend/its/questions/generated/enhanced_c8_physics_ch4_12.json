@@ -34,6 +34,21 @@
      "q": "Design a simple demonstration using a rotating turntable (like a lazy Susan) and a marker to show the Coriolis Effect for a Class 8 science fair. Describe the setup, procedure, and what the curved line represents.",
      "a": "Setup: Place a paper on a lazy Susan. Rotate it counterclockwise (simulating Northern Hemisphere). Draw a straight line from center to edge while rotating. The line curves right. Procedure: 1) Mark center as \"pole\", edge as \"equator\". 2) Rotate steadily. 3) Draw line from center outward (pole to equator) – it curves left (opposite to wind going equator-to-pole). 4) Draw line from edge to center (equator to pole) – it curves right. The curved line represents the apparent deflection of wind due to Earth's rotation. A poor answer (e.g., no rotation, or straight line drawn) reveals the student doesn't grasp the need for a rotating reference frame or the direction of curvature relative to motion.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Coriolis Effect is the apparent ______ of moving air (wind) or any object moving over Earth's surface caused by Earth's rotation, causing winds in the Northern Hemisphere to curve to the right and in the Southern Hemisphere to curve to the left.",
+     "a": "deflection",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking students to observe a ceiling fan rotating ______ from below – the blades appear to move right, but if you watch from above, they move left.",
+     "a": "clockwise",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can predict the direction of wind deflection for any given wind direction and hemisphere (Northern/Southern) and explain why cyclones rotate counterclockwise in the Northern Hemisphere and clockwise in the Southern Hemisphere using the Coriolis Effect.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a step-by-step checklist for a Class 12 student who has built a static website (HTML, CSS, JS, images) on their laptop and wants to publish it at `myname.tech` using a free tier hosting service and a paid domain. Include every action from domain purchase to live verification, specifying where each action is performed (registrar dashboard vs hosting dashboard).",
      "a": "A complete checklist includes: 1) Choose and purchase `myname.tech` at a registrar (e.g., Namecheap, Porkbun) → action: registrar dashboard. 2) Sign up for free static hosting (e.g., Netlify, GitHub Pages, Cloudflare Pages) → action: hosting dashboard. 3) Connect the custom domain in the hosting dashboard (triggers DNS verification) → action: hosting dashboard. 4) Copy the provided nameservers (Netlify: `dns1.p01.nsone.net`, etc.) or A/CNAME values → action: hosting dashboard. 5) Paste those nameservers/records into the registrar's DNS/NS settings for `myname.tech` → action: registrar dashboard. 6) Wait for DNS propagation (use `dig` or online checker) → action: terminal/browser. 7) Visit `https://myname.tech` to verify. Missing step 4→5 (copying values from host to registrar) is the most common failure point.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Web hosting is a service that provides storage space and computing resources on a server connected to the Internet, allowing a locally created website (HTML, CSS, ______, images, databases) to be accessible globally via the World Wide Web.",
+     "a": "JavaScript",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have built a ______ website on your laptop with HTML, CSS, and a few images.",
+     "a": "portfolio",
+     "self_check": true
+    },
+    {
+     "q": "What is Web hosting? State the definition given in this lesson.",
+     "a": "Web hosting is a service that provides storage space and computing resources on a server connected to the Internet, allowing a locally created website (HTML, CSS, JavaScript, images, databases) to be accessible globally via the World Wide Web.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Web hosting?",
+     "a": "Students believe that buying a domain name automatically includes web hosting, or that the registrar \"stores\" the website files.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the end-to-end process of taking a local website live: selecting a hosting provider, registering a domain, uploading files via FTP/SFTP, configuring DNS records (A record, CNAME), and verifying the site is accessible.",
+     "self_check": true
     }
    ]
   }

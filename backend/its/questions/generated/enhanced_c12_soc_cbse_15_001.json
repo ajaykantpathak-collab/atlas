@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_15_001",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_15_001",
+   "title": "c12_soc_cbse_15_001",
+   "questions": [
+    {
+     "q": "A student writes: \"The 1857 Revolt was a social movement because large numbers of people collectively rose up against British rule.\" Identify the flaw in this statement using the NCERT definition of a social movement.",
+     "a": "The 1857 Revolt, while a massive collective uprising, lacked the sustained organisation, unified leadership structure, and shared ideology across regions that define a social movement per NCERT. It was a rebellion/mutiny — spontaneous in many centres, with diverse motives (sepoy grievances, princely states' interests, peasant discontent) and no single charter of demands or organisational continuity. A correct answer would note that the NCERT explicitly contrasts the British term 'mutiny' with the nationalist term 'First War of Independence' to show how classification depends on interpretation, but the defining features of a social movement (sustained organisation, shared ideology, leadership) were absent in 1857.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why 'sanskritisation' (studied in Class 11) is classified as social change but not a social movement, while the 19th century social reformers' efforts (e.g., Raja Rammohun Roy's campaign against sati) are classified as a social movement.",
+     "a": "Sanskritisation is a broad, unconscious, long-term historical process where lower castes emulate upper-caste rituals to improve status — it lacks organisation, leadership, shared ideology, and deliberate goal-directed action. In contrast, Rammohun Roy's anti-sati campaign had the Brahmo Samaj (organisation), Roy as leader, a clear ideology (rationalism, human dignity), and a specific goal (legal abolition of sati). The NCERT states: \"we can view sanskritisation and westernisation as social changes and see the 19th century social reformers' efforts to change the society as social movements.\" A wrong answer conflates any social change with a social movement, missing the agency-organisation-ideology triad.",
+     "self_check": true
+    },
+    {
+     "q": "A spontaneous crowd gathers at a railway station after a train accident, blocks tracks, and demands compensation. The protest lasts 6 hours, has no leaders, no prior organisation, and disperses after assurances. Using the NCERT criteria, classify this as collective behaviour or a social movement and justify with at least three distinguishing features.",
+     "a": "This is collective behaviour, not a social movement. Three distinguishing features: (1) No sustained collective action — it lasted 6 hours, not over time. (2) No organisation — no leadership structure, no decision-making process, no membership. (3) No shared ideology — only a situational grievance (compensation), not a broader orientation to change society. The NCERT states: \"Spontaneous, disorganised protest cannot be called a social movement either. Collective action must be marked by some degree of organisation.\" A wrong answer would call it a social movement because 'people collectively demanded rights', ignoring the organisational and temporal criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Durkheim's and Marx's (via E.P. Thompson) perspectives on collective action. Why did Durkheim see social movements as threats to social order, while Thompson argued crowds had a 'moral economy'?",
+     "a": "Durkheim, writing amid industrial upheaval, feared anomie — the breakdown of normative regulation — and saw protests/food riots as symptoms of failed social integration threatening social order. His focus was on how social structures (division of labour, religion) maintain cohesion. Thompson, studying 18th-century English food riots, showed crowds were not 'anarchic hooligans' but operated on a 'moral economy' — a shared understanding of fair price and just conduct — making their actions rational, norm-governed resistance to market exploitation. A wrong answer would say 'Durkheim hated protests, Marx loved them' without explaining the theoretical stakes: Durkheim = functionalist concern for order; Thompson/Marx = conflict theory seeing collective action as rational response to structural injustice.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Chipko movement was primarily an environmental movement; its economic and political dimensions were secondary.\" Use the NCERT's analysis of Chipko (Section 8.4, Box 8.3) to support your judgment.",
+     "a": "The claim is incorrect per NCERT. The Chipko movement explicitly interlinked three dimensions: (1) Economic — villagers' subsistence (firewood, fodder) vs. government's commercial timber revenue ('economy of subsistence vs economy of profit'); (2) Ecological — deforestation caused floods/landslides, threatening survival; (3) Political — resentment against a distant plains-based government indifferent to hill villagers' concerns. The NCERT states: \"For the villagers, these 'red' and 'green' issues were interlinked... concerns about economy, ecology and political representation underlay the Chipko Movement.\" A weak answer treats Chipko as single-issue environmentalism, missing the NCERT's core argument that Indian movements blur old/new categories by combining class, identity, and ecology.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel example of a social movement that meets all five NCERT defining features. Describe its organisation, shared ideology, leadership, orientation to change, and tactics (protest + non-protest). Ensure it is distinct from the movements discussed in the textbook.",
+     "a": "Example: The 'Right to Pension for Informal Workers Movement' (hypothetical). (1) Sustained collective action: Monthly rallies, petitions over 3 years. (2) Organisation: National federation of informal worker unions with state chapters, elected executive committee, decision-making via delegate conferences. (3) Shared ideology: 'Social security is a citizenship right, not charity'; informal workers produce value but lack protection. (4) Orientation: Demand universal pension legislation (reformist), prevent dilution of existing schemes. (5) Tactics: Protest — sit-ins at Parliament, human chains; Non-protest — lobbying MPs, submitting policy drafts to Labour Ministry, media op-eds, legal aid camps for workers. A poor example would lack organisation (e.g., 'people tweet #PensionNow') or shared ideology (e.g., 'workers want money' without a rights framework).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A social movement is a sustained, organised collective action with shared objectives and ideology that aims to bring about or prevent change in society, often by challenging state policies or dominant social norms, and is ______ from spontaneous collective behaviour by its degree of organisation, leadership structure, and long-term orientation.",
+     "a": "distinguished",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking students: \"You enjoy an 8-hour workday, weekends off, and the right to vote — did these just appear, or were they won?\" Use the NCERT opening (workers' struggles) to show that rights we take for granted are outcomes of social ______.",
+     "a": "movements",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking students: \"You enjoy an ______-hour workday, weekends off, and the right to vote — did these just appear, or were they won?\" Use the NCERT opening (workers' struggles) to show that rights we take for granted are outcomes of social movements.",
+     "a": "8",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish a social movement from collective behaviour and social change by identifying the presence of sustained organisation, shared ideology, leadership structure, and goal-directed action in a given real-world case, and can explain why the Chartist movement qualifies as a social movement while a food riot does not.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking students: \"You enjoy an 8-hour workday, weekends off, and the right to vote — did these just appear, or were they won?\" Use the NCERT opening (workers' ______) to show that rights we take for granted are outcomes of social movements.",
+     "a": "struggles",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

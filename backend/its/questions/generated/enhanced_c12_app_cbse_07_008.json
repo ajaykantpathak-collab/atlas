@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_07_008",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_07_008",
+   "title": "c12_app_cbse_07_008",
+   "questions": [
+    {
+     "q": "What is the correct symbolic form of the null hypothesis when testing whether the proportion of students who pass the board exam is different from 60%?",
+     "a": "H₀: p = 0.60  \nA common wrong answer is H₀: p ≠ 0.60, which reveals a misunderstanding that the null hypothesis must contain the inequality from the research question. Students often confuse the null and alternative hypotheses, thinking H₀ should reflect the claim being tested (e.g., \"different from\"). However, H₀ always represents a statement of no effect or no difference (equality), while the research claim (if it involves change or difference) goes into H₁. This error leads to incorrect test setup and misinterpretation of results.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to test if the average study time for JEE aspirants is less than 4 hours per day. Explain why the alternative hypothesis is H₁: μ < 4 and not H₁: μ ≥ 4.",
+     "a": "The alternative hypothesis (H₁) represents the researcher's claim or what they hope to prove. Since the researcher suspects the average study time is *less than* 4 hours, H₁ must be μ < 4. The null hypothesis (H₀) is the complement: μ ≥ 4 (which includes μ = 4 and μ > 4). A wrong answer like H₁: μ ≥ 4 reveals the student believes H₁ should contain the \"not less than\" condition, likely due to confusing the roles of H₀ and H₁ or misapplying logical negation. This error inverts the hypothesis test, making it impossible to support the researcher's actual claim.",
+     "self_check": true
+    },
+    {
+     "q": "In a quality control check, a machine is supposed to fill bottles with exactly 500 mL of juice. A sample is taken to test if the machine is under-filling. State the null and alternative hypotheses in terms of the mean fill volume μ.",
+     "a": "H₀: μ = 500 mL  \nH₁: μ < 500 mL  \nSteps:  \n1. Identify the claimed value: 500 mL (this goes into H₀ as equality).  \n2. Determine the direction of suspicion: \"under-filling\" means less than 500 mL → this is the research claim → goes into H₁.  \n3. Since the claim is directional (\"less than\"), use a one-tailed test with inequality <.  \n4. H₀ must always be a statement of no difference → equality.  \n5. H₁ is the complement that matches the suspicion → μ < 500 mL.  \nA wrong answer like H₀: μ < 500 and H₁: μ = 500 reveals the student swapped H₀ and H₁, likely because they think the hypothesis being tested (under-filling) should be the null. This fundamental error reverses the logic of hypothesis testing, leading to incorrect conclusions about the machine's performance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the hypothesis pairs for two scenarios:  \n(A) Testing if a new drug reduces blood pressure (claimed: reduces).  \n(B) Testing if a change in diet affects cholesterol levels (no direction specified).  \nHow do the alternative hypotheses differ, and what does this imply about the type of test?",
+     "a": "For (A): H₀: μ ≥ μ₀ (or μ = μ₀ if equality is assumed), H₁: μ < μ₀ → one-tailed (left-tailed) test.  \nFor (B): H₀: μ = μ₀, H₁: μ ≠ μ₀ → two-tailed test.  \nA wrong answer might state both use H₁: μ ≠ μ₀ or both use one-tailed tests, revealing a failure to recognize that the research question's directionality dictates the alternative hypothesis form. Students often overlook phrases like \"reduces\" (directional) vs. \"affects\" (non-directional) and mechanically apply two-tailed tests. This leads to either reduced power (using two-tailed when one-tailed is justified) or increased Type I error risk (using one-tailed when effect could be in either direction).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"If we fail to reject the null hypothesis that the mean score of a training program is 70, we have proven that the program has no effect.\" Justify your judgment.",
+     "a": "The statement is incorrect. Failing to reject H₀ does not prove H₀ is true; it only means the sample data did not provide sufficient evidence against H₀. There could be a real effect that the test failed to detect due to small sample size, high variability, or a significance level too strict (Type II error).  \nA wrong answer agreeing with the statement reveals the student believes hypothesis testing can prove the null hypothesis, reflecting a confusion between statistical significance and practical proof. This misconception stems from interpreting \"fail to reject\" as \"accept as true,\" ignoring that hypothesis testing is designed to assess evidence against H₀, not to confirm it. This error undermines the inferential nature of the method and can lead to overconfidence in ineffective interventions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario involving a population proportion where the null hypothesis is H₀: p = 0.4 and the alternative hypothesis is H₁: p > 0.4. Describe the context, what p represents, and what rejecting H₀ would imply.",
+     "a": "Expected answer: A political party claims 40% of voters in a constituency support their new policy. An activist suspects support is actually higher and surveys a random sample. Here, p = proportion of supporters. Rejecting H₀ (in favor of H₁: p > 0.4) would imply there is statistically significant evidence that more than 40% of voters support the policy, suggesting the activist's suspicion is valid.  \nA poor answer might omit the directionality (e.g., not specifying why H₁ is >), confuse p with sample proportion, or fail to link rejection of H₀ to real-world implication (e.g., just stating \"we reject H₀\" without explaining what it means for voter support). This reveals a superficial grasp of hypothesis components without understanding their roles in inference.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,31 @@
      "q": "Design a hypothetical clinical scenario where a multipotent adult stem cell would be preferred over a pluripotent embryonic stem cell. Specify the disease, the stem cell source, and the rationale for your choice.",
      "a": "Example: Treating a patient with severe aplastic anaemia using autologous hematopoietic stem cells (HSCs) from their own bone marrow. Rationale: HSCs are multipotent for blood lineages (exactly what is needed), autologous transplant avoids immune rejection, and no ethical concerns. A poor answer that chooses ESCs for a blood disorder or ignores autologous advantage shows inability to match stem cell potency to therapeutic need.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Embryonic stem cells (ESCs) are pluripotent cells derived from the inner cell mass of a blastocyst (5–7 days post-______) that can differentiate into all three germ layers (ectoderm, mesoderm, endoderm) but not extra-embryonic tissues.",
+     "a": "fertilisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a patient needs a bone marrow transplant for leukaemia — doctors use ______ stem cells from a donor's bone marrow (adult stem cells).",
+     "a": "hematopoietic",
+     "self_check": true
+    },
+    {
+     "q": "What is Embryonic stem cells (ESCs)? State the definition given in this lesson.",
+     "a": "Embryonic stem cells (ESCs) are pluripotent cells derived from the inner cell mass of a blastocyst (5–7 days post-fertilisation) that can differentiate into all three germ layers (ectoderm, mesoderm, endoderm) but not extra-embryonic tissues.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Embryonic stem cells (ESCs)?",
+     "a": "Students often think \"pluripotent means can make ANY cell including placenta\" — they confuse pluripotent with totipotent.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify a given stem cell type as embryonic or adult based on its source, potency, and ethical considerations, and explain why ESCs are pluripotent while adult stem cells are multipotent/unipotent, using NCERT terminology.",
+     "self_check": true
     }
    ]
   }

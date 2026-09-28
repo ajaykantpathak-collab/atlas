@@ -42,9 +42,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 3 * 3 + 9"
-   ]
+   "steps_chain": []
   },
   {
    "id": "hemh.112.12.2",
@@ -89,11 +87,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "big = 8 * 1000 + 7 * 100 + 4 * 10 + 1",
-    "small = 1 * 1000 + 4 * 100 + 7 * 10 + 8",
-    "diff = big - small"
-   ]
+   "steps_chain": []
   },
   {
    "id": "hemh.112.12.3",
@@ -136,9 +130,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 4 * 4 + 2 * 4 * 3 + 3 * 3"
-   ]
+   "steps_chain": []
   },
   {
    "id": "hemh.112.12.4",

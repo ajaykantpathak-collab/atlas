@@ -22,7 +22,7 @@
     "give examples of triangles from your surroundings",
     "why are triangles used in bridges and towers"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -39,7 +39,16 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 64 gives 26",
+     "compute": "other = 90 - 64"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.7.2",
@@ -89,7 +98,7 @@
     "draw an obtuse angled triangle",
     "which triangle has all angles less than 90"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -106,7 +115,16 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 14 gives 76",
+     "compute": "other = 90 - 14"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.7.4",
@@ -124,7 +142,7 @@
     "why cannot a triangle have angles 90 90 and 10",
     "make a triangle question for your partner from the rules"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -141,7 +159,16 @@
      "action": "check the answer",
      "explain": "Verify by reversing or re-checking, then conclude."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 63 gives 27",
+     "compute": "other = 90 - 63"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

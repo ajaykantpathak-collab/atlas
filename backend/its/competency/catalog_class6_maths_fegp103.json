@@ -22,7 +22,7 @@
     "decode the pattern given in the chapter",
     "make a puzzle where numbers tell something about your class"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -39,7 +39,22 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.3.2",
@@ -57,7 +72,7 @@
     "fill a grid so that exactly two cells are supercells",
     "why is the biggest number always a supercell in a row"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -74,7 +89,16 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "split the number into digits and apply the rule",
+     "explain": "split the number into digits and apply the rule: diff = 9 * abs(4 - 6) gives 18",
+     "compute": "diff = 9 * abs(4 - 6)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.3.3",
@@ -124,7 +148,7 @@
     "colour the number line by a rule of your own",
     "find the 6th multiple of 7 on the number line"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -141,7 +165,16 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the integer operation sign rules",
+     "explain": "apply the integer operation sign rules: total = 3 + (6) gives 9",
+     "compute": "total = 3 + (6)"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

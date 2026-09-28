@@ -34,6 +34,21 @@
      "q": "Design a short mRNA sequence (12 nucleotides) that codes for a dipeptide with two different amino acids, includes a start codon, and ends with a stop codon. Write the corresponding DNA template strand sequence.",
      "a": "Example: mRNA 5'-AUG UUU UAA-3' (Met-Phe-Stop). DNA template: 3'-TAC AAA ATT-5'. Any valid sequence meeting the criteria is acceptable. A poor answer (e.g., missing start/stop, overlapping codons, wrong base pairing) reveals inability to synthesize a correct coding sequence from the code's rules.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The genetic code is the set of rules by which the sequence of nucleotides in messenger RNA (mRNA) is translated into the sequence of amino acids in a ______ chain, where each codon (a triplet of nucleotides) specifies a particular amino acid or a stop signal during protein synthesis.",
+     "a": "polypeptide",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive a WhatsApp message written in a language where every word is exactly three letters long, some words mean the same thing (synonyms), three special words mean \"STOP\", and the same ______ is used by almost every living organism on Earth – that is the genetic code.",
+     "a": "dictionary",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently decode any given mRNA sequence into its corresponding amino acid sequence using the codon table, and explain how the properties of degeneracy, non-overlapping reading frame, and universality (with mitochondrial exceptions) affect the outcome of translation.",
+     "self_check": true
     }
    ]
   }

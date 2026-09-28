@@ -34,6 +34,31 @@
      "q": "Construct a real-world problem where the standard equation of a circle is needed to find the radius, given that the circle passes through two points on the x-axis symmetric about the y-axis and has its centre on the y-axis.",
      "a": "Example: A satellite dish has a parabolic cross-section, but its rim is circular. The rim passes through points (-6, 0) and (6, 0) on the ground (x-axis) and its centre is on the vertical pole (y-axis) at height 8 metres. Find the radius of the rim. A good answer sets centre as (0, 8), uses point (6, 0) in (x - 0)² + (y - 8)² = r² → 36 + 64 = r² → r = 10. A poor answer assumes centre at origin or uses distance formula without recognising the symmetry, showing inability to model geometric constraints algebraically.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A circle is the set of all points in a plane that are at a fixed ______ (radius) from a fixed point (centre).",
+     "a": "distance",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ garden of radius 5 metres with its centre exactly at the school flagpole.",
+     "a": "circular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The standard equation of a circle with centre at (h, k) and radius r (r > ______) is (x - h)² + (y - k)² = r².",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the standard equation of a circle from the distance formula, identify the centre and radius from any given standard form equation, and convert geometric conditions (e.g., circle touching axes, passing through given points) into the standard equation with full algebraic justification.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a circular garden of radius 5 metres with its centre exactly at the school flagpole.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

@@ -1,522 +1,567 @@
 {
-  "class": 12,
-  "subject": "accountancy",
-  "chapter": 3,
-  "chapter_title": "Use of Spreadsheet in Business Applications",
-  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leca103.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "provenance": "drafter draft; gate-validated; review pending",
-  "concepts": [
+ "class": 12,
+ "subject": "accountancy",
+ "chapter": 3,
+ "chapter_title": "Use of Spreadsheet in Business Applications",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/leca103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "drafter draft; gate-validated; review pending",
+ "concepts": [
+  {
+   "id": "leca103.1",
+   "title": "Payroll Components: Earnings and Deductions",
+   "section": "3.1.1 Payroll Components",
+   "definition": "A salary bill rests on earnings heads and deduction heads. Earnings: Basic Pay from the pay scale plus Grade Pay, Dearness Pay merged into basic pay, Dearness Allowance granted periodically as a percentage to offset price-rise erosion, House Rent Allowance for leased accommodation, Transport Allowance for commuting, and any other declared allowance. Deductions: Professional Tax under state law, Provident Fund as a statutory social-security percentage, Tax Deducted at Source as the monthly slice of yearly income tax, loan instalment recovery and other recoveries.",
+   "formula": "payroll_heads = earnings_basic plus allowances plus deductions_statutory plus recovery",
+   "key_idea": "Earnings stack from basic pay upward; statutory and loan deductions come out before the employee is paid.",
+   "textbook_ref": "leca103.txt, sections 3.1.1-3.1.2 (approx lines 62-168)",
+   "question_patterns": [
+    "list the earning heads and deduction heads of a payroll",
+    "what is Dearness Allowance and why is it granted",
+    "how is Tax Deduction at Source apportioned over the year",
+    "distinguish Basic Pay from Grade Pay and Dearness Pay",
+    "which payroll deductions are statutory in nature"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
     {
-      "id": "leca103.1",
-      "title": "Payroll Components: Earnings and Deductions",
-      "section": "3.1.1 Payroll Components",
-      "definition": "A salary bill rests on earnings heads and deduction heads. Earnings: Basic Pay from the pay scale plus Grade Pay, Dearness Pay merged into basic pay, Dearness Allowance granted periodically as a percentage to offset price-rise erosion, House Rent Allowance for leased accommodation, Transport Allowance for commuting, and any other declared allowance. Deductions: Professional Tax under state law, Provident Fund as a statutory social-security percentage, Tax Deducted at Source as the monthly slice of yearly income tax, loan instalment recovery and other recoveries.",
-      "formula": "payroll_heads = earnings_basic plus allowances plus deductions_statutory plus recovery",
-      "key_idea": "Earnings stack from basic pay upward; statutory and loan deductions come out before the employee is paid.",
-      "textbook_ref": "leca103.txt, sections 3.1.1-3.1.2 (approx lines 62-168)",
-      "question_patterns": [
-        "list the earning heads and deduction heads of a payroll",
-        "what is Dearness Allowance and why is it granted",
-        "how is Tax Deduction at Source apportioned over the year",
-        "distinguish Basic Pay from Grade Pay and Dearness Pay",
-        "which payroll deductions are statutory in nature"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "group the earnings",
-          "explain": "basic pay, grade and dearness pay, dearness allowance, house rent and transport allowances plus other declared allowances"
-        },
-        {
-          "step": 2,
-          "action": "group the deductions",
-          "explain": "professional tax, provident fund, tax deducted at source, loan instalment and other recoveries"
-        }
-      ]
+     "step": 1,
+     "action": "group the earnings",
+     "explain": "basic pay, grade and dearness pay, dearness allowance, house rent and transport allowances plus other declared allowances"
     },
     {
-      "id": "leca103.2",
-      "title": "Effective Days and Basic Pay Earned",
-      "section": "3.1.2 Elements used in Payroll Calculation",
-      "definition": "Pay is earned only for days actually worked. Effective days present equal the days in the month less leave without pay and unauthorised absence, and the basic pay earned is the month's basic pay scaled by the ratio of effective days to days in the month -- so unpaid absence shrinks every allowance that follows, since all of them feed off the earned figure.",
-      "formula": "earned_basic = basic_pay * days_present / days_in_month",
-      "key_idea": "Scale the month's basic pay by effective days over calendar days; every later head keys off this earned amount.",
-      "textbook_ref": "leca103.txt, BPE and NOEDP formulas (approx lines 126-168)",
-      "question_patterns": [
-        "an employee draws basic pay Rs 30000 for a 30-day month with 3 days of leave without pay; find the basic pay earned",
-        "compute the earned basic pay when basic pay is Rs 25000, the month has 31 days and 4 days were unauthorised absence",
-        "how are effective days present arrived at from the days in a month",
-        "find the prorated basic pay of a worker present 25 days in a 30-day month at Rs 18000",
-        "why does unpaid absence reduce the dearness allowance of the same month"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "scale basic pay by attendance",
-          "explain": "multiplying basic pay by the effective-day fraction earns pay only for days worked",
-          "compute": "earned_basic = basic_pay * days_present / days_in_month"
-        }
-      ]
-    },
-    {
-      "id": "leca103.3",
-      "title": "Allowance Computation: DA and HRA as Percentages",
-      "section": "3.1.2 Elements used in Payroll Calculation",
-      "definition": "Percentage allowances apply to the earned basic pay: Dearness Allowance at the rate notified for the month, House Rent Allowance at a rate that depends on employee category -- the template uses 40 per cent of earned pay for supervisory staff and 30 per cent for non-supervisory staff, with nil for consultants. Transport allowance is either a fixed amount or a percentage. Once the applicable rate is picked, every allowance is that percentage of the earned figure.",
-      "formula": "allowance_amount = earned_basic * allowance_pct / 100",
-      "key_idea": "Pick the applicable percentage by category, then take that slice of the earned basic pay.",
-      "textbook_ref": "leca103.txt, DA, HRA, TRA formulas and Figure 3.2 rules (approx lines 132-168, 369-383)",
-      "question_patterns": [
-        "compute the Dearness Allowance at 35 per cent on earned pay of Rs 27000",
-        "a supervisory employee earns Rs 25000; what house rent allowance does the 40 per cent rule give",
-        "find the house rent allowance of a non-supervisory earner with earned pay Rs 18000 at the 30 per cent rate",
-        "how does the earned basic pay enter the dearness and house rent allowance formulas",
-        "what allowance does a consultant or contract employee receive under the house rent rule"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "apply the percentage to earned pay",
-          "explain": "multiplying the earned basic pay by the applicable rate over 100 yields the allowance for the month",
-          "compute": "allowance_amount = earned_basic * allowance_pct / 100"
-        }
-      ]
-    },
-    {
-      "id": "leca103.4",
-      "title": "Gross Salary Assembly",
-      "section": "3.1.2 Total Earnings",
-      "definition": "Total earnings, or gross salary, aggregate every earning head of the month: the basic pay earned plus dearness allowance, house rent allowance and transport allowance. The payroll template sums these columns for each employee, and the gross figure becomes the base from which deductions are subtracted.",
-      "formula": "gross_salary = earned_basic + allowances_total + transport_allowance",
-      "key_idea": "Gross salary is the sum of earned basic pay and every allowance of the month.",
-      "textbook_ref": "leca103.txt, TE formula and template columns (approx lines 138-168, 319-323)",
-      "question_patterns": [
-        "earned pay is Rs 27000, dearness allowance Rs 9450, house rent Rs 8100 and transport Rs 500; find the gross salary",
-        "compute total earnings when basic pay earned, dearness allowance, house rent allowance and transport allowance are given",
-        "what heads add up to the gross salary column of a payroll sheet",
-        "find the gross salary of an employee with earned pay Rs 20000, allowances totalling Rs 7600 and transport Rs 800",
-        "why is gross salary computed before any deduction is applied"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "total the percentage allowances",
-          "explain": "dearness and house rent allowances together form the percentage-based allowance block",
-          "compute": "allowances_total = dearness_amt + hra_amt"
-        },
-        {
-          "step": 2,
-          "action": "add the earning heads",
-          "explain": "earned basic pay plus the allowance block plus transport gives the month's gross salary",
-          "compute": "gross_salary = earned_basic + allowances_total + transport_allowance"
-        }
-      ]
-    },
-    {
-      "id": "leca103.5",
-      "title": "Deductions and Net Salary",
-      "section": "3.1.2 Total Deductions and Net Salary",
-      "definition": "Deductions comprise the provident fund computed as a percentage of earned pay, tax deducted at source -- essentially the yearly income tax spread over twelve months -- and fixed loan instalment recoveries. Their sum is total deductions, and subtracting it from total earnings leaves the net salary, the amount actually paid into the employee's bank account through the bank advice.",
-      "formula": "net_salary = gross_salary - total_deductions",
-      "key_idea": "Take gross salary, strip the provident fund, tax and loan recoveries, and what remains is the take-home pay.",
-      "textbook_ref": "leca103.txt, TD and NS formulas (approx lines 141-180)",
-      "question_patterns": [
-        "gross salary is Rs 45050 and total deductions are Rs 6740; find the net salary",
-        "compute the take-home pay when provident fund Rs 3240, tax at source Rs 2000 and loan instalment Rs 1500 apply against gross salary Rs 45050",
-        "state the formula linking net salary, total earnings and total deductions",
-        "find the net salary of an employee whose earnings are Rs 30000 and deductions Rs 5200",
-        "what does the advice to bank transfer for each employee every month"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "total the deductions",
-          "explain": "provident fund, tax at source and loan instalment add up to the deduction block",
-          "compute": "total_deductions = pf_amt + tds_amt + loan_amt"
-        },
-        {
-          "step": 2,
-          "action": "deduct from gross salary",
-          "explain": "the difference between gross salary and the deduction block is the net salary payable",
-          "compute": "net_salary = gross_salary - total_deductions"
-        }
-      ]
-    },
-    {
-      "id": "leca103.6",
-      "title": "Nested IF for Employee-Type Rules",
-      "section": "3.1.2.1 Template Design",
-      "definition": "The payroll template implements category rules with a nested IF: for house rent allowance, a supervisory employee takes 40 per cent of earned pay, a non-supervisory employee 30 per cent, and anything else nil; for transport allowance the same structure returns 1000 for supervisory, 500 for non-supervisory and zero otherwise. The rate cells carry absolute addresses so that copying the formula down the column never shifts the reference.",
-      "formula": "type_rule = nested IF picks the rate or fixed amount by employee type",
-      "key_idea": "An IF inside an IF routes each employee category to its own rate, else to zero.",
-      "textbook_ref": "leca103.txt, template columns I and J with nested IF (approx lines 221-232, 306-318)",
-      "question_patterns": [
-        "write the nested IF that grants 40 per cent house rent to supervisory and 30 per cent to non-supervisory employees",
-        "what does the transport allowance formula return for a consultant under the nested IF",
-        "why do the rate cells in the IF formulas carry absolute addresses",
-        "how does a nested IF differ from a simple IF in the payroll sheet",
-        "what happens to the house rent column when a new employee type is left out of the IF chain"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "read the branch order",
-          "explain": "the outer IF tests supervisory, the inner IF tests non-supervisory, and the final else returns zero"
-        },
-        {
-          "step": 2,
-          "action": "anchor the rate cells",
-          "explain": "absolute addresses on the rate cells keep every copied row pointing at the single rate table"
-        }
-      ]
-    },
-    {
-      "id": "leca103.7",
-      "title": "Template Design: Direct Values versus Formulas",
-      "section": "3.1.2.1 Template Design",
-      "definition": "Every spreadsheet application starts with a template: plan the column layout, decide for each column whether a value is typed directly or produced by a formula, and mark the cells holding formulas. The payroll sheet, for instance, takes employee number, name, type, deduction days and basic pay as direct entries, while effective days, earned pay, allowances, deductions and net salary are computed. Once laid out, entering values makes results appear immediately.",
-      "formula": "template_plan = direct_value_columns plus formula_columns",
-      "key_idea": "Decide column by column what is typed and what is computed -- the template then calculates itself.",
-      "textbook_ref": "leca103.txt, template design and Figure 3.1 (approx lines 181-269)",
-      "question_patterns": [
-        "which payroll columns hold values entered directly and which hold formulas",
-        "why is preparing a template the first step in spreadsheet computation",
-        "how does the effective-days column derive its value in the payroll template",
-        "what is recorded in the cell-content line of the template table",
-        "how do the gross salary and net salary columns obtain their figures"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "separate entry from computation",
-          "explain": "identity, attendance and basic pay are typed; effective days onward are computed by formula"
-        },
-        {
-          "step": 2,
-          "action": "note the benefits",
-          "explain": "a planned template recalculates instantly as values are entered and keeps every row consistent"
-        }
-      ]
-    },
-    {
-      "id": "leca103.8",
-      "title": "Acquisition Cost: Cost to Use an Asset",
-      "section": "3.2.2.1 Straight Line Method",
-      "definition": "An asset enters the books at its acquisition cost, not merely its invoice price: purchase value plus transportation, installation and pre-operating expenses together form the cost to use. Depreciable allocations build on this total, alongside the salvage value -- the amount realisable at the end of the asset's useful life -- while free-hold land usually carries no depreciation at all.",
-      "formula": "cost_to_use = purchase_cost + installation_exp + preop_exp",
-      "key_idea": "Capitalise the purchase with transport, installation and pre-operating spending to get the cost that depreciates.",
-      "textbook_ref": "leca103.txt, acquisition cost formula and cost-to-use column (approx lines 463-477, 569-572)",
-      "question_patterns": [
-        "a machine costs Rs 100000 with installation of Rs 8000 and pre-operating expenses of Rs 2000; find the cost to use",
-        "compute the acquisition cost when purchase price, transportation and installation expenses are given",
-        "which expenses are added to purchase value to capitalise an asset",
-        "what is salvage value and how does it differ from acquisition cost",
-        "why is depreciation generally not provided on free-hold land"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "add the capitalisation expenses",
-          "explain": "purchase cost plus installation and pre-operating expenses forms the total cost put to use",
-          "compute": "cost_to_use = purchase_cost + installation_exp + preop_exp"
-        }
-      ]
-    },
-    {
-      "id": "leca103.9",
-      "title": "Straight Line Method of Depreciation",
-      "section": "3.2.2.1 Straight Line Method (SLM)",
-      "definition": "Under the Straight Line Method the asset loses an equal slice of value every year: the total depreciable amount -- acquisition cost minus salvage value -- divides evenly over the expected useful life. The depreciation rate expresses the annual charge as a percentage of the depreciable amount. Excel computes it with the SLN function, and the total depreciation over the asset's life equals acquisition cost less salvage value.",
-      "formula": "slm_amount = depreciable_amount / life_years",
-      "key_idea": "Split cost-minus-salvage evenly across the useful life; every year carries the same charge.",
-      "textbook_ref": "leca103.txt, SLM formulas and SLN usage (approx lines 462-505)",
-      "question_patterns": [
-        "an asset costs Rs 110000 to use with salvage value Rs 10000 and a life of 5 years; find the annual straight line depreciation",
-        "compute the yearly charge when depreciable amount is Rs 100000 spread over 10 years",
-        "what is the rate of depreciation when the annual straight line charge is Rs 20000 on a depreciable amount of Rs 100000",
-        "state the total depreciation charged over the whole life of an asset under SLM",
-        "which built-in spreadsheet function returns the straight line depreciation of an asset"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "size the depreciable base",
-          "explain": "acquisition cost less salvage value is the amount the asset must lose over its life",
-          "compute": "depreciable_amount = cost_to_use - salvage_value"
-        },
-        {
-          "step": 2,
-          "action": "spread it over the life",
-          "explain": "dividing the depreciable amount by the years of useful life gives the equal annual depreciation",
-          "compute": "slm_amount = depreciable_amount / life_years"
-        }
-      ]
-    },
-    {
-      "id": "leca103.10",
-      "title": "Written Down Value Method of Depreciation",
-      "section": "3.2.2.2 Written Down Value (WDV) Method",
-      "definition": "The Written Down Value or Declining Balance method charges each year's depreciation on the current book value, so the charge shrinks as the asset ages. Excel's DB function takes cost, salvage, life, the period concerned and the months in the first year. For a constant rate, the book value after some years is the cost multiplied by the surviving fraction -- one minus the rate -- raised to those years.",
-      "formula": "book_value = cost_to_use * (1 - rate_pct / 100) ** years_used",
-      "key_idea": "Each year the rate bites the shrinking book value, so value after n years is cost times the surviving fraction to the nth power.",
-      "textbook_ref": "leca103.txt, WDV method and DB function (approx lines 597-643, 796-802)",
-      "question_patterns": [
-        "an asset of Rs 50000 depreciates at 20 per cent per year under WDV; find its book value after 3 years",
-        "compute the written down value after 2 years for a machine of Rs 80000 at a 10 per cent declining rate",
-        "what does the DB function return and which parameters does it take",
-        "why is the WDV charge smaller in later years than in earlier ones",
-        "find the book value of an asset costing Rs 100000 after 4 years at 25 per cent per year on written down value"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "apply the declining rate over the years",
-          "explain": "multiplying cost by the surviving fraction raised to the years in use leaves the written down value",
-          "compute": "book_value = cost_to_use * (1 - rate_pct / 100) ** years_used"
-        }
-      ]
-    },
-    {
-      "id": "leca103.11",
-      "title": "Fixed Asset Schedule: Gross Block, Depreciation and Net Block",
-      "section": "3.2.2.3 Schedule Forming Part of the Balance Sheet",
-      "definition": "The fixed asset schedule reported with the balance sheet carries three blocks per asset class. Gross block rolls forward from the April 1 opening by adding additions and subtracting deductions to reach the March 31 closing. Depreciation rolls forward the same way, its additions transferred from the depreciation computation sheet. Net block is gross block minus depreciation, on both dates, and the whole schedule can be laid out as spreadsheet columns with rolling formulas.",
-      "formula": "net_block = closing_gross - closing_dep",
-      "key_idea": "Roll each block forward with additions and deductions, then gross block minus depreciation leaves the net block.",
-      "textbook_ref": "leca103.txt, schedule columns E, I, J, K (approx lines 819-912)",
-      "question_patterns": [
-        "opening gross block is Rs 500000 with additions Rs 50000 and no deductions; depreciation stands at Rs 245000; find the net block",
-        "compute the closing gross block from opening balance, additions and deductions",
-        "how does the depreciation column of the schedule receive its additions",
-        "state the formula for net block as at March 31 in the fixed asset schedule",
-        "which columns of the schedule are entered directly and which are computed"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "roll the gross block forward",
-          "explain": "opening gross plus additions less deductions gives the closing gross block",
-          "compute": "closing_gross = opening_gross + additions_gross - deductions_gross"
-        },
-        {
-          "step": 2,
-          "action": "roll the depreciation forward",
-          "explain": "opening depreciation plus the year's charge less deductions gives the closing depreciation",
-          "compute": "closing_dep = opening_dep + additions_dep - deductions_dep"
-        },
-        {
-          "step": 3,
-          "action": "deduct depreciation from gross",
-          "explain": "closing gross block less closing depreciation is the net block reported in the balance sheet",
-          "compute": "net_block = closing_gross - closing_dep"
-        }
-      ]
-    },
-    {
-      "id": "leca103.12",
-      "title": "Loan Repayment Schedule with PMT",
-      "section": "3.3 Loan Repayment Schedule",
-      "definition": "A loan of principal borrowed at a stated rate for a stated period repays through periodic instalments, computed with Excel's PMT function: rate is the interest per period, nper the total payments whose unit must match the rate, pv the loan amount, and fv the end balance -- taken as zero, because with regular repayments nothing remains payable at the end. Type 1 pays at the period's beginning and 0 at its end; a yearly instalment divides by twelve for monthly payment.",
-      "formula": "loan_terms = principal plus rate per period plus nper payments plus fv of zero",
-      "key_idea": "PMT spreads principal and interest into equal payments, with future value zero once the loan is fully repaid.",
-      "textbook_ref": "leca103.txt, section 3.3 and PMT parameters (approx lines 923-1039)",
-      "question_patterns": [
-        "why is the future value taken as zero in loan repayment calculations",
-        "state the parameters of the PMT function used for a repayment schedule",
-        "a bank lends Rs 100000 at 10 per cent for two years in 24 monthly instalments; how is the instalment computed",
-        "why must the unit of nper match the unit of the interest rate in PMT",
-        "how does a yearly instalment convert into a monthly instalment in the worksheet"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "match the parameters",
-          "explain": "rate per period, matching payment count, loan amount as present value, zero future value, and the payment-timing type"
-        },
-        {
-          "step": 2,
-          "action": "explain the zero balance",
-          "explain": "regular instalments extinguish the debt by the end of the term, so the balance due, and hence fv, is zero"
-        }
-      ]
+     "step": 2,
+     "action": "group the deductions",
+     "explain": "professional tax, provident fund, tax deducted at source, loan instalment and other recoveries"
     }
-  ],
-  "worked_examples": [
+   ]
+  },
+  {
+   "id": "leca103.2",
+   "title": "Effective Days and Basic Pay Earned",
+   "section": "3.1.2 Elements used in Payroll Calculation",
+   "definition": "Pay is earned only for days actually worked. Effective days present equal the days in the month less leave without pay and unauthorised absence, and the basic pay earned is the month's basic pay scaled by the ratio of effective days to days in the month -- so unpaid absence shrinks every allowance that follows, since all of them feed off the earned figure.",
+   "formula": "earned_basic = basic_pay * days_present / days_in_month",
+   "key_idea": "Scale the month's basic pay by effective days over calendar days; every later head keys off this earned amount.",
+   "textbook_ref": "leca103.txt, BPE and NOEDP formulas (approx lines 126-168)",
+   "question_patterns": [
+    "an employee draws basic pay Rs 30000 for a 30-day month with 3 days of leave without pay; find the basic pay earned",
+    "compute the earned basic pay when basic pay is Rs 25000, the month has 31 days and 4 days were unauthorised absence",
+    "how are effective days present arrived at from the days in a month",
+    "find the prorated basic pay of a worker present 25 days in a 30-day month at Rs 18000",
+    "why does unpaid absence reduce the dearness allowance of the same month"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "ex1",
-      "source_ref": "leca103.txt payroll template example, Figures 3.1-3.3",
-      "concept": "leca103.5",
-      "question_type": "numeric",
-      "question_pattern": "An employee draws basic pay Rs {basic_pay} in a 30-day month with {ded_days} days of deduction days. DA is 35 per cent, HRA 30 per cent, transport Rs {transport_allowance}, PF 12 per cent of earned pay, TDS Rs {tds_amt} and loan recovery Rs {loan_amt}. Find the net salary.",
-      "extracted_variables": {
-        "basic_pay": 30000,
-        "ded_days": 3,
-        "days_in_month": 30,
-        "da_pct": 35,
-        "hra_pct": 30,
-        "transport_allowance": 500,
-        "pf_pct": 12,
-        "tds_amt": 2000,
-        "loan_amt": 1500
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "earn the basic pay by attendance",
-          "explain": "30000 x 27/30 = 27000 earned",
-          "compute": "earned_basic = basic_pay * (days_in_month - ded_days) / days_in_month"
-        },
-        {
-          "step": 2,
-          "action": "total the percentage allowances",
-          "explain": "35% + 30% of 27000 = 9450 + 8100 = 17550",
-          "compute": "allowances_total = earned_basic * da_pct / 100 + earned_basic * hra_pct / 100"
-        },
-        {
-          "step": 3,
-          "action": "add the earning heads",
-          "explain": "27000 + 17550 + 500 = 45050 gross salary",
-          "compute": "gross_salary = earned_basic + allowances_total + transport_allowance"
-        },
-        {
-          "step": 4,
-          "action": "total the deductions",
-          "explain": "12% of 27000 = 3240 PF, plus 2000 TDS plus 1500 loan = 6740",
-          "compute": "total_deductions = earned_basic * pf_pct / 100 + tds_amt + loan_amt"
-        },
-        {
-          "step": 5,
-          "action": "deduct from gross salary",
-          "explain": "45050 - 6740 = 38310 net salary",
-          "compute": "net_salary = gross_salary - total_deductions"
-        }
-      ]
-    },
-    {
-      "id": "ex2",
-      "source_ref": "leca103.txt SLM formulas, section 3.2.2.1",
-      "concept": "leca103.9",
-      "question_type": "numeric",
-      "question_pattern": "A machine is capitalised at Rs {cost_to_use} with salvage value Rs {salvage_value} and a useful life of {life_years} years. Using the Straight Line Method, find the annual depreciation.",
-      "extracted_variables": {
-        "cost_to_use": 110000,
-        "salvage_value": 10000,
-        "life_years": 5
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "size the depreciable base",
-          "explain": "110000 - 10000 = 100000 depreciable amount",
-          "compute": "depreciable_amount = cost_to_use - salvage_value"
-        },
-        {
-          "step": 2,
-          "action": "spread it over the life",
-          "explain": "100000 / 5 = 20000 per year under the straight line method",
-          "compute": "slm_amount = depreciable_amount / life_years"
-        }
-      ]
-    },
-    {
-      "id": "ex3",
-      "source_ref": "leca103.txt WDV method, section 3.2.2.2",
-      "concept": "leca103.10",
-      "question_type": "numeric",
-      "question_pattern": "An asset put to use at Rs {cost_to_use} depreciates at {rate_pct} per cent per year on written down value. Find its book value after {years_used} years.",
-      "extracted_variables": {
-        "cost_to_use": 50000,
-        "rate_pct": 20,
-        "years_used": 3
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "apply the declining rate over the years",
-          "explain": "50000 x 0.8 x 0.8 x 0.8 = 25600, the written down value after three years",
-          "compute": "book_value = cost_to_use * (1 - rate_pct / 100) ** years_used"
-        }
-      ]
-    },
-    {
-      "id": "ex4",
-      "source_ref": "leca103.txt fixed asset schedule, section 3.2.2.3",
-      "concept": "leca103.11",
-      "question_type": "numeric",
-      "question_pattern": "A plant class shows opening gross block Rs {opening_gross}, additions Rs {additions_gross}, no deductions; depreciation opens at Rs {opening_dep} and the year adds Rs {additions_dep}. Find the net block at year end.",
-      "extracted_variables": {
-        "opening_gross": 500000,
-        "additions_gross": 50000,
-        "deductions_gross": 0,
-        "opening_dep": 200000,
-        "additions_dep": 45000,
-        "deductions_dep": 0
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "roll the gross block forward",
-          "explain": "500000 + 50000 - 0 = 550000 closing gross",
-          "compute": "closing_gross = opening_gross + additions_gross - deductions_gross"
-        },
-        {
-          "step": 2,
-          "action": "roll the depreciation forward",
-          "explain": "200000 + 45000 - 0 = 245000 closing depreciation",
-          "compute": "closing_dep = opening_dep + additions_dep - deductions_dep"
-        },
-        {
-          "step": 3,
-          "action": "deduct depreciation from gross",
-          "explain": "550000 - 245000 = 305000 net block",
-          "compute": "net_block = closing_gross - closing_dep"
-        }
-      ]
+     "step": 1,
+     "action": "scale basic pay by attendance",
+     "explain": "multiplying basic pay by the effective-day fraction earns pay only for days worked",
+     "compute": "earned_basic = basic_pay * days_present / days_in_month"
     }
-  ],
-  "exercises": [
+   ]
+  },
+  {
+   "id": "leca103.3",
+   "title": "Allowance Computation: DA and HRA as Percentages",
+   "section": "3.1.2 Elements used in Payroll Calculation",
+   "definition": "Percentage allowances apply to the earned basic pay: Dearness Allowance at the rate notified for the month, House Rent Allowance at a rate that depends on employee category -- the template uses 40 per cent of earned pay for supervisory staff and 30 per cent for non-supervisory staff, with nil for consultants. Transport allowance is either a fixed amount or a percentage. Once the applicable rate is picked, every allowance is that percentage of the earned figure.",
+   "formula": "allowance_amount = earned_basic * allowance_pct / 100",
+   "key_idea": "Pick the applicable percentage by category, then take that slice of the earned basic pay.",
+   "textbook_ref": "leca103.txt, DA, HRA, TRA formulas and Figure 3.2 rules (approx lines 132-168, 369-383)",
+   "question_patterns": [
+    "compute the Dearness Allowance at 35 per cent on earned pay of Rs 27000",
+    "a supervisory employee earns Rs 25000; what house rent allowance does the 40 per cent rule give",
+    "find the house rent allowance of a non-supervisory earner with earned pay Rs 18000 at the 30 per cent rate",
+    "how does the earned basic pay enter the dearness and house rent allowance formulas",
+    "what allowance does a consultant or contract employee receive under the house rent rule"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "ex-leca103-mcq",
-      "source_ref": "leca103.txt Exercise Q1 Multiple Choice 1-7",
-      "questions": [
-        "Which argument of a financial function indicates the interest for a period: FV, PV, Nper or Rate?",
-        "Which formula category does =PMT(C10/12, C8, C9, 1) belong to: logical, financial, payment or statistical?",
-        "Which formula returns TRUE if C4 is less than 10 and D4 is less than 100?",
-        "In =PMT(C8, C9, C10, C11, C12), which cell holds the Rate?"
-      ]
-    },
-    {
-      "id": "ex-leca103-short",
-      "source_ref": "leca103.txt Exercise Q2 Answer the Following 1-8",
-      "questions": [
-        "What is the meaning of PV and state the usage of FV?",
-        "What is the purpose of the DB function?",
-        "An investment of Rs 1000 is made today; ascertain its future value after 2 years at 10 per cent per year.",
-        "A sum of Rs 1000 is likely to be earned after 3 years; calculate its present value.",
-        "What is the difference between the WDV method and the SLM method of depreciation, and which Excel functions compute them?",
-        "Explain the importance of absolute and relative addresses and the basis of choosing between them."
-      ]
-    },
-    {
-      "id": "ex-leca103-skill",
-      "source_ref": "leca103.txt Skill Review 6",
-      "questions": [
-        "For M/s Opportunities Company, compute for each employee: DA at 37.5 per cent of basic salary, HRA at 22.5 per cent, PF at 12 per cent, gross salary as basic plus DA plus HRA, income tax at 20 per cent of gross, and net salary as gross minus PF plus IT; then report the total, average, maximum and minimum salary paid.",
-        "Explain what goes wrong in the payroll and depreciation spreadsheets if absolute addresses are replaced by relative addresses before copying the formulas down the columns."
-      ]
+     "step": 1,
+     "action": "apply the percentage to earned pay",
+     "explain": "multiplying the earned basic pay by the applicable rate over 100 yields the allowance for the month",
+     "compute": "allowance_amount = earned_basic * allowance_pct / 100"
     }
-  ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "allowance_amount = earned_basic * allowance_pct / 100",
+     "compute": "allowance_amount = earned_basic * allowance_pct / 100"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "leca103.4",
+   "title": "Gross Salary Assembly",
+   "section": "3.1.2 Total Earnings",
+   "definition": "Total earnings, or gross salary, aggregate every earning head of the month: the basic pay earned plus dearness allowance, house rent allowance and transport allowance. The payroll template sums these columns for each employee, and the gross figure becomes the base from which deductions are subtracted.",
+   "formula": "gross_salary = earned_basic + allowances_total + transport_allowance",
+   "key_idea": "Gross salary is the sum of earned basic pay and every allowance of the month.",
+   "textbook_ref": "leca103.txt, TE formula and template columns (approx lines 138-168, 319-323)",
+   "question_patterns": [
+    "earned pay is Rs 27000, dearness allowance Rs 9450, house rent Rs 8100 and transport Rs 500; find the gross salary",
+    "compute total earnings when basic pay earned, dearness allowance, house rent allowance and transport allowance are given",
+    "what heads add up to the gross salary column of a payroll sheet",
+    "find the gross salary of an employee with earned pay Rs 20000, allowances totalling Rs 7600 and transport Rs 800",
+    "why is gross salary computed before any deduction is applied"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "total the percentage allowances",
+     "explain": "dearness and house rent allowances together form the percentage-based allowance block",
+     "compute": "allowances_total = dearness_amt + hra_amt"
+    },
+    {
+     "step": 2,
+     "action": "add the earning heads",
+     "explain": "earned basic pay plus the allowance block plus transport gives the month's gross salary",
+     "compute": "gross_salary = earned_basic + allowances_total + transport_allowance"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "gross_salary = earned_basic + allowances_total + transport_allowance",
+     "compute": "gross_salary = earned_basic + allowances_total + transport_allowance"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "leca103.5",
+   "title": "Deductions and Net Salary",
+   "section": "3.1.2 Total Deductions and Net Salary",
+   "definition": "Deductions comprise the provident fund computed as a percentage of earned pay, tax deducted at source -- essentially the yearly income tax spread over twelve months -- and fixed loan instalment recoveries. Their sum is total deductions, and subtracting it from total earnings leaves the net salary, the amount actually paid into the employee's bank account through the bank advice.",
+   "formula": "net_salary = gross_salary - total_deductions",
+   "key_idea": "Take gross salary, strip the provident fund, tax and loan recoveries, and what remains is the take-home pay.",
+   "textbook_ref": "leca103.txt, TD and NS formulas (approx lines 141-180)",
+   "question_patterns": [
+    "gross salary is Rs 45050 and total deductions are Rs 6740; find the net salary",
+    "compute the take-home pay when provident fund Rs 3240, tax at source Rs 2000 and loan instalment Rs 1500 apply against gross salary Rs 45050",
+    "state the formula linking net salary, total earnings and total deductions",
+    "find the net salary of an employee whose earnings are Rs 30000 and deductions Rs 5200",
+    "what does the advice to bank transfer for each employee every month"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "total the deductions",
+     "explain": "provident fund, tax at source and loan instalment add up to the deduction block",
+     "compute": "total_deductions = pf_amt + tds_amt + loan_amt"
+    },
+    {
+     "step": 2,
+     "action": "deduct from gross salary",
+     "explain": "the difference between gross salary and the deduction block is the net salary payable",
+     "compute": "net_salary = gross_salary - total_deductions"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_salary = gross_salary - total_deductions",
+     "compute": "net_salary = gross_salary - total_deductions"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "leca103.6",
+   "title": "Nested IF for Employee-Type Rules",
+   "section": "3.1.2.1 Template Design",
+   "definition": "The payroll template implements category rules with a nested IF: for house rent allowance, a supervisory employee takes 40 per cent of earned pay, a non-supervisory employee 30 per cent, and anything else nil; for transport allowance the same structure returns 1000 for supervisory, 500 for non-supervisory and zero otherwise. The rate cells carry absolute addresses so that copying the formula down the column never shifts the reference.",
+   "formula": "type_rule = nested IF picks the rate or fixed amount by employee type",
+   "key_idea": "An IF inside an IF routes each employee category to its own rate, else to zero.",
+   "textbook_ref": "leca103.txt, template columns I and J with nested IF (approx lines 221-232, 306-318)",
+   "question_patterns": [
+    "write the nested IF that grants 40 per cent house rent to supervisory and 30 per cent to non-supervisory employees",
+    "what does the transport allowance formula return for a consultant under the nested IF",
+    "why do the rate cells in the IF formulas carry absolute addresses",
+    "how does a nested IF differ from a simple IF in the payroll sheet",
+    "what happens to the house rent column when a new employee type is left out of the IF chain"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the branch order",
+     "explain": "the outer IF tests supervisory, the inner IF tests non-supervisory, and the final else returns zero"
+    },
+    {
+     "step": 2,
+     "action": "anchor the rate cells",
+     "explain": "absolute addresses on the rate cells keep every copied row pointing at the single rate table"
+    }
+   ]
+  },
+  {
+   "id": "leca103.7",
+   "title": "Template Design: Direct Values versus Formulas",
+   "section": "3.1.2.1 Template Design",
+   "definition": "Every spreadsheet application starts with a template: plan the column layout, decide for each column whether a value is typed directly or produced by a formula, and mark the cells holding formulas. The payroll sheet, for instance, takes employee number, name, type, deduction days and basic pay as direct entries, while effective days, earned pay, allowances, deductions and net salary are computed. Once laid out, entering values makes results appear immediately.",
+   "formula": "template_plan = direct_value_columns plus formula_columns",
+   "key_idea": "Decide column by column what is typed and what is computed -- the template then calculates itself.",
+   "textbook_ref": "leca103.txt, template design and Figure 3.1 (approx lines 181-269)",
+   "question_patterns": [
+    "which payroll columns hold values entered directly and which hold formulas",
+    "why is preparing a template the first step in spreadsheet computation",
+    "how does the effective-days column derive its value in the payroll template",
+    "what is recorded in the cell-content line of the template table",
+    "how do the gross salary and net salary columns obtain their figures"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "separate entry from computation",
+     "explain": "identity, attendance and basic pay are typed; effective days onward are computed by formula"
+    },
+    {
+     "step": 2,
+     "action": "note the benefits",
+     "explain": "a planned template recalculates instantly as values are entered and keeps every row consistent"
+    }
+   ]
+  },
+  {
+   "id": "leca103.8",
+   "title": "Acquisition Cost: Cost to Use an Asset",
+   "section": "3.2.2.1 Straight Line Method",
+   "definition": "An asset enters the books at its acquisition cost, not merely its invoice price: purchase value plus transportation, installation and pre-operating expenses together form the cost to use. Depreciable allocations build on this total, alongside the salvage value -- the amount realisable at the end of the asset's useful life -- while free-hold land usually carries no depreciation at all.",
+   "formula": "cost_to_use = purchase_cost + installation_exp + preop_exp",
+   "key_idea": "Capitalise the purchase with transport, installation and pre-operating spending to get the cost that depreciates.",
+   "textbook_ref": "leca103.txt, acquisition cost formula and cost-to-use column (approx lines 463-477, 569-572)",
+   "question_patterns": [
+    "a machine costs Rs 100000 with installation of Rs 8000 and pre-operating expenses of Rs 2000; find the cost to use",
+    "compute the acquisition cost when purchase price, transportation and installation expenses are given",
+    "which expenses are added to purchase value to capitalise an asset",
+    "what is salvage value and how does it differ from acquisition cost",
+    "why is depreciation generally not provided on free-hold land"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the capitalisation expenses",
+     "explain": "purchase cost plus installation and pre-operating expenses forms the total cost put to use",
+     "compute": "cost_to_use = purchase_cost + installation_exp + preop_exp"
+    }
+   ]
+  },
+  {
+   "id": "leca103.9",
+   "title": "Straight Line Method of Depreciation",
+   "section": "3.2.2.1 Straight Line Method (SLM)",
+   "definition": "Under the Straight Line Method the asset loses an equal slice of value every year: the total depreciable amount -- acquisition cost minus salvage value -- divides evenly over the expected useful life. The depreciation rate expresses the annual charge as a percentage of the depreciable amount. Excel computes it with the SLN function, and the total depreciation over the asset's life equals acquisition cost less salvage value.",
+   "formula": "slm_amount = depreciable_amount / life_years",
+   "key_idea": "Split cost-minus-salvage evenly across the useful life; every year carries the same charge.",
+   "textbook_ref": "leca103.txt, SLM formulas and SLN usage (approx lines 462-505)",
+   "question_patterns": [
+    "an asset costs Rs 110000 to use with salvage value Rs 10000 and a life of 5 years; find the annual straight line depreciation",
+    "compute the yearly charge when depreciable amount is Rs 100000 spread over 10 years",
+    "what is the rate of depreciation when the annual straight line charge is Rs 20000 on a depreciable amount of Rs 100000",
+    "state the total depreciation charged over the whole life of an asset under SLM",
+    "which built-in spreadsheet function returns the straight line depreciation of an asset"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "size the depreciable base",
+     "explain": "acquisition cost less salvage value is the amount the asset must lose over its life",
+     "compute": "depreciable_amount = cost_to_use - salvage_value"
+    },
+    {
+     "step": 2,
+     "action": "spread it over the life",
+     "explain": "dividing the depreciable amount by the years of useful life gives the equal annual depreciation",
+     "compute": "slm_amount = depreciable_amount / life_years"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "slm_amount = depreciable_amount / life_years",
+     "compute": "slm_amount = depreciable_amount / life_years"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "leca103.10",
+   "title": "Written Down Value Method of Depreciation",
+   "section": "3.2.2.2 Written Down Value (WDV) Method",
+   "definition": "The Written Down Value or Declining Balance method charges each year's depreciation on the current book value, so the charge shrinks as the asset ages. Excel's DB function takes cost, salvage, life, the period concerned and the months in the first year. For a constant rate, the book value after some years is the cost multiplied by the surviving fraction -- one minus the rate -- raised to those years.",
+   "formula": "book_value = cost_to_use * (1 - rate_pct / 100) ** years_used",
+   "key_idea": "Each year the rate bites the shrinking book value, so value after n years is cost times the surviving fraction to the nth power.",
+   "textbook_ref": "leca103.txt, WDV method and DB function (approx lines 597-643, 796-802)",
+   "question_patterns": [
+    "an asset of Rs 50000 depreciates at 20 per cent per year under WDV; find its book value after 3 years",
+    "compute the written down value after 2 years for a machine of Rs 80000 at a 10 per cent declining rate",
+    "what does the DB function return and which parameters does it take",
+    "why is the WDV charge smaller in later years than in earlier ones",
+    "find the book value of an asset costing Rs 100000 after 4 years at 25 per cent per year on written down value"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "apply the declining rate over the years",
+     "explain": "multiplying cost by the surviving fraction raised to the years in use leaves the written down value",
+     "compute": "book_value = cost_to_use * (1 - rate_pct / 100) ** years_used"
+    }
+   ]
+  },
+  {
+   "id": "leca103.11",
+   "title": "Fixed Asset Schedule: Gross Block, Depreciation and Net Block",
+   "section": "3.2.2.3 Schedule Forming Part of the Balance Sheet",
+   "definition": "The fixed asset schedule reported with the balance sheet carries three blocks per asset class. Gross block rolls forward from the April 1 opening by adding additions and subtracting deductions to reach the March 31 closing. Depreciation rolls forward the same way, its additions transferred from the depreciation computation sheet. Net block is gross block minus depreciation, on both dates, and the whole schedule can be laid out as spreadsheet columns with rolling formulas.",
+   "formula": "net_block = closing_gross - closing_dep",
+   "key_idea": "Roll each block forward with additions and deductions, then gross block minus depreciation leaves the net block.",
+   "textbook_ref": "leca103.txt, schedule columns E, I, J, K (approx lines 819-912)",
+   "question_patterns": [
+    "opening gross block is Rs 500000 with additions Rs 50000 and no deductions; depreciation stands at Rs 245000; find the net block",
+    "compute the closing gross block from opening balance, additions and deductions",
+    "how does the depreciation column of the schedule receive its additions",
+    "state the formula for net block as at March 31 in the fixed asset schedule",
+    "which columns of the schedule are entered directly and which are computed"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "roll the gross block forward",
+     "explain": "opening gross plus additions less deductions gives the closing gross block",
+     "compute": "closing_gross = opening_gross + additions_gross - deductions_gross"
+    },
+    {
+     "step": 2,
+     "action": "roll the depreciation forward",
+     "explain": "opening depreciation plus the year's charge less deductions gives the closing depreciation",
+     "compute": "closing_dep = opening_dep + additions_dep - deductions_dep"
+    },
+    {
+     "step": 3,
+     "action": "deduct depreciation from gross",
+     "explain": "closing gross block less closing depreciation is the net block reported in the balance sheet",
+     "compute": "net_block = closing_gross - closing_dep"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_block = closing_gross - closing_dep",
+     "compute": "net_block = closing_gross - closing_dep"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "leca103.12",
+   "title": "Loan Repayment Schedule with PMT",
+   "section": "3.3 Loan Repayment Schedule",
+   "definition": "A loan of principal borrowed at a stated rate for a stated period repays through periodic instalments, computed with Excel's PMT function: rate is the interest per period, nper the total payments whose unit must match the rate, pv the loan amount, and fv the end balance -- taken as zero, because with regular repayments nothing remains payable at the end. Type 1 pays at the period's beginning and 0 at its end; a yearly instalment divides by twelve for monthly payment.",
+   "formula": "loan_terms = principal plus rate per period plus nper payments plus fv of zero",
+   "key_idea": "PMT spreads principal and interest into equal payments, with future value zero once the loan is fully repaid.",
+   "textbook_ref": "leca103.txt, section 3.3 and PMT parameters (approx lines 923-1039)",
+   "question_patterns": [
+    "why is the future value taken as zero in loan repayment calculations",
+    "state the parameters of the PMT function used for a repayment schedule",
+    "a bank lends Rs 100000 at 10 per cent for two years in 24 monthly instalments; how is the instalment computed",
+    "why must the unit of nper match the unit of the interest rate in PMT",
+    "how does a yearly instalment convert into a monthly instalment in the worksheet"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "match the parameters",
+     "explain": "rate per period, matching payment count, loan amount as present value, zero future value, and the payment-timing type"
+    },
+    {
+     "step": 2,
+     "action": "explain the zero balance",
+     "explain": "regular instalments extinguish the debt by the end of the term, so the balance due, and hence fv, is zero"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "leca103.txt payroll template example, Figures 3.1-3.3",
+   "concept": "leca103.5",
+   "question_type": "numeric",
+   "question_pattern": "An employee draws basic pay Rs {basic_pay} in a 30-day month with {ded_days} days of deduction days. DA is 35 per cent, HRA 30 per cent, transport Rs {transport_allowance}, PF 12 per cent of earned pay, TDS Rs {tds_amt} and loan recovery Rs {loan_amt}. Find the net salary.",
+   "extracted_variables": {
+    "basic_pay": 30000,
+    "ded_days": 3,
+    "days_in_month": 30,
+    "da_pct": 35,
+    "hra_pct": 30,
+    "transport_allowance": 500,
+    "pf_pct": 12,
+    "tds_amt": 2000,
+    "loan_amt": 1500
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "earn the basic pay by attendance",
+     "explain": "30000 x 27/30 = 27000 earned",
+     "compute": "earned_basic = basic_pay * (days_in_month - ded_days) / days_in_month"
+    },
+    {
+     "step": 2,
+     "action": "total the percentage allowances",
+     "explain": "35% + 30% of 27000 = 9450 + 8100 = 17550",
+     "compute": "allowances_total = earned_basic * da_pct / 100 + earned_basic * hra_pct / 100"
+    },
+    {
+     "step": 3,
+     "action": "add the earning heads",
+     "explain": "27000 + 17550 + 500 = 45050 gross salary",
+     "compute": "gross_salary = earned_basic + allowances_total + transport_allowance"
+    },
+    {
+     "step": 4,
+     "action": "total the deductions",
+     "explain": "12% of 27000 = 3240 PF, plus 2000 TDS plus 1500 loan = 6740",
+     "compute": "total_deductions = earned_basic * pf_pct / 100 + tds_amt + loan_amt"
+    },
+    {
+     "step": 5,
+     "action": "deduct from gross salary",
+     "explain": "45050 - 6740 = 38310 net salary",
+     "compute": "net_salary = gross_salary - total_deductions"
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "leca103.txt SLM formulas, section 3.2.2.1",
+   "concept": "leca103.9",
+   "question_type": "numeric",
+   "question_pattern": "A machine is capitalised at Rs {cost_to_use} with salvage value Rs {salvage_value} and a useful life of {life_years} years. Using the Straight Line Method, find the annual depreciation.",
+   "extracted_variables": {
+    "cost_to_use": 110000,
+    "salvage_value": 10000,
+    "life_years": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "size the depreciable base",
+     "explain": "110000 - 10000 = 100000 depreciable amount",
+     "compute": "depreciable_amount = cost_to_use - salvage_value"
+    },
+    {
+     "step": 2,
+     "action": "spread it over the life",
+     "explain": "100000 / 5 = 20000 per year under the straight line method",
+     "compute": "slm_amount = depreciable_amount / life_years"
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "leca103.txt WDV method, section 3.2.2.2",
+   "concept": "leca103.10",
+   "question_type": "numeric",
+   "question_pattern": "An asset put to use at Rs {cost_to_use} depreciates at {rate_pct} per cent per year on written down value. Find its book value after {years_used} years.",
+   "extracted_variables": {
+    "cost_to_use": 50000,
+    "rate_pct": 20,
+    "years_used": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "apply the declining rate over the years",
+     "explain": "50000 x 0.8 x 0.8 x 0.8 = 25600, the written down value after three years",
+     "compute": "book_value = cost_to_use * (1 - rate_pct / 100) ** years_used"
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "leca103.txt fixed asset schedule, section 3.2.2.3",
+   "concept": "leca103.11",
+   "question_type": "numeric",
+   "question_pattern": "A plant class shows opening gross block Rs {opening_gross}, additions Rs {additions_gross}, no deductions; depreciation opens at Rs {opening_dep} and the year adds Rs {additions_dep}. Find the net block at year end.",
+   "extracted_variables": {
+    "opening_gross": 500000,
+    "additions_gross": 50000,
+    "deductions_gross": 0,
+    "opening_dep": 200000,
+    "additions_dep": 45000,
+    "deductions_dep": 0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "roll the gross block forward",
+     "explain": "500000 + 50000 - 0 = 550000 closing gross",
+     "compute": "closing_gross = opening_gross + additions_gross - deductions_gross"
+    },
+    {
+     "step": 2,
+     "action": "roll the depreciation forward",
+     "explain": "200000 + 45000 - 0 = 245000 closing depreciation",
+     "compute": "closing_dep = opening_dep + additions_dep - deductions_dep"
+    },
+    {
+     "step": 3,
+     "action": "deduct depreciation from gross",
+     "explain": "550000 - 245000 = 305000 net block",
+     "compute": "net_block = closing_gross - closing_dep"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex-leca103-mcq",
+   "source_ref": "leca103.txt Exercise Q1 Multiple Choice 1-7",
+   "questions": [
+    "Which argument of a financial function indicates the interest for a period: FV, PV, Nper or Rate?",
+    "Which formula category does =PMT(C10/12, C8, C9, 1) belong to: logical, financial, payment or statistical?",
+    "Which formula returns TRUE if C4 is less than 10 and D4 is less than 100?",
+    "In =PMT(C8, C9, C10, C11, C12), which cell holds the Rate?"
+   ]
+  },
+  {
+   "id": "ex-leca103-short",
+   "source_ref": "leca103.txt Exercise Q2 Answer the Following 1-8",
+   "questions": [
+    "What is the meaning of PV and state the usage of FV?",
+    "What is the purpose of the DB function?",
+    "An investment of Rs 1000 is made today; ascertain its future value after 2 years at 10 per cent per year.",
+    "A sum of Rs 1000 is likely to be earned after 3 years; calculate its present value.",
+    "What is the difference between the WDV method and the SLM method of depreciation, and which Excel functions compute them?",
+    "Explain the importance of absolute and relative addresses and the basis of choosing between them."
+   ]
+  },
+  {
+   "id": "ex-leca103-skill",
+   "source_ref": "leca103.txt Skill Review 6",
+   "questions": [
+    "For M/s Opportunities Company, compute for each employee: DA at 37.5 per cent of basic salary, HRA at 22.5 per cent, PF at 12 per cent, gross salary as basic plus DA plus HRA, income tax at 20 per cent of gross, and net salary as gross minus PF plus IT; then report the total, average, maximum and minimum salary paid.",
+    "Explain what goes wrong in the payroll and depreciation spreadsheets if absolute addresses are replaced by relative addresses before copying the formulas down the columns."
+   ]
+  }
+ ]
 }

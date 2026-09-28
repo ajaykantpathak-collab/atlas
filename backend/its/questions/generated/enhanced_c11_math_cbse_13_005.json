@@ -34,6 +34,26 @@
      "q": "Construct a rational function f(x) = P(x)/Q(x) such that: (a) lim_{x→∞} f(x) = 3, (b) lim_{x→-∞} f(x) = -2, and (c) f(x) has a vertical asymptote at x = 1. Explain your construction.",
      "a": "One solution: f(x) = (3x² - 5x + 2) / (x² - x) for x→∞ limit 3 (equal degrees, leading coeff 3/1=3). But this gives same limit at -∞. To get different limits at ±∞, we need an odd-degree term dominance. Try f(x) = (3x³ + ...)/(x³ + ...) but that gives same ratio. Actually, for rational functions, limits at +∞ and -∞ are equal if degrees are equal (ratio of leading coefficients) or both 0 if denom degree higher, or both ±∞ with same sign if num degree higher by even number, opposite signs if num degree higher by odd number. So to get 3 and -2, we need different horizontal asymptotes — impossible for rational functions! The student must realize rational functions have at most one horizontal asymptote (same limit at ±∞ unless odd-degree dominance with sign change). A good answer recognizes this impossibility and explains why. A poor answer provides a function without checking both limits.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The limit of a function f(x) as x approaches infinity (or negative infinity) is the value L that f(x) approaches ______ closely as x grows without bound in the positive (or negative) direction.",
+     "a": "arbitrarily",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're tracking the ______ of a medicine in bloodstream over time: C(t) = 50t/(t²+25) mg/L.",
+     "a": "concentration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Since denominator degree > numerator degree, the limit is ______ mg/L — the medicine eventually clears.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can evaluate limits at infinity for polynomial, rational, and algebraic functions by identifying dominant terms, applying degree comparison rules, and using algebraic manipulation (dividing by highest power of x).",
+     "self_check": true
     }
    ]
   }

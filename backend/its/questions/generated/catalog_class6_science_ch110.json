@@ -2,6 +2,318 @@
  "catalog": "catalog_class6_science_ch110.json",
  "concepts": [
   {
+   "id": "fesc.110.2",
+   "title": "SI Unit of Length",
+   "converted_to_compute": true,
+   "formula": "SI_Length = metre",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "SI_Length = metre",
+     "compute": "SI_Length = metre"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For SI Unit of Length: given metre = 88, find SI Length.",
+     "a": "88",
+     "self_check": false
+    },
+    {
+     "q": "For SI Unit of Length: given metre = 32, find SI Length.",
+     "a": "32",
+     "self_check": false
+    },
+    {
+     "q": "For SI Unit of Length: given metre = 66, find SI Length.",
+     "a": "66",
+     "self_check": false
+    },
+    {
+     "q": "For SI Unit of Length: given metre = 82, find SI Length.",
+     "a": "82",
+     "self_check": false
+    },
+    {
+     "q": "For SI Unit of Length: given metre = 98, find SI Length.",
+     "a": "98",
+     "self_check": false
+    },
+    {
+     "q": "For SI Unit of Length: given metre = 25, find SI Length.",
+     "a": "25",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fesc.110.3",
+   "title": "Metre to Centimetre and Millimetre Conversion",
+   "converted_to_compute": true,
+   "formula": "cm = m * 100; mm = m * 1000",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "cm = m * 100",
+     "compute": "cm = m * 100"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "mm = m * 1000",
+     "compute": "mm = m * 1000"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "fesc.110.3",
+     "question_pattern": "Express a height of {m} metres in cm and mm"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Metre to Centimetre and Millimetre Conversion: given m = 63, find mm.",
+     "a": "63000",
+     "self_check": false
+    },
+    {
+     "q": "Express a height of 63 metres in cm and mm?",
+     "a": "63000",
+     "self_check": false
+    },
+    {
+     "q": "For Metre to Centimetre and Millimetre Conversion: given m = 16.5, find mm.",
+     "a": "16500",
+     "self_check": false
+    },
+    {
+     "q": "Express a height of 16.5 metres in cm and mm?",
+     "a": "16500",
+     "self_check": false
+    },
+    {
+     "q": "For Metre to Centimetre and Millimetre Conversion: given m = 13.9, find mm.",
+     "a": "13900",
+     "self_check": false
+    },
+    {
+     "q": "Express a height of 13.9 metres in cm and mm?",
+     "a": "13900",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fesc.110.4",
+   "title": "Kilometre to Metre Conversion",
+   "converted_to_compute": true,
+   "formula": "m = km * 1000",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "m = km * 1000",
+     "compute": "m = km * 1000"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "fesc.110.4",
+     "question_pattern": "How many metres make {km} km"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Kilometre to Metre Conversion: given km = 24, find m.",
+     "a": "24000",
+     "self_check": false
+    },
+    {
+     "q": "How many metres make 24 km?",
+     "a": "24000",
+     "self_check": false
+    },
+    {
+     "q": "For Kilometre to Metre Conversion: given km = 55, find m.",
+     "a": "55000",
+     "self_check": false
+    },
+    {
+     "q": "How many metres make 55 km?",
+     "a": "55000",
+     "self_check": false
+    },
+    {
+     "q": "For Kilometre to Metre Conversion: given km = 91, find m.",
+     "a": "91000",
+     "self_check": false
+    },
+    {
+     "q": "How many metres make 91 km?",
+     "a": "91000",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fesc.110.5",
+   "title": "Metre to Kilometre Conversion",
+   "converted_to_compute": true,
+   "formula": "km = m / 1000",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "km = m / 1000",
+     "compute": "km = m / 1000"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "fesc.110.5",
+     "question_pattern": "Convert {m} metres to kilometres"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Metre to Kilometre Conversion: given m = 99, find km.",
+     "a": "0.099",
+     "self_check": false
+    },
+    {
+     "q": "Convert 99 metres to kilometres?",
+     "a": "0.099",
+     "self_check": false
+    },
+    {
+     "q": "For Metre to Kilometre Conversion: given m = 42, find km.",
+     "a": "0.042",
+     "self_check": false
+    },
+    {
+     "q": "Convert 42 metres to kilometres?",
+     "a": "0.042",
+     "self_check": false
+    },
+    {
+     "q": "For Metre to Kilometre Conversion: given m = 11.8, find km.",
+     "a": "0.0118",
+     "self_check": false
+    },
+    {
+     "q": "Convert 11.8 metres to kilometres?",
+     "a": "0.0118",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fesc.110.6",
+   "title": "Measurement with a Broken Scale",
+   "converted_to_compute": true,
+   "formula": "length = reading_end - reading_start",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "length = reading_end - reading_start",
+     "compute": "length = reading_end - reading_start"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "fesc.110.6",
+     "question_pattern": "Find the length if the scale starts at {reading_end} and ends at {reading_start}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Measurement with a Broken Scale: given reading_end = 80, reading_start = 87, find length.",
+     "a": "-7",
+     "self_check": false
+    },
+    {
+     "q": "Find the length if the scale starts at 80 and ends at 87?",
+     "a": "-7",
+     "self_check": false
+    },
+    {
+     "q": "For Measurement with a Broken Scale: given reading_end = 95, reading_start = 40, find length.",
+     "a": "55",
+     "self_check": false
+    },
+    {
+     "q": "Find the length if the scale starts at 95 and ends at 40?",
+     "a": "55",
+     "self_check": false
+    },
+    {
+     "q": "For Measurement with a Broken Scale: given reading_end = 74, reading_start = 7.3, find length.",
+     "a": "66.7",
+     "self_check": false
+    },
+    {
+     "q": "Find the length if the scale starts at 74 and ends at 7.3?",
+     "a": "66.7",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fesc.110.7",
+   "title": "Rectilinear Motion",
+   "converted_to_compute": true,
+   "formula": "path = straight_line",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "path = straight_line",
+     "compute": "path = straight_line"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Rectilinear Motion: given straight_line = 2.3, find path.",
+     "a": "2.3",
+     "self_check": false
+    },
+    {
+     "q": "For Rectilinear Motion: given straight_line = 54, find path.",
+     "a": "54",
+     "self_check": false
+    },
+    {
+     "q": "For Rectilinear Motion: given straight_line = 74, find path.",
+     "a": "74",
+     "self_check": false
+    },
+    {
+     "q": "For Rectilinear Motion: given straight_line = 91, find path.",
+     "a": "91",
+     "self_check": false
+    },
+    {
+     "q": "For Rectilinear Motion: given straight_line = 117, find path.",
+     "a": "117",
+     "self_check": false
+    },
+    {
+     "q": "For Rectilinear Motion: given straight_line = 48, find path.",
+     "a": "48",
+     "self_check": false
+    }
+   ]
+  },
+  {
    "id": "fesc.110.1",
    "title": "Definition of Measurement",
    "solution_type": "verify_property",
@@ -19,373 +331,6 @@
     {
      "q": "Name the standard unit of length.",
      "a": "The metre (m) of the SI system.",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "fesc.110.2",
-   "title": "SI Unit of Length",
-   "solution_type": "verify_property",
-   "questions": [
-    {
-     "q": "State the units of length with their relations.",
-     "a": "1 km = 1000 m, 1 m = 100 cm, 1 cm = 10 mm.",
-     "self_check": true
-    },
-    {
-     "q": "Which unit suits measuring the length of a pencil? Why?",
-     "a": "Centimetre - the pencil is a few times 10 cm, easy to read on a scale.",
-     "self_check": true
-    },
-    {
-     "q": "Which unit would you use for the distance between two cities?",
-     "a": "Kilometre - such distances are too large for metres.",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "fesc.110.3",
-   "title": "Metre to Centimetre and Millimetre Conversion",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "length_cm",
-     "expr": "length_m * 100",
-     "explain": "1 m = 100 cm"
-    },
-    {
-     "step": 2,
-     "name": "half_length_mm",
-     "expr": "(length_m * 1000) / 2",
-     "explain": "millimetres in half the length"
-    },
-    {
-     "step": 3,
-     "name": "length_mm",
-     "expr": "length_m * 1000",
-     "explain": "1 m = 1000 mm"
-    }
-   ],
-   "questions": [
-    {
-     "q": "Convert a pencil of length 0.15 m into centimetres.",
-     "vals": {
-      "length_m": 0.15
-     },
-     "unit": "cm",
-     "steps": [
-      [
-       "length_cm",
-       "length_m * 100"
-      ]
-     ],
-     "a": "15 cm",
-     "self_check": false
-    },
-    {
-     "q": "A notebook is 0.3 m long. What is its length in cm and mm?",
-     "vals": {
-      "length_m": 0.3
-     },
-     "unit": "mm",
-     "steps": null,
-     "a": "300 mm",
-     "self_check": false
-    },
-    {
-     "q": "Change 2.5 m into centimetres.",
-     "vals": {
-      "length_m": 2.5
-     },
-     "unit": "cm",
-     "steps": [
-      [
-       "length_cm",
-       "length_m * 100"
-      ]
-     ],
-     "a": "250 cm",
-     "self_check": false
-    },
-    {
-     "q": "A table is 1.2 m high. Express this in cm and mm.",
-     "vals": {
-      "length_m": 1.2
-     },
-     "unit": "mm",
-     "steps": null,
-     "a": "1200 mm",
-     "self_check": false
-    },
-    {
-     "q": "Convert 0.07 m into millimetres.",
-     "vals": {
-      "length_m": 0.07
-     },
-     "unit": "mm",
-     "steps": null,
-     "a": "70 mm",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "fesc.110.4",
-   "title": "Kilometre to Metre Conversion",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "double_km_m",
-     "expr": "(distance_km * 2) * 1000",
-     "explain": "metres in double the distance"
-    },
-    {
-     "step": 2,
-     "name": "half_km_m",
-     "expr": "(distance_km / 2) * 1000",
-     "explain": "metres in half the distance"
-    },
-    {
-     "step": 3,
-     "name": "distance_m",
-     "expr": "distance_km * 1000",
-     "explain": "1 km = 1000 m"
-    }
-   ],
-   "questions": [
-    {
-     "q": "Convert 5 km into metres.",
-     "vals": {
-      "distance_km": 5
-     },
-     "unit": "m",
-     "steps": null,
-     "a": "5000 m",
-     "self_check": false
-    },
-    {
-     "q": "A race is 3.5 km long. How many metres is that?",
-     "vals": {
-      "distance_km": 3.5
-     },
-     "unit": "m",
-     "steps": null,
-     "a": "3500 m",
-     "self_check": false
-    },
-    {
-     "q": "The school is 2 km away. Express this distance in metres.",
-     "vals": {
-      "distance_km": 2
-     },
-     "unit": "m",
-     "steps": null,
-     "a": "2000 m",
-     "self_check": false
-    },
-    {
-     "q": "A river 12 km wide: what is its width in metres?",
-     "vals": {
-      "distance_km": 12
-     },
-     "unit": "m",
-     "steps": null,
-     "a": "12000 m",
-     "self_check": false
-    },
-    {
-     "q": "Convert 0.75 km into metres.",
-     "vals": {
-      "distance_km": 0.75
-     },
-     "unit": "m",
-     "steps": null,
-     "a": "750 m",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "fesc.110.5",
-   "title": "Metre to Kilometre Conversion",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "double_m_km",
-     "expr": "(length_m * 2) / 1000",
-     "explain": "km in double the metres"
-    },
-    {
-     "step": 2,
-     "name": "half_m_km",
-     "expr": "(length_m / 2) / 1000",
-     "explain": "km in half the metres"
-    },
-    {
-     "step": 3,
-     "name": "distance_km",
-     "expr": "length_m / 1000",
-     "explain": "1000 m make 1 km"
-    }
-   ],
-   "questions": [
-    {
-     "q": "Convert 4500 m into kilometres.",
-     "vals": {
-      "length_m": 4500
-     },
-     "unit": "km",
-     "steps": null,
-     "a": "4.5 km",
-     "self_check": false
-    },
-    {
-     "q": "A bridge is 850 m long. What is its length in km?",
-     "vals": {
-      "length_m": 850
-     },
-     "unit": "km",
-     "steps": null,
-     "a": "0.85 km",
-     "self_check": false
-    },
-    {
-     "q": "A road stretch measures 12500 m. Express it in km.",
-     "vals": {
-      "length_m": 12500
-     },
-     "unit": "km",
-     "steps": null,
-     "a": "12.5 km",
-     "self_check": false
-    },
-    {
-     "q": "Change 750 m into kilometres.",
-     "vals": {
-      "length_m": 750
-     },
-     "unit": "km",
-     "steps": null,
-     "a": "0.75 km",
-     "self_check": false
-    },
-    {
-     "q": "A track of 200 m: how many km is that?",
-     "vals": {
-      "length_m": 200
-     },
-     "unit": "km",
-     "steps": null,
-     "a": "0.2 km",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "fesc.110.6",
-   "title": "Measurement with a Broken Scale",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "midpoint_mark",
-     "expr": "(reading_end + reading_start) / 2",
-     "explain": "midpoint mark of the object"
-    },
-    {
-     "step": 2,
-     "name": "double_span",
-     "expr": "(reading_end - reading_start) * 2",
-     "explain": "double the object's span"
-    },
-    {
-     "step": 3,
-     "name": "object_length",
-     "expr": "reading_end - reading_start",
-     "explain": "subtract the starting mark from the ending mark"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A comb is measured from the 2 cm mark to the 17.5 cm mark of a scale. Find its length.",
-     "vals": {
-      "reading_end": 17.5,
-      "reading_start": 2
-     },
-     "unit": "cm",
-     "steps": null,
-     "a": "15.5 cm",
-     "self_check": false
-    },
-    {
-     "q": "A key starts at the 1 cm mark and ends at 6.2 cm. How long is the key?",
-     "vals": {
-      "reading_end": 6.2,
-      "reading_start": 1
-     },
-     "unit": "cm",
-     "steps": null,
-     "a": "5.2 cm",
-     "self_check": false
-    },
-    {
-     "q": "Using a broken scale, a crayon runs from 3 cm to 11 cm. Find its length.",
-     "vals": {
-      "reading_end": 11,
-      "reading_start": 3
-     },
-     "unit": "cm",
-     "steps": null,
-     "a": "8 cm",
-     "self_check": false
-    },
-    {
-     "q": "A leaf lies from the 0.5 cm mark to the 9.5 cm mark. What is its length?",
-     "vals": {
-      "reading_end": 9.5,
-      "reading_start": 0.5
-     },
-     "unit": "cm",
-     "steps": null,
-     "a": "9 cm",
-     "self_check": false
-    },
-    {
-     "q": "An eraser spans from the 4 cm mark to the 7.8 cm mark. Calculate its length.",
-     "vals": {
-      "reading_end": 7.8,
-      "reading_start": 4
-     },
-     "unit": "cm",
-     "steps": null,
-     "a": "3.8 cm",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "fesc.110.7",
-   "title": "Rectilinear Motion",
-   "solution_type": "verify_property",
-   "questions": [
-    {
-     "q": "What is rectilinear motion?",
-     "a": "Motion along a straight line - a car on a straight road, a falling stone.",
-     "self_check": true
-    },
-    {
-     "q": "Give two examples of rectilinear motion.",
-     "a": "A ball dropped from height and a train on a straight track.",
-     "self_check": true
-    },
-    {
-     "q": "How is rectilinear motion different from circular motion?",
-     "a": "Straight-line path versus a circular path around a centre.",
      "self_check": true
     }
    ]

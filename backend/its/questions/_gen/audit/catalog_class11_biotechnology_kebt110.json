@@ -1,0 +1,227 @@
+{
+ "catalog": "catalog_class11_biotechnology_kebt110.json",
+ "concepts": [
+  {
+   "id": "kebt110.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "hydropathy_sum = 92",
+      "residues = 13.4",
+      "gravy = hydropathy_sum / residues"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "hydropathy_sum = 20",
+      "residues = 58",
+      "gravy = hydropathy_sum / residues"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hydropathy_sum = 97",
+      "residues = 60",
+      "gravy = hydropathy_sum / residues"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "hydropathy_sum = 72",
+      "residues = 66",
+      "gravy = hydropathy_sum / residues"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "hydropathy_sum = 84",
+      "residues = 39",
+      "gravy = hydropathy_sum / residues"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "hydropathy_sum = 78",
+      "residues = 61",
+      "gravy = hydropathy_sum / residues"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "gravy = hydropathy_sum / residues"
+   ]
+  },
+  {
+   "id": "kebt110.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "sequences_million = 86",
+      "substances_million = 53",
+      "sequence_share = sequences_million / substances_million"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "sequences_million = 78",
+      "substances_million = 39",
+      "sequence_share = sequences_million / substances_million"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "sequences_million = 92",
+      "substances_million = 3.5",
+      "sequence_share = sequences_million / substances_million"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "sequences_million = 19.8",
+      "substances_million = 41",
+      "sequence_share = sequences_million / substances_million"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "sequences_million = 59",
+      "substances_million = 91",
+      "sequence_share = sequences_million / substances_million"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "sequences_million = 60",
+      "substances_million = 42",
+      "sequence_share = sequences_million / substances_million"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "sequence_share = sequences_million / substances_million"
+   ]
+  },
+  {
+   "id": "kebt110.7",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mol_weight = 159",
+      "weight_excess = mol_weight - 500"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mol_weight = 132",
+      "weight_excess = mol_weight - 500"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mol_weight = 23",
+      "weight_excess = mol_weight - 500"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mol_weight = 11.3",
+      "weight_excess = mol_weight - 500"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mol_weight = 70",
+      "weight_excess = mol_weight - 500"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mol_weight = 15.6",
+      "weight_excess = mol_weight - 500"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "weight_excess = mol_weight - 500"
+   ]
+  },
+  {
+   "id": "kebt110.8",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "dev_total = 39",
+      "clinical_years = 99",
+      "journey_total = dev_total + clinical_years"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "dev_total = 32",
+      "clinical_years = 12.2",
+      "journey_total = dev_total + clinical_years"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "dev_total = 1.8",
+      "clinical_years = 58",
+      "journey_total = dev_total + clinical_years"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "dev_total = 87",
+      "clinical_years = 5",
+      "journey_total = dev_total + clinical_years"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "dev_total = 34",
+      "clinical_years = 67",
+      "journey_total = dev_total + clinical_years"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "dev_total = 90",
+      "clinical_years = 26",
+      "journey_total = dev_total + clinical_years"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "journey_total = dev_total + clinical_years"
+   ]
+  }
+ ]
+}

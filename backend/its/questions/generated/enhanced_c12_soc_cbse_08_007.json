@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_08_007",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_08_007",
+   "title": "c12_soc_cbse_08_007",
+   "questions": [
+    {
+     "q": "What was the primary reason the British introduced a competitive examination for the Indian Civil Service (ICS) in 1855?",
+     "a": "The competitive examination was introduced to replace the patronage-based nomination system of the East India Company with a meritocratic recruitment method that would attract capable British university graduates and legitimise colonial rule as \"efficient\" and \"modern.\" A wrong answer (e.g., \"to allow Indians to join\") reveals confusion about the racial exclusion built into the ICS — Indians were technically eligible but faced insurmountable barriers (exam held only in London, age limits, cultural alienation), so the reform actually tightened European monopoly.",
+     "self_check": true
+    },
+    {
+     "q": "Explain how the Police Act of 1861 transformed the relationship between the police and local society compared to the pre-colonial zamindari policing system.",
+     "a": "The 1861 Act created a centrally controlled, uniformed constabulary accountable to the district superintendent and ultimately the Inspector General, replacing the zamindar's private retainers who were embedded in local kinship and caste networks. This shifted policing from negotiated, community-based order maintenance to a top-down, law-enforcement model focused on suppressing collective protest and protecting colonial property relations. A wrong answer that says \"it made police more accountable to villagers\" misses the Act's deliberate insulation of police from local influence to serve colonial interests.",
+     "self_check": true
+    },
+    {
+     "q": "A district magistrate in 1900 orders the police to disperse a peasant protest against enhanced land revenue. The police open fire, killing several protesters. Which colonial legal provision most directly shields the magistrate and police from criminal liability for this action?",
+     "a": "Section 197 of the Code of Criminal Procedure (1873/1898) required prior government sanction before prosecuting any public servant for acts done in official duty, effectively granting immunity for repressive actions. The Indian Penal Code's \"good faith\" defence (Section 76) and the doctrine of \"official immunity\" in tort law further protected officials. A student who cites only the IPC's self-defence provisions (Sections 96-106) fails to grasp the procedural bar (Section 197 CrPC) that made accountability virtually impossible.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the jurisdiction and composition of the Supreme Courts (established 1774 in Calcutta, 1800 in Madras, 1823 in Bombay) with the High Courts created under the Indian High Courts Act, 1861. What does this shift reveal about the changing nature of colonial legal authority?",
+     "a": "Supreme Courts were Crown courts applying English law, staffed by British barristers, with jurisdiction only over British subjects and limited native matters in presidency towns. High Courts merged the Supreme Courts and the Company's Sadar Diwani/Sadar Nizamat Adalats, extended jurisdiction to the whole territory (except princely states), applied a mix of English law and codified Indian statutes, and eventually included Indian judges. This shift reveals the transition from a dual, racially segmented legal system to a unified, territory-wide judiciary that still privileged European litigants but incorporated Indians into the lower rungs of the bench.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Indian Penal Code (1860) was a progressive measure because it replaced arbitrary indigenous punishments with a uniform, written legal code.\"",
+     "a": "The claim is partially true but misleading. The IPC did bring uniformity, clarity, and the principle of nullum crimen sine lege (no crime without law), which were progressive in form. However, its content reflected colonial priorities: it criminalised dissent (sedition Section 124A), targeted marginalised groups (Criminal Tribes Act operated alongside it), and retained the death penalty for a wide range of offences. Moreover, it was imposed without Indian consent and applied discriminatorily (e.g., European British subjects tried by juries of their peers, Indians by mixed or non-jury courts). A student who calls it wholly progressive ignores the instrumentality of law for colonial domination.",
+     "self_check": true
+    },
+    {
+     "q": "Design a schematic diagram showing the three pillars of colonial district administration (ICS, Police, Judiciary) and their formal reporting lines in 1920. Then add one informal/extra-legal connection that made the system more repressive than the chart suggests.",
+     "a": "Formal lines: District Collector (ICS) → Commissioner → Lieutenant Governor/Governor → Viceroy; District Superintendent of Police → Inspector General of Police → Home Department; District Judge → High Court → Federal Court (after 1937) → Privy Council. Informal connection: The Collector often acted as District Magistrate, directing the police (who were nominally under the SP) and influencing judicial outcomes through revenue courts and magisterial powers — a concentration of executive, police, and judicial authority in one European officer that violated separation of powers. A poor diagram shows only formal hierarchy and misses the personal union of collector-magistrate roles.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The colonial ______ refers to the bureaucratic, policing, and judicial machinery established by the British to govern India, centred on the Indian Civil Service (ICS) as the elite executive cadre, a militarised police force for internal control, and a codified legal-judicial system that replaced indigenous dispute-resolution mechanisms with uniform, written laws administered by a hierarchical court structure.",
+     "a": "administration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a district collector in 1920s India: you hold executive, magisterial, and revenue powers ______, your police superintendent reports to you, and the district judge applies the same Indian Penal Code drafted in London.",
+     "a": "simultaneously",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a district collector in ______s India: you hold executive, magisterial, and revenue powers simultaneously, your police superintendent reports to you, and the district judge applies the same Indian Penal Code drafted in London.",
+     "a": "1920",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how the ICS, police, and legal-judicial system functioned as interlocking instruments of colonial extraction and social control, and can contrast their design with pre-colonial governance and post-independence reforms.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

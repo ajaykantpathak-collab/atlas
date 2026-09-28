@@ -34,6 +34,31 @@
      "q": "Design a conceptual experiment to test whether a newly isolated cell population from human liver tissue qualifies as a \"stem cell\" according to the NCERT definition. Specify: (i) the two assays you would perform, (ii) the expected outcome for a true stem cell, and (iii) one control needed for each assay.",
      "a": "**Assay 1: Self-renewal (Clonogenic assay)**\n- **Method:** Plate single cells at low density in defined medium; observe colony formation over 2–3 weeks.\n- **Expected for stem cell:** Colonies arise from single cells; cells within colonies remain undifferentiated (express stemness markers like OCT4, SOX2 if pluripotent; or LGR5, SOX9 if adult); **serial replating** yields secondary/tertiary colonies.\n- **Control:** A known differentiated hepatocyte population — should not form colonies or should senesce after 1–2 passages.\n\n**Assay 2: Potency (Differentiation assay)**\n- **Method:** Induce differentiation in vitro (e.g., hepatocyte maturation media) and/or transplant into immunodeficient mouse liver (in vivo).\n- **Expected for stem cell:** Generates **multiple liver lineages** — hepatocytes (albumin+, CYP450+) AND cholangiocytes (CK19+) — demonstrating multipotency within the hepatic lineage. If only hepatocytes form, it may be a unipotent progenitor.\n- **Control:** A known hepatic progenitor cell line (if available) or freshly isolated hepatocytes — should show restricted/unipotent differentiation.\n\n**Key insight:** Both assays must be positive. A cell that self-renews but doesn't differentiate is a tumor cell; a cell that differentiates but doesn't self-renew is a progenitor.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stem cells are ______, undifferentiated cells found in multicellular organisms that possess two defining properties: (1) self-renewal — the ability to undergo repeated mitotic divisions while maintaining an undifferentiated state and stable karyotype, and (2) potency — the capacity to differentiate into specialized cell types of one or more lineages, ranging from totipotent (all cell types including extra-embryonic) to unipotent (single lineage).",
+     "a": "unspecialized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you cut your finger — ______ days, the skin repairs itself.",
+     "a": "within",
+     "self_check": true
+    },
+    {
+     "q": "What is Stem cells? State the definition given in this lesson.",
+     "a": "Stem cells are unspecialized, undifferentiated cells found in multicellular organisms that possess two defining properties: (1) self-renewal — the ability to undergo repeated mitotic divisions while maintaining an undifferentiated state and stable karyotype, and (2) potency — the capacity to differentiate into specialized cell types of.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Stem cells?",
+     "a": "Misconception: \"Pluripotent stem cells can form a complete organism because they can make all cell types of the body.\" Why it's wrong: Pluripotent cells (ESCs, iPSCs, ICM cells) can generate all three germ layers and all embryonic tissues, but they cannot form extra-embryonic tissues (placenta, yolk sac, chorion).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (a) distinguish stem cells from progenitor and differentiated cells using the dual criteria of self-renewal and potency, (b) classify a given stem cell example as totipotent, pluripotent, multipotent, or unipotent with justification, and (c) explain why embryonic stem cells are pluripotent while adult stem cells are.",
+     "self_check": true
     }
    ]
   }

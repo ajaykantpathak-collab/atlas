@@ -20,7 +20,7 @@
     "Which metal is a liquid at room temperature?",
     "Explain why copper is used for electrical wiring."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,16 @@
      "action": "Classify as metal or non-metal",
      "explain": "If the substance shows lustre, malleability, ductility, and conductivity, classify it as a metal; exceptions like mercury (liquid) must be noted."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "Conductivity = 1 / Resistance",
+     "compute": "Conductivity = 1 / Resistance"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.3.2.1",
@@ -146,7 +155,7 @@
    "title": "Properties of Ionic Compounds",
    "section": "3.3.1",
    "definition": "Compounds formed by the electrostatic attraction between oppositely charged ions created through electron transfer.",
-   "formula": "Force = k * (q1 * q2) / r**2",
+   "formula": "Force = k * (q_1 * q_2) / r**2",
    "key_idea": "Ionic compounds have indeed high melting points and conduct electricity when molten or dissolved.",
    "textbook_ref": "jesc103.txt lines 315-355",
    "question_patterns": [
@@ -156,7 +165,7 @@
     "Why don't ionic solids conduct electricity?",
     "short note on properties of ionic compounds"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -173,7 +182,16 @@
      "action": "Assess conductivity in different states",
      "explain": "Ionic solids do not conduct because ions are fixed, but in molten or aqueous state the ions are free to move and carry current."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "Force = k * (q_1 * q_2) / r**2",
+     "compute": "Force = k * (q_1 * q_2) / r**2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.3.4.4",
@@ -278,7 +296,16 @@
      "explain": "Subtract the purity percentage from 100 to find the percentage of other metals in the alloy.",
      "compute": "impurity_percent = 100 - purity_percent"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "purity_percent = (carat / 24) * 100",
+     "compute": "purity_percent = (carat / 24) * 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.3.5.2",
@@ -295,7 +322,7 @@
     "Why is pure iron not used for construction?",
     "Name the components of brass and bronze."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -312,7 +339,16 @@
      "action": "Relate composition to enhanced properties",
      "explain": "The added elements alter hardness, corrosion resistance, or other properties of the base metal, making the alloy suitable for specific applications."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "Alloy = Base_Metal + Solute_Elements",
+     "compute": "Alloy = Base_Metal + Solute_Elements"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

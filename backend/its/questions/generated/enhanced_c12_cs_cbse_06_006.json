@@ -34,6 +34,31 @@
      "q": "Design a minimal Python function `safe_search(conn, keyword)` that returns all rows from a `books` table where `title` contains the keyword (case-insensitive partial match). Use parameterized queries. The keyword comes from an untrusted web request. Show the exact `execute()` call.",
      "a": "```python\ndef safe_search(conn, keyword):\n    cursor = conn.cursor()\n    # % wildcards are part of the DATA, not the query structure\n    pattern = f\"%{keyword}%\"   # safe: pattern is built in Python, not in SQL\n    query = \"SELECT * FROM books WHERE LOWER(title) LIKE LOWER(%s)\"\n    cursor.execute(query, (pattern,))\n    return cursor.fetchall()\n```\nKey points: (1) Wildcards `%` are added in Python to the **value**, not in the SQL string. (2) The placeholder `%s` appears **without quotes** in the query. (3) `LOWER()` on both sides ensures case-insensitive match in MySQL (which is case-insensitive by default for default collation, but explicit is clearer). A poor answer puts `%` inside the query string (`LIKE '%%%s%%'`) or uses string concatenation for the pattern — both break parameterization.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Parameterized queries (prepared statements) are SQL statements that use placeholders (e.g., %s in mysql.connector) for user-supplied values, separating the query structure from data so the database engine treats input strictly as data — never as executable code — thereby eliminating SQL injection ______.",
+     "a": "vulnerabilities",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a login form where a student enters admin' -- as ______ and any password.",
+     "a": "username",
+     "self_check": true
+    },
+    {
+     "q": "What is Parameterized queries (prepared statements)? State the definition given in this lesson.",
+     "a": "Parameterized queries (prepared statements) are SQL statements that use placeholders (e.g., %s in mysql.connector) for user-supplied values, separating the query structure from data so the database engine treats input strictly as data — never as executable code — thereby eliminating SQL injection vulnerabilities.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Parameterized queries (prepared statements)?",
+     "a": "Misconception: \"Using %s in an f-string like f\\\"SELECT * FROM t WHERE c = %s\\\" % (val,) is a parameterized query.\" Why it's wrong: This is string formatting, not parameterization.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can rewrite a vulnerable string-concatenated SQL statement into a secure parameterized query using cursor.execute(query, params), explain why the parameterized version prevents injection, and identify the exact placeholder syntax (%s) required by mysql.connector regardless of data type.",
+     "self_check": true
     }
    ]
   }

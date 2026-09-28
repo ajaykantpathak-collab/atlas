@@ -34,6 +34,31 @@
      "q": "Design a transformation experiment to clone a 12 kb genomic fragment into a high-copy plasmid for protein expression. Specify: host strain, competence method, vector features, selection/screening strategy, and how you would verify insert orientation.",
      "a": "Host: *E. coli* DH10B (recombination-deficient, good for large inserts). Competence: electroporation (high efficiency for 12 kb). Vector: pUC-based with T7 promoter, ampicillin resistance, *lacZα* MCS. Selection: ampicillin; screening: blue-white on X-gal/IPTG. Orientation check: restriction digest with asymmetric enzymes flanking MCS, or colony PCR with one vector-specific and one insert-specific primer. A poor answer uses CaCl₂ for 12 kb (low efficiency), omits recombination-deficient host (insert instability), or suggests only sequencing for orientation (too slow for initial screening).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A competent host is a bacterial cell (typically *E. coli*) that has been chemically or physically treated to become permeable to exogenous DNA, enabling the uptake of recombinant plasmids during ______.",
+     "a": "transformation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have successfully ligated your gene of interest into a plasmid vector in a test tube — but the ______ DNA is useless unless it gets inside a living cell that can replicate it.",
+     "a": "recombinant",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then a brief ______°C heat shock creates a thermal imbalance that drives DNA through these pores.",
+     "a": "42",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the stepwise mechanism of CaCl₂-mediated competence development and heat shock transformation, distinguish between selection and screening strategies for recombinants, and predict the outcome of a transformation experiment given specific vector-host-marker combinations.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have ______ ligated your gene of interest into a plasmid vector in a test tube — but the recombinant DNA is useless unless it gets inside a living cell that can replicate it.",
+     "a": "successfully",
+     "self_check": true
     }
    ]
   }

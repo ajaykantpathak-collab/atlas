@@ -34,6 +34,31 @@
      "q": "Design a thought experiment to measure the half-life of a short-lived radioactive isotope (half-life ~ 1 minute) using a Geiger-Müller counter. List the key measurements, the graph you would plot, and how you would extract T₁/₂ from the graph.",
      "a": "Measure count rate R (corrected for background) at regular time intervals (e.g., every 10 s) for ~5 minutes. Plot ln(R) vs t. The graph should be a straight line with slope = -λ. Half-life T₁/₂ = ln2 / |slope|. Alternatively, plot R vs t on semi-log paper; the time for R to drop to half its initial value directly gives T₁/₂. A poor answer (e.g., \"measure time until counter reads zero\") shows the student thinks decay completes in finite time or doesn't know how to handle background radiation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The law of radioactive decay states that the rate of ______ of a radioactive sample at any instant is directly proportional to the number of undecayed nuclei present at that instant.",
+     "a": "disintegration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a glowing radium-dial watch in a dark room: its brightness ______ gradually but never reaches zero in a finite time.",
+     "a": "decreases",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Half-life (T₁/₂) is the time required for half the radioactive nuclei to decay: T₁/₂ = ln______/λ.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can derive the exponential decay law from the differential equation dN/dt = -λN, calculate half-life and mean life from a given decay constant or activity-time data, and solve problems involving fraction remaining, time elapsed, and activity after multiple half-lives using both the exponential formula and the half-life method (N.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a glowing radium-dial watch in a dark room: its ______ decreases gradually but never reaches zero in a finite time.",
+     "a": "brightness",
+     "self_check": true
     }
    ]
   }

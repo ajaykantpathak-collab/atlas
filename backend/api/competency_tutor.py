@@ -8,6 +8,7 @@ database stack.
 """
 from __future__ import annotations
 
+import asyncio
 import logging
 import os
 import re
@@ -24,6 +25,7 @@ from backend.its.solver.misconception_catalog import MisconceptionCatalog
 from backend.its.solver.id_resolution import resolve_concept_id, resolve_node_id
 from backend.security import decode_access_token
 from backend.services import simple_explainer as _explainer
+from database import get_db
 
 try:  # Tier 1/2 teaching modules — fail-open to today's behavior
     from backend.its.tutoring.worked_example_fading import (
@@ -224,6 +226,14 @@ def _attach_submit_voice(out: dict, student_id: str, answer: str,
     return out
 
 
+# discussion payloads are deterministic per concept (seed = concept id),
+# but building one ran a full enhanced-nodes haystack search per serve;
+# memoise by concept id (None = no usable misconception, also cached).
+_DISC_CACHE: dict = {}
+_DISC_MISS = object()
+_disc_lock = threading.Lock()
+
+
 def _attach_discussion(out: dict, eng: TutorEngine) -> dict:
     """Optional coach-vs-skeptic warm-up debate on the served concept
     (backend/its/tutoring/discussion_moments.py, "Addition 3").
@@ -240,7 +250,13 @@ def _attach_discussion(out: dict, eng: TutorEngine) -> dict:
             build_discussion_object, common_misconception_section)
         concept = eng.concepts.get(str(out.get("concept_id") or ""))
         title = str(out.get("concept_title") or "").strip()
+        ckey = str(out.get("concept_id") or "")
         if concept is None or not title:
+            return out
+        cached = _DISC_CACHE.get(ckey, _DISC_MISS)
+        if cached is not _DISC_MISS:
+            if cached:
+                out["discussion"] = cached
             return out
         from backend.services.enhanced_nodes import load_index
         index = load_index()
@@ -259,6 +275,8 @@ def _attach_discussion(out: dict, eng: TutorEngine) -> dict:
             },
             seed=str(out.get("concept_id") or ""),
         )
+        with _disc_lock:
+            _DISC_CACHE[ckey] = discussion or None
         if discussion:
             out["discussion"] = discussion
     except Exception:
@@ -332,9 +350,11 @@ async def serve(
     credentials: Optional[HTTPAuthorizationCredentials] = Depends(_bearer),
 ):
     sid = _bound_student_id(student_id, credentials)
+    _t0 = time.perf_counter()
     eng = _get_engine()
     out = eng.serve(sid, subject, class_level,
                     request_self_check=self_check)
+    _t_eng = time.perf_counter()
     if out is None:
         raise HTTPException(404, "no concepts available")
     # ── Tier 1: worked-example fading view (fail-open) ──
@@ -370,21 +390,38 @@ async def serve(
                              "prompt": view.prompt}
     except Exception:
         pass
+    _t_fade = time.perf_counter()
+    out = _attach_serve_voice(_attach_discussion(out, eng), sid)
+    _t_end = time.perf_counter()
+    eng_ms = (_t_eng - _t0) * 1000
+    fade_ms = (_t_fade - _t_eng) * 1000
+    attach_ms = (_t_end - _t_fade) * 1000
+    if eng_ms > 500 or fade_ms > 500 or attach_ms > 500:
+        # warning-level: gunicorn's default root level drops INFO
+        logger.warning("serve slow: eng=%.0fms fade=%.0fms attach=%.0fms sid=%s",
+                    eng_ms, fade_ms, attach_ms, sid)
     _LAST_SERVE[sid] = time.time()
-    return _attach_serve_voice(_attach_discussion(out, eng), sid)
+    return out
 
 
 @router.post("/submit")
 async def submit(
     body: SubmitBody,
     credentials: Optional[HTTPAuthorizationCredentials] = Depends(_bearer),
+    db=Depends(get_db),
 ):
     sid = _bound_student_id(body.student_id, credentials)
     eng = _get_engine()
     with _lock:
         out = eng.submit(sid, body.question_id, body.answer)
     if "error" in out:
-        raise HTTPException(404, out["error"])
+        # Corpus fallback — questions served by
+        # /api/content/nodes/{id}/questions are BoardQuestion rows, not
+        # engine pool items. Resolve + grade them here so the learn
+        # quiz flow works end-to-end on one submit endpoint.
+        out = await _submit_corpus(db, body.question_id, body.answer)
+        if out is None:
+            raise HTTPException(404, "unknown question_id")
     cid = re.split(r"::|#", str(body.question_id))[0]
     concept = eng.concepts.get(cid)
     title = concept.title if concept is not None else ""
@@ -416,6 +453,135 @@ async def submit(
             out["teach_task"] = {"kind": task.kind, "prompt": task.prompt,
                                  "rubric": task.rubric}
     return _attach_submit_voice(out, sid, body.answer, title)
+
+
+async def _submit_corpus(db, question_id: str, answer: str) -> Optional[dict]:
+    """Grade a submission against a BoardQuestion row (corpus questions
+    served by /api/content/nodes/{id}/questions). Returns a submit-shaped
+    payload, or None when the id isn't a BoardQuestion UUID."""
+    import uuid as _uuid
+    try:
+        qid = _uuid.UUID(str(question_id))
+    except (ValueError, AttributeError, TypeError):
+        return None
+    from sqlalchemy import select as _sel
+    from backend.models.enrichment import BoardQuestion
+    q = (await db.execute(
+        _sel(BoardQuestion).where(BoardQuestion.id == qid))).scalar_one_or_none()
+    if q is None:
+        return None
+    # Light deterministic match first (number/normalized text), then the
+    # LLM rubric grader for prose — same pipeline as /api/practice/submit.
+    correct = False
+    marks_awarded = None
+    feedback = None
+    try:
+        import re as _re
+        def _norm(s: str) -> str:
+            return " ".join(_re.sub(r"[^a-z0-9. ]", " ", (s or "").lower()).split())
+        sa, ca = _norm(answer), _norm(str(q.correct_answer or ""))
+        if sa and ca:
+            nums = _re.findall(r"-?\d+\.?\d*", sa)
+            cnums = _re.findall(r"-?\d+\.?\d*", ca)
+            correct = (sa in ca or ca in sa or
+                       (bool(nums) and bool(cnums) and nums == cnums[:len(nums)]))
+    except Exception:
+        pass
+    if not correct:
+        try:
+            from services.llm_grader import LLMGrader
+            scheme = q.marking_scheme or ""
+            rubric = [
+                {"id": f"c{i+1}", "text": line.strip()}
+                for i, line in enumerate(str(scheme).split("\n"))
+                if line.strip() and len(line.strip()) > 10
+            ][:6] or None
+            result = await LLMGrader.grade(
+                student_answer=answer or "",
+                model_answer=str(q.correct_answer or q.model_answer or ""),
+                rubric=rubric,
+                max_marks=int(q.marks or 3),
+            )
+            marks_awarded = result.marks_awarded
+            correct = result.marks_awarded >= max(1, result.max_marks // 2)
+        except Exception:
+            pass
+    # LLM offline (no Ollama in deploy): embedding cosine catches correct
+    # paraphrases — exact-match-only grading marked them incorrect (B23).
+    # Cosine alone is NOT proof of correctness for short answers: an
+    # unrelated sentence ("Photosynthesis is how plants make glucose...")
+    # scores ~0.69 against a long model answer and plain garbage ~0.70,
+    # so anything passed at the old bare-0.62 gate. Require a real
+    # content-word overlap (>= 2 shared words AND >= 25% of the answer's
+    # content words present in the model answer) BEFORE trusting cosine.
+    if not correct and answer and q.correct_answer:
+        try:
+            _STOP = {
+                "that", "this", "with", "from", "have", "they", "will",
+                "been", "their", "which", "would", "there", "could",
+                "same", "like", "when", "then", "than", "into", "only",
+                "also", "because", "about", "them", "your", "each",
+            }
+
+            def _content_words(s: str) -> set:
+                return {w for w in re.findall(r"[a-z]+", str(s).lower())
+                        if len(w) > 3 and w not in _STOP}
+
+            aw = _content_words(answer)
+            cw = _content_words(str(q.correct_answer))
+            shared = aw & cw
+            overlap_ok = (len(shared) >= 2
+                          and len(shared) >= 0.25 * max(len(aw), 1))
+            if overlap_ok:
+                from backend.services.embedding_service import EmbeddingService
+                svc = await EmbeddingService.get_instance()
+                ea, eb = await asyncio.gather(
+                    svc.encode(answer), svc.encode(str(q.correct_answer)))
+                import math
+                dot = sum(x * y for x, y in zip(ea, eb))
+                na = math.sqrt(sum(x * x for x in ea)) or 1.0
+                nb = math.sqrt(sum(x * x for x in eb)) or 1.0
+                sim = dot / (na * nb)
+                if sim >= 0.62:
+                    correct = True
+                    marks_awarded = int(q.marks or 3)
+                    feedback = "Correct — matches the expected concept."
+        except Exception:
+            pass
+    out = {
+        "question_id": str(q.id),
+        "outcome": "correct" if correct else "incorrect",
+        "correct": correct,
+        "marks_awarded": marks_awarded,
+        "feedback": feedback,
+        "correct_answer": q.correct_answer,
+        "model_answer": q.model_answer,
+        "explanation": q.explanation,
+        "title": (q.node_tags or [""])[0],
+        "source": "corpus",
+    }
+    # misconception-targeted remediation: wrong answer -> surface the
+    # node's authored misconception + wrong-answer signals so the student
+    # sees *why* this specific error happens, not just the right answer
+    if not correct:
+        for nid in (q.node_tags or []):
+            try:
+                from backend.services.enhanced_nodes import (
+                    misconception_for_node, sims_for_node)
+                rem = misconception_for_node(nid)
+                sims = sims_for_node(nid)
+            except Exception:
+                rem, sims = None, []
+            if rem:
+                out["remediation"] = {
+                    "node_misconception": rem.get("misconception"),
+                    "wrong_signals": rem.get("wrong_signals"),
+                }
+            if sims:
+                out["sims"] = sims[:3]
+            if rem or sims:
+                break
+    return out
 
 
 def _pool_question(eng: TutorEngine, question_id: str) -> Optional[str]:
@@ -506,11 +672,6 @@ async def progress(
     return _get_engine().progress(sid, subject)
 
 
-class AskBody(BaseModel):
-    student_id: str = "guest"
-    question: str
-
-
 def _teach_response(source: str, answer: str, **extra) -> dict:
     """Uniform teach-style /ask response.
 
@@ -531,21 +692,130 @@ def _teach_response(source: str, answer: str, **extra) -> dict:
     return out
 
 
-def _teach_lane(question: str) -> Optional[dict]:
+#: Domain-neutral question-scaffold words.  They never indicate subject,
+#: so they must not become the anchor term ("explain acid vs base" would
+#: otherwise anchor on 'explain' and refuse the right explainer entry).
+#: Extended (GRADE-MAP P1): the generic phrasing of student doubts
+#: ("what is the simplest way to understand X", "give me one exam-style
+#: question on this topic") must never drive the corpus search -- those
+#: words scored the c12 "Writing Skills" / c11 trigonometry nodes and
+#: misrouted Class 6 doubts across class AND subject.
+_SCAFFOLD_TERMS = frozenset("""
+explain explained explains explaining difference differences different
+differentiate between meaning mean means define defined definition
+concept concepts example examples important importance describe
+described description comparison compare compared versus
+simple simplest easy easiest easily best way ways topic topics
+exam exams examination style styles question questions
+understand understands understanding explanation
+""".split())
+
+
+#: Distinctive subject markers for the anchoring gate.  A question that
+#: carries one subject's vocabulary must never be answered by authored
+#: content of a DISJOINT subject: "psychosis vs neurosis" (psychology)
+#: must not reach an Accountancy BRS entry, and a cash-book/passbook
+#: question must not reach Psychology.  Kept deliberately tight -- every
+#: marker is unambiguous subject vocabulary (no "conditioning", no
+#: "credit" style cross-domain words).
+_SUBJECT_MARKERS = {
+    "psychology": (
+        "psychology", "psychologist", "psychiatry", "psychiatric",
+        "neurosis", "neurotic", "psychosis", "psychotic",
+        "psychoanalysis", "psychoanalytic", "behaviourism", "behaviorism",
+        "gestalt", "hallucination", "delusion", "phobia", "phobic",
+        "cognition", "cognitive", "psychometric",
+    ),
+    "accountancy": (
+        "accountancy", "bookkeeping", "journalise", "journalising",
+        "journalize", "journalizing", "passbook", "cashbook", "cash book",
+        "ledger", "trial balance", "bank reconciliation", "brs",
+        "bills payable", "bills receivable", "bill payable",
+        "bill receivable", "double entry", "compensating error",
+        "trade payables", "trade receivables",
+    ),
+}
+
+#: Corpus subject codes (enhanced-nodes filenames) mapped to the same
+#: marker tags, so the enhanced-nodes lane can gate on the node's OWN
+#: metadata instead of sniffing its text.
+_NODE_SUBJECT_TAGS = {
+    "psy": frozenset({"psychology"}),
+    "acc": frozenset({"accountancy"}),
+}
+
+
+def _subject_marker_hits(text: str) -> frozenset:
+    """Subject tags whose distinctive markers occur in ``text``."""
+    hay = " " + re.sub(r"[^a-z0-9]+", " ", str(text or "").lower()) + " "
+    hits = set()
+    for tag, markers in _SUBJECT_MARKERS.items():
+        for mk in markers:
+            if " " in mk:                       # phrase marker
+                if f" {mk} " in hay:
+                    hits.add(tag)
+                    break
+            elif f" {mk} " in hay or (len(mk) >= 6 and mk in hay):
+                hits.add(tag)
+                break
+    return frozenset(hits)
+
+
+def _subject_anchored(question: str, text: str) -> bool:
+    """Subject-anchoring gate, same principle as the enhanced-nodes lane:
+    the matched authored text must share at least one distinctive
+    content word (>= 6 chars, non-scaffold) with the question, so a pure
+    science keyword can never be answered by a literature entry (and
+    vice versa) on scaffold words alone.  Questions carrying no
+    distinctive term (every content word < 6 chars) stay governed by the
+    lane's own curated matching -- only distinctive-term collisions are
+    gated.
+
+    On top of the term gate, a subject-class gate: when the question
+    carries distinctive markers of one subject (psychology, accountancy)
+    and the matched text carries markers of a DIFFERENT subject only,
+    the match is rejected even if a generic term overlaps ("difference
+    between psychosis and neurosis" must not answer from Accountancy).
+    """
+    terms = [t for t in _explainer.informative_terms(question)
+             if t not in _SCAFFOLD_TERMS and len(t) >= 6]
+    if not terms:
+        return True
+    hay = str(text or "").lower()
+    flat = hay.replace(" ", "")   # 'per cent' vs 'percent' tokenization
+    if not any(t in hay or t.rstrip("s") in hay or t in flat for t in terms):
+        return False
+    q_tags = _subject_marker_hits(question)
+    if q_tags:
+        t_tags = _subject_marker_hits(text)
+        if t_tags and not (q_tags & t_tags):
+            return False
+    return True
+
+
+def _teach_lane(question: str,
+                class_level: Optional[int] = None) -> Optional[dict]:
     """The WHY-lane: authored teaching answers before the solver.
 
     Priority: (1) the simple-explainer table of 40 classic confusions,
     (2) the misconception catalog (detector pattern or question trigger),
     (3) the enhanced-nodes teaching corpus (best-effort full-text search).
     Computational questions never enter this lane -- they belong to the
-    verified solver."""
+    verified solver.  Every authored-text lane is subject-anchored: the
+    question's longest distinctive term must occur in the matched text.
+
+    GRADE-MAP P1: when the asker's class is known, the corpus search is
+    restricted to THAT class.  A Class 6 doubt must never be taught from
+    a Class 11 psychology node ("symmetry") or a Class 10 biology node
+    ("photosynthesis") -- if the class has no matching node the ask
+    honestly falls through to the guided lane instead."""
     # computational questions always fall through to the solver
     if _explainer.looks_computational(question):
         return None
 
     # 1. classic-confusion table (authored in simple_explainer)
     m = _explainer.find_explanation(question)
-    if m is not None:
+    if m is not None and _subject_anchored(question, m["text"]):
         return _teach_response(
             "simple_explainer", m["text"],
             topic_id=m["id"], topic=m["topic"],
@@ -560,6 +830,8 @@ def _teach_lane(question: str) -> Optional[dict]:
                 or (trig and _regex_search(trig, raw))):
             desc = str(entry.get("description") or entry["id"]).rstrip(".")
             rem = str(entry.get("remediation") or "").rstrip()
+            if not _subject_anchored(raw, f"{desc} {rem}"):
+                continue
             answer = f"Common mix-up: {desc}. How to fix it: {rem}"
             return _teach_response("misconception_catalog", answer,
                                    topic_id=entry["id"], topic=desc)
@@ -580,29 +852,176 @@ def _teach_lane(question: str) -> Optional[dict]:
     try:
         from backend.services.enhanced_nodes import load_index
         index = load_index()
-        terms = _explainer.informative_terms(question)
-        hits = index.search(" ".join(terms), limit=3) if terms else []
+        # Scaffold words ("difference", "between", "explain", "simplest",
+        # "exam-style", ...) must neither score the search nor anchor the
+        # match: they occur in nearly every definition, so a
+        # scaffold-anchored hit let "psychosis vs neurosis" teach a
+        # biology/speciation (and earlier an Accountancy BRS) node.  Only
+        # subject-distinctive terms may drive this lane.
+        terms = [t for t in _explainer.informative_terms(question)
+                 if t not in _SCAFFOLD_TERMS]
+        # class gate (GRADE-MAP P1): search the asker's OWN class only --
+        # a global search is what routed Class 6 doubts to Class 10-12
+        # nodes.  No class known -> search stays global but keeps the
+        # anchoring gate below.
+        hits = []
+        if terms:
+            try:
+                hits = index.search(" ".join(terms), limit=3,
+                                    cls=int(class_level))
+            except (TypeError, ValueError):
+                hits = []
     except Exception:
         return None
-    if hits and float(hits[0].get("score") or 0.0) >= 6.0:
+    # Score gate: a focused single-topic ask ("photosynthesis") maxes the
+    # searcher at 4.0 (definition 3 + body 1), so the global lane's 6.0
+    # bar rejected EVERY focused doubt — the real reason ~40% of asks
+    # fell through empty.  Within the asker's OWN class (a curated,
+    # on-grade corpus) a definition hit is strong evidence: 4.0 passes.
+    # Globally (no class known) the strict 6.0 bar stays.
+    score_gate = 4.0 if class_level is not None else 6.0
+    if hits and float(hits[0].get("score") or 0.0) >= score_gate:
         node = index.get(hits[0]["node_id"])
+        # Subject-class gate from the node's OWN metadata: a question
+        # carrying distinctive psychology/accountancy vocabulary is never
+        # taught from a node of a disjoint subject.
+        q_tags = _subject_marker_hits(question)
+        if q_tags:
+            n_tags = _NODE_SUBJECT_TAGS.get(
+                str((node or {}).get("subject") or "").strip().lower(),
+                frozenset())
+            if n_tags and not (q_tags & n_tags):
+                return None
         definition = str((node or {}).get("definition") or "").strip()
         if node is not None and definition:
             # the question's longest distinctive term must appear in the
             # matched node — topical anchoring, not generic-word noise
             # ('photosynthesis' must be IN the matched node's own text)
             longest = max(terms, key=len) if terms else ''
-            if len(longest) < 6 or longest not in definition.lower():
+            # GRADE-MAP P1: inside the asker's own class the anchor floor
+            # drops to 4 (the informative-term floor) so short but exact
+            # curriculum terms anchor too — "What is a noun?" must reach
+            # the Class 6 grammar node.  The global lane keeps >= 6.
+            min_anchor = 4 if class_level is not None else 6
+            if len(longest) < min_anchor \
+                    or longest not in definition.lower():
                 return None
             walkthrough = str(node.get("walkthrough") or "").strip()
             if len(walkthrough) > 900:
                 walkthrough = walkthrough[:900].rstrip() + " ..."
             answer = definition + (("\n\n" + walkthrough)
                                    if walkthrough else "")
-            return _teach_response("enhanced_nodes", answer,
-                                   node_id=node["node_id"],
-                                   topic=definition[:120])
+            return _teach_response(
+                "enhanced_nodes", answer,
+                node_id=node["node_id"],
+                # Doubt→Story bridge: the question resolved to a real
+                # corpus node, so the answer carries its verified Story
+                # Mode deep link (additive field; every other lane --
+                # explainer table, misconception catalog, solver --
+                # resolves no node and stays exactly as it was).
+                story_url=f"/learn/{node['node_id']}/story",
+                topic=definition[:120])
     return None
+
+
+# Deep-lane budget for /ask: the teach lane's corpus search and the
+# solver lanes are synchronous and index-backed (~213MB enhanced-nodes
+# index; cold load can take minutes).  The budget MUST stay under
+# nginx's proxy_read_timeout (120s) so the client always gets a real
+# JSON answer instead of a 502, and the work runs in a thread so the
+# event loop keeps heartbeating (an inline call got the worker
+# SIGKILLed by gunicorn's arbiter mid-request).
+_ASK_BUDGET_S = 75
+_ASK_SOLVE_SLOTS = asyncio.Semaphore(2)
+
+
+def _ask_sync(question: str, class_level: Optional[int] = None) -> dict:
+    """Teach lane first, then the deterministic solver lanes (sync).
+
+    Runs on a worker thread (see /ask) — never inline in the async
+    handler."""
+    teach = _teach_lane(question, class_level)
+    if teach is not None:
+        return teach
+    from backend.its.solver.answer_pipeline import answer as _solve
+    r = _solve(question)
+    # [object Object] guard: socratic here is STUDENT-FACING text.  The
+    # pipeline's structured confirm-data objects (multi_hop / multi_part
+    # / concept guidance dicts) leaked into replies as "[object Object]"
+    # through the renderer's String() coercion -- only genuine strings
+    # may ride through.
+    socratic = getattr(r, "socratic", None)
+    if not isinstance(socratic, str):
+        socratic = None
+    return {
+        "verified": r.label == "VERIFIED",
+        "label": r.label,
+        "answer": r.answer,
+        "steps": [s for s in (r.steps or [])[:8]
+                  if isinstance(s, str)],
+        "refusal_reason": getattr(r, "refusal_reason", None),
+        "socratic": socratic,
+    }
+
+
+def _guided_fallback(refusal_reason: str,
+                     route: Optional[list] = None) -> dict:
+    """The honest guided fallback (GRADE-MAP P1, empty-answer fix).
+
+    ~40% of /ask calls answered non-computational doubts with a bare
+    200 + EMPTY answer field — the child sees nothing.  Every
+    unanswerable ask now returns THIS instead: label GUIDED, an
+    explicit student-facing guided message in ``answer``, and the
+    machine reason in ``refusal_reason``.  Same shape as the
+    budget-fallback path that already existed."""
+    reason = (refusal_reason or "").strip() or (
+        "no verified teaching content matches this question")
+    answer = (
+        "I could not verify an answer for this from your class material, "
+        "so I won't guess one — a wrong shortcut sticks. "
+        f"{reason.rstrip('.')}. "
+        "Try rephrasing it as one concrete question from a chapter you "
+        "are studying, or open the topic in Learn for the full story.")
+    return {
+        "verified": False,
+        "label": "GUIDED",
+        "answer": answer,
+        "steps": [],
+        "refusal_reason": reason,
+        "socratic": None,
+        "route": route or ["ask:guided_fallback"],
+    }
+
+
+def _ensure_honest_answer(result: dict) -> dict:
+    """Post-process a solved /ask payload: guided-tier results (answer
+    None/empty) never leave the endpoint as an empty field — they are
+    normalised into the honest guided fallback (answer text + reason)."""
+    try:
+        if result.get("teach"):
+            return result
+        answer = result.get("answer")
+        if isinstance(answer, str) and answer.strip():
+            return result
+        # non-string answers (defensive) count as empty too
+        route = (result.get("route")
+                 if isinstance(result.get("route"), list)
+                 else []) + ["ask:guided_fallback",
+                             "ask:empty_answer_normalized"]
+        return _guided_fallback(str(result.get("refusal_reason") or ""),
+                                route=route)
+    except Exception:
+        return result
+
+
+class AskBody(BaseModel):
+    student_id: str = "guest"
+    question: str
+    #: the asker's class (the signed-in student's class_level, or the
+    #: class picked on the atlas hero).  When present, the teach lane
+    #: searches ONLY that class's corpus — a Class 6 doubt is never
+    #: taught from a Class 10-12 node (GRADE-MAP P1 misroute fix).
+    class_level: Optional[int] = None
 
 
 @router.post("/ask")
@@ -613,24 +1032,35 @@ async def ask(body: AskBody):
     answer (simple-explainer table, misconception catalog, enhanced-node
     diagnostics) get a teach-style response -- verified content from the
     authored files, labeled "teach": true, never a machine-verified
-    numeric.  Everything else falls through to the deterministic solver
-    lanes, where VERIFIED answers carry steps and GUIDED answers carry
-    the honest refusal."""
+    numeric.  When the asker's class is known (``class_level``), the
+    enhanced-node search is scoped to THAT class, so a Class 6 doubt can
+    no longer be taught from a Class 10-12 node (GRADE-MAP P1).
+    Everything else falls through to the deterministic solver lanes,
+    where VERIFIED answers carry steps and anything unverified leaves as
+    the HONEST GUIDED FALLBACK -- a real student-facing message plus the
+    machine refusal reason -- never a bare 200 with an empty answer
+    field, and never invented content.
+
+    Both lanes are offloaded to a thread with a hard budget: past the
+    budget the endpoint answers with the same honest guided fallback."""
     if not body.question.strip():
         raise HTTPException(400, "empty question")
-    teach = _teach_lane(body.question)
-    if teach is not None:
-        return teach
-    from backend.its.solver.answer_pipeline import answer as _solve
-    r = _solve(body.question)
-    return {
-        "verified": r.label == "VERIFIED",
-        "label": r.label,
-        "answer": r.answer,
-        "steps": (r.steps or [])[:8],
-        "refusal_reason": getattr(r, "refusal_reason", None),
-        "socratic": getattr(r, "socratic", None),
-    }
+
+    async def _solve_with_budget():
+        async with _ASK_SOLVE_SLOTS:
+            return await asyncio.to_thread(_ask_sync, body.question,
+                                           body.class_level)
+
+    try:
+        result = await asyncio.wait_for(_solve_with_budget(),
+                                        timeout=_ASK_BUDGET_S)
+    except asyncio.TimeoutError:
+        return _guided_fallback(
+            "the deep solver did not finish this question within its "
+            f"{_ASK_BUDGET_S}s budget. Try rephrasing it as one "
+            "concrete computation, or use guided practice.",
+            route=["ask:budget_exceeded"])
+    return _ensure_honest_answer(result)
 
 
 @router.get("/path")

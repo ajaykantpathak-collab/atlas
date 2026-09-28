@@ -34,6 +34,31 @@
      "q": "Design a hypothetical binary vector for producing marker-free transgenic tomato expressing a fruit-specific *polygalacturonase* antisense gene. Specify: (a) T-DNA composition (promoter, gene, terminator, borders), (b) selection strategy that avoids antibiotic resistance in the final plant, and (c) *Agrobacterium* strain and *vir* gene enhancements you would use for high efficiency.",
      "a": "(a) T-DNA: LB – *E8* (fruit-ripening promoter) – *polygalacturonase* antisense cDNA – *nos* terminator – RB. (b) Use **CRE/loxP** or **FLP/FRT** site-specific recombination: include *nptII* flanked by loxP sites for kanamycin selection during tissue culture, then cross with a *CRE*-expressing line (or transiently express CRE) to excise *nptII*, leaving only the antisense cassette. (c) Strain **EHA105** (supervirulent, *virG*^c^ on chromosome) + binary vector with **extra *vir* genes** (e.g., *virE*, *virG* on helper plasmid) and **acetosyringone (200 µM)** during co-cultivation. A poor answer omits the excision system (leaving antibiotic marker), uses constitutive promoter (CaMV 35S) for fruit-specific trait, or ignores *vir* enhancements for tomato.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Ti (Tumor-inducing) plasmid is a large, naturally occurring plasmid in *Agrobacterium tumefaciens* that transfers a defined segment of its DNA (T-DNA) into the genome of infected ______ plants, causing crown gall disease; in biotechnology, the T-DNA region is engineered to carry foreign genes, making the disarmed Ti plasmid a premier vector for stable plant transformation.",
+     "a": "dicotyledonous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a plant biotechnologist at ICAR-IARI, New Delhi, tasked with developing a ______-tolerant wheat variety.",
+     "a": "drought",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You have a candidate *DREB______A* gene from *Arabidopsis*.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) draw and label the three functional regions of a wild-type Ti plasmid (T-DNA with left/right borders, virulence region, opine catabolism region) and explain the role of each, and (2) describe the step-by-step molecular mechanism from *Agrobacterium* attachment to T-DNA integration, including how binary vectors overcome.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a plant ______ at ICAR-IARI, New Delhi, tasked with developing a drought-tolerant wheat variety.",
+     "a": "biotechnologist",
+     "self_check": true
     }
    ]
   }

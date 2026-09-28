@@ -34,6 +34,21 @@
      "q": "Design a simple classroom experiment to demonstrate that salivary amylase digests starch but not protein. List materials, procedure, controls, and expected observations.",
      "a": "**Materials:** Test tubes, saliva solution, boiled saliva (control), 1% starch solution, 1% egg albumin (protein), iodine solution, biuret reagent, water bath at 37°C.  \n**Procedure:** (1) Label tubes: A (starch + saliva), B (starch + boiled saliva), C (albumin + saliva), D (albumin + boiled saliva). (2) Incubate 10 min at 37°C. (3) Test A & B with iodine: blue-black → no starch (A) vs blue-black persists (B). (4) Test C & D with biuret: violet → protein present (both).  \n**Expected:** Iodine test negative only in A (starch digested); biuret positive in both C & D (protein undigested).  \nA poor answer (e.g., missing boiled control, using Benedict's test for starch) reveals inability to design controlled experiments and confusion between tests for reducing sugars (Benedict's) vs starch (iodine).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The human digestive system is an organ system comprising the alimentary canal (mouth, oesophagus, stomach, small intestine, large intestine) and associated digestive glands (salivary glands, liver, pancreas) that ______ perform ingestion, mechanical and chemical digestion, absorption of nutrients, and egestion of undigested waste.",
+     "a": "collectively",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine eating a typical Indian lunch: roti (______), dal (protein), and a spoonful of ghee (fat).",
+     "a": "carbohydrate",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can label a diagram of the human digestive system with all organs and associated glands, explain the specific function of each organ/gland in the sequence of digestion, and describe how the structure of the small intestine (villi, microvilli) is adapted for maximum absorption.",
+     "self_check": true
     }
    ]
   }

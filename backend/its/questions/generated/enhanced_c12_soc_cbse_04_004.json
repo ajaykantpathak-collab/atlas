@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_04_004",
+   "title": "c12_soc_cbse_04_004",
+   "questions": [
+    {
+     "q": "Define the Jajmani system in one sentence, specifying the nature of the exchange (what is exchanged, between whom, and on what basis).",
+     "a": "The Jajmani system is a hereditary, caste-based patron-client relationship where service castes (kamins) provide specialised services to landowning patron castes (jajmans) in exchange for fixed, customary payments in kind (primarily grain shares at harvest) rather than market-determined wages. A wrong answer that mentions \"money wages,\" \"free market bargaining,\" or \"voluntary contract\" reveals a fundamental misunderstanding: the student is imposing modern market categories onto a non-market, status-bound institution.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Balutedar system is described as a \"village-level\" institution whereas the Jajmani system operates at the \"patron-family\" level. What difference does this make for the economic security of the service provider?",
+     "a": "In the Balutedar system, each balutedar serves the entire village community and claims a share (balute) from every cultivating household, giving them a diversified income base; in the Jajmani system, a kamin is tied to specific jajman families, making their income vulnerable if a patron family declines or migrates. A wrong answer that claims both are identical or reverses the levels shows the student has not grasped how the unit of reciprocity (village vs. family) shapes risk distribution — a core sociological distinction.",
+     "self_check": true
+    },
+    {
+     "q": "A Chamar (leatherworker) family in a Jajmani arrangement receives 5 maunds of wheat per year from their Thakur patron. Due to drought, the harvest falls by 40%. The Thakur reduces the payment to 3 maunds. The Chamar demands the customary 5 maunds, citing \"traditional right.\" Using the concept of *customary fixation*, explain why the Chamar's demand is sociologically grounded but economically precarious.",
+     "a": "The demand is sociologically grounded because Jajmani payments are *customary* (fixed by tradition, not market supply-demand) and tied to the kamin's hereditary right (watan); they do not fluctuate with annual yield. It is economically precarious because the jajman controls the land and surplus — if the patron refuses or cannot pay, the kamin has no legal contract or alternative market to enforce the claim. A wrong answer that treats this as a \"breach of contract\" or \"wage dispute\" misses the non-legal, status-enforced nature of the obligation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Nakarattar (Chettiar) banking network (described in the textbook) with the Jajmani system. Both are caste-based, but one facilitates long-distance capital flow while the other binds labour to land. Identify the structural feature that enables the Nakarattars to operate across regions while Jajmani remains village-bound.",
+     "a": "The Nakarattars used caste-defined *credit instruments* (hundi) and *communal reserve deposits* that created trust across distance, turning caste into a trans-local financial infrastructure. Jajmani lacks such instruments; its reciprocity is embedded in face-to-face, land-tied service exchange. A wrong answer that says \"Nakarattars were merchants, Jajmani was for farmers\" describes occupational difference but fails to identify the *institutional mechanism* (caste-based credit institutions vs. caste-based service obligations) that scales one system and localises the other.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The Jajmani system was a harmonious, mutually beneficial arrangement that guaranteed economic security for all castes.\" Use the concepts of *power asymmetry* and *ritual pollution* to structure your evaluation.",
+     "a": "The statement is a functionalist oversimplification. While Jajmani provided *subsistence security* for kamins, it institutionalised *power asymmetry*: jajmans controlled land, credit, and adjudication of disputes; kamins had no exit option due to hereditary bondage and ritual pollution barriers (e.g., Chamars handling dead cattle). The \"harmony\" was maintained by coercion and ideology (dharma), not consent. A wrong answer that accepts the statement uncritically ignores the conflict perspective (Marxist/Dalit sociology) that reveals exploitation masked as reciprocity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a fictional but sociologically plausible case study of a Balutedar village in 1850s Maharashtra where the introduction of a colonial revenue settlement (Ryotwari) disrupts the balute system. Specify: (a) which balutedar is most affected, (b) the mechanism of disruption, and (c) the likely outcome for that caste's hereditary occupation.",
+     "a": "(a) The *Mahar* (village watchman/scavenger) is most affected because their balute share was traditionally paid from the *village's collective harvest* managed by the headman (patil). (b) Ryotwari made individual cultivators (ryots) directly liable to the state, bypassing the patil and dissolving the collective village revenue pool from which balute was drawn. (c) The Mahar loses guaranteed income, forcing them into wage labour or migration, beginning the erosion of hereditary occupation — a trajectory documented in Ambedkar's early work. A poor answer invents a generic \"modernisation\" story without linking the specific colonial policy (individual land settlement) to the specific institutional channel (village-level collective payment).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Jajmani system is a traditional caste-based economic arrangement in rural India where service castes (kamins) provide hereditary, specialised services (e.g., ______, pottery, leatherwork, priesthood) to landowning patron castes (jajmans) in exchange for fixed, customary payments in kind (grains, produce) or land rights, creating a reciprocal, non-market exchange embedded in caste hierarchy.",
+     "a": "blacksmithing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ in 18th-century Uttar Pradesh where a Brahmin landowner needs his plough repaired, his grain ground, and his rituals performed — but no money changes hands.",
+     "a": "village",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a village in ______th-century Uttar Pradesh where a Brahmin landowner needs his plough repaired, his grain ground, and his rituals performed — but no money changes hands.",
+     "a": "18",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish the Jajmani and Balutedar systems from market exchange by explaining how caste obligation, hereditary ties, and payment in kind replace price mechanisms, and (2) evaluate how these systems reinforced caste hierarchy while providing economic security, using specific examples of service castes and patron.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a village in 18th-century Uttar Pradesh where a Brahmin ______ needs his plough repaired, his grain ground, and his rituals performed — but no money changes hands.",
+     "a": "landowner",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

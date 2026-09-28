@@ -34,6 +34,26 @@
      "q": "Create a real-world problem for a Class 8 student that requires using a Pythagorean triple other than (3, 4, 5) to find an unknown side length. Provide the problem statement and the solution steps.",
      "a": "Example problem: \"A ladder 13 m long is placed against a wall. The foot of the ladder is 5 m away from the wall. How high up the wall does the ladder reach?\" Solution: Recognize (5, 12, 13) is a Pythagorean triple. The ladder is hypotenuse (13 m), distance from wall is one leg (5 m). The height is the other leg = 12 m. A poor answer uses a trivial (3,4,5) problem, or creates a problem that doesn't actually require a triple (e.g., gives two legs and asks for hypotenuse with non-integer result), showing lack of understanding of integer triples' utility.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ triple is a set of three positive integers (a, b, c) that satisfy the Baudhayana-Pythagoras theorem: a² + b² = c², where c is the largest number (hypotenuse) and a, b are the two smaller numbers (legs).",
+     "a": "Pythagorean",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping a mason build a ______ room corner in a house in Jaipur.",
+     "a": "rectangular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: First, identify the longest beam (______ m) as the hypotenuse.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify whether a given set of three positive integers forms a Pythagorean triple by verifying a² + b² = c², generate new triples by scaling known triples, and apply triples to solve real-world right-triangle problems without decimal approximations.",
+     "self_check": true
     }
    ]
   }

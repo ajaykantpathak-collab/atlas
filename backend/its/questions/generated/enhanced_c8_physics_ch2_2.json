@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using only a battery, a switch, a long straight wire, a cardboard sheet, iron filings, and a compass to demonstrate that the magnetic field around a straight current-carrying conductor forms concentric circles. Describe the steps and what you would observe.",
      "a": "**Expected answer:**\n1. Make a circuit with battery, switch, and wire passing vertically through a hole in the cardboard.\n2. Sprinkle iron filings uniformly on the cardboard.\n3. Close the switch to pass current; gently tap the cardboard.\n4. Observe: Iron filings align in concentric circles centred on the wire.\n5. Place compass at different points on a circle; note needle points tangentially to the circle.\n6. Reverse current; observe compass needles reverse direction.\nA poor answer (e.g., \"sprinkle filings and see circles\" without circuit details or compass verification) reveals the student cannot design a controlled experiment to isolate the magnetic field pattern and verify direction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The magnetic field around a current-carrying conductor is the region in space ______ the conductor where a magnetic force can be detected on a magnetic material or another current-carrying conductor.",
+     "a": "surrounding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan motor: when ______ on, the wires inside carry current and create magnetism that makes the fan rotate.",
+     "a": "switched",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can draw the correct magnetic field line pattern (concentric circles) around a straight current-carrying conductor, apply the right-hand thumb rule to find the field direction at any point, and explain how the field strength changes with distance from the wire and with the magnitude of current.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan motor: when switched on, the wires inside carry current and create ______ that makes the fan rotate.",
+     "a": "magnetism",
+     "self_check": true
     }
    ]
   }

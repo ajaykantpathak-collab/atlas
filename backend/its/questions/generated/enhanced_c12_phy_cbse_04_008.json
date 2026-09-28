@@ -34,6 +34,21 @@
      "q": "Design a simple laboratory experiment using a current balance to verify that the force between two parallel currents is proportional to the product of the currents. Specify the measurements you would take, the graph you would plot, and how you would extract the proportionality constant.",
      "a": "Use a current balance with two parallel conductors: one fixed, one movable on a balance arm. Keep separation \\(d\\) constant. Vary \\(I_1\\) and \\(I_2\\) independently (e.g., using two power supplies). For each pair \\((I_1, I_2)\\), measure the force \\(F\\) (via mass added to balance) on a known length \\(L\\). Compute force per unit length \\(f = F/L\\). Plot \\(f\\) versus \\(I_1 I_2\\). The graph should be a straight line through origin. Slope = \\(\\frac{\\mu_0}{2\\pi d}\\). From slope and known \\(d\\), calculate \\(\\mu_0\\). A poor answer would omit independent variation of both currents, forget to keep \\(d\\) constant, or plot \\(f\\) vs \\(I\\) only, missing the product relationship.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The force between two parallel current-carrying ______ is the magnetic force per unit length that each conductor exerts on the other due to their magnetic fields.",
+     "a": "conductors",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe two ______ power lines on a street pole: when heavy current flows, they sometimes vibrate or move slightly toward each other.",
+     "a": "parallel",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) calculate the magnitude and direction of the force per unit length between two parallel currents given their magnitudes, directions, and separation, (2) derive the expression starting from the magnetic field of a straight wire and the Lorentz force on a current element, and (3) explain how this force is used to define.",
+     "self_check": true
     }
    ]
   }

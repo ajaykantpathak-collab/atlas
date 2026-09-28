@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_09_001",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_09_001",
+   "title": "c12_leg_cbse_09_001",
+   "questions": [
+    {
+     "q": "State the Latin maxim that encapsulates the relationship between actus reus and mens rea, and translate it literally.",
+     "a": "The maxim is *actus non facit reum nisi mens sit rea* — \"an act does not make a person guilty unless the mind is also guilty.\" A wrong answer (e.g., quoting *ignorantia juris non excusat* or mis-translating 'reum' as 'act') reveals the student has memorised phrases without understanding the core principle that BOTH physical and mental elements must coexist for criminal liability.",
+     "self_check": true
+    },
+    {
+     "q": "A doctor administers a painkiller to a terminally ill patient, knowing it may hasten death but intending only to relieve pain. The patient dies. Explain whether the doctor has committed the actus reus and mens rea of murder.",
+     "a": "Actus reus: YES — a voluntary act (administering drug) causing death. Mens rea for murder: NO — the doctor lacks intention to kill (direct or oblique); the intention is to relieve pain. This is the doctrine of double effect. A wrong answer claiming \"mens rea exists because death was foreseen\" confuses *foresight* with *intention* — a classic error where students equate knowledge of consequences with criminal intent.",
+     "self_check": true
+    },
+    {
+     "q": "Riya buys a knife and writes a diary entry: \"I will kill Anjali tomorrow.\" She keeps the knife in her bag but is arrested before meeting Anjali. At which stage of crime is Riya? Is she criminally liable? Justify.",
+     "a": "Riya is at the **preparation stage** — she has arranged means (knife) but not taken a direct step toward execution. Preparation is generally NOT punishable unless the offence falls under specific exceptions (e.g., waging war, counterfeiting, dacoity preparation under Sections 122, 233-235, 399 IPC). Since murder preparation is not an exception, Riya is NOT criminally liable. A wrong answer saying \"attempt\" reveals confusion between preparation (arranging means) and attempt (direct movement toward commission after preparation is complete).",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: (a) Strict liability under Rylands v. Fletcher, and (b) Absolute liability under M.C. Mehta v. Union of India. Identify THREE doctrinal differences with legal reasoning.",
+     "a": "1. **Entity**: Strict liability applies to *persons* (natural/juristic); absolute liability applies only to *enterprises* engaged in hazardous activity for commercial gain. 2. **Escape**: Strict liability requires escape of dangerous thing from defendant's land; absolute liability does NOT require escape — harm within premises suffices (Oleum gas leak affected workers inside factory). 3. **Defences**: Strict liability allows exceptions (act of God, plaintiff's fault, act of stranger, statutory authority, mutual benefit); absolute liability admits NO exceptions — not even act of God or sabotage. A wrong answer missing the 'enterprise vs person' distinction reveals failure to grasp the policy shift from land-use (Rylands) to industrial risk enterprise (M.C. Mehta).",
+     "self_check": true
+    },
+    {
+     "q": "\"In dowry death cases under Section 304-B IPC, the prosecution must prove beyond reasonable doubt that the woman was subjected to cruelty for dowry demand soon before death.\" Evaluate this statement. Is the burden of proof correctly stated?",
+     "a": "The statement is **incorrect**. Section 304-B IPC read with Section 113-B Evidence Act creates a **rebuttable presumption** (reverse onus): if the prosecution proves the foundational facts (death within 7 years, burns/injuries, cruelty for dowry demand soon before death), the court **shall presume** the accused caused the dowry death. The burden then SHIFTS to the accused to rebut. A wrong answer stating \"prosecution must prove beyond reasonable doubt throughout\" ignores the statutory reversal of burden — a critical procedural nuance in dowry death trials.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario where a person commits actus reus of theft but lacks mens rea due to a *reasonable mistake of fact*. Explain why this negates criminal liability, citing the relevant IPC principle.",
+     "a": "Scenario: Arjun takes an identical umbrella from a restaurant stand, honestly believing it is his. Actus reus: taking movable property without consent. Mens rea: absent — no *dishonest intention* (Section 24 IPC) because the mistake of fact is reasonable and negates *mens rea*. Under Section 79 IPC, an act done by a person justified by law or by mistake of fact (not mistake of law) believing themselves justified is not an offence. A poor answer citing \"mistake of law\" or failing to link *dishonest intention* to the definition of theft (Section 378 IPC) shows confusion between mistake of fact (excuses) and mistake of law (no excuse under *ignorantia juris non excusat*).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

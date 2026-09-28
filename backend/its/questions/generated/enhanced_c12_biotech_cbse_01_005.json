@@ -34,6 +34,21 @@
      "q": "Design a decision flowchart (text‑based) that a bioprocess engineer would use to select between CHO and HEK293 for a new recombinant glycoprotein project. Include at least five decision nodes with criteria.",
      "a": "Flowchart:\n1. Is the protein required at >100 kg/year? → Yes → CHO (scalability); No → go to 2.\n2. Does the protein require human‑specific glycosylation (α2,6‑sialylation, no core fucose)? → Yes → HEK293; No → go to 3.\n3. Is rapid material needed for pre‑clinical studies (<3 months)? → Yes → HEK293 transient; No → go to 4.\n4. Is the protein difficult to express (low titer in CHO)? → Yes → Test HEK293 transient/stable; No → go to 5.\n5. Is there a regulatory preference or existing platform? → Use established platform (usually CHO).\nA poor answer lists only one criterion (e.g., “glycosylation”) indicating the student cannot integrate multiple project constraints into a systematic decision process.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mammalian cell hosts such as CHO (Chinese Hamster Ovary) and HEK293 (Human Embryonic Kidney 293) are eukaryotic cell lines used for recombinant protein production that require complex post‑translational modifications (e.g., glycosylation, ______, proteolytic cleavage) identical to those in humans; they are cultivated in defined media under controlled bioreactor conditions and are the preferred hosts for therapeutic antibodies, clotting factors, and hormones.",
+     "a": "phosphorylation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a process ______ scientist at a biopharma company in Hyderabad tasked with producing a human monoclonal antibody for cancer therapy.",
+     "a": "development",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compare CHO and HEK293 lines on origin, glycosylation pattern, growth characteristics, and typical applications; explain why mammalian hosts are chosen over bacterial/yeast/insect systems for certain biologics; and describe the key culture requirements (media, CO₂, temperature, serum‑free adaptation) that affect product.",
+     "self_check": true
     }
    ]
   }

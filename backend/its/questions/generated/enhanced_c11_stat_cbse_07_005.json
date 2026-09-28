@@ -34,6 +34,26 @@
      "q": "Create a bivariate data set of 5 pairs (X, Y) such that the correlation coefficient calculated by the actual mean method is exactly 0. Show the data and verify the calculation.",
      "a": "Example: X: 1, 2, 3, 4, 5; Y: 5, 4, 3, 2, 1 (perfect negative correlation gives -1, not 0). For r=0, we need Σxy = 0. One set: X: 1, 2, 3, 4, 5; Y: 3, 5, 3, 1, 3.\nX̄ = 3, Ȳ = 3.\nx: -2, -1, 0, 1, 2; y: 0, 2, 0, -2, 0.\nxy: 0, -2, 0, -2, 0 → Σxy = -4? Wait, that gives -4. Let's construct carefully.\nWe need Σ(x - X̄)(y - Ȳ) = 0.\nTake X: 1, 2, 3, 4, 5 (X̄=3). Choose Y such that deviations multiply to sum zero.\nLet Y: 2, 4, 3, 5, 1. Ȳ = 3.\nx: -2, -1, 0, 1, 2; y: -1, 1, 0, 2, -2.\nxy: 2, -1, 0, 2, -4 → Σxy = -1. Not zero.\nBetter: Y: 1, 3, 5, 3, 1. Ȳ = 2.6? Not integer mean.\nSimplest: X: 1, 2, 3, 4, 5; Y: 5, 3, 4, 2, 1? Let's just give a correct example.\nX: 1, 2, 3, 4, 5 (X̄=3). Y: 1, 3, 5, 3, 1 (Ȳ=2.6? Sum=13/5=2.6). Deviations: x: -2,-1,0,1,2; y: -1.6, 0.4, 2.4, 0.4, -1.6. Products: 3.2, -0.4, 0, 0.4, -3.2 = 0. Works but decimals.\nInteger example: X: 1, 2, 3, 4, 5 (X̄=3). Y: 2, 4, 6, 4, 2 (Ȳ=18/5=3.6). Not integer.\nUse X: 10, 20, 30, 40, 50 (X̄=30). Y: 10, 20, 30, 40, 50 → r=1.\nFor r=0: X: 1, 2, 3, 4, 5; Y: 5, 4, 5, 4, 5. X̄=3, Ȳ=23/5=4.6.\nx: -2,-1,0,1,2; y: 0.4, -0.6, 0.4, -0.6, 0.4.\nxy: -0.8, 0.6, 0, -0.6, 0.8 = 0. Yes.\nA poor answer (e.g., giving a set with obvious linear trend) shows the student cannot reverse-engineer the condition Σxy=0.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Actual Mean Method (Direct Method) for calculating Karl Pearson's coefficient of correlation (r) uses deviations of individual ______ from their respective arithmetic means.",
+     "a": "observations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing the ______ between hours of daily study (X) and marks obtained in a test (Y) for 6 classmates.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing the relationship between hours of daily study (X) and marks obtained in a test (Y) for ______ classmates.",
+     "a": "6",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently compute the correlation coefficient using the actual mean method for a given bivariate data set of at least 5 pairs, showing all steps (mean calculation, deviations, squares, products, summation, and final substitution) and interpret the sign and magnitude of the result in the context of the.",
+     "self_check": true
     }
    ]
   }

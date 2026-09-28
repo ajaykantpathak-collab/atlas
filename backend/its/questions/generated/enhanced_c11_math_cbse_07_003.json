@@ -34,6 +34,31 @@
      "q": "Create a real-world problem (Indian context) where the answer is ^7P_4. State the problem clearly and explain why it requires permutation, not combination.",
      "a": "Problem: \"A school has 7 candidates for the posts of Head Boy, Head Girl, Sports Captain, and Cultural Captain. In how many ways can these 4 distinct posts be filled if no candidate can hold more than one post?\" \nReason: The 4 posts are distinct (order matters - Head Boy vs Sports Captain are different roles), and we are selecting 4 out of 7 candidates without repetition. This is exactly ^7P_4 = 7!/3! = 840 ways. A poor answer would describe a scenario where order doesn't matter (e.g., \"select a committee of 4 from 7\"), which would be a combination problem. The key is identifying distinct positions/roles.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ is an arrangement of objects in a specific order where the order of selection matters.",
+     "a": "permutation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class monitor organizing 5 students (Aman, Bina, Chirag, Divya, Esha) for a group photo where only 3 can ______ in the front row.",
+     "a": "stand",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The number of permutations of n distinct objects taken r at a time (where ______ ≤ r ≤ n) is denoted by P(n, r) or ^nP_r and equals n!/(n-r)!, representing the number of ways to fill r distinct positions from n distinct objects without repetition.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can define permutation precisely, derive the formula ^nP_r = n!/(n-r)! from the Fundamental Principle of Counting, compute permutations for given n and r values, and distinguish between situations requiring permutations versus combinations based on whether order matters.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class monitor ______ 5 students (Aman, Bina, Chirag, Divya, Esha) for a group photo where only 3 can stand in the front row.",
+     "a": "organizing",
+     "self_check": true
     }
    ]
   }

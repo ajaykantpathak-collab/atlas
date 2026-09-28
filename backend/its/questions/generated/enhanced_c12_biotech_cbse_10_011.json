@@ -34,6 +34,31 @@
      "q": "Design a conceptual biosensor for **real-time lactate monitoring in sweat** during athletic training. Specify: (a) bioreceptor (enzyme + cofactor), (b) transduction mode, (c) strategy to handle variable sweat rate/pH, (d) one advantage over blood lactate analyzer. Justify each choice.",
      "a": "(a) **Lactate oxidase (LOx) + FAD** — oxidizes lactate to pyruvate + H₂O₂, FAD/FADH₂ redox couple. (b) **Amperometric (H₂O₂ oxidation at +0.6 V vs Ag/AgCl)** — simple, low-power, miniaturizable. (c) **Integrated microfluidic sweat channel with reference electrode + pH sensor**; use ratiometric signal (lactate current / pH-corrected reference) and flow-rate normalization via conductivity sensor. (d) **Non-invasive, continuous, no finger-prick** — enables dynamic lactate threshold tracking during exercise. A poor answer picks glucose oxidase (wrong substrate), ignores sweat variability, or cites \"painless\" without technical justification — showing lack of systems thinking for POCT design.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A biosensor is an analytical device that integrates a biological recognition element (bioreceptor) with a ______ transducer to convert a biological interaction into a measurable electrical signal for quantitative or qualitative analysis of a target analyte in healthcare and point-of-care settings.",
+     "a": "physicochemical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a diabetic patient pricking their finger and getting a blood glucose reading in 5 seconds from a ______ device — no lab, no wait.",
+     "a": "handheld",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a diabetic patient pricking their finger and getting a blood glucose reading in ______ seconds from a handheld device — no lab, no wait.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Identify the three core components of any biosensor (bioreceptor, transducer, signal processor) and explain their functional interplay; (2) Classify biosensors by bioreceptor type (enzyme, antibody, nucleic acid, whole cell) and transduction principle (electrochemical, optical, piezoelectric, thermal).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ patient pricking their finger and getting a blood glucose reading in 5 seconds from a handheld device — no lab, no wait.",
+     "a": "diabetic",
+     "self_check": true
     }
    ]
   }

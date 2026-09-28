@@ -34,6 +34,31 @@
      "q": "Create a real-world problem (Indian context: metres, rupees, kg) that requires using tan 45° = 1 to find an unknown height or distance. The problem must involve a 45° angle of elevation or depression and require at least 3 steps to solve.",
      "a": "Example problem: \"From a point 20 metres away from the foot of a vertical flagpole on horizontal ground, the angle of elevation of the top of the flagpole is 45°. Find the height of the flagpole. If painting the flagpole costs ₹15 per metre, find the total painting cost.\"\nSolution steps: (1) Draw right triangle with base = 20 m, angle = 45°, height = h. (2) tan 45° = h/20 → 1 = h/20 → h = 20 m. (3) Cost = 20 × ₹15 = ₹300.\nA poor answer would give a problem solvable in 1 step (e.g., \"height = 20 m, find angle\") or use unrealistic numbers, showing the student cannot construct meaningful applications of tan 45° = 1.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In a right-angled triangle with one acute angle measuring 45°, the ______ ratios are defined using the side ratios of an isosceles right triangle (45°-45°-90°), where the perpendicular and base are equal (say, 1 unit each) and the hypotenuse is √2 units by the Pythagorean theorem.",
+     "a": "trigonometric",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a square garden plot of side 10 metres and need to lay a ______ pathway across it — what angle does the pathway make with the sides, and how long is it?",
+     "a": "diagonal",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a square garden plot of side ______ metres and need to lay a diagonal pathway across it — what angle does the pathway make with the sides, and how long is it?",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive all six trigonometric ratios of 45° from an isosceles right triangle using the Pythagorean theorem, state each ratio in simplified rationalised form (e.g., √2/2 instead of 1/√2), and apply these values to evaluate trigonometric expressions and solve right-triangle problems involving 45° angles.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a square garden plot of side 10 metres and need to lay a diagonal pathway across it — what angle does the pathway make with the sides, and how long is it?",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Create a real-world problem (Indian context) that requires finding the general equation of a circle given three non-collinear points. Provide the three points and ask for the equation. Ensure the numbers are chosen so that the resulting coefficients are integers.",
      "a": "Problem: A circular water tank is to be built in a village such that its boundary passes through three landmarks: a well at \\((2, 3)\\), a temple at \\((4, 5)\\), and a school at \\((6, 3)\\). Find the general equation of the boundary.\nSolution: The three points are non-collinear (they form an isosceles triangle). Solving the system yields \\(g = -4, f = -1, c = 3\\). Equation: \\(x^2 + y^2 - 8x - 2y + 3 = 0\\). A poor answer would use collinear points (no unique circle) or points leading to non-integer coefficients without simplifying, showing lack of understanding of the condition for a unique circle and algebraic manipulation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ garden in your school courtyard.",
+     "a": "circular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "They can also derive the general equation when given geometric conditions such as three non-collinear points, endpoints of a diameter, or tangency conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a circular garden in your school courtyard.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

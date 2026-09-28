@@ -1,6 +1,288 @@
 {
- "catalog": "catalog_class12_economics_leec102",
+ "catalog": "catalog_class12_economics_leec102.json",
  "concepts": [
+  {
+   "id": "leec.102.1.3",
+   "title": "Depreciation, Gross Investment and Net Investment",
+   "converted_to_compute": true,
+   "formula": "net_investment = gross_investment - depreciation_charge",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_investment = gross_investment - depreciation_charge",
+     "compute": "net_investment = gross_investment - depreciation_charge"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Depreciation, Gross Investment and Net Investment: given gross_investment = 61, depreciation_charge = 1.3, find net investment.",
+     "a": "59.7",
+     "self_check": false
+    },
+    {
+     "q": "For Depreciation, Gross Investment and Net Investment: given gross_investment = 31, depreciation_charge = 14.7, find net investment.",
+     "a": "16.3",
+     "self_check": false
+    },
+    {
+     "q": "For Depreciation, Gross Investment and Net Investment: given gross_investment = 0.7, depreciation_charge = 21, find net investment.",
+     "a": "-20.3",
+     "self_check": false
+    },
+    {
+     "q": "For Depreciation, Gross Investment and Net Investment: given gross_investment = 33, depreciation_charge = 29, find net investment.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "For Depreciation, Gross Investment and Net Investment: given gross_investment = 11.3, depreciation_charge = 23, find net investment.",
+     "a": "-11.7",
+     "self_check": false
+    },
+    {
+     "q": "For Depreciation, Gross Investment and Net Investment: given gross_investment = 2.9, depreciation_charge = 1.1, find net investment.",
+     "a": "1.8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leec.102.2.4",
+   "title": "Expenditure Method: GDP from the Demand Side",
+   "converted_to_compute": true,
+   "formula": "gdp_expenditure_method = consumption + investment + government_spending + exports - imports",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "gdp_expenditure_method = consumption + investment + government_spending + exports - imports",
+     "compute": "gdp_expenditure_method = consumption + investment + government_spending + exports - imports"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Expenditure Method: GDP from the Demand Side: given consumption = 47, investment = 39, government_spending = 49, exports = 76, imports = 14.3, find gdp expenditure method.",
+     "a": "196.7",
+     "self_check": false
+    },
+    {
+     "q": "For Expenditure Method: GDP from the Demand Side: given consumption = 56, investment = 99, government_spending = 39, exports = 36, imports = 24, find gdp expenditure method.",
+     "a": "206",
+     "self_check": false
+    },
+    {
+     "q": "For Expenditure Method: GDP from the Demand Side: given consumption = 39, investment = 61, government_spending = 95, exports = 84, imports = 65, find gdp expenditure method.",
+     "a": "214",
+     "self_check": false
+    },
+    {
+     "q": "For Expenditure Method: GDP from the Demand Side: given consumption = 71, investment = 13.9, government_spending = 7.1, exports = 38, imports = 96, find gdp expenditure method.",
+     "a": "34",
+     "self_check": false
+    },
+    {
+     "q": "For Expenditure Method: GDP from the Demand Side: given consumption = 30, investment = 62, government_spending = 100, exports = 69, imports = 11.1, find gdp expenditure method.",
+     "a": "249.9",
+     "self_check": false
+    },
+    {
+     "q": "For Expenditure Method: GDP from the Demand Side: given consumption = 92, investment = 82, government_spending = 36, exports = 86, imports = 96, find gdp expenditure method.",
+     "a": "200",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leec.102.2.5",
+   "title": "Income Method: GDP as Sum of Factor Incomes",
+   "converted_to_compute": true,
+   "formula": "gdp_income_method = wages + gross_profits + interest_payments + rents",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "gdp_income_method = wages + gross_profits + interest_payments + rents",
+     "compute": "gdp_income_method = wages + gross_profits + interest_payments + rents"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Income Method: GDP as Sum of Factor Incomes: given wages = 75, gross_profits = 8.6, interest_payments = 107, rents = 39, find gdp income method.",
+     "a": "229.6",
+     "self_check": false
+    },
+    {
+     "q": "For Income Method: GDP as Sum of Factor Incomes: given wages = 97, gross_profits = 78, interest_payments = 28, rents = 70, find gdp income method.",
+     "a": "273",
+     "self_check": false
+    },
+    {
+     "q": "For Income Method: GDP as Sum of Factor Incomes: given wages = 63, gross_profits = 42, interest_payments = 89, rents = 31, find gdp income method.",
+     "a": "225",
+     "self_check": false
+    },
+    {
+     "q": "For Income Method: GDP as Sum of Factor Incomes: given wages = 59, gross_profits = 43, interest_payments = 83, rents = 63, find gdp income method.",
+     "a": "248",
+     "self_check": false
+    },
+    {
+     "q": "For Income Method: GDP as Sum of Factor Incomes: given wages = 33, gross_profits = 67, interest_payments = 108, rents = 71, find gdp income method.",
+     "a": "279",
+     "self_check": false
+    },
+    {
+     "q": "For Income Method: GDP as Sum of Factor Incomes: given wages = 96, gross_profits = 15.2, interest_payments = 80, rents = 16.3, find gdp income method.",
+     "a": "207.5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leec.102.2.6",
+   "title": "Factor Cost, Basic Prices and Market Prices",
+   "converted_to_compute": true,
+   "formula": "gdp_market_prices = gva_basic_prices + net_product_taxes",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "gdp_market_prices = gva_basic_prices + net_product_taxes",
+     "compute": "gdp_market_prices = gva_basic_prices + net_product_taxes"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Factor Cost, Basic Prices and Market Prices: given gva_basic_prices = 7.8, net_product_taxes = 30, find gdp market prices.",
+     "a": "37.8",
+     "self_check": false
+    },
+    {
+     "q": "For Factor Cost, Basic Prices and Market Prices: given gva_basic_prices = 81, net_product_taxes = 10.5, find gdp market prices.",
+     "a": "91.5",
+     "self_check": false
+    },
+    {
+     "q": "For Factor Cost, Basic Prices and Market Prices: given gva_basic_prices = 47, net_product_taxes = 20, find gdp market prices.",
+     "a": "67",
+     "self_check": false
+    },
+    {
+     "q": "For Factor Cost, Basic Prices and Market Prices: given gva_basic_prices = 49, net_product_taxes = 83, find gdp market prices.",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "For Factor Cost, Basic Prices and Market Prices: given gva_basic_prices = 64, net_product_taxes = 62, find gdp market prices.",
+     "a": "126",
+     "self_check": false
+    },
+    {
+     "q": "For Factor Cost, Basic Prices and Market Prices: given gva_basic_prices = 35, net_product_taxes = 31, find gdp market prices.",
+     "a": "66",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leec.102.4.1",
+   "title": "Nominal GDP, Real GDP and the GDP Deflator",
+   "converted_to_compute": true,
+   "formula": "gdp_deflator = 100 * nominal_gdp / real_gdp",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "gdp_deflator = 100 * nominal_gdp / real_gdp",
+     "compute": "gdp_deflator = 100 * nominal_gdp / real_gdp"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Nominal GDP, Real GDP and the GDP Deflator: given nominal_gdp = 62, real_gdp = 84, find gdp deflator.",
+     "a": "73.8095",
+     "self_check": false
+    },
+    {
+     "q": "For Nominal GDP, Real GDP and the GDP Deflator: given nominal_gdp = 55, real_gdp = 84, find gdp deflator.",
+     "a": "65.4762",
+     "self_check": false
+    },
+    {
+     "q": "For Nominal GDP, Real GDP and the GDP Deflator: given nominal_gdp = 43, real_gdp = 79, find gdp deflator.",
+     "a": "54.4304",
+     "self_check": false
+    },
+    {
+     "q": "For Nominal GDP, Real GDP and the GDP Deflator: given nominal_gdp = 3.3, real_gdp = 43, find gdp deflator.",
+     "a": "7.67442",
+     "self_check": false
+    },
+    {
+     "q": "For Nominal GDP, Real GDP and the GDP Deflator: given nominal_gdp = 94, real_gdp = 90, find gdp deflator.",
+     "a": "104.444",
+     "self_check": false
+    },
+    {
+     "q": "For Nominal GDP, Real GDP and the GDP Deflator: given nominal_gdp = 31, real_gdp = 84, find gdp deflator.",
+     "a": "36.9048",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leec.102.4.2",
+   "title": "Consumer Price Index and Wholesale Price Index",
+   "converted_to_compute": true,
+   "formula": "consumer_price_index = 100 * current_basket_cost / base_basket_cost",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "consumer_price_index = 100 * current_basket_cost / base_basket_cost",
+     "compute": "consumer_price_index = 100 * current_basket_cost / base_basket_cost"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Consumer Price Index and Wholesale Price Index: given current_basket_cost = 78, base_basket_cost = 2.1, find consumer price index.",
+     "a": "3714.29",
+     "self_check": false
+    },
+    {
+     "q": "For Consumer Price Index and Wholesale Price Index: given current_basket_cost = 117, base_basket_cost = 40, find consumer price index.",
+     "a": "292.5",
+     "self_check": false
+    },
+    {
+     "q": "For Consumer Price Index and Wholesale Price Index: given current_basket_cost = 84, base_basket_cost = 87, find consumer price index.",
+     "a": "96.5517",
+     "self_check": false
+    },
+    {
+     "q": "For Consumer Price Index and Wholesale Price Index: given current_basket_cost = 90, base_basket_cost = 92, find consumer price index.",
+     "a": "97.8261",
+     "self_check": false
+    },
+    {
+     "q": "For Consumer Price Index and Wholesale Price Index: given current_basket_cost = 68, base_basket_cost = 44, find consumer price index.",
+     "a": "154.545",
+     "self_check": false
+    },
+    {
+     "q": "For Consumer Price Index and Wholesale Price Index: given current_basket_cost = 17.4, base_basket_cost = 62, find consumer price index.",
+     "a": "28.0645",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "leec.102.1.1",
    "title": "Final Goods, Intermediate Goods and Double Counting",
@@ -39,37 +321,6 @@
     {
      "q": "Write the standard relation used for 'Consumption Goods, Capital Goods and Consumer Durables', in plain ASCII form.",
      "a": "final_goods = consumption_goods + capital_goods (consumer_durables straddle both)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leec.102.1.3",
-   "title": "Depreciation, Gross Investment and Net Investment",
-   "questions": [
-    {
-     "q": "Work out the annual depreciation of a machine from its cost and working life. Use the method 'Depreciation, Gross Investment and Net Investment'. Work with: cost_of_capital_good = 120000, gross_investment = 25, useful_life_years = 150. Carry the chain through step by step and give the final value of net_investment.",
-     "a": "-775 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the addition to capital stock after allowing for wear and tear. Use the method 'Depreciation, Gross Investment and Net Investment'. Work with: cost_of_capital_good = 5000, gross_investment = 60, useful_life_years = 50. Carry the chain through step by step and give the final value of net_investment.",
-     "a": "-40 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Depreciation, Gross Investment and Net Investment' refers to.",
-     "a": "Capital wears out as it is used, and the value consumed in a year is depreciation, found by spreading the asset's cost over its expected life; what remains of a year's capital-goods output after replacing worn-out capital is the true addition to the capital stock.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Depreciation, Gross Investment and Net Investment'.",
-     "a": "Gross investment includes replacement of worn-out capital; only the balance raises the capital stock.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Depreciation, Gross Investment and Net Investment', in plain ASCII form.",
-     "a": "net_investment = gross_investment - depreciation_charge",
      "self_check": true
     }
    ]
@@ -158,99 +409,6 @@
    ]
   },
   {
-   "id": "leec.102.2.4",
-   "title": "Expenditure Method: GDP from the Demand Side",
-   "questions": [
-    {
-     "q": "Compute GDP by the expenditure method from consumption investment government and net exports. Use the method 'Expenditure Method: GDP from the Demand Side'. Work with: consumption = 15, exports = 6, government_spending = 20, imports = 18, investment = 10. Carry the chain through step by step and give the final value of gdp_expenditure_method.",
-     "a": "33 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find national output from C I G and the foreign trade balance. Use the method 'Expenditure Method: GDP from the Demand Side'. Work with: consumption = 30, exports = 8, government_spending = 500, imports = 4, investment = 300. Carry the chain through step by step and give the final value of gdp_expenditure_method.",
-     "a": "834 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Expenditure Method: GDP from the Demand Side' refers to.",
-     "a": "GDP can be totaled by adding all final spending on domestically produced goods - household consumption, firms' investment, government purchases and exports - and subtracting the import component embedded in each.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Expenditure Method: GDP from the Demand Side'.",
-     "a": "Only final expenditures enter, and imports are deducted because they are not produced domestically.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Expenditure Method: GDP from the Demand Side', in plain ASCII form.",
-     "a": "gdp_expenditure_method = consumption + investment + government_spending + exports - imports",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leec.102.2.5",
-   "title": "Income Method: GDP as Sum of Factor Incomes",
-   "questions": [
-    {
-     "q": "Find national output from the factor incomes of all households. Use the method 'Income Method: GDP as Sum of Factor Incomes'. Work with: gross_profits = 80000, interest_payments = 8, rents = 50, wages = 10. Carry the chain through step by step and give the final value of gdp_income_method.",
-     "a": "80068 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Compute income-method GDP when wages are 80 and profits 120. Use the method 'Income Method: GDP as Sum of Factor Incomes'. Work with: gross_profits = 120000, interest_payments = 12, rents = 100, wages = 200. Carry the chain through step by step and give the final value of gdp_income_method.",
-     "a": "120312 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Income Method: GDP as Sum of Factor Incomes' refers to.",
-     "a": "Since every firm's revenue ends up as payments to the factors it hires, GDP equals the total of wages, profits, interest and rent earned by all households in a year.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Income Method: GDP as Sum of Factor Incomes'.",
-     "a": "The distribution phase of the same circular flow adds up factor incomes to GDP.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Income Method: GDP as Sum of Factor Incomes', in plain ASCII form.",
-     "a": "gdp_income_method = wages + gross_profits + interest_payments + rents",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leec.102.2.6",
-   "title": "Factor Cost, Basic Prices and Market Prices",
-   "questions": [
-    {
-     "q": "Using the method 'Factor Cost, Basic Prices and Market Prices', work with: gva_factor_cost = 500, net_product_taxes = 25, net_production_taxes = 5. Carry the chain through step by step and give the final value of gdp_market_prices.",
-     "a": "530 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Factor Cost, Basic Prices and Market Prices' and work with: gva_factor_cost = 500, net_product_taxes = 8, net_production_taxes = 8. Carry the chain through step by step and give the final value of gdp_market_prices.",
-     "a": "516 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Factor Cost, Basic Prices and Market Prices' refers to.",
-     "a": "Factor cost keeps only payments to factors; adding production taxes net of production subsidies gives GVA at basic prices, and adding product taxes net of product subsidies on top raises it to market prices.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Factor Cost, Basic Prices and Market Prices'.",
-     "a": "Production taxes are fixed per producer while product taxes ride per unit of output; each net pair lifts the valuation one step.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Factor Cost, Basic Prices and Market Prices', in plain ASCII form.",
-     "a": "gdp_market_prices = gva_basic_prices + net_product_taxes",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "leec.102.3.1",
    "title": "GNP, NNP and National Income Chain",
    "questions": [
@@ -308,68 +466,6 @@
     {
      "q": "Write the standard relation used for 'Personal Income and Personal Disposable Income', in plain ASCII form.",
      "a": "personal_disposable_income = personal_income - personal_taxes - non_tax_payments",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leec.102.4.1",
-   "title": "Nominal GDP, Real GDP and the GDP Deflator",
-   "questions": [
-    {
-     "q": "Calculate real GDP of the current year at base year prices. Use the method 'Nominal GDP, Real GDP and the GDP Deflator'. Work with: base_year_price = 2600, current_year_price = 2600, current_year_quantity = 50. Carry the chain through step by step and give the final value of gdp_deflator.",
-     "a": "100 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the GDP deflator from nominal and real GDP. Use the method 'Nominal GDP, Real GDP and the GDP Deflator'. Work with: base_year_price = 500, current_year_price = 2600, current_year_quantity = 1500. Carry the chain through step by step and give the final value of gdp_deflator.",
-     "a": "520 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Nominal GDP, Real GDP and the GDP Deflator' refers to.",
-     "a": "Nominal GDP values current output at current prices while real GDP values the same output at base-year prices; their ratio, the GDP deflator, isolates the pure price movement between the two years.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Nominal GDP, Real GDP and the GDP Deflator'.",
-     "a": "With quantities fixed at current levels, any gap between nominal and real GDP reflects prices alone.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Nominal GDP, Real GDP and the GDP Deflator', in plain ASCII form.",
-     "a": "gdp_deflator = 100 * nominal_gdp / real_gdp",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leec.102.4.2",
-   "title": "Consumer Price Index and Wholesale Price Index",
-   "questions": [
-    {
-     "q": "Compute the consumer price index from basket costs of two years. Use the method 'Consumer Price Index and Wholesale Price Index'. Work with: base_price_good1 = 8000, base_price_good2 = 120000, current_price_good1 = 80000, current_price_good2 = 20000, quantity_good1 = 45, quantity_good2 = 18. Carry the chain through step by step and give the final value of consumer_price_index.",
-     "a": "157.1429 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the percentage rise in the cost of living between two years. Use the method 'Consumer Price Index and Wholesale Price Index'. Work with: base_price_good1 = 50000, base_price_good2 = 12000, current_price_good1 = 8000, current_price_good2 = 8000, quantity_good1 = 400, quantity_good2 = 15. Carry the chain through step by step and give the final value of consumer_price_index.",
-     "a": "16.4519 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Consumer Price Index and Wholesale Price Index' refers to.",
-     "a": "The CPI prices a fixed basket bought by a typical consumer in the base year and again in the current year, then expresses the current cost as a percentage of the base cost; the WPI does the same for bulk-traded wholesale goods.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Consumer Price Index and Wholesale Price Index'.",
-     "a": "A fixed basket turns price change into a single index number.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Consumer Price Index and Wholesale Price Index', in plain ASCII form.",
-     "a": "consumer_price_index = 100 * current_basket_cost / base_basket_cost",
      "self_check": true
     }
    ]

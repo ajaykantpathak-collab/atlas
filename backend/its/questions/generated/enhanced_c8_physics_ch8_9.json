@@ -34,6 +34,31 @@
      "q": "Design a simple corridor plan for a hypothetical landscape where two forest patches are separated by 15 km of mixed farmland and a state highway. Specify the corridor width, any crossing structures for the highway, and two features to minimize human-elephant conflict.",
      "a": "A good answer includes: (1) Corridor width of at least 1 km to provide 300 m buffer on each side after accounting for 200 m edge effect, (2) An underpass or overpass at the highway with guide fencing, (3) Features like native vegetation planting for cover and community-based early warning systems. A poor answer that suggests a narrow fenced path without crossing structures reveals an inability to synthesize movement ecology, engineering solutions, and social dimensions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Elephant corridors are ______ strips of natural habitat that connect fragmented forest patches, allowing elephants to move safely between them for food, water, breeding, and seasonal migration while minimizing human-elephant conflict.",
+     "a": "designated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are driving on a highway through a forested region in Assam or Karnataka and see a sign warning of elephant ______.",
+     "a": "crossings",
+     "self_check": true
+    },
+    {
+     "q": "What is Elephant corridors? State the definition given in this lesson.",
+     "a": "Elephant corridors are designated strips of natural habitat that connect fragmented forest patches, allowing elephants to move safely between them for food, water, breeding, and seasonal migration while minimizing human-elephant conflict.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Elephant corridors?",
+     "a": "Students often think elephant corridors are simply narrow fenced pathways (like cattle lanes) that force elephants through a specific route.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the ecological purpose of elephant corridors, calculate the time required for elephants to traverse a corridor of given length using their typical walking speed, and evaluate how corridor width and human disturbances affect the effectiveness of a corridor design.",
+     "self_check": true
     }
    ]
   }

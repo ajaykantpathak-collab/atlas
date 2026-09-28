@@ -5,6 +5,8 @@
    "id": "jemh.105.5.1",
    "title": "Arithmetic Progressions and Common Difference",
    "converted_to_compute": false,
+   "formula": "d = second - first",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 11th term of the AP with first term 3 and common difference 5.",
@@ -42,6 +44,8 @@
    "id": "jemh.105.5.2",
    "title": "nth Term of an AP",
    "converted_to_compute": false,
+   "formula": "nth_term = a + (n - 1) * d",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 7th term of the AP with first term 4 and common difference 2.",
@@ -79,6 +83,8 @@
    "id": "jemh.105.5.3",
    "title": "Sum of n Terms of an AP",
    "converted_to_compute": false,
+   "formula": "sum = n / 2 * (2 * a + (n - 1) * d)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 15th term of the AP with first term 2 and common difference 9.",

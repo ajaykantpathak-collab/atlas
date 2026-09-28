@@ -34,6 +34,31 @@
      "q": "Design a challenge: How would you use a perpendicular bisector construction to divide a piece of ribbon into four equal parts?",
      "a": "First, construct the perpendicular bisector of the whole ribbon to get two equal halves. Then, repeat the construction on each of the two new halves to find their midpoints, effectively creating four equal sections. A poor answer would suggest measuring with a ruler, missing the geometric construction requirement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ bisector of a line segment is a line that divides the segment into two equal halves while meeting it at a right angle (90°).",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and your ______ are sitting at opposite ends of a 10-metre rope, and you want to mark the exact middle point to share it fairly.",
+     "a": "friend",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A perpendicular bisector of a line segment is a line that divides the segment into two equal halves while meeting it at a right angle (______°).",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to use a pair of compasses and a ruler to construct a perpendicular bisector for any given line segment and verify that the two halves are equal in length.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and your friend are sitting at ______ ends of a 10-metre rope, and you want to mark the exact middle point to share it fairly.",
+     "a": "opposite",
+     "self_check": true
     }
    ]
   }

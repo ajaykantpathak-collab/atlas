@@ -5,6 +5,8 @@
    "id": "hegp.201.1",
    "title": "Understanding Percentages",
    "converted_to_compute": false,
+   "formula": "percentage = (part / whole) * 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 5% of 500.",
@@ -42,6 +44,8 @@
    "id": "hegp.201.2",
    "title": "Converting Fractions to Percentages",
    "converted_to_compute": false,
+   "formula": "percentage = (numerator / denominator) * 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 7 x 2/3.",
@@ -79,6 +83,8 @@
    "id": "hegp.201.3",
    "title": "Finding the Value of a Percentage",
    "converted_to_compute": false,
+   "formula": "value = (percent / 100) * total_quantity",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 40% of 200.",
@@ -116,6 +122,8 @@
    "id": "hegp.201.4",
    "title": "Ratios to Percentages",
    "converted_to_compute": false,
+   "formula": "part_percentage = (part_ratio / sum_of_ratios) * 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 75% of 80.",
@@ -153,6 +161,8 @@
    "id": "hegp.201.5",
    "title": "Percentage Increase or Decrease",
    "converted_to_compute": false,
+   "formula": "percentage_change = (change_amount / original_value) * 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 20% of 120.",
@@ -190,6 +200,8 @@
    "id": "hegp.201.6",
    "title": "Profit and Loss Percentage",
    "converted_to_compute": false,
+   "formula": "profit_percent = ((sp - cp) / cp) * 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 25% of 60.",
@@ -227,6 +239,8 @@
    "id": "hegp.201.7",
    "title": "Simple Interest (No Compounding)",
    "converted_to_compute": false,
+   "formula": "amount = principal * (1 + (rate * time / 100))",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the simple interest on Rs 6000 at 12% per annum for 3 years.",
@@ -264,6 +278,8 @@
    "id": "hegp.201.8",
    "title": "Compound Interest (Annual)",
    "converted_to_compute": false,
+   "formula": "amount = principal * (1 + rate/100)**time",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the simple interest on Rs 12000 at 6% per annum for 3 years.",
@@ -301,6 +317,8 @@
    "id": "hegp.201.9",
    "title": "Depreciation",
    "converted_to_compute": false,
+   "formula": "final_value = initial_value * (1 - rate/100)**time",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the simple interest on Rs 2000 at 8% per annum for 3 years.",

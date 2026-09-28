@@ -34,6 +34,31 @@
      "q": "Create a Roman Numeral for the number 384 and explain how you constructed it.",
      "a": "The answer is CCCLXXXIV. I constructed it by splitting 384 into 300 (CCC), 80 (LXXX), and 4 (IV). A poor answer shows a failure to group the number by its place-value components (hundreds, tens, and ones).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Roman Numerals are a non-place-value number system ______ by ancient Romans that uses seven specific Latin letters (I, V, X, L, C, D, M) to represent values.",
+     "a": "developed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To start, remember that unlike our normal numbers, these are just ______ with assigned values.",
+     "a": "letters",
+     "self_check": true
+    },
+    {
+     "q": "What is Roman Numerals? State the definition given in this lesson.",
+     "a": "Roman Numerals are a non-place-value number system developed by ancient Romans that uses seven specific Latin letters (I, V, X, L, C, D, M) to represent values.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Roman Numerals?",
+     "a": "Students often try to subtract any smaller number from any larger number, such as writing 95 as \"VX\" (100-5) or 99 as \"IC\" (100-1).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to convert Hindu-Arabic numbers (up to 1000) into Roman Numerals and vice versa by correctly applying the addition and subtraction rules.",
+     "self_check": true
     }
    ]
   }

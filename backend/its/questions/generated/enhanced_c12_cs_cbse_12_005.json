@@ -34,6 +34,21 @@
      "q": "Design a layered security strategy for a small business with 20 employees who handle customer payment data. Specify: (a) firewall placement and two critical rules, (b) antivirus configuration (detection methods enabled), and (c) one non-technical control that complements these tools.",
      "a": "(a) Deploy a network firewall at the internet gateway with rules: (1) Block all inbound connections except HTTPS (port 443) to the payment server; (2) Block outbound traffic to known malicious IP ranges (threat intelligence feed). Enable host-based firewalls on each workstation to block peer-to-peer file sharing ports. (b) Configure endpoint antivirus with: real-time protection ON, heuristic analysis ON, sandbox/behavior monitoring ON, automatic VDF updates every hour. (c) Non-technical control: Mandatory monthly security awareness training covering phishing simulation and password hygiene (addresses human factor). A poor answer omits layered placement, relies solely on signatures, or ignores the human element.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A firewall is a network security system that monitors and controls incoming and outgoing network traffic based on ______ security rules, acting as a barrier between a trusted internal network and untrusted external networks.",
+     "a": "predetermined",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the IT ______ for a school computer lab.",
+     "a": "administrator",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain the distinct roles of firewalls (network traffic filtering) and antivirus (malware detection/removal), differentiate between signature-based, heuristic, sandbox, and behavior-based detection methods, and justify the selection of a specific firewall type (network vs host-based) or antivirus technique.",
+     "self_check": true
     }
    ]
   }

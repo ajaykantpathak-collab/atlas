@@ -34,6 +34,36 @@
      "q": "Create a new 2×2 impact matrix framework (axes: *Intended vs Unintended* × *Individual vs Systemic*) and place these four UPI effects in the correct quadrants: (a) vendor saves ₹50/day cash-handling cost, (b) vendor’s phone battery dies → lost sales, (c) NPCI data shows 40% new-to-bank users, (d) a phishing gang targets vendors via fake UPI callbacks. Explain your placement for (b) and (d).",
      "a": "Matrix:  \n| | Intended | Unintended |  \n|---|---|---|  \n| Individual | (a) | (b) |  \n| Systemic | (c) | (d) |  \n(b) is *Unintended Individual* — battery failure is a device-level side effect, not a design goal. (d) is *Unintended Systemic* — phishing emerges from the *ecosystem* of digital payments, exploiting trust at scale. A student who puts (d) in \"Individual\" misses that phishing is a structural vulnerability requiring regulatory/technical *systemic* fixes (e.g., device-binding, fraud analytics), not just vendor education.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Technology refers to the application of scientific knowledge for practical purposes, especially in industry and daily life, ______ tools, systems, and methods that solve problems or extend human capabilities.",
+     "a": "encompassing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are handed a ______ in 2010 and another in 2024 — both are \"technology\", yet the 2024 device has reshaped how a farmer in Maharashtra checks mandi prices, how a student in Kerala attends a CUET mock test, and how a grandmother in Punjab video-calls her grandson in Toronto.",
+     "a": "smartphone",
+     "self_check": true
+    },
+    {
+     "q": "What is Technology? State the definition given in this lesson.",
+     "a": "Technology refers to the application of scientific knowledge for practical purposes, especially in industry and daily life, encompassing tools, systems, and methods that solve problems or extend human capabilities.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"What changed — the device, the network, the apps, or the way society organised itself around them?\" Guide students to list five daily activities that did not exist ______ years ago (UPI payments, telemedicine, gig work, online counselling, digital land records).",
+     "a": "15",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Technology?",
+     "a": "Students conflate \"technology impact\" with \"listing features of a gadget\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) articulate a precise definition of technology that goes beyond \"computers/gadgets\" to include systems and processes, (2) classify at least three distinct societal domains (e.g., education, health, governance) where technology creates measurable impact, and (3) explain why the same technology can have simultaneously.",
+     "self_check": true
     }
    ]
   }

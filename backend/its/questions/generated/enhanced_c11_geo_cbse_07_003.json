@@ -34,6 +34,36 @@
      "q": "Design a field investigation to determine the migration rate of a meander bend on the Ghaghara River over the past 50 years. Specify data sources, measurements, and calculation method.",
      "a": "Data sources: Survey of India topographic maps (1970s, 2000s), satellite imagery (Landsat 1980s–present, Sentinel-2 recent), historical aerial photos. Measurements: digitize channel centerlines for each epoch; measure perpendicular offset of a fixed reference point (e.g., apex of a meander loop) relative to a stable baseline (valley wall or railway line). Calculation: migration rate = total lateral displacement (m) / time interval (years). Validate with ground-truthed cut bank erosion pins. A poor answer relying only on \"Google Earth timelapse\" without georeferencing, baseline control, or error estimation shows lack of rigor in spatial analysis — a key competency for geographical investigation projects.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Meanders are sinuous, loop-like bends in a river channel formed by lateral erosion on the concave outer bank (cut bank) and deposition on the convex inner bank (point bar), driven by helicoidal flow; oxbow lakes are abandoned meander loops cut off from the main channel by neck cutoff during floods and sealed by deposition; ______ are flat, alluvial lowlands adjacent to the channel formed by lateral migration of meanders and overbank deposition of fine sediments during floods, characterized by natural levees, backswamps, and yazoo tributaries.",
+     "a": "floodplains",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the Ganga River near Varanasi on Google Earth — notice how the channel snakes in broad loops across the flat plain, with visible scroll bars (point bar ______) inside each bend and steep cut banks on the outside.",
+     "a": "deposits",
+     "self_check": true
+    },
+    {
+     "q": "What is Meanders? State the definition given in this lesson.",
+     "a": "Meanders are sinuous, loop-like bends in a river channel formed by lateral erosion on the concave outer bank (cut bank) and deposition on the convex inner bank (point bar), driven by helicoidal flow; oxbow lakes are abandoned meander loops cut off from the main channel by neck cutoff during floods and sealed by deposition; floodplains.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Meanders?",
+     "a": "Students believe meanders migrate downstream only, but in reality they migrate laterally (sideways) AND downstream (translation), and can even expand upstream (extension) — the meander loop moves as a wave form.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the formation of meanders, oxbow lakes, and floodplains using helicoidal flow dynamics, calculate sinuosity index and meander wavelength from topographic maps, identify evolutionary stages of meander cutoff on satellite imagery, and distinguish between lateral accretion (point bar) and vertical accretion (overbank).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Meanders are sinuous, loop-like bends in a river channel formed by lateral erosion on the concave outer bank (cut bank) and deposition on the convex inner bank (point bar), driven by helicoidal flow; oxbow lakes are abandoned meander loops cut off from the main channel by neck cutoff during floods and sealed by deposition; floodplains are flat, alluvial lowlands adjacent to the channel formed by lateral migration of meanders and overbank deposition of fine sediments during floods, ______ by natural levees, backswamps, and yazoo tributaries.",
+     "a": "characterized",
+     "self_check": true
     }
    ]
   }

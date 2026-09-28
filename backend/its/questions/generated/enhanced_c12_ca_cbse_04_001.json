@@ -34,6 +34,31 @@
      "q": "Design a charting task for a Class 12 practical exam: Give a dataset (describe it in 2 lines) and ask the student to create a chart that reveals a specific business insight. State the dataset, the required chart type, the insight, and one formatting requirement (e.g., data labels, axis titles, legend position).",
      "a": "Dataset: \"Quarterly expenses (Rent, Salaries, Marketing, Utilities) for 4 quarters of 2023-24 for a startup.\" Required chart: Stacked column chart (each column = quarter, segments = expense categories). Insight: \"Which quarter had the highest total expense and which category drives the increase?\" Formatting: Data labels on each segment, chart title \"Quarterly Expense Breakdown 2023-24\", legend at bottom. A poor answer (e.g., pie chart for one quarter only, or line chart for categorical expenses) reveals inability to match chart type to analytical goal — the core competency for board practicals.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A graph or chart in computerised accounting is a visual ______ of financial or business data plotted on two or more axes (X, Y, and optionally Z) using spreadsheet software like MS Excel, enabling quick interpretation of trends, comparisons, and proportional relationships without examining raw numbers.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the accountant of a ______ manufacturing firm.",
+     "a": "small",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The owner hands you a spreadsheet with quarterly sales figures for six products over the last year — ______ numbers in a grid.",
+     "a": "24",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) correctly identify and label all seven core chart elements (chart area, plot area, data series, axes, legend, titles, data labels) in any Excel chart, and (2) select the appropriate chart type (column, line, pie, bar, doughnut, radar) for a given business dataset with justification based on the number of variables.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the accountant of a small ______ firm.",
+     "a": "manufacturing",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a one-page infographic for a Class 10 student showing India's water budget: start from 4,000 cubic km precipitation, show losses, available surface/groundwater, utilizable portion, and sectoral splits. Include one policy intervention (e.g., PMKSY) that addresses a specific leakage in this budget.",
      "a": "A good infographic flows: 4,000 km³ precipitation → (evaporation, transpiration, runoff) → 1,869 km³ available surface + groundwater → 60% utilizable = 1,122 km³ → split: agriculture 89%/92%, industry 2%/5%, domestic 9% (surface). Policy link: PMKSY's \"per drop more crop\" targets the agriculture leakage by promoting micro-irrigation. A poor answer shows a linear list without proportional flows or misses the quality/pollution leakage — indicating inability to synthesize quantitative and qualitative dimensions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Water resources in India refer to the total volume of freshwater available from ______, surface water bodies (rivers, lakes, ponds, tanks), and replenishable groundwater aquifers that can be sustainably utilized for human needs.",
+     "a": "precipitation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: a student in Delhi notices the Yamuna river is a trickle in summer but floods in monsoon, while their village in Punjab runs ______ 12 hours a day for paddy.",
+     "a": "tubewells",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: a student in Delhi notices the Yamuna river is a trickle in summer but floods in monsoon, while their village in Punjab runs tubewells ______ hours a day for paddy.",
+     "a": "12",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the spatial distribution of surface and groundwater resources across India's river basins, interpret sectoral water utilization data (agriculture, industry, domestic), and analyze why certain regions (e.g., Punjab, Haryana, Tamil Nadu) show high groundwater development despite varying rainfall.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world ______: a student in Delhi notices the Yamuna river is a trickle in summer but floods in monsoon, while their village in Punjab runs tubewells 12 hours a day for paddy.",
+     "a": "observation",
+     "self_check": true
     }
    ]
   }

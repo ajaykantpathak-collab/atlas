@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_13_006",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_13_006",
+   "title": "c11_leg_cbse_13_006",
+   "questions": [
+    {
+     "q": "State the exact age thresholds for: (a) prohibition of employment in factories/mines/hazardous occupations under Article 24; (b) free and compulsory education under Article 21A; (c) definition of 'child' under the Juvenile Justice Act 2015; (d) age of consent under POCSO Act 2012.",
+     "a": "(a) Under 14 years (Article 24); (b) 6 to 14 years (Article 21A); (c) Below 18 years (JJ Act 2015, Sec 2(12)); (d) 18 years (POCSO Act 2012, Sec 2(d)). A wrong answer (e.g., saying 18 for Art 24 or 14 for POCSO) reveals the student is conflating different statutes' age definitions — a fatal error in case-study questions where the *applicable law depends on the exact age threshold*.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the CLPRA 2016 Amendment's exception for \"family enterprises\" and \"home-based work\" (Section 3(2)) has been criticized by child rights activists as creating a loophole that violates the spirit of Article 24 and UNCRC Article 32.",
+     "a": "The exception permits children under 14 to work in family/home-based settings after school hours, but: (1) Most hazardous child labour (beedi-rolling, carpet-weaving, fireworks, brick kilns) occurs precisely in home-based/informal family units; (2) No hour limits or hazardous-process exclusions are built into the exception — a child can work 6+ hours in hazardous conditions legally; (3) \"Family enterprise\" is undefined, enabling contractors to mask factories as family units; (4) This defeats Art 24's core purpose (protecting young children from hazardous work) and UNCRC Art 32 (protection from economic exploitation/hazardous work). A student who only cites the exception text without critiquing its *scope* misses the analytical point.",
+     "self_check": true
+    },
+    {
+     "q": "A 16-year-old girl is married under personal law. Her husband is 22. She files for annulment under the Prohibition of Child Marriage Act 2006. The husband argues the marriage is valid under Muslim personal law (puberty = marriageable age). Apply the PCMA 2006, Hindu Marriage Act 1955, and Supreme Court precedents to determine: (i) Is the marriage void or voidable? (ii) Can the husband be prosecuted? (iii) What is the girl's right to maintenance?",
+     "a": "(i) Under PCMA 2006, Sec 3: child marriage (girl <18, boy <21) is *voidable* at the option of the contracting party who was a child — not void ab initio. The girl can annul within 2 years of majority (Sec 3(3)). Personal law does not override PCMA (Supreme Court in *Independent Thought v. UOI*, 2017: PCMA is secular, applies to all). (ii) Yes — husband (>18) marrying a child is punishable under Sec 9 (rigorous imprisonment up to 2 years + fine). (iii) Under Sec 4, the girl is entitled to maintenance from husband until remarriage; if husband is a child, from his parents. A wrong answer treating it as \"void\" or \"valid per personal law\" shows failure to apply the *secular override* principle from *Independent Thought*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"best interests of the child\" standard in: (a) UNCRC Article 3; (b) JJ Act 2015 Section 2(9) and 14; (c) Guardians and Wards Act 1890 Section 17; (d) Hindu Minority and Guardianship Act 1956 Section 13. Identify one procedural gap in how Indian courts apply this standard in custody disputes.",
+     "a": "(a) UNCRC Art 3: \"primary consideration\" in *all* actions concerning children; (b) JJ Act 2015 Sec 2(9): defines \"best interest\" as basis for *all* decisions; Sec 14: mandates child-friendly procedures; (c) GWA 1890 Sec 17: \"welfare of the minor\" is paramount in guardianship; (d) HMGA 1956 Sec 13: \"welfare of the child\" is paramount. **Gap**: None of the Indian statutes define \"best interests\" with operational criteria (unlike UNCRC General Comment 14). Courts rely on judicial discretion, often prioritizing parental rights (especially father's under HMGA Sec 6) over child's voice. In custody disputes, the child's preference (if mature) is rarely independently ascertained — no mandatory child psychologist report, no in-camera hearing protocol. A student who only lists the provisions without identifying the *absence of procedural safeguards* misses the critical-analysis task.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the constitutional validity of trying a 16-18 year old as an adult for heinous offences under JJ Act 2015 Section 15, in light of: (a) Article 14 (equality); (b) Article 21 (due process); (c) UNCRC Article 37 (no life imprisonment without possibility of release for under-18); (d) the *Pratap Singh* (2005) and *Shabnam Hashmi* (2014) precedents.",
+     "a": "The provision is *constitutionally suspect but upheld so far*. (a) Art 14: Classification (16-18 heinous vs. others) must pass \"intelligible differentia\" + \"rational nexus\" test — the State argues maturity/heinousness justifies differential treatment; critics say it's arbitrary (no psychological assessment mandate). (b) Art 21: \"Procedure established by law\" must be fair, just, reasonable — the preliminary assessment by JJ Board (Sec 15) lacks standardized psychological evaluation, risking arbitrariness. (c) UNCRC Art 37: Life imprisonment without release for under-18 is prohibited; JJ Act 2015 Sec 21(2) caps sentence at max 3 years in special home *unless* tried as adult — if tried as adult, life imprisonment possible, violating UNCRC. (d) *Pratap Singh*: age at offence date determines juvenility; *Shabnam Hashmi*: adoption rights under JJ Act override personal law. The Supreme Court in *Child Rights Trust v. UOI* (2023) is currently examining this. A student who says \"it's valid because Parliament passed it\" fails to engage with *constitutional scrutiny* — the core of critical analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 150-word policy brief for the Law Commission proposing *one specific amendment* to the RTE Act 2009 to address the \"out-of-school children\" crisis (estimated 6-10 million post-COVID). Your proposal must: (i) cite the exact Section to amend; (ii) ground it in Article 21A and UNCRC Article 28; (iii) include a measurable implementation mechanism; (iv) address the private-school 25% quota (Sec 12(1)(c)) enforcement gap.",
+     "a": "**Policy Brief**: Amend RTE Act Sec 4 (Special Training for out-of-school children) to mandate: (1) **Universal child-tracking database** (linked to Aadhaar/Birth Registration) updated quarterly by local bodies — identifies every 6-14 year old not enrolled; (2) **Time-bound Special Training**: 90-day bridge course *before* age-appropriate admission, funded per-child (not per-school); (3) **Sec 12(1)(c) enforcement**: Private schools failing 25% quota lose recognition *and* face penalty = 2x per-child reimbursement; reimbursement auto-credited via DBT to school only after verified admission of EWS child. Grounding: Art 21A makes education a *justiciable* right — state cannot plead resource constraints (Unni Krishnan); UNCRC Art 28 requires \"progressive achievement\" with \"measures to encourage regular attendance.\" Current Sec 4 lacks tracking, funding, and penalty teeth. A vague proposal (\"improve implementation\") without *statutory specificity* and *measurable mechanisms* fails the application test.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

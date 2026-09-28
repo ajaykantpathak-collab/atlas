@@ -1,0 +1,233 @@
+{
+ "catalog": "catalog_class11_physics_keph206.json",
+ "concepts": [
+  {
+   "id": "keph206.13.5.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "omega = 60",
+      "displacement = 479",
+      "accel_mag = omega ** 2 * displacement"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "omega = 0.6",
+      "displacement = 292",
+      "accel_mag = omega ** 2 * displacement"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "omega = 69",
+      "displacement = 289",
+      "accel_mag = omega ** 2 * displacement"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "omega = 41",
+      "displacement = 1",
+      "accel_mag = omega ** 2 * displacement"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "omega = 95",
+      "displacement = 46",
+      "accel_mag = omega ** 2 * displacement"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "omega = 75",
+      "displacement = 101",
+      "accel_mag = omega ** 2 * displacement"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "accel_mag = omega ** 2 * displacement"
+   ]
+  },
+  {
+   "id": "keph206.13.6.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mass = 101",
+      "spring_const = 81",
+      "period = 2 * pi * sqrt(mass / spring_const)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mass = 134",
+      "spring_const = 19.2",
+      "period = 2 * pi * sqrt(mass / spring_const)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mass = 93",
+      "spring_const = 75",
+      "period = 2 * pi * sqrt(mass / spring_const)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mass = 140",
+      "spring_const = 7.7",
+      "period = 2 * pi * sqrt(mass / spring_const)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mass = 183",
+      "spring_const = 57",
+      "period = 2 * pi * sqrt(mass / spring_const)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mass = 10.9",
+      "spring_const = 49",
+      "period = 2 * pi * sqrt(mass / spring_const)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "period = 2 * pi * sqrt(mass / spring_const)"
+   ]
+  },
+  {
+   "id": "keph206.13.7.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "spring_const = 15",
+      "amplitude = 93",
+      "total_energy = 0.5 * spring_const * amplitude ** 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "spring_const = 41",
+      "amplitude = 47",
+      "total_energy = 0.5 * spring_const * amplitude ** 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "spring_const = 4.8",
+      "amplitude = 29",
+      "total_energy = 0.5 * spring_const * amplitude ** 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "spring_const = 23",
+      "amplitude = 21",
+      "total_energy = 0.5 * spring_const * amplitude ** 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "spring_const = 81",
+      "amplitude = 58",
+      "total_energy = 0.5 * spring_const * amplitude ** 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "spring_const = 62",
+      "amplitude = 66",
+      "total_energy = 0.5 * spring_const * amplitude ** 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_energy = 0.5 * spring_const * amplitude ** 2"
+   ]
+  },
+  {
+   "id": "keph206.13.8.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "pend_length = 461",
+      "gravity = 4",
+      "period_p = 2 * pi * sqrt(pend_length / gravity)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pend_length = 124",
+      "gravity = 0.9",
+      "period_p = 2 * pi * sqrt(pend_length / gravity)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "pend_length = 94",
+      "gravity = 68",
+      "period_p = 2 * pi * sqrt(pend_length / gravity)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "pend_length = 221",
+      "gravity = 10.4",
+      "period_p = 2 * pi * sqrt(pend_length / gravity)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "pend_length = 12.6",
+      "gravity = 27",
+      "period_p = 2 * pi * sqrt(pend_length / gravity)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "pend_length = 253",
+      "gravity = 54",
+      "period_p = 2 * pi * sqrt(pend_length / gravity)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "period_p = 2 * pi * sqrt(pend_length / gravity)"
+   ]
+  }
+ ]
+}

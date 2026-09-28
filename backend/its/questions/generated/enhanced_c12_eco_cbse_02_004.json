@@ -34,6 +34,31 @@
      "q": "Create your own example of two goods a student might consume (e.g., samosas and cold drinks). Draw a set of three indifference curves (IC₁, IC₂, IC₃) with IC₃ highest. Label two bundles on IC₂: one with more samosas/fewer drinks, another with fewer samosas/more drinks. Explain in 2-3 sentences why the consumer is indifferent between them, and why IC₃ is preferred to IC₂.",
      "a": "**Example:** Goods = Samosas (X) and Cold Drinks (Y).  \n- IC₂ passes through Bundle P (3 samosas, 2 drinks) and Bundle Q (1 samosa, 5 drinks).  \n- Consumer is indifferent because **the extra satisfaction from 2 more samosas in P exactly compensates for the loss of 3 drinks** compared to Q — total utility is equal.  \n- IC₃ lies to the northeast of IC₂ (e.g., passes through 4 samosas, 3 drinks). By **monotonicity**, this bundle has more of *both* goods than any on IC₂ ⇒ strictly preferred.  \n**Good answer criteria:** Correctly labels axes, shows downward-sloping convex curves, identifies bundles on same IC, uses \"compensation\" and \"monotonicity\" in explanation.  \n**Poor answer reveals:** If bundles on IC₂ don't show a trade-off (e.g., both have more of one good), or if IC₃ is not northeast, the student hasn't internalized the geometry of preferences.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An indifference curve (IC) is a graphical ______ showing all combinations of two goods (e.g., apples and bananas) that provide a consumer with the same level of satisfaction (utility).",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You like both, but you don't ______ happiness in \"utils\" anymore — you just know that 2 apples + 3 bananas feels just as satisfying as 3 apples + 1 banana.",
+     "a": "measure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now ask: \"If I give up ______ apple, how many extra bananas do I need to feel equally happy?\" That trade-off is the Marginal Rate of Substitution (MRS) — but we only *introduce* the idea here; we calculate it in the next node.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Draw and label a set of indifference curves correctly, explaining why they slope downward and are convex to the origin.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You like both, but you don't measure happiness in \"utils\" anymore — you just know that 2 apples + 3 bananas feels just as ______ as 3 apples + 1 banana.",
+     "a": "satisfying",
+     "self_check": true
     }
    ]
   }

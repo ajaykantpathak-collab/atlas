@@ -34,6 +34,36 @@
      "q": "Create a scenario where a company issues debentures at a discount and also pays underwriting commission. Design a journal entry that records both on the same date, and explain how the two amounts will be presented in the Balance Sheet after 2 years if the company writes them off equally over 5 years.",
      "a": "**Scenario:** TechNova Ltd. issues 5,000, 8% debentures of ₹100 each at a 10% discount. Underwriting commission @ 2% is payable.  \n**Journal Entry (on allotment):**  \nBank A/c Dr. 45,00,000 (5,000 × ₹90)  \nDiscount on Issue of Debentures A/c Dr. 5,00,000 (5,000 × ₹10)  \nUnderwriting Commission A/c Dr. 1,00,000 (5,000 × ₹100 × 2%)  \nTo 8% Debentures A/c 50,00,000  \nTo Underwriters A/c 1,00,000  \n**After 2 years (amortisation 1/5 per year):**  \nDiscount on Issue of Debentures written off = ₹2,00,000; balance = ₹3,00,000 (Other Non-Current Assets).  \nUnderwriting Commission written off = ₹40,000; balance = ₹60,000 (Other Non-Current Assets).  \nBoth appear under \"Other Non-Current Assets\" as separate line items. A poor answer merges the two accounts, uses wrong percentages, or shows them as current assets, revealing inability to synthesise multiple capital-loss items.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ commission is the fee paid to underwriters for guaranteeing the subscription of a company's shares or debentures; preliminary expenses are costs incurred during the formation of a company (e.g., legal fees, registration fees); discount on issue is the amount by which the issue price of shares or debentures is less than their face value.",
+     "a": "Underwriting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a startup, \"______ Ltd.\", wants to raise ₹50 crore by issuing shares to the public.",
+     "a": "GreenEnergy",
+     "self_check": true
+    },
+    {
+     "q": "What is Underwriting commission? State the definition given in this lesson.",
+     "a": "Underwriting commission is the fee paid to underwriters for guaranteeing the subscription of a company's shares or debentures; preliminary expenses are costs incurred during the formation of a company (e.g., legal fees, registration fees); discount on issue is the amount by which the issue price of shares or debentures is less than their.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: All three are treated as capital losses and written off against securities premium or profit and loss over time as per Companies Act, ______ and Schedule III.",
+     "a": "2013",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Underwriting commission?",
+     "a": "Students often think discount on issue of shares is a \"reduction from share capital\" and show it as a negative item under Share Capital on the face of the Balance Sheet (as per pre-2013 Schedule VI).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) calculate the maximum permissible underwriting commission as per Section 40(6) of Companies Act, 2013, (2) pass journal entries for underwriting commission payable, preliminary expenses incurred, and discount on issue of shares/debentures, and (3) correctly present the unamortised balances in the Balance.",
+     "self_check": true
     }
    ]
   }

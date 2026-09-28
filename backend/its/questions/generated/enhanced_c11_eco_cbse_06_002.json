@@ -34,6 +34,31 @@
      "q": "Design a 5-question survey to distinguish between *open unemployment*, *disguised unemployment*, and *seasonal unemployment* among rural households in your district. For each question, state which type it identifies and the expected response pattern.",
      "a": "1. \"Did you work at least 1 hour for pay/profit/family gain in the last 7 days?\" → **Open unemployment**: \"No\" + actively seeking work.  \n2. \"If more family members work on your farm, does total output increase?\" → **Disguised unemployment**: \"No\" (marginal product ≈ zero).  \n3. \"In which months did you have no farm work and migrate to town?\" → **Seasonal unemployment**: Names lean months (e.g., May–June).  \n4. \"Are you registered at an employment exchange or applied for jobs recently?\" → **Open unemployment**: \"Yes\" confirms active search.  \n5. \"Would you accept a regular job at the prevailing wage if available in your village?\" → **All types**: \"Yes\" reveals willingness; distinguishes voluntary non-participation.  \n*Poor answer*: questions are vague (\"Are you jobless?\"), don’t separate the three types, or ignore the \"seeking work\" criterion for open unemployment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ Active Population (Labour Force) comprises all persons who are either working (workforce) or seeking/available for work (unemployed) during a specified reference period.",
+     "a": "Economically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ at a busy Delhi Metro station at 8 AM: you see office-goers with ID cards, a street vendor setting up a tea stall, a daily-wage mason waiting for a contractor, and a few people scanning job notices.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Worker-Population Ratio (WPR) = (Workforce ÷ Total Population) × ______, indicating the proportion of population actively contributing to Gross National Product.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) distinguish between labour force, workforce, and unemployed using the \"activity status\" criterion; (2) calculate WPR from given population and workforce data and interpret its gender/regional disparities; (3) classify a worker as self-employed, regular salaried, or casual wage labourer based on employment status; (4).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing at a busy Delhi Metro station at 8 AM: you see office-goers with ID cards, a street vendor setting up a tea stall, a daily-wage mason waiting for a ______, and a few people scanning job notices.",
+     "a": "contractor",
+     "self_check": true
     }
    ]
   }

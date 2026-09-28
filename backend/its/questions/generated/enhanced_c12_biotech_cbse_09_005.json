@@ -34,6 +34,31 @@
      "q": "Design a minimal experimental workflow to prove that a newly isolated population of plastic-adherent cells from human umbilical cord tissue (Wharton's jelly) qualifies as MSCs. Include controls and readouts for each ISCT criterion.",
      "a": "1. **Plastic adherence**: Plate cells in standard MSC medium (DMEM/F12 + 10% FBS); confirm >90% adherence at 24h. Control: non-adherent fraction discarded. 2. **Surface markers**: Flow cytometry for CD73, CD90, CD105 (≥95% positive) and CD45, CD34, CD14/CD11b, CD19/CD79α, HLA-DR (≤2% positive). Controls: isotype controls, fluorescence minus one (FMO). 3. **Trilineage differentiation**: Induce osteogenesis (β-glycerophosphate, ascorbate, dexamethasone), adipogenesis (IBMX, dexamethasone, insulin, indomethacin), chondrogenesis (pellet culture with TGF-β3); stain for Alizarin Red (mineralization), Oil Red O (lipid droplets), Alcian Blue (sulfated GAGs). Controls: uninduced cultures. A poor answer omits quantitative thresholds (≥95%/≤2%), skips negative marker panel, or uses only qualitative staining — indicating the student doesn't grasp the *rigor* required for publication/clinical-grade characterization.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mesenchymal stem cells (MSCs) are multipotent adult stem cells of mesodermal origin that can self-renew and differentiate into multiple lineages of connective tissue cells — including osteoblasts (bone), chondrocytes (cartilage), and adipocytes (fat) — and are characterized by their plastic adherence, specific surface marker expression (CD73+, CD90+, CD105+, CD45−, CD34−, CD14−/CD11b−, CD19−/CD79α−, HLA-DR−), and ______ properties.",
+     "a": "immunomodulatory",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a patient with a severe ______ defect in the knee — the cushioning tissue doesn't heal because it lacks blood supply.",
+     "a": "cartilage",
+     "self_check": true
+    },
+    {
+     "q": "What is Mesenchymal stem cells (MSCs)? State the definition given in this lesson.",
+     "a": "Mesenchymal stem cells (MSCs) are multipotent adult stem cells of mesodermal origin that can self-renew and differentiate into multiple lineages of connective tissue cells — including osteoblasts (bone), chondrocytes (cartilage), and adipocytes (fat) — and are characterized by their plastic adherence, specific surface marker expression.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Mesenchymal stem cells (MSCs)?",
+     "a": "Students often believe MSCs *directly differentiate and replace* damaged cells in vivo as their primary mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) list the minimal criteria defining MSCs (plastic adherence, trilineage differentiation, surface marker profile) and (2) explain how MSC properties (immunomodulation, homing, trophic support) enable their therapeutic applications in regenerative medicine, distinguishing them from hematopoietic stem cells.",
+     "self_check": true
     }
    ]
   }

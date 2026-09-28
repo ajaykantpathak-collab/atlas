@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_01_006",
+   "title": "c11_app_cbse_01_006",
+   "questions": [
+    {
+     "q": "Write the logarithmic form of 5⁻² = 1/25 and the exponential form of log₃(1/27) = -3.",
+     "a": "log₅(1/25) = -2 and 3⁻³ = 1/27. A wrong answer like log₅(-2) = 1/25 reveals the student thinks the exponent becomes the base or argument; writing 3³ = 1/27 shows they miss the negative sign, confusing reciprocal with negative exponent.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why log₁₀(0) is undefined, but log₁₀(0.001) = -3. Use the definition of logarithm as an exponent to justify.",
+     "a": "log₁₀(0) asks: \"10 raised to what power gives 0?\" No real exponent works because 10ˣ > 0 for all real x. But 10⁻³ = 1/1000 = 0.001, so log₁₀(0.001) = -3. A student saying \"log of zero is negative infinity\" is applying calculus intuition incorrectly; at this level, it's simply undefined because no real exponent satisfies the equation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate without a calculator: log₄(8) + log₈(4). Show all steps using the definition of logarithm.",
+     "a": "Let log₄(8) = x → 4ˣ = 8 → (2²)ˣ = 2³ → 2²ˣ = 2³ → 2x = 3 → x = 3/2.\nLet log₈(4) = y → 8ʸ = 4 → (2³)ʸ = 2² → 2³ʸ = 2² → 3y = 2 → y = 2/3.\nSum = 3/2 + 2/3 = 9/6 + 4/6 = 13/6. A student getting 1 reveals they added arguments (8+4=12) or bases; getting 6/5 reveals they multiplied instead of converted to common base.",
+     "self_check": true
+    },
+    {
+     "q": "Compare: log₂(16) vs log₄(16). Which is larger? Justify using the definition, not computation.",
+     "a": "log₂(16) = 4 because 2⁴ = 16. log₄(16) = 2 because 4² = 16. Since the base 2 is smaller, it needs a larger exponent to reach 16. In general, for N > 1, if 0 < b₁ < b₂, then log_{b₁}(N) > log_{b₂}(N). A student saying they're equal because \"both give 16\" confuses the argument with the value of the log.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"antilog₁₀(-2.3010) = -200 because log₁₀(200) ≈ 2.3010 and the negative sign flips the number.\" Evaluate this claim and correct the error.",
+     "a": "The claim is false. antilog₁₀(-2.3010) = 10⁻²·³⁰¹⁰ = 1/10²·³⁰¹⁰ ≈ 1/200 = 0.005. The negative exponent gives a reciprocal, not a negative number. The student confuses the sign of the logarithm (which indicates the number is < 1) with the sign of the antilogarithm (which is always positive for base > 0). This is a critical error: antilogarithm of any real number is always positive.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where you would use a logarithm with base other than 10 or e, and write the corresponding logarithmic equation.",
+     "a": "Example: \"A fixed deposit doubles every 7 years. How many doubling periods to grow 8 times?\" Equation: 2ˣ = 8 → x = log₂(8) = 3. Good answers use base 2 (doubling), base 1.5 (50% growth), or base 3 (tripling), and correctly set up bˣ = N. Poor answers use base 10 arbitrarily or write log₁₀(8)/log₁₀(2) without justifying why base 2 is natural here.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

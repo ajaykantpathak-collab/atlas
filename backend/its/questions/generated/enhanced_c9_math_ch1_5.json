@@ -34,6 +34,21 @@
      "q": "Create a real-world problem (Indian context) where the distance between two points on a line parallel to an axis must be found. Provide the coordinates and ask for the distance. Ensure your problem requires the solver to recognize which coordinate is constant.",
      "a": "Example: \"Two electric poles are located on the same north-south road. Pole A is at coordinate (100, 50) and Pole B is at (100, 120) where units are in metres. Find the distance between the poles.\" Expected solution: Since x-coordinates are equal (100), the road is vertical (parallel to y-axis). Distance = |120 - 50| = 70 metres. A poor problem would have both coordinates changing, or would not specify the context clearly, showing the student cannot distinguish between axis-parallel and general distance situations.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The distance between two points on a line parallel to the x-axis is the absolute ______ of their x-coordinates, since their y-coordinates are equal.",
+     "a": "difference",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two friends, Arjun and Meera, ______ on the same east-west road in their village.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify when a line segment is parallel to an axis, choose the correct simplified distance formula (|x₂ - x₁| or |y₂ - y₁|), compute the distance accurately, and explain why the general distance formula reduces to this simpler form in these special cases.",
+     "self_check": true
     }
    ]
   }

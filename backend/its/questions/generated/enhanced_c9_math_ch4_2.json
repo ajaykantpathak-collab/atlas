@@ -34,6 +34,21 @@
      "q": "A student claims: \"a² - b² = (a-b)².\" Evaluate this claim and show why it is wrong using a numerical example.",
      "a": "The claim is wrong. (a-b)² = a² - 2ab + b², not a² - b². The difference is the -2ab term. Numerical example: Let a = 5, b = 3. a² - b² = 25 - 9 = 16. (a-b)² = (5-3)² = 4. 16 ≠ 4. The correct identity is a² - b² = (a+b)(a-b), not (a-b)². A wrong evaluation (agreeing with the student) confuses difference of squares with square of difference.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The algebraic identity a² - b² = (a+b)(a-b) states that the difference of two squares equals the product of the sum and difference of the two terms, enabling factorisation of quadratic expressions, ______ of algebraic fractions, and rapid mental computation of differences of squares without direct multiplication.",
+     "a": "simplification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Direct ______: 55² = 3025, 45² = 2025, difference = 1000.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can state the identity a² - b² = (a+b)(a-b), prove it by expanding (a+b)(a-b), apply it to factorise expressions of the form x² - k², and use it for numerical computation (e.g., 51² - 49² = (51+49)(51-49) = 100 × 2 = 200).",
+     "self_check": true
     }
    ]
   }

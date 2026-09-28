@@ -34,6 +34,21 @@
      "q": "Design a two-step synthesis of 4-aminoazobenzene (p-aminoazobenzene) starting from nitrobenzene. Write all reagents, conditions, and intermediate structures.",
      "a": "Step 1: Nitrobenzene → Aniline via reduction (Sn/HCl or Fe/HCl or H₂/Pd). Step 2: Aniline → Benzenediazonium chloride (NaNO₂/HCl, 273–278 K). Step 3: Coupling with aniline (excess aniline in mild acid, 273–278 K) → p-aminoazobenzene. Overall: C₆H₅NO₂ → C₆H₅NH₂ → C₆H₅N₂⁺Cl⁻ → p-H₂NC₆H₄–N=N–C₆H₅. A poor answer (e.g., direct coupling of nitrobenzene) reveals the student does not know that nitrobenzene is too deactivated for coupling and that diazonium salt must be prepared from aniline first.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A coupling reaction is an ______ aromatic substitution where an aryldiazonium ion (Ar–N₂⁺X⁻) acts as an electrophile and attacks the para position (or ortho if para is blocked) of an electron-rich aromatic ring (phenol or aromatic amine) to form an azo compound (Ar–N=N–Ar') with an extended conjugated system, which appears coloured and is used as an azo dye.",
+     "a": "electrophilic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a strip of methyl orange ______ paper changing from red to yellow as pH shifts — this colour change comes from an azo dye (methyl orange) whose structure contains an –N=N– bridge between two aromatic rings.",
+     "a": "indicator",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) write the complete mechanism of coupling reaction showing electrophilic attack of diazonium ion on phenol/aniline, (2) predict the major product (para vs ortho) based on substitution pattern, (3) explain why coupling occurs only with activated aromatic rings (phenols, anilines) and not with benzene or deactivated rings.",
+     "self_check": true
     }
    ]
   }

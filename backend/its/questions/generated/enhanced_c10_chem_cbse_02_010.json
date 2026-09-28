@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using only red and blue litmus paper to distinguish between three unlabelled salt solutions: sodium chloride, sodium carbonate, and ammonium chloride. Describe the expected observations and the conclusion for each.",
      "a": "Test each solution with both litmus papers. NaCl: no colour change on either (neutral). Na₂CO₃: red litmus turns blue (basic), blue stays blue. NH₄Cl: blue litmus turns red (acidic), red stays red. A poor answer that only uses one litmus paper or predicts NaCl turns blue litmus red reveals inability to design a controlled test and confusion about neutral salt behaviour.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A family of salts is a group of salts sharing either the same cation (e.g., sodium salts: NaCl, Na₂SO₄, NaNO₃) or the same anion (e.g., ______ salts: NaCl, KCl, NH₄Cl).",
+     "a": "chloride",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe that table salt (NaCl) solution feels neutral on skin, but washing soda (Na₂CO₃) solution feels soapy and turns red litmus blue, while ______ chloride (NH₄Cl) solution turns blue litmus red.",
+     "a": "ammonium",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify the parent acid and base of any given salt, classify the salt into its correct family, predict whether its aqueous solution will be acidic, basic, or neutral with justification, and explain the hydrolysis reaction responsible for the pH.",
+     "self_check": true
     }
    ]
   }

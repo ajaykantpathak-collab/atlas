@@ -286,7 +286,7 @@
     "state examples of bank errors and cash book errors",
     "explain errors in cash book and bank pass book"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -298,7 +298,16 @@
      "action": "Evaluate impact",
      "explain": "Determine if the error inflated or deflated the cash book or passbook balance relative to the correct figure."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "error_amount = recorded_amount - actual_amount",
+     "compute": "error_amount = recorded_amount - actual_amount"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

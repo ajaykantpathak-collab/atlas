@@ -34,6 +34,31 @@
      "q": "Construct a relation R on the set A = {1, 2, 3} that is reflexive and symmetric but NOT transitive. Write R as a set of ordered pairs and prove each property (or disprove transitivity with a counterexample).",
      "a": "One valid answer: R = {(1,1), (2,2), (3,3), (1,2), (2,1), (2,3), (3,2)}.\nReflexive: (1,1), (2,2), (3,3) ∈ R ✓.\nSymmetric: (1,2)↔(2,1), (2,3)↔(3,2) ✓.\nNot transitive: (1,2) ∈ R and (2,3) ∈ R but (1,3) ∉ R ✓.\nA poor answer might give R = {(1,1), (2,2), (3,3)} (which IS transitive) or R = {(1,1), (2,2), (3,3), (1,2), (2,1)} (also transitive because no chain of two non-diagonal pairs exists). This reveals the student doesn't understand that transitivity requires checking ALL possible chains (a,b) and (b,c) — if no such chain exists, transitivity holds vacuously.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A relation R on a set A is a subset of the ______ product A × A.",
+     "a": "Cartesian",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are organising a school sports day and need to ______ students for relay races.",
+     "a": "group",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To check, ask: (______) Is every student in a group with themselves?",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Determine whether a given relation (defined by a rule, set of ordered pairs, or real-world condition) is reflexive, symmetric, and/or transitive by checking the defining conditions against all elements or finding counterexamples; (2) Prove a relation is an equivalence relation by verifying all three.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a school sports day and need to group students for relay races.",
+     "a": "organising",
+     "self_check": true
     }
    ]
   }

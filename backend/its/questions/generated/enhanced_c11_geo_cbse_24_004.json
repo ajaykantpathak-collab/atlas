@@ -34,6 +34,31 @@
      "q": "Design a step-by-step field verification protocol for a Class 11 student to confirm a \"spur\" identified on a 1:50,000 toposheet (contour values 280m, 300m, 320m on spur; main ridge at 360m). The protocol must use only a compass, clinometer, GPS, and the toposheet - no satellite imagery. Include how to distinguish it from a ridge in the field.",
      "a": "**Protocol:**\n1. **Locate on ground:** Use GPS + toposheet grid to reach spur crest (e.g., 300m contour).\n2. **Measure orientation:** Compass bearing along spur crest → should align with contour projection direction on map.\n3. **Profile slope:** Clinometer readings perpendicular to crest → should show **steep drop on both sides** (valley slopes), gentle slope along crest.\n4. **Check connectivity:** Walk downslope along crest → must **descend continuously to main ridge** (360m) without crossing a higher divide. If you must climb up to reach main ridge → it's a separate hill, not a spur.\n5. **Verify hierarchy:** From main ridge, observe spur as **subsidiary projection** (lower elevation, shorter length).\n**Distinction from ridge:** On a ridge, walking along crest in **both directions** leads to higher ground or continues as primary watershed. On a spur, **one direction leads up to main ridge**, the other descends to valley floor.\nPoor protocol (e.g., \"just walk and see\") reveals inability to **operationalize contour geometry into field observables** - the core skill of topographical analysis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Landform ______ on topographical maps is the systematic interpretation of contour patterns to recognize four key relief features: valleys (V/U-shaped contours pointing upslope), ridges (V/U-shaped contours pointing downslope), spurs (tongue-like contour projections from higher ground), and saddles (hourglass-shaped contours between two summits).",
+     "a": "identification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine ______ on a hilltop in the Western Ghats near Mahabaleshwar during monsoon - you see deep valleys cutting into the plateau, ridges radiating outward, and saddles connecting adjacent peaks.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What is Landform identification on topographical maps? State the definition given in this lesson.",
+     "a": "Landform identification on topographical maps is the systematic interpretation of contour patterns to recognize four key relief features: valleys (V/U-shaped contours pointing upslope), ridges (V/U-shaped contours pointing downslope), spurs (tongue-like contour projections from higher ground), and saddles (hourglass-shaped contours.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Landform identification on topographical maps?",
+     "a": "Students consistently reverse the \"V-rule\" for valleys vs. ridges: they think \"V points downstream\" for both, or memorize \"valley = V pointing up, ridge = V pointing down\" without understanding why.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently identify and label valleys, ridges, spurs, and saddles on an unfamiliar 1:50,000 Survey of India toposheet extract, justify each identification using contour geometry (shape, spacing, elevation values), and distinguish between similar-looking features (e.g., spur vs. ridge, saddle vs. col) with correct.",
+     "self_check": true
     }
    ]
   }

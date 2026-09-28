@@ -34,6 +34,31 @@
      "q": "Construct a table comparing the four revenue methods described in the Ain (Source 7): Kankut, Batai, Khet-batai, Lang batai. Columns: Method, Stage of Division, Who Divides, Risk Bearer, Best Suited For.",
      "a": "A good answer produces a table like:\n| Method | Stage | Who Divides | Risk Bearer | Best Suited For |\n|--------|-------|-------------|-------------|-----------------|\n| Kankut | Pre-harvest (estimation) | Appraiser + peasant | Peasant | Measured areas, cash economy |\n| Batai | Post-harvest (heaps) | Inspectors + parties | Shared | Unmeasured, high-value crops |\n| Khet-batai | Post-sowing (fields) | Parties | Shared | Areas where crop not yet grown |\n| Lang batai | Post-cutting (heaps) | Parties | Shared | Quick division, low supervision |\nA poor answer merges Batai variants or misplaces the division stage, showing **inability to extract procedural detail from a primary source** — a skill tested in board source-based questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: 1556–1707) was the state's mechanism for assessing (jama) and collecting (hasil) the ______ surplus as its primary income source.",
+     "a": "agricultural",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a revenue ______ (amin) in 1595 sent to a village near Agra with a measuring rope (jarib) and the Ain's dastur-ul-amal (revenue manual).",
+     "a": "official",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a revenue official (amin) in ______ sent to a village near Agra with a measuring rope (jarib) and the Ain's dastur-ul-amal (revenue manual).",
+     "a": "1595",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) distinguish between Zabt, Kankut, Batai, and their variants by explaining the operational steps of each; (2) apply Akbar's four-fold land classification to a given village scenario and compute the revenue demand; (3) evaluate the system's flexibility and its impact on peasants and state finances using contemporary.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a revenue official (amin) in 1595 sent to a village near Agra with a ______ rope (jarib) and the Ain's dastur-ul-amal (revenue manual).",
+     "a": "measuring",
+     "self_check": true
     }
    ]
   }

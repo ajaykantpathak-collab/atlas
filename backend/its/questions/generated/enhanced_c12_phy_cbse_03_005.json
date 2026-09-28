@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a 1.5 V cell, two resistors (10 Ω and 20 Ω), a multimeter, and connecting wires to verify Kirchhoff's Loop Rule. Describe the circuit, measurements, and how you would confirm ΣV = 0.",
      "a": "Connect the cell in series with the two resistors. Measure the terminal voltage of the cell (V_cell) and the voltage across each resistor (V₁, V₂) with the multimeter. According to the loop rule, V_cell - V₁ - V₂ = 0 (if the cell's internal resistance is negligible). Verify that V₁ + V₂ equals V_cell within measurement error. A good answer includes a circuit diagram, mentions polarity of multimeter leads, and notes that internal resistance of the cell and multimeter loading cause small deviations. A poor answer omits polarity or does not explain how the sum is checked.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Kirchhoff's Junction Rule states that at any junction in an electrical circuit, the algebraic sum of currents meeting at that junction is zero (ΣI = 0), reflecting ______ of charge.",
+     "a": "conservation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ wiring junction where a main line splits into three branches for a fan, a tubelight, and a socket.",
+     "a": "household",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Kirchhoff's Junction Rule states that at any junction in an electrical circuit, the algebraic sum of currents meeting at that junction is zero (ΣI = ______), reflecting conservation of charge.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently assign current directions and loop traversals in a multi-loop circuit containing resistors and cells, write correct junction and loop equations with proper sign conventions, solve the resulting simultaneous equations for unknown currents, and verify the solution satisfies all loops and junctions.",
+     "self_check": true
     }
    ]
   }

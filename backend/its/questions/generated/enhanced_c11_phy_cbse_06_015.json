@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using household items to demonstrate that a solid cylinder rolls down an incline faster than a hollow cylinder of the same mass and radius. List the materials, procedure, and what measurements you would take.",
      "a": "Materials: Two identical cylindrical cans (one solid - filled with sand/clay and sealed; one hollow - empty), a wooden plank (1-2 m long), protractor, stopwatch, ruler. Procedure: Set plank at fixed angle (e.g., 30°). Mark start and finish lines. Release both cans simultaneously from rest. Measure time for each to reach bottom. Repeat 5 times. Expected: Solid can consistently wins. Measurements: time, angle, length. A poor answer uses objects of different radii or masses, or doesn't control the release mechanism, showing lack of understanding of controlled variables.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Rolling motion on an inclined plane is the combined ______ and rotational motion of a rigid body (cylinder, sphere, ring) moving down a slope under gravity while satisfying the pure rolling condition v = ωR, where the instantaneous point of contact has zero velocity relative to the plane.",
+     "a": "translational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a marble and a steel ball bearing roll down a slanted ______ plank in your school lab.",
+     "a": "wooden",
+     "self_check": true
+    },
+    {
+     "q": "What is Rolling motion on an inclined plane? State the definition given in this lesson.",
+     "a": "Rolling motion on an inclined plane is the combined translational and rotational motion of a rigid body (cylinder, sphere, ring) moving down a slope under gravity while satisfying the pure rolling condition v = ωR, where the instantaneous point of contact has zero velocity relative to the plane.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The linear acceleration of the centre of mass is a = g sinθ / (______ + I/(mR²)), where I is the moment of inertia about the symmetry axis, m is mass, R is radius, and θ is the angle of inclination.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Rolling motion on an inclined plane?",
+     "a": "Students believe that heavier objects roll down an incline faster because \"gravity pulls harder on them.\" They confuse the gravitational force (mg sinθ) with acceleration, forgetting that both translational inertia (m) and rotational inertia (I) scale with mass, so mass cancels out in a = g sinθ / (1 + I/(mR²)).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the acceleration formula for any symmetric rolling object on an incline using both force-torque and energy methods, calculate the minimum coefficient of friction required to prevent slipping, and rank objects by their time of descent given their moments of inertia.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a real-world scenario (different from plates, books, or browser history) that strictly follows LIFO. Describe the \"push\" and \"pop\" actions in your scenario and explain what would go wrong if FIFO were used instead.",
      "a": "Example: A ladder being climbed by a single person. Push = step up onto the next rung; Pop = step down from the current rung. You must step down from the rung you last stepped onto (LIFO). If FIFO were used (step down from the bottom rung first), the person would be suspended in mid-air — physically impossible. A good answer identifies a scenario where reversal is inherent and explains the consequence of violating it. A weak answer gives a scenario that could work with FIFO (e.g., a queue of people) or fails to articulate the \"what goes wrong\" part.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle, where insertion (push) and deletion (pop) ______ are performed only at one end called the top of the stack.",
+     "a": "operations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ plates in a cafeteria: you place a clean plate on top of the pile, and when someone needs a plate, they take the one from the very top.",
+     "a": "stacking",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify whether a given real-world scenario follows LIFO behaviour, draw the stack state after a sequence of push/pop operations, and explain why the restriction to one end is necessary for the LIFO property.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are stacking plates in a ______: you place a clean plate on top of the pile, and when someone needs a plate, they take the one from the very top.",
+     "a": "cafeteria",
+     "self_check": true
     }
    ]
   }

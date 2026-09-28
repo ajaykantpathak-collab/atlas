@@ -34,6 +34,31 @@
      "q": "Design a mini correlational study: choose two measurable psychological/behavioural variables relevant to Class 11 students, state your expected correlation (sign and rough magnitude), and describe how you would collect paired data from 30 students.",
      "a": "Example: X = \"hours of self-study per week\", Y = \"monthly test average (%)\". Expect moderate positive correlation (r ≈ +0.50). Collect via anonymous Google Form: two numerical questions, one week recall. Good answer shows: both variables are continuous/measurable, hypothesis is directional, sample size stated, method yields paired scores. Poor answer uses categorical variables (e.g., \"favourite subject\") or expects r = +1.0, revealing misunderstanding of variable types or real-world variability.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Correlational research is a non-experimental method that quantifies the strength and direction of the linear relationship between two continuous variables using a correlation coefficient (r) ranging from -1.0 to +1.0, without manipulating either variable, to determine whether changes in one variable are ______ associated with changes in another for prediction purposes.",
+     "a": "systematically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you notice that students who carry umbrellas to ______ often wear raincoats too.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What is Correlational research? State the definition given in this lesson.",
+     "a": "Correlational research is a non-experimental method that quantifies the strength and direction of the linear relationship between two continuous variables using a correlation coefficient (r) ranging from -1.0 to +1.0, without manipulating either variable, to determine whether changes in one variable are systematically associated with.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Correlational research?",
+     "a": "Students firmly believe that a high correlation coefficient (e.g., r = +0.90) means Variable X *causes* Variable Y.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly interpret any given correlation coefficient by stating its sign (direction), magnitude (strength), the predicted co-variation pattern, and explicitly acknowledge that correlation does not establish causation.",
+     "self_check": true
     }
    ]
   }

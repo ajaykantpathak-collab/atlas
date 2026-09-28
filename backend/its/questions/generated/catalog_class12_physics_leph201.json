@@ -1,0 +1,522 @@
+{
+ "catalog": "catalog_class12_physics_leph201.json",
+ "concepts": [
+  {
+   "id": "leph201.9.2.2.1",
+   "title": "Focal Length of Spherical Mirrors",
+   "converted_to_compute": true,
+   "formula": "focal_len = radius_curv / 2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "focal_len = radius_curv / 2",
+     "compute": "focal_len = radius_curv / 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Focal Length of Spherical Mirrors: given radius_curv = 27, find focal len.",
+     "a": "13.5",
+     "self_check": false
+    },
+    {
+     "q": "For Focal Length of Spherical Mirrors: given radius_curv = 21, find focal len.",
+     "a": "10.5",
+     "self_check": false
+    },
+    {
+     "q": "For Focal Length of Spherical Mirrors: given radius_curv = 32, find focal len.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "For Focal Length of Spherical Mirrors: given radius_curv = 5.7, find focal len.",
+     "a": "2.85",
+     "self_check": false
+    },
+    {
+     "q": "For Focal Length of Spherical Mirrors: given radius_curv = 8.9, find focal len.",
+     "a": "4.45",
+     "self_check": false
+    },
+    {
+     "q": "For Focal Length of Spherical Mirrors: given radius_curv = 13, find focal len.",
+     "a": "6.5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph201.9.2.3.2",
+   "title": "Linear Magnification by a Mirror",
+   "converted_to_compute": true,
+   "formula": "m = -v / u",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "m = -v / u",
+     "compute": "m = -v / u"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Linear Magnification by a Mirror: given v = 82, u = 75, find m.",
+     "a": "-1.09333",
+     "self_check": false
+    },
+    {
+     "q": "For Linear Magnification by a Mirror: given v = 77, u = 16.2, find m.",
+     "a": "-4.75309",
+     "self_check": false
+    },
+    {
+     "q": "For Linear Magnification by a Mirror: given v = 59, u = 49, find m.",
+     "a": "-1.20408",
+     "self_check": false
+    },
+    {
+     "q": "For Linear Magnification by a Mirror: given v = 11, u = 25, find m.",
+     "a": "-0.44",
+     "self_check": false
+    },
+    {
+     "q": "For Linear Magnification by a Mirror: given v = 78, u = 8, find m.",
+     "a": "-9.75",
+     "self_check": false
+    },
+    {
+     "q": "For Linear Magnification by a Mirror: given v = 26, u = 95, find m.",
+     "a": "-0.273684",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph201.9.3.1",
+   "title": "Refractive Index as a Speed Ratio",
+   "converted_to_compute": true,
+   "formula": "refr_index = speed_vacuum / speed_medium",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "refr_index = speed_vacuum / speed_medium",
+     "compute": "refr_index = speed_vacuum / speed_medium"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Refractive Index as a Speed Ratio: given speed_vacuum = 96, speed_medium = 104, find refr index.",
+     "a": "0.923077",
+     "self_check": false
+    },
+    {
+     "q": "For Refractive Index as a Speed Ratio: given speed_vacuum = 75, speed_medium = 35, find refr index.",
+     "a": "2.14286",
+     "self_check": false
+    },
+    {
+     "q": "For Refractive Index as a Speed Ratio: given speed_vacuum = 82, speed_medium = 114, find refr index.",
+     "a": "0.719298",
+     "self_check": false
+    },
+    {
+     "q": "For Refractive Index as a Speed Ratio: given speed_vacuum = 41, speed_medium = 79, find refr index.",
+     "a": "0.518987",
+     "self_check": false
+    },
+    {
+     "q": "For Refractive Index as a Speed Ratio: given speed_vacuum = 82, speed_medium = 40, find refr index.",
+     "a": "2.05",
+     "self_check": false
+    },
+    {
+     "q": "For Refractive Index as a Speed Ratio: given speed_vacuum = 63, speed_medium = 10.6, find refr index.",
+     "a": "5.9434",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph201.9.3.2",
+   "title": "Apparent Depth in a Refracting Medium",
+   "converted_to_compute": true,
+   "formula": "app_depth = real_depth / refr_index",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "app_depth = real_depth / refr_index",
+     "compute": "app_depth = real_depth / refr_index"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Apparent Depth in a Refracting Medium: given real_depth = 489, refr_index = 37, find app depth.",
+     "a": "13.2162",
+     "self_check": false
+    },
+    {
+     "q": "For Apparent Depth in a Refracting Medium: given real_depth = 412, refr_index = 93, find app depth.",
+     "a": "4.43011",
+     "self_check": false
+    },
+    {
+     "q": "For Apparent Depth in a Refracting Medium: given real_depth = 241, refr_index = 1.8, find app depth.",
+     "a": "133.889",
+     "self_check": false
+    },
+    {
+     "q": "For Apparent Depth in a Refracting Medium: given real_depth = 489, refr_index = 76, find app depth.",
+     "a": "6.43421",
+     "self_check": false
+    },
+    {
+     "q": "For Apparent Depth in a Refracting Medium: given real_depth = 350, refr_index = 31, find app depth.",
+     "a": "11.2903",
+     "self_check": false
+    },
+    {
+     "q": "For Apparent Depth in a Refracting Medium: given real_depth = 309, refr_index = 28, find app depth.",
+     "a": "11.0357",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph201.9.4.1",
+   "title": "Critical Angle and Total Internal Reflection",
+   "converted_to_compute": true,
+   "formula": "sine_crit = 1 / refr_index",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "sine_crit = 1 / refr_index",
+     "compute": "sine_crit = 1 / refr_index"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Critical Angle and Total Internal Reflection: given refr_index = 66, find sine crit.",
+     "a": "0.0151515",
+     "self_check": false
+    },
+    {
+     "q": "For Critical Angle and Total Internal Reflection: given refr_index = 14.2, find sine crit.",
+     "a": "0.0704225",
+     "self_check": false
+    },
+    {
+     "q": "For Critical Angle and Total Internal Reflection: given refr_index = 7.6, find sine crit.",
+     "a": "0.131579",
+     "self_check": false
+    },
+    {
+     "q": "For Critical Angle and Total Internal Reflection: given refr_index = 40, find sine crit.",
+     "a": "0.025",
+     "self_check": false
+    },
+    {
+     "q": "For Critical Angle and Total Internal Reflection: given refr_index = 81, find sine crit.",
+     "a": "0.0123457",
+     "self_check": false
+    },
+    {
+     "q": "For Critical Angle and Total Internal Reflection: given refr_index = 50, find sine crit.",
+     "a": "0.02",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph201.9.5.3.1",
+   "title": "Power of a Lens",
+   "converted_to_compute": true,
+   "formula": "P = 1 / f",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "P = 1 / f",
+     "compute": "P = 1 / f"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Power of a Lens: given f = 77, find P.",
+     "a": "0.012987",
+     "self_check": false
+    },
+    {
+     "q": "For Power of a Lens: given f = 49, find P.",
+     "a": "0.0204082",
+     "self_check": false
+    },
+    {
+     "q": "For Power of a Lens: given f = 3, find P.",
+     "a": "0.333333",
+     "self_check": false
+    },
+    {
+     "q": "For Power of a Lens: given f = 73, find P.",
+     "a": "0.0136986",
+     "self_check": false
+    },
+    {
+     "q": "For Power of a Lens: given f = 66, find P.",
+     "a": "0.0151515",
+     "self_check": false
+    },
+    {
+     "q": "For Power of a Lens: given f = 18.1, find P.",
+     "a": "0.0552486",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph201.9.6.1",
+   "title": "Thin Prism Deviation",
+   "converted_to_compute": true,
+   "formula": "dev_angle = (n_rel - 1) * prism_angle",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "dev_angle = (n_rel - 1) * prism_angle",
+     "compute": "dev_angle = (n_rel - 1) * prism_angle"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Thin Prism Deviation: given n_rel = 8.7, prism_angle = 62, find dev angle.",
+     "a": "477.4",
+     "self_check": false
+    },
+    {
+     "q": "For Thin Prism Deviation: given n_rel = 9.9, prism_angle = 85, find dev angle.",
+     "a": "756.5",
+     "self_check": false
+    },
+    {
+     "q": "For Thin Prism Deviation: given n_rel = 15.7, prism_angle = 171, find dev angle.",
+     "a": "2513.7",
+     "self_check": false
+    },
+    {
+     "q": "For Thin Prism Deviation: given n_rel = 14.4, prism_angle = 65, find dev angle.",
+     "a": "871",
+     "self_check": false
+    },
+    {
+     "q": "For Thin Prism Deviation: given n_rel = 17.6, prism_angle = 101, find dev angle.",
+     "a": "1676.6",
+     "self_check": false
+    },
+    {
+     "q": "For Thin Prism Deviation: given n_rel = 10.3, prism_angle = 70, find dev angle.",
+     "a": "651",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph201.9.6.2",
+   "title": "Minimum Deviation Through a Prism",
+   "converted_to_compute": true,
+   "formula": "n_2_1 = sin((A + Dm)/2) / sin(A/2)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "n_2_1 = sin((A + Dm)/2) / sin(A/2)",
+     "compute": "n_2_1 = sin((A + Dm)/2) / sin(A/2)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Minimum Deviation Through a Prism: given A = 68, Dm = 53, find n 2 1.",
+     "a": "-1.36861",
+     "self_check": false
+    },
+    {
+     "q": "For Minimum Deviation Through a Prism: given A = 25, Dm = 93, find n 2 1.",
+     "a": "-9.60072",
+     "self_check": false
+    },
+    {
+     "q": "For Minimum Deviation Through a Prism: given A = 15.4, Dm = 94, find n 2 1.",
+     "a": "-0.973156",
+     "self_check": false
+    },
+    {
+     "q": "For Minimum Deviation Through a Prism: given A = 58, Dm = 87, find n 2 1.",
+     "a": "0.363112",
+     "self_check": false
+    },
+    {
+     "q": "For Minimum Deviation Through a Prism: given A = 21, Dm = 93, find n 2 1.",
+     "a": "-0.495813",
+     "self_check": false
+    },
+    {
+     "q": "For Minimum Deviation Through a Prism: given A = 20, Dm = 65, find n 2 1.",
+     "a": "1.83097",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph201.9.7.1.1",
+   "title": "Simple Microscope Magnification",
+   "converted_to_compute": true,
+   "formula": "m = 1 + D/f",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "m = 1 + D/f",
+     "compute": "m = 1 + D/f"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Simple Microscope Magnification: given D = 36, f = 69, find m.",
+     "a": "1.52174",
+     "self_check": false
+    },
+    {
+     "q": "For Simple Microscope Magnification: given D = 62, f = 88, find m.",
+     "a": "1.70455",
+     "self_check": false
+    },
+    {
+     "q": "For Simple Microscope Magnification: given D = 9.2, f = 53, find m.",
+     "a": "1.17358",
+     "self_check": false
+    },
+    {
+     "q": "For Simple Microscope Magnification: given D = 92, f = 85, find m.",
+     "a": "2.08235",
+     "self_check": false
+    },
+    {
+     "q": "For Simple Microscope Magnification: given D = 29, f = 48, find m.",
+     "a": "1.60417",
+     "self_check": false
+    },
+    {
+     "q": "For Simple Microscope Magnification: given D = 1.4, f = 27, find m.",
+     "a": "1.05185",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph201.9.7.1.2",
+   "title": "Compound Microscope Magnification",
+   "converted_to_compute": true,
+   "formula": "m = (L/fo) * (D/fe)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "m = (L/fo) * (D/fe)",
+     "compute": "m = (L/fo) * (D/fe)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Compound Microscope Magnification: given L = 66, fo = 4.3, D = 18.9, fe = 33, find m.",
+     "a": "8.7907",
+     "self_check": false
+    },
+    {
+     "q": "For Compound Microscope Magnification: given L = 11.1, fo = 39, D = 28, fe = 26, find m.",
+     "a": "0.306509",
+     "self_check": false
+    },
+    {
+     "q": "For Compound Microscope Magnification: given L = 91, fo = 87, D = 78, fe = 79, find m.",
+     "a": "1.03274",
+     "self_check": false
+    },
+    {
+     "q": "For Compound Microscope Magnification: given L = 69, fo = 77, D = 15.6, fe = 89, find m.",
+     "a": "0.15707",
+     "self_check": false
+    },
+    {
+     "q": "For Compound Microscope Magnification: given L = 61, fo = 81, D = 3.6, fe = 5.3, find m.",
+     "a": "0.51153",
+     "self_check": false
+    },
+    {
+     "q": "For Compound Microscope Magnification: given L = 29, fo = 6.8, D = 72, fe = 10.7, find m.",
+     "a": "28.6971",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph201.9.7.2.1",
+   "title": "Telescope Magnifying Power",
+   "converted_to_compute": true,
+   "formula": "m = fo / fe",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "m = fo / fe",
+     "compute": "m = fo / fe"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Telescope Magnifying Power: given fo = 16.7, fe = 13.7, find m.",
+     "a": "1.21898",
+     "self_check": false
+    },
+    {
+     "q": "For Telescope Magnifying Power: given fo = 37, fe = 40, find m.",
+     "a": "0.925",
+     "self_check": false
+    },
+    {
+     "q": "For Telescope Magnifying Power: given fo = 23, fe = 74, find m.",
+     "a": "0.310811",
+     "self_check": false
+    },
+    {
+     "q": "For Telescope Magnifying Power: given fo = 82, fe = 78, find m.",
+     "a": "1.05128",
+     "self_check": false
+    },
+    {
+     "q": "For Telescope Magnifying Power: given fo = 59, fe = 4.3, find m.",
+     "a": "13.7209",
+     "self_check": false
+    },
+    {
+     "q": "For Telescope Magnifying Power: given fo = 91, fe = 82, find m.",
+     "a": "1.10976",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

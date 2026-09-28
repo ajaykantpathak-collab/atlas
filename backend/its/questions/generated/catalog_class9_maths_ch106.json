@@ -5,6 +5,8 @@
    "id": "iemh.106.1",
    "title": "Circumference of a Circle",
    "converted_to_compute": false,
+   "formula": "circumference = 2 * pi * radius",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 28 cm (take pi = 22/7).",
@@ -42,6 +44,8 @@
    "id": "iemh.106.2",
    "title": "Area of a Triangle (Heron's Formula)",
    "converted_to_compute": false,
+   "formula": "area = sqrt(s * (s - a) * (s - b) * (s - c)) where s = (a + b + c) / 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Use Heron's formula to find the area of the triangle with sides 3, 4 and 5.",
@@ -79,6 +83,8 @@
    "id": "iemh.106.3",
    "title": "Area of a Circle",
    "converted_to_compute": false,
+   "formula": "area = pi * radius ** 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 25 cm by 19 cm.",
@@ -116,6 +122,8 @@
    "id": "iemh.106.4",
    "title": "Area of a Sector",
    "converted_to_compute": false,
+   "formula": "area = (pi * radius ** 2) * (theta / 360)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 7 cm (take pi = 22/7).",
@@ -153,6 +161,8 @@
    "id": "iemh.106.5",
    "title": "Brahmagupta's Formula",
    "converted_to_compute": false,
+   "formula": "area = sqrt((s - a) * (s - b) * (s - c) * (s - d)) where s = (a + b + c + d) / 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers 1 and -13.",

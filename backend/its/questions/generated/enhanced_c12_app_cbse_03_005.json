@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_03_005",
+   "title": "c12_app_cbse_03_005",
+   "questions": [
+    {
+     "q": "State the formula for dy/dx when x = f(t) and y = g(t), and state the necessary condition for it to be valid.",
+     "a": "dy/dx = (dy/dt) / (dx/dt), provided dx/dt ≠ 0. A wrong answer (e.g., omitting the condition, writing dx/dy instead, or saying \"dy/dx = dy/dt × dx/dt\") reveals the student has memorized the formula without understanding the chain rule derivation or the geometric meaning of division by zero (vertical tangent).",
+     "self_check": true
+    },
+    {
+     "q": "A student computes dy/dx for x = t², y = t³ as dy/dx = (3t²)/(2t) = (3/2)t, then simplifies to dy/dx = (3/2)√x. Is this simplification always valid? Explain why or why not.",
+     "a": "No, it is not always valid. The simplification assumes t = √x, but t = ±√x. The parametric curve x = t², y = t³ represents y² = x³, which has two branches (t ≥ 0 and t ≤ 0). Writing dy/dx = (3/2)√x only captures the upper branch (t ≥ 0). A wrong answer reveals the student ignores the domain of the parameter and the fact that parametric curves can have multiple y-values for one x, unlike functions y = f(x).",
+     "self_check": true
+    },
+    {
+     "q": "Find dy/dx and d²y/dx² for the parametric curve x = a(θ - sin θ), y = a(1 - cos θ) at θ = π/2. (This is a cycloid.)",
+     "a": "dx/dθ = a(1 - cos θ), dy/dθ = a sin θ. At θ = π/2: dx/dθ = a, dy/dθ = a → dy/dx = 1.\nFor d²y/dx²: d/dθ(dy/dx) = d/dθ(tan(θ/2)) = (1/2)sec²(θ/2). At θ = π/2, this = (1/2)sec²(π/4) = 1.\nThen d²y/dx² = [d/dθ(dy/dx)] / (dx/dθ) = 1 / a = 1/a.\nA wrong answer (e.g., differentiating dy/dx w.r.t. x directly, or forgetting to divide by dx/dθ) reveals confusion between d/dt and d/dx operators — a critical error in JEE/board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the parametric curves: (i) x = cos t, y = sin t, t ∈ [0, 2π] and (ii) x = cos 2t, y = sin 2t, t ∈ [0, π]. Do they trace the same geometric path? Do they have the same dy/dx at corresponding points? Explain.",
+     "a": "Yes, both trace the unit circle x² + y² = 1. But dy/dx differs: For (i), dy/dx = -cot t; for (ii), dy/dx = -cot 2t. At the point (1,0), curve (i) has t=0 (dy/dx undefined, vertical tangent), curve (ii) has t=0 (dy/dx undefined) and t=π/2 (dy/dx = 0, horizontal tangent). The parameterization speed differs — curve (ii) traces the circle twice as fast. A wrong answer reveals the student confuses the geometric path with the parametric representation, missing that dy/dx depends on the parameterization, not just the Cartesian equation.",
+     "self_check": true
+    },
+    {
+     "q": "A particle moves along x = t² - 4t, y = t³ - 6t². Evaluate the claim: \"The particle is at rest when dy/dx = 0.\" Is this correct? Justify.",
+     "a": "The claim is false. dy/dx = 0 means the tangent is horizontal (vertical velocity zero but horizontal velocity may be non-zero). The particle is at rest only when both dx/dt = 0 and dy/dt = 0 simultaneously. Here dx/dt = 2t - 4, dy/dt = 3t² - 12t. At t=2, dx/dt=0, dy/dt=-12 ≠ 0 → vertical tangent, not rest. At t=0, dx/dt=-4, dy/dt=0 → horizontal tangent, moving horizontally. At t=4, dx/dt=4, dy/dt=0 → horizontal tangent. Never at rest. A wrong answer reveals confusion between \"slope zero\" and \"velocity zero\" — a classic physics-math crossover error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a parametric curve x = f(t), y = g(t) that traces the parabola y = x² for x ≥ 0 but has a vertical tangent at the origin. Provide f(t), g(t), and verify dy/dx is undefined at t=0.",
+     "a": "Example: x = t², y = t⁴, t ∈ ℝ. Then y = (t²)² = x² for x ≥ 0. dx/dt = 2t, dy/dt = 4t³. dy/dx = (4t³)/(2t) = 2t² for t ≠ 0. At t=0, dx/dt = 0, dy/dt = 0 → dy/dx is indeterminate (0/0), but limit as t→0 is 0. To get a true vertical tangent, need dx/dt=0, dy/dt≠0 at t=0. Try x = t³, y = t⁶: dx/dt=3t², dy/dt=6t⁵ → both zero at t=0. Better: x = t², y = t (traces x = y², not y=x²). To trace y=x² with vertical tangent at origin: impossible for a function y=f(x) since vertical tangent violates function definition. But parametric can: x = t³, y = t⁶ gives y=x², dx/dt=3t²=0 at t=0, dy/dt=6t⁵=0 at t=0 — still indeterminate. A valid answer: x = t, y = t² has no vertical tangent. The student must realize y=x² (x≥0) cannot have a vertical tangent as a graph of a function — this tests deep understanding of the difference between parametric curves and function graphs. A poor answer reveals the student doesn't grasp that parametric curves can represent non-function shapes (like loops, cusps) but y=x² is inherently a function graph.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

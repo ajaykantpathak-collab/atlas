@@ -34,6 +34,21 @@
      "q": "Construct a word problem involving an elevator moving between a skyscraper's top floor and an underground parking level that requires both addition and subtraction of integers, and provide its complete solution.",
      "a": "Expected answer format: A problem where an elevator starts at floor +4, goes down 7 floors, then goes up 3 floors, ending at floor 0 (ground floor). A poor response would use only positive numbers or omit underground levels entirely, showing a failure to contextualize negative integers in real-world structures.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Word problems with integers involve translating real-world scenarios—such as changing temperatures, depths below sea level, or financial balances—into mathematical expressions using positive and negative integers, and then applying integer addition, subtraction, ______, or division to solve them.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing on a balcony 15 metres above ground level, and you drop a heavy parcel down into an ______ parking basement that is 5 metres below ground level.",
+     "a": "underground",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can read a real-world scenario involving changes in elevation, temperature, or financial credits/debits, set up a correct integer equation or expression, compute the result using proper sign rules, and state the final answer with appropriate real-world units.",
+     "self_check": true
     }
    ]
   }

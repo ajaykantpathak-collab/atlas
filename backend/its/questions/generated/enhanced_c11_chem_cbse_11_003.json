@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_11_003",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_11_003",
+   "title": "c11_chem_cbse_11_003",
+   "questions": [
+    {
+     "q": "Write the IUPAC names and structures of all structural isomers with molecular formula C₅H₈ (one triple bond). Identify the type of isomerism between each pair.",
+     "a": "Isomers: (i) Pent-1-yne (HC≡C-CH₂-CH₂-CH₃), (ii) Pent-2-yne (CH₃-C≡C-CH₂-CH₃), (iii) 3-Methylbut-1-yne (HC≡C-CH(CH₃)₂). Pairs: I & II = position isomerism; I & III = chain isomerism; II & III = chain isomerism. Wrong answer reveals: student cannot apply IUPAC rules for triple bond numbering (lowest locant rule) or distinguish position vs chain isomerism in alkynes.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why ethyne (HC≡CH) reacts with NaNH₂ to give sodium acetylide but ethene (H₂C=CH₂) and ethane (CH₃-CH₃) do not. Use hybridisation and s-character in your reasoning.",
+     "a": "Ethyne carbons are sp hybridised (50% s-character) → high electronegativity → C-H bond polarised with δ⁻ on C, δ⁺ on H → H⁺ easily abstracted by strong base NaNH₂. Ethene: sp² (33% s-character); Ethane: sp³ (25% s-character) → lower electronegativity → C-H bond less polar → not acidic enough for NaNH₂. Wrong answer reveals: student memorises \"alkynes are acidic\" without linking to hybridisation/s-character/electronegativity, or confuses acidity with alcohol -OH acidity.",
+     "self_check": true
+    },
+    {
+     "q": "Complete and balance the following reactions. Identify the major product where regioselectivity applies:\n(a) CH₃-C≡CH + H₂ (excess) → (Ni catalyst)\n(b) CH₃-C≡CH + HBr (1 mol) → (no peroxide)\n(c) CH₃-C≡CH + HBr (1 mol) → (with benzoyl peroxide)\n(d) HC≡CH + H₂O → (HgSO₄, dil. H₂SO₄, 333 K)",
+     "a": "(a) CH₃-CH₂-CH₃ (propane) — two sequential additions; (b) CH₃-CBr=CH₂ (2-bromoprop-1-ene) — Markovnikov addition to triple bond; (c) CH₃-CH=CHBr (1-bromoprop-1-ene) — anti-Markovnikov via free radical; (d) CH₃CHO (ethanal) — hydration of ethyne gives acetaldehyde via enol tautomerisation. Wrong answer reveals: confusion between alkene/alkyne addition stoichiometry, Markovnikov vs anti-Markovnikov for alkynes, or hydration product (ketone vs aldehyde for terminal vs internal alkynes).",
+     "self_check": true
+    },
+    {
+     "q": "An alkyne 'A' (C₆H₁₀) on ozonolysis followed by Zn/H₂O gives two moles of propanone (CH₃COCH₃). Deduce the structure and IUPAC name of 'A'. Explain why this alkyne does not show geometrical isomerism.",
+     "a": "'A' is But-2-yne (CH₃-C≡C-CH₃). Ozonolysis cleaves C≡C giving 2 × CH₃COCH₃. No geometrical isomerism because: (i) triple bond has cylindrical symmetry (two π bonds perpendicular), not restricted rotation like C=C; (ii) each triply bonded carbon has only one substituent (no two different groups on same carbon for cis/trans). Wrong answer reveals: student thinks alkynes show cis/trans like alkenes, or cannot reverse-engineer structure from ozonolysis products (fails to connect cleavage pattern to original structure).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the reaction: CH₃-C≡CH + H₂ (1 mol, Lindlar's catalyst) → CH₃-CH=CH₂ (propene). Evaluate if this is correct. If incorrect, give the correct product and explain the stereochemistry.",
+     "a": "Incorrect. Lindlar's catalyst (Pd/CaCO₃ poisoned with quinoline) gives cis-alkene via syn addition. Correct product: cis-CH₃-CH=CH₂ (cis-propene? Wait — propene CH₃-CH=CH₂ has no geometrical isomerism because terminal =CH₂ has two identical H atoms). For a non-terminal alkyne like But-2-yne: CH₃-C≡C-CH₃ + H₂ (Lindlar's) → cis-But-2-ene. The student's error: applying Lindlar's to terminal alkyne where product cannot show cis/trans. Wrong answer reveals: mechanical application of \"Lindlar's gives cis-alkene\" without checking if product CAN exhibit geometrical isomerism.",
+     "self_check": true
+    },
+    {
+     "q": "Design a three-step sequence to convert 1,2-dibromoethane (CH₂Br-CH₂Br) to ethyne (HC≡CH), then to ethanal (CH₃CHO). Write balanced equations with reagents/conditions for each step.",
+     "a": "Step 1: CH₂Br-CH₂Br + 2KOH (alc.) → HC≡CH + 2KBr + 2H₂O (double dehydrohalogenation via vinyl bromide intermediate). Step 2: HC≡CH + H₂O (HgSO₄, dil. H₂SO₄, 333 K) → CH₂=CH-OH (vinyl alcohol/enol) → tautomerises to CH₃CHO. Step 3: Not needed — ethanal obtained. Alternative: Step 1 with NaNH₂ (2 eq.) also works. Good answer shows: correct reagent choice (alc. KOH for vicinal dihalide → alkyne), knows hydration of terminal alkyne gives aldehyde (not ketone), includes tautomerisation. Poor answer uses aqueous KOH (gives glycol), or thinks hydration gives ketone, or misses enol intermediate.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

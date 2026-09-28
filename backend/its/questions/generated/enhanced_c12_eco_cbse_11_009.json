@@ -34,6 +34,26 @@
      "q": "Construct a hypothetical BoP table for a small open economy showing a BoP deficit of $10 bn. Include at least 3 current account items and 3 capital account items. Show the accommodating transaction explicitly.",
      "a": "Example (in $ bn):\nCurrent Account: Exports 80, Imports -100, Net Services +10, Net Transfers +5 → CA = -5.\nCapital Account: FDI +20, Portfolio -15, Loans +5 → KA = +10.\nAutonomous total = CA + KA = +5 (surplus). To get a deficit of -10, change: Portfolio -25 → KA = 0. Then Autonomous total = -5. Deficit = 5? Wait, need deficit 10. Let's do: CA = -15, KA = +5 → Autonomous = -10. Then Official Reserves change = +10 (drawdown). A good answer shows correct double-entry, clear separation of autonomous vs accommodating, and the balancing item.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Balance of Payments (BoP) deficit occurs when a country's total autonomous payments (outflows) exceed its total autonomous receipts (inflows) over a given period, requiring official reserve ______ (drawing down foreign exchange reserves or borrowing from IMF) to balance the account.",
+     "a": "transactions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by listing all receipts (exports, investment inflows, ______) and payments (imports, debt repayment, profit repatriation) on a sheet.",
+     "a": "remittances",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between autonomous (above-the-line) and accommodating (below-the-line) transactions, explain why the overall BoP must balance, calculate the BoP deficit/surplus from a given set of current and capital account data, and describe the implications of a persistent deficit or surplus for foreign exchange reserves.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by listing all receipts (exports, investment inflows, remittances) and payments (imports, debt repayment, profit ______) on a sheet.",
+     "a": "repatriation",
+     "self_check": true
     }
    ]
   }

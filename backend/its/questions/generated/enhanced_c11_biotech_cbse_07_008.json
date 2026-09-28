@@ -34,6 +34,36 @@
      "q": "Design a hypothetical experiment using a synthetic mRNA with a repeating dinucleotide sequence (e.g., 5'-CACACACA-3') and a cell-free translation system to deduce the amino acid sequence of the resulting polypeptide. Explain how the ribosome's reading frame is established and why only two distinct polypeptides are possible from this mRNA, not three.",
      "a": "The mRNA 5'-CACACACA-3' can be read in three frames: Frame 1: CAC ACA CA... (His-Thr-His-Thr...); Frame 2: ACA CAC AC... (Thr-His-Thr-His...); Frame 3: CAC ACA CA... (same as Frame 1 because it's a repeating dinucleotide, period 2). Since the sequence is periodic with period 2, frames 1 and 3 are identical (both start with C). Only two unique reading frames exist. In a cell-free system without a start codon, initiation may occur at any AUG, but here there is no AUG. The ribosome may initiate at the 5' end (prokaryotic-like) or scan. The resulting polypeptides will be poly(His-Thr) and poly(Thr-His). This demonstrates that the reading frame is set by the start codon (AUG) in vivo, but in its absence, the ribosome's P-site placement determines frame. A poor answer (e.g., \"three different polypeptides\") fails to recognize the periodicity of the sequence and the definition of reading frame.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: tRNA (transfer RNA) is a small, cloverleaf-shaped adaptor molecule that carries a specific amino acid to the ribosome, where its anticodon loop base-pairs with the ______ mRNA codon during translation.",
+     "a": "complementary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a quality-control manager at a factory that assembles custom ______ based on mRNA blueprints.",
+     "a": "proteins",
+     "self_check": true
+    },
+    {
+     "q": "What is tRNA (transfer RNA)? State the definition given in this lesson.",
+     "a": "tRNA (transfer RNA) is a small, cloverleaf-shaped adaptor molecule that carries a specific amino acid to the ribosome, where its anticodon loop base-pairs with the complementary mRNA codon during translation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by drawing a tRNA cloverleaf and labeling the anticodon loop and the ______' CCA tail where the amino acid attaches.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about tRNA (transfer RNA)?",
+     "a": "Students often believe that the ribosome's peptidyl transferase activity is carried out by a protein enzyme, because most biological catalysts are proteins.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Explain how the tRNA anticodon-codon interaction and wobble hypothesis determine the fidelity and efficiency of translation, including the role of aminoacyl-tRNA synthetases in charging.",
+     "self_check": true
     }
    ]
   }

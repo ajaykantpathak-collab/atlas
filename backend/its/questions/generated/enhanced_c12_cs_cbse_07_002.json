@@ -34,6 +34,26 @@
      "q": "Design a real-life scenario that requires **two** Boolean variables. Describe the meaning of each variable, list all four possible combinations of their values, and explain what each combination represents in your scenario.",
      "a": "**Scenario:** A car's safety system monitors `SeatBelt` (1 = fastened, 0 = not fastened) and `Engine` (1 = running, 0 = off).  \nCombinations:  \n(0,0): Seatbelt off, engine off — car parked, safe.  \n(0,1): Seatbelt off, engine running — **warning!**  \n(1,0): Seatbelt on, engine off — ready to start.  \n(1,1): Seatbelt on, engine running — normal driving.  \n**Poor answer analysis:** If a student gives a scenario where the two variables are not independent (e.g., \"light on/off\" and \"brightness high/low\" where brightness implies light is on), they haven't grasped that Boolean variables can be **independently assigned** unless constrained by the system logic.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Boolean variable is a symbol that ______ a logical quantity and can take only two values: 0 (False) or 1 (True).",
+     "a": "represents",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a light switch in your room — it has ______ two states: ON or OFF.",
+     "a": "exactly",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify Boolean variables and constants in a logical statement, explain that a Boolean variable is restricted to the set {0, 1}, and distinguish them from algebraic variables that can take any real number.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a light switch in your room — it has exactly two states: ON or OFF.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

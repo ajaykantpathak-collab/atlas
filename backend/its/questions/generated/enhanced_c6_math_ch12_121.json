@@ -34,6 +34,26 @@
      "q": "Create your own number sequence that grows by adding 5 each time, starting at 10. Write down the first five numbers.",
      "a": "The sequence is 10, 15, 20, 25, 30. If the student fails to start at 10 or adds a different number, they lack the skill to translate a verbal rule into a numerical string.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A number pattern is a sequence of numbers arranged according to a specific, ______ rule.",
+     "a": "repeatable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are tiling a bathroom floor and placing tiles in a ______ square pattern: first 1, then 4, then 9, then 16.",
+     "a": "growing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify the rule of a given number sequence and correctly predict the next three terms.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are tiling a ______ floor and placing tiles in a growing square pattern: first 1, then 4, then 9, then 16.",
+     "a": "bathroom",
+     "self_check": true
     }
    ]
   }

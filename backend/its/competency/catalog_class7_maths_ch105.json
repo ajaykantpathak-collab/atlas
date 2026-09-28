@@ -57,14 +57,23 @@
     "what do you understand by vertically opposite angles",
     "list the main points about vertically opposite angles"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
      "action": "Equate the opposite angle to the given angle",
      "explain": "Vertically opposite angles are equal, so the opposite angle has the same measure."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 41 gives 49",
+     "compute": "other = 90 - 41"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.5.2.1",
@@ -116,14 +125,23 @@
     "what do you understand by parallel lines",
     "list the main points about parallel lines"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
      "action": "Check if lines lie in the same plane and do not intersect",
      "explain": "Parallel lines must be coplanar and never meet."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 20 gives 70",
+     "compute": "other = 90 - 20"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.5.6.1",
@@ -146,14 +164,23 @@
     "what do you understand by corresponding angles of parallel lines",
     "list the main points about corresponding angles of parallel lines"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
      "action": "Equate the corresponding angle to the given angle",
      "explain": "When lines are parallel, corresponding angles are equal."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 39 gives 51",
+     "compute": "other = 90 - 39"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.5.8.1",
@@ -176,14 +203,23 @@
     "what do you understand by alternate interior angles",
     "list the main points about alternate interior angles"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
      "action": "Equate the alternate angle to the given angle",
      "explain": "Alternate interior angles are equal when lines are parallel."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 49 gives 41",
+     "compute": "other = 90 - 49"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.5.8.2",
@@ -275,7 +311,7 @@
    "source_ref": "gegp105.txt lines 175-210",
    "questions": [
     "In Fig. 5.11, mark the parallel lines using the notation given (single arrow, double arrow etc.). Mark the angle between perpendicular lines with a square symbol.",
-    "In Fig. 5.13, which line is parallel to line a \u2014 line b or line c? How do you decide this?"
+    "In Fig. 5.13, which line is parallel to line a — line b or line c? How do you decide this?"
    ]
   },
   {

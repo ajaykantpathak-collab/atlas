@@ -34,6 +34,31 @@
      "q": "Design a 5-year research project proposal (title, one specific aim, one methodology) that uses HGP-derived resources to address an unsolved problem in Indian population health.",
      "a": "Example: Title: \"Population-specific pharmacogenomics of anti-tubercular drugs in tribal communities of Central India.\" Specific Aim: Identify novel loss-of-function variants in NAT2 and CYP2E1 affecting isoniazid metabolism. Methodology: Whole-genome sequencing of 500 tribal individuals → variant calling against GRCh38 (HGP reference) → imputation using Indian-specific reference panel (e.g., IndiGen) → functional validation in hepatocyte organoids. A poor proposal would use only European reference panels or ignore structural variants, showing failure to apply HGP lessons about population diversity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Human Genome Project (HGP) was an ______ scientific research project (1990–2003) with the primary goal of determining the complete sequence of nucleotide base pairs that make up human DNA and of identifying and mapping all of the genes of the human genome from both a physical and functional standpoint.",
+     "a": "international",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a doctor in 2025 trying to diagnose a rare ______ disorder in a child.",
+     "a": "genetic",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can list the five major goals of HGP, explain at least three key findings (e.g., gene count, non-coding DNA percentage, SNP frequency), and describe how HGP data enables applications in medicine, evolutionary biology, and biotechnology.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a doctor in 2025 trying to ______ a rare genetic disorder in a child.",
+     "a": "diagnose",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a doctor in ______ trying to diagnose a rare genetic disorder in a child.",
+     "a": "2025",
+     "self_check": true
     }
    ]
   }

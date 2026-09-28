@@ -1,0 +1,239 @@
+{
+ "catalog": "catalog_class11_biology_ch108.json",
+ "concepts": [
+  {
+   "id": "kebo.108.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "protein_percentage = 7.3",
+      "lipid_percentage = 89",
+      "other_percentage = 100 - (protein_percentage + lipid_percentage)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "protein_percentage = 12.7",
+      "lipid_percentage = 38",
+      "other_percentage = 100 - (protein_percentage + lipid_percentage)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "protein_percentage = 12.1",
+      "lipid_percentage = 82",
+      "other_percentage = 100 - (protein_percentage + lipid_percentage)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "protein_percentage = 10.8",
+      "lipid_percentage = 34",
+      "other_percentage = 100 - (protein_percentage + lipid_percentage)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "protein_percentage = 3.8",
+      "lipid_percentage = 78",
+      "other_percentage = 100 - (protein_percentage + lipid_percentage)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "protein_percentage = 18.2",
+      "lipid_percentage = 70",
+      "other_percentage = 100 - (protein_percentage + lipid_percentage)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "other_percentage = 100 - (protein_percentage + lipid_percentage)"
+   ]
+  },
+  {
+   "id": "kebo.108.6",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total_cell_volume = 4.3",
+      "vacuole_percentage = 56",
+      "vacuole_volume = total_cell_volume * (vacuole_percentage / 100)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total_cell_volume = 55",
+      "vacuole_percentage = 83",
+      "vacuole_volume = total_cell_volume * (vacuole_percentage / 100)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_cell_volume = 52",
+      "vacuole_percentage = 6.3",
+      "vacuole_volume = total_cell_volume * (vacuole_percentage / 100)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total_cell_volume = 23",
+      "vacuole_percentage = 35",
+      "vacuole_volume = total_cell_volume * (vacuole_percentage / 100)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "total_cell_volume = 17.9",
+      "vacuole_percentage = 52",
+      "vacuole_volume = total_cell_volume * (vacuole_percentage / 100)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total_cell_volume = 59",
+      "vacuole_percentage = 40",
+      "vacuole_volume = total_cell_volume * (vacuole_percentage / 100)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "vacuole_volume = total_cell_volume * (vacuole_percentage / 100)"
+   ]
+  },
+  {
+   "id": "kebo.108.8",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "Chloroplasts = 39",
+      "Chromoplasts = 19.5",
+      "Leucoplasts = 20",
+      "Plastids = Chloroplasts + Chromoplasts + Leucoplasts"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "Chloroplasts = 26",
+      "Chromoplasts = 71",
+      "Leucoplasts = 54",
+      "Plastids = Chloroplasts + Chromoplasts + Leucoplasts"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "Chloroplasts = 71",
+      "Chromoplasts = 62",
+      "Leucoplasts = 100",
+      "Plastids = Chloroplasts + Chromoplasts + Leucoplasts"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "Chloroplasts = 33",
+      "Chromoplasts = 98",
+      "Leucoplasts = 15.1",
+      "Plastids = Chloroplasts + Chromoplasts + Leucoplasts"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "Chloroplasts = 76",
+      "Chromoplasts = 92",
+      "Leucoplasts = 88",
+      "Plastids = Chloroplasts + Chromoplasts + Leucoplasts"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "Chloroplasts = 24",
+      "Chromoplasts = 96",
+      "Leucoplasts = 54",
+      "Plastids = Chloroplasts + Chromoplasts + Leucoplasts"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "Plastids = Chloroplasts + Chromoplasts + Leucoplasts"
+   ]
+  },
+  {
+   "id": "kebo.108.9",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "peripheral_doublets = 75",
+      "central_singlets = 30",
+      "total_microtubules = (peripheral_doublets * 2) + central_singlets"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "peripheral_doublets = 69",
+      "central_singlets = 28",
+      "total_microtubules = (peripheral_doublets * 2) + central_singlets"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "peripheral_doublets = 12.2",
+      "central_singlets = 44",
+      "total_microtubules = (peripheral_doublets * 2) + central_singlets"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "peripheral_doublets = 26",
+      "central_singlets = 92",
+      "total_microtubules = (peripheral_doublets * 2) + central_singlets"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "peripheral_doublets = 17",
+      "central_singlets = 6.5",
+      "total_microtubules = (peripheral_doublets * 2) + central_singlets"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "peripheral_doublets = 19.7",
+      "central_singlets = 62",
+      "total_microtubules = (peripheral_doublets * 2) + central_singlets"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_microtubules = (peripheral_doublets * 2) + central_singlets"
+   ]
+  }
+ ]
+}

@@ -34,6 +34,16 @@
      "q": "Create a real-life problem (Indian context) that can be modelled using the greatest integer function, write the mathematical model, and solve it for a given input.",
      "a": "Example: A Delhi Metro token costs ₹10 for the first 2 km and ₹5 for every additional km or part thereof. If a passenger travels 7.3 km, what is the fare? Model: Fare = \\( 10 + 5 \\times [\\text{distance} - 2] \\) for distance > 2 km. For 7.3 km: extra = \\( [7.3 - 2] = [5.3] = 5 \\) km. Fare = \\( 10 + 5 \\times 5 = ₹35 \\). A poor answer uses \\( \\text{distance} - 2 = 5.3 \\) directly (giving ₹36.5) ignoring the \"part thereof\" clause that requires the greatest integer function.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now think of a traffic signal: it shows green (+1), red (−1), or amber (0) depending on the sensor input – that is the signum ______.",
+     "a": "function",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now think of a traffic signal: it shows green (+1), red (−1), or amber (0) ______ on the sensor input – that is the signum function.",
+     "a": "depending",
+     "self_check": true
     }
    ]
   }

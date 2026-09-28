@@ -34,6 +34,36 @@
      "q": "Design a complete two-stage organogenesis protocol (shoot induction → root induction) for *Withania somnifera* (ashwagandha) nodal explants, specifying: basal medium, PGRs with concentrations (mg/L), carbon source, gelling agent, pH, and culture conditions for each stage. Justify each choice in one sentence.",
      "a": "**Stage 1 (Shoot Induction):** MS medium + 30 g/L sucrose + 8 g/L agar + 2 mg/L BAP + 0.5 mg/L kinetin + 0.1 mg/L NAA, pH 5.7; 16-h photoperiod (25±2°C, 40 μmol/m²/s). *Justification:* BAP+kinetin synergy breaks apical dominance in woody perennials; low NAA prevents basal callusing; MS salts support high metabolic demand. **Stage 2 (Root Induction):** ½ MS + 20 g/L sucrose + 8 g/L agar + 1 mg/L IBA + 0.5 mg/L NAA, pH 5.7; dark 48 h → 16-h photoperiod. *Justification:* ½ MS reduces salt stress for root elongation; IBA is stable/non-polar for better uptake; brief dark mimics soil conditions for root initiation. A poor design (e.g., \"same medium for both stages\") reveals inability to *stage-specific optimize* hormonal and nutritional needs — the hallmark of a competent tissue culturist.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ in plant tissue culture is the process by which organized structures (shoots and roots) differentiate from competent cells, tissues, or callus in vitro under the control of specific plant growth regulator (PGR) combinations, primarily the auxin-to-cytokinin ratio, to regenerate a complete plantlet.",
+     "a": "Organogenesis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a tiny piece of ______ leaf (explant) on nutrient gel.",
+     "a": "tobacco",
+     "self_check": true
+    },
+    {
+     "q": "What is Organogenesis in plant tissue culture? State the definition given in this lesson.",
+     "a": "Organogenesis in plant tissue culture is the process by which organized structures (shoots and roots) differentiate from competent cells, tissues, or callus in vitro under the control of specific plant growth regulator (PGR) combinations, primarily the auxin-to-cytokinin ratio, to regenerate a complete plantlet.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The answer lies in a ______ discovery by Skoog and Miller: the *ratio* of auxin to cytokinin acts like a developmental switch.",
+     "a": "1957",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Organogenesis in plant tissue culture?",
+     "a": "Students believe \"high cytokinin always gives shoots, high auxin always gives roots\" as an absolute rule.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Predict the morphogenic outcome (shoot, root, or callus) given specific auxin and cytokinin concentrations using the Skoog-Miller principle, and (2) Design a two-stage regeneration protocol (shoot induction followed by root induction) with appropriate media modifications for a given explant type.",
+     "self_check": true
     }
    ]
   }

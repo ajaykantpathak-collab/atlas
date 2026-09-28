@@ -34,6 +34,26 @@
      "q": "Create a real-life problem (using rupees, metres, or litres) where you would use (a + 1)(b + 1) to find the answer. Define what a and b represent, then solve it using the expansion.",
      "a": "Example: A rectangular garden has length (x+1) metres and breadth (y+1) metres. Find its area. Let a = x, b = y. Area = (x+1)(y+1) = xy + x + y + 1 sq m. A poor answer uses numbers only (e.g., 5×6) without variables, or defines a and b as the full lengths (x+1) instead of the variable parts. This shows they don't understand the algebraic structure — they just want to compute.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Expanding (a + 1)(b + 1) means applying the ______ property twice: each term in the first bracket multiplies each term in the second bracket, resulting in ab + a + b + 1.",
+     "a": "distributive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Your friend buys ______ at ₹b each and also 1 extra pen for ₹1.",
+     "a": "notebooks",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This is a special case of binomial expansion where both binomials have a constant term of ______.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently expand any expression of the form (x + 1)(y + 1) where x and y are variables, constants, or algebraic terms, and can explain why the expansion produces four terms using the distributive property.",
+     "self_check": true
     }
    ]
   }

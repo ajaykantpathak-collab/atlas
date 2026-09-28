@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using only UV spectrophotometry and temperature control to demonstrate that DNA denaturation is reversible and depends on base composition. Outline the procedure, expected data, and how you would interpret the melting curve.",
      "a": "Good answer: Measure absorbance at 260 nm while heating DNA solution (hyperchromic shift). Cool slowly and re-measure: return to original absorbance shows reversibility (renaturation). Compare Tm (midpoint) for high-GC vs low-GC DNA: higher Tm for high-GC. Plot A260 vs T → sigmoidal curve. Poor answer (no temperature control, single measurement, no comparison) shows lack of understanding of cooperative melting and renaturation kinetics.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Watson-Crick double helix model describes DNA as two antiparallel ______ strands coiled around a common axis in a right-handed helix, with complementary nitrogenous bases (A-T, G-C) paired via specific hydrogen bonds in the interior and sugar-phosphate backbones on the exterior, forming major and minor grooves.",
+     "a": "polynucleotide",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a twisted ladder (like a spiral staircase in an old Indian haveli) — the ______ are the sugar-phosphate backbones, the rungs are base pairs.",
+     "a": "handrails",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can draw a labelled diagram of the DNA double helix showing antiparallel strands, 5'→3' directionality, complementary base pairing with correct number of hydrogen bonds, and identify major/minor grooves; can explain how Chargaff's rules and X-ray diffraction data support the model; can predict the effect of base composition on.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a twisted ladder (like a spiral ______ in an old Indian haveli) — the handrails are the sugar-phosphate backbones, the rungs are base pairs.",
+     "a": "staircase",
+     "self_check": true
     }
    ]
   }

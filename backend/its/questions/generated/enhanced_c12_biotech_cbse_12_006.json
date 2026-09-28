@@ -34,6 +34,31 @@
      "q": "Design a \"minimum viable biotech park\" for a Tier-2 city (e.g., Bhubaneswar) with ₹50 crore capital budget. Allocate budget across: (a) shared instrumentation core, (b) pilot plant, (c) incubation space, (d) animal facility, (e) regulatory support office. Justify each allocation with a specific startup use-case that would otherwise leave the city.",
      "a": "Allocation (₹ crore): (a) 18 — HPLC, LC-MS, flow cytometer, confocal microscope; use-case: diagnostic kit startup needing analytical validation for CDSCO submission. (b) 15 — 50 L/100 L bioreactor suite with downstream (TFF, chromatography); use-case: biosimilar startup producing preclinical batches. (c) 10 — 20 wet-lab modules (500 sq ft each) with shared cell culture rooms; use-case: 5–10 early-stage teams from local universities (IIT Bhubaneswar, AIIMS Bhubaneswar). (d) 5 — small animal (rodent) facility for PK/PD; use-case: peptide therapeutic startup needing rodent toxicity data. (e) 2 — regulatory consultant retainer + CDSCO liaison officer; use-case: all startups needing clinical trial approval (CTA) drafting. Total ₹50 cr. Omitted: large animal facility, GMP fill-finish — these can be accessed at nearby Odisha Biotech Park (proposed) or via CMO partnerships. The design prioritizes \"valley of death\" capabilities (analytics, pilot scale, regulatory) over comprehensive infrastructure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Biotechnology parks are specialized infrastructure zones established by government or public-private partnerships that provide shared laboratory facilities, pilot-scale manufacturing units, regulatory support, and business mentoring to biotech startups and companies; incubation centers are structured programs within or alongside these parks that offer early-stage ventures seed funding, technical mentorship, IP guidance, and market access to accelerate ______ of biotech innovations.",
+     "a": "commercialization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have developed a ______ protein diagnostic kit in your college lab — you know the science, but turning it into a market-ready product requires a GMP-grade lab, clinical validation partners, ₹50–80 lakh for pilot batches, and a regulatory roadmap.",
+     "a": "recombinant",
+     "self_check": true
+    },
+    {
+     "q": "What is Biotechnology parks? State the definition given in this lesson.",
+     "a": "Biotechnology parks are specialized infrastructure zones established by government or public-private partnerships that provide shared laboratory facilities, pilot-scale manufacturing units, regulatory support, and business mentoring to biotech startups and companies; incubation centers are structured programs within or alongside these.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Biotechnology parks?",
+     "a": "Students equate \"biotechnology park\" with \"science park\" or \"IT park\" — assuming it is just buildings with lab benches.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the three-tier support structure (physical infrastructure, technical services, business ecosystem) of a biotechnology park, differentiate between a biotech park and a standalone incubation center, and map at least three major Indian biotech parks (e.g., Bangalore Bioinnovation Centre, Biotech Park Lucknow, TICEL Bio.",
+     "self_check": true
     }
    ]
   }

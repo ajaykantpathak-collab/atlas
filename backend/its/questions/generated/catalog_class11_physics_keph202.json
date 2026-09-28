@@ -1,0 +1,240 @@
+{
+ "catalog": "catalog_class11_physics_keph202.json",
+ "concepts": [
+  {
+   "id": "keph202.9.2.1",
+   "title": "Pressure in a Fluid and Hydrostatic Depth",
+   "converted_to_compute": true,
+   "formula": "pressure = density * gravity * depth",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "pressure = density * gravity * depth",
+     "compute": "pressure = density * gravity * depth"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Pressure in a Fluid and Hydrostatic Depth: given density = 1.2, gravity = 26, depth = 13.3, find pressure.",
+     "a": "414.96",
+     "self_check": false
+    },
+    {
+     "q": "For Pressure in a Fluid and Hydrostatic Depth: given density = 5.5, gravity = 13.4, depth = 28, find pressure.",
+     "a": "2063.6",
+     "self_check": false
+    },
+    {
+     "q": "For Pressure in a Fluid and Hydrostatic Depth: given density = 11.1, gravity = 67, depth = 35, find pressure.",
+     "a": "26029.5",
+     "self_check": false
+    },
+    {
+     "q": "For Pressure in a Fluid and Hydrostatic Depth: given density = 14, gravity = 31, depth = 264, find pressure.",
+     "a": "114576",
+     "self_check": false
+    },
+    {
+     "q": "For Pressure in a Fluid and Hydrostatic Depth: given density = 8.1, gravity = 47, depth = 389, find pressure.",
+     "a": "148092",
+     "self_check": false
+    },
+    {
+     "q": "For Pressure in a Fluid and Hydrostatic Depth: given density = 1.7, gravity = 74, depth = 193, find pressure.",
+     "a": "24279.4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph202.9.3.1",
+   "title": "Streamline Flow and the Equation of Continuity",
+   "converted_to_compute": true,
+   "formula": "out_speed = (area_in * speed_in) / area_out",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "out_speed = (area_in * speed_in) / area_out",
+     "compute": "out_speed = (area_in * speed_in) / area_out"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Streamline Flow and the Equation of Continuity: given area_in = 1.6, speed_in = 25, area_out = 27, find out speed.",
+     "a": "1.48148",
+     "self_check": false
+    },
+    {
+     "q": "For Streamline Flow and the Equation of Continuity: given area_in = 59, speed_in = 40, area_out = 77, find out speed.",
+     "a": "30.6494",
+     "self_check": false
+    },
+    {
+     "q": "For Streamline Flow and the Equation of Continuity: given area_in = 78, speed_in = 117, area_out = 37, find out speed.",
+     "a": "246.649",
+     "self_check": false
+    },
+    {
+     "q": "For Streamline Flow and the Equation of Continuity: given area_in = 93, speed_in = 19.9, area_out = 20, find out speed.",
+     "a": "92.535",
+     "self_check": false
+    },
+    {
+     "q": "For Streamline Flow and the Equation of Continuity: given area_in = 20, speed_in = 26, area_out = 84, find out speed.",
+     "a": "6.19048",
+     "self_check": false
+    },
+    {
+     "q": "For Streamline Flow and the Equation of Continuity: given area_in = 26, speed_in = 38, area_out = 8.4, find out speed.",
+     "a": "117.619",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph202.9.4.1",
+   "title": "Bernoulli's Principle and Torricelli's Efflux",
+   "converted_to_compute": true,
+   "formula": "efflux = sqrt(2 * gravity * depth)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "efflux = sqrt(2 * gravity * depth)",
+     "compute": "efflux = sqrt(2 * gravity * depth)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Bernoulli's Principle and Torricelli's Efflux: given gravity = 8.7, depth = 191, find efflux.",
+     "a": "57.6489",
+     "self_check": false
+    },
+    {
+     "q": "For Bernoulli's Principle and Torricelli's Efflux: given gravity = 83, depth = 395, find efflux.",
+     "a": "256.066",
+     "self_check": false
+    },
+    {
+     "q": "For Bernoulli's Principle and Torricelli's Efflux: given gravity = 60, depth = 181, find efflux.",
+     "a": "147.377",
+     "self_check": false
+    },
+    {
+     "q": "For Bernoulli's Principle and Torricelli's Efflux: given gravity = 41, depth = 118, find efflux.",
+     "a": "98.3667",
+     "self_check": false
+    },
+    {
+     "q": "For Bernoulli's Principle and Torricelli's Efflux: given gravity = 48, depth = 299, find efflux.",
+     "a": "169.423",
+     "self_check": false
+    },
+    {
+     "q": "For Bernoulli's Principle and Torricelli's Efflux: given gravity = 10.3, depth = 241, find efflux.",
+     "a": "70.4599",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph202.9.5.1",
+   "title": "Viscosity, Stokes' Law and Terminal Speed",
+   "converted_to_compute": true,
+   "formula": "v_terminal = drag_balance / (6 * pi * viscosity * radius)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "v_terminal = drag_balance / (6 * pi * viscosity * radius)",
+     "compute": "v_terminal = drag_balance / (6 * pi * viscosity * radius)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Viscosity, Stokes' Law and Terminal Speed: given drag_balance = 93, viscosity = 54, radius = 18.3, find v terminal.",
+     "a": "0.00499272",
+     "self_check": false
+    },
+    {
+     "q": "For Viscosity, Stokes' Law and Terminal Speed: given drag_balance = 14.4, viscosity = 7.7, radius = 20, find v terminal.",
+     "a": "0.00496067",
+     "self_check": false
+    },
+    {
+     "q": "For Viscosity, Stokes' Law and Terminal Speed: given drag_balance = 7.1, viscosity = 96, radius = 29, find v terminal.",
+     "a": "0.000135297",
+     "self_check": false
+    },
+    {
+     "q": "For Viscosity, Stokes' Law and Terminal Speed: given drag_balance = 85, viscosity = 81, radius = 37, find v terminal.",
+     "a": "0.00150463",
+     "self_check": false
+    },
+    {
+     "q": "For Viscosity, Stokes' Law and Terminal Speed: given drag_balance = 81, viscosity = 49, radius = 5.4, find v terminal.",
+     "a": "0.0162403",
+     "self_check": false
+    },
+    {
+     "q": "For Viscosity, Stokes' Law and Terminal Speed: given drag_balance = 33, viscosity = 94, radius = 12.5, find v terminal.",
+     "a": "0.00148996",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph202.9.6.1",
+   "title": "Surface Tension and Surface Energy",
+   "converted_to_compute": true,
+   "formula": "surf_energy = surface_tension * area_change",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "surf_energy = surface_tension * area_change",
+     "compute": "surf_energy = surface_tension * area_change"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Surface Tension and Surface Energy: given surface_tension = 117, area_change = 36, find surf energy.",
+     "a": "4212",
+     "self_check": false
+    },
+    {
+     "q": "For Surface Tension and Surface Energy: given surface_tension = 66, area_change = 48, find surf energy.",
+     "a": "3168",
+     "self_check": false
+    },
+    {
+     "q": "For Surface Tension and Surface Energy: given surface_tension = 49, area_change = 99, find surf energy.",
+     "a": "4851",
+     "self_check": false
+    },
+    {
+     "q": "For Surface Tension and Surface Energy: given surface_tension = 79, area_change = 59, find surf energy.",
+     "a": "4661",
+     "self_check": false
+    },
+    {
+     "q": "For Surface Tension and Surface Energy: given surface_tension = 18.8, area_change = 35, find surf energy.",
+     "a": "658",
+     "self_check": false
+    },
+    {
+     "q": "For Surface Tension and Surface Energy: given surface_tension = 29, area_change = 60, find surf energy.",
+     "a": "1740",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -20,7 +20,7 @@
     "explain the role of haemoglobin and plasma in circulation",
     "what do you understand by components of blood"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,16 @@
      "action": "summarize plasma and overall blood role",
      "explain": "Plasma is the liquid medium that suspends cells and transports dissolved nutrients, gases, hormones, and waste products throughout the body, making blood a vital connective tissue for circulation and defense."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "blood = plasma + red_blood_cells + white_blood_cells + platelets",
+     "compute": "blood = plasma + red_blood_cells + white_blood_cells + platelets"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gesc.107.2",
@@ -123,7 +132,7 @@
     "what are the main anatomical parts of the human heart",
     "short note on structure and function of human heart"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -140,7 +149,16 @@
      "action": "trace the cardiac pumping pathway",
      "explain": "Deoxygenated blood enters the right atrium, flows to the right ventricle, and is pumped to the lungs; oxygenated blood returns to the left atrium, passes to the left ventricle, and is pumped to the body, completing the double circulation loop."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "heart_chambers = left_atrium + right_atrium + left_ventricle + right_ventricle",
+     "compute": "heart_chambers = left_atrium + right_atrium + left_ventricle + right_ventricle"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gesc.107.5",
@@ -157,7 +175,7 @@
     "describe the basic construction of a simple medical stethoscope",
     "what do you understand by heartbeat and cardiac monitoring"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -174,7 +192,16 @@
      "action": "describe stethoscope-based monitoring and exercise effects",
      "explain": "A stethoscope amplifies the sound of heart valves closing during each cycle, enabling heartbeat measurement; during physical exercise the heart beats faster to supply muscles with additional oxygen-rich blood."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "heartbeats_per_min = pulse_rate",
+     "compute": "heartbeats_per_min = pulse_rate"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gesc.107.6",
@@ -210,6 +237,21 @@
      "action": "compute the remaining non-urea waste products",
      "explain": "The remaining 2.5% (0.025) of urine consists of other dissolved chemical wastes besides urea, calculated by subtracting the water and urea fractions from the total volume.",
      "compute": "other_wastes = total_urine * 0.025"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "urea_amount = total_urine * 0.025",
+     "compute": "urea_amount = total_urine * 0.025"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "gesc.107.6",
+     "question_pattern": "calculate the amount of urea present in {total_urine} liters of human urine"
     }
    ]
   },

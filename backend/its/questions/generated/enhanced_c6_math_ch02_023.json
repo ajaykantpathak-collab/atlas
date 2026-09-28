@@ -34,6 +34,21 @@
      "q": "Create a division problem using integers that results in -4 and explain your reasoning.",
      "a": "Any problem like (-12) / 3 or 12 / (-3) is acceptable. The student must show they know the signs must be different to result in a negative quotient.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The division of integers is the process of splitting an integer into equal parts, where the sign of the result is ______ by the signs of the dividend and divisor: same signs yield a positive result, while different signs yield a negative result.",
+     "a": "determined",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If you lost 20 points over 4 ______ by losing the same number of points each round, how many points did you lose per round?",
+     "a": "rounds",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to correctly calculate the quotient of any two given integers and explain the sign rule (e.g., why a negative divided by a positive is negative) using the logic of inverse multiplication.",
+     "self_check": true
     }
    ]
   }

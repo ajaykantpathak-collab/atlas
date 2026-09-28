@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_05_008",
+   "title": "c12_app_cbse_05_008",
+   "questions": [
+    {
+     "q": "What is the order of the differential equation obtained by eliminating the arbitrary constants from the family of curves y = A sin x + B cos x, where A and B are arbitrary constants?",
+     "a": "The order is 2. The family has two essential arbitrary constants (A and B), so we must differentiate twice. A wrong answer of 1 reveals the student thinks the number of terms (sin x and cos x) determines the order, not the number of independent arbitrary constants. A wrong answer of 0 reveals confusion between the original equation and the differential equation.",
+     "self_check": true
+    },
+    {
+     "q": "A student forms the differential equation for the family of circles x² + y² = 2ax (center on x-axis, passing through origin) by differentiating once: 2x + 2yy' = 2a. They then substitute 2a = x² + y² from the original equation to get x² + y² = x(x + yy'). Is this the final differential equation? Why or why not?",
+     "a": "No, this is not the final form. The equation x² + y² = x(x + yy') still contains the derivative y' but can be simplified further. The correct final form is x² - y² = 2xyy' (or equivalently y' = (x² - y²)/(2xy)). A student who says \"yes\" reveals they don't understand that the differential equation must be simplified to a standard polynomial form in derivatives, free of the original parameters AND free of redundant algebraic complexity.",
+     "self_check": true
+    },
+    {
+     "q": "Form the differential equation representing the family of curves y = eˣ(A cos x + B sin x), where A and B are arbitrary constants.",
+     "a": "Step 1: Given y = eˣ(A cos x + B sin x). Two arbitrary constants → differentiate twice.\nStep 2: y' = eˣ(A cos x + B sin x) + eˣ(-A sin x + B cos x) = y + eˣ(-A sin x + B cos x).\nSo eˣ(-A sin x + B cos x) = y' - y. ... (i)\nStep 3: Differentiate again: y'' = y' + eˣ(-A sin x + B cos x) + eˣ(-A cos x - B sin x) = y' + (y' - y) - y = 2y' - 2y.\nStep 4: Rearrange: y'' - 2y' + 2y = 0.\nA wrong answer like y'' - 2y' + y = 0 reveals sign errors in differentiating eˣ times trigonometric functions, or incorrect elimination of A and B.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the differential equations formed from these two families:\nFamily 1: y = A e²ˣ + B e⁻²ˣ\nFamily 2: y = A cos 2x + B sin 2x\nBoth have two arbitrary constants. Will their differential equations have the same order? Will they have the same form? Explain.",
+     "a": "Both will have order 2 (two essential arbitrary constants → differentiate twice). But their forms differ: Family 1 gives y'' - 4y = 0 (characteristic roots ±2), while Family 2 gives y'' + 4y = 0 (characteristic roots ±2i). A student who says \"same form\" reveals they confuse the number of constants with the nature of the differential equation; they don't see that the sign in the characteristic equation depends on whether the original family involves real exponentials (hyperbolic type) or trigonometric functions (oscillatory type).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The family of straight lines y = mx + c has two parameters (m and c), so its differential equation must be of order 2.\" Evaluate this claim. Is it always true? When might it fail?",
+     "a": "The claim is correct for the GENERAL family of all straight lines (m and c independent). But it FAILS for sub-families where parameters are not independent. Example: Family of lines through origin y = mx (only one essential parameter m) → order 1. Family of lines with fixed slope y = 2x + c → order 1. Family of lines with slope equal to intercept y = cx + c → one essential parameter c → order 1. A student who says \"always true\" reveals they count parameters mechanically without checking essential independence — a critical error in JEE/board exams where sub-families are common.",
+     "self_check": true
+    },
+    {
+     "q": "Create a family of curves with exactly THREE essential arbitrary constants such that the resulting differential equation is of order 3 but NON-LINEAR in the highest derivative. Write the family equation and the final differential equation.",
+     "a": "Example family: y = A x³ + B x² + C x (three essential constants). \ny' = 3Ax² + 2Bx + C\ny'' = 6Ax + 2B\ny''' = 6A → A = y'''/6\nSubstitute back: y'' = 6(y'''/6)x + 2B = xy''' + 2B → B = (y'' - xy''')/2\nSubstitute into y': y' = 3(y'''/6)x² + 2((y'' - xy''')/2)x + C = (y'''x²)/2 + xy'' - xy''' + C = xy'' - (y'''x²)/2 + C\nSubstitute into y: y = (y'''/6)x³ + ((y'' - xy''')/2)x² + (xy'' - (y'''x²)/2 + C)x = ... eventually eliminate C.\nSimpler non-linear example: (y')³ + y''' = 0 is order 3, non-linear in y'''. Family: y = Ax³ + Bx² + Cx + D? No, that gives linear. \nBetter: y = A eˣ + B e²ˣ + C e³ˣ gives linear. \nNon-linear example: (y')² = 4a(y - a) family of parabolas? One parameter. \nFor three constants: y = A sin x + B cos x + C x². Differentiate thrice, eliminate. The resulting DE will be linear. \nTo get non-linear in highest derivative: Need something like (y''')² = f(x,y,y',y''). \nFamily: y = A x + B x² + C x³? Linear DE. \nActually, ANY family with constants appearing linearly in the original equation yields a LINEAR DE. To get non-linear in highest derivative, the constants must enter non-linearly in the elimination process. Example: y² = 4a(x + a) has one parameter but gives non-linear DE. For three parameters: (y - A)² = 4B(x - C) — three constants, but elimination gives non-linear DE. A poor answer uses a family that yields linear DE, revealing the student doesn't understand the connection between how parameters enter the equation and the linearity of the resulting DE.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

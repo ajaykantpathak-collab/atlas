@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (Indian context) where a surveyor must check if three boundary stones are in a straight line using their GPS coordinates. Provide coordinates for the three stones such that they are NOT collinear, but the distances are close enough that a rounding error could mislead someone. Explain how to avoid the error.",
      "a": "Problem: A surveyor records three boundary stones at A(100, 200), B(103, 204), C(106, 209) (in metres). Compute AB = √(3²+4²)=5, BC = √(3²+5²)=√34≈5.831, AC = √(6²+9²)=√117≈10.817. AB+BC≈10.831 ≠ AC. They are not collinear. If the surveyor rounds BC to 5.8 and AC to 10.8, AB+BC=10.8 might falsely appear equal. To avoid this, always use exact radical forms (√34, √117) or compare squares: check if (AB+BC)² = AC²? Actually, better: check if AB² + BC² + 2·AB·BC = AC²? No, the exact condition is AB+BC=AC. Use exact values or a tolerance like 0.001 m. A poor answer gives collinear points or ignores the rounding issue.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Three points A(x₁, y₁), B(x₂, y₂), and C(x₃, y₃) are ______ if and only if the sum of the distances between two pairs of points equals the distance between the remaining pair.",
+     "a": "collinear",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping the school sports teacher mark a ______ 100‑metre track on the field.",
+     "a": "straight",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping the school sports teacher mark a straight ______‑metre track on the field.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the three pairwise distances between given points, correctly identify the largest distance, verify if the sum of the two smaller distances equals the largest distance (within reasonable rounding), and conclude collinearity with a clear statement.",
+     "self_check": true
     }
    ]
   }

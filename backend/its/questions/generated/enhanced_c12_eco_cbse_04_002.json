@@ -34,6 +34,36 @@
      "q": "Construct a numerical example where a firm sells 100 units at ₹200 per unit. Then suppose the market price falls to ₹180. Show how the TR, AR, and MR curves shift. Draw a rough sketch description.",
      "a": "Initially: P=200. TR=200Q (line through origin, slope 200). AR=MR=200 (horizontal line at 200). After price falls to 180: TR=180Q (line through origin, slope 180 — flatter). AR=MR=180 (horizontal line shifts down to 180). The TR curve rotates clockwise (becomes less steep); AR/MR lines shift downward parallel. A poor answer would show TR shifting up/down without rotation, or AR/MR not horizontal, indicating misunderstanding that price change alters the slope of TR and the level of AR/MR simultaneously.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Under perfect ______, a firm is a price taker facing a perfectly elastic demand curve at the market-determined price.",
+     "a": "competition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a wheat farmer in Punjab ______ at the government-announced MSP of ₹2,200 per quintal.",
+     "a": "selling",
+     "self_check": true
+    },
+    {
+     "q": "What is Under perfect competition, a firm? State the definition given in this lesson.",
+     "a": "Under perfect competition, a firm is a price taker facing a perfectly elastic demand curve at the market-determined price.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"If she sells ______ quintals, what is her TR?",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Under perfect competition, a firm?",
+     "a": "Students often think \"MR is the slope of the TR curve\" and therefore believe MR changes as we move along the TR curve.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) derive TR, AR, and MR schedules from a given market price and output levels, (2) sketch and label the three revenue curves correctly showing TR as an upward-sloping straight line from the origin and AR=MR as a horizontal line at the market price, and (3) explain why AR = MR = Price holds only under perfect competition.",
+     "self_check": true
     }
    ]
   }

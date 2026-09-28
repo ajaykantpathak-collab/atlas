@@ -34,6 +34,31 @@
      "q": "Design a 3-ingredient clean-label alternative for a commercial salad dressing that currently uses: INS 415 (xanthan gum, thickener), INS 331 (sodium citrate, emulsifier/acidity regulator), INS 202 (potassium sorbate, preservative). Specify the whole-food ingredients, their functional replacements, and one limitation of your clean-label version compared to the additive version.",
      "a": "Alternative: (1) Mustard (contains lecithin → emulsifier replaces INS 331), (2) Chia seeds (mucilage → thickener replaces INS 415), (3) Lemon juice/vinegar (acetic/citric acid → pH < 4.0 inhibits microbes replaces INS 202). Limitation: Shorter shelf life (microbial stability less robust), potential texture separation over time (chia mucilage less stable than xanthan at low pH), and variable performance (natural ingredient composition varies). A poor answer suggests single-ingredient swaps without addressing multi-functionality (e.g., \"use gum arabic\" — still an additive) or ignores that clean-label requires whole foods, not isolated hydrocolloids.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Food additives are substances ______ added to food in small quantities during processing, manufacturing, or packaging to perform specific technological functions such as preservation, texture modification, flavor enhancement, or color improvement, and are regulated by FSSAI in India under the Food Safety and Standards (Food Products Standards and Food Additives) Regulations, 2011 with specified maximum permissible limits based on Acceptable Daily Intake (ADI) values established by JECFA/Codex.",
+     "a": "intentionally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you pick up a packaged fruit juice bottle and see \"INS 211, INS 330, INS 415\" on the ______ list — what do these codes mean, who decided they are safe, and how much is too much?",
+     "a": "ingredient",
+     "self_check": true
+    },
+    {
+     "q": "What is Food additives? State the definition given in this lesson.",
+     "a": "Food additives are substances intentionally added to food in small quantities during processing, manufacturing, or packaging to perform specific technological functions such as preservation, texture modification, flavor enhancement, or color improvement, and are regulated by FSSAI in India under the Food Safety and Standards (Food.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Food additives are substances intentionally added to food in small quantities during processing, manufacturing, or packaging to perform specific technological functions such as preservation, texture modification, flavor enhancement, or color improvement, and are regulated by FSSAI in India under the Food Safety and Standards (Food Products Standards and Food Additives) Regulations, ______ with specified maximum permissible limits based on Acceptable Daily Intake (ADI) values established by JECFA/Codex.",
+     "a": "2011",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify a given food additive into its correct functional category (preservative, antioxidant, emulsifier, etc.), state its INS number and maximum permitted level in a specified food category per FSSAI regulations, and evaluate whether a product label complies with mandatory declaration requirements.",
+     "self_check": true
     }
    ]
   }

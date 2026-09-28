@@ -34,6 +34,31 @@
      "q": "Design a metabolomics workflow to investigate the effect of a novel fertilizer on the metabolic phenotype of tomato fruits. Specify: (a) experimental design (replicates, controls), (b) analytical platform(s) and justification, (c) data processing steps, and (d) one statistical method to identify significantly altered metabolites.",
      "a": "(a) Randomized complete block design: 10 biological replicates per treatment (fertilizer vs. control), harvested at same developmental stage/time of day. Include pooled QC samples every 10 runs. (b) Dual platform: LC-MS (polar/non-volatile) + GC-MS (volatile/primary metabolites) for broad coverage; NMR for absolute quantification of abundant metabolites. (c) Data processing: peak detection → alignment → normalization (e.g., probabilistic quotient) → missing value imputation → annotation using databases (HMDB, KEGG) with MSI levels. (d) Orthogonal Partial Least Squares-Discriminant Analysis (OPLS-DA) with VIP >1 and p<0.05 (t-test with FDR correction) to select discriminant metabolites. A poor answer lacking replication, QC, or multiple platforms shows inability to design a rigorous, publication-ready metabolomics study.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Metabolomics is the comprehensive study of the complete set of small-molecule metabolites (the metabolome) present in a biological sample, providing a functional readout of cellular activity by integrating genomic, ______, and proteomic information.",
+     "a": "transcriptomic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a doctor trying to diagnose a metabolic disorder like diabetes not just by measuring blood glucose but by profiling hundreds of small molecules in a single blood drop — this is ______.",
+     "a": "metabolomics",
+     "self_check": true
+    },
+    {
+     "q": "What is Metabolomics? State the definition given in this lesson.",
+     "a": "Metabolomics is the comprehensive study of the complete set of small-molecule metabolites (the metabolome) present in a biological sample, providing a functional readout of cellular activity by integrating genomic, transcriptomic, and proteomic information.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Metabolomics?",
+     "a": "Students often think metabolomics is just \"measuring many metabolites\" and confuse it with targeted metabolite assays (e.g., measuring only glucose and lactate).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the concept of metabolome, differentiate metabolomics from other omics, and describe at least two analytical platforms (e.g., GC-MS, LC-MS, NMR) with their principles and applications in biomarker discovery.",
+     "self_check": true
     }
    ]
   }

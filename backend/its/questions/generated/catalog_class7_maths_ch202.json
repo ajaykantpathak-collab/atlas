@@ -5,6 +5,8 @@
    "id": "gegp.2.1.1",
    "title": "Final Position on a Number Line",
    "converted_to_compute": false,
+   "formula": "p = a + b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers -3 and -23.",
@@ -42,6 +44,8 @@
    "id": "gegp.2.1.2",
    "title": "Additive Inverse",
    "converted_to_compute": false,
+   "formula": "a + (-a) = 0",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers 25 and 11.",
@@ -79,6 +83,8 @@
    "id": "gegp.2.2.1",
    "title": "Multiplication of Integers",
    "converted_to_compute": false,
+   "formula": "product = a * b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers -13 and 10.",
@@ -115,15 +121,9 @@
   {
    "id": "gegp.2.2.2",
    "title": "Commutative Property of Multiplication",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the integer operation sign rules",
-     "explain": "apply the integer operation sign rules: total = -5 + (-22) gives -27",
-     "compute": "total = -5 + (-22)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "a * b = b * a",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers -5 and -22.",
@@ -161,6 +161,8 @@
    "id": "gegp.2.2.3",
    "title": "Multiplication by -1",
    "converted_to_compute": false,
+   "formula": "-1 * a = -a",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers 20 and -20.",
@@ -198,6 +200,8 @@
    "id": "gegp.2.2.4",
    "title": "Distributive Property",
    "converted_to_compute": false,
+   "formula": "a * (b + c) = (a * b) + (a * c)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers -14 and -16.",
@@ -235,6 +239,8 @@
    "id": "gegp.2.3.1",
    "title": "Division of Integers",
    "converted_to_compute": false,
+   "formula": "quotient = a / b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers -11 and -19.",
@@ -271,15 +277,9 @@
   {
    "id": "gegp.2.2.5",
    "title": "Brahmagupta's Rules",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the integer operation sign rules",
-     "explain": "apply the integer operation sign rules: total = 4 + (-16) gives -12",
-     "compute": "total = 4 + (-16)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "fortune * fortune = fortune",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers 4 and -16.",

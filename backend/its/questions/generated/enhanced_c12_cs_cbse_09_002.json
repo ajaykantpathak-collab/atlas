@@ -21,7 +21,7 @@
      "self_check": true
     },
     {
-     "q": "Compare these two code snippets. What is the difference in behavior, and why?\n```python",
+     "q": "Compare these two code snippets. What is the difference in behavior, and why?\n```python\n# Snippet A\ndef show_message():\n    print(\"Hello\")\n\nshow_message()\n```\n```python\n# Snippet B\ndef show_message():\n    print(\"Hello\")\n\n# No call here\n```",
      "a": "Correct analysis: Snippet A prints \"Hello\" because `show_message()` is called after definition. Snippet B prints nothing because the function is defined but never called. The `def` statement only creates the function object; the body executes only on explicit call. A wrong answer like \"both print Hello\" or \"Snippet B gives an error\" reveals the fundamental misconception that defining a function automatically runs it, or that Python implicitly calls functions. This is the #1 beginner error — writing the function and wondering why output doesn't appear.",
      "self_check": true
     },
@@ -33,6 +33,21 @@
     {
      "q": "Create a new real-world scenario (different from invoices or GST) where defining and calling a function with `def` is useful. Write the complete function definition and two calls with different contexts. Explain why a function is better than copy-pasting the code.",
      "a": "Example scenario: A school library system needs to print book checkout receipts.\n```python\ndef print_checkout_receipt(book_title, student_name):\n    print(\"--- LIBRARY CHECKOUT ---\")\n    print(f\"Book: {book_title}\")\n    print(f\"Student: {student_name}\")\n    print(\"Due in 14 days\")\n    print(\"-----------------------\")\n\nprint_checkout_receipt(\"Python Programming\", \"Aarav\")\nprint_checkout_receipt(\"Data Structures\", \"Meera\")\n```\nOutput shows two formatted receipts. Functions are better than copy-paste because: (1) single point of change — if format changes, fix one place; (2) avoids duplication errors; (3) readable and reusable. A poor answer copies the same lines twice without a function, or uses a function but doesn't explain the maintenance advantage, revealing they see functions as syntax practice rather than a design tool for reducing redundancy.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Python function is a named block of reusable code defined using the def keyword, which executes only when explicitly called by its name followed by ______.",
+     "a": "parentheses",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're building a program to ______ GST for different products in a shop.",
+     "a": "calculate",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) write syntactically correct function definitions using def with proper indentation, (2) call functions correctly with and without arguments, (3) explain the difference between defining and calling a function, and (4) trace the execution flow when a function is called, including parameter binding and.",
      "self_check": true
     }
    ]

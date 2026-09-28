@@ -5,6 +5,8 @@
    "id": "hemh.109.9.1",
    "title": "Area of a Trapezium",
    "converted_to_compute": false,
+   "formula": "area = (side_a + side_b) / 2 * height",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a parallelogram with base 5 cm and height 10 cm.",
@@ -41,15 +43,9 @@
   {
    "id": "hemh.109.9.2",
    "title": "Area of a General Polygon by Splitting",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the quadrilateral area formula",
-     "explain": "apply the quadrilateral area formula: area = 4 * 24 gives 96",
-     "compute": "area = 4 * 24"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a parallelogram with base 4 cm and height 24 cm.",
@@ -87,6 +83,8 @@
    "id": "hemh.109.9.3",
    "title": "Surface Area of Cube, Cuboid and Cylinder",
    "converted_to_compute": false,
+   "formula": "surface = 2 * (length * width + width * height + height * length)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 8 cm by 26 cm.",
@@ -124,6 +122,8 @@
    "id": "hemh.109.9.4",
    "title": "Volume of Cube, Cuboid and Cylinder",
    "converted_to_compute": false,
+   "formula": "volume = length * width * height",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the volume of a cuboid 6 cm x 10 cm x 5 cm.",
@@ -161,6 +161,8 @@
    "id": "hemh.109.9.5",
    "title": "Volume of a Cylinder and Capacity",
    "converted_to_compute": false,
+   "formula": "volume = pi * r * r * height",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the volume of a cuboid 12 cm x 11 cm x 11 cm.",

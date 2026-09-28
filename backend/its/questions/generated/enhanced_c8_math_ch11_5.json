@@ -34,6 +34,31 @@
      "q": "Create a real-world problem where the Koch Snowflake construction could model a situation involving repeated scaling, and write the perimeter after 4 iterations if the initial side is 15 cm.",
      "a": "Example problem: \"A wireless network antenna is shaped like a Koch Snowflake to maximise reception length within a small area. If the initial triangular frame has side 15 cm, find the total wire length needed after 4 iterations.\" Perimeter = 3 × 15 × (4/3)⁴ = 45 × 256/81 = 1280/9 ≈ 142.22 cm. A poor answer would give a problem that doesn't involve iterative scaling (e.g., just a triangle) or miscalculates the power.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Koch Snowflake is a fractal curve ______ by starting with an equilateral triangle and recursively replacing the middle third of every line segment with two segments of equal length that form an equilateral \"bump\" pointing outward.",
+     "a": "constructed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You want a ______ that looks intricate but is made by repeating a simple rule.",
+     "a": "pattern",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a decorative border for a rectangular garden bed that is ______ metres long.",
+     "a": "9",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can construct the first three iterations of the Koch Snowflake, derive the perimeter formula P_n = 3s(4/3)^n, and explain why the perimeter grows without bound while the area remains finite.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a decorative border for a ______ garden bed that is 9 metres long.",
+     "a": "rectangular",
+     "self_check": true
     }
    ]
   }

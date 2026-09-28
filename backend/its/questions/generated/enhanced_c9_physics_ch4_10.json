@@ -34,6 +34,21 @@
      "q": "Design a pulley arrangement to lift a 200 N water bucket from a well using maximum 60 N effort. Specify the number of fixed and movable pulleys needed, assuming 75% efficiency. Justify your design.",
      "a": "Required actual MA = Load/Effort = 200/60 ≈ 3.33. With η = 75%, need VR = MA/η = 3.33/0.75 ≈ 4.44 → VR must be at least 5 (integer). Use 2 movable + 1 fixed (VR = 4) is insufficient; use 3 movable + 1 fixed (VR = 6) gives MA_ideal = 6, actual MA = 0.75×6 = 4.5, effort = 200/4.5 ≈ 44.4 N (< 60 N). A poor answer suggesting VR=4 shows inability to work backwards from effort constraint and round VR up to next integer.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ Advantage (MA) of a pulley system is the ratio of the load lifted to the effort applied, indicating how many times the machine multiplies the input force.",
+     "a": "Mechanical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ worker using a rope and pulley to lift cement bags to the second floor — notice they pull down to lift up, and the rope moves further than the bag rises.",
+     "a": "construction",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate Mechanical Advantage, Velocity Ratio, and Efficiency for any given pulley system (single fixed, single movable, block and tackle) from a diagram or description, and can determine the effort required to lift a specified load accounting for efficiency losses.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c11_gram_cbse_80_001",
+ "concepts": [
+  {
+   "id": "enh:c11_gram_cbse_80_001",
+   "title": "c11_gram_cbse_80_001",
+   "questions": [
+    {
+     "q": "'What he promised was never delivered.' — clause type?",
+     "a": "Noun clause — 'what he promised' is the subject; swap in 'It' and the sentence stands. A wrong answer 'adjective clause' shows connector-based classification instead of function-based.",
+     "self_check": true
+    },
+    {
+     "q": "'The house that Jack built is old.' — is 'that Jack built' a noun clause?",
+     "a": "No — adjective/relative clause; it describes 'house' (which house? that Jack built). 'That' here replaces 'which' and refers to the noun — not a content clause. The same connector, different job.",
+     "self_check": true
+    },
+    {
+     "q": "'She left because the meeting ended.' — clause type and its question?",
+     "a": "Adverb clause of reason — it answers 'why did she leave?' about the main verb. A wrong answer 'noun clause' shows the student didn't test what the clause modifies.",
+     "self_check": true
+    },
+    {
+     "q": "______ clauses are classified by the JOB they do in the main clause: a noun clause works as subject/object/complement ('What he said was true'), an adjective (relative) clause describes a noun ('the book that I bought'), an adverb clause modifies the verb for time/reason/condition ('when she arrived').",
+     "a": "Subordinate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ clauses are classified by the JOB they do in the main clause: a noun clause works as subject/object/complement ('What he said was true'), an adjective (relative) clause describes a noun ('the book that I bought'), an adverb clause modifies the verb for time/reason/condition ('when she arrived').",
+     "a": "Subordinate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The substitution tests: noun clause — replace it with 'something/it' and the ______ survives ('What he said' → 'It was true').",
+     "a": "sentence",
+     "self_check": true
+    },
+    {
+     "q": "What is Subordinate clauses? State the definition given in this lesson.",
+     "a": "Subordinate clauses are classified by the JOB they do in the main clause: a noun clause works as subject/object/complement ('What he said was true'), an adjective (relative) clause describes a noun ('the book that I bought'), an adverb clause modifies the verb for time/reason/condition ('when she arrived').",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Subordinate clauses?",
+     "a": "Students classify clauses by their introductory word — assuming every 'that'-clause is a noun clause and every 'when'-clause is adverbial — instead of asking what job the clause performs in its sentence.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student identifies the clause type by its grammatical function — not by its connector — and distinguishes 'that'-noun-clauses from 'that'-relative-clauses.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ tests: noun clause — replace it with 'something/it' and the sentence survives ('What he said' → 'It was true').",
+     "a": "substitution",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

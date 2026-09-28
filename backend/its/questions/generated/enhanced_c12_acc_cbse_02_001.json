@@ -34,6 +34,26 @@
      "q": "Create a word problem where the old profit sharing ratio is 4:3:2, a new partner is admitted for 1/5th share, and the sacrificing ratio is NOT the same as the old ratio. Provide the full solution.",
      "a": "**Problem:** X, Y, Z share profits 4:3:2. W is admitted for 1/5th share. W acquires 3/20 from X and 1/20 from Y. Z does not sacrifice. Find new profit sharing ratio and sacrificing ratio.\n**Solution:** Old shares: X=4/9, Y=3/9, Z=2/9. LCM of 9,20 = 180. X=80/180, Y=60/180, Z=40/180. Sacrifices: X=3/20=27/180, Y=1/20=9/180, Z=0. New shares: X=53/180, Y=51/180, Z=40/180, W=1/5=36/180. New ratio = 53:51:40:36. Sacrificing ratio = 27:9 = 3:1.\nA good answer shows LCM conversion, subtraction, and clear ratio expression. A poor answer would skip LCM, use decimals, or assume Z sacrifices.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The New Profit Sharing Ratio (NPSR) is the ratio in which all partners (including the newly admitted partner) will share future profits and losses of the ______ firm.",
+     "a": "reconstituted",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and two friends run a tiffin service ______ profits 3:2:1.",
+     "a": "sharing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to compute the new profit sharing ratio and sacrificing ratio for all partners in at least three distinct scenarios: (1) when the new partner's share is given and the old partners sacrifice in their old ratio, (2) when the new partner acquires shares from old partners in a specified ratio, and (3) when the new.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you and two friends run a tiffin service sharing profits 3:2:1.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

@@ -45,11 +45,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "dx = 8 - -1",
-    "dy = 7 - -5",
-    "dist = sqrt(dx * dx + dy * dy)"
-   ]
+   "steps_chain": []
   },
   {
    "id": "kemh111.11.3.1",
@@ -92,9 +88,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lines = 4"
-   ]
+   "steps_chain": []
   },
   {
    "id": "kemh111.11.4.1",
@@ -186,11 +180,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "dx = 9 - 6",
-    "dy = 4 - 0",
-    "dist = sqrt(dx * dx + dy * dy)"
-   ]
+   "steps_chain": []
   }
  ]
 }

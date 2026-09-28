@@ -1,0 +1,149 @@
+{
+ "catalog": "catalog_class12_accountancy_leac202.json",
+ "concepts": [
+  {
+   "id": "leac.202.3.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "security_type = 11.6",
+      "registration_type = 115",
+      "redemption_type = 43",
+      "conversion_type = 102",
+      "debenture_classes = security_type + registration_type + redemption_type + conversion_type"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "security_type = 56",
+      "registration_type = 30",
+      "redemption_type = 66",
+      "conversion_type = 104",
+      "debenture_classes = security_type + registration_type + redemption_type + conversion_type"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "security_type = 50",
+      "registration_type = 82",
+      "redemption_type = 76",
+      "conversion_type = 85",
+      "debenture_classes = security_type + registration_type + redemption_type + conversion_type"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "security_type = 88",
+      "registration_type = 39",
+      "redemption_type = 99",
+      "conversion_type = 113",
+      "debenture_classes = security_type + registration_type + redemption_type + conversion_type"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "security_type = 105",
+      "registration_type = 12.9",
+      "redemption_type = 26",
+      "conversion_type = 50",
+      "debenture_classes = security_type + registration_type + redemption_type + conversion_type"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "security_type = 14.4",
+      "registration_type = 12.2",
+      "redemption_type = 43",
+      "conversion_type = 12.5",
+      "debenture_classes = security_type + registration_type + redemption_type + conversion_type"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "debenture_classes = security_type + registration_type + redemption_type + conversion_type"
+   ]
+  },
+  {
+   "id": "leac.202.9.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "debentures_issued = 20",
+      "face_value_per_debenture = 117",
+      "interest_rate = 92",
+      "months = 21",
+      "tax_deduction = 81",
+      "net_interest_paid = debentures_issued * face_value_per_debenture * interest_rate * months / 12 - tax_deduction"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "debentures_issued = 64",
+      "face_value_per_debenture = 94",
+      "interest_rate = 44",
+      "months = 60",
+      "tax_deduction = 60",
+      "net_interest_paid = debentures_issued * face_value_per_debenture * interest_rate * months / 12 - tax_deduction"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "debentures_issued = 17.4",
+      "face_value_per_debenture = 11.4",
+      "interest_rate = 45",
+      "months = 26",
+      "tax_deduction = 11.8",
+      "net_interest_paid = debentures_issued * face_value_per_debenture * interest_rate * months / 12 - tax_deduction"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "debentures_issued = 1.5",
+      "face_value_per_debenture = 81",
+      "interest_rate = 110",
+      "months = 61",
+      "tax_deduction = 30",
+      "net_interest_paid = debentures_issued * face_value_per_debenture * interest_rate * months / 12 - tax_deduction"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "debentures_issued = 51",
+      "face_value_per_debenture = 61",
+      "interest_rate = 65",
+      "months = 62",
+      "tax_deduction = 21",
+      "net_interest_paid = debentures_issued * face_value_per_debenture * interest_rate * months / 12 - tax_deduction"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "debentures_issued = 40",
+      "face_value_per_debenture = 101",
+      "interest_rate = 59",
+      "months = 87",
+      "tax_deduction = 6.3",
+      "net_interest_paid = debentures_issued * face_value_per_debenture * interest_rate * months / 12 - tax_deduction"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "net_interest_paid = debentures_issued * face_value_per_debenture * interest_rate * months / 12 - tax_deduction"
+   ]
+  }
+ ]
+}

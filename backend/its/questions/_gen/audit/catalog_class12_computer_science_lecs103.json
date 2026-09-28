@@ -1,0 +1,131 @@
+{
+ "catalog": "catalog_class12_computer_science_lecs103.json",
+ "concepts": [
+  {
+   "id": "lecs103.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "start_size = 66",
+      "pushes = 45",
+      "pops = 15.6",
+      "current_size = start_size + (pushes - pops)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "start_size = 114",
+      "pushes = 1.2",
+      "pops = 17.8",
+      "current_size = start_size + (pushes - pops)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "start_size = 84",
+      "pushes = 85",
+      "pops = 91",
+      "current_size = start_size + (pushes - pops)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "start_size = 54",
+      "pushes = 37",
+      "pops = 35",
+      "current_size = start_size + (pushes - pops)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "start_size = 108",
+      "pushes = 33",
+      "pops = 23",
+      "current_size = start_size + (pushes - pops)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "start_size = 115",
+      "pushes = 6.1",
+      "pops = 48",
+      "current_size = start_size + (pushes - pops)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "current_size = start_size + (pushes - pops)"
+   ]
+  },
+  {
+   "id": "lecs103.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "a_value = 99",
+      "b_value = 30",
+      "c_value = 50",
+      "result = (a_value + b_value) * c_value"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "a_value = 59",
+      "b_value = 64",
+      "c_value = 15.8",
+      "result = (a_value + b_value) * c_value"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "a_value = 27",
+      "b_value = 94",
+      "c_value = 6.9",
+      "result = (a_value + b_value) * c_value"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "a_value = 70",
+      "b_value = 72",
+      "c_value = 85",
+      "result = (a_value + b_value) * c_value"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "a_value = 100",
+      "b_value = 77",
+      "c_value = 12.2",
+      "result = (a_value + b_value) * c_value"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "a_value = 7.1",
+      "b_value = 67",
+      "c_value = 67",
+      "result = (a_value + b_value) * c_value"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "result = (a_value + b_value) * c_value"
+   ]
+  }
+ ]
+}

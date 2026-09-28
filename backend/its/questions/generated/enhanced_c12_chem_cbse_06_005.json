@@ -34,6 +34,31 @@
      "q": "Design a two-step synthesis of p-bromonitrobenzene starting from benzene. Write reagents for each step and explain the order.",
      "a": "Step 1: Benzene + Br₂/FeBr₃ → bromobenzene (ortho/para mixture, separable). Step 2: Bromobenzene + conc. HNO₃/conc. H₂SO₄ → p-bromonitrobenzene (major) + o-bromonitrobenzene. Order matters: bromination first because -Br is ortho/para-directing; nitration first would give m-nitrobromobenzene (wrong isomer). A poor answer reversing the order or using Sandmeyer for bromination shows lack of synthetic planning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Haloarenes (aryl halides) are prepared by ______ aromatic substitution where a hydrogen atom on the benzene ring is replaced by a halogen (Cl, Br) using halogen (Cl₂, Br₂) in the presence of a Lewis acid catalyst (FeCl₃, AlCl₃, FeBr₃) or via the Sandmeyer reaction where a diazonium salt (from primary aromatic amine + NaNO₂/HCl) reacts with CuCl/CuBr (for Cl, Br) or KI (for I).",
+     "a": "electrophilic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how chlorine gas passed into benzene with a pinch of anhydrous FeCl₃ in a lab fume hood yields ______ — a colourless liquid with a sweet smell used in pesticide synthesis.",
+     "a": "chlorobenzene",
+     "self_check": true
+    },
+    {
+     "q": "What is Haloarenes (aryl halides)? State the definition given in this lesson.",
+     "a": "Haloarenes (aryl halides) are prepared by electrophilic aromatic substitution where a hydrogen atom on the benzene ring is replaced by a halogen (Cl, Br) using halogen (Cl₂, Br₂) in the presence of a Lewis acid catalyst (FeCl₃, AlCl₃, FeBr₃) or via the Sandmeyer reaction where a diazonium salt (from primary aromatic amine + NaNO₂/HCl).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Haloarenes (aryl halides)?",
+     "a": "Students often write the Sandmeyer reaction for chlorination as \"C₆H₅NH₂ + NaNO₂/HCl → C₆H₅Cl\" omitting the diazonium salt intermediate and CuCl catalyst.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) write balanced equations for chlorination/bromination of benzene and substituted benzenes with correct catalysts and conditions, (2) predict ortho/para product ratio and explain why halogen is ortho/para-directing despite being deactivating, (3) design a Sandmeyer reaction sequence from aniline to a specific haloarene.",
+     "self_check": true
     }
    ]
   }

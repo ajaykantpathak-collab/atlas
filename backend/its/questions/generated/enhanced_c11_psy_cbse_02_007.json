@@ -34,6 +34,21 @@
      "q": "Design a brief plan to establish the **construct validity** of a new \"Academic Resilience Scale\" for Class 11 students. Specify: (a) the theoretical definition of academic resilience you would adopt, (b) at least two convergent validity strategies with specific measures, (c) at least two discriminant validity strategies with specific measures, and (d) how you would use factor analysis to support the internal structure.",
      "a": "(a) **Definition**: Academic resilience = \"the capacity to maintain motivation, effort, and adaptive coping strategies when facing academic setbacks (poor grades, difficult concepts, time pressure), as evidenced by persistence, help-seeking, and emotional regulation.\" (b) **Convergent**: (i) Correlate with established Grit Scale (Duckworth) — expect r > 0.50; (ii) Correlate with teacher-rated \"persistence in difficult tasks\" — expect r > 0.40. (c) **Discriminant**: (i) Correlate with Social Desirability Scale — expect r < 0.20 (resilience ≠ faking good); (ii) Correlate with General Anxiety Scale — expect r < 0.30 (resilience ≠ low anxiety; resilient students may feel anxiety but cope). (d) **Factor analysis**: Conduct EFA on 30 initial items — expect 3 factors (Persistence, Help-Seeking, Emotional Regulation) with eigenvalues > 1, items loading > 0.40 on primary factor and < 0.30 on others; confirm with CFA on new sample (CFI > 0.95, RMSEA < 0.06). A poor answer lists only \"correlate with other tests\" without specifying direction/magnitude or theoretical rationale; a poor answer omits discriminant validity or factor analysis, treating construct validity as only convergent.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A psychological test is a standardised and objective instrument used to measure an individual's standing relative to others on a specific mental or behavioural characteristic (e.g., intelligence, personality, aptitude), where ______ ensures uniform administration, scoring, and interpretation, and objectivity ensures different examiners obtain consistent results for the same test-taker.",
+     "a": "standardisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a school counsellor needing to assess whether a Class 11 student's anxiety is clinical or situational — you cannot rely on casual observation or a single ______.",
+     "a": "questionnaire",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the five essential characteristics of a good psychological test (objectivity, standardisation, reliability, validity, norms) with precise definitions, distinguish between types of reliability (test-retest, split-half) and validity (content, criterion, construct), and justify why a test lacking any one.",
+     "self_check": true
     }
    ]
   }

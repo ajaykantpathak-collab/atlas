@@ -34,6 +34,31 @@
      "q": "Design a step‑by‑step flowchart (text‑based) showing the complete trading procedure for a retail investor selling 100 shares of Infosys held in demat form, from login to fund credit. Include all intermediaries and the settlement day.",
      "a": "Expected flowchart (key steps):\n1. Investor logs into trading platform (broker’s app/terminal).\n2. Places market/limit sell order for 100 Infosys shares.\n3. Broker validates margin/holdings, forwards order to exchange (NSE/BSE).\n4. Exchange order‑matching engine matches with a buy order.\n5. Trade confirmation generated (trade number, time, price, quantity).\n6. Clearing corporation (NSCCL/ICCL) novates trade → becomes central counterparty.\n7. T‑day: trade details sent to depository (NSDL/CDSL) and banks.\n8. T+1 morning: clearing corporation instructs depository to debit seller’s demat, credit buyer’s demat.\n9. T+1 afternoon: clearing corporation instructs banks to debit buyer’s account, credit seller’s account.\n10. Investor sees funds credited in linked bank account.\nA poor answer omits novation, depository role, or T+1 timing — showing incomplete grasp of the settlement chain.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A stock exchange is an organized marketplace where securities (shares, bonds, derivatives) are bought and sold under defined rules; its core functions include providing liquidity, enabling price discovery, ensuring transaction safety, and ______ capital formation, while the trading procedure encompasses the sequential steps — from investor order placement through broker, order matching on the electronic system, trade confirmation, clearing, and final settlement (T+1 in India) — that convert an intent to trade into legal transfer of ownership.",
+     "a": "facilitating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to buy 10 shares of Reliance Industries today — you call your broker or use a ______ app, but what actually happens after you click “Buy”?",
+     "a": "trading",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A stock exchange is an organized marketplace where securities (shares, bonds, derivatives) are bought and sold under defined rules; its core functions include providing liquidity, enabling price discovery, ensuring transaction safety, and facilitating capital formation, while the trading procedure encompasses the sequential steps — from investor order placement through broker, order matching on the electronic system, trade confirmation, clearing, and final settlement (T+______ in India) — that convert an intent to trade into legal transfer of ownership.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) list and explain at least five distinct functions of a stock exchange using NCERT terminology, and (2) sequentially describe the complete trading procedure from order placement to settlement, identifying the role of each intermediary (broker, depository, clearing corporation) and the current settlement cycle.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to buy 10 shares of Reliance ______ today — you call your broker or use a trading app, but what actually happens after you click “Buy”?",
+     "a": "Industries",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Design a real-world scenario (Indian context) where a school management system must use **both** text and binary files together. Describe what data goes in each, and explain why mixing them in a single file type would be problematic.",
      "a": "**Scenario:** A CBSE school stores student records in `students.csv` (text) — Name, Roll No, Class, Marks — and student photographs in `photos/` folder as `.jpg` files (binary), referenced by Roll No in the CSV.  \n**Why not one file type?**  \n- If all in text: Images would need Base64 encoding, bloating CSV size 33%, making it unreadable and slow to parse.  \n- If all in binary: Structured data (marks, names) would require custom parsing, losing CSV's simplicity and tool compatibility (Excel, pandas).  \nA poor answer (e.g., \"use database instead\") avoids the file-type design decision; the question tests **architectural thinking** about when to separate concerns across file types.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: File handling is the process of storing data permanently on secondary storage devices (like hard disks) using files, and retrieving or modifying that data through ______ operations.",
+     "a": "programmatic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you wrote a Python ______ to manage student marks for your Class 11 practical exam.",
+     "a": "program",
+     "self_check": true
+    },
+    {
+     "q": "What is File handling? State the definition given in this lesson.",
+     "a": "File handling is the process of storing data permanently on secondary storage devices (like hard disks) using files, and retrieving or modifying that data through programmatic operations.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In Python, files are classified into two fundamental types: text files (human-readable, store data as characters with encoding like UTF-______, e.g., .txt, .csv, .py) and binary files (store raw bytes, not directly human-readable, e.g., .jpg, .exe, .dat, pickle files).",
+     "a": "8",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about File handling?",
+     "a": "Students often believe that \"file handling is only about reading/writing .txt files\" because early examples use text files.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify a given file scenario as requiring text or binary mode, explain why variables lose data when a program ends but files retain it, and describe the three essential steps (open, operate, close) for any file operation in Python.",
+     "self_check": true
     }
    ]
   }

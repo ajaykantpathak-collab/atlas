@@ -34,6 +34,21 @@
      "q": "Design a step-by-step procedure to separate a mixture of three immiscible liquids: water (1.00 g/cm³), chloroform (1.48 g/cm³), and hexane (0.66 g/cm³) using only a separating funnel. Explain how you would collect each pure liquid.",
      "a": "Procedure: 1) Pour mixture into separating funnel, let settle — three layers form: top hexane (0.66), middle water (1.00), bottom chloroform (1.48). 2) Drain bottom chloroform layer into beaker A, close stopcock before water reaches tap. 3) Drain middle water layer into beaker B, close stopcock before hexane reaches tap. 4) Pour top hexane layer out from the top of funnel into beaker C. A poor answer (e.g., \"drain all at once\" or \"only two layers form\") reveals the student cannot extend the two-liquid principle to three layers or doesn't realize three immiscible liquids can form three distinct layers if density differences are sufficient.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ funnel is a laboratory apparatus used to separate two immiscible liquids of different densities by allowing them to form distinct layers and draining the lower layer through a stopcock, based on the principle that immiscible liquids do not mix and settle according to their relative densities.",
+     "a": "separating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ how oil floats on water when you wash an oily utensil — the two liquids form clear layers instead of mixing.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly set up a separating funnel, identify which liquid forms the upper/lower layer using density values, perform the separation without cross-contamination, and explain why the technique fails for miscible liquids or liquids with very similar densities.",
+     "self_check": true
     }
    ]
   }

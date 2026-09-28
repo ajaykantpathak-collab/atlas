@@ -1,0 +1,193 @@
+{
+ "catalog": "catalog_class11_physics_keph102.json",
+ "concepts": [
+  {
+   "id": "keph102.2.2.1",
+   "title": "Average and Instantaneous Velocity and Speed",
+   "converted_to_compute": true,
+   "formula": "avg_velocity = displacement / time_interval",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "avg_velocity = displacement / time_interval",
+     "compute": "avg_velocity = displacement / time_interval"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Average and Instantaneous Velocity and Speed: given displacement = 378, time_interval = 53, find avg velocity.",
+     "a": "7.13208",
+     "self_check": false
+    },
+    {
+     "q": "For Average and Instantaneous Velocity and Speed: given displacement = 4.7, time_interval = 70, find avg velocity.",
+     "a": "0.0671429",
+     "self_check": false
+    },
+    {
+     "q": "For Average and Instantaneous Velocity and Speed: given displacement = 351, time_interval = 94, find avg velocity.",
+     "a": "3.73404",
+     "self_check": false
+    },
+    {
+     "q": "For Average and Instantaneous Velocity and Speed: given displacement = 327, time_interval = 80, find avg velocity.",
+     "a": "4.0875",
+     "self_check": false
+    },
+    {
+     "q": "For Average and Instantaneous Velocity and Speed: given displacement = 358, time_interval = 93, find avg velocity.",
+     "a": "3.84946",
+     "self_check": false
+    },
+    {
+     "q": "For Average and Instantaneous Velocity and Speed: given displacement = 453, time_interval = 52, find avg velocity.",
+     "a": "8.71154",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph102.2.3.1",
+   "title": "Acceleration as Rate of Change of Velocity",
+   "converted_to_compute": true,
+   "formula": "accel = (final_velocity - initial_velocity) / time_taken",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "accel = (final_velocity - initial_velocity) / time_taken",
+     "compute": "accel = (final_velocity - initial_velocity) / time_taken"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Acceleration as Rate of Change of Velocity: given final_velocity = 74, initial_velocity = 99, time_taken = 41, find accel.",
+     "a": "-0.609756",
+     "self_check": false
+    },
+    {
+     "q": "For Acceleration as Rate of Change of Velocity: given final_velocity = 60, initial_velocity = 110, time_taken = 52, find accel.",
+     "a": "-0.961538",
+     "self_check": false
+    },
+    {
+     "q": "For Acceleration as Rate of Change of Velocity: given final_velocity = 84, initial_velocity = 84, time_taken = 89, find accel.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Acceleration as Rate of Change of Velocity: given final_velocity = 118, initial_velocity = 5.1, time_taken = 67, find accel.",
+     "a": "1.68507",
+     "self_check": false
+    },
+    {
+     "q": "For Acceleration as Rate of Change of Velocity: given final_velocity = 103, initial_velocity = 111, time_taken = 106, find accel.",
+     "a": "-0.0754717",
+     "self_check": false
+    },
+    {
+     "q": "For Acceleration as Rate of Change of Velocity: given final_velocity = 30, initial_velocity = 86, time_taken = 32, find accel.",
+     "a": "-1.75",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph102.2.4.1",
+   "title": "Kinematic Equations for Uniformly Accelerated Motion",
+   "converted_to_compute": true,
+   "formula": "v_final = v_init + accel * t",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "v_final = v_init + accel * t",
+     "compute": "v_final = v_init + accel * t"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Kinematic Equations for Uniformly Accelerated Motion: given v_init = 37, accel = 21, t = 75, find v final.",
+     "a": "1612",
+     "self_check": false
+    },
+    {
+     "q": "For Kinematic Equations for Uniformly Accelerated Motion: given v_init = 116, accel = 18.8, t = 31, find v final.",
+     "a": "698.8",
+     "self_check": false
+    },
+    {
+     "q": "For Kinematic Equations for Uniformly Accelerated Motion: given v_init = 77, accel = 13.9, t = 14.3, find v final.",
+     "a": "275.77",
+     "self_check": false
+    },
+    {
+     "q": "For Kinematic Equations for Uniformly Accelerated Motion: given v_init = 60, accel = 4.2, t = 64, find v final.",
+     "a": "328.8",
+     "self_check": false
+    },
+    {
+     "q": "For Kinematic Equations for Uniformly Accelerated Motion: given v_init = 97, accel = 21, t = 18.1, find v final.",
+     "a": "477.1",
+     "self_check": false
+    },
+    {
+     "q": "For Kinematic Equations for Uniformly Accelerated Motion: given v_init = 67, accel = 2.7, t = 87, find v final.",
+     "a": "301.9",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph102.2.5.1",
+   "title": "Relative Velocity",
+   "converted_to_compute": true,
+   "formula": "relative_v = velocity_a - velocity_b",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "relative_v = velocity_a - velocity_b",
+     "compute": "relative_v = velocity_a - velocity_b"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Relative Velocity: given velocity_a = 120, velocity_b = 40, find relative v.",
+     "a": "80",
+     "self_check": false
+    },
+    {
+     "q": "For Relative Velocity: given velocity_a = 116, velocity_b = 44, find relative v.",
+     "a": "72",
+     "self_check": false
+    },
+    {
+     "q": "For Relative Velocity: given velocity_a = 104, velocity_b = 110, find relative v.",
+     "a": "-6",
+     "self_check": false
+    },
+    {
+     "q": "For Relative Velocity: given velocity_a = 71, velocity_b = 100, find relative v.",
+     "a": "-29",
+     "self_check": false
+    },
+    {
+     "q": "For Relative Velocity: given velocity_a = 109, velocity_b = 105, find relative v.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "For Relative Velocity: given velocity_a = 55, velocity_b = 59, find relative v.",
+     "a": "-4",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "catalog": "enhanced_c6_gram_cbse_82_003",
+ "concepts": [
+  {
+   "id": "enh:c6_gram_cbse_82_003",
+   "title": "c6_gram_cbse_82_003",
+   "questions": [
+    {
+     "q": "'While we ___(play) cricket, it started to rain.'",
+     "a": "'were playing' — background action in progress when the rain interrupted. A wrong answer 'played' flattens both events into one instant — missing the while-pattern entirely.",
+     "self_check": true
+    },
+    {
+     "q": "Fix: 'He didn't went to school yesterday.'",
+     "a": "'He didn't go' — after 'did', the main verb returns to base form; the past is already carried by 'did'. A wrong answer 'didn't goed' or keeping 'went' shows double-past marking.",
+     "self_check": true
+    },
+    {
+     "q": "'I have decided — I ___ visit Agra this summer.' will or going to?",
+     "a": "'am going to' — the plan already exists ('I have decided'). A wrong answer 'will' misses the will/going-to split: will = fresh decisions/predictions, going to = existing plans.",
+     "self_check": true
+    },
+    {
+     "q": "Past and future have matching pairs: simple past for finished actions ('She danced yesterday'), past ______ for ongoing past ('She was dancing when I arrived'); simple future = will + base ('She will dance'), and 'going to' for planned future ('She is going to dance tomorrow').",
+     "a": "continuous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Past and future have matching pairs: simple past for finished actions ('She danced yesterday'), past ______ for ongoing past ('She was dancing when I arrived'); simple future = will + base ('She will dance'), and 'going to' for planned future ('She is going to dance tomorrow').",
+     "a": "continuous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______-action pattern is the heart: 'While she WAS DANCING, the music STOPPED' — long background action (continuous) cut by a short event (simple past).",
+     "a": "interrupted",
+     "self_check": true
+    },
+    {
+     "q": "What is Past and future have matching pairs? State the definition given in this lesson.",
+     "a": "Past and future have matching pairs: simple past for finished actions ('She danced yesterday'), past continuous for ongoing past ('She was dancing when I arrived'); simple future = will + base ('She will dance'), and 'going to' for planned future ('She is going to dance tomorrow').",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Past and future have matching pairs?",
+     "a": "Students learn irregular pasts as lists without patterns, write 'didn't went' (double past — after 'did' the verb returns to base form), and use will/going-to interchangeably.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student forms and chooses between simple past and past continuous (the interrupted-action pattern), and between will and going-to for predictions vs plans.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

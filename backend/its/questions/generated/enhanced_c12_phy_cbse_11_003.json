@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a solar cell, a variable-frequency monochromatic light source (e.g., coloured filters + white light), and a microammeter to demonstrate that photon energy depends on frequency, not intensity. Describe the procedure, what you would measure, and the expected graph.",
      "a": "Procedure: Illuminate the solar cell with light of fixed frequency (using a filter) and vary intensity (by moving source). Measure short-circuit current I_sc ∝ photon flux. Repeat for different filters (different ν). Plot I_sc vs intensity for each ν — slope gives photon flux per unit intensity. Then plot stopping potential V₀ (from a separate photoelectric setup) vs ν — slope = h/e. Expected: I_sc ∝ intensity for each ν (linear through origin), but V₀ depends only on ν (linear V₀ vs ν graph with threshold ν₀). A poor answer omits the need for stopping potential measurement or confuses solar cell current with photoelectric stopping potential.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A photon is the fundamental quantum (particle) of ______ radiation, carrying energy E = hν and momentum p = h/λ, where h = 6.626 × 10⁻³⁴ J·s is Planck's constant, ν is frequency, and λ is wavelength.",
+     "a": "electromagnetic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a green laser pointer (λ ≈ 532 nm) shining on a wall — the bright spot contains roughly 10¹⁵ photons every second, each ______ a tiny, fixed packet of energy.",
+     "a": "carrying",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) calculate photon energy, momentum, and number of photons per second from given power, frequency, or wavelength with correct SI units, and (2) explain why photon energy depends only on frequency (not intensity) and why this resolves the photoelectric effect paradoxes that wave theory could not.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a green laser pointer (λ ≈ 532 nm) shining on a wall — the bright spot ______ roughly 10¹⁵ photons every second, each carrying a tiny, fixed packet of energy.",
+     "a": "contains",
+     "self_check": true
     }
    ]
   }

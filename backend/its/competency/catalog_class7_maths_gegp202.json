@@ -22,7 +22,7 @@
     "what is the opposite of 6 and of -2",
     "solve Rakesh's number puzzle from the chapter"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -39,7 +39,16 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the integer operation sign rules",
+     "explain": "apply the integer operation sign rules: total = 10 + (-8) gives 2",
+     "compute": "total = 10 + (-8)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp2.2.2",
@@ -89,7 +98,7 @@
     "why does a negative times a negative give a positive",
     "multiply -3 by 0 and explain"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -106,7 +115,16 @@
      "action": "check the answer",
      "explain": "Verify by reversing or re-checking, then conclude."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the integer operation sign rules",
+     "explain": "apply the integer operation sign rules: total = -23 + (8) gives -15",
+     "compute": "total = -23 + (8)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp2.2.4",

@@ -34,6 +34,31 @@
      "q": "Design an experiment to determine whether a newly discovered desert annual is a short-day, long-day, or day-neutral plant. Specify: (a) photoperiod treatments, (b) control, (c) measurable response variable, (d) how you will distinguish night-length measurement from day-length measurement.",
      "a": "(a) Treatments: 8L/16D, 12L/12D, 16L/8D, plus night-break variants (e.g., 8L/1R/15D, 16L/1R/7D). (b) Control: continuous light (24L) and continuous dark (24D). (c) Response: days to visible floral bud, % plants flowering, number of flowers. (d) To test night-length measurement: compare 12L/12D vs 12L/1R/11D (same day length, broken night). If flowering differs, night length is measured. If 8L/16D and 16L/8D give same flowering, it's day-neutral. Poor design (e.g., only varying day length, no night-break) shows failure to isolate the causative variable — a key analytical skill for board practicals.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the physiological response of plants to the relative lengths of day and night (photoperiod) that determines the timing of flowering, where the critical factor is the duration of uninterrupted darkness rather than light duration itself.",
+     "a": "Photoperiodism",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ (guldaudi) in your garden blooming profusely in October-November but remaining vegetative in May-June, while wheat in Punjab flowers in March-April as days lengthen.",
+     "a": "chrysanthemum",
+     "self_check": true
+    },
+    {
+     "q": "What is Photoperiodism? State the definition given in this lesson.",
+     "a": "Photoperiodism is the physiological response of plants to the relative lengths of day and night (photoperiod) that determines the timing of flowering, where the critical factor is the duration of uninterrupted darkness rather than light duration itself.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Photoperiodism?",
+     "a": "Students believe \"short-day plants need short days (less light) and long-day plants need long days (more light)\" — they confuse the *name* with the *mechanism*.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) classify any given plant as LDP, SDP, or day-neutral based on experimental photoperiod data, (2) predict flowering outcome when night-break or skeleton photoperiod treatments are applied, and (3) explain the role of phytochrome interconversion (Pr ↔ Pfr) and florigen concept in measuring night length.",
+     "self_check": true
     }
    ]
   }

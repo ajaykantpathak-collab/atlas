@@ -10,7 +10,7 @@
    "title": "Frequency and Period of Periodic Motion",
    "section": "13.2.1",
    "definition": "Periodic motion repeats at fixed time intervals. The duration of one complete cycle is the period, and the rate of repetitions per unit time is the frequency.",
-   "formula": "frequency = count / duration, period = 1 / frequency",
+   "formula": "frequency = count / duration; period = 1 / frequency",
    "key_idea": "Frequency and time period are inverse quantities measuring the speed of repetition.",
    "textbook_ref": "keph206.txt lines 70-110",
    "question_patterns": [
@@ -42,16 +42,25 @@
    ],
    "worked_examples": [
     {
-     "question": "Solve a typical question involving frequency and period of periodic motion.",
-     "solution": "Step 1: calculate frequency. Step 2: calculate time period. Step 3: verify the inverse relationship between frequency and period. Working: count / duration, 1 / frequency.",
-     "answer": "Frequency and Period of Periodic Motion applied step by step gives the required result."
+     "concept": "keph.206.1",
+     "question_pattern": "in Class 11 physics oscillations: find the frequency and time period when a body completes {count} cycles in {duration} seconds"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "frequency = count / duration",
+     "compute": "frequency = count / duration"
     },
     {
-     "question": "Apply frequency and period of periodic motion to a fresh example and interpret the result.",
-     "solution": "Step 1: calculate frequency. Step 2: calculate time period. Step 3: verify the inverse relationship between frequency and period. Working: count / duration, 1 / frequency.",
-     "answer": "The method of frequency and period of periodic motion leads to the required value or conclusion."
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "period = 1 / frequency",
+     "compute": "period = 1 / frequency"
     }
-   ]
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.206.2",
@@ -90,16 +99,19 @@
    ],
    "worked_examples": [
     {
-     "question": "Solve a typical question involving angular frequency of oscillatory motion.",
-     "solution": "Step 1: calculate angular frequency. Step 2: compute the frequency from the angular frequency. Step 3: verify consistency between angular frequency and period. Working: (2 * pi) / period, omega / (2 * pi).",
-     "answer": "Angular Frequency of Oscillatory Motion applied step by step gives the required result."
-    },
-    {
-     "question": "Apply angular frequency of oscillatory motion to a fresh example and interpret the result.",
-     "solution": "Step 1: calculate angular frequency. Step 2: compute the frequency from the angular frequency. Step 3: verify consistency between angular frequency and period. Working: (2 * pi) / period, omega / (2 * pi).",
-     "answer": "The method of angular frequency of oscillatory motion leads to the required value or conclusion."
+     "concept": "keph.206.2",
+     "question_pattern": "in Class 11 physics oscillations: calculate the angular frequency for an oscillation with time period {T} seconds"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "omega = (2 * pi) / T",
+     "compute": "omega = (2 * pi) / T"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.206.3",
@@ -138,16 +150,19 @@
    ],
    "worked_examples": [
     {
-     "question": "Solve a typical question involving maximum velocity in simple harmonic motion.",
-     "solution": "Step 1: calculate maximum speed. Step 2: compute the maximum kinetic energy of the oscillating particle. Step 3: verify that maximum speed occurs at the equilibrium position. Working: omega * amplitude, 0.5 * mass * (v_max ** 2).",
-     "answer": "Maximum Velocity in Simple Harmonic Motion applied step by step gives the required result."
-    },
-    {
-     "question": "Apply maximum velocity in simple harmonic motion to a fresh example and interpret the result.",
-     "solution": "Step 1: calculate maximum speed. Step 2: compute the maximum kinetic energy of the oscillating particle. Step 3: verify that maximum speed occurs at the equilibrium position. Working: omega * amplitude, 0.5 * mass * (v_max ** 2).",
-     "answer": "The method of maximum velocity in simple harmonic motion leads to the required value or conclusion."
+     "concept": "keph.206.3",
+     "question_pattern": "in Class 11 physics oscillations: find the maximum speed of a particle in SHM with amplitude {omega} and angular frequency {amplitude}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "v_max = omega * amplitude",
+     "compute": "v_max = omega * amplitude"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.206.4",
@@ -186,16 +201,19 @@
    ],
    "worked_examples": [
     {
-     "question": "Solve a typical question involving maximum acceleration in simple harmonic motion.",
-     "solution": "Step 1: square the angular frequency. Step 2: multiply by amplitude. Step 3: verify that maximum acceleration occurs at the extreme displacement. Working: omega ** 2, omega_sq * amplitude.",
-     "answer": "Maximum Acceleration in Simple Harmonic Motion applied step by step gives the required result."
-    },
-    {
-     "question": "Apply maximum acceleration in simple harmonic motion to a fresh example and interpret the result.",
-     "solution": "Step 1: square the angular frequency. Step 2: multiply by amplitude. Step 3: verify that maximum acceleration occurs at the extreme displacement. Working: omega ** 2, omega_sq * amplitude.",
-     "answer": "The method of maximum acceleration in simple harmonic motion leads to the required value or conclusion."
+     "concept": "keph.206.4",
+     "question_pattern": "in Class 11 physics oscillations: calculate maximum acceleration for SHM with angular frequency {omega} and amplitude {amplitude}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "a_max = (omega ** 2) * amplitude",
+     "compute": "a_max = (omega ** 2) * amplitude"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.206.5",
@@ -235,16 +253,19 @@
    ],
    "worked_examples": [
     {
-     "question": "Solve a typical question involving oscillation period of spring mass system.",
-     "solution": "Step 1: divide mass by spring constant. Step 2: take square root. Step 3: multiply by 2 pi. Working: mass / spring_constant, sqrt(ratio), 2 * pi * root_val.",
-     "answer": "Oscillation Period of Spring Mass System applied step by step gives the required result."
-    },
-    {
-     "question": "Apply oscillation period of spring mass system to a fresh example and interpret the result.",
-     "solution": "Step 1: divide mass by spring constant. Step 2: take square root. Step 3: multiply by 2 pi. Working: mass / spring_constant, sqrt(ratio), 2 * pi * root_val.",
-     "answer": "The method of oscillation period of spring mass system leads to the required value or conclusion."
+     "concept": "keph.206.5",
+     "question_pattern": "in Class 11 physics oscillations: calculate the time period of oscillation for mass {mass} attached to spring with constant {spring_constant}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "T = 2 * pi * sqrt(mass / spring_constant)",
+     "compute": "T = 2 * pi * sqrt(mass / spring_constant)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.206.6",
@@ -283,16 +304,19 @@
    ],
    "worked_examples": [
     {
-     "question": "Solve a typical question involving total mechanical energy in shm.",
-     "solution": "Step 1: square amplitude. Step 2: calculate total energy. Step 3: verify energy conservation by comparing total energy to peak potential energy. Working: amplitude ** 2, 0.5 * spring_constant * amp_sq.",
-     "answer": "Total Mechanical Energy in SHM applied step by step gives the required result."
-    },
-    {
-     "question": "Apply total mechanical energy in shm to a fresh example and interpret the result.",
-     "solution": "Step 1: square amplitude. Step 2: calculate total energy. Step 3: verify energy conservation by comparing total energy to peak potential energy. Working: amplitude ** 2, 0.5 * spring_constant * amp_sq.",
-     "answer": "The method of total mechanical energy in shm leads to the required value or conclusion."
+     "concept": "keph.206.6",
+     "question_pattern": "in Class 11 physics oscillations: calculate total mechanical energy in SHM with spring constant {spring_constant} and amplitude {amplitude}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_energy = (1 / 2) * spring_constant * (amplitude ** 2)",
+     "compute": "total_energy = (1 / 2) * spring_constant * (amplitude ** 2)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.206.7",
@@ -332,16 +356,19 @@
    ],
    "worked_examples": [
     {
-     "question": "Solve a typical question involving potential energy at displacement in shm.",
-     "solution": "Step 1: square displacement. Step 2: calculate potential energy. Step 3: compute the corresponding kinetic energy at the given displacement. Working: displacement ** 2, 0.5 * spring_constant * disp_sq, total_energy - potential_energy.",
-     "answer": "Potential Energy at Displacement in SHM applied step by step gives the required result."
-    },
-    {
-     "question": "Apply potential energy at displacement in shm to a fresh example and interpret the result.",
-     "solution": "Step 1: square displacement. Step 2: calculate potential energy. Step 3: compute the corresponding kinetic energy at the given displacement. Working: displacement ** 2, 0.5 * spring_constant * disp_sq, total_energy - potential_energy.",
-     "answer": "The method of potential energy at displacement in shm leads to the required value or conclusion."
+     "concept": "keph.206.7",
+     "question_pattern": "in Class 11 physics oscillations: find potential energy in SHM at displacement {spring_constant} for spring constant {displacement}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "potential_energy = (1 / 2) * spring_constant * (displacement ** 2)",
+     "compute": "potential_energy = (1 / 2) * spring_constant * (displacement ** 2)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.206.8",
@@ -390,7 +417,16 @@
      "solution": "Step 1: divide length by acceleration due to gravity. Step 2: take square root. Step 3: multiply by 2 pi. Working: length / g, sqrt(ratio), 2 * pi * root_val.",
      "answer": "The method of time period of simple pendulum leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "period = 2 * pi * sqrt(length / g)",
+     "compute": "period = 2 * pi * sqrt(length / g)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.206.9",
@@ -445,7 +481,16 @@
      "solution": "Step 1: square period. Step 2: square pi. Step 3: calculate denominator. Step 4: calculate length. Working: period ** 2, pi ** 2, 4 * pi_sq, (g * period_sq) / denom.",
      "answer": "The method of length of simple pendulum for given period leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "length = (g * (period ** 2)) / (4 * (pi ** 2))",
+     "compute": "length = (g * (period ** 2)) / (4 * (pi ** 2))"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.206.10",
@@ -462,7 +507,7 @@
     "identify whether displacement function describes simple harmonic oscillation",
     "evaluate whether a restoring force proportional to displacement gives SHM"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -479,7 +524,16 @@
      "action": "extract the angular frequency squared from the proportionality constant",
      "explain": "the coefficient of x in the acceleration expression equals omega squared, confirming SHM with a well-defined period"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "a = - (omega ** 2) * x",
+     "compute": "a = - (omega ** 2) * x"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

@@ -34,6 +34,26 @@
      "q": "Construct a problem where two chords in a circle of radius 15 cm are such that one chord is twice as far from the centre as the other, and the longer chord is 24 cm. Find the length of the shorter chord and the distances.",
      "a": "Let shorter chord distance = d, longer chord distance = 2d. Longer chord = 24 cm ⇒ half = 12 cm. By Pythagoras: (2d)² + 12² = 15² ⇒ 4d² + 144 = 225 ⇒ 4d² = 81 ⇒ d² = 20.25 ⇒ d = 4.5 cm. Then shorter chord half-length = √(15² - 4.5²) = √(225 - 20.25) = √204.75 ≈ 14.31 cm, so shorter chord ≈ 28.62 cm. Distances: 4.5 cm and 9 cm. A poor answer (e.g., setting up incorrect equation, or assuming longer chord has smaller distance without checking) reveals inability to translate word conditions into algebraic geometry relationships.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In a given circle (or congruent circles), equal chords are ______ from the centre.",
+     "a": "equidistant",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ garden with two straight pathways (chords) of equal length.",
+     "a": "circular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state and prove both directions of the theorem (equal chords ⇒ equidistant, and equidistant ⇒ equal chords), apply the theorem to find unknown chord lengths or distances in multi-step problems, and explain why the perpendicular from the centre is used as the distance measure.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a circular garden with two straight pathways (chords) of equal length.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

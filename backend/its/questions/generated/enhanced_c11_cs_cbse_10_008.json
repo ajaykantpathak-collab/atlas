@@ -34,6 +34,31 @@
      "q": "Design an infix expression with three operators (+, *, ^) and parentheses that requires the stack to hold at least three operators simultaneously during conversion. Show the maximum stack depth.",
      "a": "Example: \"A ^ (B * C + D)\". Trace: A→out, ^→push(^), (→push(^), (, *→push(^, (, *), B→out, +→pop * (precedence + < *), push + (stack: ^, (, +), C→out, )→pop +, pop ( (stack: ^), D→out, end→pop ^. Max stack depth = 3 (^, (, * then ^, (, +). A good answer demonstrates understanding of precedence, parentheses, and stack growth.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Infix to Postfix conversion is a stack-based algorithm that transforms an arithmetic expression from infix notation (operators between operands, e.g., A + B) to postfix notation (operators after operands, e.g., AB+), using operator precedence and ______ rules to determine the order of operations without parentheses.",
+     "a": "associativity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a calculator app that must ______ \"3 + 4 * 2\".",
+     "a": "evaluate",
+     "self_check": true
+    },
+    {
+     "q": "What is Infix to Postfix conversion? State the definition given in this lesson.",
+     "a": "Infix to Postfix conversion is a stack-based algorithm that transforms an arithmetic expression from infix notation (operators between operands, e.g., A + B) to postfix notation (operators after operands, e.g., AB+), using operator precedence and associativity rules to determine the order of operations without parentheses.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Infix to Postfix conversion?",
+     "a": "Students treat all operators as left-associative and pop on equal precedence.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can manually trace the stack-based conversion algorithm for any valid infix expression containing +, -, *, /, ^ operators and parentheses, producing the correct postfix string, and can implement the algorithm in Python using a list-based stack.",
+     "self_check": true
     }
    ]
   }

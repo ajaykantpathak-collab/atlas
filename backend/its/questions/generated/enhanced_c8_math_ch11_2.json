@@ -34,6 +34,31 @@
      "q": "Design a \"Stage 1.5\" Sierpinski Carpet variant where you divide the original square into a 3×3 grid but remove the 4 corner squares instead of the centre. Draw Stage 1 and describe the pattern for Stage 2. How many squares remain at Stage 2?",
      "a": "Stage 1: 9 - 4 = 5 squares remain (the centre and the 4 edge-middles). Stage 2: Apply the same rule (remove 4 corners of each 3×3 subgrid) to each of the 5 squares → 5 × 5 = 25 squares.  \nA poor answer (e.g., \"still 8 squares\" or \"remove centre again\") shows the student cannot transfer the recursive rule to a new removal pattern, indicating rote memorization without understanding the generative process.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Sierpinski Carpet is a fractal ______ by starting with a solid square (Stage 0), dividing it into 9 equal smaller squares in a 3×3 grid, removing the central square, and then recursively applying the same process to each of the remaining 8 squares.",
+     "a": "constructed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To let light and air through while keeping strength, you cut out the ______ square of a 3×3 grid.",
+     "a": "middle",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then you repeat the same cut-out pattern on each of the ______ remaining smaller squares.",
+     "a": "8",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can construct the first three stages of the Sierpinski Carpet accurately, explain the recursive rule in their own words, and determine the number of remaining squares and the side length of each square at any given stage n using the pattern 8ⁿ and (1/3)ⁿ.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To let light and air through while keeping ______, you cut out the middle square of a 3×3 grid.",
+     "a": "strength",
+     "self_check": true
     }
    ]
   }

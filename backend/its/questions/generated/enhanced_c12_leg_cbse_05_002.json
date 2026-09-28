@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_05_002",
+   "title": "c12_leg_cbse_05_002",
+   "questions": [
+    {
+     "q": "What is the exact constitutional provision that protects a person's property from arbitrary state action, and what does it require for a valid deprivation?",
+     "a": "Article 300A: \"No person shall be deprived of his property save by authority of law.\" Valid deprivation requires (i) a validly enacted law (legislative competence + procedural compliance), (ii) the law must not be arbitrary (Art. 14 test), and (iii) the procedure must be fair, just, and reasonable (Art. 21 read with Art. 300A per *Jilubhai Nanbhai Khachar v. State of Gujarat*). A wrong answer (e.g., citing Art. 19(1)(f) or Art. 31) reveals the student is relying on pre-1978 (44th Amendment) law — they confuse the *former* fundamental right to property with the *current* constitutional/legal right.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why an oral gift of immovable property worth Rs. 5 lakh is invalid under Indian law, referencing the specific sections of the Transfer of Property Act and Registration Act.",
+     "a": "S.123 TPA: \"For the purpose of making a gift of immovable property, the transfer must be effected by a registered instrument signed by or on behalf of the donor, and attested by at least two witnesses.\" S.17(1)(a) Registration Act: \"Gift deeds of immovable property\" are compulsorily registrable. Since the gift is oral, it fails both the *instrument* requirement (TPA) and the *registration* requirement (Registration Act). A wrong answer (e.g., \"it's valid if witnesses are present\") shows the student conflates *attestation* (witnessing a document) with *oral agreement* — they miss that TPA mandates a *written, registered instrument* for immovable property gifts.",
+     "self_check": true
+    },
+    {
+     "q": "A sells his agricultural land to B via a registered sale deed. Later, C claims the land was benami — A held it for C. Under the Benami Transactions (Prohibition) Act, 1988, what must C prove to establish the transaction was benami, and what is the consequence if proven?",
+     "a": "C must prove: (1) property was transferred to A (the benamidar) for consideration paid by C (the beneficial owner), (2) the property is held by A for the immediate or future benefit of C, and (3) the transaction falls within S.2(a) definition — \"property of any kind, whether movable or immovable, tangible or intangible, and includes any right or interest in such property.\" If proven, S.3: the benami transaction is **void**; the property vests in the Central Government free of encumbrances (S.5); C (beneficial owner) has *no right to recover* the property. A wrong answer (e.g., \"C gets the land back\") reveals the student misses the *penal nature* of the Act — it doesn't enforce beneficial ownership; it confiscates the property to the state.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the evidentiary value of a registered sale deed vs. an unregistered sale deed of immovable property (value > Rs. 100) in a title dispute. Which sections govern this?",
+     "a": "Registered deed (S.17 Registration Act + S.54 TPA): Admissible as *primary evidence* of title transfer; creates a presumption of valid transfer; binds subsequent purchasers (constructive notice via registration). Unregistered deed (S.49 Registration Act): **Inadmissible** as evidence of *any* transaction affecting the property — cannot be used to prove title, consideration, or even as a collateral document. It is a \"nullity\" for evidentiary purposes. A wrong answer (e.g., \"unregistered deed works as evidence of contract\") shows the student confuses *contract validity* (which may exist under Contract Act) with *transfer validity* (which requires registration under TPA/Registration Act) — they miss that TPA makes registration a *condition precedent* for transfer of immovable property.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"Article 300A provides weaker protection than the pre-1978 Article 31 because it allows the state to acquire property without paying compensation.\" Defend or critique with case law.",
+     "a": "Critique. While Art. 300A does not *explicitly* mandate compensation (unlike old Art. 31(2)), the Supreme Court in *Jilubhai Nanbhai Khachar* (1995) and *K.T. Plantation v. State of Karnataka* (2011) read **Art. 300A with Art. 14 and Art. 21** to require: (a) the acquiring law must provide for *fair compensation* (not necessarily market value, but not illusory), (b) the procedure must be *fair and non-arbitrary*. Thus, compensation is a *constitutional requirement* via judicial interpretation, not statutory grace. A wrong answer agreeing with the statement reveals the student treats Art. 300A as a *bare textual provision* without engaging with the *expansive judicial gloss* that restores substantive protection — a classic board-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph legal opinion for a client who purchased a flat via an unregistered Agreement to Sell (value Rs. 50 lakh), took possession, but the seller now refuses to execute the sale deed. Can the client enforce the transfer? Cite relevant provisions.",
+     "a": "**Opinion:** The client **cannot enforce transfer** of title. An Agreement to Sell (even with possession) does *not* transfer ownership — it only creates a *right to obtain* a sale deed (S.54 TPA: \"Sale is a transfer of ownership... for a price... by a registered instrument\"). Since the flat value > Rs. 100, S.17 Registration Act mandates registration of the *sale deed itself*. The unregistered Agreement to Sell is inadmissible as evidence of title transfer (S.49 Registration Act). The client's remedies: (1) Specific performance suit to *compel execution* of a registrable sale deed (S.10 Specific Relief Act), (2) Claim refund + damages for breach. **Key insight:** Possession ≠ Title. A poor answer claiming \"possession gives ownership\" reveals the student confuses *possessory remedies* (e.g., injunction) with *title transfer formalities* — a fatal error in property law.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

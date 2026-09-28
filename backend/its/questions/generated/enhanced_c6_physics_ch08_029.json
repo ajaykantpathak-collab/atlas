@@ -34,6 +34,31 @@
      "q": "Create a scenario where knowing the speed of an object helps you predict when it will arrive at a specific destination.",
      "a": "A student should describe a trip, such as: \"If a bus travels at 60 km/h and the town is 120 km away, I know it will take 2 hours to arrive.\" A poor answer lacks either the distance or the speed component needed to make the prediction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Speed is a measure of how fast an object changes its position, ______ by dividing the total distance travelled by the time taken to cover that distance.",
+     "a": "calculated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and your ______ are both running to the school gate.",
+     "a": "friend",
+     "self_check": true
+    },
+    {
+     "q": "What is Speed? State the definition given in this lesson.",
+     "a": "Speed is a measure of how fast an object changes its position, calculated by dividing the total distance travelled by the time taken to cover that distance.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Speed?",
+     "a": "Students often confuse the units of speed (km/h vs m/s) and treat them as interchangeable without conversion.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to calculate speed given distance and time, and identify the correct SI units for these measurements.",
+     "self_check": true
     }
    ]
   }

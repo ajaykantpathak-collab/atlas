@@ -34,6 +34,26 @@
      "q": "Create a real-world scenario where a ratio of 3:2 describes the situation.",
      "a": "An example is: \"In a class of 5 students, 3 are boys and 2 are girls.\" A poor answer uses unrelated units (like 3 apples and 2 meters) or fails to provide a context that fits the ratio.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ratio is a way to compare two ______ of the same kind by showing how many times one quantity contains the other, usually written as a fraction or with a colon.",
+     "a": "quantities",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ lemonade and you need to mix 2 cups of sugar for every 6 cups of water.",
+     "a": "making",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write a ratio given two quantities and simplify that ratio to its lowest terms by dividing by a common factor.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are making ______ and you need to mix 2 cups of sugar for every 6 cups of water.",
+     "a": "lemonade",
+     "self_check": true
     }
    ]
   }

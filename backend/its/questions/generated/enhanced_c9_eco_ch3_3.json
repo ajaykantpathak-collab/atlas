@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_eco_ch3_3",
+ "concepts": [
+  {
+   "id": "enh:c9_eco_ch3_3",
+   "title": "c9_eco_ch3_3",
+   "questions": [
+    {
+     "q": "What is the primary purpose of creating a business plan before starting a startup?",
+     "a": "The primary purpose is to test the viability of the business idea and guide decisions by outlining goals, strategies, market analysis, and financial projections. A wrong answer like \"to make the business look official\" reveals the student misunderstands that a business plan is a practical tool for decision-making, not just a formality, indicating they haven't grasped its functional role in reducing startup risk.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why conducting market analysis is a critical step in business planning, even if the entrepreneur already has a strong belief in their idea.",
+     "a": "Market analysis is critical because it provides evidence about customer demand, competition, and pricing—reducing reliance on assumptions. A strong belief alone can lead to overestimating demand or ignoring competitors, resulting in wasted resources. A wrong answer like \"it's just needed to impress investors\" reveals the student sees market analysis as a procedural step rather than a core risk-mitigation tool, showing they don't understand its role in validating the business model against real market conditions.",
+     "self_check": true
+    },
+    {
+     "q": "A student plans to start a mobile phone repair shop in a small town. They estimate needing ₹50,000 for tools, ₹20,000 for initial spare parts inventory, and ₹10,000 for a small shop deposit. They expect to charge ₹300 per repair and complete 5 repairs per day. If monthly expenses (rent, electricity, miscellaneous) are ₹15,000, what is their estimated monthly profit? Assume 30 days in a month.",
+     "a": "**STEPS:**\n- Step 1: Identify startup costs (₹50,000 + ₹20,000 + ₹10,000 = ₹80,000) and note they are one-time; monthly profit calculation focuses on recurring revenue and expenses.\n- Step 2: Calculate daily revenue: 5 repairs/day × ₹300/repair = ₹1,500/day.\n- Step 3: Calculate monthly revenue: ₹1,500/day × 30 days = ₹45,000.\n- Step 4: Identify monthly expenses: ₹15,000 (given).\n- Step 5: Calculate monthly profit: Monthly revenue – Monthly expenses = ₹45,000 – ₹15,000 = ₹30,000.\n**REASONING:** Startup costs are sunk investments and not subtracted monthly; profit is calculated from ongoing operations. Revenue comes from regular sales, while expenses recur monthly.\n**ANSWER:** ₹30,000 profit per month.\nA wrong answer like subtracting the ₹80,000 startup cost from monthly revenue (₹45,000 – ₹80,000 = –₹35,000) reveals the student confuses one-time startup investment with recurring monthly expenses, indicating a fundamental misunderstanding of cost classification in business planning.",
+     "self_check": true
+    },
+    {
+     "q": "Two friends want to start a juice bar. Friend A says: \"We should locate near a college because students love juice.\" Friend B says: \"We should locate near a hospital because visitors and staff need healthy options.\" Using only the information given, which friend's reasoning shows better market analysis and why?",
+     "a": "Friend B's reasoning shows better market analysis because it identifies a specific customer segment (hospital visitors and staff) with a clear, recurring need for healthy options, implying more predictable demand. Friend A's reasoning is vague—\"students love juice\" doesn't specify willingness to pay, frequency of purchase, or competition near colleges. A wrong answer choosing Friend A reveals the student equates general popularity with viable market demand, ignoring the need for specific, actionable insights about customer behavior and spending habits—key to effective market analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"A detailed business plan guarantees a startup will succeed.\" Provide one reason why this statement is false and one way a business plan still adds value despite not guaranteeing success.",
+     "a": "The statement is false because external factors like sudden market changes, new competitors, or economic downturns can affect success regardless of planning. However, a business plan adds value by helping entrepreneurs anticipate challenges, allocate resources efficiently, and clarify their strategy, increasing the likelihood of overcoming obstacles. A wrong answer saying \"it's true because planning prevents all problems\" reveals the student believes planning eliminates risk entirely, showing they don't understand the probabilistic nature of business outcomes and the plan's role as a guide, not a guarantee.",
+     "self_check": true
+    },
+    {
+     "q": "You have ₹1,00,000 to start a small business. Propose a simple business idea suitable for your neighborhood and list three key pieces of information you would include in your business plan to decide if it's worth starting.",
+     "a": "*Expected answer:* Idea: Homemade snack stall near a park. Key info: 1) Estimated number of park visitors daily (to gauge demand), 2) Cost of ingredients and stall rent per month (to calculate expenses), 3) Price per snack and expected sales per day (to calculate revenue and profit).\nA poor answer listing vague items like \"what I like to make\" or \"how hard I will work\" reveals the student doesn't understand that a business plan requires objective, measurable data about market demand, costs, and revenue potential—not personal preferences or effort—to make an objective go/no-go decision.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

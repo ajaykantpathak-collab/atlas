@@ -34,6 +34,36 @@
      "q": "Design a pharmacogenomic implementation protocol for a tertiary care hospital in India introducing pre-emptive CYP2C19 genotyping for clopidogrel in PCI patients. Include: (a) sample type and turnaround time target, (b) variant panel selection for Indian population, (c) reporting format for clinicians, (d) EHR integration strategy, and (e) equity safeguard for uninsured patients.",
      "a": "(a) EDTA whole blood; target TAT ≤24h (rapid PCR/array) or ≤72h (NGS) for pre-emptive use; point-of-care genotyping (e.g., Spartan RX) for urgent PCI. (b) Panel: CYP2C19 *2 (rs4244285), *3 (rs4986893), *17 (rs12248560) — covers >95% Indian variation; add *8, *9 if South Asian-specific data supports. (c) Structured report: Phenotype (PM/IM/NM/RM/UM), CPIC guideline recommendation (avoid clopidogrel in PM/IM → use ticagrelor/prasugrel), alternative dosing, and \"Result does not rule out rare variants\" disclaimer. (d) EHR: discrete phenotype field, CDS alert at clopidogrel order entry with \"Click to order alternative\" button, FHIR-standardized PGx data exchange. (e) Hospital-funded testing for BPL/ Ayushman Bharat patients; consent in regional languages; community engagement to address distrust. A poor answer omits Indian allele frequencies, uses generic \"genotype result\" without actionable phenotype, or ignores TAT constraints for acute PCI.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the study of how an individual's entire genome (including multiple genes and their interactions) influences drug response, efficacy, and toxicity, enabling personalized medicine where drug selection and dosage are tailored to a patient's genetic profile to maximize therapeutic benefit and minimize adverse effects.",
+     "a": "Pharmacogenomics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a patient prescribed standard-dose warfarin for atrial ______ develops life-threatening bleeding after 3 days.",
+     "a": "fibrillation",
+     "self_check": true
+    },
+    {
+     "q": "What is Pharmacogenomics? State the definition given in this lesson.",
+     "a": "Pharmacogenomics is the study of how an individual's entire genome (including multiple genes and their interactions) influences drug response, efficacy, and toxicity, enabling personalized medicine where drug selection and dosage are tailored to a patient's genetic profile to maximize therapeutic benefit and minimize adverse effects.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a patient prescribed standard-dose warfarin for atrial fibrillation develops life-threatening bleeding after ______ days.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Pharmacogenomics?",
+     "a": "Students often believe pharmacogenomics only involves drug-metabolizing enzymes (CYPs) and that a \"normal\" genotype guarantees drug safety.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the difference between pharmacogenetics and pharmacogenomics, identify key gene families (CYP450, TPMT, HLA, VKORC1) involved in drug response, and analyze a clinical case to recommend genotype-guided dosing or drug avoidance with justification.",
+     "self_check": true
     }
    ]
   }

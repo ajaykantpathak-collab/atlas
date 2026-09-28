@@ -34,6 +34,31 @@
      "q": "Create a realistic scenario involving a student's Class 12 IP project (a Python program with a unique database optimization technique and a project name/logo) where *all three* IPRs — copyright, patent, trademark — could apply simultaneously. Specify what each protects and one practical step the student should take for each.",
      "a": "**Scenario**: \"Riya builds 'SmartStock' — a Python inventory manager with a novel *predictive restocking algorithm* (technical effect: reduces waste by 30%), and brands it with a logo '📦 SmartStock'.\"  \n- **Copyright**: Protects the *source code* (automatic); Step: Keep dated backups/Git history as evidence of authorship.  \n- **Patent**: Protects the *algorithm* (if novel/non-obvious/useful); Step: File *provisional patent application* **before** publishing code/project report (public disclosure kills novelty).  \n- **Trademark**: Protects the *name/logo*; Step: File TM application (Form TM-A) under Class 9 (software) + Class 42 (SaaS) *before* public launch.  \nA poor answer lists only one IPR or misses the *pre-disclosure patent filing* requirement — a critical practical trap for student innovators.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ Property Rights (IPR) are legal rights granted to creators and inventors to protect their original works, inventions, and brand identities from unauthorised use.",
+     "a": "Intellectual",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have developed a mobile game called \"Mumbai Metro Dash\" — you wrote the code, designed a unique path-finding ______, and created a catchy logo with the name.",
+     "a": "algorithm",
+     "self_check": true
+    },
+    {
+     "q": "What is Intellectual Property Rights (IPR)? State the definition given in this lesson.",
+     "a": "Intellectual Property Rights (IPR) are legal rights granted to creators and inventors to protect their original works, inventions, and brand identities from unauthorised use.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Intellectual Property Rights (IPR)?",
+     "a": "Misconception: \"Copyright protects the *logic/algorithm* of my program because it's part of the code.\" Why it's wrong: Copyright protects the *literal expression* (the specific lines of code, comments, structure) — not the functional logic, algorithm, or method.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish between copyright, patent, and trademark by identifying the subject matter, duration, registration requirement, and scope of protection for each; (2) Analyse a real-world scenario (e.g., a mobile app with unique code, algorithm, and brand name) and correctly assign which IPR protects which.",
+     "self_check": true
     }
    ]
   }

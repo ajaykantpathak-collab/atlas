@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_01_002",
+   "title": "c11_app_cbse_01_002",
+   "questions": [
+    {
+     "q": "State the definition of a prime number and explain why the number 1 is neither prime nor composite according to the Fundamental Theorem of Arithmetic.",
+     "a": "A prime number is a positive integer p > 1 with exactly two positive divisors: 1 and p. The number 1 is excluded because if 1 were prime, the factorization of any integer (e.g., 10 = 2×5) would not be unique: 10 = 1×2×5 = 1²×2×5 = 1³×2×5 = …, violating the Fundamental Theorem of Arithmetic.  \n**Wrong answer reveals:** If a student says \"1 is prime because it's only divisible by 1 and itself,\" they are applying the *wording* of the definition without the condition p > 1, and they miss the *uniqueness* consequence that drives the exclusion.",
+     "self_check": true
+    },
+    {
+     "q": "Using the Sieve of Eratosthenes logic, explain why we only need to cross out multiples of primes up to √100 to find all primes ≤ 100. What would happen if we stopped at 7 instead of 10?",
+     "a": "Any composite n ≤ 100 has a prime factor p ≤ √n ≤ √100 = 10. The primes ≤ 10 are 2, 3, 5, 7. Crossing out multiples of these removes all composites. If we stopped at 7 (which is < 10), we would *still* be correct because the next prime is 11 > 10, so no new composites would be crossed out. However, the *guaranteed* upper bound is √n = 10; stopping at 7 works only because there is no prime between 7 and 10.  \n**Wrong answer reveals:** If a student says \"we stop at 7 because 7 is the largest prime ≤ 10,\" they confuse the *list of primes used* with the *theoretical bound √n*. They need to understand the theorem: \"n composite ⇒ n has a prime divisor ≤ √n.\"",
+     "self_check": true
+    },
+    {
+     "q": "Find the prime factorization of 4680 and 15708. Hence compute gcd(4680, 15708) and lcm(4680, 15708) using the prime factorizations.",
+     "a": "4680 = 2³ × 3² × 5¹ × 13¹  \n15708 = 2² × 3¹ × 7¹ × 11¹ × 17¹  \ngcd = 2^min(3,2) × 3^min(2,1) × 5^min(1,0) × 7^min(0,1) × 11^min(0,1) × 13^min(1,0) × 17^min(0,1) = 2² × 3¹ = 12  \nlcm = 2^max(3,2) × 3^max(2,1) × 5^max(1,0) × 7^max(0,1) × 11^max(0,1) × 13^max(1,0) × 17^max(0,1) = 2³ × 3² × 5 × 7 × 11 × 13 × 17 = 6126120  \n**Wrong answer reveals:** If a student writes gcd = 2² × 3² = 36, they took max instead of min for common primes. If they forget primes with exponent 0 (like 5 in 15708), they miss the min(1,0)=0 rule.",
+     "self_check": true
+    },
+    {
+     "q": "Euclid's proof assumes a finite list of primes p₁, p₂, …, pᵣ and constructs N = p₁p₂…pᵣ + 1. A student argues: \"N might be prime, so it's a new prime not in the list — contradiction. But what if N is composite? Then its prime factors are already in the list, so no contradiction.\" Identify the flaw in the student's reasoning.",
+     "a": "The flaw: If N is composite, it has a prime divisor p. By the Fundamental Theorem of Arithmetic, p must be one of p₁,…,pᵣ. But then p divides the product p₁…pᵣ. Since p also divides N, it must divide N − p₁…pᵣ = 1. No prime divides 1 — contradiction. The student forgot that a prime divisor of N *cannot* be in the original list because it would then divide 1.  \n**Wrong answer reveals:** The student understands the \"N is prime\" case but misses the critical step: *any* prime divisor of N (whether N is prime or composite) leads to a contradiction because it would divide 1.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Ramanujan primes Rₙ are defined as the smallest integer such that there are at least n primes between x/2 and x for all x ≥ Rₙ. Since R₁ = 2, R₂ = 11, R₃ = 17, the gap between consecutive Ramanujan primes is always increasing.\" Defend or refute with evidence.",
+     "a": "Refute. The given values: R₁=2, R₂=11 (gap 9), R₃=17 (gap 6). The gap *decreased* from 9 to 6. Ramanujan primes do not have monotonically increasing gaps; their distribution is related to prime density but not strictly regular. The claim confuses \"Rₙ increases\" (true) with \"gaps increase\" (false).  \n**Wrong answer reveals:** If a student agrees, they are extrapolating a pattern from three terms without checking the definition. They need to compute π(x) − π(x/2) for x near Rₙ to verify the definition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Prime Detective\" game for Class 9 students where they use the Sieve of Eratosthenes to find a secret 3-digit prime. Specify: (a) the range of numbers, (b) the clues given at each step, and (c) how the game teaches the √n bound.",
+     "a": "**Game Design:**  \n(a) Range: 100–999 (all 3-digit numbers). Secret prime chosen by teacher.  \n(b) Clues:  \n Round 1: \"The number is not divisible by 2, 3, 5, or 7.\" (Students cross out multiples)  \n Round 2: \"It is not divisible by 11, 13, 17, 19, 23, 29, 31.\" (Primes up to √999 ≈ 31.6)  \n Round 3: \"Only 12 numbers remain. The secret prime is one of them.\"  \n(c) Teaching moment: After Round 2, ask \"Why did we stop at 31?\" → \"Because if a 3-digit number had a prime factor > 31, the other factor would be < 32, already checked.\"  \n**Poor answer reveals:** If clues include primes > 31 (e.g., 37), the student doesn't grasp the √n bound. If they don't explain *why* the bound works, they treat it as a rule to memorize.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

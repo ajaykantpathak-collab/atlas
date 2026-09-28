@@ -34,6 +34,21 @@
      "q": "Design a hypothetical experiment using site-directed mutagenesis to test whether a specific hinge region in an enzyme is essential for the induced fit conformational change. Describe the mutants you would make, the assays you would run, and the expected results if the hinge is critical.",
      "a": "Correct answer: Mutate conserved glycine/alanine residues in the predicted hinge region to bulky prolines (restricts flexibility) or delete the hinge loop. Assay: (1) Measure kinetics (Km, Vmax) for wild-type vs mutants. (2) Use fluorescence spectroscopy or crystallography to detect conformational change upon substrate binding. Expected: Mutants show drastically reduced Vmax (impaired catalysis) but similar Km (binding intact), and no spectroscopic/structural evidence of domain closure. A poor answer (e.g., \"mutate the active site\") reveals inability to distinguish between residues involved in *binding* vs *conformational dynamics* — a key experimental design skill in enzymology.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The induced fit model proposes that the enzyme's active site is not a rigid pre-formed structure but a flexible conformation that undergoes a specific structural ______ upon substrate binding, aligning catalytic residues optimally for transition state stabilization and catalysis.",
+     "a": "rearrangement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are trying to put on a tight rubber glove — your hand (______) doesn't just slide into a pre-shaped cavity; the glove (enzyme) stretches and molds around your fingers.",
+     "a": "substrate",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain why the induced fit model better accounts for enzyme specificity and catalytic efficiency than the lock-and-key model, and predict how conformational changes affect kinetic parameters (Km, Vmax) in a given scenario.",
+     "self_check": true
     }
    ]
   }

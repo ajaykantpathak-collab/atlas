@@ -34,6 +34,31 @@
      "q": "Create a polynomial of three terms in variables \\(x\\) and \\(y\\) whose GCF is \\(5x^2y\\) and whose factorised form is \\(5x^2y(3x - 2y + 4)\\). Then write the expanded form.",
      "a": "Expanded form: \\(15x^3y - 10x^2y^2 + 20x^2y\\). A poor answer would have incorrect coefficients (e.g., missing the 5) or wrong powers (e.g., \\(x^2y\\) times \\(3x\\) giving \\(3x^2y\\) instead of \\(15x^3y\\)). This tests whether the student can reverse the process and understands the distributive expansion.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The GCF is the largest monomial that divides every term of the ______ exactly, including the highest power of each variable common to all terms.",
+     "a": "expression",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are packing ______ gift boxes for a school fundraiser: each box must contain the same combination of items — say, 2 pens and 3 notebooks.",
+     "a": "identical",
+     "self_check": true
+    },
+    {
+     "q": "What is Factorisation by the common factor method? State the definition given in this lesson.",
+     "a": "The GCF is the largest monomial that divides every term of the expression exactly, including the highest power of each variable common to all terms.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Factorisation by the common factor method?",
+     "a": "They confuse \"greatest common factor\" with \"largest term\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently identify the greatest common factor (numerical coefficient and variable part) in any polynomial with 3–4 terms, factor it out correctly, and verify the result by expanding back to the original expression.",
+     "self_check": true
     }
    ]
   }

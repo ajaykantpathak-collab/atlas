@@ -34,6 +34,31 @@
      "q": "Create a new real-world scenario (different from the examples above) that involves exactly three independent binary conditions and a final decision. Describe the conditions, assign Boolean variables, and write the decision rule in plain English using AND/OR/NOT.",
      "a": "Example: \"A washing machine starts only if (the door is locked) AND (water level is adequate) AND (the start button is pressed).\" Variables: D=door locked (1/0), W=water adequate (1/0), S=start pressed (1/0). Rule: Start = D AND W AND S. A poor answer uses non-binary conditions (e.g., \"water temperature > 30°C\"), uses vague logic (\"maybe\"), or creates a rule that cannot be expressed with only AND/OR/NOT (e.g., \"exactly two of three\"), revealing inability to abstract a situation into pure two-state logic.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Boolean algebra is a ______ system that deals with binary variables (having only two values: True/1 or False/0) and logical operations (AND, OR, NOT) to analyze, simplify, and design digital logic circuits.",
+     "a": "mathematical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a simple security system for a room: the alarm should trigger ONLY if the door is opened AND the system is armed.",
+     "a": "designing",
+     "self_check": true
+    },
+    {
+     "q": "What is Boolean algebra? State the definition given in this lesson.",
+     "a": "Boolean algebra is a mathematical system that deals with binary variables (having only two values: True/1 or False/0) and logical operations (AND, OR, NOT) to analyze, simplify, and design digital logic circuits.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Boolean algebra?",
+     "a": "Students often believe that the '+' symbol in Boolean algebra means arithmetic addition, so they write 1+1=10 (binary) or 1+1=2 (decimal).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the purpose of Boolean algebra in digital systems, distinguish it from ordinary arithmetic algebra, and identify real-world scenarios that map to binary (two-state) logic.",
+     "self_check": true
     }
    ]
   }

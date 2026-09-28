@@ -34,6 +34,21 @@
      "q": "Create an upstream/downstream problem where the speed of the boat in still water is 15 km/h and the speed of the stream is 3 km/h. The problem should ask for the time taken to go a certain distance upstream and downstream. Provide the distances and total time that would yield these speeds.",
      "a": "Sample problem: \"A boat with speed 15 km/h in still water goes 36 km upstream and 54 km downstream. The stream speed is 3 km/h. Find the total time taken.\" (Upstream speed=12, time=3h; Downstream speed=18, time=3h; Total=6h). Or: \"A boat goes 24 km upstream and 36 km downstream in 5 hours. The stream speed is 3 km/h. Find the boat speed in still water.\" A poor answer gives distances/times that don't match the speeds (e.g., upstream distance 30 km in 2 hours with stream 3 km/h would require boat speed 18 km/h, not 15). This reveals the student cannot reverse-engineer the Distance = Speed × Time relationship.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Upstream/______ problems involve a boat or swimmer moving in a river with a constant current.",
+     "a": "downstream",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You notice going ______ to Patna takes 2 hours, but returning upstream takes 3 hours for the same distance.",
+     "a": "downstream",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently: (1) Define variables for boat speed and stream speed, (2) Write correct upstream/downstream speed expressions, (3) Form a pair of linear equations using Distance = Speed × Time for two different trips, (4) Solve the system using any algebraic method, (5) Interpret the solution in context (speeds must be.",
+     "self_check": true
     }
    ]
   }

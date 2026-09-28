@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a conical pendulum (a bob on a string moving in a horizontal circle) to verify that centripetal acceleration is proportional to the square of the angular speed. Describe the measurements needed and the graph to plot.",
      "a": "Measure the period \\(T\\) for different string lengths \\(L\\) (or different radii \\(R\\)) by timing 20 revolutions. Compute \\(\\omega = 2\\pi/T\\) and \\(a_c = \\omega^2 R\\) (using geometry to find \\(R = L \\sin\\theta\\)). Plot \\(a_c\\) vs \\(\\omega^2\\); the slope should equal \\(R\\). A poor answer (e.g., \"measure speed with a stopwatch\") reveals lack of understanding of how to isolate variables and use graphical verification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It arises solely due to the ______ change in the direction of the velocity vector, while its magnitude remains constant.",
+     "a": "continuous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan running at constant speed: the blades move in a circle, yet they are ______ because their velocity direction changes at every instant.",
+     "a": "accelerating",
+     "self_check": true
+    },
+    {
+     "q": "What is Centripetal acceleration? State the definition given in this lesson.",
+     "a": "It arises solely due to the continuous change in the direction of the velocity vector, while its magnitude remains constant.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Centripetal acceleration?",
+     "a": "Students often think that because the speed is constant in uniform circular motion, the acceleration is zero.",
+     "self_check": true
     }
    ]
   }

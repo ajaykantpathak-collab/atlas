@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using two identical containers, water, soil, thermometers, and a lamp to demonstrate why coastal cities have milder temperature variations than inland cities.",
      "a": "Fill one container with water, the other with dry soil. Place thermometers in both. Shine lamp (simulating Sun) for 20 min, record temperatures every 2 min. Then turn off lamp, continue recording. Water will heat/cool slower due to higher specific heat. A poor design omits the cooling phase, uses different lamp distances, or doesn't connect results to coastal vs inland climates.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The temperature range on Earth refers to the span of surface ______ (typically -89°C to 56.7°C, with most life thriving between -20°C and 50°C) maintained by the planet's distance from the Sun, atmospheric greenhouse effect, and water's high specific heat capacity, which together create a narrow thermal window where liquid water exists and biochemical reactions essential for life can proceed.",
+     "a": "temperatures",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking students to touch a metal bench and a wooden bench in the schoolyard at noon — the metal feels much hotter despite both receiving the same ______.",
+     "a": "sunlight",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain why Earth's average temperature (15°C) is suitable for life by linking three factors: solar radiation input, atmospheric heat trapping, and water's thermal buffering.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking students to touch a metal bench and a wooden bench in the ______ at noon — the metal feels much hotter despite both receiving the same sunlight.",
+     "a": "schoolyard",
+     "self_check": true
     }
    ]
   }

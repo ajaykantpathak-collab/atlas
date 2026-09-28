@@ -1,235 +1,395 @@
 {
-  "class": 11,
-  "subject": "physics",
-  "chapter": 102,
-  "chapter_title": "Motion in a Straight Line",
-  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keph102.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "concepts": [
+ "class": 11,
+ "subject": "physics",
+ "chapter": 102,
+ "chapter_title": "Motion in a Straight Line",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keph102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "keph102.2.2.1",
+   "title": "Average and Instantaneous Velocity and Speed",
+   "section": "2.2",
+   "definition": "Average velocity divides the net displacement by the whole time interval, while instantaneous velocity is what a velocity gauge would read at one moment -- the limit of the average as the interval shrinks to zero. Speed is the magnitude side of the story: average speed uses total path length over time, so it can never fall below the size of the average velocity.",
+   "formula": "avg_velocity = displacement / time_interval",
+   "key_idea": "Displacement over time gives the average; shrink the interval and you hold the instantaneous value.",
+   "textbook_ref": "keph102.txt lines 60-180 (section 2.2, average velocity and speed, instantaneous velocity and speed, x-t graph slopes)",
+   "question_patterns": [
+    "find the average velocity of the object over the given interval",
+    "in class 11 motion in a straight line: how is instantaneous velocity obtained from a position time graph",
+    "distinguish average speed from average velocity with an example",
+    "the displacement and time are given, calculate the average velocity",
+    "when can average speed exceed the magnitude of average velocity",
+    "read the velocity at an instant from the slope of the graph"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "keph102.2.2.1",
-      "title": "Average and Instantaneous Velocity and Speed",
-      "section": "2.2",
-      "definition": "Average velocity divides the net displacement by the whole time interval, while instantaneous velocity is what a velocity gauge would read at one moment -- the limit of the average as the interval shrinks to zero. Speed is the magnitude side of the story: average speed uses total path length over time, so it can never fall below the size of the average velocity.",
-      "formula": "avg_velocity = displacement / time_interval",
-      "key_idea": "Displacement over time gives the average; shrink the interval and you hold the instantaneous value.",
-      "textbook_ref": "keph102.txt lines 60-180 (section 2.2, average velocity and speed, instantaneous velocity and speed, x-t graph slopes)",
-      "question_patterns": [
-        "find the average velocity of the object over the given interval",
-        "in class 11 motion in a straight line: how is instantaneous velocity obtained from a position time graph",
-        "distinguish average speed from average velocity with an example",
-        "the displacement and time are given, calculate the average velocity",
-        "when can average speed exceed the magnitude of average velocity",
-        "read the velocity at an instant from the slope of the graph"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "divide displacement by time", "explain": "The net displacement over the interval divided by its duration is the average velocity.",
-         "compute": "avg_velocity = displacement / time_interval"}
-      ]
-    },
-    {
-      "id": "keph102.2.3.1",
-      "title": "Acceleration as Rate of Change of Velocity",
-      "section": "2.3",
-      "definition": "Acceleration measures how quickly velocity changes: the change in velocity divided by the time taken for that change, averaged over an interval or taken instantaneously. Its sign tells whether the object speeds up or slows down along the chosen positive direction.",
-      "formula": "accel = (final_velocity - initial_velocity) / time_taken",
-      "key_idea": "One velocity change, one time interval -- their ratio is the acceleration, sign included.",
-      "textbook_ref": "keph102.txt lines 181-250 (section 2.3 acceleration, average and instantaneous acceleration, v-t graph)",
-      "question_patterns": [
-        "calculate the acceleration when velocity changes over the given time",
-        "in class 11 motion in a straight line: find the average acceleration from the v-t data",
-        "what does a negative acceleration signify",
-        "the velocity falls from one value to another, determine the deceleration",
-        "how is acceleration read from a velocity time graph",
-        "an object speeds up uniformly, find its rate of velocity change"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "take the velocity change", "explain": "Subtract the starting velocity from the ending velocity to get the change.",
-         "compute": "delta_v = final_velocity - initial_velocity"},
-        {"step": 2, "action": "divide by the elapsed time", "explain": "The change per unit time is the acceleration.",
-         "compute": "accel = delta_v / time_taken"}
-      ]
-    },
-    {
-      "id": "keph102.2.4.1",
-      "title": "Kinematic Equations for Uniformly Accelerated Motion",
-      "section": "2.4",
-      "definition": "When acceleration stays constant along a straight line, three algebraic relations carry all the motion information: the velocity relation linking v to u, a and t; the displacement relation x = u t + half a t squared; and the time-free link v squared = u squared + 2 a x connecting speeds and displacement directly.",
-      "formula": "v_final = v_init + accel * t",
-      "key_idea": "Constant acceleration turns calculus into algebra -- three equations connect the five motion variables two at a time.",
-      "textbook_ref": "keph102.txt lines 251-330 (section 2.4 kinematic equations for uniformly accelerated motion, derivation by integration or graph)",
-      "question_patterns": [
-        "derive the velocity of the object after the given time under constant acceleration",
-        "in class 11 motion in a straight line: state the three kinematic equations",
-        "find how far the body travels in the given time starting from a given speed",
-        "use the time-free equation to relate initial speed final speed and displacement",
-        "a car brakes uniformly, how long before it stops",
-        "which kinematic equation avoids time when it is not asked"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "update the velocity", "explain": "Adding acceleration times the elapsed time to the starting velocity gives the velocity then.",
-         "compute": "v_final = v_init + accel * t"},
-        {"step": 2, "action": "accumulate the displacement", "explain": "Starting velocity times time plus half acceleration times time squared is the distance covered.",
-         "compute": "dist = v_init * t + 0.5 * accel * t ** 2"}
-      ]
-    },
-    {
-      "id": "keph102.2.5.1",
-      "title": "Relative Velocity",
-      "section": "2.5",
-      "definition": "The velocity one observer assigns to a moving object depends on the observer's own motion. Relative velocity subtracts the reference object's velocity from the target's: two trains moving the same way differ by the small gap of their speeds, while opposite directions make their speeds add.",
-      "formula": "relative_v = velocity_a - velocity_b",
-      "key_idea": "Velocity is always measured from somewhere -- subtract the reference velocity to switch viewpoints.",
-      "textbook_ref": "keph102.txt lines 331-420 (section 2.5 relative velocity, trains example, position time graphs crossing)",
-      "question_patterns": [
-        "find the relative velocity of one object with respect to another",
-        "in class 11 motion in a straight line: two trains move in the same direction, what does an observer in one see",
-        "how does relative velocity change when objects move in opposite directions",
-        "the velocities of two cars are given, compute how fast they separate",
-        "when is the relative velocity of two objects zero",
-        "interpret the slope of a position time graph as relative velocity"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "subtract the reference velocity", "explain": "The velocity of A as seen from B is the velocity of A minus the velocity of B.",
-         "compute": "relative_v = velocity_a - velocity_b"}
-      ]
-    },
-    {
-      "id": "keph102.2.1.1",
-      "title": "Position, Path Length and Displacement",
-      "section": "2.1",
-      "definition": "Choosing an origin and a positive direction on a straight line lets every position be a signed coordinate. The path length is how far the object actually travelled along its route, while displacement is the straight-line change from start to finish -- equal to path length only when the motion never reverses.",
-      "formula": "",
-      "key_idea": "Distance is a scalar tally of the road; displacement is a vector jump from start to end, sign and all.",
-      "textbook_ref": "keph102.txt lines 20-60 (section 2.1 introduction, position path length and displacement, reference point and axis)",
-      "question_patterns": [
-        "distinguish path length from displacement for a back and forth trip",
-        "in class 11 motion in a straight line: when are distance and displacement equal",
-        "a body moves 3 m east and 4 m west, find its displacement",
-        "can displacement be negative and what does the sign mean",
-        "why is displacement called a vector while path length is a scalar",
-        "an object returns to its start, what is its displacement"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "fix the axis", "explain": "Pick an origin and which direction counts as positive; positions become signed numbers."},
-        {"step": 2, "action": "track the travelled path", "explain": "Adding up every segment of the route gives the path length, which never decreases."},
-        {"step": 3, "action": "compare with the net change", "explain": "Final position minus initial position is the displacement; a return to start leaves zero displacement however long the path was."}
-      ]
+     "step": 1,
+     "action": "divide displacement by time",
+     "explain": "The net displacement over the interval divided by its duration is the average velocity.",
+     "compute": "avg_velocity = displacement / time_interval"
     }
-  ],
-  "worked_examples": [
+   ],
+   "compute_steps": [
     {
-      "id": "we1",
-      "source_ref": "keph102.txt lines 60-180 (average velocity and speed)",
-      "concept": "keph102.2.2.1",
-      "question_type": "compute",
-      "question_pattern": "An object covers a displacement of {displacement} in {time_interval}; find its average velocity.",
-      "extracted_variables": {"displacement": 360, "time_interval": 60},
-      "solution_template": [
-        {"step": 1, "action": "divide displacement by time", "explain": "avg_velocity = 360 / 60 = 6 m/s.", "compute": "avg_velocity = displacement / time_interval"}
-      ]
-    },
-    {
-      "id": "we2",
-      "source_ref": "keph102.txt lines 60-180 (average velocity and speed)",
-      "concept": "keph102.2.2.1",
-      "question_type": "compute",
-      "question_pattern": "A displacement of {displacement} happens in {time_interval}; compute the mean velocity.",
-      "extracted_variables": {"displacement": 80, "time_interval": 8},
-      "solution_template": [
-        {"step": 1, "action": "divide displacement by time", "explain": "avg_velocity = 80 / 8 = 10 m/s.", "compute": "avg_velocity = displacement / time_interval"}
-      ]
-    },
-    {
-      "id": "we3",
-      "source_ref": "keph102.txt lines 181-250 (acceleration)",
-      "concept": "keph102.2.3.1",
-      "question_type": "compute",
-      "question_pattern": "Velocity grows from {initial_velocity} to {final_velocity} in {time_taken}; find the acceleration.",
-      "extracted_variables": {"initial_velocity": 0, "final_velocity": 24, "time_taken": 8},
-      "solution_template": [
-        {"step": 1, "action": "take the velocity change", "explain": "delta_v = 24 - 0 = 24 m/s.", "compute": "delta_v = final_velocity - initial_velocity"},
-        {"step": 2, "action": "divide by the elapsed time", "explain": "accel = 24 / 8 = 3 m/s^2.", "compute": "accel = delta_v / time_taken"}
-      ]
-    },
-    {
-      "id": "we4",
-      "source_ref": "keph102.txt lines 181-250 (acceleration)",
-      "concept": "keph102.2.3.1",
-      "question_type": "compute",
-      "question_pattern": "A body slows from {initial_velocity} to {final_velocity} in {time_taken}; compute its acceleration.",
-      "extracted_variables": {"initial_velocity": 20, "final_velocity": 0, "time_taken": 4},
-      "solution_template": [
-        {"step": 1, "action": "take the velocity change", "explain": "delta_v = 0 - 20 = -20 m/s.", "compute": "delta_v = final_velocity - initial_velocity"},
-        {"step": 2, "action": "divide by the elapsed time", "explain": "accel = -20 / 4 = -5 m/s^2, a deceleration of 5.", "compute": "accel = delta_v / time_taken"}
-      ]
-    },
-    {
-      "id": "we5",
-      "source_ref": "keph102.txt lines 251-330 (kinematic equations)",
-      "concept": "keph102.2.4.1",
-      "question_type": "compute",
-      "question_pattern": "A body starts at {v_init} with acceleration {accel}; find its velocity and displacement after {t}.",
-      "extracted_variables": {"v_init": 0, "accel": 2, "t": 5},
-      "solution_template": [
-        {"step": 1, "action": "update the velocity", "explain": "v_final = 0 + 2 * 5 = 10 m/s.", "compute": "v_final = v_init + accel * t"},
-        {"step": 2, "action": "accumulate the displacement", "explain": "dist = 0 + 0.5 * 2 * 25 = 25 m.", "compute": "dist = v_init * t + 0.5 * accel * t ** 2"}
-      ]
-    },
-    {
-      "id": "we6",
-      "source_ref": "keph102.txt lines 251-330 (kinematic equations)",
-      "concept": "keph102.2.4.1",
-      "question_type": "compute",
-      "question_pattern": "With initial speed {v_init} and uniform acceleration {accel}, how fast and how far after {t} seconds?",
-      "extracted_variables": {"v_init": 10, "accel": -2, "t": 4},
-      "solution_template": [
-        {"step": 1, "action": "update the velocity", "explain": "v_final = 10 - 2 * 4 = 2 m/s.", "compute": "v_final = v_init + accel * t"},
-        {"step": 2, "action": "accumulate the displacement", "explain": "dist = 10 * 4 - 0.5 * 2 * 16 = 24 m.", "compute": "dist = v_init * t + 0.5 * accel * t ** 2"}
-      ]
-    },
-    {
-      "id": "we7",
-      "source_ref": "keph102.txt lines 331-420 (relative velocity)",
-      "concept": "keph102.2.5.1",
-      "question_type": "compute",
-      "question_pattern": "Two trains run the same way at {velocity_a} and {velocity_b}; find the relative velocity of the first with respect to the second.",
-      "extracted_variables": {"velocity_a": 90, "velocity_b": 60},
-      "solution_template": [
-        {"step": 1, "action": "subtract the reference velocity", "explain": "relative_v = 90 - 60 = 30 km/h.", "compute": "relative_v = velocity_a - velocity_b"}
-      ]
-    },
-    {
-      "id": "we8",
-      "source_ref": "keph102.txt lines 331-420 (relative velocity)",
-      "concept": "keph102.2.5.1",
-      "question_type": "compute",
-      "question_pattern": "Car A moves at {velocity_a} and car B at {velocity_b} in the opposite sense; compute their relative speed.",
-      "extracted_variables": {"velocity_a": 60, "velocity_b": -40},
-      "solution_template": [
-        {"step": 1, "action": "subtract the reference velocity", "explain": "relative_v = 60 - (-40) = 100 km/h -- opposite senses add.", "compute": "relative_v = velocity_a - velocity_b"}
-      ]
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "avg_velocity = displacement / time_interval",
+     "compute": "avg_velocity = displacement / time_interval"
     }
-  ],
-  "exercises": [
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "keph102.2.3.1",
+   "title": "Acceleration as Rate of Change of Velocity",
+   "section": "2.3",
+   "definition": "Acceleration measures how quickly velocity changes: the change in velocity divided by the time taken for that change, averaged over an interval or taken instantaneously. Its sign tells whether the object speeds up or slows down along the chosen positive direction.",
+   "formula": "accel = (final_velocity - initial_velocity) / time_taken",
+   "key_idea": "One velocity change, one time interval -- their ratio is the acceleration, sign included.",
+   "textbook_ref": "keph102.txt lines 181-250 (section 2.3 acceleration, average and instantaneous acceleration, v-t graph)",
+   "question_patterns": [
+    "calculate the acceleration when velocity changes over the given time",
+    "in class 11 motion in a straight line: find the average acceleration from the v-t data",
+    "what does a negative acceleration signify",
+    "the velocity falls from one value to another, determine the deceleration",
+    "how is acceleration read from a velocity time graph",
+    "an object speeds up uniformly, find its rate of velocity change"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "ex1",
-      "source_ref": "keph102.txt end-of-chapter exercises, reworded",
-      "questions": [
-        "A woman starts from her home and after a walk returns home; state her displacement.",
-        "From the given position time graph, say in which segment the speed is largest and in which it is zero.",
-        "A drunkard walks in a pattern of steps forward and back; how long before he falls into the pit?",
-        "A jet airplane lands at constant deceleration; find its acceleration and stopping distance.",
-        "A ball is thrown up and returns after a given time; find the speed of throw and the height.",
-        "Read the average velocity between two instants from the given x-t data.",
-        "Two trains on parallel tracks move in opposite directions; find the time to cross using relative velocity.",
-        "Distinguish between average speed and the magnitude of average velocity with a numeric case."
-      ]
+     "step": 1,
+     "action": "take the velocity change",
+     "explain": "Subtract the starting velocity from the ending velocity to get the change.",
+     "compute": "delta_v = final_velocity - initial_velocity"
+    },
+    {
+     "step": 2,
+     "action": "divide by the elapsed time",
+     "explain": "The change per unit time is the acceleration.",
+     "compute": "accel = delta_v / time_taken"
     }
-  ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "accel = (final_velocity - initial_velocity) / time_taken",
+     "compute": "accel = (final_velocity - initial_velocity) / time_taken"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "keph102.2.4.1",
+   "title": "Kinematic Equations for Uniformly Accelerated Motion",
+   "section": "2.4",
+   "definition": "When acceleration stays constant along a straight line, three algebraic relations carry all the motion information: the velocity relation linking v to u, a and t; the displacement relation x = u t + half a t squared; and the time-free link v squared = u squared + 2 a x connecting speeds and displacement directly.",
+   "formula": "v_final = v_init + accel * t",
+   "key_idea": "Constant acceleration turns calculus into algebra -- three equations connect the five motion variables two at a time.",
+   "textbook_ref": "keph102.txt lines 251-330 (section 2.4 kinematic equations for uniformly accelerated motion, derivation by integration or graph)",
+   "question_patterns": [
+    "derive the velocity of the object after the given time under constant acceleration",
+    "in class 11 motion in a straight line: state the three kinematic equations",
+    "find how far the body travels in the given time starting from a given speed",
+    "use the time-free equation to relate initial speed final speed and displacement",
+    "a car brakes uniformly, how long before it stops",
+    "which kinematic equation avoids time when it is not asked"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "update the velocity",
+     "explain": "Adding acceleration times the elapsed time to the starting velocity gives the velocity then.",
+     "compute": "v_final = v_init + accel * t"
+    },
+    {
+     "step": 2,
+     "action": "accumulate the displacement",
+     "explain": "Starting velocity times time plus half acceleration times time squared is the distance covered.",
+     "compute": "dist = v_init * t + 0.5 * accel * t ** 2"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "v_final = v_init + accel * t",
+     "compute": "v_final = v_init + accel * t"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "keph102.2.5.1",
+   "title": "Relative Velocity",
+   "section": "2.5",
+   "definition": "The velocity one observer assigns to a moving object depends on the observer's own motion. Relative velocity subtracts the reference object's velocity from the target's: two trains moving the same way differ by the small gap of their speeds, while opposite directions make their speeds add.",
+   "formula": "relative_v = velocity_a - velocity_b",
+   "key_idea": "Velocity is always measured from somewhere -- subtract the reference velocity to switch viewpoints.",
+   "textbook_ref": "keph102.txt lines 331-420 (section 2.5 relative velocity, trains example, position time graphs crossing)",
+   "question_patterns": [
+    "find the relative velocity of one object with respect to another",
+    "in class 11 motion in a straight line: two trains move in the same direction, what does an observer in one see",
+    "how does relative velocity change when objects move in opposite directions",
+    "the velocities of two cars are given, compute how fast they separate",
+    "when is the relative velocity of two objects zero",
+    "interpret the slope of a position time graph as relative velocity"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the reference velocity",
+     "explain": "The velocity of A as seen from B is the velocity of A minus the velocity of B.",
+     "compute": "relative_v = velocity_a - velocity_b"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "relative_v = velocity_a - velocity_b",
+     "compute": "relative_v = velocity_a - velocity_b"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "keph102.2.1.1",
+   "title": "Position, Path Length and Displacement",
+   "section": "2.1",
+   "definition": "Choosing an origin and a positive direction on a straight line lets every position be a signed coordinate. The path length is how far the object actually travelled along its route, while displacement is the straight-line change from start to finish -- equal to path length only when the motion never reverses.",
+   "formula": "",
+   "key_idea": "Distance is a scalar tally of the road; displacement is a vector jump from start to end, sign and all.",
+   "textbook_ref": "keph102.txt lines 20-60 (section 2.1 introduction, position path length and displacement, reference point and axis)",
+   "question_patterns": [
+    "distinguish path length from displacement for a back and forth trip",
+    "in class 11 motion in a straight line: when are distance and displacement equal",
+    "a body moves 3 m east and 4 m west, find its displacement",
+    "can displacement be negative and what does the sign mean",
+    "why is displacement called a vector while path length is a scalar",
+    "an object returns to its start, what is its displacement"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "fix the axis",
+     "explain": "Pick an origin and which direction counts as positive; positions become signed numbers."
+    },
+    {
+     "step": 2,
+     "action": "track the travelled path",
+     "explain": "Adding up every segment of the route gives the path length, which never decreases."
+    },
+    {
+     "step": 3,
+     "action": "compare with the net change",
+     "explain": "Final position minus initial position is the displacement; a return to start leaves zero displacement however long the path was."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "keph102.txt lines 60-180 (average velocity and speed)",
+   "concept": "keph102.2.2.1",
+   "question_type": "compute",
+   "question_pattern": "An object covers a displacement of {displacement} in {time_interval}; find its average velocity.",
+   "extracted_variables": {
+    "displacement": 360,
+    "time_interval": 60
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide displacement by time",
+     "explain": "avg_velocity = 360 / 60 = 6 m/s.",
+     "compute": "avg_velocity = displacement / time_interval"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "keph102.txt lines 60-180 (average velocity and speed)",
+   "concept": "keph102.2.2.1",
+   "question_type": "compute",
+   "question_pattern": "A displacement of {displacement} happens in {time_interval}; compute the mean velocity.",
+   "extracted_variables": {
+    "displacement": 80,
+    "time_interval": 8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide displacement by time",
+     "explain": "avg_velocity = 80 / 8 = 10 m/s.",
+     "compute": "avg_velocity = displacement / time_interval"
+    }
+   ]
+  },
+  {
+   "id": "we3",
+   "source_ref": "keph102.txt lines 181-250 (acceleration)",
+   "concept": "keph102.2.3.1",
+   "question_type": "compute",
+   "question_pattern": "Velocity grows from {initial_velocity} to {final_velocity} in {time_taken}; find the acceleration.",
+   "extracted_variables": {
+    "initial_velocity": 0,
+    "final_velocity": 24,
+    "time_taken": 8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the velocity change",
+     "explain": "delta_v = 24 - 0 = 24 m/s.",
+     "compute": "delta_v = final_velocity - initial_velocity"
+    },
+    {
+     "step": 2,
+     "action": "divide by the elapsed time",
+     "explain": "accel = 24 / 8 = 3 m/s^2.",
+     "compute": "accel = delta_v / time_taken"
+    }
+   ]
+  },
+  {
+   "id": "we4",
+   "source_ref": "keph102.txt lines 181-250 (acceleration)",
+   "concept": "keph102.2.3.1",
+   "question_type": "compute",
+   "question_pattern": "A body slows from {initial_velocity} to {final_velocity} in {time_taken}; compute its acceleration.",
+   "extracted_variables": {
+    "initial_velocity": 20,
+    "final_velocity": 0,
+    "time_taken": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the velocity change",
+     "explain": "delta_v = 0 - 20 = -20 m/s.",
+     "compute": "delta_v = final_velocity - initial_velocity"
+    },
+    {
+     "step": 2,
+     "action": "divide by the elapsed time",
+     "explain": "accel = -20 / 4 = -5 m/s^2, a deceleration of 5.",
+     "compute": "accel = delta_v / time_taken"
+    }
+   ]
+  },
+  {
+   "id": "we5",
+   "source_ref": "keph102.txt lines 251-330 (kinematic equations)",
+   "concept": "keph102.2.4.1",
+   "question_type": "compute",
+   "question_pattern": "A body starts at {v_init} with acceleration {accel}; find its velocity and displacement after {t}.",
+   "extracted_variables": {
+    "v_init": 0,
+    "accel": 2,
+    "t": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "update the velocity",
+     "explain": "v_final = 0 + 2 * 5 = 10 m/s.",
+     "compute": "v_final = v_init + accel * t"
+    },
+    {
+     "step": 2,
+     "action": "accumulate the displacement",
+     "explain": "dist = 0 + 0.5 * 2 * 25 = 25 m.",
+     "compute": "dist = v_init * t + 0.5 * accel * t ** 2"
+    }
+   ]
+  },
+  {
+   "id": "we6",
+   "source_ref": "keph102.txt lines 251-330 (kinematic equations)",
+   "concept": "keph102.2.4.1",
+   "question_type": "compute",
+   "question_pattern": "With initial speed {v_init} and uniform acceleration {accel}, how fast and how far after {t} seconds?",
+   "extracted_variables": {
+    "v_init": 10,
+    "accel": -2,
+    "t": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "update the velocity",
+     "explain": "v_final = 10 - 2 * 4 = 2 m/s.",
+     "compute": "v_final = v_init + accel * t"
+    },
+    {
+     "step": 2,
+     "action": "accumulate the displacement",
+     "explain": "dist = 10 * 4 - 0.5 * 2 * 16 = 24 m.",
+     "compute": "dist = v_init * t + 0.5 * accel * t ** 2"
+    }
+   ]
+  },
+  {
+   "id": "we7",
+   "source_ref": "keph102.txt lines 331-420 (relative velocity)",
+   "concept": "keph102.2.5.1",
+   "question_type": "compute",
+   "question_pattern": "Two trains run the same way at {velocity_a} and {velocity_b}; find the relative velocity of the first with respect to the second.",
+   "extracted_variables": {
+    "velocity_a": 90,
+    "velocity_b": 60
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract the reference velocity",
+     "explain": "relative_v = 90 - 60 = 30 km/h.",
+     "compute": "relative_v = velocity_a - velocity_b"
+    }
+   ]
+  },
+  {
+   "id": "we8",
+   "source_ref": "keph102.txt lines 331-420 (relative velocity)",
+   "concept": "keph102.2.5.1",
+   "question_type": "compute",
+   "question_pattern": "Car A moves at {velocity_a} and car B at {velocity_b} in the opposite sense; compute their relative speed.",
+   "extracted_variables": {
+    "velocity_a": 60,
+    "velocity_b": -40
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "subtract the reference velocity",
+     "explain": "relative_v = 60 - (-40) = 100 km/h -- opposite senses add.",
+     "compute": "relative_v = velocity_a - velocity_b"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "keph102.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "A woman starts from her home and after a walk returns home; state her displacement.",
+    "From the given position time graph, say in which segment the speed is largest and in which it is zero.",
+    "A drunkard walks in a pattern of steps forward and back; how long before he falls into the pit?",
+    "A jet airplane lands at constant deceleration; find its acceleration and stopping distance.",
+    "A ball is thrown up and returns after a given time; find the speed of throw and the height.",
+    "Read the average velocity between two instants from the given x-t data.",
+    "Two trains on parallel tracks move in opposite directions; find the time to cross using relative velocity.",
+    "Distinguish between average speed and the magnitude of average velocity with a numeric case."
+   ]
+  }
+ ]
 }

@@ -34,6 +34,31 @@
      "q": "Design a new topology for a 6‑node network that satisfies: (i) at most 7 links, (ii) any single link failure does not partition the network, (iii) maximum hop count between any two nodes ≤ 2. Draw the topology, list its links, and justify each requirement.",
      "a": "A valid design: a 6‑node cycle (ring) plus one chord connecting opposite nodes (total 7 links). The chord creates two 3‑hop paths, reducing max hop count to 2. Single link failure leaves a connected graph (either a 5‑edge path or a 5‑node cycle plus chord). A student who proposes a star fails (ii) because central link failure partitions; a student who proposes a full mesh fails (i) with 15 links. This tests synthesis of constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Network topology is the geometric arrangement of nodes (computers, servers, peripherals) and links (______ channels) in a computer network, defining both the physical layout of cables/devices and the logical path that data signals follow between any two nodes.",
+     "a": "communication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are setting up a Wi‑Fi ______ for a three‑floor house: the router sits on the ground floor, laptops are on the first and second floors, and a smart TV is in the basement.",
+     "a": "network",
+     "self_check": true
+    },
+    {
+     "q": "What is Network topology? State the definition given in this lesson.",
+     "a": "Network topology is the geometric arrangement of nodes (computers, servers, peripherals) and links (communication channels) in a computer network, defining both the physical layout of cables/devices and the logical path that data signals follow between any two nodes.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Network topology?",
+     "a": "Students often think 'topology' only means the physical shape of cables.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) define network topology precisely using the terms 'nodes' and 'links', (2) list the six standard topologies (bus, star, ring, mesh, tree, hybrid) and sketch a labelled diagram for each, and (3) explain the fundamental distinction between physical topology (actual cabling) and logical topology (data flow path) with a.",
+     "self_check": true
     }
    ]
   }

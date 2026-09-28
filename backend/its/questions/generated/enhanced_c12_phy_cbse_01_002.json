@@ -34,6 +34,26 @@
      "q": "Design a thought experiment using only Coulomb's Law and Newton's Third Law to show that the forces \\(\\vec{F}_{12}\\) and \\(\\vec{F}_{21}\\) are equal in magnitude and opposite in direction for any two point charges \\(q_1\\) and \\(q_2\\).",
      "a": "From Coulomb's Law: \\(\\vec{F}_{12} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_1 q_2}{r^2} \\hat{r}_{12}\\) and \\(\\vec{F}_{21} = \\frac{1}{4\\pi\\varepsilon_0} \\frac{q_2 q_1}{r^2} \\hat{r}_{21}\\). Since \\(\\hat{r}_{21} = -\\hat{r}_{12}\\) and multiplication is commutative (\\(q_1 q_2 = q_2 q_1\\)), we get \\(\\vec{F}_{21} = -\\vec{F}_{12}\\). This satisfies Newton's Third Law identically for all \\(q_1, q_2, r\\). A poor answer reveals the student cannot connect the vector direction reversal (\\(\\hat{r}_{21} = -\\hat{r}_{12}\\)) to the action-reaction pair.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Coulomb's Law states that the ______ force between two stationary point charges is directly proportional to the product of their magnitudes and inversely proportional to the square of the distance between them, acting along the line joining the charges.",
+     "a": "electrostatic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a rubbed plastic ruler attracting tiny paper bits — the force acts at a ______ without contact.",
+     "a": "distance",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute the magnitude and direction of the electrostatic force between two point charges given their magnitudes, signs, and separation in vacuum, correctly handling unit conversions (μC to C, cm to m) and applying the vector form to determine attraction or repulsion.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a rubbed plastic ruler ______ tiny paper bits — the force acts at a distance without contact.",
+     "a": "attracting",
+     "self_check": true
     }
    ]
   }

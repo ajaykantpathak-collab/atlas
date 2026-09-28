@@ -23,8 +23,10 @@ import time
 import uuid
 from typing import Optional
 
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, Depends, HTTPException
 from pydantic import BaseModel, Field
+
+from backend.deps import get_current_user, is_staff, require_self_or_staff
 
 logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/api/intelligence", tags=["intelligence"])
@@ -500,8 +502,22 @@ async def get_teaching_context(node_id: str, mastery_map: Optional[str] = None):
 
 
 @router.post("/confidence")
-async def record_confidence(req: ConfidenceRequest):
-    """Record a student's confidence rating for calibration."""
+async def record_confidence(
+    req: ConfidenceRequest,
+    user=Depends(get_current_user),
+):
+    """Record a student's confidence rating for calibration.
+
+    B16: this was an anonymous WRITE -- any caller could insert confidence
+    ratings against any student_id, poisoning the calibration model that
+    drives remediation. student_id arrives in the body, so the ownership
+    check is inline rather than a path-parameter dependency.
+    """
+    if not is_staff(user) and str(req.student_id) != str(user.id):
+        raise HTTPException(
+            status_code=403,
+            detail="Not authorized for this student record",
+        )
     try:
         cal = _get_calibrator()
         cal.record_confidence(
@@ -517,11 +533,19 @@ async def record_confidence(req: ConfidenceRequest):
 
 
 @router.get("/confidence/{student_id}")
-async def get_calibration(student_id: str):
-    """Get confidence calibration for a student."""
+async def get_calibration(
+    student_id: str,
+    scoped_student_id: str = Depends(require_self_or_staff),
+):
+    """Get confidence calibration for a student.
+
+    B16: was unauthenticated -- any caller could read any student's
+    metacognitive profile (confidence vs accuracy) just by guessing an id.
+    Now staff, or the student themselves.
+    """
     try:
         cal = _get_calibrator()
-        result = cal.get_calibration(student_id)
+        result = cal.get_calibration(scoped_student_id)
         if isinstance(result, dict):
             return result
         if hasattr(result, "__dict__"):

@@ -34,6 +34,26 @@
      "q": "Design a simple classroom experiment using only a laser pointer, three beakers, and samples of (i) salt solution, (ii) starch sol, (iii) chalk suspension to demonstrate the Tyndall effect and identify which is a colloid.",
      "a": "Procedure: Darken the room. Shine the laser through each beaker from the side. Observe the beam path: (i) Salt solution – no visible beam (true solution). (ii) Starch sol – bright visible beam (colloid, Tyndall effect). (iii) Chalk suspension – beam may be visible but particles settle quickly; also the mixture is opaque. The colloid is identified by a clear, visible beam in a translucent dispersion that remains stable for hours. A poor design that does not darken the room or uses a flashlight instead of a laser shows lack of understanding of the experimental conditions needed to observe scattering.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A colloid is a ______ mixture in which the dispersed phase particles (1–1000 nm) are larger than those in a true solution but smaller than those in a suspension, remain suspended for long periods, and scatter a beam of light (Tyndall effect).",
+     "a": "heterogeneous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a glass of milk and a beam of sunlight entering a dusty room – both show a visible light path, unlike a salt ______.",
+     "a": "solution",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify any given mixture as a colloid by identifying its particle size range (1–1000 nm), naming the correct type from the eight categories (sol, gel, aerosol, emulsion, foam, solid sol, solid foam, solid aerosol), and explaining at least two distinguishing properties such as Tyndall effect, Brownian motion, or.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a glass of milk and a beam of ______ entering a dusty room – both show a visible light path, unlike a salt solution.",
+     "a": "sunlight",
+     "self_check": true
     }
    ]
   }

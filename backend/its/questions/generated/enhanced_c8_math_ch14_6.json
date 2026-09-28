@@ -34,6 +34,21 @@
      "q": "Design a real-life problem (with numbers) where you need to find the area of a trapezium, but one of the parallel sides is unknown and must be found first using the total area and the other dimensions. Provide the full problem statement and the solution steps.",
      "a": "Example problem: \"A garden bed is shaped like a trapezium. Its area is 72 m². The height is 6 m and one parallel side is 8 m. Find the length of the other parallel side.\"\nSolution: 72 = ½ × (8 + x) × 6 → 72 = 3 × (8 + x) → 24 = 8 + x → x = 16 m.\nA poor answer gives a problem that doesn't require finding a missing side, or provides numbers that don't work out evenly, indicating the student cannot reverse-engineer the formula.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A trapezium is a ______ with exactly one pair of parallel sides.",
+     "a": "quadrilateral",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your family lay new tiles on a ______-shaped courtyard.",
+     "a": "trapezoid",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the parallel sides and perpendicular height in any orientation of a trapezium, substitute values into the formula with proper unit handling, and solve for missing dimensions (a, b, or h) when given the area.",
+     "self_check": true
     }
    ]
   }

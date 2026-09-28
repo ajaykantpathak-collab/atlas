@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_hs_cbse_13_008",
+ "concepts": [
+  {
+   "id": "enh:c12_hs_cbse_13_008",
+   "title": "c12_hs_cbse_13_008",
+   "questions": [
+    {
+     "q": "What is the primary legislation governing weights and measures in India today, and which system of units does it mandate?",
+     "a": "The Legal Metrology Act, 2009 is the primary legislation; it mandates the International System of Units (SI/metric system) for all trade and commerce in India. A wrong answer (e.g., naming the 1976 Act or saying \"both metric and imperial are allowed\") reveals the student is unaware of the 2009 replacement and the exclusive legal status of metric units — a frequent board exam trap where outdated Act names are used in distractors.",
+     "self_check": true
+    },
+    {
+     "q": "A consumer sees a verification stamp on a shop's electronic weighing scale showing \"2023 ⬟ 3 ⬟ LM 12\". Explain what each part of this stamp signifies and why the quarter marking matters for the consumer.",
+     "a": "The stamp reads: Year 2023, Quarter 3 (July–September), Legal Metrology Officer code 12. The quarter matters because verification is valid only until the end of the next quarter (i.e., this stamp expires 31 December 2023); if the consumer sees it in January 2024, the scale is legally unverified. A wrong answer that ignores the quarterly expiry or treats the stamp as permanently valid shows the student misunderstands the time-bound nature of verification — a critical point for consumer vigilance.",
+     "self_check": true
+    },
+    {
+     "q": "A vendor uses a 1 kg brass weight to weigh sugar on a beam balance. The Legal Metrology Act specifies a Maximum Permissible Error (MPE) of ±5 g for a 1 kg weight of Class M1. The consumer suspects the weight is hollow and actually weighs 985 g. Calculate the actual error and state whether this weight passes legal verification.",
+     "a": "Actual error = True mass – Nominal mass = 985 g – 1000 g = –15 g. The MPE is ±5 g, so the error of –15 g exceeds the limit by 10 g. The weight fails verification and is illegal for trade. A wrong answer that miscalculates error direction (e.g., +15 g) or compares absolute error without sign reveals confusion about error convention (negative = underweight) and the strictness of MPE — a common numerical trap in competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the verification process for a mechanical beam balance versus a digital electronic scale. Identify two additional checks required for the digital scale that are irrelevant for the beam balance.",
+     "a": "Both require physical inspection, stamping, and MPE testing with standard weights. For the digital scale, two extra checks are: (1) Power supply stability test (voltage fluctuation must not alter reading beyond MPE) and (2) Software/calibration seal integrity (tamper-proof seal on calibration port). A beam balance has no electronics or software. A wrong answer that lists only mechanical checks (e.g., \"check knife edges\") for both misses the electronic-specific vulnerabilities — a key distinction in modern market surveillance.",
+     "self_check": true
+    },
+    {
+     "q": "A consumer buys 2 kg of rice from a supermarket where the digital scale shows 2.000 kg. At home, using a verified kitchen scale (MPE ±2 g), the rice weighs 1.978 kg. Evaluate whether the supermarket violated the Legal Metrology Act, considering the MPE of the supermarket scale (assume ±5 g for 2 kg capacity) and the kitchen scale's MPE.",
+     "a": "The supermarket scale's reading (2.000 kg) and the kitchen scale's reading (1.978 kg) differ by 22 g. The combined MPE = √(5² + 2²) ≈ 5.4 g (root-sum-square for independent errors). Since 22 g ≫ 5.4 g, the discrepancy is far beyond combined permissible error — the supermarket scale is likely faulty or manipulated. Violation is established. A wrong answer that ignores combined uncertainty or uses simple addition (5+2=7 g) overestimates allowable error and may incorrectly absolve the vendor — a subtle statistical reasoning error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step \"Consumer Quick-Check\" protocol that any shopper can perform in under 30 seconds at a retail counter to verify the legality of the weighing instrument, without carrying any tools.",
+     "a": "Step 1: Locate the verification stamp — confirm it shows current year and a quarter that has not expired (e.g., in October, quarter 3 stamp is valid, quarter 2 is expired). Step 2: Check for a zero error — ensure the display reads exactly 0.000 kg when empty (no load). Step 3: Perform a \"known weight test\" — place a pre-packaged commodity with a declared net weight (e.g., a 1 kg sealed salt packet) on the scale; the reading must fall within the declared weight ± the scale's MPE (typically ±5 g for 1 kg). A poor answer that omits the zero-check or suggests using random objects instead of a certified pre-pack reveals lack of practical, tool-free verification strategy.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Weights and Measures standards refer to the legally mandated system of uniform units (metric system in India) and calibrated ______ used for quantifying goods in trade, ensuring consumers receive the exact quantity they pay for.",
+     "a": "instruments",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you buy 1 kg of apples from a street vendor who uses a battered iron weight and a beam ______.",
+     "a": "balance",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Consumer protection in this context is enforced through the Legal Metrology Act, ______, which mandates verification, stamping, and periodic re-verification of weighing/measuring instruments by state Legal Metrology departments, and penalizes short-weighting, non-standard units, or tampered devices.",
+     "a": "2009",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the Legal Metrology Act's key provisions, identify the verification stamp and its validity period on a weighing instrument, calculate the maximum permissible error (MPE) for a given weight category, and describe the steps a consumer should take when suspecting short-measurement.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you buy 1 kg of apples from a street vendor who uses a ______ iron weight and a beam balance.",
+     "a": "battered",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

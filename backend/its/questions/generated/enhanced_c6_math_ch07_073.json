@@ -34,6 +34,31 @@
      "q": "Draw a triangle that is both obtuse and isosceles. What would be the minimum requirements for the sides and angles?",
      "a": "The triangle must have two equal sides and one angle greater than 90 degrees. A poor answer ignores the \"isosceles\" requirement (two sides equal) or draws an acute triangle instead, showing a lack of synthesis between the two classification types.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A triangle is a closed ______ figure formed by three straight line segments connected at three endpoints, creating three interior angles.",
+     "a": "geometric",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are looking at a wooden A-frame tent or a slice of pizza; notice how they both have three sides and three ______.",
+     "a": "corners",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The sum of these three interior angles is always exactly ______ degrees.",
+     "a": "180",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify any given triangle based on its side lengths (equilateral, isosceles, scalene) or its interior angles (acute, right, obtuse) and correctly calculate a missing third angle given the other two.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are looking at a wooden A-frame tent or a slice of pizza; notice how they both have three sides and three corners.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

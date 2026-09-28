@@ -34,6 +34,31 @@
      "q": "Create a real-life decision scenario (different from the vault or library examples) that involves exactly three yes/no conditions combined with AND, OR, and NOT. Define Boolean variables for each condition, then write the full Boolean expression for the final decision. Explain why each operator is used.",
      "a": "Example: \"A student gets a scholarship if (they have 90%+ marks) AND (they are in financial need) AND (they have NOT violated any school rule).\" Variables: M = marks ≥90%, N = financial need, V = violated rule. Expression: Scholarship = M · N · V'. AND used because all three must be true; NOT used because violation disqualifies. A poor answer uses only AND/OR without NOT, or misplaces parentheses, showing inability to map \"except\", \"unless\", \"without\" to complement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Boolean Algebra is a ______ system for representing and manipulating logical statements using variables that take only two values: TRUE (1) and FALSE (0).",
+     "a": "mathematical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a security system for a bank vault: the vault opens ONLY if (the manager inserts their keycard) AND (the deputy manager inserts their keycard) AND (the time is between 9 AM and 5 PM).",
+     "a": "designing",
+     "self_check": true
+    },
+    {
+     "q": "What is Boolean Algebra? State the definition given in this lesson.",
+     "a": "Boolean Algebra is a mathematical system for representing and manipulating logical statements using variables that take only two values: TRUE (1) and FALSE (0).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Boolean Algebra?",
+     "a": "Students often treat Boolean '+' and '·' exactly like arithmetic addition and multiplication, writing 1+1=2 or assuming A+A=2A.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why Boolean Algebra uses only two values, distinguish it from ordinary algebra, and describe how logical reasoning in everyday language maps to Boolean variables and operations.",
+     "self_check": true
     }
    ]
   }

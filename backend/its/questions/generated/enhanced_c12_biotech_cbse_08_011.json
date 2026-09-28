@@ -34,6 +34,26 @@
      "q": "Design a research proposal outline (bullet points) for using animal cell culture as a model system to test a new antiviral drug against a respiratory virus. Include: cell type selection, infection assay design, cytotoxicity control, readout method, and one advantage over animal models.",
      "a": "Expected answer: \n- Cell type: Human airway epithelial cells (e.g., Calu-3) or primary bronchial epithelial cells at air-liquid interface (mimics in vivo differentiation).\n- Infection assay: Apical inoculation with virus at MOI 0.1, drug added basolaterally at multiple concentrations.\n- Cytotoxicity control: Parallel uninfected cells + drug (MTT/CellTiter-Glo) to calculate CC50; selectivity index = CC50/EC50.\n- Readout: qRT-PCR for viral RNA in supernatant at 24/48/72h; immunofluorescence for viral antigen; plaque assay for infectious titer.\n- Advantage over animal models: Human-specific receptor expression, immune evasion mechanisms, and drug metabolism studied in human genetic background; faster, cheaper, higher throughput, no species extrapolation.\nA poor answer using generic \"HEK293 cells\" or omitting cytotoxicity control reveals the student cannot translate \"model system\" concept into experimental design — a competency-based board question pattern.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Applications of animal cell culture refer to the diverse uses of in vitro grown animal cells as model systems for studying cellular processes, disease mechanisms, drug screening, and as production platforms for ______ including recombinant proteins, monoclonal antibodies, vaccines, and gene therapy vectors.",
+     "a": "biopharmaceuticals",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a patient with ______ A who needs Factor VIII infusions to prevent spontaneous bleeding — historically this came from pooled human plasma carrying HIV/hepatitis risk.",
+     "a": "haemophilia",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) categorise applications into research (model systems, virology, toxicology) and industrial (biopharmaceutical production, vaccine manufacturing) domains with specific examples, and (2) explain why CHO cells are the preferred host for recombinant glycoprotein production citing post-translational.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a patient with haemophilia A who needs Factor VIII infusions to prevent spontaneous bleeding — ______ this came from pooled human plasma carrying HIV/hepatitis risk.",
+     "a": "historically",
+     "self_check": true
     }
    ]
   }

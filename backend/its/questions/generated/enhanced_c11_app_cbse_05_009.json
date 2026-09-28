@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_05_009",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_05_009",
+   "title": "c11_app_cbse_05_009",
+   "questions": [
+    {
+     "q": "State the formal definition of a Geometric Progression (GP) using the notation $a_1, a_2, a_3, \\dots$ and the common ratio $r$. Include the necessary condition on the terms of the sequence.",
+     "a": "A sequence $a_1, a_2, a_3, \\dots$ is a GP if $\\frac{a_{k+1}}{a_k} = r$ (a constant) for all $k \\ge 1$, provided **all terms are non-zero** ($a_k \\neq 0$). A wrong answer (omitting the non-zero condition) reveals the student thinks a sequence like $2, 0, 0, 0, \\dots$ is a GP with $r=0$. This is incorrect because $\\frac{0}{0}$ is undefined and $\\frac{0}{2}=0$ but the next ratio $\\frac{0}{0}$ breaks the constant ratio rule; NCERT explicitly states \"each term is non-zero.\"",
+     "self_check": true
+    },
+    {
+     "q": "A student claims the sequence defined by $a_n = 3 \\cdot (-2)^{n-1}$ is a GP with first term 3 and common ratio -2. Another student argues it is not a GP because the terms alternate signs. Who is correct? Explain why the alternating sign does not disqualify it.",
+     "a": "The first student is correct. The sequence is $3, -6, 12, -24, \\dots$. The ratio $\\frac{-6}{3} = -2$, $\\frac{12}{-6} = -2$, $\\frac{-24}{12} = -2$. The ratio is constant ($r=-2$). A wrong answer reveals the misconception that $r$ must be positive. The definition only requires a *constant* ratio; $r$ can be any non-zero real number (positive, negative, or fraction). Alternating signs are a hallmark of a GP with negative $r$.",
+     "self_check": true
+    },
+    {
+     "q": "Determine if the following sequences are GPs. If yes, state $a$ and $r$. If no, explain why.\n(i) $5, 15, 45, 135, \\dots$\n(ii) $\\frac{1}{2}, \\frac{1}{4}, \\frac{1}{8}, \\frac{1}{16}, \\dots$\n(iii) $0, 0, 0, 0, \\dots$\n(iv) $x, x^2, x^4, x^8, \\dots$ (for $x \\neq 0$)",
+     "a": "(i) GP: $a=5, r=3$. (ii) GP: $a=\\frac{1}{2}, r=\\frac{1}{2}$. (iii) **Not a GP** because terms are zero (violates $a_k \\neq 0$ condition; ratio $\\frac{0}{0}$ undefined). (iv) **Not a GP** because ratios are not constant: $\\frac{x^2}{x}=x$, $\\frac{x^4}{x^2}=x^2$, $\\frac{x^8}{x^4}=x^4$ (ratio depends on $k$). A wrong answer on (iii) or (iv) reveals the student checks only the first two ratios or ignores the non-zero condition and algebraic variability of the ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sequences:\nSequence A: $10, 13, 16, 19, \\dots$\nSequence B: $10, 13, 16.9, 21.97, \\dots$\nSequence C: $10, 20, 40, 80, \\dots$\nIdentify which is an AP, which is a GP, and which is neither. Justify using the definitions of common difference ($d$) and common ratio ($r$).",
+     "a": "Sequence A is an AP: $d = 13-10 = 3$ (constant addition).\nSequence B is **neither**: Differences are $3, 3.9, 5.07$ (not constant); Ratios are $1.3, 1.3, 1.3$ — wait, ratios ARE constant ($r=1.3$). **Correction: Sequence B IS a GP** ($a=10, r=1.3$).\nSequence C is a GP: $r = 20/10 = 2$ (constant multiplication).\nA wrong answer (e.g., calling B an AP or \"neither\") reveals the student only checks differences (additive pattern) and fails to check ratios (multiplicative pattern) when differences aren't constant. This is the core AP vs GP confusion.",
+     "self_check": true
+    },
+    {
+     "q": "A sequence is defined recursively: $a_1 = 4$, $a_{n+1} = \\frac{1}{2}a_n$ for $n \\ge 1$. A student writes the first 4 terms as $4, 2, 1, 0$ and says \"It's a GP with $r=0.5$ until it hits zero, then it stops being a GP.\" Evaluate this statement. Is the sequence a GP? Why or why not?",
+     "a": "The student's *terms* are wrong: $a_4 = \\frac{1}{2}(1) = 0.5$, not 0. The sequence is $4, 2, 1, 0.5, 0.25, \\dots$ — it **never hits zero**. It **is a GP** with $a=4, r=0.5$ for all $n$. A wrong answer reveals two misconceptions: (1) Arithmetic error in recursive calculation (halving 1 gives 0.5, not 0); (2) Belief that a GP with $|r|<1$ eventually reaches zero. In a GP, terms approach zero asymptotically but never equal zero (since $a r^{n-1} \\neq 0$ for $a \\neq 0, r \\neq 0$).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) that generates a GP with a **negative common ratio**. Define the first term $a$ and common ratio $r$ explicitly. Write the first 5 terms. Explain why the negative ratio makes sense in your scenario.",
+     "a": "**Scenario:** A pendulum swings 50 cm to the right (positive displacement). On each return swing, it covers 80% of the previous distance but in the opposite direction.\n$a = 50$ (first swing right), $r = -0.8$.\nTerms: $50, -40, 32, -25.6, 20.48$ (units: cm).\nNegative $r$ makes sense because the direction alternates (right, left, right...), and magnitude decays by 20% each swing.\nA poor answer (e.g., \"money doubling then halving\" without sign change or using $r=-1$ without decay) reveals the student cannot map negative $r$ to a physical alternating phenomenon with magnitude change, or confuses \"alternating\" with \"constant magnitude.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

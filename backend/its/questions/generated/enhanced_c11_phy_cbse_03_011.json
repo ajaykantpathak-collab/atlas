@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a rubber band, a small projectile (like a crumpled paper ball), and a measuring tape to verify that the maximum range occurs at 45° for a given launch speed. Describe how you would keep launch speed constant while varying angle, and what measurements you would take.",
      "a": "A good answer: Use a rubber band stretched to a fixed extension (measured with a ruler) as a launcher to keep initial speed roughly constant. Mount it on a protractor base to set angles (15°, 30°, 45°, 60°, 75°). Launch the paper ball 5 times per angle, measure horizontal range each time, average them. Plot range vs angle; peak should be near 45°. A poor answer (e.g., \"throw by hand at different angles\") shows inability to control variables and understand the need for consistent initial speed to isolate the angle dependence.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Projectile motion with angular projection (oblique projection) is the two-______ motion of an object launched with an initial velocity v₀ at an angle θ₀ to the horizontal, moving under the influence of gravity g (9.8 m/s² vertically downward) with negligible air resistance.",
+     "a": "dimensional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a cricket ball bowled at 30 m/s at 40° above ______ from a height of 2 m.",
+     "a": "horizontal",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Projectile motion with angular projection (oblique projection) is the two-dimensional motion of an object launched with an initial velocity v₀ at an angle θ₀ to the horizontal, moving under the influence of gravity g (______ m/s² vertically downward) with negligible air resistance.",
+     "a": "9.8",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) resolve initial velocity into components and write parametric equations for position and velocity at any time t; (2) derive and use the trajectory equation y(x) to find height at a given horizontal distance; (3) calculate time of flight, maximum height, and horizontal range for any projection angle and speed; (4).",
+     "self_check": true
     }
    ]
   }

@@ -24,12 +24,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "add up all the values",
+    {
+     "step": 1,
+     "action": "add up all the values",
      "explain": "The total is the sum of every value in the data.",
-     "compute": "total = v1 + v2 + v3"},
-    {"step": 2, "action": "divide by the number of values",
+     "compute": "total = v1 + v2 + v3"
+    },
+    {
+     "step": 2,
+     "action": "divide by the number of values",
      "explain": "Sharing the total equally gives the mean.",
-     "compute": "mean = total / count"}
+     "compute": "mean = total / count"
+    }
    ]
   },
   {
@@ -50,12 +56,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "rebuild the grand total",
+    {
+     "step": 1,
+     "action": "rebuild the grand total",
      "explain": "Multiply the mean by the number of values.",
-     "compute": "grand = mean * count"},
-    {"step": 2, "action": "subtract the known values",
+     "compute": "grand = mean * count"
+    },
+    {
+     "step": 2,
+     "action": "subtract the known values",
      "explain": "Whatever remains belongs to the missing entry.",
-     "compute": "missing = grand - known_sum"}
+     "compute": "missing = grand - known_sum"
+    }
    ]
   },
   {
@@ -76,12 +88,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "rebuild the recorded total",
+    {
+     "step": 1,
+     "action": "rebuild the recorded total",
      "explain": "Multiply the old mean by the number of values.",
-     "compute": "grand = mean * count"},
-    {"step": 2, "action": "remove the error",
+     "compute": "grand = mean * count"
+    },
+    {
+     "step": 2,
+     "action": "remove the error",
      "explain": "Subtract the recorded excess to get the true total.",
-     "compute": "correct_total = grand - error"}
+     "compute": "correct_total = grand - error"
+    }
    ]
   },
   {
@@ -100,15 +118,39 @@
     "does the median always change when a new value joins - explain",
     "compare how the mean and the median respond to a large value"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "sort the data",
-     "explain": "Arrange all values in increasing order."},
-    {"step": 2, "action": "locate the middle",
-     "explain": "For odd counts take the central value; for even counts average the two central ones."},
-    {"step": 3, "action": "test the effect of additions",
-     "explain": "A value above the middle raises the median, below lowers it."}
-   ]
+    {
+     "step": 1,
+     "action": "sort the data",
+     "explain": "Arrange all values in increasing order."
+    },
+    {
+     "step": 2,
+     "action": "locate the middle",
+     "explain": "For odd counts take the central value; for even counts average the two central ones."
+    },
+    {
+     "step": 3,
+     "action": "test the effect of additions",
+     "explain": "A value above the middle raises the median, below lowers it."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the mean/median/mode definition",
+     "explain": "apply the mean/median/mode definition: total = sum((17, 10, 22, 11, 10)) gives 70",
+     "compute": "total = sum((17, 10, 22, 11, 10))"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 14",
+     "compute": "mean = total / 5"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hegp.205.5.5",
@@ -128,12 +170,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "total each value times its frequency",
+    {
+     "step": 1,
+     "action": "total each value times its frequency",
      "explain": "Weighted contributions add up to the overall total.",
-     "compute": "total = f1 * v1 + f2 * v2"},
-    {"step": 2, "action": "divide by the total frequency",
+     "compute": "total = f1 * v1 + f2 * v2"
+    },
+    {
+     "step": 2,
+     "action": "divide by the total frequency",
      "explain": "The mean is the weighted total over all observations.",
-     "compute": "wmean = total / (f1 + f2)"}
+     "compute": "wmean = total / (f1 + f2)"
+    }
    ]
   },
   {
@@ -152,15 +200,33 @@
     "how do different shape markers help in reading a graph",
     "compare the temperature trends of Kerala and Punjab from the graphs"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "identify the setup",
-     "explain": "Note the axes, the scale, the time range and the markers used."},
-    {"step": 2, "action": "trace each line",
-     "explain": "Follow rises, falls and flats for each data series."},
-    {"step": 3, "action": "state the inferences",
-     "explain": "Summarise peaks, dips and flat periods as conclusions about the data."}
-   ]
+    {
+     "step": 1,
+     "action": "identify the setup",
+     "explain": "Note the axes, the scale, the time range and the markers used."
+    },
+    {
+     "step": 2,
+     "action": "trace each line",
+     "explain": "Follow rises, falls and flats for each data series."
+    },
+    {
+     "step": 3,
+     "action": "state the inferences",
+     "explain": "Summarise peaks, dips and flat periods as conclusions about the data."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 5 + 5 + 6 gives 16",
+     "compute": "total = 5 + 5 + 6"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -176,12 +242,18 @@
     "v3": "third data value"
    },
    "solution_template": [
-    {"step": 1, "action": "add the values",
+    {
+     "step": 1,
+     "action": "add the values",
      "explain": "Sum all the data values.",
-     "compute": "total = v1 + v2 + v3"},
-    {"step": 2, "action": "divide by the count",
+     "compute": "total = v1 + v2 + v3"
+    },
+    {
+     "step": 2,
+     "action": "divide by the count",
      "explain": "Mean is total over number of values.",
-     "compute": "mean = total / count"}
+     "compute": "mean = total / count"
+    }
    ]
   },
   {
@@ -195,12 +267,18 @@
     "v2": "larger number"
    },
    "solution_template": [
-    {"step": 1, "action": "add the two values",
+    {
+     "step": 1,
+     "action": "add the two values",
      "explain": "Total of the pair.",
-     "compute": "total = v1 + v2"},
-    {"step": 2, "action": "halve the total",
+     "compute": "total = v1 + v2"
+    },
+    {
+     "step": 2,
+     "action": "halve the total",
      "explain": "Dividing by 2 gives the halfway mean.",
-     "compute": "mean = total / count"}
+     "compute": "mean = total / count"
+    }
    ]
   },
   {
@@ -215,12 +293,18 @@
     "known_sum": "sum of the known values"
    },
    "solution_template": [
-    {"step": 1, "action": "rebuild the grand total",
+    {
+     "step": 1,
+     "action": "rebuild the grand total",
      "explain": "Mean times count recovers the full sum.",
-     "compute": "grand = mean * count"},
-    {"step": 2, "action": "subtract the known sum",
+     "compute": "grand = mean * count"
+    },
+    {
+     "step": 2,
+     "action": "subtract the known sum",
      "explain": "The remainder is the missing value.",
-     "compute": "missing = grand - known_sum"}
+     "compute": "missing = grand - known_sum"
+    }
    ]
   },
   {
@@ -234,9 +318,12 @@
     "mean": "the average"
    },
    "solution_template": [
-    {"step": 1, "action": "multiply mean by count",
+    {
+     "step": 1,
+     "action": "multiply mean by count",
      "explain": "The product is the total of all values.",
-     "compute": "grand = mean * count"}
+     "compute": "grand = mean * count"
+    }
    ]
   },
   {
@@ -251,12 +338,18 @@
     "error": "excess in the wrong entry"
    },
    "solution_template": [
-    {"step": 1, "action": "rebuild the recorded total",
+    {
+     "step": 1,
+     "action": "rebuild the recorded total",
      "explain": "Mean times count gives the wrong total.",
-     "compute": "grand = mean * count"},
-    {"step": 2, "action": "remove the excess",
+     "compute": "grand = mean * count"
+    },
+    {
+     "step": 2,
+     "action": "remove the excess",
      "explain": "Subtract the error for the true total.",
-     "compute": "correct_total = grand - error"}
+     "compute": "correct_total = grand - error"
+    }
    ]
   },
   {
@@ -270,9 +363,12 @@
     "count": "number of observations"
    },
    "solution_template": [
-    {"step": 1, "action": "divide the corrected total",
+    {
+     "step": 1,
+     "action": "divide the corrected total",
      "explain": "True total over count gives the corrected mean.",
-     "compute": "correct_mean = correct_total / count"}
+     "compute": "correct_mean = correct_total / count"
+    }
    ]
   },
   {
@@ -288,12 +384,18 @@
     "f2": "frequency of the second value"
    },
    "solution_template": [
-    {"step": 1, "action": "weight each value",
+    {
+     "step": 1,
+     "action": "weight each value",
      "explain": "Multiply each value by its frequency and add.",
-     "compute": "total = f1 * v1 + f2 * v2"},
-    {"step": 2, "action": "divide by total frequency",
+     "compute": "total = f1 * v1 + f2 * v2"
+    },
+    {
+     "step": 2,
+     "action": "divide by total frequency",
      "explain": "Mean equals weighted total over all observations.",
-     "compute": "wmean = total / (f1 + f2)"}
+     "compute": "wmean = total / (f1 + f2)"
+    }
    ]
   },
   {
@@ -309,12 +411,18 @@
     "f2": "count of the second value"
    },
    "solution_template": [
-    {"step": 1, "action": "weight each value",
+    {
+     "step": 1,
+     "action": "weight each value",
      "explain": "Frequency times value, summed.",
-     "compute": "total = f1 * v1 + f2 * v2"},
-    {"step": 2, "action": "divide by total frequency",
+     "compute": "total = f1 * v1 + f2 * v2"
+    },
+    {
+     "step": 2,
+     "action": "divide by total frequency",
      "explain": "The quotient is the frequency mean.",
-     "compute": "wmean = total / (f1 + f2)"}
+     "compute": "wmean = total / (f1 + f2)"
+    }
    ]
   }
  ],

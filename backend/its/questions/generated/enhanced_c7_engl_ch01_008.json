@@ -17,12 +17,12 @@
     },
     {
      "q": "Identify the type of imagery used in the phrase: \"The coarse, damp mud squelched between her toes as she stepped toward the riverbank.\"\nA) Visual imagery only\nB) Auditory imagery only\nC) Tactile (touch) and auditory imagery\nD) Olfactory and gustatory imagery",
-     "a": "[Answer needed]",
+     "a": "C) Tactile (touch) and auditory imagery — \"coarse\" and \"damp\" appeal to touch, while \"squelched\" evokes both the feel and the sound of the mud. Choosing a single-sense option shows the student missed that one word can appeal to two senses at once.",
      "self_check": true
     },
     {
      "q": "Answer: Step 1 - Look at the descriptive words in the phrase: \"coarse\", \"damp\", \"squelched\", \"between her toes\". Step 2 - Determine which senses these words activate. \"Coarse\" and \"damp\" relate to touch (tactile). \"Squelched\" relates to both touch and sound (auditory). Step 3 - Match with the options. The correct option is C (Tactile and auditory imagery). A wrong answer reveals that the student only looks at the overall setting instead of breaking down individual sensory words in the sentence.",
-     "a": "[Answer needed]",
+     "a": "This step-by-step working is correct and lands on option C: each sensory word is matched to its sense — touch for \"coarse\" and \"damp\", touch plus sound for \"squelched\". Skipping this word-by-word breakdown is exactly what leads students to pick a wrong option.",
      "self_check": true
     },
     {
@@ -33,6 +33,21 @@
     {
      "q": "A critic claims that sound words and imagery in a story about nature are just unnecessary decoration that slows down the plot. Do you agree or disagree based on your understanding of descriptions in \"The Day the River Spoke\"? Justify your answer.",
      "a": "The correct answer is that you must disagree, because imagery and sound do not slow down the plot; instead, they build the setting and make nature feel alive and character-like (such as the river speaking to Jahnavi). Without sensory details, the emotional connection between the protagonist and the natural world would be lost. A wrong answer shows the student views stories purely as a sequence of plot events rather than an immersive artistic experience.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literary devices like imagery (using sensory details to paint pictures in the mind) and sound devices (like ______ and alliteration) bring nature descriptions in prose and poetry to life by engaging the reader's sight, touch, and hearing.",
+     "a": "onomatopoeia",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever stood by a rushing river in your village or heard rain pattering on your tin roof, and felt like the water was ______ a secret to you?",
+     "a": "whispering",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify specific instances of visual, auditory, and tactile imagery as well as sound words in a nature description, explain how they appeal to the senses, and describe how they create mood.",
      "self_check": true
     }
    ]

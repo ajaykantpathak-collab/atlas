@@ -34,6 +34,21 @@
      "q": "Design a quick classroom procedure to estimate the actual size of a microscopic filamentous alga using a transparent millimeter ruler on the microscope stage.",
      "a": "A good response involves placing a transparent ruler on the stage under low power, counting how many millimeter divisions fit across the circular field of view to find its diameter, and then estimating the organism's size relative to that diameter. A poor response simply states \"measure it directly with a regular plastic ruler,\" ignoring the scale difference and optical inversion.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A microscope is an optical instrument that uses lenses to magnify the image of tiny objects invisible to the naked eye, allowing scientists to observe cellular structures and ______.",
+     "a": "microorganisms",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you look at a drop of pond water from a local village pond under a glass slide, it looks completely clear to your naked eye, yet swirling ______ life forms are swimming inside it.",
+     "a": "microscopic",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify the main parts of a compound microscope (eyepiece, objective lens, stage, mirror/light source), calculate total magnification, and explain how light travels through lenses to enlarge a specimen.",
+     "self_check": true
     }
    ]
   }

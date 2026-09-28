@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a helical spring, a set of weights, and a meter scale to verify that the elastic potential energy stored is proportional to the square of the elongation (U ∝ l²) within the elastic limit. Outline the procedure and the graph you would plot.",
      "a": "Procedure: (1) Hang a spring vertically, measure natural length L₀. (2) Add masses m = 50g, 100g, 150g... up to elastic limit, record elongation l each time. (3) Calculate force F = mg and energy U = ½ F l = ½ mgl. (4) Plot U vs l² — should be a straight line through origin. (5) Slope = ½ k where k = F/l = spring constant. A poor answer would plot U vs l (getting a parabola) or forget the ½ factor in energy calculation, showing they don't understand the quadratic relationship stems from F ∝ l and U = ∫F dl.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Elastic potential energy in a stretched wire is the energy stored in a wire when it is deformed within its elastic limit by an external tensile force; it equals the work done by the external force in ______ the wire from its natural length L to L + l and is given by U = ½ × stress × strain × volume = ½ × F × l, where F is the final applied force and l is the total elongation.",
+     "a": "stretching",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a bicycle brake cable being pulled — the lever applies a force that ______ from zero to a maximum as the cable stretches.",
+     "a": "increases",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the elastic potential energy stored in a wire given its dimensions, Young's modulus, and either the applied force or the elongation, and can derive the energy per unit volume formula from the work-energy principle.",
+     "self_check": true
     }
    ]
   }

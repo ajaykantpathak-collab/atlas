@@ -34,6 +34,26 @@
      "q": "Draw a shape that is NOT a polygon and explain why it fails the definition.",
      "a": "Accept any shape with a curved line or an open end (e.g., a circle or a \"C\" shape). Failure to include a curve or an opening indicates the student doesn't grasp the \"straight line segments\" or \"closed\" criteria.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A polygon is a simple, closed, two-______ figure formed by three or more straight line segments.",
+     "a": "dimensional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever noticed the ______ of a street sign or the tiles on your floor?",
+     "a": "shape",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify polygons from non-polygons, classify them by their number of sides, and differentiate between regular and irregular shapes by observing side and angle properties.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever ______ the shape of a street sign or the tiles on your floor?",
+     "a": "noticed",
+     "self_check": true
     }
    ]
   }

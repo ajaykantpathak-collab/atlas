@@ -1,6 +1,100 @@
 {
- "catalog": "catalog_class12_biotechnology_lebt110",
+ "catalog": "catalog_class12_biotechnology_lebt110.json",
  "concepts": [
+  {
+   "id": "lebt110.4",
+   "title": "Upstream Processing and the Yield Coefficient",
+   "converted_to_compute": true,
+   "formula": "yield_coef = biomass_produced / substrate_used",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "yield_coef = biomass_produced / substrate_used",
+     "compute": "yield_coef = biomass_produced / substrate_used"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Upstream Processing and the Yield Coefficient: given biomass_produced = 101, substrate_used = 63, find yield coef.",
+     "a": "1.60317",
+     "self_check": false
+    },
+    {
+     "q": "For Upstream Processing and the Yield Coefficient: given biomass_produced = 100, substrate_used = 91, find yield coef.",
+     "a": "1.0989",
+     "self_check": false
+    },
+    {
+     "q": "For Upstream Processing and the Yield Coefficient: given biomass_produced = 41, substrate_used = 4.3, find yield coef.",
+     "a": "9.53488",
+     "self_check": false
+    },
+    {
+     "q": "For Upstream Processing and the Yield Coefficient: given biomass_produced = 22, substrate_used = 97, find yield coef.",
+     "a": "0.226804",
+     "self_check": false
+    },
+    {
+     "q": "For Upstream Processing and the Yield Coefficient: given biomass_produced = 136, substrate_used = 36, find yield coef.",
+     "a": "3.77778",
+     "self_check": false
+    },
+    {
+     "q": "For Upstream Processing and the Yield Coefficient: given biomass_produced = 27, substrate_used = 38, find yield coef.",
+     "a": "0.710526",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lebt110.7",
+   "title": "Membrane Separation Cutoffs and Pressures",
+   "converted_to_compute": true,
+   "formula": "pressure_fold = ro_psi / mf_psi",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "pressure_fold = ro_psi / mf_psi",
+     "compute": "pressure_fold = ro_psi / mf_psi"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Membrane Separation Cutoffs and Pressures: given ro_psi = 53, mf_psi = 32, find pressure fold.",
+     "a": "1.65625",
+     "self_check": false
+    },
+    {
+     "q": "For Membrane Separation Cutoffs and Pressures: given ro_psi = 17.9, mf_psi = 32, find pressure fold.",
+     "a": "0.559375",
+     "self_check": false
+    },
+    {
+     "q": "For Membrane Separation Cutoffs and Pressures: given ro_psi = 50, mf_psi = 29, find pressure fold.",
+     "a": "1.72414",
+     "self_check": false
+    },
+    {
+     "q": "For Membrane Separation Cutoffs and Pressures: given ro_psi = 28, mf_psi = 1.9, find pressure fold.",
+     "a": "14.7368",
+     "self_check": false
+    },
+    {
+     "q": "For Membrane Separation Cutoffs and Pressures: given ro_psi = 82, mf_psi = 92, find pressure fold.",
+     "a": "0.891304",
+     "self_check": false
+    },
+    {
+     "q": "For Membrane Separation Cutoffs and Pressures: given ro_psi = 16.1, mf_psi = 0.7, find pressure fold.",
+     "a": "23",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "lebt110.1",
    "title": "Primary and Secondary Metabolites",
@@ -65,37 +159,6 @@
    ]
   },
   {
-   "id": "lebt110.4",
-   "title": "Upstream Processing and the Yield Coefficient",
-   "questions": [
-    {
-     "q": "Using the method 'Upstream Processing and the Yield Coefficient', work with: biomass_produced = 6, substrate_used = 18, target_biomass = 100. Carry the chain through step by step and give the final value of substrate_needed.",
-     "a": "300 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Upstream Processing and the Yield Coefficient' and work with: biomass_produced = 100, substrate_used = 20, target_biomass = 24. Carry the chain through step by step and give the final value of substrate_needed.",
-     "a": "4.8 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Upstream Processing and the Yield Coefficient' refers to.",
-     "a": "Upstream work formulates and sterilises the medium, raises a healthy log-phase inoculum free of contamination and tunes aeration, agitation, temperature and pH; stoichiometry budgets the inputs through the yield coefficient - dry cell mass produced per unit of carbon substrate consumed - so media are designed for minimal wastage, with dissolved oxygen near eight grams per litre marking the ceiling plain water can hold.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Upstream Processing and the Yield Coefficient'.",
-     "a": "Divide biomass by substrate for the yield, then divide the target biomass by that yield to buy exactly enough substrate.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Upstream Processing and the Yield Coefficient', in plain ASCII form.",
-     "a": "yield_coef = biomass_produced / substrate_used",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "lebt110.5",
    "title": "Batch Fed-Batch and Continuous Operation",
    "questions": [
@@ -133,37 +196,6 @@
     {
      "q": "Under which section is 'Downstream Processing Recovery and Purification' taught, and from which source text?",
      "a": "10.3.1 (source: lebt110.txt section 10.3.1, Figs. 10.6-10.8)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebt110.7",
-   "title": "Membrane Separation Cutoffs and Pressures",
-   "questions": [
-    {
-     "q": "Using the method 'Membrane Separation Cutoffs and Pressures', work with: mf_cutoff = 6, mf_psi = 6, ro_cutoff = 400, ro_psi = 12. Carry the chain through step by step and give the final value of cutoff_fold.",
-     "a": "0.015 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Membrane Separation Cutoffs and Pressures' and work with: mf_cutoff = 45, mf_psi = 200, ro_cutoff = 500, ro_psi = 3. Carry the chain through step by step and give the final value of cutoff_fold.",
-     "a": "0.09 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Membrane Separation Cutoffs and Pressures' refers to.",
-     "a": "Pressure-driven membranes grade by tightness: microfiltration holds back bacteria through 0.1-10 micron pores at about ten psi, ultrafiltration narrows to 0.01-0.1 micron for macromolecules between three hundred and three hundred thousand daltons at ten to a hundred psi, and reverse osmosis squeezes water through sub-nanometre pores under a hundred to eight hundred psi to reject everything dissolved - pressure always beating osmotic pressure to push flow backwards.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Membrane Separation Cutoffs and Pressures'.",
-     "a": "Divide the reverse-osmosis pressure by the microfiltration pressure to see the cost of tighter pores; divide pore sizes for the cutoff ratio.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Membrane Separation Cutoffs and Pressures', in plain ASCII form.",
-     "a": "pressure_fold = ro_psi / mf_psi",
      "self_check": true
     }
    ]

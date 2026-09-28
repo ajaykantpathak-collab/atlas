@@ -34,6 +34,31 @@
      "q": "Create a 2×2 matrix for your local area (village/town/city ward) with rows = Biotic / Abiotic and columns = Resource Supply / Waste Assimilation. Fill each cell with one specific example and indicate whether current use is within or beyond carrying/absorptive capacity.",
      "a": "Expected answer (example for a peri-urban area):\n| | **Resource Supply** | **Waste Assimilation** |\n|---|---|---|\n| **Biotic** | Groundwater-irrigated wheat (renewable but extraction > recharge → **beyond carrying capacity**) | Wetland receiving sewage (assimilates nutrients but BOD load > capacity → **beyond absorptive capacity**) |\n| **Abiotic** | Sand mining from riverbed (non-renewable, extraction > natural deposition → **beyond carrying capacity**) | Urban air absorbing PM2.5 from vehicles (current AQI 150 > safe limit 60 → **beyond absorptive capacity**) |\n\nCriteria for good answer: (1) Correct biotic/abiotic classification, (2) Correct function mapping, (3) Quantitative or qualitative capacity assessment with justification, (4) Local specificity. A poor answer that uses generic textbook examples (e.g., \"forests supply timber\", \"air assimilates CO2\") without local context or capacity assessment reveals rote memorization without analytical application — a key gap for board exam case-study questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Environment is the total planetary inheritance comprising the totality of all biotic (living: forests, fisheries, animals) and abiotic (non-living: air, water, land, sunlight, minerals) resources and their ______.",
+     "a": "interrelationships",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you wake up in a typical Indian household: you brush your teeth using ______ (abiotic), eat breakfast made from wheat and milk (biotic), breathe air while walking to the bus stop (abiotic), and see a neem tree providing shade (biotic).",
+     "a": "groundwater",
+     "self_check": true
+    },
+    {
+     "q": "What is Environment? State the definition given in this lesson.",
+     "a": "Environment is the total planetary inheritance comprising the totality of all biotic (living: forests, fisheries, animals) and abiotic (non-living: air, water, land, sunlight, minerals) resources and their interrelationships.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Environment?",
+     "a": "Students often believe \"renewable resources are unlimited and can never be exhausted\" because they regenerate.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can precisely define environment using the biotic/abiotic distinction, list all four functions with one original example each, classify any given resource as renewable or non-renewable with justification, and explain the concept of carrying capacity and absorptive capacity as the threshold limits for sustainable resource use.",
+     "self_check": true
     }
    ]
   }

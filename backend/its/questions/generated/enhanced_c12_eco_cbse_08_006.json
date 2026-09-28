@@ -34,6 +34,26 @@
      "q": "Construct a hypothetical example of a self-employed tailor in an Indian town. List the factor inputs she provides, the implicit factor payments she earns, and explain why her total earnings are classified as 'mixed income' in the Income Method.",
      "a": "**Example:** Rekha runs a tailoring shop from a room in her owned house. She uses her own sewing machine (capital), works 8 hours daily (labour), uses her room (land), and decides designs/prices (entrepreneurship). Her monthly revenue is ₹50,000; explicit costs (cloth, thread, electricity) = ₹20,000. Her **mixed income = ₹30,000**. This ₹30,000 implicitly includes: imputed rent for the room, imputed wages for her labour, imputed interest on her machine, and profit for entrepreneurship. Since she does not pay these to separate parties and her accounts don’t separate them, the entire ₹30,000 is recorded as mixed income. A poor answer that splits the ₹30,000 into arbitrary rent/wages/interest/profit without data shows misunderstanding of the **imputation problem** for self-employed.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Income Method measures National Income by summing all factor payments made to the owners of factors of production (land, labour, capital, ______) within the domestic territory during an accounting year.",
+     "a": "entrepreneurship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small Indian village where a farmer owns 2 hectares of land, works on it himself, hires two ______, and uses a tractor he bought with a bank loan.",
+     "a": "labourers",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small Indian village where a farmer owns ______ hectares of land, works on it himself, hires two labourers, and uses a tractor he bought with a bank loan.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently compute NDPfc and National Income from a given dataset of factor payments, correctly classify mixed income, exclude transfer payments, and explain why each component is a factor payment.",
+     "self_check": true
     }
    ]
   }

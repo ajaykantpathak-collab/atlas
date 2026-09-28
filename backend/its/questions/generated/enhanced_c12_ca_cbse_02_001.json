@@ -32,7 +32,32 @@
     },
     {
      "q": "Design a mini-spreadsheet (describe layout, not build) to calculate EMI for a ₹10 lakh home loan at 8.5% p.a. for 20 years, using the PMT function. Specify: (a) which cells hold inputs (rate, nper, pv), (b) the exact PMT formula with correct sign convention, (c) how to make it a what-if model so changing rate in one cell updates EMI instantly.",
-     "a": "(a) B2=Annual Rate (8.5%), B3=Years (20), B4=Loan Amount (1000000). (b) In B6: `=PMT(B2/12, B3*12, -B4)` → returns positive EMI (≈ ₹8,678). Sign convention: pv negative (money received), pmt positive (money paid out). (c) All inputs in separate cells (B2, B3, B4), formula references them — change B2 to 9%, EMI recalculates automatically. A poor answer puts numbers directly in PMT (`=PMT(8.5%/12,240,-1000000)`) — not a what-if model. Or misses `/12` and `*12` conversion, giving wildly wrong EMI. This tests whether the student understands financial function arguments must match periodicity (monthly rate, monthly periods) — a classic JEE/CUET trap.",
+     "a": "(1) The input cells — B2 holds the annual rate, B3 the number of years and B4 the loan amount, (2) The formula — B6 carries =PMT(B2/12, B3*12, -B4), with the rate divided and the years multiplied by twelve to match monthly periods, (3) The sign convention — the loan amount enters negative because it is money received, so the EMI comes out positive, about 8678 rupees, (4) The what-if design — because the formula references the input cells, changing the rate cell alone recalculates the EMI instantly. A poor answer hard-codes the numbers inside PMT, which is not a what-if model, or forgets the periodicity conversion and gets a wildly wrong EMI.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ is a computer application that organizes data in a grid of rows and columns forming cells, where each cell can hold a value (numeric, text, date), a formula (arithmetic expression starting with =), or a function (predefined calculation like SUM, IF, VLOOKUP), enabling automated calculation, what-if analysis, and structured reporting for accounting and financial decision-making.",
+     "a": "spreadsheet",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the accountant for a small Delhi-based wholesale kirana ______.",
+     "a": "store",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The owner hands you a notebook with ______ daily sales entries — item name, quantity, unit price, date — and asks: \"What was our total revenue last month?",
+     "a": "200",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) navigate a workbook, identify active cell, and distinguish between relative, absolute, and mixed cell references; (2) construct formulas using correct order of operations (GEMS/PEMDAS) and apply basic functions (SUM, AVERAGE, COUNT, IF, VLOOKUP) to solve accounting problems; (3) create named ranges, use.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the ______ for a small Delhi-based wholesale kirana store.",
+     "a": "accountant",
      "self_check": true
     }
    ]

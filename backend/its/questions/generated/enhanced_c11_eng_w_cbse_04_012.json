@@ -34,6 +34,21 @@
      "q": "CREATE: Write an original inferential question about the story's climax (the cellar discovery) that requires synthesizing evidence from three different scenes. Provide the ideal answer outline.",
      "a": "**Question:** \"How does the discovery of Presbury's counterfeiting press in the cellar retrospectively explain three earlier 'coincidences' in the narrative?\"  \n**Ideal Answer Outline:**  \n1. **Scene 1 (Evans's arrival):** Evans's \"chubby face... English coat frayed at elbow\" (literal) → inference: he's been in London long-term, not a new arrival; he knew the house layout from Presbury.  \n2. **Scene 2 (Advertisement):** American spelling in Birmingham ad (literal) → inference: Evans planted it to replicate the \"third Garrideb\" pattern, knowing Nathan would never verify Birmingham personally.  \n3. **Scene 3 (Holmes's house-agent visit):** Previous tenant Waldron = Presbury (literal: \"tall, dark man with a beard\") → inference: Evans murdered Presbury to seize the press location, then waited for a namesake tenant to provide cover.  \n**Synthesis:** The cellar revelation transforms isolated details into a unified criminal strategy. A poor question/answer would treat scenes in isolation or miss the retrospective explanatory power.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal ______ questions require students to retrieve explicitly stated information from the text (facts, details, sequences, direct quotes).",
+     "a": "comprehension",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're a detective like Holmes examining a crime scene—some clues are visible (literal: a footprint, a letter), while others require deduction (______: the killer's height from stride length, motive from what was stolen vs. left behind).",
+     "a": "inferential",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently distinguish between literal and inferential question types, locate precise textual evidence for literal answers, and construct multi-step inferences supported by specific textual clues for inferential answers—producing board-exam standard responses using the Point-Evidence-Explanation-Link (PEEL) structure.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a thought experiment: You are Mendeleev in 1871. You have just learned that \"element X\" exists as two forms with masses 20 and 22 but identical chemistry. Write a short note to your laboratory notebook describing (a) where you would place them in your current table, (b) the problem this creates, and (c) what fundamental property you now suspect might be better than atomic mass.",
      "a": "(a) I would be forced to place mass-20 form at position 20 and mass-22 form at position 22. (b) This splits one chemical element into two boxes, breaking the one-element-one-position principle and leaving a gap at mass 21 that has no chemical justification. (c) I suspect the **charge on the nucleus (or a property that increases by one per element)** — later identified as atomic number — is the true fundamental basis. A poor answer treats isotopes as different elements or suggests \"atomic number\" without explaining why the mass-based table forces a split.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mendeleev's Periodic Table, arranged by increasing atomic mass, fails to correctly place elements when atomic mass order ______ chemical properties (anomalous pairs) and cannot assign a unique position to isotopes of the same element which have different atomic masses but identical chemical properties.",
+     "a": "contradicts",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are sorting a deck of cards by weight, but two cards with nearly ______ weights have completely different pictures, while two cards with very different weights show the same picture.",
+     "a": "identical",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can identify an anomalous pair from given atomic mass and property data, explain why isotopes violate Mendeleev's arrangement principle, and articulate how these limitations necessitated the shift to atomic number as the basis of classification in the Modern Periodic Table.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are sorting a deck of cards by weight, but two cards with nearly identical weights have ______ different pictures, while two cards with very different weights show the same picture.",
+     "a": "completely",
+     "self_check": true
     }
    ]
   }

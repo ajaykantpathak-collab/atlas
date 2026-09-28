@@ -34,6 +34,26 @@
      "q": "Design a GIS data model for \"Groundwater Recharge Potential Zoning in a Basaltic Watershed (Deccan Trap)\". Specify: (i) vector layers with geometry type and key attributes, (ii) raster layers with resolution and source, (iii) database relationships, and (iv) output format for sharing with a state water department using only open standards.",
      "a": "**Expected criteria for a good answer:**  \n(i) Vector: Watershed boundary (polygon: WS_ID, Area_km2), Drainage (line: Stream_Order), Wells (point: Well_ID, Depth_m, Yield_lps), Recharge structures (point: Type, Capacity).  \n(ii) Raster: DEM (30m SRTM), Slope (derived), Lineament density (from satellite), Soil texture (1:250k NBSS), Rainfall (0.25° IMD grid).  \n(iii) Relationships: Wells → Watershed (many-to-one via spatial join), Recharge structures → Watershed (many-to-one).  \n(iv) Output: **GeoPackage (.gpkg)** — open standard, single file, supports vector + raster + attributes, readable in QGIS/ArcGIS.  \nA poor answer uses proprietary formats (.mxd, .lyr) or ignores raster-vector integration — showing inability to design interoperable geographical databases.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Data storage formats in geography refer to the structured systems used to organise, manage, and retrieve geographical data — including statistical tables for tabular ______, relational databases for multi-layered attribute management, and GIS (Geographic Information System) formats that integrate spatial geometry with attribute data for spatial analysis and mapping.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have the monthly ______ data (in mm) for 50 weather stations across Maharashtra for the last 30 years — a massive spreadsheet that crashes when you try to filter by district.",
+     "a": "rainfall",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can design a frequency distribution table from raw geographical data, explain how attribute tables link to spatial features in a GIS, and differentiate between vector (shapefile/geodatabase) and raster (GeoTIFF/ASCII grid) storage formats with their appropriate use cases.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have the monthly rainfall data (in mm) for 50 weather stations across ______ for the last 30 years — a massive spreadsheet that crashes when you try to filter by district.",
+     "a": "Maharashtra",
+     "self_check": true
     }
    ]
   }

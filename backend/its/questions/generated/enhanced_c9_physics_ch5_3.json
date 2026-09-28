@@ -34,6 +34,21 @@
      "q": "A CREATE level question: Design a simple classroom demonstration using only a long spring (slinky), a stopwatch, and a metre scale to show that sound waves are longitudinal and to measure the wavelength of a low-frequency pulse. Describe the procedure, what to observe, and how to calculate wavelength from your measurements.",
      "a": "**Procedure:** (1) Stretch slinky 5 m on smooth floor. (2) One student holds one end fixed. (3) Other student gives a sharp longitudinal push (not sideways) to create a single compression pulse. (4) Observe: coils bunch up (compression) then spread (rarefaction) moving along slinky — coils move only back/forth, proving longitudinal nature. (5) For periodic wave: oscillate end at ~2 Hz (count 10 oscillations in 5 s). (6) Freeze frame (or video) and measure distance between two adjacent compressed regions using metre scale — this is λ. (7) Verify with v = fλ: measure pulse speed (time for compression to travel 5 m), compute λ = v/f. **Good answer** includes: longitudinal push, observation of coil motion direction, wavelength measurement method, and cross-check using wave speed. **Poor answer** uses transverse shakes, measures coil displacement amplitude instead of compression spacing, or omits unit tracking.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A sound wave is a ______ mechanical wave in which particles of the medium oscillate back and forth parallel to the direction of wave propagation, creating alternating regions of high pressure (compressions) and low pressure (rarefactions).",
+     "a": "longitudinal",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Hold a slinky spring ______ on a table and give one end a sharp push forward — you see a crowded coil region (compression) travel along the spring while each coil only moves back and forth.",
+     "a": "horizontally",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can draw and label a displacement-distance graph for a longitudinal wave showing compressions and rarefactions, explain why sound cannot travel in vacuum using particle motion reasoning, and predict how compression spacing changes when frequency increases while wave speed stays constant.",
+     "self_check": true
     }
    ]
   }

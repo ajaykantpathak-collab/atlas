@@ -1,0 +1,56 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_03_001",
+   "title": "c12_soc_cbse_03_001",
+   "questions": [
+    {
+     "q": "State the four varna categories in their traditional hierarchical order and name the fifth category excluded from the varna scheme.",
+     "a": "Brahmana (priests/teachers) → Kshatriya (warriors/rulers) → Vaishya (merchants/producers) → Shudra (service providers). The excluded fifth category is the **panchamas** (also called “outcastes”, “untouchables”, or later Scheduled Castes). A wrong answer (e.g., listing five varnas, reversing the order, or omitting panchamas) reveals confusion between the *ideational* four-fold model and the *empirical* reality of exclusion.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why sociologists treat *varna* as an “all-India aggregative classification” while *jati* is a “regional or local sub-classification”.",
+     "a": "Varna provides a *broad, pan-Indian* framework of four ideal types found in Sanskritic texts everywhere; jati refers to the *hundreds of actual, named, endogamous groups* whose rankings, names, and customs vary from village to village and region to region. A wrong answer that treats varna and jati as synonyms or claims jati is also pan-Indian shows failure to grasp the *text vs. context* distinction central to Indian sociology.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: “Caste is just another word for class — both are about economic inequality.” Using the six defining features of caste from the textbook, give three reasons why this statement is sociologically incorrect.",
+     "a": "1. **Birth-ascription**: Caste is immutable (cannot be changed by achievement); class allows mobility.  \n2. **Endogamy**: Caste mandates marriage within the group; class does not prescribe marriage rules.  \n3. **Ritual purity-pollution**: Caste hierarchy is justified by sacred/profane logic; class hierarchy is justified by economic power.  \nAn answer that only mentions economic differences misses the *cultural-religious* dimension that makes caste a distinct *social institution*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the principles of **difference/separation** and **wholism/hierarchy** in the caste system. How can the same institution be both fragmenting (separating castes) and integrating (binding them into a single system)?",
+     "a": "**Difference/separation**: Rules of endogamy, commensality, and occupational monopoly *prevent* mixing, making each caste a bounded unit.  \n**Wholism/hierarchy**: These separated units have *no independent existence* — they are ranked relative to each other in a single ladder (pure → polluting) and are functionally complementary (each caste’s occupation serves the whole). The integration is *hierarchical*, not egalitarian. A weak answer treats separation and hierarchy as contradictory rather than as two sides of the same structural logic.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: “Purity and pollution are merely religious beliefs; they have no material consequences for caste hierarchy today.” Use the NCERT link between ritual status and material power.",
+     "a": "The statement is false. NCERT notes: “material power (economic or military) is closely associated with social status, so that those in power tend to be of high status, and vice versa.” Historically, defeated groups were assigned low caste status; today, control over land, capital, and political office remains correlated with ritual rank. A student who agrees with the statement fails to see how *symbolic capital* (purity) converts into *material capital* (resources) — a core sociological insight.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment: If the purity-pollution logic were removed but endogamy and hereditary occupation remained, would the result still be a “caste system”? Justify your answer in 4-5 sentences.",
+     "a": "No. Without purity-pollution, there is no *moral* basis for ranking — hierarchy collapses into mere *difference*. Endogamy + hereditary occupation would create isolated ethnic-occupational groups (like guilds or tribes), not a *single* ladder where every group’s worth is measured by ritual distance from the sacred. The caste system’s uniqueness lies in the *fusion* of separation with a *transcendent* hierarchy. A poor answer treats hierarchy as incidental rather than constitutive.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The caste system is a hereditary, endogamous, and hierarchical social institution unique to the Indian subcontinent, structured around the twin principles of varna (a four-fold all-India ______ scheme: Brahmana, Kshatriya, Vaishya, Shudra) and jati (thousands of localised, birth-ascribed sub-castes).",
+     "a": "classificatory",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a large Indian wedding where the catering staff, the priests, and the guests all belong to different ______ that rarely eat together or marry across lines.",
+     "a": "communities",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish varna from jati with concrete examples, (2) explain how purity-pollution organises hierarchy and separation, and (3) analyse why caste is simultaneously a system of difference/separation and wholism/hierarchy, using NCERT terminology.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

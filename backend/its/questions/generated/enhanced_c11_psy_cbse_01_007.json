@@ -34,6 +34,31 @@
      "q": "Design a real-world Indian traffic signage system for a chaotic 4-way intersection using at least three Gestalt laws to minimize cognitive load for drivers. Sketch the layout (describe verbally) and explain how each law reduces accidents.",
      "a": "Layout: (1) **Proximity**: Group all lane-specific signs (left-turn, straight, right-turn) on separate overhead gantries physically positioned above each lane — drivers perceive \"my lane's instructions\" as a unit. (2) **Similarity**: Color-code by maneuver type (blue=straight, green=left, orange=right) using identical icon shapes — drivers instantly match sign to intention without reading text. (3) **Figure-Ground**: High-contrast retro-reflective borders (figure) against matte black background (ground) — signs pop out in visual clutter of shops, wires, vehicles. (4) **Closure**: Dashed lane lines that complete into solid lines 30m before intersection — drivers perceive \"lane ends here\" even if paint worn. A poor answer (e.g., \"make signs bigger/brighter\") reveals focus on intensity (structuralist) not organization (Gestalt) — missing that perceptual clarity comes from relational structure, not sensory magnitude.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Gestalt psychology is a school of thought that emphasizes the human tendency to perceive objects as organized wholes (Gestalts) rather than as ______ of discrete parts, asserting that the perceptual experience possesses emergent properties not reducible to the sum of its elemental sensations.",
+     "a": "collections",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are watching a Bollywood movie on a ______.",
+     "a": "screen",
+     "self_check": true
+    },
+    {
+     "q": "What is Gestalt psychology? State the definition given in this lesson.",
+     "a": "Gestalt psychology is a school of thought that emphasizes the human tendency to perceive objects as organized wholes (Gestalts) rather than as collections of discrete parts, asserting that the perceptual experience possesses emergent properties not reducible to the sum of its elemental sensations.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Gestalt psychology?",
+     "a": "Students often confuse \"the whole is greater than the sum of its parts\" with \"the whole is *made of* parts\" — they think Gestalt psychology denies the existence of parts/elements.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain the core principle \"the whole is greater than the sum of its parts\" using at least two distinct Gestalt laws of perceptual organization (e.g., figure-ground, proximity, similarity, closure, continuity) and contrast this holistic approach with the elementaristic approach of structuralism.",
+     "self_check": true
     }
    ]
   }

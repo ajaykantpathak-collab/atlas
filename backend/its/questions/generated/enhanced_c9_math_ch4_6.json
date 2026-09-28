@@ -34,6 +34,31 @@
      "q": "Create a 4-term polynomial in variables `p` and `q` that factorises to `(2p - 3q)(p + 4q)`. Show how you constructed it.",
      "a": "Expand the product: `(2p - 3q)(p + 4q) = 2p² + 8pq - 3pq - 12q² = 2p² + 5pq - 12q²`. To make it a 4-term expression suitable for grouping, keep it as `2p² + 8pq - 3pq - 12q²`. Group as `(2p² + 8pq) + (-3pq - 12q²) = 2p(p + 4q) - 3q(p + 4q) = (p + 4q)(2p - 3q)`. A poor answer that just writes `2p² + 5pq - 12q²` (3 terms) or cannot show the grouping steps reveals the student cannot reverse-engineer the process, indicating they only know the forward algorithm by rote.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ by grouping terms is a method used to factorise algebraic expressions with four or more terms by arranging them into groups such that each group has a common factor, then factoring out the common binomial factor from the resulting expression.",
+     "a": "Factorisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your school's gardening club design ______ flower beds.",
+     "a": "rectangular",
+     "self_check": true
+    },
+    {
+     "q": "What is Factorisation by grouping terms? State the definition given in this lesson.",
+     "a": "Factorisation by grouping terms is a method used to factorise algebraic expressions with four or more terms by arranging them into groups such that each group has a common factor, then factoring out the common binomial factor from the resulting expression.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Factorisation by grouping terms?",
+     "a": "Students often incorrectly factor out a negative sign from the second group.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently identify when grouping is appropriate, correctly group terms to reveal a common binomial factor, factor completely, and verify by expanding the result.",
+     "self_check": true
     }
    ]
   }

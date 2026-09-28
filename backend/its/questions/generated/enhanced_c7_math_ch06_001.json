@@ -34,6 +34,31 @@
      "q": "Create a number sequence of 5 terms where each term after the first is found by multiplying the previous term by 2 and then subtracting 1, starting with the number 3.",
      "a": "The expected sequence is 3, 5, 9, 17, 33 (since $3 \\times 2 - 1 = 5$; $5 \\times 2 - 1 = 9$; $9 \\times 2 - 1 = 17$; $17 \\times 2 - 1 = 33$). A poor answer shows arithmetic addition instead of multiplication or incorrect order of operations (e.g., subtracting first then multiplying).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ number sequences involves analyzing a ordered list of numbers arranged according to a specific mathematical rule to uncover the underlying pattern, predict future terms, or solve real-world problems.",
+     "a": "Interpreting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing at a metro station in Delhi and watching the digital board show the arrival ______ of trains: 5 minutes, 10 minutes, 15 minutes, 20 minutes...",
+     "a": "times",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How do you know the next train will arrive in ______ minutes?",
+     "a": "25",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can observe a given numerical sequence, determine the underlying rule (whether arithmetic, geometric, or based on differences), calculate missing terms, and write a general expression or explanation for how any term in the sequence is generated.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ at a metro station in Delhi and watching the digital board show the arrival times of trains: 5 minutes, 10 minutes, 15 minutes, 20 minutes...",
+     "a": "standing",
+     "self_check": true
     }
    ]
   }

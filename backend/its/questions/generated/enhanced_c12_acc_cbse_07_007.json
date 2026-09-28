@@ -34,6 +34,26 @@
      "q": "Create a hypothetical Balance Sheet note for \"Live Stock\" for a dairy company that also has \"Loose Tools\" and \"Patent Rights\". The note must include gross block, depreciation, and net block for Live Stock, and cross-reference the accounting policy for each asset class.",
      "a": "A good answer presents a structured note:\n**Note 4: Property, Plant and Equipment**\n| Particulars | Gross Block (₹) | Depreciation (₹) | Net Block (₹) |\n| Live Stock | 50,00,000 | 10,00,000 | 40,00,000 |\n**Accounting Policy:** Live Stock depreciated on WDV @15%; Loose Tools valued at lower of cost/NRV under Inventories (Note 7); Patent Rights amortized on SLM over 8 years (Note 5). A poor answer omits gross/depreciation/net breakdown or fails to cross-reference policies, revealing incomplete understanding of disclosure requirements.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Live Stock, Loose Tools, and Patent Rights are specific assets that require distinct ______ and presentation in a company's Balance Sheet as per Schedule III of the Companies Act, 2013.",
+     "a": "classification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an accountant finalizing the Balance Sheet of \"______ Agro Ltd.\" The trial balance shows Live Stock (cattle), Loose Tools (spanners, dies), and Patent Rights (for a seed variety).",
+     "a": "GreenFields",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Live Stock, Loose Tools, and Patent Rights are specific assets that require distinct classification and presentation in a company's Balance Sheet as per Schedule III of the Companies Act, ______.",
+     "a": "2013",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must correctly classify each of the three items under the appropriate Schedule III head (Non-current Assets: Tangible/Intangible, or Current Assets: Inventories), state the valuation basis for each, and prepare the relevant Balance Sheet extract with proper note references.",
+     "self_check": true
     }
    ]
   }

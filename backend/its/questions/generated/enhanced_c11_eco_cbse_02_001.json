@@ -34,6 +34,31 @@
      "q": "Construct a 2x2 matrix showing the four goals of planning (rows) and two policy instruments (columns: Public Investment, Licensing/Regulation). Fill each cell with one specific example of how that instrument was used to pursue that goal during 1950-1990.",
      "a": "| Goal | Public Investment Example | Licensing/Regulation Example |\n|------|---------------------------|------------------------------|\n| Growth | Bhakra-Nangal Dam (irrigation + power) | Industrial licenses for new capacity in priority sectors |\n| Modernisation | Indian Statistical Institute, IITs | Import licenses for advanced machinery only |\n| Self-reliance | Steel plants (Bhilai, Rourkela, Durgapur) | Tariffs/quotas on consumer goods imports |\n| Equity | Land reform legislation funding | MRTP Act (1969) to restrict concentration; SSI reservation |\nA poor answer puts 'subsidies' in every cell or confuses licensing (entry control) with price controls, revealing the student sees instruments as undifferentiated 'government intervention' rather than targeted tools.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Five Year Plan in India is a ______ policy document formulated by the Planning Commission (now NITI Aayog) that specifies the quantitative targets and qualitative objectives for the allocation of national resources across sectors over a five-year period, aiming to achieve the four long-term goals of growth, modernisation, self-reliance, and equity within a mixed economy framework where the public sector occupies the commanding heights and the private sector operates under a licensing regime.",
+     "a": "comprehensive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family is ______ a major home renovation over the next five years.",
+     "a": "planning",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The first step is always identifying the binding constraints — here, savings rate of ______%, food imports, and no capital goods industry — then setting targets that balance the four goals without contradicting the Constitution's Directive Principles.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how the four goals of planning (growth, modernisation, self-reliance, equity) interact and sometimes conflict, and can analyse why India chose a mixed economy model with five-year plans instead of pure capitalism or Soviet-style socialism, using the concepts of GDP structure, market failure, and sovereignty.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family is planning a major home ______ over the next five years.",
+     "a": "renovation",
+     "self_check": true
     }
    ]
   }

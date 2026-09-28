@@ -34,6 +34,31 @@
      "q": "Design a rainfall-based agro-climatic zoning map for a hypothetical district spanning the Western Ghats escarpment to the Deccan Plateau (width 80 km). Annotate three zones with recommended dominant Kharif crops, justifying each with rainfall amount, variability, and soil moisture duration.",
      "a": "Zone 1 (Windward Ghats, 0–20 km): 300–400 cm, CV ~15%, 80–100 rainy days. Crop: Rice (transplanted), spices (pepper, cardamom) — high moisture, cloud cover suits shade crops. Zone 2 (Crest/Transition, 20–40 km): 150–250 cm, CV ~20%, 60–80 days. Crop: Rice + arecanut, coconut — perennial tree crops buffer variability. Zone 3 (Rain-shadow Plateau, 40–80 km): 60–90 cm, CV >30%, 30–45 days. Crop: Millets (ragi, jowar), pulses (tur), oilseeds (groundnut) — drought-tolerant, short duration. Justification must link CV to risk, rainy days to soil moisture window, and crop water requirement (rice > 120 cm, millets < 60 cm). A poor answer lists crops without quantitative justification or ignores the rain-shadow gradient.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Distribution of rainfall in India refers to the spatial and temporal pattern of ______ received across the Indian subcontinent, characterized by extreme regional variation ranging from over 2,500 mm in the Western Ghats and Northeast to less than 100 mm in western Rajasthan, governed primarily by the dual-branch Southwest Monsoon, orographic barriers, and the retreating Northeast Monsoon.",
+     "a": "precipitation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Obrain the rainfall map in your school atlas or NCERT textbook showing isohyets — notice how the 200 cm line hugs the Western Ghats and ______ hills while the 60 cm line cuts across the Deccan Plateau and the 20 cm line runs through the Thar Desert.",
+     "a": "Northeast",
+     "self_check": true
+    },
+    {
+     "q": "What is Distribution of rainfall in India? State the definition given in this lesson.",
+     "a": "Distribution of rainfall in India refers to the spatial and temporal pattern of precipitation received across the Indian subcontinent, characterized by extreme regional variation ranging from over 2,500 mm in the Western Ghats and Northeast to less than 100 mm in western Rajasthan, governed primarily by the dual-branch Southwest Monsoon.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Distribution of rainfall in India?",
+     "a": "Students believe the Southwest Monsoon advances uniformly across India like a \"wall of rain\" from south to north, and that rainfall decreases steadily with distance from the coast.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can interpret an isohyet map of India to identify rainfall regimes, explain the orographic and dynamic causes of regional variation using monsoon branch mechanics, calculate and interpret the coefficient of variation for rainfall reliability, and correlate rainfall patterns with Kharif/Rabi cropping zones.",
+     "self_check": true
     }
    ]
   }

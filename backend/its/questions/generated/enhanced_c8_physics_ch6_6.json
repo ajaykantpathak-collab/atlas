@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a convex mirror (like a shiny metal spoon's back), a candle, and a screen to demonstrate that a convex mirror cannot form a real image on a screen. Describe the procedure and expected observation.",
      "a": "Procedure: Place a lit candle in front of the convex mirror (spoon back). Hold a white screen (paper) at various positions in front of the mirror (where reflected rays go) and behind the mirror. Observe if a sharp image forms on the screen. Expected: No sharp image forms on the screen at any position in front of the mirror because rays diverge. Behind the mirror, you cannot place a screen because the mirror is opaque. This proves the image is virtual. A poor answer (e.g., \"put screen behind mirror and see image\") reveals misunderstanding that virtual images cannot be captured on a screen.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Image formation by a convex mirror is the process of locating the virtual, erect, and ______ image formed when light rays from an object reflect off a diverging spherical surface, using the rules of reflection for two principal rays: one parallel to the principal axis that appears to diverge from the principal focus, and one directed towards the centre of curvature that reflects back along the same path.",
+     "a": "diminished",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at the side-view mirror of a parked scooter or car – notice how the ______ view shows a wide field but objects appear smaller and farther away than they really are.",
+     "a": "reflected",
+     "self_check": true
+    },
+    {
+     "q": "What is Image formation by a convex mirror? State the definition given in this lesson.",
+     "a": "Image formation by a convex mirror is the process of locating the virtual, erect, and diminished image formed when light rays from an object reflect off a diverging spherical surface, using the rules of reflection for two principal rays: one parallel to the principal axis that appears to diverge from the principal focus, and one directed.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Image formation by a convex mirror?",
+     "a": "Students often think the focal point (F) and centre of curvature (C) of a convex mirror are in front of the mirror (like a concave mirror) because they memorise \"F is halfway between P and C\" without visualising that the mirror bulges outward.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently draw accurate ray diagrams for a convex mirror for any object position (at infinity, between infinity and pole) using a sharp pencil, ruler, and correct arrow directions, and can state the image characteristics (position, nature, size) for each case without prompting.",
+     "self_check": true
     }
    ]
   }

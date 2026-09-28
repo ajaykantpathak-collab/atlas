@@ -1,0 +1,240 @@
+{
+ "catalog": "catalog_class11_physics_keph207.json",
+ "concepts": [
+  {
+   "id": "keph207.14.3.1",
+   "title": "Wave Parameters: Wavelength, Frequency and Speed",
+   "converted_to_compute": true,
+   "formula": "wave_speed = frequency * wavelength",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "wave_speed = frequency * wavelength",
+     "compute": "wave_speed = frequency * wavelength"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Wave Parameters: Wavelength, Frequency and Speed: given frequency = 674, wavelength = 89, find wave speed.",
+     "a": "59986",
+     "self_check": false
+    },
+    {
+     "q": "For Wave Parameters: Wavelength, Frequency and Speed: given frequency = 448, wavelength = 252, find wave speed.",
+     "a": "112896",
+     "self_check": false
+    },
+    {
+     "q": "For Wave Parameters: Wavelength, Frequency and Speed: given frequency = 328, wavelength = 186, find wave speed.",
+     "a": "61008",
+     "self_check": false
+    },
+    {
+     "q": "For Wave Parameters: Wavelength, Frequency and Speed: given frequency = 868, wavelength = 169, find wave speed.",
+     "a": "146692",
+     "self_check": false
+    },
+    {
+     "q": "For Wave Parameters: Wavelength, Frequency and Speed: given frequency = 600, wavelength = 497, find wave speed.",
+     "a": "298200",
+     "self_check": false
+    },
+    {
+     "q": "For Wave Parameters: Wavelength, Frequency and Speed: given frequency = 735, wavelength = 60, find wave speed.",
+     "a": "44100",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph207.14.4.1",
+   "title": "Speed of a Wave on a String",
+   "converted_to_compute": true,
+   "formula": "string_speed = sqrt(tension / lin_density)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "string_speed = sqrt(tension / lin_density)",
+     "compute": "string_speed = sqrt(tension / lin_density)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Speed of a Wave on a String: given tension = 80, lin_density = 14.7, find string speed.",
+     "a": "2.33285",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of a Wave on a String: given tension = 87, lin_density = 1.2, find string speed.",
+     "a": "8.51469",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of a Wave on a String: given tension = 64, lin_density = 12.4, find string speed.",
+     "a": "2.27185",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of a Wave on a String: given tension = 47, lin_density = 19.1, find string speed.",
+     "a": "1.56867",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of a Wave on a String: given tension = 9.7, lin_density = 14.2, find string speed.",
+     "a": "0.826498",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of a Wave on a String: given tension = 48, lin_density = 10.3, find string speed.",
+     "a": "2.15875",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph207.14.4.2",
+   "title": "Speed of Sound in a Gas",
+   "converted_to_compute": true,
+   "formula": "sound_speed = sqrt(gamma * pressure / density)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "sound_speed = sqrt(gamma * pressure / density)",
+     "compute": "sound_speed = sqrt(gamma * pressure / density)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Speed of Sound in a Gas: given gamma = 4.4, pressure = 33, density = 10.7, find sound speed.",
+     "a": "3.68376",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of Sound in a Gas: given gamma = 2.5, pressure = 386, density = 4.8, find sound speed.",
+     "a": "14.1789",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of Sound in a Gas: given gamma = 7.4, pressure = 158, density = 10.3, find sound speed.",
+     "a": "10.6543",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of Sound in a Gas: given gamma = 29, pressure = 274, density = 6.2, find sound speed.",
+     "a": "35.7996",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of Sound in a Gas: given gamma = 4.8, pressure = 364, density = 15.5, find sound speed.",
+     "a": "10.6171",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of Sound in a Gas: given gamma = 12.5, pressure = 382, density = 16.5, find sound speed.",
+     "a": "17.0116",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph207.14.7.1",
+   "title": "Superposition, Standing Waves and Harmonics",
+   "converted_to_compute": true,
+   "formula": "freq = harmonic_n * wave_speed / (2 * length)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "freq = harmonic_n * wave_speed / (2 * length)",
+     "compute": "freq = harmonic_n * wave_speed / (2 * length)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Superposition, Standing Waves and Harmonics: given harmonic_n = 1.6, wave_speed = 109, length = 1.9, find freq.",
+     "a": "45.8947",
+     "self_check": false
+    },
+    {
+     "q": "For Superposition, Standing Waves and Harmonics: given harmonic_n = 19.7, wave_speed = 4.2, length = 299, find freq.",
+     "a": "0.138361",
+     "self_check": false
+    },
+    {
+     "q": "For Superposition, Standing Waves and Harmonics: given harmonic_n = 1.1, wave_speed = 101, length = 257, find freq.",
+     "a": "0.216148",
+     "self_check": false
+    },
+    {
+     "q": "For Superposition, Standing Waves and Harmonics: given harmonic_n = 7.1, wave_speed = 64, length = 474, find freq.",
+     "a": "0.479325",
+     "self_check": false
+    },
+    {
+     "q": "For Superposition, Standing Waves and Harmonics: given harmonic_n = 19.3, wave_speed = 110, length = 488, find freq.",
+     "a": "2.1752",
+     "self_check": false
+    },
+    {
+     "q": "For Superposition, Standing Waves and Harmonics: given harmonic_n = 6.8, wave_speed = 98, length = 50, find freq.",
+     "a": "6.664",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph207.14.9.1",
+   "title": "Beats and the Doppler Effect",
+   "converted_to_compute": true,
+   "formula": "beat_freq = abs(freq_1 - freq_2)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "beat_freq = abs(freq_1 - freq_2)",
+     "compute": "beat_freq = abs(freq_1 - freq_2)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Beats and the Doppler Effect: given freq_1 = 11.8, freq_2 = 12.6, find beat freq.",
+     "a": "0.8",
+     "self_check": false
+    },
+    {
+     "q": "For Beats and the Doppler Effect: given freq_1 = 26, freq_2 = 88, find beat freq.",
+     "a": "62",
+     "self_check": false
+    },
+    {
+     "q": "For Beats and the Doppler Effect: given freq_1 = 61, freq_2 = 6.9, find beat freq.",
+     "a": "54.1",
+     "self_check": false
+    },
+    {
+     "q": "For Beats and the Doppler Effect: given freq_1 = 52, freq_2 = 88, find beat freq.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "For Beats and the Doppler Effect: given freq_1 = 40, freq_2 = 41, find beat freq.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "For Beats and the Doppler Effect: given freq_1 = 77, freq_2 = 15.1, find beat freq.",
+     "a": "61.9",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

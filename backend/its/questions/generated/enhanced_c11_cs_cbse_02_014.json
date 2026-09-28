@@ -34,6 +34,31 @@
      "q": "Design a 4-bit even parity generator using XOR gates. Draw the circuit and explain how it detects a single-bit error during transmission.",
      "a": "Circuit: Three XOR gates cascaded: P = ((D1 ⊕ D2) ⊕ D3) ⊕ D4. The parity bit P is transmitted with data. At receiver, recompute parity on received 4 bits plus P; if result is 1, an odd number of bits flipped (single-bit error detected). A poor answer that uses XNOR gates or doesn't cascade properly shows the student doesn't understand parity as XOR reduction and error detection mechanism.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The XOR (______ OR) gate outputs 1 only when the number of 1's in its inputs is odd (for two inputs, exactly one input is 1).",
+     "a": "Exclusive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a circuit that must detect whether two switches are in different ______ (one ON, one OFF) to trigger an alarm.",
+     "a": "positions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Next, see how an XNOR gate simply inverts this output, giving ______ when inputs are equal.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to construct truth tables for XOR/XNOR gates with up to 3 inputs, derive their Boolean expressions, implement them using basic gates (AND, OR, NOT) and universal gates (NAND, NOR), and explain their applications in parity checking, binary addition, and controlled inversion.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a circuit that must detect whether two switches are in different positions (one ON, one OFF) to trigger an alarm.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

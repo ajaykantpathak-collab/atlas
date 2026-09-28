@@ -34,6 +34,26 @@
      "q": "Design a Python module `bank.py` with a global variable `total_deposits = 0` and two functions: `deposit(amount)` that adds to it, and `get_total()` that returns it. Then write a separate script `test_bank.py` that imports `bank`, calls `deposit(100)`, `deposit(200)`, and prints the total. Show the exact code for both files.",
      "a": "**bank.py:**\n```python\ntotal_deposits = 0\n\ndef deposit(amount):\n    global total_deposits\n    total_deposits += amount\n\ndef get_total():\n    return total_deposits\n```\n**test_bank.py:**\n```python\nimport bank\nbank.deposit(100)\nbank.deposit(200)\nprint(bank.get_total())  # Output: 300\n```\nA poor answer might forget `global` in `deposit`, or try to access `total_deposits` directly in `test_bank` without `bank.` prefix, or put `global` in `get_total` (unnecessary but harmless). This tests end-to-end understanding of global scope across modules — a CUET/IPMAT practical pattern.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The global keyword in Python ______ that a variable inside a function refers to a variable in the global (module-level) scope, allowing the function to read and write to that global variable.",
+     "a": "declares",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a game where a score ______ is defined at the top of your script (global).",
+     "a": "variable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You write a function increase_score() that tries to do score = score + ______.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) correctly insert global or nonlocal declarations in a function to modify an outer-scope variable, (2) predict the output of code snippets involving nested functions with and without these keywords, and (3) explain why a SyntaxError or UnboundLocalError occurs when the keywords are missing or misplaced.",
+     "self_check": true
     }
    ]
   }

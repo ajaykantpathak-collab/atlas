@@ -34,6 +34,21 @@
      "q": "Create a code snippet where a function reads a global variable, creates a local variable with the same name, and then calls another function that also reads that variable name. Show the output and explain which variable each function sees.",
      "a": "Example:\n```python\nx = \"global\"\ndef first():\n    x = \"local to first\"\n    def second():\n        print(x)\n    second()\nfirst()\n```\nOutput: `local to first`. The `second` function sees `x` from the enclosing scope (first's local), not the global. A poor answer might show `global` or an error, revealing misunderstanding of nested scope lookup order (LEGB).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Variable scope defines the region of a program where a variable is ______.",
+     "a": "accessible",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a ______ (global scope) where you write your total savings.",
+     "a": "notebook",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to trace code execution to determine which variable (local or global) is being accessed at each point, predict UnboundLocalError when a variable is referenced before assignment in local scope, and explain why assigning to a variable inside a function creates a new local variable by default.",
+     "self_check": true
     }
    ]
   }

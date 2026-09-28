@@ -2,6 +2,53 @@
  "catalog": "catalog_class9_science_iesc108.json",
  "concepts": [
   {
+   "id": "iesc.108.8.4",
+   "title": "Electron Arrangement in Shells",
+   "converted_to_compute": true,
+   "formula": "shell_capacity = 2 * n * n",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "shell_capacity = 2 * n * n",
+     "compute": "shell_capacity = 2 * n * n"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Electron Arrangement in Shells: given n = 87, find shell capacity.",
+     "a": "15138",
+     "self_check": false
+    },
+    {
+     "q": "For Electron Arrangement in Shells: given n = 50, find shell capacity.",
+     "a": "5000",
+     "self_check": false
+    },
+    {
+     "q": "For Electron Arrangement in Shells: given n = 45, find shell capacity.",
+     "a": "4050",
+     "self_check": false
+    },
+    {
+     "q": "For Electron Arrangement in Shells: given n = 58, find shell capacity.",
+     "a": "6728",
+     "self_check": false
+    },
+    {
+     "q": "For Electron Arrangement in Shells: given n = 18.9, find shell capacity.",
+     "a": "714.42",
+     "self_check": false
+    },
+    {
+     "q": "For Electron Arrangement in Shells: given n = 69, find shell capacity.",
+     "a": "9522",
+     "self_check": false
+    }
+   ]
+  },
+  {
    "id": "iesc.108.8.1",
    "title": "Matter Is Made of Particles and Atoms",
    "solution_type": "verify_property",
@@ -64,83 +111,6 @@
      "q": "What model replaced Rutherford's to fix electron stability?",
      "a": "Bohr's model - electrons occupy fixed energy shells and do not radiate energy inside them.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "iesc.108.8.4",
-   "title": "Electron Arrangement in Shells",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "n_squared",
-     "expr": "n * n",
-     "explain": "square the shell number"
-    },
-    {
-     "step": 2,
-     "name": "lower_shell_cap",
-     "expr": "2 * (n - 1) ** 2",
-     "explain": "capacity of the shell below"
-    },
-    {
-     "step": 3,
-     "name": "shell_capacity",
-     "expr": "2 * n_squared",
-     "explain": "max electrons = 2n squared"
-    }
-   ],
-   "questions": [
-    {
-     "q": "Using 2n squared, how many electrons fit in the first shell?",
-     "vals": {
-      "n": 1
-     },
-     "unit": null,
-     "steps": null,
-     "a": "2",
-     "self_check": false
-    },
-    {
-     "q": "What is the maximum electron count in the second shell?",
-     "vals": {
-      "n": 2
-     },
-     "unit": null,
-     "steps": null,
-     "a": "8",
-     "self_check": false
-    },
-    {
-     "q": "Calculate the capacity of the third shell.",
-     "vals": {
-      "n": 3
-     },
-     "unit": null,
-     "steps": null,
-     "a": "18",
-     "self_check": false
-    },
-    {
-     "q": "Find the maximum electrons in the fourth shell.",
-     "vals": {
-      "n": 4
-     },
-     "unit": null,
-     "steps": null,
-     "a": "32",
-     "self_check": false
-    },
-    {
-     "q": "A model atom is drawn with a sixth shell. What electron capacity would 2n squared give for n = 6?",
-     "vals": {
-      "n": 6
-     },
-     "unit": null,
-     "steps": null,
-     "a": "72",
-     "self_check": false
     }
    ]
   }

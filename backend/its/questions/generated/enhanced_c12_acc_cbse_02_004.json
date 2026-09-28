@@ -34,6 +34,36 @@
      "q": "Create a problem where the Capitalisation of Average Profits method requires adjusting for a non-trading asset (e.g., investments yielding 8% when NRR is 12%) and an abnormal loss. Provide the data and solve for goodwill.",
      "a": "Sample problem: Profits: Year 1 ₹6,00,000 (includes abnormal loss ₹50,000), Year 2 ₹7,00,000, Year 3 ₹8,00,000. Capital Employed ₹50,00,000 (includes ₹10,00,000 investments earning 8%). NRR 12%. Solution: Step 1: Adjust profits: Year 1 = ₹6,50,000 (add back abnormal loss). Average = (₹6,50,000+₹7,00,000+₹8,00,000)/3 = ₹7,16,667. Step 2: Remove non-trading income: Investment income = ₹10,00,000 × 8% = ₹80,000. Maintainable Profit = ₹7,16,667 − ₹80,000 = ₹6,36,667. Step 3: Capital Employed for business = ₹50,00,000 − ₹10,00,000 = ₹40,00,000. Step 4: Capitalised Value = ₹6,36,667 × 100/12 = ₹53,05,558. Step 5: Goodwill = ₹53,05,558 − ₹40,00,000 = ₹13,05,558. A poor answer ignores either adjustment or uses total capital employed including investments.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Goodwill under the ______ Method is valued by capitalising the firm's maintainable profits (either Average Profits or Super Profits) at the Normal Rate of Return (NRR) to determine the Capitalised Value of the business, then deducting the Net Assets (Capital Employed) to isolate Goodwill.",
+     "a": "Capitalisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are valuing a ______ firm for a new partner's admission.",
+     "a": "partnership",
+     "self_check": true
+    },
+    {
+     "q": "What is Goodwill under the Capitalisation Method? State the definition given in this lesson.",
+     "a": "Goodwill under the Capitalisation Method is valued by capitalising the firm's maintainable profits (either Average Profits or Super Profits) at the Normal Rate of Return (NRR) to determine the Capitalised Value of the business, then deducting the Net Assets (Capital Employed) to isolate Goodwill.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In Capitalisation of Average Profits: Goodwill = (Average Profits × ______/NRR) − Capital Employed.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Goodwill under the Capitalisation Method?",
+     "a": "Students often treat \"Capital Employed\" as simply \"Total Assets − Current Liabilities\" without excluding non-trading assets (like investments) and fictitious assets (like debit balance of P&L).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently compute goodwill using both capitalisation methods given a set of profits, capital employed, and normal rate of return, correctly adjusting for abnormal items, non-trading assets, and partner remuneration, and can explain why the two methods yield identical results when applied consistently.",
+     "self_check": true
     }
    ]
   }

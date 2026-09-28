@@ -32,7 +32,27 @@
     },
     {
      "q": "Design a 4-row comparison table with columns: Movement, Region & Period, Primary Participants, Key Demand, Leadership & Method. Fill it for Tebhaga, Telangana, and New Farmers' Movements (treat as one row). Add a fourth row for a hypothetical \"Green Revolution Beneficiaries' Movement\" in 2020s demanding MSP legal guarantee — infer its characteristics from the new farmers' movements.",
-     "a": "Expected table (key entries):\nRow 1: Tebhaga | Bengal, 1946–47 | Bargadars (sharecroppers) | 2/3 share of produce (vs 1/2) | Kisan Sabha/CPI; mass mobilization, non-violent resistance\nRow 2: Telangana | Hyderabad, 1946–51 | Peasants, landless laborers | End feudal exploitation (vetti, illegal exactions), land redistribution | CPI; armed guerrilla, parallel administration\nRow 3: New Farmers' Movements | Punjab, TN, 1970s onward | Market-involved farmers (commodity producers/buyers) | Remunerative prices, input subsidies, loan waivers, electricity | Non-party, regional leaders (e.g., Sharad Joshi, Mahendra Singh Tikait); road/rail blockades, gheraos\nRow 4 (inferred): Green Revolution Beneficiaries' Movement | North/West India, 2020s | Surplus-producing farmers (wheat/rice/sugarcane) | Legal guarantee of MSP, debt waiver, diesel/electricity subsidy | Non-party but politically influential; long-term border protests (e.g., 2020-21), social media campaigns, electoral pressure\nA poor answer would copy Row 3 for Row 4 without adapting to 2020s context (e.g., missing legal MSP guarantee, social media, electoral leverage).",
+     "a": "(1) Tebhaga — Bengal, mid-forties, sharecroppers demanding two-thirds of the produce, led by the Kisan Sabha through mass non-violent mobilisation, (2) Telangana — Hyderabad, late forties, peasants and landless labourers against feudal exactions, led by the communists through armed struggle and parallel administration, (3) New farmers' movements — Punjab and Tamil Nadu from the seventies, market-involved farmers demanding prices, subsidies and waivers, organised as non-party regional blocs using blockades, (4) The inferred 2020s movement — surplus wheat, rice and sugarcane farmers demanding a legal minimum-price guarantee, non-party but electorally influential, using long sit-ins, social media and vote pressure. A poor answer copies the new-farmers row without the legal-MSP demand and newer repertoires.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The peasant movements in India refer to collective agrarian struggles by cultivators against ______ land tenure systems, revenue demands, and feudal oppression.",
+     "a": "exploitative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a relatable scenario: \"Imagine you are a ______ in 1946 Bengal — you till the land, sow the seeds, and harvest the crop, but the jotedar (landlord) takes half the produce as rent.",
+     "a": "sharecropper",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Post-______s \"new farmers' movements\" in Punjab, Tamil Nadu, and elsewhere shifted focus to market-oriented demands like remunerative prices, input subsidies, and loan waivers, organizing as non-party, regionally rooted pressure groups.",
+     "a": "1970",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) compare the class composition, demands, leadership, and methods of Tebhaga, Telangana, and new farmers' movements in a structured table; (2) explain how each movement reflects a distinct phase in India's agrarian history (colonial, princely state, post-independence green revolution); (3) evaluate why the.",
      "self_check": true
     }
    ]

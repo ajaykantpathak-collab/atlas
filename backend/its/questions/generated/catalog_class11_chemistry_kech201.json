@@ -1,0 +1,52 @@
+{
+ "catalog": "catalog_class11_chemistry_kech201.json",
+ "concepts": [
+  {
+   "id": "kech.201.2.1",
+   "title": "Assigning Oxidation Number by the Sum Rule",
+   "converted_to_compute": true,
+   "formula": "unknown_ox = (charge_total - known_sum) / n_atoms",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "unknown_ox = (charge_total - known_sum) / n_atoms",
+     "compute": "unknown_ox = (charge_total - known_sum) / n_atoms"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Assigning Oxidation Number by the Sum Rule: given charge_total = 1.9, known_sum = 1.7, n_atoms = 8.8, find unknown ox.",
+     "a": "0.0227273",
+     "self_check": false
+    },
+    {
+     "q": "For Assigning Oxidation Number by the Sum Rule: given charge_total = 4.4, known_sum = 1.8, n_atoms = 3.2, find unknown ox.",
+     "a": "0.8125",
+     "self_check": false
+    },
+    {
+     "q": "For Assigning Oxidation Number by the Sum Rule: given charge_total = 86, known_sum = 5.8, n_atoms = 7.8, find unknown ox.",
+     "a": "10.2821",
+     "self_check": false
+    },
+    {
+     "q": "For Assigning Oxidation Number by the Sum Rule: given charge_total = 109, known_sum = 14.2, n_atoms = 17.1, find unknown ox.",
+     "a": "5.54386",
+     "self_check": false
+    },
+    {
+     "q": "For Assigning Oxidation Number by the Sum Rule: given charge_total = 90, known_sum = 9.5, n_atoms = 10, find unknown ox.",
+     "a": "8.05",
+     "self_check": false
+    },
+    {
+     "q": "For Assigning Oxidation Number by the Sum Rule: given charge_total = 29, known_sum = 18.8, n_atoms = 13.5, find unknown ox.",
+     "a": "0.755556",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

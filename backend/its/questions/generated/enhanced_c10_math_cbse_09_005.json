@@ -34,6 +34,36 @@
      "q": "Create a real-life problem involving angle of elevation where the height of an object is to be found, using an angle of elevation of 30° and a horizontal distance of 40 m. Write the problem statement and solve it.",
      "a": "Example problem: \"From a point 40 m away from a lamp post, the angle of elevation of the top is 30°. Find the height of the lamp post.\"  \nSolution: h = 40 × tan 30° = 40/√3 = (40√3)/3 ≈ 23.09 m.  \nA poor answer might use the wrong ratio (e.g., sin 30° = h/40 giving h = 20 m) or forget to include units, showing the student cannot independently construct and solve a correct application.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Angle of elevation is the angle formed between the line of sight and the horizontal line when an observer looks at an object ______ above the horizontal level.",
+     "a": "positioned",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ in your school playground, 25 metres away from the base of the flagpole.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What is Angle of elevation? State the definition given in this lesson.",
+     "a": "Angle of elevation is the angle formed between the line of sight and the horizontal line when an observer looks at an object positioned above the horizontal level.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing in your school playground, ______ metres away from the base of the flagpole.",
+     "a": "25",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Angle of elevation?",
+     "a": "Students frequently draw the angle of elevation at the top of the object (e.g., at the top of the tower) instead of at the observer's eye level.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently draw a correct labelled diagram for an angle of elevation problem, select the appropriate trigonometric ratio (tan, sin, or cos) based on the given known and unknown quantities, set up the equation correctly, solve for the unknown height or distance, and express the final answer with proper units.",
+     "self_check": true
     }
    ]
   }

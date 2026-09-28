@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_eco_ch4_2",
+ "concepts": [
+  {
+   "id": "enh:c9_eco_ch4_2",
+   "title": "c9_eco_ch4_2",
+   "questions": [
+    {
+     "q": "What does UPI stand for, and what is its primary function in digital payments?",
+     "a": "UPI stands for Unified Payments Interface. Its primary function is to enable instant, real-time bank-to-bank transfers using a virtual payment address (VPA), mobile number, or QR code without sharing sensitive bank details.  \nA wrong answer like “UPI is a mobile wallet where money is stored” reveals the student confuses UPI with payment wallets (e.g., Paytm Wallet), not understanding that UPI is a protocol facilitating direct bank transfers, not a storage mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Why is UPI considered more secure than sharing bank account numbers and IFSC codes for every transaction?",
+     "a": "UPI enhances security by using a Virtual Payment Address (VPA) like `username@bank` instead of exposing actual bank account numbers and IFSC codes. Each transaction requires MPIN authentication, and transaction details are tokenized, reducing fraud risk.  \nA wrong answer such as “UPI is secure because it uses the internet” reveals a superficial understanding—it misses the specific mechanisms (VPA, MPIN, tokenization) and wrongly implies all internet-based methods are equally secure, ignoring how UPI’s design minimizes data exposure.",
+     "self_check": true
+    },
+    {
+     "q": "A student made 15 UPI transactions in a week: 12 succeeded, 2 failed due to insufficient balance, and 1 failed due to wrong VPA. What is the success rate of UPI transactions for this student, and what does the most common failure reason suggest about user behavior?",
+     "a": "Success rate = (Number of successful transactions / Total transactions) × 100 = (12 / 15) × 100 = 80%.  \nThe most common failure reason (insufficient balance in 2 out of 3 failures) suggests users often initiate transactions without checking available funds, indicating a need for better pre-transaction balance awareness.  \nA wrong answer like “success rate is 12%” reveals the student failed to divide correctly or confused success count with rate, showing weak application of basic percentage concepts to financial data.",
+     "self_check": true
+    },
+    {
+     "q": "Compare UPI and NEFT in terms of transaction speed, availability, and typical use cases. Under what condition might NEFT still be preferred over UPI despite UPI’s advantages?",
+     "a": "UPI offers real-time, 24/7 instant settlement, while NEFT operates in half-hourly batches during bank working hours (8 AM–7 PM on weekdays, 8 AM–1 PM on Saturdays), making it slower and time-restricted. UPI is ideal for P2P and merchant payments (e.g., street vendors, online shopping), whereas NEFT is used for larger, non-urgent transfers like salary disbursement or bill payments. NEFT might still be preferred for very large transactions (e.g., >₹2 lakh) where UPI’s per-transaction limits (₹1 lakh by default, though higher for specific categories) could require splitting, making NEFT more efficient for bulk transfers.  \nA wrong answer claiming “NEFT is faster than UPI” reveals a fundamental misunderstanding of payment system architectures, confusing batch processing with real-time gross settlement (RTGS-like) systems.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: “UPI has completely eliminated the need for cash in India’s economy.” Support your judgment with two pieces of evidence from real-world usage patterns.",
+     "a": "The statement is false. While UPI has significantly reduced cash dependence, cash remains widely used, especially in informal sectors and rural areas. Evidence: (1) As of 2023, over 50% of small retail transactions (e.g., vegetable markets, local transport) still occur in cash due to lack of smartphone access or digital literacy among vendors. (2) Currency in circulation with the public has grown steadily, reaching ₹32 lakh crore in March 2024, indicating sustained cash demand despite UPI’s growth (₹139 lakh crore in UPI volume in FY24).  \nA wrong answer agreeing with the statement without evidence reveals uncritical acceptance of technological optimism, ignoring socioeconomic barriers like the digital divide and cash’s role in financial inclusion for unbanked populations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple UPI-based payment system for a school canteen that allows students to buy snacks without cash. Describe how a student would use it, what information is needed, and how the canteen owner receives money.",
+     "a": "The system would involve the canteen registering for a UPI QR code linked to its bank account. A student scans the QR code using any UPI app, enters the amount (e.g., ₹20 for a samosa), and authenticates with their MPIN. The amount is instantly debited from the student’s linked bank account and credited to the canteen’s account. The canteen owner sees the credit in their bank statement or UPI app dashboard.  \nA poor answer suggesting students need to load money into a school-specific wallet reveals misunderstanding of UPI’s bank-linkage feature—it does not require pre-funding a separate wallet, as it draws directly from the user’s bank account.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

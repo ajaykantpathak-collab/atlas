@@ -34,6 +34,21 @@
      "q": "Create a real-life word problem (with numbers) where Heron's formula must be used on a triangle that is part of a quadrilateral, and the final answer requires a cost calculation. Provide the problem statement only.",
      "a": "A good problem: \"A kite-shaped playground has diagonals 30 m and 40 m intersecting at right angles. The longer diagonal divides the kite into two triangles. Find the cost of covering the playground with sand at ₹20 per m².\" This requires recognizing the kite as two triangles, finding side lengths via Pythagoras, using Heron's formula (or simpler area methods), and computing cost. A poor problem would be a direct triangle area without decomposition or cost, showing the student cannot design multi-step applications.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Heron's formula enables ______ of a triangle's area using only its three side lengths, without requiring height measurement.",
+     "a": "calculation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer owns a ______ plot with sides 50 m, 60 m, and 70 m and wants to calculate the cost of levelling it at ₹15 per m².",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can decompose a real-world composite figure (e.g., agricultural field, park, room floor) into non-overlapping triangles, correctly compute each triangle's area using Heron's formula, and synthesize the results to answer questions about total area, material cost, or land valuation with appropriate units.",
+     "self_check": true
     }
    ]
   }

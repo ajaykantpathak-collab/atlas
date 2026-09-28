@@ -34,6 +34,26 @@
      "q": "Create a mini Balance Sheet (vertical format) for \"Zara Electronics Ltd.\" as at 31st March 2024 using ONLY these items with amounts: Share Capital ₹50L, Reserves ₹20L, 12% Debentures (2028) ₹30L, Trade Payables ₹15L, Short-term Provisions ₹5L, PPE ₹60L, Intangible Assets ₹10L, Inventory ₹25L, Trade Receivables ₹15L, Cash ₹10L. Include Note Nos., Current Year & Previous Year columns (assume PY = 80% of CY for all items). Show sub-totals and totals.",
      "a": "**ZARA ELECTRONICS LTD.**\n**Balance Sheet as at 31st March 2024**\n\n| Particulars | Note No. | 31.03.2024 (₹) | 31.03.2023 (₹) |\n|---|---|---|---|\n| **I. EQUITY AND LIABILITIES** | | | |\n| **1. Shareholders' Funds** | | | |\n| (a) Share Capital | 1 | 50,00,000 | 40,00,000 |\n| (b) Reserves & Surplus | 2 | 20,00,000 | 16,00,000 |\n| **2. Non-Current Liabilities** | | | |\n| (a) Long-term Borrowings (12% Debentures) | 3 | 30,00,000 | 24,00,000 |\n| **3. Current Liabilities** | | | |\n| (a) Trade Payables | 4 | 15,00,000 | 12,00,000 |\n| (b) Short-term Provisions | 5 | 5,00,000 | 4,00,000 |\n| **TOTAL** | | **1,20,00,000** | **96,00,000** |\n| **II. ASSETS** | | | |\n| **1. Non-Current Assets** | | | |\n| (a) Property, Plant & Equipment | 6 | 60,00,000 | 48,00,000 |\n| (b) Intangible Assets | 7 | 10,00,000 | 8,00,000 |\n| **2. Current Assets** | | | |\n| (a) Inventories | 8 | 25,00,000 | 20,00,000 |\n| (b) Trade Receivables | 9 | 15,00,000 | 12,00,000 |\n| (c) Cash & Cash Equivalents | 10 | 10,00,000 | 8,00,000 |\n| **TOTAL** | | **1,20,00,000** | **96,00,000** |\n\nA poor answer reveals: missing Note Nos., wrong order of heads, missing sub-totals, incorrect PY calculation (not 80%), or misclassification (e.g., Debentures as Current).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Balance Sheet of a Company as per Schedule III, Part I of the Companies Act 2013 is a standardized financial statement format that presents the financial position of a company at a specific date by classifying all assets and liabilities into current and non-current categories, with Shareholders' Funds shown separately from liabilities, ensuring uniformity, ______, and compliance with statutory disclosure requirements.",
+     "a": "comparability",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're an investor looking at Reliance Industries' annual report — you flip to the Balance Sheet and see a clean, ______ layout whether it's Reliance, TCS, or a small startup.",
+     "a": "standardized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Balance Sheet of a Company as per Schedule III, Part I of the Companies Act ______ is a standardized financial statement format that presents the financial position of a company at a specific date by classifying all assets and liabilities into current and non-current categories, with Shareholders' Funds shown separately from liabilities, ensuring uniformity, comparability, and compliance with statutory disclosure requirements.",
+     "a": "2013",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Correctly classify any given account/item into the six main heads of Schedule III (Shareholders' Funds, Non-Current Liabilities, Current Liabilities, Non-Current Assets, Current Assets) with proper sub-heads, and (2) Prepare a complete Balance Sheet in the prescribed vertical format with note numbers.",
+     "self_check": true
     }
    ]
   }

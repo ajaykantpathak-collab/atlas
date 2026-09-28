@@ -34,6 +34,31 @@
      "q": "Design a labeled diagram for a Class 9 student showing the global pressure belts, planetary wind systems, and the three-cell circulation model. Include arrows for wind direction at surface and aloft, latitude markers, and the Coriolis deflection direction in each hemisphere.",
      "a": "A good answer includes: (1) Latitude lines: 0°, 30°N/S, 60°N/S, 90°N/S. (2) Pressure belts: Equatorial Low (0°), Subtropical Highs (30°), Subpolar Lows (60°), Polar Highs (90°). (3) Three cells: Hadley (0-30), Ferrel (30-60), Polar (60-90) with rising/sinking arrows. (4) Surface winds: NE Trades (0-30N), SE Trades (0-30S), SW Westerlies (30-60N), NW Westerlies (30-60S), Polar Easterlies (60-90 both). (5) Aloft return flows opposite. (6) Coriolis: \"Deflect Right\" label in NH, \"Deflect Left\" in SH. A poor diagram (missing cells, wrong wind directions, no Coriolis labels) shows inability to synthesize the 3D model into a 2D representation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Global wind systems are large-scale, persistent wind patterns driven by ______ solar heating across latitudes, creating pressure belts that generate planetary winds (trade winds, westerlies, polar easterlies) which are deflected by the Coriolis effect due to Earth's rotation.",
+     "a": "differential",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Notice how a kite flown in your neighborhood always seems to drift in a similar direction day after day, but if you travel to Kerala versus ______, the prevailing wind direction changes completely.",
+     "a": "Delhi",
+     "self_check": true
+    },
+    {
+     "q": "What is Global wind systems? State the definition given in this lesson.",
+     "a": "Global wind systems are large-scale, persistent wind patterns driven by differential solar heating across latitudes, creating pressure belts that generate planetary winds (trade winds, westerlies, polar easterlies) which are deflected by the Coriolis effect due to Earth's rotation.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Global wind systems?",
+     "a": "Students think the \"Trade Winds\" blow from the equator toward the poles because \"trade\" implies movement of goods from tropics to temperate zones.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the step-by-step mechanism linking uneven solar heating to pressure belt formation, Coriolis deflection, and the resulting three-cell global circulation model, and can identify the latitudinal location and direction of each planetary wind belt on a world map.",
+     "self_check": true
     }
    ]
   }

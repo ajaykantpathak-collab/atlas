@@ -34,6 +34,31 @@
      "q": "Design a simple test using a battery, an LED bulb, and two open wires to prove whether a fresh lemon juice sample acts as an electrical conductor.",
      "a": "To design the test: 1. Connect the battery and LED in series, leaving two wire ends free. 2. Dip the two free wire ends into a small glass containing fresh lemon juice without letting the wires touch each other. 3. Observe if the LED bulb lights up. 4. If the LED glows, lemon juice contains ions and conducts electricity; if it does not, it is an insulator. A poor answer reveals an inability to apply circuit testing principles to liquid solutions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ conductors are materials that permit electric current to flow through them easily due to the presence of free electrons.",
+     "a": "Electrical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how a metal spoon dropped into a glass of water or a metal water tap feels cold and conducts ______ when touched with wet hands.",
+     "a": "electricity",
+     "self_check": true
+    },
+    {
+     "q": "What is Electrical conductors? State the definition given in this lesson.",
+     "a": "Electrical conductors are materials that permit electric current to flow through them easily due to the presence of free electrons.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Electrical conductors?",
+     "a": "Students often think that all solid objects conduct electricity equally well, or that shiny objects are always conductors regardless of what material they are made of (such as shiny plastic or painted wood).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify whether an unknown everyday material is an electrical conductor by testing it within a simple electric circuit and explaining the role of free electrons in current flow.",
+     "self_check": true
     }
    ]
   }

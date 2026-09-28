@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_14_001",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_14_001",
+   "title": "c11_leg_cbse_14_001",
+   "questions": [
+    {
+     "q": "What is the fundamental legal difference between adoption and guardianship under Indian law?",
+     "a": "Adoption permanently severs the child's legal ties with biological parents and creates new filial ties with adoptive parents, including full inheritance rights; guardianship is a temporary or revocable legal authority over a minor's person/property without severing biological ties. A wrong answer (e.g., \"both are the same\" or \"guardianship is permanent\") reveals confusion between the *nature* of the legal relationship (status vs. authority) and ignorance of the doctrine of \"relation back\" in adoption.",
+     "self_check": true
+    },
+    {
+     "q": "Why can a Christian couple in India not adopt a child under the Hindu Adoption and Maintenance Act, 1956, and what legal alternative do they have?",
+     "a": "The Hindu Adoption and Maintenance Act, 1956 applies only to Hindus (including Buddhists, Jains, Sikhs). A Christian couple must use the Guardians and Wards Act, 1890 to become legal guardians — this grants custody and care but not the irrevocable status of adoption or automatic inheritance rights. A wrong answer (e.g., \"they can adopt under HAMA if they convert\" or \"no law exists\") shows misunderstanding of the personal law system and the limited scope of codified adoption law.",
+     "self_check": true
+    },
+    {
+     "q": "A Hindu father appoints his brother as guardian of his minor daughter via a registered will. The mother is alive and objects. Who has the superior right to guardianship under the Hindu Minority and Guardianship Act, 1956, and why?",
+     "a": "The mother has the superior right. Under Section 6, the father is the natural guardian \"and after him, the mother\" — \"after\" means \"in the absence of.\" A testamentary guardian appointed by the father takes effect only if *both* parents are dead or disqualified. Since the mother is alive and not disqualified, her natural guardianship prevails over the testamentary appointment. A wrong answer (e.g., \"the will overrides the mother\") reveals ignorance of the statutory hierarchy of guardians and the meaning of \"after him.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare the position of a mother as natural guardian under Hindu law and Muslim law. What does this reveal about gender equity in personal laws?",
+     "a": "Under Hindu law (HMGA 1956, Sec 6), the mother is the natural guardian *after* the father (i.e., in his absence) and has equal right to custody of children below 5. Under Muslim law, the mother is *never* a natural guardian; she only has *hizanat* (custody of young children), while the father remains the sole legal guardian. This reveals a structural gender inequity: Hindu law was reformed to recognize the mother's role, but Muslim law retains the classical patriarchal framework where guardianship (wilayah) is exclusively male. A wrong answer (e.g., \"both are equal\") shows failure to distinguish *guardianship* (legal authority) from *custody* (physical care).",
+     "self_check": true
+    },
+    {
+     "q": "\"Adoption under the Hindu Adoption and Maintenance Act, 1956 is a sacramental act, not a secular contract.\" Evaluate this statement in light of the Act's provisions.",
+     "a": "The statement is **partially outdated**. Pre-1956, adoption was sacramental (for spiritual benefit/rites). The 1956 Act *secularized* adoption: it requires no religious ceremony (Sec 11), permits adoption by any Hindu meeting secular criteria (age, consent, etc.), and treats it as a legal status-creating act. However, the *effect* of adoption (e.g., right to perform funeral rites) retains sacramental significance. A wrong answer (e.g., \"it is still purely sacramental\") ignores the legislative shift to a welfare-based, secular framework.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph legal argument for a Muslim woman seeking to adopt a child, citing the constitutional provision that could support her claim and the statutory barrier she faces.",
+     "a": "A strong argument would cite Article 44 (Uniform Civil Code directive) and Article 15(3) (special provisions for women/children) to urge judicial recognition of adoption rights for Muslim women, arguing that the Guardians and Wards Act, 1890 provides only guardianship — not the irrevocable parent-child status, inheritance rights, or social recognition of adoption. It would highlight the discrimination vis-à-vis Hindu women under HAMA 1956. A weak answer (e.g., \"she can adopt under HAMA\") fails to identify the personal law barrier and the constitutional tension.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,21 @@
      "q": "Design a construction challenge for your classmate where they must use the SAS method to draw a triangular garden plot with sides 5 meters and 7 meters, and an included angle of $90^\\circ$, specifying what scale factor they should use on paper.",
      "a": "The student should specify a scale factor of $1\\text{ cm} = 1\\text{ metre}$ (drawing sides 5 cm and 7 cm) and instruct their classmate to construct a right-angled triangle where the $90^\\circ$ angle is placed between the 5 cm and 7 cm sides. A poor answer fails to provide a workable scale or misplaces the right angle relative to the given side lengths.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a triangle given two sides and the included angle (SAS) involves drawing a unique triangle using a ruler, compass, and protractor when the lengths of two sides and the measure of the angle formed between them are known.",
+     "a": "Constructing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a carpenter in your village tasked with building a ______ wooden frame for a decorative roof, and your client tells you two wooden beams must measure 6 cm and 8 cm, and the corner where they meet must form an exact angle of 60°.",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can construct an accurate triangle using a ruler, compass, and protractor given two side lengths and the included angle, and can verify the construction by measuring the remaining side and angles.",
+     "self_check": true
     }
    ]
   }

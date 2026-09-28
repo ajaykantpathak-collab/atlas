@@ -30,7 +30,16 @@
      "explain": "Coulombs per second give amperes.",
      "compute": "current = charge / time"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "current = charge / time",
+     "compute": "current = charge / time"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.111.11.2",
@@ -56,14 +65,23 @@
      "explain": "Ohm's law gives the potential difference.",
      "compute": "potential = current * resistance"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "potential = current * resistance",
+     "compute": "potential = current * resistance"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.111.11.3",
    "title": "Series and Parallel Circuits",
    "section": "11.5",
    "definition": "Resistors in series add directly and carry the same current, sharing the voltage; resistors in parallel share the same voltage and their reciprocals add, so the equivalent resistance drops below the smallest - two ways to wire a circuit with opposite effects.",
-   "formula": "series_res = r1 + r2",
+   "formula": "series_res = r_1 + r_2",
    "key_idea": "Series adds resistance, parallel adds conductance: wiring decides the total.",
    "textbook_ref": "jemh111 sections on resistors in series and parallel",
    "question_patterns": [
@@ -82,7 +100,16 @@
      "explain": "Series resistors simply add.",
      "compute": "series_res = r1 + r2"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "series_res = r_1 + r_2",
+     "compute": "series_res = r_1 + r_2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.111.11.4",
@@ -108,7 +135,16 @@
      "explain": "Power equals V times I in watts.",
      "compute": "power = potential * current"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "power = potential * current",
+     "compute": "power = potential * current"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

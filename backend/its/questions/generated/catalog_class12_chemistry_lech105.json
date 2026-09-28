@@ -1,0 +1,99 @@
+{
+ "catalog": "catalog_class12_chemistry_lech105.json",
+ "concepts": [
+  {
+   "id": "lech.05.5.2.3",
+   "title": "Oxidation Number of the Central Metal",
+   "converted_to_compute": true,
+   "formula": "ox_state = complex_charge - total_ligand_charge",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ox_state = complex_charge - total_ligand_charge",
+     "compute": "ox_state = complex_charge - total_ligand_charge"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Oxidation Number of the Central Metal: given complex_charge = 27, total_ligand_charge = 14, find ox state.",
+     "a": "13",
+     "self_check": false
+    },
+    {
+     "q": "For Oxidation Number of the Central Metal: given complex_charge = 17.3, total_ligand_charge = 21, find ox state.",
+     "a": "-3.7",
+     "self_check": false
+    },
+    {
+     "q": "For Oxidation Number of the Central Metal: given complex_charge = 30, total_ligand_charge = 12.6, find ox state.",
+     "a": "17.4",
+     "self_check": false
+    },
+    {
+     "q": "For Oxidation Number of the Central Metal: given complex_charge = 26, total_ligand_charge = 5.7, find ox state.",
+     "a": "20.3",
+     "self_check": false
+    },
+    {
+     "q": "For Oxidation Number of the Central Metal: given complex_charge = 27, total_ligand_charge = 1.7, find ox state.",
+     "a": "25.3",
+     "self_check": false
+    },
+    {
+     "q": "For Oxidation Number of the Central Metal: given complex_charge = 17.9, total_ligand_charge = 7.2, find ox state.",
+     "a": "10.7",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.05.5.2.4",
+   "title": "Coordination Number from Ligand Counts and Denticity",
+   "converted_to_compute": true,
+   "formula": "cn_total = n_lig_a * dent_a + n_lig_b * dent_b",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "cn_total = n_lig_a * dent_a + n_lig_b * dent_b",
+     "compute": "cn_total = n_lig_a * dent_a + n_lig_b * dent_b"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Coordination Number from Ligand Counts and Denticity: given n_lig_a = 19.9, dent_a = 35, n_lig_b = 16.4, dent_b = 35, find cn total.",
+     "a": "1270.5",
+     "self_check": false
+    },
+    {
+     "q": "For Coordination Number from Ligand Counts and Denticity: given n_lig_a = 17, dent_a = 97, n_lig_b = 9.4, dent_b = 105, find cn total.",
+     "a": "2636",
+     "self_check": false
+    },
+    {
+     "q": "For Coordination Number from Ligand Counts and Denticity: given n_lig_a = 14.3, dent_a = 118, n_lig_b = 17.2, dent_b = 62, find cn total.",
+     "a": "2753.8",
+     "self_check": false
+    },
+    {
+     "q": "For Coordination Number from Ligand Counts and Denticity: given n_lig_a = 13.8, dent_a = 75, n_lig_b = 9.6, dent_b = 21, find cn total.",
+     "a": "1236.6",
+     "self_check": false
+    },
+    {
+     "q": "For Coordination Number from Ligand Counts and Denticity: given n_lig_a = 11.1, dent_a = 74, n_lig_b = 6.4, dent_b = 1.8, find cn total.",
+     "a": "832.92",
+     "self_check": false
+    },
+    {
+     "q": "For Coordination Number from Ligand Counts and Denticity: given n_lig_a = 18, dent_a = 26, n_lig_b = 14.7, dent_b = 43, find cn total.",
+     "a": "1100.1",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

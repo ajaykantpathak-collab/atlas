@@ -34,6 +34,36 @@
      "q": "Design a concept map that links the four branches to (i) the biological system used, (ii) the key enabling technology, and (iii) one flagship product. Draw or describe the nodes and connections.",
      "a": "Central node: \"Branches of Biotechnology\". Four primary branches: Blue → (i) Marine microbes/algae/invertebrates → (ii) Metagenomics, marine bioprospecting → (iii) Anticancer agent (e.g., cytarabine from sponge). Green → (i) Transgenic plants/plant cell culture → (ii) Agrobacterium-mediated transformation, CRISPR → (iii) Bt cotton / Golden Rice. Red → (i) Mammalian cells / engineered microbes → (ii) rDNA tech, gene therapy vectors → (iii) Recombinant insulin / CAR-T cells. White → (i) Industrial microbes / extremozymes → (ii) Protein engineering, metabolic engineering → (iii) Microbial proteases / bioethanol / PHA bioplastic. A poor map uses vague terms like \"cells\" for all branches or lists the same technology (e.g., fermentation) for all, missing branch-specific distinctions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Biotechnology is categorized into four major branches based on the application domain: Blue Biotechnology applies biological processes to marine and freshwater organisms for seafood enhancement, aquatic disease control, and novel drug discovery; Green Biotechnology focuses on agricultural and environmental applications through transgenic plants for improved yield, stress resistance, and eco-friendly products; Red Biotechnology encompasses medical applications including recombinant ______ (insulin, vaccines, antibodies), gene therapy, and diagnostic tools; White Biotechnology (industrial biotechnology) utilizes enzymes and microorganisms as sustainable catalysts for chemical, material, and energy production.",
+     "a": "pharmaceuticals",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you walk into a supermarket and see four products: a packet of Bt cotton seeds, a vial of recombinant insulin, a bottle of detergent with \"enzymes for stain removal,\" and a supplement labelled \"marine collagen from algae.\" Which branch of ______ produced each?",
+     "a": "biotechnology",
+     "self_check": true
+    },
+    {
+     "q": "What is Biotechnology? State the definition given in this lesson.",
+     "a": "Biotechnology is categorized into four major branches based on the application domain: Blue Biotechnology applies biological processes to marine and freshwater organisms for seafood enhancement, aquatic disease control, and novel drug discovery; Green Biotechnology focuses on agricultural and environmental applications through transgenic.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by recalling the definition of biotechnology from Node ______—using living systems to make useful products.",
+     "a": "001",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Biotechnology?",
+     "a": "Students often believe the colour code indicates the *technique* used (e.g., \"Red uses rDNA, White uses fermentation\").",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly classify a given biotechnological application (e.g., Bt cotton, recombinant insulin, algal biofuel, enzyme detergent) into the appropriate branch (Green, Red, Blue, White) and justify the classification by linking the biological system used to the product and purpose.",
+     "self_check": true
     }
    ]
   }

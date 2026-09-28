@@ -34,6 +34,36 @@
      "q": "Create a scenario where a company undertakes the following transactions in a year: (i) Issue of bonus shares, (ii) Conversion of debentures into equity shares, (iii) Purchase of a building by issuing shares to the vendor. Explain how each is treated in the cash flow statement and why.",
      "a": "All three are non-cash transactions and are NOT included in the cash flow statement. They must be disclosed separately in the notes to accounts (e.g., \"Non-cash investing and financing activities\"). Bonus shares and conversion of debentures do not involve cash; purchase of building by issuing shares is an investing and financing activity but with no cash flow. A poor answer would include them in financing activities with zero amounts or misclassify them as cash inflows/outflows.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cash flows from financing activities are the cash inflows and outflows that result in changes to the size and ______ of an enterprise's owners' capital (including preference share capital) and borrowings, such as proceeds from issuing shares or debentures, repayment of borrowings, payment of interest, and payment of dividends.",
+     "a": "composition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a company, \"______ Ltd.\", wants to expand its factory.",
+     "a": "TechNova",
+     "self_check": true
+    },
+    {
+     "q": "What is Cash flows from financing activities? State the definition given in this lesson.",
+     "a": "Cash flows from financing activities are the cash inflows and outflows that result in changes to the size and composition of an enterprise's owners' capital (including preference share capital) and borrowings, such as proceeds from issuing shares or debentures, repayment of borrowings, payment of interest, and payment of dividends.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then we apply AS-______ rules: for a non-financial enterprise like TechNova, interest paid and dividends paid are financing outflows, while interest received would be investing.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Cash flows from financing activities?",
+     "a": "Students often treat \"proposed dividend\" as a cash outflow in the year it is proposed.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to correctly classify a given transaction as a financing cash inflow, financing cash outflow, or non-financing activity, and calculate the net cash flow from financing activities using the indirect method by analysing changes in share capital, borrowings, and related interest/dividend payments.",
+     "self_check": true
     }
    ]
   }

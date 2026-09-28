@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a charged rod, a light neutral object (e.g., a small piece of aluminium foil), and a stand to demonstrate that a neutral object experiences a net force in a non-uniform electric field due to induced dipole moment. Describe the steps and the expected observation.",
      "a": "Steps: (1) Charge a plastic rod by rubbing with wool. (2) Suspend a small aluminium foil piece (∼1 cm²) from a stand by a thin thread. (3) Bring the charged rod near the foil without touching. Observation: The foil is attracted to the rod, swings toward it, and may stick momentarily. Reason: The rod’s non-uniform field induces a dipole in the foil (polarisation); the field is stronger at the near end, so the attractive force on the induced negative charge exceeds the repulsive force on the induced positive charge, producing a net attraction. A poor answer that says “the foil gets charged by induction and then attracts” confuses induction (charge separation) with charging by contact.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An electric dipole consists of two equal and opposite point charges (+q and –q) ______ by a small distance 2a.",
+     "a": "separated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world ______: a comb run through dry hair attracts tiny paper bits.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An electric dipole consists of two equal and opposite point charges (+q and –q) separated by a small distance ______a.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) calculate the dipole moment vector from given charge magnitude and separation vector, (2) compute the electric field at axial and equatorial points using the 1/r³ formulas, (3) determine the torque on a dipole in a uniform electric field for any orientation, and (4) explain why the net force is zero in a uniform field.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_12_001",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_12_001",
+   "title": "c11_app_cbse_12_001",
+   "questions": [
+    {
+     "q": "What is the inclination of a line parallel to the x-axis, and what is its slope? State the definition of inclination.",
+     "a": "The inclination of a line parallel to the x-axis is 0° (since it makes a 0° angle with the positive x-axis measured anticlockwise), and its slope is tan 0° = 0. Inclination is defined as the angle θ (0° ≤ θ < 180°) which the line makes with the positive direction of the x-axis, measured anticlockwise. A wrong answer (e.g., inclination = 90° or slope = undefined) reveals the student confuses horizontal lines with vertical lines or does not remember the convention that inclination is measured from the positive x-axis anticlockwise.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The line x = 5 has slope 0 because it's straight and flat.\" Explain why this is incorrect using the definition of slope and inclination.",
+     "a": "The line x = 5 is vertical (parallel to the y-axis). Its inclination is 90°, and since tan 90° is undefined, the slope is not defined — not 0. The student incorrectly assumes \"straight and flat\" implies horizontal; they confuse the visual appearance of a vertical line on paper with the mathematical definition of slope as tan θ. A wrong explanation reveals the student does not distinguish between \"horizontal\" (slope 0) and \"vertical\" (undefined slope) or does not know that tan 90° is undefined.",
+     "self_check": true
+    },
+    {
+     "q": "Find the equation of the line passing through (2, -3) with slope 4. Write it in slope-intercept form and state the y-intercept.",
+     "a": "Using point-slope form: y - (-3) = 4(x - 2) → y + 3 = 4x - 8 → y = 4x - 11. The slope-intercept form is y = 4x - 11, so the y-intercept is -11. A wrong answer (e.g., y = 4x + 3 or y = 4x - 5) reveals the student either misapplies the point-slope formula (sign errors with negative coordinates) or does not correctly isolate y to identify the y-intercept.",
+     "self_check": true
+    },
+    {
+     "q": "Two lines have equations 3x - 4y + 7 = 0 and 6x - 8y + 15 = 0. Without graphing, determine if they are parallel, coincident, or intersecting. Justify using slopes.",
+     "a": "Rewrite both in slope-intercept form: Line 1: 4y = 3x + 7 → y = (3/4)x + 7/4, slope m₁ = 3/4. Line 2: 8y = 6x + 15 → y = (6/8)x + 15/8 = (3/4)x + 15/8, slope m₂ = 3/4. Since m₁ = m₂ but y-intercepts differ (7/4 ≠ 15/8), the lines are parallel and distinct. A wrong conclusion (e.g., \"intersecting\" or \"coincident\") reveals the student either does not convert to slope-intercept form correctly, or does not know that equal slopes with different intercepts imply parallel lines (not coincident).",
+     "self_check": true
+    },
+    {
+     "q": "A line passes through (1, 2) and has x-intercept 3. Evaluate whether the point (5, -2) lies on this line. Show all reasoning.",
+     "a": "x-intercept = 3 means the line passes through (3, 0). Slope m = (0 - 2)/(3 - 1) = -2/2 = -1. Equation using point-slope: y - 2 = -1(x - 1) → y = -x + 3. Check (5, -2): LHS = -2, RHS = -5 + 3 = -2. Since LHS = RHS, the point lies on the line. A wrong evaluation (e.g., claiming it does not lie on the line) reveals the student either miscalculates the slope from two points, makes a sign error in the equation, or does not know how to verify a point on a line by substitution.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where the normal form of a line (x cos α + y sin α = p) is the most natural way to express the equation. Define all parameters in your scenario.",
+     "a": "Scenario: A traffic police officer stands at the origin (intersection) and directs traffic using a ray making angle α = 30° with the positive x-axis. A barrier is placed perpendicular to this ray at a distance p = 50 meters from the officer. The equation of the barrier line is x cos 30° + y sin 30° = 50. Here, p is the perpendicular distance from origin to line, α is the angle the perpendicular makes with +x axis. A poor answer (e.g., using slope-intercept form for this scenario) reveals the student does not recognize that normal form is uniquely suited when the perpendicular distance from origin and its direction are the given data.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

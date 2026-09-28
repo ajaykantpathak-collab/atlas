@@ -34,6 +34,26 @@
      "q": "Create a 4-digit number that rounds to 5,000 when rounded to the nearest 1,000, but rounds to 4,800 when rounded to the nearest 100. Explain how you constructed it.",
      "a": "A valid number is 4,785. Construction explanation: To round to 4,800 to the nearest 100, the thousands must be 4 and the hundreds must be 8 (or 7 with a tens digit of 5 or more). Let's check 4,785: rounded to the nearest 100, the tens digit is 8 (>=5), so it rounds up to 4,800. Rounded to the nearest 1,000, the hundreds digit is 7 (>=5), so it rounds up to 5,000. A poor answer fails to satisfy both rounding constraints simultaneously, often missing how tens and hundreds interact across different place value thresholds.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Rounding a number to the nearest 10, 100, or 1000 means replacing it with an ______, cleaner multiple of 10, 100, or 1000 that is closest in value to the original number, using standard place-value rules.",
+     "a": "approximate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a ______ sports day in Delhi, and the announcer says approximately 4,376 people are attending.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can successfully round any multi-digit whole number up to 8 digits to the nearest 10, 100, and 1000, and justify why numbers ending in 5 round upward in standard rounding conventions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a school sports day in Delhi, and the announcer says ______ 4,376 people are attending.",
+     "a": "approximately",
+     "self_check": true
     }
    ]
   }

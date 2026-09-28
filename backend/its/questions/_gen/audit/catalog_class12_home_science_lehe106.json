@@ -1,0 +1,125 @@
+{
+ "catalog": "catalog_class12_home_science_lehe106.json",
+ "concepts": [
+  {
+   "id": "lehe106.11",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "end_age = 76",
+      "start_age = 3.6",
+      "stage_span = end_age - start_age"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "end_age = 1.7",
+      "start_age = 64",
+      "stage_span = end_age - start_age"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "end_age = 0.5",
+      "start_age = 86",
+      "stage_span = end_age - start_age"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "end_age = 11.4",
+      "start_age = 9.1",
+      "stage_span = end_age - start_age"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "end_age = 75",
+      "start_age = 83",
+      "stage_span = end_age - start_age"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "end_age = 45",
+      "start_age = 59",
+      "stage_span = end_age - start_age"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "stage_span = end_age - start_age"
+   ]
+  },
+  {
+   "id": "lehe106.12",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "infancy_years = 98",
+      "childhood_end = 85",
+      "childhood_start = 33",
+      "infancy_pct = infancy_years / (childhood_end - childhood_start) * 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "infancy_years = 15.6",
+      "childhood_end = 63",
+      "childhood_start = 17.6",
+      "infancy_pct = infancy_years / (childhood_end - childhood_start) * 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "infancy_years = 86",
+      "childhood_end = 36",
+      "childhood_start = 72",
+      "infancy_pct = infancy_years / (childhood_end - childhood_start) * 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "infancy_years = 2.3",
+      "childhood_end = 34",
+      "childhood_start = 75",
+      "infancy_pct = infancy_years / (childhood_end - childhood_start) * 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "infancy_years = 67",
+      "childhood_end = 66",
+      "childhood_start = 11.5",
+      "infancy_pct = infancy_years / (childhood_end - childhood_start) * 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "infancy_years = 36",
+      "childhood_end = 79",
+      "childhood_start = 41",
+      "infancy_pct = infancy_years / (childhood_end - childhood_start) * 100"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "infancy_pct = infancy_years / (childhood_end - childhood_start) * 100"
+   ]
+  }
+ ]
+}

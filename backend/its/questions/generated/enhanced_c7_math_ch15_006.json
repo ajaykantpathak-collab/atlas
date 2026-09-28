@@ -27,12 +27,27 @@
     },
     {
      "q": "Evaluate Priya's solution for $5 - x = 12$: \nStep 1: $-x = 12 - 5$\nStep 2: $-x = 7$\nStep 3: $x = 7$. \nIs Priya's final answer correct? If not, identify the exact line where the error occurred.",
-     "a": "[Answer needed]",
+     "a": "No — Priya's answer is wrong, and the error occurs in moving from Step 2 to Step 3. From $-x = 7$, multiplying both sides by $-1$ gives $x = -7$, not $7$; dropping the minus sign while shifting $x$ across the equals sign is the mistake.",
      "self_check": true
     },
     {
      "q": "Priya's final answer is incorrect; the error occurred in moving from Step 2 to Step 3. Having $-x = 7$ means $(-1) \\times x = 7$, so $x$ must be $-7$, not $7$. A wrong answer shows the student forgot that isolating $-x$ is not the same as isolating $+x$.",
-     "a": "[Answer needed]",
+     "a": "Correct — $-x = 7$ means $(-1) \\times x = 7$, so $x = -7$; writing $x = 7$ shows the student treated isolating $-x$ as if it were isolating $+x$.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This node focuses on identifying, analyzing, and correcting the most common algebraic errors students make when solving linear equations, such as sign-flipping mistakes during ______ and distribution errors.",
+     "a": "transposition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In algebra, a single missed negative sign or incorrect ______ can derail the entire solution, just like a misplaced decimal point when calculating money at a shop.",
+     "a": "distribution",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify an error in a given algebraic solution, explain why the step is mathematically invalid, and write out the correct step-by-step resolution leading to the accurate solution.",
      "self_check": true
     }
    ]

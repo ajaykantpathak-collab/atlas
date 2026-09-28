@@ -22,15 +22,33 @@
     "what makes a change proportional - define it",
     "does adding the same amount to both sides of a rectangle keep its shape - justify"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "find the change factor of the width",
-     "explain": "Divide the new width by the old width."},
-    {"step": 2, "action": "find the change factor of the height",
-     "explain": "Divide the new height by the old height."},
-    {"step": 3, "action": "compare the two factors",
-     "explain": "Equal factors mean a proportional change and a similar shape; unequal factors mean distortion."}
-   ]
+    {
+     "step": 1,
+     "action": "find the change factor of the width",
+     "explain": "Divide the new width by the old width."
+    },
+    {
+     "step": 2,
+     "action": "find the change factor of the height",
+     "explain": "Divide the new height by the old height."
+    },
+    {
+     "step": 3,
+     "action": "compare the two factors",
+     "explain": "Equal factors mean a proportional change and a similar shape; unequal factors mean distortion."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 25 / 5 gives 5",
+     "compute": "t1 = 25 / 5"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hegp.107.7.2",
@@ -48,15 +66,33 @@
     "how does multiplying both terms of a ratio by the same factor affect it",
     "check whether a : b and c : d are in proportion"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "write both ratios",
-     "explain": "Put each comparison in the form first term : second term."},
-    {"step": 2, "action": "test the scaling factor",
-     "explain": "Check whether multiplying both terms of the first ratio by one fixed number yields the second ratio."},
-    {"step": 3, "action": "declare proportion",
-     "explain": "A single common factor lets you write the two ratios with the proportion symbol."}
-   ]
+    {
+     "step": 1,
+     "action": "write both ratios",
+     "explain": "Put each comparison in the form first term : second term."
+    },
+    {
+     "step": 2,
+     "action": "test the scaling factor",
+     "explain": "Check whether multiplying both terms of the first ratio by one fixed number yields the second ratio."
+    },
+    {
+     "step": 3,
+     "action": "declare proportion",
+     "explain": "A single common factor lets you write the two ratios with the proportion symbol."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 4 / 2 gives 2",
+     "compute": "t1 = 4 / 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hegp.107.7.3",
@@ -76,12 +112,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "reduce the first term",
+    {
+     "step": 1,
+     "action": "reduce the first term",
      "explain": "Divide the first term by the HCF of the two terms.",
-     "compute": "red_a = term_a / hcf"},
-    {"step": 2, "action": "reduce the second term",
+     "compute": "red_a = term_a / hcf"
+    },
+    {
+     "step": 2,
+     "action": "reduce the second term",
      "explain": "Divide the second term by the same HCF to keep the ratio fair.",
-     "compute": "red_b = term_b / hcf"}
+     "compute": "red_b = term_b / hcf"
+    }
    ]
   },
   {
@@ -102,12 +144,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "apply the known term of the second ratio",
+    {
+     "step": 1,
+     "action": "apply the known term of the second ratio",
      "explain": "The unknown grows from c the way b grows from a.",
-     "compute": "scaled = c * b"},
-    {"step": 2, "action": "divide by the first term of the known ratio",
+     "compute": "scaled = c * b"
+    },
+    {
+     "step": 2,
+     "action": "divide by the first term of the known ratio",
      "explain": "Dividing by a completes the unitary scaling.",
-     "compute": "x = scaled / a"}
+     "compute": "x = scaled / a"
+    }
    ]
   },
   {
@@ -128,12 +176,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "find the size of one equal group",
+    {
+     "step": 1,
+     "action": "find the size of one equal group",
      "explain": "Divide the total by the sum of the ratio terms.",
-     "compute": "group = total / (part_a + part_b)"},
-    {"step": 2, "action": "multiply out each share",
+     "compute": "group = total / (part_a + part_b)"
+    },
+    {
+     "step": 2,
+     "action": "multiply out each share",
      "explain": "Each person receives their term count times the group size.",
-     "compute": "share_a = group * part_a"}
+     "compute": "share_a = group * part_a"
+    }
    ]
   },
   {
@@ -154,12 +208,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "scale Celsius by nine-fifths",
+    {
+     "step": 1,
+     "action": "scale Celsius by nine-fifths",
      "explain": "Multiply the Celsius reading by 9 and divide by 5.",
-     "compute": "scaled = 9 / 5 * celsius"},
-    {"step": 2, "action": "add the freezing offset",
+     "compute": "scaled = 9 / 5 * celsius"
+    },
+    {
+     "step": 2,
+     "action": "add the freezing offset",
      "explain": "Adding 32 gives the Fahrenheit temperature.",
-     "compute": "fahrenheit = scaled + 32"}
+     "compute": "fahrenheit = scaled + 32"
+    }
    ]
   }
  ],
@@ -176,12 +236,18 @@
     "hcf": "highest common factor of the terms"
    },
    "solution_template": [
-    {"step": 1, "action": "divide the first term by the HCF",
+    {
+     "step": 1,
+     "action": "divide the first term by the HCF",
      "explain": "Reduction keeps the comparison unchanged.",
-     "compute": "red_a = term_a / hcf"},
-    {"step": 2, "action": "divide the second term by the HCF",
+     "compute": "red_a = term_a / hcf"
+    },
+    {
+     "step": 2,
+     "action": "divide the second term by the HCF",
      "explain": "The same divisor must act on both terms.",
-     "compute": "red_b = term_b / hcf"}
+     "compute": "red_b = term_b / hcf"
+    }
    ]
   },
   {
@@ -196,12 +262,18 @@
     "hcf": "HCF of the two terms"
    },
    "solution_template": [
-    {"step": 1, "action": "reduce the first term",
+    {
+     "step": 1,
+     "action": "reduce the first term",
      "explain": "Divide term_a by the HCF.",
-     "compute": "red_a = term_a / hcf"},
-    {"step": 2, "action": "reduce the second term",
+     "compute": "red_a = term_a / hcf"
+    },
+    {
+     "step": 2,
+     "action": "reduce the second term",
      "explain": "Divide term_b by the HCF and compare with 3 : 4.",
-     "compute": "red_b = term_b / hcf"}
+     "compute": "red_b = term_b / hcf"
+    }
    ]
   },
   {
@@ -216,12 +288,18 @@
     "people_new": "people on the new trip"
    },
    "solution_template": [
-    {"step": 1, "action": "scale by the new head count",
+    {
+     "step": 1,
+     "action": "scale by the new head count",
      "explain": "Buses grow in proportion to people.",
-     "compute": "scaled = people_new * buses_known"},
-    {"step": 2, "action": "divide by the known head count",
+     "compute": "scaled = people_new * buses_known"
+    },
+    {
+     "step": 2,
+     "action": "divide by the known head count",
      "explain": "The result is the number of buses needed.",
-     "compute": "buses_needed = scaled / people_known"}
+     "compute": "buses_needed = scaled / people_known"
+    }
    ]
   },
   {
@@ -236,12 +314,18 @@
     "c": "known first term of the second ratio"
    },
    "solution_template": [
-    {"step": 1, "action": "scale the second term",
+    {
+     "step": 1,
+     "action": "scale the second term",
      "explain": "x comes from multiplying c by the ratio b over a.",
-     "compute": "scaled = c * b"},
-    {"step": 2, "action": "complete the division",
+     "compute": "scaled = c * b"
+    },
+    {
+     "step": 2,
+     "action": "complete the division",
      "explain": "Divide by a to finish the unitary step.",
-     "compute": "x = scaled / a"}
+     "compute": "x = scaled / a"
+    }
    ]
   },
   {
@@ -256,12 +340,18 @@
     "part_b": "second ratio term"
    },
    "solution_template": [
-    {"step": 1, "action": "find one group size",
+    {
+     "step": 1,
+     "action": "find one group size",
      "explain": "Divide the total by the sum of the ratio terms.",
-     "compute": "group = total / (part_a + part_b)"},
-    {"step": 2, "action": "multiply out the first share",
+     "compute": "group = total / (part_a + part_b)"
+    },
+    {
+     "step": 2,
+     "action": "multiply out the first share",
      "explain": "The first person takes part_a groups.",
-     "compute": "share_a = group * part_a"}
+     "compute": "share_a = group * part_a"
+    }
    ]
   },
   {
@@ -276,12 +366,18 @@
     "part_b": "second ratio term"
    },
    "solution_template": [
-    {"step": 1, "action": "find one group size",
+    {
+     "step": 1,
+     "action": "find one group size",
      "explain": "Total divided by the term-sum gives the group size.",
-     "compute": "group = total / (part_a + part_b)"},
-    {"step": 2, "action": "multiply out the second share",
+     "compute": "group = total / (part_a + part_b)"
+    },
+    {
+     "step": 2,
+     "action": "multiply out the second share",
      "explain": "The second person takes part_b groups.",
-     "compute": "share_b = group * part_b"}
+     "compute": "share_b = group * part_b"
+    }
    ]
   },
   {
@@ -294,12 +390,18 @@
     "celsius": "temperature in degrees Celsius"
    },
    "solution_template": [
-    {"step": 1, "action": "scale by nine-fifths",
+    {
+     "step": 1,
+     "action": "scale by nine-fifths",
      "explain": "Multiply by 9 and divide by 5.",
-     "compute": "scaled = 9 / 5 * celsius"},
-    {"step": 2, "action": "add 32",
+     "compute": "scaled = 9 / 5 * celsius"
+    },
+    {
+     "step": 2,
+     "action": "add 32",
      "explain": "The offset converts the scale to Fahrenheit.",
-     "compute": "fahrenheit = scaled + 32"}
+     "compute": "fahrenheit = scaled + 32"
+    }
    ]
   },
   {
@@ -312,12 +414,18 @@
     "fahrenheit": "temperature in degrees Fahrenheit"
    },
    "solution_template": [
-    {"step": 1, "action": "remove the freezing offset",
+    {
+     "step": 1,
+     "action": "remove the freezing offset",
      "explain": "Subtract 32 from the Fahrenheit value.",
-     "compute": "shifted = fahrenheit - 32"},
-    {"step": 2, "action": "scale by five-ninths",
+     "compute": "shifted = fahrenheit - 32"
+    },
+    {
+     "step": 2,
+     "action": "scale by five-ninths",
      "explain": "Multiply by 5 and divide by 9 for Celsius.",
-     "compute": "celsius = 5 / 9 * shifted"}
+     "compute": "celsius = 5 / 9 * shifted"
+    }
    ]
   }
  ],

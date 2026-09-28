@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a syringe, a small balloon, and a ruler to demonstrate how air pressure changes with volume (simulating altitude). Describe the procedure, what you would measure, and how it relates to vertical pressure distribution in the atmosphere.",
      "a": "Procedure: Trap air in a sealed syringe, note initial volume (V₁) at room pressure. Pull the plunger to increase volume to V₂, measure the new volume. The trapped air expands, pressure drops (Boyle's Law: P₁V₁ = P₂V₂). Relate: As altitude increases, the \"volume\" available to an air parcel increases because overlying weight decreases, so pressure drops. A poor answer that only describes the syringe without linking volume change to altitude-induced pressure drop shows failure to transfer the lab model to the atmospheric scale.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Air pressure is the force exerted by the weight of the air column above a unit area of the Earth's surface, measured in millibars (mb) or ______ (hPa).",
+     "a": "hectopascals",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ on a beach in Chennai at noon feeling the warm air rise, while a weather balloon released from the same spot records pressure dropping rapidly as it climbs.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What is Air pressure? State the definition given in this lesson.",
+     "a": "Air pressure is the force exerted by the weight of the air column above a unit area of the Earth's surface, measured in millibars (mb) or hectopascals (hPa).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Air pressure?",
+     "a": "Students often believe that the subtropical high-pressure belts are caused solely by \"cold air sinking\" because the poles are cold.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why pressure belts form at specific latitudes using temperature and rotation arguments, and can calculate approximate pressure at a given altitude using the standard lapse rate, demonstrating both conceptual and quantitative mastery.",
+     "self_check": true
     }
    ]
   }

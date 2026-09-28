@@ -34,6 +34,36 @@
      "q": "A student claims: \"Fractals are just complicated geometric shapes.\" Evaluate this statement and explain what makes fractals mathematically distinct from ordinary shapes.",
      "a": "The statement is incorrect. Fractals are not just \"complicated shapes\" — they are mathematically distinct because of self-similarity: a small part of a fractal contains a copy of the whole. Ordinary shapes (squares, circles) do not have this property — a small piece of a circle is an arc, not a smaller circle. Fractals are defined by a recursive construction rule that produces self-similarity at every scale, and their element counts follow geometric sequences. Additionally, fractals often have non-integer (fractional) dimension, which ordinary shapes do not. The defining features are: (1) recursive construction, (2) self-similarity, (3) geometric sequence of elements. A wrong evaluation (agreeing with the statement) misses the mathematical properties that distinguish fractals from ordinary shapes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Fractals as recursive geometric sequences are self-similar shapes where each stage of ______ follows a recursive rule applied to the previous stage — e.g., the Sierpinski triangle (each stage replaces every triangle with three smaller triangles), the Koch snowflake (each stage adds a bump to every line segment), and the Cantor set (each stage removes the middle third of every segment) — producing patterns where the whole contains copies of itself at every scale, and the number of elements at each stage follows a geometric sequence.",
+     "a": "construction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now apply the ______ rule: connect the midpoints of each side, forming 4 smaller triangles, and remove the middle one.",
+     "a": "recursive",
+     "self_check": true
+    },
+    {
+     "q": "What is Fractals as recursive geometric sequences? State the definition given in this lesson.",
+     "a": "Fractals as recursive geometric sequences are self-similar shapes where each stage of construction follows a recursive rule applied to the previous stage — e.g., the Sierpinski triangle (each stage replaces every triangle with three smaller triangles), the Koch snowflake (each stage adds a bump to every line segment), and the Cantor set.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now apply the recursive rule: connect the midpoints of each side, forming ______ smaller triangles, and remove the middle one.",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Fractals as recursive geometric sequences?",
+     "a": "Students think fractals are just \"complex or irregular shapes.\" The exact error: they focus on appearance (complicated, jagged) rather than the defining mathematical property (self-similarity through recursive construction).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can describe the recursive construction rule for at least two fractals (Sierpinski, Koch), calculate the number of elements at each stage as a geometric sequence, explain the concept of self-similarity, and identify fractal patterns in nature.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a three-layer seismic zonation map for the Indian subcontinent (scale 1:10 million) that integrates: (i) historical seismicity (IMD catalog), (ii) active fault maps (GSI), and (iii) plate boundary proximity. Specify the classification criteria for Zone V (highest risk) to Zone II (lowest risk) and justify the placement of the Indo-Gangetic Plain.",
      "a": "Expected answer: Zone V — Himalayan frontal thrusts (MFT, MBT), Andaman-Nicobar subduction zone, Kutch rift (1819, 2001 events) — criteria: Mmax ≥ 8.0, recurrence < 200 yr, active faults + plate boundary. Zone IV — Indo-Gangetic Plain (proximity to Himalayan thrusts, thick alluvium amplifies shaking), Koyna-Warna reservoir-induced zone — criteria: Mmax 7.0–7.9, site amplification. Zone III — Peninsular shield margins (Narmada-Son lineament), Zone II — stable cratonic interior (Bundelkhand, Dharwar). Justification for Indo-Gangetic Plain in Zone IV: though far from plate boundary, it sits on >1 km of soft alluvium that amplifies seismic waves (site effect) and is within 200 km of Himalayan detachment — a wrong answer placing it in Zone II ignores site amplification and basin effects, a fatal oversight in seismic microzonation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The distribution of earthquakes and volcanoes refers to the non-random, zonal ______ of seismic epicenters and volcanic vents along lithospheric plate boundaries and, to a lesser extent, within plates at hotspots, forming distinct global belts such as the Circum-Pacific Belt (Ring of Fire), the Mid-Oceanic Ridge system, and the Alpine-Himalayan Belt, where tectonic stresses release accumulated strain energy.",
+     "a": "concentration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Open any recent newspaper and you will find reports of an ______ in Turkey, a volcanic eruption in Iceland, or tremors in the Himalayan foothills — these are not isolated events but expressions of the same planetary engine.",
+     "a": "earthquake",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can plot major earthquake and volcano distributions on a world map, identify the corresponding plate boundary type (divergent, convergent, transform) for each belt, explain why shallow-focus earthquakes dominate ridges while deep-focus earthquakes occur at subduction zones, and distinguish intraplate hotspot volcanism from.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Open any recent newspaper and you will find reports of an earthquake in Turkey, a volcanic eruption in Iceland, or tremors in the Himalayan foothills — these are not isolated events but ______ of the same planetary engine.",
+     "a": "expressions",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Create a real-life word problem (Indian context) that requires finding the volume of a frustum where the height is NOT given directly, but the slant height and the two radii are given. Provide the problem statement only.",
      "a": "Example problem: \"A decorative flower pot is in the shape of a frustum of a cone. The radii of its circular ends are 15 cm and 5 cm. The slant height of the pot is 13 cm. Find the volume of soil (in litres) required to fill the pot completely. Use π = 3.14.\" A good answer shows the student understands they must first find the vertical height using Pythagoras theorem: h = √(l² - (R - r)²) = √(169 - 100) = √69 ≈ 8.31 cm, then apply the volume formula. A poor answer (giving a problem where height is directly given, or using slant height directly in the volume formula) reveals the student cannot distinguish between slant height and vertical height, a critical distinction tested in CBSE case-based questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The volume of a frustum of a right circular cone is the amount of space ______ by the solid formed when a right circular cone is cut by a plane parallel to its base, removing the top portion.",
+     "a": "enclosed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying a traditional Indian \"matka\" (earthen pot) shaped like a ______ to store water.",
+     "a": "frustum",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the radii of the two circular ends (R and r) and the vertical height (h) of a frustum from a word problem or diagram, substitute them into the formula V = (1/3)πh(R² + r² + Rr), and compute the volume with correct units (cm³, m³, litres).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying a ______ Indian \"matka\" (earthen pot) shaped like a frustum to store water.",
+     "a": "traditional",
+     "self_check": true
     }
    ]
   }

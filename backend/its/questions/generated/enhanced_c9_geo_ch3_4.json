@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_geo_ch3_4",
+ "concepts": [
+  {
+   "id": "enh:c9_geo_ch3_4",
+   "title": "c9_geo_ch3_4",
+   "questions": [
+    {
+     "q": "Name the two main categories of marine resources based on origin, and give one Indian example of each.",
+     "a": "Biotic (living) resources: e.g., Indian oil sardine (Sardinella longiceps) caught off Kerala coast. Abiotic (non-living) resources: e.g., polymetallic nodules containing manganese, nickel, copper found in the Central Indian Ocean Basin. A wrong answer like \"fish and water\" reveals the student confuses resource classification with general ocean components and hasn't grasped the biotic/abiotic distinction from Class 8 (c8_geo_ch1_2).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why India's highest marine fish catches come from the continental shelf region (up to 200 m depth) rather than the deep ocean beyond the shelf break.",
+     "a": "The continental shelf receives sunlight, allowing photosynthesis by phytoplankton — the base of the marine food web. Nutrients from river runoff (e.g., Ganga, Godavari) and upwelling enrich these waters. The shelf's shallow depth also makes fishing technically easier and cheaper. A wrong answer focusing only on \"more fish\" without mentioning sunlight, nutrients, or depth shows the student hasn't linked ocean relief (c9_geo_ch3_1) to biological productivity.",
+     "self_check": true
+    },
+    {
+     "q": "A fishing cooperative in Ratnagiri (Maharashtra) wants to switch from traditional gillnets to bottom trawling to increase catch. Using the concept of carrying capacity, list three ecological impacts they must evaluate before deciding.",
+     "a": "1) Bycatch: Bottom trawls indiscriminately catch juveniles and non-target species (e.g., turtles, rays), reducing future breeding stock. 2) Habitat destruction: Heavy trawl doors flatten benthic habitats (mud, sand, seagrass) where fish spawn and feed. 3) Sediment resuspension: Clouds water, smothers filter feeders, reduces light for photosynthesis. A wrong answer listing only \"overfishing\" misses the specific benthic damage that makes bottom trawling far more destructive than pelagic gillnetting.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the livelihood significance of mangroves in the Sundarbans (West Bengal) versus coral reefs in Lakshadweep. Identify two similarities and two differences in how local communities depend on these ecosystems.",
+     "a": "Similarities: Both provide nursery grounds for commercially valuable fish/crustaceans; both protect coastlines from erosion and storm surges. Differences: Sundarbans mangroves directly support honey collection, crab farming, and timber for 4.5 million people; Lakshadweep reefs support pole-and-line tuna fishing (low bycatch) and reef tourism. Mangroves tolerate brackish water and trap sediment; reefs need clear, saline, warm water. A wrong answer treating them as \"both are coastal ecosystems\" misses the distinct hydrological requirements and livelihood activities.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Deep-sea mining of polymetallic nodules in India's allocated Central Indian Ocean Basin site is sustainable because the nodules regrow over time.\" Provide a reasoned judgment.",
+     "a": "False. Polymetallic nodules grow at 1–10 mm per million years — effectively non-renewable on human timescales. Mining would destroy abyssal plains habitats that host unique, slow-growing organisms (xenophyophores, sponges) with no recovery observed in test sites after decades. Sediment plumes could spread 10s of km, affecting mid-water ecosystems. A student calling it \"sustainable because it's in deep sea\" reveals the misconception that deep ocean = infinite resilience, ignoring extreme vulnerability of deep-sea ecosystems.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-point community-based management plan for a fictional coastal village in Andhra Pradesh where declining shrimp catches have led to conflicts between trawler owners and traditional fishers. Your plan must address ecological sustainability, social equity, and economic viability.",
+     "a": "A strong answer includes: 1) Seasonal no-trawl zones during shrimp breeding months (ecological), enforced by joint patrol with fishers and fisheries dept. 2) Gear-specific fishing zones: trawlers beyond 12 nm, traditional craft inshore (equity), with subsidized ice boxes for small fishers to reduce post-harvest loss (economic). 3) Mangrove restoration in abandoned aquaculture ponds to rebuild nursery habitat (long-term ecological + livelihood via crab/honey). A poor answer focusing only on \"ban trawlers\" ignores economic reality and enforcement capacity.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

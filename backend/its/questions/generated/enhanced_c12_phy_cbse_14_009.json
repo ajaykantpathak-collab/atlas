@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a school laboratory CRO, function generator, and a BC547 transistor to demonstrate the phase reversal of a CE amplifier. Specify the key measurements and expected observations.",
      "a": "Build voltage-divider bias CE amplifier with \\(V_{CC}=9\\ \\text{V}\\), \\(R_L=2.2\\ \\text{k}\\Omega\\), \\(R_1=47\\ \\text{k}\\Omega\\), \\(R_2=10\\ \\text{k}\\Omega\\), \\(R_E=1\\ \\text{k}\\Omega\\), coupling capacitors \\(10\\ \\mu\\text{F}\\). Apply 1 kHz, 50 mVpp sine wave at input. Connect CRO CH1 to input (after \\(C_{in}\\)), CH2 to output (after \\(C_{out}\\)). Observe CH2 waveform inverted relative to CH1. Measure \\(A_v = V_{out,pp}/V_{in,pp}\\). A poor answer omits coupling capacitors, uses wrong bias, or expects no phase shift.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The device operates in the active region where the emitter-base junction is forward-biased and the ______-base junction is reverse-biased.",
+     "a": "collector",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a microphone connected to a speaker: your weak voice signal (mV, µA) becomes a loud sound (V, mA).",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ connected to a speaker: your weak voice signal (mV, µA) becomes a loud sound (V, mA).",
+     "a": "microphone",
+     "self_check": true
     }
    ]
   }

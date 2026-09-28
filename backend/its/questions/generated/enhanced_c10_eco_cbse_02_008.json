@@ -34,6 +34,36 @@
      "q": "Design a simple survey questionnaire (5 questions) that a village panchayat could use to identify disguised unemployment among farming households. Each question must target a specific indicator of zero marginal productivity.",
      "a": "Good answer includes questions like: (1) \"If two family members left for city jobs, would your farm output decrease?\" (tests MPL directly); (2) \"How many hours does each member actually work on the farm daily?\" (reveals underutilisation); (3) \"Do you hire outside labour during peak season?\" (if yes, family labour may be surplus in lean season); (4) \"What is your landholding size and number of working adults?\" (land-labour ratio indicator); (5) \"Would you accept non-farm work if available locally?\" (willingness to redeploy surplus labour). A poor answer asks only about income or job satisfaction, missing the marginal productivity test — the student doesn't grasp the operational definition of disguised unemployment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Disguised ______ is a situation where more workers are engaged in an activity than required for optimal production, such that the marginal productivity of the additional labour is zero or negative — removing these workers would not reduce total output.",
+     "a": "unemployment",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small 2-______ farm in Uttar Pradesh where a farmer, his wife, two sons, and a daughter all work daily — five people total.",
+     "a": "hectare",
+     "self_check": true
+    },
+    {
+     "q": "What is Disguised unemployment? State the definition given in this lesson.",
+     "a": "Disguised unemployment is a situation where more workers are engaged in an activity than required for optimal production, such that the marginal productivity of the additional labour is zero or negative — removing these workers would not reduce total output.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small ______-hectare farm in Uttar Pradesh where a farmer, his wife, two sons, and a daughter all work daily — five people total.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Disguised unemployment?",
+     "a": "Students believe disguised unemployment means \"workers have low productivity\" or \"workers are employed part-time\" — they confuse it with underemployment (working fewer hours than willing) or low average productivity.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify disguised unemployment in a given agricultural or service sector scenario by explaining why marginal productivity of labour is zero, calculate the number of disguisedly unemployed workers using the marginal product approach, and distinguish it from open unemployment and seasonal unemployment with Indian examples.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_05_004",
+   "title": "c12_leg_cbse_05_004",
+   "questions": [
+    {
+     "q": "What is the minimum value of immovable property that mandates compulsory registration under the Registration Act, 1908?",
+     "a": "Rs. 100. Under Section 17 of the Registration Act, 1908, any non-testamentary instrument purporting to create, declare, assign, limit, or extinguish any right, title, or interest in immovable property of the value of Rs. 100 or more must be registered. A wrong answer (e.g., \"Rs. 500\" or \"no minimum\") reveals the student confuses the threshold with stamp duty slabs or thinks registration is optional for low-value property — it is not; the Rs. 100 limit has not been amended since 1908.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why an oral gift of immovable property is invalid even if the donor delivers possession to the donee and the donee accepts it.",
+     "a": "Under Section 122 of the Transfer of Property Act, 1882, a gift of immovable property must be effected by a registered instrument signed by the donor and attested by at least two witnesses. Mere delivery of possession, even with acceptance, does not satisfy the statutory formalities. A wrong answer (e.g., \"it's valid because possession was delivered\") reveals the student conflates movable property rules (where delivery suffices for gifts under Section 123) with immovable property rules — a classic confusion between tangible delivery and statutory formality.",
+     "self_check": true
+    },
+    {
+     "q": "A enters into an agreement to sell his agricultural land to B for Rs. 50 lakh. B pays Rs. 10 lakh as advance. Before the sale deed is executed, A sells the same land to C via a registered sale deed. C had no knowledge of the prior agreement. B sues for specific performance. Can B succeed against C? Apply the doctrine of lis pendens.",
+     "a": "No, B cannot succeed against C. The doctrine of lis pendens (Section 52, TPA) applies only when a suit or proceeding is pending in a competent court at the time of the subsequent transfer. Here, B had only an agreement to sell — no suit was filed before A sold to C. Since no lis pendens existed, C takes free of B's equitable interest. A wrong answer (e.g., \"B wins because he paid advance\") reveals the student misunderstands that lis pendens requires a pending litigation, not merely a prior agreement — and that C, as a bona fide purchaser for value without notice, gets protected when no court case was pending.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the formalities for a valid lease of immovable property for (a) 11 months and (b) 12 months. Why does the law distinguish?",
+     "a": "(a) Lease for 11 months: No registration mandatory under Section 17(1)(d) of Registration Act, 1908 (leases not exceeding one year are exempt). Can be oral or unregistered written. (b) Lease for 12 months: Mandatory registration under Section 17(1)(d) read with Section 105, TPA — it creates an interest in immovable property for a year or more. The distinction exists because longer leases approximate ownership rights (exclusive possession, transferability, inheritability) and thus require public notice via registration to protect third parties. A wrong answer (e.g., \"both need registration\") reveals the student misses the one-year threshold — a frequently tested boundary condition in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"The doctrine of election (Section 35, TPA) violates the principle of freedom of contract because it forces a beneficiary to accept burdens they never agreed to.\" Argue for or against with legal reasoning.",
+     "a": "Against. The doctrine of election is rooted in equity (quod approbo non reprobo — one cannot approbate and reprobate). It applies when a single instrument confers a benefit on a person while purporting to dispose of their property — the beneficiary must either accept the whole instrument (benefit + burden) or reject it entirely. This does not violate freedom of contract because the beneficiary retains the choice to reject the benefit; they cannot cherry-pick. The principle prevents unjust enrichment and ensures the transferor's intention is respected. A wrong answer (e.g., \"it violates freedom of contract\") reveals the student views election as coercion rather than an equitable condition attached to a voluntary benefit — missing that the beneficiary is free to walk away.",
+     "self_check": true
+    },
+    {
+     "q": "Create a fact scenario where a mortgage by deposit of title deeds (equitable mortgage) is valid without registration, but a simple mortgage for the same amount requires registration. Explain the distinction.",
+     "a": "Scenario: X borrows Rs. 20 lakh from Y Bank. In Town A (notified under Section 58(f), TPA), X deposits original title deeds of his flat with Y Bank with intent to create security — this is a valid mortgage by deposit of title deeds (equitable mortgage) without registration. In Town B (not notified), X executes a simple mortgage deed for Rs. 20 lakh — this requires mandatory registration under Section 59, TPA (simple mortgage of Rs. 100+ value). Distinction: Equitable mortgage by deposit of title deeds is exempt from registration under Section 58(f) read with Section 59, TPA, but only in notified towns; simple mortgage always requires registration if value ≥ Rs. 100. A poor answer (e.g., \"both need registration\") reveals the student doesn't know the territorial limitation of equitable mortgages or the registration exemption — a competitive exam trap.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

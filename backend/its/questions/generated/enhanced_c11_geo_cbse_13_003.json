@@ -34,6 +34,31 @@
      "q": "Design a revised operational rule curve for Gobind Sagar that prioritises (a) Rabi irrigation security for Rajasthan's Indira Gandhi Canal command, (b) minimum environmental flow (e-flow) of 50 m³/s in the Sutlej downstream of Nangal Dam year-round, and (c) hydropower generation during peak demand (18:00–22:00). Sketch the monthly target storage levels (as % of live storage) and justify the April–June drawdown strategy.",
      "a": "Proposed rule curve (month-end target % of live storage): Jan 40%, Feb 30%, Mar 20%, Apr 15%, May 10%, Jun 15%, Jul 40%, Aug 70%, Sep 90%, Oct 85%, Nov 70%, Dec 55%.\nJustification: April–June drawdown to 10–15% creates flood cushion for July–September snowmelt+monsoon inflow (avg 10 BCM in 3 months), while maintaining 50 m³/s e-flow (130 MCM/month) from dead storage + minimal turbine release. Rabi security: January–March releases from stored water (40%→20%) meet Rajasthan's critical wheat irrigation via IGC. Peak power: Daily peaking achieved by cycling 5–10 m head variation within monthly target, not by violating rule curve. A poor answer proposes a flat curve or ignores e-flow, showing inability to balance competing temporal demands— the core challenge of multipurpose reservoir operation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Bhakra-Nangal Project is a ______ river valley project on the Sutlej River (a tributary of the Indus) comprising the Bhakra Dam (226 m high gravity dam at Bhakra village, Bilaspur district, Himachal Pradesh) and the Nangal Dam (13 km downstream at Nangal, Punjab), creating the Gobind Sagar reservoir (166 km long, 9.34 billion cubic metres gross storage) to provide irrigation to 1.4 million hectares across Punjab, Haryana, and Rajasthan, generate 1,325 MW of hydroelectric power (Bhakra left/right bank + Dehar + Pong), and regulate floods in the Sutlej-Beas basin.",
+     "a": "multipurpose",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine standing at the Bhakra Dam viewpoint in November: the Gobind Sagar stretches 90 km upstream, its water level 30 m below the full reservoir level because the post-monsoon releases for Rabi ______ have begun.",
+     "a": "irrigation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Notice how the Sutlej, fed by Himalayan snowmelt from April to July, carries ______% of its annual flow in four months, yet Punjab's wheat-sown area needs water in November–March.",
+     "a": "80",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the hydrological, engineering, and socio-economic rationale for the Bhakra-Nangal Project by linking the Sutlej's seasonal discharge regime to the design of a high gravity dam, calculate the irrigation command area per unit of reservoir storage, and evaluate the inter-state water allocation mechanism (Bhakra Beas.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Bhakra-Nangal Project is a multipurpose river valley project on the Sutlej River (a tributary of the Indus) comprising the Bhakra Dam (226 m high gravity dam at Bhakra village, Bilaspur district, Himachal Pradesh) and the Nangal Dam (13 km downstream at Nangal, Punjab), creating the Gobind Sagar reservoir (166 km long, 9.34 billion cubic metres gross storage) to provide irrigation to 1.4 million hectares across Punjab, Haryana, and Rajasthan, generate 1,325 MW of ______ power (Bhakra left/right bank + Dehar + Pong), and regulate floods in the Sutlej-Beas basin.",
+     "a": "hydroelectric",
+     "self_check": true
     }
    ]
   }

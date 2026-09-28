@@ -34,6 +34,26 @@
      "q": "Create a real-life problem (using Indian context: rupees, metres, kg, etc.) that requires a three-term ratio to solve. The problem must involve sharing a total quantity in a given ratio. Write the problem and solve it.",
      "a": "Example problem: \"Three siblings — Priya, Rohan, and Seema — inherit a piece of land worth ₹9,00,000. They agree to divide the value in the ratio of their ages: 20:25:30. How much does each get?\" Solution: Simplify ratio to 4:5:6. Total parts = 15. Value per part = ₹9,00,000 ÷ 15 = ₹60,000. Priya = 4 × ₹60,000 = ₹2,40,000; Rohan = ₹3,00,000; Seema = ₹3,60,000. A poor answer would give a problem that only uses a two-term ratio or does not require sharing a total, indicating the student cannot distinguish between part-part and part-whole ratio situations.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ratio remains ______ if all terms are multiplied or divided by the same non-zero number, and it is in simplest form when the terms have no common factor other than 1 (i.e., their HCF is 1).",
+     "a": "equivalent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine three friends — Anil, Bina, and ______ — invest ₹12,000, ₹18,000, and ₹30,000 respectively in a small business.",
+     "a": "Chirag",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can simplify a multi-term ratio to its lowest terms, generate equivalent multi-term ratios, and use a given multi-term ratio to divide a total quantity into the required parts (sharing) or find missing quantities when one part is known.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine three friends — Anil, Bina, and Chirag — invest ₹12,000, ₹18,000, and ₹30,000 ______ in a small business.",
+     "a": "respectively",
+     "self_check": true
     }
    ]
   }

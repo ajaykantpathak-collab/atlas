@@ -34,6 +34,31 @@
      "q": "Create a real-life problem (Indian context) that leads to the equation 5x - 3(x + 4) = 20. Define what x represents and write the full word problem.",
      "a": "Example: \"A shopkeeper sells pens for ₹5 each and pencils for ₹3 each. He sells 4 more pencils than pens. His total earnings are ₹20. How many pens did he sell?\" Here x = number of pens, x+4 = pencils. Equation: 5x + 3(x+4) = 20 → 5x + 3x + 12 = 20 → 8x = 8 → x = 1. Wait, this gives 5x + 3(x+4) not 5x - 3(x+4). For minus: \"A taxi charges ₹5 per km for the first part and gives a discount of ₹3 per km for the next part which is 4 km longer. Total fare is ₹20.\" Better: \"Arjun buys x notebooks at ₹5 each. He returns (x+4) defective pencils and gets ₹3 refund per pencil. His net payment is ₹20.\" A poor answer uses unrealistic contexts or misaligns the minus sign with the situation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of linear equations involve translating real-world situations into mathematical equations of the form ax + b = c (or with variables on both sides), solving for the unknown quantity, and interpreting the solution in the context of the original problem.",
+     "a": "Applications",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're helping your parents plan a birthday party: you need to order ______ and juice boxes.",
+     "a": "samosas",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Let the number of samosas be x, then juice boxes = ______ - x.",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently solve multi-step real-life problems by: (1) defining appropriate variables for unknown quantities, (2) constructing linear equations that model the situation accurately, (3) solving the equations using balancing or transposition methods, and (4) interpreting the numerical answer back into the real-world.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're helping your parents plan a ______ party: you need to order samosas and juice boxes.",
+     "a": "birthday",
+     "self_check": true
     }
    ]
   }

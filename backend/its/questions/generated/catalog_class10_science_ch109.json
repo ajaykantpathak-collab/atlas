@@ -2,6 +2,53 @@
  "catalog": "catalog_class10_science_ch109.json",
  "concepts": [
   {
+   "id": "jesc.109.4",
+   "title": "Power of a Lens",
+   "converted_to_compute": true,
+   "formula": "P = 1/f",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "P = 1/f",
+     "compute": "P = 1/f"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Power of a Lens: given f = 21, find P.",
+     "a": "0.047619",
+     "self_check": false
+    },
+    {
+     "q": "For Power of a Lens: given f = 13.8, find P.",
+     "a": "0.0724638",
+     "self_check": false
+    },
+    {
+     "q": "For Power of a Lens: given f = 78, find P.",
+     "a": "0.0128205",
+     "self_check": false
+    },
+    {
+     "q": "For Power of a Lens: given f = 34, find P.",
+     "a": "0.0294118",
+     "self_check": false
+    },
+    {
+     "q": "For Power of a Lens: given f = 27, find P.",
+     "a": "0.037037",
+     "self_check": false
+    },
+    {
+     "q": "For Power of a Lens: given f = 94, find P.",
+     "a": "0.0106383",
+     "self_check": false
+    }
+   ]
+  },
+  {
    "id": "jesc.109.1",
    "title": "Mirror Formula",
    "solution_type": "compute",
@@ -248,83 +295,6 @@
      "unit": "cm",
      "steps": null,
      "a": "-60 cm",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "jesc.109.4",
-   "title": "Power of a Lens",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "focal_cm",
-     "expr": "focal_m * 100",
-     "explain": "convert the focal length to centimetres for reference"
-    },
-    {
-     "step": 2,
-     "name": "focal_mm",
-     "expr": "focal_cm * 10",
-     "explain": "focal length in millimetres"
-    },
-    {
-     "step": 3,
-     "name": "power_d",
-     "expr": "1 / focal_m",
-     "explain": "power in dioptres is 1 divided by focal length in metres"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A convex lens has focal length 0.25 m. Find its power in dioptres.",
-     "vals": {
-      "focal_m": 0.25
-     },
-     "unit": "D",
-     "steps": null,
-     "a": "4 D",
-     "self_check": false
-    },
-    {
-     "q": "What is the power of a lens whose focal length is 0.5 m?",
-     "vals": {
-      "focal_m": 0.5
-     },
-     "unit": "D",
-     "steps": null,
-     "a": "2 D",
-     "self_check": false
-    },
-    {
-     "q": "A concave lens has focal length -0.2 m. Compute its power with sign.",
-     "vals": {
-      "focal_m": -0.2
-     },
-     "unit": "D",
-     "steps": null,
-     "a": "-5 D",
-     "self_check": false
-    },
-    {
-     "q": "A powerful magnifier has f = 0.1 m. What power does that correspond to?",
-     "vals": {
-      "focal_m": 0.1
-     },
-     "unit": "D",
-     "steps": null,
-     "a": "10 D",
-     "self_check": false
-    },
-    {
-     "q": "Find the power of a lens of focal length -0.5 m.",
-     "vals": {
-      "focal_m": -0.5
-     },
-     "unit": "D",
-     "steps": null,
-     "a": "-2 D",
      "self_check": false
     }
    ]

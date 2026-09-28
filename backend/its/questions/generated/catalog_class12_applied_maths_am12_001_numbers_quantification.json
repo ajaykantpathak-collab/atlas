@@ -5,6 +5,8 @@
    "id": "am12_001.1",
    "title": "Modular Arithmetic Remainder",
    "converted_to_compute": false,
+   "formula": "r = x % y",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A canteen offers 4 drinks and 2 snacks. How many drink-snack combos are possible (rule of product)?",
@@ -42,6 +44,8 @@
    "id": "am12_001.2",
    "title": "Modulo Addition Property",
    "converted_to_compute": false,
+   "formula": "check = (a + b) % c - (a % c + b % c) % c",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A canteen offers 4 drinks and 4 snacks. How many drink-snack combos are possible (rule of product)?",
@@ -79,6 +83,8 @@
    "id": "am12_001.3",
    "title": "Alligation Mean Price",
    "converted_to_compute": false,
+   "formula": "mean = (q1 * c1 + q2 * c2) / (q1 + q2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A price index uses base year value 100. If the current value is 145, find the index number.",
@@ -116,6 +122,8 @@
    "id": "am12_001.4",
    "title": "Replaced Liquid Remaining",
    "converted_to_compute": false,
+   "formula": "left = x * ((x - y) / x) ** n",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A price index uses base year value 100. If the current value is 130, find the index number.",
@@ -153,6 +161,8 @@
    "id": "am12_001.5",
    "title": "Boats Upstream Downstream Speeds",
    "converted_to_compute": false,
+   "formula": "s = (down - up) / 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A can finish a job in 4 days and B in 6 days. Working together, how many days will they take (two decimal places)?",
@@ -190,6 +200,8 @@
    "id": "am12_001.6",
    "title": "Pipes and Cisterns Filling Time",
    "converted_to_compute": false,
+   "formula": "time = 1 / (1 / a + 1 / b)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A can finish a job in 8 days and B in 8 days. Working together, how many days will they take (two decimal places)?",
@@ -227,6 +239,8 @@
    "id": "am12_001.7",
    "title": "Partnership Profit Sharing",
    "converted_to_compute": false,
+   "formula": "share1 = profit * (i1 * t1) / (i1 * t1 + i2 * t2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A trader buys an article for Rs 400 and sells it for Rs 480. Find the profit.",
@@ -264,6 +278,8 @@
    "id": "am12_001.8",
    "title": "Races and Games Start Advantage",
    "converted_to_compute": false,
+   "formula": "ahead_pct = y / d * 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A price index uses base year value 100. If the current value is 113, find the index number.",
@@ -301,6 +317,8 @@
    "id": "am12_001.9",
    "title": "First Come First Serve Waiting Time",
    "converted_to_compute": false,
+   "formula": "avg_wait = (2 * b1 + b2) / 3",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A price index uses base year value 100. If the current value is 131, find the index number.",
@@ -338,6 +356,8 @@
    "id": "am12_001.10",
    "title": "Numerical Inequality Cross Comparison",
    "converted_to_compute": false,
+   "formula": "margin = a * d - c * b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 6x + 3 = 57.",

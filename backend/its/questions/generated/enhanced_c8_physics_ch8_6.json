@@ -34,6 +34,21 @@
      "q": "Design a simple investigation using a local compost pit or kitchen waste bin to demonstrate that energy is lost as heat during decomposition. List materials, measurements, and expected outcome.",
      "a": "Materials: Two identical insulated boxes, fresh vegetable waste (measured mass), thermometer, soil with decomposers. Procedure: Put equal waste in both boxes; add soil+decomposers to Box A, sterile sand to Box B. Measure temperature daily for a week. Expected: Box A shows temperature rise (heat from microbial respiration), Box B stays near ambient. This shows decomposers release heat. A poor answer omits a control (Box B), doesn't measure temperature change, or expects mass loss without linking it to energy loss.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Trophic levels represent the hierarchical stages in an ecosystem through which energy flows, starting from producers (______) to primary, secondary, and tertiary consumers, with decomposers recycling nutrients at each stage.",
+     "a": "photosynthesizers",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a wheat field in Punjab: sunlight hits the wheat (______), grasshoppers eat the wheat, frogs eat grasshoppers, snakes eat frogs, and hawks eat snakes.",
+     "a": "producers",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "A student demonstrates mastery by calculating the energy available at each trophic level given the producer energy input, explaining why food chains rarely exceed 4-5 levels using the 10% rule, and constructing a pyramid of energy for a simple Indian grassland or pond ecosystem with correct units (J/m²/yr).",
+     "self_check": true
     }
    ]
   }

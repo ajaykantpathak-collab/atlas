@@ -34,6 +34,21 @@
      "q": "Construct a numerical example where a monopoly's demand curve is non-linear: P = 100 - Q². Derive the MR function. At Q = 4, calculate AR, MR, and price elasticity of demand. Verify the formula MR = P(1 - 1/|e|).",
      "a": "Correct Answer: TR = (100 - Q²)Q = 100Q - Q³. MR = d(TR)/dQ = 100 - 3Q². At Q = 4: P = AR = 100 - 16 = 84. MR = 100 - 3(16) = 52. dQ/dP = 1/(dP/dQ) = 1/(-2Q) = -1/8. Elasticity e = (dQ/dP)×(P/Q) = (-1/8)×(84/4) = -2.625. |e| = 2.625. MR = 84(1 - 1/2.625) = 84(1 - 0.381) = 84×0.619 = 52. Verified. A poor answer (e.g., incorrect derivative, wrong elasticity formula) reveals gaps in calculus application or elasticity computation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For a ______ firm, Average Revenue (AR) is the revenue per unit of output sold and equals the market price (AR = P = Demand Curve).",
+     "a": "monopoly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the sole seller of a ______ anti-snake-venom serum in a remote Indian district.",
+     "a": "patented",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Derive the MR curve from a given linear AR (demand) function algebraically and graphically, showing MR has twice the slope and same vertical intercept; (2) Explain why MR < AR for a monopoly using the price effect and output effect; (3) Calculate MR at any quantity using the formula MR = P(1 - 1/|e|) and interpret.",
+     "self_check": true
     }
    ]
   }

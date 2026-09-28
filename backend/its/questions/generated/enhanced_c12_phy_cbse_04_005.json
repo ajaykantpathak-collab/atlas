@@ -34,6 +34,16 @@
      "q": "Design a simple experiment using a battery, a variable resistor, a circular loop of wire, and a compass to verify that the magnetic field at the centre of the loop is directly proportional to the current. Describe the procedure, measurements, and how you would plot the data.",
      "a": "Procedure: (1) Make a circular loop of known radius \\( R \\) (e.g., 10 cm) with insulated copper wire. (2) Connect it in series with a battery, a variable resistor (rheostat), and an ammeter. (3) Place a compass at the centre of the loop, aligning the loop’s plane with the magnetic meridian (so Earth’s field is along the axis). (4) Vary the rheostat to get different currents \\( I \\); for each, note the compass deflection \\( \\theta \\) from the meridian. (5) The loop’s field \\( B = \\frac{\\mu_0 I}{2R} \\) is perpendicular to Earth’s horizontal field \\( B_H \\); \\( \\tan\\theta = B/B_H \\). Plot \\( \\tan\\theta \\) vs \\( I \\); a straight line through origin confirms proportionality. A poor answer would omit the need to align the loop with the magnetic meridian or forget to use \\( \\tan\\theta \\).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a school laboratory ______: a circular copper loop connected to a battery and a compass needle placed at its centre.",
+     "a": "demonstration",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) derive the axial magnetic field formula from the Biot–Savart law by correctly resolving components and integrating over the loop, (2) compute the field at the centre and at any axial point for single or multi-turn loops with correct SI units, and (3) determine the field direction using the right‑hand thumb rule for a.",
+     "self_check": true
     }
    ]
   }

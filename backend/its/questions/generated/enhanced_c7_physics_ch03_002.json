@@ -34,6 +34,31 @@
      "q": "Design a simple, safe classroom test to rank three unknown solid strips (brass, plastic, and rubber) by their thermal conduction ability using ice cubes and warm water.",
      "a": "Criteria for a good answer: Place identical ice cubes on one end of each strip while dipping the opposite ends into a container of warm water, then measure which ice cube melts first. A poor answer fails to control variables (like strip length or water temperature) or omits how heat transfer is measured (ice melting speed).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the process of heat transfer through solid materials from particle to particle without the actual movement of the particles themselves, measured in Joules (J) or Watts (W) for rate of heat flow.",
+     "a": "Conduction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine touching a steel spoon left ______ a hot bowl of dal—your hand immediately feels the heat.",
+     "a": "inside",
+     "self_check": true
+    },
+    {
+     "q": "What is Conduction? State the definition given in this lesson.",
+     "a": "Conduction is the process of heat transfer through solid materials from particle to particle without the actual movement of the particles themselves, measured in Joules (J) or Watts (W) for rate of heat flow.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Conduction?",
+     "a": "Students often believe that heat travels through solids because the atoms themselves physically travel from the hot end to the cold end of the object.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can predict and explain how heat travels through different solid objects (such as metal spoons versus wooden sticks) by identifying particle vibration and contact points.",
+     "self_check": true
     }
    ]
   }

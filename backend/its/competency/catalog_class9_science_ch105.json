@@ -73,6 +73,21 @@
      "action": "verify the result",
      "explain": "Check that the percentage is between 0 and 100 and that the units of mass are consistent."
     }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "percentage = (mass_solute / mass_solution) * 100",
+     "compute": "percentage = (mass_solute / mass_solution) * 100"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "iesc.5.2.2.A",
+     "question_pattern": "what is the percentage concentration if {mass_solute}g is dissolved in {mass_solution}g"
+    }
    ]
   },
   {
@@ -109,14 +124,23 @@
      "action": "verify the result",
      "explain": "Check that the percentage is between 0 and 100 and that mass is in grams while volume is in mL."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "percentage = (mass_solute / volume_solution) * 100",
+     "compute": "percentage = (mass_solute / volume_solution) * 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.5.2.3",
    "title": "Solubility and Saturated Solutions",
    "section": "5.2.3",
    "definition": "Solubility is indeed the maximum amount of solute that can dissolve in a specific amount of solvent at a fixed temperature.",
-   "formula": "mass_needed = (solubility_per_100g * solvent_mass) / 100",
+   "formula": "mass_needed = (solubility_per_1_0_0g * solvent_mass) / 100",
    "key_idea": "Saturated solutions cannot dissolve more solute at a given temperature.",
    "textbook_ref": "iesc105.txt lines 135-159",
    "question_patterns": [
@@ -145,6 +169,21 @@
      "action": "verify saturation condition",
      "explain": "Confirm that the solution is saturated by checking that the solute mass equals the solubility-scaled value at the given temperature."
     }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mass_needed = (solubility_per_1_0_0g * solvent_mass) / 100",
+     "compute": "mass_needed = (solubility_per_1_0_0g * solvent_mass) / 100"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "iesc.5.2.3",
+     "question_pattern": "calculate the solubility of {solubility_per_1_0_0g} at {solvent_mass} degrees"
+    }
    ]
   },
   {
@@ -162,7 +201,7 @@
     "how to separate a pure solid from an impure sample",
     "justify why crystallization matters"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -179,7 +218,16 @@
      "action": "collect and dry crystals",
      "explain": "Separate the formed crystals from the mother liquor and dry them to obtain the purified solid."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mass_precipitated = mass_initial - mass_final_solubility",
+     "compute": "mass_precipitated = mass_initial - mass_final_solubility"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.5.3.2",
@@ -332,7 +380,7 @@
     "what is a paperfuge",
     "give one everyday example of centrifugation"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -349,7 +397,16 @@
      "action": "decant the supernatant",
      "explain": "Carefully pour off or pipette out the lighter liquid layer, leaving the denser sediment behind."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "centrifugal_force = mass * radius * angular_velocity**2",
+     "compute": "centrifugal_force = mass * radius * angular_velocity**2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.5.5",

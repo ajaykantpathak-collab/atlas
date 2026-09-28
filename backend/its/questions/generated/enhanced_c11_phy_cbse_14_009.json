@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using two identical smartphones with tone-generator apps to demonstrate beats and measure the beat frequency. Specify the frequencies you would set, how you would detect the beats, and how you would verify ν_beat = |ν₁ - ν₂|.",
      "a": "Set Phone A to 440 Hz (A4) and Phone B to 445 Hz. Place them side by side on a table. Use a third phone with a sound-level-meter app (or simply human ear) to detect the periodic loudness variation. Count the number of loudness maxima in 10 seconds → beat frequency = count/10. Should be ≈5 Hz. Repeat with 440 Hz and 442 Hz → beat frequency ≈2 Hz. Plot measured ν_beat vs |ν₁ - ν₂|; slope should be 1. A poor answer (e.g., \"just listen\") lacks quantitative measurement, control of amplitude, or verification of the formula, revealing inability to translate theory into experimental design.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Beats are the periodic waxing and waning of sound intensity that occurs when two harmonic sound waves of slightly different frequencies (ν₁ and ν₂, with |ν₁ - ν₂| ≈ 5-10 Hz) and ______ amplitudes superpose at a point; the beat frequency ν_beat = |ν₁ - ν₂| equals the absolute difference of the two frequencies, measured in hertz (Hz), and represents the number of intensity maxima (or minima) heard per second.",
+     "a": "comparable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two sitar strings plucked ______ — you hear a throbbing sound that rises and falls; this is beats.",
+     "a": "together",
+     "self_check": true
+    },
+    {
+     "q": "What is Beats? State the definition given in this lesson.",
+     "a": "Beats are the periodic waxing and waning of sound intensity that occurs when two harmonic sound waves of slightly different frequencies (ν₁ and ν₂, with |ν₁ - ν₂| ≈ 5-10 Hz) and comparable amplitudes superpose at a point; the beat frequency ν_beat = |ν₁ - ν₂| equals the absolute difference of the two frequencies, measured in hertz (Hz).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Fix your observation point (x=______) and write the two displacements as s₁ = a cos ω₁t and s₂ = a cos ω₂t.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Beats?",
+     "a": "Students often believe that the beat frequency is the average of the two frequencies (ν_beat = (ν₁+ν₂)/2) because they confuse the \"pitch heard\" (which is the average) with the \"beat frequency\" (which is the difference).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can derive the beat frequency formula using the principle of superposition and the trigonometric identity for cos A + cos B, and can solve tuning-fork/sitar-string problems where the beat frequency changes after a known alteration (e.g., tension change, loading with wax) to determine the original unknown frequency.",
+     "self_check": true
     }
    ]
   }

@@ -2,6 +2,53 @@
  "catalog": "catalog_class8_science_ch106.json",
  "concepts": [
   {
+   "id": "hesc.6.2.1",
+   "title": "Sexual Reproduction",
+   "converted_to_compute": true,
+   "formula": "zygote = male_gamete + female_gamete",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "zygote = male_gamete + female_gamete",
+     "compute": "zygote = male_gamete + female_gamete"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Sexual Reproduction: given male_gamete = 74, female_gamete = 63, find zygote.",
+     "a": "137",
+     "self_check": false
+    },
+    {
+     "q": "For Sexual Reproduction: given male_gamete = 88, female_gamete = 17.7, find zygote.",
+     "a": "105.7",
+     "self_check": false
+    },
+    {
+     "q": "For Sexual Reproduction: given male_gamete = 86, female_gamete = 67, find zygote.",
+     "a": "153",
+     "self_check": false
+    },
+    {
+     "q": "For Sexual Reproduction: given male_gamete = 7.4, female_gamete = 3, find zygote.",
+     "a": "10.4",
+     "self_check": false
+    },
+    {
+     "q": "For Sexual Reproduction: given male_gamete = 88, female_gamete = 3.5, find zygote.",
+     "a": "91.5",
+     "self_check": false
+    },
+    {
+     "q": "For Sexual Reproduction: given male_gamete = 77, female_gamete = 10.1, find zygote.",
+     "a": "87.1",
+     "self_check": false
+    }
+   ]
+  },
+  {
    "id": "hesc.6.1.1",
    "title": "Modes of Reproduction",
    "solution_type": "verify_property",
@@ -20,88 +67,6 @@
      "q": "Why do farmers prefer vegetative propagation for fruit trees?",
      "a": "New plants are exactly like the parent, grow faster and bear fruit earlier than seed-grown trees.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "hesc.6.2.1",
-   "title": "Sexual Reproduction",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "male_gamete_n",
-     "expr": "diploid_m / 2",
-     "explain": "meiosis halves the male chromosome number"
-    },
-    {
-     "step": 2,
-     "name": "female_gamete_n",
-     "expr": "diploid_f / 2",
-     "explain": "meiosis halves the female chromosome number"
-    },
-    {
-     "step": 3,
-     "name": "zygote_chromosomes",
-     "expr": "male_gamete_n + female_gamete_n",
-     "explain": "fertilisation restores the full number"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A species has 46 chromosomes in both parents' body cells. How many chromosomes does the zygote get?",
-     "vals": {
-      "diploid_m": 46,
-      "diploid_f": 46
-     },
-     "unit": null,
-     "steps": null,
-     "a": "46",
-     "self_check": false
-    },
-    {
-     "q": "A plant with 24 chromosomes per cell is cross-pollinated with another of 24. What count does the zygote restore?",
-     "vals": {
-      "diploid_m": 24,
-      "diploid_f": 24
-     },
-     "unit": null,
-     "steps": null,
-     "a": "24",
-     "self_check": false
-    },
-    {
-     "q": "One parent of a hybrid has 20 chromosomes per cell, the other 22. Find the zygote count.",
-     "vals": {
-      "diploid_m": 20,
-      "diploid_f": 22
-     },
-     "unit": null,
-     "steps": null,
-     "a": "21",
-     "self_check": false
-    },
-    {
-     "q": "Frog body cells have 26 chromosomes. How many does a fertilised frog egg hold?",
-     "vals": {
-      "diploid_m": 26,
-      "diploid_f": 26
-     },
-     "unit": null,
-     "steps": null,
-     "a": "26",
-     "self_check": false
-    },
-    {
-     "q": "A crop variety has 36 chromosomes per cell in both parents. How many will its seed cell have?",
-     "vals": {
-      "diploid_m": 36,
-      "diploid_f": 36
-     },
-     "unit": null,
-     "steps": null,
-     "a": "36",
-     "self_check": false
     }
    ]
   },

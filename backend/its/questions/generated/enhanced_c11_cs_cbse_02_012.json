@@ -34,6 +34,26 @@
      "q": "Design a new logic gate symbol (with a distinct shape) that represents a 3-input NOR gate. Write its truth table and Boolean expression, then show how to build a 2-input AND gate using only two of your 3-input NOR gates (you may leave one input unused or tie it appropriately).",
      "a": "Symbol: triangle with a bubble at output, three input lines. Truth table: output 1 only when all three inputs are 0. Expression: Y = (A+B+C)'. To make 2-input AND: Gate1: tie two inputs to A, third to 0 → output A'. Gate2: tie two inputs to B, third to 0 → output B'. Then feed A' and B' into a third NOR with third input 0? Wait, we are allowed only two 3-input NOR gates. Actually, with two 3-input NOR gates we can make AND by using De Morgan: (A+B)' = A'B'? Let's think: First NOR: inputs A, B, 0 → (A+B+0)' = (A+B)'. Second NOR: tie all three inputs to (A+B)' → ((A+B)')' = A+B. That gives OR, not AND. To get AND with two 3-input NORs: First NOR: A, A, 0 → A'. Second NOR: B, B, 0 → B'. But we need a third gate to combine A' and B'. So two 3-input NORs are insufficient for AND. A good answer recognises the constraint and explains why two are not enough or proposes a correct 3-gate construction. A poor answer forces an incorrect 2-gate circuit.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A universal gate is a logic gate that can implement any Boolean function without needing any other gate type; NAND (NOT-AND) and NOR (NOT-OR) are the two universal gates because each can alone construct NOT, AND, OR, and therefore any ______ logic circuit.",
+     "a": "combinational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a security ______ that must unlock only when a fingerprint AND a PIN match, but the factory only stocks NAND gate ICs.",
+     "a": "system",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can prove universality by constructing NOT, AND, and OR gates using only NAND gates (or only NOR gates) and can convert a given Boolean expression into an all-NAND or all-NOR circuit with correct gate count and signal flow.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a security system that must unlock only when a ______ AND a PIN match, but the factory only stocks NAND gate ICs.",
+     "a": "fingerprint",
+     "self_check": true
     }
    ]
   }

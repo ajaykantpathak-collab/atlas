@@ -34,6 +34,31 @@
      "q": "Design a thought experiment using photoelectron spectroscopy (PES) data to distinguish between the ionisation energies of 2s and 2p electrons in carbon. Describe what the spectrum would show and how you would assign peaks.",
      "a": "In PES of carbon (1s²2s²2p²), three peaks appear: lowest binding energy (≈11.3 eV) corresponds to 2p electrons (2 peaks if spin-orbit resolved), higher binding energy (≈16.6 eV) corresponds to 2s electrons (greater penetration, higher IE), and highest (≈290 eV) for 1s core. Peak areas ratio 2p:2s:1s = 2:2:2. A poor answer would show equal peak heights or miss that 2s electrons have higher ionisation energy than 2p due to better penetration, revealing failure to connect PES data to orbital energy ordering.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ionisation Enthalpy (ΔiH) is the minimum amount of energy required to remove the most loosely bound electron from an isolated gaseous atom in its ground state to form a gaseous cation, ______ as X(g) → X⁺(g) + e⁻.",
+     "a": "represented",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how sodium metal reacts violently with water at room temperature while magnesium requires hot water and aluminium needs steam - this ______ difference stems from how tightly each atom holds its valence electrons.",
+     "a": "reactivity",
+     "self_check": true
+    },
+    {
+     "q": "What is Ionisation Enthalpy (ΔiH)? State the definition given in this lesson.",
+     "a": "Ionisation Enthalpy (ΔiH) is the minimum amount of energy required to remove the most loosely bound electron from an isolated gaseous atom in its ground state to form a gaseous cation, represented as X(g) → X⁺(g) + e⁻.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Ionisation Enthalpy (ΔiH)?",
+     "a": "Students believe \"ionisation enthalpy always increases across a period\" and apply this blindly, failing to identify that Group 13 (B, Al, Ga) has lower IE than Group 2 (Be, Mg, Ca) and Group 16 (O, S, Se) has lower IE than Group 15 (N, P, As).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can predict and justify trends in first ionisation enthalpy across periods and down groups, explain anomalies (Be > B, N > O) using orbital penetration and electron-electron repulsion arguments, and calculate effective nuclear charge experienced by valence electrons using Slater's rules for elements up to Z=30.",
+     "self_check": true
     }
    ]
   }

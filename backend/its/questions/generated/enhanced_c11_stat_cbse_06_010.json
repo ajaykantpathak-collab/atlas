@@ -34,6 +34,31 @@
      "q": "Design a real-world scenario (Indian context) where two states have identical mean income but different Lorenz Curves. Sketch the expected curves and explain what policy conclusion follows.",
      "a": "Scenario: State A (Kerala-like) has broad-based development; State B (high inequality state) has same mean income but concentrated in top 10%. Curve A bows gently; Curve B bows sharply near the top. Policy: State B needs targeted redistribution (progressive taxation, direct transfers) while State A needs growth-oriented policies. A poor answer giving identical curves or ignoring the mean-income constraint reveals the student confuses central tendency with distributional shape.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Lorenz Curve is a graphical ______ of the cumulative distribution of a variable (typically income or wealth) against the cumulative percentage of the population, used to visualize and measure inequality.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are given the monthly incomes of 100 families in a village and asked: \"Is income distributed fairly, or do a few families earn most of the money?\" You could ______ the standard deviation, but that single number hides *who* earns what.",
+     "a": "calculate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It plots the cumulative percentage of the variable on the Y-axis against the cumulative percentage of the population on the X-axis, with the ______-degree line of perfect equality serving as a benchmark; the greater the deviation of the curve from this line, the higher the inequality.",
+     "a": "45",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to construct a Lorenz Curve from raw or grouped data by computing cumulative frequencies and cumulative variable values, converting them to percentages, plotting accurately, and interpreting the degree of inequality by comparing the curve's distance from the line of equality.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are given the monthly incomes of 100 families in a village and asked: \"Is income ______ fairly, or do a few families earn most of the money?\" You could calculate the standard deviation, but that single number hides *who* earns what.",
+     "a": "distributed",
+     "self_check": true
     }
    ]
   }

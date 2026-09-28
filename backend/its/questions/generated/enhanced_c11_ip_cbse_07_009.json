@@ -34,6 +34,26 @@
      "q": "Design a query for the school office to generate a list of only student names and their guardian IDs (GUID) from the STUDENT table, sorted alphabetically by student name. (Note: ORDER BY is not yet taught; how would you handle this requirement?)",
      "a": "`SELECT SName, GUID FROM STUDENT;` — returns the required columns. Since ORDER BY is not yet covered, the student should note that sorting cannot be done in SQL at this stage and would require application-level sorting. A good answer acknowledges the limitation. A poor answer attempts `ORDER BY` incorrectly or ignores the sorting requirement entirely.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The SQL SELECT ______ retrieves data from one or more tables.",
+     "a": "statement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class teacher who needs to quickly see only the roll numbers and names of all 50 students from the STUDENT table, not their dates of birth or ______ IDs.",
+     "a": "guardian",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class teacher who needs to quickly see only the roll numbers and names of all ______ students from the STUDENT table, not their dates of birth or guardian IDs.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write a SELECT statement to retrieve specific columns from a given table, explain the difference between SELECT * and explicit column listing, and predict the degree and cardinality of the result-set for a given query on a known table instance.",
+     "self_check": true
     }
    ]
   }

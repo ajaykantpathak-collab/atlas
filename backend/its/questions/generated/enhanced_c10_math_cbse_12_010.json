@@ -34,6 +34,26 @@
      "q": "Create a word problem involving a combined solid (at least two basic solids) where the question asks for the time taken to fill the solid with water at a given rate (in litres per minute). Provide all necessary dimensions and the flow rate. The problem must require unit conversion from cm³ to litres.",
      "a": "Sample problem: \"A vessel is in the form of an inverted cone of height 12 cm and radius 5 cm, surmounted by a cylinder of same radius and height 8 cm. Water flows into the vessel at 2 litres per minute. How long will it take to fill the vessel completely? (Use π = 3.14)\"\nA good answer includes: Volume of cone = 1/3 πr²h = 1/3 × 3.14 × 25 × 12 = 314 cm³. Volume of cylinder = πr²h = 3.14 × 25 × 8 = 628 cm³. Total = 942 cm³ = 0.942 litres. Time = 0.942 / 2 = 0.471 min = 28.26 seconds. A poor problem uses inconsistent dimensions (e.g., cone radius ≠ cylinder radius) or forgets the unit conversion, showing the student cannot design a coherent multi-step problem.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Word problems on surface area and volume of combined solids require translating a real-world description of a 3D object (formed by joining two or more basic solids like cylinders, cones, hemispheres, frustums) into a ______ model, then computing either the total surface area (sum of exposed curved surface areas plus any exposed flat faces) or the total volume (sum of volumes of constituent solids), using standard mensuration formulas with π = 22/7 or 3.14 as specified.",
+     "a": "mathematical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a water tank in your village shaped like a cylinder with a ______ top — the panchayat wants to know how many litres of water it can hold and the cost to paint its outer surface at ₹5 per m².",
+     "a": "hemispherical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a water tank in your village shaped like a cylinder with a hemispherical top — the panchayat wants to know how many litres of water it can hold and the cost to paint its outer surface at ₹______ per m².",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently read a word problem, sketch the combined solid with labeled dimensions, identify which surfaces are exposed and which are joined, select and correctly apply the relevant surface area and volume formulas for each constituent solid, perform multi-step arithmetic/algebraic calculations accurately, and express.",
+     "self_check": true
     }
    ]
   }

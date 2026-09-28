@@ -34,6 +34,31 @@
      "q": "Design a random experiment with a sample space of exactly 8 equally likely outcomes. Define an event E such that P(E) = 3/8. Describe the experiment, sample space, and event.",
      "a": "Example: Draw one card from a well-shuffled pack of 8 cards numbered 1 to 8. Sample space S = {1,2,3,4,5,6,7,8}, n(S)=8. Let E be \"drawing a multiple of 3\": favourable outcomes = {3,6}, n(E)=2 → P(E)=2/8=1/4 (not 3/8). To get 3/8, choose E = \"drawing an even number less than 7\": {2,4,6}, n(E)=3, P(E)=3/8. A poor answer would have non-equally-likely outcomes (e.g., \"rolling a die and flipping a coin\" gives 12 outcomes) or an event with incorrect count, revealing inability to construct a valid probability model.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ of an event E, denoted P(E), is defined as the ratio of the number of favourable outcomes to the total number of equally likely possible outcomes in the sample space S.",
+     "a": "probability",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a board game with your friends and you need to roll a die to get a 6 to win.",
+     "a": "playing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are playing a board game with your friends and you need to roll a die to get a ______ to win.",
+     "a": "6",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the sample space and favourable outcomes for a given experiment, apply the formula P(E) = n(E)/n(S) to compute probabilities, simplify the resulting fraction to lowest terms or convert to decimal/percentage, and interpret the result in the context of the problem (e.g., \"the probability of drawing a red.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are playing a board game with your friends and you need to roll a die to get a 6 to win.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

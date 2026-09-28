@@ -34,6 +34,36 @@
      "q": "Design a single \"universal\" laundering protocol (one wash cycle, one dry cycle, one iron setting) that would safely clean a mixed load of: 60% cotton / 40% polyester blend kurta, 100% linen napkin, and 100% acrylic sweater. Specify all parameters and justify why this protocol is the **maximum common safe envelope** — then explain why the acrylic sweater still risks damage.",
      "a": "Universal safe protocol: **Wash:** 30°C, neutral pH liquid detergent (non-ionic dominant), gentle cycle (low agitation, short duration). **Dry:** Flat air-dry in shade (no tumble). **Iron:** 110°C (synthetic/wool setting), dry press with cloth. Justification: 30°C protects acrylic (Tg ~85°C, but heat-setting starts lower) and silk/wool if present; neutral pH protects protein fibres and avoids cellulose degradation at extremes; low agitation prevents felting (wool) and pilling (acrylic). Acrylic risk: **Pilling** — even gentle agitation can cause surface fibre breakage on low-tenacity acrylic, and flat drying may not prevent distortion if the knit is heavy. A poor answer that suggests 40°C or tumble-dry low shows failure to identify the most restrictive fibre (acrylic/protein) as the limiting factor.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Fibre-specific laundering is the systematic ______ of tailored cleaning, drying, and finishing procedures for cotton, linen, wool, silk, and synthetic fibres based on their distinct physical morphology, chemical reactivity, and structural responses to water, heat, mechanical action, and chemical agents.",
+     "a": "application",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a laundry basket containing a white cotton kurta, a linen tablecloth, a wool sweater, a silk dupatta, and a ______ sports T-shirt — all soiled.",
+     "a": "polyester",
+     "self_check": true
+    },
+    {
+     "q": "What is Fibre-specific laundering? State the definition given in this lesson.",
+     "a": "Fibre-specific laundering is the systematic application of tailored cleaning, drying, and finishing procedures for cotton, linen, wool, silk, and synthetic fibres based on their distinct physical morphology, chemical reactivity, and structural responses to water, heat, mechanical action, and chemical agents.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now, for each fibre, decide: (______) Can it withstand hot water?",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Fibre-specific laundering?",
+     "a": "Misconception: \"Natural fibres are always more delicate than synthetics, so synthetics can take harsher treatment.\" Why it's wrong: This conflates \"natural\" with \"delicate\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently design a complete laundering protocol (sorting, detergent selection, wash temperature, mechanical action, drying method, ironing temperature) for any given garment made of cotton, linen, wool, silk, polyester, nylon, or acrylic, justifying each step with the underlying fibre property.",
+     "self_check": true
     }
    ]
   }

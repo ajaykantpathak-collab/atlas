@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_05_005",
+   "title": "c12_leg_cbse_05_005",
+   "questions": [
+    {
+     "q": "Define 'immovable property' under Section 3 of the Transfer of Property Act, 1882, and explain why standing timber is excluded.",
+     "a": "Immovable property includes land, benefits arising from land, and things attached to the earth or permanently fastened to anything attached to the earth. Standing timber is excluded because it is intended to be cut and used as wood (movable), not to enjoy further sustenance from the soil. A wrong answer (e.g., \"trees are immovable\") reveals confusion between the physical object and the legal classification based on intention — the key is whether the tree is for fruit (immovable) or timber (movable).",
+     "self_check": true
+    },
+    {
+     "q": "A sells his house to B via a registered sale deed but does not deliver possession. B later discovers A had mortgaged the house to a bank before the sale. Is B bound by the mortgage? Explain using the doctrine of lis pendens.",
+     "a": "No, lis pendens (Section 52, TPA) does not apply because there was no pending suit at the time of sale — the mortgage was a prior encumbrance, not a lis pendens situation. B takes the property subject to the mortgage (Section 55, TPA: buyer bears encumbrances), but the mortgagee's remedy is against A, not B's title. A wrong answer claiming lis pendens binds B reveals confusion between a pending litigation (lis pendens) and a pre-existing charge — lis pendens only freezes transfers *during* a suit, not before.",
+     "self_check": true
+    },
+    {
+     "q": "X owns a mango orchard. In 2020, he exports mangoes. In 2021, due to losses, he starts selling mango wood locally. Classify the property type in each year and justify using the 'intention test' from Shantabai v. State of Bombay.",
+     "a": "2020: mangoes = movable (growing crop, severed from land). 2021: mango trees = immovable (intention is to continue sustenance for fruit, not cut for timber). The shift in use doesn't change the tree's nature — it remains immovable because the *intention* is to derive ongoing benefit from the soil (fruit). A wrong answer calling 2021 trees \"movable timber\" ignores that the *purpose* determines classification, not the owner's temporary financial distress.",
+     "self_check": true
+    },
+    {
+     "q": "A transfers his house and garden to B in a single deed. B wants the house but not the garden. Can B accept the house and reject the garden? Apply the doctrine of election and cite the Latin maxim.",
+     "a": "No. Under Section 35, TPA and the maxim *quod approbo non reprobo* (\"one cannot approve and disapprove\"), B must either accept both benefits and burdens or reject the entire transfer. The doctrine prevents cherry-picking under a single instrument. A wrong answer allowing partial acceptance shows failure to grasp that election applies to the *entire instrument*, not individual properties — it's about the integrity of the transferor's disposition.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"A lease deed for 11 months does not require registration.\" Is this statement legally correct under the Registration Act, 1908 and TPA? Explain the threshold.",
+     "a": "Incorrect. Under Section 17, Registration Act, 1908, lease of immovable property for *any* term exceeding one year *or* reserving a yearly rent requires registration. An 11-month lease avoids registration only if it doesn't reserve yearly rent — but most residential leases do. Even if unregistered, it may be admissible as evidence of contract (Section 49), but not as a valid lease creating interest in land. A wrong \"yes\" answer reveals confusion between the 11-month *practical* workaround and the *statutory* requirement — the law looks at substance (yearly rent), not just duration.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical where a transfer violates the doctrine of election, then draft a single clause for a deed that would *prevent* such a dispute by forcing an explicit election upfront.",
+     "a": "Hypothetical: A gifts a car and a debt of ₹5 lakh to B in one deed. B accepts the car but refuses the debt. Violation: B cannot approbate (car) and reprobate (debt). Prevention clause: \"The donee shall, within 30 days of execution, deliver a written notice to the donor electing either to accept the entire transfer (both assets and liabilities) or reject it in full; silence shall constitute deemed rejection.\" A poor answer omits the time-bound written election or allows partial acceptance — showing misunderstanding that election must be *whole*, *timely*, and *documented*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

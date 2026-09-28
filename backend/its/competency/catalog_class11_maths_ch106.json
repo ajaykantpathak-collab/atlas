@@ -314,7 +314,7 @@
     "prove symmetry property of combinations",
     "Explain the method of Properties and Identities of Combinations."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -331,7 +331,16 @@
      "action": "verify the solution satisfies the original equation",
      "explain": "substitute the found value back into the combination equality to confirm both sides match"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "expand with the algebraic identity and evaluate",
+     "explain": "expand with the algebraic identity and evaluate: val = 7 * 7 + 2 * 7 * 8 + 8 * 8 gives 225",
+     "compute": "val = 7 * 7 + 2 * 7 * 8 + 8 * 8"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.6.8",

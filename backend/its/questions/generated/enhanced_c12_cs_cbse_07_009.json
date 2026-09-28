@@ -34,6 +34,31 @@
      "q": "Create a 3-variable Boolean function F(A,B,C) such that its canonical SOP contains exactly four minterms and its canonical POS contains exactly four maxterms. Write both forms and verify they are equivalent.",
      "a": "Any function with four 1-rows and four 0-rows works. Example: F = Σm(0,1,2,3) = A'B'C' + A'B'C + A'BC' + A'BC = A' (since it's independent of B,C). POS = ΠM(4,5,6,7) = (A+B+C)(A+B+C')(A+B'+C)(A+B'+C') = A'. A poor answer might give a function with 3 minterms and 5 maxterms (sum=8) but then the forms wouldn't match the requirement of \"exactly four each\". This checks if the student can design a balanced truth table and simplify to verify equivalence.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A minterm is a product (AND) term in a Boolean function of n variables where each variable appears exactly once, either in its true (______) or complemented form, and the term evaluates to 1 for exactly one combination of variable values.",
+     "a": "uncomplemented",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ that lights an LED only when a 3-bit sensor reading equals exactly 2 (binary 010) or 5 (binary 101).",
+     "a": "circuit",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A minterm is a product (AND) term in a Boolean function of n variables where each variable appears exactly once, either in its true (uncomplemented) or complemented form, and the term evaluates to ______ for exactly one combination of variable values.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can, given any truth table of up to 4 variables, write the canonical SOP (Σm) and canonical POS (ΠM) forms correctly, convert between them using the complement-index relationship, and explain why each minterm/maxterm corresponds to a specific row.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a circuit that lights an LED only when a 3-bit sensor reading equals exactly 2 (binary 010) or 5 (binary 101).",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

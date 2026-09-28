@@ -34,6 +34,31 @@
      "q": "A student says: \"In a series circuit, the voltage is the same across all resistors.\" Evaluate this statement.",
      "a": "The statement is incorrect. In a series circuit, the current is the same through all resistors, but the voltage divides: V = V1 + V2 + ... + Vn, where V_i = I * R_i. Each resistor gets a voltage proportional to its resistance (larger R = larger V). The voltage is the same across all resistors only in a parallel circuit, not series. A wrong evaluation (agreeing with the student) confuses series (current same, voltage divides) with parallel (voltage same, current divides).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Series ______ of resistors is a circuit arrangement where resistors are connected end-to-end in a single path, so the same current flows through each resistor.",
+     "a": "combination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Connect three ______ end-to-end: R1, R2, R3 in a single line.",
+     "a": "resistors",
+     "self_check": true
+    },
+    {
+     "q": "What is Series combination of resistors? State the definition given in this lesson.",
+     "a": "Series combination of resistors is a circuit arrangement where resistors are connected end-to-end in a single path, so the same current flows through each resistor.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Series combination of resistors?",
+     "a": "Students confuse the series and parallel rules: they think voltage is the same in series (it is the same in parallel) and current divides in series (it divides in parallel).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can identify a series circuit, calculate equivalent resistance (R_eq = R1 + R2 + ... + Rn), apply Ohm's law to find current and individual voltages, and explain why current is the same and voltage divides in series.",
+     "self_check": true
     }
    ]
   }

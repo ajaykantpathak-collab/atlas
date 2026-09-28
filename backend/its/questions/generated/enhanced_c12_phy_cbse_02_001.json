@@ -34,6 +34,21 @@
      "q": "Design a thought experiment to demonstrate that electrostatic potential is a scalar quantity, not a vector, even though it is derived from the electric field (a vector). Your experiment should involve moving a test charge along two different paths between the same two points.",
      "a": "Place a fixed positive charge Q at the origin. Take a test charge q from point A (x=0.1 m, y=0) to point B (x=0, y=0.1 m) along two paths: Path 1 — straight line; Path 2 — quarter circle arc centered at origin. Measure work done by external agent in each case. Since Coulomb force is conservative, W_AB is path-independent. Thus V_B - V_A = W_AB/q is the same for both paths. If potential were a vector, its \"component\" would depend on path direction. The identical potential difference for different paths proves potential is a scalar. A poor answer would confuse path-independence of work with vector addition or fail to specify the measurement procedure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ potential at a point in an electric field is the work done by an external agent in bringing a unit positive test charge from infinity to that point without acceleration.",
+     "a": "Electrostatic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a railway station in Delhi and watch a porter lift a ______ from the platform (low gravitational potential) onto a high shelf (high gravitational potential).",
+     "a": "suitcase",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) state the precise definition of electrostatic potential including the role of the test charge, the zero reference at infinity, and the \"without acceleration\" condition, (2) distinguish between potential, potential difference, and potential energy with correct units, and (3) explain why electrostatic potential is a.",
+     "self_check": true
     }
    ]
   }

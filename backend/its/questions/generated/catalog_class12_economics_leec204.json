@@ -1,6 +1,100 @@
 {
- "catalog": "catalog_class12_economics_leec204",
+ "catalog": "catalog_class12_economics_leec204.json",
  "concepts": [
+  {
+   "id": "leec.204.1.2",
+   "title": "Revenue: Total, Average and Marginal under Price Taking",
+   "converted_to_compute": true,
+   "formula": "total_revenue = market_price * quantity_sold",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_revenue = market_price * quantity_sold",
+     "compute": "total_revenue = market_price * quantity_sold"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Revenue: Total, Average and Marginal under Price Taking: given market_price = 108, quantity_sold = 70, find total revenue.",
+     "a": "7560",
+     "self_check": false
+    },
+    {
+     "q": "For Revenue: Total, Average and Marginal under Price Taking: given market_price = 72, quantity_sold = 60, find total revenue.",
+     "a": "4320",
+     "self_check": false
+    },
+    {
+     "q": "For Revenue: Total, Average and Marginal under Price Taking: given market_price = 119, quantity_sold = 42, find total revenue.",
+     "a": "4998",
+     "self_check": false
+    },
+    {
+     "q": "For Revenue: Total, Average and Marginal under Price Taking: given market_price = 96, quantity_sold = 7, find total revenue.",
+     "a": "672",
+     "self_check": false
+    },
+    {
+     "q": "For Revenue: Total, Average and Marginal under Price Taking: given market_price = 14.3, quantity_sold = 44, find total revenue.",
+     "a": "629.2",
+     "self_check": false
+    },
+    {
+     "q": "For Revenue: Total, Average and Marginal under Price Taking: given market_price = 36, quantity_sold = 26, find total revenue.",
+     "a": "936",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leec.204.2.1",
+   "title": "Profit and its Computation",
+   "converted_to_compute": true,
+   "formula": "profit = total_revenue - total_cost",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "profit = total_revenue - total_cost",
+     "compute": "profit = total_revenue - total_cost"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Profit and its Computation: given total_revenue = 98, total_cost = 12.6, find profit.",
+     "a": "85.4",
+     "self_check": false
+    },
+    {
+     "q": "For Profit and its Computation: given total_revenue = 14.6, total_cost = 97, find profit.",
+     "a": "-82.4",
+     "self_check": false
+    },
+    {
+     "q": "For Profit and its Computation: given total_revenue = 4.6, total_cost = 52, find profit.",
+     "a": "-47.4",
+     "self_check": false
+    },
+    {
+     "q": "For Profit and its Computation: given total_revenue = 26, total_cost = 46, find profit.",
+     "a": "-20",
+     "self_check": false
+    },
+    {
+     "q": "For Profit and its Computation: given total_revenue = 65, total_cost = 45, find profit.",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "For Profit and its Computation: given total_revenue = 37, total_cost = 58, find profit.",
+     "a": "-21",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "leec.204.1.1",
    "title": "Perfect Competition and Price Taking",
@@ -18,68 +112,6 @@
     {
      "q": "Write the standard relation used for 'Perfect Competition and Price Taking', in plain ASCII form.",
      "a": "price_taking_firm = sells_any_quantity_at_market_price and nothing_above_it",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leec.204.1.2",
-   "title": "Revenue: Total, Average and Marginal under Price Taking",
-   "questions": [
-    {
-     "q": "Using the method 'Revenue: Total, Average and Marginal under Price Taking', work with: market_price = 5000, quantity_sold = 24, total_revenue_of_previous_output = 20000. Carry the chain through step by step and give the final value of marginal_revenue.",
-     "a": "100000 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Revenue: Total, Average and Marginal under Price Taking' and work with: market_price = 20000, quantity_sold = 10, total_revenue_of_previous_output = 80000. Carry the chain through step by step and give the final value of marginal_revenue.",
-     "a": "120000 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Revenue: Total, Average and Marginal under Price Taking' refers to.",
-     "a": "A price-taking firm's total revenue is the market price times the quantity sold, which makes total revenue a straight line through the origin whose slope is the price; both average revenue and marginal revenue then equal the market price.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Revenue: Total, Average and Marginal under Price Taking'.",
-     "a": "Since every extra unit sells at the same market price, price, average revenue and marginal revenue coincide.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Revenue: Total, Average and Marginal under Price Taking', in plain ASCII form.",
-     "a": "total_revenue = market_price * quantity_sold",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leec.204.2.1",
-   "title": "Profit and its Computation",
-   "questions": [
-    {
-     "q": "Using the method 'Profit and its Computation', work with: total_cost = 20000, total_revenue = 12000. Carry the chain through step by step and give the final value of profit.",
-     "a": "-8000 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Profit and its Computation' and work with: total_cost = 5000, total_revenue = 1200. Carry the chain through step by step and give the final value of profit.",
-     "a": "-3800 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Profit and its Computation' refers to.",
-     "a": "Profit is what remains of total revenue after total cost of production is met, and the firm is assumed to choose the output that makes this residual as large as possible.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Profit and its Computation'.",
-     "a": "Profit is revenue net of all costs, and maximising it is the firm's single objective.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Profit and its Computation', in plain ASCII form.",
-     "a": "profit = total_revenue - total_cost",
      "self_check": true
     }
    ]

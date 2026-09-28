@@ -34,6 +34,26 @@
      "q": "Design a cube diagram to represent the *total forest cover volume* (in million m³ of timber) for three states: Madhya Pradesh (450), Arunachal Pradesh (320), Chhattisgarh (280). Specify the scale, calculate all side lengths, and explain how you would arrange the cubes on the page to maximize comparative clarity while following cartographic design rules.",
      "a": "Scale selection: Max value = 450. Choose 1 cm³ = 50 million m³ → largest volume = 9 cm³ → side = ∛9 ≈ 2.08 cm (fits easily). Volumes: MP = 9 cm³ (side 2.08 cm), AP = 6.4 cm³ (side 1.86 cm), CG = 5.6 cm³ (side 1.78 cm). Arrangement: Place cubes in descending order (MP, AP, CG) along a baseline with equal spacing (2 cm gaps). Label each cube with state name and value. Include a volumetric scale legend (e.g., a 1 cm³ reference cube = 50 M m³). A poor answer would omit the legend, use random order, or choose a scale making the largest cube >5 cm (too big for A4). This tests synthesis of scaling, computation, and cartographic design.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A cube diagram is a three-dimensional graphical ______ where the volume of a cube is made proportional to the magnitude of the geographical data being represented (e.g., mineral production, water reservoir capacity, or forest volume).",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are comparing the water storage capacity of three major Indian ______: Bhakra Dam (9.34 billion cubic meters), Sardar Sarovar (5.8 billion m³), and Nagarjuna Sagar (11.47 billion m³).",
+     "a": "reservoirs",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A bar diagram would show height differences, but a cube diagram lets you *see* the volume difference in ______D.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently select an appropriate volumetric scale, calculate cube edge lengths using cube roots, construct accurate cube diagrams for given geographical data (e.g., state-wise coal production), and interpret the relative magnitudes and limitations of such diagrams compared to one- and two-dimensional alternatives.",
+     "self_check": true
     }
    ]
   }

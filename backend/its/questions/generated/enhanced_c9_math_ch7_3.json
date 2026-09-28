@@ -34,6 +34,26 @@
      "q": "Design a simple experiment to estimate the probability that a drawing pin lands \"point up\" when dropped. Describe the procedure, how you would record data, and how you would calculate the experimental probability. What minimum number of trials would you recommend for a reliable estimate, and why?",
      "a": "A good answer: Drop the pin 200 times from a consistent height onto a flat surface. Record \"point up\" or \"point down\" each time. Experimental probability = (number of point up) / 200. Recommend at least 200 trials because more trials reduce random fluctuation (Law of Large Numbers). A poor answer suggests 10 trials, showing ignorance of reliability; or suggests calculating theoretical probability by geometry, missing the empirical nature of the task.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ probability (empirical probability) of an event E is defined as the ratio of the number of trials in which event E occurs to the total number of trials actually performed, expressed as P(E) = (Number of trials where E happened) / (Total number of trials).",
+     "a": "Experimental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a cricket coach selecting a ______ for the final over.",
+     "a": "bowler",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate experimental probability from given frequency data, explain how increasing trials improves reliability, and distinguish between experimental and theoretical probability in a given scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a cricket coach ______ a bowler for the final over.",
+     "a": "selecting",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a battery, an ammeter, a variable resistor, and a stopwatch to verify that current is the rate of flow of charge. Describe the procedure, measurements, and how you would calculate charge from current readings.",
      "a": "Procedure: (1) Connect battery, ammeter, and variable resistor in series. (2) Set resistor to a value, close switch, start stopwatch. (3) Record steady current I at regular intervals (e.g., every 10 s) for 1 minute. (4) Open switch. (5) Plot I vs t; if constant, area under graph = I × Δt = Q. (6) Repeat for different resistor values. A good answer includes: constant current assumption, area under I-t graph gives charge, unit consistency (A·s = C). A poor answer measures only one current value and multiplies by total time without verifying steadiness.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Electric current is the rate of flow of net charge across a cross-______ area of a conductor.",
+     "a": "sectional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a mobile phone charging: the battery icon shows a ______ bolt, indicating charge flow.",
+     "a": "lightning",
+     "self_check": true
+    },
+    {
+     "q": "What is Electric current? State the definition given in this lesson.",
+     "a": "Electric current is the rate of flow of net charge across a cross-sectional area of a conductor.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Electric current?",
+     "a": "Students think \"current is a vector because it has direction (arrow in circuit diagrams).\" They incorrectly apply vector addition (parallelogram law) to currents at a junction.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) calculate current from given charge and time data with correct units, (2) distinguish between conventional current direction and electron drift direction in a metal, and (3) explain why current is a scalar despite being represented with an arrow in circuit diagrams.",
+     "self_check": true
     }
    ]
   }

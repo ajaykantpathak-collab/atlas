@@ -34,6 +34,21 @@
      "q": "Design a real‑world problem (Indian context) that **requires** a loop‑`else` construct for an elegant solution. Write the problem statement and a Python code skeleton (with comments) that uses `for`‑`else` or `while`‑`else`. Do not write the full solution — only the structure.",
      "a": "**Problem:** A railway reservation system checks a waiting list (list of passenger names) for a specific PNR. If found, it prints the seat number and stops searching. If the PNR is **not** in the list after checking all entries, it prints \"PNR not in waiting list\".  \n**Skeleton:**\n```python\nwaiting_list = [\"PNR123\", \"PNR456\", \"PNR789\", ...]  # hundreds of entries\ntarget_pnr = input(\"Enter PNR to search: \")\nfor index, pnr in enumerate(waiting_list):\n    if pnr == target_pnr:\n        print(f\"Found at position {index+1}\")\n        break\nelse:\n    # Executes only if loop never broke\n    print(\"PNR not in waiting list\")\n```\nA poor answer would use a flag variable or put the \"not found\" print after the loop without `else`, missing the point that `else` guarantees the message prints **only** when the loop wasn’t broken — even if the loop body contains multiple `continue` statements or nested loops.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In Python, the else clause attached to a for or while loop executes exactly once after the loop ______ normally — meaning the loop condition became false (for while) or the iterator was exhausted (for for) — and not when the loop is exited via a break statement, return, or an unhandled exception.",
+     "a": "terminates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a program to check whether a student’s roll number exists in a sorted list of ______ students.",
+     "a": "admitted",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) predict whether the else block will execute for a given loop containing break/continue/normal termination, (2) write a loop‑else construct to implement a \"search‑and‑flag\" pattern without an extra Boolean variable, and (3) explain the difference between else on a loop versus else on an if statement.",
+     "self_check": true
     }
    ]
   }

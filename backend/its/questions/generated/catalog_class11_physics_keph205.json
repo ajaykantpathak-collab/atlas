@@ -1,0 +1,99 @@
+{
+ "catalog": "catalog_class11_physics_keph205.json",
+ "concepts": [
+  {
+   "id": "keph205.12.3.1",
+   "title": "Gas Laws and the Ideal Gas Equation",
+   "converted_to_compute": true,
+   "formula": "gas_law = n_moles * gas_const * temp",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "gas_law = n_moles * gas_const * temp",
+     "compute": "gas_law = n_moles * gas_const * temp"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Gas Laws and the Ideal Gas Equation: given n_moles = 7.1, gas_const = 80, temp = 399, find gas law.",
+     "a": "226632",
+     "self_check": false
+    },
+    {
+     "q": "For Gas Laws and the Ideal Gas Equation: given n_moles = 2, gas_const = 14, temp = 207, find gas law.",
+     "a": "5796",
+     "self_check": false
+    },
+    {
+     "q": "For Gas Laws and the Ideal Gas Equation: given n_moles = 17.1, gas_const = 8.3, temp = 236, find gas law.",
+     "a": "33495.5",
+     "self_check": false
+    },
+    {
+     "q": "For Gas Laws and the Ideal Gas Equation: given n_moles = 7.2, gas_const = 27, temp = 388, find gas law.",
+     "a": "75427.2",
+     "self_check": false
+    },
+    {
+     "q": "For Gas Laws and the Ideal Gas Equation: given n_moles = 16.4, gas_const = 15.2, temp = 231, find gas law.",
+     "a": "57583.7",
+     "self_check": false
+    },
+    {
+     "q": "For Gas Laws and the Ideal Gas Equation: given n_moles = 8, gas_const = 67, temp = 363, find gas law.",
+     "a": "194568",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph205.12.4.2",
+   "title": "RMS Speed of Gas Molecules",
+   "converted_to_compute": true,
+   "formula": "v_rms = sqrt(3 * gas_const * temp / molar_mass)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "v_rms = sqrt(3 * gas_const * temp / molar_mass)",
+     "compute": "v_rms = sqrt(3 * gas_const * temp / molar_mass)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For RMS Speed of Gas Molecules: given gas_const = 17.5, temp = 330, molar_mass = 104, find v rms.",
+     "a": "12.9068",
+     "self_check": false
+    },
+    {
+     "q": "For RMS Speed of Gas Molecules: given gas_const = 55, temp = 317, molar_mass = 100, find v rms.",
+     "a": "22.8703",
+     "self_check": false
+    },
+    {
+     "q": "For RMS Speed of Gas Molecules: given gas_const = 50, temp = 379, molar_mass = 75, find v rms.",
+     "a": "27.5318",
+     "self_check": false
+    },
+    {
+     "q": "For RMS Speed of Gas Molecules: given gas_const = 33, temp = 262, molar_mass = 170, find v rms.",
+     "a": "12.3522",
+     "self_check": false
+    },
+    {
+     "q": "For RMS Speed of Gas Molecules: given gas_const = 72, temp = 386, molar_mass = 163, find v rms.",
+     "a": "22.6166",
+     "self_check": false
+    },
+    {
+     "q": "For RMS Speed of Gas Molecules: given gas_const = 50, temp = 328, molar_mass = 87, find v rms.",
+     "a": "23.7806",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

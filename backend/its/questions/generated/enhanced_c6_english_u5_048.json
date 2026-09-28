@@ -34,6 +34,26 @@
      "q": "Create one active voice sentence about a student drawing a picture. Then, rewrite the focus so the picture becomes the subject.",
      "a": "Active: \"The student draws a picture.\" Passive: \"The picture is drawn by the student.\" A poor answer fails to shift the subject or incorrectly attempts a complex transformation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Voice explains the ______ between the doer of an action (the subject) and the action itself.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever noticed that saying \"I ate the mango\" sounds different from saying \"The mango was ______ by me\"?",
+     "a": "eaten",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to correctly identify whether a given sentence is active or passive and explain who is performing the action in that sentence.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever ______ that saying \"I ate the mango\" sounds different from saying \"The mango was eaten by me\"?",
+     "a": "noticed",
+     "self_check": true
     }
    ]
   }

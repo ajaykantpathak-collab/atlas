@@ -31,8 +31,33 @@
      "self_check": true
     },
     {
-     "q": "Design a list of dictionaries to store a school timetable: each entry has 'day', 'period', 'subject', 'teacher', 'room'. Write a function `get_schedule(day, period)` that returns the subject and teacher for that slot, or \"Free\" if none. Assume the list is named `timetable`.",
+     "q": "Design a list of dictionaries to store a school timetable: each entry has 'day', 'period', 'subject', 'teacher', 'room'. Write a function `get_schedule(day, period)` that returns the subject and teacher for that slot, or \"Free\" if N/A. Assume the list is named `timetable`.",
      "a": "Expected answer:\n```python\ndef get_schedule(day, period):\n    for entry in timetable:\n        if entry['day'] == day and entry['period'] == period:\n            return f\"{entry['subject']} - {entry['teacher']}\"\n    return \"Free\"\n```\nA poor answer might use nested loops incorrectly, or assume the list is sorted and use direct indexing `timetable[day][period]`, revealing they don't understand that list of dictionaries requires iteration/search unless an auxiliary index is built.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A list of ______ is a nested data structure where each element of the list is a dictionary, allowing storage of multiple records with key-value pairs; each dictionary represents a structured entity (e.g., a student record) and the list maintains an ordered collection of such entities.",
+     "a": "dictionaries",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a contact list for your phone: each contact has a name, phone number, and ______.",
+     "a": "email",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To access Aarav's email, you use contacts[______]['email'] — first the list index, then the dictionary key.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to create, access, modify, and traverse a list of dictionaries to solve real-world data processing problems (e.g., filtering student records by marks, updating product inventory), and correctly predict the output of nested indexing and iteration code snippets in board exam questions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a contact list for your phone: each contact has a name, phone number, and email.",
+     "a": "building",
      "self_check": true
     }
    ]

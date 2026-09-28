@@ -34,6 +34,31 @@
      "q": "Design a simple observational classification scheme to categorize five unknown light sources found in a rural Indian household (e.g., kerosene lamp, smartphone flashlight, firefly, star visible through a window, and a glowing coal in a sigri). What criteria would you use?\nA) Criteria should be based on whether the object requires human creation/maintenance (artificial) or exists independently of humans through physical/biological processes (natural).\nB) Criteria should be based purely on temperature, separating hot sources from cold sources.\nC) Criteria should be based on whether the light is yellow or white.\nD) Criteria should be based on whether the source uses batteries or fuel.",
      "a": "The correct answer is A (criteria focusing on human origin vs. natural occurrence). A well-designed scheme places the star and firefly under natural sources, while the kerosene lamp, smartphone flashlight, and glowing coal (ignited/maintained by human action in a sigri) are classified as artificial. A poor answer would rely on color or brightness, which fails to capture the fundamental scientific definition of natural versus artificial sources.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sources of light are physical objects or phenomena that emit their own light or scatter light from another source, ______ into natural sources (like the Sun and stars) and artificial sources (like electric bulbs and burning candles).",
+     "a": "categorized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine walking ______ on a sunny afternoon in your courtyard and then coming inside a room to switch on a study lamp.",
+     "a": "outside",
+     "self_check": true
+    },
+    {
+     "q": "What is Sources of light? State the definition given in this lesson.",
+     "a": "Sources of light are physical objects or phenomena that emit their own light or scatter light from another source, categorized into natural sources (like the Sun and stars) and artificial sources (like electric bulbs and burning candles).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Sources of light?",
+     "a": "Students often believe that any object that shines or glows in the dark—such as the Moon, polished metals, or road reflectors—is a source of light.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can classify various everyday illumination sources into natural and artificial categories and explain the basic mechanism of light emission for each (e.g., thermal radiation from the Sun or electrical discharge in a tube light).",
+     "self_check": true
     }
    ]
   }

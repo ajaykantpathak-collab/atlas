@@ -34,6 +34,21 @@
      "q": "Imagine you are building a simple torch model. You have a bulb and a battery, but no switch. How could you manually turn your \"torch\" on and off?",
      "a": "You could manually connect and disconnect one of the wires attached to the battery. This demonstrates that a switch is simply a mechanical tool for making or breaking a connection.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A torchlight is a portable electrical system that generates light by creating a complete path—called a circuit—for ______ to flow from a battery to a bulb.",
+     "a": "electricity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever wondered why your ______ doesn't stay on all the time, even when the battery is inside?",
+     "a": "torchlight",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify the three essential components (battery, bulb, and switch) and explain how the movement of the switch completes or breaks the path of electricity to turn the light on or off.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a set of 5 transactions for a fictional business that would require the use of **all** features of a Three-column Cash Book: cash receipt/payment, cheque receipt/payment (same-day and later deposit), contra entry, dishonoured cheque, bank charges, and both types of cash discounts. List the transactions with dates and amounts.",
      "a": "A good answer provides 5 distinct transactions covering all features, e.g.:\n1. May 1: Cash ₹50,000; Bank ₹20,000 (Dr.)\n2. May 5: Sold goods to Aman ₹10,000, received cheque (deposited same day), allowed 2% discount.\n3. May 10: Received cheque from Bimal ₹15,000 (not deposited), allowed 1% discount.\n4. May 12: Deposited Bimal's cheque into bank.\n5. May 15: Paid creditor Chetan by cheque ₹12,000, received 2% discount.\n6. May 20: Withdrew cash from bank ₹5,000 for office.\n7. May 25: Bimal's cheque dishonoured.\n8. May 30: Bank charged ₹500 interest on overdraft.\n(Any similar set with correct amounts and sequence is acceptable.) A poor answer misses one or more features (e.g., no later deposit, no dishonour, no bank charges) showing the student cannot synthesize the full scope of three-column cash book transactions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Two-column Cash Book records cash and bank ______ side-by-side with separate amount columns for Cash and Bank on both debit (receipts) and credit (payments) sides, while a Three-column Cash Book adds a third column for Discount Allowed (on debit side) and Discount Received (on credit side) to capture cash discounts associated with receipts and payments respectively.",
+     "a": "transactions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Customers pay you in cash, some give cheques, and you pay ______ by cheque or cash.",
+     "a": "suppliers",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You also offer a ______% cash discount for early payment and receive similar discounts from suppliers.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must independently prepare a Two-column and Three-column Cash Book from a mixed set of 10-15 transactions involving cash receipts/payments, cheque receipts/payments, contra entries (cash deposited/withdrawn), dishonoured cheques, and cash discounts, correctly balance both amount columns, and post the non-contra entries to the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ pay you in cash, some give cheques, and you pay suppliers by cheque or cash.",
+     "a": "Customers",
+     "self_check": true
     }
    ]
   }

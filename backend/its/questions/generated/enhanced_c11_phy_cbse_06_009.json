@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a metre scale (uniform rod) and a stopwatch to verify the Parallel Axis Theorem. Describe the setup, measurements, and how you would compare experimental and theoretical values.",
      "a": "**Setup:** Suspend the metre scale horizontally by a thin string at its centre (CM) and set it into small torsional oscillations; measure period \\(T_{\\text{cm}}\\). Then suspend it at a distance \\(d\\) from the centre (e.g., at the 20 cm mark) and measure period \\(T_d\\).  \n**Theory:** For a torsional pendulum, \\(T = 2\\pi \\sqrt{I/\\kappa}\\), where \\(\\kappa\\) is the torsion constant of the string. Thus \\(I \\propto T^2\\).  \n**Verification:** Calculate \\(I_{\\text{cm}} = \\frac{1}{12}ML^2\\). Predict \\(I_d = I_{\\text{cm}} + M d^2\\). Experimentally, \\(I_d / I_{\\text{cm}} = (T_d / T_{\\text{cm}})^2\\). Compare the ratio.  \n**Good answer criteria:** Identifies torsional oscillation method, correctly relates period to moment of inertia, uses the same string (constant \\(\\kappa\\)), and compares ratios. A poor answer (e.g., using a simple pendulum formula or ignoring the torsion constant) reveals confusion between translational and rotational oscillation physics.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This theorem applies only when one of the two ______ axes passes through the centre of mass of the body.",
+     "a": "parallel",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan in an Indian household: the blades rotate about the ______ axis through the motor (centre of mass).",
+     "a": "central",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan in an Indian ______: the blades rotate about the central axis through the motor (centre of mass).",
+     "a": "household",
+     "self_check": true
     }
    ]
   }

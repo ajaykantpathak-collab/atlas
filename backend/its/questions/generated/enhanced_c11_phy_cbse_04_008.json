@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a wooden block, a plank, a protractor, and a few known masses to determine the coefficient of static friction between the block and the plank. Describe the procedure and the calculation.",
      "a": "Place block on plank. Gradually increase incline angle θ until block just starts to slide. Measure this critical angle θc with protractor. Repeat 3 times for average. μs = tan θc. To verify, add known masses on block and repeat - θc should remain same (mass-independent). A poor answer suggesting \"pull horizontally with a spring balance until it moves\" fails to account for the difficulty of measuring the exact instant of impending motion and the variation in applied force angle.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Common forces in mechanics are the fundamental contact and non-contact forces encountered in classical mechanics problems: ______ force (weight, W = mg, acting vertically downward), normal reaction (N, perpendicular to contact surfaces), friction (static fs ≤ μsN opposing impending motion, kinetic fk = μkN opposing relative motion), tension (T, along a massless inextensible string), and spring force (F = -kx, restoring force proportional to displacement).",
+     "a": "gravitational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It experiences ______ pulling down, yet it doesn't fall through the table.",
+     "a": "gravity",
+     "self_check": true
+    },
+    {
+     "q": "What is Common forces in mechanics? State the definition given in this lesson.",
+     "a": "Common forces in mechanics are the fundamental contact and non-contact forces encountered in classical mechanics problems: gravitational force (weight, W = mg, acting vertically downward), normal reaction (N, perpendicular to contact surfaces), friction (static fs ≤ μsN opposing impending motion, kinetic fk = μkN opposing relative.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Common forces in mechanics?",
+     "a": "Students believe friction always opposes motion.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can identify all forces acting on a body in a given physical situation, draw an accurate free-body diagram with correct force directions and relative magnitudes, resolve forces into components using trigonometry, and apply Newton's laws to write equilibrium or motion equations for each direction.",
+     "self_check": true
     }
    ]
   }

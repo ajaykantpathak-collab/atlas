@@ -1,34 +1,50 @@
 {
- "catalog": "catalog_class11_economics_keec106",
+ "catalog": "catalog_class11_economics_keec106.json",
  "concepts": [
   {
    "id": "keec.106.1.1",
    "title": "Workers, Workforce and Labour Force",
+   "converted_to_compute": true,
+   "formula": "unemployment_rate = unemployed / labour_force * 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "unemployment_rate = unemployed / labour_force * 100",
+     "compute": "unemployment_rate = unemployed / labour_force * 100"
+    }
+   ],
    "questions": [
     {
-     "q": "Calculate the unemployment rate from the given data. Use the method 'Workers, Workforce and Labour Force'. Work with: labour_force = 10, unemployed = 50. Carry the chain through step by step and give the final value of unemployment_rate.",
-     "a": "500 per cent",
+     "q": "For Workers, Workforce and Labour Force: given unemployed = 3.9, labour_force = 166, find unemployment rate.",
+     "a": "2.3494",
      "self_check": false
     },
     {
-     "q": "Compute the participation rate of a population. Use the method 'Workers, Workforce and Labour Force'. Work with: labour_force = 3, unemployed = 8. Carry the chain through step by step and give the final value of unemployment_rate.",
-     "a": "266.6667 per cent",
+     "q": "For Workers, Workforce and Labour Force: given unemployed = 31, labour_force = 25, find unemployment rate.",
+     "a": "124",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Workers, Workforce and Labour Force' refers to.",
-     "a": "A worker is any person engaged in an economic activity, the workforce is the number of persons actually working, and the labour force equals the workforce plus the unemployed who are seeking work; labour force participation rate is the labour force as a percentage of the population.",
-     "self_check": true
+     "q": "For Workers, Workforce and Labour Force: given unemployed = 43, labour_force = 813, find unemployment rate.",
+     "a": "5.28905",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Workers, Workforce and Labour Force'.",
-     "a": "The workforce participation rate divides the workforce by the population, showing how many of hundred persons are working.",
-     "self_check": true
+     "q": "For Workers, Workforce and Labour Force: given unemployed = 8.4, labour_force = 220, find unemployment rate.",
+     "a": "3.81818",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Workers, Workforce and Labour Force', in plain ASCII form.",
-     "a": "unemployment_rate = unemployed / labour_force * 100",
-     "self_check": true
+     "q": "For Workers, Workforce and Labour Force: given unemployed = 28, labour_force = 548, find unemployment rate.",
+     "a": "5.10949",
+     "self_check": false
+    },
+    {
+     "q": "For Workers, Workforce and Labour Force: given unemployed = 36, labour_force = 591, find unemployment rate.",
+     "a": "6.09137",
+     "self_check": false
     }
    ]
   },

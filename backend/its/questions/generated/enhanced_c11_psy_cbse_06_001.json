@@ -34,6 +34,21 @@
      "q": "Design a simple classroom demonstration (using only a list of words and a stopwatch) that would allow students to observe the capacity limit of short-term memory and the effect of chunking. Describe the procedure, predicted results, and how they map onto the Stage Model.",
      "a": "Procedure: Read 15 unrelated words at 1-second intervals; students write down as many as they can immediately. Repeat with 15 words that form 3 meaningful chunks (e.g., categories). Predicted: ~7±2 words recalled in first trial; ~12+ in chunked trial. Mapping: first trial shows STM’s 7±2 capacity; second shows chunking expands effective capacity by organizing input into larger units. A poor demonstration that uses only one list or no time pressure fails to isolate STM from LTM contributions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Information Processing Model (Stage Model) ______ human memory as a system that processes information through three sequential stages—encoding (transforming sensory input into a neural code), storage (maintaining encoded information over time), and retrieval (accessing stored information for use)—and three distinct memory stores: sensory memory (large capacity, <1 second), short-term memory (limited capacity, <30 seconds, primarily acoustic encoding), and long-term memory (unlimited capacity, semantic encoding).",
+     "a": "conceptualizes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you hear a new friend’s phone number once and must dial it ______—you repeat it frantically until the call connects.",
+     "a": "immediately",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly label the three stages and three stores of the Stage Model, state the capacity, duration, and primary encoding format of each store, and explain how control processes (selective attention, maintenance rehearsal, chunking, elaborative rehearsal) govern the flow of information between stores.",
+     "self_check": true
     }
    ]
   }

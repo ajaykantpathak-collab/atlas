@@ -34,6 +34,31 @@
      "q": "Design a simple experiment to test whether adventitious root formation in stem cuttings of *Coleus* is promoted more by (a) auxin application, (b) darkness at the base, or (c) both combined. Specify: control, treatments, measurable outcome, duration, and how you would isolate the effect of each factor.",
      "a": "**Control**: *Coleus* cuttings (same node position, length, leaf area) in moist sand, base exposed to light. **Treatments**: (1) IBA 500 ppm dip + light at base; (2) no IBA + base wrapped in foil (darkness); (3) IBA 500 ppm + base wrapped in foil. **Outcome**: number and length of adventitious roots per cutting after 14 days. **Isolation**: Compare (1) vs control → auxin effect; (2) vs control → darkness effect (etiolation promotes rooting by reducing photosynthetic inhibition of root primordia); (3) vs (1) and (2) → synergy. A poor design uses different cutting ages or omits the darkness-only treatment, confounding auxin and etiolation effects.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Vegetative propagation is a mode of asexual ______ in plants where new individuals arise from vegetative parts (roots, stems, leaves) without the involvement of gametes or seed formation, producing genetically identical clones of the parent plant through mitotic cell divisions in meristematic tissues.",
+     "a": "reproduction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a potato tuber sprouting in your kitchen — each \"eye\" is a node with a dormant bud capable of growing into a ______ plant.",
+     "a": "complete",
+     "self_check": true
+    },
+    {
+     "q": "What is Vegetative propagation? State the definition given in this lesson.",
+     "a": "Vegetative propagation is a mode of asexual reproduction in plants where new individuals arise from vegetative parts (roots, stems, leaves) without the involvement of gametes or seed formation, producing genetically identical clones of the parent plant through mitotic cell divisions in meristematic tissues.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) distinguish natural from artificial vegetative propagation with three examples each, explaining the specific plant organ involved; (2) describe the role of meristematic tissue and plant hormones (auxin, cytokinin) in adventitious root/shoot formation during cutting and layering; (3) explain the principle.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a potato tuber ______ in your kitchen — each \"eye\" is a node with a dormant bud capable of growing into a complete plant.",
+     "a": "sprouting",
+     "self_check": true
     }
    ]
   }

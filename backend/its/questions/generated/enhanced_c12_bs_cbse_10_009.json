@@ -27,12 +27,37 @@
     },
     {
      "q": "\"Options are always better than futures for hedging because they limit downside.\" Evaluate this statement with reference to the cost of hedging and the obligation to perform.",
-     "a": "The statement is false. Options require an upfront premium, increasing hedging cost. Futures have no premium but create a binding obligation — if the hedge is no longer needed, exiting a futures position may incur losses. The choice depends on risk appetite, cost sensitivity, and certainty of exposure. A student who agrees without mentioning premium cost or obligation shows superficial understanding.",
+     "a": "(1) Why the claim fails — options charge an upfront premium, which raises the cost of hedging, (2) The futures trade-off — no premium is paid but a binding obligation is created, so if the hedge is no longer needed, exiting the position can itself incur losses, (3) The real rule — the choice depends on risk appetite, cost sensitivity and how certain the exposure is. A student who agrees without mentioning premium cost or the obligation to perform shows only superficial understanding.",
      "self_check": true
     },
     {
      "q": "Design a hedging strategy for an Indian importer who must pay $1 million in 90 days. The importer wants to lock in the exchange rate but also benefit if the rupee appreciates. Specify the instrument, position, and key parameters.",
      "a": "Buy a USD-INR call option (right to buy dollars) with strike near current spot, expiry ≥ 90 days. If rupee depreciates, exercise and buy at strike; if rupee appreciates, let option lapse and buy at spot, losing only premium. A good answer identifies the correct option type (call on USD), strike selection, and trade-off. A poor answer suggests futures (no upside participation) or put option (wrong direction).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ are financial instruments whose value is derived from the value of an underlying asset such as shares, commodities, currencies, interest rates, or market indices.",
+     "a": "Derivatives",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a wheat farmer in Punjab who fears prices may drop by ______ time, and a bread factory in Delhi that fears prices may rise.",
+     "a": "harvest",
+     "self_check": true
+    },
+    {
+     "q": "What is Derivatives are financial instruments whose value? State the definition given in this lesson.",
+     "a": "Derivatives are financial instruments whose value is derived from the value of an underlying asset such as shares, commodities, currencies, interest rates, or market indices.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Derivatives are financial instruments whose value?",
+     "a": "Students often think \"futures and forwards are the same thing — both fix a future price.\" They miss that futures are exchange-traded, standardised, marked-to-market daily, and cleared by a clearing corporation, while forwards are private, customised, and carry counterparty risk.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the key features distinguishing forwards, futures, and options; describe the role of margin, marking-to-market, and premium in each; and identify a real-world hedging or speculation scenario where each instrument would be appropriate.",
      "self_check": true
     }
    ]

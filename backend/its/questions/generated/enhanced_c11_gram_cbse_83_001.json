@@ -1,0 +1,46 @@
+{
+ "catalog": "enhanced_c11_gram_cbse_83_001",
+ "concepts": [
+  {
+   "id": "enh:c11_gram_cbse_83_001",
+   "title": "c11_gram_cbse_83_001",
+   "questions": [
+    {
+     "q": "'He worked day and night so that he ___ support his family.' may/might?",
+     "a": "'might' — past main clause drags the purpose modal back. A wrong answer 'may' ignores the zone-harmony.",
+     "self_check": true
+    },
+    {
+     "q": "'I will phone you as soon as I ___ (reach) home.'",
+     "a": "'reach' — future time-clauses use present form; 'will reach' is banned after 'as soon as'. The Hindi-transfer error.",
+     "self_check": true
+    },
+    {
+     "q": "'She said that she ___ come the next day.' will/would?",
+     "a": "'would' — past reporting zone shifts will→would. A wrong answer 'will' keeps the speaker's modal instead of the reporter's.",
+     "self_check": true
+    },
+    {
+     "q": "Purpose clauses take may/might, not will/______ confusions.",
+     "a": "would-after-past",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In complex ______ the subordinate tense must harmonize with the main: past main → past-family subordinates ('He worked hard so that he might pass'); present/future main → free subordinates.",
+     "a": "sentences",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______-clause rule: 'He studies so that he may pass' (present main) vs 'He studied so that he might pass' (past main) — may→might follows the zone.",
+     "a": "purpose",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student applies tense harmony across object, purpose, result, and time clauses — including might-for-past-purpose and the truth-exemption.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

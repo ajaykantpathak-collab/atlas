@@ -34,6 +34,31 @@
      "q": "Design a field-mapping key for a geologist surveying a terrain with interlayered slate, marble, quartzite, and gneiss. Include four diagnostic field criteria per rock that distinguish them without laboratory tools.",
      "a": "Slate: (1) rings when struck, (2) splits into thin, smooth sheets, (3) dull lustre on cleavage, (4) very fine-grained, dark grey–black. Marble: (1) effervesces with dilute HCl, (2) sugary/granular feel, (3) no foliation, (4) typically white/pink/grey, calcite veins common. Quartzite: (1) breaks across grains (not around), (2) conchoidal fracture, (3) glassy lustre, (4) very hard (scratches glass), often white/pink. Gneiss: (1) distinct light/dark bands >1 mm, (2) coarse visible feldspar/quartz/biotite, (3) banding folded/warped, (4) does not split evenly. A poor key uses only colour or hardness, failing to separate marble from quartzite (both hard, light) or slate from phyllite (both fine, foliated).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Metamorphic rocks are pre-existing rocks (igneous, sedimentary, or earlier metamorphic) that have undergone mineralogical, textural, and structural ______ in the solid state due to changes in temperature, pressure, and chemically active fluids, without reaching melting point.",
+     "a": "transformation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine walking through a quarry in ______'s Makrana region — you see brilliant white blocks being cut for the Taj Mahal's restoration.",
+     "a": "Rajasthan",
+     "self_check": true
+    },
+    {
+     "q": "What is Metamorphic rocks? State the definition given in this lesson.",
+     "a": "Metamorphic rocks are pre-existing rocks (igneous, sedimentary, or earlier metamorphic) that have undergone mineralogical, textural, and structural transformation in the solid state due to changes in temperature, pressure, and chemically active fluids, without reaching melting point.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Metamorphic rocks?",
+     "a": "Students believe \"gneiss is just a banded rock formed from any parent by high pressure.\" In reality, gneissic banding requires both high temperature (for ion diffusion and mineral segregation) AND directed pressure (for alignment).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can identify each rock from hand specimen or thin-section description by linking parent rock, metamorphic grade, foliation type, and mineral assemblage, and can explain the progressive sequence slate → phyllite → schist → gneiss using the concept of increasing metamorphic grade.",
+     "self_check": true
     }
    ]
   }

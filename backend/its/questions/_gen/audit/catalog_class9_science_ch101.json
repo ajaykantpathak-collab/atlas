@@ -1,0 +1,245 @@
+{
+ "catalog": "catalog_class9_science_ch101.json",
+ "concepts": [
+  {
+   "id": "iesc.101.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "actual_system = 20",
+      "ignored_details = 23",
+      "simplified_model = actual_system - ignored_details"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "actual_system = 73",
+      "ignored_details = 78",
+      "simplified_model = actual_system - ignored_details"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "actual_system = 9.6",
+      "ignored_details = 38",
+      "simplified_model = actual_system - ignored_details"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "actual_system = 9.2",
+      "ignored_details = 50",
+      "simplified_model = actual_system - ignored_details"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "actual_system = 95",
+      "ignored_details = 67",
+      "simplified_model = actual_system - ignored_details"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "actual_system = 32",
+      "ignored_details = 11.1",
+      "simplified_model = actual_system - ignored_details"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "simplified_model = actual_system - ignored_details"
+   ]
+  },
+  {
+   "id": "iesc.101.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "numerical_value = 59",
+      "standard_unit = 34",
+      "standardized_value = numerical_value * standard_unit"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "numerical_value = 114",
+      "standard_unit = 40",
+      "standardized_value = numerical_value * standard_unit"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "numerical_value = 41",
+      "standard_unit = 37",
+      "standardized_value = numerical_value * standard_unit"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "numerical_value = 35",
+      "standard_unit = 43",
+      "standardized_value = numerical_value * standard_unit"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "numerical_value = 8.7",
+      "standard_unit = 66",
+      "standardized_value = numerical_value * standard_unit"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "numerical_value = 73",
+      "standard_unit = 30",
+      "standardized_value = numerical_value * standard_unit"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "standardized_value = numerical_value * standard_unit"
+   ]
+  },
+  {
+   "id": "iesc.101.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "law = 94",
+      "theory = 40",
+      "principle = 93",
+      "scientific_framework = law + theory + principle"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "law = 31",
+      "theory = 99",
+      "principle = 96",
+      "scientific_framework = law + theory + principle"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "law = 44",
+      "theory = 59",
+      "principle = 96",
+      "scientific_framework = law + theory + principle"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "law = 12.1",
+      "theory = 7.6",
+      "principle = 58",
+      "scientific_framework = law + theory + principle"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "law = 60",
+      "theory = 24",
+      "principle = 90",
+      "scientific_framework = law + theory + principle"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "law = 28",
+      "theory = 49",
+      "principle = 82",
+      "scientific_framework = law + theory + principle"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "scientific_framework = law + theory + principle"
+   ]
+  },
+  {
+   "id": "iesc.101.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "breaths_per_minute = 17.8",
+      "minutes_per_day = 13.3",
+      "volume_per_breath = 54",
+      "total_volume = breaths_per_minute * minutes_per_day * volume_per_breath"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "breaths_per_minute = 55",
+      "minutes_per_day = 40",
+      "volume_per_breath = 38",
+      "total_volume = breaths_per_minute * minutes_per_day * volume_per_breath"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "breaths_per_minute = 9.3",
+      "minutes_per_day = 22",
+      "volume_per_breath = 79",
+      "total_volume = breaths_per_minute * minutes_per_day * volume_per_breath"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "breaths_per_minute = 58",
+      "minutes_per_day = 75",
+      "volume_per_breath = 99",
+      "total_volume = breaths_per_minute * minutes_per_day * volume_per_breath"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "breaths_per_minute = 62",
+      "minutes_per_day = 21",
+      "volume_per_breath = 87",
+      "total_volume = breaths_per_minute * minutes_per_day * volume_per_breath"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "breaths_per_minute = 17.7",
+      "minutes_per_day = 56",
+      "volume_per_breath = 52",
+      "total_volume = breaths_per_minute * minutes_per_day * volume_per_breath"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_volume = breaths_per_minute * minutes_per_day * volume_per_breath"
+   ]
+  }
+ ]
+}

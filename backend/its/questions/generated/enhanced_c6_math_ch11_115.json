@@ -34,6 +34,36 @@
      "q": "Design a quick \"check\" to tell if your classmate's 130° angle is likely correct without using a protractor.",
      "a": "A good answer mentions that 130° is obtuse, so it must be wider than a square corner (90°) but narrower than a straight line (180°). A poor answer suggests \"it looks big,\" which is too vague and lacks geometric reasoning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ an angle is the process of using a protractor and a straightedge to create a specific opening between two rays that share a common endpoint.",
+     "a": "Constructing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a wooden ramp for your toy car and you need to ensure the slope is ______ 30 degrees so the car doesn't go too fast.",
+     "a": "exactly",
+     "self_check": true
+    },
+    {
+     "q": "What is Constructing an angle? State the definition given in this lesson.",
+     "a": "Constructing an angle is the process of using a protractor and a straightedge to create a specific opening between two rays that share a common endpoint.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a wooden ramp for your toy car and you need to ensure the slope is exactly ______ degrees so the car doesn't go too fast.",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Constructing an angle?",
+     "a": "Students often mix up the inner and outer scales of the protractor, especially when the ray points to the left.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to draw a ray, correctly position a protractor’s centre and base line, accurately mark a degree measure, and connect the points to form an angle of the requested size.",
+     "self_check": true
     }
    ]
   }

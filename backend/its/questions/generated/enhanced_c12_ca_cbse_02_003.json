@@ -34,6 +34,36 @@
      "q": "Design a conditional formatting rule (using a formula) for a range `B5:B100` (invoice amounts) that highlights the entire row (A5:F5, A6:F6, ...) in yellow if the invoice amount is greater than the average of all invoices in B5:B100 AND the invoice date in column A is in the current month. Write the formula for the rule applied to `A5:F100`.",
      "a": "`=AND($B5>AVERAGE($B$5:$B$100), MONTH($A5)=MONTH(TODAY()), YEAR($A5)=YEAR(TODAY()))` applied to `A5:F100`. The formula uses mixed references: column locked ($B, $A) so the condition travels across columns, row relative (5) so it evaluates per row. A student who writes `=$B5>AVERAGE(B5:B100)` without absolute references for the average range will get a shifting average — a classic error showing misunderstanding of reference locking in conditional formatting formulas.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Data formatting in spreadsheets refers to the systematic application of visual and structural rules — such as number formats (currency, percentage, date), text styles (font, alignment, borders), conditional formatting (color scales, data bars, icon sets), and table styles — to transform raw data into a readable, analysable, and ______ presentable worksheet without altering the underlying cell values.",
+     "a": "professionally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just received a raw sales dump from your family's small wholesale business: 500 rows of dates, product codes, quantities, unit prices, and customer names — all in default General format, left-aligned text, right-aligned numbers, no ______ symbols, no thousand separators, and dates showing as serial numbers like 45231.",
+     "a": "currency",
+     "self_check": true
+    },
+    {
+     "q": "What is Data formatting in spreadsheets? State the definition given in this lesson.",
+     "a": "Data formatting in spreadsheets refers to the systematic application of visual and structural rules — such as number formats (currency, percentage, date), text styles (font, alignment, borders), conditional formatting (color scales, data bars, icon sets), and table styles — to transform raw data into a readable, analysable, and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Your task is to turn this into a report your father can read in ______ seconds to decide which products to restock.",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Data formatting in spreadsheets?",
+     "a": "Students believe that applying a format (e.g., Currency, Percentage, Date) *changes the stored value* in the cell.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently format a raw dataset (containing numbers, dates, text, and formulas) by applying appropriate number formats, conditional formatting rules, cell styles, and table formatting to meet a specified reporting requirement, and can explain why each formatting choice improves readability or analysis.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a small office IPv6 addressing plan using the Unique Local Address (ULA) prefix fd00::/8. Allocate /64 subnets for three VLANs (Admin, Lab, Guest) and write the full subnet prefix for each. Explain why a /64 boundary is mandatory for SLAAC.",
      "a": "ULA prefix: fd00::/8. Choose a random 40-bit Global ID (per RFC 4193), e.g., fd12:3456:789a::/48. Then three /64 subnets:  \nAdmin: fd12:3456:789a:0001::/64  \nLab:   fd12:3456:789a:0002::/64  \nGuest: fd12:3456:789a:0003::/64  \n/64 is mandatory because SLAAC constructs the Interface Identifier from the lower 64 bits (EUI-64 or stable privacy); a different prefix length would break automatic address configuration. A poor answer uses /48 for each VLAN or omits the Global ID randomness, showing ignorance of ULA structure and SLAAC requirements.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An IP address is a unique numerical identifier assigned to each device on a network that uses the Internet Protocol for ______.",
+     "a": "communication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are setting up a Wi-Fi hotspot on your phone and your friend's laptop asks for an \"IP ______\" to connect.",
+     "a": "address",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight is that IPv______ isn't just longer—it simplifies header processing, eliminates broadcast, and builds in autoconfiguration.",
+     "a": "6",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can convert an IPv4 address between dotted-decimal and binary forms, identify the network and host portions using a subnet mask, and explain the structural differences and advantages of IPv6 over IPv4 using correct terminology.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are setting up a Wi-Fi hotspot on your phone and your friend's laptop asks for an \"IP address\" to connect.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

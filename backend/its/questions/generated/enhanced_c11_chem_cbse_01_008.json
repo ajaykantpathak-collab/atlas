@@ -34,6 +34,36 @@
      "q": "Design a procedure to determine the molar mass of an unknown volatile liquid using only a balance, a graduated cylinder, a thermometer, a barometer, and the ideal gas law (PV = nRT). Outline the measurements, calculations, and assumptions.",
      "a": "Vaporize a known mass (m) of the liquid in a flask of known volume (V) at temperature (T) and pressure (P). Measure m, V, T, P. Calculate n = PV/RT. Molar mass = m/n. Assumptions: gas behaves ideally, vapor fills the flask completely, no air remains, temperature and pressure are uniform. A poor answer (e.g., measuring liquid volume instead of vapor volume, ignoring temperature/pressure) reveals lack of integration between gas laws and molar mass concept, a common gap in applying molar mass to physical methods.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Molar mass is the mass of one mole of a substance (element or compound) expressed in grams per mole (g mol⁻¹); it is ______ equal to the atomic, molecular, or formula mass in unified atomic mass units (u) and provides the bridge between the macroscopic mass measured in the laboratory and the microscopic amount of substance in moles.",
+     "a": "numerically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in the kitchen ______ 18 g of water — you know from Class 9 that water is H₂O, but how many water molecules are actually in that beaker?",
+     "a": "measuring",
+     "self_check": true
+    },
+    {
+     "q": "What is Molar mass? State the definition given in this lesson.",
+     "a": "Molar mass is the mass of one mole of a substance (element or compound) expressed in grams per mole (g mol⁻¹); it is numerically equal to the atomic, molecular, or formula mass in unified atomic mass units (u) and provides the bridge between the macroscopic mass measured in the laboratory and the microscopic amount of substance in moles.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by recalling the molecular mass of water (______ u) from the previous node on atomic and molecular mass.",
+     "a": "18",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Molar mass?",
+     "a": "Students often treat the molar mass of diatomic elements (H₂, N₂, O₂, Cl₂, Br₂, I₂) as the atomic mass of the single atom (e.g., using 1.008 g mol⁻¹ for H₂ instead of 2.016 g mol⁻¹) because they confuse \"molar mass of hydrogen\" with \"molar mass of hydrogen atoms\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the molar mass of any compound from its chemical formula using standard atomic masses, convert between mass (grams), amount (moles), and number of entities (atoms, molecules, formula units) using Avogadro's constant, and apply these conversions to solve multi-step stoichiometric problems such as determining.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a one-day three-meal plan (breakfast, lunch, dinner) for a sedentary adult man (2320 kcal, 60g protein) at a strict low-cost budget of ₹45/day. Use only these foods with prices: wheat flour ₹30/kg, rice ₹35/kg, Bengal gram ₹100/kg, soyabean ₹120/kg, spinach ₹40/kg, potato ₹25/kg, onion ₹30/kg, oil ₹110/L, sugar ₹40/kg, milk ₹50/L. Provide raw weights, total cost, and verify energy and protein meet ≥90% RDA.",
      "a": "A good answer will: (1) Allocate budget across meals (e.g., ₹15 each). (2) Use cereal-pulse combination 3:1 with soyabean for high protein. Example: Breakfast: wheat 60g (₹1.80) + soyabean 20g (₹2.40) + spinach 50g (₹2.00) + oil 5g (₹0.55) = ₹6.75, 300 kcal, 14g protein. Lunch: rice 80g (₹2.80) + Bengal gram 30g (₹3.00) + potato 50g (₹1.25) + oil 5g (₹0.55) = ₹7.60, 550 kcal, 16g protein. Dinner: wheat 60g (₹1.80) + soyabean 20g (₹2.40) + potato 50g (₹1.25) + oil 5g (₹0.55) + sugar 10g (₹0.40) = ₹6.40, 500 kcal, 14g protein. Total cost ≈ ₹20.75, well under budget, energy ~1350 kcal (58% RDA), protein ~44g (73% RDA) — fails 90% energy. To meet 90% (2088 kcal, 54g protein), need more cereal/fat. Adjust: increase cereals to 100g each meal, oil 10g each, add milk 100ml at dinner. New cost ~₹35, energy ~2100 kcal, protein ~55g. A poor answer that just lists foods without calculation or misses the 90% threshold shows inability to integrate budgeting with nutrient goals.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Meal planning for different budget levels involves designing ______ adequate menus that meet the Recommended Dietary Allowances (RDAs) for specific age/activity groups while strictly adhering to a predetermined per-meal or per-day food cost ceiling — low-cost budgets prioritize nutrient-dense inexpensive staples (cereals, pulses, seasonal vegetables), medium-cost budgets allow inclusion of animal proteins (milk, eggs) and variety, and high-cost budgets incorporate diverse food groups, convenience foods, and out-of-season produce without compromising nutritional adequacy.",
+     "a": "nutritionally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ at a community kitchen serving three different hostels: a students' hostel with ₹30/meal budget, a working women's hostel with ₹60/meal, and an executive hostel with ₹120/meal.",
+     "a": "dietitian",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Calculate the per-meal cost of a given menu using current market prices and standard portion sizes, and (2) Modify a given menu to shift it from one budget category to another (e.g., low-cost to medium-cost) while maintaining nutritional adequacy for a specified target group, justifying each substitution.",
+     "self_check": true
     }
    ]
   }

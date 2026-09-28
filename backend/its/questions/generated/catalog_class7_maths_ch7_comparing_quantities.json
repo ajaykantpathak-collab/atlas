@@ -5,6 +5,8 @@
    "id": "c7m7.1.1",
    "title": "Meaning of Percentage",
    "converted_to_compute": false,
+   "formula": "percentage = (part / total) x 100; 1% = 1/100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 40% of 600.",
@@ -42,6 +44,8 @@
    "id": "c7m7.1.2",
    "title": "Converting Fractions to Percentage",
    "converted_to_compute": false,
+   "formula": "fraction -> percentage: multiply by 100%",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 4 x 7/6.",
@@ -79,6 +83,8 @@
    "id": "c7m7.1.3",
    "title": "Converting Decimals to Percentage",
    "converted_to_compute": false,
+   "formula": "decimal -> percentage: multiply by 100%",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the number with 3 units, 5 tenths and 5 hundredths as a decimal.",
@@ -116,6 +122,8 @@
    "id": "c7m7.1.4",
    "title": "Converting Percentages to Fractions or Decimals",
    "converted_to_compute": false,
+   "formula": "percentage -> fraction: divide by 100; percentage -> decimal: divide by 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 7 x 5/6.",
@@ -152,15 +160,9 @@
   {
    "id": "c7m7.2.1",
    "title": "Interpreting Percentages",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "convert the percentage to a fraction and multiply",
-     "explain": "convert the percentage to a fraction and multiply: val = 5 / 100 * 40 gives 2",
-     "compute": "val = 5 / 100 * 40"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "x% means x out of every 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 5% of 40.",
@@ -198,6 +200,8 @@
    "id": "c7m7.2.2",
    "title": "Converting Percentages to How Many",
    "converted_to_compute": false,
+   "formula": "count = (percentage/100) x total; whole = (part/percentage) x 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 25% of 40.",
@@ -235,6 +239,8 @@
    "id": "c7m7.2.3",
    "title": "Ratios to Percents",
    "converted_to_compute": false,
+   "formula": "for ratio a:b:c, percentage of a = (a/(a+b+c)) x 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 5% of 200.",
@@ -272,6 +278,8 @@
    "id": "c7m7.2.4",
    "title": "Increase or Decrease as Per Cent",
    "converted_to_compute": false,
+   "formula": "percentage_change = (change / original) x 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 10% of 200.",
@@ -309,6 +317,8 @@
    "id": "c7m7.3.1",
    "title": "Profit and Loss",
    "converted_to_compute": false,
+   "formula": "profit = sp - cp (when sp > cp); loss = cp - sp (when cp > sp)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A trader buys an article for Rs 120 and sells it for Rs 144. Find the profit.",
@@ -346,6 +356,8 @@
    "id": "c7m7.3.2",
    "title": "Profit or Loss as Percentage",
    "converted_to_compute": false,
+   "formula": "profit_pct = (profit/cp) x 100; loss_pct = (loss/cp) x 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 5% of 320.",
@@ -383,6 +395,8 @@
    "id": "c7m7.4.1",
    "title": "Simple Interest",
    "converted_to_compute": false,
+   "formula": "i = (p x r x t) / 100; amount = p + i",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the simple interest on Rs 5000 at 6% per annum for 5 years.",

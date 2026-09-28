@@ -34,6 +34,26 @@
      "q": "Create a new inferential question for this poem that requires connecting the clock towers’ differing times to the theme of communal harmony. Provide a model answer.",
      "a": "Question: “How does the poet use the image of clocks keeping different times to comment on India’s communal harmony?” Model answer: The clocks’ slight differences (“each slightly off the others’ time”) mirror the diverse communities (Hindu, Christian, Muslim) coexisting with minor friction (“perennial feuds and seasonal alliance”). Their timekeeping is disrupted by external forces (“change of wind, a change of mind, or a siren”), just as communal harmony is fragile. A poor answer would only describe the clocks without linking to communities.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal ______ questions require retrieving explicitly stated information from the poem (e.g., what the clock towers do, what causes their time differences).",
+     "a": "comprehension",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you’re ______ in the exam hall and the first question asks, “What did you think the poem was about when you read the first few lines?” You might panic because it asks for your initial impression.",
+     "a": "sitting",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently classify a question as literal or inferential, locate exact textual evidence for literal answers, and construct inferential answers by combining textual clues with logical reasoning, citing specific lines or stanzas.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you’re sitting in the exam hall and the first question asks, “What did you think the poem was about when you read the first few lines?” You might panic because it asks for your initial ______.",
+     "a": "impression",
+     "self_check": true
     }
    ]
   }

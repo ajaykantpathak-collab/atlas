@@ -34,6 +34,36 @@
      "q": "Design a simple rule-based flowchart (in words) that a Class 9 student can follow to find the valency of any element with Z=1–20, starting from its atomic number. Include decision points for the octet/duplet rule.",
      "a": "Flowchart: (1) Write atomic number Z. (2) Distribute electrons in shells K, L, M, N using 2n² (max 2, 8, 8, 2 for Z≤20). (3) Note electrons in outermost shell = V. (4) If V = 0 or 8 (or 2 for K-shell only), valency = 0. (5) Else if V ≤ 4, valency = V. (6) Else (V = 5,6,7), valency = 8 − V. (7) Output valency. A poor answer that misses the duplet exception for helium or the V=0 case shows incomplete algorithmic thinking and inability to handle edge cases.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Valency is the combining capacity of an atom of an element, numerically equal to the number of electrons it can lose, gain, or share to achieve a stable noble gas ______ (octet or duplet).",
+     "a": "configuration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a packet of table salt (NaCl) in your kitchen — sodium, a soft metal, and ______, a poisonous gas, combine to form a safe, edible compound.",
+     "a": "chlorine",
+     "self_check": true
+    },
+    {
+     "q": "What is Valency? State the definition given in this lesson.",
+     "a": "Valency is the combining capacity of an atom of an element, numerically equal to the number of electrons it can lose, gain, or share to achieve a stable noble gas configuration (octet or duplet).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by recalling how electrons are arranged in shells (______n² rule) from the previous node.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Valency?",
+     "a": "Students consistently calculate valency of oxygen (Z=8, config 2,6) as 6 instead of 2, and nitrogen (Z=7, config 2,5) as 5 instead of 3.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can determine the valency of any element (Z=1–20) from its atomic number by writing its electron distribution, identifying valence electrons, and applying the octet/duplet rule.",
+     "self_check": true
     }
    ]
   }

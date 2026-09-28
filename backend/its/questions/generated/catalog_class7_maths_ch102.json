@@ -5,6 +5,8 @@
    "id": "gegp.2.1.1",
    "title": "Arithmetic Expressions and Values",
    "converted_to_compute": false,
+   "formula": "expression = value",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 7 when x = 7.",
@@ -41,15 +43,9 @@
   {
    "id": "gegp.2.1.2",
    "title": "Comparing Expressions",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the circle formula with pi = 22/7",
-     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 77 gives 484",
-     "compute": "circ = 2 * 22 / 7 * 77"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "value_1 [=|<|>] value_2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 77 cm (take pi = 22/7).",
@@ -87,6 +83,8 @@
    "id": "gegp.2.2.1",
    "title": "Brackets in Expressions",
    "converted_to_compute": false,
+   "formula": "a + (b * c)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 3 when x = 6.",
@@ -123,15 +121,9 @@
   {
    "id": "gegp.2.2.2",
    "title": "Terms in Expressions",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute the given values and simplify",
-     "explain": "substitute the given values and simplify: val = 3 * 3 + 8 gives 17",
-     "compute": "val = 3 * 3 + 8"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "a - b = a + (-b)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 8 when x = 3.",
@@ -168,15 +160,9 @@
   {
    "id": "gegp.2.2.3",
    "title": "Commutative Property of Addition",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the integer operation sign rules",
-     "explain": "apply the integer operation sign rules: total = -12 + (10) gives -2",
-     "compute": "total = -12 + (10)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "term1 + term2 = term2 + term1",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers -12 and 10.",
@@ -213,15 +199,9 @@
   {
    "id": "gegp.2.2.4",
    "title": "Associative Property of Addition",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the integer operation sign rules",
-     "explain": "apply the integer operation sign rules: total = -15 + (-3) gives -18",
-     "compute": "total = -15 + (-3)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "(term1 + term2) + term3 = term1 + (term2 + term3)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers -15 and -3.",
@@ -259,6 +239,8 @@
    "id": "gegp.2.2.5",
    "title": "Removing Brackets Preceded by a Negative Sign",
    "converted_to_compute": false,
+   "formula": "a - (b + c) = a - b - c",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 8 when x = 2.",
@@ -296,6 +278,8 @@
    "id": "gegp.2.2.6",
    "title": "Distributive Property",
    "converted_to_compute": false,
+   "formula": "a * (b + c) = a * b + a * c",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers -9 and 1.",

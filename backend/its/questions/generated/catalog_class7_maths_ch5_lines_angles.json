@@ -4,15 +4,9 @@
   {
    "id": "c7m5.1.1",
    "title": "Line, Line Segment, Ray",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "recall the count for the shape",
-     "explain": "recall the count for the shape: lines = 5 gives 5",
-     "compute": "lines = 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "segment = 2 endpoints; line = 0 endpoints; ray = 1 endpoint",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a regular pentagon have?",
@@ -50,6 +44,8 @@
    "id": "c7m5.2.1",
    "title": "Complementary Angles",
    "converted_to_compute": false,
+   "formula": "angle1 + angle2 = 90 degrees",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 79 degrees, find the other.",
@@ -87,6 +83,8 @@
    "id": "c7m5.2.2",
    "title": "Supplementary Angles",
    "converted_to_compute": false,
+   "formula": "angle1 + angle2 = 180 degrees",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 31 degrees, find the other.",
@@ -123,15 +121,9 @@
   {
    "id": "c7m5.2.3",
    "title": "Adjacent Angles and Linear Pair",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 30 gives 60",
-     "compute": "other = 90 - 30"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "adjacent: common vertex + common arm; linear pair: adjacent + sum = 180",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 30 degrees, find the other.",
@@ -168,15 +160,9 @@
   {
    "id": "c7m5.2.4",
    "title": "Vertically Opposite Angles",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 22 gives 68",
-     "compute": "other = 90 - 22"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "vertically opposite angles are equal",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 22 degrees, find the other.",
@@ -213,15 +199,9 @@
   {
    "id": "c7m5.3.1",
    "title": "Intersecting Lines",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "recall the count for the shape",
-     "explain": "recall the count for the shape: lines = 3 gives 3",
-     "compute": "lines = 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "intersecting lines share exactly one point",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a equilateral triangle have?",
@@ -258,15 +238,9 @@
   {
    "id": "c7m5.3.2",
    "title": "Transversal",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 68 gives 22",
-     "compute": "other = 90 - 68"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "transversal intersects 2+ lines at distinct points",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 68 degrees, find the other.",
@@ -303,15 +277,9 @@
   {
    "id": "c7m5.3.3",
    "title": "Angles Made by a Transversal",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 47 gives 43",
-     "compute": "other = 90 - 47"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "8 angles: interior, exterior, corresponding, alternate, same-side",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 47 degrees, find the other.",
@@ -349,6 +317,8 @@
    "id": "c7m5.3.4",
    "title": "Transversal of Parallel Lines",
    "converted_to_compute": false,
+   "formula": "parallel: corresponding = equal; alternate interior = equal; same-side interior = 180",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 48 degrees, find the other.",
@@ -385,15 +355,9 @@
   {
    "id": "c7m5.4.1",
    "title": "Checking for Parallel Lines",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 14 gives 76",
-     "compute": "other = 90 - 14"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "equal corresponding or equal alternate or supplementary same-side => parallel",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 14 degrees, find the other.",

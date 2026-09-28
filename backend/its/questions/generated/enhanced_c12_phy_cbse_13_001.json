@@ -22,7 +22,7 @@
     },
     {
      "q": "Compare the following pairs and classify each as isotopes, isobars, or isotones: (a) \\(^{14}_6 C\\) and \\(^{14}_7 N\\); (b) \\(^{12}_6 C\\) and \\(^{13}_6 C\\); (c) \\(^{40}_{18} Ar\\) and \\(^{40}_{20} Ca\\); (d) \\(^{14}_6 C\\) and \\(^{15}_7 N\\). Explain your reasoning for each.",
-     "a": "(a) Isobars (same A=14, different Z). (b) Isotopes (same Z=6, different A). (c) Isobars (same A=40, different Z). (d) Isotones (same N=8: for C-14, N=8; for N-15, N=8). A wrong classification (e.g., calling (a) isotopes) reveals the student is matching only one parameter (A or Z) without checking both. The key is: isotopes = same Z; isobars = same A; isotones = same N.",
+     "a": "(1) Pair one — carbon-14 and nitrogen-14 are isobars, sharing the mass number fourteen with different atomic numbers, (2) Pair two — carbon-12 and carbon-13 are isotopes, the same atomic number six with different mass numbers, (3) Pair three — argon-40 and calcium-40 are isobars, again equal mass numbers with different atomic numbers, (4) Pair four — carbon-14 and nitrogen-15 are isotones, each holding eight neutrons, (5) The rule — isotopes share the proton count, isobars share the mass number and isotones share the neutron count, so both parameters must be checked before classifying. A wrong answer such as calling the first pair isotopes matches only one parameter without checking the other.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Design a simple card-sorting activity for Class 11 students to help them distinguish between isotopes, isobars, and isotones. Specify what information each card should show, how many cards you would make, and the sorting rules.",
      "a": "Create cards each showing a nuclide symbol \\(^A_Z X\\) and its neutron number N. Make 12 cards: 4 isotopes of oxygen (Z=8, A=16,17,18,19), 4 isobars with A=40 (Ar, K, Ca, Sc), 4 isotones with N=20 (e.g., \\(^{36}_{16} S\\), \\(^{38}_{18} Ar\\), \\(^{40}_{20} Ca\\), \\(^{42}_{22} Ti\\)). Sorting rule: Group by same Z → isotopes; same A → isobars; same N → isotones. A poor activity (e.g., cards missing N, or only showing element names) fails to make the neutron number visible, which is essential for identifying isotones.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The atomic number (Z) of an element is the number of protons in its nucleus, which ______ the element's chemical identity and its position in the periodic table.",
+     "a": "determines",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at a ______ table on your classroom wall — every box shows an integer (atomic number) and a decimal (average atomic mass).",
+     "a": "periodic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If you could magically add a neutron, you'd get helium-______?",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can also distinguish between isotopes, isobars, and isotones with examples.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at a periodic table on your ______ wall — every box shows an integer (atomic number) and a decimal (average atomic mass).",
+     "a": "classroom",
      "self_check": true
     }
    ]

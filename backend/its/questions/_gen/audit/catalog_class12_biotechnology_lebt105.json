@@ -1,0 +1,227 @@
+{
+ "catalog": "catalog_class12_biotechnology_lebt105.json",
+ "concepts": [
+  {
+   "id": "lebt105.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "recombinants = 97",
+      "offspring_total = 87",
+      "rec_pct = recombinants * 100 / offspring_total"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "recombinants = 87",
+      "offspring_total = 38",
+      "rec_pct = recombinants * 100 / offspring_total"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "recombinants = 89",
+      "offspring_total = 119",
+      "rec_pct = recombinants * 100 / offspring_total"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "recombinants = 56",
+      "offspring_total = 35",
+      "rec_pct = recombinants * 100 / offspring_total"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "recombinants = 86",
+      "offspring_total = 61",
+      "rec_pct = recombinants * 100 / offspring_total"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "recombinants = 96",
+      "offspring_total = 39",
+      "rec_pct = recombinants * 100 / offspring_total"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "rec_pct = recombinants * 100 / offspring_total"
+   ]
+  },
+  {
+   "id": "lebt105.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "cuts = 71",
+      "linear_frags = cuts + 1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "cuts = 52",
+      "linear_frags = cuts + 1"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "cuts = 29",
+      "linear_frags = cuts + 1"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "cuts = 53",
+      "linear_frags = cuts + 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "cuts = 67",
+      "linear_frags = cuts + 1"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "cuts = 81",
+      "linear_frags = cuts + 1"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "linear_frags = cuts + 1"
+   ]
+  },
+  {
+   "id": "lebt105.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "read_len = 56",
+      "capillaries = 32",
+      "machine_output = read_len * capillaries"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "read_len = 81",
+      "capillaries = 30",
+      "machine_output = read_len * capillaries"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "read_len = 24",
+      "capillaries = 100",
+      "machine_output = read_len * capillaries"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "read_len = 78",
+      "capillaries = 18.4",
+      "machine_output = read_len * capillaries"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "read_len = 21",
+      "capillaries = 82",
+      "machine_output = read_len * capillaries"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "read_len = 8.1",
+      "capillaries = 88",
+      "machine_output = read_len * capillaries"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "machine_output = read_len * capillaries"
+   ]
+  },
+  {
+   "id": "lebt105.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "nanopore_len = 63",
+      "illumina_len = 14",
+      "length_fold = nanopore_len / illumina_len"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "nanopore_len = 31",
+      "illumina_len = 14.6",
+      "length_fold = nanopore_len / illumina_len"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "nanopore_len = 12.6",
+      "illumina_len = 55",
+      "length_fold = nanopore_len / illumina_len"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "nanopore_len = 17.3",
+      "illumina_len = 69",
+      "length_fold = nanopore_len / illumina_len"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "nanopore_len = 82",
+      "illumina_len = 72",
+      "length_fold = nanopore_len / illumina_len"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "nanopore_len = 51",
+      "illumina_len = 49",
+      "length_fold = nanopore_len / illumina_len"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "length_fold = nanopore_len / illumina_len"
+   ]
+  }
+ ]
+}

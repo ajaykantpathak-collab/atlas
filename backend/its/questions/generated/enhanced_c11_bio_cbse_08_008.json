@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using differential staining to distinguish euchromatin from heterochromatin in a plant root tip interphase nucleus. Describe expected observations.",
      "a": "Use Feulgen staining (DNA-specific) combined with acetocarmine: euchromatin stains lightly (less condensed, transcriptionally active), heterochromatin stains deeply (highly condensed, late-replicating). Under light microscopy, expect a network of pale fibers with intensely dark granules (heterochromatin) often at nuclear periphery and around nucleolus. A poor design using only generic dyes (e.g., safranin) reveals inability to select DNA-specific stains for chromatin differentiation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The nucleus is a double membrane-bound organelle that houses the genetic material (DNA) organized as chromatin in interphase and ______ during cell division, and contains the nucleolus where ribosomal RNA is transcribed and ribosomal subunits are assembled.",
+     "a": "chromosomes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe an onion root tip slide under a compound microscope - you see distinct dark-stained bodies (______) in dividing cells but a faint network in non-dividing cells.",
+     "a": "chromosomes",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can draw and label a detailed diagram of the interphase nucleus showing nuclear envelope, pores, nucleoplasm, nucleolus, and chromatin; can explain the structural difference between chromatin and chromosomes and classify chromosomes based on centromere position with diagrams; can describe the function of each nuclear component in gene.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a simple classroom demonstration (using only a projector and speaker) to show the duration difference between iconic and echoic memory. Specify the stimulus, procedure, and predicted outcome for each modality.",
      "a": "**Iconic demo**: Flash a 4×4 random letter grid for 50 ms. Ask students to write all letters. Most recall 4-5. Repeat with partial report (cue row by tone after flash). Recall jumps to ~3 letters/row → ~9-10 total. **Echoic demo**: Play a 7-digit number at 1 digit/sec. Immediately after, play a masking tone. Ask for recall. Repeat with 2-sec delay before mask. Recall drops sharply at 2-sec delay. **Prediction**: Iconic decays by 300 ms; echoic persists ~2-4 s. A poor demo confuses masking with decay or doesn't control output time.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sensory memory is the initial, ultra-brief memory system that holds exact replicas of incoming sensory ______ (visual, auditory, tactile, etc.) for a fraction of a second to a few seconds before it either decays or is transferred to short-term memory through attention.",
+     "a": "information",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you're crossing a busy Delhi street and suddenly hear a loud horn — you instantly \"replay\" the sound in your mind for a couple of seconds even after it stops.",
+     "a": "Imagine",
+     "self_check": true
+    },
+    {
+     "q": "What is Sensory memory? State the definition given in this lesson.",
+     "a": "Sensory memory is the initial, ultra-brief memory system that holds exact replicas of incoming sensory information (visual, auditory, tactile, etc.) for a fraction of a second to a few seconds before it either decays or is transferred to short-term memory through attention.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Sensory memory?",
+     "a": "Students believe sensory memory is \"where memories start\" — i.e., that iconic/echoic memory is the *first step of memorisation*.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish iconic from echoic memory on duration, capacity, and neural pathway, explain Sperling's partial report experiment and its implication for iconic memory capacity, and describe how selective attention acts as the gatekeeper transferring information from sensory registers to short-term memory.",
+     "self_check": true
     }
    ]
   }

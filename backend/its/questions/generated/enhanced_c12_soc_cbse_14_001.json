@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_14_001",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_14_001",
+   "title": "c12_soc_cbse_14_001",
+   "questions": [
+    {
+     "q": "Define mass media in one sentence using the three essential structural features that distinguish it from interpersonal communication.",
+     "a": "Mass media are institutionally organised communication technologies that disseminate standardised content to large, heterogeneous, geographically dispersed audiences through one-to-many channels requiring significant capital and professional management. A wrong answer that only lists examples (TV, newspaper) or mentions \"large audience\" without institutional organisation reveals the student sees media as devices rather than social structures.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT states: \"Mass media functions through very large organisations with major investments and large body of employees.\" Explain why this organisational feature means mass media cannot be purely a neutral reflector of society.",
+     "a": "Because large organisations have hierarchical decision-making, profit or state mandates, and gatekeeping routines, they inevitably select, frame, and prioritise content — making media an active constructor of social reality, not a passive mirror. A wrong answer that says \"organisations just deliver what people want\" misses the structural power of gatekeepers (editors, owners, regulators) to shape the agenda.",
+     "self_check": true
+    },
+    {
+     "q": "A village in Bihar sets up a low-power FM transmitter using a bamboo pole antenna and a cassette player, broadcasting local songs and health messages to a 20 km radius. Using the characteristics of mass media, argue whether this qualifies as mass media or community communication.",
+     "a": "It qualifies as mass media because it uses technology to reach a large, anonymous audience (thousands of villagers) simultaneously through a one-to-many flow, even though the organisation is informal and capital is minimal. The key is the structural capacity for mass dissemination, not the scale of investment. A wrong answer that says \"it's not mass media because it's not a big company\" confuses institutional form with the defining characteristic of mass reach.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"imagined community\" created by 19th-century Indian nationalist newspapers (e.g., Kesari, Amrita Bazar Patrika) with the \"imagined community\" created by today's vernacular TV news channels. Identify two similarities and two differences in how each medium structures the audience's sense of belonging.",
+     "a": "Similarities: both use a shared language (vernacular) to create horizontal comradeship among strangers; both frame a collective \"we\" against an \"other\" (colonial state / globalising forces). Differences: newspapers required literacy and created a reading public engaged in debate; TV uses audiovisual immediacy to create a viewing public engaged in emotional spectacle. Newspapers had slower, reflective circulation; TV has real-time, repetitive cycles. A weak answer lists only technological differences without linking to the sociological concept of imagined community.",
+     "self_check": true
+    },
+    {
+     "q": "\"Digital divide is simply about who owns a smartphone.\" Evaluate this statement using the NCERT's discussion of differential access to mass media.",
+     "a": "The statement is false. Digital divide includes inequalities in literacy, language of content, electricity, network quality, affordability of data, gendered access norms, and the ability to use the internet for empowerment vs. passive consumption. The NCERT notes that even when radio sets reached two-thirds of households, content relevance and scheduling still excluded many. A wrong answer that equates access with device ownership ignores the structural, cultural, and economic layers of exclusion.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-minute audio segment for a community FM station that illustrates the dialectical relationship between media and society: show how the programme both reflects local culture and actively shapes listeners' attitudes toward a social issue (e.g., child marriage, water conservation, vaccine hesitancy). Outline the segment structure and explain the dialectic at each stage.",
+     "a": "A strong answer will structure the segment as: (1) opening with a local folk song reflecting culture, (2) a dramatised dialogue between elders and youth voicing existing attitudes (reflection), (3) an expert/doctor interview introducing new information (shaping), (4) listener call-ins/voice notes reacting (society shaping media), (5) closing with a community pledge song co-created with listeners (media shaping society). Each stage must be explicitly linked to the dialectic. A poor answer produces a one-way lecture without showing the two-way influence.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mass media refers to the diverse array of communication technologies and institutions (e.g., print, radio, television, cinema, internet) that are structurally organised to produce and disseminate content to large, heterogeneous, and ______ dispersed audiences simultaneously.",
+     "a": "geographically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking students to list every media ______ they had from waking up to leaving for school (phone alarm, WhatsApp messages, radio/TV news, newspaper, billboard ads).",
+     "a": "interaction",
+     "self_check": true
+    },
+    {
+     "q": "What is Mass media? State the definition given in this lesson.",
+     "a": "Mass media refers to the diverse array of communication technologies and institutions (e.g., print, radio, television, cinema, internet) that are structurally organised to produce and disseminate content to large, heterogeneous, and geographically dispersed audiences simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) distinguish mass media from interpersonal and organisational communication by identifying at least three structural characteristics (scale, institutional organisation, one-to-many flow), and (2) explain the dialectical relationship between media and society using a concrete Indian example (e.g., how the.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

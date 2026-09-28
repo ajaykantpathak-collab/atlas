@@ -34,6 +34,26 @@
      "q": "Design a contour map representation for a terraced paddy field on a hillside in Kerala, showing how you would depict the flat terraces and the steep risers between them using standard contour conventions.",
      "a": "A good answer: Terraces appear as closely spaced contour lines at the risers (steep slope) and widely spaced or absent contours on the flat treads (since elevation change is minimal). Each terrace tread may be shown by a single contour if the tread is wide enough, or by a gap between contour clusters. Risers are shown by a tight cluster of contours (e.g., 3-4 contours within 1-2 mm). The answer should mention that contour values increase uphill. A poor answer (e.g., drawing uniform spacing or using hachures for terraces) reveals misunderstanding of how contours represent abrupt vs. gradual elevation change and the convention that flat areas have fewer contours.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A contour is an imaginary line on a ______ map joining all points of equal elevation above mean sea level, drawn at a fixed vertical interval known as the contour interval.",
+     "a": "topographical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are trekking in the Western Ghats near Munnar and notice the path winds in zig-zags rather than going straight up — that zig-zag follows a line of constant ______ to reduce effort.",
+     "a": "elevation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by locating the contour interval note in the map margin (usually ______ m for this scale).",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can define contour and contour interval precisely using textbook terminology, identify the contour interval from a toposheet margin, and explain how contour spacing indicates slope steepness without calculating gradient.",
+     "self_check": true
     }
    ]
   }

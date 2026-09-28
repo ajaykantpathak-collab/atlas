@@ -34,6 +34,26 @@
      "q": "Design a simple classroom experiment using a metre scale, a known mass, and a spring balance to demonstrate that the turning effect (torque) depends on the perpendicular distance from the pivot, not just the force magnitude. Describe how you would measure and verify τ = rF sinθ.",
      "a": "Pivot the metre scale horizontally at the 0 cm mark. Hang a 200 g mass (weight = 1.96 N) at the 50 cm mark using a string. Measure the spring balance force needed at the 100 cm mark to keep the scale horizontal when pulling (a) vertically upward (θ = 90°), (b) at 30° to the vertical (θ = 60°), (c) along the scale (θ = 0°). Calculate τ = rF sinθ for each: (a) 1.0 m × F × 1, (b) 1.0 m × F × sin60°, (c) 1.0 m × F × 0 = 0. The measured forces should satisfy F_vertical = 0.98 N, F_30° = 1.13 N, F_along = ∞ (cannot balance). A poor answer (e.g., not varying the angle, or claiming force is same in all cases) reveals failure to isolate the sinθ dependence or confusion between force and torque.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The vector product (cross product) of two vectors a and b is a vector c = a × b whose magnitude is |c| = |a||b|sinθ, where θ is the smaller angle (0° ≤ θ ≤ 180°) between a and b, and whose direction is ______ to the plane containing a and b following the right-hand screw rule (or right-hand thumb rule).",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you push a ______ tangentially at its outer edge, the fan rotates effectively.",
+     "a": "blade",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute the cross product of two vectors given in component form using the determinant method, determine its direction using the right-hand rule, and apply it to calculate torque (τ = r × F) and angular momentum (L = r × p) in rotational motion problems.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you push a blade ______ at its outer edge, the fan rotates effectively.",
+     "a": "tangentially",
+     "self_check": true
     }
    ]
   }

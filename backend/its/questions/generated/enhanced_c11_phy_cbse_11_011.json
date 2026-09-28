@@ -34,6 +34,31 @@
      "q": "Design a thought experiment to demonstrate why a Carnot engine must use adiabatic (not isochoric or isobaric) processes to connect the two isotherms when operating between only two reservoirs. What would happen if you tried to use an isochoric cooling step instead?",
      "a": "In an isochoric cooling step, temperature drops from T₁ to T₂ while volume is constant. This requires heat exchange with a series of reservoirs at continuously changing temperatures (not a single T₂ reservoir), violating the two-reservoir condition. The gas would not be in thermal equilibrium with a single reservoir during the process, making it non-quasi-static and irreversible. A poor answer suggesting \"isochoric is fine\" reveals misunderstanding of the quasi-static requirement and the definition of a reservoir.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Carnot engine is an idealized ______ heat engine operating between two thermal reservoirs at temperatures T₁ (source) and T₂ (sink) that achieves the maximum possible efficiency for given reservoir temperatures.",
+     "a": "reversible",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now ask: what is the ______ best fraction of heat we could convert to work if we had perfect insulation and no friction?",
+     "a": "absolute",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Its efficiency is given by η = ______ - T₂/T₁, where temperatures must be in Kelvin, and is independent of the working substance.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can derive the Carnot efficiency formula from the four-step cycle, calculate efficiency given reservoir temperatures in Celsius/Kelvin, explain why no real engine can exceed Carnot efficiency, and apply the universal relation Q₁/T₁ = Q₂/T₂ to solve problems involving heat transfers in a Carnot cycle.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now ask: what is the absolute best fraction of heat we could convert to work if we had perfect ______ and no friction?",
+     "a": "insulation",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch12_1",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch12_1",
+   "title": "c9_math_ch12_1",
+   "questions": [
+    {
+     "q": "State the Angle Sum Property of a Quadrilateral in one sentence. Then, if three angles of a quadrilateral are 70°, 80°, and 100°, what is the fourth angle?",
+     "a": "The sum of interior angles of any quadrilateral is 360°. Fourth angle = 360° − (70° + 80° + 100°) = 110°. A wrong answer (e.g., 180° or 90°) reveals the student is confusing the quadrilateral property with the triangle angle sum (180°) or right angle (90°), indicating they haven't internalized that a quadrilateral = 2 triangles.",
+     "self_check": true
+    },
+    {
+     "q": "Explain WHY the angle sum of a quadrilateral is 360° using a diagram and the triangle angle sum property. Does this reasoning work for a concave (arrowhead) quadrilateral? Justify.",
+     "a": "Drawing one diagonal splits any quadrilateral into two triangles. Each triangle sums to 180°, so total = 360°. For a concave quadrilateral, the diagonal must be drawn from the reflex vertex (interior angle > 180°) to the opposite vertex; this still creates two triangles whose angles sum to 360°, covering the reflex angle correctly. A wrong answer claiming it fails for concave shapes shows the student thinks the diagonal must lie entirely inside, not realizing the diagonal from the reflex vertex works perfectly.",
+     "self_check": true
+    },
+    {
+     "q": "The angles of a quadrilateral are in the ratio 2 : 3 : 5 : 8. Find the measure of each angle.",
+     "a": "Let the angles be 2x, 3x, 5x, 8x. Sum = 2x + 3x + 5x + 8x = 18x = 360° → x = 20°. Angles: 40°, 60°, 100°, 160°. A wrong answer (e.g., x = 360/17) reveals the student incorrectly added the ratio parts (2+3+5+8=18 is correct, but if they got 17 or 19, they miscounted) or forgot to multiply each part by x after finding x, showing weak algebraic translation of ratios.",
+     "self_check": true
+    },
+    {
+     "q": "In quadrilateral ABCD, ∠A = 2∠B, ∠C = ∠B + 30°, and ∠D = ∠A − 10°. Find all four angles. Compare the algebraic difficulty of this problem with the ratio problem in Question 3.",
+     "a": "Let ∠B = x. Then ∠A = 2x, ∠C = x + 30°, ∠D = 2x − 10°. Sum: x + 2x + (x+30) + (2x−10) = 6x + 20 = 360° → 6x = 340° → x = 340/6 = 170/3 ≈ 56.67°. Angles: ∠B = 170/3°, ∠A = 340/3°, ∠C = 260/3°, ∠D = 310/3°. This is harder than Q3 because it requires setting up a variable for one angle and expressing others in terms of it with different operations (addition, subtraction, multiplication), not just a common multiplier. A wrong answer often comes from miswriting ∠D as 2x − 10 (correct) vs 2(x − 10) (wrong), showing confusion in translating \"10° less than ∠A\".",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Three angles of a quadrilateral are 100°, 50°, and 70°. Find the fourth angle.\" Their working: 100+50+70=220. 360−220=140. Answer: 140°. Is this fully correct? If yes, what implicit assumption did they make? If no, what is missing?",
+     "a": "Yes, the calculation is correct (140°). The implicit assumption is that the quadrilateral is **simple** (non-self-intersecting). For a crossed (self-intersecting) quadrilateral, the interior angle sum is not 360° (it's 720° for the \"interior\" regions). A student who says \"no, it's wrong\" without specifying the crossed quadrilateral case shows they don't know the scope limitation. A student who says \"yes\" but cannot name the assumption shows procedural fluency without conceptual depth.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem involving a quadrilateral where the angles are described in a real-life Indian context (e.g., a field, a room, a kite) and require forming and solving a linear equation in one variable. The problem must have a unique solution and use angle expressions like (2x+10)°, (3x−5)°, etc.",
+     "a": "Example: \"A farmer's quadrilateral field has angles measuring (x+20)°, (2x−10)°, (x+50)°, and (3x)°. Find x and each angle.\" Solution: Sum = 7x + 60 = 360 → 7x = 300 → x = 300/7 ≈ 42.86°. Angles ≈ 62.86°, 75.71°, 92.86°, 128.57°. A poor answer gives trivial expressions (e.g., all x) or forgets the sum constraint, showing inability to reverse-engineer a valid problem. A good answer checks that all angles are positive and < 360°.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

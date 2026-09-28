@@ -34,6 +34,36 @@
      "q": "Create a novel \"Feeding Adaptation Decision Tree\" flowchart (describe in text) that a community health worker could use to decide between: (a) texture modification only, (b) adaptive equipment + texture modification, (c) feeding tube referral, for children with special needs in a rural setting. Include 4 decision nodes with yes/no branches.",
      "a": "Decision Tree: \nNode 1: \"Does the child choke/cough on thin liquids?\" → YES → Thicken all liquids (nectar/honey consistency) → go to Node 2. NO → go to Node 2.\nNode 2: \"Can the child sit with trunk support for 20 minutes?\" → YES → Provide corner seat/roll → go to Node 3. NO → Semi-reclined positioning (45°), head support → go to Node 3.\nNode 3: \"Can the child manipulate a spoon/fingers to bring food to mouth?\" → YES → Provide thick-handled angled spoon, non-slip bowl → Texture modification as needed → Monitor. NO → Caregiver-assisted feeding with adaptive cup/spoon + texture modification → go to Node 4.\nNode 4: \"After 3 months of consistent adaptation, is weight gain < 15g/day (infant) or < 100g/month (child) OR recurrent aspiration pneumonia?\" → YES → Refer for feeding tube assessment (NG/G-tube). NO → Continue current plan with monthly review.\nA poor answer (e.g., a linear list without branching logic) reveals inability to synthesize assessment criteria into a clinical decision-making tool for resource-limited settings.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Feeding children with special needs refers to the systematic adaptation of food textures, feeding techniques, mealtime environments, and dietary compositions to address the unique ______, neurological, or developmental challenges that impair a child's ability to consume adequate nutrition independently, while promoting self-feeding skills and preventing nutritional deficiencies.",
+     "a": "physiological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a home science student visiting an ______ where a 4-year-old child with cerebral palsy struggles to eat lunch—food spills from her mouth, she chokes on thin dal, and she pushes the spoon away.",
+     "a": "anganwadi",
+     "self_check": true
+    },
+    {
+     "q": "What is Feeding children with special needs? State the definition given in this lesson.",
+     "a": "Feeding children with special needs refers to the systematic adaptation of food textures, feeding techniques, mealtime environments, and dietary compositions to address the unique physiological, neurological, or developmental challenges that impair a child's ability to consume adequate nutrition independently, while promoting.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a home science student visiting an anganwadi where a ______-year-old child with cerebral palsy struggles to eat lunch—food spills from her mouth, she chokes on thin dal, and she pushes the spoon away.",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Feeding children with special needs?",
+     "a": "Students often believe \"special diet for special needs\" means a completely different set of foods (e.g., only commercial formulas, or exotic ingredients).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to design a complete mealtime adaptation plan for a given case study (e.g., a 5-year-old with cerebral palsy or autism) that specifies food texture modifications, positioning strategies, adaptive equipment, feeding schedule, and allergy management, with justification for each adaptation based on the child's.",
+     "self_check": true
     }
    ]
   }

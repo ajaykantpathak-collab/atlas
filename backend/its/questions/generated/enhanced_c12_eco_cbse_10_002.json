@@ -34,6 +34,21 @@
      "q": "Construct a consumption schedule for an economy where autonomous consumption is ₹30 crore and MPC = 0.6, for income levels 0, 50, 100, 150, 200 crore. Plot the consumption function and indicate the break-even income (where C = Y).",
      "a": "Schedule: Y=0, C=30; Y=50, C=60; Y=100, C=90; Y=150, C=120; Y=200, C=150. Break-even: 30 + 0.6Y = Y → 0.4Y = 30 → Y = 75 crore. A student who cannot find break-even or plots a line through origin misses that C = Y is a 45° line reference, not the consumption function itself.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The consumption function describes the functional ______ between aggregate consumption expenditure (C) and disposable income (Y) in an economy, expressed as C = C̅ + cY, where C̅ is autonomous consumption (consumption at zero income) and c is the Marginal Propensity to Consume (MPC = ΔC/ΔY), representing the fraction of additional income spent on consumption.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a typical Indian ______: when their monthly income rises from ₹50,000 to ₹60,000, they don't spend the entire ₹10,000 increase — they might spend ₹7,500 and save ₹2,500.",
+     "a": "household",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) derive the consumption function equation from a given schedule or graph, identifying autonomous consumption and MPC; (2) calculate MPC and APC at different income levels and explain why MPC < APC when autonomous consumption is positive; (3) distinguish between a shift in the consumption function (change in C̅) and a.",
+     "self_check": true
     }
    ]
   }

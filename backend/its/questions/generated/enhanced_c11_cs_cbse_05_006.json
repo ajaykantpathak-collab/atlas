@@ -34,6 +34,21 @@
      "q": "Create a real-world scenario (Indian context) where a ternary operator is the clearest way to assign a value, and write the Python code for it. The scenario must involve a boolean condition and two distinct numeric outcomes.",
      "a": "Example: \"Auto-rickshaw fare: first 2 km costs ₹25, every additional km costs ₹10.\" Code: `fare = 25 if distance <= 2 else 25 + (distance - 2) * 10`. A poor answer uses a scenario requiring more than two outcomes (e.g., slab-based tax) or uses a ternary for side-effects like printing, showing the student doesn't grasp that ternary is for *value selection*, not control flow.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ expression (ternary operator) in Python is an expression of the form value_if_true if condition else value_if_false that evaluates condition and returns value_if_true if the condition is True, otherwise returns value_if_false.",
+     "a": "conditional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a program for a school canteen: if a student's age is 18 or above, they pay the adult price of ₹50 for lunch; ______ they pay the student price of ₹30.",
+     "a": "otherwise",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can rewrite any simple if-else assignment block as a single ternary expression, correctly handle operator precedence when embedding ternary expressions in larger expressions, and explain why the ternary operator cannot replace multi-statement if-else blocks.",
+     "self_check": true
     }
    ]
   }

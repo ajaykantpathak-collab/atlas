@@ -74,6 +74,21 @@
      "explain": "Multiply the converted intensity, surface area, and time in seconds to find the total energy in Joules.",
      "compute": "energy = intensityw * area * timesec"
     }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "energy = intensity * area * time",
+     "compute": "energy = intensity * area * time"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "iesc.113.2",
+     "question_pattern": "Calculate the solar energy received by a solar panel of area {intensity} in {area} hours if the insolation is {time}"
+    }
    ]
   },
   {
@@ -111,7 +126,16 @@
      "explain": "Confirm that reflected plus absorbed equals the incoming radiation, then compute the fraction of radiation absorbed by the surface to interpret its thermal behaviour.",
      "compute": "absorbed_fraction = absorbed / incoming"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "reflected = incoming * albedo",
+     "compute": "reflected = incoming * albedo"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.113.4",

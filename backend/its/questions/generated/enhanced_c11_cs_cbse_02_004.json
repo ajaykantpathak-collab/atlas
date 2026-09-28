@@ -34,6 +34,26 @@
      "q": "Create a real-world scenario (different from the locker example) that requires a truth table with two inputs and an AND operation. Draw the truth table and explain why AND is the correct operation for your scenario.",
      "a": "Example scenario: \"A microwave starts heating **only when** the door is closed (D=1) **AND** the start button is pressed (S=1).\"  \nTruth table:  \n| D | S | Output (Heating) |  \n|---|---|------------------|  \n| 0 | 0 |        0         |  \n| 0 | 1 |        0         |  \n| 1 | 0 |        0         |  \n| 1 | 1 |        1         |  \nAND is correct because **both** safety conditions must be met simultaneously. If the student chooses a scenario where only one condition is needed (e.g., \"light turns on if switch A OR switch B is on\"), they should use OR, not AND. A poor answer uses a scenario that doesn't match the strict \"both required\" logic of AND.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A truth table is a tabular ______ that lists all possible combinations of truth values (0/1 or False/True) for the input Boolean variables and shows the resulting truth value of a Boolean operation (AND, OR, NOT) for each combination.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a simple security system for a locker that opens only when both a keycard (A) and a ______ scan (B) are valid.",
+     "a": "fingerprint",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For n input variables, the table has ______ⁿ rows, each representing a unique input combination.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently construct a complete truth table for any given basic Boolean operation (AND, OR, NOT) with two variables, correctly listing all four input combinations in standard order (00, 01, 10, 11) and computing the output column without errors.",
+     "self_check": true
     }
    ]
   }

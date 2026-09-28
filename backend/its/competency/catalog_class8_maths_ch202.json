@@ -287,7 +287,7 @@
     "Can x^3 + y^3 equal z^3 in positive whole numbers?",
     "Why does Fermat's claim not fail for squares?"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -304,7 +304,22 @@
      "action": "contrast with the case n equals 2",
      "explain": "for n = 2, the Baudhayana-Pythagoras theorem provides infinitely many positive integer solutions (Pythagorean triples), which is why the claim only fails for n greater than 2"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hegp.2.7.1",

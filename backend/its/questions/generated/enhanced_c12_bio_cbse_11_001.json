@@ -22,7 +22,7 @@
     },
     {
      "q": "Compare traditional biotechnology and modern biotechnology in terms of (a) genetic modification involved, (b) scale and control, and (c) product specificity. Give one Indian example for each.",
-     "a": "**Correct answer:**  \n| Aspect | Traditional Biotechnology | Modern Biotechnology |\n|--------|---------------------------|----------------------|\n| Genetic modification | None; uses whole organisms as they are (e.g., yeast for idli/dosa batter) | Direct manipulation of DNA (e.g., Bt cotton with cry gene from Bacillus thuringiensis) |\n| Scale & control | Open, less controlled (e.g., toddy fermentation in earthen pots) | Highly controlled, sterile, large-scale (e.g., insulin production in bioreactors at Biocon, Bengaluru) |\n| Product specificity | Low; mixture of products (e.g., curd contains many microbial metabolites) | High; single, defined product (e.g., recombinant hepatitis B vaccine produced in yeast) |  \n**Wrong answer reveals:** If the student cites \"GM crops\" as traditional or \"curd making\" as modern, they cannot distinguish the defining feature: *deliberate genetic alteration at the molecular level*. This confusion often stems from not revisiting Class 11 nodes c11_biotech_cbse_01_003 and c11_biotech_cbse_01_005.",
+     "a": "**Correct answer:**  \n| Aspect | Traditional Biotechnology | Modern Biotechnology |\n|--------|---------------------------|----------------------|\n| Genetic modification | N/A; uses whole organisms as they are (e.g., yeast for idli/dosa batter) | Direct manipulation of DNA (e.g., Bt cotton with cry gene from Bacillus thuringiensis) |\n| Scale & control | Open, less controlled (e.g., toddy fermentation in earthen pots) | Highly controlled, sterile, large-scale (e.g., insulin production in bioreactors at Biocon, Bengaluru) |\n| Product specificity | Low; mixture of products (e.g., curd contains many microbial metabolites) | High; single, defined product (e.g., recombinant hepatitis B vaccine produced in yeast) |  \n**Wrong answer reveals:** If the student cites \"GM crops\" as traditional or \"curd making\" as modern, they cannot distinguish the defining feature: *deliberate genetic alteration at the molecular level*. This confusion often stems from not revisiting Class 11 nodes c11_biotech_cbse_01_003 and c11_biotech_cbse_01_005.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Design a simple flowchart (text-based) showing how you would use the two principles of biotechnology to develop a drought-tolerant variety of rice. Start from identifying the gene to field testing. Include at least 6 steps and label each step with the principle it belongs to.",
      "a": "**Expected answer (criteria for good response):**  \n1. **Genetic Engineering:** Identify and isolate a drought-resistance gene (e.g., DREB1A) from a tolerant plant (Arabidopsis or rice itself).  \n2. **Genetic Engineering:** Clone the gene into a plant expression vector with a suitable promoter (e.g., Rd29A stress-inducible promoter).  \n3. **Genetic Engineering:** Transform rice callus cells via Agrobacterium-mediated transformation or biolistics.  \n4. **Genetic Engineering:** Select transformed cells using a marker (e.g., hygromycin resistance) and regenerate whole plants via tissue culture.  \n5. **Bioprocess Engineering:** Multiply the transgenic plants in controlled greenhouse conditions (sterile media, controlled humidity/light) to produce sufficient seeds for trials.  \n6. **Bioprocess Engineering:** Conduct confined field trials under regulated conditions (as per GEAC guidelines) to evaluate drought tolerance and yield.  \n**Poor answer reveals:** Missing steps (e.g., no selection/regeneration), confusing tissue culture with bioprocess engineering, or omitting regulatory/field trial steps shows incomplete understanding of the pipeline from gene to product.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Biotechnology is the broad area of biology involving the use of living organisms or their components (such as enzymes, cells, or genetic material) to develop or modify products, improve plants or animals, or engineer ______ for specific uses.",
+     "a": "microorganisms",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by observing a packet of insulin in a pharmacy or a Bt cotton field in India — both are products of modern ______.",
+     "a": "biotechnology",
+     "self_check": true
+    },
+    {
+     "q": "What is Biotechnology? State the definition given in this lesson.",
+     "a": "Biotechnology is the broad area of biology involving the use of living organisms or their components (such as enzymes, cells, or genetic material) to develop or modify products, improve plants or animals, or engineer microorganisms for specific uses.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Biotechnology?",
+     "a": "Students often think biotechnology = genetic engineering only, ignoring bioprocess engineering entirely.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can define biotechnology in their own words using the NCERT phrasing, distinguish between traditional and modern biotechnology with examples, and explain the two fundamental principles (genetic engineering and bioprocess engineering) with at least one real-world application for each.",
      "self_check": true
     }
    ]

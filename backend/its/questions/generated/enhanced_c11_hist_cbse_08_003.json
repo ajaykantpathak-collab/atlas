@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_08_003",
+   "title": "c11_hist_cbse_08_003",
+   "questions": [
+    {
+     "q": "In which year was gold discovered at Sutter's Mill, California, triggering the Gold Rush, and what was the immediate demographic consequence for the non-Native population of California by 1852?",
+     "a": "Gold was discovered at Sutter's Mill in **1848** (James Marshall, January 24). The non-Native population of California exploded from ~14,000 (1848) to **~250,000 by 1852**. A wrong answer (e.g., \"1849\" or \"1850\") reveals the student confuses the *discovery* date with the *peak migration year* (\"Forty-Niners\") or statehood, missing the speed of the demographic invasion which overwhelmed indigenous populations before any legal framework existed.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the US government violate the Treaty of Fort Laramie (1851), which guaranteed Indigenous control over vast territories including the Black Hills, within less than two decades?",
+     "a": "The 1851 Treaty was violated primarily because **gold was discovered in the Black Hills (1874, Custer's expedition)**, creating immense pressure from miners and railroad companies. The government chose to support the miners/railroads (economic interest) rather than enforce the treaty. A wrong answer focusing only on \"settler greed\" or \"broken promises\" misses the *structural* cause: the **Pacific Railway Acts (1862, 1864)** required land grants and \"pacified\" corridors, making treaty lands obstacles to national infrastructure. The student fails to link the Gold Rush to the *federal policy* of railroad expansion.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following primary source excerpt: *\"The bison... is the Indians' commissary... Send them [hunters] powder and lead, if you will; but for a lasting peace, let them kill, skin, and sell until the bison is exterminated.\"* (General Philip Sheridan, 1874). Explain how this strategy connected the Gold Rush, the Railroad, and the reservation system.",
+     "a": "Sheridan reveals the **deliberate policy of ecological warfare**. Steps: 1) **Gold Rush/Railroad** brought hunters/trains to the Plains. 2) **Railroads** needed bison cleared from tracks *and* shipped hides east (industrial demand for belts/leather). 3) **Army** encouraged slaughter to destroy the Plains Indians' *economic base* (food, shelter, tools, trade), forcing dependence on government rations. 4) **Reservations** became the only survival option. A wrong answer treating this as \"overhunting for profit\" misses the *state-coordinated* nature: the Army *provided* ammunition and protected hunters; the Railroad *shipped* the hides. It was a tool of displacement, not just commerce.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the **Treaty of Fort Laramie (1868)** and the **Dawes General Allotment Act (1887)**. How did the legal definition of \"land ownership\" shift between these two acts, and what was the impact on Indigenous sovereignty?",
+     "a": "**1868 Treaty:** Recognized the Great Sioux Reservation (including Black Hills) as *sovereign tribal territory* held *communally*; US pledged \"no white person shall settle.\" **1887 Dawes Act:** Unilaterally abolished communal title, divided reservations into *individual 160-acre private parcels* (allotments), sold \"surplus\" to whites. **Shift:** From **collective sovereignty/nation-to-nation treaty** → **individual private property/US citizenship assimilation**. Impact: Tribes lost ~90 million acres (2/3 of reservation land) by 1934. A wrong answer saying \"both took land\" misses the *jurisdictional revolution*: 1868 treated tribes as *nations*; 1887 treated Indians as *individual wards* to be dissolved into the body politic.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the historian Frederick Jackson Turner's 1893 \"Frontier Thesis\" claim that the frontier \"promoted democracy\" and \"individualism\" in light of the Gold Rush experience of Indigenous peoples and Chinese railroad workers.",
+     "a": "Turner's thesis is **ethnocentric and empirically flawed** for this period. Evidence against: 1) **Indigenous peoples:** Frontier meant *loss* of sovereignty, confinement to reservations, Dawes Act dismantling governance – the *opposite* of democracy. 2) **Chinese workers:** Built the Transcontinental Railroad (Central Pacific) under brutal conditions, paid less, excluded by Chinese Exclusion Act (1882) – denied the \"individualism\" and citizenship Turner celebrates. 3) **Democracy for whom?** The \"frontier\" was a zone of *racialized exclusion* and *corporate conquest* (railroad land grants, hydraulic mining monopolies). A good answer uses the Gold Rush as a *counter-case*: the \"frontier\" was the mechanism of *unfreedom* for non-whites. A weak answer agrees with Turner or only critiques vaguely.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 5-event annotated timeline (1848–1890) showing the *causal chain* linking the California Gold Rush to the Wounded Knee Massacre (1890). For each event, write one sentence explaining *how it caused the next*.",
+     "a": "**Expected chain (criteria: clear causality, not just chronology):**\n1. **1848 Gold Discovery (Sutter's Mill)** → Caused massive, uncontrolled migration violating Mexican/Indigenous land tenure.\n2. **1851/1868 Fort Laramie Treaties** → Attempted to manage migration corridors; failed because **1862 Pacific Railway Act** prioritized railroad land grants over treaty rights.\n3. **1869 Transcontinental Railroad Completed** → Enabled mass settler/farmer migration, military deployment, and commercial bison hunting → destroyed Plains economy.\n4. **1876 Battle of Little Bighorn / Black Hills Gold Rush** → US military retaliation crushed Lakota/Cheyenne resistance; Congress seized Black Hills (violation of 1868 Treaty).\n5. **1887 Dawes Act** → Legally dismantled communal land base → poverty, Ghost Dance movement (spiritual resistance) → **1890 Wounded Knee Massacre** (Army suppresses \"last threat\").\n*Poor answer:* Lists dates without causal verbs (\"led to,\" \"enabled,\" \"triggered,\" \"resulted in\").",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_08_006",
+   "title": "c12_app_cbse_08_006",
+   "questions": [
+    {
+     "q": "The Consumer Price Index (CPI) for industrial workers with base year 2012 = 100 stands at 175 in January 2024. What does this number 175 precisely indicate about the price level?",
+     "a": "**Correct Answer:** It indicates that the general price level of the consumption basket for industrial workers has increased by **75%** since the base year 2012. The index value 175 means current prices are 1.75 times the base year prices.  \n**Why a wrong answer reveals misunderstanding:** If a student says \"prices are ₹175\" or \"inflation is 175%\", they confuse the **index number (a pure relative number)** with **absolute price (rupees)** or **percentage change (which is Index - 100)**. This is the single most common error in board exams — forgetting the base is 100, not 0.",
+     "self_check": true
+    },
+    {
+     "q": "A student reads: \"The Index of Industrial Production (IIP) grew from 130 to 143.\" They claim: \"Industrial production increased by 13%.\" Is this statement correct? Explain why or why not using the definition of index numbers.",
+     "a": "**Correct Answer:** The statement is **incorrect**. The percentage increase is calculated as:  \n\\(\\frac{143 - 130}{130} \\times 100 = 10\\%\\), not 13%.  \nThe student incorrectly subtracted the index values (143 - 130 = 13) and treated the difference as the percentage. Index numbers are **already percentages relative to base (100)**. The difference between two index numbers gives the **change in index points**, not the percentage change from the earlier period.  \n**Why a wrong answer reveals misunderstanding:** This exposes the confusion between **percentage points** (difference of indices) and **percent change** (relative to the previous period's index). Competitive exams (JEE/CUET) frequently trap students here.",
+     "self_check": true
+    },
+    {
+     "q": "The Reserve Bank of India uses CPI (Combined) as the nominal anchor for monetary policy. A government committee wants to measure the change in the **volume of goods produced** by the manufacturing sector, ignoring price changes. Which type of index number should they construct: Price Index, Quantity Index, or Value Index? Justify your choice.",
+     "a": "**Correct Answer:** **Quantity Index** (specifically, the Index of Industrial Production - IIP).  \n**Reasoning:**  \n- **Price Index** (e.g., CPI, WPI) measures change in *prices* of a basket of goods.  \n- **Value Index** measures change in *total value* (Price × Quantity), mixing both price and volume effects.  \n- **Quantity Index** measures change in *physical volume/quantity* of goods produced/consumed, using base-year prices as weights to isolate volume changes.  \nSince the goal is to track **production volume** independent of price fluctuations, a Quantity Index is the correct tool.  \n**Why a wrong answer reveals misunderstanding:** Choosing \"Value Index\" shows the student doesn't grasp that value = price × quantity, so it conflates inflation with real growth. Choosing \"Price Index\" confuses the variable being measured.",
+     "self_check": true
+    },
+    {
+     "q": "Consider two cities, A and B. City A has CPI = 140 (Base 2012=100). City B has CPI = 160 (Base 2012=100). A student concludes: *\"Goods are 20% more expensive in City B than City A.\"* Analyze this conclusion. Is it valid? What critical assumption about the **base period** and **consumption basket** is required for this comparison to hold?",
+     "a": "**Correct Answer:** The conclusion is **invalid** without strict assumptions.  \nThe index numbers 140 and 160 mean:  \n- City A prices are 40% above the *national/base* 2012 level.  \n- City B prices are 60% above the *same national/base* 2012 level.  \nThe relative difference is \\(\\frac{160}{140} \\times 100 = 114.3\\), so City B is ~14.3% costlier than City A, **not 20%**.  \n**Critical Assumptions Required:**  \n1. **Identical Base Period:** Both indices must use the *same* base year (2012).  \n2. **Identical Basket & Weights:** Both CPIs must represent the *same* consumption basket (same goods, same weights). If City A's CPI weights food 50% and City B weights housing 50%, the comparison is meaningless.  \n**Why a wrong answer reveals misunderstanding:** Students often treat index numbers as directly comparable absolute scales, ignoring that they are **ratios tied to a specific base and basket**. This is a classic CBSE case-based question trap.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: *\"Since Fisher's Ideal Index is the Geometric Mean of Laspeyres and Paasche indices, it is always the best index number for all policy decisions, including wage revision contracts and GDP deflator calculation.\"* Defend or critique using the concepts of **purpose-specific construction** and **test of adequacy**.",
+     "a": "**Correct Answer:** **Critique — The statement is false.**  \n**Justification:**  \n1. **No \"All-Purpose\" Index (NCERT 6.4, Note after Example 2):** Index numbers are constructed for a *specific purpose*. A Cost-of-Living Index (COLI) for wage revision requires *current-period consumption weights* (Paasche-type) to reflect actual living standards. GDP Deflator requires *current-period quantities* of *all* domestically produced goods (Paasche-type). Fisher's Index uses *both* base and current weights — it is a theoretical compromise, not a practical substitute for purpose-specific indices.  \n2. **Adequacy Tests ≠ Policy Suitability:** Fisher satisfies Time Reversal and Factor Reversal tests (mathematical consistency), but **fails the \"purpose test\"** for COLI because it uses base-period weights which overstate cost of living (Laspeyres bias).  \n3. **Data Constraints:** Fisher requires *both* base and current period quantity data, which is often unavailable for timely policy (e.g., monthly CPI). Laspeyres (fixed base weights) is used for CPI precisely because base weights are known and fixed.  \n**Why a wrong answer reveals misunderstanding:** Students memorize \"Fisher is ideal\" without understanding **ideal for what?** (mathematical symmetry) vs. **suitable for what?** (policy objective). Board exams test this distinction via Assertion-Reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario where a **Value Index** would be the preferred measure over a Price Index or Quantity Index. Define the base period, current period, the variable tracked, and explain why the *total value* (not just price or quantity alone) is the decision-critical metric.",
+     "a": "**Expected Answer Criteria (Good Response):**  \n- **Scenario:** A retail chain (e.g., Reliance Retail) tracking **total sales revenue** of \"Electronics Category\" across 500 stores for Diwali 2023 vs Diwali 2022.  \n- **Base:** Diwali 2022; **Current:** Diwali 2023.  \n- **Variable:** Total Sales Value (₹ Crores) = Σ (Price_i × Quantity_Sold_i).  \n- **Why Value Index:** The business decision is **revenue growth target setting**. A Price Index would ignore volume changes (discounts driving higher units). A Quantity Index would ignore price/mix changes (premium smartphone sales vs budget). Only Value Index captures the *combined effect* of pricing strategy, product mix shift, and volume — the actual P&L driver.  \n**Why a poor answer reveals misunderstanding:** Vague scenarios like \"measuring economy\" or confusing Value Index with GDP (which is a value aggregate, but the *deflator* is a price index). The student must articulate that **Value Index = Price Index × Quantity Index (conceptually)** and is used when the *monetary aggregate* is the KPI.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,31 @@
      "q": "Design a secure remote-access setup for a small NGO where three volunteers need to (a) upload/download project files to a central Ubuntu server, and (b) occasionally run administrative commands on that server. Specify protocols, ports, authentication methods, and client tools for each volunteer's Windows laptop.",
      "a": "(a) File transfer: SFTP over port 22, each volunteer has a user account with SSH key pair (Ed25519); private key stored on their laptop (protected by passphrase), public key in `~/.ssh/authorized_keys` on server. Client: WinSCP or FileZilla (SFTP mode). (b) Remote admin: SSH over port 22, same key-based auth; `PasswordAuthentication no`, `PermitRootLogin no` in `/etc/ssh/sshd_config`. Client: PowerShell `ssh user@server` or PuTTY. No FTP, no Telnet, no password auth. A poor answer would include FTP/Telnet, allow password auth, or omit key management.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: FTP (File Transfer Protocol) is a standard network protocol used for ______ files between a client and server over a TCP/IP network; Telnet is a legacy remote access protocol that provides a command-line interface to a remote computer over an unencrypted channel; remote access refers to the ability to connect to and control a computer or network from a distant location using protocols like SSH (Secure Shell), RDP (Remote Desktop Protocol), or VPN (Virtual Private Network).",
+     "a": "transferring",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a Class 12 student who needs to upload your Python project files to a school server and later ______ check the server logs — how would you do it securely?",
+     "a": "remotely",
+     "self_check": true
+    },
+    {
+     "q": "What is FTP (File Transfer Protocol)? State the definition given in this lesson.",
+     "a": "FTP (File Transfer Protocol) is a standard network protocol used for transferring files between a client and server over a TCP/IP network; Telnet is a legacy remote access protocol that provides a command-line interface to a remote computer over an unencrypted channel; remote access refers to the ability to connect to and control a.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about FTP (File Transfer Protocol)?",
+     "a": "Students often think \"SFTP is just FTP running over SSH\" and that it uses two ports like FTP (21 for control, 20 for data).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) distinguish FTP, Telnet, and SSH by purpose, port numbers, and security characteristics, and (2) explain why Telnet is deprecated in favour of SSH for remote administration, citing specific vulnerabilities.",
+     "self_check": true
     }
    ]
   }

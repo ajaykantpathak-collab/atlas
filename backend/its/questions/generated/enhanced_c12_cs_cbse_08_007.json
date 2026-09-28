@@ -17,7 +17,7 @@
     },
     {
      "q": "Given the following sequence of operations on an initially empty queue implemented with a list: `enqueue(10)`, `enqueue(20)`, `dequeue()`, `enqueue(30)`, `dequeue()`, `dequeue()`, `dequeue()`. What is the output of each `dequeue` and what error occurs on the last operation?",
-     "a": "Outputs: first `dequeue()` returns 10, second returns 20, third returns 30. The fourth `dequeue()` raises an `IndexError: pop from empty list` (underflow). A student who answers \"None\" or \"0\" for the last dequeue does not understand that Python lists raise an exception on `pop(0)` from an empty list; proper implementation must check `is_empty()` first.",
+     "a": "Outputs: first `dequeue()` returns 10, second returns 20, third returns 30. The fourth `dequeue()` raises an `IndexError: pop from empty list` (underflow). A student who answers \"N/A\" or \"0\" for the last dequeue does not understand that Python lists raise an exception on `pop(0)` from an empty list; proper implementation must check `is_empty()` first.",
      "self_check": true
     },
     {
@@ -26,13 +26,38 @@
      "self_check": true
     },
     {
-     "q": "Evaluate the following implementation of `front()` method for a list-based queue:\n```python\ndef front(self):\n    return self.items[0] if self.items else None\n```\nIs this correct for all cases? If not, what is the edge case and how should it be handled in a production-quality queue?",
-     "a": "The method returns `None` for an empty queue, which is ambiguous if `None` is a valid data value that could be enqueued. A production queue should raise a custom exception (e.g., `QueueUnderflowError`) or use `Optional` type hint and document the behaviour. A student who says \"it's fine\" misses the semantic ambiguity and the need for explicit error signalling in robust software.",
+     "q": "Evaluate the following implementation of `front()` method for a list-based queue:\n```python\ndef front(self):\n    return self.items[0] if self.items else N/A\n```\nIs this correct for all cases? If not, what is the edge case and how should it be handled in a production-quality queue?",
+     "a": "The method returns `N/A` for an empty queue, which is ambiguous if `N/A` is a valid data value that could be enqueued. A production queue should raise a custom exception (e.g., `QueueUnderflowError`) or use `Optional` type hint and document the behaviour. A student who says \"it's fine\" misses the semantic ambiguity and the need for explicit error signalling in robust software.",
      "self_check": true
     },
     {
      "q": "Design a scenario where a list-based queue with `pop(0)` would cause a noticeable performance bottleneck in a real-time system (e.g., network packet processing). Propose a drop-in replacement using the standard library and justify why it solves the problem.",
      "a": "Scenario: A router processes 10,000 packets/second; each packet is enqueued and dequeued once. Using `list.pop(0)` gives O(n) dequeue → ~50 million shifts/second, causing CPU spike and latency. Drop-in replacement: `from collections import deque; q = deque(); q.append(pkt); q.popleft()` — `deque` is a doubly-linked list of blocks, providing O(1) `popleft()` without shifting. A student who suggests \"use `pop()` and reverse the list\" still has O(n) reversal cost and misses the purpose-built `deque`.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A queue implemented using a Python list follows the FIFO (First-In-First-Out) principle where enqueue (insertion) is performed at the rear using append() and dequeue (deletion) is performed at the front using pop(0); however, pop(0) has O(n) time complexity because all remaining elements must be shifted, making this ______ inefficient for large queues compared to collections.deque which provides O(1) operations at both ends.",
+     "a": "implementation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are managing a ticket ______ at a railway station: passengers join the line at the back (enqueue) and are served from the front (dequeue).",
+     "a": "counter",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If you use a Python list to model this line, adding a passenger is easy with append(), but removing the front passenger with pop(______) forces Python to shift every other passenger one step forward — a costly operation when the line is long.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write a complete Python class for a queue using a list with enqueue, dequeue, is_empty, size, front, and rear methods, correctly handle underflow/overflow conditions, and explain the time complexity trade-offs of using pop(0) versus collections.deque.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are managing a ticket counter at a railway station: ______ join the line at the back (enqueue) and are served from the front (dequeue).",
+     "a": "passengers",
      "self_check": true
     }
    ]

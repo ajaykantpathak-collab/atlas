@@ -34,6 +34,31 @@
      "q": "Design a simple chemical test to distinguish between a solution of DNA and a solution of RNA using only reagents available in a school laboratory (dilute NaOH, dilute HCl, heat, and pH paper). Explain the principle.",
      "a": "**Test:** Take two test tubes. Add equal volumes of the nucleic acid solutions. To each, add 1 mL dilute NaOH (0.1 M). Heat both in a water bath at 60°C for 10 min. Cool, then test pH with pH paper.\n**Observation:** RNA solution becomes acidic (pH < 7) due to liberation of phosphate groups from backbone cleavage; DNA solution remains near neutral.\n**Principle:** Alkali catalyzes intramolecular transesterification via the 2′-OH of ribose in RNA, cleaving the phosphodiester backbone and releasing free phosphate (acidic). DNA lacks 2′-OH, so no cleavage occurs.\nA poor answer suggesting \"add Fehling's solution\" or \"test for reducing sugar\" reveals confusion between nucleic acid chemistry and carbohydrate chemistry (pentose sugars are not free in intact nucleic acids).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Nucleic acids are long-chain polymeric biomolecules composed of repeating nucleotide units, where each nucleotide consists of a nitrogenous base (purine: adenine, guanine; pyrimidine: cytosine, thymine in DNA or uracil in RNA), a pentose sugar (β-D-2-deoxyribose in DNA, β-D-ribose in RNA), and a phosphoric acid moiety linked via a ______ bond between the 5′-carbon of one sugar and the 3′-carbon of the next.",
+     "a": "phosphodiester",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a strawberry — you can extract visible white strands of DNA from it using dish soap, salt, and cold alcohol in your kitchen.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What is Nucleic acids? State the definition given in this lesson.",
+     "a": "Nucleic acids are long-chain polymeric biomolecules composed of repeating nucleotide units, where each nucleotide consists of a nitrogenous base (purine: adenine, guanine; pyrimidine: cytosine, thymine in DNA or uracil in RNA), a pentose sugar (β-D-2-deoxyribose in DNA, β-D-ribose in RNA), and a phosphoric acid moiety linked via a.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Nucleic acids?",
+     "a": "Students often write the nucleoside structure with the base attached to the anomeric carbon (C-1) of the sugar in α-configuration (like in glycosides of carbohydrates), but in nucleic acids the N-glycosidic bond is always β-configuration (base above the sugar plane in standard Fischer/Haworth projection).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) draw the complete structure of a nucleotide showing correct numbering of sugar carbons (1′, 2′, 3′, 4′, 5′), base attachment at 1′, and phosphate at 5′; (2) write the phosphodiester linkage between two nucleotides and identify the 5′→3′ directionality; (3) explain the complementary base-pairing rules (A=T/U, G≡C) with.",
+     "self_check": true
     }
    ]
   }

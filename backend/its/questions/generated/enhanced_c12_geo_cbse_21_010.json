@@ -34,6 +34,31 @@
      "q": "Design a remote sensing based monitoring plan for detecting illegal mining in a forested district of Jharkhand. Specify: (i) satellite/sensor combination, (ii) temporal frequency, (iii) key spectral bands/indices, (iv) one GIS operation to quantify change.",
      "a": "Good answer: (i) Sentinel-2 (10 m multispectral, 5-day revisit) or Resourcesat-2A LISS-IV (5.8 m, 5-day) for balance of spatial/temporal resolution; (ii) fortnightly during dry season (Nov-Apr) when canopy is open; (iii) SWIR bands (2190 nm) for exposed soil/mineral detection, NDVI for vegetation loss, NDBI for built-up/barren land; (iv) GIS overlay analysis (post-classification change detection) between two dates to quantify new barren patches within forest boundary. Poor answer (e.g., \"use Google Earth daily\") reveals lack of understanding of systematic, repeatable, spectral-based monitoring vs ad-hoc visual interpretation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Remote sensing is the science and technology of acquiring information about an object, area, or phenomenon through the analysis of data obtained by a device (sensor) that is not in physical contact with the target, typically using ______ radiation (EMR) reflected or emitted from the Earth's surface, captured by sensors mounted on airborne or spaceborne platforms.",
+     "a": "electromagnetic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ in Punjab trying to decide how much fertilizer to apply to your wheat crop.",
+     "a": "farmer",
+     "self_check": true
+    },
+    {
+     "q": "What is Remote sensing? State the definition given in this lesson.",
+     "a": "Remote sensing is the science and technology of acquiring information about an object, area, or phenomenon through the analysis of data obtained by a device (sensor) that is not in physical contact with the target, typically using electromagnetic radiation (EMR) reflected or emitted from the Earth's surface, captured by sensors mounted.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Remote sensing?",
+     "a": "Students often believe \"higher spatial resolution is always better\" and choose Cartosat-2 (0.8 m) for everything — crop health, flood mapping, forest cover.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the principle of remote sensing (EMR interaction with atmosphere and surface), differentiate between active and passive sensors, list the four resolution types with their significance, name at least three Indian Remote Sensing (IRS) satellites with their primary applications, and describe two specific applications in.",
+     "self_check": true
     }
    ]
   }

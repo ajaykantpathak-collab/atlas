@@ -34,6 +34,26 @@
      "q": "Design a short case study (3-4 transactions) for a Class 11 student that tests the Business Entity Concept combined with the Dual Aspect Concept. The case must include at least one transaction where the student must decide *not* to record an event.",
      "a": "**Expected Answer Criteria:** A good case study will include:\n1. Owner invests cash (record: Bank Dr, Capital Cr).\n2. Business buys goods on credit (record: Purchases Dr, Creditor Cr).\n3. Owner pays personal credit card bill from business account (record: Drawings Dr, Bank Cr — tests separation).\n4. Owner *decides* to invest more money next month but hasn't transferred yet (do NOT record — tests that only executed transactions affecting the entity are recorded).\n**Poor Answer Reveals:** If the student records the \"decision to invest\" as a receivable or capital increase, they confuse a future intention with a past transaction (violates Objectivity and Entity concepts). If they omit the Drawings entry, they still treat the business as the owner's pocket.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Business Entity Concept states that a business is treated as a separate accounting entity distinct from its owner(s) for the purpose of recording financial ______.",
+     "a": "transactions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your uncle runs a small grocery shop from the ______ floor of his house.",
+     "a": "ground",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) correctly classify a given transaction as either a business transaction or a personal transaction of the owner, and (2) demonstrate the correct accounting treatment for capital introduced and drawings by showing the dual effect on the accounting equation (Assets = Liabilities + Capital) from the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ your uncle runs a small grocery shop from the ground floor of his house.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

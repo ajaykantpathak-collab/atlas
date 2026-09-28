@@ -34,6 +34,31 @@
      "q": "Design a simple redistribution scheme for a village economy of 100 families: 20 landless (income ₹60,000/yr), 50 small farmers (₹1,20,000/yr), 30 large farmers (₹5,00,000/yr). Propose a lump-sum tax on large farmers to give each landless family a ₹12,000/yr cash transfer. Calculate required tax per large farmer, total fiscal cost, and one potential disincentive effect.",
      "a": "Total transfer needed = 20 × 12,000 = ₹2,40,000. Tax per large farmer = 2,40,000 / 30 = ₹8,000/yr. Fiscal cost = ₹2.4 lakh. Disincentive: Large farmers may reduce land cultivation or shift to less productive but tax-evading activities, lowering overall output. A poor answer proposing tax on \"income\" without lump-sum assumption misses the distortionary effect; ignoring the output effect shows lack of efficiency analysis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The \"For Whom to Produce\" problem refers to the allocation of final goods and services among individuals and groups in an economy, determined by the ______ of income and purchasing power.",
+     "a": "distribution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a vegetable market in Mumbai: a farmer sells ______ at ₹40/kg.",
+     "a": "tomatoes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a vegetable market in Mumbai: a farmer sells tomatoes at ₹______/kg.",
+     "a": "40",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how factor ownership translates into income and purchasing power, compare distribution outcomes in market vs. planned economies using a numerical example, and evaluate the equity-efficiency trade-off in a real-world policy like India's Public Distribution System (PDS).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ market in Mumbai: a farmer sells tomatoes at ₹40/kg.",
+     "a": "vegetable",
+     "self_check": true
     }
    ]
   }

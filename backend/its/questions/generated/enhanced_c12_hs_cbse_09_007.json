@@ -34,6 +34,31 @@
      "q": "Create a \"Nutrient Gap Alert\" poster for a rural Anganwadi targeting parents of 13-15 year old girls. It must: (a) show the top 3 nutrient gaps (with % deficit), (b) give 2 affordable local food sources per nutrient, (c) include one \"myth vs fact\" box. Use ICMR 2020 RDAs and typical rural intake data (energy 1600 kcal, protein 35 g, calcium 300 mg, iron 10 mg).",
      "a": "Expected poster content: (a) Top gaps: Calcium 70% deficit (300/1000), Iron 64% deficit (10/28), Energy 22% deficit (1600/2050). (b) Calcium: Ragi (344 mg/100g), Amaranth leaves (330 mg/100g). Iron: Bengal gram roasted (9.5 mg/100g), Garden cress seeds (100 mg/100g — use 1 tsp/day). Energy: Peanut chikki, Jaggery-roasted gram. (c) Myth: \"Girls don't need as much food as boys.\" Fact: Girls 13-15 need MORE iron than boys (28 vs 19 mg) due to menstruation. A poor answer (generic \"eat healthy\") reveals inability to translate RDAs into actionable, context-specific guidance — the core competency of Home Science.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Adolescent nutrition refers to the specific dietary requirements during the adolescent growth spurt (ages 10-19), ______ by a rapid increase in height, weight, bone density, muscle mass, and organ development, demanding significantly higher energy, protein, calcium, iron, zinc, and vitamin intakes compared to childhood or adulthood to support peak growth velocity and pubertal maturation.",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 13-year-old boy who suddenly outgrows his shoes in three months and is always hungry — his body is building the ______ of an adult skeleton in just 4 years.",
+     "a": "equivalent",
+     "self_check": true
+    },
+    {
+     "q": "What is Adolescent nutrition? State the definition given in this lesson.",
+     "a": "Adolescent nutrition refers to the specific dietary requirements during the adolescent growth spurt (ages 10-19), characterized by a rapid increase in height, weight, bone density, muscle mass, and organ development, demanding significantly higher energy, protein, calcium, iron, zinc, and vitamin intakes compared to childhood or.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Adolescent nutrition?",
+     "a": "Students believe \"adolescents need more of everything equally\" — they increase all foods proportionally (e.g., \"eat two chapatis instead of one\").",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Calculate the percentage increase in RDA for energy, protein, calcium, and iron from late childhood (10-12 years) to adolescence (13-15 years) using ICMR 2020 values, and (2) Design a one-day balanced meal plan for a 14-year-old girl meeting ≥90% of RDAs for all critical nutrients while incorporating.",
+     "self_check": true
     }
    ]
   }

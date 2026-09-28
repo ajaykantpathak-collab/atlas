@@ -34,6 +34,21 @@
      "q": "Design a simple testing procedure using a universal indicator chart to determine whether an unknown clear liquid from your kitchen is a mild acid or a mild base.",
      "a": "To test the liquid, take a clean glass dropper, place a single drop of the unknown clear liquid onto a strip of universal pH indicator paper, and observe the resulting color change. Match the final color of the indicator paper against the provided standard color-coded pH chart to read the numerical value; if the color corresponds to yellow-orange (pH 4-6), it is a mild acid, whereas if it corresponds to greenish-blue (pH 8-9), it is a mild base. A poor answer would involve tasting the liquid or ignoring safety procedures, which is dangerous in chemistry.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The pH scale is a numerical scale ranging from 0 to 14 used to specify how acidic or basic (alkaline) an aqueous solution is, measured in ______ units.",
+     "a": "dimensionless",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When testing tap water or lemon juice with natural indicators like litmus or turmeric, you notice a color change, but simple indicators only tell you if a ______ is an acid or a base, not how strong it is.",
+     "a": "substance",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can classify any given aqueous substance as strongly acidic, weakly acidic, neutral, weakly basic, or strongly basic based on its numerical pH value or corresponding color change on a universal indicator scale.",
+     "self_check": true
     }
    ]
   }

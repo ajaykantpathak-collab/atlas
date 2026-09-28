@@ -34,6 +34,31 @@
      "q": "Create a real-world scenario where the ratio of two items must remain constant.",
      "a": "A good answer involves recipes, fuel consumption, or salary/wage calculations where increasing one part requires increasing the other proportionately. A poor answer gives an example where variables change independently, like a child's age versus their height.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ratio is a ______ way of comparing two quantities of the same kind by division, showing how many times one quantity contains the other.",
+     "a": "mathematical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by writing the ______ as a ratio: 2 cups : 4 people.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "What is Ratio? State the definition given in this lesson.",
+     "a": "Ratio is a mathematical way of comparing two quantities of the same kind by division, showing how many times one quantity contains the other.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Ratio?",
+     "a": "Students often try to solve proportion problems by adding the same number to both sides of a ratio instead of multiplying/dividing.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to express a real-world comparison as a ratio and set up an equation to find a missing value in a proportional relationship.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_03_004",
+   "title": "c12_app_cbse_03_004",
+   "questions": [
+    {
+     "q": "What is the derivative of y³ with respect to x, if y is an implicit function of x?",
+     "a": "3y²·dy/dx. A wrong answer like '3y²' or '3x²' reveals the student forgot the chain rule — they differentiated y³ as if y were the independent variable, or confused y with x. This is the single most common error in implicit differentiation.",
+     "self_check": true
+    },
+    {
+     "q": "In the equation x²y + xy² = 6, a student writes the derivative as 2xy + y² = 0. Explain why this is incorrect and identify the two specific rules they violated.",
+     "a": "The student treated y as constant (missing chain rule on y-terms) and ignored product rule on both x²y and xy². Correct differentiation: d/dx(x²y) = 2xy + x²·dy/dx; d/dx(xy²) = y² + 2xy·dy/dx. The error shows they don't recognize y as a function of x, and don't see products of x and y-functions.",
+     "self_check": true
+    },
+    {
+     "q": "Find dy/dx for the curve x² + xy + y² = 7 at the point (1, 2). Show all steps.",
+     "a": "Differentiate: 2x + (y + x·dy/dx) + 2y·dy/dx = 0 → 2x + y + dy/dx(x + 2y) = 0 → dy/dx = -(2x + y)/(x + 2y). At (1,2): dy/dx = -(2+2)/(1+4) = -4/5. A wrong sign or missing x·dy/dx term in the product rule reveals mechanical errors under pressure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the process of finding dy/dx for y = √(4-x²) (explicit) vs x² + y² = 4 (implicit). When would you prefer implicit differentiation even if explicit form exists?",
+     "a": "Explicit: y = (4-x²)¹ᐟ² → dy/dx = ½(4-x²)⁻¹ᐟ²(-2x) = -x/√(4-x²) — but this only gives the upper semicircle. Implicit: 2x + 2y·dy/dx = 0 → dy/dx = -x/y, valid for both halves. Prefer implicit when: (1) explicit form has ± branches, (2) solving for y is algebraically messy (e.g., y³ + xy = x²), (3) you need dy/dx in terms of x and y for later substitution.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"For the curve x³ + y³ = 3xy, dy/dx at (0,0) is 0 because both x and y are zero.\" Evaluate this claim.",
+     "a": "The claim is false. At (0,0), implicit differentiation gives 3x² + 3y²·dy/dx = 3y + 3x·dy/dx → dy/dx(3y² - 3x) = 3y - 3x² → dy/dx = (y - x²)/(y² - x). Substituting (0,0) gives 0/0 — indeterminate. The curve has a self-intersection (node) at (0,0) with two distinct tangents (y=0 and x=0). The student incorrectly assumed the derivative exists and is unique at a singular point.",
+     "self_check": true
+    },
+    {
+     "q": "Create an implicit equation of a curve that passes through (2,3) and has slope -1 at that point. Verify your answer.",
+     "a": "Example: (x-2)² + (y-3)² = 2 (circle). Differentiate: 2(x-2) + 2(y-3)·dy/dx = 0 → dy/dx = -(x-2)/(y-3). At (2,3): 0/0 indeterminate — bad choice! Better: x + y = 5 (line). dy/dx = -1 everywhere. Or: y = -x + 5 → x + y - 5 = 0. A good answer shows understanding that slope condition constrains the derivative expression. Poor answers give equations where (2,3) doesn't satisfy or slope ≠ -1.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

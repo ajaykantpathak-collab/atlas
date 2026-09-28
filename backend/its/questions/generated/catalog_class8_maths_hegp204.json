@@ -4,15 +4,9 @@
   {
    "id": "hegp.204.4.1",
    "title": "Fractals and Self-Similarity",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the pattern rule",
-     "explain": "apply the pattern rule: tri = 14 * (14 + 1) / 2 gives 105",
-     "compute": "tri = 14 * (14 + 1) / 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "What is the 14th triangular number?",
@@ -50,6 +44,8 @@
    "id": "hegp.204.4.2",
    "title": "Sierpinski Carpet Counts",
    "converted_to_compute": false,
+   "formula": "remaining = 8 ** n",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "What is the 5th triangular number?",
@@ -87,6 +83,8 @@
    "id": "hegp.204.4.3",
    "title": "Sierpinski Triangle Counts",
    "converted_to_compute": false,
+   "formula": "remaining = 3 ** n",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "What is the 5th triangular number?",
@@ -124,6 +122,8 @@
    "id": "hegp.204.4.4",
    "title": "Koch Snowflake Sides and Perimeter",
    "converted_to_compute": false,
+   "formula": "side_count = 3 * 4 ** n",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "What is the 14th triangular number?",
@@ -160,15 +160,9 @@
   {
    "id": "hegp.204.4.5",
    "title": "Visualising Solids Through Profiles",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the features or use Euler's relation",
-     "explain": "count the features or use Euler's relation: edges = 8 gives 8",
-     "compute": "edges = 8"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "For a square pyramid, find the number of edges.",
@@ -205,15 +199,9 @@
   {
    "id": "hegp.204.4.6",
    "title": "Making Solids and Their Nets",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the features or use Euler's relation",
-     "explain": "count the features or use Euler's relation: edges = 9 gives 9",
-     "compute": "edges = 9"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "For a triangular prism, find the number of edges.",

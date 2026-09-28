@@ -26,13 +26,43 @@
      "self_check": true
     },
     {
-     "q": "A student witnesses a classroom argument between two classmates. A week later, the teacher asks the student what happened. The student reports: \"Rahul was shouting and looked angry, Priya was calm and quiet.\" Another student who was present reports: \"Priya was shouting and looked angry, Rahul was calm.\" Both students are honest and were present. Explain how schema-driven reconstruction could produce these contradictory but honest reports. What specific schemas might each student be using?",
-     "a": "Both students are honest but their memories are *reconstructed* using different schemas, producing contradictory reports. **Student 1** may have a schema linking Rahul (perhaps known as hot-tempered) to anger — when reconstructing the event, the schema *supplies* the detail \"Rahul was angry\" even if the actual anger was ambiguous. The schema \"Rahul = angry person\" fills the gap with the expected detail. **Student 2** may have a schema linking Priya (perhaps known as argumentative) to anger — the same process produces the opposite reconstruction. Both students *saw* the same event but *reconstructed* it differently because their schemas about the *individuals involved* led them to fill gaps with different expected details. The schemas are *person schemas* (beliefs about specific individuals' typical behavior) that guide reconstruction: if you expect Rahul to be angry, you \"remember\" him as angry; if you expect Priya to be angry, you \"remember\" her as angry. A wrong answer that says \"one student is lying\" or \"one student has a better memory\" reveals the student cannot apply the reconstructive model to explain *honest disagreement* — the key insight is that both witnesses can be honest *and* wrong because both are reconstructing, not recording.",
+     "q": "Give the correct order of steps explaining how two honest witnesses can report opposite details of the same argument.",
+     "a": "The explanation runs: (1) Both students encode the same fragmentary events of the quarrel (2) Each carries a different schema about which classmate is the angry one (3) At recall the schema fills the ambiguous gaps with expected details (4) The two reconstructions contradict each other although neither witness is lying. A wrong answer that calls one witness dishonest shows the student has missed that memory is a schema-guided reconstruction rather than a playback of stored facts.",
      "self_check": true
     },
     {
      "q": "Design a simple experiment to test whether schema activation distorts recall of a novel event. Specify: (a) the event participants will witness, (b) how you will activate different schemas in different groups, (c) the recall measure, and (d) the predicted outcome if schema-driven reconstruction operates.",
      "a": "**(a) Event**: Participants watch a 2-minute video of a person entering a room, sitting at a desk, opening a drawer, handling some papers, and leaving. **(b) Schema activation**: Group A is told beforehand: \"You will see a video of a burglar breaking into an office.\" Group B is told: \"You will see a video of an office worker returning to their desk.\" The *same video* is shown to both groups, but the *label* activates different schemas (burglar schema vs. worker schema). **(c) Recall measure**: After a 30-minute delay, both groups free-recall the event and answer specific questions: \"Did the person take anything from the drawer?\" \"Did the person look around nervously?\" \"Was the person wearing gloves?\" **(d) Predicted outcome**: Group A (burglar schema) will report more crime-consistent details (e.g., \"took something,\" \"looked nervous,\" \"wore gloves\") even if these were not in the video — the burglar schema *fills in* expected crime details during reconstruction. Group B (worker schema) will report fewer crime-consistent details and more work-consistent details (e.g., \"checked the papers,\" \"sat down normally\"). If both groups saw the *same video* but recall *different details*, schema-driven reconstruction is demonstrated. A wrong answer that tests only whether schemas affect *attention* (not *recall*) or that fails to use the *same stimulus* for both groups (introducing a confound) reveals the student cannot design a clean experimental test of schema-driven reconstruction.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Memory as a constructive process refers to the understanding that memory is not a passive, faithful recording of events that is later replayed intact, but an active, ______ process in which the brain uses schemas — mental frameworks organized by prior knowledge and expectations — to encode, store, and retrieve information.",
+     "a": "reconstructive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are telling a friend about a ______ you saw last month.",
+     "a": "movie",
+     "self_check": true
+    },
+    {
+     "q": "What is Memory as a constructive process? State the definition given in this lesson.",
+     "a": "Memory as a constructive process refers to the understanding that memory is not a passive, faithful recording of events that is later replayed intact, but an active, reconstructive process in which the brain uses schemas — mental frameworks organized by prior knowledge and expectations — to encode, store, and retrieve information.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Frederic Bartlett's \"War of the Ghosts\" study (______) demonstrated this by showing that participants recalling a Native American story systematically distorted it to fit their own cultural schemas, and modern research on false memories and eyewitness testimony has confirmed that reconstruction errors are a fundamental — not exceptional — feature of human memory.",
+     "a": "1932",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Memory as a constructive process?",
+     "a": "Misconception: \"Memory works like a video camera — it records events faithfully and replays them on demand.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) define schemas and explain how they guide encoding, storage, and retrieval using Bartlett's \"War of the Ghosts\" study as evidence; (2) distinguish between reproductive memory (passive playback) and reconstructive memory (active reconstruction) and explain why the reproductive model is empirically.",
      "self_check": true
     }
    ]

@@ -34,6 +34,31 @@
      "q": "Design a research framework to study the impact of the Mumbai Metro Line 3 (Colaba-Bandra-SEEPZ) on surrounding neighbourhoods. Specify at least three human geography sub-fields, their sister disciplines, and the specific research question each would address.",
      "a": "Expected framework (illustrative):  \n1. **Urban Geography ↔ Urban Studies/Planning**: \"How has land-use density and built-form changed within 500m of stations?\" (Method: GIS-based land-use change detection, FAR analysis).  \n2. **Social Geography ↔ Sociology**: \"How has residential segregation by income/class shifted due to transit-induced gentrification?\" (Method: Census tract analysis, household surveys, segregation indices).  \n3. **Economic Geography ↔ Economics**: \"What is the impact on property values and informal sector livelihoods near stations?\" (Method: Hedonic pricing models, difference-in-differences estimation).  \n4. (Optional) **Population Geography ↔ Demography**: \"How has commuter population flow altered day-time vs. night-time population distribution?\" (Method: Mobile phone data, origin-destination surveys).  \nA poor answer lists sub-fields without *specific research questions* or *methods* from the sister discipline, showing superficial interdisciplinary thinking.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Human geography is an ______ field that systematically studies the spatial relationships between human societies and the Earth's surface by integrating concepts, theories, and methods from sister social science disciplines — sociology, psychology, anthropology, history, economics, political science, demography, and epidemiology — to explain the distribution, patterns, and processes of human phenomena across space.",
+     "a": "interdisciplinary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a metropolitan city like Delhi: its land-use pattern shows wealthy ______ in South Delhi, dense slums along the Yamuna, industrial clusters in Okhla, and a radial metro network.",
+     "a": "neighbourhoods",
+     "self_check": true
+    },
+    {
+     "q": "What is Human geography? State the definition given in this lesson.",
+     "a": "Human geography is an interdisciplinary field that systematically studies the spatial relationships between human societies and the Earth's surface by integrating concepts, theories, and methods from sister social science disciplines — sociology, psychology, anthropology, history, economics, political science, demography, and.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Human geography?",
+     "a": "Students often believe the interdisciplinary relationship is one-way: human geography merely \"borrows\" concepts from sociology, economics, etc., without contributing back.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly match at least six sub-fields of human geography (e.g., Electoral Geography, Medical Geography, Geography of Agriculture) with their corresponding sister disciplines (Psephology, Epidemiology, Agricultural Sciences) and explain the specific conceptual or methodological contribution each sister discipline makes.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Create a real-world problem (using Indian context: e.g., a tractor pulling a cart, a cyclist on a slope) where the dot product is needed to find the component of a force along a displacement. Provide the vectors and ask for the work done (work = force dot displacement). Do not solve it.",
      "a": "A good problem: \"A farmer pulls a cart with a force \\(\\vec{F} = (50\\hat{i} + 30\\hat{j} - 20\\hat{k})\\) N. The cart moves on a horizontal road along the displacement \\(\\vec{d} = (100\\hat{i} + 0\\hat{j} + 0\\hat{k})\\) m. Find the work done by the force.\" The vectors must have a non-zero angle and the context must be realistic. A poor answer would give parallel vectors (trivial dot product) or ask for cross product, or omit units. This tests whether the student can translate a physical situation into the correct mathematical operation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If either vector is the zero vector, the dot ______ is defined to be 0.",
+     "a": "product",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To find that component, we need the \"shadow\" of the force vector on the ______ line.",
+     "a": "horizontal",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If either vector is the zero vector, the dot product is defined to be ______.",
+     "a": "0",
+     "self_check": true
     }
    ]
   }

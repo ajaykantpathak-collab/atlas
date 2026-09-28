@@ -34,6 +34,31 @@
      "q": "Design a low-cost rooftop rainwater harvesting system for a rural government school in Rajasthan (roof area 200 m², annual rainfall 400 mm, hard rock aquifer). Specify: (i) storage vs recharge choice with justification, (ii) filter type using locally available materials, (iii) one community-involvement strategy for maintenance.",
      "a": "(i) **Recharge preferred**: Hard rock aquifer has low storage; storage tanks would need huge capacity for 400 mm rainfall (68,000 litres harvestable). Recharge via abandoned dug well/borewell directly augments the only viable source. (ii) **Filter**: Three-chamber filter using locally available pebbles (bottom), coarse sand (middle), charcoal from biomass (top) — no purchased media. (iii) **Community strategy**: Form a 'Jal Sabha' of teachers, students, parents; assign monthly cleaning rota; link to school's Swachh Bharat points. A poor answer (e.g., \"build a big tank\") ignores hydrogeology (hard rock = poor tank seepage, high evaporation) and community ownership — missing the 'sustainable management' competency.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Rainwater harvesting (modern methods) refers to the ______ designed systems of collecting, filtering, and storing rainwater from rooftops and other impervious surfaces for direct use or groundwater recharge, employing components like catchment, conveyance, first-flush diverter, filter, and storage tank/recharge structure to ensure water quality and sustainability.",
+     "a": "scientifically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your own house or school ______ during a monsoon downpour: water gushes from the roof through pipes and disappears into drains.",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "What is Rainwater harvesting (modern methods)? State the definition given in this lesson.",
+     "a": "Rainwater harvesting (modern methods) refers to the scientifically designed systems of collecting, filtering, and storing rainwater from rooftops and other impervious surfaces for direct use or groundwater recharge, employing components like catchment, conveyance, first-flush diverter, filter, and storage tank/recharge structure to.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Rainwater harvesting (modern methods)?",
+     "a": "Students think \"rooftop rainwater harvesting = putting a drum under a pipe.\" They miss that a functional system requires five integrated components (catchment, conveyance, first-flush, filter, storage/recharge) and that omitting any one (especially first-flush and filter) makes the water unsafe or the recharge ineffective.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can diagram a complete rooftop rainwater harvesting system labeling all five components (catchment, conveyance, first-flush, filter, storage/recharge), calculate harvestable volume for a given roof area and rainfall, and explain why each component is essential for water quality and groundwater recharge in the Indian context.",
+     "self_check": true
     }
    ]
   }

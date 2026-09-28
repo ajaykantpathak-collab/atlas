@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_02_001",
+   "title": "c12_app_cbse_02_001",
+   "questions": [
+    {
+     "q": "Write the order and the number of elements of the matrix A = [1  3  -4; 2  5  0] (written in row-wise form: first row 1, 3, -4; second row 2, 5, 0). State the element a₂₃.",
+     "a": "Order = 2 × 3 (2 rows, 3 columns). Number of elements = 2 × 3 = 6. Element a₂₃ = 0 (2nd row, 3rd column).  \n**Wrong answer reveals**: If a student writes \"order = 6\", they confuse order (a pair) with total elements (a scalar). If they write a₂₃ = -4 or 5, they are indexing columns first (j before i) or using 0-based indexing — both are fundamental notation errors that break all later matrix operations.",
+     "self_check": true
+    },
+    {
+     "q": "A matrix B has 12 elements. List all possible orders of B. If B is a square matrix, what is its order?",
+     "a": "Possible orders (m × n where m,n ∈ ℕ and mn = 12): 1×12, 2×6, 3×4, 4×3, 6×2, 12×1. For a square matrix, m = n ⇒ m² = 12 ⇒ no integer solution, so **no square matrix with 12 elements exists**.  \n**Wrong answer reveals**: If a student lists only 1×12, 2×6, 3×4 and misses the transposes (12×1, 6×2, 4×3), they don't understand that order (m,n) is ordered — 2×6 ≠ 6×2. If they say square order = 3×3 or 4×4, they ignore that m² must equal 12 exactly — a critical error for later determinant questions (only square matrices have determinants).",
+     "self_check": true
+    },
+    {
+     "q": "Construct a 2×2 matrix A = [aᵢⱼ] where aᵢⱼ = (i + 2j)². Then identify whether A is diagonal, scalar, or neither. Justify.",
+     "a": "a₁₁ = (1+2)² = 9; a₁₂ = (1+4)² = 25; a₂₁ = (2+2)² = 16; a₂₂ = (2+4)² = 36.  \nA = [9  25; 16  36]. Non-diagonal elements a₁₂=25 and a₂₁=16 are non-zero → **not diagonal** → **not scalar**.  \n**Wrong answer reveals**: If a student computes aᵢⱼ = i + 2j² (missing parentheses), they get wrong entries. If they claim it's diagonal because \"diagonal elements are non-zero\", they confuse diagonal matrix (non-diagonal = 0) with non-zero diagonal entries. This misconception propagates to symmetric/skew-symmetric and inverse matrix topics.",
+     "self_check": true
+    },
+    {
+     "q": "Two matrices X and Y are given: X = [a  3; 2  b], Y = [1  3; 2  4]. If X = Y, find a and b. Now, if Z = [a  3; 2  b] and W = [1  2; 3  4], can Z = W? Explain.",
+     "a": "X = Y ⇒ a = 1, b = 4 (corresponding elements equal). Z ≠ W because order of Z is 2×2, order of W is 2×2 — same order — but z₁₂ = 3 ≠ 2 = w₁₂ and z₂₁ = 2 ≠ 3 = w₂₁. **Equality requires both same order AND all corresponding elements equal.**  \n**Wrong answer reveals**: If a student says Z = W because \"both are 2×2 and have same numbers\", they ignore *position* of elements — a fatal error for matrix addition (requires same order) and multiplication (requires column of first = row of second). This also causes errors in solving matrix equations like 2X + Y = 5Z.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Every identity matrix is a scalar matrix, but not every scalar matrix is an identity matrix.\" Is it true? Give a 3×3 example of a scalar matrix that is not an identity matrix.",
+     "a": "**True.** Identity matrix Iₙ has 1 on diagonal, 0 elsewhere. Scalar matrix has *k* (any constant) on diagonal, 0 elsewhere. So Iₙ is scalar with k=1. But scalar with k=2 (e.g., diag(2,2,2)) is not identity. Example: S = [2 0 0; 0 2 0; 0 0 2] is scalar, not identity.  \n**Wrong answer reveals**: If a student says \"False, they are the same\", they miss that scalar matrix allows *any* constant diagonal — this distinction is crucial for eigenvalues (λI) and matrix polynomials (A² - 4A + I = O). In JEE, confusing these leads to wrong characteristic equations.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life scenario (Indian context) that can be represented by a 3×4 matrix. Define what rows and columns represent, give a plausible set of entries, and write the matrix. Then state the order and the element at row 2, column 3 in context.",
+     "a": "**Scenario**: A small bakery in Delhi sells 3 items (Bread, Cake, Cookies) across 4 days (Mon–Thu). Rows = items, Columns = days. Entries = number of units sold.  \nMatrix S = [50  60  55  70;  20  25  30  35;  100  120  110  130] (3×4).  \nOrder = 3×4. Element s₂₃ = 30 → \"25 Cakes sold on Wednesday\".  \n**Poor answer reveals**: If rows/columns are swapped (4×3), the student doesn't grasp that order is fixed by *what is being tracked per row/column*. If they write s₂₃ = 55, they index incorrectly. This context-to-matrix mapping is exactly what CBSE case-study questions test (e.g., \"sales data of two shops over three months\").",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

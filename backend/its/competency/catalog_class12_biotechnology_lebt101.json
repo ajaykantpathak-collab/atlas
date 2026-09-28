@@ -83,7 +83,16 @@
      "q": "In which year did Watson and Crick solve the double helix?",
      "a": "1953"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "hgp_span = completion_year - start_year",
+     "compute": "hgp_span = completion_year - start_year"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebt101.3",
@@ -162,7 +171,16 @@
      "q": "How many minutes does E. coli need to copy its chromosome: sixty or twenty?",
      "a": "sixty"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "forks_parallel = replication_time / generation_time",
+     "compute": "forks_parallel = replication_time / generation_time"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebt101.5",

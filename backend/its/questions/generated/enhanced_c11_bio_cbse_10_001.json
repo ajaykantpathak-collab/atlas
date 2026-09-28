@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using onion root tips to demonstrate that Interphase lasts longer than M Phase. Specify the stain, the observation, and the calculation.",
      "a": "Stain root tip squash with acetocarmine or Feulgen. Count 500 cells; record number in Interphase (large nucleus, nucleolus visible, no chromosomes) vs. M Phase (condensed chromosomes). If 480 are in Interphase and 20 in M Phase, Interphase % = 96%. A poor design (e.g., using unstained cells, counting <100 cells) shows lack of understanding of statistical sampling and chromosome morphology as phase markers.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The cell cycle is an ordered sequence of events in which a eukaryotic cell duplicates its genome, synthesizes other cellular ______, and divides into two genetically identical daughter cells, comprising a prolonged preparatory Interphase (G1, S, G2) and a brief M Phase (mitosis and cytokinesis).",
+     "a": "constituents",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a healing skin wound: new cells appear daily to close the gap.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why Interphase occupies >95% of the cycle duration, distinguish between chromosome number (n) and DNA content (C) changes across phases, and justify why a cell enters G0 instead of proceeding to S phase.",
+     "self_check": true
     }
    ]
   }

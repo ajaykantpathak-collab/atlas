@@ -34,6 +34,31 @@
      "q": "Create a new real-world problem (different from billing) that requires all four problem-solving steps. Write the analysis step (inputs, processes, outputs) and the first three lines of pseudocode for the algorithm.",
      "a": "Example problem: \"A school needs a program to determine if a student is eligible for a scholarship. Eligibility: attendance ≥ 75% AND average marks ≥ 60% OR sports participation at state level.\" Analysis: Inputs — attendance percentage, average marks, sports participation (yes/no). Processes — check attendance condition, check marks condition, check sports condition, combine with AND/OR logic. Output — \"Eligible\" or \"Not Eligible\". Pseudocode lines: 1) INPUT attendance, avg_marks, sports_state 2) IF attendance >= 75 AND avg_marks >= 60 THEN 3) eligible = TRUE. A poor answer would omit one input, use vague processes (\"calculate eligibility\"), or write code syntax instead of pseudocode — indicating inability to abstract a problem into computational steps.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Problem solving in computer science is a systematic process of identifying a problem, analyzing its requirements, designing a step-by-step solution (algorithm), implementing it in a programming language, and verifying the correctness of the ______ through testing and debugging.",
+     "a": "implementation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a mobile app for a local kirana store to automatically ______ the final bill after applying a 10% discount on purchases above ₹500 and adding 5% GST.",
+     "a": "calculate",
+     "self_check": true
+    },
+    {
+     "q": "What is Problem solving in computer science? State the definition given in this lesson.",
+     "a": "Problem solving in computer science is a systematic process of identifying a problem, analyzing its requirements, designing a step-by-step solution (algorithm), implementing it in a programming language, and verifying the correctness of the implementation through testing and debugging.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Problem solving in computer science?",
+     "a": "Students believe problem solving equals coding.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to list the four main steps of problem solving (analysis, algorithm design, coding, testing/debugging) in correct order, explain the purpose of each step, and apply the sequence to a simple real-world problem like calculating discounted bill totals.",
+     "self_check": true
     }
    ]
   }

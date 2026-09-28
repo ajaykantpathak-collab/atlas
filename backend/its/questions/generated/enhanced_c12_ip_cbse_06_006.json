@@ -16,7 +16,7 @@
      "self_check": true
     },
     {
-     "q": "Given this HTML and CSS, what will be the final color of the paragraph text? Explain step by step.\n\n```html\n<p id=\"intro\" class=\"note important\">Welcome to the fest!</p>\n```\n\n```css\np { color: black; }\n.note { color: blue; }",
+     "q": "Given this HTML and CSS, what will be the final color of the paragraph text? Explain step by step.\n\n```html\n<p id=\"intro\" class=\"note important\">Welcome to the fest!</p>\n```\n\n```css\np { color: black; }\n.note { color: blue; }\n#intro { color: green; }\n.important { color: red; }\n```",
      "a": "Correct answer: **green**  \nReasoning:  \n1. All four rules target the same `<p>` element.  \n2. Compute specificity: `p` = (0,0,1), `.note` = (0,1,0), `#intro` = (1,0,0), `.important` = (0,1,0).  \n3. Highest specificity wins: `#intro` (1,0,0) > `.note` and `.important` (0,1,0) > `p` (0,0,1).  \n4. Therefore `color: green` from `#intro` applies.  \nA wrong answer of \"red\" (thinking last rule wins) shows the student believes cascade order overrides specificity — a classic trap. \"Blue\" or \"black\" indicates they don't know how to calculate specificity or that ID beats class.",
      "self_check": true
     },
@@ -26,13 +26,38 @@
      "self_check": true
     },
     {
-     "q": "A student writes this CSS to style a button on hover and focus:\n```css\nbutton:hover { background-color: #007bff; color: white; }\nbutton:focus { outline: none; }\n```\nEvaluate this code from an **accessibility** perspective. Is it good practice? Justify your answer.",
-     "a": "Correct answer: **No, it is not good practice.** Removing `outline` on `:focus` (`outline: none;`) makes the button invisible to keyboard-only users (who navigate via Tab key), violating WCAG 2.1 Success Criterion 2.4.7 (Focus Visible). The `:hover` style helps mouse users, but keyboard users get no visual indication of focus.  \nBetter: `button:focus { outline: 2px solid #0056b3; outline-offset: 2px; }` — keeps visible focus ring but styles it.  \nA student who says \"it's fine because hover works\" or \"outline looks ugly so remove it\" shows they prioritize aesthetics over accessibility — a major misconception. Board exams increasingly test accessible design principles.",
+     "q": "A student writes this CSS to style a button on hover and focus:\n```css\nbutton:hover { background-color: #007bff; color: white; }\nbutton:focus { outline: N/A; }\n```\nEvaluate this code from an **accessibility** perspective. Is it good practice? Justify your answer.",
+     "a": "Correct answer: **No, it is not good practice.** Removing `outline` on `:focus` (`outline: N/A;`) makes the button invisible to keyboard-only users (who navigate via Tab key), violating WCAG 2.1 Success Criterion 2.4.7 (Focus Visible). The `:hover` style helps mouse users, but keyboard users get no visual indication of focus.  \nBetter: `button:focus { outline: 2px solid #0056b3; outline-offset: 2px; }` — keeps visible focus ring but styles it.  \nA student who says \"it's fine because hover works\" or \"outline looks ugly so remove it\" shows they prioritize aesthetics over accessibility — a major misconception. Board exams increasingly test accessible design principles.",
      "self_check": true
     },
     {
      "q": "Create a CSS rule set that styles **all** `<input>` elements of type `text`, `email`, and `password` inside a form with ID `registration` to have: a 1px solid gray border, 8px padding, 16px font size, and a light yellow background **only when focused**. Use the most efficient selector grouping.",
-     "a": "Correct answer:\n```css",
+     "a": "Correct answer:\n```css\n#registration input[type=\"text\"],\n#registration input[type=\"email\"],\n#registration input[type=\"password\"] {\n  border: 1px solid gray;\n  padding: 8px;\n  font-size: 16px;\n}\n\n#registration input[type=\"text\"]:focus,\n#registration input[type=\"email\"]:focus,\n#registration input[type=\"password\"]:focus {\n  background-color: #ffffcc; /* light yellow */\n}\n```\nCriteria for a good answer:  \n- Uses attribute selectors `input[type=\"...\"]` to target specific types (not all inputs).  \n- Groups selectors with commas to avoid repetition.  \n- Scopes to `#registration` form (ID selector).  \n- Separates base styles from `:focus` state.  \n- Uses valid hex/color name for light yellow.  \nA poor answer uses `input { ... }` (styles checkboxes, radios, submit buttons too), misses `:focus`, or writes separate rule for each type without grouping — shows lack of selector efficiency and grouping knowledge.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: CSS (Cascading Style Sheets) is a stylesheet language used to describe the ______ of an HTML document.",
+     "a": "presentation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have built a webpage for your school's cultural fest using HTML (nodes 001-005) — it has headings, paragraphs, a ______ form, a table of events, and images.",
+     "a": "registration",
+     "self_check": true
+    },
+    {
+     "q": "What is CSS (Cascading Style Sheets)? State the definition given in this lesson.",
+     "a": "CSS (Cascading Style Sheets) is a stylesheet language used to describe the presentation of an HTML document.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about CSS (Cascading Style Sheets)?",
+     "a": "Misconception: \"CSS properties like margin, padding, and border work the same way on all HTML elements, including inline elements like <span> and <a>.\" Why it's wrong: Inline elements ignore vertical margins/padding (top/bottom) and height/width properties.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write a complete CSS rule set (selector + declaration block) that styles a given HTML structure using at least three different selector types (element, class, ID, attribute, pseudo-class) and five distinct properties, and explain how the cascade resolves conflicting declarations for the same element.",
      "self_check": true
     }
    ]

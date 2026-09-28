@@ -34,6 +34,31 @@
      "q": "Design a simple school-lab experiment to demonstrate both an advantage and a disadvantage of friction using only a wooden block, a spring balance, a rough plank, a smooth plank, and a set of weights. Describe the procedure, what you measure, and how each measurement shows one advantage and one disadvantage.",
      "a": "Procedure: (1) Place block on rough plank. Attach spring balance. Pull horizontally until block just moves. Record maximum reading = static friction limit (advantage: this force prevents unwanted sliding, e.g., furniture staying put). (2) Continue pulling at constant velocity. Record reading = kinetic friction (disadvantage: this force must be continuously overcome, wasting effort). (3) Repeat on smooth plank: lower static limit (disadvantage: block slips easily, e.g., unsafe flooring) and lower kinetic friction (advantage: less effort to keep moving).  \nGood answer identifies both static and kinetic friction roles, links measurements to real examples, and notes the trade-off. A poor answer only measures one friction type or cannot connect the force reading to a real-world advantage/disadvantage, showing lack of application thinking.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Friction's advantages are its beneficial roles in enabling motion (via static friction providing grip for walking, driving, and holding objects) and enabling controlled stopping (via kinetic friction in brakes); its ______ are its detrimental roles in opposing relative motion (causing energy dissipation as heat, reducing mechanical efficiency) and causing material wear (surface degradation over time).",
+     "a": "disadvantages",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bicycle: when you pedal, the rear tyre pushes backward on the road, and static friction pushes you forward (Third Law action-reaction) — this is an ______.",
+     "a": "advantage",
+     "self_check": true
+    },
+    {
+     "q": "What is Friction's advantages? State the definition given in this lesson.",
+     "a": "Friction's advantages are its beneficial roles in enabling motion (via static friction providing grip for walking, driving, and holding objects) and enabling controlled stopping (via kinetic friction in brakes); its disadvantages are its detrimental roles in opposing relative motion (causing energy dissipation as heat, reducing.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Friction's advantages?",
+     "a": "Students believe \"friction always opposes motion\" and therefore classify static friction as a disadvantage when it prevents a stationary object from moving (e.g., \"friction makes it hard to push a heavy cupboard\").",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can analyze a given real-world mechanical system (e.g., bicycle, car engine, conveyor belt) and identify at least two specific advantages and two specific disadvantages of friction in that system, explaining each using Newton's Second and Third Laws, and can predict the effect of changing the coefficient of friction on the.",
+     "self_check": true
     }
    ]
   }

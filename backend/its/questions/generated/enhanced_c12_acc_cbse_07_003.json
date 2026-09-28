@@ -34,6 +34,31 @@
      "q": "Design a mnemonic or memory aid to recall the 16-line sequence of the Statement of Profit and Loss (I to XVI). Test it by writing the full sequence from memory.",
      "a": "Example mnemonic: \"**R**evenge **O**f **T**otal **E**xpenses **P**roduces **B**ig **E**xceptional **E**xtra **P**rofits **B**efore **T**ax **T**akes **P**rofit **D**iscontinuing **T**ax **P**rofit **E**arnings\". \nSequence: I Revenue, II Other Income, III Total Revenue, IV Expenses, V Profit before Exceptional/Extraordinary, VI Exceptional Items, VII Profit before Extraordinary, VIII Extraordinary Items, IX Profit before Tax, X Tax Expense, XI Profit from Continuing, XII Discontinuing Profit, XIII Discontinuing Tax, XIV Discontinuing after Tax, XV Total Profit, XVI EPS. \nA poor mnemonic that misses \"Exceptional vs Extraordinary\" distinction or \"Deferred Tax\" reveals shallow encoding.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Statement of Profit and Loss (as per Schedule III, Part II of the Companies Act, 2013) is a ______ financial statement that presents a company's revenues, expenses, and profit/loss for a specific accounting period in a prescribed vertical format with mandatory line items, note references, and comparative figures for the previous year.",
+     "a": "standardized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're an intern at a CA firm and your senior hands you a trial balance of \"Sharma Electronics Ltd.\" and says, \"Prepare the Statement of Profit and Loss for the board meeting — use the exact Schedule III format.\" You stare at 50 ledger accounts wondering: Where does \"Interest on ______\" go?",
+     "a": "Debentures",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Statement of Profit and Loss (as per Schedule III, Part II of the Companies Act, ______) is a standardized financial statement that presents a company's revenues, expenses, and profit/loss for a specific accounting period in a prescribed vertical format with mandatory line items, note references, and comparative figures for the previous year.",
+     "a": "2013",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) reproduce the complete vertical format of the Statement of Profit and Loss with all 16 mandatory line items in correct sequence, (2) classify any given income/expense item into the correct Schedule III head (e.g., \"Finance Costs\" vs \"Other Expenses\"), and (3) prepare a comparative Statement of Profit and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're an intern at a CA firm and your senior hands you a trial balance of \"Sharma ______ Ltd.\" and says, \"Prepare the Statement of Profit and Loss for the board meeting — use the exact Schedule III format.\" You stare at 50 ledger accounts wondering: Where does \"Interest on Debentures\" go?",
+     "a": "Electronics",
+     "self_check": true
     }
    ]
   }

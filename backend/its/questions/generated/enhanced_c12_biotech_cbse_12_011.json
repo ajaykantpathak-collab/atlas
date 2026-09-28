@@ -34,6 +34,31 @@
      "q": "A CREATE level question: Design a one‑page \"Biosafety Compliance Checklist\" for a new biotech incubator that will host startups working at BSL‑1 and BSL‑2. Include at least five items covering institutional, documentation, and training requirements.",
      "a": "A good answer includes: (1) IBSC registration with DBT and constitution as per guidelines; (2) Biosafety manual specific to the facility; (3) Risk assessment templates for each project; (4) Annual training records for all personnel (including emergency response); (5) Waste decontamination SOPs and validation logs; (6) Incident reporting mechanism to IBSC and RCGM.  \nA poor answer (e.g., only listing PPE or generic lab safety) reveals the student thinks compliance is about personal protection rather than systemic institutional accountability.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Biosafety ______ are legally mandated frameworks that govern the handling, transport, and disposal of biological materials (including genetically modified organisms, pathogens, and recombinant DNA) to protect human health and the environment.",
+     "a": "regulations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a Class 12 student interning at a biotech startup that wants to ______ E. coli to produce insulin.",
+     "a": "engineer",
+     "self_check": true
+    },
+    {
+     "q": "What is Biosafety regulations? State the definition given in this lesson.",
+     "a": "Biosafety regulations are legally mandated frameworks that govern the handling, transport, and disposal of biological materials (including genetically modified organisms, pathogens, and recombinant DNA) to protect human health and the environment.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) classify a given biotechnology activity into the correct biosafety level (BSL-1 to BSL-4) with justification, and (2) construct a step‑by‑step regulatory compliance roadmap for a hypothetical Indian biotech startup working with recombinant DNA, naming every mandatory committee (IBSC, RCGM, GEAC) and the sequence of.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a Class 12 student ______ at a biotech startup that wants to engineer E. coli to produce insulin.",
+     "a": "interning",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design an experiment using 14CO2 and 18O2 labelling to distinguish whether CO2 released during photorespiration originates from the carboxyl group of glycine or from the Calvin cycle intermediate.",
      "a": "Feed 14CO2 to illuminate leaf, then chase with 18O2 in dark. Isolate glycine and measure 14C/18O in released CO2. If CO2 from glycine decarboxylase (mitochondria) carries 14C label from previous fixation, it confirms glycine as source. If unlabelled, CO2 comes from other pools. Expected result: 14CO2 released in light after 18O2 exposure confirms glycine decarboxylation as major photorespiratory CO2 source. Poor design (e.g., no chase period, measuring only total CO2) reveals misunderstanding of isotopic tracer kinetics and compartmentalisation of photorespiratory enzymes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is a light-dependent, oxygen-consuming process in C3 plants where RuBisCO oxygenates RuBP instead of carboxylating it, producing one molecule of 3-phosphoglycerate (3-PGA) and one molecule of 2-phosphoglycolate (2-PG), resulting in net loss of fixed carbon and energy (ATP) without sugar synthesis.",
+     "a": "Photorespiration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a wheat field in Punjab during May afternoon — leaves curl inward, stomata ______ close, yet the crop continues photosynthesising.",
+     "a": "partially",
+     "self_check": true
+    },
+    {
+     "q": "What is Photorespiration? State the definition given in this lesson.",
+     "a": "Photorespiration is a light-dependent, oxygen-consuming process in C3 plants where RuBisCO oxygenates RuBP instead of carboxylating it, producing one molecule of 3-phosphoglycerate (3-PGA) and one molecule of 2-phosphoglycolate (2-PG), resulting in net loss of fixed carbon and energy (ATP) without sugar synthesis.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Photorespiration?",
+     "a": "Students believe photorespiration is simply \"reverse photosynthesis\" or \"respiration in light\" because it consumes O2 and releases CO2.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can trace the complete photorespiratory pathway from RuBP oxygenation to glycine decarboxylation in mitochondria, explain why it occurs only in C3 plants under high O2/low CO2 conditions, and quantitatively compare ATP/NADPH costs between C3 and C4 photosynthesis under photorespiratory conditions.",
+     "self_check": true
     }
    ]
   }

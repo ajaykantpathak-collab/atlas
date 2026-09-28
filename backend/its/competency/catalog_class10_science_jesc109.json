@@ -24,12 +24,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "apply the reflection rule",
-     "explain": "Incident and reflected angles stay equal about the normal."},
-    {"step": 2, "action": "trace two rays",
-     "explain": "Standard rays from the object locate the image point."},
-    {"step": 3, "action": "describe the image",
-     "explain": "State real or virtual, erect or inverted, magnified or diminished."}
+    {
+     "step": 1,
+     "action": "apply the reflection rule",
+     "explain": "Incident and reflected angles stay equal about the normal."
+    },
+    {
+     "step": 2,
+     "action": "trace two rays",
+     "explain": "Standard rays from the object locate the image point."
+    },
+    {
+     "step": 3,
+     "action": "describe the image",
+     "explain": "State real or virtual, erect or inverted, magnified or diminished."
+    }
    ]
   },
   {
@@ -50,10 +59,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "divide the image height by the object height",
+    {
+     "step": 1,
+     "action": "divide the image height by the object height",
      "explain": "Magnification is the ratio of heights.",
-     "compute": "magnification = image_height / object_height"}
-   ]
+     "compute": "magnification = image_height / object_height"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "magnification = image_height / object_height",
+     "compute": "magnification = image_height / object_height"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.109.9.3",
@@ -73,13 +94,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "convert focal length to metres",
+    {
+     "step": 1,
+     "action": "convert focal length to metres",
      "explain": "The focal length must be in metres for dioptres.",
-     "compute": "f_m = f / 100"},
-    {"step": 2, "action": "take the reciprocal",
+     "compute": "f_m = f / 100"
+    },
+    {
+     "step": 2,
+     "action": "take the reciprocal",
      "explain": "Power in dioptres is 1 over f in metres.",
-     "compute": "power = 1 / f_m"}
-   ]
+     "compute": "power = 1 / f_m"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "power = 1 / f",
+     "compute": "power = 1 / f"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -94,9 +130,12 @@
     "image_height": "height of the image in cm"
    },
    "solution_template": [
-    {"step": 1, "action": "divide image height by object height",
+    {
+     "step": 1,
+     "action": "divide image height by object height",
      "explain": "Magnification is the height ratio.",
-     "compute": "magnification = image_height / object_height"}
+     "compute": "magnification = image_height / object_height"
+    }
    ]
   },
   {
@@ -110,9 +149,12 @@
     "image_height": "image height in cm"
    },
    "solution_template": [
-    {"step": 1, "action": "take the height ratio",
+    {
+     "step": 1,
+     "action": "take the height ratio",
      "explain": "Divide the image size by the object size.",
-     "compute": "magnification = image_height / object_height"}
+     "compute": "magnification = image_height / object_height"
+    }
    ]
   },
   {
@@ -125,12 +167,18 @@
     "f": "focal length in cm"
    },
    "solution_template": [
-    {"step": 1, "action": "convert to metres",
+    {
+     "step": 1,
+     "action": "convert to metres",
      "explain": "Divide the focal length in cm by 100.",
-     "compute": "f_m = f / 100"},
-    {"step": 2, "action": "take the reciprocal",
+     "compute": "f_m = f / 100"
+    },
+    {
+     "step": 2,
+     "action": "take the reciprocal",
      "explain": "Power equals 1 over f in metres, in dioptres.",
-     "compute": "power = 1 / f_m"}
+     "compute": "power = 1 / f_m"
+    }
    ]
   },
   {
@@ -143,12 +191,18 @@
     "f": "focal length in cm"
    },
    "solution_template": [
-    {"step": 1, "action": "convert to metres",
+    {
+     "step": 1,
+     "action": "convert to metres",
      "explain": "Metres are needed for dioptres.",
-     "compute": "f_m = f / 100"},
-    {"step": 2, "action": "invert the focal length",
+     "compute": "f_m = f / 100"
+    },
+    {
+     "step": 2,
+     "action": "invert the focal length",
      "explain": "Power is the reciprocal of f in metres.",
-     "compute": "power = 1 / f_m"}
+     "compute": "power = 1 / f_m"
+    }
    ]
   }
  ],
@@ -157,9 +211,9 @@
    "id": "ex9.1",
    "source_ref": "jesc109.txt exercises",
    "questions": [
-     "Find the image position and nature for the given mirror data.",
-     "Solve the numericals using the mirror and lens formulae.",
-     "Draw ray diagrams for the given object positions."
+    "Find the image position and nature for the given mirror data.",
+    "Solve the numericals using the mirror and lens formulae.",
+    "Draw ray diagrams for the given object positions."
    ]
   }
  ]

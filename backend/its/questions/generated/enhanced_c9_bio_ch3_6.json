@@ -34,6 +34,31 @@
      "q": "Design a simple experiment to test whether a given flowering plant in your school garden is self-pollinated or cross-pollinated. List the steps, controls, and expected observations for each case.",
      "a": "Steps: (1) Select unopened flower buds. (2) Bag one set with fine mesh (exclude pollinators) and leave another set open (control). (3) After flowering, check fruit/seed set in both. If bagged flowers set seeds, plant is self-pollinated; if only open flowers set seeds, it requires cross-pollination. Controls: same plant, same age, same environment. Expected: self-pollinated plants (e.g., pea) produce seeds in bags; cross-pollinated (e.g., pumpkin) do not. A poor answer (e.g., no control, or using only one flower) reveals inability to design controlled biological experiments.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Pollination is the transfer of pollen grains from the anther (male part) to the stigma (female part) of a flower, enabling ______.",
+     "a": "fertilisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ flower in your garden or school campus early in the morning: you will see the anthers dusted with yellow pollen touching the sticky stigma of the same flower.",
+     "a": "hibiscus",
+     "self_check": true
+    },
+    {
+     "q": "What is Pollination? State the definition given in this lesson.",
+     "a": "Pollination is the transfer of pollen grains from the anther (male part) to the stigma (female part) of a flower, enabling fertilisation.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Pollination?",
+     "a": "Students often think that \"cross-pollination\" means pollen transfer between different species (e.g., rose pollen on a lily stigma).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between self and cross pollination by identifying floral adaptations in diagrams, explain the genetic consequences of each type, and predict which pollination type a given flower is adapted for based on its structure.",
+     "self_check": true
     }
    ]
   }

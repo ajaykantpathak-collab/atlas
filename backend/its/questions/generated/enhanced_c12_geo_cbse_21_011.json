@@ -34,6 +34,31 @@
      "q": "Design a GPS-based field survey plan to map the boundary of a 50-ha village pond in West Bengal during monsoon. Specify equipment, observation strategy, and quality checks.",
      "a": "Equipment: Dual-frequency RTK-GPS (base + rover), choke-ring antenna, pole, controller. Strategy: Set base on known benchmark (or establish via PPP), occupy rover at 20–30 m intervals along pond edge, log 30-second epochs at each point. Quality checks: (1) PDOP < 4, (2) ≥5 satellites, (3) fixed integer solution, (4) repeat 10% points for closure, (5) compare with high-resolution satellite imagery. A poor plan uses single-frequency handheld GPS, ignores monsoon cloud cover (irrelevant for GPS but affects imagery), or omits redundancy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Global ______ System (GPS) is a satellite-based navigation system that provides precise geolocation (latitude, longitude, altitude) and time information to a GPS receiver anywhere on or near Earth by measuring signal travel time from multiple satellites in known orbits.",
+     "a": "Positioning",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ at India Gate in New Delhi and open a map app on your phone — it instantly shows your exact location.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What is Global Positioning System (GPS)? State the definition given in this lesson.",
+     "a": "Global Positioning System (GPS) is a satellite-based navigation system that provides precise geolocation (latitude, longitude, altitude) and time information to a GPS receiver anywhere on or near Earth by measuring signal travel time from multiple satellites in known orbits.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Global Positioning System (GPS)?",
+     "a": "Students often think GPS satellites \"track\" the user or that the receiver sends signals to satellites.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the three segments of GPS (space, control, user), describe the principle of trilateration using signal travel time, and list at least four field applications in geography (e.g., mapping, navigation, surveying, disaster management) with Indian examples.",
+     "self_check": true
     }
    ]
   }

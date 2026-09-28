@@ -34,6 +34,31 @@
      "q": "Design a simple classroom experiment to verify Hooke's law for a metal wire. List the apparatus needed, the measurements to take, the graph to plot, and how you would determine if the wire obeys Hooke's law. Mention one precaution to ensure the wire stays within its elastic limit.",
      "a": "Apparatus: Uniform metal wire (e.g., copper, 2 m long), rigid support, hanger, slotted weights (10 g to 500 g), metre scale, micrometer screw gauge, vernier caliper. Measurements: (1) Measure wire diameter at 3 points with micrometer, compute mean area A. (2) Measure original length L with metre scale. (3) Add weights incrementally (e.g., 50 g steps), record extension ΔL for each load using a pointer and scale. (4) Compute stress σ = mg/A and strain ε = ΔL/L for each load. Graph: Plot σ (y-axis) vs ε (x-axis). Verification: If the graph is a straight line through the origin for the initial data points, Hooke's law is obeyed. The slope gives Young's modulus. Precaution: Use small loads (e.g., ≤ 200 g for thin copper wire) and unload after each step to check for permanent set; stop if extension does not fully recover. A poor answer (e.g., plotting F vs ΔL without converting to stress/strain, or not measuring cross-section) shows the student does not understand that Hooke's law in material form requires intensive quantities (stress, strain) not extensive ones (force, extension).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Hooke's Law states that within the elastic limit of a material, the stress developed is directly ______ to the strain produced.",
+     "a": "proportional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine stretching a thin steel wire and a rubber band hanging from your ______ ceiling.",
+     "a": "classroom",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The steel wire stretches barely a millimetre under a ______ kg load, while the rubber band stretches several centimetres.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can interpret a stress-strain curve to identify the proportional limit, elastic limit, yield point, ultimate tensile strength, and fracture point; calculate the modulus of elasticity from the slope of the linear region; and distinguish between ductile and brittle behaviour based on the curve shape.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine ______ a thin steel wire and a rubber band hanging from your classroom ceiling.",
+     "a": "stretching",
+     "self_check": true
     }
    ]
   }

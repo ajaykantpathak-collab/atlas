@@ -34,6 +34,36 @@
      "q": "Design a field experiment to determine whether the interaction between a native ant species and a plant with extrafloral nectaries is mutualistic, parasitic, or commensal. Specify the control, treatment, and measurable fitness proxies.",
      "a": "Treatment: exclude ants from half the plants (e.g., sticky barrier). Control: allow ants on the other half. Measure: plant fitness proxies (seed set, herbivore damage, growth rate) and ant colony growth (worker number, brood) after one season. If both increase with ants present → mutualism. If plant fitness decreases but ant colony grows → parasitism. If ant colony grows but plant fitness unchanged → commensalism. A poor design (e.g., no control, only observing natural variation) reveals inability to isolate the interaction effect from confounding environmental factors.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mutualism is an ______ interaction where both participating species derive a net benefit (e.g., pollination, mycorrhizae).",
+     "a": "interspecific",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are walking through a mango orchard in summer: you see bees buzzing around mango flowers (mutualism — bee gets nectar, flower gets pollinated), a dodder vine (Cuscuta) twining around a hedge plant and sucking its sap (parasitism — dodder benefits, hedge is harmed), and an orchid growing harmlessly on a mango branch (______ — orchid gets support and light, mango is unaffected).",
+     "a": "commensalism",
+     "self_check": true
+    },
+    {
+     "q": "What is Mutualism? State the definition given in this lesson.",
+     "a": "Mutualism is an interspecific interaction where both participating species derive a net benefit (e.g., pollination, mycorrhizae).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key principle: the sign of the interaction (+, -, ______) for each species determines its effect on population growth rates and community structure.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Mutualism?",
+     "a": "Students equate \"symbiosis\" with \"mutualism\" and think all close, long-term associations are mutually beneficial.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify any given species interaction as mutualism, parasitism, or commensalism using the +/-/0 framework, explain the ecological and evolutionary consequences of each, and predict how changes in environmental context (e.g., resource availability) might shift the interaction type.",
+     "self_check": true
     }
    ]
   }

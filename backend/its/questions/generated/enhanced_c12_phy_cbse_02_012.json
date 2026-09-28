@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a capacitor, a battery, and a small electric motor (or LED) to demonstrate that a charged capacitor stores energy. Describe the procedure, what you would observe, and how you would estimate the stored energy from the observations.",
      "a": "**Procedure:** Charge a large electrolytic capacitor (e.g., 1000 μF, 16 V) using a 9 V battery through a current-limiting resistor. Disconnect the battery. Connect the capacitor to a small DC motor (or LED with a series resistor). Observe the motor spinning (or LED glowing) for a short time.  \n**Observation:** The motor runs/LED lights using only the capacitor's stored energy, proving energy was stored.  \n**Estimation:** Measure the time the motor runs and its average current (using a multimeter in series). Approximate energy delivered = \\( \\int V(t)I(t)\\,dt \\). If voltage drops linearly from 9 V to 0, average voltage = 4.5 V. If average current is 10 mA for 2 s, energy ≈ 4.5 V × 0.01 A × 2 s = 0.09 J. Compare with \\( \\frac{1}{2}CV^2 = \\frac{1}{2} \\times 1000 \\times 10^{-6} \\times 81 = 0.0405 \\, \\text{J} \\). Discrepancy due to non-ideal discharge and measurement errors.  \nA poor answer (e.g., \"just connect and see\" without quantitative estimation) shows inability to link the physical demonstration to the energy formula.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Energy stored in a capacitor is the ______ potential energy accumulated when work is done to transfer charge from one plate to another against the growing potential difference.",
+     "a": "electrostatic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a camera flash unit: a ______ charges slowly from a battery, then discharges rapidly to produce a bright flash.",
+     "a": "capacitor",
+     "self_check": true
+    },
+    {
+     "q": "What is Energy stored in a capacitor? State the definition given in this lesson.",
+     "a": "Energy stored in a capacitor is the electrostatic potential energy accumulated when work is done to transfer charge from one plate to another against the growing potential difference.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Energy stored in a capacitor?",
+     "a": "They forget that during charging, the capacitor's voltage is not constant; it rises from 0 to V, so the average voltage is V/2, giving the factor 1/2.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) derive the energy formula by integrating the work done in charging a capacitor, (2) calculate stored energy for single capacitors and combinations (series/parallel) using the appropriate equivalent capacitance, (3) compute energy density from electric field strength, and (4) analyze energy redistribution when charged.",
+     "self_check": true
     }
    ]
   }

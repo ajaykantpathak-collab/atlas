@@ -22,15 +22,33 @@
     "which similarity criterion applies to the given triangles",
     "prove the given triangles similar and write the similarity statement"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "match the angles",
-     "explain": "Two pairs of equal angles give AA similarity."},
-    {"step": 2, "action": "check the side ratios",
-     "explain": "Equal ratios of corresponding sides give SSS similarity."},
-    {"step": 3, "action": "combine if needed",
-     "explain": "One equal angle pair plus proportional adjacent sides gives SAS."}
-   ]
+    {
+     "step": 1,
+     "action": "match the angles",
+     "explain": "Two pairs of equal angles give AA similarity."
+    },
+    {
+     "step": 2,
+     "action": "check the side ratios",
+     "explain": "Equal ratios of corresponding sides give SSS similarity."
+    },
+    {
+     "step": 3,
+     "action": "combine if needed",
+     "explain": "One equal angle pair plus proportional adjacent sides gives SAS."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the congruence condition and angle sums",
+     "explain": "use the congruence condition and angle sums: third = 180 - 71 - 32 gives 77",
+     "compute": "third = 180 - 71 - 32"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.106.6.2",
@@ -48,15 +66,33 @@
     "which theorem helps when a line is parallel to a side - explain",
     "verify the converse of BPT for the given figure"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "spot the parallel line",
-     "explain": "Identify the line parallel to one side of the triangle."},
-    {"step": 2, "action": "write the proportion",
-     "explain": "The segments on the two sides are in the same ratio."},
-    {"step": 3, "action": "solve or conclude",
-     "explain": "Find the missing segment or assert the parallelism."}
-   ]
+    {
+     "step": 1,
+     "action": "spot the parallel line",
+     "explain": "Identify the line parallel to one side of the triangle."
+    },
+    {
+     "step": 2,
+     "action": "write the proportion",
+     "explain": "The segments on the two sides are in the same ratio."
+    },
+    {
+     "step": 3,
+     "action": "solve or conclude",
+     "explain": "Find the missing segment or assert the parallelism."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 18 / 6 gives 3",
+     "compute": "t1 = 18 / 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.106.6.3",
@@ -76,9 +112,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "square the side ratio",
+    {
+     "step": 1,
+     "action": "square the side ratio",
      "explain": "The area ratio is the square of the side scale s.",
-     "compute": "area_ratio = s * s"}
+     "compute": "area_ratio = s * s"
+    }
    ]
   },
   {
@@ -97,15 +136,33 @@
     "use the converse of Pythagoras theorem on the given data",
     "find the diagonal or height using the Pythagorean relation"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "identify the right angle",
-     "explain": "The side opposite the right angle is the hypotenuse."},
-    {"step": 2, "action": "apply the relation",
-     "explain": "Check hypotenuse squared against the sum of leg squares."},
-    {"step": 3, "action": "conclude",
-     "explain": "Equality proves a right angle (or finds the missing side)."}
-   ]
+    {
+     "step": 1,
+     "action": "identify the right angle",
+     "explain": "The side opposite the right angle is the hypotenuse."
+    },
+    {
+     "step": 2,
+     "action": "apply the relation",
+     "explain": "Check hypotenuse squared against the sum of leg squares."
+    },
+    {
+     "step": 3,
+     "action": "conclude",
+     "explain": "Equality proves a right angle (or finds the missing side)."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the quadrilateral property to compute the value",
+     "explain": "use the quadrilateral property to compute the value: adj = 180 - 60 gives 120",
+     "compute": "adj = 180 - 60"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -119,9 +176,12 @@
     "s": "scale of the larger triangle relative to the smaller"
    },
    "solution_template": [
-    {"step": 1, "action": "square the side ratio",
+    {
+     "step": 1,
+     "action": "square the side ratio",
      "explain": "Areas of similar triangles scale as the square of sides.",
-     "compute": "area_ratio = s * s"}
+     "compute": "area_ratio = s * s"
+    }
    ]
   },
   {
@@ -134,9 +194,12 @@
     "s": "ratio of corresponding sides"
    },
    "solution_template": [
-    {"step": 1, "action": "square the side ratio",
+    {
+     "step": 1,
+     "action": "square the side ratio",
      "explain": "The theorem squares the linear scale.",
-     "compute": "area_ratio = s * s"}
+     "compute": "area_ratio = s * s"
+    }
    ]
   }
  ],
@@ -145,18 +208,18 @@
    "id": "ex6.1",
    "source_ref": "jemh106.txt EXERCISE 6.1-6.3",
    "questions": [
-     "State which pairs of the given figures are similar.",
-     "Prove the basic proportionality theorem.",
-     "Show that the given triangles are similar using the criteria."
+    "State which pairs of the given figures are similar.",
+    "Prove the basic proportionality theorem.",
+    "Show that the given triangles are similar using the criteria."
    ]
   },
   {
    "id": "ex6.2",
    "source_ref": "jemh106.txt EXERCISE 6.4-6.5",
    "questions": [
-     "Find the ratio of areas of the given similar triangles.",
-     "Solve the given problems using the Pythagoras theorem.",
-     "Prove the converse of Pythagoras theorem."
+    "Find the ratio of areas of the given similar triangles.",
+    "Solve the given problems using the Pythagoras theorem.",
+    "Prove the converse of Pythagoras theorem."
    ]
   }
  ]

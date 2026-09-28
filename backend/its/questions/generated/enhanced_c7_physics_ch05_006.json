@@ -34,6 +34,26 @@
      "q": "Design a simple setup using everyday household items (like a comb, a torchlight, and a flat mirror on a table) to demonstrate that the incident ray, reflected ray, and normal all lie in the same plane.",
      "a": "A good answer will describe placing a sheet of white paper on a table, standing a mirror vertically on it, and shining a narrow beam of light (using a comb-blocked torch) across the paper so the incident and reflected light tracks are visible flat on the paper surface. A poor answer fails to account for how to show coplanarity or confuses light blocking with ray tracing.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The laws of reflection state that when light falls on a smooth, ______ surface, the angle of reflection equals the angle of incidence, and the incident ray, reflected ray, and normal all lie in the same plane.",
+     "a": "reflective",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine holding a pocket mirror in the ______ and bouncing a bright patch of light onto a classroom wall.",
+     "a": "sunlight",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can measure or calculate angles of incidence and reflection using the normal line, and can sketch the path of a light ray reflecting off a plane surface following both geometric laws.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine holding a pocket mirror in the sunlight and bouncing a bright patch of light onto a ______ wall.",
+     "a": "classroom",
+     "self_check": true
     }
    ]
   }

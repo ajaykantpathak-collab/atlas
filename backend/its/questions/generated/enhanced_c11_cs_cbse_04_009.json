@@ -34,6 +34,31 @@
      "q": "Design a minimal Python snippet that demonstrates all four types (`int`, `float`, `str`, `bool`) interacting in a single expression without explicit conversion functions (`int()`, `float()`, `str()`, `bool()`), and explain the type of the final result.",
      "a": "Example: `result = 5 + 2.0 * (3 > 1) - len(\"hi\")` → `5 + 2.0 * True - 2` → `5 + 2.0 - 2` → `5.0` (float). Steps: `3 > 1` yields `bool` `True`; `True` in arithmetic becomes `1` (int); `2.0 * 1` yields `float` `2.0`; `len(\"hi\")` returns `int` `2`; `int + float - int` promotes to `float`. A poor answer (e.g., using `str()` or not mixing types) reveals inability to trace implicit type promotion rules (`int` → `float` in mixed arithmetic, `bool` → `int` in numeric context).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In Python, data types classify the kind of value a variable holds, determining the operations allowed and the memory ______.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a simple billing ______ for a kirana store.",
+     "a": "program",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How does Python know whether ______ is a quantity or a price?",
+     "a": "25",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the data type of any given literal or variable using type(), explain the range/precision characteristics of each type, and predict the result of basic operations (arithmetic, relational, logical) on values of these types without executing code.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a simple billing program for a kirana store.",
+     "a": "building",
+     "self_check": true
     }
    ]
   }

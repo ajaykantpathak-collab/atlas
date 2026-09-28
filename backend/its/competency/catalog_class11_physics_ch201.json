@@ -51,7 +51,16 @@
      "solution": "Step 1: divide force by cross-sectional area. Step 2: determine cross-sectional area from geometry. Step 3: classify stress as tensile or compressive. Working: force / area, pi * radius**2.",
      "answer": "The method of longitudinal stress leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "stress = force / area",
+     "compute": "stress = force / area"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.201.2",
@@ -99,7 +108,16 @@
      "solution": "Step 1: divide extension by original length. Step 2: determine the sign of strain. Step 3: express strain as dimensionless or percentage. Working: delta_l / length, strain * 100.",
      "answer": "The method of longitudinal strain leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "strain = delta_L / length",
+     "compute": "strain = delta_L / length"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.201.3",
@@ -148,7 +166,16 @@
      "solution": "Step 1: compute stress. Step 2: compute strain. Step 3: calculate Young's modulus. Working: force / area, delta_l / length, stress / strain.",
      "answer": "The method of young's modulus leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "young_modulus = (force * length) / (area * delta_L)",
+     "compute": "young_modulus = (force * length) / (area * delta_L)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.201.4",
@@ -197,7 +224,16 @@
      "solution": "Step 1: compute shear stress. Step 2: calculate horizontal displacement. Step 3: compute shearing strain. Working: force / area, (shear_stress * height) / shear_modulus, displacement / height.",
      "answer": "The method of shear modulus and shearing strain leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "shear_modulus = (force * height) / (area * displacement)",
+     "compute": "shear_modulus = (force * height) / (area * displacement)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.201.5",
@@ -246,7 +282,16 @@
      "solution": "Step 1: compute volume strain. Step 2: calculate bulk modulus. Step 3: compute compressibility. Working: delta_volume / volume, pressure / volume_strain, 1 / bulk_modulus.",
      "answer": "The method of bulk modulus and compressibility leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "bulk_modulus = pressure * volume / delta_volume",
+     "compute": "bulk_modulus = pressure * volume / delta_volume"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.201.6",
@@ -295,7 +340,16 @@
      "solution": "Step 1: calculate energy density. Step 2: compute stress from force and area if not given directly. Step 3: compute total elastic energy stored. Working: 0.5 * stress * strain, force / area, energy_density * volume.",
      "answer": "The method of elastic potential energy density leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "energy_density = 0.5 * stress * strain",
+     "compute": "energy_density = 0.5 * stress * strain"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.201.7",
@@ -344,7 +398,16 @@
      "solution": "Step 1: calculate central sag. Step 2: identify beam dimensions and material Young's modulus. Step 3: interpret the sag value for structural safety. Working: (load * length**3) / (4 * breadth * depth**3 * young_modulus), depth**3, allowable_sag / sag.",
      "answer": "The method of sagging of a central loaded beam leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "sag = (load * length**3) / (4 * breadth * depth**3 * young_modulus)",
+     "compute": "sag = (load * length**3) / (4 * breadth * depth**3 * young_modulus)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.201.8",
@@ -395,7 +458,7 @@
     "explain why Poisson's ratio is dimensionless",
     "determine lateral contraction in a loaded wire"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -415,7 +478,16 @@
      "explain": "ratio of lateral strain to longitudinal strain",
      "compute": "lat_strain / long_strain"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "poisson_ratio = (delta_d / d) / (delta_L / L)",
+     "compute": "poisson_ratio = (delta_d / d) / (delta_L / L)"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

@@ -5,6 +5,8 @@
    "id": "jemh.7.1",
    "title": "Distance Between Two Points",
    "converted_to_compute": false,
+   "formula": "d = sqrt((x2 - x1)^2 + (y2 - y1)^2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (-3, -2) and (5, 13).",
@@ -42,6 +44,8 @@
    "id": "jemh.7.2",
    "title": "Distance of a Point from the Origin",
    "converted_to_compute": false,
+   "formula": "d = sqrt(x^2 + y^2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a square have?",
@@ -79,6 +83,8 @@
    "id": "jemh.7.3",
    "title": "Section Formula (Internal Division)",
    "converted_to_compute": false,
+   "formula": "P = ((m*x2 + n*x1)/(m+n), (m*y2 + n*y1)/(m+n))",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (4, -3) and (14, 21).",
@@ -116,6 +122,8 @@
    "id": "jemh.7.4",
    "title": "Midpoint of a Line Segment",
    "converted_to_compute": false,
+   "formula": "M = ((x1 + x2)/2, (y1 + y2)/2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (-5, -2) and (0, 10).",
@@ -153,10 +161,12 @@
    "id": "jemh.7.5",
    "title": "Coordinates of Point Dividing a Segment in a Given Ratio",
    "converted_to_compute": false,
+   "formula": "P = ((m*x2 + n*x1)/(m+n), (m*y2 + n*y1)/(m+n)) for internal division",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 12 : 48 in its simplest form and give the first term of the simplest form.",
-     "a": "2",
+     "a": "1",
      "self_check": false
     },
     {
@@ -190,6 +200,8 @@
    "id": "jemh.7.6",
    "title": "Area of a Triangle Using Coordinates",
    "converted_to_compute": false,
+   "formula": "A = 0.5 * |x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2)|",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 14 cm by 11 cm.",
@@ -226,27 +238,9 @@
   {
    "id": "jemh.7.7",
    "title": "Collinearity of Three Points",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the coordinate-geometry formula",
-     "explain": "apply the coordinate-geometry formula: dx = 17 - 5 gives 12",
-     "compute": "dx = 17 - 5"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the coordinate-geometry formula: dy = 10 - -6 gives 16",
-     "compute": "dy = 10 - -6"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 20",
-     "compute": "dist = sqrt(dx * dx + dy * dy)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "Area = 0 implies the three points are collinear",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (5, -6) and (17, 10).",
@@ -284,6 +278,8 @@
    "id": "jemh.7.8",
    "title": "Centroid of a Triangle",
    "converted_to_compute": false,
+   "formula": "G = ((x1 + x2 + x3)/3, (y1 + y2 + y3)/3)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (8, 4) and (20, 20).",
@@ -320,15 +316,9 @@
   {
    "id": "jemh.7.9",
    "title": "Type of Quadrilateral Using Coordinates",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the quadrilateral property to compute the value",
-     "explain": "use the quadrilateral property to compute the value: adj = 180 - 80 gives 100",
-     "compute": "adj = 180 - 80"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "Compare all side lengths d12, d23, d34, d41 and diagonal lengths d13, d24 to classify the quadrilateral",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a parallelogram one angle is 80 degrees. Find the adjacent angle.",
@@ -357,7 +347,7 @@
     },
     {
      "q": "A kite has one pair of equal angles. If the angle between the unequal sides is 40 degrees and the kite is symmetric, the sum of the two equal opposite angles is 360 - 40 - the other given angle of 80 degrees. Find the sum of the two equal angles.",
-     "a": "240",
+     "a": "280",
      "self_check": false
     }
    ]

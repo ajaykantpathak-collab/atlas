@@ -34,6 +34,31 @@
      "q": "Create a stain-removal decision flowchart (text-based) that a Class 12 student could use for any unknown stain on an unknown fabric. Include at least four decision nodes (e.g., stain class, fibre type, colourfastness, reagent availability).",
      "a": "Good answer: START → Is stain fresh? YES → Blot/rinse cold water. NO → Identify class (protein/tannin/oil/dye/mineral) via simple tests (solubility, smell, colour). → Identify fibre (burn test/label). → Test colourfastness on seam. → Select reagent ladder per table. → Apply mildest first, escalate. → Rinse, dry. Poor answer omits colourfastness test or treats all fibres identically.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Specific stain removal methods are targeted procedures using chemical reagents (solvents, enzymes, bleaches, acids/alkalis) and physical techniques (sponging, blotting, soaking) to dissolve, emulsify, or break down the staining substance without damaging the fabric, selected based on the stain's chemical nature (protein, tannin, oil, dye, mineral) and the fibre's ______.",
+     "a": "sensitivity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you spill ______-laden curry on a white cotton kurta and a silk dupatta simultaneously.",
+     "a": "turmeric",
+     "self_check": true
+    },
+    {
+     "q": "What is Specific stain removal methods? State the definition given in this lesson.",
+     "a": "Specific stain removal methods are targeted procedures using chemical reagents (solvents, enzymes, bleaches, acids/alkalis) and physical techniques (sponging, blotting, soaking) to dissolve, emulsify, or break down the staining substance without damaging the fabric, selected based on the stain's chemical nature (protein, tannin, oil.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Specific stain removal methods?",
+     "a": "Students think \"bleach removes all coloured stains\" and use chlorine bleach on coloured cotton, silk, or wool.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can look at an unknown stain on a given fabric, identify its probable class (protein/tannin/grease/dye/mineral), select the correct reagent sequence (e.g., cold water → enzyme → oxidising bleach for blood on cotton), and justify each step with the underlying chemical principle.",
+     "self_check": true
     }
    ]
   }

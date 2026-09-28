@@ -1,0 +1,523 @@
+{
+ "catalog": "catalog_class11_physics_ch206.json",
+ "concepts": [
+  {
+   "id": "keph.206.1",
+   "title": "Frequency and Period of Periodic Motion",
+   "converted_to_compute": true,
+   "formula": "frequency = count / duration; period = 1 / frequency",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "frequency = count / duration",
+     "compute": "frequency = count / duration"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "period = 1 / frequency",
+     "compute": "period = 1 / frequency"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keph.206.1",
+     "question_pattern": "in Class 11 physics oscillations: find the frequency and time period when a body completes {count} cycles in {duration} seconds"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Frequency and Period of Periodic Motion: given count = 493, duration = 13.9, find period.",
+     "a": "0.0281947",
+     "self_check": false
+    },
+    {
+     "q": "in Class 11 physics oscillations: find the frequency and time period when a body completes 493 cycles in 13.9 seconds?",
+     "a": "0.0281947",
+     "self_check": false
+    },
+    {
+     "q": "For Frequency and Period of Periodic Motion: given count = 31, duration = 95, find period.",
+     "a": "3.06452",
+     "self_check": false
+    },
+    {
+     "q": "in Class 11 physics oscillations: find the frequency and time period when a body completes 31 cycles in 95 seconds?",
+     "a": "3.06452",
+     "self_check": false
+    },
+    {
+     "q": "For Frequency and Period of Periodic Motion: given count = 382, duration = 60, find period.",
+     "a": "0.157068",
+     "self_check": false
+    },
+    {
+     "q": "in Class 11 physics oscillations: find the frequency and time period when a body completes 382 cycles in 60 seconds?",
+     "a": "0.157068",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.206.2",
+   "title": "Angular Frequency of Oscillatory Motion",
+   "converted_to_compute": true,
+   "formula": "omega = (2 * pi) / T",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "omega = (2 * pi) / T",
+     "compute": "omega = (2 * pi) / T"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keph.206.2",
+     "question_pattern": "in Class 11 physics oscillations: calculate the angular frequency for an oscillation with time period {T} seconds"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Angular Frequency of Oscillatory Motion: given T = 59, find omega.",
+     "a": "0.106495",
+     "self_check": false
+    },
+    {
+     "q": "in Class 11 physics oscillations: calculate the angular frequency for an oscillation with time period 59 seconds?",
+     "a": "0.106495",
+     "self_check": false
+    },
+    {
+     "q": "For Angular Frequency of Oscillatory Motion: given T = 76, find omega.",
+     "a": "0.0826735",
+     "self_check": false
+    },
+    {
+     "q": "in Class 11 physics oscillations: calculate the angular frequency for an oscillation with time period 76 seconds?",
+     "a": "0.0826735",
+     "self_check": false
+    },
+    {
+     "q": "For Angular Frequency of Oscillatory Motion: given T = 94, find omega.",
+     "a": "0.0668424",
+     "self_check": false
+    },
+    {
+     "q": "in Class 11 physics oscillations: calculate the angular frequency for an oscillation with time period 94 seconds?",
+     "a": "0.0668424",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.206.3",
+   "title": "Maximum Velocity in Simple Harmonic Motion",
+   "converted_to_compute": true,
+   "formula": "v_max = omega * amplitude",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "v_max = omega * amplitude",
+     "compute": "v_max = omega * amplitude"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keph.206.3",
+     "question_pattern": "in Class 11 physics oscillations: find the maximum speed of a particle in SHM with amplitude {omega} and angular frequency {amplitude}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Maximum Velocity in Simple Harmonic Motion: given omega = 82, amplitude = 13.4, find v max.",
+     "a": "1098.8",
+     "self_check": false
+    },
+    {
+     "q": "in Class 11 physics oscillations: find the maximum speed of a particle in SHM with amplitude 82 and angular frequency 13.4?",
+     "a": "1098.8",
+     "self_check": false
+    },
+    {
+     "q": "For Maximum Velocity in Simple Harmonic Motion: given omega = 89, amplitude = 88, find v max.",
+     "a": "7832",
+     "self_check": false
+    },
+    {
+     "q": "in Class 11 physics oscillations: find the maximum speed of a particle in SHM with amplitude 89 and angular frequency 88?",
+     "a": "7832",
+     "self_check": false
+    },
+    {
+     "q": "For Maximum Velocity in Simple Harmonic Motion: given omega = 11, amplitude = 53, find v max.",
+     "a": "583",
+     "self_check": false
+    },
+    {
+     "q": "in Class 11 physics oscillations: find the maximum speed of a particle in SHM with amplitude 11 and angular frequency 53?",
+     "a": "583",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.206.4",
+   "title": "Maximum Acceleration in Simple Harmonic Motion",
+   "converted_to_compute": true,
+   "formula": "a_max = (omega ** 2) * amplitude",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "a_max = (omega ** 2) * amplitude",
+     "compute": "a_max = (omega ** 2) * amplitude"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keph.206.4",
+     "question_pattern": "in Class 11 physics oscillations: calculate maximum acceleration for SHM with angular frequency {omega} and amplitude {amplitude}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Maximum Acceleration in Simple Harmonic Motion: given omega = 22, amplitude = 43, find a max.",
+     "a": "20812",
+     "self_check": false
+    },
+    {
+     "q": "in Class 11 physics oscillations: calculate maximum acceleration for SHM with angular frequency 22 and amplitude 43?",
+     "a": "20812",
+     "self_check": false
+    },
+    {
+     "q": "For Maximum Acceleration in Simple Harmonic Motion: given omega = 16.9, amplitude = 13.1, find a max.",
+     "a": "3741.49",
+     "self_check": false
+    },
+    {
+     "q": "in Class 11 physics oscillations: calculate maximum acceleration for SHM with angular frequency 16.9 and amplitude 13.1?",
+     "a": "3741.49",
+     "self_check": false
+    },
+    {
+     "q": "For Maximum Acceleration in Simple Harmonic Motion: given omega = 2.2, amplitude = 17.3, find a max.",
+     "a": "83.732",
+     "self_check": false
+    },
+    {
+     "q": "in Class 11 physics oscillations: calculate maximum acceleration for SHM with angular frequency 2.2 and amplitude 17.3?",
+     "a": "83.732",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.206.5",
+   "title": "Oscillation Period of Spring Mass System",
+   "converted_to_compute": true,
+   "formula": "T = 2 * pi * sqrt(mass / spring_constant)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "T = 2 * pi * sqrt(mass / spring_constant)",
+     "compute": "T = 2 * pi * sqrt(mass / spring_constant)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keph.206.5",
+     "question_pattern": "in Class 11 physics oscillations: calculate the time period of oscillation for mass {mass} attached to spring with constant {spring_constant}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Oscillation Period of Spring Mass System: given mass = 105, spring_constant = 30, find T.",
+     "a": "11.7548",
+     "self_check": false
+    },
+    {
+     "q": "in Class 11 physics oscillations: calculate the time period of oscillation for mass 105 attached to spring with constant 30?",
+     "a": "11.7548",
+     "self_check": false
+    },
+    {
+     "q": "For Oscillation Period of Spring Mass System: given mass = 96, spring_constant = 78, find T.",
+     "a": "6.97057",
+     "self_check": false
+    },
+    {
+     "q": "in Class 11 physics oscillations: calculate the time period of oscillation for mass 96 attached to spring with constant 78?",
+     "a": "6.97057",
+     "self_check": false
+    },
+    {
+     "q": "For Oscillation Period of Spring Mass System: given mass = 181, spring_constant = 35, find T.",
+     "a": "14.2885",
+     "self_check": false
+    },
+    {
+     "q": "in Class 11 physics oscillations: calculate the time period of oscillation for mass 181 attached to spring with constant 35?",
+     "a": "14.2885",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.206.6",
+   "title": "Total Mechanical Energy in SHM",
+   "converted_to_compute": true,
+   "formula": "total_energy = (1 / 2) * spring_constant * (amplitude ** 2)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_energy = (1 / 2) * spring_constant * (amplitude ** 2)",
+     "compute": "total_energy = (1 / 2) * spring_constant * (amplitude ** 2)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keph.206.6",
+     "question_pattern": "in Class 11 physics oscillations: calculate total mechanical energy in SHM with spring constant {spring_constant} and amplitude {amplitude}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Total Mechanical Energy in SHM: given spring_constant = 66, amplitude = 7.6, find total energy.",
+     "a": "1906.08",
+     "self_check": false
+    },
+    {
+     "q": "in Class 11 physics oscillations: calculate total mechanical energy in SHM with spring constant 66 and amplitude 7.6?",
+     "a": "1906.08",
+     "self_check": false
+    },
+    {
+     "q": "For Total Mechanical Energy in SHM: given spring_constant = 69, amplitude = 38, find total energy.",
+     "a": "49818",
+     "self_check": false
+    },
+    {
+     "q": "in Class 11 physics oscillations: calculate total mechanical energy in SHM with spring constant 69 and amplitude 38?",
+     "a": "49818",
+     "self_check": false
+    },
+    {
+     "q": "For Total Mechanical Energy in SHM: given spring_constant = 67, amplitude = 16, find total energy.",
+     "a": "8576",
+     "self_check": false
+    },
+    {
+     "q": "in Class 11 physics oscillations: calculate total mechanical energy in SHM with spring constant 67 and amplitude 16?",
+     "a": "8576",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.206.7",
+   "title": "Potential Energy at Displacement in SHM",
+   "converted_to_compute": true,
+   "formula": "potential_energy = (1 / 2) * spring_constant * (displacement ** 2)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "potential_energy = (1 / 2) * spring_constant * (displacement ** 2)",
+     "compute": "potential_energy = (1 / 2) * spring_constant * (displacement ** 2)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keph.206.7",
+     "question_pattern": "in Class 11 physics oscillations: find potential energy in SHM at displacement {spring_constant} for spring constant {displacement}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Potential Energy at Displacement in SHM: given spring_constant = 21, displacement = 126, find potential energy.",
+     "a": "166698",
+     "self_check": false
+    },
+    {
+     "q": "in Class 11 physics oscillations: find potential energy in SHM at displacement 21 for spring constant 126?",
+     "a": "166698",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Energy at Displacement in SHM: given spring_constant = 63, displacement = 487, find potential energy.",
+     "a": "7470823.5",
+     "self_check": false
+    },
+    {
+     "q": "in Class 11 physics oscillations: find potential energy in SHM at displacement 63 for spring constant 487?",
+     "a": "7470823.5",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Energy at Displacement in SHM: given spring_constant = 67, displacement = 432, find potential energy.",
+     "a": "6251904",
+     "self_check": false
+    },
+    {
+     "q": "in Class 11 physics oscillations: find potential energy in SHM at displacement 67 for spring constant 432?",
+     "a": "6251904",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.206.8",
+   "title": "Time Period of Simple Pendulum",
+   "converted_to_compute": true,
+   "formula": "period = 2 * pi * sqrt(length / g)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "period = 2 * pi * sqrt(length / g)",
+     "compute": "period = 2 * pi * sqrt(length / g)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Time Period of Simple Pendulum: given length = 190, find period.",
+     "a": "27.6658",
+     "self_check": false
+    },
+    {
+     "q": "For Time Period of Simple Pendulum: given length = 485, find period.",
+     "a": "44.2016",
+     "self_check": false
+    },
+    {
+     "q": "For Time Period of Simple Pendulum: given length = 277, find period.",
+     "a": "33.4046",
+     "self_check": false
+    },
+    {
+     "q": "For Time Period of Simple Pendulum: given length = 98, find period.",
+     "a": "19.8692",
+     "self_check": false
+    },
+    {
+     "q": "For Time Period of Simple Pendulum: given length = 79, find period.",
+     "a": "17.8394",
+     "self_check": false
+    },
+    {
+     "q": "For Time Period of Simple Pendulum: given length = 334, find period.",
+     "a": "36.6809",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.206.9",
+   "title": "Length of Simple Pendulum for Given Period",
+   "converted_to_compute": true,
+   "formula": "length = (g * (period ** 2)) / (4 * (pi ** 2))",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "length = (g * (period ** 2)) / (4 * (pi ** 2))",
+     "compute": "length = (g * (period ** 2)) / (4 * (pi ** 2))"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Length of Simple Pendulum for Given Period: given period = 15.7, find length.",
+     "a": "61.1879",
+     "self_check": false
+    },
+    {
+     "q": "For Length of Simple Pendulum for Given Period: given period = 78, find length.",
+     "a": "1510.27",
+     "self_check": false
+    },
+    {
+     "q": "For Length of Simple Pendulum for Given Period: given period = 71, find length.",
+     "a": "1251.36",
+     "self_check": false
+    },
+    {
+     "q": "For Length of Simple Pendulum for Given Period: given period = 15.4, find length.",
+     "a": "58.8719",
+     "self_check": false
+    },
+    {
+     "q": "For Length of Simple Pendulum for Given Period: given period = 19.1, find length.",
+     "a": "90.5593",
+     "self_check": false
+    },
+    {
+     "q": "For Length of Simple Pendulum for Given Period: given period = 43, find length.",
+     "a": "458.99",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.206.10",
+   "title": "Verification of Simple Harmonic Motion Conditions",
+   "converted_to_compute": true,
+   "formula": "a = - (omega ** 2) * x",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "a = - (omega ** 2) * x",
+     "compute": "a = - (omega ** 2) * x"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Verification of Simple Harmonic Motion Conditions: given omega = 33, x = 27, find a.",
+     "a": "-29403",
+     "self_check": false
+    },
+    {
+     "q": "For Verification of Simple Harmonic Motion Conditions: given omega = 76, x = 28, find a.",
+     "a": "-161728",
+     "self_check": false
+    },
+    {
+     "q": "For Verification of Simple Harmonic Motion Conditions: given omega = 27, x = 59, find a.",
+     "a": "-43011",
+     "self_check": false
+    },
+    {
+     "q": "For Verification of Simple Harmonic Motion Conditions: given omega = 86, x = 89, find a.",
+     "a": "-658244",
+     "self_check": false
+    },
+    {
+     "q": "For Verification of Simple Harmonic Motion Conditions: given omega = 39, x = 0.7, find a.",
+     "a": "-1064.7",
+     "self_check": false
+    },
+    {
+     "q": "For Verification of Simple Harmonic Motion Conditions: given omega = 38, x = 22, find a.",
+     "a": "-31768",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

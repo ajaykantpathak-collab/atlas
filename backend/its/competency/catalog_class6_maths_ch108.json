@@ -95,7 +95,7 @@
     "State the two checks that make a figure a rectangle.",
     "Can a four-sided figure with 90-degree corners fail to be a rectangle?"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -112,7 +112,16 @@
      "action": "Conclude whether the figure is a rectangle",
      "explain": "If both opposite sides are equal and all four angles are 90 degrees, the figure is a rectangle."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 24 gives 66",
+     "compute": "other = 90 - 24"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.8.2.2",
@@ -129,7 +138,7 @@
     "State the two checks that make a figure a square.",
     "Is a square a special kind of rectangle -- why?"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -146,7 +155,16 @@
      "action": "Conclude whether the figure is a square",
      "explain": "If all four sides are equal and all four angles are 90 degrees, the figure is a square -- a special kind of rectangle."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "square the given number using the stated square rule",
+     "explain": "square the given number using the stated square rule: sq = 21 ** 2 gives 441",
+     "compute": "sq = 21 ** 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.8.4.1",

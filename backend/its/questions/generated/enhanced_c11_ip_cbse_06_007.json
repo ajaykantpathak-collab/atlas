@@ -34,6 +34,26 @@
      "q": "Design a mini-project idea where a Class 11 student uses `seek()` and `tell()` to create a simple \"random quote generator\" from a large text file of quotes (one per line) without loading all quotes into memory. Outline the steps.",
      "a": "Steps: (1) Scan file once, store `tell()` position before each `readline()` in a list `offsets`. (2) Count total quotes `n = len(offsets)`. (3) Pick random index `i = random.randint(0, n-1)`. (4) `seek(offsets[i])` and `readline()` to get the quote. (5) Print. A poor answer loads all lines into a list, missing the point of random access for large files.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The seek(offset, whence) method moves the file pointer to a specific byte position within an open file, where offset is the number of bytes to move and whence (0, 1, or 2) ______ the reference point (start, current position, or end).",
+     "a": "specifies",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a 500-line log file of daily sales (₹ ______) and need to quickly jump to the 150th entry without reading 149 lines.",
+     "a": "amounts",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write Python code to randomly access specific records in a text file by calculating byte offsets, use tell() to bookmark positions for later return, and explain how whence values change the behavior of seek() in a 3-mark board exam question.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you have a 500-line log file of daily sales (₹ amounts) and need to quickly jump to the 150th entry without reading 149 lines.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

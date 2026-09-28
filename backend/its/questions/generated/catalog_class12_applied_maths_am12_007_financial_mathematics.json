@@ -5,6 +5,8 @@
    "id": "am12_007.1",
    "title": "EMI Amortization of Loans",
    "converted_to_compute": false,
+   "formula": "k = (1 + r) ** n",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A price index uses base year value 100. If the current value is 160, find the index number.",
@@ -42,6 +44,8 @@
    "id": "am12_007.2",
    "title": "Compound Annual Growth Rate",
    "converted_to_compute": false,
+   "formula": "g = (v1 / v0) ** (1 / n) - 1",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the simple interest on Rs 1000 at 4% per annum for 5 years.",
@@ -79,6 +83,8 @@
    "id": "am12_007.3",
    "title": "Depreciation Written Down Value",
    "converted_to_compute": false,
+   "formula": "value = cost * (1 - d / 100) ** n",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the simple interest on Rs 6000 at 5% per annum for 4 years.",
@@ -116,6 +122,8 @@
    "id": "am12_007.4",
    "title": "Annuity Present and Future Value",
    "converted_to_compute": false,
+   "formula": "k = (1 + r) ** n",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A price index uses base year value 100. If the current value is 148, find the index number.",
@@ -153,6 +161,8 @@
    "id": "am12_007.5",
    "title": "Perpetuity and Perpetual Payments",
    "converted_to_compute": false,
+   "formula": "pv = a / r",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A price index uses base year value 100. If the current value is 126, find the index number.",

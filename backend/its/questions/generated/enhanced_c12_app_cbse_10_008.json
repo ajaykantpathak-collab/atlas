@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_10_008",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_10_008",
+   "title": "c12_app_cbse_10_008",
+   "questions": [
+    {
+     "q": "State the Fundamental Theorem of Linear Programming (Theorem 1 in NCERT) regarding the location of the optimal value of the objective function $Z = ax + by$ over a feasible region $R$.",
+     "a": "**Correct Answer:** If the objective function $Z = ax + by$ has an optimal value (maximum or minimum) over the feasible region $R$ determined by linear constraints, this optimal value must occur at a corner point (vertex) of $R$. A corner point is the intersection of two boundary lines of the feasible region.  \n**What a wrong answer reveals:** If a student says \"the optimal value occurs at any point in the feasible region\" or \"at the center of the region,\" they confuse the feasible region (set of all valid solutions) with the optimal solution (the single best point). This misconception leads to checking random interior points instead of systematically evaluating vertices.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words how to determine which side of the line $ax + by = c$ represents the inequality $ax + by \\le c$ when graphing a constraint. Why does the \"origin test\" (substituting $x=0, y=0$) work for this?",
+     "a": "**Correct Answer:** To graph $ax + by \\le c$, first draw the line $ax + by = c$. Substitute $(0,0)$ into the inequality: if $a(0)+b(0) \\le c$ is true (i.e., $0 \\le c$), the origin satisfies the inequality, so shade the side containing the origin; otherwise shade the opposite side. The test works because a line divides the plane into two half-planes; the origin lies in exactly one of them. If the origin satisfies the inequality, that entire half-plane is the solution set.  \n**What a wrong answer reveals:** If a student says \"always shade towards the origin\" or \"shade away from the origin for $\\le$,\" they have memorized a rule without understanding the logic. This fails when the line passes through the origin (where the test is inconclusive) or when the constraint is $ax + by \\ge c$ and the origin does not satisfy it.",
+     "self_check": true
+    },
+    {
+     "q": "A company produces two products A and B. Profit is $Z = 50x + 40y$. Constraints: $2x + y \\le 100$ (Machine hours), $x + 3y \\le 90$ (Labor hours), $x, y \\ge 0$. Plot the constraints, find all corner points of the feasible region, and determine the maximum profit.",
+     "a": "**Correct Answer with Steps:**  \n1. **Constraints as lines:** $2x+y=100 \\to$ intercepts $(50,0), (0,100)$; $x+3y=90 \\to$ intercepts $(90,0), (0,30)$.  \n2. **Origin test:** $(0,0)$ satisfies both $\\le$ inequalities $\\to$ shade toward origin. Feasible region is bounded polygon in Q1.  \n3. **Corner points:** $O(0,0)$; $A(50,0)$ from $2x+y=100$ on x-axis; $C(0,30)$ from $x+3y=90$ on y-axis; $B$ = intersection of $2x+y=100$ and $x+3y=90$. Solve: multiply 2nd by 2: $2x+6y=180$; subtract 1st: $5y=80 \\to y=16$; then $2x+16=100 \\to x=42$. So $B(42,16)$.  \n4. **Evaluate $Z=50x+40y$:** $O: 0$; $A: 2500$; $B: 50(42)+40(16)=2100+640=2740$; $C: 1200$.  \n5. **Maximum profit = ₹2740 at (42, 16)** i.e., 42 units of A, 16 units of B.  \n**What a wrong answer reveals:** If a student misses corner $B$ or miscalculates its coordinates (e.g., solves equations incorrectly), they will get a suboptimal profit. If they only check axes intercepts, they miss the true optimum at the intersection of two active constraints — a classic board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Corner Point Method and the Iso-Profit Method for solving a maximization LPP with a bounded feasible region. Under what circumstances would the Iso-Profit Method be preferable, and what is its critical limitation when the feasible region is unbounded?",
+     "a": "**Correct Answer:** Both methods rely on the theorem that the optimum occurs at a vertex. The Corner Point Method evaluates $Z$ at every vertex explicitly — systematic and foolproof for bounded regions. The Iso-Profit Method draws one objective line $Z=k$, then slides a parallel line toward the direction of increasing $Z$ until it last touches the feasible region; that contact point is optimal. **Preferable when:** The feasible region has many vertices (e.g., 6+ constraints) and you only need the maximum — sliding a ruler is faster than computing 6+ values. **Critical limitation for unbounded regions:** If the region is unbounded in the direction of increasing $Z$, the iso-profit line can slide infinitely far without leaving the region, falsely suggesting no maximum exists even if one does at a vertex. You must then verify by checking if the open half-plane $Z > Z_{candidate}$ has no intersection with the feasible region (NCERT Example 9).  \n**What a wrong answer reveals:** If a student thinks the Iso-Profit Method always works without verification for unbounded regions, they will incorrectly conclude \"no solution\" for problems that actually have a finite maximum at a vertex (like Example 11 in NCERT where minimum exists but maximum doesn't).",
+     "self_check": true
+    },
+    {
+     "q": "A student solves an LPP graphically and finds the feasible region is unbounded. They evaluate the objective function $Z = 3x + 5y$ at all corner points and get a minimum value of 12 at vertex $V$. They claim \"The minimum value of Z is 12.\" Is this conclusion valid? Justify your answer using the theory for unbounded feasible regions.",
+     "a": "**Correct Answer:** No, the conclusion is **not automatically valid**. For an unbounded feasible region, Theorem 2 states that a minimum (or maximum) may not exist even if corner points give a candidate value. The student must perform the **verification step**: Draw the line $3x+5y=12$ and check the open half-plane $3x+5y < 12$. If this half-plane has **no point in common** with the feasible region, then 12 is indeed the minimum. If it **does** have common points, then values lower than 12 are achievable in the feasible region, so no minimum exists (the objective decreases indefinitely). This is exactly the procedure in NCERT Examples 11 and 9.  \n**What a wrong answer reveals:** If the student says \"Yes, because Theorem 1 says optimum is at a corner,\" they confuse Theorem 1 (which says *if* an optimum exists, it's at a corner) with Theorem 2 (which says for unbounded regions, an optimum *may not exist*). This is a high-stakes error in JEE/Board exams where unbounded regions appear specifically to test this verification step.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world word problem (Indian context, Class 12 level) that leads to an LPP with **multiple optimal solutions** (i.e., the objective function is parallel to a constraint boundary). Formulate it mathematically and describe the graphical condition for this to happen.",
+     "a": "**Expected Answer (sample problem):**  \n*A farmer has 100 kg of fertilizer and 80 kg of pesticide. Crop A needs 2 kg fertilizer and 1 kg pesticide per hectare; Crop B needs 1 kg fertilizer and 2 kg pesticide per hectare. Profit is ₹3000/hectare for A and ₹1500/hectare for B. Maximize profit.*  \n**Mathematical Formulation:**  \nMaximize $Z = 3000x + 1500y$  \nSubject to:  \n$2x + y \\le 100$ (fertilizer)  \n$x + 2y \\le 80$ (pesticide)  \n$x, y \\ge 0$  \n**Graphical Condition:** The objective function line $3000x+1500y = k$ simplifies to $2x+y = k/1500$. The fertilizer constraint is $2x+y \\le 100$. The slopes are identical ($-2$). When the iso-profit line is moved to maximize $Z$, it coincides with the entire boundary segment of the feasible region along $2x+y=100$ between its intersections with the axes and the other constraint. Every point on this segment gives the same maximum profit.  \n**What a poor answer reveals:** If the student creates a problem where the objective slope accidentally matches a constraint but doesn't verify that the matching segment is actually part of the feasible boundary (e.g., the parallel constraint is redundant or outside the feasible region), they haven't truly understood the geometry of alternative optima.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

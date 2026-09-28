@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using only a metre scale (least count 0.1 cm), a stopwatch (least count 0.1 s), and a pendulum bob to demonstrate the difference between accuracy and precision. Write the procedure, the data table format, and how you would analyse the data to show both concepts.",
      "a": "Procedure: 1) Set up a simple pendulum with length ~80 cm (measure with metre scale). 2) Measure time for 20 oscillations using stopwatch, repeat 5 times. 3) Calculate time period T = t/20 for each trial. 4) Intentionally introduce a systematic error: start/stop stopwatch late by ~0.5 s each time (consistent delay). Data table: Trial | t_20 (s) | T (s). Analysis: Compute mean T and spread (precision). Compare mean T to theoretical T = 2π√(L/g) (accuracy). The consistent delay makes all t_20 larger by ~0.5 s → all T larger by 0.025 s → high precision (small spread) but low accuracy (systematic offset). Then repeat without deliberate delay to show high accuracy and high precision. A poor answer (e.g., \"measure length many times\") reveals the student does not understand that accuracy requires comparison to a true/theoretical value, and precision requires repeated measurements of the same quantity under same conditions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Accuracy refers to how close a measured value is to the true or accepted value of the quantity being measured, while precision refers to how close repeated ______ of the same quantity are to each other under unchanged conditions.",
+     "a": "measurements",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in your school physics lab ______ the diameter of a steel ball using a vernier caliper.",
+     "a": "measuring",
+     "self_check": true
+    },
+    {
+     "q": "What is Accuracy? State the definition given in this lesson.",
+     "a": "Accuracy refers to how close a measured value is to the true or accepted value of the quantity being measured, while precision refers to how close repeated measurements of the same quantity are to each other under unchanged conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The true diameter (from manufacturer) is ______ cm.",
+     "a": "2.50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Accuracy?",
+     "a": "Students believe that \"more decimal places in a measurement = more accurate\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between accuracy and precision in a given set of measurements, calculate absolute error, relative error, and percentage error for a single measurement, determine the correct number of significant figures in a reported result after addition/subtraction or multiplication/division, and explain why a measurement.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,467 @@
+{
+ "catalog": "catalog_class12_political_science_leps207.json",
+ "concepts": [
+  {
+   "id": "leps.207.1.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "unity_with_diversity = 58",
+      "democratic_accommodation = 13.9",
+      "boundary_redrawing = 38",
+      "indian_approach = unity_with_diversity + democratic_accommodation + boundary_redrawing"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "unity_with_diversity = 40",
+      "democratic_accommodation = 10.2",
+      "boundary_redrawing = 52",
+      "indian_approach = unity_with_diversity + democratic_accommodation + boundary_redrawing"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "unity_with_diversity = 36",
+      "democratic_accommodation = 70",
+      "boundary_redrawing = 48",
+      "indian_approach = unity_with_diversity + democratic_accommodation + boundary_redrawing"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "unity_with_diversity = 66",
+      "democratic_accommodation = 99",
+      "boundary_redrawing = 4.3",
+      "indian_approach = unity_with_diversity + democratic_accommodation + boundary_redrawing"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "unity_with_diversity = 47",
+      "democratic_accommodation = 73",
+      "boundary_redrawing = 92",
+      "indian_approach = unity_with_diversity + democratic_accommodation + boundary_redrawing"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "unity_with_diversity = 12.5",
+      "democratic_accommodation = 43",
+      "boundary_redrawing = 69",
+      "indian_approach = unity_with_diversity + democratic_accommodation + boundary_redrawing"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "unity_with_diversity = 58",
+    "democratic_accommodation = 13.9",
+    "boundary_redrawing = 38",
+    "indian_approach = unity_with_diversity + democratic_accommodation + boundary_redrawing"
+   ]
+  },
+  {
+   "id": "leps.207.2.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "external_dispute_with_pakistan = 24",
+      "article_370_special_status = 50",
+      "internal_grievances = 97",
+      "kashmir_dispute = external_dispute_with_pakistan + article_370_special_status + internal_grievances"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "external_dispute_with_pakistan = 55",
+      "article_370_special_status = 65",
+      "internal_grievances = 35",
+      "kashmir_dispute = external_dispute_with_pakistan + article_370_special_status + internal_grievances"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "external_dispute_with_pakistan = 30",
+      "article_370_special_status = 57",
+      "internal_grievances = 48",
+      "kashmir_dispute = external_dispute_with_pakistan + article_370_special_status + internal_grievances"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "external_dispute_with_pakistan = 49",
+      "article_370_special_status = 58",
+      "internal_grievances = 35",
+      "kashmir_dispute = external_dispute_with_pakistan + article_370_special_status + internal_grievances"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "external_dispute_with_pakistan = 14",
+      "article_370_special_status = 87",
+      "internal_grievances = 19.7",
+      "kashmir_dispute = external_dispute_with_pakistan + article_370_special_status + internal_grievances"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "external_dispute_with_pakistan = 30",
+      "article_370_special_status = 39",
+      "internal_grievances = 27",
+      "kashmir_dispute = external_dispute_with_pakistan + article_370_special_status + internal_grievances"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "external_dispute_with_pakistan = 24",
+    "article_370_special_status = 50",
+    "internal_grievances = 97",
+    "kashmir_dispute = external_dispute_with_pakistan + article_370_special_status + internal_grievances"
+   ]
+  },
+  {
+   "id": "leps.207.4.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "periyar_dravidar_kazhagam = 91",
+      "dmk_agitations = 57",
+      "electoral_platform = 47",
+      "dravidian_politics = periyar_dravidar_kazhagam + dmk_agitations + electoral_platform"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "periyar_dravidar_kazhagam = 91",
+      "dmk_agitations = 5.7",
+      "electoral_platform = 67",
+      "dravidian_politics = periyar_dravidar_kazhagam + dmk_agitations + electoral_platform"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "periyar_dravidar_kazhagam = 9.1",
+      "dmk_agitations = 3.8",
+      "electoral_platform = 54",
+      "dravidian_politics = periyar_dravidar_kazhagam + dmk_agitations + electoral_platform"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "periyar_dravidar_kazhagam = 2.1",
+      "dmk_agitations = 62",
+      "electoral_platform = 11.3",
+      "dravidian_politics = periyar_dravidar_kazhagam + dmk_agitations + electoral_platform"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "periyar_dravidar_kazhagam = 34",
+      "dmk_agitations = 78",
+      "electoral_platform = 50",
+      "dravidian_politics = periyar_dravidar_kazhagam + dmk_agitations + electoral_platform"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "periyar_dravidar_kazhagam = 77",
+      "dmk_agitations = 16.4",
+      "electoral_platform = 39",
+      "dravidian_politics = periyar_dravidar_kazhagam + dmk_agitations + electoral_platform"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "periyar_dravidar_kazhagam = 91",
+    "dmk_agitations = 57",
+    "electoral_platform = 47",
+    "dravidian_politics = periyar_dravidar_kazhagam + dmk_agitations + electoral_platform"
+   ]
+  },
+  {
+   "id": "leps.207.5.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "punjabi_suba_1966 = 97",
+      "anandpur_sahib_resolution_1973 = 7.8",
+      "operation_blue_star_1984 = 5.4",
+      "punjab_escalation = punjabi_suba_1966 + anandpur_sahib_resolution_1973 + operation_blue_star_1984"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "punjabi_suba_1966 = 23",
+      "anandpur_sahib_resolution_1973 = 1.8",
+      "operation_blue_star_1984 = 18.3",
+      "punjab_escalation = punjabi_suba_1966 + anandpur_sahib_resolution_1973 + operation_blue_star_1984"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "punjabi_suba_1966 = 11.4",
+      "anandpur_sahib_resolution_1973 = 11.2",
+      "operation_blue_star_1984 = 5.1",
+      "punjab_escalation = punjabi_suba_1966 + anandpur_sahib_resolution_1973 + operation_blue_star_1984"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "punjabi_suba_1966 = 43",
+      "anandpur_sahib_resolution_1973 = 5",
+      "operation_blue_star_1984 = 9",
+      "punjab_escalation = punjabi_suba_1966 + anandpur_sahib_resolution_1973 + operation_blue_star_1984"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "punjabi_suba_1966 = 60",
+      "anandpur_sahib_resolution_1973 = 7.6",
+      "operation_blue_star_1984 = 11.2",
+      "punjab_escalation = punjabi_suba_1966 + anandpur_sahib_resolution_1973 + operation_blue_star_1984"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "punjabi_suba_1966 = 51",
+      "anandpur_sahib_resolution_1973 = 18",
+      "operation_blue_star_1984 = 8.9",
+      "punjab_escalation = punjabi_suba_1966 + anandpur_sahib_resolution_1973 + operation_blue_star_1984"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "punjabi_suba_1966 = 97",
+    "anandpur_sahib_resolution_1973 = 7.8",
+    "operation_blue_star_1984 = 5.4",
+    "punjab_escalation = punjabi_suba_1966 + anandpur_sahib_resolution_1973 + operation_blue_star_1984"
+   ]
+  },
+  {
+   "id": "leps.207.6.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "rajiv_longowal_accord_1985 = 97",
+      "decade_of_militancy = 84",
+      "elections_1997 = 41",
+      "punjab_peace_process = rajiv_longowal_accord_1985 + decade_of_militancy + elections_1997"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "rajiv_longowal_accord_1985 = 29",
+      "decade_of_militancy = 83",
+      "elections_1997 = 34",
+      "punjab_peace_process = rajiv_longowal_accord_1985 + decade_of_militancy + elections_1997"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "rajiv_longowal_accord_1985 = 32",
+      "decade_of_militancy = 37",
+      "elections_1997 = 100",
+      "punjab_peace_process = rajiv_longowal_accord_1985 + decade_of_militancy + elections_1997"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rajiv_longowal_accord_1985 = 92",
+      "decade_of_militancy = 1.5",
+      "elections_1997 = 12.5",
+      "punjab_peace_process = rajiv_longowal_accord_1985 + decade_of_militancy + elections_1997"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "rajiv_longowal_accord_1985 = 25",
+      "decade_of_militancy = 84",
+      "elections_1997 = 65",
+      "punjab_peace_process = rajiv_longowal_accord_1985 + decade_of_militancy + elections_1997"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "rajiv_longowal_accord_1985 = 55",
+      "decade_of_militancy = 92",
+      "elections_1997 = 75",
+      "punjab_peace_process = rajiv_longowal_accord_1985 + decade_of_militancy + elections_1997"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "rajiv_longowal_accord_1985 = 97",
+    "decade_of_militancy = 84",
+    "elections_1997 = 41",
+    "punjab_peace_process = rajiv_longowal_accord_1985 + decade_of_militancy + elections_1997"
+   ]
+  },
+  {
+   "id": "leps.207.7.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "autonomy_demands = 36",
+      "mizo_national_front_accord_1986 = 113",
+      "naga_insurgency_unresolved = 24",
+      "north_east_politics = autonomy_demands + mizo_national_front_accord_1986 + naga_insurgency_unresolved"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "autonomy_demands = 64",
+      "mizo_national_front_accord_1986 = 116",
+      "naga_insurgency_unresolved = 59",
+      "north_east_politics = autonomy_demands + mizo_national_front_accord_1986 + naga_insurgency_unresolved"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "autonomy_demands = 39",
+      "mizo_national_front_accord_1986 = 105",
+      "naga_insurgency_unresolved = 77",
+      "north_east_politics = autonomy_demands + mizo_national_front_accord_1986 + naga_insurgency_unresolved"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "autonomy_demands = 51",
+      "mizo_national_front_accord_1986 = 14.4",
+      "naga_insurgency_unresolved = 92",
+      "north_east_politics = autonomy_demands + mizo_national_front_accord_1986 + naga_insurgency_unresolved"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "autonomy_demands = 40",
+      "mizo_national_front_accord_1986 = 66",
+      "naga_insurgency_unresolved = 2.7",
+      "north_east_politics = autonomy_demands + mizo_national_front_accord_1986 + naga_insurgency_unresolved"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "autonomy_demands = 79",
+      "mizo_national_front_accord_1986 = 74",
+      "naga_insurgency_unresolved = 39",
+      "north_east_politics = autonomy_demands + mizo_national_front_accord_1986 + naga_insurgency_unresolved"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "autonomy_demands = 36",
+    "mizo_national_front_accord_1986 = 113",
+    "naga_insurgency_unresolved = 24",
+    "north_east_politics = autonomy_demands + mizo_national_front_accord_1986 + naga_insurgency_unresolved"
+   ]
+  },
+  {
+   "id": "leps.207.8.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "aasu_anti_foreigner_agitation = 62",
+      "assam_accord_1985 = 59",
+      "asom_gana_parishad = 54",
+      "assam_movement = aasu_anti_foreigner_agitation + assam_accord_1985 + asom_gana_parishad"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "aasu_anti_foreigner_agitation = 31",
+      "assam_accord_1985 = 88",
+      "asom_gana_parishad = 76",
+      "assam_movement = aasu_anti_foreigner_agitation + assam_accord_1985 + asom_gana_parishad"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "aasu_anti_foreigner_agitation = 30",
+      "assam_accord_1985 = 52",
+      "asom_gana_parishad = 49",
+      "assam_movement = aasu_anti_foreigner_agitation + assam_accord_1985 + asom_gana_parishad"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "aasu_anti_foreigner_agitation = 94",
+      "assam_accord_1985 = 87",
+      "asom_gana_parishad = 77",
+      "assam_movement = aasu_anti_foreigner_agitation + assam_accord_1985 + asom_gana_parishad"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "aasu_anti_foreigner_agitation = 83",
+      "assam_accord_1985 = 31",
+      "asom_gana_parishad = 34",
+      "assam_movement = aasu_anti_foreigner_agitation + assam_accord_1985 + asom_gana_parishad"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "aasu_anti_foreigner_agitation = 35",
+      "assam_accord_1985 = 85",
+      "asom_gana_parishad = 17.6",
+      "assam_movement = aasu_anti_foreigner_agitation + assam_accord_1985 + asom_gana_parishad"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "aasu_anti_foreigner_agitation = 62",
+    "assam_accord_1985 = 59",
+    "asom_gana_parishad = 54",
+    "assam_movement = aasu_anti_foreigner_agitation + assam_accord_1985 + asom_gana_parishad"
+   ]
+  }
+ ]
+}

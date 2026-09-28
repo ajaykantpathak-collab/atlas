@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a bicycle, a coil of wire, a magnet, and an LED to demonstrate AC generation. Specify how you would verify that the output is alternating and not direct current.",
      "a": "Mount a strong magnet on the bicycle wheel spokes and fix a coil on the frame so the magnet passes close to the coil each rotation. Connect the coil to an LED (with a protective resistor). As the wheel spins, the LED will flicker at the rotation frequency. To verify AC: use a center-zero galvanometer or an oscilloscope — the needle/ trace will swing both sides of zero. Alternatively, connect two LEDs in anti-parallel; both will light alternately. A poor answer: \"Use a multimeter on AC setting\" (many cheap multimeters cannot measure high-frequency low-voltage AC accurately) or \"LED lights so it's AC\" (LED would also light on DC if polarity matches). The key is observing polarity reversal.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An AC generator is a device that converts mechanical energy into alternating current electrical energy by rotating a coil in a uniform magnetic field, thereby changing the magnetic flux through the coil and inducing an alternating emf according to Faraday's law of ______ induction.",
+     "a": "electromagnetic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ dynamo or a hand-cranked flashlight: when you rotate the handle, a light glows brighter the faster you turn.",
+     "a": "bicycle",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the expression for instantaneous emf in an AC generator from Faraday's law, explain the function of slip rings and brushes, calculate maximum emf and frequency for given parameters, and predict how changing rotation speed, number of turns, or magnetic field affects the output waveform.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bicycle dynamo or a hand-cranked ______: when you rotate the handle, a light glows brighter the faster you turn.",
+     "a": "flashlight",
+     "self_check": true
     }
    ]
   }

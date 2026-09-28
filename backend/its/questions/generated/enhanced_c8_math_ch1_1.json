@@ -34,6 +34,21 @@
      "q": "Create a real-life problem (using rupees, metres, or kilograms) that requires finding the square of a number between 10 and 20. Write the problem, the mathematical expression, and the solution.",
      "a": "Example: \"A square garden has a side length of 13 metres. What is its area?\"  \nExpression: \\( 13^2 = 13 \\times 13 \\)  \nSolution: \\( 13 \\times 10 = 130 \\), \\( 13 \\times 3 = 39 \\), \\( 130 + 39 = 169 \\) m².  \nA poor answer uses addition instead of multiplication, chooses a non-square context (e.g., rectangle), or cannot set up the expression \\( n^2 \\). This reveals inability to connect the notation to a meaningful situation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A square number is the product obtained when a natural number is ______ by itself.",
+     "a": "multiplied",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are tiling a square floor in your ______ using 1 m × 1 m tiles.",
+     "a": "classroom",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If the floor is ______ m on each side, how many tiles do you need?",
+     "a": "4",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using household items to demonstrate that different metals expand by different amounts for the same temperature rise. Specify the materials, measurements, and how you would calculate αₗ from your data.",
      "a": "Use a metal ruler (steel) and a brass curtain rod of same initial length (measure at room temperature with a tape measure). Heat both uniformly in an oven at 100°C for 10 minutes. Quickly measure their lengths (using the same tape). Calculate αₗ = Δl/(l₀ ΔT) for each. Expected: brass expands ~1.7× more than steel. A poor answer uses only one metal, measures length while hot (thermal contraction during measurement), or forgets to measure initial length at room temperature.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Linear thermal expansion is the increase in length of a solid rod or wire when its temperature rises, quantified by the ______ of linear expansion αₗ (SI unit: K⁻¹), defined as the fractional change in length per unit temperature change: αₗ = (1/l)(Δl/ΔT) for small ΔT, where l is the original length at reference temperature.",
+     "a": "coefficient",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a metal lid stuck on a glass pickle jar — when you run hot water over the lid, it loosens.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What is Linear thermal expansion? State the definition given in this lesson.",
+     "a": "Linear thermal expansion is the increase in length of a solid rod or wire when its temperature rises, quantified by the coefficient of linear expansion αₗ (SI unit: K⁻¹), defined as the fractional change in length per unit temperature change: αₗ = (1/l)(Δl/ΔT) for small ΔT, where l is the original length at reference temperature.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Linear thermal expansion is the increase in length of a solid rod or wire when its temperature rises, quantified by the coefficient of linear expansion αₗ (SI unit: K⁻¹), defined as the fractional change in length per unit temperature change: αₗ = (______/l)(Δl/ΔT) for small ΔT, where l is the original length at reference temperature.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Linear thermal expansion?",
+     "a": "Students believe that a hole in a metal plate shrinks when heated because \"the material expands into the hole.\" In reality, the hole expands as if it were made of the same metal — every linear dimension increases by factor (1 + αₗ ΔT).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the change in length of a rod given αₗ, initial length, and temperature change; derive the thermal stress developed when expansion is constrained using Young's modulus; and explain why a metal lid on a glass jar loosens when heated, using the difference in αₗ values.",
+     "self_check": true
     }
    ]
   }

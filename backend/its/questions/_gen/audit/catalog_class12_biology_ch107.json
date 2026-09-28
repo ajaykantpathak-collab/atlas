@@ -1,0 +1,62 @@
+{
+ "catalog": "catalog_class12_biology_ch107.json",
+ "concepts": [
+  {
+   "id": "jebh.9.7",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "microbial_biomass = 59",
+      "protein_fraction = 7",
+      "protein_yield = microbial_biomass * protein_fraction"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "microbial_biomass = 83",
+      "protein_fraction = 1.1",
+      "protein_yield = microbial_biomass * protein_fraction"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "microbial_biomass = 194",
+      "protein_fraction = 10.3",
+      "protein_yield = microbial_biomass * protein_fraction"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "microbial_biomass = 57",
+      "protein_fraction = 18.9",
+      "protein_yield = microbial_biomass * protein_fraction"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "microbial_biomass = 10.4",
+      "protein_fraction = 19.1",
+      "protein_yield = microbial_biomass * protein_fraction"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "microbial_biomass = 68",
+      "protein_fraction = 18.6",
+      "protein_yield = microbial_biomass * protein_fraction"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "protein_yield = microbial_biomass * protein_fraction"
+   ]
+  }
+ ]
+}

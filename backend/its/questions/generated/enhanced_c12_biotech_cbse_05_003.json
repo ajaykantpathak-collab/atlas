@@ -34,6 +34,31 @@
      "q": "Design a functional genomics workflow to discover novel antibiotic resistance genes from a wastewater sample. Specify the technique, key steps, and how you would validate function.",
      "a": "Technique: Metagenomics (functional or sequence-based). Steps: 1) Extract total DNA from wastewater. 2) Construct metagenomic library in expression vector. 3) Transform into sensitive host (E. coli). 4) Plate on antibiotic-containing media. 5) Sequence inserts from resistant clones. 6) Validate by cloning candidate gene into clean vector and retesting resistance. A poor answer that says \"sequence the wastewater and BLAST against CARD database\" only does *sequence-based* screening; it misses the *functional* validation step that proves the gene confers resistance — a distinction NCERT emphasizes in metagenomics applications.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Functional genomics is the branch of genomics that aims to understand how the ______ and pathological functions encoded in a genome are executed by analyzing gene expression, regulation, and interaction on a genome-wide scale using high-throughput techniques such as RNA-seq, ChIP-seq, and metagenomics.",
+     "a": "physiological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a relatable scenario: \"A doctor notices two patients with the same ______ mutation, but only one develops the disease.",
+     "a": "genetic",
+     "self_check": true
+    },
+    {
+     "q": "What is Functional genomics? State the definition given in this lesson.",
+     "a": "Functional genomics is the branch of genomics that aims to understand how the physiological and pathological functions encoded in a genome are executed by analyzing gene expression, regulation, and interaction on a genome-wide scale using high-throughput techniques such as RNA-seq, ChIP-seq, and metagenomics.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Functional genomics?",
+     "a": "Students often equate \"functional genomics\" with \"gene function prediction from sequence alone\" (e.g., BLAST homology).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish functional genomics from structural and comparative genomics by stating its goal (linking genotype to phenotype via dynamic gene function), (2) explain the principle, workflow, and output of RNA-seq, ChIP-seq, and metagenomics, and (3) design a basic experimental strategy to answer a functional question.",
+     "self_check": true
     }
    ]
   }

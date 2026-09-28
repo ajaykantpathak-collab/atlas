@@ -4,15 +4,9 @@
   {
    "id": "am12_008.1",
    "title": "Formulating Linear Programming Problems",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "transpose the terms and divide by the coefficient",
-     "explain": "transpose the terms and divide by the coefficient: x = (27 - 9) / 3 gives 6",
-     "compute": "x = (27 - 9) / 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 3x + 9 = 27.",
@@ -49,15 +43,9 @@
   {
    "id": "am12_008.2",
    "title": "Feasible Region Graphical Method",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "read the table or chart with its key",
-     "explain": "read the table or chart with its key: total = 3 + 9 + 2 gives 14",
-     "compute": "total = 3 + 9 + 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a frequency table the rows have frequencies 3, 9 and 2. Find the total frequency.",
@@ -95,6 +83,8 @@
    "id": "am12_008.3",
    "title": "Corner Point Method for Optimum",
    "converted_to_compute": false,
+   "formula": "z = c1 * x + c2 * y",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a square have?",
@@ -131,15 +121,9 @@
   {
    "id": "am12_008.4",
    "title": "Bounded Unbounded and Special Cases",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the calculus rule and evaluate at the point",
-     "explain": "apply the calculus rule and evaluate at the point: val = 5 * 3 * 3 + 7 * 3 + 3 gives 69",
-     "compute": "val = 5 * 3 * 3 + 7 * 3 + 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate the limit of 5x^2 + 7x + 3 as x approaches 3 (direct substitution).",

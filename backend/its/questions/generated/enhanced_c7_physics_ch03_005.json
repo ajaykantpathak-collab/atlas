@@ -34,6 +34,31 @@
      "q": "Design a simple model using a tray of dry soil, a tray of water, and a desk lamp to demonstrate land and sea breezes in a classroom, and describe how you would verify the wind direction.",
      "a": "Place the soil and water side-by-side in trays, position a desk lamp (representing the sun) equally above both, and hold a smoking incense stick near the boundary to track smoke movement toward the warm soil. A poor answer would fail to account for how to visualize airflow or how to simulate day versus night conditions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Land and sea breeze are natural convection currents occurring in coastal regions due to the ______ heating and cooling of land and water, measured through wind direction and speed in meters per second (m/s).",
+     "a": "differential",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine standing on a beach in Goa during a hot sunny ______, feeling a cool wind blowing from the sea toward your face.",
+     "a": "afternoon",
+     "self_check": true
+    },
+    {
+     "q": "What is Land and sea breeze? State the definition given in this lesson.",
+     "a": "Land and sea breeze are natural convection currents occurring in coastal regions due to the differential heating and cooling of land and water, measured through wind direction and speed in meters per second (m/s).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Land and sea breeze?",
+     "a": "Students frequently believe that water is inherently cold and land is inherently hot, thinking that land and sea breezes are caused by the water's fixed low temperature rather than the *rate* at which land and water absorb and release heat.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can explain the complete diurnal cycle of land and sea breezes, predict wind direction based on time of day and temperature differences between land and sea, and apply convection principles to coastal weather patterns.",
+     "self_check": true
     }
    ]
   }

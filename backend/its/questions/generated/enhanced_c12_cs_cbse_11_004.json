@@ -34,6 +34,21 @@
      "q": "Design a real-world scenario where using a tuple instead of a list prevents a logical bug. Write the buggy list version and the corrected tuple version. Explain why the bug cannot occur with tuples.",
      "a": "Scenario: Storing RGB color values `(255, 0, 0)` for \"red\". Buggy list: `color = [255, 0, 0]; color[1] = 100` accidentally changes red to orange. Corrected: `color = (255, 0, 0); color[1] = 100` raises TypeError. Tuples prevent accidental modification because they lack `__setitem__`. A poor answer gives a generic \"tuples are faster\" without a concrete mutability bug example.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A tuple is an ordered, immutable sequence of ______ elements in Python, created using parentheses () or the tuple() constructor.",
+     "a": "heterogeneous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're ______ a student record system for your school's annual day.",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) create tuples using three different syntaxes (parentheses, tuple() constructor, implicit comma packing), (2) explain why tuples are immutable and demonstrate the TypeError when attempting modification, (3) correctly use count() and index() methods with proper arguments, and (4) distinguish between tuple.",
+     "self_check": true
     }
    ]
   }

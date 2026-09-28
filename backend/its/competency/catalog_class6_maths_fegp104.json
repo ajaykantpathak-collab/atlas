@@ -22,7 +22,7 @@
     "which value occurs most often in the given list",
     "what questions can you answer from an organised table"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -39,7 +39,16 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 6 + 2 + 6 gives 14",
+     "compute": "total = 6 + 2 + 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.4.2",
@@ -57,7 +66,7 @@
     "why should symbols in a pictograph be of equal size",
     "which row of the pictograph has the most and how do you know"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -74,7 +83,16 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 2 + 5 + 2 gives 9",
+     "compute": "total = 2 + 5 + 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.4.3",
@@ -124,7 +142,7 @@
     "how is a bar graph better than a table",
     "make questions from the given bar graph for your friend"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -141,7 +159,16 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 5 + 8 + 5 gives 18",
+     "compute": "total = 5 + 8 + 5"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

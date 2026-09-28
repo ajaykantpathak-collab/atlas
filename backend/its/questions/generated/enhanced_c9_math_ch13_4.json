@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch13_4",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch13_4",
+   "title": "c9_math_ch13_4",
+   "questions": [
+    {
+     "q": "What is the formula for the total surface area of a hemisphere of radius r?\n\nWhat is the formula for the total surface area of a hemisphere of radius r?",
+     "a": "3πr². A wrong answer like 2πr² shows the student forgot to include the flat circular base, confusing curved surface area with total surface area – a common error when visualizing hemispheres as \"half\" without considering the exposed base.\n\n3πr². A wrong answer like 2πr² shows the student forgot to include the flat circular base, confusing curved surface area with total surface area – a common error when visualizing hemispheres as \"half\" without considering the exposed base.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the surface area of a sphere not simply twice the area of a circle (2 × πr²)?\n\nWhy is the surface area of a sphere not simply twice the area of a circle (2 × πr²)?",
+     "a": "Because a sphere’s surface curves in all three dimensions, not just flat like two circles. The formula 4πr² comes from integrating infinitesimal rings over the sphere’s surface, which yields four times the area of a great circle. A wrong answer like \"it is 2πr²\" reveals the student is applying 2D logic (stacking circles) to a 3D object without understanding how surface accumulates in three dimensions.\n\nBecause a sphere’s surface curves in all three dimensions, not just flat like two circles. The formula 4πr² comes from integrating infinitesimal rings over the sphere’s surface, which yields four times the area of a great circle. A wrong answer like \"it is 2πr²\" reveals the student is applying 2D logic (stacking circles) to a 3D object without understanding how surface accumulates in three dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "A spherical laddoo has a radius of 4.2 cm. Calculate its surface area. Use π = 22/7.\n\nA spherical laddoo has a radius of 4.2 cm. Calculate its surface area. Use π = 22/7.",
+     "a": "Step 1: Radius r = 4.2 cm  \nStep 2: Formula for sphere surface area = 4πr²  \nStep 3: r² = 4.2 × 4.2 = 17.64 cm²  \nStep 4: 4 × (22/7) × 17.64 = 4 × 22 × 2.52 = 88 × 2.52 = 221.76 cm²  \nStep 5: Final answer = 221.76 cm²  \nA wrong answer like 55.44 cm² suggests the student used 2πr² (hemisphere curved area) or forgot to square the radius properly – indicating confusion between sphere and hemisphere formulas or incorrect order of operations.\n\nStep 1: Radius r = 4.2 cm  \nStep 2: Formula for sphere surface area = 4πr²  \nStep 3: r² = 4.2 × 4.2 = 17.64 cm²  \nStep 4: 4 × (22/7) × 17.64 = 4 × 22 × 2.52 = 88 × 2.52 = 221.76 cm²  \nStep 5: Final answer = 221.76 cm²  \nA wrong answer like 55.44 cm² suggests the student used 2πr² (hemisphere curved area) or forgot to square the radius properly – indicating confusion between sphere and hemisphere formulas or incorrect order of operations.",
+     "self_check": true
+    },
+    {
+     "q": "Two hemispheres of radius 5 cm are joined base-to-base to form a sphere. Is the total surface area of the resulting sphere equal to the sum of the total surface areas of the two separate hemispheres? Explain.\n\nTwo hemispheres of radius 5 cm are joined base-to-base to form a sphere. Is the total surface area of the resulting sphere equal to the sum of the total surface areas of the two separate hemispheres? Explain.",
+     "a": "No. Each hemisphere has total surface area 3πr² = 3π(25) = 75π cm², so two separate have 150π cm². When joined, the two bases are internal and not part of the outer surface. The sphere’s surface area is 4πr² = 100π cm². The two bases (each πr² = 25π) are lost, so 150π - 2×25π = 100π cm². A wrong answer like \"yes, they are equal\" shows the student fails to recognize that joining surfaces removes shared faces from the total external area – a critical 3D spatial reasoning error.\n\nNo. Each hemisphere has total surface area 3πr² = 3π(25) = 75π cm², so two separate have 150π cm². When joined, the two bases are internal and not part of the outer surface. The sphere’s surface area is 4πr² = 100π cm². The two bases (each πr² = 25π) are lost, so 150π - 2×25π = 100π cm². A wrong answer like \"yes, they are equal\" shows the student fails to recognize that joining surfaces removes shared faces from the total external area – a critical 3D spatial reasoning error.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the surface area of a hemisphere of radius 14 cm as 2 × (22/7) × 14 × 14 = 1232 cm². Is this correct? Identify the error and give the right answer.\n\nA student calculates the surface area of a hemisphere of radius 14 cm as 2 × (22/7) × 14 × 14 = 1232 cm². Is this correct? Identify the error and give the right answer.",
+     "a": "Incorrect. The student computed 2πr², which is only the curved surface area. For total surface area of a hemisphere, we need curved surface (2πr²) plus base (πr²) = 3πr². Correct calculation: 3 × (22/7) × 14 × 14 = 3 × 22 × 2 × 14 = 3 × 616 = 1848 cm². A wrong justification like \"the formula is 2πr²\" reveals the student does not distinguish between curved and total surface area – a persistent mix-up in mensuration.\n\nIncorrect. The student computed 2πr², which is only the curved surface area. For total surface area of a hemisphere, we need curved surface (2πr²) plus base (πr²) = 3πr². Correct calculation: 3 × (22/7) × 14 × 14 = 3 × 22 × 2 × 14 = 3 × 616 = 1848 cm². A wrong justification like \"the formula is 2πr²\" reveals the student does not distinguish between curved and total surface area – a persistent mix-up in mensuration.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world problem where you would need to calculate the surface area of a hemisphere (not a sphere), and explain why the total surface area formula (3πr²) is used instead of the curved surface area (2πr²).\n\nDesign a real-world problem where you would need to calculate the surface area of a hemisphere (not a sphere), and explain why the total surface area formula (3πr²) is used instead of the curved surface area (2πr²).",
+     "a": "Example: Finding the cost to paint the inside of a hemispherical bowl (including the inner curved surface and the circular rim area). Total surface area is used because both the inner curved surface and the flat circular top are exposed and need painting. A poor answer would omit the base or confuse the context with a sphere, showing lack of understanding of when each surface area component applies.\n\nExample: Finding the cost to paint the inside of a hemispherical bowl (including the inner curved surface and the circular rim area). Total surface area is used because both the inner curved surface and the flat circular top are exposed and need painting. A poor answer would omit the base or confuse the context with a sphere, showing lack of understanding of when each surface area component applies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,31 @@
      "q": "Create a numerical problem on hidden goodwill where the new partner's capital is given, the old partners' adjusted capitals are given, and the new profit sharing ratio is such that the sacrificing ratio is not the same as the old ratio. Provide the full solution with journal entries.",
      "a": "A good problem: X and Y share profits 5:3. Adjusted capitals: X ₹5,00,000, Y ₹3,00,000. Z admitted for 1/5th share, brings ₹2,00,000 capital. New ratio: X 3/5, Y 1/5, Z 1/5. Compute hidden goodwill and pass entries.\nSolution: Total capitalised value = ₹2,00,000 × 5 = ₹10,00,000. Combined capitals after admission = ₹5,00,000+₹3,00,000+₹2,00,000 = ₹10,00,000. Hidden goodwill = ₹0. But if Z brought ₹3,00,000, hidden goodwill = ₹5,00,000. Sacrificing ratio = old - new: X sacrifices 5/8 - 3/5 = 1/40, Y sacrifices 3/8 - 1/5 = 7/40 → ratio 1:7. Journal: Z's Capital A/c Dr. 3,00,000 (if goodwill brought) or X's Capital Dr. 50,000, Y's Capital Dr. 3,50,000 to Z's Capital? Wait, hidden goodwill is credited to old partners. Actually, if hidden goodwill exists, it is credited to old partners in sacrificing ratio. A poor answer would use old ratio instead of sacrificing ratio, or miscompute total capitalised value.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Hidden goodwill is the unrecorded goodwill of a ______ firm that arises when a new partner is admitted and the capital contributed by the new partner implies a total firm value higher than the combined adjusted capitals of all partners (including the new partner).",
+     "a": "partnership",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a firm where two partners have adjusted capitals of ₹10,00,000 after ______.",
+     "a": "revaluation",
+     "self_check": true
+    },
+    {
+     "q": "What is Hidden goodwill? State the definition given in this lesson.",
+     "a": "Hidden goodwill is the unrecorded goodwill of a partnership firm that arises when a new partner is admitted and the capital contributed by the new partner implies a total firm value higher than the combined adjusted capitals of all partners (including the new partner).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Hidden goodwill?",
+     "a": "Students often think hidden goodwill is the amount of goodwill the new partner brings in cash.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) compute the total capitalised value of the firm from the new partner's capital and profit share, (2) determine the net adjusted capital of the firm after revaluation and accumulated profits/losses, (3) calculate hidden goodwill as the excess, and (4) pass the correct journal entries to adjust the old.",
+     "self_check": true
     }
    ]
   }

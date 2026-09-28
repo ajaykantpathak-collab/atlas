@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch14_5",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch14_5",
+   "title": "c9_math_ch14_5",
+   "questions": [
+    {
+     "q": "A data set has 15 observations arranged in ascending order. Without knowing the actual values, at which position(s) will you find the median? Explain why.",
+     "a": "The median is at the 8th position because for n=15 (odd), median position = (15+1)/2 = 8th observation. A wrong answer like \"7th or 8th\" or \"average of 7th and 8th\" reveals the student is confusing the odd-n formula with the even-n formula, or thinks median is always an average of two middle values.",
+     "self_check": true
+    },
+    {
+     "q": "The marks of 10 students in a test (out of 20) are: 12, 15, 18, 12, 14, 15, 15, 17, 12, 16. A student says: \"The mode is 15 because it's the middle value when arranged.\" Is this correct? Explain why or why not.",
+     "a": "No, it's incorrect. The mode is 12 (appears 3 times), while 15 also appears 3 times — so the data is bimodal (12 and 15). The student confused **mode** (most frequent) with **median** (middle value after ordering). This reveals a fundamental confusion between \"most often\" and \"middle position\" — they are answering a different question than what mode asks.",
+     "self_check": true
+    },
+    {
+     "q": "Find the median of the following grouped frequency distribution:\nClass Interval: 0–10, 10–20, 20–30, 30–40, 40–50\nFrequency: 5, 8, 12, 7, 3",
+     "a": "Step 1: Total frequency N = 5+8+12+7+3 = 35. N/2 = 17.5.\nStep 2: Cumulative frequencies: 5, 13, 25, 32, 35.\nStep 3: Median class = 20–30 (since cumulative frequency just greater than 17.5 is 25).\nStep 4: l = 20, cf = 13, f = 12, h = 10.\nStep 5: Median = l + ((N/2 - cf)/f) × h = 20 + ((17.5-13)/12) × 10 = 20 + (4.5/12)×10 = 20 + 3.75 = 23.75.\nA wrong answer like 25 (using wrong cf) or 20 + ((17.5-5)/12)×10 reveals the student doesn't understand **cf = cumulative frequency of class BEFORE median class**, not the first class.",
+     "self_check": true
+    },
+    {
+     "q": "Two data sets have the same mean (50) but different medians: Set A median = 48, Set B median = 52. Both are moderately skewed. Without calculating, what can you infer about the **direction of skewness** of each set? How would the mode likely compare to the median in each case?",
+     "a": "Set A: Mean (50) > Median (48) → **positively skewed** (right tail). Mode < Median < Mean, so mode < 48.\nSet B: Mean (50) < Median (52) → **negatively skewed** (left tail). Mean < Median < Mode, so mode > 52.\nA wrong answer reversing the inequality reveals the student doesn't grasp the **mean-median-mode order in skewed distributions** — a key conceptual bridge to Class 10 empirical relationship.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculated the mode of this grouped data as 24.5:\nClass: 0–10 (f=4), 10–20 (f=9), 20–30 (f=12), 30–40 (f=8), 40–50 (f=5)\nTheir working: l=20, f1=12, f0=9, f2=8, h=10 → Mode = 20 + ((12-9)/(2×12-9-8))×10 = 20 + (3/7)×10 = 24.28 ≈ 24.5 (rounded).\nIs their answer correct? If not, identify the exact error.",
+     "a": "The calculation is **correct** (24.2857... ≈ 24.3, rounding to 24.5 is acceptable depending on instructions). However, if a student wrote **24.5 as exact** without showing the fraction, or used f0=8, f2=9 (swapped), they'd get 20 + (3/5)×10 = 26 — a common error: **confusing f0 (preceding class frequency) and f2 (succeeding class frequency)**. The formula Mode = l + ((f1-f0)/(2f1-f0-f2))×h requires f0 = frequency of class BEFORE modal class, f2 = frequency of class AFTER.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world data set of 12 numbers (e.g., prices of 12 vegetables in ₹/kg at a mandi) where: (a) the median is NOT a value in the data set, (b) there are exactly two modes, and (c) the mean is greater than the median. Write the data set and verify all three conditions.",
+     "a": "Example: 20, 20, 25, 30, 30, 35, 40, 50, 60, 80, 100, 120 (prices in ₹/kg).\n(a) Sorted: 12 values → median = avg of 6th (35) and 7th (40) = 37.5 (not in data).\n(b) 20 appears twice, 30 appears twice → two modes (20, 30).\n(c) Mean = (20+20+25+30+30+35+40+50+60+80+100+120)/12 = 610/12 ≈ 50.83 > 37.5 (median).\nA poor answer fails one condition, e.g., uses odd n (so median is in data) or has only one mode — revealing they don't control the **structural properties** of median (even n → median between values) and mode (tie for highest frequency).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

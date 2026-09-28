@@ -34,6 +34,16 @@
      "q": "Construct an integer subtraction expression involving at least one negative integer and one set of parentheses that results in a final answer of $-10$. Explain your reasoning.",
      "a": "An acceptable response is $-4 - (6) = -10$ or $-15 - (-5) = -10$. A good answer shows clear understanding of how integer sign rules generate a specific target value. A poor answer uses only whole numbers or ignores the integer rules, revealing a lack of comprehension regarding negative values.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How do we calculate the final ______ using subtraction of integers?",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can correctly subtract any combination of positive and negative integers by converting the operation into integer addition, and can solve multi-step real-world problems involving integer differences.",
+     "self_check": true
     }
    ]
   }

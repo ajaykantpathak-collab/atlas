@@ -34,6 +34,26 @@
      "q": "Design a thought experiment that would have convinced Dalton that his postulate of \"atoms of the same element are identical in mass\" is incorrect, using only chemical observations available in 1803 (no spectroscopy, no mass spectrometry).",
      "a": "A strong answer: \"Measure the density of hydrogen gas prepared from different sources - e.g., reaction of zinc with HCl vs. electrolysis of water. If hydrogen atoms were truly identical, the density should be exactly the same. However, with precise enough measurements (beyond 1803 capability), one might detect tiny variations due to deuterium (²H) present in natural water. The experiment requires: (1) identical temperature/pressure conditions, (2) highly accurate mass and volume measurements, (3) multiple trials from different sources.\" A poor answer proposing nuclear reactions or spectroscopy reveals the student doesn't grasp the historical constraints or the subtlety of isotopic mass differences (~0.01% for H/D). The key is recognizing that *chemical* methods alone couldn't detect isotopes in 1803.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Dalton's Atomic Theory proposes that all matter is composed of ______ particles called atoms, which cannot be created or destroyed in chemical reactions; atoms of the same element are identical in mass and properties, while atoms of different elements differ in mass and properties, and compounds form when atoms of different elements combine in fixed, simple whole-number ratios.",
+     "a": "indivisible",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in your kitchen watching your mother make tea - she adds exactly one teaspoon of sugar per cup, and no matter how many cups she makes, the ratio stays ______.",
+     "a": "constant",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state all five postulates of Dalton's Atomic Theory with precise chemical terminology, explain how each postulate accounts for the laws of conservation of mass and constant proportions, and identify at least three specific limitations of the theory with modern evidence that contradicts each limitation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in your kitchen ______ your mother make tea - she adds exactly one teaspoon of sugar per cup, and no matter how many cups she makes, the ratio stays constant.",
+     "a": "watching",
+     "self_check": true
     }
    ]
   }

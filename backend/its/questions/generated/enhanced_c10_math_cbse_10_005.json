@@ -34,6 +34,26 @@
      "q": "Construct a problem where the distance from an external point to the centre of a circle is 17 cm, the radius is 8 cm, and the angle between the two tangents is required. Provide the complete problem statement with a diagram description.",
      "a": "Problem: \"From a point P outside a circle of radius 8 cm with centre O, two tangents PA and PB are drawn. If OP = 17 cm, find the angle between the tangents ∠APB.\" Diagram: Circle with centre O, radius 8 cm. External point P such that OP = 17 cm. Tangents PA and PB touching at A and B. Join OA, OB, OP. A good answer will set up right triangle OAP, find sin(∠APO) = OA/OP = 8/17, then ∠APO = sin⁻¹(8/17), and ∠APB = 2 × ∠APO. A poor answer that gives a numerical angle without inverse trig or assumes a special angle (30°, 45°, 60°) reveals the student expects \"nice\" numbers and doesn't understand that most real problems require trigonometric calculation or leaving the answer in terms of inverse trig functions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: From a point outside a circle, exactly two ______ can be drawn to the circle.",
+     "a": "tangents",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ 10 metres away from a circular fountain of radius 3 metres in your school courtyard.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state and prove that exactly two tangents can be drawn from an external point, construct the tangents using ruler and compass, and apply the property that the two tangent segments from the same external point are equal in length to solve multi-step geometry problems.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing 10 metres away from a circular fountain of radius 3 metres in your school ______.",
+     "a": "courtyard",
+     "self_check": true
     }
    ]
   }

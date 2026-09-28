@@ -26,8 +26,8 @@ from collections import defaultdict
 
 # ─── Config ───
 API_KEYS = [
-    "sk-ant-co-QsK1rhxdfRWZ65OJ5cVxaAZ5ISNUY0lK",   # key 0 — PRIMARY (user requested)
-    "sk-ant-co-gIEUzRWw_mtUpxKk668B1lzJe3XntCna",    # key 1 — fallback
+    "<redacted>",   # key 0 — PRIMARY (user requested)
+    "<redacted>",    # key 1 — fallback
 ]
 API_URL = "https://api.claudeopus.pro/v1/messages"
 MODEL = "claude-opus-5"

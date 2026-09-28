@@ -34,6 +34,31 @@
      "q": "Design a real-world scenario (Indian context) where you would deliberately choose `read()` over `readlines()` and vice versa. Specify the file size, processing need, and justify each choice in 2-3 sentences.",
      "a": "Example: `read()` for a 50 KB configuration file `settings.ini` where you need to parse the entire content with regex to extract all key-value pairs at once — small file, random access needed. `readlines()` for a 200 MB server log `access.log` where you need to randomly access the 100th error line and its surrounding context — large but fits in RAM, random access by line index required. A poor answer gives generic \"small vs large\" without concrete processing justification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The read(), readline(), and readlines() are methods of a file object opened in text mode ('r') that return file content as strings: read([n]) reads the entire file or up to n ______ as a single string; readline() reads one line including the trailing newline character; readlines() reads all lines and returns a list of strings where each element is a line including its newline terminator.",
+     "a": "characters",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a marksheet file marks.txt where each line ______ a student's roll number and marks separated by a comma.",
+     "a": "contains",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If you need random access to lines (e.g., jump to the ______th student), readlines() gives a list you can index.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write Python code to open a text file in read mode, choose the appropriate reading method (read, readline, or readlines) based on the processing requirement (whole content, line-by-line, or list of lines), correctly handle the returned string or list, and close the file or use a with block to ensure resource cleanup.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a ______ file marks.txt where each line contains a student's roll number and marks separated by a comma.",
+     "a": "marksheet",
+     "self_check": true
     }
    ]
   }

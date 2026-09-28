@@ -34,6 +34,26 @@
      "q": "Create a Boolean expression with three variables that uses all three laws (commutative, associative, distributive) in a non-trivial way. Show the step-by-step transformation that applies each law exactly once.",
      "a": "Example expression: (A + B) · (C + A). Step 1 (commutative on second factor): (A+B)·(A+C). Step 2 (distributive): A + B·C. Step 3 (associative on the OR if we add another term, e.g., (A + B·C) + D = A + (B·C + D)). A good answer demonstrates each law clearly and shows the expression changes form but not value. A poor answer merely lists the laws without a coherent transformation or applies a law incorrectly (e.g., using commutative on a single variable).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The commutative, associative, and ______ laws in Boolean algebra govern how Boolean variables (0/1) can be reordered and regrouped under AND (·) and OR (+) operations without changing the logical value of the expression.",
+     "a": "distributive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a digital ______ where three sensors (A, B, C) feed into an AND gate followed by an OR gate.",
+     "a": "circuit",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) state all three laws correctly using Boolean operators, (2) apply each law to transform a given Boolean expression into an equivalent form, and (3) identify which law is used in a given simplification step.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a digital circuit where three sensors (A, B, C) feed into an AND gate followed by an OR gate.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_13_005",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_13_005",
+   "title": "c12_leg_cbse_13_005",
+   "questions": [
+    {
+     "q": "What is the single category of legal practitioners recognized under the Advocates Act, 1961, and what are the three eligibility criteria for enrollment as an advocate on a State Bar Council roll?",
+     "a": "The single category is \"Advocate.\" Eligibility: (1) Citizen of India, (2) At least 21 years old, (3) LL.B. degree from a recognized Indian university. A wrong answer (e.g., listing \"vakil,\" \"barrister,\" or \"pleader\") reveals the student hasn't grasped that the 1961 Act *abolished* all pre-existing categories and created a unified profession. Missing the All India Bar Examination (mandatory since 2010) as a *post-enrollment* requirement for *practice* (not enrollment) shows confusion between enrollment and practice rights.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a Senior Advocate cannot file a vakalatnama or appear without an Advocate-on-Record in the Supreme Court, while an Advocate-on-Record can. What constitutional principle does this distinction serve?",
+     "a": "Senior Advocates are designated for *excellence in advocacy* (Section 16, Advocates Act), not procedural expertise. The restriction ensures they focus on complex legal argumentation, while Advocates-on-Record (who clear a separate Supreme Court exam after 1-year training under a Senior AOR) handle procedural compliance. This serves the principle of *judicial efficiency* — the Supreme Court's docket management requires specialized procedural gatekeepers (AORs) distinct from legal strategists (Senior Advocates). A wrong answer citing \"seniority\" or \"experience\" misses the *functional specialization* rationale.",
+     "self_check": true
+    },
+    {
+     "q": "A law graduate from a BCI-recognized university enrolls with the Delhi Bar Council in 2024. She clears the All India Bar Examination in 2025. In 2026, she wants to practice in the Madras High Court. Can she? What specific provision enables this, and what is the *only* additional requirement if she later wants to file a case in the Supreme Court?",
+     "a": "Yes, she can practice in the Madras High Court immediately. Section 30 of the Advocates Act grants *all-India practice rights* to any advocate on a State Roll. To file in the Supreme Court, she must become an *Advocate-on-Record*: 4 years' practice + 1-year training under a Senior AOR + Supreme Court AOR exam + registered office within 10 miles of SC + registered clerk. A wrong answer saying \"she needs permission from Madras Bar Council\" reveals ignorance of the unified all-India bar. Confusing AOR requirements with Senior Advocate designation shows lack of procedural clarity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the disciplinary jurisdiction of the Bar Council of India vs. a State Bar Council. If an advocate in Karnataka is accused of professional misconduct, which body *first* hears the case, and what is the appeal route? How does this reflect the federal structure of legal regulation?",
+     "a": "The *State Bar Council* (Karnataka) has *original* disciplinary jurisdiction over advocates on its roll. Appeals lie to the *Bar Council of India* (BCI), and further to the Supreme Court. This mirrors India's federalism: States handle local enrollment/discipline (like State police), while BCI sets national standards and hears appeals (like CBI/SC). A wrong answer reversing the hierarchy (BCI first) or omitting the Supreme Court appeal shows misunderstanding of the *tiered regulatory architecture* — State Councils are the \"trial courts\" for discipline, BCI is the \"appellate tribunal.\"",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The Bar Council of India's ban on lawyer advertising (except 5 website details) is outdated. India should adopt the US Model Rules allowing advertising with reasonable restrictions to enhance access to justice.\" Use at least two arguments from the NCERT text and one counter-argument.",
+     "a": "*For relaxation:* (1) NCERT notes US/UK/France allow advertising with restrictions (Rule 7.1-7.3 Model Rules), enhancing public awareness of legal rights. (2) The 2010 BCI amendment permitting 5 website details shows *incipient recognition* that information access aids justice. *Counter:* NCERT warns \"possible misuse of advertising techniques by lawyers which may lead to loss of credibility of the profession as a whole\" — the Victorian ethos of law as a \"noble profession\" (not a commercial service) underpins the restriction. A balanced evaluation must weigh *access to justice* (Article 39A) against *professional dignity* (Bar Council Rules). A one-sided answer ignoring either constitutional mandate or ethical tradition is incomplete.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Legal Profession Reform Proposal\" for India addressing *any two* of these: (a) gender disparity (15.3% women lawyers), (b) foreign law firm entry, (c) legal education quality across 1,700+ law schools, (d) Legal Aid lawyer remuneration. Your proposal must cite specific NCERT provisions and suggest *one* structural change per issue with implementation mechanism.",
+     "a": "*Example for (a) and (c):* (a) **Mandatory 30% lateral hiring quota for women in law firms/legal departments** — implemented via BCI *Legal Education Rules* amendment linking firm recognition to gender diversity metrics (cites NCERT: \"gender bias still pervades... only 15.3% women\"). (c) **Tiered law school accreditation** — BCI to classify schools as Tier 1 (NLUs), Tier 2 (established), Tier 3 (new) with differentiated curriculum standards and mandatory clinical hours; *implementation*: BCI inspection reports published annually, tied to student loan eligibility (cites NCERT: \"1,721 law schools... BCI visits and inspects\"). A vague proposal like \"increase awareness\" without structural mechanism fails.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

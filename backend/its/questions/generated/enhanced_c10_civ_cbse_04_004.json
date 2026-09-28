@@ -34,6 +34,31 @@
      "q": "Design a hypothetical political party's electoral performance across three states (State A: 50 seats, State B: 30 seats, State C: 20 seats in Lok Sabha) that would qualify it as a National Party under the SECOND criterion (2% Lok Sabha seats from 3+ states) but NOT under the first criterion. Specify vote percentages and seats won in each state.",
      "a": "Example: Party wins 11 Lok Sabha seats total: 5 from State A (10% votes), 4 from State B (8% votes), 2 from State C (5% votes). Vote-share is below 6% in State C, so first criterion fails (needs 6% in 4+ states). But 11 seats = 2.02% of 543, from 3 states — second criterion satisfied. A poor answer fails to ensure vote-share <6% in at least one state or miscalculates 2% of 543 (10.86 → 11 seats). This tests precise arithmetic application of the formula.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A National Party in India is a political party recognised by the Election Commission of India (ECI) under the Election Symbols (______ and Allotment) Order, 1968, which secures at least 6% of valid votes polled in any four or more states in a general election to the Lok Sabha or State Legislative Assembly, and wins at least four seats in the Lok Sabha from any state(s); OR wins at least 2% of seats in the Lok Sabha (currently 11 seats) from at least three different states; OR is recognised as a State Party in at least four states.",
+     "a": "Reservation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are watching the 2024 Lok Sabha ______ results on television.",
+     "a": "election",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are watching the ______ Lok Sabha election results on television.",
+     "a": "2024",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state the exact ECI recognition criteria for both National and State Parties, distinguish between the two categories using vote-share and seat thresholds, and correctly classify given parties (e.g., AAP, DMK, BJD) as National or State Parties with justification.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are watching the 2024 Lok Sabha election results on ______.",
+     "a": "television",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using germinating seeds to demonstrate that respiratory intermediates are used for biosynthesis (anabolism) and not just energy production. Specify the seeds, measurements, and expected outcome that would confirm amphibolic function.",
      "a": "Use castor (fat-storing) and mung bean (protein-storing) seeds. Germinate in dark (no photosynthesis) with ¹⁴C-labeled acetate (enters as acetyl-CoA). Measure: (a) ¹⁴CO₂ evolution (catabolism), (b) ¹⁴C incorporation into amino acids (protein synthesis) and fatty acids (membrane synthesis) in the growing seedling. Expected: significant ¹⁴C in newly synthesized proteins and lipids, not just CO₂. Control: heat-killed seeds show only CO₂ (no synthesis). A poor design that only measures O₂ consumption/CO₂ evolution (respirometer) cannot distinguish catabolism from anabolism; the student must track carbon into biomass.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The amphibolic pathway refers to the respiratory pathway (glycolysis, pyruvate oxidation, and Krebs cycle) that functions in both catabolism (breakdown of respiratory substrates like glucose, fatty acids, and amino acids to release energy) and anabolism (withdrawal of metabolic ______ for biosynthesis of fatty acids, amino acids, and other cellular molecules).",
+     "a": "intermediates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a busy railway junction like New Delhi station: trains (metabolic substrates) arrive from different routes (glycolysis, β-oxidation, protein degradation), some pass through to the main line (Krebs cycle → ETS) to deliver energy (ATP), while others are shunted to sidings (______ pathways) to build structures the cell needs (fatty acids for membranes, amino acids for proteins).",
+     "a": "biosynthetic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe Figure ______ in NCERT: note the arrows pointing both INTO the pathway (catabolism) and OUT OF the pathway (anabolism).",
+     "a": "12.6",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why the respiratory pathway is amphibolic by identifying at least three specific intermediates (e.g., acetyl-CoA, α-ketoglutarate, oxaloacetate) and stating the biosynthetic product each provides (fatty acids, amino acids, glucose via gluconeogenesis).",
+     "self_check": true
     }
    ]
   }

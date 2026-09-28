@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a light microscope and stained testis/ovary sections to distinguish between spermatogenesis and oogenesis stages. Specify the staining method, the key morphological features you would identify at each stage, and how you would confirm the ploidy level of cells observed.",
      "a": "Use PAS-Haematoxylin staining on paraffin sections: PAS stains acrosome (spermatids), zona pellucida (oocytes), and basement membranes; haematoxylin stains nuclei. In testis: identify basal spermatogonia (large, pale nuclei), primary spermatocytes (large, dense chromatin, visible chromosomes in pachytene), secondary spermatocytes (rare, smaller), round spermatids (small, round, dark nuclei), elongating spermatids (condensing nuclei), spermatozoa (heads embedded in Sertoli cells). In ovary: primordial follicle (oocyte with dictyate nucleus, surrounded by squamous granulosa), primary/secondary follicles (growing oocyte, antrum forming), Graafian follicle (large antrum, cumulus-oocyte complex, secondary oocyte with metaphase II plate). Ploidy confirmation: count chromosomes in spread preparations (spermatogonia 46, primary spermatocyte 46 replicated, secondary spermatocyte 23 replicated, spermatid 23; oocyte dictyate 46 replicated, metaphase II 23 replicated). A poor answer only lists stages without staining rationale, ploidy verification, or distinction between mitotic/meiotic figures.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Gametogenesis is the process of formation of haploid male and female gametes (sperm and ovum) from diploid germ cells in the gonads (testes and ovaries) through meiotic division, involving ______ in males and oogenesis in females, each with distinct timing, cytological events, and hormonal regulation.",
+     "a": "spermatogenesis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a teenager's voice deepening and facial hair appearing — these visible changes signal that ______ has been active for months, driven by testosterone surge from Leydig cells.",
+     "a": "spermatogenesis",
+     "self_check": true
+    },
+    {
+     "q": "What is Gametogenesis? State the definition given in this lesson.",
+     "a": "Gametogenesis is the process of formation of haploid male and female gametes (sperm and ovum) from diploid germ cells in the gonads (testes and ovaries) through meiotic division, involving spermatogenesis in males and oogenesis in females, each with distinct timing, cytological events, and hormonal regulation.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Gametogenesis?",
+     "a": "Students believe \"oogenesis produces one egg and three polar bodies, all of equal size and genetic content\" — they apply the symmetric meiotic division model of spermatogenesis to oogenesis.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can trace the complete sequence of spermatogenesis and oogenesis from primordial germ cell to mature gamete, explain the cytological differences (meiotic arrest points, cytokinesis asymmetry, cytoplasmic distribution), and correlate each stage with hormonal control (GnRH, FSH, LH, testosterone, estrogen, inhibin) and anatomical.",
+     "self_check": true
     }
    ]
   }

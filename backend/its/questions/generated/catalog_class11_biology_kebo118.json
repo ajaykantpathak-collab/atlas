@@ -1,6 +1,53 @@
 {
- "catalog": "catalog_class11_biology_kebo118",
+ "catalog": "catalog_class11_biology_kebo118.json",
  "concepts": [
+  {
+   "id": "kebo.118.2.1",
+   "title": "Action Potential Generation and Its Voltage Change",
+   "converted_to_compute": true,
+   "formula": "voltage_swing = action_potential - resting_potential",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "voltage_swing = action_potential - resting_potential",
+     "compute": "voltage_swing = action_potential - resting_potential"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Action Potential Generation and Its Voltage Change: given action_potential = 82, resting_potential = 258, find voltage swing.",
+     "a": "-176",
+     "self_check": false
+    },
+    {
+     "q": "For Action Potential Generation and Its Voltage Change: given action_potential = 218, resting_potential = 187, find voltage swing.",
+     "a": "31",
+     "self_check": false
+    },
+    {
+     "q": "For Action Potential Generation and Its Voltage Change: given action_potential = 368, resting_potential = 136, find voltage swing.",
+     "a": "232",
+     "self_check": false
+    },
+    {
+     "q": "For Action Potential Generation and Its Voltage Change: given action_potential = 357, resting_potential = 95, find voltage swing.",
+     "a": "262",
+     "self_check": false
+    },
+    {
+     "q": "For Action Potential Generation and Its Voltage Change: given action_potential = 399, resting_potential = 115, find voltage swing.",
+     "a": "284",
+     "self_check": false
+    },
+    {
+     "q": "For Action Potential Generation and Its Voltage Change: given action_potential = 330, resting_potential = 413, find voltage swing.",
+     "a": "-83",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "kebo.118.1.1",
    "title": "Neuron Structure and Resting Membrane Potential",
@@ -18,37 +65,6 @@
     {
      "q": "Under which section is 'Neuron Structure and Resting Membrane Potential' taught, and from which source text?",
      "a": "18.1 Neural System, 18.2 Human Neural System, 18.3.1 Generation and Conduction of Nerve Impulse (source: kebo118.txt sections 18.1-18.3.1)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebo.118.2.1",
-   "title": "Action Potential Generation and Its Voltage Change",
-   "questions": [
-    {
-     "q": "Using the method 'Action Potential Generation and Its Voltage Change', work with: action_potential = 12, resting_potential = 10. Carry the chain through step by step and give the final value of voltage_swing.",
-     "a": "2 years",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Action Potential Generation and Its Voltage Change' and work with: action_potential = 200, resting_potential = 8. Carry the chain through step by step and give the final value of voltage_swing.",
-     "a": "192 years",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Action Potential Generation and Its Voltage Change' refers to.",
-     "a": "When a stimulus depolarises the membrane beyond threshold, sodium channels open and the membrane potential reverses to the peak of the action potential or nerve impulse; the change in voltage equals the peak action potential minus the resting potential, and conduction proceeds as depolarisation spreads along the axon with repolarisation following behind.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Action Potential Generation and Its Voltage Change'.",
-     "a": "The impulse is an all or none self-propagating reversal of membrane polarity, and repolarisation restores the resting state as potassium ions flow outward.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Action Potential Generation and Its Voltage Change', in plain ASCII form.",
-     "a": "voltage_swing = action_potential - resting_potential",
      "self_check": true
     }
    ]

@@ -34,6 +34,21 @@
      "q": "Construct a modified circular flow diagram for a two-sector economy where households save 20% of their income and firms borrow those savings for investment. Label all real and money flows, and state the new equilibrium condition.",
      "a": "The diagram should show: Households → Factor services → Firms; Firms → Factor payments (Y) → Households; Households → Consumption (C) + Savings (S) → Firms (via financial market); Firms → Investment (I) → Financial market → Households (as borrowing). Equilibrium condition: Y = C + I (or S = I). A poor answer omits the financial market intermediary or labels savings as a direct flow from households to firms without a financial sector, indicating they haven't grasped that the simple two-sector model must be extended to include a financial sector for savings-investment linkage.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ of the two-sector circular flow model are the simplifying conditions that allow us to represent an economy with only households and firms interacting in product and factor markets, where all income earned by households from selling factor services is spent entirely on goods and services produced by firms, with no savings, no government, no foreign trade, and no financial sector.",
+     "a": "assumptions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small Indian village where every family works on farms or in tiny workshops (______ supplying labour, land, capital) and buys all their food, cloth, and tools from the same local producers (firms).",
+     "a": "households",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can list all six core assumptions of the two-sector circular flow model, explain why each assumption is made, and describe how relaxing any one assumption (e.g., introducing savings or government) would change the flow of income and expenditure in the model.",
+     "self_check": true
     }
    ]
   }

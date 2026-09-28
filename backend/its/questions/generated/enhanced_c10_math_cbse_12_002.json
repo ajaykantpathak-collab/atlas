@@ -34,6 +34,26 @@
      "q": "Design a real-world problem (Indian context) that requires finding the total surface area of a cylinder with hemispheres at both ends, where the total height is given but the cylindrical height is not directly given. Include a cost calculation (e.g., painting or plating). Provide the problem statement only.",
      "a": "Example problem: \"A gas cylinder (LPG) has a cylindrical part of radius 15 cm and total height (including the two hemispherical ends) of 80 cm. It needs to be painted with heat-resistant paint costing ₹12 per cm². Find the cost of painting the entire outer surface. (Use π = 3.14)\" A good answer will have: h = 80 - 2(15) = 50 cm, TSA = 2π(15)(50+30) = 2×3.14×15×80 = 7536 cm², Cost = 7536 × 12 = ₹90,432. A poor problem would give cylindrical height directly or ask only for surface area without application, showing the student cannot construct a multi-step applied problem.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The total surface area of a solid formed by a right ______ cylinder with two hemispheres of equal radius attached at its ends is the sum of the curved surface area of the cylinder and the curved surface areas of the two hemispheres.",
+     "a": "circular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a capsule medicine tablet — it's a cylinder with two ______ ends.",
+     "a": "hemispherical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight is that the total height of the solid is h + ______r, but the formula uses only the cylindrical height h.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly calculate the total surface area of a cylinder with hemispheres at both ends given any two of the three parameters (radius, cylinder height, total height), can identify when the total height includes the hemispheres, and can solve word problems involving cost of painting or material required for such solids.",
+     "self_check": true
     }
    ]
   }

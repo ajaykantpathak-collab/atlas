@@ -732,11 +732,14 @@ class ExamService:
         student_id: int,
         subject: str,
         exam_type: str = "isc_board",
+        class_level: int = 12,
     ) -> PaperResponse:
-        """Generate a fresh ISC exam paper and return it."""
-        if subject not in TOPIC_CONFIG:
-            raise ValueError(f"Subject '{subject}' not supported.")
+        """Generate a fresh ISC exam paper and return it.
 
+        Subjects outside the hardcoded _QB (electives: acc/bs/psy/bio/etc)
+        generate from the BoardQuestion bank instead of placeholder
+        fallback questions.
+        """
         session_code = self._make_session_code()
         seed = secrets.randbits(31)
         sections = self._get_section_config(subject)
@@ -756,7 +759,9 @@ class ExamService:
         self.db.add(session)
         await self.db.flush()
 
-        questions = self._generate_questions(seed, subject)
+        questions = await self._generate_questions(seed, subject, class_level)
+        if not questions:
+            raise ValueError(f"Subject '{subject}' not supported.")
         questions_json = json.dumps([q.model_dump() for q in questions])
 
         paper = ExamPaperDB(
@@ -1522,7 +1527,15 @@ class ExamService:
                 ),
             ]
 
-    def _generate_questions(self, seed: int, subject: str) -> List[QuestionData]:
+    async def _generate_questions(
+        self, seed: int, subject: str, class_level: int = 12,
+    ) -> List[QuestionData]:
+        # Corpus-backed generation for electives and any subject the
+        # hardcoded _QB doesn't cover — real board questions, real options
+        # and answers, so submit grading is non-vacuous.
+        if subject not in TOPIC_CONFIG:
+            return await self._generate_questions_corpus(
+                seed, subject, class_level)
         rng = SeededRNG(seed)
         tc = TOPIC_CONFIG.get(subject, {})
         qbank = self._qb.get(subject, {})
@@ -1541,6 +1554,68 @@ class ExamService:
                     result.append(q)
                     qn += 1
         return result
+
+    async def _generate_questions_corpus(
+        self, seed: int, subject: str, class_level: int,
+    ) -> List[QuestionData]:
+        """Build the same QuestionData shape from board_questions rows."""
+        try:
+            from sqlalchemy import select as _select, func as _func
+            from backend.models.enrichment import BoardQuestion
+            subs = _EXAM_SUBJECT_ALIASES.get(
+                subject.lower().replace(" ", "_"), [subject.lower()])
+            # widen class_level by ±0 only — boards are class 10/12
+            rows = (await self.db.execute(
+                _select(BoardQuestion)
+                .where(BoardQuestion.subject.in_(subs))
+                .where(BoardQuestion.class_level == class_level)
+                .where(BoardQuestion.correct_answer.isnot(None))
+                .order_by(_func.random())
+                .limit(80)
+            )).scalars().all()
+        except Exception:
+            rows = []
+        if not rows:
+            return []
+
+        rng = SeededRNG(seed)
+        sections = self._get_section_config(subject)
+        # bucket by marks so each section gets mark-appropriate questions
+        def _fits(q, qtype):
+            m = q.marks or 1
+            if qtype in (QuestionType.VERY_SHORT,):
+                return m <= 2
+            if qtype in (QuestionType.SHORT,):
+                return 2 < m <= 5
+            return m > 3 or True  # LONG accepts anything remaining
+
+        used: set = set()
+        out: List[QuestionData] = []
+        qn = 1
+        for sec in sections:
+            pool = [q for q in rows if q.id not in used and _fits(q, sec.question_type)]
+            rng.shuffle(pool)
+            for q in pool[: sec.num_questions + (sec.choices_available - 1 if getattr(sec, "choices_available", 0) else 0)]:
+                used.add(q.id)
+                opts = list(q.options or [])
+                correct = str(q.correct_answer or "")
+                correct_idx = opts.index(correct) if correct in opts else (0 if opts else None)
+                out.append(QuestionData(
+                    question_id=str(q.id),
+                    question_number=qn,
+                    section_id=sec.section_id,
+                    question_type=sec.question_type,
+                    marks=q.marks or sec.marks_per_question,
+                    topic=str(q.chapter or subject),
+                    subtopic=str(getattr(q, "section", "") or ""),
+                    text=q.question_text,
+                    options=opts or None,
+                    correct_answer=correct,
+                    correct_option_index=correct_idx,
+                    internal_id=f"{subject[:3].upper()}_{qn}",
+                ))
+                qn += 1
+        return out
 
     def _pick_question(
         self,
@@ -1686,6 +1761,109 @@ from types import SimpleNamespace as _NS
 
 _EXAM_SESSIONS: Dict[str, Any] = {}
 
+# Sessions must survive nginx round-robin between backend-1/backend-2 —
+# persist every mutation to Redis (local dict stays a hot cache).
+_EXAM_REDIS_TTL = 4 * 3600
+_exam_redis = None
+
+
+async def _exam_redis_client():
+    global _exam_redis
+    if _exam_redis is not None:
+        return _exam_redis
+    try:
+        import redis.asyncio as aioredis
+        from backend.config import settings
+        _exam_redis = aioredis.from_url(
+            settings.redis_url, decode_responses=True)
+        return _exam_redis
+    except Exception:
+        return None
+
+
+async def _exam_save(session: Any) -> None:
+    try:
+        r = await _exam_redis_client()
+        if r is None:
+            return
+        import json as _json
+        payload = _json.dumps({
+            "session_id": session.session_id,
+            "user_id": session.user_id,
+            "paper": {"title": session.paper.title,
+                      "questions": session.paper.questions},
+            "duration_minutes": session.duration_minutes,
+            "started_at": session.started_at.isoformat(),
+            "current_question": session.current_question,
+            "answers": session.answers,
+            "completed": session.completed,
+        })
+        await r.set(f"examsim:{session.session_id}", payload,
+                  ex=_EXAM_REDIS_TTL)
+    except Exception:
+        pass  # cache fallback: local dict still holds it
+
+
+async def _exam_load(session_id: str) -> Any:
+    session = _EXAM_SESSIONS.get(session_id)
+    if session is not None:
+        return session
+    try:
+        r = await _exam_redis_client()
+        if r is None:
+            return None
+        import json as _json
+        raw = await r.get(f"examsim:{session_id}")
+        if not raw:
+            return None
+        p = _json.loads(raw)
+        _started = datetime.fromisoformat(p["started_at"])
+        if _started.tzinfo is None:
+            _started = _started.replace(tzinfo=timezone.utc)  # legacy naive stamp
+        session = _NS(
+            session_id=p["session_id"],
+            user_id=p["user_id"],
+            paper=_NS(title=p["paper"]["title"],
+                      questions=p["paper"]["questions"]),
+            duration_minutes=p["duration_minutes"],
+            started_at=_started,
+            current_question=p["current_question"],
+            answers=p["answers"],
+            completed=p["completed"],
+        )
+        _EXAM_SESSIONS[session_id] = session
+        return session
+    except Exception:
+        return None
+
+
+# Subject slugs the UI/API accept → corpus subject codes
+_EXAM_SUBJECT_ALIASES = {
+    "math": ["math"], "maths": ["math"], "mathematics": ["math"],
+    "physics": ["phy", "physics"], "phy": ["phy", "physics"],
+    "chemistry": ["chem", "chemistry"], "chem": ["chem", "chemistry"],
+    "biology": ["bio", "biology"], "bio": ["bio", "biology"],
+    "science": ["sci", "science", "phy", "chem", "bio", "physics",
+                "chemistry", "biology"],
+    "english": ["eng", "english", "eng_f", "eng_h", "eng_k", "eng_s",
+                "eng_v", "eng_w", "engl"],
+    "hindi": ["hin", "hin_a", "hin_al", "hin_ar", "hin_v"],
+    "economics": ["eco", "economics"], "eco": ["eco", "economics"],
+    "history": ["hist", "history"], "hist": ["hist", "history"],
+    "geography": ["geo", "geography"], "geo": ["geo", "geography"],
+    "civics": ["civ", "civics"], "civ": ["civ", "civics"],
+    "social_science": ["soc", "sst", "hist", "geo", "civ", "eco",
+                       "history", "geography", "civics", "economics"],
+    "computer_science": ["comp", "cs", "ip"], "cs": ["comp", "cs", "ip"],
+    "accounts": ["acc"], "accountancy": ["acc"], "acc": ["acc"],
+    "business_studies": ["bs"], "bs": ["bs"], "psychology": ["psy"],
+    "psy": ["psy"], "sociology": ["soc"], "soc": ["soc"],
+    "applied_math": ["stat"], "statistics": ["stat"], "stat": ["stat"],
+    "biotech": ["biotech"], "physical_education": ["ps"], "ps": ["ps"],
+    "home_science": ["hs"], "hs": ["hs"], "grammar": ["gram"],
+    "gram": ["gram"], "ca": ["ca"],
+}
+
 _EXAM_GRADE_BANDS = ((90, "A+"), (80, "A"), (70, "B"), (60, "C"), (50, "D"), (40, "E"))
 
 
@@ -1709,14 +1887,17 @@ async def _exam_sim_start(
     num_questions: int = 10,
     duration_minutes: int = 120,
 ) -> Dict[str, Any]:
-    from sqlalchemy import select as _select
+    from sqlalchemy import select as _select, func as _func
 
     try:
         from backend.models.enrichment import BoardQuestion
+        subs = _EXAM_SUBJECT_ALIASES.get(
+            subject.lower().replace(" ", "_"), [subject.lower()])
         rows = (await db.execute(
             _select(BoardQuestion)
-            .where(BoardQuestion.subject == subject)
+            .where(BoardQuestion.subject.in_(subs))
             .where(BoardQuestion.class_level == class_level)
+            .order_by(_func.random())
             .limit(max(1, min(int(num_questions), 40)))
         )).scalars().all()
     except Exception:
@@ -1756,14 +1937,21 @@ async def _exam_sim_start(
         completed=False,
     )
     _EXAM_SESSIONS[session_id] = session
+    await _exam_save(session)
 
+    safe_questions = [
+        {k: v for k, v in q.items() if k != "correct_answer"}
+        for q in questions
+    ]
     return {
         "started": True,
         "session_id": session_id,
         "paper_title": paper.title,
         "duration_minutes": int(duration_minutes),
         "total_questions": len(questions),
-        "question": {k: v for k, v in questions[0].items() if k != "correct_answer"},
+        "question": safe_questions[0],
+        # full set for clients that render the whole paper up front
+        "questions": safe_questions,
     }
 
 
@@ -1796,7 +1984,7 @@ async def _exam_sim_submit_answer(
     skip: bool = False,
     **_kw,
 ) -> Dict[str, Any]:
-    session = _EXAM_SESSIONS.get(session_id)
+    session = await _exam_load(session_id)
     if not session:
         return {"error": "Exam session not found"}
     if session.completed:
@@ -1821,6 +2009,7 @@ async def _exam_sim_submit_answer(
         }
     )
     session.current_question += 1
+    await _exam_save(session)
 
     if session.current_question >= len(questions):
         return _exam_sim_scorecard(session)

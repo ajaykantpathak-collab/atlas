@@ -12,7 +12,9 @@ Output goes to D:\platform\backend\solvers\
 import json, time, urllib.request, ssl, os, sys
 from pathlib import Path
 
-API_KEY = 'sk-ant-co-QsK1rhxdfRWZ65OJ5cVxaAZ5ISNUY0lK'
+import os
+API_KEY = os.environ.get('CLAUDE_API_KEY') or os.environ.get('ANTHROPIC_API_KEY')
+assert API_KEY, 'set CLAUDE_API_KEY/ANTHROPIC_API_KEY'
 API_URL = 'https://api.claudeopus.pro/v1/messages'
 
 # Fable-5 for critical coding (calculus engine, solver code, question generators)

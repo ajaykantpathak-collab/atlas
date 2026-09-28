@@ -34,6 +34,26 @@
      "q": "Design a decision-tree flowchart (text-based) for identifying an unknown single-component fibre using only burning test observations. Include all five observation parameters and branch to the eight NCERT fibres. Ensure mutually exclusive pathways.",
      "a": "```\nSTART → Approach flame:\n  ├─ Shrinks away → In flame: Melts & burns\n  │                ├─ After flame: Continues melting\n  │                │    ├─ Odour: Acrid → Residue: Hard tan bead → NYLON\n  │                │    ├─ Odour: Sweet plastic → Residue: Hard black bead → POLYESTER\n  │                │    └─ Odour: Acrid → Residue: Hard black crinkly bead → ACRYLIC\n  │                └─ (No other melt-burn fibres in scope)\n  ├─ Curls away → In flame: Burns slowly\n  │               ├─ After flame: Self-extinguishing\n  │               │    ├─ Odour: Burning hair → Residue: Brittle crushable bead → WOOL / SILK\n  │               │    │    (Distinguish by filament vs staple: silk = filament, wool = staple)\n  │               │    └─ (No other self-extinguishing fibres)\n  └─ No shrink, catches fire → In flame: Burns quickly\n                               ├─ After flame: Continues burning with afterglow\n                               │    ├─ Odour: Burning paper → Residue: Soft grey ash, retains shape → COTTON / LINEN\n                               │    │    (Distinguish by yarn: linen = longer, lustrous, stronger)\n                               │    └─ Odour: Burning paper → Residue: Light fluffy ash, very small → RAYON\n                               └─ (No other rapid-burn cellulosics)\n```\nA poor answer uses linear if-then without branching, misses residue texture distinctions (crushable vs crinkly vs fluffy), or fails to separate cotton/linen and wool/silk pairs using supplementary yarn/fabric cues.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The burning test is a qualitative fibre identification technique that exploits the distinct thermal decomposition behaviours of different fibre classes—cellulosic, protein, and synthetic—when exposed to a controlled flame, allowing identification through systematic observation of approach-to-flame reaction, in-flame combustion ______, after-flame behaviour, odour profile, and residue morphology.",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you find a beautiful vintage saree in your grandmother's trunk with no label—you need to know if it's pure silk, artificial silk (rayon), or a ______ blend to decide how to wash and store it.",
+     "a": "polyester",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must independently conduct a burning test on an unknown fabric sample, record all five observation parameters (approach, in-flame, after-flame, odour, residue) in a structured table, and correctly classify the fibre as cellulosic, protein, or synthetic with specific generic identification (e.g., \"polyester\" not just.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you find a beautiful vintage saree in your ______'s trunk with no label—you need to know if it's pure silk, artificial silk (rayon), or a polyester blend to decide how to wash and store it.",
+     "a": "grandmother",
+     "self_check": true
     }
    ]
   }

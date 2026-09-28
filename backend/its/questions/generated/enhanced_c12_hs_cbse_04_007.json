@@ -34,6 +34,26 @@
      "q": "Design a derivative weave by combining plain and 2/2 twill in a check pattern: 8 ends plain, 8 ends 2/2 twill, repeat. Draw the draft for 16 shafts (straight draw) and write the lifting sequence for the first 8 picks. Explain how the fabric will behave differently at the transition zones.",
      "a": "Draft: Shafts 1–8 = plain (alternating 1,2,1,2...), Shafts 9–16 = 2/2 twill (straight 9,10,11,12,13,14,15,16). Lifting (first 8 picks, plain area): Pick 1: shafts 1,3,5,7 up; Pick 2: 2,4,6,8 up; repeat. Twill area lifting (2/2): Pick 1: 9,10 up; Pick 2: 10,11 up; Pick 3: 11,12 up; Pick 4: 12,13 up; Pick 5: 13,14 up; Pick 6: 14,15 up; Pick 7: 15,16 up; Pick 8: 16,9 up. Transition zones: plain-to-twill boundary creates a line of differing crimp and float length → potential puckering or weft distortion; requires careful tension balancing. A poor answer ignores transition effects or gives random lifting, showing inability to plan multi-weave structures.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Woven fabric is a textile structure formed by interlacing two sets of yarns — warp (______) and weft (crosswise) — at right angles to each other on a loom, following a specific interlacing pattern called a weave.",
+     "a": "lengthwise",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're holding a cotton shirt and a denim jean — both are woven, but one is smooth and light, the other is ______-ribbed and heavy.",
+     "a": "diagonal",
+     "self_check": true
+    },
+    {
+     "q": "What is Woven fabric? State the definition given in this lesson.",
+     "a": "Woven fabric is a textile structure formed by interlacing two sets of yarns — warp (lengthwise) and weft (crosswise) — at right angles to each other on a loom, following a specific interlacing pattern called a weave.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) identify and label the main parts of a handloom and power loom from a diagram, (2) draw the draft, peg plan, and interlacing diagram for plain, twill (2/1, 2/2, 3/1), and satin (5-end, 8-end) weaves, and (3) explain how weave structure influences fabric properties (strength, drape, lustre, durability).",
+     "self_check": true
     }
    ]
   }

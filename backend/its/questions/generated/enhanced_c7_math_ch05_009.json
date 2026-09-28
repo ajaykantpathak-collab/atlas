@@ -34,6 +34,21 @@
      "q": "Construct a word problem involving a street layout in a town where two parallel roads are crossed by a diagonal railway track, requiring the use of co-interior angles to find an unknown angle for town planning.",
      "a": "An acceptable response must feature two parallel streets (e.g., MG Road and Station Road) cut by a transversal railway track, with one co-interior angle given as an algebraic expression like $(5x)^\\circ$ and the other as $100^\\circ$, requiring setting their sum to $180^\\circ$ to solve for $x$. A poor response would just use random numbers without a real-world context or fail to make the two roads parallel, making the co-interior angle rule invalid.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Interior angles on the same side of a transversal (also known as ______ interior angles or co-interior angles) are two angles that lie on the interior of two lines and on the same side of the transversal line cutting them.",
+     "a": "consecutive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are walking straight down a wide school corridor (______ by two parallel walls) and a diagonal corridor crosses right through them, forming a sharp corner where security cameras are mounted.",
+     "a": "represented",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify co-interior angles in various geometric configurations, set up linear equations using their supplementary property when lines are parallel, and solve for unknown variables to find angle measures.",
+     "self_check": true
     }
    ]
   }

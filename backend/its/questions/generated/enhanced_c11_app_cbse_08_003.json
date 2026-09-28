@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_08_003",
+   "title": "c11_app_cbse_08_003",
+   "questions": [
+    {
+     "q": "What is the vertical line test, and what does it determine about a curve on the Cartesian plane?",
+     "a": "The vertical line test states: if any vertical line intersects a curve at more than one point, the curve does **not** represent a function of x. It determines whether a given curve represents y as a function of x (i.e., each input x has exactly one output y). A wrong answer (e.g., \"it checks if the graph is a straight line\" or \"it finds the slope\") reveals the student confuses the *definition of a function* with geometric properties like linearity or differentiation — they haven't internalized that a function is fundamentally a *single-valued mapping*.",
+     "self_check": true
+    },
+    {
+     "q": "The graph of f(x) = √(x + 4) starts at x = −4 and goes rightward. A student says: \"Since square root gives two values (±), the graph should have two branches — one above and one below the x-axis.\" Is the student correct? Explain why or why not.",
+     "a": "The student is **incorrect**. The symbol √ denotes the *principal (non-negative) square root* — by definition, √(x+4) ≥ 0 for all x in the domain. So f(x) = √(x+4) is a **function** (single output), and its graph lies **only on or above the x-axis**. The equation y² = x+4 would give two branches, but that is *not* a function of x. A wrong answer reveals the student confuses *solving equations* (where ±√ appears) with *evaluating a function* (where √ is single-valued) — a critical distinction in Class 11.",
+     "self_check": true
+    },
+    {
+     "q": "Sketch the graph of f(x) = |x − 2| + 1 by transforming the graph of y = |x|. Identify the vertex, axis of symmetry, domain, and range.",
+     "a": "Start with y = |x| (V-shape, vertex at (0,0), symmetry about y-axis).  \nStep 1: Replace x with (x−2) → shift **right by 2 units** → vertex at (2,0).  \nStep 2: Add 1 → shift **up by 1 unit** → vertex at (2,1).  \nResult: V-shape opening upward, vertex (2,1), axis of symmetry x = 2.  \nDomain: ℝ. Range: [1, ∞).  \nA wrong answer (e.g., vertex at (−2,1) or shift left) reveals the student misapplies horizontal translation: they think f(x−a) shifts *left* by a, not right — a classic sign error from not testing a point (e.g., \"where is the new zero? At x=2\").",
+     "self_check": true
+    },
+    {
+     "q": "Compare the graphs of f(x) = 2ˣ and g(x) = (1/2)ˣ. How are they related? What does this reveal about exponential functions with bases >1 vs. between 0 and 1?",
+     "a": "g(x) = (1/2)ˣ = 2⁻ˣ = f(−x). So the graph of g is the **reflection of f across the y-axis**.  \nf(x) = 2ˣ (base >1): strictly increasing, passes through (0,1), asymptote y=0 as x→−∞.  \ng(x) = (1/2)ˣ (0<base<1): strictly decreasing, passes through (0,1), asymptote y=0 as x→+∞.  \nThis reveals: **exponential functions with reciprocal bases are mirror images across the y-axis** — increasing vs. decreasing behavior is determined solely by whether base >1 or 0<base<1. A wrong answer (e.g., \"they are the same\" or \"reflected across x-axis\") shows the student doesn't grasp the role of the exponent's sign or the asymptotic behavior — they're memorizing shapes, not understanding structure.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The graph of f(x) = [x] (greatest integer function) is a series of horizontal line segments of length 1, including both endpoints.\" Evaluate this claim. Is it fully correct? If not, correct it.",
+     "a": "The claim is **partially correct but flawed**. The graph *does* consist of horizontal segments of length 1. However, **each segment includes the left endpoint (closed circle) and excludes the right endpoint (open circle)** — because [x] = n for x ∈ [n, n+1), not [n, n+1]. At integer x, the function jumps: e.g., [1] = 1, but values just left of 1 give 0. So the segments are **half-open intervals [n, n+1)**. A wrong answer (e.g., \"both endpoints included\" or \"segments are disconnected points\") reveals the student doesn't understand the *definition of greatest integer* as \"greatest integer ≤ x\" — they're drawing a picture without reasoning from the definition.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where the signum function sgn(x) naturally arises. Define the function in that context and sketch its graph. Explain why the graph has a break at x=0.",
+     "a": "**Scenario:** A thermostat-controlled heater in a Delhi winter. Let x = (room temperature − set temperature) in °C.  \n- If x > 0 (room too hot), heater turns **OFF** → output = 0? No — better: let output = **heater state**: +1 = heating ON, 0 = idle, −1 = cooling ON (if AC). But simpler: let f(x) = **direction of temperature correction needed**:  \n  f(x) = +1 if x < 0 (need heating),  \n  f(x) = 0 if x = 0 (perfect),  \n  f(x) = −1 if x > 0 (need cooling).  \nThis is exactly sgn(−x), but sgn(x) works if we define x = set temp − room temp.  \n**Graph:** Three horizontal rays: y=1 for x<0 (open at 0), y=0 at x=0 (point), y=−1 for x>0 (open at 0).  \n**Break at x=0:** Because the *direction of correction changes abruptly* — no gradual transition. The function is **discontinuous** at 0, reflecting a real-world \"switching\" behavior. A poor answer (e.g., \"graph is continuous\" or \"no real-world example\") shows the student sees sgn(x) as abstract symbol manipulation, not a model for *threshold-based decisions* — missing the applied mathematics perspective.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

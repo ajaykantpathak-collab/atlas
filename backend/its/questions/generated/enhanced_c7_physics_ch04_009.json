@@ -34,6 +34,21 @@
      "q": "Design a simple indoor classroom experiment using a rolling toy car on a straight floor tile track to determine the time taken to cover a measured distance of $2\\text{ meters}$, given that the car moves at a constant speed of $0.5\\text{ m/s}$.",
      "a": "Mark a starting line and a finishing line exactly $2\\text{ meters}$ apart using a measuring tape. Release the toy car from rest (ensuring it reaches a uniform speed of $0.5\\text{ m/s}$) and start a stopwatch when it crosses the start line, stopping it at the finish line. Calculate expected time as $Time = Distance / Speed = 2\\text{ m} / 0.5\\text{ m/s} = 4\\text{ seconds}$, then compare your stopwatch reading to test experimental accuracy. A poor answer fails to connect the mathematical formula to physical measurement steps or ignores unit consistency.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you watch an ______ train travelling from New Delhi to Agra on the railway tracks, you often see milestone markers flashing past your window at regular intervals.",
+     "a": "express",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can algebraically rearrange the speed equation to solve for an unknown distance or time given the other two variables, successfully track and cancel units through dimensional analysis, and verify that the final numerical answer is physically reasonable for everyday Indian contexts (such as a train journey or a bicycle.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you watch an express train ______ from New Delhi to Agra on the railway tracks, you often see milestone markers flashing past your window at regular intervals.",
+     "a": "travelling",
+     "self_check": true
     }
    ]
   }

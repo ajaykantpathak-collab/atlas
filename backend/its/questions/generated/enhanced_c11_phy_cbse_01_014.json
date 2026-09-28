@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using only a metre scale, a stopwatch, and a pendulum bob to demonstrate the difference between systematic and random errors. Specify what you would measure, how you would introduce a known systematic error, and how you would identify random error from the data.",
      "a": "Measure time for 20 oscillations of a simple pendulum (L ≈ 1 m) using a stopwatch. Introduce systematic error by deliberately starting the stopwatch 0.5 s late for every trial (simulating consistent reaction delay). Take 10 readings. The mean will be consistently higher than true value by ~0.5 s/20 = 0.025 s per oscillation – this offset is systematic. The scatter of individual readings around the mean (some 0.02 s higher, some 0.03 s lower) is random error from unpredictable reaction time variations. A poor answer (e.g., \"measure length multiple times\") fails to isolate time measurement errors or deliberately introduce a known systematic bias.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Systematic errors are reproducible inaccuracies consistently occurring in the same direction due to identifiable causes like instrument calibration flaws, imperfect experimental technique, or observer bias; random errors are unpredictable fluctuations in measured values arising from ______ variations in experimental conditions, causing scatter around the true value.",
+     "a": "uncontrollable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine ______ the diameter of a steel ball bearing using a screw gauge in your school lab.",
+     "a": "measuring",
+     "self_check": true
+    },
+    {
+     "q": "What is Systematic errors? State the definition given in this lesson.",
+     "a": "Systematic errors are reproducible inaccuracies consistently occurring in the same direction due to identifiable causes like instrument calibration flaws, imperfect experimental technique, or observer bias; random errors are unpredictable fluctuations in measured values arising from uncontrollable variations in experimental conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Both are quantified using absolute error (Δa = |a_measured - a_true|), relative error (Δa/a_true), and percentage error ((Δa/a_true) × ______%), with SI units matching the measured quantity.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Systematic errors?",
+     "a": "Students believe that \"taking more readings always reduces error\" and confuse *precision* (small random scatter) with *accuracy* (closeness to true value).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can classify given experimental errors as systematic or random with justification, calculate absolute/relative/percentage errors from a data set, and explain how increasing observations reduces random but not systematic error.",
+     "self_check": true
     }
    ]
   }

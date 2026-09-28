@@ -34,6 +34,31 @@
      "q": "Create a real-world problem where you would need to multiply a 3-digit number by a 2-digit number.",
      "a": "A bus carries 145 passengers, and there are 25 buses in the fleet; how many passengers total? A poor answer would just be a random math string without a logical real-world context like tickets, items in a carton, or time calculations.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is a mathematical operation representing repeated addition of the same number, used to find the total of several equal-sized groups.",
+     "a": "Multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If your school canteen sells 125 samosas every day, how would you ______ the total sold in 23 days without adding 125 twenty-three times?",
+     "a": "calculate",
+     "self_check": true
+    },
+    {
+     "q": "What is Multiplication? State the definition given in this lesson.",
+     "a": "Multiplication is a mathematical operation representing repeated addition of the same number, used to find the total of several equal-sized groups.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Multiplication?",
+     "a": "Students often forget to include the \"placeholder\" zero when multiplying by the tens digit.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to multiply a three-digit number by a two-digit number correctly using the standard algorithm, showing all partial products.",
+     "self_check": true
     }
    ]
   }

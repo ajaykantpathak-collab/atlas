@@ -34,6 +34,31 @@
      "q": "Design a multi-hazard zonation map legend for a district in the Himalayan foothills that integrates landslide, flood, and earthquake susceptibility. Specify the three data layers you would combine and the classification logic for 'Very High' zone.",
      "a": "Layers: (1) Slope angle + lithology + rainfall (landslide susceptibility). (2) Floodplain width + drainage density + historical flood extent (flood susceptibility). (3) Seismic zone (Zone IV/V) + active fault proximity + soil liquefaction potential (earthquake susceptibility). 'Very High' = all three layers in their highest class simultaneously (e.g., slope >30° on weak rock + active floodplain + Zone V within 5km of fault). A poor answer lists layers but uses additive scoring (e.g., sum of ranks) — this masks compounding risk where hazards trigger each other (e.g., earthquake → landslide → dam breach → flood).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Natural hazards are extreme geophysical or ______ events — such as earthquakes, landslides, and floods — that occur due to Earth's internal or surface processes and pose significant risk to human life, infrastructure, and ecosystems when they intersect with vulnerable populations.",
+     "a": "hydrometeorological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how the same monsoon rain that fills paddy fields in Punjab triggers deadly ______ in Darjeeling and floods in Assam — the difference isn't the rain, but the land beneath it.",
+     "a": "landslides",
+     "self_check": true
+    },
+    {
+     "q": "What is Natural hazards? State the definition given in this lesson.",
+     "a": "Natural hazards are extreme geophysical or hydrometeorological events — such as earthquakes, landslides, and floods — that occur due to Earth's internal or surface processes and pose significant risk to human life, infrastructure, and ecosystems when they intersect with vulnerable populations.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Natural hazards?",
+     "a": "Students believe landslides are caused only by heavy rain, ignoring that rain is the trigger, not the cause — the real cause is pre-existing slope instability from tectonic uplift, weak lithology (phyllite, schist), deforestation, and toe-cutting by rivers.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the causal mechanisms linking specific landforms (e.g., steep slopes, floodplains, fault zones) to each hazard type, interpret a multi-hazard vulnerability map of India to identify high-risk zones, and justify why two regions with similar rainfall experience different flood magnitudes based on drainage basin.",
+     "self_check": true
     }
    ]
   }

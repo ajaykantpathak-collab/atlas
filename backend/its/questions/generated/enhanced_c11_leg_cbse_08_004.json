@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_08_004",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_08_004",
+   "title": "c11_leg_cbse_08_004",
+   "questions": [
+    {
+     "q": "Define 'Ratio Decidendi' and 'Obiter Dicta'. Why is the distinction critical for the doctrine of *stare decisis* in the Indian judicial hierarchy?",
+     "a": "**Ratio Decidendi** is the legal principle or reasoning upon which a court's decision is based; it is binding on lower courts. **Obiter Dicta** are incidental remarks or observations not essential to the decision; they have persuasive value only. The distinction is critical because *stare decisis* (standing by decided things) applies *only* to the Ratio. If a student confuses the two, they might treat a judge's hypothetical example as binding law, leading to incorrect legal advice or judicial overreach by lower courts.",
+     "self_check": true
+    },
+    {
+     "q": "A village in Rajasthan has practiced a unique form of adoption (adopting a nephew as heir) for 150 years. The Hindu Adoption and Maintenance Act, 1956, codifies adoption rules but Section 5 says the Act applies \"save as otherwise provided by custom.\" Can this village custom override the statutory requirement that only a Hindu male can adopt? Apply the *tests for a valid custom* to justify your answer.",
+     "a": "**No, the custom cannot override the statute.** While the custom satisfies *Antiquity* (150 years > time immemorial), *Continuity*, and *Certainty*, it fails the test of **Conformity with Statute Law**. The Hindu Adoption and Maintenance Act, 1956 is a comprehensive code. Section 5 saves customs *only if* they are not inconsistent with the Act. The Act (Sec 7, 8) specifies capacity to adopt (male/female, sound mind, majority). A custom allowing adoption by a person disqualified under the Act (e.g., a minor) would be *ultra vires* the statute. In modern India, legislation abrogates custom.",
+     "self_check": true
+    },
+    {
+     "q": "The Supreme Court (3-judge bench) decides *Case X* in 2020. In 2022, a High Court encounters a similar fact pattern. The High Court judge disagrees with the *Ratio* of *Case X* but agrees with the *Obiter* remarks. Can the High Court refuse to follow the Ratio? Can it treat the Obiter as binding? Explain the hierarchical constraint.",
+     "a": "**The High Court MUST follow the Ratio of *Case X*; it CANNOT treat the Obiter as binding.** Under Article 141, the law declared by the Supreme Court is binding on *all* courts in India. A smaller bench (High Court) is bound by a larger/co-equal bench of the Supreme Court. The High Court has **zero discretion** to reject a binding Supreme Court Ratio, regardless of disagreement. Obiter Dicta of the Supreme Court has *high persuasive value* but remains non-binding. A wrong answer here reveals a misunderstanding of the *vertical* nature of stare decisis and the constitutional mandate of Article 141.",
+     "self_check": true
+    },
+    {
+     "q": "Compare **Delegated Legislation** (Executive making rules under an Act) and **Judicial Legislation** (Courts making rules of procedure). Why is Delegated Legislation often called a \"necessary evil\"? Provide two constitutional safeguards against its misuse in India.",
+     "a": "**Delegated Legislation** derives authority from a Parent Act (enabling statute); the Executive fills in technical details (rules, regulations). **Judicial Legislation** (Art 145, 227) derives authority from the Constitution itself for court procedure/administration. Delegated Legislation is a \"necessary evil\" because: (1) It violates *Separation of Powers* (Executive legislating); (2) Risks *excessive delegation* (Parliament abdicating policy). **Safeguards in India:** (1) *Laying Requirement*: Rules must be laid before Parliament (can be modified/annulled); (2) *Judicial Review*: Courts strike down rules *ultra vires* the Parent Act (substantive *ultra vires*) or violating Fundamental Rights/Constitution. A student missing the \"Parent Act\" link fails to grasp the source of validity.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"In the 21st century, Custom is a dead source of law in India; Legislation and Precedent have completely replaced it.\" Use specific examples from Personal Law and Commercial Law to defend or refute.",
+     "a": "**Refuted. Custom is diminished but NOT dead.** In **Personal Law**: Hindu Marriage Act (Sec 7) recognizes *Saptapadi* (customary rites) for valid marriage; Section 29(2) saves customs for divorce. In **Commercial Law**: *Usage of Trade* (Sec 1, Indian Contract Act / UCC equivalents) governs contracts silently (e.g., \"FOB\", \"CIF\" terms). In **Tribal Law**: Customary laws of Nagaland/Mizoram protected under Art 371A/371G. Custom survives where legislation is silent or explicitly incorporates it. A \"dead source\" answer ignores the *savings clauses* in major statutes and Constitutional protections for tribal custom.",
+     "self_check": true
+    },
+    {
+     "q": "**Create a scenario:** Draft a hypothetical fact pattern where a *Local Custom* conflicts with a *General Custom*, and a *Statute* explicitly saves \"any custom.\" Explain how a court would resolve this hierarchy of norms using the *Principle of Lex Specialis* and the *Tests of Validity*.",
+     "a": "**Scenario:** A Statute (Sec 10) says \"Nothing in this Act affects any valid custom.\" **General Custom** (State-wide): Daughters inherit equally. **Local Custom** (District X): Only sons inherit. Party A (daughter) claims under General Custom/Statute. Party B (son) claims under Local Custom.\n**Resolution Steps:** 1. Test *both* customs for validity (Antiquity, Continuity, Certainty, Reasonableness, Morality, Statutory Conformity). 2. Apply **Lex Specialis Derogat Legi Generali** (Specific law overrides general law): A valid *Local Custom* (specific to a region/community) prevails over a *General Custom* (territory-wide) *if* the Local Custom is proven to be ancient, certain, and reasonable *for that locality*. 3. However, if the Local Custom violates *Reasonableness/Morality* (gender discrimination violating Art 14/15), the court strikes it down. The General Custom (equality) or Statute prevails. A good answer identifies the *conflict of laws* methodology, not just a winner.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

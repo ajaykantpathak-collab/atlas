@@ -34,6 +34,26 @@
      "q": "Create a real-life scenario (different from weather, games, insurance) where experimental probability is used to make a decision. Define the event, describe how you would collect data, calculate the probability, and explain how the probability would inform a decision. Your scenario must involve at least 50 trials.",
      "a": "Example scenario: A school cafeteria wants to decide how many vegetarian thalis to prepare daily. Event: \"A randomly chosen student chooses vegetarian thali.\" Collect data: Record meal choices of 200 students over a week (50+ trials). Calculate: If 120 out of 200 choose vegetarian, P(veg) = 120/200 = 3/5 = 0.6. Decision: Prepare vegetarian thalis for 60% of expected students, with a small buffer. A poor answer might describe a theoretical probability scenario (e.g., coin toss) or use fewer than 50 trials, showing confusion between experimental and theoretical probability or ignoring the trial requirement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Probability in real-life contexts quantifies the likelihood of uncertain events using empirical data or theoretical models, expressed as a number between 0 and 1, where 0 indicates ______ and 1 indicates certainty.",
+     "a": "impossibility",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are planning a weekend cricket match in Mumbai during ______ season.",
+     "a": "monsoon",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can interpret real-world scenarios (weather forecasts, game outcomes, insurance risk) to identify sample spaces and favourable outcomes, compute probabilities using both experimental and theoretical approaches, and explain how these probabilities inform decision-making (e.g., carrying an umbrella, pricing a game ticket.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a weekend cricket match in Mumbai during monsoon season.",
+     "a": "planning",
+     "self_check": true
     }
    ]
   }

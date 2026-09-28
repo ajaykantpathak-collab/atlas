@@ -34,6 +34,31 @@
      "q": "Create an even number between 50 and 100 that has exactly three different representations as sums of consecutive natural numbers. Explain how you chose it.",
      "a": "An even number with exactly three representations needs exactly four odd divisors (including 1). Example: 2 × 3 × 5 = 30 (but <50). 2 × 3 × 7 = 42 (<50). 2 × 3 × 11 = 66 (odd divisors: 1,3,11,33 → 3 representations). 66 works: 21+22+23, 10+11+12+13+14+15, 1+2+...+11. A poor answer picks a random number without using odd divisor count.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An even number can be expressed as a sum of two or more ______ natural numbers if and only if it is not a power of 2 (i.e., it has at least one odd factor greater than 1).",
+     "a": "consecutive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your class is arranging 24 ______ in a triangular formation where each row has one more chair than the row in front.",
+     "a": "chairs",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The number of ways to write an even number as such a sum equals the number of odd divisors of that number minus ______.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can determine whether a given even number can be written as a sum of consecutive natural numbers, find at least one such representation when possible, and explain why powers of 2 (like 2, 4, 8, 16, 32) are the only even numbers that cannot be expressed this way.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your class is arranging 24 chairs in a ______ formation where each row has one more chair than the row in front.",
+     "a": "triangular",
+     "self_check": true
     }
    ]
   }

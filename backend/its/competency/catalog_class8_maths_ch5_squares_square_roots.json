@@ -62,7 +62,7 @@
     "can a square number end with 2",
     "how do we know whether a number is a perfect square from its units digit"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -79,7 +79,16 @@
      "action": "count ending zeros",
      "explain": "A perfect square has only an even number of zeros at the end"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "split the number into digits and apply the rule",
+     "explain": "split the number into digits and apply the rule: diff = 9 * abs(4 - 2) gives 18",
+     "compute": "diff = 9 * abs(4 - 2)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c8m5.3.1",

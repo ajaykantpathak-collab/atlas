@@ -34,6 +34,31 @@
      "q": "Design a land use optimisation plan for a hypothetical district with: Geographical Area 5000 km², Forest 30%, NSA 40%, Current Fallow 10%, Other Fallow 8%, Culturable Waste 5%, Barren 7%. The district has medium rainfall (800 mm), alluvial soil in 60% area, and canal irrigation covering 35% of NSA. Specify target changes for each category over 10 years with justification.",
      "a": "A strong plan: (1) Reduce Current Fallow from 10%→5% by promoting short-duration pulses in rabi on rainfed land using residual moisture (low cost, improves soil N). (2) Reclaim 50% of Culturable Waste (5%→2.5%) via gypsum application for salinity and bunding for erosion - convert to agroforestry/horticulture. (3) Afforest 2% of Barren/unculturable waste for ecological balance. (4) Increase NSA from 40%→43% via (1)+(2). (5) Raise CI from ~140%→170% by extending canal command (last mile) and drip in horticulture. (6) Maintain Forest at 30% (legal minimum). Poor answer: \"convert all fallow to crops\" - ignores soil-water constraints and ecological functions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Land utilisation pattern in India refers to the ______ of the total geographical area into nine distinct categories based on current human use and cover, with Net Sown Area (NSA) representing land actually cultivated at least once during an agricultural year, and Fallow Land comprising cultivable land temporarily left uncultivated for one or more seasons to restore fertility, divided into Current Fallow (uncultivated for one agricultural year) and Other Fallow (uncultivated for 1-5 years).",
+     "a": "classification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at the ______ fields around your city or village - some are green with crops, some lie brown and empty after harvest, some have been empty for years.",
+     "a": "agricultural",
+     "self_check": true
+    },
+    {
+     "q": "What is Land utilisation pattern in India? State the definition given in this lesson.",
+     "a": "Land utilisation pattern in India refers to the classification of the total geographical area into nine distinct categories based on current human use and cover, with Net Sown Area (NSA) representing land actually cultivated at least once during an agricultural year, and Fallow Land comprising cultivable land temporarily left.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Land utilisation pattern in India?",
+     "a": "Students believe \"Fallow land is wasted land that should be brought under cultivation immediately.\" In reality, fallow is a deliberate soil management practice in rainfed farming: current fallow (kharif fallow in rabi or vice versa) conserves moisture for the next crop; other fallow allows natural vegetation to restore organic matter.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can interpret land use data tables to calculate cropping intensity and fallow percentages for any Indian state, explain regional variations in NSA and fallow land using physical and socio-economic factors, and evaluate the sustainability implications of changing land use patterns on food security.",
+     "self_check": true
     }
    ]
   }

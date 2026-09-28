@@ -1,6 +1,53 @@
 {
- "catalog": "catalog_class12_biology_lebo102",
+ "catalog": "catalog_class12_biology_lebo102.json",
  "concepts": [
+  {
+   "id": "lebo102.2.3.1",
+   "title": "Spermatogenesis Cell Line and Hormonal Control",
+   "converted_to_compute": true,
+   "formula": "spermatids = primary_spermatocytes * 4",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "spermatids = primary_spermatocytes * 4",
+     "compute": "spermatids = primary_spermatocytes * 4"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Spermatogenesis Cell Line and Hormonal Control: given primary_spermatocytes = 91, find spermatids.",
+     "a": "364",
+     "self_check": false
+    },
+    {
+     "q": "For Spermatogenesis Cell Line and Hormonal Control: given primary_spermatocytes = 62, find spermatids.",
+     "a": "248",
+     "self_check": false
+    },
+    {
+     "q": "For Spermatogenesis Cell Line and Hormonal Control: given primary_spermatocytes = 52, find spermatids.",
+     "a": "208",
+     "self_check": false
+    },
+    {
+     "q": "For Spermatogenesis Cell Line and Hormonal Control: given primary_spermatocytes = 79, find spermatids.",
+     "a": "316",
+     "self_check": false
+    },
+    {
+     "q": "For Spermatogenesis Cell Line and Hormonal Control: given primary_spermatocytes = 97, find spermatids.",
+     "a": "388",
+     "self_check": false
+    },
+    {
+     "q": "For Spermatogenesis Cell Line and Hormonal Control: given primary_spermatocytes = 9, find spermatids.",
+     "a": "36",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "lebo102.2.1.1",
    "title": "Male Reproductive System: Testes, Ducts and Glands",
@@ -39,37 +86,6 @@
     {
      "q": "Under which section is 'Female Reproductive System and Mammary Glands' taught, and from which source text?",
      "a": "2.2 (source: lebo102.txt lines 111-181 (female reproductive system and mammary gland sections))",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebo102.2.3.1",
-   "title": "Spermatogenesis Cell Line and Hormonal Control",
-   "questions": [
-    {
-     "q": "Using the method 'Spermatogenesis Cell Line and Hormonal Control', work with: primary_spermatocytes = 150. Carry the chain through step by step and give the final value of result.",
-     "a": "600 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Spermatogenesis Cell Line and Hormonal Control' and work with: primary_spermatocytes = 60. Carry the chain through step by step and give the final value of result.",
-     "a": "240 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Spermatogenesis Cell Line and Hormonal Control' refers to.",
-     "a": "Spermatogonia lining the tubule wall multiply mitotically; some grow into primary spermatocytes whose two meiotic rounds produce two secondary spermatocytes and then four haploid spermatids, later reshaped into spermatozoa under GnRH, LH and FSH control.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Spermatogenesis Cell Line and Hormonal Control'.",
-     "a": "Meiosis halves the chromosome number from 46 to 23, and each primary spermatocyte ultimately funds four equal spermatids before spermiogenesis and spermiation.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Spermatogenesis Cell Line and Hormonal Control', in plain ASCII form.",
-     "a": "spermatids = primary_spermatocytes * 4",
      "self_check": true
     }
    ]

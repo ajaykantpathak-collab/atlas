@@ -34,6 +34,31 @@
      "q": "Create a real-life problem (Indian context: savings, instalments, seating arrangement, etc.) where finding a term from the end of an AP is necessary. State the problem clearly with all given values, and solve it.",
      "a": "Example problem: \"A school auditorium has 25 rows of seats. The first row has 20 seats, and each subsequent row has 2 more seats than the previous row. How many seats are in the 5th row from the back?\"\nSolution: AP with a = 20, d = 2, n = 25. Last row seats = l = 20 + 24×2 = 68.\n5th row from back = l - (5 - 1)×2 = 68 - 8 = 60 seats.\nOr: (25 - 5 + 1) = 21st row from front = 20 + 20×2 = 60.\nA good answer includes: correct AP identification, correct formula choice, correct arithmetic, and answer with units (seats). A poor answer might use a + (k - 1)d directly (giving 28), showing confusion between front and back, or forget to find n first if l wasn't given.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In an Arithmetic ______ with a finite number of terms, the kth term from the end is the term that is k positions away from the last term when counting backwards.",
+     "a": "Progression",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ at the end of a queue of 50 students arranged in increasing order of height (an AP).",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing at the end of a queue of ______ students arranged in increasing order of height (an AP).",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the total number of terms in an AP, then apply the formula l - (k - 1)d or a + (n - k)d to find any term from the end, and solve word problems where the position from the end is given but the total number of terms must first be determined.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing at the end of a queue of 50 students arranged in ______ order of height (an AP).",
+     "a": "increasing",
+     "self_check": true
     }
    ]
   }

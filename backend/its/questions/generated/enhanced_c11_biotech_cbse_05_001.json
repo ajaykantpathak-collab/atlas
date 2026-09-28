@@ -34,6 +34,26 @@
      "q": "Design a **hypothetical experiment** using fluorescence microscopy (e.g., FUCCI system: red fluorescent protein in G1, green in S/G2/M) to visually distinguish between a **quiescent (G0) cell** and a **G1-arrested cell** (e.g., due to contact inhibition) in a live culture. Describe the expected color dynamics over 48 hours for each.",
      "a": "**FUCCI System Logic:** Cdt1 (Red) accumulates in G1; Geminin (Green) accumulates in S/G2/M.\n- **G0 Cell (Quiescent):** Remains **persistently Red** (high Cdt1, no Geminin) for 48h. No cell cycle progression. If stimulated (e.g., growth factors), it *may* transition to Green (S phase entry).\n- **G1-Arrested Cell (Contact Inhibition):** Also **persistently Red** initially. **Key difference:** Upon wounding (removing contact inhibition), the arrested cell rapidly transitions to **Green (S/G2/M)** within hours, proving it was *competent* but *actively suppressed*. The G0 cell may not respond or responds slower.\nA poor answer treats both as identical \"Red cells,\" missing that G0 is a *reversible withdrawal* from the cycle, while G1 arrest is an *active block within* the cycle.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The cell cycle is an ordered sequence of events in which a eukaryotic cell grows, duplicates its genetic material (DNA), and divides into two ______ identical daughter cells, comprising two major phases: Interphase (G1, S, G2) for growth and DNA replication, and M phase (Mitosis and Cytokinesis) for nuclear and cytoplasmic division, regulated by critical checkpoints (G1/S, G2/M, Spindle Assembly) that ensure fidelity.",
+     "a": "genetically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ fertilized egg (zygote) developing into a newborn baby with trillions of cells.",
+     "a": "single",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) correctly sequence the phases of the cell cycle and describe the key molecular event defining each phase, and (2) explain the functional role of the three major checkpoints in preventing genomic instability, using specific molecular triggers (e.g., DNA damage, incomplete replication, chromosome.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a single ______ egg (zygote) developing into a newborn baby with trillions of cells.",
+     "a": "fertilized",
+     "self_check": true
     }
    ]
   }

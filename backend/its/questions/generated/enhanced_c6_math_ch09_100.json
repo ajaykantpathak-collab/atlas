@@ -34,6 +34,21 @@
      "q": "Create a set of 4 numbers that has a mean of 10. Can you create a different set that also has a mean of 10?",
      "a": "Any four numbers that add up to 40 (e.g., 5, 5, 15, 15 or 10, 10, 10, 10). A poor answer suggests the student hasn't grasped that multiple combinations can lead to the same \"fair share.\"",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The mean (or average) is a single value that ______ the central, typical point of a data set.",
+     "a": "represents",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If your friends each have a different number of ______, how can you describe the \"typical\" amount each person has without listing every number?",
+     "a": "stickers",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student will be able to calculate the mean of a given data set and explain that the mean represents a \"balanced\" or \"typical\" value for that group.",
+     "self_check": true
     }
    ]
   }

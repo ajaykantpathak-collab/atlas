@@ -85,9 +85,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "count = 5"
-   ]
+   "steps_chain": []
   },
   {
    "id": "am11_008.3",
@@ -130,9 +128,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 3 ** (3 + 4)"
-   ]
+   "steps_chain": []
   },
   {
    "id": "am11_008.4",
@@ -220,9 +216,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lines = 2"
-   ]
+   "steps_chain": []
   },
   {
    "id": "am11_008.6",

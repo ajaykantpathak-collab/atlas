@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_01_007",
+   "title": "c11_app_cbse_01_007",
+   "questions": [
+    {
+     "q": "Write the logarithmic equation $\\log_4 64 = x$ in exponential form and state the value of $x$.",
+     "a": "Exponential form: $4^x = 64$. Since $4^3 = 64$, $x = 3$. A wrong answer like $x^4 = 64$ or $64^x = 4$ reveals the student has swapped the base and the exponent — they are treating the logarithm as the base rather than the exponent. This is the single most common structural error.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why $\\log_5 (-25)$ is undefined in the real number system, but $\\log_5 (1/25)$ is defined and equals $-2$.",
+     "a": "$\\log_5 (-25)$ asks \"5 raised to what power gives -25?\" No real exponent works because any positive base raised to a real power is always positive. $\\log_5 (1/25)$ asks \"5 raised to what power gives 1/25?\" Since $5^{-2} = 1/25$, the answer is $-2$. A student who says \"log of negative is not allowed\" without linking it to $b^x > 0$ for $b>0$ shows rote memorization without understanding the exponential connection.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate without a calculator: $\\log_{\\sqrt{2}} 8$.",
+     "a": "Let $x = \\log_{\\sqrt{2}} 8$. Then $(\\sqrt{2})^x = 8$. Rewrite $\\sqrt{2} = 2^{1/2}$ and $8 = 2^3$. So $(2^{1/2})^x = 2^3 \\implies 2^{x/2} = 2^3 \\implies x/2 = 3 \\implies x = 6$. A wrong answer of 3 or 1.5 reveals the student forgot to convert the base $\\sqrt{2}$ to exponential form $2^{1/2}$ and applied the power rule incorrectly.",
+     "self_check": true
+    },
+    {
+     "q": "Compare $\\log_2 10$ and $\\log_3 10$. Which is larger? Justify without calculating decimal values.",
+     "a": "$\\log_2 10 > \\log_3 10$. Reason: Both ask \"what exponent on the base gives 10?\" Since base 2 is smaller than base 3, you need a *larger* exponent on 2 to reach the same number 10. (Analogy: a smaller engine needs higher RPM to reach the same speed.) A student who guesses $\\log_3 10$ is larger because \"3 > 2\" is confusing the base with the result — they haven't internalized the inverse relationship between base size and log value for a fixed argument > 1.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since $\\log_{10} 100 = 2$ and $\\log_{10} 1000 = 3$, then $\\log_{10} 200$ must be exactly 2.5 because 200 is halfway between 100 and 1000.\" Evaluate this claim.",
+     "a": "The claim is **false**. Logarithmic functions are non-linear; equal intervals in the argument do not produce equal intervals in the log value. $\\log_{10} 200 = \\log_{10} (2 \\times 100) = \\log_{10} 2 + \\log_{10} 100 \\approx 0.3010 + 2 = 2.3010$, not 2.5. A student who agrees is applying linear thinking (arithmetic mean) to a logarithmic scale — a classic misconception that persists into calculus if not corrected now.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life scenario (Indian context) where a quantity grows such that its logarithm (base 10) increases by 1 every year. Write the formula for the quantity after $t$ years if it starts at 500 units.",
+     "a": "Scenario: A viral video's view count grows 10× each year. If $\\log_{10}(\\text{views})$ increases by 1 per year, views multiply by 10 per year. Formula: $V(t) = 500 \\times 10^t$. A poor answer gives linear growth ($500 + 500t$) or uses base $e$ without justification, showing the student cannot connect \"log increases by 1\" to \"quantity multiplies by base.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

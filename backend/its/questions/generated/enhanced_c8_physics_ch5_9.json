@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using household items to demonstrate distillation of ink (coloured water) to obtain clear water. List materials, steps, and how you will prove the distillate is pure water.",
      "a": "Materials: Pressure cooker (as flask with lid), copper tube (condenser) coiled and placed in a bowl of cold water, glass cup (receiver), blue ink, stove. Steps: 1. Put ink in cooker. 2. Attach tube to steam vent. 3. Coil tube in cold water bath. 4. Heat cooker. 5. Collect liquid in cup. Proof: Distillate is colourless (ink dye non-volatile), boils at 100°C, leaves no residue on evaporation. A poor answer uses no condenser (just evaporation) or doesn't test purity, showing lack of understanding of condensation requirement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is a separation technique where a soluble solid is recovered from a solution by heating the solvent until it vaporizes, leaving the solid residue behind.",
+     "a": "Evaporation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a glass of ______ from the Arabian Sea and you want to get both the salt and the water back separately.",
+     "a": "saltwater",
+     "self_check": true
+    },
+    {
+     "q": "What is Evaporation? State the definition given in this lesson.",
+     "a": "Evaporation is a separation technique where a soluble solid is recovered from a solution by heating the solvent until it vaporizes, leaving the solid residue behind.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Evaporation?",
+     "a": "Students think distillation separates *any* mixture, e.g., they believe a mixture of sand and water can be distilled to get pure water and sand.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why evaporation recovers only the solute while distillation can recover both solute and solvent, and can select the correct method for a given mixture (e.g., salt from seawater vs. acetone from water) with reasoning based on boiling points and volatility.",
+     "self_check": true
     }
    ]
   }

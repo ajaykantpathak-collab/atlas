@@ -34,6 +34,21 @@
      "q": "Create a novel scenario involving a One Person Company (OPC) where the distinction between MoA and AoA produces a different outcome than in a public company. Explain the difference with statutory references.",
      "a": "**Correct Answer:** **Scenario:** \"SoloTech OPC\" (sole member: Mr. Sharma) wants to change its objects from \"software development\" to \"software development and cloud hosting.\"\n**In OPC:** MoA alteration requires only the member's resolution (Section 122: OPC compliances apply as if Board resolution = member resolution). No special resolution quorum issues. AoA alteration similarly simplified.\n**In Public Company:** MoA alteration requires special resolution (75% majority) + filing MGT-14 + Central Government approval if change involves relocation of registered office across states (Section 13). AoA alteration requires special resolution only (Section 14).\n**Key Difference:** The **procedural rigidity** differs, but the **substantive distinction** (MoA = objects, AoA = internal rules) remains identical. The Companies Act 2013 applies the same hierarchy (Act > MoA > AoA) to OPCs (Section 3(1)(c)).\n**Expected answer criteria:** Must identify (a) same substantive distinction applies, (b) procedural simplifications for OPC under Section 122/Rule 7 of Incorporation Rules, (c) MoA alteration still requires ROC filing (INC-22 for objects change), AoA alteration requires MGT-14. Poor answer treats OPC as exempt from MoA/AoA distinction entirely.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Memorandum of Association (MoA) is the supreme ______ charter of a company that defines its fundamental objects, scope of operations, and relationship with the external world, while the Articles of Association (AoA) is the subsidiary document containing rules and regulations for the company's internal management and governance.",
+     "a": "constitutional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're drafting the ______ for a new cricket league.",
+     "a": "constitution",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish MoA and AoA across all five statutory bases (objectives, position, relationship, validity of ultra vires acts, and filing necessity) with precise legal terminology from the Companies Act 2013; (2) Apply the distinction to determine whether a specific corporate action requires MoA alteration.",
+     "self_check": true
     }
    ]
   }

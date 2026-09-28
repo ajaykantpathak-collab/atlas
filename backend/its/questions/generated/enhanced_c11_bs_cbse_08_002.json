@@ -34,6 +34,26 @@
      "q": "Create a financing plan for a medium-sized textile manufacturer needing ₹25 crore for: (i) new weaving plant (15-year life), (ii) cotton stock for 6 months, (iii) ERP software (3-year useful life). Specify one source for each, classify by period & ownership, and defend your choices.",
      "a": "(i) Plant: 10-year debentures (Long-term, Borrowed) — matches asset life, tax-deductible interest. (ii) Cotton stock: Trade credit (Short-term, Borrowed) — self-liquidating, no asset charge. (iii) ERP: Lease financing (Medium-term, Borrowed) — avoids obsolescence risk, lower upfront cash. Good answer shows each source's period matches asset life, ownership choice balances control/cost/risk. Poor answer uses same source for all or mismatches periods (e.g., trade credit for plant).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of sources of finance organizes funding options into categories based on time period (long-term >5 years, medium-term 1-5 years, short-term ≤1 year) and ownership (owner's funds: equity shares, retained earnings; borrowed funds: debentures, loans, trade credit, public deposits).",
+     "a": "Classification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Anil Singh (from the textbook) who needs ₹50 lakh to open two new ______ branches.",
+     "a": "restaurant",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Anil Singh (from the textbook) who needs ₹______ lakh to open two new restaurant branches.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently classify any given source of finance (e.g., commercial paper, lease financing, equity shares) by both period and ownership basis, and justify the classification with reference to maturity, repayment obligation, control implications, and cost structure.",
+     "self_check": true
     }
    ]
   }

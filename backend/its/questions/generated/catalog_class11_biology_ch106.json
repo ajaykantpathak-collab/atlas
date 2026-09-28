@@ -1,96 +1,144 @@
 {
- "catalog": "catalog_class11_biology_ch106",
+ "catalog": "catalog_class11_biology_ch106.json",
  "concepts": [
   {
    "id": "kebo.6.1.1",
    "title": "Epidermal Tissue System",
+   "converted_to_compute": true,
+   "formula": "stomatal_apparatus = stomatal_aperture + guard_cells + subsidiary_cells",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "stomatal_apparatus = stomatal_aperture + guard_cells + subsidiary_cells",
+     "compute": "stomatal_apparatus = stomatal_aperture + guard_cells + subsidiary_cells"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Epidermal Tissue System', work with: guard_cells = 10, stomatal_aperture = 300, subsidiary_cells = 12. Carry the chain through step by step and give the final value of stomatal_apparatus.",
-     "a": "322 units",
+     "q": "For Epidermal Tissue System: given stomatal_aperture = 63, guard_cells = 100, subsidiary_cells = 1.7, find stomatal apparatus.",
+     "a": "164.7",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Epidermal Tissue System' and work with: guard_cells = 20, stomatal_aperture = 75, subsidiary_cells = 15. Carry the chain through step by step and give the final value of stomatal_apparatus.",
-     "a": "110 units",
+     "q": "For Epidermal Tissue System: given stomatal_aperture = 96, guard_cells = 86, subsidiary_cells = 28, find stomatal apparatus.",
+     "a": "210",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Epidermal Tissue System' refers to.",
-     "a": "The outermost protective layer of a plant, consisting of epidermal cells, stomata for gas exchange, and appendages like trichomes or root hairs.",
-     "self_check": true
+     "q": "For Epidermal Tissue System: given stomatal_aperture = 18.3, guard_cells = 56, subsidiary_cells = 49, find stomatal apparatus.",
+     "a": "123.3",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Epidermal Tissue System'.",
-     "a": "The epidermis acts as a barrier and regulator for water loss and gas exchange.",
-     "self_check": true
+     "q": "For Epidermal Tissue System: given stomatal_aperture = 49, guard_cells = 13.2, subsidiary_cells = 31, find stomatal apparatus.",
+     "a": "93.2",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Epidermal Tissue System', in plain ASCII form.",
-     "a": "stomatal_apparatus = stomatal_aperture + guard_cells + subsidiary_cells",
-     "self_check": true
+     "q": "For Epidermal Tissue System: given stomatal_aperture = 31, guard_cells = 12, subsidiary_cells = 14.9, find stomatal apparatus.",
+     "a": "57.9",
+     "self_check": false
+    },
+    {
+     "q": "For Epidermal Tissue System: given stomatal_aperture = 90, guard_cells = 99, subsidiary_cells = 15.9, find stomatal apparatus.",
+     "a": "204.9",
+     "self_check": false
     }
    ]
   },
   {
    "id": "kebo.6.1.3",
    "title": "Vascular Tissue System",
+   "converted_to_compute": true,
+   "formula": "open_bundle = phloem + cambium + xylem",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "open_bundle = phloem + cambium + xylem",
+     "compute": "open_bundle = phloem + cambium + xylem"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Vascular Tissue System', work with: cambium = 2048, phloem = 500, xylem = 100. Carry the chain through step by step and give the final value of open_bundle.",
-     "a": "2648 units",
+     "q": "For Vascular Tissue System: given phloem = 86, cambium = 74, xylem = 57, find open bundle.",
+     "a": "217",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Vascular Tissue System' and work with: cambium = 1024, phloem = 120, xylem = 150. Carry the chain through step by step and give the final value of open_bundle.",
-     "a": "1294 units",
+     "q": "For Vascular Tissue System: given phloem = 38, cambium = 79, xylem = 95, find open bundle.",
+     "a": "212",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Vascular Tissue System' refers to.",
-     "a": "A complex conducting system in plants made up of xylem and phloem, organized into vascular bundles that may be open or closed depending on the presence of cambium.",
-     "self_check": true
+     "q": "For Vascular Tissue System: given phloem = 53, cambium = 63, xylem = 65, find open bundle.",
+     "a": "181",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Vascular Tissue System'.",
-     "a": "Cambium presence determines whether a vascular bundle can support secondary growth.",
-     "self_check": true
+     "q": "For Vascular Tissue System: given phloem = 42, cambium = 15.3, xylem = 36, find open bundle.",
+     "a": "93.3",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Vascular Tissue System', in plain ASCII form.",
-     "a": "open_bundle = phloem + cambium + xylem",
-     "self_check": true
+     "q": "For Vascular Tissue System: given phloem = 77, cambium = 3.3, xylem = 52, find open bundle.",
+     "a": "132.3",
+     "self_check": false
+    },
+    {
+     "q": "For Vascular Tissue System: given phloem = 21, cambium = 4.8, xylem = 98, find open bundle.",
+     "a": "123.8",
+     "self_check": false
     }
    ]
   },
   {
    "id": "kebo.6.2.1",
    "title": "Dicot vs Monocot Root Anatomy",
+   "converted_to_compute": true,
+   "formula": "xylem_count = (is_monocot * 7) + (is_dicot * 3)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "xylem_count = (is_monocot * 7) + (is_dicot * 3)",
+     "compute": "xylem_count = (is_monocot * 7) + (is_dicot * 3)"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Dicot vs Monocot Root Anatomy', work with: xylem_bundles = 6. Carry the chain through step by step and give the final value of has_secondary_growth.",
-     "a": "1 per cent",
+     "q": "For Dicot vs Monocot Root Anatomy: given is_monocot = 86, is_dicot = 90, find xylem count.",
+     "a": "872",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Dicot vs Monocot Root Anatomy' and work with: xylem_bundles = 15. Carry the chain through step by step and give the final value of has_secondary_growth.",
-     "a": "-8 per cent",
+     "q": "For Dicot vs Monocot Root Anatomy: given is_monocot = 80, is_dicot = 68, find xylem count.",
+     "a": "764",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Dicot vs Monocot Root Anatomy' refers to.",
-     "a": "Root anatomy comparison focusing on the number of xylem bundles (polyarch in monocots) and the presence of secondary growth in dicots.",
-     "self_check": true
+     "q": "For Dicot vs Monocot Root Anatomy: given is_monocot = 29, is_dicot = 45, find xylem count.",
+     "a": "338",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Dicot vs Monocot Root Anatomy'.",
-     "a": "Monocot roots are polyarch with large pith, while dicot roots have fewer xylem bundles and undergo secondary growth.",
-     "self_check": true
+     "q": "For Dicot vs Monocot Root Anatomy: given is_monocot = 60, is_dicot = 51, find xylem count.",
+     "a": "573",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Dicot vs Monocot Root Anatomy', in plain ASCII form.",
-     "a": "xylem_count = (is_monocot * 7) + (is_dicot * 3)",
-     "self_check": true
+     "q": "For Dicot vs Monocot Root Anatomy: given is_monocot = 81, is_dicot = 32, find xylem count.",
+     "a": "663",
+     "self_check": false
+    },
+    {
+     "q": "For Dicot vs Monocot Root Anatomy: given is_monocot = 70, is_dicot = 47, find xylem count.",
+     "a": "631",
+     "self_check": false
     }
    ]
   }

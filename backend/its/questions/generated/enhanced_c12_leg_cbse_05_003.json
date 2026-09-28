@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_05_003",
+   "title": "c12_leg_cbse_05_003",
+   "questions": [
+    {
+     "q": "What is the legal effect of a transfer of immovable property made during the pendency of a suit concerning its title, under Section 52 of the Transfer of Property Act, 1882?",
+     "a": "The transfer is not void but binds the transferee to the final decree in the pending suit — the purchaser takes the property subject to the outcome of the litigation. A wrong answer (e.g., \"the transfer is void/illegal\") reveals the student confuses *lis pendens* with *void ab initio* transfers (like those by minors or for unlawful object). The doctrine does not invalidate the transfer; it only makes it **subject to the court's decision**.",
+     "self_check": true
+    },
+    {
+     "q": "In *Shantabai v. State of Bombay* (AIR 1958 SC 532), the Supreme Court held that standing trees can be immovable property. What was the **determinative test** used by the Court?",
+     "a": "The test is the **intention of the parties**: if the trees are intended to continue drawing nourishment from the soil (e.g., for fruit), they are immovable; if intended to be cut for timber, they are movable. A wrong answer (e.g., \"all trees are immovable\" or \"only land is immovable\") shows the student memorised the outcome but missed the **functional test** — the *purpose* of the tree's attachment to land decides its legal character.",
+     "self_check": true
+    },
+    {
+     "q": "A enters into a contract to sell his house to B. The sale deed is executed and registered. Later, A's creditor C obtains a court decree attaching the house for A's debt. B claims protection under the *Doctrine of Election*. Will B succeed? Why or why not?",
+     "a": "No. The Doctrine of Election (Section 35 TPA) applies when a **single instrument** confers a benefit and imposes a burden on the same person. Here, the sale deed and the attachment decree are **separate instruments**. B cannot \"elect\" to accept the sale but reject the attachment — they arise from different transactions. A wrong answer (\"yes, B can elect\") reveals confusion between *election* (one instrument, two inconsistent rights) and *priority of rights* (conflicting claims from different sources).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the *Doctrine of Election* (Section 35 TPA) and the *Doctrine of Lis Pendens* (Section 52 TPA) on the basis of: (a) triggering event, (b) effect on transfer, (c) underlying maxim.",
+     "a": "(a) Election: triggered when one instrument gives benefit + burden to same person. Lis Pendens: triggered when suit on immovable property title is pending. (b) Election: transferee must accept both or reject both — cannot split. Lis Pendens: transfer is valid but bound by court decree. (c) Election: *quod approbo non reprobo* (cannot approve and reprobate). Lis Pendens: *ut lite pendent nihil innovetur* (nothing new in pending litigation). A partial answer shows the student sees them as \"both about fairness\" but misses the **structural difference**: Election = internal consistency of one deed; Lis Pendens = external control by court over property in dispute.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The distinction between movable and immovable property under the Transfer of Property Act is rigid and based solely on physical mobility.\" Use *Shantabai*, *Fatimabibi*, and *Marshall v. Green* to support your answer.",
+     "a": "The statement is **false**. The distinction is **functional, not physical**. *Shantabai*: trees for fruit = immovable; trees for timber = movable. *Fatimabibi*: mango/jamun trees = immovable (fruit-bearing). *Marshall v. Green*: trees cut and removed = movable (sale of goods). The classification depends on **intention and economic use**, not mere movability. A student who agrees with the statement fails to grasp that property law looks at **legal character derived from purpose**, not physics.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical fact scenario (4-5 sentences) where *both* the Doctrine of Election and Doctrine of Lis Pendens could potentially apply. Identify the key facts that trigger each doctrine.",
+     "a": "Scenario: A owns House X and Garden Y. He executes a **single gift deed** transferring both to B, but the deed says \"B must pay A's debt of ₹5 lakh to C.\" Simultaneously, D has filed a suit claiming ownership of Garden Y. \n- **Election triggered**: Single instrument (gift deed) gives B benefit (House + Garden) + burden (pay ₹5 lakh). B must accept both or reject both (*quod approbo non reprobo*). \n- **Lis Pendens triggered**: Suit pending on Garden Y's title (D vs A). Any transfer of Garden Y during suit binds B to D's decree (*ut lite pendent nihil innovetur*). \nA poor answer would conflate the two or miss that **Election requires one instrument**, while **Lis Pendens requires a pending suit on title**.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

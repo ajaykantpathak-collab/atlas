@@ -34,6 +34,31 @@
      "q": "Create a novel 4-week experimental plan to optimize the auxin:cytokinin ratio for callus induction from *Catharanthus roseus* (periwinkle) leaf explants, using a response surface methodology (RSM) approach with two factors (2,4-D and kinetin). Specify: factor ranges, number of treatments, replication, response variables, and how you would analyze the data to find the optimum.",
      "a": "**Experimental Plan (Central Composite Design - CCD):**  \n- **Factors & ranges:** 2,4-D (0.5–5.0 mg/L), Kinetin (0.1–2.0 mg/L).  \n- **Design:** 5 levels per factor (-α, -1, 0, +1, +α) → 13 treatments (4 factorial points, 4 axial points, 5 center points for pure error).  \n- **Replication:** 10 explants per treatment, randomized complete block design (blocks = Petri dishes).  \n- **Response variables (measured at 4 weeks):** (1) Callus induction frequency (% explants forming callus), (2) Fresh weight of callus (g), (3) Friability index (1–5 visual scale).  \n- **Analysis:** Fit second-order polynomial model: Y = β₀ + ΣβᵢXᵢ + ΣβᵢᵢXᵢ² + ΣβᵢⱼXᵢXⱼ + ε. Use ANOVA to test significance (p<0.05). Generate 3D response surfaces and contour plots. Locate optimum via ridge analysis or desirability function (maximize frequency & weight, target friability=4). Validate with 3 confirmatory runs at predicted optimum.  \nA poor answer would use one-factor-at-a-time (OFAT) design, ignore interaction effects, or measure only binary \"callus yes/no\" without quantitative growth metrics.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Callus culture is the in vitro technique of inducing an unorganized, proliferating mass of ______ parenchyma cells (callus) from a sterilized plant explant on a nutrient medium supplemented with specific plant growth regulators (primarily auxins like 2,4-D, often combined with cytokinins), followed by its maintenance through periodic subculturing onto fresh medium to sustain growth and prevent senescence or differentiation.",
+     "a": "undifferentiated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a small piece of carrot root (explant) and you want to grow an ______ callus mass that can later be used to regenerate a whole plant or produce secondary metabolites.",
+     "a": "undifferentiated",
+     "self_check": true
+    },
+    {
+     "q": "What is Callus culture? State the definition given in this lesson.",
+     "a": "Callus culture is the in vitro technique of inducing an unorganized, proliferating mass of undifferentiated parenchyma cells (callus) from a sterilized plant explant on a nutrient medium supplemented with specific plant growth regulators (primarily auxins like 2,4-D, often combined with cytokinins), followed by its maintenance through.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Callus culture?",
+     "a": "Misconception: \"Callus is just a mass of undifferentiated cells, so any auxin will work and the exact type/concentration doesn't matter as long as it's 'high'.\" Why it's wrong: Students often think 2,4-D, NAA, IAA, and IBA are interchangeable for callus induction.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Design a complete callus induction protocol for a given explant type, specifying the basal medium (e.g., MS), exact PGR types and concentrations (auxin:cytokinin ratio), and incubation conditions; (2) Diagnose common failures (browning, no callus, contamination, precocious differentiation) and propose.",
+     "self_check": true
     }
    ]
   }

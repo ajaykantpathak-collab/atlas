@@ -34,6 +34,26 @@
      "q": "Create a piecewise function f(x) such that: (a) lim_{x→1} f(x) exists, (b) f(1) is defined but f(1) ≠ lim_{x→1} f(x), and (c) f(x) is not continuous at x=1. Write the function and verify all three conditions.",
      "a": "Example: f(x) = { x² if x ≠ 1; 5 if x = 1 }. (a) For x≠1, f(x)=x² → 1 as x→1, so limit = 1. (b) f(1)=5 ≠ 1. (c) Since limit ≠ function value, f is discontinuous at x=1. A poor answer (e.g., a function where limit doesn't exist) reveals the student cannot construct examples meeting multiple constraints, indicating weak conceptual synthesis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The limit of a function f(x) as x approaches a value 'a' is the value L that f(x) gets arbitrarily close to as x gets arbitrarily close to a (from both sides), without ______ equalling a.",
+     "a": "necessarily",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're tracking a car ______ a toll booth at exactly 60 km/h.",
+     "a": "approaching",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're tracking a car approaching a toll booth at exactly ______ km/h.",
+     "a": "60",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can evaluate limits of polynomial, rational, and simple piecewise functions by constructing tables of values, analysing left-hand and right-hand behaviour, and determining when a limit exists or does not exist.",
+     "self_check": true
     }
    ]
   }

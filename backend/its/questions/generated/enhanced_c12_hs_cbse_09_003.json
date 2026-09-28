@@ -34,6 +34,26 @@
      "q": "A CREATE level question: Design a one‑day snack plan (three snacks) that provides exactly the *additional* energy (600 kcal) and protein (19 g) required for a mother in the first 6 months of lactation, using only common Indian foods (e.g., roasted chana, banana, peanut chikki, besan laddoo). List each snack with its quantity, energy, and protein content, and show the totals.",
      "a": "**Example plan (values approximate from IFCT 2017):**  \n1. Roasted chana 50 g → 185 kcal, 10.5 g protein  \n2. Banana 1 medium (100 g) → 90 kcal, 1.2 g protein  \n3. Peanut chikki 30 g → 145 kcal, 4.5 g protein  \n**Total:** 420 kcal, 16.2 g protein → **still short by 180 kcal and 2.8 g protein**.  \nA good answer will adjust quantities or add a fourth item (e.g., 10 g ghee = 90 kcal, 0 g protein; 20 g paneer = 52 kcal, 3.6 g protein) to reach exactly 600 kcal and 19 g protein. A poor answer that only lists foods without calculations or that overshoots/undershoots significantly reveals the student cannot translate RDA increments into practical food combinations.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Nutritional requirements during lactation refer to the increased dietary allowances for energy, protein, and ______ (such as iron, calcium, vitamin A, vitamin C, and B‑complex vitamins) that a nursing mother needs to support milk synthesis, maintain her own nutrient stores, and recover from pregnancy, as specified by the ICMR‑NIN 2020 Recommended Dietary Allowances (RDA) for Indian women.",
+     "a": "micronutrients",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a new mother, Priya, who has just delivered a baby and is exclusively ______.",
+     "a": "breastfeeding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Nutritional requirements during lactation refer to the increased dietary allowances for energy, protein, and micronutrients (such as iron, calcium, vitamin A, vitamin C, and B‑complex vitamins) that a nursing mother needs to support milk synthesis, maintain her own nutrient stores, and recover from pregnancy, as specified by the ICMR‑NIN ______ Recommended Dietary Allowances (RDA) for Indian women.",
+     "a": "2020",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) state the ICMR RDA increments for energy, protein, and key micronutrients for a lactating woman (0–6 months and 6–12 months postpartum) relative to a sedentary adult woman, and (2) explain the physiological rationale for each increment (e.g., milk volume, nutrient composition, maternal tissue repair).",
+     "self_check": true
     }
    ]
   }

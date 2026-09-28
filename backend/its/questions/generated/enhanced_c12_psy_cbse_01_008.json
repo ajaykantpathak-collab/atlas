@@ -34,6 +34,31 @@
      "q": "Design a short scenario (2-3 sentences) where a teacher uses the ratio IQ formula incorrectly for a 16-year-old student, and explain why deviation IQ would be more appropriate.",
      "a": "Scenario: \"A 16-year-old scores MA=18 on an intelligence test. The teacher computes IQ = (18/16)×100 = 112.5 and says the student is 'High Average'.\" This is incorrect because ratio IQ assumes MA increases linearly with age, but mental age plateaus in adolescence; an MA of 18 for a 16-year-old may actually be average. Deviation IQ compares the student to same-age peers using the normal distribution, avoiding the artificial inflation/deflation from the ratio formula. A good answer identifies the plateau issue and the peer-comparison solution.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Intelligence Quotient (IQ) is a standardized score derived from the ratio of Mental Age (MA) to Chronological Age (CA) multiplied by 100, where Mental Age represents the age-level at which an individual performs ______, and Chronological Age is the biological age from birth; the distribution of IQ scores in a population approximates a normal (bell-shaped) curve with a mean of 100 and a standard deviation of 15, allowing classification into descriptive categories (e.g., average 90–109, intellectual disability below 70, gifted above 130).",
+     "a": "intellectually",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 12-year-old student, Arjun, who solves ______ typical of a 15-year-old.",
+     "a": "problems",
+     "self_check": true
+    },
+    {
+     "q": "What is Intelligence Quotient (IQ)? State the definition given in this lesson.",
+     "a": "Intelligence Quotient (IQ) is a standardized score derived from the ratio of Mental Age (MA) to Chronological Age (CA) multiplied by 100, where Mental Age represents the age-level at which an individual performs intellectually, and Chronological Age is the biological age from birth; the distribution of IQ scores in a population.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Intelligence Quotient (IQ)?",
+     "a": "Students often believe that Mental Age is a fixed biological trait like height, and that the ratio IQ formula (MA/CA×100) is the standard way IQ is calculated today.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) compute IQ from given MA and CA, (2) compute MA from given IQ and CA, (3) interpret an IQ score using the normal distribution percentages and classification table, and (4) explain why the ratio IQ formula is limited for adults and how deviation IQ addresses this.",
+     "self_check": true
     }
    ]
   }

@@ -1,439 +1,485 @@
 {
-  "class": 11,
-  "subject": "applied_maths",
-  "chapter": 7,
-  "chapter_title": "Mathematical and Logical Reasoning",
-  "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am11_007_math_logical_reasoning.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "concepts": [
+ "class": 11,
+ "subject": "applied_maths",
+ "chapter": 7,
+ "chapter_title": "Mathematical and Logical Reasoning",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am11_007_math_logical_reasoning.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "am11_007.1",
+   "title": "Mathematically Acceptable Statements",
+   "section": "7.2",
+   "definition": "A mathematical statement is a declarative sentence that lands firmly on exactly one truth side: it is certainly true or certainly false, never both and never undecided. Questions, orders, exclamations and sentences with an undetermined variable do not qualify.",
+   "formula": "verdict = is_true + is_false",
+   "key_idea": "Acceptable statement means the counter is exactly 1: precisely one of the two truth labels applies.",
+   "textbook_ref": "am11_007_math_logical_reasoning.txt, section 7.2, examples 'two plus two equals four', 'x plus 1 equals 5', 'February has 30 days'",
+   "question_patterns": [
+    "is the sentence 'February has 30 days' a mathematically acceptable statement and what is its truth value",
+    "explain why 'x plus 1 equals 5' is not a statement until a value of x is fixed",
+    "decide whether 'two plus two equals four' is a true statement",
+    "classify these sentences into statements and non statements: a question, a command and an exclamation",
+    "is the sentence 'every even number bigger than 2 is a multiple of 4' a statement, and is it true or false",
+    "why can a declarative sentence with both truth values at once never be a mathematical statement"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "am11_007.1",
-      "title": "Mathematically Acceptable Statements",
-      "section": "7.2",
-      "definition": "A mathematical statement is a declarative sentence that lands firmly on exactly one truth side: it is certainly true or certainly false, never both and never undecided. Questions, orders, exclamations and sentences with an undetermined variable do not qualify.",
-      "formula": "verdict = is_true + is_false",
-      "key_idea": "Acceptable statement means the counter is exactly 1: precisely one of the two truth labels applies.",
-      "textbook_ref": "am11_007_math_logical_reasoning.txt, section 7.2, examples 'two plus two equals four', 'x plus 1 equals 5', 'February has 30 days'",
-      "question_patterns": [
-        "is the sentence 'February has 30 days' a mathematically acceptable statement and what is its truth value",
-        "explain why 'x plus 1 equals 5' is not a statement until a value of x is fixed",
-        "decide whether 'two plus two equals four' is a true statement",
-        "classify these sentences into statements and non statements: a question, a command and an exclamation",
-        "is the sentence 'every even number bigger than 2 is a multiple of 4' a statement, and is it true or false",
-        "why can a declarative sentence with both truth values at once never be a mathematical statement"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "check the sentence declares something rather than asking, ordering or exclaiming",
-          "explain": "only declarative sentences can carry a truth value"
-        },
-        {
-          "step": 2,
-          "action": "test whether the truth is fixed with no free variable left",
-          "explain": "an open sentence such as x plus 1 equals 5 stays undecided until x is chosen"
-        },
-        {
-          "step": 3,
-          "action": "confirm exactly one of true or false holds, then report that side",
-          "explain": "a sentence that is both, neither, or sometimes-true fails to be a statement"
-        }
-      ]
+     "step": 1,
+     "action": "check the sentence declares something rather than asking, ordering or exclaiming",
+     "explain": "only declarative sentences can carry a truth value"
     },
     {
-      "id": "am11_007.2",
-      "title": "Truth Value of the And Connective",
-      "section": "7.3",
-      "definition": "The compound 'p and q' behaves like a series circuit: it comes out true only in the single case where both component statements are true, and false whenever either component fails.",
-      "formula": "p_and_q = p * q",
-      "key_idea": "Encode true as 1 and false as 0; multiplying the two values leaves 1 only when both are 1.",
-      "textbook_ref": "am11_007_math_logical_reasoning.txt, section 7.3, the use of AND: true exactly when both parts are true",
-      "question_patterns": [
-        "p is true and q is true; find the truth value of the compound statement p and q",
-        "evaluate 'p and q' when p is true but q is false",
-        "build the truth table column for the connective and on a spreadsheet with 1 and 0 entries",
-        "p equals 1 and q equals 1; evaluate the compound p and q",
-        "if p is false, what must you conclude about 'p and q' without looking at q",
-        "multiply the truth values 1 and 0 to decide whether '7 is prime and 7 is even' holds"
-      ],      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "encode each part as 1 for true and 0 for false",
-          "explain": "truth arithmetic treats the connective as multiplication",
-          "compute": "p_and_q = p * q"
-        }
-      ]
+     "step": 2,
+     "action": "test whether the truth is fixed with no free variable left",
+     "explain": "an open sentence such as x plus 1 equals 5 stays undecided until x is chosen"
     },
     {
-      "id": "am11_007.3",
-      "title": "Truth Value of the Inclusive Or",
-      "section": "7.3",
-      "definition": "The compound 'p or q' is satisfied when at least one part holds, including the case where both hold at once. In truth arithmetic the double-counted both-true corner is subtracted back out.",
-      "formula": "p_or_q = p + q - p * q",
-      "key_idea": "Add the two truth values, then remove the overlap so the both-true case does not exceed 1.",
-      "textbook_ref": "am11_007_math_logical_reasoning.txt, section 7.3, the use of OR: true when at least one part is true (inclusive or)",
-      "question_patterns": [
-        "p is false and q is true; find the truth value of p or q",
-        "evaluate the inclusive or when both parts are true and confirm the compound stays true",
-        "construct the or column of a truth table using 1 and 0 arithmetic",
-        "a card is red or face card; decide whether the king of hearts satisfies the compound",
-        "a student passes if she clears maths or science; she cleared maths and failed science, so does the compound hold",
-        "compute p or q for p equals 0 and q equals 0 and name the result"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "measure the both-true overlap",
-          "explain": "the product is 1 only when p and q are simultaneously true",
-          "compute": "overlap = p * q"
-        },
-        {
-          "step": 2,
-          "action": "add the parts and drop the double count",
-          "explain": "this is the inclusion-exclusion form of the inclusive or",
-          "compute": "p_or_q = p + q - overlap"
-        }
-      ]
-    },
-    {
-      "id": "am11_007.4",
-      "title": "Negation with the Not Connective",
-      "section": "7.3",
-      "definition": "Negation flips a truth value to the opposite one: the negation of a true statement is false and of a false statement is true. In the 1 and 0 encoding the flip is one minus the value.",
-      "formula": "not_p = 1 - p",
-      "key_idea": "Not is the mirror: subtract the truth value from 1.",
-      "textbook_ref": "am11_007_math_logical_reasoning.txt, section 7.3, the use of NOT: reverses the truth value of p",
-      "question_patterns": [
-        "write the negation of the statement '7 is a prime number' and give its truth value",
-        "p is true; evaluate not p in the 1 and 0 encoding",
-        "p equals 0; evaluate not p and state whether the result is true",
-        "apply not twice to p and confirm the original value returns",
-        "form the spreadsheet column for not p opposite the column for p",
-        "what is the negation of a false statement such as 'February has 30 days'"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "flip the truth value",
-          "explain": "one minus the value swaps 1 with 0",
-          "compute": "not_p = 1 - p"
-        }
-      ]
-    },
-    {
-      "id": "am11_007.5",
-      "title": "If-Then Implication Truth Value",
-      "section": "7.3",
-      "definition": "The implication 'if p then q' fails in one case only: a true antecedent followed by a false consequent. Whenever p is already false the promise is broken by nothing and the implication counts as vacuously true.",
-      "formula": "imp = 1 - p * (1 - q)",
-      "key_idea": "Only true-then-false scores 0; every other row, including false antecedents, scores 1.",
-      "textbook_ref": "am11_007_math_logical_reasoning.txt, section 7.3, if p then q: false antecedent makes the implication vacuously true",
-      "question_patterns": [
-        "p is false and q is false; find the truth value of the implication if p then q",
-        "evaluate 'if p then q' when p is true and q is false",
-        "explain why a false antecedent makes an if then statement vacuously true",
-        "complete the implication column of the truth table with 1 and 0 arithmetic",
-        "the statement 'if it rains the match is cancelled' has rain false and the match played; is the statement violated",
-        "compute the value of 1 - p * (1 - q) for p equals 1 and q equals 1"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "record whether the antecedent fails",
-          "explain": "the negation of p is 1 exactly when p is false",
-          "compute": "ant = 1 - p"
-        },
-        {
-          "step": 2,
-          "action": "read the implication as (not p) or q",
-          "explain": "inclusion-exclusion gives 1 unless p is true while q is false",
-          "compute": "imp = ant + q - ant * q"
-        }
-      ]
-    },
-    {
-      "id": "am11_007.6",
-      "title": "If and Only If as Matching Truth Values",
-      "section": "7.3",
-      "definition": "The biconditional 'p if and only if q' insists the two parts carry the same truth value on both sides, which makes q both the necessary and the sufficient condition for p. It scores 1 on the two agreeing rows and 0 on the two disagreeing rows.",
-      "formula": "same = 1 - abs(p - q)",
-      "key_idea": "Agreement is 1 minus the gap; equal values give 1, different values give 0.",
-      "textbook_ref": "am11_007_math_logical_reasoning.txt, section 7.3, p if and only if q: both parts carry the same truth value",
-      "question_patterns": [
-        "p is true and q is true; evaluate the biconditional p if and only if q",
-        "find the truth value of 'p if and only if q' when exactly one of p and q is true",
-        "build the if and only if column of the truth table using 1 and 0 arithmetic",
-        "explain in terms of necessary and sufficient conditions what q must do for p",
-        "p and q are both false; find the value of the biconditional p if and only if q",
-        "which rows of the truth table make an if and only if statement false"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "measure the disagreement gap",
-          "explain": "the absolute difference is 1 exactly when the two sides disagree",
-          "compute": "gap = abs(p - q)"
-        },
-        {
-          "step": 2,
-          "action": "convert agreement into a truth value",
-          "explain": "one minus the gap is 1 when the values match and 0 when they clash",
-          "compute": "same = 1 - gap"
-        }
-      ]
-    },
-    {
-      "id": "am11_007.7",
-      "title": "Converse, Inverse and Contrapositive",
-      "section": "7.4",
-      "definition": "From 'if p then q' three cousins are built by shuffling and negating: the converse swaps the parts, the inverse negates both, and the contrapositive both swaps and negates. The contrapositive always agrees with the original implication in every row; the converse and inverse are free to disagree.",
-      "formula": "contra = 1 - (1 - q) * p",
-      "key_idea": "Swap plus negate gives the contrapositive, the only cousin guaranteed to share the original truth table.",
-      "textbook_ref": "am11_007_math_logical_reasoning.txt, section 7.4, converse if q then p, inverse if not p then not q, contrapositive if not q then not p",
-      "question_patterns": [
-        "write the converse of the statement 'if a number is even then it is divisible by 2'",
-        "form the contrapositive of 'if it rains then the road is wet'",
-        "write the inverse of 'if a figure is a square then it has four sides'",
-        "which derived statement of an implication is logically equivalent to it in every truth table row",
-        "give an example where the converse of a true implication comes out false",
-        "check on the truth table that the contrapositive of if p then q equals 1 - (1 - q) * p"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "swap the two parts to build the converse",
-          "explain": "converse reads if q then p and needs its own proof of truth"
-        },
-        {
-          "step": 2,
-          "action": "negate both parts without swapping for the inverse",
-          "explain": "inverse reads if not p then not q"
-        },
-        {
-          "step": 3,
-          "action": "swap and negate together for the contrapositive",
-          "explain": "if not q then not p must match the original implication row by row"
-        }
-      ]
-    },
-    {
-      "id": "am11_007.8",
-      "title": "Quantifiers: For All and There Exists",
-      "section": "7.3",
-      "definition": "A quantifier says how much of the domain a predicate covers: the universal quantifier claims every element satisfies it, the existential claims at least one does. Negating swaps the two kinds and negates the predicate itself.",
-      "formula": "claim = all_true * 1 + exists_one * 0",
-      "key_idea": "Not pushes 'for all' to 'there exists not' and 'there exists' to 'for all not'.",
-      "textbook_ref": "am11_007_math_logical_reasoning.txt, section 7.3, universal quantifier for all and existential quantifier there exists, negating one yields the other",
-      "question_patterns": [
-        "write the negation of the statement 'for all natural numbers n, n plus 3 is odd'",
-        "write the negation of 'there exists a prime number that is even'",
-        "does one counterexample refute a for all claim",
-        "does one example prove a there exists claim",
-        "rewrite 'not (there exists x with p of x)' as a universal statement",
-        "decide the truth of 'for all birds b, b can fly' and give its negation"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "spot which quantifier the sentence carries",
-          "explain": "for all and there exists demand different standards of proof"
-        },
-        {
-          "step": 2,
-          "action": "negate by swapping the quantifier and negating the predicate",
-          "explain": "the negation of every is some counterexample; the negation of some is a universal failure"
-        },
-        {
-          "step": 3,
-          "action": "test the claim against the domain: a universal dies by one exception, an existential lives by one instance",
-          "explain": "this decides truth and produces the correct negated wording"
-        }
-      ]
-    },
-    {
-      "id": "am11_007.9",
-      "title": "Syllogism Validity",
-      "section": "7.5",
-      "definition": "A syllogism is a three-line deductive argument: a major premise, a minor premise, and a conclusion that must follow of necessity. The conclusion is accepted only when every situation satisfying both premises also satisfies it.",
-      "formula": "valid = premises_hold_and_conclusion_holds",
-      "key_idea": "Check every case the premises allow; one allowed case breaking the conclusion kills the argument.",
-      "textbook_ref": "am11_007_math_logical_reasoning.txt, section 7.5, syllogism: major premise, minor premise, conclusion following necessarily",
-      "question_patterns": [
-        "all teachers are graduates and Meera is a teacher; what conclusion follows",
-        "test whether the conclusion 'Socrates is mortal' follows from 'all men are mortal' and 'Socrates is a man'",
-        "a syllogism has both premises true but the conclusion false; can the argument be valid",
-        "find the missing conclusion of the syllogism: all squares are rectangles, all rectangles are parallelograms",
-        "decide whether 'some books are novels' and 'some novels are famous' force 'some books are famous'",
-        "why does validity concern the structure of the premises rather than the actual truth of the conclusion"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "separate the major premise, the minor premise and the proposed conclusion",
-          "explain": "the argument stands or falls as one linked chain"
-        },
-        {
-          "step": 2,
-          "action": "imagine every case where both premises hold",
-          "explain": "validity looks only inside the world the premises create"
-        },
-        {
-          "step": 3,
-          "action": "accept the conclusion only if no such case breaks it",
-          "explain": "a single permitted counterexample marks the syllogism invalid"
-        }
-      ]
-    },
-    {
-      "id": "am11_007.10",
-      "title": "Classification: Odd One Out",
-      "section": "7.5",
-      "definition": "Classification puzzles list items where all but one share a property; the task is to name the outsider together with the property the rest obey. The rule must be stated, not just the item picked.",
-      "formula": "outsider = item_without_shared_property",
-      "key_idea": "Find what the group has in common; the item missing it is the answer.",
-      "textbook_ref": "am11_007_math_logical_reasoning.txt, section 7.5, classification: pick the item that does not belong to a group by property",
-      "question_patterns": [
-        "which number does not belong: 2, 3, 5, 7, 9, and state the property of the rest",
-        "pick the odd one out among 4, 9, 16, 24, 25 giving the shared property",
-        "in the list 3, 6, 9, 12, 14 which item breaks the pattern",
-        "find the word that does not fit: apple, mango, potato, banana, and justify",
-        "which is the odd one out among 8, 27, 64, 100, 125, and state the property of the rest",
-        "two different properties split the same list differently; state both odd-one-out answers for 1, 4, 9, 16, 20"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "hunt for one property almost every item satisfies",
-          "explain": "primality, parity, squares, multiples and word categories are common candidates"
-        },
-        {
-          "step": 2,
-          "action": "name the single item missing that property",
-          "explain": "the outsider is defined by the property, not by position"
-        },
-        {
-          "step": 3,
-          "action": "state the rule and the outsider together",
-          "explain": "an answer without the shared property is incomplete"
-        }
-      ]
-    },
-    {
-      "id": "am11_007.11",
-      "title": "Coding-Decoding by Letter Shift",
-      "section": "7.5",
-      "definition": "In a shift code each letter is moved a fixed number of steps along the alphabet. Comparing one known plain word with its coded form reveals the shift, and the same shift then encodes or decodes any other word, wrapping around at the ends of the alphabet.",
-      "formula": "new_pos = (target_pos + shift - 1) % 26 + 1",
-      "key_idea": "One known pair fixes the shift; wrap positions with mod 26 so Z joins hands with A.",
-      "textbook_ref": "am11_007_math_logical_reasoning.txt, section 7.5, coding-decoding: a word is encoded by a letter-shift or positional rule",
-      "question_patterns": [
-        "in a certain code CAT is written as FDW; how is DOG written in that code",
-        "if ROSE is coded as TUGC find the shift used and decode the word",
-        "the word SUN is shifted by 3 positions; write the coded word",
-        "decode the word NJJH knowing the code shifts each letter back 5 positions",
-        "if ROSE is coded as TUGC, what does the same rule turn VIOLET into",
-        "find the code for MATH if each letter moves forward 4 places with wrap around"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "measure the shift from one known pair",
-          "explain": "code position minus plain position on the same letter",
-          "compute": "shift = code_pos - plain_pos"
-        },
-        {
-          "step": 2,
-          "action": "slide the target letter and wrap inside the alphabet",
-          "explain": "positions run 1 to 26, so subtract 1, take mod 26, add 1 back",
-          "compute": "new_pos = (target_pos + shift - 1) % 26 + 1"
-        }
-      ]
+     "step": 3,
+     "action": "confirm exactly one of true or false holds, then report that side",
+     "explain": "a sentence that is both, neither, or sometimes-true fails to be a statement"
     }
-  ],
-  "worked_examples": [
+   ],
+   "compute_steps": [
     {
-      "id": "am11_007.we1",
-      "source_ref": "am11_007 section 7.3 vacuous truth: a false antecedent makes the implication true",
-      "concept": "am11_007.5",
-      "question_type": "compute",
-      "question_pattern": "p is false and q is false; find the truth value of the implication if p then q",
-      "extracted_variables": {
-        "p": 0,
-        "q": 0
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "record the failing antecedent",
-          "compute": "ant = 1 - p"
-        },
-        {
-          "step": 2,
-          "action": "evaluate (not p) or q",
-          "compute": "imp = ant + q - ant * q"
-        }
-      ]
+     "step": 1,
+     "action": "apply the counting rule (product, factorial, 2^n)",
+     "explain": "apply the counting rule (product, factorial, 2^n): total = 5 * 4 gives 20",
+     "compute": "total = 5 * 4"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "am11_007.2",
+   "title": "Truth Value of the And Connective",
+   "section": "7.3",
+   "definition": "The compound 'p and q' behaves like a series circuit: it comes out true only in the single case where both component statements are true, and false whenever either component fails.",
+   "formula": "p_and_q = p * q",
+   "key_idea": "Encode true as 1 and false as 0; multiplying the two values leaves 1 only when both are 1.",
+   "textbook_ref": "am11_007_math_logical_reasoning.txt, section 7.3, the use of AND: true exactly when both parts are true",
+   "question_patterns": [
+    "p is true and q is true; find the truth value of the compound statement p and q",
+    "evaluate 'p and q' when p is true but q is false",
+    "build the truth table column for the connective and on a spreadsheet with 1 and 0 entries",
+    "p equals 1 and q equals 1; evaluate the compound p and q",
+    "if p is false, what must you conclude about 'p and q' without looking at q",
+    "multiply the truth values 1 and 0 to decide whether '7 is prime and 7 is even' holds"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "encode each part as 1 for true and 0 for false",
+     "explain": "truth arithmetic treats the connective as multiplication",
+     "compute": "p_and_q = p * q"
+    }
+   ]
+  },
+  {
+   "id": "am11_007.3",
+   "title": "Truth Value of the Inclusive Or",
+   "section": "7.3",
+   "definition": "The compound 'p or q' is satisfied when at least one part holds, including the case where both hold at once. In truth arithmetic the double-counted both-true corner is subtracted back out.",
+   "formula": "p_or_q = p + q - p * q",
+   "key_idea": "Add the two truth values, then remove the overlap so the both-true case does not exceed 1.",
+   "textbook_ref": "am11_007_math_logical_reasoning.txt, section 7.3, the use of OR: true when at least one part is true (inclusive or)",
+   "question_patterns": [
+    "p is false and q is true; find the truth value of p or q",
+    "evaluate the inclusive or when both parts are true and confirm the compound stays true",
+    "construct the or column of a truth table using 1 and 0 arithmetic",
+    "a card is red or face card; decide whether the king of hearts satisfies the compound",
+    "a student passes if she clears maths or science; she cleared maths and failed science, so does the compound hold",
+    "compute p or q for p equals 0 and q equals 0 and name the result"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "measure the both-true overlap",
+     "explain": "the product is 1 only when p and q are simultaneously true",
+     "compute": "overlap = p * q"
     },
     {
-      "id": "am11_007.we2",
-      "source_ref": "am11_007 section 7.5 letter-shift code: CAT coded as FDW, encode DOG",
-      "concept": "am11_007.11",
-      "question_type": "compute",
-      "question_pattern": "in a certain code CAT is written as FDW; how is DOG written in that code",
-      "extracted_variables": {
-        "code_pos": 6,
-        "plain_pos": 3,
-        "target_pos": 4
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "shift from the known pair C to F",
-          "compute": "shift = code_pos - plain_pos"
-        },
-        {
-          "step": 2,
-          "action": "apply the shift to D and wrap",
-          "compute": "new_pos = (target_pos + shift - 1) % 26 + 1"
-        }
-      ]
+     "step": 2,
+     "action": "add the parts and drop the double count",
+     "explain": "this is the inclusion-exclusion form of the inclusive or",
+     "compute": "p_or_q = p + q - overlap"
     }
-  ],
-  "exercises": [
+   ]
+  },
+  {
+   "id": "am11_007.4",
+   "title": "Negation with the Not Connective",
+   "section": "7.3",
+   "definition": "Negation flips a truth value to the opposite one: the negation of a true statement is false and of a false statement is true. In the 1 and 0 encoding the flip is one minus the value.",
+   "formula": "not_p = 1 - p",
+   "key_idea": "Not is the mirror: subtract the truth value from 1.",
+   "textbook_ref": "am11_007_math_logical_reasoning.txt, section 7.3, the use of NOT: reverses the truth value of p",
+   "question_patterns": [
+    "write the negation of the statement '7 is a prime number' and give its truth value",
+    "p is true; evaluate not p in the 1 and 0 encoding",
+    "p equals 0; evaluate not p and state whether the result is true",
+    "apply not twice to p and confirm the original value returns",
+    "form the spreadsheet column for not p opposite the column for p",
+    "what is the negation of a false statement such as 'February has 30 days'"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "am11_007.ex1",
-      "source_ref": "am11_007 check your progress selected exercises",
-      "questions": [
-        "Decide which of these are statements: 'the number 5 is prime', 'please close the door', 'x squared plus 1 equals 0'.",
-        "Write the negation of 'all rectangles are squares' as a there exists statement.",
-        "Write the converse, inverse and contrapositive of 'if a number is a multiple of 9 then it is a multiple of 3'.",
-        "Complete the truth table columns for p and q, p or q, not p, if p then q, and p if and only if q with 1 and 0 entries.",
-        "A syllogism argues: all metals conduct electricity; wood is a metal; therefore wood conducts electricity. Which premise fails, and is the argument valid?",
-        "In a code each letter moves 2 places forward with wrap around; encode XY and decode the result back."
-      ]
+     "step": 1,
+     "action": "flip the truth value",
+     "explain": "one minus the value swaps 1 with 0",
+     "compute": "not_p = 1 - p"
+    }
+   ]
+  },
+  {
+   "id": "am11_007.5",
+   "title": "If-Then Implication Truth Value",
+   "section": "7.3",
+   "definition": "The implication 'if p then q' fails in one case only: a true antecedent followed by a false consequent. Whenever p is already false the promise is broken by nothing and the implication counts as vacuously true.",
+   "formula": "imp = 1 - p * (1 - q)",
+   "key_idea": "Only true-then-false scores 0; every other row, including false antecedents, scores 1.",
+   "textbook_ref": "am11_007_math_logical_reasoning.txt, section 7.3, if p then q: false antecedent makes the implication vacuously true",
+   "question_patterns": [
+    "p is false and q is false; find the truth value of the implication if p then q",
+    "evaluate 'if p then q' when p is true and q is false",
+    "explain why a false antecedent makes an if then statement vacuously true",
+    "complete the implication column of the truth table with 1 and 0 arithmetic",
+    "the statement 'if it rains the match is cancelled' has rain false and the match played; is the statement violated",
+    "compute the value of 1 - p * (1 - q) for p equals 1 and q equals 1"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "record whether the antecedent fails",
+     "explain": "the negation of p is 1 exactly when p is false",
+     "compute": "ant = 1 - p"
     },
     {
-      "id": "am11_007.ex2",
-      "source_ref": "am11_007 section 7.5 applications: coding-decoding, classification, relationships",
-      "questions": [
-        "If MANGO is coded by shifting each letter 5 places forward, write the code word and then decode it to check.",
-        "Find the odd one out with reasons: 121, 144, 169, 180, 196.",
-        "Two premises are 'all engineers are graduates' and 'no graduate is illiterate'; what conclusion about engineers and illiteracy follows?",
-        "Give one example each where the converse of a true implication is true and where it is false.",
-        "Negate: 'there exists a number whose square is negative', then decide the truth of both sentences.",
-        "Evaluate the biconditional p if and only if q for the four truth rows and say which rows give 0."
-      ]
+     "step": 2,
+     "action": "read the implication as (not p) or q",
+     "explain": "inclusion-exclusion gives 1 unless p is true while q is false",
+     "compute": "imp = ant + q - ant * q"
     }
-  ]
+   ]
+  },
+  {
+   "id": "am11_007.6",
+   "title": "If and Only If as Matching Truth Values",
+   "section": "7.3",
+   "definition": "The biconditional 'p if and only if q' insists the two parts carry the same truth value on both sides, which makes q both the necessary and the sufficient condition for p. It scores 1 on the two agreeing rows and 0 on the two disagreeing rows.",
+   "formula": "same = 1 - abs(p - q)",
+   "key_idea": "Agreement is 1 minus the gap; equal values give 1, different values give 0.",
+   "textbook_ref": "am11_007_math_logical_reasoning.txt, section 7.3, p if and only if q: both parts carry the same truth value",
+   "question_patterns": [
+    "p is true and q is true; evaluate the biconditional p if and only if q",
+    "find the truth value of 'p if and only if q' when exactly one of p and q is true",
+    "build the if and only if column of the truth table using 1 and 0 arithmetic",
+    "explain in terms of necessary and sufficient conditions what q must do for p",
+    "p and q are both false; find the value of the biconditional p if and only if q",
+    "which rows of the truth table make an if and only if statement false"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "measure the disagreement gap",
+     "explain": "the absolute difference is 1 exactly when the two sides disagree",
+     "compute": "gap = abs(p - q)"
+    },
+    {
+     "step": 2,
+     "action": "convert agreement into a truth value",
+     "explain": "one minus the gap is 1 when the values match and 0 when they clash",
+     "compute": "same = 1 - gap"
+    }
+   ]
+  },
+  {
+   "id": "am11_007.7",
+   "title": "Converse, Inverse and Contrapositive",
+   "section": "7.4",
+   "definition": "From 'if p then q' three cousins are built by shuffling and negating: the converse swaps the parts, the inverse negates both, and the contrapositive both swaps and negates. The contrapositive always agrees with the original implication in every row; the converse and inverse are free to disagree.",
+   "formula": "contra = 1 - (1 - q) * p",
+   "key_idea": "Swap plus negate gives the contrapositive, the only cousin guaranteed to share the original truth table.",
+   "textbook_ref": "am11_007_math_logical_reasoning.txt, section 7.4, converse if q then p, inverse if not p then not q, contrapositive if not q then not p",
+   "question_patterns": [
+    "write the converse of the statement 'if a number is even then it is divisible by 2'",
+    "form the contrapositive of 'if it rains then the road is wet'",
+    "write the inverse of 'if a figure is a square then it has four sides'",
+    "which derived statement of an implication is logically equivalent to it in every truth table row",
+    "give an example where the converse of a true implication comes out false",
+    "check on the truth table that the contrapositive of if p then q equals 1 - (1 - q) * p"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "swap the two parts to build the converse",
+     "explain": "converse reads if q then p and needs its own proof of truth"
+    },
+    {
+     "step": 2,
+     "action": "negate both parts without swapping for the inverse",
+     "explain": "inverse reads if not p then not q"
+    },
+    {
+     "step": 3,
+     "action": "swap and negate together for the contrapositive",
+     "explain": "if not q then not p must match the original implication row by row"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 36 / 6 gives 6",
+     "compute": "t1 = 36 / 6"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "am11_007.8",
+   "title": "Quantifiers: For All and There Exists",
+   "section": "7.3",
+   "definition": "A quantifier says how much of the domain a predicate covers: the universal quantifier claims every element satisfies it, the existential claims at least one does. Negating swaps the two kinds and negates the predicate itself.",
+   "formula": "claim = all_true * 1 + exists_one * 0",
+   "key_idea": "Not pushes 'for all' to 'there exists not' and 'there exists' to 'for all not'.",
+   "textbook_ref": "am11_007_math_logical_reasoning.txt, section 7.3, universal quantifier for all and existential quantifier there exists, negating one yields the other",
+   "question_patterns": [
+    "write the negation of the statement 'for all natural numbers n, n plus 3 is odd'",
+    "write the negation of 'there exists a prime number that is even'",
+    "does one counterexample refute a for all claim",
+    "does one example prove a there exists claim",
+    "rewrite 'not (there exists x with p of x)' as a universal statement",
+    "decide the truth of 'for all birds b, b can fly' and give its negation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "spot which quantifier the sentence carries",
+     "explain": "for all and there exists demand different standards of proof"
+    },
+    {
+     "step": 2,
+     "action": "negate by swapping the quantifier and negating the predicate",
+     "explain": "the negation of every is some counterexample; the negation of some is a universal failure"
+    },
+    {
+     "step": 3,
+     "action": "test the claim against the domain: a universal dies by one exception, an existential lives by one instance",
+     "explain": "this decides truth and produces the correct negated wording"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the counting rule (product, factorial, 2^n)",
+     "explain": "apply the counting rule (product, factorial, 2^n): total = 6 * 3 gives 18",
+     "compute": "total = 6 * 3"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "am11_007.9",
+   "title": "Syllogism Validity",
+   "section": "7.5",
+   "definition": "A syllogism is a three-line deductive argument: a major premise, a minor premise, and a conclusion that must follow of necessity. The conclusion is accepted only when every situation satisfying both premises also satisfies it.",
+   "formula": "valid = premises_hold_and_conclusion_holds",
+   "key_idea": "Check every case the premises allow; one allowed case breaking the conclusion kills the argument.",
+   "textbook_ref": "am11_007_math_logical_reasoning.txt, section 7.5, syllogism: major premise, minor premise, conclusion following necessarily",
+   "question_patterns": [
+    "all teachers are graduates and Meera is a teacher; what conclusion follows",
+    "test whether the conclusion 'Socrates is mortal' follows from 'all men are mortal' and 'Socrates is a man'",
+    "a syllogism has both premises true but the conclusion false; can the argument be valid",
+    "find the missing conclusion of the syllogism: all squares are rectangles, all rectangles are parallelograms",
+    "decide whether 'some books are novels' and 'some novels are famous' force 'some books are famous'",
+    "why does validity concern the structure of the premises rather than the actual truth of the conclusion"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "separate the major premise, the minor premise and the proposed conclusion",
+     "explain": "the argument stands or falls as one linked chain"
+    },
+    {
+     "step": 2,
+     "action": "imagine every case where both premises hold",
+     "explain": "validity looks only inside the world the premises create"
+    },
+    {
+     "step": 3,
+     "action": "accept the conclusion only if no such case breaks it",
+     "explain": "a single permitted counterexample marks the syllogism invalid"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the counting rule (product, factorial, 2^n)",
+     "explain": "apply the counting rule (product, factorial, 2^n): total = 9 * 8 gives 72",
+     "compute": "total = 9 * 8"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "am11_007.10",
+   "title": "Classification: Odd One Out",
+   "section": "7.5",
+   "definition": "Classification puzzles list items where all but one share a property; the task is to name the outsider together with the property the rest obey. The rule must be stated, not just the item picked.",
+   "formula": "outsider = item_without_shared_property",
+   "key_idea": "Find what the group has in common; the item missing it is the answer.",
+   "textbook_ref": "am11_007_math_logical_reasoning.txt, section 7.5, classification: pick the item that does not belong to a group by property",
+   "question_patterns": [
+    "which number does not belong: 2, 3, 5, 7, 9, and state the property of the rest",
+    "pick the odd one out among 4, 9, 16, 24, 25 giving the shared property",
+    "in the list 3, 6, 9, 12, 14 which item breaks the pattern",
+    "find the word that does not fit: apple, mango, potato, banana, and justify",
+    "which is the odd one out among 8, 27, 64, 100, 125, and state the property of the rest",
+    "two different properties split the same list differently; state both odd-one-out answers for 1, 4, 9, 16, 20"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "hunt for one property almost every item satisfies",
+     "explain": "primality, parity, squares, multiples and word categories are common candidates"
+    },
+    {
+     "step": 2,
+     "action": "name the single item missing that property",
+     "explain": "the outsider is defined by the property, not by position"
+    },
+    {
+     "step": 3,
+     "action": "state the rule and the outsider together",
+     "explain": "an answer without the shared property is incomplete"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the counting rule (product, factorial, 2^n)",
+     "explain": "apply the counting rule (product, factorial, 2^n): total = 4 * 8 gives 32",
+     "compute": "total = 4 * 8"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "am11_007.11",
+   "title": "Coding-Decoding by Letter Shift",
+   "section": "7.5",
+   "definition": "In a shift code each letter is moved a fixed number of steps along the alphabet. Comparing one known plain word with its coded form reveals the shift, and the same shift then encodes or decodes any other word, wrapping around at the ends of the alphabet.",
+   "formula": "new_pos = (target_pos + shift - 1) % 26 + 1",
+   "key_idea": "One known pair fixes the shift; wrap positions with mod 26 so Z joins hands with A.",
+   "textbook_ref": "am11_007_math_logical_reasoning.txt, section 7.5, coding-decoding: a word is encoded by a letter-shift or positional rule",
+   "question_patterns": [
+    "in a certain code CAT is written as FDW; how is DOG written in that code",
+    "if ROSE is coded as TUGC find the shift used and decode the word",
+    "the word SUN is shifted by 3 positions; write the coded word",
+    "decode the word NJJH knowing the code shifts each letter back 5 positions",
+    "if ROSE is coded as TUGC, what does the same rule turn VIOLET into",
+    "find the code for MATH if each letter moves forward 4 places with wrap around"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "measure the shift from one known pair",
+     "explain": "code position minus plain position on the same letter",
+     "compute": "shift = code_pos - plain_pos"
+    },
+    {
+     "step": 2,
+     "action": "slide the target letter and wrap inside the alphabet",
+     "explain": "positions run 1 to 26, so subtract 1, take mod 26, add 1 back",
+     "compute": "new_pos = (target_pos + shift - 1) % 26 + 1"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "am11_007.we1",
+   "source_ref": "am11_007 section 7.3 vacuous truth: a false antecedent makes the implication true",
+   "concept": "am11_007.5",
+   "question_type": "compute",
+   "question_pattern": "p is false and q is false; find the truth value of the implication if p then q",
+   "extracted_variables": {
+    "p": 0,
+    "q": 0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "record the failing antecedent",
+     "compute": "ant = 1 - p"
+    },
+    {
+     "step": 2,
+     "action": "evaluate (not p) or q",
+     "compute": "imp = ant + q - ant * q"
+    }
+   ]
+  },
+  {
+   "id": "am11_007.we2",
+   "source_ref": "am11_007 section 7.5 letter-shift code: CAT coded as FDW, encode DOG",
+   "concept": "am11_007.11",
+   "question_type": "compute",
+   "question_pattern": "in a certain code CAT is written as FDW; how is DOG written in that code",
+   "extracted_variables": {
+    "code_pos": 6,
+    "plain_pos": 3,
+    "target_pos": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "shift from the known pair C to F",
+     "compute": "shift = code_pos - plain_pos"
+    },
+    {
+     "step": 2,
+     "action": "apply the shift to D and wrap",
+     "compute": "new_pos = (target_pos + shift - 1) % 26 + 1"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "am11_007.ex1",
+   "source_ref": "am11_007 check your progress selected exercises",
+   "questions": [
+    "Decide which of these are statements: 'the number 5 is prime', 'please close the door', 'x squared plus 1 equals 0'.",
+    "Write the negation of 'all rectangles are squares' as a there exists statement.",
+    "Write the converse, inverse and contrapositive of 'if a number is a multiple of 9 then it is a multiple of 3'.",
+    "Complete the truth table columns for p and q, p or q, not p, if p then q, and p if and only if q with 1 and 0 entries.",
+    "A syllogism argues: all metals conduct electricity; wood is a metal; therefore wood conducts electricity. Which premise fails, and is the argument valid?",
+    "In a code each letter moves 2 places forward with wrap around; encode XY and decode the result back."
+   ]
+  },
+  {
+   "id": "am11_007.ex2",
+   "source_ref": "am11_007 section 7.5 applications: coding-decoding, classification, relationships",
+   "questions": [
+    "If MANGO is coded by shifting each letter 5 places forward, write the code word and then decode it to check.",
+    "Find the odd one out with reasons: 121, 144, 169, 180, 196.",
+    "Two premises are 'all engineers are graduates' and 'no graduate is illiterate'; what conclusion about engineers and illiteracy follows?",
+    "Give one example each where the converse of a true implication is true and where it is false.",
+    "Negate: 'there exists a number whose square is negative', then decide the truth of both sentences.",
+    "Evaluate the biconditional p if and only if q for the four truth rows and say which rows give 0."
+   ]
+  }
+ ]
 }

@@ -34,6 +34,36 @@
      "q": "Design a schematic map annotation (not a full map) showing the hierarchical linkage: Rural Road → District Road → State Highway → National Highway for a hypothetical district in the Deccan Plateau. Label each tier with its maintaining authority and one functional indicator (e.g., traffic volume range, typical width).",
      "a": "Expected annotation: \n- Tier 1 (Village level): Rural Road — Maintained by Zila Parishad/PMGSY — Width: 3.75 m (single lane) — Traffic: <100 PCU/day — Connects village to nearest market.\n- Tier 2 (Block level): Major District Road — Maintained by Zila Parishad/PWD — Width: 7 m (intermediate lane) — Traffic: 100-500 PCU/day — Links block HQ to District HQ.\n- Tier 3 (District level): State Highway — Maintained by State PWD — Width: 10-14 m (2-lane) — Traffic: 500-5000 PCU/day — Connects District HQ to State Capital.\n- Tier 4 (Inter-state): National Highway — Maintained by NHAI/MoRTH — Width: 14-30 m (4-6 lane) — Traffic: >5000 PCU/day — Links State Capital to neighbouring states/ports.\nPoor answer: omits maintaining authority, uses urban standards for rural roads, or ignores terrain adaptation (Deccan Plateau hard rock affects alignment).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Road transport ______ in India is a hierarchical administrative framework categorising roads by constructing/maintaining authority and functional scope: National Highways (NH) — central government, inter-state/strategic corridors; State Highways (SH) — state governments, intra-state arterial links; Major District Roads — district-level connectors; Rural Roads — village-level access (80% of network length); and Other Roads — Border Roads (BRO) and International Highways for strategic/international connectivity.",
+     "a": "classification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're travelling from your village to the nearest town — the narrow metalled road you start on is a Rural Road; it joins a wider road ______ taluka headquarters — that's a Major District Road; continuing, you reach a State Highway linking district HQs to the state capital; finally, the multi-lane highway crossing state borders is a National Highway.",
+     "a": "connecting",
+     "self_check": true
+    },
+    {
+     "q": "What is Road transport classification in India? State the definition given in this lesson.",
+     "a": "Road transport classification in India is a hierarchical administrative framework categorising roads by constructing/maintaining authority and functional scope: National Highways (NH) — central government, inter-state/strategic corridors; State Highways (SH) — state governments, intra-state arterial links; Major District Roads —.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Road transport classification in India is a hierarchical administrative framework categorising roads by constructing/maintaining authority and functional scope: National Highways (NH) — central government, inter-state/strategic corridors; State Highways (SH) — state governments, intra-state arterial links; Major District Roads — district-level connectors; Rural Roads — village-level access (______% of network length); and Other Roads — Border Roads (BRO) and International Highways for strategic/international connectivity.",
+     "a": "80",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Road transport classification in India?",
+     "a": "Students believe \"State Highways are always wider/better than National Highways\" because they see well-maintained SH in their state while NH sections may be under construction.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) classify any Indian road into NH/SH/District/Rural/Other category based on administrative responsibility and functional role, (2) explain why NH constitute only 2% of length but carry 40% of traffic using the concept of hierarchical network efficiency, and (3) interpret regional variations in rural road density by.",
+     "self_check": true
     }
    ]
   }

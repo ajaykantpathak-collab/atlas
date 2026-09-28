@@ -34,6 +34,31 @@
      "q": "Design a projection specification for a new Indian topographic map series at 1:50,000 scale covering 7.5' × 7.5' quadrangles. Specify: projection type, developable surface, preserved property, standard parallels/central meridian, and justify each choice for topographic mapping.",
      "a": "Projection: Lambert Conformal Conic (LCC). Developable surface: Cone. Preserved property: Conformal (shape preservation critical for terrain recognition). Standard parallels: 12°N and 30°N (bracket India's extent). Central meridian: 82°30'E (India's standard meridian). Justification: Topographic maps require accurate angles/shapes for slope, drainage, contour interpretation; LCC minimizes scale distortion within India's latitudinal band; central meridian aligns with national grid. A poor answer (e.g., choosing Mercator or equal-area) reveals inability to link projection property to map function — topographic ≠ thematic ≠ navigational.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Map projection is the systematic transformation of the Earth's three-dimensional curved surface (geoid/oblate spheroid) onto a two-dimensional flat plane using a network of latitude and longitude lines, where the transformation is defined by ______ equations that preserve specific geometric properties (shape, area, distance, or direction) while inevitably distorting others.",
+     "a": "mathematical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by peeling an orange and trying to flatten the peel on a table — notice how it tears and stretches, just like Earth's surface cannot be flattened without ______.",
+     "a": "distortion",
+     "self_check": true
+    },
+    {
+     "q": "What is Map projection? State the definition given in this lesson.",
+     "a": "Map projection is the systematic transformation of the Earth's three-dimensional curved surface (geoid/oblate spheroid) onto a two-dimensional flat plane using a network of latitude and longitude lines, where the transformation is defined by mathematical equations that preserve specific geometric properties (shape, area, distance, or.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Map projection?",
+     "a": "Students believe \"Mercator projection is wrong/bad because it distorts area\" — they treat distortion as a flaw rather than a necessary trade-off.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify any given projection by its developable surface, projection method, and preserved property; explain why no projection can preserve all four properties simultaneously using Tissot's indicatrix; and justify the selection of a specific projection for mapping India's latitudinal extent (8°4'N to 37°6'N) with minimal.",
+     "self_check": true
     }
    ]
   }

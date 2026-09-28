@@ -34,6 +34,21 @@
      "q": "Design a step-by-step procedure (algorithm) that a GIS technician could use to automatically convert any SOI 1:50k sheet number (e.g., \"56H/3NE\") into a bounding box (minLat, maxLat, minLon, maxLon) in decimal degrees. Your procedure must handle the 1:1M sheet reference coordinates as input.",
      "a": "A good algorithm:  \n1. Parse 1:1M sheet number (e.g., 56H) → look up its NW corner (lat0, lon0) from a reference table.  \n2. Parse 1:250k sheet number (1–16) → compute row = ceil(num/4), col = ((num-1)%4)+1.  \n3. Sheet NW corner = (lat0 - (row-1)×1°, lon0 + (col-1)×1°).  \n4. Parse quadrant suffix → apply 0.5° offsets: NW (0,0), NE (0,0.5), SW (0.5,0), SE (0.5,0.5) subtracted from lat, added to lon.  \n5. Bounding box = [lat - 0.5°, lat] × [lon, lon + 0.5°] for the quadrant.  \nPoor answers hard-code values for one sheet or ignore the row-wise numbering logic.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Indian ______ map numbering system is a hierarchical indexing scheme by the Survey of India (SOI) that uniquely identifies every toposheet at 1:250,000 and 1:50,000 scales.",
+     "a": "topographical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a trek in the Western Ghats and need the exact 1:50,000 map for the Kodagu region.",
+     "a": "planning",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Given any SOI toposheet number (e.g., 45D/10 or 56H/3NE), the student can: (1) decode its scale, (2) determine its parent 1:1M sheet, (3) calculate its latitudinal/longitudinal extent, and (4) locate it on an index map of India.",
+     "self_check": true
     }
    ]
   }

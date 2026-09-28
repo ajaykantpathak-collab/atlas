@@ -34,6 +34,31 @@
      "q": "Design a land-use transition plan for a hypothetical 10,000-ha district that currently has: 30% forest (notified), 10% barren, 15% non-agricultural, 5% pastures, 5% tree crops, 10% culturable wasteland, 5% current fallow, 5% other fallow, 15% net sown. The district aims to: (a) increase net sown to 25% in 20 years, (b) keep forest notified area unchanged, (c) reduce culturable wasteland to 2%. Specify which categories will shrink, by how much, and the economic driver for each change.",
      "a": "Target net sown = 2,500 ha (25%), up from 1,500 ha → need +1,000 ha.  \nCulturable wasteland must fall from 1,000 ha to 200 ha → releases 800 ha.  \nRemaining 200 ha must come from: other fallow (500 ha → 300 ha, –200 ha) and/or current fallow (500 ha → 400 ha, –100 ha) and/or barren (1,000 ha → 900 ha, –100 ha).  \nDrivers: (1) Culturable wasteland → net sown: agricultural intensification/reclamation (Green Revolution tech). (2) Other fallow → net sown: shorter fallow cycles due to population pressure. (3) Barren → non-agricultural (if any): infrastructure/urbanisation. Forest notified area fixed at 3,000 ha. A poor answer merely lists numbers without linking each shift to the textbook's three economic-change types.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Land use change in India refers to the shifting proportional allocation of the country's reporting area across nine revenue-record categories (forests, barren/wasteland, non-agricultural uses, permanent pastures, tree crops/groves, culturable wasteland, current fallow, other fallow, net area sown) over time, driven by population pressure, economic structural transformation (primary→secondary/tertiary), urbanisation, and agricultural ______, with the total geographical area remaining fixed while reporting area fluctuates slightly.",
+     "a": "intensification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at the vacant plot near your school that was a playground five years ago but now has a shopping complex — that is land-use ______ in real time.",
+     "a": "change",
+     "self_check": true
+    },
+    {
+     "q": "What is Land use change in India? State the definition given in this lesson.",
+     "a": "Land use change in India refers to the shifting proportional allocation of the country's reporting area across nine revenue-record categories (forests, barren/wasteland, non-agricultural uses, permanent pastures, tree crops/groves, culturable wasteland, current fallow, other fallow, net area sown) over time, driven by population.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Land use change in India?",
+     "a": "Students treat \"reporting area\" and \"geographical area\" as interchangeable.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) calculate actual increase and annual growth rate for any land-use category between two census years using reporting-area percentages; (2) explain the divergent trends (increase vs decline) for each category with reference to economic drivers; (3) compute cropping intensity from net sown area and gross cropped area data.",
+     "self_check": true
     }
    ]
   }

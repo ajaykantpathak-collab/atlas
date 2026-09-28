@@ -34,6 +34,26 @@
      "q": "Design a new user interface type for a smart refrigerator that helps visually impaired users manage grocery inventory. Describe the interaction model, the OS functions it would rely on, and how it differs from the five standard interface types in the textbook.",
      "a": "A haptic-audio interface: user taps shelf zones (touch), receives vibration patterns indicating item categories, speaks item names (voice), and gets audio confirmation. OS functions: device management for haptic motors and microphone, file management for inventory database, process management for speech recognition service. Differs from standard types by combining touch (spatial), voice (semantic), and haptic (feedback) in a single multimodal loop optimised for non-visual use, whereas textbook types are largely unimodal. A poor answer that just says \"voice interface\" misses the multimodal design requirement and OS integration depth.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An operating system (OS) is a system software that acts as a resource manager, controlling and ______ the use of hardware resources (CPU, memory, storage, I/O devices) among multiple application programs and users, while providing a user interface for human-computer interaction.",
+     "a": "coordinating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're in a busy railway station where hundreds of passengers (______) need to use limited platforms (CPU cores), waiting halls (RAM), and ticket counters (I/O devices) without chaos.",
+     "a": "processes",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain the five core functions of an OS (process, memory, file, device, and security management) with specific examples, and differentiate between command-based, GUI, touch, voice, and gesture-based interfaces by describing how each translates user intent into system calls.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're in a busy railway station where hundreds of ______ (processes) need to use limited platforms (CPU cores), waiting halls (RAM), and ticket counters (I/O devices) without chaos.",
+     "a": "passengers",
+     "self_check": true
     }
    ]
   }

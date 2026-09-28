@@ -34,6 +34,36 @@
      "q": "Design a hypothetical index number to measure \"digital access\" in Indian villages. Specify: (a) the variables you would include, (b) the base period, (c) the weighting scheme, and (d) one policy use of this index.",
      "a": "A good answer might include: (a) variables – % households with smartphone, % with broadband, % using digital payments, % accessing e-governance; (b) base period – Census 2011 or a recent survey year; (c) weights – based on household survey of digital service importance or equal weights if no data; (d) policy use – targeting BharatNet subsidies or digital literacy programs. A poor answer that picks only one variable or ignores weighting shows inability to synthesize the components of index construction for a new context.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Index numbers are ______ devices designed to measure the relative change in a group of related variables (such as prices, quantities, or values) over time, across geographic locations, or between different sectors, expressed as a percentage relative to a base period.",
+     "a": "statistical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you hear on the news that \"______ is at 6%\" – but what does that single number actually represent?",
+     "a": "inflation",
+     "self_check": true
+    },
+    {
+     "q": "What is Index numbers? State the definition given in this lesson.",
+     "a": "Index numbers are statistical devices designed to measure the relative change in a group of related variables (such as prices, quantities, or values) over time, across geographic locations, or between different sectors, expressed as a percentage relative to a base period.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you hear on the news that \"inflation is at ______%\" – but what does that single number actually represent?",
+     "a": "6",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Index numbers?",
+     "a": "Students often believe that an index number is just a \"weighted average of prices\" and therefore think any weighted average of prices serves as a valid index.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain at least four distinct economic uses of index numbers (e.g., measuring inflation, adjusting wages, formulating policy, deflating nominal values) and justify why index numbers are indispensable for comparing magnitudes that cannot be directly aggregated.",
+     "self_check": true
     }
    ]
   }

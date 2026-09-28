@@ -1,0 +1,308 @@
+{
+ "catalog": "catalog_class11_physics_keph202.json",
+ "concepts": [
+  {
+   "id": "keph202.9.2.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "density = 1.2",
+      "gravity = 26",
+      "depth = 13.3",
+      "pressure = density * gravity * depth"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "density = 5.5",
+      "gravity = 13.4",
+      "depth = 28",
+      "pressure = density * gravity * depth"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "density = 11.1",
+      "gravity = 67",
+      "depth = 35",
+      "pressure = density * gravity * depth"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "density = 14",
+      "gravity = 31",
+      "depth = 264",
+      "pressure = density * gravity * depth"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "density = 8.1",
+      "gravity = 47",
+      "depth = 389",
+      "pressure = density * gravity * depth"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "density = 1.7",
+      "gravity = 74",
+      "depth = 193",
+      "pressure = density * gravity * depth"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "pressure = density * gravity * depth"
+   ]
+  },
+  {
+   "id": "keph202.9.3.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "area_in = 1.6",
+      "speed_in = 25",
+      "area_out = 27",
+      "out_speed = (area_in * speed_in) / area_out"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area_in = 59",
+      "speed_in = 40",
+      "area_out = 77",
+      "out_speed = (area_in * speed_in) / area_out"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "area_in = 78",
+      "speed_in = 117",
+      "area_out = 37",
+      "out_speed = (area_in * speed_in) / area_out"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "area_in = 93",
+      "speed_in = 19.9",
+      "area_out = 20",
+      "out_speed = (area_in * speed_in) / area_out"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "area_in = 20",
+      "speed_in = 26",
+      "area_out = 84",
+      "out_speed = (area_in * speed_in) / area_out"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "area_in = 26",
+      "speed_in = 38",
+      "area_out = 8.4",
+      "out_speed = (area_in * speed_in) / area_out"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "out_speed = (area_in * speed_in) / area_out"
+   ]
+  },
+  {
+   "id": "keph202.9.4.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "gravity = 8.7",
+      "depth = 191",
+      "efflux = sqrt(2 * gravity * depth)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "gravity = 83",
+      "depth = 395",
+      "efflux = sqrt(2 * gravity * depth)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gravity = 60",
+      "depth = 181",
+      "efflux = sqrt(2 * gravity * depth)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "gravity = 41",
+      "depth = 118",
+      "efflux = sqrt(2 * gravity * depth)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "gravity = 48",
+      "depth = 299",
+      "efflux = sqrt(2 * gravity * depth)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "gravity = 10.3",
+      "depth = 241",
+      "efflux = sqrt(2 * gravity * depth)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "efflux = sqrt(2 * gravity * depth)"
+   ]
+  },
+  {
+   "id": "keph202.9.5.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "drag_balance = 93",
+      "viscosity = 54",
+      "radius = 18.3",
+      "v_terminal = drag_balance / (6 * pi * viscosity * radius)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "drag_balance = 14.4",
+      "viscosity = 7.7",
+      "radius = 20",
+      "v_terminal = drag_balance / (6 * pi * viscosity * radius)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "drag_balance = 7.1",
+      "viscosity = 96",
+      "radius = 29",
+      "v_terminal = drag_balance / (6 * pi * viscosity * radius)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "drag_balance = 85",
+      "viscosity = 81",
+      "radius = 37",
+      "v_terminal = drag_balance / (6 * pi * viscosity * radius)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "drag_balance = 81",
+      "viscosity = 49",
+      "radius = 5.4",
+      "v_terminal = drag_balance / (6 * pi * viscosity * radius)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "drag_balance = 33",
+      "viscosity = 94",
+      "radius = 12.5",
+      "v_terminal = drag_balance / (6 * pi * viscosity * radius)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "v_terminal = drag_balance / (6 * pi * viscosity * radius)"
+   ]
+  },
+  {
+   "id": "keph202.9.6.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "surface_tension = 117",
+      "area_change = 36",
+      "surf_energy = surface_tension * area_change"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "surface_tension = 66",
+      "area_change = 48",
+      "surf_energy = surface_tension * area_change"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "surface_tension = 49",
+      "area_change = 99",
+      "surf_energy = surface_tension * area_change"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "surface_tension = 79",
+      "area_change = 59",
+      "surf_energy = surface_tension * area_change"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "surface_tension = 18.8",
+      "area_change = 35",
+      "surf_energy = surface_tension * area_change"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "surface_tension = 29",
+      "area_change = 60",
+      "surf_energy = surface_tension * area_change"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "surf_energy = surface_tension * area_change"
+   ]
+  }
+ ]
+}

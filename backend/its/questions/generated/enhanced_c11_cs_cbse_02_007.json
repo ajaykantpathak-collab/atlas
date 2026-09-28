@@ -34,6 +34,31 @@
      "q": "Design a Boolean expression with 4 variables (W, X, Y, Z) that requires BOTH distributive laws AND both identity laws to simplify to a single variable. Show the original expression and the complete step-by-step simplification.",
      "a": "Expression: F = (W + X·Y) · (W + 0) · (W + Z) · 1\nSimplification:\n1. (W + X·Y) · (W + 0) · (W + Z) · 1 — Given\n2. (W + X·Y) · W · (W + Z) · 1 — Identity Law: W+0=W\n3. (W + X·Y) · W · (W + Z) — Identity Law: A·1=A (on the trailing ·1)\n4. W · (W + X·Y) · (W + Z) — Commutative (reorder)\n5. (W·W + W·X·Y) · (W + Z) — Distributive: A·(B+C)=A·B+A·C on first two\n6. (W + W·X·Y) · (W + Z) — Idempotent: W·W=W\n7. W · (W + Z) — Absorption: W + W·X·Y = W (or W(1+XY)=W·1=W)\n8. W — Absorption: W·(W+Z)=W\nFinal answer: W. A poor answer (e.g., expression not using both distributive laws, or not requiring both identity laws) reveals the student cannot construct expressions that strategically combine multiple laws, indicating surface-level understanding rather than structural mastery.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ Laws in Boolean Algebra state that OR distributes over AND as A + (B · C) = (A + B) · (A + C), and AND distributes over OR as A · (B + C) = (A · B) + (A · C).",
+     "a": "Distributive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a security ______ for a smart locker that opens only when (fingerprint matches AND PIN is correct) OR (face recognition matches AND OTP is valid).",
+     "a": "system",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: We verify this using truth tables for all ______ combinations of three variables, then practice spotting expressions like A + (B·C) that can be restructured as (A+B)·(A+C) to enable further simplification using complement laws later.",
+     "a": "8",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to prove both distributive laws using truth tables, apply them to simplify Boolean expressions of 3+ variables, and identify when to use identity laws to reduce expressions like A + 0 or A · 1 in multi-step simplification problems.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a security system for a smart locker that opens only when (______ matches AND PIN is correct) OR (face recognition matches AND OTP is valid).",
+     "a": "fingerprint",
+     "self_check": true
     }
    ]
   }

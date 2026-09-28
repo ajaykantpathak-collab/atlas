@@ -34,6 +34,26 @@
      "q": "Create a new sentence of at least 12 words from the vocabulary of \"The Mark on the Wall\" that contains at least 3 content words and 3 function words of different categories. Then annotate each word as C (content) or F (function) and name its part of speech.",
      "a": "Example: \"The small round mark on the white wall seemed mysterious.\" Annotation: The (F, determiner), small (C, adjective), round (C, adjective), mark (C, noun), on (F, preposition), the (F, determiner), white (C, adjective), wall (C, noun), seemed (C, verb), mysterious (C, adjective). Contains 6 content, 3 function. A poor answer would mislabel \"on\" as content or miss \"the\" as function.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Content words (nouns, verbs, adjectives, adverbs, and sometimes prepositions) carry lexical meaning and form an open class, while function words (conjunctions, pronouns, determiners, quantifiers, intensifiers, question words, and sometimes prepositions) serve grammatical roles, belong to closed classes, and are often omitted in telegraphic ______.",
+     "a": "communication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are sending a ______ in the 1990s — you pay per word, so you write \"ARRIVING TOMORROW STOP NEED PICKUP STOP\".",
+     "a": "telegram",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) classify every word in a given sentence from the text as content or function word with justification, (2) explain why prepositions are ambiguous, and (3) identify weak/strong forms of function words in connected speech.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are sending a telegram in the ______s — you pay per word, so you write \"ARRIVING TOMORROW STOP NEED PICKUP STOP\".",
+     "a": "1990",
+     "self_check": true
     }
    ]
   }

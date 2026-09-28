@@ -34,6 +34,31 @@
      "q": "Design a one‑page infographic for a district planning office that uses all three density types to argue for either (a) expanding irrigation or (b) promoting non‑farm employment. Sketch the layout and list the data points you would include.",
      "a": "A good answer includes: title, district map with cultivable area shaded, three calculated densities with formulas, comparison to state/national averages, and a clear recommendation backed by the numbers. A poor answer merely lists definitions without connecting densities to the policy choice.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Population density is the ratio of human population to land area, ______ as persons per square kilometre.",
+     "a": "expressed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine ______ in a crowded Delhi metro station versus a wheat field in Punjab — both have people, but the *pressure on land* differs.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What is Population density? State the definition given in this lesson.",
+     "a": "Population density is the ratio of human population to land area, expressed as persons per square kilometre.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Population density?",
+     "a": "Students often think \"high crude density = high population pressure everywhere.\" They forget that crude density includes mountains, deserts, and forests.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate all three density types from given data, interpret what each reveals about population‑land pressure, and explain why physiological density is a better indicator of agricultural stress than crude density.",
+     "self_check": true
     }
    ]
   }

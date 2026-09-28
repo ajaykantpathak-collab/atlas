@@ -34,6 +34,26 @@
      "q": "Design a modular structure (list the functions/modules) for a \"Library Management System\" that handles book issue, return, fine calculation, and member registration. Justify why each is a separate function.",
      "a": "Good answer includes at least 4 functions: `register_member()`, `issue_book()`, `return_book()`, `calculate_fine()`. Each has a **single responsibility**: member data handling, book status update, fine logic (which depends on days overdue), and returning book status. Justification should mention **separation of concerns**, **independent testing**, and **reuse** (e.g., `calculate_fine()` can be called from both `return_book()` and a separate \"view fine\" feature). A poor answer lumps everything into one `manage_library()` function, showing inability to **decompose a problem** into cohesive units.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A function is a named, reusable block of code that performs a specific task and ______ returns a value.",
+     "a": "optionally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a program for a school canteen that calculates the total bill for ______ students.",
+     "a": "multiple",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the purpose of functions in their own words, list at least four distinct advantages of modular programming (e.g., reusability, readability, maintainability, easier debugging, collaboration), and identify which parts of a given problem should be encapsulated into separate functions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a program for a school canteen that ______ the total bill for multiple students.",
+     "a": "calculates",
+     "self_check": true
     }
    ]
   }

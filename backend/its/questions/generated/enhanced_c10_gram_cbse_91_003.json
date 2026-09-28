@@ -1,0 +1,51 @@
+{
+ "catalog": "enhanced_c10_gram_cbse_91_003",
+ "concepts": [
+  {
+   "id": "enh:c10_gram_cbse_91_003",
+   "title": "c10_gram_cbse_91_003",
+   "questions": [
+    {
+     "q": "'The committee ___ (has/have) submitted its report.'",
+     "a": "'has' — the committee acts as one unit submitting one report. A wrong answer 'have' suggests the student pluralizes all collectives reflexively, or over-applies the member-acting rule without checking for the unit reading.",
+     "self_check": true
+    },
+    {
+     "q": "'The news ___ (is/are) encouraging.'",
+     "a": "'is' — 'news' ends in -s but is singular by convention. A wrong answer 'are' is pure spelling-agreement — the terminal -s hijacked the student's grammar.",
+     "self_check": true
+    },
+    {
+     "q": "'A pair of scissors ___ (is/are) on the table.'",
+     "a": "'is' — the head is 'pair', singular; 'scissors' alone would take 'are'. A wrong answer 'are' shows the student agreed with the salient noun rather than the head — same failure as the decoy-phrase node, different costume.",
+     "self_check": true
+    },
+    {
+     "q": "Collective nouns (team, committee, jury, family) take singular when the group acts as one unit and plural when members act ______ — 'The jury has reached a verdict' vs 'The jury are divided'.",
+     "a": "individually",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Collective nouns (team, committee, jury, family) take singular when the group acts as one unit and plural when members act ______ — 'The jury has reached a verdict' vs 'The jury are divided'.",
+     "a": "individually",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Act it out: 'The class is quiet' — one silent blob = ______. 'The class are arguing among themselves' — members doing different things = plural.",
+     "a": "singular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student chooses singular vs plural for collectives by asking 'unit or members?', and correctly handles fixed-form nouns (news singular, scissors plural) plus 'a pair of' constructions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Act it out: 'The class is quiet' — one silent blob = singular. 'The class are arguing among ______' — members doing different things = plural.",
+     "a": "themselves",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

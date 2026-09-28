@@ -34,6 +34,31 @@
      "q": "Create a hypothetical budget snippet for a state government with at least 5 expenditure items (mix of revenue and capital). Label each item and calculate the total revenue expenditure and total capital expenditure. Ensure the numbers are plausible for an Indian state (in ₹ crore).",
      "a": "Example snippet: (1) Salaries: ₹40,000 crore (Rev), (2) Pensions: ₹15,000 crore (Rev), (3) Interest payments: ₹20,000 crore (Rev), (4) Road construction: ₹25,000 crore (Cap), (5) Purchase of medical equipment for hospitals: ₹5,000 crore (Cap). Total Revenue Expenditure = ₹75,000 crore; Total Capital Expenditure = ₹30,000 crore. A poor answer would mislabel interest payments as capital or omit the liability-reduction criterion for items like loan repayment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Revenue ______ refers to government spending that does not create any physical or financial asset nor reduce any liability; it is incurred for the normal functioning of government departments and services (e.g., salaries, pensions, interest payments, subsidies).",
+     "a": "expenditure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ the Union Budget of India presented in February.",
+     "a": "analyzing",
+     "self_check": true
+    },
+    {
+     "q": "What is Revenue expenditure? State the definition given in this lesson.",
+     "a": "Revenue expenditure refers to government spending that does not create any physical or financial asset nor reduce any liability; it is incurred for the normal functioning of government departments and services (e.g., salaries, pensions, interest payments, subsidies).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Revenue expenditure?",
+     "a": "Students often think that any \"large\" or \"long-term\" spending is capital expenditure (e.g., \"salaries are paid every year for many years, so they are capital\").",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify any given government expenditure item as revenue or capital expenditure by applying the asset-creation/liability-reduction criterion, and can explain the implications of each type for the government's fiscal health and the economy's capital formation.",
+     "self_check": true
     }
    ]
   }

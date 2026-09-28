@@ -34,6 +34,31 @@
      "q": "Create a real-life inverse proportion problem involving ₹5000 budget, number of items, and price per item. Write the problem statement, identify the constant product, and solve it.",
      "a": "Example: \"With ₹5000, you can buy 25 notebooks at ₹200 each. If the price increases to ₹250 per notebook, how many can you buy?\" Constant product = total budget = ₹5000. Price × quantity = 5000. 250 × q = 5000 → q = 20 notebooks. A poor problem might use varying budget or add unrelated quantities, showing inability to isolate the inverse pair and identify the fixed constraint.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Two quantities are in inverse proportion when an increase in one quantity causes a ______ decrease in the other such that their product remains constant.",
+     "a": "proportional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If 10 cooks can prepare the meal in 6 hours, how long will it take if only 6 cooks are ______?",
+     "a": "available",
+     "self_check": true
+    },
+    {
+     "q": "What is Two quantities? State the definition given in this lesson.",
+     "a": "Two quantities are in inverse proportion when an increase in one quantity causes a proportional decrease in the other such that their product remains constant.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Two quantities?",
+     "a": "Students treat inverse proportion as direct proportion by setting up fractions incorrectly: writing x₁/y₁ = x₂/y₂ instead of x₁y₁ = x₂y₂.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can solve multi-step real-life problems involving inverse proportion by correctly identifying the inversely related quantities, setting up the equation x₁y₁ = x₂y₂, solving for the unknown, and interpreting the answer in context with appropriate units.",
+     "self_check": true
     }
    ]
   }

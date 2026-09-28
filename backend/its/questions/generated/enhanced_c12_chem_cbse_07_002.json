@@ -34,6 +34,26 @@
      "q": "Design a two-step synthesis of 2-phenylethanol starting from styrene (phenylethene). Specify reagents for each step and explain why your chosen route avoids carbocation rearrangement.",
      "a": "Step 1: Hydroboration-oxidation of styrene with (BH3)2 then H2O2/NaOH gives 2-phenylethanol directly (anti-Markovnikov, no carbocation). Alternative: acid-catalyzed hydration would give 1-phenylethanol via benzylic carbocation (Markovnikov). The designed route avoids rearrangement because hydroboration does not involve carbocation intermediates. A poor answer using acid hydration shows failure to apply regioselectivity control.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Alcohols can be prepared from haloalkanes via nucleophilic substitution (SN1/SN2) using aqueous NaOH/KOH, and from alkenes via ______ addition: acid-catalyzed hydration (Markovnikov) or hydroboration-oxidation (anti-Markovnikov).",
+     "a": "electrophilic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how adding water to an alkene in the presence of acid yields an alcohol — this is the ______ route to ethanol from ethene.",
+     "a": "industrial",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For anti-Markovnikov addition, hydroboration-oxidation uses borane to add BH______ to the less substituted carbon, then oxidation replaces B with OH.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write balanced equations and stepwise mechanisms for both preparation routes, predict major products considering carbocation stability and regioselectivity, and choose appropriate reagents (aqueous NaOH for haloalkanes, dilute H2SO4 for Markovnikov hydration, (BH3)2 then H2O2/NaOH for anti-Markovnikov hydration).",
+     "self_check": true
     }
    ]
   }

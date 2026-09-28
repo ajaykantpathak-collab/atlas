@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch11_1",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch11_1",
+   "title": "c9_math_ch11_1",
+   "questions": [
+    {
+     "q": "If $\\triangle ABC \\cong \\triangle DEF$, which angle in $\\triangle DEF$ corresponds to $\\angle B$? Write the congruence statement that shows this correspondence explicitly.",
+     "a": "$\\angle B$ corresponds to $\\angle E$ because in $\\triangle ABC \\cong \\triangle DEF$, the second vertex ($B$) corresponds to the second vertex ($E$). A wrong answer like $\\angle D$ or $\\angle F$ reveals the student does not understand that the *position* of the vertex in the written statement determines the correspondence, not alphabetical order or visual appearance.",
+     "self_check": true
+    },
+    {
+     "q": "Two students are discussing $\\triangle PQR \\cong \\triangle STU$. Student A says: \"This means $PQ = ST$ and $QR = TU$.\" Student B says: \"No, it means $PQ = TU$ and $QR = ST$.\" Who is correct, and **why** does the order of vertices in the congruence statement matter?",
+     "a": "Student A is correct. In $\\triangle PQR \\cong \\triangle STU$, the first vertex $P$ corresponds to $S$, second $Q$ to $T$, third $R$ to $U$; therefore side $PQ$ (first–second) corresponds to $ST$ (first–second), and $QR$ (second–third) corresponds to $TU$ (second–third). A wrong choice (Student B) shows the student thinks correspondence is based on alphabetical order or matching side lengths by size, not by the *sequence* in the notation.",
+     "self_check": true
+    },
+    {
+     "q": "In the figure below, $\\triangle LMN$ has sides $LM = 4\\,\\text{cm}$, $MN = 5\\,\\text{cm}$, $NL = 6\\,\\text{cm}$. $\\triangle XYZ$ has sides $XY = 6\\,\\text{cm}$, $YZ = 4\\,\\text{cm}$, $ZX = 5\\,\\text{cm}$. Are the triangles congruent? If yes, write the correct congruence statement with vertices in the proper corresponding order.",
+     "a": "Yes, they are congruent. Match equal sides: $LM = 4 = YZ$, $MN = 5 = ZX$, $NL = 6 = XY$. So $L \\leftrightarrow Y$, $M \\leftrightarrow Z$, $N \\leftrightarrow X$. The congruence statement is $\\triangle LMN \\cong \\triangle YZX$ (or any cyclic permutation like $\\triangle MNL \\cong \\triangle ZXY$). A wrong statement like $\\triangle LMN \\cong \\triangle XYZ$ reveals the student matched vertices by alphabetical order instead of by equal side lengths.",
+     "self_check": true
+    },
+    {
+     "q": "Given $\\triangle ABC \\cong \\triangle PQR$, a student writes: \"Therefore $AB = PQ$, $BC = QR$, $CA = RP$, and $\\angle A = \\angle P$, $\\angle B = \\angle Q$, $\\angle C = \\angle R$.\" Another student argues: \"But what if the correspondence was $A \\leftrightarrow Q$, $B \\leftrightarrow R$, $C \\leftrightarrow P$? Would the congruence statement still be $\\triangle ABC \\cong \\triangle PQR$?\" Analyse both claims and explain which (if either) is valid.",
+     "a": "The first student is correct *for the given statement* $\\triangle ABC \\cong \\triangle PQR$; the order fixes $A \\leftrightarrow P$, $B \\leftrightarrow Q$, $C \\leftrightarrow R$. The second student's proposed correspondence ($A \\leftrightarrow Q$, $B \\leftrightarrow R$, $C \\leftrightarrow P$) would require the congruence statement to be written as $\\triangle ABC \\cong \\triangle QRP$ (or $\\triangle BCA \\cong \\triangle PQR$, etc.). The notation $\\triangle ABC \\cong \\triangle PQR$ *uniquely* determines the correspondence — you cannot arbitrarily reassign vertices without changing the written statement. A wrong analysis shows the student treats the congruence symbol as a loose \"equality of sets\" rather than an ordered correspondence.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 9 student solves a problem and concludes: \"$\\triangle ABC \\cong \\triangle DEF$ because $AB = DE$, $BC = EF$, and $\\angle A = \\angle D$.\" Evaluate this reasoning. Is the conclusion necessarily true? If not, what is missing or wrong?",
+     "a": "The conclusion is **not necessarily true**. The given data ($AB = DE$, $BC = EF$, $\\angle A = \\angle D$) is **SSA** (two sides and a non-included angle), which is **not a valid congruence criterion** (except in the special RHS case for right triangles). The student has confused the *definition* of congruence (all corresponding parts equal) with a *sufficient condition* for proving congruence. A wrong evaluation (saying it is true) reveals the student thinks any three matching parts guarantee congruence, ignoring the need for the correct *pattern* (SAS, ASA, SSS, RHS).",
+     "self_check": true
+    },
+    {
+     "q": "Create your own pair of congruent triangles with integer side lengths (in cm) such that the congruence statement is **not** in alphabetical order (e.g., $\\triangle ABC \\cong \\triangle YZX$). Draw rough sketches, label all sides, and write the correct congruence statement. Explain how you chose the vertex order.",
+     "a": "Example: $\\triangle ABC$ with $AB=3$, $BC=4$, $CA=5$; $\\triangle XYZ$ with $XY=4$, $YZ=5$, $ZX=3$. Matching sides: $AB=3=ZX$, $BC=4=XY$, $CA=5=YZ$. So $A \\leftrightarrow Z$, $B \\leftrightarrow X$, $C \\leftrightarrow Y$. Congruence statement: $\\triangle ABC \\cong \\triangle ZXY$ (non-alphabetical). A good answer shows the student actively constructed the correspondence by matching side lengths, not by letter order. A poor answer (e.g., $\\triangle ABC \\cong \\triangle XYZ$ with same side lengths) reveals the student defaults to alphabetical matching.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

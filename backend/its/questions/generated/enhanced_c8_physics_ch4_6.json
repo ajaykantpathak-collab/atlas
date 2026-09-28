@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a plastic bottle, a straw, and water to demonstrate the principle of a barometer. Explain how it models atmospheric pressure.",
      "a": "Fill a bottle partially with water, insert a straw through a sealed cap so it dips into the water, and suck air out to raise water in the straw; then seal the straw top. The water stays up because atmospheric pressure on the bottle's water surface pushes it up the straw. A poor answer might just describe a drinking straw without sealing the top, missing the role of trapped air pressure vs. atmospheric pressure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A barometer is an ______ that measures atmospheric pressure by balancing the weight of a column of mercury (or other fluid) against the weight of the air column above it; the height of the fluid column (typically 760 mm of mercury at sea level) directly indicates the atmospheric pressure in pascals (Pa) or millibars (mb).",
+     "a": "instrument",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in a science lab in Delhi and see a long glass tube ______ with mercury, inverted into a mercury trough — the mercury column stands at about 76 cm.",
+     "a": "filled",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A barometer is an instrument that measures atmospheric pressure by balancing the weight of a column of mercury (or other fluid) against the weight of the air column above it; the height of the fluid column (typically ______ mm of mercury at sea level) directly indicates the atmospheric pressure in pascals (Pa) or millibars (mb).",
+     "a": "760",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how a mercury barometer works, calculate atmospheric pressure from the height of the mercury column using P = hρg, and predict how the reading changes with altitude or weather conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in a science lab in Delhi and see a long glass tube filled with mercury, ______ into a mercury trough — the mercury column stands at about 76 cm.",
+     "a": "inverted",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a strategy to clone a human gene (with known sequence) into an E. coli expression vector so that: (a) the gene is inserted in the correct orientation, (b) only recombinant plasmids are selected, and (c) protein expression can be induced. Specify the enzymes, vector features, and host strain needed.",
      "a": "Good answer: (1) Choose vector with T7/lac promoter, lacZ α-fragment (for blue-white screening), and ampicillin resistance. (2) Select TWO different restriction sites in MCS flanking the cloning site (e.g., NdeI at start codon, XhoI after stop codon) for directional cloning. (3) PCR-amplify human gene with primers adding NdeI and XhoI sites (ensuring reading frame). (4) Digest vector and insert with NdeI + XhoI, gel-purify both. (5) Ligate (3:1 insert:vector molar ratio). (6) Transform into E. coli BL21(DE3) (has T7 RNA polymerase under lacUV5 control). (7) Plate on ampicillin + X-gal + IPTG: white colonies = recombinants. (8) Induce with IPTG for expression. Poor answer omits directional cloning, uses single enzyme (random orientation), forgets host strain compatibility, or misses induction step.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Recombinant DNA Technology is the process of ______ combining DNA molecules from different sources (often different species) into a single recombinant molecule in vitro, and introducing it into a host organism where it replicates and expresses the desired trait.",
+     "a": "artificially",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to produce human insulin in ______ — a life-saving drug for millions of diabetic patients in India.",
+     "a": "bacteria",
+     "self_check": true
+    },
+    {
+     "q": "What is Recombinant DNA Technology? State the definition given in this lesson.",
+     "a": "Recombinant DNA Technology is the process of artificially combining DNA molecules from different sources (often different species) into a single recombinant molecule in vitro, and introducing it into a host organism where it replicates and expresses the desired trait.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Recombinant DNA Technology?",
+     "a": "Students think \"ligation joins any two DNA fragments\" and that \"transformation efficiency depends only on host competence.\" The exact error: they ignore that ligation requires compatible ends (sticky-end complementarity OR blunt ends with much lower efficiency), correct molar ratio (typically 3:1 insert:vector), and ATP.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can list all seven steps of rDNA technology in correct sequence, explain the purpose and key enzyme/tool used at each step, and predict the outcome if any step fails (e.g., incomplete digestion, failed ligation, non-transformed host).",
+     "self_check": true
     }
    ]
   }

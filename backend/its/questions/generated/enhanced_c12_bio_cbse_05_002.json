@@ -34,6 +34,31 @@
      "q": "Design a monohybrid cross experiment to determine whether a tall pea plant from an unknown lineage is homozygous (TT) or heterozygous (Tt). Describe the cross, expected outcomes for each case, and how you would conclude.",
      "a": "Cross the unknown tall plant with a homozygous recessive dwarf plant (tt) — this is a test cross. If unknown is TT: all gametes carry T → all offspring Tt → 100% tall. If unknown is Tt: gametes T and t (1:1) → offspring Tt (tall) and tt (dwarf) in 1:1 ratio. Observe F1 phenotypes: all tall → homozygous; 1 tall : 1 dwarf → heterozygous. A poor answer (e.g., \"self the plant and wait for F2\") works but takes an extra generation — reveals lack of knowledge of test cross as a direct diagnostic tool.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A monohybrid cross is a controlled breeding experiment between two ______ differing in a single heritable trait governed by one gene with two alleles, used to track the inheritance pattern across generations and derive the phenotypic ratio (3:1 for complete dominance) and genotypic ratio (1:2:1) in the F2 generation based on Mendel's law of segregation.",
+     "a": "individuals",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a garden: when you plant seeds from a tall pea plant crossed with a dwarf pea plant, every single F1 plant grows tall — the dwarf trait vanishes.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a garden: when you plant seeds from a tall pea plant crossed with a dwarf pea plant, every single F______ plant grows tall — the dwarf trait vanishes.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) construct Punnett squares showing gamete formation and fertilization for any monohybrid cross, (2) derive and explain the 3:1 phenotypic and 1:2:1 genotypic ratios for F2 from heterozygous selfing, (3) distinguish between genotype and phenotype in notation and ratios, and (4) solve numerical problems predicting offspring.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a garden: when you plant seeds from a tall pea plant crossed with a dwarf pea plant, every single F1 plant grows tall — the dwarf trait ______.",
+     "a": "vanishes",
+     "self_check": true
     }
    ]
   }

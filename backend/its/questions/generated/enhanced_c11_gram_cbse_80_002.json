@@ -1,0 +1,56 @@
+{
+ "catalog": "enhanced_c11_gram_cbse_80_002",
+ "concepts": [
+  {
+   "id": "enh:c11_gram_cbse_80_002",
+   "title": "c11_gram_cbse_80_002",
+   "questions": [
+    {
+     "q": "'The girl ___ won the prize is my sister.' who/which/that?",
+     "a": "'who' or 'that' — defining clause about a person. A wrong answer 'which' misassigns the person/thing boundary.",
+     "self_check": true
+    },
+    {
+     "q": "'My car, ___ is ten years old, still runs well.' that or which?",
+     "a": "'which' — comma-wrapped non-defining clauses cannot take 'that'. A wrong answer 'that' shows the comma-rule gap.",
+     "self_check": true
+    },
+    {
+     "q": "Does the meaning change: 'Students who cheat fail' vs 'Students, who cheat, fail'?",
+     "a": "Yes — first says only cheating students fail (defining); second says all students cheat and all fail (non-defining). A wrong answer 'same meaning' reveals the student reads commas as decoration.",
+     "self_check": true
+    },
+    {
+     "q": "A ______ relative clause is non-defining (extra info); without commas it defines which one.",
+     "a": "comma-wrapped",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Relative clauses join with who/whom/whose/which/that — and the choice carries meaning: who/whom for people, which for things, that for either in defining clauses, whose for ______.",
+     "a": "possession",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The comma test: 'My brother, who lives in Delhi, is a doctor' — commas say I have one brother; the clause is a side-note. 'My brother who lives in Delhi is a doctor' — no commas; the clause picks WHICH brother. 'That' is banned after commas — non-______ clauses need who/which.",
+     "a": "defining",
+     "self_check": true
+    },
+    {
+     "q": "What is Relative clauses join with who/whom/whose/which/that? State the definition given in this lesson.",
+     "a": "Relative clauses join with who/whom/whose/which/that — and the choice carries meaning: who/whom for people, which for things, that for either in defining clauses, whose for possession.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Relative clauses join with who/whom/whose/which/that?",
+     "a": "Students use 'that' everywhere including after commas ('My father, that is a doctor,…'), drop 'whose' for 'of which' clumsily, and ignore that commas change the meaning, not just the style.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student selects the correct relative pronoun, distinguishes defining from non-defining clauses by commas and meaning, and uses whom/whose correctly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,31 @@
      "q": "Create a small psychological dataset (n=10) for \"stress level (1-10 scale)\" where: (a) Mean > Median > Mode, (b) Range = 7, (c) The data shows positive skew. List the 10 scores and verify all three conditions.",
      "a": "Example dataset: 2, 3, 3, 4, 4, 5, 5, 6, 8, 9. Verification: Mode=3 & 4 (bimodal, take lower=3), Median=(4+5)/2=4.5, Mean=49/10=4.9 → Mean(4.9) > Median(4.5) > Mode(3). Range=9-2=7. Positive skew confirmed (tail toward higher values). A poor answer with symmetric data or mean<median reveals inability to construct data matching distributional properties — a key skill for understanding how statistics reflect psychological phenomena.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Descriptive statistics in psychology refers to the quantitative methods used to organize, summarize, and present psychological data through measures of central tendency (mean, median, mode), measures of variability (range, quartile deviation, standard deviation), and graphical ______, enabling researchers to describe the basic features of data collected from psychological studies.",
+     "a": "representations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you conducted a ______ on \"study hours per week\" for 30 Class XI students and got raw scores: 5, 8, 12, 15, 15, 18, 20, 22, 25, 28... staring at 30 numbers tells you nothing.",
+     "a": "survey",
+     "self_check": true
+    },
+    {
+     "q": "What is Descriptive statistics in psychology? State the definition given in this lesson.",
+     "a": "Descriptive statistics in psychology refers to the quantitative methods used to organize, summarize, and present psychological data through measures of central tendency (mean, median, mode), measures of variability (range, quartile deviation, standard deviation), and graphical representations, enabling researchers to describe the basic.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Descriptive statistics in psychology?",
+     "a": "Students believe \"standard deviation is just the average distance from the mean\" and calculate it as Σ|X-M|/n (mean absolute deviation).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Calculate mean, median, mode, range, quartile deviation, and standard deviation for a given psychological dataset with correct formulas and interpretation, and (2) Select the appropriate measure of central tendency or variability based on data type (nominal, ordinal, interval, ratio) and distribution.",
+     "self_check": true
     }
    ]
   }

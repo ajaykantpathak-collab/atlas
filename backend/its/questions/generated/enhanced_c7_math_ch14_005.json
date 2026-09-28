@@ -34,6 +34,21 @@
      "q": "Design a short set of instructions for a classmate on how to use a compass to construct a line parallel to line $L$, passing through point $M$ which is 5 cm away from line $L$.",
      "a": "Criteria for a good answer: \n1. Draw a transversal line passing through point $M$ and intersecting line $L$ at point $N$. \n2. Place the compass pointer at $N$, open it to a convenient radius, and draw an arc intersecting line $L$ and the transversal. \n3. With the same radius, place the compass pointer at $M$ and draw a corresponding arc. \n4. Measure the chord length of the first arc using the compass and copy it onto the second arc. \n5. Draw a line through $M$ passing through this new intersection point. A poor answer lacks specific references to compass manipulation or angle replication steps.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Constructing parallel lines using a compass and ruler involves creating a line that remains at a constant ______ distance from a given line, achieved by reproducing corresponding angles or alternate interior angles equal to a transversal intersection.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ building a wooden shelf in your home in Chennai, and you need to nail a second wooden plank that must run exactly parallel to the first plank so your books do not slide off.",
+     "a": "carpenter",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can construct a line parallel to a given line through a given point not on the line using only a ruler and compass, and can justify each step using geometric properties of angles (such as alternate interior angles or corresponding angles).",
+     "self_check": true
     }
    ]
   }

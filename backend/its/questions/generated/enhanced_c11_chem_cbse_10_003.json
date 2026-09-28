@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_10_003",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_10_003",
+   "title": "c11_chem_cbse_10_003",
+   "questions": [
+    {
+     "q": "Define metamerism and give one example with molecular formula C₄H₁₀O. How does it differ from position isomerism?",
+     "a": "Metamerism arises due to different alkyl groups on either side of a functional group (e.g., -O-, -CO-, -NH-). Example: CH₃-O-CH₂CH₃ (methoxyethane) and CH₃CH₂-O-CH₂CH₃ (ethoxyethane) — both C₄H₁₀O. Position isomerism involves same carbon skeleton but different positions of the functional group (e.g., butan-1-ol vs butan-2-ol). A wrong answer (e.g., giving butan-1-ol/butan-2-ol as metamerism) reveals confusion between functional group position vs. alkyl group distribution around a polyvalent functional group.",
+     "self_check": true
+    },
+    {
+     "q": "Why does 2-butene show geometrical isomerism but 1-butene does not? Explain using the concept of restricted rotation and the necessary condition for cis-trans isomerism.",
+     "a": "Geometrical isomerism requires: (i) restricted rotation (C=C double bond or ring), (ii) each doubly bonded carbon must have two different substituents. In 2-butene (CH₃-CH=CH-CH₃), each sp² carbon has CH₃ and H — different groups → cis/trans possible. In 1-butene (CH₂=CH-CH₂-CH₃), the first carbon has two H atoms (identical groups) → condition fails. A wrong answer citing \"no double bond in 1-butene\" reveals fundamental misunderstanding of alkene structure.",
+     "self_check": true
+    },
+    {
+     "q": "Draw all structural isomers (chain, position, functional group) for C₄H₈O. Name each using IUPAC. How many total isomers exist? (Ignore stereoisomers.)",
+     "a": "Total 7 structural isomers:  \n1. Butanal (CH₃CH₂CH₂CHO) — aldehyde  \n2. 2-Methylpropanal ((CH₃)₂CHCHO) — chain isomer of butanal  \n3. Butanone (CH₃COCH₂CH₃) — ketone (functional group isomer)  \n4. But-1-en-1-ol (CH₂=CH-CH₂-CH₂OH) — unsaturated alcohol  \n5. But-2-en-1-ol (CH₃-CH=CH-CH₂OH) — position isomer of 4  \n6. But-3-en-1-ol (CH₂=CH-CH₂-CH₂OH) — same as 4? Wait, But-3-en-1-ol is HO-CH₂-CH₂-CH=CH₂ (but-3-en-1-ol) — different position of OH  \n7. 2-Methylprop-1-en-1-ol ((CH₃)₂C=CHOH) — enol form  \nPlus cyclic ethers: oxetane, methyloxirane — but these are ring-chain isomers.  \nCorrect count: **7 acyclic structural isomers** (3 carbonyl + 4 unsaturated alcohols/enols). A wrong count (e.g., 5) reveals missing enol forms or unsaturated alcohols.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the physical properties (boiling point, melting point, solubility) of cis- and trans-but-2-ene. Explain the difference using molecular symmetry and dipole moment.",
+     "a": "cis-But-2-ene has a net dipole moment (~0.3 D) due to additive C-CH₃ bond dipoles; trans-but-2-ene has zero dipole moment (dipoles cancel). Hence cis-isomer has higher boiling point (cis: 1°C, trans: 0.9°C — small but measurable) and higher solubility in polar solvents. trans-But-2-ene packs better in crystal lattice (higher symmetry) → higher melting point (trans: -105.6°C, cis: -138.9°C). A wrong answer claiming \"trans has higher BP due to more surface area\" confuses with chain isomerism trends.",
+     "self_check": true
+    },
+    {
+     "q": "A compound C₄H₈O₂ gives a positive iodoform test and does not reduce Tollens' reagent. It has a chiral centre. Identify the compound and draw its enantiomers. Justify your reasoning.",
+     "a": "Positive iodoform test → CH₃CO- group (methyl ketone) or CH₃CH(OH)- (secondary alcohol oxidisable to methyl ketone). No Tollens' reaction → not an aldehyde. Formula C₄H₈O₂ suggests hydroxy-ketone or diol. Chiral centre required. Only structure: **3-hydroxybutan-2-one (CH₃COCH(OH)CH₃)** — C-3 is chiral (attached to H, OH, CH₃, COCH₃). Enantiomers are non-superimposable mirror images. A wrong answer (e.g., butan-2,3-dione) fails iodoform test or chirality check. This tests multi-concept integration: spectroscopy + isomerism + reactivity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple laboratory experiment to distinguish between a pair of enantiomers (e.g., (R)- and (S)-2-butanol) using only standard Class 11 lab reagents and equipment. Explain the principle.",
+     "a": "Enantiomers have identical physical properties in achiral environments. They can only be distinguished in a **chiral environment**. Class 11 feasible method: **Convert to diastereomers** using a chiral derivatizing agent (e.g., (R)-(-)-mandelic acid or (1R,2S)-(-)-ephedrine) via esterification. Diastereomers have different physical properties (BP, solubility, TLC Rf) and can be separated by fractional distillation or crystallisation. Alternatively, use **polarimetry**: measure optical rotation of each pure enantiomer — equal magnitude, opposite sign. A poor answer suggesting \"use TLC directly\" or \"measure boiling point\" reveals ignorance that enantiomers cannot be separated/distinguished by achiral methods.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

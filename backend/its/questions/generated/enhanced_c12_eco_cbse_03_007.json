@@ -34,6 +34,26 @@
      "q": "Construct a numerical example (with at least 5 output levels) showing TC, TVC, TFC, SAC, and SMC where SMC first falls, then rises, and cuts SAC at its minimum. Present in a table.",
      "a": "Example: TFC = 100. TVC: Q=1→50, Q=2→90, Q=3→120, Q=4→160, Q=5→220. Then TC = TFC+TVC. SAC = TC/Q. SMC = ΔTC/ΔQ. Table: Q=1: TC=150, SAC=150, SMC=50; Q=2: TC=190, SAC=95, SMC=40; Q=3: TC=220, SAC=73.3, SMC=30; Q=4: TC=260, SAC=65, SMC=40; Q=5: TC=320, SAC=64, SMC=60. SAC minimum at Q=5 (64), SMC at Q=4 is 40, at Q=5 is 60 — SMC crosses SAC between Q=4 and Q=5. A poor answer uses arbitrary numbers that don't reflect diminishing returns (e.g., TVC linear) or miscalculates SMC as TC/Q.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Short-run cost curves ______ represent how Total Cost (TC), Total Variable Cost (TVC), Total Fixed Cost (TFC), Short-run Average Cost (SAC), and Short-run Marginal Cost (SMC) behave as output changes when at least one factor of production is fixed.",
+     "a": "graphically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small ______ stall near a Delhi metro station.",
+     "a": "pakora",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can sketch and label all five short-run cost curves (TC, TVC, TFC, SAC, SMC) on correct axes, explain the economic reason for each curve's shape using the Law of Variable Proportions, and identify the exact output level where SMC intersects SAC and AVC at their minimum points.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you run a small pakora stall near a Delhi metro station.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

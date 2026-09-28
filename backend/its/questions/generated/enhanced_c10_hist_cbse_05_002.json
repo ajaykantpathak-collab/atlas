@@ -34,6 +34,26 @@
      "q": "Create a labelled diagram (described in words) showing the workflow of Gutenberg's workshop from blank paper to finished quire, including the roles of the compositor, inkers, pressman, and corrector. Highlight one stage where *human error* could still introduce variations between copies.",
      "a": "Workflow: 1. Punch-cutting (master letter) → 2. Matrix (copper mould) → 3. Casting type (molten alloy) → 4. Compositor sets type in composing stick → 5. Forme locked in chase → 6. Inkers apply oil-based ink → 7. Pressman pulls bar (two pulls per sheet) → 8. Corrector checks proofs → 9. Sheets dried, folded into quires. Human error stage: **Compositor's setting** — a misplaced letter or upside-down sort creates a variant that repeats in every copy of that forme until corrected. A poor answer omits the corrector or treats the process as fully automated, missing that early print still relied on skilled labour at every step.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The invention of the movable-type printing press by Johannes Gutenberg in Mainz, Germany around 1448, which used metal alloys for type, oil-based ink, and a modified wine press to mechanise book production, marking the beginning of mass ______ in Europe.",
+     "a": "communication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are visiting a museum in Delhi and see a replica of the ______ press — you wonder how a machine from 15th-century Germany connects to the textbooks you hold today.",
+     "a": "Gutenberg",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The invention of the movable-type printing press by Johannes Gutenberg in Mainz, Germany around ______, which used metal alloys for type, oil-based ink, and a modified wine press to mechanise book production, marking the beginning of mass communication in Europe.",
+     "a": "1448",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain Gutenberg's three key innovations (movable metal type, oil-based ink, screw press) and analyse how each solved a specific limitation of manuscript production, and can trace the immediate spread of printing presses to over 270 European cities by 1500.",
+     "self_check": true
     }
    ]
   }

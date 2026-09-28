@@ -34,6 +34,26 @@
      "q": "Design a thought experiment using the Heisenberg uncertainty principle to show that an electron in a hypothetical \"Bohr orbit\" of radius 52.9 pm cannot have a well-defined velocity. Assume Δx ≈ 10% of the orbit radius. Calculate the minimum uncertainty in velocity and compare it to the Bohr velocity (2.19×10⁶ m/s). What conclusion do you draw?",
      "a": "Step 1: Δx = 0.10 × 52.9 pm = 5.29×10⁻¹² m. Step 2: Heisenberg: Δx Δp ≥ h/4π. Δp = m_e Δv. So Δv ≥ h/(4π m_e Δx). Step 3: h = 6.626×10⁻³⁴ J·s, m_e = 9.11×10⁻³¹ kg. Δv ≥ 6.626×10⁻³⁴ / (4π × 9.11×10⁻³¹ × 5.29×10⁻¹²) ≈ 1.1×10⁶ m/s. Step 4: Bohr velocity v = 2.19×10⁶ m/s. Uncertainty Δv is ~50% of v. Step 5: Conclusion: The velocity is not well-defined; the concept of a precise orbit is untenable. A poor answer that calculates Δv but doesn't compare to v or draw the conceptual conclusion shows procedural knowledge without physical insight.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Bohr's model of the hydrogen atom ______ explains the stability and line spectrum of hydrogen and hydrogen-like ions (He⁺, Li²⁺, Be³⁺) by postulating quantized circular orbits with fixed energies.",
+     "a": "successfully",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a high-resolution hydrogen spectrum in a ______ lab or a YouTube video of the Balmer series – you will see that some \"single\" lines (like H-alpha at 656 nm) are actually two very close lines (a doublet).",
+     "a": "spectroscopy",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a high-resolution hydrogen spectrum in a spectroscopy lab or a YouTube video of the Balmer series – you will see that some \"single\" lines (like H-alpha at ______ nm) are actually two very close lines (a doublet).",
+     "a": "656",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can list at least four specific limitations of Bohr's model with correct scientific terminology, explain why each limitation arises from the model's assumption of fixed circular orbits, and connect these failures to the need for the quantum mechanical model (de Broglie duality and Heisenberg uncertainty principle).",
+     "self_check": true
     }
    ]
   }

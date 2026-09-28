@@ -34,6 +34,26 @@
      "q": "Create a decision-making framework for a small entrepreneur in Jaipur setting up a pottery unit. The entrepreneur has ₹5 lakh capital and access to 5 skilled artisans. List the 4 key pieces of data they need, the 3-step process to choose between hand-moulding (labour-intensive) and machine-moulding (capital-intensive), and the final economic criterion for the decision.",
      "a": "**Key Data Needed**: (1) Daily wage rate for artisans, (2) Daily rental cost of moulding machine, (3) Output per day per artisan (hand) vs per machine, (4) Number of artisans vs machines needed for target output.\n**3-Step Process**: \n1. Calculate total daily cost of hand-moulding for target output (wage × artisans needed).\n2. Calculate total daily cost of machine-moulding for same output (rental × machines needed + operator wages).\n3. Compare total costs.\n**Final Criterion**: Choose the technique with the **lower total cost per unit of output** (cost-minimisation).\nA poor answer listing only \"buy machine if cheap\" or \"hire workers if many available\" without the cost-comparison framework reveals the student treats the decision as a rule-of-thumb rather than a systematic economic calculation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The choice of production method refers to the economic decision of selecting the optimal combination of factors of production (primarily labour and capital) to produce a given quantity of output, where the choice is between labour-intensive techniques (using more labour per unit of capital) and capital-intensive techniques (using more capital per unit of labour), guided by the objective of cost ______ given prevailing factor prices.",
+     "a": "minimisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small garment manufacturer in Tiruppur, Tamil Nadu, deciding whether to stitch 500 shirts using 20 tailors on manual sewing machines (labour-intensive) or 2 tailors operating ______ stitching units (capital-intensive).",
+     "a": "automated",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compare two distinct production techniques for the same good using given factor prices (wage rate and rental rate), calculate the total cost of production for each technique, identify the cost-minimising technique, and explain how a change in relative factor prices (e.g., a rise in wages) would alter the optimal choice.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small garment ______ in Tiruppur, Tamil Nadu, deciding whether to stitch 500 shirts using 20 tailors on manual sewing machines (labour-intensive) or 2 tailors operating automated stitching units (capital-intensive).",
+     "a": "manufacturer",
+     "self_check": true
     }
    ]
   }

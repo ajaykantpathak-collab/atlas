@@ -34,6 +34,26 @@
      "q": "Design a 5-step \"Link Safety Checklist\" a Class 12 student can use on their phone before tapping any link received via WhatsApp/email. Each step must be actionable without technical tools.",
      "a": "1. **Context Check**: Is the message unsolicited, urgent, threatening, or offering unrealistic rewards? (Social engineering red flag) 2. **Sender Verification**: Does the sender's email/phone match the official contact? (Check independently, not via reply) 3. **Domain Inspection**: Long-press link → \"Copy link address\" → paste in notes. Identify the registered domain (rightmost two labels). Does it match the claimed organisation exactly? 4. **Subdomain/Path Scan**: Look for deceptive subdomains (e.g., \"sbi.attacker.com\"), misspellings (paypa1.com), or suspicious paths (/login, /verify, /update). 5. **Manual Navigation**: If unsure, open browser and type the known official URL (e.g., sbi.co.in) manually. A poor answer lists generic advice (\"be careful\") without concrete, ordered steps — indicating the student hasn't internalised a repeatable procedure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Safe browsing habits refer to the practices users adopt to protect their data and privacy while navigating the web, centred on verifying HTTPS encryption, validating digital ______ issued by trusted Certificate Authorities (CAs), and identifying suspicious links that may lead to phishing, malware, or credential theft.",
+     "a": "certificates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive a ______ message: \"Your SBI account will be closed!",
+     "a": "WhatsApp",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How do you decide in ______ seconds whether this link will steal your credentials or is genuine?",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) explain how HTTPS uses TLS/SSL to encrypt data in transit and why the padlock icon alone is insufficient proof of legitimacy, (2) inspect a certificate's issuer, validity period, and subject alternative names to detect spoofed or expired certificates, and (3) apply a systematic checklist (URL structure, domain age.",
+     "self_check": true
     }
    ]
   }

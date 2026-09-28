@@ -34,6 +34,31 @@
      "q": "Design a genotype for a custom E. coli strain optimized for cloning AT-rich, unstable inserts from a eukaryotic genome. List five mutations you would include and the specific problem each solves.",
      "a": "Example answer: recA1 (prevents recombination of repetitive AT-rich sequences), endA1 (clean plasmid yield), hsdR17 (accepts unmethylated eukaryotic DNA), gyrA96 (nalidixic acid resistance for counter-selection), and lacZΔM15 (blue-white screening). Additional valid mutations: mcrA/mcrBC/mrr (for methylated DNA), tonA (phage T1 resistance). A poor answer lists random markers without linking each to AT-rich/eukaryotic DNA challenges.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: E. coli is the most widely used prokaryotic host for gene cloning due to its well-characterized genetics, rapid growth (doubling time ~20 min), high ______ efficiency, and ability to maintain plasmid vectors; specific laboratory strains (e.g., DH5α, HB101, JM109) carry mutations such as recA1 (reduces recombination), endA1 (lacks endonuclease I for better plasmid yield), and hsdR17 (defective restriction-modification system) that enhance cloning stability and plasmid quality.",
+     "a": "transformation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just cut your gene of interest and a plasmid vector with EcoRI, ligated them, and now you need to transform bacteria to amplify the ______ plasmid.",
+     "a": "recombinant",
+     "self_check": true
+    },
+    {
+     "q": "What is E. coli? State the definition given in this lesson.",
+     "a": "E. coli is the most widely used prokaryotic host for gene cloning due to its well-characterized genetics, rapid growth (doubling time ~20 min), high transformation efficiency, and ability to maintain plasmid vectors; specific laboratory strains (e.g., DH5α, HB101, JM109) carry mutations such as recA1 (reduces recombination), endA1 (lacks.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about E. coli?",
+     "a": "Students often think \"any E. coli strain works for cloning\" and pick BL21(DE3) for routine plasmid propagation because it's \"common in the lab.\" They miss that BL21 is an expression strain: it is recA⁺ (so plasmids rearrange), endA⁺ (poor miniprep quality), and hsdR⁺ (restricts foreign DNA).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can list at least three common E. coli cloning strains, write their key genotype markers (recA, endA, hsdR, lacZΔM15, etc.), and explain how each mutation improves plasmid propagation or cloning efficiency.",
+     "self_check": true
     }
    ]
   }

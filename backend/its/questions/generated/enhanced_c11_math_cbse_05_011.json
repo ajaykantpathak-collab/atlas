@@ -34,6 +34,16 @@
      "q": "Construct a quadratic equation with real coefficients whose roots are \\(3 + 4i\\) and \\(3 - 4i\\). Then create a different quadratic equation (with integer coefficients) having the same roots.",
      "a": "Sum of roots = \\((3+4i)+(3-4i) = 6\\). Product = \\((3+4i)(3-4i) = 9 - 16i^2 = 9 + 16 = 25\\). Equation: \\(x^2 - 6x + 25 = 0\\). For integer coefficients with same roots, multiply by any non-zero integer: \\(2x^2 - 12x + 50 = 0\\) or \\(5x^2 - 30x + 125 = 0\\). A poor answer (e.g., using only one root, or getting product wrong as \\(9+16i\\)) reveals failure to apply the conjugate pair property and the sum/product relationships.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You need to find where the arch ______ the ground (h = 0).",
+     "a": "touches",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You need to find where the arch touches the ground (h = ______).",
+     "a": "0",
+     "self_check": true
     }
    ]
   }

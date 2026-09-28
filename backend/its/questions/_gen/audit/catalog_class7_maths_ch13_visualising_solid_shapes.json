@@ -45,9 +45,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "edges = 12"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c7m13.2.1",
@@ -90,9 +88,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "vol = 5 * 9 * 8"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c7m13.3.1",
@@ -138,9 +134,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "edges = 18"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c7m13.4.1",
@@ -183,9 +177,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "t1 = 4 / 2"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c7m13.4.2",
@@ -228,9 +220,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "t1 = 12 / 3"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c7m13.4.3",
@@ -322,9 +312,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "edges = 18"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c7m13.5.2",
@@ -370,9 +358,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "edges = 8"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c7m13.5.3",
@@ -418,9 +404,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "edges = 18"
-   ]
+   "steps_chain": []
   }
  ]
 }

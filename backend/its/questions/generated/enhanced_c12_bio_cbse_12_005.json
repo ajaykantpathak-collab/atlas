@@ -34,6 +34,31 @@
      "q": "Design a diagnostic algorithm using both ELISA and PCR for a suspected acute hepatitis B outbreak in a rural Maharashtra village. Justify the sequence and interpretation criteria.",
      "a": "**Algorithm**: Step 1: HBsAg ELISA (screening — cheap, high throughput). Step 2: If HBsAg+, do HBV DNA qPCR (quantify viral load, confirm active replication). Step 3: If HBsAg- but clinical suspicion high, do anti-HBc IgM ELISA (window period marker) + HBV DNA PCR (early detection). **Justification**: ELISA first for cost-effective screening; PCR for quantification (treatment decisions) and window period resolution. Good answer includes cost-turnaround trade-off; poor answer uses PCR first (wasteful) or ignores IgM for window period.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Molecular diagnosis refers to the use of molecular biology techniques — specifically ELISA (Enzyme-Linked ______ Assay) for protein/antigen/antibody detection and PCR (Polymerase Chain Reaction) for nucleic acid amplification — to identify pathogens, genetic mutations, or disease biomarkers at the molecular level with high sensitivity and specificity.",
+     "a": "Immunosorbent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Think of a doctor suspecting dengue in a ______ with high fever during monsoon in Delhi — they need to know *which* virus and *how much* virus is present.",
+     "a": "patient",
+     "self_check": true
+    },
+    {
+     "q": "What is Molecular diagnosis? State the definition given in this lesson.",
+     "a": "Molecular diagnosis refers to the use of molecular biology techniques — specifically ELISA (Enzyme-Linked Immunosorbent Assay) for protein/antigen/antibody detection and PCR (Polymerase Chain Reaction) for nucleic acid amplification — to identify pathogens, genetic mutations, or disease biomarkers at the molecular level with high.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Molecular diagnosis?",
+     "a": "Students think ELISA and PCR are interchangeable for pathogen detection — e.g., \"use PCR for everything because it's more sensitive.\" The exact wrong reasoning: they confuse detection target (protein/antibody vs nucleic acid) and biological question (current infection vs past exposure vs viral load).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the stepwise principle of both ELISA (antigen-antibody-enzyme cascade) and PCR (denaturation-annealing-extension cycles), distinguish their detection targets (protein vs nucleic acid), and justify which technique to choose for a given diagnostic scenario (e.g., HIV window period vs genetic mutation screening).",
+     "self_check": true
     }
    ]
   }

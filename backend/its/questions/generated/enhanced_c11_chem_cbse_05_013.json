@@ -34,6 +34,31 @@
      "q": "Design an experiment using only household materials (cooking oil, water, honey, identical spoons, stopwatch, ruler) to qualitatively compare the viscosities of these three liquids. Explain how you would ensure fair comparison, what you would measure, and how you would relate your observations to the molecular structures of these substances (triglycerides in oil, H₂O with hydrogen bonding, sugars with extensive -OH groups in honey).",
      "a": "Method: Pour equal volumes (e.g., 10 mL) of each liquid from identical spoons held at same height into a graduated cylinder. Time how long each takes to fully drain from the spoon (coating flow) or measure the time for a small steel ball (if available) to fall a fixed distance. Fair test: same temperature, same spoon geometry, same volume. Expected order: honey > oil > water. Relate to molecular structure: honey has extensive hydrogen bonding network from glucose/fructose -OH groups plus high molecular weight sugars; oil has long hydrocarbon chains with London forces and chain entanglement; water has small molecules with strong but short-range hydrogen bonds. A poor answer (e.g., \"honey is thickest because it's sweet\") reveals inability to connect macroscopic flow behavior to molecular-level interactions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Surface tension is the force per unit length acting perpendicular to a line drawn on the liquid surface (or energy per unit area required to increase the surface area), arising from unbalanced cohesive ______ forces at the liquid-air interface.",
+     "a": "intermolecular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ water striders walking on a pond surface in monsoon season - they exploit surface tension, not buoyancy.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What is Surface tension? State the definition given in this lesson.",
+     "a": "Surface tension is the force per unit length acting perpendicular to a line drawn on the liquid surface (or energy per unit area required to increase the surface area), arising from unbalanced cohesive intermolecular forces at the liquid-air interface.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can derive the relationship between surface tension and excess pressure in curved interfaces (ΔP = 2γ/r for spherical droplets, 4γ/r for bubbles), apply the temperature dependence of viscosity using the Arrhenius-type equation to calculate activation energy for viscous flow, and predict the relative magnitudes of surface tension.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe water ______ walking on a pond surface in monsoon season - they exploit surface tension, not buoyancy.",
+     "a": "striders",
+     "self_check": true
     }
    ]
   }

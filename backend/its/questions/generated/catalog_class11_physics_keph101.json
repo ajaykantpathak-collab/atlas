@@ -1,0 +1,52 @@
+{
+ "catalog": "catalog_class11_physics_keph101.json",
+ "concepts": [
+  {
+   "id": "keph101.1.5.2",
+   "title": "Volume and Density from Measured Dimensions",
+   "converted_to_compute": true,
+   "formula": "volume = length * breadth * thickness",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "volume = length * breadth * thickness",
+     "compute": "volume = length * breadth * thickness"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Volume and Density from Measured Dimensions: given length = 136, breadth = 77, thickness = 376, find volume.",
+     "a": "3937472",
+     "self_check": false
+    },
+    {
+     "q": "For Volume and Density from Measured Dimensions: given length = 4.6, breadth = 7.2, thickness = 323, find volume.",
+     "a": "10697.8",
+     "self_check": false
+    },
+    {
+     "q": "For Volume and Density from Measured Dimensions: given length = 361, breadth = 43, thickness = 326, find volume.",
+     "a": "5060498",
+     "self_check": false
+    },
+    {
+     "q": "For Volume and Density from Measured Dimensions: given length = 249, breadth = 77, thickness = 91, find volume.",
+     "a": "1744743",
+     "self_check": false
+    },
+    {
+     "q": "For Volume and Density from Measured Dimensions: given length = 272, breadth = 89, thickness = 46, find volume.",
+     "a": "1113568",
+     "self_check": false
+    },
+    {
+     "q": "For Volume and Density from Measured Dimensions: given length = 433, breadth = 91, thickness = 483, find volume.",
+     "a": "19031649",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

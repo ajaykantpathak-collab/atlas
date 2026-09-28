@@ -34,6 +34,26 @@
      "q": "Construct a 3×3 matrix with integer entries between −5 and 5 such that its determinant is exactly 12. Explain your strategy.",
      "a": "Strategy: Start with a diagonal matrix diag(3, 2, 2) → det = 12. Or upper triangular with diagonal (3, 2, 2) and arbitrary entries above. Example: [[3, 1, −2], [0, 2, 4], [0, 0, 2]]. Check: expansion along first column gives 3 × |2 4; 0 2| = 3 × 4 = 12. A poor answer (random guessing, or giving a matrix with det ≠ 12) shows inability to use triangular structure to control determinant value — a skill needed for constructing examples in competitive exams.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ of a 2×2 matrix A = [[a, b], [c, d]] is the scalar value ad − bc, denoted |A| or det(A).",
+     "a": "determinant",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a surveyor measuring a ______ plot of land in a village in Maharashtra.",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly compute determinants of 2×2 and 3×3 matrices with numerical and algebraic entries, choose the optimal row/column for expansion to minimise computation, and identify when a determinant evaluates to zero without full expansion by spotting proportional rows/columns or zero rows/columns.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a surveyor measuring a triangular plot of land in a village in ______.",
+     "a": "Maharashtra",
+     "self_check": true
     }
    ]
   }

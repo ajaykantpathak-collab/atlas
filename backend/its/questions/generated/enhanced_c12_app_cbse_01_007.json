@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_01_007",
+   "title": "c12_app_cbse_01_007",
+   "questions": [
+    {
+     "q": "State the rule of alligation for two ingredients with cost prices c (cheaper) and d (dearer) to obtain a mixture of mean price m. Write the ratio of quantities (cheaper : dearer) in terms of c, d, and m.",
+     "a": "The ratio of cheaper quantity to dearer quantity is (d - m) : (m - c). A wrong answer like (m - c) : (d - m) or (m - d) : (c - m) reveals the student has memorized the diagram mechanically without understanding that the *dearer* ingredient's distance from the mean determines the *cheaper* ingredient's share — the \"cross\" in alligation is literal.",
+     "self_check": true
+    },
+    {
+     "q": "A mixture contains milk and water in the ratio 7:3. If 10 litres of the mixture is replaced by 10 litres of water, the new ratio becomes 7:5. Explain why the quantity of milk remains unchanged in this operation, and use this to find the initial volume of the mixture.",
+     "a": "Milk quantity is unchanged because only mixture (milk+water) is removed and pure water is added — no milk is added or removed separately. Let initial volume be V litres. Milk initially = (7/10)V. After removing 10L mixture, milk left = (7/10)(V - 10). This equals final milk = (7/12)V (since new ratio 7:5 means milk is 7/12 of total V). Solving: (7/10)(V - 10) = (7/12)V → V = 60 litres. A wrong answer reveals the student thinks \"replacement\" changes both components equally, missing that the *removed mixture* has the *same ratio* as the original.",
+     "self_check": true
+    },
+    {
+     "q": "A trader mixes 20 kg of tea costing ₹150/kg with 30 kg of tea costing ₹200/kg. He sells the mixture at ₹210/kg. Find his profit percentage. (Use alligation to verify the mean cost price first.)",
+     "a": "Step 1: Alligation diagram: c=150, d=200, quantities 20:30 = 2:3. Mean price m satisfies (200 - m)/(m - 150) = 2/3 → 600 - 3m = 2m - 300 → 5m = 900 → m = ₹180/kg.\nStep 2: Total cost = 20×150 + 30×200 = 3000 + 6000 = ₹9000. Total qty = 50 kg. Cost price = ₹180/kg (verified).\nStep 3: Selling price = ₹210/kg. Profit = ₹30/kg. Profit% = (30/180)×100 = 16.67%.\nA wrong answer (e.g., using simple average ₹175) reveals the student ignores the quantity weights — alligation exists precisely because quantities are unequal.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two problems:\n(A) 10L milk is replaced by water, repeated 3 times. Initial milk = 50L. Find final milk.\n(B) 10L of a 50L milk-water mixture (ratio 3:2) is replaced by water, repeated 3 times. Find final milk.\nExplain why the formula x(1 - y/x)^n works for (A) but needs modification for (B).",
+     "a": "In (A), the container has *pure milk* initially, so every removal takes out pure milk. The fraction of milk remaining after each step is (1 - 10/50) = 4/5. After 3 steps: 50 × (4/5)^3 = 25.6 L.\nIn (B), initial milk = 30L (3/5 of 50L). When 10L mixture is removed, milk removed = (3/5)×10 = 6L. Milk left = 24L. The fraction of *milk* remaining is 24/30 = 4/5 — same as (A)! But this is coincidental because the mixture ratio equals the removal fraction. Generally, if initial milk = M, total volume = V, removal = y, then milk after one replacement = M(1 - y/V). The formula M(1 - y/V)^n works for *milk quantity* in both cases, but students often mistakenly apply x(1 - y/x)^n to the *total mixture* in (B). The key difference: in (A), x = initial milk = total volume; in (B), they differ.",
+     "self_check": true
+    },
+    {
+     "q": "A shopkeeper claims: \"I mix two types of rice costing ₹40/kg and ₹60/kg in the ratio 3:2 and sell at ₹55/kg, making 10% profit.\" Evaluate this claim. Is it mathematically consistent? If not, what should the selling price be for a 10% profit?",
+     "a": "Mean cost price by alligation: (60 - m)/(m - 40) = 3/2 → 120 - 2m = 3m - 120 → 5m = 240 → m = ₹48/kg.\nFor 10% profit, selling price = 48 × 1.1 = ₹52.80/kg.\nThe claim of ₹55/kg implies profit% = (55-48)/48 × 100 = 14.58%, not 10%. The claim is **inconsistent**.\nA wrong evaluation (e.g., accepting the claim) reveals the student cannot reverse-engineer alligation to verify mean price, or confuses profit on cost vs. profit on selling price.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world alligation problem where the mean price is *closer to the dearer ingredient* than the cheaper one. Specify all prices and the ratio. Then modify it into a replacement problem: \"A container has X litres of pure [substance]. Y litres is removed and replaced with [other substance], repeated n times. Find final quantity of pure substance.\" Ensure your numbers yield a non-integer final answer.",
+     "a": "Example: Tea at ₹120/kg (cheaper) and ₹200/kg (dearer) mixed to get ₹170/kg. Ratio = (200-170):(170-120) = 30:50 = 3:5. Mean ₹170 is closer to ₹200 (dearer), so dearer tea is used *less* (3 parts vs 5 parts) — this often confuses students who think \"closer price = more quantity\".\nReplacement version: \"A container has 80L pure ghee. 8L is removed and replaced with vanaspati, repeated 4 times. Find final ghee.\" Answer: 80 × (1 - 8/80)^4 = 80 × (0.9)^4 = 80 × 0.6561 = 52.488 L.\nA poor answer uses integer-friendly numbers (e.g., 10L from 50L, n=2) revealing the student avoids decimal computations — but board exams often have non-integer answers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

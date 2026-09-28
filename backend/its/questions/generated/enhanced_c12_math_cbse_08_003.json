@@ -34,6 +34,31 @@
      "q": "Create a real-world problem (Indian context) where finding the area between two curves is necessary. Define the curves, the interval, and explain what the area represents physically.",
      "a": "Example: A farmer in Punjab has a field bounded by two irrigation canals. Canal A follows y = 4 - x² (in km) and Canal B follows y = x + 1, between their intersection points. The farmer wants to plant wheat in the region between the canals. Find the cultivable area.\nIntersections: 4 - x² = x + 1 → x² + x - 3 = 0 → x = [-1 ± √13]/2 ≈ -2.30, 1.30.\nOn this interval, 4 - x² ≥ x + 1. Area = ∫[(-1-√13)/2 to (-1+√13)/2] [(4 - x²) - (x + 1)] dx = ∫ (3 - x - x²) dx.\nThis represents the land area in km² between two curved boundaries. A good answer includes: clear physical interpretation, correct intersection finding, proper upper/lower identification, and correct integral setup. A poor answer uses straight lines instead of curves, or forgets that area represents cultivable land.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The area between two curves y = f(x) and y = g(x) from x = a to x = b, where f(x) ≥ g(x) for all x ∈ [a, b], is given by the definite integral of the ______ of the functions: Area = ∫[a to b] [f(x) - g(x)] dx.",
+     "a": "difference",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a garden path between two ______ hedges — one shaped like y = x² and the other like y = x + 2.",
+     "a": "curved",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a garden path between two curved hedges — one shaped like y = x² and the other like y = x + ______.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently: (1) sketch both curves and identify the upper/lower functions over the interval, (2) find intersection points algebraically to determine integration limits, (3) set up and evaluate ∫|f(x) - g(x)| dx correctly splitting at intersections, (4) choose vertical or horizontal strips appropriately based on curve.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a garden path between two curved hedges — one shaped like y = x² and the other like y = x + 2.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

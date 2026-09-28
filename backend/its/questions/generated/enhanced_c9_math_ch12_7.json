@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch12_7",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch12_7",
+   "title": "c9_math_ch12_7",
+   "questions": [
+    {
+     "q": "State the *minimum* additional condition needed to guarantee that a parallelogram is (a) a rectangle, (b) a rhombus, and (c) a square.",
+     "a": "(a) One angle = 90° (b) All four sides equal (c) Both conditions together (one angle 90° AND all sides equal) — or equivalently, it is both a rectangle and a rhombus.  \nA wrong answer like \"diagonals are equal\" for (a) shows the student confuses a *property* (which follows from the definition) with the *defining condition*. For (b), saying \"diagonals are perpendicular\" confuses a derived property with the definition. For (c), listing only \"diagonals are equal and perpendicular\" misses that these are consequences, not the definition.",
+     "self_check": true
+    },
+    {
+     "q": "In a rhombus ABCD, diagonal AC is drawn. A student claims that ∠BAC = ∠DAC because \"diagonals of a rhombus bisect the angles.\" Is this *always* true? Explain why or why not using the definition of a rhombus and triangle congruence.",
+     "a": "Yes, it is always true. In rhombus ABCD, AB = AD (all sides equal) and AC is common. Also, BC = DC. So ΔABC ≅ ΔADC by SSS. Hence ∠BAC = ∠DAC (CPCT). The diagonal bisects the vertex angle.  \nA wrong answer (e.g., \"only if it's a square\") reveals the student thinks angle bisection by diagonals is a square-only property, not a rhombus property. They likely confuse \"diagonals are perpendicular\" (true for rhombus) with \"diagonals bisect angles\" (also true for rhombus) and mistakenly attribute both only to squares.",
+     "self_check": true
+    },
+    {
+     "q": "The diagonals of a rectangle are 10 cm and 10 cm. The diagonals of a rhombus are 12 cm and 16 cm. Find the side length of each quadrilateral.",
+     "a": "Rectangle: Diagonals are equal and bisect each other. Each half-diagonal = 5 cm. The diagonals do *not* meet at right angles in a general rectangle, so we cannot use Pythagoras directly on half-diagonals. But we know the rectangle's sides are unknown; we cannot find side length from diagonal alone without more info (e.g., one side or angle). So **side length cannot be determined** from diagonal length only.  \nRhombus: Diagonals are perpendicular bisectors. Half-diagonals = 6 cm and 8 cm. They form a right triangle with the side as hypotenuse. Side = √(6² + 8²) = √(36+64) = √100 = 10 cm.  \nA wrong answer of \"10 cm for both\" shows the student incorrectly assumes rectangle diagonals are perpendicular (a square property) and applies Pythagoras to the rectangle as well.",
+     "self_check": true
+    },
+    {
+     "q": "A quadrilateral has diagonals that are equal in length and bisect each other at right angles. Must it be a square? Justify your answer by analyzing the properties of rectangles and rhombuses.",
+     "a": "Yes, it must be a square. Equal diagonals that bisect each other → parallelogram with equal diagonals → rectangle (all angles 90°). Diagonals bisecting at right angles → parallelogram with perpendicular diagonals → rhombus (all sides equal). A quadrilateral that is both a rectangle and a rhombus is a square.  \nA wrong answer like \"could be a rhombus with equal diagonals\" shows the student doesn't realize that a rhombus with equal diagonals forces all angles to be 90° (since diagonals of a rhombus are perpendicular; if also equal, the half-diagonals form isosceles right triangles, making vertex angles 90°).",
+     "self_check": true
+    },
+    {
+     "q": "A student proves that a quadrilateral is a square by showing: (1) opposite sides are parallel, (2) all sides are equal, (3) one angle is 90°. They conclude it is a square. Is this proof complete and logically ordered? If not, what is missing or redundant?",
+     "a": "The proof is logically sufficient but has a redundant step. (1) + (2) → it is a rhombus (parallelogram with all sides equal). (3) one angle 90° in a rhombus → all angles 90° (since adjacent angles are supplementary in a parallelogram). So it is a square. Step (1) is actually implied by (2) if we use the definition \"rhombus = parallelogram with all sides equal\", but the student must establish it is a parallelogram first. A better order: prove it's a parallelogram (e.g., opposite sides parallel), then all sides equal → rhombus, then one angle 90° → square.  \nA wrong answer like \"it's complete and perfect\" misses the subtle logical dependency: \"all sides equal\" alone doesn't guarantee a parallelogram (a kite has all sides equal but isn't a parallelogram). The student must explicitly use the parallelogram property.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a problem where a carpenter checks if a wooden frame is a perfect rectangle by measuring only the diagonals. Write the problem statement, the mathematical principle used, and the condition under which this method fails.",
+     "a": "Problem: A carpenter builds a frame with opposite sides equal. He measures both diagonals and finds them equal. He concludes the frame is a rectangle. Is he correct?  \nPrinciple: A parallelogram with equal diagonals is a rectangle.  \nFailure condition: If the frame is *not* a parallelogram (e.g., an isosceles trapezium also has equal diagonals), the method fails. The carpenter must first ensure opposite sides are parallel (or equal) to guarantee it's a parallelogram.  \nA poor answer that omits the \"must be a parallelogram first\" condition reveals the student doesn't understand that \"equal diagonals ⇒ rectangle\" is a theorem *about parallelograms*, not about all quadrilaterals.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

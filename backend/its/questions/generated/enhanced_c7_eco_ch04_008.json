@@ -34,6 +34,31 @@
      "q": "Design a simple three-step transaction flow showing how Riya transfers ₹500 from her bank account to her friend Kabir using a mobile UPI application.",
      "a": "A complete answer must include: \n1. Riya opens her UPI app, enters Kabir's Virtual Payment Address (VPA) or scans his QR code, and types the amount ₹500. \n2. Riya enters her secret 4-digit or 6-digit UPI PIN to authorize the transfer. \n3. The banking network instantly debits ₹500 from Riya's account and credits ₹500 to Kabir's account, sending a success notification to both. \nA poor answer misses the security authorization step (UPI PIN) or fails to show the dual movement of debit and credit between accounts.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Payment systems refer to the methods and networks—such as cheques, Unified Payments Interface (UPI), and mobile wallets—that allow ______ and businesses to securely transfer funds from one bank account to another without needing physical cash.",
+     "a": "individuals",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a local vegetable ______ in your city, and you want to buy fresh tomatoes worth ₹250.",
+     "a": "market",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify the appropriate payment method (cheque, UPI, or digital wallet) for a given financial transaction based on speed, convenience, and transaction size, and can trace how funds move between two bank accounts during a digital transfer.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a local ______ market in your city, and you want to buy fresh tomatoes worth ₹250.",
+     "a": "vegetable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a local vegetable market in your city, and you want to buy fresh tomatoes worth ₹______.",
+     "a": "250",
+     "self_check": true
     }
    ]
   }

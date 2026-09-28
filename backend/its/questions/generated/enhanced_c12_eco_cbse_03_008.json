@@ -34,6 +34,26 @@
      "q": "A startup in Bengaluru produces software services. It currently uses a small team (SAC₁) but plans to scale. Create a hypothetical table of SAC values for three team sizes (small, medium, large) at outputs 10, 20, 30, 40 projects/month. Then derive the LRAC values and state the optimal team size for each output.",
      "a": "Example table (costs in ₹ lakhs/project):\nOutput | SAC_small | SAC_medium | SAC_large\n10 | 5.0 | 6.0 | 8.0\n20 | 4.5 | 4.0 | 5.5\n30 | 5.5 | 3.8 | 4.2\n40 | 7.0 | 4.5 | 4.0\n\nLRAC = minimum of each column: q=10 → 5.0 (small), q=20 → 4.0 (medium), q=30 → 3.8 (medium), q=40 → 4.0 (large).\nOptimal team: small at 10, medium at 20–30, large at 40.\nA poor answer would just copy one row or average columns. A good answer shows the envelope logic: at each output, pick the lowest SAC. This tests ability to operationalize the envelope concept with discrete data — a common board exam table question.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Long Run Average Cost (LRAC) curve is the envelope of a family of Short Run Average Cost (SAC) curves, ______ the minimum possible average cost of producing each output level when all inputs are variable and the firm can choose any plant size.",
+     "a": "representing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a textile manufacturer in Surat ______ operating a small factory (SAC₁) producing 1,000 metres of fabric per day.",
+     "a": "currently",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) draw and label the LRAC as the envelope of at least three SAC curves, (2) identify the output range where each SAC is the cost-minimizing plant size, (3) explain why the LRAC is U-shaped using returns to scale, and (4) calculate the long-run average cost for a given output by selecting the appropriate SAC from a table.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a textile ______ in Surat currently operating a small factory (SAC₁) producing 1,000 metres of fabric per day.",
+     "a": "manufacturer",
+     "self_check": true
     }
    ]
   }

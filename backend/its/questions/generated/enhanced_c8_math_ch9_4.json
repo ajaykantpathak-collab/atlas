@@ -34,6 +34,26 @@
      "q": "Create a real-life problem (in an Indian context) that requires finding the leg length of an isosceles right triangle when the hypotenuse is given. The problem must involve a square object or area. Write the problem and solve it completely.",
      "a": "Example problem: \"A square rangoli design has a diagonal of length \\(30\\sqrt{2}\\) cm. What is the side length of the square? If you want to put a lace border around the square, how many cm of lace do you need?\" Solution: Diagonal = side \\(\\times \\sqrt{2}\\). So side \\(\\times \\sqrt{2} = 30\\sqrt{2} \\Rightarrow\\) side = 30 cm. Perimeter = \\(4 \\times 30 = 120\\) cm of lace. A good answer shows the inverse relationship and connects to perimeter. A poor answer might only find the side and forget the lace, or set up the equation incorrectly as side = \\(30\\sqrt{2} \\times \\sqrt{2} = 60\\) cm.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In an ______ right triangle, the two legs (sides forming the right angle) are equal in length.",
+     "a": "isosceles",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a ______ piece of paper with side length 10 cm.",
+     "a": "square",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a square piece of paper with side length ______ cm.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you have a square piece of paper with side length 10 cm.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

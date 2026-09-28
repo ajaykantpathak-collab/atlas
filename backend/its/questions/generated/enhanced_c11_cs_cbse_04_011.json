@@ -34,6 +34,26 @@
      "q": "Create a Python expression using exactly three operators from {+, -, *, /, //, %, **} and one pair of parentheses that evaluates to 100. The expression must use at least one integer and one float literal. Show the step-by-step evaluation.",
      "a": "Example: `(10.0 + 5) * 6 + 10` evaluates to 100.0. Steps: parentheses first: 10.0+5=15.0, then multiplication: 15.0*6=90.0, then addition: 90.0+10=100.0. A poor answer like `10 * 10` uses no parentheses and only one operator. An answer like `(5+5)**2` evaluates to 100 but uses only int literals (no float). An answer with wrong precedence like `10.0 + 5 * 6 + 10` gives 50.0, revealing inability to design expressions with intended evaluation order.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An expression in Python is a ______ of values, variables, operators, and function calls that evaluates to a single value.",
+     "a": "combination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're splitting a restaurant bill of ₹1,250 among 4 friends, but one friend had a ₹50 ______ coupon.",
+     "a": "discount",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must correctly evaluate any Python arithmetic expression containing +, -, *, /, //, %, operators with parentheses by applying precedence rules and associativity, and must predict the resulting data type (int or float) for each sub-expression.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're splitting a ______ bill of ₹1,250 among 4 friends, but one friend had a ₹50 discount coupon.",
+     "a": "restaurant",
+     "self_check": true
     }
    ]
   }

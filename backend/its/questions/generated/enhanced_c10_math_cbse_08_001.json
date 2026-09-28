@@ -34,6 +34,31 @@
      "q": "Create a real-world problem (using Indian context: rupees, metres, kg, litres) that requires finding an unknown side of a right triangle using one of sin, cos, or tan. The problem must include a diagram description and specify which angle is known. Provide the solution steps.",
      "a": "Example problem: A ladder 10 metres long leans against a vertical wall. The foot of the ladder is 6 metres away from the wall. Find the height at which the ladder touches the wall, and the angle the ladder makes with the ground.\nSolution: Let θ be the angle with ground. cos θ = adjacent/hypotenuse = 6/10 = 0.6 → θ ≈ 53°. Height = opposite = hypotenuse × sin θ = 10 × sin 53° ≈ 10 × 0.8 = 8 m. (Or use Pythagoras: height = √(10² - 6²) = 8 m). A poor answer (e.g., using tan with wrong sides) shows the student cannot map a word problem to a right triangle diagram and assign sides correctly to the trigonometric ratio.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In a right-angled triangle, for an acute angle θ, the ______ ratios are defined as: sine θ = length of side opposite to θ / length of hypotenuse, cosine θ = length of side adjacent to θ / length of hypotenuse, tangent θ = length of side opposite to θ / length of side adjacent to θ.",
+     "a": "trigonometric",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ 20 metres away from the base of a mobile tower in your neighbourhood and you want to find its height without climbing it.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing ______ metres away from the base of a mobile tower in your neighbourhood and you want to find its height without climbing it.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the opposite, adjacent, and hypotenuse sides relative to a given acute angle in any right triangle, write the three trigonometric ratios (sin, cos, tan) for that angle, and compute their values when side lengths are given.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing 20 metres away from the base of a mobile tower in your ______ and you want to find its height without climbing it.",
+     "a": "neighbourhood",
+     "self_check": true
     }
    ]
   }

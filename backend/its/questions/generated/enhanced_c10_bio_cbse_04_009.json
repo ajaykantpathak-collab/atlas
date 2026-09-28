@@ -34,6 +34,36 @@
      "q": "Design a simple field investigation a Class 10 student could do in a local sedimentary outcrop (e.g., road cut in the Deccan Traps or Siwalik Hills) to demonstrate relative dating using the law of superposition and fossil succession. List materials, steps, and how to record data.",
      "a": "Materials: notebook, pencil, camera, hand lens, measuring tape. Steps: (1) Sketch the vertical rock face showing distinct layers. (2) Label layers from bottom (oldest) to top (youngest). (3) In each layer, identify and photograph 2-3 distinct fossils. (4) Note fossil types change systematically (e.g., marine shells in lower layers → plant fossils in upper layers). (5) Conclude: lower layer fossils are older; succession shows environmental change over time. A poor answer (just \"dig and find fossils\") lacks systematic layer recording and fails to link fossil change to relative age.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Fossils are preserved remains or traces of organisms that lived in the past, providing direct evidence of evolution by showing structural changes over geological time; dating methods (relative ______ and absolute radiometric techniques like carbon-14 dating) determine the age of fossils to establish evolutionary timelines.",
+     "a": "stratigraphy",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you find a seashell ______ on a hilltop in the Shivalik Hills — how did a marine creature end up 2000 meters above sea level?",
+     "a": "fossil",
+     "self_check": true
+    },
+    {
+     "q": "What is Fossils? State the definition given in this lesson.",
+     "a": "Fossils are preserved remains or traces of organisms that lived in the past, providing direct evidence of evolution by showing structural changes over geological time; dating methods (relative stratigraphy and absolute radiometric techniques like carbon-14 dating) determine the age of fossils to establish evolutionary timelines.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Fossils are preserved remains or traces of organisms that lived in the past, providing direct evidence of evolution by showing structural changes over geological time; dating methods (relative stratigraphy and absolute radiometric techniques like carbon-______ dating) determine the age of fossils to establish evolutionary timelines.",
+     "a": "14",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Fossils?",
+     "a": "Students often think \"fossil dating gives an exact birthday\" — they treat radiometric dates as precise calendar years (e.g., \"this fossil is 1,234,567 years old\") rather than understanding the ± error margins (e.g., ± 40,000 years for K-Ar) and that carbon-14 dates require calibration curves due to atmospheric C-14 fluctuations.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain how fossils form and are dated, distinguish between relative and absolute dating with examples, and use fossil sequences to infer evolutionary relationships (e.g., horse evolution).",
+     "self_check": true
     }
    ]
   }

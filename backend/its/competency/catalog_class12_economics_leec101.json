@@ -71,7 +71,16 @@
      "explain": "the difference gives the percentage-point rise",
      "compute": "unemployment_rise = peak_rate - trough_rate"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "unemployment_rise = peak_rate - trough_rate",
+     "compute": "unemployment_rise = peak_rate - trough_rate"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leec.101.3",

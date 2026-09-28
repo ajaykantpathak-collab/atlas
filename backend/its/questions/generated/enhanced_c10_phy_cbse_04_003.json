@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a concave mirror, a candle, and a screen to determine the focal length of the mirror. Explain how you would use ray diagram principles to verify your result.",
      "a": "Place the concave mirror on a stand facing a distant object (tree/building > 50 m away). Adjust a screen until a sharp image forms — this distance is f (object at infinity → image at F). Verify: Place candle at 2f (use measured f), adjust screen — sharp image should form at 2f on other side (object at C → image at C, same size). Then place candle between f and 2f — image should form beyond 2f, magnified. If all three positions match ray diagram predictions, f is correct. Poor answer: only measures one position without cross-verification, revealing lack of understanding that ray diagrams predict consistent relationships across all positions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Image formation by a concave mirror is the process of locating the position, size, nature (real or virtual), and ______ (erect or inverted) of the image formed when light rays from an object reflect off the concave mirror's surface, constructed using any two of the three principal rays: (1) ray parallel to principal axis reflects through focus, (2) ray passing through centre of curvature reflects back along same path, (3) ray passing through focus reflects parallel to principal axis.",
+     "a": "orientation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the concave mirror in your school laboratory or a shiny metal spoon's inner surface — notice how your ______ appears inverted when the spoon is held at arm's length but becomes erect and magnified when brought close to your face.",
+     "a": "reflection",
+     "self_check": true
+    },
+    {
+     "q": "What is Image formation by a concave mirror? State the definition given in this lesson.",
+     "a": "Image formation by a concave mirror is the process of locating the position, size, nature (real or virtual), and orientation (erect or inverted) of the image formed when light rays from an object reflect off the concave mirror's surface, constructed using any two of the three principal rays: (1) ray parallel to principal axis reflects.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Draw the principal axis, mark P, F, C at correct scale (f = R/______).",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Image formation by a concave mirror?",
+     "a": "Students believe \"concave mirrors always form real, inverted images\" because they see inverted images in shaving mirrors or headlights.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently draw accurate ray diagrams for all six standard object positions (at infinity, beyond C, at C, between C and F, at F, between F and P) using correct ray paths, label all components (P, F, C, object, image), and state the four image characteristics (position, size, nature, orientation) for each case without.",
+     "self_check": true
     }
    ]
   }

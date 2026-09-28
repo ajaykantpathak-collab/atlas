@@ -34,6 +34,26 @@
      "q": "Create a pair of numbers between 50 and 100 whose HCF calculated by prime factorisation is exactly 14. Show the prime factorisation of your chosen numbers to prove your work.",
      "a": "An example of valid numbers is 70 and 84. Proof: $70 = 2^1 \\times 5^1 \\times 7^1$ and $84 = 2^2 \\times 3^1 \\times 7^1$. The common prime factors are 2 and 7, with lowest powers $2^1$ and $7^1$. Their product is $2 \\times 7 = 14$. Both numbers (70 and 84) lie between 50 and 100. A poor answer would choose numbers outside the range or numbers whose prime factorisation does not yield an HCF of 14 (e.g., sharing other common factors that inflate the HCF).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Prime ______ Method for finding the Highest Common Factor (HCF) involves expressing each given number as a product of its prime factors, and then finding the product of the lowest powers of all common prime factors.",
+     "a": "Factorisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are organizing a ______ cultural festival and have 72 red ribbons and 90 blue ribbons.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can find the HCF of two or three numbers (up to 3 digits each) by systematically writing out their prime factorisation using factor trees or division bars, identifying common prime factors, and multiplying their lowest powers to determine the correct HCF.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a school cultural festival and have 72 red ribbons and 90 blue ribbons.",
+     "a": "organizing",
+     "self_check": true
     }
    ]
   }

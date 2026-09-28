@@ -24,12 +24,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "sum the parallel sides",
+    {
+     "step": 1,
+     "action": "sum the parallel sides",
      "explain": "Add side_a and side_b.",
-     "compute": "side_sum = side_a + side_b"},
-    {"step": 2, "action": "average and multiply by height",
+     "compute": "side_sum = side_a + side_b"
+    },
+    {
+     "step": 2,
+     "action": "average and multiply by height",
      "explain": "Half the sum times the height gives the area.",
-     "compute": "area = side_sum / 2 * height"}
+     "compute": "area = side_sum / 2 * height"
+    }
    ]
   },
   {
@@ -48,15 +54,33 @@
     "the diagonal and perpendiculars are given - find the polygon's area",
     "compute the total area of the composite plot"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "choose the splitting line",
-     "explain": "Draw one diagonal or base on which the parts stand."},
-    {"step": 2, "action": "compute each part",
-     "explain": "Triangles use half base times height; trapeziums use the average formula."},
-    {"step": 3, "action": "add the areas",
-     "explain": "The sum rebuilds the full polygon area."}
-   ]
+    {
+     "step": 1,
+     "action": "choose the splitting line",
+     "explain": "Draw one diagonal or base on which the parts stand."
+    },
+    {
+     "step": 2,
+     "action": "compute each part",
+     "explain": "Triangles use half base times height; trapeziums use the average formula."
+    },
+    {
+     "step": 3,
+     "action": "add the areas",
+     "explain": "The sum rebuilds the full polygon area."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the quadrilateral area formula",
+     "explain": "apply the quadrilateral area formula: area = 4 * 24 gives 96",
+     "compute": "area = 4 * 24"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hemh.109.9.3",
@@ -76,12 +100,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "compute the three face pairs",
+    {
+     "step": 1,
+     "action": "compute the three face pairs",
      "explain": "lw, wh and hl are the three distinct rectangles.",
-     "compute": "faces = length * width + width * height + height * length"},
-    {"step": 2, "action": "double the total",
+     "compute": "faces = length * width + width * height + height * length"
+    },
+    {
+     "step": 2,
+     "action": "double the total",
      "explain": "Each face appears twice in the box.",
-     "compute": "surface = 2 * faces"}
+     "compute": "surface = 2 * faces"
+    }
    ]
   },
   {
@@ -102,9 +132,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "multiply the three dimensions",
+    {
+     "step": 1,
+     "action": "multiply the three dimensions",
      "explain": "Length, width and height multiply for the cuboid volume.",
-     "compute": "volume = length * width * height"}
+     "compute": "volume = length * width * height"
+    }
    ]
   },
   {
@@ -125,12 +158,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "compute the base circle",
+    {
+     "step": 1,
+     "action": "compute the base circle",
      "explain": "Pi times radius squared.",
-     "compute": "base = pi * r * r"},
-    {"step": 2, "action": "stack up the height",
+     "compute": "base = pi * r * r"
+    },
+    {
+     "step": 2,
+     "action": "stack up the height",
      "explain": "Base area times height is the volume.",
-     "compute": "volume = base * height"}
+     "compute": "volume = base * height"
+    }
    ]
   }
  ],
@@ -147,12 +186,18 @@
     "height": "distance between parallel sides in cm"
    },
    "solution_template": [
-    {"step": 1, "action": "sum the parallel sides",
+    {
+     "step": 1,
+     "action": "sum the parallel sides",
      "explain": "Add the two parallel sides.",
-     "compute": "side_sum = side_a + side_b"},
-    {"step": 2, "action": "average times height",
+     "compute": "side_sum = side_a + side_b"
+    },
+    {
+     "step": 2,
+     "action": "average times height",
      "explain": "Half the sum times height is the area.",
-     "compute": "area = side_sum / 2 * height"}
+     "compute": "area = side_sum / 2 * height"
+    }
    ]
   },
   {
@@ -167,12 +212,18 @@
     "height": "distance between the parallel sides"
    },
    "solution_template": [
-    {"step": 1, "action": "sum the parallel sides",
+    {
+     "step": 1,
+     "action": "sum the parallel sides",
      "explain": "Add side_a and side_b.",
-     "compute": "side_sum = side_a + side_b"},
-    {"step": 2, "action": "average times height",
+     "compute": "side_sum = side_a + side_b"
+    },
+    {
+     "step": 2,
+     "action": "average times height",
      "explain": "The area is half the sum times the height.",
-     "compute": "area = side_sum / 2 * height"}
+     "compute": "area = side_sum / 2 * height"
+    }
    ]
   },
   {
@@ -187,12 +238,18 @@
     "height": "height in cm"
    },
    "solution_template": [
-    {"step": 1, "action": "compute the face pairs",
+    {
+     "step": 1,
+     "action": "compute the face pairs",
      "explain": "Add lw, wh and hl.",
-     "compute": "faces = length * width + width * height + height * length"},
-    {"step": 2, "action": "double the total",
+     "compute": "faces = length * width + width * height + height * length"
+    },
+    {
+     "step": 2,
+     "action": "double the total",
      "explain": "Two of each face wrap the box.",
-     "compute": "surface = 2 * faces"}
+     "compute": "surface = 2 * faces"
+    }
    ]
   },
   {
@@ -207,12 +264,18 @@
     "height": "height of the box"
    },
    "solution_template": [
-    {"step": 1, "action": "compute the face pairs",
+    {
+     "step": 1,
+     "action": "compute the face pairs",
      "explain": "Sum the three distinct rectangles.",
-     "compute": "faces = length * width + width * height + height * length"},
-    {"step": 2, "action": "double the total",
+     "compute": "faces = length * width + width * height + height * length"
+    },
+    {
+     "step": 2,
+     "action": "double the total",
      "explain": "Covering needs both copies of each face.",
-     "compute": "surface = 2 * faces"}
+     "compute": "surface = 2 * faces"
+    }
    ]
   },
   {
@@ -227,9 +290,12 @@
     "height": "height in cm"
    },
    "solution_template": [
-    {"step": 1, "action": "multiply the dimensions",
+    {
+     "step": 1,
+     "action": "multiply the dimensions",
      "explain": "Length times width times height.",
-     "compute": "volume = length * width * height"}
+     "compute": "volume = length * width * height"
+    }
    ]
   },
   {
@@ -244,9 +310,12 @@
     "height": "tank depth"
    },
    "solution_template": [
-    {"step": 1, "action": "multiply the dimensions",
+    {
+     "step": 1,
+     "action": "multiply the dimensions",
      "explain": "The product is the tank's volume.",
-     "compute": "volume = length * width * height"}
+     "compute": "volume = length * width * height"
+    }
    ]
   },
   {
@@ -260,12 +329,18 @@
     "height": "height of the cylinder in cm"
    },
    "solution_template": [
-    {"step": 1, "action": "compute the base circle",
+    {
+     "step": 1,
+     "action": "compute the base circle",
      "explain": "Pi times r squared.",
-     "compute": "base = pi * r * r"},
-    {"step": 2, "action": "stack up the height",
+     "compute": "base = pi * r * r"
+    },
+    {
+     "step": 2,
+     "action": "stack up the height",
      "explain": "Base times height gives the volume.",
-     "compute": "volume = base * height"}
+     "compute": "volume = base * height"
+    }
    ]
   },
   {
@@ -279,12 +354,18 @@
     "height": "height in cm"
    },
    "solution_template": [
-    {"step": 1, "action": "compute the base circle",
+    {
+     "step": 1,
+     "action": "compute the base circle",
      "explain": "pi r squared is the base area.",
-     "compute": "base = pi * r * r"},
-    {"step": 2, "action": "stack up the height",
+     "compute": "base = pi * r * r"
+    },
+    {
+     "step": 2,
+     "action": "stack up the height",
      "explain": "Multiply by the height for the capacity.",
-     "compute": "volume = base * height"}
+     "compute": "volume = base * height"
+    }
    ]
   }
  ],
@@ -293,18 +374,18 @@
    "id": "ex9.1",
    "source_ref": "hemh109.txt EXERCISE 9.1-9.2",
    "questions": [
-     "The parallel sides of a trapezium are given with the distance between them - find the area.",
-     "Find the area of the given quadrilateral field by splitting.",
-     "The area of a trapezium is 34 sq cm with one side 10 cm and height 4 cm - find the other side."
+    "The parallel sides of a trapezium are given with the distance between them - find the area.",
+    "Find the area of the given quadrilateral field by splitting.",
+    "The area of a trapezium is 34 sq cm with one side 10 cm and height 4 cm - find the other side."
    ]
   },
   {
    "id": "ex9.2",
    "source_ref": "hemh109.txt EXERCISE 9.3",
    "questions": [
-     "Find the surface area of the given cuboids and cylinders.",
-     "A closed cylindrical tank of given radius and height is to be painted - find the area.",
-     "Find the volume and capacity of the given vessels."
+    "Find the surface area of the given cuboids and cylinders.",
+    "A closed cylindrical tank of given radius and height is to be painted - find the area.",
+    "Find the volume and capacity of the given vessels."
    ]
   }
  ]

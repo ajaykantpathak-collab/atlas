@@ -20,7 +20,7 @@
     "What is the role of heightened language in verse?",
     "Explain Nature of Verse and Poetry with a suitable example."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -32,7 +32,16 @@
      "action": "analyze sensory impact",
      "explain": "Evaluate how word choice affects sound and suggestive power."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "impact = meaning + sound + rhythm",
+     "compute": "impact = meaning + sound + rhythm"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lekl.118.2",
@@ -49,7 +58,7 @@
     "Identify the role of wit in metaphysical verse.",
     "Explain Metaphysical Poetry Characteristics with a suitable example."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -61,7 +70,16 @@
      "action": "evaluate tone",
      "explain": "Determine if the poem appeals more to the reader's logic and wit than to emotion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "metaphysical_effect = intellect + startling_imagery",
+     "compute": "metaphysical_effect = intellect + startling_imagery"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lekl.118.5",
@@ -78,7 +96,7 @@
     "Identify the historical period of a word's derivation.",
     "Explain Etymological Analysis with a suitable example."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -90,7 +108,16 @@
      "action": "analyze historical change",
      "explain": "Observe how spelling or meaning has evolved over centuries."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "word_history = origin + derivation + usage_period",
+     "compute": "word_history = origin + derivation + usage_period"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lekl.118.6",
@@ -107,7 +134,7 @@
     "Explain the metaphor of the 'Tree' in the human brain.",
     "Explain Contrary States of the Human Soul with a suitable example."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -119,7 +146,16 @@
      "action": "identify distortions",
      "explain": "Look for Cruelty, Deceit, and Mystery in the 'Experience' context."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "human_condition = innocence + experience",
+     "compute": "human_condition = innocence + experience"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lekl.118.7",
@@ -162,7 +198,16 @@
      "solution": "Step 1: determine feet count: feet = syllables / 2 = 2.0 Step 2: calculate total syllables: total_syllables = feet * 2 = 4.0 Final result: 4.0",
      "answer": "4.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_syllables = feet * 2",
+     "compute": "total_syllables = feet * 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lekl.118.9",
@@ -179,7 +224,7 @@
     "Why are the hearts of the swans described as not having grown old?",
     "Explain Symbolism of Permanence vs. Change with a suitable example."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -191,7 +236,16 @@
      "action": "analyze swan state",
      "explain": "Observe the swans as 'unwearied' and 'companionable'."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "contrast = human_aging / swan_constancy",
+     "compute": "contrast = human_aging / swan_constancy"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lekl.118.10",
@@ -208,7 +262,7 @@
     "What do the 'knocked-out clockworks' symbolize?",
     "Explain Communal Harmony and Urban Time with a suitable example."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -220,7 +274,16 @@
      "action": "link to social context",
      "explain": "Relate the clock towers to the 'feuds' of different religious groups."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "urban_discord = clock_discrepancy + communal_feuds",
+     "compute": "urban_discord = clock_discrepancy + communal_feuds"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lekl.118.11",

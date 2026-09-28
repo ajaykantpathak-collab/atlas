@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_06_005",
+   "title": "c11_app_cbse_06_005",
+   "questions": [
+    {
+     "q": "State the formula for the number of circular permutations of n distinct objects when (a) only rotations are considered identical, and (b) both rotations and reflections (flipping) are considered identical.",
+     "a": "(a) (n-1)!  (b) (n-1)!/2. A wrong answer like n! for (a) reveals the student is applying linear permutation logic and hasn't grasped that a circle has no fixed starting point. Answering (n-1)! for both (a) and (b) shows they don't understand the physical difference between seating people (fixed orientation, no flip) and stringing beads (free flip).",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why we fix one object's position when counting circular permutations. Use the example of 4 people A, B, C, D sitting around a table.",
+     "a": "Fixing one person (say A) eliminates rotational duplicates: without fixing, ABCD, BCDA, CDAB, DABC are 4 linear permutations but represent the same circular arrangement because each person has the same neighbors. By anchoring A, we count only the distinct relative orders of B, C, D → 3! = 6. A student who says \"we fix to make it a line\" misses the point — we fix to *remove rotational symmetry*, not to create a line; the circle remains, but we've chosen a reference frame.",
+     "self_check": true
+    },
+    {
+     "q": "In how many ways can 5 men and 5 women be seated at a round table if no two women sit together?",
+     "a": "Step 1: Seat the 5 men first around the circle → (5-1)! = 4! = 24 ways.  \nStep 2: This creates 5 gaps between men. Choose 5 gaps for 5 women → only 1 way (all gaps used).  \nStep 3: Arrange the 5 women in those gaps → 5! = 120 ways.  \nTotal = 24 × 120 = 2880.  \nA wrong answer like 5! × 5! = 14400 shows the student treated it as linear or forgot to fix one man first. Answering 4! × 4! = 576 means they incorrectly applied the gap method for linear arrangements (where n men create n+1 gaps) to a circle.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the number of arrangements for: (i) 8 distinct beads on a necklace, (ii) 8 distinct flowers in a garland, (iii) 8 students around a circular table. Are they equal? Justify.",
+     "a": "(i) and (ii) are equal: both allow flipping, so (8-1)!/2 = 7!/2 = 2520.  \n(iii) is different: students cannot be flipped, so (8-1)! = 7! = 5040.  \nThey are NOT all equal. A student claiming all three are 7! or all three are 7!/2 fails to distinguish physical contexts: necklaces/garlands are free in 3D space (flip = same), but seated people have a fixed \"up\" direction (flip = impossible). This confusion between \"circular\" and \"dihedral\" symmetry is the core misconception.",
+     "self_check": true
+    },
+    {
+     "q": "A problem states: \"Find the number of ways to seat 6 couples (12 people) around a circular table such that each husband sits next to his wife.\" A student solves: \"Treat each couple as a unit → 6 units → (6-1)! = 120 ways. Each couple can be arranged in 2 ways → 2^6 = 64. Total = 120 × 64 = 7680.\" Is this correct? Evaluate.",
+     "a": "The answer 7680 is **correct**. The reasoning is sound: 6 couple-units arranged circularly in (6-1)! = 120 ways; internal arrangement of each couple (H-W or W-H) gives 2^6 = 64; multiplication principle applies because couple-internal choices are independent of the circular order. A student who says \"incorrect, should divide by 2 for flipping\" wrongly applies necklace logic to people. A student who says \"incorrect, should be 6! × 2^6\" forgot to fix one unit for circular permutation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new circular permutation problem with a \"twist\" that is NOT simply \"people sitting together\" or \"necklace\". Describe the scenario, state the constraints, and explain how you would solve it (no need to compute the final number).",
+     "a": "Example: \"A circular conference table has 10 seats, but 3 specific seats are 'power seats' (fixed positions, e.g., facing the screen). In how many ways can 10 delegates be seated if the CEO must occupy a power seat?\"  \nSolution approach: (1) Choose 1 of 3 power seats for CEO → 3 ways. (2) The remaining 9 seats are now in a fixed circle (rotation broken by fixed power seats), so arrange 9 delegates in 9! ways. Total = 3 × 9!.  \nA poor answer would ignore the fixed seats and use (10-1)!, or treat power seats as identical. This tests whether the student understands that *fixed reference points break rotational symmetry differently*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

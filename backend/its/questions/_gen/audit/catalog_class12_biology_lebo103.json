@@ -1,0 +1,68 @@
+{
+ "catalog": "catalog_class12_biology_lebo103.json",
+ "concepts": [
+  {
+   "id": "lebo103.3.2.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "current_population = 75",
+      "annual_growth = 7.4",
+      "years = 11.7",
+      "projected_population = current_population * (1 + annual_growth) ** years"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "current_population = 24",
+      "annual_growth = 10.9",
+      "years = 1",
+      "projected_population = current_population * (1 + annual_growth) ** years"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "current_population = 70",
+      "annual_growth = 1",
+      "years = 25",
+      "projected_population = current_population * (1 + annual_growth) ** years"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "current_population = 75",
+      "annual_growth = 74",
+      "years = 2",
+      "projected_population = current_population * (1 + annual_growth) ** years"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "current_population = 56",
+      "annual_growth = 0.5",
+      "years = 50",
+      "projected_population = current_population * (1 + annual_growth) ** years"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "current_population = 91",
+      "annual_growth = 83",
+      "years = 6.1",
+      "projected_population = current_population * (1 + annual_growth) ** years"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "projected_population = current_population * (1 + annual_growth) ** years"
+   ]
+  }
+ ]
+}

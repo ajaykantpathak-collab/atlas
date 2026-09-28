@@ -34,6 +34,31 @@
      "q": "Create a flowchart showing the journey of cotton from farm to a retail shirt, labeling each stage with the correct industry type (primary/secondary/tertiary) and sub-type. Include at least 5 stages.",
      "a": "Flowchart: Cotton farming (Primary - Genetic) → Ginning (Secondary - Manufacturing: Processing) → Spinning/Weaving (Secondary - Manufacturing: Processing) → Garment stitching (Secondary - Manufacturing: Assembling) → Transport to warehouse (Tertiary - Transport) → Warehousing (Tertiary - Warehousing) → Retail shop (Tertiary - Trade). A poor answer that misses sub-types (e.g., just says 'secondary' for all factory steps) or omits tertiary stages shows inability to apply the detailed classification to a real value chain.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Industry refers to economic activities connected with the conversion of resources into useful goods, classified into three broad categories: Primary industries (extraction and production of natural resources and ______ of living organisms), Secondary industries (processing of materials from the primary sector into finished goods or construction), and Tertiary industries (providing support services to primary and secondary industries and facilitating trade).",
+     "a": "reproduction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It started as a tree in a forest (primary industry: extractive), was cut and processed into timber and then assembled into a chair in a factory (secondary industry: ______ - assembling), and finally reached you through a truck, a warehouse, and a shop (tertiary industries: transport, warehousing, trade).",
+     "a": "manufacturing",
+     "self_check": true
+    },
+    {
+     "q": "What is Industry? State the definition given in this lesson.",
+     "a": "Industry refers to economic activities connected with the conversion of resources into useful goods, classified into three broad categories: Primary industries (extraction and production of natural resources and reproduction of living organisms), Secondary industries (processing of materials from the primary sector into finished goods or.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Industry?",
+     "a": "Students often classify all agriculture as 'extractive primary industry' because it uses land.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify any given business activity into primary, secondary, or tertiary industry with justification, and explain the sub-categories (extractive/genetic, manufacturing/construction, and service facilities) using appropriate examples from the Indian context.",
+     "self_check": true
     }
    ]
   }

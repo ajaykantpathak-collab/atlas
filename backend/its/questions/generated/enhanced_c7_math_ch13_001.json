@@ -34,6 +34,21 @@
      "q": "Rewrite the non-statistical question \"What is the price of a 1-litre packet of Nandini milk?\" into a statistical question about milk prices in your city.",
      "a": "The expected answer should transform the question to target a group of different stores or brands, such as: \"What are the prices of 1-litre milk packets across 20 different grocery stores in Bangalore?\" A poor answer would just change the person or day while keeping it restricted to a single fixed item, failing to introduce population variability.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A statistical question is a question that ______ variability in the data related to the question and accounts for it in the answers, whereas a non-statistical question expects a single, fixed, and specific answer with no variability.",
+     "a": "anticipates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you walk into your Class 7 ______ classroom and ask two different questions: \"How many students are in this room right now?\" and \"How many hours of sleep did each student in this room get last night?\" For the first question, you will count the heads and get one single, exact number that is the same for everyone.",
+     "a": "mathematics",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can examine a given research question or survey prompt, determine whether it will yield a variety of differing responses or a single fixed value, and justify the classification using the concept of data variability.",
+     "self_check": true
     }
    ]
   }

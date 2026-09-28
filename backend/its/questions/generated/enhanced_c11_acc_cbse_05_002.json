@@ -34,6 +34,31 @@
      "q": "Create a realistic scenario (with amounts) where a business issues multiple cheques on different dates near the period-end, some of which are presented before the statement date and some after. Show how to calculate the unpresented amount for reconciliation.",
      "a": "Good answer example: On 28th March, cheques of ₹3,000, ₹4,000, and ₹5,000 are issued. Bank statement on 31st March shows ₹3,000 and ₹4,000 presented. Unpresented = ₹5,000. The student must show the timeline, identify which cheques are unpresented, and compute the total. A poor answer (e.g., listing all cheques as unpresented or ignoring the presentation dates) reveals inability to apply the concept to a multi-cheque, multi-date situation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cheques issued but not presented for payment refers to the timing difference where a business records a payment in its cash book ______ upon issuing a cheque to a supplier or creditor, but the bank debits the business's account only when the payee presents the cheque for encashment, creating a temporary discrepancy between the cash book balance (lower) and the passbook balance (higher).",
+     "a": "immediately",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small stationery shop and you pay a ______ ₹5,000 by cheque on 28th March.",
+     "a": "supplier",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: However, the supplier is on vacation and deposits the cheque only on ______rd April.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) explain why a cheque issued reduces the cash book balance immediately but does not affect the passbook balance until presented, and (2) correctly determine whether to add or deduct the amount of such cheques when preparing a bank reconciliation statement starting from either cash book or passbook balance.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small ______ shop and you pay a supplier ₹5,000 by cheque on 28th March.",
+     "a": "stationery",
+     "self_check": true
     }
    ]
   }

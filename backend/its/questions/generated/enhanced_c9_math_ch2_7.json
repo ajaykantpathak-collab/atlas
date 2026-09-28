@@ -34,6 +34,36 @@
      "q": "Create a real-life situation (Indian context) that can be modelled by a linear equation with a NEGATIVE slope and a POSITIVE y-intercept. Write the equation, define your variables clearly, and explain what the slope and intercept mean in your situation. Sketch a rough graph showing the intercepts and at least one other point.",
      "a": "Example: A water tank has 500 litres and leaks at 20 litres per hour. Let y = water remaining (litres), x = time (hours). Equation: y = -20x + 500. Slope -20 = rate of leakage (litres lost per hour). Y-intercept 500 = initial water. X-intercept = 25 hours (when tank empties). Graph: line from (0, 500) to (25, 0), passing through (5, 400). A poor answer might use positive slope (e.g., filling tank) or negative intercept (impossible initial water), revealing the student cannot connect the sign of slope/intercept to real-world meaning of decrease/initial value.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Visualising linear relationships on a graph is the process of ______ a linear equation in two variables (ax + by + c = 0 or y = mx + c) as a straight line on the Cartesian plane, where every point (x, y) on the line satisfies the equation, and the geometric features of the line — its slope (steepness/direction), intercepts (where it crosses axes), and position relative to other lines — directly reveal the algebraic properties of the relationship such as rate of change, initial value, and whether two relationships are parallel, intersecting, or coincident.",
+     "a": "representing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are tracking your ______: you start with ₹500 and save ₹50 every week.",
+     "a": "savings",
+     "self_check": true
+    },
+    {
+     "q": "What is Visualising linear relationships on a graph? State the definition given in this lesson.",
+     "a": "Visualising linear relationships on a graph is the process of representing a linear equation in two variables (ax + by + c = 0 or y = mx + c) as a straight line on the Cartesian plane, where every point (x, y) on the line satisfies the equation, and the geometric features of the line — its slope (steepness/direction), intercepts (where.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Visualising linear relationships on a graph is the process of representing a linear equation in two variables (ax + by + c = ______ or y = mx + c) as a straight line on the Cartesian plane, where every point (x, y) on the line satisfies the equation, and the geometric features of the line — its slope (steepness/direction), intercepts (where it crosses axes), and position relative to other lines — directly reveal the algebraic properties of the relationship such as rate of change, initial value, and whether two relationships are parallel, intersecting, or coincident.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Visualising linear relationships on a graph?",
+     "a": "Students treat the slope in y = mx + c as just \"the number with x\" and mechanically plot \"up m, right 1\" without considering the sign of m.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can sketch the graph of any linear equation in two variables by identifying at least two points or using slope-intercept form, interpret the slope and intercepts in context, determine whether two linear equations represent parallel, intersecting, or coincident lines by comparing their slopes and intercepts visually and.",
+     "self_check": true
     }
    ]
   }

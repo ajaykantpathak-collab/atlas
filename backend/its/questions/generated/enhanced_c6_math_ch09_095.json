@@ -34,6 +34,31 @@
      "q": "Design a plan to collect data on the number of vehicles passing your school gate between 8:00 AM and 9:00 AM. What are your first three steps?",
      "a": "1) Determine the categories of vehicles (e.g., cars, bikes, buses). 2) Create a table with two columns: \"Vehicle Type\" and \"Tally Marks.\" 3) Station yourself at the gate and mark one tally for each vehicle as it passes. A poor answer would lack a structured table or clear categories.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Data is a collection of facts, numbers, measures, or ______ that provide information about a specific topic.",
+     "a": "observations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to find out the ______ fruit of everyone in your class.",
+     "a": "favourite",
+     "self_check": true
+    },
+    {
+     "q": "What is Data? State the definition given in this lesson.",
+     "a": "Data is a collection of facts, numbers, measures, or observations that provide information about a specific topic.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Data?",
+     "a": "Students often fail to \"group\" tally marks correctly.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to collect raw data, organize it into a frequency table using tally marks, and interpret the table to answer specific questions.",
+     "self_check": true
     }
    ]
   }

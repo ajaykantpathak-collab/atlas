@@ -34,6 +34,26 @@
      "q": "Design a simple kitchen experiment to demonstrate that a solution is homogeneous. List materials, steps, and how you would prove uniformity without using a microscope.",
      "a": "Materials: Salt, water, two transparent glasses, spoon, food colour (optional). Steps: (1) Dissolve 1 tsp salt in 100 mL water in Glass A. (2) Pour half into Glass B. (3) Taste both (safe, dilute) — both taste equally salty. (4) Add one drop food colour to each — colour spreads uniformly without stirring. Proof: Identical taste and uniform colour distribution show homogeneity at macro scale, implying molecular-level uniformity.  \n**Poor answer reveals:** If the student suggests filtering or settling, they confuse solutions with suspensions. If they cannot propose a test for uniformity, they lack operational understanding of homogeneity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A solution is a ______ mixture of two or more substances where the particles are uniformly distributed at the molecular level and do not settle out.",
+     "a": "homogeneous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a glass of nimbu pani (lemonade) being made at home: sugar ______ disappear when stirred into water, and the liquid remains clear.",
+     "a": "crystals",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the solute and solvent in at least five different real-world solutions (solid-liquid, liquid-liquid, gas-liquid, gas-gas) and explain why the mixture qualifies as a solution based on particle size and uniformity.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a glass of nimbu pani (lemonade) being made at home: sugar crystals ______ when stirred into water, and the liquid remains clear.",
+     "a": "disappear",
+     "self_check": true
     }
    ]
   }

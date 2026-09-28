@@ -4,44 +4,376 @@
   {
    "id": "iesc.103.1",
    "title": "Division of Labour and Cellular Hierarchy in Tissues",
-   "solution_type": "verify_property",
+   "converted_to_compute": true,
+   "formula": "organism = tissues + organs + organ_systems",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "organism = tissues + organs + organ_systems",
+     "compute": "organism = tissues + organs + organ_systems"
+    }
+   ],
    "questions": [
     {
-     "q": "What does 'division of labour' mean in multicellular organisms?",
-     "a": "Different cells specialise for different jobs - muscle cells contract, nerve cells carry signals - making the organism efficient.",
-     "self_check": true
+     "q": "For Division of Labour and Cellular Hierarchy in Tissues: given tissues = 66, organs = 95, organ_systems = 3.6, find organism.",
+     "a": "164.6",
+     "self_check": false
     },
     {
-     "q": "What is the order of organisation: cell to organism?",
-     "a": "Cell -> tissue -> organ -> organ system -> organism.",
-     "self_check": true
+     "q": "For Division of Labour and Cellular Hierarchy in Tissues: given tissues = 54, organs = 61, organ_systems = 11.6, find organism.",
+     "a": "126.6",
+     "self_check": false
     },
     {
-     "q": "Why can't a single-celled organism afford specialisation?",
-     "a": "One cell must do every life function itself; only many cells can share out the work.",
-     "self_check": true
+     "q": "For Division of Labour and Cellular Hierarchy in Tissues: given tissues = 63, organs = 2.4, organ_systems = 13, find organism.",
+     "a": "78.4",
+     "self_check": false
+    },
+    {
+     "q": "For Division of Labour and Cellular Hierarchy in Tissues: given tissues = 65, organs = 80, organ_systems = 5.9, find organism.",
+     "a": "150.9",
+     "self_check": false
+    },
+    {
+     "q": "For Division of Labour and Cellular Hierarchy in Tissues: given tissues = 52, organs = 35, organ_systems = 2.6, find organism.",
+     "a": "89.6",
+     "self_check": false
+    },
+    {
+     "q": "For Division of Labour and Cellular Hierarchy in Tissues: given tissues = 21, organs = 38, organ_systems = 12.4, find organism.",
+     "a": "71.4",
+     "self_check": false
     }
    ]
   },
   {
    "id": "iesc.103.2",
    "title": "Plant Meristematic Tissues",
-   "solution_type": "verify_property",
+   "converted_to_compute": true,
+   "formula": "total_growth = apical_growth + lateral_growth + intercalary_growth",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_growth = apical_growth + lateral_growth + intercalary_growth",
+     "compute": "total_growth = apical_growth + lateral_growth + intercalary_growth"
+    }
+   ],
    "questions": [
     {
-     "q": "What is meristematic tissue?",
-     "a": "Plant tissue of actively dividing cells, found at growing tips, responsible for plant growth.",
-     "self_check": true
+     "q": "For Plant Meristematic Tissues: given apical_growth = 55, lateral_growth = 42, intercalary_growth = 88, find total growth.",
+     "a": "185",
+     "self_check": false
     },
     {
-     "q": "Name the three kinds of meristems by position.",
-     "a": "Apical (tips of roots and shoots), lateral (sides, for girth) and intercalary (at nodes/bases of leaves).",
-     "self_check": true
+     "q": "For Plant Meristematic Tissues: given apical_growth = 70, lateral_growth = 11.1, intercalary_growth = 1.9, find total growth.",
+     "a": "83",
+     "self_check": false
     },
     {
-     "q": "Why do meristem cells have thin walls and dense cytoplasm?",
-     "a": "They are busy dividing; thin walls ease division and dense cytoplasm supports rapid growth with no storage vacuoles.",
-     "self_check": true
+     "q": "For Plant Meristematic Tissues: given apical_growth = 69, lateral_growth = 4.9, intercalary_growth = 23, find total growth.",
+     "a": "96.9",
+     "self_check": false
+    },
+    {
+     "q": "For Plant Meristematic Tissues: given apical_growth = 84, lateral_growth = 47, intercalary_growth = 7.1, find total growth.",
+     "a": "138.1",
+     "self_check": false
+    },
+    {
+     "q": "For Plant Meristematic Tissues: given apical_growth = 88, lateral_growth = 52, intercalary_growth = 85, find total growth.",
+     "a": "225",
+     "self_check": false
+    },
+    {
+     "q": "For Plant Meristematic Tissues: given apical_growth = 1.6, lateral_growth = 62, intercalary_growth = 94, find total growth.",
+     "a": "157.6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.103.4",
+   "title": "Complex Permanent Tissues and Vascular Systems",
+   "converted_to_compute": true,
+   "formula": "vascular_system = xylem + phloem",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "vascular_system = xylem + phloem",
+     "compute": "vascular_system = xylem + phloem"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Complex Permanent Tissues and Vascular Systems: given xylem = 4.2, phloem = 36, find vascular system.",
+     "a": "40.2",
+     "self_check": false
+    },
+    {
+     "q": "For Complex Permanent Tissues and Vascular Systems: given xylem = 54, phloem = 75, find vascular system.",
+     "a": "129",
+     "self_check": false
+    },
+    {
+     "q": "For Complex Permanent Tissues and Vascular Systems: given xylem = 51, phloem = 23, find vascular system.",
+     "a": "74",
+     "self_check": false
+    },
+    {
+     "q": "For Complex Permanent Tissues and Vascular Systems: given xylem = 49, phloem = 44, find vascular system.",
+     "a": "93",
+     "self_check": false
+    },
+    {
+     "q": "For Complex Permanent Tissues and Vascular Systems: given xylem = 78, phloem = 39, find vascular system.",
+     "a": "117",
+     "self_check": false
+    },
+    {
+     "q": "For Complex Permanent Tissues and Vascular Systems: given xylem = 51, phloem = 3.8, find vascular system.",
+     "a": "54.8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.103.5",
+   "title": "Epithelial Tissues in Animals",
+   "converted_to_compute": true,
+   "formula": "epithelial_function = protection + secretion + absorption",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "epithelial_function = protection + secretion + absorption",
+     "compute": "epithelial_function = protection + secretion + absorption"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Epithelial Tissues in Animals: given protection = 80, secretion = 38, absorption = 21, find epithelial function.",
+     "a": "139",
+     "self_check": false
+    },
+    {
+     "q": "For Epithelial Tissues in Animals: given protection = 28, secretion = 15, absorption = 97, find epithelial function.",
+     "a": "140",
+     "self_check": false
+    },
+    {
+     "q": "For Epithelial Tissues in Animals: given protection = 63, secretion = 1.8, absorption = 66, find epithelial function.",
+     "a": "130.8",
+     "self_check": false
+    },
+    {
+     "q": "For Epithelial Tissues in Animals: given protection = 58, secretion = 51, absorption = 75, find epithelial function.",
+     "a": "184",
+     "self_check": false
+    },
+    {
+     "q": "For Epithelial Tissues in Animals: given protection = 48, secretion = 91, absorption = 73, find epithelial function.",
+     "a": "212",
+     "self_check": false
+    },
+    {
+     "q": "For Epithelial Tissues in Animals: given protection = 95, secretion = 81, absorption = 22, find epithelial function.",
+     "a": "198",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.103.6",
+   "title": "Connective Tissues in Animals",
+   "converted_to_compute": true,
+   "formula": "connective_tissue = matrix + cellular_components",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "connective_tissue = matrix + cellular_components",
+     "compute": "connective_tissue = matrix + cellular_components"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Connective Tissues in Animals: given matrix = 96, cellular_components = 98, find connective tissue.",
+     "a": "194",
+     "self_check": false
+    },
+    {
+     "q": "For Connective Tissues in Animals: given matrix = 81, cellular_components = 76, find connective tissue.",
+     "a": "157",
+     "self_check": false
+    },
+    {
+     "q": "For Connective Tissues in Animals: given matrix = 93, cellular_components = 80, find connective tissue.",
+     "a": "173",
+     "self_check": false
+    },
+    {
+     "q": "For Connective Tissues in Animals: given matrix = 20, cellular_components = 23, find connective tissue.",
+     "a": "43",
+     "self_check": false
+    },
+    {
+     "q": "For Connective Tissues in Animals: given matrix = 54, cellular_components = 53, find connective tissue.",
+     "a": "107",
+     "self_check": false
+    },
+    {
+     "q": "For Connective Tissues in Animals: given matrix = 8.3, cellular_components = 40, find connective tissue.",
+     "a": "48.3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.103.7",
+   "title": "Muscular Tissues - Skeletal, Smooth, and Cardiac",
+   "converted_to_compute": true,
+   "formula": "muscle_types = skeletal + smooth + cardiac",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "muscle_types = skeletal + smooth + cardiac",
+     "compute": "muscle_types = skeletal + smooth + cardiac"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Muscular Tissues - Skeletal, Smooth, and Cardiac: given skeletal = 5.4, smooth = 93, cardiac = 2.8, find muscle types.",
+     "a": "101.2",
+     "self_check": false
+    },
+    {
+     "q": "For Muscular Tissues - Skeletal, Smooth, and Cardiac: given skeletal = 84, smooth = 99, cardiac = 25, find muscle types.",
+     "a": "208",
+     "self_check": false
+    },
+    {
+     "q": "For Muscular Tissues - Skeletal, Smooth, and Cardiac: given skeletal = 33, smooth = 34, cardiac = 15.9, find muscle types.",
+     "a": "82.9",
+     "self_check": false
+    },
+    {
+     "q": "For Muscular Tissues - Skeletal, Smooth, and Cardiac: given skeletal = 22, smooth = 83, cardiac = 63, find muscle types.",
+     "a": "168",
+     "self_check": false
+    },
+    {
+     "q": "For Muscular Tissues - Skeletal, Smooth, and Cardiac: given skeletal = 17.3, smooth = 1.1, cardiac = 66, find muscle types.",
+     "a": "84.4",
+     "self_check": false
+    },
+    {
+     "q": "For Muscular Tissues - Skeletal, Smooth, and Cardiac: given skeletal = 80, smooth = 81, cardiac = 91, find muscle types.",
+     "a": "252",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.103.8",
+   "title": "Structure and Function of Nervous Tissue and Neurons",
+   "converted_to_compute": true,
+   "formula": "neuron_structure = cell_body + dendrites + axon + axon_terminals",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "neuron_structure = cell_body + dendrites + axon + axon_terminals",
+     "compute": "neuron_structure = cell_body + dendrites + axon + axon_terminals"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Structure and Function of Nervous Tissue and Neurons: given cell_body = 78, dendrites = 44, axon = 47, axon_terminals = 4.4, find neuron structure.",
+     "a": "173.4",
+     "self_check": false
+    },
+    {
+     "q": "For Structure and Function of Nervous Tissue and Neurons: given cell_body = 66, dendrites = 67, axon = 72, axon_terminals = 117, find neuron structure.",
+     "a": "322",
+     "self_check": false
+    },
+    {
+     "q": "For Structure and Function of Nervous Tissue and Neurons: given cell_body = 53, dendrites = 47, axon = 49, axon_terminals = 99, find neuron structure.",
+     "a": "248",
+     "self_check": false
+    },
+    {
+     "q": "For Structure and Function of Nervous Tissue and Neurons: given cell_body = 6.7, dendrites = 48, axon = 18.7, axon_terminals = 114, find neuron structure.",
+     "a": "187.4",
+     "self_check": false
+    },
+    {
+     "q": "For Structure and Function of Nervous Tissue and Neurons: given cell_body = 67, dendrites = 0.9, axon = 63, axon_terminals = 72, find neuron structure.",
+     "a": "202.9",
+     "self_check": false
+    },
+    {
+     "q": "For Structure and Function of Nervous Tissue and Neurons: given cell_body = 76, dendrites = 26, axon = 12.1, axon_terminals = 24, find neuron structure.",
+     "a": "138.1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.103.10",
+   "title": "Estimation of Tree Age from Annual Growth Rings",
+   "converted_to_compute": true,
+   "formula": "tree_age = annual_rings_count",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "tree_age = annual_rings_count",
+     "compute": "tree_age = annual_rings_count"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Estimation of Tree Age from Annual Growth Rings: given annual_rings_count = 496, find tree age.",
+     "a": "496",
+     "self_check": false
+    },
+    {
+     "q": "For Estimation of Tree Age from Annual Growth Rings: given annual_rings_count = 122, find tree age.",
+     "a": "122",
+     "self_check": false
+    },
+    {
+     "q": "For Estimation of Tree Age from Annual Growth Rings: given annual_rings_count = 253, find tree age.",
+     "a": "253",
+     "self_check": false
+    },
+    {
+     "q": "For Estimation of Tree Age from Annual Growth Rings: given annual_rings_count = 191, find tree age.",
+     "a": "191",
+     "self_check": false
+    },
+    {
+     "q": "For Estimation of Tree Age from Annual Growth Rings: given annual_rings_count = 475, find tree age.",
+     "a": "475",
+     "self_check": false
+    },
+    {
+     "q": "For Estimation of Tree Age from Annual Growth Rings: given annual_rings_count = 182, find tree age.",
+     "a": "182",
+     "self_check": false
     }
    ]
   },
@@ -68,116 +400,6 @@
    ]
   },
   {
-   "id": "iesc.103.4",
-   "title": "Complex Permanent Tissues and Vascular Systems",
-   "solution_type": "verify_property",
-   "questions": [
-    {
-     "q": "Name the two complex permanent tissues of plants.",
-     "a": "Xylem and phloem.",
-     "self_check": true
-    },
-    {
-     "q": "Why are xylem and phloem called complex tissues?",
-     "a": "Each is made of more than one type of cell working together as a transport unit.",
-     "self_check": true
-    },
-    {
-     "q": "What do xylem and phloem transport?",
-     "a": "Xylem carries water and minerals upward from roots; phloem carries food from leaves to other parts.",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "iesc.103.5",
-   "title": "Epithelial Tissues in Animals",
-   "solution_type": "verify_property",
-   "questions": [
-    {
-     "q": "What is epithelial tissue and where is it found?",
-     "a": "A sheet of tightly packed cells covering body surfaces and lining cavities and organs.",
-     "self_check": true
-    },
-    {
-     "q": "Name two jobs of epithelial tissue.",
-     "a": "Protection against injury and germs, and secretion/absorption (as in gland and gut linings).",
-     "self_check": true
-    },
-    {
-     "q": "How are epithelial cells suited to their job?",
-     "a": "They fit closely with almost no cementing material between them, forming continuous sheets.",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "iesc.103.6",
-   "title": "Connective Tissues in Animals",
-   "solution_type": "verify_property",
-   "questions": [
-    {
-     "q": "What are the parts of connective tissue?",
-     "a": "Scattered cells embedded in an abundant matrix, which may be solid, jelly-like or fluid.",
-     "self_check": true
-    },
-    {
-     "q": "Name three types of connective tissue with one example each.",
-     "a": "Loose connective (areolar under skin), dense (tendons, ligaments), and specialised (bone, cartilage, blood).",
-     "self_check": true
-    },
-    {
-     "q": "Why is blood called a connective tissue?",
-     "a": "It has cells (RBC, WBC, platelets) in a fluid plasma matrix and connects body parts by transport.",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "iesc.103.7",
-   "title": "Muscular Tissues - Skeletal, Smooth, and Cardiac",
-   "solution_type": "verify_property",
-   "questions": [
-    {
-     "q": "Name the three kinds of muscle tissue.",
-     "a": "Skeletal (voluntary, striped), smooth (involuntary, unstriated) and cardiac (heart) muscle.",
-     "self_check": true
-    },
-    {
-     "q": "Which muscle type works without our will and is found in the gut?",
-     "a": "Smooth (unstriated) muscle moves food along the gut involuntarily.",
-     "self_check": true
-    },
-    {
-     "q": "What is special about cardiac muscle?",
-     "a": "It is involuntary, striped, with branched fibres, and never tires - it beats throughout life.",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "iesc.103.8",
-   "title": "Structure and Function of Nervous Tissue and Neurons",
-   "solution_type": "verify_property",
-   "questions": [
-    {
-     "q": "Name the parts of a neuron.",
-     "a": "Cell body (cyton), dendrites, axon and axon terminals.",
-     "self_check": true
-    },
-    {
-     "q": "Which part of a neuron receives signals and which sends them onward?",
-     "a": "Dendrites receive information; the axon carries it away to the nerve endings.",
-     "self_check": true
-    },
-    {
-     "q": "Why can a nerve impulse travel so fast?",
-     "a": "The signal is electrical along the axon, and chemical transfer occurs only at the tiny synapse gaps.",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "iesc.103.9",
    "title": "Joint Types in the Musculoskeletal System",
    "solution_type": "verify_property",
@@ -195,28 +417,6 @@
     {
      "q": "Where are fixed joints found?",
      "a": "In the skull - the bony plates meet at immovable joints that protect the brain.",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "iesc.103.10",
-   "title": "Estimation of Tree Age from Annual Growth Rings",
-   "solution_type": "verify_property",
-   "questions": [
-    {
-     "q": "How can the age of a tree be estimated?",
-     "a": "By counting the annual rings (growth rings) seen in a cross-section of its trunk.",
-     "self_check": true
-    },
-    {
-     "q": "What causes annual rings to form?",
-     "a": "Wood grows at different speeds in different seasons, making alternating light and dark rings each year.",
-     "self_check": true
-    },
-    {
-     "q": "Does the trunk diameter grow evenly through the year?",
-     "a": "No - growth is more in favourable seasons and less in unfavourable ones, giving ring boundaries.",
      "self_check": true
     }
    ]

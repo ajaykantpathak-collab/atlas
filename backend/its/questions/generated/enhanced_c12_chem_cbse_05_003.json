@@ -16,7 +16,7 @@
      "self_check": true
     },
     {
-     "q": "A compound with empirical formula Pt(NH₃)₂Cl₂ exists in two forms. One form precipitates 2 mol AgCl per mol with AgNO₃; the other precipitates none. Are these structural isomers? If yes, name the type. If no, explain why.",
+     "q": "A compound with empirical formula Pt(NH₃)₂Cl₂ exists in two forms. One form precipitates 2 mol AgCl per mol with AgNO₃; the other precipitates N/A. Are these structural isomers? If yes, name the type. If no, explain why.",
      "a": "No, these are NOT structural isomers. Both have the same connectivity (Pt bonded to 2 NH₃ and 2 Cl). The difference in AgCl precipitation arises from ionisation behaviour: one is a neutral molecule [Pt(NH₃)₂Cl₂] (no counter ions), the other is an ionic compound [Pt(NH₃)₂Cl₂]Cl₂? Wait, empirical formula Pt(NH₃)₂Cl₂ cannot have two Cl⁻ outside. Actually, the second form must be [Pt(NH₃)₄]Cl₂? No, empirical formula is fixed. This is a trick: Pt(NH₃)₂Cl₂ as a neutral complex gives 0 AgCl; but to give 2 AgCl, the formula would need to be [Pt(NH₃)₂Cl₂]Cl₂ which has empirical Pt(NH₃)₂Cl₄. So the premise is flawed — they cannot have the same empirical formula. A student who says \"yes, ionisation isomerism\" reveals they don't check empirical formula consistency.",
      "self_check": true
     },
@@ -33,6 +33,31 @@
     {
      "q": "Design a simple experiment to distinguish between the linkage isomers [Co(NH₃)₅(NO₂)]²⁺ (nitro, N-bound) and [Co(NH₃)₅(ONO)]²⁺ (nitrito, O-bound). You have access to IR spectroscopy, UV-Vis spectroscopy, and a conductivity meter. Which technique(s) would work and why?",
      "a": "IR spectroscopy works best: the N–O stretching frequencies differ significantly for N-bound (ν(NO₂) ~1300-1450 cm⁻¹, asymmetric) vs O-bound (ν(ONO) ~1000-1100 cm⁻¹). UV-Vis may show different d-d transitions due to different ligand field strengths, but IR is more direct. Conductivity will be identical (both are 2+ cations with same counter ions). A student who picks conductivity reveals they don't understand that linkage isomers have the same charge and counter ions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Structural isomerism in ______ compounds occurs when two or more compounds have the same chemical formula but differ in the connectivity of atoms (i.e., which atoms are bonded to which).",
+     "a": "coordination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have two bottles of a ______ crystalline solid, both labelled \"CrCl₃·6H₂O\".",
+     "a": "violet",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have two bottles of a violet crystalline solid, both labelled \"CrCl₃·______H₂O\".",
+     "a": "6",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Given a pair of coordination compounds with the same empirical formula, the student can identify the type of structural isomerism, draw the correct structures showing connectivity differences, and predict distinct chemical behaviours (e.g., precipitation with AgNO₃, conductivity, reaction with specific reagents) that distinguish the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have two bottles of a violet ______ solid, both labelled \"CrCl₃·6H₂O\".",
+     "a": "crystalline",
      "self_check": true
     }
    ]

@@ -34,6 +34,31 @@
      "q": "Design a one-month \"Low Carbon Challenge\" for your school. List five measurable actions students can take, the data they must collect, and how to calculate the collective footprint reduction. Include at least one action addressing indirect emissions.",
      "a": "Actions: 1) Walk/cycle to school (track km saved vs bus/car). 2) Zero food waste lunch (weigh waste daily). 3) AC/ fan off when not in room (log hours). 4) Reuse notebooks/ paper (count pages saved). 5) Plant/maintain trees (record number). Data: baseline vs challenge period. Calculation: use emission factors for transport, waste (methane), electricity, paper production. Poor answer lists vague actions without measurable data or ignores indirect emissions (food, paper).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Carbon footprint is the total amount of greenhouse gases (primarily carbon dioxide, methane, and nitrous oxide) emitted directly or indirectly by an individual, ______, event, or product, expressed in equivalent tonnes of carbon dioxide (CO₂e).",
+     "a": "organization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your ______ bill at home – it shows units consumed (kWh).",
+     "a": "electricity",
+     "self_check": true
+    },
+    {
+     "q": "What is Carbon footprint? State the definition given in this lesson.",
+     "a": "Carbon footprint is the total amount of greenhouse gases (primarily carbon dioxide, methane, and nitrous oxide) emitted directly or indirectly by an individual, organization, event, or product, expressed in equivalent tonnes of carbon dioxide (CO₂e).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Carbon footprint?",
+     "a": "Students think carbon footprint only includes visible smoke (car exhaust, factory chimneys) and ignore embedded emissions in food, clothes, and electronics.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate a simplified carbon footprint for a household activity (e.g., monthly electricity use or daily commute) using given emission factors, and propose three context-specific reduction strategies with justification for an Indian urban or rural setting.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Create a real-life scenario where you would need to use the equation $5x = 500$ to find an answer.",
      "a": "A good answer would be: \"If 5 kg of rice costs 500 rupees, what is the price of 1 kg?\" A poor answer, like \"5 plus $x$ is 500,\" shows a failure to recognize the multiplicative nature of the $5x$ term.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: By ______ unknown quantities with variables, we can create equations to find specific values that fit our constraints.",
+     "a": "representing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying ______ for your friends; if each notebook costs 20 rupees, how do you find the total for any number of friends?",
+     "a": "notebooks",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying notebooks for your friends; if each notebook costs ______ rupees, how do you find the total for any number of friends?",
+     "a": "20",
+     "self_check": true
     }
    ]
   }

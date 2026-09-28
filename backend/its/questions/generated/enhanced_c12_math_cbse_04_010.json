@@ -27,12 +27,37 @@
     },
     {
      "q": "A student solves the system x + y + z = 6, 2x + 2y + 2z = 12, 3x + 3y + 3z = 18 and writes: \"|A| = 0, so the system has no solution.\" Evaluate this statement and correct the error.",
-     "a": "The statement is false. |A| = 0 only tells us the system does NOT have a unique solution; it could have infinitely many or none. Here, second equation = 2×first, third = 3×first, and constants match the same multiples → (adj A)B = 0 and equations are proportional → infinitely many solutions (consistent). The student confused |A| = 0 with inconsistency. The correct conclusion: consistent with infinitely many solutions (a plane of solutions).",
+     "a": "The statement is false. |A| = 0 only tells us the system does NOT have a unique solution; it could have infinitely many or N/A. Here, second equation = 2×first, third = 3×first, and constants match the same multiples → (adj A)B = 0 and equations are proportional → infinitely many solutions (consistent). The student confused |A| = 0 with inconsistency. The correct conclusion: consistent with infinitely many solutions (a plane of solutions).",
      "self_check": true
     },
     {
      "q": "Construct a 3×3 system of linear equations that has |A| = 0 and (adj A)B = 0 but is INCONSISTENT. Explain why your example works.",
      "a": "Example: x + y + z = 1, 2x + 2y + 2z = 2, 3x + 3y + 3z = 5. A = [[1,1,1],[2,2,2],[3,3,3]], B = [1,2,5]ᵀ. |A| = 0 (rows proportional). adj A = 0 matrix (all minors have proportional rows) → (adj A)B = 0. But third equation is 3×first equation on LHS (3x+3y+3z) while RHS is 5 ≠ 3×1 = 3 → contradiction. Hence no solution. This works because (adj A)B = 0 is necessary but not sufficient for consistency when |A| = 0; the constants must also satisfy the same linear relations as the coefficients.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A system of linear equations AX = B is consistent if at least one solution exists (unique or infinitely many); it is ______ if no solution exists.",
+     "a": "inconsistent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a shopkeeper in Delhi who sells three items: apples (₹x/kg), ______ (₹y/kg), and oranges (₹z/kg).",
+     "a": "bananas",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If |A| = ______, you must check (adj A)B — if non-zero, the customers' bills contradict each other (inconsistent); if zero, the bills might be redundant (infinitely many price combinations) or still contradictory.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) write the matrix form AX = B for any given system of 2 or 3 linear equations, (2) compute |A| and classify the system as having a unique solution, no solution, or infinitely many solutions, (3) correctly compute (adj A)B when |A| = 0 and interpret the result, (4) distinguish between the three cases using the criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ in Delhi who sells three items: apples (₹x/kg), bananas (₹y/kg), and oranges (₹z/kg).",
+     "a": "shopkeeper",
      "self_check": true
     }
    ]

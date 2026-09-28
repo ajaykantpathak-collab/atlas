@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using readily available materials (e.g., yeast, sugar, water) to demonstrate that sexual reproduction in yeast produces genetically diverse offspring compared to asexual budding. Outline the steps and the expected observation.",
      "a": "A good answer: Grow yeast in two conditions – one promoting asexual budding (rich medium) and one inducing sexual reproduction (nitrogen starvation). After several generations, plate samples on media with a stressor (e.g., high salt). Colonies from sexually reproduced yeast will show varied growth patterns (some resistant, some not), while asexual colonies will be uniformly sensitive or resistant. A poor answer that only counts colony numbers misses the need to test for phenotypic variation linked to genetic diversity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sexual ______ is a biological process where two compatible gametes (male and female) fuse to form a zygote, resulting in offspring that inherit genetic material from both parents and exhibit genetic variation.",
+     "a": "reproduction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by showing students two pots of marigold plants: one grown from seeds (sexual) and another from ______ (asexual).",
+     "a": "cuttings",
+     "self_check": true
+    },
+    {
+     "q": "What is Sexual reproduction? State the definition given in this lesson.",
+     "a": "Sexual reproduction is a biological process where two compatible gametes (male and female) fuse to form a zygote, resulting in offspring that inherit genetic material from both parents and exhibit genetic variation.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why sexual reproduction is necessary for long-term species survival by linking gamete formation, genetic variation, and adaptation to changing environments, and can contrast it with asexual reproduction using specific examples.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by showing students two pots of ______ plants: one grown from seeds (sexual) and another from cuttings (asexual).",
+     "a": "marigold",
+     "self_check": true
     }
    ]
   }

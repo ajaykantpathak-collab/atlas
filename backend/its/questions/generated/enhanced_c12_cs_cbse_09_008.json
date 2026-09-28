@@ -34,6 +34,26 @@
      "q": "Design a recursive function `count_vowels(s)` that returns the number of vowels (a, e, i, o, u, case‑insensitive) in a string `s`. Provide the base case, recursive step, and a brief explanation of how the string shrinks.",
      "a": "```python\ndef count_vowels(s):\n    if s == \"\":                 # base case: empty string\n        return 0\n    first = s[0].lower()\n    rest_count = count_vowels(s[1:])   # recursive call on substring\n    return (1 if first in 'aeiou' else 0) + rest_count\n```\nBase case: empty string has 0 vowels. Recursive step: check first character, then recurse on the rest of the string (`s[1:]`). The string shrinks by one character each call, guaranteeing termination. A poor answer might use `s[:-1]` (removing last char) but then the logic for checking the first character becomes misaligned, or they might forget to handle case insensitivity. If they don’t reduce the string, recursion becomes infinite.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ function in Python is a function that calls itself during its execution to solve a problem by breaking it down into smaller instances of the same problem, with a mandatory base case that stops the recursion and returns a result without further self‑calls.",
+     "a": "recursive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ in a queue and want to know your position from the front.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You ask the person in front of you, who asks the person in front of them, and so on until the first person says \"I am number ______\".",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) identify the base case and recursive step for a given problem, (2) write a correct recursive Python function for standard problems like factorial, Fibonacci, or sum of digits, and (3) trace the call stack for a small input, showing how the base case terminates the recursion.",
+     "self_check": true
     }
    ]
   }

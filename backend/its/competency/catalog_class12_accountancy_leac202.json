@@ -24,9 +24,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "identify the instrument", "explain": "a written acknowledgement of debt issued under the common seal, with the rate of interest usually part of its name"},
-    {"step": 2, "action": "check the payment promise", "explain": "interest at a fixed percentage, normally half-yearly, plus principal back after the stated period or in intervals"},
-    {"step": 3, "action": "place the holder's status", "explain": "creditor position: steady charge on profit, priority over shareholders on winding up, no vote in management"}
+    {
+     "step": 1,
+     "action": "identify the instrument",
+     "explain": "a written acknowledgement of debt issued under the common seal, with the rate of interest usually part of its name"
+    },
+    {
+     "step": 2,
+     "action": "check the payment promise",
+     "explain": "interest at a fixed percentage, normally half-yearly, plus principal back after the stated period or in intervals"
+    },
+    {
+     "step": 3,
+     "action": "place the holder's status",
+     "explain": "creditor position: steady charge on profit, priority over shareholders on winding up, no vote in management"
+    }
    ]
   },
   {
@@ -47,9 +59,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "contrast the capital status", "explain": "share is part of owned capital, debenture is part of borrowed capital"},
-    {"step": 2, "action": "contrast the return and control", "explain": "dividend floats with profit and shareholders vote; interest is a fixed charge and debentureholders do not vote"},
-    {"step": 3, "action": "contrast repayment", "explain": "shares are returned last and only on winding up, debentures fall due on the redemption date and rank ahead of shareholders"}
+    {
+     "step": 1,
+     "action": "contrast the capital status",
+     "explain": "share is part of owned capital, debenture is part of borrowed capital"
+    },
+    {
+     "step": 2,
+     "action": "contrast the return and control",
+     "explain": "dividend floats with profit and shareholders vote; interest is a fixed charge and debentureholders do not vote"
+    },
+    {
+     "step": 3,
+     "action": "contrast repayment",
+     "explain": "shares are returned last and only on winding up, debentures fall due on the redemption date and rank ahead of shareholders"
+    }
    ]
   },
   {
@@ -68,12 +92,33 @@
     "explain mortgage debentures and naked debentures",
     "which debentures are transferable by mere delivery"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "test for a charge", "explain": "fixed or floating charge on assets gives secured or mortgage debentures; without charge they are unsecured or naked"},
-    {"step": 2, "action": "test the register", "explain": "registered debentures move through the company's register; bearer debentures are negotiable by delivery"},
-    {"step": 3, "action": "test life and conversion", "explain": "redeemable debentures carry a repayment date, irredeemable ones do not; convertible debentures may turn into shares or new debentures on stated terms"}
-   ]
+    {
+     "step": 1,
+     "action": "test for a charge",
+     "explain": "fixed or floating charge on assets gives secured or mortgage debentures; without charge they are unsecured or naked"
+    },
+    {
+     "step": 2,
+     "action": "test the register",
+     "explain": "registered debentures move through the company's register; bearer debentures are negotiable by delivery"
+    },
+    {
+     "step": 3,
+     "action": "test life and conversion",
+     "explain": "redeemable debentures carry a repayment date, irredeemable ones do not; convertible debentures may turn into shares or new debentures on stated terms"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "debenture_classes = security_type + registration_type + redemption_type + conversion_type",
+     "compute": "debenture_classes = security_type + registration_type + redemption_type + conversion_type"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.202.4.1",
@@ -93,9 +138,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "collect through application and allotment", "explain": "bank is debited and the debenture application and allotment account credited, then transferred to the debentures account"},
-    {"step": 2, "action": "place the premium", "explain": "when issue price exceeds face value, the excess is credited to securities premium reserve"},
-    {"step": 3, "action": "place the discount", "explain": "when issue price is below face value, the shortfall is debited to discount on issue of debentures, a capital loss awaiting write-off"}
+    {
+     "step": 1,
+     "action": "collect through application and allotment",
+     "explain": "bank is debited and the debenture application and allotment account credited, then transferred to the debentures account"
+    },
+    {
+     "step": 2,
+     "action": "place the premium",
+     "explain": "when issue price exceeds face value, the excess is credited to securities premium reserve"
+    },
+    {
+     "step": 3,
+     "action": "place the discount",
+     "explain": "when issue price is below face value, the shortfall is debited to discount on issue of debentures, a capital loss awaiting write-off"
+    }
    ]
   },
   {
@@ -116,8 +173,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "price each debenture actually issued", "explain": "apply the discount or premium to the face value per debenture", "compute": "issue_price_per_debenture = face_value_per_debenture * (1 - issue_discount_rate)"},
-    {"step": 2, "action": "divide the consideration by the issue price", "explain": "purchase consideration owed to the vendor split by the issue price gives the debenture count (rounded to whole debentures, cash for the fraction)", "compute": "number_of_debentures = purchase_consideration / issue_price_per_debenture"}
+    {
+     "step": 1,
+     "action": "price each debenture actually issued",
+     "explain": "apply the discount or premium to the face value per debenture",
+     "compute": "issue_price_per_debenture = face_value_per_debenture * (1 - issue_discount_rate)"
+    },
+    {
+     "step": 2,
+     "action": "divide the consideration by the issue price",
+     "explain": "purchase consideration owed to the vendor split by the issue price gives the debenture count (rounded to whole debentures, cash for the fraction)",
+     "compute": "number_of_debentures = purchase_consideration / issue_price_per_debenture"
+    }
    ]
   },
   {
@@ -138,9 +205,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "record the loan itself", "explain": "bank is debited and bank loan credited; the pledge adds nothing to the liability amount"},
-    {"step": 2, "action": "note the collateral", "explain": "either no entry with a footnote, or debentures suspense debited and debentures credited, and the suspense charge shown contra in the balance sheet"},
-    {"step": 3, "action": "reverse on repayment", "explain": "when the loan is settled the entry is cancelled and the debentures come back into the company's own hands"}
+    {
+     "step": 1,
+     "action": "record the loan itself",
+     "explain": "bank is debited and bank loan credited; the pledge adds nothing to the liability amount"
+    },
+    {
+     "step": 2,
+     "action": "note the collateral",
+     "explain": "either no entry with a footnote, or debentures suspense debited and debentures credited, and the suspense charge shown contra in the balance sheet"
+    },
+    {
+     "step": 3,
+     "action": "reverse on repayment",
+     "explain": "when the loan is settled the entry is cancelled and the debentures come back into the company's own hands"
+    }
    ]
   },
   {
@@ -161,9 +240,24 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "measure the issue-side shortfall", "explain": "face value minus issue price gives the discount per debenture", "compute": "issue_discount_per_debenture = face_value_per_debenture - issue_price_per_debenture"},
-    {"step": 2, "action": "add the redemption-side excess", "explain": "redemption price minus face value gives the premium payable per debenture at maturity", "compute": "total_loss_per_debenture = issue_discount_per_debenture + redemption_premium_per_debenture"},
-    {"step": 3, "action": "scale to the whole issue", "explain": "multiply the per-debenture loss by the number of debentures issued", "compute": "loss_on_issue = debentures_issued * total_loss_per_debenture"}
+    {
+     "step": 1,
+     "action": "measure the issue-side shortfall",
+     "explain": "face value minus issue price gives the discount per debenture",
+     "compute": "issue_discount_per_debenture = face_value_per_debenture - issue_price_per_debenture"
+    },
+    {
+     "step": 2,
+     "action": "add the redemption-side excess",
+     "explain": "redemption price minus face value gives the premium payable per debenture at maturity",
+     "compute": "total_loss_per_debenture = issue_discount_per_debenture + redemption_premium_per_debenture"
+    },
+    {
+     "step": 3,
+     "action": "scale to the whole issue",
+     "explain": "multiply the per-debenture loss by the number of debentures issued",
+     "compute": "loss_on_issue = debentures_issued * total_loss_per_debenture"
+    }
    ]
   },
   {
@@ -184,10 +278,34 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "run the interest clock on nominal value", "explain": "multiply the nominal value of debentures outstanding by the stated rate and by months over twelve", "compute": "debenture_interest = debentures_issued * face_value_per_debenture * interest_rate * months / 12"},
-    {"step": 2, "action": "withhold the tax", "explain": "apply the prescribed TDS percentage to the gross interest", "compute": "tax_deduction = debenture_interest * tds_rate"},
-    {"step": 3, "action": "net what the holder gets", "explain": "gross interest less TDS is the bank payment to debentureholders; the tax part goes to income tax payable", "compute": "net_interest_paid = debenture_interest - tax_deduction"}
-   ]
+    {
+     "step": 1,
+     "action": "run the interest clock on nominal value",
+     "explain": "multiply the nominal value of debentures outstanding by the stated rate and by months over twelve",
+     "compute": "debenture_interest = debentures_issued * face_value_per_debenture * interest_rate * months / 12"
+    },
+    {
+     "step": 2,
+     "action": "withhold the tax",
+     "explain": "apply the prescribed TDS percentage to the gross interest",
+     "compute": "tax_deduction = debenture_interest * tds_rate"
+    },
+    {
+     "step": 3,
+     "action": "net what the holder gets",
+     "explain": "gross interest less TDS is the bank payment to debentureholders; the tax part goes to income tax payable",
+     "compute": "net_interest_paid = debenture_interest - tax_deduction"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_interest_paid = debentures_issued * face_value_per_debenture * interest_rate * months / 12 - tax_deduction",
+     "compute": "net_interest_paid = debentures_issued * face_value_per_debenture * interest_rate * months / 12 - tax_deduction"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.202.10.1",
@@ -207,9 +325,24 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "total the capital loss", "explain": "issue discount plus redemption premium per debenture, times the number of debentures", "compute": "total_loss_on_issue = debentures_issued * face_value_per_debenture * (discount_rate + redemption_premium_rate)"},
-    {"step": 2, "action": "absorb from securities premium", "explain": "use the available premium balance first, up to its limit", "compute": "written_off_from_premium = min(total_loss_on_issue, securities_premium_available)"},
-    {"step": 3, "action": "charge the residue to revenue profit", "explain": "whatever the premium could not cover is debited to the statement of profit and loss in the issue year", "compute": "written_off_against_revenue_profit = total_loss_on_issue - written_off_from_premium"}
+    {
+     "step": 1,
+     "action": "total the capital loss",
+     "explain": "issue discount plus redemption premium per debenture, times the number of debentures",
+     "compute": "total_loss_on_issue = debentures_issued * face_value_per_debenture * (discount_rate + redemption_premium_rate)"
+    },
+    {
+     "step": 2,
+     "action": "absorb from securities premium",
+     "explain": "use the available premium balance first, up to its limit",
+     "compute": "written_off_from_premium = min(total_loss_on_issue, securities_premium_available)"
+    },
+    {
+     "step": 3,
+     "action": "charge the residue to revenue profit",
+     "explain": "whatever the premium could not cover is debited to the statement of profit and loss in the issue year",
+     "compute": "written_off_against_revenue_profit = total_loss_on_issue - written_off_from_premium"
+    }
    ]
   },
   {
@@ -230,8 +363,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "build the reserve where required", "explain": "other unlisted companies transfer ten percent of outstanding debentures from surplus to debenture redemption reserve", "compute": "redemption_reserve = debentures_outstanding * 0.10"},
-    {"step": 2, "action": "invest for the next maturity", "explain": "fifteen percent of the debenture value maturing in the coming year must be invested or deposited on or before April 30", "compute": "required_investment = debentures_maturing_during_year * 0.15"}
+    {
+     "step": 1,
+     "action": "build the reserve where required",
+     "explain": "other unlisted companies transfer ten percent of outstanding debentures from surplus to debenture redemption reserve",
+     "compute": "redemption_reserve = debentures_outstanding * 0.10"
+    },
+    {
+     "step": 2,
+     "action": "invest for the next maturity",
+     "explain": "fifteen percent of the debenture value maturing in the coming year must be invested or deposited on or before April 30",
+     "compute": "required_investment = debentures_maturing_during_year * 0.15"
+    }
    ]
   },
   {
@@ -252,8 +395,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "price the redemption of one debenture", "explain": "face value plus the promised redemption premium", "compute": "redemption_price_per_debenture = face_value_per_debenture + redemption_premium_per_debenture"},
-    {"step": 2, "action": "total the payment", "explain": "multiply by the debentures being redeemed on the due date", "compute": "amount_payable_on_redemption = debentures_redeemed * redemption_price_per_debenture"}
+    {
+     "step": 1,
+     "action": "price the redemption of one debenture",
+     "explain": "face value plus the promised redemption premium",
+     "compute": "redemption_price_per_debenture = face_value_per_debenture + redemption_premium_per_debenture"
+    },
+    {
+     "step": 2,
+     "action": "total the payment",
+     "explain": "multiply by the debentures being redeemed on the due date",
+     "compute": "amount_payable_on_redemption = debentures_redeemed * redemption_price_per_debenture"
+    }
    ]
   },
   {
@@ -274,8 +427,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "price the new share", "explain": "face value of the share plus any premium per share", "compute": "issue_price_per_share = face_value_per_share + share_premium_per_share"},
-    {"step": 2, "action": "convert the debenture amount", "explain": "divide the amount due on converted debentures by the new share price; the quotient is the shares to issue", "compute": "number_of_shares_issued = debenture_amount_converted / issue_price_per_share"}
+    {
+     "step": 1,
+     "action": "price the new share",
+     "explain": "face value of the share plus any premium per share",
+     "compute": "issue_price_per_share = face_value_per_share + share_premium_per_share"
+    },
+    {
+     "step": 2,
+     "action": "convert the debenture amount",
+     "explain": "divide the amount due on converted debentures by the new share price; the quotient is the shares to issue",
+     "compute": "number_of_shares_issued = debenture_amount_converted / issue_price_per_share"
+    }
    ]
   }
  ],
@@ -289,11 +452,21 @@
    "extracted_variables": {
     "purchase_consideration": 99000,
     "face_value_per_debenture": 100,
-    "issue_discount_rate": 0.10
+    "issue_discount_rate": 0.1
    },
    "solution_template": [
-    {"step": 1, "action": "price each debenture actually issued", "explain": "100 x (1 - 0.10) = 90", "compute": "issue_price_per_debenture = face_value_per_debenture * (1 - issue_discount_rate)"},
-    {"step": 2, "action": "divide the consideration by the issue price", "explain": "99000 / 90 = 1100 debentures", "compute": "number_of_debentures = purchase_consideration / issue_price_per_debenture"}
+    {
+     "step": 1,
+     "action": "price each debenture actually issued",
+     "explain": "100 x (1 - 0.10) = 90",
+     "compute": "issue_price_per_debenture = face_value_per_debenture * (1 - issue_discount_rate)"
+    },
+    {
+     "step": 2,
+     "action": "divide the consideration by the issue price",
+     "explain": "99000 / 90 = 1100 debentures",
+     "compute": "number_of_debentures = purchase_consideration / issue_price_per_debenture"
+    }
    ]
   },
   {
@@ -305,14 +478,29 @@
    "extracted_variables": {
     "debentures_issued": 2000,
     "face_value_per_debenture": 100,
-    "interest_rate": 0.10,
+    "interest_rate": 0.1,
     "months": 6,
-    "tds_rate": 0.10
+    "tds_rate": 0.1
    },
    "solution_template": [
-    {"step": 1, "action": "run the interest clock on nominal value", "explain": "2000 x 100 x 0.10 x 6/12 = 10000", "compute": "debenture_interest = debentures_issued * face_value_per_debenture * interest_rate * months / 12"},
-    {"step": 2, "action": "withhold the tax", "explain": "10000 x 0.10 = 1000", "compute": "tax_deduction = debenture_interest * tds_rate"},
-    {"step": 3, "action": "net what the holder gets", "explain": "10000 - 1000 = 9000", "compute": "net_interest_paid = debenture_interest - tax_deduction"}
+    {
+     "step": 1,
+     "action": "run the interest clock on nominal value",
+     "explain": "2000 x 100 x 0.10 x 6/12 = 10000",
+     "compute": "debenture_interest = debentures_issued * face_value_per_debenture * interest_rate * months / 12"
+    },
+    {
+     "step": 2,
+     "action": "withhold the tax",
+     "explain": "10000 x 0.10 = 1000",
+     "compute": "tax_deduction = debenture_interest * tds_rate"
+    },
+    {
+     "step": 3,
+     "action": "net what the holder gets",
+     "explain": "10000 - 1000 = 9000",
+     "compute": "net_interest_paid = debenture_interest - tax_deduction"
+    }
    ]
   },
   {
@@ -329,9 +517,24 @@
     "securities_premium_available": 500000
    },
    "solution_template": [
-    {"step": 1, "action": "total the capital loss", "explain": "50000 x 100 x (0.09 + 0.07) = 800000", "compute": "total_loss_on_issue = debentures_issued * face_value_per_debenture * (discount_rate + redemption_premium_rate)"},
-    {"step": 2, "action": "absorb from securities premium", "explain": "min(800000, 500000) = 500000", "compute": "written_off_from_premium = min(total_loss_on_issue, securities_premium_available)"},
-    {"step": 3, "action": "charge the residue to revenue profit", "explain": "800000 - 500000 = 300000", "compute": "written_off_against_revenue_profit = total_loss_on_issue - written_off_from_premium"}
+    {
+     "step": 1,
+     "action": "total the capital loss",
+     "explain": "50000 x 100 x (0.09 + 0.07) = 800000",
+     "compute": "total_loss_on_issue = debentures_issued * face_value_per_debenture * (discount_rate + redemption_premium_rate)"
+    },
+    {
+     "step": 2,
+     "action": "absorb from securities premium",
+     "explain": "min(800000, 500000) = 500000",
+     "compute": "written_off_from_premium = min(total_loss_on_issue, securities_premium_available)"
+    },
+    {
+     "step": 3,
+     "action": "charge the residue to revenue profit",
+     "explain": "800000 - 500000 = 300000",
+     "compute": "written_off_against_revenue_profit = total_loss_on_issue - written_off_from_premium"
+    }
    ]
   },
   {
@@ -347,8 +550,18 @@
     "share_premium_per_share": 2.5
    },
    "solution_template": [
-    {"step": 1, "action": "price the new share", "explain": "10 + 2.50 = 12.50", "compute": "issue_price_per_share = face_value_per_share + share_premium_per_share"},
-    {"step": 2, "action": "convert the debenture amount", "explain": "100000 / 12.50 = 8000 shares", "compute": "number_of_shares_issued = debenture_amount_converted / issue_price_per_share"}
+    {
+     "step": 1,
+     "action": "price the new share",
+     "explain": "10 + 2.50 = 12.50",
+     "compute": "issue_price_per_share = face_value_per_share + share_premium_per_share"
+    },
+    {
+     "step": 2,
+     "action": "convert the debenture amount",
+     "explain": "100000 / 12.50 = 8000 shares",
+     "compute": "number_of_shares_issued = debenture_amount_converted / issue_price_per_share"
+    }
    ]
   }
  ],

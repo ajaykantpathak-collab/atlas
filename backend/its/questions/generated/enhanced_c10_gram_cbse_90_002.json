@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c10_gram_cbse_90_002",
+ "concepts": [
+  {
+   "id": "enh:c10_gram_cbse_90_002",
+   "title": "c10_gram_cbse_90_002",
+   "questions": [
+    {
+     "q": "Correct or defend: 'I am not understanding this chapter.'",
+     "a": "Standard board answer: 'I do not understand this chapter' — 'understand' is stative. A wrong answer accepting it without comment reveals the student has no state/action test and relies on 'it sounds okay' — which fails on unlisted verbs.",
+     "self_check": true
+    },
+    {
+     "q": "'She is tasting the soup' vs 'The soup is tasting good' — which is correct and why?",
+     "a": "The first is correct (tasting = the action of sampling), the second is wrong ('The soup tastes good' — taste = has-the-flavour is stative). A wrong answer accepting both shows the student missed that the SAME verb flips category with meaning — the node 's core insight.",
+     "self_check": true
+    },
+    {
+     "q": "Fill the blank: 'At the moment I ___ (believe) every word he says.'",
+     "a": "'believe' — simple present despite 'at the moment', because believe is stative. A wrong answer 'am believing' reveals the student let the time-marker trigger a continuous reflex without checking whether the verb can take -ing at all.",
+     "self_check": true
+    },
+    {
+     "q": "'I am knowing' is wrong not because of a rule to memorize but because a state is already continuous by nature; adding -ing is ______.",
+     "a": "double-marking",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stative verbs — know, believe, love, own, seem, ______ — describe states, not actions, and standard English refuses to put them in continuous forms. 'I am knowing' is wrong not because of a rule to memorize but because a state is already continuous by nature; adding -ing is double-marking.",
+     "a": "understand",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Contrast two board sentences: 'She owns a shop' vs '*She is ______ a shop'.",
+     "a": "owning",
+     "self_check": true
+    },
+    {
+     "q": "What is Stative verbs? State the definition given in this lesson.",
+     "a": "Stative verbs — know, believe, love, own, seem, understand — describe states, not actions, and standard English refuses to put them in continuous forms. 'I am knowing' is wrong not because of a rule to memorize but because a state is already continuous by nature; adding -ing is double-marking.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Stative verbs?",
+     "a": "Students memorize a stative list without the state-vs-action test, so they freeze on unlisted verbs — and they over-apply the rule, writing '*I am not understanding' corrections where the informal continuous is actually accepted in modern usage for emphasis.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Given a mixed verb list, the student separates stative from dynamic verbs with ≥90% accuracy, and corrects continuous-form statives in gap-fill items, including the know/think/have exceptions that flip meaning when used dynamically.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Contrast two board ______: 'She owns a shop' vs '*She is owning a shop'.",
+     "a": "sentences",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

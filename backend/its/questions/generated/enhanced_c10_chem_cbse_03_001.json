@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using only a hammer, a battery, a bulb, wires, and samples of iron, copper, sulfur, and graphite to distinguish metals from non-metals based on malleability and electrical conductivity. Write the procedure and expected observations in a table.",
      "a": "Procedure: (1) Try to flatten each sample with a hammer — metals (Fe, Cu) will flatten (malleable), non-metals (S, graphite) will shatter or powder. (2) Set up a circuit: battery → bulb → wire → sample → wire → battery. Close circuit — bulb glows for Fe and Cu (conductors), not for S (insulator); graphite conducts (exception). Table: Sample | Malleability (hammer test) | Conductivity (bulb test) | Classification. A poor answer that omits the circuit diagram or fails to note graphite's anomalous conductivity shows inability to design controlled experiments — a practical skill tested in board exams.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Physical properties of metals such as metallic lustre (shiny appearance due to reflection of light by free electrons), hardness (resistance to deformation, generally high except for alkali metals), ______ (ability to be beaten into thin sheets without breaking due to non-directional metallic bonding allowing layers of atoms to slide), and ductility (ability to be drawn into thin wires due to the same non-directional bonding) are characteristic properties arising from the metallic bond and the sea of delocalized electrons.",
+     "a": "malleability",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: a student sees a gold ornament shining (lustre), a blacksmith hammering hot iron into a sheet (______), an electrician pulling copper wire through a conduit (ductility), and a carpenter struggling to cut a steel nail vs easily cutting a sodium piece (hardness exception).",
+     "a": "malleability",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the cause of each physical property (lustre, hardness, malleability, ductility) in terms of metallic bonding and electron sea model, identify exceptions (e.g., sodium is soft, mercury is liquid, tungsten is extremely hard), and predict the suitability of a metal for a given application (e.g., why copper is used.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Physical properties of metals such as metallic lustre (shiny appearance due to reflection of light by free electrons), hardness (resistance to deformation, generally high except for alkali metals), malleability (ability to be beaten into thin sheets without breaking due to non-directional metallic bonding allowing layers of atoms to slide), and ductility (ability to be drawn into thin wires due to the same non-directional bonding) are ______ properties arising from the metallic bond and the sea of delocalized electrons.",
+     "a": "characteristic",
+     "self_check": true
     }
    ]
   }

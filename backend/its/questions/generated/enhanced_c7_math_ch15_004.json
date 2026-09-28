@@ -34,6 +34,26 @@
      "q": "Create a two-step linear equation in variable $y$ whose solution is exactly $y = 7$. Show the inverse operations required to solve your equation.",
      "a": "A valid equation is $4y - 6 = 22$. To solve it: Step 1, add 6 to both sides to get $4y = 28$. Step 2, divide both sides by 4 to get $y = 7$. A poor answer creates an expression that does not evaluate to 7 or uses incorrect inverse steps that fail to isolate the variable.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Solving linear equations using inverse operations involves applying opposite arithmetic operations (such as subtraction for addition, and division for ______) to both sides of an equation in a systematic order to isolate the variable and find its unknown value.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you went to the local stationery shop in your neighborhood and bought some notebooks, and the shopkeeper tells you that 3 times the number of notebooks you bought, plus ₹20 for a pen, ______ ₹110 in total.",
+     "a": "equals",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can solve one-step and two-step linear equations in one variable using inverse operations, showing each step of isolation clearly, and can verify the solution by substitution.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you went to the local stationery shop in your ______ and bought some notebooks, and the shopkeeper tells you that 3 times the number of notebooks you bought, plus ₹20 for a pen, equals ₹110 in total.",
+     "a": "neighborhood",
+     "self_check": true
     }
    ]
   }

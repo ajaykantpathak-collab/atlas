@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_01_006",
+   "title": "c11_leg_cbse_01_006",
+   "questions": [
+    {
+     "q": "Define \"State\" in the legal-political sense and list its four essential elements. How does this definition differ from the definition of \"Government\"?",
+     "a": "A State is a politically organized community with four essential elements: (1) Population, (2) Territory, (3) Government, (4) Sovereignty. Government is only ONE element of the State — the machinery that exercises the State's sovereign power. The State is permanent; Government is temporary and changeable. A wrong answer (e.g., \"State and Government are the same\" or missing Sovereignty) reveals the student conflates the institutional framework (State) with its operational arm (Government), a fundamental category error that undermines all subsequent constitutional analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between Internal Sovereignty and External Sovereignty. Can a State have Internal Sovereignty but lack External Sovereignty? Give a real-world example.",
+     "a": "Internal Sovereignty = supreme authority within territory; population renders habitual obedience. External Sovereignty = independence from external control; equality in international law. Yes, a State can have Internal but lack External Sovereignty — e.g., a protectorate or occupied territory (e.g., Palestine pre-1988, or Indian princely states pre-1947). A wrong answer (e.g., \"Sovereignty is only one thing\" or \"External Sovereignty means UN membership\") shows the student misses the dual nature of sovereignty, critical for understanding federalism, emergency provisions, and international law.",
+     "self_check": true
+    },
+    {
+     "q": "The Board of Control for Cricket in India (BCCI) is a private society registered under the Tamil Nadu Societies Registration Act. It controls cricket in India, selects the national team, and generates massive revenue. In *Zee Telefilms v. Union of India* (2005), the Supreme Court held BCCI is NOT \"State\" under Article 12. Using the \"instrumentality of State\" test (from *R.D. Shetty v. Airport Authority of India*), explain WHY BCCI failed the test despite its public functions.",
+     "a": "The *R.D. Shetty* test requires: (1) Government financial control, (2) Government functional control, (3) Government-appointed majority on governing body, (4) Monopoly status conferred by State, (5) Public duty/functions. BCCI failed because: no government shareholding/funding; no government nominees on its managing committee; no statutory monopoly (cricket not a sovereign function); registered as private society. A wrong answer (e.g., \"BCCI is State because it selects national team\") shows the student confuses \"public function\" with \"State function\" — missing that Article 12 requires DEEP structural/financial control, not just public impact.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Hobbes, Locke, and Rousseau on: (a) State of Nature, (b) Purpose of Social Contract, (c) Nature of Sovereign, (d) Right to Revolt. Which theory best aligns with the Indian Constitution's Preamble (\"We the People...\")? Justify.",
+     "a": "Hobbes: State of Nature = war of all against all; Contract = surrender rights to absolute Sovereign (Leviathan) for security; Sovereign = absolute, not party to contract; No right to revolt. Locke: State of Nature = peaceful but inconvenient (no impartial judge); Contract = surrender only executive right of enforcement to Government (trustee); Sovereign = limited, party to contract; Right to revolt if trust breached. Rousseau: State of Nature = blissful; Contract = surrender rights to General Will (collective sovereignty); Sovereign = people themselves (General Will); No revolt needed — government is mere agent. Indian Constitution aligns with LOCKE (limited government, popular sovereignty, fundamental rights as retained rights) and ROUSSEAU (Preamble's \"We the People\" = General Will). A wrong answer (e.g., \"All three are same\" or \"Hobbes fits India because strong Centre\") reveals inability to map philosophical foundations to constitutional text — a key exam skill.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The Divine Theory of State origin is obsolete in modern constitutional democracies.\" Use the Indian Constitution's Preamble, Article 25, and the *S.R. Bommai v. Union of India* (1994) judgment to support your argument.",
+     "a": "The Divine Theory claims State authority derives from God/King as divine agent. Modern constitutionalism (including India) rejects this: Preamble declares \"We the People\" as source (popular sovereignty, not divine mandate); Article 25 guarantees freedom of conscience/religion — State is secular, not theocratic; *S.R. Bommai* held Secularism is Basic Structure — State has no religion, cannot claim divine sanction. However, Divine Theory's LEGACY persists: oath-taking invokes God; personal laws retain religious roots; \"Dharma\" rhetoric in judicial discourse. A weak answer (e.g., \"Divine Theory is wrong because India is secular\") misses the nuance — it fails to distinguish between THEORY (origin of authority) and PRACTICE (cultural continuity), and ignores that the Constitution itself was \"given to ourselves\" — a deliberate REJECTION of divine origin.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical \"State\" that has Population, Territory, and Government but LACKS Sovereignty. Describe its situation. Then, using the Montevideo Convention (1933) and Article 12 of the Indian Constitution, argue whether this entity can: (a) Claim Fundamental Rights for its people in Indian courts; (b) Be sued as \"State\" under Article 12 for violating Fundamental Rights.",
+     "a": "Example: \"Free City of Danzig\" (1920-1939) — League of Nations mandate, Polish customs union, own Senate (Government), defined territory, population ~400k, but NO external sovereignty (foreign policy by Poland, defense by League). (a) Its people CANNOT claim Fundamental Rights in Indian courts — Article 12 applies only within \"territory of India\" or under \"control of Government of India.\" (b) It CANNOT be sued as \"State\" under Article 12 — not an \"authority within territory of India\" nor \"under control of Government of India.\" A poor answer (e.g., \"Yes, because it has Government\") confuses factual governance with LEGAL personality under a specific constitutional provision — missing that Article 12 is a JURISDICTIONAL definition for Part III enforcement, not a general political science definition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

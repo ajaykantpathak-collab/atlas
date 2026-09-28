@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a dynamics trolley, a force sensor, and a motion sensor to verify the impulse-momentum theorem. Specify what you would plot and how you would confirm I = Δp.",
      "a": "Attach force sensor to trolley, push it with varying forces while motion sensor records velocity. For each run: (1) Integrate force-time graph from sensor to get impulse I. (2) Calculate Δp = m(v_final - v_initial) from velocity data. (3) Plot I vs. Δp for multiple runs; slope should be 1, intercept 0. A poor answer omits mass measurement, uses only one trial, or plots F vs. v instead of I vs. Δp, showing lack of understanding of the integral relationship and experimental verification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Momentum (p) of a body is the product of its mass (m) and velocity (v), ______ as p = mv.",
+     "a": "expressed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a cricket match: when a fielder catches a fast ball, they pull their hands backward, ______ the stopping time.",
+     "a": "increasing",
+     "self_check": true
+    },
+    {
+     "q": "What is Momentum (p) of a body? State the definition given in this lesson.",
+     "a": "Momentum (p) of a body is the product of its mass (m) and velocity (v), expressed as p = mv.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Momentum (p) of a body?",
+     "a": "Students think impulse is a force, saying \"the impulse of the bat on the ball\" as if impulse is the force itself.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate impulse from force-time graphs and momentum changes, explain why a cricketer draws hands backward while catching using impulse-momentum relationship, and derive the connection between Newton's second law in F=ma form and F=dp/dt form for constant mass systems.",
+     "self_check": true
     }
    ]
   }

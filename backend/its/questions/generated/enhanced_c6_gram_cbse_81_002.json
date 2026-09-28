@@ -1,0 +1,51 @@
+{
+ "catalog": "enhanced_c6_gram_cbse_81_002",
+ "concepts": [
+  {
+   "id": "enh:c6_gram_cbse_81_002",
+   "title": "c6_gram_cbse_81_002",
+   "questions": [
+    {
+     "q": "'The girls gave the boys ___ ball back.' their / his / her?",
+     "a": "'their' — the ball belongs to the girls (antecedent), not the nearest noun 'boys'. A wrong answer 'his' or reading it as the boys' ball reveals nearest-noun matching — the classic antecedent error.",
+     "self_check": true
+    },
+    {
+     "q": "Fix: 'Its raining, so the dog lost it's bone.'",
+     "a": "'It's raining' (it is) + 'its bone' (possessive, no apostrophe). A wrong answer keeping both apostrophes shows the student thinks apostrophe = possession — exactly backwards for 'its'.",
+     "self_check": true
+    },
+    {
+     "q": "'Ravi told Mohan he had passed.' Who passed — and why is it a problem?",
+     "a": "Cannot tell — 'he' could point to either Ravi or Mohan. Rewrite needed: 'Ravi told Mohan, \"I have passed\"' or 'Ravi congratulated Mohan on passing'. A wrong answer confidently picking one shows the student doesn't yet see ambiguity as an error.",
+     "self_check": true
+    },
+    {
+     "q": "But the ______ must match the original in number and gender — 'Ravi lost HIS book', and it must point clearly to ONE noun, not two.",
+     "a": "replacement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A pronoun replaces a noun so we do not repeat ______: he, she, it, they, this, who, mine.",
+     "a": "ourselves",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Show the repetition ______ first: 'Ravi picked up Ravi's bag and Ravi left.' Clunky.",
+     "a": "problem",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student picks the pronoun matching the antecedent's number and gender, spots ambiguous pronouns ('Ravi told Mohan he won' — who won?), and uses possessive pronouns (mine, yours, theirs) correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Show the ______ problem first: 'Ravi picked up Ravi's bag and Ravi left.' Clunky.",
+     "a": "repetition",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

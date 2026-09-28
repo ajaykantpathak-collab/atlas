@@ -34,6 +34,31 @@
      "q": "Design a scenario where a company uses multiple DNS record types (A, CNAME, MX, TXT) for a single domain. Describe the purpose of each record in your scenario.",
      "a": "Scenario: `company.com` hosts a website on IP 203.0.113.10, uses `www.company.com` as alias, email handled by Google Workspace, and needs SPF verification. Records: A record for `@` -> 203.0.113.10 (website), CNAME for `www` -> `company.com` (alias), MX records pointing to Google's mail servers (email), TXT record for SPF (`v=spf1 include:_spf.google.com ~all`) to authorize email senders. A poor answer that omits MX or TXT shows incomplete understanding of DNS beyond web hosting.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Web hosting is a service that allows individuals and ______ to make their website accessible via the World Wide Web by storing website files on a server connected to the internet.",
+     "a": "organizations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have built a ______ website using HTML and CSS (from previous nodes) and want to share it with the world.",
+     "a": "portfolio",
+     "self_check": true
+    },
+    {
+     "q": "What is Web hosting? State the definition given in this lesson.",
+     "a": "Web hosting is a service that allows individuals and organizations to make their website accessible via the World Wide Web by storing website files on a server connected to the internet.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Web hosting?",
+     "a": "Students often think that buying a domain automatically includes web hosting, or that uploading files to the registrar's panel makes the site live.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain the relationship between domain names, DNS, and web hosting, describe the steps to register a domain and host a website, and differentiate between hosting types (shared, VPS, dedicated, cloud) with their use cases.",
+     "self_check": true
     }
    ]
   }

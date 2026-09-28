@@ -34,6 +34,31 @@
      "q": "Create a scenario where a toy car changes from uniform to non-uniform motion.",
      "a": "A good answer involves a car moving on a smooth floor (uniform) and then hitting a rug or a rough surface (slowing down, making it non-uniform). A poor answer just lists random movements without explaining the transition in speed.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Non-uniform motion is the movement of an object where its speed changes over time, meaning it does not cover equal ______ in equal intervals of time.",
+     "a": "distances",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It doesn't move at the same speed the whole time; it slows down for a turn, ______ up on an empty road, and stops at a red light.",
+     "a": "speeds",
+     "self_check": true
+    },
+    {
+     "q": "What is Non-uniform motion? State the definition given in this lesson.",
+     "a": "Non-uniform motion is the movement of an object where its speed changes over time, meaning it does not cover equal distances in equal intervals of time.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Non-uniform motion?",
+     "a": "Students often believe that if an object is moving, its motion must be \"uniform\" simply because it is traveling a straight path.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify non-uniform motion in everyday scenarios (like a car in traffic) and distinguish it from uniform motion by describing why the speed is not constant.",
+     "self_check": true
     }
    ]
   }

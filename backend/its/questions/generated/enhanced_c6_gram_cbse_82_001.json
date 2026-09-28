@@ -1,0 +1,46 @@
+{
+ "catalog": "enhanced_c6_gram_cbse_82_001",
+ "concepts": [
+  {
+   "id": "enh:c6_gram_cbse_82_001",
+   "title": "c6_gram_cbse_82_001",
+   "questions": [
+    {
+     "q": "Find the verb: 'Swimming in the morning keeps me healthy.'",
+     "a": "'keeps' — 'swimming' is the subject here (an activity as a thing), not the verb. A wrong answer 'swimming' reveals the student labels any -ing word a verb without checking what drives the sentence.",
+     "self_check": true
+    },
+    {
+     "q": "Which gear: 'She will visit her grandmother tomorrow.'",
+     "a": "Future — will + visit. A wrong answer 'present because visit looks plain' shows the student ignores the helper 'will' which IS the gear lever.",
+     "self_check": true
+    },
+    {
+     "q": "Verb or not: 'The tired boy slept soundly.' — is 'tired' a verb here?",
+     "a": "No — 'tired' describes the boy (adjective); 'slept' is the verb. A wrong answer shows the student labels any past-form word a verb without checking its job in the sentence.",
+     "self_check": true
+    },
+    {
+     "q": "Every ______ sentence needs at least one, and its form changes with time: 'She walks', 'She walked', 'She will walk' — same engine, three gears.",
+     "a": "complete",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A verb is the ______ word — it names an action (run, eat, think) or a state (is, seem, have).",
+     "a": "engine",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Find the ______: 'The bird flew over the tall tree slowly.' Which word can you act out? 'flew'.",
+     "a": "engine",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student finds the verb(s) in any sentence, distinguishes action verbs from being-verbs, and identifies which gear (present/past/future) the sentence is in.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

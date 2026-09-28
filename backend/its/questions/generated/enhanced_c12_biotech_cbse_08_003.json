@@ -34,6 +34,36 @@
      "q": "Design a hypothetical experiment to prove that a newly derived cell line is continuous (immortalized) rather than finite. Specify the assays, timepoints, and criteria you would use.",
      "a": "Passage the line serially for >60 population doublings while monitoring: (1) growth curves at passages 10, 30, 50, 70 — continuous lines maintain exponential growth; (2) karyotyping at early and late passages — continuous lines show evolving abnormalities; (3) soft-agar colony formation assay — continuous lines form colonies (anchorage independence); (4) tumorigenicity test in nude mice. A line that meets all four criteria is continuous. An answer lacking quantitative passage thresholds or functional assays (soft agar, tumorigenicity) shows superficial grasp of validation standards.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Finite cell lines are cell populations derived from normal tissues that undergo a limited number of divisions (typically 20–50 population doublings) before entering irreversible senescence, whereas continuous (immortalized) cell lines have acquired the ability to proliferate indefinitely through spontaneous or induced ______, losing contact inhibition and anchorage dependence, and often exhibiting tumorigenicity.",
+     "a": "transformation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a researcher trying to decide which cell line to use for a long-term drug screening project: would you choose primary human ______ that stop dividing after a few weeks, or HeLa cells that have been growing continuously since 1951?",
+     "a": "fibroblasts",
+     "self_check": true
+    },
+    {
+     "q": "What is Finite cell lines? State the definition given in this lesson.",
+     "a": "Finite cell lines are cell populations derived from normal tissues that undergo a limited number of divisions (typically 20–50 population doublings) before entering irreversible senescence, whereas continuous (immortalized) cell lines have acquired the ability to proliferate indefinitely through spontaneous or induced transformation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Transformation — whether by a virus like SV______, a chemical carcinogen, or a spontaneous mutation — disables the senescence checkpoint, yielding a continuous line.",
+     "a": "40",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Finite cell lines?",
+     "a": "Students often think \"continuous cell line\" means the cells are cancer cells from a patient, while \"finite cell line\" means normal cells.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish finite from continuous cell lines by comparing their lifespan, growth requirements, genetic stability, and origin, and can explain how transformation (spontaneous, chemical, or viral) converts a finite line into a continuous one using HeLa cells as a classic example.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a histogram to represent the distribution of population density (persons/km²) across districts of a state, given that the data has highly unequal class intervals (e.g., 0–50, 50–100, 100–200, 200–500, 500–1000, 1000+). Specify the exact steps you would take, including how you would handle the open-ended class “1000+”, and explain how the resulting histogram helps a planner identify priority districts for infrastructure investment.",
      "a": "Step 1: Convert to exclusive form with true boundaries. Step 2: Compute class widths (50, 50, 100, 300, 500). Step 3: For open-ended class 1000+, assume a reasonable upper bound based on context (e.g., 1500 or 2000) and note the assumption. Step 4: Calculate frequency density = frequency / width for each class. Step 5: Choose scales: X-axis = density (0 to 1500), Y-axis = frequency density. Step 6: Draw adjacent bars with widths proportional to class intervals and heights = frequency density. Step 7: Interpret: tall, narrow bars at low densities indicate many sparsely populated districts; short, wide bars at high densities indicate few but very dense districts. Planners can target districts in the highest density classes (where bars may be short but area represents large population) for urban infrastructure, and low-density districts for rural connectivity. A poor answer that ignores the open-ended class or uses raw frequency would misrepresent the distribution and lead to flawed policy decisions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A histogram is a one-dimensional graphical ______ of a continuous frequency distribution where rectangular bars are drawn adjacent to each other without gaps, with the width of each bar proportional to the class interval and the height proportional to the frequency (or frequency density for unequal class intervals), allowing visualization of the shape, central tendency, and spread of geographical data such as rainfall, temperature, or population density.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have the daily maximum ______ records for Delhi in May for 30 years — hundreds of numbers.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have the daily maximum temperature records for Delhi in May for ______ years — hundreds of numbers.",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can construct a histogram from a given frequency distribution table (with equal or unequal class intervals), correctly calculate frequency density when needed, choose appropriate scales, label axes with units, and interpret the resulting graph to identify modal class, skewness, and concentration of data in a geographical.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Construct an original implication p → q about integers such that: (a) the original implication is true, (b) the converse is false, and (c) the contrapositive is true. Explain why your example satisfies all three conditions.",
      "a": "Example: \"If an integer is a multiple of 4, then it is even.\" (a) True: every multiple of 4 is 4k = 2(2k), hence even. (b) Converse \"If an integer is even, then it is a multiple of 4\" is false (counterexample: 2 is even but not a multiple of 4). (c) Contrapositive \"If an integer is not even (i.e., odd), then it is not a multiple of 4\" is true (odd numbers cannot be multiples of 4). A poor example where converse is also true (e.g., \"If x = 2, then x² = 4\") reveals the student doesn't understand that converse can differ in truth value from the original.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For an implication \"If p, then q\" (symbolically p → q), the converse is \"If q, then p\" (q → p), and the ______ is \"If not q, then not p\" (¬q → ¬p).",
+     "a": "contrapositive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your teacher says: \"If you score above 90% in the board exam, then you will get a scholarship.\" You wonder: \"Does getting a scholarship guarantee I scored above 90%?\" (converse) and \"If I don't get a scholarship, does that mean I didn't score above 90%?\" (______).",
+     "a": "contrapositive",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly construct the converse and contrapositive of any given implication, determine their truth values relative to the original statement, and prove logical equivalence of an implication and its contrapositive using truth tables or logical reasoning.",
+     "self_check": true
     }
    ]
   }

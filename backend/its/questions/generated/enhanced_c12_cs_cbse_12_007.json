@@ -34,6 +34,21 @@
      "q": "Design a 5-step \"Data Breach Response Plan\" for a small e-commerce website that discovers a SQL injection leak exposing customer names, hashed passwords, and order histories. Include legal notification thresholds under IT Act 2000.",
      "a": "1. **Contain & Assess**: Isolate affected server, preserve logs, determine scope (which tables, how many records). 2. **Notify Internally**: Alert DPO/management, engage cybersecurity team. 3. **Remediate**: Patch SQLi vulnerability, rotate keys, force password reset. 4. **Notify Authorities & Users**: Under IT Act Sec 72A & SPDI Rules, notify CERT-In within 6 hours of detection; inform affected users if high risk (hashed passwords + order history = high risk). 5. **Review & Document**: Post-incident audit, update WISP (Written Information Security Program). A poor answer that omits CERT-In notification or treats hashed passwords as \"safe\" misses legal obligations and the risk of offline cracking.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Data protection and privacy in the digital world refers to the principles, practices, and ______ that ensure personal and sensitive information is collected, processed, stored, and shared only with the informed consent of the data subject, for specified legitimate purposes, and secured against unauthorized access, alteration, or disclosure throughout its lifecycle.",
+     "a": "technologies",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you download a free \"______\" app on your phone.",
+     "a": "flashlight",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the core data protection principles (consent, purpose limitation, data minimization, accuracy, storage limitation, integrity, accountability), identify privacy risks in a given digital scenario (e.g., excessive permissions, unencrypted transmission, third-party tracking), and recommend appropriate technical.",
+     "self_check": true
     }
    ]
   }

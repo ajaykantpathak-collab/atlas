@@ -34,6 +34,36 @@
      "q": "Design a thought experiment: You have aqueous solutions of V²⁺, Cr²⁺, Mn²⁺, Fe²⁺, Co²⁺, Ni²⁺, Cu²⁺, Zn²⁺. Predict which M²⁺ ions will be stable, which will undergo disproportionation, and which will be strong reducing/oxidising agents. Justify each prediction using dⁿ configuration and ionisation enthalpy trends.",
      "a": "Stable M²⁺ (no disproportionation): Mn²⁺ (d⁵ half-filled), Fe²⁺ (d⁶), Co²⁺ (d⁷), Ni²⁺ (d⁸), Cu²⁺ (d⁹), Zn²⁺ (d¹⁰ filled). Strong reducing agents (easily oxidised to M³⁺): V²⁺ (d³ → d², but V²⁺ is d³? Wait: V is 3d³4s², V²⁺ is 3d³ — actually V²⁺ is a reducing agent because V³⁺ (d²) is more stable? Let's check: V²⁺ (d³) → V³⁺ (d²) loses exchange energy? Better: Cr²⁺ (d⁴) → Cr³⁺ (d³, half-filled t₂g) is strongly reducing. Mn²⁺ (d⁵) is stable, not reducing. Fe²⁺ (d⁶) → Fe³⁺ (d⁵) is moderately reducing. Co²⁺ (d⁷) → Co³⁺ (d⁶) is oxidising? Actually Co³⁺ is a strong oxidant. Cu⁺ (d¹⁰) disproportionates: 2Cu⁺ → Cu²⁺ (d⁹) + Cu(s). A complete answer must map each ion to its dⁿ, identify stable configurations (d⁰, d⁵, d¹⁰), and predict redox behaviour. A poor answer lists ions without dⁿ reasoning or misidentifies Cr²⁺ as oxidising.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ionisation enthalpy of a ______ element is the energy required to remove the most loosely bound electron from a gaseous atom or ion in its ground state; for d-block elements, successive ionisation enthalpies (ΔH₁, ΔH₂, ΔH₃) show smaller increases across a series compared to main-group elements due to poor shielding by (n−1)d electrons.",
+     "a": "transition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a rusting iron nail (Fe → Fe²⁺/Fe³⁺) and a copper vessel that does not rust easily — why does iron readily form +2/+3 ions while copper prefers +1/+2?",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What is Ionisation enthalpy of a transition element? State the definition given in this lesson.",
+     "a": "Ionisation enthalpy of a transition element is the energy required to remove the most loosely bound electron from a gaseous atom or ion in its ground state; for d-block elements, successive ionisation enthalpies (ΔH₁, ΔH₂, ΔH₃) show smaller increases across a series compared to main-group elements due to poor shielding by (n−1)d.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ionisation enthalpy of a transition element is the energy required to remove the most loosely bound electron from a gaseous atom or ion in its ground state; for d-block elements, successive ionisation enthalpies (ΔH₁, ΔH₂, ΔH₃) show smaller increases across a series compared to main-group elements due to poor shielding by (n−______)d electrons.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Ionisation enthalpy of a transition element?",
+     "a": "Students write \"ionisation enthalpy increases across the period because nuclear charge increases\" and apply this uniformly to both main-group and transition elements.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (a) explain why successive ionisation enthalpies of 3d metals rise less steeply than main-group elements and identify the d⁰, d⁵, d¹⁰ configurations that cause breaks in the trend; (b) predict the range and stability of oxidation states for any first-row transition metal from its ground-state dⁿ configuration; (c) correlate.",
+     "self_check": true
     }
    ]
   }

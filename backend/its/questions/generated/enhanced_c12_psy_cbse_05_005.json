@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_05_005",
+   "title": "c12_psy_cbse_05_005",
+   "questions": [
+    {
+     "q": "**REMEMBER**: State the principle of reciprocal inhibition and name the technique that directly applies it.",
+     "a": "**Answer**: Reciprocal inhibition states that two mutually opposing physiological states (e.g., relaxation and anxiety) cannot coexist; the stronger inhibits the weaker. **Systematic desensitisation** directly applies this principle by pairing relaxation (the stronger, trained response) with graded anxiety‑provoking stimuli.  \n**Why a wrong answer reveals misunderstanding**: If a student names \"aversive conditioning\" or \"token economy\", they confuse the underlying learning paradigm (classical counter‑conditioning vs. operant reinforcement/punishment). If they define reciprocal inhibition incorrectly (e.g., \"replacing a bad habit with a good one\"), they miss the physiological basis central to Wolpe's method.",
+     "self_check": true
+    },
+    {
+     "q": "**UNDERSTAND**: A therapist uses token economy with a child who shows aggressive outbursts. The child earns a token for each hour without aggression, and tokens are exchanged for extra playtime. After two weeks, aggression decreases but the child becomes anxious and asks, \"Do I get a token if I just sit quietly?\" Explain why this question signals a potential limitation of the technique.",
+     "a": "**Answer**: The child's question shows **over‑reliance on external reinforcement** — the behaviour is now under token control rather than internalised. Token economy can create dependency on the token system; when tokens are faded, the desired behaviour may not maintain if intrinsic motivation or natural reinforcers (e.g., peer approval, self‑satisfaction) haven't been established.  \n**Why a wrong answer reveals misunderstanding**: A student who says \"the technique is working perfectly because aggression decreased\" misses the critical distinction between behaviour *suppression* and behaviour *internalisation*. They also overlook the NCERT emphasis on \"wanted behaviour increases\" as the goal, not just unwanted behaviour decreasing.",
+     "self_check": true
+    },
+    {
+     "q": "**APPLY**: Design the first three steps of an anxiety hierarchy for a college student with social anxiety who fears: (a) eating alone in the canteen, (b) giving a class presentation, (c) asking a professor a question after class, (d) attending a party where they know no one. Rank them from least to most anxiety‑provoking and justify the ordering.",
+     "a": "**Answer**:  \nStep 1 (least anxiety): **Eating alone in the canteen** — a routine, low‑social‑interaction activity.  \nStep 2: **Asking a professor a question after class** — brief, structured interaction with an authority figure.  \nStep 3: **Giving a class presentation** — sustained performance evaluation by peers.  \nStep 4 (most anxiety): **Attending a party where they know no one** — unstructured, prolonged, high‑stakes social evaluation.  \n**Justification**: Hierarchy construction follows the **subjective anxiety rating (SUDS)** of the client, not the therapist's assumption. The ordering above reflects typical social‑anxiety gradations: passive presence → brief interaction → performance → unstructured mingling.  \n**Why a wrong answer reveals misunderstanding**: Reversing the order (e.g., putting presentation before asking a question) ignores the principle of **graded exposure**. Using the therapist's judgment instead of the client's SUDS violates the collaborative nature of systematic desensitisation.",
+     "self_check": true
+    },
+    {
+     "q": "**ANALYZE**: Compare aversive conditioning and negative reinforcement. Both involve aversive stimuli, yet they produce opposite behavioural effects. Explain the critical procedural difference using the terms \"contingency\" and \"behavioural outcome\".",
+     "a": "**Answer**:  \n- **Aversive conditioning** (a form of **positive punishment**): An aversive stimulus is presented **contingent ON the unwanted behaviour** → **decreases** that behaviour (e.g., shock paired with alcohol smell reduces drinking).  \n- **Negative reinforcement**: An aversive stimulus is **removed or avoided contingent ON a desired behaviour** → **increases** that behaviour (e.g., putting on a coat removes cold, increasing coat‑wearing).  \n**Critical difference**: In aversive conditioning the aversive stimulus **follows** the target (unwanted) behaviour; in negative reinforcement the aversive stimulus **precedes** and its termination **follows** the target (wanted) behaviour.  \n**Why a wrong answer reveals misunderstanding**: Students often conflate \"aversive stimulus\" with \"negative reinforcement\" because both involve unpleasant events. They fail to analyse the **direction of behaviour change** (decrease vs. increase) and the **temporal contingency** (presentation vs. removal).",
+     "self_check": true
+    },
+    {
+     "q": "**EVALUATE**: A residential school for adolescents with conduct disorder implements a token economy. Tokens are given for prosocial behaviours (helping peers, following rules) and exchanged for privileges (extra TV time, preferred meals). Critics argue this is \"bribery\" and violates the adolescents' autonomy. Defend or critique the token economy from an ethical standpoint, referencing **informed consent**, **therapeutic goal**, and **fading procedures**.",
+     "a": "**Answer**: Token economy is **ethically justifiable** when:  \n1. **Informed consent** is obtained from guardians and, where possible, assent from adolescents — they understand the system, its purpose, and their rights.  \n2. **Therapeutic goal** is skill‑building (social skills, self‑regulation) not mere compliance; tokens bridge the gap until natural reinforcers (peer acceptance, self‑esteem) take over.  \n3. **Fading procedures** are built in: token frequency decreases, exchange ratios increase, and privileges shift to intrinsic/natural reinforcers, promoting autonomy.  \nWithout fading, it becomes control, not therapy. The NCERT emphasis on \"wanted behaviour increases\" implies the ultimate aim is **internalisation**, not perpetual external control.  \n**Why a wrong answer reveals misunderstanding**: A purely negative critique (\"it's bribery\") ignores the **shaping** function of tokens for individuals who lack intrinsic motivation due to disorder. A purely positive defense (\"it works\") ignores the **ethical mandate** to plan for token fading and autonomy restoration.",
+     "self_check": true
+    },
+    {
+     "q": "**CREATE**: Invent a novel behavioural intervention for **nomophobia** (fear of being without a mobile phone) that combines elements of **systematic desensitisation** and **token economy**. Describe the hierarchy, the relaxation component, the token criteria, and the exchange system in 5 steps.",
+     "a": "**Answer** (example of a good response):  \n1. **Assessment & Hierarchy**: Client rates anxiety (0‑100) for situations: (a) phone on silent in same room (20), (b) phone in another room, audible (40), (c) phone locked in locker for 15 min (60), (d) phone left at home for 1 hour (80), (e) full day without phone (100).  \n2. **Relaxation Training**: Teach diaphragmatic breathing + progressive muscle relaxation (PMR) until client can achieve deep relaxation in 2 minutes.  \n3. **Token Criteria**: Each session, client practices *one* hierarchy step while relaxed. Successful completion (stays relaxed for 5 min at that step) = 1 token. Bonus token for journaling coping thoughts.  \n4. **Exchange System**: 5 tokens = 15 min \"guilt‑free\" phone use; 10 tokens = choice of preferred offline activity (gaming, sports, art); 20 tokens = \"phone‑free weekend\" celebration with friends.  \n5. **Fading**: Gradually increase hierarchy step duration, reduce token ratio, replace tokens with self‑monitoring checklist.  \n**Why a poor answer reveals misunderstanding**: Simply listing \"exposure + rewards\" without integrating **reciprocal inhibition** (relaxation must *co‑occur* with exposure) or **token specificity** (tokens for *approach* behaviours, not just absence of avoidance) shows superficial combination.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Behavioural techniques are structured interventions based on learning principles (classical and operant conditioning) that aim to eliminate maladaptive behaviours and establish adaptive ones; the three core techniques are aversive conditioning (pairing an unwanted behaviour with an unpleasant stimulus to create aversion), token economy (using conditioned reinforcers/tokens exchangeable for backup reinforcers to shape desired behaviours), and systematic ______ (Wolpe's gradual exposure to anxiety-provoking stimuli while maintaining relaxation, based on reciprocal inhibition).",
+     "a": "desensitisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 16‑year‑old who cannot enter a ______ because of an intense fear of lizards (phobia), a 12‑year‑old with ADHD who rarely completes homework, and a 30‑year‑old alcoholic who wants to stop drinking.",
+     "a": "classroom",
+     "self_check": true
+    },
+    {
+     "q": "What is Behavioural techniques? State the definition given in this lesson.",
+     "a": "Behavioural techniques are structured interventions based on learning principles (classical and operant conditioning) that aim to eliminate maladaptive behaviours and establish adaptive ones; the three core techniques are aversive conditioning (pairing an unwanted behaviour with an unpleasant stimulus to create aversion), token economy.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Behavioural techniques?",
+     "a": "Misconception: \"Aversive conditioning, token economy, and systematic desensitisation are just different names for reward/punishment.\" Why it's wrong: This collapses three distinct learning mechanisms. - Aversive conditioning uses classical conditioning (pairing CS — alcohol smell — with US — nausea/shock — to create a new CR: aversion).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish the theoretical basis, procedural steps, and appropriate clinical indications for each of the three techniques, and (2) given a case vignette, select the most suitable technique, justify the choice with learning principles, and outline a step‑by‑step treatment plan including hierarchy construction (for.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

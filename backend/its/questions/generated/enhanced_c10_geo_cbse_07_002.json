@@ -34,6 +34,31 @@
      "q": "Design a three-tier road improvement plan for a hypothetical backward district in Odisha with high tribal population, dense forests, and frequent flooding. Specify which road tier (NH, SH, MDR, Rural) gets what intervention and justify each using geographical reasoning.",
      "a": "A good answer: (1) Upgrade the existing NH passing through the district to 4-lane with elevated flood-proof sections (NH tier: ensures national corridor resilience). (2) Convert key SHs linking block HQs to district HQ to all-weather double-lane with cross-drainage (SH tier: reduces travel time for agricultural produce). (3) Construct new Rural Roads under PMGSY-II to connect unconnected habitations >250 population using flood-resilient specifications (Rural tier: addresses last-mile connectivity in floodplains). Justification must link terrain (forests → need for wildlife corridors), climate (floods → elevated roads), and demography (tribal dispersal → lower population threshold). A poor answer proposes uniform upgrades without tier-specific justification or ignores physical constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Road ______ in India is the administrative categorization of roads based on their construction, maintenance authority, and functional importance into five hierarchical tiers: National Highways (NH) maintained by the central government, State Highways (SH) maintained by state governments, Major District Roads (MDR) and Other District Roads (ODR) maintained by district authorities, and Rural Roads (including village roads) maintained by local bodies like Panchayats, with special categories like Border Roads and International Highways for strategic connectivity.",
+     "a": "classification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are travelling from your village to the nearest town: you start on a narrow, unpaved village road maintained by the Gram ______, then join a wider metalled road maintained by the Zila Parishad, then a State Highway with two lanes maintained by the state PWD, and finally a four-lane National Highway maintained by NHAI.",
+     "a": "Panchayat",
+     "self_check": true
+    },
+    {
+     "q": "What is Road classification in India? State the definition given in this lesson.",
+     "a": "Road classification in India is the administrative categorization of roads based on their construction, maintenance authority, and functional importance into five hierarchical tiers: National Highways (NH) maintained by the central government, State Highways (SH) maintained by state governments, Major District Roads (MDR) and Other.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Road classification in India?",
+     "a": "Students often think \"State Highways are always wider/better than National Highways\" because the word 'State' sounds larger than 'National'.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify any given Indian road into its administrative tier (National Highway, State Highway, District Road, Rural Road) by identifying its maintaining authority, numbering system, and functional role, and can explain how terrain and economic activity influence the density of each road type in a region.",
+     "self_check": true
     }
    ]
   }

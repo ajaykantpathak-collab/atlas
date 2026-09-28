@@ -34,6 +34,31 @@
      "q": "Design a flowchart that traces a single product (e.g., coffee beans) from an Ethiopian farmer to a consumer in Jaipur, labeling each trade transaction as internal wholesale, internal retail, import, export, or entrepôt. Include at least five transactions.",
      "a": "A valid flowchart: 1. Ethiopian farmer → Ethiopian exporter (Internal wholesale in Ethiopia). 2. Ethiopian exporter → Indian importer (Export from Ethiopia / Import to India). 3. Indian importer → Mumbai wholesaler (Internal wholesale in India). 4. Mumbai wholesaler → Jaipur retailer (Internal wholesale in India). 5. Jaipur retailer → Consumer (Internal retail in India). If entrepôt is included: add a transaction where Indian importer re-exports to Nepal without processing (Entrepôt). A poor flowchart misses the distinction between import/export as a pair, labels all domestic transactions as \"retail,\" or treats the importer as a retailer.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Trade is the branch of commerce ______ with the buying, selling, and exchange of goods and services.",
+     "a": "concerned",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you buy a ______ from a local shop in Delhi.",
+     "a": "smartphone",
+     "self_check": true
+    },
+    {
+     "q": "What is Trade? State the definition given in this lesson.",
+     "a": "Trade is the branch of commerce concerned with the buying, selling, and exchange of goods and services.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Trade?",
+     "a": "Students often believe that \"wholesale trade means selling in large quantities\" and \"retail trade means selling in small quantities,\" treating quantity as the defining criterion.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify any given trade scenario as internal (wholesale/retail) or external (import/export/entrepôt), explain the role of each type in the distribution chain, and distinguish trade from auxiliaries to trade using the hindrance-removal framework.",
+     "self_check": true
     }
    ]
   }

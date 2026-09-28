@@ -34,6 +34,26 @@
      "q": "Create a real-life problem (Indian context) that requires using the Pythagoras theorem to find a missing length. The problem must involve a right triangle that is not explicitly drawn (e.g., a situation with a tree, pole, or shadow). Write the problem statement and solve it completely.",
      "a": "Example problem: \"A 15 m high pole is broken by a storm at a point 9 m above the ground. The top touches the ground some distance away from the base. How far from the base does the top touch?\" Solution: The broken part forms the hypotenuse of a right triangle with vertical leg 9 m and horizontal leg \\(x\\). Broken part length = \\(15 - 9 = 6\\) m. Wait: Actually the broken part is the hypotenuse? Let's re-read: The pole is broken at 9 m height, so the standing part is 9 m (vertical leg). The broken part (length 6 m) falls and touches the ground, becoming the hypotenuse? No, the broken part is the hypotenuse only if it's straight from break point to ground. But the broken part length is 6 m, and the vertical leg is 9 m. That would make hypotenuse shorter than leg, impossible. So the problem must be: The pole breaks and the top touches the ground. The standing part is vertical, the fallen part is the hypotenuse. Let the break point be at height \\(h\\). Then the fallen part length = \\(15-h\\). The distance from base to top is \\(x\\). Right triangle: vertical leg = \\(h\\), horizontal leg = \\(x\\), hypotenuse = \\(15-h\\). Need another condition. Usually such problems give the distance from base. Let's design a correct one: \"A 13 m long bamboo is broken at a height of 5 m from the ground. The top touches the ground. Find the distance from the base where the top touches.\" Solution: Standing part = 5 m (vertical leg), fallen part = 8 m (hypotenuse). Distance \\(x\\): \\(5^2 + x^2 = 8^2 \\Rightarrow x^2 = 64-25=39 \\Rightarrow x=\\sqrt{39}\\) m. A poor answer would be a problem that doesn't form a right triangle, or uses the theorem incorrectly (e.g., adding instead of subtracting), showing the student cannot model a situation geometrically.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ theorem states that in a right-angled triangle, the square of the length of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the lengths of the other two sides (legs).",
+     "a": "Pythagoras",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 10 m long ladder leaning against a ______ wall.",
+     "a": "vertical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ m long ladder leaning against a vertical wall.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can also solve multi-step problems that combine Pythagoras theorem with perimeter, area, or coordinate geometry concepts.",
+     "self_check": true
     }
    ]
   }

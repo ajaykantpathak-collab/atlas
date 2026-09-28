@@ -34,6 +34,21 @@
      "q": "Design a simple public health survey for your village to assess iodine deficiency risk. List 3 measurable indicators you would check, the method for each, and how you would link the data to thyroid health.",
      "a": "Indicators: (1) Urinary iodine concentration (UIE) — collect spot urine samples, measure iodine via titration; median <100 µg/L indicates deficiency. (2) Goitre prevalence — palpate necks of 6-12 year children; >5% prevalence signals endemic goitre. (3) Salt iodine content — test household salt samples with MBI kit; <15 ppm indicates inadequate iodisation. Link: Low UIE + high goitre rate + low salt iodine = community-level iodine deficiency requiring salt iodisation enforcement. A poor answer that only says \"check for goitre\" misses the quantitative, multi-indicator approach needed for public health decisions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The thyroid gland is a bilobed endocrine gland located in the neck that secretes thyroxine (T4) and ______ (T3), iodine-containing hormones that regulate the basal metabolic rate (BMR) of lipids, proteins, and carbohydrates in almost all body tissues by increasing oxygen consumption and heat production.",
+     "a": "triiodothyronine",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking students to observe a person with a visible swelling in the front of the neck (goitre) — a common sight in iodine-______ regions like the sub-Himalayan belt.",
+     "a": "deficient",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the mechanism of thyroxine action on cellular metabolism, predict the symptoms of hypo- and hyperthyroidism based on metabolic changes, and describe the negative feedback loop involving TSH from the pituitary gland using a flowchart.",
+     "self_check": true
     }
    ]
   }

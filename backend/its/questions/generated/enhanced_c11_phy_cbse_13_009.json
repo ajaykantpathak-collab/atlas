@@ -34,6 +34,11 @@
      "q": "Design a simple experiment using a smartphone's accelerometer (or a pendulum with a position sensor) to demonstrate that two identical oscillators started with different initial displacements but the same initial velocity (zero) have different phase constants. Describe the procedure, the data to record, and how to extract \\( \\phi \\) from the data.",
      "a": "Procedure: Use two identical spring-mass systems (or one system tested twice). In trial 1, pull mass to \\( x = +A \\) and release from rest. In trial 2, pull to \\( x = +A/2 \\) and release from rest. Record \\( x(t) \\) using sensor. Fit data to \\( x = A \\cos(\\omega t + \\phi) \\) (known \\( A, \\omega \\)). For trial 1: \\( x_0 = A \\Rightarrow \\phi = 0 \\). For trial 2: \\( x_0 = A/2 \\Rightarrow \\phi = \\pm \\pi/3 \\); since \\( v_0 = 0 \\), \\( \\sin \\phi = 0 \\) — contradiction! Wait: releasing from rest at \\( x = A/2 \\) is NOT an extreme position, so \\( v_0 = 0 \\) but \\( x_0 \\neq \\pm A \\). This is impossible for SHM because at \\( v=0 \\), \\( x \\) must be \\( \\pm A \\). Correction: To have \\( v_0 = 0 \\) and different \\( x_0 \\), the amplitude must be different. Better: Same amplitude, different release points: trial 1 release from \\( +A \\) (\\( \\phi=0 \\)), trial 2 release from \\( -A \\) (\\( \\phi=\\pi \\)). Or same \\( x_0 \\) but different \\( v_0 \\): push from mean position with different speeds. A good answer recognizes that \\( v_0=0 \\) forces \\( x_0 = \\pm A \\), so phase constant can only be 0 or \\( \\pi \\) for zero initial velocity. This tests deep understanding of the \\( (x_0, v_0) \\) to \\( (A, \\phi) \\) mapping.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a swing in a playground: when you push a child from rest at the extreme position, the motion starts at maximum ______; when you give a push at the mean position, it starts with maximum speed.",
+     "a": "displacement",
+     "self_check": true
     }
    ]
   }

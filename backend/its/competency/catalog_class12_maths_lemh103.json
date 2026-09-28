@@ -24,9 +24,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "multiply the row count by the column count",
+    {
+     "step": 1,
+     "action": "multiply the row count by the column count",
      "explain": "Each row meets each column once, so an m by n array packs the product many entries.",
-     "compute": "elements = rows * cols"}
+     "compute": "elements = rows * cols"
+    }
    ]
   },
   {
@@ -45,15 +48,33 @@
     "read off the element in the second row and first column of the data matrix",
     "how does a matrix encode tabular information about people and items"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "decide the rows and the columns",
-     "explain": "Assign one category to rows and the other to columns."},
-    {"step": 2, "action": "place each value at its position",
-     "explain": "Every data point gets the position fixed by its row and column labels."},
-    {"step": 3, "action": "read the arrangement",
-     "explain": "Any entry can be recovered from its position, which is why matrices store data compactly."}
-   ]
+    {
+     "step": 1,
+     "action": "decide the rows and the columns",
+     "explain": "Assign one category to rows and the other to columns."
+    },
+    {
+     "step": 2,
+     "action": "place each value at its position",
+     "explain": "Every data point gets the position fixed by its row and column labels."
+    },
+    {
+     "step": 3,
+     "action": "read the arrangement",
+     "explain": "Any entry can be recovered from its position, which is why matrices store data compactly."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 6 + 7 + 6 gives 19",
+     "compute": "total = 6 + 7 + 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lemh.103.3.1",
@@ -71,15 +92,33 @@
     "what do you call a matrix with exactly one row",
     "explain the difference between a row matrix and a column matrix"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "count the rows and columns",
-     "explain": "Read the order of the given matrix."},
-    {"step": 2, "action": "compare the counts",
-     "explain": "A single column means column type, a single row means row type, equal counts mean square."},
-    {"step": 3, "action": "name the type",
-     "explain": "Report the shape class together with the order."}
-   ]
+    {
+     "step": 1,
+     "action": "count the rows and columns",
+     "explain": "Read the order of the given matrix."
+    },
+    {
+     "step": 2,
+     "action": "compare the counts",
+     "explain": "A single column means column type, a single row means row type, equal counts mean square."
+    },
+    {
+     "step": 3,
+     "action": "name the type",
+     "explain": "Report the shape class together with the order."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "square the given number using the stated square rule",
+     "explain": "square the given number using the stated square rule: sq = 24 ** 2 gives 576",
+     "compute": "sq = 24 ** 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lemh.103.3.2",
@@ -97,15 +136,33 @@
     "explain why the identity matrix carries ones on its diagonal",
     "classify the square matrix whose nonzero entries sit on the diagonal"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "inspect the off-diagonal entries",
-     "explain": "Check whether every position outside the diagonal holds zero."},
-    {"step": 2, "action": "inspect the diagonal entries",
-     "explain": "See whether the diagonal values are equal, or all equal to one."},
-    {"step": 3, "action": "classify",
-     "explain": "Zeros off the diagonal is diagonal; equal diagonal values is scalar; diagonal all ones with zeros elsewhere is identity."}
-   ]
+    {
+     "step": 1,
+     "action": "inspect the off-diagonal entries",
+     "explain": "Check whether every position outside the diagonal holds zero."
+    },
+    {
+     "step": 2,
+     "action": "inspect the diagonal entries",
+     "explain": "See whether the diagonal values are equal, or all equal to one."
+    },
+    {
+     "step": 3,
+     "action": "classify",
+     "explain": "Zeros off the diagonal is diagonal; equal diagonal values is scalar; diagonal all ones with zeros elsewhere is identity."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the quadrilateral property to compute the value",
+     "explain": "use the quadrilateral property to compute the value: adj = 180 - 50 gives 130",
+     "compute": "adj = 180 - 50"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lemh.103.3.3",
@@ -123,15 +180,39 @@
     "can matrices of different orders ever be equal justify",
     "form the entry equations from the matrix equality statement and solve them"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "compare the orders",
-     "explain": "Different orders immediately rule out equality."},
-    {"step": 2, "action": "equate matching positions",
-     "explain": "Each pair of same-position entries gives one equation."},
-    {"step": 3, "action": "solve the equations",
-     "explain": "Solve the resulting system to find the unknown entries."}
-   ]
+    {
+     "step": 1,
+     "action": "compare the orders",
+     "explain": "Different orders immediately rule out equality."
+    },
+    {
+     "step": 2,
+     "action": "equate matching positions",
+     "explain": "Each pair of same-position entries gives one equation."
+    },
+    {
+     "step": 3,
+     "action": "solve the equations",
+     "explain": "Solve the resulting system to find the unknown entries."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the mean/median/mode definition",
+     "explain": "apply the mean/median/mode definition: total = sum((38, 16, 24, 13, 34)) gives 125",
+     "compute": "total = sum((38, 16, 24, 13, 34))"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 25",
+     "compute": "mean = total / 5"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lemh.103.4.1",
@@ -151,9 +232,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "combine the entries at the same position",
+    {
+     "step": 1,
+     "action": "combine the entries at the same position",
      "explain": "The sum entry at any position is the total of the two entries standing there.",
-     "compute": "c11 = a11 + b11"}
+     "compute": "c11 = a11 + b11"
+    }
    ]
   },
   {
@@ -174,9 +258,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "multiply the entry by the scalar",
+    {
+     "step": 1,
+     "action": "multiply the entry by the scalar",
      "explain": "Every position of the scaled matrix carries the original value times the scalar.",
-     "compute": "entry = k * a11"}
+     "compute": "entry = k * a11"
+    }
    ]
   },
   {
@@ -195,15 +282,33 @@
     "prove that A plus B equals B plus A entrywise",
     "state the laws that matrix addition shares with number addition"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "add in one order",
-     "explain": "Form the entrywise sum A + B."},
-    {"step": 2, "action": "add in the reverse order",
-     "explain": "Form B + A and compare positions."},
-    {"step": 3, "action": "conclude the law",
-     "explain": "Matching entries prove commutativity; the same entrywise reasoning gives associativity, identity and inverses."}
-   ]
+    {
+     "step": 1,
+     "action": "add in one order",
+     "explain": "Form the entrywise sum A + B."
+    },
+    {
+     "step": 2,
+     "action": "add in the reverse order",
+     "explain": "Form B + A and compare positions."
+    },
+    {
+     "step": 3,
+     "action": "conclude the law",
+     "explain": "Matching entries prove commutativity; the same entrywise reasoning gives associativity, identity and inverses."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "expand the determinant or matrix product entry",
+     "explain": "expand the determinant or matrix product entry: det = 2 * 6 - -1 * 5 gives 17",
+     "compute": "det = 2 * 6 - -1 * 5"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lemh.103.4.4",
@@ -223,15 +328,24 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "pair the leading entries",
+    {
+     "step": 1,
+     "action": "pair the leading entries",
      "explain": "Multiply the first entry of the row by the first entry of the column.",
-     "compute": "pair1 = a11 * b11"},
-    {"step": 2, "action": "pair the next entries",
+     "compute": "pair1 = a11 * b11"
+    },
+    {
+     "step": 2,
+     "action": "pair the next entries",
      "explain": "Multiply the second entry of the row by the second entry of the column.",
-     "compute": "pair2 = a12 * b21"},
-    {"step": 3, "action": "add the paired products",
+     "compute": "pair2 = a12 * b21"
+    },
+    {
+     "step": 3,
+     "action": "add the paired products",
      "explain": "The total is the product entry at that row and column.",
-     "compute": "c11 = pair1 + pair2"}
+     "compute": "c11 = pair1 + pair2"
+    }
    ]
   },
   {
@@ -250,15 +364,33 @@
     "state the order of AB when A is m by n and B is n by p",
     "decide whether AB, BA or both products exist for the given matrices"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "compare the inner sizes",
-     "explain": "Match the column count of the left factor with the row count of the right factor."},
-    {"step": 2, "action": "check both products",
-     "explain": "Repeat the test with the factors swapped, and note the resulting orders."},
-    {"step": 3, "action": "conclude existence and commutativity",
-     "explain": "Report which products are defined and, when both are, compare the entries to test equality."}
-   ]
+    {
+     "step": 1,
+     "action": "compare the inner sizes",
+     "explain": "Match the column count of the left factor with the row count of the right factor."
+    },
+    {
+     "step": 2,
+     "action": "check both products",
+     "explain": "Repeat the test with the factors swapped, and note the resulting orders."
+    },
+    {
+     "step": 3,
+     "action": "conclude existence and commutativity",
+     "explain": "Report which products are defined and, when both are, compare the entries to test equality."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the integer operation sign rules",
+     "explain": "apply the integer operation sign rules: total = -8 + (-11) gives -19",
+     "compute": "total = -8 + (-11)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lemh.103.5.1",
@@ -276,15 +408,33 @@
     "compute the transpose of k times A for the given scalar",
     "what happens to the rows and columns when a matrix is transposed"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "swap rows and columns",
-     "explain": "Write each row of the original as a column of the transpose."},
-    {"step": 2, "action": "apply the needed property",
-     "explain": "Use the reversal rule for products or the scalar rule as the question requires."},
-    {"step": 3, "action": "compare entries",
-     "explain": "Entrywise comparison confirms the identity being verified."}
-   ]
+    {
+     "step": 1,
+     "action": "swap rows and columns",
+     "explain": "Write each row of the original as a column of the transpose."
+    },
+    {
+     "step": 2,
+     "action": "apply the needed property",
+     "explain": "Use the reversal rule for products or the scalar rule as the question requires."
+    },
+    {
+     "step": 3,
+     "action": "compare entries",
+     "explain": "Entrywise comparison confirms the identity being verified."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (101 - 2) / 9 gives 11",
+     "compute": "x = (101 - 2) / 9"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lemh.103.6.1",
@@ -302,15 +452,33 @@
     "is every diagonal element of a skew symmetric matrix zero justify",
     "write the symmetric part of the given matrix"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "form the transpose",
-     "explain": "Write A' for the given square matrix."},
-    {"step": 2, "action": "compare A with A' or with -A'",
-     "explain": "Entrywise comparison decides symmetric versus skew symmetric."},
-    {"step": 3, "action": "decompose if asked",
-     "explain": "Average A with A' for the symmetric part and average A with -A' for the skew symmetric part."}
-   ]
+    {
+     "step": 1,
+     "action": "form the transpose",
+     "explain": "Write A' for the given square matrix."
+    },
+    {
+     "step": 2,
+     "action": "compare A with A' or with -A'",
+     "explain": "Entrywise comparison decides symmetric versus skew symmetric."
+    },
+    {
+     "step": 3,
+     "action": "decompose if asked",
+     "explain": "Average A with A' for the symmetric part and average A with -A' for the skew symmetric part."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "expand the determinant or matrix product entry",
+     "explain": "expand the determinant or matrix product entry: det = 6 * -1 - -4 * 3 gives 6",
+     "compute": "det = 6 * -1 - -4 * 3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lemh.103.7.1",
@@ -328,15 +496,33 @@
     "state the relation between the inverse of AB and the inverses of A and B",
     "why can a rectangular matrix not possess an inverse"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "multiply A by B",
-     "explain": "Compute the product AB entry by entry."},
-    {"step": 2, "action": "multiply B by A",
-     "explain": "Compute BA and check it agrees with AB."},
-    {"step": 3, "action": "compare with the identity",
-     "explain": "Both products equal to the identity matrix proves B is the inverse of A."}
-   ]
+    {
+     "step": 1,
+     "action": "multiply A by B",
+     "explain": "Compute the product AB entry by entry."
+    },
+    {
+     "step": 2,
+     "action": "multiply B by A",
+     "explain": "Compute BA and check it agrees with AB."
+    },
+    {
+     "step": 3,
+     "action": "compare with the identity",
+     "explain": "Both products equal to the identity matrix proves B is the inverse of A."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 3 gives 3",
+     "compute": "count = 3"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -351,9 +537,12 @@
     "cols": "number of columns in the matrix"
    },
    "solution_template": [
-    {"step": 1, "action": "multiply the row count by the column count",
+    {
+     "step": 1,
+     "action": "multiply the row count by the column count",
      "explain": "Each of the rows meets each of the columns once.",
-     "compute": "elements = rows * cols"}
+     "compute": "elements = rows * cols"
+    }
    ]
   },
   {
@@ -367,9 +556,12 @@
     "cols": "number of columns in the matrix"
    },
    "solution_template": [
-    {"step": 1, "action": "multiply the row count by the column count",
+    {
+     "step": 1,
+     "action": "multiply the row count by the column count",
      "explain": "The product gives the total number of entries.",
-     "compute": "elements = rows * cols"}
+     "compute": "elements = rows * cols"
+    }
    ]
   },
   {
@@ -383,9 +575,12 @@
     "b11": "top left entry of the second matrix"
    },
    "solution_template": [
-    {"step": 1, "action": "combine the entries at the same position",
+    {
+     "step": 1,
+     "action": "combine the entries at the same position",
      "explain": "Corresponding entries add directly.",
-     "compute": "c11 = a11 + b11"}
+     "compute": "c11 = a11 + b11"
+    }
    ]
   },
   {
@@ -399,9 +594,12 @@
     "a11": "top left entry of A"
    },
    "solution_template": [
-    {"step": 1, "action": "multiply the entry by the scalar",
+    {
+     "step": 1,
+     "action": "multiply the entry by the scalar",
      "explain": "Scaling touches every entry with the same factor.",
-     "compute": "entry = k * a11"}
+     "compute": "entry = k * a11"
+    }
    ]
   },
   {
@@ -417,15 +615,24 @@
     "b21": "price of one story book"
    },
    "solution_template": [
-    {"step": 1, "action": "pair the leading entries",
+    {
+     "step": 1,
+     "action": "pair the leading entries",
      "explain": "Multiply the pen count by the pen price.",
-     "compute": "pair1 = a11 * b11"},
-    {"step": 2, "action": "pair the next entries",
+     "compute": "pair1 = a11 * b11"
+    },
+    {
+     "step": 2,
+     "action": "pair the next entries",
      "explain": "Multiply the story book count by the story book price.",
-     "compute": "pair2 = a12 * b21"},
-    {"step": 3, "action": "add the paired products",
+     "compute": "pair2 = a12 * b21"
+    },
+    {
+     "step": 3,
+     "action": "add the paired products",
      "explain": "The total is the product entry, the money needed.",
-     "compute": "c11 = pair1 + pair2"}
+     "compute": "c11 = pair1 + pair2"
+    }
    ]
   },
   {
@@ -441,15 +648,24 @@
     "b21": "second entry of column one of B"
    },
    "solution_template": [
-    {"step": 1, "action": "pair the leading entries",
+    {
+     "step": 1,
+     "action": "pair the leading entries",
      "explain": "First row entry times first column entry.",
-     "compute": "pair1 = a11 * b11"},
-    {"step": 2, "action": "pair the next entries",
+     "compute": "pair1 = a11 * b11"
+    },
+    {
+     "step": 2,
+     "action": "pair the next entries",
      "explain": "Second row entry times second column entry.",
-     "compute": "pair2 = a12 * b21"},
-    {"step": 3, "action": "add the paired products",
+     "compute": "pair2 = a12 * b21"
+    },
+    {
+     "step": 3,
+     "action": "add the paired products",
      "explain": "The sum is the product entry.",
-     "compute": "c11 = pair1 + pair2"}
+     "compute": "c11 = pair1 + pair2"
+    }
    ]
   },
   {
@@ -460,12 +676,21 @@
    "question_pattern": "Show that the matrices A with entries 2 and 3 in the first row and 1 and 2 in the second row, and B with 2 and -3 and -1 and 2, are inverses of each other.",
    "extracted_variables": {},
    "solution_template": [
-    {"step": 1, "action": "multiply A by B",
-     "explain": "Compute AB by the row by column rule."},
-    {"step": 2, "action": "multiply B by A",
-     "explain": "Compute BA the same way."},
-    {"step": 3, "action": "compare with the identity",
-     "explain": "Both products equal the identity matrix, so B is the inverse of A."}
+    {
+     "step": 1,
+     "action": "multiply A by B",
+     "explain": "Compute AB by the row by column rule."
+    },
+    {
+     "step": 2,
+     "action": "multiply B by A",
+     "explain": "Compute BA the same way."
+    },
+    {
+     "step": 3,
+     "action": "compare with the identity",
+     "explain": "Both products equal the identity matrix, so B is the inverse of A."
+    }
    ]
   },
   {
@@ -476,12 +701,21 @@
    "question_pattern": "Express the given square matrix as the sum of a symmetric matrix and a skew symmetric matrix.",
    "extracted_variables": {},
    "solution_template": [
-    {"step": 1, "action": "form the transpose",
-     "explain": "Write A' by swapping rows and columns."},
-    {"step": 2, "action": "average and difference",
-     "explain": "P = half of (A + A') is symmetric and Q = half of (A - A') is skew symmetric."},
-    {"step": 3, "action": "check the split",
-     "explain": "P + Q returns A, completing the decomposition."}
+    {
+     "step": 1,
+     "action": "form the transpose",
+     "explain": "Write A' by swapping rows and columns."
+    },
+    {
+     "step": 2,
+     "action": "average and difference",
+     "explain": "P = half of (A + A') is symmetric and Q = half of (A - A') is skew symmetric."
+    },
+    {
+     "step": 3,
+     "action": "check the split",
+     "explain": "P + Q returns A, completing the decomposition."
+    }
    ]
   }
  ],

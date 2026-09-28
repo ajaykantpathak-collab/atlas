@@ -34,6 +34,26 @@
      "q": "Create a minimal Python program (3-5 lines) that uses at least one token from each of the five categories and includes a nested block. Ensure it runs without errors.",
      "a": "Example:\n```python\ndef greet(name):   # def (keyword), greet (identifier), name (identifier), : (punctuator)\n    msg = \"Hello\"  # msg (identifier), = (operator), \"Hello\" (literal)\n    print(msg)     # print (identifier), ( ) (punctuators), msg (identifier)\ngreet(\"Asha\")      # greet (identifier), ( ) (punctuators), \"Asha\" (literal)\n```\nA poor answer might miss a category (e.g., no punctuator) or cause an IndentationError, revealing incomplete token recognition or indentation practice.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Python's character set defines the valid Unicode characters (letters, digits, symbols, whitespace) that can appear in source code; tokens are the smallest syntactic units (keywords, ______, literals, operators, punctuators) formed from these characters; indentation rules mandate consistent leading whitespace (spaces or tabs, not mixed) to delimit code blocks instead of braces.",
+     "a": "identifiers",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a recipe for a friend: you use specific words (ingredients), punctuation (commas, periods), and ______ to show steps that belong together.",
+     "a": "indentation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly classify any given Python source line into its constituent tokens, identify indentation errors in a multi-block snippet, and explain why mixing tabs and spaces causes a TabError.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a recipe for a friend: you use specific words (______), punctuation (commas, periods), and indentation to show steps that belong together.",
+     "a": "ingredients",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,46 @@
+{
+ "catalog": "enhanced_c10_comp_cbse_90_001",
+ "concepts": [
+  {
+   "id": "enh:c10_comp_cbse_90_001",
+   "title": "c10_comp_cbse_90_001",
+   "questions": [
+    {
+     "q": "Order these blocks: salutation, subject, receiver's address, sender's address, date.",
+     "a": "sender's address → date → receiver's address → subject → salutation. A wrong answer placing subject before receiver's address reveals the student knows the pieces but not the legal order — format marks are positional.",
+     "self_check": true
+    },
+    {
+     "q": "What's missing: [letter with sender's address, date, salutation 'Dear Sir', body, 'Yours sincerely', name].",
+     "a": "Two faults: no receiver's address and no subject line; plus the pairing error — 'Dear Sir' requires 'Yours faithfully', not 'sincerely'. A wrong answer catching only the missing elements reveals the student knows the skeleton but not the salutation↔subscription contract.",
+     "self_check": true
+    },
+    {
+     "q": "Write the subject line for: a complaint to MCD about garbage not collected for two weeks.",
+     "a": "Something like 'Non-collection of garbage in Ward 12 for two weeks' — noun-phrase, one line, states the issue. A wrong answer writing a full sentence ('I want to complain that garbage…') reveals the student doesn't know the subject is a headline, not a sentence.",
+     "self_check": true
+    },
+    {
+     "q": "A formal letter has a fixed skeleton worth dedicated format marks: sender's address → date → receiver's designation+address → subject line → salutation (Dear Sir/Madam) → body (purpose → details → request) → ______ (Yours faithfully) → name.",
+     "a": "subscription",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A formal letter has a fixed skeleton worth dedicated format marks: sender's address → date → receiver's designation+address → subject line → salutation (Dear Sir/Madam) → body (purpose → details → request) → ______ (Yours faithfully) → name.",
+     "a": "subscription",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The logic: the top block tells the receiver WHO is writing and HOW to reply; subject is a one-line headline; the three body paragraphs obey purpose→details→request; ______ pairs with salutation — 'Dear Sir/Madam' locks to 'Yours faithfully'.",
+     "a": "subscription",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student produces the complete 8-element skeleton in correct order for any formal letter task (complaint, inquiry, order, letter-to-editor), and can audit a defective letter listing each missing or misplaced element.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

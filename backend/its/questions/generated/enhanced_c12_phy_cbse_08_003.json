@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using household items to demonstrate that UV radiation is blocked by ordinary glass but visible light passes through. Specify: (1) UV source, (2) detector/indicator, (3) control, (4) expected observation.",
      "a": "(1) Sunlight (contains UV) or UV LED torch. (2) UV-sensitive beads (change color in UV) or fluorescent paper. (3) Same beads/paper exposed to direct sunlight without glass. (4) Beads behind glass window stay white; beads in direct sun change color. Glass absorbs UV (λ < 400 nm) but transmits visible. Poor answer reveals inability to design controlled experiment or identify accessible UV sources/detectors.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The electromagnetic spectrum is the continuous ______ of electromagnetic waves arranged in order of increasing frequency (or decreasing wavelength), spanning from gamma rays (~10⁻¹² m) to radio waves (~10⁶ m).",
+     "a": "distribution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a familiar ______: your smartphone connects to Wi-Fi (microwaves ~12 cm), your TV remote uses infrared (~940 nm), and sunlight through the window contains UV that causes tanning.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: End with the master relation c = νλ = ______/√(μ₀ε₀) and the spectrum table as a classification tool.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Given a wavelength or frequency, identify the correct EM spectrum region and its typical production/detection method; (2) Convert between wavelength, frequency, and photon energy (E = hν) for any region; (3) Explain why different regions interact differently with matter despite having the same speed in vacuum.",
+     "self_check": true
     }
    ]
   }

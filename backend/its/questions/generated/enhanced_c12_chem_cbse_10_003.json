@@ -34,6 +34,36 @@
      "q": "Design a simple chemical test to distinguish between a solution of glucose and a solution of fructose using only Benedict's reagent and a stopwatch. Explain the principle.",
      "a": "Both reduce Benedict's reagent, but fructose reacts faster due to its ketose tautomerization pathway. Heat equal volumes with Benedict's reagent; fructose gives a brick-red precipitate (Cu₂O) in ~2 minutes, glucose takes ~4–5 minutes. The principle: rate of enediol formation and subsequent oxidation differs. A poor answer suggesting \"only glucose reacts\" or \"use Seliwanoff's test\" (which requires resorcinol/HCl, not allowed) shows inability to adapt known chemistry to constrained conditions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Fructose is a ketohexose ______ with molecular formula C₆H₁₂O₆, containing a ketonic functional group at C-2 and belonging to the D-series with laevorotatory optical activity (D-(–)-fructose).",
+     "a": "monosaccharide",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ripe mango or a spoonful of honey — both taste intensely sweet because they contain ______, which is 1.2–1.8 times sweeter than sucrose.",
+     "a": "fructose",
+     "self_check": true
+    },
+    {
+     "q": "What is Fructose? State the definition given in this lesson.",
+     "a": "Fructose is a ketohexose monosaccharide with molecular formula C₆H₁₂O₆, containing a ketonic functional group at C-2 and belonging to the D-series with laevorotatory optical activity (D-(–)-fructose).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Fructose is a ketohexose monosaccharide with molecular formula C₆H₁₂O₆, containing a ketonic functional group at C-______ and belonging to the D-series with laevorotatory optical activity (D-(–)-fructose).",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Fructose?",
+     "a": "Students routinely write the cyclic structure of fructose as a six-membered pyranose ring (like glucose) because they memorise \"monosaccharides form pyranose rings\" without counting atoms.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) draw the open-chain Fischer projection of D-fructose with correct stereochemistry at C-3, C-4, C-5; (2) draw both α-D-fructofuranose and β-D-fructofuranose Haworth projections showing correct anomeric configuration at C-2; (3) explain why fructose is a reducing sugar despite being a ketose; (4) compare.",
+     "self_check": true
     }
    ]
   }

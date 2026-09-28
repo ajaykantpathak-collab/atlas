@@ -34,6 +34,26 @@
      "q": "Create a weekly meal planning checklist for a low-income elderly couple (both 70+, one with arthritis, one with early dementia) that addresses: (a) budget-friendly nutrient-dense foods, (b) texture modifications for chewing difficulty, (c) meal frequency and hydration reminders, (d) use of community resources (e.g., Annapurna scheme, mid-day meals for elderly). Present as a bullet-point checklist.",
      "a": "Checklist: \n- Staples: Buy whole wheat, rice, millets (ragi, jowar) in bulk from PDS; include ragi for calcium.\n- Protein: Daily dal (rotate moong, masoor, chana), weekly egg (if non-veg), soya nuggets, roasted chana as snack.\n- Milk: 300 ml/day each via curd, buttermilk, milk in tea/porridge; use double-toned milk to save cost.\n- Vegetables: Seasonal GLV (spinach, amaranth) 3-4 times/week; pressure-cook and mash for soft texture.\n- Fruits: Banana, guava, papaya (soft, cheap, high fibre/vit C); stew apple/pear if chewing hard.\n- Fats: 15-20 g/day visible fat (mustard oil, ghee); limit fried foods.\n- Texture: All vegetables pressure-cooked and mashed; rotis softened with dal/curd; khichdi, dalia, upma, idli preferred.\n- Meals: 6 small meals (breakfast, mid-morning, lunch, evening, dinner, bedtime milk); water/buttermilk offered every 2 hours.\n- Hydration: 1.5-2 L fluids/day; include soups, rasam, buttermilk.\n- Community: Enroll in nearest Annapurna/old age meal programme; use Anganwadi for supplementary nutrition; coordinate with ASHA worker for health check-ups.\n- Budget: Plan weekly menu, buy weekly, cook in batches, use leftovers creatively (e.g., leftover dal -> paratha stuffing).\nA poor answer misses texture, hydration, community resources, or gives generic advice not tailored to arthritis/dementia.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Meal planning for adults and the elderly involves designing daily dietary patterns that meet the Recommended Dietary Allowances (RDAs) for energy, protein, vitamins, and minerals while accounting for age-related ______ changes (reduced basal metabolic rate, decreased lean body mass, altered nutrient absorption), common chronic conditions (hypertension, diabetes, osteoporosis), and socio-economic factors to promote healthy ageing and prevent malnutrition.",
+     "a": "physiological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your 68-year-old grandmother has been diagnosed with early ______ and hypertension.",
+     "a": "osteoporosis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your ______-year-old grandmother has been diagnosed with early osteoporosis and hypertension.",
+     "a": "68",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate nutrient requirements for a given adult/elderly individual using ICMR RDAs, adjust a sample menu for specific health conditions (e.g., low sodium for hypertension, high calcium for osteoporosis), and justify food group selections based on nutrient density and digestibility.",
+     "self_check": true
     }
    ]
   }

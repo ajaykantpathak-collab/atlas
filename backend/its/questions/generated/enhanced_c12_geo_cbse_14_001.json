@@ -34,6 +34,36 @@
      "q": "Design a classification flowchart for a new industry: \"Bamboo furniture manufacturing unit in Tripura with ₹50 lakh investment, owned by a women's self-help group, producing chairs for urban markets.\" Show all four classification decisions.",
      "a": "Flowchart decisions:\n1. Raw material: Forest-based (bamboo) → Agro/Forest category\n2. Scale: ₹50 Lakh > ₹25 Lakh (cottage limit) but < ₹10 Cr (large limit) → Small-scale industry\n3. Ownership: Women's SHG → Cooperative sector\n4. Product: Furniture (light, finished consumer good) → Light industry, Consumer goods\nA poor answer missing any decision node (e.g., skipping ownership) or misclassifying scale (calling ₹50L \"cottage\") shows incomplete grasp of threshold values and category definitions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the process of transforming raw materials into finished goods of higher value through mechanical, chemical, or manual operations, using machinery, labour, and energy; it forms the secondary sector of the economy and is classified by raw material source (agro-based, mineral-based, chemical-based, forest-based, animal-based), scale (large, small, cottage), ownership (public, private, joint, cooperative), and product weight/nature (heavy/light, basic/consumer goods).",
+     "a": "Manufacturing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at your smartphone — its components come from mineral-based industries (metals), chemical-based industries (plastics, battery), and ______ assembly (large-scale, private/joint sector).",
+     "a": "electronics",
+     "self_check": true
+    },
+    {
+     "q": "What is Manufacturing? State the definition given in this lesson.",
+     "a": "Manufacturing is the process of transforming raw materials into finished goods of higher value through mechanical, chemical, or manual operations, using machinery, labour, and energy; it forms the secondary sector of the economy and is classified by raw material source (agro-based, mineral-based, chemical-based, forest-based.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by listing ______ manufactured items you use daily and identify their raw material source.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Manufacturing?",
+     "a": "Students confuse \"agro-based\" with \"agriculture\" — they classify sugar industry as \"primary\" because it uses sugarcane, not recognizing that crushing, boiling, crystallizing, and refining are manufacturing processes adding value.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can classify any given Indian industry into all four classification bases (raw material, scale, ownership, product type) using NCERT terminology, explain the economic significance of manufacturing with quantitative indicators (GDP share, employment %, export contribution), and distinguish between large-scale and small-scale.",
+     "self_check": true
     }
    ]
   }

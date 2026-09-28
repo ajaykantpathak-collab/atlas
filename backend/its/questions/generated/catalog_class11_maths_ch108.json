@@ -5,6 +5,8 @@
    "id": "kemh108.SECTION.8.2.1",
    "title": "Evaluating a Linear General Term of a Sequence",
    "converted_to_compute": false,
+   "formula": "term = coefficient * n + constant",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 15th term of the AP with first term 12 and common difference 7.",
@@ -42,6 +44,8 @@
    "id": "kemh108.SECTION.8.4.1",
    "title": "General Term of a Geometric Progression",
    "converted_to_compute": false,
+   "formula": "a_n = first_term * common_ratio ** (n - 1)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 12th term of the AP with first term 2 and common difference 2.",
@@ -79,6 +83,8 @@
    "id": "kemh108.SECTION.8.4.2",
    "title": "Sum of First n Terms of a Geometric Progression",
    "converted_to_compute": false,
+   "formula": "S_n = first_term * (common_ratio ** n - 1) / (common_ratio - 1)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 11th term of the AP with first term 5 and common difference 9.",
@@ -116,6 +122,8 @@
    "id": "kemh108.SECTION.8.4.3",
    "title": "Geometric Mean of Two Positive Numbers",
    "converted_to_compute": false,
+   "formula": "G = sqrt(a * b)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 15th term of the AP with first term 4 and common difference 9.",
@@ -153,6 +161,8 @@
    "id": "kemh108.SECTION.8.5.1",
    "title": "Arithmetic Mean of Two Positive Numbers",
    "converted_to_compute": false,
+   "formula": "A = (a + b) / 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 4th term of the AP with first term 7 and common difference 8.",
@@ -189,15 +199,9 @@
   {
    "id": "kemh108.SECTION.8.5.2",
    "title": "Relationship Between A.M. and G.M.",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the AP/GP term or sum formula",
-     "explain": "apply the AP/GP term or sum formula: an = 1 + (4 - 1) * 4 gives 13",
-     "compute": "an = 1 + (4 - 1) * 4"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "A >= G",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 4th term of the AP with first term 1 and common difference 4.",
@@ -235,6 +239,8 @@
    "id": "kemh108.SECTION.8.4.4",
    "title": "Common Ratio of a Geometric Progression",
    "converted_to_compute": false,
+   "formula": "r = term_next / term_prev",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 14th term of the AP with first term 12 and common difference 3.",
@@ -272,6 +278,8 @@
    "id": "kemh108.SECTION.8.4.5",
    "title": "Common Ratio from Two Arbitrary Terms of a G.P.",
    "converted_to_compute": false,
+   "formula": "r = (term_q / term_p) ** (1 / (q - p))",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 14th term of the AP with first term 3 and common difference 6.",

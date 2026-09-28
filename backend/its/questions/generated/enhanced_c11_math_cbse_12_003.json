@@ -34,6 +34,21 @@
      "q": "Create a real-world problem (Indian context) where a drone flies from point A to point B in 3D space and you need to find the coordinates where it should drop a package at a specific internal division ratio. Specify all coordinates and the ratio, and explain why the section formula is the right tool.",
      "a": "Example: A drone takes off from a warehouse at A(100, 50, 20) metres (x=east, y=north, z=altitude) and flies to a delivery point B(400, 300, 120) metres. It must drop a package at a point one-fourth of the way from A to B (ratio 1:3). The section formula gives the exact drop coordinates because the drone travels in a straight line in 3D, and the package release point divides the segment internally in the given ratio. A good answer includes correct coordinates, correct ratio interpretation (m=1 for B, n=3 for A), and justification that the path is a straight line segment. A poor answer might use 2D formula ignoring altitude, or use external division.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a model rocket launch pad with three ______ legs anchored at points A(2, -1, 3) and B(8, 5, 9) in metres.",
+     "a": "support",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In ______D, the same logic applies independently to x, y, and z because the axes are perpendicular.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a model rocket launch pad with three support legs anchored at points A(2, -1, 3) and B(8, 5, 9) in metres.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

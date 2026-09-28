@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_06_009",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_06_009",
+   "title": "c12_psy_cbse_06_009",
+   "questions": [
+    {
+     "q": "What was the key finding of LaPiere's (1934) study on attitude-behaviour relationship?",
+     "a": "LaPiere found a significant inconsistency: the Chinese couple was refused service only once during their travels (positive behaviour), but over 90% of the same establishments later reported they would not accommodate Chinese guests (negative attitude). This revealed that verbally expressed attitudes do not always predict actual behaviour. A wrong answer (e.g., \"attitudes always predict behaviour\" or \"the couple was refused everywhere\") shows the student has not grasped the core empirical finding that launched decades of research on moderators of attitude-behaviour consistency.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why LaPiere's study challenged the common-sense assumption that \"attitudes cause behaviour.\"",
+     "a": "Common sense assumes a direct causal link: if you dislike a group, you discriminate against them. LaPiere showed the opposite: people acted inclusively (served the couple) but expressed exclusionary attitudes (said they wouldn't serve Chinese). This reversal — behaviour not matching expressed attitude — proved the relationship is not automatic. A wrong answer that merely restates the finding without explaining the theoretical challenge (e.g., \"it showed attitudes and behaviour differ\") indicates the student cannot articulate why this was a paradigm shift in social psychology.",
+     "self_check": true
+    },
+    {
+     "q": "A student strongly believes \"plastic waste harms oceans\" (strong, central attitude). She is aware of this attitude while shopping. There is no external pressure to buy plastic-packaged goods. No one watches her shopping choices. She believes refusing plastic will reduce ocean pollution. Yet she buys plastic-wrapped snacks because they are cheaper. Which consistency condition is violated, and why does this violation matter?",
+     "a": "The violated condition is \"the person thinks the behaviour would have a positive consequence and intends to engage in that behaviour.\" Although she believes refusing plastic helps, the immediate positive consequence (saving money) outweighs the distal environmental benefit, so her behavioural intention is to buy plastic. This matters because intention is the proximal determinant of behaviour (Theory of Planned Behaviour); without it, even strong attitudes fail to predict action. A wrong answer identifying \"external pressure\" or \"evaluation apprehension\" shows the student cannot distinguish between situational constraints and the motivational component of intention.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast LaPiere's attitude-behaviour inconsistency with Festinger & Carlsmith's (1959) cognitive dissonance finding that behaviour can shape attitude. Use the concepts of \"attitude-to-behaviour\" vs. \"behaviour-to-attitude\" pathways.",
+     "a": "LaPiere: Attitude (negative toward Chinese) → Behaviour (positive service) = inconsistency; attitude did not guide behaviour. Festinger & Carlsmith: Behaviour (lying for $1) → Attitude (rating task as interesting) = consistency via dissonance reduction; behaviour created attitude. Both show the attitude-behaviour link is bidirectional and context-dependent. LaPiere highlights situational constraints on attitude expression; Festinger & Carlsmith highlights internal psychological pressure to align attitude with behaviour. A wrong answer that treats them as the same phenomenon (e.g., \"both show attitudes and behaviour differ\") misses the critical theoretical distinction: direction of causality and underlying mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the claim: \"LaPiere's study proves that measuring attitudes via questionnaires is useless for predicting behaviour.\"",
+     "a": "The claim overgeneralizes. LaPiere showed attitudes don't *always* predict behaviour, not that they *never* do. Subsequent research (e.g., Ajzen & Fishbein's Theory of Reasoned Action) identified specific conditions (strong, accessible attitudes; correspondence between attitude object and behaviour; perceived behavioural control) under which questionnaire-measured attitudes predict behaviour well. The study's value was identifying boundary conditions, not invalidating attitude measurement. A wrong answer that agrees with the claim shows the student cannot evaluate scientific claims with nuance and ignores 50+ years of moderator research.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-study to test whether making an attitude more \"central\" to a person's self-concept increases attitude-behaviour consistency for that attitude. Specify: (a) independent variable manipulation, (b) dependent behavioural measure, (c) one control variable, and (d) predicted outcome based on the centrality condition.",
+     "a": "(a) IV: Randomly assign participants to write a 5-min essay on \"why environmental protection is central to my identity\" (high centrality) vs. \"describe your daily routine\" (low centrality). (b) DV: Number of eco-friendly products chosen in a subsequent simulated shopping task. (c) Control: Pre-existing environmental attitude strength (measured beforehand and used as covariate). (d) Prediction: High-centrality group will show stronger attitude-behaviour correlation (choose more eco-products) because central attitudes are more accessible and guide behaviour per the consistency conditions. A poor design (e.g., no control for pre-existing attitudes, measuring attitude instead of behaviour) reveals inability to operationalize theoretical constructs into testable hypotheses.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The attitude-behaviour ______ refers to the degree of consistency between a person's expressed attitude (evaluative tendency toward an object, person, or issue) and their actual overt behaviour toward that same attitude object.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a classmate who passionately posts about \"______ water\" on social media but takes 30-minute showers daily.",
+     "a": "saving",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a classmate who passionately posts about \"saving water\" on social media but takes ______-minute showers daily.",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) explain LaPiere's study design, findings, and its implication for attitude-behaviour consistency, (2) list and apply the five conditions under which attitudes strongly predict behaviour, and (3) analyse a real-world scenario to identify whether attitude-behaviour inconsistency is due to weak attitude.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a classmate who ______ posts about \"saving water\" on social media but takes 30-minute showers daily.",
+     "a": "passionately",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

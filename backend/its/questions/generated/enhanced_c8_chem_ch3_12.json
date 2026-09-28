@@ -34,6 +34,26 @@
      "q": "Design a simple laboratory test to distinguish between two unlabeled glass jars, one filled with pure oxygen gas and the other filled with carbon dioxide gas, using a single burning splinter.",
      "a": "To distinguish them, insert a glowing or burning splinter into each jar. In the jar containing oxygen, the splinter will reignite or burn much more brightly because oxygen supports combustion. In the jar containing carbon dioxide, the splinter will immediately extinguish because carbon dioxide does not support combustion and is heavier than air, blanketing the flame. A poor answer would suggest using limewater for both without realizing limewater tests specifically for $CO_2$, or failing to specify the behavior of the burning splinter in oxygen versus carbon dioxide.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Water is a liquid compound composed of hydrogen and oxygen in a fixed 2:1 atomic ratio, while carbon dioxide is a gas composed of carbon and oxygen in a 1:2 atomic ratio, each possessing unique physical and chemical properties distinct from their ______ elements.",
+     "a": "constituent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you open a cold bottle of a fizzy soft drink in summer, you see bubbles escaping; that gas is carbon dioxide, while the liquid base keeping it all ______ is water.",
+     "a": "together",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can describe the distinct physical and chemical properties of water and carbon dioxide, explain how their bonding and composition determine these properties, and write chemical tests used to identify them in a laboratory setting.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you open a cold bottle of a fizzy soft drink in summer, you see bubbles ______; that gas is carbon dioxide, while the liquid base keeping it all together is water.",
+     "a": "escaping",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,725 @@
+{
+ "catalog": "catalog_class12_accountancy_leac103.json",
+ "concepts": [
+  {
+   "id": "leac.103.2.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "old_share_fraction = 3.4",
+      "acquired_share = 93",
+      "partner_new_share = old_share_fraction + acquired_share"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "old_share_fraction = 46",
+      "acquired_share = 24",
+      "partner_new_share = old_share_fraction + acquired_share"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "old_share_fraction = 58",
+      "acquired_share = 22",
+      "partner_new_share = old_share_fraction + acquired_share"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "old_share_fraction = 53",
+      "acquired_share = 22",
+      "partner_new_share = old_share_fraction + acquired_share"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "old_share_fraction = 78",
+      "acquired_share = 90",
+      "partner_new_share = old_share_fraction + acquired_share"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "old_share_fraction = 66",
+      "acquired_share = 62",
+      "partner_new_share = old_share_fraction + acquired_share"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "partner_new_share = old_share_fraction + acquired_share"
+   ]
+  },
+  {
+   "id": "leac.103.3.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "new_share_fraction = 57",
+      "old_share_fraction = 46",
+      "gaining_share = new_share_fraction - old_share_fraction"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "new_share_fraction = 44",
+      "old_share_fraction = 22",
+      "gaining_share = new_share_fraction - old_share_fraction"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "new_share_fraction = 80",
+      "old_share_fraction = 80",
+      "gaining_share = new_share_fraction - old_share_fraction"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "new_share_fraction = 84",
+      "old_share_fraction = 25",
+      "gaining_share = new_share_fraction - old_share_fraction"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "new_share_fraction = 3",
+      "old_share_fraction = 82",
+      "gaining_share = new_share_fraction - old_share_fraction"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "new_share_fraction = 46",
+      "old_share_fraction = 11",
+      "gaining_share = new_share_fraction - old_share_fraction"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "gaining_share = new_share_fraction - old_share_fraction"
+   ]
+  },
+  {
+   "id": "leac.103.4.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "firm_goodwill = 31",
+      "old_share_fraction = 79",
+      "retiring_goodwill_share = firm_goodwill * old_share_fraction"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "firm_goodwill = 32",
+      "old_share_fraction = 43",
+      "retiring_goodwill_share = firm_goodwill * old_share_fraction"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "firm_goodwill = 49",
+      "old_share_fraction = 88",
+      "retiring_goodwill_share = firm_goodwill * old_share_fraction"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "firm_goodwill = 86",
+      "old_share_fraction = 59",
+      "retiring_goodwill_share = firm_goodwill * old_share_fraction"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "firm_goodwill = 30",
+      "old_share_fraction = 33",
+      "retiring_goodwill_share = firm_goodwill * old_share_fraction"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "firm_goodwill = 22",
+      "old_share_fraction = 41",
+      "retiring_goodwill_share = firm_goodwill * old_share_fraction"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "retiring_goodwill_share = firm_goodwill * old_share_fraction"
+   ]
+  },
+  {
+   "id": "leac.103.4.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "settlement_amount = 118",
+      "amount_due = 24",
+      "hidden_goodwill = settlement_amount - amount_due"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "settlement_amount = 9.6",
+      "amount_due = 42",
+      "hidden_goodwill = settlement_amount - amount_due"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "settlement_amount = 29",
+      "amount_due = 45",
+      "hidden_goodwill = settlement_amount - amount_due"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "settlement_amount = 43",
+      "amount_due = 5.6",
+      "hidden_goodwill = settlement_amount - amount_due"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "settlement_amount = 102",
+      "amount_due = 77",
+      "hidden_goodwill = settlement_amount - amount_due"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "settlement_amount = 50",
+      "amount_due = 29",
+      "hidden_goodwill = settlement_amount - amount_due"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "hidden_goodwill = settlement_amount - amount_due"
+   ]
+  },
+  {
+   "id": "leac.103.5.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "gains_total = 63",
+      "losses_total = 14.8",
+      "old_share_fraction = 66",
+      "partner_share = (gains_total - losses_total) * old_share_fraction"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "gains_total = 75",
+      "losses_total = 69",
+      "old_share_fraction = 81",
+      "partner_share = (gains_total - losses_total) * old_share_fraction"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gains_total = 68",
+      "losses_total = 84",
+      "old_share_fraction = 74",
+      "partner_share = (gains_total - losses_total) * old_share_fraction"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "gains_total = 43",
+      "losses_total = 110",
+      "old_share_fraction = 13.5",
+      "partner_share = (gains_total - losses_total) * old_share_fraction"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "gains_total = 85",
+      "losses_total = 33",
+      "old_share_fraction = 48",
+      "partner_share = (gains_total - losses_total) * old_share_fraction"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "gains_total = 101",
+      "losses_total = 77",
+      "old_share_fraction = 83",
+      "partner_share = (gains_total - losses_total) * old_share_fraction"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "partner_share = (gains_total - losses_total) * old_share_fraction"
+   ]
+  },
+  {
+   "id": "leac.103.6.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "reserve_amount = 68",
+      "old_share_fraction = 62",
+      "partner_share = reserve_amount * old_share_fraction"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "reserve_amount = 47",
+      "old_share_fraction = 61",
+      "partner_share = reserve_amount * old_share_fraction"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "reserve_amount = 90",
+      "old_share_fraction = 49",
+      "partner_share = reserve_amount * old_share_fraction"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "reserve_amount = 67",
+      "old_share_fraction = 26",
+      "partner_share = reserve_amount * old_share_fraction"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "reserve_amount = 5.4",
+      "old_share_fraction = 43",
+      "partner_share = reserve_amount * old_share_fraction"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "reserve_amount = 72",
+      "old_share_fraction = 61",
+      "partner_share = reserve_amount * old_share_fraction"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "partner_share = reserve_amount * old_share_fraction"
+   ]
+  },
+  {
+   "id": "leac.103.6.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "annual_profit = 9.4",
+      "months_elapsed = 73",
+      "share_fraction = 27",
+      "partner_share = annual_profit * months_elapsed / 12 * share_fraction"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "annual_profit = 44",
+      "months_elapsed = 9.8",
+      "share_fraction = 33",
+      "partner_share = annual_profit * months_elapsed / 12 * share_fraction"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "annual_profit = 86",
+      "months_elapsed = 64",
+      "share_fraction = 94",
+      "partner_share = annual_profit * months_elapsed / 12 * share_fraction"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "annual_profit = 4.3",
+      "months_elapsed = 67",
+      "share_fraction = 13.2",
+      "partner_share = annual_profit * months_elapsed / 12 * share_fraction"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "annual_profit = 37",
+      "months_elapsed = 26",
+      "share_fraction = 49",
+      "partner_share = annual_profit * months_elapsed / 12 * share_fraction"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "annual_profit = 37",
+      "months_elapsed = 15.3",
+      "share_fraction = 15.7",
+      "partner_share = annual_profit * months_elapsed / 12 * share_fraction"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "partner_share = annual_profit * months_elapsed / 12 * share_fraction"
+   ]
+  },
+  {
+   "id": "leac.103.6.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "average_profit = 96",
+      "months_elapsed = 41",
+      "share_fraction = 72",
+      "partner_share = average_profit * months_elapsed / 12 * share_fraction"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "average_profit = 24",
+      "months_elapsed = 17.8",
+      "share_fraction = 52",
+      "partner_share = average_profit * months_elapsed / 12 * share_fraction"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "average_profit = 12.4",
+      "months_elapsed = 99",
+      "share_fraction = 7.6",
+      "partner_share = average_profit * months_elapsed / 12 * share_fraction"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "average_profit = 54",
+      "months_elapsed = 50",
+      "share_fraction = 77",
+      "partner_share = average_profit * months_elapsed / 12 * share_fraction"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "average_profit = 89",
+      "months_elapsed = 29",
+      "share_fraction = 77",
+      "partner_share = average_profit * months_elapsed / 12 * share_fraction"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "average_profit = 44",
+      "months_elapsed = 22",
+      "share_fraction = 82",
+      "partner_share = average_profit * months_elapsed / 12 * share_fraction"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "partner_share = average_profit * months_elapsed / 12 * share_fraction"
+   ]
+  },
+  {
+   "id": "leac.103.6.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "annual_profit = 45",
+      "period_sales = 93",
+      "annual_sales = 1",
+      "share_fraction = 16.3",
+      "partner_share = annual_profit * period_sales / annual_sales * share_fraction"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "annual_profit = 6.6",
+      "period_sales = 91",
+      "annual_sales = 81",
+      "share_fraction = 28",
+      "partner_share = annual_profit * period_sales / annual_sales * share_fraction"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "annual_profit = 3.3",
+      "period_sales = 91",
+      "annual_sales = 64",
+      "share_fraction = 89",
+      "partner_share = annual_profit * period_sales / annual_sales * share_fraction"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "annual_profit = 20",
+      "period_sales = 0.8",
+      "annual_sales = 15.2",
+      "share_fraction = 71",
+      "partner_share = annual_profit * period_sales / annual_sales * share_fraction"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "annual_profit = 11.1",
+      "period_sales = 48",
+      "annual_sales = 48",
+      "share_fraction = 41",
+      "partner_share = annual_profit * period_sales / annual_sales * share_fraction"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "annual_profit = 86",
+      "period_sales = 92",
+      "annual_sales = 8.8",
+      "share_fraction = 25",
+      "partner_share = annual_profit * period_sales / annual_sales * share_fraction"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "partner_share = annual_profit * period_sales / annual_sales * share_fraction"
+   ]
+  },
+  {
+   "id": "leac.103.7.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "capital_balance = 39",
+      "rate = 46",
+      "months_elapsed = 6.5",
+      "interest_capital = capital_balance * rate / 100 * months_elapsed / 12"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "capital_balance = 83",
+      "rate = 21",
+      "months_elapsed = 11.3",
+      "interest_capital = capital_balance * rate / 100 * months_elapsed / 12"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "capital_balance = 96",
+      "rate = 31",
+      "months_elapsed = 4",
+      "interest_capital = capital_balance * rate / 100 * months_elapsed / 12"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "capital_balance = 88",
+      "rate = 8.3",
+      "months_elapsed = 65",
+      "interest_capital = capital_balance * rate / 100 * months_elapsed / 12"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "capital_balance = 86",
+      "rate = 76",
+      "months_elapsed = 25",
+      "interest_capital = capital_balance * rate / 100 * months_elapsed / 12"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "capital_balance = 87",
+      "rate = 51",
+      "months_elapsed = 81",
+      "interest_capital = capital_balance * rate / 100 * months_elapsed / 12"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "interest_capital = capital_balance * rate / 100 * months_elapsed / 12"
+   ]
+  },
+  {
+   "id": "leac.103.7.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "loan_balance = 6.6",
+      "interest_rate = 118",
+      "loan_interest = loan_balance * interest_rate / 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "loan_balance = 9.3",
+      "interest_rate = 75",
+      "loan_interest = loan_balance * interest_rate / 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "loan_balance = 9.3",
+      "interest_rate = 14.5",
+      "loan_interest = loan_balance * interest_rate / 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "loan_balance = 13.6",
+      "interest_rate = 43",
+      "loan_interest = loan_balance * interest_rate / 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "loan_balance = 0.2",
+      "interest_rate = 62",
+      "loan_interest = loan_balance * interest_rate / 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "loan_balance = 11.7",
+      "interest_rate = 80",
+      "loan_interest = loan_balance * interest_rate / 100"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "loan_interest = loan_balance * interest_rate / 100"
+   ]
+  },
+  {
+   "id": "leac.103.8.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "required_capital = 1.8",
+      "existing_capital = 46",
+      "capital_adjustment = required_capital - existing_capital"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "required_capital = 93",
+      "existing_capital = 68",
+      "capital_adjustment = required_capital - existing_capital"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "required_capital = 32",
+      "existing_capital = 72",
+      "capital_adjustment = required_capital - existing_capital"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "required_capital = 88",
+      "existing_capital = 43",
+      "capital_adjustment = required_capital - existing_capital"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "required_capital = 34",
+      "existing_capital = 70",
+      "capital_adjustment = required_capital - existing_capital"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "required_capital = 59",
+      "existing_capital = 9.1",
+      "capital_adjustment = required_capital - existing_capital"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "capital_adjustment = required_capital - existing_capital"
+   ]
+  }
+ ]
+}

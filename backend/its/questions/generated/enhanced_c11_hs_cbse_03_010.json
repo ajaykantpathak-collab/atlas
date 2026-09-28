@@ -34,6 +34,31 @@
      "q": "Create a one-day meal plan for a 14-year-old rural girl (heavy activity: farming chores, fetching water) from a low-income family. Use only locally available, inexpensive foods (millets, seasonal vegetables, pulses, jaggery, groundnut chutney). Ensure it meets ≥80% RDA for energy (2330 kcal), protein (46g), iron (28mg), calcium (800mg). List foods with approximate quantities and food groups.",
      "a": "Sample plan: Breakfast – 2 ragi rotis (100g ragi flour), 50g horse gram chutney, 100g amaranth leaves stir-fry, 10g jaggery; Lunch – 150g cooked rice, 50g raw toor dal, 100g drumstick leaves sambar, 50g raw mango pickle; Snack – 30g roasted chana + 20g peanuts; Dinner – 2 jowar bhakris (80g jowar flour), 50g raw moong dal, 100g cluster beans, 10g groundnut oil. Food groups: Cereals (ragi, rice, jowar), Pulses (horse gram, toor, moong, chana), Vegetables (amaranth, drumstick leaves, cluster beans, mango), Fats (oil, peanuts), Sugars (jaggery). Provides ~2400 kcal, 55g protein, 32mg iron (enhanced by vitamin C from amaranth/mango), 900mg calcium (ragi, amaranth, drumstick leaves). A poor answer using only rice-wheat-potato shows failure to leverage nutrient-dense, low-cost traditional foods.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Adolescent dietary patterns refer to the habitual food choices, eating behaviors, and meal frequencies exhibited by individuals aged 10–19 years, which are shaped by ______ growth demands, psychosocial influences, and environmental factors.",
+     "a": "physiological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 15-year-old boy, Rohan, who regularly skips ______, grabs a samosa and cola for lunch, snacks on chips in the evening, and eats a heavy dinner of butter chicken and naan.",
+     "a": "breakfast",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______-year-old boy, Rohan, who regularly skips breakfast, grabs a samosa and cola for lunch, snacks on chips in the evening, and eats a heavy dinner of butter chicken and naan.",
+     "a": "15",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) interpret a 24-hour dietary recall of an adolescent and identify at least three deviations from the ICMR food group guidelines and RDA 2020 values, and (2) design a one-day balanced meal plan for a 16-year-old vegetarian girl with moderate activity that meets ≥90% of RDA for energy, protein, iron, and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 15-year-old boy, Rohan, who ______ skips breakfast, grabs a samosa and cola for lunch, snacks on chips in the evening, and eats a heavy dinner of butter chicken and naan.",
+     "a": "regularly",
+     "self_check": true
     }
    ]
   }

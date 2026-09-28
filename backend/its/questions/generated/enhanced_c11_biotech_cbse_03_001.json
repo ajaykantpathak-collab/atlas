@@ -34,6 +34,26 @@
      "q": "Design a hypothetical disaccharide that is a reducing sugar but cannot be hydrolyzed by human digestive enzymes. Specify its monosaccharide components, glycosidic bond (including anomeric configurations), and explain why it resists digestion.",
      "a": "Example: β‑D‑glucopyranosyl‑(1→3)‑β‑D‑glucopyranose (laminaribiose). It has a free anomeric carbon on the second glucose (reducing end) but uses a β‑(1→3) linkage. Human small‑intestinal disaccharidases (lactase, sucrase, maltase) are specific for β‑(1→4) (lactose), α‑(1→2) (sucrose), α‑(1→4) (maltose). The β‑(1→3) bond is not a substrate, so it passes undigested to the colon. A poor answer might propose an α‑(1→4) linked glucose dimer (maltose) which is digested, or a non‑reducing disaccharide like sucrose, showing lack of understanding of enzyme specificity and reducing‑end requirements.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Carbohydrates are polyhydroxy aldehydes or ketones, or substances that yield such compounds on hydrolysis, with the general formula Cₙ(H₂O)ₙ; they are classified by degree of polymerization into monosaccharides (single units), ______ (2–10 units linked by glycosidic bonds), and polysaccharides (>10 units) serving as energy stores (starch, glycogen) or structural elements (cellulose, chitin).",
+     "a": "oligosaccharides",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are eating a chapati: the starch in wheat flour is a ______ that must be broken down into glucose units before your cells can use it for energy.",
+     "a": "polysaccharide",
+     "self_check": true
+    },
+    {
+     "q": "What is Carbohydrates? State the definition given in this lesson.",
+     "a": "Carbohydrates are polyhydroxy aldehydes or ketones, or substances that yield such compounds on hydrolysis, with the general formula Cₙ(H₂O)ₙ; they are classified by degree of polymerization into monosaccharides (single units), oligosaccharides (2–10 units linked by glycosidic bonds), and polysaccharides (>10 units) serving as energy.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) classify any given carbohydrate as mono-, oligo-, or polysaccharide and justify the classification using structural criteria, and (2) draw the cyclic Haworth structures of α/β‑anomers of glucose, fructose, and ribose, correctly numbering the anomeric carbon and identifying the glycosidic linkage in a named.",
+     "self_check": true
     }
    ]
   }

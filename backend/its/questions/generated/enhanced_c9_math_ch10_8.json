@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch10_8",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch10_8",
+   "title": "c9_math_ch10_8",
+   "questions": [
+    {
+     "q": "State the exact condition for two lines to be parallel when cut by a transversal, using the interior angles on the same side of the transversal.",
+     "a": "If a transversal intersects two lines such that a pair of interior angles on the same side of the transversal are supplementary (sum = 180°), then the two lines are parallel. A wrong answer (e.g., \"the angles are equal\") reveals the student is confusing co-interior angles with corresponding or alternate interior angles — a fundamental classification error that will cause mistakes in all subsequent proofs.",
+     "self_check": true
+    },
+    {
+     "q": "In the diagram, line AB || CD and EF is a transversal. ∠1 = 110°. Find ∠2 and ∠3, where ∠2 is the corresponding angle to ∠1, and ∠3 is the interior angle on the same side of the transversal as ∠1. Explain why ∠1 and ∠3 are supplementary but ∠1 and ∠2 are equal.",
+     "a": "∠2 = 110° (corresponding angles are equal when lines are parallel). ∠3 = 70° (co-interior angles are supplementary: 180° – 110° = 70°). ∠1 and ∠3 are supplementary because they form a linear pair with the alternate interior angle to ∠1. ∠1 and ∠2 are equal because corresponding angles are equal for parallel lines. A wrong answer (e.g., ∠3 = 110°) reveals the student thinks all angles related to parallel lines are equal, missing the crucial distinction between angle pairs that are equal vs. supplementary.",
+     "self_check": true
+    },
+    {
+     "q": "Line PQ || RS. Transversal TU intersects PQ at A and RS at B. ∠TAQ = (3x + 10)° and ∠TBR = (5x – 30)°. These are interior angles on the same side of the transversal. Find x and each angle.",
+     "a": "Step 1: Co-interior angles are supplementary: (3x + 10) + (5x – 30) = 180\nStep 2: 8x – 20 = 180\nStep 3: 8x = 200\nStep 4: x = 25\nStep 5: ∠TAQ = 3(25) + 10 = 85°, ∠TBR = 5(25) – 30 = 95°\nCheck: 85° + 95° = 180° ✓\nA wrong answer (e.g., setting angles equal: 3x+10 = 5x–30) reveals the student applied the alternate interior angle property instead of the co-interior property — confusing \"same side\" with \"alternate side\".",
+     "self_check": true
+    },
+    {
+     "q": "Two lines are cut by a transversal. One pair of interior angles on the same side are 105° and 75°. Another pair are 110° and 80°. Are the lines parallel? Justify your answer using the converse theorem. What if only the first pair was given?",
+     "a": "First pair: 105° + 75° = 180° → supplementary. Second pair: 110° + 80° = 190° → NOT supplementary. For lines to be parallel, ALL pairs of co-interior angles must be supplementary. Since the second pair fails, the lines are NOT parallel. If only the first pair was given (105° and 75°), we could conclude the lines are parallel (converse holds for that pair). A wrong answer (\"yes, because one pair sums to 180°\") reveals the student doesn't understand that the converse requires the condition to hold for the specific pair being checked, but if multiple pairs are given and contradict, the lines cannot be parallel.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"In the figure, AB || CD, EF is a transversal. ∠1 = 2x, ∠2 = 3x (co-interior). The student writes: 2x = 3x → x = 0.\" Identify the error, explain why it's wrong, and give the correct solution.",
+     "a": "The error: The student set co-interior angles EQUAL (2x = 3x) instead of SUPPLEMENTARY (2x + 3x = 180). This is the classic confusion between alternate interior angles (equal) and co-interior angles (supplementary). Correct solution: 2x + 3x = 180 → 5x = 180 → x = 36. ∠1 = 72°, ∠2 = 108°. A wrong evaluation (e.g., \"the algebra is fine\") reveals the student cannot distinguish between angle relationships — a conceptual gap that makes all parallel line problems unreliable.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem involving a ladder leaning against a wall, where the ground and the top of the wall are parallel lines, and the ladder is a transversal. Use co-interior angles to find an unknown angle. Draw the diagram and write the full problem statement with given values.",
+     "a": "Example: A 5m ladder leans against a vertical wall. The ground is horizontal. The angle between the ladder and the ground is 60°. Find the angle between the ladder and the wall. Diagram: Ground (line l) || top of wall (line m, horizontal), ladder = transversal t. ∠1 (ladder-ground) = 60°. ∠2 (ladder-wall) is co-interior to ∠1. Since l || m, ∠1 + ∠2 = 180° → 60° + ∠2 = 180° → ∠2 = 120°. But the acute angle between ladder and wall is 180° – 120° = 60°. A poor answer (e.g., no parallel lines identified, or using wrong angle pair) reveals the student cannot model real situations with geometric concepts — the bridge between abstract geometry and applied problem-solving is missing.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

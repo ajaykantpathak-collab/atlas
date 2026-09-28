@@ -34,6 +34,21 @@
      "q": "Create a real-world word problem (Indian context: prices, quantities, mixtures, or investments) that leads to a 3×3 system solvable by Cramer's Rule. Ensure the coefficient matrix has a non-zero determinant. Write the problem statement, the system of equations, and the solution using Cramer's Rule.",
      "a": "Example problem: \"A shopkeeper sells three types of rice: Basmati, Sona Masoori, and Kolam. On Monday, he sold 2 kg Basmati, 3 kg Sona Masoori, and 1 kg Kolam for ₹480. On Tuesday, he sold 1 kg Basmati, 2 kg Sona Masoori, and 3 kg Kolam for ₹450. On Wednesday, he sold 3 kg Basmati, 1 kg Sona Masoori, and 2 kg Kolam for ₹510. Find the price per kg of each rice variety.\"\nSystem: 2x + 3y + z = 480; x + 2y + 3z = 450; 3x + y + 2z = 510.\nΔ = det([[2,3,1],[1,2,3],[3,1,2]]) = 2(4−3) − 3(2−9) + 1(1−6) = 2 + 21 − 5 = 18 ≠ 0.\nΔₓ = det([[480,3,1],[450,2,3],[510,1,2]]) = 480(4−3) − 3(900−1530) + 1(450−1020) = 480 + 1890 − 570 = 1800 → x = 100.\nΔᵧ = det([[2,480,1],[1,450,3],[3,510,2]]) = 2(900−1530) − 480(2−9) + 1(510−1350) = −1260 + 3360 − 840 = 1260 → y = 70.\nΔz = det([[2,3,480],[1,2,450],[3,1,510]]) = 2(1020−450) − 3(510−1350) + 480(1−6) = 1140 + 2520 − 2400 = 1260 → z = 70.\nPrices: Basmati ₹100/kg, Sona Masoori ₹70/kg, Kolam ₹70/kg.\nA poor answer would have Δ = 0 (making Cramer's Rule inapplicable) or would not show the determinant calculations. The problem must be checked for Δ ≠ 0 before presenting.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cramer's Rule states that for a system of n linear equations in n variables ______ as AX = B, where A is the n×n coefficient matrix, X is the column matrix of variables, and B is the column matrix of constants, if the determinant of A (denoted Δ) is non-zero, then the system has a unique solution given by xᵢ = Δᵢ/Δ for i = 1, 2, ..., n, where Δᵢ is the determinant obtained by replacing the i-th column of A with the column matrix B.",
+     "a": "represented",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you go to a ______ market and buy 2 kg of onions and 3 kg of tomatoes for ₹110.",
+     "a": "vegetable",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can solve 2×2 and 3×3 systems of linear equations using Cramer's Rule, correctly compute all required determinants, identify when the rule is applicable (Δ ≠ 0), and interpret the result in the context of the original problem.",
+     "self_check": true
     }
    ]
   }

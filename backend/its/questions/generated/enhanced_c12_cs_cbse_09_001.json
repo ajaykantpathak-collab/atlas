@@ -22,7 +22,7 @@
     },
     {
      "q": "Compare built-in functions (e.g., `len()`, `print()`) and user-defined functions. What is the key similarity and the key difference in how a programmer interacts with them?",
-     "a": "Similarity: both are called by name with parentheses and arguments, and both return a value (or `None`). Difference: built-ins are pre-written by Python developers; user-defined functions are written by **you** for your specific problem. A wrong answer like \"built-ins are faster\" or \"user-defined functions can't return values\" reveals confusion about **origin vs. capability** — both can do the same things; the difference is who wrote them and for what purpose.",
+     "a": "Similarity: both are called by name with parentheses and arguments, and both return a value (or `N/A`). Difference: built-ins are pre-written by Python developers; user-defined functions are written by **you** for your specific problem. A wrong answer like \"built-ins are faster\" or \"user-defined functions can't return values\" reveals confusion about **origin vs. capability** — both can do the same things; the difference is who wrote them and for what purpose.",
      "self_check": true
     },
     {
@@ -33,6 +33,21 @@
     {
      "q": "Design a new real-world scenario (not bakery, not marks) where a function would be useful. Specify: (a) the task, (b) inputs, (c) output, (d) why a function is better than inline code. Write the function signature.",
      "a": "Example: **Auto-rickshaw fare calculator**. (a) Task: compute fare from distance. (b) Input: `distance_km` (float). (c) Output: `fare` (float). (d) Fare rules change (base fare, per-km rate, night surcharge) — a function `calculate_fare(distance_km: float, is_night: bool = False) -> float` centralizes logic so updates happen in one place. A poor answer gives a trivial task (e.g., \"add two numbers\") or omits why a function helps — the scenario must show **repeated use with varying inputs** and **likelihood of change**.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A function in Python is a named, reusable block of code that performs a specific task, accepts zero or more input values (parameters), and optionally returns a result; it enables modular programming by ______ logic so it can be called multiple times from different parts of a program without rewriting code.",
+     "a": "encapsulating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small bakery and need to ______ the final price (base price + 18% GST) for 20 different items every day.",
+     "a": "calculate",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can define a function in their own words, list at least four distinct advantages with concrete examples, and explain why functions are preferred over repeating code blocks for a given real-world scenario (e.g., calculating GST for multiple items).",
      "self_check": true
     }
    ]

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_07_006",
+   "title": "c12_app_cbse_07_006",
+   "questions": [
+    {
+     "q": "A researcher wants to know the average screen time of all teenagers in Mumbai. She surveys 200 teenagers and finds their average screen time is 4.2 hours per day. Identify the population, the sample, the parameter, and the statistic in this scenario.",
+     "a": "**Correct Answer:** Population = All teenagers in Mumbai. Sample = The 200 surveyed teenagers. Parameter = The true average screen time of *all* teenagers in Mumbai (unknown, fixed, denoted μ). Statistic = 4.2 hours (the average of the 200 surveyed, denoted x̄).\n**Misconception Check:** If the student labels 4.2 hours as the \"parameter,\" they confuse the *estimate* with the *true value*. If they say the parameter is \"known,\" they miss that parameters are almost always unknown — that's why we sample. If they swap population/sample, they don't grasp the \"subset\" relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the sample mean (x̄) is considered a \"random variable\" while the population mean (μ) is a \"fixed constant,\" even though both are averages.",
+     "a": "**Correct Answer:** The population mean μ is calculated from *every single member* of the population — there is only one such set, so μ has one fixed value. The sample mean x̄ is calculated from a *subset*; there are many possible subsets (samples) of the same size, each yielding a potentially different x̄. Since x̄ changes depending on which sample is drawn, it varies randomly — hence it is a random variable with its own distribution (sampling distribution).\n**Misconception Check:** If the student says \"x̄ is random because the data is random,\" they miss the structural reason: it's the *sampling process* that creates variability, not the data itself. If they claim μ also changes, they confuse the parameter with its estimates.",
+     "self_check": true
+    },
+    {
+     "q": "A factory produces 10,000 light bulbs daily. The quality control team randomly selects 50 bulbs each day and records their lifespan. On Monday, the sample mean lifespan is 1,200 hours (s = 50). On Tuesday, a different sample of 50 gives x̄ = 1,180 hours (s = 55). The true population mean lifespan is μ = 1,190 hours.\n(a) Calculate the sampling error for Monday and Tuesday.\n(b) Why are the sampling errors different in magnitude and sign?",
+     "a": "**Correct Answer:**\n(a) Monday sampling error = x̄ − μ = 1200 − 1190 = **+10 hours**. Tuesday sampling error = 1180 − 1190 = **−10 hours**.\n(b) Sampling error varies because each random sample contains different individual bulbs. Monday's sample happened to have slightly longer-lasting bulbs (positive error); Tuesday's had slightly shorter-lasting ones (negative error). The magnitude depends on how \"representative\" that specific sample was.\n**Misconception Check:** If the student calculates μ − x̄ instead, they have the sign convention wrong (sampling error = statistic − parameter). If they say errors are different because \"sample size changed,\" they missed that n=50 both days — it's *sampling variability*, not sample size change.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: \"Standard deviation of the population (σ)\" vs \"Standard deviation of the sample (s)\". In what sense is s an *estimator* of σ, and why do we divide by (n−1) instead of n when calculating s?",
+     "a": "**Correct Answer:** σ is the true spread of the entire population (fixed, denominator N). s is the spread calculated from a sample (variable, denominator n−1). s is an *estimator* of σ because we use the sample's spread to infer the population's spread. We divide by (n−1) (Bessel's correction) because the sample mean x̄ is itself estimated from the same data, making the deviations (xi − x̄) slightly smaller on average than (xi − μ) would be. Dividing by n−1 corrects this downward bias, making s² an unbiased estimator of σ².\n**Misconception Check:** If the student says \"we divide by n−1 because the sample is smaller,\" they confuse bias correction with sample size. If they think s = σ for large n, they miss that s is still a random variable — it *converges* to σ but isn't equal.",
+     "self_check": true
+    },
+    {
+     "q": "A news channel reports: \"A survey of 1,000 voters shows 52% support Candidate A, with a margin of error of ±3%.\" A student concludes: \"This means the true support for Candidate A is definitely between 49% and 55%.\" Evaluate this conclusion.",
+     "a": "**Correct Answer:** The conclusion is **incorrect**. The margin of error and confidence interval (49%–55%) describe the *reliability of the estimation process*, not a guarantee for this specific interval. The correct interpretation: \"If we repeated this survey many times, 95% of the resulting intervals would contain the true population proportion.\" The true parameter is fixed; the interval is random. We cannot assign a probability to the parameter being in *this* interval — it either is or isn't.\n**Misconception Check:** This is the classic \"confidence level = probability parameter is in interval\" fallacy. Students treat the parameter as random and the interval as fixed. The reverse is true in frequentist statistics.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where confusing a statistic for a parameter could lead to a costly decision. Describe the population, sample, parameter, statistic, and the potential consequence of the confusion.",
+     "a": "**Expected Answer Criteria:** A good answer identifies a clear population (e.g., all KG–12 students in a district), a sample (e.g., 50 students from one elite school), a parameter (true district-wide average math score), a statistic (sample average = 85%), and a consequence (e.g., policy makers allocate fewer remedial resources assuming performance is high, but the true parameter is 60% because the sample was unrepresentative).\n**Poor Answer Reveals:** If the student's scenario has no clear \"fixed truth vs estimate\" distinction, or if the consequence is trivial, they haven't internalized that statistics are *tools for inference*, not the truth itself. If they don't mention sampling bias (e.g., elite school), they miss the \"representative sample\" prerequisite.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

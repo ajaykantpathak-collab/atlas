@@ -1,0 +1,56 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_06_007",
+   "title": "c12_soc_cbse_06_007",
+   "questions": [
+    {
+     "q": "State the exact wording of Article 29(1) and Article 30(1) from the Constitution as reproduced in NCERT Box 6.7. No paraphrasing — use the precise constitutional language.",
+     "a": "Article 29(1): \"Any section of the citizens residing in the territory of India or any part thereof having a distinct language, script or culture of its own shall have the right to conserve the same.\" Article 30(1): \"All minorities, whether based on religion or language, shall have the right to establish and administer educational institutions of their choice.\" A wrong answer (e.g., swapping \"any section\" with \"minorities\" or omitting \"script\") reveals the student has not memorised the exact textual distinction — a common Board exam error where 1-mark questions demand verbatim recall.",
+     "self_check": true
+    },
+    {
+     "q": "A community of 50,000 Marathi-speaking people living in Gujarat wants to preserve its folk songs, dialects, and traditional dress. They are not asking to start a school. Which constitutional provision protects them, and why does the other article NOT apply?",
+     "a": "Article 29(1) protects them because it applies to \"any section of citizens\" with a distinct language, script, or culture — not limited to minorities or education. Article 30(1) does NOT apply because it is restricted to (a) minorities (religious/linguistic) and (b) the right to establish and administer educational institutions. A wrong answer citing Article 30 reveals the misconception that cultural protection only exists for minorities or only through educational institutions — missing that Article 29(1) is broader in both beneficiary scope and subject matter.",
+     "self_check": true
+    },
+    {
+     "q": "A Christian missionary trust runs a government-aided college in Kerala. The state government introduces a rule: \"All aided colleges must reserve 50% seats for students domiciled in Kerala.\" The trust challenges this, claiming Article 30(1) gives them absolute autonomy in admissions. Evaluate the trust's claim using Article 30(2) and the NCERT discussion on minority rights.",
+     "a": "The trust's claim fails. Article 30(1) gives the right to establish and administer, but Article 30(2) explicitly states: \"The State shall not, in granting aid to educational institutions, discriminate against any educational institution on the ground that it is under the management of a minority.\" This means the state CAN impose reasonable regulations (like domicile quotas) that apply equally to all aided institutions — minority or not — as long as it does not discriminate *because* it is minority-managed. NCERT emphasises minority rights are not absolute; they operate within a framework of equal treatment. A wrong answer claiming absolute autonomy ignores Article 30(2) and the \"principled distance\" model of Indian secularism discussed in the chapter.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the beneficiary class and the substantive right in Article 29(1) vs. Article 30(1). Present your answer as a two-column table with headers: Provision | Beneficiary Class | Substantive Right | Scope Limitation.",
+     "a": "| Provision | Beneficiary Class | Substantive Right | Scope Limitation |\n|-----------|-------------------|-------------------|------------------|\n| Article 29(1) | Any section of citizens (no minority requirement) | Right to conserve language, script, culture | Not limited to education; applies broadly to cultural practices |\n| Article 30(1) | Minorities only (religious or linguistic) | Right to establish and administer educational institutions | Limited to educational institutions; \"minority\" status required |\n\nA wrong answer that merges the two rows or says \"both protect minorities\" reveals failure to grasp the NCERT's deliberate distinction: Article 29 is a general cultural right for any group; Article 30 is a specific educational right for minorities. This distinction appears in Board case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Articles 29 and 30 are redundant because Article 15(1) already prohibits discrimination on grounds of religion, race, caste, sex, place of birth — so minority cultural/educational rights are already covered.\" Use the NCERT's discussion on minority disadvantage and the sociological definition of minority (Box 6.5) to justify your answer.",
+     "a": "The statement is incorrect. Article 15(1) is a negative non-discrimination right (state cannot discriminate), whereas Articles 29 and 30 are positive, group-differentiated rights enabling affirmative preservation of culture and institutional autonomy. NCERT Box 6.5 clarifies that sociological minority status involves \"relative disadvantage\" and \"group solidarity\" — not just numbers. Without Articles 29/30, a majority community could use \"formal equality\" to impose its language/culture on minorities (e.g., mandating only majority-language schools), which Article 15(1) would not prevent because the rule would be \"neutral\" on its face. The Constituent Assembly debates (Box 6.6, Ambedkar) explicitly recognised minorities as an \"explosive force\" needing special safeguards beyond formal equality. A wrong answer equating formal equality with substantive protection misses the core sociological insight of the chapter: diversity requires asymmetrical rights.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical scenario where a linguistic group that is a majority at the state level but a minority at the national level seeks protection under Articles 29 and 30. Specify: (a) the group, (b) the state/national context, (c) which article(s) they would invoke, and (d) why the \"minority\" determination is contested. Explain how the Supreme Court's \"state-wise\" vs. \"nation-wise\" minority test (beyond NCERT but relevant for CUET) affects the outcome.",
+     "a": "Scenario: (a) Marathi speakers in Maharashtra (state majority, ~70% of state population) but national minority (~7% of India's population). (b) They want to establish a Marathi-medium university in Mumbai. (c) They invoke Article 30(1) (linguistic minority) and Article 29(1) (conserve language/script). (d) Contested because: at state level they are majority; at national level, minority. The Supreme Court (TMA Pai, 2002) held minority status is determined *state-wise* for Article 30 — so Marathi speakers in Maharashtra are NOT a linguistic minority there and cannot claim Article 30(1) protection for a new institution in Maharashtra. However, Article 29(1) (\"any section of citizens\") would still apply regardless of minority status. A poor answer that ignores the state-wise test or conflates Article 29/30 scope shows inability to apply the concept to federal complexity — a CUET/Board case-study trap.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Articles 29 and 30 of the Indian ______ constitute the Cultural and Educational Rights that protect diversity by guaranteeing: (1) the right of any section of citizens with a distinct language, script, or culture to conserve it (Article 29(1)); (2) non-discrimination in admission to state-aided educational institutions (Article 29(2)); (3) the right of religious and linguistic minorities to establish and administer educational institutions of their choice (Article 30(1)); and (4) non-discrimination in state aid to minority-managed institutions (Article 30(2)).",
+     "a": "Constitution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a group of Tamil-speaking families living in Delhi who want to start a school where Tamil is the medium of instruction and Tamil culture is taught — but the local education department says \"only Hindi/English medium schools get recognition.\" Which ______ article protects them?",
+     "a": "constitutional",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (a) distinguish between the scope of Article 29 (any section of citizens) and Article 30 (minorities only) with a concrete example; (b) explain why Article 29(1) protects cultural conservation beyond education while Article 30 is specifically about educational institutions; (c) apply the provisions to a case.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

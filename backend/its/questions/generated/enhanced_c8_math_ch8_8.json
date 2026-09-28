@@ -34,6 +34,36 @@
      "q": "Create a real-life word problem where the cost price is unknown, but the selling price and profit percentage are given. The problem should involve an Indian context (e.g., a vegetable vendor, a bookshop). Write the problem and show how to solve it.",
      "a": "Example: \"Meena sells mangoes at ₹120 per kg, making a profit of 20%. At what price did she buy them?\" Solution: Let CP = x. Profit% = 20% means SP = CP + 20% of CP = 1.2 × CP. So 120 = 1.2x → x = 100. CP = ₹100/kg. A poor problem would give both CP and SP and ask for percentage (that's direct, not reverse). A good reverse problem requires setting up the equation SP = CP × (1 + profit%/100) or SP = CP × (1 – loss%/100).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Profit percentage is the profit expressed as a percentage of the cost price, ______ as (Profit ÷ Cost Price) × 100.",
+     "a": "calculated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by identifying cost price (₹800) and ______ price (₹920).",
+     "a": "selling",
+     "self_check": true
+    },
+    {
+     "q": "What is Profit percentage? State the definition given in this lesson.",
+     "a": "Profit percentage is the profit expressed as a percentage of the cost price, calculated as (Profit ÷ Cost Price) × 100.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Profit percentage is the profit expressed as a percentage of the cost price, calculated as (Profit ÷ Cost Price) × ______.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Profit percentage?",
+     "a": "Students calculate profit/loss percentage on selling price instead of cost price.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly calculate profit% or loss% when given cost price and selling price in any order, can find missing cost price or selling price when given the percentage and the other value, and can explain why the base is always cost price.",
+     "self_check": true
     }
    ]
   }

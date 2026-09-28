@@ -34,6 +34,26 @@
      "q": "Design a one-day vegetarian menu for a 16-year-old adolescent boy (heavy activity) that visibly includes all five ICMR groups in each major meal. Justify the group inclusion at breakfast.",
      "a": "Expected answer: Breakfast — Besan chilla (pulse+cereal) with paneer stuffing (milk), mint chutney (vegetable), cooked in oil (fat). Lunch — Rice (cereal), rajma (pulse), salad (vegetable), curd (milk), ghee on rice (fat). Dinner — Roti (cereal), soybean curry (pulse+vegetable), buttermilk (milk), oil in cooking (fat). Breakfast justification: Chilla provides cereal+pulse protein complementarity; paneer adds calcium/B12; chutney gives vitamin C for iron absorption; oil supplies energy density for high activity. A poor answer omits a group or cannot justify the inclusion, showing inability to translate classification into practical menus.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ICMR (Indian Council of Medical Research) food group system classifies foods into five basic groups — Cereals & Millets, Pulses & Legumes, Milk & Meat Products, Fruits & Vegetables, and Fats & Oils (with Sugar/Jaggery as a sixth energy-dense group) — based on their predominant nutrient ______, enabling systematic meal planning to meet Recommended Dietary Allowances (RDAs).",
+     "a": "contribution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a day's menu for a hostel mess serving 200 ______.",
+     "a": "adolescents",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a day's menu for a hostel mess serving ______ adolescents.",
+     "a": "200",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) list the five ICMR food groups with at least three examples per group, (2) state the primary and secondary nutrients each group contributes, and (3) explain how the grouping guides balanced diet formulation for different age/activity levels.",
+     "self_check": true
     }
    ]
   }

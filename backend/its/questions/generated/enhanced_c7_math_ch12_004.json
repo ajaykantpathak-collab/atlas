@@ -34,6 +34,31 @@
      "q": "Create a division problem involving a decimal and a whole number where the quotient is exactly $3.25$ and the divisor is $8$. Show your steps for constructing this problem.",
      "a": "To construct this problem, multiply the desired quotient by the whole number divisor: $3.25 \\times 8$. \nStep 1: Set up multiplication: $3.25 \\times 8$. \nStep 2: Multiply ignoring the decimal: $325 \\times 8 = 2600$. \nStep 3: Place the decimal two places from the right: $26.00$, which is $26$. \nStep 4: Formulate the problem: What is $26 \\div 8$? A poor answer shows numbers chosen at random without checking via inverse multiplication, resulting in a quotient that does not equal $3.25$.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Decimal division by a whole number is the process of ______ a decimal quantity into a specified number of equal whole parts, achieved by dividing the whole number part first and then placing the decimal point in the quotient directly above the dividend's decimal point before dividing the decimal parts.",
+     "a": "splitting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and 4 friends pool your money and find you have saved a total of ₹48.75 to buy shared craft supplies, and you need to split the cost ______ among all 5 of you.",
+     "a": "equally",
+     "self_check": true
+    },
+    {
+     "q": "What is Decimal division by a whole number? State the definition given in this lesson.",
+     "a": "Decimal division by a whole number is the process of splitting a decimal quantity into a specified number of equal whole parts, achieved by dividing the whole number part first and then placing the decimal point in the quotient directly above the dividend's decimal point before dividing the decimal parts.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can accurately divide any terminating decimal by a single or multi-digit whole number, correctly place the decimal point in the quotient, handle leading zeros in the tenth/hundredth places, and verify the result using multiplication in real-world contexts.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and 4 friends pool your money and find you have saved a total of ₹48.75 to buy shared craft ______, and you need to split the cost equally among all 5 of you.",
+     "a": "supplies",
+     "self_check": true
     }
    ]
   }

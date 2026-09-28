@@ -34,6 +34,31 @@
      "q": "Design a simple classroom activity for a visually impaired student to identify whether a given household substance (e.g., lemon juice, soap solution, baking soda solution, vinegar) is acidic, basic, or neutral using olfactory indicators. List materials, steps, and how the student interprets results.",
      "a": "**Materials:** Onion extract (prepared beforehand), vanilla essence, clove oil, droppers, test tubes, test tube rack, labels in Braille/tactile markers.  \n**Steps:**  \n1. Label test tubes 1-4 for the four household substances.  \n2. Add 2 mL of each substance to its labelled tube.  \n3. Add 3 drops of onion extract to each tube, shake, smell (wafting). Record: smell lost = basic; smell retained = acidic/neutral.  \n4. Repeat with vanilla essence and clove oil for confirmation.  \n5. To distinguish acid from neutral: use a **tactile temperature test** (acid + metal → H₂ gas + heat) or a **texture test** (baking soda + acid → fizzing felt by touch).  \n**Interpretation:** Consistent smell loss across all three indicators → basic. Consistent smell retention → acidic or neutral; use secondary tactile test to differentiate. A poor design that relies only on smell and cannot separate acid from neutral reveals the student hasn't addressed the core limitation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Olfactory indicators are substances whose ______ odour changes or disappears in acidic or basic media, allowing detection of acids and bases through smell rather than colour change.",
+     "a": "characteristic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a familiar kitchen ______: when you add baking soda (base) to chopped onions while cooking, the strong onion smell reduces noticeably, but adding lemon juice (acid) does not remove the smell.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "What is Olfactory indicators? State the definition given in this lesson.",
+     "a": "Olfactory indicators are substances whose characteristic odour changes or disappears in acidic or basic media, allowing detection of acids and bases through smell rather than colour change.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Olfactory indicators?",
+     "a": "Students often believe that olfactory indicators change colour like litmus, or that different olfactory indicators behave differently (e.g., onion works for acid, vanilla for base).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the working principle of olfactory indicators, correctly predict the odour change of onion, vanilla, and clove oil in acidic and basic solutions, and design a simple qualitative test to distinguish between acid, base, and neutral solutions using these indicators.",
+     "self_check": true
     }
    ]
   }

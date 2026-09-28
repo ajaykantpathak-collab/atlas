@@ -34,6 +34,21 @@
      "q": "Create a realistic scenario using the CARSHOWROOM database where using DISTINCT would give misleading results if applied to the wrong column combination. Write the problematic query and the corrected query.",
      "a": "Correct answer: Scenario: \"List all customers who bought cars.\" Problematic query: `SELECT DISTINCT CustName FROM SALE;` — This returns only 3 rows (AmitSaha, Rehnuma, CharviNayyar, Gurpreet) but C0001 (AmitSaha) bought 2 cars. If the boss asks \"how many customers bought cars?\" the answer 4 is correct, but if they ask \"show each purchase with customer name,\" DISTINCT on CustName alone loses the fact that AmitSaha made two separate purchases.\nCorrected query: `SELECT DISTINCT InvoiceNo, CustName FROM SALE;` — This preserves each sale (6 rows) while still eliminating any true duplicate rows (if data entry errors created identical InvoiceNo-CustName pairs).\nA poor answer that says \"DISTINCT is always good\" misses that DISTINCT on non-key columns can hide business-relevant multiplicity. The key insight: DISTINCT removes duplicate ROWS, not duplicate VALUES in a single column — the combination matters.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The SELECT ______ retrieves data from one or more tables in a database.",
+     "a": "statement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're managing a car showroom database and your boss asks: \"Show me just the car models we have in stock — I don't need the prices or IDs right now.\" You'd use SELECT Model FROM ______.",
+     "a": "INVENTORY",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write correct SELECT queries to retrieve specific columns from a table, apply DISTINCT to remove duplicate rows, explain the difference between SELECT * and explicit column listing, and predict the exact output row count when DISTINCT is applied to a column with known duplicate values.",
+     "self_check": true
     }
    ]
   }

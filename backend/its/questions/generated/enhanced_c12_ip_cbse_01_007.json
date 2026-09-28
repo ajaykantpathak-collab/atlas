@@ -34,6 +34,31 @@
      "q": "Design a new real‑world scenario (different from bookstore or car showroom) that requires sorting by two columns with opposite directions and limiting to a single page of results. Write the complete SQL query for your scenario.",
      "a": "Scenario: A hospital wants to list the next 15 upcoming appointments for a doctor, sorted by AppointmentDate ascending (earliest first) and for the same date by StartTime ascending.  \nQuery:  \n```sql\nSELECT PatientName, AppointmentDate, StartTime\nFROM APPOINTMENTS\nWHERE DoctorID = 'D101' AND AppointmentDate >= CURDATE()\nORDER BY AppointmentDate ASC, StartTime ASC\nLIMIT 15;\n```  \nA poor answer might use only one sort column, forget the WHERE filter for future dates, or place LIMIT before ORDER BY. This tests the student's ability to synthesize a multi‑column sort with a filter and pagination.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ORDER BY clause sorts query results in ascending (ASC) or ______ (DESC) order based on one or more columns; the LIMIT clause restricts the number of rows returned, optionally with an OFFSET to skip a specified number of rows.",
+     "a": "descending",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine an online bookstore that needs to show the \"Top 5 Bestsellers\" on its homepage — this requires sorting all books by total copies sold (______) and then picking only the first five rows.",
+     "a": "descending",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine an online bookstore that needs to show the \"Top ______ Bestsellers\" on its homepage — this requires sorting all books by total copies sold (descending) and then picking only the first five rows.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write a SELECT query that sorts results by multiple columns with mixed ASC/DESC order and applies LIMIT with OFFSET to implement pagination, correctly placing the clauses after WHERE and before any GROUP BY/HAVING.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine an online bookstore that needs to show the \"Top 5 ______\" on its homepage — this requires sorting all books by total copies sold (descending) and then picking only the first five rows.",
+     "a": "Bestsellers",
+     "self_check": true
     }
    ]
   }

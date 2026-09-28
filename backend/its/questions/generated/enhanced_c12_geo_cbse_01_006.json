@@ -34,6 +34,31 @@
      "q": "CREATE: Design a neo-determinist land-use plan for a 500-ha coastal zone in Odisha prone to cyclones, storm surges, and saline intrusion. Specify: (a) Red-light zones (no development), (b) Amber-light zones (conditional use with safeguards), (c) Green-light zones (sustainable activities), and (d) The monitoring indicator for each.",
      "a": "Expected criteria for a good answer:\n- **Red-light**: Mangrove belts (min 500m width), turtle nesting beaches, intertidal mudflats — **no construction, no aquaculture ponds**. Indicator: Mangrove canopy cover ≥ 70% (satellite monitoring).\n- **Amber-light**: Elevated land 2-5m above mean sea level — **cyclone shelters, salt-tolerant horticulture (coconut, cashew), controlled eco-tourism** with mandatory evacuation routes. Indicator: Storm-surge inundation model updated annually; land-use compliance audit.\n- **Green-light**: Inland areas >5km from coast with freshwater aquifers — **integrated farming (rice-fish-poultry), solar farms, skill-training centres**. Indicator: Groundwater salinity < 2 dS/m; household income diversity index.\n- **Poor answer reveals**: Treating the entire zone as green light (possibilism), or banning all use (determinism), or missing **quantitative, monitorable indicators** — neo-determinism requires **measurable thresholds**, not vague \"protection.\"",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Neo-determinism (Stop-and-Go Determinism), proposed by Griffith Taylor, is a middle-path geographical philosophy stating that human beings can modify their physical environment and create ______ only within the limits set by nature, analogous to traffic lights where red signals environmental constraints (stop), amber signals preparation, and green signals permissible development (go).",
+     "a": "possibilities",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the traffic lights at a busy Delhi intersection: red forces every vehicle to stop regardless of the driver's urgency, amber gives a brief ______, and green permits movement — but only within speed limits and lane discipline.",
+     "a": "transition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Neo-determinism argues both extremes are wrong: the ______ Uttarakhand floods (red light ignored) and the Indira Gandhi Canal transforming Thar Desert agriculture (green light used wisely) show that development succeeds only when we respect environmental \"red lights\" and act within \"green light\" windows.",
+     "a": "2013",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain Griffith Taylor's traffic-light analogy with all three signals mapped to human-environment interaction, contrast neo-determinism with both determinism and possibilism using specific criteria (role of technology, environmental limits, human agency), and evaluate a real-world development scenario (e.g., Himalayan.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the traffic lights at a busy Delhi ______: red forces every vehicle to stop regardless of the driver's urgency, amber gives a brief transition, and green permits movement — but only within speed limits and lane discipline.",
+     "a": "intersection",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_05_006",
+   "title": "c11_leg_cbse_05_006",
+   "questions": [
+    {
+     "q": "Define 'Delegated Legislation' and state the *single most important constitutional safeguard* against its misuse in India, citing the relevant doctrine.",
+     "a": "Delegated Legislation is law-making by the Executive (or subordinate bodies) under authority granted by the Legislature (Parent Act). The key safeguard is the **Doctrine of Excessive Delegation** — the Legislature cannot delegate 'essential legislative functions' (setting policy, fixing standards, imposing taxes), only 'ancillary' details. A wrong answer (e.g., \"Judicial Review is the safeguard\") confuses the *remedy* for misuse with the *constitutional limit* on delegation itself. It reveals the student doesn't grasp that the Constitution (Art 245/246 read with Separation of Powers) limits *what* can be delegated, not just *how* it's reviewed.",
+     "self_check": true
+    },
+    {
+     "q": "A Municipal Corporation passes a bye-law: \"No street vendor shall operate within 500m of any mall.\" A vendor challenges it claiming the Corporation lacked the power to impose a *distance-based* restriction, only a *licensing* power under the Parent Act. Explain the legal test the court will apply to decide if this bye-law is *ultra vires* (beyond powers).",
+     "a": "The court will apply the **'Substantive Ultra Vires' test**: Does the bye-law fall *within the scope* of the enabling statute? It will examine the Parent Act's wording — if it only empowers \"licensing and regulation of vendors,\" a *total prohibition by distance* may be held *excessive* (not reasonably necessary for regulation). A wrong answer focusing only on \"procedural defects\" (e.g., \"was it published in the gazette?\") misses the distinction between *procedural ultra vires* (how it was made) and *substantive ultra vires* (whether the power existed at all). This reveals confusion between the *validity of the process* vs *validity of the power exercised*.",
+     "self_check": true
+    },
+    {
+     "q": "The Passport Officer impounds a passport under Sec 10(3)(c) Passports Act, 1967 (\"in the interests of the sovereignty and integrity of India...\") without giving the holder a pre-decisional hearing, citing \"national security urgency.\" The holder challenges this. Using *Maneka Gandhi v. Union of India*, explain the *exact constitutional standard* the procedure must now meet under Art 21, and whether \"national security\" automatically justifies excluding Audi Alteram Partem.",
+     "a": "Post-*Maneka Gandhi*, Art 21 requires the procedure to be **\"fair, just, and reasonable\"** — not merely *any* procedure enacted by law. \"National security\" does *not* automatically exclude Audi Alteram Partem; the Court in *Maneka* held that even in security matters, a *post-decisional hearing* must be provided *as soon as practicable* if pre-decisional hearing is genuinely impossible. The state must prove *compelling urgency*, not just assert it. A wrong answer stating \"Art 21 only requires a procedure established by law (pre-Maneka Gopalan view)\" reveals the student hasn't internalized the *Maneka* shift from 'procedure established by law' to 'due process of law' (fairness/reasonableness) under Art 21.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the **Droit Administratif** (French) system and the **Common Law** (Indian/UK) system on *two* specific points: (a) Forum for disputes between citizen and State; (b) Source of legal principles governing State liability. Why did India adopt a *hybrid* approach?",
+     "a": "(a) Droit: Specialized Administrative Tribunals (Conseil d'État) — *separate* from ordinary courts. Common Law: Ordinary civil courts (no separate admin courts originally; India now has CAT, NGT, etc. as *statutory* tribunals under Art 323A/323B, but HC/SC retain Art 226/32 writ jurisdiction). (b) Droit: Judge-made *droit administratif* principles (State liability distinct from private law). Common Law: Ordinary law of torts/contract applies to State (Crown Proceedings Act 1947 UK; Art 300 India). India adopted a hybrid because the Constitution (Art 32/226) *mandated* HC/SC writ jurisdiction (Common Law heritage), but the volume of service matters *required* specialized tribunals (Droit efficiency) — leading to Art 323A/323B. A wrong answer claiming \"India fully follows Droit because we have tribunals\" ignores the *constitutional supremacy* of HC/SC judicial review — tribunals are *supplementary*, not *exclusive* forums.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: *\"The Rule of Law (Dicey) and Administrative Law are mutually exclusive — Dicey hated administrative discretion, so Administrative Law legitimizes what Dicey condemned.\"* Use the *modern Indian constitutional conception* of Rule of Law (Kesavananda Bharati, Basic Structure) to evaluate.",
+     "a": "The statement reflects a **misreading of Dicey and Indian law**. Dicey opposed *arbitrary* discretion (executive acting *without* law), not *structured* discretion *under* law. Modern Administrative Law *controls* discretion through: (1) Statutory limits (Parent Act), (2) Natural Justice, (3) Judicial Review (Wednesbury/proportionality), (4) Reasoned decisions. In India, Rule of Law is a **Basic Structure** (Kesavananda) — meaning *no* amendment can remove judicial review of administrative action. Administrative Law *operationalizes* Rule of Law by ensuring discretion is *confined, structured, and reviewable*. They are **complementary**, not exclusive. A wrong answer agreeing with the statement reveals a static, 19th-century understanding of Dicey, ignoring how Indian constitutionalism has *absorbed* administrative necessity *within* Rule of Law via Basic Structure doctrine.",
+     "self_check": true
+    },
+    {
+     "q": "Design a **'Checklist for Fair Administrative Decision-Making'** for a District Magistrate (DM) passing an order under Sec 144 CrPC (urgent public order restriction). The checklist must operationalize: (i) Rule against Bias, (ii) Audi Alteram Partem (including post-decisional hearing), (iii) Reasoned Order requirement, (iv) Proportionality test. Format as 8-10 actionable bullet points.",
+     "a": "**Checklist for DM (Sec 144 CrPC Order):**\n1. **No Personal Interest**: Confirm no pecuniary/relational/political interest in the specific restriction (e.g., not benefiting a relative's business).\n2. **No Pre-judgment**: No public statement prejudging the outcome before hearing objections.\n3. **Pre-decisional Hearing (if feasible)**: Publish draft order; invite written objections within 24-48 hrs (unless *imminent* violence makes this impossible — record *why* in file).\n4. **Post-Decisional Hearing (Mandatory if Pre-decisional skipped)**: Fix date within 7 days for affected persons to be heard; order remains *interim* until then.\n5. **Disclosure of Material**: Share intelligence reports/police inputs *relied upon* (redacting sources if security demands) *before* hearing.\n6. **Right to Rebut**: Allow cross-examination of police witnesses (or written rebuttal) on material facts.\n7. **Speaking Order**: Write order stating: (a) Material facts, (b) Evidence considered, (c) Legal provision invoked, (d) *Reasons* connecting evidence to conclusion (not just \"necessary for public order\").\n8. **Proportionality Check**: Restriction must be *least intrusive* measure (area/duration/scope) — e.g., ban assembly in *specific* junction, not *whole district*; duration *days*, not *months*.\n9. **Review Clause**: Order must state: \"This order shall be reviewed on [date] or earlier if situation normalizes.\"\n10. **Record Keeping**: File must contain: objection letters, hearing transcript, intelligence inputs, reasoning notes — producible in Court.\n*Poor answer reveals*: Treating Sec 144 as \"DM's unfettered emergency power\" — ignoring that *even emergency powers* are subject to structural fairness (Natural Justice) and constitutional review (Art 14/21).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

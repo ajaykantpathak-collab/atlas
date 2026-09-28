@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_01_005",
+   "title": "c11_leg_cbse_01_005",
+   "questions": [
+    {
+     "q": "Define \"State\" under Article 12 of the Constitution of India in exactly four components as per the textbook.",
+     "a": "The four components are: (1) Government and Parliament of India (Union Executive and Legislature); (2) Government and Legislature of each State (State Executive and Legislature); (3) All local authorities within the territory of India; (4) All other authorities within the territory of India or under the control of the Government of India. A wrong answer that omits \"other authorities\" or \"local authorities\" reveals the student has memorized only the first two obvious limbs and missed the expansive judicial interpretation that brings in bodies like ONGC, BCCI (in some functions), and municipal corporations.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The Supreme Court is a 'State' under Article 12 because it is a government organ.\" Explain why this is incorrect and state the correct legal position with the landmark case.",
+     "a": "The Supreme Court is NOT a \"State\" under Article 12 — *Naresh Shridhar Mirajkar v. State of Maharashtra* (1967) held that the judiciary is not included in \"other authorities\" under Article 12. However, the judiciary cannot make rules or decisions that violate Fundamental Rights (e.g., under Article 136/226). A wrong answer reveals confusion between \"State\" for Part III enforcement vs. judicial accountability — students often conflate \"government organ\" with \"State under Article 12\" without understanding the textual exclusion.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the *Ajay Hasia* test to determine if the following entity is \"State\" under Article 12: \"Delhi Metro Rail Corporation (DMRC) — a joint venture of the Government of India and Government of Delhi, created under the Companies Act, 1956, performing public transport function, 100% government-funded, with government nominees on its board.\" Show your reasoning for each of the five factors.",
+     "a": "DMRC is \"State\" under Article 12. Step-by-step: (1) Created under Companies Act (not statute) — but *Ajay Hasia* says statutory creation is not mandatory; (2) Deep and pervasive government control — yes, both governments appoint board nominees and control policy; (3) Public function — yes, mass transit is a sovereign/public function; (4) Financial dependence — 100% government-funded; (5) Monopoly — yes, in Delhi metro rail. Even one factor may suffice; here all five are met. A wrong answer that says \"not State because created under Companies Act\" reveals the student thinks statutory creation is a *necessary* condition — it is not; functional control matters more.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: \"Local authority\" vs. \"Other authority\" under Article 12. Give one example of each that is NOT a government department.",
+     "a": "\"Local authority\" = bodies like Municipal Corporations, Panchayats, Cantonment Boards — created by statute for local self-governance, defined in Section 3(31) of General Clauses Act. \"Other authority\" = wider, includes any body (statutory or not) performing public functions under government control — e.g., ONGC, LIC, universities, electricity boards (per *Sukhdev Singh v. Bhagatram*, 1975). A wrong answer that equates the two or gives a government department as example reveals the student hasn't grasped the judicial expansion of \"other authorities\" beyond local self-government bodies.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Since Article 12 is only a definition clause and not a Fundamental Right itself, it has no independent significance — it's just a dictionary for Part III.\" Use *Keshavananda Bharati* (1973) and *Minerva Mills* (1980) to evaluate.",
+     "a": "The statement is flawed. Article 12 is not just a passive definition — it determines the *horizontal reach* of Fundamental Rights. If \"State\" is narrowly defined, private entities escape accountability for rights violations. *Keshavananda Bharati* included \"secular character\" and \"judicial review\" in Basic Structure — Article 12's interpretation directly affects whether judicial review can reach quasi-state actors. *Minerva Mills* reinforced that Fundamental Rights are enforceable only against \"State\" — so expanding Article 12 expands rights enforcement. A wrong answer that agrees with the statement reveals the student sees definitions as static, not as interpretive gateways that shape constitutional remedies.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel scenario where a private entity performing a public function is challenged as \"State\" under Article 12. The entity must NOT be a statutory body, must NOT have government shareholding, but MUST be \"State\" under the functional test. Describe the entity and argue both sides in 4 sentences.",
+     "a": "Scenario: \"CleanAir Foundation\" — a private NGO contracted by the Delhi Government to manage all air quality monitoring stations, issue pollution certificates mandatory for vehicle registration, and enforce GRAP (Graded Response Action Plan) orders. It has no government shares, created under Trusts Act. *Petitioner*: It performs a sovereign regulatory function (monitoring/enforcement), has monopoly, deep government control via contract terms, public duty — thus \"State\" per *Ajay Hasia* functional test. *Respondent*: It's a private contract, no statutory powers, no government funding — not \"State\". A poor answer that says \"not State because private\" reveals the student ignores the *functional* test and thinks only form (statutory/government-owned) matters — missing the core of *Pradeep Kumar Biswas v. Indian Institute of Chemical Biology* (2002).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

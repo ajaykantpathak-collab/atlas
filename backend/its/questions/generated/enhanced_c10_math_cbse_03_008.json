@@ -34,6 +34,26 @@
      "q": "Create a word problem involving two unknowns where the equations reduce to linear form via reciprocal substitution. The problem must involve a real-life Indian context (e.g., speed, work, mixture) and yield fractional answers for the original variables.",
      "a": "Example: \"A boat travels 30 km upstream and 44 km downstream in 10 hours. In 13 hours, it travels 40 km upstream and 55 km downstream. Find the speed of the boat in still water and the speed of the stream.\" Let speed of boat = x km/h, speed of stream = y km/h. Upstream speed = x-y, downstream = x+y. Equations: 30/(x-y) + 44/(x+y) = 10 and 40/(x-y) + 55/(x+y) = 13. Substitute u = 1/(x-y), v = 1/(x+y) → 30u + 44v = 10, 40u + 55v = 13. Solving gives u = 1/5, v = 1/11 → x-y = 5, x+y = 11 → x = 8 km/h, y = 3 km/h. A poor answer would give integer times or not yield fractional original variables, showing the student cannot reverse-engineer the substitution structure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Equations reducible to a pair of linear equations in two variables are non-linear equations (typically involving reciprocals of variables like 1/x, 1/y, or expressions like x+y, x-y in denominators) that can be transformed into standard linear form a₁u + b₁v = c₁, a₂u + b₂v = c₂ by substituting new variables u and v for the non-linear expressions, provided the original variables satisfy domain restrictions (e.g., x ≠ 0, y ≠ 0 for reciprocal ______).",
+     "a": "substitutions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a carpenter charges ₹500 for making 2 tables and 3 chairs, but ₹700 for 3 tables and 2 chairs — this is a ______ linear pair.",
+     "a": "standard",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently identify when a given pair of equations is reducible to linear form, choose appropriate substitutions (u = 1/x, v = 1/y or u = 1/(x+y), v = 1/(x-y), etc.), solve the resulting linear system using any algebraic method, and correctly back-substitute to find the original variables while stating domain.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ charges ₹500 for making 2 tables and 3 chairs, but ₹700 for 3 tables and 2 chairs — this is a standard linear pair.",
+     "a": "carpenter",
+     "self_check": true
     }
    ]
   }

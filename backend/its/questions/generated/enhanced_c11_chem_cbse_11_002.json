@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_11_002",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_11_002",
+   "title": "c11_chem_cbse_11_002",
+   "questions": [
+    {
+     "q": "State the two necessary and sufficient conditions for an alkene to exhibit geometrical (cis-trans) isomerism.",
+     "a": "Correct answer: (1) Restricted rotation about the C=C double bond (due to π bond), and (2) each of the two sp²-hybridised carbons must be attached to two *different* atoms/groups (i.e., neither carbon has two identical substituents). A wrong answer like \"presence of a double bond\" or \"four different groups in total\" reveals the student confuses geometrical isomerism with mere unsaturation or with optical isomerism (chirality), missing the per-carbon substitution requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why 2-methylbut-2-ene (CH₃–C(CH₃)=CH–CH₃) does *not* show geometrical isomerism, while but-2-ene (CH₃–CH=CH–CH₃) does. Use the substitution pattern on each sp² carbon.",
+     "a": "Correct answer: In but-2-ene, each sp² carbon has two different groups (H and CH₃), satisfying the condition. In 2-methylbut-2-ene, one sp² carbon (C-2) is attached to two identical groups (CH₃ and CH₃), so swapping them produces the same molecule — no stereoisomers possible. A wrong answer citing \"branching\" or \"number of carbons\" reveals the student hasn't internalised the *per-carbon* substitution rule and is relying on superficial structural features.",
+     "self_check": true
+    },
+    {
+     "q": "Draw the *cis* and *trans* isomers of hex-3-ene (CH₃CH₂CH=CHCH₂CH₃). Assign *E/Z* descriptors using CIP rules. Predict which isomer has the higher boiling point and justify.",
+     "a": "Correct answer: *cis*-hex-3-ene (both ethyl groups on same side) and *trans*-hex-3-ene (ethyl groups opposite). CIP: on each sp² carbon, ethyl (–CH₂CH₃) > H (atomic number C=6 > H=1). *cis* = *Z* (high priority together), *trans* = *E*. *cis* isomer has higher boiling point because the two C–C bond dipoles do not cancel, giving a net molecular dipole moment (~0.3–0.4 D), leading to stronger dipole-dipole interactions. *trans* is nonpolar (dipoles cancel). A wrong prediction (e.g., *trans* higher b.p.) reveals confusion with melting point trend (where *trans* often has higher m.p. due to better packing) or misunderstanding of polarity origin.",
+     "self_check": true
+    },
+    {
+     "q": "An alkene C₆H₁₂ on ozonolysis followed by reductive workup (Zn/H₂O) gives only one product: butan-2-one (CH₃COCH₂CH₃). Deduce the structure of the alkene and state whether it can show geometrical isomerism. Explain.",
+     "a": "Correct answer: Ozonolysis cleaves the C=C bond, giving two carbonyl fragments. Since only one product (butan-2-one) is formed in two moles, the alkene must be symmetrical with the double bond in the middle: CH₃CH₂CH=CHCH₂CH₃ (hex-3-ene). Each sp² carbon has H and CH₂CH₃ — two different groups → geometrical isomerism *is* possible (*cis/trans* or *E/Z*). A wrong structure (e.g., hex-2-ene) or \"no isomerism\" reveals the student cannot reverse-engineer ozonolysis products or misapplies the substitution rule (e.g., thinks symmetry prevents isomerism).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"*trans*-1,2-dichloroethene has a higher melting point than *cis*-1,2-dichloroethene because the *trans* isomer is more polar.\" Identify the error and correct it.",
+     "a": "Correct answer: The statement is false. *trans*-1,2-dichloroethene has *zero* net dipole moment (two C–Cl bond dipoles cancel), while *cis* has a net dipole (~1.9 D). The *trans* isomer *does* have a higher melting point (e.g., *cis*: 133 K, *trans*: 166 K for but-2-ene analogues), but the reason is *better crystal packing due to symmetry*, not polarity. The error confuses the property (m.p. vs b.p.) and the cause (packing vs polarity). A student agreeing reveals they memorised \"trans has higher m.p.\" without understanding the structural basis.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple lab test to distinguish between *cis*- and *trans*-but-2-ene using only physical property measurements (no chemical reactions). Specify the property, expected observation, and underlying reason.",
+     "a": "Correct answer: Measure dipole moment (e.g., using a dielectric constant setup) or boiling point. *cis*-but-2-ene: μ ≈ 0.33 D, b.p. 277 K; *trans*-but-2-ene: μ = 0 D, b.p. 274 K. Observation: *cis* shows deflection in an electric field / higher b.p. Reason: *cis* has additive bond dipoles; *trans* has cancelling dipoles. A poor answer (e.g., \"measure density\" or \"burn them\") reveals inability to link molecular geometry to measurable bulk properties.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,26 @@
      "q": "Design a real-world scenario (Indian context) where you would use tuple slicing with a negative step to process data. Write the tuple and the slicing expression.",
      "a": "Scenario: A tuple `temps = (32, 34, 31, 29, 28, 27)` stores daily temperatures in °C for a week in Delhi (Mon-Sat). To get temperatures in reverse order (Sat to Mon), use `temps[::-1]` → `(27, 28, 29, 31, 34, 32)`. A poor answer uses positive step only or gives no context, showing inability to apply slicing creatively.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Tuple operations in Python include ______ (joining two tuples using + to form a new tuple), repetition (repeating a tuple n times using * to form a new tuple), and slicing (extracting a subsequence using tuple[start:stop:step] which returns a new tuple).",
+     "a": "concatenation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have two ______ storing the names of fruits for a fruit salad recipe: salad1 = ('apple', 'banana') and salad2 = ('mango', 'pineapple').",
+     "a": "tuples",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write Python code that correctly performs concatenation, repetition, and slicing on tuples, predict the output of combined operations (e.g., (t1 + t2) * 3), and explain why the original tuples remain unchanged after each operation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have two tuples storing the names of fruits for a fruit salad recipe: salad1 = ('apple', 'banana') and salad2 = ('mango', '______').",
+     "a": "pineapple",
+     "self_check": true
     }
    ]
   }

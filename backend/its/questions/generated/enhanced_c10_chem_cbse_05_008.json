@@ -34,6 +34,36 @@
      "q": "Design a simple activity using the Modern Periodic Table to demonstrate that atomic size decreases across Period 2 but the rate of decrease is not uniform. What data would you plot and what pattern would you expect?",
      "a": "Plot atomic radius (pm) vs atomic number for Li (152), Be (112), B (85), C (77), N (75), O (73), F (71), Ne (71) — covalent/van der Waals radii. Expect steep drop Li→Be (new p-subshell, poor shielding), then gradual decrease. Non-uniformity: biggest jump at Li→Be (s→p transition), then smaller steps. A student plotting \"smooth curve\" misses subshell effects. Using metallic radii for all gives wrong trend for non-metals.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Valency is the combining capacity of an element ______ by the number of electrons in its outermost shell (valence electrons), while atomic size (atomic radius) is the distance from the nucleus to the outermost electron shell.",
+     "a": "determined",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by showing a Class 10 student two familiar objects: a lithium battery (small, light) and a potassium ______ bag (larger atoms, more reactive).",
+     "a": "fertilizer",
+     "self_check": true
+    },
+    {
+     "q": "What is Valency? State the definition given in this lesson.",
+     "a": "Valency is the combining capacity of an element determined by the number of electrons in its outermost shell (valence electrons), while atomic size (atomic radius) is the distance from the nucleus to the outermost electron shell.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then introduce the Modern Periodic Table: move left-to-right across Period ______ (Li to Ne) — nuclear charge increases, electrons add to same shell, size shrinks.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Valency?",
+     "a": "Students write \"valency = group number for all elements\" — e.g., oxygen (Group 16) valency = 6.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can predict the valency and relative atomic size of any element given its position in the Modern Periodic Table, explain the underlying reasons using nuclear charge and shielding effect, and solve CBSE board exam questions that combine these trends with chemical reactivity predictions.",
+     "self_check": true
     }
    ]
   }

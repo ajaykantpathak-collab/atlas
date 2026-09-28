@@ -34,6 +34,16 @@
      "q": "Construct a \\( 3 \\times 3 \\) matrix \\( A \\) with integer entries such that \\( \\text{adj } A = A \\). Explain your reasoning.",
      "a": "One example: \\( A = \\begin{bmatrix} 1 & 0 & 0 \\\\ 0 & 1 & 0 \\\\ 0 & 0 & 1 \\end{bmatrix} \\) (identity matrix). Here \\( |A| = 1 \\), cofactor matrix is \\( I \\), so \\( \\text{adj } A = I = A \\).\nAnother: \\( A = \\begin{bmatrix} 0 & 1 & 0 \\\\ 1 & 0 & 0 \\\\ 0 & 0 & -1 \\end{bmatrix} \\). \\( |A| = 1 \\), cofactor matrix equals \\( A \\), so \\( \\text{adj } A = A^T = A \\) since \\( A \\) is symmetric.\nA student who cannot produce any example does not grasp the relationship between a matrix and its adjoint. A student who only gives the identity matrix shows limited creativity but understands the definition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a secret code for your ______'s treasure hunt.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a secret code for your school's treasure hunt.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,62 @@
+{
+ "catalog": "catalog_class6_science_fecu105.json",
+ "concepts": [
+  {
+   "id": "fecu.5.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "end_reading = 71",
+      "start_reading = 113",
+      "length = end_reading - start_reading"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "end_reading = 22",
+      "start_reading = 97",
+      "length = end_reading - start_reading"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "end_reading = 27",
+      "start_reading = 65",
+      "length = end_reading - start_reading"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "end_reading = 72",
+      "start_reading = 118",
+      "length = end_reading - start_reading"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "end_reading = 78",
+      "start_reading = 20",
+      "length = end_reading - start_reading"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "end_reading = 84",
+      "start_reading = 36",
+      "length = end_reading - start_reading"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "length = end_reading - start_reading"
+   ]
+  }
+ ]
+}

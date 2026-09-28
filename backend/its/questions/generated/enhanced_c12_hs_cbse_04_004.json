@@ -34,6 +34,31 @@
      "q": "Design a mini sericulture calendar for a bivoltine mulberry farmer in Karnataka showing: (a) chawki rearing duration, (b) late-age rearing duration, (c) mounting date relative to brushing, (d) two critical hygiene interventions with timing. Justify each entry with silkworm physiology.",
      "a": "Sample calendar (April crop):  \nDay 0: Brushing (hatching) — larvae 2 mm, high mortality risk → **Intervention 1**: Formalin 2 % + bleaching powder 3 % bed disinfection.  \nDays 1–7: Chawki rearing (1st–2nd instar) — tender leaves, high humidity → **Intervention 2**: Bed cleaning every 12 h to prevent *Flacherie* (bacterial enteritis).  \nDays 8–24: Late-age rearing (3rd–5th instar) — mature leaves, 90 % biomass gain.  \nDay 25: Mounting (ripe worms spin) — spinning lasts 72 h.  \nDay 28: Harvest.  \nJustification: Chawki duration matches tracheal system development; mounting timing aligns with silk gland peak fibroin synthesis (day 24–25). A poor answer lists dates without physiological triggers (e.g., \"mount on day 25 because book says so\").",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Silk is a natural protein filament fibre produced by the larvae of silk moths (primarily *Bombyx mori*) during cocoon formation; ______ is the scientific cultivation of silkworms on host plants (mulberry for mulberry silk; Terminalia, Shorea, etc. for non-mulberry silks) to obtain continuous silk filaments that are reeled, twisted, and woven into fabric.",
+     "a": "sericulture",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are holding a pure Kanchipuram saree — its lustre, drape, and strength all come from a single ______ filament that a tiny caterpillar spun in 3–4 days.",
+     "a": "continuous",
+     "self_check": true
+    },
+    {
+     "q": "What is Silk? State the definition given in this lesson.",
+     "a": "Silk is a natural protein filament fibre produced by the larvae of silk moths (primarily *Bombyx mori*) during cocoon formation; sericulture is the scientific cultivation of silkworms on host plants (mulberry for mulberry silk; Terminalia, Shorea, etc. for non-mulberry silks) to obtain continuous silk filaments that are reeled, twisted.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Silk?",
+     "a": "Students believe \"Eri silk is a filament silk like mulberry\" because textbooks list it under 'silk types'.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) differentiate the four commercial Indian silk types (Mulberry, Tasar, Eri, Muga) by host plant, silkworm species, fibre characteristics, and end-use, and (2) sequence the complete sericulture workflow from moriculture through reeling, explaining the critical control points that determine raw silk grade.",
+     "self_check": true
     }
    ]
   }

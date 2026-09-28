@@ -1,0 +1,170 @@
+{
+ "catalog": "catalog_class11_physics_ch205.json",
+ "concepts": [
+  {
+   "id": "keph.12.5.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "k_B = 35",
+      "T = 30",
+      "E_mode = (1/2) * k_B * T"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "k_B = 46",
+      "T = 27",
+      "E_mode = (1/2) * k_B * T"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "k_B = 18.9",
+      "T = 16.8",
+      "E_mode = (1/2) * k_B * T"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "k_B = 100",
+      "T = 14.6",
+      "E_mode = (1/2) * k_B * T"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "k_B = 86",
+      "T = 44",
+      "E_mode = (1/2) * k_B * T"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "k_B = 88",
+      "T = 18.8",
+      "E_mode = (1/2) * k_B * T"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "E_mode = (1/2) * k_B * T"
+   ]
+  },
+  {
+   "id": "keph.12.6.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "R = 32",
+      "C = 3 * R"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "R = 85",
+      "C = 3 * R"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "R = 59",
+      "C = 3 * R"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "R = 67",
+      "C = 3 * R"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "R = 83",
+      "C = 3 * R"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "R = 30",
+      "C = 3 * R"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "C = 3 * R"
+   ]
+  },
+  {
+   "id": "keph.12.7.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "n = 87",
+      "d = 91",
+      "lambda = 1 / (sqrt(2) * n * pi * d**2)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "n = 46",
+      "d = 1.9",
+      "lambda = 1 / (sqrt(2) * n * pi * d**2)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "n = 64",
+      "d = 48",
+      "lambda = 1 / (sqrt(2) * n * pi * d**2)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "n = 30",
+      "d = 68",
+      "lambda = 1 / (sqrt(2) * n * pi * d**2)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "n = 26",
+      "d = 76",
+      "lambda = 1 / (sqrt(2) * n * pi * d**2)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "n = 69",
+      "d = 7",
+      "lambda = 1 / (sqrt(2) * n * pi * d**2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "lambda = 1 / (sqrt(2) * n * pi * d**2)"
+   ]
+  }
+ ]
+}

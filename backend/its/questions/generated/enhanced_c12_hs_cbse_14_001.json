@@ -34,6 +34,26 @@
      "q": "Design a controlled experiment to test whether particulate soil (fine sand) or oily soil (cooking oil) causes greater tensile strength loss in cotton after 20 simulated wear cycles. Specify: fabric prep, soil application method, wear simulation, test standard, and the key variable to isolate.",
      "a": "Good answer: (1) Fabric prep: Scour and bleach 100% cotton plain weave (150 GSM), condition at 20°C/65% RH. (2) Soil application: Group A — dust with 100 μm silica sand (2 g/m²) via rotary tumbler; Group B — pad-dry-cure with 5% refined sunflower oil. (3) Wear simulation: Martindale abrasion tester, 9 kPa pressure, 20 cycles, dry state. (4) Test standard: IS 1969 / ASTM D5034 grab test, 5 specimens per group. (5) Key variable isolated: Soil chemistry (particulate vs. oily) — all other parameters identical. A poor answer that varies fabric type or uses \"rubbing by hand\" lacks control and cannot isolate the soil effect — revealing inability to design valid comparative experiments.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Fabric soiling refers to the deposition of foreign matter (particulate, oily, or combined) on fabric surfaces during use, while fabric ______ is the progressive, irreversible degradation of fibre, yarn, or fabric structure due to physical, chemical, or biological agents.",
+     "a": "deterioration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you spill turmeric-laden dal on a cotton kurta and a ______ shirt — why does the cotton stain deeper and faster?",
+     "a": "polyester",
+     "self_check": true
+    },
+    {
+     "q": "What is Fabric soiling? State the definition given in this lesson.",
+     "a": "Fabric soiling refers to the deposition of foreign matter (particulate, oily, or combined) on fabric surfaces during use, while fabric deterioration is the progressive, irreversible degradation of fibre, yarn, or fabric structure due to physical, chemical, or biological agents.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) classify at least five distinct soiling agents by source and chemical nature, (2) explain how three fibre properties (e.g., hydrophilicity, crystallinity, surface morphology) govern soiling susceptibility and deterioration pathways, and (3) predict the dominant deterioration mechanism for a given.",
+     "self_check": true
     }
    ]
   }

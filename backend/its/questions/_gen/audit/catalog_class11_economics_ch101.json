@@ -1,0 +1,62 @@
+{
+ "catalog": "catalog_class11_economics_ch101.json",
+ "concepts": [
+  {
+   "id": "keec.1.6.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "infant_deaths = 19.9",
+      "live_births = 14.3",
+      "infant_mortality_rate = (infant_deaths / live_births) * 1000"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "infant_deaths = 1.6",
+      "live_births = 87",
+      "infant_mortality_rate = (infant_deaths / live_births) * 1000"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "infant_deaths = 35",
+      "live_births = 23",
+      "infant_mortality_rate = (infant_deaths / live_births) * 1000"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "infant_deaths = 96",
+      "live_births = 62",
+      "infant_mortality_rate = (infant_deaths / live_births) * 1000"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "infant_deaths = 17.7",
+      "live_births = 91",
+      "infant_mortality_rate = (infant_deaths / live_births) * 1000"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "infant_deaths = 46",
+      "live_births = 24",
+      "infant_mortality_rate = (infant_deaths / live_births) * 1000"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "infant_mortality_rate = (infant_deaths / live_births) * 1000"
+   ]
+  }
+ ]
+}

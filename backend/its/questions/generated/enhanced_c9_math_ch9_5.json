@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch9_5",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch9_5",
+   "title": "c9_math_ch9_5",
+   "questions": [
+    {
+     "q": "State Euclid's First Axiom (\"Things which are equal to the same thing are equal to one another\") and give one example where it is used in *algebra* (not geometry) to solve an equation.",
+     "a": "**Answer:** Euclid's First Axiom: If a = c and b = c, then a = b. Algebra example: Given 2x = 10 and y = 10, we conclude 2x = y (both equal to 10). **Wrong answer reveals:** If the student gives a geometric example (e.g., line segments), they confuse Axioms (universal) with Postulates (geometry-specific). If they cannot give *any* example, they treat the axiom as a slogan to memorize, not a logical tool.",
+     "self_check": true
+    },
+    {
+     "q": "Why is \"A straight line can be drawn from any point to any other point\" a **Postulate** and not an **Axiom**? Explain using the definition of each.",
+     "a": "**Answer:** It is a Postulate because it is *specific to geometry* — it speaks about \"points\" and \"straight lines,\" which are geometric objects. An Axiom (like \"equals added to equals are equal\") applies to numbers, algebra, sets, etc., without mentioning geometric concepts. **Wrong answer reveals:** If the student says \"Postulates are less obvious\" or \"Axioms are more basic,\" they have a hierarchy misconception. The distinction is *domain of applicability*, not \"obviousness\" or \"importance.\"",
+     "self_check": true
+    },
+    {
+     "q": "Classify each statement and justify your classification in one sentence:\n(a) \"If equals are added to equals, the wholes are equal.\"\n(b) \"All right angles are equal to one another.\"\n(c) \"The base angles of an isosceles triangle are equal.\"",
+     "a": "**Answer:** (a) **Axiom** — applies universally to numbers, lengths, areas, etc., not just geometry. (b) **Postulate** (Euclid's 4th) — specific to the geometric concept of \"right angle\"; not a general logical truth. (c) **Theorem** — requires proof using Axioms, Postulates, and definitions (e.g., congruence criteria); not self-evident or assumed. **Wrong answer reveals:** Classifying (b) as Axiom shows confusion between universal logic and geometric assumptions. Classifying (c) as Postulate shows belief that \"obvious-looking\" geometric facts are assumed, not proved.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since we accept Postulates without proof, we could just *add* 'The sum of angles of a triangle is 180°' as a sixth Postulate and skip the proof. Why didn't Euclid do that?\" Analyze this proposal: is it logically valid? What would be lost?",
+     "a": "**Answer:** Logically, *any* consistent statement can be added as a Postulate — but Euclid aimed for **minimality** and **deductive power**. Adding the angle-sum as a Postulate would make the system *less elegant* (more assumptions) and *less explanatory* — we wouldn't *know why* it is true (it follows from the Parallel Postulate). The proof reveals the *dependence* on the 5th Postulate; assuming it directly hides that connection. **Wrong answer reveals:** If the student says \"It would be wrong because it's a Theorem,\" they miss that axiomatic systems are *chosen*, not discovered. If they say \"Nothing would be lost,\" they don't value explanatory depth and logical economy.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this proof attempt for \"The base angles of an isosceles triangle are equal\":\n*Given:* ΔABC with AB = AC. *To prove:* ∠B = ∠C.\n*Proof:* \"Since AB = AC, the triangle is symmetrical. Therefore ∠B = ∠C.\"\nIdentify the logical gap and state what rigorous steps are missing (refer to Axioms/Postulates used).",
+     "a": "**Answer:** The gap: \"symmetrical\" is an *intuitive geometric notion*, not a deductive step. Rigorous proof requires: (1) Construct the angle bisector of ∠A (Postulate 3: circle construction + Postulate 1: line joining points). (2) Show ΔABD ≅ ΔACD by SAS (Postulate 4: right angles equal? No — SAS is a Theorem proved earlier using Axioms/Postulates). (3) Conclude ∠B = ∠C by CPCT (Corresponding Parts of Congruent Triangles — derived from Axiom 1: equals to same are equal). **Wrong answer reveals:** If the student accepts \"symmetry\" as proof, they confuse *visual intuition* with *logical deduction* — the core shift from Class 7 to Class 9 geometry.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new \"mini-geometry\" with exactly **3 Postulates** (different from Euclid's) and **1 Theorem** that can be proved from them. State all clearly. Your Theorem must *not* be obvious from the Postulates — it must require a 3+ step deduction.",
+     "a": "**Good answer example:**\n*Postulates:* P1: There are exactly 4 points. P2: Any two distinct points have exactly one line. P3: Each line has exactly 2 points.\n*Theorem:* There are exactly 6 lines.\n*Proof:* (1) By P1, label points A,B,C,D. (2) By P2, pairs (A,B), (A,C), (A,D), (B,C), (B,D), (C,D) each determine a line — 6 lines. (3) By P3, no line has >2 points, so these 6 lines are distinct. (4) By P2, no other lines exist. QED.\n**Poor answer reveals:** If the Theorem is \"There are 4 points\" (just restates P1) or \"Lines have 2 points\" (restates P3), the student doesn't grasp *deduction*. If the proof has gaps (e.g., doesn't use P3 to show distinctness), they don't see the need for *all* assumptions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

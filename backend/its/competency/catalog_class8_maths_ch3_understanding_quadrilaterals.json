@@ -23,7 +23,7 @@
     "which of the following are polygons",
     "difference between convex and concave polygon"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -40,7 +40,16 @@
      "action": "check convexity",
      "explain": "A polygon is convex if every line segment joining two interior points lies wholly in the interior"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 2 gives 2",
+     "compute": "lines = 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c8m3.1.2",
@@ -59,7 +68,7 @@
     "Attempt this end-of-chapter task in your own words and support your answer with reasoning about equilateral.",
     "which polygons are regular"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -76,7 +85,16 @@
      "action": "conclude",
      "explain": "The polygon is regular only when both conditions hold; 3 sides = equilateral triangle, 4 sides = square, 6 sides = regular hexagon"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 62 gives 28",
+     "compute": "other = 90 - 62"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c8m3.2.1",
@@ -169,7 +187,7 @@
     "what is an isosceles trapezium",
     "identify the trapezium among the figures"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -186,7 +204,16 @@
      "action": "check non-parallel sides for isosceles",
      "explain": "If the non-parallel sides are equal, it is an isosceles trapezium"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the quadrilateral property to compute the value",
+     "explain": "use the quadrilateral property to compute the value: adj = 180 - 60 gives 120",
+     "compute": "adj = 180 - 60"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c8m3.3.2",
@@ -204,7 +231,7 @@
     "is a square a kite",
     "how many pairs of equal sides does a kite have"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -221,7 +248,16 @@
      "action": "check the pairs are distinct",
      "explain": "If all four sides are equal it is a rhombus, not only a kite"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the quadrilateral property to compute the value",
+     "explain": "use the quadrilateral property to compute the value: adj = 180 - 130 gives 50",
+     "compute": "adj = 180 - 130"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c8m3.3.3",
@@ -359,7 +395,7 @@
     "diagonals of a rhombus property",
     "identify quadrilaterals with four sides of equal length"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -377,7 +413,16 @@
      "explain": "Diagonals are perpendicular bisectors of one another, so each half-diagonal segment is given by diagonal / 2",
      "compute": "diagonal / 2"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 84 gives 528",
+     "compute": "circ = 2 * 22 / 7 * 84"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c8m3.4.2",
@@ -396,7 +441,7 @@
     "diagonals of a rectangle property",
     "is every rectangle a parallelogram"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -418,7 +463,16 @@
      "action": "use angle property",
      "explain": "Each angle of a rectangle is 90 degrees; adjacent angles sum 4 x 90 = 360"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 64 gives 26",
+     "compute": "other = 90 - 64"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c8m3.4.3",
@@ -437,7 +491,7 @@
     "diagonals of a square property",
     "can a square be defined as a rhombus with equal angles"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -454,7 +508,16 @@
      "action": "relate to other quadrilaterals",
      "explain": "A square is a parallelogram, a rectangle and a rhombus all at once"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "square the given number using the stated square rule",
+     "explain": "square the given number using the stated square rule: sq = 29 ** 2 gives 841",
+     "compute": "sq = 29 ** 2"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

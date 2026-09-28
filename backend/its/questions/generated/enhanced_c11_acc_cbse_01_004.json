@@ -34,6 +34,31 @@
      "q": "Create a realistic scenario involving a startup company where SEVEN distinct user groups (minimum 3 internal, 4 external) would request accounting information. For each, specify: (a) their classification, (b) the specific decision they face, (c) the exact accounting report or metric they would prioritise.",
      "a": "Sample scenario: \"GreenTech Solar\" startup manufacturing solar panels. Internal: (1) CEO — decision: expand to new state — metric: projected ROI from strategic plan; (2) Production Manager — decision: overtime vs new shift — report: daily cost variance sheet; (3) HR Head — decision: bonus structure — report: department-wise profitability analysis. External: (4) Venture Capitalist — decision: Series A funding — metric: burn rate, runway, user growth from pitch deck financials; (5) Bank — decision: working capital loan — metric: current ratio, debt service coverage from audited statements; (6) GST Department — decision: input tax credit verification — report: GSTR-1/GSTR-3B reconciliation; (7) Key Supplier — decision: extend credit period — metric: trade payables ageing, cash conversion cycle from financial statements. A poor answer lists generic \"managers\" and \"investors\" without specific decisions or metrics, showing inability to connect user identity to information demand.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Users of accounting information are ______ or groups who rely on financial reports to make informed economic decisions about an organisation; they are classified as internal users (management and employees within the organisation who need information for planning, controlling, and decision-making) and external users (parties outside the organisation such as investors, creditors, tax authorities, regulators, and customers who have limited access to internal data and depend on published financial statements).",
+     "a": "individuals",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Your baker (employee) needs to know daily sales to plan ingredient ______, your bank manager needs to know if you can repay the equipment loan, and the GST officer needs to verify your tax liability.",
+     "a": "purchases",
+     "self_check": true
+    },
+    {
+     "q": "What is Users of accounting information? State the definition given in this lesson.",
+     "a": "Users of accounting information are individuals or groups who rely on financial reports to make informed economic decisions about an organisation; they are classified as internal users (management and employees within the organisation who need information for planning, controlling, and decision-making) and external users (parties outside.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify any given stakeholder as internal or external user with justification, and explain the specific information needs of at least three distinct user groups from each category using terminology from the NCERT framework (e.g., liquidity, solvency, profitability, stewardship).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Your baker (employee) needs to know daily sales to plan ______ purchases, your bank manager needs to know if you can repay the equipment loan, and the GST officer needs to verify your tax liability.",
+     "a": "ingredient",
+     "self_check": true
     }
    ]
   }

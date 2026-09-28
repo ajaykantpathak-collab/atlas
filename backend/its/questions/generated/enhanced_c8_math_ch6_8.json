@@ -34,6 +34,16 @@
      "q": "Create a real-life problem (using metres, rupees, or kilograms) that can be solved using the identity \\((a+b)(a-b)=a^2-b^2\\). Write the problem and show the solution.",
      "a": "Example: A square cloth of side \\((x+2)\\) metres has a smaller square of side \\((x-2)\\) metres cut from its centre. Find the area of the remaining frame. Solution: Area = \\((x+2)^2 - (x-2)^2\\). This is not directly the identity. A better problem: A rectangular plot has length \\((50+3)\\) m and breadth \\((50-3)\\) m. Find its area using the identity. Area = \\(50^2 - 3^2 = 2500 - 9 = 2491\\) m². A poor answer would give a problem that does not fit the sum-difference pattern, showing the student cannot recognise the structure in context.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This pattern occurs whenever we multiply a sum by a ______ of the same two terms.",
+     "a": "difference",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "They can also evaluate numerical products mentally using this identity.",
+     "self_check": true
     }
    ]
   }

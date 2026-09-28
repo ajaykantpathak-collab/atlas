@@ -20,7 +20,7 @@
     "identify the horizontal level in a heights and distances problem",
     "explain the relationship between line of sight and angle of elevation"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -59,7 +59,16 @@
      "question": "Explain the difference between line of sight and horizontal level.",
      "type": "verify_property"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "take the ratio of the relevant sides",
+     "explain": "take the ratio of the relevant sides: s = 20 / 29 gives 0.689655",
+     "compute": "s = 20 / 29"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.9.2",
@@ -76,7 +85,7 @@
     "determine angle of elevation from top of a building",
     "find angle of elevation when observer moves closer or farther"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -120,7 +129,16 @@
      "question": "The angle of elevation of a kite is 45 degrees and the string length is 50 m. Find the height of the kite.",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "take the ratio of the relevant sides",
+     "explain": "take the ratio of the relevant sides: s = 10 / 26 gives 0.384615",
+     "compute": "s = 10 / 26"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.9.3",
@@ -137,7 +155,7 @@
     "relate angle of depression to angle of elevation",
     "solve problems involving angle of depression from a tower"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -176,7 +194,16 @@
      "question": "The angle of depression of a car from a tower is 45 degrees. If the car is 40 m from the base, find the height of the tower.",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "take the ratio of the relevant sides",
+     "explain": "take the ratio of the relevant sides: s = 8 / 17 gives 0.470588",
+     "compute": "s = 8 / 17"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.9.4",
@@ -193,7 +220,7 @@
     "find height of a mountain using angle of elevation",
     "determine height of a flagstaff using trigonometry"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -237,7 +264,16 @@
      "question": "The angle of elevation of the top of a hill from a point on the ground is 45 degrees. If the point is 100 m from the base, find the height.",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "take the ratio of the relevant sides",
+     "explain": "take the ratio of the relevant sides: s = 10 / 26 gives 0.384615",
+     "compute": "s = 10 / 26"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.9.5",
@@ -254,7 +290,7 @@
     "determine distance between two boats using angles of depression",
     "find the distance between two buildings using trigonometry"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -293,7 +329,16 @@
      "question": "From a lighthouse 80 m high, the angles of depression of two boats are 30 and 60 degrees. Find the distance between the boats.",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 68 gives 22",
+     "compute": "other = 90 - 68"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.9.6",
@@ -310,7 +355,7 @@
     "determine the distance of a ship from the shore",
     "find the height of a cloud using angle of elevation"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -349,7 +394,16 @@
      "question": "The shadow of a tower is 30 m when the angle of elevation of the sun is 30 degrees. Find the height of the tower.",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "take the ratio of the relevant sides",
+     "explain": "take the ratio of the relevant sides: s = 12 / 20 gives 0.6",
+     "compute": "s = 12 / 20"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.9.7",
@@ -366,7 +420,7 @@
     "choose the correct trigonometric ratio for a problem",
     "apply trigonometric ratios to find unknown sides"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -410,7 +464,16 @@
      "question": "A ladder 15 m long reaches a window. If the ladder makes 60 degrees with the ground, find the height of the window.",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "take the ratio of the relevant sides",
+     "explain": "take the ratio of the relevant sides: s = 5 / 13 gives 0.384615",
+     "compute": "s = 5 / 13"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.9.8",
@@ -427,7 +490,7 @@
     "find height when two angles of elevation and total distance are given",
     "determine the height of a tower from two points on the same line"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -466,7 +529,16 @@
      "question": "From two points on the same side of a tower, 20 m apart, the angles of elevation are 30 and 60 degrees. Find the height of the tower.",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 78 gives 12",
+     "compute": "other = 90 - 78"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [],

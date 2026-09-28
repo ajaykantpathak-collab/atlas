@@ -34,6 +34,31 @@
      "q": "Design a \"Safe Browsing Checklist\" poster for your school computer lab (max 6 items). Each item must be a specific, actionable technical step (not vague advice like \"be careful\"). Include one item each for: HTTPS verification, cookie hygiene, download safety, phishing recognition, digital footprint, and netiquette.",
      "a": "Example checklist: 1) **HTTPS**: Click padlock → \"Certificate\" → Verify \"Issued to\" matches expected organization. 2) **Cookies**: Settings → \"Block third-party cookies\" + \"Clear on exit\" for non-essential sites. 3) **Downloads**: Only `.pdf`/`.png` from `.gov.in`/`.nic.in`/known `.edu`; scan `.exe`/`.apk` on VirusTotal. 4) **Phishing**: Hover links → check domain spelling/TLD; never enter credentials on HTTP pages. 5) **Footprint**: Search your name monthly; set social profiles to \"Friends Only\"; remove unused accounts. 6) **Netiquette**: Cite sources for shared content; ask permission before posting photos of others; report cyberbullying. A poor answer uses vague slogans (\"Stay safe!\") indicating lack of procedural knowledge.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Safe Browsing Practices are a set of proactive habits and technical checks (verifying HTTPS, managing cookies, avoiding ______ downloads/links, using updated browsers) that protect a user's data and device integrity while navigating the web.",
+     "a": "suspicious",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you click a link from a ______ forward claiming \"Free JEE Mock Test PDF\" — the page looks like a known coaching site but the URL is jee-mock-tests-free.xyz and shows a padlock icon.",
+     "a": "WhatsApp",
+     "self_check": true
+    },
+    {
+     "q": "What is Safe Browsing Practices? State the definition given in this lesson.",
+     "a": "Safe Browsing Practices are a set of proactive habits and technical checks (verifying HTTPS, managing cookies, avoiding suspicious downloads/links, using updated browsers) that protect a user's data and device integrity while navigating the web.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Safe Browsing Practices?",
+     "a": "Misconception: \"If a website has HTTPS and a padlock, it is safe to enter my Aadhaar/bank details.\" Why it's wrong: HTTPS (TLS) only encrypts the *connection* between browser and server.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently evaluate a given browsing scenario (e.g., a login page, a file download prompt, a social media post) to identify 3+ specific risks (missing HTTPS, excessive cookie permissions, social engineering cues) and articulate the exact safe practice to mitigate each risk, while also explaining how their own online.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a spring balance, a wooden block (with a hook), a rough tabletop, and a smooth plastic sheet to demonstrate the transition from balanced to unbalanced forces. Describe the steps, what you measure, and the expected observations for each surface.",
      "a": "Steps: 1) Place block on rough table. Attach spring balance. Pull gently: block doesn't move, spring reading increases but block static → balanced (pull = static friction). 2) Pull harder until block moves at constant speed → balanced (pull = kinetic friction, reading constant). 3) Pull harder → block accelerates → unbalanced (pull > friction). 4) Repeat on smooth plastic sheet: less force needed to move/accelerate. Good answer identifies forces at each stage and links spring reading to force magnitude. Poor answer confuses constant reading with balanced forces only, or doesn't identify friction as the balancing force.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Balanced forces are forces acting on an object that are equal in ______ and opposite in direction, resulting in a net force of zero and no change in the object's state of motion (rest or constant velocity).",
+     "a": "magnitude",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a book lying at rest on a classroom desk: it ______ gravity pulling down and the desk pushing up (normal force), yet it doesn't move.",
+     "a": "experiences",
+     "self_check": true
+    },
+    {
+     "q": "What is Balanced forces? State the definition given in this lesson.",
+     "a": "Balanced forces are forces acting on an object that are equal in magnitude and opposite in direction, resulting in a net force of zero and no change in the object's state of motion (rest or constant velocity).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Balanced forces?",
+     "a": "Students believe \"balanced forces mean the object is at rest.\" They forget that an object moving at constant velocity (e.g., a bicycle coasting at 10 m/s on a level road) also has balanced forces.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to analyze a physical situation (description or diagram), identify all forces acting on an object, determine if they are balanced or unbalanced in each direction, and predict the resulting motion (constant velocity, acceleration, or deformation) with correct reasoning.",
+     "self_check": true
     }
    ]
   }

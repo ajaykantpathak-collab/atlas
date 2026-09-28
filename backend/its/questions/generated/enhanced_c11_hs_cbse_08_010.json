@@ -34,6 +34,31 @@
      "q": "Design a one‑day vegetarian menu for a 10‑year‑old girl that meets ≥90% of her RDAs for energy, protein, iron, and calcium using only the food groups and quantities in Table 8. Present the menu with approximate gram weights per meal.",
      "a": "Sample menu (weights in grams):\nBreakfast: 60 g wheat flakes + 200 ml milk + 50 g banana (≈450 kcal, 14 g protein, 1.5 mg iron, 300 mg Ca).\nTiffin: 60 g whole‑wheat roti + 30 g paneer + 50 g grated carrot (≈350 kcal, 12 g protein, 1.2 mg iron, 200 mg Ca).\nLunch: 100 g cooked rice + 40 g cooked dal + 50 g spinach curry + 100 g curd + 50 g cucumber (≈550 kcal, 20 g protein, 5 mg iron, 250 mg Ca).\nSnack: 30 g roasted chana + 50 g guava (≈150 kcal, 6 g protein, 1.5 mg iron, 40 mg Ca).\nDinner: 80 g wheat roti + 40 g rajma + 50 g mixed vegetable + 50 g salad (≈500 kcal, 18 g protein, 4 mg iron, 150 mg Ca).\nTotals: ~2000 kcal, 70 g protein, 13.2 mg iron, 940 mg Ca. Iron is only 63% of RDA (27 mg) — to reach 90% (24.3 mg), add 50 g more GLV at lunch and 20 g jaggery in snack. A poor answer that omits iron‑rich GLV or uses only milk for calcium shows inability to optimise within food‑group constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Nutritional ______ of school-age children (7–12 years) are the specific Recommended Dietary Allowances (RDAs) for energy, protein, fat, vitamins, and minerals established by ICMR (2010) to support steady growth, cognitive development, physical activity, and preparation for adolescent growth spurts, with distinct values for boys and girls from age 10 onward.",
+     "a": "requirements",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your 10‑year‑old cousin plan a ______ box that meets her ICMR RDA while she insists on packing chips and chocolate.",
+     "a": "tiffin",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your ______‑year‑old cousin plan a tiffin box that meets her ICMR RDA while she insists on packing chips and chocolate.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) retrieve and interpret ICMR RDA values (Table 7) for a given child's age and gender; (2) translate those RDAs into a day's balanced menu using ICMR food group quantities (Table 8); and (3) justify how the menu meets ≥90% of key nutrients while addressing factors like peer influence, breakfast skipping.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your 10‑year‑old cousin plan a tiffin box that meets her ICMR RDA while she insists on packing chips and ______.",
+     "a": "chocolate",
+     "self_check": true
     }
    ]
   }

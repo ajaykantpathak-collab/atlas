@@ -34,6 +34,11 @@
      "q": "Construct a function that is continuous at \\( x=0 \\) but not differentiable at \\( x=0 \\), different from \\( |x| \\) and \\( x^{1/3} \\). Define it piecewise, verify continuity, and show the one-sided derivatives are unequal (or infinite).",
      "a": "Example: \\( f(x) = \\begin{cases} x \\sin(1/x), & x \\ne 0 \\\\ 0, & x = 0 \\end{cases} \\).\nContinuity: \\( |x \\sin(1/x)| \\le |x| \\to 0 \\), so \\( \\lim_{x \\to 0} f(x) = 0 = f(0) \\).\nDerivative at 0: \\( f'(0) = \\lim_{h \\to 0} \\frac{h \\sin(1/h)}{h} = \\lim_{h \\to 0} \\sin(1/h) \\), which does not exist (oscillates between -1 and 1).\nThus \\( f \\) is continuous but not differentiable at 0. A poor answer might give a function that isn't continuous, or one where the derivative exists, showing the student cannot design a counterexample that satisfies the precise conditions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The speed from the left and right don't match, so the ______ doesn't exist.",
+     "a": "derivative",
+     "self_check": true
     }
    ]
   }

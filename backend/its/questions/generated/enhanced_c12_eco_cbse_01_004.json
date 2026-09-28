@@ -34,6 +34,36 @@
      "q": "Construct a hypothetical PPF schedule for a student allocating 10 hours of study time between Economics (E) and Mathematics (M). Assume the first hour of Economics yields 10 marks, but each subsequent hour yields 2 marks less than the previous (diminishing returns). Mathematics yields a constant 5 marks per hour. Show the schedule and calculate the opportunity cost of the 3rd hour of Economics in terms of Mathematics marks forgone.",
      "a": "**Schedule (Hours E, Marks E, Hours M, Marks M):**\n(0,0,10,50), (1,10,9,45), (2,18,8,40), (3,24,7,35), (4,28,6,30), (5,30,5,25), (6,30,4,20)...\n**3rd hour of Economics:** Moving from 2 to 3 hours E: ΔE_marks = +6, ΔM_hours = -1 → ΔM_marks = -5.\nOpportunity cost = 5 marks of Mathematics per 6 marks of Economics ≈ 0.83 Math marks per Econ mark.\nA poor answer that assumes constant returns in both subjects or calculates total marks instead of marginal change shows failure to apply diminishing returns and marginal analysis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ cost is the value of the next best alternative forgone when a choice is made; on a Production Possibility Frontier (PPF), it is the quantity of one good that must be sacrificed to produce one additional unit of another good, measured by the slope of the PPF at that point.",
+     "a": "Opportunity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer in Punjab with 10 ______ of land who can grow either wheat or rice.",
+     "a": "hectares",
+     "self_check": true
+    },
+    {
+     "q": "What is Opportunity cost? State the definition given in this lesson.",
+     "a": "Opportunity cost is the value of the next best alternative forgone when a choice is made; on a Production Possibility Frontier (PPF), it is the quantity of one good that must be sacrificed to produce one additional unit of another good, measured by the slope of the PPF at that point.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer in Punjab with ______ hectares of land who can grow either wheat or rice.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Opportunity cost?",
+     "a": "Students often think opportunity cost is the monetary expenditure (e.g., \"the cost of buying a textbook is ₹500\") rather than the value of the next best alternative use of that ₹500 (e.g., a pair of shoes or a meal).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can define opportunity cost in their own words, calculate it from a PPF schedule (table) or graph using the ratio of change in output of the good given up to change in output of the good gained, and explain why opportunity cost increases along a concave PPF.",
+     "self_check": true
     }
    ]
   }

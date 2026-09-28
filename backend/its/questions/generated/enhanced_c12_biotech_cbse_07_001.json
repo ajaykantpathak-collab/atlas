@@ -34,6 +34,36 @@
      "q": "Design a micropropagation protocol for a newly discovered endangered medicinal herb *X* (dicot, woody). Specify: (a) explant choice with justification, (b) Stage I sterilant and duration, (c) Stage II hormone combination (names & concentrations), (d) Stage III hormone, (e) one critical quality control check at each stage. Present as a 5-row table.",
      "a": "| Stage | Protocol Detail |\n|-------|-----------------|\n| (a) Explant | Shoot apical meristem (0.5–1 mm) — minimizes virus carryover, high regeneration potential, juvenile physiology |\n| (b) Stage I sterilant | 0.1% HgCl₂ for 5 min → 3× sterile water rinses (or 4% NaOCl for 15 min for softer tissue) |\n| (c) Stage II hormones | MS + 2 mg/L BAP + 0.5 mg/L Kin (synergistic cytokinins) + 0.1 mg/L NAA (low auxin for shoot quality) |\n| (d) Stage III hormone | ½ MS + 1 mg/L IBA (auxin for rooting) — charcoal added to adsorb excess cytokinin |\n| (e) QC checks | Stage I: % contamination < 10%; Stage II: multiplication rate > 4 shoots/explant/subculture; Stage III: rooting % > 80%; Stage IV: survival % > 90% after 4 weeks |\n\nA poor answer uses leaf explants for a woody species (low response), omits QC metrics, or copies banana protocol without adjusting for woody physiology — showing inability to transfer principles to a novel context.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is an in vitro plant tissue culture technique for rapid clonal multiplication of genetically identical plants (clones) through a defined sequence of stages: Stage 0 (mother plant selection), Stage I (aseptic establishment), Stage II (shoot multiplication), Stage III (rooting), and Stage IV (acclimatization/hardening), performed under controlled aseptic conditions on nutrient media with specific hormone regimes.",
+     "a": "Micropropagation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a banana farmer in Maharashtra who needs 50,000 ______-free, uniform plants of the 'Grand Naine' variety for the next planting season — but suckers are limited and carry viruses.",
+     "a": "disease",
+     "self_check": true
+    },
+    {
+     "q": "What is Micropropagation? State the definition given in this lesson.",
+     "a": "Micropropagation is an in vitro plant tissue culture technique for rapid clonal multiplication of genetically identical plants (clones) through a defined sequence of stages: Stage 0 (mother plant selection), Stage I (aseptic establishment), Stage II (shoot multiplication), Stage III (rooting), and Stage IV (acclimatization/hardening).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Micropropagation is an in vitro plant tissue culture technique for rapid clonal multiplication of genetically identical plants (clones) through a defined sequence of stages: Stage ______ (mother plant selection), Stage I (aseptic establishment), Stage II (shoot multiplication), Stage III (rooting), and Stage IV (acclimatization/hardening), performed under controlled aseptic conditions on nutrient media with specific hormone regimes.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Micropropagation?",
+     "a": "Misconception: \"Micropropagation produces genetically modified plants because it uses artificial media and hormones.\" Why it's wrong: Micropropagation is clonal vegetative propagation — the DNA sequence remains identical to the mother plant (barring rare somaclonal mutations).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) list the five stages of micropropagation in correct order with the primary objective and typical hormone regime for each stage, and (2) explain at least three distinct commercial advantages of micropropagation over conventional vegetative propagation, citing specific crop examples (e.g., banana, potato.",
+     "self_check": true
     }
    ]
   }

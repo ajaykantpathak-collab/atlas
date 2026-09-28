@@ -34,6 +34,31 @@
      "q": "Design a real-world experiment using only a smartphone, a spring, a known mass, and a ruler to determine the spring constant k. Describe the procedure, the measurements to take, the formula to use, and how to minimize error. Assume the phone can record video at 30 fps.",
      "a": "Procedure: (1) Hang the spring vertically, attach the known mass m, let it settle at equilibrium. (2) Pull the mass down ~2 cm, release, and record vertical oscillation video. (3) Use video analysis (frame-by-frame) to track the mass position vs time for 10+ oscillations. (4) Plot y(t), fit to y = A cos(ωt + φ) to extract ω, or measure time for 10 oscillations (10T) and compute T = (10T)/10, then ω = 2π/T. (5) Calculate k = mω². Minimize error: use small amplitude (SHM approximation), measure 10T not 1T, ensure spring mass ≪ m, use a rigid support. A poor answer (e.g., \"measure stretch with mass and use mg = kx\") uses static method, not dynamic SHM, and ignores the experimental design aspect. This reveals inability to translate theory into a practical measurement protocol.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Word problems in SHM ______ require translating a physical oscillatory system (spring-mass, simple pendulum, floating body, U-tube, etc.) into the standard mathematical model x(t) = A cos(ωt + φ) or its equivalents, identifying parameters (amplitude A, angular frequency ω, phase constant φ) from given conditions, and solving for unknown kinematic or dynamic quantities (displacement, velocity, acceleration, energy, time period) using SHM equations with proper SI units.",
+     "a": "applications",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a car's suspension ______ when it hits a speed breaker — the car oscillates up and down before settling.",
+     "a": "system",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Third, write the displacement equation using initial conditions (position and velocity at t=______) to find A and φ.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently read a word problem, identify the physical system as executing SHM, extract all given parameters with correct units, choose the appropriate equation form (displacement, velocity, acceleration, energy, or time period), set up the mathematical model with correct initial/boundary conditions, solve.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a car's ______ system when it hits a speed breaker — the car oscillates up and down before settling.",
+     "a": "suspension",
+     "self_check": true
     }
    ]
   }

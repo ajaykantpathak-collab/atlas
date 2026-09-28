@@ -44,9 +44,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 3 * 4 * 4 + 5 * 4 + 4"
-   ]
+   "steps_chain": []
   },
   {
    "id": "kemh112.12.3.2",
@@ -91,9 +89,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 5 * 3 * 3 + 6 * 3 + 6"
-   ]
+   "steps_chain": []
   },
   {
    "id": "kemh112.12.3.3",
@@ -225,49 +221,6 @@
      "i": 5,
      "chain": [
       "second = 6 * 1 - 6"
-     ]
-    }
-   ],
-   "steps_chain": []
-  },
-  {
-   "id": "kemh112.12.4.1",
-   "family": "authored",
-   "questions": [
-    {
-     "i": 0,
-     "chain": [
-      "val = 2 + 2"
-     ]
-    },
-    {
-     "i": 1,
-     "chain": [
-      "val = 4 + 9"
-     ]
-    },
-    {
-     "i": 2,
-     "chain": [
-      "val = 7 + 5"
-     ]
-    },
-    {
-     "i": 3,
-     "chain": [
-      "val = 6 + 5"
-     ]
-    },
-    {
-     "i": 4,
-     "chain": [
-      "val = 8 + 4"
-     ]
-    },
-    {
-     "i": 5,
-     "chain": [
-      "val = 9 + 4"
      ]
     }
    ],

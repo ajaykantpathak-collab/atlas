@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a rectangular cardboard sheet, a pin, and a stopwatch to verify the Perpendicular Axis Theorem experimentally. Describe the measurements and calculations needed.",
      "a": "Experiment: (1) Cut a uniform rectangular cardboard (planar lamina). Mark centre O. (2) Suspend it horizontally by a pin through O (axis perpendicular to plane). Give a small angular twist and measure period T_z of torsional oscillations. \\( I_z \\propto T_z^2 \\). (3) Suspend it by a pin along a line through O in the plane (x-axis). Measure period T_x for oscillations in the plane. \\( I_x \\propto T_x^2 \\). (4) Repeat for perpendicular in-plane axis through O (y-axis). Measure T_y. (5) Since \\( I \\propto T^2 \\) for same torsional constant, check if \\( T_z^2 = T_x^2 + T_y^2 \\). Calculations: Compute \\( I_x, I_y, I_z \\) from geometry formulas, verify \\( I_z = I_x + I_y \\). A poor answer (e.g., using different suspension points for each axis, or measuring linear oscillations) reveals the student doesn't grasp that the theorem requires a COMMON intersection point for all three axes — the experimental verification must use the same point O for all three suspension axes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Perpendicular Axis Theorem states that for a planar lamina (a thin, flat body), the moment of inertia about an axis perpendicular to its plane is equal to the sum of the moments of inertia about any two mutually perpendicular axes lying in the plane of the lamina and ______ at the point where the perpendicular axis passes through.",
+     "a": "intersecting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan blade — it's a thin, flat plate rotating about an axis ______ to its plane through the centre.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify when the Perpendicular Axis Theorem is applicable (planar lamina only), correctly set up the coordinate axes with the intersection condition, and compute the moment of inertia about a perpendicular axis given the in-plane moments (or vice versa).",
+     "self_check": true
     }
    ]
   }

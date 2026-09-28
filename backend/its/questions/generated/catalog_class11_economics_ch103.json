@@ -1,65 +1,109 @@
 {
- "catalog": "catalog_class11_economics_ch103",
+ "catalog": "catalog_class11_economics_ch103.json",
  "concepts": [
   {
    "id": "keec.103.1",
    "title": "Gross Value Added (GVA) Calculation",
+   "converted_to_compute": true,
+   "formula": "gva = gdp + subsidies - indirect_taxes",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "gva = gdp + subsidies - indirect_taxes",
+     "compute": "gva = gdp + subsidies - indirect_taxes"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keec.103.1",
+     "question_pattern": "what is the GVA if GDP is {gdp} and subsidies are {subsidies} and indirect taxes are {indirect_taxes}"
+    }
+   ],
    "questions": [
     {
-     "q": "Calculate the Gross Value Added. Use the method 'Gross Value Added (GVA) Calculation'. Work with: gdp = 5000, gdp_with_subsidies = 500, indirect_taxes = 5, subsidies = 300. Carry the chain through step by step and give the final value of the result.",
-     "a": "495 rupees",
+     "q": "For Gross Value Added (GVA) Calculation: given gdp = 76, subsidies = 73, indirect_taxes = 77, find gva.",
+     "a": "72",
      "self_check": false
     },
     {
-     "q": "Find the GVA from the given GDP, production subsidies, and indirect taxes. Use the method 'Gross Value Added (GVA) Calculation'. Work with: gdp = 1200, gdp_with_subsidies = 50000, indirect_taxes = 25, subsidies = 200. Carry the chain through step by step and give the final value of the result.",
-     "a": "49975 rupees",
+     "q": "what is the GVA if GDP is 76 and subsidies are 73 and indirect taxes are 77?",
+     "a": "72",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Gross Value Added (GVA) Calculation' refers to.",
-     "a": "A measure of economic output that calculates the value of goods and services produced in an economy after adjusting GDP for subsidies and indirect taxes.",
-     "self_check": true
+     "q": "For Gross Value Added (GVA) Calculation: given gdp = 61, subsidies = 62, indirect_taxes = 5.2, find gva.",
+     "a": "117.8",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Gross Value Added (GVA) Calculation'.",
-     "a": "GVA represents the actual value added by producers, obtained by adding subsidies to GDP and subtracting indirect taxes.",
-     "self_check": true
+     "q": "what is the GVA if GDP is 61 and subsidies are 62 and indirect taxes are 5.2?",
+     "a": "117.8",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Gross Value Added (GVA) Calculation', in plain ASCII form.",
-     "a": "gva = gdp + subsidies - indirect_taxes",
-     "self_check": true
+     "q": "For Gross Value Added (GVA) Calculation: given gdp = 77, subsidies = 95, indirect_taxes = 74, find gva.",
+     "a": "98",
+     "self_check": false
+    },
+    {
+     "q": "what is the GVA if GDP is 77 and subsidies are 95 and indirect taxes are 74?",
+     "a": "98",
+     "self_check": false
     }
    ]
   },
   {
    "id": "keec.103.2",
    "title": "Disinvestment Target Achievement",
+   "converted_to_compute": true,
+   "formula": "disinvestment_surplus = actual_mobilised - target_disinvestment",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "disinvestment_surplus = actual_mobilised - target_disinvestment",
+     "compute": "disinvestment_surplus = actual_mobilised - target_disinvestment"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keec.103.2",
+     "question_pattern": "did the government meet its disinvestment target of {actual_mobilised} if it mobilized {target_disinvestment}"
+    }
+   ],
    "questions": [
     {
-     "q": "Calculate the disinvestment surplus or deficit. Use the method 'Disinvestment Target Achievement'. Work with: actual_mobilised = 300, target_disinvestment = 15. Carry the chain through step by step and give the final value of the result.",
-     "a": "285 rupees",
+     "q": "For Disinvestment Target Achievement: given actual_mobilised = 60, target_disinvestment = 64, find disinvestment surplus.",
+     "a": "-4",
      "self_check": false
     },
     {
-     "q": "Find the difference between actual disinvestment mobilization and the target. Use the method 'Disinvestment Target Achievement'. Work with: actual_mobilised = 300, target_disinvestment = 80. Carry the chain through step by step and give the final value of the result.",
-     "a": "220 rupees",
+     "q": "did the government meet its disinvestment target of 60 if it mobilized 64?",
+     "a": "-4",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Disinvestment Target Achievement' refers to.",
-     "a": "The quantitative measure of whether the government met, exceeded, or fell short of its annual target for mobilizing capital through selling public sector equity.",
-     "self_check": true
+     "q": "For Disinvestment Target Achievement: given actual_mobilised = 79, target_disinvestment = 73, find disinvestment surplus.",
+     "a": "6",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Disinvestment Target Achievement'.",
-     "a": "Subtracting the target disinvestment from the actual amount mobilized to evaluate fiscal performance.",
-     "self_check": true
+     "q": "did the government meet its disinvestment target of 79 if it mobilized 73?",
+     "a": "6",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Disinvestment Target Achievement', in plain ASCII form.",
-     "a": "disinvestment_surplus = actual_mobilised - target_disinvestment",
-     "self_check": true
+     "q": "For Disinvestment Target Achievement: given actual_mobilised = 97, target_disinvestment = 111, find disinvestment surplus.",
+     "a": "-14",
+     "self_check": false
+    },
+    {
+     "q": "did the government meet its disinvestment target of 97 if it mobilized 111?",
+     "a": "-14",
+     "self_check": false
     }
    ]
   },

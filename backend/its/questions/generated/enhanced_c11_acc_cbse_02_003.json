@@ -34,6 +34,21 @@
      "q": "Create a realistic business scenario where strict application of the Money Measurement Concept leads to a significant omission. Then propose how a user of financial statements could address this gap without violating accounting principles.",
      "a": "Expected answer: Scenario: A tech startup's key asset is its proprietary algorithm developed by founders (no purchase cost). Money Measurement Concept excludes it (no monetary transaction). Balance Sheet shows minimal assets despite high market value. User addresses gap by: (a) reading notes to accounts for intangible assets disclosure, (b) reviewing management discussion on IP, (c) using valuation models (DCF) externally. Poor answer: \"Record it at estimated value\" violates Objectivity and Cost Concepts. Good answer shows understanding that accounting has boundaries, and users must go beyond financial statements for complete picture.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Money Measurement Concept states that only those ______ and events which can be expressed in monetary terms (rupees and paise) are recorded in the books of accounts; all non-monetary facts such as employee competence, brand reputation, or management efficiency are excluded, and every recorded transaction is measured in the common denominator of money rather than physical units.",
+     "a": "transactions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the ______ for a startup that owns a factory worth ₹2 crore, 50 skilled engineers, a loyal customer base of 10,000 people, and ₹50 lakh in bank balance.",
+     "a": "accountant",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) correctly classify given business events as recordable or non-recordable under this concept with justification, and (2) explain the implication of using money as a common measuring unit for heterogeneous assets, including the limitation regarding changing purchasing power of money over time.",
+     "self_check": true
     }
    ]
   }

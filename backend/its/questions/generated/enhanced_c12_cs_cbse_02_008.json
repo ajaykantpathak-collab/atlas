@@ -34,6 +34,36 @@
      "q": "Design a small office email setup for 10 users who need to send emails, receive them on both desktop and mobile, and keep an archive of all sent and received messages on the server for compliance. Specify which protocols to use for sending and receiving, and any additional configuration needed.",
      "a": "Use SMTP (port 587 with TLS) for sending. Use IMAP (port 993 with TLS) for receiving on both desktop and mobile. Enable IMAP folder synchronization for Sent, Drafts, and Archive folders so that all messages remain on the server. Configure server-side retention policies to comply with archival requirements. A poor answer would omit TLS, suggest POP3, or forget to mention folder synchronization for Sent items.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Email protocols are ______ rules that govern the transmission, retrieval, and management of electronic mail across networks.",
+     "a": "standardized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ an email from your phone to a friend's laptop.",
+     "a": "sending",
+     "self_check": true
+    },
+    {
+     "q": "What is Email protocols? State the definition given in this lesson.",
+     "a": "Email protocols are standardized rules that govern the transmission, retrieval, and management of electronic mail across networks.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then ask: \"When my friend opens their email app, how does the message get fetched?\" That leads to POP______ or IMAP.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Email protocols?",
+     "a": "Students often think SMTP is used for both sending and receiving emails because it is the most famous email protocol.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) identify the correct protocol for a given email operation (sending vs. receiving), (2) compare POP3 and IMAP in terms of message storage, synchronization, and multi-device access, and (3) state the default port numbers for SMTP, POP3, and IMAP without confusion.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Construct a sequence that is neither arithmetic nor geometric but has a simple explicit formula. Write its first five terms and explain why it fails both tests.",
      "a": "Example: aₙ = n² + n. First five terms: 2, 6, 12, 20, 30. Differences: 4, 6, 8, 10 (not constant → not arithmetic). Ratios: 6/2=3, 12/6=2, 20/12≈1.67, 30/20=1.5 (not constant → not geometric). A poor answer giving 2, 4, 8, 16, 32 (geometric) or 2, 5, 8, 11, 14 (arithmetic) shows the student cannot generate a non-standard sequence, indicating rigid template thinking rather than conceptual understanding.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A sequence is a function whose domain is the set of natural numbers ℕ (or a subset {1, 2, ..., n} for finite sequences) and whose codomain is typically ℝ or ℂ; each element of the domain maps to a term of the sequence, denoted a₁, a₂, a₃, ..., where aₙ ______ the image of n under the function.",
+     "a": "represents",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are saving ₹500 every ______ in a piggy bank.",
+     "a": "month",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are saving ₹______ every month in a piggy bank.",
+     "a": "500",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between finite and infinite sequences, identify the nth term from an explicit formula or recursive rule, classify a given sequence as arithmetic, geometric, or neither by examining the pattern of differences or ratios, and write the first five terms of any sequence defined by aₙ = f(n) or a recurrence relation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are saving ₹500 every month in a piggy bank.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

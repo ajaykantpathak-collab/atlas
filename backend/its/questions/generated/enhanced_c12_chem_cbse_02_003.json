@@ -34,6 +34,26 @@
      "q": "Design an experiment using a concentration cell (two identical electrodes in same electrolyte at different concentrations) to determine the solubility product Ksp of a sparingly soluble salt AgCl. Outline the cell setup, measurements needed, and the calculation steps.",
      "a": "Cell: Ag(s)|Ag⁺(sat'd AgCl)||Ag⁺(c known)|Ag(s). The left half-cell has [Ag⁺] = √Ksp (from AgCl ⇌ Ag⁺ + Cl⁻). Right half-cell has known [Ag⁺] = c. Ecell = (0.059/1) log(c/√Ksp). Measure Ecell, know c, solve for Ksp: log Ksp = 2 log c - 2Ecell/0.059. A poor answer (e.g., using a standard hydrogen electrode instead of a concentration cell, or not recognizing [Ag⁺] = √Ksp in saturated AgCl) reveals inability to connect solubility equilibrium with electrochemical potential and to design a cell where the unknown concentration is directly related to Ksp.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Nernst equation quantitatively relates the electrode potential of a half-cell (or the EMF of a full ______ cell) to the concentrations (activities) of the species involved in the redox reaction at a given temperature, showing how the potential deviates from its standard value when concentrations are not unity.",
+     "a": "electrochemical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a Daniell cell (Zn|Zn²⁺||Cu²⁺|Cu) running: ______ the voltmeter reads 1.10 V.",
+     "a": "initially",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a Daniell cell (Zn|Zn²⁺||Cu²⁺|Cu) running: initially the voltmeter reads ______ V.",
+     "a": "1.10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the Nernst equation from thermodynamic principles, apply it to calculate cell EMF for any given concentration set, determine equilibrium constants from standard cell potentials, and solve multi-step problems involving concentration changes during cell operation (e.g., finding EMF after a certain charge has passed).",
+     "self_check": true
     }
    ]
   }

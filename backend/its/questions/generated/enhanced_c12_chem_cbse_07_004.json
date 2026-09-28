@@ -34,6 +34,31 @@
      "q": "Design a two-step laboratory synthesis of 3-bromophenol starting from benzene. Specify reagents, conditions, and intermediate structures. (Hint: You need to introduce –Br and –OH at specific positions.)",
      "a": "Step 1: Nitration of benzene → nitrobenzene (conc. HNO₃ + conc. H₂SO₄, 323–333 K).\nStep 2: Reduction of nitrobenzene → aniline (Sn/HCl or H₂/Pd).\nStep 3: Diazotisation of aniline → benzenediazonium chloride (NaNO₂/HCl, 273–278 K).\nStep 4: Sandmeyer reaction → bromobenzene (CuBr/HBr) — but this gives bromobenzene, not 3-bromophenol.\nCorrect route for 3-bromophenol: Benzene → (Friedel-Crafts acylation, CH₃COCl/AlCl₃) → acetophenone → (bromination, Br₂/FeBr₃) → m-bromoacetophenone (meta due to –COCH₃ meta-directing) → (haloform reaction, NaOH/I₂) → 3-bromobenzoic acid → (decarboxylation? No).\nBetter: Benzene → (sulphonation, oleum) → benzenesulphonic acid → (fusion NaOH) → phenol → (bromination, Br₂/CS₂, 273 K) → o/p-bromophenol mixture — not 3-bromo.\nTrue 3-bromophenol synthesis: Benzene → (nitration) → nitrobenzene → (bromination, Br₂/FeBr₃) → m-bromonitrobenzene (–NO₂ meta-directing) → (reduction, Sn/HCl) → m-bromoaniline → (diazotisation + hydrolysis) → 3-bromophenol.\nThis tests multi-step retrosynthetic analysis combining electrophilic substitution directing effects with diazonium chemistry.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Phenols are aromatic compounds where a hydroxyl (–OH) group is directly attached to an sp²-hybridised carbon of a benzene ring; they are prepared from diazonium salts via hydrolysis of arenediazonium chloride (ArN₂⁺Cl⁻) with warm water or dilute acid, and industrially from cumene (______) via oxidation to cumene hydroperoxide followed by acid-catalysed cleavage yielding phenol and acetone.",
+     "a": "isopropylbenzene",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bottle of antiseptic liquid (like Dettol®) — its active ingredient chloroxylenol is a phenol ______.",
+     "a": "derivative",
+     "self_check": true
+    },
+    {
+     "q": "What is Phenols? State the definition given in this lesson.",
+     "a": "Phenols are aromatic compounds where a hydroxyl (–OH) group is directly attached to an sp²-hybridised carbon of a benzene ring; they are prepared from diazonium salts via hydrolysis of arenediazonium chloride (ArN₂⁺Cl⁻) with warm water or dilute acid, and industrially from cumene (isopropylbenzene) via oxidation to cumene hydroperoxide.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Phenols?",
+     "a": "Students write the cumene process as: \"Cumene + O₂ → Phenol + Acetone\" in one step, omitting the hydroperoxide intermediate and the acid-catalysed rearrangement.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write the complete reaction sequence for phenol preparation from aniline via diazotisation and hydrolysis, and from cumene via oxidation and acid cleavage, with correct reagents, conditions, balanced equations, and mechanistic reasoning for each step.",
+     "self_check": true
     }
    ]
   }

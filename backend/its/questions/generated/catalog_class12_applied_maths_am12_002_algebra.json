@@ -1,339 +1,317 @@
 {
- "catalog": "catalog_class12_applied_maths_am12_002_algebra.json",
- "concepts": [
-  {
-   "id": "am12_002.1",
-   "title": "Matrix Order and Types",
-   "converted_to_compute": true,
-   "solution_steps": [
+  "catalog": "catalog_class12_applied_maths_am12_002_algebra.json",
+  "concepts": [
     {
-     "step": 1,
-     "action": "expand the determinant or matrix product entry",
-     "explain": "expand the determinant or matrix product entry: det = 8 * 0 - 2 * 3 gives -6",
-     "compute": "det = 8 * 0 - 2 * 3"
+      "id": "am12_002.1",
+      "title": "Matrix Order and Types",
+      "converted_to_compute": false,
+      "formula": "-",
+      "solution_type": "compute",
+      "questions": [
+        {
+          "q": "Find the determinant of [[8, 2], [3, 0]].",
+          "a": "-6",
+          "self_check": false
+        },
+        {
+          "q": "Expand the determinant [[-5, 5, 7], [-1, 7, 5], [8, -3, 2]] along the first row.",
+          "a": "-306",
+          "self_check": false
+        },
+        {
+          "q": "For matrices A = [[-3, 8], [1, 2]] and B = [[6], [-1]] (column), find the (1,1) entry of AB.",
+          "a": "-26",
+          "self_check": false
+        },
+        {
+          "q": "Find the (1,1) entry of the scalar product 2 times a matrix whose (1,1) entry is 8.",
+          "a": "16",
+          "self_check": false
+        },
+        {
+          "q": "A matrix has 2 rows and 3 columns. How many elements does it have?",
+          "a": "6",
+          "self_check": false
+        },
+        {
+          "q": "A 2 x 2 matrix A has determinant 6. Find det(2A) using det(kA) = k^n det A.",
+          "a": "24",
+          "self_check": false
+        }
+      ]
+    },
+    {
+      "id": "am12_002.2",
+      "title": "Determinant of Order Two",
+      "converted_to_compute": false,
+      "formula": "det = a * d - b * c",
+      "solution_type": "compute",
+      "questions": [
+        {
+          "q": "Find the determinant of [[0, 9], [1, 4]].",
+          "a": "-9",
+          "self_check": false
+        },
+        {
+          "q": "Expand the determinant [[2, 4, 0], [6, 7, 5], [-4, 7, 2]] along the first row.",
+          "a": "-170",
+          "self_check": false
+        },
+        {
+          "q": "For matrices A = [[-3, 5], [1, 2]] and B = [[-1], [6]] (column), find the (1,1) entry of AB.",
+          "a": "33",
+          "self_check": false
+        },
+        {
+          "q": "Find the (1,1) entry of the scalar product 4 times a matrix whose (1,1) entry is 5.",
+          "a": "20",
+          "self_check": false
+        },
+        {
+          "q": "A matrix has 2 rows and 3 columns. How many elements does it have?",
+          "a": "6",
+          "self_check": false
+        },
+        {
+          "q": "A 2 x 2 matrix A has determinant 5. Find det(4A) using det(kA) = k^n det A.",
+          "a": "80",
+          "self_check": false
+        }
+      ]
+    },
+    {
+      "id": "am12_002.3",
+      "title": "Determinant by Cofactor Expansion",
+      "converted_to_compute": false,
+      "formula": "det = a * (e * i - f * h) - b * (d * i - f * g) + c * (d * h - e * g)",
+      "solution_type": "compute",
+      "questions": [
+        {
+          "q": "Find the determinant of [[-2, -2], [0, 5]].",
+          "a": "-10",
+          "self_check": false
+        },
+        {
+          "q": "Expand the determinant [[1, 6, 0], [3, 5, -5], [5, 7, 4]] along the first row.",
+          "a": "-167",
+          "self_check": false
+        },
+        {
+          "q": "For matrices A = [[3, 7], [1, 2]] and B = [[8], [1]] (column), find the (1,1) entry of AB.",
+          "a": "31",
+          "self_check": false
+        },
+        {
+          "q": "Find the (1,1) entry of the scalar product 2 times a matrix whose (1,1) entry is 5.",
+          "a": "10",
+          "self_check": false
+        },
+        {
+          "q": "A matrix has 2 rows and 3 columns. How many elements does it have?",
+          "a": "6",
+          "self_check": false
+        },
+        {
+          "q": "A 2 x 2 matrix A has determinant 3. Find det(3A) using det(kA) = k^n det A.",
+          "a": "27",
+          "self_check": false
+        }
+      ]
+    },
+    {
+      "id": "am12_002.4",
+      "title": "Matrix Product Entries",
+      "converted_to_compute": false,
+      "formula": "c11 = a11 * b11 + a12 * b21",
+      "solution_type": "compute",
+      "questions": [
+        {
+          "q": "Find the determinant of [[-2, 7], [0, 0]].",
+          "a": "0",
+          "self_check": false
+        },
+        {
+          "q": "Expand the determinant [[2, 3, 0], [1, 2, -5], [3, 7, 0]] along the first row.",
+          "a": "25",
+          "self_check": false
+        },
+        {
+          "q": "For matrices A = [[7, -1], [1, 2]] and B = [[-5], [6]] (column), find the (1,1) entry of AB.",
+          "a": "-41",
+          "self_check": false
+        },
+        {
+          "q": "Find the (1,1) entry of the scalar product 2 times a matrix whose (1,1) entry is 3.",
+          "a": "6",
+          "self_check": false
+        },
+        {
+          "q": "A matrix has 2 rows and 3 columns. How many elements does it have?",
+          "a": "6",
+          "self_check": false
+        },
+        {
+          "q": "A 2 x 2 matrix A has determinant 3. Find det(2A) using det(kA) = k^n det A.",
+          "a": "12",
+          "self_check": false
+        }
+      ]
+    },
+    {
+      "id": "am12_002.5",
+      "title": "Area of Triangle by Determinant",
+      "converted_to_compute": false,
+      "formula": "area = abs(x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)) / 2",
+      "solution_type": "compute",
+      "questions": [
+        {
+          "q": "Find the area of a rectangle measuring 9 cm by 16 cm.",
+          "a": "144",
+          "self_check": false
+        },
+        {
+          "q": "Find the area of a square of side 4 m.",
+          "a": "16",
+          "self_check": false
+        },
+        {
+          "q": "A 9 m x 12 m garden has a 5 m x 8 m flower bed inside it. Find the area of the remaining garden.",
+          "a": "68",
+          "self_check": false
+        },
+        {
+          "q": "A rectangle has area 36 sq cm and length 12 cm. Find its breadth.",
+          "a": "3",
+          "self_check": false
+        },
+        {
+          "q": "Tiling costs Rs 10 per square metre. Find the cost of tiling a 20 m x 8 m floor.",
+          "a": "1600",
+          "self_check": false
+        },
+        {
+          "q": "How many tiles of side 2 m (square tiles) fit in a 14 m x 8 m hall?",
+          "a": "28",
+          "self_check": false
+        }
+      ]
+    },
+    {
+      "id": "am12_002.6",
+      "title": "Symmetric and Skew Symmetric Matrices",
+      "converted_to_compute": false,
+      "formula": "-",
+      "solution_type": "compute",
+      "questions": [
+        {
+          "q": "Find the determinant of [[-6, 8], [-6, 6]].",
+          "a": "12",
+          "self_check": false
+        },
+        {
+          "q": "Expand the determinant [[3, 2, -4], [-3, -2, -5], [2, 5, 6]] along the first row.",
+          "a": "99",
+          "self_check": false
+        },
+        {
+          "q": "For matrices A = [[-1, 8], [1, 2]] and B = [[6], [-3]] (column), find the (1,1) entry of AB.",
+          "a": "-30",
+          "self_check": false
+        },
+        {
+          "q": "Find the (1,1) entry of the scalar product 6 times a matrix whose (1,1) entry is 8.",
+          "a": "48",
+          "self_check": false
+        },
+        {
+          "q": "A matrix has 2 rows and 3 columns. How many elements does it have?",
+          "a": "6",
+          "self_check": false
+        },
+        {
+          "q": "A 2 x 2 matrix A has determinant 4. Find det(4A) using det(kA) = k^n det A.",
+          "a": "64",
+          "self_check": false
+        }
+      ]
+    },
+    {
+      "id": "am12_002.7",
+      "title": "Solving Systems by Cramer and Inverse Methods",
+      "converted_to_compute": false,
+      "formula": "x = Dx / D",
+      "solution_type": "compute",
+      "questions": [
+        {
+          "q": "Write the ratio 12 : 60 in its simplest form and give the first term of the simplest form.",
+          "a": "1",
+          "self_check": false
+        },
+        {
+          "q": "Rs 660 is divided between two friends in the ratio 3 : 8. Find the smaller share.",
+          "a": "180",
+          "self_check": false
+        },
+        {
+          "q": "Rs 240 is split in the ratio 1 : 2 : 3. Find the largest share.",
+          "a": "120",
+          "self_check": false
+        },
+        {
+          "q": "Find the missing term: 5 : 6 = 25 : ?  (give the fourth term).",
+          "a": "30",
+          "self_check": false
+        },
+        {
+          "q": "Check the proportion 5 : 6 :: 25 : 30 by computing the cross products and give the value of ad - bc.",
+          "a": "0",
+          "self_check": false
+        },
+        {
+          "q": "If 8 notebooks cost Rs 30, what will 20 notebooks cost at the same rate (direct proportion)?",
+          "a": "75",
+          "self_check": false
+        }
+      ]
+    },
+    {
+      "id": "am12_002.8",
+      "title": "Leontief Input-Output Model",
+      "converted_to_compute": false,
+      "formula": "-",
+      "solution_type": "compute",
+      "questions": [
+        {
+          "q": "Find the mean of the numbers 23, 27, 39, 6, 4.",
+          "a": "19.8",
+          "self_check": false
+        },
+        {
+          "q": "Find the median of 24, 31, 44, 45, 48 (already in increasing order).",
+          "a": "44",
+          "self_check": false
+        },
+        {
+          "q": "Six observations sorted in order end with ... , 11, 12. A seventh value 58 is added, making 7 values. Find the median of the 7 values.",
+          "a": "12",
+          "self_check": false
+        },
+        {
+          "q": "An even-sized data set has middle values 19 and 49. Find the median.",
+          "a": "34",
+          "self_check": false
+        },
+        {
+          "q": "In a data set, the value 4 occurs 7 times, 5 occurs 3 times and 6 occurs 3 times. Find the mode.",
+          "a": "4",
+          "self_check": false
+        },
+        {
+          "q": "Find the range of the data 30, 8, 31, 14.",
+          "a": "23",
+          "self_check": false
+        }
+      ]
     }
-   ],
-   "questions": [
-    {
-     "q": "Find the determinant of [[8, 2], [3, 0]].",
-     "a": "-6",
-     "self_check": false
-    },
-    {
-     "q": "Expand the determinant [[-5, 5, 7], [-1, 7, 5], [8, -3, 2]] along the first row.",
-     "a": "-306",
-     "self_check": false
-    },
-    {
-     "q": "For matrices A = [[-3, 8], [1, 2]] and B = [[6], [-1]] (column), find the (1,1) entry of AB.",
-     "a": "-26",
-     "self_check": false
-    },
-    {
-     "q": "Find the (1,1) entry of the scalar product 2 times a matrix whose (1,1) entry is 8.",
-     "a": "16",
-     "self_check": false
-    },
-    {
-     "q": "A matrix has 2 rows and 3 columns. How many elements does it have?",
-     "a": "6",
-     "self_check": false
-    },
-    {
-     "q": "A 2 x 2 matrix A has determinant 6. Find det(2A) using det(kA) = k^n det A.",
-     "a": "24",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "am12_002.2",
-   "title": "Determinant of Order Two",
-   "converted_to_compute": false,
-   "questions": [
-    {
-     "q": "Find the determinant of [[0, 9], [1, 4]].",
-     "a": "-9",
-     "self_check": false
-    },
-    {
-     "q": "Expand the determinant [[2, 4, 0], [6, 7, 5], [-4, 7, 2]] along the first row.",
-     "a": "-170",
-     "self_check": false
-    },
-    {
-     "q": "For matrices A = [[-3, 5], [1, 2]] and B = [[-1], [6]] (column), find the (1,1) entry of AB.",
-     "a": "33",
-     "self_check": false
-    },
-    {
-     "q": "Find the (1,1) entry of the scalar product 4 times a matrix whose (1,1) entry is 5.",
-     "a": "20",
-     "self_check": false
-    },
-    {
-     "q": "A matrix has 2 rows and 3 columns. How many elements does it have?",
-     "a": "6",
-     "self_check": false
-    },
-    {
-     "q": "A 2 x 2 matrix A has determinant 5. Find det(4A) using det(kA) = k^n det A.",
-     "a": "80",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "am12_002.3",
-   "title": "Determinant by Cofactor Expansion",
-   "converted_to_compute": false,
-   "questions": [
-    {
-     "q": "Find the determinant of [[-2, -2], [0, 5]].",
-     "a": "-10",
-     "self_check": false
-    },
-    {
-     "q": "Expand the determinant [[1, 6, 0], [3, 5, -5], [5, 7, 4]] along the first row.",
-     "a": "-167",
-     "self_check": false
-    },
-    {
-     "q": "For matrices A = [[3, 7], [1, 2]] and B = [[8], [1]] (column), find the (1,1) entry of AB.",
-     "a": "31",
-     "self_check": false
-    },
-    {
-     "q": "Find the (1,1) entry of the scalar product 2 times a matrix whose (1,1) entry is 5.",
-     "a": "10",
-     "self_check": false
-    },
-    {
-     "q": "A matrix has 2 rows and 3 columns. How many elements does it have?",
-     "a": "6",
-     "self_check": false
-    },
-    {
-     "q": "A 2 x 2 matrix A has determinant 3. Find det(3A) using det(kA) = k^n det A.",
-     "a": "27",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "am12_002.4",
-   "title": "Matrix Product Entries",
-   "converted_to_compute": false,
-   "questions": [
-    {
-     "q": "Find the determinant of [[-2, 7], [0, 0]].",
-     "a": "0",
-     "self_check": false
-    },
-    {
-     "q": "Expand the determinant [[2, 3, 0], [1, 2, -5], [3, 7, 0]] along the first row.",
-     "a": "25",
-     "self_check": false
-    },
-    {
-     "q": "For matrices A = [[7, -1], [1, 2]] and B = [[-5], [6]] (column), find the (1,1) entry of AB.",
-     "a": "-41",
-     "self_check": false
-    },
-    {
-     "q": "Find the (1,1) entry of the scalar product 2 times a matrix whose (1,1) entry is 3.",
-     "a": "6",
-     "self_check": false
-    },
-    {
-     "q": "A matrix has 2 rows and 3 columns. How many elements does it have?",
-     "a": "6",
-     "self_check": false
-    },
-    {
-     "q": "A 2 x 2 matrix A has determinant 3. Find det(2A) using det(kA) = k^n det A.",
-     "a": "12",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "am12_002.5",
-   "title": "Area of Triangle by Determinant",
-   "converted_to_compute": false,
-   "questions": [
-    {
-     "q": "Find the area of a rectangle measuring 9 cm by 16 cm.",
-     "a": "144",
-     "self_check": false
-    },
-    {
-     "q": "Find the area of a square of side 4 m.",
-     "a": "16",
-     "self_check": false
-    },
-    {
-     "q": "A 9 m x 12 m garden has a 5 m x 8 m flower bed inside it. Find the area of the remaining garden.",
-     "a": "68",
-     "self_check": false
-    },
-    {
-     "q": "A rectangle has area 36 sq cm and length 12 cm. Find its breadth.",
-     "a": "3",
-     "self_check": false
-    },
-    {
-     "q": "Tiling costs Rs 10 per square metre. Find the cost of tiling a 20 m x 8 m floor.",
-     "a": "1600",
-     "self_check": false
-    },
-    {
-     "q": "How many tiles of side 2 m (square tiles) fit in a 14 m x 8 m hall?",
-     "a": "28",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "am12_002.6",
-   "title": "Symmetric and Skew Symmetric Matrices",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "expand the determinant or matrix product entry",
-     "explain": "expand the determinant or matrix product entry: det = -6 * 6 - 8 * -6 gives 12",
-     "compute": "det = -6 * 6 - 8 * -6"
-    }
-   ],
-   "questions": [
-    {
-     "q": "Find the determinant of [[-6, 8], [-6, 6]].",
-     "a": "12",
-     "self_check": false
-    },
-    {
-     "q": "Expand the determinant [[3, 2, -4], [-3, -2, -5], [2, 5, 6]] along the first row.",
-     "a": "99",
-     "self_check": false
-    },
-    {
-     "q": "For matrices A = [[-1, 8], [1, 2]] and B = [[6], [-3]] (column), find the (1,1) entry of AB.",
-     "a": "-30",
-     "self_check": false
-    },
-    {
-     "q": "Find the (1,1) entry of the scalar product 6 times a matrix whose (1,1) entry is 8.",
-     "a": "48",
-     "self_check": false
-    },
-    {
-     "q": "A matrix has 2 rows and 3 columns. How many elements does it have?",
-     "a": "6",
-     "self_check": false
-    },
-    {
-     "q": "A 2 x 2 matrix A has determinant 4. Find det(4A) using det(kA) = k^n det A.",
-     "a": "64",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "am12_002.7",
-   "title": "Solving Systems by Cramer and Inverse Methods",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "set up the proportion and solve for the unknown part",
-     "explain": "set up the proportion and solve for the unknown part: t1 = 12 / 6 gives 2",
-     "compute": "t1 = 12 / 6"
-    }
-   ],
-   "questions": [
-    {
-     "q": "Write the ratio 12 : 60 in its simplest form and give the first term of the simplest form.",
-     "a": "2",
-     "self_check": false
-    },
-    {
-     "q": "Rs 660 is divided between two friends in the ratio 3 : 8. Find the smaller share.",
-     "a": "180",
-     "self_check": false
-    },
-    {
-     "q": "Rs 240 is split in the ratio 1 : 2 : 3. Find the largest share.",
-     "a": "120",
-     "self_check": false
-    },
-    {
-     "q": "Find the missing term: 5 : 6 = 25 : ?  (give the fourth term).",
-     "a": "30",
-     "self_check": false
-    },
-    {
-     "q": "Check the proportion 5 : 6 :: 25 : 30 by computing the cross products and give the value of ad - bc.",
-     "a": "0",
-     "self_check": false
-    },
-    {
-     "q": "If 8 notebooks cost Rs 30, what will 20 notebooks cost at the same rate (direct proportion)?",
-     "a": "75",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "am12_002.8",
-   "title": "Leontief Input-Output Model",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the mean/median/mode definition",
-     "explain": "apply the mean/median/mode definition: total = sum((23, 27, 39, 6, 4)) gives 99",
-     "compute": "total = sum((23, 27, 39, 6, 4))"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 19.8",
-     "compute": "mean = total / 5"
-    }
-   ],
-   "questions": [
-    {
-     "q": "Find the mean of the numbers 23, 27, 39, 6, 4.",
-     "a": "19.8",
-     "self_check": false
-    },
-    {
-     "q": "Find the median of 24, 31, 44, 45, 48 (already in increasing order).",
-     "a": "44",
-     "self_check": false
-    },
-    {
-     "q": "Six observations sorted in order end with ... , 11, 12. A seventh value 58 is added, making 7 values. Find the median of the 7 values.",
-     "a": "12",
-     "self_check": false
-    },
-    {
-     "q": "An even-sized data set has middle values 19 and 49. Find the median.",
-     "a": "34",
-     "self_check": false
-    },
-    {
-     "q": "In a data set, the value 4 occurs 7 times, 5 occurs 3 times and 6 occurs 3 times. Find the mode.",
-     "a": "4",
-     "self_check": false
-    },
-    {
-     "q": "Find the range of the data 30, 8, 31, 14.",
-     "a": "23",
-     "self_check": false
-    }
-   ]
-  }
- ]
+  ]
 }

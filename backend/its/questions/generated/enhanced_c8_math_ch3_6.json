@@ -34,6 +34,31 @@
      "q": "Design a museum exhibit panel (150 words) showing the evolution of the digit '5' from Brahmi (3rd century BCE) → Gupta (4th century CE) → Arabic (9th century) → Medieval European (12th century) → Modern printed form. Explain one shape change at each stage.",
      "a": "A good answer traces: Brahmi '5' as two horizontal strokes (≡) → Gupta cursive joins them into a loop with tail → Arabic *khamsa* rotates 90° and opens the loop → European manuscripts add a top stroke for clarity → printing standardises the top horizontal and closed lower loop. Poor answers list shapes without explaining *why* (cursive writing, rotation in right-to-left script, differentiation from '6', printing constraints), showing rote memorisation without understanding material causes of script evolution.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ of Hindu numerals refers to the historical process by which the Indian decimal place-value system with zero (0-9) spread from India to the Islamic world (8th-12th centuries CE) through scholars like Al-Khwarizmi and Al-Kindi, and then to Europe (10th-15th centuries CE) via translations in Spain and Italy, replacing Roman numerals and enabling modern arithmetic.",
+     "a": "transmission",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're a ______ in 12th century Pisa trying to calculate profits from trade with Egypt using Roman numerals — you'd need an abacus and hours of work.",
+     "a": "merchant",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're a merchant in ______th century Pisa trying to calculate profits from trade with Egypt using Roman numerals — you'd need an abacus and hours of work.",
+     "a": "12",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the key stages, figures, and routes of transmission from India to the Arab world to Europe, and articulate why the Hindu-Arabic system replaced Roman numerals for calculation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're a merchant in 12th century Pisa trying to ______ profits from trade with Egypt using Roman numerals — you'd need an abacus and hours of work.",
+     "a": "calculate",
+     "self_check": true
     }
    ]
   }

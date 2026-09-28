@@ -24,12 +24,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "take the positive power",
+    {
+     "step": 1,
+     "action": "take the positive power",
      "explain": "Compute the base raised to the exponent size.",
-     "compute": "pos = base ** exp"},
-    {"step": 2, "action": "flip to the reciprocal",
+     "compute": "pos = base ** exp"
+    },
+    {
+     "step": 2,
+     "action": "flip to the reciprocal",
      "explain": "The negative exponent is 1 over that power.",
-     "compute": "neg_power = 1 / pos"}
+     "compute": "neg_power = 1 / pos"
+    }
    ]
   },
   {
@@ -50,12 +56,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "add the exponents",
+    {
+     "step": 1,
+     "action": "add the exponents",
      "explain": "Same-base multiplication adds the exponents.",
-     "compute": "sum_exp = exp_a + exp_b"},
-    {"step": 2, "action": "raise the base once",
+     "compute": "sum_exp = exp_a + exp_b"
+    },
+    {
+     "step": 2,
+     "action": "raise the base once",
      "explain": "The product is the base to the summed exponent.",
-     "compute": "product = base ** sum_exp"}
+     "compute": "product = base ** sum_exp"
+    }
    ]
   },
   {
@@ -76,12 +88,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "take the power of ten",
+    {
+     "step": 1,
+     "action": "take the power of ten",
      "explain": "10 to the exponent gives the scale.",
-     "compute": "scale = 10 ** exp"},
-    {"step": 2, "action": "multiply by the coefficient",
+     "compute": "scale = 10 ** exp"
+    },
+    {
+     "step": 2,
+     "action": "multiply by the coefficient",
      "explain": "Coefficient times scale rebuilds the number.",
-     "compute": "value = coeff * scale"}
+     "compute": "value = coeff * scale"
+    }
    ]
   },
   {
@@ -100,15 +118,33 @@
     "why does the exponent decide the size of a standard form number",
     "compare the size of a cell with the given dimensions in standard form"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "compare the exponents",
-     "explain": "The larger power of ten wins outright."},
-    {"step": 2, "action": "break the tie if needed",
-     "explain": "Equal exponents fall to comparing coefficients."},
-    {"step": 3, "action": "state the ratio",
-     "explain": "Dividing the values shows how many times one exceeds the other."}
-   ]
+    {
+     "step": 1,
+     "action": "compare the exponents",
+     "explain": "The larger power of ten wins outright."
+    },
+    {
+     "step": 2,
+     "action": "break the tie if needed",
+     "explain": "Equal exponents fall to comparing coefficients."
+    },
+    {
+     "step": 3,
+     "action": "state the ratio",
+     "explain": "Dividing the values shows how many times one exceeds the other."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 14 gives 88",
+     "compute": "circ = 2 * 22 / 7 * 14"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -123,12 +159,18 @@
     "exp": "size of the negative exponent"
    },
    "solution_template": [
-    {"step": 1, "action": "take the positive power",
+    {
+     "step": 1,
+     "action": "take the positive power",
      "explain": "Compute base to the exp.",
-     "compute": "pos = base ** exp"},
-    {"step": 2, "action": "take the reciprocal",
+     "compute": "pos = base ** exp"
+    },
+    {
+     "step": 2,
+     "action": "take the reciprocal",
      "explain": "The negative exponent is the reciprocal.",
-     "compute": "neg_power = 1 / pos"}
+     "compute": "neg_power = 1 / pos"
+    }
    ]
   },
   {
@@ -142,12 +184,18 @@
     "exp": "size of the negative exponent"
    },
    "solution_template": [
-    {"step": 1, "action": "take the positive power",
+    {
+     "step": 1,
+     "action": "take the positive power",
      "explain": "10 to the exp.",
-     "compute": "pos = base ** exp"},
-    {"step": 2, "action": "take the reciprocal",
+     "compute": "pos = base ** exp"
+    },
+    {
+     "step": 2,
+     "action": "take the reciprocal",
      "explain": "The answer is 1 over that power.",
-     "compute": "neg_power = 1 / pos"}
+     "compute": "neg_power = 1 / pos"
+    }
    ]
   },
   {
@@ -162,12 +210,18 @@
     "exp_b": "second exponent"
    },
    "solution_template": [
-    {"step": 1, "action": "add the exponents",
+    {
+     "step": 1,
+     "action": "add the exponents",
      "explain": "Same-base multiplication adds exponents.",
-     "compute": "sum_exp = exp_a + exp_b"},
-    {"step": 2, "action": "raise the base",
+     "compute": "sum_exp = exp_a + exp_b"
+    },
+    {
+     "step": 2,
+     "action": "raise the base",
      "explain": "The product is the combined power.",
-     "compute": "product = base ** sum_exp"}
+     "compute": "product = base ** sum_exp"
+    }
    ]
   },
   {
@@ -182,12 +236,18 @@
     "exp_b": "second exponent"
    },
    "solution_template": [
-    {"step": 1, "action": "add the exponents",
+    {
+     "step": 1,
+     "action": "add the exponents",
      "explain": "Exponents combine by addition.",
-     "compute": "sum_exp = exp_a + exp_b"},
-    {"step": 2, "action": "raise the base",
+     "compute": "sum_exp = exp_a + exp_b"
+    },
+    {
+     "step": 2,
+     "action": "raise the base",
      "explain": "Evaluate the single power.",
-     "compute": "product = base ** sum_exp"}
+     "compute": "product = base ** sum_exp"
+    }
    ]
   },
   {
@@ -201,12 +261,18 @@
     "exp": "power of ten"
    },
    "solution_template": [
-    {"step": 1, "action": "take the power of ten",
+    {
+     "step": 1,
+     "action": "take the power of ten",
      "explain": "10 to the exp is the scale.",
-     "compute": "scale = 10 ** exp"},
-    {"step": 2, "action": "multiply by the coefficient",
+     "compute": "scale = 10 ** exp"
+    },
+    {
+     "step": 2,
+     "action": "multiply by the coefficient",
      "explain": "The product is the ordinary number.",
-     "compute": "value = coeff * scale"}
+     "compute": "value = coeff * scale"
+    }
    ]
   },
   {
@@ -220,12 +286,18 @@
     "exp": "exponent of ten"
    },
    "solution_template": [
-    {"step": 1, "action": "take the power of ten",
+    {
+     "step": 1,
+     "action": "take the power of ten",
      "explain": "Compute 10 to the exp.",
-     "compute": "scale = 10 ** exp"},
-    {"step": 2, "action": "multiply by the coefficient",
+     "compute": "scale = 10 ** exp"
+    },
+    {
+     "step": 2,
+     "action": "multiply by the coefficient",
      "explain": "Coefficient times scale gives the number.",
-     "compute": "value = coeff * scale"}
+     "compute": "value = coeff * scale"
+    }
    ]
   }
  ],
@@ -234,26 +306,26 @@
    "id": "ex10.1",
    "source_ref": "hemh110.txt EXERCISE 10.1-10.2",
    "questions": [
-     "Evaluate the given powers including negative exponents.",
-     "Find the multiplicative inverse of the given powers.",
-     "Express the given fractions as powers with negative exponents."
+    "Evaluate the given powers including negative exponents.",
+    "Find the multiplicative inverse of the given powers.",
+    "Express the given fractions as powers with negative exponents."
    ]
   },
   {
    "id": "ex10.2",
    "source_ref": "hemh110.txt EXERCISE 10.3",
    "questions": [
-     "Simplify and write in exponential form the given expressions.",
-     "Simplify (3 to the minus 2 times 3 to the 5) and similar expressions."
+    "Simplify and write in exponential form the given expressions.",
+    "Simplify (3 to the minus 2 times 3 to the 5) and similar expressions."
    ]
   },
   {
    "id": "ex10.3",
    "source_ref": "hemh110.txt EXERCISE 10.4",
    "questions": [
-     "Express the given large and small numbers in standard form.",
-     "Write the given standard form numbers as ordinary numbers.",
-     "In a stack of papers each sheet is 0.016 cm thick - find the height of the stack in standard form."
+    "Express the given large and small numbers in standard form.",
+    "Write the given standard form numbers as ordinary numbers.",
+    "In a stack of papers each sheet is 0.016 cm thick - find the height of the stack in standard form."
    ]
   }
  ]

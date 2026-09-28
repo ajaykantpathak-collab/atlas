@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a spectrophotometer to demonstrate the effect of pH on oxygen binding to haemoglobin. Specify the wavelength, samples, and expected absorbance changes.",
      "a": "Use 540 nm (isosbestic point for Hb/HbO₂) or dual-wavelength (e.g., 577 nm for HbO₂). Prepare haemoglobin solutions at pH 7.4 and pH 7.2, equilibrate with air (21% O₂), measure absorbance. Lower pH sample will show lower HbO₂ absorbance (right shift). A poor design omits temperature control, uses non-physiological pH, or ignores that CO₂ must be controlled separately to isolate pH effect.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Transport of oxygen in human blood occurs primarily through reversible binding to haemoglobin (Hb) in red blood cells, forming ______ (HbO₂); each Hb molecule binds up to four O₂ molecules, and the sigmoidal oxygen dissociation curve describes the relationship between partial pressure of oxygen (pO₂) and percentage saturation of haemoglobin, which is shifted by pCO₂, H⁺ concentration (Bohr effect), and temperature to facilitate loading in alveoli and unloading in tissues.",
+     "a": "oxyhaemoglobin",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Notice how your fingers turn pale when pressed and pink again when released — that's ______ loading and unloading oxygen in real time.",
+     "a": "haemoglobin",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can draw and label the oxygen dissociation curve, explain the physiological significance of its sigmoidal shape, predict direction of curve shift given changes in pCO₂/pH/temperature, and calculate oxygen delivery per 100 mL blood using the arteriovenous oxygen difference.",
+     "self_check": true
     }
    ]
   }

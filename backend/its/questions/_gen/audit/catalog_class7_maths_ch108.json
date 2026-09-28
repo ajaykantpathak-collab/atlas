@@ -225,9 +225,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "mag = sqrt(-3 * -3 + -5 * -5 + 5 * 5)"
-   ]
+   "steps_chain": []
   },
   {
    "id": "gegp.8.2.1",
@@ -365,9 +363,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "mag = sqrt(-2 * -2 + 5 * 5 + 7 * 7)"
-   ]
+   "steps_chain": []
   }
  ]
 }

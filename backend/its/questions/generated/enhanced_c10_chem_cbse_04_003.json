@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using only a pencil, a 9V battery, an LED, and connecting wires to demonstrate that graphite conducts electricity. Draw the circuit diagram and explain why the LED glows.",
      "a": "Circuit: Battery (+) → wire → LED anode; LED cathode → wire → graphite track drawn heavily on paper with pencil; graphite track → wire → battery (−). The LED glows because the graphite track provides a continuous path of delocalized π-electrons that carry current. A poor answer (e.g., \"pencil lead is metal\" or no mention of delocalized electrons) reveals the student treats graphite as a metal rather than a non-metal with unique electronic structure, missing the core concept that conduction in graphite is due to *mobile π-electrons in sp² carbon networks*.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Allotropes are different structural forms of the same element in the same physical state, exhibiting distinct physical properties due to different ______ of atoms; carbon exists as diamond (tetrahedral 3D network), graphite (layered hexagonal sheets), and fullerene (spherical C₆₀ cages), all composed solely of carbon atoms.",
+     "a": "arrangements",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: a student holds a pencil \"lead\" (graphite) and a diamond ring — both are pure carbon, yet one writes smoothly and conducts ______ while the other is the hardest natural substance and an insulator.",
+     "a": "electricity",
+     "self_check": true
+    },
+    {
+     "q": "What is Allotropes? State the definition given in this lesson.",
+     "a": "Allotropes are different structural forms of the same element in the same physical state, exhibiting distinct physical properties due to different arrangements of atoms; carbon exists as diamond (tetrahedral 3D network), graphite (layered hexagonal sheets), and fullerene (spherical C₆₀ cages), all composed solely of carbon atoms.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Allotropes are different structural forms of the same element in the same physical state, exhibiting distinct physical properties due to different arrangements of atoms; carbon exists as diamond (tetrahedral ______D network), graphite (layered hexagonal sheets), and fullerene (spherical C₆₀ cages), all composed solely of carbon atoms.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Allotropes?",
+     "a": "Students write \"graphite has free electrons like metals\" in board exams, treating graphite's conduction as metallic bonding.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how the hybridization and bonding arrangement in each allotrope determines its specific physical properties (hardness, conductivity, lubricity) and can predict the behavior of an unfamiliar carbon allotrope based on its structural description.",
+     "self_check": true
     }
    ]
   }

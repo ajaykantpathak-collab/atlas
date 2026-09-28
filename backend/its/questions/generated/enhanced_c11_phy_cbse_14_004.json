@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a smartphone and a long corridor to measure how the speed of sound changes with temperature. Outline the procedure, measurements, and how you would analyze the data.",
      "a": "Use two smartphones: one emits a sharp clap (or tone), the other records. Measure time delay \\( \\Delta t \\) over known distance \\( d \\). Repeat at different temperatures (early morning, noon, evening). Plot \\( v = d/\\Delta t \\) vs \\( \\sqrt{T} \\) (in Kelvin). Expect linear relationship. A poor answer would ignore temperature measurement, use insufficient distance (< 50 m), or not account for reaction time in manual clapping.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The speed of sound in a medium is the rate at which a sound wave ______ through that medium, determined by the medium's elastic (restoring) and inertial (mass density) properties.",
+     "a": "propagates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real-world observation: On a hot summer afternoon in Delhi, you hear a distant train whistle ______ than on a cold winter morning — why?",
+     "a": "earlier",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real-world ______: On a hot summer afternoon in Delhi, you hear a distant train whistle earlier than on a cold winter morning — why?",
+     "a": "observation",
+     "self_check": true
     }
    ]
   }

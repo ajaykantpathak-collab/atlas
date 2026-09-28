@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_11_004",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_11_004",
+   "title": "c12_leg_cbse_11_004",
+   "questions": [
+    {
+     "q": "What is the statutory time limit for filing a complaint with the NHRC, and what happens if the complaint relates to an incident older than this limit?",
+     "a": "The complaint must be filed within one year of the alleged violation (Section 13, Protection of Human Rights Act, 1993). If the incident is older than one year, the NHRC will not ordinarily entertain it (Guideline (v)), unless the delay is condoned for sufficient cause — but this is discretionary and rare. A wrong answer (e.g., \"no time limit\" or \"3 years\") reveals the student confuses NHRC with civil/criminal limitation periods or misses the specific statutory bar.",
+     "self_check": true
+    },
+    {
+     "q": "A complaint is filed with the NCW alleging that a private employer denied maternity leave to a woman employee. The NCW rejects it. Explain why, citing the specific jurisdictional requirement.",
+     "a": "The NCW (like NHRC) can only inquire into violations *by a public servant* (or negligence by a public servant in preventing violation). A private employer is not a public servant. The complaint fails the threshold jurisdictional test under Section 12/NCW Act. A wrong answer (e.g., \"NCW can't handle labour matters\" or \"maternity leave is not a human right\") shows the student doesn't grasp the \"public servant\" limitation — a core exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A Dalit man is denied entry to a village temple by the local priest (a private individual). The District Magistrate refuses to register an FIR. The man wants to approach a commission. Which commission(s) can he approach, and what is the precise basis for each?",
+     "a": "He can approach: (1) NHRC — for negligence by the DM (public servant) in preventing violation of Art. 17/Protection of Civil Rights Act; (2) NCSC — for deprivation of safeguards under Constitution (Art. 17, 338) by a public authority (DM); (3) NCM — *only if* he is from a notified religious minority (Muslim/Christian/Sikh/Buddhist/Jain/Parsi), which a Dalit Hindu is not. A partial answer (e.g., only NHRC) reveals failure to map overlapping mandates — a key analytical skill.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the composition of the NHRC Chairperson and the NCW Chairperson. Why does this difference matter for the *perceived independence* of each body?",
+     "a": "NHRC Chairperson *must* be a former CJI or SC Judge (judicial background, fixed tenure, security of tenure akin to judges). NCW Chairperson is nominated by Central Government from \"persons of ability, integrity, standing\" — no judicial qualification required, serves at pleasure of government. This makes NHRC structurally more independent; NCW is more vulnerable to executive influence. A wrong answer (e.g., \"both are judges\" or \"both are government nominees\") shows ignorance of the appointment provisions — a frequent board assertion-reason question.",
+     "self_check": true
+    },
+    {
+     "q": "\"Commissions like NHRC are toothless tigers because their orders are only recommendatory.\" Evaluate this statement with reference to the *actual* powers of NHRC under the Act and the *practical* enforcement pathway.",
+     "a": "The statement is partially true but misleading. NHRC *cannot* punish directly — its orders are recommendations (compensation, prosecution, interim relief). *However*, it has powers of a civil court (summon, documents, affidavits), can approach SC/HC for directions (which *are* binding), and its reports carry moral/legal weight. In practice, governments comply in ~80% cases (NHRC annual reports). A one-sided answer (\"yes, toothless\" or \"no, powerful\") fails to balance legal form with functional reality — a classic evaluation trap.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a *complete* NHRC complaint (using the prescribed format) for this hypothetical: \"On 10 March 2024, Constable Ramesh (Badge 4521) of Kotwali PS, Lucknow, detained 16-year-old Arjun (son of migrant worker Raju) for 36 hours without producing him before a magistrate, slapped him, and released him only after Raju paid ₹5,000. Arjun has bruises. Raju is illiterate.\" Include all mandatory fields.",
+     "a": "A good answer must include: Complainant details (Raju, male, UP, address, district, PIN); Incident details (Kotwali PS, Lucknow, UP, 10/03/2024); Victim details (Arjun, 1, UP, address, district, PIN, Hindu, SC/ST/OBC/General, Male, 16, Not disabled); Summary (illegal detention >24h violating Art. 22, extortion, assault — by public servant Constable Ramesh); Against armed forces? No; Similar complaint elsewhere? No; Public servant details (Constable Ramesh, Badge 4521, Kotwali PS, Lucknow); Authority he answers to (SHO Kotwali, SP Lucknow); Prayer (compensation, prosecution, disciplinary action). Missing any field (especially public servant details or 1-year limit) = incomplete complaint — the most common student error in practical exercises.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

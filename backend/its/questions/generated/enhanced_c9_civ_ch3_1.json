@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_civ_ch3_1",
+ "concepts": [
+  {
+   "id": "enh:c9_civ_ch3_1",
+   "title": "c9_civ_ch3_1",
+   "questions": [
+    {
+     "q": "What is the main difference between power and authority in political science?",
+     "a": "Power is the ability to influence or control others, while authority is the legitimate right to exercise power based on accepted rules, laws, or positions. A wrong answer like \"power and authority mean the same thing\" reveals a fundamental misunderstanding that legitimacy and recognition are not necessary for authority, confusing mere influence with rightful control.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a police officer have the authority to arrest someone, but a private citizen generally does not, even if both have the physical power to detain a person?",
+     "a": "A police officer has authority because their power to arrest is granted by law (e.g., CrPC) and is seen as legitimate by society; a private citizen’s detention, even if physically possible, lacks legal legitimacy and could be considered wrongful confinement. A wrong answer claiming \"the police officer is stronger\" shows confusion between physical power and legal authority, missing that authority comes from institutional role, not personal strength.",
+     "self_check": true
+    },
+    {
+     "q": "In a school election, the winning candidate gets the authority to represent the class, but a student who campaigned hard and influenced many votes did not win. Explain how this shows the difference between power and authority.",
+     "a": "The influential student had power (ability to persuade and affect opinions), but only the winning candidate has authority (legitimate right to represent) because authority comes from a fair, recognized process (election), not just influence. A wrong answer saying the influential student has more authority reveals confusion that authority is earned through persuasion alone, ignoring that it requires formal legitimacy via constitutional or procedural rules.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the authority of the President of India to that of a influential social media personality with millions of followers. Who has more authority to make binding decisions affecting citizens, and why?",
+     "a": "The President has constitutional authority to make binding decisions (e.g., appointing the PM, giving assent to bills) under Articles 53 and 74, while the social media personality, despite having power to influence opinions, lacks legal legitimacy to issue binding orders. A wrong answer claiming the influencer has more authority due to reach shows a failure to grasp that authority requires legal-sanctioned legitimacy, not just popularity or influence.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"In a democracy, the person with the most power always has the most authority.\" Is this true? Justify your answer with reference to democratic principles.",
+     "a": "False. In a democracy, authority comes from legitimate processes like elections and constitutional rules, not raw power. A dictator may have great power but lacks legitimate authority; a democratically elected leader may have less personal power but holds authority because it is constitutionally sanctioned and publicly accepted. A wrong answer agreeing with the statement reveals a misunderstanding of democracy’s core principle: authority must be legitimate and accountable, not merely based on strength or influence.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a short rule for a school council that clearly distinguishes between a member’s power to suggest ideas and their authority to enforce decisions.",
+     "a": "A good answer states: \"All members have the power to suggest ideas during meetings, but only the elected council chairperson has the authority to enforce decisions, as granted by the school council constitution.\" A poor answer that gives enforcement power to all members or bases authority on popularity shows failure to grasp that authority must be formally assigned and legitimate, not informal or influence-based.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,31 @@
      "q": "Design a set of three nuclear symbols \\(^{A}_{Z}\\text{X}\\) that represent: (i) an isotope of carbon-12, (ii) an isobar of carbon-12, and (iii) a different element with the same neutron number as carbon-12. Explain your reasoning for each.",
      "a": "(i) Isotope of \\(^{12}_{6}\\text{C}\\): same Z = 6, different A. Example: \\(^{13}_{6}\\text{C}\\) (7 neutrons) or \\(^{14}_{6}\\text{C}\\) (8 neutrons). (ii) Isobar of \\(^{12}_{6}\\text{C}\\): same A = 12, different Z. Example: \\(^{12}_{5}\\text{B}\\) or \\(^{12}_{7}\\text{N}\\). (iii) Same neutron number as \\(^{12}_{6}\\text{C}\\) (which has n = 12 – 6 = 6): choose any element with n = 6. Example: \\(^{13}_{7}\\text{N}\\) (Z=7, n=6) or \\(^{14}_{8}\\text{O}\\) (Z=8, n=6). A poor answer (e.g., giving \\(^{12}_{6}\\text{C}\\) itself for (i) or confusing the categories) reveals the student cannot independently manipulate Z, A, and n — they only recognise definitions passively.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Atomic number (Z) is the number of protons in the nucleus of an atom, which uniquely ______ an element and equals the number of electrons in a neutral atom.",
+     "a": "identifies",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Next, hold up a sample of carbon (like graphite from a pencil) and explain that while all carbon atoms have 6 protons, some have 6 neutrons and others 7 or 8 — introducing mass number ______.",
+     "a": "variation",
+     "self_check": true
+    },
+    {
+     "q": "What is Atomic number (Z)? State the definition given in this lesson.",
+     "a": "Atomic number (Z) is the number of protons in the nucleus of an atom, which uniquely identifies an element and equals the number of electrons in a neutral atom.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Atomic number (Z)?",
+     "a": "They also assume atomic number equals neutron number for neutral atoms, or that the charge on an ion is determined by the neutron count.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Next, hold up a sample of carbon (like graphite from a pencil) and explain that while all carbon atoms have 6 protons, some have 6 neutrons and others 7 or 8 — ______ mass number variation.",
+     "a": "introducing",
+     "self_check": true
     }
    ]
   }

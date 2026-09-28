@@ -34,6 +34,36 @@
      "q": "Design a simple experiment or visualization using a 3D plotting tool (e.g., Python with Mayavi, or a physical model with balloons) to demonstrate the difference between radial and angular nodes in a 3pz orbital. What would you show?",
      "a": "A good answer: Plot |ψ|² for 3pz in 3D. Show a spherical radial node (a spherical shell where probability drops to zero) and a planar angular node (the xy-plane). Alternatively, use two nested balloons: the inner balloon represents the region inside the radial node, the outer balloon outside; a cardboard disk through the center represents the angular node. A poor answer (e.g., \"draw a circle\") fails to distinguish the two node types or show 3D structure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Atomic orbitals are three-dimensional regions around the nucleus where the probability of finding an electron is maximum (typically >90%), ______ by distinct shapes: s-orbitals are spherically symmetric, p-orbitals consist of two lobes with a nodal plane at the nucleus, and d-orbitals have complex shapes with two nodal planes (or a torus for dz²).",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how a magnet attracts iron filings into a ______ 3D pattern — the filings align along magnetic field lines, revealing an invisible shape.",
+     "a": "specific",
+     "self_check": true
+    },
+    {
+     "q": "What is Atomic orbitals? State the definition given in this lesson.",
+     "a": "Atomic orbitals are three-dimensional regions around the nucleus where the probability of finding an electron is maximum (typically >90%), characterized by distinct shapes: s-orbitals are spherically symmetric, p-orbitals consist of two lobes with a nodal plane at the nucleus, and d-orbitals have complex shapes with two nodal planes (or.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Atomic orbitals are three-dimensional regions around the nucleus where the probability of finding an electron is maximum (typically >______%), characterized by distinct shapes: s-orbitals are spherically symmetric, p-orbitals consist of two lobes with a nodal plane at the nucleus, and d-orbitals have complex shapes with two nodal planes (or a torus for dz²).",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Atomic orbitals?",
+     "a": "Students often think that the \"dumb-bell\" shape of p-orbitals means the electron moves back and forth along the axis like a pendulum.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) sketch and label the boundary surface diagrams of 1s, 2s, 2p, 3d orbitals showing nodal planes/radial nodes; (2) calculate the number of radial nodes (n-l-1), angular nodes (l), and total nodes (n-1) for any given orbital; (3) explain how the shapes of s, p, d orbitals lead to different shielding effectiveness and.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Design a thought experiment: If the 4f subshell shielded as effectively as the 5d subshell (i.e., no lanthanoid contraction), predict *two* measurable differences in the properties of Hf compared to actual Hf. Specify the property and the direction of change.",
      "a": "(1) Atomic radius of Hf would be ~15–20 pm larger (≈175–180 pm vs actual 159 pm), making it clearly larger than Zr (160 pm) — normal group trend restored. (2) Density of Hf would be significantly lower (actual 13.3 g/cm³; predicted ~10–11 g/cm³) because volume increases as r³ while mass increases only linearly. A student who only says \"Hf would be larger\" misses the density consequence — they must connect radius to macroscopic property via ρ = M/V. Also, separation from Zr would become easy (different ionic radii → different extraction coefficients).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Lanthanoid ______ is the steady decrease in atomic and ionic radii of the lanthanoid elements (La to Lu) despite increasing atomic number, caused by the poor shielding of nuclear charge by 4f electrons.",
+     "a": "contraction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a periodic table: Zr (Z=40) and Hf (Z=72) sit in the same group but Hf has 32 more protons — yet their atomic radii are nearly ______ (160 vs 159 pm).",
+     "a": "identical",
+     "self_check": true
+    },
+    {
+     "q": "What is Lanthanoid contraction? State the definition given in this lesson.",
+     "a": "Lanthanoid contraction is the steady decrease in atomic and ionic radii of the lanthanoid elements (La to Lu) despite increasing atomic number, caused by the poor shielding of nuclear charge by 4f electrons.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Lanthanoid contraction is the steady decrease in atomic and ionic radii of the lanthanoid elements (La to Lu) despite increasing atomic number, caused by the poor shielding of nuclear charge by ______f electrons.",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Lanthanoid contraction?",
+     "a": "Students often write: \"Lanthanoid contraction is caused by increasing nuclear charge pulling electrons closer.\" This is incomplete — nuclear charge increases *in every period*, but only f-block shows this *anomalous* contraction.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the electronic origin of lanthanoid contraction using shielding arguments, calculate the expected vs. actual radius change across the series, and predict its consequences on the properties of post-lanthanoid elements (especially 5d transition metals) including separation difficulties and property similarities between.",
+     "self_check": true
     }
    ]
   }

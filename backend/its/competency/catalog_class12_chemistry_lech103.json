@@ -1,594 +1,675 @@
 {
-  "class": 12,
-  "subject": "chemistry",
-  "chapter": 3,
-  "chapter_title": "Chemical Kinetics",
-  "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lech103.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "concepts": [
+ "class": 12,
+ "subject": "chemistry",
+ "chapter": 3,
+ "chapter_title": "Chemical Kinetics",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lech103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lech.03.3.1.1",
+   "title": "Average Rate of a Reaction",
+   "section": "3.1",
+   "definition": "How fast a reactant vanishes or a product builds up over a chosen time span, quoted as concentration change per unit time with a minus sign pinned on reactants so the number stays positive.",
+   "formula": "avg_rate = (conc_start - conc_end) / time_interval",
+   "key_idea": "For coefficients other than one, split the concentration change by each species' stoichiometric number so every species reports the same reaction rate; units come out as mol per litre per second.",
+   "textbook_ref": "lech103.txt, Section 3.1, equations 3.1-3.3, Table 3.1 and Example 3.1",
+   "question_patterns": [
+    "calculate the average rate of reaction when the reactant concentration falls from 0.03 M to 0.02 M in 25 minutes",
+    "find the rate of consumption of butyl chloride over the stated time interval",
+    "determine the average rate in mol per litre per second for the given concentration change",
+    "what is the rate of appearance of NO2 while N2O5 decomposes at the measured pace",
+    "express the reaction speed during an interval both per minute and per second",
+    "compute how quickly A disappears between two concentration readings"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "lech.03.3.1.1",
-      "title": "Average Rate of a Reaction",
-      "section": "3.1",
-      "definition": "How fast a reactant vanishes or a product builds up over a chosen time span, quoted as concentration change per unit time with a minus sign pinned on reactants so the number stays positive.",
-      "formula": "avg_rate = (conc_start - conc_end) / time_interval",
-      "key_idea": "For coefficients other than one, split the concentration change by each species' stoichiometric number so every species reports the same reaction rate; units come out as mol per litre per second.",
-      "textbook_ref": "lech103.txt, Section 3.1, equations 3.1-3.3, Table 3.1 and Example 3.1",
-      "question_patterns": [
-        "calculate the average rate of reaction when the reactant concentration falls from 0.03 M to 0.02 M in 25 minutes",
-        "find the rate of consumption of butyl chloride over the stated time interval",
-        "determine the average rate in mol per litre per second for the given concentration change",
-        "what is the rate of appearance of NO2 while N2O5 decomposes at the measured pace",
-        "express the reaction speed during an interval both per minute and per second",
-        "compute how quickly A disappears between two concentration readings"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Take the drop in reactant concentration over the interval",
-          "explain": "2.33 minus 2.08 mol per litre gives the N2O5 change; a fall is turned positive here.",
-          "compute": "delta_conc = conc_start - conc_end"
-        },
-        {
-          "step": 2,
-          "action": "Divide by the elapsed time and adjust for stoichiometry",
-          "explain": "Divide by the 184 minutes, then by the coefficient 2 for N2O5 (or multiply by 4 to quote NO2 formation).",
-          "compute": "avg_rate = delta_conc / time_interval"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Average Rate of a Reaction, compute the result for conc_start = 3, conc_end = 3, time_interval = 3.",
-          "solution": "Step 1: Take the drop in reactant concentration over the interval: delta_conc = conc_start - conc_end = 0.0 Step 2: Divide by the elapsed time and adjust for stoichiometry: avg_rate = delta_conc / time_interval = 0.0 Final result: 0.0",
-          "answer": "0.0"
-        },
-        {
-          "question": "Using Average Rate of a Reaction, compute the result for conc_start = 4, conc_end = 4, time_interval = 4.",
-          "solution": "Step 1: Take the drop in reactant concentration over the interval: delta_conc = conc_start - conc_end = 0.0 Step 2: Divide by the elapsed time and adjust for stoichiometry: avg_rate = delta_conc / time_interval = 0.0 Final result: 0.0",
-          "answer": "0.0"
-        }
-      ]
+     "step": 1,
+     "action": "Take the drop in reactant concentration over the interval",
+     "explain": "2.33 minus 2.08 mol per litre gives the N2O5 change; a fall is turned positive here.",
+     "compute": "delta_conc = conc_start - conc_end"
     },
     {
-      "id": "lech.03.3.2.1",
-      "title": "Rate Law and Rate Constant",
-      "section": "3.2.2",
-      "definition": "An experimentally found statement that ties the reaction speed to reactant concentrations raised to powers that need not match the balanced equation, with the proportionality factor called the rate constant.",
-      "formula": "rate = rate_const * conc_a ** order_a * conc_b ** order_b",
-      "key_idea": "The exponents come from experiment, never from the equation's coefficients; k absorbs everything except concentration and carries units that reveal the overall order.",
-      "textbook_ref": "lech103.txt, Section 3.2.2, equations 3.4-3.4b and Table 3.2",
-      "question_patterns": [
-        "calculate the initial rate when k is 2.0e-6 and the concentrations of A and B are 0.1 and 0.2 mol per litre",
-        "find the reaction rate from the rate law with the given k and reactant concentrations",
-        "determine the rate constant units for a reaction that is first order in A and second order in B",
-        "write the differential rate equation for a reaction first order in A and second order in B",
-        "what happens to the rate when the concentration of a reactant participating to the second power is tripled",
-        "evaluate the rate expression k times the concentration powers for the stated experiment"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Raise each reactant concentration to its experimental power",
-          "explain": "For rate = k[A][B] squared, the B factor is 0.2 squared, that is 0.04.",
-          "compute": "concentration_term = conc_a ** order_a"
-        },
-        {
-          "step": 2,
-          "action": "Multiply the terms together with the rate constant",
-          "explain": "2.0e-6 times 0.1 times 0.04 gives 8.0e-9 mol per litre per second.",
-          "compute": "rate = rate_const * concentration_term * conc_b ** order_b"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Rate Law and Rate Constant, compute the result for conc_a = 3, order_a = 3, rate_const = 3, conc_b = 2, order_b = 2.",
-          "solution": "Step 1: Raise each reactant concentration to its experimental power: concentration_term = conc_a ** order_a = 27.0 Step 2: Multiply the terms together with the rate constant: rate = rate_const * concentration_term * conc_b ** order_b = 324.0 Final result: 324.0",
-          "answer": "324.0"
-        },
-        {
-          "question": "Using Rate Law and Rate Constant, compute the result for conc_a = 4, order_a = 4, rate_const = 4, conc_b = 3, order_b = 3.",
-          "solution": "Step 1: Raise each reactant concentration to its experimental power: concentration_term = conc_a ** order_a = 256.0 Step 2: Multiply the terms together with the rate constant: rate = rate_const * concentration_term * conc_b ** order_b = 27648.0 Final result: 27648.0",
-          "answer": "27648.0"
-        }
-      ]
-    },
-    {
-      "id": "lech.03.3.2.2",
-      "title": "Order of a Reaction",
-      "section": "3.2.3",
-      "definition": "The total of the concentration exponents in the experimentally determined rate law; it states how sharply the speed answers to concentration and may be zero, whole or fractional.",
-      "formula": "order_total = order_a + order_b",
-      "key_idea": "Add the powers for all reactants to name the overall order; the units of k mirror it, so an s-1 rate constant betrays first order and L per mol per s betrays second.",
-      "textbook_ref": "lech103.txt, Section 3.2.3, Table 3.3 and Example 3.3",
-      "question_patterns": [
-        "find the overall order for the rate law r equals k times A to the half power times B squared",
-        "determine the order of a reaction whose rate expression is k times A to the power three halves times B to the minus one",
-        "what is the overall order when the exponents of A and B in the rate law are given",
-        "identify the reaction order from the units of the rate constant such as L per mol per second",
-        "state the order with respect to each reactant and the total order from an experimental rate law",
-        "work out the total exponent sum for a rate equation with fractional powers"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Add the exponents of all reactant concentration terms",
-          "explain": "One half plus three halves gives 2, a second order reaction; three halves plus minus one gives one half, a half order reaction.",
-          "compute": "order_total = order_a + order_b"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Order of a Reaction, compute the result for order_a = 3, order_b = 3.",
-          "solution": "Step 1: Add the exponents of all reactant concentration terms: order_total = order_a + order_b = 6.0 Final result: 6.0",
-          "answer": "6.0"
-        },
-        {
-          "question": "Using Order of a Reaction, compute the result for order_a = 4, order_b = 4.",
-          "solution": "Step 1: Add the exponents of all reactant concentration terms: order_total = order_a + order_b = 8.0 Final result: 8.0",
-          "answer": "8.0"
-        }
-      ]
-    },
-    {
-      "id": "lech.03.3.2.3",
-      "title": "Molecularity versus Order, Elementary and Complex Reactions",
-      "section": "3.2.4",
-      "definition": "Molecularity counts the species that must collide together in one elementary step, while order is the measured exponent sum for the whole reaction; complex reactions proceed through several steps and take their pace from the slowest one.",
-      "formula": "contrast = molecularity (elementary steps only) versus order (experimental, whole reaction)",
-      "key_idea": "Order can be zero, fractional or negative and applies to any reaction; molecularity is always a small positive whole number meaningful only for single steps, and the rate deciding step is the slowest one.",
-      "textbook_ref": "lech103.txt, Sections 3.2.4 and rate determining step discussion (H2O2 + I- example)",
-      "question_patterns": [
-        "differentiate between molecularity and order of a reaction with their allowed values",
-        "why does a reaction that looks tenth order from its equation actually run second order",
-        "identify the rate determining step and the intermediate in the iodide catalysed peroxide decomposition",
-        "classify a one step reaction and a multi step reaction as elementary or complex",
-        "state which of molecularity or order applies only to elementary reactions",
-        "explain why the molecularity of a complex reaction has no meaning for the overall process"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Decide whether the reaction is one step or a sequence",
-          "explain": "One step means elementary; a sequence with intermediates means complex."
-        },
-        {
-          "step": 2,
-          "action": "Assign molecularity only to elementary steps",
-          "explain": "Count colliding species: one for unimolecular, two for bimolecular, rarely three."
-        },
-        {
-          "step": 3,
-          "action": "Take the overall order from experiment or from the slowest step",
-          "explain": "Order is experimental; for a complex reaction the slow step's molecularity equals the overall order."
-        }
-      ]
-    },
-    {
-      "id": "lech.03.3.3.1",
-      "title": "Zero Order Integrated Rate Equation",
-      "section": "3.3.1",
-      "definition": "When speed ignores reactant concentration entirely, as in ammonia breaking down on hot platinum or enzyme driven processes, concentration falls in a straight line with time at a pace set only by k.",
-      "formula": "conc_left = conc0 - rate_const * time_elapsed",
-      "key_idea": "A concentration versus time plot is a straight line whose slope is minus k; rearranged, k equals the concentration drop divided by the time, and surface saturation is what makes the rate concentration independent.",
-      "textbook_ref": "lech103.txt, Section 3.3.1, equations 3.5-3.7 and ammonia on platinum example",
-      "question_patterns": [
-        "find the concentration of reactant left after 100 seconds in a zero order reaction with k given",
-        "calculate the rate constant of a zero order reaction from the fall in concentration over a known time",
-        "determine how long a zero order process needs to consume a stated fraction of the starting material",
-        "what concentration remains when a surface catalysed zero order reaction runs for a given time",
-        "predict the remaining concentration for a reaction whose speed is independent of concentration",
-        "how much ammonia decomposes on the platinum surface after the stated duration"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Multiply the constant rate by the elapsed time",
-          "explain": "The consumed amount is k times t for a zero order process.",
-          "compute": "conc_used = rate_const * time_elapsed"
-        },
-        {
-          "step": 2,
-          "action": "Subtract the consumed amount from the starting concentration",
-          "explain": "Starting amount minus the used portion leaves the concentration still present.",
-          "compute": "conc_left = conc0 - conc_used"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Zero Order Integrated Rate Equation, compute the result for rate_const = 3, time_elapsed = 3, conc0 = 3.",
-          "solution": "Step 1: Multiply the constant rate by the elapsed time: conc_used = rate_const * time_elapsed = 9.0 Step 2: Subtract the consumed amount from the starting concentration: conc_left = conc0 - conc_used = -6.0 Final result: -6.0",
-          "answer": "-6.0"
-        },
-        {
-          "question": "Using Zero Order Integrated Rate Equation, compute the result for rate_const = 4, time_elapsed = 4, conc0 = 4.",
-          "solution": "Step 1: Multiply the constant rate by the elapsed time: conc_used = rate_const * time_elapsed = 16.0 Step 2: Subtract the consumed amount from the starting concentration: conc_left = conc0 - conc_used = -12.0 Final result: -12.0",
-          "answer": "-12.0"
-        }
-      ]
-    },
-    {
-      "id": "lech.03.3.3.2",
-      "title": "Half Life of a Zero Order Reaction",
-      "section": "3.3.3",
-      "definition": "The time a concentration independent reaction needs to halve its starting concentration; unlike first order cases it stretches in proportion to how concentrated the starting mixture was.",
-      "formula": "t_half = conc0 / (2 * rate_const)",
-      "key_idea": "Setting the remaining concentration to half the starting value in the zero order law gives t one half equal to concentration divided by twice k, so a stronger starting mixture lasts longer.",
-      "textbook_ref": "lech103.txt, Section 3.3.3 zero order case",
-      "question_patterns": [
-        "calculate the half life of a zero order reaction with initial concentration 0.5 M and k 0.001 mol per litre per second",
-        "find t half for a concentration independent reaction from its starting concentration and rate constant",
-        "determine how long a zero order reaction takes to fall to half its initial concentration",
-        "what is the half life period of a surface catalysed reaction that ignores concentration",
-        "compare the half life behaviour of zero order and first order reactions with concentration",
-        "compute the time to reach half the starting concentration when the rate stays constant"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Set the remaining concentration to half the start and solve for time",
-          "explain": "k times t half equals half the starting concentration, so t half equals conc0 over 2k.",
-          "compute": "t_half = conc0 / (2 * rate_const)"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Half Life of a Zero Order Reaction, compute the result for conc0 = 3, rate_const = 3.",
-          "solution": "Step 1: Set the remaining concentration to half the start and solve for time: t_half = conc0 / (2 * rate_const) = 0.5 Final result: 0.5",
-          "answer": "0.5"
-        },
-        {
-          "question": "Using Half Life of a Zero Order Reaction, compute the result for conc0 = 4, rate_const = 4.",
-          "solution": "Step 1: Set the remaining concentration to half the start and solve for time: t_half = conc0 / (2 * rate_const) = 0.5 Final result: 0.5",
-          "answer": "0.5"
-        }
-      ]
-    },
-    {
-      "id": "lech.03.3.3.3",
-      "title": "First Order Rate Constant from Concentration Data",
-      "section": "3.3.2",
-      "definition": "For a reaction pacing itself by the first power of concentration, the rate constant follows from the logarithm of the starting to remaining concentration ratio scaled by 2.303 over the elapsed time.",
-      "formula": "rate_const = 2.303 * log_ratio / time_elapsed",
-      "key_idea": "log_ratio is the base ten logarithm of starting over remaining concentration (Example: log of 6.2 near 0.793, so k comes to 0.0304 per minute); the same relation rearranged dates radioactive samples such as carbon fourteen artifacts.",
-      "textbook_ref": "lech103.txt, Section 3.3.2, equations 3.10, 3.15 and Example 3.5",
-      "question_patterns": [
-        "calculate the rate constant of a first order reaction from the initial and final concentrations and the time taken",
-        "find k for the N2O5 decomposition given its concentration falls from 1.24e-2 to 0.20e-2 mol per litre in 60 minutes",
-        "determine the first order rate constant using the 2.303 over t relation with the concentration ratio",
-        "estimate the age of a wood artifact from the fraction of carbon fourteen still present using first order kinetics",
-        "how long will a first order reaction take for 5 g of reactant to fall to 3 g given its rate constant",
-        "work out k when a reactant needs the stated time to drop to a stated fraction of its start"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Take the base ten logarithm of starting over remaining concentration",
-          "explain": "For the N2O5 case the ratio is 6.2 and its logarithm is 0.793.",
-          "compute": "log_ratio = log10_of_conc_ratio * 1.0"
-        },
-        {
-          "step": 2,
-          "action": "Scale by 2.303 over the elapsed time",
-          "explain": "2.303 times 0.793 over 60 minutes gives k near 0.0304 per minute.",
-          "compute": "rate_const = 2.303 * log_ratio / time_elapsed"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using First Order Rate Constant from Concentration Data, compute the result for log10_of_conc_ratio = 3, time_elapsed = 3.",
-          "solution": "Step 1: Take the base ten logarithm of starting over remaining concentration: log_ratio = log10_of_conc_ratio * 1.0 = 3.0 Step 2: Scale by 2.303 over the elapsed time: rate_const = 2.303 * log_ratio / time_elapsed = 2.303 Final result: 2.303",
-          "answer": "2.303"
-        },
-        {
-          "question": "Using First Order Rate Constant from Concentration Data, compute the result for log10_of_conc_ratio = 4, time_elapsed = 4.",
-          "solution": "Step 1: Take the base ten logarithm of starting over remaining concentration: log_ratio = log10_of_conc_ratio * 1.0 = 4.0 Step 2: Scale by 2.303 over the elapsed time: rate_const = 2.303 * log_ratio / time_elapsed = 2.303 Final result: 2.303",
-          "answer": "2.303"
-        }
-      ]
-    },
-    {
-      "id": "lech.03.3.3.4",
-      "title": "First Order Amount Remaining after Time t",
-      "section": "3.3.2",
-      "definition": "A first order mixture loses an equal fraction of what it has in every equal interval, so the surviving concentration decays exponentially and can be projected forward from k and t alone.",
-      "formula": "conc_left = conc0 * 10 ** ((0 - rate_const * time_elapsed) / 2.303)",
-      "key_idea": "Exponential decay rearranged with base ten: multiply the starting amount by ten to the minus kt over 2.303; radioactive decays and hydrogenations follow this law.",
-      "textbook_ref": "lech103.txt, Section 3.3.2, equation 3.14 and Exercises on remaining fraction",
-      "question_patterns": [
-        "calculate the concentration of A remaining after 100 seconds when k is 0.02 per second and the start is 1.0 M",
-        "find what fraction of a sucrose sample survives 8 hours given a half life of 3 hours",
-        "determine how much of a first order reactant is left after the stated time",
-        "what mass of a radioactive isotope remains after the given number of years",
-        "compute the remaining amount for exponential decay with the stated rate constant and duration",
-        "project the concentration of a first order reactant forward in time from its rate constant"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Build the negative exponent from k and t",
-          "explain": "The decay argument is minus k times t; dividing by 2.303 converts it to a base ten exponent.",
-          "compute": "decay_exponent = (0 - rate_const * time_elapsed) / 2.303"
-        },
-        {
-          "step": 2,
-          "action": "Scale the starting concentration by ten to that exponent",
-          "explain": "With k = 0.02 per second and t = 100 s, ten to the minus 0.868 leaves about 0.136 M.",
-          "compute": "conc_left = conc0 * 10 ** decay_exponent"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using First Order Amount Remaining after Time t, compute the result for rate_const = 3, time_elapsed = 3, conc0 = 3.",
-          "solution": "Step 1: Build the negative exponent from k and t: decay_exponent = (0 - rate_const * time_elapsed) / 2.303 = -3.907946 Step 2: Scale the starting concentration by ten to that exponent: conc_left = conc0 * 10 ** decay_exponent = 0.000371 Final result: 0.000371",
-          "answer": "0.000371"
-        },
-        {
-          "question": "Using First Order Amount Remaining after Time t, compute the result for rate_const = 4, time_elapsed = 4, conc0 = 4.",
-          "solution": "Step 1: Build the negative exponent from k and t: decay_exponent = (0 - rate_const * time_elapsed) / 2.303 = -6.94746 Step 2: Scale the starting concentration by ten to that exponent: conc_left = conc0 * 10 ** decay_exponent = 0.0 Final result: 0.0",
-          "answer": "0.0"
-        }
-      ]
-    },
-    {
-      "id": "lech.03.3.3.5",
-      "title": "Half Life of a First Order Reaction",
-      "section": "3.3.3",
-      "definition": "The halving time of a first order process depends only on its rate constant, so every successive halving takes equally long no matter how dilute the mixture has become.",
-      "formula": "t_half = 0.693 / rate_const",
-      "key_idea": "Inserting half the starting concentration into the first order law gives 0.693 over k; a k of 5.5e-14 per second therefore means a half life near 1.26e13 seconds, and the 99.9 percent completion time is exactly ten half lives.",
-      "textbook_ref": "lech103.txt, Section 3.3.3 first order case, equation 3.17 and Example 3.7",
-      "question_patterns": [
-        "calculate the half life of a first order reaction with rate constant 200 per second",
-        "find t half from the first order rate constant of 2 per minute",
-        "determine the half life period of a radioactive decay whose rate constant is given",
-        "what is the half life when k equals 4 per year for a first order process",
-        "compute the halving time from 0.693 divided by the rate constant",
-        "how is the half life of a first order reaction related to and independent of starting concentration"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Divide 0.693 by the rate constant",
-          "explain": "0.693 over 5.5e-14 per second gives about 1.26e13 seconds; the constant works in any time unit matching k.",
-          "compute": "t_half = 0.693 / rate_const"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Half Life of a First Order Reaction, compute the result for rate_const = 3.",
-          "solution": "Step 1: Divide 0.693 by the rate constant: t_half = 0.693 / rate_const = 0.231 Final result: 0.231",
-          "answer": "0.231"
-        },
-        {
-          "question": "Using Half Life of a First Order Reaction, compute the result for rate_const = 4.",
-          "solution": "Step 1: Divide 0.693 by the rate constant: t_half = 0.693 / rate_const = 0.17325 Final result: 0.17325",
-          "answer": "0.17325"
-        }
-      ]
-    },
-    {
-      "id": "lech.03.3.4.1",
-      "title": "Activation Energy from Rate Constants at Two Temperatures",
-      "section": "3.4",
-      "definition": "Comparing a reaction's speed at two temperatures through the Arrhenius relation exposes the energy barrier: the steeper the rate climbs between the two temperatures, the taller the barrier.",
-      "formula": "ea_j = 2.303 * gas_const * t1 * t2 * log_ratio / max(t2 - t1, 0.001)",
-      "key_idea": "log_ratio is the base ten logarithm of the ratio of the two rate constants; with k rising from 0.02 to 0.07 per second between 500 K and 700 K the barrier works out near 18.2 kJ per mol, and a rate doubling over ten degrees implies about 52.9 kJ per mol.",
-      "textbook_ref": "lech103.txt, Section 3.4, equation 3.22 and Examples 3.9, Intext 3.8",
-      "question_patterns": [
-        "calculate the activation energy when the rate constant rises from 0.02 to 0.07 per second between 500 K and 700 K",
-        "find Ea for a reaction whose rate doubles on heating from 298 K to 308 K",
-        "determine the energy of activation from the rate constants measured at two temperatures",
-        "what activation energy corresponds to a rate quadrupling between 293 K and 313 K",
-        "use the two temperature Arrhenius relation to evaluate the barrier height in joules per mole",
-        "compute Ea from the logarithm of the rate constant ratio at two kelvin temperatures"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Take the base ten logarithm of the rate constant ratio",
-          "explain": "Log of 0.07 over 0.02 is about 0.544 for the 500 K to 700 K case.",
-          "compute": "log_ratio = log10_of_k_ratio * 1.0"
-        },
-        {
-          "step": 2,
-          "action": "Scale through the Arrhenius two temperature factor",
-          "explain": "2.303 times 8.314 times 500 times 700, times 0.544, divided by 200 gives about 18231 J per mol.",
-          "compute": "ea_j = 2.303 * gas_const * t1 * t2 * log_ratio / max(t2 - t1, 0.001)"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Activation Energy from Rate Constants at Two Temperatures, compute the result for log10_of_k_ratio = 3, gas_const = 3, t1 = 3, t2 = 2.",
-          "solution": "Step 1: Take the base ten logarithm of the rate constant ratio: log_ratio = log10_of_k_ratio * 1.0 = 3.0 Step 2: Scale through the Arrhenius two temperature factor: ea_j = 2.303 * gas_const * t1 * t2 * log_ratio / max(t2 - t1, 0.001) = 124362.0 Final result: 124362.0",
-          "answer": "124362.0"
-        },
-        {
-          "question": "Using Activation Energy from Rate Constants at Two Temperatures, compute the result for log10_of_k_ratio = 4, gas_const = 4, t1 = 4, t2 = 3.",
-          "solution": "Step 1: Take the base ten logarithm of the rate constant ratio: log_ratio = log10_of_k_ratio * 1.0 = 4.0 Step 2: Scale through the Arrhenius two temperature factor: ea_j = 2.303 * gas_const * t1 * t2 * log_ratio / max(t2 - t1, 0.001) = 442176.0 Final result: 442176.0",
-          "answer": "442176.0"
-        }
-      ]
-    },
-    {
-      "id": "lech.03.3.4.2",
-      "title": "Rate Constant at a New Temperature",
-      "section": "3.4",
-      "definition": "Once a reaction's activation barrier and its rate constant at one temperature are known, Arrhenius arithmetic projects the constant to any other temperature.",
-      "formula": "k_new = 10 ** (log_k1 + ea_j * (t2 - t1) / (2.303 * gas_const * t1 * t2))",
-      "key_idea": "Add the barrier term to the logarithm of the known constant, then antilog: ethyl iodide decomposing with k = 1.6e-5 per second at 600 K and a 209 kJ per mol barrier reaches about 6.36e-3 per second at 700 K.",
-      "textbook_ref": "lech103.txt, Section 3.4, equations 3.20-3.22 and Example 3.10",
-      "question_patterns": [
-        "calculate the rate constant at 700 K given k at 600 K and the activation energy",
-        "find the new rate constant after raising the temperature, from Ea and a known k",
-        "determine k2 for the first order decomposition of ethyl iodide at the higher temperature",
-        "what does the rate constant become when the temperature changes and the barrier is known",
-        "use Arrhenius equation in logarithmic form to shift a rate constant to a new temperature",
-        "predict the reaction speed constant at a target temperature from an earlier measurement"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Carry the logarithm of the known constant to the new temperature",
-          "explain": "Log k1 plus the barrier term Ea times the temperature gap over 2.303 R t1 t2 builds log k2; for the ethyl iodide case minus 4.796 plus 2.599 leaves minus 2.197.",
-          "compute": "log_k2 = log_k1 + ea_j * (t2 - t1) / (2.303 * gas_const * t1 * t2)"
-        },
-        {
-          "step": 2,
-          "action": "Take the antilog to return to the rate constant",
-          "explain": "Ten to the minus 2.197 gives about 6.36e-3 per second at 700 K.",
-          "compute": "k_new = 10 ** log_k2"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Rate Constant at a New Temperature, compute the result for log_k1 = 3, ea_j = 3, t2 = 3, t1 = 2, gas_const = 2.",
-          "solution": "Step 1: Carry the logarithm of the known constant to the new temperature: log_k2 = log_k1 + ea_j * (t2 - t1) / (2.303 * gas_const * t1 * t2) = 3.108554 Step 2: Take the antilog to return to the rate constant: k_new = 10 ** log_k2 = 1283.967586 Final result: 1283.967586",
-          "answer": "1283.967586"
-        },
-        {
-          "question": "Using Rate Constant at a New Temperature, compute the result for log_k1 = 4, ea_j = 4, t2 = 4, t1 = 3, gas_const = 3.",
-          "solution": "Step 1: Carry the logarithm of the known constant to the new temperature: log_k2 = log_k1 + ea_j * (t2 - t1) / (2.303 * gas_const * t1 * t2) = 4.048246 Step 2: Take the antilog to return to the rate constant: k_new = 10 ** log_k2 = 11174.966988 Final result: 11174.966988",
-          "answer": "11174.966988"
-        }
-      ]
-    },
-    {
-      "id": "lech.03.3.4.3",
-      "title": "Effect of a Catalyst on Reaction Rate",
-      "section": "3.4.1",
-      "definition": "A catalyst speeds a reaction by opening a lower barrier route through a temporary intermediate complex, without being consumed and without moving the position of equilibrium.",
-      "formula": "catalyst effect = lower activation energy, same Gibbs energy and same equilibrium constant",
-      "key_idea": "A smaller barrier puts exponentially more molecules over the top, so the rate rises; the catalyst speeds forward and reverse changes equally, helping equilibrium arrive sooner but leaving it where it was, while an inhibitor slows a reaction instead.",
-      "textbook_ref": "lech103.txt, Section 3.4.1 and Fig. 3.11 (catalyst and activation energy)",
-      "question_patterns": [
-        "explain how a catalyst increases the rate of a reaction using the intermediate complex idea",
-        "why does a catalyst not change the equilibrium constant of a reaction",
-        "state the effect of a catalyst on activation energy and on Gibbs energy of the reaction",
-        "distinguish a catalyst from an inhibitor in terms of reaction speed",
-        "does a catalyst alter the position of equilibrium, justify with the forward and reverse rates",
-        "describe the alternate pathway a catalyst offers between reactants and products"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Identify the barrier lowering mechanism",
-          "explain": "The catalyst forms a transient complex with reactants and decomposes to products plus itself."
-        },
-        {
-          "step": 2,
-          "action": "Check thermodynamic quantities stay fixed",
-          "explain": "Gibbs energy change and equilibrium constant are untouched; only the route and its barrier change."
-        },
-        {
-          "step": 3,
-          "action": "State the kinetic consequence",
-          "explain": "Lower Ea raises the fraction of effective collisions exponentially, so both directions speed up equally."
-        }
-      ]
-    },
-    {
-      "id": "lech.03.3.5.1",
-      "title": "Collision Theory of Reaction Rates",
-      "section": "3.5",
-      "definition": "Reactant molecules are treated as hard spheres that must crash into one another with at least the barrier energy and with the right spatial alignment; only such effective collisions deliver product.",
-      "formula": "rate = steric_factor * collision_frequency * exp(-Ea / RT)",
-      "key_idea": "Collision frequency Z counts hits per second per unit volume, the exponential counts molecules carrying barrier energy or more, and the steric factor P folds in orientation; together they explain why energy alone does not guarantee reaction.",
-      "textbook_ref": "lech103.txt, Section 3.5, equation 3.23 and Fig. 3.12 (orientation)",
-      "question_patterns": [
-        "explain the collision theory criteria for an effective collision",
-        "what roles do collision frequency and activation energy play in collision theory",
-        "why is a steric factor introduced into the collision theory rate expression",
-        "distinguish effective collisions from unsuccessful ones using energy and orientation",
-        "state the rate expression for a bimolecular reaction according to collision theory",
-        "why do complex molecules deviate from the rates predicted by simple collision counting"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Count the collision supply",
-          "explain": "Collision frequency Z sets how often molecules meet per second per unit volume."
-        },
-        {
-          "step": 2,
-          "action": "Filter by energy",
-          "explain": "Only the fraction carrying energy at or above Ea can cross the barrier, given by the exponential factor."
-        },
-        {
-          "step": 3,
-          "action": "Filter by alignment and write the rate",
-          "explain": "The steric factor P accounts for orientation, giving rate = P Z exp minus Ea over RT."
-        }
-      ]
+     "step": 2,
+     "action": "Divide by the elapsed time and adjust for stoichiometry",
+     "explain": "Divide by the 184 minutes, then by the coefficient 2 for N2O5 (or multiply by 4 to quote NO2 formation).",
+     "compute": "avg_rate = delta_conc / time_interval"
     }
-  ],
-  "worked_examples": [
+   ],
+   "worked_examples": [
     {
-      "question": "A reactant's concentration drops from 0.03 M to 0.02 M in 25 minutes. Find the average rate in per minute and per second units.",
-      "solution": "0.01 M over 25 min gives 4.0e-4 mol per litre per minute; dividing by 60 converts to per second.",
-      "answer": "6.66e-6 mol per litre per second"
+     "question": "Using Average Rate of a Reaction, compute the result for conc_start = 3, conc_end = 3, time_interval = 3.",
+     "solution": "Step 1: Take the drop in reactant concentration over the interval: delta_conc = conc_start - conc_end = 0.0 Step 2: Divide by the elapsed time and adjust for stoichiometry: avg_rate = delta_conc / time_interval = 0.0 Final result: 0.0",
+     "answer": "0.0"
     },
     {
-      "question": "N2O5 falls from 1.24e-2 to 0.20e-2 mol per litre in 60 minutes by a first order path. Find k.",
-      "solution": "log of 6.2 is 0.793; k = 2.303 times 0.793 over 60.",
-      "answer": "0.0304 per minute"
-    },
-    {
-      "question": "A first order reaction has k = 5.5e-14 per second. Find its half life.",
-      "solution": "t half = 0.693 divided by 5.5e-14.",
-      "answer": "about 1.26e13 seconds"
-    },
-    {
-      "question": "Rate constants are 0.02 and 0.07 per second at 500 K and 700 K. Find the activation energy.",
-      "solution": "log of the ratio is 0.544; Ea = 2.303 times 8.314 times 500 times 700 times 0.544 over 200.",
-      "answer": "about 18.2 kJ per mol"
+     "question": "Using Average Rate of a Reaction, compute the result for conc_start = 4, conc_end = 4, time_interval = 4.",
+     "solution": "Step 1: Take the drop in reactant concentration over the interval: delta_conc = conc_start - conc_end = 0.0 Step 2: Divide by the elapsed time and adjust for stoichiometry: avg_rate = delta_conc / time_interval = 0.0 Final result: 0.0",
+     "answer": "0.0"
     }
-  ],
-  "exercises": [
+   ],
+   "compute_steps": [
     {
-      "id": "lech103_ex1",
-      "source_ref": "lech103.txt Exercises 3.1-3.2",
-      "questions": [
-        "From each rate expression, state the reaction order and the units of the rate constant, for example Rate = k[NO] squared.",
-        "For 2A + B with rate = k[A][B] squared and k = 2.0e-6 mol-2 L2 s-1, find the initial rate at A = 0.1 and B = 0.2 mol per litre, and again after A falls to 0.06."
-      ]
-    },
-    {
-      "id": "lech103_ex2",
-      "source_ref": "lech103.txt Exercises 3.9 and 3.13",
-      "questions": [
-        "A reaction is first order in A and second order in B: write the rate equation and predict the effect of tripling B.",
-        "Calculate the half life of first order reactions with k = 200 per second, 2 per minute and 4 per year."
-      ]
-    },
-    {
-      "id": "lech103_ex3",
-      "source_ref": "lech103.txt Exercises 3.14 and 3.16",
-      "questions": [
-        "Carbon fourteen has a half life of 5730 years; a wooden artifact holds only 80 percent of the living level. Estimate its age.",
-        "A first order reaction has k = 60 per second. How long until the concentration falls to one sixteenth of its start?"
-      ]
-    },
-    {
-      "id": "lech103_ex4",
-      "source_ref": "lech103.txt Exercises 3.19, 3.24 and 3.30",
-      "questions": [
-        "A first order reaction takes 40 minutes for 30 percent decomposition. Find its half life.",
-        "For A giving products with k = 2.0e-2 per second and a starting concentration of 1.0 M, how much A survives 100 seconds?",
-        "The rate quadruples between 293 K and 313 K. Calculate the activation energy."
-      ]
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "avg_rate = (conc_start - conc_end) / time_interval",
+     "compute": "avg_rate = (conc_start - conc_end) / time_interval"
     }
-  ]
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.03.3.2.1",
+   "title": "Rate Law and Rate Constant",
+   "section": "3.2.2",
+   "definition": "An experimentally found statement that ties the reaction speed to reactant concentrations raised to powers that need not match the balanced equation, with the proportionality factor called the rate constant.",
+   "formula": "rate = rate_const * conc_a ** order_a * conc_b ** order_b",
+   "key_idea": "The exponents come from experiment, never from the equation's coefficients; k absorbs everything except concentration and carries units that reveal the overall order.",
+   "textbook_ref": "lech103.txt, Section 3.2.2, equations 3.4-3.4b and Table 3.2",
+   "question_patterns": [
+    "calculate the initial rate when k is 2.0e-6 and the concentrations of A and B are 0.1 and 0.2 mol per litre",
+    "find the reaction rate from the rate law with the given k and reactant concentrations",
+    "determine the rate constant units for a reaction that is first order in A and second order in B",
+    "write the differential rate equation for a reaction first order in A and second order in B",
+    "what happens to the rate when the concentration of a reactant participating to the second power is tripled",
+    "evaluate the rate expression k times the concentration powers for the stated experiment"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Raise each reactant concentration to its experimental power",
+     "explain": "For rate = k[A][B] squared, the B factor is 0.2 squared, that is 0.04.",
+     "compute": "concentration_term = conc_a ** order_a"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the terms together with the rate constant",
+     "explain": "2.0e-6 times 0.1 times 0.04 gives 8.0e-9 mol per litre per second.",
+     "compute": "rate = rate_const * concentration_term * conc_b ** order_b"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Rate Law and Rate Constant, compute the result for conc_a = 3, order_a = 3, rate_const = 3, conc_b = 2, order_b = 2.",
+     "solution": "Step 1: Raise each reactant concentration to its experimental power: concentration_term = conc_a ** order_a = 27.0 Step 2: Multiply the terms together with the rate constant: rate = rate_const * concentration_term * conc_b ** order_b = 324.0 Final result: 324.0",
+     "answer": "324.0"
+    },
+    {
+     "question": "Using Rate Law and Rate Constant, compute the result for conc_a = 4, order_a = 4, rate_const = 4, conc_b = 3, order_b = 3.",
+     "solution": "Step 1: Raise each reactant concentration to its experimental power: concentration_term = conc_a ** order_a = 256.0 Step 2: Multiply the terms together with the rate constant: rate = rate_const * concentration_term * conc_b ** order_b = 27648.0 Final result: 27648.0",
+     "answer": "27648.0"
+    }
+   ]
+  },
+  {
+   "id": "lech.03.3.2.2",
+   "title": "Order of a Reaction",
+   "section": "3.2.3",
+   "definition": "The total of the concentration exponents in the experimentally determined rate law; it states how sharply the speed answers to concentration and may be zero, whole or fractional.",
+   "formula": "order_total = order_a + order_b",
+   "key_idea": "Add the powers for all reactants to name the overall order; the units of k mirror it, so an s-1 rate constant betrays first order and L per mol per s betrays second.",
+   "textbook_ref": "lech103.txt, Section 3.2.3, Table 3.3 and Example 3.3",
+   "question_patterns": [
+    "find the overall order for the rate law r equals k times A to the half power times B squared",
+    "determine the order of a reaction whose rate expression is k times A to the power three halves times B to the minus one",
+    "what is the overall order when the exponents of A and B in the rate law are given",
+    "identify the reaction order from the units of the rate constant such as L per mol per second",
+    "state the order with respect to each reactant and the total order from an experimental rate law",
+    "work out the total exponent sum for a rate equation with fractional powers"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add the exponents of all reactant concentration terms",
+     "explain": "One half plus three halves gives 2, a second order reaction; three halves plus minus one gives one half, a half order reaction.",
+     "compute": "order_total = order_a + order_b"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Order of a Reaction, compute the result for order_a = 3, order_b = 3.",
+     "solution": "Step 1: Add the exponents of all reactant concentration terms: order_total = order_a + order_b = 6.0 Final result: 6.0",
+     "answer": "6.0"
+    },
+    {
+     "question": "Using Order of a Reaction, compute the result for order_a = 4, order_b = 4.",
+     "solution": "Step 1: Add the exponents of all reactant concentration terms: order_total = order_a + order_b = 8.0 Final result: 8.0",
+     "answer": "8.0"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "order_total = order_a + order_b",
+     "compute": "order_total = order_a + order_b"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.03.3.2.3",
+   "title": "Molecularity versus Order, Elementary and Complex Reactions",
+   "section": "3.2.4",
+   "definition": "Molecularity counts the species that must collide together in one elementary step, while order is the measured exponent sum for the whole reaction; complex reactions proceed through several steps and take their pace from the slowest one.",
+   "formula": "contrast = molecularity (elementary steps only) versus order (experimental, whole reaction)",
+   "key_idea": "Order can be zero, fractional or negative and applies to any reaction; molecularity is always a small positive whole number meaningful only for single steps, and the rate deciding step is the slowest one.",
+   "textbook_ref": "lech103.txt, Sections 3.2.4 and rate determining step discussion (H2O2 + I- example)",
+   "question_patterns": [
+    "differentiate between molecularity and order of a reaction with their allowed values",
+    "why does a reaction that looks tenth order from its equation actually run second order",
+    "identify the rate determining step and the intermediate in the iodide catalysed peroxide decomposition",
+    "classify a one step reaction and a multi step reaction as elementary or complex",
+    "state which of molecularity or order applies only to elementary reactions",
+    "explain why the molecularity of a complex reaction has no meaning for the overall process"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Decide whether the reaction is one step or a sequence",
+     "explain": "One step means elementary; a sequence with intermediates means complex."
+    },
+    {
+     "step": 2,
+     "action": "Assign molecularity only to elementary steps",
+     "explain": "Count colliding species: one for unimolecular, two for bimolecular, rarely three."
+    },
+    {
+     "step": 3,
+     "action": "Take the overall order from experiment or from the slowest step",
+     "explain": "Order is experimental; for a complex reaction the slow step's molecularity equals the overall order."
+    }
+   ]
+  },
+  {
+   "id": "lech.03.3.3.1",
+   "title": "Zero Order Integrated Rate Equation",
+   "section": "3.3.1",
+   "definition": "When speed ignores reactant concentration entirely, as in ammonia breaking down on hot platinum or enzyme driven processes, concentration falls in a straight line with time at a pace set only by k.",
+   "formula": "conc_left = conc_0 - rate_const * time_elapsed",
+   "key_idea": "A concentration versus time plot is a straight line whose slope is minus k; rearranged, k equals the concentration drop divided by the time, and surface saturation is what makes the rate concentration independent.",
+   "textbook_ref": "lech103.txt, Section 3.3.1, equations 3.5-3.7 and ammonia on platinum example",
+   "question_patterns": [
+    "find the concentration of reactant left after 100 seconds in a zero order reaction with k given",
+    "calculate the rate constant of a zero order reaction from the fall in concentration over a known time",
+    "determine how long a zero order process needs to consume a stated fraction of the starting material",
+    "what concentration remains when a surface catalysed zero order reaction runs for a given time",
+    "predict the remaining concentration for a reaction whose speed is independent of concentration",
+    "how much ammonia decomposes on the platinum surface after the stated duration"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply the constant rate by the elapsed time",
+     "explain": "The consumed amount is k times t for a zero order process.",
+     "compute": "conc_used = rate_const * time_elapsed"
+    },
+    {
+     "step": 2,
+     "action": "Subtract the consumed amount from the starting concentration",
+     "explain": "Starting amount minus the used portion leaves the concentration still present.",
+     "compute": "conc_left = conc0 - conc_used"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Zero Order Integrated Rate Equation, compute the result for rate_const = 3, time_elapsed = 3, conc0 = 3.",
+     "solution": "Step 1: Multiply the constant rate by the elapsed time: conc_used = rate_const * time_elapsed = 9.0 Step 2: Subtract the consumed amount from the starting concentration: conc_left = conc0 - conc_used = -6.0 Final result: -6.0",
+     "answer": "-6.0"
+    },
+    {
+     "question": "Using Zero Order Integrated Rate Equation, compute the result for rate_const = 4, time_elapsed = 4, conc0 = 4.",
+     "solution": "Step 1: Multiply the constant rate by the elapsed time: conc_used = rate_const * time_elapsed = 16.0 Step 2: Subtract the consumed amount from the starting concentration: conc_left = conc0 - conc_used = -12.0 Final result: -12.0",
+     "answer": "-12.0"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "conc_left = conc_0 - rate_const * time_elapsed",
+     "compute": "conc_left = conc_0 - rate_const * time_elapsed"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.03.3.3.2",
+   "title": "Half Life of a Zero Order Reaction",
+   "section": "3.3.3",
+   "definition": "The time a concentration independent reaction needs to halve its starting concentration; unlike first order cases it stretches in proportion to how concentrated the starting mixture was.",
+   "formula": "t_half = conc_0 / (2 * rate_const)",
+   "key_idea": "Setting the remaining concentration to half the starting value in the zero order law gives t one half equal to concentration divided by twice k, so a stronger starting mixture lasts longer.",
+   "textbook_ref": "lech103.txt, Section 3.3.3 zero order case",
+   "question_patterns": [
+    "calculate the half life of a zero order reaction with initial concentration 0.5 M and k 0.001 mol per litre per second",
+    "find t half for a concentration independent reaction from its starting concentration and rate constant",
+    "determine how long a zero order reaction takes to fall to half its initial concentration",
+    "what is the half life period of a surface catalysed reaction that ignores concentration",
+    "compare the half life behaviour of zero order and first order reactions with concentration",
+    "compute the time to reach half the starting concentration when the rate stays constant"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Set the remaining concentration to half the start and solve for time",
+     "explain": "k times t half equals half the starting concentration, so t half equals conc0 over 2k.",
+     "compute": "t_half = conc0 / (2 * rate_const)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Half Life of a Zero Order Reaction, compute the result for conc0 = 3, rate_const = 3.",
+     "solution": "Step 1: Set the remaining concentration to half the start and solve for time: t_half = conc0 / (2 * rate_const) = 0.5 Final result: 0.5",
+     "answer": "0.5"
+    },
+    {
+     "question": "Using Half Life of a Zero Order Reaction, compute the result for conc0 = 4, rate_const = 4.",
+     "solution": "Step 1: Set the remaining concentration to half the start and solve for time: t_half = conc0 / (2 * rate_const) = 0.5 Final result: 0.5",
+     "answer": "0.5"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "t_half = conc_0 / (2 * rate_const)",
+     "compute": "t_half = conc_0 / (2 * rate_const)"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.03.3.3.3",
+   "title": "First Order Rate Constant from Concentration Data",
+   "section": "3.3.2",
+   "definition": "For a reaction pacing itself by the first power of concentration, the rate constant follows from the logarithm of the starting to remaining concentration ratio scaled by 2.303 over the elapsed time.",
+   "formula": "rate_const = 2.303 * log_ratio / time_elapsed",
+   "key_idea": "log_ratio is the base ten logarithm of starting over remaining concentration (Example: log of 6.2 near 0.793, so k comes to 0.0304 per minute); the same relation rearranged dates radioactive samples such as carbon fourteen artifacts.",
+   "textbook_ref": "lech103.txt, Section 3.3.2, equations 3.10, 3.15 and Example 3.5",
+   "question_patterns": [
+    "calculate the rate constant of a first order reaction from the initial and final concentrations and the time taken",
+    "find k for the N2O5 decomposition given its concentration falls from 1.24e-2 to 0.20e-2 mol per litre in 60 minutes",
+    "determine the first order rate constant using the 2.303 over t relation with the concentration ratio",
+    "estimate the age of a wood artifact from the fraction of carbon fourteen still present using first order kinetics",
+    "how long will a first order reaction take for 5 g of reactant to fall to 3 g given its rate constant",
+    "work out k when a reactant needs the stated time to drop to a stated fraction of its start"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Take the base ten logarithm of starting over remaining concentration",
+     "explain": "For the N2O5 case the ratio is 6.2 and its logarithm is 0.793.",
+     "compute": "log_ratio = log10_of_conc_ratio * 1.0"
+    },
+    {
+     "step": 2,
+     "action": "Scale by 2.303 over the elapsed time",
+     "explain": "2.303 times 0.793 over 60 minutes gives k near 0.0304 per minute.",
+     "compute": "rate_const = 2.303 * log_ratio / time_elapsed"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using First Order Rate Constant from Concentration Data, compute the result for log10_of_conc_ratio = 3, time_elapsed = 3.",
+     "solution": "Step 1: Take the base ten logarithm of starting over remaining concentration: log_ratio = log10_of_conc_ratio * 1.0 = 3.0 Step 2: Scale by 2.303 over the elapsed time: rate_const = 2.303 * log_ratio / time_elapsed = 2.303 Final result: 2.303",
+     "answer": "2.303"
+    },
+    {
+     "question": "Using First Order Rate Constant from Concentration Data, compute the result for log10_of_conc_ratio = 4, time_elapsed = 4.",
+     "solution": "Step 1: Take the base ten logarithm of starting over remaining concentration: log_ratio = log10_of_conc_ratio * 1.0 = 4.0 Step 2: Scale by 2.303 over the elapsed time: rate_const = 2.303 * log_ratio / time_elapsed = 2.303 Final result: 2.303",
+     "answer": "2.303"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rate_const = 2.303 * log_ratio / time_elapsed",
+     "compute": "rate_const = 2.303 * log_ratio / time_elapsed"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.03.3.3.4",
+   "title": "First Order Amount Remaining after Time t",
+   "section": "3.3.2",
+   "definition": "A first order mixture loses an equal fraction of what it has in every equal interval, so the surviving concentration decays exponentially and can be projected forward from k and t alone.",
+   "formula": "conc_left = conc_0 * 10 ** ((0 - rate_const * time_elapsed) / 2.303)",
+   "key_idea": "Exponential decay rearranged with base ten: multiply the starting amount by ten to the minus kt over 2.303; radioactive decays and hydrogenations follow this law.",
+   "textbook_ref": "lech103.txt, Section 3.3.2, equation 3.14 and Exercises on remaining fraction",
+   "question_patterns": [
+    "calculate the concentration of A remaining after 100 seconds when k is 0.02 per second and the start is 1.0 M",
+    "find what fraction of a sucrose sample survives 8 hours given a half life of 3 hours",
+    "determine how much of a first order reactant is left after the stated time",
+    "what mass of a radioactive isotope remains after the given number of years",
+    "compute the remaining amount for exponential decay with the stated rate constant and duration",
+    "project the concentration of a first order reactant forward in time from its rate constant"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Build the negative exponent from k and t",
+     "explain": "The decay argument is minus k times t; dividing by 2.303 converts it to a base ten exponent.",
+     "compute": "decay_exponent = (0 - rate_const * time_elapsed) / 2.303"
+    },
+    {
+     "step": 2,
+     "action": "Scale the starting concentration by ten to that exponent",
+     "explain": "With k = 0.02 per second and t = 100 s, ten to the minus 0.868 leaves about 0.136 M.",
+     "compute": "conc_left = conc0 * 10 ** decay_exponent"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using First Order Amount Remaining after Time t, compute the result for rate_const = 3, time_elapsed = 3, conc0 = 3.",
+     "solution": "Step 1: Build the negative exponent from k and t: decay_exponent = (0 - rate_const * time_elapsed) / 2.303 = -3.907946 Step 2: Scale the starting concentration by ten to that exponent: conc_left = conc0 * 10 ** decay_exponent = 0.000371 Final result: 0.000371",
+     "answer": "0.000371"
+    },
+    {
+     "question": "Using First Order Amount Remaining after Time t, compute the result for rate_const = 4, time_elapsed = 4, conc0 = 4.",
+     "solution": "Step 1: Build the negative exponent from k and t: decay_exponent = (0 - rate_const * time_elapsed) / 2.303 = -6.94746 Step 2: Scale the starting concentration by ten to that exponent: conc_left = conc0 * 10 ** decay_exponent = 0.0 Final result: 0.0",
+     "answer": "0.0"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "conc_left = conc_0 * 10 ** ((0 - rate_const * time_elapsed) / 2.303)",
+     "compute": "conc_left = conc_0 * 10 ** ((0 - rate_const * time_elapsed) / 2.303)"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.03.3.3.5",
+   "title": "Half Life of a First Order Reaction",
+   "section": "3.3.3",
+   "definition": "The halving time of a first order process depends only on its rate constant, so every successive halving takes equally long no matter how dilute the mixture has become.",
+   "formula": "t_half = 0.693 / rate_const",
+   "key_idea": "Inserting half the starting concentration into the first order law gives 0.693 over k; a k of 5.5e-14 per second therefore means a half life near 1.26e13 seconds, and the 99.9 percent completion time is exactly ten half lives.",
+   "textbook_ref": "lech103.txt, Section 3.3.3 first order case, equation 3.17 and Example 3.7",
+   "question_patterns": [
+    "calculate the half life of a first order reaction with rate constant 200 per second",
+    "find t half from the first order rate constant of 2 per minute",
+    "determine the half life period of a radioactive decay whose rate constant is given",
+    "what is the half life when k equals 4 per year for a first order process",
+    "compute the halving time from 0.693 divided by the rate constant",
+    "how is the half life of a first order reaction related to and independent of starting concentration"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide 0.693 by the rate constant",
+     "explain": "0.693 over 5.5e-14 per second gives about 1.26e13 seconds; the constant works in any time unit matching k.",
+     "compute": "t_half = 0.693 / rate_const"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Half Life of a First Order Reaction, compute the result for rate_const = 3.",
+     "solution": "Step 1: Divide 0.693 by the rate constant: t_half = 0.693 / rate_const = 0.231 Final result: 0.231",
+     "answer": "0.231"
+    },
+    {
+     "question": "Using Half Life of a First Order Reaction, compute the result for rate_const = 4.",
+     "solution": "Step 1: Divide 0.693 by the rate constant: t_half = 0.693 / rate_const = 0.17325 Final result: 0.17325",
+     "answer": "0.17325"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "t_half = 0.693 / rate_const",
+     "compute": "t_half = 0.693 / rate_const"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.03.3.4.1",
+   "title": "Activation Energy from Rate Constants at Two Temperatures",
+   "section": "3.4",
+   "definition": "Comparing a reaction's speed at two temperatures through the Arrhenius relation exposes the energy barrier: the steeper the rate climbs between the two temperatures, the taller the barrier.",
+   "formula": "ea_j = 2.303 * gas_const * t1 * t2 * log_ratio / max(t2 - t1, 0.001)",
+   "key_idea": "log_ratio is the base ten logarithm of the ratio of the two rate constants; with k rising from 0.02 to 0.07 per second between 500 K and 700 K the barrier works out near 18.2 kJ per mol, and a rate doubling over ten degrees implies about 52.9 kJ per mol.",
+   "textbook_ref": "lech103.txt, Section 3.4, equation 3.22 and Examples 3.9, Intext 3.8",
+   "question_patterns": [
+    "calculate the activation energy when the rate constant rises from 0.02 to 0.07 per second between 500 K and 700 K",
+    "find Ea for a reaction whose rate doubles on heating from 298 K to 308 K",
+    "determine the energy of activation from the rate constants measured at two temperatures",
+    "what activation energy corresponds to a rate quadrupling between 293 K and 313 K",
+    "use the two temperature Arrhenius relation to evaluate the barrier height in joules per mole",
+    "compute Ea from the logarithm of the rate constant ratio at two kelvin temperatures"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Take the base ten logarithm of the rate constant ratio",
+     "explain": "Log of 0.07 over 0.02 is about 0.544 for the 500 K to 700 K case.",
+     "compute": "log_ratio = log10_of_k_ratio * 1.0"
+    },
+    {
+     "step": 2,
+     "action": "Scale through the Arrhenius two temperature factor",
+     "explain": "2.303 times 8.314 times 500 times 700, times 0.544, divided by 200 gives about 18231 J per mol.",
+     "compute": "ea_j = 2.303 * gas_const * t1 * t2 * log_ratio / max(t2 - t1, 0.001)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Activation Energy from Rate Constants at Two Temperatures, compute the result for log10_of_k_ratio = 3, gas_const = 3, t1 = 3, t2 = 2.",
+     "solution": "Step 1: Take the base ten logarithm of the rate constant ratio: log_ratio = log10_of_k_ratio * 1.0 = 3.0 Step 2: Scale through the Arrhenius two temperature factor: ea_j = 2.303 * gas_const * t1 * t2 * log_ratio / max(t2 - t1, 0.001) = 124362.0 Final result: 124362.0",
+     "answer": "124362.0"
+    },
+    {
+     "question": "Using Activation Energy from Rate Constants at Two Temperatures, compute the result for log10_of_k_ratio = 4, gas_const = 4, t1 = 4, t2 = 3.",
+     "solution": "Step 1: Take the base ten logarithm of the rate constant ratio: log_ratio = log10_of_k_ratio * 1.0 = 4.0 Step 2: Scale through the Arrhenius two temperature factor: ea_j = 2.303 * gas_const * t1 * t2 * log_ratio / max(t2 - t1, 0.001) = 442176.0 Final result: 442176.0",
+     "answer": "442176.0"
+    }
+   ]
+  },
+  {
+   "id": "lech.03.3.4.2",
+   "title": "Rate Constant at a New Temperature",
+   "section": "3.4",
+   "definition": "Once a reaction's activation barrier and its rate constant at one temperature are known, Arrhenius arithmetic projects the constant to any other temperature.",
+   "formula": "k_new = 10 ** (log_k_1 + ea_j * (t_2 - t_1) / (2.303 * gas_const * t_1 * t_2))",
+   "key_idea": "Add the barrier term to the logarithm of the known constant, then antilog: ethyl iodide decomposing with k = 1.6e-5 per second at 600 K and a 209 kJ per mol barrier reaches about 6.36e-3 per second at 700 K.",
+   "textbook_ref": "lech103.txt, Section 3.4, equations 3.20-3.22 and Example 3.10",
+   "question_patterns": [
+    "calculate the rate constant at 700 K given k at 600 K and the activation energy",
+    "find the new rate constant after raising the temperature, from Ea and a known k",
+    "determine k2 for the first order decomposition of ethyl iodide at the higher temperature",
+    "what does the rate constant become when the temperature changes and the barrier is known",
+    "use Arrhenius equation in logarithmic form to shift a rate constant to a new temperature",
+    "predict the reaction speed constant at a target temperature from an earlier measurement"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Carry the logarithm of the known constant to the new temperature",
+     "explain": "Log k1 plus the barrier term Ea times the temperature gap over 2.303 R t1 t2 builds log k2; for the ethyl iodide case minus 4.796 plus 2.599 leaves minus 2.197.",
+     "compute": "log_k2 = log_k1 + ea_j * (t2 - t1) / (2.303 * gas_const * t1 * t2)"
+    },
+    {
+     "step": 2,
+     "action": "Take the antilog to return to the rate constant",
+     "explain": "Ten to the minus 2.197 gives about 6.36e-3 per second at 700 K.",
+     "compute": "k_new = 10 ** log_k2"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Rate Constant at a New Temperature, compute the result for log_k1 = 3, ea_j = 3, t2 = 3, t1 = 2, gas_const = 2.",
+     "solution": "Step 1: Carry the logarithm of the known constant to the new temperature: log_k2 = log_k1 + ea_j * (t2 - t1) / (2.303 * gas_const * t1 * t2) = 3.108554 Step 2: Take the antilog to return to the rate constant: k_new = 10 ** log_k2 = 1283.967586 Final result: 1283.967586",
+     "answer": "1283.967586"
+    },
+    {
+     "question": "Using Rate Constant at a New Temperature, compute the result for log_k1 = 4, ea_j = 4, t2 = 4, t1 = 3, gas_const = 3.",
+     "solution": "Step 1: Carry the logarithm of the known constant to the new temperature: log_k2 = log_k1 + ea_j * (t2 - t1) / (2.303 * gas_const * t1 * t2) = 4.048246 Step 2: Take the antilog to return to the rate constant: k_new = 10 ** log_k2 = 11174.966988 Final result: 11174.966988",
+     "answer": "11174.966988"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "k_new = 10 ** (log_k_1 + ea_j * (t_2 - t_1) / (2.303 * gas_const * t_1 * t_2))",
+     "compute": "k_new = 10 ** (log_k_1 + ea_j * (t_2 - t_1) / (2.303 * gas_const * t_1 * t_2))"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.03.3.4.3",
+   "title": "Effect of a Catalyst on Reaction Rate",
+   "section": "3.4.1",
+   "definition": "A catalyst speeds a reaction by opening a lower barrier route through a temporary intermediate complex, without being consumed and without moving the position of equilibrium.",
+   "formula": "catalyst effect = lower activation energy, same Gibbs energy and same equilibrium constant",
+   "key_idea": "A smaller barrier puts exponentially more molecules over the top, so the rate rises; the catalyst speeds forward and reverse changes equally, helping equilibrium arrive sooner but leaving it where it was, while an inhibitor slows a reaction instead.",
+   "textbook_ref": "lech103.txt, Section 3.4.1 and Fig. 3.11 (catalyst and activation energy)",
+   "question_patterns": [
+    "explain how a catalyst increases the rate of a reaction using the intermediate complex idea",
+    "why does a catalyst not change the equilibrium constant of a reaction",
+    "state the effect of a catalyst on activation energy and on Gibbs energy of the reaction",
+    "distinguish a catalyst from an inhibitor in terms of reaction speed",
+    "does a catalyst alter the position of equilibrium, justify with the forward and reverse rates",
+    "describe the alternate pathway a catalyst offers between reactants and products"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the barrier lowering mechanism",
+     "explain": "The catalyst forms a transient complex with reactants and decomposes to products plus itself."
+    },
+    {
+     "step": 2,
+     "action": "Check thermodynamic quantities stay fixed",
+     "explain": "Gibbs energy change and equilibrium constant are untouched; only the route and its barrier change."
+    },
+    {
+     "step": 3,
+     "action": "State the kinetic consequence",
+     "explain": "Lower Ea raises the fraction of effective collisions exponentially, so both directions speed up equally."
+    }
+   ]
+  },
+  {
+   "id": "lech.03.3.5.1",
+   "title": "Collision Theory of Reaction Rates",
+   "section": "3.5",
+   "definition": "Reactant molecules are treated as hard spheres that must crash into one another with at least the barrier energy and with the right spatial alignment; only such effective collisions deliver product.",
+   "formula": "rate = steric_factor * collision_frequency * exp(-Ea / RT)",
+   "key_idea": "Collision frequency Z counts hits per second per unit volume, the exponential counts molecules carrying barrier energy or more, and the steric factor P folds in orientation; together they explain why energy alone does not guarantee reaction.",
+   "textbook_ref": "lech103.txt, Section 3.5, equation 3.23 and Fig. 3.12 (orientation)",
+   "question_patterns": [
+    "explain the collision theory criteria for an effective collision",
+    "what roles do collision frequency and activation energy play in collision theory",
+    "why is a steric factor introduced into the collision theory rate expression",
+    "distinguish effective collisions from unsuccessful ones using energy and orientation",
+    "state the rate expression for a bimolecular reaction according to collision theory",
+    "why do complex molecules deviate from the rates predicted by simple collision counting"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Count the collision supply",
+     "explain": "Collision frequency Z sets how often molecules meet per second per unit volume."
+    },
+    {
+     "step": 2,
+     "action": "Filter by energy",
+     "explain": "Only the fraction carrying energy at or above Ea can cross the barrier, given by the exponential factor."
+    },
+    {
+     "step": 3,
+     "action": "Filter by alignment and write the rate",
+     "explain": "The steric factor P accounts for orientation, giving rate = P Z exp minus Ea over RT."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rate = steric_factor * collision_frequency * exp(-Ea / RT)",
+     "compute": "rate = steric_factor * collision_frequency * exp(-Ea / RT)"
+    }
+   ],
+   "converted_to_compute": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "question": "A reactant's concentration drops from 0.03 M to 0.02 M in 25 minutes. Find the average rate in per minute and per second units.",
+   "solution": "0.01 M over 25 min gives 4.0e-4 mol per litre per minute; dividing by 60 converts to per second.",
+   "answer": "6.66e-6 mol per litre per second"
+  },
+  {
+   "question": "N2O5 falls from 1.24e-2 to 0.20e-2 mol per litre in 60 minutes by a first order path. Find k.",
+   "solution": "log of 6.2 is 0.793; k = 2.303 times 0.793 over 60.",
+   "answer": "0.0304 per minute"
+  },
+  {
+   "question": "A first order reaction has k = 5.5e-14 per second. Find its half life.",
+   "solution": "t half = 0.693 divided by 5.5e-14.",
+   "answer": "about 1.26e13 seconds"
+  },
+  {
+   "question": "Rate constants are 0.02 and 0.07 per second at 500 K and 700 K. Find the activation energy.",
+   "solution": "log of the ratio is 0.544; Ea = 2.303 times 8.314 times 500 times 700 times 0.544 over 200.",
+   "answer": "about 18.2 kJ per mol"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lech103_ex1",
+   "source_ref": "lech103.txt Exercises 3.1-3.2",
+   "questions": [
+    "From each rate expression, state the reaction order and the units of the rate constant, for example Rate = k[NO] squared.",
+    "For 2A + B with rate = k[A][B] squared and k = 2.0e-6 mol-2 L2 s-1, find the initial rate at A = 0.1 and B = 0.2 mol per litre, and again after A falls to 0.06."
+   ]
+  },
+  {
+   "id": "lech103_ex2",
+   "source_ref": "lech103.txt Exercises 3.9 and 3.13",
+   "questions": [
+    "A reaction is first order in A and second order in B: write the rate equation and predict the effect of tripling B.",
+    "Calculate the half life of first order reactions with k = 200 per second, 2 per minute and 4 per year."
+   ]
+  },
+  {
+   "id": "lech103_ex3",
+   "source_ref": "lech103.txt Exercises 3.14 and 3.16",
+   "questions": [
+    "Carbon fourteen has a half life of 5730 years; a wooden artifact holds only 80 percent of the living level. Estimate its age.",
+    "A first order reaction has k = 60 per second. How long until the concentration falls to one sixteenth of its start?"
+   ]
+  },
+  {
+   "id": "lech103_ex4",
+   "source_ref": "lech103.txt Exercises 3.19, 3.24 and 3.30",
+   "questions": [
+    "A first order reaction takes 40 minutes for 30 percent decomposition. Find its half life.",
+    "For A giving products with k = 2.0e-2 per second and a starting concentration of 1.0 M, how much A survives 100 seconds?",
+    "The rate quadruples between 293 K and 313 K. Calculate the activation energy."
+   ]
+  }
+ ]
 }

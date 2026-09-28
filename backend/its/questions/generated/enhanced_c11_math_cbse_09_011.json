@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (Indian context) that requires finding the sum of an AGP with n=6, a=1000, d=500, r=1.05. Write the problem statement and the expression for the answer (do not compute).",
      "a": "Problem: \"Riya invests ₹1000 in a recurring deposit in January. Each month she increases her deposit by ₹500. The bank gives 5% monthly compound interest. Find the total amount after 6 months.\" Expression: S₆ = 1000 + 1500(1.05) + 2000(1.05)² + 2500(1.05)³ + 3000(1.05)⁴ + 3500(1.05)⁵. Poor answer: using simple interest or treating as pure GP/AP shows failure to recognize the combined growth pattern.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An Arithmetic-Geometric Progression (AGP) is a sequence where each term is the product of the ______ terms of an Arithmetic Progression (AP) and a Geometric Progression (GP).",
+     "a": "corresponding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're saving money where your monthly deposit ______ by ₹500 each month (AP: 1000, 1500, 2000, ...) but the bank gives compound interest at 10% per month (GP: 1, 1.1, 1.21, ...).",
+     "a": "increases",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by writing the general term Tₖ = [a + (k-______)d]rᵏ⁻¹.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive and apply the sum formula for n terms of an AGP (Sₙ = a/(1-r) + dr(1-rⁿ⁻¹)/(1-r)² - [a+(n-1)d]rⁿ/(1-r) for r ≠ 1), solve problems combining AP and GP concepts, and evaluate the sum of infinite AGP when |r| < 1.",
+     "self_check": true
     }
    ]
   }

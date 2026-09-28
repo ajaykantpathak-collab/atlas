@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using household items to demonstrate that the same force produces different pressures on different areas. List the materials, procedure, and how you would estimate the pressure in pascals.",
      "a": "A good answer: Use a kitchen scale to measure force (e.g., press down until scale reads 5 kg → 50 N). Press a flat coin (area ~2 cm² = 0.0002 m²) and a pin head (area ~0.1 mm² = 1×10⁻⁷ m²) into soft clay or dough. Measure depth of indentation as a proxy for pressure. Calculate: Coin pressure = 50/0.0002 = 250,000 Pa; Pin pressure = 50/1×10⁻⁷ = 5×10⁸ Pa. A poor answer lacks a way to measure force in newtons, uses area in cm² without conversion, or does not connect the observation to the calculated pascal values.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The SI unit of pressure is the pascal (symbol Pa), defined as one newton of force acting ______ on one square metre of area (1 Pa = 1 N/m²).",
+     "a": "perpendicularly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ pin (thumbtack) and a coin placed on a wooden table.",
+     "a": "drawing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to state the SI unit of pressure (pascal) and its symbol (Pa), express it in base SI units (kg·m⁻¹·s⁻²), convert between pascals and kilopascals (1 kPa = 1000 Pa), and calculate pressure in pascals when given force in newtons and area in square metres using P = F/A.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a drawing pin (______) and a coin placed on a wooden table.",
+     "a": "thumbtack",
+     "self_check": true
     }
    ]
   }

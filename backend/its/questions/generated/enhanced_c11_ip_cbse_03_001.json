@@ -34,6 +34,31 @@
      "q": "Design a small Python program (5-7 lines) that uses **all three** fundamental control flows: sequential, conditional, and iterative. The program should simulate a simple \"login attempt\" system: allow up to 3 attempts; if correct password entered, print \"Access granted\" and stop; if all 3 attempts fail, print \"Account locked\". Use a `for` loop with `range`, an `if-else`, and a `break` statement. Explain the control flow path for both success on 2nd attempt and failure on all 3.",
      "a": "```python\ncorrect_pass = \"ip123\"\nfor attempt in range(3):          # iterative flow\n    pwd = input(\"Enter password: \") # sequential inside loop\n    if pwd == correct_pass:       # conditional flow\n        print(\"Access granted\")\n        break                     # exits loop early\n    else:\n        print(\"Wrong password\")\nelse:                             # executes only if loop NOT broken\n    print(\"Account locked\")\n```\n**Success on 2nd attempt**: Iteration 1 → input → condition false → else block → print \"Wrong\" → loop continues. Iteration 2 → input → condition true → print \"Access granted\" → `break` → jump out of loop → `else` block of loop skipped → program ends. **Failure all 3**: Loop runs 3 times, `break` never hit → after 3rd iteration, loop `else` block executes → \"Account locked\". A poor answer that puts `print(\"Account locked\")` outside the loop at same indentation as `for` (without `else`) shows misunderstanding of the `for-else` construct and block association.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Control flow refers to the order in which individual statements, ______, or function calls are executed or evaluated in a program.",
+     "a": "instructions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are giving directions to a friend to reach your house from ______.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What is Control flow? State the definition given in this lesson.",
+     "a": "Control flow refers to the order in which individual statements, instructions, or function calls are executed or evaluated in a program.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Control flow?",
+     "a": "Misconception: \"Indentation in Python is just a style convention like in C++ or Java; the interpreter ignores extra spaces.\" Why it happens: Students coming from brace-delimited languages (or HTML/Markdown) assume whitespace is insignificant.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly predict the execution sequence of a Python program containing sequential, conditional, and iterative constructs by identifying statement blocks through indentation, and can explain why a given set of statements belongs to a specific block.",
+     "self_check": true
     }
    ]
   }

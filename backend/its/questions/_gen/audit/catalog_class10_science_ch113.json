@@ -1,0 +1,284 @@
+{
+ "catalog": "catalog_class10_science_ch113.json",
+ "concepts": [
+  {
+   "id": "jesc.113.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "biotic_components = 76",
+      "abiotic_components = 97",
+      "ecosystem = biotic_components + abiotic_components"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "biotic_components = 18.1",
+      "abiotic_components = 33",
+      "ecosystem = biotic_components + abiotic_components"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "biotic_components = 93",
+      "abiotic_components = 10.4",
+      "ecosystem = biotic_components + abiotic_components"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "biotic_components = 62",
+      "abiotic_components = 97",
+      "ecosystem = biotic_components + abiotic_components"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "biotic_components = 5.2",
+      "abiotic_components = 35",
+      "ecosystem = biotic_components + abiotic_components"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "biotic_components = 78",
+      "abiotic_components = 81",
+      "ecosystem = biotic_components + abiotic_components"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "ecosystem = biotic_components + abiotic_components"
+   ]
+  },
+  {
+   "id": "jesc.113.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "producers = 45",
+      "consumers = 31",
+      "decomposers = 6.9",
+      "total_organisms = producers + consumers + decomposers"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "producers = 23",
+      "consumers = 69",
+      "decomposers = 8.4",
+      "total_organisms = producers + consumers + decomposers"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "producers = 7.2",
+      "consumers = 55",
+      "decomposers = 38",
+      "total_organisms = producers + consumers + decomposers"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "producers = 53",
+      "consumers = 34",
+      "decomposers = 65",
+      "total_organisms = producers + consumers + decomposers"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "producers = 50",
+      "consumers = 70",
+      "decomposers = 29",
+      "total_organisms = producers + consumers + decomposers"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "producers = 43",
+      "consumers = 76",
+      "decomposers = 14",
+      "total_organisms = producers + consumers + decomposers"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_organisms = producers + consumers + decomposers"
+   ]
+  },
+  {
+   "id": "jesc.113.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "current_energy = 109",
+      "next_energy = current_energy * 0.10"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "current_energy = 86",
+      "next_energy = current_energy * 0.10"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "current_energy = 78",
+      "next_energy = current_energy * 0.10"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "current_energy = 50",
+      "next_energy = current_energy * 0.10"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "current_energy = 66",
+      "next_energy = current_energy * 0.10"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "current_energy = 103",
+      "next_energy = current_energy * 0.10"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "next_energy = current_energy * 0.10"
+   ]
+  },
+  {
+   "id": "jesc.113.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "solar_energy = 2801",
+      "producer_energy = solar_energy * 0.01"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "solar_energy = 4057",
+      "producer_energy = solar_energy * 0.01"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "solar_energy = 3065",
+      "producer_energy = solar_energy * 0.01"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "solar_energy = 1013",
+      "producer_energy = solar_energy * 0.01"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "solar_energy = 4233",
+      "producer_energy = solar_energy * 0.01"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "solar_energy = 2463",
+      "producer_energy = solar_energy * 0.01"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "producer_energy = solar_energy * 0.01"
+   ]
+  },
+  {
+   "id": "jesc.113.8",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "biodegradable_waste = 49",
+      "non_biodegradable_waste = 15.1",
+      "total_waste = biodegradable_waste + non_biodegradable_waste"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "biodegradable_waste = 59",
+      "non_biodegradable_waste = 10.1",
+      "total_waste = biodegradable_waste + non_biodegradable_waste"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "biodegradable_waste = 82",
+      "non_biodegradable_waste = 5.4",
+      "total_waste = biodegradable_waste + non_biodegradable_waste"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "biodegradable_waste = 56",
+      "non_biodegradable_waste = 13.6",
+      "total_waste = biodegradable_waste + non_biodegradable_waste"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "biodegradable_waste = 49",
+      "non_biodegradable_waste = 6.7",
+      "total_waste = biodegradable_waste + non_biodegradable_waste"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "biodegradable_waste = 96",
+      "non_biodegradable_waste = 4",
+      "total_waste = biodegradable_waste + non_biodegradable_waste"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_waste = biodegradable_waste + non_biodegradable_waste"
+   ]
+  }
+ ]
+}

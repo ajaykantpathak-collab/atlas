@@ -1,0 +1,56 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_10_003",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_10_003",
+   "title": "c12_soc_cbse_10_003",
+   "questions": [
+    {
+     "q": "What is the primary constitutional difference between Fundamental Rights and Directive Principles of State Policy in terms of enforceability?",
+     "a": "Fundamental Rights are justiciable (legally enforceable by courts under Articles 32 and 226), while Directive Principles are non-justiciable (not enforceable by any court, as explicitly stated in Article 37). A wrong answer — e.g., \"Both are enforceable\" or \"Neither is enforceable\" — reveals that the student has not grasped the foundational distinction that structures all subsequent judicial doctrine. This confusion leads to errors in answering questions about judicial review, PILs, and the hierarchy of constitutional provisions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the Supreme Court in the *Champakam Dorairajan* case (1951) held that Directive Principles cannot override Fundamental Rights, and how this position changed by the *Minerva Mills* case (1980).",
+     "a": "In *Champakam Dorairajan*, the Court applied a strict literal reading: Fundamental Rights are enforceable, Directive Principles are not, so in a conflict the former must prevail. By *Minerva Mills*, the Court adopted \"harmonious construction\" — Fundamental Rights and Directive Principles are complementary, not conflicting; they form an integrated scheme where Directive Principles guide the interpretation of Fundamental Rights. A wrong answer that still sees them as hierarchical (one superior to the other) shows the student is stuck in the 1950s doctrine and misses the sociological significance: the Constitution as a transformative charter for social justice, not just a list of negative liberties.",
+     "self_check": true
+    },
+    {
+     "q": "A state government enacts a law acquiring agricultural land for a private industrial park, offering compensation at 50% of market value. Farmers file a writ petition claiming violation of Article 300A (Right to Property) and Article 39(b) (Directive Principle: distribution of material resources to serve the common good). Identify the Fundamental Right and Directive Principle involved, and explain how a court would likely resolve this tension using the \"harmonious construction\" doctrine.",
+     "a": "Fundamental Right: Article 300A (Right to Property — a constitutional right, not a Fundamental Right after 44th Amendment, but still protected). Directive Principle: Article 39(b) (ownership and control of material resources distributed to best serve common good). The court would not automatically strike down the law nor uphold it blindly. It would ask: Does the acquisition serve a genuine public purpose (Directive Principle) *and* is the compensation fair and non-arbitrary (Article 300A read with Article 14)? The harmonious construction approach means the Directive Principle informs what counts as \"public purpose,\" while the Fundamental Right ensures procedural fairness. A wrong answer that says \"Directive Principles cannot be used because they are non-justiciable\" misses the entire post-*Minerva Mills* jurisprudence where courts routinely read DPSPs into FRs.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the socialist, Gandhian, and liberal-intellectual categories of Directive Principles. Give one example of each and explain how each category reflects a distinct vision of social justice in the Indian Constitution.",
+     "a": "Socialist: Article 39(b)-(c) — distribution of resources, prevention of concentration of wealth. Reflects a vision of economic democracy and redistributive justice. Gandhian: Article 40 — organization of village panchayats; Article 47 — prohibition of intoxicating drinks. Reflects a vision of decentralized, morally grounded self-governance. Liberal-intellectual: Article 44 — uniform civil code; Article 45 (original) — free and compulsory education for children. Reflects a vision of rational, uniform legal order and individual development. A wrong answer that merely lists articles without linking each to a *vision of society* shows the student is memorizing categories without understanding the sociological imagination behind the Constitution's pluralistic blueprint.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: \"The expansion of Article 21 (Right to Life) by the Supreme Court to include rights to health, education, shelter, and clean air is judicial overreach that violates separation of powers.\" Use the relationship between Fundamental Rights and Directive Principles to support your argument.",
+     "a": "This is *not* judicial overreach but a faithful execution of the constitutional mandate. Article 37 says Directive Principles \"shall not be enforceable by any court\" but \"are nevertheless fundamental in the governance of the country\" and the state \"shall apply these principles in making laws.\" When the legislature and executive fail to enact laws giving effect to Directive Principles (e.g., Article 47 on public health, Article 48A on environment), the Court *must* interpret Fundamental Rights in light of those Directive Principles to prevent the Constitution from becoming a \"parchment barrier.\" The *Olga Tellis* (livelihood), *Unni Krishnan* (education), *Shantistar Builders* (shelter), and *Subhash Kumar* (clean air) judgments all explicitly anchor the expanded Article 21 in corresponding Directive Principles. A wrong answer that calls it \"overreach\" ignores the constitutional text (Article 37) and the sociological reality that in a deeply unequal society, courts are often the only accessible forum for the marginalized to claim the substance of Directive Principles.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 200-word opinion piece for a student magazine arguing that the 73rd Constitutional Amendment (Panchayati Raj) is the most successful translation of a Gandhian Directive Principle (Article 40) into enforceable law. Use at least two sociological concepts from Class 11 (e.g., \"social structure,\" \"agency,\" \"dominant caste,\" \"social capital\") to strengthen your argument.",
+     "a": "A strong answer will: (1) state Article 40's original text (\"The State shall take steps to organise village panchayats...\"); (2) explain how the 73rd Amendment (1992) gave it constitutional status, mandatory elections, reservations (SC/ST/women), and devolution of powers/functions/finances; (3) use \"social structure\" to show how reservations disrupted the *dominant caste* monopoly on local power; (4) use \"agency\" to illustrate how women and Dalits gained *voice* (e.g., the Kalavati example in NCERT Box 3.3); (5) use \"social capital\" to argue that Gram Sabhas create new networks of accountability. A poor answer will merely describe the 73rd Amendment's provisions without linking them to Article 40 or using sociological concepts, revealing a failure to connect constitutional design to social transformation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ Rights (Part III, Articles 12-35) are justiciable, legally enforceable guarantees protecting individual liberty and equality against state action, while Directive Principles of State Policy (Part IV, Articles 36-51) are non-justiciable moral and political directives obligating the state to promote social, economic, and political justice.",
+     "a": "Fundamental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you read a news headline: \"Supreme Court declares clean air a part of Right to Life under Article 21\" — but Article 21 only says \"No person shall be deprived of his life or personal liberty except according to procedure ______ by law.\" Where did \"clean air\" come from?",
+     "a": "established",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) distinguish Fundamental Rights from Directive Principles on justiciability, enforceability, and constitutional location; (2) explain the doctrine of \"harmonious construction\" and how the Supreme Court has read Directive Principles into Fundamental Rights (especially Article 21) to expand social justice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

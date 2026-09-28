@@ -4,26 +4,14 @@
   {
    "id": "gegp.1.1",
    "title": "Reading Large Numbers: Lakh and Crore",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "verify the number-theory claim numerically",
-     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
-     "compute": "lhs = 3 ** 3 + 4 ** 3"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
-     "compute": "diff = 5 ** 3 - lhs"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "1 lakh = 100000, 1 crore = 100 lakh",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
      "a": "34",
-     "self_check": false
+     "self_check": true
     },
     {
      "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
@@ -42,7 +30,7 @@
     },
     {
      "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
-     "a": "0",
+     "a": "18",
      "self_check": false
     },
     {
@@ -56,6 +44,8 @@
    "id": "gegp.1.2",
    "title": "Multiplying and Adding Large Quantities",
    "converted_to_compute": false,
+   "formula": "total = packs * per",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 2 when x = 2.",
@@ -92,26 +82,13 @@
   {
    "id": "gegp.1.3",
    "title": "Estimation and Approximation",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "verify the number-theory claim numerically",
-     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
-     "compute": "lhs = 3 ** 3 + 4 ** 3"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
-     "compute": "diff = 5 ** 3 - lhs"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
      "a": "34",
-     "self_check": false
+     "self_check": true
     },
     {
      "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
@@ -130,7 +107,7 @@
     },
     {
      "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
-     "a": "0",
+     "a": "18",
      "self_check": false
     },
     {
@@ -143,15 +120,8 @@
   {
    "id": "gegp.1.4",
    "title": "Comparing and Expanding Large Numbers",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the circle formula with pi = 22/7",
-     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 63 gives 396",
-     "compute": "circ = 2 * 22 / 7 * 63"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 63 cm (take pi = 22/7).",

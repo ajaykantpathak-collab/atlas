@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_11_008",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_11_008",
+   "title": "c12_soc_cbse_11_008",
+   "questions": [
+    {
+     "q": "What are the three pillars of the WTO Agreement on Agriculture (AoA) that directly affect Indian farmers' livelihoods?",
+     "a": "The three pillars are: (1) Market Access (tariffication and reduction of import barriers), (2) Domestic Support (reduction of trade-distorting subsidies classified into Amber, Blue, and Green boxes), and (3) Export Subsidies (prohibition/reduction of subsidies on agricultural exports). A wrong answer that only mentions \"free trade\" or \"imports\" reveals the student has not grasped the specific legal architecture of the AoA that structures India's policy space — a common error where students conflate general liberalisation with the specific WTO disciplines that bind subsidy policy.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the shift from payment in kind (grain) to cash wages for agricultural labourers, noted in the Green Revolution areas, intensified under globalisation and liberalisation.",
+     "a": "The shift to cash wages accelerated because commercialised, market-oriented cultivation (encouraged by liberalisation) requires monetary transactions for purchased inputs (seeds, fertiliser, pesticides) and contract farming settlements. Cash wages also facilitate the employment of migrant \"footloose labour\" who have no traditional patron-client ties. A wrong answer that attributes this only to \"modernisation\" misses the structural driver: the integration of agriculture into capitalist commodity circuits where labour becomes a pure commodity, a transition Jan Breman termed \"patronage to exploitation\" — a core sociological concept in this chapter.",
+     "self_check": true
+    },
+    {
+     "q": "A small farmer in Maharashtra shifts from growing jowar (a millet) for household consumption to growing BT cotton for the market using hybrid seeds and pesticides bought on credit from a corporate agent. In a bad monsoon year, the crop fails. Trace the step-by-step causal chain linking this outcome to WTO-era policy changes.",
+     "a": "Step 1: WTO AoA commitments pressure India to reduce trade-distorting domestic support (Amber Box subsidies), leading to cuts in fertiliser/power subsidies and reduced public investment in extension. Step 2: State extension services shrink; private corporate agents become the primary source of seeds, chemicals, and advice. Step 3: Farmer adopts high-cost, high-risk cash crop (BT cotton) on credit from input supplier. Step 4: Monsoon failure → crop loss. Step 5: No MSP procurement for cotton; global prices volatile. Step 6: Debt trap → distress. A wrong answer that stops at \"monsoon failure\" or \"high input costs\" without linking to the policy-driven withdrawal of state support and the insertion of corporate intermediaries fails the apply-level test.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sociological significance of \"contract farming\" (e.g., PepsiCo tomatoes in Punjab) with the older \"zamindari/tenant\" relation. How does each structure the farmer's autonomy and risk?",
+     "a": "Zamindari/tenant relation: Farmer (tenant) has customary rights, shares risk with landlord (crop-share), uses indigenous knowledge, embedded in caste-patronage network. Contract farming: Farmer becomes a \"grower\" for a corporation; company specifies crop, variety, inputs, and technology; risk is transferred to farmer (quality rejection, price fixed ex-ante); indigenous knowledge is displaced by corporate protocols. The farmer loses autonomy over *what* and *how* to produce, becoming a semi-proletarianised wage-worker on own land. A wrong answer that sees contract farming as merely \"modern tenancy\" misses the qualitative shift: the corporation controls the *entire production process* (seeds, credit, technology, market) without the paternalistic obligations of the old patron — a shift from \"patronage to exploitation\" on new terms.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The farm crisis and farmer suicides in Vidarbha and Telangana are primarily caused by the withdrawal of agricultural subsidies mandated by the WTO.\" Is this fully accurate? Justify.",
+     "a": "The statement is partially accurate but reductionist. WTO AoA does constrain Amber Box subsidies (input subsidies, price support), contributing to rising cultivation costs. However, the crisis is multi-causal: (1) shift to high-cost cash crops (cotton) without assured irrigation, (2) replacement of public extension by corporate agents pushing expensive inputs, (3) absence of effective crop insurance (PMFBY came later), (4) moneylender-intermediary credit at usurious rates, (5) global price volatility for cotton, (6) ecological degradation (water table decline). WTO is a *structural enabler* of subsidy withdrawal, but domestic policy choices (e.g., prioritising food subsidies over agricultural investment, weak regulation of input markets) and agrarian structure (smallholdings, caste-based credit exclusion) are equally proximate causes. A wrong answer that blames only WTO or only \"farmer ignorance\" fails to synthesise the political economy of the crisis — a key board exam competency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical government intervention that addresses the farm crisis by targeting *both* the WTO-constrained subsidy regime and the corporate input dependency. Outline its three core components and explain how each tackles a specific mechanism identified in the chapter.",
+     "a": "A strong answer would propose: (1) **Green Box-compliant income support**: Direct per-hectare payments (decoupled from production) to replace input subsidies, permissible under WTO Green Box — addresses subsidy withdrawal without violating AoA. (2) **Publicly funded, farmer-controlled extension service**: Revive krishi vigyan kendras with participatory technology assessment (including traditional seeds) to break corporate information monopoly — addresses knowledge displacement. (3) **MSP guarantee legally backed for a diversified basket** (millets, pulses, oilseeds) with decentralised procurement — addresses price risk and mono-cropping. A poor answer would suggest \"increase subsidies\" (violates WTO) or \"ban contract farming\" (ignores global market integration) without a feasible policy design within WTO constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Globalisation and Indian Agriculture refers to the process of integrating India's agricultural sector into the global market through trade ______, WTO commitments, and the entry of multinational corporations, leading to shifts in cropping patterns, input dependence, subsidy regimes, and a structural farm crisis marked by indebtedness and farmer suicides.",
+     "a": "liberalisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer in Punjab who once grew wheat and paddy using ______-supplied seeds and fertiliser at subsidised rates, selling to the FCI at MSP.",
+     "a": "government",
+     "self_check": true
+    },
+    {
+     "q": "What is Globalisation and Indian Agriculture? State the definition given in this lesson.",
+     "a": "Globalisation and Indian Agriculture refers to the process of integrating India's agricultural sector into the global market through trade liberalisation, WTO commitments, and the entry of multinational corporations, leading to shifts in cropping patterns, input dependence, subsidy regimes, and a structural farm crisis marked by.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Globalisation and Indian Agriculture?",
+     "a": "Students often think \"globalisation\" means only \"imports of cheap food hurt farmers.\" The deeper error is missing that globalisation *also* restructures *production* through contract farming and corporate input markets, making farmers dependent on proprietary seeds/chemicals and global price signals *even for export crops*.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain the mechanisms by which WTO agreements (especially the Agreement on Agriculture) and domestic liberalisation policies have reshaped Indian agriculture, and critically evaluate the resulting farm crisis using concepts of contract farming, input dependency, subsidy withdrawal, and agrarian distress.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,31 @@
      "q": "Design a 3-step checklist a consumer can use *at the point of purchase* to verify that a quality mark on a product is genuine (not counterfeit) for each of the three marks: ISI/BIS, AGMARK, FPO.",
      "a": "For ISI/BIS: (1) Check the BIS logo + licence number (CM/L-xxxxxx) on the product/label; (2) Verify the licence number on the BIS website or BIS Care app; (3) Ensure the product matches the Indian Standard number printed (e.g., IS 14543 for packaged water). For AGMARK: (1) Look for the AGMARK logo + grade designation (e.g., Grade A, Special); (2) Check the packer's licence number and lot/batch number; (3) Cross-check on the AGMARKNET portal if doubtful. For FPO: (1) Confirm the FPO logo + licence number (FPO-xxx); (2) Verify the manufacturing date and licence validity; (3) Check the FSSAI licence number (now mandatory alongside FPO). A poor answer gives generic advice like \"look for the logo\" without the *verifiable unique identifiers* (licence numbers, portals) that distinguish genuine from fake marks.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the process of establishing and applying technical standards to ensure products, processes, and services meet specified quality, safety, and performance criteria; quality marks (ISI/BIS, AGMARK, FPO) are government-mandated or voluntary certification symbols that guarantee a product conforms to the relevant Indian Standard, assuring consumers of reliability and protecting them from substandard or adulterated goods.",
+     "a": "Standardisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you pick up a packet of biscuits, a bottle of honey, and a pressure cooker in a supermarket — how do you know the biscuits aren't made with rancid fat, the honey isn't ______ with sugar syrup, and the cooker won't explode?",
+     "a": "adulterated",
+     "self_check": true
+    },
+    {
+     "q": "What is Standardisation? State the definition given in this lesson.",
+     "a": "Standardisation is the process of establishing and applying technical standards to ensure products, processes, and services meet specified quality, safety, and performance criteria; quality marks (ISI/BIS, AGMARK, FPO) are government-mandated or voluntary certification symbols that guarantee a product conforms to the relevant Indian.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Standardisation?",
+     "a": "Students often believe that any product carrying a quality mark is automatically superior to one without it, and that all quality marks are legally mandatory.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish between ISI/BIS, AGMARK, and FPO marks by product category, issuing authority, and legal status (mandatory vs voluntary), and (2) explain how each mark protects the consumer by linking the certification process to specific quality parameters tested.",
+     "self_check": true
     }
    ]
   }

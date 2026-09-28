@@ -34,6 +34,26 @@
      "q": "Design a \"Digital Footprint Audit Checklist\" for a Class 12 student preparing for college admissions. Include 5 actionable items that reveal hidden passive footprints, not just social media cleanup.",
      "a": "A strong checklist includes: (1) Search your name + \"site:linkedin.com\" / \"site:github.com\" / \"site:medium.com\" to find forgotten profiles. (2) Check haveibeenpwned.com for email breaches — reveals accounts you forgot. (3) Review Google \"My Activity\" (myactivity.google.com) for search/YouTube/location history. (4) Audit app permissions: Settings → Privacy → Location / Microphone / Contacts — revoke unused. (5) Request data download from Instagram/WhatsApp/Google (Takeout) to see metadata (EXIF, timestamps, device IDs). A poor answer listing only \"delete old posts, make profile private\" reveals the misconception that digital footprint = visible content only, missing the passive, systemic data layer — exactly what competitive exams test via \"hidden assumption\" questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A digital footprint is the trail of data — both intentional and ______ — that a user leaves behind while using the internet, including social media posts, browsing history, online transactions, cookies, metadata, and device information, which collectively forms a persistent and searchable record of their online identity and activities.",
+     "a": "unintentional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking: \"When you search for 'best smartphones under ₹20,000' on Google, then see phone ads on ______, YouTube, and news sites for the next two weeks — how did they know?\" Let students brainstorm.",
+     "a": "Instagram",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) distinguish between active and passive digital footprints with three concrete examples of each, and (2) explain how a specific online action (e.g., accepting cookies, posting a photo, making a UPI payment) creates a permanent data trace that can be aggregated by third parties.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking: \"When you search for 'best ______ under ₹20,000' on Google, then see phone ads on Instagram, YouTube, and news sites for the next two weeks — how did they know?\" Let students brainstorm.",
+     "a": "smartphones",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,394 @@
+{
+ "catalog": "catalog_class12_political_science_leps204.json",
+ "concepts": [
+  {
+   "id": "leps.204.1.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "preserve_sovereignty = 36",
+      "protect_territorial_integrity = 91",
+      "promote_economic_development = 7.9",
+      "foreign_policy_goals = preserve_sovereignty + protect_territorial_integrity + promote_economic_development"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "preserve_sovereignty = 53",
+      "protect_territorial_integrity = 108",
+      "promote_economic_development = 92",
+      "foreign_policy_goals = preserve_sovereignty + protect_territorial_integrity + promote_economic_development"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "preserve_sovereignty = 62",
+      "protect_territorial_integrity = 99",
+      "promote_economic_development = 74",
+      "foreign_policy_goals = preserve_sovereignty + protect_territorial_integrity + promote_economic_development"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "preserve_sovereignty = 39",
+      "protect_territorial_integrity = 54",
+      "promote_economic_development = 80",
+      "foreign_policy_goals = preserve_sovereignty + protect_territorial_integrity + promote_economic_development"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "preserve_sovereignty = 80",
+      "protect_territorial_integrity = 68",
+      "promote_economic_development = 28",
+      "foreign_policy_goals = preserve_sovereignty + protect_territorial_integrity + promote_economic_development"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "preserve_sovereignty = 64",
+      "protect_territorial_integrity = 100",
+      "promote_economic_development = 80",
+      "foreign_policy_goals = preserve_sovereignty + protect_territorial_integrity + promote_economic_development"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "preserve_sovereignty = 36",
+    "protect_territorial_integrity = 91",
+    "promote_economic_development = 7.9",
+    "foreign_policy_goals = preserve_sovereignty + protect_territorial_integrity + promote_economic_development"
+   ]
+  },
+  {
+   "id": "leps.204.2.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "no_military_alliances = 63",
+      "independent_stance = 54",
+      "friendship_with_both_blocs = 46",
+      "non_alignment = no_military_alliances + independent_stance + friendship_with_both_blocs"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "no_military_alliances = 77",
+      "independent_stance = 58",
+      "friendship_with_both_blocs = 53",
+      "non_alignment = no_military_alliances + independent_stance + friendship_with_both_blocs"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "no_military_alliances = 56",
+      "independent_stance = 87",
+      "friendship_with_both_blocs = 46",
+      "non_alignment = no_military_alliances + independent_stance + friendship_with_both_blocs"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "no_military_alliances = 73",
+      "independent_stance = 19",
+      "friendship_with_both_blocs = 36",
+      "non_alignment = no_military_alliances + independent_stance + friendship_with_both_blocs"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "no_military_alliances = 9.1",
+      "independent_stance = 79",
+      "friendship_with_both_blocs = 46",
+      "non_alignment = no_military_alliances + independent_stance + friendship_with_both_blocs"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "no_military_alliances = 45",
+      "independent_stance = 21",
+      "friendship_with_both_blocs = 48",
+      "non_alignment = no_military_alliances + independent_stance + friendship_with_both_blocs"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "no_military_alliances = 63",
+    "independent_stance = 54",
+    "friendship_with_both_blocs = 46",
+    "non_alignment = no_military_alliances + independent_stance + friendship_with_both_blocs"
+   ]
+  },
+  {
+   "id": "leps.204.3.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "asian_relations_conference = 19.6",
+      "bandung_conference = 1.2",
+      "belgrade_summit = 72",
+      "nam_foundations = asian_relations_conference + bandung_conference + belgrade_summit"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "asian_relations_conference = 15.7",
+      "bandung_conference = 68",
+      "belgrade_summit = 65",
+      "nam_foundations = asian_relations_conference + bandung_conference + belgrade_summit"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "asian_relations_conference = 11.8",
+      "bandung_conference = 9.9",
+      "belgrade_summit = 64",
+      "nam_foundations = asian_relations_conference + bandung_conference + belgrade_summit"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "asian_relations_conference = 7",
+      "bandung_conference = 22",
+      "belgrade_summit = 52",
+      "nam_foundations = asian_relations_conference + bandung_conference + belgrade_summit"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "asian_relations_conference = 3.2",
+      "bandung_conference = 50",
+      "belgrade_summit = 36",
+      "nam_foundations = asian_relations_conference + bandung_conference + belgrade_summit"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "asian_relations_conference = 15.3",
+      "bandung_conference = 37",
+      "belgrade_summit = 64",
+      "nam_foundations = asian_relations_conference + bandung_conference + belgrade_summit"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "asian_relations_conference = 19.6",
+    "bandung_conference = 1.2",
+    "belgrade_summit = 72",
+    "nam_foundations = asian_relations_conference + bandung_conference + belgrade_summit"
+   ]
+  },
+  {
+   "id": "leps.204.4.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "tibet_annexation = 28",
+      "border_dispute = 40",
+      "invasion_1962 = 10.9",
+      "china_crisis_chain = tibet_annexation + border_dispute + invasion_1962"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "tibet_annexation = 56",
+      "border_dispute = 12.6",
+      "invasion_1962 = 3.4",
+      "china_crisis_chain = tibet_annexation + border_dispute + invasion_1962"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "tibet_annexation = 104",
+      "border_dispute = 14.5",
+      "invasion_1962 = 13.1",
+      "china_crisis_chain = tibet_annexation + border_dispute + invasion_1962"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "tibet_annexation = 50",
+      "border_dispute = 28",
+      "invasion_1962 = 12.8",
+      "china_crisis_chain = tibet_annexation + border_dispute + invasion_1962"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "tibet_annexation = 14.3",
+      "border_dispute = 25",
+      "invasion_1962 = 16.3",
+      "china_crisis_chain = tibet_annexation + border_dispute + invasion_1962"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "tibet_annexation = 39",
+      "border_dispute = 51",
+      "invasion_1962 = 9.2",
+      "china_crisis_chain = tibet_annexation + border_dispute + invasion_1962"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "tibet_annexation = 28",
+    "border_dispute = 40",
+    "invasion_1962 = 10.9",
+    "china_crisis_chain = tibet_annexation + border_dispute + invasion_1962"
+   ]
+  },
+  {
+   "id": "leps.204.5.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "kashmir_dispute_1947 = 32",
+      "war_1965_tashkent = 19.4",
+      "bangladesh_war_1971_shimla = 95",
+      "indo_pak_conflict = kashmir_dispute_1947 + war_1965_tashkent + bangladesh_war_1971_shimla"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "kashmir_dispute_1947 = 68",
+      "war_1965_tashkent = 116",
+      "bangladesh_war_1971_shimla = 59",
+      "indo_pak_conflict = kashmir_dispute_1947 + war_1965_tashkent + bangladesh_war_1971_shimla"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "kashmir_dispute_1947 = 1.6",
+      "war_1965_tashkent = 9.3",
+      "bangladesh_war_1971_shimla = 86",
+      "indo_pak_conflict = kashmir_dispute_1947 + war_1965_tashkent + bangladesh_war_1971_shimla"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "kashmir_dispute_1947 = 40",
+      "war_1965_tashkent = 47",
+      "bangladesh_war_1971_shimla = 60",
+      "indo_pak_conflict = kashmir_dispute_1947 + war_1965_tashkent + bangladesh_war_1971_shimla"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "kashmir_dispute_1947 = 98",
+      "war_1965_tashkent = 88",
+      "bangladesh_war_1971_shimla = 27",
+      "indo_pak_conflict = kashmir_dispute_1947 + war_1965_tashkent + bangladesh_war_1971_shimla"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "kashmir_dispute_1947 = 91",
+      "war_1965_tashkent = 16.5",
+      "bangladesh_war_1971_shimla = 95",
+      "indo_pak_conflict = kashmir_dispute_1947 + war_1965_tashkent + bangladesh_war_1971_shimla"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "kashmir_dispute_1947 = 32",
+    "war_1965_tashkent = 19.4",
+    "bangladesh_war_1971_shimla = 95",
+    "indo_pak_conflict = kashmir_dispute_1947 + war_1965_tashkent + bangladesh_war_1971_shimla"
+   ]
+  },
+  {
+   "id": "leps.204.6.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "defence_expenditure_rise = 25",
+      "derailed_five_year_plans = 54",
+      "war_cost = defence_expenditure_rise + derailed_five_year_plans"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "defence_expenditure_rise = 45",
+      "derailed_five_year_plans = 57",
+      "war_cost = defence_expenditure_rise + derailed_five_year_plans"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "defence_expenditure_rise = 50",
+      "derailed_five_year_plans = 55",
+      "war_cost = defence_expenditure_rise + derailed_five_year_plans"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "defence_expenditure_rise = 46",
+      "derailed_five_year_plans = 26",
+      "war_cost = defence_expenditure_rise + derailed_five_year_plans"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "defence_expenditure_rise = 97",
+      "derailed_five_year_plans = 5.3",
+      "war_cost = defence_expenditure_rise + derailed_five_year_plans"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "defence_expenditure_rise = 59",
+      "derailed_five_year_plans = 90",
+      "war_cost = defence_expenditure_rise + derailed_five_year_plans"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "defence_expenditure_rise = 25",
+    "derailed_five_year_plans = 54",
+    "war_cost = defence_expenditure_rise + derailed_five_year_plans"
+   ]
+  }
+ ]
+}

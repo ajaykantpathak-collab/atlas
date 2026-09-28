@@ -34,6 +34,26 @@
      "q": "Design a simple experiment to prove that the gas evolved when iron filings react with dilute H₂SO₄ is hydrogen. List materials, procedure (3 steps), observation, and conclusion. How would you modify this to collect the gas for further testing?",
      "a": "Materials: Iron filings, dilute H₂SO₄, test tube, delivery tube, trough, gas jar, burning splint. Procedure: (1) Add Fe to H₂SO₄ in test tube fitted with delivery tube. (2) Collect gas by downward displacement of water in gas jar. (3) Bring burning splint to jar mouth. Observation: 'Pop' sound confirms H₂. Modification: Use a gas syringe or inverted measuring cylinder over water for quantitative collection. A poor answer omits the 'pop' test or suggests upward displacement (H₂ is lighter than air) — reveals confusion about gas density and collection methods.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When a dilute acid reacts with a reactive metal, a ______ reaction occurs where the metal displaces hydrogen from the acid, producing a salt and hydrogen gas.",
+     "a": "displacement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine dropping a zinc granule into a test tube containing dilute ______ acid — you see bubbles rising rapidly.",
+     "a": "hydrochloric",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The general reaction is: ______H⁺(aq) + M(s) → Mⁿ⁺(aq) + H₂(g), where M is a metal above hydrogen in the reactivity series.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write balanced chemical equations for acid-metal reactions, identify which metals will react based on the reactivity series, describe the hydrogen gas test with a burning splint, and explain why copper and silver do not react with dilute HCl or H₂SO₄.",
+     "self_check": true
     }
    ]
   }

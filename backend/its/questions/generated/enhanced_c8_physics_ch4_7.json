@@ -34,6 +34,31 @@
      "q": "Design a simple classroom experiment using two containers, hot water, cold water, and a lightweight indicator (like a strip of tissue paper or smoke) to demonstrate that air moves from high pressure to low pressure. Describe the setup, what you observe, and how it models wind formation.",
      "a": "Setup: Place a container of hot water (heats air above it → rises → creates low pressure) and a container of cold water (cools air above it → sinks → creates high pressure) side by side with a gap between them. Hold a tissue paper strip or incense smoke in the gap. Observation: The indicator moves from the cold-water side toward the hot-water side. Explanation: Cold air is denser (higher pressure), hot air rises (lower pressure). Air flows horizontally from cold to hot, mimicking sea breeze (sea = cold, land = hot). A poor answer (e.g., \"smoke goes up only\" or no pressure explanation) reveals the student cannot link the convection setup to horizontal pressure-driven flow.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Wind is the ______ movement of air from regions of higher atmospheric pressure to regions of lower atmospheric pressure, driven by the pressure gradient force.",
+     "a": "horizontal",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stand near an open window on a hot afternoon and feel the warm air rushing in – that is wind caused by pressure ______.",
+     "a": "differences",
+     "self_check": true
+    },
+    {
+     "q": "What is Wind? State the definition given in this lesson.",
+     "a": "Wind is the horizontal movement of air from regions of higher atmospheric pressure to regions of lower atmospheric pressure, driven by the pressure gradient force.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Wind?",
+     "a": "Students often believe wind blows from low pressure to high pressure because they think \"low pressure sucks air in\" like a vacuum cleaner.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why wind blows from high to low pressure using the concept of pressure gradient, predict wind direction given a pressure map with isobars, and relate uneven heating of Earth's surface to pressure differences that cause wind.",
+     "self_check": true
     }
    ]
   }

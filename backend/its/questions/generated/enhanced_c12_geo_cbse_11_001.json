@@ -34,6 +34,31 @@
      "q": "Design a land use plan for a hypothetical 1000-ha village in semi-arid Rajasthan (annual rainfall 60 cm) that maximizes livelihood security for landless households while maintaining ecological sustainability. Specify allocation across at least 5 land use categories.",
      "a": "Good answer allocates: (1) 200 ha permanent pasture (CPR for livestock/fodder — supports landless), (2) 150 ha culturable wasteland reclaimed for dryland farming (bajra, guar), (3) 300 ha net sown area (kharif: bajra/moong; rabi: gram/mustard with protective irrigation), (4) 100 ha current fallow (rotational rest), (5) 50 ha non-agricultural (settlement, school, water harvesting structures), (6) 50 ha barren/wasteland left for groundwater recharge. Poor answer ignores CPRs or proposes water-intensive crops (rice/sugarcane) — reveals misunderstanding of dryland farming (NCERT: <75 cm rainfall = dryland) and CPR significance for equity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Land use categories are the nine-fold ______ of India's reporting area maintained in land revenue records, including forests, barren and wastelands, non-agricultural uses, permanent pastures, miscellaneous tree crops, culturable wasteland, current fallow, fallow other than current fallow, and net area sown, which together sum to the reporting area (distinct from fixed geographical area).",
+     "a": "classification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your local village/tehsil revenue map — you will see columns for \"forest\", \"______ waste\", \"current fallow\", etc.",
+     "a": "culturable",
+     "self_check": true
+    },
+    {
+     "q": "What is Land use categories? State the definition given in this lesson.",
+     "a": "Land use categories are the nine-fold classification of India's reporting area maintained in land revenue records, including forests, barren and wastelands, non-agricultural uses, permanent pastures, miscellaneous tree crops, culturable wasteland, current fallow, fallow other than current fallow, and net area sown, which together sum to.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Land use categories?",
+     "a": "Students think \"current fallow\" and \"fallow other than current fallow\" are just \"fallow land\" — they miss the critical 1-year and 5-year thresholds that determine categorization.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) List all nine land use categories with precise definitions distinguishing reporting area from geographical area; (2) Explain why forest area increase reflects demarcation not actual cover; (3) Calculate cropping intensity from GCA and NSA data; (4) Interpret Table 3.1 trends (1950–51 vs 2019–20) for each category.",
+     "self_check": true
     }
    ]
   }

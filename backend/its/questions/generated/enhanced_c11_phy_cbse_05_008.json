@@ -34,6 +34,16 @@
      "q": "Design a simple experiment using a spring, a set of known masses, a metre scale, and a stopwatch to verify that the elastic potential energy stored in a spring is $\\frac{1}{2}kx^2$. Describe the procedure, measurements, and how you would analyse the data.",
      "a": "**Procedure:** (1) Hang spring vertically, measure natural length $L_0$. (2) Add mass $m$, measure extension $x = L - L_0$. Repeat for 5-6 masses to get $k = mg/x$ (slope of $F$ vs $x$ graph). (3) For a fixed mass $m$, pull down additional distance $A$ and release. Measure maximum height $h$ above equilibrium reached by the mass using a scale behind the spring. (4) By energy conservation: initial spring PE (at $x = x_0 + A$) + gravitational PE = final gravitational PE at max height. $\\frac{1}{2}k(x_0+A)^2 - mg(x_0+A) = mgh$ (taking equilibrium as zero). Since $kx_0 = mg$, this simplifies to $\\frac{1}{2}kA^2 = mgh$. (5) Plot $h$ vs $A^2$; slope should be $\\frac{k}{2mg}$. A linear graph through origin verifies $U \\propto x^2$. A poor answer (e.g., just measuring static extensions) reveals confusion between verifying Hooke's law ($F \\propto x$) and verifying the energy formula ($U \\propto x^2$).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a common spring ______ used in Indian vegetable markets — when you hang a 1 kg tomato bag, the spring stretches by about 5 cm.",
+     "a": "balance",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a common spring balance used in Indian ______ markets — when you hang a 1 kg tomato bag, the spring stretches by about 5 cm.",
+     "a": "vegetable",
+     "self_check": true
     }
    ]
   }

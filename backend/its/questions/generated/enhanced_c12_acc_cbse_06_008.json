@@ -34,6 +34,31 @@
      "q": "Create a scenario where a company purchases its own debentures from the open market at a price *above* face value, cancels them, and show the journal entries. Explain the treatment of the loss.",
      "a": "Scenario: 1,000 debentures of ₹100 each purchased at ₹105. Entries: Debit 10% Debentures A/c ₹1,00,000; Debit Loss on Cancellation A/c ₹5,000; Credit Own Debentures A/c ₹1,05,000. Then: Debit Statement of Profit & Loss A/c ₹5,000; Credit Loss on Cancellation A/c ₹5,000. A poor answer would credit Capital Reserve for the loss, showing confusion between capital and revenue losses.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Redemption by purchase from open market refers to a company buying back its own debentures from the stock exchange (or open market) for the purpose of ______, while redemption by conversion method involves converting debentures into equity shares or new debentures as per the terms of issue.",
+     "a": "cancellation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a company, \"TechGrow Ltd.\", has 10,000, 9% debentures of ₹100 each ______.",
+     "a": "outstanding",
+     "self_check": true
+    },
+    {
+     "q": "What is Redemption by purchase from open market? State the definition given in this lesson.",
+     "a": "Redemption by purchase from open market refers to a company buying back its own debentures from the stock exchange (or open market) for the purpose of cancellation, while redemption by conversion method involves converting debentures into equity shares or new debentures as per the terms of issue.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Redemption by purchase from open market?",
+     "a": "Students often treat \"Own Debentures\" as an investment asset and forget to cancel them immediately, leaving a debit balance in Own Debentures A/c on the balance sheet.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) pass correct journal entries for purchase of own debentures from open market at par, premium, or discount and their subsequent cancellation, including transfer of profit/loss on cancellation to Capital Reserve; (2) pass journal entries for conversion of debentures into shares or new debentures at par.",
+     "self_check": true
     }
    ]
   }

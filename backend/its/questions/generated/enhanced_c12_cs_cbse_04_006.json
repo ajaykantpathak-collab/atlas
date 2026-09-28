@@ -34,6 +34,36 @@
      "q": "Design a relational algebra query using only selection and projection to answer: \"Find the roll numbers of students who are in Class 12 and have the same marks as at least one other Class 12 student.\" Assume relation Student(RollNo, Name, Class, Marks). Explain your approach.",
      "a": "This requires a self-join which cannot be expressed with only selection and projection — it needs a join or a more advanced operation. A good answer recognizes the limitation and states that selection and projection alone cannot compare marks across different tuples. A student who attempts to write an expression using only σ and π reveals a misunderstanding that these operations work tuple-by-tuple and cannot correlate values across tuples.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Selection (σ) is a unary ______ operation that returns a subset of tuples (rows) from a relation satisfying a specified predicate condition.",
+     "a": "relational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a spreadsheet of all students in your school with ______: RollNo, Name, Class, Section, Marks.",
+     "a": "columns",
+     "self_check": true
+    },
+    {
+     "q": "What is Selection (σ)? State the definition given in this lesson.",
+     "a": "Selection (σ) is a unary relational operation that returns a subset of tuples (rows) from a relation satisfying a specified predicate condition.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by identifying the condition for selection (Class = '______') and the attribute list for projection (RollNo, Marks).",
+     "a": "12",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Selection (σ)?",
+     "a": "Students often think projection (π) only removes columns and forget that it also eliminates duplicate rows.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly write relational algebra expressions using σ and π for given queries, explain the effect of each operation on the cardinality and degree of the relation, and trace the result of a sequence of selection and projection operations on a sample relation instance.",
+     "self_check": true
     }
    ]
   }

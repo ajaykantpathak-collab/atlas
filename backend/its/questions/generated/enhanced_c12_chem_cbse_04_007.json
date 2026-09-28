@@ -34,6 +34,21 @@
      "q": "Design a simple experiment to demonstrate that transition metal ions (e.g., Cu²⁺, Fe³⁺) can catalyze the decomposition of hydrogen peroxide, while a non-transition metal ion (e.g., Zn²⁺) cannot. List the observations you would record.",
      "a": "Procedure: Take three test tubes with 5 mL H₂O₂ (2%) each. Add a pinch of CuSO₄ to first, FeCl₃ to second, ZnSO₄ to third. Observe rate of O₂ bubble evolution. Record: time for first bubble, volume of gas per minute (using water displacement), final volume. Expected: Cu²⁺/Fe³⁺ show rapid bubbling (catalysis via redox cycling Cu²⁺/Cu⁺ or Fe³⁺/Fe²⁺); Zn²⁺ shows no change (d¹⁰, no accessible oxidation state). A poor design (e.g., no control, using solid metals instead of ions) reveals misunderstanding that catalytic activity in solution depends on variable oxidation states of the metal ion, not the bulk metal.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Transition elements (d-block) and inner transition elements (f-block) are crucial for modern ______ due to their unique properties like variable oxidation states, catalytic activity, alloy formation, and magnetic behaviour.",
+     "a": "civilization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look around your kitchen: the ______ steel utensil (Fe-Cr-Ni alloy), the battery in your remote (Zn/Ni-Cd), the catalyst in your car's catalytic converter (Pt/Pd/Rh).",
+     "a": "stainless",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can list at least five major applications of transition/inner transition elements, explain the specific property (e.g., variable oxidation state, catalytic activity, lanthanoid contraction) that makes each application possible, and differentiate between the uses of d-block vs f-block elements with concrete examples.",
+     "self_check": true
     }
    ]
   }

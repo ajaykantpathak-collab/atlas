@@ -32,7 +32,37 @@
     },
     {
      "q": "Create a mini CBT case formulation for a 17-year-old student, Priya, who experiences panic attacks before chemistry practical exams. Include: (a) bio-psychosocial predisposing/precipitating/perpetuating factors, (b) a vicious cycle diagram description (thoughts → feelings → behaviours → physical), (c) two specific CBT interventions with rationale.",
-     "a": "(a) Predisposing: Biological — family history of anxiety, high trait neuroticism; Psychological — perfectionistic core schema (\"I must be perfect or I'm inadequate\"); Social — high parental expectations, competitive school environment. Precipitating: Failed a chemistry practical in Class 11, public criticism by teacher. Perpetuating: Biological — hyperventilation during panic maintains physical symptoms; Psychological — catastrophic misinterpretation of bodily sensations (\"heart racing = heart attack\"); Behavioural — avoidance of chemistry lab, safety behaviours (carrying water, sitting near exit); Social — parental reassurance reinforces illness role. (b) Vicious cycle: Activating event (entering lab) → Thoughts (\"I'll faint, everyone will laugh\") → Feelings (terror, shame) → Physical (tachycardia, dyspnea, dizziness) → Behaviours (escape, avoidance) → reinforces Thoughts (\"See, I couldn't handle it\"). (c) Interventions: 1) Interoceptive exposure + cognitive restructuring: deliberately induce feared sensations (spinning, hyperventilation) in session while testing catastrophic beliefs (\"Does dizziness mean heart attack? No, it's hyperventilation\") — breaks misinterpretation cycle. 2) Behavioural experiment: graded exposure to lab (visit empty lab → watch peer → assist → perform simple task) with dropout of safety behaviours — tests belief \"I cannot cope\" and builds self-efficacy. A poor answer listing generic \"relaxation and positive thinking\" misses case-specific formulation, vicious cycle mechanics, and evidence-based intervention selection.",
+     "a": "(1) Predisposing — family anxiety history and high neuroticism, a perfectionistic core belief, and high parental expectations in a competitive school, (2) Precipitating and perpetuating — a failed practical triggered it, while hyperventilation, catastrophically read body sensations, lab avoidance and reassuring parents maintain it, (3) The vicious cycle — the lab triggers fainting thoughts, terror and a racing heart follow, escape follows the sensations, and escape reinforces the thought she cannot cope, (4) Intervention one — interoceptive exposure with restructuring, inducing the sensations while testing the belief that dizziness means collapse, (5) Intervention two — graded behavioural experiments from visiting the empty lab to doing a simple task, dropping safety behaviours. A poor answer offers generic relaxation and positive thinking without the case-specific cycle.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cognitive Behaviour Therapy (CBT) is a structured, time-limited, evidence-based ______ that integrates cognitive therapy (identifying and restructuring maladaptive thoughts and core schemas) with behavioural techniques (modifying overt behaviours through conditioning principles), grounded in a bio-psychosocial framework addressing biological arousal, psychological cognitions, and social-environmental contingencies.",
+     "a": "psychotherapy",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a Class 12 student, Rohan, who freezes during board exam mock tests — heart racing, thoughts like \"I'll fail, my future is ruined,\" leading to ______ of practice papers.",
+     "a": "avoidance",
+     "self_check": true
+    },
+    {
+     "q": "What is Cognitive Behaviour Therapy (CBT)? State the definition given in this lesson.",
+     "a": "Cognitive Behaviour Therapy (CBT) is a structured, time-limited, evidence-based psychotherapy that integrates cognitive therapy (identifying and restructuring maladaptive thoughts and core schemas) with behavioural techniques (modifying overt behaviours through conditioning principles), grounded in a bio-psychosocial framework addressing.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: First, map the ABC: Activating event (mock test) → Beliefs (\"I must score ______% or I'm a failure\") → Consequences (panic, avoidance).",
+     "a": "95",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Cognitive Behaviour Therapy (CBT)?",
+     "a": "Students often equate CBT with \"positive thinking\" or \"replacing negative thoughts with positive ones.\" This is incorrect.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Explain how CBT's bio-psychosocial model integrates biological (relaxation), cognitive (restructuring), and behavioural (exposure, skills training) components for a given disorder; (2) Apply the ABC model and identify cognitive distortions in a case vignette; (3) Design a basic CBT intervention plan including.",
      "self_check": true
     }
    ]

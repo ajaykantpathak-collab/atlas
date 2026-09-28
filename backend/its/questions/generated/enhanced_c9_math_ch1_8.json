@@ -34,6 +34,26 @@
      "q": "Create a real-world problem involving the midpoint formula set in an Indian context (e.g., a road between two villages, a railway line, a school playground). The problem must require finding a midpoint and then using it to find a missing endpoint. Write the problem statement and solve it completely.",
      "a": "Problem: Village A is at coordinates (10, 20) km and Village B is at (30, 40) km on a district map. A health centre is built at the midpoint of the straight road connecting them. Later, a new village C is established such that the health centre is also the midpoint between Village B and Village C. Find the coordinates of Village C.\nSolution: Midpoint (health centre) = ((10+30)/2, (20+40)/2) = (20, 30). Let C = (x, y). Midpoint of B(30,40) and C(x,y) = ((30+x)/2, (40+y)/2) = (20,30). So (30+x)/2 = 20 → x = 10; (40+y)/2 = 30 → y = 20. Village C is at (10, 20) – same as Village A! A poor answer would just give numbers without context or miss the reverse midpoint step. This reveals inability to apply the formula bidirectionally.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ formula is a special case of the section formula for internal division where the ratio is 1:1.",
+     "a": "midpoint",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You want to place a fountain exactly at the centre of the ______.",
+     "a": "diagonal",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the midpoint formula from the section formula by setting m = n, apply it to find midpoints and missing endpoints, and solve problems where the midpoint is used to verify geometric properties like bisection of diagonals in parallelograms.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You want to place a ______ exactly at the centre of the diagonal.",
+     "a": "fountain",
+     "self_check": true
     }
    ]
   }

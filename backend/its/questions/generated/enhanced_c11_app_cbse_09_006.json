@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_09_006",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_09_006",
+   "title": "c11_app_cbse_09_006",
+   "questions": [
+    {
+     "q": "State the formula for Bayes' theorem when A_1, A_2, ..., A_n form a partition of the sample space S and B is an event with P(B) > 0. Define each term in the formula.",
+     "a": "The formula is P(A_i|B) = [P(A_i) × P(B|A_i)] / [Σ_{j=1}^n P(A_j) × P(B|A_j)] for i = 1, 2, ..., n. Here P(A_i) is the prior probability of hypothesis A_i, P(B|A_i) is the likelihood of observing evidence B given A_i is true, the denominator is the total probability of evidence B computed via the Theorem of Total Probability, and P(A_i|B) is the posterior probability of A_i after observing B. A wrong answer reveals the student cannot distinguish between prior, likelihood, and posterior, or confuses the denominator with a simple sum of conditional probabilities without weighting by priors.",
+     "self_check": true
+    },
+    {
+     "q": "In the medical testing example from the textbook (liver disease prevalence 10%, alcoholism rate 5%, 7% of liver patients are alcoholic), a student calculates P(Alcoholic|Liver Disease) = 7% and claims this is the answer to \"probability of liver disease given alcoholic.\" Explain why this reasoning is incorrect and identify the specific probabilities that were confused.",
+     "a": "The student confused P(B|A) = 0.07 (probability of being alcoholic given liver disease) with P(A|B) (probability of liver disease given alcoholic). These are different conditional probabilities with reversed conditioning events. Bayes' theorem is precisely needed to \"flip\" the condition: P(A|B) = P(B|A)P(A)/P(B) = (0.07 × 0.10)/0.05 = 0.14. A wrong answer reveals the student does not understand that conditional probability is not symmetric and treats \"given\" as commutative, a fundamental misconception about the directionality of conditioning.",
+     "self_check": true
+    },
+    {
+     "q": "A diagnostic test for a disease has 95% sensitivity (true positive rate) and 90% specificity (true negative rate). The disease prevalence in the population is 2%. A person tests positive. Calculate the probability they actually have the disease. Show all steps including the total probability calculation.",
+     "a": "Let D = has disease, T+ = tests positive. Given: P(D) = 0.02, P(T+|D) = 0.95, P(T-|D') = 0.90 ⇒ P(T+|D') = 0.10.\nStep 1: P(T+) = P(T+|D)P(D) + P(T+|D')P(D') = (0.95 × 0.02) + (0.10 × 0.98) = 0.019 + 0.098 = 0.117.\nStep 2: P(D|T+) = P(T+|D)P(D) / P(T+) = 0.019 / 0.117 ≈ 0.1624 or 16.24%.\nA wrong answer (e.g., 95% or 85%) reveals the student ignored the base rate (prevalence) and committed the base rate fallacy, or incorrectly computed P(T+) by omitting the false positive contribution from the large healthy population.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the Theorem of Total Probability and Bayes' theorem. In what sense are they \"inverses\" of each other? Give a concrete example where you would use one but not the other.",
+     "a": "The Theorem of Total Probability computes P(B) = Σ P(A_i)P(B|A_i) — it moves from causes (partition A_i) to effect (B). Bayes' theorem computes P(A_i|B) = P(A_i)P(B|A_i)/P(B) — it moves from observed effect (B) back to causes (A_i). They are inverses in the sense that Total Probability gives the denominator needed for Bayes'. Example where only Total Probability is used: \"Find the overall probability a randomly selected bolt is defective\" (forward prediction). Example where only Bayes' is used: \"Given a defective bolt, find probability it came from Machine B\" (backward inference). A wrong answer reveals the student sees them as separate formulas rather than two directions of the same probabilistic relationship.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Since P(A|B) = P(B|A)P(A)/P(B), if P(A) is very small, P(A|B) will always be small regardless of the evidence B.\" Evaluate this claim. Is it always true, sometimes true, or never true? Justify with a numerical counterexample or proof.",
+     "a": "The claim is sometimes true but not always. P(A|B) depends on the ratio P(B|A)/P(B). If P(B|A) is large and P(B) is small (i.e., the evidence is rare but strongly predicted by A), the posterior can be large even with a tiny prior. Counterexample: P(A) = 0.001 (rare disease), P(B|A) = 0.99 (test catches it), P(B|A') = 0.0001 (very few false positives). Then P(B) ≈ 0.001×0.99 + 0.999×0.0001 ≈ 0.00109, so P(A|B) ≈ 0.99×0.001/0.00109 ≈ 0.908 — a 90.8% posterior from a 0.1% prior. A wrong answer reveals the student doesn't understand the interplay between likelihood ratio and prior, treating the prior as an absolute ceiling.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (different from textbook examples) involving three mutually exclusive and exhaustive hypotheses and an observed event, where Bayes' theorem would be used to update beliefs. Specify all prior probabilities and conditional probabilities with realistic numbers, then compute one posterior probability of your choice.",
+     "a": "Scenario: A Delhi Metro train delay can be caused by Signal Failure (S), Track Obstruction (T), or Staff Shortage (F). Based on historical data: P(S) = 0.50, P(T) = 0.30, P(F) = 0.20. Given the cause, probability of a \"Red Signal\" alert showing on the driver's panel: P(Red|S) = 0.95, P(Red|T) = 0.60, P(Red|F) = 0.10. A Red Signal alert is observed. Compute P(S|Red).\nSolution: P(Red) = 0.50×0.95 + 0.30×0.60 + 0.20×0.10 = 0.475 + 0.18 + 0.02 = 0.675. P(S|Red) = (0.50×0.95)/0.675 = 0.475/0.675 ≈ 0.7037.\nA poor answer would use unrealistic probabilities (e.g., summing >1), forget to verify the partition is exhaustive, or compute P(Red|S) instead of P(S|Red), showing inability to construct a valid Bayesian network from scratch.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,31 @@
      "q": "Design a robust function `read_integers(filename)` that reads a file containing one integer per line, returns a list of integers, and handles all possible file-related errors gracefully by printing appropriate messages and returning an empty list. The function must not crash on any input.",
      "a": "```python\ndef read_integers(filename):\n    try:\n        with open(filename, \"r\") as f:\n            numbers = []\n            for line in f:\n                line = line.strip()\n                if line:\n                    try:\n                        numbers.append(int(line))\n                    except ValueError:\n                        print(f\"Warning: Skipping invalid integer '{line}'\")\n            return numbers\n    except FileNotFoundError:\n        print(f\"Error: File '{filename}' not found.\")\n        return []\n    except PermissionError:\n        print(f\"Error: Permission denied to read '{filename}'.\")\n        return []\n    except OSError as e:\n        print(f\"Error reading file: {e}\")\n        return []\n```\nA poor answer might lack nested try-except for ValueError, catch only generic Exception, or not return an empty list on error. This reveals inability to handle multiple error layers (file opening and data parsing) and ensure a safe return value.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: File Handling Errors and Exception Handling refers to the ______ in Python to detect, catch, and manage runtime errors that occur during file operations (such as opening, reading, writing, closing) using try-except-finally blocks, ensuring program robustness and resource cleanup.",
+     "a": "mechanisms",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a program to read a student's marks from a file \"marks.txt\" to ______ the average.",
+     "a": "calculate",
+     "self_check": true
+    },
+    {
+     "q": "What is File Handling Errors and Exception Handling? State the definition given in this lesson.",
+     "a": "File Handling Errors and Exception Handling refers to the mechanisms in Python to detect, catch, and manage runtime errors that occur during file operations (such as opening, reading, writing, closing) using try-except-finally blocks, ensuring program robustness and resource cleanup.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about File Handling Errors and Exception Handling?",
+     "a": "Students often think that using try-except around open() is enough, and they forget that the file object must be closed in a finally block if with is not used.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write Python code that uses try-except-else-finally blocks to handle at least three different file-related exceptions (e.g., FileNotFoundError, PermissionError, IOError) and correctly uses the with statement for automatic resource management.",
+     "self_check": true
     }
    ]
   }

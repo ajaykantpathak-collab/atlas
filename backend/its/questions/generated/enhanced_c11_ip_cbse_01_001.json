@@ -34,6 +34,26 @@
      "q": "Design a new real-world scenario (different from food delivery, library, or spreadsheet) that clearly demonstrates all three stages of the IPO cycle and involves at least one input device, the CPU, and one output device. Describe the scenario in four sentences, labelling each IPO stage explicitly.",
      "a": "Scenario: A farmer uses a soil-moisture sensor (input device) that sends readings to a microcontroller (CPU) which compares the value to a threshold; if dry, the microcontroller activates a relay to turn on the irrigation pump (output device). Input: sensor captures analog moisture level and converts to digital data. Process: CPU executes comparison logic. Output: relay drives pump motor. A poor answer omits explicit stage labels, uses only human-operated devices (e.g., keyboard/monitor), or fails to show automated data flow — indicating the student cannot abstract the IPO model beyond familiar PC examples.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A computer is a ______ electronic device that accepts data (input), processes it according to a set of instructions (program), and produces meaningful information (output); a computer system is the integrated combination of the computer hardware (CPU, memory, input/output devices, storage) and software (system and application programs) functioning together as a unified unit to solve problems or perform tasks.",
+     "a": "programmable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you order a meal using a food-delivery app on your ______: you tap the screen to select dishes (input), the app sends your order to the restaurant’s server where it is processed and confirmed (process), and you receive a notification with the estimated delivery time (output).",
+     "a": "smartphone",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly define a computer and a computer system, explain the Input-Process-Output (IPO) cycle with a real-world example, list and describe the five key characteristics of computers (speed, accuracy, diligence, versatility, storage), and distinguish between hardware and software components in a given scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you order a meal using a food-delivery app on your smartphone: you tap the screen to select dishes (input), the app sends your order to the restaurant’s server where it is processed and confirmed (process), and you receive a ______ with the estimated delivery time (output).",
+     "a": "notification",
+     "self_check": true
     }
    ]
   }

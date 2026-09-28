@@ -34,6 +34,31 @@
      "q": "Create a grouped frequency distribution (with 5 classes, equal width 10) for which the mode calculated by the formula is **exactly at the midpoint of the modal class**. Provide the full table and verify your answer.",
      "a": "For the mode to be at the midpoint, the fraction [(f₁ - f₀)/(2f₁ - f₀ - f₂)] must equal **1/2**.  \nThis happens when **f₁ - f₀ = f₁ - f₂** ⇒ **f₀ = f₂**.  \nSo the frequencies of the classes immediately before and after the modal class must be equal.  \nExample:  \n| Class | Frequency |  \n|-------|-----------|  \n| 0-10  | 5         |  \n| 10-20 | 10        |  ← f₀  \n| 20-30 | **20**    |  ← modal class (f₁=20)  \n| 30-40 | 10        |  ← f₂ = f₀  \n| 40-50 | 5         |  \n**Verification:** l=20, f₁=20, f₀=10, f₂=10, h=10  \nMode = 20 + [(20-10)/(40-10-10)] × 10 = 20 + (10/20)×10 = 20 + 5 = **25** (midpoint of 20-30).  \nA poor answer (e.g., asymmetric frequencies) shows the student cannot reverse-engineer the formula's symmetry condition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The mode of grouped data is the value that lies in the class interval with the highest frequency (modal class), ______ using the formula: Mode = l + [(f₁ - f₀) / (2f₁ - f₀ - f₂)] × h, where l = lower limit of the modal class, f₁ = frequency of the modal class, f₀ = frequency of the class preceding the modal class, f₂ = frequency of the class succeeding the modal class, and h = class size (assumed equal for all classes).",
+     "a": "calculated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing the monthly electricity bills (in rupees) of 50 ______ in a Delhi colony.",
+     "a": "households",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The mode of grouped data is the value that lies in the class interval with the highest frequency (modal class), calculated using the formula: Mode = l + [(f₁ - f₀) / (______f₁ - f₀ - f₂)] × h, where l = lower limit of the modal class, f₁ = frequency of the modal class, f₀ = frequency of the class preceding the modal class, f₂ = frequency of the class succeeding the modal class, and h = class size (assumed equal for all classes).",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the modal class from a grouped frequency distribution, substitute the five required values (l, f₁, f₀, f₂, h) into the formula, perform the arithmetic accurately, and interpret the result as the estimated mode with appropriate units.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing the monthly ______ bills (in rupees) of 50 households in a Delhi colony.",
+     "a": "electricity",
+     "self_check": true
     }
    ]
   }

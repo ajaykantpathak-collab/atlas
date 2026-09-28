@@ -1,3 +1,4 @@
+import os
 ﻿import time
 import datetime
 import subprocess
@@ -8,7 +9,7 @@ import ssl
 import re
 
 API_URL = "https://api.claudeopus.pro/v1/messages"
-API_KEY = "sk-ant-co-QsK1rhxdfRWZ65OJ5cVxaAZ5ISNUY0lK"
+API_KEY = os.environ.get('ANTHROPIC_API_KEY') or ''
 MODEL = "claude-opus-5"
 CTX = ssl.create_default_context()
 CTX.check_hostname = False

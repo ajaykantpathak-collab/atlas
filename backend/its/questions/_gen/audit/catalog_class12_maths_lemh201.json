@@ -44,9 +44,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 5 * 1 * 1 + 4 * 1 + 1"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.201.7.2.2",
@@ -91,9 +89,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 5 * 5 * 5 + 4 * 5 + 1"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.201.7.2.3",
@@ -136,9 +132,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "x = (98 - 8) / 9"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.201.7.3.1",
@@ -181,9 +175,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "hcf = 9 * 1"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.201.7.3.2",
@@ -226,9 +218,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "s = 8 / 17"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.201.7.3.3",
@@ -271,9 +261,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = (6 / 10) ** 2 + (8 / 10) ** 2"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.201.7.4.1",
@@ -316,9 +304,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 5 ** (2 + 2)"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.201.7.5.1",
@@ -363,9 +349,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "prod = 6 * 6 / 7"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.201.7.6.1",
@@ -408,9 +392,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "hcf = 6 * 1"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.201.7.6.2",
@@ -455,9 +437,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 3 * 3 * 3 + 8 * 3 + 2"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.201.7.8.1",
@@ -545,9 +525,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "count = 5"
-   ]
+   "steps_chain": []
   }
  ]
 }

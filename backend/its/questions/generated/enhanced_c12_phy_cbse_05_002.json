@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a compass needle, a battery, and a coil of wire to demonstrate that a current loop behaves as a magnetic dipole. Specify how you would determine the direction of its magnetic moment.",
      "a": "Wind insulated copper wire (~20 turns) on a cardboard tube. Connect to a 1.5 V cell via a switch. Place a compass at the center of the coil’s axis. Close the switch; compass deflects. Use right-hand rule: curl fingers in current direction, thumb gives 𝐦 direction. Reverse current to see compass flip. A poor answer omits the right-hand rule or uses a straight wire instead of a loop.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Magnetic dipole moment (𝐦) is a vector quantity that ______ the magnetic strength and orientation of a magnet or current loop.",
+     "a": "characterizes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a compass needle aligning north-south — it behaves like a ______ dipole in Earth’s field.",
+     "a": "magnetic",
+     "self_check": true
+    },
+    {
+     "q": "What is Magnetic dipole moment (𝐦)? State the definition given in this lesson.",
+     "a": "Magnetic dipole moment (𝐦) is a vector quantity that characterizes the magnetic strength and orientation of a magnet or current loop.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Derive potential energy by integrating torque: 𝑑𝑈 = −𝛕·𝑑𝛉 → 𝑈 = −𝐦·𝐁 (zero at 𝜃 = ______°).",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Magnetic dipole moment (𝐦)?",
+     "a": "Students often think magnetic moment is a scalar because its magnitude 𝑚 = 𝐼𝐴 looks like a scalar product.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) compute magnetic moment of a current loop/solenoid from given 𝐼, 𝑁, 𝐴 with correct units and direction, (2) calculate torque and potential energy of a magnetic dipole in a uniform field using vector cross/dot products, and (3) explain the electrostatic analogy by mapping 𝐩 ↔ 𝐦, 𝐄 ↔ 𝐁, 1/4𝜋𝜀₀ ↔ 𝜇₀/4𝜋.",
+     "self_check": true
     }
    ]
   }

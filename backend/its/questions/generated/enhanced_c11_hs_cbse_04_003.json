@@ -34,6 +34,36 @@
      "q": "Design a personal \"Energy Audit Template\" for a Class 11 student to use for 5 days. Specify: (a) time granularity, (b) energy metrics to record, (c) activity categories, (d) analysis method to identify peak/trough patterns, and (e) one actionable adjustment rule derived from the data.",
      "a": "(a) 30-minute blocks for 16 waking hours (e.g., 6 AM-10 PM). (b) Energy level (1-5 scale: 1=exhausted, 5=peak focus), Cognitive demand of task (Low/Medium/High), Physical posture (Sitting/Standing/Moving). (c) Categories: Academic (core study, homework), Maintenance (meals, hygiene, commute), Recovery (sleep, nap, meditation, hobby), Social (family, friends, social media). (d) Plot Energy vs. Time of Day scatter; compute 3-day moving average; flag blocks where Energy ≤2 during High-cognitive tasks (mismatch) or Energy ≥4 during Low-cognitive tasks (wasted peak). (e) Adjustment rule: \"Shift highest-cognitive subject to the 90-minute window with highest average Energy score; move Low-cognitive tasks (review flashcards, organise notes) to lowest Energy windows.\" Poor answer: generic \"track activities\" without metrics, categories, or decision rule — fails to convert data into management action.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Time and Energy are finite, non-transferable human resources that every individual possesses in varying capacities; Time is the universally equal 24-hour daily continuum that cannot be stored or recovered once spent, while Energy is the ______ and psychological capacity for work that fluctuates based on health, age, motivation, and environmental conditions, and both must be consciously allocated across work, non-work, and rest-leisure dimensions to achieve goals efficiently.",
+     "a": "physiological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a major project due Friday, two exams next week, and you're constantly ______ by 4 PM — yet your friend with the same workload seems energetic and finishes everything by 8 PM.",
+     "a": "exhausted",
+     "self_check": true
+    },
+    {
+     "q": "What is Time and Energy? State the definition given in this lesson.",
+     "a": "Time and Energy are finite, non-transferable human resources that every individual possesses in varying capacities; Time is the universally equal 24-hour daily continuum that cannot be stored or recovered once spent, while Energy is the physiological and psychological capacity for work that fluctuates based on health, age, motivation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Time and Energy are finite, non-transferable human resources that every individual possesses in varying capacities; Time is the universally equal ______-hour daily continuum that cannot be stored or recovered once spent, while Energy is the physiological and psychological capacity for work that fluctuates based on health, age, motivation, and environmental conditions, and both must be consciously allocated across work, non-work, and rest-leisure dimensions to achieve goals efficiently.",
+     "a": "24",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Time and Energy?",
+     "a": "Students believe \"Time Management\" means squeezing more tasks into 24 hours (packing the container), ignoring that Energy is the actual limiting reagent.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can analyse a given daily schedule to identify imbalances across the three time dimensions (work, non-work, rest-leisure), calculate personal energy expenditure patterns using activity-intensity classification, and design a time-energy management plan that matches peak energy periods with high-cognitive-demand tasks while.",
+     "self_check": true
     }
    ]
   }

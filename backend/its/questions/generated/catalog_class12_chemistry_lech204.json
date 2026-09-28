@@ -1,0 +1,193 @@
+{
+ "catalog": "catalog_class12_chemistry_lech204.json",
+ "concepts": [
+  {
+   "id": "lech204.9.1.1",
+   "title": "Structure and Classification of Amines",
+   "converted_to_compute": true,
+   "formula": "amine_classes = primary_rnh_2 + secondary_rrnh + tertiary_r_3n",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "amine_classes = primary_rnh_2 + secondary_rrnh + tertiary_r_3n",
+     "compute": "amine_classes = primary_rnh_2 + secondary_rrnh + tertiary_r_3n"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Structure and Classification of Amines: given primary_rnh_2 = 75, secondary_rrnh = 76, tertiary_r_3n = 86, find amine classes.",
+     "a": "237",
+     "self_check": false
+    },
+    {
+     "q": "For Structure and Classification of Amines: given primary_rnh_2 = 19.7, secondary_rrnh = 52, tertiary_r_3n = 27, find amine classes.",
+     "a": "98.7",
+     "self_check": false
+    },
+    {
+     "q": "For Structure and Classification of Amines: given primary_rnh_2 = 1.4, secondary_rrnh = 68, tertiary_r_3n = 77, find amine classes.",
+     "a": "146.4",
+     "self_check": false
+    },
+    {
+     "q": "For Structure and Classification of Amines: given primary_rnh_2 = 11.8, secondary_rrnh = 62, tertiary_r_3n = 46, find amine classes.",
+     "a": "119.8",
+     "self_check": false
+    },
+    {
+     "q": "For Structure and Classification of Amines: given primary_rnh_2 = 45, secondary_rrnh = 32, tertiary_r_3n = 12.7, find amine classes.",
+     "a": "89.7",
+     "self_check": false
+    },
+    {
+     "q": "For Structure and Classification of Amines: given primary_rnh_2 = 91, secondary_rrnh = 85, tertiary_r_3n = 95, find amine classes.",
+     "a": "271",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech204.9.4.3",
+   "title": "Hoffmann Bromamide Degradation Carbon Count",
+   "converted_to_compute": true,
+   "formula": "amine_carbons = amide_carbons - 1",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "amine_carbons = amide_carbons - 1",
+     "compute": "amine_carbons = amide_carbons - 1"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Hoffmann Bromamide Degradation Carbon Count: given amide_carbons = 79, find amine carbons.",
+     "a": "78",
+     "self_check": false
+    },
+    {
+     "q": "For Hoffmann Bromamide Degradation Carbon Count: given amide_carbons = 97, find amine carbons.",
+     "a": "96",
+     "self_check": false
+    },
+    {
+     "q": "For Hoffmann Bromamide Degradation Carbon Count: given amide_carbons = 42, find amine carbons.",
+     "a": "41",
+     "self_check": false
+    },
+    {
+     "q": "For Hoffmann Bromamide Degradation Carbon Count: given amide_carbons = 87, find amine carbons.",
+     "a": "86",
+     "self_check": false
+    },
+    {
+     "q": "For Hoffmann Bromamide Degradation Carbon Count: given amide_carbons = 37, find amine carbons.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "For Hoffmann Bromamide Degradation Carbon Count: given amide_carbons = 62, find amine carbons.",
+     "a": "61",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech204.9.6.2",
+   "title": "Base Strength Ratio from pKb Values",
+   "converted_to_compute": true,
+   "formula": "strength_ratio = 10 ** (pkb_b - pkb_a)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "strength_ratio = 10 ** (pkb_b - pkb_a)",
+     "compute": "strength_ratio = 10 ** (pkb_b - pkb_a)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Base Strength Ratio from pKb Values: given pkb_b = 23, pkb_a = 70, find strength ratio.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Base Strength Ratio from pKb Values: given pkb_b = 27, pkb_a = 81, find strength ratio.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Base Strength Ratio from pKb Values: given pkb_b = 71, pkb_a = 96, find strength ratio.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Base Strength Ratio from pKb Values: given pkb_b = 68, pkb_a = 60, find strength ratio.",
+     "a": "100000000",
+     "self_check": false
+    },
+    {
+     "q": "For Base Strength Ratio from pKb Values: given pkb_b = 6.4, pkb_a = 71, find strength ratio.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Base Strength Ratio from pKb Values: given pkb_b = 7.6, pkb_a = 46, find strength ratio.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech204.9.6.4",
+   "title": "Tests That Separate Primary, Secondary and Tertiary Amines",
+   "converted_to_compute": true,
+   "formula": "carbylamine_positive = primary_amine_only",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "carbylamine_positive = primary_amine_only",
+     "compute": "carbylamine_positive = primary_amine_only"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Tests That Separate Primary, Secondary and Tertiary Amines: given primary_amine_only = 23, find carbylamine positive.",
+     "a": "23",
+     "self_check": false
+    },
+    {
+     "q": "For Tests That Separate Primary, Secondary and Tertiary Amines: given primary_amine_only = 46, find carbylamine positive.",
+     "a": "46",
+     "self_check": false
+    },
+    {
+     "q": "For Tests That Separate Primary, Secondary and Tertiary Amines: given primary_amine_only = 16.8, find carbylamine positive.",
+     "a": "16.8",
+     "self_check": false
+    },
+    {
+     "q": "For Tests That Separate Primary, Secondary and Tertiary Amines: given primary_amine_only = 16.6, find carbylamine positive.",
+     "a": "16.6",
+     "self_check": false
+    },
+    {
+     "q": "For Tests That Separate Primary, Secondary and Tertiary Amines: given primary_amine_only = 69, find carbylamine positive.",
+     "a": "69",
+     "self_check": false
+    },
+    {
+     "q": "For Tests That Separate Primary, Secondary and Tertiary Amines: given primary_amine_only = 14.4, find carbylamine positive.",
+     "a": "14.4",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

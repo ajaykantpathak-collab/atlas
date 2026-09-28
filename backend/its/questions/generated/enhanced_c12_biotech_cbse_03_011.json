@@ -34,6 +34,31 @@
      "q": "Design a gene cloning workflow to produce a thermostable α-amylase for the Indian textile industry (desizing cotton fabric at 80°C). Specify: (a) gene source organism, (b) vector and host system, (c) selection/screening method, (d) one industrial scale-up consideration. Justify each choice.",
      "a": "Expected answer: (a) Gene source: Thermophilic bacterium (e.g., Bacillus licheniformis, Geobacillus stearothermophilus) or archaea (Pyrococcus furiosus) — naturally thermostable α-amylase genes. (b) Vector/host: Expression vector (pET series) in E. coli BL21(DE3) for high-level T7-driven expression; alternatively Bacillus subtilis secretion system for extracellular production. (c) Screening: Activity-based screening on starch-agar plates at 70°C (iodine staining shows clearance zones) OR SDS-PAGE of induced lysates with activity assay. (d) Scale-up: Fed-batch fermentation with controlled glucose feeding to avoid acetate accumulation; downstream: cell lysis, heat treatment (70°C, 30 min) to denature host proteins while thermostable amylase remains active — simplifies purification. Poor answer reveals: using mesophilic amylase gene (e.g., from E. coli) ignoring thermostability requirement; choosing constitutive promoter causing toxicity; omitting heat-stable purification step that exploits the enzyme's property.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of gene cloning refer to the practical utilization of recombinant DNA technology to produce valuable proteins, engineer organisms with desired traits, diagnose diseases, and advance scientific research across medicine, agriculture, industry, and forensics by leveraging cloned genes and their expression products.",
+     "a": "Applications",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a diabetic patient in India who needs insulin daily — historically extracted from pig ______ with limited supply and allergic reactions.",
+     "a": "pancreases",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: We then extend this logic to Bt cotton, COVID-______ RT-PCR kits, and industrial enzymes — showing how the SAME cloning toolkit solves diverse problems.",
+     "a": "19",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) categorize a given real-world biotechnology product or technique into medical, agricultural, industrial, or research application domains with justification, and (2) design a logical cloning strategy (vector choice, host, selection method) for a specified application scenario such as producing human.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a diabetic patient in India who needs insulin daily — ______ extracted from pig pancreases with limited supply and allergic reactions.",
+     "a": "historically",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a Köppen classification flowchart (decision tree) that a Class 11 student can use to classify *any* Indian station from raw monthly temperature and rainfall data. Your flowchart must have exactly 5 decision diamonds (yes/no questions) leading to the three-letter code. Draw it textually using indentation and arrows.",
      "a": "Expected flowchart structure (textual):\n```\nSTART: Input 12 monthly T (°C) and P (mm)\n1. Is coldest month ≥ 18°C? → YES → Group A (Tropical)\n      → NO → Go to 2\n2. Is coldest month ≤ -3°C? → YES → Group D/E (Cold/Polar) → Go to 4\n      → NO → Group C (Temperate) → Go to 3\n3. (Group C) Is driest month in summer (Apr-Sep) < 40 mm? → YES → Second = s\n      → NO → Is driest month in winter (Oct-Mar) < 60 mm? → YES → Second = w\n      → NO → Second = f\n   Then: Is warmest month ≥ 22°C? → YES → Third = a → NO → Third = b\n   → OUTPUT C + second + third\n4. (Group D) Is driest month in summer < 40 mm? → YES → Second = s\n      → NO → Is driest month in winter < 60 mm? → YES → Second = w\n      → NO → Second = f\n   Then: Is warmest month ≥ 22°C? → YES → Third = a\n      → NO → Is warmest month ≥ 10°C? → YES → Third = b\n      → NO → Is warmest month > 0°C? → YES → Third = c → NO → Third = d\n   → OUTPUT D + second + third\n5. (Group A) Is driest month < 60 mm? → YES → Is annual P > 25×(100 - %dry)? → YES → Second = m → NO → Second = w\n      → NO → Second = f\n   Third letter always omitted for A (or use a/b/c for temp nuance)\n   → OUTPUT A + second\nEND\n```\nA poor answer omits the aridity threshold calculation for B climates or the 25×(100-%dry) formula for Am vs Aw — showing they memorized codes but not the *decision logic*.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Köppen Climate ______ system categorizes India's climatic regions based on precise thresholds of monthly temperature and precipitation patterns, using letter codes (first: major climate group, second: precipitation seasonality, third: temperature severity) to delineate boundaries such as Tropical Monsoon (Am), Tropical Savannah (Aw), Subtropical Steppe (BSh), Subtropical Desert (BWh), Humid Subtropical (Cwa), and Cold Humid (Dfc) across the subcontinent.",
+     "a": "Classification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how a mango orchard in Ratnagiri (Konkan) fruits differently from one in Jodhpur (Thar) ______ both being \"hot\" — the difference lies in *when* and *how much* rain falls.",
+     "a": "despite",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can interpret a climatic data table (monthly temperature and rainfall) for any Indian station, apply Köppen's letter-code criteria stepwise to assign the correct climate type, and justify the classification by referencing specific threshold values (e.g., driest month < 60 mm, coldest month > 18°C).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how a mango orchard in Ratnagiri (Konkan) fruits ______ from one in Jodhpur (Thar) despite both being \"hot\" — the difference lies in *when* and *how much* rain falls.",
+     "a": "differently",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Construct a two-sector circular flow diagram for an economy where households own all factors of production, firms produce only consumption goods, and there is no government or foreign trade. Label all real flows and monetary flows. Then modify it to show what changes if households save 10% of income and firms invest that amount.",
      "a": "Base diagram: Inner clockwise loop (real flows) — Factor services (land, labor, capital, entrepreneurship) from households → firms; Finished goods/services from firms → households. Outer counter-clockwise loop (monetary flows) — Factor payments (wages, rent, interest, profit) from firms → households; Consumption expenditure from households → firms. Modified diagram: Add a \"Financial Market\" box between households and firms. Leakage arrow: Saving (10% of income) from households → Financial Market. Injection arrow: Investment (equal to saving) from Financial Market → firms. Consumption expenditure arrow reduces to 90% of income. A poor diagram missing the financial market or showing saving as a dead-end (not flowing to investment) reveals misunderstanding of the saving-investment identity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The circular flow of income ______ the continuous flow of money, goods, and services between households and firms in an economy, where household expenditure becomes firm revenue, and firm factor payments become household income.",
+     "a": "illustrates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you buy a ₹50 dosa from a street ______ in Bengaluru.",
+     "a": "vendor",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you buy a ₹______ dosa from a street vendor in Bengaluru.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can draw and label a two-sector circular flow diagram showing real and monetary flows, explain why the three methods produce identical GDP values using the fundamental identity (Output = Income = Expenditure), and identify which transactions belong to each method's calculation while avoiding double counting.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you buy a ₹50 dosa from a street vendor in ______.",
+     "a": "Bengaluru",
+     "self_check": true
     }
    ]
   }

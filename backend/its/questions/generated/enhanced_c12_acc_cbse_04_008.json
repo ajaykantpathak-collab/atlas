@@ -34,6 +34,21 @@
      "q": "Create a numerical problem where Garner v Murray applies, involving 4 partners with profit-sharing ratio 4:3:2:1, realization profit, and one insolvent partner with deficiency. Provide the problem statement only.",
      "a": "Good problem example: \"W, X, Y, Z share profits 4:3:2:1. Capitals: W ₹80,000, X ₹60,000, Y ₹40,000, Z ₹20,000. On dissolution, assets realized at ₹50,000 profit. Z is insolvent. Show capital accounts and cash distribution.\" A poor problem (e.g., no realization profit/loss, or all partners solvent) reveals the student cannot identify the necessary components: profit-sharing ratio, realization outcome, and resulting deficiency of an insolvent partner.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Garner v Murray rule is a legal principle applied during the ______ of a partnership firm when a partner becomes insolvent and cannot pay the deficit in their capital account.",
+     "a": "dissolution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ firm dissolving: assets are sold, liabilities paid, but one partner's capital account shows a debit balance (deficiency) and they are declared bankrupt.",
+     "a": "partnership",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Identify when Garner v Murray rule applies (dissolution + partner insolvency + capital deficiency), (2) Calculate the insolvent partner's deficiency after realizing assets and paying liabilities, (3) Allocate the deficiency among solvent partners in their profit-sharing ratio, and (4) Pass correct journal.",
+     "self_check": true
     }
    ]
   }

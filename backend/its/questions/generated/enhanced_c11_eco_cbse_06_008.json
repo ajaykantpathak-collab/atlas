@@ -34,6 +34,36 @@
      "q": "Design a mini-survey questionnaire (5 questions) to identify seasonal unemployment among migrant construction workers in an urban area, ensuring it captures the NSO's Current Weekly Status framework while adding a seasonal dimension. Explain how your questions avoid the \"1-hour criterion\" pitfall.",
      "a": "Good answer includes: (1) \"In the last 7 days, how many days did you work for pay/profit?\" (captures CDS intensity), (2) \"In the last 365 days, how many months did you have NO work available?\" (seasonal gap), (3) \"During months with no work, did you return to your village?\" (migration link), (4) \"When working, how many hours per day on average?\" (avoids 1-hour trap by measuring intensity), (5) \"Are you registered with any employment exchange/portal?\" (data source link). A poor answer uses only \"Are you employed?\" binary questions, replicating the Usual Status flaw of masking seasonal joblessness. This tests ability to translate measurement concepts into data collection design.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Unemployment measurement in India refers to the statistical ______ used by the National Statistical Office (NSO) and other agencies to quantify the number of people who are willing and available to work at prevailing wage rates but cannot find employment, expressed through indicators such as the Unemployment Rate (UR), Labour Force Participation Rate (LFPR), and Worker Population Ratio (WPR), derived from surveys like the Periodic Labour Force Survey (PLFS) and Census.",
+     "a": "methodologies",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a policy analyst in NITI Aayog reviewing the latest PLFS 2023-24 report showing a 3.2% ______ rate.",
+     "a": "unemployment",
+     "self_check": true
+    },
+    {
+     "q": "What is Unemployment measurement in India? State the definition given in this lesson.",
+     "a": "Unemployment measurement in India refers to the statistical methodologies used by the National Statistical Office (NSO) and other agencies to quantify the number of people who are willing and available to work at prevailing wage rates but cannot find employment, expressed through indicators such as the Unemployment Rate (UR), Labour.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"How can unemployment be low when people are visibly underemployed?\" This leads to the core measurement problem: the definition of \"work\" (even ______ hour in half a day counts as employed).",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Unemployment measurement in India?",
+     "a": "Students believe \"Unemployment Rate\" is a single, unambiguous number for India.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the Unemployment Rate and Worker Population Ratio from given labour force data, distinguish between open, disguised, and seasonal unemployment using Indian examples, and explain why the NSO's \"usual status\" and \"current weekly status\" measures yield different unemployment estimates for the same population.",
+     "self_check": true
     }
    ]
   }

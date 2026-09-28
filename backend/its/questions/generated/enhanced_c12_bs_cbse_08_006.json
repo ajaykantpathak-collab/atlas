@@ -34,6 +34,31 @@
      "q": "Design a break-even scenario for a small Indian bakery selling custom cakes. Specify: selling price per cake, variable cost per cake, monthly fixed costs. Then create a decision problem: \"The baker can invest in an automated mixer (increases fixed cost by ₹8,000/month, reduces variable cost by ₹30/cake). At what monthly sales volume does this investment become profitable?\" Solve your own problem.",
      "a": "**Example Scenario:**  \nSelling Price = ₹500/cake, Variable Cost = ₹200/cake, Fixed Cost = ₹60,000/month  \nCurrent Contribution = ₹300, Current BEP = 200 cakes  \n**Investment Decision:** New Fixed Cost = ₹68,000, New Variable Cost = ₹170, New Contribution = ₹330  \nNew BEP = ₹68,000 / ₹330 ≈ 206 cakes  \n**Indifference Point (where profit is equal):**  \n(Units × ₹300) - ₹60,000 = (Units × ₹330) - ₹68,000  \n₹30X = ₹8,000 → X = 267 cakes  \n**Answer:** Investment profitable above 267 cakes/month. Below that, current method better.  \n**What a poor answer reveals:** If the student only compares BEPs (200 vs 206) and says \"don't invest because BEP increases,\" they miss that profit comparison requires indifference point analysis. If they set up equation incorrectly (e.g., equating revenues instead of profits), they lack algebraic modeling skill. This tests CREATE-level synthesis of BEP, profit function, and decision-making.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Break-Even Analysis is a ______ technique of managerial control that determines the level of sales (in units or revenue) at which total revenue equals total costs, resulting in neither profit nor loss.",
+     "a": "traditional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're helping your cousin who runs a small ______ service in Delhi.",
+     "a": "tiffin",
+     "self_check": true
+    },
+    {
+     "q": "What is Break-Even Analysis? State the definition given in this lesson.",
+     "a": "Break-Even Analysis is a traditional technique of managerial control that determines the level of sales (in units or revenue) at which total revenue equals total costs, resulting in neither profit nor loss.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Break-Even Analysis?",
+     "a": "Misconception: \"Break-Even Point is the target sales level a company should aim for.\" Why it's wrong: BEP is the minimum sales to avoid loss — it is a survival threshold, not a target.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Calculate BEP in units and sales value using the formula BEP = Fixed Costs / Contribution per unit, (2) Construct and interpret a break-even chart with proper labeling of axes, fixed cost line, total cost line, total revenue line, BEP, margin of safety, and profit/loss zones, (3) Analyze the impact of.",
+     "self_check": true
     }
    ]
   }

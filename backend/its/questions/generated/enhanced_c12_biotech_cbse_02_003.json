@@ -34,6 +34,36 @@
      "q": "Design a ligation strategy to directionally clone a PCR product (with blunt ends) into a plasmid vector such that the insert can only ligate in one orientation. Specify the enzymes and steps.",
      "a": "A good answer: (1) Digest the vector with two different restriction enzymes that produce incompatible sticky ends (e.g., EcoRI and BamHI) at the multiple cloning site. (2) Engineer the PCR primers to add the same two restriction sites (EcoRI at forward primer, BamHI at reverse primer) to the ends of the amplicon. (3) Digest the PCR product with EcoRI and BamHI to generate compatible sticky ends. (4) Ligate with T4 DNA ligase. The insert can only ligate in the orientation where its EcoRI end matches the vector's EcoRI end and its BamHI end matches the vector's BamHI end. A poor answer (e.g., \"use blunt-end ligation and screen by sequencing\") shows inability to apply the principle that sticky-end compatibility enforces directionality — a key competency for cloning design.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: DNA ligase is an enzyme that catalyzes the formation of a ______ bond between the 3'-hydroxyl group of one nucleotide and the 5'-phosphate group of an adjacent nucleotide in a DNA strand, using ATP (in eukaryotes and bacteriophages) or NAD⁺ (in bacteria) as a cofactor to provide the energy for the condensation reaction.",
+     "a": "phosphodiester",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have cut a plasmid vector with EcoRI and a human insulin gene with the same enzyme — both now have ______ sticky ends.",
+     "a": "complementary",
+     "self_check": true
+    },
+    {
+     "q": "What is DNA ligase? State the definition given in this lesson.",
+     "a": "DNA ligase is an enzyme that catalyzes the formation of a phosphodiester bond between the 3'-hydroxyl group of one nucleotide and the 5'-phosphate group of an adjacent nucleotide in a DNA strand, using ATP (in eukaryotes and bacteriophages) or NAD⁺ (in bacteria) as a cofactor to provide the energy for the condensation reaction.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You mix them, add DNA ligase and ATP, and incubate at ______°C overnight.",
+     "a": "16",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about DNA ligase?",
+     "a": "Students often believe that DNA ligase \"recognizes\" specific DNA sequences like restriction enzymes do.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) draw the three-step mechanism of DNA ligase showing the enzyme-AMP intermediate, the 5'-adenylated DNA intermediate, and the final phosphodiester bond formation with release of AMP, and (2) explain why compatible cohesive ends (sticky ends) ligate more efficiently than blunt ends in terms of base-pairing.",
+     "self_check": true
     }
    ]
   }

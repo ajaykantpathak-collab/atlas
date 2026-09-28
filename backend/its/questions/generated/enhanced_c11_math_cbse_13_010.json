@@ -34,6 +34,31 @@
      "q": "Construct a function f(x) involving at least three different trigonometric functions (from sin, cos, tan, cot, sec, cosec) and one polynomial term such that f'(x) contains exactly four terms. Write the function and its derivative.",
      "a": "Example: f(x) = 2 sin x + 3 cos x - 4 tan x + 5x². Then f'(x) = 2 cos x - 3 sin x - 4 sec²x + 10x (four terms). A good answer demonstrates understanding that polynomial terms differentiate to polynomial terms (not trig), and each trig term produces one derivative term. A poor answer (e.g., f(x) = sin x cos x + tan x) yields product rule complications or fewer terms, revealing the student doesn't distinguish between sum/difference (term-preserving) and product/quotient (term-combining) operations.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The derivative of a ______ function f(x) at a point x is the limit of the difference quotient as h approaches 0, yielding standard results: d/dx(sin x) = cos x, d/dx(cos x) = -sin x, d/dx(tan x) = sec²x, d/dx(cot x) = -cosec²x, d/dx(sec x) = sec x tan x, d/dx(cosec x) = -cosec x cot x, valid for all x in the domain of the respective functions where the limits exist.",
+     "a": "trigonometric",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're designing a roller coaster track where the height at any point follows a sine wave ______ — you need to know how steep the track is at any point to ensure safety.",
+     "a": "pattern",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The derivative of a trigonometric function f(x) at a point x is the limit of the difference quotient as h approaches ______, yielding standard results: d/dx(sin x) = cos x, d/dx(cos x) = -sin x, d/dx(tan x) = sec²x, d/dx(cot x) = -cosec²x, d/dx(sec x) = sec x tan x, d/dx(cosec x) = -cosec x cot x, valid for all x in the domain of the respective functions where the limits exist.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can compute derivatives of all six trigonometric functions using first principles and standard limits, apply algebra of derivatives (sum, product, quotient rules) to combinations of trigonometric and polynomial functions, and solve board-level problems requiring chain-rule-like reasoning without explicitly using chain rule (since.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're ______ a roller coaster track where the height at any point follows a sine wave pattern — you need to know how steep the track is at any point to ensure safety.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

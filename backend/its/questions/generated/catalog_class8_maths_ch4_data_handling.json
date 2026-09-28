@@ -4,19 +4,13 @@
   {
    "id": "c8m4.1.1",
    "title": "Data and Graphical Representation",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "set up the proportion and solve for the unknown part",
-     "explain": "set up the proportion and solve for the unknown part: t1 = 24 / 4 gives 6",
-     "compute": "t1 = 24 / 4"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "bar height proportional to value; bars of equal width with equal gaps",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 24 : 36 in its simplest form and give the first term of the simplest form.",
-     "a": "6",
+     "a": "2",
      "self_check": false
     },
     {
@@ -50,6 +44,8 @@
    "id": "c8m4.2.1",
    "title": "Circle Graph or Pie Chart",
    "converted_to_compute": false,
+   "formula": "proportion of sector = part / whole",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 50 : 70 in its simplest form and give the first term of the simplest form.",
@@ -87,6 +83,8 @@
    "id": "c8m4.2.2",
    "title": "Drawing Pie Charts (Central Angle)",
    "converted_to_compute": false,
+   "formula": "central angle = (value / total) x 360",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 52 degrees, find the other.",
@@ -124,6 +122,8 @@
    "id": "c8m4.2.3",
    "title": "Reading Values from a Pie Chart",
    "converted_to_compute": false,
+   "formula": "required amount = (given amount / given percent) x target percent",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 30% of 80.",
@@ -160,15 +160,9 @@
   {
    "id": "c8m4.3.1",
    "title": "Random Experiments and Equally Likely Outcomes",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "divide favourable outcomes by total outcomes",
-     "explain": "divide favourable outcomes by total outcomes: p = 3 / 6 gives 0.5",
-     "compute": "p = 3 / 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "equally likely: each outcome has the same chance",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A die is rolled once. What is the probability of getting a number greater than 3? (give the fraction)",
@@ -206,6 +200,8 @@
    "id": "c8m4.3.2",
    "title": "Probability of an Event",
    "converted_to_compute": false,
+   "formula": "probability = favorable outcomes / total outcomes",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A die is rolled once. What is the probability of getting a number greater than 4? (give the fraction)",

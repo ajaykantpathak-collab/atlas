@@ -34,6 +34,36 @@
      "q": "Design a simple classroom demonstration (using everyday materials) to model the concept of a chain reaction in nuclear fission. Explain how your model represents neutrons, uranium nuclei, and the critical mass condition.",
      "a": "A good model: Use a tray of mousetraps (set) with a ping-pong ball on each. Throw one ball (initial neutron) — it hits a trap, releasing two balls (neutrons), which hit two more traps, etc. This shows exponential growth. Critical mass = minimum number of traps needed so that on average each fission triggers at least one more fission. A poor model (e.g., dominoes falling in a line) reveals the student does not grasp the branching, multiplicative nature of a chain reaction versus a linear sequence.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Nuclear fission is the process in which a heavy nucleus (such as uranium-235) splits into two or more lighter nuclei when bombarded with a slow neutron, releasing a tremendous amount of energy due to the conversion of mass defect into energy as per Einstein's mass-energy ______ (E = Δmc²).",
+     "a": "equivalence",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: the Sun shining in the sky and a nuclear power plant like Tarapur or Kudankulam generating ______.",
+     "a": "electricity",
+     "self_check": true
+    },
+    {
+     "q": "What is Nuclear fission? State the definition given in this lesson.",
+     "a": "Nuclear fission is the process in which a heavy nucleus (such as uranium-235) splits into two or more lighter nuclei when bombarded with a slow neutron, releasing a tremendous amount of energy due to the conversion of mass defect into energy as per Einstein's mass-energy equivalence (E = Δmc²).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Nuclear fission is the process in which a heavy nucleus (such as uranium-______) splits into two or more lighter nuclei when bombarded with a slow neutron, releasing a tremendous amount of energy due to the conversion of mass defect into energy as per Einstein's mass-energy equivalence (E = Δmc²).",
+     "a": "235",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Nuclear fission?",
+     "a": "Students believe that in nuclear fission, the energy comes from \"breaking the nuclear bonds\" just like chemical energy comes from breaking chemical bonds.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write balanced nuclear equations for typical fission (U-235 + n → Ba-141 + Kr-92 + 3n) and fusion (²H + ³H → ⁴He + n) reactions, calculate the energy released in joules given the mass defect in kg or atomic mass units (u), and explain why fusion releases more energy per unit mass than fission while requiring more extreme.",
+     "self_check": true
     }
    ]
   }

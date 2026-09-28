@@ -34,6 +34,31 @@
      "q": "Create a mini cash book (5 transactions: 2 receipts, 2 payments, 1 contra) for a freelance graphic designer for one week. Then show the complete ledger postings for all affected accounts (excluding cash/bank). Include at least one cheque transaction.",
      "a": "Expected answer: A valid cash book with correct columns, L.F. 'C' for contra, and ledger accounts showing: debtors credited with \"Cash\"/\"Bank\", expenses debited with \"Cash\"/\"Bank\", contra omitted. Poor answer (missing contra marking, wrong narration, posting contra) reveals mechanical copying without understanding the *why* behind each posting rule.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Posting from Cash Book to Ledger is the process of ______ entries recorded in the cash book (both debit/receipts and credit/payments sides) to the respective ledger accounts, following the double-entry principle: accounts appearing on the debit side of the cash book are credited in the ledger with \"Cash\" or \"Bank\" in the particulars column, while accounts on the credit side are debited similarly; contra entries (marked 'C') are excluded from ledger posting as they represent internal cash-bank transfers.",
+     "a": "transferring",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small kirana ______ and have just finished writing your cash book for the month.",
+     "a": "store",
+     "self_check": true
+    },
+    {
+     "q": "What is Posting from Cash Book to Ledger? State the definition given in this lesson.",
+     "a": "Posting from Cash Book to Ledger is the process of transferring entries recorded in the cash book (both debit/receipts and credit/payments sides) to the respective ledger accounts, following the double-entry principle: accounts appearing on the debit side of the cash book are credited in the ledger with \"Cash\" or \"Bank\" in the.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Posting from Cash Book to Ledger?",
+     "a": "Students often post contra entries (cash deposited/withdrawn) to the ledger by creating separate \"Cash\" and \"Bank\" ledger accounts and debiting/crediting them.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must independently post a given double-column cash book (with at least 10 transactions including contra entries, cheque deposits/withdrawals, and dishonoured cheques) to all affected ledger accounts, correctly identifying which entries are posted and which are omitted, and produce balanced ledger accounts with accurate.",
+     "self_check": true
     }
    ]
   }

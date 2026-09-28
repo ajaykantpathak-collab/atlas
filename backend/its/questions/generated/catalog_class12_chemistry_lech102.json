@@ -1,0 +1,428 @@
+{
+ "catalog": "catalog_class12_chemistry_lech102.json",
+ "concepts": [
+  {
+   "id": "lech.02.2.2.1",
+   "title": "Standard Cell Potential from Electrode Potentials",
+   "converted_to_compute": true,
+   "formula": "e_0_cell = e_0_cathode - e_0_anode",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "e_0_cell = e_0_cathode - e_0_anode",
+     "compute": "e_0_cell = e_0_cathode - e_0_anode"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Standard Cell Potential from Electrode Potentials: given e_0_cathode = 71, e_0_anode = 3.2, find e 0 cell.",
+     "a": "67.8",
+     "self_check": false
+    },
+    {
+     "q": "For Standard Cell Potential from Electrode Potentials: given e_0_cathode = 54, e_0_anode = 31, find e 0 cell.",
+     "a": "23",
+     "self_check": false
+    },
+    {
+     "q": "For Standard Cell Potential from Electrode Potentials: given e_0_cathode = 12.4, e_0_anode = 25, find e 0 cell.",
+     "a": "-12.6",
+     "self_check": false
+    },
+    {
+     "q": "For Standard Cell Potential from Electrode Potentials: given e_0_cathode = 48, e_0_anode = 29, find e 0 cell.",
+     "a": "19",
+     "self_check": false
+    },
+    {
+     "q": "For Standard Cell Potential from Electrode Potentials: given e_0_cathode = 16.6, e_0_anode = 31, find e 0 cell.",
+     "a": "-14.4",
+     "self_check": false
+    },
+    {
+     "q": "For Standard Cell Potential from Electrode Potentials: given e_0_cathode = 2.3, e_0_anode = 65, find e 0 cell.",
+     "a": "-62.7",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.02.2.3.1",
+   "title": "Nernst Equation for Cell emf at 298 K",
+   "converted_to_compute": true,
+   "formula": "e_cell = e_0_cell - (0.059 / n_electrons) * log_quotient",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "e_cell = e_0_cell - (0.059 / n_electrons) * log_quotient",
+     "compute": "e_cell = e_0_cell - (0.059 / n_electrons) * log_quotient"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Nernst Equation for Cell emf at 298 K: given e_0_cell = 87, n_electrons = 16.8, log_quotient = 91, find e cell.",
+     "a": "86.6804",
+     "self_check": false
+    },
+    {
+     "q": "For Nernst Equation for Cell emf at 298 K: given e_0_cell = 94, n_electrons = 14.4, log_quotient = 92, find e cell.",
+     "a": "93.6231",
+     "self_check": false
+    },
+    {
+     "q": "For Nernst Equation for Cell emf at 298 K: given e_0_cell = 16.8, n_electrons = 4.9, log_quotient = 83, find e cell.",
+     "a": "15.8006",
+     "self_check": false
+    },
+    {
+     "q": "For Nernst Equation for Cell emf at 298 K: given e_0_cell = 62, n_electrons = 15.2, log_quotient = 28, find e cell.",
+     "a": "61.8913",
+     "self_check": false
+    },
+    {
+     "q": "For Nernst Equation for Cell emf at 298 K: given e_0_cell = 77, n_electrons = 8.5, log_quotient = 63, find e cell.",
+     "a": "76.5627",
+     "self_check": false
+    },
+    {
+     "q": "For Nernst Equation for Cell emf at 298 K: given e_0_cell = 29, n_electrons = 3.9, log_quotient = 3.6, find e cell.",
+     "a": "28.9455",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.02.2.3.3",
+   "title": "Gibbs Energy of the Cell Reaction",
+   "converted_to_compute": true,
+   "formula": "gibbs_kj = (0 - n_electrons * faraday_const * e_0_cell) / 1000",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "gibbs_kj = (0 - n_electrons * faraday_const * e_0_cell) / 1000",
+     "compute": "gibbs_kj = (0 - n_electrons * faraday_const * e_0_cell) / 1000"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Gibbs Energy of the Cell Reaction: given n_electrons = 17, faraday_const = 100, e_0_cell = 55, find gibbs kj.",
+     "a": "-93.5",
+     "self_check": false
+    },
+    {
+     "q": "For Gibbs Energy of the Cell Reaction: given n_electrons = 12.5, faraday_const = 63, e_0_cell = 90, find gibbs kj.",
+     "a": "-70.875",
+     "self_check": false
+    },
+    {
+     "q": "For Gibbs Energy of the Cell Reaction: given n_electrons = 8.8, faraday_const = 29, e_0_cell = 92, find gibbs kj.",
+     "a": "-23.4784",
+     "self_check": false
+    },
+    {
+     "q": "For Gibbs Energy of the Cell Reaction: given n_electrons = 4.4, faraday_const = 53, e_0_cell = 8.2, find gibbs kj.",
+     "a": "-1.91224",
+     "self_check": false
+    },
+    {
+     "q": "For Gibbs Energy of the Cell Reaction: given n_electrons = 2.2, faraday_const = 7.5, e_0_cell = 61, find gibbs kj.",
+     "a": "-1.0065",
+     "self_check": false
+    },
+    {
+     "q": "For Gibbs Energy of the Cell Reaction: given n_electrons = 18, faraday_const = 10.1, e_0_cell = 40, find gibbs kj.",
+     "a": "-7.272",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.02.2.4.1",
+   "title": "Cell Constant and Conductivity from Resistance",
+   "converted_to_compute": true,
+   "formula": "kappa_unknown = (kappa_known * resistance_known) / resistance_unknown",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "kappa_unknown = (kappa_known * resistance_known) / resistance_unknown",
+     "compute": "kappa_unknown = (kappa_known * resistance_known) / resistance_unknown"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Cell Constant and Conductivity from Resistance: given kappa_known = 57, resistance_known = 498, resistance_unknown = 119, find kappa unknown.",
+     "a": "238.538",
+     "self_check": false
+    },
+    {
+     "q": "For Cell Constant and Conductivity from Resistance: given kappa_known = 87, resistance_known = 62, resistance_unknown = 410, find kappa unknown.",
+     "a": "13.1561",
+     "self_check": false
+    },
+    {
+     "q": "For Cell Constant and Conductivity from Resistance: given kappa_known = 82, resistance_known = 409, resistance_unknown = 311, find kappa unknown.",
+     "a": "107.839",
+     "self_check": false
+    },
+    {
+     "q": "For Cell Constant and Conductivity from Resistance: given kappa_known = 18.9, resistance_known = 151, resistance_unknown = 102, find kappa unknown.",
+     "a": "27.9794",
+     "self_check": false
+    },
+    {
+     "q": "For Cell Constant and Conductivity from Resistance: given kappa_known = 35, resistance_known = 361, resistance_unknown = 224, find kappa unknown.",
+     "a": "56.4062",
+     "self_check": false
+    },
+    {
+     "q": "For Cell Constant and Conductivity from Resistance: given kappa_known = 40, resistance_known = 193, resistance_unknown = 248, find kappa unknown.",
+     "a": "31.129",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.02.2.4.2",
+   "title": "Molar Conductivity from Conductivity",
+   "converted_to_compute": true,
+   "formula": "lambda_m = 1000 * kappa / molarity",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "lambda_m = 1000 * kappa / molarity",
+     "compute": "lambda_m = 1000 * kappa / molarity"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Molar Conductivity from Conductivity: given kappa = 38, molarity = 7.7, find lambda m.",
+     "a": "4935.06",
+     "self_check": false
+    },
+    {
+     "q": "For Molar Conductivity from Conductivity: given kappa = 16.2, molarity = 6.5, find lambda m.",
+     "a": "2492.31",
+     "self_check": false
+    },
+    {
+     "q": "For Molar Conductivity from Conductivity: given kappa = 88, molarity = 7.8, find lambda m.",
+     "a": "11282.1",
+     "self_check": false
+    },
+    {
+     "q": "For Molar Conductivity from Conductivity: given kappa = 27, molarity = 3.1, find lambda m.",
+     "a": "8709.68",
+     "self_check": false
+    },
+    {
+     "q": "For Molar Conductivity from Conductivity: given kappa = 62, molarity = 7.6, find lambda m.",
+     "a": "8157.89",
+     "self_check": false
+    },
+    {
+     "q": "For Molar Conductivity from Conductivity: given kappa = 15.6, molarity = 3.1, find lambda m.",
+     "a": "5032.26",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.02.2.5.1",
+   "title": "Kohlrausch Law of Independent Migration",
+   "converted_to_compute": true,
+   "formula": "lambda_0 = n_cation * lambda_cation + n_anion * lambda_anion",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "lambda_0 = n_cation * lambda_cation + n_anion * lambda_anion",
+     "compute": "lambda_0 = n_cation * lambda_cation + n_anion * lambda_anion"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Kohlrausch Law of Independent Migration: given n_cation = 13.1, lambda_cation = 53, n_anion = 7.9, lambda_anion = 75, find lambda 0.",
+     "a": "1286.8",
+     "self_check": false
+    },
+    {
+     "q": "For Kohlrausch Law of Independent Migration: given n_cation = 13.8, lambda_cation = 43, n_anion = 14.1, lambda_anion = 52, find lambda 0.",
+     "a": "1326.6",
+     "self_check": false
+    },
+    {
+     "q": "For Kohlrausch Law of Independent Migration: given n_cation = 11.2, lambda_cation = 28, n_anion = 10, lambda_anion = 64, find lambda 0.",
+     "a": "953.6",
+     "self_check": false
+    },
+    {
+     "q": "For Kohlrausch Law of Independent Migration: given n_cation = 9.4, lambda_cation = 84, n_anion = 14.7, lambda_anion = 98, find lambda 0.",
+     "a": "2230.2",
+     "self_check": false
+    },
+    {
+     "q": "For Kohlrausch Law of Independent Migration: given n_cation = 9.4, lambda_cation = 4.9, n_anion = 16.8, lambda_anion = 51, find lambda 0.",
+     "a": "902.86",
+     "self_check": false
+    },
+    {
+     "q": "For Kohlrausch Law of Independent Migration: given n_cation = 14.8, lambda_cation = 78, n_anion = 10.3, lambda_anion = 51, find lambda 0.",
+     "a": "1679.7",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.02.2.5.2",
+   "title": "Degree of Dissociation and Ka of a Weak Electrolyte",
+   "converted_to_compute": true,
+   "formula": "ka = molarity * alpha ** 2 / (1 - alpha)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ka = molarity * alpha ** 2 / (1 - alpha)",
+     "compute": "ka = molarity * alpha ** 2 / (1 - alpha)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Degree of Dissociation and Ka of a Weak Electrolyte: given molarity = 1.7, alpha = 26, find ka.",
+     "a": "-45.968",
+     "self_check": false
+    },
+    {
+     "q": "For Degree of Dissociation and Ka of a Weak Electrolyte: given molarity = 3.5, alpha = 3.8, find ka.",
+     "a": "-18.05",
+     "self_check": false
+    },
+    {
+     "q": "For Degree of Dissociation and Ka of a Weak Electrolyte: given molarity = 8.4, alpha = 98, find ka.",
+     "a": "-831.687",
+     "self_check": false
+    },
+    {
+     "q": "For Degree of Dissociation and Ka of a Weak Electrolyte: given molarity = 3.7, alpha = 11.2, find ka.",
+     "a": "-45.5027",
+     "self_check": false
+    },
+    {
+     "q": "For Degree of Dissociation and Ka of a Weak Electrolyte: given molarity = 4.4, alpha = 58, find ka.",
+     "a": "-259.677",
+     "self_check": false
+    },
+    {
+     "q": "For Degree of Dissociation and Ka of a Weak Electrolyte: given molarity = 2.1, alpha = 25, find ka.",
+     "a": "-54.6875",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.02.2.6.1",
+   "title": "Faraday's First Law: Mass Deposited in Electrolysis",
+   "converted_to_compute": true,
+   "formula": "mass_metal = (current_amp * time_sec / (n_electrons * faraday_const)) * molar_mass_metal",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mass_metal = (current_amp * time_sec / (n_electrons * faraday_const)) * molar_mass_metal",
+     "compute": "mass_metal = (current_amp * time_sec / (n_electrons * faraday_const)) * molar_mass_metal"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Faraday's First Law: Mass Deposited in Electrolysis: given current_amp = 68, time_sec = 103, n_electrons = 5.4, faraday_const = 42, molar_mass_metal = 160, find mass metal.",
+     "a": "4941.09",
+     "self_check": false
+    },
+    {
+     "q": "For Faraday's First Law: Mass Deposited in Electrolysis: given current_amp = 82, time_sec = 17.8, n_electrons = 12.4, faraday_const = 82, molar_mass_metal = 128, find mass metal.",
+     "a": "183.742",
+     "self_check": false
+    },
+    {
+     "q": "For Faraday's First Law: Mass Deposited in Electrolysis: given current_amp = 78, time_sec = 63, n_electrons = 8.3, faraday_const = 90, molar_mass_metal = 69, find mass metal.",
+     "a": "453.904",
+     "self_check": false
+    },
+    {
+     "q": "For Faraday's First Law: Mass Deposited in Electrolysis: given current_amp = 80, time_sec = 7.8, n_electrons = 7.9, faraday_const = 19.3, molar_mass_metal = 23, find mass metal.",
+     "a": "94.13",
+     "self_check": false
+    },
+    {
+     "q": "For Faraday's First Law: Mass Deposited in Electrolysis: given current_amp = 14.4, time_sec = 30, n_electrons = 11.3, faraday_const = 76, molar_mass_metal = 10.5, find mass metal.",
+     "a": "5.28179",
+     "self_check": false
+    },
+    {
+     "q": "For Faraday's First Law: Mass Deposited in Electrolysis: given current_amp = 88, time_sec = 62, n_electrons = 14.7, faraday_const = 35, molar_mass_metal = 16.2, find mass metal.",
+     "a": "171.792",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.02.2.6.2",
+   "title": "Charge Required for an Electrode Reaction",
+   "converted_to_compute": true,
+   "formula": "charge_coulomb = moles_substance * z_electrons * faraday_const",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "charge_coulomb = moles_substance * z_electrons * faraday_const",
+     "compute": "charge_coulomb = moles_substance * z_electrons * faraday_const"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Charge Required for an Electrode Reaction: given moles_substance = 10.3, z_electrons = 49, faraday_const = 69, find charge coulomb.",
+     "a": "34824.3",
+     "self_check": false
+    },
+    {
+     "q": "For Charge Required for an Electrode Reaction: given moles_substance = 19.4, z_electrons = 12.5, faraday_const = 31, find charge coulomb.",
+     "a": "7517.5",
+     "self_check": false
+    },
+    {
+     "q": "For Charge Required for an Electrode Reaction: given moles_substance = 16.4, z_electrons = 86, faraday_const = 73, find charge coulomb.",
+     "a": "102959",
+     "self_check": false
+    },
+    {
+     "q": "For Charge Required for an Electrode Reaction: given moles_substance = 9.8, z_electrons = 1.9, faraday_const = 15.9, find charge coulomb.",
+     "a": "296.058",
+     "self_check": false
+    },
+    {
+     "q": "For Charge Required for an Electrode Reaction: given moles_substance = 2.5, z_electrons = 81, faraday_const = 75, find charge coulomb.",
+     "a": "15187.5",
+     "self_check": false
+    },
+    {
+     "q": "For Charge Required for an Electrode Reaction: given moles_substance = 17.5, z_electrons = 63, faraday_const = 46, find charge coulomb.",
+     "a": "50715",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_04_004",
+   "title": "c11_leg_cbse_04_004",
+   "questions": [
+    {
+     "q": "What is the maximum time period within which an Ordinance promulgated by the President under Article 123 must be approved by Parliament after its reassembly?",
+     "a": "An Ordinance must be approved by Parliament within six weeks of its reassembly. If a student answers \"six months\" or \"no time limit,\" they are confusing the Ordinance's lifespan with the maximum gap between Parliament sessions (six months under Art. 85) or misunderstanding that an Ordinance lapses automatically if not approved — revealing a gap in procedural rigour.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a Money Bill cannot be introduced in the Rajya Sabha, and what happens if the Rajya Sabha does not return it within 14 days.",
+     "a": "A Money Bill deals exclusively with taxation, Consolidated Fund, or financial matters (Art. 110) and represents the Lok Sabha's financial supremacy as the directly elected House. It can only originate in Lok Sabha. If Rajya Sabha does not return it within 14 days, it is deemed passed in the form Lok Sabha sent it. A wrong answer (e.g., \"Rajya Sabha can amend it\" or \"President can return it\") shows the student hasn't grasped the *asymmetric* design of financial legislation — a deliberate constitutional choice to prevent upper-house deadlock on money matters.",
+     "self_check": true
+    },
+    {
+     "q": "A Bill is passed by both Houses of Parliament and sent to the President. The President withholds assent and returns it with a message for reconsideration. Parliament passes it again, with and without amendments. What is the President's constitutional obligation now?",
+     "a": "Under Article 111, the President *must* give assent. The President has no veto power over a repassed Bill — unlike the US President. If the student says \"President can refuse again\" or \"President can send it back a second time,\" they are importing the US pocket veto model into India, missing the parliamentary system's core principle: the executive is accountable to the legislature, not superior to it.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the writ jurisdiction of the Supreme Court under Article 32 and the High Courts under Article 226. Identify two procedural differences and one substantive difference.",
+     "a": "Procedural: (1) Art. 32 is a Fundamental Right itself — SC *cannot* refuse to entertain a petition; Art. 226 is discretionary — HC *may* refuse. (2) SC jurisdiction is limited to Fundamental Rights enforcement; HC jurisdiction extends to \"any other purpose\" (ordinary legal rights). Substantive: SC is the *guarantor* of Fundamental Rights (Art. 32 called \"heart and soul\" by Ambedkar); HC shares concurrent jurisdiction but is not the ultimate protector. A student missing the \"discretionary vs. mandatory\" distinction fails to see why Art. 32 is a remedial right, not just a jurisdictional provision.",
+     "self_check": true
+    },
+    {
+     "q": "Parliament passes a Constitutional Amendment Act inserting a new Article 32A that strips the Supreme Court of its power to issue writs under Article 32. Evaluate whether this amendment would be constitutionally valid.",
+     "a": "The amendment would be **invalid**. In *Kesavananda Bharati* (1973), the Supreme Court held that judicial review (including Art. 32 writ jurisdiction) is part of the Basic Structure. Parliament cannot amend the Constitution to destroy its own Basic Structure. If the student says \"valid because Art. 368 gives unlimited amending power,\" they have missed the *substantive limitation* on amendment power — the most critical procedural safeguard in the Constitution.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical scenario where the Executive uses delegated legislation to bypass Parliamentary scrutiny on a controversial policy (e.g., data privacy rules). Identify the constitutional check that would prevent this misuse.",
+     "a": "Scenario: The IT Ministry issues rules under Section 87 of the IT Act, 2000 mandating real-time decryption of all encrypted messages — effectively creating a surveillance regime without a new law. Constitutional check: (1) The parent Act must contain a clear legislative policy (guideline) — if absent, it's excessive delegation (struck down in *Hamidullah v. State*). (2) Rules must be laid before Parliament (Art. 112/Statutory requirement) — Parliament can annul/modify them. (3) Judicial review: Courts can strike down rules ultra vires the parent Act or violating Fundamental Rights. A poor answer treats delegated legislation as \"executive lawmaking\" without recognizing the *legislative leash* — the Constitution permits delegation of *details*, not *policy*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

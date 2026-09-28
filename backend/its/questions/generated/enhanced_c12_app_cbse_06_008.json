@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_06_008",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_06_008",
+   "title": "c12_app_cbse_06_008",
+   "questions": [
+    {
+     "q": "A random variable X has the following probability distribution:\n| X | -2 | 0 | 3 | 5 |\n|---|---|---|---|---|\n| P(X) | 0.2 | k | 0.3 | 0.1 |\nIs this a valid probability distribution? If yes, find k. If no, explain why.",
+     "a": "**Answer:** Yes, it can be valid. For a valid distribution, ΣP(x) = 1. So 0.2 + k + 0.3 + 0.1 = 1 → k = 0.4. All probabilities are non-negative (0.2, 0.4, 0.3, 0.1 ≥ 0).  \n**Wrong answer reveals:** If a student says \"k = 0.4\" without checking non-negativity, they miss the second condition. If they say \"invalid because k is unknown,\" they confuse \"unknown constant\" with \"invalid.\" If they forget to sum to 1, they treat the table as just a list of numbers.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the probability distribution for \"number of heads in 2 tosses of a fair coin\" as:\n| X | 0 | 1 | 2 |\n|---|---|---|---|\n| P(X) | 1/3 | 1/3 | 1/3 |\nExplain why this is incorrect, and write the correct distribution.",
+     "a": "**Answer:** The student assumed all 3 outcomes (0,1,2 heads) are equally likely. But the sample space {HH, HT, TH, TT} has 4 equally likely outcomes. X=1 occurs in 2 outcomes (HT, TH), so P(X=1)=2/4=1/2. X=0 and X=2 each occur in 1 outcome, so P=1/4 each. Correct table: P(0)=1/4, P(1)=1/2, P(2)=1/4.  \n**Wrong answer reveals:** If the student says \"sum is 1 so it's fine,\" they confuse *necessary* condition (sum=1) with *sufficient* condition (correct probabilities from sample space). This is the classic \"equiprobability bias\" — assuming all values of X are equally likely just because they are listed.",
+     "self_check": true
+    },
+    {
+     "q": "A bag contains 4 red and 6 blue balls. Two balls are drawn **with replacement**. Let X = number of red balls drawn. Construct the probability distribution table for X.",
+     "a": "**Answer:**  \nStep 1: X can be 0, 1, 2.  \nStep 2: P(Red) = 4/10 = 0.4, P(Blue) = 0.6. Draws are independent (with replacement).  \nStep 3: P(X=0) = P(BB) = 0.6 × 0.6 = 0.36.  \nStep 4: P(X=2) = P(RR) = 0.4 × 0.4 = 0.16.  \nStep 5: P(X=1) = P(RB or BR) = 2 × 0.4 × 0.6 = 0.48.  \nStep 6: Verify sum = 0.36 + 0.48 + 0.16 = 1.  \nTable: X: 0, 1, 2 | P(X): 0.36, 0.48, 0.16.  \n**Wrong answer reveals:** If student uses \"without replacement\" logic (e.g., P(X=1)= (4/10)(6/9)+(6/10)(4/9)), they missed \"with replacement.\" If they write P(X=1)=0.24 (forgetting the factor of 2), they missed the two arrangements (RB, BR). If sum ≠ 1, arithmetic error.",
+     "self_check": true
+    },
+    {
+     "q": "Two probability distributions for discrete random variables X and Y are given below:\n| X | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|\n| P(X) | 0.1 | 0.3 | 0.4 | 0.2 |\n\n| Y | -1 | 0 | 2 | 5 |\n|---|---|---|---|---|\n| P(Y) | 0.2 | 0.3 | 0.3 | 0.2 |\n\nWithout calculating the mean, explain which distribution has a higher \"spread\" (variability) just by looking at the values and probabilities.",
+     "a": "**Answer:** Y has higher spread. X takes values 1,2,3,4 (range 3) clustered near the center (high prob at 2,3). Y takes values -1,0,2,5 (range 6) with probability mass at extremes (-1 and 5 have 0.2 each). The values of Y are farther from the center and more dispersed.  \n**Wrong answer reveals:** If student says \"cannot tell without calculating variance,\" they don't grasp the conceptual meaning of spread. If they say \"X has higher spread because max value 4 > 5?,\" they confuse range with spread. If they focus only on probabilities (e.g., \"Y has 0.3 at two places\"), they ignore the magnitude of values.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher claims: \"For any discrete random variable, if P(X = k) > P(X = k+1) for all k, then the distribution is valid.\" Evaluate this claim. Is it true or false? Justify with a counterexample or proof.",
+     "a": "**Answer:** False. The condition P(X=k) > P(X=k+1) (strictly decreasing probabilities) is **neither necessary nor sufficient** for validity.  \nCounterexample for sufficiency: X = 1,2,3,... with P(X=k) = 1/2ᵏ. This is strictly decreasing and sums to 1 (valid). But if we define P(X=k) = 1/k for k=1,2,3, it is decreasing but Σ1/k diverges → invalid.  \nCounterexample for necessity: Uniform distribution on {1,2,3} has P(1)=P(2)=P(3)=1/3, not strictly decreasing, but perfectly valid.  \n**Wrong answer reveals:** If student says \"true because probabilities get smaller,\" they confuse a common *shape* (like geometric) with a *requirement*. If they say \"false because sum might not be 1,\" they identify one flaw but miss that the condition isn't necessary either.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where a discrete random variable X has exactly 4 possible values. Define X clearly, list its possible values, and write a **parametric** probability distribution for X with one unknown constant **k** (like P(X=x) = k·x or k/x). Ensure your distribution is valid for some k > 0. Find that k.",
+     "a": "**Sample Answer:**  \nScenario: \"A traffic light on MG Road, Bengaluru, has a 4-phase cycle: Red (R), Green (G), Yellow (Y), and Flashing Amber (F). A commuter arrives at a random time. Let X = 'phase number' where R=1, G=2, Y=3, F=4. Suppose the duration of each phase is proportional to its phase number (e.g., Red lasts 1 unit, Green 2 units, etc.). Then P(X=x) ∝ x.\"  \nDistribution: P(X=x) = k·x for x = 1,2,3,4.  \nSum = k(1+2+3+4) = 10k = 1 → k = 0.1.  \nValid distribution: P(1)=0.1, P(2)=0.2, P(3)=0.3, P(4)=0.4.  \n**Poor answer reveals:** If student creates a scenario but writes P(X=x) = k/x and finds k = 1/(1+1/2+1/3+1/4) ≈ 0.48, that's mathematically fine but if they forget to verify k>0 or sum=1, or if they use continuous variable (e.g., \"time waited\"), they missed \"discrete.\" If they write P(X=x) = k·x² but solve 30k=1 correctly, that's acceptable — the key is **constructing a valid parametric form and solving for k correctly.**",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

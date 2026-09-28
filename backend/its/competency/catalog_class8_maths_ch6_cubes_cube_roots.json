@@ -99,7 +99,7 @@
     "is 729 a perfect cube",
     "why is 500 not a perfect cube"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -116,7 +116,16 @@
      "action": "conclude",
      "explain": "If any prime is left over without a triplet, the number is not a perfect cube"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
+     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 2 * 1 gives 2",
+     "compute": "hcf = 2 * 1"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c8m6.2.4",

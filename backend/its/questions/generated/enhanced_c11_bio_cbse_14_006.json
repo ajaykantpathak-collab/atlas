@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a spirometer and controlled gas mixtures to demonstrate that CO₂ is a more potent stimulator of ventilation than O₂ lack in healthy humans. Outline the protocol, variables, and expected results.",
      "a": "Protocol: Measure baseline ventilation (TV × RR) breathing room air. Then have subject breathe: (a) 5% CO₂ in air, (b) 10% O₂ in N₂ (hypoxia), (c) 5% CO₂ + 10% O₂. Variables: independent = gas mixture; dependent = minute ventilation. Expected: 5% CO₂ causes large ventilation increase; 10% O₂ causes modest increase; combination is additive/synergistic. A poor design (e.g., no baseline, no control for order effects) reveals inability to isolate variables or understand the relative potency of chemical stimuli.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Regulation of ______ is the neural and chemical control mechanism that maintains respiratory rhythm and adjusts ventilation rate and depth to match the metabolic demands of body tissues, primarily through the medullary respiratory rhythm centre, pontine pneumotaxic centre, central chemoreceptors sensitive to CO₂/H⁺, and peripheral chemoreceptors in aortic and carotid bodies.",
+     "a": "respiration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Notice how your ______ automatically speeds up when you climb the stairs to your classroom on the third floor, but you don't consciously decide to breathe faster.",
+     "a": "breathing",
+     "self_check": true
+    },
+    {
+     "q": "What is Regulation of respiration? State the definition given in this lesson.",
+     "a": "Regulation of respiration is the neural and chemical control mechanism that maintains respiratory rhythm and adjusts ventilation rate and depth to match the metabolic demands of body tissues, primarily through the medullary respiratory rhythm centre, pontine pneumotaxic centre, central chemoreceptors sensitive to CO₂/H⁺, and peripheral.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Place your hand on your chest and breathe normally for ______ seconds, then hold your breath as long as you can — the overwhelming urge to breathe returns not because you're low on oxygen, but because CO₂ has built up in your blood.",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Regulation of respiration?",
+     "a": "Students believe oxygen is the primary chemical regulator of breathing because \"we breathe to get oxygen.\" They think low pO₂ is the main stimulus for increased ventilation, and that high O₂ always suppresses breathing.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how the respiratory rhythm centre, pneumotaxic centre, central chemoreceptors, and peripheral chemoreceptors interact to regulate breathing, and can predict the ventilatory response to specific changes in arterial pCO₂, pH, and pO₂ with justification.",
+     "self_check": true
     }
    ]
   }

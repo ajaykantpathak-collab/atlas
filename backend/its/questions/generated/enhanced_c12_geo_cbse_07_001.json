@@ -34,6 +34,36 @@
      "q": "Design a three-service rural hub for a cluster of 10 villages in Maharashtra's Vidarbha region that would reduce out-migration. Specify the services, their tertiary sub-types, and the geographical principle guiding their co-location.",
      "a": "Good answer: \"1) Primary health centre + telemedicine link (professional service) — addresses healthcare access. 2) Agricultural produce aggregation centre with e-NAM connectivity (trade + communication) — reduces distress sale, links to national market. 3) Skill-training centre for agro-processing and equipment repair (professional + business service) — builds local human capital. Principle: 'Service agglomeration economies' — co-location lowers shared infrastructure cost (power, internet, transport) and creates multiplier effects (patient visits market, trainee uses health centre), making the hub viable at lower threshold population than isolated services.\" Poor answer: lists random services without sub-type classification or agglomeration logic.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Tertiary activities are service-sector economic activities that provide intangible outputs — such as expertise, care, transport, communication, finance, and trade — to satisfy human wants directly or support primary and secondary sectors; they involve no physical ______ of raw materials and are characterised by high human-skill intensity, location flexibility near consumers, and dominance in developed economies' GDP and employment.",
+     "a": "transformation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a typical urban morning: a student uses a metro (transport), checks WhatsApp (______), buys breakfast from a café (trade), and attends a coaching class (professional service) — all before 9 AM.",
+     "a": "communication",
+     "self_check": true
+    },
+    {
+     "q": "What is Tertiary activities? State the definition given in this lesson.",
+     "a": "Tertiary activities are service-sector economic activities that provide intangible outputs — such as expertise, care, transport, communication, finance, and trade — to satisfy human wants directly or support primary and secondary sectors; they involve no physical transformation of raw materials and are characterised by high human-skill.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a typical urban morning: a student uses a metro (transport), checks WhatsApp (communication), buys breakfast from a café (trade), and attends a coaching class (professional service) — all before ______ AM.",
+     "a": "9",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Tertiary activities?",
+     "a": "Students equate \"tertiary activities\" solely with \"white-collar office jobs\" (IT, banking) and exclude informal services (street vendors, cycle-rickshaw pullers, domestic workers) which constitute ~80% of India's tertiary employment.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) distinguish tertiary activities from primary and secondary using the intangibility and non-transformation criteria, (2) classify any given service into trade, transport, communication, or professional/personal services with justification, and (3) explain why tertiary sector share in GDP and employment rises with economic.",
+     "self_check": true
     }
    ]
   }

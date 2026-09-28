@@ -34,6 +34,26 @@
      "q": "Create an inferential question about the author's time in post-war Germany that requires connecting the external environment to her internal artistic growth. Provide the textual evidence a good answer would use.",
      "a": "Question: \"How did the author's observation of hungry children in Germany differ from her experience in India, and what did this teach her about context in choreography?\" Evidence: \"Hungry children begging for food is a common sight in India, yet, in Germany the same sight created a different sensation\" and \"One changes the placement of a choreographic piece on stage and it looks quite different. I myself was a changed person when placed in different surroundings.\" A poor answer creates a literal question (e.g., \"Where did she tour?\") or an inference unsupported by the Germany passage.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal comprehension questions require answers directly stated in the text (who, what, where, when), while ______ comprehension questions require students to derive meaning by combining textual evidence with logical reasoning to reach conclusions not explicitly written (why, how, what might happen next).",
+     "a": "inferential",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're reading a mystery novel: the detective finds a muddy footprint (literal fact), but infers the culprit wore boots and came from the garden (______).",
+     "a": "inference",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently distinguish between literal and inferential question types, locate explicit textual evidence for literal answers, and construct a logical chain of textual clues to support a justified inference with at least two pieces of evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're reading a mystery novel: the ______ finds a muddy footprint (literal fact), but infers the culprit wore boots and came from the garden (inference).",
+     "a": "detective",
+     "self_check": true
     }
    ]
   }

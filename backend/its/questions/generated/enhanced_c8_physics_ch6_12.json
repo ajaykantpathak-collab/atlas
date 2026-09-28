@@ -34,6 +34,21 @@
      "q": "Design a simple activity using a concave lens (e.g., from a peephole or spectacle lens for myopia) and a candle flame to demonstrate that the image formed is virtual and cannot be caught on a screen. List the steps and expected observations.",
      "a": "Steps: 1) Hold the concave lens between a lit candle and a white screen. 2) Move the screen to various distances. 3) Observe that no sharp image forms on the screen. 4) Look through the lens from the screen side – an erect, diminished virtual image of the flame is seen. A poor answer omits the crucial step of looking through the lens, indicating the student doesn't understand virtual images are seen by the eye, not projected.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A concave lens is a diverging lens that causes parallel incident rays to spread out as if they ______ from a virtual focal point on the same side as the object; it always forms a virtual, erect, and diminished image regardless of object position.",
+     "a": "originated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how a peephole in a door (a concave lens) makes people outside appear smaller and upright – this is a real-world example of a ______ lens forming a virtual image.",
+     "a": "diverging",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can accurately draw ray diagrams for a concave lens with the object at infinity and between infinity and the optical center, correctly applying the three principal rays and identifying the image as virtual, erect, and diminished.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Design a stepwise adaptation protocol to transition a CHO cell line producing erythropoietin from 10% FBS to a commercially available protein-free, chemically defined medium. Include timeline, monitoring parameters, and decision criteria at each step.",
      "a": "Expected answer: \nStep 1 (Weeks 1-2): 10% FBS → 5% FBS + 50% conditioned serum-free medium; monitor viability (>90%), growth rate, EPO titer. \nStep 2 (Weeks 3-4): 2% FBS + 80% serum-free; same monitoring. \nStep 3 (Weeks 5-6): 0% FBS + 100% serum-free with lipid supplement (cholesterol, fatty acids); monitor for adaptation lag. \nStep 4 (Weeks 7-8): Switch to target protein-free medium; run 10 passages to confirm stability. \nDecision criteria: If viability drops <85% or specific productivity (qP) decreases >20% vs. serum control at any step, revert and supplement with identified factors (e.g., Pluronic F-68 for shear, hydrocortisone for stress). Poor answer: \"Just switch directly\" — ignores adaptation stress and selection pressure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Serum is the liquid fraction of clotted blood that provides a complex mixture of growth factors, hormones, binding proteins (e.g., albumin, transferrin), adhesion factors, lipids, and nutrients essential for animal cell survival and ______ in vitro; serum-free media replace these undefined components with defined supplements to improve consistency, reduce contamination risk, and simplify downstream purification of biopharmaceuticals.",
+     "a": "proliferation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a process ______ scientist at a biotech company in Pune producing a recombinant monoclonal antibody in CHO cells for clinical trials.",
+     "a": "development",
+     "self_check": true
+    },
+    {
+     "q": "What is Serum? State the definition given in this lesson.",
+     "a": "Serum is the liquid fraction of clotted blood that provides a complex mixture of growth factors, hormones, binding proteins (e.g., albumin, transferrin), adhesion factors, lipids, and nutrients essential for animal cell survival and proliferation in vitro; serum-free media replace these undefined components with defined supplements to.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Your current process uses ______% fetal bovine serum (FBS) in the medium.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Serum?",
+     "a": "Students often equate \"serum-free\" with \"protein-free\" or \"chemically defined\", not realizing serum-free media frequently contain bovine serum albumin (BSA) or other animal-derived proteins.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the five key functions of serum in culture media, list at least four specific disadvantages of serum that drive the development of serum-free alternatives, and justify the choice of serum-free, xeno-free, protein-free, or chemically defined media for a given application (e.g., clinical-grade protein production vs..",
+     "self_check": true
     }
    ]
   }

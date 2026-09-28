@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using potato tuber, hydrogen peroxide, and a water bath to demonstrate the effect of temperature on catalase activity. Specify the independent variable, dependent variable, two controlled variables, and the expected trend with biological reasoning.",
      "a": "Independent variable: temperature (e.g., 10°C, 25°C, 37°C, 50°C, 70°C). Dependent variable: rate of O₂ evolution (measured as volume of gas per minute or time for foam to reach a fixed height). Controlled variables: (1) mass/volume of potato tissue (enzyme amount), (2) concentration and volume of H₂O₂ (substrate amount). Expected trend: activity increases up to optimum (~37-40°C for mesophilic plant enzyme), then sharply declines due to thermal denaturation of the protein tertiary structure, destroying the active site geometry. A poor answer omits controlled variables or predicts continuous increase, revealing confusion between reaction rate theory (rate doubles per 10°C) and protein stability limits.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Enzymes are biological catalysts, ______ proteins (with some catalytic RNA molecules called ribozymes), that accelerate biochemical reactions by lowering the activation energy through specific substrate binding at their active site, without being consumed in the reaction.",
+     "a": "predominantly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how a piece of raw potato placed in hydrogen peroxide solution ______ produces vigorous bubbling, while boiled potato shows no reaction.",
+     "a": "immediately",
+     "self_check": true
+    },
+    {
+     "q": "What is Enzymes? State the definition given in this lesson.",
+     "a": "Enzymes are biological catalysts, predominantly proteins (with some catalytic RNA molecules called ribozymes), that accelerate biochemical reactions by lowering the activation energy through specific substrate binding at their active site, without being consumed in the reaction.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The answer lies in the precise ______D architecture of the active site and the energy landscape of the reaction.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Enzymes?",
+     "a": "Students believe that \"enzymes are used up in the reaction\" because they see substrate disappear and product appear, so they assume the enzyme also gets consumed.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the induced-fit mechanism of enzyme action step-by-step, interpret an energy profile diagram showing activation energy with and without enzyme, and predict how competitive inhibition affects reaction velocity at varying substrate concentrations.",
+     "self_check": true
     }
    ]
   }

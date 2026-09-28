@@ -34,6 +34,21 @@
      "q": "Create an inferential question about the last two lines (\"For song... duly with love returns\") and provide a model answer using PEEL structure.",
      "a": "Question: \"Why does the poet compare the rain's cycle to a song returning with love?\" Model Answer: Point: The simile emphasizes the rain's cyclical, joyful, and purposeful return. Evidence: \"duly with love returns\" and \"reck'd or unreck'd\". Explanation: \"Duly\" = faithfully, \"love\" = benevolence, \"reck'd or unreck'd\" = unconditional. Link: Like a song returning to its singer, the rain completes its cycle regardless of human awareness, embodying nature's selfless giving. A poor created question would be literal (e.g., \"What returns?\") showing confusion between question types.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal ______ questions require students to retrieve explicitly stated information from the poem (e.g., \"What does the rain call itself?\").",
+     "a": "comprehension",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're asked: \"The rain says 'I am the Poem of Earth.' Is this a fact or an ______?\" A literal question would ask: \"What does the rain call itself?\" (Answer: Poem of Earth).",
+     "a": "interpretation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently distinguish between literal and inferential questions, locate precise textual evidence for literal answers, and construct logical inferences supported by at least two pieces of textual evidence for inferential answers, using the PEEL structure (Point, Evidence, Explanation, Link).",
+     "self_check": true
     }
    ]
   }

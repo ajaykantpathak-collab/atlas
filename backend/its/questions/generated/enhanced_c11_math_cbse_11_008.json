@@ -34,6 +34,16 @@
      "q": "Create a real-world problem (Indian context) that can be modeled by a hyperbola. Define the foci, the constant difference, and write the resulting standard equation. Explain why the situation leads to a hyperbola and not an ellipse.",
      "a": "Example: Two radio towers in Delhi and Gurugram are 40 km apart. A ship at sea receives signals from both towers; the time difference of arrival is 0.0001 seconds. Radio waves travel at \\(3 \\times 10^5\\) km/s, so the difference in distances is 30 km. The ship's location lies on a hyperbola with foci at the towers, \\(c = 20\\) km, \\(2a = 30\\) km \\(\\Rightarrow a = 15\\) km, \\(b^2 = 400 - 225 = 175\\). Equation: \\(\\frac{x^2}{225} - \\frac{y^2}{175} = 1\\) (towers on x-axis). It is a hyperbola because the difference of distances is constant, not the sum. A poor answer would use sum of distances or misplace the foci, showing lack of understanding of the defining property.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A hyperbola is the set of all points in a plane such that the absolute ______ of the distances from two fixed points (called foci) is a constant.",
+     "a": "difference",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing at a point in a large field and you hear a ______.",
+     "a": "thunderclap",
+     "self_check": true
     }
    ]
   }

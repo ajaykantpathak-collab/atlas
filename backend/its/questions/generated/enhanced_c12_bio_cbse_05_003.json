@@ -34,6 +34,26 @@
      "q": "Design a dihybrid cross experiment using a locally available plant (e.g., tomato: fruit shape — round vs. oblong; fruit color — red vs. yellow) to test Mendel's Law of Independent Assortment. Outline the P, F1, and F2 generations, the data you would collect, and the statistical test to validate the 9:3:3:1 ratio.",
      "a": "P: True-breeding round red (RRYY) × oblong yellow (rryy). F1: All round red (RrYy). F2: Self-pollinate F1, score ≥200 offspring for 4 phenotypes. Expected: 9/16 round red, 3/16 round yellow, 3/16 oblong red, 1/16 oblong yellow. Chi-square test: Σ(O-E)²/E with df=3; if p>0.05, data fit 9:3:3:1. A good answer specifies sample size justification, chi-square application, and interpretation of p-value. Poor answers omit statistical validation or use too small a sample.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A dihybrid cross is a breeding experiment between P-generation organisms that differ in two independent traits, each controlled by a pair of alleles at separate loci, allowing simultaneous study of inheritance patterns for both traits and ______ of Mendel's Law of Independent Assortment.",
+     "a": "demonstration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine crossing a pea plant with round yellow seeds (RRYY) with one having wrinkled green seeds (rryy) — a classic ______ Mendel performed in his monastery garden.",
+     "a": "experiment",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe that all F______ offspring have round yellow seeds (RrYy), showing dominance for both traits.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can construct a 4×4 Punnett square for a dihybrid cross, derive the 9:3:3:1 phenotypic and 1:2:1:2:4:2:1:2:1 genotypic ratios from first principles, and explain how the results validate independent assortment.",
+     "self_check": true
     }
    ]
   }

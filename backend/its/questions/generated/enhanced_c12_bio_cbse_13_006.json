@@ -34,6 +34,31 @@
      "q": "Design a simple field study to determine whether a local bird species is r-selected or K-selected. List the specific data you would collect over two breeding seasons and how you would analyze it.",
      "a": "Collect: (1) clutch size per nest, (2) number of broods per season, (3) age at first breeding (band nestlings), (4) parental care duration (feeding visits/hour), (5) juvenile survival rate (mark-recapture), (6) adult annual survival. Analyze: high clutch size, multiple broods, early maturity, short care, low juvenile survival, low adult survival → r-selected; opposite → K-selected. A poor answer (e.g., \"just watch them\") lacks quantitative traits and longitudinal design; the student doesn't know which measurable life history parameters distinguish the strategies.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Life history variation refers to the diversity in reproductive strategies among organisms, ______ by differences in age at first reproduction, number of reproductive events, number of offspring produced, parental investment, and lifespan.",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bamboo forest flowering after 50 years — all plants flower simultaneously, set seed, and die (______).",
+     "a": "semelparity",
+     "self_check": true
+    },
+    {
+     "q": "What is Life history variation? State the definition given in this lesson.",
+     "a": "Life history variation refers to the diversity in reproductive strategies among organisms, characterized by differences in age at first reproduction, number of reproductive events, number of offspring produced, parental investment, and lifespan.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bamboo forest flowering after ______ years — all plants flower simultaneously, set seed, and die (semelparity).",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the trade-offs between survival and reproduction using specific examples, classify a given species as semelparous/iteroparous or r/K-selected based on its life history traits, and predict how environmental stability influences the evolution of life history strategies.",
+     "self_check": true
     }
    ]
   }

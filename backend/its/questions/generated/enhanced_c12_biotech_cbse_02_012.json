@@ -34,6 +34,36 @@
      "q": "Design a Sanger sequencing strategy to verify a 1.2 kb insert cloned into pUC19 (2.7 kb) using the M13 forward primer (binds ~200 bp upstream of the insert). The insert is too long for a single read. Specify: (a) how many sequencing reactions are needed, (b) which primers to use, and (c) how to assemble the full sequence.",
      "a": "(a) Minimum 2 reactions (forward + reverse) but ideally 3-4 for full coverage with overlap.  \n(b) Primers: M13 forward (reads into insert from 5' end), M13 reverse (reads from 3' end inward), and optionally one internal primer designed from the first read to walk further.  \n(c) Assemble by aligning overlapping regions (using BLAST or manual alignment) to generate a contiguous consensus sequence (contig).  \n**Poor answer reveals:** If the student suggests \"just use one primer and run the gel longer\" or \"use PCR to shorten the insert,\" they don't grasp the read-length limit (~800 bp) or the need for primer walking. This tests integration of c12_biotech_cbse_02_007 (primer design) and c11_biotech_cbse_12_010.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sanger dideoxy DNA sequencing is a chain-termination method that determines the nucleotide sequence of a DNA template by incorporating fluorescently labeled ______ (ddNTPs) during primer-directed DNA synthesis, producing a set of fragments that are separated by size to reveal the sequence.",
+     "a": "dideoxynucleotides",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You send the plasmid for \"Sanger ______.\" How does the machine actually read the order of A, T, G, C?",
+     "a": "sequencing",
+     "self_check": true
+    },
+    {
+     "q": "What is Sanger dideoxy DNA sequencing? State the definition given in this lesson.",
+     "a": "Sanger dideoxy DNA sequencing is a chain-termination method that determines the nucleotide sequence of a DNA template by incorporating fluorescently labeled dideoxynucleotides (ddNTPs) during primer-directed DNA synthesis, producing a set of fragments that are separated by size to reveal the sequence.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by recalling that DNA polymerase needs a ______'-OH on the growing strand to add the next nucleotide.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Sanger dideoxy DNA sequencing?",
+     "a": "Misconception: \"The ddNTPs are added *after* the normal dNTPs, so the polymerase first makes a full-length copy and then chops it up at specific bases.\" Why it's wrong: ddNTPs compete *simultaneously* with dNTPs at *every* incorporation step.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) explain the biochemical principle of chain termination by ddNTPs, (2) describe the four parallel reactions (or single-tube multiplex) and the role of each component, (3) interpret a sequencing gel or chromatogram to read the correct 5'→3' sequence, and (4) calculate the expected fragment sizes from a given.",
+     "self_check": true
     }
    ]
   }

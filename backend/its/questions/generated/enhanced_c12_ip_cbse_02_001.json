@@ -34,6 +34,26 @@
      "q": "Design a real-world scenario (Indian context) where you would create a Series from a dictionary **instead of** a list. Write the dictionary and the Series creation code. Explain why the dictionary is more natural here.",
      "a": "Scenario: Storing the capital cities of five Indian states.\n```python\ncapitals = {'Maharashtra': 'Mumbai', 'Tamil Nadu': 'Chennai', \n            'Karnataka': 'Bengaluru', 'Gujarat': 'Gandhinagar', \n            'Rajasthan': 'Jaipur'}\ncap_series = pd.Series(capitals)\n```\nThe dictionary is natural because the state name (key) is the **identifier** for the capital (value) — we want to look up capitals by state, not by position. A list would force us to remember that index 0 = Maharashtra, index 1 = Tamil Nadu, etc., which is error-prone. A poor answer uses a list with a separate index list, showing the student doesn't grasp the semantic fit of key-value pairs for labeled data.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Pandas Series is a one-______ labeled array capable of holding any data type (integers, floats, strings, Python objects, etc.) where each element is associated with an index (label) that can be default integers (0 to N-1) or user-defined labels of any hashable type.",
+     "a": "dimensional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a list of daily ______ for a week: [32, 34, 31, 33, 35, 36, 34].",
+     "a": "temperatures",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You want to attach meaningful labels like ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'] so you can later ask \"What was the temperature on Wed?\" without remembering that Wed is index ______.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently write Python code to create a Series from a Python list, a NumPy 1-D array, and a Python dictionary; explain how the index is generated in each case; and predict the output of print(series) for each creation method.",
+     "self_check": true
     }
    ]
   }

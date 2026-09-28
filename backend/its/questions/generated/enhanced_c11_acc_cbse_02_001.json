@@ -34,6 +34,31 @@
      "q": "Create a real-world scenario where the absence of GAAP would mislead a specific user (banker, investor, tax authority, supplier). Describe the transaction, the two different accounting treatments possible, and the resulting misleading signal.",
      "a": "Scenario: A construction company signs a 3-year ₹30 crore contract. Treatment A (GAAP-compliant): Recognizes ₹10 crore revenue each year as work progresses. Treatment B (no GAAP): Recognizes ₹30 crore revenue in Year 1 when contract signed. User: Banker lending ₹5 crore sees Treatment B's Year 1 profit inflated by ₹20 crore, approves loan. Company defaults in Year 2 because real cash comes later. Good answer must specify user, two treatments, and the misleading signal. A poor answer (vague scenario, no specific misleading signal) reveals the student cannot connect GAAP's purpose to concrete decision-making consequences.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Generally Accepted Accounting Principles (GAAP) are the standardized rules, guidelines, and procedures that govern the recording, measurement, and reporting of financial transactions to ensure uniformity, consistency, and ______ in financial statements across entities and time periods.",
+     "a": "comparability",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two Class 11 students, Arjun and Priya, start identical tuition ______.",
+     "a": "businesses",
+     "self_check": true
+    },
+    {
+     "q": "What is Generally Accepted Accounting Principles (GAAP)? State the definition given in this lesson.",
+     "a": "Generally Accepted Accounting Principles (GAAP) are the standardized rules, guidelines, and procedures that govern the recording, measurement, and reporting of financial transactions to ensure uniformity, consistency, and comparability in financial statements across entities and time periods.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Generally Accepted Accounting Principles (GAAP)?",
+     "a": "Students think GAAP is a single written document (like a law) that lists all rules.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why GAAP is necessary by identifying at least three specific problems that would arise in financial reporting without standardized principles, and can distinguish between GAAP as a broad framework versus individual accounting concepts.",
+     "self_check": true
     }
    ]
   }

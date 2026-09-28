@@ -34,6 +34,31 @@
      "q": "Create a real-life problem (Indian context) where using additive change instead of multiplicative change leads to a visibly wrong outcome. Describe the scenario, the correct multiplicative approach, the incorrect additive approach, and why the additive result fails.",
      "a": "Example: Scaling a *sharbat* recipe. Original: 1 part syrup to 4 parts water (1:5 total). For 10 glasses, multiplicative: 2 parts syrup + 8 parts water. Additive (wrong): add 1 part syrup and 4 parts water repeatedly? Actually additive error: \"add 1 glass syrup and 1 glass water\" → 2:6 = 1:3, too sweet. A good answer clearly shows the ratio distortion. A poor answer uses trivial numbers or doesn't explain the sensory/functional failure (taste, consistency, map accuracy).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ change refers to a change where quantities vary in a constant ratio.",
+     "a": "Proportional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your mother adjust a recipe for *aloo ______* filling.",
+     "a": "paratha",
+     "self_check": true
+    },
+    {
+     "q": "What is Proportional change? State the definition given in this lesson.",
+     "a": "Proportional change refers to a change where quantities vary in a constant ratio.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Proportional change?",
+     "a": "Students treat proportional situations additively: they add the same absolute amount to both quantities in a ratio (e.g., changing 2:3 to 4:5 by adding 2) believing this preserves the relationship.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify a given real-world change as multiplicative or additive, explain why additive changes break proportionality while multiplicative changes preserve it, and apply this reasoning to solve problems involving scaling recipes, maps, or geometric figures.",
+     "self_check": true
     }
    ]
   }

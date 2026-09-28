@@ -5,6 +5,8 @@
    "id": "jemh.14.1",
    "title": "Classical Definition of Probability",
    "converted_to_compute": false,
+   "formula": "P(E) = (Number of favourable outcomes) / (Total number of possible outcomes)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A die is rolled once. What is the probability of getting a number greater than 3? (give the fraction)",
@@ -42,6 +44,8 @@
    "id": "jemh.14.2",
    "title": "Empirical Probability",
    "converted_to_compute": false,
+   "formula": "P(E) = (Number of trials in which event happened) / (Total number of trials)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A die is rolled once. What is the probability of getting a number greater than 3? (give the fraction)",
@@ -78,15 +82,9 @@
   {
    "id": "jemh.14.3",
    "title": "Sample Space and Events",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "divide favourable outcomes by total outcomes",
-     "explain": "divide favourable outcomes by total outcomes: p = 2 / 6 gives 0.333333",
-     "compute": "p = 2 / 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "S = {all possible outcomes}; E is a subset of S, so n(E) <= n(S)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A die is rolled once. What is the probability of getting a number greater than 4? (give the fraction)",
@@ -124,6 +122,8 @@
    "id": "jemh.14.4",
    "title": "Complementary Events",
    "converted_to_compute": false,
+   "formula": "P(E) + P(not E) = 1, so P(not E) = 1 - P(E)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A die is rolled once. What is the probability of getting a number greater than 3? (give the fraction)",
@@ -160,15 +160,9 @@
   {
    "id": "jemh.14.5",
    "title": "Sure Event and Impossible Event",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "divide favourable outcomes by total outcomes",
-     "explain": "divide favourable outcomes by total outcomes: p = 2 / 6 gives 0.333333",
-     "compute": "p = 2 / 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "P(sure event) = 1; P(impossible event) = 0; for any event E, 0 <= P(E) <= 1",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A die is rolled once. What is the probability of getting a number greater than 4? (give the fraction)",
@@ -206,6 +200,8 @@
    "id": "jemh.14.6",
    "title": "Probability with Dice",
    "converted_to_compute": false,
+   "formula": "Single die: n(S) = 6; Two dice: n(S) = 6 x 6 = 36; P(E) = n(E)/n(S)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A die is rolled once. What is the probability of getting a number greater than 3? (give the fraction)",
@@ -243,6 +239,8 @@
    "id": "jemh.14.7",
    "title": "Probability with Cards",
    "converted_to_compute": false,
+   "formula": "n(S) = 52; P(E) = n(E)/52",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A die is rolled once. What is the probability of getting a number greater than 5? (give the fraction)",
@@ -280,6 +278,8 @@
    "id": "jemh.14.8",
    "title": "Probability of Combined Events",
    "converted_to_compute": false,
+   "formula": "P(E) = n(E)/n(S); for combined counts use P(not E) = 1 - P(E) or add favourable counts for disjoint favourable sets",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A die is rolled once. What is the probability of getting a number greater than 2? (give the fraction)",

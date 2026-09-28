@@ -34,6 +34,26 @@
      "q": "Create a novel physics hypothesis suitable for a Class 9 lab investigation using only school equipment (metre rule, stopwatch, masses, springs, ramps, batteries, wires, magnets). Write it in \"If... then... because...\" format, identify all variables, and explain how your design ensures falsifiability.",
      "a": "Example: \"If the compression distance of a spring increases, then the launch height of a 20 g mass placed on it increases, because elastic potential energy converts to gravitational potential energy.\" Independent: compression (1 cm to 5 cm in 1 cm steps); Dependent: max height (measured via video/phone); Controlled: spring constant, mass, launch angle (vertical), surface. Falsifiable because if height does not increase with compression (or decreases), hypothesis is rejected. A poor answer proposes an untestable claim, misses variable control, or uses equipment not available.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A hypothesis is a testable, falsifiable prediction about the relationship between variables, stated in a form that allows experimental verification or rejection; testing involves designing a controlled ______ where only the independent variable is deliberately changed while measuring its effect on the dependent variable, keeping all other factors constant, to gather empirical evidence that either supports or refutes the prediction.",
+     "a": "investigation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you notice that a ceiling fan runs slower when the voltage drops during a summer afternoon power fluctuation — this everyday ______ sparks a question: \"How does supply voltage affect the rotational speed of a fan?\" Begin by identifying what you will change (voltage) and what you will measure (fan speed in rpm), then list every other factor that must stay constant (fan model, blade angle, room temperature, load).",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can formulate a null and alternative hypothesis for a given physics scenario, identify independent, dependent, and controlled variables with justification, design a valid experimental procedure including repetition and replication, and interpret hypothetical data to conclude whether evidence supports or rejects the hypothesis.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you notice that a ceiling fan runs slower when the voltage drops during a summer afternoon power ______ — this everyday observation sparks a question: \"How does supply voltage affect the rotational speed of a fan?\" Begin by identifying what you will change (voltage) and what you will measure (fan speed in rpm), then list every other factor that must stay constant (fan model, blade angle, room temperature, load).",
+     "a": "fluctuation",
+     "self_check": true
     }
    ]
   }

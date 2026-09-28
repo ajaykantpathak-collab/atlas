@@ -34,6 +34,31 @@
      "q": "Create a new 4-step \"Quick Decision Framework\" for a college student managing a monthly budget of ₹8,000 who faces an unexpected ₹3,000 laptop repair. The framework must be usable in under 10 minutes and incorporate at least two principles from the rational model.",
      "a": "Example framework: (1) Define the \"must-have\" outcome (laptop functional for exams), (2) List only 3 feasible alternatives within constraints (repair, borrow, use college lab), (3) Score each on 2 criteria: cost and exam-readiness (weighted 60/40), (4) Pick highest score and act immediately. A poor answer copies the 7-step model verbatim — it fails the \"under 10 minutes\" constraint, showing inability to adapt theory to real-world bounded rationality.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Decision-making is the cognitive process of selecting a course of action from multiple alternatives to achieve a desired goal, involving systematic steps: identifying the problem, gathering information, generating alternatives, evaluating ______, choosing the best option, implementing it, and reviewing the outcome.",
+     "a": "consequences",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family has ₹50,000 saved and must decide: repair the leaking roof, buy a new ______, or invest in your sibling's coaching classes.",
+     "a": "refrigerator",
+     "self_check": true
+    },
+    {
+     "q": "What is Decision-making? State the definition given in this lesson.",
+     "a": "Decision-making is the cognitive process of selecting a course of action from multiple alternatives to achieve a desired goal, involving systematic steps: identifying the problem, gathering information, generating alternatives, evaluating consequences, choosing the best option, implementing it, and reviewing the outcome.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Decision-making?",
+     "a": "Students believe \"rational decision-making\" means making the mathematically optimal choice every time.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) list the 7 steps of the rational decision-making process in correct sequence with one-line justification for each step, and (2) classify a given real-life family scenario into the correct decision type (routine, strategic, crisis, individual, group) with reasoning.",
+     "self_check": true
     }
    ]
   }

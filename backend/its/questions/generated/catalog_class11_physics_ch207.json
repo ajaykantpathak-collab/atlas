@@ -1,0 +1,381 @@
+{
+ "catalog": "catalog_class11_physics_ch207.json",
+ "concepts": [
+  {
+   "id": "keph.14.4.1",
+   "title": "Speed of a Travelling Wave",
+   "converted_to_compute": true,
+   "formula": "v = wavelength * frequency",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "v = wavelength * frequency",
+     "compute": "v = wavelength * frequency"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Speed of a Travelling Wave: given wavelength = 490, frequency = 817, find v.",
+     "a": "400330",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of a Travelling Wave: given wavelength = 208, frequency = 676, find v.",
+     "a": "140608",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of a Travelling Wave: given wavelength = 107, frequency = 69, find v.",
+     "a": "7383",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of a Travelling Wave: given wavelength = 140, frequency = 901, find v.",
+     "a": "126140",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of a Travelling Wave: given wavelength = 181, frequency = 379, find v.",
+     "a": "68599",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of a Travelling Wave: given wavelength = 30, frequency = 363, find v.",
+     "a": "10890",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.14.4.2",
+   "title": "Speed of a Transverse Wave on a Stretched String",
+   "converted_to_compute": true,
+   "formula": "v = sqrt(T / mu)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "v = sqrt(T / mu)",
+     "compute": "v = sqrt(T / mu)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Speed of a Transverse Wave on a Stretched String: given T = 53, mu = 92, find v.",
+     "a": "0.759004",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of a Transverse Wave on a Stretched String: given T = 79, mu = 3.3, find v.",
+     "a": "4.89279",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of a Transverse Wave on a Stretched String: given T = 6.9, mu = 54, find v.",
+     "a": "0.35746",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of a Transverse Wave on a Stretched String: given T = 55, mu = 94, find v.",
+     "a": "0.764922",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of a Transverse Wave on a Stretched String: given T = 79, mu = 85, find v.",
+     "a": "0.96406",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of a Transverse Wave on a Stretched String: given T = 18.8, mu = 49, find v.",
+     "a": "0.619414",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.14.4.4",
+   "title": "Speed of Sound in an Ideal Gas",
+   "converted_to_compute": true,
+   "formula": "v = sqrt(gamma * P / rho)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "v = sqrt(gamma * P / rho)",
+     "compute": "v = sqrt(gamma * P / rho)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Speed of Sound in an Ideal Gas: given gamma = 7.4, P = 63, rho = 24, find v.",
+     "a": "4.40738",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of Sound in an Ideal Gas: given gamma = 3, P = 28, rho = 78, find v.",
+     "a": "1.03775",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of Sound in an Ideal Gas: given gamma = 18.5, P = 67, rho = 94, find v.",
+     "a": "3.63128",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of Sound in an Ideal Gas: given gamma = 25, P = 68, rho = 1.2, find v.",
+     "a": "37.6386",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of Sound in an Ideal Gas: given gamma = 7.3, P = 91, rho = 65, find v.",
+     "a": "3.19687",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of Sound in an Ideal Gas: given gamma = 90, P = 12.5, rho = 39, find v.",
+     "a": "5.37086",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.14.5.1",
+   "title": "Superposition and Interference of Waves",
+   "converted_to_compute": true,
+   "formula": "amplitude_resultant = 2 * a * cos(phi / 2)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "amplitude_resultant = 2 * a * cos(phi / 2)",
+     "compute": "amplitude_resultant = 2 * a * cos(phi / 2)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Superposition and Interference of Waves: given a = 100, phi = 97, find amplitude resultant.",
+     "a": "-38.6917",
+     "self_check": false
+    },
+    {
+     "q": "For Superposition and Interference of Waves: given a = 95, phi = 95, find amplitude resultant.",
+     "a": "-176.719",
+     "self_check": false
+    },
+    {
+     "q": "For Superposition and Interference of Waves: given a = 22, phi = 24, find amplitude resultant.",
+     "a": "37.1296",
+     "self_check": false
+    },
+    {
+     "q": "For Superposition and Interference of Waves: given a = 65, phi = 7, find amplitude resultant.",
+     "a": "-121.739",
+     "self_check": false
+    },
+    {
+     "q": "For Superposition and Interference of Waves: given a = 59, phi = 16, find amplitude resultant.",
+     "a": "-17.169",
+     "self_check": false
+    },
+    {
+     "q": "For Superposition and Interference of Waves: given a = 44, phi = 23, find amplitude resultant.",
+     "a": "42.5308",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.14.6.1",
+   "title": "Standing Waves on a Stretched String",
+   "converted_to_compute": true,
+   "formula": "frequency = n * v / (2 * L)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "frequency = n * v / (2 * L)",
+     "compute": "frequency = n * v / (2 * L)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Standing Waves on a Stretched String: given n = 63, v = 96, L = 54, find frequency.",
+     "a": "56",
+     "self_check": false
+    },
+    {
+     "q": "For Standing Waves on a Stretched String: given n = 16.7, v = 27, L = 3.3, find frequency.",
+     "a": "68.3182",
+     "self_check": false
+    },
+    {
+     "q": "For Standing Waves on a Stretched String: given n = 63, v = 84, L = 37, find frequency.",
+     "a": "71.5135",
+     "self_check": false
+    },
+    {
+     "q": "For Standing Waves on a Stretched String: given n = 80, v = 41, L = 41, find frequency.",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "For Standing Waves on a Stretched String: given n = 88, v = 0.8, L = 8.3, find frequency.",
+     "a": "4.24096",
+     "self_check": false
+    },
+    {
+     "q": "For Standing Waves on a Stretched String: given n = 12.1, v = 95, L = 43, find frequency.",
+     "a": "13.3663",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.14.6.2",
+   "title": "Standing Waves in a Closed Organ Pipe",
+   "converted_to_compute": true,
+   "formula": "frequency = (2 * n + 1) * v / (4 * L)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "frequency = (2 * n + 1) * v / (4 * L)",
+     "compute": "frequency = (2 * n + 1) * v / (4 * L)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Standing Waves in a Closed Organ Pipe: given n = 69, v = 80, L = 61, find frequency.",
+     "a": "45.5738",
+     "self_check": false
+    },
+    {
+     "q": "For Standing Waves in a Closed Organ Pipe: given n = 57, v = 34, L = 35, find frequency.",
+     "a": "27.9286",
+     "self_check": false
+    },
+    {
+     "q": "For Standing Waves in a Closed Organ Pipe: given n = 45, v = 89, L = 40, find frequency.",
+     "a": "50.6187",
+     "self_check": false
+    },
+    {
+     "q": "For Standing Waves in a Closed Organ Pipe: given n = 10.4, v = 47, L = 89, find frequency.",
+     "a": "2.87809",
+     "self_check": false
+    },
+    {
+     "q": "For Standing Waves in a Closed Organ Pipe: given n = 26, v = 45, L = 80, find frequency.",
+     "a": "7.45312",
+     "self_check": false
+    },
+    {
+     "q": "For Standing Waves in a Closed Organ Pipe: given n = 9.4, v = 60, L = 64, find frequency.",
+     "a": "4.64062",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.14.6.3",
+   "title": "Standing Waves in an Open Organ Pipe",
+   "converted_to_compute": true,
+   "formula": "frequency = n * v / (2 * L)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "frequency = n * v / (2 * L)",
+     "compute": "frequency = n * v / (2 * L)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Standing Waves in an Open Organ Pipe: given n = 49, v = 4, L = 36, find frequency.",
+     "a": "2.72222",
+     "self_check": false
+    },
+    {
+     "q": "For Standing Waves in an Open Organ Pipe: given n = 30, v = 71, L = 60, find frequency.",
+     "a": "17.75",
+     "self_check": false
+    },
+    {
+     "q": "For Standing Waves in an Open Organ Pipe: given n = 93, v = 27, L = 36, find frequency.",
+     "a": "34.875",
+     "self_check": false
+    },
+    {
+     "q": "For Standing Waves in an Open Organ Pipe: given n = 80, v = 97, L = 32, find frequency.",
+     "a": "121.25",
+     "self_check": false
+    },
+    {
+     "q": "For Standing Waves in an Open Organ Pipe: given n = 72, v = 35, L = 49, find frequency.",
+     "a": "25.7143",
+     "self_check": false
+    },
+    {
+     "q": "For Standing Waves in an Open Organ Pipe: given n = 76, v = 26, L = 49, find frequency.",
+     "a": "20.1633",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.14.7.1",
+   "title": "Beat Frequency",
+   "converted_to_compute": true,
+   "formula": "beat_frequency = abs(frequency_1 - frequency_2)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "beat_frequency = abs(frequency_1 - frequency_2)",
+     "compute": "beat_frequency = abs(frequency_1 - frequency_2)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Beat Frequency: given frequency_1 = 578, frequency_2 = 134, find beat frequency.",
+     "a": "444",
+     "self_check": false
+    },
+    {
+     "q": "For Beat Frequency: given frequency_1 = 393, frequency_2 = 724, find beat frequency.",
+     "a": "331",
+     "self_check": false
+    },
+    {
+     "q": "For Beat Frequency: given frequency_1 = 649, frequency_2 = 901, find beat frequency.",
+     "a": "252",
+     "self_check": false
+    },
+    {
+     "q": "For Beat Frequency: given frequency_1 = 148, frequency_2 = 930, find beat frequency.",
+     "a": "782",
+     "self_check": false
+    },
+    {
+     "q": "For Beat Frequency: given frequency_1 = 652, frequency_2 = 277, find beat frequency.",
+     "a": "375",
+     "self_check": false
+    },
+    {
+     "q": "For Beat Frequency: given frequency_1 = 19.9, frequency_2 = 33, find beat frequency.",
+     "a": "13.1",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

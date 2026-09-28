@@ -34,6 +34,26 @@
      "q": "Create a realistic business scenario (Indian context, using ₹) that requires a compound journal entry with **two debits and two credits** (4 accounts total). Write the complete journal entry with proper formatting and narration. Explain why this cannot be recorded as two separate simple entries.",
      "a": "**Scenario:** \"M/s Gupta Traders purchased a delivery van for ₹4,00,000 from M/s Delhi Motors. Paid ₹1,50,000 by cheque immediately. The balance ₹2,50,000 is payable after 3 months. Also paid ₹20,000 for registration and insurance by cheque.\"  \n**Accounts:**  \n1. Delivery Van (Asset) ↑ → Debit 4,00,000  \n2. Registration & Insurance (Expense) ↑ → Debit 20,000  \n3. Bank (Asset) ↓ → Credit 1,70,000 (1,50,000 + 20,000)  \n4. M/s Delhi Motors (Liability) ↑ → Credit 2,50,000  \n\n**Journal Entry:**  \nDelivery Van A/c Dr. 4,00,000  \nRegistration & Insurance A/c Dr. 20,000  \n To Bank A/c 1,70,000  \n To M/s Delhi Motors A/c 2,50,000  \n(Being van purchased, registration paid, partial payment by cheque, balance on credit)  \n\n**Why not two simple entries?**  \nIf split: (1) Van Dr. 4,00,000; To Bank 1,50,000; To Delhi Motors 2,50,000 — but registration ₹20,000 is missing. (2) Registration Dr. 20,000; To Bank 20,000 — this separates two parts of the *same transaction* (van acquisition), violating the principle that a single economic event = one journal entry. Splitting obscures the full cost of the van (₹4,20,000) and the single payment to the bank. A poor answer creates a scenario with only 3 accounts or splits it incorrectly, showing inability to synthesize multi-element transactions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A compound journal entry is a single journal entry that records a business ______ affecting more than two accounts, involving either multiple debits, multiple credits, or both, while maintaining the fundamental accounting principle that total debits must equal total credits.",
+     "a": "transaction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you buy a laptop for ₹60,000 for your freelance ______: you pay ₹20,000 cash upfront and agree to pay the remaining ₹40,000 next month.",
+     "a": "business",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently analyze a business transaction with three or more accounts, correctly identify each account's classification (asset/liability/capital/revenue/expense), apply debit/credit rules to determine which accounts to debit and credit, and record a properly formatted compound journal entry with accurate amounts and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you buy a laptop for ₹60,000 for your ______ business: you pay ₹20,000 cash upfront and agree to pay the remaining ₹40,000 next month.",
+     "a": "freelance",
+     "self_check": true
     }
    ]
   }

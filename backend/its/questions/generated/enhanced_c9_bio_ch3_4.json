@@ -34,6 +34,36 @@
      "q": "Design a simple diagram-based model (describe it in words) to demonstrate how crossing over during Prophase I of meiosis creates new combinations of alleles on a chromosome that were not present in either parent.",
      "a": "A good model: Draw one pair of homologous chromosomes (one maternal, one paternal), each replicated into two sister chromatids. Show non-sister chromatids crossing at a chiasma. Label alleles (e.g., A,B on maternal; a,b on paternal). After exchange, show recombinant chromatids with new combinations (A,b and a,B). A poor answer (e.g., just drawing chromosomes without allele exchange) reveals the student treats crossing over as a visual event without understanding its genetic consequence — recombination.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Meiosis is a specialized type of cell division that reduces the chromosome number by half, producing four genetically distinct haploid daughter cells (gametes) from a single diploid parent cell, and is the cellular basis for sexual ______.",
+     "a": "reproduction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a family photo: siblings share features with parents and each other, yet no two look exactly alike (except ______ twins).",
+     "a": "identical",
+     "self_check": true
+    },
+    {
+     "q": "What is Meiosis? State the definition given in this lesson.",
+     "a": "Meiosis is a specialized type of cell division that reduces the chromosome number by half, producing four genetically distinct haploid daughter cells (gametes) from a single diploid parent cell, and is the cellular basis for sexual reproduction.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If body cells are diploid (______n), fusion would double the chromosome number every generation unless a reduction step exists.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Meiosis?",
+     "a": "Students believe meiosis produces *two* cells (like mitosis) because they overlook the second division (Meiosis II).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how meiosis maintains a constant species chromosome number across generations through halving and fertilization, and can describe how crossing over and independent assortment during meiosis generate genetic variation in offspring.",
+     "self_check": true
     }
    ]
   }

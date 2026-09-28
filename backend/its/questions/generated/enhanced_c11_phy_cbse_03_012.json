@@ -32,7 +32,22 @@
     },
     {
      "q": "Design a simple experiment using a smartphone camera and a ball thrown in a darkened room with a strobe light (or video analysis) to verify that the trajectory is parabolic. What measurements would you take, and how would you plot the data to confirm the quadratic relationship?",
-     "a": "Record a video of a ball thrown at an angle (e.g., 30°) against a grid background. Use video analysis software (like Tracker) to mark the ball's position \\((x, y)\\) in each frame. Plot \\(y\\) vs \\(x\\). Fit a quadratic curve \\(y = ax + bx^2\\). The coefficient \\(b\\) should be negative. Calculate theoretical \\(b_{\\text{theory}} = -\\frac{g}{2u^2\\cos^2\\theta}\\) using measured \\(u\\) and \\(\\theta\\). Compare \\(b_{\\text{exp}}\\) and \\(b_{\\text{theory}}\\). A good answer includes: controlling for camera angle (perpendicular to plane of motion), calibrating pixels to meters using the grid, and acknowledging air resistance causes slight deviation at high speeds. A poor answer suggests plotting \\(y\\) vs \\(t\\) (which is also quadratic but doesn't test the *trajectory* equation) or ignores calibration.",
+     "a": "(1) Record a video of a ball thrown at a fixed angle against a grid background, keeping the camera perpendicular to the plane of motion, (2) Calibrate pixels to metres using the grid and mark the ball's x and y position in every frame with video analysis software, (3) Plot y against x and fit a quadratic of the form y = ax + bx squared, (4) Check that the fitted coefficient b is negative and matches the theoretical value of minus g over two u squared cos squared theta, calculated from the measured launch speed and angle, (5) Accept that air resistance causes slight deviation at high speeds. A poor answer plots y against t, which is also quadratic but does not test the trajectory equation, or skips the pixel-to-metre calibration.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This equation is the \"fingerprint\" of the ______ — it tells us the height at any horizontal distance.",
+     "a": "projectile",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the trajectory equation by eliminating time from parametric equations, identify the coefficients of the parabolic equation, and use it to find the height at a given horizontal distance or the horizontal distances at a given height.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This equation is the \"______\" of the projectile — it tells us the height at any horizontal distance.",
+     "a": "fingerprint",
      "self_check": true
     }
    ]

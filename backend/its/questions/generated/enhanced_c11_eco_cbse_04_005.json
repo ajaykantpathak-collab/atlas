@@ -34,6 +34,21 @@
      "q": "Design a low-cost health intervention for a rural household of five (two adults, three children) that maximizes human capital returns per rupee spent. List the intervention, its estimated annual cost, the specific human capital mechanism it activates, and one indicator you would track to verify its impact.",
      "a": "Intervention: Household-level water filtration (ceramic candle filter) + ORS awareness + deworming tablets for children.  \nAnnual cost: ~₹1,500 (filter ₹800 + deworming ₹200 + ORS packets ₹500).  \nMechanism: Preventive — reduces diarrheal days (morbidity), improves nutrient absorption (cognitive/physical development in children), keeps adults at work.  \nTracking indicator: \"Number of work/school days lost per person per quarter due to water-borne illness.\"  \nA poor answer proposes a curative intervention (e.g., \"stock antibiotics\") or ignores the child development aspect, missing the intergenerational human capital dimension emphasized in the textbook.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Health as a source of human capital refers to the process where ______ on preventive medicine (vaccination), curative medicine (treatment), social medicine (health literacy), and sanitation transform the stock of human resources into a more productive workforce by reducing morbidity, increasing the number of healthy work days, extending the working life span, and enhancing physical and mental capacity to perform labor efficiently.",
+     "a": "expenditures",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a daily-wage ______ worker in Mumbai who contracts typhoid due to contaminated water.",
+     "a": "construction",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain the causal chain linking specific types of health expenditure (preventive, curative, sanitation) to measurable improvements in labor productivity (reduced absenteeism, higher efficiency, longer working life) and distinguish this investment view from the consumption view of health spending.",
+     "self_check": true
     }
    ]
   }

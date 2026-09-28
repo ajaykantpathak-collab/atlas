@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_08_004",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_08_004",
+   "title": "c12_app_cbse_08_004",
+   "questions": [
+    {
+     "q": "What is the index number of the base period by definition, and why is it assigned this specific value?",
+     "a": "The index number of the base period is always **100**. It is assigned this value by convention to serve as a fixed reference benchmark — all other periods are expressed as a percentage *of* this base. A wrong answer (e.g., \"0\", \"1\", or \"the actual price\") reveals the student misunderstands the *relative* nature of index numbers: they measure *change relative to a baseline*, not absolute levels.",
+     "self_check": true
+    },
+    {
+     "q": "A student computes the price relative for 2020 with base 2015 as \\( \\frac{2020 \\text{ price}}{2015 \\text{ price}} \\times 100 = 135 \\). They write: \"Prices increased by 135% from 2015 to 2020.\" Is this correct? Explain.",
+     "a": "**Incorrect.** The index is 135, which means prices are 135% *of* the base period level — i.e., a **35% increase** (135 − 100 = 35). The student confused the *index value* (135) with the *percentage change* (35%). This is the single most common error in board exams: forgetting to subtract 100 to get the actual percentage change.",
+     "self_check": true
+    },
+    {
+     "q": "The price of 1 kg rice was ₹40 in 2010 (base) and ₹52 in 2020. The price of 1 litre milk was ₹30 in 2010 and ₹45 in 2020. Compute the price relative index for each commodity in 2020. Which commodity saw a higher *rate* of price increase?",
+     "a": "Rice: \\( \\frac{52}{40} \\times 100 = 130 \\). Milk: \\( \\frac{45}{30} \\times 100 = 150 \\). Milk's index (150) > Rice's index (130), so **milk had a higher rate of price increase** (50% vs 30%). A wrong answer (e.g., comparing absolute increases ₹12 vs ₹15) reveals the student doesn't grasp that index numbers *normalize for base price* — essential when units or base magnitudes differ.",
+     "self_check": true
+    },
+    {
+     "q": "Why can we *not* directly compare the absolute price change of crude oil (₹/gallon) with the absolute price change of wheat (₹/kg) to understand overall inflation? How does an index number solve this?",
+     "a": "Absolute changes are in different units (₹/gallon vs ₹/kg) and different base magnitudes — a ₹10 rise in crude oil may be trivial, while a ₹10 rise in wheat is massive. Index numbers **convert each to a unit-free percentage relative to its own base** (both become pure numbers like 112, 140), making them directly comparable and aggregatable. A vague answer (\"units differ\") misses the core: index numbers *standardize by base-period proportion*, not just remove units.",
+     "self_check": true
+    },
+    {
+     "q": "An economist claims: \"Since the Consumer Price Index (CPI) rose from 120 to 132, inflation was 12%.\" Evaluate this statement. Is the reasoning correct? If not, what is the correct inflation rate?",
+     "a": "**Incorrect reasoning.** The economist subtracted index values (132 − 120 = 12) and called it 12%. But inflation rate = \\( \\frac{132 - 120}{120} \\times 100 = 10\\% \\). Index numbers are *already percentages of base*; the change *between* two index numbers must be calculated as a percentage of the *earlier index*, not as a raw difference. This traps students who treat index numbers like ordinary numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic mini-dataset (3 commodities, base year 2018, current year 2023) where Commodity A has the *largest absolute price increase* but the *smallest price relative index*. Show the data and explain why this happens.",
+     "a": "Example:  \n| Commodity | 2018 Price | 2023 Price | Abs. Increase | Price Relative |  \n|-----------|------------|------------|---------------|----------------|  \n| A (Gold)  | 30,000     | 30,500     | 500           | 101.67         |  \n| B (Rice)  | 40         | 55         | 15            | 137.5          |  \n| C (Milk)  | 30         | 42         | 12            | 140            |  \nCommodity A has the largest absolute rise (₹500) but the smallest index (101.67) because its *base price is huge* — a ₹500 change is only 1.67%. This shows why **absolute changes mislead**; index numbers reveal the *proportional* impact. A poor answer uses similar base prices, missing the point entirely.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,31 @@
      "q": "Design a simple comparative experiment using only a compound light microscope and standard histological stains (H&E, Verhoeff's elastin, Masson's trichrome) to distinguish between dense regular connective tissue (tendon), dense irregular connective tissue (dermis), and elastic cartilage (pinna). Specify the stain, expected observation, and the structural basis for each distinction.",
      "a": "**Experiment Design:**\n| Tissue | Stain | Key Observation | Structural Basis |\n|--------|-------|-----------------|------------------|\n| Tendon (Dense Regular) | H&E or Masson's | **Parallel collagen bundles** (pink/blue), fibroblasts in rows between bundles | Unidirectional tension → aligned Type I collagen |\n| Dermis (Dense Irregular) | H&E or Masson's | **Interwoven collagen bundles** in multiple planes, fibroblasts scattered | Multi-directional stress → random Type I collagen orientation |\n| Pinna (Elastic Cartilage) | **Verhoeff's elastin** | **Abundant black elastic fibers** forming a mesh within chondrocyte lacunae | Elastic recoil → high elastin:collagen ratio |\n\n**Reasoning:** Masson's trichrome differentiates collagen (blue) from muscle/cytoplasm (red); Verhoeff's specifically stains elastin black. A poor design (e.g., using only H&E for all three) cannot reliably distinguish elastic fibers from collagen, revealing a gap in understanding histochemical specificity — essential for diagnostic pathology.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Connective tissue is the most abundant and widely distributed tissue in complex animals, ______ by cells scattered within an abundant extracellular matrix composed of protein fibers (collagen, elastin, reticular) and ground substance; it functions to bind, support, protect, insulate, store energy, and transport substances throughout the body.",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your own body: pinch the skin on your forearm — it stretches and snaps back; feel your wrist — hard bone under the skin; notice a bruise ______ after a bump — blood leaking into tissues.",
+     "a": "forming",
+     "self_check": true
+    },
+    {
+     "q": "What is Connective tissue? State the definition given in this lesson.",
+     "a": "Connective tissue is the most abundant and widely distributed tissue in complex animals, characterized by cells scattered within an abundant extracellular matrix composed of protein fibers (collagen, elastin, reticular) and ground substance; it functions to bind, support, protect, insulate, store energy, and transport substances.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Connective tissue?",
+     "a": "Students often believe \"connective tissue = tissue that connects things\" (like glue).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify connective tissues into proper (loose and dense) and specialized (cartilage, bone, blood, adipose, reticular) categories, describe the specific cellular components, fiber types, and matrix characteristics of each subtype, and explain how these structural features determine their physiological functions in the.",
+     "self_check": true
     }
    ]
   }

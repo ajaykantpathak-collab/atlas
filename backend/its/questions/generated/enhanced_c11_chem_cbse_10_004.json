@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_10_004",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_10_004",
+   "title": "c11_chem_cbse_10_004",
+   "questions": [
+    {
+     "q": "Define the inductive effect and state the direction of the dipole arrow for a C–Cl bond. How many carbon atoms away does it remain significant?",
+     "a": "Inductive effect is the permanent polarization of σ-bonds due to electronegativity difference, transmitted through the chain. For C–Cl, chlorine is more electronegative, so the dipole arrow points from C → Cl (δ⁺ on C, δ⁻ on Cl), making it a -I group. It becomes negligible after 3–4 σ-bonds (C–C–C–Cl). A wrong answer (e.g., arrow toward C, or \"works through π-bonds\") reveals confusion between inductive (σ-only, distance-dependent decay) and resonance (π-delocalization, distance-independent in conjugated systems).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the –OH group shows -I but +R effect when attached to a benzene ring. Use orbital overlap arguments.",
+     "a": "Oxygen is more electronegative than carbon, so it withdraws σ-electron density (-I). However, oxygen has lone pairs in p-orbitals that overlap with the π-system of the ring, donating π-electron density (+R). The +R dominates at ortho/para positions. A wrong answer (e.g., \"both are electron-withdrawing\" or \"inductive works through π\") shows failure to distinguish σ vs π pathways and the dual nature of heteroatom substituents.",
+     "self_check": true
+    },
+    {
+     "q": "Draw all resonance contributors for the phenoxide ion (C₆H₅O⁻). Label major/minor contributors and justify using the \"most stable contributor\" rules.",
+     "a": "Five contributors: (I) negative charge on O (major — O bears charge, all atoms octet); (II, III) negative charge on ortho carbons (minor — charge on less electronegative C, but octet complete); (IV, V) negative charge on para carbon (minor). Rules: more covalent bonds > fewer; negative charge on more electronegative atom > less; charge separation minimized. A wrong answer (e.g., drawing charge on meta, or breaking aromaticity) reveals misunderstanding of conjugation pathway (ortho/para only) and contributor stability criteria.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the stability order: (CH₃)₃C⁺ > (CH₃)₂CH⁺ > CH₃CH₂⁺ > CH₃⁺. Explain using hyperconjugation. How many α-hydrogens does each have?",
+     "a": "Stability increases with number of α-hydrogens: tert-butyl (9 α-H) > isopropyl (6 α-H) > ethyl (3 α-H) > methyl (0 α-H). Each α-C-H σ-bond donates electron density to the empty p-orbital on the carbocation carbon via hyperconjugation. A wrong answer (e.g., \"inductive effect of alkyl groups\" only) misses the orbital overlap requirement — hyperconjugation needs aligned σ(C-H) and empty p-orbital (planar sp²), not just σ-polarization.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"The –NO₂ group is meta-directing in electrophilic aromatic substitution because it shows +R effect.\" True or false? Justify.",
+     "a": "False. –NO₂ shows -R effect (π-withdrawal) due to N⁺=O⁻ resonance forms placing positive charge on ring ortho/para positions, deactivating them. It is meta-directing because meta position avoids this positive charge buildup. A wrong \"true\" answer reveals confusion between +R (electron donation, e.g., –OH, –NH₂) and -R (electron withdrawal, e.g., –NO₂, –COOH) and their directing effects.",
+     "self_check": true
+    },
+    {
+     "q": "Design a thought experiment: You have two unknown acids — one is benzoic acid (C₆H₅COOH), the other is p-nitrobenzoic acid (O₂N–C₆H₄–COOH). Predict which is stronger and explain using combined inductive and resonance effects of the –NO₂ group at para position.",
+     "a": "p-Nitrobenzoic acid is stronger. –NO₂ at para exerts -I (through σ-bonds) and -R (π-withdrawal, delocalizing negative charge of conjugate base onto nitro oxygens). Both effects stabilize the carboxylate anion. Benzoic acid has no such stabilization. A poor answer (e.g., \"nitro is electron-withdrawing so stronger\" without distinguishing -I vs -R pathways) shows lack of mechanistic depth — resonance delocalization onto the nitro group is the dominant factor at para.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,21 @@
      "q": "**CREATE:** Design a real-world Indian scenario (with plausible numbers) where a policymaker *must* use a relative measure of dispersion (not absolute) to make a correct decision. Specify the variable, units, the two groups being compared, and which relative measure they should use.",
      "a": "**Expected Answer Criteria:**  \n- Scenario involves comparing variability across **different units** (e.g., rainfall in mm vs temperature in °C) or **vastly different means** (e.g., per capita income of Maharashtra vs Bihar).  \n- Example: \"Comparing variability of monthly rainfall (mm) in Cherrapunji (Mean=1000mm, SD=200mm) vs monthly temperature (°C) in Delhi (Mean=25°C, SD=5°C). Policymaker needs Coefficient of Variation to decide which variable is more relatively variable for climate adaptation planning.\"  \n**Poor Answer Reveals:** If the student creates a scenario comparing two datasets with the *same units and similar means* (e.g., wages in two factories both in ₹ with similar averages), they haven't grasped the *necessity* of relative measures—they've just created a situation where absolute measures would work fine.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Absolute measures of ______ (Range, Quartile Deviation, Mean Deviation, Standard Deviation) are expressed in the same units as the original data and indicate the absolute amount of spread.",
+     "a": "dispersion",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are comparing the ______ of two batsmen: Virat scores an average of 50 runs with a standard deviation of 15 runs, while a bowler's economy rate averages 5 runs/over with a standard deviation of 1.5 runs/over.",
+     "a": "consistency",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly classify a given measure as absolute or relative, explain why relative measures are necessary for comparing two distributions with different units (e.g., heights in cm vs weights in kg), and select the appropriate relative measure (Coefficient of Variation, Coefficient of Range, etc.) for a given comparison scenario.",
+     "self_check": true
     }
    ]
   }

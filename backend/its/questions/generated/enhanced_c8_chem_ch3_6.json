@@ -34,6 +34,31 @@
      "q": "Design a modified distillation setup to obtain pure drinking water from muddy seawater. Which two separation techniques would you combine, and in what order?",
      "a": "First, use filtration or sedimentation to remove insoluble mud particles, followed by simple distillation to remove dissolved salts from the filtrate. A poor answer fails to separate suspended solids before distillation, which would clog or contaminate the distillation flask.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is an advanced separation technique used to separate the components of a liquid mixture by utilizing differences in their boiling points through consecutive vaporization and condensation.",
+     "a": "Distillation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you boil salt water in a kitchen vessel to dry it up completely, the water escapes as steam into the air, leaving only the salt behind—this is simple ______ where the liquid solvent is lost.",
+     "a": "evaporation",
+     "self_check": true
+    },
+    {
+     "q": "What is Distillation? State the definition given in this lesson.",
+     "a": "Distillation is an advanced separation technique used to separate the components of a liquid mixture by utilizing differences in their boiling points through consecutive vaporization and condensation.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Distillation?",
+     "a": "Students often believe that during distillation, liquid turns directly into gas and then instantly disappears into the atmosphere, completely missing the condensation step.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Students can differentiate between simple and fractional distillation, explain the role of a condenser in phase change, and describe how boiling point differences enable the separation of miscible liquids.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Construct a real-world problem (using Indian context: e.g., a rooftop water tank, a sloping roof, a kite) that requires finding the normal form of a plane given the perpendicular distance from the origin and the angles the normal makes with the coordinate axes. Provide the solution.",
      "a": "Problem: A sloping roof of a house is at a perpendicular distance of 6 metres from the corner of the room (taken as origin). The normal to the roof makes angles \\(60^\\circ, 60^\\circ, 45^\\circ\\) with the positive x, y, z axes. Find the equation of the roof plane in normal form.  \nSolution: Direction cosines: \\(l = \\cos 60^\\circ = 1/2\\), \\(m = 1/2\\), \\(n = \\cos 45^\\circ = 1/\\sqrt{2}\\). Check: \\(1/4+1/4+1/2=1\\). Normal form: \\(\\frac{1}{2}x + \\frac{1}{2}y + \\frac{1}{\\sqrt{2}}z = 6\\). A good answer includes the correct setup and arithmetic. A poor answer uses the angles directly as coefficients or forgets the unit normal condition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This form uniquely determines the plane's ______ and position relative to the origin.",
+     "a": "orientation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a kite flying at a ______ of 50 metres above a flat ground, with its string held at the origin.",
+     "a": "height",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a kite flying at a height of ______ metres above a flat ground, with its string held at the origin.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a kite flying at a height of 50 metres above a flat ground, with its string held at the origin.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

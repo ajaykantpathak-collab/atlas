@@ -1,629 +1,638 @@
 {
-  "class": 12,
-  "subject": "biology",
-  "chapter": 101,
-  "chapter_title": "Sexual Reproduction in Flowering Plants",
-  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lebo101.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "concepts": [
+ "class": 12,
+ "subject": "biology",
+ "chapter": 101,
+ "chapter_title": "Sexual Reproduction in Flowering Plants",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lebo101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lebo101.1.2.1.1",
+   "title": "Anther and Microsporangium Wall Layers",
+   "section": "1.2.1",
+   "definition": "A stamen carries a slender filament topped by an anther that is typically two-lobed and four-sporangiate; every microsporangium is jacketed by epidermis, endothecium, middle layers and an innermost tapetum.",
+   "formula": "",
+   "key_idea": "The tapetum feeds the growing pollen, while the outer three jackets shield the sporangium and help it split open at maturity.",
+   "textbook_ref": "lebo101.txt lines 116-157 (stamen, anther section and microsporangium structure)",
+   "question_patterns": [
+    "draw and label the four wall layers seen in a cross section of a microsporangium",
+    "how many microsporangia does a typical angiosperm anther hold",
+    "why is an anther described as dithecous and tetrasporangiate",
+    "which anther wall layer nourishes the developing pollen grains",
+    "state the part played by the endothecium when an anther dehisces",
+    "what is unusual about the nuclei of tapetal cells"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
     {
-      "id": "lebo101.1.2.1.1",
-      "title": "Anther and Microsporangium Wall Layers",
-      "section": "1.2.1",
-      "definition": "A stamen carries a slender filament topped by an anther that is typically two-lobed and four-sporangiate; every microsporangium is jacketed by epidermis, endothecium, middle layers and an innermost tapetum.",
-      "formula": "",
-      "key_idea": "The tapetum feeds the growing pollen, while the outer three jackets shield the sporangium and help it split open at maturity.",
-      "textbook_ref": "lebo101.txt lines 116-157 (stamen, anther section and microsporangium structure)",
-      "question_patterns": [
-        "draw and label the four wall layers seen in a cross section of a microsporangium",
-        "how many microsporangia does a typical angiosperm anther hold",
-        "why is an anther described as dithecous and tetrasporangiate",
-        "which anther wall layer nourishes the developing pollen grains",
-        "state the part played by the endothecium when an anther dehisces",
-        "what is unusual about the nuclei of tapetal cells"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Name the two parts of a stamen",
-          "explain": "A long thin stalk, the filament, bears a terminal usually bilobed anther attached at the thalamus or petal."
-        },
-        {
-          "step": 2,
-          "action": "Count the theca and sporangia",
-          "explain": "Each lobe carries two theca, making the anther dithecous, and the four-sided organ holds four microsporangia, two per lobe, that ripen into pollen sacs."
-        },
-        {
-          "step": 3,
-          "action": "List the wall layers from outside in",
-          "explain": "Epidermis, endothecium and middle layers form the protective outer jackets; the tapetum lines the inside with dense, often multinucleate cells."
-        },
-        {
-          "step": 4,
-          "action": "Assign functions and locate the sporogenous tissue",
-          "explain": "Outer layers guard and later split to shed pollen, the tapetum nourishes grains, and compact sporogenous cells fill the centre of a young sporangium."
-        }
-      ]
+     "step": 1,
+     "action": "Name the two parts of a stamen",
+     "explain": "A long thin stalk, the filament, bears a terminal usually bilobed anther attached at the thalamus or petal."
     },
     {
-      "id": "lebo101.1.2.1.2",
-      "title": "Microsporogenesis and Pollen Yield",
-      "section": "1.2.1",
-      "definition": "Inside each microsporangium the sporogenous cells act as pollen mother cells whose meiotic divisions produce haploid microspores, first stuck together in four-cell tetrads and later released as separate pollen grains.",
-      "formula": "microspores = pmc_count * 4",
-      "key_idea": "One diploid pollen mother cell meiotically yields a tetrad of four haploid microspores, and every microspore matures into exactly one pollen grain.",
-      "textbook_ref": "lebo101.txt lines 157-178 (microsporogenesis paragraph)",
-      "question_patterns": [
-        "calculate the pollen grains produced from a given number of pollen mother cells in an anther",
-        "how many haploid microspores arise when a set of PMCs undergoes meiosis",
-        "find the total pollen grain output from microspore mother cells of a sporangium",
-        "a pollen mother cell divides meiotically; how many microspores and tetrads result",
-        "determine the pollen yield of an anther from its sporogenous cell count",
-        "work out how many functional pollen grains come from twenty sporogenous cells"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Multiply the pollen mother cell count by four",
-          "explain": "Meiosis in each diploid PMC produces a tetrad of four haploid microspores.",
-          "compute": "microspores = pmc_count * 4"
-        },
-        {
-          "step": 2,
-          "action": "Convert microspores to mature grains",
-          "explain": "As the anther matures and dries, tetrad members separate and each microspore develops into one pollen grain, so the grain count equals the microspore count.",
-          "compute": "pollen_grains = microspores"
-        },
-        {
-          "step": 3,
-          "action": "Report the final yield",
-          "explain": "The sporangium's pollen output is four times its number of pollen mother cells.",
-          "compute": "result = pollen_grains"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Microsporogenesis and Pollen Yield, compute the result for pmc_count = 3.",
-          "solution": "Step 1: Multiply the pollen mother cell count by four: microspores = pmc_count * 4 = 12.0 Step 2: Convert microspores to mature grains: pollen_grains = microspores = 12.0 Step 3: Report the final yield: result = pollen_grains = 12.0 Final result: 12.0",
-          "answer": "12.0"
-        },
-        {
-          "question": "Using Microsporogenesis and Pollen Yield, compute the result for pmc_count = 4.",
-          "solution": "Step 1: Multiply the pollen mother cell count by four: microspores = pmc_count * 4 = 16.0 Step 2: Convert microspores to mature grains: pollen_grains = microspores = 16.0 Step 3: Report the final yield: result = pollen_grains = 16.0 Final result: 16.0",
-          "answer": "16.0"
-        }
-      ]
+     "step": 2,
+     "action": "Count the theca and sporangia",
+     "explain": "Each lobe carries two theca, making the anther dithecous, and the four-sided organ holds four microsporangia, two per lobe, that ripen into pollen sacs."
     },
     {
-      "id": "lebo101.1.2.1.3",
-      "title": "Pollen Wall, Shedding Stage and Viability",
-      "section": "1.2.1",
-      "definition": "A pollen grain wears a chemically tough sporopollenin exine broken by germ pores over a thin cellulose-pectin intine, and it leaves the anther either two-celled or three-celled, remaining viable from half an hour in cereals to months in some other families.",
-      "formula": "",
-      "key_idea": "Sporopollenin resists heat, acids, alkalis and every known enzyme, which is why pollen survives as fossils, while germ pores mark the spots where the pollen tube later emerges.",
-      "textbook_ref": "lebo101.txt lines 179-247 (pollen grain structure, 2-celled/3-celled stages, viability and storage)",
-      "question_patterns": [
-        "name the outer and inner layers of a pollen grain wall and state what each is made of",
-        "why can pollen grains persist as fossils for very long periods",
-        "distinguish pollen shed at the two celled stage from pollen shed at the three celled stage",
-        "what purpose do the germ pores of the exine serve",
-        "how does pollen viability in cereals compare with that in some rosaceous or leguminous plants",
-        "describe how a pollen bank stores grains for use in crop breeding"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Describe the two-layered wall",
-          "explain": "The hard outer exine is sporopollenin with apertures called germ pores; the thin continuous intine beneath is cellulose and pectin."
-        },
-        {
-          "step": 2,
-          "action": "State the internal cells at shedding",
-          "explain": "A mature grain holds a large food-rich vegetative cell and a small spindle-shaped generative cell; in over sixty percent of angiosperms it sheds at this two-celled stage, while elsewhere the generative cell has already divided mitotically into two male gametes, giving a three-celled grain."
-        },
-        {
-          "step": 3,
-          "action": "Compare viability spans and storage",
-          "explain": "Viability depends on temperature and humidity: cereals like rice and wheat lose it within about thirty minutes, some members of other families keep it for months, and grains of many species can be cryo-stored near minus 196 degrees Celsius in pollen banks for breeding programmes."
-        }
-      ]
+     "step": 3,
+     "action": "List the wall layers from outside in",
+     "explain": "Epidermis, endothecium and middle layers form the protective outer jackets; the tapetum lines the inside with dense, often multinucleate cells."
     },
     {
-      "id": "lebo101.1.2.2.1",
-      "title": "Ovule (Megasporangium) Structure",
-      "section": "1.2.2",
-      "definition": "An ovule grows on the placenta through a stalk called the funicle, joins it at the hilum, and wraps a reserve-filled nucellus in one or two integuments that leave a micropylar opening, with the chalaza forming the base opposite the micropyle.",
-      "formula": "",
-      "key_idea": "A single embryo sac, the female gametophyte, sits embedded in the nucellus of a typical ovule.",
-      "textbook_ref": "lebo101.txt lines 248-285 (pistil parts and megasporangium structure)",
-      "question_patterns": [
-        "label funicle hilum integuments micropyle chalaza and nucellus on a diagram of a typical ovule",
-        "which opening of the ovule lets the pollen tube enter",
-        "what connects the body of an ovule to the placenta",
-        "distinguish the micropylar end from the chalazal end of a megasporangium",
-        "why is the nucellus called a nutritive tissue of the ovule",
-        "how many embryo sacs does one ordinary ovule enclose"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Identify the stalk and junction",
-          "explain": "The funicle attaches the ovule to the placenta; the point where funicle and ovule body fuse is the hilum."
-        },
-        {
-          "step": 2,
-          "action": "Point out the protective envelopes and gap",
-          "explain": "One or two integuments encircle the nucellus and stop short at the tip, leaving a small pore, the micropyle, opposite the basal chalaza."
-        },
-        {
-          "step": 3,
-          "action": "Locate the inner tissues",
-          "explain": "The nucellus stores abundant reserve food and cradles the embryo sac, which usually occurs as a single copy per ovule."
-        }
-      ]
-    },
-    {
-      "id": "lebo101.1.2.2.2",
-      "title": "Megasporogenesis, Monosporic Development and Embryo Sac Organisation",
-      "section": "1.2.2",
-      "definition": "A large, densely cytoplasmic megaspore mother cell in the micropylar nucellus divides meiotically into four haploid megaspores; three degenerate and the lone survivor, through repeated free-nuclear mitoses and later wall formation, builds an eight-nucleate, seven-celled embryo sac.",
-      "formula": "",
-      "key_idea": "Monosporic development means a single functional megaspore constructs the whole female gametophyte, ending with egg apparatus, antipodals and a two-polar-nucleus central cell.",
-      "textbook_ref": "lebo101.txt lines 286-347 (megasporogenesis and female gametophyte development)",
-      "question_patterns": [
-        "trace the steps from megaspore mother cell to a mature embryo sac",
-        "what does monosporic development of the female gametophyte signify",
-        "why do three of the four megaspores formed in an ovule degenerate in most flowering plants",
-        "how many mitotic nuclear divisions take a functional megaspore to the eight nucleate stage",
-        "are the divisions during embryo sac formation free nuclear or accompanied by walls",
-        "state the ploidy of the nucellus the megaspore mother cell and the functional megaspore"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Follow meiosis in the MMC",
-          "explain": "The megaspore mother cell, set in the micropylar region of the nucellus, undergoes meiosis to give a linear row of four haploid megaspores."
-        },
-        {
-          "step": 2,
-          "action": "Apply the monosporic rule",
-          "explain": "Three megaspores wither away; only the functional one, usually the chalazal, enlarges and becomes the founder of the female gametophyte."
-        },
-        {
-          "step": 3,
-          "action": "Count the free-nuclear mitoses",
-          "explain": "Its nucleus divides mitotically twice to opposite poles and then once more, giving two, four and finally eight nuclei, all before any cell wall appears."
-        },
-        {
-          "step": 4,
-          "action": "Map the resulting cells",
-          "explain": "Walls then partition six nuclei into cells: an egg flanked by two synergids with filiform thickenings at the micropylar pole and three antipodals at the chalazal pole, while the large central cell keeps the two remaining polar nuclei."
-        },
-        {
-          "step": 5,
-          "action": "Tally nuclei against cells",
-          "explain": "Maturity brings eight nuclei packed into seven cells, the standard angiosperm embryo sac."
-        }
-      ]
-    },
-    {
-      "id": "lebo101.1.2.3.1",
-      "title": "Kinds of Pollination: Autogamy, Geitonogamy and Xenogamy",
-      "section": "1.2.3",
-      "definition": "Pollen movement is classified by source: autogamy lands pollen on the stigma of the same flower, geitonogamy moves it to another flower of the same plant, and xenogamy carries it between different plants, only the last delivering genetically unlike pollen.",
-      "formula": "",
-      "key_idea": "Closed cleistogamous flowers force self-pollination and assure seed set, whereas xenogamy alone counts as true genetic cross-pollination.",
-      "textbook_ref": "lebo101.txt lines 348-421 (kinds of pollination)",
-      "question_patterns": [
-        "differentiate autogamy geitonogamy and xenogamy on the basis of pollen source",
-        "why is geitonogamy functionally cross pollination yet genetically similar to selfing",
-        "which pollination type brings genetically different pollen grains onto a stigma",
-        "how do cleistogamous flowers manage seed set without any pollinator",
-        "what two requirements must a flower fulfil for complete autogamy",
-        "name plants that bear both chasmogamous and cleistogamous flowers"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Sort the three kinds by pollen origin",
-          "explain": "Same flower gives autogamy; another flower on the same plant gives geitonogamy; a different plant gives xenogamy."
-        },
-        {
-          "step": 2,
-          "action": "Explain the geitonogamy paradox",
-          "explain": "It needs a pollinating agent like a cross, but the pollen shares the plant's genotype, so genetically it matches selfing."
-        },
-        {
-          "step": 3,
-          "action": "Link flower form to assurance",
-          "explain": "In Viola, Oxalis and Commelina, exposed chasmogamous blooms coexist with never-opening cleistogamous ones whose anthers dehisce inside the bud, guaranteeing autogamy even without pollinators."
-        },
-        {
-          "step": 4,
-          "action": "Note the synchrony condition",
-          "explain": "Ordinary open flowers achieve autogamy only when pollen release matches stigma receptivity and the two organs sit close together."
-        }
-      ]
-    },
-    {
-      "id": "lebo101.1.2.3.2",
-      "title": "Agents of Pollination and Floral Adaptations",
-      "section": "1.2.3",
-      "definition": "Wind, water and animals carry pollen between flowers, and each agent stamps a signature set of floral traits: light non-sticky pollen with feathery stigmas for wind, mucilage-coated ribbon pollen for water, and colour, scent plus nectar rewards for animal visitors.",
-      "formula": "",
-      "key_idea": "Biotic agents, especially bees, dominate pollination, and flowers pay for the service with nectar, pollen or egg-laying sites.",
-      "textbook_ref": "lebo101.txt lines 422-564 (agents of pollination, wind water and animal examples)",
-      "question_patterns": [
-        "list the floral adaptations that suit wind pollination",
-        "why do many water pollinated species coat their pollen in mucilage",
-        "how do animal pollinated flowers reward the creatures that visit them",
-        "compare wind pollinated and insect pollinated flowers in colour scent and nectar production",
-        "name the chief biotic pollinating agents of flowering plants",
-        "explain how pollination happens in Vallisneria and in the seagrass Zostera"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Split the agents into abiotic and biotic",
-          "explain": "Wind and water form the abiotic pair where pollen meeting stigma is a chance event, so vast surplus pollen is produced; animals form the biotic majority."
-        },
-        {
-          "step": 2,
-          "action": "Read the wind adaptations",
-          "explain": "Well-exposed stamens, light non-sticky grains, often one ovule per ovary, many flowers per inflorescence and large feathery stigmas suit grasses and the corn cob."
-        },
-        {
-          "step": 3,
-          "action": "Read the water adaptations",
-          "explain": "In Vallisneria male flowers or pollen drift on the surface to female flowers raised on long stalks; in seagrasses like Zostera ribbon-like pollen travels underwater, shielded from wetting by a mucilaginous cover; most aquatic plants actually emerge and use insects or wind."
-        },
-        {
-          "step": 4,
-          "action": "Read the animal adaptations",
-          "explain": "Large, colourful, fragrant, nectar-rich blooms attract insects, birds and bats; sticky pollen rides the visitor's body, and special deals exist, like the Yucca moth laying eggs in the ovary while pollinating, though some insects merely rob pollen or nectar."
-        }
-      ]
-    },
-    {
-      "id": "lebo101.1.2.3.3",
-      "title": "Outbreeding Devices and Self-Incompatibility",
-      "section": "1.2.3",
-      "definition": "Flowering plants curb inbreeding depression by desynchronising pollen release from stigma receptivity, placing anthers and stigma far apart, blocking self pollen genetically through self-incompatibility, or producing unisexual flowers on the same or separate plants.",
-      "formula": "",
-      "key_idea": "Monoecy such as castor or maize still allows geitonogamy, but dioecy like papaya shuts out both autogamy and geitonogamy.",
-      "textbook_ref": "lebo101.txt lines 565-584 (outbreeding devices)",
-      "question_patterns": [
-        "mention the strategies flowering plants evolved to discourage self pollination",
-        "what is self incompatibility and how does it stop self pollen from functioning",
-        "why does repeated self pollination cause inbreeding depression",
-        "how does dioecy differ from monoecy in blocking self fertilisation",
-        "explain how non synchronous pollen release and stigma receptivity prevent autogamy",
-        "which outbreeding device eliminates geitonogamy along with autogamy"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "State the problem being solved",
-          "explain": "Continued self-pollination piles up homozygosity and lowers vigour and fertility, the condition called inbreeding depression."
-        },
-        {
-          "step": 2,
-          "action": "List the timing and position devices",
-          "explain": "Pollen may shed before or long after the stigma turns receptive, or the anther and stigma may sit at different spots so same-flower contact fails."
-        },
-        {
-          "step": 3,
-          "action": "Explain the genetic device",
-          "explain": "Self-incompatibility is a genetic barrier that halts pollen germination or tube growth in the pistil when the pollen carries the self profile."
-        },
-        {
-          "step": 4,
-          "action": "Separate the sex-based devices",
-          "explain": "Unisexual flowers on one plant (monoecious, as in castor and maize) rule out autogamy but not geitonogamy; sexes on separate plants (dioecious, as in papaya) rule out both."
-        }
-      ]
-    },
-    {
-      "id": "lebo101.1.2.3.4",
-      "title": "Pollen-Pistil Interaction and Artificial Hybridisation",
-      "section": "1.2.3",
-      "definition": "The pistil chemically interrogates every landed grain, fostering germination and tube growth of compatible pollen while rejecting wrong or self pollen, and breeders exploit this gatekeeping by emasculating flower buds and bagging them so only chosen pollen reaches the stigma.",
-      "formula": "",
-      "key_idea": "Emasculation followed by bagging, dusting with desired pollen and rebagging guarantees a controlled cross, and unisexual female parents need no emasculation at all.",
-      "textbook_ref": "lebo101.txt lines 585-665 (pollen-pistil interaction and hybridisation techniques)",
-      "question_patterns": [
-        "describe the sequence of events covered by the term pollen pistil interaction",
-        "how does the pistil tell compatible pollen from incompatible pollen",
-        "why must emasculation be done before the anthers dehisce in a crossing programme",
-        "what role does bagging play in artificial hybridisation",
-        "under what condition can a breeder skip emasculation entirely",
-        "trace the route of the pollen tube from the stigma to the synergid"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Open with recognition",
-          "explain": "Chemicals on the pollen surface converse with pistil tissues, and the pistil either promotes the grain or blocks its germination and tube growth."
-        },
-        {
-          "step": 2,
-          "action": "Follow the accepted tube",
-          "explain": "The grain germinates through a germ pore; the tube grows through stigma and style, the generative cell dividing into two male gametes en route if the grain shed at the two-celled stage."
-        },
-        {
-          "step": 3,
-          "action": "Arrive at the ovule",
-          "explain": "Guided by the filiform apparatus of a synergid, the tube enters the ovule through the micropyle and discharges its gametes."
-        },
-        {
-          "step": 4,
-          "action": "Apply the breeder's routine",
-          "explain": "For bisexual female parents remove undehisced anthers (emasculation), cover the bud with a butter-paper bag, dust receptive stigmas with selected pollen and rebag; for unisexual female flowers just bag, pollinate and rebag."
-        }
-      ]
-    },
-    {
-      "id": "lebo101.1.3.1",
-      "title": "Double Fertilisation: Syngamy and Triple Fusion",
-      "section": "1.3",
-      "definition": "After the pollen tube empties into a synergid, one sperm unites with the egg to make a diploid zygote while the other unites with the two polar nuclei of the central cell to make a triploid primary endosperm nucleus, two fusions occurring together in a single embryo sac.",
-      "formula": "",
-      "key_idea": "Double fertilisation pairs syngamy with triple fusion and is exclusive to flowering plants, setting up embryo and endosperm side by side.",
-      "textbook_ref": "lebo101.txt lines 681-693 (double fertilisation section)",
-      "question_patterns": [
-        "define double fertilisation and name its two component fusions",
-        "which nuclei participate in triple fusion and what does the fusion produce",
-        "why is the primary endosperm nucleus triploid",
-        "what becomes of the two male gametes released inside a synergid",
-        "explain why double fertilisation occurs only in angiosperms",
-        "state the ploidy levels of the zygote and the primary endosperm cell"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Start at the synergid",
-          "explain": "The tube releases both male gametes into the cytoplasm of one synergid of the embryo sac."
-        },
-        {
-          "step": 2,
-          "action": "Run syngamy",
-          "explain": "One gamete fuses with the egg cell nucleus, producing the diploid zygote that will grow into the embryo."
-        },
-        {
-          "step": 3,
-          "action": "Run triple fusion",
-          "explain": "The second gamete joins the two polar nuclei in the central cell; three haploid nuclei merge into the triploid primary endosperm nucleus."
-        },
-        {
-          "step": 4,
-          "action": "Name the fates",
-          "explain": "The central cell becomes the primary endosperm cell destined to form nutritive endosperm, and the paired events justify the name double fertilisation."
-        }
-      ]
-    },
-    {
-      "id": "lebo101.1.4.1",
-      "title": "Endosperm, Embryo and Seed Development",
-      "section": "1.4",
-      "definition": "The primary endosperm cell multiplies ahead of the embryo, first as a free-nuclear tissue like coconut water and later cellular; the waiting zygote then passes through proembryo, globular and heart-shaped stages, and the finished ovule ripens into a seed inside a fruit whose wall derives from the ovary.",
-      "formula": "",
-      "key_idea": "Dicot embryos carry two cotyledons on an axis with epicotyl and hypocotyl, while grass embryos replace one cotyledon by a scutellum and sheathe their shoot and root tips in coleoptile and coleorrhiza.",
-      "textbook_ref": "lebo101.txt lines 670-789 (endosperm, embryo, seed and fruit sections)",
-      "question_patterns": [
-        "why does endosperm development start before embryo development",
-        "what is free nuclear endosperm and which familiar example shows it",
-        "differentiate albuminous and non albuminous seeds giving one example of each",
-        "describe the embryogeny stages of a dicotyledonous embryo in order",
-        "where do the scutellum coleoptile and coleorrhiza sit in a grass embryo",
-        "which maternal tissues give rise to the pericarp and the seed coat",
-        "what is perisperm and how does it differ from endosperm"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Sequence endosperm first",
-          "explain": "The PEN divides repeatedly without walls into a free-nuclear endosperm, later cellularising; tender coconut water shows the free-nuclear phase and the kernel the cellular phase, and embryos use this store for nutrition."
-        },
-        {
-          "step": 2,
-          "action": "Track the embryo stages",
-          "explain": "The zygote, held near the micropyle, divides only after some endosperm exists, then builds proembryo, globular, heart-shaped and mature stages of embryogeny."
-        },
-        {
-          "step": 3,
-          "action": "Contrast dicot and monocot embryos",
-          "explain": "A dicot embryo has two cotyledons, an epicotyl ending in the plumule and a hypocotyl ending in the radicle with root cap; a grass embryo has one scutellum, a shoot apex in a coleoptile and a radicle plus cap inside a coleorrhiza."
-        },
-        {
-          "step": 4,
-          "action": "Finish with seed and fruit mapping",
-          "explain": "Integuments harden into seed coats, the micropyle survives as a pore, the ovary wall becomes the pericarp, residual nucellus persists as perisperm in beet or black pepper, and seeds are albuminous (wheat, castor) or non-albuminous (pea, groundnut) depending on endosperm remnant."
-        }
-      ]
-    },
-    {
-      "id": "lebo101.1.5.1",
-      "title": "Apomixis and Polyembryony",
-      "section": "1.5",
-      "definition": "Apomixis builds seeds with no fertilisation at all, either from an unreduced diploid egg or from nucellar cells, and when several embryos share one seed, as in Citrus and mango, the condition is polyembryony.",
-      "formula": "",
-      "key_idea": "Locking apomixis into hybrid crops would let farmers resow their own seed every season without the progeny losing hybrid character.",
-      "textbook_ref": "lebo101.txt lines 851-909 (apomixis, polyembryony and hybrid seed significance)",
-      "question_patterns": [
-        "what is apomixis and why does it matter to the hybrid seed industry",
-        "how does apomictic seed formation differ from ordinary sexual seed formation",
-        "define polyembryony and quote the plants where it is commonly seen",
-        "from which ovule tissue do the extra embryos of citrus seeds arise",
-        "why must hybrid seeds be produced afresh every year for the farmer",
-        "can apomictic embryos be regarded as clones of the mother plant"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Define apomixis as asexual seed building",
-          "explain": "Seen in some Asteraceae and grasses, it mimics sexual reproduction yet skips fertilisation, sometimes via a diploid egg formed without meiotic reduction."
-        },
-        {
-          "step": 2,
-          "action": "Add the nucellar route",
-          "explain": "More often, as in many Citrus and mango varieties, nucellar cells intrude into the embryo sac and grow into embryos, so one ovule carries many embryos."
-        },
-        {
-          "step": 3,
-          "action": "Name the multi-embryo state",
-          "explain": "More than one embryo inside a single seed is polyembryony, easy to spot by squeezing orange seeds."
-        },
-        {
-          "step": 4,
-          "action": "Weigh the agricultural payoff",
-          "explain": "Hybrid progeny normally segregate and lose yield, but an apomictic hybrid would breed true, sparing farmers the yearly cost of fresh hybrid seed."
-        }
-      ]
+     "step": 4,
+     "action": "Assign functions and locate the sporogenous tissue",
+     "explain": "Outer layers guard and later split to shed pollen, the tapetum nourishes grains, and compact sporogenous cells fill the centre of a young sporangium."
     }
-  ],
-  "worked_examples": [
+   ]
+  },
+  {
+   "id": "lebo101.1.2.1.2",
+   "title": "Microsporogenesis and Pollen Yield",
+   "section": "1.2.1",
+   "definition": "Inside each microsporangium the sporogenous cells act as pollen mother cells whose meiotic divisions produce haploid microspores, first stuck together in four-cell tetrads and later released as separate pollen grains.",
+   "formula": "microspores = pmc_count * 4",
+   "key_idea": "One diploid pollen mother cell meiotically yields a tetrad of four haploid microspores, and every microspore matures into exactly one pollen grain.",
+   "textbook_ref": "lebo101.txt lines 157-178 (microsporogenesis paragraph)",
+   "question_patterns": [
+    "calculate the pollen grains produced from a given number of pollen mother cells in an anther",
+    "how many haploid microspores arise when a set of PMCs undergoes meiosis",
+    "find the total pollen grain output from microspore mother cells of a sporangium",
+    "a pollen mother cell divides meiotically; how many microspores and tetrads result",
+    "determine the pollen yield of an anther from its sporogenous cell count",
+    "work out how many functional pollen grains come from twenty sporogenous cells"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "we_lebo101_1",
-      "source_ref": "lebo101.txt lines 157-178 (microsporogeneity paragraph, tetrad-to-pollen relation)",
-      "concept": "lebo101.1.2.1.2",
-      "question_type": "compute",
-      "question_pattern": "A lobe of an anther contains {pmc_count} pollen mother cells that all complete meiosis. How many pollen grains will the resulting microspores finally give?",
-      "extracted_variables": {
-        "pmc_count": 25
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "Meiosis yield per mother cell",
-          "explain": "Each of the 25 PMCs forms a tetrad of 4 haploid microspores, so 25 * 4 = 100 microspores.",
-          "compute": "microspores = pmc_count * 4"
-        },
-        {
-          "step": 2,
-          "action": "Microspores become grains one to one",
-          "explain": "Tetrad members separate at anther maturity and each microspore matures into a single pollen grain.",
-          "compute": "result = microspores"
-        }
-      ]
+     "step": 1,
+     "action": "Multiply the pollen mother cell count by four",
+     "explain": "Meiosis in each diploid PMC produces a tetrad of four haploid microspores.",
+     "compute": "microspores = pmc_count * 4"
     },
     {
-      "id": "we_lebo101_2",
-      "source_ref": "lebo101.txt lines 326-347 (embryo sac development paragraphs)",
-      "concept": "lebo101.1.2.2.2",
-      "question_type": "verify_property",
-      "question_pattern": "A functional megaspore undergoes its nuclear divisions. Explain why the organ it produces is counted as eight-nucleate yet seven-celled at maturity.",
-      "extracted_variables": {},
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "Count the nuclear divisions",
-          "explain": "Three successive mitotic cycles, all free-nuclear, lift the count from one nucleus to eight."
-        },
-        {
-          "step": 2,
-          "action": "Count the cells after walling",
-          "explain": "Walls enclose only six nuclei: egg plus two synergids at the micropylar end and three antipodals at the chalazal end."
-        },
-        {
-          "step": 3,
-          "action": "Reconcile the numbers",
-          "explain": "The remaining two polar nuclei share one large central cell, so eight nuclei occupy seven cells."
-        }
-      ]
+     "step": 2,
+     "action": "Convert microspores to mature grains",
+     "explain": "As the anther matures and dries, tetrad members separate and each microspore develops into one pollen grain, so the grain count equals the microspore count.",
+     "compute": "pollen_grains = microspores"
     },
     {
-      "id": "we_lebo101_3",
-      "source_ref": "lebo101.txt lines 681-693 (double fertilisation section)",
-      "concept": "lebo101.1.3.1",
-      "question_type": "verify_property",
-      "question_pattern": "Both male gametes of a pollen tube have just been discharged into a synergid. State what each gamete fuses with and give the ploidy of every product formed.",
-      "extracted_variables": {},
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "Assign gamete one",
-          "explain": "The first gamete meets the egg cell; their fusion (syngamy) yields a diploid zygote."
-        },
-        {
-          "step": 2,
-          "action": "Assign gamete two",
-          "explain": "The second gamete joins the two polar nuclei; this triple fusion yields a triploid primary endosperm nucleus."
-        },
-        {
-          "step": 3,
-          "action": "Name the joint event",
-          "explain": "Because both fusions share one embryo sac, the phenomenon is double fertilisation, unique to flowering plants."
-        }
-      ]
-    },
-    {
-      "id": "we_lebo101_4",
-      "source_ref": "lebo101.txt lines 565-584 (outbreeding devices paragraph)",
-      "concept": "lebo101.1.2.3.3",
-      "question_type": "verify_property",
-      "question_pattern": "A plant species bears separate male and female flowers on every individual. Which kinds of selfing does this arrangement prevent, and which one could still occur if the sexes were on one plant?",
-      "extracted_variables": {},
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "Identify the sex arrangement",
-          "explain": "Male and female flowers on different individuals is dioecy, as in papaya."
-        },
-        {
-          "step": 2,
-          "action": "Test each selfing route",
-          "explain": "No same-flower transfer is possible (autogamy blocked) and no other flower of the same plant carries pollen for it (geitonogamy blocked)."
-        },
-        {
-          "step": 3,
-          "action": "Contrast the monoecious case",
-          "explain": "With both flower sexes on one plant, as in castor or maize, autogamy still fails but geitonogamy between flowers of that plant can proceed."
-        }
-      ]
+     "step": 3,
+     "action": "Report the final yield",
+     "explain": "The sporangium's pollen output is four times its number of pollen mother cells.",
+     "compute": "result = pollen_grains"
     }
-  ],
-  "exercises": [
+   ],
+   "worked_examples": [
     {
-      "id": "ex_lebo101_1",
-      "source_ref": "lebo101.txt lines 914-933 (end-of-chapter exercises 1-6, reworded)",
-      "questions": [
-        "In which organs of an angiosperm flower do the male and female gametophytes develop?",
-        "Set microsporogenesis against megasporogenesis: which cell divisions drive each, and what products does each finish with?",
-        "Put pollen grain, sporogenous tissue, microspore tetrad, pollen mother cell and male gametes in the order they occur during development.",
-        "Draw a labelled outline of a typical angiosperm ovule and name its parts.",
-        "What does the phrase monosporic development of the female gametophyte convey?",
-        "Using a neat sketch, show how the female gametophyte manages to be seven-celled and eight-nucleate."
-      ]
+     "question": "Using Microsporogenesis and Pollen Yield, compute the result for pmc_count = 3.",
+     "solution": "Step 1: Multiply the pollen mother cell count by four: microspores = pmc_count * 4 = 12.0 Step 2: Convert microspores to mature grains: pollen_grains = microspores = 12.0 Step 3: Report the final yield: result = pollen_grains = 12.0 Final result: 12.0",
+     "answer": "12.0"
     },
     {
-      "id": "ex_lebo101_2",
-      "source_ref": "lebo101.txt lines 970-1006 (end-of-chapter exercises 7-18, reworded)",
-      "questions": [
-        "Define chasmogamous flowers and say whether cross-pollination is ever possible in cleistogamous ones, with reasoning.",
-        "State any two tactics plants use to keep self-pollination from happening.",
-        "What does self-incompatibility mean, and why do self-pollinated ovules fail to seed in such species?",
-        "Describe the bagging technique and its value to a plant breeder making crosses.",
-        "Explain triple fusion: its site, the nuclei engaged and the product formed.",
-        "Give a reason for the temporary dormancy of the zygote inside a fertilised ovule.",
-        "Distinguish each pair: hypocotyl versus epicotyl; coleoptile versus coleorrhiza; integument versus testa; perisperm versus pericarp.",
-        "Why is the apple labelled a false fruit, and which floral tissue builds such a fruit?",
-        "What does emasculation involve and when does a breeder resort to it?",
-        "If growth substances can induce seedless fruit, which crop would you pick for parthenocarpy and on what grounds?",
-        "Bring out the tapetum's contribution to the pollen grain wall.",
-        "Define apomixis and explain its significance for agriculture."
-      ]
+     "question": "Using Microsporogenesis and Pollen Yield, compute the result for pmc_count = 4.",
+     "solution": "Step 1: Multiply the pollen mother cell count by four: microspores = pmc_count * 4 = 16.0 Step 2: Convert microspores to mature grains: pollen_grains = microspores = 16.0 Step 3: Report the final yield: result = pollen_grains = 16.0 Final result: 16.0",
+     "answer": "16.0"
     }
-  ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "microspores = pmc_count * 4",
+     "compute": "microspores = pmc_count * 4"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lebo101.1.2.1.3",
+   "title": "Pollen Wall, Shedding Stage and Viability",
+   "section": "1.2.1",
+   "definition": "A pollen grain wears a chemically tough sporopollenin exine broken by germ pores over a thin cellulose-pectin intine, and it leaves the anther either two-celled or three-celled, remaining viable from half an hour in cereals to months in some other families.",
+   "formula": "",
+   "key_idea": "Sporopollenin resists heat, acids, alkalis and every known enzyme, which is why pollen survives as fossils, while germ pores mark the spots where the pollen tube later emerges.",
+   "textbook_ref": "lebo101.txt lines 179-247 (pollen grain structure, 2-celled/3-celled stages, viability and storage)",
+   "question_patterns": [
+    "name the outer and inner layers of a pollen grain wall and state what each is made of",
+    "why can pollen grains persist as fossils for very long periods",
+    "distinguish pollen shed at the two celled stage from pollen shed at the three celled stage",
+    "what purpose do the germ pores of the exine serve",
+    "how does pollen viability in cereals compare with that in some rosaceous or leguminous plants",
+    "describe how a pollen bank stores grains for use in crop breeding"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Describe the two-layered wall",
+     "explain": "The hard outer exine is sporopollenin with apertures called germ pores; the thin continuous intine beneath is cellulose and pectin."
+    },
+    {
+     "step": 2,
+     "action": "State the internal cells at shedding",
+     "explain": "A mature grain holds a large food-rich vegetative cell and a small spindle-shaped generative cell; in over sixty percent of angiosperms it sheds at this two-celled stage, while elsewhere the generative cell has already divided mitotically into two male gametes, giving a three-celled grain."
+    },
+    {
+     "step": 3,
+     "action": "Compare viability spans and storage",
+     "explain": "Viability depends on temperature and humidity: cereals like rice and wheat lose it within about thirty minutes, some members of other families keep it for months, and grains of many species can be cryo-stored near minus 196 degrees Celsius in pollen banks for breeding programmes."
+    }
+   ]
+  },
+  {
+   "id": "lebo101.1.2.2.1",
+   "title": "Ovule (Megasporangium) Structure",
+   "section": "1.2.2",
+   "definition": "An ovule grows on the placenta through a stalk called the funicle, joins it at the hilum, and wraps a reserve-filled nucellus in one or two integuments that leave a micropylar opening, with the chalaza forming the base opposite the micropyle.",
+   "formula": "",
+   "key_idea": "A single embryo sac, the female gametophyte, sits embedded in the nucellus of a typical ovule.",
+   "textbook_ref": "lebo101.txt lines 248-285 (pistil parts and megasporangium structure)",
+   "question_patterns": [
+    "label funicle hilum integuments micropyle chalaza and nucellus on a diagram of a typical ovule",
+    "which opening of the ovule lets the pollen tube enter",
+    "what connects the body of an ovule to the placenta",
+    "distinguish the micropylar end from the chalazal end of a megasporangium",
+    "why is the nucellus called a nutritive tissue of the ovule",
+    "how many embryo sacs does one ordinary ovule enclose"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the stalk and junction",
+     "explain": "The funicle attaches the ovule to the placenta; the point where funicle and ovule body fuse is the hilum."
+    },
+    {
+     "step": 2,
+     "action": "Point out the protective envelopes and gap",
+     "explain": "One or two integuments encircle the nucellus and stop short at the tip, leaving a small pore, the micropyle, opposite the basal chalaza."
+    },
+    {
+     "step": 3,
+     "action": "Locate the inner tissues",
+     "explain": "The nucellus stores abundant reserve food and cradles the embryo sac, which usually occurs as a single copy per ovule."
+    }
+   ]
+  },
+  {
+   "id": "lebo101.1.2.2.2",
+   "title": "Megasporogenesis, Monosporic Development and Embryo Sac Organisation",
+   "section": "1.2.2",
+   "definition": "A large, densely cytoplasmic megaspore mother cell in the micropylar nucellus divides meiotically into four haploid megaspores; three degenerate and the lone survivor, through repeated free-nuclear mitoses and later wall formation, builds an eight-nucleate, seven-celled embryo sac.",
+   "formula": "",
+   "key_idea": "Monosporic development means a single functional megaspore constructs the whole female gametophyte, ending with egg apparatus, antipodals and a two-polar-nucleus central cell.",
+   "textbook_ref": "lebo101.txt lines 286-347 (megasporogenesis and female gametophyte development)",
+   "question_patterns": [
+    "trace the steps from megaspore mother cell to a mature embryo sac",
+    "what does monosporic development of the female gametophyte signify",
+    "why do three of the four megaspores formed in an ovule degenerate in most flowering plants",
+    "how many mitotic nuclear divisions take a functional megaspore to the eight nucleate stage",
+    "are the divisions during embryo sac formation free nuclear or accompanied by walls",
+    "state the ploidy of the nucellus the megaspore mother cell and the functional megaspore"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Follow meiosis in the MMC",
+     "explain": "The megaspore mother cell, set in the micropylar region of the nucellus, undergoes meiosis to give a linear row of four haploid megaspores."
+    },
+    {
+     "step": 2,
+     "action": "Apply the monosporic rule",
+     "explain": "Three megaspores wither away; only the functional one, usually the chalazal, enlarges and becomes the founder of the female gametophyte."
+    },
+    {
+     "step": 3,
+     "action": "Count the free-nuclear mitoses",
+     "explain": "Its nucleus divides mitotically twice to opposite poles and then once more, giving two, four and finally eight nuclei, all before any cell wall appears."
+    },
+    {
+     "step": 4,
+     "action": "Map the resulting cells",
+     "explain": "Walls then partition six nuclei into cells: an egg flanked by two synergids with filiform thickenings at the micropylar pole and three antipodals at the chalazal pole, while the large central cell keeps the two remaining polar nuclei."
+    },
+    {
+     "step": 5,
+     "action": "Tally nuclei against cells",
+     "explain": "Maturity brings eight nuclei packed into seven cells, the standard angiosperm embryo sac."
+    }
+   ]
+  },
+  {
+   "id": "lebo101.1.2.3.1",
+   "title": "Kinds of Pollination: Autogamy, Geitonogamy and Xenogamy",
+   "section": "1.2.3",
+   "definition": "Pollen movement is classified by source: autogamy lands pollen on the stigma of the same flower, geitonogamy moves it to another flower of the same plant, and xenogamy carries it between different plants, only the last delivering genetically unlike pollen.",
+   "formula": "",
+   "key_idea": "Closed cleistogamous flowers force self-pollination and assure seed set, whereas xenogamy alone counts as true genetic cross-pollination.",
+   "textbook_ref": "lebo101.txt lines 348-421 (kinds of pollination)",
+   "question_patterns": [
+    "differentiate autogamy geitonogamy and xenogamy on the basis of pollen source",
+    "why is geitonogamy functionally cross pollination yet genetically similar to selfing",
+    "which pollination type brings genetically different pollen grains onto a stigma",
+    "how do cleistogamous flowers manage seed set without any pollinator",
+    "what two requirements must a flower fulfil for complete autogamy",
+    "name plants that bear both chasmogamous and cleistogamous flowers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sort the three kinds by pollen origin",
+     "explain": "Same flower gives autogamy; another flower on the same plant gives geitonogamy; a different plant gives xenogamy."
+    },
+    {
+     "step": 2,
+     "action": "Explain the geitonogamy paradox",
+     "explain": "It needs a pollinating agent like a cross, but the pollen shares the plant's genotype, so genetically it matches selfing."
+    },
+    {
+     "step": 3,
+     "action": "Link flower form to assurance",
+     "explain": "In Viola, Oxalis and Commelina, exposed chasmogamous blooms coexist with never-opening cleistogamous ones whose anthers dehisce inside the bud, guaranteeing autogamy even without pollinators."
+    },
+    {
+     "step": 4,
+     "action": "Note the synchrony condition",
+     "explain": "Ordinary open flowers achieve autogamy only when pollen release matches stigma receptivity and the two organs sit close together."
+    }
+   ]
+  },
+  {
+   "id": "lebo101.1.2.3.2",
+   "title": "Agents of Pollination and Floral Adaptations",
+   "section": "1.2.3",
+   "definition": "Wind, water and animals carry pollen between flowers, and each agent stamps a signature set of floral traits: light non-sticky pollen with feathery stigmas for wind, mucilage-coated ribbon pollen for water, and colour, scent plus nectar rewards for animal visitors.",
+   "formula": "",
+   "key_idea": "Biotic agents, especially bees, dominate pollination, and flowers pay for the service with nectar, pollen or egg-laying sites.",
+   "textbook_ref": "lebo101.txt lines 422-564 (agents of pollination, wind water and animal examples)",
+   "question_patterns": [
+    "list the floral adaptations that suit wind pollination",
+    "why do many water pollinated species coat their pollen in mucilage",
+    "how do animal pollinated flowers reward the creatures that visit them",
+    "compare wind pollinated and insect pollinated flowers in colour scent and nectar production",
+    "name the chief biotic pollinating agents of flowering plants",
+    "explain how pollination happens in Vallisneria and in the seagrass Zostera"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Split the agents into abiotic and biotic",
+     "explain": "Wind and water form the abiotic pair where pollen meeting stigma is a chance event, so vast surplus pollen is produced; animals form the biotic majority."
+    },
+    {
+     "step": 2,
+     "action": "Read the wind adaptations",
+     "explain": "Well-exposed stamens, light non-sticky grains, often one ovule per ovary, many flowers per inflorescence and large feathery stigmas suit grasses and the corn cob."
+    },
+    {
+     "step": 3,
+     "action": "Read the water adaptations",
+     "explain": "In Vallisneria male flowers or pollen drift on the surface to female flowers raised on long stalks; in seagrasses like Zostera ribbon-like pollen travels underwater, shielded from wetting by a mucilaginous cover; most aquatic plants actually emerge and use insects or wind."
+    },
+    {
+     "step": 4,
+     "action": "Read the animal adaptations",
+     "explain": "Large, colourful, fragrant, nectar-rich blooms attract insects, birds and bats; sticky pollen rides the visitor's body, and special deals exist, like the Yucca moth laying eggs in the ovary while pollinating, though some insects merely rob pollen or nectar."
+    }
+   ]
+  },
+  {
+   "id": "lebo101.1.2.3.3",
+   "title": "Outbreeding Devices and Self-Incompatibility",
+   "section": "1.2.3",
+   "definition": "Flowering plants curb inbreeding depression by desynchronising pollen release from stigma receptivity, placing anthers and stigma far apart, blocking self pollen genetically through self-incompatibility, or producing unisexual flowers on the same or separate plants.",
+   "formula": "",
+   "key_idea": "Monoecy such as castor or maize still allows geitonogamy, but dioecy like papaya shuts out both autogamy and geitonogamy.",
+   "textbook_ref": "lebo101.txt lines 565-584 (outbreeding devices)",
+   "question_patterns": [
+    "mention the strategies flowering plants evolved to discourage self pollination",
+    "what is self incompatibility and how does it stop self pollen from functioning",
+    "why does repeated self pollination cause inbreeding depression",
+    "how does dioecy differ from monoecy in blocking self fertilisation",
+    "explain how non synchronous pollen release and stigma receptivity prevent autogamy",
+    "which outbreeding device eliminates geitonogamy along with autogamy"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "State the problem being solved",
+     "explain": "Continued self-pollination piles up homozygosity and lowers vigour and fertility, the condition called inbreeding depression."
+    },
+    {
+     "step": 2,
+     "action": "List the timing and position devices",
+     "explain": "Pollen may shed before or long after the stigma turns receptive, or the anther and stigma may sit at different spots so same-flower contact fails."
+    },
+    {
+     "step": 3,
+     "action": "Explain the genetic device",
+     "explain": "Self-incompatibility is a genetic barrier that halts pollen germination or tube growth in the pistil when the pollen carries the self profile."
+    },
+    {
+     "step": 4,
+     "action": "Separate the sex-based devices",
+     "explain": "Unisexual flowers on one plant (monoecious, as in castor and maize) rule out autogamy but not geitonogamy; sexes on separate plants (dioecious, as in papaya) rule out both."
+    }
+   ]
+  },
+  {
+   "id": "lebo101.1.2.3.4",
+   "title": "Pollen-Pistil Interaction and Artificial Hybridisation",
+   "section": "1.2.3",
+   "definition": "The pistil chemically interrogates every landed grain, fostering germination and tube growth of compatible pollen while rejecting wrong or self pollen, and breeders exploit this gatekeeping by emasculating flower buds and bagging them so only chosen pollen reaches the stigma.",
+   "formula": "",
+   "key_idea": "Emasculation followed by bagging, dusting with desired pollen and rebagging guarantees a controlled cross, and unisexual female parents need no emasculation at all.",
+   "textbook_ref": "lebo101.txt lines 585-665 (pollen-pistil interaction and hybridisation techniques)",
+   "question_patterns": [
+    "describe the sequence of events covered by the term pollen pistil interaction",
+    "how does the pistil tell compatible pollen from incompatible pollen",
+    "why must emasculation be done before the anthers dehisce in a crossing programme",
+    "what role does bagging play in artificial hybridisation",
+    "under what condition can a breeder skip emasculation entirely",
+    "trace the route of the pollen tube from the stigma to the synergid"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Open with recognition",
+     "explain": "Chemicals on the pollen surface converse with pistil tissues, and the pistil either promotes the grain or blocks its germination and tube growth."
+    },
+    {
+     "step": 2,
+     "action": "Follow the accepted tube",
+     "explain": "The grain germinates through a germ pore; the tube grows through stigma and style, the generative cell dividing into two male gametes en route if the grain shed at the two-celled stage."
+    },
+    {
+     "step": 3,
+     "action": "Arrive at the ovule",
+     "explain": "Guided by the filiform apparatus of a synergid, the tube enters the ovule through the micropyle and discharges its gametes."
+    },
+    {
+     "step": 4,
+     "action": "Apply the breeder's routine",
+     "explain": "For bisexual female parents remove undehisced anthers (emasculation), cover the bud with a butter-paper bag, dust receptive stigmas with selected pollen and rebag; for unisexual female flowers just bag, pollinate and rebag."
+    }
+   ]
+  },
+  {
+   "id": "lebo101.1.3.1",
+   "title": "Double Fertilisation: Syngamy and Triple Fusion",
+   "section": "1.3",
+   "definition": "After the pollen tube empties into a synergid, one sperm unites with the egg to make a diploid zygote while the other unites with the two polar nuclei of the central cell to make a triploid primary endosperm nucleus, two fusions occurring together in a single embryo sac.",
+   "formula": "",
+   "key_idea": "Double fertilisation pairs syngamy with triple fusion and is exclusive to flowering plants, setting up embryo and endosperm side by side.",
+   "textbook_ref": "lebo101.txt lines 681-693 (double fertilisation section)",
+   "question_patterns": [
+    "define double fertilisation and name its two component fusions",
+    "which nuclei participate in triple fusion and what does the fusion produce",
+    "why is the primary endosperm nucleus triploid",
+    "what becomes of the two male gametes released inside a synergid",
+    "explain why double fertilisation occurs only in angiosperms",
+    "state the ploidy levels of the zygote and the primary endosperm cell"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Start at the synergid",
+     "explain": "The tube releases both male gametes into the cytoplasm of one synergid of the embryo sac."
+    },
+    {
+     "step": 2,
+     "action": "Run syngamy",
+     "explain": "One gamete fuses with the egg cell nucleus, producing the diploid zygote that will grow into the embryo."
+    },
+    {
+     "step": 3,
+     "action": "Run triple fusion",
+     "explain": "The second gamete joins the two polar nuclei in the central cell; three haploid nuclei merge into the triploid primary endosperm nucleus."
+    },
+    {
+     "step": 4,
+     "action": "Name the fates",
+     "explain": "The central cell becomes the primary endosperm cell destined to form nutritive endosperm, and the paired events justify the name double fertilisation."
+    }
+   ]
+  },
+  {
+   "id": "lebo101.1.4.1",
+   "title": "Endosperm, Embryo and Seed Development",
+   "section": "1.4",
+   "definition": "The primary endosperm cell multiplies ahead of the embryo, first as a free-nuclear tissue like coconut water and later cellular; the waiting zygote then passes through proembryo, globular and heart-shaped stages, and the finished ovule ripens into a seed inside a fruit whose wall derives from the ovary.",
+   "formula": "",
+   "key_idea": "Dicot embryos carry two cotyledons on an axis with epicotyl and hypocotyl, while grass embryos replace one cotyledon by a scutellum and sheathe their shoot and root tips in coleoptile and coleorrhiza.",
+   "textbook_ref": "lebo101.txt lines 670-789 (endosperm, embryo, seed and fruit sections)",
+   "question_patterns": [
+    "why does endosperm development start before embryo development",
+    "what is free nuclear endosperm and which familiar example shows it",
+    "differentiate albuminous and non albuminous seeds giving one example of each",
+    "describe the embryogeny stages of a dicotyledonous embryo in order",
+    "where do the scutellum coleoptile and coleorrhiza sit in a grass embryo",
+    "which maternal tissues give rise to the pericarp and the seed coat",
+    "what is perisperm and how does it differ from endosperm"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sequence endosperm first",
+     "explain": "The PEN divides repeatedly without walls into a free-nuclear endosperm, later cellularising; tender coconut water shows the free-nuclear phase and the kernel the cellular phase, and embryos use this store for nutrition."
+    },
+    {
+     "step": 2,
+     "action": "Track the embryo stages",
+     "explain": "The zygote, held near the micropyle, divides only after some endosperm exists, then builds proembryo, globular, heart-shaped and mature stages of embryogeny."
+    },
+    {
+     "step": 3,
+     "action": "Contrast dicot and monocot embryos",
+     "explain": "A dicot embryo has two cotyledons, an epicotyl ending in the plumule and a hypocotyl ending in the radicle with root cap; a grass embryo has one scutellum, a shoot apex in a coleoptile and a radicle plus cap inside a coleorrhiza."
+    },
+    {
+     "step": 4,
+     "action": "Finish with seed and fruit mapping",
+     "explain": "Integuments harden into seed coats, the micropyle survives as a pore, the ovary wall becomes the pericarp, residual nucellus persists as perisperm in beet or black pepper, and seeds are albuminous (wheat, castor) or non-albuminous (pea, groundnut) depending on endosperm remnant."
+    }
+   ]
+  },
+  {
+   "id": "lebo101.1.5.1",
+   "title": "Apomixis and Polyembryony",
+   "section": "1.5",
+   "definition": "Apomixis builds seeds with no fertilisation at all, either from an unreduced diploid egg or from nucellar cells, and when several embryos share one seed, as in Citrus and mango, the condition is polyembryony.",
+   "formula": "",
+   "key_idea": "Locking apomixis into hybrid crops would let farmers resow their own seed every season without the progeny losing hybrid character.",
+   "textbook_ref": "lebo101.txt lines 851-909 (apomixis, polyembryony and hybrid seed significance)",
+   "question_patterns": [
+    "what is apomixis and why does it matter to the hybrid seed industry",
+    "how does apomictic seed formation differ from ordinary sexual seed formation",
+    "define polyembryony and quote the plants where it is commonly seen",
+    "from which ovule tissue do the extra embryos of citrus seeds arise",
+    "why must hybrid seeds be produced afresh every year for the farmer",
+    "can apomictic embryos be regarded as clones of the mother plant"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define apomixis as asexual seed building",
+     "explain": "Seen in some Asteraceae and grasses, it mimics sexual reproduction yet skips fertilisation, sometimes via a diploid egg formed without meiotic reduction."
+    },
+    {
+     "step": 2,
+     "action": "Add the nucellar route",
+     "explain": "More often, as in many Citrus and mango varieties, nucellar cells intrude into the embryo sac and grow into embryos, so one ovule carries many embryos."
+    },
+    {
+     "step": 3,
+     "action": "Name the multi-embryo state",
+     "explain": "More than one embryo inside a single seed is polyembryony, easy to spot by squeezing orange seeds."
+    },
+    {
+     "step": 4,
+     "action": "Weigh the agricultural payoff",
+     "explain": "Hybrid progeny normally segregate and lose yield, but an apomictic hybrid would breed true, sparing farmers the yearly cost of fresh hybrid seed."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_lebo101_1",
+   "source_ref": "lebo101.txt lines 157-178 (microsporogeneity paragraph, tetrad-to-pollen relation)",
+   "concept": "lebo101.1.2.1.2",
+   "question_type": "compute",
+   "question_pattern": "A lobe of an anther contains {pmc_count} pollen mother cells that all complete meiosis. How many pollen grains will the resulting microspores finally give?",
+   "extracted_variables": {
+    "pmc_count": 25
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Meiosis yield per mother cell",
+     "explain": "Each of the 25 PMCs forms a tetrad of 4 haploid microspores, so 25 * 4 = 100 microspores.",
+     "compute": "microspores = pmc_count * 4"
+    },
+    {
+     "step": 2,
+     "action": "Microspores become grains one to one",
+     "explain": "Tetrad members separate at anther maturity and each microspore matures into a single pollen grain.",
+     "compute": "result = microspores"
+    }
+   ]
+  },
+  {
+   "id": "we_lebo101_2",
+   "source_ref": "lebo101.txt lines 326-347 (embryo sac development paragraphs)",
+   "concept": "lebo101.1.2.2.2",
+   "question_type": "verify_property",
+   "question_pattern": "A functional megaspore undergoes its nuclear divisions. Explain why the organ it produces is counted as eight-nucleate yet seven-celled at maturity.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Count the nuclear divisions",
+     "explain": "Three successive mitotic cycles, all free-nuclear, lift the count from one nucleus to eight."
+    },
+    {
+     "step": 2,
+     "action": "Count the cells after walling",
+     "explain": "Walls enclose only six nuclei: egg plus two synergids at the micropylar end and three antipodals at the chalazal end."
+    },
+    {
+     "step": 3,
+     "action": "Reconcile the numbers",
+     "explain": "The remaining two polar nuclei share one large central cell, so eight nuclei occupy seven cells."
+    }
+   ]
+  },
+  {
+   "id": "we_lebo101_3",
+   "source_ref": "lebo101.txt lines 681-693 (double fertilisation section)",
+   "concept": "lebo101.1.3.1",
+   "question_type": "verify_property",
+   "question_pattern": "Both male gametes of a pollen tube have just been discharged into a synergid. State what each gamete fuses with and give the ploidy of every product formed.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Assign gamete one",
+     "explain": "The first gamete meets the egg cell; their fusion (syngamy) yields a diploid zygote."
+    },
+    {
+     "step": 2,
+     "action": "Assign gamete two",
+     "explain": "The second gamete joins the two polar nuclei; this triple fusion yields a triploid primary endosperm nucleus."
+    },
+    {
+     "step": 3,
+     "action": "Name the joint event",
+     "explain": "Because both fusions share one embryo sac, the phenomenon is double fertilisation, unique to flowering plants."
+    }
+   ]
+  },
+  {
+   "id": "we_lebo101_4",
+   "source_ref": "lebo101.txt lines 565-584 (outbreeding devices paragraph)",
+   "concept": "lebo101.1.2.3.3",
+   "question_type": "verify_property",
+   "question_pattern": "A plant species bears separate male and female flowers on every individual. Which kinds of selfing does this arrangement prevent, and which one could still occur if the sexes were on one plant?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Identify the sex arrangement",
+     "explain": "Male and female flowers on different individuals is dioecy, as in papaya."
+    },
+    {
+     "step": 2,
+     "action": "Test each selfing route",
+     "explain": "No same-flower transfer is possible (autogamy blocked) and no other flower of the same plant carries pollen for it (geitonogamy blocked)."
+    },
+    {
+     "step": 3,
+     "action": "Contrast the monoecious case",
+     "explain": "With both flower sexes on one plant, as in castor or maize, autogamy still fails but geitonogamy between flowers of that plant can proceed."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_lebo101_1",
+   "source_ref": "lebo101.txt lines 914-933 (end-of-chapter exercises 1-6, reworded)",
+   "questions": [
+    "In which organs of an angiosperm flower do the male and female gametophytes develop?",
+    "Set microsporogenesis against megasporogenesis: which cell divisions drive each, and what products does each finish with?",
+    "Put pollen grain, sporogenous tissue, microspore tetrad, pollen mother cell and male gametes in the order they occur during development.",
+    "Draw a labelled outline of a typical angiosperm ovule and name its parts.",
+    "What does the phrase monosporic development of the female gametophyte convey?",
+    "Using a neat sketch, show how the female gametophyte manages to be seven-celled and eight-nucleate."
+   ]
+  },
+  {
+   "id": "ex_lebo101_2",
+   "source_ref": "lebo101.txt lines 970-1006 (end-of-chapter exercises 7-18, reworded)",
+   "questions": [
+    "Define chasmogamous flowers and say whether cross-pollination is ever possible in cleistogamous ones, with reasoning.",
+    "State any two tactics plants use to keep self-pollination from happening.",
+    "What does self-incompatibility mean, and why do self-pollinated ovules fail to seed in such species?",
+    "Describe the bagging technique and its value to a plant breeder making crosses.",
+    "Explain triple fusion: its site, the nuclei engaged and the product formed.",
+    "Give a reason for the temporary dormancy of the zygote inside a fertilised ovule.",
+    "Distinguish each pair: hypocotyl versus epicotyl; coleoptile versus coleorrhiza; integument versus testa; perisperm versus pericarp.",
+    "Why is the apple labelled a false fruit, and which floral tissue builds such a fruit?",
+    "What does emasculation involve and when does a breeder resort to it?",
+    "If growth substances can induce seedless fruit, which crop would you pick for parthenocarpy and on what grounds?",
+    "Bring out the tapetum's contribution to the pollen grain wall.",
+    "Define apomixis and explain its significance for agriculture."
+   ]
+  }
+ ]
 }

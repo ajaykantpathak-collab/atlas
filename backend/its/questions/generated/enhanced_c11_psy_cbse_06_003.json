@@ -34,6 +34,31 @@
      "q": "Create a novel, real-world scenario (Indian context) that simultaneously loads the Central Executive, Phonological Loop, and Visuospatial Sketchpad of Working Memory. Describe the scenario and explicitly map each cognitive demand to the specific Working Memory component engaged.",
      "a": "**Scenario:** A Class 11 student in Delhi is navigating a crowded Metro station to change lines: they mentally rehearse the next station names (\"Rajiv Chowk, Mandi House, Barakhamba Road\" — **Phonological Loop** for verbal sequence maintenance), visually track the moving crowd and platform signage to avoid collisions and find the correct corridor (**Visuospatial Sketchpad** for spatial navigation and visual pattern recognition), and simultaneously decide whether to board the arriving train or wait for the next less crowded one based on the time, their bag weight, and the likelihood of getting a seat (**Central Executive** for attentional control, decision-making, integrating LTM knowledge of train frequency, and coordinating the two slave systems). **Criteria for good answer:** Must include distinct, simultaneous demands on all three components; verbal rehearsal must be separable from visual-spatial processing; Central Executive role must involve coordination/decision-making, not just passive storage. A poor answer lists three separate sequential tasks (e.g., \"first they remember numbers, then they look at a map, then they decide\") which fails to demonstrate the *simultaneous* multi-component nature of Working Memory.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Short-Term Memory (STM) is a limited-capacity memory store that holds a small amount of information (______ 7±2 items) in an active, readily available state for a brief duration (typically 15-30 seconds) unless maintained by rehearsal.",
+     "a": "approximately",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are trying to ______ calculate the total cost of your grocery items while walking through a busy market: you hold the running total (₹45 + ₹30 = ₹75), visually track the next item's price tag (₹22), suppress the noise of vendors shouting, and update the total (₹75 + ₹22 = ₹97) — all within seconds.",
+     "a": "mentally",
+     "self_check": true
+    },
+    {
+     "q": "What is Short-Term Memory (STM)? State the definition given in this lesson.",
+     "a": "Short-Term Memory (STM) is a limited-capacity memory store that holds a small amount of information (approximately 7±2 items) in an active, readily available state for a brief duration (typically 15-30 seconds) unless maintained by rehearsal.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Short-Term Memory (STM)?",
+     "a": "Students often believe that Short-Term Memory and Working Memory are synonymous terms for the same \"short-duration memory store.\" They incorrectly treat the Phonological Loop as *the* STM, ignoring the Central Executive and Visuospatial Sketchpad.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish between the unitary Short-Term Memory store (Atkinson-Shiffrin) and the multi-component Working Memory model (Baddeley) by explaining the functional role of each component (Central Executive, Phonological Loop, Visuospatial Sketchpad, Episodic Buffer); (2) Apply the concepts of maintenance.",
+     "self_check": true
     }
    ]
   }

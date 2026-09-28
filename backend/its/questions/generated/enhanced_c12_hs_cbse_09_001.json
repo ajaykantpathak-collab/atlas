@@ -34,6 +34,26 @@
      "q": "Design a one-day menu for a 12-year-old adolescent girl (reference weight 40 kg) that meets her RDA for energy (2,330 kcal) and protein (46 g) using only vegetarian Indian foods. List the foods, quantities, and show the calculation for energy and protein totals.",
      "a": "A good answer provides a realistic menu (e.g., breakfast: 2 stuffed parathas + curd; lunch: rice + dal + sabzi + salad; evening: fruit + nuts; dinner: roti + paneer + vegetables) with approximate weights, uses ICMR nutritive values to sum energy and protein, and shows totals within ±10% of RDA. A poor answer either copies an adult menu, ignores portion sizes, or fails to demonstrate the calculation. This tests synthesis of food composition knowledge with RDA application.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Nutritional requirements refer to the specific amounts of essential nutrients (energy, protein, fats, ______, vitamins, minerals, and water) that an individual must consume daily to maintain optimal health, support growth and development, sustain physiological functions, and prevent deficiency or excess-related disorders, as determined by scientific bodies like ICMR-NIN for the Indian population.",
+     "a": "carbohydrates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are planning a day's meals for a family of four: a 6-month-old infant, a 10-year-old school-going child, a 35-year-old pregnant mother (second trimester), and a 70-year-old ______ with a sedentary lifestyle.",
+     "a": "grandfather",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight: RDA represents a safe intake level covering ______% of healthy individuals in that group; it is not a minimum requirement nor a therapeutic dose.",
+     "a": "97.5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) define nutritional requirements and distinguish them from dietary intake, (2) list and explain at least five factors that alter requirements across the lifespan (age, sex, physiological state, activity level, body composition, health status), and (3) interpret ICMR RDA tables to identify the recommended allowances for.",
+     "self_check": true
     }
    ]
   }

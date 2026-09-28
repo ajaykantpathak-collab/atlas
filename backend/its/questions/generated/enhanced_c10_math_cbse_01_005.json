@@ -21,8 +21,8 @@
      "self_check": true
     },
     {
-     "q": "Suppose p is a prime and p divides a² + b². Can we conclude that p divides a and p divides b? Justify your answer with an example or proof.",
-     "a": "No, we cannot conclude that. The theorem only applies when a prime divides a perfect square of a single integer. For example, p = 5, a = 1, b = 2: a² + b² = 1 + 4 = 5, and 5 divides 5, but 5 does not divide 1 and 5 does not divide 2. A wrong answer (saying yes) shows the student overgeneralizes the theorem to sums of squares, confusing it with properties of Gaussian integers or misapplying the logic.",
+     "q": "A prime 5 divides 1 squared plus 2 squared. Does the theorem force 5 to divide 1 and 2 as well? Give the correct sequence of reasoning.",
+     "a": "The reasoning runs: (1) The theorem speaks only of a prime dividing a single perfect square (2) Compute 1 squared plus 2 squared equals 5 (3) The prime 5 divides this sum (4) Yet 5 divides neither 1 nor 2, so no conclusion follows for sums of squares. A wrong answer that says yes shows the student has overgeneralised the theorem from a single square to a sum of squares, ignoring that the prime's factors must come from one factorisation.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Construct a new problem: Find a positive integer a and a prime p such that p divides a² but p does NOT divide a. If impossible, explain why.",
      "a": "It is impossible. By the theorem, if p is prime and p|a², then p|a always. Any attempt to find such a pair will fail. A student who provides an example (e.g., a=6, p=4) has missed the condition that p must be prime. This reveals they treat the theorem as a pattern without understanding the logical necessity of the prime condition.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If p is a prime number and p divides a² (where a is a ______ integer), then p must also divide a.",
+     "a": "positive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are packing 36 identical ______ tiles (6×6) into boxes.",
+     "a": "square",
+     "self_check": true
+    },
+    {
+     "q": "What is If p? State the definition given in this lesson.",
+     "a": "If p is a prime number and p divides a² (where a is a positive integer), then p must also divide a.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about If p?",
+     "a": "Students often forget the condition \"p is prime\" and apply the theorem to composite numbers.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state the theorem precisely, explain why it holds using the Fundamental Theorem of Arithmetic, and apply it to prove that numbers like √2, √3, √5 are irrational by showing that if a prime divides the square, it must divide the base integer, leading to a contradiction with coprimality.",
      "self_check": true
     }
    ]

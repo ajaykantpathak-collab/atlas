@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_09_001",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_09_001",
+   "title": "c11_app_cbse_09_001",
+   "questions": [
+    {
+     "q": "Define a random experiment and give two examples from daily life where the outcome cannot be predicted in advance but all possible outcomes are known.",
+     "a": "A random experiment is a process with more than one possible outcome where the result cannot be predicted beforehand. Examples: (1) Drawing a card from a well-shuffled deck of 52 cards — outcome unknown but all 52 cards are possible; (2) Checking if a randomly selected person from a city has blood type O+ — outcome uncertain but blood types are known categories. A wrong answer (e.g., \"measuring the length of a table\") reveals confusion between deterministic measurements (fixed outcome) and random experiments (uncertain outcome).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the sample space for \"tossing a coin three times\" as S = {H, T}. Explain why this is incorrect and write the correct sample space if the outcome is defined as the sequence of heads and tails.",
+     "a": "The sample space must contain ALL possible outcomes of the experiment as defined. For three tosses with sequence as outcome, each toss has 2 possibilities, so total outcomes = 2³ = 8. Correct sample space: S = {HHH, HHT, HTH, THH, HTT, THT, TTH, TTT}. Writing {H, T} treats the experiment as a single toss — this reveals the misconception that sample space depends on how the experiment is defined, not just the apparatus used.",
+     "self_check": true
+    },
+    {
+     "q": "A bag contains 4 red balls (R1, R2, R3, R4) and 3 blue balls (B1, B2, B3). Two balls are drawn one after another WITHOUT replacement. List the sample space if the outcome is the ordered pair of balls drawn. How many outcomes are in this sample space?",
+     "a": "Since draws are without replacement and order matters, first draw has 7 choices, second has 6. Sample space: S = {R1R2, R1R3, R1R4, R1B1, R1B2, R1B3, R2R1, R2R3, R2R4, R2B1, R2B2, R2B3, R3R1, R3R2, R3R4, R3B1, R3B2, R3B3, R4R1, R4R2, R4R3, R4B1, R4B2, R4B3, B1R1, B1R2, B1R3, B1R4, B1B2, B1B3, B2R1, B2R2, B2R3, B2R4, B2B1, B2B3, B3R1, B3R2, B3R3, B3R4, B3B1, B3B2}. Total outcomes = 7 × 6 = 42. A wrong answer (e.g., 21) reveals confusion between ordered and unordered pairs or treating draws as independent (with replacement).",
+     "self_check": true
+    },
+    {
+     "q": "Consider the experiment: \"A family has two children. The gender of each child is observed in birth order.\" Let E = {both children are boys} and F = {at least one child is a boy}. Are E and F mutually exclusive? Are they exhaustive? Justify using set notation.",
+     "a": "Sample space: S = {(b,b), (b,g), (g,b), (g,g)}. E = {(b,b)}, F = {(b,b), (b,g), (g,b)}. E ∩ F = {(b,b)} ≠ ∅, so NOT mutually exclusive (they can occur together). E ∪ F = {(b,b), (b,g), (g,b)} ≠ S, so NOT exhaustive (doesn't cover (g,g)). A student saying \"yes, mutually exclusive\" confuses \"mutually exclusive\" with \"complementary\" — they think if one happens the other can't, but here E ⊂ F, so E happening guarantees F happens.",
+     "self_check": true
+    },
+    {
+     "q": "In a medical test for a disease, 95% of people with the disease test positive (sensitivity), and 90% of people without the disease test negative (specificity). The disease prevalence is 2%. A person tests positive. Without calculating, explain why the probability they actually have the disease is NOT 95%. What concept does this illustrate?",
+     "a": "The 95% is P(positive test | disease), but we need P(disease | positive test) — the reverse conditional probability. Due to low prevalence (2%), most positive tests come from the large healthy population (false positives), not the small diseased group. This illustrates that P(A|B) ≠ P(B|A) — confusing these is the \"base rate fallacy.\" A student saying \"it's 95% because the test is 95% accurate\" fails to distinguish between forward and inverse conditional probabilities.",
+     "self_check": true
+    },
+    {
+     "q": "Design a random experiment from Indian daily life (e.g., related to UPI payments, cricket, or local transport) where the sample space is infinite but countable. Define the experiment, sample space, and one event of interest. Explain why the classical probability formula (favourable/total) cannot be directly applied.",
+     "a": "Experiment: \"Number of UPI transactions a street vendor receives in one hour.\" Sample space: S = {0, 1, 2, 3, ...} (countably infinite). Event of interest: E = {vendor receives more than 10 transactions} = {11, 12, 13, ...}. Classical formula fails because \"total outcomes\" is infinite — we cannot compute |E|/|S|. Probabilities must be assigned via a distribution (e.g., Poisson). A poor answer (e.g., finite sample space) shows inability to recognize real-world scenarios with unbounded but discrete outcomes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

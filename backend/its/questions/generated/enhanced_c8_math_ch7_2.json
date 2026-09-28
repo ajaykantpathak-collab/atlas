@@ -34,6 +34,11 @@
      "q": "Create a real-world problem (Indian context) where the ratio of two quantities is 3:7. The quantities must be in the same unit but different from the examples used in class. Write the problem and the ratio with correct antecedent and consequent labels.",
      "a": "Example: \"Rohan saves ₹300 per month and his sister saves ₹700 per month. The ratio of Rohan's savings to his sister's savings is 300:700 = 3:7. Antecedent = Rohan's savings (₹300), Consequent = sister's savings (₹700).\" A poor answer uses different units (e.g., 3 kg and 7 g) or reverses the order, showing lack of attention to unit consistency and order significance.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ the price of two notebooks: one costs ₹40 and the other ₹60.",
+     "a": "comparing",
+     "self_check": true
     }
    ]
   }

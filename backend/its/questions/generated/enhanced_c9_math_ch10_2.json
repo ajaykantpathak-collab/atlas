@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch10_2",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch10_2",
+   "title": "c9_math_ch10_2",
+   "questions": [
+    {
+     "q": "What is the measure of a right angle in degrees?",
+     "a": "A right angle measures exactly 90°. If a student answers \"less than 90°\" or \"more than 90°\", they are confusing the definition of right angle with acute or obtuse angles, indicating a lack of recall of the exact boundary value.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why an angle measuring 100° cannot be classified as acute.",
+     "a": "An acute angle must be less than 90°, but 100° is greater than 90°, so it is obtuse. If a student says it's acute because \"it's wide\", they are misunderstanding the threshold—confusing visual width with the numeric threshold of 90°, revealing a failure to grasp that classification depends on precise degree measure, not appearance.",
+     "self_check": true
+    },
+    {
+     "q": "Classify the following angles: (i) 45°, (ii) 135°, (iii) 270°.",
+     "a": "(i) 45° is acute (0° < 45° < 90°); (ii) 135° is obtuse (90° < 135° < 180°); (iii) 270° is reflex (180° < 270° < 360°). If a student labels 270° as obtuse, they are incorrectly applying the obtuse range (90°–180°) to angles beyond 180°, revealing a computational error in extending inequality ranges past 180°.",
+     "self_check": true
+    },
+    {
+     "q": "Two angles are given: Angle P = 170°, Angle Q = 190°. Which statement is true? (A) Both are obtuse. (B) P is obtuse, Q is reflex. (C) Both are reflex. (D) P is acute, Q is obtuse.",
+     "a": "(B) P is obtuse (90° < 170° < 180°), Q is reflex (180° < 190° < 360°). If a student chooses (A), they are mistakenly applying the obtuse range to Q (190°), failing to recognize that angles ≥180° are not obtuse—this shows a failure to analyze the upper bound of obtuse angles.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims that an angle measuring 200° is acute because \"it looks sharp when you draw it small\". Is this correct? Justify your answer.",
+     "a": "No, it is incorrect. An acute angle must be less than 90°, but 200° is greater than 180°, so it is reflex. The student is confusing the physical representation (how the angle is drawn on paper) with its actual measure—this reveals a fundamental misunderstanding that angle classification depends on degree measure, not the size of the arc drawn, indicating a failure to evaluate the role of measurement vs. visual perception.",
+     "self_check": true
+    },
+    {
+     "q": "Create an example of a real-world situation where you would need to distinguish between an obtuse and a reflex angle, and explain why the distinction matters.",
+     "a": "Example: Adjusting a satellite dish—if the angle from horizontal is 100° (obtuse), the dish points slightly upward but is still within the forward hemisphere; if it's 260° (reflex), it's pointing backward, which would point the dish away from the satellite. A poor answer would give an example without explaining why the classification (obtuse vs reflex) changes the outcome, revealing a lack of ability to create meaningful applications.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

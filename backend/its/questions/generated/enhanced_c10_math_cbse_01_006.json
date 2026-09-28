@@ -34,6 +34,31 @@
      "q": "Construct a new proof by contradiction to show that √2 cannot be written as a fraction with an odd denominator. (Hint: Use the fact that if a² is even, a is even.)",
      "a": "Assume √2 = a/b with b odd and HCF(a,b)=1. Then a² = 2b². Since b is odd, b² is odd, so 2b² is even but not divisible by 4 (odd × 2 = 2 mod 4). Thus a² ≡ 2 (mod 4). But squares modulo 4 are only 0 or 1 — contradiction. Hence no such representation exists. A poor answer (e.g., just repeating the standard proof) shows inability to adapt the method to a variant constraint.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Proof by ______ (reductio ad absurdum) for the irrationality of √2: Assume √2 is rational, so it can be expressed as a fraction a/b in lowest terms (a, b ∈ ℤ, b ≠ 0, HCF(a,b)=1).",
+     "a": "contradiction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying a ______ tile for your kitchen floor.",
+     "a": "square",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Thus both a and b are even, contradicting HCF(a,b)=______.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write the complete proof of irrationality of √2 by contradiction in a logical sequence of at least 6 steps, explicitly stating the assumption, the deduction that both numerator and denominator are even, and the contradiction with the fraction being in lowest terms.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are buying a square tile for your kitchen floor.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a simple experiment to demonstrate the working principle of a hydrogen-oxygen fuel cell using school laboratory materials. List materials, procedure, and expected observation.",
      "a": "Materials: Two Pt electrodes, 1 M NaOH, H₂ gas (from Zn + HCl), O₂ gas (from H₂O₂ + MnO₂), voltmeter, beaker, gas delivery tubes.  \nProcedure: (1) Fill beaker with 1 M NaOH. (2) Immerse Pt electrodes. (3) Bubble H₂ at one electrode (anode), O₂ at other (cathode). (4) Connect voltmeter.  \nObservation: Voltage ~0.9-1.0 V (less than 1.23 V due to overpotential).  \nA poor answer (e.g., using graphite rods without catalyst, or expecting 1.23 V exactly) reveals lack of understanding of overpotential, catalyst necessity, and real-world non-ideality — key for JEE Advanced experimental questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A hydrogen-oxygen fuel cell is a galvanic cell that directly converts the chemical energy of the ______ redox reaction between hydrogen gas (fuel) and oxygen gas (oxidant) into electrical energy, with water as the only product.",
+     "a": "spontaneous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______-powered bus or car (like those tested in Delhi) — it emits only water vapour from its exhaust.",
+     "a": "hydrogen",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write the balanced half-reactions at anode and cathode, derive the overall cell reaction, explain the role of each component (porous electrodes, catalyst, electrolyte), calculate the standard EMF using standard electrode potentials, and compare its efficiency and environmental impact with thermal power plants and.",
+     "self_check": true
     }
    ]
   }

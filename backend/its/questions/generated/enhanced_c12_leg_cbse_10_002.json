@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_10_002",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_10_002",
+   "title": "c12_leg_cbse_10_002",
+   "questions": [
+    {
+     "q": "What is the constitutional basis for the establishment of the National Human Rights Commission (NHRC)?",
+     "a": "The NHRC is established under the Protection of Human Rights Act, 1993 (a statutory body), not directly by the Constitution. However, Article 39A (Directive Principle) obligates the State to provide free legal aid, and Article 21 (Right to Life) has been interpreted to include the right to remedies for human rights violations, providing the constitutional philosophy behind the Act. A wrong answer citing \"Article 338\" or \"Part III of Constitution\" reveals confusion between constitutional bodies (like NCSC/NCST) and statutory bodies (NHRC), and a failure to distinguish between constitutional mandate and legislative creation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the NHRC's recommendations are not binding on the government, and identify the specific provision in the Protection of Human Rights Act, 1993 that defines the government's obligation upon receiving the report.",
+     "a": "The NHRC is a recommendatory body; Section 18 of the PHRA, 1993 requires the concerned government/authority to forward its comments/action taken report within one month (or such further time as allowed), but does not mandate compliance. The government may accept, reject, or partially implement recommendations. A wrong answer claiming \"NHRC orders are binding like court judgments\" reveals a fundamental misunderstanding of the distinction between quasi-judicial inquiry powers (civil court powers for *investigation*) and adjudicatory powers (binding *decisions*), confusing NHRC with courts/tribunals.",
+     "self_check": true
+    },
+    {
+     "q": "A 14-year-old child is rescued from a factory where they were forced to work 14 hours daily. The child's parents are daily wage earners earning ₹8,000/month. Under which *two* specific categories of Section 12, Legal Services Authorities Act, 1987 is this child entitled to free legal aid? Cite the exact clauses.",
+     "a": "The child qualifies under: (c) \"a woman or a child\" [Section 12(c)]; and (h) \"in receipt of annual income less than rupees nine thousand... if the case is before a court other than the Supreme Court\" [Section 12(h)] — ₹8,000/month = ₹96,000/year, but the *child* has no income; the parent's income is irrelevant for the child's eligibility under (c). A wrong answer citing only income criteria or missing \"child\" as a standalone category reveals inability to apply the *disjunctive* (OR) logic of Section 12 — any *one* category suffices, and \"child\" is an absolute category irrespective of income.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the composition of the NHRC Chairperson with that of the State Human Rights Commission (SHRC) Chairperson. What does this difference imply about the hierarchy and independence of these bodies?",
+     "a": "NHRC Chairperson: Must be a former Chief Justice of the *Supreme Court* (Section 3(1)(a), PHRA). SHRC Chairperson: Must be a former Chief Justice of a *High Court* (Section 21(1)(a), PHRA). This implies a clear hierarchical design: NHRC is the apex national body headed by the highest judicial officer, while SHRCs are state-level bodies headed by High Court Chief Justices. It ensures NHRC's recommendations carry higher institutional weight. A wrong answer stating \"both are headed by Supreme Court judges\" or \"SHRC Chairperson is appointed by Governor\" reveals confusion between appointment *authority* (President for both, on recommendation of different committees) and *qualification*, and misses the federal design of the Act.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The inclusion of 'Public Interest Litigation' (PIL) under Article 32 has made the NHRC redundant for enforcing human rights.\" Argue for or against with *two* specific functional differences.",
+     "a": "Against. Two key differences: (1) *Locus Standi & Accessibility*: PIL requires approaching the Supreme Court directly (procedurally complex, needs legal drafting), while NHRC accepts complaints in *any language*, *by post/fax/email*, *no fee*, *no lawyer needed* — designed for marginalized victims who cannot access courts. (2) *Suo Motu & Investigation*: NHRC has *investigative powers* (summon witnesses, seize documents, visit jails) under Section 13, PHRA — courts *adjudicate* on evidence presented; NHRC *gathers* evidence. A wrong answer agreeing with redundancy reveals ignorance of NHRC's unique *inquisitorial, victim-centric, low-threshold* design versus the *adversarial, court-centric, high-threshold* PIL route.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical complaint format for the NHRC that a non-literate victim of custodial torture could use with the help of a social worker. Include *only* the 5 most critical fields mandated by NHRC guidelines (from the textbook's \"Format for filing a complaint with the NHRC\") that would make the complaint admissible.",
+     "a": "The 5 critical fields (from NHRC format): (1) **Victim's Details**: Name, Age, Sex, Religion, Caste (SC/ST/OBC/General), State, District — *mandatory for jurisdiction & vulnerability assessment*; (2) **Incident Details**: Place (Village/Town/City), State, District, Date of Incident — *mandatory for territorial & temporal jurisdiction (1-year limit)*; (3) **Brief Summary of Facts/Allegations** — *must disclose violation by public servant*; (4) **Name/Designation/Address of Public Servant Accused** — *mandatory for Section 12 PHRA jurisdiction*; (5) **Prayer/Relief Sought** — *defines scope of recommendation*. Omitting any makes the complaint \"vague\" or \"not making out specific violation\" — grounds for rejection under NHRC Guidelines (x), (xi). A poor answer including \"complainant's income\" or \"lawyer's name\" reveals misunderstanding of NHRC's *victim-centric, no-cost, no-lawyer* design.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

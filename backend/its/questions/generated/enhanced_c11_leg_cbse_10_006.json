@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_10_006",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_10_006",
+   "title": "c11_leg_cbse_10_006",
+   "questions": [
+    {
+     "q": "Define 'cybercrime' as per the National Cyber Crime Reporting Portal and explain why the IT Act, 2000 does not define it.",
+     "a": "Cybercrime is defined by the National Cyber Crime Reporting Portal as 'any unlawful act where a computer or communication device or computer network is used to commit or facilitate the commission of a crime'. The IT Act, 2000 does not define cybercrime because it focuses on specific offences (like hacking, identity theft, cyber terrorism) rather than a general definition, leaving room for evolving technologies. A wrong answer would be listing only hacking or phishing — this reveals the student confuses specific offences with the broad conceptual definition.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between 'cyber safety' and 'cyber security' using examples from the textbook.",
+     "a": "Cyber safety refers to responsible and ethical use of technology by individuals (e.g., not sharing passwords, avoiding cyberbullying), while cyber security refers to technical and legal measures to protect systems from unauthorized access, damage, or disruption (e.g., firewalls, encryption, Section 43A IT Act for data protection). A wrong answer would treat them as synonyms — this reveals the student misses the distinction between user behavior (safety) and systemic protection (security).",
+     "self_check": true
+    },
+    {
+     "q": "A company's employee leaks customer data via a personal email. Under which provisions of the IT Act can the company and the employee be held liable? Apply Sections 43A, 72A, and 84A.",
+     "a": "Step 1: Section 43A imposes liability on the body corporate (company) for failure to implement reasonable security practices — compensation up to ₹5 crore. Step 2: Section 72A punishes the employee for disclosure of personal information in breach of lawful contract — up to 3 years imprisonment and ₹5 lakh fine. Step 3: Section 84A empowers the Central Government to mandate encryption standards — non-compliance attracts penalties. Step 4: The company is vicariously liable under Section 85 for employee acts during employment. A wrong answer would only cite Section 66 (hacking) — this reveals the student overlooks data protection and intermediary liability provisions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the constitutional reasoning in Shreya Singhal v. Union of India (2015) with the US Supreme Court's approach in Reno v. ACLU (1997) regarding vague internet speech laws.",
+     "a": "Both courts struck down vague laws criminalizing online speech for violating free expression. Shreya Singhal held Section 66A unconstitutional for 'chilling effect' on Article 19(1)(a), emphasizing that 'grossly offensive' and 'menacing' were undefined, leading to arbitrary enforcement. Reno v. ACLU invalidated the Communications Decency Act's 'indecent' and 'patently offensive' standards for being overbroad and vague under the First Amendment. Key difference: Indian Court applied 'reasonable restrictions' test under Article 19(2); US Court applied strict scrutiny. A wrong answer would only mention the outcome — this reveals the student cannot analyze comparative constitutional reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate whether the IT Act, 2000 (as amended) adequately addresses 'revenge porn' and 'deepfakes'. Support your argument with specific sections and gaps.",
+     "a": "The IT Act partially addresses revenge porn via Section 66E (violation of privacy — publishing private images without consent) and Section 67A (sexually explicit material), but deepfakes are not explicitly covered. Section 67B covers child pornography but not synthetic media. The 2008 Amendment added Sections 66A (struck down), 66C (identity theft), 66D (cheating by personation) — none directly criminalize deepfake creation or non-consensual synthetic pornography. Gaps: no definition of 'deepfake', no specific penalty for AI-generated non-consensual content, no takedown mechanism for intermediaries under Section 79 for such content. A weak answer would say 'it covers everything' — this reveals the student cannot identify legislative lag behind technology.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a model provision for a new Section 66F-1 to criminalize 'non-consensual deepfake pornography' that is constitutionally valid post-Shreya Singhal. Include: definition, mens rea, punishment, and safeguards against misuse.",
+     "a": "A strong provision would: (1) Define 'deepfake' as 'synthetic media generated using AI/ML to depict a person in a false, realistic manner'. (2) Criminalize 'creation, publication, or circulation of sexually explicit deepfake content without the depicted person's informed consent'. (3) Require mens rea: 'knowledge or reason to believe the content is non-consensual'. (4) Punishment: up to 5 years imprisonment and fine up to ₹10 lakh. (5) Safeguards: (a) Exempts parody, satire, artistic expression; (b) Requires prior judicial approval for arrest (non-cognizable); (c) Mandates intermediaries to remove within 24 hours of court order under Section 79(3)(b). A poor answer would copy Section 66A's vague language — this reveals the student hasn't internalized the 'precision and proportionality' principle from Shreya Singhal.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

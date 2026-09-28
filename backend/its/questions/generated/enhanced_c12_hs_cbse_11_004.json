@@ -34,6 +34,36 @@
      "q": "Create a new family decision scenario (3-4 sentences) that is a TECHNICAL decision — not economic, social, or crisis. Your scenario must require specialised knowledge to evaluate alternatives. Then list the specific technical information the family must gather in Step 2.",
      "a": "Scenario: \"The family's 15-year-old roof develops leaks during monsoon. They must choose between patch repair (₹18,000), full re-roofing with clay tiles (₹1.2 lakh), or switching to metal roofing sheets (₹90,000). Each option has different lifespan, insulation, maintenance, and structural load implications.\" Step 2 Technical Information Needed: \"1) Current roof structure load-bearing capacity (kg/m²) to determine if metal sheets (lighter) or clay tiles (heavier) are feasible without reinforcement; 2) Thermal conductivity (W/m·K) of each material for indoor comfort; 3) Waterproofing rating and wind uplift resistance for local monsoon intensity; 4) Maintenance frequency and cost over 20-year lifecycle.\" A poor answer gives a non-technical scenario (e.g., choosing a school) or lists generic info (\"cost, durability\") without technical parameters — showing inability to distinguish technical decisions from economic ones.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Decision-making in family management is the systematic process of identifying and choosing ______ based on values, preferences, and available resources to achieve family goals.",
+     "a": "alternatives",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family's refrigerator breaks down two days before a major ______ — do you repair it, buy a new one on EMI, or manage with a neighbour's fridge?",
+     "a": "festival",
+     "self_check": true
+    },
+    {
+     "q": "What is Decision-making in family management? State the definition given in this lesson.",
+     "a": "Decision-making in family management is the systematic process of identifying and choosing alternatives based on values, preferences, and available resources to achieve family goals.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight: skipping Step ______ (gathering information) leads to buying a fridge that doesn't fit the kitchen niche — a classic error this node teaches you to avoid.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Decision-making in family management?",
+     "a": "Students believe \"decision-making\" means only the moment of choosing (Step 4: Evaluate and Select).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify a given family situation into the correct decision type (routine, strategic, crisis, or technical), list all five steps of the decision-making process in order with specific actions for each step, and evaluate a sample family decision scenario by identifying which step was skipped or poorly executed.",
+     "self_check": true
     }
    ]
   }

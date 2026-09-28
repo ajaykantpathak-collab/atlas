@@ -34,6 +34,31 @@
      "q": "Design a simple policy intervention (e.g., a per-unit subsidy) that could eliminate the deadweight loss in a monopoly with constant MC. Explain how it works and any practical challenges.",
      "a": "A per-unit subsidy can shift the monopoly's effective marginal cost down so that it chooses the competitive quantity. For the example in Q3 (MC = 20, demand P = 100 - Q), competitive Q = 80. At Q = 80, MR = 100 - 2*80 = -60. We need MR = MC - s => -60 = 20 - s => s = 80. A subsidy of ₹80 per unit would make the monopoly produce 80 units. However, the monopoly would then earn huge profits, and the government must fund the subsidy via distortionary taxes, creating other deadweight losses. Practical challenges: determining the correct subsidy, funding it, and potential for rent-seeking. A poor answer might suggest a price ceiling without addressing the monopoly's incentive to reduce quality or exit.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Monopoly ______ refers to the welfare loss arising because a monopoly firm sets price above marginal cost (P > MC), leading to a lower quantity produced than the socially optimal level (where P = MC).",
+     "a": "inefficiency",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ in a town with only one electricity provider — a monopoly.",
+     "a": "consumer",
+     "self_check": true
+    },
+    {
+     "q": "What is Monopoly inefficiency? State the definition given in this lesson.",
+     "a": "Monopoly inefficiency refers to the welfare loss arising because a monopoly firm sets price above marginal cost (P > MC), leading to a lower quantity produced than the socially optimal level (where P = MC).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Monopoly inefficiency?",
+     "a": "Students often think that deadweight loss is the same as the monopoly's profit rectangle, or that the deadweight loss triangle is bounded by the marginal revenue curve instead of the demand curve.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can graphically identify and calculate deadweight loss in a monopoly market, explain why P > MC causes allocative inefficiency, and compare monopoly outcome with perfect competition outcome in terms of total surplus.",
+     "self_check": true
     }
    ]
   }

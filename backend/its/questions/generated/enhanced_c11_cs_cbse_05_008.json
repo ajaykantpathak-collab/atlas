@@ -21,7 +21,7 @@
      "self_check": true
     },
     {
-     "q": "Compare these two loops. Do they produce the same output? Justify by tracing the first two iterations of each.\n```python",
+     "q": "Compare these two loops. Do they produce the same output? Justify by tracing the first two iterations of each.\n```python\n# Loop A\nx = 5\nwhile x > 0:\n    print(x)\n    x = x - 1\n\n# Loop B\ny = 5\nwhile y >= 1:\n    print(y)\n    y = y - 1\n```",
      "a": "**Correct answer:** Yes, both print `5 4 3 2 1`.  \nTrace Loop A: Iteration 1: `x=5`, condition `5>0` True → print 5 → `x=4`. Iteration 2: `x=4`, condition `4>0` True → print 4 → `x=3`.  \nTrace Loop B: Iteration 1: `y=5`, condition `5>=1` True → print 5 → `y=4`. Iteration 2: `y=4`, condition `4>=1` True → print 4 → `y=3`.  \nBoth terminate when variable becomes 0. The conditions `x>0` and `y>=1` are logically equivalent for integer variables decreasing by 1.  \n**Wrong answer reveals:** The student may focus on syntactic difference (`>` vs `>=`) without analyzing the integer domain, or may miscount iterations (off-by-one).",
      "self_check": true
     },
@@ -33,6 +33,31 @@
     {
      "q": "Design a `while` loop problem (with a real-world Indian context) that requires a **sentinel-controlled** loop (where the number of iterations is unknown) and involves **two accumulating variables** (e.g., count and sum). Provide the problem statement only — do not write the code.",
      "a": "**Good problem example:** \"A teacher enters marks of students (out of 100) one by one. Enter `-1` to stop. Calculate and display the number of students who scored above 75 and the average marks of all students.\"  \n**Poor answer reveals:** The student gives a counter-controlled loop (fixed number of students), uses only one accumulator, or chooses a context where the sentinel could be a valid data value (e.g., using 0 as sentinel for marks where 0 is possible).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A while loop in Python is a control flow statement that ______ executes a block of code (the loop body) as long as a specified Boolean condition evaluates to True.",
+     "a": "repeatedly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a shopkeeper counting ₹10 coins from a piggy bank until the total ______ ₹500.",
+     "a": "reaches",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight: the condition is tested *before* the first iteration, so if you start with ₹______, the body runs zero times — this is a feature, not a bug.",
+     "a": "500",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write a syntactically correct while loop with proper indentation, trace its execution step-by-step for a given input (including zero iterations), and explain how the loop variable changes to eventually make the condition False (termination guarantee).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ counting ₹10 coins from a piggy bank until the total reaches ₹500.",
+     "a": "shopkeeper",
      "self_check": true
     }
    ]

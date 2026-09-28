@@ -34,6 +34,21 @@
      "q": "Create a random experiment with exactly 8 equally likely outcomes. Define an event that has exactly 3 favourable outcomes. Write the sample space and the event as sets.",
      "a": "Example: Draw a ticket numbered 1 to 8 from a box. Sample space S={1,2,3,4,5,6,7,8}. Event E = \"number is a multiple of 3\" = {3,6}. That's only 2 favourable. Better: E = \"number is even and less than 7\" = {2,4,6} → n(E)=3. A poor answer uses non-equally likely outcomes (e.g., \"pick a student from class\") or wrong count.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An event is a subset of the sample space of a random ______.",
+     "a": "experiment",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are playing a board game with a ______ die and need a 4 or 5 to win.",
+     "a": "standard",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the sample space for a given experiment, define an event in words and as a subset, count total and favourable outcomes without omission or duplication, and explain why the equally likely assumption is necessary for the classical probability formula.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a hypothetical experiment using fluorescent tags to distinguish whether a given cell division is Meiosis II or mitosis. Specify: (a) What to label, (b) What pattern you would observe in each case, (c) Why this works even though both separate sister chromatids.",
      "a": "(a) Label centromeres with a red fluorophore and chromosome arms with a green fluorophore that marks crossover regions (e.g., MLH1 foci). (b) Mitosis: All chromosomes show red centromeres with green arms in symmetrical pairs (identical sisters). Meiosis II: Some chromosomes show asymmetric green signals on sister chromatids (crossover recombinant chromatids). (c) Works because crossing over in Prophase I creates genetic asymmetry between sister chromatids in Meiosis II, while mitotic sisters remain identical. A poor answer (e.g., just \"label DNA\") reveals inability to design experiments that exploit the conceptual difference rather than the mechanical similarity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Meiosis II is the second consecutive nuclear division in meiosis where sister chromatids separate at the centromere, resulting in four haploid daughter cells with the same chromosome number as the parent cell entering Meiosis II (n), but with ______ chromosomes.",
+     "a": "unduplicated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are tracking a single ______ from your father's sperm formation.",
+     "a": "chromosome",
+     "self_check": true
+    },
+    {
+     "q": "What is Meiosis II? State the definition given in this lesson.",
+     "a": "Meiosis II is the second consecutive nuclear division in meiosis where sister chromatids separate at the centromere, resulting in four haploid daughter cells with the same chromosome number as the parent cell entering Meiosis II (n), but with unduplicated chromosomes.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Meiosis II?",
+     "a": "Students believe \"Meiosis II is just mitosis in haploid cells\" and that the four products of meiosis are genetically identical except for independent assortment.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish Meiosis II from both Meiosis I and mitosis by explaining the chromosome behavior at each stage with respect to chromatid separation, centromere dynamics, and DNA content changes; (2) Trace the fate of a single chromosome through Meiosis I and II to predict the genetic composition of the four.",
+     "self_check": true
     }
    ]
   }

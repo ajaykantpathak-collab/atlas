@@ -24,12 +24,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "take the first part over the whole",
+    {
+     "step": 1,
+     "action": "take the first part over the whole",
      "explain": "The whole is a plus b for a two-term ratio.",
-     "compute": "frac = a / (a + b)"},
-    {"step": 2, "action": "scale to hundred",
+     "compute": "frac = a / (a + b)"
+    },
+    {
+     "step": 2,
+     "action": "scale to hundred",
      "explain": "Multiplying by 100 reads the fraction per cent.",
-     "compute": "percent = frac * 100"}
+     "compute": "percent = frac * 100"
+    }
    ]
   },
   {
@@ -50,12 +56,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "take the rate of the marked price",
+    {
+     "step": 1,
+     "action": "take the rate of the marked price",
      "explain": "Discount equals rate over 100 times the marked price.",
-     "compute": "discount = marked * rate / 100"},
-    {"step": 2, "action": "subtract from the marked price",
+     "compute": "discount = marked * rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "subtract from the marked price",
      "explain": "The selling price is what remains.",
-     "compute": "selling = marked - discount"}
+     "compute": "selling = marked - discount"
+    }
    ]
   },
   {
@@ -76,12 +88,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "compute the tax",
+    {
+     "step": 1,
+     "action": "compute the tax",
      "explain": "Rate over 100 times the price of the item.",
-     "compute": "tax = price * rate / 100"},
-    {"step": 2, "action": "add to the price",
+     "compute": "tax = price * rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "add to the price",
      "explain": "The bill is price plus tax.",
-     "compute": "final = price + tax"}
+     "compute": "final = price + tax"
+    }
    ]
   },
   {
@@ -102,12 +120,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "take the growth factor",
+    {
+     "step": 1,
+     "action": "take the growth factor",
      "explain": "1 plus rate over 100 raised to time compounds the rate.",
-     "compute": "factor = (1 + rate / 100) ** time"},
-    {"step": 2, "action": "scale the principal",
+     "compute": "factor = (1 + rate / 100) ** time"
+    },
+    {
+     "step": 2,
+     "action": "scale the principal",
      "explain": "The amount is principal times the factor.",
-     "compute": "amount = principal * factor"}
+     "compute": "amount = principal * factor"
+    }
    ]
   },
   {
@@ -126,15 +150,33 @@
     "apply the compound formula to the given growth rate",
     "find the depreciated value of the machine"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "identify the rate sign",
-     "explain": "Growth adds a positive rate; depreciation uses a negative one."},
-    {"step": 2, "action": "apply the compounding formula",
-     "explain": "Multiply the initial value by (1 plus or minus rate over 100) to the power of years."},
-    {"step": 3, "action": "state the result",
-     "explain": "The product is the value after the given period."}
-   ]
+    {
+     "step": 1,
+     "action": "identify the rate sign",
+     "explain": "Growth adds a positive rate; depreciation uses a negative one."
+    },
+    {
+     "step": 2,
+     "action": "apply the compounding formula",
+     "explain": "Multiply the initial value by (1 plus or minus rate over 100) to the power of years."
+    },
+    {
+     "step": 3,
+     "action": "state the result",
+     "explain": "The product is the value after the given period."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the simple or compound interest formula",
+     "explain": "apply the simple or compound interest formula: si = 5000 * 8 * 4 / 100 gives 1600",
+     "compute": "si = 5000 * 8 * 4 / 100"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -149,12 +191,18 @@
     "b": "second term of the ratio"
    },
    "solution_template": [
-    {"step": 1, "action": "take the fraction of the whole",
+    {
+     "step": 1,
+     "action": "take the fraction of the whole",
      "explain": "a over a plus b.",
-     "compute": "frac = a / (a + b)"},
-    {"step": 2, "action": "scale to hundred",
+     "compute": "frac = a / (a + b)"
+    },
+    {
+     "step": 2,
+     "action": "scale to hundred",
      "explain": "Multiply by 100 for the percentage.",
-     "compute": "percent = frac * 100"}
+     "compute": "percent = frac * 100"
+    }
    ]
   },
   {
@@ -168,12 +216,18 @@
     "b": "count of the second group per ratio"
    },
    "solution_template": [
-    {"step": 1, "action": "take the fraction of the whole",
+    {
+     "step": 1,
+     "action": "take the fraction of the whole",
      "explain": "First group over total strength.",
-     "compute": "frac = a / (a + b)"},
-    {"step": 2, "action": "scale to hundred",
+     "compute": "frac = a / (a + b)"
+    },
+    {
+     "step": 2,
+     "action": "scale to hundred",
      "explain": "Percentage follows.",
-     "compute": "percent = frac * 100"}
+     "compute": "percent = frac * 100"
+    }
    ]
   },
   {
@@ -187,12 +241,18 @@
     "rate": "discount rate per cent"
    },
    "solution_template": [
-    {"step": 1, "action": "compute the discount",
+    {
+     "step": 1,
+     "action": "compute the discount",
      "explain": "Rate per cent of the marked price.",
-     "compute": "discount = marked * rate / 100"},
-    {"step": 2, "action": "subtract for the selling price",
+     "compute": "discount = marked * rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "subtract for the selling price",
      "explain": "Marked minus discount.",
-     "compute": "selling = marked - discount"}
+     "compute": "selling = marked - discount"
+    }
    ]
   },
   {
@@ -206,12 +266,18 @@
     "rate": "discount per cent"
    },
    "solution_template": [
-    {"step": 1, "action": "compute the discount",
+    {
+     "step": 1,
+     "action": "compute the discount",
      "explain": "Discount equals rate over 100 times marked.",
-     "compute": "discount = marked * rate / 100"},
-    {"step": 2, "action": "subtract for the selling price",
+     "compute": "discount = marked * rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "subtract for the selling price",
      "explain": "The customer pays the balance.",
-     "compute": "selling = marked - discount"}
+     "compute": "selling = marked - discount"
+    }
    ]
   },
   {
@@ -225,12 +291,18 @@
     "rate": "tax rate per cent"
    },
    "solution_template": [
-    {"step": 1, "action": "compute the tax",
+    {
+     "step": 1,
+     "action": "compute the tax",
      "explain": "Rate over 100 times price.",
-     "compute": "tax = price * rate / 100"},
-    {"step": 2, "action": "add to the price",
+     "compute": "tax = price * rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "add to the price",
      "explain": "The bill is price plus tax.",
-     "compute": "final = price + tax"}
+     "compute": "final = price + tax"
+    }
    ]
   },
   {
@@ -244,12 +316,18 @@
     "rate": "tax per cent"
    },
    "solution_template": [
-    {"step": 1, "action": "compute the tax",
+    {
+     "step": 1,
+     "action": "compute the tax",
      "explain": "Tax is the rate per cent of the price.",
-     "compute": "tax = price * rate / 100"},
-    {"step": 2, "action": "add to the price",
+     "compute": "tax = price * rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "add to the price",
      "explain": "Total equals price plus tax.",
-     "compute": "final = price + tax"}
+     "compute": "final = price + tax"
+    }
    ]
   },
   {
@@ -264,12 +342,18 @@
     "time": "number of years"
    },
    "solution_template": [
-    {"step": 1, "action": "take the growth factor",
+    {
+     "step": 1,
+     "action": "take the growth factor",
      "explain": "(1 + rate/100) to the power time.",
-     "compute": "factor = (1 + rate / 100) ** time"},
-    {"step": 2, "action": "scale the principal",
+     "compute": "factor = (1 + rate / 100) ** time"
+    },
+    {
+     "step": 2,
+     "action": "scale the principal",
      "explain": "Amount equals principal times factor.",
-     "compute": "amount = principal * factor"}
+     "compute": "amount = principal * factor"
+    }
    ]
   },
   {
@@ -284,12 +368,18 @@
     "time": "years"
    },
    "solution_template": [
-    {"step": 1, "action": "take the growth factor",
+    {
+     "step": 1,
+     "action": "take the growth factor",
      "explain": "Compound the rate over the years.",
-     "compute": "factor = (1 + rate / 100) ** time"},
-    {"step": 2, "action": "scale the principal",
+     "compute": "factor = (1 + rate / 100) ** time"
+    },
+    {
+     "step": 2,
+     "action": "scale the principal",
      "explain": "The amount is principal times the factor.",
-     "compute": "amount = principal * factor"}
+     "compute": "amount = principal * factor"
+    }
    ]
   }
  ],
@@ -298,26 +388,26 @@
    "id": "ex7.1",
    "source_ref": "hemh107.txt EXERCISE 7.1-7.2",
    "questions": [
-     "Convert the given ratios to percentages and vice versa.",
-     "Find the selling price when marked price and discount per cent are given.",
-     "An almirah is sold for 5225 after a discount - find the marked price."
+    "Convert the given ratios to percentages and vice versa.",
+    "Find the selling price when marked price and discount per cent are given.",
+    "An almirah is sold for 5225 after a discount - find the marked price."
    ]
   },
   {
    "id": "ex7.2",
    "source_ref": "hemh107.txt EXERCISE 7.3",
    "questions": [
-     "The cost of an article is given; find the bill with sales tax.",
-     "Find the amount paid for the TV set including tax."
+    "The cost of an article is given; find the bill with sales tax.",
+    "Find the amount paid for the TV set including tax."
    ]
   },
   {
    "id": "ex7.3",
    "source_ref": "hemh107.txt EXERCISE 7.4",
    "questions": [
-     "Find the compound interest when principal, rate and time are given.",
-     "In how many years will 1250 become 1800 at 10 per cent compounded annually?",
-     "The population of a place increases at 5 per cent per annum - find it after 2 years."
+    "Find the compound interest when principal, rate and time are given.",
+    "In how many years will 1250 become 1800 at 10 per cent compounded annually?",
+    "The population of a place increases at 5 per cent per annum - find it after 2 years."
    ]
   }
  ]

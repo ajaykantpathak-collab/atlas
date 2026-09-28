@@ -34,6 +34,21 @@
      "q": "Create a problem where someone needs to calculate the area of a floor but must subtract a portion for a rug. What are the steps to solve it?",
      "a": "A good problem involves calculating the total floor area, calculating the rug area, and subtracting the rug area from the floor area. A poor response would simply add the two areas, showing a failure to visualize the \"subtraction\" of space.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Problem-solving in ______ involves identifying whether a real-world scenario requires finding a boundary distance (perimeter) or an enclosed surface space (area) and applying the correct geometric formulas to solve it.",
+     "a": "mensuration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are asked to buy a lace for a ______ table cover versus buying paint for the top surface of the table.",
+     "a": "rectangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to distinguish between perimeter and area problems by reading keywords, select the correct formula, perform the calculation, and assign the appropriate unit of measurement (units for perimeter, square units for area).",
+     "self_check": true
     }
    ]
   }

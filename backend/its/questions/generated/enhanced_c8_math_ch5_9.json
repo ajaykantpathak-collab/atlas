@@ -34,6 +34,31 @@
      "q": "Create a 6-digit number that is divisible by 8 but NOT by 4. Is this possible? Explain.",
      "a": "This is impossible. If a number is divisible by 8, it must be divisible by 4 because 8 = 4 × 2. Any multiple of 8 is also a multiple of 4. A good answer states this impossibility and explains the factor relationship. If a student tries to construct such a number (e.g., 100,008), they will find it is divisible by 4 (last two digits 08). If they claim it's possible, they don't understand the hierarchy of divisibility.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ tests are shortcut rules to determine if a whole number is divisible by another without performing full division.",
+     "a": "Divisibility",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have ₹2,376 and want to split it equally among 4 friends without doing long ______.",
+     "a": "division",
+     "self_check": true
+    },
+    {
+     "q": "What is Divisibility tests? State the definition given in this lesson.",
+     "a": "Divisibility tests are shortcut rules to determine if a whole number is divisible by another without performing full division.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Divisibility tests?",
+     "a": "Students often apply the divisibility rule for 11 by summing digits from the leftmost side instead of the rightmost (units) side.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly apply all four divisibility rules (4, 6, 8, 11) to any given integer up to 7 digits, explain why each rule works using place value, and combine rules to test divisibility by composite numbers like 12 or 24.",
+     "self_check": true
     }
    ]
   }

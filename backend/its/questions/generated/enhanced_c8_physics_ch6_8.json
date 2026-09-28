@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a concave mirror (e.g., a shiny steel spoon or a makeup mirror) to demonstrate all three uses: shaving, dentist, and headlight. List the steps and what you would observe in each case.",
      "a": "A good answer includes: (1) Hold spoon close to eye → magnified erect image (shaving/dentist). (2) Hold spoon at arm's length → inverted diminished image (not a use). (3) Place a small LED bulb at the focal point of a larger concave mirror (or approximate with spoon and torch) → reflected beam becomes a narrow parallel patch on a distant wall (headlight). A poor answer misses the focal point demonstration or cannot explain why the bulb must be at the focus.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Concave mirrors are ______ mirrors that produce magnified, erect, virtual images when the object is placed between the pole and focus, and form real, inverted images when the object is beyond the focus; these distinct image properties are exploited in shaving mirrors (magnified virtual image), dentist mirrors (magnified virtual image), and headlight reflectors (parallel beam from source at focus).",
+     "a": "converging",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking students to ______ a steel spoon: the inner curved surface acts as a concave mirror.",
+     "a": "observe",
+     "self_check": true
+    },
+    {
+     "q": "What is Concave mirrors? State the definition given in this lesson.",
+     "a": "Concave mirrors are converging mirrors that produce magnified, erect, virtual images when the object is placed between the pole and focus, and form real, inverted images when the object is beyond the focus; these distinct image properties are exploited in shaving mirrors (magnified virtual image), dentist mirrors (magnified virtual.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Concave mirrors?",
+     "a": "Students often believe a concave mirror *always* produces a magnified image.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain, using ray diagram reasoning, why a concave mirror must be held close to the face for shaving, why a dentist places the mirror very near the tooth, and why a headlight bulb is positioned exactly at the focal point of the reflector.",
+     "self_check": true
     }
    ]
   }

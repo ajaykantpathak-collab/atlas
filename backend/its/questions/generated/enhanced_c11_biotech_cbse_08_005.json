@@ -34,6 +34,31 @@
      "q": "Design a FISH probe strategy to distinguish between a balanced t(8;14) carrier and an unbalanced derivative chromosome 8 with 14q deletion in a Burkitt's lymphoma biopsy.",
      "a": "Use **dual-color break-apart probe for MYC (8q24)**: one probe flanking 5' end (green), one flanking 3' end (red). In normal/balanced: fused yellow signal on der(8) and der(14). In unbalanced del(14q): split signals (green on der(8), red lost). Add **centromere 8 (CEP8) and centromere 14 (CEP14)** probes to count chromosomes. A poor answer using only whole-chromosome paints misses breakpoint resolution — FISH must target the specific gene region.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Translocation is a structural chromosomal abnormality where a segment of one chromosome breaks off and attaches to a non-homologous chromosome; reciprocal translocation involves mutual exchange of segments between two non-homologous chromosomes, while ______ translocation involves fusion of two acrocentric chromosomes at their centromeres with loss of short arms, reducing the chromosome number.",
+     "a": "Robertsonian",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a patient with recurrent miscarriages whose karyotype shows 45 chromosomes instead of 46, yet they appear ______ normal.",
+     "a": "phenotypically",
+     "self_check": true
+    },
+    {
+     "q": "What is Translocation? State the definition given in this lesson.",
+     "a": "Translocation is a structural chromosomal abnormality where a segment of one chromosome breaks off and attaches to a non-homologous chromosome; reciprocal translocation involves mutual exchange of segments between two non-homologous chromosomes, while Robertsonian translocation involves fusion of two acrocentric chromosomes at their.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Translocation?",
+     "a": "Students believe Robertsonian translocation \"deletes\" the short arms (p-arms) of acrocentric chromosomes, causing genetic loss.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can distinguish reciprocal from Robertsonian translocation using karyotype notation, predict gamete formation outcomes in translocation heterozygotes, and explain the molecular mechanism linking specific translocations to diseases like Burkitt's lymphoma.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Create a new adjustment scenario (not from textbook) involving **two simultaneous adjustments** that affect the *same* P&L line item but have opposite Balance Sheet effects. Write the adjusting entries and show the net P&L impact.",
      "a": "**Scenario:** Trial balance shows \"Rent Paid\" ₹3,60,000. Adjustments: (a) Rent for March ₹30,000 outstanding; (b) Rent for April 2024 ₹30,000 paid in advance.\n**Entries:** (a) Rent A/c Dr. 30,000 → Outstanding Rent A/c 30,000; (b) Prepaid Rent A/c Dr. 30,000 → Rent A/c 30,000.\n**Net P&L Impact:** Rent Expense = ₹3,60,000 + ₹30,000 – ₹30,000 = **₹3,60,000** (no change).\n**Balance Sheet:** Current Liability (Outstanding Rent) +₹30,000; Current Asset (Prepaid Rent) +₹30,000.\nA poor answer shows only one adjustment or nets them incorrectly in P&L (e.g., ₹3,90,000 or ₹3,30,000), revealing the student doesn't grasp that each adjustment is recorded separately even if they offset.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Preparation of Statement of Profit and Loss with Adjustments is the process of ______ year-end accounting adjustments (such as outstanding expenses, prepaid expenses, accrued income, unearned income, depreciation, bad debts, and provisions) into the trial balance figures to arrive at the correct revenue, expenses, and profit/loss for the period, presented in the format prescribed by Schedule III of the Companies Act, 2013.",
+     "a": "incorporating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're an ______ at \"Mumbai Textiles Ltd.\" and the trial balance shows Rent Expense ₹2,40,000, but the rent agreement says ₹20,000/month and December rent is unpaid.",
+     "a": "accountant",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Preparation of Statement of Profit and Loss with Adjustments is the process of incorporating year-end accounting adjustments (such as outstanding expenses, prepaid expenses, accrued income, unearned income, depreciation, bad debts, and provisions) into the trial balance figures to arrive at the correct revenue, expenses, and profit/loss for the period, presented in the format prescribed by Schedule III of the Companies Act, ______.",
+     "a": "2013",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Identify all adjustment items from additional information and trial balance, (2) Pass correct adjusting journal entries for each adjustment, (3) Prepare the Statement of Profit and Loss in Schedule III format showing each adjustment's dual effect on the relevant line items, and (4) Calculate the correct.",
+     "self_check": true
     }
    ]
   }

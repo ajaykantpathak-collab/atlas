@@ -34,6 +34,31 @@
      "q": "Design a simple experiment to test whether a new cucumber variety is facultatively parthenocarpic (sets fruit without pollination but also with pollination). Specify control, treatment, and measurable outcomes.",
      "a": "Control: flowers bagged before anthesis, hand-pollinated with viable pollen. Treatment: flowers bagged, no pollination (or pollinated with dead pollen). Measure: fruit set %, fruit length, weight, seed count at maturity. If treatment sets seedless fruits comparable to control → facultative parthenocarpy. Poor answer (no control, no replication) reveals inability to design controlled biological experiments — a NEET practical skill gap.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the development of fruit without fertilization of ovules, resulting in seedless fruits; it can occur naturally (e.g., banana, grapes) or be induced artificially by applying plant growth regulators like auxins and gibberellins to unpollinated flowers.",
+     "a": "Parthenocarpy",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ grape or banana from your kitchen — notice there are no seeds inside despite being a mature fruit.",
+     "a": "seedless",
+     "self_check": true
+    },
+    {
+     "q": "What is Parthenocarpy? State the definition given in this lesson.",
+     "a": "Parthenocarpy is the development of fruit without fertilization of ovules, resulting in seedless fruits; it can occur naturally (e.g., banana, grapes) or be induced artificially by applying plant growth regulators like auxins and gibberellins to unpollinated flowers.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Parthenocarpy?",
+     "a": "Students think parthenocarpy and apomixis are the same because both produce \"seedless\" outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the hormonal mechanism of parthenocarpic fruit development, distinguish it from normal fertilization-dependent fruit set, and predict outcomes of hormone application experiments on different fruit types.",
+     "self_check": true
     }
    ]
   }

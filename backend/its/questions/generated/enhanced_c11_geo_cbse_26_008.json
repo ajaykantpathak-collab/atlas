@@ -34,6 +34,31 @@
      "q": "Design a GIS workflow to map flood-affected agricultural land in the Kosi river basin (Bihar) using pre-flood and post-flood Sentinel-1 SAR (Synthetic Aperture Radar) images. Specify: (1) data layers needed, (2) key GIS operations in sequence, (3) output products for disaster management authorities.",
      "a": "**Good answer criteria:**\n1. **Data layers:** Pre-flood SAR (VV/VH polarization), post-flood SAR, DEM (SRTM 30m), land use/land cover (LULC) vector layer, administrative boundaries (district/block), drainage network, settlement points.\n2. **GIS operations sequence:** (a) Co-registration of pre/post SAR images → (b) Speckle filtering (Lee/Gamma MAP) → (c) Change detection: ratio/post-pre or log-ratio for water extent → (d) Thresholding to extract flood inundation mask (raster) → (e) Vectorize flood mask → (f) Overlay (Intersect) flood polygon with LULC agricultural classes → (g) Calculate area statistics per block → (h) Join with village boundaries for damage assessment.\n3. **Outputs:** Flood extent map (raster/vector), agricultural loss area table (block-wise), inundated village list, flood depth proxy map (using DEM difference), time-series animation if multi-temporal.\n**Poor answer reveals:** Missing SAR preprocessing (speckle filtering), using optical imagery ignoring cloud cover in monsoon, skipping DEM for depth estimation, or producing only a map without tabular statistics for relief allocation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Geographic Information System (GIS) is a computer-based system for capturing, storing, manipulating, analyzing, managing, and presenting spatial or geographic data, where remote sensing provides the primary data input through satellite imagery and aerial photographs that are ______ and integrated as raster or vector layers for spatial analysis and decision-making.",
+     "a": "georeferenced",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you open Google Maps on your phone and see your location as a blue dot on a satellite image of your neighborhood, you are ______ GIS-remote sensing integration in real time.",
+     "a": "experiencing",
+     "self_check": true
+    },
+    {
+     "q": "What is Geographic Information System (GIS)? State the definition given in this lesson.",
+     "a": "Geographic Information System (GIS) is a computer-based system for capturing, storing, manipulating, analyzing, managing, and presenting spatial or geographic data, where remote sensing provides the primary data input through satellite imagery and aerial photographs that are georeferenced and integrated as raster or vector layers for.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Geographic Information System (GIS)?",
+     "a": "Students believe GIS is simply \"making maps on computer\" and that remote sensing images can be directly overlaid in GIS without any preprocessing.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain how remote sensing data becomes input for GIS through georeferencing, distinguish between raster and vector data models with examples from Indian geography, and describe the integration workflow from satellite image to thematic map output for a specific application like flood mapping in Bihar.",
+     "self_check": true
     }
    ]
   }

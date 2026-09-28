@@ -1,0 +1,119 @@
+{
+ "catalog": "catalog_class8_science_ch103.json",
+ "concepts": [
+  {
+   "id": "hesc.103.4.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "shortage_year_2 = 54",
+      "shortage_year_1 = 21",
+      "shortage_diff = shortage_year_2 - shortage_year_1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "shortage_year_2 = 48",
+      "shortage_year_1 = 31",
+      "shortage_diff = shortage_year_2 - shortage_year_1"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "shortage_year_2 = 18.3",
+      "shortage_year_1 = 12.1",
+      "shortage_diff = shortage_year_2 - shortage_year_1"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "shortage_year_2 = 54",
+      "shortage_year_1 = 80",
+      "shortage_diff = shortage_year_2 - shortage_year_1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "shortage_year_2 = 26",
+      "shortage_year_1 = 26",
+      "shortage_diff = shortage_year_2 - shortage_year_1"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "shortage_year_2 = 86",
+      "shortage_year_1 = 34",
+      "shortage_diff = shortage_year_2 - shortage_year_1"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "shortage_diff = shortage_year_2 - shortage_year_1"
+   ]
+  },
+  {
+   "id": "hesc.103.4.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total_reserve = 75",
+      "consumed_amount = 99",
+      "remaining_pct = ((total_reserve - consumed_amount) / total_reserve) * 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total_reserve = 81",
+      "consumed_amount = 8.7",
+      "remaining_pct = ((total_reserve - consumed_amount) / total_reserve) * 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_reserve = 80",
+      "consumed_amount = 4.2",
+      "remaining_pct = ((total_reserve - consumed_amount) / total_reserve) * 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total_reserve = 83",
+      "consumed_amount = 68",
+      "remaining_pct = ((total_reserve - consumed_amount) / total_reserve) * 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "total_reserve = 3.9",
+      "consumed_amount = 69",
+      "remaining_pct = ((total_reserve - consumed_amount) / total_reserve) * 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total_reserve = 49",
+      "consumed_amount = 32",
+      "remaining_pct = ((total_reserve - consumed_amount) / total_reserve) * 100"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "remaining_pct = ((total_reserve - consumed_amount) / total_reserve) * 100"
+   ]
+  }
+ ]
+}

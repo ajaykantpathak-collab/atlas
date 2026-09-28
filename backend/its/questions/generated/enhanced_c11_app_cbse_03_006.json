@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_03_006",
+   "title": "c11_app_cbse_03_006",
+   "questions": [
+    {
+     "q": "If A = {a, b}, write down P(A) explicitly using correct set notation.",
+     "a": "P(A) = {φ, {a}, {b}, {a, b}}. A wrong answer like {{a}, {b}, {a, b}} (missing φ) reveals the student doesn't grasp that the empty set is a subset of *every* set. Writing {a, b, φ} (missing braces) reveals confusion between elements and subsets — they treat φ as an element of A rather than a subset.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why n(P(A)) = 2^n for a finite set A with n elements. Use the concept of \"choices\" for each element.",
+     "a": "Each element of A has exactly two independent choices: either it is included in a subset or it is not. By the Fundamental Principle of Counting, total subsets = 2 × 2 × ... × 2 (n times) = 2^n. A wrong answer like \"because there are n elements and we double them\" shows they memorized the formula without understanding the combinatorial reasoning. Saying \"2^n includes the set itself\" confuses the count with the content.",
+     "self_check": true
+    },
+    {
+     "q": "Let A = {1, {2, 3}}. Find P(A) and state n(P(A)).",
+     "a": "A has 2 elements: 1 and {2, 3}. So n(P(A)) = 2^2 = 4.\nP(A) = {φ, {1}, {{2, 3}}, {1, {2, 3}}}.\nA wrong answer like {φ, {1}, {2, 3}, {1, 2, 3}} reveals the critical misconception: treating {2, 3} as if its elements (2, 3) belong to A. They fail to see {2, 3} is a *single element* (a set) of A, not two separate elements.",
+     "self_check": true
+    },
+    {
+     "q": "Compare P(A) and P(B) where A = {1, 2} and B = {1, 2, 3}. Is P(A) a subset of P(B)? Is P(A) an element of P(B)? Justify both answers.",
+     "a": "P(A) = {φ, {1}, {2}, {1, 2}}. P(B) has 8 elements including all of P(A)'s elements. So P(A) ⊆ P(B) — YES, every subset of A is also a subset of B. But P(A) ∉ P(B) — NO, because elements of P(B) are subsets of B (like {1, 2}), not sets of subsets. A wrong \"YES\" to the second reveals confusion between ⊆ (subset) and ∈ (element of). They think \"P(A) is a set, so it can be an element\" without checking if it's a subset of B.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If n(A) = 3, then n(P(P(A))) = 2^3 = 8.\" Evaluate this claim. Is it correct? If not, find the correct value and explain the error.",
+     "a": "The claim is INCORRECT.\nn(A) = 3 → n(P(A)) = 2^3 = 8.\nThen n(P(P(A))) = 2^{n(P(A))} = 2^8 = 256.\nThe student applied the formula only once, treating P(P(A)) as if it were P(A). They failed to recognize the nesting: the outer power set acts on a set of size 8, not 3. This reveals a lack of hierarchical thinking about sets of sets.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own example of a set C (with n(C) = 3) such that one element of C is itself a set with 2 elements. Write P(C) and circle the elements of P(C) that are \"nested sets\" (i.e., sets containing a set as an element).",
+     "a": "Example: C = {x, y, {p, q}}.\nP(C) = {φ, {x}, {y}, {{p, q}}, {x, y}, {x, {p, q}}, {y, {p, q}}, {x, y, {p, q}}}.\nThe nested sets (elements containing {p, q}) are: {{p, q}}, {x, {p, q}}, {y, {p, q}}, {x, y, {p, q}} — 4 of them.\nA poor answer uses C = {1, 2, 3} (no nested set) or writes P(C) incorrectly by \"expanding\" {p, q}. This reveals they cannot construct sets with sets as elements, a prerequisite for understanding P(P(A)).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

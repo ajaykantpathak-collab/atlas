@@ -34,6 +34,31 @@
      "q": "Design a simple card-sorting activity using 20 element cards (symbol, atomic mass, one key property) to help a Class 9 student discover Dobereiner's triads themselves.",
      "a": "Cards: Li(7, reacts vigorously with water), Na(23, reacts vigorously), K(39, reacts vigorously), Ca(40, reacts slowly), Sr(88, reacts slowly), Ba(137, reacts slowly), Cl(35.5, gas), Br(80, liquid), I(127, solid) plus 11 distractors.  \nInstruction: \"Group cards by similar property, then order each group by atomic mass. Check if middle mass ≈ average of extremes.\"  \nA poor answer (e.g., \"sort by atomic mass only\") misses the property-similarity prerequisite, showing the student doesn't grasp that chemical similarity comes first, numerical pattern second.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Dobereiner's Triads (1817) is an early ______ system where elements with similar chemical properties are arranged in groups of three (triads) such that the atomic mass of the middle element is approximately equal to the arithmetic mean of the atomic masses of the first and third elements.",
+     "a": "classification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a kitchen spice rack: salt (NaCl) and substitute salts (KCl, LiCl) taste similarly salty — their ______ (Na, K, Li) behave alike.",
+     "a": "metals",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Dobereiner's Triads (______) is an early classification system where elements with similar chemical properties are arranged in groups of three (triads) such that the atomic mass of the middle element is approximately equal to the arithmetic mean of the atomic masses of the first and third elements.",
+     "a": "1817",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can identify whether a given set of three elements forms a Dobereiner's triad by verifying the atomic mass relationship, and can explain why this pattern suggested a link between atomic mass and chemical properties.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a kitchen spice rack: salt (NaCl) and ______ salts (KCl, LiCl) taste similarly salty — their metals (Na, K, Li) behave alike.",
+     "a": "substitute",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (using Indian context: rupees, metres, kg) that requires using a^m × b^m = (ab)^m to solve. Write the problem and its solution.",
      "a": "Example problem: \"A rectangular garden has length 10^2 m and breadth 5^2 m. Find the area in exponential form.\" Solution: Area = length × breadth = 10^2 × 5^2 = (10×5)^2 = 50^2 sq m. A poor answer uses different exponents (e.g., 10^2 × 5^3) or adds exponents, showing the student cannot construct a scenario where the law applies naturally.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When two ______ have the same exponent but different bases, their product equals the product of the bases raised to that common exponent.",
+     "a": "powers",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying 3 boxes of ______ and 3 boxes of pens.",
+     "a": "pencils",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly apply the law a^m × b^m = (ab)^m to simplify expressions with numerical and algebraic bases, explain why the law works using the definition of exponents, and identify when it cannot be applied (different exponents).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are buying 3 boxes of pencils and 3 boxes of pens.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

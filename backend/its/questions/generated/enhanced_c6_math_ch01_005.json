@@ -34,6 +34,26 @@
      "q": "Create a 7-digit number and write it in words using the Indian system.",
      "a": "The student should produce a number like 45,67,890 and write \"forty-five lakh sixty-seven thousand eight hundred ninety.\" A poor answer lacks the correct place-value names or fails to group digits into the correct lakhs/thousands periods.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Indian number system is a method of grouping and naming large numbers using specific units like Lakhs (1,00,000) and Crores (1,00,00,000), ______ by a unique placement of commas after the hundreds place.",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever looked at a news headline about the population of India or the budget of a ______ in crores?",
+     "a": "project",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to read and write any number up to 10 crores by placing commas correctly and naming the place values in the Indian system.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever looked at a news headline about the ______ of India or the budget of a project in crores?",
+     "a": "population",
+     "self_check": true
     }
    ]
   }

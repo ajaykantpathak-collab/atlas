@@ -4,15 +4,8 @@
   {
    "id": "gegp.7.1",
    "title": "Triangles: Three Lines, Three Angles",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 64 gives 26",
-     "compute": "other = 90 - 64"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 64 degrees, find the other.",
@@ -50,6 +43,8 @@
    "id": "gegp.7.2",
    "title": "The Angle Sum of a Triangle",
    "converted_to_compute": false,
+   "formula": "third = 180 - a - b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 13 degrees, find the other.",
@@ -86,15 +81,8 @@
   {
    "id": "gegp.7.3",
    "title": "Types of Triangles by Sides and Angles",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 14 gives 76",
-     "compute": "other = 90 - 14"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 14 degrees, find the other.",
@@ -131,15 +119,8 @@
   {
    "id": "gegp.7.4",
    "title": "Checking Triangle Stories",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 63 gives 27",
-     "compute": "other = 90 - 63"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 63 degrees, find the other.",

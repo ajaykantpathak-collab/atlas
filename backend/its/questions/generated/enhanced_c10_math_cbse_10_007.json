@@ -34,6 +34,26 @@
      "q": "Prove that the line joining the external point to the centre bisects the angle between the two tangents.",
      "a": "From ΔOAP ≅ ΔOBP (proved by RHS), we have ∠OPA = ∠OPB by CPCT (corresponding angles of congruent triangles). Therefore OP bisects ∠APB. A poor answer (e.g., \"it looks like it bisects\") misses the use of CPCT to justify the angle equality.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The tangent from an external point to a circle is proved to have specific ______ using triangle congruence (SAS or RHS criterion).",
+     "a": "properties",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Draw two ______ from P touching the circle at points A and B.",
+     "a": "tangents",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The two key theorems are: (______) The lengths of tangents drawn from an external point to a circle are equal, proved by showing that the two right triangles formed (each with the radius to the point of tangency as one leg, the tangent as the other leg, and the line from the external point to the centre as the hypotenuse) are congruent by RHS (Right angle-Hypotenuse-Side).",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can prove that tangents from an external point are equal using the RHS congruence criterion, construct the proof by identifying the two right-angled triangles (centre–point of tangency–external point), and apply the result to solve numerical and geometric problems involving tangent lengths.",
+     "self_check": true
     }
    ]
   }

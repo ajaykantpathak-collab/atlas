@@ -65,16 +65,19 @@ _cache_embeddings = None  # numpy array of cached embeddings for fast similarity
 
 
 def _get_embedder():
-    """Lazy-load MiniLM and pre-compute problem type embeddings."""
+    """Shared MiniLM from ai.model_hub (preloaded at startup).
+
+    Warm -> instant.  Cold -> blocking fallback (rare: only requests
+    arriving before the startup preload finishes); the heavy load itself
+    lives in model_hub so the event loop is never the loader."""
     global _embedder, _pt_ids, _pt_embeddings
     if _embedder is None:
-        from sentence_transformers import SentenceTransformer
-        logger.info("Loading MiniLM for DeepSeek router...")
-        _embedder = SentenceTransformer('all-MiniLM-L6-v2')
+        from backend.ai import model_hub
+        _embedder = model_hub.try_get() or model_hub.load_sync()
+    if _pt_embeddings is None:
         _pt_ids = list(PROBLEM_TYPE_DESCRIPTIONS.keys())
         _pt_descs = [PROBLEM_TYPE_DESCRIPTIONS[pt] for pt in _pt_ids]
         _pt_embeddings = _embedder.encode(_pt_descs, batch_size=32, normalize_embeddings=True)
-        logger.info(f"Loaded {len(_pt_ids)} problem type embeddings")
     return _embedder
 
 

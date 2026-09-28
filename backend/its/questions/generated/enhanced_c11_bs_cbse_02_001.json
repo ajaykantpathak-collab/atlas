@@ -16,8 +16,8 @@
      "self_check": true
     },
     {
-     "q": "Priya wants to start a freelance graphic design business from home with ₹20,000 capital. She values quick decisions, client confidentiality, and keeping all profits. However, she worries about business continuity if she gets sick. Analyse whether sole proprietorship is suitable for her. Justify with three features.",
-     "a": "Sole proprietorship is suitable. (1) Ease of formation/closure — she can start immediately with minimal formalities using ₹20,000. (2) Quick decision making & confidentiality — no partners to consult, client designs stay private. (3) Direct incentive — all profits are hers. The continuity concern (business stops if she's ill) is a *limitation* she must accept; it doesn't outweigh the merits for a small, skill-based, home-run venture. A partial answer missing the trade-off analysis shows inability to weigh features against context.",
+     "q": "Give the correct order of features a student should weigh when judging whether sole proprietorship suits Priya's home design venture.",
+     "a": "The reasoning runs: (1) The 20,000 rupee capital calls for the easiest and cheapest formation (2) Quick decisions and client confidentiality flow from single-person control (3) She keeps every rupee of profit as the direct incentive (4) The risk that illness stops the business is a limitation she accepts for full autonomy. A wrong answer that cites company-style continuity as automatic shows the student has missed that a sole proprietorship has no separate entity and no continuity beyond its owner.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Create a 3-column table: Column A = Feature of sole proprietorship, Column B = Real-world example (Indian context), Column C = Merits OR Limitation it creates. Fill 4 rows using different features.",
      "a": "| Feature | Example | Merit/Limitation |\n|---------|---------|------------------|\n| Ease of formation | Ramesh opens a tea stall in Delhi with ₹10,000, no registration | Merit: Low barrier to entry |\n| Unlimited liability | Anita's boutique fails; her personal scooter sold to pay ₹2 lakh debt | Limitation: Personal assets at risk |\n| Sole risk/profit recipient | Vikas's mobile repair shop earns ₹80,000/month — all his | Merit: Maximum incentive to work hard |\n| No separate entity | Police fine Rajesh's unregistered food cart; *he* pays, not \"the business\" | Limitation: No legal shield for owner |\n\nA table mixing features/merits/limitations incorrectly (e.g., listing \"unlimited liability\" as a merit) reveals confusion between the *feature* and its *consequence*.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sole ______ is a form of business organisation in which a single individual owns, manages, controls, and bears all risks of the enterprise while exclusively receiving all profits, with no legal distinction between the owner and the business entity.",
+     "a": "proprietorship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to start a home-based bakery selling custom cakes — you have ₹50,000 ______, baking skills, and want full control over recipes and pricing.",
+     "a": "savings",
+     "self_check": true
+    },
+    {
+     "q": "What is Sole proprietorship? State the definition given in this lesson.",
+     "a": "Sole proprietorship is a form of business organisation in which a single individual owns, manages, controls, and bears all risks of the enterprise while exclusively receiving all profits, with no legal distinction between the owner and the business entity.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Sole proprietorship?",
+     "a": "Students believe \"unlimited liability\" means the business has unlimited debts.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently identify all six features of sole proprietorship from a case study, explain each merit and limitation with a real-world example, and justify why a specific small business should or should not choose this form based on capital needs, risk appetite, and managerial capacity.",
      "self_check": true
     }
    ]

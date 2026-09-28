@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_12_011",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_12_011",
+   "title": "c12_soc_cbse_12_011",
+   "questions": [
+    {
+     "q": "Define 'circular migration' in the context of Indian industrial towns and explain how it differs from permanent rural-urban migration.",
+     "a": "Circular migration is a pattern where migrant workers move seasonally or periodically between their rural homes (source) and urban industrial worksites (destination), maintaining strong ties to the village — land, family, caste networks — and returning for agricultural cycles or festivals. Unlike permanent migration, the migrant does not seek urban citizenship; the village remains the primary social security base. A wrong answer (e.g., \"circular migration means daily commuting from suburb to factory\") reveals confusion between *commuting* (daily, fixed residence) and *circulation* (periodic, dual residence). This error misses the sociological significance: circular migration sustains the 'footloose' labour flexibility that keeps wages low in the informal sector.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT text states: \"From a nation of interfering joint families, the nature of work in a globalised economy is taking people in the direction of loneliness and vulnerability.\" Using the concept of 'social reproduction', explain why the growth of slums in industrial towns is a crisis of social reproduction, not just a housing shortage.",
+     "a": "Social reproduction refers to the daily and intergenerational work (cooking, cleaning, childcare, elder care, emotional support) that maintains and reproduces the labour power of workers. Slums represent a crisis of social reproduction because: (1) high density and lack of sanitation increase the *time and energy cost* of reproductive work (fetching water, queuing for toilets), disproportionately borne by women; (2) absence of creches/schools forces women out of the workforce or into precarious home-based work; (3) eviction threats destroy the social networks (neighbours, kin) that substitute for state welfare. A wrong answer focusing only on \"lack of pucca houses\" misses the gendered, relational dimension — slums are where the *hidden subsidy* of unpaid women's labour keeps industrial wages artificially low.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of 'informalisation of housing' to analyse the following scenario: A construction worker in Gurugram lives in a *jhuggi* (shanty) on the pavement near a metro station. The land belongs to a government agency. He pays ₹500/month \"rent\" to a local strongman who has no legal title. The city announces a \"slum-free\" drive. Trace the worker's vulnerability through three layers: tenure insecurity, political clientelism, and spatial mismatch.",
+     "a": "**Step 1: Tenure Insecurity** — The worker has no legal lease, only a verbal arrangement with a non-state actor. He cannot access bank loans, ration cards, or voter ID linked to this address. **Step 2: Political Clientelism** — The \"strongman\" (often a local politician's enforcer) extracts rent in exchange for *protection from eviction*. The worker's vote is captured; he cannot demand services. **Step 3: Spatial Mismatch** — The *jhuggi* is near the metro station (work access). Eviction to a resettlement colony 30km away (e.g., Baprola) destroys his livelihood — commute cost exceeds daily wage. The worker is trapped: staying risks demolition; moving risks unemployment. A wrong answer listing only \"he might be evicted\" fails to connect the *economic logic* (cheap labour needs cheap housing near work) with the *political logic* (slums as vote banks).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the housing trajectory of the Bombay textile mill worker (1940s–1980s) with that of a contemporary IT-sector migrant in Bengaluru (2000s–present). Use the concepts of 'employer-provided housing', 'chawl culture', and 'gated communities' to analyse how the *relationship between work and housing* has shifted from paternalism to market mediation.",
+     "a": "**Mill Worker (Paternalism):** Mills (e.g., Century, Bombay Dyeing) built chawls — single-room tenements with shared toilets — walking distance from the factory. Rent was deducted from wages. This created *chawl culture*: dense kin/community networks, union solidarity, shared festivals. Housing was a *deferred wage*, tying the worker to the employer. **IT Migrant (Market Mediation):** No employer housing. Worker rents in the open market — often a shared flat in a \"paying guest\" (PG) or a gated community apartment. High rent (30–50% of salary) forces sharing with strangers. No community bonds; gated communities enforce exclusion (no domestic workers' entry after 10 PM). **Shift:** Housing moved from a *production-side cost* (borne by capital to stabilise workforce) to a *reproduction-side burden* (borne by worker's wage). The mill worker's chawl was a site of class formation; the IT migrant's PG is a site of atomisation. A wrong answer saying \"both live in crowded conditions\" misses the structural shift: *who controls housing determines worker power*.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The conversion of Mumbai's mill lands into luxury housing (e.g., Lower Parel) is a natural outcome of market forces — the land is too valuable for worker housing.\" Use the 1991 Development Control Regulations (DCR 58) and the concept of 'accumulation by dispossession' (David Harvey) to support or refute.",
+     "a": "**Refutation.** This is not a \"natural market outcome\" but a *policy-enabled transfer* of public assets to private capital. **Step 1: DCR 58 (1991)** allowed mill owners to sell \"surplus\" land (after reserving 1/3 for MHADA housing, 1/3 for BMC open space) *only if* they modernised mills. Instead, owners closed mills, sold *all* land, and kept proceeds — violating the condition. **Step 2: Accumulation by Dispossession** — Publicly subsidised industrial land (granted at concessional rates for employment generation) was privatised via closure, displacing 2.5 lakh workers. The \"market value\" was created *by* the public infrastructure (roads, railways, ports) and the workers' labour. **Step 3: Outcome** — Luxury towers (e.g., Lodha Bellissimo) stand on land where chawls housed workers who *built* the city's wealth. The worker gets a distant transit camp; the capitalist gets rent-seeking asset appreciation. A wrong answer accepting \"market forces\" ignores the *state's active role* in changing land-use rules to favour capital — a classic case of policy capture, not invisible hand.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sociological research question to study the impact of the *Maharashtra Housing and Area Development Authority (MHADA) lottery system* for mill worker housing on the *caste composition* of Girangaon's remaining chawls. Specify: (a) hypothesis, (b) two variables to measure, (c) one qualitative method, and (d) one ethical challenge.",
+     "a": "**Research Question:** \"How has the MHADA lottery-based allocation of tenements in redeveloped mill lands (2000–present) altered the caste-residential geography of Girangaon's historic chawls?\"  \n**(a) Hypothesis:** The lottery system, by individualising allocation (breaking the joint-family/collective claim), disproportionately benefits dominant-caste (Maratha, Brahmin) households with better paperwork and political access, accelerating the out-migration of Dalit/Bahujan families to peripheral slums, thereby *re-segregating* a historically mixed working-class neighbourhood.  \n**(b) Variables:** (1) Caste category of household head (SC/ST/OBC/General) pre- and post-lottery in a sample chawl; (2) Tenure status (original tenant / lottery allottee / sub-tenant / evicted).  \n**(c) Qualitative Method:** Life-history interviews with 3 generations of a Dalit family in a chawl — tracing their migration (1950s), union participation (1970s), strike experience (1982), and current lottery outcome — to capture *subjective experience* of dispossession.  \n**(d) Ethical Challenge:** Researcher's presence may be seen as \"surveillance\" by residents fearing eviction; informed consent must include explicit guarantee that data will not be shared with MHADA, police, or political parties. A poor answer proposing a \"survey of satisfaction levels\" misses the *power/caste* axis and treats residents as beneficiaries, not rights-holders.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______-driven urbanisation refers to the process where the concentration of factories and industries in specific geographic areas attracts large-scale rural-to-urban migration, leading to the rapid, often unplanned growth of industrial towns characterised by a severe shortage of affordable housing, sanitation, and infrastructure, resulting in the proliferation of slums where the industrial working class resides in precarious conditions.",
+     "a": "Industrialisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing in Girangaon (Mumbai) in 1980: the air hums with 60 textile mills, and chawls house ______ of mill workers who built the city.",
+     "a": "generations",
+     "self_check": true
+    },
+    {
+     "q": "What is Industrialisation-driven urbanisation? State the definition given in this lesson.",
+     "a": "Industrialisation-driven urbanisation refers to the process where the concentration of factories and industries in specific geographic areas attracts large-scale rural-to-urban migration, leading to the rapid, often unplanned growth of industrial towns characterised by a severe shortage of affordable housing, sanitation, and.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) explain the push-pull factors linking industrial location, migration streams, and the spatial segregation of industrial towns into elite enclaves and slums using the concepts of 'informalisation of housing' and 'circular migration'; (2) critically evaluate the Bombay Textile Strike (1982) and the shift of.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_02_006",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_02_006",
+   "title": "c12_leg_cbse_02_006",
+   "questions": [
+    {
+     "q": "What is the key legal distinction between an arbitral award under the Arbitration and Conciliation Act, 1996, and a settlement agreement reached through Mediation, in terms of enforceability?",
+     "a": "An arbitral award is directly enforceable as a court decree under Section 36 of the Arbitration and Conciliation Act, 1996, without needing a separate contract. A mediation settlement is not automatically binding — it becomes enforceable only when reduced to a written agreement signed by parties, which then operates as a contract (Section 73, Arbitration and Conciliation Act). A wrong answer (e.g., \"both are equally binding\") reveals confusion between adjudicatory (Arbitration) and facilitative (Mediation) ADR mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "In the BALCO v. Kaiser (2012) judgment, the Supreme Court held that Part I of the Arbitration Act does not apply to foreign-seated arbitrations. How did the 2015 Amendment Act change this position regarding interim relief under Section 9?",
+     "a": "The 2015 Amendment inserted a proviso to Section 2(2) stating that Section 9 (interim measures by courts) applies even to international commercial arbitrations seated outside India, unless parties agree otherwise. This overrules BALCO to the extent it denied Indian courts power to grant interim relief in foreign-seated arbitrations. A wrong answer (e.g., \"BALCO still applies fully\") shows failure to track legislative overrides of judicial precedent — a key competitive exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A consumer buys a defective washing machine from an e-commerce platform. The platform's terms mandate \"arbitration in Delhi under ICC rules\". The consumer wants to approach the Consumer Commission instead. Can the consumer bypass the arbitration clause? Why or why not?",
+     "a": "No, the consumer cannot bypass the arbitration clause if it is valid and covers the dispute — Section 8 of the Arbitration Act mandates judicial referral to arbitration when a valid arbitration agreement exists. However, the Supreme Court in *M/s. Emaar MGF Land Ltd. v. Aashish Kumar* (2023) held that consumer disputes are arbitrable, but the Consumer Protection Act, 2019 does not oust arbitration. A wrong answer (e.g., \"consumer can always go to Consumer Commission\") reveals misunderstanding of the interplay between special statutes (Consumer Protection Act) and the Arbitration Act — a frequent board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of a Conciliator under the Arbitration and Conciliation Act, 1996, with that of a Mediator under the Mediation Bill, 2021 (now Mediation Act, 2023), focusing on their power to propose solutions and the binding nature of outcomes.",
+     "a": "A Conciliator under Section 67(4) of the 1996 Act may \"make proposals for a settlement of the dispute\" and the settlement agreement has the status of an arbitral award (Section 73) — directly enforceable as a decree. A Mediator under the Mediation Act, 2023, facilitates but cannot impose solutions; the mediated settlement agreement is enforceable as a court decree only after registration under Section 27. A wrong answer (e.g., \"both have same powers\") shows inability to distinguish interventionist (Conciliation) vs. purely facilitative (Mediation) roles — critical for application-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"Permanent Lok Adalats for public utility services under the 2002 Amendment to the Legal Services Authorities Act are more effective than regular Lok Adalats because they can decide disputes on merits if conciliation fails.\" Support your answer with statutory provisions.",
+     "a": "The statement is partially correct but incomplete. Permanent Lok Adalats (PLA) under Section 22B *can* decide on merits if parties fail to settle (Section 22C(3)), and their award is final and deemed a civil court decree (Section 22E). However, PLAs have limited jurisdiction — only \"public utility services\" (Section 22A: transport, postal, power, water, sanitation, hospital, insurance). Regular Lok Adalats under Section 19 have wider jurisdiction (any pending/pre-litigation civil/compoundable criminal case) but *cannot* decide on merits — they only record settlements. A wrong answer (e.g., \"PLAs are better in all cases\") reveals lack of jurisdictional nuance — a common error in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a dispute resolution clause for a joint venture between an Indian pharma company and a German research firm. The clause must: (a) ensure enforceability in both India and Germany, (b) allow interim relief in India during arbitration, (c) preserve business relationship. Specify the ADR mechanism, seat, governing law, and institutional rules — and justify each choice.",
+     "a": "A strong clause: \"Disputes shall be resolved by arbitration under the ICC Rules, seat: Singapore, governing law: Indian law, language: English. Parties may seek interim relief under Section 9 of the Indian Arbitration Act in Indian courts. Prior to arbitration, parties shall attempt mediation under the Mediation Act, 2023.\" Justification: (a) Singapore seat + ICC rules + Indian law = enforceable under New York Convention in both countries; (b) 2015 Amendment to Section 2(2) allows Section 9 relief in India even for foreign-seated arbitration; (c) Mediation first preserves relationship. A poor answer (e.g., \"arbitration in Delhi under Indian law\") ignores cross-border enforcement risks and BALCO/2015 Amendment nuances.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

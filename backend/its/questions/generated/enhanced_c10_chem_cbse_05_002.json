@@ -34,6 +34,26 @@
      "q": "Design a simple card-sorting activity for Class 9 students to demonstrate why Newlands' octaves fail after calcium. Specify the cards, the sorting rule, and the observation that reveals the failure.",
      "a": "Expected answer: Cards: Element symbols with atomic weights (H=1 to Zn=65). Rule: Arrange in rows of 7 by increasing atomic weight. Observation: Up to Ca (20), elements in same column show similar properties (e.g., Li/Na/K). After Ca, Fe (56), Co (59), Ni (59) get forced into wrong columns — Co/Ni share a slot, Fe falls with halogens. A poor activity uses only 20 cards or doesn't show the Co/Ni collision, missing the core failure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Newlands' Law of Octaves states that when elements are arranged in order of ______ atomic weights, the physical and chemical properties of every eighth element repeat, similar to the repetition of notes in a musical octave.",
+     "a": "increasing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are organizing your spice rack: you notice that every eighth spice jar has a ______ aroma — turmeric, then seven others, then cumin smells earthy like turmeric.",
+     "a": "similar",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state Newlands' Law of Octaves precisely, arrange the first 20 elements into octaves showing the repetition of properties, and explain at least three specific limitations with concrete examples (e.g., Co/Ni placement, failure beyond calcium, assumption of fixed number of elements).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ your spice rack: you notice that every eighth spice jar has a similar aroma — turmeric, then seven others, then cumin smells earthy like turmeric.",
+     "a": "organizing",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a hybrid topology for a university campus that uses ring topology at the building level and mesh topology at the core. Describe how traffic flows from a host in Building A to a host in Building B, and explain why this hybrid leverages strengths of both.",
      "a": "Each building uses a dual-ring (fiber) connecting floor switches — low cost, deterministic latency, self-healing within building. Core layer connects building aggregation switches in a partial mesh (e.g., each building connects to 2-3 core switches) providing multiple inter-building paths. Traffic: host → access switch → building ring → aggregation switch → core mesh (shortest path) → destination building ring → access switch → host. This hybrid uses ring's economy and simplicity at edge, mesh's resilience at core. A poor answer that just says \"connect rings with mesh\" without describing traffic flow or justifying the split shows lack of synthesis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ring topology connects each node to exactly two neighbors forming a closed loop where data travels ______ (or bidirectionally in dual-ring) via token passing; mesh topology connects every node directly to every other node (full mesh) or to a subset (partial mesh) providing multiple redundant paths.",
+     "a": "unidirectionally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a network for a new metro rail control system that must never go down — which topology would you choose and why?",
+     "a": "designing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: (______) Simulate a single cable break in each — what happens to connectivity?",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can systematically compare ring and mesh topologies across at least five parameters (structure, fault tolerance, scalability, installation/maintenance cost, typical applications) and justify which topology suits a given real-world scenario (e.g., small office vs. backbone network).",
+     "self_check": true
     }
    ]
   }

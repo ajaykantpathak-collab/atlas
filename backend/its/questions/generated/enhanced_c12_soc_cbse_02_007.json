@@ -1,0 +1,71 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_02_007",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_02_007",
+   "title": "c12_soc_cbse_02_007",
+   "questions": [
+    {
+     "q": "What is the dependency ratio and how is it calculated?",
+     "a": "The dependency ratio = (Population aged 0‑14 + Population aged 65+) ÷ Population aged 15‑64 × 100. It measures the number of dependents per 100 working‑age persons. A wrong answer (e.g., using 60+ instead of 65+, or reversing numerator/denominator) shows the student confuses the definition of working‑age group or the direction of the ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the NCERT text say the demographic dividend is “temporary”?",
+     "a": "The dividend is temporary because the large working‑age cohort will eventually age into the 65+ group, raising the dependency ratio again. If a student says “it ends when fertility falls” or “it lasts forever”, they misunderstand that the dividend is a *phase* in the demographic transition, not a permanent state.",
+     "self_check": true
+    },
+    {
+     "q": "Using the data in Table 2, calculate the dependency ratio for India in 2001 and 2026 (projected). Interpret the change.",
+     "a": "2001: 0‑14 = 34%, 60+ = 7% → dependents = 41%; working‑age (15‑59) = 59%. Dependency ratio = 41/59 × 100 ≈ 69.5. 2026: 0‑14 = 23%, 60+ = 12% → dependents = 35%; working‑age = 64%. Dependency ratio = 35/64 × 100 ≈ 54.7. The fall from ~70 to ~55 shows a widening dividend window. A student who uses 65+ instead of 60+ (NCERT uses 60+ for India) or forgets to multiply by 100 reveals a mechanical error in applying the formula.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the age‑structure pyramids of Kerala and Uttar Pradesh projected for 2026 (Chart 4). What do the differences imply for state‑level policy priorities?",
+     "a": "Kerala’s pyramid is narrower at the base and wider at the top → lower fertility, ageing population → policy focus on geriatric care, pension sustainability, and attracting migrant workers. Uttar Pradesh’s pyramid has a wide base → high fertility, large youth cohort → policy focus on education, skill‑building, and job creation. A student who only describes the shapes without linking to policy implications fails to analyse the *consequences* of age structure.",
+     "self_check": true
+    },
+    {
+     "q": "“India’s demographic dividend will automatically boost GDP growth because we have a young population.” Evaluate this statement using evidence from the text.",
+     "a": "The statement is false. Box 2.3 explicitly states: “changing age structure by itself cannot guarantee any benefits unless it is properly utilised through planned development.” The text cites falling employment growth (0.7% rural, 0.3% urban for 15‑30 age group) and low education levels as reasons the dividend may be missed. A student who agrees with the statement ignores the conditional nature of the dividend.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one‑page policy brief for a state government (choose either Kerala or Uttar Pradesh) that outlines three concrete steps to harness or manage its demographic situation in the next decade.",
+     "a": "A good brief for Uttar Pradesh would include: (1) massive investment in secondary/vocational education to skill the youth bulge, (2) labour‑intensive manufacturing incentives to absorb workers, (3) targeted family‑planning outreach to accelerate fertility decline. For Kerala: (1) expand geriatric healthcare and social security, (2) promote female labour‑force participation to offset shrinkage, (3) create pathways for inter‑state migrant workers. A weak answer lists generic “education and jobs” without tailoring to the state’s specific age structure.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Age structure refers to the proportion of persons in different age groups relative to the total population; the ______ dividend is the economic growth potential that arises when the working-age population (15–64 years) grows larger relative to the dependent population (0–14 and 65+), lowering the dependency ratio, provided this workforce is educated, skilled, and employed.",
+     "a": "demographic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a policy advisor asked: “India’s average age is 29 — is that an automatic guarantee of economic growth?” Start by defining age structure and ______ ratio using the formula.",
+     "a": "dependency",
+     "self_check": true
+    },
+    {
+     "q": "What is Age structure? State the definition given in this lesson.",
+     "a": "Age structure refers to the proportion of persons in different age groups relative to the total population; the demographic dividend is the economic growth potential that arises when the working-age population (15–64 years) grows larger relative to the dependent population (0–14 and 65+), lowering the dependency ratio, provided this.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a policy advisor asked: “India’s average age is ______ — is that an automatic guarantee of economic growth?” Start by defining age structure and dependency ratio using the formula.",
+     "a": "29",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Age structure?",
+     "a": "Students often equate “demographic dividend” with “population growth” or assume a young population *guarantees* economic growth.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) calculate and interpret the dependency ratio from given age-group data, (2) explain why a falling dependency ratio creates a time-bound window for economic growth, and (3) analyse why the dividend is not automatic — linking it to education, employment generation, and regional disparities (e.g., Kerala vs.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

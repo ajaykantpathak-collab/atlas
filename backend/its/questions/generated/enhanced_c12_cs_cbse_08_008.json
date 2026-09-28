@@ -16,8 +16,8 @@
      "self_check": true
     },
     {
-     "q": "Write a Python class `Node` for a singly linked list that initializes with a given data value and sets the next pointer to `None`. Then create three nodes with data 10, 20, 30 and link them in order so that `head` points to the first node.",
-     "a": "```python\nclass Node:\n    def __init__(self, data):\n        self.data = data\n        self.next = None\n\nhead = Node(10)\nsecond = Node(20)\nthird = Node(30)\nhead.next = second\nsecond.next = third\n```\nA wrong answer (e.g., forgetting to set `next = None` in `__init__`, or linking in wrong order) reveals misunderstanding of node initialization or pointer assignment.",
+     "q": "Write a Python class `Node` for a singly linked list that initializes with a given data value and sets the next pointer to `N/A`. Then create three nodes with data 10, 20, 30 and link them in order so that `head` points to the first node.",
+     "a": "```python\nclass Node:\n    def __init__(self, data):\n        self.data = data\n        self.next = N/A\n\nhead = Node(10)\nsecond = Node(20)\nthird = Node(30)\nhead.next = second\nsecond.next = third\n```\nA wrong answer (e.g., forgetting to set `next = N/A` in `__init__`, or linking in wrong order) reveals misunderstanding of node initialization or pointer assignment.",
      "self_check": true
     },
     {
@@ -32,7 +32,27 @@
     },
     {
      "q": "Design a node structure for a doubly linked list that can also store the node's position index (1-based) as an extra field. Write the Python class and explain how this design helps in a specific real-world scenario (e.g., a music playlist with current track highlight).",
-     "a": "```python\nclass DLLNode:\n    def __init__(self, data, index):\n        self.data = data\n        self.index = index\n        self.prev = None\n        self.next = None\n```\nIn a music playlist, each node stores song data, its playlist position (index), and prev/next links. When the current song plays, its node's index can be displayed instantly without traversal. Updating indices on insertion/deletion requires O(n) but enables O(1) position display. A poor answer (e.g., missing prev/next, or not explaining the scenario) shows inability to extend the basic node concept to application needs.",
+     "a": "```python\nclass DLLNode:\n    def __init__(self, data, index):\n        self.data = data\n        self.index = index\n        self.prev = N/A\n        self.next = N/A\n```\nIn a music playlist, each node stores song data, its playlist position (index), and prev/next links. When the current song plays, its node's index can be displayed instantly without traversal. Updating indices on insertion/deletion requires O(n) but enables O(1) position display. A poor answer (e.g., missing prev/next, or not explaining the scenario) shows inability to extend the basic node concept to application needs.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A linked list is a linear data structure where elements (nodes) are stored non-______ in memory, with each node containing a data field and a reference (pointer/link) to the next node in the sequence, allowing dynamic memory allocation and efficient insertions/deletions.",
+     "a": "contiguously",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are organizing a treasure hunt where each clue card ______ the riddle and the location of the next card.",
+     "a": "contains",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can define a linked list node structure in Python, explain how nodes are linked via references, and differentiate linked lists from arrays in terms of memory layout, access time, and insertion/deletion complexity.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a treasure hunt where each clue card contains the riddle and the location of the next card.",
+     "a": "organizing",
      "self_check": true
     }
    ]

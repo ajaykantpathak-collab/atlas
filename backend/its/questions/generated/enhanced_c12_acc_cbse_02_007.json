@@ -34,6 +34,21 @@
      "q": "Create a short case: A firm has three partners (A, B, C) sharing profits 5:3:2. They admit D. The Balance Sheet shows: General Reserve ₹1,50,000, Investment Fluctuation Reserve ₹40,000 (investment book value ₹2,00,000, market value ₹1,90,000), and P&L A/c (Dr.) ₹25,000. Write the **complete journal entries** for adjusting these items on admission, showing all workings.",
      "a": "**Expected answer criteria:**  \n1. Identify Investment Fluctuation Reserve excess: Book value ₹2,00,000 – Market value ₹1,90,000 = ₹10,000 loss → Reserve after adjustment = ₹40,000 – ₹10,000 = ₹30,000 distributable.  \n2. Total distributable reserve = General Reserve ₹1,50,000 + Investment Fluctuation Reserve (net) ₹30,000 = ₹1,80,000.  \n3. Old ratio = 5:3:2 → Total 10 parts.  \n4. Distribution: A = 5/10 × 1,80,000 = 90,000; B = 3/10 × 1,80,000 = 54,000; C = 2/10 × 1,80,000 = 36,000.  \n5. P&L loss distribution: A = 5/10 × 25,000 = 12,500; B = 7,500; C = 5,000.  \n6. Journal entries:  \n General Reserve A/c Dr. 1,50,000  \n Investment Fluctuation Reserve A/c Dr. 30,000  \n  To A’s Capital A/c 90,000  \n  To B’s Capital A/c 54,000  \n  To C’s Capital A/c 36,000  \n A’s Capital A/c Dr. 12,500  \n B’s Capital A/c Dr. 7,500  \n C’s Capital A/c Dr. 5,000  \n  To Profit & Loss A/c 25,000  \n (Plus entry for investment loss if not already adjusted: Revaluation A/c Dr. 10,000 → Investment A/c 10,000)  \n\n**Why poor answers reveal misunderstanding:** Missing the investment fluctuation reserve adjustment, using new ratio, or crediting D’s capital shows lack of conceptual clarity on *what constitutes accumulated profit* and *who owns it*.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Adjustment of accumulated profits, reserves and losses on admission refers to the process of ______ the credit balances of reserves (like General Reserve, Reserve Fund) and debit balances of Profit & Loss Account among the old partners in their old profit sharing ratio before the new partner is admitted, so that the new partner does not share in profits earned or losses incurred prior to admission.",
+     "a": "distributing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and your friend run a ______ firm and have built up a General Reserve of ₹50,000 over three years.",
+     "a": "partnership",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) identify which accumulated items belong to old partners, (2) pass correct journal entries for distribution of reserves and losses in the old profit sharing ratio, and (3) explain why the new partner is excluded from such distribution.",
+     "self_check": true
     }
    ]
   }

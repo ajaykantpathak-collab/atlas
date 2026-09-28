@@ -34,6 +34,36 @@
      "q": "Design a Management by Exception control system for a small restaurant chain (5 outlets) monitoring three key parameters: food cost %, customer wait time, and hygiene audit score. Specify standards, permissible ranges, reporting frequency, and who receives exception reports.",
      "a": "Example design: Standard food cost 30% ±2% (report to owner if >32% or <28%); wait time 15 min ±5 min (report to regional manager if >20 min); hygiene score 90/100 ±5 (report to owner if <85). Weekly automated POS reports flag exceptions; outlet managers handle within-range issues. A poor answer lacks specific numbers, permissible ranges, or clear escalation hierarchy, showing inability to translate the principle into operational design.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Management by Exception is a control principle stating that managers should focus their attention only on ______ deviations that exceed permissible limits, rather than attempting to monitor and control every single activity.",
+     "a": "significant",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the CEO of a mid-sized ______ company in Surat with 500 employees.",
+     "a": "textile",
+     "self_check": true
+    },
+    {
+     "q": "What is Management by Exception? State the definition given in this lesson.",
+     "a": "Management by Exception is a control principle stating that managers should focus their attention only on significant deviations that exceed permissible limits, rather than attempting to monitor and control every single activity.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It operates on the belief that \"an attempt to control everything results in controlling nothing.\" Imagine you are the CEO of a mid-sized textile company in Surat with ______ employees.",
+     "a": "500",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Management by Exception?",
+     "a": "Students often believe Management by Exception means \"ignore small deviations\" or \"only care about big problems.\" In reality, small deviations are *not ignored* — they are handled by lower-level managers as part of routine operations.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) explain the principle of Management by Exception in their own words, (2) distinguish between routine deviations (handled by subordinates) and exceptional deviations (requiring top management intervention), and (3) apply the concept to a given business scenario by identifying which deviations should be.",
+     "self_check": true
     }
    ]
   }

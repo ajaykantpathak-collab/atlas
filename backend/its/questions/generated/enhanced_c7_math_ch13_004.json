@@ -34,6 +34,26 @@
      "q": "Create a data set of four whole numbers whose mean is exactly 12, where no two numbers in the set are identical.",
      "a": "An acceptable answer is {8, 10, 14, 16}, because their sum is 8 + 10 + 14 + 16 = 48, and 48 / 4 = 12, with all unique numbers. A poor answer gives numbers with a sum not divisible by 4, or repeats numbers when uniqueness was requested, showing a failure to work backward from a target mean.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The mean (or arithmetic mean) of a data set is a single ______ value calculated by taking the sum of all the observations in the data set and dividing that total by the total number of observations.",
+     "a": "representative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine Rahul and his four ______ collect cricket cards.",
+     "a": "friends",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can correctly compute the arithmetic mean from a raw data set, interpret what the mean signifies in a real-world context, and determine a missing data value given the mean and other observations.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ Rahul and his four friends collect cricket cards.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

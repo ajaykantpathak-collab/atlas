@@ -34,6 +34,36 @@
      "q": "Create a real-world scenario where subtracting a negative integer is the only way to describe the situation.",
      "a": "A good answer involves temperature or altitude, like \"The temperature rose from -10°C to -2°C.\" A poor answer uses only positive numbers, showing the student has not mastered the concept of numbers below zero.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Subtraction of integers is the ______ operation of finding the difference between two integers, which is equivalent to adding the additive inverse (the opposite) of the number being subtracted.",
+     "a": "mathematical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in a ______ with a lift that goes both above and below the ground floor (0).",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "What is Subtraction of integers? State the definition given in this lesson.",
+     "a": "Subtraction of integers is the mathematical operation of finding the difference between two integers, which is equivalent to adding the additive inverse (the opposite) of the number being subtracted.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in a building with a lift that goes both above and below the ground floor (______).",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Subtraction of integers?",
+     "a": "Students often treat the subtraction sign as a \"remove\" instruction only, failing to realize that subtracting a negative number acts like adding.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to convert any subtraction expression into an addition expression using the rule \"a - b = a + (-b)\" and solve it accurately using a number line or token model.",
+     "self_check": true
     }
    ]
   }

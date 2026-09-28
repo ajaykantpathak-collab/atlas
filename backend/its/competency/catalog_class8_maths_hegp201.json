@@ -24,9 +24,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "multiply the fraction by 100",
+    {
+     "step": 1,
+     "action": "multiply the fraction by 100",
      "explain": "Multiplying the part-to-whole fraction by 100 reads it per hundred.",
-     "compute": "percent = part / whole * 100"}
+     "compute": "percent = part / whole * 100"
+    }
    ]
   },
   {
@@ -47,12 +50,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "turn the percent into a fraction",
+    {
+     "step": 1,
+     "action": "turn the percent into a fraction",
      "explain": "Divide the percentage by 100.",
-     "compute": "frac = pct / 100"},
-    {"step": 2, "action": "multiply by the quantity",
+     "compute": "frac = pct / 100"
+    },
+    {
+     "step": 2,
+     "action": "multiply by the quantity",
      "explain": "The fraction of the whole is the required amount.",
-     "compute": "amount = frac * quantity"}
+     "compute": "amount = frac * quantity"
+    }
    ]
   },
   {
@@ -71,15 +80,33 @@
     "calculate the percentage of badam powder from a label of 40 g in a 200 g pack",
     "check whether the ingredient percentages of a product add up to 100"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "convert each score to a percentage",
-     "explain": "Divide the marks by the maximum and multiply by 100."},
-    {"step": 2, "action": "compare the percentages",
-     "explain": "The larger percentage marks the better performance because both now share the same hundred-base."},
-    {"step": 3, "action": "state the conclusion",
-     "explain": "Science at 87.5 percent exceeds English at 84 percent, so the Science score is better."}
-   ]
+    {
+     "step": 1,
+     "action": "convert each score to a percentage",
+     "explain": "Divide the marks by the maximum and multiply by 100."
+    },
+    {
+     "step": 2,
+     "action": "compare the percentages",
+     "explain": "The larger percentage marks the better performance because both now share the same hundred-base."
+    },
+    {
+     "step": 3,
+     "action": "state the conclusion",
+     "explain": "Science at 87.5 percent exceeds English at 84 percent, so the Science score is better."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "convert the percentage to a fraction and multiply",
+     "explain": "convert the percentage to a fraction and multiply: val = 15 / 100 * 400 gives 60",
+     "compute": "val = 15 / 100 * 400"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hegp.201.1.4",
@@ -99,12 +126,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "find the amount of change",
+    {
+     "step": 1,
+     "action": "find the amount of change",
      "explain": "Subtract the old value from the new one.",
-     "compute": "change = new - old"},
-    {"step": 2, "action": "divide by the original and take percent",
+     "compute": "change = new - old"
+    },
+    {
+     "step": 2,
+     "action": "divide by the original and take percent",
      "explain": "The base is always the original amount.",
-     "compute": "change_pct = change / old * 100"}
+     "compute": "change_pct = change / old * 100"
+    }
    ]
   },
   {
@@ -123,15 +156,33 @@
     "why does p plus 65 percent of p equal 1.65 times p",
     "rewrite 120 percent of the old value as an increase percentage"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "write the percent-of equation",
-     "explain": "q = 165/100 x p comes from the first statement."},
-    {"step": 2, "action": "write the increase equation",
-     "explain": "q = p + 65/100 x p from the second statement."},
-    {"step": 3, "action": "simplify both to 1.65 p",
-     "explain": "Both voices give the same multiplier, so the statements agree."}
-   ]
+    {
+     "step": 1,
+     "action": "write the percent-of equation",
+     "explain": "q = 165/100 x p comes from the first statement."
+    },
+    {
+     "step": 2,
+     "action": "write the increase equation",
+     "explain": "q = p + 65/100 x p from the second statement."
+    },
+    {
+     "step": 3,
+     "action": "simplify both to 1.65 p",
+     "explain": "Both voices give the same multiplier, so the statements agree."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "convert the percentage to a fraction and multiply",
+     "explain": "convert the percentage to a fraction and multiply: val = 40 / 100 * 40 gives 16",
+     "compute": "val = 40 / 100 * 40"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hegp.201.1.6",
@@ -151,12 +202,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "find the profit",
+    {
+     "step": 1,
+     "action": "find the profit",
      "explain": "Subtract the cost price from the selling price.",
-     "compute": "profit = selling - cost"},
-    {"step": 2, "action": "take it as a percent of cost",
+     "compute": "profit = selling - cost"
+    },
+    {
+     "step": 2,
+     "action": "take it as a percent of cost",
      "explain": "Divide by the cost price and multiply by 100.",
-     "compute": "profit_pct = profit / cost * 100"}
+     "compute": "profit_pct = profit / cost * 100"
+    }
    ]
   },
   {
@@ -177,12 +234,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "take the discount amount off the marked price",
+    {
+     "step": 1,
+     "action": "take the discount amount off the marked price",
      "explain": "Subtract the discount from the quoted price.",
-     "compute": "selling = marked - discount"},
-    {"step": 2, "action": "read the discount percent if asked",
+     "compute": "selling = marked - discount"
+    },
+    {
+     "step": 2,
+     "action": "read the discount percent if asked",
      "explain": "Discount divided by marked price times 100 gives the rate.",
-     "compute": "discount_pct = discount / marked * 100"}
+     "compute": "discount_pct = discount / marked * 100"
+    }
    ]
   }
  ],
@@ -198,9 +261,12 @@
     "whole": "denominator of the fraction"
    },
    "solution_template": [
-    {"step": 1, "action": "multiply the fraction by 100",
+    {
+     "step": 1,
+     "action": "multiply the fraction by 100",
      "explain": "Reading the fraction per hundred gives its percentage.",
-     "compute": "percent = part / whole * 100"}
+     "compute": "percent = part / whole * 100"
+    }
    ]
   },
   {
@@ -214,9 +280,12 @@
     "whole": "maximum marks"
    },
    "solution_template": [
-    {"step": 1, "action": "divide and scale to hundred",
+    {
+     "step": 1,
+     "action": "divide and scale to hundred",
      "explain": "Marks over maximum times 100 gives the score percent.",
-     "compute": "percent = part / whole * 100"}
+     "compute": "percent = part / whole * 100"
+    }
    ]
   },
   {
@@ -230,12 +299,18 @@
     "quantity": "biscuit weight in grams"
    },
    "solution_template": [
-    {"step": 1, "action": "turn the percent into a fraction",
+    {
+     "step": 1,
+     "action": "turn the percent into a fraction",
      "explain": "pct over 100 is the sugar fraction.",
-     "compute": "frac = pct / 100"},
-    {"step": 2, "action": "multiply by the biscuit weight",
+     "compute": "frac = pct / 100"
+    },
+    {
+     "step": 2,
+     "action": "multiply by the biscuit weight",
      "explain": "The fraction of the weight is the sugar amount.",
-     "compute": "amount = frac * quantity"}
+     "compute": "amount = frac * quantity"
+    }
    ]
   },
   {
@@ -249,12 +324,18 @@
     "quantity": "the whole quantity"
    },
    "solution_template": [
-    {"step": 1, "action": "turn the percent into a fraction",
+    {
+     "step": 1,
+     "action": "turn the percent into a fraction",
      "explain": "Divide pct by 100.",
-     "compute": "frac = pct / 100"},
-    {"step": 2, "action": "multiply by the whole",
+     "compute": "frac = pct / 100"
+    },
+    {
+     "step": 2,
+     "action": "multiply by the whole",
      "explain": "The product is the required part.",
-     "compute": "amount = frac * quantity"}
+     "compute": "amount = frac * quantity"
+    }
    ]
   },
   {
@@ -268,12 +349,18 @@
     "new": "new price"
    },
    "solution_template": [
-    {"step": 1, "action": "find the increase",
+    {
+     "step": 1,
+     "action": "find the increase",
      "explain": "Subtract the old price from the new price.",
-     "compute": "change = new - old"},
-    {"step": 2, "action": "divide by the original price",
+     "compute": "change = new - old"
+    },
+    {
+     "step": 2,
+     "action": "divide by the original price",
      "explain": "Change over original times 100 is the percent rise.",
-     "compute": "change_pct = change / old * 100"}
+     "compute": "change_pct = change / old * 100"
+    }
    ]
   },
   {
@@ -287,12 +374,18 @@
     "new": "footfall now"
    },
    "solution_template": [
-    {"step": 1, "action": "find the decrease",
+    {
+     "step": 1,
+     "action": "find the decrease",
      "explain": "Subtract the new value from the old.",
-     "compute": "change = new - old"},
-    {"step": 2, "action": "divide by the original",
+     "compute": "change = new - old"
+    },
+    {
+     "step": 2,
+     "action": "divide by the original",
      "explain": "Percent decrease uses the earlier value as base.",
-     "compute": "change_pct = change / old * 100"}
+     "compute": "change_pct = change / old * 100"
+    }
    ]
   },
   {
@@ -306,12 +399,18 @@
     "selling": "selling price in rupees"
    },
    "solution_template": [
-    {"step": 1, "action": "find the profit",
+    {
+     "step": 1,
+     "action": "find the profit",
      "explain": "Selling price minus cost price.",
-     "compute": "profit = selling - cost"},
-    {"step": 2, "action": "percent on cost",
+     "compute": "profit = selling - cost"
+    },
+    {
+     "step": 2,
+     "action": "percent on cost",
      "explain": "Profit divided by cost times 100.",
-     "compute": "profit_pct = profit / cost * 100"}
+     "compute": "profit_pct = profit / cost * 100"
+    }
    ]
   },
   {
@@ -325,12 +424,18 @@
     "selling": "selling price"
    },
    "solution_template": [
-    {"step": 1, "action": "find the gain or loss",
+    {
+     "step": 1,
+     "action": "find the gain or loss",
      "explain": "Selling minus cost turns negative in a loss.",
-     "compute": "profit = selling - cost"},
-    {"step": 2, "action": "percent on cost",
+     "compute": "profit = selling - cost"
+    },
+    {
+     "step": 2,
+     "action": "percent on cost",
      "explain": "A negative percent signals loss on the cost price.",
-     "compute": "profit_pct = profit / cost * 100"}
+     "compute": "profit_pct = profit / cost * 100"
+    }
    ]
   },
   {
@@ -344,12 +449,18 @@
     "discount": "discount in rupees"
    },
    "solution_template": [
-    {"step": 1, "action": "subtract the discount",
+    {
+     "step": 1,
+     "action": "subtract the discount",
      "explain": "Selling price equals marked price minus discount.",
-     "compute": "selling = marked - discount"},
-    {"step": 2, "action": "find the discount rate if needed",
+     "compute": "selling = marked - discount"
+    },
+    {
+     "step": 2,
+     "action": "find the discount rate if needed",
      "explain": "Discount over marked price times 100.",
-     "compute": "discount_pct = discount / marked * 100"}
+     "compute": "discount_pct = discount / marked * 100"
+    }
    ]
   },
   {
@@ -363,12 +474,18 @@
     "selling": "selling price after discount"
    },
    "solution_template": [
-    {"step": 1, "action": "find the discount",
+    {
+     "step": 1,
+     "action": "find the discount",
      "explain": "Marked price minus selling price.",
-     "compute": "discount = marked - selling"},
-    {"step": 2, "action": "percent on marked price",
+     "compute": "discount = marked - selling"
+    },
+    {
+     "step": 2,
+     "action": "percent on marked price",
      "explain": "Discount over marked times 100 gives the rate.",
-     "compute": "discount_pct = discount / marked * 100"}
+     "compute": "discount_pct = discount / marked * 100"
+    }
    ]
   }
  ],

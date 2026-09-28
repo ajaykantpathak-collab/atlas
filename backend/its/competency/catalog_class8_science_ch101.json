@@ -53,7 +53,16 @@
      "explain": "Total water volume is the product of field area and required depth.",
      "compute": "total_water = area * depth"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "water_needed = area * depth_per_unit_area",
+     "compute": "water_needed = area * depth_per_unit_area"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hesc.1.8.1",
@@ -78,7 +87,16 @@
      "explain": "Total production is calculated by multiplying the land area by the yield per acre.",
      "compute": "total_yield = area * yield_per_acre"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_yield = area * yield_per_acre",
+     "compute": "total_yield = area * yield_per_acre"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

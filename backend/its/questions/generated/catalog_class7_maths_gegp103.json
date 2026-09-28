@@ -4,15 +4,9 @@
   {
    "id": "gegp.3.1",
    "title": "Why Smaller Units: Tenths and Hundredths",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "line up and combine the decimal values",
-     "explain": "line up and combine the decimal values: val = 3 + 1 / 10 + 7 / 100 gives 3.17",
-     "compute": "val = 3 + 1 / 10 + 7 / 100"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "1 tenth = 0.1, 1 hundredth = 0.01",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the number with 3 units, 1 tenths and 7 hundredths as a decimal.",
@@ -50,6 +44,8 @@
    "id": "gegp.3.2",
    "title": "Decimal Place Value: Reading the Point",
    "converted_to_compute": false,
+   "formula": "num = w + t / 10 + h / 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the number with 9 units, 4 tenths and 6 hundredths as a decimal.",
@@ -87,6 +83,8 @@
    "id": "gegp.3.3",
    "title": "Adding and Comparing Decimals",
    "converted_to_compute": false,
+   "formula": "total = a + b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the number with 7 units, 8 tenths and 2 hundredths as a decimal.",
@@ -123,15 +121,8 @@
   {
    "id": "gegp.3.4",
    "title": "Decimals in Units of Measurement",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "line up and combine the decimal values",
-     "explain": "line up and combine the decimal values: val = 8 + 5 / 10 + 3 / 100 gives 8.53",
-     "compute": "val = 8 + 5 / 10 + 3 / 100"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the number with 8 units, 5 tenths and 3 hundredths as a decimal.",

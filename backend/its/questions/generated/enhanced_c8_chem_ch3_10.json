@@ -34,6 +34,21 @@
      "q": "Design a simple experimental procedure using common laboratory chemicals to prove that a black powder is a physical mixture of Charcoal (Carbon) and Copper(II) Oxide ($\\text{CuO}$), and not a single chemical compound containing carbon and copper.",
      "a": "- **Test 1 (Physical Separation):** Add the black powder to water. Light charcoal particles will float on the surface, while dense copper oxide particles will sink to the bottom. This physical separation proves it is a mixture.\n- **Test 2 (Chemical Reaction):** Add dilute hydrochloric acid ($\\text{HCl}$) to the black powder. The copper oxide ($\\text{CuO}$) will react with the acid to form a blue-green solution of copper chloride ($\\text{CuCl}_2$), leaving the black charcoal completely unreacted and floating in the liquid. \n$$\\text{CuO} (s) + 2\\text{HCl} (aq) \\rightarrow \\text{CuCl}_2 (aq) + \\text{H}_2\\text{O} (l)$$\nIf it were a single compound, the entire powder would react uniformly, and we would not see carbon separating out unaffected.\n\n*What a poor answer reveals:* A poor answer might suggest heating it to melt it, which is physically difficult in a middle school lab and does not exploit the differences in the chemical solubilities or reactivities of the individual components.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A mixture is a substance formed by ______ mixing two or more substances together such that they retain their individual chemical properties and can be separated by physical means.",
+     "a": "physically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Think about what happens when you make a glass of *Nimbu Pani* (______) in your kitchen versus what happens when an iron nail rusts in the damp monsoon air.",
+     "a": "lemonade",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between a mixture and a compound by analyzing experimental observations (such as magnetic attraction, reaction with acids, solubility, and energy changes during formation) and can explain how the constituent elements lose or retain their properties.",
+     "self_check": true
     }
    ]
   }

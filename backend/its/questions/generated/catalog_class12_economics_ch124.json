@@ -1,0 +1,193 @@
+{
+ "catalog": "catalog_class12_economics_ch124.json",
+ "concepts": [
+  {
+   "id": "lekl.124.1",
+   "title": "Concept of Man Alive",
+   "converted_to_compute": true,
+   "formula": "man_alive = physical_body + consciousness + vital_spirit",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "man_alive = physical_body + consciousness + vital_spirit",
+     "compute": "man_alive = physical_body + consciousness + vital_spirit"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Concept of Man Alive: given physical_body = 19.8, consciousness = 17.7, vital_spirit = 25, find man alive.",
+     "a": "62.5",
+     "self_check": false
+    },
+    {
+     "q": "For Concept of Man Alive: given physical_body = 59, consciousness = 82, vital_spirit = 13, find man alive.",
+     "a": "154",
+     "self_check": false
+    },
+    {
+     "q": "For Concept of Man Alive: given physical_body = 40, consciousness = 85, vital_spirit = 7.5, find man alive.",
+     "a": "132.5",
+     "self_check": false
+    },
+    {
+     "q": "For Concept of Man Alive: given physical_body = 67, consciousness = 9.7, vital_spirit = 60, find man alive.",
+     "a": "136.7",
+     "self_check": false
+    },
+    {
+     "q": "For Concept of Man Alive: given physical_body = 49, consciousness = 84, vital_spirit = 11.9, find man alive.",
+     "a": "144.9",
+     "self_check": false
+    },
+    {
+     "q": "For Concept of Man Alive: given physical_body = 36, consciousness = 15, vital_spirit = 55, find man alive.",
+     "a": "106",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lekl.124.3",
+   "title": "Tremulations on the Ether",
+   "converted_to_compute": true,
+   "formula": "vital_literary_effect = ether_vibration * living_response",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "vital_literary_effect = ether_vibration * living_response",
+     "compute": "vital_literary_effect = ether_vibration * living_response"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Tremulations on the Ether: given ether_vibration = 38, living_response = 5.4, find vital literary effect.",
+     "a": "205.2",
+     "self_check": false
+    },
+    {
+     "q": "For Tremulations on the Ether: given ether_vibration = 97, living_response = 83, find vital literary effect.",
+     "a": "8051",
+     "self_check": false
+    },
+    {
+     "q": "For Tremulations on the Ether: given ether_vibration = 21, living_response = 98, find vital literary effect.",
+     "a": "2058",
+     "self_check": false
+    },
+    {
+     "q": "For Tremulations on the Ether: given ether_vibration = 37, living_response = 30, find vital literary effect.",
+     "a": "1110",
+     "self_check": false
+    },
+    {
+     "q": "For Tremulations on the Ether: given ether_vibration = 20, living_response = 39, find vital literary effect.",
+     "a": "780",
+     "self_check": false
+    },
+    {
+     "q": "For Tremulations on the Ether: given ether_vibration = 23, living_response = 73, find vital literary effect.",
+     "a": "1679",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lekl.124.4",
+   "title": "Integrity versus Consistency",
+   "converted_to_compute": true,
+   "formula": "integrity = dynamic_change + authentic_consciousness",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "integrity = dynamic_change + authentic_consciousness",
+     "compute": "integrity = dynamic_change + authentic_consciousness"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Integrity versus Consistency: given dynamic_change = 78, authentic_consciousness = 26, find integrity.",
+     "a": "104",
+     "self_check": false
+    },
+    {
+     "q": "For Integrity versus Consistency: given dynamic_change = 38, authentic_consciousness = 10.4, find integrity.",
+     "a": "48.4",
+     "self_check": false
+    },
+    {
+     "q": "For Integrity versus Consistency: given dynamic_change = 56, authentic_consciousness = 41, find integrity.",
+     "a": "97",
+     "self_check": false
+    },
+    {
+     "q": "For Integrity versus Consistency: given dynamic_change = 91, authentic_consciousness = 38, find integrity.",
+     "a": "129",
+     "self_check": false
+    },
+    {
+     "q": "For Integrity versus Consistency: given dynamic_change = 27, authentic_consciousness = 97, find integrity.",
+     "a": "124",
+     "self_check": false
+    },
+    {
+     "q": "For Integrity versus Consistency: given dynamic_change = 36, authentic_consciousness = 6.4, find integrity.",
+     "a": "42.4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lekl.124.6",
+   "title": "Copulas and Predicate Complements",
+   "converted_to_compute": true,
+   "formula": "copula_clause = subject + copula + predicate_complement",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "copula_clause = subject + copula + predicate_complement",
+     "compute": "copula_clause = subject + copula + predicate_complement"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Copulas and Predicate Complements: given subject = 0.6, copula = 14.4, predicate_complement = 23, find copula clause.",
+     "a": "38",
+     "self_check": false
+    },
+    {
+     "q": "For Copulas and Predicate Complements: given subject = 89, copula = 52, predicate_complement = 56, find copula clause.",
+     "a": "197",
+     "self_check": false
+    },
+    {
+     "q": "For Copulas and Predicate Complements: given subject = 90, copula = 29, predicate_complement = 92, find copula clause.",
+     "a": "211",
+     "self_check": false
+    },
+    {
+     "q": "For Copulas and Predicate Complements: given subject = 17.8, copula = 41, predicate_complement = 1.7, find copula clause.",
+     "a": "60.5",
+     "self_check": false
+    },
+    {
+     "q": "For Copulas and Predicate Complements: given subject = 20, copula = 4.9, predicate_complement = 59, find copula clause.",
+     "a": "83.9",
+     "self_check": false
+    },
+    {
+     "q": "For Copulas and Predicate Complements: given subject = 96, copula = 23, predicate_complement = 48, find copula clause.",
+     "a": "167",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

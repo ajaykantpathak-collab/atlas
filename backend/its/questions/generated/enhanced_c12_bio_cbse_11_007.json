@@ -34,6 +34,31 @@
      "q": "Design a minimal bioreactor control strategy for a recombinant yeast process that produces a secreted enzyme. List the online sensors, the actuators they control, and the set‑point logic for pH and dissolved oxygen (include cascade control for DO).",
      "a": "Online sensors: pH probe, DO probe, temperature probe, foam probe, level sensor. Actuators: acid/base pumps (pH), agitation speed & air/oxygen flow valves (DO cascade: first increase agitation to max, then enrich inlet gas with O₂), heating/cooling jacket (temp), antifoam pump (foam). Set‑point logic: pH 5.0 ± 0.1 via PID; DO 30 % saturation cascade: agitation 200–1000 rpm, then O₂ enrichment 21–100 %. A poor answer omits cascade control or antifoam, indicating the student treats each parameter in isolation rather than as an integrated system.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A bioreactor is a large, sterile vessel designed to provide a controlled environment (temperature, pH, dissolved oxygen, nutrient supply, agitation) for the large-scale cultivation of recombinant host cells (bacteria, yeast, mammalian or plant cells) to produce ______ valuable biological products such as recombinant proteins, enzymes, vaccines, or antibiotics.",
+     "a": "commercially",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you visit a pharmaceutical plant where human ______ is produced in 10,000‑liter stainless‑steel tanks.",
+     "a": "insulin",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe that in a small flask you can shake it by hand, but in a ______ m³ tank you need mechanical agitation and forced aeration to deliver enough oxygen.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) label and explain the function of each major component of a stirred-tank bioreactor (agitator, sparger, baffles, temperature/pH/foam probes, sampling port), (2) compare stirred-tank and air-lift bioreactors in terms of oxygen transfer and shear sensitivity, and (3) describe the key scale-up challenges (oxygen.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you visit a ______ plant where human insulin is produced in 10,000‑liter stainless‑steel tanks.",
+     "a": "pharmaceutical",
+     "self_check": true
     }
    ]
   }

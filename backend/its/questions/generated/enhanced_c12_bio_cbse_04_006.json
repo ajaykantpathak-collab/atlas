@@ -34,6 +34,36 @@
      "q": "Design a diagnostic algorithm (flowchart logic) for a couple presenting with primary infertility. Include decision points for: female age, semen analysis, ovulation confirmation, tubal patency, and the resulting first-line ART recommendation at each branch. Use only procedures covered in NCERT Class 12.",
      "a": "Expected logic: \n1. Semen analysis → if abnormal → treat male factor / IUI (mild) / ICSI (severe) \n2. Confirm ovulation (Day 21 progesterone / follicular monitoring) → if anovulatory → ovulation induction + timed intercourse/IUI \n3. Tubal patency (HSG/laparoscopy) → if bilateral block → IVF (not GIFT/ZIFT) \n4. If all normal → unexplained infertility → IUI × 3-6 cycles → then IVF \n5. Female age ≥35 → accelerate timeline (IVF earlier). \nA poor answer listing tests without decision logic or recommending GIFT for tubal block reveals inability to synthesize a clinical pathway — the essence of competency-based questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Infertility is the inability of a sexually active, non-______ couple to achieve clinical pregnancy after 12 months of regular unprotected intercourse.",
+     "a": "contracepting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 32-year-old woman in Delhi who has been trying to conceive for 18 months with regular ______ intercourse — she represents the 1 in 6 Indian couples facing infertility.",
+     "a": "unprotected",
+     "self_check": true
+    },
+    {
+     "q": "What is Infertility? State the definition given in this lesson.",
+     "a": "Infertility is the inability of a sexually active, non-contracepting couple to achieve clinical pregnancy after 12 months of regular unprotected intercourse.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Infertility is the inability of a sexually active, non-contracepting couple to achieve clinical pregnancy after ______ months of regular unprotected intercourse.",
+     "a": "12",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Infertility?",
+     "a": "Students believe \"test tube baby\" means the embryo develops entirely in a test tube until birth.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can classify infertility etiologies into male factor, female factor, combined, and unexplained categories; explain the physiological basis for each ART procedure; and select the most appropriate ART intervention for a given clinical scenario with justification.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design an experiment to distinguish between SN1 and SN2 mechanisms for the hydrolysis of 2-bromo-2-methylbutane vs 1-bromo-2-methylbutane. Specify the kinetic measurements, solvent choices, and stereochemical probes you would use.",
      "a": "For 2-bromo-2-methylbutane (3°): Use aqueous ethanol (polar protic). Measure initial rates at varying [substrate] and [OH⁻] — rate should depend only on [substrate]. Use chiral 3-bromo-3-methylhexane (if available) — expect racemization. For 1-bromo-2-methylbutane (1°): Use acetone/NaI (polar aprotic). Rate should depend on both [substrate] and [I⁻]. Use chiral 1-bromo-1-deuterio-2-methylbutane — expect inversion. A poor design uses same solvent for both or doesn't vary nucleophile concentration, failing to isolate kinetic order.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: SN1 (Substitution Nucleophilic ______) reaction is a two-step nucleophilic substitution mechanism where the rate-determining step involves the heterolytic cleavage of the carbon-halogen bond to form a planar carbocation intermediate, followed by nucleophilic attack from either face, resulting in racemization at a chiral center.",
+     "a": "Unimolecular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe what happens when you add aqueous NaOH to tert-butyl chloride in a test tube — the solution turns cloudy immediately as tert-butyl alcohol forms, even though the hydroxide ______ is low.",
+     "a": "concentration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: SN______ (Substitution Nucleophilic Unimolecular) reaction is a two-step nucleophilic substitution mechanism where the rate-determining step involves the heterolytic cleavage of the carbon-halogen bond to form a planar carbocation intermediate, followed by nucleophilic attack from either face, resulting in racemization at a chiral center.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) draw the complete two-step mechanism with curved arrows showing bond breaking and formation, (2) predict whether a given alkyl halide will undergo SN1 or SN2 based on substrate structure, leaving group, solvent, and nucleophile, (3) determine the stereochemical outcome (racemization, partial racemization.",
+     "self_check": true
     }
    ]
   }

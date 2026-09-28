@@ -34,6 +34,31 @@
      "q": "Design a simple client-server interaction for a \"Digital Library\" system where students can search book titles and reserve a copy. Draw a labelled diagram (text description acceptable) showing the client, server, network, and the sequence of messages for a successful reservation. Include at least three distinct message types (e.g., SEARCH_REQUEST, SEARCH_RESULT, RESERVE_REQUEST, RESERVE_CONFIRMATION).",
      "a": "Expected answer (text diagram):\n```\n[Student Laptop - CLIENT]                    [Library Server - SERVER]\n       |                                          |\n       |--- SEARCH_REQUEST(\"Python\") ----------->|\n       |<-- SEARCH_RESULT([BookID:101, \"Python Basics\"]) --|\n       |                                          |\n       |--- RESERVE_REQUEST(BookID:101, StudentID:S202) -->|\n       |<-- RESERVE_CONFIRMATION(ReservationID:R555) ------|\n       |                                          |\n```\nA poor answer that merges client and server into one box, omits the network, or uses only one message type reveals the student cannot decompose the interaction into discrete request-response steps.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Client-Server ______ is a distributed computing model where tasks are partitioned between service requesters (clients) and service providers (servers); clients initiate requests for resources or services, and servers listen for, process, and respond to those requests over a network.",
+     "a": "Architecture",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you open a ______ on your phone and type \"www.irctc.co.in\" to book a train ticket.",
+     "a": "browser",
+     "self_check": true
+    },
+    {
+     "q": "What is Client-Server Architecture? State the definition given in this lesson.",
+     "a": "Client-Server Architecture is a distributed computing model where tasks are partitioned between service requesters (clients) and service providers (servers); clients initiate requests for resources or services, and servers listen for, process, and respond to those requests over a network.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Client-Server Architecture?",
+     "a": "Students often think \"client\" and \"server\" refer to specific hardware (e.g., \"a server is a big rack-mounted machine, a client is a laptop\").",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) distinguish client and server roles in a given real-world scenario (e.g., web browsing, email, database access) and explain the request-response cycle; (2) compare client-server with peer-to-peer architecture on at least three parameters (control, scalability, fault tolerance) with justification.",
+     "self_check": true
     }
    ]
   }

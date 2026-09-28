@@ -5,6 +5,8 @@
    "id": "hegp.102.2.1",
    "title": "Exponential Notation",
    "converted_to_compute": false,
+   "formula": "value = base ** exponent",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 4^3 x 4^3.",
@@ -42,6 +44,8 @@
    "id": "hegp.102.2.2",
    "title": "Multiplying Powers with the Same Base",
    "converted_to_compute": false,
+   "formula": "product = base ** (exp_a + exp_b)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 4^4 x 4^3.",
@@ -79,6 +83,8 @@
    "id": "hegp.102.2.3",
    "title": "Dividing Powers and the Zero Exponent",
    "converted_to_compute": false,
+   "formula": "quotient = base ** (exp_a - exp_b); base ** 0 = 1",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 3^2 x 3^4.",
@@ -116,6 +122,8 @@
    "id": "hegp.102.2.4",
    "title": "Negative Exponents",
    "converted_to_compute": false,
+   "formula": "neg_power = 1 / base ** exp",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 4^2 x 4^3.",
@@ -153,6 +161,8 @@
    "id": "hegp.102.2.5",
    "title": "Powers of 10 and Scientific Notation",
    "converted_to_compute": false,
+   "formula": "value = coeff * 10 ** exp",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 3^2 x 3^4.",
@@ -190,6 +200,8 @@
    "id": "hegp.102.2.6",
    "title": "Exponential Growth by Doubling",
    "converted_to_compute": false,
+   "formula": "amount = initial * 2 ** steps",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 4^3 x 4^3.",
@@ -227,6 +239,8 @@
    "id": "hegp.102.2.7",
    "title": "Counting Password Combinations",
    "converted_to_compute": false,
+   "formula": "combos = choices ** slots",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "The digits of the 2-digit number 83 are swapped to make 38. Find the difference between the two numbers using 9 x |a - b|.",

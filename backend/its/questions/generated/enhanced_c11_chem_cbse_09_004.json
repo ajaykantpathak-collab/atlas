@@ -34,6 +34,31 @@
      "q": "Design a laboratory experiment to distinguish between dihydrogen and methane using only their chemical properties (no instruments). Write the procedure, expected observations, and chemical equations.",
      "a": "Procedure: Fill two test tubes with each gas. (1) Introduce a burning splint – H₂ gives a 'pop' sound (2H₂ + O₂ → 2H₂O), CH₄ burns with a non-luminous blue flame (CH₄ + 2O₂ → CO₂ + 2H₂O). (2) Bubble through bromine water – H₂ no reaction (needs UV), CH₄ no reaction (needs UV). (3) Pass over heated CuO – H₂ reduces it (CuO black → Cu reddish), CH₄ reduces it slowly at higher temperature. A poor answer using only the pop test shows inability to design multi-step differentiation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Dihydrogen (H₂) is the molecular form of hydrogen element, existing as a colorless, odorless, tasteless, and highly flammable diatomic gas under standard conditions, with a bond ______ enthalpy of 435.9 kJ mol⁻¹ for the H–H single covalent bond.",
+     "a": "dissociation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a hydrogen-filled balloon burst with a pop sound when ignited – this demonstrates ______'s high flammability and low activation energy for combustion.",
+     "a": "dihydrogen",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Dihydrogen (H₂) is the molecular form of hydrogen element, existing as a colorless, odorless, tasteless, and highly flammable diatomic gas under standard conditions, with a bond dissociation enthalpy of ______ kJ mol⁻¹ for the H–H single covalent bond.",
+     "a": "435.9",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can predict the products and balance equations for dihydrogen reactions with oxygen, halogens, nitrogen, metal oxides, and unsaturated hydrocarbons, and can explain the thermodynamic and kinetic factors controlling each reaction type.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a hydrogen-filled balloon burst with a pop sound when ignited – this ______ dihydrogen's high flammability and low activation energy for combustion.",
+     "a": "demonstrates",
+     "self_check": true
     }
    ]
   }

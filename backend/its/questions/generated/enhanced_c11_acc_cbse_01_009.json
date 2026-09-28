@@ -34,6 +34,31 @@
      "q": "Create your own scenario (3-4 transactions) for a mobile phone repair shop that includes at least one item each of: Revenue, Expense, Gain, Loss. Write the classification for each with a one-line justification.",
      "a": "Example: (1) Repair charges collected ₹15,000 → Revenue (ordinary service income). (2) Spare parts purchased ₹6,000 → Expense (cost to earn revenue). (3) Old testing equipment sold for ₹8,000 (book value ₹5,000) → Gain ₹3,000 (peripheral asset sale). (4) Tools stolen worth ₹4,000 → Loss (no benefit received). A poor answer mixes classifications (e.g., calling stolen tools an \"expense\") showing the student hasn't internalised the \"benefit received\" vs \"no benefit\" distinction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Revenue is the gross inflow of economic benefits arising from the ordinary operating ______ of an entity (e.g., sale of goods, rendering services, interest, commission, rent).",
+     "a": "activities",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You sell cakes for ₹50,000 this month — that's revenue from your main ______.",
+     "a": "business",
+     "self_check": true
+    },
+    {
+     "q": "What is Revenue? State the definition given in this lesson.",
+     "a": "Revenue is the gross inflow of economic benefits arising from the ordinary operating activities of an entity (e.g., sale of goods, rendering services, interest, commission, rent).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Revenue?",
+     "a": "Students treat \"Gain\" as just \"extra revenue\" and \"Loss\" as just \"extra expense,\" using the terms interchangeably.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must correctly classify any given business transaction as revenue, expense, gain, or loss with justification, and explain the distinction between revenue/gain and expense/loss using the criteria of \"ordinary activities\" versus \"peripheral transactions.\".",
+     "self_check": true
     }
    ]
   }

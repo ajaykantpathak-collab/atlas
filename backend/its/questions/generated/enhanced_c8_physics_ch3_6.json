@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using spring balances and a small ring to demonstrate that two perpendicular forces of 3 N and 4 N produce a net force of 5 N. Describe the setup, measurements, and how you would verify the resultant magnitude and direction.",
      "a": "Setup: Tie three strings to a small ring. Attach two spring balances to two strings, pulling horizontally at 90° (e.g., east and north) with 3 N and 4 N respectively. Attach a third spring balance to the third string and pull in the opposite direction (southwest) until the ring is centered (equilibrium). The third balance reads 5 N, confirming the resultant of 3 N and 4 N is 5 N. Direction is along the third string. A poor answer omits the equilibrium condition or uses only two balances, showing they don't understand that the net force is balanced by an equal and opposite force for verification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Net force is the vector sum of all ______ forces acting on an object, taking into account both magnitude and direction.",
+     "a": "individual",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a game of tug-of-war during your school sports day: two teams pull on ______ ends of a rope.",
+     "a": "opposite",
+     "self_check": true
+    },
+    {
+     "q": "What is Net force? State the definition given in this lesson.",
+     "a": "Net force is the vector sum of all individual forces acting on an object, taking into account both magnitude and direction.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Net force?",
+     "a": "Students frequently treat forces as scalars and simply add all magnitudes (e.g., 10 N left + 10 N right = 20 N) instead of recognizing that opposite forces subtract.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Given a diagram or description of multiple forces acting on an object (collinear or perpendicular), the student can calculate the magnitude and direction of the net force and predict the resulting motion state (accelerate, decelerate, or constant velocity).",
+     "self_check": true
     }
    ]
   }

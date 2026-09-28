@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using household items to demonstrate that a solid cylinder reaches the bottom of an incline before a hollow cylinder of same mass and radius when both roll without slipping. List measurements needed and how you would verify the theoretical prediction v = √[2gh/(1+β)].",
      "a": "Use two cylindrical cans: one solid (full of sand, sealed) and one hollow (empty). Same mass (add weights to hollow can), same radius. Release from rest on a wooden plank inclined at ~30°. Measure incline length L and height h. Time descent with stopwatch (5 trials each). Calculate experimental v = √(2L²/t²) from s = ½at², v² = 2as. Compare ratio v_solid/v_hollow with theoretical √[(1+β_hollow)/(1+β_solid)] = √[2/1.5] = √(4/3) ≈ 1.15. A poor answer uses different masses/radii, ignores timing errors, or claims \"heavier rolls faster\" showing misunderstanding of mass independence.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Rolling motion is the ______ of pure translation of the centre of mass and pure rotation about the centre of mass, where the condition for pure rolling (no slipping) is v_cm = ωR.",
+     "a": "combination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a bicycle wheel ______ on a road – the centre moves forward while the wheel spins.",
+     "a": "rolling",
+     "self_check": true
+    },
+    {
+     "q": "What is Rolling motion? State the definition given in this lesson.",
+     "a": "Rolling motion is the combination of pure translation of the centre of mass and pure rotation about the centre of mass, where the condition for pure rolling (no slipping) is v_cm = ωR.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The total kinetic energy of a body rolling without slipping is the sum of its translational kinetic energy (½mv_cm²) and rotational kinetic energy about the centre of mass (½I_cmω²), giving K_total = ½mv_cm² + ½I_cm(v_cm²/R²) = ½mv_cm²(______ + k²/R²) where k is the radius of gyration about the centre of mass.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Rolling motion?",
+     "a": "Students believe that in rolling motion, the instantaneous axis of rotation is the centre of mass, so they calculate rotational KE using I_cm but forget that the contact point is instantaneously at rest and the body can be treated as pure rotation about the contact point with I_contact = I_cm + mR² (parallel axis theorem).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can derive the total kinetic energy expression for any symmetric rolling body from first principles, calculate the fraction of energy in translation vs rotation for a given body, and solve energy conservation problems on inclined planes by correctly applying the no-slip constraint v = ωR.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a simple experiment to prove a rolling marble is in uniform motion. What would you look for in your data?",
      "a": "Measure the marble's position at every 1-second interval. To show uniform motion, the difference in distance between each interval must be identical. A poor answer fails to mention the necessity of consistent time intervals.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Uniform motion occurs when an object moves in a straight line at a constant speed, covering equal ______ in equal intervals of time.",
+     "a": "distances",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are riding a bicycle on a long, ______, empty road, and you keep your legs moving at the exact same pace the entire time.",
+     "a": "straight",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to calculate speed given distance and time, and identify uniform motion by observing if distance increases by the same amount for every equal unit of time.",
+     "self_check": true
     }
    ]
   }

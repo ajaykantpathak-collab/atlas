@@ -34,6 +34,36 @@
      "q": "Design a microscopic observation experiment to distinguish between a cell in Metaphase of mitosis and a cell in Metaphase II of meiosis, using only chromosome morphology and spindle attachment (no ploidy markers). What specific feature would you look for?",
      "a": "Look for paired homologous chromosomes at the metaphase plate — absent in Metaphase II. In mitosis (2n), chromosomes align as individual units (each with 2 chromatids). In Metaphase II (n), chromosomes also align individually. BUT if you see bivalents (paired homologues), it's Metaphase I, not II. To distinguish Metaphase II from mitosis: you CAN'T reliably distinguish by morphology alone in a single cell — both show chromosomes with 2 chromatids at equator. The key is knowing the ploidy context. A poor answer claiming \"centromere position differs\" shows misunderstanding that centromere position is a chromosome property, not a division-type property.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Meiosis II is the second sequential division of meiosis where sister chromatids of each chromosome separate, producing four haploid daughter cells from the two haploid cells formed after Meiosis I, without any ______ DNA replication.",
+     "a": "intervening",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're examining a ______ testis under a microscope — you see cells with half the chromosome number but each chromosome still has two chromatids.",
+     "a": "grasshopper",
+     "self_check": true
+    },
+    {
+     "q": "What is Meiosis II? State the definition given in this lesson.",
+     "a": "Meiosis II is the second sequential division of meiosis where sister chromatids of each chromosome separate, producing four haploid daughter cells from the two haploid cells formed after Meiosis I, without any intervening DNA replication.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by recalling that after Meiosis I, chromosomes are already haploid (n) but replicated (______C DNA).",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Meiosis II?",
+     "a": "Students think \"Meiosis II halves the chromosome number again\" — they believe n → n/2.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can trace chromosome number (n) and DNA content (C) changes through each substage of Meiosis II, explain why centromere splitting occurs in Anaphase II but not Anaphase I, and distinguish Meiosis II from mitosis despite their mechanistic similarity.",
+     "self_check": true
     }
    ]
   }

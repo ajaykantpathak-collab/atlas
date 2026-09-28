@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_14_005",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_14_005",
+   "title": "c11_leg_cbse_14_005",
+   "questions": [
+    {
+     "q": "State the four essential statutory conditions for a valid adoption under the Hindu Adoption and Maintenance Act, 1956, as enumerated in Section 6.",
+     "a": "The four conditions under Section 6 HAMA are: (i) the person adopting has the capacity and right to adopt; (ii) the person giving in adoption has the capacity to do so; (iii) the person adopted is capable of being taken in adoption; (iv) the adoption is completed by actual giving and taking (datta homam) with intent to transfer the child from the birth family to the adoptive family. A wrong answer (e.g., listing \"registration\" or \"court order\" as a Section 6 condition) reveals the student confuses **statutory conditions for validity** (Section 6) with **post-adoption formalities** (Section 16 registration) or **guardianship procedures** (GWA 1890).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a Hindu male aged 25 adopting a Hindu female aged 20 fails the statutory age-gap requirement, and calculate the minimum age the adoptive father must be for this adoption to be valid.",
+     "a": "Section 11(iii) HAMA requires the adoptive father to be at least **21 years older** than the adopted female. Here, the gap is only 5 years (25 – 20), so it fails. The minimum age for the adoptive father = 20 + 21 = **41 years**. A wrong answer (e.g., saying \"18 years gap\" or \"no gap required for adults\") reveals the student has not memorized the **gender-specific age gaps** in Section 11(iii) vs (iv) and is applying general contract-law intuition instead of the statute's strict numbers.",
+     "self_check": true
+    },
+    {
+     "q": "A Hindu widow, with her husband's prior written consent, adopts a 10-year-old boy. The boy's biological father is alive but has not consented. The adoption deed is registered. Is the adoption valid? Apply Sections 7, 8, 9, and 11.",
+     "a": "**Invalid.** Step 1: Capacity to adopt — Widow has capacity under Section 8 (female Hindu of sound mind, not a minor). Step 2: Capacity to give — Section 9: Only father/mother/guardian can give. Biological father is alive → **only he can give**; his consent is mandatory. Mother cannot give without father's consent unless father is dead/renounced world/declared unsound. Step 3: Ceremony & Registration — Even if deed registered, missing father's consent makes adoption void *ab initio*. A wrong answer (focusing only on widow's capacity or registration) reveals the student treats adoption as a **bilateral agreement** rather than a **statutory transfer requiring specific consent-holders**.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the legal effect of a valid adoption under HAMA on the child's property rights in the **birth family** vs the **adoptive family**, referencing Section 12.",
+     "a": "Section 12 HAMA: Upon valid adoption, the child **ceases to be a member of the birth family** — all ties severed, **no right to inherit** from birth parents/relatives (unless property vested *before* adoption). In the adoptive family, the child is deemed the **natural-born child** for all purposes — full coparcenary rights, inheritance, maintenance, and marital prohibitions (sapinda) apply. A wrong answer (e.g., \"child retains rights in both families\") reveals the student misses the **core fiction of adoption: total substitution**, not addition. This is a classic Board exam trap — confusing adoption with guardianship (where birth ties remain).",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Registration of an adoption deed under Section 16 HAMA is mandatory for the adoption to be legally valid.\" Use the *Sitabai v. Ramchandra* (1969) principle.",
+     "a": "**The statement is false.** Section 16 creates a **rebuttable presumption** of validity if registered, but **non-registration does not invalidate** an adoption completed by valid *datta homam* (giving and taking). *Sitabai v. Ramchandra* (1969) SC held: Registration is **not a condition precedent**; adoption is complete on ceremony. Registration is only **evidentiary**. A wrong answer (saying registration is mandatory) reveals the student confuses **substantive validity** (Sections 6–11) with **procedural evidence** (Section 16) — a frequent Board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical adoption scenario that satisfies **every** condition under Sections 6–11 HAMA but would still be **invalid** due to a judicial principle not in the statute. Explain the principle.",
+     "a": "**Scenario:** A 45-year-old Hindu male (sound mind, wife consenting) adopts a 12-year-old Hindu boy (orphan, guardian consenting) with 21+ year gap, *datta homam* performed, deed registered. **Still invalid if:** The adoption is **for an illegal purpose** — e.g., to defeat a creditor's claim, evade tax, or circumvent the Child Labour Act. **Principle:** *Doctrine of sham adoption* — courts pierce the statutory compliance veil if the **dominant intent is fraudulent/illegal** (e.g., *Kharak Singh v. State*, *Ghanashyam v. Shankarlal*). A poor answer (listing only statutory defects) reveals the student thinks **checklist compliance = automatic validity**, ignoring the **equitable jurisdiction** of courts to strike down colourable exercises of statutory power.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

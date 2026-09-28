@@ -2,6 +2,194 @@
  "catalog": "catalog_class10_science_ch108.json",
  "concepts": [
   {
+   "id": "jesc.8.2.1",
+   "title": "Inherited Traits and Phenotypic Frequency",
+   "converted_to_compute": true,
+   "formula": "trait_percentage = (trait_count / total_population) * 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "trait_percentage = (trait_count / total_population) * 100",
+     "compute": "trait_percentage = (trait_count / total_population) * 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Inherited Traits and Phenotypic Frequency: given trait_count = 83, total_population = 2.4, find trait percentage.",
+     "a": "3458.33",
+     "self_check": false
+    },
+    {
+     "q": "For Inherited Traits and Phenotypic Frequency: given trait_count = 96, total_population = 47, find trait percentage.",
+     "a": "204.255",
+     "self_check": false
+    },
+    {
+     "q": "For Inherited Traits and Phenotypic Frequency: given trait_count = 18.9, total_population = 67, find trait percentage.",
+     "a": "28.209",
+     "self_check": false
+    },
+    {
+     "q": "For Inherited Traits and Phenotypic Frequency: given trait_count = 100, total_population = 94, find trait percentage.",
+     "a": "106.383",
+     "self_check": false
+    },
+    {
+     "q": "For Inherited Traits and Phenotypic Frequency: given trait_count = 80, total_population = 38, find trait percentage.",
+     "a": "210.526",
+     "self_check": false
+    },
+    {
+     "q": "For Inherited Traits and Phenotypic Frequency: given trait_count = 88, total_population = 14.4, find trait percentage.",
+     "a": "611.111",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.8.2.2a",
+   "title": "Monohybrid Cross and Dominant-Recessive Inheritance",
+   "converted_to_compute": true,
+   "formula": "f_2_dominant = total_offspring * 3 / 4",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "f_2_dominant = total_offspring * 3 / 4",
+     "compute": "f_2_dominant = total_offspring * 3 / 4"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Monohybrid Cross and Dominant-Recessive Inheritance: given total_offspring = 42, find f 2 dominant.",
+     "a": "31.5",
+     "self_check": false
+    },
+    {
+     "q": "For Monohybrid Cross and Dominant-Recessive Inheritance: given total_offspring = 88, find f 2 dominant.",
+     "a": "66",
+     "self_check": false
+    },
+    {
+     "q": "For Monohybrid Cross and Dominant-Recessive Inheritance: given total_offspring = 7.8, find f 2 dominant.",
+     "a": "5.85",
+     "self_check": false
+    },
+    {
+     "q": "For Monohybrid Cross and Dominant-Recessive Inheritance: given total_offspring = 27, find f 2 dominant.",
+     "a": "20.25",
+     "self_check": false
+    },
+    {
+     "q": "For Monohybrid Cross and Dominant-Recessive Inheritance: given total_offspring = 85, find f 2 dominant.",
+     "a": "63.75",
+     "self_check": false
+    },
+    {
+     "q": "For Monohybrid Cross and Dominant-Recessive Inheritance: given total_offspring = 13.5, find f 2 dominant.",
+     "a": "10.125",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.8.2.2b",
+   "title": "Dihybrid Cross and Independent Assortment",
+   "converted_to_compute": true,
+   "formula": "phenotype_count = total_seeds * phenotype_ratio_num / 16",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "phenotype_count = total_seeds * phenotype_ratio_num / 16",
+     "compute": "phenotype_count = total_seeds * phenotype_ratio_num / 16"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Dihybrid Cross and Independent Assortment: given total_seeds = 76, phenotype_ratio_num = 14.3, find phenotype count.",
+     "a": "67.925",
+     "self_check": false
+    },
+    {
+     "q": "For Dihybrid Cross and Independent Assortment: given total_seeds = 41, phenotype_ratio_num = 15.2, find phenotype count.",
+     "a": "38.95",
+     "self_check": false
+    },
+    {
+     "q": "For Dihybrid Cross and Independent Assortment: given total_seeds = 39, phenotype_ratio_num = 18.4, find phenotype count.",
+     "a": "44.85",
+     "self_check": false
+    },
+    {
+     "q": "For Dihybrid Cross and Independent Assortment: given total_seeds = 50, phenotype_ratio_num = 18.6, find phenotype count.",
+     "a": "58.125",
+     "self_check": false
+    },
+    {
+     "q": "For Dihybrid Cross and Independent Assortment: given total_seeds = 78, phenotype_ratio_num = 14.9, find phenotype count.",
+     "a": "72.6375",
+     "self_check": false
+    },
+    {
+     "q": "For Dihybrid Cross and Independent Assortment: given total_seeds = 76, phenotype_ratio_num = 10.1, find phenotype count.",
+     "a": "47.975",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.8.2.4",
+   "title": "Sex Determination in Humans",
+   "converted_to_compute": true,
+   "formula": "expected_gender_count = total_children * 0.5",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "expected_gender_count = total_children * 0.5",
+     "compute": "expected_gender_count = total_children * 0.5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Sex Determination in Humans: given total_children = 92, find expected gender count.",
+     "a": "46",
+     "self_check": false
+    },
+    {
+     "q": "For Sex Determination in Humans: given total_children = 65, find expected gender count.",
+     "a": "32.5",
+     "self_check": false
+    },
+    {
+     "q": "For Sex Determination in Humans: given total_children = 66, find expected gender count.",
+     "a": "33",
+     "self_check": false
+    },
+    {
+     "q": "For Sex Determination in Humans: given total_children = 81, find expected gender count.",
+     "a": "40.5",
+     "self_check": false
+    },
+    {
+     "q": "For Sex Determination in Humans: given total_children = 68, find expected gender count.",
+     "a": "34",
+     "self_check": false
+    },
+    {
+     "q": "For Sex Determination in Humans: given total_children = 32, find expected gender count.",
+     "a": "16",
+     "self_check": false
+    }
+   ]
+  },
+  {
    "id": "jesc.8.1",
    "title": "Accumulation of Variation during Reproduction",
    "solution_type": "verify_property",
@@ -24,247 +212,6 @@
    ]
   },
   {
-   "id": "jesc.8.2.1",
-   "title": "Inherited Traits and Phenotypic Frequency",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "trait_fraction",
-     "expr": "trait_count / total_population",
-     "explain": "fraction of the population showing the trait"
-    },
-    {
-     "step": 2,
-     "name": "without_trait",
-     "expr": "total_population - trait_count",
-     "explain": "members that do not show the trait"
-    },
-    {
-     "step": 3,
-     "name": "trait_percentage",
-     "expr": "trait_fraction * 100",
-     "explain": "convert the fraction to a percentage"
-    }
-   ],
-   "questions": [
-    {
-     "q": "In a population of 25 students, 3 can roll the tongue - a dominant trait. What percentage shows the trait?",
-     "vals": {
-      "trait_count": 3,
-      "total_population": 25
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "12 %",
-     "self_check": false
-    },
-    {
-     "q": "9 out of 36 pea plants bred true for round seeds. What per cent is that?",
-     "vals": {
-      "trait_count": 9,
-      "total_population": 36
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "25 %",
-     "self_check": false
-    },
-    {
-     "q": "A survey found 7 spotted beetles among 200 beetles. Express this as a percentage.",
-     "vals": {
-      "trait_count": 7,
-      "total_population": 200
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "3.5 %",
-     "self_check": false
-    },
-    {
-     "q": "45 of 60 plants carried purple flowers. What percentage of the population shows the dominant trait?",
-     "vals": {
-      "trait_count": 45,
-      "total_population": 60
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "75 %",
-     "self_check": false
-    },
-    {
-     "q": "In a progeny of 500 seeds, 120 were green. Compute the percentage.",
-     "vals": {
-      "trait_count": 120,
-      "total_population": 500
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "24 %",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "jesc.8.2.2a",
-   "title": "Monohybrid Cross and Dominant-Recessive Inheritance",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "dominant_count",
-     "expr": "total_offspring * 3 / 4",
-     "explain": "the F2 monohybrid ratio gives 3/4 showing the dominant form"
-    },
-    {
-     "step": 2,
-     "name": "one_part",
-     "expr": "dominant_count / 3",
-     "explain": "one part of the 3:1 ratio"
-    },
-    {
-     "step": 3,
-     "name": "recessive_count",
-     "expr": "total_offspring - dominant_count",
-     "explain": "the remaining 1/4 show the recessive form"
-    }
-   ],
-   "questions": [
-    {
-     "q": "Mendel counted 400 F2 plants for seed shape. How many should show the dominant round form, and how many the wrinkled form?",
-     "vals": {
-      "total_offspring": 400
-     },
-     "unit": "plants",
-     "steps": null,
-     "a": "100 plants",
-     "self_check": false
-    },
-    {
-     "q": "An F2 generation has 120 seeds. Using the 3:1 ratio, how many are dominant and how many recessive?",
-     "vals": {
-      "total_offspring": 120
-     },
-     "unit": "seeds",
-     "steps": null,
-     "a": "30 seeds",
-     "self_check": false
-    },
-    {
-     "q": "In 80 F2 offspring of a monohybrid cross, how many are expected tall and how many dwarf?",
-     "vals": {
-      "total_offspring": 80
-     },
-     "unit": "offspring",
-     "steps": null,
-     "a": "20 offspring",
-     "self_check": false
-    },
-    {
-     "q": "A class grows 1000 F2 plants from one hybrid pair. Predict the count of dominant and recessive phenotypes.",
-     "vals": {
-      "total_offspring": 1000
-     },
-     "unit": "plants",
-     "steps": null,
-     "a": "250 plants",
-     "self_check": false
-    },
-    {
-     "q": "If 56 F2 pups are examined for one trait pair, how many show the dominant character?",
-     "vals": {
-      "total_offspring": 56
-     },
-     "unit": "offspring",
-     "steps": null,
-     "a": "14 offspring",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "jesc.8.2.2b",
-   "title": "Dihybrid Cross and Independent Assortment",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "phenotype_fraction",
-     "expr": "ratio_num / 16",
-     "explain": "the F2 dihybrid ratio uses sixteenths (9:3:3:1)"
-    },
-    {
-     "step": 2,
-     "name": "one_sixteenth",
-     "expr": "total_seeds / 16",
-     "explain": "one sixteenth of the seeds raised"
-    },
-    {
-     "step": 3,
-     "name": "phenotype_count",
-     "expr": "total_seeds * phenotype_fraction",
-     "explain": "apply the fraction to the seeds raised"
-    }
-   ],
-   "questions": [
-    {
-     "q": "Mendel raised 160 F2 seeds from a dihybrid cross. How many should be round and green (3/16)?",
-     "vals": {
-      "total_seeds": 160,
-      "ratio_num": 3
-     },
-     "unit": "seeds",
-     "steps": null,
-     "a": "30 seeds",
-     "self_check": false
-    },
-    {
-     "q": "Out of 320 F2 dihybrid seeds, how many are expected to be wrinkled and green (1/16)?",
-     "vals": {
-      "total_seeds": 320,
-      "ratio_num": 1
-     },
-     "unit": "seeds",
-     "steps": null,
-     "a": "20 seeds",
-     "self_check": false
-    },
-    {
-     "q": "In a crop of 640 dihybrid F2 seeds, how many should show the dominant round-yellow form (9/16)?",
-     "vals": {
-      "total_seeds": 640,
-      "ratio_num": 9
-     },
-     "unit": "seeds",
-     "steps": null,
-     "a": "360 seeds",
-     "self_check": false
-    },
-    {
-     "q": "A dihybrid F2 of 800 seeds: how many are wrinkled-yellow (3/16)?",
-     "vals": {
-      "total_seeds": 800,
-      "ratio_num": 3
-     },
-     "unit": "seeds",
-     "steps": null,
-     "a": "150 seeds",
-     "self_check": false
-    },
-    {
-     "q": "If only 64 dihybrid F2 seeds grow, how many are round-green (3/16)?",
-     "vals": {
-      "total_seeds": 64,
-      "ratio_num": 3
-     },
-     "unit": "seeds",
-     "steps": null,
-     "a": "12 seeds",
-     "self_check": false
-    }
-   ]
-  },
-  {
    "id": "jesc.8.2.3",
    "title": "Mechanism of Gene Expression and Chromosomes",
    "solution_type": "verify_property",
@@ -283,83 +230,6 @@
      "q": "What carries the information from parents to children?",
      "a": "Chromosomes made of DNA in the gametes carry inherited information.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "jesc.8.2.4",
-   "title": "Sex Determination in Humans",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "expected_boys",
-     "expr": "total_children * 0.5",
-     "explain": "each birth is 1/2 XX and 1/2 XY"
-    },
-    {
-     "step": 2,
-     "name": "boy_share",
-     "expr": "(expected_boys / total_children) * 100",
-     "explain": "per cent of births expected to be boys"
-    },
-    {
-     "step": 3,
-     "name": "expected_girls",
-     "expr": "total_children - expected_boys",
-     "explain": "the remaining half are girls"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A maternity ward recorded 240 births this month. How many boys and girls are expected in the long run?",
-     "vals": {
-      "total_children": 240
-     },
-     "unit": "children",
-     "steps": null,
-     "a": "120 children",
-     "self_check": false
-    },
-    {
-     "q": "A family plan in a village expects 86 children in total. How many are expected to be boys?",
-     "vals": {
-      "total_children": 86
-     },
-     "unit": "boys",
-     "steps": null,
-     "a": "43 boys",
-     "self_check": false
-    },
-    {
-     "q": "In 150 children born in a colony, how many would statistics predict to be girls?",
-     "vals": {
-      "total_children": 150
-     },
-     "unit": "girls",
-     "steps": null,
-     "a": "75 girls",
-     "self_check": false
-    },
-    {
-     "q": "A school's alumni have 64 siblings born in one year. What is the expected split of boys?",
-     "vals": {
-      "total_children": 64
-     },
-     "unit": "boys",
-     "steps": null,
-     "a": "32 boys",
-     "self_check": false
-    },
-    {
-     "q": "Of 300 children in a housing society, how many are statistically expected to be boys?",
-     "vals": {
-      "total_children": 300
-     },
-     "unit": "boys",
-     "steps": null,
-     "a": "150 boys",
-     "self_check": false
     }
    ]
   }

@@ -34,6 +34,16 @@
      "q": "Create a word problem (Indian context: rupees, items) that leads to a dependent system of linear equations. Write the equations and verify the condition for infinitely many solutions.",
      "a": "Example: \"A shopkeeper sells apples at ₹\\( x \\) per kg and oranges at ₹\\( y \\) per kg. Customer A buys 3 kg apples and 2 kg oranges for ₹120. Customer B buys 6 kg apples and 4 kg oranges for ₹240.\" Equations: \\( 3x + 2y = 120 \\) and \\( 6x + 4y = 240 \\). Ratios: \\( \\frac{3}{6} = \\frac{2}{4} = \\frac{-120}{-240} = \\frac{1}{2} \\) → dependent. A poor answer gives a problem where the second purchase is not an exact multiple (e.g., 6 kg apples and 4 kg oranges for ₹250), creating an inconsistent system instead. This tests whether the student understands the real-world meaning of \"same rate, scaled quantity.\"",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In this case, both equations represent the same straight line, so every point on the line satisfies both equations, yielding ______ many solutions.",
+     "a": "infinitely",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two friends, Ravi and Priya, each buying ______ and pens from the same shop.",
+     "a": "notebooks",
+     "self_check": true
     }
    ]
   }

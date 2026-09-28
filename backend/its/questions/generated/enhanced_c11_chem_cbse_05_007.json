@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using syringes and pressure sensors to verify Dalton's law for a mixture of air and carbon dioxide. Outline the procedure, measurements needed, and how you would analyze the data.",
      "a": "Procedure: (1) Fill syringe A with known volume of air, measure its pressure P_air. (2) Fill syringe B with same volume of CO₂, measure P_CO₂. (3) Connect syringes, mix gases by pushing plungers, measure final total pressure P_mix in combined volume. (4) Expected: P_mix = (P_air + P_CO₂)/2 if volumes equal and temperature constant. Analysis: Compare measured P_mix with calculated sum of partial pressures after expansion. A poor answer (e.g., just mixing without accounting for volume change) reveals lack of understanding that partial pressures are defined for the same final volume and temperature.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Dalton's Law of Partial Pressures states that in a mixture of non-reacting gases, the total pressure exerted is equal to the sum of the partial pressures of individual gases, where the partial pressure of each gas is the pressure it would exert if it occupied the same volume alone at the same ______.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in a kitchen where multiple spices release aromas simultaneously – each spice ______ its own scent intensity to the overall smell.",
+     "a": "contributes",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to calculate total pressure of a gas mixture from given partial pressures, determine partial pressure of a component from mole fraction and total pressure, and solve problems involving gas collection over water by correcting for aqueous vapour pressure.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in a kitchen where multiple spices release aromas ______ – each spice contributes its own scent intensity to the overall smell.",
+     "a": "simultaneously",
+     "self_check": true
     }
    ]
   }

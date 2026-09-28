@@ -34,6 +34,36 @@
      "q": "Construct a definite integral problem of the form ∫ₐᵇ xⁿ eˣ dx (n ∈ ℕ) that requires exactly n+1 applications of integration by parts to evaluate. Provide the limits a, b and the final answer in terms of e.",
      "a": "Example: ∫₀¹ x³ eˣ dx. Each application reduces the power of x by 1: x³ → x² → x → 1 → 0 (4 steps for n=3). The answer is 6 - 2e. A poor answer would choose n=1 (only 2 steps) or give indefinite integral without limits, showing the student doesn't understand how the algebraic power determines the number of iterations or how definite limits simplify the evaluation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Integration by parts is a technique derived from the product rule of ______ that transforms the integral of a product of two functions into a simpler integral.",
+     "a": "differentiation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a civil engineering intern in Bengaluru calculating the bending ______ in a simply supported beam carrying a uniformly distributed load.",
+     "a": "moment",
+     "self_check": true
+    },
+    {
+     "q": "What is Integration by parts? State the definition given in this lesson.",
+     "a": "Integration by parts is a technique derived from the product rule of differentiation that transforms the integral of a product of two functions into a simpler integral.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now identify u = x (algebraic, differentiate to ______) and dv = sin(kx)dx (trigonometric, integrates to -cos(kx)/k).",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Integration by parts?",
+     "a": "Students mechanically apply ILATE without checking whether the resulting integral is actually simpler.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly identify the first and second functions using ILATE rule, execute the integration by parts formula with proper algebraic manipulation, handle repeated integration by parts, recognize and apply the special form ∫eˣ[f(x)+f'(x)]dx = eˣf(x)+C, and solve definite integrals using integration by parts with correct limit.",
+     "self_check": true
     }
    ]
   }

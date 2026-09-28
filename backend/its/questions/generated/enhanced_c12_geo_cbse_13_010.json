@@ -34,6 +34,31 @@
      "q": "Design a one-page annotated map for a Class 12 board answer showing: (a) all six nuclear power plants, (b) major uranium mining districts, (c) thorium-rich coastal belts, (d) BARC Trombay, and (e) arrows indicating the three-stage fuel flow logic. What symbols and color code would you use to maximize clarity for the examiner?",
      "a": "Expected answer: Base map with state boundaries. Symbols: ⚛ (red) for 6 power plants; ⛏ (yellow) for uranium mines (Singhbhum, Udaipur, Alwar, Jhunjhunu, Bhandara, Durg, Kullu); 🏖 (green) for thorium belts (Kerala coast, TN coast, Odisha delta); 🏢 (blue) for BARC Trombay. Arrows: Stage 1: Uranium mine → PHWR (solid black); Stage 2: PHWR spent fuel → Reprocessing → Pu + Th → FBR (dashed blue); Stage 3: FBR → U-233 + Th → Thorium breeder (dotted green). Color code: red=nuclear, yellow=uranium, green=thorium, blue=reprocessing. Poor answer: cluttered, no legend, missing fuel flow arrows — reveals inability to synthesize spatial + process information.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Nuclear energy in India refers to electricity generated through controlled nuclear fission of uranium-235 and plutonium-239 in pressurized heavy water reactors (PHWRs) and light water reactors (LWRs), using ______ mined uranium from Dharwar rock formations and thorium from monazite-rich beach sands along the Kerala and Tamil Nadu coasts, with the long-term goal of utilizing India's vast thorium reserves (25% of world reserves) in a three-stage nuclear programme.",
+     "a": "domestically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how your smartphone charger gets warm — that heat comes from coal plants hundreds of kilometers away, but what if the same ______ came from splitting atoms in a reactor near Kota or Kalpakkam?",
+     "a": "electricity",
+     "self_check": true
+    },
+    {
+     "q": "What is Nuclear energy in India? State the definition given in this lesson.",
+     "a": "Nuclear energy in India refers to electricity generated through controlled nuclear fission of uranium-235 and plutonium-239 in pressurized heavy water reactors (PHWRs) and light water reactors (LWRs), using domestically mined uranium from Dharwar rock formations and thorium from monazite-rich beach sands along the Kerala and Tamil Nadu.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Nuclear energy in India?",
+     "a": "Students believe \"nuclear energy is renewable like solar/wind\" because NCERT groups it under \"Non-Conventional Energy Sources.\" They miss the critical NCERT distinction: \"Fossil fuel sources such as coal, petroleum, natural gas and nuclear energy use exhaustible raw materials.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can locate all six major nuclear power stations on an outline map of India, explain the three-stage nuclear programme logic connecting uranium mining locations to thorium utilization, and distinguish between conventional uranium-fueled reactors and the future thorium-based breeder reactor stage using India's specific.",
+     "self_check": true
     }
    ]
   }

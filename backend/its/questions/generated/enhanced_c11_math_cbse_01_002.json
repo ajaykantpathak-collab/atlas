@@ -34,6 +34,21 @@
      "q": "Construct an example of a set that is:\n(i) a singleton set defined by a quadratic equation in ℕ,\n(ii) an infinite set defined by a linear inequality in ℤ,\n(iii) an empty set defined by a trigonometric condition in ℝ.\nWrite each in set-builder form.",
      "a": "Possible answers:\n(i) {x : x ∈ ℕ, x² - 4x + 4 = 0} → x=2 only → {2} (singleton).\n(ii) {x : x ∈ ℤ, x > -5} → ..., -4, -3, -2, -1, 0, 1, 2, ... (infinite).\n(iii) {x : x ∈ ℝ, sin x = 2} → no real solution → φ (empty).\nA poor answer might use equations with no solution in the specified domain (e.g., x²+1=0 in ℝ for singleton) or fail to ensure the condition yields exactly the required type. This tests creative application of definitions across number systems.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A set is ______ by its cardinality (number of elements): an empty set (denoted φ or { }) contains no elements; a singleton set contains exactly one element; a finite set contains a definite, countable number of elements (its cardinality n(A) is a natural number); an infinite set is not finite — its elements cannot be counted to completion (e.g., the set of natural numbers ℕ).",
+     "a": "classified",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are asked to form a cricket team from your class: the set of all students who can bowl a perfect yorker might be empty (no one), the set of class monitors is a ______ (exactly one), the set of all students in Class XI is finite (countable, say 45), but the set of all possible scores in a T20 match is infinite (no upper bound).",
+     "a": "singleton",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify any given set (described in roster form, set-builder form, or verbally) as empty, singleton, finite, or infinite, and justify the classification by reasoning about the defining condition or by explicitly counting/listing elements where possible.",
+     "self_check": true
     }
    ]
   }

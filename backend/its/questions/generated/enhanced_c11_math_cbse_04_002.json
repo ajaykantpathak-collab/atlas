@@ -34,6 +34,26 @@
      "q": "Create a statement P(n) involving a summation where the base case n=1 gives LHS = 0 and RHS = 0, and explain why this is a valid (though trivial) base case.",
      "a": "Example: P(n): Σ_{k=1}^{n} (k - 1) = n(n-1)/2. For n=1: LHS = Σ_{k=1}^{1} (k-1) = 1-1 = 0. RHS = 1(0)/2 = 0. LHS = RHS = 0. This is valid because the empty sum convention gives 0, and the formula correctly yields 0. A poor answer would create a statement where n=1 is not in the domain (e.g., \"for n≥2\") or where the series notation is ambiguous. This tests understanding of summation notation from c9_math_ch8_1 and the concept that 0=0 is a true equality.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The base case in ______ induction is the verification that the statement P(n) holds true for the initial value n = 1 (or the smallest natural number in the domain).",
+     "a": "mathematical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a ______ where each step depends on the previous one being solid.",
+     "a": "staircase",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The base case in mathematical induction is the verification that the statement P(n) holds true for the initial value n = ______ (or the smallest natural number in the domain).",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently verify the base case for any given induction problem by correctly substituting n = 1, simplifying both sides using algebraic rules, and concluding whether P(1) is true or false.",
+     "self_check": true
     }
    ]
   }

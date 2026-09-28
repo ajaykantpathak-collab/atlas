@@ -42,9 +42,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "x = (39 - 9) / 3"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.206.12.2.2",
@@ -89,9 +87,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 1 * 2 * 2 + 2 * 2 + 7"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.206.12.2.3",
@@ -134,9 +130,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lines = 3"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.206.12.2.4",
@@ -222,9 +216,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "x = (91 - 14) / 7"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.206.12.2.6",
@@ -269,11 +261,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "big = 9 * 1000 + 8 * 100 + 7 * 10 + 3",
-    "small = 3 * 1000 + 7 * 100 + 8 * 10 + 9",
-    "diff = big - small"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.206.12.2.7",
@@ -318,9 +306,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 3 * 1 * 1 + 5 * 1 + 2"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.206.12.2.8",
@@ -364,10 +350,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = sum((34, 17, 25, 30, 25))",
-    "mean = total / 5"
-   ]
+   "steps_chain": []
   }
  ]
 }

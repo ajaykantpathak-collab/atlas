@@ -1,0 +1,51 @@
+{
+ "catalog": "enhanced_c12_gram_cbse_80_002",
+ "concepts": [
+  {
+   "id": "enh:c12_gram_cbse_80_002",
+   "title": "c12_gram_cbse_80_002",
+   "questions": [
+    {
+     "q": "Edit: 'One of my friend have gone to Delhi last week.'",
+     "a": "Two faults — 'friend' → 'friends' (one of + plural) and 'have' → 'has' (head noun 'one' is singular). A wrong answer fixing only one shows single-pass auditing.",
+     "self_check": true
+    },
+    {
+     "q": "Edit: 'He discussed about the problem with great details.'",
+     "a": "'discussed about' → 'discussed' (discuss takes no preposition) and 'great details' → 'great detail'. A wrong answer changing only 'about' leaves the detail-error.",
+     "self_check": true
+    },
+    {
+     "q": "Edit: 'The news are really shocked everyone in the village.'",
+     "a": "'are really shocked' → 'really shocked' — 'news' is singular so 'are' is wrong AND 'shocked' needs no auxiliary here, or recast as 'was really shocking'. Either way the 'are' must go.",
+     "self_check": true
+    },
+    {
+     "q": "Editing tasks at class 12 run a four-error inventory per passage: tense/form errors, concord errors, determiner errors, and word-form/______ errors — typically one wrong word per line with the correction expected.",
+     "a": "preposition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Editing tasks at class 12 run a four-error inventory per passage: tense/form errors, concord errors, determiner errors, and word-form/______ errors — typically one wrong word per line with the correction expected.",
+     "a": "preposition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The audit ______ per line: (1) verb — right tense for its marker?",
+     "a": "checklist",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The audit checklist per line: (______) verb — right tense for its marker?",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student locates one error per line in editing passages across the four categories and supplies the correction, naming the governing rule.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

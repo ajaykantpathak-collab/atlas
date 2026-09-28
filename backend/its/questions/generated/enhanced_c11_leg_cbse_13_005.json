@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_13_005",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_13_005",
+   "title": "c11_leg_cbse_13_005",
+   "questions": [
+    {
+     "q": "Define \"child\" under the UNCRC 1989 and the Juvenile Justice (Care and Protection of Children) Act, 2015. State the exact age threshold and any exception.",
+     "a": "Under UNCRC Article 1, a child is every human being below 18 years unless majority is attained earlier under applicable law. The JJ Act 2015 Section 2(12) defines \"child\" as a person who has not completed 18 years of age. The only exception is for heinous offences where a 16-18 year old may be tried as an adult after preliminary assessment under Section 15 — but the definition of \"child\" remains unchanged; only the *procedure* changes. A wrong answer (e.g., \"child is below 14\" or \"child is below 16\") reveals confusion between age of criminal responsibility, child labour prohibition age, and the legal definition of child.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between a \"Child in Need of Care and Protection\" (CNCP) and a \"Child in Conflict with Law\" (CCL) under the JJ Act 2015. Which authority deals with each?",
+     "a": "CNCP (Section 2(14)): a child without home/subsistence, mentally/physically challenged, abused, exploited, vulnerable to trafficking, begging, street child, or whose parents are unfit. Dealt by Child Welfare Committee (CWC) — a quasi-judicial body for care/protection/rehabilitation. CCL (Section 2(13)): a child alleged to have committed an offence and below 18 at time of offence. Dealt by Juvenile Justice Board (JJB) — for inquiry, not trial; focuses on rehabilitation. A wrong answer (e.g., \"both go to JJB\" or \"police decide\") reveals confusion between welfare jurisdiction (CWC) and justice jurisdiction (JJB), a frequent board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A 13-year-old girl is employed as a domestic help in a private household. The employer claims it is \"non-hazardous\" work and the girl's parents consented. Can the employer be prosecuted under the Child Labour (Prohibition and Regulation) Act, 1986 as amended in 2016? Explain step-by-step.",
+     "a": "Step 1: CLPRA 1986 (amended 2016) prohibits employment of children below 14 in *all* occupations (Section 3A), not just hazardous ones. Step 2: Domestic work is explicitly included in the Schedule of prohibited occupations (2016 amendment). Step 3: Parental consent is no defence — the Act imposes absolute liability on the employer. Step 4: The employer can be prosecuted: imprisonment 6 months to 2 years and/or fine ₹20,000–50,000 (Section 14). A wrong answer (e.g., \"allowed if non-hazardous\" or \"parents consented so legal\") reveals outdated knowledge of pre-2016 law where only hazardous work was prohibited for under-14s.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze: Under POCSO Act 2012, a 17-year-old boy and a 17-year-old girl engage in consensual sexual intercourse. The girl's parents file a complaint. Can the boy be prosecuted? Does the \"consent\" of the girl matter?",
+     "a": "Yes, the boy can be prosecuted. POCSO defines \"child\" as below 18 (Section 2(d)). Consent of a child is *irrelevant* — the Act presumes a child cannot give free consent (Section 29). \"Penetrative sexual assault\" (Section 3) and \"sexual assault\" (Section 7) are strict liability offences for acts with a child. The boy, being a child himself (CCL), will be dealt by JJB under JJ Act 2015, not adult court. A wrong answer (e.g., \"consent is defence\" or \"Romeo-Juliet exception applies\") reveals ignorance that POCSO has no close-in-age exception (unlike some Western laws) and that consent is statutorily excluded as defence.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"The Right to Education Act 2009 makes education a fundamental right for all children aged 6-14, but it fails to address the root cause of child labour.\" Defend or critique with three specific arguments linking RTE, CLPRA, and Article 21A.",
+     "a": "Critique: (1) RTE guarantees *access* (neighbourhood school, no capitation fee, 25% EWS quota in private schools) but does not address *economic compulsion* forcing children to work — a child working in agriculture or home-based work may still not attend school regularly. (2) CLPRA prohibits employment but lacks a robust *rescue-rehabilitation-education* linkage; rescued children often return to work due to poverty. (3) Article 21A (inserted by 86th Amendment) makes education a fundamental right, but the State's duty is \"subject to economic capacity and development\" — unlike civil-political rights, this is progressively realisable. A weak answer (e.g., \"RTE is perfect\" or \"RTE useless\") shows inability to evaluate policy gaps between legal guarantee and implementation reality.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario where a 16-year-old is accused of murder (heinous offence). Design the *exact procedural pathway* from apprehension to final order under JJ Act 2015, citing Sections 10, 14, 15, 18, 19. Include the role of JJB, Children's Court, and the \"preliminary assessment\" criteria.",
+     "a": "Scenario: 16-year-old R apprehended for murder (Section 302 IPC, heinous). Step 1: Police produce R before JJB within 24 hrs (Section 10), no handcuffs, child-friendly. Step 2: JJB conducts *preliminary assessment* within 3 months (Section 15) — assesses mental/physical capacity, ability to understand consequences, circumstances of offence. Step 3: If JJB decides *not* to try as adult → inquiry under Section 14, dispositional orders (rehabilitation, max 3 years in special home). Step 4: If JJB decides *to try as adult* → transfers to Children's Court (Section 18). Step 5: Children's Court tries as per CrPC but *may* pass child-friendly orders (Section 19) — if convicted, sent to place of safety till 21, then may transfer to adult jail. A poor answer misses the 3-month timeline, the two possible pathways, or the Children's Court's discretion under Section 19.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

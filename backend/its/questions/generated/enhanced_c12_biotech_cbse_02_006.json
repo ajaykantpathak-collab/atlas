@@ -34,6 +34,36 @@
      "q": "Design a two-step PCR protocol (combining annealing and extension) for amplifying a 150 bp GC-rich (70% GC) target from human genomic DNA. Specify the two temperatures, hold times, and justify each choice based on polymerase kinetics and template stability.",
      "a": "Expected protocol: Step 1: 95°C for 15 s (denaturation). Step 2: 70°C for 30 s (combined annealing/extension). Justification: High GC raises Tm; primers designed for 70°C Ta ensure specificity. At 70°C, Taq retains ~80% activity (extension rate ~50 bases/s), so 30 s is sufficient for 150 bp (3 s theoretical). A poor answer uses 72°C for extension — that would melt high-Tm primers, causing failure. This tests ability to *create* a protocol from first principles, a NEET-level skill.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Polymerase Chain Reaction (PCR) is an in vitro enzymatic technique for exponential ______ of a specific DNA segment, driven by repeated cycles of three temperature-dependent steps: denaturation (94–95°C) to separate double-stranded DNA templates, annealing (50–65°C) to allow sequence-specific primers to bind, and extension (72°C) for a thermostable DNA polymerase (typically Taq polymerase) to synthesize new complementary strands, doubling the target amplicon quantity each cycle.",
+     "a": "amplification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ lab receives a single hair follicle with barely nanograms of DNA — how do they get enough DNA for a STR profile?",
+     "a": "forensic",
+     "self_check": true
+    },
+    {
+     "q": "What is Polymerase Chain Reaction (PCR)? State the definition given in this lesson.",
+     "a": "Polymerase Chain Reaction (PCR) is an in vitro enzymatic technique for exponential amplification of a specific DNA segment, driven by repeated cycles of three temperature-dependent steps: denaturation (94–95°C) to separate double-stranded DNA templates, annealing (50–65°C) to allow sequence-specific primers to bind, and extension (72°C).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight is that each cycle doubles the *number of target molecules*, not the total DNA mass — leading to the exponential formula N = N₀ × ______ⁿ.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Polymerase Chain Reaction (PCR)?",
+     "a": "Students believe the PCR formula N = N₀ × 2ⁿ gives the *mass* of DNA produced.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) explain the biochemical events at each temperature step and justify the choice of temperatures, (2) calculate the theoretical amplicon yield after *n* cycles from a given starting copy number, and (3) predict how changing cycle number, primer concentration, or polymerase fidelity affects product.",
+     "self_check": true
     }
    ]
   }

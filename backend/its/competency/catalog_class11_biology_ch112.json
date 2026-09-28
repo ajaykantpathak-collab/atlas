@@ -74,7 +74,16 @@
      "explain": "Each triose phosphate oxidised produces one NADH, giving two NADH per glucose.",
      "compute": "nadh_yield = glucose_molecules * 2"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_atp = formed_atp - used_atp",
+     "compute": "net_atp = formed_atp - used_atp"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.12.3",
@@ -183,7 +192,7 @@
    "title": "Respiratory Balance Sheet and ATP Calculation",
    "section": "12.5",
    "definition": "A quantitative accounting of total theoretical ATP produced from complete oxidation of one glucose molecule.",
-   "formula": "total_atp = (nadh * 3) + (fadh2 * 2) + direct_atp",
+   "formula": "total_atp = (nadh * 3) + (fadh_2 * 2) + direct_atp",
    "key_idea": "Total theoretical yield is determined by summing direct ATP both synthesis and ATP generated from coenzyme oxidation.",
    "textbook_ref": "kebo112.txt lines 320-350",
    "question_patterns": [
@@ -213,7 +222,16 @@
      "explain": "Add ATP from NADH, FADH2, and direct substrate-level phosphorylation.",
      "compute": "total_atp = atp_from_nadh + atp_from_fadh2 + direct_atp"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_atp = (nadh * 3) + (fadh_2 * 2) + direct_atp",
+     "compute": "total_atp = (nadh * 3) + (fadh_2 * 2) + direct_atp"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.12.7",
@@ -254,7 +272,7 @@
    "title": "Respiratory Quotient (RQ)",
    "section": "12.7",
    "definition": "The numerical ratio of the volume of carbon dioxide given out to the volume of oxygen taken in during respiration.",
-   "formula": "rq = volume_co2 / volume_o2",
+   "formula": "rq = volume_co_2 / volume_o_2",
    "key_idea": "The ratio of CO2 produced to O2 consumed depends directly on the chemical nature of the respired substrate.",
    "textbook_ref": "kebo112.txt lines 400-435",
    "question_patterns": [
@@ -282,7 +300,16 @@
      "action": "verify substrate identity",
      "explain": "Compare the computed RQ against known reference values to confirm which type of respiratory substrate is being metabolised."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rq = volume_co_2 / volume_o_2",
+     "compute": "rq = volume_co_2 / volume_o_2"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

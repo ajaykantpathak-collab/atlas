@@ -34,6 +34,26 @@
      "q": "Create an original scenario involving a Class 11 student preparing for a physics exam that demonstrates *all three thinking types sequentially* in a single study session. Label each segment with the thinking type and the triggering condition.",
      "a": "**Scenario**: Riya studies \"Electromagnetic Induction.\"\n1. **Concrete thinking** (trigger: *opening textbook, seeing diagram of coil and magnet*): She traces the coil wire with her finger, observes the galvanometer needle deflect in the diagram, thinks \"magnet moves → needle moves\" — bound to visual-perceptual elements.\n2. **Abstract thinking** (trigger: *deriving Faraday's law ε = -dΦ/dt*): She manipulates symbols Φ (magnetic flux), t (time), ε (emf) — no physical magnet present; she applies the concept of \"rate of change of flux\" to solve numerical problems.\n3. **Autistic thinking** (trigger: *taking a break, staring at ceiling fan*): She imagines \"what if electrons had consciousness and *chose* to flow only when the magnet 'asked' politely?\" — a fanciful, reality-detached daydream that relaxes cognitive control.\n**Criteria for good answer**: Clear sequential triggers, correct type labels, each segment demonstrating the *defining criterion* (sensory binding / symbolic manipulation / reality detachment). A poor answer mixes types within one segment or uses \"abstract\" for any non-literal thought.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Types of thinking classify cognitive processes based on their ______ to reality and sensory experience: Concrete thinking operates on immediate, tangible objects and literal perceptions; Abstract thinking manipulates concepts, symbols, and principles independent of physical referents; Autistic thinking (pre-logical/fantasy thinking) is self-directed, reality-detached cognition driven by inner wishes and free association without logical constraints.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a Class 11 student solving \"If all roses are flowers, and some flowers fade quickly, can we ______ some roses fade quickly?\" — this requires abstract thinking because no actual roses are present, only logical relationships between concepts.",
+     "a": "conclude",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly classify a given thought process as concrete, abstract, or autistic by identifying its reference to sensory reality, use of symbols/concepts, and adherence to logical reality-testing, and can explain the developmental progression from concrete to abstract thinking in adolescence.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a Class 11 student solving \"If all roses are flowers, and some flowers fade quickly, can we conclude some roses fade quickly?\" — this requires abstract thinking because no actual roses are present, only logical ______ between concepts.",
+     "a": "relationships",
+     "self_check": true
     }
    ]
   }

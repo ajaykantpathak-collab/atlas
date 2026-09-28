@@ -34,6 +34,21 @@
      "q": "Construct a real-world problem from Indian context (e.g., manufacturing, agriculture, examinations) that can be modelled as a binomial experiment with \\(n=12\\) and \\(p=0.25\\). State the random variable, write the probability mass function, and formulate a question asking for \"at least 3 successes\".",
      "a": "Example: A fertilizer company produces bags where 25% have a minor packaging defect. A quality inspector randomly selects 12 bags from a large batch. Let \\(X\\) = number of defective bags in the sample. Then \\(X \\sim \\text{Binomial}(n=12, p=0.25)\\). PMF: \\(P(X=k) = \\binom{12}{k} (0.25)^k (0.75)^{12-k}\\) for \\(k=0,1,\\dots,12\\). Question: \"Find the probability that at least 3 bags have defects.\"  \nA poor answer uses \\(p=0.75\\) (confusing success/failure), sets \\(n\\) incorrectly (e.g., total batch size instead of sample size), or asks for \"exactly 3\" instead of \"at least 3\", showing misunderstanding of cumulative probability.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a student answering a 10-question true/false test by pure ______.",
+     "a": "guessing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a student answering a ______-question true/false test by pure guessing.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a student ______ a 10-question true/false test by pure guessing.",
+     "a": "answering",
+     "self_check": true
     }
    ]
   }

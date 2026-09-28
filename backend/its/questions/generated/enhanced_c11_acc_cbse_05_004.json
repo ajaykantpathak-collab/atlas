@@ -34,6 +34,36 @@
      "q": "Create a mini-scenario (2-3 transactions) involving both bank charges and interest credited where the cash book balance is ₹1,00,000 and the passbook balance is ₹1,01,200. Show the reconciliation statement starting from cash book balance.",
      "a": "Scenario: Cash book balance ₹1,00,000. Bank statement shows: (i) Interest credited ₹2,000; (ii) Bank charges ₹800. Reconciliation: Cash book ₹1,00,000 + Interest ₹2,000 - Charges ₹800 = Passbook ₹1,01,200. A poor answer would have incorrect signs or missing items, indicating the student cannot synthesise a complete reconciliation from scratch.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Bank charges are fees debited by the bank for services (e.g., cheque ______ charges, incidental charges, interest on overdraft) that the firm records only upon receiving the bank statement, causing the passbook balance to be lower than the cash book balance.",
+     "a": "collection",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You check your cash book and see ₹50,000 in the bank ______.",
+     "a": "column",
+     "self_check": true
+    },
+    {
+     "q": "What is Bank charges? State the definition given in this lesson.",
+     "a": "Bank charges are fees debited by the bank for services (e.g., cheque collection charges, incidental charges, interest on overdraft) that the firm records only upon receiving the bank statement, causing the passbook balance to be lower than the cash book balance.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Similarly, you see \"Interest Credited ₹______\" on the statement but it's not in your cash book.",
+     "a": "200",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Bank charges?",
+     "a": "Students often think \"bank charges are debited in the cash book, so we add them in reconciliation\" because they confuse the cash book entry (which hasn't happened yet) with the bank's action.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) identify bank charges and interest credited as timing differences in a bank reconciliation statement; (2) correctly determine whether each item increases or decreases the passbook balance relative to the cash book balance; (3) apply the correct adjustment (add or deduct) when starting from either cash.",
+     "self_check": true
     }
    ]
   }

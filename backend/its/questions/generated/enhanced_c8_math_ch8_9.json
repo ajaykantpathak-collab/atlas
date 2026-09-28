@@ -34,6 +34,36 @@
      "q": "Create a real-life word problem where a person needs to find the time required for their investment to earn a specific interest amount. Include all necessary data and solve it.",
      "a": "Example: \"Ravi invests ₹20,000 at 8% p.a. simple interest. He wants to earn ₹4,800 as interest to buy a laptop. How many years must he wait?\"\nSolution: T = (SI × 100) / (P × R) = (4800 × 100) / (20000 × 8) = 480000 / 160000 = 3 years.\nA poor problem would have inconsistent data (e.g., interest > principal for short time at low rate) or missing variables. Inability to create a solvable problem reveals the student doesn't understand the relationship between variables or the rearrangement of the formula.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Simple Interest is the extra money paid or earned on a principal amount for a specific time period at a fixed rate, ______ only on the original principal using the formula SI = (P × R × T) / 100, where P is the principal, R is the annual rate of interest in percent, and T is the time in years.",
+     "a": "calculated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you deposit ₹5,000 in a bank that offers 6% ______ per year.",
+     "a": "interest",
+     "self_check": true
+    },
+    {
+     "q": "What is Simple Interest? State the definition given in this lesson.",
+     "a": "Simple Interest is the extra money paid or earned on a principal amount for a specific time period at a fixed rate, calculated only on the original principal using the formula SI = (P × R × T) / 100, where P is the principal, R is the annual rate of interest in percent, and T is the time in years.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Simple Interest is the extra money paid or earned on a principal amount for a specific time period at a fixed rate, calculated only on the original principal using the formula SI = (P × R × T) / ______, where P is the principal, R is the annual rate of interest in percent, and T is the time in years.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Simple Interest?",
+     "a": "Students treat the annual rate as a decimal (e.g., 8% as 0.08) but still divide by 100 in the formula, effectively dividing by 100 twice.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently identify principal, rate, and time from word problems (including those requiring unit conversion for time), correctly apply the simple interest formula, compute the interest and total amount, and explain why simple interest remains constant each year unlike compound interest.",
+     "self_check": true
     }
    ]
   }

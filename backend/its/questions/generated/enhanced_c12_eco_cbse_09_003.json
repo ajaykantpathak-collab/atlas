@@ -32,7 +32,32 @@
     },
     {
      "q": "Design a hypothetical scenario where the Government of India needs to bridge a temporary cash mismatch of ₹15,000 crore for 45 days. Specify which RBI facility it would use, the interest rate benchmark, collateral requirement (if any), and the accounting entries in RBI's balance sheet.",
-     "a": "**Expected answer:**\n- **Facility:** Normal Ways and Means Advances (since ≤ 90 days)\n- **Interest rate:** Repo rate (currently linked to policy repo rate)\n- **Collateral:** None for normal WMA (unsecured); Special WMA requires government securities as collateral\n- **RBI Balance Sheet entries:**\n  - Asset side: \"Loans to Government — WMA\" ↑ by ₹15,000 crore\n  - Liability side: \"Government Deposits (Central Govt)\" ↑ by ₹15,000 crore (when credited to govt account)\n  - On repayment: Both reverse\n**What a poor answer reveals:** Missing the dual entry (asset + liability), confusing WMA with OMO (which involves securities), or stating \"bank rate\" instead of \"repo rate\" for WMA interest. This tests operational clarity needed for JEE-style caselets.",
+     "a": "**Expected answer:**\n- **Facility:** Normal Ways and Means Advances (since ≤ 90 days)\n- **Interest rate:** Repo rate (currently linked to policy repo rate)\n- **Collateral:** N/A for normal WMA (unsecured); Special WMA requires government securities as collateral\n- **RBI Balance Sheet entries:**\n  - Asset side: \"Loans to Government — WMA\" ↑ by ₹15,000 crore\n  - Liability side: \"Government Deposits (Central Govt)\" ↑ by ₹15,000 crore (when credited to govt account)\n  - On repayment: Both reverse\n**What a poor answer reveals:** Missing the dual entry (asset + liability), confusing WMA with OMO (which involves securities), or stating \"bank rate\" instead of \"repo rate\" for WMA interest. This tests operational clarity needed for JEE-style caselets.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Reserve Bank of India (RBI) as the central bank performs two ______ functions: (1) Issuer of Currency — it has the sole monopoly to issue banknotes (except one-rupee notes and coins issued by the Government of India) under the Minimum Reserve System, backing every note issued with assets (gold, foreign exchange, government securities) worth at least ₹200 crore, of which ₹115 crore must be in gold; (2) Banker to Government — it acts as banker, agent, and advisor to both Central and State Governments, managing their accounts, receiving and making payments, conducting treasury operations, managing public debt, and providing Ways and Means Advances (temporary overdrafts) to bridge short-term mismatches between government receipts and expenditures.",
+     "a": "foundational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you hold a ₹500 note — notice the promise \"I promise to pay the bearer the sum of five hundred ______\" signed by the RBI Governor.",
+     "a": "rupees",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This promise exists because RBI is the sole issuer of currency in India, a monopoly granted by the RBI Act, ______.",
+     "a": "1934",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the Minimum Reserve System with the exact asset backing requirements, describe the three roles of RBI as banker to government (banker, agent, advisor) with specific operations for each, and distinguish between the currency issue function (monopoly, backing, denominations) and the government banking function.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you hold a ₹500 note — notice the promise \"I promise to pay the bearer the sum of five hundred rupees\" signed by the RBI ______.",
+     "a": "Governor",
      "self_check": true
     }
    ]

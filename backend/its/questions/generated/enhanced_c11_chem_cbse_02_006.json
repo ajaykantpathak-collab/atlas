@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a prism, a thermometer, and sunlight to demonstrate that infrared radiation exists beyond the red end of the visible spectrum. Describe the setup and expected observation.",
      "a": "Pass sunlight through a prism to form a spectrum on a table. Place a thermometer just beyond the red band (where no visible light falls). The thermometer shows a temperature rise, proving invisible radiation (infrared) carries energy. A poor answer (e.g., placing thermometer in visible red) misses the key idea of detecting radiation outside the visible range.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Electromagnetic spectrum is the continuous range of all possible frequencies (or wavelengths) of electromagnetic radiation, ______ by oscillating electric and magnetic fields perpendicular to each other and to the direction of propagation, traveling at speed of light in vacuum (c = 3.00 × 10⁸ m s⁻¹).",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: a rainbow after rain shows visible light split into colors, but a TV remote works with invisible infrared, and a microwave oven heats food with microwaves — all are ______ radiation differing only in wavelength.",
+     "a": "electromagnetic",
+     "self_check": true
+    },
+    {
+     "q": "What is Electromagnetic spectrum? State the definition given in this lesson.",
+     "a": "Electromagnetic spectrum is the continuous range of all possible frequencies (or wavelengths) of electromagnetic radiation, characterized by oscillating electric and magnetic fields perpendicular to each other and to the direction of propagation, traveling at speed of light in vacuum (c = 3.00 × 10⁸ m s⁻¹).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Electromagnetic spectrum?",
+     "a": "Students often think \"higher intensity light always ejects more energetic photoelectrons\" because they equate brightness with photon energy.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) interconvert wavelength, frequency, wavenumber, and photon energy using c = νλ, E = hν, and ν̃ = 1/λ; (2) identify the region of electromagnetic spectrum for a given wavelength/frequency; (3) explain black-body radiation and photoelectric effect as evidence for quantization; (4) solve numerical problems involving photon.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a hypothetical host-vector system for expressing a toxic human protein in E. coli. Specify: (a) one essential vector feature to control expression, (b) one host genotype feature to reduce toxicity effects, and (c) one compatibility requirement between them.",
      "a": "(a) Vector: Tightly regulated inducible promoter (e.g., pBAD with arabinose induction or T7 promoter with lac operator) — allows expression only after sufficient biomass. (b) Host: Protease-deficient strain (e.g., BL21(DE3) lon⁻ ompT⁻) — reduces degradation of toxic protein; or strain with tight repression (e.g., lacIq overproducing Lac repressor). (c) Compatibility: If using T7 promoter, host must provide T7 RNA polymerase (e.g., DE3 lysogen) under inducible control. A poor answer omits the promoter-host polymerase match or suggests constitutive expression — showing failure to integrate vector design with host physiology for a specific application.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A host-vector system is a compatible pair of a living host cell (which provides the cellular machinery for replication and expression) and a vector (a DNA molecule that can replicate ______ and carry foreign DNA), enabling the stable maintenance, propagation, and optional expression of recombinant DNA in the host.",
+     "a": "independently",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a human insulin gene and want ______ to produce insulin for diabetic patients.",
+     "a": "bacteria",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) list the four essential features of a cloning vector and the three key criteria for a suitable host, and (2) explain why a specific host-vector combination (e.g., E. coli + pBR322) works while an incompatible pair (e.g., mammalian vector in E. coli without SV40 origin) fails.",
+     "self_check": true
     }
    ]
   }

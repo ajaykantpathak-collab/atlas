@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_02_002",
+   "title": "c12_app_cbse_02_002",
+   "questions": [
+    {
+     "q": "Recall the exact wording of the Learning Outcome bullet that requires you to \"Use elementary operations (transformations) to evaluate determinant value.\" Write it verbatim from the NCERT list.",
+     "a": "Correct answer: \"Use elementary operations (transformations) to evaluate determinant value.\" A wrong answer (e.g., \"Find determinant using cofactor expansion\") reveals the student confuses **method** (elementary row/column operations) with **definition** (cofactor expansion). In Boards, \"evaluate using elementary operations\" is a specific 2-mark instruction; using cofactor expansion loses the method mark even if the numerical answer is correct.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words the difference between the outcome \"Understand and use concept of determinant of a matrix\" and \"Understand and use properties of determinant.\" Why are they listed as two separate bullets?",
+     "a": "The first bullet targets **definition and computation** (what a determinant *is*, how to calculate |A| for 2×2 and 3×3, singular vs non-singular). The second bullet targets **manipulation without expansion** (properties vi–x in NCERT §2.6.5: row/column operations, factor extraction, splitting determinants). They are separate because Board exams test them differently: the first appears in 1-mark MCQs / 2-mark \"evaluate\" questions; the second appears in 4-mark \"prove that |A| = … without expanding\" questions. A student who merges them will attempt full expansion in proof questions, wasting time and risking algebra errors.",
+     "self_check": true
+    },
+    {
+     "q": "A Board question says: \"Using matrices, solve the system: 2x – 3y = 5, 5x + 3y = 2.\" Which **two** Learning Outcome bullets does this question directly test? Name them exactly.",
+     "a": "Bullets: (i) \"Solve the system of linear equation using: (i) Cramer’s rule\" AND (ii) \"Solve the system of linear equation using: (ii) Inverse of coefficient matrix method.\" The question does not specify the method, so *both* bullets are valid approaches. A student who identifies only one bullet misses the flexibility the syllabus expects — JEE/NEET often asks \"solve by matrix method\" implying inverse method, while Boards accept any valid method but may specify \"using Cramer's rule\" in a sub-part.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Leontief input-output model outcome (\"Able to perform simple applications of matrices and determinants including Leontief input output model for two variables\") with the area-of-triangle outcome (\"Apply concept of determinant to solve problems based on simple applications such as area of triangle and collinearity of the three points\"). Identify **one structural similarity** and **one structural difference** in how determinants are used.",
+     "a": "Similarity: Both reduce a real-world problem to a **square matrix determinant calculation** (|I–A| for Leontief viability, ½|Δ| for area). Difference: Leontief requires **matrix inversion** ((I–A)⁻¹D) and **viability conditions** (Hawkins-Simon: |I–A| > 0, diagonal > 0), while area/collinearity uses only the **determinant value** (zero for collinearity, absolute value for area). A student who treats Leontief as \"just another determinant\" will forget to check viability before inverting — a frequent 2-mark error in Board case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If I master 'Find inverse of a matrix' and 'Solve system using inverse of coefficient matrix', I don't need to learn Cramer's rule or row reduction because they all give the same answer.\" Evaluate this claim. Is it valid for Board exams? For JEE? Justify.",
+     "a": "**Invalid for both.** Board marking scheme often allocates **separate marks** to each method: e.g., a 6-mark question may have sub-parts (a) \"Solve by matrix method\" (inverse), (b) \"Verify using Cramer's rule\", (c) \"Discuss consistency\". JEE/NEET asks concept-specific questions: \"If Δ = 0 and Δₓ ≠ 0, the system is…\" (tests Cramer's rule consistency logic, not inverse). Row reduction is the **only** method that works for non-square or singular systems in higher dimensions. Mastering only inverse method leaves 30–40% of exam questions inaccessible.",
+     "self_check": true
+    },
+    {
+     "q": "Create a **new** 2×2 real-life scenario (different from the textbook's baker, bookseller, or shopkeeper examples) that can be modeled by the outcome: \"Apply concept of matrix and determinant to formulate and solve real-life situations.\" Write the problem statement, define the matrices, and state which specific matrix operation(s) are needed.",
+     "a": "Sample answer: **Scenario** — A small dairy farm produces milk and paneer. Each litre of milk uses 1 unit of fodder and 0.5 units of labour; each kg of paneer uses 3 units of fodder and 2 units of labour. Daily availability: 120 units fodder, 60 units labour. Profit: ₹20/litre milk, ₹80/kg paneer. **Matrices**: Resource coefficient matrix A = [[1, 3], [0.5, 2]], Availability vector B = [120, 60]ᵀ, Profit vector P = [20, 80]. **Operations**: (1) Formulate as AX ≤ B (inequality, but for exact utilisation solve AX = B). (2) Find X = A⁻¹B (inverse method, bullet 11). (3) Compute profit = PᵀX. A poor answer uses only scalar algebra (two equations) and misses the **matrix formulation** requirement — the outcome explicitly asks to \"formulate … using matrices\".",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

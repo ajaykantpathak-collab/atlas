@@ -34,6 +34,31 @@
      "q": "Design a 3-indicator dashboard to monitor whether India is successfully replicating China's structural transformation (agriculture → industry → services) over the next decade. Specify: (a) the exact indicators with formulas, (b) target thresholds for 2034, (c) one early-warning signal for each indicator.",
      "a": "Correct answer: (1) Industry GVA share / Industry workforce share ratio — target >1.2 (China 2022: 38/32=1.19); warning: ratio <1.0 for 3 consecutive years. (2) Manufacturing export share in total exports — target >60% (China ~90%); warning: declining trend for 2 years. (3) Urbanisation rate — target >50% (China 65%); warning: urbanisation growth <0.5%/year. A poor answer (e.g., listing generic indicators like \"GDP growth\" without structural specificity) reveals inability to translate structural economics into measurable policy targets.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: GDP Growth Rate measures the annual percentage change in the inflation-adjusted market value of all final goods and services produced within a country's domestic territory during a given period, while Per Capita Income (PCI) is the ratio of a country's Gross National Income (GNI) at Purchasing Power Parity (PPP) to its mid-year population, expressed in ______ dollars to enable cross-country comparison of average living standards.",
+     "a": "international",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are comparing three friends who started with similar pocket money in 1980: Arjun (India), Chen (China), and Parvez (______).",
+     "a": "Pakistan",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are comparing three friends who started with similar pocket money in ______: Arjun (India), Chen (China), and Parvez (Pakistan).",
+     "a": "1980",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can calculate real GDP growth rate from nominal GDP and GDP deflator data, compute per capita income using GNI (PPP) and population figures, and interpret comparative sectoral shifts (agriculture → industry → services) to explain why China's manufacturing-led growth yielded higher PCI than India's service-led growth despite.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ three friends who started with similar pocket money in 1980: Arjun (India), Chen (China), and Parvez (Pakistan).",
+     "a": "comparing",
+     "self_check": true
     }
    ]
   }

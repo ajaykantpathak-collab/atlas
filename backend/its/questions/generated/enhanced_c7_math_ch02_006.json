@@ -34,6 +34,16 @@
      "q": "Create a real-world arithmetic word problem involving a school stationery purchase (using rupees) that can be solved efficiently by applying the distributive property in the form $a(b + c) = ab + ac$. Show both the setup and the solution.",
      "a": "A good response creates a scenario such as: \"A school buys 15 boxes of chalk. Each box contains 20 white pieces and 5 colored pieces. How many total pieces of chalk are bought?\" \nSetup: $15 \\times (20 + 5)$. \nSolution using distribution: $(15 \\times 20) + (15 \\times 5) = 300 + 75 = 375$ total pieces. \nA poor answer fails to provide a realistic context or does not actually require or demonstrate the use of the distributive property.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying 4 notebooks for ₹15 each and 4 pens for ₹5 each at the local ______ store.",
+     "a": "stationery",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can apply the distributive property to simplify complex arithmetic expressions, mentally calculate products involving large numbers, and transform expressions between factored and expanded forms to solve multi-step problems accurately.",
+     "self_check": true
     }
    ]
   }

@@ -42,9 +42,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "count = 5"
-   ]
+   "steps_chain": []
   },
   {
    "id": "iemh.101.2",
@@ -90,11 +88,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "dx = 10 - 1",
-    "dy = 14 - 2",
-    "dist = sqrt(dx * dx + dy * dy)"
-   ]
+   "steps_chain": []
   },
   {
    "id": "iemh.101.3",
@@ -137,9 +131,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lines = 2"
-   ]
+   "steps_chain": []
   },
   {
    "id": "iemh.101.4",
@@ -185,11 +177,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "dx = 16 - 7",
-    "dy = 4 - -8",
-    "dist = sqrt(dx * dx + dy * dy)"
-   ]
+   "steps_chain": []
   },
   {
    "id": "iemh.101.5",
@@ -235,11 +223,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "dx = 24 - 4",
-    "dy = 13 - -8",
-    "dist = sqrt(dx * dx + dy * dy)"
-   ]
+   "steps_chain": []
   },
   {
    "id": "iemh.101.6",
@@ -331,11 +315,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "dx = -2 - -7",
-    "dy = 18 - 6",
-    "dist = sqrt(dx * dx + dy * dy)"
-   ]
+   "steps_chain": []
   },
   {
    "id": "iemh.101.8",

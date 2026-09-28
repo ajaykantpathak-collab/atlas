@@ -34,6 +34,21 @@
      "q": "Create a real-world problem (Indian context) where multiplying every data value by a constant is needed to find a new mean. Provide the original data, the constant, and the question. Then solve it using the scaling rule.",
      "a": "Example: A school records the heights of 5 students in cm: 140, 145, 150, 155, 160. The mean height is 150 cm. The school wants to report the mean height in metres (1 m = 100 cm). Constant \\( k = \\frac{1}{100} \\). New mean = \\( 150 \\times \\frac{1}{100} = 1.5 \\) m. A poor answer would use a constant that doesn't represent a real conversion or would recalculate the entire sum instead of using the scaling rule, showing they haven't internalised the efficiency of the rule.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a vegetable vendor records daily ______ in rupees for a week: ₹200, ₹250, ₹300, ₹350, ₹400, ₹450, ₹500.",
+     "a": "earnings",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute the new mean after multiplying all data values by a constant without recalculating the entire sum, and can explain why the mean scales by that constant using the relationship between sum, count, and mean.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ vendor records daily earnings in rupees for a week: ₹200, ₹250, ₹300, ₹350, ₹400, ₹450, ₹500.",
+     "a": "vegetable",
+     "self_check": true
     }
    ]
   }

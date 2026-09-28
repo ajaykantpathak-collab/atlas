@@ -34,6 +34,31 @@
      "q": "Create a decision flowchart (text description) for a biotech startup screening 5000 hypothetical proteins from a metagenomic dataset to prioritize 10 candidates for experimental characterization as novel industrial enzymes. Include specific tool thresholds and decision nodes.",
      "a": "Flowchart: START → 5000 sequences → Filter 1: Remove fragments (<100 aa) → Filter 2: BLASTp vs UniProt; KEEP only \"No significant hit\" (E>0.001) OR hits to \"Uncharacterized protein\" → ~500 remain → Filter 3: InterProScan; KEEP only sequences with catalytic domain (e.g., hydrolase, oxidoreductase Pfam clans) but NO full-length characterized homolog → ~100 remain → Filter 4: ProtParam; KEEP pI 5-9 (soluble expression friendly), Instability <40 (stable), GRAVY <0 (non-membrane) → ~30 remain → Filter 5: Secondary structure (SOPMA); KEEP >30% alpha/beta (globular fold likely) → ~15 remain → Manual curation: Check genomic context (operon with substrate transporters?), taxonomic rarity → SELECT top 10. A poor answer using only BLAST or only pI cutoffs reveals inability to integrate orthogonal evidence types for decision-making.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Protein function prediction from sequence is the computational inference of a protein's biochemical activity, biological role, and molecular interactions by analyzing its amino acid sequence for evolutionary homology, conserved functional domains/motifs, and physico-chemical properties using ______ tools and databases.",
+     "a": "bioinformatics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have sequenced a novel gene from a ______ bacterium in a hot spring in Ladakh.",
+     "a": "thermophilic",
+     "self_check": true
+    },
+    {
+     "q": "What is Protein function prediction from sequence? State the definition given in this lesson.",
+     "a": "Protein function prediction from sequence is the computational inference of a protein's biochemical activity, biological role, and molecular interactions by analyzing its amino acid sequence for evolutionary homology, conserved functional domains/motifs, and physico-chemical properties using bioinformatics tools and databases.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Protein function prediction from sequence?",
+     "a": "Students equate \"sequence similarity\" with \"functional identity\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can design a logical multi-step bioinformatics workflow to predict the function of a hypothetical protein, justifying the choice and order of tools (BLAST, InterPro, ProtParam) and interpreting conflicting evidence from different prediction methods.",
+     "self_check": true
     }
    ]
   }

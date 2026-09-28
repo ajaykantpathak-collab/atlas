@@ -34,6 +34,21 @@
      "q": "Design a simple classroom activity using coloured beads (two colours) to simulate one generation of random mating in a population of 20 diploid individuals. State how you would calculate the expected genotype frequencies under Hardy-Weinberg and how you would test if the simulated population deviates due to chance.",
      "a": "Put 40 beads (alleles) in a bag with frequencies p and q (e.g., 24 red, 16 blue → p=0.6, q=0.4). Randomly draw pairs (without replacement) to form 20 genotypes. Count observed RR, Rr, rr. Expected: p²=0.36 (7.2), 2pq=0.48 (9.6), q²=0.16 (3.2). Use chi-square: Σ(O-E)²/E with df=1. If χ² > 3.84 (p<0.05), deviation is significant. A poor answer omits the chi-square test or uses the wrong degrees of freedom (df = number of genotypes - number of alleles = 3-2=1).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Hardy-Weinberg principle states that in an infinitely large, randomly mating population free from mutation, migration, and natural selection, allele and genotype frequencies remain constant from generation to generation, providing a null model (genetic equilibrium) against which ______ change is measured.",
+     "a": "evolutionary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you survey 1,000 students in a Delhi school for the ability to roll their tongue (______ trait).",
+     "a": "dominant",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) write the Hardy-Weinberg equations (p+q=1 and p²+2pq+q²=1) with correct notation, (2) list all five equilibrium conditions and explain the biological consequence of violating each, and (3) calculate expected genotype/allele frequencies from given data and perform a chi-square test to decide if a population is in.",
+     "self_check": true
     }
    ]
   }

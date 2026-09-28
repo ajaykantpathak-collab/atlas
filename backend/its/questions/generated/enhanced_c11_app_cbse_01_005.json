@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_01_005",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_01_005",
+   "title": "c11_app_cbse_01_005",
+   "questions": [
+    {
+     "q": "Write the complex number **z = (2 + 3i) - (4 - 5i)** in the standard form **a + bi** and state its real part **Re(z)** and imaginary part **Im(z)**.",
+     "a": "**Answer:** **z = -2 + 8i**, so **Re(z) = -2** and **Im(z) = 8**.\n**Steps:** (1) Distribute the minus: **(2 + 3i) - 4 + 5i**. (2) Group real parts: **2 - 4 = -2**. (3) Group imaginary parts: **3i + 5i = 8i**. (4) Write as **-2 + 8i**.\n**Wrong answer reveals:** If a student writes **Im(z) = 8i** (including **i**), they confuse the *imaginary part* (a real number **b** in **a+bi**) with the *imaginary component* (**bi**). If they get **-2 - 2i**, they forgot to distribute the minus sign to **-5i**. This shows shaky algebra with signed terms.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the product **(3 + 2i)(3 - 2i)** is a *real number* (no **i** term). What property of conjugates does this illustrate?",
+     "a": "**Answer:** **(3 + 2i)(3 - 2i) = 9 - 6i + 6i - 4i² = 9 - 4(-1) = 9 + 4 = 13**. The **±6i** terms cancel because they are opposites, and **i² = -1** turns **-4i²** into **+4**. This illustrates **z·z̅ = a² + b² = |z|²**, which is always a non-negative real number.\n**Wrong answer reveals:** If a student says \"because they are conjugates\" without showing the cancellation of imaginary parts and the **i² = -1** step, they are recalling a fact without understanding the *mechanism*. If they get **9 - 4i²** and stop, they don't know **i² = -1**. If they get **5**, they computed **9 - 4 = 5** (treating **i² = 1**), a critical sign error.",
+     "self_check": true
+    },
+    {
+     "q": "Simplify **z = (1 + i) / (2 - i)** to standard form **a + bi**. Show all steps.",
+     "a": "**Answer:** **z = 1/5 + 3/5 i** (or **0.2 + 0.6i**).\n**Steps:** (1) Multiply numerator and denominator by the conjugate of the denominator: **(2 + i)**. (2) Numerator: **(1 + i)(2 + i) = 2 + i + 2i + i² = 2 + 3i - 1 = 1 + 3i**. (3) Denominator: **(2 - i)(2 + i) = 4 - i² = 4 - (-1) = 5**. (4) Result: **(1 + 3i)/5 = 1/5 + (3/5)i**.\n**Wrong answer reveals:** If a student multiplies only the numerator by the conjugate, they don't grasp that division requires making the denominator real. If they get **(1 + 3i)/3**, they computed denominator as **4 - 1 = 3** (using **i² = 1**). If they leave answer as **(1+3i)/5**, they haven't separated into **a + bi** form — a common \"form over substance\" error.",
+     "self_check": true
+    },
+    {
+     "q": "Given **z₁ = 2 + 3i** and **z₂ = 1 - 4i**, verify the property **|z₁ z₂| = |z₁| |z₂|** by computing both sides explicitly.",
+     "a": "**Answer:** Both sides equal **5√17**.\n**Steps:** (1) **z₁z₂ = (2+3i)(1-4i) = 2 - 8i + 3i - 12i² = 2 - 5i + 12 = 14 - 5i**. (2) **|z₁z₂| = √(14² + (-5)²) = √(196 + 25) = √221 = √(13·17) = √13·√17**. (3) **|z₁| = √(2²+3²) = √13**, **|z₂| = √(1²+(-4)²) = √17**. (4) **|z₁||z₂| = √13·√17 = √221**. Verified.\n**Wrong answer reveals:** If a student computes **|z₁z₂|** as **|z₁| + |z₂|** or **√(|z₁|² + |z₂|²)**, they confuse modulus multiplication with addition or Pythagoras. If they get **√191** for **|z₁z₂|**, they likely miscalculated **z₁z₂** (e.g., forgot **i² = -1** giving **2 - 5i - 12 = -10 - 5i**). This tests both algebraic care and property understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The modulus of a complex number **z = a + bi** is always **√(a² + b²)**, so **|z| = |a| + |b|** because square root distributes over addition.\" Evaluate this claim. Is it true or false? Justify with a counterexample or proof.",
+     "a": "**Answer:** **False**. Square root does **not** distribute over addition: **√(a² + b²) ≠ √a² + √b² = |a| + |b|** in general.\n**Counterexample:** Let **z = 3 + 4i**. Then **|z| = √(3²+4²) = √25 = 5**. But **|3| + |4| = 7 ≠ 5**.\n**Wrong answer reveals:** If a student says \"True, because **√(x+y) = √x + √y**\", they have a fundamental algebraic misconception about radicals (common from misapplying **√(xy) = √x√y**). If they say \"False\" but can't give a counterexample, they lack concrete number sense. This tests the critical distinction between **√(sum)** and **sum of √s**.",
+     "self_check": true
+    },
+    {
+     "q": "Create a complex number **z = a + bi** (with **a, b** non-zero integers) such that **z²** is purely real (imaginary part = 0). Explain your reasoning and verify by computation.",
+     "a": "**Answer:** Any **z = a + ai** or **z = a - ai** (i.e., **|a| = |b|**) works. Example: **z = 2 + 2i**.\n**Reasoning:** **z² = (a+bi)² = a² + 2abi + b²i² = (a² - b²) + 2abi**. For **z²** to be purely real, we need **2ab = 0** → **a = 0** or **b = 0** (trivial, gives real or pure imaginary **z**) **OR** wait — **2ab = 0** is the condition! My earlier thought was wrong. **z² = (a² - b²) + 2abi**. Imaginary part is **2ab**. For this to be zero, **ab = 0**. So **a=0** or **b=0**. But the question asks for **a, b non-zero**. **No such integer exists!** Let me re-check: **z = a+bi**, **z² = a² - b² + 2abi**. Imaginary part **2ab**. For non-zero integers **a,b**, **2ab ≠ 0**. So **impossible** for non-zero integers.\n**Wait** — what about **z = 1 + i**? **z² = 1 + 2i + i² = 2i** (purely imaginary). **z = 2 + i**? **4 + 4i -1 = 3 + 4i**. **z = 3 + 4i**? **9 + 24i -16 = -7 + 24i**. Indeed, **2ab = 0** requires **a=0** or **b=0**. So **no non-zero integer solution exists**.\n**Better answer:** \"No such complex number with **non-zero integer** **a, b** exists because **Im(z²) = 2ab**, which is non-zero whenever both **a** and **b** are non-zero.\"\n**Wrong answer reveals:** If a student gives **z = 1 + i** and says **z² = 2** (forgetting **i² = -1** gives **2i**), they have a sign error. If they give **z = 3 + 4i** and claim **z² = -7** (ignoring **24i**), they drop the imaginary term. If they correctly prove impossibility, they show deep understanding of the algebraic constraint.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

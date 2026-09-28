@@ -34,6 +34,26 @@
      "q": "Design a **hypothetical synthetic biology project** that addresses a local Indian problem (e.g., crop residue burning, water contamination, vaccine cold-chain). Your design must specify: (i) the chassis organism, (ii) 2–3 standard biological parts (promoter, gene, terminator) with their function, (iii) the engineered metabolic pathway or circuit, and (iv) one biosafety concern specific to your design.",
      "a": "**Example design: \"Pusa-Detox\" — a soil bacterium engineered to degrade pesticide residues in Punjab wheat fields.** (i) Chassis: *Pseudomonas putida* KT2440 (native soil coloniser, GRAS status). (ii) Parts: (a) **P<sub>tac</sub> promoter** (IPTG-inducible, strong expression), (b) **opd gene** (organophosphorus hydrolase from *Flavobacterium* — hydrolyzes parathion/methyl parathion), (c) **T<sub>rrnB</sub> terminator** (strong transcription termination). (iii) Circuit: P<sub>tac</sub> → opd → T<sub>rrnB</sub> on a low-copy plasmid with arabinose-inducible kill-switch (ccdB toxin/antitoxin) for biocontainment. (iv) Biosafety concern: **Horizontal gene transfer of opd to native soil microbes** could create uncontrolled degradation of beneficial pesticides or disrupt microbial ecology; mitigation: chromosomal integration + auxotrophy for non-natural amino acid. A poor answer uses vague parts (\"a promoter, a gene\") or ignores Indian context (e.g., designing for a problem not relevant to India).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The biotechnology industry encompasses the commercial application of biological systems, living organisms, or their derivatives to develop products and processes across five major innovation sectors: environmental biotechnology (biofuels, biodegradation, bioremediation), plant biotechnology (GM crops, genome editing), regenerative medicine (stem cells, organoids, bioprinting), ______ (nanoparticles for drug delivery, diagnostics, agriculture), and synthetic biology (rational design of biological parts, devices, and systems).",
+     "a": "nanobiotechnology",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a Class 12 student asked: \"______ is everywhere — from the insulin a diabetic relative injects, to the Bt cotton in a farmer's field, to the biofuel blend in a bus tank.",
+     "a": "Biotechnology",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then map one flagship technology to each sector (biodiesel via trans-esterification, CRISPR-Cas______ for drought tolerance, organoids from stem cells, gold nanoparticles for cancer drug delivery, synthetic yeast chromosome).",
+     "a": "9",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) name all five major biotechnology innovation sectors from NCERT Chapter 12 with one specific application per sector, and (2) explain how each sector addresses a distinct societal need (energy, food security, healthcare, materials, engineering) using terminology from the textbook (e.g., trans-esterification.",
+     "self_check": true
     }
    ]
   }

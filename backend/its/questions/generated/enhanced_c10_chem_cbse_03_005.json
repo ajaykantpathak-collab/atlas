@@ -34,6 +34,31 @@
      "q": "Design a safe, small-scale classroom demonstration (using non-hazardous substitutes) to show that a mixture of two chemicals can achieve what neither can do alone, analogous to aqua regia dissolving gold. Describe the materials, procedure, and the chemical principle illustrated.",
      "a": "Materials: Copper turnings (low reactivity metal), dilute H₂SO₄ (non-oxidizing acid), KNO₃ (oxidizing salt), test tubes. Procedure: (1) Add Cu to dilute H₂SO₄ — no reaction. (2) Add Cu to KNO₃ solution — no reaction. (3) Add Cu to a mixture of dilute H₂SO₄ + KNO₃ — slow reaction occurs, blue Cu²⁺ solution forms. Principle: H₂SO₄ provides H⁺ and SO₄²⁻; KNO₃ provides NO₃⁻ which, in acidic medium, acts as an oxidizing agent (like HNO₃ in aqua regia). The mixture oxidizes Cu to Cu²⁺ while neither component alone can. A poor answer that uses concentrated acids or real gold shows the student ignores safety and the \"analogous principle\" requirement — board exams often test safe demonstration design.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Aqua regia is a highly corrosive, fuming yellow-orange liquid mixture of concentrated nitric acid (HNO₃) and concentrated ______ acid (HCl) in a 1:3 volume ratio.",
+     "a": "hydrochloric",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a gold ornament that has lost its shine — you ______ clean it with lemon juice (acid) or any single acid in the school lab.",
+     "a": "cannot",
+     "self_check": true
+    },
+    {
+     "q": "What is Aqua regia? State the definition given in this lesson.",
+     "a": "Aqua regia is a highly corrosive, fuming yellow-orange liquid mixture of concentrated nitric acid (HNO₃) and concentrated hydrochloric acid (HCl) in a 1:3 volume ratio.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Aqua regia?",
+     "a": "Students write the reaction as Au + 3HCl → AuCl₃ + 3/2 H₂↑ (treating aqua regia as just HCl) or Au + 3HNO₃ → Au(NO₃)₃ + 3/2 H₂↑ (treating it as just HNO₃).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write the balanced chemical equation for the reaction of gold with aqua regia, explain why neither concentrated HNO₃ nor concentrated HCl alone can dissolve gold, and identify the role of nitrosyl chloride (NOCl) and chlorine (Cl₂) as the active species generated in situ.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a small program that reads a list of temperatures in Celsius from the user (one per line, empty line to stop), converts each to Fahrenheit, and writes both values to `temps.txt` in the format `C: 25 -> F: 77.0`. Use `writelines()` for the final output.",
      "a": "A good answer collects formatted strings in a list, then calls `f.writelines(list)`. A poor answer writes inside the input loop using `write()` (which works but doesn't demonstrate `writelines()`), or forgets to convert numbers to strings, or omits newlines in the formatted strings.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The write() method writes a single string to an open text file and returns the number of characters written; it does not ______ append a newline character.",
+     "a": "automatically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a list of cricket players and their scores: ['Virat, 89', 'Rohit, 72', '______, 65'].",
+     "a": "Shubman",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly open a file in write or append mode, use write() to output a single string and writelines() to output an iterable of strings, manually insert \\n where new lines are needed, and distinguish the return value and argument types of the two methods.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you have a list of cricket players and their scores: ['Virat, 89', 'Rohit, 72', 'Shubman, 65'].",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

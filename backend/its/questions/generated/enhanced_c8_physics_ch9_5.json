@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a kitchen scale, a balloon, and a pump to demonstrate that air has weight because of gravity.",
      "a": "Weigh an empty balloon on the scale (tare it). Inflate the balloon with the pump, tie it, and place it on the scale again. The reading increases, showing the added air has weight. A poor answer (e.g., \"measure the balloon's size\") fails to isolate the weight of air from the balloon's material, missing the key idea that gravity gives air measurable weight.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Gravity on Earth is the attractive force exerted by Earth's mass that pulls objects toward its center, giving them weight (W = mg, where g ≈ 9.8 m/s²) and preventing atmospheric gases from escaping into space by ______ pulling gas molecules downward.",
+     "a": "continuously",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a falling leaf or a dropped pen in the classroom – it always moves ______ toward the floor.",
+     "a": "downward",
+     "self_check": true
+    },
+    {
+     "q": "What is Gravity on Earth? State the definition given in this lesson.",
+     "a": "Gravity on Earth is the attractive force exerted by Earth's mass that pulls objects toward its center, giving them weight (W = mg, where g ≈ 9.8 m/s²) and preventing atmospheric gases from escaping into space by continuously pulling gas molecules downward.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Gravity on Earth is the attractive force exerted by Earth's mass that pulls objects toward its center, giving them weight (W = mg, where g ≈ ______ m/s²) and preventing atmospheric gases from escaping into space by continuously pulling gas molecules downward.",
+     "a": "9.8",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Gravity on Earth?",
+     "a": "Students believe gravity only acts on solid objects that visibly fall, not on gases.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain why Earth's gravity holds the atmosphere while the Moon cannot, and can calculate the weight of an object given its mass using W = mg with correct SI units (newtons).",
+     "self_check": true
     }
    ]
   }

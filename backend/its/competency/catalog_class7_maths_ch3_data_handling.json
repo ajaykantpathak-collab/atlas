@@ -209,7 +209,7 @@
     "read the bar graph",
     "how many students have"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -231,7 +231,16 @@
      "action": "label",
      "explain": "Label axes and bars"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 25 / 5 gives 5",
+     "compute": "t1 = 25 / 5"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m3.5.2",
@@ -249,7 +258,7 @@
     "compare performance in two terms",
     "double bar graph for two cities"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -271,7 +280,16 @@
      "action": "label and legend",
      "explain": "Label axes and add a legend"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 3 + 6 + 2 gives 11",
+     "compute": "total = 3 + 6 + 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m3.5.3",
@@ -288,7 +306,7 @@
     "is mode appropriate",
     "best measure of central tendency"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -305,7 +323,22 @@
      "action": "justify",
      "explain": "Explain why this measure is appropriate"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the mean/median/mode definition",
+     "explain": "apply the mean/median/mode definition: total = sum((38, 29, 32, 40, 16)) gives 155",
+     "compute": "total = sum((38, 29, 32, 40, 16))"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 31",
+     "compute": "mean = total / 5"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m3.6.1",

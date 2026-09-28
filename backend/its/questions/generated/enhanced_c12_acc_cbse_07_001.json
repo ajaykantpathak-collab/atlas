@@ -22,7 +22,7 @@
     },
     {
      "q": "Compare the objective of \"Stewardship Reporting\" in a company versus a partnership firm. How does the separation of ownership and management in a company change the nature of this objective?",
-     "a": "In a **partnership**, partners are usually both owners and managers; stewardship is internal — partners monitor each other directly. In a **company**, ownership (shareholders) is separated from management (Board of Directors). Stewardship becomes an *external accountability mechanism*: financial statements are the primary tool for shareholders to assess whether directors have safeguarded and grown their investment. This necessitates **independent audit**, **standardised format (Schedule III)**, and **extensive disclosures** (segment reporting, related party transactions) — none mandatory for partnerships. The objective shifts from \"mutual trust\" to \"verified, comparable, decision-useful information for absentee owners.\" A weak answer misses the *agency theory* implication: separation of ownership/control creates information asymmetry, which financial statements aim to reduce.",
+     "a": "In a **partnership**, partners are usually both owners and managers; stewardship is internal — partners monitor each other directly. In a **company**, ownership (shareholders) is separated from management (Board of Directors). Stewardship becomes an *external accountability mechanism*: financial statements are the primary tool for shareholders to assess whether directors have safeguarded and grown their investment. This necessitates **independent audit**, **standardised format (Schedule III)**, and **extensive disclosures** (segment reporting, related party transactions) — N/A mandatory for partnerships. The objective shifts from \"mutual trust\" to \"verified, comparable, decision-useful information for absentee owners.\" A weak answer misses the *agency theory* implication: separation of ownership/control creates information asymmetry, which financial statements aim to reduce.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Create a one-page \"Financial Statement User Guide\" for a new shareholder of a listed Indian company. Identify 4 key components of the annual report they must read, 2 red flags to watch for in the Balance Sheet, and 1 question they should ask at the AGM based on the Statement of Profit and Loss. Justify each choice using the objectives of financial statements.",
      "a": "**Key Components (aligned with objectives):**  \n1. **Auditor's Report** (Stewardship/Accountability) — checks if statements give \"true and fair view\".  \n2. **Statement of Profit and Loss** (Performance/Profitability) — assesses earning capacity.  \n3. **Balance Sheet** (Financial Position/Solvency) — evaluates liquidity and leverage.  \n4. **Notes to Accounts (Significant Policies & Estimates)** (Transparency/Comparability) — reveals measurement basis and judgement areas.  \n\n**Red Flags in Balance Sheet:**  \n1. **Sharp rise in Trade Receivables without revenue growth** — may indicate aggressive revenue recognition or collection issues (violates *reliability* and *prudence*).  \n2. **Large \"Other Current Assets\" or \"Loans & Advances\" to related parties** — potential siphoning of funds (violates *stewardship* and *faithful representation*).  \n\n**AGM Question:** \"The company's revenue grew 15% but PAT grew only 2%. Note 28 shows a change in depreciation method from SLM to WDV. Can the Board quantify the impact of this change on current and future profits?\" — Tests *consistency*, *comparability*, and *management accountability*.  \nA poor answer lists generic items without linking to objectives (stewardship, decision-making, accountability) or misses the *qualitative characteristics* (prudence, faithful representation) that justify the red flags.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Financial ______ of a Company are the formal, structured summaries of a company's financial activities and position prepared at the end of an accounting period in accordance with Schedule III of the Companies Act, 2013.",
+     "a": "Statements",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an ______ deciding whether to buy shares of Tata Motors or Reliance.",
+     "a": "investor",
+     "self_check": true
+    },
+    {
+     "q": "What is Financial Statements of a Company? State the definition given in this lesson.",
+     "a": "Financial Statements of a Company are the formal, structured summaries of a company's financial activities and position prepared at the end of an accounting period in accordance with Schedule III of the Companies Act, 2013.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Financial Statements of a Company are the formal, structured summaries of a company's financial activities and position prepared at the end of an accounting period in accordance with Schedule III of the Companies Act, ______.",
+     "a": "2013",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the meaning, nature, and objectives of company financial statements, distinguish them from sole proprietorship/partnership statements, and identify the legal requirement of Schedule III format.",
      "self_check": true
     }
    ]

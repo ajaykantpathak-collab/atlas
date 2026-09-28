@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a battery, a variable resistor (rheostat), an ammeter, and different wires (copper, nichrome, tin-lead solder) to demonstrate the principle of a fuse. Describe the procedure and what you would observe.",
      "a": "Connect the battery, ammeter, rheostat, and test wire in series. Gradually increase current by adjusting the rheostat. Observe and record the current at which each wire melts. The tin-lead solder will melt at the lowest current (demonstrating low melting point), nichrome at a higher current (high melting point), and copper may not melt at all within the battery's capability. A poor answer (e.g., \"measure resistance of wires\" or \"connect in parallel\") shows the student cannot translate the fuse principle into a testable experiment and confuses series/parallel connections.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An electric fuse is a safety device that protects ______ circuits and appliances by melting and breaking the circuit when the current exceeds a specified safe limit, utilizing the heating effect of electric current (Joule heating).",
+     "a": "electrical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ the fuse box in your home or the small glass fuse inside a plug top – notice the thin wire inside a ceramic or glass holder.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why a fuse wire melts when excess current flows, why it must be connected in series with the live wire, and why its material must have a low melting point and appropriate rating for the circuit.",
+     "self_check": true
     }
    ]
   }

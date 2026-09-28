@@ -34,6 +34,26 @@
      "q": "Create a real-life problem (Indian context) that requires direct proportion to solve, involving at least two steps (e.g., first find the constant, then use it for a different quantity). Provide the solution.",
      "a": "Example problem: \"A car uses 5 litres of petrol to travel 75 km. How far can it travel on 12 litres? If petrol costs ₹95 per litre, what is the cost for the 12 litres?\" Solution: Step 1: Distance per litre = 75/5 = 15 km/litre. Step 2: Distance for 12 litres = 15 × 12 = 180 km. Step 3: Cost = 12 × ₹95 = ₹1140. A poor answer would be a one-step problem or a problem that is not direct proportion (e.g., involving inverse proportion), showing the student cannot construct a valid direct proportion scenario.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Direct proportion describes a ______ between two quantities where an increase (or decrease) in one quantity causes a proportional increase (or decrease) in the other, such that their ratio remains constant.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are planning a class trip: 24 students need 6 ______ of juice.",
+     "a": "litres",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently identify real-life situations involving direct proportion, set up the correct proportion equation (or use the unitary method), solve for the unknown quantity, and interpret the answer with appropriate units.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a class trip: 24 students need 6 litres of juice.",
+     "a": "planning",
+     "self_check": true
     }
    ]
   }

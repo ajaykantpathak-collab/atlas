@@ -34,6 +34,21 @@
      "q": "Create a new scenario (different from textbook illustrations) where a partner's Capital Account (Fixed Method) remains unchanged all year, but their Current Account moves from a credit balance to a debit balance. Specify all transactions with amounts and explain the commercial reason this might happen.",
      "a": "**Good Answer Criteria:**\n- Scenario includes: Fixed capital (e.g., ₹10,00,000), opening Current A/c Cr balance (e.g., ₹50,000).\n- Transactions: Drawings exceed (Interest on Capital + Salary/Commission + Profit Share).\n- Example: Drawings ₹3,00,000; Interest on Capital ₹1,20,000; Salary ₹60,000; Profit Share ₹50,000 → Net debit ₹70,000 → Closing Current A/c Dr ₹20,000.\n- Commercial reason: Partner over-drew anticipating higher profits, or firm had a bad year.\n- Capital Account untouched (no additional capital/permanent withdrawal).\n**Why poor answers reveal misunderstanding:** If student includes items in Capital Account, they don't grasp Fixed Method separation. If they omit interest on drawings (when deed provides), they miss a charge. If they say \"Current Account can't go debit\", they don't know it represents a recoverable advance (like a loan to partner).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Maintenance of Partners' Capital and Current Accounts refers to the systematic recording of all transactions affecting a partner's equity in the firm — including capital ______, withdrawals (drawings), share of profits/losses, interest on capital, interest on drawings, salary, commission, and adjustments — using either the Fluctuating Capital Method (single capital account per partner) or the Fixed Capital Method (permanent capital account plus a separate current account for routine transactions).",
+     "a": "contributions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: At year-end, your capital account shows ₹50,00,000 but you also ______ ₹8,00,000 for personal use, earned ₹2,00,000 interest on capital, and were charged ₹60,000 interest on drawings.",
+     "a": "withdrew",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to prepare complete Partner's Capital Account (fluctuating method) and Partner's Capital & Current Accounts (fixed method) from a given set of transactions and adjustments, correctly classifying each item to the appropriate account and showing the closing balance carried down to the Balance Sheet.",
+     "self_check": true
     }
    ]
   }

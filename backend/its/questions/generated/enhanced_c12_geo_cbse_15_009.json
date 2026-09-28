@@ -34,6 +34,31 @@
      "q": "Design a schematic map annotation for a Class 12 board exam answer showing the \"energy corridor\" linking western offshore gas fields to the Indo-Gangetic plain's fertilizer belt via the HVJ pipeline. Include: (a) direction of flow arrows, (b) two branch pipelines to major industrial nodes, (c) one proposed extension under the National Gas Grid to the North East, and (d) a legend explaining line types. Describe the annotation in words (no drawing required).",
      "a": "Expected annotation description: \"Main trunk: solid blue line labeled 'HVJ (GAIL) — 1,700 km' with arrows from Hazira (Gujarat) → Vijaipur (MP) → Jagdishpur (UP). Branch 1: dashed blue line from Vijaipur to Kota (Rajasthan) labeled 'To Chambal Fertilizers & Power'. Branch 2: dashed blue line from Jagdishpur to Haldia (WB) labeled 'Jagdishpur–Haldia–Bokaro–Dhamra Pipeline (JHBDPL) — under execution'. Extension: dotted blue line from Guwahati (Assam) to Siliguri (WB) labeled 'North East Gas Grid — 1,656 km (approved)'. Legend: Solid = Operational trunk; Dashed = Operational spur; Dotted = Approved/under-construction. Arrow direction = gas flow (west to east).\" A poor answer omits flow direction, uses same line style for all, or misses the North East extension — revealing inability to distinguish network hierarchy (trunk vs spur vs planned) critical for board map questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Pipeline transport in India refers to the network of cross-country pipelines used for efficient, continuous, and low-loss ______ of crude oil, petroleum products, and natural gas from production sites (oilfields, gas fields, import terminals) to refineries, fertilizer plants, power plants, and city gas distribution networks, operated primarily by Oil India Limited (OIL) and GAIL (India) Ltd. under the Ministry of Petroleum and Natural Gas.",
+     "a": "transportation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a tanker truck on a highway carrying petrol — note the risk of accidents, traffic congestion, and per-litre ______ cost.",
+     "a": "transport",
+     "self_check": true
+    },
+    {
+     "q": "What is Pipeline transport in India? State the definition given in this lesson.",
+     "a": "Pipeline transport in India refers to the network of cross-country pipelines used for efficient, continuous, and low-loss transportation of crude oil, petroleum products, and natural gas from production sites (oilfields, gas fields, import terminals) to refineries, fertilizer plants, power plants, and city gas distribution networks.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Pipeline transport in India?",
+     "a": "Students believe pipelines are \"just buried pipes\" and that any liquid/gas can be pumped through the same network.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) trace the route and significance of India's three major pipeline networks (Naharkatiya-Barauni-Kanpur, HVJ, and the expanding National Gas Grid) on an outline map of India; (2) explain why pipelines are preferred over rail/road for hydrocarbon transport using quantitative criteria (cost per tonne-km, transit loss.",
+     "self_check": true
     }
    ]
   }

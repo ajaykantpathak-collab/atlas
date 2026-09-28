@@ -34,6 +34,31 @@
      "q": "Create a real-world problem (Indian context) that requires evaluating a trigonometric function for an angle greater than \\(180^\\circ\\) (or \\(\\pi\\) radians). The problem must involve a height or distance calculation and the angle must be in QIII or QIV. Write the problem statement and solve it.",
      "a": "Example problem: \"A drone is flying in a circular path of radius 50 m around a point O on the ground. At a certain instant, the angle of elevation from a point A on the ground (50 m from O) to the drone is measured. If the drone's angular position from the positive x-axis is \\(\\frac{5\\pi}{4}\\) radians, find the drone's height above the ground.\" Solution: The drone's coordinates relative to O are \\((50\\cos\\frac{5\\pi}{4}, 50\\sin\\frac{5\\pi}{4}) = (-\\frac{50}{\\sqrt{2}}, -\\frac{50}{\\sqrt{2}})\\). Height is the y-coordinate: \\(-25\\sqrt{2}\\) m (negative means below the horizontal plane through O). A poor answer would use an acute angle or ignore the sign, showing inability to translate a QIII angle into a physical situation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This definition extends ______ ratios beyond acute angles to all real numbers.",
+     "a": "trigonometric",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ wheel for a mela in Delhi.",
+     "a": "Ferris",
+     "self_check": true
+    },
+    {
+     "q": "What is Trigonometric functions of any angle? State the definition given in this lesson.",
+     "a": "This definition extends trigonometric ratios beyond acute angles to all real numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The wheel has a radius of ______ metres and its centre is at ground level.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Trigonometric functions of any angle?",
+     "a": "Students often treat the reduction formulas mechanically without visualizing the unit circle.",
+     "self_check": true
     }
    ]
   }

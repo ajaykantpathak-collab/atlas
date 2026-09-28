@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a battery, two LEDs, a switch, and connecting wires to demonstrate why appliances in a house are connected in parallel and not in series. Sketch the circuit diagram and explain what you would observe.",
      "a": "**Circuit:** Battery → Switch → two parallel branches, each with an LED (with series resistor). Close the switch: both LEDs glow brightly. Open one LED's branch (remove its wire): the other LED continues to glow with same brightness. **Series comparison:** If the same LEDs were in series, both would glow dimly (shared voltage), and removing one would turn off both. **Observation:** Parallel connection gives each appliance the full supply voltage (220 V) and independent operation. A poor answer (e.g., drawing a series circuit, or saying \"parallel uses less wire\") shows the student cannot translate the household parallel wiring principle to a simple DC model.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A domestic electric circuit is a parallel ______ of electrical appliances connected to a 220 V AC mains supply through three wires: the live wire (brown/red) which carries alternating current at high potential (220 V) from the supply, the neutral wire (blue/black) which completes the circuit by providing a return path at near‑zero potential, and the earth wire (green/yellow) which connects the metallic body of appliances to the ground to safely divert any leakage current and prevent electric shock.",
+     "a": "arrangement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the three‑pin plug of a ______ or iron in your kitchen — you will see three wires of different colours entering the plug.",
+     "a": "refrigerator",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the colour code and function of each wire in a household circuit, explain why switches and fuses must be placed in the live wire, and describe how the earth wire protects a user when a live wire touches a metallic appliance casing.",
+     "self_check": true
     }
    ]
   }

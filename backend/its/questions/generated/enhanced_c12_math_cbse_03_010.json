@@ -34,6 +34,26 @@
      "q": "Create a 3×3 matrix and a sequence of exactly 4 elementary row operations that transforms it into an upper triangular matrix (zeros below main diagonal). Show each step with notation.",
      "a": "Example: A = [[2, 1, 3], [4, 3, 5], [6, 5, 7]].\nStep 1: R₂ → R₂ - 2R₁ → [[2,1,3], [0,1,-1], [6,5,7]]\nStep 2: R₃ → R₃ - 3R₁ → [[2,1,3], [0,1,-1], [0,2,-2]]\nStep 3: R₃ → R₃ - 2R₂ → [[2,1,3], [0,1,-1], [0,0,0]]\nStep 4: R₁ → R₁ - R₂ → [[2,0,4], [0,1,-1], [0,0,0]] (optional cleanup).\nA poor answer uses column operations, skips notation, or produces a non-upper-triangular result — revealing inability to plan a reduction strategy, a key skill for finding inverses and solving systems in competitive exams.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Elementary ______ (or elementary operations) of a matrix are three specific operations that can be applied to the rows or columns of a matrix without changing its fundamental properties (like rank, solution set of associated linear system, or invertibility status).",
+     "a": "transformations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're a cryptographer in Bengaluru trying to decode a ______ encoded as a 3×3 matrix.",
+     "a": "message",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly apply all three types of elementary row/column operations to a given matrix, track the sequence of operations using standard notation, and explain why these operations preserve the solution set of a linear system (or the invertibility of a matrix).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're a ______ in Bengaluru trying to decode a message encoded as a 3×3 matrix.",
+     "a": "cryptographer",
+     "self_check": true
     }
    ]
   }

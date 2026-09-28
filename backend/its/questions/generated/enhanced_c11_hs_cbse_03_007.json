@@ -34,6 +34,36 @@
      "q": "Design a one-day vegetarian menu for a 14-year-old girl (reference weight 48 kg, moderate activity) that meets at least 90% of ICMR 2020 RDAs for energy, protein, iron, and calcium. List food items with raw weights and show the nutrient calculation for one nutrient of your choice.",
      "a": "Sample menu: Breakfast — 60 g wheat flour (chapati), 30 g besan (chilla), 100 ml milk; Lunch — 80 g rice, 30 g moong dal, 100 g spinach, 50 g curd; Snack — 20 g roasted chana, 50 g guava; Dinner — 60 g wheat flour, 30 g rajma, 100 g pumpkin, 50 g curd. Iron calculation: chapati (60 g × 3.9 mg/100g = 2.34) + besan (30 g × 4.9 = 1.47) + rice (80 g × 0.7 = 0.56) + moong (30 g × 3.8 = 1.14) + spinach (100 g × 2.7 = 2.7) + chana (20 g × 5.3 = 1.06) + rajma (30 g × 5.1 = 1.53) = 10.8 mg. RDA for girl 13-15 yr = 28 mg; 10.8/28 = 39% — reveals need for more iron-rich foods. A poor answer omits raw weights, uses cooked weights, or picks a nutrient without showing the full computation chain.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Recommended Dietary Allowances (RDAs) are the estimated nutrient intake levels that meet the requirements of nearly all (97-98%) healthy individuals in a specific life-stage and gender group, ______ a margin of safety above the average physiological requirement to account for individual variability in absorption and utilisation.",
+     "a": "incorporating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a week's tiffin for your 15-year-old sister who plays badminton daily.",
+     "a": "planning",
+     "self_check": true
+    },
+    {
+     "q": "What is Recommended Dietary Allowances (RDAs)? State the definition given in this lesson.",
+     "a": "Recommended Dietary Allowances (RDAs) are the estimated nutrient intake levels that meet the requirements of nearly all (97-98%) healthy individuals in a specific life-stage and gender group, incorporating a margin of safety above the average physiological requirement to account for individual variability in absorption and utilisation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are planning a week's tiffin for your ______-year-old sister who plays badminton daily.",
+     "a": "15",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Recommended Dietary Allowances (RDAs)?",
+     "a": "Students treat RDA as the \"exact daily need\" for a specific person and believe eating exactly the RDA value guarantees adequacy.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly differentiate between nutrient requirement and RDA, explain why a safety margin is added, and use ICMR RDA tables to evaluate whether a given day's diet meets the allowances for a specific adolescent profile.",
+     "self_check": true
     }
    ]
   }

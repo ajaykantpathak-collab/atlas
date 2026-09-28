@@ -26,13 +26,38 @@
      "self_check": true
     },
     {
-     "q": "A government imposes a high tax on sugary aerated drinks, raising their price by 20%. Health experts argue this will increase demand for fresh fruit juices. Evaluate this claim using substitute/complement logic. Consider whether the policy might have unintended effects on complementary goods.",
-     "a": "The claim is valid only if aerated drinks and fruit juices are substitutes — a price rise in aerated drinks should shift demand for juices rightward. However, if consumers view them as distinct categories (e.g., aerated drinks for parties, juices for health), the cross-effect may be weak. Unintended effect: if aerated drinks are often consumed with fast food (complements), higher aerated drink prices could reduce fast food demand, hurting that industry. A wrong answer that ignores complementarity with fast food or assumes perfect substitution reveals incomplete analysis of market interdependencies.",
+     "q": "Trace the correct sequence of cross-demand effects when a tax raises the price of sugary aerated drinks.",
+     "a": "The chain runs: (1) The tax raises the price of aerated drinks (2) Fruit juices become relatively cheaper as substitute goods (3) Consumers switch toward juices and demand rises (4) The juice demand curve shifts rightward at every juice price. A wrong answer that predicts the same rise for a complementary good such as fast food shows the student has reversed the cross-demand rule that complements move opposite to the related good's price while substitutes move together.",
      "self_check": true
     },
     {
      "q": "Create a real-life example from your neighborhood involving three goods: one pair of substitutes and one pair of complements. Draw a rough demand curve diagram for one good showing the shift when the price of its related good changes. Label axes, curves, and shift direction.",
      "a": "Example: Substitutes — bus travel and metro travel (price of bus fare up → metro demand up). Complements — printers and ink cartridges (price of printers down → ink demand up). Diagram for ink cartridges: vertical axis = price of ink, horizontal axis = quantity of ink. Initial demand D1. Printer price falls → demand for printers rises → demand for ink shifts right to D2. A poor answer uses vague goods (e.g., \"food and water\") or draws a movement along the curve instead of a shift, showing inability to apply the concept independently.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Substitute goods are products that satisfy a similar want, so a rise in the price of one increases demand for the other; ______ goods are products used together, so a rise in the price of one decreases demand for the other.",
+     "a": "complementary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small tea stall near a Delhi ______ station.",
+     "a": "Metro",
+     "self_check": true
+    },
+    {
+     "q": "What is Substitute goods? State the definition given in this lesson.",
+     "a": "Substitute goods are products that satisfy a similar want, so a rise in the price of one increases demand for the other; complementary goods are products used together, so a rise in the price of one decreases demand for the other.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly predict the direction of the demand curve shift for a good when given a price change in a related good, justify whether the goods are substitutes or complements using real-world reasoning, and distinguish this shift from a movement along the demand curve caused by the good's own price change.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you run a small tea stall near a Delhi Metro station.",
+     "a": "Imagine",
      "self_check": true
     }
    ]

@@ -34,6 +34,36 @@
      "q": "Design a rainwater harvesting and watershed management plan for a 50-hectare village in semi-arid Maharashtra (annual rainfall 600 mm, black cotton soil, gentle slope). Specify: (a) two rooftop structures for public buildings, (b) three watershed structures with locations, (c) one community rule for sustainable use, and (d) how you will monitor groundwater recharge.",
      "a": "(a) Rooftop structures: (i) School building (roof 300 m²) → recharge pit (3 m × 2 m × 3 m) with filter media; (ii) Panchayat office (roof 200 m²) → storage tank (10,000 L) for drinking water.  \n(b) Watershed structures: (i) Contour trenches along slope breaks (upper catchment) to reduce runoff velocity; (ii) Percolation tank at natural depression (mid-catchment) to store and recharge; (iii) Check dam (gabion) on seasonal stream (lower catchment) to arrest baseflow.  \n(c) Community rule: \"No borewell deeper than 60 m; water-intensive crops (sugarcane, banana) banned; mandatory drip irrigation for all cash crops.\"  \n(d) Monitoring: Install 3 observation wells (upstream, midstream, downstream) with monthly water level logging; compare pre-monsoon/post-monsoon levels annually; track crop yield and well sustainability.  \nA poor answer lists generic structures without locating them topographically (e.g., \"build check dams everywhere\"), omits community rules, or suggests monitoring only through \"villager feedback\" without quantitative water level data.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Modern rainwater harvesting refers to engineered techniques for capturing, storing, and recharging rainwater using structures like rooftop collection systems, recharge pits, recharge wells, percolation tanks, and check dams, often integrated with watershed management — a holistic approach that conserves soil, water, and vegetation within a drainage basin through community ______ to balance natural resources and societal needs.",
+     "a": "participation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ in your neighbourhood during monsoon: water flows off the roof into drains and is lost.",
+     "a": "rooftop",
+     "self_check": true
+    },
+    {
+     "q": "What is Modern rainwater harvesting? State the definition given in this lesson.",
+     "a": "Modern rainwater harvesting refers to engineered techniques for capturing, storing, and recharging rainwater using structures like rooftop collection systems, recharge pits, recharge wells, percolation tanks, and check dams, often integrated with watershed management — a holistic approach that conserves soil, water, and vegetation within.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Recall the formula: Harvestable water (litres) = Roof area (m²) × Annual rainfall (mm) × Runoff coefficient (______ for concrete).",
+     "a": "0.8",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Modern rainwater harvesting?",
+     "a": "Students think \"rainwater harvesting\" and \"watershed management\" are synonymous or that watershed management only means building check dams.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) design a rooftop rainwater harvesting system for a given building by calculating catchment area, rainfall, and storage capacity, and (2) explain how watershed management structures (percolation tanks, check dams, contour trenches) recharge groundwater and reduce soil erosion in a specific Indian physiographic region.",
+     "self_check": true
     }
    ]
   }

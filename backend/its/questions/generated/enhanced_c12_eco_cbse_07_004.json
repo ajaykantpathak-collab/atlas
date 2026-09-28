@@ -34,6 +34,21 @@
      "q": "Construct a four-sector circular flow diagram for an economy where households save ₹200 crore, pay ₹300 crore in taxes, and spend ₹150 crore on imports. Firms invest ₹250 crore. The government spends ₹400 crore. Exports are ₹100 crore. Label all flows, show the equilibrium condition numerically, and state whether the economy is in equilibrium. If not, which direction will income adjust?",
      "a": "Leakages = S + T + M = 200 + 300 + 150 = ₹650 crore. Injections = I + G + X = 250 + 400 + 100 = ₹750 crore. Since leakages (650) < injections (750), the economy is not in equilibrium; there is excess demand. Income will rise (firms experience unplanned inventory depletion, increase output). A good diagram shows households → firms (C), firms → households (factor payments), government ↔ households/firms (T, G, transfers), foreign sector ↔ domestic (X, M). A poor answer draws only three sectors or mislabels M as injection.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The three-sector model extends the circular flow by adding the government sector, which collects taxes (T) from ______ and firms (leakage) and makes government purchases (G) and transfer payments (injection).",
+     "a": "households",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You pay wages to workers (______), buy cotton from farmers, and sell fabric to a retailer.",
+     "a": "households",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can draw a fully labelled four-sector circular flow diagram, write the equilibrium condition Y = C + I + G + (X - M) and its leakage-injection equivalent S + T + M = I + G + X, and explain how a change in any one sector (e.g., a rise in taxes) affects the flow and equilibrium income.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Create an implicit relation f(x, y) = 0 whose derivative dy/dx simplifies to a function of x only (no y). Explain why your example works.",
      "a": "Example: y = x² + 3x (or x² + 3x - y = 0). Then dy/dx = 2x + 3, function of x only. Works because the relation is actually an explicit function in disguise — y appears only linearly with coefficient 1. A poor answer gives something like x² + y² = 1 where dy/dx = -x/y still contains y, showing the student doesn't understand that \"function of x only\" means the original relation must be solvable for y as a single-valued function of x.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An implicit function is a ______ between variables x and y expressed as f(x, y) = 0 where y cannot be easily isolated as y = g(x).",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're designing a roller coaster track where the shape is given by x² + y² = 25 (a ______).",
+     "a": "circle",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An implicit function is a relationship between variables x and y expressed as f(x, y) = ______ where y cannot be easily isolated as y = g(x).",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can differentiate implicit relations of the form f(x, y) = 0 to find dy/dx, correctly apply chain rule to terms containing y, solve algebraically for dy/dx, and interpret the result geometrically as the slope of the tangent to the curve at any point.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're ______ a roller coaster track where the shape is given by x² + y² = 25 (a circle).",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

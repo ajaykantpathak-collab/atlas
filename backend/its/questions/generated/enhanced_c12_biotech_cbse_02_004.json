@@ -34,6 +34,36 @@
      "q": "Design a cloning strategy to insert a blunt-ended PCR product (no 5'-phosphates) into a plasmid vector linearized with EcoRV (blunt ends). Specify every enzyme treatment, order, and reason.",
      "a": "1. Treat vector with alkaline phosphatase (prevents self-ligation of blunt ends). 2. Treat PCR product with T4 polynucleotide kinase (adds 5'-phosphates required for ligation). 3. Ligate with T4 DNA ligase. 4. Transform. Alternative: Use a PCR product amplified with phosphorylated primers (skip kinase). A poor answer omits kinase, uses phosphatase on insert, or suggests cohesive-end enzymes for blunt ends — showing inability to integrate enzyme functions into a complete workflow.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Alkaline phosphatase is a DNA-modifying enzyme that catalyzes the removal of 5'-phosphate groups from DNA, RNA, and ribo- and ______, preventing self-ligation of vector DNA during cloning; other key DNA-modifying enzymes include T4 polynucleotide kinase (adds 5'-phosphates), terminal deoxynucleotidyl transferase (adds homopolymer tails), S1 nuclease (degrades single-stranded DNA), and DNA polymerase I/Klenow fragment (fills in 5' overhangs or degrades 3' overhangs).",
+     "a": "deoxyribonucleotides",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have cut your plasmid vector with EcoRI and want to insert a gene ______ also cut with EcoRI.",
+     "a": "fragment",
+     "self_check": true
+    },
+    {
+     "q": "What is Alkaline phosphatase? State the definition given in this lesson.",
+     "a": "Alkaline phosphatase is a DNA-modifying enzyme that catalyzes the removal of 5'-phosphate groups from DNA, RNA, and ribo- and deoxyribonucleotides, preventing self-ligation of vector DNA during cloning; other key DNA-modifying enzymes include T4 polynucleotide kinase (adds 5'-phosphates), terminal deoxynucleotidyl transferase (adds.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Alkaline phosphatase is the answer: it snips off the ______'-phosphate groups from the vector ends, so DNA ligase cannot form the phosphodiester bond.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Alkaline phosphatase?",
+     "a": "Students often believe alkaline phosphatase \"destroys\" DNA ends or that it acts on 3' ends.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the specific role of alkaline phosphatase in preventing vector self-ligation, distinguish its action from T4 polynucleotide kinase, and design a cloning strategy that selects the appropriate DNA-modifying enzyme for a given restriction digest scenario (blunt vs sticky ends, directional vs non-directional cloning).",
+     "self_check": true
     }
    ]
   }

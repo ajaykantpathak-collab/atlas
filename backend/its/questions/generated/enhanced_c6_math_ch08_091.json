@@ -34,6 +34,31 @@
      "q": "Design a box that has a volume of 36 cm³. What could be its possible dimensions?",
      "a": "Any three numbers that multiply to 36 (e.g., 6 × 3 × 2, or 9 × 2 × 2, or 4 × 3 × 3). A poor answer would be a single number (like 36) or an incorrect set of factors, indicating a lack of understanding of the volume formula.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Volume is the measure of the total amount of space inside a three-______ object.",
+     "a": "dimensional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a cardboard box and you want to fill it with small, solid ______ blocks that are each 1 cm long, 1 cm wide, and 1 cm high.",
+     "a": "wooden",
+     "self_check": true
+    },
+    {
+     "q": "What is Volume? State the definition given in this lesson.",
+     "a": "Volume is the measure of the total amount of space inside a three-dimensional object.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Volume?",
+     "a": "Students often confuse \"Perimeter,\" \"Area,\" and \"Volume.\" They might try to add the dimensions (l + w + h) or multiply only two (l × w) when asked for volume.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to calculate the volume of a given cuboid or cube by identifying its dimensions and applying the correct formula.",
+     "self_check": true
     }
    ]
   }

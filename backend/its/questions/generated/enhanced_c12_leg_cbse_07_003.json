@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_07_003",
+   "title": "c12_leg_cbse_07_003",
+   "questions": [
+    {
+     "q": "In the *Oleum Gas Leak Case (M.C. Mehta v. Union of India, 1987)*, the Supreme Court held that an enterprise engaged in hazardous activity is *absolutely liable* — meaning it cannot plead which of the following defences? (a) Act of God (b) Plaintiff’s own fault (c) Sabotage by a stranger (d) All of the above",
+     "a": "Correct answer: **(d) All of the above**. The Court explicitly ruled that *no exceptions* — not Act of God, not plaintiff’s fault, not third-party sabotage — are available in absolute liability. A wrong answer (e.g., choosing only 'Act of God') reveals the student is confusing **Strict Liability** (Rylands v. Fletcher, which *allows* these defences) with **Absolute Liability** (which rejects them entirely). This is the single most tested distinction in Board and CUET exams.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the Supreme Court in *M.C. Mehta v. Union of India (Ganga Pollution Case)* ordered the closure of polluting tanneries in Kanpur *before* they installed effluent treatment plants, rather than giving them time to comply.",
+     "a": "Correct answer: The Court prioritized the **right to life under Article 21** (which includes right to clean water and health) over the commercial interests of the tanneries. It held that allowing them to continue polluting *while* building treatment plants would cause irreversible harm to millions dependent on the Ganga — the damage was ongoing and severe, so *preventive* closure was necessary. A weak answer (e.g., \"the Court was strict\") shows the student misses the **constitutional reasoning**: the Court balanced *sustainable development* (development that doesn’t destroy ecology) and ruled that economic activity cannot trump fundamental rights. This is the core of the *Polluter Pays Principle* in action.",
+     "self_check": true
+    },
+    {
+     "q": "A new fertilizer factory is proposed near a residential area in a State. The State Government grants clearance citing employment generation. An NGO files a PIL in the High Court under Article 226. Applying the *Oleum Gas Leak* and *Vellore Citizens* principles, what *two* arguments should the NGO raise to challenge the clearance?",
+     "a": "Correct answer:  \n1. **Absolute Liability argument**: The factory involves inherently dangerous activity (hazardous chemicals); even with safety measures, *escape is not necessary* for liability — the enterprise bears absolute, non-delegable duty to prevent harm (*M.C. Mehta v. Union of India, Oleum Gas Leak*).  \n2. **Precautionary Principle argument**: The State must *anticipate, prevent, and attack* causes of environmental degradation *before* they occur — lack of scientific certainty cannot be a reason to postpone preventive measures (*Vellore Citizens Welfare Forum v. Union of India*).  \nA wrong answer focusing only on \"pollution control laws\" or \"EIA notification\" shows the student cannot **apply constitutional doctrines** (Article 21, Absolute Liability, Precautionary Principle) to a fresh fact scenario — a key Board/CUET skill.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the *Taj Trapezium Case (M.C. Mehta v. Union of India, 1996)* and the *Ganga Pollution Case* on the following: (a) the environmental threat addressed, (b) the constitutional provision invoked, (c) the principle of sustainable development applied. Present as a 3-row table.",
+     "a": "Correct answer:  \n| Aspect | Taj Trapezium Case | Ganga Pollution Case |  \n|--------|-------------------|----------------------|  \n| (a) Environmental threat | Air pollution (SO₂, NOₓ) corroding Taj Mahal’s marble | Water pollution (industrial effluents, sewage) destroying Ganga’s ecology |  \n| (b) Constitutional provision | Article 21 (right to life → right to heritage/culture) + Article 49 (protection of monuments) | Article 21 (right to life → right to clean water/health) + Article 48A (environment protection) |  \n| (c) Sustainable development principle | **Balancing**: Heritage preservation ≠ anti-development; ordered relocation of industries to *new* industrial zones with gas-based fuel — development *with* ecology | **Polluter Pays + Precautionary**: Industries must internalize pollution costs (install ETPs or shut); State must enforce *before* damage becomes irreversible |  \nA poor answer that lists only \"pollution\" or \"Article 21\" for both shows the student cannot **analyze** how the *same constitutional tool* (Article 21) was adapted to *different ecological contexts* (heritage vs. public health) — a hallmark of high-order Board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: *\"The Supreme Court’s expansion of Article 21 to include environmental rights is judicial overreach — it encroaches on the legislature’s domain to make environmental laws.\"* Use at least two landmark cases to support your evaluation.",
+     "a": "Correct evaluation: **The statement is flawed.** The Court did not *legislate*; it *interpreted* Article 21’s \"procedure established by law\" to mean \"fair, just, and reasonable procedure\" (*Maneka Gandhi*), then read \"right to life\" as including *right to clean environment, livelihood, health* because without these, life is meaningless. In *Rural Litigation & Entitlement Kendra v. State of UP (Doon Valley)*, the Court stopped limestone mining citing Article 21 — not to make policy, but to enforce a *constitutional guarantee* the executive failed to protect. In *Vellore Citizens*, it imported *Precautionary Principle* and *Polluter Pays* from *international customary law* (which Article 51(c) directs India to respect) into domestic law. This is **judicial activism**, not overreach — filling the vacuum where legislature/executive failed. A student calling it \"overreach\" without distinguishing *activism* (interpreting gaps) from *overreach* (making policy) shows misunderstanding of **separation of powers in a common law system** where courts *create* binding precedent.",
+     "self_check": true
+    },
+    {
+     "q": "Create a *new* fact scenario (3-4 sentences) involving a modern environmental threat (e.g., plastic waste, e-waste, groundwater depletion) where the **Polluter Pays Principle** and **Absolute Liability** would *both* apply. Identify the polluter, the victims, and the constitutional right violated.",
+     "a": "Expected answer criteria:  \n- Scenario must involve a **commercial enterprise** conducting **inherently hazardous activity** (e.g., e-waste recycling using acid baths releasing heavy metals into groundwater).  \n- **Polluter** = enterprise (e.g., \"GreenTech Recyclers Pvt. Ltd.\").  \n- **Victims** = nearby villagers using contaminated groundwater (health effects: cancer, skin diseases).  \n- **Constitutional right** = Article 21 (right to life → right to clean water/health).  \n- **Absolute Liability** applies because activity is inherently dangerous (acid baths, toxic fumes) — no defence of \"we followed rules.\"  \n- **Polluter Pays** applies because enterprise must bear *full cost* of remediation (groundwater cleanup, medical care, compensation) — not the State or victims.  \nA poor answer that describes a *car accident* or *municipal garbage dump* (not inherently hazardous *commercial* activity) shows the student cannot **distinguish** the narrow scope of Absolute Liability (enterprise + hazardous activity) from general negligence.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

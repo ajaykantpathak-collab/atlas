@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a flowering plant (e.g., *Vinca* or *Petunia*) to demonstrate that both male gametes are functional and participate in fertilization. Outline the steps and the expected observation that would confirm double fertilization.",
      "a": "1) Collect freshly opened flowers and emasculate them (remove anthers) to prevent self-pollination. 2) Bag the emasculated flowers. 3) When stigma is receptive, pollinate with pollen from a plant homozygous for a visible genetic marker (e.g., flower color, seed shape). 4) After 24–48 hours, fix ovules and stain with acetocarmine or DAPI to visualize nuclei. 5) Observe embryo sacs under microscope: look for a zygote (2n) and a primary endosperm nucleus (3n) in the same embryo sac. 6) Confirm by allowing seeds to mature and checking for marker expression in both embryo and endosperm. A poor answer (e.g., \"just look at seeds\") reveals inability to design a controlled experiment that directly observes the *process*, not just the outcome.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Fertilization in ______ plants is the process of double fertilization where one male gamete fuses with the egg cell (syngamy) to form a diploid zygote, and the other male gamete fuses with the two polar nuclei in the central cell (triple fusion) to form a triploid primary endosperm nucleus (PEN), both occurring within the embryo sac after pollen tube entry.",
+     "a": "flowering",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by ______ a student a time-lapse video of a pollen tube growing down a style and entering an ovule — a real process captured in labs studying crops like tomato or maize.",
+     "a": "showing",
+     "self_check": true
+    },
+    {
+     "q": "What is Fertilization in flowering plants? State the definition given in this lesson.",
+     "a": "Fertilization in flowering plants is the process of double fertilization where one male gamete fuses with the egg cell (syngamy) to form a diploid zygote, and the other male gamete fuses with the two polar nuclei in the central cell (triple fusion) to form a triploid primary endosperm nucleus (PEN), both occurring within the embryo sac.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Fertilization in flowering plants?",
+     "a": "Students often think the two male gametes are identical and interchangeable, so it doesn't matter which fuses with the egg and which with the polar nuclei.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the sequence of events in double fertilization, identify the nuclei involved in syngamy and triple fusion, and articulate the significance of each fusion product for seed development.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a new auxiliary service that could remove a modern hindrance in e-commerce not explicitly covered by the traditional five auxiliaries. Name the hindrance it removes and explain its operation.",
      "a": "Example: \"Digital Trust Verification Service\" — removes the hindrance of trust/information asymmetry in online transactions (e.g., fake reviews, counterfeit goods, seller authenticity). It operates as a blockchain-based reputation ledger that verifies seller credentials, product authenticity, and genuine buyer reviews across platforms. A poor answer would propose a service already covered (e.g., \"faster delivery\" = transport) or one that doesn't map to a clear hindrance. This tests the student's ability to extend the hindrance framework to contemporary business models.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Commerce is the branch of business that encompasses all activities necessary for facilitating the exchange of goods and services from producers to consumers, comprising trade (buying and selling) and auxiliaries to trade (transport, banking, insurance, warehousing, advertising, and ______) which remove hindrances of persons, place, time, risk, finance, and information in the process of exchange.",
+     "a": "communication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a mango ______ in Ratnagiri, Maharashtra.",
+     "a": "farmer",
+     "self_check": true
+    },
+    {
+     "q": "What is Commerce? State the definition given in this lesson.",
+     "a": "Commerce is the branch of business that encompasses all activities necessary for facilitating the exchange of goods and services from producers to consumers, comprising trade (buying and selling) and auxiliaries to trade (transport, banking, insurance, warehousing, advertising, and communication) which remove hindrances of persons.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Commerce?",
+     "a": "Students often memorize the list of auxiliaries (transport, banking, insurance, warehousing, advertising) as isolated definitions without understanding the unifying concept: each auxiliary exists to remove a SPECIFIC hindrance in the exchange process.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) distinguish between trade and auxiliaries to trade with examples, (2) explain how each auxiliary removes a specific hindrance in the exchange process, and (3) classify a given business activity as either trade or a specific auxiliary to trade with justification.",
+     "self_check": true
     }
    ]
   }

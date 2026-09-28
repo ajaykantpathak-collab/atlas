@@ -34,6 +34,26 @@
      "q": "Design a multi-functional furniture piece for a 20 m² studio apartment that serves as a bed (for one adult), a wardrobe, and a work desk. Describe its key features, dimensions, materials, and how it would be arranged in the room.",
      "a": "Expected answer: A loft bed (sleeping area 2 m × 1 m, raised 1.8 m high) with a built-in wardrobe underneath (1 m deep, full width) and a pull-out desk (1 m × 0.6 m) on sliding rails that extends from the wardrobe face. Frame: 18 mm BWP plywood with laminate finish; mattress: 150 mm high-density foam. Ladder doubles as storage shelves. Arrangement: Place the unit against the longest wall (4 m), leaving 2.5 m × 3 m clear floor for living/dining. A poor answer that simply lists \"sofa-bed + separate desk + wardrobe\" misses the integration challenge and space-saving requirement of a studio.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Furniture and furnishings selection criteria and ______ refers to the systematic process of choosing appropriate furniture (e.g., beds, tables, chairs, storage units) and soft furnishings (e.g., curtains, upholstery, bedding, rugs) based on functional needs, ergonomic fit, aesthetic harmony, durability, maintenance, and budget, and then positioning them within a space to optimize traffic flow, visual balance, proportion, and user comfort.",
+     "a": "arrangement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping a family furnish their new 2BHK ______ on a modest budget.",
+     "a": "apartment",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping a family furnish their new ______BHK apartment on a modest budget.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can evaluate a given room scenario (dimensions, user profile, budget, activities) and produce a justified furniture selection list and a scaled layout plan that satisfies functional, ergonomic, aesthetic, and financial constraints.",
+     "self_check": true
     }
    ]
   }

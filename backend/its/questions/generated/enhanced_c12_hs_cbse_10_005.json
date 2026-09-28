@@ -34,6 +34,31 @@
      "q": "Design a 1600 kcal diabetic meal plan (55% carb, 20% protein, 25% fat) using ICMR exchanges for a vegetarian North Indian adult. Show exchange distribution across 4 meals and give one sample menu with raw weights.",
      "a": "Step 1: Total kcal = 1600. Carb = 880 kcal (220g), Protein = 320 kcal (80g), Fat = 400 kcal (44g). Step 2: Use exchange values: Cereal (80 kcal, 15g carb, 3g protein, 0.5g fat), Pulse (80 kcal, 15g carb, 6g protein, 0.5g fat), Milk-toned (100 kcal, 12g carb, 6g protein, 6g fat), Fat (45 kcal, 0g carb, 0g protein, 5g fat), Sugar (20 kcal, 5g carb), Vegetable (25 kcal, 3g carb, 1g protein), Fruit (40 kcal, 10g carb). Step 3: Fix milk = 2 exchanges (200 kcal). Remaining: 1400 kcal. Step 4: Solve iteratively: Cereal 7 (560), Pulse 3 (240), Vegetable 4 (100), Fruit 2 (80), Fat 5 (225), Sugar 1 (20) = 1225 kcal — short. Adjust: Cereal 8, Pulse 3, Veg 4, Fruit 2, Fat 5, Sugar 1 = 1305 + 200 milk = 1505. Add 1 cereal = 1585. Close. Sample menu: Breakfast: 2 cereal (60g wheat flour → 2 rotis) + 1 pulse (30g moong dal chilla) + 1 veg (50g spinach) + 1 fat (5g oil); Lunch: 3 cereal (90g rice) + 1 pulse (30g rajma) + 2 veg (100g mixed) + 1 fat (5g ghee); Snack: 1 fruit (100g guava) + 1 milk (150ml toned); Dinner: 2 cereal (60g wheat) + 1 pulse (30g chana) + 1 veg (50g lauki) + 1 fat (5g oil) + 1 sugar (5g jaggery in tea) + 1 milk (150ml toned). A poor answer gives only exchanges without a culturally coherent menu or ignores raw weights.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Food Exchange Lists are a meal planning tool that categorizes foods into groups (exchanges) based on similar ______ composition (carbohydrates, proteins, fats) and energy value per standardized portion, allowing foods within the same list to be substituted for one another while maintaining consistent nutrient intake for therapeutic or balanced diet planning.",
+     "a": "macronutrient",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 45-year-old office worker diagnosed with Type 2 diabetes — the doctor prescribes \"1800 kcal with 55% carbs, 15% protein, 30% fat\" but the patient doesn't know how to translate that into daily rotis, dal, ______, and oil.",
+     "a": "vegetables",
+     "self_check": true
+    },
+    {
+     "q": "What is Food Exchange Lists? State the definition given in this lesson.",
+     "a": "Food Exchange Lists are a meal planning tool that categorizes foods into groups (exchanges) based on similar macronutrient composition (carbohydrates, proteins, fats) and energy value per standardized portion, allowing foods within the same list to be substituted for one another while maintaining consistent nutrient intake for.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Food Exchange Lists?",
+     "a": "Students believe \"1 exchange = 1 serving of that food as eaten\" — e.g., they think 1 cereal exchange = 1 cooked roti (≈30g cooked) instead of 30g raw wheat flour (which yields ~1 medium roti).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) classify any given Indian food item into the correct exchange list (cereal, pulse, vegetable, fruit, milk, fat, sugar) with its standard portion size, (2) calculate the number of exchanges from each list required to meet a prescribed calorie and macronutrient target, and (3) construct a one-day menu for a specific.",
+     "self_check": true
     }
    ]
   }

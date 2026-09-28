@@ -26,13 +26,43 @@
      "self_check": true
     },
     {
-     "q": "Avtar signs a contract with SteelCo for 10 tonnes of special alloy at ₹2 crore during promotion. The company is incorporated six months later. The Board refuses to ratify the contract. SteelCo sues the company. Who is liable, and why? Evaluate the company's defence that \"the contract was signed before incorporation.\"",
-     "a": "Avtar (promoter) is personally liable; the company is not liable. Preliminary contracts (pre-incorporation contracts) are not binding on the company—even after incorporation—because the company lacked legal personality at the time of contracting. The company cannot ratify a preliminary contract; it can only enter a fresh contract. The company's defence succeeds: the contract is void ab initio against the company. A wrong answer holding the company liable reveals misunderstanding that incorporation validates prior acts—the certificate of incorporation is conclusive evidence of legal birth from its date, not retroactive validation of promoter's acts.",
+     "q": "Give the correct order of reasoning that decides who bears liability for a promoter's contract signed before incorporation.",
+     "a": "The reasoning runs: (1) The promoter signs the alloy contract while the company is still unborn (2) An unincorporated company has no legal personality to be bound (3) The Board's refusal to ratify leaves the preliminary contract void against the company (4) Liability therefore falls personally on the promoter, and only a fresh contract after incorporation can bind the company. A wrong answer that holds the company liable shows the student has missed that pre-incorporation contracts cannot be ratified into existence.",
      "self_check": true
     },
     {
      "q": "Design a 6-step promotion plan for a startup proposing to manufacture biodegradable packaging from agricultural waste in Punjab. For each step, specify: (i) the action, (ii) the legal requirement from Companies Act, 2013, (iii) the professional needed, and (iv) the risk if skipped.",
      "a": "A strong answer will map all six NCERT steps to the specific context:\n1. Opportunity identification → waste availability study → agricultural expert → risk: raw material shortage\n2. Feasibility studies (technical: pulping tech; financial: ₹30 cr capex; economic: margin vs plastic) → engineers, CAs → risk: unviable project\n3. Name approval (INC-1, 3 names) → ROC Punjab → CS → risk: rejection, delay\n4. Fix MoA signatories (min 7 for public, 2 for private) → first directors, qualification shares → CA/CS → risk: invalid MoA\n5. Appoint professionals (merchant banker, auditor, CS) → statutory compliance → risk: defective filings\n6. Prepare documents (MoA, AoA, consent, declaration, fee) → Schedule I tables, Section 7 → CS/advocate → risk: registration refusal\nA poor answer listing generic steps without legal specifics or context reveals inability to apply the framework to a novel scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Promotion of a company is the first stage in company formation where a person or group conceives a business opportunity, analyses its technical, financial, and economic feasibility, assembles resources (men, materials, machinery, managerial ability, finance), and undertakes all preliminary steps—including name approval, fixing signatories to the Memorandum, appointing ______, and preparing registration documents—to bring a company into legal existence.",
+     "a": "professionals",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine Avtar, the automobile engineer from your textbook, who invented a ______ reducing petrol consumption by 40%.",
+     "a": "carburettor",
+     "self_check": true
+    },
+    {
+     "q": "What is Promotion of a company? State the definition given in this lesson.",
+     "a": "Promotion of a company is the first stage in company formation where a person or group conceives a business opportunity, analyses its technical, financial, and economic feasibility, assembles resources (men, materials, machinery, managerial ability, finance), and undertakes all preliminary steps—including name approval, fixing.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: He needs ₹______ crore to manufacture it—too large for a sole proprietorship or partnership.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Promotion of a company?",
+     "a": "Students conflate \"promoter\" with \"entrepreneur\" or \"founder-director.\" They assume: (1) The person who has the business idea automatically becomes a director; (2) Professionals (CA, CS, lawyers) assisting in incorporation are promoters; (3) Preliminary contracts become binding on the company after incorporation through ratification.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Define promotion and identify it as the first of three stages in company formation; (2) List and explain all six steps of promotion in correct sequence with their legal requirements; (3) Distinguish a promoter from an entrepreneur, director, or professional advisor using Section 69 criteria; (4) Explain.",
      "self_check": true
     }
    ]

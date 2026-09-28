@@ -34,6 +34,31 @@
      "q": "Create a real-life scenario involving two quantities that are in direct proportion. Then create a second scenario where the two quantities increase together but are NOT in direct proportion. Explain how you would verify each.",
      "a": "Example of direct proportion: Distance travelled at constant speed vs time (ratio = speed, constant). Verification: check \\(\\frac{\\text{distance}}{\\text{time}}\\) for several pairs.  \nExample of non-proportional increase: Total money in a piggy bank where you add ₹10 every week but started with ₹50. After \\(w\\) weeks, money = \\(50 + 10w\\). Ratio \\(\\frac{\\text{money}}{w}\\) changes. Verification: compute ratio for \\(w=1,2,3\\) and see it's not constant.  \nA poor answer gives two proportional scenarios or cannot explain verification, showing the student cannot distinguish constant ratio from mere co-variation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Two quantities are in direct proportion if they increase or decrease together in such a way that the ratio of their ______ values remains constant.",
+     "a": "corresponding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Notice that as the weight increases, the cost increases in exactly the same ______ — the ratio of cost to weight is always 60.",
+     "a": "proportion",
+     "self_check": true
+    },
+    {
+     "q": "What is Two quantities? State the definition given in this lesson.",
+     "a": "Two quantities are in direct proportion if they increase or decrease together in such a way that the ratio of their corresponding values remains constant.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you go to a fruit market where apples cost ₹______ per kilogram.",
+     "a": "60",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Two quantities?",
+     "a": "Students often believe that if two quantities both increase (or both decrease), they are in direct proportion.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a 3-step feedback mechanism for a school's new mid-day menu announcement (sent via WhatsApp to parents) that ensures: (i) receipt confirmation, (ii) comprehension check, and (iii) preference input — all within the SMCRE cycle. Specify the receiver action and source response at each step.",
      "a": "**Expected answer (sample):**  \n| Step | Receiver Action (Feedback) | Source Response (Recast/Terminate) | SMCRE Link |  \n|------|----------------------------|-----------------------------------|------------|  \n| 1. Receipt | Parent replies \"Received\" (emoji/click) | Logs delivery; if <90% receipt in 2 hrs, resends via SMS (channel recast) | **Effect → Source** (channel check) |  \n| 2. Comprehension | Parent answers 1 MCQ: \"Which day has egg?\" | If >20% wrong, sends visual menu chart (message recast: simpler encoding) | **Effect → Source** (decoding check) |  \n| 3. Preference | Parent votes: \"Keep egg / Replace with paneer\" | Compiles data; if >60% want change, revises menu (message + objective recast) | **Effect → Source** (objective alignment) |  \n\n**Criteria for good answer:** Must show **three distinct feedback types** (receipt, comprehension, preference), each triggering a **specific source decision** (channel/message/objective recast), and explicitly map to the SMCRE cycle's \"effect → source\" loop.  \n**What a poor answer reveals:** A single \"reply with suggestions\" step conflates all feedback types, missing that the textbook treats feedback as **multi-layered** (TRPs = reach, letters = comprehension, ratings = preference) — each layer informs a different recast level.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In the SMCRE model, the Receiver is the intended target audience who decodes and interprets the message sent through a channel, and Feedback is the receiver's response transmitted back to the source, completing the ______ cycle and enabling the source to assess message effectiveness.",
+     "a": "communication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're a Class 11 student explaining a science project to your grandmother in ______ while she knits — she nods, asks \"Beta, yeh kaise kaam karta hai?\", and you rephrase using a kitchen analogy.",
+     "a": "Hindi",
+     "self_check": true
+    },
+    {
+     "q": "What is In the SMCRE model, the Receiver? State the definition given in this lesson.",
+     "a": "In the SMCRE model, the Receiver is the intended target audience who decodes and interprets the message sent through a channel, and Feedback is the receiver's response transmitted back to the source, completing the communication cycle and enabling the source to assess message effectiveness.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about In the SMCRE model, the Receiver?",
+     "a": "Students believe feedback = reply (any response from receiver).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Explain how receiver characteristics (homogeneity, prior knowledge, attitude) affect decoding accuracy, and (2) Classify feedback types (immediate/delayed, direct/indirect, positive/negative) and explain how each influences the source's decision to recast or terminate the message.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Create your own example of a sentence that looks like a statement but is not, due to a hidden ambiguity or subjectivity. Explain why it fails the definition.",
      "a": "Example: \"This triangle is large.\" It fails because \"large\" is subjective and context-dependent; there is no objective criterion to assign a definite truth value. A poor answer would give a sentence that is clearly a command or question, missing the nuance of apparent declarative sentences that lack objective truth conditions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A mathematical statement is a declarative sentence that is either true or false, but not both ______.",
+     "a": "simultaneously",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your friend says: \"The square of any integer is always ______.\" You wonder: Is this a sentence we can definitively label as true or false?",
+     "a": "positive",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify any given sentence as a statement or non-statement, justify the classification by referencing the requirement of a definite truth value, and determine the truth value of simple mathematical statements.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your friend says: \"The square of any integer is always positive.\" You wonder: Is this a sentence we can ______ label as true or false?",
+     "a": "definitively",
+     "self_check": true
     }
    ]
   }

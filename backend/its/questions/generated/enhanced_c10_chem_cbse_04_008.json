@@ -34,6 +34,36 @@
      "q": "Design a structural formula for a C₅H₁₀O compound that is an aldehyde and has a methyl branch. Write its IUPAC name and explain why your chosen structure satisfies both the molecular formula and the naming rules.",
      "a": "**Structure:** CH₃-CH(CH₃)-CH₂-CHO (3-Methylbutanal).\n**Reasoning:**\n1. Aldehyde group (-CHO) must be at the end → C1 is CHO.\n2. Need total 5 carbons: C1 (CHO) + 3 more in chain + 1 branch = 5C.\n3. To have a methyl branch, the chain must be at least 3 carbons long after C1. Choose chain: C1-CHO, C2-CH₂, C3-CH(CH₃), C4-CH₃ → 4-carbon chain (butanal) with methyl on C3.\n4. Formula check: C5H10O (C5, H: 1+2+1+3 = 7 on chain + 3 on methyl = 10, O:1). Correct.\n5. Name: Root **butan** (4C chain including CHO), suffix **-al** (aldehyde at C1), prefix **3-methyl**. → **3-Methylbutanal**.\nA poor answer draws a ketone (e.g., pentan-2-one) — wrong functional group. Or draws a 5-carbon chain aldehyde (pentanal) — no branch. Or numbers the branch as 2-methylbutanal (wrong numbering: aldehyde carbon is always C1, so branch on C2 would be CH₃-CH(CH₃)-CH₂-CHO? Wait, that IS 3-methylbutanal if chain is 4C. If they make chain 5C: CH₃-CH₂-CH₂-CH(CH₃)-CHO → that's 2-methylpentanal? Let's check: C1 CHO, C2 CH(CH₃), C3 CH₂, C4 CH₂, C5 CH₃ → 5C chain, methyl on C2 → 2-Methylpentanal. That also works! C6H12O? No, C6. So for C5, only 3-methylbutanal or 2-methylbutanal? 2-Methylbutanal: CH₃-CH₂-CH(CH₃)-CHO. Chain: C1 CHO, C2 CH(CH₃), C3 CH₂, C4 CH₃ → 4C chain? No, that's 4 carbons in chain including CHO. So butanal. Methyl on C2 → 2-Methylbutanal. Formula: C5H10O. Correct. So both 2-methylbutanal and 3-methylbutanal are valid answers. The student must show one valid structure and name it correctly.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: IUPAC nomenclature is a systematic method for naming organic compounds by identifying the longest continuous carbon chain (parent chain), the functional group (which determines the suffix), and the positions of substituents (prefixes) using the lowest set of locants, ensuring each compound has a unique, unambiguous name accepted ______.",
+     "a": "internationally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are reading the label of a medicine bottle — \"Paracetamol\" is its common name, but its ______ name is *N-(4-hydroxyphenyl)acetamide*.",
+     "a": "systematic",
+     "self_check": true
+    },
+    {
+     "q": "What is IUPAC nomenclature? State the definition given in this lesson.",
+     "a": "IUPAC nomenclature is a systematic method for naming organic compounds by identifying the longest continuous carbon chain (parent chain), the functional group (which determines the suffix), and the positions of substituents (prefixes) using the lowest set of locants, ensuring each compound has a unique, unambiguous name accepted.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are reading the label of a medicine bottle — \"Paracetamol\" is its common name, but its systematic name is *N-(______-hydroxyphenyl)acetamide*.",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about IUPAC nomenclature?",
+     "a": "Students always number the carbon chain from the end nearest to the first alkyl substituent (branch) instead of from the end nearest to the functional group or double/triple bond.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently write the correct IUPAC name for any given structural formula of a saturated/unsaturated hydrocarbon or a compound containing one functional group (alcohol, aldehyde, ketone, carboxylic acid, halide) up to 8 carbons, including numbering the chain correctly, applying the 'lowest sum of locants' rule, and.",
+     "self_check": true
     }
    ]
   }

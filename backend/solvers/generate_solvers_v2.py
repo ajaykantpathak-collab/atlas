@@ -6,7 +6,9 @@ import json, time, urllib.request, ssl, os, sys, subprocess
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-API_KEY = 'sk-ant-co-QsK1rhxdfRWZ65OJ5cVxaAZ5ISNUY0lK'
+import os
+API_KEY = os.environ.get('CLAUDE_API_KEY') or os.environ.get('ANTHROPIC_API_KEY')
+assert API_KEY, 'set CLAUDE_API_KEY/ANTHROPIC_API_KEY'
 API_URL = 'https://api.claudeopus.pro/v1/messages'
 MODEL_CRITICAL = 'claude-fable-5'
 MODEL_NORMAL = 'claude-opus-5'

@@ -34,6 +34,26 @@
      "q": "Create a real-world problem where a drone flies from the origin (0,0) to a straight power line. The drone's path makes an angle of 60° with the positive x-axis and the shortest distance to the power line is 100 meters. Write the equation of the power line in normal form. Then, if the drone instead flies at angle 150° to reach the same line, what would be the new shortest distance? Explain.",
      "a": "Normal form: x cos 60° + y sin 60° = 100 → (1/2)x + (√3/2)y = 100. This is the power line's equation. If the drone flies at 150°, the angle between the new path (150°) and the normal (60°) is 90°, meaning the drone would be flying parallel to the power line, never reaching it! The shortest distance from origin to line is fixed at 100 m regardless of approach angle. The normal form uniquely defines the line with α = 60°, p = 100. Any other approach angle θ gives distance p/|cos(θ - α)|. For θ = 150°, distance = 100/|cos(90°)| = undefined (infinite). A poor answer giving a different p value shows the student thinks p changes with approach angle, not understanding p is an invariant property of the line.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The normal form of a straight line is the equation x cos α + y sin α = p, where p is the perpendicular distance from the origin to the line (p ≥ 0), and α is the angle that this perpendicular makes with the positive ______ of the x-axis (0 ≤ α < 2π).",
+     "a": "direction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a surveyor ______ at the origin (0,0) measuring the distance to a straight road.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can convert any line from general form (Ax + By + C = 0) to normal form, determine the perpendicular distance p and normal angle α, and use the normal form to find the distance of a point from the line without memorizing a separate distance formula.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a surveyor standing at the origin (0,0) ______ the distance to a straight road.",
+     "a": "measuring",
+     "self_check": true
     }
    ]
   }

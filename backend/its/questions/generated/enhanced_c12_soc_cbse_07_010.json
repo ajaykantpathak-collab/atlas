@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_07_010",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_07_010",
+   "title": "c12_soc_cbse_07_010",
+   "questions": [
+    {
+     "q": "A student proposes: \"My project theme is 'Caste in India'. I will survey 500 people in my city using a questionnaire about their caste identity and discrimination experiences.\" What is the fundamental flaw in this plan from a Class 12 project perspective?",
+     "a": "The plan treats 'caste' as a single broad topic rather than a focused research question, targets an unrealistic sample size (500) for a school project, and uses a questionnaire for sensitive discrimination data where interviews would yield richer, more ethical insights. A wrong answer reveals the student confuses 'theme' with 'research question' and ignores practical constraints (time, access, sensitivity) emphasized in NCERT.",
+     "self_check": true
+    },
+    {
+     "q": "\"For a project on 'Gender and Household Appliances', a student decides to only interview mothers about mixer-grinder usage. Explain why this design misses a key sociological dimension highlighted in the NCERT textbook.\"",
+     "a": "The NCERT explicitly asks: \"Who are the people who use these devices? Are they mostly men or women, young or old, paid or unpaid workers?\" Interviewing only mothers excludes fathers, domestic workers, older/younger siblings, and paid help — missing the intra-household division of labour and class/gender intersection. A wrong answer shows the student reads the theme title but not the textbook's guiding questions.",
+     "self_check": true
+    },
+    {
+     "q": "A student wants to study 'Tribe and Market Access' in a nearby tribal hamlet. They plan to conduct a survey using a printed Hindi questionnaire. Identify three specific practical/ethical problems this design will face and suggest one alternative method for each.",
+     "a": "Problems: (1) Literacy/language barrier — many tribal respondents may not read Hindi; alternative: oral interviews in local dialect with a translator. (2) Trust/outsider bias — printed forms feel official and extractive; alternative: participant observation at weekly haat (market) to build rapport. (3) Questionnaire rigidity — cannot capture non-monetary exchange, forest produce barter, or seasonal migration; alternative: unstructured interviews with key informants (elders, SHG leaders). A wrong answer lists generic 'survey limitations' without tying to tribal context.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 'Biography of a Commodity' theme with the 'Public Transport' theme in terms of: (a) primary unit of analysis, (b) most suitable method combination, (c) type of historical data required. Answer in a structured table.",
+     "a": "| Dimension | Biography of a Commodity | Public Transport |\n|-----------|--------------------------|------------------|\n| (a) Primary unit | One object (e.g., a sofa) traced across production-exchange-consumption | One system (e.g., city bus network) or one mode (e.g., auto-rickshaw) |\n| (b) Best method combo | Archival (adverts, bills) + Interviews (makers, sellers, buyers) + Object observation | Observation (station behaviour) + Survey (commuter experience) + Archival (timetables, fare history) |\n| (c) Historical data | Provenance records, old advertisements, family purchase memories | Municipal transport reports, old route maps, newspaper archives on fare hikes/protests |\nA wrong answer conflates the two (e.g., says both use surveys as primary method) or misses the object-vs-system distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The 'Media' theme is easiest for Class 12 projects because students can just analyse TV news content from YouTube — no fieldwork needed.\" Use NCERT guidelines on method-theme fit and ethics to justify your evaluation.",
+     "a": "The claim is flawed. NCERT lists content analysis under 'Archival' for media but explicitly pairs it with interviews (\"What do people feel about the decline of letter writing after phones?\") and observation (\"Watch how people use mobile phones in public\"). Pure content analysis misses audience reception, usage contexts, and digital divide — core sociological questions. Ethically, analysing public YouTube content is low-risk, but ignoring consent for user comments or private WhatsApp forwards violates privacy norms taught in c12_soc_cbse_07_009. A wrong answer equates 'easy data access' with 'good research design'.",
+     "self_check": true
+    },
+    {
+     "q": "Design a novel 2-week micro-project that combines TWO of the five NCERT themes (e.g., Caste + Media, Gender + Market) in a single research question. State the question, method combo, sampling logic, and one anticipated ethical challenge with mitigation.",
+     "a": "Example: **Question**: \"How do caste and gender intersect in the online resale market (OLX/Quikr) for used textbooks in our city?\" **Methods**: (1) Content analysis of 100 listings — coding seller name (caste inference), gendered language, price, condition claims. (2) Interviews with 10 buyers/sellers (purposive: 5 male/5 female, varied surnames). **Sampling**: Listings filtered by 'school textbooks' category in city pin-codes; interviewees recruited via platform chat. **Ethical challenge**: Caste inference from surnames risks misidentification and stigma. **Mitigation**: Use self-identified caste only in interviews; in content analysis, code 'surname suggests dominant/oppressed caste' as researcher inference, not fact, and exclude from direct quotes. A poor answer picks themes that don't intersect naturally (e.g., Tribe + Media without a tribal media context) or ignores ethics.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This node covers the five core ______ themes suggested by NCERT for Class 12 project work — caste, gender, tribe, market, and media — and teaches students how to formulate focused research questions, select appropriate methods, and design feasible fieldwork plans for each theme within school-level constraints.",
+     "a": "sociological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to study how caste shapes seating arrangements in your school canteen — a familiar, ______ scene.",
+     "a": "everyday",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can take any one of the five NCERT-suggested themes, narrow it to a specific researchable question, justify the choice of method (survey, interview, observation, or mixed), and produce a one-page project plan including sampling strategy, tool design, ethical safeguards, and a timeline.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to study how caste shapes seating ______ in your school canteen — a familiar, everyday scene.",
+     "a": "arrangements",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

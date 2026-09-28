@@ -34,6 +34,26 @@
      "q": "Construct a real-world scenario (Indian context) with at least three partitions where the Total Probability Theorem is needed to find an overall probability. Define the events, give plausible numbers, and write the expression for the total probability (do not compute).",
      "a": "Scenario: A student in Delhi takes the metro (probability 0.5), bus (0.3), or auto (0.2) to college. The probabilities of being late given each mode are: metro 0.05, bus 0.2, auto 0.15. Partitions: E₁ = metro, E₂ = bus, E₃ = auto. Event A = late. Expression: P(A) = P(E₁)P(A|E₁) + P(E₂)P(A|E₂) + P(E₃)P(A|E₃) = 0.5×0.05 + 0.3×0.2 + 0.2×0.15. A poor answer would use only two partitions, or give conditional probabilities that don't make sense (e.g., >1), or write an expression that adds instead of multiplies, showing inability to translate a multi-cause situation into the theorem's structure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If {E₁, E₂, ..., Eₙ} is a partition of the sample space S (i.e., the events are pairwise disjoint, exhaustive, and each has non-zero probability), then for any event A associated with S, the probability of A is the sum of the ______ of A occurring through each partition: P(A) = Σ P(Eᵢ) P(A|Eᵢ).",
+     "a": "probabilities",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a factory with three ______ (A, B, C) producing bolts.",
+     "a": "machines",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) verify whether a given set of events forms a partition of the sample space, (2) correctly apply the total probability formula to compute P(A) when conditional probabilities P(A|Eᵢ) and prior probabilities P(Eᵢ) are given, and (3) set up the partition and conditional probabilities from a word problem without prompting.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a factory with three machines (A, B, C) ______ bolts.",
+     "a": "producing",
+     "self_check": true
     }
    ]
   }

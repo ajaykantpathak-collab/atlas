@@ -34,6 +34,26 @@
      "q": "Create a problem where a student is given the signs of two trigonometric functions and must determine the quadrant. Provide the full solution.",
      "a": "**Sample Problem:** \"If sin θ < 0 and sec θ > 0, find the quadrant of θ.\"  \n**Solution:** sin θ < 0 ⇒ QIII or QIV. sec θ > 0 ⇒ cos θ > 0 ⇒ QI or QIV. Intersection ⇒ **QIV**.  \nA poor answer (e.g., giving a problem with no solution like \"sin θ > 0 and cosec θ < 0\") reveals the student does not understand that reciprocal functions always share the same sign – a fundamental property they must internalise.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The sign of a ______ function in a given quadrant is determined by the signs of the coordinates (x, y) of the corresponding point P on the unit circle, where x = cos θ and y = sin θ.",
+     "a": "trigonometric",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ramp makes an angle of 210° with the positive x-axis (measured ______).",
+     "a": "anticlockwise",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ramp makes an angle of ______° with the positive x-axis (measured anticlockwise).",
+     "a": "210",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) identify the quadrant of any given angle (in degrees or radians), (2) state the sign of all six trigonometric functions in that quadrant without hesitation, and (3) determine the possible quadrant(s) when given the sign of one or two trigonometric functions.",
+     "self_check": true
     }
    ]
   }

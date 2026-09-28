@@ -34,6 +34,21 @@
      "q": "Design a BRS problem where the Pass Book shows a credit balance of ₹1,00,000 and there are exactly 5 discrepancies: 2 timing differences that increase Pass Book relative to Cash Book, 2 timing differences that decrease Pass Book relative to Cash Book, and 1 error in Pass Book. Provide the complete problem statement and solution.",
      "a": "**Problem:** Pass Book credit balance ₹1,00,000. Discrepancies: (i) Cheques issued not presented ₹15,000, (ii) Interest credited by bank ₹3,000 not in Cash Book, (iii) Cheques deposited not collected ₹20,000, (iv) Bank charges ₹500 not in Cash Book, (v) Bank wrongly credited ₹2,000 to this account (error in Pass Book).\n**Solution:**\nStart: Pass Book ₹1,00,000\nAdd (Pass Book lower than Cash Book): Uncollected deposits ₹20,000 + Bank charges ₹500 = +₹20,500\nLess (Pass Book higher than Cash Book): Unpresented cheques ₹15,000 + Interest ₹3,000 + Wrong credit ₹2,000 = -₹20,000\nCash Book balance = 1,00,000 + 20,500 - 20,000 = ₹1,00,500\n**Criteria for good answer:** Correctly categorizes each item by comparative balance effect, applies reverse logic consistently, handles error in Pass Book correctly (wrong credit makes Pass Book artificially high, so deduct), and arrives at correct answer. Poor answers reveal item-by-item memorization without the \"which balance is higher\" framework.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Bank ______ Statement prepared with the Pass Book balance as the starting point reconciles the bank balance as per the bank's records (Pass Book) with the balance as per the firm's Cash Book by adjusting for timing differences and errors, applying reverse treatment of items compared to when Cash Book balance is the starting point.",
+     "a": "Reconciliation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive your bank ______ (Pass Book) showing a balance of ₹50,000, but your Cash Book shows ₹42,000.",
+     "a": "statement",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently prepare a complete Bank Reconciliation Statement when given the Pass Book balance (favourable or overdraft) and a list of discrepancies, correctly applying the reverse adjustment logic for each item and arriving at the correct Cash Book balance.",
+     "self_check": true
     }
    ]
   }

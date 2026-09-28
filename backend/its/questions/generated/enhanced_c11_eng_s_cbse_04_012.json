@@ -34,6 +34,26 @@
      "q": "Create an inferential question about the relationship between Joe Morgan and Andrew that requires evidence from at least two different scenes in the text.",
      "a": "Example: \"How does Joe Morgan's trust in Andrew evolve from their first meeting to the story's end?\" Evidence 1: Joe waits \"walking up and down\" and says \"I know ye'll do well for us.\" Evidence 2: At the end, Joe stands \"with a tense, expectant face\" and Andrew says \"Both all right.\" A poor question would be literal (e.g., \"What did Joe say?\") or rely on a single scene, showing the student cannot synthesize across the narrative.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal comprehension questions require answers directly stated in the text, while ______ comprehension questions require drawing logical conclusions by combining textual evidence with reasoning.",
+     "a": "inferential",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are watching a ______ drama where a doctor saves a newborn.",
+     "a": "medical",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently classify a question as literal or inferential, locate explicit textual evidence for literal answers, and construct inferential answers supported by at least two pieces of textual evidence with clear reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a medical drama where a doctor saves a newborn.",
+     "a": "watching",
+     "self_check": true
     }
    ]
   }

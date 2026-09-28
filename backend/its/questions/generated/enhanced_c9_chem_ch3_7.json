@@ -34,6 +34,26 @@
      "q": "Design a step-by-step procedure (algorithm) that a Class 9 student can follow to write the formula of any binary ionic compound given the names of the metal and non-metal and their valencies. Test your procedure on iron(III) oxide (Fe valency 3, O valency 2).",
      "a": "Procedure: 1) Write the symbols of the cation and anion. 2) Write their valencies as superscripts (charges). 3) Cross the valencies to become subscripts of the opposite ion. 4) Simplify subscripts to simplest whole-number ratio if needed. 5) Verify charge balance: (cation subscript × cation charge) + (anion subscript × anion charge) = 0. 6) Write final formula. Test: Fe³⁺, O²⁻ → cross → Fe₂O₃. Check: 2×(+3) + 3×(-2) = 0. Correct. A poor answer lacks the verification step, omits simplification, or does not handle the Roman numeral (III) to deduce Fe valency 3.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Chemical formulae of common compounds represent the fixed ratio of atoms of each element in a compound using chemical symbols and subscripts, derived by balancing the valencies (combining capacities) of the ______ ions or atoms so that the total positive charge equals the total negative charge, resulting in a neutral compound.",
+     "a": "constituent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a packet of ______ salt (NaCl) and a bottle of drinking water (H₂O) in your kitchen.",
+     "a": "common",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write the correct chemical formula for any given common compound (including binary ionic, polyatomic ionic, and simple covalent compounds) by identifying the constituent ions/atoms, their valencies, and applying the cross-over rule, and can verify the formula's neutrality by calculating the net charge.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a packet of common salt (NaCl) and a bottle of ______ water (H₂O) in your kitchen.",
+     "a": "drinking",
+     "self_check": true
     }
    ]
   }

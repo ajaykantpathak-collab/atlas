@@ -34,6 +34,31 @@
      "q": "Design a one‑day meal plan for a 30‑year‑old female construction worker (heavy activity) from a low‑income household (₹100/day food budget). List meals with approximate portions, food groups covered, and estimated cost. Justify how it meets her RDA for energy and iron within the budget.",
      "a": "A good answer includes:  \n- Early morning: Tea with milk (50 ml) + 2 biscuits — ₹5  \n- Breakfast: 3 ragi dosa (100 g ragi flour) + chutney (coconut‑groundnut) + 1 boiled egg — ₹20  \n- Mid‑morning: 1 banana + roasted chana (30 g) — ₹10  \n- Lunch: 200 g cooked rice + 100 g sambar (toor dal + drumstick leaves) + 50 g stir‑fried cabbage — ₹25  \n- Evening: Sprouted moong salad (50 g) + lemon — ₹10  \n- Dinner: 3 whole wheat rotis (90 g flour) + 100 g rajma curry + 50 g cucumber raita — ₹25  \n- Bedtime: 150 ml buttermilk — ₹5  \nTotal ≈ ₹100.  \nEnergy ≈ 3200 kcal (RDA heavy activity woman = 3280 kcal), Iron ≈ 25 mg (RDA = 29 mg, enhanced by vitamin C from lemon/amla in chutney).  \nA poor answer gives only calorie‑dense cheap foods (e.g., only rice and potatoes) without iron‑rich or vitamin C sources, showing inability to balance nutrient density with cost.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Factors affecting meal planning are the variables that determine the type, quantity, frequency, and cost of meals for individuals or families; the three primary factors are age (which dictates nutrient needs for growth, maintenance, or aging), activity level (which determines energy expenditure and ______ distribution), and economic status (which constrains food choices, purchasing power, and access to diverse food groups).",
+     "a": "macronutrient",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a week’s meals for a family of four: a 70‑year‑old grandfather with arthritis, a 35‑year‑old mother who works a desk job, a 14‑year‑old son who plays football daily, and a 10‑year‑old daughter who attends classical dance classes twice a week.",
+     "a": "planning",
+     "self_check": true
+    },
+    {
+     "q": "What is Factors affecting meal planning? State the definition given in this lesson.",
+     "a": "Factors affecting meal planning are the variables that determine the type, quantity, frequency, and cost of meals for individuals or families; the three primary factors are age (which dictates nutrient needs for growth, maintenance, or aging), activity level (which determines energy expenditure and macronutrient distribution), and.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Factors affecting meal planning?",
+     "a": "Students often believe that “economic status only limits the *quantity* of food, not the *quality*”.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how age, activity level, and economic status each independently and interactively influence meal planning decisions, and can justify specific dietary adjustments for a given case study (e.g., a sedentary elderly person on a low income vs. an active adolescent from a middle-income family).",
+     "self_check": true
     }
    ]
   }

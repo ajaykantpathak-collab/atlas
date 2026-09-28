@@ -34,6 +34,26 @@
      "q": "Design a monohybrid cross experiment using a trait of your choice (not pea height) that would allow a Class 11 student to verify the Law of Segregation. Specify the parental genotypes, the expected F1 and F2 ratios, and the test cross needed to confirm F2 genotypes. Explain how you would statistically test if observed data fits expected ratios.",
      "a": "Example: Seed shape in pea (Round R dominant over wrinkled r). Parents: RR × rr. F1: all Rr (round). F2 selfing: 1 RR : 2 Rr : 1 rr (genotypic), 3 round : 1 wrinkled (phenotypic). Test cross F2 round with rr: RR gives all round; Rr gives 1 round : 1 wrinkled. Chi-square test: χ² = Σ(O-E)²/E with df=1 for phenotypic ratio, df=2 for genotypic. A good answer includes specific numbers, correct test cross logic, and mentions chi-square. A poor answer uses pea height again, omits the test cross, or suggests a t-test instead of chi-square for categorical ratio data — revealing lack of statistical literacy for genetics.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Law of Segregation states that during gamete formation, the two alleles of a gene separate (segregate) so that each gamete receives only one allele, and these alleles randomly recombine during ______ to restore the diploid genotype in the offspring.",
+     "a": "fertilisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ breeder working with wheat varieties.",
+     "a": "plant",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently construct a Punnett square for any monohybrid cross, calculate expected genotypic and phenotypic ratios, design a test cross to determine an unknown genotype, and explain how meiotic segregation of homologous chromosomes provides the cytological basis for Mendel's law.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a plant breeder working with wheat ______.",
+     "a": "varieties",
+     "self_check": true
     }
    ]
   }

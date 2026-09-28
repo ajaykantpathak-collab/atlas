@@ -34,6 +34,26 @@
      "q": "Design a **minimal** shuttle vector for shuttling a gene between *E. coli* and a **mammalian cell line** (e.g., CHO). List the four essential elements (with one example each) and explain why a yeast 2μ ori **cannot** replace the mammalian replication element.",
      "a": "Essential elements: (1) *E. coli* ori (e.g., pMB1), (2) Mammalian replication element — **SV40 ori** (requires large T antigen) or **EBV oriP** (requires EBNA1), (3) *E. coli* selectable marker (e.g., ampR/kanR), (4) Mammalian selectable marker (e.g., neoR/G418 resistance or dhfr). The 2μ ori cannot function in mammalian cells because it relies on yeast-specific replication proteins (Rep1, Rep2, Flp) and chromatin structure absent in mammals. A wrong answer using \"CMV promoter\" as the replication element confuses transcription with DNA replication.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A shuttle vector is a recombinant DNA plasmid engineered to replicate ______ in two different host organisms (typically a prokaryote like *E. coli* and a eukaryote like *S. cerevisiae*) because it carries two distinct origins of replication (ori) — one functional in each host — and two selectable markers for selection in both hosts.",
+     "a": "autonomously",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have cloned a human insulin gene into a standard *E. coli* plasmid (pBR322 ______) and now want to express it in yeast to get proper disulfide-bond formation.",
+     "a": "derivative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have cloned a human insulin gene into a standard *E. coli* plasmid (pBR______ derivative) and now want to express it in yeast to get proper disulfide-bond formation.",
+     "a": "322",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) draw a labelled schematic of a typical yeast-*E. coli* shuttle vector (e.g., YEp series) showing both origins, both selectable markers, and the MCS, and (2) explain why a plasmid with only an *E. coli* ori cannot be used directly for protein expression in yeast even if it carries a yeast promoter.",
+     "self_check": true
     }
    ]
   }

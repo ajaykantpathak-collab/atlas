@@ -4,81 +4,46 @@
   {
    "id": "iesc.9.1",
    "title": "Law of Conservation of Mass",
+   "converted_to_compute": true,
+   "formula": "mass_reactants = mass_products",
    "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
-     "name": "mass_reactants",
-     "expr": "mass_r1 + mass_r2",
-     "explain": "add the masses of both reactants"
-    },
-    {
-     "step": 2,
-     "name": "r1_share",
-     "expr": "(mass_r1 / mass_reactants) * 100",
-     "explain": "per cent share of the first reactant"
-    },
-    {
-     "step": 3,
-     "name": "mass_products_expected",
-     "expr": "mass_reactants",
-     "explain": "conservation: products must total the same"
+     "action": "substitute the given values into the formula",
+     "explain": "mass_reactants = mass_products",
+     "compute": "mass_reactants = mass_products"
     }
    ],
    "questions": [
     {
-     "q": "1.2 g of carbon burns in 3.2 g of oxygen. What total mass of carbon dioxide should form?",
-     "vals": {
-      "mass_r1": 1.2,
-      "mass_r2": 3.2
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "4.4 g",
+     "q": "For Law of Conservation of Mass: given mass_products = 83, find mass reactants.",
+     "a": "83",
      "self_check": false
     },
     {
-     "q": "5.6 g of iron reacts fully with 2.4 g of sulphur. Find the mass of iron sulphide formed.",
-     "vals": {
-      "mass_r1": 5.6,
-      "mass_r2": 2.4
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "8 g",
+     "q": "For Law of Conservation of Mass: given mass_products = 191, find mass reactants.",
+     "a": "191",
      "self_check": false
     },
     {
-     "q": "A solution of 11.2 g of substance A reacts fully with 8.8 g of substance B. What total mass of products forms?",
-     "vals": {
-      "mass_r1": 11.2,
-      "mass_r2": 8.8
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "20 g",
+     "q": "For Law of Conservation of Mass: given mass_products = 136, find mass reactants.",
+     "a": "136",
      "self_check": false
     },
     {
-     "q": "Hydrogen 2 g combines with oxygen 16 g. What mass of water results?",
-     "vals": {
-      "mass_r1": 2,
-      "mass_r2": 16
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "18 g",
+     "q": "For Law of Conservation of Mass: given mass_products = 65, find mass reactants.",
+     "a": "65",
      "self_check": false
     },
     {
-     "q": "A reaction uses 8.4 g of A and 3.6 g of B. What mass of products is expected?",
-     "vals": {
-      "mass_r1": 8.4,
-      "mass_r2": 3.6
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "12 g",
+     "q": "For Law of Conservation of Mass: given mass_products = 5.7, find mass reactants.",
+     "a": "5.7",
+     "self_check": false
+    },
+    {
+     "q": "For Law of Conservation of Mass: given mass_products = 128, find mass reactants.",
+     "a": "128",
      "self_check": false
     }
    ]
@@ -86,86 +51,46 @@
   {
    "id": "iesc.9.2",
    "title": "Law of Constant Proportions",
+   "converted_to_compute": true,
+   "formula": "mass_b = (ratio_b / ratio_a) * mass_a",
    "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
-     "name": "ratio_parts",
-     "expr": "ratio_a + ratio_b",
-     "explain": "total parts in the combining ratio"
-    },
-    {
-     "step": 2,
-     "name": "mass_per_part",
-     "expr": "mass_a / ratio_a",
-     "explain": "mass combining per ratio part"
-    },
-    {
-     "step": 3,
-     "name": "element_b_expected",
-     "expr": "(ratio_b / ratio_a) * mass_a",
-     "explain": "constant proportions: B combines with A in a fixed ratio"
+     "action": "substitute the given values into the formula",
+     "explain": "mass_b = (ratio_b / ratio_a) * mass_a",
+     "compute": "mass_b = (ratio_b / ratio_a) * mass_a"
     }
    ],
    "questions": [
     {
-     "q": "Hydrogen and oxygen always combine 1:8 by mass. How much oxygen combines with 3 g of hydrogen?",
-     "vals": {
-      "ratio_a": 1,
-      "ratio_b": 8,
-      "mass_a": 3
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "24 g",
+     "q": "For Law of Constant Proportions: given ratio_b = 76, ratio_a = 21, mass_a = 54, find mass b.",
+     "a": "195.429",
      "self_check": false
     },
     {
-     "q": "In ammonia, nitrogen and hydrogen combine 14:3. What mass of nitrogen joins 9 g of hydrogen?",
-     "vals": {
-      "ratio_a": 3,
-      "ratio_b": 14,
-      "mass_a": 9
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "42 g",
+     "q": "For Law of Constant Proportions: given ratio_b = 10.9, ratio_a = 73, mass_a = 156, find mass b.",
+     "a": "23.2932",
      "self_check": false
     },
     {
-     "q": "Carbon dioxide has C:O = 3:8 by mass. What mass of oxygen combines with 9 g of carbon?",
-     "vals": {
-      "ratio_a": 3,
-      "ratio_b": 8,
-      "mass_a": 9
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "24 g",
+     "q": "For Law of Constant Proportions: given ratio_b = 59, ratio_a = 92, mass_a = 9, find mass b.",
+     "a": "5.77174",
      "self_check": false
     },
     {
-     "q": "Methane has C:H = 3:1. What mass of hydrogen combines with 12 g of carbon?",
-     "vals": {
-      "ratio_a": 3,
-      "ratio_b": 1,
-      "mass_a": 12
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "4 g",
+     "q": "For Law of Constant Proportions: given ratio_b = 42, ratio_a = 80, mass_a = 135, find mass b.",
+     "a": "70.875",
      "self_check": false
     },
     {
-     "q": "Water is H:O = 1:8. How much hydrogen will combine with 40 g of oxygen?",
-     "vals": {
-      "ratio_a": 8,
-      "ratio_b": 1,
-      "mass_a": 40
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "5 g",
+     "q": "For Law of Constant Proportions: given ratio_b = 94, ratio_a = 41, mass_a = 116, find mass b.",
+     "a": "265.951",
+     "self_check": false
+    },
+    {
+     "q": "For Law of Constant Proportions: given ratio_b = 82, ratio_a = 88, mass_a = 134, find mass b.",
+     "a": "124.864",
      "self_check": false
     }
    ]

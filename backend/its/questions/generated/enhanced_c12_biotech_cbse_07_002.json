@@ -34,6 +34,31 @@
      "q": "Design a synthetic seed protocol for an endangered medicinal plant (e.g., Taxus wallichiana) that must be shipped to a remote nursery. Specify explant source, encapsulation matrix composition (three additives with concentrations), storage temperature, and germination medium. Justify each choice in one sentence.",
      "a": "Explant: somatic embryos from cell suspension culture (high throughput, uniform). Matrix: 3% sodium alginate + 75 mM CaCl₂ + ½ MS salts + 3% sucrose + 10 µM ABA + 100 mg L⁻¹ cefotaxime (nutrients, dormancy, contamination control). Storage: 4 °C for ≤6 months (slow metabolism, avoids cryo‑damage). Germination: ½ MS + 1 mg L⁻¹ BAP + 0.1 mg L⁻¹ NAA (shoot + root induction). A vague protocol (e.g., “use MS medium”) without concentrations or justification shows inability to translate principles into a practical, species‑specific workflow.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Synthetic seeds are artificially encapsulated somatic embryos (or other meristematic tissues like shoot tips, axillary buds) within a protective hydrogel matrix (typically calcium alginate) supplemented with nutrients, growth regulators, and ______ agents, designed to mimic the structure and function of a zygotic seed for storage, transport, and direct sowing.",
+     "a": "antimicrobial",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a horticulturist trying to ship a rare, elite ______ variety to farmers across India.",
+     "a": "sandalwood",
+     "self_check": true
+    },
+    {
+     "q": "What is Synthetic seeds? State the definition given in this lesson.",
+     "a": "Synthetic seeds are artificially encapsulated somatic embryos (or other meristematic tissues like shoot tips, axillary buds) within a protective hydrogel matrix (typically calcium alginate) supplemented with nutrients, growth regulators, and antimicrobial agents, designed to mimic the structure and function of a zygotic seed for storage.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Synthetic seeds?",
+     "a": "Students often think synthetic seeds are simply “somatic embryos wrapped in alginate” and that the bead itself provides all requirements for germination.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) describe the step‑by‑step production protocol of synthetic seeds from explant selection to encapsulation and (2) explain how each component of the artificial seed coat (gelling agent, nutrients, growth regulators, antibiotics) contributes to viability, germination, and pathogen‑free delivery.",
+     "self_check": true
     }
    ]
   }

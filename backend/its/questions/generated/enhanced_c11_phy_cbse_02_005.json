@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using only a metre scale, a stopwatch, and a small ball to verify the equation x = ½gt² for free fall. Describe the procedure, measurements, and how you would analyse the data to confirm the ½ factor.",
      "a": "Procedure: Drop the ball from rest from known heights (e.g., 0.5 m, 1.0 m, 1.5 m, 2.0 m) measured with the metre scale. Use the stopwatch to measure fall time t for each height (repeat 5 times, take average). Plot x (vertical axis) vs t² (horizontal axis). The graph should be a straight line through origin with slope = ½g. Calculate slope; if slope ≈ 4.9 m/s², then ½g = 4.9 → g = 9.8 m/s², verifying the equation. A poor answer (e.g., \"plot x vs t and check if parabolic\") shows the student does not understand linearisation techniques or how to isolate the ½ factor experimentally. The key is plotting x vs t², not x vs t.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Kinematic equations for uniformly accelerated motion are a set of three algebraic relations that connect the five kinematic variables — ______ (x), time interval (t), initial velocity (v₀), final velocity (v), and constant acceleration (a) — for a particle moving along a straight line with unchanging acceleration.",
+     "a": "displacement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a metro train leaving a station: it starts from rest, speeds up ______, then runs at constant speed.",
+     "a": "uniformly",
+     "self_check": true
+    },
+    {
+     "q": "What is Kinematic equations for uniformly accelerated motion? State the definition given in this lesson.",
+     "a": "Kinematic equations for uniformly accelerated motion are a set of three algebraic relations that connect the five kinematic variables — displacement (x), time interval (t), initial velocity (v₀), final velocity (v), and constant acceleration (a) — for a particle moving along a straight line with unchanging acceleration.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The equations are: v = v₀ + at; x = v₀t + ½at²; v² = v₀² + ______ax.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Kinematic equations for uniformly accelerated motion?",
+     "a": "Students believe the kinematic equations can be used for ANY motion with acceleration, not realising they are valid ONLY when acceleration is constant in both magnitude and direction.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Identify which kinematic equation to use based on known and unknown variables in a word problem; (2) Correctly assign signs to vector quantities (displacement, velocity, acceleration) using a chosen coordinate system; (3) Solve multi-step problems involving two phases of motion (e.g., upward then downward) by applying.",
+     "self_check": true
     }
    ]
   }

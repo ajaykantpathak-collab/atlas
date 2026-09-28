@@ -34,6 +34,31 @@
      "q": "Create a hypothetical scenario where a technological innovation *simultaneously* disrupts the economic, social, and legal environments of a business. Describe the innovation and trace its ripple effects across all three dimensions.",
      "a": "Innovation: Autonomous delivery drones for last-mile logistics. Economic: Reduces delivery cost by 40%, shifts demand from traditional couriers to drone operators, alters insurance models. Social: Changes consumer expectations (30-min delivery norm), raises privacy/noise concerns, creates new gig jobs (drone fleet managers). Legal: Requires new airspace regulations, liability laws for accidents, data protection rules for surveillance-capable drones. A good answer explicitly links *one innovation* to *changes in all three environments*. A poor answer lists separate innovations for each dimension, missing the *inter-relatedness* of business environment dimensions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ environment comprises forces relating to scientific improvements and innovations that provide new methods of producing goods, delivering services, and operating a business, including automation, digital platforms, communication networks, and research & development breakthroughs.",
+     "a": "technological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A new app-based platform starts ______ books within two hours, offers AI-based recommendations, and sells at a 20% discount.",
+     "a": "delivering",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A new app-based platform starts delivering books within two hours, offers AI-based recommendations, and sells at a ______% discount.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) identify specific technological changes affecting a given business scenario, (2) analyze their impact on at least three functional areas (production, marketing, finance, HR), and (3) evaluate strategic responses a firm can adopt to convert technological threats into opportunities.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A new app-based platform starts delivering books within two hours, offers AI-based ______, and sells at a 20% discount.",
+     "a": "recommendations",
+     "self_check": true
     }
    ]
   }

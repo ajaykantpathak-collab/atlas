@@ -22,15 +22,33 @@
     "define a rectangle using its sides and angles",
     "check whether a quadrilateral with equal bisecting diagonals is always a rectangle"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "check the angle condition",
-     "explain": "All four angles must be right angles for the figure to qualify as a rectangle."},
-    {"step": 2, "action": "check the side condition",
-     "explain": "Opposite sides must be equal in length."},
-    {"step": 3, "action": "check the diagonals",
-     "explain": "The diagonals must be equal and must bisect each other; the carpenter satisfies this by taking equal strips joined at their midpoints."}
-   ]
+    {
+     "step": 1,
+     "action": "check the angle condition",
+     "explain": "All four angles must be right angles for the figure to qualify as a rectangle."
+    },
+    {
+     "step": 2,
+     "action": "check the side condition",
+     "explain": "Opposite sides must be equal in length."
+    },
+    {
+     "step": 3,
+     "action": "check the diagonals",
+     "explain": "The diagonals must be equal and must bisect each other; the carpenter satisfies this by taking equal strips joined at their midpoints."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the quadrilateral property to compute the value",
+     "explain": "use the quadrilateral property to compute the value: adj = 180 - 50 gives 130",
+     "compute": "adj = 180 - 50"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hegp.104.4.2",
@@ -50,12 +68,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "add the three known angles",
+    {
+     "step": 1,
+     "action": "add the three known angles",
      "explain": "Sum the given angles of the quadrilateral.",
-     "compute": "known_sum = angle_a + angle_b + angle_c"},
-    {"step": 2, "action": "subtract from 360",
+     "compute": "known_sum = angle_a + angle_b + angle_c"
+    },
+    {
+     "step": 2,
+     "action": "subtract from 360",
      "explain": "The full angle sum is 360 degrees, so the fourth angle is what remains.",
-     "compute": "fourth_angle = 360 - known_sum"}
+     "compute": "fourth_angle = 360 - known_sum"
+    }
    ]
   },
   {
@@ -74,15 +98,33 @@
     "are the opposite sides of a parallelogram equal - explain why",
     "how many pairs of parallel lines are needed to build a parallelogram"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "identify the two parallel pairs",
-     "explain": "Mark the opposite sides and confirm each pair runs parallel."},
-    {"step": 2, "action": "compare with the rectangle case",
-     "explain": "If the crossing is not at right angles the figure is a parallelogram but not a rectangle."},
-    {"step": 3, "action": "note the inherited properties",
-     "explain": "Opposite sides are equal and opposite angles are equal in every parallelogram."}
-   ]
+    {
+     "step": 1,
+     "action": "identify the two parallel pairs",
+     "explain": "Mark the opposite sides and confirm each pair runs parallel."
+    },
+    {
+     "step": 2,
+     "action": "compare with the rectangle case",
+     "explain": "If the crossing is not at right angles the figure is a parallelogram but not a rectangle."
+    },
+    {
+     "step": 3,
+     "action": "note the inherited properties",
+     "explain": "Opposite sides are equal and opposite angles are equal in every parallelogram."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 43 gives 47",
+     "compute": "other = 90 - 43"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hegp.104.4.4",
@@ -102,9 +144,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "use the triangle angle sum with equal base angles",
+    {
+     "step": 1,
+     "action": "use the triangle angle sum with equal base angles",
      "explain": "In the triangle formed by a side and the diagonal, the two angles beside the diagonal are equal, say each equals a.",
-     "compute": "base_half = (180 - given_angle) / 2"}
+     "compute": "base_half = (180 - given_angle) / 2"
+    }
    ]
   },
   {
@@ -123,15 +168,33 @@
     "which congruence proves the kite's diagonal property",
     "state the two diagonal properties of a kite"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "verify the equal adjacent pairs",
-     "explain": "Check AB = BC and CD = DA to confirm the figure is a kite."},
-    {"step": 2, "action": "use triangle congruence on the halves",
-     "explain": "Triangles AOB and COB are congruent, giving AO = OC and the right angle at O."},
-    {"step": 3, "action": "read off the angle bisects",
-     "explain": "The same congruence shows the shared diagonal bisects the angles at B and D."}
-   ]
+    {
+     "step": 1,
+     "action": "verify the equal adjacent pairs",
+     "explain": "Check AB = BC and CD = DA to confirm the figure is a kite."
+    },
+    {
+     "step": 2,
+     "action": "use triangle congruence on the halves",
+     "explain": "Triangles AOB and COB are congruent, giving AO = OC and the right angle at O."
+    },
+    {
+     "step": 3,
+     "action": "read off the angle bisects",
+     "explain": "The same congruence shows the shared diagonal bisects the angles at B and D."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the quadrilateral property to compute the value",
+     "explain": "use the quadrilateral property to compute the value: adj = 180 - 120 gives 60",
+     "compute": "adj = 180 - 120"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hegp.104.4.6",
@@ -151,9 +214,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "identify the supplementary pair",
+    {
+     "step": 1,
+     "action": "identify the supplementary pair",
      "explain": "The two angles on one leg between the parallel sides are co-interior.",
-     "compute": "co_angle = 180 - given_angle"}
+     "compute": "co_angle = 180 - given_angle"
+    }
    ]
   }
  ],
@@ -170,12 +236,18 @@
     "angle_c": "third given angle in degrees"
    },
    "solution_template": [
-    {"step": 1, "action": "add the three known angles",
+    {
+     "step": 1,
+     "action": "add the three known angles",
      "explain": "Sum the three given angles.",
-     "compute": "known_sum = angle_a + angle_b + angle_c"},
-    {"step": 2, "action": "subtract from 360",
+     "compute": "known_sum = angle_a + angle_b + angle_c"
+    },
+    {
+     "step": 2,
+     "action": "subtract from 360",
      "explain": "The quadrilateral angle sum is 360 degrees.",
-     "compute": "fourth_angle = 360 - known_sum"}
+     "compute": "fourth_angle = 360 - known_sum"
+    }
    ]
   },
   {
@@ -190,12 +262,18 @@
     "angle_c": "angle at M in degrees"
    },
    "solution_template": [
-    {"step": 1, "action": "add the three known angles",
+    {
+     "step": 1,
+     "action": "add the three known angles",
      "explain": "Total the three given vertex angles.",
-     "compute": "known_sum = angle_a + angle_b + angle_c"},
-    {"step": 2, "action": "subtract from 360",
+     "compute": "known_sum = angle_a + angle_b + angle_c"
+    },
+    {
+     "step": 2,
+     "action": "subtract from 360",
      "explain": "The remaining angle completes the 360 degree sum.",
-     "compute": "fourth_angle = 360 - known_sum"}
+     "compute": "fourth_angle = 360 - known_sum"
+    }
    ]
   },
   {
@@ -208,9 +286,12 @@
     "given_angle": "one angle of the rhombus in degrees"
    },
    "solution_template": [
-    {"step": 1, "action": "apply the triangle angle sum",
+    {
+     "step": 1,
+     "action": "apply the triangle angle sum",
      "explain": "In triangle ADB the two equal angles a plus the rhombus angle make 180 degrees.",
-     "compute": "base_half = (180 - given_angle) / 2"}
+     "compute": "base_half = (180 - given_angle) / 2"
+    }
    ]
   },
   {
@@ -223,9 +304,12 @@
     "given_angle": "a rhombus angle in degrees"
    },
    "solution_template": [
-    {"step": 1, "action": "apply the triangle angle sum",
+    {
+     "step": 1,
+     "action": "apply the triangle angle sum",
      "explain": "Equal base angles plus the given angle fill the triangle's 180 degrees.",
-     "compute": "base_half = (180 - given_angle) / 2"}
+     "compute": "base_half = (180 - given_angle) / 2"
+    }
    ]
   },
   {
@@ -238,9 +322,12 @@
     "given_angle": "given base angle in degrees"
    },
    "solution_template": [
-    {"step": 1, "action": "use the supplementary rule",
+    {
+     "step": 1,
+     "action": "use the supplementary rule",
      "explain": "Angles S and P sit between parallels on one leg, so they add to 180 degrees.",
-     "compute": "co_angle = 180 - given_angle"}
+     "compute": "co_angle = 180 - given_angle"
+    }
    ]
   },
   {
@@ -253,9 +340,12 @@
     "given_angle": "known angle in degrees"
    },
    "solution_template": [
-    {"step": 1, "action": "use the supplementary rule",
+    {
+     "step": 1,
+     "action": "use the supplementary rule",
      "explain": "Co-interior angles between parallel sides sum to 180 degrees.",
-     "compute": "co_angle = 180 - given_angle"}
+     "compute": "co_angle = 180 - given_angle"
+    }
    ]
   }
  ],

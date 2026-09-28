@@ -34,6 +34,26 @@
      "q": "Design a scenario where a device has two different IP addresses simultaneously but only one MAC address. Explain how this is possible and what each address is used for.",
      "a": "A laptop with a single Wi-Fi NIC (one MAC) connects to two networks via a virtual interface (e.g., VPN) or has both IPv4 and IPv6 addresses on the same interface. The single MAC identifies the physical NIC for Layer 2 frames; the two IP addresses (e.g., 192.168.1.5 and 10.0.0.5) serve different logical networks for Layer 3 routing. A poor answer might suggest two physical NICs are needed, missing the concept of logical addressing multiplicity on one hardware interface.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A MAC (Media Access Control) address is a unique 48-bit hardware identifier assigned to a network interface controller (NIC) at ______, expressed in hexadecimal (e.g., 00:1A:2B:3C:4D:5E), used for data link layer (Layer 2) delivery within a local network segment.",
+     "a": "manufacture",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are sending a ______ to a friend in another city.",
+     "a": "letter",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify whether a given address is MAC or IP based on format and length, explain which address changes when a device moves to a different network and which remains constant, and describe the role of each address in the TCP/IP model layers.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are sending a letter to a friend in another city.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

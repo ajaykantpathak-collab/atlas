@@ -34,6 +34,26 @@
      "q": "Create a real-life problem (Indian context) that requires permutations with repetition allowed, where \\(n=4\\) and \\(r=3\\). Write the problem statement and solve it.",
      "a": "Example problem: \"A food delivery app offers 4 cuisine types: North Indian, South Indian, Chinese, Continental. A user orders dinner for 3 consecutive nights. Each night they can choose any cuisine, including the same one multiple times. How many different cuisine sequences are possible over the 3 nights?\" Solution: \\(n=4, r=3 \\Rightarrow 4^3 = 64\\) sequences. A poor answer would use \\(^4P_3 = 24\\) or \\(4! = 24\\), showing the student cannot construct a scenario where independent repetition is natural.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a 4-digit PIN for your UPI payment app.",
+     "a": "setting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are setting a ______-digit PIN for your UPI payment app.",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "They can also solve multi-step word problems combining this concept with the Fundamental Principle of Counting.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are setting a 4-digit PIN for your UPI payment app.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

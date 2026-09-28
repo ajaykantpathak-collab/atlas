@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a flowering plant (e.g., Petunia) to demonstrate that both male gametes from a single pollen tube participate in fertilization. Describe the key observation that would confirm double fertilization.",
      "a": "Use a transgenic line where one male gamete expresses a fluorescent marker (e.g., GFP) and the other expresses a different marker (e.g., RFP), or use pollen from a heterozygous genetic marker line. Pollinate emasculated flowers, then isolate embryo sacs at early post-fertilization stages and observe under fluorescence/confocal microscopy. Confirmation: one marker appears in the zygote, the other in the primary endosperm nucleus. A poor design might only check for seed set, which doesn't prove both gametes fused.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Double ______ is a unique process in flowering plants (angiosperms) where two male gametes from a pollen tube fuse with two different female gametes in the embryo sac: one male gamete fuses with the egg cell (syngamy) to form the diploid zygote (2n), while the second male gamete fuses with the two polar nuclei (triple fusion) to form the triploid primary endosperm nucleus (3n).",
+     "a": "fertilization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you cut open a pistil 24 hours after ______ in a hibiscus flower from your garden — you would see a pollen tube growing down the style, guided by chemical signals, and bursting into the embryo sac at the micropylar end.",
+     "a": "pollination",
+     "self_check": true
+    },
+    {
+     "q": "What is Double fertilization? State the definition given in this lesson.",
+     "a": "Double fertilization is a unique process in flowering plants (angiosperms) where two male gametes from a pollen tube fuse with two different female gametes in the embryo sac: one male gamete fuses with the egg cell (syngamy) to form the diploid zygote (2n), while the second male gamete fuses with the two polar nuclei (triple fusion) to.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you cut open a pistil ______ hours after pollination in a hibiscus flower from your garden — you would see a pollen tube growing down the style, guided by chemical signals, and bursting into the embryo sac at the micropylar end.",
+     "a": "24",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Double fertilization?",
+     "a": "Students often think the two male gametes are identical and either can fuse with the egg or polar nuclei randomly.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can label the embryo sac components (egg apparatus, polar nuclei) and pollen tube contents on a diagram, trace the path of both male gametes to their respective fusion sites, and explain why the chromosome numbers of zygote (2n) and primary endosperm nucleus (3n) differ from the gametes (n).",
+     "self_check": true
     }
    ]
   }

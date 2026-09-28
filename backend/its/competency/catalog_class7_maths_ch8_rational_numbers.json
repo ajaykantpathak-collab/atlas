@@ -25,7 +25,7 @@
     "what do you understand by need for rational numbers",
     "list the main points about need for rational numbers"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -42,7 +42,16 @@
      "action": "verify representation",
      "explain": "Confirm the value can be written as p/q with q != 0, so it fits the rational number system"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "combine the fractions with the fraction operation rules",
+     "explain": "combine the fractions with the fraction operation rules: prod = 6 * 1 / 7 gives 0.857143",
+     "compute": "prod = 6 * 1 / 7"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m8.3.1",
@@ -63,7 +72,7 @@
     "numerator and denominator of rational number",
     "are integers rational numbers"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -80,7 +89,28 @@
      "action": "conclude",
      "explain": "If yes, it is a rational number"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the rational-number operation rules",
+     "explain": "apply the rational-number operation rules: num = 4 * 8 + 6 * 5 gives 62",
+     "compute": "num = 4 * 8 + 6 * 5"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the rational-number operation rules: den = 5 * 8 gives 40",
+     "compute": "den = 5 * 8"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the rational-number operation rules: val = num / den gives 1.55",
+     "compute": "val = num / den"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m8.3.2",
@@ -132,7 +162,7 @@
     "which are negative rational numbers",
     "is 0 positive or negative"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -149,7 +179,28 @@
      "action": "verify classification",
      "explain": "Recheck after moving any negative sign to numerator to confirm the sign classification is correct"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the rational-number operation rules",
+     "explain": "apply the rational-number operation rules: num = 4 * 9 + 7 * 6 gives 78",
+     "compute": "num = 4 * 9 + 7 * 6"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the rational-number operation rules: den = 6 * 9 gives 54",
+     "compute": "den = 6 * 9"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the rational-number operation rules: val = num / den gives 1.44444",
+     "compute": "val = num / den"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m8.5.1",
@@ -172,7 +223,7 @@
     "what do you understand by rational numbers on number line",
     "list the main points about rational numbers on number line"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -189,7 +240,28 @@
      "action": "mark point",
      "explain": "Place at the correct fractional distance"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the rational-number operation rules",
+     "explain": "apply the rational-number operation rules: num = 3 * 8 + 5 * 6 gives 54",
+     "compute": "num = 3 * 8 + 5 * 6"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the rational-number operation rules: den = 6 * 8 gives 48",
+     "compute": "den = 6 * 8"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the rational-number operation rules: val = num / den gives 1.125",
+     "compute": "val = num / den"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m8.6.1",

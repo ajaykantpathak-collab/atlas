@@ -34,6 +34,26 @@
      "q": "Construct a numerical example of a two-sector circular flow where 100 households each supply 2 units of labour at ₹500/unit to 10 firms. Each firm uses 20 units of labour to produce 100 units of output sold at ₹100/unit. Show the complete cycle: factor services → factor payments → consumption → revenue → factor payments. Calculate total factor income, total consumption expenditure, total revenue, and verify the circular flow identity.",
      "a": "Expected answer: \n- Total labour supplied = 100 households × 2 units = 200 units\n- Total factor payments (wages) = 200 units × ₹500 = ₹1,00,000 = Total factor income\n- Each firm hires 20 units labour → 10 firms × 20 = 200 units (matches)\n- Each firm produces 100 units → Total output = 10 × 100 = 1,000 units\n- Total revenue = 1,000 units × ₹100 = ₹1,00,000\n- Households spend all ₹1,00,000 on consumption → Consumption expenditure = ₹1,00,000\n- Identity verified: Factor payments (₹1,00,000) = Factor income (₹1,00,000) = Consumption expenditure (₹1,00,000) = Revenue (₹1,00,000) = Value of output (₹1,00,000)\nA poor answer reveals: (1) inability to track units consistently, (2) missing that factor payments = revenue in equilibrium, (3) confusing per-unit with aggregate values, (4) not verifying the closed-loop identity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The circular flow of income in a two-sector model ______ the continuous flow of money, goods, services, and factor payments between households (who own factors of production and consume goods) and firms (who hire factors and produce goods), where households supply factor services to firms and receive factor payments (rent, wages, interest, profit), which they then spend entirely on goods and services produced by firms, creating a closed loop with no savings, investment, government, or foreign trade.",
+     "a": "illustrates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small Indian ______ where every family either works on farms or runs small shops.",
+     "a": "village",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can draw and label the two-sector circular flow diagram showing real and monetary flows in opposite directions, explain why factor payments equal factor incomes, and demonstrate why total production = total income = total expenditure in this simplified model.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a small Indian village where every family either works on farms or runs small shops.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

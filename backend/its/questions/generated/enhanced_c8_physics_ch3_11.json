@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a spring balance and a set of known masses to demonstrate that weight is directly proportional to mass. Describe the procedure and the expected graph.",
      "a": "Procedure: Hang masses (100 g, 200 g, 300 g, 400 g, 500 g) one by one on a spring balance. Record the weight reading in newtons. Plot weight (y-axis) vs. mass (x-axis). Expected result: A straight line through the origin with slope ≈ 9.8 N/kg. A poor answer might omit converting grams to kilograms, use a non-linear plot, or forget to label axes with units.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ force is the attractive non-contact force exerted by the Earth on any object with mass, pulling it toward the Earth's center.",
+     "a": "Gravitational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a feather and a coin dropped ______ in a vacuum tube (or watch a video of the Apollo 15 hammer-feather drop).",
+     "a": "simultaneously",
+     "self_check": true
+    },
+    {
+     "q": "What is Gravitational force? State the definition given in this lesson.",
+     "a": "Gravitational force is the attractive non-contact force exerted by the Earth on any object with mass, pulling it toward the Earth's center.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Its magnitude is the object's weight (W = m × g), measured in newtons (N), where g ≈ ______ m/s² is the acceleration due to gravity near Earth's surface.",
+     "a": "9.8",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Gravitational force?",
+     "a": "Students believe \"heavier objects fall faster\" because they feel a heavier object pulls harder on their hand.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between mass (kg) and weight (N), calculate weight from mass using g = 9.8 m/s², and explain why all objects fall with the same acceleration in the absence of air resistance.",
+     "self_check": true
     }
    ]
   }

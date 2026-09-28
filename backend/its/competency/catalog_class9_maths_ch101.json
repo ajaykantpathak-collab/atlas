@@ -20,7 +20,7 @@
     "What makes the two axes of a coordinate frame perpendicular to each other?",
     "State why a single number line is not enough to fix a position on a flat sheet."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,16 @@
      "action": "Confirm perpendicularity",
      "explain": "The two axes meet at 90 degrees, which is what allows every point to have a unique ordered-pair address."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 5 gives 5",
+     "compute": "count = 5"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.101.2",
@@ -54,7 +63,7 @@
     "Identify the ordered pair that represents the point where both axes meet.",
     "State the distance of the origin from each of the two axes."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -71,7 +80,28 @@
      "action": "State distance from each axis",
      "explain": "The origin is zero units from both the x-axis and the y-axis, making it the natural starting point for counting."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the coordinate-geometry formula",
+     "explain": "apply the coordinate-geometry formula: dx = 10 - 1 gives 9",
+     "compute": "dx = 10 - 1"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the coordinate-geometry formula: dy = 14 - 2 gives 12",
+     "compute": "dy = 14 - 2"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 15",
+     "compute": "dist = sqrt(dx * dx + dy * dy)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.101.3",
@@ -88,7 +118,7 @@
     "If a point sits 4 units from the y-axis and 3 units from the x-axis, write its coordinates.",
     "Distinguish between the x-coordinate and the y-coordinate of a marked point."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -105,7 +135,16 @@
      "action": "Combine into an ordered pair",
      "explain": "Writing the two entries as (x, y) gives the complete address of the point, with the sideways offset first and the up-or-down offset second."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 2 gives 2",
+     "compute": "lines = 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.101.4",
@@ -123,7 +162,7 @@
     "List the sign pattern of the coordinates in each of the four regions.",
     "Justify why no point can lie in two quadrants at once."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -140,7 +179,28 @@
      "action": "Exclude boundary cases",
      "explain": "If either entry is zero, the point lies on an axis rather than inside any quadrant, so no quadrant assignment is made."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the coordinate-geometry formula",
+     "explain": "apply the coordinate-geometry formula: dx = 16 - 7 gives 9",
+     "compute": "dx = 16 - 7"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the coordinate-geometry formula: dy = 4 - -8 gives 12",
+     "compute": "dy = 4 - -8"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 15",
+     "compute": "dist = sqrt(dx * dx + dy * dy)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.101.5",
@@ -157,7 +217,7 @@
     "Decide whether the point (7, 0) sits on the x-axis or the y-axis, and say why.",
     "Give the general form of the coordinates of a point on the y-axis."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -174,7 +234,28 @@
      "action": "Confirm the point is not in a quadrant",
      "explain": "Since one entry is zero, the point lies on a boundary line between quadrants rather than inside any single quadrant."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the coordinate-geometry formula",
+     "explain": "apply the coordinate-geometry formula: dx = 24 - 4 gives 20",
+     "compute": "dx = 24 - 4"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the coordinate-geometry formula: dy = 13 - -8 gives 21",
+     "compute": "dy = 13 - -8"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 29",
+     "compute": "dist = sqrt(dx * dx + dy * dy)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.101.6",
@@ -228,7 +309,7 @@
     "Explain why averaging the two x-entries gives the x-entry of the halfway point.",
     "Use the midpoint idea to locate the centre of a segment on a grid."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -245,7 +326,28 @@
      "action": "Combine into the midpoint",
      "explain": "The two averages form the ordered pair M = ((x1 + x2)/2, (y1 + y2)/2), which is the halfway point of the segment."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the coordinate-geometry formula",
+     "explain": "apply the coordinate-geometry formula: dx = -2 - -7 gives 5",
+     "compute": "dx = -2 - -7"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the coordinate-geometry formula: dy = 18 - 6 gives 12",
+     "compute": "dy = 18 - 6"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 13",
+     "compute": "dist = sqrt(dx * dx + dy * dy)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.101.8",

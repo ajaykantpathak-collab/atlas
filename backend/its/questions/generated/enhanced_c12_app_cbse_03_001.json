@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_03_001",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_03_001",
+   "title": "c12_app_cbse_03_001",
+   "questions": [
+    {
+     "q": "A student writes: \"Marginal Cost = Total Cost / Number of units produced.\" Is this correct? Answer Yes/No and state the correct definition of Marginal Cost in one sentence.",
+     "a": "**No.** Marginal Cost is the **instantaneous rate of change of total cost with respect to output**, i.e., MC = dC/dx = C'(x), not the average cost (C/x). A \"Yes\" reveals the student confuses **marginal** (derivative, cost of *next* unit) with **average** (total/quantity, cost *per* unit on average) — a classic Board/JEE trap.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words the difference between a **critical point** and a **stationary point**. Give one example of a function that has a critical point which is *not* stationary.",
+     "a": "A **stationary point** is where f'(x) = 0 (tangent horizontal). A **critical point** is any interior point where f'(x) = 0 **or** f'(x) does not exist (including corners, cusps, vertical tangents, discontinuities). **All stationary points are critical points, but not vice versa.** Example: f(x) = |x| at x = 0 — f'(0) does not exist (corner), so x=0 is a critical point but not stationary. A wrong answer (e.g., \"they are the same\") shows the student misses the **non-differentiable** cases that frequently appear in JEE \"maxima/minima of |x|\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "A company’s revenue function is R(x) = 300x – 2x². The manager says: \"To maximize revenue, set R(x) = 0 and solve for x.\" Is the manager correct? If not, what is the correct procedure?",
+     "a": "**Incorrect.** Setting R(x)=0 finds **break-even points** (revenue = 0), not maximum revenue. To maximize revenue, find critical points of R(x) by solving **R'(x) = 0** → 300 – 4x = 0 → x = 75, then verify it’s a maximum using the second derivative test (R''(x) = –4 < 0). The error reveals confusion between **finding zeros of a function** and **finding extrema of a function** — a fundamental conceptual gap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the **First Derivative Test** and **Second Derivative Test** for local extrema. When does the Second Derivative Test *fail*, and what must you do then?",
+     "a": "**First Derivative Test:** Checks sign change of f'(x) around critical point c (– to + ⇒ local min, + to – ⇒ local max). Works always if f is continuous. **Second Derivative Test:** Evaluates f''(c); if f''(c) > 0 ⇒ local min, f''(c) < 0 ⇒ local max. **Fails when f''(c) = 0** (or f''(c) DNE). Then you **must revert to First Derivative Test** (or higher-order derivative test). A student who says \"Second Derivative Test is always easier/better\" misses the failure case (e.g., f(x)=x⁴ at x=0) which is a favorite JEE trap.",
+     "self_check": true
+    },
+    {
+     "q": "A problem asks: \"Find the absolute maximum and minimum of f(x) = x³ – 3x on the interval [–2, 3].\" A student only finds f'(x)=0, gets x=±1, computes f(–1)=2, f(1)=–2, and declares: \"Absolute max = 2, Absolute min = –2.\" Is this complete? Justify.",
+     "a": "**Incomplete.** For a **closed interval [a,b]**, absolute extrema can occur at **critical points inside (a,b) AND at the endpoints a, b**. The student missed evaluating f(–2) = –2 and f(3) = 18. The true absolute max is **18 at x=3**, absolute min is **–2 at x=1 and x=–2**. This error (ignoring endpoints) is the #1 reason students lose 2–3 marks in Board 4-marker optimization questions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a **real-world business scenario** (Indian context) where a firm would need to use **logarithmic differentiation** (i.e., differentiate a function of the form [f(x)]^g(x)). Define the variables and write the function explicitly.",
+     "a": "**Scenario:** A fintech startup models the **compounded growth of a mutual fund SIP** where the *monthly investment amount itself grows exponentially* with time. Let x = months, monthly investment = xˣ (investor increases SIP aggressively), annual return rate = 12% compounded monthly. Total value after x months involves terms like (1 + 0.01)ˣˣ or similar [f(x)]^g(x) forms. **Function:** V(x) = xˣ · (1.01)ˣˣ (simplified). Logarithmic differentiation is essential because power *and* base both depend on x. A weak answer uses only polynomial/exponential forms (e.g., x²·eˣ) showing the student doesn't recognize the **variable-base-variable-exponent** structure that *mandates* log diff.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "catalog": "catalog_class8_science_ch101.json",
+ "concepts": [
+  {
+   "id": "hesc.1.6.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "area = 75",
+      "depth_per_unit_area = 53",
+      "water_needed = area * depth_per_unit_area"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 70",
+      "depth_per_unit_area = 52",
+      "water_needed = area * depth_per_unit_area"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "area = 76",
+      "depth_per_unit_area = 7.2",
+      "water_needed = area * depth_per_unit_area"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "area = 22",
+      "depth_per_unit_area = 120",
+      "water_needed = area * depth_per_unit_area"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "area = 2.2",
+      "depth_per_unit_area = 39",
+      "water_needed = area * depth_per_unit_area"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "area = 31",
+      "depth_per_unit_area = 114",
+      "water_needed = area * depth_per_unit_area"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "water_needed = area * depth_per_unit_area"
+   ]
+  },
+  {
+   "id": "hesc.1.8.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "area = 11.1",
+      "yield_per_acre = 15.8",
+      "total_yield = area * yield_per_acre"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 34",
+      "yield_per_acre = 21",
+      "total_yield = area * yield_per_acre"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "area = 32",
+      "yield_per_acre = 89",
+      "total_yield = area * yield_per_acre"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "area = 62",
+      "yield_per_acre = 98",
+      "total_yield = area * yield_per_acre"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "area = 61",
+      "yield_per_acre = 1.6",
+      "total_yield = area * yield_per_acre"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "area = 30",
+      "yield_per_acre = 77",
+      "total_yield = area * yield_per_acre"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_yield = area * yield_per_acre"
+   ]
+  }
+ ]
+}

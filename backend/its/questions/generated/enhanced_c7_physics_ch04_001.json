@@ -26,13 +26,33 @@
      "self_check": true
     },
     {
-     "q": "A village elder claims that a water clock can measure time just as accurately in freezing winter as in scorching summer. Evaluate this claim using scientific reasoning.",
-     "a": "The claim is false because temperature affects the viscosity (thickness) of water and the size of the drip hole due to thermal expansion or contraction. In winter, colder water flows more slowly, changing the calibration of the water clock. A student who says temperature has no effect on fluids ignores basic physical properties of matter and heat transfer.",
+     "q": "Give the correct sequence of effects showing why a water clock miscalibrates in freezing winter.",
+     "a": "The physics chain runs: (1) Cold raises the viscosity of water (2) Thicker water drips more slowly through the hole (3) The drip rate falls below its calibrated rate (4) The marked intervals no longer match true time. A wrong answer that calls temperature irrelevant shows the student ignores basic properties of matter and heat transfer that govern how fluids flow.",
      "self_check": true
     },
     {
      "q": "Design a simple water clock using a plastic water bottle that can measure a 5-minute interval for a science quiz in your classroom. What steps and calibrations would you need?",
      "a": "To design this: Take a plastic bottle, pierce a small, uniform hole at the bottom, and fill it to a marked line with water. Allow the water to drip into a measuring cup for exactly 5 minutes using a modern stopwatch, and mark the new water level inside the receiving container (or the dropping container) as the 5-minute mark. A poor answer would suggest guessing or ignoring the calibration step, which shows a lack of understanding of how measuring instruments must be standardized against known references.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Early methods of measuring time relied on repeating natural cycles and consistent physical processes, such as the movement of shadows cast by the sun (sundials) and the steady flow of water (water clocks), though they do not have a standard SI unit since they preceded ______ timekeeping.",
+     "a": "standardized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how your shadow stretches and shifts ______ on the school playground as the sun moves across the sky from morning to evening.",
+     "a": "position",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can explain how the length and position of a shadow on a sundial change throughout the day due to the Earth's rotation, and can describe how the steady dripping or flowing of water in a water clock measures equal time intervals.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how your shadow stretches and shifts position on the school ______ as the sun moves across the sky from morning to evening.",
+     "a": "playground",
      "self_check": true
     }
    ]

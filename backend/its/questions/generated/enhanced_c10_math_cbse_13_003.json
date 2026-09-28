@@ -34,6 +34,21 @@
      "q": "Create a grouped frequency distribution with 5 classes, equal class width, and integer frequencies such that when the step-deviation method is applied with an appropriately chosen assumed mean, all step-deviations uᵢ are integers between -2 and 2, and the mean is exactly 50. Provide the full table and show the step-deviation calculation.",
      "a": "One possible solution:\nChoose a = 50 (assumed mean), h = 10.\nClass marks: 30, 40, 50, 60, 70 → uᵢ: -2, -1, 0, 1, 2\nChoose frequencies: f₁=3, f₂=5, f₃=10, f₄=5, f₅=3 (symmetric around a)\nClasses: 25-35, 35-45, 45-55, 55-65, 65-75\n\n| Class   | fᵢ | xᵢ | uᵢ | fᵢuᵢ |\n|---------|----|----|----|------|\n| 25-35   | 3  | 30 | -2 | -6   |\n| 35-45   | 5  | 40 | -1 | -5   |\n| 45-55   | 10 | 50 | 0  | 0    |\n| 55-65   | 5  | 60 | 1  | 5    |\n| 65-75   | 3  | 70 | 2  | 6    |\nΣfᵢ = 26, Σfᵢuᵢ = 0\nMean = 50 + 10(0/26) = 50 ✓\n\nA poor answer (e.g., unequal class widths, non-integer uᵢ, mean ≠ 50) reveals the student doesn't understand how to reverse-engineer the method. They may not grasp that uᵢ integers require (xᵢ - a) to be multiples of h, or that Σfᵢuᵢ = 0 gives mean = a. This tests deep structural understanding.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Step-Deviation Method is a ______ technique for finding the mean of grouped data that simplifies the Assumed Mean Method by dividing each deviation (xᵢ - a) by the common class size h, yielding step-deviations uᵢ = (xᵢ - a)/h.",
+     "a": "computational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school conducts a health check-up and records the heights of 200 students in a grouped ______ table with class intervals like 140-145, 145-150, etc.",
+     "a": "frequency",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently compute the mean of grouped data using the step-deviation method for any frequency distribution with equal class intervals, correctly identifying the assumed mean, class size, and step-deviations, and can justify why this method reduces computational effort compared to the direct and assumed mean methods.",
+     "self_check": true
     }
    ]
   }

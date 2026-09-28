@@ -34,6 +34,21 @@
      "q": "Create a real-world problem (in Indian context) where a farmer has a parallelogram-shaped field with base 50 m and perpendicular height 30 m. He wants to divide it into two equal-area rectangles by drawing a line parallel to the base. What is the length and breadth of each rectangle? Explain your reasoning.",
      "a": "Total area = 50 × 30 = 1500 m². Each rectangle area = 750 m². The dividing line is parallel to the base, so it creates two parallelograms? Wait, \"divide into two equal-area rectangles by drawing a line parallel to the base\" — a parallelogram divided by a line parallel to the base yields two smaller parallelograms, not rectangles, unless the original is a rectangle. If the field is a parallelogram (not rectangle), a line parallel to the base creates two parallelograms. To get rectangles, the cut must be perpendicular to the base. But the problem says \"parallel to the base\". So either the field is a rectangle, or the student must recognize that the resulting shapes are parallelograms, not rectangles. A good answer: \"The problem as stated is impossible if the field is a non-rectangular parallelogram, because a cut parallel to the base produces parallelograms, not rectangles. If the field is a rectangle, then each rectangle has length 50 m and breadth 15 m.\" This tests deep understanding of shape properties.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The area of a rectangle is the product of its length and breadth (A = l × b), where length and breadth are ______ adjacent sides.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a rectangular garden bed of length 12 m and breadth 8 m, and a ______-shaped flower bed with base 10 m and slant side 6 m at an angle.",
+     "a": "parallelogram",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the parallelogram area formula from the rectangle area formula using geometric transformation (shearing or dissection), solve for missing dimensions (base, height, length, breadth) given area and one other measure, and correctly identify the perpendicular height in a parallelogram when multiple side lengths are.",
+     "self_check": true
     }
    ]
   }

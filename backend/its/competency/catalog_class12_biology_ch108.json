@@ -256,7 +256,16 @@
      "solution": "Step 1: Calculate BOD reduction: bod_diff = initial_bod - final_bod = 0.0 Step 2: Calculate percentage BOD reduction: reduction_percent = bod_diff * 100 / initial_bod = 0.0 Step 3: Interpret the BOD reduction result: treatment_efficiency = reduction_percent = 0.0 Final result: 0.0",
      "answer": "0.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "reduction_percent = (initial_bod - final_bod) * 100 / initial_bod",
+     "compute": "reduction_percent = (initial_bod - final_bod) * 100 / initial_bod"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebo.108.8",

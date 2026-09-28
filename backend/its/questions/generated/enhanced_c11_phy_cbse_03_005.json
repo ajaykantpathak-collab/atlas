@@ -34,6 +34,31 @@
      "q": "Design a real-world scenario (Indian context) where three vectors must be added using components to solve a practical problem. Specify the vectors with magnitudes, directions, and physical quantities. Explain why the component method is preferred over graphical addition here.",
      "a": "**Scenario:** A drone delivers a package in Delhi. It flies: (1) 2.0 km at 30° north of east, (2) 1.5 km due north, (3) 1.0 km at 45° south of east. Find its net displacement from the start.  \n**Why component method:** Three vectors with non-orthogonal angles make graphical head-to-tail drawing inaccurate (small errors in angle/length compound). Component method gives exact algebraic result. Vectors: **D₁** = 2.0 km @ 30°, **D₂** = 1.5 km @ 90°, **D₃** = 1.0 km @ −45°. A poor answer would choose a scenario with only two vectors or right angles where graphical method suffices, missing the point that component method excels for *multiple* non-perpendicular vectors.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Vector addition using components is the analytical method of finding the resultant of two or more vectors by resolving each vector into its rectangular components along mutually ______ axes (typically x and y), adding the corresponding components algebraically, and then determining the magnitude and direction of the resultant vector from its components.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a boat ______ a river: the boat's velocity relative to water is 4 m/s at 30° north of east, and the river current flows at 2 m/s due east.",
+     "a": "crossing",
+     "self_check": true
+    },
+    {
+     "q": "What is Vector addition using components? State the definition given in this lesson.",
+     "a": "Vector addition using components is the analytical method of finding the resultant of two or more vectors by resolving each vector into its rectangular components along mutually perpendicular axes (typically x and y), adding the corresponding components algebraically, and then determining the magnitude and direction of the resultant.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Vector addition using components?",
+     "a": "Students believe the angle of the resultant vector is simply the sum or average of the individual vector angles (e.g., if A is at 30° and B is at 60°, they think R is at 45° or 90°).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) resolve any number of vectors into x and y components using trigonometry, (2) add corresponding components correctly with signs, (3) compute the magnitude and direction of the resultant vector, and (4) express the final answer in both component form (*Rₓî* + *Rᵧĵ*) and magnitude-direction form (*R* at *θ* from.",
+     "self_check": true
     }
    ]
   }

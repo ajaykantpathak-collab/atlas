@@ -31,8 +31,18 @@
      "self_check": true
     },
     {
-     "q": "[Question needed - generate a create level question]",
-     "a": "[Answer needed]",
+     "q": "Create a two-line \"conversion card\" for travellers that converts any speed from $\\text{km/h}$ into $\\text{m/s}$ in one step and back again, and demonstrate your card on $90\\text{ km/h}$.",
+     "a": "A good card states both multipliers — \"$\\text{km/h} \\rightarrow \\text{m/s}$: multiply by $\\frac{5}{18}$\" and \"$\\text{m/s} \\rightarrow \\text{km/h}$: multiply by $\\frac{18}{5}$\" — with the check that the $\\text{m/s}$ value must always be the smaller number. Applied to $90\\text{ km/h}$ it gives $90 \\times \\frac{5}{18} = 25\\text{ m/s}$, which is indeed smaller. A poor card memorises only one fraction with no size check, so it fails the moment the direction of conversion flips.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine riding a bicycle down an Indian village road where the speedometer or milestone markers indicate distance in ______ and time in hours, while a school laboratory stopwatch measures time in seconds.",
+     "a": "kilometres",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine riding a bicycle down an Indian village road where the ______ or milestone markers indicate distance in kilometres and time in hours, while a school laboratory stopwatch measures time in seconds.",
+     "a": "speedometer",
      "self_check": true
     }
    ]

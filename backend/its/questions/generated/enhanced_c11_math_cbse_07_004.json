@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (Indian context) that requires computing \\(^nP_r\\) with n=10, r=3, and explain why order matters in your scenario.",
      "a": "Example: \"A school has 10 candidates for the posts of Head Boy, Head Girl, and Sports Captain. Each candidate can hold at most one post. In how many ways can the posts be filled?\" Order matters because Head Boy ≠ Head Girl ≠ Sports Captain (distinct positions). Number of ways = \\(^{10}P_3 = 720\\). A poor answer might describe a scenario where order doesn't matter (e.g., selecting a 3-member committee) or uses repetition allowed.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ of n distinct objects taken r at a time (where 0 ≤ r ≤ n) is an ordered arrangement of r objects selected from the n distinct objects.",
+     "a": "permutation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class monitor ______ 5 students (Aman, Bina, Chetan, Diya, Eshan) in a row for a photograph, but only 3 can fit in the front row.",
+     "a": "arranging",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A permutation of n distinct objects taken r at a time (where ______ ≤ r ≤ n) is an ordered arrangement of r objects selected from the n distinct objects.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class monitor arranging 5 students (Aman, Bina, Chetan, Diya, Eshan) in a row for a ______, but only 3 can fit in the front row.",
+     "a": "photograph",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a real-world scenario requiring a three-way table. Specify: (a) The three categorical variables with their categories; (b) A research question that needs all three variables; (c) How you would present the three-way table (since paper is 2D); (d) One specific insight you could only get from the three-way table, not from any two-way table.",
      "a": "(a) Variables: School Type (Govt/Private), Medium (English/Hindi), Board Result (Pass/Fail). (b) Research question: \"Does the effect of school type on pass rate differ by medium of instruction?\" (c) Present as two separate 2×2 tables: one for English medium (School Type × Result), one for Hindi medium. Or as a single table with School Type × Result as rows/columns and Medium as panel header. (d) Insight: In English medium, Private schools have 90% pass vs Govt 70% (20% gap). In Hindi medium, Private 60% vs Govt 65% (Govt better!). This interaction — school type effect REVERSES by medium — is ONLY visible in the three-way table. A poor answer that gives three variables but no interaction insight (e.g., just \"more detail\") misses the core purpose of three-way tables: detecting effect modification/interaction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A one-way table (univariate table) classifies data according to a single ______ or variable, showing the frequency distribution of that variable alone.",
+     "a": "characteristic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're analysing the CBSE Class 12 results for your ______.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Identify whether a given statistical table is one-way, two-way, or three-way by counting the number of classification variables; (2) Construct a two-way table from raw bivariate data with proper row/column labels, marginal totals, and grand total; (3) Interpret cell frequencies, marginal totals, and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're ______ the CBSE Class 12 results for your school.",
+     "a": "analysing",
+     "self_check": true
     }
    ]
   }

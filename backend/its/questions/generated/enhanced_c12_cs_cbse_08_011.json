@@ -34,6 +34,21 @@
      "q": "**CREATE**: Design a real-world scenario (Indian context) that **requires both a stack and a queue working together**. Describe the interaction and specify which operation (push/pop/enqueue/dequeue) each structure performs.",
      "a": "**Expected answer**: Example: **Railway ticket booking system with “undo” and “waitlist”**.  \n- **Queue (waitlist)**: `enqueue` when a new request arrives; `dequeue` when a seat is confirmed.  \n- **Stack (user’s recent actions)**: `push` when user selects a train/date; `pop` when user clicks “Undo” to revert the last selection.  \nThe two structures operate independently but share the same user session.  \n**Poor answer reveals**: If the student gives a scenario that only needs one structure (e.g., only undo → stack), they haven’t grasped *complementary* use cases. Board case-study questions often ask for such combined designs.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A stack is a linear data ______ that follows the Last-In-First-Out (LIFO) principle: the element inserted last is the first to be removed.",
+     "a": "structure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a text editor’s “Undo” feature and a print spooler for a school lab.",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) compare stack and queue on at least five dimensions (principle, operations, pointer movement, typical applications, and time complexity), (2) justify the choice of stack or queue for a given real-world or algorithmic problem, and (3) trace a dry-run of a mixed sequence of stack and queue operations to predict the.",
+     "self_check": true
     }
    ]
   }

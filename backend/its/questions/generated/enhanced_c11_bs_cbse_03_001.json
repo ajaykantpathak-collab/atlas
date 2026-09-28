@@ -34,6 +34,26 @@
      "q": "Create a novel decision-making framework (flowchart or 3-step checklist) that a Class 11 student can use to classify ANY Indian enterprise as Private Sector or Public Sector (and if public, which of the three forms). Your framework must use only observable, verifiable criteria (e.g., \"Check Annual Report for shareholding pattern\", \"Check enabling Act\").",
      "a": "A good framework:\nStep 1 (Ownership Test): Check latest Annual Report/ROC filing – Is ≥51% paid-up capital held by Central/State Govt? If NO → Private Sector (identify form: Proprietorship/Partnership/Company). If YES → Public Sector, go to Step 2.\nStep 2 (Genesis Test): Check enabling legislation – Was it created by a Special Act of Parliament/State Legislature? If YES → Statutory Corporation (e.g., RBI, LIC, FCI). If NO (created under Companies Act), go to Step 3.\nStep 3 (Administrative Test): Is it a part of a Government Ministry, staffed by civil servants, funded from Treasury? If YES → Departmental Undertaking (e.g., Railways, Post). If NO (separate legal entity, own staff, own funds) → Government Company (e.g., BHEL, SAIL).\nA poor framework uses vague criteria like \"check if it's famous\" or \"check if it serves the public\", revealing inability to operationalise legal definitions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The private sector comprises business enterprises owned, controlled, and managed by private individuals or groups (sole ______, partnership, Joint Hindu Family, cooperative, company) with the primary objective of profit maximisation.",
+     "a": "proprietorship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are reading a news headline: \"______ to sell 51% stake in BPCL to private players.\" You wonder: What changes when BPCL moves from public to private sector?",
+     "a": "Government",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The public sector comprises enterprises owned, controlled, and managed by the Central Government, State Government, or both (with at least ______% government shareholding), organised as Departmental Undertakings, Statutory Corporations, or Government Companies, aiming to serve public welfare alongside revenue generation.",
+     "a": "51",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Classify any given real-world Indian enterprise (e.g., Indian Railways, Reliance Industries, LIC, Bharat Heavy Electricals) into private or public sector with justification based on ownership, control, and legal form; (2) Explain the distinction between the two sectors using at least four parameters.",
+     "self_check": true
     }
    ]
   }

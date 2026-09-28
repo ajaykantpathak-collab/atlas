@@ -14,7 +14,7 @@
    "key_idea": "arrangements = options ** positions",
    "textbook_ref": "Repeated choices from the same set of options over several positions give options raised to the number of positions, as in number plates and codes.",
    "question_patterns": "kemh106.txt fundamental principle sections",
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -31,7 +31,16 @@
      "action": "state the conclusion",
      "explain": "Summarise the answer with the key terms of the chapter."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the counting rule (product, factorial, 2^n)",
+     "explain": "apply the counting rule (product, factorial, 2^n): total = 5 * 5 gives 25",
+     "compute": "total = 5 * 5"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.106.2.1",
@@ -49,7 +58,7 @@
     "distinguish permutation from combination with examples",
     "arrange objects around a circle using permutations"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -66,7 +75,16 @@
      "action": "state the conclusion",
      "explain": "Summarise the answer with the key terms of the chapter."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the counting rule (product, factorial, 2^n)",
+     "explain": "apply the counting rule (product, factorial, 2^n): total = 6 * 8 gives 48",
+     "compute": "total = 6 * 8"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.106.3.1",
@@ -77,7 +95,7 @@
    "key_idea": "pair_count = n * (n - 1) / 2",
    "textbook_ref": "Combinations ignore order, so the number of handshakes among n people equals the number of pairs n times n minus one over two.",
    "question_patterns": "kemh106.txt combinations sections",
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -94,7 +112,16 @@
      "action": "state the conclusion",
      "explain": "Summarise the answer with the key terms of the chapter."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the counting rule (product, factorial, 2^n)",
+     "explain": "apply the counting rule (product, factorial, 2^n): total = 9 * 3 gives 27",
+     "compute": "total = 9 * 3"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

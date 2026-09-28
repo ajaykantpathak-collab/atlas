@@ -34,6 +34,26 @@
      "q": "Create a realistic 5-transaction scenario for a new bakery business involving: (1) credit purchase from supplier, (2) credit sale to customer, (3) owner's cash withdrawal, (4) owner's goods withdrawal, (5) early payment to supplier earning cash discount. For each, state the Debtor/Creditor/Drawing classification and the Accounting Equation impact.",
      "a": "**Expected**: (1) Buy flour ₹20,000 on credit from *M/s Grain Traders* → Creditor ₹20,000 (Liability ↑), Stock ₹20,000 (Asset ↑). (2) Sell cakes ₹15,000 on credit to *City Café* → Debtor ₹15,000 (Asset ↑), Revenue ₹15,000 (Capital ↑ via Profit). (3) Owner withdraws ₹5,000 cash → Drawings ₹5,000 (Capital ↓), Cash ₹5,000 (Asset ↓). (4) Owner takes ₹2,000 cakes for family → Drawings ₹2,000 (Capital ↓), Stock ₹2,000 (Asset ↓). (5) Pay *M/s Grain Traders* ₹19,000 (₹1,000 cash discount) → Creditor ₹20,000 (Liability ↓), Cash ₹19,000 (Asset ↓), Discount Received ₹1,000 (Capital ↑ via Profit). A poor answer misses dual-aspect effects, misclassifies discount, or treats drawings as expense.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Drawings refer to the ______ of money, goods, or other assets by the proprietor/owner from the business for personal or domestic use, which reduces the owner's capital/equity in the enterprise.",
+     "a": "withdrawal",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you start a small online stationery ______ with ₹50,000 of your own savings.",
+     "a": "business",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) correctly classify any given transaction as drawings, debtor creation, or creditor creation with justification referencing the accounting equation; (2) distinguish between trade discount and cash discount in the context of debtors/creditors; (3) explain the impact of each on the Accounting Equation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you start a small online ______ business with ₹50,000 of your own savings.",
+     "a": "stationery",
+     "self_check": true
     }
    ]
   }

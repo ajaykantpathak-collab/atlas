@@ -29,7 +29,16 @@
      "explain": "Divide the number of unemployed persons by the labour force and multiply by 100 to get the unemployment rate",
      "compute": "unemployment_rate = unemployed / labour_force * 100"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "unemployment_rate = unemployed / labour_force * 100",
+     "compute": "unemployment_rate = unemployed / labour_force * 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keec.106.2.1",

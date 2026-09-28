@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_12_006",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_12_006",
+   "title": "c11_app_cbse_12_006",
+   "questions": [
+    {
+     "q": "What is the center and radius of the circle represented by the equation $3x^2 + 3y^2 - 6x + 12y - 9 = 0$? State the condition required for this equation to represent a real circle.",
+     "a": "The equation must first be divided by 3 to make coefficients of $x^2$ and $y^2$ equal to 1, yielding $x^2 + y^2 - 2x + 4y - 3 = 0$. Comparing with $x^2 + y^2 + 2gx + 2fy + c = 0$, we get $g=-1, f=2, c=-3$. Center is $(-g, -f) = (1, -2)$. Radius $r = \\sqrt{g^2+f^2-c} = \\sqrt{1+4+3} = \\sqrt{8} = 2\\sqrt{2}$. Condition for real circle: $g^2+f^2-c > 0$ (here $8 > 0$). A wrong answer (e.g., center $(-1, 2)$) reveals the student has not internalized the sign reversal when extracting center from the general form coefficients.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the equation $x^2 + y^2 - 4x + 6y + 13 = 0$ represents a point circle. What does this mean geometrically, and how does it differ from an equation where $g^2+f^2-c < 0$?",
+     "a": "For $x^2 + y^2 - 4x + 6y + 13 = 0$, we have $g=-2, f=3, c=13$. Discriminant $g^2+f^2-c = 4+9-13 = 0$. Since radius $r = \\sqrt{0} = 0$, the circle degenerates to a single point at the center $(2, -3)$. Geometrically, this is a \"circle\" with zero radius—just the center point itself. If $g^2+f^2-c < 0$ (e.g., $x^2+y^2+1=0$), the radius would be imaginary, meaning no real point $(x,y)$ satisfies the equation; the graph is empty in the real Cartesian plane. A wrong answer confusing \"point circle\" with \"no real locus\" shows the student doesn't distinguish between zero radius (one real point) and imaginary radius (no real points).",
+     "self_check": true
+    },
+    {
+     "q": "Find the equation of the circle drawn on the line segment joining $A(2, -3)$ and $B(-2, 5)$ as a diameter. Verify that the center lies on the line $x + y = 0$.",
+     "a": "Using diameter form: $(x-2)(x+2) + (y+3)(y-5) = 0 \\Rightarrow (x^2-4) + (y^2-2y-15) = 0 \\Rightarrow x^2 + y^2 - 2y - 19 = 0$. Center from general form: $g=0, f=-1 \\Rightarrow$ center $(0, 1)$. Midpoint of AB: $\\left(\\frac{2-2}{2}, \\frac{-3+5}{2}\\right) = (0, 1)$. Center $(0,1)$ satisfies $x+y=0+1=1 \\neq 0$. **Correction:** The center $(0,1)$ does NOT lie on $x+y=0$. The question's verification condition was a trap. The correct line for the center is $x=0$ (y-axis). A student who forces the center to satisfy $x+y=0$ reveals they are guessing rather than computing the midpoint/diameter form correctly.",
+     "self_check": true
+    },
+    {
+     "q": "A circle has the equation $x^2 + y^2 + 2gx + 2fy + c = 0$. It cuts the x-axis at points A and B such that AB = 10 units, and cuts the y-axis at points C and D such that CD = 8 units. If the circle passes through the origin, find the values of $g$, $f$, and $c$.",
+     "a": "Passes through origin $\\Rightarrow c = 0$. X-intercepts: set $y=0 \\Rightarrow x^2+2gx=0 \\Rightarrow x(x+2g)=0$. Roots $x=0, -2g$. Distance AB = $|-2g - 0| = 2|g| = 10 \\Rightarrow |g| = 5 \\Rightarrow g = \\pm 5$. Y-intercepts: set $x=0 \\Rightarrow y^2+2fy=0 \\Rightarrow y(y+2f)=0$. Roots $y=0, -2f$. Distance CD = $|-2f - 0| = 2|f| = 8 \\Rightarrow |f| = 4 \\Rightarrow f = \\pm 4$. Possible circles: $g=5, f=4$; $g=5, f=-4$; $g=-5, f=4$; $g=-5, f=-4$. All satisfy $g^2+f^2-c = 25+16 > 0$. A wrong answer (e.g., forgetting $c=0$ or using diameter formula $2\\sqrt{g^2-c}$ incorrectly) reveals confusion between intercept length formula and chord length formula, or missing the \"passes through origin\" constraint.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement: \"The equation $2x^2 + 2y^2 - 8x + 12y + 20 = 0$ represents a circle with center $(4, -6)$ and radius $\\sqrt{20}$.\" Identify all errors and provide the correct properties.",
+     "a": "Errors: (1) Coefficients of $x^2$ and $y^2$ are 2, not 1. Must divide by 2 first: $x^2+y^2-4x+6y+10=0$. (2) Center from reduced form: $g=-2, f=3 \\Rightarrow$ center $(2, -3)$, not $(4, -6)$. (3) Radius: $r = \\sqrt{g^2+f^2-c} = \\sqrt{4+9-10} = \\sqrt{3}$, not $\\sqrt{20}$. (4) The original radius calculation likely used unreduced coefficients incorrectly. Correct properties: Center $(2, -3)$, Radius $\\sqrt{3}$. A student who only fixes the center but not the radius, or divides only some terms, reveals they treat the general form as a template to plug into without normalizing the quadratic coefficients first.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world problem (Indian context) where a circular park's boundary is defined by the diameter form of a circle equation. The problem must require finding the equation, center, and radius, and include a condition where a specific landmark (e.g., a statue) lies exactly on the boundary. Provide the full problem statement and the solution outline.",
+     "a": "**Problem:** In a Smart City project, a circular jogging track is planned such that its diameter endpoints are the existing Banyan tree at $A(3, 4)$ and the Temple gate at $B(-5, 2)$. A statue of a freedom fighter must be placed exactly on the track boundary at point $P$ where the x-coordinate is $-1$. Find the equation of the track, its center and radius, and the possible y-coordinates for the statue.\n**Solution Outline:** (1) Use diameter form $(x-3)(x+5)+(y-4)(y-2)=0$. (2) Expand to general form, find center $(-1, 3)$ and radius $\\sqrt{17}$. (3) Substitute $x=-1$ into equation to find $y=3\\pm\\sqrt{17}$. A poor answer would use standard form instead of diameter form, or fail to generate two valid y-coordinates for the statue, revealing inability to work backwards from a constraint on the circle.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

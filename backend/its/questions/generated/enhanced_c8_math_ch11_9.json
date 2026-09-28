@@ -34,6 +34,26 @@
      "q": "Design a solid using exactly four unit cubes such that its front view is an L-shape, its top view is a 2×2 square, and its side view is a 2×2 square. Describe the arrangement of the cubes.",
      "a": "Place three cubes on the bottom layer forming an L (two cubes side by side along the x-axis, and one cube attached to the left cube along the y-axis). Place the fourth cube on top of the cube at the corner of the L (the one that has two neighbours). This gives a top view of a 2×2 square (the bottom layer covers three of the four cells, the top cube covers the fourth cell from above). The front view (looking along the y-axis) shows an L-shape 2 cubes high and 2 cubes wide. The side view (looking along the x-axis) also shows a 2×2 square because the top cube fills the missing column. A poor answer (e.g., random arrangement) reveals the student cannot work backwards from views to a 3D configuration.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Front, top, and side views (orthographic projections) are 2D ______ of a 3D solid obtained by looking perpendicularly at the solid from the front, directly above, and from the side, respectively; each view shows only the outline of the solid as seen from that direction, with no perspective distortion.",
+     "a": "representations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are an architect designing a small garden shed.",
+     "a": "Imagine",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly draw the front, top, and side views of a given solid composed of cubes, cuboids, cylinders, cones, or their simple combinations, and can identify a solid when presented with its three orthographic views.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an ______ designing a small garden shed.",
+     "a": "architect",
+     "self_check": true
     }
    ]
   }

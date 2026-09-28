@@ -32,7 +32,37 @@
     },
     {
      "q": "Design a simple experiment using household items to demonstrate electrostatic shielding (Faraday cage effect). List materials, procedure, and the expected observation that proves the interior field is zero.",
-     "a": "**Materials:** Metal mesh strainer or aluminum foil wrapped around a cardboard box (cage), a small battery-operated AM radio (or a phone receiving a call), a source of strong electromagnetic noise (e.g., electric drill, hair dryer, or lightning — but safely: a piezoelectric gas lighter spark near the cage).\n**Procedure:** (1) Turn on the radio and tune to a station with static. (2) Bring the noise source close — static increases. (3) Place the radio inside the metal cage (ensure no gaps). (4) Bring the noise source close again.\n**Observation:** Static/noise disappears or drastically reduces when the radio is inside the closed metal cage, even though the noise source is outside.\n**Reason:** The cage's free charges rearrange to cancel external fields inside the cavity. A poor answer (e.g., \"put phone in microwave\") uses a device not designed for low-frequency EM shielding or misses the key requirement of a conductive enclosure with no large apertures.",
+     "a": "(1) Materials — a metal mesh strainer or a foil-lined cardboard box as the cage, a small battery radio, and a spark-making gas lighter as the noise source, (2) Procedure — tune the radio to static, bring the noise source close so the static grows louder, then seal the radio inside the cage with no large gaps and bring the noise source close again, (3) Expected observation — the static disappears or drops drastically while the radio sits inside the closed conductive cage, proving the interior field is cancelled, (4) The reason — free charges in the cage rearrange themselves so that the external field is cancelled inside the cavity. A poor answer such as putting a phone in a microwave uses a device not designed for shielding, or misses that the conductive enclosure must have no large apertures.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In ______ equilibrium, a conductor is a material containing mobile charge carriers (free electrons in metals) that redistribute themselves such that the electric field inside the conductor is zero, the conductor becomes an equipotential volume, and any net charge resides entirely on its surface with surface charge density σ (C/m²).",
+     "a": "electrostatic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine touching a ______ car door after sliding across the seat on a dry day — you feel a spark.",
+     "a": "metal",
+     "self_check": true
+    },
+    {
+     "q": "What is In electrostatic equilibrium, a conductor? State the definition given in this lesson.",
+     "a": "In electrostatic equilibrium, a conductor is a material containing mobile charge carriers (free electrons in metals) that redistribute themselves such that the electric field inside the conductor is zero, the conductor becomes an equipotential volume, and any net charge resides entirely on its surface with surface charge density σ (C/m²).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In equilibrium, E₀ + E_ind = ______ everywhere inside.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about In electrostatic equilibrium, a conductor?",
+     "a": "Misconception: \"If a conductor has a cavity with no charge inside, the electric field in the cavity is zero only if the conductor is spherical.\" Why it's wrong: Students recall the spherical shell result (E=0 inside a uniformly charged sphere) and generalize incorrectly.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Explain why the electric field inside a conductor in electrostatic equilibrium must be zero using the concept of mobile charges and force equilibrium; (2) Derive the relation E = σ/ε₀ at the surface of a charged conductor using a Gaussian pillbox; (3) Apply electrostatic shielding to predict field inside a cavity; (4).",
      "self_check": true
     }
    ]

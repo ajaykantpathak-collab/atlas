@@ -5,6 +5,8 @@
    "id": "am11_001.1",
    "title": "Prime Numbers and Divisor Counting",
    "converted_to_compute": false,
+   "formula": "divisor_count = (a + 1) * (b + 1)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 14 and 7 have HCF 7 with coprime multipliers 2 and 1. Verify by computing hcf = 7 x 1; then find the HCF value.",
@@ -42,6 +44,8 @@
    "id": "am11_001.2",
    "title": "GCD from Prime Factorizations",
    "converted_to_compute": false,
+   "formula": "gcd = p**min(a1, b1) * q**min(a2, b2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 6 and 14 have HCF 2 with coprime multipliers 3 and 7. Verify by computing hcf = 2 x 1; then find the HCF value.",
@@ -78,15 +82,9 @@
   {
    "id": "am11_001.3",
    "title": "Euclid Division Algorithm for GCD",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
-     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 3 * 1 gives 3",
-     "compute": "hcf = 3 * 1"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "r = b % a",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 9 and 12 have HCF 3 with coprime multipliers 3 and 4. Verify by computing hcf = 3 x 1; then find the HCF value.",
@@ -124,6 +122,8 @@
    "id": "am11_001.4",
    "title": "Euler Totient and RSA Key Parameters",
    "converted_to_compute": false,
+   "formula": "phi = (p - 1) * (q - 1)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "For a pentagonal pyramid, find the number of edges.",
@@ -161,6 +161,8 @@
    "id": "am11_001.5",
    "title": "Modular Arithmetic and Remainder of Powers",
    "converted_to_compute": false,
+   "formula": "rem = a**k % m",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 3^3 x 3^3.",
@@ -198,6 +200,8 @@
    "id": "am11_001.6",
    "title": "Binary to Decimal Conversion",
    "converted_to_compute": false,
+   "formula": "value = 2 * acc + bit",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the number with 4 units, 3 tenths and 4 hundredths as a decimal.",
@@ -234,15 +238,9 @@
   {
    "id": "am11_001.7",
    "title": "Decimal to Binary by Repeated Halving",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "line up and combine the decimal values",
-     "explain": "line up and combine the decimal values: val = 9 + 3 / 10 + 4 / 100 gives 9.34",
-     "compute": "val = 9 + 3 / 10 + 4 / 100"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "next = n // 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the number with 9 units, 3 tenths and 4 hundredths as a decimal.",
@@ -280,6 +278,8 @@
    "id": "am11_001.8",
    "title": "Multiplying Complex Numbers",
    "converted_to_compute": false,
+   "formula": "z1 * z2 = (a1 * a2 - b1 * b2) + (a1 * b2 + a2 * b1) * i",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the determinant of [[7, 8], [-6, 7]].",
@@ -317,6 +317,8 @@
    "id": "am11_001.9",
    "title": "Conjugate and Modulus of a Complex Number",
    "converted_to_compute": false,
+   "formula": "mod_z = sqrt(a**2 + b**2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the determinant of [[-4, -5], [-5, 5]].",
@@ -354,6 +356,8 @@
    "id": "am11_001.10",
    "title": "Powers of Iota on the Four Cycle",
    "converted_to_compute": false,
+   "formula": "cycle = k % 4",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the determinant of [[8, 2], [5, 9]].",
@@ -391,6 +395,8 @@
    "id": "am11_001.11",
    "title": "Laws of Indices",
    "converted_to_compute": false,
+   "formula": "a**m * a**n = a**(m + n)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 6^3 x 6^2.",
@@ -425,46 +431,11 @@
    ]
   },
   {
-   "id": "am11_001.12",
-   "title": "Logarithm Product Rule with Given Values",
-   "converted_to_compute": false,
-   "questions": [
-    {
-     "q": "Compute 9 + 6 as a quick check exercise.",
-     "a": "15",
-     "self_check": false
-    },
-    {
-     "q": "Compute 5 + 6 as a quick check exercise.",
-     "a": "11",
-     "self_check": false
-    },
-    {
-     "q": "Compute 5 + 9 as a quick check exercise.",
-     "a": "14",
-     "self_check": false
-    },
-    {
-     "q": "Compute 5 + 3 as a quick check exercise.",
-     "a": "8",
-     "self_check": false
-    },
-    {
-     "q": "Compute 5 + 2 as a quick check exercise.",
-     "a": "7",
-     "self_check": false
-    },
-    {
-     "q": "Compute 3 + 2 as a quick check exercise.",
-     "a": "5",
-     "self_check": false
-    }
-   ]
-  },
-  {
    "id": "am11_001.13",
    "title": "Antilogarithm via Powers of Ten",
    "converted_to_compute": false,
+   "formula": "y = 10**x",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 5^2 x 5^3.",
@@ -502,6 +473,8 @@
    "id": "am11_001.14",
    "title": "Richter Scale Amplitude Comparison",
    "converted_to_compute": false,
+   "formula": "ratio = 10**(r1 - r2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 12 : 33 in its simplest form and give the first term of the simplest form.",
@@ -539,6 +512,8 @@
    "id": "am11_001.15",
    "title": "Exponential Growth Models",
    "converted_to_compute": false,
+   "formula": "cells = start * 2**(t / 20)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 4^3 x 4^4.",
@@ -568,6 +543,43 @@
     {
      "q": "Evaluate 9^(-3) and give the value as a fraction.",
      "a": "1/729",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "am11_001.12",
+   "title": "Logarithm Product Rule with Given Values",
+   "converted_to_compute": false,
+   "questions": [
+    {
+     "q": "Compute 9 + 6 as a quick check exercise.",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "Compute 5 + 6 as a quick check exercise.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "Compute 5 + 9 as a quick check exercise.",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "Compute 5 + 3 as a quick check exercise.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "Compute 5 + 2 as a quick check exercise.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "Compute 3 + 2 as a quick check exercise.",
+     "a": "5",
      "self_check": false
     }
    ]

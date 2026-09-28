@@ -24,12 +24,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "scale by the new input",
+    {
+     "step": 1,
+     "action": "scale by the new input",
      "explain": "Multiply the known output by the new input value.",
-     "compute": "scaled = y1 * x2"},
-    {"step": 2, "action": "divide by the known input",
+     "compute": "scaled = y1 * x2"
+    },
+    {
+     "step": 2,
+     "action": "divide by the known input",
      "explain": "Dividing by x1 keeps the constant ratio.",
-     "compute": "y2 = scaled / x1"}
+     "compute": "y2 = scaled / x1"
+    }
    ]
   },
   {
@@ -50,12 +56,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "lock the constant product",
+    {
+     "step": 1,
+     "action": "lock the constant product",
      "explain": "Multiply the known pair for the constant.",
-     "compute": "constant = x1 * y1"},
-    {"step": 2, "action": "divide by the new value",
+     "compute": "constant = x1 * y1"
+    },
+    {
+     "step": 2,
+     "action": "divide by the new value",
      "explain": "The partner value is the constant over the new input.",
-     "compute": "y2 = constant / x2"}
+     "compute": "y2 = constant / x2"
+    }
    ]
   },
   {
@@ -74,15 +86,33 @@
     "give two daily life examples each of direct and inverse proportion",
     "why is area of land and its cost in direct proportion"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "double one quantity mentally",
-     "explain": "Watch what the story forces on the other quantity."},
-    {"step": 2, "action": "check the ratio or the product",
-     "explain": "Constant ratio means direct; constant product means inverse."},
-    {"step": 3, "action": "name the relation",
-     "explain": "Label the problem before applying the matching method."}
-   ]
+    {
+     "step": 1,
+     "action": "double one quantity mentally",
+     "explain": "Watch what the story forces on the other quantity."
+    },
+    {
+     "step": 2,
+     "action": "check the ratio or the product",
+     "explain": "Constant ratio means direct; constant product means inverse."
+    },
+    {
+     "step": 3,
+     "action": "name the relation",
+     "explain": "Label the problem before applying the matching method."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 24 / 8 gives 3",
+     "compute": "t1 = 24 / 8"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -98,12 +128,18 @@
     "x2": "new quantity in kg"
    },
    "solution_template": [
-    {"step": 1, "action": "scale by the new quantity",
+    {
+     "step": 1,
+     "action": "scale by the new quantity",
      "explain": "Cost grows with quantity.",
-     "compute": "scaled = y1 * x2"},
-    {"step": 2, "action": "divide by the known quantity",
+     "compute": "scaled = y1 * x2"
+    },
+    {
+     "step": 2,
+     "action": "divide by the known quantity",
      "explain": "The quotient is the new cost.",
-     "compute": "y2 = scaled / x1"}
+     "compute": "y2 = scaled / x1"
+    }
    ]
   },
   {
@@ -118,12 +154,18 @@
     "x2": "new time in minutes"
    },
    "solution_template": [
-    {"step": 1, "action": "scale by the new time",
+    {
+     "step": 1,
+     "action": "scale by the new time",
      "explain": "Pages grow with minutes in direct proportion.",
-     "compute": "scaled = y1 * x2"},
-    {"step": 2, "action": "divide by the known time",
+     "compute": "scaled = y1 * x2"
+    },
+    {
+     "step": 2,
+     "action": "divide by the known time",
      "explain": "The quotient is the new page count.",
-     "compute": "y2 = scaled / x1"}
+     "compute": "y2 = scaled / x1"
+    }
    ]
   },
   {
@@ -138,12 +180,18 @@
     "x2": "new number of workers"
    },
    "solution_template": [
-    {"step": 1, "action": "lock the worker-days",
+    {
+     "step": 1,
+     "action": "lock the worker-days",
      "explain": "Workers times days stays constant.",
-     "compute": "constant = x1 * y1"},
-    {"step": 2, "action": "divide by the new workers",
+     "compute": "constant = x1 * y1"
+    },
+    {
+     "step": 2,
+     "action": "divide by the new workers",
      "explain": "More workers need fewer days.",
-     "compute": "y2 = constant / x2"}
+     "compute": "y2 = constant / x2"
+    }
    ]
   },
   {
@@ -158,12 +206,18 @@
     "x2": "new speed in km/h"
    },
    "solution_template": [
-    {"step": 1, "action": "lock the distance",
+    {
+     "step": 1,
+     "action": "lock the distance",
      "explain": "Speed times time is the fixed distance.",
-     "compute": "constant = x1 * y1"},
-    {"step": 2, "action": "divide by the new speed",
+     "compute": "constant = x1 * y1"
+    },
+    {
+     "step": 2,
+     "action": "divide by the new speed",
      "explain": "Faster speed shortens the time.",
-     "compute": "y2 = constant / x2"}
+     "compute": "y2 = constant / x2"
+    }
    ]
   }
  ],
@@ -172,18 +226,18 @@
    "id": "ex11.1",
    "source_ref": "hemh111.txt EXERCISE 11.1",
    "questions": [
-     "Following the given table state whether the quantities are in direct proportion.",
-     "If the cost of the given metres of cloth is known find the cost of more cloth.",
-     "Rashmi has a road map with the given scale - find the actual distance."
+    "Following the given table state whether the quantities are in direct proportion.",
+    "If the cost of the given metres of cloth is known find the cost of more cloth.",
+    "Rashmi has a road map with the given scale - find the actual distance."
    ]
   },
   {
    "id": "ex11.2",
    "source_ref": "hemh111.txt EXERCISE 11.2",
    "questions": [
-     "Which of the given pairs are in inverse proportion?",
-     "In a hostel the food lasts the given days - how long with more students?",
-     "A factory requires the given machines to produce the items in the given days - how many machines for fewer days?"
+    "Which of the given pairs are in inverse proportion?",
+    "In a hostel the food lasts the given days - how long with more students?",
+    "A factory requires the given machines to produce the items in the given days - how many machines for fewer days?"
    ]
   }
  ]

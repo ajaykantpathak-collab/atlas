@@ -34,6 +34,31 @@
      "q": "Create a real-world scenario (Indian context) where distinguishing between average rate of change and instantaneous rate of change is crucial for decision-making. Define the function, the interval, and explain what each rate represents in your scenario.",
      "a": "A good answer: \"A Delhi Metro train's distance from Kashmere Gate station is s(t) = 0.5t² + 2t km, where t is minutes after departure. Average velocity over first 10 minutes = [s(10)-s(0)]/10 = 7 km/min = 420 km/h - impossibly high, showing average rate is misleading for safety. Instantaneous velocity at t=10 is s'(10) = t+2 = 12 km/min = 720 km/h - also unrealistic, revealing the model's limitation. A better model: s(t) = 0.05t² + 0.5t for 0≤t≤20. Average velocity 0-20 min = 1.5 km/min = 90 km/h (reasonable). Instantaneous at t=20 = 2.5 km/min = 150 km/h (maximum speed). The distinction matters for scheduling (average) vs safety systems (instantaneous).\" A poor answer uses vague scenarios like \"car speed\" without a defined function, or confuses average speed with average velocity, or cannot explain why instantaneous rate matters for decision-making.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The derivative of a function f(x) at a point x = a represents the ______ rate of change of the function at that point, defined as the limit of the average rate of change as the interval approaches zero: f'(a) = lim_{h→0} [f(a+h) - f(a)]/h, provided this limit exists.",
+     "a": "instantaneous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're riding a motorcycle on the ______-Mumbai highway.",
+     "a": "Delhi",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The derivative of a function f(x) at a point x = a represents the instantaneous rate of change of the function at that point, defined as the limit of the average rate of change as the interval approaches zero: f'(a) = lim_{h→______} [f(a+h) - f(a)]/h, provided this limit exists.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the derivative as both a limit of difference quotient and as the slope of tangent, compute average rate of change over an interval, estimate instantaneous rate of change from a graph or table, and distinguish between average and instantaneous rates in real-world contexts like velocity vs speed.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're riding a ______ on the Delhi-Mumbai highway.",
+     "a": "motorcycle",
+     "self_check": true
     }
    ]
   }

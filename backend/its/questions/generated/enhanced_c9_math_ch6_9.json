@@ -34,6 +34,31 @@
      "q": "Create a real-life problem (Indian context) that requires finding the area of a sector where the radius is not given directly but must be derived from the circumference. Provide the problem statement and the solution steps.",
      "a": "Example problem: \"A circular track has a circumference of 440 m. A sector of this track is marked for a 45° relay zone. Find the area of this zone. (Use π=22/7).\" Solution steps: 1) Find radius from circumference: 2πr = 440 → r = 70 m. 2) Use sector area formula: (45/360) × π × 70² = (1/8) × (22/7) × 4900 = 1925 m². A poor answer would give a problem where the radius is directly given, or the solution uses the circumference value directly in the area formula without finding r, showing they don't understand the dependency.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The area of a sector of a circle is the region ______ by two radii and the arc between them.",
+     "a": "enclosed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ garden with a radius of 7 metres, and you want to plant roses only in a 60° sector of it.",
+     "a": "circular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It is a fraction of the total area of the circle, where the fraction is determined by the ratio of the central angle (in degrees) to ______°.",
+     "a": "360",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly compute the area of a sector given the radius and central angle, solve for the radius or angle when the area is given, and apply the concept to composite figures involving sectors and other plane shapes.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a circular garden with a radius of 7 metres, and you want to plant roses only in a 60° sector of it.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

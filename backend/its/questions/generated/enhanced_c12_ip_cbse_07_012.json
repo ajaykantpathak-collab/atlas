@@ -34,6 +34,26 @@
      "q": "Design a \"Cyber Incident Response Checklist\" poster for your school computer lab that a Class 10 student can follow independently. It must have 6 numbered steps, use simple language, include the portal URL and helpline, and specify what evidence to collect for three common school-relevant scenarios: (a) cyberbullying on WhatsApp, (b) fake profile impersonation on Instagram, (c) malware infection from a downloaded game.",
      "a": "A good answer will produce a checklist like:\n1. **STOP** — Do not reply, do not pay, do not delete anything.\n2. **COLLECT EVIDENCE**: (a) Screenshots of chats/profile + bully's number; (b) Screenshots of fake profile URL, posts, DMs + \"Report\" receipts; (c) Photo of ransom note/pop-up, note file names/extensions, run antivirus scan log.\n3. **REPORT ONLINE** → Open **cybercrime.gov.in** → Click \"File a Complaint\" → Select category (Women/Child for bullying/impersonation; Other for malware) → Fill form → Submit → **Save PDF acknowledgment**.\n4. **CALL 1930** if money involved (e.g., game purchase scam).\n5. **INFORM TRUSTED ADULT** (teacher/parent) + School IT admin (for malware on lab PC).\n6. **SECURE ACCOUNTS** — Enable 2FA, change passwords from a clean device, revoke suspicious sessions.\nA poor answer omits the portal/helpline, mixes step order (e.g., \"inform adult\" before evidence collection), or uses vague evidence instructions (\"save messages\").",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Reporting cyber incidents and legal recourse in India refers to the formal process of notifying designated authorities (such as the National Cyber Crime Reporting Portal, CERT-In, or local police cyber cells) about cybercrimes like hacking, phishing, identity theft, ransomware, or online fraud, and the subsequent legal mechanisms available under the Information Technology Act, 2000 (as amended) and other relevant laws to seek justice, ______, and prosecution of offenders.",
+     "a": "compensation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive a ______ message claiming your bank KYC has expired and asking you to click a link to update it — you click, enter details, and ₹45,000 is debited within minutes.",
+     "a": "WhatsApp",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Reporting cyber incidents and legal recourse in India refers to the formal process of notifying designated authorities (such as the National Cyber Crime Reporting Portal, CERT-In, or local police cyber cells) about cybercrimes like hacking, phishing, identity theft, ransomware, or online fraud, and the subsequent legal mechanisms available under the Information Technology Act, ______ (as amended) and other relevant laws to seek justice, compensation, and prosecution of offenders.",
+     "a": "2000",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) list the correct reporting channels for different types of cyber incidents in India with their specific URLs/helpline numbers, (2) explain the step-by-step procedure to file a complaint on the National Cyber Crime Reporting Portal including evidence preservation, and (3) identify the applicable sections of.",
+     "self_check": true
     }
    ]
   }

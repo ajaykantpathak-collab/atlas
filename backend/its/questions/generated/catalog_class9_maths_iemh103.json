@@ -4,15 +4,9 @@
   {
    "id": "iemh.103.3.1",
    "title": "Integers and Their Operations",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the integer operation sign rules",
-     "explain": "apply the integer operation sign rules: total = 25 + (24) gives 49",
-     "compute": "total = 25 + (24)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers 25 and 24.",
@@ -49,27 +43,9 @@
   {
    "id": "iemh.103.3.2",
    "title": "Rational Numbers on the Number Line",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the rational-number operation rules",
-     "explain": "apply the rational-number operation rules: num = 7 * 9 + 7 * 2 gives 77",
-     "compute": "num = 7 * 9 + 7 * 2"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the rational-number operation rules: den = 2 * 9 gives 18",
-     "compute": "den = 2 * 9"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the rational-number operation rules: val = num / den gives 4.27778",
-     "compute": "val = num / den"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the rational numbers 7/2 and 7/9.",
@@ -106,26 +82,14 @@
   {
    "id": "iemh.103.3.3",
    "title": "Irrational Numbers",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "verify the number-theory claim numerically",
-     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
-     "compute": "lhs = 3 ** 3 + 4 ** 3"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
-     "compute": "diff = 5 ** 3 - lhs"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
      "a": "34",
-     "self_check": false
+     "self_check": true
     },
     {
      "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
@@ -144,7 +108,7 @@
     },
     {
      "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
-     "a": "0",
+     "a": "18",
      "self_check": false
     },
     {
@@ -157,26 +121,14 @@
   {
    "id": "iemh.103.3.4",
    "title": "Real Numbers",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "verify the number-theory claim numerically",
-     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
-     "compute": "lhs = 3 ** 3 + 4 ** 3"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
-     "compute": "diff = 5 ** 3 - lhs"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
      "a": "34",
-     "self_check": false
+     "self_check": true
     },
     {
      "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
@@ -195,7 +147,7 @@
     },
     {
      "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
-     "a": "0",
+     "a": "18",
      "self_check": false
     },
     {

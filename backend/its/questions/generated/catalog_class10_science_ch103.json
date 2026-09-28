@@ -4,81 +4,187 @@
   {
    "id": "jesc.3.1.1",
    "title": "Physical Properties of Metals",
+   "converted_to_compute": true,
+   "formula": "Conductivity = 1 / Resistance",
    "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
-     "name": "conductance",
-     "expr": "1 / resistance",
-     "explain": "conductivity is the reciprocal of resistance"
-    },
-    {
-     "step": 2,
-     "name": "half_resistance_current",
-     "expr": "voltage / (resistance / 2)",
-     "explain": "current if the wire were half as resistive"
-    },
-    {
-     "step": 3,
-     "name": "current",
-     "expr": "voltage * conductance",
-     "explain": "ohm's law rearranged through conductance"
+     "action": "substitute the given values into the formula",
+     "explain": "Conductivity = 1 / Resistance",
+     "compute": "Conductivity = 1 / Resistance"
     }
    ],
    "questions": [
     {
-     "q": "A copper wire of resistance 4 ohm is connected to a 12 V battery. Taking conductivity as the reciprocal of resistance, find the conductance and the current in the wire.",
-     "vals": {
-      "resistance": 4,
-      "voltage": 12
-     },
-     "unit": "A",
-     "steps": null,
-     "a": "3 A",
+     "q": "For Physical Properties of Metals: given Resistance = 68, find Conductivity.",
+     "a": "0.0147059",
      "self_check": false
     },
     {
-     "q": "An aluminium rod has resistance 8 ohm. It is placed across 24 V. Compute its conductance and the current it carries.",
-     "vals": {
-      "resistance": 8,
-      "voltage": 24
-     },
-     "unit": "A",
-     "steps": null,
-     "a": "3 A",
+     "q": "For Physical Properties of Metals: given Resistance = 134, find Conductivity.",
+     "a": "0.00746269",
      "self_check": false
     },
     {
-     "q": "A graphite rod of resistance 10 ohm is put across a 5 V cell. Find its conductance in siemens and the current flowing.",
-     "vals": {
-      "resistance": 10,
-      "voltage": 5
-     },
-     "unit": "A",
-     "steps": null,
-     "a": "0.5 A",
+     "q": "For Physical Properties of Metals: given Resistance = 123, find Conductivity.",
+     "a": "0.00813008",
      "self_check": false
     },
     {
-     "q": "The heating element of a toaster has resistance 20 ohm at working temperature and is run on 110 V. What current does it draw?",
-     "vals": {
-      "resistance": 20,
-      "voltage": 110
-     },
-     "unit": "A",
-     "steps": null,
-     "a": "5.5 A",
+     "q": "For Physical Properties of Metals: given Resistance = 2.9, find Conductivity.",
+     "a": "0.344828",
      "self_check": false
     },
     {
-     "q": "A thick silver wire has a very low resistance of 2 ohm. Connected to 9 V, what current flows through it?",
-     "vals": {
-      "resistance": 2,
-      "voltage": 9
-     },
-     "unit": "A",
-     "steps": null,
-     "a": "4.5 A",
+     "q": "For Physical Properties of Metals: given Resistance = 197, find Conductivity.",
+     "a": "0.00507614",
+     "self_check": false
+    },
+    {
+     "q": "For Physical Properties of Metals: given Resistance = 108, find Conductivity.",
+     "a": "0.00925926",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.3.3.1",
+   "title": "Properties of Ionic Compounds",
+   "converted_to_compute": true,
+   "formula": "Force = k * (q_1 * q_2) / r**2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "Force = k * (q_1 * q_2) / r**2",
+     "compute": "Force = k * (q_1 * q_2) / r**2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Properties of Ionic Compounds: given k = 38, q_1 = 39, q_2 = 38, r = 54, find Force.",
+     "a": "19.3128",
+     "self_check": false
+    },
+    {
+     "q": "For Properties of Ionic Compounds: given k = 42, q_1 = 57, q_2 = 32, r = 51, find Force.",
+     "a": "29.4533",
+     "self_check": false
+    },
+    {
+     "q": "For Properties of Ionic Compounds: given k = 23, q_1 = 58, q_2 = 34, r = 54, find Force.",
+     "a": "15.5542",
+     "self_check": false
+    },
+    {
+     "q": "For Properties of Ionic Compounds: given k = 96, q_1 = 20, q_2 = 84, r = 47, find Force.",
+     "a": "73.0104",
+     "self_check": false
+    },
+    {
+     "q": "For Properties of Ionic Compounds: given k = 54, q_1 = 45, q_2 = 42, r = 96, find Force.",
+     "a": "11.0742",
+     "self_check": false
+    },
+    {
+     "q": "For Properties of Ionic Compounds: given k = 14.8, q_1 = 95, q_2 = 2.1, r = 70, find Force.",
+     "a": "0.602571",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.3.5.1",
+   "title": "Gold Content and Carat Rating",
+   "converted_to_compute": true,
+   "formula": "purity_percent = (carat / 24) * 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "purity_percent = (carat / 24) * 100",
+     "compute": "purity_percent = (carat / 24) * 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Gold Content and Carat Rating: given carat = 48, find purity percent.",
+     "a": "200",
+     "self_check": false
+    },
+    {
+     "q": "For Gold Content and Carat Rating: given carat = 15.2, find purity percent.",
+     "a": "63.3333",
+     "self_check": false
+    },
+    {
+     "q": "For Gold Content and Carat Rating: given carat = 81, find purity percent.",
+     "a": "337.5",
+     "self_check": false
+    },
+    {
+     "q": "For Gold Content and Carat Rating: given carat = 91, find purity percent.",
+     "a": "379.167",
+     "self_check": false
+    },
+    {
+     "q": "For Gold Content and Carat Rating: given carat = 50, find purity percent.",
+     "a": "208.333",
+     "self_check": false
+    },
+    {
+     "q": "For Gold Content and Carat Rating: given carat = 63, find purity percent.",
+     "a": "262.5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.3.5.2",
+   "title": "Alloying and Amalgams",
+   "converted_to_compute": true,
+   "formula": "Alloy = Base_Metal + Solute_Elements",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "Alloy = Base_Metal + Solute_Elements",
+     "compute": "Alloy = Base_Metal + Solute_Elements"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Alloying and Amalgams: given Base_Metal = 7.9, Solute_Elements = 94, find Alloy.",
+     "a": "101.9",
+     "self_check": false
+    },
+    {
+     "q": "For Alloying and Amalgams: given Base_Metal = 25, Solute_Elements = 43, find Alloy.",
+     "a": "68",
+     "self_check": false
+    },
+    {
+     "q": "For Alloying and Amalgams: given Base_Metal = 3.6, Solute_Elements = 3.4, find Alloy.",
+     "a": "7",
+     "self_check": false
+    },
+    {
+     "q": "For Alloying and Amalgams: given Base_Metal = 39, Solute_Elements = 55, find Alloy.",
+     "a": "94",
+     "self_check": false
+    },
+    {
+     "q": "For Alloying and Amalgams: given Base_Metal = 53, Solute_Elements = 87, find Alloy.",
+     "a": "140",
+     "self_check": false
+    },
+    {
+     "q": "For Alloying and Amalgams: given Base_Metal = 92, Solute_Elements = 50, find Alloy.",
+     "a": "142",
      "self_check": false
     }
    ]
@@ -150,28 +256,6 @@
    ]
   },
   {
-   "id": "jesc.3.3.1",
-   "title": "Properties of Ionic Compounds",
-   "solution_type": "verify_property",
-   "questions": [
-    {
-     "q": "Why do ionic compounds have high melting points?",
-     "a": "Strong electrostatic forces between oppositely charged ions need large energy to break.",
-     "self_check": true
-    },
-    {
-     "q": "Why do ionic compounds conduct electricity in molten state or solution but not as solids?",
-     "a": "In the solid, ions are fixed in the lattice; melting or dissolving frees the ions to move and carry current.",
-     "self_check": true
-    },
-    {
-     "q": "Are ionic compounds generally soluble in water or in kerosene?",
-     "a": "In water (polar solvent) they dissolve; in organic solvents like kerosene they do not.",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "jesc.3.4.4",
    "title": "Roasting and Calcination",
    "solution_type": "verify_property",
@@ -211,105 +295,6 @@
     {
      "q": "Which electrode loses mass during the refining?",
      "a": "The anode, the impure copper block, dissolves away and loses mass.",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "jesc.3.5.1",
-   "title": "Gold Content and Carat Rating",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "gold_fraction",
-     "expr": "carat / 24",
-     "explain": "a 24 carat piece is pure gold, so fraction = carat/24"
-    },
-    {
-     "step": 2,
-     "name": "other_metal_parts",
-     "expr": "24 - carat",
-     "explain": "parts of other metals mixed in the alloy"
-    },
-    {
-     "step": 3,
-     "name": "purity_percent",
-     "expr": "gold_fraction * 100",
-     "explain": "convert the fraction to a percentage"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A bangle is stamped 22 carat. What per cent of it is pure gold?",
-     "vals": {
-      "carat": 22
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "91.6667 %",
-     "self_check": false
-    },
-    {
-     "q": "An old ring is 18 carat gold. Calculate its percentage purity.",
-     "vals": {
-      "carat": 18
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "75 %",
-     "self_check": false
-    },
-    {
-     "q": "A chain marked 14 carat is bought second hand. What is its gold content in per cent?",
-     "vals": {
-      "carat": 14
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "58.3333 %",
-     "self_check": false
-    },
-    {
-     "q": "A coin is declared 24 carat. What per cent purity does this show?",
-     "vals": {
-      "carat": 24
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "100 %",
-     "self_check": false
-    },
-    {
-     "q": "A pendant is only 12 carat. Express its gold purity as a percentage.",
-     "vals": {
-      "carat": 12
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "50 %",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "jesc.3.5.2",
-   "title": "Alloying and Amalgams",
-   "solution_type": "verify_property",
-   "questions": [
-    {
-     "q": "What is an amalgam?",
-     "a": "An alloy in which one of the metals is mercury.",
-     "self_check": true
-    },
-    {
-     "q": "Why is pure gold not used for ornaments?",
-     "a": "Pure gold (24 carat) is very soft; it is alloyed with silver, copper or other metals to make it hard and durable.",
-     "self_check": true
-    },
-    {
-     "q": "Name the constituents of stainless steel and one advantage of it.",
-     "a": "Iron with nickel and chromium; it resists rusting and is strong and shiny.",
      "self_check": true
     }
    ]

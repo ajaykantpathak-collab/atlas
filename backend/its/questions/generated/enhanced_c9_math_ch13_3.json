@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch13_3",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch13_3",
+   "title": "c9_math_ch13_3",
+   "questions": [
+    {
+     "q": "Write the formula for the Total Surface Area (TSA) of a right circular cone in terms of radius (r) and slant height (l). If the radius is doubled and the slant height is halved, how does the Curved Surface Area change?",
+     "a": "TSA = πr(l + r) or πrl + πr². If r becomes 2r and l becomes l/2, new CSA = π(2r)(l/2) = πrl — the CSA remains **unchanged**. A wrong answer (e.g., saying CSA doubles or halves) reveals the student does not understand the multiplicative relationship in the formula πrl and treats r and l as additive or independent effects.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the CSA of a cone with radius 6 cm and vertical height 8 cm as π × 6 × 8 = 48π cm². Is this correct? Explain why or why not using the net of the cone.",
+     "a": "**Incorrect.** The student used vertical height (h = 8 cm) instead of slant height (l). The slant height must be found using Pythagoras: l² = h² + r² = 8² + 6² = 64 + 36 = 100 → l = 10 cm. Correct CSA = π × 6 × 10 = 60π cm². Using h instead of l is wrong because the net of the cone is a sector with radius **l** (the slant height), not h. The vertical height is the altitude of the triangle, not the radius of the sector. A wrong answer reveals confusion between the 3D dimensions: the student thinks the \"height\" in the formula refers to vertical height.",
+     "self_check": true
+    },
+    {
+     "q": "A conical tent has a base radius of 12 m and vertical height of 9 m. Find the cost of the canvas required to make the tent at ₹120 per m². (Use π = 3.14)",
+     "a": "Given: r = 12 m, h = 9 m.  \nStep 1: Find slant height l = √(h² + r²) = √(9² + 12²) = √(81 + 144) = √225 = 15 m.  \nStep 2: CSA = πrl = 3.14 × 12 × 15 = 3.14 × 180 = 565.2 m².  \nStep 3: Cost = 565.2 × 120 = ₹67,824.  \nA wrong answer (e.g., using h=9 directly: 3.14×12×9=339.12 m², cost=₹40,694.40) reveals the student skipped the Pythagoras step and confused vertical height with slant height — the most common board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Two cones have the same base radius. Cone A has slant height 10 cm. Cone B has vertical height 10 cm. Which has larger Curved Surface Area? Justify without calculating exact values.",
+     "a": "Cone A has larger CSA. For Cone A, l = 10 cm (given). For Cone B, vertical height h = 10 cm, so slant height l = √(h² + r²) = √(100 + r²) > 10 cm (since r > 0). Thus Cone B has l > 10 cm. Since CSA = πrl and r is same, larger l gives larger CSA. So Cone B > Cone A. A wrong answer (saying Cone A is larger or they are equal) reveals the student does not understand that slant height is always greater than vertical height for a right circular cone (l > h always), or they think \"height\" in the formula means vertical height.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Find TSA of cone with r = 5 cm, l = 13 cm.\" Their working: TSA = πrl = (22/7) × 5 × 13 = 204.29 cm². Identify the error and give the correct answer.",
+     "a": "**Error:** The student calculated **CSA** (πrl) but the question asked for **TSA** (πr(l + r) or πrl + πr²).  \nCorrect TSA = πr(l + r) = (22/7) × 5 × (13 + 5) = (22/7) × 5 × 18 = (22/7) × 90 = 282.86 cm² (approx).  \nA wrong answer (e.g., saying the working is correct) reveals the student confuses CSA and TSA formulas — a critical board exam distinction. Many 1-mark questions specifically ask \"Curved Surface Area\" vs \"Total Surface Area\".",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-life word problem (Indian context) that requires finding the slant height of a cone first using Pythagoras theorem, then using it to find the cost of painting the curved surface. Include all necessary measurements and rate. The problem should be solvable in 4-5 steps.",
+     "a": "**Sample problem:** \"A farmer stores grain in a conical heap. The base diameter is 14 m and the vertical height is 24 m. He wants to cover the heap with a tarpaulin sheet to protect from rain. If the tarpaulin costs ₹45 per m², find the total cost. (Use π = 22/7)\"  \n**Solution steps:**  \n1. r = 14/2 = 7 m, h = 24 m.  \n2. l = √(h² + r²) = √(576 + 49) = √625 = 25 m.  \n3. CSA = πrl = (22/7) × 7 × 25 = 550 m².  \n4. Cost = 550 × 45 = ₹24,750.  \nA poor problem (e.g., giving slant height directly, or asking for volume instead) reveals the student cannot reverse-engineer the multi-step structure required in board exams (Pythagoras → CSA → Cost).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

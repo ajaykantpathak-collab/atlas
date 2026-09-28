@@ -34,6 +34,26 @@
      "q": "Create a real-life problem (Indian context) where you need to find the area of a circle, but the given measurement is the circumference (e.g., a circular track). Write the problem and solve it step by step.",
      "a": "**Problem:** A circular running track has a circumference of 440 metres. Find the area of the grass field inside the track. Use \\(\\pi = \\frac{22}{7}\\).  \n**Solution:**  \n\\(C = 2\\pi r = 440\\) → \\(2 \\times \\frac{22}{7} \\times r = 440\\) → \\(r = \\frac{440 \\times 7}{44} = 70\\) m.  \n\\(A = \\pi r^2 = \\frac{22}{7} \\times 70 \\times 70 = 22 \\times 700 = 15,400\\) m².  \nA poor answer would directly use 440 as radius or diameter, or fail to derive radius from circumference, showing inability to connect the two formulas.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The area of a circle is the measure of the region enclosed by its ______.",
+     "a": "circumference",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ rangoli for Diwali with a radius of 7 metres.",
+     "a": "circular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a circular rangoli for Diwali with a radius of ______ metres.",
+     "a": "7",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a circular rangoli for Diwali with a radius of 7 metres.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

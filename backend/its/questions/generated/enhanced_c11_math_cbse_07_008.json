@@ -34,6 +34,21 @@
      "q": "Create a real-world problem (Indian context) that requires using BOTH symmetry property and Pascal's identity to solve. Provide the solution.",
      "a": "Problem: \"A school has 12 teachers. A committee of 5 is to be formed. If the principal must be on the committee, how many ways? If the principal refuses to serve with the vice-principal, how many ways?\" \nSolution: With principal: choose 4 from remaining 11 ⇒ 11C4 = 11C7 = 330 (symmetry). Without both: choose 5 from 10 ⇒ 10C5. With exactly one of them: 2 × 10C4. Total = 10C5 + 2×10C4 = 10C5 + 10C4 + 10C4 = 11C5 + 10C4 (Pascal) = 11C5 + 11C4 − 10C3 = 12C5 − 10C3 = 792 − 120 = 672. A poor answer uses only one property or computes factorials directly, showing inability to combine properties strategically.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The properties of combinations (nCr relationships) are fundamental identities that relate different binomial coefficients, allowing ______ of expressions and solution of equations involving combinations.",
+     "a": "simplification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're ______ a cricket team of 11 players from a squad of 15.",
+     "a": "selecting",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive and apply all three core nCr properties to simplify combination expressions, solve equations involving combinations, and prove combinatorial identities without expanding factorials.",
+     "self_check": true
     }
    ]
   }

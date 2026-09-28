@@ -34,6 +34,26 @@
      "q": "Design a real-world problem (Indian context) that requires using at least three of the five functions (sqrt, ceil, floor, pow, fabs) in a single program. Describe the problem and outline the steps.",
      "a": "Example: A farmer has a square field of area 2000 sq m. He wants to fence it with wire costing ₹15 per metre. He also wants to divide the field into smaller square plots of side 10 m. Compute: (1) side length using sqrt, (2) total fencing cost using ceil for wire rolls (each roll 50 m), (3) number of plots using floor division of side/10, (4) absolute difference between estimated and actual cost using fabs. Good answer integrates all functions meaningfully; poor answer uses them artificially.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The math module in Python provides standard ______ functions for floating-point arithmetic; sqrt(x) returns the non-negative square root of x, ceil(x) returns the smallest integer ≥ x, floor(x) returns the largest integer ≤ x, pow(x, y) returns x raised to the power y, and fabs(x) returns the absolute value of x as a float.",
+     "a": "mathematical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a billing system for a grocery store where prices come as floats (e.g., ₹45.50 per kg) and you need to ______ total cost for 2.5 kg, round up the number of bags needed (each bag holds 3 kg), and compute the square root of the area for a square plot.",
+     "a": "calculate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"How do I get the square root of a number in Python?\" Introduce import math and demonstrate math.sqrt(______).",
+     "a": "25",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write a Python program that imports the math module, correctly calls sqrt, ceil, floor, pow, and fabs with appropriate arguments, and explains the difference between pow and operator as well as fabs vs built-in abs.",
+     "self_check": true
     }
    ]
   }

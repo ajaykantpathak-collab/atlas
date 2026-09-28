@@ -34,6 +34,26 @@
      "q": "Design a real-life object (not a bucket, glass, or lampshade) that is shaped like a frustum of a cone. Specify its approximate dimensions (R, r, h) and explain why the frustum shape is functionally better than a cylinder or a full cone for this object.",
      "a": "Example: A flower pot with R = 15 cm (top), r = 10 cm (bottom), h = 20 cm. The frustum shape allows: (1) wider top for plant growth and soil volume, (2) narrower bottom for stability and less soil weight, (3) stackability for storage (frustums nest inside each other, cylinders don't), (4) drainage hole at the smaller bottom centre. A cylinder would waste soil at the bottom; a full cone would be unstable and hold less soil. A poor answer gives dimensions but no functional justification, or suggests a cylinder would work equally well, showing lack of applied geometric reasoning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A frustum of a right circular cone is the solid obtained when a right circular cone is cut by a plane parallel to its base, and the smaller cone ______ the vertex is removed.",
+     "a": "containing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a drinking glass shaped like a cone with its tip cut off — that's a ______!",
+     "a": "frustum",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify a frustum in real-world objects, label its dimensions (R, r, h, l) correctly on a diagram, explain how it is formed from a cone using a plane parallel to the base, and distinguish it from a truncated cone cut by a non-parallel plane.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ glass shaped like a cone with its tip cut off — that's a frustum!",
+     "a": "drinking",
+     "self_check": true
     }
    ]
   }

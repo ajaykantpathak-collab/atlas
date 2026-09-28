@@ -34,6 +34,31 @@
      "q": "Create a list of three integers that are all less than -2 but greater than -6.",
      "a": "The correct integers are -3, -4, and -5. If the student provides positive numbers or numbers like -7, they haven't understood the \"between\" constraint on the number line.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Comparing and ordering integers involves determining the relative size of whole numbers and their negative ______ by their position on the number line, where numbers to the right are always greater than those to the left.",
+     "a": "counterparts",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in an elevator in a ______ with a basement.",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If your friend goes down five floors, they reach -______.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify which of two integers is greater by visualizing their position on a number line or using the building floor analogy (e.g., higher floors are greater than lower floors).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in an ______ in a building with a basement.",
+     "a": "elevator",
+     "self_check": true
     }
    ]
   }

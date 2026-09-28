@@ -24,12 +24,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "compute the cone's slant height",
+    {
+     "step": 1,
+     "action": "compute the cone's slant height",
      "explain": "l equals the square root of r squared plus h squared.",
-     "compute": "l = sqrt(r * r + h * h)"},
-    {"step": 2, "action": "take the curved surface of the cone",
+     "compute": "l = sqrt(r * r + h * h)"
+    },
+    {
+     "step": 2,
+     "action": "take the curved surface of the cone",
      "explain": "pi times r times l covers the sloping part.",
-     "compute": "cone_surface = pi * r * l"}
+     "compute": "cone_surface = pi * r * l"
+    }
    ]
   },
   {
@@ -50,12 +56,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "compute the base area times height",
+    {
+     "step": 1,
+     "action": "compute the base area times height",
      "explain": "pi r squared h is the cylinder volume.",
-     "compute": "cyl_volume = pi * r * r * h"},
-    {"step": 2, "action": "take one third for the cone",
+     "compute": "cyl_volume = pi * r * r * h"
+    },
+    {
+     "step": 2,
+     "action": "take one third for the cone",
      "explain": "A cone of the same base and height holds one third.",
-     "compute": "cone_volume = cyl_volume / 3"}
+     "compute": "cone_volume = cyl_volume / 3"
+    }
    ]
   },
   {
@@ -74,15 +86,33 @@
     "why does the volume remain the same on recasting - explain",
     "solve the given recasting numerical from the chapter"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "compute the original volume",
-     "explain": "Use the volume formula of the original shape."},
-    {"step": 2, "action": "equate with the new shape's formula",
-     "explain": "Set the same volume equal to the new solid's expression."},
-    {"step": 3, "action": "solve for the new dimension",
-     "explain": "The unknown radius, height or length follows."}
-   ]
+    {
+     "step": 1,
+     "action": "compute the original volume",
+     "explain": "Use the volume formula of the original shape."
+    },
+    {
+     "step": 2,
+     "action": "equate with the new shape's formula",
+     "explain": "Set the same volume equal to the new solid's expression."
+    },
+    {
+     "step": 3,
+     "action": "solve for the new dimension",
+     "explain": "The unknown radius, height or length follows."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the round solid's formula with pi = 22/7",
+     "explain": "apply the round solid's formula with pi = 22/7: vol = 22 / 7 * 56 * 56 * 21 / 3 gives 68992",
+     "compute": "vol = 22 / 7 * 56 * 56 * 21 / 3"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -97,9 +127,12 @@
     "l": "slant height of the cone in cm"
    },
    "solution_template": [
-    {"step": 1, "action": "multiply pi r and l",
+    {
+     "step": 1,
+     "action": "multiply pi r and l",
      "explain": "Curved surface of a cone is pi r l.",
-     "compute": "cone_surface = pi * r * l"}
+     "compute": "cone_surface = pi * r * l"
+    }
    ]
   },
   {
@@ -113,9 +146,12 @@
     "l": "slant height in m"
    },
    "solution_template": [
-    {"step": 1, "action": "apply the curved surface formula",
+    {
+     "step": 1,
+     "action": "apply the curved surface formula",
      "explain": "Canvas equals pi r l.",
-     "compute": "cone_surface = pi * r * l"}
+     "compute": "cone_surface = pi * r * l"
+    }
    ]
   },
   {
@@ -129,12 +165,18 @@
     "h": "height of the cone in cm"
    },
    "solution_template": [
-    {"step": 1, "action": "compute the cylinder volume",
+    {
+     "step": 1,
+     "action": "compute the cylinder volume",
      "explain": "pi r squared h.",
-     "compute": "cyl_volume = pi * r * r * h"},
-    {"step": 2, "action": "take one third",
+     "compute": "cyl_volume = pi * r * r * h"
+    },
+    {
+     "step": 2,
+     "action": "take one third",
      "explain": "The cone holds one third of it.",
-     "compute": "cone_volume = cyl_volume / 3"}
+     "compute": "cone_volume = cyl_volume / 3"
+    }
    ]
   },
   {
@@ -148,12 +190,18 @@
     "h": "height of the heap in cm"
    },
    "solution_template": [
-    {"step": 1, "action": "compute the cylinder volume",
+    {
+     "step": 1,
+     "action": "compute the cylinder volume",
      "explain": "Base area times height first.",
-     "compute": "cyl_volume = pi * r * r * h"},
-    {"step": 2, "action": "take one third",
+     "compute": "cyl_volume = pi * r * r * h"
+    },
+    {
+     "step": 2,
+     "action": "take one third",
      "explain": "One third gives the conical volume.",
-     "compute": "cone_volume = cyl_volume / 3"}
+     "compute": "cone_volume = cyl_volume / 3"
+    }
    ]
   }
  ],
@@ -162,18 +210,18 @@
    "id": "ex12.1",
    "source_ref": "jemh112.txt EXERCISE 12.1",
    "questions": [
-     "Find the surface area of the given combination solids.",
-     "A toy is in the form of a cone mounted on a hemisphere - find its surface area.",
-     "Find the area of canvas required for the given tent."
+    "Find the surface area of the given combination solids.",
+    "A toy is in the form of a cone mounted on a hemisphere - find its surface area.",
+    "Find the area of canvas required for the given tent."
    ]
   },
   {
    "id": "ex12.2",
    "source_ref": "jemh112.txt EXERCISE 12.2",
    "questions": [
-     "Find the volumes of the given combination solids.",
-     "A metallic sphere is melted and recast into a wire - find the length.",
-     "How many spheres of the given radius can be made from the given solid?"
+    "Find the volumes of the given combination solids.",
+    "A metallic sphere is melted and recast into a wire - find the length.",
+    "How many spheres of the given radius can be made from the given solid?"
    ]
   }
  ]

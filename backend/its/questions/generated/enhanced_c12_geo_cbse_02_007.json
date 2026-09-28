@@ -34,6 +34,36 @@
      "q": "Design a population pyramid for a hypothetical country with the following characteristics: total fertility rate 1.6, life expectancy 82 years, net migration +2 per 1,000. Label the axes, show the shape of the 0-4, 25-29, and 65-69 cohorts, and annotate one policy implication.",
      "a": "Axes: x-axis = population (or % of total), split left for males, right for females; y-axis = 5-year age cohorts from 0-4 to 80+. Shape: 0-4 cohort narrow (below replacement fertility), 25-29 cohort slightly wider (echo of past larger cohorts or migration), 65-69 cohort broad (high life expectancy, post-war baby boom). Pyramid is constrictive/inverted at base. Annotation: \"Shrinking workforce → raise retirement age / incentivise immigration / invest in automation.\" A poor answer draws an expansive pyramid or omits migration's effect on young adult cohorts, showing failure to synthesise fertility, mortality, and migration into pyramid morphology.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Population composition refers to the structural ______ of a population, specifically sex ratio (number of females per 1,000 males in the Indian context) and age structure (distribution of population across age groups: 0-14 years — children, 15-59 years — working age, 60+ years — elderly).",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking the student to look at the Census 2011 data for their own ______ — note the total males and females.",
+     "a": "district",
+     "self_check": true
+    },
+    {
+     "q": "What is Population composition? State the definition given in this lesson.",
+     "a": "Population composition refers to the structural characteristics of a population, specifically sex ratio (number of females per 1,000 males in the Indian context) and age structure (distribution of population across age groups: 0-14 years — children, 15-59 years — working age, 60+ years — elderly).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking the student to look at the Census ______ data for their own district — note the total males and females.",
+     "a": "2011",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Population composition?",
+     "a": "Students often believe sex ratio is always expressed as females per 100 males (the international demographic convention) and apply it in Indian Census questions, leading to answers like \"94.3\" instead of \"943\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate sex ratio from raw census data, construct and interpret a population pyramid, compute youth/old-age dependency ratios, and explain how sex ratio and age structure vary across developed/developing regions and between rural/urban areas in India.",
+     "self_check": true
     }
    ]
   }

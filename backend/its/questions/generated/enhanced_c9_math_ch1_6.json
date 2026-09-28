@@ -34,6 +34,21 @@
      "q": "Create a real-life word problem (in an Indian context) that requires using the distance formula to find an unknown coordinate. The problem should involve at least two steps: first finding a distance, then using that distance to find the unknown. Provide the problem statement and a brief solution outline.",
      "a": "Problem: \"Rohan's house is at \\(H(1, 2)\\) and his school is at \\(S(4, 6)\\). He cycles to a tuition centre \\(T\\) on the y-axis such that the distance from his house to the tuition centre is equal to the distance from his school to the tuition centre. Find the coordinates of the tuition centre.\"\nSolution outline: Let \\(T(0, y)\\). Distance \\(HT = \\sqrt{(0-1)^2 + (y-2)^2}\\). Distance \\(ST = \\sqrt{(0-4)^2 + (y-6)^2}\\). Set equal, square, solve for \\(y\\). This yields \\(y = \\frac{31}{8} = 3.875\\). A good problem will have clear coordinates, a constraint (on y-axis), and require setting up an equation. A poor answer might give a problem that doesn't need the distance formula (e.g., just midpoint) or has no unknown coordinate.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In applications and word problems, this formula is used to determine unknown coordinates, verify geometric properties (like collinearity, triangle types, ______ types), and solve real-world problems involving distances between locations mapped on a coordinate grid.",
+     "a": "quadrilateral",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: First, recall that we can find the distance between any two points using the distance formula derived from ______ theorem.",
+     "a": "Pythagoras",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently translate a word problem into a coordinate geometry setup, assign variables to unknown coordinates, set up the distance equation correctly, solve for the unknowns algebraically, and interpret the solution in the context of the original problem (including rejecting extraneous solutions).",
+     "self_check": true
     }
    ]
   }

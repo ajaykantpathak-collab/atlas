@@ -29,7 +29,16 @@
      "explain": "Deduct the total of payments from the total of receipts to get the closing cash balance",
      "compute": "closing_cash = receipt_total - payment_total"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "closing_cash = receipt_total - payment_total",
+     "compute": "closing_cash = receipt_total - payment_total"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.104.2.1",
@@ -122,7 +131,16 @@
      "explain": "Deduct the credit total from the debit total to get the account balance",
      "compute": "account_balance = debit_total - credit_total"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "account_balance = debit_total - credit_total",
+     "compute": "account_balance = debit_total - credit_total"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.104.5.1",
@@ -148,7 +166,16 @@
      "explain": "Add the deposits to the opening bank balance and deduct the withdrawals to get the closing bank balance",
      "compute": "closing_bank_balance = opening_bank_balance + deposits - withdrawals"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "closing_bank_balance = opening_bank_balance + deposits - withdrawals",
+     "compute": "closing_bank_balance = opening_bank_balance + deposits - withdrawals"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

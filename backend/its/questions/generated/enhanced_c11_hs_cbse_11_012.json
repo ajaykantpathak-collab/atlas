@@ -34,6 +34,31 @@
      "q": "Design a storage protocol for a mixed wardrobe containing: (a) heavily starched cotton sarees, (b) wool sweaters, (c) silk dupattas, (d) nylon sportswear. Specify humidity, pest control, folding method, and pre-storage treatment for each, justifying from Table 2.",
      "a": "(a) Cotton sarees: Destarch completely (starch attracts silverfish), store at <60% RH (prevents mildew), fold loosely (avoids permanent creases in cellulose), no naphthalene (cotton not attacked by moths). (b) Wool sweaters: Brush, dry-clean, store at <50% RH with naphthalene balls (protein attracts clothes moths/carpet beetles), fold with acid-free tissue (prevents fibre abrasion), outline traced for reshaping if stretched. (c) Silk dupattas: Dry-clean, air thoroughly (perspiration damages silk), store at <55% RH in dark (UV weakens silk), no naphthalene (carpet beetles eat silk), roll not fold (avoids crease fracture in dry protein). (d) Nylon sportswear: Wash separately (absorbs dirt from other items), store dry at any RH (resists microbes), no sunlight exposure (photo-degradation), hang to avoid creases (thermoplastic sets creases). A poor protocol (e.g., \"store all in plastic bags with mothballs\") traps moisture causing mildew on cotton/rayon, melts nylon with mothball vapours, and ignores silk's light sensitivity — revealing the student treats storage as one-size-fits-all.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Fibre-specific care is the systematic application of laundering, finishing, drying, ironing, and storage procedures tailored to the unique physical and chemical properties of each textile fibre (cotton, linen, wool, silk, rayon, nylon, polyester, acrylic) to preserve appearance, strength, and ______ throughout the fabric's intended lifespan.",
+     "a": "serviceability",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you've just bought a beautiful silk kurta and a wool sweater for winter — both expensive, both ______.",
+     "a": "delicate",
+     "self_check": true
+    },
+    {
+     "q": "What is Fibre-specific care? State the definition given in this lesson.",
+     "a": "Fibre-specific care is the systematic application of laundering, finishing, drying, ironing, and storage procedures tailored to the unique physical and chemical properties of each textile fibre (cotton, linen, wool, silk, rayon, nylon, polyester, acrylic) to preserve appearance, strength, and serviceability throughout the fabric's.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Fibre-specific care?",
+     "a": "Students believe \"mild detergent\" means the same product for all delicate fibres.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Given a fabric sample or garment label, the student must correctly identify the fibre type, select the appropriate washing method (friction/kneading/suction/machine), detergent type (alkaline/mild/neutral), water temperature, drying method, ironing temperature, and storage precaution, justifying each choice with the fibre's structural.",
+     "self_check": true
     }
    ]
   }

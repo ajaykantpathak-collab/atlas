@@ -34,6 +34,36 @@
      "q": "Design a cross-section diagram showing the Indian Plate's three boundary types (convergent north, divergent south, transform west) with correct movement arrows, fault types, and landforms. Label depth of earthquake foci.",
      "a": "Good answer: North — convergent: Indian Plate subducts under Eurasian Plate, thrust faults, shallow-to-intermediate quakes, Himalayas. South — divergent: Central Indian Ridge, normal faults, shallow quakes, rift valley. West — transform: Owen Fracture Zone, strike-slip faults, shallow quakes, linear fault scarps. Poor answer shows all boundaries with same fault type or arrows pointing randomly — reveals inability to visualize 3D plate geometry and link boundary kinematics to structural geology.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Plate movements are the relative motions of ______ plates driven by mantle convection, classified into three types: convergent (plates move toward each other), divergent (plates move apart), and transform (plates slide past each other horizontally).",
+     "a": "lithospheric",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the ______ mountains rising near your region — they grow about 5 mm every year because the Indian plate pushes into the Eurasian plate.",
+     "a": "Himalayan",
+     "self_check": true
+    },
+    {
+     "q": "What is Plate movements? State the definition given in this lesson.",
+     "a": "Plate movements are the relative motions of lithospheric plates driven by mantle convection, classified into three types: convergent (plates move toward each other), divergent (plates move apart), and transform (plates slide past each other horizontally).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the Himalayan mountains rising near your region — they grow about ______ mm every year because the Indian plate pushes into the Eurasian plate.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Plate movements?",
+     "a": "Students think \"convergent boundaries always involve subduction\" and \"divergent boundaries only occur in oceans.\" In reality, continent-continent convergence (Himalayas) has no subduction — crust thickens instead.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the mechanism of each plate movement type, identify the landforms and geological events associated with each, and apply this understanding to interpret real-world examples like the Himalayas (convergent), the Mid-Indian Ocean Ridge (divergent), and the Owen Fracture Zone (transform) with correct geological.",
+     "self_check": true
     }
    ]
   }

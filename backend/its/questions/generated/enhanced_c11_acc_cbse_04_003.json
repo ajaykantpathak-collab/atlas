@@ -34,6 +34,21 @@
      "q": "Design a petty cash book format for a school canteen that incurs the following recurring small expenses: ingredients (flour, oil, spices), gas cylinder refills, disposable plates/cups, cleaning supplies, and miscellaneous. The canteen manager wants to track ingredient costs separately for menu pricing. Specify the analysis columns you would include and justify why \"Gas Cylinder Refill\" should NOT be combined with \"Ingredients\" in one column.",
      "a": "**Format columns:** Date, Particulars, Voucher No., Total Amount Paid, then analysis columns: (1) Ingredients, (2) Gas Cylinder Refill, (3) Disposables, (4) Cleaning Supplies, (5) Miscellaneous, Remarks.  \n**Justification:** Ingredients are direct variable costs tied to each menu item (needed for costing and pricing), while gas refills are a fixed-period overhead (e.g., one cylinder lasts two weeks regardless of dishes made). Combining them would distort per-dish cost calculations and prevent separate budget monitoring. A poor answer that merges them shows inability to link accounting design to managerial decision-making.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Petty Cash Book is a subsidiary book maintained under the Imprest System to record small, repetitive cash payments (e.g., conveyance, postage, stationery) where a fixed amount (imprest money) is advanced to a petty cashier and reimbursed ______ to restore the original float, ensuring the petty cashier always begins each period with the same fixed cash balance.",
+     "a": "periodically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the office manager of a busy ______ shop in Delhi.",
+     "a": "stationery",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently prepare a multi-column analytical petty cash book from a list of transactions, correctly classify each expense into its analysis column, compute column totals and the reimbursement amount, and post the period totals to the respective ledger accounts (debiting individual expense accounts and.",
+     "self_check": true
     }
    ]
   }

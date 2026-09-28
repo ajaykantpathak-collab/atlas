@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_11_004",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_11_004",
+   "title": "c12_soc_cbse_11_004",
+   "questions": [
+    {
+     "q": "What is the term used by M.N. Srinivas for the numerically dominant, economically and politically powerful landowning caste in a region?",
+     "a": "The term is \"dominant caste\". A wrong answer (e.g., \"upper caste\" or \"landlord caste\") reveals the student conflates ritual hierarchy with structural dominance — not all upper castes are dominant, and dominant castes are often middle-ranking (e.g., Vokkaligas, Jats) but control land and labour locally.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the Green Revolution increased inequalities among farmers in its first phase (1960s–1970s).",
+     "a": "The Green Revolution required expensive inputs (HYV seeds, fertilisers, pesticides, irrigation, machinery). Only medium and large farmers had the land, capital, and credit access to invest; small/marginal farmers could not afford the package. Landowners also evicted tenants to cultivate directly, and machinery displaced service-caste labour. A wrong answer that blames \"laziness of small farmers\" or \"natural differences in skill\" reveals a failure to see structural barriers (credit, land, caste) and misattributes inequality to individual merit.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in western UP owns 8 hectares, adopts HYV wheat, buys a tractor, and evicts his two tenant families. Meanwhile, a Dalit agricultural labourer in the same village sees wages shift from 5 kg wheat/day to ₹30/day cash while wheat prices double. Apply the concept of \"differentiation\" to compare the trajectories of these two households over five years.",
+     "a": "The landowner's surplus grows: higher yields + tractor saves labour cost + tenant land added + cash-wage bill falls in real terms. The labourer's real wage falls: cash wage fixed nominally while grain price doubles → can buy half the wheat. Differentiation means the gap widens systematically. A wrong answer that says \"both benefit because wages rose\" ignores inflation and the shift from kind to cash, showing inability to apply real-wage analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the agrarian structure of a Green Revolution region (e.g., Punjab) with a non-Green Revolution region (e.g., eastern UP/Bihar) on three dimensions: land inequality, labour relations, and caste-power alignment.",
+     "a": "Punjab: lower landlessness due to ceiling acts + tenancy reform, but high concentration among dominant castes (Jat Sikhs); labour relations shifted to \"free\" wage labour with migrant workers; caste-power aligned (dominant caste = landowning = political elite). Eastern UP/Bihar: high landlessness, persistent feudal patronage (begar, hereditary labour), upper-caste landlords retain power despite lower productivity. A wrong answer that claims \"both are equally unequal\" misses the qualitative shift from patronage to capitalist wage labour in GR regions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The Green Revolution was a success because India achieved food self-sufficiency; therefore, its social costs are justified.\"",
+     "a": "The statement commits a fallacy of aggregation: national food security ≠ household food security for the poor. Social costs include tenant eviction, loss of common-property resources, ecological degradation (water table, salinity), and entrenched regional disparity that fuels later agrarian distress and suicides. A defensible evaluation must weigh distributional outcomes, not just aggregate output. A wrong answer that agrees uncritically reveals an inability to distinguish between growth and development, or to apply a sociological (distributional) lens.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini field-study plan (3–4 questions, 2 methods) to investigate whether the \"feminisation of agricultural labour\" in a migrant-sending village (e.g., in Bihar) has improved women's bargaining power within the household.",
+     "a": "Good plan: Questions — (1) Who decides crop choice and input purchase? (2) Who controls income from women's wage work? (3) Has men's out-migration changed women's mobility/access to credit? Methods — (1) In-depth interviews with women cultivators/labourers; (2) Time-use diaries for one agricultural cycle. A poor plan that only asks \"Do you work more now?\" or uses only male head-of-household surveys reveals failure to grasp gendered power dynamics and the need for women-centred methods.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Social Consequences of the Green Revolution refer to the structural ______ in rural class relations, regional inequalities, and caste-labour dynamics resulting from the adoption of high-yielding variety (HYV) seeds, chemical inputs, and mechanisation — producing a differentiated peasantry where medium/large farmers accumulate capital and political power while tenants, service castes, and landless labourers face displacement, wage stagnation, and increased vulnerability.",
+     "a": "transformations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a village in Punjab in 1975 where a Jat Sikh farmer buys a tractor and HYV wheat seeds, while his Dalit neighbour who once worked as a sharecropper is now evicted because the ______ finds direct cultivation more profitable.",
+     "a": "landowner",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a village in Punjab in ______ where a Jat Sikh farmer buys a tractor and HYV wheat seeds, while his Dalit neighbour who once worked as a sharecropper is now evicted because the landowner finds direct cultivation more profitable.",
+     "a": "1975",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how Green Revolution technology interacted with pre-existing agrarian structures (caste, class, tenancy) to produce three distinct outcomes: (1) intra-regional class differentiation, (2) inter-regional inequality, and (3) transformation of labour relations from patronage to wage exploitation — and can illustrate.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a village in Punjab in 1975 where a Jat Sikh farmer buys a tractor and HYV wheat seeds, while his Dalit neighbour who once worked as a ______ is now evicted because the landowner finds direct cultivation more profitable.",
+     "a": "sharecropper",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

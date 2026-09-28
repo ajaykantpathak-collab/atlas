@@ -34,6 +34,26 @@
      "q": "Design a village-level water security plan for a semi-arid region in Rajasthan (annual rainfall 400 mm, hard rock terrain) that integrates traditional knowledge (khadins, tankas) with modern techniques (rooftop harvesting, check dams, aquifer recharge). Specify the hydrogeological rationale for each component.",
      "a": "A strong plan includes: (1) Khadins (earthen embankments on gentle slopes) to capture runoff for moisture conservation — works because hard rock has low infiltration, so surface storage is key; (2) Tankas (underground tanks) for drinking water — bypasses contaminated shallow groundwater; (3) Rooftop harvesting with sand filters recharging abandoned dug wells — targets fracture zones in hard rock for point recharge; (4) Check dams on seasonal streams — increases residence time for percolation into weathered mantle; (5) Community monitoring of water levels — prevents tragedy of commons. A poor answer lists techniques without linking to hard rock hydrogeology (low storage, rapid runoff, fracture-dependent recharge) or ignores social governance.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Surface water in India comprises water flowing in rivers, stored in lakes, ______, tanks, and wetlands, primarily sourced from monsoon rainfall and Himalayan snowmelt.",
+     "a": "reservoirs",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a relatable observation: when you turn on a tap in Delhi, the water may come from the Bhakra reservoir (surface water) or a deep tubewell in the neighbourhood (______).",
+     "a": "groundwater",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can distinguish between surface water and groundwater sources, explain their spatial and temporal distribution across India's physiographic divisions, and analyse the factors controlling their availability, quality, and sustainable yield.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a relatable observation: when you turn on a tap in Delhi, the water may come from the Bhakra reservoir (surface water) or a deep tubewell in the ______ (groundwater).",
+     "a": "neighbourhood",
+     "self_check": true
     }
    ]
   }

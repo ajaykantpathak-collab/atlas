@@ -34,6 +34,36 @@
      "q": "Create a real-life scenario (Indian context) where using Roman numerals would cause a significant practical problem that Hindu-Arabic numerals solve easily. Explain the problem and the solution.",
      "a": "Scenario: A shopkeeper in Delhi needs to calculate GST (18%) on a ₹2,499 item and give change from ₹5,000. In Roman: MMCDXCIX × XVIII/ C → impossible to do mentally or on paper without converting. Hindu-Arabic: 2499 × 0.18 = 449.82, total = 2948.82, change = 5000 - 2948.82 = 2051.18. The problem: Roman numerals have no decimal representation, no zero for placeholding, and multiplication requires repeated addition with regrouping at every step. A good answer identifies at least two specific limitations (e.g., no decimals, no zero, multiplication difficulty) and shows the Hindu-Arabic calculation. A poor answer gives a trivial example like \"reading a clock\" where Roman numerals are actually still used conventionally.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Roman numerals are a non-positional numeral system using seven Latin letters (I=1, V=5, X=10, L=50, C=100, D=500, M=1000) with additive and ______ rules: symbols are added when arranged from largest to smallest (e.g., XVI = 16), and subtracted when a smaller symbol precedes a larger one only for specific pairs (IV=4, IX=9, XL=40, XC=90, CD=400, CM=900).",
+     "a": "subtractive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're watching a Bollywood movie and see the ______ year written as MMXXIV at the end — you recognise it's 2024, but could you quickly calculate how many years ago the movie released if it was MCMXCVIII?",
+     "a": "copyright",
+     "self_check": true
+    },
+    {
+     "q": "What is Roman numerals? State the definition given in this lesson.",
+     "a": "Roman numerals are a non-positional numeral system using seven Latin letters (I=1, V=5, X=10, L=50, C=100, D=500, M=1000) with additive and subtractive rules: symbols are added when arranged from largest to smallest (e.g., XVI = 16), and subtracted when a smaller symbol precedes a larger one only for specific pairs (IV=4, IX=9, XL=40.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're watching a Bollywood movie and see the copyright year written as MMXXIV at the end — you recognise it's ______, but could you quickly calculate how many years ago the movie released if it was MCMXCVIII?",
+     "a": "2024",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Roman numerals?",
+     "a": "Students believe subtractive notation can be applied to any smaller-before-larger pair (e.g., writing 49 as IL, 99 as IC, 999 as IM) because they see the pattern \"smaller before larger = subtraction\" but miss the critical restriction: subtraction only works between symbols that are adjacent in the value sequence (I→V→X→L→C→D→M).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain why Roman numerals make arithmetic operations impractical by demonstrating addition/multiplication in both systems, can correctly convert any number 1-3999 between Roman and Hindu-Arabic notation applying subtractive rules precisely, and can identify invalid Roman numeral formations (e.g., IL, IC, XM) with.",
+     "self_check": true
     }
    ]
   }

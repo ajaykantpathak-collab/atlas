@@ -1,0 +1,193 @@
+{
+ "catalog": "catalog_class11_physics_keph203.json",
+ "concepts": [
+  {
+   "id": "keph203.10.5.1",
+   "title": "Thermal Expansion of Solids",
+   "converted_to_compute": true,
+   "formula": "delta_len = lin_coef * length * delta_temp",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "delta_len = lin_coef * length * delta_temp",
+     "compute": "delta_len = lin_coef * length * delta_temp"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Thermal Expansion of Solids: given lin_coef = 2.3, length = 54, delta_temp = 105, find delta len.",
+     "a": "13041",
+     "self_check": false
+    },
+    {
+     "q": "For Thermal Expansion of Solids: given lin_coef = 7.3, length = 72, delta_temp = 57, find delta len.",
+     "a": "29959.2",
+     "self_check": false
+    },
+    {
+     "q": "For Thermal Expansion of Solids: given lin_coef = 19, length = 122, delta_temp = 87, find delta len.",
+     "a": "201666",
+     "self_check": false
+    },
+    {
+     "q": "For Thermal Expansion of Solids: given lin_coef = 9.1, length = 131, delta_temp = 105, find delta len.",
+     "a": "125170",
+     "self_check": false
+    },
+    {
+     "q": "For Thermal Expansion of Solids: given lin_coef = 14.1, length = 46, delta_temp = 57, find delta len.",
+     "a": "36970.2",
+     "self_check": false
+    },
+    {
+     "q": "For Thermal Expansion of Solids: given lin_coef = 12.9, length = 94, delta_temp = 99, find delta len.",
+     "a": "120047",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph203.10.6.1",
+   "title": "Specific Heat Capacity and Calorimetry",
+   "converted_to_compute": true,
+   "formula": "heat_supplied = mass * spec_heat * delta_temp",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "heat_supplied = mass * spec_heat * delta_temp",
+     "compute": "heat_supplied = mass * spec_heat * delta_temp"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Specific Heat Capacity and Calorimetry: given mass = 80, spec_heat = 8221, delta_temp = 52, find heat supplied.",
+     "a": "34199360",
+     "self_check": false
+    },
+    {
+     "q": "For Specific Heat Capacity and Calorimetry: given mass = 101, spec_heat = 9778, delta_temp = 72, find heat supplied.",
+     "a": "71105616",
+     "self_check": false
+    },
+    {
+     "q": "For Specific Heat Capacity and Calorimetry: given mass = 74, spec_heat = 2340, delta_temp = 57, find heat supplied.",
+     "a": "9870120",
+     "self_check": false
+    },
+    {
+     "q": "For Specific Heat Capacity and Calorimetry: given mass = 26, spec_heat = 6045, delta_temp = 107, find heat supplied.",
+     "a": "16817190",
+     "self_check": false
+    },
+    {
+     "q": "For Specific Heat Capacity and Calorimetry: given mass = 6.5, spec_heat = 6467, delta_temp = 108, find heat supplied.",
+     "a": "4539834",
+     "self_check": false
+    },
+    {
+     "q": "For Specific Heat Capacity and Calorimetry: given mass = 12, spec_heat = 1193, delta_temp = 85, find heat supplied.",
+     "a": "1216860",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph203.10.8.1",
+   "title": "Change of State and Latent Heat",
+   "converted_to_compute": true,
+   "formula": "heat_change = mass * latent_heat",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "heat_change = mass * latent_heat",
+     "compute": "heat_change = mass * latent_heat"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Change of State and Latent Heat: given mass = 122, latent_heat = 105, find heat change.",
+     "a": "12810",
+     "self_check": false
+    },
+    {
+     "q": "For Change of State and Latent Heat: given mass = 61, latent_heat = 11.9, find heat change.",
+     "a": "725.9",
+     "self_check": false
+    },
+    {
+     "q": "For Change of State and Latent Heat: given mass = 124, latent_heat = 93, find heat change.",
+     "a": "11532",
+     "self_check": false
+    },
+    {
+     "q": "For Change of State and Latent Heat: given mass = 15.2, latent_heat = 40, find heat change.",
+     "a": "608",
+     "self_check": false
+    },
+    {
+     "q": "For Change of State and Latent Heat: given mass = 143, latent_heat = 94, find heat change.",
+     "a": "13442",
+     "self_check": false
+    },
+    {
+     "q": "For Change of State and Latent Heat: given mass = 98, latent_heat = 50, find heat change.",
+     "a": "4900",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph203.10.9.1",
+   "title": "Heat Transfer: Conduction and Newton's Law of Cooling",
+   "converted_to_compute": true,
+   "formula": "heat_rate = cond_coef * area * temp_diff / thickness",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "heat_rate = cond_coef * area * temp_diff / thickness",
+     "compute": "heat_rate = cond_coef * area * temp_diff / thickness"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Heat Transfer: Conduction and Newton's Law of Cooling: given cond_coef = 26, area = 26, temp_diff = 259, thickness = 286, find heat rate.",
+     "a": "612.182",
+     "self_check": false
+    },
+    {
+     "q": "For Heat Transfer: Conduction and Newton's Law of Cooling: given cond_coef = 71, area = 24, temp_diff = 217, thickness = 341, find heat rate.",
+     "a": "1084.36",
+     "self_check": false
+    },
+    {
+     "q": "For Heat Transfer: Conduction and Newton's Law of Cooling: given cond_coef = 56, area = 86, temp_diff = 363, thickness = 249, find heat rate.",
+     "a": "7020.92",
+     "self_check": false
+    },
+    {
+     "q": "For Heat Transfer: Conduction and Newton's Law of Cooling: given cond_coef = 13.7, area = 59, temp_diff = 244, thickness = 53, find heat rate.",
+     "a": "3721.23",
+     "self_check": false
+    },
+    {
+     "q": "For Heat Transfer: Conduction and Newton's Law of Cooling: given cond_coef = 81, area = 96, temp_diff = 332, thickness = 380, find heat rate.",
+     "a": "6793.77",
+     "self_check": false
+    },
+    {
+     "q": "For Heat Transfer: Conduction and Newton's Law of Cooling: given cond_coef = 36, area = 27, temp_diff = 275, thickness = 167, find heat rate.",
+     "a": "1600.6",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_hist_ch4_4",
+ "concepts": [
+  {
+   "id": "enh:c9_hist_ch4_4",
+   "title": "c9_hist_ch4_4",
+   "questions": [
+    {
+     "q": "What was the primary administrative innovation introduced by Akbar to integrate regional rulers like the Rajputs into the Mughal Empire?",
+     "a": "Akbar introduced the mansabdari system, which assigned ranks (zat and sawar) to officials and allowed Rajput kings to retain their lands while serving as mansabdars with high ranks, marrying into the imperial family, and paying tribute. A wrong answer like “Akbar forced Rajputs to convert to Islam” reveals a misunderstanding of Mughal policy—Akbar actually promoted religious tolerance and alliance-building, not coercion, to secure loyalty, which was key to stable expansion.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the Mughal Empire rely on the zabt revenue system instead of continuing the Delhi Sultanate’s reliance on tribute and plunder from conquered territories?",
+     "a": "The zabt system provided a predictable, regular income through land measurement and cash-based assessment, which was essential for maintaining a standing army and paying mansabdars regularly—unlike tribute, which was irregular and depended on constant new conquests. A wrong answer like “The Mughals used zabt because they hated looting” misses the structural need: expansion required sustainable finance, not just moral preference. Without zabt, the empire could not fund long campaigns or administer distant provinces like the Deccan.",
+     "self_check": true
+    },
+    {
+     "q": "How did the mansabdari system help the Mughals overcome a key weakness of the Delhi Sultanate’s administration?",
+     "a": "The Delhi Sultanate often relied on hereditary nobles and military slaves whose loyalty was personal to their leader, not the state, leading to frequent rebellions when sultans were weak. The mansabdari system broke this by making officials’ ranks, salaries, and troop obligations directly dependent on the emperor—zat determined pay and status, sawar required cavalry maintenance, and jagirs were transferable, preventing hereditary fiefdoms. A wrong answer claiming “mansabdars owned their jagirs permanently” reveals confusion: jagirs were revenue assignments, not land ownership, and could be revoked, ensuring central control—a critical difference from the Sultanate’s iqta system, which often became hereditary.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Mughal and Delhi Sultanate approaches to governing conquered territories. What structural difference allowed the Mughals to sustain longer-term control?",
+     "a": "The Delhi Sultanate often left local rulers in place as tributaries with minimal oversight, leading to instability when central control weakened. The Mughals replaced or integrated local elites into the imperial bureaucracy via mansabdari, imposed uniform revenue systems (zabt), and used jagir transfers to prevent regional power bases. A wrong answer like “Both systems used tax farming equally” ignores that Mughal administration was far more centralized and bureaucratic—zabt was state-assessed and cash-based, reducing reliance on intermediaries who could withhold revenue, a flaw that plagued the Sultanate’s iqta and khuts systems.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: “Aurangzeb’s expansion into the Deccan was primarily a religious mission to destroy Hindu kingdoms.” Use evidence from Mughal administration to defend or refute this claim.",
+     "a": "This statement is refuted: Aurangzeb’s Deccan campaigns aimed to suppress rebel states like Golconda and Bijapur (Muslim-ruled) and Maratha resistance, not target Hinduism. He continued using mansabdars and jagirs in the Deccan, appointed Hindu officials like Jaswant Singh, and relied on zabt-like revenue assessment where possible—showing his goal was imperial control, not religious eradication. A wrong answer accepting the claim ignores administrative continuity: if religion were the goal, Aurangzeb would have replaced the mansabdari system with religious decrees, but he expanded it, proving political control was the priority—a key misconception that confuses policy with propaganda.",
+     "self_check": true
+    },
+    {
+     "q": "Create a flowchart showing how Akbar’s administrative policies (mansabdari, zabt, jagir) enabled the Mughal Empire to expand and stabilize after conquering a new region like Bengal.",
+     "a": "Expected flowchart: Conquest of Bengal → Imperial appointment of mansabdar with zat/sawar rank → Assignment of jagir (land revenue rights) in Bengal → Mansabar collects revenue via zabt (measured land, cash tax) → Pays soldiers and sends surplus to center → Emperor transfers mansabdar to new jagir (e.g., Punjab) to prevent local power → Repeat. A poor answer might show jagir as permanent ownership or ignore zat/sawar linkage, revealing a failure to grasp that the system’s strength lay in its flexibility and central oversight—jagirs were temporary, revenue-driven, and tied to imperial service, not hereditary domains.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

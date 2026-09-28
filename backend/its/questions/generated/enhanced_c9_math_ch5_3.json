@@ -34,6 +34,26 @@
      "q": "Create a real-world problem involving a circular object (e.g., a round table, a wheel, a pizza) where you need to find the length of a chord given the radius and the distance from the centre. Write the problem, draw a labelled diagram, and solve it completely.",
      "a": "Example problem: \"A circular pizza of radius 15 cm has a straight cut (chord) made 9 cm from the centre. How long is the cut?\" Diagram: circle with centre O, chord AB, perpendicular OM = 9 cm, OA = 15 cm. Solution: AM = √(15² − 9²) = √(225 − 81) = √144 = 12 cm. AB = 2 × 12 = 24 cm. A good answer includes a clear diagram, correct use of Pythagoras, doubling the half-chord, and correct units. A poor answer (e.g., missing diagram, forgetting to double, wrong units) reveals gaps in geometric visualization or procedural fluency.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A chord of a circle is a line segment whose endpoints both lie on the ______ of the circle.",
+     "a": "circumference",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ park with a straight walking path connecting two points on the boundary — that path is a chord.",
+     "a": "circular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can define a chord and distinguish it from a diameter, arc, and radius; calculate the length of a chord using the perpendicular distance from the centre and the radius via the Pythagoras theorem; and explain why the perpendicular from the centre to a chord is the shortest distance from the centre to that chord.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a circular park with a straight walking path ______ two points on the boundary — that path is a chord.",
+     "a": "connecting",
+     "self_check": true
     }
    ]
   }

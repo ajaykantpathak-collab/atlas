@@ -34,6 +34,26 @@
      "q": "Design a simple digital circuit using only 2-input NAND gates to implement the Boolean function Y = A + B (OR gate). Draw the circuit diagram and write the Boolean expression at each stage.",
      "a": "**Circuit:** Stage 1: NAND gate with both inputs = A → output X = (A·A)' = Ā. Stage 2: NAND gate with both inputs = B → output Y = (B·B)' = B̄. Stage 3: NAND gate with inputs X and Y → output Z = (X·Y)' = (Ā·B̄)' = A + B (by De Morgan). **Total: 3 NAND gates.** A poor answer (e.g., using 4 gates or mixing NOR gates) reveals the student hasn't internalized the systematic NAND-only synthesis: **NOT from NAND (short inputs), then OR from NANDs via De Morgan**. This is a standard JEE/NEET problem; inability to do it indicates insufficient practice with universal gate conversions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A logic gate is an ______ building block of a digital circuit that performs a basic Boolean algebraic operation on one or more binary inputs (logic 0/low/0V or logic 1/high/5V) to produce a single binary output.",
+     "a": "elementary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a two-switch hallway light ______ in your home: the light turns ON only when both Switch A AND Switch B are ON — this is an AND gate.",
+     "a": "circuit",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) draw the standard circuit symbols for all five gates; (2) write the complete truth table for each gate with 2 inputs (4 rows) and for NOT (2 rows); (3) write the correct Boolean expression for each gate; (4) analyze a given combinational circuit of up to 3 gates to determine its overall truth table or.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a two-switch hallway light circuit in your home: the light turns ON only when both Switch A AND Switch B are ON — this is an AND gate.",
+     "a": "Observe",
+     "self_check": true
     }
    ]
   }

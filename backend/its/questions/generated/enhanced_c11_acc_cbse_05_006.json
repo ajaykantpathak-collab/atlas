@@ -34,6 +34,21 @@
      "q": "Create a realistic scenario involving a dishonoured cheque and a dishonoured discounted bill occurring in the same month, with specific amounts and dates. Write the rectification entries the firm must pass in its cash book after receiving the bank statement, and show how both items appear in a Bank Reconciliation Statement prepared from the passbook balance.",
      "a": "A good answer will include: (1) Scenario: e.g., On 10th April, cheque ₹30,000 from Rahul deposited; on 15th April, bill of ₹50,000 discounted with bank; both dishonoured on 25th April with noting charges ₹200 on bill. Bank statement received 30th April. (2) Rectification entries: Debit Rahul ₹30,000; Debit Bill Receivable ₹50,000 + Noting Charges ₹200; Credit Bank ₹80,200. (3) BRS from passbook: Add ₹30,000 (cheque dishonour) + ₹50,200 (bill dishonour + charges) to passbook balance to reach cash book balance. A poor answer reveals inability to integrate multiple dishonours, confusion about noting charges, or incorrect direction of adjustment when starting from passbook.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Dishonour of a cheque or bill occurs when a cheque deposited by the firm (or a bill of exchange discounted with the bank) is returned unpaid by the drawee's bank due to ______ funds, signature mismatch, or other reasons.",
+     "a": "insufficient",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You deposit it and ______ record ₹50,000 in your cash book (bank column), thinking the money is in your account.",
+     "a": "immediately",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the effect of dishonour on both cash book and passbook balances, determine whether to add or subtract the amount when preparing a Bank Reconciliation Statement (starting from either cash book or passbook balance), and pass the necessary rectification entry in the cash book.",
+     "self_check": true
     }
    ]
   }

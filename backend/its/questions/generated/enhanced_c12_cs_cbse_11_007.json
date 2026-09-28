@@ -21,7 +21,7 @@
      "self_check": true
     },
     {
-     "q": "Compare the memory and time efficiency of these two loops for a dictionary with 10,000 entries:\n```python",
+     "q": "Compare the memory and time efficiency of these two loops for a dictionary with 10,000 entries:\n```python\n# Loop A\nfor k in d:\n    print(k, d[k])\n\n# Loop B\nfor k, v in d.items():\n    print(k, v)\n```\nWhich is faster and why?",
      "a": "Loop B is faster. Loop A performs a second hash lookup `d[k]` for each iteration (O(1) each but with constant overhead), while Loop B unpacks the pre-retrieved value from the tuple yielded by `.items()`. For 10,000 entries, Loop A does ~20,000 hash operations vs ~10,000 for Loop B. A student who says \"they're the same\" misses the hidden lookup cost.",
      "self_check": true
     },
@@ -33,6 +33,31 @@
     {
      "q": "Design a real-world scenario (Indian context) where you would use a dictionary to store data and then traverse it with a loop to produce a summary report. Write the dictionary structure, the loop, and describe the output.",
      "a": "Scenario: A kirana store tracks daily sales per item in `sales = {\"rice_kg\": 120, \"wheat_kg\": 85, \"sugar_kg\": 60, \"dal_kg\": 45}`. Loop:\n```python\ntotal_kg = 0\nfor item, qty in sales.items():\n    print(f\"{item}: {qty} kg\")\n    total_kg += qty\nprint(f\"Total sold: {total_kg} kg\")\n```\nOutput: each item with quantity, then total. A poor answer might use a list of tuples instead of a dictionary, missing the O(1) lookup by item name, or forget `.items()` and do two lookups.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Traversing a dictionary with loops means ______ accessing each key-value pair (or just keys, or just values) in a dictionary using Python's iteration constructs (for loops), typically via the .keys(), .values(), or .items() methods, to perform operations like printing, filtering, aggregation, or transformation without modifying the dictionary's size during iteration.",
+     "a": "systematically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a ______ marks = {\"Physics\": 85, \"Chemistry\": 90, \"Maths\": 78} and you need to print each subject with its mark, then calculate the average.",
+     "a": "dictionary",
+     "self_check": true
+    },
+    {
+     "q": "What is Traversing a dictionary with loops? State the definition given in this lesson.",
+     "a": "Traversing a dictionary with loops means systematically accessing each key-value pair (or just keys, or just values) in a dictionary using Python's iteration constructs (for loops), typically via the .keys(), .values(), or .items() methods, to perform operations like printing, filtering, aggregation, or transformation without modifying.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Traversing a dictionary with loops?",
+     "a": "Students believe that for k, v in d: works because \"a dictionary is a collection of pairs\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write a for loop that correctly iterates over a dictionary's keys, values, or key-value pairs using .items(), and can explain why modifying the dictionary's size (adding/deleting keys) during iteration raises a RuntimeError while updating values for existing keys is safe.",
      "self_check": true
     }
    ]

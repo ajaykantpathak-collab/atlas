@@ -34,6 +34,31 @@
      "q": "Construct a piecewise function \\(f(x)\\) with two different formulas on \\(x < 1\\) and \\(x \\ge 1\\) that is continuous at \\(x = 1\\). Your function must involve a parameter \\(k\\) in the second piece. State the condition on \\(k\\) for continuity.",
      "a": "Example: \\(f(x) = \\begin{cases} x^2 + 2, & x < 1 \\\\ kx + 1, & x \\ge 1 \\end{cases}\\).  \nFor continuity at \\(x=1\\): \\(f(1) = k(1)+1 = k+1\\). Left-hand limit = \\(\\lim_{x \\to 1^-} (x^2+2) = 3\\). Right-hand limit = \\(\\lim_{x \\to 1^+} (kx+1) = k+1\\).  \nSet left-hand limit = right-hand limit = function value: \\(3 = k+1 \\Rightarrow k = 2\\).  \nA poor answer might give a function without a parameter, or set the wrong equality (e.g., equate only the formulas without evaluating at 1), showing they don't connect the parameter to the limit equality.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A function is continuous on an interval if it is continuous at every point of that interval; for endpoints, the ______ one-sided limit must equal the function value.",
+     "a": "appropriate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a prepaid metro card: you tap in, the balance decreases smoothly as you travel, but if the machine malfunctions and suddenly deducts ₹50 extra at a ______ station, the balance function \"jumps\" — you cannot draw its graph without lifting your pen.",
+     "a": "specific",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a prepaid metro card: you tap in, the balance decreases smoothly as you travel, but if the machine malfunctions and suddenly deducts ₹______ extra at a specific station, the balance function \"jumps\" — you cannot draw its graph without lifting your pen.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) state the three conditions for continuity at a point and verify them for any given function (polynomial, rational, piecewise, trigonometric) at a specific point; (2) identify points of discontinuity and classify them as removable, jump, or infinite by analysing left-hand limit, right-hand limit, and function value.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a prepaid metro card: you tap in, the balance decreases smoothly as you travel, but if the machine ______ and suddenly deducts ₹50 extra at a specific station, the balance function \"jumps\" — you cannot draw its graph without lifting your pen.",
+     "a": "malfunctions",
+     "self_check": true
     }
    ]
   }

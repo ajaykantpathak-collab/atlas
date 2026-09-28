@@ -34,6 +34,26 @@
      "q": "Design a survey question for your class that would generate data best displayed by a line plot. Then design a different question for a bar graph. Explain your choices.",
      "a": "Line plot question: \"How many siblings do you have?\" (Discrete numerical, small range 0-5, small class size ~30). Bar graph question: \"Which is your favorite subject: Math, Science, English, Hindi, Social Studies?\" (Categorical, nominal data). A poor answer (e.g., using line plot for favorite subject) shows misunderstanding that line plots require numerical values on a number line, not categories.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A line plot (dot plot) displays ______ data points as dots or X marks above a number line, showing the frequency of each value.",
+     "a": "individual",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your Class 8 ______ asks: \"How many hours did each student spend on homework last week?\" You collect data from 25 students: 3, 5, 2, 7, 4, 5, 6, 3, 4, 5, 2, 8, 4, 5, 3, 6, 4, 5, 7, 3, 4, 6, 5, 4, 3.",
+     "a": "teacher",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can construct accurate line plots and bar graphs from raw data, choose the appropriate representation based on data type and size, and interpret key features such as mode, range, clusters, gaps, and outliers from both graphs.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your Class 8 teacher asks: \"How many hours did each student spend on ______ last week?\" You collect data from 25 students: 3, 5, 2, 7, 4, 5, 6, 3, 4, 5, 2, 8, 4, 5, 3, 6, 4, 5, 7, 3, 4, 6, 5, 4, 3.",
+     "a": "homework",
+     "self_check": true
     }
    ]
   }

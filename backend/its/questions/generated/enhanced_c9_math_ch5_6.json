@@ -34,6 +34,21 @@
      "q": "Construct a problem where you need to find the angle subtended by a chord at the centre, given the chord length and the radius of the circle. Provide the problem statement and solve it.",
      "a": "Example problem: In a circle of radius 10 cm, a chord of length 10 cm is drawn. Find the angle subtended by the chord at the centre. Solution: Triangle formed is equilateral (all sides 10 cm), so angle = 60°. A poor answer would be a problem that doesn't require the central angle concept or is trivial.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The angle ______ by a chord at the centre of a circle is the angle formed between the two radii drawn to the endpoints of the chord.",
+     "a": "subtended",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The angle at the centre of the pizza (where the tip of the slice meets) is the angle ______ by that crust chord.",
+     "a": "subtended",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can state and prove the theorem: \"Equal chords of a circle subtend equal angles at the centre\" and its converse.",
+     "self_check": true
     }
    ]
   }

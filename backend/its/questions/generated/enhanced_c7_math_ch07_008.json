@@ -34,6 +34,26 @@
      "q": "Construct a word problem scenario involving a triangular garden plot in a village where the exterior angle property must be used to find an unknown angle of irrigation pipes, ensuring your numbers result in a clean integer solution for $x$.",
      "a": "Expected criteria: A valid problem states that two paths meet at a corner, an extension is made, the exterior angle is given as an algebraic expression like $(7x)^\\circ$, and the two interior opposite angles are given as $40^\\circ$ and $30^\\circ$, leading to $7x = 70 \\implies x = 10$. A poor response uses random numbers that yield negative, fractional, or geometrically impossible angle measures.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The exterior angle ______ of a triangle states that if any side of a triangle is produced (extended), the exterior angle so formed is equal to the sum of the two interior opposite angles.",
+     "a": "property",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine standing at the corner of a ______ park in your neighborhood, walking along one side, and then turning to continue along an extended path—the angle you turn through is the exterior angle!",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify exterior angles of a triangle in any orientation, set up algebraic equations equating the exterior angle to the sum of its two interior opposite angles, and solve for unknown variables in multi-step geometric problems.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine standing at the corner of a triangular park in your ______, walking along one side, and then turning to continue along an extended path—the angle you turn through is the exterior angle!",
+     "a": "neighborhood",
+     "self_check": true
     }
    ]
   }

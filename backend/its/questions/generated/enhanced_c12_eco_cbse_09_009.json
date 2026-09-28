@@ -34,6 +34,36 @@
      "q": "Construct a numerical example where the actual money multiplier is 6 while the theoretical multiplier (1/CRR) is 10. Specify the CRR, the currency-deposit ratio (c), and the excess reserve ratio (e) that would produce this outcome. Use the formula: Actual multiplier = (1 + c) / (c + e + CRR).",
      "a": "Let CRR = 0.10 (10%), so theoretical multiplier = 10. We need actual multiplier = 6.\nUsing (1 + c) / (c + e + 0.10) = 6.\nOne solution: c = 0.20 (public holds 20% of deposits as cash), e = 0.05 (banks hold 5% excess reserves).\nCheck: (1 + 0.20) / (0.20 + 0.05 + 0.10) = 1.20 / 0.35 ≈ 3.43 — not 6.\nTry c = 0.10, e = 0.05: (1.10) / (0.10 + 0.05 + 0.10) = 1.10 / 0.25 = 4.4.\nTry c = 0.05, e = 0.02: (1.05) / (0.05 + 0.02 + 0.10) = 1.05 / 0.17 ≈ 6.18 ≈ 6.\nSo CRR = 10%, c = 5%, e = 2% gives actual multiplier ≈ 6.\nA poor answer that cannot set up the equation or guesses randomly shows inability to work with the generalized money multiplier formula that includes leakages.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Credit creation by ______ banks is the process through which banks expand the money supply in the economy by lending out a portion of their deposits while keeping a fraction as reserves (as mandated by the Cash Reserve Ratio).",
+     "a": "commercial",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you ______ ₹10,000 in your savings account at State Bank of India.",
+     "a": "deposit",
+     "self_check": true
+    },
+    {
+     "q": "What is Credit creation by commercial banks? State the definition given in this lesson.",
+     "a": "Credit creation by commercial banks is the process through which banks expand the money supply in the economy by lending out a portion of their deposits while keeping a fraction as reserves (as mandated by the Cash Reserve Ratio).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The money multiplier (______/CRR) determines the maximum potential expansion of total deposits from an initial deposit, assuming no currency drain and full lending of excess reserves.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Credit creation by commercial banks?",
+     "a": "Students often believe that \"banks lend out reserves\" or \"banks multiply the initial deposit by lending it repeatedly.\" The correct view: banks create deposits *when they make loans* — the loan itself creates a new deposit in the borrower's account (or the payee's account).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the total credit creation and money supply expansion given an initial deposit and CRR, trace the step-by-step credit creation process across multiple banking rounds, and explain why actual credit creation falls short of the theoretical maximum due to currency drain and excess reserves.",
+     "self_check": true
     }
    ]
   }

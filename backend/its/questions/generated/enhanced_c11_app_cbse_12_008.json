@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_12_008",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_12_008",
+   "title": "c11_app_cbse_12_008",
+   "questions": [
+    {
+     "q": "What is the length of the latus rectum of the parabola $y^2 = -12x$, and what are the coordinates of its endpoints?",
+     "a": "The standard form is $y^2 = -4ax$ with $4a = 12 \\Rightarrow a = 3$. Length of latus rectum = $4a = 12$ units. Since the parabola opens leftwards, focus is at $(-a, 0) = (-3, 0)$ and the latus rectum is vertical ($x = -3$). Endpoints: $(-3, 6)$ and $(-3, -6)$.  \nA wrong answer (e.g., length $= 3$ or endpoints $(3, \\pm 6)$) reveals the student either confuses $a$ with $4a$ or ignores the sign in the standard form, leading to incorrect focus coordinates and orientation.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: *\"For the parabola $x^2 = 8y$, the latus rectum lies on the line $y = 2$ and has length 8.\"* Is this statement fully correct? Explain why or why not.",
+     "a": "The statement is **correct**. For $x^2 = 4ay$, we have $4a = 8 \\Rightarrow a = 2$. Focus is $(0, a) = (0, 2)$. The latus rectum is perpendicular to the axis (y-axis), so it is horizontal: equation $y = 2$. Endpoints satisfy $x^2 = 8(2) = 16 \\Rightarrow x = \\pm 4$, giving points $(-4, 2)$ and $(4, 2)$. Length = $4 - (-4) = 8 = 4a$.  \nIf a student says the length is 2 or the line is $x = 2$, they have confused the axis orientation (thinking it opens along x-axis) or swapped the roles of $x$ and $y$ in the standard form.",
+     "self_check": true
+    },
+    {
+     "q": "A parabolic reflector (cross-section $y^2 = 4ax$) has a diameter of 20 cm at its opening and is 5 cm deep. Find the length of its latus rectum and the distance of the focus from the vertex.",
+     "a": "Place vertex at origin, axis along +x. Depth = 5 cm means the opening is at $x = 5$. Diameter = 20 cm means half-width $y = 10$ at $x = 5$. Point $(5, 10)$ lies on parabola: $10^2 = 4a(5) \\Rightarrow 100 = 20a \\Rightarrow a = 5$ cm. Focus distance from vertex = $a = 5$ cm. Length of latus rectum = $4a = 20$ cm.  \nA wrong answer (e.g., $a = 20$ or latus rectum = 5) shows the student either used diameter instead of radius for $y$, or confused depth with focal length, or mis-identified which variable corresponds to the given dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the latus rectum of $y^2 = 4ax$ and $x^2 = 4ay$ for the same $a > 0$. How do their **equations**, **endpoints**, and **orientation relative to the axes** differ? What remains the same?",
+     "a": "For $y^2 = 4ax$ (opens right): Focus $(a,0)$, axis = x-axis, latus rectum is vertical line $x = a$, endpoints $(a, \\pm 2a)$.  \nFor $x^2 = 4ay$ (opens up): Focus $(0,a)$, axis = y-axis, latus rectum is horizontal line $y = a$, endpoints $(\\pm 2a, a)$.  \n**Same**: Length = $4a$, both pass through focus, both perpendicular to respective axis.  \n**Different**: Equation of latus rectum ($x=a$ vs $y=a$), coordinates of endpoints (swapped $x,y$ with signs), orientation (vertical vs horizontal).  \nIf a student says endpoints are same or equations are same, they have not internalized how swapping $x$ and $y$ rotates the parabola 90° and swaps the roles of coordinates.",
+     "self_check": true
+    },
+    {
+     "q": "In a suspension bridge, the cable forms a parabola $x^2 = 4ay$ (vertex at lowest point). The towers are 200 m apart and 30 m above the roadway. The cable is 5 m above the roadway at the centre. A student calculates $a = 500$ and claims the latus rectum length is 2000 m. Evaluate this claim and find the correct length if the claim is wrong.",
+     "a": "The claim is **incorrect**. The vertex is at the lowest point, 5 m above roadway. Towers are 30 m above roadway, so vertical distance from vertex to tower attachment = $30 - 5 = 25$ m. Horizontal distance from centre to tower = $200/2 = 100$ m. Point on parabola: $(100, 25)$. Substitute into $x^2 = 4ay$: $10000 = 4a(25) \\Rightarrow a = 100$. Length of latus rectum = $4a = 400$ m.  \nThe student’s error: they likely used the tower height (30 m) as the y-coordinate instead of the height **relative to the vertex** (25 m), and/or used the full span (200 m) as x instead of half-span (100 m). This reveals a failure to set up the coordinate system correctly relative to the vertex.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world problem (with numbers) where a parabolic arch or reflector requires finding the latus rectum length, but the given data does **not** directly give $a$. The solver must first find $a$ from geometric constraints. Provide the problem statement and the solution steps.",
+     "a": "**Problem**: A parabolic arch bridge has a span of 40 m. The height of the arch at a distance of 5 m from one end is 6 m. Find the maximum height of the arch and the length of the latus rectum.  \n**Solution**: Place vertex at maximum height (origin), axis vertical downward: $x^2 = -4ay$. Span 40 m $\\Rightarrow$ ends at $(\\pm 20, -H)$ where $H$ = max height. Point 5 m from end: $x = 20 - 5 = 15$ (or $-15$), height = $H - 6$ $\\Rightarrow$ y-coordinate = $-(H-6)$. But we don't know $H$ yet. Better: set roadway as x-axis, vertex at $(0, H)$. Then parabola: $x^2 = -4a(y - H)$. Ends: $(\\pm 20, 0)$. Point: $(15, 6)$. Substitute ends: $400 = -4a(0 - H) = 4aH$. Substitute point: $225 = -4a(6 - H) = 4a(H - 6)$. Divide: $400/225 = H/(H-6) \\Rightarrow 16/9 = H/(H-6) \\Rightarrow 16H - 96 = 9H \\Rightarrow 7H = 96 \\Rightarrow H = 96/7 \\approx 13.71$ m. Then $4a = 400/H = 400 \\times 7/96 = 175/6 \\approx 29.17$ m. Latus rectum = $4a = 175/6$ m.  \nA poor answer would assume vertex at road level or misuse the coordinate shift, showing inability to model shifted parabolas (though shifted vertex is not in scope, the *concept* of relative coordinates is essential).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

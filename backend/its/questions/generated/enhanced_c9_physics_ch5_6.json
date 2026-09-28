@@ -34,6 +34,31 @@
      "q": "Design a simple school-lab experiment to demonstrate that sound travels faster in a solid than in air, using only a metre scale, a stopwatch, and a metal rod (length 2 m). Outline the procedure, measurements, and how you would calculate the speeds.",
      "a": "Procedure: Place the metal rod on a table. Student A taps one end gently with a stone. Student B listens at the other end with one ear on the rod (solid path) and times the interval between seeing the tap and hearing the sound. Repeat with Student B's ear off the rod (air path) for the same distance. Calculate v_solid = 2 m / t_solid and v_air = 2 m / t_air. Expect t_solid << t_air. A poor answer that uses the same path for both or ignores the need to see the tap reveals inability to design a controlled comparison.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Speed of sound is the distance travelled per unit time by a sound wave as it ______ through a medium; its SI unit is metre per second (m/s).",
+     "a": "propagates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ at one end of a long iron railing on a railway platform and your friend taps the railing at the far end; you hear the sound through the iron almost instantly, but the same tap heard through the air arrives noticeably later.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What is Speed of sound? State the definition given in this lesson.",
+     "a": "Speed of sound is the distance travelled per unit time by a sound wave as it propagates through a medium; its SI unit is metre per second (m/s).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Speed of sound?",
+     "a": "Students often think \"denser medium means faster sound\" because they confuse density with stiffness.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compare the speed of sound in solids, liquids, and gases using the concepts of elasticity and density, calculate wavelength or frequency using v = fλ when the medium and temperature are specified, and explain why sound travels faster in steel than in air even though steel is denser.",
+     "self_check": true
     }
    ]
   }

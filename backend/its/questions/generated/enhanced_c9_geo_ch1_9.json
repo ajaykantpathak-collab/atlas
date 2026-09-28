@@ -34,6 +34,21 @@
      "q": "Design a field study plan for Class 9 students to measure the migration rate of a barchan dune near Sam, Jaisalmer, over one academic year. List instruments, measurements, and how to calculate migration speed.",
      "a": "**Plan:** 1) Fix GPS coordinates of dune crest and horn tips (monthly). 2) Measure dune height, width, horn-to-horn distance (tape). 3) Record wind speed/direction (anemometer) daily. 4) Calculate migration: distance moved by crest / time. 5) Correlate with wind data. Good answer includes **fixed reference point** (e.g., a planted pole) and **seasonal wind analysis**. Poor answer measures only height, missing that migration is horizontal translation, not vertical growth.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sea wave and wind erosion and ______ are exogenic geomorphic processes where the kinetic energy of breaking waves and moving air erodes, transports, and deposits sediment, creating distinct coastal landforms (cliffs, beaches, spits) and aeolian landforms (mushroom rocks, sand dunes, loess plains).",
+     "a": "deposition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stand on Marina Beach in ______ during high tide and watch waves crash against the seawall, then imagine the same coast without the wall — the cliffs would retreat.",
+     "a": "Chennai",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can explain the sequential formation of a sea stack from a headland and a barchan dune from wind-blown sand, and identify both on a topographical map or satellite image of the Indian coastline/Thar Desert.",
+     "self_check": true
     }
    ]
   }

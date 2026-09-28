@@ -34,6 +34,31 @@
      "q": "Imagine a new planet, \"Planet X,\" that takes 365.5 days to orbit its star. How would you adjust a calendar to keep it accurate over time?",
      "a": "You would need to add an extra day every two years (since 0.5 + 0.5 = 1 day). An answer that fails to recognize the accumulation of the fractional day shows a lack of logical synthesis of the concept.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The revolution of the Earth is its movement in an elliptical orbit around the Sun, which takes ______ 365.25 days to complete one full cycle.",
+     "a": "approximately",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Think about your birthday—it happens every year, but have you ever wondered why we suddenly have an extra day in ______ every four years?",
+     "a": "February",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The revolution of the Earth is its movement in an elliptical orbit around the Sun, which takes approximately ______ days to complete one full cycle.",
+     "a": "365.25",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain why we have a leap year every four years and describe the shape of the Earth's path around the Sun.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Think about your ______—it happens every year, but have you ever wondered why we suddenly have an extra day in February every four years?",
+     "a": "birthday",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Create a word problem (in Indian context) that requires finding the number of terms n in an AP, given the first term, common difference, and the sum. The problem should have a realistic scenario and yield a positive integer answer for n.",
      "a": "Example problem: \"Rohan saves ₹50 in the first week of the year. Each week he increases his savings by ₹10. If his total savings after some weeks is ₹2,950, how many weeks has he been saving?\" \nSolution: a=50, d=10, S_n=2950. S_n = n/2[100 + (n-1)10] = 2950 → n^2 + 9n - 590 = 0 → (n+29)(n-20)=0 → n=20 weeks.\nA good answer includes a clear scenario, consistent numbers, and a solvable quadratic with integer n. A poor answer (e.g., \"find n when sum is 100\" with a=5, d=2 giving non-integer n) shows the student doesn't understand the constraints for a valid word problem (n must be a positive integer).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An arithmetic progression (AP) word problem is a real-world scenario where quantities change by a constant amount each step, requiring ______ of the first term (a), common difference (d), and the term position (n) or sum of terms (S_n) to answer questions about specific values, totals, or patterns.",
+     "a": "identification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your ______ is arranging chairs for the annual day.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If there are ______ rows, how many chairs are needed in total?",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently read a word problem, identify the hidden arithmetic progression, correctly assign variables (a, d, n), choose the appropriate formula (nth term or sum), solve for the unknown, and interpret the answer in the original context with correct units.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school is ______ chairs for the annual day.",
+     "a": "arranging",
+     "self_check": true
     }
    ]
   }

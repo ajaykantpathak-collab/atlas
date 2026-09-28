@@ -34,6 +34,21 @@
      "q": "Create a new number system inspired by the Egyptian method but using only THREE symbols. Define your symbols and their values (must be powers of 10). Show how to write 4,720 in your system. Explain one way your system improves on the Egyptian system and one way it is worse.",
      "a": "Example: Symbol A = 1000, Symbol B = 100, Symbol C = 10. (Missing 1, 10000, etc. — but that's the student's design choice.) 4,720 = AAAA (4×1000) + BBBBBBB (7×100) + CC (2×10). Improvement: Fewer symbols to memorize. Worse: Cannot represent numbers not multiples of 10 (like 4,721) or numbers above 9,990 without new symbols. A good answer shows creative but mathematically consistent design. A poor answer uses non-powers-of-10 (e.g., 5, 50) which breaks the base-10 pattern.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Egyptian ______ number system is a base-10 additive system that uses distinct pictorial symbols for powers of ten (1, 10, 100, 1000, 10000, 100000, 1000000).",
+     "a": "hieroglyphic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an ______ in Luxor, Egypt, reading a temple wall that records the Pharaoh's grain storage: \"100,000 sacks of wheat, 20,000 sacks of barley, and 3,000 sacks of lentils.\" The scribe didn't write digits like 1,23,000 — they drew pictures.",
+     "a": "archaeologist",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can accurately convert any Hindu-Arabic numeral up to 1,000,000 into Egyptian hieroglyphs and vice versa, and can explain why the system does not require a zero symbol or place-value positioning.",
+     "self_check": true
     }
    ]
   }

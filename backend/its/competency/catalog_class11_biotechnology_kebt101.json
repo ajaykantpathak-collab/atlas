@@ -164,7 +164,16 @@
      "q": "A 10x eyepiece with a 40x objective gives what total magnification?",
      "a": "400"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_power = eyepiece_mag * objective_mag",
+     "compute": "total_power = eyepiece_mag * objective_mag"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt101.5",
@@ -201,7 +210,16 @@
      "q": "About what fraction of the world's food is fermented: one third or three quarters?",
      "a": "one third"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "fermented_part = total_food / 3",
+     "compute": "fermented_part = total_food / 3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt101.6",
@@ -239,7 +257,16 @@
      "q": "Bt cotton holds roughly what percent of the Indian hybrid seed market by value?",
      "a": "45"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "bt_value = seed_market * 45 / 100",
+     "compute": "bt_value = seed_market * 45 / 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt101.7",

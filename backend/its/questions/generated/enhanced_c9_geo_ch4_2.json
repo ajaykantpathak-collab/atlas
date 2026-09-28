@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_geo_ch4_2",
+ "concepts": [
+  {
+   "id": "enh:c9_geo_ch4_2",
+   "title": "c9_geo_ch4_2",
+   "questions": [
+    {
+     "q": "Name the three zones of a UNESCO Biosphere Reserve in the correct order from the centre outward, and state the one primary activity permitted in the Core Zone.",
+     "a": "The three zones from centre outward are: **Core Zone** (strictly protected, no human activity permitted except non-intrusive research/monitoring), **Buffer Zone** (surrounds core, permits research, education, eco-tourism, traditional use), **Transition Zone** (outermost, sustainable human settlement, agriculture, livelihoods). A wrong answer (e.g., \"tourism allowed in Core Zone\" or missing Buffer Zone) reveals the student confuses biosphere reserves with national parks or does not grasp the *graduated protection* concept central to the MAB design.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Buffer Zone exist between the Core and Transition Zones? Explain its geographical function using the concept of 'edge effect' and human-wildlife conflict.",
+     "a": "The Buffer Zone acts as a **spatial cushion**: it absorbs the \"edge effect\" (ecological disturbance at habitat boundaries) and reduces direct contact between Core wildlife and Transition Zone humans. It allows controlled human activity (research, eco-tourism, NTFP collection) that *does not degrade* the Core. A wrong answer focusing only on \"more protection\" misses the Buffer's dual role — it is a **managed interface**, not just extra wilderness. This tests if the student understands zonation as a *gradient*, not binary (protected vs. unprotected).",
+     "self_check": true
+    },
+    {
+     "q": "On an outline map of India, locate and label the following three biosphere reserves, identifying the biogeographic zone each represents: (a) Cold Desert, (b) Sundarbans, (c) Nilgiri. State one reason why each was designated in *that specific location*.",
+     "a": "**Steps:**\n1.  **Locate (a) Cold Desert** → Himachal Pradesh (Lahaul-Spiti/Kinnaur) → **Trans-Himalayan zone** → Designated for high-altitude cold desert ecosystem, snow leopard, medicinal plants.\n2.  **Locate (b) Sundarbans** → West Bengal (Ganga-Brahmaputra delta) → **Coastal/Mangrove zone** → Designated for largest mangrove forest, Royal Bengal Tiger, deltaic ecology.\n3.  **Locate (c) Nilgiri** → Tamil Nadu/Kerala/Karnataka junction (Western Ghats) → **Western Ghats zone** → Designated for tropical montane shola-grassland mosaic, endemism hotspot, Nilgiri Tahr.\nA wrong location (e.g., putting Sundarbans in Odisha) or wrong biogeographic zone reveals the student has not linked **Class 6 physical regions (c6_geography_ch01_001-007)** to biosphere reserve distribution.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the zonation of **Nanda Devi Biosphere Reserve** (Uttarakhand) and **Gulf of Mannar Biosphere Reserve** (Tamil Nadu). How does the *spatial arrangement* of Core/Buffer/Transition differ due to their physical geography (mountain vs. marine-coastal)?",
+     "a": "**Nanda Devi (Mountain):** Core = high-altitude peaks/glaciers (Nanda Devi Sanctuary); Buffer = alpine meadows/forests around sanctuary; Transition = valley villages (Joshimath) — **concentric rings** radiating from a central peak.\n**Gulf of Mannar (Marine):** Core = 21 isolated coral reef islands; Buffer = surrounding sea/sea grass beds; Transition = mainland coastal towns (Rameswaram, Tuticorin) — **discontinuous/island cores** with a shared marine buffer.\nA student who draws both as perfect concentric circles fails to **analyze how physical geography (topography, hydrology) dictates zonation shape** — a key board-level skill.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Including the Transition Zone makes Biosphere Reserves less effective for conservation than National Parks.\" Use the example of **Pachmarhi Biosphere Reserve** (Madhya Pradesh) and the concept of 'community stewardship' to justify your answer.",
+     "a": "**Judgment: False.** The Transition Zone *enhances* long-term conservation by converting local communities from threats into stewards. In **Pachmarhi**, the Transition Zone includes Gond and Korku tribal villages. Their traditional knowledge (fire management, NTFP harvest cycles) is integrated into Buffer/Core management via Joint Forest Management (JFM). Evicting them (as in some National Parks) creates hostility, poaching, and forest fires. The Transition Zone enables **sustainable livelihoods (ecotourism, value-added NTFP)** linked to Core health. A \"Yes\" answer reveals a **fortress conservation mindset** — ignoring that biodiversity survival in India *depends* on human cooperation in densely populated landscapes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a **zonation plan for a hypothetical new Biosphere Reserve** in the **Dibang Valley (Arunachal Pradesh)** — a region with subtropical forests, Mishmi tribal communities, and proposed hydropower dams. Draw a labelled sketch map (mental or paper) showing Core, Buffer, Transition. Justify the placement of each zone boundary with one geographical reason.",
+     "a": "**Good Answer Criteria:**\n- **Core:** Highest biodiversity ridges/headwaters (e.g., Dibang Wildlife Sanctuary) — *Reason: Irreplaceable endemism, watershed protection.*\n- **Buffer:** Surrounding slopes with community forests — *Reason: Allows Mishmi shifting cultivation (jhum) regulation, research corridors.*\n- **Transition:** Valley floor villages, existing roads, *proposed dam sites kept OUT of Core/Buffer* — *Reason: Concentrates development impact, enables benefit-sharing agreements.*\n- **Poor Answer:** Putting dams in Core, or making the whole valley Core — reveals inability to **apply zonation principles to real-world trade-offs** (development vs. conservation) and ignorance of **tribal rights (FRA 2006)** in Transition Zones.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

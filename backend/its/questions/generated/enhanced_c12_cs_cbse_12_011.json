@@ -34,6 +34,31 @@
      "q": "Design a hypothetical scenario where a grey hat hacker's actions lead to a positive outcome for an organization, but still raise ethical and legal concerns. Describe the scenario and explain why organizations should not rely on grey hat hackers.",
      "a": "Example scenario: A grey hat hacker discovers a vulnerability in a hospital's patient portal, accesses it without permission, and then anonymously emails the IT team with details. The hospital patches the flaw, preventing a potential breach. Positive outcome: vulnerability fixed. Concerns: unauthorized access is illegal; the hacker could have stolen data; no accountability; encourages others to bypass legal channels. Organizations should use authorized ethical hackers (white hats) with contracts and clear scope. A poor answer that ignores legal/ethical concerns or suggests grey hats are a viable alternative shows failure to create a balanced analysis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ethical hacking is the authorized practice of bypassing system security to identify potential data breaches and threats in a network, with the goal of fixing ______.",
+     "a": "vulnerabilities",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real-world scenario: \"Imagine a company hires a cybersecurity expert to test their new banking app for ______ before launch.",
+     "a": "vulnerabilities",
+     "self_check": true
+    },
+    {
+     "q": "What is Ethical hacking? State the definition given in this lesson.",
+     "a": "Ethical hacking is the authorized practice of bypassing system security to identify potential data breaches and threats in a network, with the goal of fixing vulnerabilities.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Ethical hacking?",
+     "a": "Students often think \"hacker\" and \"cracker\" are synonyms, or that all hackers are criminals.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to clearly distinguish between ethical hackers (white hats), crackers (black hats), and grey hats based on intent, authorization, and legality, and explain the role of ethical hacking in improving cybersecurity.",
+     "self_check": true
     }
    ]
   }

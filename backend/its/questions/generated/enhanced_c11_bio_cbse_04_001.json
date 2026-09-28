@@ -34,6 +34,31 @@
      "q": "Design a dichotomous key using only symmetry, germ layers, and coelom type to distinguish these five phyla: Porifera, Cnidaria, Platyhelminthes, Aschelminthes, Annelida. Write the first three couplets.",
      "a": "Couplet 1: (a) Body asymmetrical, cellular level of organisation → Porifera. (b) Body symmetrical → go to 2. Couplet 2: (a) Radial symmetry, diploblastic → Cnidaria. (b) Bilateral symmetry, triploblastic → go to 3. Couplet 3: (a) Acoelomate (no body cavity) → Platyhelminthes. (b) Body cavity present → go to 4 (pseudocoelomate vs coelomate). A good answer shows hierarchical thinking: symmetry first (broadest split), then germ layers (diploblastic vs triploblastic), then coelom (acoelomate/pseudocoelomate/coelomate). A poor answer mixes criteria randomly (e.g., starts with coelom) indicating the student hasn't internalised the logical filtering sequence used in taxonomy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Symmetry refers to the geometric arrangement of body parts around a central axis, classified as ______ (no plane divides the body into equal halves), radial symmetry (any plane through the central axis divides the body into identical halves), or bilateral symmetry (only one median plane divides the body into mirror-image left and right halves).",
+     "a": "asymmetrical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by observing three common animals: a bath sponge (Porifera) that feels irregular and crumbly, a starfish (______) with five arms radiating from a central disc, and an earthworm (Annelida) with a long, cylindrical, segmented body.",
+     "a": "Echinodermata",
+     "self_check": true
+    },
+    {
+     "q": "What is Symmetry? State the definition given in this lesson.",
+     "a": "Symmetry refers to the geometric arrangement of body parts around a central axis, classified as asymmetrical (no plane divides the body into equal halves), radial symmetry (any plane through the central axis divides the body into identical halves), or bilateral symmetry (only one median plane divides the body into mirror-image left and.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Symmetry?",
+     "a": "Students believe \"radial symmetry = diploblastic\" and \"bilateral symmetry = triploblastic = coelomate\" as rigid one-to-one mappings.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can examine a cross-sectional diagram or description of an unfamiliar animal and correctly identify its symmetry type, germ layer organisation (diploblastic/triploblastic), and coelom condition, then justify its placement in the broad classification flowchart (Figure 4.4 NCERT) using all three criteria simultaneously.",
+     "self_check": true
     }
    ]
   }

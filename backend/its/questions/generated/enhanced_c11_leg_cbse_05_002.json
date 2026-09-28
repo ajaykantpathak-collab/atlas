@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_05_002",
+   "title": "c11_leg_cbse_05_002",
+   "questions": [
+    {
+     "q": "Define 'State' under Article 12 of the Constitution of India and explain whether a private university receiving 90% government funding and performing public functions qualifies as 'State'.",
+     "a": "Under Article 12, 'State' includes: (1) Government and Parliament of India; (2) Government and Legislature of each State; (3) All local authorities; (4) **Other authorities** within India or under Government of India's control. A private university with 90% government funding and public functions is an 'other authority' (per *Ajay Hasia v. Khalid Mujib*, *Pradeep Kumar Biswas v. Indian Institute of Chemical Biology*) because it is functionally an instrumentality of the State. **Wrong answer reveals**: Student confuses 'State' with only government departments, missing the expansive 'instrumentality/agency' test from *R.D. Shetty v. Airport Authority of India* (five factors: financial control, functional character, government control, monopoly status, public importance).",
+     "self_check": true
+    },
+    {
+     "q": "A Passport Officer impounds a passport under Section 10(3)(c) of the Passports Act, 1967 without giving the holder a hearing. The holder challenges this. Classify the administrative action and identify the principle of Natural Justice violated.",
+     "a": "The action is **quasi-judicial** (adjudicatory) because it affects a legal right (right to travel under Art. 21) and involves determination after inquiry. The principle violated is **Audi Alteram Partem** (right to fair hearing). In *Maneka Gandhi v. Union of India*, the Supreme Court held that 'procedure established by law' under Art. 21 must be fair, just, and reasonable — which includes pre-decisional hearing unless post-decisional hearing is justified by urgent public interest. **Wrong answer reveals**: Student misclassifies it as 'purely administrative' (discretionary) or 'ministerial', missing that any action affecting rights with a duty to act judicially is quasi-judicial. Also misses that Art. 21 now incorporates Natural Justice via *Maneka Gandhi*.",
+     "self_check": true
+    },
+    {
+     "q": "The Central Government issues a notification under Section 3 of the Environment (Protection) Act, 1986 banning single-use plastics nationwide. Identify the type of administrative action and explain the source of this power.",
+     "a": "This is **Administrative Legislative Action (Delegated Legislation)**. The power flows from the **Parent Act** (Environment Protection Act, 1986) — specifically Section 3 which delegates rule-making power to the Central Government. Parliament (supreme legislature) enacts the skeleton law; the Executive fills in details via rules/notifications. This is valid subordinate legislation if within the policy and limits of the Parent Act. **Wrong answer reveals**: Student calls it 'executive action' or 'administrative action' broadly, not recognizing the **legislative character** of rule-making. Also misses the distinction: Supreme Legislation (Parliament) vs. Subordinate Legislation (Executive), and the control mechanisms (parliamentary oversight, judicial review for ultra vires).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the British Droit Administratif system with the Indian system of administrative justice. Why did India not adopt a separate administrative court system like France's Conseil d'État?",
+     "a": "**Droit Administratif (France)**: Dual court system — ordinary courts for private disputes, **separate administrative courts** (Conseil d'État at apex) for State vs. citizen disputes. Judges are career administrators. **India**: Single integrated judiciary (Art. 124, 214). **No separate administrative courts**. Administrative disputes go to ordinary civil courts (writ jurisdiction under Art. 32/226) and specialized tribunals (Art. 323A/323B) — but tribunals are under High Court supervision (*L. Chandra Kumar v. Union of India*). India rejected Droit because: (1) Constitution mandates **judicial review** as basic structure; (2) Separation of powers (Art. 50) requires judiciary independent of executive; (3) French system historically denied judicial review of administrative acts — incompatible with Art. 14/21. **Wrong answer reveals**: Student thinks tribunals = Droit system, missing that Indian tribunals are part of the *same* judicial hierarchy, not a parallel executive-controlled system. Also misses *Kesavananda Bharati* basic structure constraint.",
+     "self_check": true
+    },
+    {
+     "q": "\"Rule of Law is a basic structure of the Constitution and cannot be amended.\" Critically evaluate this statement with reference to *Kesavananda Bharati* and *Indira Nehru Gandhi v. Raj Narain*.",
+     "a": "**Correct**: In *Kesavananda Bharati* (1973), Rule of Law was declared part of the **Basic Structure** (per Khanna J., Sikri CJ). In *Indira Gandhi v. Raj Narain* (1975), the 39th Amendment (clause 4) — which immunized PM's election from judicial review — was struck down for violating Rule of Law (equality before law, Art. 14). **Critical nuance**: Dicey's Rule of Law (supremacy of law, equality before law, judge-made constitution) is **modified in India**: (1) Art. 361 grants immunity to President/Governors; (2) Delegated legislation is permitted; (3) Administrative tribunals exist. But the **core** — no arbitrary power, judicial review, fairness — is unamendable. **Wrong answer reveals**: Student quotes Dicey mechanically without Indian modifications, or claims Rule of Law is *only* Art. 14, missing its expansion via Art. 21 (*Maneka Gandhi*) and Art. 32/226 (writs). Also confuses 'basic structure' with 'fundamental right'.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical scenario where a government officer's action is **ministerial (purely administrative)**. Then modify it to make it **quasi-judicial**. Explain the legal consequences of each classification for the citizen's remedy.",
+     "a": "**Ministerial**: A Registrar of Births *must* register a birth if parents apply with valid documents — no discretion. **Remedy**: Mandamus (Art. 226) to compel performance — court *orders* the act. **Quasi-judicial**: A Municipal Commissioner *decides* whether to grant a building permit after hearing objections, applying guidelines. **Remedy**: Certiorari (Art. 226) to review *decision* — court checks legality, fairness, reasons; may quash but not substitute its own decision. **Key distinction**: Ministerial = duty to act (mandamus lies); Quasi-judicial = duty to decide fairly (certiorari/prohibition lie). **Poor answer reveals**: Student gives same remedy for both, or thinks quasi-judicial allows appeal on merits. Misses that certiorari is **supervisory**, not appellate.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,31 @@
      "q": "Design a mini-project workflow to identify putative transcription factor binding sites in the promoter region of a stress-responsive gene in Arabidopsis thaliana. List the databases, tools, and file formats you would use at each step, and explain how you would validate the predictions computationally.",
      "a": "1. Retrieve 2 kb upstream sequence of the gene from TAIR (The Arabidopsis Information Resource) in FASTA format. 2. Scan for known motifs using PlantPAN or JASPAR database with tools like FIMO (MEME suite) — input FASTA, output GFF/TSV. 3. Compare with orthologous promoters from related species (Brassica) using multiple alignment (ClustalW) to find conserved motifs. 4. Validate by checking enrichment of known stress-responsive elements (ABRE, DRE) vs random genomic background using Fisher's exact test. A poor answer lists tools without logical order or omits validation, showing inability to design a coherent bioinformatics pipeline.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Bioinformatics is the ______ science that creates, maintains, and analyses biological databases and computational tools to store, retrieve, and interpret genomic, transcriptomic, and proteomic data for understanding biological function and evolution.",
+     "a": "interdisciplinary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just ______ a novel gene from a drought-tolerant millet variety grown in Rajasthan.",
+     "a": "sequenced",
+     "self_check": true
+    },
+    {
+     "q": "What is Bioinformatics? State the definition given in this lesson.",
+     "a": "Bioinformatics is the interdisciplinary science that creates, maintains, and analyses biological databases and computational tools to store, retrieve, and interpret genomic, transcriptomic, and proteomic data for understanding biological function and evolution.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Bioinformatics?",
+     "a": "Students believe that BLAST searches \"the entire internet\" or \"all known sequences\" and that a top hit with 99% identity always means the query sequence is that gene.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can select the appropriate primary database (GenBank/EMBL/DDBJ for nucleotides, UniProt for proteins, PDB for structures), choose the correct file format (FASTA/GenBank), and justify the use of a specific analysis tool (BLAST for homology search, ClustalW for multiple sequence alignment, phylogenetic tools for evolutionary.",
+     "self_check": true
     }
    ]
   }

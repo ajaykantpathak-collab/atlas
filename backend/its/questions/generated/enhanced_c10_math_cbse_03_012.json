@@ -31,8 +31,33 @@
      "self_check": true
     },
     {
-     "q": "Create your own fixed charge plus variable charge problem with a real-life context (e.g., electricity bill, gym membership, taxi fare). Provide two conditions and ask for the fixed and variable charges. Also provide the solution.",
-     "a": "A good answer will present a coherent scenario (e.g., \"A gym charges a fixed annual fee plus ₹y per visit. Member A visits 20 times and pays ₹4000. Member B visits 35 times and pays ₹5750.\"), correctly form the equations (x + 20y = 4000, x + 35y = 5750), solve them (y = 116.67, x = 1666.67), and state the answer with units. A poor answer (e.g., missing one condition, equations not matching the story, or solution not satisfying both equations) reveals the student cannot reverse-engineer the problem structure or does not grasp the relationship between the narrative and the algebraic model.",
+     "q": "An auto ride of 5 km costs 50 rupees and a ride of 10 km costs 80 rupees, with a fixed charge for the first 2 km plus a per-km charge. Calculate the fixed charge in rupees.",
+     "a": "The equations are x + 3y = 50 and x + 8y = 80; subtracting gives 5y = 30 so the per-km charge is 6 rupees, and substituting back: x = 50 - 18 = 32 rupees fixed. A wrong answer that uses 5y and 10y for the distances shows the student forgot to subtract the fixed 2 km before forming the equations.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A fixed charge plus variable charge problem is a real-world ______ where the total cost is the sum of a constant fixed charge and a variable charge that depends linearly on the number of units consumed.",
+     "a": "situation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The driver says there is a ______ charge for the first 2 km and then a per km charge after that.",
+     "a": "fixed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The driver says there is a fixed charge for the first ______ km and then a per km charge after that.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can translate a word problem involving fixed and variable charges into a pair of linear equations, solve them using any algebraic method (substitution, elimination, or cross-multiplication), and interpret the solution in the context of the problem (e.g., state the fixed charge and the charge per unit with correct units).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ says there is a fixed charge for the first 2 km and then a per km charge after that.",
+     "a": "driver",
      "self_check": true
     }
    ]

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_14_006",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_14_006",
+   "title": "c11_leg_cbse_14_006",
+   "questions": [
+    {
+     "q": "State the four essential conditions for a valid adoption under Section 6 of the Hindu Adoption and Maintenance Act, 1956.",
+     "a": "The four conditions under Section 6 HAMA are: (i) The person adopting has the capacity and right to adopt (Sections 7/8); (ii) The person giving in adoption has the capacity to do so (Section 9); (iii) The person adopted is capable of being adopted (Section 10); (iv) The adoption is completed by actual giving and taking (Datta Homam) with intent to transfer the child (Section 11). A wrong answer (e.g., listing only \"consent of parents\" or \"registration\") reveals the student confuses adoption with contract or guardianship, missing the status-creating ceremonial core.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a Muslim couple cannot adopt a child under the Hindu Adoption and Maintenance Act, 1956, and what legal alternative is available to them under the Guardians and Wards Act, 1890.",
+     "a": "HAMA 1956 applies only to Hindus (Section 2: Buddhists, Jains, Sikhs included; Muslims, Christians, Parsis, Jews excluded). A Muslim couple cannot adopt under HAMA because adoption is not recognized in Muslim personal law (which only acknowledges *kafala* / guardianship). Their alternative is guardianship under GWA 1890 (Section 7), where the court appoints them as guardians of the minor's person/property. The child retains biological family ties and inheritance rights; no severance occurs. A wrong answer claiming \"Muslims can adopt under HAMA if they want\" or \"GWA creates adoption\" reveals confusion between *status change* (adoption) and *custodial appointment* (guardianship).",
+     "self_check": true
+    },
+    {
+     "q": "A Hindu widow adopts a 16-year-old unmarried girl without her deceased husband's consent (he died 5 years ago). The adoption deed is registered but Datta Homam was not performed. Is the adoption valid? Analyze step-by-step using HAMA provisions.",
+     "a": "**Step 1:** Governing law = HAMA 1956 (both parties Hindu). **Step 2:** Capacity of adoptive mother — Section 8: A female Hindu of sound mind, not a minor, unmarried/widowed/divorced can adopt. Widow qualifies. **Step 3:** Capacity of child — Section 10: Must be Hindu, not already adopted, unmarried (unless custom permits), under 15 years (unless custom permits). **Child is 16 → fails Section 10 unless custom proves otherwise.** **Step 4:** Consent — Section 9: Only father/mother/guardian can give in adoption. Widow is mother → she can give consent. Deceased husband's consent not needed. **Step 5:** Ceremony — Section 11: Actual giving/taking (Datta Homam) required. **Not performed → adoption incomplete.** **Conclusion:** Adoption invalid on two grounds: age (Sec 10) and missing ceremony (Sec 11). Registration alone cannot cure these. A wrong answer focusing only on registration or consent misses the mandatory nature of Section 10 (age) and Section 11 (ceremony) — both are *conditions precedent*, not formalities.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the legal effects of a valid adoption under HAMA (Section 12) with the legal position of a child under guardianship via GWA 1890. Focus on three specific consequences: (a) inheritance rights, (b) severance of biological ties, (c) marital restrictions.",
+     "a": "**Valid Adoption (HAMA Sec 12):** (a) Adopted child inherits from adoptive parents as a natural-born child (coparcenary rights in joint family property); (b) **Complete severance** — all ties with biological family cut; child cannot marry anyone they couldn't have married in biological family (sapinda/prohibited degrees); (c) **Marriage restrictions** — Section 12(c): Adopted child cannot marry within prohibited degrees of *both* biological and adoptive families. **Guardianship (GWA 1890):** (a) **No inheritance rights** — ward does not inherit from guardian; guardian has no right to ward's property; (b) **No severance** — biological parents remain legal parents; ward retains all biological family rights; (c) **No new marital restrictions** — ward's sapinda/prohibited degrees remain only biological. A wrong answer claiming \"guardianship gives inheritance\" or \"adoption doesn't affect marriage rules\" shows failure to grasp that adoption creates a *new legal persona* while guardianship is merely *custodial delegation*.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the doctrine of \"relation back\" in adoption under pre-1956 Hindu law vs. current HAMA 1956. Does an adoption finalized in 2024 relate back to the date of the adoptive father's death in 2020 for coparcenary rights? Justify with statutory provisions and case law.",
+     "a": "**Pre-1956 (Old Hindu Law):** Adoption related back to the date of the adoptive father's death (fiction of law). The adopted son was deemed born into the family at that earlier date, acquiring coparcenary rights retrospectively. **HAMA 1956 (Section 12):** **Abolished relation back.** Adoption takes effect from the *date of actual adoption* (giving and taking). Section 12(a): \"The adopted child shall be deemed to be the child of the adoptive father or mother for all purposes with effect from the date of adoption.\" **Supreme Court in *Sawan Ram v. Kalawati* (1967) & *Sitabai v. Ramchandra* (1969):** Confirmed relation back is dead. Adoption in 2024 **does not** relate back to 2020. The child gets no coparcenary rights in property that devolved between 2020-2024. A wrong answer citing \"relation back still applies\" or \"Section 12 allows it\" reveals reliance on outdated pre-1956 law or misreading Section 12 as preserving the fiction.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a hypothetical fact scenario where an adoption *appears* valid on paper (registered deed, consent obtained) but is **void ab initio** under HAMA 1956 due to a hidden statutory defect. Identify the exact section violated and explain why registration cannot cure it.",
+     "a": "**Scenario:** Hindu male (45) adopts his *sister's 12-year-old son* (nephew). Registered deed executed. Sister (mother) consents. Father alive but absent. Datta Homam performed. **Defect:** Section 10(iv) — \"The child must not have been adopted before.\" But deeper defect: **Section 11(i) — Age gap.** Adoptive father must be at least 21 years older than the child (if male adopting male). Here gap = 33 years → *satisfied*. **Real hidden defect:** **Section 9(2) — Only father/mother/guardian can give in adoption.** Sister is mother → *valid*. **Actual void scenario:** Hindu male adopts his *daughter's 10-year-old son* (grandson). Mother (daughter) consents. **Violates Section 10(iii):** \"The child must not be married\" — *not the issue*. **Violates Section 11(iii):** \"The child must be given and taken by parents/guardian *with intent to transfer from biological family*.\" But **Section 9(1):** *Only father, mother, or guardian* can give. Here, *father of the child* (daughter's husband) is alive and did not consent. Mother alone cannot give if father alive (Section 9 proviso). **Adoption void ab initio.** Registration (Section 16) only *presumes* validity; it cannot override Section 9 consent defect. A poor answer focusing on \"registration makes it valid\" or \"mother's consent is enough\" misses the *mandatory joint consent* rule when father is alive — a strict statutory condition, not a directory formality.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,26 @@
      "q": "Create a scenario where three partners admit a fourth, the total capital is not specified, and one continuing partner must withdraw capital while another must bring in capital. Provide all numbers and show the journal entries.",
      "a": "Example: A, B, C share 4:3:3. D admitted for 1/5 share, brings ₹80,000. Adjusted capitals: A ₹2,00,000, B ₹1,50,000, C ₹1,50,000. Total capital = ₹5,80,000. New ratio: A:B:C:D = 16:12:12:5 (derived from 4/5×4/10 etc.). A's target = 16/45 × ₹5,80,000 = ₹2,06,222 (bring ₹6,222). B's target = 12/45 × ₹5,80,000 = ₹1,54,667 (bring ₹4,667). C's target = ₹1,54,667 (withdraw ₹4,667). D exact. Journal: Bank Dr. ₹10,889 → A ₹6,222, B ₹4,667; C Dr. ₹4,667 → Bank. A valid answer must show correct new ratio derivation, target capitals, and opposite cash flows. A poor answer uses old ratio or ignores D's capital in total.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Adjustment of Partners' Capitals for Proportionate Capital refers to the process of aligning the capital balances of all partners (including a newly admitted partner) with their new profit-sharing ratio by either bringing in additional capital or withdrawing excess capital, ensuring each partner's capital ______ is proportionate to their share in future profits.",
+     "a": "contribution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The existing ______ are ₹80,000, ₹60,000, and ₹40,000.",
+     "a": "capitals",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Calculate the required capital for each partner based on the new profit-sharing ratio and total capital of the firm, (2) Determine the cash to be brought in or withdrawn by each partner through journal entries, and (3) Prepare the revised Balance Sheet after capital adjustment under all three scenarios.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ capitals are ₹80,000, ₹60,000, and ₹40,000.",
+     "a": "existing",
+     "self_check": true
     }
    ]
   }

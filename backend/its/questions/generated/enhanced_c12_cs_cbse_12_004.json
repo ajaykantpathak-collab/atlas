@@ -34,6 +34,36 @@
      "q": "Design a simple classroom demonstration (using only standard command-line tools available on Linux/Windows) to show how ARP spoofing enables a Man-in-the-Middle position. List the exact commands and explain what each step achieves. Do not use specialized attack frameworks.",
      "a": "Demonstration outline:\n1. Enable IP forwarding: `echo 1 > /proc/sys/net/ipv4/ip_forward` (Linux) — makes attacker a router.\n2. Find victim IP and gateway IP: `arp -a` or `ip neigh`.\n3. Spoof victim: `arpspoof -i eth0 -t <victim_ip> <gateway_ip>` (requires `dsniff` package) — sends gratuitous ARP replies telling victim \"I am the gateway\".\n4. Spoof gateway: `arpspoof -i eth0 -t <gateway_ip> <victim_ip>` — tells gateway \"I am the victim\".\n5. Traffic now flows through attacker; use `tcpdump -i eth0 -n` to show intercepted packets.\nA poor answer that suggests using Wireshark alone misses the active ARP poisoning step; one that says \"use Ettercap\" violates the \"no specialized frameworks\" constraint.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Eavesdropping is the unauthorized real-time interception and monitoring of private ______ (such as VoIP calls, instant messages, video conferences, or fax transmissions) between two entities over a network.",
+     "a": "communications",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are sitting in a café using the free \"Cafe_Free_WiFi\" to check your bank balance.",
+     "a": "Imagine",
+     "self_check": true
+    },
+    {
+     "q": "What is Eavesdropping? State the definition given in this lesson.",
+     "a": "Eavesdropping is the unauthorized real-time interception and monitoring of private communications (such as VoIP calls, instant messages, video conferences, or fax transmissions) between two entities over a network.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now imagine the hacker didn't just listen; they set up a rogue hotspot named \"Cafe_Free_WiFi_______G\" that you accidentally connected to.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Eavesdropping?",
+     "a": "Students frequently conflate eavesdropping, snooping, and Man-in-the-Middle as the same thing — \"someone listening to my data.\" They write: \"Eavesdropping is when a hacker intercepts and changes my data.\" This is wrong because eavesdropping is *passive* (read-only, real-time); MitM is *active* (can modify/inject).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) clearly distinguish between eavesdropping (passive real-time listening) and snooping (capture/store for later analysis), (2) explain the mechanism of a Man-in-the-Middle attack including common techniques like ARP spoofing and rogue access points, and (3) identify appropriate countermeasures (HTTPS, VPN.",
+     "self_check": true
     }
    ]
   }

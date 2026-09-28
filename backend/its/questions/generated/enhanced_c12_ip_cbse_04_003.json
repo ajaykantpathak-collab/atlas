@@ -17,7 +17,7 @@
     },
     {
      "q": "You find a GitHub repository with a function `calculate_gst(amount, rate)` that perfectly matches your project requirement. Show step-by-step how you would incorporate this code into your project *ethically*, including the exact comment block you would add above the function.",
-     "a": "Step 1: Check the repository's LICENSE file (e.g., MIT, GPL) to confirm reuse permissions. Step 2: Copy the function into your codebase. Step 3: Immediately above the function, add a comment block: \n```python",
+     "a": "Step 1: Check the repository's LICENSE file (e.g., MIT, GPL) to confirm reuse permissions. Step 2: Copy the function into your codebase. Step 3: Immediately above the function, add a comment block: \n```python\n# Function adapted from: https://github.com/username/repo-name\n# Original Author: Author Name\n# License: MIT License (or applicable license)\n# Date accessed: 2024-10-15\n# Modifications: Added input validation for negative amounts\n```\nStep 4: In your project report's references section, cite the source in IEEE format: [1] Author Name, \"Repository Name,\" GitHub, Year. [Online]. Available: URL. Step 5: If you modified the code, clearly mark changed lines with `# MODIFIED:` comments. A wrong answer that omits the license check or the formal citation in the report reveals the student thinks a code comment alone suffices — but board exams require *both* inline attribution and a bibliography entry.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Design a 5-item checklist that a Class 12 student can use *while writing* their IP project report to prevent accidental plagiarism. Each item must be actionable during drafting (not just at the end).",
      "a": "1. **Source Log**: Keep a running document (paper/digital) noting every URL, paper, or person consulted *as you read*, with 1-line summary of what you took. 2. **Quote-First Rule**: When copying any phrase >5 words, paste it in quotes *immediately* with a placeholder citation `[TODO: cite]` — never intend to \"add quotes later.\" 3. **Paraphrase Test**: After rewriting an idea, cover the original and ask: \"Could I have written this without reading the source?\" If no, cite it. 4. **Code Comment Discipline**: For every borrowed code block >3 lines, add the attribution comment *before* writing the next line. 5. **Reference-as-You-Go**: Build the bibliography entry the moment you decide to use a source — use a citation generator (Zotero, Mendeley) in IEEE style. A poor checklist would list only \"run plagiarism checker at the end\" — that's reactive, not preventive.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Plagiarism is the act of using someone else's work, ideas, expressions, or intellectual property without proper ______ or citation, presenting it as one's own original creation.",
+     "a": "acknowledgment",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're writing your Class 12 IP project report and you find a perfect Python ______ on GitHub that solves your problem — do you copy it?",
+     "a": "function",
+     "self_check": true
+    },
+    {
+     "q": "What is Plagiarism? State the definition given in this lesson.",
+     "a": "Plagiarism is the act of using someone else's work, ideas, expressions, or intellectual property without proper acknowledgment or citation, presenting it as one's own original creation.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Plagiarism?",
+     "a": "Students believe \"paraphrasing means changing a few words\" and that \"if I rewrite it in my own words, I don't need to cite.\" This is the *poor paraphrasing* trap.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) identify all four major types of plagiarism in given scenarios with justification, and (2) demonstrate correct citation practices for text, code, data, and multimedia sources using a standard style (e.g., APA/IEEE) in a sample project report.",
      "self_check": true
     }
    ]

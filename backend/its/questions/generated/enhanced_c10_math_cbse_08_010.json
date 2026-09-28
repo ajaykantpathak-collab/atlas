@@ -34,6 +34,21 @@
      "q": "Create a trigonometric simplification problem that requires using BOTH the identity 1 + tan²θ = sec²θ AND the complementary angle relation sin(90°-θ) = cosθ in sequence. The final answer should be a single trigonometric ratio. Provide the problem and its step-by-step solution.",
      "a": "Problem: Simplify sec(90°-θ) · tanθ / (1 + tan²θ).\nSolution:\nStep 1: sec(90°-θ) = cosecθ (complementary: sec(90°-θ) = cosecθ).\nStep 2: Expression = cosecθ · tanθ / (1 + tan²θ).\nStep 3: 1 + tan²θ = sec²θ (Pythagorean identity).\nStep 4: Expression = cosecθ · tanθ / sec²θ.\nStep 5: tanθ = sinθ/cosθ, cosecθ = 1/sinθ, sec²θ = 1/cos²θ.\nStep 6: = (1/sinθ) · (sinθ/cosθ) / (1/cos²θ) = (1/cosθ) · cos²θ = cosθ.\nAnswer: cosθ.\nA poor answer creates a problem that only uses one identity, or makes the complementary angle substitution incorrect (e.g., writes sec(90°-θ) = cosθ), revealing confusion between complementary pairs.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Applications of trigonometric identities in ______ refer to the systematic process of reducing complex trigonometric expressions to their simplest form by substituting the three fundamental Pythagorean identities (sin²θ + cos²θ = 1, 1 + tan²θ = sec²θ, 1 + cot²θ = cosec²θ) and complementary angle relations (sin(90°-θ) = cosθ, cos(90°-θ) = sinθ, etc.) to eliminate powers, convert between ratios, or combine terms into a single trigonometric ratio or constant.",
+     "a": "simplification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're helping your younger sibling with a puzzle: \"______ (sin⁴θ - cos⁴θ) / (sin²θ - cos²θ)\" — they stare at it, not knowing where to begin.",
+     "a": "Simplify",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can simplify any trigonometric expression involving powers, products, or quotients of the six trigonometric ratios up to degree 4 by strategically selecting and applying the appropriate identity, showing every algebraic step with justification, and verifying the result by substituting standard angle values.",
+     "self_check": true
     }
    ]
   }

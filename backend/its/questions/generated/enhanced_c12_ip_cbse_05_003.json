@@ -17,7 +17,7 @@
     },
     {
      "q": "Parse the following URL into a structured table with columns: Component, Value, Purpose. URL: `ftp://ftp.is.co.za/rfc/rfc1808.txt`\nThen, construct a new URL that uses HTTPS protocol, the same domain, a path `/download/rfc1808.txt`, and a query parameter `format=raw`.",
-     "a": "Correct parse table:\n| Component | Value | Purpose |\n|-----------|-------|---------|\n| Protocol | ftp | File Transfer Protocol for file download |\n| Host | ftp.is.co.za | Server address (subdomain ftp, domain is.co.za) |\n| Path | /rfc/rfc1808.txt | Hierarchical location of the file |\n| Query | (none) | No parameters passed |\n| Fragment | (none) | No client-side anchor |\n\nConstructed URL: `https://ftp.is.co.za/download/rfc1808.txt?format=raw`\nA wrong answer that keeps `ftp://` or omits the leading `/` in the path (e.g., `download/rfc1808.txt`) shows the student cannot transfer structural knowledge across protocols or forgets that paths must be absolute (starting with `/`) when the host changes.",
+     "a": "Correct parse table:\n| Component | Value | Purpose |\n|-----------|-------|---------|\n| Protocol | ftp | File Transfer Protocol for file download |\n| Host | ftp.is.co.za | Server address (subdomain ftp, domain is.co.za) |\n| Path | /rfc/rfc1808.txt | Hierarchical location of the file |\n| Query | (N/A) | No parameters passed |\n| Fragment | (N/A) | No client-side anchor |\n\nConstructed URL: `https://ftp.is.co.za/download/rfc1808.txt?format=raw`\nA wrong answer that keeps `ftp://` or omits the leading `/` in the path (e.g., `download/rfc1808.txt`) shows the student cannot transfer structural knowledge across protocols or forgets that paths must be absolute (starting with `/`) when the host changes.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Design a URL structure for a school library web application that allows students to search books by title, author, and genre, with pagination and sort order. The base domain is `library.school.edu.in`. Provide:\n(i) The base URL for the search endpoint.\n(ii) A sample URL with all parameters filled (title=\"Physics\", author=\"HC Verma\", genre=\"Science\", page=3, sort=\"title_asc\").\n(iii) Explain why you chose the parameter names and order you did.",
      "a": "Expected answer:\n(i) Base URL: `https://library.school.edu.in/search`\n(ii) Sample URL: `https://library.school.edu.in/search?title=Physics&author=HC+Verma&genre=Science&page=3&sort=title_asc`\n(iii) Parameter names are lowercase, descriptive, and use snake_case for multi-word keys (e.g., `sort` not `sortOrder`) for consistency with REST conventions. Order is logical: filter parameters first (title, author, genre), then pagination (page), then presentation (sort). Order does not affect server processing but improves readability and debuggability.\nA poor answer that uses spaces instead of `+` or `%20`, omits the `?`, or uses inconsistent casing (`Title=Physics&Author=HC Verma`) shows the student cannot apply URL encoding rules or REST-style parameter design — both required for Class 12 practical file viva and CUET application-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Uniform Resource Locator (URL) is a ______ address string that uniquely identifies a resource on the World Wide Web by specifying its access protocol, the host domain (including optional subdomain), the hierarchical path to the resource on the server, and optional query parameters that pass additional data to the resource.",
+     "a": "standardized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ for NCERT textbooks and type https://ncert.nic.in/textbook/pdf/kech1ps.pdf in the address bar — the page loads instantly.",
+     "a": "browsing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are browsing for NCERT textbooks and type https://ncert.nic.in/textbook/pdf/kech______ps.pdf in the address bar — the page loads instantly.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) decompose any given URL into its five core components (protocol, subdomain, domain, path, query parameters) and explain the function of each, and (2) construct a valid URL for a specified resource given the protocol, host, path segments, and key-value query pairs.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are browsing for NCERT ______ and type https://ncert.nic.in/textbook/pdf/kech1ps.pdf in the address bar — the page loads instantly.",
+     "a": "textbooks",
      "self_check": true
     }
    ]

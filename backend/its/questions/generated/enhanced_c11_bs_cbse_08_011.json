@@ -34,6 +34,26 @@
      "q": "Create a decision matrix for a medium-sized manufacturing firm choosing between public deposits, commercial paper, and bank loan for a 2-year working capital need. Include at least four factors with weights (sum=100) and score each source (1–5). Show the weighted total.",
      "a": "Example matrix:\n| Factor (Weight) | Public Deposits | Commercial Paper | Bank Loan |\n|-----------------|-----------------|------------------|-----------|\n| Cost (30)       | 3               | 4                | 2         |\n| Flexibility (20)| 4               | 3                | 3         |\n| Risk (25)       | 3               | 2                | 4         |\n| Control (15)    | 5               | 5                | 3         |\n| Creditworthiness (10)| 3           | 4                | 2         |\nWeighted totals: Public Deposits = 3.4, Commercial Paper = 3.3, Bank Loan = 2.9. A poor answer uses arbitrary weights without linking to the firm's context (e.g., ignoring that CP requires high credit rating).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Factors affecting choice of source of finance refer to the criteria a business evaluates—such as cost, risk, control, purpose, time period, financial strength, tax benefits, and legal form—to select the most ______ mix of funding sources for its specific needs.",
+     "a": "appropriate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Anil Singh (from the chapter opener) who wants to ______ his restaurant chain.",
+     "a": "expand",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can evaluate a given business scenario, identify the relevant factors, and justify the optimal source(s) of finance by weighing trade-offs among at least three factors (e.g., cost vs. control vs. risk).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Anil Singh (from the chapter opener) who wants to expand his ______ chain.",
+     "a": "restaurant",
+     "self_check": true
     }
    ]
   }

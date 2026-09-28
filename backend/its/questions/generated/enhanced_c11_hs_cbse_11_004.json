@@ -34,6 +34,26 @@
      "q": "Create a 'Stain First-Aid Decision Flowchart' (text-based) for a Class 11 student to use when a stain occurs on an **unknown fabric**. The flowchart must have decision nodes for: (a) Stain Age, (b) Stain Type Identification, (c) Fabric Sensitivity Test, (d) Reagent Selection Logic. Use only NCERT principles from this node.",
      "a": "**STAIN FIRST-AID FLOWCHART (Unknown Fabric)**\n```\nSTART\n│\n├─► 1. STAIN AGE? → FRESH: BLOT (don't rub) → Go to 2. → OLD: Soak COLD water 30 min → Go to 2.\n│\n├─► 2. IDENTIFY TYPE (Colour/Smell/Feel) → \n│       ├─ Acidic/Vegetable (tea, fruit) → ALKALINE track\n│       ├─ Protein/Animal (blood, egg, milk) → COLD WATER/ENZYME track (NO HEAT)\n│       ├─ Grease/Oil (butter, oil) → SOLVENT/ABSORBENT track\n│       ├─ Mineral (ink, rust, medicine) → ACID then ALKALINE track\n│       └─ Dye Bleed → ACID or ALKALI (test) track\n│       └─ UNKNOWN → Go to 3 (General Sequence)\n│\n├─► 3. FABRIC SENSITIVITY TEST (MANDATORY) → \n│       Apply chosen reagent on hidden seam/hem → Wait 5 min → Check: Colour bleed? Fibre damage? Texture change?\n│       ├─ YES → STOP. Dilute reagent / Change method / Professional clean.\n│       └─ NO → Go to 4.\n│\n├─► 4. REAGENT APPLICATION (Technique Selection) → \n│       ├─ Surface build-up (wax, gum) → SCRAPE first.\n│       ├─ Delicate/Coloured/Structured (silk, wool, embroidery) → SPONGING (on blotter).\n│       ├─ Sturdy/Flat (cotton, linen) → DIPPING or DROP METHOD.\n│       └─ Large/Heavy (towels) → SUCTION (later stage).\n│\n├─► 5. RINSE THOROUGHLY (Cold → Warm) → Remove ALL chemical traces.\n│\n├─► 6. FINAL: Air dry (shade for coloured/delicate) → Sun ONLY if white cotton/linen & stain gone.\nEND\n```\n*Poor answer (missing test step, ignoring 'no heat for protein', suggesting bleach first) reveals lack of procedural integration — treating principles as isolated facts rather than a decision algorithm.*",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A stain is an unwanted mark or ______ on a fabric resulting from the contact, absorption, and often chemical bonding of foreign matter (staining substance) that cannot be removed by the normal laundering process and requires specific targeted treatment based on its chemical nature.",
+     "a": "discoloration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are getting ready for a family function and accidentally spill ______-laden curry on your brand-new white cotton kurta.",
+     "a": "turmeric",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify any given stain into one of the five NCERT categories (vegetable, animal, oil, mineral, dye bleeding), state the specific chemical principle for its removal (acidic/alkaline medium, solvent, absorbent, etc.), and sequence the general principles of stain removal (fresh first, identify, mild to strong.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are getting ready for a family function and ______ spill turmeric-laden curry on your brand-new white cotton kurta.",
+     "a": "accidentally",
+     "self_check": true
     }
    ]
   }

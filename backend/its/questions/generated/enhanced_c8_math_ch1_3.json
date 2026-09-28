@@ -34,6 +34,26 @@
      "q": "Create a three-digit number that cannot be a perfect square and explain why using the units digit pattern. Then create a three-digit number that passes the units digit test but is still not a perfect square.",
      "a": "Example 1: 237 (ends in 7) → cannot be a perfect square because 7 is not in {0,1,4,5,6,9}. Example 2: 126 (ends in 6) → passes the test but \\( 11^2=121 \\), \\( 12^2=144 \\), so 126 is not a perfect square. A poor answer fails to distinguish between necessary and sufficient conditions or cannot produce a valid non-square that passes the test.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The units digit of a perfect square depends only on the units digit of the ______ integer.",
+     "a": "original",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a stationery shop and the ______ says, \"I have a box with a perfect square number of pencils.",
+     "a": "shopkeeper",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The number ends in ______.\" You immediately know the shopkeeper is mistaken.",
+     "a": "7",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a ______ shop and the shopkeeper says, \"I have a box with a perfect square number of pencils.",
+     "a": "stationery",
+     "self_check": true
     }
    ]
   }

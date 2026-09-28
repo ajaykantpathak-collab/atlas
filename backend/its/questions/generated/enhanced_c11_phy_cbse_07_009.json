@@ -34,6 +34,26 @@
      "q": "Design a thought experiment or graphical method to show that gravitational potential difference between two points depends only on the endpoints, not the path taken. Use the concept of conservative force.",
      "a": "Take a 1 kg test mass. Move it from point A to point B along two different paths: Path 1 (radial line) and Path 2 (circular arc + radial line). Calculate work done by gravity along each: Path 1: W = ∫_A^B F·dr = GMm(1/r_B - 1/r_A). Path 2: Circular part has F⊥dr, so W=0; radial part gives same integral. Both give same work. Since W_grav = -ΔU, ΔU is path-independent. Hence V = U/m is path-independent. A poor answer (e.g., just stating \"gravity is conservative\" without showing the path calculation) reveals inability to connect the abstract property to concrete mathematical demonstration.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Gravitational potential at a point in a gravitational field is defined as the work done per unit mass in bringing a test mass from infinity to that point without ______.",
+     "a": "acceleration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ on the terrace of your school building holding a 1 kg stone.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing on the terrace of your school building holding a ______ kg stone.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate gravitational potential at any point due to single or multiple masses, explain why potential is negative everywhere except infinity, and distinguish between gravitational potential (J/kg) and gravitational potential energy (J) in both conceptual questions and numerical problems.",
+     "self_check": true
     }
    ]
   }

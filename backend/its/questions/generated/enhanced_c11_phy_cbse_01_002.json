@@ -34,6 +34,26 @@
      "q": "Design a thought experiment to demonstrate why the radian (rad) and steradian (sr) are classified as dimensionless derived units in SI, even though they measure plane and solid angles respectively.",
      "a": "Plane angle θ = arc length / radius = m/m = 1 (dimensionless). Solid angle Ω = intercepted area / radius² = m²/m² = 1 (dimensionless). Since both are ratios of identical dimensions, they have no physical dimension. However, SI retains the names \"radian\" and \"steradian\" as special names for the number 1 to clarify the physical quantity being measured. A poor answer (claiming they have dimensions of angle) reveals the student confuses \"dimensionless\" with \"unitless\" — dimensionless quantities still need units to convey what is being measured.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The International System of Units (SI) is the globally accepted coherent system of measurement built upon seven precisely defined base units (metre, kilogram, second, ampere, kelvin, mole, candela) from which all other physical quantities are derived through multiplication and division without numerical factors, ensuring universal ______ of measurements in scientific, industrial, and commercial work.",
+     "a": "reproducibility",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying milk at a local dairy in Delhi — the seller measures \"1 litre\" using a steel ______.",
+     "a": "container",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying milk at a local dairy in Delhi — the seller measures \"______ litre\" using a steel container.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) list all seven SI base quantities with their units, symbols, and defining constants, (2) distinguish between base units, derived units with special names, and supplementary units (radian, steradian), (3) correctly apply SI prefixes for multiples and sub-multiples, and (4) write unit symbols following international.",
+     "self_check": true
     }
    ]
   }

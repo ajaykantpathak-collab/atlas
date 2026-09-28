@@ -34,6 +34,31 @@
      "q": "Design a scenario where a school needs both customised application software and general purpose application software. Specify the purpose of each, and explain why the customised one cannot be replaced by a general purpose tool.",
      "a": "Scenario: School uses LibreOffice Calc (general purpose) for teachers' individual marksheets, but needs customised \"School Management Software\" for centralized admission, fee collection, timetable, and report cards integrated with a database. The customised software handles school-specific workflows (e.g., CBSE report card format, fee structures per class) that no generic tool supports. A weak answer (e.g., \"Excel can do everything\") misses that customisation is about domain-specific logic, not just data storage.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: System software is a collection of programs that directly manages and controls computer hardware, providing a platform for ______ software to run; it includes operating systems, device drivers, and system utilities.",
+     "a": "application",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you just bought a new smartphone — it has a powerful processor, memory, camera, and screen (hardware), but when you press the power button, nothing happens until the ______ system (like Android or iOS) loads.",
+     "a": "operating",
+     "self_check": true
+    },
+    {
+     "q": "What is System software? State the definition given in this lesson.",
+     "a": "System software is a collection of programs that directly manages and controls computer hardware, providing a platform for application software to run; it includes operating systems, device drivers, and system utilities.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about System software?",
+     "a": "Students often believe that any software that \"manages\" something (like a file manager app or a database tool) is system software because it \"manages resources.\" They confuse *resource management* (OS allocating CPU time, memory blocks, device access) with *data management* (an app organizing user files or records).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify any given software as system software, programming tool, or application software with justification, and explain the dependency relationship between system software and application software using the concepts of hardware abstraction and resource management.",
+     "self_check": true
     }
    ]
   }

@@ -21,7 +21,7 @@
     "Mark all supercells in the grid shown.",
     "Can the largest entry of a table ever fail to be a supercell?"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -38,7 +38,16 @@
      "action": "conclude supercell status",
      "explain": "Confirm the cell is a supercell if and only if it is strictly larger than every neighbour."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "split the number into digits and apply the rule",
+     "explain": "split the number into digits and apply the rule: diff = 9 * abs(4 - 1) gives 27",
+     "compute": "diff = 9 * abs(4 - 1)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.3.4.1",

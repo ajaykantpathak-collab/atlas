@@ -34,6 +34,31 @@
      "q": "Design a multimodal logistics corridor for exporting automobiles from a proposed plant in Chennai to Europe, using at least two water transport legs. Annotate a mental map with: origin, port(s), shipping route, transshipment hub(s), destination port, and justify each mode choice.",
      "a": "Good answer: Chennai plant → (rail/road 30km) → Kamarajar Port (Ennore) → (coastal shipping 1200km) → JNPT (Nhava Sheva) → (mother vessel via Suez Canal) → Rotterdam (Netherlands) → (inland barge Rhine River) → Duisburg (Germany). Justification: Ennore has dedicated car terminal (Ro-Ro); coastal shipping to JNPT avoids road congestion; JNPT is India's only port with 15m draft for Post-Panamax vessels to Europe; Suez is shortest route; Rhine barge is cheapest last-mile in Europe. Poor answer uses only one port (e.g., direct Chennai-Rotterdam) ignoring draft limits at Chennai (13m) and lack of direct mainline service – reveals ignorance of port hierarchy and shipping network topology.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Water transport is the movement of people and goods via navigable water bodies, categorized into inland waterways (rivers, canals, backwaters, creeks) operating within national boundaries and ocean routes (shipping lanes) connecting ports across ______ waters for global trade.",
+     "a": "international",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a barge loaded with coal moving silently on the Ganga near Varanasi versus a container ship at ______ Nehru Port (Nhava Sheva) – both are water transport but operate at vastly different scales.",
+     "a": "Jawaharlal",
+     "self_check": true
+    },
+    {
+     "q": "What is Water transport? State the definition given in this lesson.",
+     "a": "Water transport is the movement of people and goods via navigable water bodies, categorized into inland waterways (rivers, canals, backwaters, creeks) operating within national boundaries and ocean routes (shipping lanes) connecting ports across international waters for global trade.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Water transport?",
+     "a": "Students believe 'inland waterways' only mean rivers like Ganga/Brahmaputra, and that 'canals' are artificial channels like the Suez/Panama.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) classify India's 11 National Waterways by their river/canal systems and states traversed, (2) explain the physical and economic factors determining navigability of a river stretch, (3) analyze the strategic importance of major and minor ports on eastern vs western coasts for India's EXIM trade, and (4) evaluate the.",
+     "self_check": true
     }
    ]
   }

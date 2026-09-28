@@ -34,6 +34,31 @@
      "q": "Design a simple chemical test using only Lucas reagent (conc. HCl + ZnCl₂) and three unlabelled test tubes containing butan-1-ol, butan-2-ol, and 2-methylpropan-2-ol. Describe the observation sequence over 10 minutes that would let you identify each alcohol.",
      "a": "Add Lucas reagent to each tube at room temperature. Tube showing immediate turbidity (within 1 minute) = 2-methylpropan-2-ol (tertiary, SN1 fast). Tube showing turbidity after 5–10 minutes = butan-2-ol (secondary, slower SN1). Tube remaining clear after 10 minutes = butan-1-ol (primary, no reaction at room temp). A poor design would not specify the time window or would confuse the order, revealing lack of understanding of carbocation stability trend: 3° > 2° > 1°.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Alcohols are organic compounds in which a hydroxyl (–OH) group is attached to an sp³ hybridised carbon atom of an aliphatic system; they are classified as primary (1°), secondary (2°), or tertiary (3°) depending on whether the carbon bearing the –OH group is attached to one, two, or three other carbon atoms ______.",
+     "a": "respectively",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world ______: when you rub hand sanitiser (mostly ethanol, a primary alcohol) on your skin, it evaporates quickly and feels cool; but when you use isopropyl alcohol (secondary) for cleaning electronics, it evaporates slightly slower and has a different odour.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "What is Alcohols? State the definition given in this lesson.",
+     "a": "Alcohols are organic compounds in which a hydroxyl (–OH) group is attached to an sp³ hybridised carbon atom of an aliphatic system; they are classified as primary (1°), secondary (2°), or tertiary (3°) depending on whether the carbon bearing the –OH group is attached to one, two, or three other carbon atoms respectively.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Alcohols?",
+     "a": "Students often classify alcohols by counting the total number of carbon atoms in the molecule (e.g., \"propanol has 3 carbons so it's tertiary\") or by the position number in the IUPAC name (e.g., \"propan-2-ol has '2' so it's secondary\").",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) look at a structural formula and correctly identify the alcohol as primary, secondary, or tertiary by counting carbon atoms directly bonded to the carbinol carbon, (2) draw the structural isomers for a given molecular formula (e.g., C₄H₁₀O) and classify each isomer, and (3) explain why the classification determines.",
+     "self_check": true
     }
    ]
   }

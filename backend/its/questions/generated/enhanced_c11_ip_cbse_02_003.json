@@ -32,7 +32,37 @@
     },
     {
      "q": "Design a mini-workflow for a Class 11 student to discover the precedence of `**` vs unary `-` (i.e., `-2 ** 2` vs `(-2) ** 2`) using Interactive Mode, then capture the finding in a Script Mode file for future reference. Write the exact Interactive commands and the final script content.",
-     "a": "Interactive discovery:\n```\n>>> -2 ** 2\n-4\n>>> (-2) ** 2\n4\n```\nScript file `precedence_demo.py`:\n```python",
+     "a": "Interactive discovery:\n```\n>>> -2 ** 2\n-4\n>>> (-2) ** 2\n4\n```\nScript file `precedence_demo.py`:\n```python\n# Operator precedence demo: ** binds tighter than unary -\nprint(\"Unary minus then power:\", -2 ** 2)   # -4\nprint(\"Parentheses first:\", (-2) ** 2)      # 4\n```\nA poor answer that only writes the script without showing the Interactive exploration misses the workflow; one that doesn't save the script misses the \"capture for reference\" requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Python provides two distinct execution modes: Interactive Mode executes single statements immediately in a REPL (Read-Eval-Print Loop) environment, displaying results instantly; Script Mode executes a complete sequence of statements stored in a .py file as a program, running from start to finish without ______ prompts.",
+     "a": "intermediate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to quickly check what 2 10 evaluates to — you'd type it in a ______ and get the answer instantly.",
+     "a": "calculator",
+     "self_check": true
+    },
+    {
+     "q": "What is Python provides two distinct execution modes? State the definition given in this lesson.",
+     "a": "Python provides two distinct execution modes: Interactive Mode executes single statements immediately in a REPL (Read-Eval-Print Loop) environment, displaying results instantly; Script Mode executes a complete sequence of statements stored in a .py file as a program, running from start to finish without intermediate prompts.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then go to File → New File, write the same line, save as hello.py, and press F______ — that's Script Mode.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Python provides two distinct execution modes?",
+     "a": "Students believe Interactive Mode and Script Mode are just \"two windows in IDLE\" and that code written in one can be directly copied to the other without modification.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between Interactive and Script mode by identifying the correct mode for a given task (quick testing vs. reusable program), demonstrate launching both modes in IDLE, and explain why a multi-line indented block fails in Interactive mode but succeeds in Script mode.",
      "self_check": true
     }
    ]

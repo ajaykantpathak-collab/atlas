@@ -1,0 +1,176 @@
+{
+ "catalog": "catalog_class6_science_ch109.json",
+ "concepts": [
+  {
+   "id": "fesc.9.2.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "adaptation = 75",
+      "environment = 81",
+      "survival = adaptation + environment"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "adaptation = 95",
+      "environment = 7.6",
+      "survival = adaptation + environment"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "adaptation = 68",
+      "environment = 85",
+      "survival = adaptation + environment"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "adaptation = 10",
+      "environment = 30",
+      "survival = adaptation + environment"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "adaptation = 22",
+      "environment = 68",
+      "survival = adaptation + environment"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "adaptation = 78",
+      "environment = 76",
+      "survival = adaptation + environment"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "survival = adaptation + environment"
+   ]
+  },
+  {
+   "id": "fesc.9.2.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "terrestrial = 81",
+      "aquatic = 23",
+      "habitat = terrestrial + aquatic"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "terrestrial = 27",
+      "aquatic = 52",
+      "habitat = terrestrial + aquatic"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "terrestrial = 29",
+      "aquatic = 53",
+      "habitat = terrestrial + aquatic"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "terrestrial = 31",
+      "aquatic = 39",
+      "habitat = terrestrial + aquatic"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "terrestrial = 83",
+      "aquatic = 60",
+      "habitat = terrestrial + aquatic"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "terrestrial = 19.9",
+      "aquatic = 24",
+      "habitat = terrestrial + aquatic"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "habitat = terrestrial + aquatic"
+   ]
+  },
+  {
+   "id": "fesc.9.2.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "biotic_components = 23",
+      "abiotic_components = 23",
+      "ecosystem = biotic_components + abiotic_components"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "biotic_components = 6.4",
+      "abiotic_components = 87",
+      "ecosystem = biotic_components + abiotic_components"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "biotic_components = 5.8",
+      "abiotic_components = 67",
+      "ecosystem = biotic_components + abiotic_components"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "biotic_components = 69",
+      "abiotic_components = 23",
+      "ecosystem = biotic_components + abiotic_components"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "biotic_components = 53",
+      "abiotic_components = 52",
+      "ecosystem = biotic_components + abiotic_components"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "biotic_components = 83",
+      "abiotic_components = 86",
+      "ecosystem = biotic_components + abiotic_components"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "ecosystem = biotic_components + abiotic_components"
+   ]
+  }
+ ]
+}

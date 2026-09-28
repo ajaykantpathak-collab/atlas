@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a spring, a block, and a rough horizontal surface to verify that the work done by the spring force depends only on the initial and final positions, not the path taken. Describe the procedure, measurements needed, and how you would analyze the data.",
      "a": "Procedure: (1) Attach a spring (\\(k\\) known) to a block on a rough surface. (2) Pull block to \\(x_i = +0.2 \\text{ m}\\) and release; measure stopping position \\(x_f\\) using a scale. (3) Repeat but this time push the block past equilibrium to \\(x = -0.1 \\text{ m}\\) before letting it go (same initial \\(x_i\\), different path). (4) Measure final \\(x_f\\) again. (5) Calculate \\(W_s = \\frac{1}{2}k(x_i^2 - x_f^2)\\) for both trials. (6) Also calculate work done by friction \\(W_f = -\\mu mg \\times \\text{total path length}\\) (different for each path). (7) Use work-energy theorem: \\(W_s + W_f = \\Delta K = 0\\) (starts and ends at rest). If \\(W_s\\) is same for both trials despite different path lengths (and different \\(W_f\\)), it confirms spring work is path-independent. A poor answer would ignore friction or fail to measure total path length, showing the student doesn't understand how to isolate the spring force work in a non-conservative system.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The negative sign indicates the spring force always opposes the ______, doing negative work when the spring is stretched or compressed from equilibrium, and positive work when returning toward equilibrium.",
+     "a": "displacement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a common door closer or a spring-loaded pen in your classroom — when you push the door or click the pen, you feel a resisting force that increases the more you ______ the spring.",
+     "a": "compress",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the work done by a spring force for any given initial and final displacements using both the integral formula and the area-under-graph method, correctly handling the sign convention.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a common door closer or a spring-loaded pen in your ______ — when you push the door or click the pen, you feel a resisting force that increases the more you compress the spring.",
+     "a": "classroom",
+     "self_check": true
     }
    ]
   }

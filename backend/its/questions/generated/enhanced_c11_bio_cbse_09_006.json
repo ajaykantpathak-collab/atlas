@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using potato tuber (source of catalase) and hydrogen peroxide to demonstrate the effect of temperature on enzyme activity. Specify the independent variable, dependent variable, two controlled variables, and the expected graph shape.",
      "a": "Independent variable: Temperature (e.g., 10, 20, 30, 40, 50, 60°C). Dependent variable: Volume of O2 gas evolved per minute (or time for filter paper disc to rise). Controlled variables: Same potato mass/volume, same H2O2 concentration, same pH buffer, same reaction time. Expected graph: Bell-shaped curve peaking at ~35-40°C (optimum), declining sharply at 50-60°C due to denaturation. A poor answer (e.g., \"measure bubbles at different temperatures\") lacks quantitative dependent variable, controls, or prediction of the decline phase, showing inability to design a controlled investigation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Enzyme kinetics is the quantitative study of how the rate of an enzyme-catalysed reaction changes in response to variations in temperature, pH, substrate ______, and the presence of inhibitors or activators, reflecting the dynamic interplay between enzyme tertiary structure and catalytic efficiency.",
+     "a": "concentration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how milk curdles faster in summer than in winter — this everyday phenomenon is driven by ______-dependent enzyme (rennin) activity.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "What is Enzyme kinetics? State the definition given in this lesson.",
+     "a": "Enzyme kinetics is the quantitative study of how the rate of an enzyme-catalysed reaction changes in response to variations in temperature, pH, substrate concentration, and the presence of inhibitors or activators, reflecting the dynamic interplay between enzyme tertiary structure and catalytic efficiency.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Enzyme kinetics?",
+     "a": "Students believe that at low temperatures enzymes are 'killed' or permanently destroyed, just like at high temperatures.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can interpret a Michaelis-Menten style velocity vs. substrate concentration curve to identify Vmax and Km, explain the molecular basis for the decline in enzyme activity at temperatures above the optimum, and predict the effect of a competitive vs. non-competitive inhibitor on Vmax and Km with justification.",
+     "self_check": true
     }
    ]
   }

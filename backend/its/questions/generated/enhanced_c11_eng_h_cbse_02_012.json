@@ -34,6 +34,26 @@
      "q": "Create a new inferential question based on the text that requires synthesizing clues from at least two different sections of the narrative. Provide the question and a model answer outline.",
      "a": "Question: \"How does the narrator's leadership evolve from the moment the wave hits (January 2) to the morning of January 6? Support with evidence.\" Model outline: (1) Initial reaction: instinctive survival (grabs wheel, lines up stern) — Section 2. (2) Transition: delegates wheel to Mary, repairs hull, manages pumps — shows tactical thinking. (3) Crisis management: improvises sea anchor (heave-to), calculates position with faulty compass — shows innovation under constraint. (4) Psychological leadership: absorbs children's fear, converts it to resolve (\"determined to fight\") — shows emotional intelligence. (5) Final phase: trusts crew, accepts children's sighting — shows collaborative command. A poor answer listing only actions without tracing the evolution reveals inability to track character development across narrative time.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal comprehension questions require retrieving explicitly stated facts, details, or sequences directly from the text, while inferential comprehension questions demand logical deduction, synthesis of implicit clues, and ______ of authorial intent beyond surface-level information.",
+     "a": "interpretation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're in the exam hall and see a question: \"Why did Sue not complain about her ______ earlier?\" Your first instinct might be to guess, but the text holds the answer if you know where to look.",
+     "a": "injuries",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently distinguish between literal and inferential question types, locate precise textual evidence for literal answers, and construct logically justified inferences by synthesizing multiple textual clues with contextual knowledge, producing board-exam standard answers using the Point-Evidence-Explanation structure.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're in the exam hall and see a question: \"Why did Sue not ______ about her injuries earlier?\" Your first instinct might be to guess, but the text holds the answer if you know where to look.",
+     "a": "complain",
+     "self_check": true
     }
    ]
   }

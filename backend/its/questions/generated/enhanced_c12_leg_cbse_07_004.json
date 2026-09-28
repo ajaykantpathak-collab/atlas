@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_07_004",
+   "title": "c12_leg_cbse_07_004",
+   "questions": [
+    {
+     "q": "What is the statutory limitation period for filing an Application before the National Green Tribunal (NGT) challenging an Environmental Clearance (EC) granted by the MoEF&CC, and what is the maximum extension the NGT can grant?",
+     "a": "The limitation period is **30 days** from the date of the EC order (or communication of the decision), extendable by a further **60 days** (total 90 days) at the discretion of the NGT if sufficient cause is shown (Section 16(3) NGT Act, 2010). A wrong answer (e.g., \"90 days straight\" or \"1 year like writs\") reveals the student confuses NGT's special statutory limitation with the general writ jurisdiction discretion under Articles 32/226, or misses that the 60-day extension is **not automatic** but requires \"sufficient cause\" — a critical distinction in competitive exams where procedural defaults are fatal.",
+     "self_check": true
+    },
+    {
+     "q": "A company obtains an Environmental Clearance (EC) for a thermal power plant. The Public Hearing was conducted, but the proceedings were not video-recorded as mandated by the EIA Notification 2006 (Appendix IV). Affected villagers want to challenge the EC. Explain why they **must** approach the NGT first and cannot directly file a Writ Petition under Article 226 in the High Court.",
+     "a": "Under Section 16 read with Section 29 of the NGT Act, 2010, the NGT has **exclusive original jurisdiction** over \"substantial questions relating to environment\" arising from the implementation of the enactments in Schedule I (which includes the EPA 1986 and EIA Notification). The High Court’s writ jurisdiction under Article 226 is **barred** for such matters (subject to the Supreme Court’s appellate jurisdiction under Section 22). A wrong answer (e.g., \"they can choose either forum\" or \"High Court is faster\") reveals ignorance of the **statutory ouster of jurisdiction** — a deliberate legislative design to ensure specialized environmental adjudication. This is a frequent board/competitive exam trap: students cite *L. Chandra Kumar* (tribunals subject to HC writs) but forget NGT Act Section 29 creates a **complete code** for Schedule I matters.",
+     "self_check": true
+    },
+    {
+     "q": "An NGO files a PIL in the Supreme Court under Article 32 against a State Government for failing to implement the Solid Waste Management Rules, 2016. The State objects: \"The NGO has no locus standi — it is not an 'aggrieved person'.\" How should the Court rule, and on what precedent?",
+     "a": "The Court will **reject the objection**. In environmental PILs, the strict rule of *locus standi* (aggrieved person) is **relaxed**; any \"public-spirited citizen\" or organization can file on behalf of affected communities who cannot approach the court due to poverty/disability (*S.P. Gupta v. Union of India*; *Rural Litigation Entitlement Kendra v. State of UP*). The NGO need only show the issue involves a **breach of public duty** affecting the environment. A wrong answer (\"locus standi is mandatory\") reveals the student applies civil procedure (Order 1 Rule 8 CPC) or general writ law to PIL, ignoring the **judicially evolved exception** for environmental justice — a hallmark of the \"Processes and Procedures\" node.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the **standard of proof** required in: (a) A criminal prosecution under Section 15 EPA 1986 (pollution offence) vs (b) An Application before NGT for compensation/restoration under Section 16 NGT Act. Why does this difference exist?",
+     "a": "(a) Criminal prosecution (EPA S.15): **Beyond reasonable doubt** — strict, because liberty is at stake (imprisonment up to 5 years + fine). (b) NGT Application (Civil): **Preponderance of probabilities** (balance of probabilities) — lower threshold, because the remedy is compensatory/restorative (damages, restoration, injunction), not penal. The difference exists because NGT is a **civil tribunal** (Section 19 NGT Act: \"proceedings before the Tribunal shall be deemed to be judicial proceedings... but the Tribunal shall not be bound by the procedure laid down by the Code of Civil Procedure... or the Indian Evidence Act\"). A wrong answer (\"both need beyond reasonable doubt\") conflates penal and civil environmental liability — a critical error in both board \"distinguish\" questions and competitive exam caselets.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this strategy: \"A factory is polluting a river. The affected villagers should first file a criminal complaint under Section 15 EPA 1986 in the Magistrate's court, because it puts the polluter in jail quickly.\" Is this effective for **sustainable development** outcomes? Justify.",
+     "a": "**Ineffective strategy.** (1) Criminal trial under EPA S.15 is **slow** (years in Magistrate court), requires **beyond reasonable doubt**, and only punishes — it does **not** order cleanup, restoration, or compensation to villagers. (2) Sustainable Development demands **remediation** (Polluter Pays Principle) and **prevention** (Precautionary Principle) — achieved via NGT Application (Section 16) for **restoration + compensation + injunction** in a **time-bound**, **expert-driven** forum. (3) Criminal complaint can run **parallel** but cannot replace civil remedy. A wrong answer (\"criminal is stronger\") reveals the student confuses **punishment** with **environmental justice** — the core of \"Processes and Procedures\" is choosing the **right remedy for the right goal**.",
+     "self_check": true
+    },
+    {
+     "q": "Design a **procedural checklist** (5 steps) for a lawyer representing a tribal community whose forest land is being diverted for a mining project without their Free, Prior, and Informed Consent (FPIC) under the FRA 2006. The checklist must sequence the correct forums, limitation periods, and evidence required at each stage.",
+     "a": "**Checklist:**\n1. **Gram Sabha Resolution + FPIC Record** (Evidence: Video minutes, attendance register, FRA Form) — *Pre-requisite for any challenge.*\n2. **Representation to MoEF&CC / State Govt** during Stage-I/Stage-II Forest Clearance (FC) process — *Administrative remedy exhaustion.*\n3. **Appeal to NGT under Section 16 NGT Act** within **30 days** (extendable 60) of FC order — *Plead: Violation of FRA 2006 (S.4(5)), EIA Notification (Public Hearing), Niyamgiri precedent (Orissa Mining Corp v. MoEF).*\n4. **Interim Application (IA) for Stay** on diversion/construction — *NGT's wide powers under Section 19/20.*\n5. **If NGT dismisses → Appeal to Supreme Court under Section 22 NGT Act within 90 days** — *Question of Law on FRA compliance.*\nA poor answer (missing FRA linkage, wrong limitation, suggesting High Court writ first) reveals the student cannot **integrate sectoral laws (FRA, EIA, NGT Act)** into a coherent procedural strategy — the essence of this node.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

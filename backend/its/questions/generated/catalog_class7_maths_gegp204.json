@@ -4,15 +4,8 @@
   {
    "id": "gegp2.4.1",
    "title": "Decimals: Beyond the Point, Again",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "line up and combine the decimal values",
-     "explain": "line up and combine the decimal values: val = 8 + 4 / 10 + 3 / 100 gives 8.43",
-     "compute": "val = 8 + 4 / 10 + 3 / 100"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the number with 8 units, 4 tenths and 3 hundredths as a decimal.",
@@ -50,6 +43,8 @@
    "id": "gegp2.4.2",
    "title": "Multiplying Decimals by Powers of Ten",
    "converted_to_compute": false,
+   "formula": "result = d * k",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the number with 1 units, 9 tenths and 6 hundredths as a decimal.",
@@ -87,6 +82,8 @@
    "id": "gegp2.4.3",
    "title": "Adding and Subtracting Decimals",
    "converted_to_compute": false,
+   "formula": "result = a + b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the number with 4 units, 5 tenths and 6 hundredths as a decimal.",
@@ -123,15 +120,8 @@
   {
    "id": "gegp2.4.4",
    "title": "Comparing and Ordering Decimals",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "line up and combine the decimal values",
-     "explain": "line up and combine the decimal values: val = 9 + 9 / 10 + 5 / 100 gives 9.95",
-     "compute": "val = 9 + 9 / 10 + 5 / 100"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the number with 9 units, 9 tenths and 5 hundredths as a decimal.",

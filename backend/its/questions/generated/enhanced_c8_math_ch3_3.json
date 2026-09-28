@@ -34,6 +34,26 @@
      "q": "Design a modified tally system for a base-6 grouping (instead of base-5). Describe how you would represent the sixth mark and explain one advantage and one disadvantage compared to the standard base-5 tally.",
      "a": "For base-6, we could use five vertical marks and the sixth as a diagonal crossing all five, or a different symbol like a horizontal line. Advantage: Might align with base-6 systems (like time: 60 seconds = 1 minute). Disadvantage: Subitizing limit is around 5, so recognizing a group of 6 at a glance is harder, increasing counting errors. A poor answer would not address the cognitive aspect of subitizing.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The tally system is a counting method where each item is ______ by a mark (typically a vertical line), and grouping organizes these marks into sets (usually of five) to simplify counting large quantities.",
+     "a": "represented",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a shopkeeper in a busy market ______ customers entering your shop throughout the day.",
+     "a": "counting",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how tally marks and grouping by fives work, convert between tally representations and numerical quantities, and justify why grouping (especially in fives) is an efficient precursor to place value systems.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ in a busy market counting customers entering your shop throughout the day.",
+     "a": "shopkeeper",
+     "self_check": true
     }
    ]
   }

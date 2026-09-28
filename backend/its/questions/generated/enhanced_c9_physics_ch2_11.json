@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a smartphone and a toy car on a ramp to verify the equation s = ut + ½at². Describe the measurements you would take, how you would process the data, and what graph you would plot to confirm the quadratic relationship.",
      "a": "Place the phone at the bottom of the ramp to record a video of the car rolling down. Mark positions every 0.2 s using video analysis (or use a sensor app). Measure displacement s from the start at each time t. Plot s versus t; the curve should be a parabola. To verify the equation, plot s versus t²: if s = ½a t² (since u=0), the graph should be a straight line through origin with slope = ½a. A poor answer would only say \"measure distance and time\" without specifying how to extract the quadratic dependence or how to handle initial velocity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Kinematic problem solving in straight line motion is the systematic application of the three equations of motion (v = u + at, s = ut + ½at², v² = u² + 2as) to determine unknown quantities (______, velocity, acceleration, time) for an object moving along a straight line with constant acceleration.",
+     "a": "displacement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a car at a traffic signal on a straight road: when the light turns green, the driver presses the accelerator and the car speeds up ______.",
+     "a": "uniformly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Kinematic problem solving in straight line motion is the systematic application of the three equations of motion (v = u + at, s = ut + ½at², v² = u² + ______as) to determine unknown quantities (displacement, velocity, acceleration, time) for an object moving along a straight line with constant acceleration.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can solve multi-step numerical problems involving constant acceleration by correctly identifying given quantities, choosing the right equation of motion, performing unit-consistent calculations, and verifying the physical reasonableness of the answer.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a car at a traffic signal on a straight road: when the light turns green, the driver presses the ______ and the car speeds up uniformly.",
+     "a": "accelerator",
+     "self_check": true
     }
    ]
   }

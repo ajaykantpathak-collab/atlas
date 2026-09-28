@@ -34,6 +34,31 @@
      "q": "Create a real-world scenario involving a temperature change that results in a final value of 0 degrees Celsius.",
      "a": "A good response would be: \"The temperature started at -4 degrees and rose by 4 degrees.\" A poor response would involve non-integer values or fail to demonstrate the \"inverse\" relationship needed to reach zero.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Problem solving with integers involves using positive and negative numbers to represent real-world changes, such as gains/losses, ______ above/below zero, or movements in a building or mine.",
+     "a": "temperatures",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in an elevator in a ______ that has floors below ground level.",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If you then go up five floors, you add (+______) to your position.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to translate a word problem into an integer expression, correctly apply addition or subtraction based on the context (direction of movement), and identify the final position on a number line.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in an ______ in a building that has floors below ground level.",
+     "a": "elevator",
+     "self_check": true
     }
    ]
   }

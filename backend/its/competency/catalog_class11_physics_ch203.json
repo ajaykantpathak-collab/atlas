@@ -51,7 +51,16 @@
      "solution": "Step 1: convert celsius to fahrenheit scale. Step 2: verify the result against known reference points. Step 3: express the final fahrenheit temperature with units. Working: (9 / 5) * t_c + 32, t_f.",
      "answer": "The method of temperature scale conversion between celsius and fahrenheit leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "t_F = (9/5) * t_C + 32",
+     "compute": "t_F = (9/5) * t_C + 32"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.203.2",
@@ -99,7 +108,16 @@
      "solution": "Step 1: add offset to obtain kelvin temperature. Step 2: verify the result is non-negative. Step 3: express the final kelvin temperature with units. Working: t_c + 273.15, t_k.",
      "answer": "The method of kelvin and celsius absolute temperature relation leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "T = t_C + 273.15",
+     "compute": "T = t_C + 273.15"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.203.3",
@@ -148,7 +166,16 @@
      "solution": "Step 1: calculate change in length. Step 2: compute the final length of the rod. Step 3: express the final length with units. Working: alpha_l * l * delta_t, l + delta_l, l_final.",
      "answer": "The method of linear thermal expansion leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "delta_l = alpha_l * l * delta_T",
+     "compute": "delta_l = alpha_l * l * delta_T"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.203.4",
@@ -197,7 +224,16 @@
      "solution": "Step 1: compute change in volume. Step 2: compute the final volume. Step 3: express the final volume with units. Working: alpha_v * v * delta_t, v + delta_v, v_final.",
      "answer": "The method of volume thermal expansion leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "delta_V = alpha_v * V * delta_T",
+     "compute": "delta_V = alpha_v * V * delta_T"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.203.5",
@@ -246,7 +282,16 @@
      "solution": "Step 1: compute thermal strain. Step 2: compute thermal stress. Step 3: compute the restraining force on the rod. Working: alpha_l * delta_t, young_modulus * strain, thermal_stress * area.",
      "answer": "The method of thermal stress in rigidly fixed rods leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "thermal_stress = Y * alpha_l * delta_T",
+     "compute": "thermal_stress = Y * alpha_l * delta_T"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.203.6",
@@ -294,7 +339,16 @@
      "solution": "Step 1: compute heat quantity. Step 2: determine the sign of heat transfer. Step 3: express the heat quantity with units. Working: m * s * delta_t, q.",
      "answer": "The method of heat capacity and specific heat capacity leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "Q = m * s * delta_T",
+     "compute": "Q = m * s * delta_T"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.203.7",
@@ -311,7 +365,7 @@
     "solve calorimetry problem with water and metal sample",
     "calculate equilibrium state when hot body is placed in cold liquid"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -329,7 +383,16 @@
      "action": "verify that the final temperature lies between the initial temperatures",
      "explain": "the equilibrium temperature must fall between the hottest and coldest initial temperatures confirming a valid thermal balance"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "heat_lost = heat_gained",
+     "compute": "heat_lost = heat_gained"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.203.8",
@@ -377,7 +440,16 @@
      "solution": "Step 1: compute heat transferred in phase change. Step 2: verify the temperature remains constant during the transition. Step 3: express the heat transferred with units. Working: m * latent_heat, q.",
      "answer": "The method of latent heat of phase change leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "Q = m * L",
+     "compute": "Q = m * L"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.203.9",
@@ -426,7 +498,16 @@
      "solution": "Step 1: compute heat flow rate. Step 2: verify the temperature gradient direction. Step 3: express the heat flow rate with units. Working: k * a * delta_t / l, delta_t / l, h.",
      "answer": "The method of thermal conduction rate in steady state leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "H = K * A * delta_T / L",
+     "compute": "H = K * A * delta_T / L"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.203.10",
@@ -481,7 +562,7 @@
    "title": "Stefan Boltzmann Law of Radiation",
    "section": "10.9.4",
    "definition": "Radiative power emitted by a body is proportional to its surface area, emissivity, and fourth power of absolute temperature.",
-   "formula": "H = e * sigma * A * T**4",
+   "formula": "H = emissivity * 5.67e-8 * A * T**4",
    "key_idea": "Radiant heat energy loss rapidly escalates with absolute temperature raised to fourth power.",
    "textbook_ref": "keph203.txt lines 560-610",
    "question_patterns": [
@@ -523,7 +604,16 @@
      "solution": "Step 1: compute fourth power of temperature. Step 2: compute total emitted radiation power. Step 3: express the radiated power with units. Working: temp ** 4, e * sigma * a * t4, h.",
      "answer": "The method of stefan boltzmann law of radiation leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "H = emissivity * 5.67e-8 * A * T**4",
+     "compute": "H = emissivity * 5.67e-8 * A * T**4"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.203.12",

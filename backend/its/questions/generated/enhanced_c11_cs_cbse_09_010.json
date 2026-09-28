@@ -17,7 +17,7 @@
     },
     {
      "q": "Write a Python program that creates a binary file `data.bin`, writes the bytes `b'Python'` followed by the integer 2025 encoded as 4 bytes in big-endian format, then reads the file back and prints the integer value. Use `int.to_bytes()` and `int.from_bytes()`.",
-     "a": "```python",
+     "a": "```python\n# Writing\nwith open('data.bin', 'wb') as f:\n    f.write(b'Python')\n    f.write((2025).to_bytes(4, byteorder='big'))\n\n# Reading\nwith open('data.bin', 'rb') as f:\n    f.read(6)  # skip b'Python'\n    year_bytes = f.read(4)\n    year = int.from_bytes(year_bytes, byteorder='big')\n    print(year)  # Output: 2025\n```\nA wrong answer (e.g., using `str(2025).encode()` or wrong byte order) reveals the student cannot convert between integers and byte representations, a core skill for low-level binary I/O. They may also forget to specify `byteorder` or use incorrect length (4 bytes for 2025 fits in 2 bytes, but 4 is specified).",
      "self_check": true
     },
     {
@@ -33,6 +33,21 @@
     {
      "q": "Design a Python function `append_pickle_objects(filename, objects_list)` that appends multiple Python objects to a binary file using `pickle`, one after another. Then write a second function `read_all_pickle_objects(filename)` that reads all objects back into a list, handling the end-of-file condition gracefully. Provide the complete implementation.",
      "a": "```python\nimport pickle\n\ndef append_pickle_objects(filename, objects_list):\n    with open(filename, 'ab') as f:  # 'ab' appends without truncating\n        for obj in objects_list:\n            pickle.dump(obj, f)\n\ndef read_all_pickle_objects(filename):\n    objects = []\n    with open(filename, 'rb') as f:\n        while True:\n            try:\n                obj = pickle.load(f)\n                objects.append(obj)\n            except EOFError:\n                break\n    return objects\n```\nA poor answer (e.g., using `'wb'` in append function, or not catching `EOFError`, or trying to `pickle.load()` the whole file at once) reveals the student does not understand that `pickle.dump()` writes a self-contained byte stream per object, requiring iterative `load()` calls until `EOFError`, and that append mode `'ab'` is essential to preserve existing pickled objects.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Binary files store data as raw bytes (0s and 1s) without any character encoding translation, allowing direct ______ of non-text data like images, audio, serialized objects, and executable code.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a simple game where you need to save the player's high score, ______ items, and current level progress to a file so the game can resume later.",
+     "a": "inventory",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write a complete Python program that opens a binary file in the correct mode, writes a sequence of bytes or pickled objects to it, reads the data back accurately, and uses seek()/tell() to navigate the file pointer for random access.",
      "self_check": true
     }
    ]

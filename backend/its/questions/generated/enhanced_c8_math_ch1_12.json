@@ -34,6 +34,21 @@
      "q": "Create a real-life problem (using Indian context: rupees, metres, litres) where finding a cube root is necessary to solve it. The problem must involve a perfect cube between 1,000 and 10,000.",
      "a": "Example: A school wants to store 4,096 litres of water in a cubical tank. What should be the side length of the tank in metres? (Note: 1 m³ = 1000 litres). Solution: Volume = 4.096 m³. Side = \\(\\sqrt[3]{4.096} = \\sqrt[3]{4096/1000} = \\sqrt[3]{4096}/\\sqrt[3]{1000} = 16/10 = 1.6\\) m. A poor answer might give a problem requiring square root or use a non-perfect cube, showing the student cannot distinguish between area (square) and volume (cube) contexts or identify perfect cubes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The cube root of a number is the value that, when ______ by itself three times, gives the original number.",
+     "a": "multiplied",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a cubical box that can hold exactly 1,728 cubic ______ of sand.",
+     "a": "centimetres",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can find the cube root of a perfect cube using prime factorisation and the inverse relationship, explain why the cube root of a negative number is negative, and apply the concept to solve volume problems where the side length of a cube is unknown.",
+     "self_check": true
     }
    ]
   }

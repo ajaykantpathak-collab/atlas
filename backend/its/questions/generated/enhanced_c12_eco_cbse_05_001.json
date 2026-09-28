@@ -34,6 +34,31 @@
      "q": "Construct a real-world example of a market (Indian context) where you observe a persistent shortage. Identify the price, the equilibrium price (estimated), and explain why the market price does not rise to clear the market.",
      "a": "Example: Government-subsidized PDS (Public Distribution System) rice at ₹3/kg when the open-market equilibrium price is ₹35/kg. At ₹3/kg, quantity demanded far exceeds quantity supplied (shortage). The price cannot rise because it is legally fixed by the government (price ceiling). Rationing, queues, and black markets emerge as non-price allocation mechanisms. A good answer must name a specific price-controlled market, state both prices, and explain the binding price ceiling prevents the price adjustment mechanism. A poor answer describes a temporary shortage (e.g., onions during a crop failure) where price *does* rise, confusing disequilibrium with equilibrium.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Market equilibrium is a state in a ______ market where the quantity demanded by buyers exactly equals the quantity supplied by sellers at a particular price, known as the equilibrium price.",
+     "a": "competitive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you go to your ______ vegetable mandi on a Saturday morning.",
+     "a": "local",
+     "self_check": true
+    },
+    {
+     "q": "What is Market equilibrium? State the definition given in this lesson.",
+     "a": "Market equilibrium is a state in a competitive market where the quantity demanded by buyers exactly equals the quantity supplied by sellers at a particular price, known as the equilibrium price.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Market equilibrium?",
+     "a": "Students often believe that \"equilibrium price is the price at which everyone who wants the good can buy it.\" This is wrong because at equilibrium price, only those willing to pay that price buy the good — consumers with lower willingness to pay are excluded.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) algebraically solve for equilibrium price and quantity given linear demand and supply functions, (2) graphically identify equilibrium as the intersection of demand and supply curves, and (3) explain why any price above or below equilibrium creates market forces that push the price back toward equilibrium.",
+     "self_check": true
     }
    ]
   }

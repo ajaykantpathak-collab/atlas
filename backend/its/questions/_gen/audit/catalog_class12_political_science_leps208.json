@@ -1,0 +1,479 @@
+{
+ "catalog": "catalog_class12_political_science_leps208.json",
+ "concepts": [
+  {
+   "id": "leps.208.1.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "congress_decline_1989 = 3.7",
+      "mandal_issue = 3.4",
+      "new_economic_reforms = 91",
+      "ayodhya_movement = 65",
+      "rajiv_gandhi_assassination = 30",
+      "nineties_turning_points = congress_decline_1989 + mandal_issue + new_economic_reforms + ayodhya_movement + rajiv_gandhi_assassination"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "congress_decline_1989 = 76",
+      "mandal_issue = 11.9",
+      "new_economic_reforms = 12.6",
+      "ayodhya_movement = 69",
+      "rajiv_gandhi_assassination = 105",
+      "nineties_turning_points = congress_decline_1989 + mandal_issue + new_economic_reforms + ayodhya_movement + rajiv_gandhi_assassination"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "congress_decline_1989 = 61",
+      "mandal_issue = 4.5",
+      "new_economic_reforms = 12",
+      "ayodhya_movement = 17.9",
+      "rajiv_gandhi_assassination = 10.8",
+      "nineties_turning_points = congress_decline_1989 + mandal_issue + new_economic_reforms + ayodhya_movement + rajiv_gandhi_assassination"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "congress_decline_1989 = 40",
+      "mandal_issue = 38",
+      "new_economic_reforms = 82",
+      "ayodhya_movement = 57",
+      "rajiv_gandhi_assassination = 69",
+      "nineties_turning_points = congress_decline_1989 + mandal_issue + new_economic_reforms + ayodhya_movement + rajiv_gandhi_assassination"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "congress_decline_1989 = 97",
+      "mandal_issue = 17.9",
+      "new_economic_reforms = 73",
+      "ayodhya_movement = 20",
+      "rajiv_gandhi_assassination = 58",
+      "nineties_turning_points = congress_decline_1989 + mandal_issue + new_economic_reforms + ayodhya_movement + rajiv_gandhi_assassination"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "congress_decline_1989 = 33",
+      "mandal_issue = 16.2",
+      "new_economic_reforms = 55",
+      "ayodhya_movement = 59",
+      "rajiv_gandhi_assassination = 3.3",
+      "nineties_turning_points = congress_decline_1989 + mandal_issue + new_economic_reforms + ayodhya_movement + rajiv_gandhi_assassination"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "congress_decline_1989 = 3.7",
+    "mandal_issue = 3.4",
+    "new_economic_reforms = 91",
+    "ayodhya_movement = 65",
+    "rajiv_gandhi_assassination = 30",
+    "nineties_turning_points = congress_decline_1989 + mandal_issue + new_economic_reforms + ayodhya_movement + rajiv_gandhi_assassination"
+   ]
+  },
+  {
+   "id": "leps.208.2.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "national_front_1989 = 88",
+      "united_front_1996 = 27",
+      "nda_1999 = 94",
+      "upa_2004 = 63",
+      "coalition_era = national_front_1989 + united_front_1996 + nda_1999 + upa_2004"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "national_front_1989 = 76",
+      "united_front_1996 = 11.5",
+      "nda_1999 = 48",
+      "upa_2004 = 91",
+      "coalition_era = national_front_1989 + united_front_1996 + nda_1999 + upa_2004"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "national_front_1989 = 79",
+      "united_front_1996 = 53",
+      "nda_1999 = 12.6",
+      "upa_2004 = 4.8",
+      "coalition_era = national_front_1989 + united_front_1996 + nda_1999 + upa_2004"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "national_front_1989 = 86",
+      "united_front_1996 = 41",
+      "nda_1999 = 72",
+      "upa_2004 = 37",
+      "coalition_era = national_front_1989 + united_front_1996 + nda_1999 + upa_2004"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "national_front_1989 = 38",
+      "united_front_1996 = 1.2",
+      "nda_1999 = 49",
+      "upa_2004 = 22",
+      "coalition_era = national_front_1989 + united_front_1996 + nda_1999 + upa_2004"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "national_front_1989 = 110",
+      "united_front_1996 = 27",
+      "nda_1999 = 15.1",
+      "upa_2004 = 77",
+      "coalition_era = national_front_1989 + united_front_1996 + nda_1999 + upa_2004"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "national_front_1989 = 88",
+    "united_front_1996 = 27",
+    "nda_1999 = 94",
+    "upa_2004 = 63",
+    "coalition_era = national_front_1989 + united_front_1996 + nda_1999 + upa_2004"
+   ]
+  },
+  {
+   "id": "leps.208.4.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "bamcef_1978 = 78",
+      "ds4 = 40",
+      "bsp_1984_kanshi_ram = 78",
+      "dalit_mobilisation = bamcef_1978 + ds4 + bsp_1984_kanshi_ram"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "bamcef_1978 = 53",
+      "ds4 = 82",
+      "bsp_1984_kanshi_ram = 23",
+      "dalit_mobilisation = bamcef_1978 + ds4 + bsp_1984_kanshi_ram"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "bamcef_1978 = 65",
+      "ds4 = 23",
+      "bsp_1984_kanshi_ram = 77",
+      "dalit_mobilisation = bamcef_1978 + ds4 + bsp_1984_kanshi_ram"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "bamcef_1978 = 43",
+      "ds4 = 75",
+      "bsp_1984_kanshi_ram = 28",
+      "dalit_mobilisation = bamcef_1978 + ds4 + bsp_1984_kanshi_ram"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "bamcef_1978 = 79",
+      "ds4 = 65",
+      "bsp_1984_kanshi_ram = 5.7",
+      "dalit_mobilisation = bamcef_1978 + ds4 + bsp_1984_kanshi_ram"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "bamcef_1978 = 23",
+      "ds4 = 13.9",
+      "bsp_1984_kanshi_ram = 13",
+      "dalit_mobilisation = bamcef_1978 + ds4 + bsp_1984_kanshi_ram"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "bamcef_1978 = 78",
+    "ds4 = 40",
+    "bsp_1984_kanshi_ram = 78",
+    "dalit_mobilisation = bamcef_1978 + ds4 + bsp_1984_kanshi_ram"
+   ]
+  },
+  {
+   "id": "leps.208.5.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "gandhian_socialism_1980 = 16.4",
+      "cultural_nationalism = 11.6",
+      "hindutva_of_savarkar = 98",
+      "bjp_ideology_shift = gandhian_socialism_1980 + cultural_nationalism + hindutva_of_savarkar"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "gandhian_socialism_1980 = 14.8",
+      "cultural_nationalism = 5.7",
+      "hindutva_of_savarkar = 74",
+      "bjp_ideology_shift = gandhian_socialism_1980 + cultural_nationalism + hindutva_of_savarkar"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gandhian_socialism_1980 = 15.7",
+      "cultural_nationalism = 8.9",
+      "hindutva_of_savarkar = 98",
+      "bjp_ideology_shift = gandhian_socialism_1980 + cultural_nationalism + hindutva_of_savarkar"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "gandhian_socialism_1980 = 4.9",
+      "cultural_nationalism = 2.1",
+      "hindutva_of_savarkar = 4.4",
+      "bjp_ideology_shift = gandhian_socialism_1980 + cultural_nationalism + hindutva_of_savarkar"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "gandhian_socialism_1980 = 16.3",
+      "cultural_nationalism = 17.8",
+      "hindutva_of_savarkar = 59",
+      "bjp_ideology_shift = gandhian_socialism_1980 + cultural_nationalism + hindutva_of_savarkar"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "gandhian_socialism_1980 = 9.4",
+      "cultural_nationalism = 17",
+      "hindutva_of_savarkar = 96",
+      "bjp_ideology_shift = gandhian_socialism_1980 + cultural_nationalism + hindutva_of_savarkar"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "gandhian_socialism_1980 = 16.4",
+    "cultural_nationalism = 11.6",
+    "hindutva_of_savarkar = 98",
+    "bjp_ideology_shift = gandhian_socialism_1980 + cultural_nationalism + hindutva_of_savarkar"
+   ]
+  },
+  {
+   "id": "leps.208.7.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "upa_2004_and_2009 = 29",
+      "bjp_majorities_2014_and_2019 = 32",
+      "alliance_race_2004_2019 = upa_2004_and_2009 + bjp_majorities_2014_and_2019"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "upa_2004_and_2009 = 47",
+      "bjp_majorities_2014_and_2019 = 40",
+      "alliance_race_2004_2019 = upa_2004_and_2009 + bjp_majorities_2014_and_2019"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "upa_2004_and_2009 = 84",
+      "bjp_majorities_2014_and_2019 = 5.6",
+      "alliance_race_2004_2019 = upa_2004_and_2009 + bjp_majorities_2014_and_2019"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "upa_2004_and_2009 = 34",
+      "bjp_majorities_2014_and_2019 = 96",
+      "alliance_race_2004_2019 = upa_2004_and_2009 + bjp_majorities_2014_and_2019"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "upa_2004_and_2009 = 2.3",
+      "bjp_majorities_2014_and_2019 = 56",
+      "alliance_race_2004_2019 = upa_2004_and_2009 + bjp_majorities_2014_and_2019"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "upa_2004_and_2009 = 89",
+      "bjp_majorities_2014_and_2019 = 47",
+      "alliance_race_2004_2019 = upa_2004_and_2009 + bjp_majorities_2014_and_2019"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "upa_2004_and_2009 = 29",
+    "bjp_majorities_2014_and_2019 = 32",
+    "alliance_race_2004_2019 = upa_2004_and_2009 + bjp_majorities_2014_and_2019"
+   ]
+  },
+  {
+   "id": "leps.208.8.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "seats_won = 3.2",
+      "total_seats = 87",
+      "party_seat_share = seats_won / total_seats * 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "seats_won = 12.1",
+      "total_seats = 71",
+      "party_seat_share = seats_won / total_seats * 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "seats_won = 30",
+      "total_seats = 24",
+      "party_seat_share = seats_won / total_seats * 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "seats_won = 97",
+      "total_seats = 77",
+      "party_seat_share = seats_won / total_seats * 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "seats_won = 79",
+      "total_seats = 44",
+      "party_seat_share = seats_won / total_seats * 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "seats_won = 71",
+      "total_seats = 3.2",
+      "party_seat_share = seats_won / total_seats * 100"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "party_seat_share = seats_won / total_seats * 100"
+   ]
+  },
+  {
+   "id": "leps.208.9.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "new_economic_policies = 88",
+      "backward_caste_acceptance = 96",
+      "state_parties_role = 67",
+      "pragmatic_alliances = 97",
+      "post_1989_consensus = new_economic_policies + backward_caste_acceptance + state_parties_role + pragmatic_alliances"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "new_economic_policies = 28",
+      "backward_caste_acceptance = 16",
+      "state_parties_role = 74",
+      "pragmatic_alliances = 47",
+      "post_1989_consensus = new_economic_policies + backward_caste_acceptance + state_parties_role + pragmatic_alliances"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "new_economic_policies = 95",
+      "backward_caste_acceptance = 73",
+      "state_parties_role = 4.4",
+      "pragmatic_alliances = 62",
+      "post_1989_consensus = new_economic_policies + backward_caste_acceptance + state_parties_role + pragmatic_alliances"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "new_economic_policies = 20",
+      "backward_caste_acceptance = 31",
+      "state_parties_role = 10.4",
+      "pragmatic_alliances = 80",
+      "post_1989_consensus = new_economic_policies + backward_caste_acceptance + state_parties_role + pragmatic_alliances"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "new_economic_policies = 22",
+      "backward_caste_acceptance = 34",
+      "state_parties_role = 44",
+      "pragmatic_alliances = 25",
+      "post_1989_consensus = new_economic_policies + backward_caste_acceptance + state_parties_role + pragmatic_alliances"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "new_economic_policies = 53",
+      "backward_caste_acceptance = 66",
+      "state_parties_role = 95",
+      "pragmatic_alliances = 75",
+      "post_1989_consensus = new_economic_policies + backward_caste_acceptance + state_parties_role + pragmatic_alliances"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "new_economic_policies = 88",
+    "backward_caste_acceptance = 96",
+    "state_parties_role = 67",
+    "pragmatic_alliances = 97",
+    "post_1989_consensus = new_economic_policies + backward_caste_acceptance + state_parties_role + pragmatic_alliances"
+   ]
+  }
+ ]
+}

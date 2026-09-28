@@ -1,0 +1,245 @@
+{
+ "catalog": "catalog_class12_computer_science_lecs111.json",
+ "concepts": [
+  {
+   "id": "lecs111.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "pages = 32",
+      "chars_per_page = 43",
+      "bits_per_char = 53",
+      "seconds = 67",
+      "rate_bps = pages * chars_per_page * bits_per_char / seconds"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pages = 48",
+      "chars_per_page = 100",
+      "bits_per_char = 96",
+      "seconds = 63",
+      "rate_bps = pages * chars_per_page * bits_per_char / seconds"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "pages = 35",
+      "chars_per_page = 31",
+      "bits_per_char = 43",
+      "seconds = 56",
+      "rate_bps = pages * chars_per_page * bits_per_char / seconds"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "pages = 67",
+      "chars_per_page = 36",
+      "bits_per_char = 3.3",
+      "seconds = 4.3",
+      "rate_bps = pages * chars_per_page * bits_per_char / seconds"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "pages = 90",
+      "chars_per_page = 94",
+      "bits_per_char = 87",
+      "seconds = 72",
+      "rate_bps = pages * chars_per_page * bits_per_char / seconds"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "pages = 67",
+      "chars_per_page = 80",
+      "bits_per_char = 86",
+      "seconds = 23",
+      "rate_bps = pages * chars_per_page * bits_per_char / seconds"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "rate_bps = pages * chars_per_page * bits_per_char / seconds"
+   ]
+  },
+  {
+   "id": "lecs111.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "max_frequency = 409",
+      "min_frequency = 854",
+      "bandwidth = max_frequency - min_frequency"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "max_frequency = 698",
+      "min_frequency = 413",
+      "bandwidth = max_frequency - min_frequency"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "max_frequency = 380",
+      "min_frequency = 452",
+      "bandwidth = max_frequency - min_frequency"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "max_frequency = 679",
+      "min_frequency = 412",
+      "bandwidth = max_frequency - min_frequency"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "max_frequency = 44",
+      "min_frequency = 679",
+      "bandwidth = max_frequency - min_frequency"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "max_frequency = 327",
+      "min_frequency = 763",
+      "bandwidth = max_frequency - min_frequency"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "bandwidth = max_frequency - min_frequency"
+   ]
+  },
+  {
+   "id": "lecs111.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "gbps_value = 16.3",
+      "total_bps = gbps_value * 1024 ** 3"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "gbps_value = 69",
+      "total_bps = gbps_value * 1024 ** 3"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gbps_value = 10.3",
+      "total_bps = gbps_value * 1024 ** 3"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "gbps_value = 58",
+      "total_bps = gbps_value * 1024 ** 3"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "gbps_value = 17",
+      "total_bps = gbps_value * 1024 ** 3"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "gbps_value = 90",
+      "total_bps = gbps_value * 1024 ** 3"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_bps = gbps_value * 1024 ** 3"
+   ]
+  },
+  {
+   "id": "lecs111.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total_devices = 31",
+      "master = 72",
+      "slaves = 11.1",
+      "waiting = total_devices - (master + slaves)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total_devices = 48",
+      "master = 84",
+      "slaves = 92",
+      "waiting = total_devices - (master + slaves)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_devices = 13",
+      "master = 82",
+      "slaves = 63",
+      "waiting = total_devices - (master + slaves)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total_devices = 92",
+      "master = 88",
+      "slaves = 97",
+      "waiting = total_devices - (master + slaves)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "total_devices = 17",
+      "master = 25",
+      "slaves = 57",
+      "waiting = total_devices - (master + slaves)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total_devices = 0.8",
+      "master = 14",
+      "slaves = 23",
+      "waiting = total_devices - (master + slaves)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "waiting = total_devices - (master + slaves)"
+   ]
+  }
+ ]
+}

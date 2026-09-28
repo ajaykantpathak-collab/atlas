@@ -104,7 +104,16 @@
      "solution": "Step 1: Calculate the total labor force: labor_force = employed + unemployed_looking = 8.0 Step 2: Compute the unemployment rate: unemployment_rate = unemployed_looking / labor_force = 0.5 Final result: 0.5",
      "answer": "0.5"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "unemployment_rate = unemployed_looking / (employed + unemployed_looking)",
+     "compute": "unemployment_rate = unemployed_looking / (employed + unemployed_looking)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leec.101.4",
@@ -181,7 +190,16 @@
      "solution": "Step 1: Sum the factor payments: total_costs = rent + interest + wages = 12.0 Step 2: Subtract total costs from revenue: profit = revenue - total_costs = -9.0 Final result: -9.0",
      "answer": "-9.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "profit = revenue - rent - interest - wages",
+     "compute": "profit = revenue - rent - interest - wages"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leec.101.6",
@@ -257,7 +275,16 @@
      "solution": "Step 1: Subtract imports from exports: net_exports = exports - imports = 0.0 Final result: 0.0",
      "answer": "0.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_exports = exports - imports",
+     "compute": "net_exports = exports - imports"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

@@ -34,6 +34,21 @@
      "q": "Create a small data set of 5 numbers where the mode is 4.",
      "a": "A correct set would be 4, 4, 4, 1, 2. A poor answer like 4, 1, 2, 3, 5 shows a failure to ensure 4 appears more frequently than other numbers.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The mode is the value in a data set that ______ the most often.",
+     "a": "appears",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You could write down every student's ______ in a long list, but that would be messy.",
+     "a": "answer",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify the mode from an unorganized list of data by counting frequencies and confirm the result by showing the count for each value.",
+     "self_check": true
     }
    ]
   }

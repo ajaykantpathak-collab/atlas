@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_10_002",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_10_002",
+   "title": "c12_soc_cbse_10_002",
+   "questions": [
+    {
+     "q": "Define the term \"Basic Structure Doctrine\" and name the case in which it was first propounded.",
+     "a": "The Basic Structure Doctrine holds that Parliament's amending power under Article 368 cannot alter the Constitution's core features (e.g., supremacy of Constitution, democratic republic, secularism, separation of powers, federalism). It was first propounded in Kesavananda Bharati v. State of Kerala (1973). A wrong answer (e.g., \"it means fundamental rights cannot be amended\" or naming Golaknath) reveals confusion between the doctrine's scope (core features, not just Part III) and its judicial history (Golaknath held fundamental rights unamendable but did not articulate \"basic structure\").",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the Preamble is called the \"key to the Constitution\" and how the words \"socialist\" and \"secular\" came to be inserted.",
+     "a": "The Preamble encapsulates the Constitution's philosophy and objectives; it guides interpretation of ambiguous provisions. \"Socialist\" and \"secular\" were added by the 42nd Amendment (1976) during the Emergency to explicitly reflect the State's commitment to equitable distribution and religious neutrality—values already implicit in the Directive Principles and Articles 25–28. A wrong answer that says they were in the original 1950 text or that the Preamble is legally enforceable by itself shows misunderstanding of the Preamble's interpretive (not justiciable) role and the historical context of the 42nd Amendment.",
+     "self_check": true
+    },
+    {
+     "q": "A hypothetical Constitutional Amendment Bill seeks to replace the parliamentary system with a presidential system. Apply the Basic Structure Doctrine to decide if this amendment would be valid. Justify step-by-step.",
+     "a": "Step 1: Identify the core feature at stake—parliamentary democracy (executive responsible to legislature). Step 2: Recall that Kesavananda listed \"democratic form of government\" and \"parliamentary system\" as basic structure. Step 3: In Kihoto Hollohan (1992) and later cases, the Court upheld parliamentary democracy as basic structure. Step 4: Changing to a presidential system would alter the foundational governance architecture, violating the basic structure. Step 5: Therefore, the amendment would be struck down. A wrong answer that says \"Parliament can amend anything under Article 368\" ignores the judicial limitation established in 1973.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"procedure established by law\" (Article 21) with \"due process of law\" (US Constitution) and analyze how the Supreme Court expanded Article 21 to include substantive due process through the Basic Structure lens.",
+     "a": "\"Procedure established by law\" originally meant any legislated procedure (A.K. Gopalan, 1950). In Maneka Gandhi (1978), the Court read \"procedure\" as \"fair, just, and reasonable\"—effectively importing substantive due process. This expansion is anchored in the basic structure because the right to life/liberty is a core feature; any procedure that is arbitrary violates the Constitution's soul. A wrong answer that claims Article 21 always had due process or that the basic structure doctrine played no role misses the interpretive leap and its doctrinal anchoring.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the criticism that the Basic Structure Doctrine amounts to \"judicial supremacy\" over parliamentary sovereignty. Take a position and defend it with constitutional arguments.",
+     "a": "The doctrine is not judicial supremacy but constitutional supremacy: the Constitution is superior to both Parliament and the judiciary. The Court acts as guardian of the Constitution's identity, not as a rival legislature. Arguments: (1) Constituent power (Article 368) is delegated, not absolute; (2) The Preamble's \"We the People\" implies popular sovereignty, not parliamentary sovereignty; (3) Without basic structure, a majority could dismantle democracy itself (as attempted during Emergency). A weak answer merely repeats \"judges are unelected\" without engaging with the distinction between ordinary legislation and constitutional identity.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new hypothetical scenario where a constitutional amendment is challenged under the Basic Structure Doctrine. Describe the amendment, identify the basic structure element it threatens, and predict the Court's reasoning.",
+     "a": "Scenario: An amendment removes judicial review of constitutional amendments (by inserting a clause that Article 368 amendments cannot be questioned in any court). Threatened element: Judicial review / separation of powers / rule of law (all held basic structure in Minerva Mills, 1980). Prediction: The Court would strike it down because removing judicial review eliminates the Constitution's enforcement mechanism, making fundamental rights illusory and destroying the checks-and-balances architecture. A poor answer proposes an amendment that merely changes a non-core procedural detail (e.g., voting age) and claims it violates basic structure, showing inability to distinguish core from peripheral features.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Indian Constitution is the supreme legal document that ______ the framework of governance, defines fundamental political principles, and guarantees rights to citizens; its Preamble declares the sovereign, socialist, secular, democratic republic's objectives, while the Basic Structure Doctrine—evolved by the Supreme Court in Kesavananda Bharati (1973)—holds that Parliament cannot amend the Constitution's core features (e.g., supremacy of the Constitution, republican and democratic form, secularism, separation of powers, federalism).",
+     "a": "establishes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a lawyer arguing before the Supreme Court: a new ______ proposes to remove \"secular\" from the Preamble and make India a \"Hindu Rashtra\".",
+     "a": "amendment",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Indian Constitution is the supreme legal document that establishes the framework of governance, defines fundamental political principles, and guarantees rights to citizens; its Preamble declares the sovereign, socialist, secular, democratic republic's objectives, while the Basic Structure Doctrine—evolved by the Supreme Court in Kesavananda Bharati (______)—holds that Parliament cannot amend the Constitution's core features (e.g., supremacy of the Constitution, republican and democratic form, secularism, separation of powers, federalism).",
+     "a": "1973",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) explain each keyword of the Preamble with its constitutional significance, (2) list at least five salient features of the Constitution with examples, (3) articulate the Basic Structure Doctrine and trace its evolution through landmark cases, and (4) evaluate whether a hypothetical amendment would violate the basic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

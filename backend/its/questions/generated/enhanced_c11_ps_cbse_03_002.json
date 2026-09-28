@@ -34,6 +34,26 @@
      "q": "Create a two-column table with three rows. In each row, describe a real Indian situation where an inequality *appears* natural but is actually socially produced. For each, name the social mechanism (e.g., caste endogamy, gendered schooling, colonial land revenue) that produces it.",
      "a": "**Expected answer (criteria):** Three distinct Indian cases where surface \"natural\" difference masks social production. Example rows: (1) \"Lower Dalit literacy\" — appears like aptitude gap; mechanism: historic denial of education + current school segregation. (2) \"Women's lower workforce participation\" — appears like preference; mechanism: unpaid care burden + workplace discrimination + safety concerns. (3) \"Adivasi malnutrition\" — appears like geographic isolation; mechanism: forest rights denial + displacement + PDS exclusion. Poor answer lists only outcomes without naming mechanisms, or cites non-Indian examples.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Natural inequalities refer to differences in capabilities, talents, or physical attributes with which individuals are born (e.g., cognitive aptitude, physical strength), while socially-produced inequalities arise from societal structures, norms, and institutions that distribute opportunities, rewards, and power unequally based on birth-ascribed ______ like caste, gender, race, or class.",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two Class 11 students: Rohan, who struggles with mathematics despite sincere effort, and Priya, who is denied admission to a ______ stream because her school lacked a physics lab.",
+     "a": "science",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between natural and socially-produced inequalities using concrete examples, explain why the distinction is theoretically contested (with historical cases where social inequalities were justified as natural), and apply the modern \"choice vs. circumstance\" framework to evaluate whether a given inequality.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two Class 11 students: Rohan, who struggles with ______ despite sincere effort, and Priya, who is denied admission to a science stream because her school lacked a physics lab.",
+     "a": "mathematics",
+     "self_check": true
     }
    ]
   }

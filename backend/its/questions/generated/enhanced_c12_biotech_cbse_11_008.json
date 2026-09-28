@@ -34,6 +34,26 @@
      "q": "Design a transgenic strategy for combined drought and heat tolerance in maize that minimises yield penalty under optimal conditions. Specify: (a) gene(s), (b) promoter choice, (c) subcellular targeting, and (d) one molecular assay to verify function.",
      "a": "Expected answer: (a) *ZmDREB2A* (heat/drought-responsive TF) + *ZmHSP101* (heat-shock chaperone); (b) stress-inducible promoter (e.g., *rd29A* or *HSP70* promoter) to avoid constitutive expression; (c) nuclear for DREB2A, cytosolic/chloroplastic for HSP101; (d) qRT-PCR of downstream targets (*COR15A*, *HSP17.6*) after 42°C/PEG treatment vs. control. A poor answer uses constitutive promoters (CaMV 35S) or single genes, ignoring the need for inducible, multi-target protection and validation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Abiotic stress-tolerant transgenic crops are genetically engineered plants that express introduced genes conferring tolerance to non-living ______ stresses such as drought, salinity, extreme temperatures, heavy metals, and oxidative stress, enabling survival and yield maintenance under adverse conditions.",
+     "a": "environmental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer in Rajasthan watching his wheat crop wither under 45°C heat and saline groundwater — ______ irrigation fails, and yields crash.",
+     "a": "conventional",
+     "self_check": true
+    },
+    {
+     "q": "What is Abiotic stress-tolerant transgenic crops? State the definition given in this lesson.",
+     "a": "Abiotic stress-tolerant transgenic crops are genetically engineered plants that express introduced genes conferring tolerance to non-living environmental stresses such as drought, salinity, extreme temperatures, heavy metals, and oxidative stress, enabling survival and yield maintenance under adverse conditions.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) classify abiotic stresses and match each with at least one transgenic strategy (gene + mechanism), and (2) explain why stacking multiple stress-tolerance traits is more challenging than single-trait insect or herbicide resistance.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a real-world problem (with measurements) where a carpenter must use the property \"adjacent angles of a parallelogram are supplementary\" to cut a wooden frame correctly. Provide the problem statement and the solution steps.",
      "a": "Good answer: Problem — A carpenter builds a parallelogram-shaped window frame. One angle is marked 65°. He needs to cut the adjacent corner. What angle should he cut? Solution: Adjacent angles supplementary → 180° - 65° = 115°. He sets his mitre saw to 115° (or 65° depending on orientation). A poor answer (e.g., \"cut 65° again\") reveals the student doesn't grasp that adjacent angles are different unless it's a rectangle, or cannot translate the property to a practical setting.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ is a quadrilateral with both pairs of opposite sides parallel.",
+     "a": "parallelogram",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your father tile a rectangular room, but the tiles delivered are slanted — each tile is a ______ with sides 30 cm and 20 cm, and one angle is 70°.",
+     "a": "parallelogram",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This implies opposite sides are equal in length, opposite angles are equal in measure, adjacent angles are supplementary (sum to ______°), and the diagonals bisect each other.",
+     "a": "180",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify a parallelogram from given side/angle conditions, calculate unknown angles or side lengths using its properties, and explain why a given quadrilateral is or is not a parallelogram by applying the defining conditions.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a 3-question checklist that a consumer forum lawyer would use to determine if a new client qualifies as a \"consumer\" under the Act. Each question must test a different classification boundary.",
      "a": "Good checklist: (1) \"Was the good/service bought for your own use, your family's use, or to earn your livelihood through self-employment?\" — tests Individual vs. Reseller boundary. (2) \"Are you purchasing on behalf of an organisation — and if so, will the item be used directly in delivering the organisation's services (e.g., hospital buying medicines) or as input for production/resale?\" — tests Institutional vs. Commercial boundary. (3) \"Is the purchase funded by government and meant for direct public service delivery (e.g., school textbooks) or for infrastructure/production (e.g., cement for a dam)?\" — tests Government Consumer vs. Non-consumer boundary. A poor checklist asks only \"Did you pay?\" or \"Are you a person?\" — missing purpose entirely.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A consumer is any person who buys goods or avails services for personal use, household consumption, or self-employment purposes, in exchange for ______ (money, promise of payment, or deferred payment).",
+     "a": "consideration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you walk into a supermarket and see three shoppers: a mother buying milk for her child, a school principal ______ 500 notebooks for students, and a kirana store owner buying the same notebooks to sell in his shop.",
+     "a": "purchasing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify a given buyer scenario into one of the four consumer categories, justify the classification using the \"purpose of purchase\" criterion, and explain why resellers are excluded from the legal definition of \"consumer\" under the Consumer Protection Act.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you walk into a ______ and see three shoppers: a mother buying milk for her child, a school principal purchasing 500 notebooks for students, and a kirana store owner buying the same notebooks to sell in his shop.",
+     "a": "supermarket",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you walk into a supermarket and see three shoppers: a mother buying milk for her child, a school principal purchasing ______ notebooks for students, and a kirana store owner buying the same notebooks to sell in his shop.",
+     "a": "500",
+     "self_check": true
     }
    ]
   }

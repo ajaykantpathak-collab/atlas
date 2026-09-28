@@ -34,6 +34,21 @@
      "q": "Write a single PEEL-structured sentence (or short response) explaining how Leroy Brown knows a suspect is lying when the suspect claims, \"I saw the thief clearly through the thick, solid wooden door without opening it.\"",
      "a": "Expected response: \"Leroy knows the suspect is lying (Point) because solid wooden doors are opaque (Explanation), meaning it is physically impossible to see through them without opening them (Evidence), proving the witness fabricated their account (Link).\"\n*A weak response* will simply say \"Because you can't see through wood,\" missing the structured framework (PEEL) needed for full analytical depth.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of a detective narrative's resolution involves identifying the key clue embedded in a suspect's statement and explaining through structured analysis how logical deduction exposes the contradiction or falsehood.",
+     "a": "Comprehension",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever heard someone tell a story that sounded ______ believable until they mentioned one small detail that made the whole tale impossible?",
+     "a": "completely",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "To demonstrate mastery, students must identify the critical verbal clue or logical flaw in a suspect's claim and write a complete, structured 4-part response (Point, Evidence, Explanation, Link) explaining step-by-step how Encyclopedia Brown solved the case.",
+     "self_check": true
     }
    ]
   }

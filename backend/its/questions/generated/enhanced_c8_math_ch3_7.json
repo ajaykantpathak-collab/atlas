@@ -34,6 +34,31 @@
      "q": "Create a word problem in the style of the Bakhshali Manuscript that involves: (i) a fraction of a quantity, (ii) an unknown number, and (iii) a negative intermediate result (like a debt). Write the problem in English and show how the manuscript’s notation (dot for zero, fraction line) would represent the equation.",
      "a": "Example problem: “A merchant has a stock of cloth. He sells 3/7 of it, then buys 15 metres more, but later returns 20 metres (a debt of 5 metres). He now has 50 metres. Find the original stock.”\nLet original = x. Equation: x − (3/7)x + 15 − 20 = 50 → (4/7)x − 5 = 50.\nBakhshali notation: x (written as unknown placeholder) 4/7 (fraction with numerator above denominator, no line) · (dot for zero in 50) etc. A poor answer (no negative step, or modern algebraic notation only) shows inability to synthesize historical style with mathematical structure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Bakhshali Manuscript (3rd–4th century CE) is the oldest extant Indian mathematical text showing systematic use of a dot for zero, negative numbers, fractions, and an iterative square-root ______ algorithm.",
+     "a": "approximation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an architect in ancient India designing a ______ well of diameter 14 m.",
+     "a": "circular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an architect in ancient India designing a circular well of diameter ______ m.",
+     "a": "14",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how the Bakhshali square-root algorithm works step by step, use Aryabhata’s π approximation to solve circle problems, and contrast the Indian place-value-zero system with Roman/Egyptian additive systems by identifying at least two computational advantages.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an ______ in ancient India designing a circular well of diameter 14 m.",
+     "a": "architect",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Create a pair of triangles that are similar by SSS criterion but NOT congruent, using integer side lengths between 1 and 20. Write the side lengths of both triangles, show the three equal ratios, and state the scale factor. Then, explain how you would construct the larger triangle if you only had the smaller triangle and a ruler (no compass).",
      "a": "**Expected Answer (example):**\n- Triangle 1: 3 cm, 4 cm, 5 cm\n- Triangle 2: 6 cm, 8 cm, 10 cm\n- Ratios: 3/6 = 4/8 = 5/10 = 1/2. Scale factor from Δ1 to Δ2 = 2.\n- Construction method: Extend each side of the smaller triangle to twice its length using a ruler (measure 3 cm → mark 6 cm on same ray, etc.). Join the endpoints. This works because SSS similarity guarantees the angles remain the same when sides are scaled uniformly.\n\n**Poor Answer Reveals:** If a student gives non-integer ratios (e.g., 3,5,7 and 6,10,14 — valid but harder to construct) or cannot explain the construction, they lack geometric intuition about similarity as uniform scaling. If they suggest using a protractor to copy angles, they are relying on AAA, not SSS. The best answers show understanding that SSS similarity *is* scaling.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The SSS (Side-Side-Side) Similarity Criterion states that if the three sides of one triangle are proportional to the three ______ sides of another triangle, then the two triangles are similar.",
+     "a": "corresponding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an architect designing a ______ park with sides 30 m, 40 m, and 50 m.",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You need to create a scale model on paper where the shortest side is ______ cm.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify corresponding sides in two triangles, set up the three ratios of corresponding sides, verify they are equal, and conclude similarity using the SSS criterion.",
+     "self_check": true
     }
    ]
   }

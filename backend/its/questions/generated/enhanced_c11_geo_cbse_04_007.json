@@ -34,6 +34,31 @@
      "q": "Design a simple magnetic survey plan to determine the spreading history of a previously unmapped mid-ocean ridge segment. Specify: (a) ship track orientation relative to the ridge, (b) minimum track spacing needed to resolve the Jaramillo subchron (0.08 Ma duration) at a half-rate of 3 cm/yr, and (c) how you would identify the ridge axis from the magnetic data alone.",
      "a": "(a) Tracks perpendicular to ridge axis (cross-strike) to cut across magnetic stripes and capture full anomaly sequence. (b) Jaramillo width = 3 cm/yr × 80,000 yr = 2.4 km; Nyquist criterion requires track spacing ≤ half the smallest wavelength → ≤ 1.2 km spacing. (c) Ridge axis corresponds to the central positive anomaly high (Brunhes normal polarity) flanked by symmetric negative anomalies; it is the line of maximum positive anomaly amplitude and zero-crossing of the vertical derivative. A poor plan using parallel tracks or spacing > 5 km would alias short chrons and fail to locate the axis precisely.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sea floor spreading is the geological process where new oceanic crust forms at mid-ocean ridges through volcanic activity and gradually moves outward ______ on both sides; magnetic stripes are parallel bands of alternating normal and reversed magnetic polarity recorded in basaltic crust that provide quantitative evidence for the rate and direction of this spreading.",
+     "a": "symmetrically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are sailing across the Atlantic Ocean with a ______ trailing behind your ship — the instrument records tiny fluctuations in Earth's magnetic field that form a striking zebra-stripe pattern parallel to the Mid-Atlantic Ridge.",
+     "a": "magnetometer",
+     "self_check": true
+    },
+    {
+     "q": "What is Sea floor spreading? State the definition given in this lesson.",
+     "a": "Sea floor spreading is the geological process where new oceanic crust forms at mid-ocean ridges through volcanic activity and gradually moves outward symmetrically on both sides; magnetic stripes are parallel bands of alternating normal and reversed magnetic polarity recorded in basaltic crust that provide quantitative evidence for the.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Sea floor spreading?",
+     "a": "Students often believe that magnetic stripes are caused by the oceanic crust \"recording\" the magnetic field of the underlying mantle, or that the stripes represent alternating layers of magnetic and non-magnetic rock.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can interpret a magnetic anomaly profile across a mid-ocean ridge to calculate the half-spreading rate in cm/year, identify the chron boundaries (e.g., Brunhes, Matuyama, Gauss), and explain how the symmetry of magnetic stripes confirms the ridge as a divergent plate boundary.",
+     "self_check": true
     }
    ]
   }

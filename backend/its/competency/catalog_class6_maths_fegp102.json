@@ -22,7 +22,7 @@
     "can we measure the length of a line why not",
     "write the notation of a ray starting at A through B"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -39,7 +39,16 @@
      "action": "check the answer",
      "explain": "Verify by reversing or re-counting, then conclude."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 3 gives 3",
+     "compute": "lines = 3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.2.2",
@@ -57,7 +66,7 @@
     "make rotating arms with straws and a clip",
     "which angle is bigger when arms look unequal in drawing"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -74,7 +83,16 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 71 gives 19",
+     "compute": "other = 90 - 71"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.2.3",
@@ -124,7 +142,7 @@
     "what is the measure of a straight angle",
     "draw an angle of 60 degrees using a protractor"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -141,7 +159,16 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 35 gives 220",
+     "compute": "circ = 2 * 22 / 7 * 35"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

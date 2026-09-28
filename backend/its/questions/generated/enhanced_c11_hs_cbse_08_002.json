@@ -34,6 +34,26 @@
      "q": "Design a one-page \"Growth & Feeding Milestone Tracker\" for parents of a 0-12 month infant that integrates anthropometric checkpoints, developmental feeding cues, and nutritional action points. Sketch the layout and list the 5 most critical entries for the 6-month row.",
      "a": "Layout: Columns = Age (months) | Weight Check (kg/% gain) | Length Check (cm) | Head/Chest Circ. | Motor/Oral Milestone | Feeding Texture | Key Nutrients to Watch | Red Flags. \n6-month row entries: (1) Weight: ~2× birth weight; (2) Milestone: sits with support, loses tongue-thrust, reaches for food; (3) Texture: introduce semi-solids (strained dals, veg soups, fruit purees); (4) Nutrients: iron-rich foods critical (stores deplete), continue breast milk; (5) Red flag: no weight gain in 1 month, still tongue-thrusting, refuses all solids. A poor answer that omits the iron-depletion alert or treats 6 months as only \"start solids\" shows failure to integrate nutritional biochemistry with developmental timing.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Growth and ______ milestones in infancy (0-12 months) refer to the sequential, age-specific achievements in physical dimensions (weight, length, head/chest circumference) and functional capacities (feeding skills, motor control, immune maturation) that serve as benchmarks for assessing whether an infant's nutritional intake and health status are adequate for optimal development.",
+     "a": "developmental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ health worker visiting a home where a mother says, \"My 5-month-old baby seems hungry even after feeds, and his weight hasn't increased much this month.\" How do you decide if this is normal or a red flag?",
+     "a": "community",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a community health worker visiting a home where a mother says, \"My ______-month-old baby seems hungry even after feeds, and his weight hasn't increased much this month.\" How do you decide if this is normal or a red flag?",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can interpret an infant's anthropometric measurements against standard growth velocity patterns (weight doubling by 6 months, tripling by 12 months; length increasing 50% by 12 months), identify the corresponding nutritional implications for each milestone, and justify appropriate feeding transitions (exclusive breastfeeding.",
+     "self_check": true
     }
    ]
   }

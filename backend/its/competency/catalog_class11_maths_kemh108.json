@@ -1,322 +1,580 @@
 {
-  "class": 11,
-  "subject": "maths",
-  "chapter": 108,
-  "chapter_title": "Sequences and Series",
-  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kemh108.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "concepts": [
+ "class": 11,
+ "subject": "maths",
+ "chapter": 108,
+ "chapter_title": "Sequences and Series",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kemh108.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kemh108.8.2.1",
+   "title": "Sequences and Their Terms",
+   "section": "8.2",
+   "definition": "A sequence is a function whose inputs are the positive integers, so its outputs arrive as an ordered list a_1, a_2, a_3, ... with a clear first term, second term and so on; when the list stops after some term the sequence is finite, and when it runs on forever it is infinite.",
+   "formula": "",
+   "key_idea": "Order is the whole point of a sequence: swapping two entries gives a different sequence, unlike an unordered set.",
+   "textbook_ref": "kemh108.txt lines 20-88 (section 8.2, ordered listing, finite and infinite sequences, population and money examples)",
+   "question_patterns": [
+    "define a sequence and explain how its terms are ordered",
+    "how does a finite sequence differ from an infinite sequence",
+    "in class 11 sequences and series: what does a_1, a_2, a_3 notation mean",
+    "give an everyday situation that forms a sequence",
+    "why is order important when we list the terms of a sequence",
+    "is the arrangement 2, 3, 5, 7 called a sequence and what kind is it"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "kemh108.8.2.1",
-      "title": "Sequences and Their Terms",
-      "section": "8.2",
-      "definition": "A sequence is a function whose inputs are the positive integers, so its outputs arrive as an ordered list a_1, a_2, a_3, ... with a clear first term, second term and so on; when the list stops after some term the sequence is finite, and when it runs on forever it is infinite.",
-      "formula": "",
-      "key_idea": "Order is the whole point of a sequence: swapping two entries gives a different sequence, unlike an unordered set.",
-      "textbook_ref": "kemh108.txt lines 20-88 (section 8.2, ordered listing, finite and infinite sequences, population and money examples)",
-      "question_patterns": [
-        "define a sequence and explain how its terms are ordered",
-        "how does a finite sequence differ from an infinite sequence",
-        "in class 11 sequences and series: what does a_1, a_2, a_3 notation mean",
-        "give an everyday situation that forms a sequence",
-        "why is order important when we list the terms of a sequence",
-        "is the arrangement 2, 3, 5, 7 called a sequence and what kind is it"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "Attach positions to the entries", "explain": "A sequence numbers its entries: the image of 1 is the first term, of 2 the second term, and so on, giving a rule or pattern that generates the list."},
-        {"step": 2, "action": "Classify by length", "explain": "If the list has a last term it is a finite sequence; if the numbering never ends the sequence is infinite, like the primes 2, 3, 5, 7, ..."},
-        {"step": 3, "action": "Contrast with sets", "explain": "In a set the order of elements is irrelevant, but in a sequence rearranging the entries produces a new object."}
-      ]
+     "step": 1,
+     "action": "Attach positions to the entries",
+     "explain": "A sequence numbers its entries: the image of 1 is the first term, of 2 the second term, and so on, giving a rule or pattern that generates the list."
     },
     {
-      "id": "kemh108.8.3.1",
-      "title": "Series and Summation Notation",
-      "section": "8.3",
-      "definition": "Adding the terms of a sequence one after another produces a series; the Greek capital sigma packs the instruction 'add up all terms of this pattern' into one symbol, with the lower index naming the first term added and the upper index the last.",
-      "formula": "S_n = a_1 + a_2 + a_3 + ... + a_n",
-      "key_idea": "A series is just a sequence turned into a running total, and sigma notation is the compact grammar for writing that total.",
-      "textbook_ref": "kemh108.txt lines 89-120 (section 8.3, sigma notation, series corresponding to sequences)",
-      "question_patterns": [
-        "what is the connection between a sequence and a series",
-        "expand the summation written with sigma notation",
-        "write the series a_1 + a_2 + ... + a_n using sigma",
-        "in class 11 sequences and series: how many terms does the sum from k = 1 to n contain",
-        "explain what the lower and upper limits on a sigma sign indicate",
-        "is 2 + 4 + 6 + ... + 20 a series or a sequence"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "Turn the list into an addition", "explain": "Take the sequence terms and place plus signs between them; the resulting expression is the corresponding series."},
-        {"step": 2, "action": "Read the sigma shorthand", "explain": "The symbol with k running from a lower value to an upper value means: evaluate the general term for each k in range and add all the results."},
-        {"step": 3, "action": "Check term counts", "explain": "If k runs from 1 to n the series carries exactly n terms, which matters when matching two ways of writing the same series."}
-      ]
+     "step": 2,
+     "action": "Classify by length",
+     "explain": "If the list has a last term it is a finite sequence; if the numbering never ends the sequence is infinite, like the primes 2, 3, 5, 7, ..."
     },
     {
-      "id": "kemh108.8.4.1",
-      "title": "Geometric Progression: One Constant Ratio",
-      "section": "8.4",
-      "definition": "A geometric progression is a sequence in which every term after the first comes from multiplying the previous term by one fixed non-zero number, the common ratio; starting from a first term a the list reads a, a*r, a*r^2, a*r^3 and onward.",
-      "formula": "ratio_test = (later_term / earlier_term)",
-      "key_idea": "Divide any term by the one before it: in a G.P. every such quotient is the same number r, and that single test identifies a G.P.",
-      "textbook_ref": "kemh108.txt lines 251-355 (section 8.4, definition of G.P., common ratio, example 2, 4, 8, 16, ...)",
-      "question_patterns": [
-        "define a geometric progression and its common ratio",
-        "how do you test whether a given list is a geometric progression",
-        "in class 11 sequences and series: write the general shape of a G.P. starting at a",
-        "is 4, 8, 16, 32 a G.P. and what is its ratio",
-        "why is the ratio required to be non zero in a geometric progression",
-        "which of the given progressions has a constant multiplicative pattern"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "Divide consecutive terms", "explain": "Compute later_term divided by earlier_term for each neighbouring pair of entries in the list."},
-        {"step": 2, "action": "Compare the quotients", "explain": "The list is a geometric progression exactly when every quotient equals one common value r."},
-        {"step": 3, "action": "Read off the structure", "explain": "With first term a and ratio r the progression runs a, a*r, a*r**2, a*r**3, so the exponent grows by one per step."},
-        {"step": 4, "action": "Note the exclusions", "explain": "Both the first term and the common ratio are kept non zero, otherwise the pattern collapses into a list of zeros."}
-      ]
-    },
-    {
-      "id": "kemh108.8.4.2",
-      "title": "General Term of a G.P.",
-      "section": "8.4.1",
-      "definition": "The term sitting in position n of a geometric progression equals the first term times the common ratio raised to the power (n - 1); this single rule generates any term without listing its predecessors.",
-      "formula": "term = a * r ** (n - 1)",
-      "key_idea": "Position minus one counts how many multiplications by r happened after the first term.",
-      "textbook_ref": "kemh108.txt lines 356-390 (section 8.4.1 general term of a G.P., a, ar, ar^2, ... pattern)",
-      "question_patterns": [
-        "find the nth term of a geometric progression",
-        "the first term and common ratio are given, calculate the term in position n",
-        "what is the 10th term of the G.P. with given a and r",
-        "in class 11 sequences and series: state the formula for the general term of a G.P.",
-        "how many factors of r separate the first term from term number n",
-        "determine which term of the progression equals a given value"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "raise the ratio to one less than the position", "explain": "The first term has no extra factor of r, so the power carried by r in term n is n - 1.",
-         "compute": "power = n - 1"},
-        {"step": 2, "action": "multiply the first term by the ratio power", "explain": "Each step along the progression multiplies by r once more.",
-         "compute": "term = a * r ** power"}
-      ]
-    },
-    {
-      "id": "kemh108.8.4.3",
-      "title": "Sum of n Terms of a G.P.",
-      "section": "8.4.2",
-      "definition": "Adding the first n terms of a geometric progression gives a closed result: a times (r^n - 1) over (r - 1) when r differs from 1, and simply n times a when r = 1; for an infinite G.P. with |r| below 1 the sum settles at a / (1 - r).",
-      "formula": "total = a * (r ** n - 1) / (r - 1)",
-      "key_idea": "The subtraction trick: multiplying the partial sum by r shifts it one place, and cancelling the two shifted copies leaves the compact formula.",
-      "textbook_ref": "kemh108.txt lines 371-460 (section 8.4.2 sum to n terms of a G.P., derivation by subtraction, infinite G.P. sum a/(1-r))",
-      "question_patterns": [
-        "find the sum of the first n terms of a G.P.",
-        "given a, r and n calculate the total of the geometric series",
-        "what does the sum to n terms formula become when r = 1",
-        "in class 11 sequences and series: when does an infinite geometric series have a finite sum",
-        "compute how far the series with ratio less than 1 in size can ever grow",
-        "evaluate the partial sum of the given geometric series"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "build the growth factor", "explain": "The n-th power of the ratio measures how far the last term has climbed above the first.",
-         "compute": "growth = r ** n"},
-        {"step": 2, "action": "form the numerator", "explain": "One subtracts 1 from the growth factor and scales by the first term.",
-         "compute": "numerator = a * (growth - 1)"},
-        {"step": 3, "action": "form the denominator", "explain": "The denominator is the ratio minus one.",
-         "compute": "denominator = r - 1"},
-        {"step": 4, "action": "divide through", "explain": "Dividing collapses the n-term addition into one number.",
-         "compute": "total = numerator / denominator"}
-      ]
-    },
-    {
-      "id": "kemh108.8.4.4",
-      "title": "Geometric Mean of Two Positive Numbers",
-      "section": "8.4.3",
-      "definition": "For two positive numbers a and b, the number that would sit between them in a geometric progression is the square root of their product; between any two positives one can also weave any number of geometric means by choosing a suitable ratio.",
-      "formula": "gm = sqrt(a * b)",
-      "key_idea": "The G.M. is the balanced middle under multiplication, exactly as the arithmetic mean is the balanced middle under addition.",
-      "textbook_ref": "kemh108.txt lines 779-892 (section 8.4.3 geometric mean, G.M. of 2 and 8 is 4, inserting n G.M.s between a and b)",
-      "question_patterns": [
-        "find the geometric mean of two given positive numbers",
-        "what number lies between 2 and 8 so that the three terms form a G.P.",
-        "calculate the G.M. of the given pair",
-        "in class 11 sequences and series: how do you insert n geometric means between a and b",
-        "why must both numbers be positive before taking a geometric mean",
-        "which single term of a G.P. plays the role of the mean of a and b"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "multiply the two numbers", "explain": "The middle term of a three-term G.P. squares to the product of its neighbours.",
-         "compute": "product = a * b"},
-        {"step": 2, "action": "take the square root", "explain": "Undoing the square gives the geometric mean; positivity of a and b keeps the root real.",
-         "compute": "gm = sqrt(product)"}
-      ]
-    },
-    {
-      "id": "kemh108.8.5.1",
-      "title": "Relationship Between A.M. and G.M.",
-      "section": "8.5",
-      "definition": "For any two positive real numbers, their arithmetic mean never falls below their geometric mean, and the two agree only when the numbers themselves are equal; the gap between the two means is (sqrt(a) - sqrt(b))^2 / 2, which is why it can never be negative.",
-      "formula": "gap = (a + b) / 2 - sqrt(a * b) >= 0",
-      "key_idea": "A >= G with equality only at a = b -- a two-number inequality that anchors many maximum and minimum arguments.",
-      "textbook_ref": "kemh108.txt lines 893-960 (section 8.5 relationship between A.M. and G.M., proof via (sqrt a - sqrt b)^2, example with A = 10, G = 8)",
-      "question_patterns": [
-        "prove that the arithmetic mean of two positive numbers exceeds their geometric mean unless the numbers are equal",
-        "when are the A.M. and the G.M. of two numbers equal",
-        "in class 11 sequences and series: state the inequality linking A.M. and G.M.",
-        "if the A.M. and G.M. of two numbers are given, find the numbers",
-        "why can the difference between the two means never be negative",
-        "the sum of two numbers and their G.M. are given, determine the numbers"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "write both means", "explain": "A = (a + b)/2 and G = sqrt(a*b) are the two balanced middles under addition and multiplication."},
-        {"step": 2, "action": "form the difference", "explain": "A - G simplifies to ((sqrt a - sqrt b)^2)/2 once the product is rewritten, and a squared real cannot be negative."},
-        {"step": 3, "action": "read off equality condition", "explain": "The difference vanishes exactly when sqrt a = sqrt b, that is when a = b; otherwise A stays strictly above G."},
-        {"step": 4, "action": "recover the numbers from A and G", "explain": "Given A and G, the pair (a, b) are the roots of x^2 - 2A x + G^2 = 0, so two solutions exist (the pair in either order)."}
-      ]
-    },
-    {
-      "id": "kemh108.8.1.1",
-      "title": "Special Series: Sum of the First n Natural Numbers",
-      "section": "8.1",
-      "definition": "Some series repeat so often that their totals deserve memorised formulas; the simplest adds the counting numbers 1 + 2 + ... + n and totals n(n + 1)/2, a result the chapter credits to Aryabhatta alongside the corresponding formulas for sums of squares and cubes.",
-      "formula": "total = n * (n + 1) / 2",
-      "key_idea": "Pairing the first and last numbers shows why n(n+1)/2 emerges -- every pair contributes the same total.",
-      "textbook_ref": "kemh108.txt lines 13-19 and 1321-1340 (introduction mentions special series; Aryabhatta note on sums of squares and cubes)",
-      "question_patterns": [
-        "find the sum of the first n natural numbers",
-        "what is 1 + 2 + 3 + ... + n equal to",
-        "in class 11 sequences and series: evaluate the total of the counting numbers up to n",
-        "how does pairing first and last terms give the special series formula",
-        "compute the sum of numbers from 1 to a given value",
-        "which ancient mathematician is credited with sums of squares and cubes formulas"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "multiply n by its successor", "explain": "The product n * (n + 1) counts every paired total twice.",
-         "compute": "pair_product = n * (n + 1)"},
-        {"step": 2, "action": "halve the product", "explain": "Dividing by 2 corrects the double count and leaves the sum of the first n natural numbers.",
-         "compute": "total = pair_product / 2"}
-      ]
+     "step": 3,
+     "action": "Contrast with sets",
+     "explain": "In a set the order of elements is irrelevant, but in a sequence rearranging the entries produces a new object."
     }
-  ],
-  "worked_examples": [
+   ],
+   "compute_steps": [
     {
-      "id": "we1",
-      "source_ref": "kemh108.txt lines 356-390 (general term of a G.P.)",
-      "concept": "kemh108.8.4.2",
-      "question_type": "compute",
-      "question_pattern": "In the G.P. with first term {a} and common ratio {r}, find term number {n}.",
-      "extracted_variables": {"a": 3, "r": 2, "n": 5},
-      "solution_template": [
-        {"step": 1, "action": "raise the ratio to one less than the position", "explain": "power = n - 1 = 4.", "compute": "power = n - 1"},
-        {"step": 2, "action": "multiply the first term by the ratio power", "explain": "term = 3 * 2 ** 4 = 48.", "compute": "term = a * r ** power"}
-      ]
-    },
-    {
-      "id": "we2",
-      "source_ref": "kemh108.txt lines 356-390 (general term of a G.P.)",
-      "concept": "kemh108.8.4.2",
-      "question_type": "compute",
-      "question_pattern": "Which term of the progression starting {a} with ratio {r} is requested at position {n}?",
-      "extracted_variables": {"a": 2, "r": 3, "n": 4},
-      "solution_template": [
-        {"step": 1, "action": "raise the ratio to one less than the position", "explain": "power = 4 - 1 = 3.", "compute": "power = n - 1"},
-        {"step": 2, "action": "multiply the first term by the ratio power", "explain": "term = 2 * 3 ** 3 = 54.", "compute": "term = a * r ** power"}
-      ]
-    },
-    {
-      "id": "we3",
-      "source_ref": "kemh108.txt lines 371-460 (sum of n terms of a G.P.)",
-      "concept": "kemh108.8.4.3",
-      "question_type": "compute",
-      "question_pattern": "Find the sum of the first {n} terms of the G.P. with first term {a} and common ratio {r}.",
-      "extracted_variables": {"a": 1, "r": 2, "n": 10},
-      "solution_template": [
-        {"step": 1, "action": "build the growth factor", "explain": "growth = 2 ** 10 = 1024.", "compute": "growth = r ** n"},
-        {"step": 2, "action": "form the numerator", "explain": "numerator = 1 * (1024 - 1) = 1023.", "compute": "numerator = a * (growth - 1)"},
-        {"step": 3, "action": "form the denominator", "explain": "denominator = 2 - 1 = 1.", "compute": "denominator = r - 1"},
-        {"step": 4, "action": "divide through", "explain": "total = 1023 / 1 = 1023.", "compute": "total = numerator / denominator"}
-      ]
-    },
-    {
-      "id": "we4",
-      "source_ref": "kemh108.txt lines 371-460 (sum of n terms of a G.P.)",
-      "concept": "kemh108.8.4.3",
-      "question_type": "compute",
-      "question_pattern": "A geometric series opens at {a} with ratio {r}; total its first {n} terms.",
-      "extracted_variables": {"a": 5, "r": 2, "n": 6},
-      "solution_template": [
-        {"step": 1, "action": "build the growth factor", "explain": "growth = 2 ** 6 = 64.", "compute": "growth = r ** n"},
-        {"step": 2, "action": "form the numerator", "explain": "numerator = 5 * (64 - 1) = 315.", "compute": "numerator = a * (growth - 1)"},
-        {"step": 3, "action": "form the denominator", "explain": "denominator = 2 - 1 = 1.", "compute": "denominator = r - 1"},
-        {"step": 4, "action": "divide through", "explain": "total = 315 / 1 = 315.", "compute": "total = numerator / denominator"}
-      ]
-    },
-    {
-      "id": "we5",
-      "source_ref": "kemh108.txt lines 779-792 (G.M. of 2 and 8 is 4)",
-      "concept": "kemh108.8.4.4",
-      "question_type": "compute",
-      "question_pattern": "Find the geometric mean of {a} and {b}.",
-      "extracted_variables": {"a": 2, "b": 8},
-      "solution_template": [
-        {"step": 1, "action": "multiply the two numbers", "explain": "product = 2 * 8 = 16.", "compute": "product = a * b"},
-        {"step": 2, "action": "take the square root", "explain": "gm = sqrt(16) = 4, matching the chapter's own example.", "compute": "gm = sqrt(product)"}
-      ]
-    },
-    {
-      "id": "we6",
-      "source_ref": "kemh108.txt lines 779-892 (inserting geometric means)",
-      "concept": "kemh108.8.4.4",
-      "question_type": "compute",
-      "question_pattern": "Two positive numbers {a} and {b} are given; compute the single mean that makes the trio a G.P.",
-      "extracted_variables": {"a": 25, "b": 9},
-      "solution_template": [
-        {"step": 1, "action": "multiply the two numbers", "explain": "product = 25 * 9 = 225.", "compute": "product = a * b"},
-        {"step": 2, "action": "take the square root", "explain": "gm = sqrt(225) = 15.", "compute": "gm = sqrt(product)"}
-      ]
-    },
-    {
-      "id": "we7",
-      "source_ref": "kemh108.txt lines 13-19 and 1321-1340 (special series, Aryabhatta)",
-      "concept": "kemh108.8.1.1",
-      "question_type": "compute",
-      "question_pattern": "Add the counting numbers from 1 up to {n}.",
-      "extracted_variables": {"n": 100},
-      "solution_template": [
-        {"step": 1, "action": "multiply n by its successor", "explain": "pair_product = 100 * 101 = 10100.", "compute": "pair_product = n * (n + 1)"},
-        {"step": 2, "action": "halve the product", "explain": "total = 10100 / 2 = 5050.", "compute": "total = pair_product / 2"}
-      ]
-    },
-    {
-      "id": "we8",
-      "source_ref": "kemh108.txt lines 1321-1340 (Aryabhatta formulas)",
-      "concept": "kemh108.8.1.1",
-      "question_type": "compute",
-      "question_pattern": "Evaluate 1 + 2 + ... + {n} for the given value.",
-      "extracted_variables": {"n": 36},
-      "solution_template": [
-        {"step": 1, "action": "multiply n by its successor", "explain": "pair_product = 36 * 37 = 1332.", "compute": "pair_product = n * (n + 1)"},
-        {"step": 2, "action": "halve the product", "explain": "total = 1332 / 2 = 666.", "compute": "total = pair_product / 2"}
-      ]
+     "step": 1,
+     "action": "apply the AP/GP term or sum formula",
+     "explain": "apply the AP/GP term or sum formula: an = 8 + (10 - 1) * 3 gives 35",
+     "compute": "an = 8 + (10 - 1) * 3"
     }
-  ],
-  "exercises": [
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "kemh108.8.3.1",
+   "title": "Series and Summation Notation",
+   "section": "8.3",
+   "definition": "Adding the terms of a sequence one after another produces a series; the Greek capital sigma packs the instruction 'add up all terms of this pattern' into one symbol, with the lower index naming the first term added and the upper index the last.",
+   "formula": "S_n = a_1 + a_2 + a_3 + ... + a_n",
+   "key_idea": "A series is just a sequence turned into a running total, and sigma notation is the compact grammar for writing that total.",
+   "textbook_ref": "kemh108.txt lines 89-120 (section 8.3, sigma notation, series corresponding to sequences)",
+   "question_patterns": [
+    "what is the connection between a sequence and a series",
+    "expand the summation written with sigma notation",
+    "write the series a_1 + a_2 + ... + a_n using sigma",
+    "in class 11 sequences and series: how many terms does the sum from k = 1 to n contain",
+    "explain what the lower and upper limits on a sigma sign indicate",
+    "is 2 + 4 + 6 + ... + 20 a series or a sequence"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "ex1",
-      "source_ref": "kemh108.txt end-of-chapter exercises, reworded",
-      "questions": [
-        "Write the first five terms of the sequence whose nth term is given by a rule.",
-        "Find the 20th term of the G.P. 5, 10, 20, ...",
-        "How many terms of the G.P. 3, 3/2, 3/4, ... are needed to make the sum close to 3060/1024?",
-        "The sum of first three terms of a G.P. is 39/10 and their product is 1; find the terms.",
-        "Insert five numbers between 8 and 26 so that the resulting list is a G.P.",
-        "The A.M. of two numbers is 10 and their G.M. is 8; find the numbers.",
-        "Find the sum to n terms of the series whose nth term is given.",
-        "Show that the products of the corresponding terms of two G.P.s also form a G.P."
-      ]
+     "step": 1,
+     "action": "Turn the list into an addition",
+     "explain": "Take the sequence terms and place plus signs between them; the resulting expression is the corresponding series."
+    },
+    {
+     "step": 2,
+     "action": "Read the sigma shorthand",
+     "explain": "The symbol with k running from a lower value to an upper value means: evaluate the general term for each k in range and add all the results."
+    },
+    {
+     "step": 3,
+     "action": "Check term counts",
+     "explain": "If k runs from 1 to n the series carries exactly n terms, which matters when matching two ways of writing the same series."
     }
-  ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the AP/GP term or sum formula",
+     "explain": "apply the AP/GP term or sum formula: an = 7 + (15 - 1) * 4 gives 63",
+     "compute": "an = 7 + (15 - 1) * 4"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "kemh108.8.4.1",
+   "title": "Geometric Progression: One Constant Ratio",
+   "section": "8.4",
+   "definition": "A geometric progression is a sequence in which every term after the first comes from multiplying the previous term by one fixed non-zero number, the common ratio; starting from a first term a the list reads a, a*r, a*r^2, a*r^3 and onward.",
+   "formula": "ratio_test = (later_term / earlier_term)",
+   "key_idea": "Divide any term by the one before it: in a G.P. every such quotient is the same number r, and that single test identifies a G.P.",
+   "textbook_ref": "kemh108.txt lines 251-355 (section 8.4, definition of G.P., common ratio, example 2, 4, 8, 16, ...)",
+   "question_patterns": [
+    "define a geometric progression and its common ratio",
+    "how do you test whether a given list is a geometric progression",
+    "in class 11 sequences and series: write the general shape of a G.P. starting at a",
+    "is 4, 8, 16, 32 a G.P. and what is its ratio",
+    "why is the ratio required to be non zero in a geometric progression",
+    "which of the given progressions has a constant multiplicative pattern"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide consecutive terms",
+     "explain": "Compute later_term divided by earlier_term for each neighbouring pair of entries in the list."
+    },
+    {
+     "step": 2,
+     "action": "Compare the quotients",
+     "explain": "The list is a geometric progression exactly when every quotient equals one common value r."
+    },
+    {
+     "step": 3,
+     "action": "Read off the structure",
+     "explain": "With first term a and ratio r the progression runs a, a*r, a*r**2, a*r**3, so the exponent grows by one per step."
+    },
+    {
+     "step": 4,
+     "action": "Note the exclusions",
+     "explain": "Both the first term and the common ratio are kept non zero, otherwise the pattern collapses into a list of zeros."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the AP/GP term or sum formula",
+     "explain": "apply the AP/GP term or sum formula: an = 10 + (11 - 1) * 9 gives 100",
+     "compute": "an = 10 + (11 - 1) * 9"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "kemh108.8.4.2",
+   "title": "General Term of a G.P.",
+   "section": "8.4.1",
+   "definition": "The term sitting in position n of a geometric progression equals the first term times the common ratio raised to the power (n - 1); this single rule generates any term without listing its predecessors.",
+   "formula": "term = a * r ** (n - 1)",
+   "key_idea": "Position minus one counts how many multiplications by r happened after the first term.",
+   "textbook_ref": "kemh108.txt lines 356-390 (section 8.4.1 general term of a G.P., a, ar, ar^2, ... pattern)",
+   "question_patterns": [
+    "find the nth term of a geometric progression",
+    "the first term and common ratio are given, calculate the term in position n",
+    "what is the 10th term of the G.P. with given a and r",
+    "in class 11 sequences and series: state the formula for the general term of a G.P.",
+    "how many factors of r separate the first term from term number n",
+    "determine which term of the progression equals a given value"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "raise the ratio to one less than the position",
+     "explain": "The first term has no extra factor of r, so the power carried by r in term n is n - 1.",
+     "compute": "power = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "multiply the first term by the ratio power",
+     "explain": "Each step along the progression multiplies by r once more.",
+     "compute": "term = a * r ** power"
+    }
+   ]
+  },
+  {
+   "id": "kemh108.8.4.3",
+   "title": "Sum of n Terms of a G.P.",
+   "section": "8.4.2",
+   "definition": "Adding the first n terms of a geometric progression gives a closed result: a times (r^n - 1) over (r - 1) when r differs from 1, and simply n times a when r = 1; for an infinite G.P. with |r| below 1 the sum settles at a / (1 - r).",
+   "formula": "total = a * (r ** n - 1) / (r - 1)",
+   "key_idea": "The subtraction trick: multiplying the partial sum by r shifts it one place, and cancelling the two shifted copies leaves the compact formula.",
+   "textbook_ref": "kemh108.txt lines 371-460 (section 8.4.2 sum to n terms of a G.P., derivation by subtraction, infinite G.P. sum a/(1-r))",
+   "question_patterns": [
+    "find the sum of the first n terms of a G.P.",
+    "given a, r and n calculate the total of the geometric series",
+    "what does the sum to n terms formula become when r = 1",
+    "in class 11 sequences and series: when does an infinite geometric series have a finite sum",
+    "compute how far the series with ratio less than 1 in size can ever grow",
+    "evaluate the partial sum of the given geometric series"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "build the growth factor",
+     "explain": "The n-th power of the ratio measures how far the last term has climbed above the first.",
+     "compute": "growth = r ** n"
+    },
+    {
+     "step": 2,
+     "action": "form the numerator",
+     "explain": "One subtracts 1 from the growth factor and scales by the first term.",
+     "compute": "numerator = a * (growth - 1)"
+    },
+    {
+     "step": 3,
+     "action": "form the denominator",
+     "explain": "The denominator is the ratio minus one.",
+     "compute": "denominator = r - 1"
+    },
+    {
+     "step": 4,
+     "action": "divide through",
+     "explain": "Dividing collapses the n-term addition into one number.",
+     "compute": "total = numerator / denominator"
+    }
+   ]
+  },
+  {
+   "id": "kemh108.8.4.4",
+   "title": "Geometric Mean of Two Positive Numbers",
+   "section": "8.4.3",
+   "definition": "For two positive numbers a and b, the number that would sit between them in a geometric progression is the square root of their product; between any two positives one can also weave any number of geometric means by choosing a suitable ratio.",
+   "formula": "gm = sqrt(a * b)",
+   "key_idea": "The G.M. is the balanced middle under multiplication, exactly as the arithmetic mean is the balanced middle under addition.",
+   "textbook_ref": "kemh108.txt lines 779-892 (section 8.4.3 geometric mean, G.M. of 2 and 8 is 4, inserting n G.M.s between a and b)",
+   "question_patterns": [
+    "find the geometric mean of two given positive numbers",
+    "what number lies between 2 and 8 so that the three terms form a G.P.",
+    "calculate the G.M. of the given pair",
+    "in class 11 sequences and series: how do you insert n geometric means between a and b",
+    "why must both numbers be positive before taking a geometric mean",
+    "which single term of a G.P. plays the role of the mean of a and b"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the two numbers",
+     "explain": "The middle term of a three-term G.P. squares to the product of its neighbours.",
+     "compute": "product = a * b"
+    },
+    {
+     "step": 2,
+     "action": "take the square root",
+     "explain": "Undoing the square gives the geometric mean; positivity of a and b keeps the root real.",
+     "compute": "gm = sqrt(product)"
+    }
+   ]
+  },
+  {
+   "id": "kemh108.8.5.1",
+   "title": "Relationship Between A.M. and G.M.",
+   "section": "8.5",
+   "definition": "For any two positive real numbers, their arithmetic mean never falls below their geometric mean, and the two agree only when the numbers themselves are equal; the gap between the two means is (sqrt(a) - sqrt(b))^2 / 2, which is why it can never be negative.",
+   "formula": "gap = (a + b) / 2 - sqrt(a * b) >= 0",
+   "key_idea": "A >= G with equality only at a = b -- a two-number inequality that anchors many maximum and minimum arguments.",
+   "textbook_ref": "kemh108.txt lines 893-960 (section 8.5 relationship between A.M. and G.M., proof via (sqrt a - sqrt b)^2, example with A = 10, G = 8)",
+   "question_patterns": [
+    "prove that the arithmetic mean of two positive numbers exceeds their geometric mean unless the numbers are equal",
+    "when are the A.M. and the G.M. of two numbers equal",
+    "in class 11 sequences and series: state the inequality linking A.M. and G.M.",
+    "if the A.M. and G.M. of two numbers are given, find the numbers",
+    "why can the difference between the two means never be negative",
+    "the sum of two numbers and their G.M. are given, determine the numbers"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "write both means",
+     "explain": "A = (a + b)/2 and G = sqrt(a*b) are the two balanced middles under addition and multiplication."
+    },
+    {
+     "step": 2,
+     "action": "form the difference",
+     "explain": "A - G simplifies to ((sqrt a - sqrt b)^2)/2 once the product is rewritten, and a squared real cannot be negative."
+    },
+    {
+     "step": 3,
+     "action": "read off equality condition",
+     "explain": "The difference vanishes exactly when sqrt a = sqrt b, that is when a = b; otherwise A stays strictly above G."
+    },
+    {
+     "step": 4,
+     "action": "recover the numbers from A and G",
+     "explain": "Given A and G, the pair (a, b) are the roots of x^2 - 2A x + G^2 = 0, so two solutions exist (the pair in either order)."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the AP/GP term or sum formula",
+     "explain": "apply the AP/GP term or sum formula: an = 5 + (12 - 1) * 9 gives 104",
+     "compute": "an = 5 + (12 - 1) * 9"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "kemh108.8.1.1",
+   "title": "Special Series: Sum of the First n Natural Numbers",
+   "section": "8.1",
+   "definition": "Some series repeat so often that their totals deserve memorised formulas; the simplest adds the counting numbers 1 + 2 + ... + n and totals n(n + 1)/2, a result the chapter credits to Aryabhatta alongside the corresponding formulas for sums of squares and cubes.",
+   "formula": "total = n * (n + 1) / 2",
+   "key_idea": "Pairing the first and last numbers shows why n(n+1)/2 emerges -- every pair contributes the same total.",
+   "textbook_ref": "kemh108.txt lines 13-19 and 1321-1340 (introduction mentions special series; Aryabhatta note on sums of squares and cubes)",
+   "question_patterns": [
+    "find the sum of the first n natural numbers",
+    "what is 1 + 2 + 3 + ... + n equal to",
+    "in class 11 sequences and series: evaluate the total of the counting numbers up to n",
+    "how does pairing first and last terms give the special series formula",
+    "compute the sum of numbers from 1 to a given value",
+    "which ancient mathematician is credited with sums of squares and cubes formulas"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply n by its successor",
+     "explain": "The product n * (n + 1) counts every paired total twice.",
+     "compute": "pair_product = n * (n + 1)"
+    },
+    {
+     "step": 2,
+     "action": "halve the product",
+     "explain": "Dividing by 2 corrects the double count and leaves the sum of the first n natural numbers.",
+     "compute": "total = pair_product / 2"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "kemh108.txt lines 356-390 (general term of a G.P.)",
+   "concept": "kemh108.8.4.2",
+   "question_type": "compute",
+   "question_pattern": "In the G.P. with first term {a} and common ratio {r}, find term number {n}.",
+   "extracted_variables": {
+    "a": 3,
+    "r": 2,
+    "n": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "raise the ratio to one less than the position",
+     "explain": "power = n - 1 = 4.",
+     "compute": "power = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "multiply the first term by the ratio power",
+     "explain": "term = 3 * 2 ** 4 = 48.",
+     "compute": "term = a * r ** power"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "kemh108.txt lines 356-390 (general term of a G.P.)",
+   "concept": "kemh108.8.4.2",
+   "question_type": "compute",
+   "question_pattern": "Which term of the progression starting {a} with ratio {r} is requested at position {n}?",
+   "extracted_variables": {
+    "a": 2,
+    "r": 3,
+    "n": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "raise the ratio to one less than the position",
+     "explain": "power = 4 - 1 = 3.",
+     "compute": "power = n - 1"
+    },
+    {
+     "step": 2,
+     "action": "multiply the first term by the ratio power",
+     "explain": "term = 2 * 3 ** 3 = 54.",
+     "compute": "term = a * r ** power"
+    }
+   ]
+  },
+  {
+   "id": "we3",
+   "source_ref": "kemh108.txt lines 371-460 (sum of n terms of a G.P.)",
+   "concept": "kemh108.8.4.3",
+   "question_type": "compute",
+   "question_pattern": "Find the sum of the first {n} terms of the G.P. with first term {a} and common ratio {r}.",
+   "extracted_variables": {
+    "a": 1,
+    "r": 2,
+    "n": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "build the growth factor",
+     "explain": "growth = 2 ** 10 = 1024.",
+     "compute": "growth = r ** n"
+    },
+    {
+     "step": 2,
+     "action": "form the numerator",
+     "explain": "numerator = 1 * (1024 - 1) = 1023.",
+     "compute": "numerator = a * (growth - 1)"
+    },
+    {
+     "step": 3,
+     "action": "form the denominator",
+     "explain": "denominator = 2 - 1 = 1.",
+     "compute": "denominator = r - 1"
+    },
+    {
+     "step": 4,
+     "action": "divide through",
+     "explain": "total = 1023 / 1 = 1023.",
+     "compute": "total = numerator / denominator"
+    }
+   ]
+  },
+  {
+   "id": "we4",
+   "source_ref": "kemh108.txt lines 371-460 (sum of n terms of a G.P.)",
+   "concept": "kemh108.8.4.3",
+   "question_type": "compute",
+   "question_pattern": "A geometric series opens at {a} with ratio {r}; total its first {n} terms.",
+   "extracted_variables": {
+    "a": 5,
+    "r": 2,
+    "n": 6
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "build the growth factor",
+     "explain": "growth = 2 ** 6 = 64.",
+     "compute": "growth = r ** n"
+    },
+    {
+     "step": 2,
+     "action": "form the numerator",
+     "explain": "numerator = 5 * (64 - 1) = 315.",
+     "compute": "numerator = a * (growth - 1)"
+    },
+    {
+     "step": 3,
+     "action": "form the denominator",
+     "explain": "denominator = 2 - 1 = 1.",
+     "compute": "denominator = r - 1"
+    },
+    {
+     "step": 4,
+     "action": "divide through",
+     "explain": "total = 315 / 1 = 315.",
+     "compute": "total = numerator / denominator"
+    }
+   ]
+  },
+  {
+   "id": "we5",
+   "source_ref": "kemh108.txt lines 779-792 (G.M. of 2 and 8 is 4)",
+   "concept": "kemh108.8.4.4",
+   "question_type": "compute",
+   "question_pattern": "Find the geometric mean of {a} and {b}.",
+   "extracted_variables": {
+    "a": 2,
+    "b": 8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the two numbers",
+     "explain": "product = 2 * 8 = 16.",
+     "compute": "product = a * b"
+    },
+    {
+     "step": 2,
+     "action": "take the square root",
+     "explain": "gm = sqrt(16) = 4, matching the chapter's own example.",
+     "compute": "gm = sqrt(product)"
+    }
+   ]
+  },
+  {
+   "id": "we6",
+   "source_ref": "kemh108.txt lines 779-892 (inserting geometric means)",
+   "concept": "kemh108.8.4.4",
+   "question_type": "compute",
+   "question_pattern": "Two positive numbers {a} and {b} are given; compute the single mean that makes the trio a G.P.",
+   "extracted_variables": {
+    "a": 25,
+    "b": 9
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the two numbers",
+     "explain": "product = 25 * 9 = 225.",
+     "compute": "product = a * b"
+    },
+    {
+     "step": 2,
+     "action": "take the square root",
+     "explain": "gm = sqrt(225) = 15.",
+     "compute": "gm = sqrt(product)"
+    }
+   ]
+  },
+  {
+   "id": "we7",
+   "source_ref": "kemh108.txt lines 13-19 and 1321-1340 (special series, Aryabhatta)",
+   "concept": "kemh108.8.1.1",
+   "question_type": "compute",
+   "question_pattern": "Add the counting numbers from 1 up to {n}.",
+   "extracted_variables": {
+    "n": 100
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply n by its successor",
+     "explain": "pair_product = 100 * 101 = 10100.",
+     "compute": "pair_product = n * (n + 1)"
+    },
+    {
+     "step": 2,
+     "action": "halve the product",
+     "explain": "total = 10100 / 2 = 5050.",
+     "compute": "total = pair_product / 2"
+    }
+   ]
+  },
+  {
+   "id": "we8",
+   "source_ref": "kemh108.txt lines 1321-1340 (Aryabhatta formulas)",
+   "concept": "kemh108.8.1.1",
+   "question_type": "compute",
+   "question_pattern": "Evaluate 1 + 2 + ... + {n} for the given value.",
+   "extracted_variables": {
+    "n": 36
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply n by its successor",
+     "explain": "pair_product = 36 * 37 = 1332.",
+     "compute": "pair_product = n * (n + 1)"
+    },
+    {
+     "step": 2,
+     "action": "halve the product",
+     "explain": "total = 1332 / 2 = 666.",
+     "compute": "total = pair_product / 2"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "kemh108.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "Write the first five terms of the sequence whose nth term is given by a rule.",
+    "Find the 20th term of the G.P. 5, 10, 20, ...",
+    "How many terms of the G.P. 3, 3/2, 3/4, ... are needed to make the sum close to 3060/1024?",
+    "The sum of first three terms of a G.P. is 39/10 and their product is 1; find the terms.",
+    "Insert five numbers between 8 and 26 so that the resulting list is a G.P.",
+    "The A.M. of two numbers is 10 and their G.M. is 8; find the numbers.",
+    "Find the sum to n terms of the series whose nth term is given.",
+    "Show that the products of the corresponding terms of two G.P.s also form a G.P."
+   ]
+  }
+ ]
 }

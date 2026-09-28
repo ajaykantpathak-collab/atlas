@@ -34,6 +34,16 @@
      "q": "Create a real-world problem (Indian context) where you need to find the focus of a parabola to design a solar cooker. Specify the parabola's equation and ask for the focus coordinates. Explain why the focus is the ideal place to put the cooking pot.",
      "a": "Example problem: A solar cooker uses a parabolic reflector with cross-section \\(y^2 = 20x\\) (dimensions in cm). Where should the cooking pot be placed for maximum heat? Answer: Focus at \\((5,0)\\) cm from vertex. The focus is where all incoming parallel rays (sunlight) reflect to a single point, concentrating heat. A poor answer would give an equation not in standard form or misplace the focus, showing lack of understanding of the reflective property.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A parabola is the set of all points in a plane that are ______ from a fixed point (focus) and a fixed line (directrix).",
+     "a": "equidistant",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ dish shaped like a parabola: signals hitting the dish reflect to a single point (the focus).",
+     "a": "satellite",
+     "self_check": true
     }
    ]
   }

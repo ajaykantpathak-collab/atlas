@@ -34,6 +34,26 @@
      "q": "Create a one-day complementary feeding menu for an 8-month-old infant (weight 7.5 kg) who is breastfed on demand. Include: (a) two main complementary meals, (b) one snack, (c) finger food, (d) approximate household measures, (e) food groups covered per meal. Ensure the menu meets ~200 kcal from complementary foods.",
      "a": "Sample answer:\nMeal 1 (10 am): Ragi porridge 4 tbsp (30 g flour) cooked in 100 ml water + 1 tsp ghee + 1 tbsp mashed steamed apple — Cereal, Fat, Fruit.\nMeal 2 (2 pm): Khichdi (rice 2 tbsp + moong dal 1 tbsp + carrot/spinach 1 tbsp) mashed + 1 tsp ghee — Cereal, Pulse, Vegetable, Fat.\nSnack (5 pm): Steamed carrot stick (finger food) + 2 tbsp thick curd — Vegetable, Milk.\nBreastfeeds: On demand (≈550 kcal).\nTotal complementary kcal ≈ 210 kcal. Food groups: all 7 groups covered across day. A poor answer gives only porridge twice, omits finger food, or uses adult spices/salt — showing lack of practical meal-planning skill.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Meal planning for infants (0–12 months) and preschool children (1–6 years) is the systematic process of selecting and scheduling age-appropriate foods to meet the specific nutrient requirements (energy, protein, fat, vitamins, minerals) for rapid growth, development, and immunity, while respecting ______ readiness (e.g., chewing, swallowing, self-feeding) and cultural feeding practices.",
+     "a": "developmental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a young ______ asking: \"My baby is 8 months old and my older child is 4.",
+     "a": "mother",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can design a one-day balanced menu for a 9-month-old infant (including breast milk, complementary foods, and finger foods) and a 4-year-old preschooler (three main meals + two snacks) using ICMR food groups and RDAs, and justify each food choice by its nutrient contribution and developmental appropriateness.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a young mother asking: \"My baby is 8 months old and my older child is 4.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

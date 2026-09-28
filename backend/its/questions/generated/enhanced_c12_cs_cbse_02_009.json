@@ -22,7 +22,7 @@
     },
     {
      "q": "Compare circuit switching and packet switching on the following dimensions: (a) connection setup delay, (b) per-packet/per-bit delay during transfer, (c) robustness to link failure. Present as a table.",
-     "a": "| Dimension | Circuit Switching | Packet Switching |\n|---|---|---|\n| (a) Setup delay | High (path reservation before data) | Low/None (datagram) or moderate (virtual circuit) |\n| (b) Transfer delay | Constant, low (no queuing once reserved) | Variable (queuing, routing per packet) |\n| (c) Robustness | Low (path break tears down session) | High (packets reroute around failure) |\nA wrong answer that swaps (b) or claims packet switching has constant delay reveals misunderstanding of queuing in shared links. A wrong answer claiming circuit switching is robust reveals ignorance of single-path dependency.",
+     "a": "| Dimension | Circuit Switching | Packet Switching |\n|---|---|---|\n| (a) Setup delay | High (path reservation before data) | Low/N/A (datagram) or moderate (virtual circuit) |\n| (b) Transfer delay | Constant, low (no queuing once reserved) | Variable (queuing, routing per packet) |\n| (c) Robustness | Low (path break tears down session) | High (packets reroute around failure) |\nA wrong answer that swaps (b) or claims packet switching has constant delay reveals misunderstanding of queuing in shared links. A wrong answer claiming circuit switching is robust reveals ignorance of single-path dependency.",
      "self_check": true
     },
     {
@@ -33,6 +33,21 @@
     {
      "q": "Design a hybrid network scenario for a smart factory where both circuit-switched and packet-switched segments coexist. Describe the traffic types assigned to each and the interconnection point.",
      "a": "Example: Factory floor sensors (temperature, pressure) send periodic small bursts → packet-switched Ethernet to local gateway. Robotic arm control loops require 1 ms cycle time with zero jitter → circuit-switched (or time-sensitive networking TSN) dedicated fibers to motion controller. Interconnection: Gateway router with TSN-capable ports bridges packet domain to circuit domain, using priority queuing to give control traffic precedence. A poor answer assigns all traffic to one technique or fails to specify the bridging mechanism, showing lack of synthesis.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Circuit switching establishes a dedicated end-to-end physical path between sender and receiver for the entire ______ session, reserving bandwidth regardless of usage.",
+     "a": "communication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are on a phone call (circuit switched) versus sending a ______ message (packet switched).",
+     "a": "WhatsApp",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) explain the fundamental operational difference between circuit and packet switching using the concepts of resource reservation vs. statistical multiplexing, and (2) given a communication scenario (e.g., live video call vs. email), justify which switching technique is more appropriate with at least two technical.",
      "self_check": true
     }
    ]

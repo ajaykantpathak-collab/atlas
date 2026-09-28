@@ -34,6 +34,26 @@
      "q": "Design a simple thought experiment using a balloon filled with helium and another with argon, both at room temperature, to demonstrate the difference in rms speeds without measuring speed directly. What observable phenomenon would you use?",
      "a": "Good answer: Use rate of diffusion/effusion. Helium balloon deflates faster than argon balloon because lighter He atoms have higher \\(v_{\\text{rms}}\\) and escape through microscopic pores faster (Graham's law). Or: Inhale helium vs argon (not recommended) – voice pitch changes due to speed of sound \\(\\propto v_{\\text{rms}}\\). A poor answer suggests measuring temperature change or pressure, which does not directly show molecular speed difference.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Root mean square (rms) speed is the square root of the mean of the squares of the speeds of all ______ in a gas sample.",
+     "a": "molecules",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ cooker whistle: steam escapes at high speed, creating sound.",
+     "a": "pressure",
+     "self_check": true
+    },
+    {
+     "q": "What is Root mean square (rms) speed? State the definition given in this lesson.",
+     "a": "Root mean square (rms) speed is the square root of the mean of the squares of the speeds of all molecules in a gas sample.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Root mean square (rms) speed?",
+     "a": "Another error: using Celsius temperature in the formula because \"the 273 cancels out\" – it does not; absolute zero is the reference for kinetic energy.",
+     "self_check": true
     }
    ]
   }

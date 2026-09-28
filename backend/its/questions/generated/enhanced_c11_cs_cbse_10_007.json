@@ -34,6 +34,31 @@
      "q": "Design a new expression containing at least three different bracket types that is balanced, and another that is unbalanced due to a *missing* opening bracket (not a mismatch). Show the stack trace for both.",
      "a": "Balanced: `{[(])}`? Wait, that's mismatched. Let's create a correct one: `({[]})` (already used). Another: `{[()()]}`. Unbalanced due to missing opening bracket: `()]}` – stack trace: `]` → stack empty → error. A poor answer might give an unbalanced expression with mismatched types instead of missing opening bracket, showing the student cannot isolate specific failure modes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Balancing parentheses is a classic stack ______ that verifies whether an arithmetic or logical expression has correctly matched and properly nested opening and closing brackets (parentheses (), square brackets [], curly braces {}).",
+     "a": "application",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are debugging a Python program and the ______ reports a SyntaxError: unmatched ')'.",
+     "a": "interpreter",
+     "self_check": true
+    },
+    {
+     "q": "What is Balancing parentheses? State the definition given in this lesson.",
+     "a": "Balancing parentheses is a classic stack application that verifies whether an arithmetic or logical expression has correctly matched and properly nested opening and closing brackets (parentheses (), square brackets [], curly braces {}).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Balancing parentheses?",
+     "a": "Students often believe that checking only the final stack emptiness is sufficient.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) trace the stack-based algorithm step-by-step for a given expression containing multiple bracket types, (2) implement the algorithm in Python using a list as a stack, and (3) explain why the LIFO property is essential for detecting improper nesting (e.g., ([)]).",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a new scenario (different from the worked examples) where a company has both Equity and Preference Share Capital, with some shares issued for consideration other than cash, some forfeited and re‑issued, and some calls in advance. Write the complete Share Capital section of the Balance Sheet (main head + Note to Accounts) with all Schedule III mandatory disclosures. Include at least one shareholder holding >5%.",
      "a": "A good answer will:\n1. Define two classes: Equity (₹10 face) and 8% Preference (₹100 face).\n2. Show Authorised, Issued, Subscribed (fully/partly paid), Called‑up, Less Calls in Arrears, Add Forfeited, Paid‑up for EACH class separately.\n3. Note to Accounts:\n   a. Reconciliation of number of shares (opening, issued for cash, issued for non‑cash, forfeited, re‑issued, buyback, closing) for each class.\n   b. Shareholders holding >5% (name, no. of shares, %).\n   c. Aggregate of bonus shares, non‑cash issues, buybacks in last 5 years for each class.\n   d. Calls unpaid by directors/officers.\n   e. Calls in Advance shown under Other Current Liabilities (not in Share Capital).\n   f. Terms of conversion for convertible preference shares (if any).\nExample skeleton:\nEquity: Authorised 50L shares ₹10 = ₹5 Cr; Issued 40L; Subscribed 38L (35L fully paid, 3L partly paid ₹8 called); Calls in Arrears ₹6L; Forfeited 1L shares originally ₹6 paid = ₹6L; Paid‑up = ₹3.5Cr + ₹2.4Cr - ₹6L + ₹6L = ₹3.54Cr? Wait, recalc: 35L×10=3.5Cr; 3L×8=24L; Called‑up=3.74Cr; Less arrears 3L×2=6L → 3.68Cr; Add forfeited 1L×6=6L → 3.74Cr.\nPreference: Authorised 10L shares ₹100 = ₹10 Cr; Issued 8L; Subscribed 7.5L fully paid; Forfeited 0.5L originally ₹80 paid = ₹40L; Paid‑up = 7.5Cr + 0.4Cr = 7.9Cr.\nNon‑cash issue: 2L equity shares to vendor for machinery.\n>5% holder: Promoter Group 10L equity (26.3%).\nCalls in Advance: ₹2L (equity) shown under Other Current Liabilities.\nThis tests ability to synthesise all disclosure requirements simultaneously.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Presentation of Share Capital in the Balance Sheet as per Schedule III, Part I of the Companies Act, 2013 requires a company to disclose its share capital under \"Equity and Liabilities → Shareholders' Funds → Share Capital\" with detailed break‑up for each class (equity/preference): Authorised, Issued, Subscribed (fully paid‑up, partly paid‑up), Called‑up, Paid‑up, less Calls in Arrears, plus Forfeited Shares amount, along with mandatory Notes to Accounts showing ______ of shares, shareholders holding >5%, bonus/buyback/non‑cash issues in last 5 years, and calls unpaid by directors/officers.",
+     "a": "reconciliation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the accountant of \"______ Ltd.\" which has just completed its IPO.",
+     "a": "TechNova",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can prepare the Share Capital section of a company's Balance Sheet (with Notes to Accounts) from given transaction data, correctly classifying each capital category and disclosing all Schedule III mandatory items, and can explain why each disclosure is required.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the ______ of \"TechNova Ltd.\" which has just completed its IPO.",
+     "a": "accountant",
+     "self_check": true
     }
    ]
   }

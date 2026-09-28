@@ -34,6 +34,26 @@
      "q": "Create a multiplication sentence involving two negative integers whose product is equal to 150, and explain your reasoning.",
      "a": "An acceptable answer is $(-10) \\times (-15) = 150$ or $(-5) \\times (-30) = 150$. Reasoning: Find two factors of 150 (such as 10 and 15) and make both negative so their product is positive 150. A student who gives numbers that multiply to $-150$ or do not multiply to 150 has failed either the factor check or the sign rule.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ of two negative integers always yields a positive product because multiplying opposite directions on a number line twice reverses the orientation back to the positive side.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are playing a video game where walking backwards (negative ______) away from a trap is rewarded, but your scorekeeper reverses your penalties twice!",
+     "a": "direction",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can compute the product of any two negative integers by multiplying their absolute values and assigning a positive sign, and can justify why the product of two negatives is positive using patterns or number line movements.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are playing a video game where walking backwards (negative direction) away from a trap is rewarded, but your ______ reverses your penalties twice!",
+     "a": "scorekeeper",
+     "self_check": true
     }
    ]
   }

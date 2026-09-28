@@ -34,6 +34,26 @@
      "q": "Design a simple experiment to distinguish between a fresh and a used dry cell without using a voltmeter. Explain the chemical basis.",
      "a": "Drop the cell vertically on a hard surface from ~2 cm height. Fresh cell: thud, stays upright (dense, moist paste). Used cell: bounces (paste dries, becomes porous, gas evolution creates internal pressure). Chemical basis: As cell discharges, NH₄Cl/ZnCl₂ paste loses moisture, MnO₂ reduces to MnO(OH), and NH₃ gas forms — increasing porosity and decreasing density. A poor answer suggesting \"weigh the cell\" (mass change negligible) or \"shake and listen\" (subjective) shows lack of connection between electrochemistry and physical properties.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A battery is a galvanic cell (or series of galvanic cells) that converts chemical energy from spontaneous redox reactions into electrical energy; primary batteries are single-use (______ reactions), while secondary batteries are rechargeable (reversible reactions) where passing current in opposite direction restores reactants.",
+     "a": "irreversible",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a TV remote — it uses dry cells that eventually die and must be replaced.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write balanced half-reactions and overall cell reactions for dry cell, mercury cell, lead storage battery, and nickel-cadmium cell; can identify anode/cathode materials and electrolytes; can explain why mercury cell voltage remains constant while dry cell voltage drops; can calculate theoretical cell potential from standard.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a TV remote — it uses dry cells that ______ die and must be replaced.",
+     "a": "eventually",
+     "self_check": true
     }
    ]
   }

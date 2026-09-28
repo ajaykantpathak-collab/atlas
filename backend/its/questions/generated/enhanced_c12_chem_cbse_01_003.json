@@ -34,6 +34,21 @@
      "q": "Design a procedure to determine the molar mass of an unknown non-volatile solute using only a balance, a volumetric flask, and the freezing point depression method. List the measurements needed and the formula connecting them. (K_f for water = 1.86 K kg mol⁻¹)",
      "a": "Procedure: (1) Weigh ~10 g unknown solute (w₂). (2) Weigh ~100 g water (w₁) in a container. (3) Dissolve solute in water. (4) Measure freezing point depression ΔT_f. (5) Use M₂ = (K_f × w₂ × 1000) / (ΔT_f × w₁). Measurements: w₂, w₁, ΔT_f. Formula derived from ΔT_f = K_f × m and m = (w₂/M₂) / (w₁/1000). A poor answer omits the 1000 factor (unit conversion g→kg) or uses molarity instead of molality, revealing confusion between volume-based and mass-based concentration terms.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Concentration of a solution ______ expresses the amount of solute present in a given amount of solution or solvent.",
+     "a": "quantitatively",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bottle of ______ vinegar labelled \"5% acetic acid by mass\" and a laboratory reagent bottle labelled \"1 M NaOH\".",
+     "a": "commercial",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Convert between mass %, mole fraction, and molarity given density and molar masses; (2) Calculate the required mass/volume of solute/solvent to prepare a solution of specified concentration; (3) Identify which concentration term is appropriate for a given physical situation (e.g., colligative properties → mole.",
+     "self_check": true
     }
    ]
   }

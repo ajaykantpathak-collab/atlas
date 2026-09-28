@@ -20,7 +20,7 @@
     "why is adaptation necessary for survival",
     "list the main features of adaptation"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,16 @@
      "action": "verify survival advantage",
      "explain": "confirm that each matched trait directly improves the organism's ability to obtain food, water, or shelter in that habitat."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "survival = adaptation + environment",
+     "compute": "survival = adaptation + environment"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fesc.9.2.2",
@@ -54,7 +63,7 @@
     "classify the given environment as terrestrial or aquatic",
     "explain habitat classification in your own words"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -71,7 +80,16 @@
      "action": "list examples",
      "explain": "provide representative organisms for the category (e.g., desert fox and camel for terrestrial, fish and lotus for aquatic) to confirm the classification."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "habitat = terrestrial + aquatic",
+     "compute": "habitat = terrestrial + aquatic"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fesc.9.2.3",
@@ -88,7 +106,7 @@
     "how do abiotic factors affect plant growth",
     "list the main features of biotic and abiotic components"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -105,7 +123,16 @@
      "action": "verify ecosystem balance",
      "explain": "confirm that both biotic and abiotic components are present and interacting, since an ecosystem requires both to function."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ecosystem = biotic_components + abiotic_components",
+     "compute": "ecosystem = biotic_components + abiotic_components"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fesc.9.4.1",

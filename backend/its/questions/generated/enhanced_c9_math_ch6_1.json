@@ -31,8 +31,23 @@
      "self_check": true
     },
     {
-     "q": "Create a real-world problem where a farmer has 200 m of fencing wire to make a rectangular pen for goats. The length must be 10 m more than twice the breadth. Write the problem statement, define variables, form the equation, and solve for dimensions. Then calculate the area of the pen.",
-     "a": "Problem: \"A farmer has 200 m fencing. Length = 2 × breadth + 10. Find dimensions and area.\" Let breadth = $b$, length = $2b+10$. $P = 2(b + 2b+10) = 2(3b+10) = 6b+20 = 200 \\Rightarrow 6b=180 \\Rightarrow b=30$ m. Length = $70$ m. Area = $30 \\times 70 = 2100$ m². A poor answer might omit the \"twice the breadth\" translation to $2b$, or forget to multiply by 2 in the perimeter formula, or calculate area as $30+70=100$. This reveals whether the student can translate verbal conditions into algebraic expressions and execute the full solution chain.",
+     "q": "A farmer has 200 m of fencing, and the length must be 10 m more than twice the breadth. Calculate the breadth of the pen in metres.",
+     "a": "Let the breadth be b, so the length is 2b + 10: Perimeter = 2(b + 2b + 10) = 6b + 20 = 200, giving b = 30 m. A wrong answer that forgets to double the breadth term, or drops the 2 from the perimeter formula, shows the student cannot translate the words twice the breadth into algebra before solving.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The perimeter of a plane figure is the total length of its boundary, ______ as the sum of the lengths of all its sides.",
+     "a": "calculated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your family fence a ______ garden that is 12 metres long and 8 metres wide.",
+     "a": "rectangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can solve multi-step perimeter problems involving algebraic expressions for side lengths, find missing dimensions given perimeter and other conditions, and solve real-world problems combining perimeter with unit conversions and cost calculations.",
      "self_check": true
     }
    ]

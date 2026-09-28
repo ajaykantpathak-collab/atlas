@@ -34,6 +34,31 @@
      "q": "Create an algebraic expression with exactly four terms that simplifies to \\(5x^2y - 3xy^2\\) after combining like terms. Your expression must include at least two different variable parts and at least one pair of like terms that cancel each other out (sum to zero).",
      "a": "One possible expression: \\(7x^2y - 2x^2y - 3xy^2 + 4xy - 4xy\\). Here \\(7x^2y\\) and \\(-2x^2y\\) are like terms combining to \\(5x^2y\\); \\(4xy\\) and \\(-4xy\\) cancel to zero; \\(-3xy^2\\) remains. The simplified form is \\(5x^2y - 3xy^2\\). A poor answer that doesn't include a cancelling pair or doesn't simplify to the target shows the student cannot work backwards from a simplified form or doesn't understand that like terms can sum to zero.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Like terms are algebraic terms that have exactly the same variable part, meaning identical variables raised to identical powers; only their numerical ______ may differ.",
+     "a": "coefficients",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You naturally ______ mangoes with mangoes and apples with apples because they are different items.",
+     "a": "group",
+     "self_check": true
+    },
+    {
+     "q": "What is Like terms? State the definition given in this lesson.",
+     "a": "Like terms are algebraic terms that have exactly the same variable part, meaning identical variables raised to identical powers; only their numerical coefficients may differ.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Like terms?",
+     "a": "They treat the variable part as a bag of letters ignoring the power of each variable.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify like and unlike terms in multi-variable expressions (up to three variables, powers up to 3), combine like terms by adding/subtracting coefficients while preserving the variable part, and simplify algebraic expressions by collecting all like terms.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a decision flowchart (text-based) that a Census enumerator could use to classify any settlement in India as Rural, Statutory Town, or Census Town. Use only the official Census 2011 criteria. Your flowchart must handle the case where a settlement has statutory status but fails the quantitative criteria.",
      "a": "```\nSTART\n→ Does the settlement have a statutory urban local body (Municipal Corp/Council/Nagar Panchayat)?\n   → YES → Classify as STATUTORY TOWN (Urban) → END\n   → NO  → Check three criteria:\n           (a) Population ≥ 5,000?\n           (b) ≥ 75% male main workers in non-agricultural?\n           (c) Density ≥ 400 persons/km²?\n           → All three YES → Classify as CENSUS TOWN (Urban) → END\n           → Any NO → Classify as RURAL → END\n```\nA poor answer that puts population check first or omits the statutory town bypass reveals the student doesn't grasp the hierarchical logic: legal status trumps quantitative criteria in Indian Census.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A human settlement is a cluster of dwellings where human beings live and interact, ______ by a distinct spatial pattern, social organization, and economic function.",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your own neighbourhood: some students live in a village with farms and a panchayat, others in a city with traffic signals and a municipal ______.",
+     "a": "corporation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can define human settlement using the three defining attributes (spatial, social, economic), list the five Census of India criteria for urban classification, and correctly classify a given settlement as rural or urban by applying those criteria to a case description.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your own ______: some students live in a village with farms and a panchayat, others in a city with traffic signals and a municipal corporation.",
+     "a": "neighbourhood",
+     "self_check": true
     }
    ]
   }

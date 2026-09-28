@@ -136,7 +136,7 @@
     "How does mixing affect the properties of substances?",
     "Identify a change caused by mixing two materials."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -148,7 +148,16 @@
      "action": "check for separation methods",
      "explain": "If evaporation or filtration can recover the parts, it is reversible."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mixture = substance_a + substance_b",
+     "compute": "mixture = substance_a + substance_b"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fesc.6.2.4",
@@ -184,6 +193,21 @@
      "action": "subtract final from initial",
      "explain": "The difference represents the amount of material lost.",
      "compute": "length_lost = initial - final"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "length_lost = initial_length - final_length",
+     "compute": "length_lost = initial_length - final_length"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "fesc.6.2.4",
+     "question_pattern": "What is the reduction in length if the initial was {initial_length} and final is {final_length}"
     }
    ]
   },
@@ -222,7 +246,16 @@
      "explain": "The result is the weight_gain.",
      "compute": "weight_gain = current - previous"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "weight_gain = current_weight - previous_weight",
+     "compute": "weight_gain = current_weight - previous_weight"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

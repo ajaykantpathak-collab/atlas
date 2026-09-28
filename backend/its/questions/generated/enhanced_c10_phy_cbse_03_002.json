@@ -34,6 +34,31 @@
      "q": "Design a simple classroom demonstration using everyday materials (plastic bottles, straws, a small DC motor, LED) to model the working of a hydro power plant. List the materials, sketch the setup, and explain how each part represents a component of a real hydro plant.",
      "a": "Materials: 2L plastic bottle (dam/reservoir), straw/tube (penstock), small plastic spoon wheel glued to DC motor shaft (turbine+generator), LED (load), water. Setup: Make a hole near bottle bottom, insert straw, seal. Attach motor with spoon wheel at straw outlet. Connect LED to motor terminals. Pour water into bottle → water jets out straw → spins spoon wheel → motor generates electricity → LED glows. Mapping: Bottle = dam (potential energy), Straw = penstock (directed kinetic energy), Spoon wheel = turbine (mechanical energy), Motor = generator (electrical energy), LED = consumer. A poor answer (e.g., just \"pour water on motor\") misses the penstock's role in converting potential to directed kinetic energy and the motor acting as a generator.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A thermal power plant converts the chemical energy of fossil fuels (coal, oil, natural gas) into electrical energy through a sequence of energy ______: chemical energy → heat energy → mechanical energy (steam turbine) → electrical energy (generator).",
+     "a": "transformations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the ______ powering your home — it travels through transmission lines from a power plant.",
+     "a": "electricity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key formula linking them is efficiency = (Electrical energy output / Input energy from fuel or water) × ______%.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can draw a labeled flowchart showing the sequence of energy conversions in both thermal and hydro power plants, identify the key components (boiler, turbine, generator, condenser, dam, penstock), and explain the role of each component in the energy transformation chain.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the electricity powering your home — it travels through ______ lines from a power plant.",
+     "a": "transmission",
+     "self_check": true
     }
    ]
   }

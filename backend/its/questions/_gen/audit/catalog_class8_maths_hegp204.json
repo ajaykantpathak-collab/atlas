@@ -42,9 +42,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "tri = 14 * (14 + 1) / 2"
-   ]
+   "steps_chain": []
   },
   {
    "id": "hegp.204.4.2",
@@ -219,9 +217,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "edges = 8"
-   ]
+   "steps_chain": []
   },
   {
    "id": "hegp.204.4.6",
@@ -267,9 +263,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "edges = 9"
-   ]
+   "steps_chain": []
   }
  ]
 }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch12_3",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch12_3",
+   "title": "c9_math_ch12_3",
+   "questions": [
+    {
+     "q": "In parallelogram PQRS, if side PQ = 8 cm and side QR = 5 cm, what are the lengths of RS and SP?",
+     "a": "RS = 8 cm and SP = 5 cm. A wrong answer like RS = 5 cm or SP = 8 cm reveals the student is confusing adjacent sides with opposite sides — they think consecutive sides are equal, which is only true for a rhombus, not every parallelogram.",
+     "self_check": true
+    },
+    {
+     "q": "In parallelogram ABCD, ∠A = 70°. A student says ∠B = 70° because \"opposite angles are equal.\" Is the student correct? Explain why or why not.",
+     "a": "The student is incorrect. ∠A and ∠C are opposite angles, so ∠C = 70°. ∠A and ∠B are adjacent (consecutive) angles; in a parallelogram, adjacent angles are supplementary (sum to 180°), so ∠B = 110°. A wrong answer shows the student cannot distinguish between opposite and adjacent angles — a fundamental vocabulary gap.",
+     "self_check": true
+    },
+    {
+     "q": "Parallelogram WXYZ has WX = 12 cm and ∠W = 110°. Find the perimeter of WXYZ and the measure of ∠Y.",
+     "a": "Opposite sides are equal: XY = WZ = 12 cm? Wait — only WX = ZY = 12 cm and WZ = XY (unknown). The problem gives only one side length, so perimeter cannot be found numerically. ∠Y is opposite ∠W, so ∠Y = 110°. A student who computes perimeter as 48 cm assumes all sides are equal (rhombus error). A student who says ∠Y = 70° confuses opposite with adjacent angles.",
+     "self_check": true
+    },
+    {
+     "q": "Two parallelograms have the same side lengths: 6 cm and 9 cm. Must they be congruent? Justify your answer.",
+     "a": "No. Side lengths alone do not determine a parallelogram uniquely — the included angle can vary. For example, one parallelogram could have a 60° angle between the 6 cm and 9 cm sides, another a 120° angle; both have sides 6, 9, 6, 9 but different shapes and areas. A \"yes\" answer reveals the student thinks side-side-side-side guarantees congruence for quadrilaterals (it doesn't — unlike triangles).",
+     "self_check": true
+    },
+    {
+     "q": "A student proves opposite sides of a parallelogram are equal by drawing diagonal BD instead of AC and claiming ΔABD ≅ ΔCDB by ASA using alternate interior angles. Is this proof valid? Explain.",
+     "a": "Yes, the proof is valid. Diagonal BD creates triangles ABD and CDB. AB || CD gives ∠ABD = ∠CDB (alternate interior). AD || BC gives ∠ADB = ∠CBD (alternate interior). BD is common. So ΔABD ≅ ΔCDB by ASA, giving AB = CD and AD = BC by CPCT. A \"no\" answer shows the student doesn't recognize that either diagonal works symmetrically — they think only one specific diagonal is \"correct.\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a parallelogram problem where a student must use BOTH the opposite sides property AND the angle sum property of a quadrilateral (360°) to find all four angles, given only one angle expression like (2x + 10)° for ∠A and (3x - 20)° for ∠B.",
+     "a": "A good problem: \"In parallelogram ABCD, ∠A = (2x + 10)° and ∠B = (3x - 20)°. Find all four angles.\" Solution: Adjacent angles are supplementary → (2x+10)+(3x-20)=180 → 5x-10=180 → 5x=190 → x=38. Then ∠A=86°, ∠B=94°, ∠C=86° (opposite ∠A), ∠D=94° (opposite ∠B). Check: 86+94+86+94=360. A poor problem would give only one angle or make x cancel out, failing to test both properties together.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

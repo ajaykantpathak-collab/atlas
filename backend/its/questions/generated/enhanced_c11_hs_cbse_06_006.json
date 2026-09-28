@@ -34,6 +34,26 @@
      "q": "Design a mini communication plan for a community health worker to convince rural mothers to adopt oral rehydration therapy (ORT) for diarrhoea. Specify each SMCRE element with context-appropriate choices.",
      "a": "A strong answer includes: Source = trusted local ASHA worker; Message = simple ORS preparation steps in local dialect with visual aids; Channel = home visits + demonstrations at village meetings + folk songs; Receiver = mothers of children under 5, grouped by literacy level; Effect = follow-up home visits to check ORS preparation and child recovery. A weak answer that uses generic choices (e.g., \"Source: doctor, Channel: pamphlet\") shows inability to tailor elements to the specific socio-cultural context.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The SMCRE model is a linear framework that describes the communication process through five sequential elements: Source (sender), Message (content), Channel (medium), Receiver (audience), and Effect (feedback/response), emphasizing that effective communication requires skillful handling of each element to achieve shared ______.",
+     "a": "understanding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class representative and must inform all Class 11 students about a sudden change in the exam ______.",
+     "a": "timetable",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can label all five elements of the SMCRE model in a given communication scenario and explain how a breakdown in any single element leads to communication failure.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class ______ and must inform all Class 11 students about a sudden change in the exam timetable.",
+     "a": "representative",
+     "self_check": true
     }
    ]
   }

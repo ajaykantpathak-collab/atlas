@@ -34,6 +34,36 @@
      "q": "Design a BLAST workflow to identify potential orthologs of a human kinase gene (query length 450 aa) in a newly sequenced plant genome (assembled scaffolds, not annotated). Specify program, database preparation, parameter adjustments, and post-processing steps to distinguish orthologs from paralogs.",
      "a": "Workflow: (1) Program: tblastn — protein query against translated plant genome (six-frame). (2) Database: create BLAST db from scaffold FASTA (makeblastdb -dbtype nucl). (3) Parameters: E-value 1e-10 (stringent), BLOSUM62, soft masking on, -max_target_seqs 20, -qcov_hsp_perc 70 (require 70% query coverage). (4) Post-process: reciprocal best hit (RBH) — take top plant hit, blastp against human proteome; if original human kinase is top hit, likely ortholog. (5) Phylogenetic check: align candidate orthologs with kinase family, build tree (ClustalW/RAxML) — orthologs cluster by speciation, not duplication. A poor answer uses blastp on unannotated genome (no protein db), skips RBH, or relies solely on E-value — missing gene duplication/paralogy distinction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: BLAST (Basic Local Alignment Search Tool) is a heuristic algorithm for rapid sequence similarity searching that identifies local alignments between a query sequence and a database by finding high-scoring segment pairs (HSPs) through seed-and-extend methodology, using ______ matrices (BLOSUM/PAM) and Karlin-Altschul statistics to assess statistical significance via E-values and bit scores.",
+     "a": "substitution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just ______ a novel gene from a drought-tolerant rice variety and want to know its function — you paste the sequence into NCBI BLAST and get 100 hits in seconds.",
+     "a": "sequenced",
+     "self_check": true
+    },
+    {
+     "q": "What is BLAST (Basic Local Alignment Search Tool)? State the definition given in this lesson.",
+     "a": "BLAST (Basic Local Alignment Search Tool) is a heuristic algorithm for rapid sequence similarity searching that identifies local alignments between a query sequence and a database by finding high-scoring segment pairs (HSPs) through seed-and-extend methodology, using substitution matrices (BLOSUM/PAM) and Karlin-Altschul statistics to.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just sequenced a novel gene from a drought-tolerant rice variety and want to know its function — you paste the sequence into NCBI BLAST and get ______ hits in seconds.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about BLAST (Basic Local Alignment Search Tool)?",
+     "a": "Students often believe BLAST finds the \"best\" global alignment like Needleman-Wunsch.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Explain the seed-and-extend heuristic with word size (W), neighborhood threshold (T), and two-hit requirement; (2) Calculate and interpret E-value and bit score from raw alignment score using Karlin-Altschul parameters λ and K; (3) Select appropriate BLAST program (blastn, blastp, blastx, tblastn, tblastx) for a given.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Create a realistic scenario where THREE different unrecorded transactions exist simultaneously, requiring adjustments. Write the additional information as it would appear in a board exam question, then list the journal entries needed.",
      "a": "Scenario: \"Additional Information: (1) Goods costing ₹12,000 were taken by proprietor for personal use; no entry passed. (2) Wages ₹8,000 paid for construction of a showcase were debited to Wages Account. (3) Interest on capital @ 10% p.a. on opening capital ₹5,00,000 is to be provided; no entry passed.\" \nJournal Entries:\n(1) Drawings A/c Dr. 12,000 To Purchases A/c 12,000\n(2) Showcase A/c Dr. 8,000 To Wages A/c 8,000\n(3) Interest on Capital A/c Dr. 50,000 To Capital A/c 50,000\nA poor answer would miss any one adjustment, or debit/credit wrong accounts (e.g., crediting Sales instead of Purchases for goods withdrawn), revealing inability to trace the original incorrect entry and reverse it correctly.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Unrecorded ______ are business events that have occurred but were not entered in the books of account during the accounting period; they require adjustment entries to ensure financial statements reflect a true and fair view.",
+     "a": "transactions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're auditing a small retail ______ and discover the owner took ₹15,000 worth of goods for personal Diwali gifts but recorded it as regular sales.",
+     "a": "business",
+     "self_check": true
+    },
+    {
+     "q": "What is Unrecorded transactions? State the definition given in this lesson.",
+     "a": "Unrecorded transactions are business events that have occurred but were not entered in the books of account during the accounting period; they require adjustment entries to ensure financial statements reflect a true and fair view.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Unrecorded transactions?",
+     "a": "Students treat \"unrecorded transactions\" as a separate category of adjustments like \"outstanding expenses\" and memorise journal entries for each type.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) identify unrecorded transactions from additional information, pass correct journal entries, and show their dual effect in Trading/P&L Account and Balance Sheet; (2) calculate manager's commission under both \"before commission\" and \"after commission\" methods using the correct formula, and present it.",
+     "self_check": true
     }
    ]
   }

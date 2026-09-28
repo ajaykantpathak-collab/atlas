@@ -34,6 +34,31 @@
      "q": "Create a real-world scenario (with a small frequency table) where the frequency curve would be U-shaped. Explain why the data would produce such a shape.",
      "a": "Example: Distribution of ages at a community event with many children and many elderly but few middle-aged adults. Frequency table: Age 0-20: 30, 20-40: 5, 40-60: 5, 60-80: 30. The curve is U-shaped because frequencies are high at both ends and low in the middle. A poor answer (e.g., giving a bell-shaped scenario) reveals the student cannot connect data patterns to curve shapes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A frequency curve is a smooth, freehand curve drawn through the midpoints of the tops of the rectangles of a histogram (or the points of a frequency polygon) that represents the limiting form of a frequency ______ as the number of observations increases and the class interval width decreases.",
+     "a": "distribution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have the daily wages of 100 ______ in a factory grouped into classes.",
+     "a": "workers",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have the daily wages of ______ workers in a factory grouped into classes.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can sketch a frequency curve from a given frequency polygon, identify the type of frequency curve (symmetrical, skewed, U-shaped, etc.), and explain how the shape relates to the concentration of data values.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you have the daily wages of 100 workers in a factory grouped into classes.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

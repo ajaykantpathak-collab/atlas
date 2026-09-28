@@ -5,6 +5,8 @@
    "id": "jemh.108.8.1",
    "title": "Trigonometric Ratios",
    "converted_to_compute": false,
+   "formula": "sin_a = opposite / hypotenuse",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a right triangle the sides adjacent to the right angle are 3 and 4, and the hypotenuse is 5. Find sin of the angle opposite the side 3. (give the fraction)",
@@ -13,7 +15,7 @@
     },
     {
      "q": "For the same triangle (legs 3 and 4, hypotenuse 5), find cos of the angle opposite the side 4. (give the fraction)",
-     "a": "4/5",
+     "a": "0.6",
      "self_check": false
     },
     {
@@ -41,15 +43,9 @@
   {
    "id": "jemh.108.8.2",
    "title": "Ratios of 45, 30 and 60 Degrees",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "set up the proportion and solve for the unknown part",
-     "explain": "set up the proportion and solve for the unknown part: t1 = 24 / 4 gives 6",
-     "compute": "t1 = 24 / 4"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 24 : 44 in its simplest form and give the first term of the simplest form.",
@@ -87,6 +83,8 @@
    "id": "jemh.108.8.3",
    "title": "Trigonometric Identities",
    "converted_to_compute": false,
+   "formula": "sum_sq = sin_a * sin_a + cos_a * cos_a",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Verify sin^2 A + cos^2 A = 1 for the right triangle with legs 7, 24 and hypotenuse 25 by computing (7/25)^2 + (24/25)^2.",

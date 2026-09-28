@@ -34,6 +34,31 @@
      "q": "Design a simple home-scale experiment to demonstrate that CO₂ evolution during grape juice fermentation is directly proportional to sugar consumption, using only household materials. List the measurable variables and the expected graph shape.",
      "a": "Setup: 3 identical bottles with 200 mL pasteurised grape juice + 0g, 10g, 20g added sucrose; inoculate each with 0.5g baker's yeast; fit balloons over necks. Measure balloon circumference (proxy for CO₂ volume) and final specific gravity (hydrometer or weight loss) daily for 7 days. Variables: independent = initial sugar concentration; dependent = CO₂ volume (balloon size) and residual sugar (gravity drop). Expected graph: sigmoidal CO₂ curve plateauing when sugar depletes or ethanol inhibits; linear correlation between total CO₂ and sugar consumed (2 mol CO₂ per mol glucose). A poor design (no control, no sugar gradient, measuring only time) shows inability to isolate variables — a skill tested in CBSE practical exams and CUET experimental reasoning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Microbes in beverage production refers to the controlled use of specific ______, primarily the yeast *Saccharomyces cerevisiae*, to anaerobically ferment fermentable sugars (glucose, fructose, maltose) derived from fruits (grapes for wine) or grains (barley for beer) into ethanol and carbon dioxide, with distinct metabolic pathways and process conditions defining the final product's alcohol content, flavor profile, and classification (undistilled vs. distilled).",
+     "a": "microorganisms",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine biting into a ripe grape — it tastes sweet because of glucose and ______.",
+     "a": "fructose",
+     "self_check": true
+    },
+    {
+     "q": "What is Microbes in beverage production? State the definition given in this lesson.",
+     "a": "Microbes in beverage production refers to the controlled use of specific microorganisms, primarily the yeast *Saccharomyces cerevisiae*, to anaerobically ferment fermentable sugars (glucose, fructose, maltose) derived from fruits (grapes for wine) or grains (barley for beer) into ethanol and carbon dioxide, with distinct metabolic.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Microbes in beverage production?",
+     "a": "Students believe that \"yeast produces alcohol as a waste product it wants to get rid of\" — anthropomorphising metabolism.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the biochemical basis of alcoholic fermentation by yeast, differentiate between the production processes of wine, beer, and distilled spirits including the role of malting and distillation, and predict how changes in substrate, temperature, or yeast strain affect the final beverage characteristics.",
+     "self_check": true
     }
    ]
   }

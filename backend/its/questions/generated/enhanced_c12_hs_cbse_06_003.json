@@ -34,6 +34,21 @@
      "q": "Create a novel 3×3 matrix that maps SMCRE elements (rows) against three extension contexts: (a) Digital advisory (mKisan), (b) Farmer Field School (FFS), (c) Krishi Mela. For each cell, specify ONE critical success factor unique to that element-context combination. Example: Source × FFS = \"Facilitator's farming experience\" (not just technical knowledge).",
      "a": "Expected matrix (sample critical factors):\n| Element | mKisan (Digital) | FFS (Participatory) | Krishi Mela (Event) |\n|---------|------------------|---------------------|---------------------|\n| Source | Trust in institutional sender (KVK/ICAR) | Facilitator's local farming credibility | Expert's reputation + live demo skill |\n| Message | Brevity (160 chars), actionable, timely | Co-created, problem-solving, iterative | Visual-heavy, benefit-focused, memorable |\n| Channel | Mobile penetration, language support, IVR for non-literate | Hands-on plots, peer discussion, seasonal cycle | Physical access, crowd flow, demo visibility |\n| Receiver | Digital literacy, phone ownership, trust in SMS | Group cohesion, shared problem, time availability | Motivation to attend, prior awareness, mobility |\n| Effect | Click-through → practice adoption (trackable) | Collective learning → group adoption (observed) | Lead generation → follow-up contact (measurable) |\nA poor answer uses generic factors (e.g., \"clear message\" for all) revealing inability to contextualize SMCRE elements to distinct communication architectures.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The SMCRE model (Source-Message-Channel-Receiver-Effect) is a linear ______ framework that describes the sequential flow of information from a sender (Source) who encodes a Message, transmits it through a Channel, to a Receiver who decodes it, resulting in an Effect (change in knowledge, attitude, or behaviour).",
+     "a": "communication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're an ______ worker trying to convince farmers in a drought-prone village to switch from water-intensive rice to millets.",
+     "a": "extension",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) deconstruct a real-world extension communication scenario into all five SMCRE elements with specific attributes for each, and (2) evaluate why a given communication failed by identifying which element(s) broke down and proposing targeted modifications to source credibility, message design, channel.",
+     "self_check": true
     }
    ]
   }

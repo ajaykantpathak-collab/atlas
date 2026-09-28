@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (using Indian context: rupees, temperature, elevation, etc.) that requires using the distributive property with a negative integer to solve. Write the problem, the expression that models it, and the solution steps.",
      "a": "Example problem: \"The temperature in Leh drops by 3°C every hour for 4 hours, but then rises by 2°C for the next 2 hours. Write an expression for the net change using distributive property and find the net change.\" Expression: \\(-3 \\times 4 + 2 \\times 2\\) or using distributive property on a combined rate: \\(-3(4) + 2(2)\\) doesn't directly show distribution. Better: \"A submarine descends 5 m/min for 6 min, then ascends 3 m/min for 6 min. Net change = \\(-5 \\times 6 + 3 \\times 6 = (-5 + 3) \\times 6 = -2 \\times 6 = -12\\) m.\" A poor answer uses only positive numbers, doesn't require distribution of a negative, or shows no real-world context, indicating inability to connect the abstract property to meaningful situations.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This means multiplying a negative integer by a sum (or difference) is equivalent to multiplying the negative integer by each term inside the bracket and then adding (or subtracting) the results, following the sign rules for integer ______.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you owe your friend ₹5 for each of the 3 samosas you ate, and you also owe ₹2 for a ______.",
+     "a": "chutney",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly expand algebraic expressions and arithmetic expressions involving negative integers using the distributive property, accurately applying sign rules for multiplication of integers (negative × negative = positive, negative × positive = negative) in multi-step simplifications, and can explain why the property works.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you owe your friend ₹5 for each of the 3 samosas you ate, and you also owe ₹2 for a chutney.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

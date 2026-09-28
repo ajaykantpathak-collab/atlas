@@ -34,6 +34,21 @@
      "q": "Design a two-step sequence to convert phenol to 2,4-dihydroxybenzaldehyde using reactions covered in this chapter. Specify reagents and conditions for each step.",
      "a": "Step 1: Kolbe's reaction — phenol + NaOH → sodium phenoxide, then CO₂ (400 K, 4-7 atm) → salicylic acid (2-hydroxybenzoic acid) after acidification. Step 2: Reimer–Tiemann reaction on salicylic acid — CHCl₃ + NaOH → 2,4-dihydroxybenzaldehyde (formylation ortho to –OH, para to –COOH). A poor answer attempting direct Reimer–Tiemann on phenol gives only salicylaldehyde (2-hydroxybenzaldehyde), missing the second –OH introduction. This reveals inability to plan multi-step synthesis using directing effects.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Phenols undergo ______ aromatic substitution reactions where the –OH group strongly activates the benzene ring and directs incoming electrophiles to ortho and para positions via resonance donation of the oxygen lone pair into the aromatic π-system, making phenols far more reactive than benzene toward nitration, halogenation, sulfonation, and Friedel–Crafts reactions.",
+     "a": "electrophilic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how a few drops of bromine water added to phenol in a test tube instantly form a white precipitate of 2,4,6-______ — a reaction so fast it needs no catalyst, unlike benzene which requires FeBr₃.",
+     "a": "tribromophenol",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can predict the major product(s) of nitration, halogenation, sulfonation, and Friedel–Crafts reactions of phenol and substituted phenols, explain the ortho/para directing effect using resonance structures, and distinguish reaction conditions that give mono- vs poly-substituted products.",
+     "self_check": true
     }
    ]
   }

@@ -23,9 +23,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "collect every credit", "explain": "capital balance, current account credit, goodwill slice, reserve share, revaluation gain, profit to the exit date, interest on capital, salary or commission due"},
-    {"step": 2, "action": "collect every deduction", "explain": "current account debit, accumulated loss share, revaluation loss share, loss to the exit date, drawings and interest on drawings"},
-    {"step": 3, "action": "net the claim and settle it", "explain": "the difference is the amount due, paid in full, transferred to a loan account, or cleared in instalments with interest"}
+    {
+     "step": 1,
+     "action": "collect every credit",
+     "explain": "capital balance, current account credit, goodwill slice, reserve share, revaluation gain, profit to the exit date, interest on capital, salary or commission due"
+    },
+    {
+     "step": 2,
+     "action": "collect every deduction",
+     "explain": "current account debit, accumulated loss share, revaluation loss share, loss to the exit date, drawings and interest on drawings"
+    },
+    {
+     "step": 3,
+     "action": "net the claim and settle it",
+     "explain": "the difference is the amount due, paid in full, transferred to a loan account, or cleared in instalments with interest"
+    }
    ]
   },
   {
@@ -45,9 +57,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "value the slice picked up from the leaver", "explain": "multiply the outgoing partner's fraction by the fraction of it that this partner takes", "compute": "acquired_share = outgoing_share_fraction * gain_fraction"},
-    {"step": 2, "action": "add the pickup to the old fraction", "explain": "the continuing partner's new share is old share plus acquired share", "compute": "partner_new_share = old_share_fraction + acquired_share"}
-   ]
+    {
+     "step": 1,
+     "action": "value the slice picked up from the leaver",
+     "explain": "multiply the outgoing partner's fraction by the fraction of it that this partner takes",
+     "compute": "acquired_share = outgoing_share_fraction * gain_fraction"
+    },
+    {
+     "step": 2,
+     "action": "add the pickup to the old fraction",
+     "explain": "the continuing partner's new share is old share plus acquired share",
+     "compute": "partner_new_share = old_share_fraction + acquired_share"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "partner_new_share = old_share_fraction + acquired_share",
+     "compute": "partner_new_share = old_share_fraction + acquired_share"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.103.3.1",
@@ -66,8 +97,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "deduct the old fraction from the new fraction", "explain": "the difference is exactly the share gained from the outgoing partner", "compute": "gaining_share = new_share_fraction - old_share_fraction"}
-   ]
+    {
+     "step": 1,
+     "action": "deduct the old fraction from the new fraction",
+     "explain": "the difference is exactly the share gained from the outgoing partner",
+     "compute": "gaining_share = new_share_fraction - old_share_fraction"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "gaining_share = new_share_fraction - old_share_fraction",
+     "compute": "gaining_share = new_share_fraction - old_share_fraction"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.103.3.2",
@@ -88,9 +133,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "put each continuing partner's old and new share on a common denominator", "explain": "both fractions must be comparable before subtracting"},
-    {"step": 2, "action": "subtract old from new for every continuing partner", "explain": "each difference is that partner's gain"},
-    {"step": 3, "action": "simplify the differences", "explain": "the reduced whole numbers form the gaining ratio"}
+    {
+     "step": 1,
+     "action": "put each continuing partner's old and new share on a common denominator",
+     "explain": "both fractions must be comparable before subtracting"
+    },
+    {
+     "step": 2,
+     "action": "subtract old from new for every continuing partner",
+     "explain": "each difference is that partner's gain"
+    },
+    {
+     "step": 3,
+     "action": "simplify the differences",
+     "explain": "the reduced whole numbers form the gaining ratio"
+    }
    ]
   },
   {
@@ -110,8 +167,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "apply the old fraction to the firm goodwill", "explain": "the leaver's slice of reputation value follows his profit share", "compute": "retiring_goodwill_share = firm_goodwill * old_share_fraction"}
-   ]
+    {
+     "step": 1,
+     "action": "apply the old fraction to the firm goodwill",
+     "explain": "the leaver's slice of reputation value follows his profit share",
+     "compute": "retiring_goodwill_share = firm_goodwill * old_share_fraction"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "retiring_goodwill_share = firm_goodwill * old_share_fraction",
+     "compute": "retiring_goodwill_share = firm_goodwill * old_share_fraction"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.103.4.2",
@@ -130,8 +201,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "compare the payment with the adjusted claim", "explain": "the settlement above the amount already due is the hidden goodwill", "compute": "hidden_goodwill = settlement_amount - amount_due"}
-   ]
+    {
+     "step": 1,
+     "action": "compare the payment with the adjusted claim",
+     "explain": "the settlement above the amount already due is the hidden goodwill",
+     "compute": "hidden_goodwill = settlement_amount - amount_due"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "hidden_goodwill = settlement_amount - amount_due",
+     "compute": "hidden_goodwill = settlement_amount - amount_due"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.103.5.1",
@@ -150,9 +235,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "net the restatements", "explain": "subtract total downward revisions from total upward revisions", "compute": "net_revaluation = gains_total - losses_total"},
-    {"step": 2, "action": "share the net result in the old ratio", "explain": "each partner, including the leaver, takes his old fraction", "compute": "partner_share = net_revaluation * old_share_fraction"}
-   ]
+    {
+     "step": 1,
+     "action": "net the restatements",
+     "explain": "subtract total downward revisions from total upward revisions",
+     "compute": "net_revaluation = gains_total - losses_total"
+    },
+    {
+     "step": 2,
+     "action": "share the net result in the old ratio",
+     "explain": "each partner, including the leaver, takes his old fraction",
+     "compute": "partner_share = net_revaluation * old_share_fraction"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "partner_share = (gains_total - losses_total) * old_share_fraction",
+     "compute": "partner_share = (gains_total - losses_total) * old_share_fraction"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.103.6.1",
@@ -171,8 +275,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "apply the old fraction to the reserve", "explain": "every partner's slice of accumulated profits follows the old ratio", "compute": "partner_share = reserve_amount * old_share_fraction"}
-   ]
+    {
+     "step": 1,
+     "action": "apply the old fraction to the reserve",
+     "explain": "every partner's slice of accumulated profits follows the old ratio",
+     "compute": "partner_share = reserve_amount * old_share_fraction"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "partner_share = reserve_amount * old_share_fraction",
+     "compute": "partner_share = reserve_amount * old_share_fraction"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.103.6.2",
@@ -191,9 +309,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "scale the yearly profit to the elapsed period", "explain": "multiply last year's profit by the months elapsed over twelve", "compute": "accrued_profit = annual_profit * months_elapsed / 12"},
-    {"step": 2, "action": "apply the partner's fraction", "explain": "his profit share of the interim result is the answer", "compute": "partner_share = accrued_profit * share_fraction"}
-   ]
+    {
+     "step": 1,
+     "action": "scale the yearly profit to the elapsed period",
+     "explain": "multiply last year's profit by the months elapsed over twelve",
+     "compute": "accrued_profit = annual_profit * months_elapsed / 12"
+    },
+    {
+     "step": 2,
+     "action": "apply the partner's fraction",
+     "explain": "his profit share of the interim result is the answer",
+     "compute": "partner_share = accrued_profit * share_fraction"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "partner_share = annual_profit * months_elapsed / 12 * share_fraction",
+     "compute": "partner_share = annual_profit * months_elapsed / 12 * share_fraction"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.103.6.3",
@@ -212,10 +349,34 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "average the recent profits", "explain": "divide the total of the reviewed years by the number of years", "compute": "average_profit = profits_total / years_count"},
-    {"step": 2, "action": "scale to the elapsed months", "explain": "multiply the average by months elapsed over twelve", "compute": "period_profit = average_profit * months_elapsed / 12"},
-    {"step": 3, "action": "apply the partner's fraction", "explain": "the leaver's interim profit slice is the answer", "compute": "partner_share = period_profit * share_fraction"}
-   ]
+    {
+     "step": 1,
+     "action": "average the recent profits",
+     "explain": "divide the total of the reviewed years by the number of years",
+     "compute": "average_profit = profits_total / years_count"
+    },
+    {
+     "step": 2,
+     "action": "scale to the elapsed months",
+     "explain": "multiply the average by months elapsed over twelve",
+     "compute": "period_profit = average_profit * months_elapsed / 12"
+    },
+    {
+     "step": 3,
+     "action": "apply the partner's fraction",
+     "explain": "the leaver's interim profit slice is the answer",
+     "compute": "partner_share = period_profit * share_fraction"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "partner_share = average_profit * months_elapsed / 12 * share_fraction",
+     "compute": "partner_share = average_profit * months_elapsed / 12 * share_fraction"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.103.6.4",
@@ -234,9 +395,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "estimate the period profit from sales", "explain": "multiply last year's profit by the period sales over the yearly sales", "compute": "period_profit = annual_profit * period_sales / annual_sales"},
-    {"step": 2, "action": "apply the partner's fraction", "explain": "his slice of the estimated interim profit is the answer", "compute": "partner_share = period_profit * share_fraction"}
-   ]
+    {
+     "step": 1,
+     "action": "estimate the period profit from sales",
+     "explain": "multiply last year's profit by the period sales over the yearly sales",
+     "compute": "period_profit = annual_profit * period_sales / annual_sales"
+    },
+    {
+     "step": 2,
+     "action": "apply the partner's fraction",
+     "explain": "his slice of the estimated interim profit is the answer",
+     "compute": "partner_share = period_profit * share_fraction"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "partner_share = annual_profit * period_sales / annual_sales * share_fraction",
+     "compute": "partner_share = annual_profit * period_sales / annual_sales * share_fraction"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.103.7.1",
@@ -255,9 +435,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "apply the yearly rate to the capital", "explain": "multiply the capital balance by the rate over one hundred", "compute": "yearly_interest = capital_balance * rate / 100"},
-    {"step": 2, "action": "restrict to the elapsed months", "explain": "multiply by the months elapsed over twelve", "compute": "interest_capital = yearly_interest * months_elapsed / 12"}
-   ]
+    {
+     "step": 1,
+     "action": "apply the yearly rate to the capital",
+     "explain": "multiply the capital balance by the rate over one hundred",
+     "compute": "yearly_interest = capital_balance * rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "restrict to the elapsed months",
+     "explain": "multiply by the months elapsed over twelve",
+     "compute": "interest_capital = yearly_interest * months_elapsed / 12"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "interest_capital = capital_balance * rate / 100 * months_elapsed / 12",
+     "compute": "interest_capital = capital_balance * rate / 100 * months_elapsed / 12"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.103.7.2",
@@ -276,8 +475,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "apply the rate to the outstanding balance", "explain": "interest for the year is the balance times the yearly rate over one hundred", "compute": "loan_interest = loan_balance * interest_rate / 100"}
-   ]
+    {
+     "step": 1,
+     "action": "apply the rate to the outstanding balance",
+     "explain": "interest for the year is the balance times the yearly rate over one hundred",
+     "compute": "loan_interest = loan_balance * interest_rate / 100"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "loan_interest = loan_balance * interest_rate / 100",
+     "compute": "loan_interest = loan_balance * interest_rate / 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.103.8.1",
@@ -297,9 +510,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "slice the fixed total by the new ratio", "explain": "multiply the total capital of the new firm by this partner's new fraction", "compute": "required_capital = total_capital * new_share_fraction"},
-    {"step": 2, "action": "compare with the existing balance", "explain": "required less existing gives the adjustment; negative means cash is paid off", "compute": "capital_adjustment = required_capital - existing_capital"}
-   ]
+    {
+     "step": 1,
+     "action": "slice the fixed total by the new ratio",
+     "explain": "multiply the total capital of the new firm by this partner's new fraction",
+     "compute": "required_capital = total_capital * new_share_fraction"
+    },
+    {
+     "step": 2,
+     "action": "compare with the existing balance",
+     "explain": "required less existing gives the adjustment; negative means cash is paid off",
+     "compute": "capital_adjustment = required_capital - existing_capital"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "capital_adjustment = required_capital - existing_capital",
+     "compute": "capital_adjustment = required_capital - existing_capital"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -309,10 +541,24 @@
    "concept": "leac.103.2.1",
    "question_type": "numeric",
    "question_pattern": "Alka, Harpreet and Shreya share 3:2:1. Alka retires; Harpreet takes {gain_fraction} of her share. Find Harpreet's new share.",
-   "extracted_variables": {"old_share_fraction": 0.333333, "outgoing_share_fraction": 0.5, "gain_fraction": 0.6},
+   "extracted_variables": {
+    "old_share_fraction": 0.333333,
+    "outgoing_share_fraction": 0.5,
+    "gain_fraction": 0.6
+   },
    "solution_template": [
-    {"step": 1, "action": "value the slice picked up from the leaver", "explain": "0.5 x 0.6 = 0.3", "compute": "acquired_share = outgoing_share_fraction * gain_fraction"},
-    {"step": 2, "action": "add the pickup to the old fraction", "explain": "2/6 + 9/30 = 19/30 = 0.6333", "compute": "partner_new_share = old_share_fraction + acquired_share"}
+    {
+     "step": 1,
+     "action": "value the slice picked up from the leaver",
+     "explain": "0.5 x 0.6 = 0.3",
+     "compute": "acquired_share = outgoing_share_fraction * gain_fraction"
+    },
+    {
+     "step": 2,
+     "action": "add the pickup to the old fraction",
+     "explain": "2/6 + 9/30 = 19/30 = 0.6333",
+     "compute": "partner_new_share = old_share_fraction + acquired_share"
+    }
    ]
   },
   {
@@ -321,9 +567,17 @@
    "concept": "leac.103.3.1",
    "question_type": "numeric",
    "question_pattern": "Ranjana, Sadhna and Kamana share 4:3:2. Ranjana retires; Sadhna and Kamana share 5:3 onwards. Find Sadhna's gain.",
-   "extracted_variables": {"new_share_fraction": 0.625, "old_share_fraction": 0.333333},
+   "extracted_variables": {
+    "new_share_fraction": 0.625,
+    "old_share_fraction": 0.333333
+   },
    "solution_template": [
-    {"step": 1, "action": "deduct the old fraction from the new fraction", "explain": "5/8 - 3/9 = 21/72 = 0.2917", "compute": "gaining_share = new_share_fraction - old_share_fraction"}
+    {
+     "step": 1,
+     "action": "deduct the old fraction from the new fraction",
+     "explain": "5/8 - 3/9 = 21/72 = 0.2917",
+     "compute": "gaining_share = new_share_fraction - old_share_fraction"
+    }
    ]
   },
   {
@@ -332,9 +586,17 @@
    "concept": "leac.103.4.1",
    "question_type": "numeric",
    "question_pattern": "Nirmal retires; goodwill of the firm is valued at {firm_goodwill} and Nirmal's old share is {old_share_fraction}. Find Nirmal's goodwill share.",
-   "extracted_variables": {"firm_goodwill": 72000, "old_share_fraction": 0.333333},
+   "extracted_variables": {
+    "firm_goodwill": 72000,
+    "old_share_fraction": 0.333333
+   },
    "solution_template": [
-    {"step": 1, "action": "apply the old fraction to the firm goodwill", "explain": "72000 x 3/9 = 24000", "compute": "retiring_goodwill_share = firm_goodwill * old_share_fraction"}
+    {
+     "step": 1,
+     "action": "apply the old fraction to the firm goodwill",
+     "explain": "72000 x 3/9 = 24000",
+     "compute": "retiring_goodwill_share = firm_goodwill * old_share_fraction"
+    }
    ]
   },
   {
@@ -343,9 +605,17 @@
    "concept": "leac.103.4.2",
    "question_type": "numeric",
    "question_pattern": "R retires; his adjusted capital is {amount_due} but P and Q pay {settlement_amount} in full settlement. Find the hidden goodwill.",
-   "extracted_variables": {"settlement_amount": 75000, "amount_due": 60000},
+   "extracted_variables": {
+    "settlement_amount": 75000,
+    "amount_due": 60000
+   },
    "solution_template": [
-    {"step": 1, "action": "compare the payment with the adjusted claim", "explain": "75000 - 60000 = 15000", "compute": "hidden_goodwill = settlement_amount - amount_due"}
+    {
+     "step": 1,
+     "action": "compare the payment with the adjusted claim",
+     "explain": "75000 - 60000 = 15000",
+     "compute": "hidden_goodwill = settlement_amount - amount_due"
+    }
    ]
   },
   {
@@ -354,10 +624,24 @@
    "concept": "leac.103.5.1",
    "question_type": "numeric",
    "question_pattern": "On Geeta's retirement, revaluation gains total {gains_total} and losses total {losses_total}; profits were shared 5:3:2. Find Geeta's share.",
-   "extracted_variables": {"gains_total": 35000, "losses_total": 10000, "old_share_fraction": 0.2},
+   "extracted_variables": {
+    "gains_total": 35000,
+    "losses_total": 10000,
+    "old_share_fraction": 0.2
+   },
    "solution_template": [
-    {"step": 1, "action": "net the restatements", "explain": "35000 - 10000 = 25000", "compute": "net_revaluation = gains_total - losses_total"},
-    {"step": 2, "action": "share the net result in the old ratio", "explain": "25000 x 2/10 = 5000", "compute": "partner_share = net_revaluation * old_share_fraction"}
+    {
+     "step": 1,
+     "action": "net the restatements",
+     "explain": "35000 - 10000 = 25000",
+     "compute": "net_revaluation = gains_total - losses_total"
+    },
+    {
+     "step": 2,
+     "action": "share the net result in the old ratio",
+     "explain": "25000 x 2/10 = 5000",
+     "compute": "partner_share = net_revaluation * old_share_fraction"
+    }
    ]
   },
   {
@@ -366,9 +650,17 @@
    "concept": "leac.103.6.1",
    "question_type": "numeric",
    "question_pattern": "Inder retires; the general reserve is {reserve_amount} and profits were shared 3:2:1. Find Inder's share of the reserve.",
-   "extracted_variables": {"reserve_amount": 90000, "old_share_fraction": 0.5},
+   "extracted_variables": {
+    "reserve_amount": 90000,
+    "old_share_fraction": 0.5
+   },
    "solution_template": [
-    {"step": 1, "action": "apply the old fraction to the reserve", "explain": "90000 x 3/6 = 45000", "compute": "partner_share = reserve_amount * old_share_fraction"}
+    {
+     "step": 1,
+     "action": "apply the old fraction to the reserve",
+     "explain": "90000 x 3/6 = 45000",
+     "compute": "partner_share = reserve_amount * old_share_fraction"
+    }
    ]
   },
   {
@@ -377,10 +669,24 @@
    "concept": "leac.103.6.2",
    "question_type": "numeric",
    "question_pattern": "Last year's profit was {annual_profit}; Champak died {months_elapsed} months into the year with a {share_fraction} share. Find his profit share to the date of death.",
-   "extracted_variables": {"annual_profit": 100000, "months_elapsed": 3, "share_fraction": 0.4},
+   "extracted_variables": {
+    "annual_profit": 100000,
+    "months_elapsed": 3,
+    "share_fraction": 0.4
+   },
    "solution_template": [
-    {"step": 1, "action": "scale the yearly profit to the elapsed period", "explain": "100000 x 3/12 = 25000", "compute": "accrued_profit = annual_profit * months_elapsed / 12"},
-    {"step": 2, "action": "apply the partner's fraction", "explain": "25000 x 4/10 = 10000", "compute": "partner_share = accrued_profit * share_fraction"}
+    {
+     "step": 1,
+     "action": "scale the yearly profit to the elapsed period",
+     "explain": "100000 x 3/12 = 25000",
+     "compute": "accrued_profit = annual_profit * months_elapsed / 12"
+    },
+    {
+     "step": 2,
+     "action": "apply the partner's fraction",
+     "explain": "25000 x 4/10 = 10000",
+     "compute": "partner_share = accrued_profit * share_fraction"
+    }
    ]
   },
   {
@@ -389,11 +695,31 @@
    "concept": "leac.103.6.3",
    "question_type": "numeric",
    "question_pattern": "Profits of three years total {profits_total}; the partner died {months_elapsed} months into the year with a {share_fraction} share. Find his share on the average profits basis.",
-   "extracted_variables": {"profits_total": 390000, "years_count": 3, "months_elapsed": 3, "share_fraction": 0.4},
+   "extracted_variables": {
+    "profits_total": 390000,
+    "years_count": 3,
+    "months_elapsed": 3,
+    "share_fraction": 0.4
+   },
    "solution_template": [
-    {"step": 1, "action": "average the recent profits", "explain": "390000 / 3 = 130000", "compute": "average_profit = profits_total / years_count"},
-    {"step": 2, "action": "scale to the elapsed months", "explain": "130000 x 3/12 = 32500", "compute": "period_profit = average_profit * months_elapsed / 12"},
-    {"step": 3, "action": "apply the partner's fraction", "explain": "32500 x 4/10 = 13000", "compute": "partner_share = period_profit * share_fraction"}
+    {
+     "step": 1,
+     "action": "average the recent profits",
+     "explain": "390000 / 3 = 130000",
+     "compute": "average_profit = profits_total / years_count"
+    },
+    {
+     "step": 2,
+     "action": "scale to the elapsed months",
+     "explain": "130000 x 3/12 = 32500",
+     "compute": "period_profit = average_profit * months_elapsed / 12"
+    },
+    {
+     "step": 3,
+     "action": "apply the partner's fraction",
+     "explain": "32500 x 4/10 = 13000",
+     "compute": "partner_share = period_profit * share_fraction"
+    }
    ]
   },
   {
@@ -402,10 +728,25 @@
    "concept": "leac.103.6.4",
    "question_type": "numeric",
    "question_pattern": "Yearly profit {annual_profit} on sales of {annual_sales}; the period's sales were {period_sales} and the partner's share is {share_fraction}. Find his profit share on the sales basis.",
-   "extracted_variables": {"annual_profit": 100000, "annual_sales": 800000, "period_sales": 150000, "share_fraction": 0.4},
+   "extracted_variables": {
+    "annual_profit": 100000,
+    "annual_sales": 800000,
+    "period_sales": 150000,
+    "share_fraction": 0.4
+   },
    "solution_template": [
-    {"step": 1, "action": "estimate the period profit from sales", "explain": "100000 x 150000/800000 = 18750", "compute": "period_profit = annual_profit * period_sales / annual_sales"},
-    {"step": 2, "action": "apply the partner's fraction", "explain": "18750 x 4/10 = 7500", "compute": "partner_share = period_profit * share_fraction"}
+    {
+     "step": 1,
+     "action": "estimate the period profit from sales",
+     "explain": "100000 x 150000/800000 = 18750",
+     "compute": "period_profit = annual_profit * period_sales / annual_sales"
+    },
+    {
+     "step": 2,
+     "action": "apply the partner's fraction",
+     "explain": "18750 x 4/10 = 7500",
+     "compute": "partner_share = period_profit * share_fraction"
+    }
    ]
   },
   {
@@ -414,10 +755,24 @@
    "concept": "leac.103.7.1",
    "question_type": "numeric",
    "question_pattern": "Anil's capital is {capital_balance} at {rate} percent; he died {months_elapsed} months after the balance sheet date. Find the interest on capital due.",
-   "extracted_variables": {"capital_balance": 30000, "rate": 10, "months_elapsed": 6},
+   "extracted_variables": {
+    "capital_balance": 30000,
+    "rate": 10,
+    "months_elapsed": 6
+   },
    "solution_template": [
-    {"step": 1, "action": "apply the yearly rate to the capital", "explain": "30000 x 10/100 = 3000", "compute": "yearly_interest = capital_balance * rate / 100"},
-    {"step": 2, "action": "restrict to the elapsed months", "explain": "3000 x 6/12 = 1500", "compute": "interest_capital = yearly_interest * months_elapsed / 12"}
+    {
+     "step": 1,
+     "action": "apply the yearly rate to the capital",
+     "explain": "30000 x 10/100 = 3000",
+     "compute": "yearly_interest = capital_balance * rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "restrict to the elapsed months",
+     "explain": "3000 x 6/12 = 1500",
+     "compute": "interest_capital = yearly_interest * months_elapsed / 12"
+    }
    ]
   },
   {
@@ -426,9 +781,17 @@
    "concept": "leac.103.7.2",
    "question_type": "numeric",
    "question_pattern": "Mahinder's loan stands at {loan_balance} and carries {interest_rate} percent per annum. Find the first year's interest.",
-   "extracted_variables": {"loan_balance": 60000, "interest_rate": 12},
+   "extracted_variables": {
+    "loan_balance": 60000,
+    "interest_rate": 12
+   },
    "solution_template": [
-    {"step": 1, "action": "apply the rate to the outstanding balance", "explain": "60000 x 12/100 = 7200", "compute": "loan_interest = loan_balance * interest_rate / 100"}
+    {
+     "step": 1,
+     "action": "apply the rate to the outstanding balance",
+     "explain": "60000 x 12/100 = 7200",
+     "compute": "loan_interest = loan_balance * interest_rate / 100"
+    }
    ]
   },
   {
@@ -437,10 +800,24 @@
    "concept": "leac.103.8.1",
    "question_type": "numeric",
    "question_pattern": "The new firm's capital is fixed at {total_capital}; Mohit's new share is {new_share_fraction} and his existing capital is {existing_capital}. Find his adjustment.",
-   "extracted_variables": {"total_capital": 120000, "new_share_fraction": 0.666667, "existing_capital": 82000},
+   "extracted_variables": {
+    "total_capital": 120000,
+    "new_share_fraction": 0.666667,
+    "existing_capital": 82000
+   },
    "solution_template": [
-    {"step": 1, "action": "slice the fixed total by the new ratio", "explain": "120000 x 2/3 = 80000", "compute": "required_capital = total_capital * new_share_fraction"},
-    {"step": 2, "action": "compare with the existing balance", "explain": "80000 - 82000 = -2000, so Mohit is paid off 2000", "compute": "capital_adjustment = required_capital - existing_capital"}
+    {
+     "step": 1,
+     "action": "slice the fixed total by the new ratio",
+     "explain": "120000 x 2/3 = 80000",
+     "compute": "required_capital = total_capital * new_share_fraction"
+    },
+    {
+     "step": 2,
+     "action": "compare with the existing balance",
+     "explain": "80000 - 82000 = -2000, so Mohit is paid off 2000",
+     "compute": "capital_adjustment = required_capital - existing_capital"
+    }
    ]
   }
  ],

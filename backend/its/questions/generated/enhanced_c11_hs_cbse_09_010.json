@@ -34,6 +34,26 @@
      "q": "Design a three‑piece sportswear set (top, bottom, footwear) for a 9‑year‑old girl participating in inter‑school athletics in a humid Indian summer. Specify fabric, fit, and safety features for each piece, justifying every choice with a requirement from this node.",
      "a": "Top: Cotton‑voile blend T‑shirt, raglan sleeves (free movement, growth allowance), flat seams (comfort), bright colour (visibility). Bottom: Knitted cotton shorts with elastic waist and drawstring (self‑help, adjustable fit), reinforced crotch (durability), above‑knee length (safety, no tripping). Footwear: Flexible‑soled canvas shoes with Velcro straps (self‑help, correct fit), breathable mesh upper (absorbency), padded heel (safety against strains). A poor answer would omit justifications, choose synthetic non‑absorbent fabrics, or ignore growth/self‑help features.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Clothing ______ for elementary school years (ages 6–11) refer to the specific garment features — such as comfort, durability, peer-appropriate fit, growth allowance, easy-care fabrics, and safety — that support the heightened physical activity, growing social awareness, and emerging self-selection of clothing typical of middle childhood.",
+     "a": "requirements",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping a parent choose a ______ for an 8‑year‑old who plays cricket after school, insists on picking his own clothes, and grows quickly.",
+     "a": "wardrobe",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping a parent choose a wardrobe for an ______‑year‑old who plays cricket after school, insists on picking his own clothes, and grows quickly.",
+     "a": "8",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently list and justify at least five distinct clothing requirements for children aged 6–11 years, linking each requirement to the child's physical development, social environment, or activity patterns, and can explain why a given garment meets or fails those requirements.",
+     "self_check": true
     }
    ]
   }

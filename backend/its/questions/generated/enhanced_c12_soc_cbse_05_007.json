@@ -1,0 +1,56 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_05_007",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_05_007",
+   "title": "c12_soc_cbse_05_007",
+   "questions": [
+    {
+     "q": "A REMEMBER level question: State the year of the Indian Forest Act that established the categories of Reserved Forests, Protected Forests, and Village Forests, and name the primary commercial objective behind this classification during the colonial period.",
+     "a": "The Indian Forest Act of 1878 (not 1927 — the 1927 Act consolidated and amended it) established the three categories. The primary colonial objective was to secure a steady supply of timber for railway sleepers, shipbuilding, and imperial revenue by restricting Adivasi customary use (shifting cultivation, grazing, minor forest produce collection) and vesting control in the Forest Department. A wrong answer (e.g., citing 1927 as the originating Act or saying the objective was \"conservation\") reveals confusion between the consolidating Act and the original legislative framework, and a misunderstanding of the extractive rather than ecological intent of colonial forestry.",
+     "self_check": true
+    },
+    {
+     "q": "An UNDERSTAND level question: Explain why the Forest Conservation Act (FCA) 1980, despite being framed as an environmental protection law, intensified Adivasi marginalisation in practice. Use the concept of \"centralised bureaucratic control\" in your answer.",
+     "a": "The FCA 1980 required prior central government approval for any diversion of forest land for non-forest purposes, ostensibly to curb deforestation. However, it vested decision-making exclusively in the Union Ministry of Environment and Forests, bypassing both State governments and, crucially, Gram Sabhas. This centralised bureaucratic control meant that large development projects (dams, mines, highways) — which require forest land diversion — could be approved in Delhi without meaningful consultation with affected Adivasi communities, while their traditional usufruct rights (collection of tendu leaves, mahua, fuelwood) continued to be criminalised as \"encroachment.\" A wrong answer that says \"FCA protected forests so it helped Adivasis\" misses the asymmetry: the law restricted community access but facilitated corporate/state access through the diversion route, deepening the colonial legacy of forests as state property rather than community commons.",
+     "self_check": true
+    },
+    {
+     "q": "An APPLY level question: A Gram Sabha in a Schedule V area claims Community Forest Resource (CFR) rights under the Forest Rights Act (FRA) 2006 over a patch of forest that the Forest Department has proposed for a compensatory afforestation plantation to offset diversion for a mining project in another district. The Department argues the FRA does not apply because the land is \"Reserved Forest.\" Using the FRA's provisions and the Supreme Court's Niyamgiri judgment (2013), explain the Gram Sabha's legal standing and the procedural requirement the mining company must fulfil.",
+     "a": "(1) The right — the Forest Rights Act recognises community forest resource rights over customary common forest land within traditional village boundaries, explicitly including reserved forests, (2) The protection — no rights holder can be evicted until the recognition and verification process is complete, so the department cannot simply plant on the claimed patch, (3) The precedent — the Supreme Court's Niyamgiri judgment holds that gram sabhas in Schedule V areas decide whether a project affects their religious and cultural rights, and their consent is mandatory for forest diversion, (4) The procedure — the gram sabha has standing to file the community claim, and the mining company must obtain its consent through a resolution before diversion, failing which the project cannot proceed. A wrong answer claiming reserved forests are exempt, or that only individual claims matter, ignores the Act's inclusion of all forest categories.",
+     "self_check": true
+    },
+    {
+     "q": "An ANALYZE level question: Compare the displacement caused by the Sardar Sarovar Dam (Narmada) and the Polavaram Dam (Godavari) in terms of (a) the proportion of Adivasis among the displaced, (b) the adequacy of rehabilitation as per the prevailing policy at the time, and (c) the role of judicial intervention. What does this comparison reveal about the evolution of the state's approach to development-induced displacement?",
+     "a": "(1) The displaced — Adivasis formed a large majority among those displaced by Sardar Sarovar and an even larger share by Polavaram, where hill tribes predominated, (2) Rehabilitation then — Sardar Sarovar ran under scattered state policies with no national law, so land-for-land failed and sites lacked amenities, (3) Rehabilitation now — Polavaram answers to the 2013 law mandating fair compensation, consent and impact assessment, yet stays delayed and contested, (4) Judicial role — courts allowed the Narmada rise with rehabilitation conditions under activist pressure, while newer rulings police clearances and consent, (5) The evolution — from no framework to a progressive law on paper that inertia still subverts. Saying nothing changed between the dams misses this policy evolution.",
+     "self_check": true
+    },
+    {
+     "q": "An EVALUATE level question: Critique the argument that \"the Forest Rights Act 2006 has solved the historical injustice of forest laws for Adivasis.\" Base your evaluation on three specific implementation gaps evident in central Indian states (Chhattisgarh, Jharkhand, Madhya Pradesh, Odisha) as of 2023.",
+     "a": "The argument is overstated. Three critical gaps: (1) **Low recognition of Community Forest Resource (CFR) rights**: As of 2023, individual titles (IFR) dominate (~22 lakh titles nationally), but CFR titles — essential for collective governance of forests — remain below 1 lakh; in mineral-rich districts, CFR claims are routinely rejected or stalled by Forest Departments citing \"conservation\" or \"mining lease\" overlap. (2) **Dilution of Gram Sabha consent**: The 2022 Forest Conservation Rules (under FCA 1980) allow forest diversion *before* FRA compliance is verified, effectively making Gram Sabha consent ex-post and non-binding; states like Odisha and Chhattisgarh have used this to fast-track mining clearances. (3) **Criminalisation of FRA holders**: Adivasis with recognised titles continue to be booked under the Indian Forest Act 1927 and Wildlife Protection Act 1972 for \"encroachment\" or \"poaching\" when exercising customary rights (e.g., collecting tendu leaves in CFR areas), revealing that the Forest Department treats FRA as an exception rather than a transformative law. A wrong answer that says \"FRA gave land titles so injustice is solved\" ignores the gap between statutory recognition and bureaucratic practice, and the ongoing use of colonial-era penal provisions against title-holders.",
+     "self_check": true
+    },
+    {
+     "q": "A CREATE level question: Design a 5-point advocacy framework that an Adivasi youth organisation in a Schedule V district could use to resist a proposed bauxite mining project on their Community Forest Resource land, drawing on (i) FRA 2006, (ii) PESA 1996, (iii) the Samata judgment (1997), (iv) the Fifth Schedule, and (v) the principle of Free, Prior and Informed Consent (FPIC). For each point, specify the legal provision and the concrete action the organisation would take.",
+     "a": "A strong answer will produce a framework like: (1) **FRA Section 3(1)(i) + Section 4(5)**: File CFR claim for the mining area; demand immediate stay on diversion until verification complete; action: submit claim with GPS-mapped evidence of customary use, invoke Section 4(5) to block eviction. (2) **PESA Section 4(i) + (k)**: Assert Gram Sabha ownership of minor forest produce and mandatory consultation before land acquisition; action: pass Gram Sabha resolution rejecting mining and declaring CFR boundaries. (3) **Samata Judgment (1997)**: Supreme Court held that government companies cannot lease tribal land in Schedule V areas to private firms; action: file writ petition citing Samata if the lease is to a private corporation. (4) **Fifth Schedule Para 5(2)**: Governor's power to prohibit/restrict transfer of tribal land; action: submit representation to Governor requesting notification against land transfer for mining. (5) **FPIC (UNDRIP 2007 + FRA/PESA reading)**: Demand that the project proponent conduct FPIC process *before* any clearance; action: document and video-record Gram Sabha meetings where consent is explicitly withheld, submit to MoEFCC and District Collector as evidence of non-consent. A poor answer lists the laws without linking each to a specific, actionable step, or omits the procedural sequence (claim → resolution → legal challenge → executive appeal → international norm invocation).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ of tribes refers to the systematic historical and ongoing process by which Adivasi communities are dispossessed of their traditional forest rights, displaced by state-led and corporate development projects (dams, mines, industries), and rendered politically and economically peripheral through legal frameworks that prioritise commercial resource extraction over customary livelihoods and self-governance.",
+     "a": "marginalisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world scenario: \"Imagine a Gond family in Bastar whose great-grandparents practiced shifting cultivation in forests now declared a 'Reserved Forest' under the 1927 Act, whose parents were displaced by a steel plant in the 1980s without ______, and who today face eviction from a wildlife sanctuary while a mining lease is granted to a corporation on adjacent land.\" Ask students to identify the three distinct historical moments of dispossession.",
+     "a": "rehabilitation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) trace the trajectory from colonial forest laws to post-Independence development-induced displacement using specific legislation and cases, (2) explain how the concept of \"internal colonialism\" applies to Adivasi regions, and (3) evaluate the relationship between Adivasi identity assertion (e.g..",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

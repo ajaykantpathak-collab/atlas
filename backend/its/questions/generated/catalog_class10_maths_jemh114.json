@@ -5,6 +5,8 @@
    "id": "jemh.114.14.1",
    "title": "Probability - A Theoretical Approach",
    "converted_to_compute": false,
+   "formula": "probability = favourable / total",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A die is rolled once. What is the probability of getting a number greater than 4? (give the fraction)",
@@ -41,15 +43,9 @@
   {
    "id": "jemh.114.14.2",
    "title": "Equally Likely Outcomes and Simple Problems",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "divide favourable outcomes by total outcomes",
-     "explain": "divide favourable outcomes by total outcomes: p = 2 / 6 gives 0.333333",
-     "compute": "p = 2 / 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A die is rolled once. What is the probability of getting a number greater than 4? (give the fraction)",
@@ -87,6 +83,8 @@
    "id": "jemh.114.14.3",
    "title": "Complement of an Event",
    "converted_to_compute": false,
+   "formula": "complement = 1 - probability",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A die is rolled once. What is the probability of getting a number greater than 2? (give the fraction)",

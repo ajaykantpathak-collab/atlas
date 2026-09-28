@@ -44,9 +44,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "prod = 8 * 3 / 9"
-   ]
+   "steps_chain": []
   },
   {
    "id": "fegp.7.2",
@@ -181,9 +179,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "prod = 10 * 5 / 3"
-   ]
+   "steps_chain": []
   }
  ]
 }

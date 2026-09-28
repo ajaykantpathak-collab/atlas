@@ -34,6 +34,21 @@
      "q": "Create a quadratic expression \\(ax^2 + bx + c\\) with integer coefficients that can be factorised by splitting the middle term, where \\(a > 1\\) and the two splitting numbers are both negative. Write the expression and its factorisation.",
      "a": "Example: \\(2x^2 - 7x + 3\\). Here \\(a=2, b=-7, c=3\\), \\(ac=6\\). Need two numbers with product 6 and sum -7 → \\(-1\\) and \\(-6\\). Split: \\(2x^2 - x - 6x + 3\\). Group: \\(x(2x - 1) - 3(2x - 1) = (2x - 1)(x - 3)\\). A poor answer (e.g., using positive numbers or \\(a=1\\)) shows the student cannot work backwards from the method's requirements, indicating a lack of structural understanding of how the signs of \\(b\\) and \\(c\\) dictate the signs of the splitting numbers.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To find the possible length and breadth ______, you need to factorise this quadratic.",
+     "a": "expressions",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Splitting the middle term?",
+     "a": "This leads to incorrect splitting and a failure to obtain a common binomial factor.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can also verify the factorisation by expanding the product.",
+     "self_check": true
     }
    ]
   }

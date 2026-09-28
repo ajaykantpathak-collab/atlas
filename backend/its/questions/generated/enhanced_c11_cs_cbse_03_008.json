@@ -34,6 +34,36 @@
      "q": "Create a real-world scenario (Indian context) that requires a three-level nested branching decision (if inside if inside if). Write the pseudocode and draw the corresponding flowchart structure (describe the symbols and flow). The scenario must involve at least one numeric range check and one categorical choice.",
      "a": "Scenario: A bank offers loan interest rates based on: (1) Employment type (Government/Private/Self-employed), (2) For Government employees, further check: if salary >= 50000 then 7% else 8%, (3) For Private employees, check credit score: if >= 750 then 9% else 11%. Self-employed get 12% flat.\nPseudocode:\n```\nREAD emp_type, salary, credit_score\nIF emp_type = \"Government\" THEN\n    IF salary >= 50000 THEN\n        rate <- 7\n    ELSE\n        rate <- 8\n    END IF\nELSE IF emp_type = \"Private\" THEN\n    IF credit_score >= 750 THEN\n        rate <- 9\n    ELSE\n        rate <- 11\n    END IF\nELSE\n    rate <- 12\nEND IF\nPRINT rate\n```\nFlowchart: Start -> Input parallelogram -> Decision diamond (emp_type?) with three outgoing? Actually, flowchart for else-if ladder uses nested diamonds: first diamond \"emp_type = Govt?\" TRUE -> diamond \"salary>=50000?\" -> assign rate; FALSE -> diamond \"emp_type = Private?\" TRUE -> diamond \"credit_score>=750?\" -> assign rate; FALSE -> assign 12. All converge to output. A poor answer (e.g., flat structure without nesting, or missing convergence) reveals the student cannot map multi-level categorical+numeric decisions to nested flowchart diamonds with proper convergence.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Decision making in algorithms (branching) is a control structure that allows an algorithm to choose between two or more ______ paths of execution based on the evaluation of a logical condition, which results in either true or false.",
+     "a": "alternative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ an algorithm for an automatic railway ticket vending machine.",
+     "a": "designing",
+     "self_check": true
+    },
+    {
+     "q": "What is Decision making in algorithms (branching)? State the definition given in this lesson.",
+     "a": "Decision making in algorithms (branching) is a control structure that allows an algorithm to choose between two or more alternative paths of execution based on the evaluation of a logical condition, which results in either true or false.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The machine must decide: if the passenger selects 'Senior Citizen', apply a ______% discount; otherwise, charge full fare.",
+     "a": "40",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Decision making in algorithms (branching)?",
+     "a": "Students often believe that in an else-if ladder (multiple mutually exclusive conditions), the conditions are evaluated simultaneously or that the order of conditions does not matter.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Write pseudocode and draw flowcharts for problems requiring single, dual, and multiple branching (if, if-else, nested if-else, else-if ladder) with correct syntax and indentation; (2) Trace the execution of a branching algorithm for given inputs using a dry-run table, showing the condition evaluation and.",
+     "self_check": true
     }
    ]
   }

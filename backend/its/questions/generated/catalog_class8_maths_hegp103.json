@@ -4,19 +4,13 @@
   {
    "id": "hegp.103.3.1",
    "title": "Counting by One-to-One Mapping",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "set up the proportion and solve for the unknown part",
-     "explain": "set up the proportion and solve for the unknown part: t1 = 32 / 8 gives 4",
-     "compute": "t1 = 32 / 8"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 32 : 80 in its simplest form and give the first term of the simplest form.",
-     "a": "4",
+     "a": "2",
      "self_check": false
     },
     {
@@ -49,27 +43,9 @@
   {
    "id": "hegp.103.3.2",
    "title": "The Roman Number System and Its Limits",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the number-play rule digit by digit",
-     "explain": "apply the number-play rule digit by digit: big = 9 * 1000 + 5 * 100 + 5 * 10 + 1 gives 9551",
-     "compute": "big = 9 * 1000 + 5 * 100 + 5 * 10 + 1"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the number-play rule digit by digit: small = 1 * 1000 + 5 * 100 + 5 * 10 + 9 gives 1559",
-     "compute": "small = 1 * 1000 + 5 * 100 + 5 * 10 + 9"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the number-play rule digit by digit: diff = big - small gives 7992",
-     "compute": "diff = big - small"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "For the digits 5, 9, 1, 5 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
@@ -107,6 +83,8 @@
    "id": "hegp.103.3.3",
    "title": "Egyptian Base-10 Landmark Numbers",
    "converted_to_compute": false,
+   "formula": "hundreds = number // 100; tens = (number % 100) // 10; ones = number % 10",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "For the digits 1, 4, 7, 7 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
@@ -144,6 +122,8 @@
    "id": "hegp.103.3.4",
    "title": "Base-n Systems and Their Landmark Numbers",
    "converted_to_compute": false,
+   "formula": "landmark = base ** k",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "For the digits 3, 6, 4, 5 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
@@ -181,6 +161,8 @@
    "id": "hegp.103.3.5",
    "title": "Expressing Numbers in Base-5",
    "converted_to_compute": false,
+   "formula": "groups125 = number // 125; rem = number % 125; groups25 = rem // 25; groups5 = (rem % 25) // 5; units = number % 5",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "For the digits 6, 5, 5, 7 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
@@ -217,27 +199,9 @@
   {
    "id": "hegp.103.3.6",
    "title": "Journey of the Hindu Numerals",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the number-play rule digit by digit",
-     "explain": "apply the number-play rule digit by digit: big = 8 * 1000 + 8 * 100 + 7 * 10 + 6 gives 8876",
-     "compute": "big = 8 * 1000 + 8 * 100 + 7 * 10 + 6"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the number-play rule digit by digit: small = 6 * 1000 + 7 * 100 + 8 * 10 + 8 gives 6788",
-     "compute": "small = 6 * 1000 + 7 * 100 + 8 * 10 + 8"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the number-play rule digit by digit: diff = big - small gives 2088",
-     "compute": "diff = big - small"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "For the digits 6, 8, 8, 7 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",

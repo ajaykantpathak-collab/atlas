@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a laser pointer, two closely spaced slits (e.g., made from a double-slit slide or two razor blades), and a screen to measure the wavelength of the laser light. List the measurements you would take, the formula you would use, and two precautions to ensure accurate results.",
      "a": "Measurements: (1) Slit separation d (using a micrometer or given by manufacturer), (2) Distance from slits to screen D (metre scale), (3) Fringe width β = distance between consecutive bright fringes (measure 10 fringes and divide by 10 to reduce error). Formula: λ = βd/D. Precautions: (a) Ensure D >> d (e.g., D ≥ 1 m, d ≤ 0.5 mm) so small-angle approximation holds; (b) Use a darkened room and a sharp, stable laser beam to get clear fringes; (c) Measure fringe width over many fringes (e.g., 10 or 20) to minimise reading error. A poor answer omits the multi-fringe measurement technique, ignores the small-angle condition, or suggests measuring a single fringe width with a ruler (large percentage error).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Fringe width (β) in Young's double slit experiment is the distance between two consecutive bright fringes (or two consecutive dark fringes) on the ______ pattern observed on a screen.",
+     "a": "interference",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the colorful rings on a soap bubble or the rainbow pattern on a CD/DVD — these are ______ effects from thin films.",
+     "a": "interference",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The distance between consecutive bright fringes (n and n+______) is β = λD/d.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) derive the fringe width formula β = λD/d from the path difference condition using the small-angle approximation, (2) calculate fringe width, wavelength, slit separation, or screen distance when the other three quantities are given, (3) determine the position of the nth bright or dark fringe, and (4) solve.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using household items to compare the Young's modulus of a metal wire and a nylon fishing line of similar diameter. List the measurements needed and the procedure.",
      "a": "Clamp one end of each wire/line to a rigid support. Hang a scale pan from the free end. Measure original length L with a meter scale. Add known masses (e.g., 100 g increments) and measure extension ΔL using a pointer and scale. Plot F vs ΔL; slope = F/ΔL. Compute Y = (slope × L)/A. Cross-sectional area A = πd²/4 measured with screw gauge. Compare Y values. A poor answer omits measuring diameter, uses only one load, or ignores the linear region limit.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Young's modulus (Y) is the ratio of longitudinal stress (tensile or compressive) to the ______ longitudinal strain within the elastic limit of a material.",
+     "a": "corresponding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ ruler clamped at one end on a lab bench.",
+     "a": "steel",
+     "self_check": true
+    },
+    {
+     "q": "What is Young's modulus (Y)? State the definition given in this lesson.",
+     "a": "Young's modulus (Y) is the ratio of longitudinal stress (tensile or compressive) to the corresponding longitudinal strain within the elastic limit of a material.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Hang a ______ g mass from the free end — the ruler bends slightly but springs back when the mass is removed.",
+     "a": "500",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Young's modulus (Y)?",
+     "a": "Students often think Young's modulus depends on the length or thickness of the wire because the formula contains L and A.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate Young's modulus from given force, length, cross-sectional area, and extension data, and can compare the stiffness of different materials using their Y values.",
+     "self_check": true
     }
    ]
   }

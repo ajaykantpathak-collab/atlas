@@ -34,6 +34,36 @@
      "q": "Design a novel 3Rs-compliant strategy for testing the immunogenicity of a recombinant therapeutic antibody produced in CHO cells, using zero live animals. Specify the in vitro, in silico, and ex vivo components, and justify why this meets Replacement.",
      "a": "Strategy: (1) In silico — Molecular dynamics simulation of antibody-FcγR binding affinity across human FcγR polymorphisms (using PDB 1H3V structure) to predict effector function variability; (2) In vitro — Human PBMC cytokine release assay (IL-6, TNF-α, IFN-γ) with donor-matched sera to detect anti-drug antibody (ADA) formation risk; (3) Ex vivo — Precision-cut human lung/liver slices (from transplant waste tissue) cultured with antibody to assess tissue-specific immune activation and complement deposition (C3a, C5a ELISA). Justification: This fully Replaces animals by using human-relevant systems at molecular, cellular, and tissue levels. It exceeds Reduction (zero animals) and Refinement (no suffering). Regulatory acceptance: FDA's ISTAND program and EMA's qualification pathway now accept such New Approach Methodologies (NAMs) for immunogenicity risk assessment. A poor answer that only lists \"cell culture\" without human tissue complexity or regulatory context shows the student cannot design a scientifically credible alternative — a skill needed for competitive exam innovation questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Animal rights in biotechnology research refers to the ethical framework and regulatory standards governing the humane treatment, welfare, and moral consideration of animals used as experimental subjects in ______ applications such as transgenic animal production, cloning, drug testing, and disease modeling.",
+     "a": "biotechnological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a biotech entrepreneur developing a ______ human insulin produced in the milk of transgenic goats — a \"pharming\" project.",
+     "a": "recombinant",
+     "self_check": true
+    },
+    {
+     "q": "What is Animal rights in biotechnology research? State the definition given in this lesson.",
+     "a": "Animal rights in biotechnology research refers to the ethical framework and regulatory standards governing the humane treatment, welfare, and moral consideration of animals used as experimental subjects in biotechnological applications such as transgenic animal production, cloning, drug testing, and disease modeling.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You need ______ founder goats, each requiring surgery for gene insertion, hormone treatments for lactation induction, and lifelong monitoring.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Animal rights in biotechnology research?",
+     "a": "Students often believe that \"transgenic animals are not 'real' animals\" or \"they don't suffer because they are genetically modified\" — leading them to argue that ethical rules are relaxed for GM animals.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Explain the 3Rs principle with specific biotechnology examples for each R, (2) Distinguish between animal welfare and animal rights positions in the context of transgenic research, (3) Apply CPCSEA guidelines to evaluate a hypothetical research protocol for ethical compliance, and (4) Critique a case.",
+     "self_check": true
     }
    ]
   }

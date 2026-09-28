@@ -34,6 +34,26 @@
      "q": "Create a realistic mini-case (3-4 sentences) involving a shopkeeper, a landlord, and a fire insurance policy where BOTH Contribution and Subrogation operate simultaneously. Specify the sums assured, actual loss, and third-party liability.",
      "a": "Expected answer: Example—\"Shopkeeper insures stock worth ₹10 lakh under two policies: Policy A (₹6 lakh) and Policy B (₹8 lakh). Faulty wiring in landlord's building causes fire; actual loss = ₹5 lakh. Landlord is legally liable.\" Contribution: Insurers A and B share ₹5 lakh in 6:8 ratio (A pays ₹2.14L, B pays ₹2.86L). Subrogation: After paying, insurers jointly sue landlord to recover ₹5 lakh. A poor answer omits either the double insurance (needed for contribution) or the negligent third party (needed for subrogation), or lets the insured recover from both insurers and the landlord—showing inability to synthesize the two principles in one scenario.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The principles of Indemnity, Subrogation, and ______ are core doctrines governing property insurance contracts (fire, marine, general) that collectively prevent the insured from profiting from a loss.",
+     "a": "Contribution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your ______'s faulty wiring causes a fire that damages your ₹5 lakh warehouse.",
+     "a": "neighbour",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your neighbour's faulty wiring causes a fire that damages your ₹______ lakh warehouse.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) distinguish indemnity contracts from life insurance contracts using the \"profit test,\" (2) trace the legal right transfer in subrogation through a three-party scenario (insured, insurer, third party), and (3) calculate each insurer's share in a double insurance case using the contribution formula.",
+     "self_check": true
     }
    ]
   }

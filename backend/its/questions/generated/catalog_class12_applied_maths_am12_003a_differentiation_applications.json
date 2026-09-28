@@ -5,6 +5,8 @@
    "id": "am12_003a.1",
    "title": "Marginal Cost and Marginal Revenue",
    "converted_to_compute": false,
+   "formula": "mp = mr - mc",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate the limit of 1x^2 + 4x + 1 as x approaches 2 (direct substitution).",
@@ -42,6 +44,8 @@
    "id": "am12_003a.2",
    "title": "Related Rates of Change",
    "converted_to_compute": false,
+   "formula": "da = 2 * pi * r * dr",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate the limit of 3x^2 + 6x + 6 as x approaches 1 (direct substitution).",
@@ -79,6 +83,8 @@
    "id": "am12_003a.3",
    "title": "Slope of Tangent and Normal",
    "converted_to_compute": false,
+   "formula": "normal = -1 / (2 * a * x + b)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 42 cm (take pi = 22/7).",
@@ -116,6 +122,8 @@
    "id": "am12_003a.4",
    "title": "Profit from Cost and Revenue Functions",
    "converted_to_compute": false,
+   "formula": "profit = revenue - cost",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A trader buys an article for Rs 500 and sells it for Rs 650. Find the profit.",
@@ -152,15 +160,9 @@
   {
    "id": "am12_003a.5",
    "title": "Maxima and Minima Second Derivative Test",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the calculus rule and evaluate at the point",
-     "explain": "apply the calculus rule and evaluate at the point: val = 3 * 2 * 2 + 8 * 2 + 8 gives 36",
-     "compute": "val = 3 * 2 * 2 + 8 * 2 + 8"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate the limit of 3x^2 + 8x + 8 as x approaches 2 (direct substitution).",
@@ -197,15 +199,9 @@
   {
    "id": "am12_003a.6",
    "title": "Monotonic Functions by Derivative Sign",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the calculus rule and evaluate at the point",
-     "explain": "apply the calculus rule and evaluate at the point: val = 3 * 3 * 3 + 3 * 3 + 8 gives 44",
-     "compute": "val = 3 * 3 * 3 + 3 * 3 + 8"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate the limit of 3x^2 + 3x + 8 as x approaches 3 (direct substitution).",
@@ -242,15 +238,9 @@
   {
    "id": "am12_003a.7",
    "title": "Implicit Parametric and Logarithmic Differentiation",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the calculus rule and evaluate at the point",
-     "explain": "apply the calculus rule and evaluate at the point: val = 3 * 1 * 1 + 5 * 1 + 6 gives 14",
-     "compute": "val = 3 * 1 * 1 + 5 * 1 + 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate the limit of 3x^2 + 5x + 6 as x approaches 1 (direct substitution).",
@@ -287,15 +277,9 @@
   {
    "id": "am12_003a.8",
    "title": "Higher Order Derivatives",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the calculus rule and evaluate at the point",
-     "explain": "apply the calculus rule and evaluate at the point: val = 4 * 5 * 5 + 4 * 5 + 4 gives 124",
-     "compute": "val = 4 * 5 * 5 + 4 * 5 + 4"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate the limit of 4x^2 + 4x + 4 as x approaches 5 (direct substitution).",

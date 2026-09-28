@@ -34,6 +34,31 @@
      "q": "Design a mini-program that uses **all three modules** to simulate: \"A bank offers a lottery where each customer gets a random 4-digit PIN. The interest rate on their savings is `math.e` percent per annum compounded daily. The lottery draw date is exactly 90 days after account opening.\" Print the PIN, the effective annual rate (EAR), and the draw date for an account opened today.",
      "a": "```python\nimport math, random, datetime\npin = random.randint(1000, 9999)\nrate_percent = math.e  # ~2.71828%\ndaily_rate = rate_percent / 100 / 365\near = (1 + daily_rate) ** 365 - 1\nopen_date = datetime.date.today()\ndraw_date = open_date + datetime.timedelta(days=90)\nprint(f\"PIN: {pin:04d}\")\nprint(f\"EAR: {ear*100:.4f}%\")\nprint(f\"Draw date: {draw_date.strftime('%d-%b-%Y')}\")\n```\nA good answer shows correct imports, `randint` for 4-digit PIN (1000-9999), `math.e` for rate, compound interest formula with daily compounding, `timedelta` for date arithmetic, and `strftime` for formatting. Poor answers use `random.random()*9000+1000` (float), forget `/100` for percent, or use `datetime.datetime.now()` instead of `date.today()`.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Python Standard Library provides pre-built modules that extend core language ______ without requiring external installation.",
+     "a": "functionality",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a school fee management system that must: (1) ______ compound interest on late fees using math.pow, (2) randomly assign students to houses for a sports event using random.shuffle, and (3) compute each student's age as of today from their date of birth using datetime.date.",
+     "a": "calculate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For the interest, recall the formula A = P(______ + r/n)^(nt) — use math.pow for the exponent.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write correct import statements, select appropriate functions/constants from each module, combine them in a program that solves a real-world problem (e.g., calculating compound interest with math, simulating a dice game with random, computing age from birthdate with datetime), and explain the output including edge cases like.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a school fee ______ system that must: (1) calculate compound interest on late fees using math.pow, (2) randomly assign students to houses for a sports event using random.shuffle, and (3) compute each student's age as of today from their date of birth using datetime.date.",
+     "a": "management",
+     "self_check": true
     }
    ]
   }

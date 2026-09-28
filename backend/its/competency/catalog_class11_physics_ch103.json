@@ -10,7 +10,7 @@
    "title": "Magnitude and Direction of a 2D Vector",
    "section": "3.5",
    "definition": "A two-dimensional vector can be completely written as its mutually orthogonal rectangular components, whose root sum of squares gives its overall size and whose ratio gives its angular orientation.",
-   "formula": "magnitude = sqrt(x_comp**2 + y_comp**2), tan_theta = y_comp / x_comp",
+   "formula": "magnitude = sqrt(x_comp**2 + y_comp**2); tan_theta = y_comp / x_comp",
    "key_idea": "The Euclidean length of perpendicular components determines the total vector magnitude.",
    "textbook_ref": "keph103.txt lines 210-245",
    "question_patterns": [
@@ -51,7 +51,22 @@
      "solution": "Step 1: sum of squares of components. Step 2: take square root. Step 3: compute direction angle. Working: x_comp**2 + y_comp**2, sqrt(sum_sq).",
      "answer": "The method of magnitude and direction of a 2d vector leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "magnitude = sqrt(x_comp**2 + y_comp**2)",
+     "compute": "magnitude = sqrt(x_comp**2 + y_comp**2)"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "tan_theta = y_comp / x_comp",
+     "compute": "tan_theta = y_comp / x_comp"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.3.2",
@@ -99,7 +114,16 @@
      "solution": "Step 1: square individual magnitudes. Step 2: evaluate square root. Step 3: compute direction of resultant. Working: vec_a**2 + vec_b**2, sqrt(sum_squares).",
      "answer": "The method of resultant of two perpendicular vectors leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "R = sqrt(A**2 + B**2)",
+     "compute": "R = sqrt(A**2 + B**2)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.3.3",
@@ -155,7 +179,7 @@
    "title": "Time of Flight of a Projectile",
    "section": "3.9",
    "definition": "The total duration an airborne object spends traversing its parabolic trajectory before returning to its launch elevation.",
-   "formula": "T_f = (2 * v0 * sin_theta) / g",
+   "formula": "T_f = (2 * v_0 * sin_theta) / g",
    "key_idea": "Time in air depends solely on the vertical launch velocity component and gravitational acceleration.",
    "textbook_ref": "keph103.txt lines 550-575",
    "question_patterns": [
@@ -197,14 +221,23 @@
      "solution": "Step 1: compute vertical velocity component. Step 2: compute total flight duration. Step 3: compute time to reach maximum height. Working: v0 * sin_theta, 2 * voy / g, voy / g.",
      "answer": "The method of time of flight of a projectile leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "T_f = (2 * v_0 * sin_theta) / g",
+     "compute": "T_f = (2 * v_0 * sin_theta) / g"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.3.5",
    "title": "Maximum Height of a Projectile",
    "section": "3.9",
    "definition": "The highest vertical altitude reached by a projectile during flight, occurring when the vertical velocity component momentarily reaches zero.",
-   "formula": "H_m = (v0 * sin_theta)**2 / (2 * g)",
+   "formula": "H_m = (v_0 * sin_theta)**2 / (2 * g)",
    "key_idea": "The peak altitude is governed exclusively by the initial vertical velocity component.",
    "textbook_ref": "keph103.txt lines 570-590",
    "question_patterns": [
@@ -246,14 +279,23 @@
      "solution": "Step 1: calculate vertical velocity component. Step 2: compute maximum height. Step 3: compute time to reach maximum height. Working: v0 * sin_theta, (voy**2) / (2 * g), voy / g.",
      "answer": "The method of maximum height of a projectile leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "H_m = (v_0 * sin_theta)**2 / (2 * g)",
+     "compute": "H_m = (v_0 * sin_theta)**2 / (2 * g)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.3.6",
    "title": "Horizontal Range of a Projectile",
    "section": "3.9",
    "definition": "The total horizontal span traversed by a projectile from its launch position to the point where it returns to the projection level.",
-   "formula": "R = (v0**2 * sin_2theta) / g, R_max = v0**2 / g",
+   "formula": "R = (v_0**2 * sin_2theta) / g; R_max = v_0**2 / g",
    "key_idea": "Range is maximized at an launch angle of 45 degrees where sin(2*theta) equals unity.",
    "textbook_ref": "keph103.txt lines 585-615",
    "question_patterns": [
@@ -295,7 +337,22 @@
      "solution": "Step 1: compute square of initial velocity. Step 2: multiply by trigonometric factor and divide by g. Step 3: compute maximum range. Working: v0**2, (v0_sq * sin_2theta) / g, v0_sq / g.",
      "answer": "The method of horizontal range of a projectile leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "R = (v_0**2 * sin_2theta) / g",
+     "compute": "R = (v_0**2 * sin_2theta) / g"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "R_max = v_0**2 / g",
+     "compute": "R_max = v_0**2 / g"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.3.7",
@@ -344,14 +401,23 @@
      "solution": "Step 1: square the linear speed. Step 2: divide by orbital radius. Step 3: compute centripetal force. Working: speed**2, v_sq / radius, mass * centripetal_acc.",
      "answer": "The method of centripetal acceleration from speed and radius leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "a_c = v**2 / R",
+     "compute": "a_c = v**2 / R"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.3.8",
    "title": "Centripetal Acceleration in terms of Frequency and Radius",
    "section": "3.10",
    "definition": "Centripetal acceleration expressed in terms of the rate of revolution or rotational frequency and circular radius.",
-   "formula": "omega = 2 * pi * frequency, a_c = 4 * (pi**2) * (frequency**2) * R",
+   "formula": "omega = 2 * pi * frequency; a_c = 4 * (pi**2) * (frequency**2) * R",
    "key_idea": "Circular acceleration scales with the square of rotation rate and directly with path radius.",
    "textbook_ref": "keph103.txt lines 715-760",
    "question_patterns": [
@@ -393,7 +459,22 @@
      "solution": "Step 1: determine rotational frequency. Step 2: compute angular velocity. Step 3: compute centripetal acceleration. Working: revolutions / time_taken, 2 * pi * freq, (omega**2) * radius.",
      "answer": "The method of centripetal acceleration in terms of frequency and radius leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "omega = 2 * pi * frequency",
+     "compute": "omega = 2 * pi * frequency"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "a_c = 4 * (pi**2) * (frequency**2) * R",
+     "compute": "a_c = 4 * (pi**2) * (frequency**2) * R"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

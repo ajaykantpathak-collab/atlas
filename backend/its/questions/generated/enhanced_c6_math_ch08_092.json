@@ -34,6 +34,31 @@
      "q": "Design a box (cuboid) that has a surface area of 52 cm².",
      "a": "A possible answer is length=4, width=3, height=2. Calculation: 2(12+8+6) = 2(26) = 52. A poor answer uses random numbers without checking the formula; this reveals a lack of understanding that the dimensions must satisfy the equation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The surface area of a 3D object is the total amount of space covered by all its outer faces ______.",
+     "a": "combined",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are wrapping a gift box for a friend's birthday; you need to know exactly how much wrapping ______ to buy to cover all six sides.",
+     "a": "paper",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The surface area of a ______D object is the total amount of space covered by all its outer faces combined.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to calculate the surface area of a given cube or cuboid by identifying the dimensions and correctly applying the appropriate surface area formula.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are wrapping a gift box for a friend's ______; you need to know exactly how much wrapping paper to buy to cover all six sides.",
+     "a": "birthday",
+     "self_check": true
     }
    ]
   }

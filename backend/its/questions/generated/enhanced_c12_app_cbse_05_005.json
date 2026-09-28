@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_05_005",
+   "title": "c12_app_cbse_05_005",
+   "questions": [
+    {
+     "q": "State the formal definition of a \"General Solution\" of a differential equation of order `n`. How many arbitrary constants must it essentially contain, and why?",
+     "a": "A General Solution of an nth-order differential equation is a relation between the dependent and independent variables containing exactly `n` essential arbitrary constants that satisfies the differential equation. It must contain `n` arbitrary constants because integrating an nth-order derivative `n` times introduces `n` constants of integration; these constants represent the `n` degrees of freedom (initial conditions like initial position, velocity, acceleration, etc.) required to specify a unique solution. **Wrong Answer Reveals:** If a student says \"one constant\" or \"depends on the degree,\" they confuse Order with Degree or misunderstand that each integration step introduces one constant. They likely memorize \"general solution has constants\" without linking it to the *number of integrations* required to reverse the derivatives.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The function `y = x^2 + 5` is the General Solution of the differential equation `dy/dx = 2x` because it satisfies the equation.\" Explain why this claim is incorrect. What is the *actual* General Solution? What *is* `y = x^2 + 5`?",
+     "a": "The claim is incorrect because `y = x^2 + 5` contains **no arbitrary constant**; it is a **Particular Solution** (specifically, the one passing through (0,5)). The actual General Solution is `y = x^2 + C`, where `C` is an arbitrary constant. `y = x^2 + 5` is just one member of the infinite family of curves represented by the General Solution. **Wrong Answer Reveals:** If the student agrees with the claim, they fundamentally confuse \"a solution\" (any function satisfying the DE) with \"the General Solution\" (the *entire family* of solutions). They miss the definitional requirement of arbitrary constants representing the *generality*. This is the single most frequent error in Board 1-mark questions.",
+     "self_check": true
+    },
+    {
+     "q": "Verify whether the function `y = e^{-x} + Ax + B` (where `A` and `B` are arbitrary constants) is a solution of the differential equation `d^2y/dx^2 + dy/dx = 1`. Show all steps of substitution.",
+     "a": "**Step 1:** Compute derivatives.\n`y = e^{-x} + Ax + B`\n`dy/dx = -e^{-x} + A`\n`d^2y/dx^2 = e^{-x}`\n**Step 2:** Substitute into LHS of DE: `d^2y/dx^2 + dy/dx`\nLHS = `e^{-x} + (-e^{-x} + A)` = `A`.\n**Step 3:** Compare with RHS. RHS = `1`.\n**Step 4:** Conclusion. LHS (`A`) equals RHS (`1`) **only if `A = 1`**. Since `A` is an *arbitrary* constant (not fixed to 1), the given function is **NOT a solution** of the differential equation for all arbitrary values of `A` and `B`. It is a solution only for the specific sub-family where `A=1`.\n**Wrong Answer Reveals:** A student who substitutes `y` but forgets to differentiate correctly (e.g., misses chain rule on `e^{-x}`) or treats `A` as a fixed number `1` during verification reveals weak calculus mechanics (Class 11 derivatives) or misunderstanding of \"arbitrary constant\" (it must hold for *all* values).",
+     "self_check": true
+    },
+    {
+     "q": "Consider the differential equation `d^2y/dx^2 + y = 0`. Two students propose solutions:\nStudent A: `y = A sin x + B cos x`\nStudent B: `y = C sin(x + \\phi)` (where `C, \\phi` are constants).\nAnalyze: Are both valid General Solutions? Why or why not? How are the constants related?",
+     "a": "**Yes, both are valid General Solutions.** The DE is 2nd order, so the General Solution must have **2 independent arbitrary constants**.\nStudent A: `A` and `B` are two independent arbitrary constants. Direct substitution verifies it: `y'' = -A sin x - B cos x = -y` => `y'' + y = 0`.\nStudent B: `C` and `\\phi` are two independent arbitrary constants. Using trig identity: `C sin(x+\\phi) = C cos \\phi sin x + C sin \\phi cos x`. Let `A = C cos \\phi`, `B = C sin \\phi`. This maps exactly to Student A's form. Since the mapping is bijective (for `C>0`), they represent the same family of curves.\n**Wrong Answer Reveals:** If a student says \"Only A is correct because B has phase shift\" or \"B has only one constant `C`\", they fail to recognize `\\phi` as an independent constant or the equivalence of parametric representations. This tests deep understanding of \"arbitrary constants\" vs \"parameters\" — a common JEE Advanced trap.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"To find the Particular Solution of a differential equation, we first find the General Solution and then apply initial conditions. Therefore, the General Solution is *always* an intermediate step that must be explicitly written down before the Particular Solution can be found.\" Defend or critique with a counter-example if false.",
+     "a": "**Critique: The statement is FALSE.** While the standard *procedure* finds the General Solution first, the General Solution is a *conceptual family*, not a mandatory computational step. **Counter-example:** Solve `dy/dx = 2x` with `y(0) = 5`.\nMethod 1 (Standard): Integrate -> `y = x^2 + C`. Apply `y(0)=5` -> `C=5` -> `y = x^2 + 5`.\nMethod 2 (Definite Integral / Direct): `\\int_{y(0)}^{y} dy = \\int_{0}^{x} 2t dt` -> `y - 5 = x^2` -> `y = x^2 + 5`.\nHere, the Particular Solution was found **without ever writing the expression `y = x^2 + C`**. The arbitrary constant `C` was \"absorbed\" into the limits of integration.\n**Wrong Answer Reveals:** A student who insists \"True, you must always write `+C` first\" demonstrates procedural rigidity without conceptual understanding of what the constant represents (the initial value). This distinction is crucial for Physics/Engineering applications (Initial Value Problems) where definite integration is standard.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) modeled by a 2nd-order differential equation where the General Solution has two arbitrary constants. Explain the physical meaning of *each* constant in your scenario. Write the General Solution and derive a specific Particular Solution using realistic initial conditions.",
+     "a": "**Scenario:** A mass-spring system (shock absorber of a Maruti Suzuki Swift) oscillating vertically on a rough road.\n**Model:** `m d^2x/dt^2 + kx = 0` (Simple Harmonic Motion). Let `m=1 kg`, `k=4 N/m` => `d^2x/dt^2 + 4x = 0`.\n**General Solution:** `x(t) = A cos(2t) + B sin(2t)`.\n**Physical Meaning:**\n- `A` = Initial displacement `x(0)` (how far the spring is stretched/compressed at `t=0`).\n- `B` = Initial velocity `v(0)/2` (since `v(t) = -2A sin(2t) + 2B cos(2t)` => `v(0) = 2B`).\n**Particular Solution:** Suppose at `t=0`, the car hits a pothole compressing the spring by `0.1 m` (`x(0) = -0.1`) and the wheel has upward velocity `0.4 m/s` (`v(0) = 0.4`).\n`x(0) = A = -0.1`.\n`v(0) = 2B = 0.4` => `B = 0.2`.\n**Particular Solution:** `x(t) = -0.1 cos(2t) + 0.2 sin(2t)`.\n**Poor Answer Reveals:** If a student gives a 1st-order example (cooling, growth) or assigns vague meanings like \"A is constant 1, B is constant 2\", they lack the ability to connect mathematical structure (Order = Number of Constants = Number of Initial Conditions) to physical degrees of freedom — a critical gap for CUET/JEE Physics crossover questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,152 @@
+{
+ "catalog": "catalog_class11_chemistry_ch101.json",
+ "concepts": [
+  {
+   "id": "jech.1.2",
+   "title": "Laws of Chemical Combination",
+   "converted_to_compute": true,
+   "formula": "mass_reactants = mass_products",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mass_reactants = mass_products",
+     "compute": "mass_reactants = mass_products"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Laws of Chemical Combination: given mass_products = 80, find mass reactants.",
+     "a": "80",
+     "self_check": false
+    },
+    {
+     "q": "For Laws of Chemical Combination: given mass_products = 148, find mass reactants.",
+     "a": "148",
+     "self_check": false
+    },
+    {
+     "q": "For Laws of Chemical Combination: given mass_products = 24, find mass reactants.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "For Laws of Chemical Combination: given mass_products = 119, find mass reactants.",
+     "a": "119",
+     "self_check": false
+    },
+    {
+     "q": "For Laws of Chemical Combination: given mass_products = 190, find mass reactants.",
+     "a": "190",
+     "self_check": false
+    },
+    {
+     "q": "For Laws of Chemical Combination: given mass_products = 30, find mass reactants.",
+     "a": "30",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jech.1.5",
+   "title": "Mole Concept and Molar Mass",
+   "converted_to_compute": true,
+   "formula": "moles = mass / molar_mass; number = moles * N_A",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "moles = mass / molar_mass",
+     "compute": "moles = mass / molar_mass"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "number = moles * N_A",
+     "compute": "number = moles * N_A"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Mole Concept and Molar Mass: given mass = 173, molar_mass = 44, N_A = 9.3, find number.",
+     "a": "36.5659",
+     "self_check": false
+    },
+    {
+     "q": "For Mole Concept and Molar Mass: given mass = 47, molar_mass = 13.1, N_A = 19.1, find number.",
+     "a": "68.5267",
+     "self_check": false
+    },
+    {
+     "q": "For Mole Concept and Molar Mass: given mass = 104, molar_mass = 175, N_A = 15.5, find number.",
+     "a": "9.21143",
+     "self_check": false
+    },
+    {
+     "q": "For Mole Concept and Molar Mass: given mass = 182, molar_mass = 78, N_A = 7.5, find number.",
+     "a": "17.5",
+     "self_check": false
+    },
+    {
+     "q": "For Mole Concept and Molar Mass: given mass = 8.7, molar_mass = 175, N_A = 3.9, find number.",
+     "a": "0.193886",
+     "self_check": false
+    },
+    {
+     "q": "For Mole Concept and Molar Mass: given mass = 84, molar_mass = 169, N_A = 3.8, find number.",
+     "a": "1.88876",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jech.1.8",
+   "title": "Stoichiometry and Calculations Based on Stoichiometry",
+   "converted_to_compute": true,
+   "formula": "moles_product = moles_reactant * (coeff_product / coeff_reactant)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "moles_product = moles_reactant * (coeff_product / coeff_reactant)",
+     "compute": "moles_product = moles_reactant * (coeff_product / coeff_reactant)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Stoichiometry and Calculations Based on Stoichiometry: given moles_reactant = 10.6, coeff_product = 43, coeff_reactant = 2.4, find moles product.",
+     "a": "189.917",
+     "self_check": false
+    },
+    {
+     "q": "For Stoichiometry and Calculations Based on Stoichiometry: given moles_reactant = 9.9, coeff_product = 96, coeff_reactant = 81, find moles product.",
+     "a": "11.7333",
+     "self_check": false
+    },
+    {
+     "q": "For Stoichiometry and Calculations Based on Stoichiometry: given moles_reactant = 15.9, coeff_product = 23, coeff_reactant = 46, find moles product.",
+     "a": "7.95",
+     "self_check": false
+    },
+    {
+     "q": "For Stoichiometry and Calculations Based on Stoichiometry: given moles_reactant = 8.7, coeff_product = 83, coeff_reactant = 89, find moles product.",
+     "a": "8.11348",
+     "self_check": false
+    },
+    {
+     "q": "For Stoichiometry and Calculations Based on Stoichiometry: given moles_reactant = 8.3, coeff_product = 23, coeff_reactant = 3.2, find moles product.",
+     "a": "59.6563",
+     "self_check": false
+    },
+    {
+     "q": "For Stoichiometry and Calculations Based on Stoichiometry: given moles_reactant = 19, coeff_product = 56, coeff_reactant = 4.5, find moles product.",
+     "a": "236.444",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

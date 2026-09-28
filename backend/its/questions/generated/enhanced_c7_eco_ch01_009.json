@@ -34,6 +34,26 @@
      "q": "Design a simple weekly expense budget for a student who receives ₹500 pocket money digitally, allocating funds across savings, transport, and stationery, and specify which digital tool they would use to track each category.",
      "a": "A good response allocates ₹500 logically (e.g., ₹200 savings, ₹150 transport, ₹150 stationery) and assigns a specific digital tool like a bank app's passbook or a digital piggy-bank feature to monitor spending. A poor answer gives random numbers without balancing to ₹500 or fails to link categories to electronic tracking tools.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Electronic and digital transactions refer to the transfer of funds and financial settlements conducted through digital devices and ______ networks without the physical exchange of cash or paper cheques.",
+     "a": "telecommunication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine buying fresh vegetables at a local market stall where the vendor displays a QR code, allowing you to scan it with a ______ app and pay instantly using your bank account.",
+     "a": "smartphone",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Students can differentiate between various digital payment methods (UPI, NEFT, RTGS), trace how electronic funds move between bank accounts, and calculate the time or transaction requirements for specific monetary transfers.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine buying fresh ______ at a local market stall where the vendor displays a QR code, allowing you to scan it with a smartphone app and pay instantly using your bank account.",
+     "a": "vegetables",
+     "self_check": true
     }
    ]
   }

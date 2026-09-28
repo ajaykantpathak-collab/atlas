@@ -34,6 +34,26 @@
      "q": "Design a scenario involving a small business that uses all three network types (LAN, MAN, WAN) simultaneously. Describe the purpose of each in your scenario.",
      "a": "Example: A retail chain has a LAN in each store connecting POS terminals and inventory PCs (LAN). The stores in a city connect to a central city warehouse via a MAN (metro fiber). The city warehouse connects to the national headquarters and cloud ERP over the internet/leased lines (WAN). A poor answer would list three separate networks without showing how they interconnect hierarchically (LANs → MAN → WAN).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Local Area Network (LAN) connects computers within a limited geographical area such as a single building or campus using high-speed media; a Metropolitan Area Network (MAN) spans a city or large campus by interconnecting multiple LANs through fiber optics or wireless links; a Wide Area Network (WAN) covers large geographical distances (countries, continents) by linking MANs and LANs via leased ______ circuits, satellites, or public infrastructure.",
+     "a": "telecommunication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are sharing a video file with a friend sitting next to you in the same classroom using a Wi-Fi ______—what type of network is that?",
+     "a": "hotspot",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify a given network scenario as LAN, MAN, or WAN by analyzing its geographical scope, ownership, transmission media, and typical use cases, and can justify the classification with at least two distinguishing characteristics.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are sharing a video file with a friend sitting next to you in the same ______ using a Wi-Fi hotspot—what type of network is that?",
+     "a": "classroom",
+     "self_check": true
     }
    ]
   }

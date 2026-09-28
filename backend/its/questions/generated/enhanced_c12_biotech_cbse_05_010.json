@@ -34,6 +34,36 @@
      "q": "Design a Y2H-based experiment to test whether a human transcription factor (TF-X) dimerises with itself (homodimerisation) and, if so, map the minimal dimerisation domain. Specify bait/prey constructs, controls, and how you would interpret domain truncation results.",
      "a": "Constructs: (1) Full-length TF-X fused to DBD (bait) + full-length TF-X fused to AD (prey) → test homodimerisation. Controls: bait + empty AD; prey + empty DBD; bait + unrelated prey. If positive, make serial N-terminal and C-terminal truncations of TF-X in *both* bait and prey vectors (e.g., ΔN50, ΔN100, ΔC50, ΔC100). Test all pairwise combinations. Minimal domain = smallest truncation pair that still gives reporter activation. Interpretation: if ΔN100-bait + ΔN100-prey works but ΔN150 fails, dimerisation domain lies between residues 100-150. A poor answer tests only full-length or uses only one truncation series — revealing inability to design a systematic mapping experiment with proper controls.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Proteomics is the large-scale study of the complete set of proteins (proteome) expressed by a genome, cell, tissue, or organism at a given time under specific conditions, including their structures, functions, ______, and interactions.",
+     "a": "modifications",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This is the classic ______ challenge: the genome tells you *what could be made*, but the proteome tells you *what is actually made and what it does*.",
+     "a": "proteomics",
+     "self_check": true
+    },
+    {
+     "q": "What is Proteomics? State the definition given in this lesson.",
+     "a": "Proteomics is the large-scale study of the complete set of proteins (proteome) expressed by a genome, cell, tissue, or organism at a given time under specific conditions, including their structures, functions, modifications, and interactions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The yeast two-hybrid (Y______H) system is a molecular biology technique used to detect protein-protein interactions by reconstituting a functional transcription factor from two separate fusion proteins (DNA-binding domain and activation domain) in yeast, where interaction activates reporter gene expression.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Proteomics?",
+     "a": "Misconception: \"In Y2H, if the bait protein activates the reporter on its own (auto-activation), you just increase 3-AT concentration until background stops — then any growth is a true interaction.\" Why it's wrong: 3-AT (3-amino-1,2,4-triazole) is a competitive inhibitor of the HIS3 enzyme (imidazoleglycerol-phosphate dehydratase).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the principle of the yeast two-hybrid system with a labelled diagram, distinguish between bait and prey constructs, interpret reporter gene activation results, and identify two major limitations (false positives from auto-activation, false negatives from improper folding/nuclear localisation) with specific.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using household items to demonstrate the Magnus effect on a spinning ball. List materials, procedure, and the expected observation. Explain how Bernoulli's principle accounts for the curved trajectory.",
      "a": "Materials: A light plastic ball (e.g., table tennis ball), a string (1 m), a hair dryer (cool setting) or a fan. Procedure: Tie string to ball. Hold hair dryer blowing upward. Place ball in the air stream; it will levitate. Now give the ball a spin by twisting the string and release. Observe the ball curves sideways. Explanation: Spinning ball drags air, creating higher relative speed on one side, lower on the other. By Bernoulli, pressure difference creates a sideways force (Magnus force), curving the path. A poor answer (e.g., no spinning mechanism, or explanation using \"centrifugal force\") reveals confusion between Magnus effect and other forces.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Bernoulli's principle states that for an ______, non-viscous fluid in steady streamline flow, the sum of pressure energy per unit volume (P), kinetic energy per unit volume (½ρv²), and potential energy per unit volume (ρgh) remains constant along a streamline.",
+     "a": "incompressible",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a garden hose: when you ______ block the nozzle with your thumb, water jets out faster and reaches farther.",
+     "a": "partially",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can derive Torricelli's law from Bernoulli's equation, calculate pressure difference on an aerofoil given speeds, and explain the Magnus effect on a spinning cricket ball using streamline crowding and pressure difference.",
+     "self_check": true
     }
    ]
   }

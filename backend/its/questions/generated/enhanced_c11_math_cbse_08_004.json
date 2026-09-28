@@ -34,6 +34,21 @@
      "q": "Create a binomial expression of the form \\((ax^p + bx^q)^n\\) with integer \\(a,b,p,q,n\\) such that there is exactly one term independent of \\(x\\) and its coefficient is 240. Provide the expression and verify.",
      "a": "One example: \\((2x^2 + 3x^{-1})^6\\). General term: \\(\\binom{6}{r} (2x^2)^{6-r} (3x^{-1})^r = \\binom{6}{r} 2^{6-r} 3^r x^{12-3r}\\). Set \\(12-3r=0 \\Rightarrow r=4\\). Coefficient: \\(\\binom{6}{4} 2^2 3^4 = 15 \\cdot 4 \\cdot 81 = 4860\\) (not 240). A correct example: \\((x^3 + 2x^{-2})^5\\). Term independent: \\(3(5-r) - 2r = 0 \\Rightarrow 15 - 5r = 0 \\Rightarrow r=3\\). Coefficient: \\(\\binom{5}{3} 2^3 = 10 \\cdot 8 = 80\\). To get 240, try \\((x^2 + 2x^{-1})^6\\): \\(2(6-r) - r = 0 \\Rightarrow 12 - 3r = 0 \\Rightarrow r=4\\). Coefficient: \\(\\binom{6}{4} 2^4 = 15 \\cdot 16 = 240\\). Expression: \\((x^2 + \\frac{2}{x})^6\\). A poor answer would give an expression where the equation for \\(r\\) has no integer solution or multiple solutions, showing the student does not understand the condition for existence and uniqueness of such a term.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You already know the ______ term formula from the previous lesson.",
+     "a": "general",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "They can also handle problems where the binomial contains fractional or negative powers of the variable.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You already know the general term formula from the ______ lesson.",
+     "a": "previous",
+     "self_check": true
     }
    ]
   }

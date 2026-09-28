@@ -34,6 +34,26 @@
      "q": "Create one literal and one inferential question based on the paragraph describing the CT scan night (from \"The night of the scan...\" to \"...pharaoh again rested in peace\"). Provide the answer key for both.",
      "a": "Literal Q: \"How long was the mummy outside the coffin?\" Answer: \"Less than three hours.\" (Directly stated). Inferential Q: \"Why did the technicians check that no data had been lost before handing Tut back?\" Answer: \"Because the scanner had malfunctioned due to sand, risking data corruption; they needed to ensure the scan was complete before returning the fragile mummy.\" (Combines scanner failure + mummy's fragility + procedural care). A poor created question (e.g., \"What color was the fan?\") shows inability to identify significant textual details.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal comprehension questions require answers directly stated in the text, while ______ comprehension questions require students to draw conclusions by combining textual evidence with reasoning, going beyond what is explicitly written.",
+     "a": "inferential",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are reading a news report about a ______ discovery: the headline gives you the literal facts (who, what, when), but to understand *why* it matters, you must infer the implications.",
+     "a": "scientific",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently distinguish between literal and inferential questions, locate exact textual evidence for literal answers, and construct logical inferences supported by multiple pieces of evidence from the chapter.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are reading a news report about a scientific discovery: the headline gives you the literal facts (who, what, when), but to understand *why* it matters, you must infer the ______.",
+     "a": "implications",
+     "self_check": true
     }
    ]
   }

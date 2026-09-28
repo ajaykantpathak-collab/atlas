@@ -34,6 +34,26 @@
      "q": "Design a 2-input \"equivalence\" gate (output 1 when both inputs are same: 00→1, 01→0, 10→0, 11→1) using ONLY 2-input NAND gates (74LS00). Draw the circuit diagram, label all pin numbers for a single 74LS00 IC, and write the Boolean expression at each intermediate node.",
      "a": "Equivalence = XNOR = (A ⊕ B)' = AB + A'B'. Using NAND-only: Step 1: NAND1 (pins 1,2→3) gives (AB)'. Step 2: NAND2 (pins 4,5→6) gives (A'B')'? Wait — need A' and B'. Use NAND as inverter: tie both inputs together. NAND2: pins 4,5 both = A → pin 6 = A'. NAND3: pins 9,10 both = B → pin 8 = B'. NAND4: pins 12,13 = A', B' → pin 11 = (A'B')' = A+B. Now we have (AB)' at pin 3 and (A+B) at pin 11. Need (AB)' · (A+B) = AB + A'B'? No. Better approach: XNOR = (A ⊕ B)' = (A'B + AB')' = (A'B)' · (AB')' = (A+B') · (A'+B). Use 4 NANDs: NAND1: A,B→(AB)'; NAND2: A,(AB)'→(A·(AB)')' = (A·(A'+B'))' = (AB')' = A'+B; NAND3: B,(AB)'→(B·(AB)')' = (A'B)' = A+B'; NAND4: (A'+B), (A+B')→((A'+B)(A+B'))' = (AA' + A'B' + AB + BB')' = (A'B' + AB)' = (A⊕B)' = XNOR. Pin mapping: 74LS00 pins 1,2,3 = NAND1; 4,5,6 = NAND2; 9,10,8 = NAND3; 12,13,11 = NAND4. A student who can't do this hasn't internalized NAND universality (covered next in c12_cs_cbse_07_012) or gate-level circuit tracing.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A logic gate is an electronic circuit that implements a Boolean function by performing a logical operation on one or more binary inputs to produce a single binary output, where the inputs and outputs are ______ by voltage levels (typically 0V for logic 0 and 5V/3.3V for logic 1).",
+     "a": "represented",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're designing a security system for a locker that opens only when two conditions are met: a correct keycard is ______ (input A = 1) AND a valid PIN is entered (input B = 1).",
+     "a": "presented",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Identify and draw the standard ANSI/IEEE symbols for all six basic gates (AND, OR, NOT, NAND, NOR, XOR) and write their truth tables from memory; (2) Given a combinational circuit diagram with 3-4 gates, trace the logic to derive the output Boolean expression and complete the truth table for all input.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're designing a security system for a locker that opens only when two ______ are met: a correct keycard is presented (input A = 1) AND a valid PIN is entered (input B = 1).",
+     "a": "conditions",
+     "self_check": true
     }
    ]
   }

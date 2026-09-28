@@ -34,6 +34,31 @@
      "q": "Design a simple classification test using everyday kitchen items to distinguish between an iron spoon (metal) and a piece of chalk (non-metal/calcium compound). Describe two tests and expected observations.",
      "a": "A good answer proposes: 1. Appearance test: The iron spoon has a shiny metallic lustre, while chalk is dull and powdery. 2. Conduction/Hardness test: Striking chalk causes it to crumble easily (brittle), whereas the iron spoon bends or rings with a sonorous sound and conducts heat if placed in warm water. A poor answer relies on color alone without testing physical behavior.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Metals are naturally occurring chemical elements that are typically lustrous, malleable, ductile, and good conductors of heat and ______ (such as iron, copper, and aluminium), whereas non-metals are elements that generally lack these properties, appearing as solids, liquids, or gases (such as carbon, sulfur, and oxygen).",
+     "a": "electricity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When walking through your school kitchen or examining household utensils in India, you notice that pressure cookers are made of shiny, heavy aluminium or stainless steel, while the ______ wires running along the walls have copper inside and plastic coverings outside.",
+     "a": "electrical",
+     "self_check": true
+    },
+    {
+     "q": "What is Metals? State the definition given in this lesson.",
+     "a": "Metals are naturally occurring chemical elements that are typically lustrous, malleable, ductile, and good conductors of heat and electricity (such as iron, copper, and aluminium), whereas non-metals are elements that generally lack these properties, appearing as solids, liquids, or gases (such as carbon, sulfur, and oxygen).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Metals?",
+     "a": "Students often assume that all shiny materials are metals and all dull materials are non-metals.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can correctly classify common household and laboratory elements into metals and non-metals based on their appearance, physical state, and basic properties, and can provide real-world examples of each category.",
+     "self_check": true
     }
    ]
   }

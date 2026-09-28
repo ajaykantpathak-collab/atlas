@@ -34,6 +34,36 @@
      "q": "Design a prioritization framework for identifying new conservation areas specifically for endemic fauna in the Western Ghats. What three spatial data layers would you combine and why?",
      "a": "Combine: 1) Endemic species richness layer (from GBIF/occurrence data weighted by range rarity) to identify irreplaceable sites; 2) Forest connectivity/fragmentation layer (using canopy cover and corridor mapping) to ensure demographic viability; 3) Human pressure index (population density, road density, plantation extent) to assess imminent threat. A poor answer listing only species richness without connectivity or threat reveals a static \"snapshot\" approach ignoring dynamic processes of extinction debt and habitat loss.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Faunal diversity refers to the variety of animal species—including mammals, birds, reptiles, amphibians, fish, and ______—occurring naturally within a defined geographic region.",
+     "a": "invertebrates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: \"Have you noticed that the lion-tailed macaque is found only in the Western Ghats, while the snow leopard roams only the high ______?",
+     "a": "Himalayas",
+     "self_check": true
+    },
+    {
+     "q": "What is Faunal diversity? State the definition given in this lesson.",
+     "a": "Faunal diversity refers to the variety of animal species—including mammals, birds, reptiles, amphibians, fish, and invertebrates—occurring naturally within a defined geographic region.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Introduce India's ______ bio-geographic zones and the four global biodiversity hotspots.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Faunal diversity?",
+     "a": "Students conflate \"endemic\" with \"endangered,\" assuming a species restricted to a small area (endemic) is automatically threatened with extinction.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify India's four biodiversity hotspots on a map, list at least five endemic faunal species with their specific regions, and explain the geological and climatic reasons for high endemism in the Western Ghats and Himalayas using concepts of vicariance, dispersal, and sky-island biogeography.",
+     "self_check": true
     }
    ]
   }

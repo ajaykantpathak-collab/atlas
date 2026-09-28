@@ -34,6 +34,26 @@
      "q": "Create a triangle with integer coordinates that has an area of exactly 10 sq units. Give the coordinates and verify using the formula. Explain your thought process.",
      "a": "Example: (0,0), (5,0), (0,4). Area = ½ |0(0−4) + 5(4−0) + 0(0−0)| = ½ |20| = 10. Thought process: Choose a right triangle on axes so base × height = 20 → base=5, height=4. Any triangle with base 5 and height 4 works. A poor answer (e.g., random points not verifying to 10) reveals the student cannot reverse-engineer the formula or lacks understanding of the relationship between coordinates and area.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The area of a triangle with vertices A(x₁, y₁), B(x₂, y₂), and C(x₃, y₃) in the Cartesian plane is given by the absolute value of half the ______ formed by the coordinates: Area = ½ |x₁(y₂ − y₃) + x₂(y₃ − y₁) + x₃(y₁ − y₂)| square units.",
+     "a": "determinant",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a surveyor measuring a ______ plot of land in a village in Maharashtra.",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly state the coordinate geometry area formula, substitute vertices in any order, and compute the area of a triangle given three points.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a surveyor measuring a triangular plot of land in a village in ______.",
+     "a": "Maharashtra",
+     "self_check": true
     }
    ]
   }

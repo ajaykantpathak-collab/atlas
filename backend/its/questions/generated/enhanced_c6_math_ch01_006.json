@@ -34,6 +34,36 @@
      "q": "Create a 3-digit number that rounds to 500 when rounded to the nearest hundred, but rounds to 490 when rounded to the nearest ten.",
      "a": "A valid answer is 492, 493, or 494. A poor answer (like 501) indicates the student does not understand how rounding to different place values creates different results.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Rounding numbers is the process of replacing an exact number with a nearby, simpler value to make calculations or ______ easier.",
+     "a": "communication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a ______ market with ₹48 in your pocket.",
+     "a": "local",
+     "self_check": true
+    },
+    {
+     "q": "What is Rounding numbers? State the definition given in this lesson.",
+     "a": "Rounding numbers is the process of replacing an exact number with a nearby, simpler value to make calculations or communication easier.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a local market with ₹______ in your pocket.",
+     "a": "48",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Rounding numbers?",
+     "a": "Students often try to round by looking at the wrong digit, such as rounding 167 to the nearest ten by looking at the 1 instead of the 7.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify the target digit and use the \"round up/round down\" rule to correctly round any 3-digit number to the nearest ten or hundred.",
+     "self_check": true
     }
    ]
   }

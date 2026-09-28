@@ -34,6 +34,36 @@
      "q": "Design a decision flowchart (described in text) that a Class 11 student could follow to choose between published government reports, unpublished organisational records, and primary survey for a given research problem. Include at least four decision nodes with yes/no branches.",
      "a": "Flowchart: Start → Is the required data already collected by a government agency for the same population and time period? (Yes → Use published report like Census/NSSO; No → Does a relevant organisation hold unpublished records accessible with permission? Yes → Request access to internal data; No → Do definitions, coverage, and recency match your research variables exactly? Yes → Use secondary with caveats; No → Conduct primary survey). A poor answer with only \"check if data exists\" misses the layered evaluation of definitions, access permissions, and variable alignment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Secondary data refers to statistical information that has already been collected, processed, and published by an agency other than the ______, making it available for reuse without conducting fresh field surveys.",
+     "a": "investigator",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to analyse the trend of ______ rates in Indian states over the last 20 years for a school project.",
+     "a": "literacy",
+     "self_check": true
+    },
+    {
+     "q": "What is Secondary data? State the definition given in this lesson.",
+     "a": "Secondary data refers to statistical information that has already been collected, processed, and published by an agency other than the investigator, making it available for reuse without conducting fresh field surveys.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to analyse the trend of literacy rates in Indian states over the last ______ years for a school project.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Secondary data?",
+     "a": "Students often believe that any data found in a book, website, or newspaper is automatically \"published secondary data\" and therefore equally citable.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between published and unpublished secondary sources with at least three specific examples of each, explain why secondary data saves time and cost compared to primary collection, and evaluate the suitability of a given source for a stated research objective by checking relevance, reliability, and recency.",
+     "self_check": true
     }
    ]
   }

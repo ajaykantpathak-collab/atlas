@@ -1,0 +1,52 @@
+{
+ "catalog": "catalog_class11_chemistry_kech104.json",
+ "concepts": [
+  {
+   "id": "kech.104.4.1",
+   "title": "Molecular Orbital Theory and Bond Order Computation",
+   "converted_to_compute": true,
+   "formula": "bond_order = (bonding_electrons - antibonding_electrons) / 2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "bond_order = (bonding_electrons - antibonding_electrons) / 2",
+     "compute": "bond_order = (bonding_electrons - antibonding_electrons) / 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Molecular Orbital Theory and Bond Order Computation: given bonding_electrons = 1.7, antibonding_electrons = 16.1, find bond order.",
+     "a": "-7.2",
+     "self_check": false
+    },
+    {
+     "q": "For Molecular Orbital Theory and Bond Order Computation: given bonding_electrons = 96, antibonding_electrons = 64, find bond order.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "For Molecular Orbital Theory and Bond Order Computation: given bonding_electrons = 11.5, antibonding_electrons = 44, find bond order.",
+     "a": "-16.25",
+     "self_check": false
+    },
+    {
+     "q": "For Molecular Orbital Theory and Bond Order Computation: given bonding_electrons = 2.4, antibonding_electrons = 67, find bond order.",
+     "a": "-32.3",
+     "self_check": false
+    },
+    {
+     "q": "For Molecular Orbital Theory and Bond Order Computation: given bonding_electrons = 37, antibonding_electrons = 60, find bond order.",
+     "a": "-11.5",
+     "self_check": false
+    },
+    {
+     "q": "For Molecular Orbital Theory and Bond Order Computation: given bonding_electrons = 38, antibonding_electrons = 37, find bond order.",
+     "a": "0.5",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

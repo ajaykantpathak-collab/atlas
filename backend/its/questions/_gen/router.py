@@ -376,6 +376,13 @@ OVERRIDES = {
 
 FALLBACK = "_unmatched"   # mapped to expr_eval by the builder
 EXPR_FAMILY = "expr_eval"
+SKIP = "_skip"            # builder drops the concept entirely
+
+# subjects whose concepts are formula-driven; an unparseable/absent
+# formula means recall text -- skip rather than emit off-topic maths
+_STEM_STEM_RE = re.compile(
+    r"_(physics|chemistry|biology|biotechnology|accountancy|"
+    r"economics)_|class\d+_science_")
 
 # families whose content is fact-recall rather than a computable method:
 # verify_property concepts routed here are NOT converted.
@@ -390,6 +397,15 @@ def route(stem, concept):
     if key in OVERRIDES:
         fam, params = OVERRIDES[key]
         return fam, params
+    # STEM subjects: any parseable formula -> generic formula_eval
+    # family; no formula -> SKIP (recall text is not a compute concept,
+    # and expr_eval would emit off-topic arithmetic questions)
+    if "social_science" not in stem and \
+            _STEM_STEM_RE.search("_" + stem):
+        formula = str(concept.get("formula") or "")
+        if "=" in formula:
+            return "formula_eval", None
+        return SKIP, None
     hay = (concept.get("title") or "") + " || " + (concept.get("formula") or "")
     low = hay.lower()
     for rx, fam in _RULES:

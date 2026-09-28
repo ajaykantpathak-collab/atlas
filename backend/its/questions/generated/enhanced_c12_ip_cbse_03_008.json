@@ -34,6 +34,26 @@
      "q": "Design a simple request-response protocol for a \"Quote of the Day\" service. Specify: (a) request message format, (b) response message format, (c) what happens if the server receives a malformed request, (d) how the client knows the response belongs to its request (hint: no persistent connection).",
      "a": "(a) Request: `GET /qotd HTTP/1.1\\r\\nHost: quotes.example.com\\r\\n\\r\\n` (text line). (b) Response: `HTTP/1.1 200 OK\\r\\nContent-Type: text/plain\\r\\n\\r\\n\"Believe you can and you're halfway there.\"` (c) Server replies `400 Bad Request` with error description. (d) Client matches response to request by *order* on the same TCP connection (pipelining) or by using a unique request ID in a custom protocol. A poor answer (e.g., \"server remembers client IP\" or \"uses cookies\") shows the student doesn't understand stateless request-response correlation — a key concept for designing REST APIs.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The client-server model is a distributed application architecture where clients (requesters) initiate ______ by sending requests to servers (providers) that listen for incoming requests, process them, and send back responses; this request-response cycle forms the foundation of network services like web browsing, email, and database access.",
+     "a": "communication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you order food via a delivery app: you (client) send a request (order details) to the ______ (server) which processes it and sends back a response (confirmation + food).",
+     "a": "restaurant",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) draw and label a request-response sequence diagram showing client, server, request message, response message, and the network between them, and (2) explain why a web browser is a client and a web server is a server in the context of HTTP, including what happens when the server is down versus when the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you order food via a delivery app: you (client) send a request (order details) to the restaurant (server) which processes it and sends back a response (______ + food).",
+     "a": "confirmation",
+     "self_check": true
     }
    ]
   }

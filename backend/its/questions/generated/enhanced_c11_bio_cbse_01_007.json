@@ -34,6 +34,31 @@
      "q": "Design a classroom activity where students use only binomial nomenclature (no common names) to create a \"biodiversity menu\" for a hypothetical restaurant serving 5 Indian dishes, each featuring a different organism (plant/animal/fungus). Specify how you would assess correct application of all five rules.",
      "a": "Example menu: 1. *Oryza sativa* Linn. (rice) pulao, 2. *Solanum melongena* Linn. (brinjal) bharta, 3. *Mangifera indica* Linn. (mango) lassi, 4. *Agaricus bisporus* (J.E. Lange) Imbach (button mushroom) masala, 5. *Gallus gallus domesticus* (Linn., 1758) (chicken) curry. Assessment rubric: (a) Genus capitalised, species lowercase [1 mark each], (b) Both italicised/underlined [1 mark], (c) Author citation correct format [1 mark], (d) No common names used [1 mark], (e) Names correspond to actual ingredients [1 mark]. A poor answer uses common names or violates formatting, showing the student cannot apply rules in a synthetic task.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Binomial ______ is the universally accepted scientific system of naming organisms using a two-part Latinised name, where the first part (genus) is capitalised and the second part (specific epithet) is lowercase, both italicised or underlined, ensuring each species has a unique, stable identity across languages and regions.",
+     "a": "nomenclature",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're at a market in Kerala asking for \"chemmeen\" (prawns), but in Chennai they call it \"eraal\" and in Kolkata \"chingri\" – the same ______ has three different local names, creating confusion in trade and research.",
+     "a": "organism",
+     "self_check": true
+    },
+    {
+     "q": "What is Binomial nomenclature? State the definition given in this lesson.",
+     "a": "Binomial nomenclature is the universally accepted scientific system of naming organisms using a two-part Latinised name, where the first part (genus) is capitalised and the second part (specific epithet) is lowercase, both italicised or underlined, ensuring each species has a unique, stable identity across languages and regions.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Binomial nomenclature?",
+     "a": "Students believe the specific epithet must be capitalised if it derives from a proper noun (e.g., a person's name or place name), writing *Mangifera Indica* or *Panthera Tigris* because \"India\" and \"Tiger\" are proper nouns.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly write the scientific name of any organism following all ICBN/ICZN formatting rules (capitalisation, italics, author citation) and explain why binomial nomenclature resolves the ambiguity of common names using a real example.",
+     "self_check": true
     }
    ]
   }

@@ -16,8 +16,8 @@
      "self_check": true
     },
     {
-     "q": "Find the shortest distance between the lines \\(\\vec{r} = (\\hat{i} + 2\\hat{j} + 3\\hat{k}) + \\lambda(\\hat{i} - \\hat{j} + \\hat{k})\\) and \\(\\vec{r} = (2\\hat{i} - \\hat{j} - \\hat{k}) + \\mu(2\\hat{i} + \\hat{j} + 2\\hat{k})\\).",
-     "a": "Given: \\(\\vec{a_1} = \\hat{i} + 2\\hat{j} + 3\\hat{k}\\), \\(\\vec{b_1} = \\hat{i} - \\hat{j} + \\hat{k}\\); \\(\\vec{a_2} = 2\\hat{i} - \\hat{j} - \\hat{k}\\), \\(\\vec{b_2} = 2\\hat{i} + \\hat{j} + 2\\hat{k}\\).\nStep 1: \\(\\vec{b_1} \\times \\vec{b_2} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 1 & -1 & 1 \\\\ 2 & 1 & 2 \\end{vmatrix} = \\hat{i}(-2-1) - \\hat{j}(2-2) + \\hat{k}(1+2) = -3\\hat{i} + 0\\hat{j} + 3\\hat{k}\\).\nStep 2: \\(|\\vec{b_1} \\times \\vec{b_2}| = \\sqrt{(-3)^2 + 0^2 + 3^2} = \\sqrt{18} = 3\\sqrt{2}\\).\nStep 3: \\(\\vec{a_2} - \\vec{a_1} = (2-1)\\hat{i} + (-1-2)\\hat{j} + (-1-3)\\hat{k} = \\hat{i} - 3\\hat{j} - 4\\hat{k}\\).\nStep 4: \\((\\vec{b_1} \\times \\vec{b_2}) \\cdot (\\vec{a_2} - \\vec{a_1}) = (-3)(1) + (0)(-3) + (3)(-4) = -3 -12 = -15\\).\nStep 5: \\(d = \\frac{|-15|}{3\\sqrt{2}} = \\frac{15}{3\\sqrt{2}} = \\frac{5}{\\sqrt{2}} = \\frac{5\\sqrt{2}}{2}\\) units.\nA common error: forgetting absolute value → negative distance. Another: wrong cross product (sign errors in determinant). If student gets \\(d = \\frac{5}{\\sqrt{2}}\\) but writes \\(\\frac{5\\sqrt{2}}{2}\\) as final, that's correct simplification.",
+     "q": "For the lines r = (i + 2j + 3k) + λ(i - j + k) and r = (2i - j - k) + μ(2i + j + 2k), work out the shortest distance between them, showing the cross product, the connector vector, and the final rationalised value.",
+     "a": "(1) Directions cross product — crossing the two direction vectors gives minus 3 i plus 3 k, whose magnitude is three root two, (2) The connector — subtracting the first point from the second gives i minus 3 j minus 4 k, (3) The numerator — the dot product of the cross product with the connector is minus 15, and taking the absolute value gives 15, (4) The distance — divide 15 by three root two to get five over root two, which rationalises to five root two by two units, (5) Sanity checks — the modulus bars are essential, and sign errors in the determinant cross product are the usual source of a wrong numerator. A negative result means the absolute value was dropped, not that distance can be negative.",
      "self_check": true
     },
     {
@@ -27,12 +27,32 @@
     },
     {
      "q": "A student computes the shortest distance between two skew lines and gets a negative value. They argue that distance can be negative if the lines are oriented in opposite directions. Evaluate this claim and explain the error.",
-     "a": "Distance is a scalar magnitude, always non-negative. The formula includes absolute value: \\(d = \\frac{|(\\vec{b_1} \\times \\vec{b_2}) \\cdot (\\vec{a_2} - \\vec{a_1})|}{|\\vec{b_1} \\times \\vec{b_2}|}\\). The numerator without absolute value gives the signed scalar projection, which can be negative depending on the orientation of \\(\\vec{a_2} - \\vec{a_1}\\) relative to \\(\\vec{b_1} \\times \\vec{b_2}\\). The student forgot the absolute value. The error is conceptual: confusing signed projection with distance. In board exams, missing absolute value loses 1 mark. In JEE, negative distance is a trap option.",
+     "a": "(1) The verdict — the claim is wrong, because distance is a scalar magnitude and can never be negative, (2) The formula's protection — the shortest-distance formula wraps the dot product in an absolute value, and only the signed projection inside it can be negative, depending on the orientation of the connecting vector relative to the cross product, (3) The student's error — forgetting the absolute value confuses a signed projection with a distance, a conceptual slip rather than a computational one, (4) The exam stakes — dropping the modulus costs a mark in board exams and appears as a negative-distance trap option in competitive tests. A student who defends negative distances has confused orientation with magnitude.",
      "self_check": true
     },
     {
      "q": "Create a real-world problem (Indian context) where finding the shortest distance between two skew lines is necessary. Define the lines using coordinates of two points each, and set up the vector equations. Do not solve.",
      "a": "Example: Two metro rail tracks in Delhi run as skew lines. Track A passes through points \\(A_1(100, 200, 0)\\) and \\(A_2(150, 250, 50)\\) (coordinates in meters). Track B passes through \\(B_1(120, 180, 10)\\) and \\(B_2(170, 230, 60)\\). Find the minimum clearance between the tracks. Vector equations: \\(\\vec{r} = \\vec{a_1} + \\lambda \\vec{b_1}\\) with \\(\\vec{a_1} = 100\\hat{i}+200\\hat{j}\\), \\(\\vec{b_1} = 50\\hat{i}+50\\hat{j}+50\\hat{k}\\); \\(\\vec{r} = \\vec{a_2} + \\mu \\vec{b_2}\\) with \\(\\vec{a_2} = 120\\hat{i}+180\\hat{j}+10\\hat{k}\\), \\(\\vec{b_2} = 50\\hat{i}+50\\hat{j}+50\\hat{k}\\). Wait, these are parallel! A good answer must ensure direction vectors are not proportional. Better: \\(A_1(0,0,0), A_2(10,0,10)\\); \\(B_1(0,10,0), B_2(10,10,10)\\)? Those are parallel. Need non-proportional: \\(A_1(0,0,0), A_2(10,0,10)\\); \\(B_1(0,10,0), B_2(0,20,10)\\). Then \\(\\vec{b_1}=(10,0,10), \\vec{b_2}=(0,10,10)\\). That works. A poor answer uses parallel lines or doesn't give 3D coordinates, showing they don't grasp skewness.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The shortest distance between two skew lines in three-dimensional space is the length of the unique line segment that is ______ to both lines.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an architect ______ a modern building in Mumbai.",
+     "a": "designing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly compute the shortest distance between two skew lines given in vector or Cartesian form, identify whether lines are skew/parallel/intersecting, and apply the formula to real-world 3D geometry problems (e.g., distance between two non-parallel pipes in a building).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an ______ designing a modern building in Mumbai.",
+     "a": "architect",
      "self_check": true
     }
    ]

@@ -34,6 +34,31 @@
      "q": "Design a simple classroom investigation using dried beans (representing energy units) to model the 10% energy transfer across four trophic levels. Describe materials, procedure, and what the final bean count represents.",
      "a": "Materials: 1000 beans (producer energy), four labelled cups (producer, primary, secondary, tertiary). Procedure: Place 1000 beans in producer cup. Move 10% (100 beans) to primary cup, discard 900. Repeat: 10 beans to secondary, 1 bean to tertiary. Final bean count (1) represents energy available to top predator. A poor answer that moves 50% each time or doesn't discard beans shows the student hasn't internalised the 90% loss mechanism.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A food chain is a linear sequence showing how energy stored in organic matter transfers from one organism to another when the latter consumes the former, with only about 10% of energy ______ to the next trophic level while the rest dissipates as heat during metabolic processes.",
+     "a": "transferred",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a grasshopper eating grass in your school garden, then a frog catching the grasshopper, and finally a snake swallowing the frog — this visible chain shows energy moving from ______ → grass → grasshopper → frog → snake.",
+     "a": "sunlight",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A food chain is a linear sequence showing how energy stored in organic matter transfers from one organism to another when the latter consumes the former, with only about ______% of energy transferred to the next trophic level while the rest dissipates as heat during metabolic processes.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the energy available at any trophic level given the producer's captured energy using the 10% transfer rule, and explain why energy pyramids are upright by describing where the 90% lost energy goes (heat, waste, incomplete consumption).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a grasshopper eating grass in your school garden, then a frog catching the grasshopper, and finally a snake ______ the frog — this visible chain shows energy moving from sunlight → grass → grasshopper → frog → snake.",
+     "a": "swallowing",
+     "self_check": true
     }
    ]
   }

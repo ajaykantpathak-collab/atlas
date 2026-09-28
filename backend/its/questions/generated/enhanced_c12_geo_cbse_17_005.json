@@ -34,6 +34,36 @@
      "q": "Design a three-point integrated plan to reduce noise pollution and improve waste management in a hypothetical Indian city of 2 million people, incorporating geographical principles of zoning, distance decay, and community participation.",
      "a": "1. Zoning: Relocate industries and heavy traffic corridors away from residential zones using distance decay principle (noise intensity declines with distance). 2. Waste: Implement decentralized composting and recycling wards with community monitoring (like Jhabua's CPR management). 3. Green belts: Plant noise-absorbing tree buffers along highways and around landfills (as in Jhabua's tree planting). A poor answer lists generic measures (e.g., \"ban horns\") without spatial reasoning or community involvement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Noise pollution is unwanted or excessive sound that disrupts the natural environment and human health, typically exceeding 85 dB in urban areas, originating from traffic, industries, ______, and social events.",
+     "a": "construction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking students to list the sounds they hear daily in their city — traffic horns, ______, loudspeakers — and note which feel unbearable.",
+     "a": "construction",
+     "self_check": true
+    },
+    {
+     "q": "What is Noise pollution? State the definition given in this lesson.",
+     "a": "Noise pollution is unwanted or excessive sound that disrupts the natural environment and human health, typically exceeding 85 dB in urban areas, originating from traffic, industries, construction, and social events.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Noise pollution is unwanted or excessive sound that disrupts the natural environment and human health, typically exceeding ______ dB in urban areas, originating from traffic, industries, construction, and social events.",
+     "a": "85",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Noise pollution?",
+     "a": "Students often think noise pollution is only a problem of loudness (volume) and ignore its chronic, low-frequency components (e.g., constant traffic hum) that cause stress-related illnesses.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify major sources of noise pollution in a given Indian city, explain the health impacts using decibel levels, analyze urban waste management failures, and evaluate the effectiveness of policies like Swachh Bharat Mission and watershed management in mitigating urban environmental degradation.",
+     "self_check": true
     }
    ]
   }

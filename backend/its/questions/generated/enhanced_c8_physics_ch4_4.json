@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using household items (e.g., a balloon, sand, a ruler, and books) to demonstrate that increasing the area of contact reduces the pressure enough to prevent a balloon from bursting under a weight. Describe the steps, what you would measure, and the expected observation.",
      "a": "Good answer: Place an inflated balloon on a tray of sand. Put a flat wooden board (large area) on the balloon, then add books one by one – the balloon may not burst. Repeat with a narrow block (small area) of same weight – the balloon bursts sooner. Measure the number of books (force) each setup withstands. Expected: larger area withstands more weight before bursting. A poor answer omits controlling force, doesn't compare areas, or confuses pressure with total force.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For a given force, ______ the contact area reduces the pressure exerted on a surface, which is why broad straps on school bags and wide tyres on heavy vehicles are used to distribute weight over a larger area.",
+     "a": "increasing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a student carrying a heavy school bag with thin straps – the straps dig into the ______, causing pain.",
+     "a": "shoulders",
+     "self_check": true
+    },
+    {
+     "q": "What is Pressure? State the definition given in this lesson.",
+     "a": "Pressure is the force acting per unit area (P = F/A).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Pressure?",
+     "a": "Students often believe that \"broad straps make the bag lighter\" or \"wide tyres reduce the weight of the vehicle.\" They confuse force (weight) with pressure, thinking that increasing area reduces the force itself, rather than reducing the pressure for the same force.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can quantitatively compare pressure in two scenarios where the same force acts on different areas, and can explain why specific real-world designs (like broad straps, wide tyres, or building foundations) use increased area to reduce pressure.",
+     "self_check": true
     }
    ]
   }

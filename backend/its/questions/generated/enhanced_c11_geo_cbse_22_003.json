@@ -34,6 +34,36 @@
      "q": "Design a graphical scale for a map with R.F. 1:250,000 that reads distances in kilometres and metres. The final bar must be exactly 12 cm long. Specify: total ground distance represented, primary division values, and secondary division values.",
      "a": "R.F. 1:250,000 means 1 cm = 250,000 cm = 2.5 km.\n12 cm on map = 12 × 2.5 km = 30 km ground distance.\nChoose round number: 20 km (leaves room for secondary divisions).\nLength for 20 km: (20 km / 30 km) × 12 cm = 8 cm.\nPrimary divisions: 8 cm line divided into 4 parts → each 2 cm = 5 km.\nSecondary divisions: Leftmost 2 cm divided into 5 parts → each 0.4 cm = 1 km = 1000 m.\nA poor answer (e.g., not simplifying to round numbers, wrong secondary unit) reveals inability to balance mathematical precision with practical readability — a key cartographic skill.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Map scale is the precise ratio or relationship between a distance measured on a map and the corresponding actual distance on the Earth's surface, expressed through three standard methods: Statement of Scale (verbal description), ______ Fraction (unitless ratio), and Graphical Scale (visual bar with primary and secondary divisions).",
+     "a": "Representative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are planning a trek from Manali to Leh using a ______ sheet.",
+     "a": "topographical",
+     "self_check": true
+    },
+    {
+     "q": "What is Map scale? State the definition given in this lesson.",
+     "a": "Map scale is the precise ratio or relationship between a distance measured on a map and the corresponding actual distance on the Earth's surface, expressed through three standard methods: Statement of Scale (verbal description), Representative Fraction (unitless ratio), and Graphical Scale (visual bar with primary and secondary.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Notice that the bar scale remains valid even if you photocopy the map at ______% size, while the statement and R.F. would become incorrect.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Map scale?",
+     "a": "Students believe \"large scale\" means \"covers a large area\" (like a world map) because the word \"large\" suggests big.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can convert between all three scale methods (Statement, R.F., Graphical) in both Metric and English systems, construct an accurate graphical scale for a given R.F., and justify the choice of scale method for a specific mapping purpose.",
+     "self_check": true
     }
    ]
   }

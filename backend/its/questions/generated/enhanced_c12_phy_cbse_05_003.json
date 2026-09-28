@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a compass needle and a bar magnet to verify that the magnetic field on the axial line is twice that on the equatorial line at the same distance. Outline the procedure and the measurements needed.",
      "a": "Place the bar magnet on a sheet of paper with its axis along the east-west direction (to avoid Earth’s field interference). Mark the centre. At a fixed distance \\(r\\) (e.g., 10 cm) on the axial line, place a compass and note the deflection \\(\\theta_{\\text{axial}}\\) from east-west. Repeat on the equatorial line at the same \\(r\\) to get \\(\\theta_{\\text{eq}}\\). In a uniform field \\(B\\), \\(\\tan\\theta \\propto B\\). Compute \\(\\tan\\theta_{\\text{axial}} / \\tan\\theta_{\\text{eq}}\\); it should be close to 2. A poor answer omits the need to eliminate Earth’s field or uses a single compass without a reference direction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe iron ______ on a sheet of paper placed over a bar magnet (a common Class 12 lab activity).",
+     "a": "filings",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) calculate the magnitude and direction of the magnetic field at any axial or equatorial point of a bar magnet using the dipole formulas, (2) apply the electrostatic analogy to write the field expressions without memorising them separately, and (3) solve numerical problems involving superposition of fields from two magnets.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe iron filings on a sheet of paper placed over a bar magnet (a common Class 12 lab ______).",
+     "a": "activity",
+     "self_check": true
     }
    ]
   }

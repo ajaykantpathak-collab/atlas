@@ -34,6 +34,36 @@
      "q": "Design a thought experiment using UV-Vis spectroscopy to determine whether an unknown Co²⁺ (d⁷) complex is tetrahedral or octahedral, given that you know its ligand is Cl⁻.",
      "a": "Measure the absorption maximum (λ_max) for the d-d transition. For octahedral [CoCl₆]⁴⁻ (if it existed), expect Δo ~ 7,000–8,000 cm⁻¹ (weak field, high-spin t₂g⁵ e_g²). For tetrahedral [CoCl₄]²⁻, Δt = 4/9 Δo ≈ 3,000–3,500 cm⁻¹. The tetrahedral complex will absorb at significantly longer wavelength (lower energy). If the observed λ_max corresponds to ~3,200 cm⁻¹, it's tetrahedral; if ~7,500 cm⁻¹, octahedral. A poor answer that only says \"measure colour\" without linking λ_max to Δ and geometry shows the student cannot connect spectroscopy to CFT quantitatively.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Crystal Field Theory (CFT) is an ______ model that explains the splitting of degenerate d-orbitals of a transition metal ion when ligands approach as point charges (anions) or point dipoles (neutral molecules), lifting the degeneracy into distinct energy levels whose splitting pattern and magnitude (Δ) depend on the geometry of the ligand field (octahedral, tetrahedral, square planar).",
+     "a": "electrostatic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ruby gemstone (Al₂O₃ with 0.5–1% Cr³⁺) — its intense red colour arises because Cr³⁺ (d³) in an ______ oxide field absorbs green/blue-green light via a d-d transition.",
+     "a": "octahedral",
+     "self_check": true
+    },
+    {
+     "q": "What is Crystal Field Theory (CFT)? State the definition given in this lesson.",
+     "a": "Crystal Field Theory (CFT) is an electrostatic model that explains the splitting of degenerate d-orbitals of a transition metal ion when ligands approach as point charges (anions) or point dipoles (neutral molecules), lifting the degeneracy into distinct energy levels whose splitting pattern and magnitude (Δ) depend on the geometry of.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Connect this to VBT (node ______): VBT invokes hybridisation but cannot explain colour or quantitative Δ; CFT fills that gap using pure electrostatics.",
+     "a": "005",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Crystal Field Theory (CFT)?",
+     "a": "Students often write the tetrahedral splitting as \"t₂g and e_g\" (copying octahedral labels) and state Δt = 9/4 Δo (inverting the fraction).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Draw and label the d-orbital splitting diagrams for octahedral and tetrahedral fields, showing t₂g/e_g and e/t₂ sets with correct relative energies and Δo/Δt labels.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Create a real-life problem (Indian context) where the midpoint formula is used to find a location that is NOT the centre of a rectangle or circle. Provide the problem statement, coordinates, and the solution.",
      "a": "Example problem: \"Two friends, Rahul and Priya, live at coordinates R(1, 4) and P(7, 10) on a city map (units in km). They want to meet at a metro station exactly halfway between their homes. Find the coordinates of the meeting point.\" Solution: Midpoint = ((1+7)/2, (4+10)/2) = (4, 7). A poor answer would give a trivial rectangle centre problem or fail to set up coordinates properly, revealing inability to translate a word problem into coordinate geometry.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The midpoint of a line segment joining two points A(x₁, y₁) and B(x₂, y₂) is the point M(x, y) that divides the segment ______ in the ratio 1:1.",
+     "a": "internally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a rectangular garden plot for your ______'s eco-club.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This is a special case of the Section Formula for internal division when m = n = ______.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly apply the midpoint formula to find the midpoint of a segment given two endpoints, find an unknown endpoint when the midpoint and the other endpoint are given, and solve multi-step board-level problems that combine the midpoint formula with distance formula, section formula, or geometric properties (e.g..",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ garden plot for your school's eco-club.",
+     "a": "rectangular",
+     "self_check": true
     }
    ]
   }

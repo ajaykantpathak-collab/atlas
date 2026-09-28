@@ -34,6 +34,26 @@
      "q": "Create a 3×2 table for a software startup: list three hygiene factors and three motivators specific to this context. For each, write one measurable indicator the founder can track monthly.",
      "a": "Example table:\n| Factor Type | Factor | Monthly Indicator |\n|-------------|--------|-------------------|\n| Hygiene | Timely salary credit | % salaries paid by 1st of month |\n| Hygiene | Server uptime / dev tools | % uptime of CI/CD pipeline |\n| Hygiene | Clear leave policy | # policy-related grievances |\n| Motivator | Ownership of feature | # features shipped end-to-end by each engineer |\n| Motivator | Peer recognition | # kudos in monthly demo day |\n| Motivator | Learning budget usage | % of ₹50k annual budget utilized per person |\nA poor answer lists generic factors without startup-specific indicators, showing inability to contextualize theory.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Herzberg's Two-Factor Theory (Motivation-Hygiene Theory) states that job satisfaction and dissatisfaction are not opposites but arise from two distinct sets of factors: Hygiene Factors (extrinsic, prevent dissatisfaction when adequate but do not motivate) and Motivators (intrinsic, create satisfaction and drive ______ when present).",
+     "a": "performance",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the HR manager of a mid-sized IT firm in ______.",
+     "a": "Bengaluru",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Despite raising salaries ______% and installing a new coffee machine, employee turnover remains high and engagement scores are flat.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly classify any given workplace factor as a hygiene factor or motivator, explain why improving hygiene factors alone cannot create motivation, and design a motivation plan for a case study that addresses both factor types.",
+     "self_check": true
     }
    ]
   }

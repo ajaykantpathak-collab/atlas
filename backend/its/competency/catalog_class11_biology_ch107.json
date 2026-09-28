@@ -20,7 +20,7 @@
     "how do cells aggregate to form tissues and organs",
     "what is the basis of classification of animal tissues"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -63,7 +63,16 @@
      "question": "Which of the following is NOT a primary animal tissue type? (a) Epithelial (b) Connective (c) Vascular (d) Neural",
      "type": "mcq"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "animal_tissue_types = epithelial + connective + muscular + neural",
+     "compute": "animal_tissue_types = epithelial + connective + muscular + neural"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jebh.7.2",
@@ -145,7 +154,7 @@
     "what is the function of areolar connective tissue",
     "how are specialized connective tissues like bone and blood classified"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -188,7 +197,16 @@
      "question": "Explain the role of adipose tissue in the body.",
      "type": "short_answer"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "connective_tissue = cells + fibres + ground_substance",
+     "compute": "connective_tissue = cells + fibres + ground_substance"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jebh.7.4",
@@ -205,7 +223,7 @@
     "why is smooth muscle called involuntary",
     "how do striations differ among muscle types"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -253,7 +271,16 @@
      "question": "Why are skeletal muscles called striated muscles?",
      "type": "short_answer"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "muscle_type_count = skeletal + smooth + cardiac",
+     "compute": "muscle_type_count = skeletal + smooth + cardiac"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jebh.7.5",
@@ -270,7 +297,7 @@
     "how do neurons transmit nerve impulses",
     "differentiate between neurons and neuroglial cells"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -313,7 +340,16 @@
      "question": "What percentage of neural tissue volume do neuroglial cells occupy?",
      "type": "short_answer"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "neural_tissue = neurons + neuroglia",
+     "compute": "neural_tissue = neurons + neuroglia"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jebh.7.6",
@@ -568,7 +604,16 @@
      "question": "How many pairs of spiracles are present in a cockroach?",
      "type": "short_answer"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "body_divisions = head + thorax + abdomen",
+     "compute": "body_divisions = head + thorax + abdomen"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jebh.7.10",

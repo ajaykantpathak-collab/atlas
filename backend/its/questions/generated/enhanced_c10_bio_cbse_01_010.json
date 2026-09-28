@@ -34,6 +34,31 @@
      "q": "Design a simple investigation using only a microscope, slides, and a drop of blood (from a willing volunteer) to distinguish between a neutrophil and a lymphocyte. Describe the key morphological features you would observe and record.",
      "a": "Expected answer: Prepare a thin blood smear, stain with Leishman/Giemsa (if available) or even methylene blue. Under high power (400x): Neutrophil — multi-lobed nucleus (3–5 lobes connected by thin threads), pale pink cytoplasm with fine granules. Lymphocyte — large, round, dark-staining nucleus occupying most of cell, scanty clear cytoplasm. Record nucleus shape, cytoplasm amount, granulation. Poor answer: \"Neutrophils are bigger\" (size overlap) or \"lymphocytes have no nucleus\" (false). This tests practical skill (CBSE practical syllabus) and ability to link morphology to function (phagocytosis vs. antibody production).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Blood is a specialized connective tissue composed of a liquid matrix called plasma (55% by volume) and formed elements (45%) including red blood cells (RBCs/______), white blood cells (WBCs/leukocytes), and platelets (thrombocytes); it functions as the body's primary transport medium for gases, nutrients, hormones, and wastes, while also providing immune defense and clotting mechanisms.",
+     "a": "erythrocytes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking the student to ______ the last time they got a small cut — they saw red liquid (blood) and later a scab formed.",
+     "a": "recall",
+     "self_check": true
+    },
+    {
+     "q": "What is Blood? State the definition given in this lesson.",
+     "a": "Blood is a specialized connective tissue composed of a liquid matrix called plasma (55% by volume) and formed elements (45%) including red blood cells (RBCs/erythrocytes), white blood cells (WBCs/leukocytes), and platelets (thrombocytes); it functions as the body's primary transport medium for gases, nutrients, hormones, and wastes.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Blood?",
+     "a": "Students think \"WBCs are only of one type and all WBCs eat bacteria.\" They write \"WBCs engulf pathogens\" as the sole function, ignoring that lymphocytes (B/T cells) produce antibodies and mediate specific immunity without phagocytosis.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can label each blood component in a labeled diagram, state the specific function of RBCs (oxygen transport via hemoglobin), WBCs (phagocytosis and antibody production), platelets (clotting), and plasma (transport matrix), and explain how a change in any component (e.g., low RBC count) leads to a specific physiological.",
+     "self_check": true
     }
    ]
   }

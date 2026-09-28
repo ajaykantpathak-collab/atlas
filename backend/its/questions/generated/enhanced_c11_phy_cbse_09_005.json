@@ -34,6 +34,21 @@
      "q": "Design a simple hydraulic demonstration using two syringes (5 mL and 50 mL), tubing, and water. Predict how far the large plunger moves when the small plunger is pushed 4 cm, and explain how you would verify Pascal's law quantitatively.",
      "a": "Cross-sectional areas: A_small ≈ 5 mL / 4 cm ≈ 1.25 cm² (assuming 4 cm stroke), A_large ≈ 50 mL / 4 cm ≈ 12.5 cm². Ratio = 10. Push small plunger 4 cm → large plunger moves 0.4 cm. Verify Pascal's law: hang known weights on each plunger, measure equilibrium forces, confirm F_large/F_small = A_large/A_small = 10. A poor design (e.g., using air instead of water) shows failure to recognize compressibility breaks the volume-conservation link.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A hydraulic machine is a device that uses an ______ fluid to transmit pressure undiminished from a small piston to a larger piston, multiplying the applied force in proportion to the ratio of their cross-sectional areas, as a direct consequence of Pascal's law for enclosed fluids at rest.",
+     "a": "incompressible",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a car being lifted at a service station: a ______ pushes a small pedal, and a massive car rises smoothly.",
+     "a": "mechanic",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the output force, displacement, or pressure in a hydraulic system given input parameters, and can explain why the work input equals work output (neglecting friction) using the principle of volume conservation for incompressible fluids.",
+     "self_check": true
     }
    ]
   }

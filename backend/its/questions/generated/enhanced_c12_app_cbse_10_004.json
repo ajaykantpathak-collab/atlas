@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_10_004",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_10_004",
+   "title": "c12_app_cbse_10_004",
+   "questions": [
+    {
+     "q": "State the three essential components of a Linear Programming Problem and give the general form of the objective function for two decision variables.",
+     "a": "The three components are: (1) Decision Variables (x, y), (2) Objective Function (Z = ax + by to be maximized or minimized), (3) Linear Constraints (inequalities/equations including x ≥ 0, y ≥ 0). A wrong answer (e.g., listing \"feasible region\" as a component) reveals the student confuses the *problem formulation* with the *solution process* — the feasible region emerges only when solving graphically, not during formulation.",
+     "self_check": true
+    },
+    {
+     "q": "A student formulates an LPP for a diet problem as: Minimize Z = 50x + 40y subject to 2x + 3y ≤ 100, x ≥ 0, y ≥ 0. They claim the constraint \"2x + 3y ≤ 100\" represents a minimum nutrient requirement. Is this correct? Explain why or why not.",
+     "a": "No, it is incorrect. A minimum nutrient requirement (e.g., \"at least 100 units of protein\") translates to a ≥ constraint (2x + 3y ≥ 100). Using ≤ implies the nutrient intake must not *exceed* 100, which is a maximum limit, not a minimum requirement. This error reveals the student does not connect the verbal phrase \"minimum requirement\" to the inequality direction — a critical translation skill for diet/manufacturing problems.",
+     "self_check": true
+    },
+    {
+     "q": "A factory produces two products A and B. Product A requires 2 hours on Machine 1 and 3 hours on Machine 2. Product B requires 4 hours on Machine 1 and 1 hour on Machine 2. Machine 1 is available for 100 hours/week, Machine 2 for 80 hours/week. Profit is ₹50 per unit of A and ₹60 per unit of B. Formulate this as an LPP to maximize profit.",
+     "a": "Let x = units of A, y = units of B. Maximize Z = 50x + 60y. Subject to: 2x + 4y ≤ 100 (Machine 1), 3x + y ≤ 80 (Machine 2), x ≥ 0, y ≥ 0. A wrong answer (e.g., swapping coefficients or using ≥ for machine hours) reveals the student cannot map \"hours required per unit\" to the correct coefficient in the constraint — they treat the numbers as abstract rather than \"hours per unit × units = total hours used.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"Divisibility\" and \"Proportionality\" assumptions of LPP. Give a real-world scenario where Divisibility fails but Proportionality holds, making standard LPP inapplicable without modification.",
+     "a": "Divisibility assumes decision variables can take fractional values (continuous); Proportionality assumes contribution is directly proportional to variable value (e.g., 2 units give 2× profit of 1 unit). Scenario: A trucking company decides how many trucks (x) and drivers (y) to hire. Profit and constraints are proportional (2 trucks = 2× capacity), but Divisibility fails — you cannot hire 2.5 trucks or 3.7 drivers. Standard LPP would give fractional optimal solutions, requiring Integer Programming. A wrong answer conflates the two assumptions or gives a scenario where both fail.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"In a Transportation Problem, the objective function is always to minimize total transportation cost, and all constraints are of the type ≤ (supply) or ≥ (demand).\" Is this always true? Justify.",
+     "a": "The statement is partially incorrect. While the objective is typically minimization of cost, constraints are *equalities* for balanced problems (total supply = total demand) — supply constraints are = (exactly all supply shipped) and demand constraints are = (exactly all demand met). Inequalities (≤ for supply, ≥ for demand) appear only in *unbalanced* problems (dummy source/destination added). A wrong answer reveals the student memorized constraint types without understanding the supply-demand balance logic.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel \"Assignment Problem\" scenario (not from the textbook) involving 3 workers and 3 tasks with different efficiency ratings. Define decision variables, objective function, and constraints for maximizing total efficiency. Explain why this fits the Assignment Problem type.",
+     "a": "Scenario: A coding bootcamp assigns 3 mentors (A, B, C) to 3 project groups (Web, Data, AI). Efficiency scores (0–10): A: (8, 6, 7), B: (5, 9, 6), C: (7, 5, 8). Variables: xᵢⱼ = 1 if mentor i assigned to group j, else 0. Maximize Z = Σ efficiencyᵢⱼ xᵢⱼ. Constraints: Σⱼ xᵢⱼ = 1 (each mentor one group), Σᵢ xᵢⱼ = 1 (each group one mentor), xᵢⱼ ∈ {0,1}. This fits Assignment type: one-to-one matching, binary variables, optimize total metric. A poor answer uses continuous variables or omits binary constraints, missing the combinatorial nature.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

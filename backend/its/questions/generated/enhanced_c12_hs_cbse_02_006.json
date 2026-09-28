@@ -34,6 +34,31 @@
      "q": "Design a one-day vegetarian meal plan for a 70-year-old woman with osteomalacia (vitamin D deficiency) that provides at least 600 IU vitamin D and 1000 mg calcium, using only foods commonly available in an Indian household. Include the fat source necessary for absorption in each relevant meal.",
      "a": "Sample plan: Early morning: Fortified milk 200 mL (100 IU vit D, 240 mg Ca) + 5 almonds (fat). Breakfast: Besan chilla (gram flour) cooked in 5 g ghee + mint chutney. Lunch: Rajma (kidney beans) 1 katori + rice 1 katori + curd 1 katori (200 mg Ca) + 5 g ghee on rice. Evening: Fortified milk tea 150 mL (75 IU vit D) + 2 walnuts (fat). Dinner: Palak paneer (spinach + cottage cheese) 1 katori (250 mg Ca) + 2 rotis + 5 g ghee. Total vit D ≈ 175 IU from milk + ~400 IU from fortified oil (if used in cooking) = ~575 IU; add a 400 IU supplement if needed. Calcium ≈ 1000 mg. Each meal includes visible fat (ghee, nuts, oil) to ensure micellar absorption. A poor answer omits fat in meals, relies solely on unfortified foods, or ignores the need for supplementation in elderly with limited sun exposure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Fat-soluble vitamins (A, D, E, K) are organic micronutrients that dissolve in lipids and non-polar solvents, require dietary fat for intestinal absorption via mixed micelles, are transported in chylomicrons, and can be stored in the liver and adipose tissue, making excessive intake a risk for ______.",
+     "a": "hypervitaminosis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a relatable question: \"Why does your grandmother insist on adding a teaspoon of ghee to your carrot halwa?\" This hooks the student to the core concept — fat as a vehicle for vitamin ______.",
+     "a": "absorption",
+     "self_check": true
+    },
+    {
+     "q": "What is Fat-soluble vitamins (A, D, E, K)? State the definition given in this lesson.",
+     "a": "Fat-soluble vitamins (A, D, E, K) are organic micronutrients that dissolve in lipids and non-polar solvents, require dietary fat for intestinal absorption via mixed micelles, are transported in chylomicrons, and can be stored in the liver and adipose tissue, making excessive intake a risk for hypervitaminosis.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Fat-soluble vitamins (A, D, E, K)?",
+     "a": "Students often believe that \"vitamins are natural, so higher doses are harmless\" — specifically, they assume fat-soluble vitamins behave like water-soluble ones (excess excreted in urine).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) name each fat-soluble vitamin, list its major physiological functions, at least three dietary sources (plant and animal), and the classical deficiency syndrome; (2) explain how fat malabsorption (e.g., cystic fibrosis, biliary obstruction) impairs the status of all four vitamins simultaneously; (3).",
+     "self_check": true
     }
    ]
   }

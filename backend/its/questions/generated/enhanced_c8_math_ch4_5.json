@@ -34,6 +34,31 @@
      "q": "Design a real-world problem (Indian context) where a student must use the property that diagonals of a square bisect each other at 90° to find an unknown length. Provide the problem statement and the solution outline.",
      "a": "Good problem: \"A square tile of side 30 cm is to be cut along one diagonal. The two triangular pieces are used to make a right-angled corner bracket. If the bracket's legs must be equal, what is the length of each leg?\" Solution outline: The diagonal is cut, so each triangle has legs = side of square = 30 cm. The property that diagonals bisect at 90° ensures the triangles are isosceles right triangles. A poor answer would give a problem that only uses side length or area, not the diagonal bisection property, indicating the student doesn't see the geometric significance of that property.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A square is a ______ with all four sides equal in length and all four interior angles equal to 90°.",
+     "a": "quadrilateral",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping a ______ cut a square wooden board for a chessboard.",
+     "a": "carpenter",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A square is a quadrilateral with all four sides equal in length and all four interior angles equal to ______°.",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify a square among other quadrilaterals, state all its defining properties (sides, angles, diagonals, symmetry), and apply these properties to solve for unknown lengths, angles, or areas in geometric problems.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping a carpenter cut a square wooden board for a ______.",
+     "a": "chessboard",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a Wheatstone bridge to determine the temperature coefficient of resistance (α) of a nichrome wire. You have: a resistance box (1–1000 Ω), a 2 V battery, a galvanometer, a thermometer, and a water bath with heater. Outline the procedure, the measurements needed, and the formula you would use to calculate α. Assume the bridge is balanced at two different temperatures.",
      "a": "A good answer includes: (1) Place nichrome wire as R₄ (unknown) in one arm, use resistance box for R₃ (variable), fix R₁ and R₂ as ratio arms (e.g., 100 Ω each). (2) Immerse wire in water bath at room temperature T₁, adjust R₃ for null deflection → record R₃₁ = R₄(T₁). (3) Heat bath to T₂, wait for thermal equilibrium, re-adjust R₃ for null → record R₃₂ = R₄(T₂). (4) Use α = (R₄₂ - R₄₁) / [R₄₁(T₂ - T₁)]. (5) Repeat for multiple temperatures to verify linearity. A poor answer that measures voltage/current instead of using null method reveals the student doesn't understand the bridge's advantage: null measurement avoids self-heating of the wire, which would corrupt the temperature dependence data.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Wheatstone bridge is a circuit arrangement of four resistors (R₁, R₂, R₃, R₄) connected in a diamond ______ with a galvanometer across one diagonal (BD) and a voltage source across the other diagonal (AC).",
+     "a": "configuration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a physics lab where you need to measure an unknown resistor of about 50 Ω using only a 1.5 V cell, a ______, and a resistance box.",
+     "a": "galvanometer",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The balance condition emerges naturally when I_g = ______.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Draw the Wheatstone bridge circuit with correct labeling of battery arm and galvanometer arm, (2) Apply Kirchhoff's junction and loop rules to derive the balance condition R₁/R₂ = R₃/R₄ step-by-step, (3) Calculate an unknown resistance given three known resistances at balance, (4) Analyze an unbalanced bridge by.",
+     "self_check": true
     }
    ]
   }

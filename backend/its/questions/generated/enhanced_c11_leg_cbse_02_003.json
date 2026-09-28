@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_02_003",
+   "title": "c11_leg_cbse_02_003",
+   "questions": [
+    {
+     "q": "What is the ratio decidendi of *Kesavananda Bharati v. State of Kerala* (1973) regarding Parliament's amending power under Article 368?",
+     "a": "The ratio decidendi is that Parliament cannot amend the \"basic structure\" of the Constitution — including supremacy of the Constitution, republican/democratic form, secularism, separation of powers, judicial review, and federalism — even under Article 368. A wrong answer (e.g., \"Parliament can amend anything\") reveals the student confuses legislative supremacy with constitutional supremacy and misses that the Court *created* a substantive limit not in the text.",
+     "self_check": true
+    },
+    {
+     "q": "In *Maneka Gandhi v. Union of India* (1978), the Supreme Court held that \"procedure established by law\" under Article 21 must be \"fair, just, and reasonable.\" How did this expand the meaning of Article 21 beyond *A.K. Gopalan*?",
+     "a": "In *A.K. Gopalan*, \"procedure established by law\" meant any enacted procedure, however arbitrary. *Maneka Gandhi* fused Articles 14, 19, and 21, holding that the procedure must satisfy natural justice (audi alteram partem) and reasonableness — making Art. 21 a substantive due process guarantee. A wrong answer (e.g., \"it just added a hearing requirement\") shows the student sees it as procedural tweak, not a structural reinterpretation linking liberty, equality, and free speech.",
+     "self_check": true
+    },
+    {
+     "q": "A state government passes a law allowing the Chief Minister to dismiss elected municipal councillors without a hearing. The law is challenged. Using *S.R. Bommai v. Union of India* (1994) and *Kihoto Hollohan v. Zachillhu* (1992), explain whether this violates the basic structure.",
+     "a": "Yes. *S.R. Bommai* established federalism and democratic republic as basic structure — dismissing elected local representatives without hearing violates democratic accountability. *Kihoto Hollohan* held that Speaker's disqualification power under Tenth Schedule is subject to judicial review — so executive dismissal without quasi-judicial process violates separation of powers. A wrong answer focusing only on \"unfairness\" misses the constitutional architecture: it's not just unfair, it strikes at federalism, democracy, and rule of law simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the judicial approach in *Indira Gandhi v. Raj Narain* (1975) and *Minerva Mills v. Union of India* (1980) on the amendability of fundamental rights. What doctrinal shift occurred?",
+     "a": "*Indira Gandhi* (Art. 329A) upheld Parliament's power to amend election laws retrospectively, but *Minerva Mills* struck down Art. 368(4)-(5) (which barred judicial review of amendments) as destroying basic structure. The shift: from *parliamentary supremacy* (amendment = constituent power) to *constitutional supremacy* (amendment subject to basic structure). A wrong answer treating both as \"pro-rights\" misses the doctrinal pivot: *Minerva Mills* made judicial review *non-amendable* — the Court became the final guardian of the Constitution's identity.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the argument: \"Since *Shreya Singhal v. Union of India* (2015) struck down Section 66A IT Act for vagueness, all vaguely worded criminal provisions are now unconstitutional.\"",
+     "a": "The argument overgeneralizes. *Shreya Singhal* applied *doctrine of vagueness* + *chilling effect on Art. 19(1)(a)* — it didn't create a per se rule. Vagueness alone isn't fatal; it must infringe a fundamental right (especially speech) and lack ascertainable standards. Many tax/regulatory provisions use broad terms but survive. A wrong answer shows the student confuses a *context-specific* free speech ruling with a *general* void-for-vagueness doctrine — missing the Art. 19(1)(a) anchor.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical landmark case where the Supreme Court must decide if the President's ordinance-making power (Art. 123) can be used to bypass Parliament on a Money Bill. State the constitutional issue, likely ratio, and which basic structure features it would engage.",
+     "a": "Issue: Can an ordinance enact a Money Bill (Art. 110) when Parliament is in recess? Likely ratio: No — Money Bills require Lok Sabha origination and Rajya Sabha's limited role (Art. 109); ordinance bypasses both, violating financial accountability (basic structure: democratic republic, legislative control over finance). Engages: separation of powers, parliamentary democracy, rule of law. A poor answer treats it as \"ordinance = temporary law\" without seeing that Money Bills are *constitutionally* tied to elected house — bypassing them breaks the fiscal contract.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

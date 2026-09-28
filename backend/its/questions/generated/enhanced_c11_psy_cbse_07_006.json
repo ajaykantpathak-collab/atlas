@@ -34,6 +34,31 @@
      "q": "Design a 2x2 decision matrix experiment to test whether anchoring bias affects Class 11 students' estimation of the population of a mid-sized Indian city (e.g., Bhopal). Specify the independent variable, dependent variable, control condition, and predicted outcome based on Tversky & Kahneman's classic study.",
      "a": "Independent Variable: Anchor value (High: \"Is Bhopal's population more or less than 50 lakh?\" vs. Low: \"Is Bhopal's population more or less than 5 lakh?\"). Dependent Variable: Final numerical estimate of Bhopal's population (in lakhs). Control Condition: No anchor (direct estimation). Predicted Outcome: High-anchor group gives significantly higher estimates than Low-anchor group; both differ from control. Insufficient adjustment from the anchor demonstrates anchoring-and-adjustment heuristic. A poor design (e.g., missing control, using within-subjects without counterbalancing) shows inability to isolate the anchoring effect from general knowledge or order effects.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Decision making is the cognitive process of selecting a course of action from multiple alternatives by evaluating the costs, benefits, and ______ associated with each option.",
+     "a": "probabilities",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are choosing a stream for Class 11: Science, Commerce, or ______.",
+     "a": "Humanities",
+     "self_check": true
+    },
+    {
+     "q": "What is Decision making? State the definition given in this lesson.",
+     "a": "Decision making is the cognitive process of selecting a course of action from multiple alternatives by evaluating the costs, benefits, and probabilities associated with each option.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Decision making?",
+     "a": "Students often believe that \"heuristic = bias\" and that using heuristics means one is being stupid or lazy.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) define decision making and distinguish it from problem solving, (2) explain the function of three key heuristics (availability, representativeness, anchoring) with original examples, and (3) identify and label at least three cognitive biases in novel real-life scenarios, justifying why the heuristic led to.",
+     "self_check": true
     }
    ]
   }

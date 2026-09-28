@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using household items to demonstrate that a continuous charge distribution can be approximated by discrete point charges. Describe the setup, what you would measure, and how you would show the approximation improves as the number of discrete charges increases.",
      "a": "Setup: Use a long plastic ruler (insulator) rubbed with wool to create a roughly uniform line charge. Place small pieces of aluminum foil (test charges) at various distances along the perpendicular bisector. Measure deflection angle θ of foil pieces (using a protractor) as a proxy for electric field. Repeat with: (a) ruler as continuous distribution; (b) 2 charged rods at ends; (c) 4 charged rods spaced evenly; (d) 8 charged rods. Plot E vs. number of discrete elements. As N increases, the discrete approximation converges to the continuous result. A poor answer suggests using a conductor (charge redistributes) or measuring force directly without a test charge, showing misunderstanding of charge distribution on insulators vs conductors and the need for a test charge to measure field.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Continuous charge distribution describes a macroscopic charge ______ where charge is spread continuously over a line, surface, or volume, characterized by linear charge density λ (C/m), surface charge density σ (C/m²), or volume charge density ρ (C/m³), replacing discrete point charges with infinitesimal charge elements dq = λ dl, σ dS, or ρ dV for electric field calculation via integration.",
+     "a": "configuration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a thin copper wire carrying current in your physics lab — the charge carriers (electrons) are discrete, but at ______ scale we treat the wire as having a continuous linear charge density λ.",
+     "a": "macroscopic",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Identify whether a given physical situation involves line, surface, or volume charge distribution and write the correct expression for dq with proper units; (2) Set up the integral for electric field at a point due to a continuous distribution using Coulomb's law and superposition, including correct vector components and.",
+     "self_check": true
     }
    ]
   }

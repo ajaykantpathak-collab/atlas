@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using household items to compare the specific heat capacities of cooking oil and water without using a thermometer. Explain your method and how you would deduce which has higher specific heat.",
      "a": "Method: Take equal masses (e.g., 100 g each) of water and oil in identical steel containers. Place both on identical gas stove burners at the same flame setting. Start stopwatch when heating begins. Observe which liquid reaches boiling/vigorous bubbling first. The liquid that takes longer to boil has higher specific heat capacity (water). Deduction: Same heat input rate (same burner), same mass, same ΔT (room temp to boiling) → time ∝ s. A poor answer uses unequal masses, different containers, or relies on \"feeling\" temperature, showing lack of controlled-variable thinking.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Specific heat capacity is the amount of heat energy required to raise the ______ of one kilogram of a substance by one kelvin (or one degree Celsius) without any change of state.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a steel spoon and a wooden spoon left in a hot cup of tea — the steel spoon becomes too hot to touch much faster than the wooden one, even though both absorb heat from the same tea.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What is Specific heat capacity? State the definition given in this lesson.",
+     "a": "Specific heat capacity is the amount of heat energy required to raise the temperature of one kilogram of a substance by one kelvin (or one degree Celsius) without any change of state.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mathematically, s = (______/m)(ΔQ/ΔT) where m is mass, ΔQ is heat supplied, and ΔT is temperature change.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Specific heat capacity?",
+     "a": "Students believe specific heat capacity is constant for a substance under all conditions.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between heat capacity and specific heat capacity, calculate the heat required for a given temperature change using Q = msΔT, and explain why water's high specific heat capacity makes it effective as a coolant in car radiators and moderates coastal climates.",
+     "self_check": true
     }
    ]
   }

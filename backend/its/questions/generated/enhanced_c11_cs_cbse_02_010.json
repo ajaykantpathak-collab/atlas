@@ -34,6 +34,31 @@
      "q": "Create a Boolean expression of 3 variables that requires at least 4 distinct Boolean laws to simplify to a single literal. Write the expression, the target simplified form, and the sequence of laws you would apply.",
      "a": "Example: F = (A + B')·(A' + B)·(A + C). Target: F = A·B + A'·B' (or further simplification depends on C). Actually, a better example: F = A·B' + A'·B + B·C + B'·C'. Simplifies to? Let's design a clear one: F = (A + B)·(A' + C)·(B + C). Target: (A + B)·(A' + C) [Consensus]. Laws: 1. Distributive (expand first two), 2. Complement (A·A'=0), 3. Identity, 4. Distributive (factor), 5. Consensus (or Absorption). A poor answer (expression too simple, laws repeated, or target not a single literal) reveals the student cannot synthesise a multi-step simplification path and does not have a mental map of how laws interact.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of Boolean expressions is the systematic process of reducing a Boolean expression to its minimal equivalent form by applying Boolean laws and theorems, resulting in an expression with fewer literals, fewer operations, or both, while preserving the exact same logical functionality.",
+     "a": "Simplification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a security system for a smart locker that opens only when a fingerprint ______ (F), a PIN is correct (P), and the door is not jammed (J').",
+     "a": "matches",
+     "self_check": true
+    },
+    {
+     "q": "What is Simplification of Boolean expressions? State the definition given in this lesson.",
+     "a": "Simplification of Boolean expressions is the systematic process of reducing a Boolean expression to its minimal equivalent form by applying Boolean laws and theorems, resulting in an expression with fewer literals, fewer operations, or both, while preserving the exact same logical functionality.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Simplification of Boolean expressions?",
+     "a": "Students frequently treat Boolean algebra exactly like ordinary algebra and attempt to \"cancel\" terms.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently simplify a Boolean expression of 3–4 variables using Boolean laws (including De Morgan's theorems) in a step-by-step manner, justify each step by naming the law used, and verify the equivalence of the simplified expression to the original using a truth table.",
+     "self_check": true
     }
    ]
   }

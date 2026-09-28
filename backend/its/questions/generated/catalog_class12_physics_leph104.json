@@ -1,0 +1,804 @@
+{
+ "catalog": "catalog_class12_physics_leph104.json",
+ "concepts": [
+  {
+   "id": "leph104.4.2.2.1",
+   "title": "Lorentz Force on a Moving Charge",
+   "converted_to_compute": true,
+   "formula": "mag_force = charge * speed * mag_field * sin_tilt",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mag_force = charge * speed * mag_field * sin_tilt",
+     "compute": "mag_force = charge * speed * mag_field * sin_tilt"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Lorentz Force on a Moving Charge: given charge = 11.9, speed = 34, mag_field = 2, sin_tilt = 13, find mag force.",
+     "a": "10519.6",
+     "self_check": false
+    },
+    {
+     "q": "For Lorentz Force on a Moving Charge: given charge = 1.1, speed = 81, mag_field = 11.3, sin_tilt = 56, find mag force.",
+     "a": "56382.5",
+     "self_check": false
+    },
+    {
+     "q": "For Lorentz Force on a Moving Charge: given charge = 10.3, speed = 22, mag_field = 39, sin_tilt = 112, find mag force.",
+     "a": "989789",
+     "self_check": false
+    },
+    {
+     "q": "For Lorentz Force on a Moving Charge: given charge = 15.4, speed = 51, mag_field = 92, sin_tilt = 51, find mag force.",
+     "a": "3685096.8",
+     "self_check": false
+    },
+    {
+     "q": "For Lorentz Force on a Moving Charge: given charge = 4.1, speed = 66, mag_field = 83, sin_tilt = 75, find mag force.",
+     "a": "1684485",
+     "self_check": false
+    },
+    {
+     "q": "For Lorentz Force on a Moving Charge: given charge = 11.1, speed = 36, mag_field = 34, sin_tilt = 92, find mag force.",
+     "a": "1249948.8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.2.3.1",
+   "title": "Force on a Current-Carrying Wire",
+   "converted_to_compute": true,
+   "formula": "wire_force = current * length * mag_field * sin_tilt",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "wire_force = current * length * mag_field * sin_tilt",
+     "compute": "wire_force = current * length * mag_field * sin_tilt"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Force on a Current-Carrying Wire: given current = 9, length = 182, mag_field = 71, sin_tilt = 15.3, find wire force.",
+     "a": "1779359.4",
+     "self_check": false
+    },
+    {
+     "q": "For Force on a Current-Carrying Wire: given current = 4.2, length = 369, mag_field = 80, sin_tilt = 82, find wire force.",
+     "a": "10166688",
+     "self_check": false
+    },
+    {
+     "q": "For Force on a Current-Carrying Wire: given current = 6, length = 215, mag_field = 67, sin_tilt = 10.6, find wire force.",
+     "a": "916158",
+     "self_check": false
+    },
+    {
+     "q": "For Force on a Current-Carrying Wire: given current = 1.2, length = 254, mag_field = 42, sin_tilt = 98, find wire force.",
+     "a": "1254556.8",
+     "self_check": false
+    },
+    {
+     "q": "For Force on a Current-Carrying Wire: given current = 25, length = 264, mag_field = 68, sin_tilt = 96, find wire force.",
+     "a": "43084800",
+     "self_check": false
+    },
+    {
+     "q": "For Force on a Current-Carrying Wire: given current = 4.9, length = 390, mag_field = 87, sin_tilt = 116, find wire force.",
+     "a": "19285812",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.2.3.2",
+   "title": "Field That Suspends a Wire Against Gravity",
+   "converted_to_compute": true,
+   "formula": "mag_field = mass * gravity_acc / (current * length)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mag_field = mass * gravity_acc / (current * length)",
+     "compute": "mag_field = mass * gravity_acc / (current * length)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Field That Suspends a Wire Against Gravity: given mass = 42, gravity_acc = 88, current = 1.6, length = 303, find mag field.",
+     "a": "7.62376",
+     "self_check": false
+    },
+    {
+     "q": "For Field That Suspends a Wire Against Gravity: given mass = 35, gravity_acc = 100, current = 6.4, length = 50, find mag field.",
+     "a": "10.9375",
+     "self_check": false
+    },
+    {
+     "q": "For Field That Suspends a Wire Against Gravity: given mass = 83, gravity_acc = 62, current = 27, length = 319, find mag field.",
+     "a": "0.597469",
+     "self_check": false
+    },
+    {
+     "q": "For Field That Suspends a Wire Against Gravity: given mass = 127, gravity_acc = 96, current = 23, length = 204, find mag field.",
+     "a": "2.59847",
+     "self_check": false
+    },
+    {
+     "q": "For Field That Suspends a Wire Against Gravity: given mass = 80, gravity_acc = 75, current = 13.9, length = 71, find mag field.",
+     "a": "6.07964",
+     "self_check": false
+    },
+    {
+     "q": "For Field That Suspends a Wire Against Gravity: given mass = 64, gravity_acc = 3.8, current = 9.7, length = 184, find mag field.",
+     "a": "0.136262",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.3.1",
+   "title": "Radius of the Circular Orbit in a Magnetic Field",
+   "converted_to_compute": true,
+   "formula": "orbit_radius = mass * speed / (charge * mag_field)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "orbit_radius = mass * speed / (charge * mag_field)",
+     "compute": "orbit_radius = mass * speed / (charge * mag_field)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Radius of the Circular Orbit in a Magnetic Field: given mass = 135, speed = 41, charge = 16, mag_field = 82, find orbit radius.",
+     "a": "4.21875",
+     "self_check": false
+    },
+    {
+     "q": "For Radius of the Circular Orbit in a Magnetic Field: given mass = 178, speed = 25, charge = 9.4, mag_field = 80, find orbit radius.",
+     "a": "5.91755",
+     "self_check": false
+    },
+    {
+     "q": "For Radius of the Circular Orbit in a Magnetic Field: given mass = 23, speed = 16.5, charge = 29, mag_field = 81, find orbit radius.",
+     "a": "0.161558",
+     "self_check": false
+    },
+    {
+     "q": "For Radius of the Circular Orbit in a Magnetic Field: given mass = 110, speed = 12.5, charge = 11.5, mag_field = 0.7, find orbit radius.",
+     "a": "170.807",
+     "self_check": false
+    },
+    {
+     "q": "For Radius of the Circular Orbit in a Magnetic Field: given mass = 60, speed = 86, charge = 24, mag_field = 7.6, find orbit radius.",
+     "a": "28.2895",
+     "self_check": false
+    },
+    {
+     "q": "For Radius of the Circular Orbit in a Magnetic Field: given mass = 173, speed = 77, charge = 1.8, mag_field = 19.2, find orbit radius.",
+     "a": "385.446",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.3.2",
+   "title": "Cyclotron Frequency",
+   "converted_to_compute": true,
+   "formula": "cyclotron_freq = charge * mag_field / (2 * pi * mass)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "cyclotron_freq = charge * mag_field / (2 * pi * mass)",
+     "compute": "cyclotron_freq = charge * mag_field / (2 * pi * mass)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Cyclotron Frequency: given charge = 24, mag_field = 79, mass = 73, find cyclotron freq.",
+     "a": "4.13367",
+     "self_check": false
+    },
+    {
+     "q": "For Cyclotron Frequency: given charge = 6.2, mag_field = 46, mass = 179, find cyclotron freq.",
+     "a": "0.253581",
+     "self_check": false
+    },
+    {
+     "q": "For Cyclotron Frequency: given charge = 4.4, mag_field = 15.3, mass = 43, find cyclotron freq.",
+     "a": "0.24917",
+     "self_check": false
+    },
+    {
+     "q": "For Cyclotron Frequency: given charge = 15.5, mag_field = 88, mass = 89, find cyclotron freq.",
+     "a": "2.43918",
+     "self_check": false
+    },
+    {
+     "q": "For Cyclotron Frequency: given charge = 8.8, mag_field = 18.5, mass = 89, find cyclotron freq.",
+     "a": "0.291128",
+     "self_check": false
+    },
+    {
+     "q": "For Cyclotron Frequency: given charge = 15.3, mag_field = 88, mass = 135, find cyclotron freq.",
+     "a": "1.58731",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.3.3",
+   "title": "Helical Path and Its Pitch",
+   "converted_to_compute": true,
+   "formula": "pitch = gyro_period * speed_parallel",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "pitch = gyro_period * speed_parallel",
+     "compute": "pitch = gyro_period * speed_parallel"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Helical Path and Its Pitch: given gyro_period = 67, speed_parallel = 77, find pitch.",
+     "a": "5159",
+     "self_check": false
+    },
+    {
+     "q": "For Helical Path and Its Pitch: given gyro_period = 53, speed_parallel = 28, find pitch.",
+     "a": "1484",
+     "self_check": false
+    },
+    {
+     "q": "For Helical Path and Its Pitch: given gyro_period = 31, speed_parallel = 81, find pitch.",
+     "a": "2511",
+     "self_check": false
+    },
+    {
+     "q": "For Helical Path and Its Pitch: given gyro_period = 25, speed_parallel = 33, find pitch.",
+     "a": "825",
+     "self_check": false
+    },
+    {
+     "q": "For Helical Path and Its Pitch: given gyro_period = 50, speed_parallel = 43, find pitch.",
+     "a": "2150",
+     "self_check": false
+    },
+    {
+     "q": "For Helical Path and Its Pitch: given gyro_period = 66, speed_parallel = 104, find pitch.",
+     "a": "6864",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.4.1",
+   "title": "Biot-Savart Field of a Current Element",
+   "converted_to_compute": true,
+   "formula": "element_field = prefactor * current * element_len * sin_tilt / distance ** 2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "element_field = prefactor * current * element_len * sin_tilt / distance ** 2",
+     "compute": "element_field = prefactor * current * element_len * sin_tilt / distance ** 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Biot-Savart Field of a Current Element: given prefactor = 67, current = 21, element_len = 14.7, sin_tilt = 102, distance = 324, find element field.",
+     "a": "20.0966",
+     "self_check": false
+    },
+    {
+     "q": "For Biot-Savart Field of a Current Element: given prefactor = 60, current = 4.1, element_len = 104, sin_tilt = 27, distance = 378, find element field.",
+     "a": "4.83447",
+     "self_check": false
+    },
+    {
+     "q": "For Biot-Savart Field of a Current Element: given prefactor = 58, current = 20, element_len = 1.9, sin_tilt = 60, distance = 152, find element field.",
+     "a": "5.72368",
+     "self_check": false
+    },
+    {
+     "q": "For Biot-Savart Field of a Current Element: given prefactor = 74, current = 3.6, element_len = 27, sin_tilt = 44, distance = 29, find element field.",
+     "a": "376.318",
+     "self_check": false
+    },
+    {
+     "q": "For Biot-Savart Field of a Current Element: given prefactor = 15.7, current = 23, element_len = 77, sin_tilt = 96, distance = 466, find element field.",
+     "a": "12.2919",
+     "self_check": false
+    },
+    {
+     "q": "For Biot-Savart Field of a Current Element: given prefactor = 81, current = 24, element_len = 9.7, sin_tilt = 66, distance = 150, find element field.",
+     "a": "55.3133",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.5.1",
+   "title": "Field at the Centre of a Circular Coil",
+   "converted_to_compute": true,
+   "formula": "centre_field = mu_0 * turns * current / (2 * radius)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "centre_field = mu_0 * turns * current / (2 * radius)",
+     "compute": "centre_field = mu_0 * turns * current / (2 * radius)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Field at the Centre of a Circular Coil: given mu_0 = 12.4, turns = 152, current = 4.3, radius = 34, find centre field.",
+     "a": "119.186",
+     "self_check": false
+    },
+    {
+     "q": "For Field at the Centre of a Circular Coil: given mu_0 = 52, turns = 454, current = 1.7, radius = 2.6, find centre field.",
+     "a": "7718",
+     "self_check": false
+    },
+    {
+     "q": "For Field at the Centre of a Circular Coil: given mu_0 = 80, turns = 295, current = 15.4, radius = 45, find centre field.",
+     "a": "4038.22",
+     "self_check": false
+    },
+    {
+     "q": "For Field at the Centre of a Circular Coil: given mu_0 = 56, turns = 353, current = 6.8, radius = 21, find centre field.",
+     "a": "3200.53",
+     "self_check": false
+    },
+    {
+     "q": "For Field at the Centre of a Circular Coil: given mu_0 = 63, turns = 201, current = 27, radius = 48, find centre field.",
+     "a": "3561.47",
+     "self_check": false
+    },
+    {
+     "q": "For Field at the Centre of a Circular Coil: given mu_0 = 47, turns = 35, current = 0.7, radius = 48, find centre field.",
+     "a": "11.9948",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.5.2",
+   "title": "Axial Field of a Circular Current Loop",
+   "converted_to_compute": true,
+   "formula": "axial_field = mu_0 * current * radius ** 2 / (2 * (axial_dist ** 2 + radius ** 2) ** 1.5)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "axial_field = mu_0 * current * radius ** 2 / (2 * (axial_dist ** 2 + radius ** 2) ** 1.5)",
+     "compute": "axial_field = mu_0 * current * radius ** 2 / (2 * (axial_dist ** 2 + radius ** 2) ** 1.5)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Axial Field of a Circular Current Loop: given mu_0 = 52, current = 19.3, radius = 6.5, axial_dist = 11.8, find axial field.",
+     "a": "8.67118",
+     "self_check": false
+    },
+    {
+     "q": "For Axial Field of a Circular Current Loop: given mu_0 = 45, current = 21, radius = 0.6, axial_dist = 57, find axial field.",
+     "a": "0.000918349",
+     "self_check": false
+    },
+    {
+     "q": "For Axial Field of a Circular Current Loop: given mu_0 = 72, current = 1.3, radius = 11.2, axial_dist = 26, find axial field.",
+     "a": "0.258747",
+     "self_check": false
+    },
+    {
+     "q": "For Axial Field of a Circular Current Loop: given mu_0 = 45, current = 10.5, radius = 19.2, axial_dist = 71, find axial field.",
+     "a": "0.218888",
+     "self_check": false
+    },
+    {
+     "q": "For Axial Field of a Circular Current Loop: given mu_0 = 96, current = 7.8, radius = 38, axial_dist = 21, find axial field.",
+     "a": "6.60596",
+     "self_check": false
+    },
+    {
+     "q": "For Axial Field of a Circular Current Loop: given mu_0 = 28, current = 20, radius = 32, axial_dist = 10, find axial field.",
+     "a": "7.60867",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.6.1",
+   "title": "Ampere's Circuital Law",
+   "converted_to_compute": true,
+   "formula": "enclosed_term = mu_0 * enclosed_current",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "enclosed_term = mu_0 * enclosed_current",
+     "compute": "enclosed_term = mu_0 * enclosed_current"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Ampere's Circuital Law: given mu_0 = 44, enclosed_current = 28, find enclosed term.",
+     "a": "1232",
+     "self_check": false
+    },
+    {
+     "q": "For Ampere's Circuital Law: given mu_0 = 59, enclosed_current = 18.5, find enclosed term.",
+     "a": "1091.5",
+     "self_check": false
+    },
+    {
+     "q": "For Ampere's Circuital Law: given mu_0 = 28, enclosed_current = 1.3, find enclosed term.",
+     "a": "36.4",
+     "self_check": false
+    },
+    {
+     "q": "For Ampere's Circuital Law: given mu_0 = 41, enclosed_current = 2.5, find enclosed term.",
+     "a": "102.5",
+     "self_check": false
+    },
+    {
+     "q": "For Ampere's Circuital Law: given mu_0 = 36, enclosed_current = 3.7, find enclosed term.",
+     "a": "133.2",
+     "self_check": false
+    },
+    {
+     "q": "For Ampere's Circuital Law: given mu_0 = 97, enclosed_current = 7.3, find enclosed term.",
+     "a": "708.1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.6.2",
+   "title": "Field of a Long Straight Current",
+   "converted_to_compute": true,
+   "formula": "wire_field = mu_0 * current / (2 * pi * distance)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "wire_field = mu_0 * current / (2 * pi * distance)",
+     "compute": "wire_field = mu_0 * current / (2 * pi * distance)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Field of a Long Straight Current: given mu_0 = 35, current = 7.7, distance = 58, find wire field.",
+     "a": "0.739522",
+     "self_check": false
+    },
+    {
+     "q": "For Field of a Long Straight Current: given mu_0 = 73, current = 15.2, distance = 246, find wire field.",
+     "a": "0.717879",
+     "self_check": false
+    },
+    {
+     "q": "For Field of a Long Straight Current: given mu_0 = 2.9, current = 12.9, distance = 34, find wire field.",
+     "a": "0.175117",
+     "self_check": false
+    },
+    {
+     "q": "For Field of a Long Straight Current: given mu_0 = 57, current = 24, distance = 251, find wire field.",
+     "a": "0.867426",
+     "self_check": false
+    },
+    {
+     "q": "For Field of a Long Straight Current: given mu_0 = 53, current = 3.2, distance = 384, find wire field.",
+     "a": "0.0702934",
+     "self_check": false
+    },
+    {
+     "q": "For Field of a Long Straight Current: given mu_0 = 36, current = 29, distance = 12.3, find wire field.",
+     "a": "13.5088",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.7.1",
+   "title": "Field Inside a Long Solenoid",
+   "converted_to_compute": true,
+   "formula": "sol_field = mu_0 * turns_per_len * current",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "sol_field = mu_0 * turns_per_len * current",
+     "compute": "sol_field = mu_0 * turns_per_len * current"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Field Inside a Long Solenoid: given mu_0 = 98, turns_per_len = 227, current = 13.4, find sol field.",
+     "a": "298096",
+     "self_check": false
+    },
+    {
+     "q": "For Field Inside a Long Solenoid: given mu_0 = 99, turns_per_len = 445, current = 19.4, find sol field.",
+     "a": "854667",
+     "self_check": false
+    },
+    {
+     "q": "For Field Inside a Long Solenoid: given mu_0 = 82, turns_per_len = 431, current = 22, find sol field.",
+     "a": "777524",
+     "self_check": false
+    },
+    {
+     "q": "For Field Inside a Long Solenoid: given mu_0 = 64, turns_per_len = 268, current = 20, find sol field.",
+     "a": "343040",
+     "self_check": false
+    },
+    {
+     "q": "For Field Inside a Long Solenoid: given mu_0 = 35, turns_per_len = 177, current = 4.6, find sol field.",
+     "a": "28497",
+     "self_check": false
+    },
+    {
+     "q": "For Field Inside a Long Solenoid: given mu_0 = 84, turns_per_len = 361, current = 18.8, find sol field.",
+     "a": "570091",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.8.1",
+   "title": "Force Between Parallel Currents",
+   "converted_to_compute": true,
+   "formula": "force_per_len = mu_0 * current_a * current_b / (2 * pi * separation)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "force_per_len = mu_0 * current_a * current_b / (2 * pi * separation)",
+     "compute": "force_per_len = mu_0 * current_a * current_b / (2 * pi * separation)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Force Between Parallel Currents: given mu_0 = 75, current_a = 98, current_b = 36, separation = 87, find force per len.",
+     "a": "484.051",
+     "self_check": false
+    },
+    {
+     "q": "For Force Between Parallel Currents: given mu_0 = 15.3, current_a = 101, current_b = 41, separation = 17.1, find force per len.",
+     "a": "589.686",
+     "self_check": false
+    },
+    {
+     "q": "For Force Between Parallel Currents: given mu_0 = 7.6, current_a = 101, current_b = 26, separation = 18.8, find force per len.",
+     "a": "168.955",
+     "self_check": false
+    },
+    {
+     "q": "For Force Between Parallel Currents: given mu_0 = 58, current_a = 8.3, current_b = 33, separation = 81, find force per len.",
+     "a": "31.2144",
+     "self_check": false
+    },
+    {
+     "q": "For Force Between Parallel Currents: given mu_0 = 84, current_a = 79, current_b = 47, separation = 44, find force per len.",
+     "a": "1128.16",
+     "self_check": false
+    },
+    {
+     "q": "For Force Between Parallel Currents: given mu_0 = 5.4, current_a = 70, current_b = 23, separation = 59, find force per len.",
+     "a": "23.4524",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.9.1",
+   "title": "Magnetic Moment of a Current Loop",
+   "converted_to_compute": true,
+   "formula": "mag_moment = turns * current * area",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mag_moment = turns * current * area",
+     "compute": "mag_moment = turns * current * area"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Magnetic Moment of a Current Loop: given turns = 265, current = 14.9, area = 45, find mag moment.",
+     "a": "177682",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetic Moment of a Current Loop: given turns = 457, current = 8.5, area = 84, find mag moment.",
+     "a": "326298",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetic Moment of a Current Loop: given turns = 299, current = 13.6, area = 2.1, find mag moment.",
+     "a": "8539.44",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetic Moment of a Current Loop: given turns = 37, current = 1.8, area = 47, find mag moment.",
+     "a": "3130.2",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetic Moment of a Current Loop: given turns = 204, current = 21, area = 40, find mag moment.",
+     "a": "171360",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetic Moment of a Current Loop: given turns = 15, current = 13, area = 66, find mag moment.",
+     "a": "12870",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.9.2",
+   "title": "Torque on a Loop in a Uniform Field",
+   "converted_to_compute": true,
+   "formula": "loop_torque = mag_moment * mag_field * sin_tilt",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "loop_torque = mag_moment * mag_field * sin_tilt",
+     "compute": "loop_torque = mag_moment * mag_field * sin_tilt"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Torque on a Loop in a Uniform Field: given mag_moment = 26, mag_field = 78, sin_tilt = 83, find loop torque.",
+     "a": "168324",
+     "self_check": false
+    },
+    {
+     "q": "For Torque on a Loop in a Uniform Field: given mag_moment = 37, mag_field = 61, sin_tilt = 108, find loop torque.",
+     "a": "243756",
+     "self_check": false
+    },
+    {
+     "q": "For Torque on a Loop in a Uniform Field: given mag_moment = 65, mag_field = 70, sin_tilt = 96, find loop torque.",
+     "a": "436800",
+     "self_check": false
+    },
+    {
+     "q": "For Torque on a Loop in a Uniform Field: given mag_moment = 27, mag_field = 59, sin_tilt = 16.9, find loop torque.",
+     "a": "26921.7",
+     "self_check": false
+    },
+    {
+     "q": "For Torque on a Loop in a Uniform Field: given mag_moment = 48, mag_field = 46, sin_tilt = 15, find loop torque.",
+     "a": "33120",
+     "self_check": false
+    },
+    {
+     "q": "For Torque on a Loop in a Uniform Field: given mag_moment = 7.2, mag_field = 99, sin_tilt = 19, find loop torque.",
+     "a": "13543.2",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.10.1",
+   "title": "Moving Coil Galvanometer Deflection",
+   "converted_to_compute": true,
+   "formula": "deflection = turns * area * mag_field * current / spring_const",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "deflection = turns * area * mag_field * current / spring_const",
+     "compute": "deflection = turns * area * mag_field * current / spring_const"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Moving Coil Galvanometer Deflection: given turns = 280, area = 55, mag_field = 24, current = 5.1, spring_const = 62, find deflection.",
+     "a": "30402.6",
+     "self_check": false
+    },
+    {
+     "q": "For Moving Coil Galvanometer Deflection: given turns = 154, area = 35, mag_field = 20, current = 23, spring_const = 41, find deflection.",
+     "a": "60473.2",
+     "self_check": false
+    },
+    {
+     "q": "For Moving Coil Galvanometer Deflection: given turns = 491, area = 50, mag_field = 5.6, current = 16.2, spring_const = 94, find deflection.",
+     "a": "23693.4",
+     "self_check": false
+    },
+    {
+     "q": "For Moving Coil Galvanometer Deflection: given turns = 162, area = 84, mag_field = 81, current = 17.9, spring_const = 12.6, find deflection.",
+     "a": "1565892",
+     "self_check": false
+    },
+    {
+     "q": "For Moving Coil Galvanometer Deflection: given turns = 325, area = 65, mag_field = 37, current = 28, spring_const = 68, find deflection.",
+     "a": "321846",
+     "self_check": false
+    },
+    {
+     "q": "For Moving Coil Galvanometer Deflection: given turns = 251, area = 12.5, mag_field = 69, current = 3.2, spring_const = 45, find deflection.",
+     "a": "15394.7",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph104.4.10.2",
+   "title": "Converting a Galvanometer to Ammeter or Voltmeter",
+   "converted_to_compute": true,
+   "formula": "shunt_equiv = coil_resist * shunt_resist / (coil_resist + shunt_resist)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "shunt_equiv = coil_resist * shunt_resist / (coil_resist + shunt_resist)",
+     "compute": "shunt_equiv = coil_resist * shunt_resist / (coil_resist + shunt_resist)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Converting a Galvanometer to Ammeter or Voltmeter: given coil_resist = 26, shunt_resist = 107, find shunt equiv.",
+     "a": "20.9173",
+     "self_check": false
+    },
+    {
+     "q": "For Converting a Galvanometer to Ammeter or Voltmeter: given coil_resist = 40, shunt_resist = 43, find shunt equiv.",
+     "a": "20.7229",
+     "self_check": false
+    },
+    {
+     "q": "For Converting a Galvanometer to Ammeter or Voltmeter: given coil_resist = 69, shunt_resist = 66, find shunt equiv.",
+     "a": "33.7333",
+     "self_check": false
+    },
+    {
+     "q": "For Converting a Galvanometer to Ammeter or Voltmeter: given coil_resist = 70, shunt_resist = 9.2, find shunt equiv.",
+     "a": "8.13131",
+     "self_check": false
+    },
+    {
+     "q": "For Converting a Galvanometer to Ammeter or Voltmeter: given coil_resist = 97, shunt_resist = 108, find shunt equiv.",
+     "a": "51.1024",
+     "self_check": false
+    },
+    {
+     "q": "For Converting a Galvanometer to Ammeter or Voltmeter: given coil_resist = 36, shunt_resist = 78, find shunt equiv.",
+     "a": "24.6316",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

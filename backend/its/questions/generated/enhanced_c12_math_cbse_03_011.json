@@ -34,6 +34,26 @@
      "q": "Construct a 2×2 matrix A with integer entries such that A⁻¹ exists and also has integer entries. Explain how you chose it. Then create a 3×3 matrix with the same property (integer entries, integer inverse).",
      "a": "For 2×2: A = [[1, 2], [3, 7]] has det = 7-6 = 1, so A⁻¹ = [[7, -2], [-3, 1]] (integers). Any 2×2 matrix with determinant ±1 works (unimodular matrices). For 3×3: use a product of elementary matrices with integer entries, e.g., A = [[1, 1, 0], [0, 1, 1], [0, 0, 1]] (det = 1). Its inverse is [[1, -1, 1], [0, 1, -1], [0, 0, 1]] — all integers. A poor answer gives a matrix with det ≠ ±1 and claims integer inverse, revealing the student doesn't know det(A⁻¹) = 1/det(A), so integer inverse requires det(A) = ±1.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The inverse of a square matrix A (denoted A⁻¹) is a square matrix of the same order such that AA⁻¹ = A⁻¹A = I, where I is the ______ matrix.",
+     "a": "identity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have ₹500 to split between two investment schemes giving 8% and 10% returns, and you want exactly ₹44 total interest — this gives ______ 0.08x + 0.10y = 44 and x + y = 500.",
+     "a": "equations",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently find the inverse of any 2×2 or 3×3 non-singular matrix using elementary row operations, showing every operation explicitly, and can recognise when a matrix is singular (no inverse exists) by obtaining a zero row during the process.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have ₹500 to split between two ______ schemes giving 8% and 10% returns, and you want exactly ₹44 total interest — this gives equations 0.08x + 0.10y = 44 and x + y = 500.",
+     "a": "investment",
+     "self_check": true
     }
    ]
   }

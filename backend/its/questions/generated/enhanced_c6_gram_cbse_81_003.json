@@ -1,0 +1,56 @@
+{
+ "catalog": "enhanced_c6_gram_cbse_81_003",
+ "concepts": [
+  {
+   "id": "enh:c6_gram_cbse_81_003",
+   "title": "c6_gram_cbse_81_003",
+   "questions": [
+    {
+     "q": "Pluralize: 'box', 'baby', 'knife', 'child', 'sheep'.",
+     "a": "boxes, babies, knives, children, sheep. Wrong answers 'boxs/childs/sheeps' show rule-gaps at the hiss-sound, irregular, and unchanged steps respectively.",
+     "self_check": true
+    },
+    {
+     "q": "Fix: 'I have many homeworks and two luggages.'",
+     "a": "'much homework and two pieces of luggage' — both uncountable, no plurals. A wrong answer keeping the -s shows the student doesn't yet sort nouns into countable vs uncountable.",
+     "self_check": true
+    },
+    {
+     "q": "'The ___(mouse/mice) ate the cheese' vs 'All the ___ ran away.' Which form in each?",
+     "a": "First: mouse (one). Second: mice (many). A wrong answer 'mouses' or singular-for-plural shows the irregular form isn't yet automatic.",
+     "self_check": true
+    },
+    {
+     "q": "Numbers: singular means one, plural means more than one — but English ______ in five ways: +s (books), +es (boxes), y→ies (cities), f→ves (leaves), irregular (children, feet, mice), and some never change (sheep, news).",
+     "a": "pluralizes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Numbers: singular means one, plural means more than one — but English ______ in five ways: +s (books), +es (boxes), y→ies (cities), f→ves (leaves), irregular (children, feet, mice), and some never change (sheep, news).",
+     "a": "pluralizes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sort objects on the desk by ending: book+s, box+es (hiss-sounds s/x/ch/sh need es), city→cities (______+y drops y), leaf→leaves (f→v+es).",
+     "a": "consonant",
+     "self_check": true
+    },
+    {
+     "q": "What is Numbers? State the definition given in this lesson.",
+     "a": "Numbers: singular means one, plural means more than one — but English pluralizes in five ways: +s (books), +es (boxes), y→ies (cities), f→ves (leaves), irregular (children, feet, mice), and some never change (sheep, news).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Numbers?",
+     "a": "Students apply +s universally → 'childs', 'mouses', 'foots' — and add -s to uncountables → 'waters', 'furnitures', 'homeworks'.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student forms plurals by the five rules, produces the irregular set from memory, and catches double-plural errors ('childs', 'sheeps', 'mices').",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

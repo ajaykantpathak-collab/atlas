@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a wooden block, a plank, a protractor, and a few known masses to determine the coefficient of static friction between the block and plank. Describe the procedure, measurements needed, and the calculation.",
      "a": "Procedure: Place block on plank. Gradually increase inclination angle θ until block just starts to slide. Measure this critical angle θ_c (angle of repose). Repeat 3 times for average. Calculation: At impending motion, mg sinθ_c = f_s(max) = μ_s mg cosθ_c → μ_s = tanθ_c. No masses needed! A poor answer (e.g., pulling horizontally with spring balance) reveals the student doesn't know the angle of repose method and relies only on horizontal pull methods, showing limited experimental repertoire.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is a contact force that opposes the relative motion or tendency of relative motion between two surfaces in contact.",
+     "a": "Friction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a heavy wooden cupboard in your classroom - you push it gently and it doesn't move; push harder and it suddenly starts sliding, but once moving, you need less force to keep it moving at ______ speed.",
+     "a": "constant",
+     "self_check": true
+    },
+    {
+     "q": "What is Friction? State the definition given in this lesson.",
+     "a": "Friction is a contact force that opposes the relative motion or tendency of relative motion between two surfaces in contact.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Friction?",
+     "a": "Students believe that friction always opposes motion.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can draw a complete free-body diagram for a block on an inclined plane with friction, correctly identify whether static or kinetic friction applies, calculate the friction force magnitude and direction, and determine the acceleration or equilibrium condition using Newton's second law.",
+     "self_check": true
     }
    ]
   }

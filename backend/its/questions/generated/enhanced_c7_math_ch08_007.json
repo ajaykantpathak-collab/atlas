@@ -34,6 +34,21 @@
      "q": "Create a word problem about buying fruits at an Indian vegetable market where the solution requires multiplying a mixed number by a proper fraction, and provide its correct answer.",
      "a": "A good response should feature a realistic scenario, such as: \"Amit bought $3\\frac{1}{2}$ kg of apples. If $\\frac{3}{7}$ of the apples were red and the rest were green, how many kilograms of red apples did Amit buy?\" The correct calculation is $\\frac{7}{2} \\times \\frac{3}{7} = \\frac{3}{2} = 1\\frac{1}{2}$ kg. A poor answer would use numbers that do not fit real-world contexts or fail to use multiplication.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Solving word problems involving fraction ______ requires translating real-world scenarios into mathematical expressions where a fractional part of a quantity, fraction, or mixed number is computed by multiplying the numerators together and the denominators together.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How do you find out the exact weight of the ______ you used?",
+     "a": "potatoes",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can read a multi-sentence real-world word problem, identify the fractional part being taken of another quantity or fraction, set up the correct multiplication expression, simplify by cross-cancelling where possible, and interpret the final answer with correct units.",
+     "self_check": true
     }
    ]
   }

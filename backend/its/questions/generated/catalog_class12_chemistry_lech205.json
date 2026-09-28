@@ -1,0 +1,381 @@
+{
+ "catalog": "catalog_class12_chemistry_lech205.json",
+ "concepts": [
+  {
+   "id": "lech205.10.1.1",
+   "title": "Classifying Carbohydrates and Sugars",
+   "converted_to_compute": true,
+   "formula": "carbohydrate_groups = monosaccharides + oligosaccharides + polysaccharides",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "carbohydrate_groups = monosaccharides + oligosaccharides + polysaccharides",
+     "compute": "carbohydrate_groups = monosaccharides + oligosaccharides + polysaccharides"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Classifying Carbohydrates and Sugars: given monosaccharides = 85, oligosaccharides = 57, polysaccharides = 37, find carbohydrate groups.",
+     "a": "179",
+     "self_check": false
+    },
+    {
+     "q": "For Classifying Carbohydrates and Sugars: given monosaccharides = 69, oligosaccharides = 49, polysaccharides = 7, find carbohydrate groups.",
+     "a": "125",
+     "self_check": false
+    },
+    {
+     "q": "For Classifying Carbohydrates and Sugars: given monosaccharides = 86, oligosaccharides = 13, polysaccharides = 39, find carbohydrate groups.",
+     "a": "138",
+     "self_check": false
+    },
+    {
+     "q": "For Classifying Carbohydrates and Sugars: given monosaccharides = 69, oligosaccharides = 21, polysaccharides = 91, find carbohydrate groups.",
+     "a": "181",
+     "self_check": false
+    },
+    {
+     "q": "For Classifying Carbohydrates and Sugars: given monosaccharides = 78, oligosaccharides = 58, polysaccharides = 94, find carbohydrate groups.",
+     "a": "230",
+     "self_check": false
+    },
+    {
+     "q": "For Classifying Carbohydrates and Sugars: given monosaccharides = 71, oligosaccharides = 95, polysaccharides = 54, find carbohydrate groups.",
+     "a": "220",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech205.10.1.5",
+   "title": "Invert Sugar Net Rotation after Sucrose Hydrolysis",
+   "converted_to_compute": true,
+   "formula": "net_rot = glucose_rot + fructose_rot",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_rot = glucose_rot + fructose_rot",
+     "compute": "net_rot = glucose_rot + fructose_rot"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Invert Sugar Net Rotation after Sucrose Hydrolysis: given glucose_rot = 33, fructose_rot = 80, find net rot.",
+     "a": "113",
+     "self_check": false
+    },
+    {
+     "q": "For Invert Sugar Net Rotation after Sucrose Hydrolysis: given glucose_rot = 29, fructose_rot = 60, find net rot.",
+     "a": "89",
+     "self_check": false
+    },
+    {
+     "q": "For Invert Sugar Net Rotation after Sucrose Hydrolysis: given glucose_rot = 47, fructose_rot = 50, find net rot.",
+     "a": "97",
+     "self_check": false
+    },
+    {
+     "q": "For Invert Sugar Net Rotation after Sucrose Hydrolysis: given glucose_rot = 23, fructose_rot = 18.5, find net rot.",
+     "a": "41.5",
+     "self_check": false
+    },
+    {
+     "q": "For Invert Sugar Net Rotation after Sucrose Hydrolysis: given glucose_rot = 71, fructose_rot = 22, find net rot.",
+     "a": "93",
+     "self_check": false
+    },
+    {
+     "q": "For Invert Sugar Net Rotation after Sucrose Hydrolysis: given glucose_rot = 22, fructose_rot = 93, find net rot.",
+     "a": "115",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech205.10.1.6",
+   "title": "Storage and Structural Polysaccharides",
+   "converted_to_compute": true,
+   "formula": "starch_components = amylose + amylopectin",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "starch_components = amylose + amylopectin",
+     "compute": "starch_components = amylose + amylopectin"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Storage and Structural Polysaccharides: given amylose = 19.7, amylopectin = 25, find starch components.",
+     "a": "44.7",
+     "self_check": false
+    },
+    {
+     "q": "For Storage and Structural Polysaccharides: given amylose = 51, amylopectin = 76, find starch components.",
+     "a": "127",
+     "self_check": false
+    },
+    {
+     "q": "For Storage and Structural Polysaccharides: given amylose = 82, amylopectin = 36, find starch components.",
+     "a": "118",
+     "self_check": false
+    },
+    {
+     "q": "For Storage and Structural Polysaccharides: given amylose = 28, amylopectin = 22, find starch components.",
+     "a": "50",
+     "self_check": false
+    },
+    {
+     "q": "For Storage and Structural Polysaccharides: given amylose = 62, amylopectin = 5.2, find starch components.",
+     "a": "67.2",
+     "self_check": false
+    },
+    {
+     "q": "For Storage and Structural Polysaccharides: given amylose = 64, amylopectin = 31, find starch components.",
+     "a": "95",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech205.10.2.3",
+   "title": "Peptide Bonds in a Polypeptide Chain",
+   "converted_to_compute": true,
+   "formula": "peptide_bonds = residue_count - 1",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "peptide_bonds = residue_count - 1",
+     "compute": "peptide_bonds = residue_count - 1"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Peptide Bonds in a Polypeptide Chain: given residue_count = 13, find peptide bonds.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "For Peptide Bonds in a Polypeptide Chain: given residue_count = 412, find peptide bonds.",
+     "a": "411",
+     "self_check": false
+    },
+    {
+     "q": "For Peptide Bonds in a Polypeptide Chain: given residue_count = 398, find peptide bonds.",
+     "a": "397",
+     "self_check": false
+    },
+    {
+     "q": "For Peptide Bonds in a Polypeptide Chain: given residue_count = 155, find peptide bonds.",
+     "a": "154",
+     "self_check": false
+    },
+    {
+     "q": "For Peptide Bonds in a Polypeptide Chain: given residue_count = 277, find peptide bonds.",
+     "a": "276",
+     "self_check": false
+    },
+    {
+     "q": "For Peptide Bonds in a Polypeptide Chain: given residue_count = 35, find peptide bonds.",
+     "a": "34",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech205.10.3.2",
+   "title": "Enzyme Catalysis Activation Energy Saving",
+   "converted_to_compute": true,
+   "formula": "pct_drop = ((acid_ea - enzyme_ea) / acid_ea) * 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "pct_drop = ((acid_ea - enzyme_ea) / acid_ea) * 100",
+     "compute": "pct_drop = ((acid_ea - enzyme_ea) / acid_ea) * 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Enzyme Catalysis Activation Energy Saving: given acid_ea = 85, enzyme_ea = 2.9, find pct drop.",
+     "a": "96.5882",
+     "self_check": false
+    },
+    {
+     "q": "For Enzyme Catalysis Activation Energy Saving: given acid_ea = 55, enzyme_ea = 11.8, find pct drop.",
+     "a": "78.5455",
+     "self_check": false
+    },
+    {
+     "q": "For Enzyme Catalysis Activation Energy Saving: given acid_ea = 16.1, enzyme_ea = 77, find pct drop.",
+     "a": "-378.261",
+     "self_check": false
+    },
+    {
+     "q": "For Enzyme Catalysis Activation Energy Saving: given acid_ea = 1.5, enzyme_ea = 34, find pct drop.",
+     "a": "-2166.67",
+     "self_check": false
+    },
+    {
+     "q": "For Enzyme Catalysis Activation Energy Saving: given acid_ea = 73, enzyme_ea = 64, find pct drop.",
+     "a": "12.3288",
+     "self_check": false
+    },
+    {
+     "q": "For Enzyme Catalysis Activation Energy Saving: given acid_ea = 95, enzyme_ea = 23, find pct drop.",
+     "a": "75.7895",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech205.10.4.1",
+   "title": "Fat-Soluble versus Water-Soluble Vitamins",
+   "converted_to_compute": true,
+   "formula": "fat_soluble_set = vitamins_a_d_e_k",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "fat_soluble_set = vitamins_a_d_e_k",
+     "compute": "fat_soluble_set = vitamins_a_d_e_k"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Fat-Soluble versus Water-Soluble Vitamins: given vitamins_a_d_e_k = 46, find fat soluble set.",
+     "a": "46",
+     "self_check": false
+    },
+    {
+     "q": "For Fat-Soluble versus Water-Soluble Vitamins: given vitamins_a_d_e_k = 57, find fat soluble set.",
+     "a": "57",
+     "self_check": false
+    },
+    {
+     "q": "For Fat-Soluble versus Water-Soluble Vitamins: given vitamins_a_d_e_k = 0.9, find fat soluble set.",
+     "a": "0.9",
+     "self_check": false
+    },
+    {
+     "q": "For Fat-Soluble versus Water-Soluble Vitamins: given vitamins_a_d_e_k = 72, find fat soluble set.",
+     "a": "72",
+     "self_check": false
+    },
+    {
+     "q": "For Fat-Soluble versus Water-Soluble Vitamins: given vitamins_a_d_e_k = 90, find fat soluble set.",
+     "a": "90",
+     "self_check": false
+    },
+    {
+     "q": "For Fat-Soluble versus Water-Soluble Vitamins: given vitamins_a_d_e_k = 92, find fat soluble set.",
+     "a": "92",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech205.10.5.1",
+   "title": "Nucleosides, Nucleotides and the Nucleic Acid Backbone",
+   "converted_to_compute": true,
+   "formula": "nucleotide = nucleoside + phosphate_group",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "nucleotide = nucleoside + phosphate_group",
+     "compute": "nucleotide = nucleoside + phosphate_group"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Nucleosides, Nucleotides and the Nucleic Acid Backbone: given nucleoside = 238, phosphate_group = 12.7, find nucleotide.",
+     "a": "250.7",
+     "self_check": false
+    },
+    {
+     "q": "For Nucleosides, Nucleotides and the Nucleic Acid Backbone: given nucleoside = 431, phosphate_group = 64, find nucleotide.",
+     "a": "495",
+     "self_check": false
+    },
+    {
+     "q": "For Nucleosides, Nucleotides and the Nucleic Acid Backbone: given nucleoside = 352, phosphate_group = 36, find nucleotide.",
+     "a": "388",
+     "self_check": false
+    },
+    {
+     "q": "For Nucleosides, Nucleotides and the Nucleic Acid Backbone: given nucleoside = 286, phosphate_group = 88, find nucleotide.",
+     "a": "374",
+     "self_check": false
+    },
+    {
+     "q": "For Nucleosides, Nucleotides and the Nucleic Acid Backbone: given nucleoside = 96, phosphate_group = 25, find nucleotide.",
+     "a": "121",
+     "self_check": false
+    },
+    {
+     "q": "For Nucleosides, Nucleotides and the Nucleic Acid Backbone: given nucleoside = 117, phosphate_group = 96, find nucleotide.",
+     "a": "213",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech205.10.6.1",
+   "title": "Hormones as Intercellular Messengers",
+   "converted_to_compute": true,
+   "formula": "glucose_regulators = insulin + glucagon",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "glucose_regulators = insulin + glucagon",
+     "compute": "glucose_regulators = insulin + glucagon"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Hormones as Intercellular Messengers: given insulin = 47, glucagon = 29, find glucose regulators.",
+     "a": "76",
+     "self_check": false
+    },
+    {
+     "q": "For Hormones as Intercellular Messengers: given insulin = 36, glucagon = 40, find glucose regulators.",
+     "a": "76",
+     "self_check": false
+    },
+    {
+     "q": "For Hormones as Intercellular Messengers: given insulin = 64, glucagon = 18.7, find glucose regulators.",
+     "a": "82.7",
+     "self_check": false
+    },
+    {
+     "q": "For Hormones as Intercellular Messengers: given insulin = 34, glucagon = 96, find glucose regulators.",
+     "a": "130",
+     "self_check": false
+    },
+    {
+     "q": "For Hormones as Intercellular Messengers: given insulin = 74, glucagon = 8.4, find glucose regulators.",
+     "a": "82.4",
+     "self_check": false
+    },
+    {
+     "q": "For Hormones as Intercellular Messengers: given insulin = 19.7, glucagon = 43, find glucose regulators.",
+     "a": "62.7",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

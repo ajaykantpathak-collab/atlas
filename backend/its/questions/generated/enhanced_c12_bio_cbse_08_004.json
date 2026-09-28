@@ -34,6 +34,31 @@
      "q": "Design a simple flowchart that a health worker could use to decide whether to administer a vaccine or an immunoglobulin preparation for a person exposed to hepatitis B, considering the person's vaccination history and time since exposure.",
      "a": "A good flowchart would start with: Check vaccination history -> If fully vaccinated, no action needed. If unvaccinated/partially vaccinated and exposure recent (<24 hours), give hepatitis B immunoglobulin (passive) + start vaccine series (active). If exposure >7 days, only vaccine series. A poor answer that omits the combination strategy or timing reveals inability to integrate both immunity types in clinical decision-making.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Active immunity is the immunity developed by an ______'s own immune system in response to exposure to an antigen (pathogen or vaccine), involving the production of antibodies and memory cells.",
+     "a": "individual",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real-world observation: When a child gets ______, they usually don't get it again.",
+     "a": "chickenpox",
+     "self_check": true
+    },
+    {
+     "q": "What is Active immunity? State the definition given in this lesson.",
+     "a": "Active immunity is the immunity developed by an individual's own immune system in response to exposure to an antigen (pathogen or vaccine), involving the production of antibodies and memory cells.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Active immunity?",
+     "a": "Students often think that passive immunity involves the recipient's immune system being 'activated' by the transferred antibodies, leading to memory cell formation.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to distinguish between active and passive immunity by explaining the source of antibodies, time of onset, duration, and examples for each.",
+     "self_check": true
     }
    ]
   }

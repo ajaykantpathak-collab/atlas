@@ -24,9 +24,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "test liquidity", "explain": "the item must be convertible into a known amount of cash quickly and without significant risk"},
-    {"step": 2, "action": "test the maturity", "explain": "short-term deposits and securities maturing within roughly three months qualify; longer placements are investments"},
-    {"step": 3, "action": "bundle the overdraft", "explain": "bank overdrafts repayable on demand are carried as part of cash and equivalents, closing the family"}
+    {
+     "step": 1,
+     "action": "test liquidity",
+     "explain": "the item must be convertible into a known amount of cash quickly and without significant risk"
+    },
+    {
+     "step": 2,
+     "action": "test the maturity",
+     "explain": "short-term deposits and securities maturing within roughly three months qualify; longer placements are investments"
+    },
+    {
+     "step": 3,
+     "action": "bundle the overdraft",
+     "explain": "bank overdrafts repayable on demand are carried as part of cash and equivalents, closing the family"
+    }
    ]
   },
   {
@@ -45,12 +57,33 @@
     "what does the statement show that a profit statement does not",
     "how does cash flow information aid lenders and investors"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "state the core purpose", "explain": "report inflows and outflows of cash and equivalents from operating, investing and financing activities"},
-    {"step": 2, "action": "state the judgement uses", "explain": "users assess the firm's ability to generate cash, pay debts, distribute dividends and meet obligations on time"},
-    {"step": 3, "action": "note the profit bridge", "explain": "reconciling net profit with net operating cash exposes the accrual versus cash gap"}
-   ]
+    {
+     "step": 1,
+     "action": "state the core purpose",
+     "explain": "report inflows and outflows of cash and equivalents from operating, investing and financing activities"
+    },
+    {
+     "step": 2,
+     "action": "state the judgement uses",
+     "explain": "users assess the firm's ability to generate cash, pay debts, distribute dividends and meet obligations on time"
+    },
+    {
+     "step": 3,
+     "action": "note the profit bridge",
+     "explain": "reconciling net profit with net operating cash exposes the accrual versus cash gap"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "statement_purpose = cash_sources + cash_uses + future_capacity_signal",
+     "compute": "statement_purpose = cash_sources + cash_uses + future_capacity_signal"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.206.5.1",
@@ -70,9 +103,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "test for operations", "explain": "receipts and payments of the main revenue activity -- sales collections, supplier payments, wages, taxes -- are operating"},
-    {"step": 2, "action": "test for investments", "explain": "purchase and sale of fixed assets, non-current investments and the interest or dividend earned on them are investing"},
-    {"step": 3, "action": "test for financing", "explain": "share issues, debentures, long-term loans, their repayments, interest and dividends paid are financing; the three totals add to the net change in cash"}
+    {
+     "step": 1,
+     "action": "test for operations",
+     "explain": "receipts and payments of the main revenue activity -- sales collections, supplier payments, wages, taxes -- are operating"
+    },
+    {
+     "step": 2,
+     "action": "test for investments",
+     "explain": "purchase and sale of fixed assets, non-current investments and the interest or dividend earned on them are investing"
+    },
+    {
+     "step": 3,
+     "action": "test for financing",
+     "explain": "share issues, debentures, long-term loans, their repayments, interest and dividends paid are financing; the three totals add to the net change in cash"
+    }
    ]
   },
   {
@@ -93,9 +138,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "place the taxes", "explain": "taxes on income default to operating; capital gains tax follows the investing sale; dividend tax follows the financing payment"},
-    {"step": 2, "action": "place interest and dividends", "explain": "non-financial enterprise: interest and dividends paid under financing, received under investing; financial enterprise: all under operating except dividends paid"},
-    {"step": 3, "action": "screen out non-cash", "explain": "assets acquired through share issues and debentures redeemed by shares are disclosed in notes, never as cash flows"}
+    {
+     "step": 1,
+     "action": "place the taxes",
+     "explain": "taxes on income default to operating; capital gains tax follows the investing sale; dividend tax follows the financing payment"
+    },
+    {
+     "step": 2,
+     "action": "place interest and dividends",
+     "explain": "non-financial enterprise: interest and dividends paid under financing, received under investing; financial enterprise: all under operating except dividends paid"
+    },
+    {
+     "step": 3,
+     "action": "screen out non-cash",
+     "explain": "assets acquired through share issues and debentures redeemed by shares are disclosed in notes, never as cash flows"
+    }
    ]
   },
   {
@@ -116,7 +173,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "add back the tax provision", "explain": "net profit after tax plus the provision for tax made in the profit statement", "compute": "profit_before_tax_and_extraordinary = net_profit_after_tax + provision_for_tax_made"}
+    {
+     "step": 1,
+     "action": "add back the tax provision",
+     "explain": "net profit after tax plus the provision for tax made in the profit statement",
+     "compute": "profit_before_tax_and_extraordinary = net_profit_after_tax + provision_for_tax_made"
+    }
    ]
   },
   {
@@ -137,10 +199,30 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "start from the pre-tax profit", "explain": "net profit after tax plus the tax provision made", "compute": "profit_before_tax_and_extraordinary = net_profit_after_tax + provision_for_tax_made"},
-    {"step": 2, "action": "strip non-cash and non-operating effects", "explain": "add depreciation, goodwill written off and finance costs; subtract incomes like profit on sale of machinery", "compute": "operating_profit_before_wc = profit_before_tax_and_extraordinary + non_cash_expenses + finance_costs - non_operating_incomes"},
-    {"step": 3, "action": "work the working capital changes", "explain": "deduct increases in current assets and decreases in current liabilities; add decreases in current assets and increases in current liabilities", "compute": "cash_generated_from_operations = operating_profit_before_wc - increase_in_current_assets - decrease_in_current_liabilities + increase_in_current_liabilities"},
-    {"step": 4, "action": "deduct the tax actually paid", "explain": "income tax paid comes off last to give net cash from operating activities", "compute": "net_cash_from_operating_activities = cash_generated_from_operations - income_tax_paid"}
+    {
+     "step": 1,
+     "action": "start from the pre-tax profit",
+     "explain": "net profit after tax plus the tax provision made",
+     "compute": "profit_before_tax_and_extraordinary = net_profit_after_tax + provision_for_tax_made"
+    },
+    {
+     "step": 2,
+     "action": "strip non-cash and non-operating effects",
+     "explain": "add depreciation, goodwill written off and finance costs; subtract incomes like profit on sale of machinery",
+     "compute": "operating_profit_before_wc = profit_before_tax_and_extraordinary + non_cash_expenses + finance_costs - non_operating_incomes"
+    },
+    {
+     "step": 3,
+     "action": "work the working capital changes",
+     "explain": "deduct increases in current assets and decreases in current liabilities; add decreases in current assets and increases in current liabilities",
+     "compute": "cash_generated_from_operations = operating_profit_before_wc - increase_in_current_assets - decrease_in_current_liabilities + increase_in_current_liabilities"
+    },
+    {
+     "step": 4,
+     "action": "deduct the tax actually paid",
+     "explain": "income tax paid comes off last to give net cash from operating activities",
+     "compute": "net_cash_from_operating_activities = cash_generated_from_operations - income_tax_paid"
+    }
    ]
   },
   {
@@ -161,7 +243,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "balance the provision account", "explain": "opening provision plus the charge made in the profit statement, less the closing provision, is what was paid", "compute": "income_tax_paid = opening_provision_for_tax + provision_made_during_year - closing_provision_for_tax"}
+    {
+     "step": 1,
+     "action": "balance the provision account",
+     "explain": "opening provision plus the charge made in the profit statement, less the closing provision, is what was paid",
+     "compute": "income_tax_paid = opening_provision_for_tax + provision_made_during_year - closing_provision_for_tax"
+    }
    ]
   },
   {
@@ -182,7 +269,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "adjust revenue for receivables movement", "explain": "opening receivables join the period's revenue; closing receivables have not yet paid", "compute": "cash_received_from_customers = revenue_from_operations + opening_trade_receivables - closing_trade_receivables"}
+    {
+     "step": 1,
+     "action": "adjust revenue for receivables movement",
+     "explain": "opening receivables join the period's revenue; closing receivables have not yet paid",
+     "compute": "cash_received_from_customers = revenue_from_operations + opening_trade_receivables - closing_trade_receivables"
+    }
    ]
   },
   {
@@ -203,7 +295,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "balance the asset account", "explain": "closing machinery plus the cost of machines removed by sale, less opening machinery, is the year's purchase", "compute": "machinery_purchased = closing_machinery_at_cost + cost_of_machinery_sold - opening_machinery_at_cost"}
+    {
+     "step": 1,
+     "action": "balance the asset account",
+     "explain": "closing machinery plus the cost of machines removed by sale, less opening machinery, is the year's purchase",
+     "compute": "machinery_purchased = closing_machinery_at_cost + cost_of_machinery_sold - opening_machinery_at_cost"
+    }
    ]
   },
   {
@@ -224,7 +321,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "balance the depreciation account", "explain": "closing accumulated depreciation plus the depreciation on the asset sold, less opening, gives the year's charge", "compute": "depreciation_provided = closing_accumulated_depreciation + accumulated_depreciation_on_sold_asset - opening_accumulated_depreciation"}
+    {
+     "step": 1,
+     "action": "balance the depreciation account",
+     "explain": "closing accumulated depreciation plus the depreciation on the asset sold, less opening, gives the year's charge",
+     "compute": "depreciation_provided = closing_accumulated_depreciation + accumulated_depreciation_on_sold_asset - opening_accumulated_depreciation"
+    }
    ]
   },
   {
@@ -245,8 +347,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "balance the loan account", "explain": "closing balance plus repayments made, less opening balance, is the fresh money raised", "compute": "borrowings_raised = closing_long_term_loans + loans_repaid - opening_long_term_loans"}
-   ]
+    {
+     "step": 1,
+     "action": "balance the loan account",
+     "explain": "closing balance plus repayments made, less opening balance, is the fresh money raised",
+     "compute": "borrowings_raised = closing_long_term_loans + loans_repaid - opening_long_term_loans"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "borrowings_raised = closing_long_term_loans + loans_repaid - opening_long_term_loans",
+     "compute": "borrowings_raised = closing_long_term_loans + loans_repaid - opening_long_term_loans"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.206.8.1",
@@ -266,8 +382,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "total the three flows", "explain": "operating plus investing plus financing gives the net movement", "compute": "net_increase_in_cash = operating_flows + investing_flows + financing_flows"},
-    {"step": 2, "action": "roll the balance forward", "explain": "opening cash and equivalents plus the net movement is the closing balance", "compute": "closing_cash_and_equivalents = opening_cash_and_equivalents + net_increase_in_cash"}
+    {
+     "step": 1,
+     "action": "total the three flows",
+     "explain": "operating plus investing plus financing gives the net movement",
+     "compute": "net_increase_in_cash = operating_flows + investing_flows + financing_flows"
+    },
+    {
+     "step": 2,
+     "action": "roll the balance forward",
+     "explain": "opening cash and equivalents plus the net movement is the closing balance",
+     "compute": "closing_cash_and_equivalents = opening_cash_and_equivalents + net_increase_in_cash"
+    }
    ]
   }
  ],
@@ -283,7 +409,12 @@
     "provision_for_tax_made": 10000
    },
    "solution_template": [
-    {"step": 1, "action": "add back the tax provision", "explain": "32000 + 10000 = 42000", "compute": "profit_before_tax_and_extraordinary = net_profit_after_tax + provision_for_tax_made"}
+    {
+     "step": 1,
+     "action": "add back the tax provision",
+     "explain": "32000 + 10000 = 42000",
+     "compute": "profit_before_tax_and_extraordinary = net_profit_after_tax + provision_for_tax_made"
+    }
    ]
   },
   {
@@ -304,10 +435,30 @@
     "income_tax_paid": 11000
    },
    "solution_template": [
-    {"step": 1, "action": "start from the pre-tax profit", "explain": "32000 + 10000 = 42000", "compute": "profit_before_tax_and_extraordinary = net_profit_after_tax + provision_for_tax_made"},
-    {"step": 2, "action": "strip non-cash and non-operating effects", "explain": "42000 + 20000 + 0 - 0 = 62000", "compute": "operating_profit_before_wc = profit_before_tax_and_extraordinary + non_cash_expenses + finance_costs - non_operating_incomes"},
-    {"step": 3, "action": "work the working capital changes", "explain": "62000 - 8500 - 2000 + 1000 = 52500", "compute": "cash_generated_from_operations = operating_profit_before_wc - increase_in_current_assets - decrease_in_current_liabilities + increase_in_current_liabilities"},
-    {"step": 4, "action": "deduct the tax actually paid", "explain": "52500 - 11000 = 41500", "compute": "net_cash_from_operating_activities = cash_generated_from_operations - income_tax_paid"}
+    {
+     "step": 1,
+     "action": "start from the pre-tax profit",
+     "explain": "32000 + 10000 = 42000",
+     "compute": "profit_before_tax_and_extraordinary = net_profit_after_tax + provision_for_tax_made"
+    },
+    {
+     "step": 2,
+     "action": "strip non-cash and non-operating effects",
+     "explain": "42000 + 20000 + 0 - 0 = 62000",
+     "compute": "operating_profit_before_wc = profit_before_tax_and_extraordinary + non_cash_expenses + finance_costs - non_operating_incomes"
+    },
+    {
+     "step": 3,
+     "action": "work the working capital changes",
+     "explain": "62000 - 8500 - 2000 + 1000 = 52500",
+     "compute": "cash_generated_from_operations = operating_profit_before_wc - increase_in_current_assets - decrease_in_current_liabilities + increase_in_current_liabilities"
+    },
+    {
+     "step": 4,
+     "action": "deduct the tax actually paid",
+     "explain": "52500 - 11000 = 41500",
+     "compute": "net_cash_from_operating_activities = cash_generated_from_operations - income_tax_paid"
+    }
    ]
   },
   {
@@ -322,7 +473,12 @@
     "cost_of_machinery_sold": 25000
    },
    "solution_template": [
-    {"step": 1, "action": "balance the asset account", "explain": "60000 + 25000 - 50000 = 35000 purchased", "compute": "machinery_purchased = closing_machinery_at_cost + cost_of_machinery_sold - opening_machinery_at_cost"}
+    {
+     "step": 1,
+     "action": "balance the asset account",
+     "explain": "60000 + 25000 - 50000 = 35000 purchased",
+     "compute": "machinery_purchased = closing_machinery_at_cost + cost_of_machinery_sold - opening_machinery_at_cost"
+    }
    ]
   },
   {
@@ -337,7 +493,12 @@
     "loans_repaid": 100000
    },
    "solution_template": [
-    {"step": 1, "action": "balance the loan account", "explain": "250000 + 100000 - 200000 = 150000 raised", "compute": "borrowings_raised = closing_long_term_loans + loans_repaid - opening_long_term_loans"}
+    {
+     "step": 1,
+     "action": "balance the loan account",
+     "explain": "250000 + 100000 - 200000 = 150000 raised",
+     "compute": "borrowings_raised = closing_long_term_loans + loans_repaid - opening_long_term_loans"
+    }
    ]
   }
  ],

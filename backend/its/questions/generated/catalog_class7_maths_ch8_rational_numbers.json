@@ -4,15 +4,9 @@
   {
    "id": "c7m8.2.1",
    "title": "Need for Rational Numbers",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "combine the fractions with the fraction operation rules",
-     "explain": "combine the fractions with the fraction operation rules: prod = 6 * 1 / 7 gives 0.857143",
-     "compute": "prod = 6 * 1 / 7"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "rational numbers extend integers and fractions",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 6 x 1/7.",
@@ -49,27 +43,9 @@
   {
    "id": "c7m8.3.1",
    "title": "What are Rational Numbers",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the rational-number operation rules",
-     "explain": "apply the rational-number operation rules: num = 4 * 8 + 6 * 5 gives 62",
-     "compute": "num = 4 * 8 + 6 * 5"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the rational-number operation rules: den = 5 * 8 gives 40",
-     "compute": "den = 5 * 8"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the rational-number operation rules: val = num / den gives 1.55",
-     "compute": "val = num / den"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "rational number = p/q, p and q integers, q != 0",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the rational numbers 4/5 and 6/8.",
@@ -107,6 +83,8 @@
    "id": "c7m8.3.2",
    "title": "Equivalent Rational Numbers",
    "converted_to_compute": false,
+   "formula": "p/q = (p*n)/(q*n) = (p/n)/(q/n), n != 0",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the rational numbers 6/4 and 2/9.",
@@ -143,27 +121,9 @@
   {
    "id": "c7m8.4.1",
    "title": "Positive and Negative Rational Numbers",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the rational-number operation rules",
-     "explain": "apply the rational-number operation rules: num = 4 * 9 + 7 * 6 gives 78",
-     "compute": "num = 4 * 9 + 7 * 6"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the rational-number operation rules: den = 6 * 9 gives 54",
-     "compute": "den = 6 * 9"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the rational-number operation rules: val = num / den gives 1.44444",
-     "compute": "val = num / den"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "positive: num and denom same sign; negative: opposite signs",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the rational numbers 4/6 and 7/9.",
@@ -200,27 +160,9 @@
   {
    "id": "c7m8.5.1",
    "title": "Rational Numbers on Number Line",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the rational-number operation rules",
-     "explain": "apply the rational-number operation rules: num = 3 * 8 + 5 * 6 gives 54",
-     "compute": "num = 3 * 8 + 5 * 6"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the rational-number operation rules: den = 6 * 8 gives 48",
-     "compute": "den = 6 * 8"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the rational-number operation rules: val = num / den gives 1.125",
-     "compute": "val = num / den"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "positive right of 0, negative left of 0",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the rational numbers 3/6 and 5/8.",
@@ -258,6 +200,8 @@
    "id": "c7m8.6.1",
    "title": "Rational Numbers in Standard Form",
    "converted_to_compute": false,
+   "formula": "standard: positive denom, hcf(num, denom) = 1",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 40 and 56 have HCF 8 with coprime multipliers 5 and 7. Verify by computing hcf = 8 x 1; then find the HCF value.",
@@ -295,6 +239,8 @@
    "id": "c7m8.7.1",
    "title": "Comparison of Rational Numbers",
    "converted_to_compute": false,
+   "formula": "positive > 0 > negative; for negatives, larger absolute value is smaller",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the rational numbers 4/5 and 7/8.",
@@ -332,6 +278,8 @@
    "id": "c7m8.8.1",
    "title": "Rational Numbers Between Two Rational Numbers",
    "converted_to_compute": false,
+   "formula": "unlimited rational numbers between any two",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the rational numbers 6/4 and 7/7.",
@@ -369,6 +317,8 @@
    "id": "c7m8.9.1",
    "title": "Addition of Rational Numbers",
    "converted_to_compute": false,
+   "formula": "same denom: (a/c)+(b/c)=(a+b)/c; diff denom: use lcm",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 20 and 70 have HCF 10 with coprime multipliers 2 and 7. Verify by computing hcf = 10 x 1; then find the HCF value.",
@@ -406,6 +356,8 @@
    "id": "c7m8.9.2",
    "title": "Subtraction of Rational Numbers",
    "converted_to_compute": false,
+   "formula": "a - b = a + (-b); additive inverse of p/q is -p/q",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the rational numbers 6/4 and 4/9.",
@@ -443,6 +395,8 @@
    "id": "c7m8.9.3",
    "title": "Multiplication of Rational Numbers",
    "converted_to_compute": false,
+   "formula": "(a/b) x (c/d) = (a*c)/(b*d)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the rational numbers 7/4 and 6/7.",
@@ -480,6 +434,8 @@
    "id": "c7m8.9.4",
    "title": "Division of Rational Numbers",
    "converted_to_compute": false,
+   "formula": "(a/b) / (c/d) = (a/b) x (d/c); reciprocal of p/q = q/p",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the rational numbers 1/4 and 7/8.",

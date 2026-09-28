@@ -34,6 +34,26 @@
      "q": "Design a 5-role organisational chart for a small bakery (owner, baker, sales, delivery, cleaner) that implements Division of Work and Unity of Command perfectly. Then introduce a realistic violation of Unity of Command (e.g., owner directly instructs cleaner to rearrange display) and write a one-paragraph memo from the owner to staff restoring Unity of Command *without* firing anyone or changing the chart.",
      "a": "Correct answer: \nChart: Owner → Baker (production), Salesperson (counter), Delivery Driver (logistics), Cleaner (hygiene). Each role has specialised tasks (Division of Work) and reports *only* to Owner (Unity of Command).\nViolation: Owner tells Cleaner \"move the croissant display to the front window.\"\nRestoration memo: \"Team, effective immediately: all display and layout decisions route through the Salesperson, who owns the customer-facing space. The Cleaner's role remains hygiene and sanitation. If you see a display issue, inform the Salesperson — do not act on it directly. This ensures clear accountability and avoids conflicting instructions. — Owner\"\nA poor answer that makes the Cleaner report to the Salesperson *permanently* breaks Division of Work (cleaner doing sales tasks) and creates a new hierarchy layer. The memo must preserve *both* principles: specialised roles AND single command per role.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Division of Work states that work should be divided into small, ______ tasks, each performed by a trained specialist to increase efficiency and output.",
+     "a": "specialised",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the ______ of a busy hospital emergency ward.",
+     "a": "manager",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) explain how Division of Work leads to specialisation and efficiency with a concrete organisational example, and (2) analyse a scenario where Unity of Command is violated and predict the specific consequences (authority undermined, discipline jeopardised, order disturbed, stability threatened) using Fayol's.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the manager of a busy hospital ______ ward.",
+     "a": "emergency",
+     "self_check": true
     }
    ]
   }

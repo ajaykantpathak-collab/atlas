@@ -34,6 +34,21 @@
      "q": "Design a minimal relational schema for a \"School Transport\" system where:  \n- Each bus has a unique registration number and a driver.  \n- Each driver has a unique employee ID and can drive multiple buses (on different shifts).  \n- Each student uses exactly one bus route.  \n- A bus route is served by exactly one bus at a time.  \nDraw the relation schemas, underline primary keys, mark foreign keys with arrows (→), and list all candidate keys for each relation.",
      "a": "**Expected schema (one valid solution):**  \n**BUS**(RegNo, Capacity, **DriverID** → DRIVER.EmpID)  \n&nbsp;&nbsp;Candidate keys: {RegNo}  \n**DRIVER**(EmpID, Name, LicenseNo)  \n&nbsp;&nbsp;Candidate keys: {EmpID}, {LicenseNo} → Primary key: EmpID, Alternate key: LicenseNo  \n**ROUTE**(RouteID, StartPoint, EndPoint, **BusRegNo** → BUS.RegNo)  \n&nbsp;&nbsp;Candidate keys: {RouteID}  \n**STUDENT_TRANSPORT**(AdmNo, **RouteID** → ROUTE.RouteID)  \n&nbsp;&nbsp;Candidate keys: {AdmNo}  \nA poor answer omits foreign keys, uses composite keys unnecessarily, or fails to list alternate keys (e.g., LicenseNo in DRIVER). This reveals the student cannot synthesise a schema from requirements — a core board exam skill.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Candidate Key is a minimal set of one or more attributes that can uniquely identify each tuple in a relation; a Primary Key is the candidate key selected by the database designer to serve as the principal unique identifier; a Foreign Key is an attribute (or set of attributes) in one relation that references the primary key of another relation, ______ a referential integrity constraint between the two relations.",
+     "a": "establishing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a database for your school library where each book must be uniquely tracked, each student has a unique admission number, and every book issue record must link a specific student to a specific book copy.",
+     "a": "designing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) identify all candidate keys in a given relation schema with sample data, justifying why each qualifies or fails the uniqueness and minimality criteria; (2) choose an appropriate primary key and explain the rationale; (3) detect foreign key relationships between two relations and verify referential.",
+     "self_check": true
     }
    ]
   }

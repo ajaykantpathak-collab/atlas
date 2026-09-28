@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch14_1",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch14_1",
+   "title": "c9_math_ch14_1",
+   "questions": [
+    {
+     "q": "Define **Primary Data** and **Secondary Data**. Give one real-life example of each where a Class 9 student could act as the investigator.",
+     "a": "**Correct Answer:** Primary Data: Data collected **firsthand** by the investigator for a specific purpose (e.g., a student measuring the height of every Class 9 student using a stadiometer). Secondary Data: Data **already collected** by someone else for a different purpose and available in published/unpublished sources (e.g., the same student using the \"India Census 2011\" report to find the average height of 14-year-olds in India).  \n**Wrong Answer Reveals:** If the student says \"Primary data is from books, secondary is from surveys,\" they have **swapped the definitions** — a classic Class 9 error. If they give examples like \"primary: asking friends, secondary: internet\" without mentioning **purpose** or **source**, they lack the **board-level precision** required (NCERT defines by *method of collection* and *originality of purpose*).",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the class intervals for grouped data as: 0-10, 10-20, 20-30, 30-40. Another student writes: 0-10, 11-20, 21-30, 31-40. Which format is the **Exclusive Form (Continuous)** used in Class 9 NCERT? Explain **why** the other format creates a problem for a value like 10.5.",
+     "a": "**Correct Answer:** The first format (0-10, 10-20, 20-30...) is the **Exclusive Form (Continuous)**. In this form, the upper limit of a class is **excluded** (0-10 means 0 ≤ x < 10), so 10.5 correctly falls in **10-20**. The second format (0-10, 11-20...) is the **Inclusive Form (Discontinuous)** — it has a **gap** between 10 and 11. A value like 10.5 **does not belong to any class** in the inclusive form unless we convert it to true class limits (9.5-10.5, 10.5-20.5...).  \n**Wrong Answer Reveals:** If the student picks the second format, they confuse **Inclusive Form** (common in middle school) with the **Exclusive Form** mandated in Class 9 for continuous data. If they say \"both are fine,\" they miss the **critical board concept**: exclusive form ensures **no gaps, no overlaps** for continuous variables like height, weight, marks.",
+     "self_check": true
+    },
+    {
+     "q": "Raw data (marks out of 50): 12, 25, 38, 12, 45, 25, 30, 12, 38, 40, 25, 30, 12, 45, 38, 30, 25, 12, 40, 38.  \n**Construct an Ungrouped Frequency Distribution Table using Tally Marks.** Then state the **frequency of the mode**.",
+     "a": "**Correct Answer with Steps:**  \n| Marks (x) | Tally Marks | Frequency (f) |  \n|-----------|-------------|---------------|  \n| 12        | ||||        | 5             |  \n| 25        | ||||        | 5             |  \n| 30        | |||         | 3             |  \n| 38        | ||||        | 4             |  \n| 40        | ||          | 2             |  \n| 45        | ||          | 2             |  \n**Total**   |             | **20**        |  \n**Mode Frequency = 5** (both 12 and 25 occur 5 times → **bimodal**).  \n**Wrong Answer Reveals:** If the student writes frequency of 12 as 4 (miscounts tally), they lack **systematic tallying practice**. If they say \"mode is 12\" (single value), they don't know **bimodal data** exists. If they skip the tally column, they lose **board presentation marks** — NCERT requires tally marks for ungrouped tables.",
+     "self_check": true
+    },
+    {
+     "q": "A grouped frequency table for weights (kg) of 30 students is given:  \n| Class Interval | Frequency |  \n|----------------|-----------|  \n| 30-35          | 4         |  \n| 35-40          | 6         |  \n| 40-45          | 10        |  \n| 45-50          | 5         |  \n| 50-55          | 5         |  \n**Analyze:** Is this in **Exclusive Form** or **Inclusive Form**? If the raw data has a weight of **35.0 kg**, in which class does it fall? What is the **class size**? What is the **class mark** of 40-45?",
+     "a": "**Correct Answer:**  \n1. **Exclusive Form** — intervals are continuous (35 is upper limit of 30-35 and lower limit of 35-40).  \n2. **35.0 kg falls in 35-40** (since upper limit 35 is excluded from 30-35).  \n3. **Class size = 5** (35-30 = 5, consistent across all classes).  \n4. **Class mark of 40-45 = (40+45)/2 = 42.5**.  \n**Wrong Answer Reveals:** If the student says \"Inclusive Form\" because \"35 appears twice,\" they don't understand **exclusive form uses the same number as upper limit of one class and lower limit of the next** — this is the **defining feature**. If they put 35.0 in 30-35, they treat upper limit as **inclusive** (middle school habit). If class mark = 5, they confuse **class size** with **class mark**.",
+     "self_check": true
+    },
+    {
+     "q": "A student converts the Inclusive Form classes **10-19, 20-29, 30-39** to Exclusive Form and writes: **9.5-19.5, 19.5-29.5, 29.5-39.5**. **Evaluate:** Is this conversion correct? If not, identify the exact error and write the correct exclusive classes.",
+     "a": "**Correct Answer:** **Incorrect conversion.**  \n**Error:** The student subtracted 0.5 from the lower limit and added 0.5 to the upper limit **for each class independently**, but the **gap between consecutive classes is 1** (19 to 20), so the **adjustment factor = gap/2 = 0.5**. The **true lower limit** = lower limit - 0.5, **true upper limit** = upper limit + 0.5.  \n**Correct Exclusive Classes:**  \n10-19 → **9.5 - 19.5**  \n20-29 → **19.5 - 29.5**  \n30-39 → **29.5 - 39.5**  \n**Wait — the student's answer matches this!** But look closely: the student wrote **9.5-19.5, 19.5-29.5, 29.5-39.5** — this **IS correct**. The **trick**: many students mistakenly write **10.5-19.5** or **9-19** — but here the conversion is **actually right**.  \n**Wrong Answer Reveals:** If the student says \"incorrect\" and changes limits wrongly (e.g., 10-19 → 10-20), they don't know the **conversion rule: True limits = stated limits ± (gap/2)**. If they say \"correct\" but can't explain **why gap = 1**, they memorized the steps without understanding **continuity correction**.",
+     "self_check": true
+    },
+    {
+     "q": "**Create** a real-world scenario (Indian context) where **Primary Data collection** is better than Secondary Data, and another where **Secondary Data** is better. For each, specify: (a) the statistical question, (b) the data source, (c) why the other type would be unsuitable.",
+     "a": "**Expected Answer (sample):**  \n**Scenario 1 (Primary better):**  \n(a) Question: \"What is the **average daily screen time** of Class 9 students in *our school*?\"  \n(b) Source: Survey all Class 9 students via questionnaire (primary).  \n(c) Why not secondary: No existing report has *our school's* current data — Census/NCERT data is national, outdated, not school-specific.  \n\n**Scenario 2 (Secondary better):**  \n(a) Question: \"What is the **literacy rate of India** in the last Census?\"  \n(b) Source: Census of India 2011 report (secondary).  \n(c) Why not primary: A student cannot survey 1.4 billion people — impossible cost/time.  \n\n**Poor Answer Reveals:** If the student gives vague scenarios like \"primary for small data, secondary for big data\" without **specific statistical questions** or **justification tied to purpose/accessibility**, they treat data types as **size-based** rather than **purpose/source-based** — a fundamental misconception for board-level case-study questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

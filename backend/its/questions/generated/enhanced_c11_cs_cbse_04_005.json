@@ -34,6 +34,36 @@
      "q": "Design a valid Python identifier for each scenario, following PEP 8. Justify each choice.\n(i) A variable storing the number of students in a class.\n(ii) A function that calculates compound interest.\n(iii) A class representing a bank account.\n(iv) A constant for maximum login attempts.\n(v) A temporary loop counter in a 3-line loop.",
      "a": "(i) `student_count` — snake_case, descriptive, noun phrase.  \n(ii) `calculate_compound_interest` — snake_case, verb phrase, action-oriented.  \n(iii) `BankAccount` — CamelCase, singular noun, class convention.  \n(iv) `MAX_LOGIN_ATTEMPTS` — UPPER_SNAKE_CASE, module-level constant.  \n(v) `i` — acceptable exception: single-letter for short-lived loop index (PEP 8 allows `i`, `j`, `k` in tight loops).  \nA poor answer (e.g., `numOfStudents`, `CalcInterest`, `bank_account`, `maxAttempts`, `counter`) reveals inconsistent convention use, lack of PEP 8 awareness, or over-engineering simple cases.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Keywords are reserved words in Python that have ______ meanings and syntactic roles (e.g., if, while, def, class) and cannot be used as names for variables, functions, or classes.",
+     "a": "predefined",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are saving a contact in your phone: you cannot name two contacts \"Mom\" and \"mom\" as separate entries if the phone is case-insensitive, but Python treats score and Score as completely different ______ — just like your phone treats \"Mom\" and \"Dad\" as distinct labels.",
+     "a": "variables",
+     "self_check": true
+    },
+    {
+     "q": "What is Keywords? State the definition given in this lesson.",
+     "a": "Keywords are reserved words in Python that have predefined meanings and syntactic roles (e.g., if, while, def, class) and cannot be used as names for variables, functions, or classes.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now, you cannot name a contact \"DELETE\" if that word is reserved for a system function; similarly, Python reserves words like if, for, while for its own syntax — you cannot name your variable for = ______.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Keywords?",
+     "a": "Students believe that capitalising a keyword makes it a valid identifier (e.g., If = 5, For = 10, Class = \"XI\").",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify any given token as a keyword or valid/invalid identifier, write identifiers following Python naming rules and conventions (snake_case for variables/functions, CamelCase for classes), and explain why a specific name like 2nd_value or class is invalid with reference to the precise rule violated.",
+     "self_check": true
     }
    ]
   }

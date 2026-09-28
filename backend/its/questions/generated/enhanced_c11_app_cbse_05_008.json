@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_05_008",
+   "title": "c11_app_cbse_05_008",
+   "questions": [
+    {
+     "q": "State the definition of a Geometric Progression and write the general form of a GP with first term 'a' and common ratio 'r'.",
+     "a": "A sequence of non-zero numbers where the ratio of any term to its preceding term is a constant non-zero real number (r). General form: **a, ar, ar², ar³, ...**\n**Wrong answer analysis:** If a student writes \"a, a+d, a+2d...\" or defines it using \"difference is constant\", they are confusing GP with AP (Arithmetic Progression). They have not grasped the fundamental *multiplicative* nature of GP. If they omit \"non-zero\" for terms or ratio, they miss the condition required for the ratio to be defined and constant.",
+     "self_check": true
+    },
+    {
+     "q": "The sequence 2, 6, 18, 54, ... is a GP. Explain *why* the sequence 2, 6, 18, 53, ... is NOT a GP, even though the first three terms match. What specific property fails?",
+     "a": "In a GP, the ratio `a_(k+1)/a_k` must be constant for **all** k ≥ 1. For 2, 6, 18, 53: `6/2 = 3`, `18/6 = 3`, but `53/18 ≈ 2.94 ≠ 3`. The property of **constant ratio for every consecutive pair** fails at the 4th term.\n**Wrong answer analysis:** If a student says \"it's not a GP because 53 is not 54\", they are pattern-matching, not understanding the *definition*. They need to articulate that the *ratio* between the 3rd and 4th term breaks the constant ratio rule. This tests if they understand GP is defined by a structural property (constant ratio), not just by matching a known pattern.",
+     "self_check": true
+    },
+    {
+     "q": "A bacterial culture doubles every hour. If the initial count is 500, write the expression for the number of bacteria at the end of the *n*-th hour. Calculate the count at the end of the 6th hour.",
+     "a": "Given: a = 500, r = 2 (doubling). General term: `a_n = ar^(n-1) = 500 × 2^(n-1)`.\nFor n=6: `a_6 = 500 × 2^5 = 500 × 32 = 16,000`.\n**Wrong answer analysis:** If a student uses `500 × 2^n` (getting 32,000), they confuse the exponent (using n instead of n-1), misunderstanding that the *initial* count corresponds to n=1 (exponent 0). If they use `500 + 500×5` (AP logic), they fundamentally misunderstand \"doubling\" as additive. If they calculate `500 × 2^6`, they are counting the 7th hour.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sequences:\nSequence X: 5, 10, 20, 40, ...\nSequence Y: 5, 10, 15, 20, ...\nAnalyze the *nature of growth* in each. Why can Sequence X eventually surpass any fixed large number (like 1 million) much faster than Sequence Y, even though both start at 5 and have the same second term?",
+     "a": "Sequence X is a GP (r=2): growth is **exponential/multiplicative** (`5 × 2^(n-1)`). Sequence Y is an AP (d=5): growth is **linear/additive** (`5 + 5(n-1)`). In X, the *increment itself grows* (5, 10, 20, 40...); in Y, the increment is constant (5). Exponential functions eventually dominate linear functions for large n.\n**Wrong answer analysis:** If a student only calculates a few terms (e.g., \"X reaches 160 at term 6, Y reaches 30\"), they are doing arithmetic, not *analysis*. They miss the structural difference: multiplicative vs. additive change. If they say \"X grows faster because r>1\", they state a fact but don't explain *why* the mechanism of compounding (growth on growth) creates the disparity.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The sequence 0, 0, 0, 0, ... is a GP with a=0 and r=5 because 0×5=0.\" Evaluate this claim. Is the student correct? Justify your answer using the formal definition.",
+     "a": "The claim is **incorrect**. The definition of GP explicitly requires **each term to be non-zero**. If a=0, all terms are 0. The ratio `a_(k+1)/a_k` becomes `0/0`, which is **undefined** (indeterminate), not equal to 5. A constant ratio cannot be established.\n**Wrong answer analysis:** If the student argues \"but the pattern holds\", they are confusing *pattern observation* with *mathematical definition*. The definition excludes zero terms precisely to avoid the undefined ratio `0/0`. This tests precise understanding of the definition's boundary conditions (\"non-zero terms\").",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) that generates a finite GP with exactly 5 terms. Specify the first term (a), common ratio (r), and list all 5 terms. Explain *why* the process naturally stops after 5 terms (making it finite).",
+     "a": "**Scenario:** A school principal sends a circular to 3 Vice-Principals (Level 1). Each VP forwards it to 3 Head Teachers (Level 2). Each HT forwards to 3 Class Teachers (Level 3). Each CT forwards to 3 Student Prefects (Level 4). Each Prefect informs 3 Class Representatives (Level 5). The chain stops here.\n**GP:** a = 3 (VPs), r = 3. Terms: 3, 9, 27, 81, 243. **Finite because** the hierarchy has exactly 5 levels of forwarding authority; Class Reps do not forward further.\n**Poor answer analysis:** If a student gives an infinite process (e.g., \"bacteria dividing forever\") or a scenario with no natural stopping point, they don't grasp \"finite sequence\" — a sequence with a countable, fixed number of terms. They might also choose r=1 (constant sequence), missing the \"non-zero constant ratio\" nuance (r=1 is allowed but trivial).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

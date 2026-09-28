@@ -34,6 +34,26 @@
      "q": "Design a word problem involving a large distance in India (e.g., between two major cities) and a fleet of transport buses, where the final answer requires both multiplication and subtraction. Provide the complete solution.",
      "a": "Problem: The distance from Delhi to Kanyakumari is approximately $2,850\\text{ km}$. A transport company's fleet of $1,250$ buses each completed this round trip once. If the company had a target of covering $75,00,000\\text{ km}$ total for the year, how many more kilometres do they need to travel? \nSolution: \n1. One round trip = $2,850 \\times 2 = 5,700\\text{ km}$. \n2. Total distance covered by $1,250$ buses = $5,700 \\times 1,250 = 71,25,000\\text{ km}$. \n3. Remaining distance to target = $75,00,000 - 71,25,000 = 3,75,000\\text{ km}$. \nA poor answer would fail to account for the \"round trip\" multiplier of $2$ or make a subtraction borrowing error with zeroes in lakhs and crores.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Real-life ______ of large numbers involve using numbers in lakhs and crores to quantify and interpret massive quantities from the physical world, such as national populations, inter-city distances, budget allocations, and astronomical measurements.",
+     "a": "applications",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How do we make sense of numbers this ______ when we have never seen them all at once?",
+     "a": "large",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can extract numerical data from real-world reports, set up correct arithmetic or estimation operations with 7-to-8 digit numbers, and interpret the resulting large numbers with appropriate units in Indian notation (lakhs and crores).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How do we make ______ of numbers this large when we have never seen them all at once?",
+     "a": "sense",
+     "self_check": true
     }
    ]
   }

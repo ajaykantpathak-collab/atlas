@@ -34,6 +34,36 @@
      "q": "Design a three-indicator monitoring framework for land degradation in a semi-arid district of Rajasthan that a District Collector could implement with existing revenue and agricultural department data. Justify each indicator.",
      "a": "Indicator 1: Annual change in net sown area under protective irrigation (from revenue records) — captures groundwater mining and salinization risk. Indicator 2: Ratio of livestock to carrying capacity of pastureland (from livestock census + satellite pasture data) — quantifies overgrazing pressure. Indicator 3: Trend in soil organic carbon % from periodic soil health cards — integrates erosion, nutrient mining, and residue management. A poor answer listing generic indicators (e.g., \"deforestation rate\") without linking to available administrative data shows the student cannot translate macro concepts into implementable local governance tools.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Land degradation in India refers to the decline in productive capacity of land resources caused by human-induced factors such as ______, unsustainable agricultural practices, overgrazing, improper irrigation, and industrial encroachment, resulting in soil erosion, nutrient depletion, loss of vegetation cover, and reduced agricultural productivity per hectare.",
+     "a": "deforestation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a farmer in Punjab's Malwa region noticing white crust forming on your fields — this is ______ from decades of canal irrigation without drainage.",
+     "a": "salinization",
+     "self_check": true
+    },
+    {
+     "q": "What is Land degradation in India? State the definition given in this lesson.",
+     "a": "Land degradation in India refers to the decline in productive capacity of land resources caused by human-induced factors such as deforestation, unsustainable agricultural practices, overgrazing, improper irrigation, and industrial encroachment, resulting in soil erosion, nutrient depletion, loss of vegetation cover, and reduced.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Connect this to the ______ billion tonnes annual soil erosion figure.",
+     "a": "5.3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Land degradation in India?",
+     "a": "Students believe land degradation is primarily caused by \"overpopulation\" in a generic Malthusian sense, leading them to cite total population size as the explanation for erosion, nutrient loss, and deforestation.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can interpret land degradation data (soil erosion rates, nutrient loss, per capita forest land) to identify the dominant causal factors in a given region, and explain how the poverty-affluence dichotomy drives degradation through distinct mechanisms in rural versus urban-industrial areas.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Construct a real-valued function \\(f: \\mathbb{R} \\to \\mathbb{R}\\) that is neither polynomial, nor rational, nor modulus, nor signum, nor greatest-integer, nor identity, nor constant. Define it piecewise and state its domain and range.",
      "a": "Example:  \n\\(f(x) = \\begin{cases} \\sin x, & x \\in \\mathbb{Q} \\\\ 0, & x \\notin \\mathbb{Q} \\end{cases}\\)  \nDomain: \\(\\mathbb{R}\\), Range: \\([-1,1] \\cap \\mathbb{Q} \\cup \\{0\\}\\) (or simply \\([-1,1]\\)).  \nThis is a valid real function not belonging to the seven NCERT types. A poor answer that only gives a standard type (e.g., \\(f(x)=x^2\\)) shows the student cannot think beyond the listed catalogue and treats the classification as exhaustive.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If both answers are \"yes\" and \"no\" respectively, you have a ______.",
+     "a": "function",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) decide whether a given relation (as a set of ordered pairs, arrow diagram, or rule) is a function by checking the \"one and only one image\" condition, (2) state the domain, codomain, and range of a function, and (3) classify a function as identity, constant, polynomial, rational, modulus, signum, or greatest-integer.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If both answers are \"yes\" and \"no\" ______, you have a function.",
+     "a": "respectively",
+     "self_check": true
     }
    ]
   }

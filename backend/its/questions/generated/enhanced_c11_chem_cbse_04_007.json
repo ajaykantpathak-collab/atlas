@@ -34,6 +34,36 @@
      "q": "Design a thought experiment using only bond angle measurements to distinguish between a molecule with sp² hybridisation and one with sp³ hybridisation, assuming both have the formula AX₃ (no lone pairs on central atom). Describe the expected results.",
      "a": "Measure the X–A–X bond angles. If all angles are 120° ± 2°, the molecule is trigonal planar → sp² hybridised (e.g., BF₃). If all angles are 109.5° ± 2°, the molecule is tetrahedral → but AX₃ with no lone pairs cannot be tetrahedral; this would indicate a lone pair (AX₃E) like NH₃. A pure AX₃ with sp³ hybridisation is impossible because sp³ requires four electron domains. The student must realise that steric number determines hybridisation: AX₃ with no lone pairs → SN=3 → sp². A poor answer (e.g., \"measure bond lengths\") shows inability to link geometry directly to hybridisation via VSEPR.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the concept of mixing atomic orbitals of slightly different energies on the same atom to form an equal number of new, degenerate hybrid orbitals with identical shapes and energies, which are oriented in space to minimise electron-pair repulsion and form stronger directional covalent bonds.",
+     "a": "Hybridisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a diamond ring and a graphite pencil lead — both are pure carbon, yet diamond is hard and transparent while graphite is soft and conductive.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What is Hybridisation? State the definition given in this lesson.",
+     "a": "Hybridisation is the concept of mixing atomic orbitals of slightly different energies on the same atom to form an equal number of new, degenerate hybrid orbitals with identical shapes and energies, which are oriented in space to minimise electron-pair repulsion and form stronger directional covalent bonds.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This dramatic difference arises from how carbon atoms hybridise: in diamond each carbon is sp³ hybridised forming a rigid ______D tetrahedral network, while in graphite each carbon is sp² hybridised forming sliding hexagonal sheets.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Hybridisation?",
+     "a": "Students often believe hybridisation is a real physical excitation of electrons that occurs *during* bond formation, and they confuse it with electron promotion.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) determine the hybridisation state of a central atom from its steric number (sigma bonds + lone pairs), (2) predict the molecular geometry and approximate bond angles for sp, sp², and sp³ hybridised centres, and (3) explain the formation of sigma and pi bonds in molecules like C₂H₄ and C₂H₂ using the.",
+     "self_check": true
     }
    ]
   }

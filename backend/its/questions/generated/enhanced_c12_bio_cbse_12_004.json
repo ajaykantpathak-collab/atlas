@@ -34,6 +34,31 @@
      "q": "Design a simplified experimental workflow to produce human insulin in *Saccharomyces cerevisiae* (yeast) using a proinsulin expression strategy. List the key genetic elements needed in the expression vector and the post-fermentation processing steps.",
      "a": "Key vector elements: (1) Yeast replication origin (ARS) and selection marker (e.g., *URA3*); (2) Strong inducible promoter (e.g., *GAL1* or *PHO5*); (3) Yeast signal sequence (e.g., α-factor prepro-leader) for secretion into periplasm/medium; (4) Human proinsulin cDNA optimized for yeast codon usage; (5) Terminator (e.g., *CYC1*). Processing: Fermentation → induction → harvest supernatant (secreted proinsulin) → purification (ion exchange) → enzymatic cleavage of C-peptide using trypsin/carboxypeptidase B or specific protease → purification of mature insulin (RP-HPLC). A poor answer omits the secretion signal (leading to cytoplasmic inclusion bodies) or suggests chemical cleavage of C-peptide (which is enzymatic in eukaryotes).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Insulin production using recombinant DNA technology is the ______ process of synthesizing human insulin in a host organism (typically *E. coli* or yeast) by inserting chemically synthesized genes encoding the A and B polypeptide chains of human insulin into expression vectors, expressing the chains separately, purifying them, and assembling them in vitro via disulfide bonds to yield biologically active human insulin identical to the native hormone.",
+     "a": "biotechnological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ patient in 1980 injecting porcine insulin — it works but sometimes triggers allergic reactions because pig insulin differs by one amino acid.",
+     "a": "diabetic",
+     "self_check": true
+    },
+    {
+     "q": "What is Insulin production using recombinant DNA technology? State the definition given in this lesson.",
+     "a": "Insulin production using recombinant DNA technology is the biotechnological process of synthesizing human insulin in a host organism (typically *E. coli* or yeast) by inserting chemically synthesized genes encoding the A and B polypeptide chains of human insulin into expression vectors, expressing the chains separately, purifying them.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Outline the step-by-step rDNA workflow for human insulin production in *E. coli* including vector design, host selection, expression strategy (separate A and B chains vs. proinsulin), purification, and in vitro assembly; (2) Explain why the C-peptide is absent in the final recombinant product and how.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a diabetic patient in 1980 ______ porcine insulin — it works but sometimes triggers allergic reactions because pig insulin differs by one amino acid.",
+     "a": "injecting",
+     "self_check": true
     }
    ]
   }

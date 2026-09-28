@@ -2,6 +2,100 @@
  "catalog": "catalog_class9_science_iesc104.json",
  "concepts": [
   {
+   "id": "iesc.104.4.2",
+   "title": "Speed and Velocity",
+   "converted_to_compute": true,
+   "formula": "speed = distance / time",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "speed = distance / time",
+     "compute": "speed = distance / time"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Speed and Velocity: given distance = 234, time = 2.6, find speed.",
+     "a": "90",
+     "self_check": false
+    },
+    {
+     "q": "For Speed and Velocity: given distance = 248, time = 82, find speed.",
+     "a": "3.02439",
+     "self_check": false
+    },
+    {
+     "q": "For Speed and Velocity: given distance = 87, time = 28, find speed.",
+     "a": "3.10714",
+     "self_check": false
+    },
+    {
+     "q": "For Speed and Velocity: given distance = 58, time = 95, find speed.",
+     "a": "0.610526",
+     "self_check": false
+    },
+    {
+     "q": "For Speed and Velocity: given distance = 445, time = 38, find speed.",
+     "a": "11.7105",
+     "self_check": false
+    },
+    {
+     "q": "For Speed and Velocity: given distance = 246, time = 22, find speed.",
+     "a": "11.1818",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.104.4.3",
+   "title": "Acceleration",
+   "converted_to_compute": true,
+   "formula": "acceleration = (v - u) / t",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "acceleration = (v - u) / t",
+     "compute": "acceleration = (v - u) / t"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Acceleration: given v = 20, u = 42, t = 87, find acceleration.",
+     "a": "-0.252874",
+     "self_check": false
+    },
+    {
+     "q": "For Acceleration: given v = 90, u = 10.6, t = 12.4, find acceleration.",
+     "a": "6.40323",
+     "self_check": false
+    },
+    {
+     "q": "For Acceleration: given v = 16.1, u = 78, t = 63, find acceleration.",
+     "a": "-0.98254",
+     "self_check": false
+    },
+    {
+     "q": "For Acceleration: given v = 25, u = 70, t = 56, find acceleration.",
+     "a": "-0.803571",
+     "self_check": false
+    },
+    {
+     "q": "For Acceleration: given v = 66, u = 71, t = 9.5, find acceleration.",
+     "a": "-0.526316",
+     "self_check": false
+    },
+    {
+     "q": "For Acceleration: given v = 46, u = 41, t = 93, find acceleration.",
+     "a": "0.0537634",
+     "self_check": false
+    }
+   ]
+  },
+  {
    "id": "iesc.104.4.1",
    "title": "Distance, Displacement and Position",
    "solution_type": "verify_property",
@@ -20,175 +114,6 @@
      "q": "What does a position-time graph tell us?",
      "a": "Its slope gives the speed; a straight sloping line means uniform motion.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "iesc.104.4.2",
-   "title": "Speed and Velocity",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "distance_per_minute",
-     "expr": "(distance / time) * 60",
-     "explain": "distance covered per minute"
-    },
-    {
-     "step": 2,
-     "name": "half_time_distance",
-     "expr": "distance / (time * 2)",
-     "explain": "distance covered in half the time"
-    },
-    {
-     "step": 3,
-     "name": "speed",
-     "expr": "distance / time",
-     "explain": "speed is distance covered per unit time"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A car moves 200 m in 10 s along a straight road. Find its speed.",
-     "vals": {
-      "distance": 200,
-      "time": 10
-     },
-     "unit": "m/s",
-     "steps": null,
-     "a": "20 m/s",
-     "self_check": false
-    },
-    {
-     "q": "A jogger covers 400 m in 80 s. Calculate the speed.",
-     "vals": {
-      "distance": 400,
-      "time": 80
-     },
-     "unit": "m/s",
-     "steps": null,
-     "a": "5 m/s",
-     "self_check": false
-    },
-    {
-     "q": "A bus travels 1500 m in 60 s. What is its speed?",
-     "vals": {
-      "distance": 1500,
-      "time": 60
-     },
-     "unit": "m/s",
-     "steps": null,
-     "a": "25 m/s",
-     "self_check": false
-    },
-    {
-     "q": "A cyclist rides 900 m in 3 min (180 s). Find the speed.",
-     "vals": {
-      "distance": 900,
-      "time": 180
-     },
-     "unit": "m/s",
-     "steps": null,
-     "a": "5 m/s",
-     "self_check": false
-    },
-    {
-     "q": "A ball rolls 24 m in 6 s. Compute its speed.",
-     "vals": {
-      "distance": 24,
-      "time": 6
-     },
-     "unit": "m/s",
-     "steps": null,
-     "a": "4 m/s",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "iesc.104.4.3",
-   "title": "Acceleration",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "velocity_change",
-     "expr": "final_v - initial_v",
-     "explain": "change in velocity"
-    },
-    {
-     "step": 2,
-     "name": "double_time_acc",
-     "expr": "velocity_change / (time * 2)",
-     "explain": "acceleration if the time doubled"
-    },
-    {
-     "step": 3,
-     "name": "acceleration",
-     "expr": "velocity_change / time",
-     "explain": "divide by the time taken"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A scooter speeds from 2 m/s to 12 m/s in 5 s. Find the acceleration.",
-     "vals": {
-      "initial_v": 2,
-      "final_v": 12,
-      "time": 5
-     },
-     "unit": "m/s2",
-     "steps": null,
-     "a": "2 m/s2",
-     "self_check": false
-    },
-    {
-     "q": "A car brakes from 20 m/s to 8 m/s in 6 s. Calculate the acceleration.",
-     "vals": {
-      "initial_v": 20,
-      "final_v": 8,
-      "time": 6
-     },
-     "unit": "m/s2",
-     "steps": null,
-     "a": "-2 m/s2",
-     "self_check": false
-    },
-    {
-     "q": "A cycle goes from rest to 4 m/s in 8 s. What is the acceleration?",
-     "vals": {
-      "initial_v": 0,
-      "final_v": 4,
-      "time": 8
-     },
-     "unit": "m/s2",
-     "steps": null,
-     "a": "0.5 m/s2",
-     "self_check": false
-    },
-    {
-     "q": "A truck slows from 15 m/s to 5 m/s in 10 s. Find the acceleration.",
-     "vals": {
-      "initial_v": 15,
-      "final_v": 5,
-      "time": 10
-     },
-     "unit": "m/s2",
-     "steps": null,
-     "a": "-1 m/s2",
-     "self_check": false
-    },
-    {
-     "q": "A stone dropped from rest reaches 19.6 m/s in 2 s. Compute the acceleration.",
-     "vals": {
-      "initial_v": 0,
-      "final_v": 19.6,
-      "time": 2
-     },
-     "unit": "m/s2",
-     "steps": null,
-     "a": "9.8 m/s2",
-     "self_check": false
     }
    ]
   },

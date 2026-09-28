@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_07_010",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_07_010",
+   "title": "c12_app_cbse_07_010",
+   "questions": [
+    {
+     "q": "Define 'sampling error' and give its formula. How does it differ from 'non-sampling error' (like measurement error or non-response bias)?",
+     "a": "Sampling error = x̄ - μ (sample mean minus population mean). It arises purely from the natural variability between different random samples — even a perfectly conducted random sample will have some sampling error. Non-sampling errors (measurement mistakes, biased questions, non-response) are systematic flaws in the data collection process, not inherent to sampling. A wrong answer (e.g., \"sampling error is when you pick a bad sample\") reveals confusion between random sampling variability and methodological bias.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to test if a new teaching method improves test scores. The current population mean is 75. She collects a sample of 25 students taught with the new method and gets x̄ = 78, s = 10. She writes H₀: μ = 75, H₁: μ > 75. Her colleague says: \"You should use H₀: μ ≤ 75 instead.\" Who is correct, and why does it matter for the test?",
+     "a": "The colleague is correct. The null hypothesis must always contain the equality ( =, ≤, or ≥ ) because the test statistic's sampling distribution is derived assuming the boundary value (here μ = 75). If H₀ were μ = 75, the alternative μ > 75 is fine, but the standard formulation for a one-tailed test with \"improvement\" claim is H₀: μ ≤ 75 vs H₁: μ > 75. A student who insists H₀: μ = 75 is technically acceptable for calculation but misses the logical structure: the null represents \"no improvement or worse\" — the status quo we try to disprove.",
+     "self_check": true
+    },
+    {
+     "q": "A sample of 16 batteries has mean life 480 hours and standard deviation 30 hours. The manufacturer claims the population mean is 500 hours. Test at α = 0.01 (two-tailed) whether the claim is valid. Show all steps: hypotheses, test statistic, critical value, decision, conclusion in context.",
+     "a": "Step 1: H₀: μ = 500, H₁: μ ≠ 500. Step 2: t = (480-500)/(30/√16) = -20/7.5 = -2.667. Step 3: df = 15, α/2 = 0.005 each tail, critical t = ±2.947. Step 4: -2.667 > -2.947 (lies in non-rejection region), so fail to reject H₀. Step 5: At 1% significance, insufficient evidence to reject manufacturer's claim of 500-hour mean life. A wrong answer (e.g., rejecting H₀ because |t| = 2.667 > 2.131 [the 5% critical value]) reveals confusion between significance levels or one-vs-two-tailed critical values.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the degrees of freedom formulas for: (a) one-sample t-test, (b) two-sample t-test with equal variances (pooled), (c) two-sample t-test with unequal variances (Welch-Satterthwaite). Why does the unequal-variance formula give a smaller (or equal) df than the pooled formula?",
+     "a": "(a) df = n-1. (b) df = n₁+n₂-2. (c) df = (s₁²/n₁ + s₂²/n₂)² / [ (s₁²/n₁)²/(n₁-1) + (s₂²/n₂)²/(n₂-1) ]. The Welch-Satterthwaite df is always ≤ n₁+n₂-2 because it accounts for the extra uncertainty from estimating two separate variances instead of one pooled variance. When variances are truly unequal, using the larger pooled df would inflate Type I error rate. A student who thinks \"more df is always better\" misses that df must accurately reflect the information content — inflated df gives false precision.",
+     "self_check": true
+    },
+    {
+     "q": "A study compares average monthly grocery spending in two cities. City A: n₁=30, x̄₁=₹4,200, s₁=₹800. City B: n₂=25, x̄₂=₹3,900, s₂=₹1,200. The researcher uses the pooled-variance t-test and gets t = 1.12, df = 53, p = 0.27. She concludes: \"There is no difference in spending between the cities.\" Critique this conclusion.",
+     "a": "The conclusion is wrong — \"fail to reject H₀\" ≠ \"accept H₀\" or \"no difference exists.\" The correct statement: \"At 5% significance, there is insufficient evidence to conclude a difference in mean spending.\" The p-value of 0.27 means if the true means were equal, we'd see a difference this large or larger 27% of the time by chance — not strong evidence against H₀, but also not evidence FOR equality. Additionally, the researcher should have checked the equal-variance assumption (s₁=800 vs s₂=1200, ratio 1.5, possibly okay but borderline). A student who says \"proves no difference\" commits the classic \"absence of evidence is not evidence of absence\" error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where you would use a two-independent-sample t-test with UNEQUAL variances. Specify: population of interest, sampling method, sample sizes, what you'd measure, hypotheses (in words and symbols), and why unequal-variance test is appropriate. Write the full decision rule for α = 0.05.",
+     "a": "Scenario: Compare average daily screen time (hours) of urban vs rural Class 12 students in Maharashtra. Population: All Class 12 students in Maharashtra. Sampling: Stratified random sampling (urban/rural strata), n₁=40 urban, n₂=35 rural. Measure: Self-reported daily screen time via validated questionnaire. H₀: μ_urban = μ_rural, H₁: μ_urban ≠ μ_rural. Unequal variance test because urban students likely have more variable access (some heavy users, some restricted) vs rural (more homogeneous limited access) — pilot data shows s_urban ≈ 3.5 hrs, s_rural ≈ 1.8 hrs (ratio > 2). Decision rule: Reject H₀ if |t_calc| > t_critical where df from Welch formula, α/2=0.025 each tail. A poor answer uses equal variances without justification or picks a scenario where variances are obviously similar.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

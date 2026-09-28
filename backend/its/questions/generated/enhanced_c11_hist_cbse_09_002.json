@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_09_002",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_09_002",
+   "title": "c11_hist_cbse_09_002",
+   "questions": [
+    {
+     "q": "In what year did Commodore Perry arrive in Japan with his 'Black Ships', and what was the immediate political consequence for the Tokugawa Shogunate's authority?",
+     "a": "**Answer:** Commodore Perry arrived in 1853. The immediate consequence was the signing of the Treaty of Kanagawa (1854), which opened ports to the US and shattered the Shogunate's claim that it could protect Japan from foreigners, fatally undermining its legitimacy. **Wrong answer reveals:** If a student says 1868 (the Restoration itself) or says Perry *caused* the Restoration directly, they confuse the *external trigger* (1853) with the *internal political outcome* (1868), missing the 15-year crisis period (Bakumatsu) where anti-Shogunate forces rallied around the Emperor.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the meaning of the Meiji slogan 'fukoku kyohei' (富国強兵) and why the new government prioritised building a modern army *before* establishing a fully democratic parliament.",
+     "a": "**Answer:** 'Fukoku kyohei' means 'Rich Country, Strong Army'. The government prioritised the army because they feared colonisation (like India) if they appeared weak; a modern military was the prerequisite for sovereignty. The Meiji Constitution (1889) created a Diet with limited powers, and the military remained under direct Imperial command, not parliamentary control. **Wrong answer reveals:** If a student says 'they didn't care about democracy' or 'the Emperor was a dictator', they miss the *strategic logic*: the oligarchs (genro) genuinely believed limited constitutionalism + strong military = survival. They confuse *authoritarianism* with *calculated state-building under existential threat*.",
+     "self_check": true
+    },
+    {
+     "q": "The Meiji government abolished the feudal domains (han) and replaced them with prefectures (ken) in 1871. How did this administrative reform directly enable *both* modern taxation and national conscription?",
+     "a": "**Answer:** The han abolition (haihan chiken) centralised land ownership records and tax collection under the Tokyo government, replacing daimyo levies with a national land tax (1873) paid in cash — funding the state. Simultaneously, it erased domain loyalties, allowing the 1873 Conscription Ordinance to draft peasants into a *national* army loyal to the Emperor, not their local lord. **Wrong answer reveals:** If a student only mentions 'centralisation' or 'modernisation' vaguely, they miss the *dual fiscal-military logic*: the same reform solved the revenue crisis *and* the manpower crisis. They fail to see administrative reform as a tool for resource mobilisation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the role of the *zaibatsu* (Mitsubishi, Sumitomo) in Japan's industrialisation with the role of the British East India Company in India's economy (c10_hist_cbse_04_005). What fundamental difference in state-business relations does this reveal?",
+     "a": "**Answer:** Zaibatsu were *privately owned but state-nurtured* (subsidies, tax breaks, government contracts for shipbuilding) to serve national goals (self-sufficient trade, military logistics). The East India Company was a *foreign chartered monopoly* that extracted surplus *from* India *to* Britain. Japan's state *directed* capital; India's colonial state *drained* it. **Wrong answer reveals:** If a student says 'both were big businesses' or 'both exploited workers', they miss the *sovereignty dimension*: zaibatsu built *Japanese* industrial capacity; EIC dismantled *Indian* artisanal production. They confuse *scale* with *structural function*.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: 'The Meiji Restoration was a \"revolution from above\" that transformed Japan's institutions but preserved its social hierarchy.' Use evidence from the education system, family law, and political rights.",
+     "a": "**Answer:** **Partially true.** Institutions *were* transformed: feudal domains → prefectures; samurai stipends → government bonds; status hierarchy → legal equality (1871). But the *Imperial Rescript on Education (1890)* made loyalty to the Emperor the supreme moral duty; the *Civil Code (1898)* enshrined the *ie* (patriarchal household) system, subordinating women; the *Meiji Constitution (1889)* restricted suffrage to ~1% of men (property qualification). The samurai *class* was abolished, but a new *meritocratic-bureaucratic elite* replaced it. **Wrong answer reveals:** If a student says 'it was totally democratic' or 'nothing changed for peasants', they miss the *dialectic*: legal equality coexisted with ideological subordination. They fail to distinguish *formal institutional change* from *social power structures*.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline-argument: Identify three specific Meiji reforms (one political, one economic, one social) between 1868–1890 that *collectively* enabled Japan's victory in the First Sino-Japanese War (1894–95). Explain the causal chain for each.",
+     "a": "**Answer:** **Political:** 1889 Meiji Constitution + 1890 First Diet → legitimised centralised command structure, enabling rapid mobilisation. **Economic:** 1870s state-led shipbuilding (Mitsubishi Nagasaki yard) + 1872 railway (Tokyo-Yokohama) → logistical capacity to move troops/supplies to Korea/China. **Social:** 1872 Fundamental Code of Education (universal schooling) + 1873 Conscription → literate, disciplined soldiery vs. Qing's illiterate peasant levies. **Causal chain:** Centralised politics funded modern economy produced educated soldiers → integrated war machine. **Poor answer reveals:** Listing reforms without *linking* them to war-fighting capacity (e.g., 'they built schools' without connecting to NCO corps quality). They treat reforms as isolated 'modernisation checkboxes' rather than a *system*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

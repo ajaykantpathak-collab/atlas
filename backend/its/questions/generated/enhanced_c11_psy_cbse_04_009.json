@@ -34,6 +34,31 @@
      "q": "Design a simple classroom demonstration to show that shape constancy involves perceptual interpretation rather than direct retinal registration. Specify the stimulus, the viewing manipulation, what the observer should report, and what the result proves.",
      "a": "Stimulus: A rectangular cardboard (e.g., a book). Manipulation: Hold it upright (rectangular retinal image), then tilt it away sharply (trapezoidal retinal image), then view it edge-on (line retinal image). Observer reports: \"It looks rectangular throughout.\" Result proves: The same physical object produces three different retinal shapes, yet perception remains constant — demonstrating that shape perception is a construction using orientation cues (slant), not a direct readout of retinal geometry. A poor demonstration (e.g., using a circle that stays circular when tilted) fails to create a retinal shape change, so it cannot test constancy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Perceptual constancy is the tendency to perceive familiar objects as having stable size, shape, and brightness despite changes in the retinal image caused by variations in viewing distance, orientation, or ______ intensity.",
+     "a": "illumination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're ______ at one end of a long school corridor and your friend walks toward you from the far end.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What is Perceptual constancy? State the definition given in this lesson.",
+     "a": "Perceptual constancy is the tendency to perceive familiar objects as having stable size, shape, and brightness despite changes in the retinal image caused by variations in viewing distance, orientation, or illumination intensity.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Perceptual constancy?",
+     "a": "Students often believe perceptual constancy means the retinal image *does not change* — they think \"constancy\" applies to the sensory input rather than the percept.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how each type of constancy (size, shape, brightness) operates by describing the specific retinal change that occurs and the perceptual mechanism that overrides it, and can distinguish constancy from perceptual illusions in novel scenarios.",
+     "self_check": true
     }
    ]
   }

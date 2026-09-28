@@ -34,6 +34,31 @@
      "q": "Design a thought experiment to test whether a newly discovered scoring matrix (Matrix X) behaves more like a PAM-like matrix or a BLOSUM-like matrix. Describe the data you would collect, the analysis you would perform, and the decision criteria.",
      "a": "Collect a benchmark set of protein pairs with known structures and known evolutionary distances (e.g., from SCOP/CATH). For each pair, compute the optimal local alignment score using Matrix X and using standard PAM250 and BLOSUM62. Plot the alignment score vs. structural similarity (e.g., RMSD) or evolutionary distance. If Matrix X scores correlate strongly with PAM250 across all distances (especially high scores for distant pairs), it behaves like PAM. If Matrix X scores correlate with BLOSUM62 for mid-range distances but drop sharply for distant pairs (like BLOSUM45/62), it behaves like BLOSUM. Additionally, check if Matrix X scores are log-odds ratios derived from a Markov model (PAM) or from observed block frequencies (BLOSUM). A poor answer proposes only sequence identity correlation without controlling for alignment mode or evolutionary distance, or suggests testing only on close homologs.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Scoring matrices (PAM and BLOSUM) are ______ substitution matrices used in sequence alignment to assign scores for amino acid or nucleotide substitutions based on their observed evolutionary frequencies, where positive scores indicate biologically favorable substitutions and negative scores indicate unfavorable ones.",
+     "a": "quantitative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ two protein sequences: one from human hemoglobin and one from mouse hemoglobin.",
+     "a": "comparing",
+     "self_check": true
+    },
+    {
+     "q": "What is Scoring matrices (PAM and BLOSUM)? State the definition given in this lesson.",
+     "a": "Scoring matrices (PAM and BLOSUM) are quantitative substitution matrices used in sequence alignment to assign scores for amino acid or nucleotide substitutions based on their observed evolutionary frequencies, where positive scores indicate biologically favorable substitutions and negative scores indicate unfavorable ones.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Scoring matrices (PAM and BLOSUM)?",
+     "a": "Students often believe that \"PAM matrices are for global alignment and BLOSUM matrices are for local alignment\" as an absolute rule.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish between PAM and BLOSUM matrices in terms of their derivation methodology, evolutionary distance assumptions, and appropriate use cases; (2) Interpret a given substitution matrix to determine whether a specific amino acid pair is conserved, conservatively substituted, or radically substituted.",
+     "self_check": true
     }
    ]
   }

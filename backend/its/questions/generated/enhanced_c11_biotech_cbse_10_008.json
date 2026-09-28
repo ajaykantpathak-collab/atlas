@@ -21,8 +21,8 @@
      "self_check": true
     },
     {
-     "q": "Compare and contrast \"domain-domain interaction (DDI) based prediction\" and \"phylogenetic profiling\" for PPI inference. Create a table with four rows: (i) Input data required, (ii) Evolutionary principle exploited, (iii) Typical false positive source, (iv) Applicability to hypothetical proteins with no close homologs.",
-     "a": "| Feature | DDI-based | Phylogenetic Profiling |\n|---------|-----------|------------------------|\n| Input | Protein domain architectures (Pfam/InterPro) + known DDI databases (3did, DOMINE) | Presence/absence patterns of genes across many genomes |\n| Principle | Physical binding interfaces are mediated by specific domains that co-evolve to maintain complementarity | Functionally linked proteins (e.g., in same pathway/complex) are co-inherited or co-lost during evolution |\n| False Positive | Domain promiscuity: a domain binds many partners in vitro but not in vivo due to spatial/temporal regulation | Non-functional co-occurrence: proteins in same pathway but not physically interacting (e.g., sequential enzymes) |\n| Hypothetical Protein | Works if domain annotation exists (even without full-length homolog) | Fails if the protein's phylogenetic profile is unique or genome sampling is sparse |\n\nA wrong answer that conflates DDI with \"sequence similarity\" or thinks phylogenetic profiling requires 3D structures reveals confusion between physical interaction mechanisms and functional linkage inference.",
+     "q": "Give the correct order of stages in a domain-based prediction of partners for a new protein with annotated domains.",
+     "a": "The workflow runs: (1) Scan the protein against domain databases to record its architecture (2) Look up known domain-domain interactions involving each detected family (3) Map the partner domains back to proteins of the target proteome (4) Rank candidates by how completely their domains match the known interacting pairs. A wrong answer that treats any domain sharing as a genuine interaction shows the student has missed that domain-based prediction infers binding from established interacting pairs, not from co-occurrence alone.",
      "self_check": true
     },
     {
@@ -31,8 +31,33 @@
      "self_check": true
     },
     {
-     "q": "Design a novel hybrid PPI prediction pipeline for a plant pathogen effector protein that has no homologs in model organisms, no resolved structure, but has a predicted disordered N-terminus and a structured C-terminal domain. Your pipeline must integrate at least three distinct evidence types from this node and output a ranked candidate list with confidence scores. Sketch the logic flow.",
-     "a": "Pipeline: (1) **Disordered region motif scan**: Use ELM/ANCHOR2 on N-terminus to predict short linear motifs (SLiMs) mediating host target binding; score by motif conservation in effector family. (2) **Domain-based interologs**: Run HMMER on C-terminal domain against Pfam; if a domain family (e.g., E3 ligase, kinase) is detected, retrieve known DDIs from 3did/DOMINE and map to host proteome via domain annotations. (3) **Host-pathogen network guilt-by-association**: Construct a bipartite network of known effectors and their host targets from PHI-base; use random walk with restart from query effector's sequence neighbors (even distant) to prioritize host proteins. (4) **Integration**: Combine scores via weighted sum (weights trained on known effectors) or Bayesian network. Output ranked host targets with composite confidence. A poor answer that only lists tools without defining how evidence is combined for a *no-homolog* case shows inability to synthesize methods for edge cases.",
+     "q": "Give the correct order of evidence types in a hybrid pipeline that predicts host targets of a pathogen effector with no homologs.",
+     "a": "The pipeline runs: (1) Scan the disordered N-terminus for short linear motifs that mediate host binding (2) Detect a structured C-terminal domain family and mine its known domain-domain interactions (3) Apply guilt by association on host-pathogen network data to shortlist disease-linked partners (4) Merge the ranked lists with confidence scores so each candidate carries several independent lines of evidence. A wrong answer that trusts a single evidence type shows the student has missed that prediction strength comes from combining motif, domain and network signals.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Protein-protein interaction (PPI) prediction methods are computational techniques used to identify and characterize physical associations between two or more protein molecules based on sequence, structure, or network data, enabling the ______ of interactomes without exhaustive experimental screening.",
+     "a": "reconstruction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You cannot run wet-lab ______ for thousands of candidates.",
+     "a": "experiments",
+     "self_check": true
+    },
+    {
+     "q": "What is Protein-protein interaction (PPI) prediction methods? State the definition given in this lesson.",
+     "a": "Protein-protein interaction (PPI) prediction methods are computational techniques used to identify and characterize physical associations between two or more protein molecules based on sequence, structure, or network data, enabling the reconstruction of interactomes without exhaustive experimental screening.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Protein-protein interaction (PPI) prediction methods?",
+     "a": "Students often believe that \"protein-protein docking\" (structure-based) is the *primary* or *most reliable* computational method for PPI prediction, analogous to protein-ligand docking in drug design.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can differentiate between sequence-based, structure-based, and network-based PPI prediction approaches, justify the selection of a specific method for a given biological question (e.g., predicting partners for a hypothetical protein vs. modelling a known complex), and interpret the reliability metrics (e.g., confidence scores.",
      "self_check": true
     }
    ]

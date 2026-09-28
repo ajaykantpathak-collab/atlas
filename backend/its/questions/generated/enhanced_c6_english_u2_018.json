@@ -34,6 +34,26 @@
      "q": "Write a short sentence about a friend in the present, then turn it into a past tense sentence.",
      "a": "Example: \"My friend helps me.\" (Present) / \"My friend helped me.\" (Past). A poor answer fails to change the verb form or uses incorrect tense markers, showing they haven't internalized the rule of verb modification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Tenses indicate the time of an action: the Present Tense describes actions ______ now or general facts, while the Past Tense describes actions that finished at a specific time before now.",
+     "a": "happening",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Think about your day: you 'eat' breakfast every morning (Present), but ______ you 'ate' a special meal (Past).",
+     "a": "yesterday",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify the tense of a sentence and transform a simple present action into a past action accurately using standard verb forms.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Think about your day: you 'eat' ______ every morning (Present), but yesterday you 'ate' a special meal (Past).",
+     "a": "breakfast",
+     "self_check": true
     }
    ]
   }

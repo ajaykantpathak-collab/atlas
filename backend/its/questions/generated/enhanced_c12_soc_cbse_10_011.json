@@ -1,0 +1,71 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_10_011",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_10_011",
+   "title": "c12_soc_cbse_10_011",
+   "questions": [
+    {
+     "q": "Define 'criminalisation of politics' in the Indian context and cite the Supreme Court judgment that mandated disclosure of criminal antecedents by candidates.",
+     "a": "Correct answer: Criminalisation of politics refers to the increasing participation of individuals with serious criminal charges (murder, kidnapping, extortion, etc.) as candidates and elected representatives. The Supreme Court in *Union of India v. Association for Democratic Reforms* (2002) and later in *Public Interest Foundation v. Union of India* (2018) mandated declaration of criminal cases, assets, and educational qualifications in affidavits. A wrong answer that only says \"criminals becoming politicians\" without mentioning the *disclosure mandate* or *serious charges* reveals confusion between moral condemnation and the specific institutional/legal definition used in NCERT and competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the NCERT text distinguishes between 'caste as a social category' and 'casteism as a political challenge'. How does this distinction relate to the difference between 'caste in politics' and 'politics in caste'?",
+     "a": "Correct answer: Caste as a social category is a structural reality (endogamous, hereditary, hierarchical); casteism is its *instrumental political use* for vote-bank consolidation, ticket distribution, and resource capture. 'Caste in politics' = caste groups entering democratic arena to demand representation (empowering, e.g., Dalit assertion); 'politics in caste' = political parties freezing caste identities for electoral arithmetic, reinforcing hierarchy (e.g., dominant castes using panchayat reservations as proxy control). A wrong answer that equates casteism with caste discrimination misses the *political agency* dimension — NCERT emphasises casteism as an *active strategy* by elites, not just passive prejudice.",
+     "self_check": true
+    },
+    {
+     "q": "A village panchayat in a state with 50% women's reservation has a female Sarpanch from an SC community. In practice, her husband (a dominant-caste landlord) runs the office, MGNREGA funds are diverted to his contractor firm, and SC workers are paid below minimum wage. Identify which two challenges are intersecting here and explain the mechanism using the concept of 'proxy representation'.",
+     "a": "Correct answer: Casteism and corruption intersect via *proxy representation* (also called *sarpanch-pati* phenomenon). Constitutional reservation (73rd Amendment) creates formal entry, but patriarchal-caste power structures capture the office informally. The dominant-caste husband uses the SC woman's reserved seat as a 'front' to access state resources (corruption) while maintaining caste control over labour. A wrong answer listing only \"corruption\" or only \"casteism\" fails to see the *institutional design flaw*: reservation without capability-building and accountability mechanisms enables capture by existing powerholders.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the institutional responses to communalism and criminalisation. Why has the Election Commission's Model Code of Conduct been more effective against overt communal appeals than against criminalisation?",
+     "a": "Correct answer: Communal appeals (speeches, symbols) are *visible, event-based, and attributable* to specific candidates during campaigns — ECI can issue notices, bar campaigning, file FIRs under RP Act §123(3A). Criminalisation is *structural and pre-electoral*: candidates with cases are selected by parties *before* elections; disclosure affidavits inform voters but don't disqualify (unless convicted with ≥2 years imprisonment). ECI lacks power to derecognise parties for fielding tainted candidates. A wrong answer blaming \"ECI weakness\" for both misses the *asymmetry*: communalism is a campaign violation; criminalisation is a candidate-selection problem requiring legislative reform (which parties resist).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"Corruption in India is primarily a moral failure of individuals; stricter punishment (like death penalty for graft) would solve it.\" Use sociological concepts from NCERT (rent-seeking, patronage, institutional capture) to justify your position.",
+     "a": "Correct answer: The argument is flawed — it individualises a *structural* phenomenon. NCERT frames corruption as: (a) *rent-seeking* — artificial scarcity (licences, quotas) created by state discretion creates rents; (b) *patronage networks* — politicians-bureaucrats-contractors form coalitions where corruption is the *glue* (not a bug); (c) *institutional capture* — oversight bodies (CVC, Lokpal, CAG) are undermined by delayed appointments, lack of autonomy. Death penalty ignores that corruption is *systemic*: even honest officers cannot function without \"speed money\" in captured systems. A wrong answer agreeing with the moral view fails to apply the *political economy* lens central to NCERT's analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step field study for a Class 12 sociology project to document how *one* of the four challenges operates in your local urban/rural context. Specify: (i) research question, (ii) method (participant observation / interview / document analysis), (iii) ethical safeguard for vulnerable respondents.",
+     "a": "Expected answer (example for casteism in panchayat): (i) RQ: \"How does dominant-caste control persist despite SC/ST reservations in Gram Panchayat X?\" (ii) Method: Attend 3 Gram Sabha meetings (participant observation) + semi-structured interviews with 5 SC women members + analyse 2 years of panchayat resolution registers (document analysis). (iii) Ethical safeguard: Anonymous coding of interviewees, no recording without consent, share findings with respondents first, avoid questions that could trigger retaliation. A poor answer proposes a questionnaire survey only (misses power dynamics), ignores ethics, or picks a topic too broad (\"corruption in my city\").",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Casteism, communalism, ______, and corruption are four interlinked structural challenges that distort the functioning of Indian democracy by subverting the constitutional principles of equality, secularism, rule of law, and accountable governance.",
+     "a": "criminalisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you open a newspaper and see three headlines on the same day: \"MP with 12 criminal cases wins by record margin\", \"Panchayat funds for SC/ST hostels diverted to dominant-caste ______\", and \"Communal clash over religious procession in election season\".",
+     "a": "contractor",
+     "self_check": true
+    },
+    {
+     "q": "What is Casteism, communalism, criminalisation, and corruption? State the definition given in this lesson.",
+     "a": "Casteism, communalism, criminalisation, and corruption are four interlinked structural challenges that distort the functioning of Indian democracy by subverting the constitutional principles of equality, secularism, rule of law, and accountable governance.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you open a newspaper and see three headlines on the same day: \"MP with ______ criminal cases wins by record margin\", \"Panchayat funds for SC/ST hostels diverted to dominant-caste contractor\", and \"Communal clash over religious procession in election season\".",
+     "a": "12",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Casteism, communalism, criminalisation, and corruption?",
+     "a": "Students often treat the four challenges as *independent* phenomena: \"casteism = rural, communalism = urban, criminalisation = MPs, corruption = bureaucrats\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) distinguish between the four challenges conceptually and empirically with Indian examples, (2) explain how each challenge violates specific constitutional provisions (Articles 14, 15, 17, 25, 324, etc.), (3) analyse their mutual reinforcement (e.g., caste-corruption nexus in local bodies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

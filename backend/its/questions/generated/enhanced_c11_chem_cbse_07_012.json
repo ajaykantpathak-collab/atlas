@@ -34,6 +34,31 @@
      "q": "Design a procedure to determine the Ka of a weak monoprotic acid HA using only a pH meter, standard NaOH solution, and the acid solution of unknown concentration. Explain the measurements needed and the calculation at the half-equivalence point.",
      "a": "Procedure: (1) Titrate 25.0 mL of HA with standardized NaOH while monitoring pH. (2) Plot pH vs volume NaOH added. (3) Identify equivalence point volume (Veq) from steepest pH jump. (4) At half-equivalence point (Veq/2), pH = pKa because [HA] = [A⁻]. (5) Read pH at Veq/2 from graph → pKa = pH at half-equivalence. (6) Ka = 10⁻ᵖᴷᵃ.\nGood answer shows understanding that at half-neutralization, the buffer ratio [A⁻]/[HA] = 1, so log term = 0. A poor answer (e.g., \"measure initial pH and use Ka = [H⁺]²/(C-[H⁺])\") reveals the student doesn't recognize the experimental advantage of the half-equivalence method which eliminates need for exact acid concentration.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The pH scale is a ______ measure of hydrogen ion concentration in aqueous solutions defined as pH = -log₁₀[H⁺], where [H⁺] is the molar concentration of hydrogen ions (mol L⁻¹).",
+     "a": "logarithmic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine testing rainwater in Delhi during monsoon - it reads pH 5.6 on a digital ______.",
+     "a": "meter",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine testing rainwater in Delhi during monsoon - it reads pH ______ on a digital meter.",
+     "a": "5.6",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can calculate pH for any aqueous system (strong acid/base, weak acid/base with given Ka/Kb, buffer solutions using Henderson-Hasselbalch equation, salt hydrolysis) by correctly setting up ICE tables, applying approximations with validity checks, and reporting answers with proper significant figures matching the precision of.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine testing ______ in Delhi during monsoon - it reads pH 5.6 on a digital meter.",
+     "a": "rainwater",
+     "self_check": true
     }
    ]
   }

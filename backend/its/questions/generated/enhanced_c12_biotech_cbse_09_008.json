@@ -34,6 +34,26 @@
      "q": "Create a novel 4-step differentiation scheme to generate *pancreatic β-like cells* from hiPSCs using only *three* defined factors (one per step, Step 1 uses two). Justify each factor's developmental role.",
      "a": "Example scheme: Step 1 (DE): Activin A + CHIR99021 (Wnt activation synergizes with Nodal/Activin for robust DE). Step 2 (Primitive gut tube): Retinoic Acid (RA, 2 µM) — posteriorizes endoderm to foregut/midgut boundary. Step 3 (Pancreatic progenitor): FGF10 (50 ng/mL) + KAAD-cyclopamine (Shh inhibitor) — but since only *one* factor allowed, use *FGF10* (mitogenic, maintains progenitors). Step 4 (Endocrine maturation): Betacellulin (10 ng/mL) + thyroid hormone T3 (10 nM) — but again one factor: *T3* (drives metabolic maturation and insulin secretion). A poor answer lists random factors without developmental logic (e.g., \"NGF for β-cells\" — NGF is neuronal).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Methods of directing stem cell ______ refer to the controlled laboratory techniques used to guide pluripotent or multipotent stem cells into specific, desired cell lineages (e.g., neurons, cardiomyocytes, hepatocytes) by mimicking the natural developmental signals — such as growth factors, cytokines, small molecules, cell-cell contact, extracellular matrix (ECM) components, and physical cues — in a temporally and spatially regulated manner.",
+     "a": "differentiation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a vial of human induced ______ stem cells (hiPSCs) — they can become *any* cell type, but left alone they form a chaotic mix.",
+     "a": "pluripotent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by recalling embryonic development: the embryo uses a precise sequence of signals (Activin A/BMP______ → Wnt modulation → metabolic selection).",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) List at least four distinct categories of differentiation-inducing cues (soluble factors, ECM/substrate, cell-cell interaction, physical cues) and give one specific example for each; (2) Explain the principle of stepwise lineage restriction using a three-stage protocol (mesoderm induction → cardiac.",
+     "self_check": true
     }
    ]
   }

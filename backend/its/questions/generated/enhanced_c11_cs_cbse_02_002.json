@@ -34,6 +34,26 @@
      "q": "Create a real-world scenario involving exactly three independent yes/no conditions. Define Boolean variables for each, then write one combination of truth values that makes the overall situation \"TRUE\" if you define the situation as: \"The event happens if at least two conditions are met.\"",
      "a": "Scenario: A student gets a scholarship if at least two of these are true: (A) GPA > 9.0, (B) Family income < ₹5L, (C) Sports achievement. Variables: A, B, C ∈ {0,1}. One TRUE combination: A=1, B=1, C=0. A poor answer (e.g., using non-binary conditions like \"GPA=9.5\" without binarizing, or defining variables that are not independent) reveals inability to abstract real-world criteria into clean Boolean propositions — a key skill for logic circuit design.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Boolean variable is a symbolic ______ of a logical quantity that can take exactly one of two discrete truth values: TRUE (denoted as 1) or FALSE (denoted as 0).",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a smart home system: the light turns on ONLY if motion is detected AND it is ______.",
+     "a": "nighttime",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify Boolean variables in a logical statement, assign truth values (0/1) to them based on given conditions, and explain why a variable cannot simultaneously hold both values in a single evaluation context.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a smart home system: the light turns on ONLY if motion is detected AND it is nighttime.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

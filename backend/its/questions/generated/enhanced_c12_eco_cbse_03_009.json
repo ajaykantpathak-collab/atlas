@@ -34,6 +34,36 @@
      "q": "Construct a numerical example (table) for a firm under imperfect competition where TR first increases, then reaches a maximum, then decreases. Show the corresponding AR and MR values. Explain the relationship at each stage.",
      "a": "Example: Q: 0,1,2,3,4,5; P: 10,8,6,4,2,0. TR: 0,8,12,12,8,0. AR = P: 10,8,6,4,2,0. MR: -,8,4,0,-4,-8. TR max at Q=3 where MR=0. When MR>0, TR rises; MR=0, TR max; MR<0, TR falls. AR > MR throughout. A poor answer would show MR = AR or TR not peaking at MR=0, indicating misunderstanding of the marginal-average relationship.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Total Revenue (TR) is the total money receipts a firm receives from selling its output, ______ as price multiplied by quantity (TR = P × Q).",
+     "a": "calculated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small stall ______ mangoes at a local market in Delhi.",
+     "a": "selling",
+     "self_check": true
+    },
+    {
+     "q": "What is Total Revenue (TR)? State the definition given in this lesson.",
+     "a": "Total Revenue (TR) is the total money receipts a firm receives from selling its output, calculated as price multiplied by quantity (TR = P × Q).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The relationship: under perfect competition, AR = MR = constant price; under imperfect competition, AR slopes downward and MR lies below AR, falling faster, with TR maximized when MR = ______.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Total Revenue (TR)?",
+     "a": "Students often think that when price falls, MR falls by the same amount as AR.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive MR from a given TR function (or vice versa), draw and label the AR and MR curves for both perfect and imperfect competition, explain why MR < AR when demand slopes downward, and determine the output level that maximizes TR using MR = 0.",
+     "self_check": true
     }
    ]
   }

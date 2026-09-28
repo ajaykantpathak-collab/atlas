@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_08_004",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_08_004",
+   "title": "c11_app_cbse_08_004",
+   "questions": [
+    {
+     "q": "What is the domain of the function f(x) = 1 / (x² - 5x + 6)? State your answer in set-builder notation.",
+     "a": "The domain is {x ∈ ℝ | x ≠ 2, x ≠ 3}. The denominator factors as (x-2)(x-3), so the function is undefined at x = 2 and x = 3. A wrong answer like \"all real numbers\" reveals the student ignores denominator restrictions. An answer like {x ∈ ℝ | x ≠ 2} reveals they missed one root or factored incorrectly.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the domain of f(x) = √(x - 3) + √(7 - x) is [3, 7] and not (-∞, 7] ∪ [3, ∞). Use the definition of domain for a sum of functions.",
+     "a": "The domain of a sum f+g is the intersection of the domains of f and g. Here, √(x-3) requires x ≥ 3, and √(7-x) requires x ≤ 7. The intersection is [3, 7]. A wrong answer taking the union reveals the student thinks \"either radical can handle the input\" — but both must be defined simultaneously for f(x) to exist. This is a classic intersection-vs-union error for combined functions.",
+     "self_check": true
+    },
+    {
+     "q": "Find the range of f(x) = (x² + 2x + 3) / (x² + 2x + 4) for x ∈ ℝ. Show all steps.",
+     "a": "Let y = (x²+2x+3)/(x²+2x+4). Cross-multiply: y(x²+2x+4) = x²+2x+3 → (y-1)x² + 2(y-1)x + (4y-3) = 0. For real x, discriminant ≥ 0: [2(y-1)]² - 4(y-1)(4y-3) ≥ 0 → 4(y-1)[(y-1) - (4y-3)] ≥ 0 → 4(y-1)(-3y+2) ≥ 0 → (y-1)(3y-2) ≤ 0 → y ∈ [2/3, 1]. But check if y=1 is attainable: plug y=1 → 0=1, impossible. So range = [2/3, 1). A wrong answer [2/3, 1] reveals the student forgot to verify attainability of boundary values from the discriminant method.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the domains and ranges of f(x) = log₁₀(x² - 4) and g(x) = 2 log₁₀(x - 2). Are they the same function? Justify.",
+     "a": "No, they are not the same function. Domain of f: x² - 4 > 0 → x < -2 or x > 2, so (-∞, -2) ∪ (2, ∞). Domain of g: x - 2 > 0 → x > 2, so (2, ∞). Domains differ. Range of both is ℝ, but f(x) = log₁₀((x-2)(x+2)) = log₁₀(x-2) + log₁₀(x+2), while g(x) = 2 log₁₀(x-2). They agree only on (2, ∞) where both are defined, but f has a larger domain. A wrong answer \"yes, by log properties\" reveals the student applies log(a·b) = log a + log b without checking domain conditions (arguments must be positive).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The range of f(x) = |x - 3| / (x - 3) is {1} because absolute value makes everything positive.\" Evaluate this claim and find the correct range.",
+     "a": "The claim is false. For x > 3, |x-3| = x-3, so f(x) = 1. For x < 3, |x-3| = -(x-3), so f(x) = -1. At x = 3, f is undefined (denominator zero). So domain = ℝ \\ {3}, range = {-1, 1}. The student incorrectly assumed |x-3|/(x-3) simplifies to 1 for all x, ignoring the sign of (x-3). This reveals confusion between |a|/a = 1 (only when a > 0) and the piecewise nature of modulus.",
+     "self_check": true
+    },
+    {
+     "q": "Create a function f: ℝ → ℝ whose domain is all real numbers but whose range is exactly the set {0, 1, 2}. Define it piecewise using the greatest integer function ⌊x⌋ and modulus |x|. Explain why your function works.",
+     "a": "One example: f(x) = ⌊ |x| ⌋ mod 3, but simpler: f(x) = ⌊ x ⌋ - 3⌊ x/3 ⌋ (the remainder when ⌊x⌋ is divided by 3). For any real x, ⌊x⌋ ∈ ℤ, so f(x) ∈ {0,1,2}. Every integer n gives f(n) = n mod 3, so all three values are attained. Domain = ℝ (greatest integer defined everywhere). A poor answer like f(x) = {0 if x<0, 1 if 0≤x<1, 2 if x≥1} works but doesn't use the required functions. This reveals inability to compose standard functions to achieve a target range.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

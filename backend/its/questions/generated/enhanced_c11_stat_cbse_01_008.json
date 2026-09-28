@@ -34,6 +34,31 @@
      "q": "Create a mini-survey with 3 questions for a study on \"Student Commuting Patterns\". For each question, specify the variable name, its type (discrete/continuous), and the *exact measurement instruction* you would give enumerators to ensure consistent classification.",
      "a": "Good answer example:\n1. Variable: \"Number of bus rides per week\" — Discrete — Instruction: \"Record the total count of boardings Monday–Sunday as a whole number.\"\n2. Variable: \"One-way commute distance (km)\" — Continuous — Instruction: \"Use GPS/odometer; record to two decimal places (e.g., 4.25 km).\"\n3. Variable: \"Monthly transport expenditure (₹)\" — Continuous — Instruction: \"Sum all receipts; record exact rupees and paise (e.g., ₹1,245.50).\"\nA poor answer uses vague instructions (\"ask the student\") or misclassifies (e.g., distance as discrete), showing the student cannot operationalize the concept for real data collection.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A variable is a ______ or attribute that can be measured or observed and takes different values for different units of a population or sample.",
+     "a": "characteristic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are surveying 50 ______ in your neighbourhood.",
+     "a": "households",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are surveying ______ households in your neighbourhood.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify any given real-world attribute as discrete or continuous with justification based on the measurement process, and explain why the distinction determines the choice of statistical methods (e.g., frequency distribution construction, graphical representation, and measures of central tendency).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are surveying 50 households in your ______.",
+     "a": "neighbourhood",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Create a frequency distribution with 5 classes where the assumed mean method is clearly more efficient than the direct method. Choose an appropriate assumed mean and explain why it is a good choice.",
      "a": "Example: Class intervals 1000-1100, 1100-1200, 1200-1300, 1300-1400, 1400-1500 with frequencies 5, 8, 12, 7, 3. Class marks: 1050, 1150, 1250, 1350, 1450. Direct method requires multiplying frequencies by these 4-digit numbers. Choose A = 1250 (middle class mark). Deviations: -200, -100, 0, 100, 200 — much smaller. A good choice of A is a class mark near the centre of the distribution so that deviations are small and positive/negative cancel out, reducing arithmetic. A poor answer (e.g., choosing A = 1050) gives larger deviations and less cancellation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This method simplifies ______ when class marks are large by working with smaller deviations.",
+     "a": "calculations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analyzing the monthly electricity bills (in rupees) of 50 ______ in your colony, grouped into intervals like 0-100, 100-200, etc.",
+     "a": "households",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To avoid heavy multiplication, you pick a class mark near the centre, say ______, as the assumed mean.",
+     "a": "250",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly select an appropriate assumed mean, compute deviations and their weighted sum, apply the formula to find the mean, and verify that the result matches the direct method.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analyzing the monthly ______ bills (in rupees) of 50 households in your colony, grouped into intervals like 0-100, 100-200, etc.",
+     "a": "electricity",
+     "self_check": true
     }
    ]
   }

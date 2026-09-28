@@ -34,6 +34,21 @@
      "q": "Create a two-digit number reversal puzzle with the following conditions: (1) The number is greater than its reversal. (2) The difference between the number and its reversal is 27. (3) The sum of the digits is 9. Write the puzzle statement and solve it.",
      "a": "Puzzle: \"I am a two-digit number. My digits add up to 9. I am greater than my reversal, and the difference between us is 27. What number am I?\" Solution: Let number be \\(10a+b\\). \\(a+b=9\\). Difference: \\((10a+b)-(10b+a)=27 \\Rightarrow 9(a-b)=27 \\Rightarrow a-b=3\\). Solve: \\(a+b=9, a-b=3 \\Rightarrow 2a=12 \\Rightarrow a=6, b=3\\). Number = 63. Check: 63>36, 63-36=27, 6+3=9. A poor answer might give a puzzle with no solution (e.g., difference 27 and sum 10, which gives non-integer digits) or forget the \"greater than\" condition leading to two answers (63 and 36).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The shopkeeper accidentally gives you change as if the price were ₹73 (the digits ______).",
+     "a": "reversed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The shopkeeper accidentally gives you change as if the price were ₹______ (the digits reversed).",
+     "a": "73",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The shopkeeper ______ gives you change as if the price were ₹73 (the digits reversed).",
+     "a": "accidentally",
+     "self_check": true
     }
    ]
   }

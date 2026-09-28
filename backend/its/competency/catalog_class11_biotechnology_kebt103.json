@@ -82,7 +82,16 @@
      "q": "How many stereoisomers do glucose's four chiral centres allow?",
      "a": "16"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "stereoisomers = 2 ** chiral_centres",
+     "compute": "stereoisomers = 2 ** chiral_centres"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt103.3",
@@ -121,7 +130,16 @@
      "q": "Starch's unbranched component is called what: amylose or amylopectin?",
      "a": "amylose"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "amylopectin_pct = 100 - amylose_pct",
+     "compute": "amylopectin_pct = 100 - amylose_pct"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt103.4",
@@ -159,7 +177,16 @@
      "q": "In fatty acid notation 18:2, what does the 2 count: double bonds or carbons?",
      "a": "double bonds"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "hydrogen_atoms = 2 * carbon_count - 2 * double_bonds",
+     "compute": "hydrogen_atoms = 2 * carbon_count - 2 * double_bonds"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt103.5",
@@ -288,7 +315,16 @@
      "q": "How many peptide bonds does a chain of 50 residues hold?",
      "a": "49"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "peptide_bonds = residues - 1",
+     "compute": "peptide_bonds = residues - 1"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt103.8",
@@ -327,7 +363,16 @@
      "q": "How many hydrogen bonds join adenine to thymine?",
      "a": "2"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "hbonds_total = at_pairs * 2 + gc_pairs * 3",
+     "compute": "hbonds_total = at_pairs * 2 + gc_pairs * 3"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

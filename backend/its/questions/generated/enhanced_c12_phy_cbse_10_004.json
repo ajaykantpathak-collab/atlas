@@ -7,7 +7,7 @@
    "questions": [
     {
      "q": "Two identical tuning forks of frequency 512 Hz are struck simultaneously. Fork A is at x = 0 m, Fork B is at x = 1.5 m. A microphone at x = 3.0 m detects sound. Speed of sound = 340 m/s. Are the two sources coherent? What is the phase difference at the microphone?",
-     "a": "Yes, the sources are coherent because they have the same frequency (512 Hz) and maintain a constant phase relationship (both struck simultaneously). Wavelength λ = v/f = 340/512 = 0.664 m. Path difference Δx = (3.0 - 1.5) - (3.0 - 0) = -1.5 m. Phase difference φ = (2π/λ) × |Δx| = (2π/0.664) × 1.5 = 14.2 rad ≡ 1.6 rad (mod 2π). WRONG ANSWER REVEALS: If student says \"not coherent because they are separate forks\", they confuse independence with incoherence — coherence requires constant phase difference, not common origin. If they forget 2π factor or use degrees/radians inconsistently, they lack unit discipline.",
+     "a": "(1) Coherence — yes, the forks are coherent because they share the same frequency and were struck simultaneously, so their phase relationship stays constant even though the sources are separate, (2) The wavelength — the speed of sound divided by the frequency gives about 0.664 metre, (3) The path difference — the microphone is 1.5 metre farther from fork B than from fork A, so the path difference is 1.5 metre, (4) The phase difference — two pi over the wavelength times the path difference comes to about 14.2 radian, which reduces to about 1.6 radian modulo two pi. A student who calls the forks incoherent because they are separate instruments confuses independence with incoherence, since coherence only requires a constant phase difference.",
      "self_check": true
     },
     {
@@ -33,6 +33,36 @@
     {
      "q": "Design a tabletop experiment using household items to demonstrate that two independent light sources (e.g., two smartphone flashlights) do not produce interference fringes, but a single source split into two paths does. List materials, procedure, and expected observations.",
      "a": "Materials: Two smartphones with flashlights, a piece of aluminium foil, a pin, a white wall/screen, a dark room. Procedure: (1) Turn on both flashlights, place them side by side 5 cm apart, shine on wall 2 m away — observe uniform illumination, no fringes. (2) Make a double slit in foil: fold foil, use pin to make two closely spaced pinholes (~0.5 mm apart). (3) Use ONE flashlight to illuminate the double slit (hold foil close to flashlight). (4) Observe screen — clear interference fringes appear. Expected: Step 1 shows no fringes (independent sources, random phase). Step 4 shows fringes (single source split, locked phases). WRONG ANSWER REVEALS: If student expects fringes in step 1, they don't grasp that independence = incoherence. If they use two flashlights for step 4, they miss the point of common origin. If they don't mention dark room, they ignore ambient light washing out low-contrast fringes.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Coherent sources are two or more wave sources that maintain a constant phase difference and have the same frequency, enabling stable ______ patterns where positions of maxima and minima remain fixed in time.",
+     "a": "interference",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe two LED bulbs in your room — they ______ the wall uniformly without dark/bright bands.",
+     "a": "illuminate",
+     "self_check": true
+    },
+    {
+     "q": "What is Coherent sources? State the definition given in this lesson.",
+     "a": "Coherent sources are two or more wave sources that maintain a constant phase difference and have the same frequency, enabling stable interference patterns where positions of maxima and minima remain fixed in time.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key step is recognizing φ = (______π/λ) × path difference.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Coherent sources?",
+     "a": "Students believe that \"monochromatic\" and \"coherent\" are synonymous — they think any single-colour light (like a sodium lamp or red LED) is automatically coherent and will interfere.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can derive the condition for constructive and destructive interference from path difference, calculate resultant intensity using I = 4I₀ cos²(φ/2) for coherent sources and I = 2I₀ for incoherent sources, and explain why two independent sodium lamps cannot produce sustained interference fringes.",
      "self_check": true
     }
    ]

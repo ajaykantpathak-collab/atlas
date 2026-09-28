@@ -4,15 +4,9 @@
   {
    "id": "gegp.6.1.1",
    "title": "Perpendicular Bisector Construction",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the circle formula with pi = 22/7",
-     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 42 gives 264",
-     "compute": "circ = 2 * 22 / 7 * 42"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "none",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 42 cm (take pi = 22/7).",
@@ -50,6 +44,8 @@
    "id": "gegp.6.1.2",
    "title": "Angle Bisection",
    "converted_to_compute": false,
+   "formula": "bisected_angle = original_angle / 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 50 degrees, find the other.",
@@ -86,15 +82,9 @@
   {
    "id": "gegp.6.1.3",
    "title": "Angle Copying",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 19 gives 71",
-     "compute": "other = 90 - 19"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "none",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 19 degrees, find the other.",
@@ -132,6 +122,8 @@
    "id": "gegp.6.1.4",
    "title": "Tiling Feasibility",
    "converted_to_compute": false,
+   "formula": "total_area = tiles * tile_area",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 27 cm by 4 cm.",

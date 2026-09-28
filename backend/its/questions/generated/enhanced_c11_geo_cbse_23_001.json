@@ -34,6 +34,26 @@
      "q": "Design a statement scale for a map of your school campus (approx. 600 m × 400 m) to fit on A4 paper (21 cm × 29.7 cm) with 1 cm margins. Justify your scale choice with calculations.",
      "a": "Usable paper: 19 cm × 27.7 cm. Longest campus dimension: 600 m = 60,000 cm. Required scale factor: 60,000 cm / 19 cm ≈ 3158. Choose round number: 1 cm = 32 m (RF 1:3200). Check: 600 m / 32 m/cm = 18.75 cm (fits); 400 m / 32 = 12.5 cm (fits). Good answer shows: (1) unit conversion to cm, (2) fitting calculation, (3) rounding for usability, (4) verification both dimensions fit. Poor answer picks arbitrary scale without fitting check.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Statement (Verbal) Scale expresses the map-to-ground distance ______ in words using specific units, written in the standard format \"1 unit on map represents X units on ground\" (e.g., \"1 cm = 1 km\" or \"2 cm to 1 km\").",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Open a tourist map of Goa or a Delhi Metro map and observe the corner text \"1 cm = 2 km\" — this is a ______ scale you've encountered since Class 6 atlas work.",
+     "a": "statement",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can interpret statement scales on Indian topographical maps (e.g., Survey of India 1:50,000 sheets), convert verbal scales to numerical ratios, identify the critical limitation that statement scales become invalid when maps are resized, and explain why this method is still used alongside RF on official maps.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Open a tourist map of Goa or a Delhi Metro map and observe the corner text \"1 cm = 2 km\" — this is a statement scale you've ______ since Class 6 atlas work.",
+     "a": "encountered",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Design a step-wise experimental protocol to produce a somatic hybrid between tomato (*Solanum lycopersicum*, 2n=24) and potato (*Solanum tuberosum*, 2n=48) that yields a fertile \"pomato\" plant with tubers and fruits. Include selection strategy for true hybrids.",
      "a": "1. Isolate protoplasts from tomato leaf mesophyll and potato tuber parenchyma using 2% cellulase + 0.5% pectinase in 0.5M mannitol (4h, dark). 2. Fuse protoplasts with 30% PEG 4000 + 0.1M CaCl₂ (10 min), then wash. 3. Culture fused protoplasts on MS medium + 0.5M mannitol + 2μM 2,4-D + 1μM kinetin (callus induction). 4. Transfer calli to regeneration medium (MS + 2μM zeatin + 0.5μM NAA). 5. Select true hybrids: (a) morphological (intermediate leaves), (b) chromosome count (2n=72), (c) PCR with species-specific markers (e.g., tomato *RFLP* vs potato *STS*). 6. Screen for fertility (pollen viability >80%) and tuber+fruit formation. A poor answer omits selection markers or mannitol osmoticum, revealing lack of practical protocol knowledge.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Protoplast isolation is the enzymatic removal of the plant cell wall (using cellulase and pectinase) to obtain plasma membrane and cell contents; somatic ______ is the fusion of protoplasts from two different plant species/varieties (induced by PEG or electrofusion) followed by regeneration of a hybrid plant (somatic hybrid) combining nuclear genomes of both parents.",
+     "a": "hybridization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to transfer late-blight resistance from a wild potato species (*Solanum demissum*) into a high-yielding cultivated potato (*Solanum tuberosum*) — but they cannot cross sexually because of different chromosome numbers and pollen-pistil ______.",
+     "a": "incompatibility",
+     "self_check": true
+    },
+    {
+     "q": "What is Protoplast isolation? State the definition given in this lesson.",
+     "a": "Protoplast isolation is the enzymatic removal of the plant cell wall (using cellulase and pectinase) to obtain plasma membrane and cell contents; somatic hybridization is the fusion of protoplasts from two different plant species/varieties (induced by PEG or electrofusion) followed by regeneration of a hybrid plant (somatic hybrid).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: (The rigid cell wall.) So step ______: remove the wall enzymatically to get naked protoplasts.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Protoplast isolation?",
+     "a": "Students think somatic hybridization = protoplast fusion only, ignoring the critical regeneration and selection steps.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) list the sequential steps of protoplast isolation, fusion, and hybrid plant regeneration with the role of each reagent (enzymes, PEG, culture media), and (2) explain how somatic hybridization overcomes sexual incompatibility barriers and differs from cybridization in terms of genomic composition.",
+     "self_check": true
     }
    ]
   }

@@ -23,7 +23,7 @@
     "if you subtract 5 from 6 times a number you get 7",
     "one fourth of m is 3 more than 7"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -40,7 +40,16 @@
      "action": "form equation",
      "explain": "Set expression equal to the given value"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 2 + 8 gives 14",
+     "compute": "val = 3 * 2 + 8"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m4.3.1",
@@ -57,7 +66,7 @@
     "verify by giving values to variable",
     "find value of expression for x = "
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -74,7 +83,16 @@
      "action": "evaluate",
      "explain": "Compute the result"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 9 + 3 gives 30",
+     "compute": "val = 3 * 9 + 3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m4.4.1",
@@ -91,7 +109,7 @@
     "lhs and rhs of equation",
     "interchange lhs and rhs"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -108,7 +126,16 @@
      "action": "identify LHS and RHS",
      "explain": "Left of = is LHS, right of = is RHS"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the congruence condition and angle sums",
+     "explain": "use the congruence condition and angle sums: third = 180 - 58 - 74 gives 48",
+     "compute": "third = 180 - 58 - 74"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m4.4.2",
@@ -299,7 +326,7 @@
     "what do you understand by converting equation to statement",
     "list the main points about converting equation to statement"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -316,7 +343,16 @@
      "action": "form statement",
      "explain": "Write a complete sentence describing the equation"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (71 - 5) / 6 gives 11",
+     "compute": "x = (71 - 5) / 6"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

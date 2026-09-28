@@ -34,6 +34,21 @@
      "q": "Design a simple experiment to show that the oxide of a metal (choose any one) is basic in nature. List materials, procedure, observation, and conclusion.",
      "a": "**Expected answer (example using MgO):**  \nMaterials: Magnesium ribbon, tongs, burner, litmus paper (red and blue), water, test tube.  \nProcedure: Burn Mg ribbon → collect white ash (MgO) → dissolve in water → test with litmus.  \nObservation: Red litmus turns blue; blue litmus stays blue.  \nConclusion: MgO dissolves in water to form Mg(OH)₂, a basic solution.  \n**Poor answer reveals:** If student says \"test the oxide directly with litmus\" (solid oxide won't change litmus), they don't know testing requires aqueous solution. If they use CuO and say \"red litmus turns blue,\" they are wrong — CuO is insoluble, so no colour change.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When metals react with oxygen (from air or pure oxygen), they form metal oxides through a ______ reaction.",
+     "a": "combination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real-world ______: when an iron tawa (griddle) is left on a gas stove, it develops a black coating; when a magnesium ribbon is held in a bunsen burner flame, it burns with a dazzling white light.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write balanced chemical equations for the reaction of any given metal (from the reactivity series) with oxygen, identify the type of oxide formed (basic, amphoteric), and predict whether a reaction will occur based on the metal's position in the reactivity series.",
+     "self_check": true
     }
    ]
   }

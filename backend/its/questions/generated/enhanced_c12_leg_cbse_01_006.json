@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_01_006",
+   "title": "c12_leg_cbse_01_006",
+   "questions": [
+    {
+     "q": "What are the two grounds on which a Supreme Court or High Court judge can be removed, and what is the required parliamentary majority for the removal motion?",
+     "a": "Grounds: \"proven misbehaviour\" and \"incapacity\" (Art. 124(4)). Majority: A majority of the total membership of each House AND a two-thirds majority of members present and voting in each House. A wrong answer (e.g., \"simple majority\" or \"corruption/negligence\") reveals confusion between impeachment (political process with high threshold) and ordinary disciplinary action, or mixing up Art. 124(4) with Art. 311 (civil servants).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Supreme Court in the *Second Judges Case (1993)* shifted primacy in judicial appointments from the Executive to the Chief Justice of India, and how the *Third Judges Case (1998)* refined this.",
+     "a": "The 1993 ruling held that \"consultation\" in Art. 124/217 means \"concurrence\" — the CJI's opinion (formed after consulting senior judges) is binding on the Executive to protect judicial independence from political interference. The 1998 Presidential Reference clarified that the CJI must consult a *plurality* of senior judges (4 for SC, 2 for HC), not act unilaterally, making it a collective \"collegium\" decision. A wrong answer (e.g., \"CJI has absolute power\" or \"Executive still has final say\") misses the evolution from executive primacy → CJI primacy → collegium consensus.",
+     "self_check": true
+    },
+    {
+     "q": "A constitutional amendment removes the power of High Courts to issue writs under Article 226 for \"service matters\" (e.g., government employee disputes), transferring this exclusively to a new Central Administrative Tribunal. Using the Basic Structure doctrine, argue whether this amendment would be valid.",
+     "a": "Invalid. In *L. Chandra Kumar v. Union of India (1997)*, the Supreme Court held that the power of judicial review under Art. 32 (SC) and Art. 226 (HC) is a \"basic feature\" of the Constitution. Tribunals can supplement but *not supplant* High Courts' writ jurisdiction. An amendment removing HC's Art. 226 power over service matters destroys judicial review — a basic structure element — and would be struck down. A wrong answer (e.g., \"valid because Parliament can amend any law\") ignores that Art. 368 amendment power is *limited* by Basic Structure (Kesavananda).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the scope of judicial review of *administrative action* vs. *legislative action* in India. How do the grounds of review differ?",
+     "a": "Legislative action review: Tests constitutionality (violation of fundamental rights, legislative competence under Seventh Schedule, or Basic Structure). Grounds: *ultra vires* Constitution. Administrative action review: Tests legality, rationality, and procedural fairness. Grounds: *Wednesbury unreasonableness*, proportionality, legitimate expectation, natural justice (audi alteram partem), mala fides. Key difference: Courts do *not* review legislative *policy wisdom* but *do* review administrative *decision-making process*. A wrong answer conflates the two or misses that administrative review is about *process*, not just outcome.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The expansion of PIL and suo moto jurisdiction has strengthened Indian democracy, but judicial overreach risks violating separation of powers.\" Support with two concrete examples.",
+     "a": "Strengthened: *Hussainara Khatoon* (1979) — PIL for undertrial prisoners' speedy trial/free legal aid; *Vishaka v. State of Rajasthan* (1997) — Court laid down sexual harassment guidelines (legislative vacuum filled). Overreach risk: *Subhash Kashinath Mahajan v. State of Maharashtra* (2018) — SC diluted SC/ST Atrocities Act safeguards (later reversed by Parliament); *National Green Tribunal* directions on environmental policy sometimes encroach on executive policy domain. Balanced view: PIL is a \"necessary evil\" — essential for marginalized access but requires self-restraint (e.g., SC's own PIL guidelines exclude service matters, landlord-tenant). A wrong answer is one-sided (only praises PIL or only condemns it) or cites irrelevant cases.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical scenario where a High Court's *suo moto* cognizance of a media report on custodial deaths would be *improper* under the Supreme Court's PIL guidelines. Explain why.",
+     "a": "Scenario: A local newspaper reports a *single* custodial death in a district police station. The High Court takes *suo moto* cognizance, issues notices to the DGP, and orders a CBI probe — *without* verifying if the victim's family has approached any forum or if it's a systemic pattern. Improper because: (1) SC guidelines require PILs to involve *systemic* issues affecting marginalized groups, not individual grievances (which should go through CrPC § 176 magisterial inquiry); (2) *Suo moto* should not bypass statutory remedies (CrPC, Police Complaints Authority); (3) Risks \"judicial activism\" becoming \"judicial adventurism\" in routine law-and-order matters. A poor answer gives a vague scenario or misses the distinction between individual vs. systemic violation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

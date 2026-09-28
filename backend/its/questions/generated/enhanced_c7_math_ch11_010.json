@@ -34,6 +34,26 @@
      "q": "Create a short real-world word problem where the solution requires finding the LCM of 12 and 18, and state the final answer.",
      "a": "Example answer: Two runners run around a circular track; the first completes a round in 12 minutes and the second in 18 minutes. If they start together, after how many minutes will they meet again at the starting point? Answer: LCM of 12 and 18 is 36 minutes. A poor answer would give numbers that don't match the required LCM calculation or describe a partitioning scenario instead of a recurring cycle.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of HCF and LCM in Real-Life Problems involve translating everyday situations—such as scheduling events, dividing items into equal groups, or aligning periodic occurrences—into mathematical operations using the Highest Common Factor (HCF) or Least Common Multiple (LCM).",
+     "a": "Applications",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you visit a ______ sports day where two different whistles blow: one blows every 6 seconds and the other blows every 8 seconds.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can read a word problem, identify whether it requires HCF (finding divisors/partitioning) or LCM (finding multiples/synchronizing events), compute the result accurately using prime factorisation or division methods, and interpret the final number with correct real-world units (rupees, minutes, metres).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you visit a school sports day where two different ______ blow: one blows every 6 seconds and the other blows every 8 seconds.",
+     "a": "whistles",
+     "self_check": true
     }
    ]
   }

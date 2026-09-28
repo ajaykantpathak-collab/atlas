@@ -34,6 +34,26 @@
      "q": "Design a simple lab experiment to demonstrate the reduction of copper(II) oxide by hydrogen gas. List apparatus, chemicals, procedure, observation, and the balanced equation. How would you test the product formed?",
      "a": "Apparatus: Hard glass test tube, delivery tube, gas jar, Bunsen burner, clamp stand. Chemicals: CuO (black powder), dry H₂ gas (from Zn + dil. H₂SO₄), anhydrous CaCl₂ (drying agent). Procedure: Spread CuO in test tube, connect to H₂ generator via CaCl₂ tube, pass H₂ for 1 min to displace air, then heat CuO strongly while H₂ flows. Observation: Black CuO turns reddish-brown (Cu). Water droplets condense at cooler end. Equation: CuO(s) + H₂(g) → Cu(s) + H₂O(g). Test product: Reddish-brown solid conducts electricity (metallic Cu) and dissolves in conc. HNO₃ giving blue solution (Cu²⁺). A poor answer omits drying H₂ (risk of explosion), doesn't displace air (explosion risk), or writes CuO + H₂ → Cu + H₂O(l) without state symbols, missing that water forms as steam at high temperature.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Extraction of metals from their ores involves three main sequential steps: enrichment (______) of the ore to remove unwanted gangue, conversion of the concentrated ore into a metal oxide via roasting (for sulfide ores in excess air) or calcination (for carbonate/hydroxide ores in limited air), and finally reduction of the metal oxide to the free metal using a suitable reducing agent (carbon, CO, or a more reactive metal) based on the metal's position in the reactivity series.",
+     "a": "concentration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a piece of rusted iron gate (common in Indian monsoons) — the ______-brown flaky rust is Fe₂O₃·nH₂O, essentially an ore of iron.",
+     "a": "reddish",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify the correct sequence of steps for extracting a given metal from its named ore, write balanced chemical equations for roasting, calcination, and reduction reactions, and justify the choice of reducing agent based on the metal's position in the reactivity series.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a piece of rusted iron gate (common in Indian monsoons) — the reddish-brown flaky rust is Fe₂O₃·nH₂O, ______ an ore of iron.",
+     "a": "essentially",
+     "self_check": true
     }
    ]
   }

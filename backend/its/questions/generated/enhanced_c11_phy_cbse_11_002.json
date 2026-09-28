@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using only three metal blocks (A, B, C), a thermometer, and insulating stands to verify the Zeroth Law. Outline the procedure, measurements, and the criterion for confirmation.",
      "a": "Procedure: (1) Place A and B on insulating stands, bring them into good thermal contact via a copper plate; wait until thermometer readings stabilize – record T_A = T_B. (2) Separate A and B. (3) Bring B and C into similar contact; wait and record T_B = T_C. (4) Now bring A and C into contact (without B); measure their temperatures. Criterion: If T_A = T_C within experimental uncertainty, the Zeroth Law holds. A poor design (e.g., not waiting for equilibrium, using poor thermal contact) reveals misunderstanding of the operational meaning of \"thermal equilibrium.\"",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Zeroth Law of ______ states that if two thermodynamic systems are each in thermal equilibrium with a third system separately, then they are in thermal equilibrium with each other.",
+     "a": "Thermodynamics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a familiar ______: when you place a cold steel spoon into a hot cup of chai, the spoon warms up and the chai cools slightly until both feel the same \"hotness\" to your lips – they have reached thermal equilibrium.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) explain why the Zeroth Law is necessary to define temperature as a valid thermodynamic state variable, (2) distinguish between adiabatic and diathermic walls and predict the evolution of macroscopic variables (P, V, T) in each case, and (3) apply the transitive property of thermal equilibrium to determine whether multiple.",
+     "self_check": true
     }
    ]
   }

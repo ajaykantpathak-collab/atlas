@@ -34,6 +34,26 @@
      "q": "Design a 3-step career exploration activity for a Class 11 student that integrates self-assessment of aptitude, interest, and personality without using formal psychometric tests. The activity must produce a shortlist of 3-5 career options with explicit reasoning linking each factor to each option.",
      "a": "Step 1: **Aptitude Proxy Mapping** — Student lists 8-10 school subjects/activities they performed well in *without excessive effort* (e.g., \"grasped physics concepts quickly,\" \"wrote coherent essays in 20 mins\"). For each, note the underlying aptitude (abstract reasoning, verbal fluency, etc.). Cluster into 2-3 dominant aptitude domains. Step 2: **Interest Reconstruction** — Student records all activities they voluntarily spent >5 hours/week on in the past year (hobbies, projects, reading, videos). Code each using RIASEC initials (R/I/A/S/E/C). Identify top 2 interest codes. Step 3: **Personality Behavioural Recall** — Student describes 3 recent situations where they felt \"in flow\" vs. \"drained\" at school/home. Extract behavioural patterns (e.g., \"energised leading group project\" → extraversion; \"stressed by vague deadlines\" → high conscientiousness need). Final Integration: Cross-reference the three outputs against a career database (e.g., NCS portal) to generate 3-5 options where all three factors align. A poor answer produces a list based only on \"what I like\" or \"what I'm good at\" without the three-column evidence trail, revealing failure to operationalise the triad.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Aptitude refers to an individual's innate or acquired potential to acquire specific skills and perform certain tasks effectively; interest denotes a sustained curiosity, enjoyment, and motivation toward particular activities or subjects; personality encompasses the enduring patterns of thoughts, feelings, and behaviours that characterise how a person interacts with their environment — together, these three factors form the core ______ triad that determines career congruence, where optimal career choice occurs when all three align with the demands and rewards of an occupation.",
+     "a": "psychological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a Class 12 student, Priya, who loves painting (interest), scores high on spatial reasoning tests (aptitude), but describes herself as extremely ______ and anxious about deadlines (personality).",
+     "a": "introverted",
+     "self_check": true
+    },
+    {
+     "q": "What is Aptitude? State the definition given in this lesson.",
+     "a": "Aptitude refers to an individual's innate or acquired potential to acquire specific skills and perform certain tasks effectively; interest denotes a sustained curiosity, enjoyment, and motivation toward particular activities or subjects; personality encompasses the enduring patterns of thoughts, feelings, and behaviours that characterise.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently analyse a given student profile (including aptitude test results, interest inventory scores, and personality traits) and justify a career recommendation by explicitly linking each factor to specific occupational demands, while also identifying potential mismatches that could lead to dissatisfaction or.",
+     "self_check": true
     }
    ]
   }

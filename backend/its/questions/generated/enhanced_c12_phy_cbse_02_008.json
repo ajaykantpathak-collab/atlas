@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a parallel plate capacitor, a battery, a dielectric slab (e.g., a plastic ruler), and an electroscope (or a high-impedance voltmeter) to demonstrate that inserting a dielectric increases capacitance. Describe the steps, what you measure, and the expected observation.",
      "a": "Steps: (1) Charge the capacitor to voltage V₀ using the battery. (2) Disconnect the battery (isolate the capacitor). (3) Measure voltage V₀ with voltmeter. (4) Insert the dielectric slab fully between plates. (5) Measure new voltage V. Expected: V < V₀ because C increases (C = KC₀) and Q is constant (Q = C₀V₀ = CV → V = V₀/K). A good answer includes the isolation step (constant Q) and predicts voltage drop. A poor answer (e.g., keeping battery connected) measures constant V and misses the capacitance increase.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A dielectric is an insulating material with no free charge carriers that, when placed in an external electric field, develops a net dipole moment per unit volume called ______ (P).",
+     "a": "polarization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a camera flash unit: a ______ charges slowly from a battery but discharges in a microsecond to produce intense light.",
+     "a": "capacitor",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The dielectric constant K = ______ + χₑ is the factor by which the capacitance increases when the dielectric fully fills the space between the plates (C = KC₀).",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish between polar and non-polar molecules and explain the microscopic origin of polarization in each case, (2) derive the relation E = E₀/K for a parallel plate capacitor with a dielectric using the concept of bound surface charges, and (3) calculate the new capacitance, electric field, and potential.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a camera flash unit: a capacitor charges slowly from a battery but discharges in a ______ to produce intense light.",
+     "a": "microsecond",
+     "self_check": true
     }
    ]
   }

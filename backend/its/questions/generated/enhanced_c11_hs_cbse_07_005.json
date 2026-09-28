@@ -34,6 +34,36 @@
      "q": "Design a 3-component community intervention to simultaneously address childhood stunting and rising adolescent obesity in a peri-urban slum, justifying each component with a specific mechanism from the nutrition-infection cycle or food environment.",
      "a": "Expected answer (criteria): (1) Component 1 — First 1000 days package: maternal nutrition counseling + IFA/calcium supplementation + exclusive breastfeeding support + timely complementary feeding with diverse foods. Mechanism: Breaks intergenerational cycle, prevents fetal stunting, builds immune competence to reduce infection-driven nutrient loss. (2) Component 2 — School-based intervention: ban ultra-processed foods in canteens, mandate daily physical activity, weekly iron-folic acid supplementation, nutrition literacy. Mechanism: Counters obesogenic food environment, addresses adolescent anaemia, establishes healthy habits. (3) Component 3 — WASH + deworming convergence: safe water, sanitation, handwashing stations, biannual albendazole. Mechanism: Reduces environmental enteropathy and helminth-induced nutrient malabsorption/blood loss that drive both stunting and anaemia. A poor answer lists generic \"awareness campaigns\" without mechanistic justification or dual-target design.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Malnutrition is a pathological state resulting from a relative or absolute deficiency, excess, or imbalance of essential nutrients (______ and/or micronutrients) that adversely affects body composition, function, and clinical outcomes; it manifests as a spectrum encompassing undernutrition (wasting, stunting, underweight, micronutrient deficiencies), overnutrition (overweight, obesity, diet-related non-communicable diseases), and specific nutrient deficiency disorders (e.g., iron-deficiency anaemia, vitamin A deficiency, iodine deficiency disorders).",
+     "a": "macronutrients",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a community health worker visiting two households in the same village: in one, a 3-year-old child has a mid-upper arm circumference (MUAC) of 11 cm, visible wasting, and recurrent diarrhoea; in the other, a 35-year-old mother has a BMI of 29.8 kg/m², complains of fatigue, and her ______ daughter shows pallor and poor concentration in school.",
+     "a": "adolescent",
+     "self_check": true
+    },
+    {
+     "q": "What is Malnutrition? State the definition given in this lesson.",
+     "a": "Malnutrition is a pathological state resulting from a relative or absolute deficiency, excess, or imbalance of essential nutrients (macronutrients and/or micronutrients) that adversely affects body composition, function, and clinical outcomes; it manifests as a spectrum encompassing undernutrition (wasting, stunting, underweight.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then introduce the WHO classification framework, link to NFHS-______ data on India's double burden, and finally connect to the nutrition-infection cycle (next node) to show how infection worsens both conditions.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Malnutrition?",
+     "a": "Students often believe \"malnutrition = undernutrition = thinness\" and fail to recognise that overweight/obese individuals can simultaneously suffer from micronutrient deficiencies (hidden hunger).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) classify a given case scenario into undernutrition, overnutrition, or specific deficiency disorder using anthropometric and clinical indicators; (2) explain the bidirectional nutrition-infection cycle with physiological mechanisms; (3) interpret NFHS-style data tables to identify population-level double.",
+     "self_check": true
     }
    ]
   }

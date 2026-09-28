@@ -34,6 +34,26 @@
      "q": "Design a fluorescence microscopy experiment to distinguish whether a novel cytoplasmic filament observed in a newly discovered protist is a microtubule, actin filament, or intermediate filament. Specify the probes, controls, and expected localization patterns for each possibility.",
      "a": "Probes: (1) Anti-α-tubulin antibody + secondary Alexa Fluor 488 (microtubules); (2) Phalloidin-Alexa Fluor 568 (F-actin); (3) Pan-intermediate filament antibody (e.g., anti-vimentin) or transgenic fluorescent keratin/lamin fusion. Controls: (a) No-primary-antibody control for immunofluorescence; (b) Latrunculin B treatment (should abolish phalloidin signal); (c) Nocodazole treatment (should abolish tubulin signal); (d) Withaferin A treatment (disrupts vimentin). Expected patterns: Microtubules — radial array from centrosome, spindle during division. Actin — cortical meshwork, stress fibers, contractile ring. Intermediate filaments — perinuclear cage, extended cytoplasmic network, no centrosomal nucleation. A poor answer uses only one probe, omits drug controls, or cannot predict the distinct spatial organization of each system, indicating inability to translate biochemical identity into diagnostic microscopy signatures.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The cytoskeleton is a dynamic, three-dimensional network of fibrous proteins in the cytoplasm of eukaryotic cells that maintains cell shape, enables ______ transport, facilitates cell division, and drives cell motility.",
+     "a": "intracellular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a neutrophil chasing a bacterium through tissue — it must change shape ______, extend pseudopods, and squeeze through capillary walls.",
+     "a": "rapidly",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to distinguish the three cytoskeletal filament types by their protein subunits, diameter, polarity, motor protein associations, and primary cellular functions, and predict the cellular consequences of disrupting each filament type using specific inhibitors or mutations.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ chasing a bacterium through tissue — it must change shape rapidly, extend pseudopods, and squeeze through capillary walls.",
+     "a": "neutrophil",
+     "self_check": true
     }
    ]
   }

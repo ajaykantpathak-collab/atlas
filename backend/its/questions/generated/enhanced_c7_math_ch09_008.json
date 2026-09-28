@@ -34,6 +34,21 @@
      "q": "Construct a scenario involving an Indian architectural setting (such as a triangular staircase support or roof truss) where you would use the RHS congruence criterion to prove two support beams are identical, listing the exact measurements you would take.",
      "a": "A good response should describe a concrete scenario, such as building two right-angled wooden ramps for a school stage. The student must specify measuring a $90^\\circ$ vertical corner, a $5\\text{ metre}$ slanted board (hypotenuse), and a $4\\text{ metre}$ ground base (leg). A poor response lacks specific real-world context, omits units of measurement, or fails to mention the right angle and hypotenuse explicitly.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The RHS (Right angle-Hypotenuse-Side) congruence criterion states that if in two right-angled triangles, the length of the hypotenuse and one side of one triangle are equal to the length of the hypotenuse and one ______ side of the other triangle, then the two triangles are congruent.",
+     "a": "corresponding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a carpenter in your local village building two identical ______ wooden roof supports for a storage shed.",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify right-angled triangles, correctly locate and compare the hypotenuse and legs, set up an RHS congruence proof, and solve missing side or angle problems in geometric figures.",
+     "self_check": true
     }
    ]
   }

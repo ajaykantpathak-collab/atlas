@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a smartphone app (frequency analyser) and a ruler to verify the relationship v = fλ for sound in air. List the materials, procedure, and what you would plot to get a straight line.",
      "a": "Materials: smartphone with frequency analyser app, tuning forks of different known frequencies (or app-generated tones), ruler, quiet room. Procedure: Play a tone of known frequency f, measure the distance between two consecutive nodes (or use wavelength from app if available) or use a resonance tube to find wavelength. Repeat for 5 frequencies. Plot λ on y-axis and 1/f on x-axis; slope gives v. A poor answer (e.g., \"measure wavelength with ruler directly in air\") reveals the student does not know how to measure wavelength of sound in air practically.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Wavelength (λ) is the distance between two consecutive ______ or rarefactions in a sound wave, measured in metres (m).",
+     "a": "compressions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine plucking a rubber band stretched between two fingers – you see it ______ up and down.",
+     "a": "vibrate",
+     "self_check": true
+    },
+    {
+     "q": "What is Wavelength (λ)? State the definition given in this lesson.",
+     "a": "Wavelength (λ) is the distance between two consecutive compressions or rarefactions in a sound wave, measured in metres (m).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: They are related by f = ______/T and wave speed v = fλ = λ/T.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Wavelength (λ)?",
+     "a": "Students often think wavelength and frequency are directly proportional (if frequency increases, wavelength increases) because they see both in the formula v = fλ and forget that wave speed v is constant in a given medium.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate any one of wavelength, frequency, or time period when given the other two and the wave speed, and can explain why frequency and time period are inverses using the concept of one complete oscillation.",
+     "self_check": true
     }
    ]
   }

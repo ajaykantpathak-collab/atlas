@@ -34,6 +34,31 @@
      "q": "Describe the steps to draw a line segment of 4.5 cm.",
      "a": "1. Draw a thin starting mark at 0. 2. Mark the 4 cm and 5 tiny notches (the 0.5 mark) for 4.5 cm. 3. Connect them with a ruler. Poor answers lack specific mention of the 0.5 mark or the need for a straight edge.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A line segment is the shortest path between two distinct points on a surface, ______ a fixed length and two clearly defined endpoints.",
+     "a": "possessing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a paper model of a house and need to cut a straw to ______ 5 cm to make a roof support.",
+     "a": "exactly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a paper model of a house and need to cut a straw to exactly ______ cm to make a roof support.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to accurately draw a line segment of a specific length (e.g., 7.5 cm) using a ruler and identify the endpoints of a given segment.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a paper model of a house and need to cut a straw to exactly 5 cm to make a roof support.",
+     "a": "building",
+     "self_check": true
     }
    ]
   }

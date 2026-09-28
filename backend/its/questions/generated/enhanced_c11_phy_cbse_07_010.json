@@ -34,6 +34,31 @@
      "q": "Design a thought experiment to demonstrate that escape velocity is the same for a 1 kg iron ball and a 1000 kg rocket, assuming no air resistance. Describe the setup, measurements, and how you would conclude the independence of mass.",
      "a": "Setup: In a vacuum chamber (to eliminate air resistance), use a spring-loaded launcher to project a 1 kg iron ball and a 1000 kg rocket model vertically upward with the *same* initial speed \\(v\\). Measure the maximum height reached by each using a laser rangefinder. Repeat for increasing speeds until the object does not return (i.e., it hits the top of the chamber with non-zero speed). The minimum speed at which both objects escape the chamber (or reach a predefined \"infinity\" boundary) will be identical. This shows that the gravitational deceleration \\(g\\) is independent of mass, so the kinematic condition for escape depends only on initial speed, not mass. A poor answer might involve measuring force or acceleration instead of the kinematic outcome, missing the energy-conservation perspective.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Escape velocity is the minimum speed required for an object to escape the ______ influence of a massive body (like Earth) without any further propulsion, reaching infinity with zero residual kinetic energy.",
+     "a": "gravitational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ throwing a cricket ball upward from a rooftop in Delhi – it goes up, slows down, and falls back.",
+     "a": "Imagine",
+     "self_check": true
+    },
+    {
+     "q": "What is Escape velocity? State the definition given in this lesson.",
+     "a": "Escape velocity is the minimum speed required for an object to escape the gravitational influence of a massive body (like Earth) without any further propulsion, reaching infinity with zero residual kinetic energy.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Escape velocity?",
+     "a": "Students often think escape velocity is the speed needed to \"break free\" of gravity completely, implying gravity becomes zero at that speed.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the escape velocity formula from energy conservation principles, calculate escape velocity for any celestial body given its mass and radius, and explain why escape velocity is independent of the mass of the projected object but depends on the launch height.",
+     "self_check": true
     }
    ]
   }

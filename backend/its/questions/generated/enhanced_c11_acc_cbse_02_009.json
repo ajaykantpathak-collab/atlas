@@ -34,6 +34,26 @@
      "q": "Create a new scenario (different from bakery) involving a small manufacturing firm where both Conservatism and Materiality must be applied. Describe the facts, the accounting decision, and the justification for each concept.",
      "a": "Good answer: Firm buys 1,000 units of raw material at ₹100/unit; market price falls to ₹90. Also buys a ₹2,000 coffee machine for the office (life 4 years). Decision: write down raw material to ₹90 (conservatism); expense coffee machine (materiality — ₹2,000 is trivial vs ₹1 crore turnover). Justification links each decision to the correct concept. A poor answer (e.g., only addresses one concept or uses a fixed rupee rule) shows the student cannot synthesise both concepts in a fresh context.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ (Prudence) Concept requires that anticipated losses be recognised immediately while anticipated gains are ignored until realised, ensuring profits are never overstated.",
+     "a": "Conservatism",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: At year-end, you have 50 unsold ______ costing ₹200 each, but due to a health scare, you can only sell them at ₹150 each.",
+     "a": "cakes",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) explain why closing stock is valued at lower of cost or net realisable value, (2) decide whether a specific item (e.g., stationery, pending lawsuit) is material and justify the accounting treatment, and (3) identify violations of conservatism or materiality in a given financial statement extract.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: At year-end, you have 50 unsold cakes ______ ₹200 each, but due to a health scare, you can only sell them at ₹150 each.",
+     "a": "costing",
+     "self_check": true
     }
    ]
   }

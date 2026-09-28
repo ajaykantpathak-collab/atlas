@@ -34,6 +34,36 @@
      "q": "Design a simple histochemical experiment using a germinating groundnut seed to demonstrate the transition from glyoxysomes to peroxisomes over a 7-day period. Specify the stains/assays, time points, and expected observations.",
      "a": "Day 0 (dry seed), Day 2, Day 4, Day 7. Assays: (1) Catalase activity (H₂O₂ decomposition → O₂ bubbles) – increases steadily. (2) Isocitrate lyase activity (spectrophotometric NADH consumption) – peaks Day 2-3, absent by Day 7. (3) Glycolate oxidase activity (O₂ consumption with glycolate) – low early, high Day 7. (4) Electron microscopy for crystalloid core (glyoxysome marker) – present early, absent late. Expected: Early high glyoxylate enzymes + crystalloids; late high photorespiratory enzymes + no crystalloids. A poor answer (only one assay, no time course, or confusing stains) shows inability to design multi-parameter temporal experiments for organelle differentiation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Microbodies are small, single-membrane-bound organelles (e.g., peroxisomes, glyoxysomes) that contain specific oxidative enzymes for metabolic pathways like ______ and lipid metabolism; cell inclusions are non-living, non-membranous cytoplasmic components (e.g., starch grains, lipid droplets, crystals, pigments) that serve as storage, secretory, or excretory products.",
+     "a": "photorespiration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ castor seed (common in Indian kitchens) – the oily endosperm shrinks as the seedling grows.",
+     "a": "germinating",
+     "self_check": true
+    },
+    {
+     "q": "What is Microbodies? State the definition given in this lesson.",
+     "a": "Microbodies are small, single-membrane-bound organelles (e.g., peroxisomes, glyoxysomes) that contain specific oxidative enzymes for metabolic pathways like photorespiration and lipid metabolism; cell inclusions are non-living, non-membranous cytoplasmic components (e.g., starch grains, lipid droplets, crystals, pigments) that serve as.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Next, recall that in C______ plants like wheat during hot afternoons, oxygen consumption rises without ATP production – peroxisomes drive this photorespiration.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Microbodies?",
+     "a": "Students often think microbodies are \"small lysosomes\" because both are single-membrane vesicles with enzymes.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can distinguish microbodies from lysosomes and vacuoles based on enzyme content, membrane properties, and biogenesis; can classify cell inclusions into nutrient, secretory, excretory, and pigment categories with plant/animal examples; can explain the role of peroxisomes in photorespiration and glyoxysomes in the glyoxylate cycle.",
+     "self_check": true
     }
    ]
   }

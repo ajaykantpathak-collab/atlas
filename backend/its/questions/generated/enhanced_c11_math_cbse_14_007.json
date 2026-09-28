@@ -34,6 +34,21 @@
      "q": "Create your own mathematical statement using BOTH quantifiers (∀ and ∃) that is TRUE over the domain of integers ℤ. Then create a similar-looking statement (same quantifiers, same domain) that is FALSE. Explain the key difference that makes one true and the other false.",
      "a": "Example TRUE statement: ∀n∈ℤ, ∃m∈ℤ, m = n + 1 (every integer has a successor). Example FALSE statement: ∃m∈ℤ, ∀n∈ℤ, m = n + 1 (there is an integer that is one more than EVERY integer). The difference: in the true statement, m depends on n (for each n, pick a different m); in the false statement, a single m must work for all n simultaneously. A poor answer that only changes the predicate but keeps the same quantifier order shows the student hasn't internalized that quantifier ORDER is the critical factor, not just the predicate.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ is a logical symbol that specifies the quantity of elements in a domain for which a predicate (open statement) holds true.",
+     "a": "quantifier",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're telling a friend: \"Every student in Class 11 passed the math test\" versus \"Some student in Class 11 scored 100%.\" The first ______ makes a claim about ALL students; the second only claims AT LEAST ONE student did.",
+     "a": "statement",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly translate between natural language statements and quantified symbolic form, negate quantified statements using the rules ¬(∀x, P(x)) ≡ ∃x, ¬P(x) and ¬(∃x, P(x)) ≡ ∀x, ¬P(x), determine truth values of quantified statements over given domains, and identify when order of quantifiers changes the meaning of a.",
+     "self_check": true
     }
    ]
   }

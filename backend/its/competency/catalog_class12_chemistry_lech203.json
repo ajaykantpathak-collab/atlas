@@ -24,10 +24,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "find the parent chain through the carbonyl carbon",
-     "explain": "aldehydes force the CHO carbon to be C-1; ketones number from the nearer end"},
-    {"step": 2, "action": "attach -al or -one with locants",
-     "explain": "ring-bound CHO takes carbaldehyde, and common names survive for acetone, acetophenone and benzaldehyde"}
+    {
+     "step": 1,
+     "action": "find the parent chain through the carbonyl carbon",
+     "explain": "aldehydes force the CHO carbon to be C-1; ketones number from the nearer end"
+    },
+    {
+     "step": 2,
+     "action": "attach -al or -one with locants",
+     "explain": "ring-bound CHO takes carbaldehyde, and common names survive for acetone, acetophenone and benzaldehyde"
+    }
    ]
   },
   {
@@ -48,10 +54,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "match the starting family to the route",
-     "explain": "alcohols, alkenes, alkynes, acyl chlorides, nitriles, esters and alkylbenzenes each have a dedicated entry to C=O"},
-    {"step": 2, "action": "control the oxidation depth",
-     "explain": "mild or selective agents (PCC, Rosenmund, DIBAL-H, CrO2Cl2 complex hydrolysis) freeze the product at the aldehyde stage"}
+    {
+     "step": 1,
+     "action": "match the starting family to the route",
+     "explain": "alcohols, alkenes, alkynes, acyl chlorides, nitriles, esters and alkylbenzenes each have a dedicated entry to C=O"
+    },
+    {
+     "step": 2,
+     "action": "control the oxidation depth",
+     "explain": "mild or selective agents (PCC, Rosenmund, DIBAL-H, CrO2Cl2 complex hydrolysis) freeze the product at the aldehyde stage"
+    }
    ]
   },
   {
@@ -72,10 +84,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "pick the carbon nucleophile",
-     "explain": "R2Cd adds once to RCOCl stopping at the ketone; RMgX adds to nitriles giving an imine salt that hydrolyses to C=O"},
-    {"step": 2, "action": "use the Lewis acid for arene routes",
-     "explain": "anhydrous AlCl3 generates the acylium ion that substitutes the ring in Friedel-Crafts acylation"}
+    {
+     "step": 1,
+     "action": "pick the carbon nucleophile",
+     "explain": "R2Cd adds once to RCOCl stopping at the ketone; RMgX adds to nitriles giving an imine salt that hydrolyses to C=O"
+    },
+    {
+     "step": 2,
+     "action": "use the Lewis acid for arene routes",
+     "explain": "anhydrous AlCl3 generates the acylium ion that substitutes the ring in Friedel-Crafts acylation"
+    }
    ]
   },
   {
@@ -96,10 +114,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "grade the intermolecular forces",
-     "explain": "dispersion only, then dipole-dipole, then hydrogen bonding decides the boiling ladder"},
-    {"step": 2, "action": "weigh hydrophobic bulk against water bonding",
-     "explain": "small carbonyls and acids hydrogen-bond into water; long chains and benzene rings shut it out"}
+    {
+     "step": 1,
+     "action": "grade the intermolecular forces",
+     "explain": "dispersion only, then dipole-dipole, then hydrogen bonding decides the boiling ladder"
+    },
+    {
+     "step": 2,
+     "action": "weigh hydrophobic bulk against water bonding",
+     "explain": "small carbonyls and acids hydrogen-bond into water; long chains and benzene rings shut it out"
+    }
    ]
   },
   {
@@ -120,10 +144,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "rank steric and electronic crowding",
-     "explain": "fewer, smaller substituents leave the carbonyl carbon more exposed and more positive"},
-    {"step": 2, "action": "follow the addition to the protonation step",
-     "explain": "nucleophile adds first making an alkoxide, then solvent protonates to the neutral addition product"}
+    {
+     "step": 1,
+     "action": "rank steric and electronic crowding",
+     "explain": "fewer, smaller substituents leave the carbonyl carbon more exposed and more positive"
+    },
+    {
+     "step": 2,
+     "action": "follow the addition to the protonation step",
+     "explain": "nucleophile adds first making an alkoxide, then solvent protonates to the neutral addition product"
+    }
    ]
   },
   {
@@ -144,10 +174,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "recognise the H2N-Z family",
-     "explain": "Z decides the derivative name: OH gives an oxime, NH2 a hydrazone, ArNO2 hydrazine a 2,4-DNP product"},
-    {"step": 2, "action": "count the alcohol equivalents for acetals",
-     "explain": "two alcohol molecules (or one diol) replace both carbonyl oxygens' role, water leaves each time"}
+    {
+     "step": 1,
+     "action": "recognise the H2N-Z family",
+     "explain": "Z decides the derivative name: OH gives an oxime, NH2 a hydrazone, ArNO2 hydrazine a 2,4-DNP product"
+    },
+    {
+     "step": 2,
+     "action": "count the alcohol equivalents for acetals",
+     "explain": "two alcohol molecules (or one diol) replace both carbonyl oxygens' role, water leaves each time"
+    }
    ]
   },
   {
@@ -168,10 +204,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "decide the target depth",
-     "explain": "hydride or hydrogenation stops at the alcohol; Clemmensen or Wolff-Kishner digs down to CH2"},
-    {"step": 2, "action": "read the substrate tolerance",
-     "explain": "acid-labile groups forbid Clemmensen while base-labile ones forbid Wolff-Kishner"}
+    {
+     "step": 1,
+     "action": "decide the target depth",
+     "explain": "hydride or hydrogenation stops at the alcohol; Clemmensen or Wolff-Kishner digs down to CH2"
+    },
+    {
+     "step": 2,
+     "action": "read the substrate tolerance",
+     "explain": "acid-labile groups forbid Clemmensen while base-labile ones forbid Wolff-Kishner"
+    }
    ]
   },
   {
@@ -190,13 +232,28 @@
     "state the composition of Fehling solutions A and B",
     "which test separates ethanal from benzaldehyde"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "warm the sample with the mild oxidant",
-     "explain": "Ag+ in ammonia or Cu2+ tartrate complex is gentle enough to oxidise only aldehydes"},
-    {"step": 2, "action": "read the metal deposit",
-     "explain": "silver coats the tube as a mirror; Cu2O settles as a reddish brown solid"}
-   ]
+    {
+     "step": 1,
+     "action": "warm the sample with the mild oxidant",
+     "explain": "Ag+ in ammonia or Cu2+ tartrate complex is gentle enough to oxidise only aldehydes"
+    },
+    {
+     "step": 2,
+     "action": "read the metal deposit",
+     "explain": "silver coats the tube as a mirror; Cu2O settles as a reddish brown solid"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "fehling_positive = aliphatic_aldehyde_only",
+     "compute": "fehling_positive = aliphatic_aldehyde_only"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lech203.8.4.3.2",
@@ -216,10 +273,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "drop one carbon for the haloform methyl",
+    {
+     "step": 1,
+     "action": "drop one carbon for the haloform methyl",
      "explain": "the CH3CO- fragment loses its methyl as CHI3, so the carboxylate keeps everything else",
-     "compute": "acid_carbons = ketone_carbons - 1"}
-   ]
+     "compute": "acid_carbons = ketone_carbons - 1"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "acid_carbons = ketone_carbons - 1",
+     "compute": "acid_carbons = ketone_carbons - 1"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lech203.8.4.4.1",
@@ -237,13 +306,28 @@
     "state the oxidation and reduction halves of the Cannizzaro reaction",
     "does 2,2-dimethylbutanal aldolise or disproportionate in alkali"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "hunt for alpha hydrogens",
-     "explain": "their presence opens the aldol route through an enolate; their absence forces Cannizzaro disproportionation"},
-    {"step": 2, "action": "match the alkali strength",
-     "explain": "dilute alkali catalyses aldol coupling; concentrated alkali drives the hydride transfer of Cannizzaro"}
-   ]
+    {
+     "step": 1,
+     "action": "hunt for alpha hydrogens",
+     "explain": "their presence opens the aldol route through an enolate; their absence forces Cannizzaro disproportionation"
+    },
+    {
+     "step": 2,
+     "action": "match the alkali strength",
+     "explain": "dilute alkali catalyses aldol coupling; concentrated alkali drives the hydride transfer of Cannizzaro"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "cannizzaro_requirement = no_alpha_hydrogen",
+     "compute": "cannizzaro_requirement = no_alpha_hydrogen"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lech203.8.6.1.1",
@@ -263,10 +347,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "count the carboxyl carbon as position one",
-     "explain": "the chain name ends in -oic acid and extra COOH groups take di- or tri- markers with locants"},
-    {"step": 2, "action": "note the resonance damping",
-     "explain": "the OH oxygen donates into C=O, lowering the electrophilicity that a ketone carbon shows"}
+    {
+     "step": 1,
+     "action": "count the carboxyl carbon as position one",
+     "explain": "the chain name ends in -oic acid and extra COOH groups take di- or tri- markers with locants"
+    },
+    {
+     "step": 2,
+     "action": "note the resonance damping",
+     "explain": "the OH oxygen donates into C=O, lowering the electrophilicity that a ketone carbon shows"
+    }
    ]
   },
   {
@@ -287,13 +377,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "swap the halide for magnesium",
+    {
+     "step": 1,
+     "action": "swap the halide for magnesium",
      "explain": "the alkyl group transfers to Mg with its carbon count unchanged",
-     "compute": "grignard_carbons = halide_carbons"},
-    {"step": 2, "action": "add the carboxyl carbon",
+     "compute": "grignard_carbons = halide_carbons"
+    },
+    {
+     "step": 2,
+     "action": "add the carboxyl carbon",
      "explain": "carbon dioxide (or the nitrile carbon) contributes exactly one more carbon before acidification",
-     "compute": "acid_carbons = grignard_carbons + 1"}
-   ]
+     "compute": "acid_carbons = grignard_carbons + 1"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "acid_carbons = halide_carbons + 1",
+     "compute": "acid_carbons = halide_carbons + 1"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lech203.8.9.1.1",
@@ -313,10 +418,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "stabilise or destabilise the anion",
-     "explain": "inductive withdrawal spreads the negative charge and raises Ka; alkyl donation concentrates it"},
-    {"step": 2, "action": "apply the distance and position rules",
-     "explain": "effects decay along the chain, and para nitro helps benzoic acid while para methoxy hinders it"}
+    {
+     "step": 1,
+     "action": "stabilise or destabilise the anion",
+     "explain": "inductive withdrawal spreads the negative charge and raises Ka; alkyl donation concentrates it"
+    },
+    {
+     "step": 2,
+     "action": "apply the distance and position rules",
+     "explain": "effects decay along the chain, and para nitro helps benzoic acid while para methoxy hinders it"
+    }
    ]
   },
   {
@@ -337,10 +448,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "replace or strip the hydroxyl",
-     "explain": "acid-catalysed esterification, PCl5 or SOCl2 substitution, and ammonium salt dehydration each rewrite the C-OH bond"},
-    {"step": 2, "action": "restructure the chain when needed",
-     "explain": "LiAlH4 or B2H6 reduce COOH to CH2OH; hot soda-lime or electrolysis of salts removes or doubles carbons; red phosphorus plus halogen attacks the alpha position"}
+    {
+     "step": 1,
+     "action": "replace or strip the hydroxyl",
+     "explain": "acid-catalysed esterification, PCl5 or SOCl2 substitution, and ammonium salt dehydration each rewrite the C-OH bond"
+    },
+    {
+     "step": 2,
+     "action": "restructure the chain when needed",
+     "explain": "LiAlH4 or B2H6 reduce COOH to CH2OH; hot soda-lime or electrolysis of salts removes or doubles carbons; red phosphorus plus halogen attacks the alpha position"
+    }
    ]
   }
  ],
@@ -351,9 +468,16 @@
    "concept": "lech203.8.4.3.2",
    "question_type": "haloform_carbon_count",
    "question_pattern": "Butanone, a 4-carbon methyl ketone, is oxidised by sodium hypoiodite. How many carbons does the sodium carboxylate keep?",
-   "extracted_variables": {"ketone_carbons": 4},
+   "extracted_variables": {
+    "ketone_carbons": 4
+   },
    "solution_template": [
-    {"step": 1, "action": "drop one carbon for the haloform methyl", "explain": "the methyl group leaves as iodoform", "compute": "acid_carbons = ketone_carbons - 1"}
+    {
+     "step": 1,
+     "action": "drop one carbon for the haloform methyl",
+     "explain": "the methyl group leaves as iodoform",
+     "compute": "acid_carbons = ketone_carbons - 1"
+    }
    ]
   },
   {
@@ -362,9 +486,16 @@
    "concept": "lech203.8.4.3.2",
    "question_type": "haloform_carbon_count",
    "question_pattern": "Acetophenone, an 8-carbon methyl ketone, undergoes the haloform reaction. Count the carbons of the resulting benzoate salt.",
-   "extracted_variables": {"ketone_carbons": 8},
+   "extracted_variables": {
+    "ketone_carbons": 8
+   },
    "solution_template": [
-    {"step": 1, "action": "drop one carbon for the haloform methyl", "explain": "8 carbons minus the CH3 group gives the carboxylate size", "compute": "acid_carbons = ketone_carbons - 1"}
+    {
+     "step": 1,
+     "action": "drop one carbon for the haloform methyl",
+     "explain": "8 carbons minus the CH3 group gives the carboxylate size",
+     "compute": "acid_carbons = ketone_carbons - 1"
+    }
    ]
   },
   {
@@ -373,10 +504,22 @@
    "concept": "lech203.8.7.1.1",
    "question_type": "ascending_series_carbon_count",
    "question_pattern": "Bromoethane is converted through magnesium, dry ice and acid hydrolysis. How many carbons does the final acid carry?",
-   "extracted_variables": {"halide_carbons": 2},
+   "extracted_variables": {
+    "halide_carbons": 2
+   },
    "solution_template": [
-    {"step": 1, "action": "swap the halide for magnesium", "explain": "the ethyl group transfers unchanged", "compute": "grignard_carbons = halide_carbons"},
-    {"step": 2, "action": "add the carboxyl carbon", "explain": "carbon dioxide contributes one carbon", "compute": "acid_carbons = grignard_carbons + 1"}
+    {
+     "step": 1,
+     "action": "swap the halide for magnesium",
+     "explain": "the ethyl group transfers unchanged",
+     "compute": "grignard_carbons = halide_carbons"
+    },
+    {
+     "step": 2,
+     "action": "add the carboxyl carbon",
+     "explain": "carbon dioxide contributes one carbon",
+     "compute": "acid_carbons = grignard_carbons + 1"
+    }
    ]
   },
   {
@@ -385,10 +528,22 @@
    "concept": "lech203.8.7.1.1",
    "question_type": "ascending_series_carbon_count",
    "question_pattern": "A 3-carbon alkyl chloride is turned into its nitrile and hydrolysed completely. Determine the carbon count of the acid produced.",
-   "extracted_variables": {"halide_carbons": 3},
+   "extracted_variables": {
+    "halide_carbons": 3
+   },
    "solution_template": [
-    {"step": 1, "action": "swap the halide for magnesium", "explain": "organometallic formation keeps the carbon count", "compute": "grignard_carbons = halide_carbons"},
-    {"step": 2, "action": "add the carboxyl carbon", "explain": "the nitrile carbon becomes COOH", "compute": "acid_carbons = grignard_carbons + 1"}
+    {
+     "step": 1,
+     "action": "swap the halide for magnesium",
+     "explain": "organometallic formation keeps the carbon count",
+     "compute": "grignard_carbons = halide_carbons"
+    },
+    {
+     "step": 2,
+     "action": "add the carboxyl carbon",
+     "explain": "the nitrile carbon becomes COOH",
+     "compute": "acid_carbons = grignard_carbons + 1"
+    }
    ]
   },
   {
@@ -397,9 +552,16 @@
    "concept": "lech203.8.9.2.1",
    "question_type": "kolbe_electrolysis_carbon_count",
    "question_pattern": "Electrolysis of aqueous sodium ethanoate liberates a hydrocarbon at the anode. How many carbons does it contain?",
-   "extracted_variables": {"alkyl_carbons": 1},
+   "extracted_variables": {
+    "alkyl_carbons": 1
+   },
    "solution_template": [
-    {"step": 1, "action": "couple two alkyl radicals", "explain": "the alkyl part doubles when two carboxylates lose CO2 and join", "compute": "alkane_carbons = 2 * alkyl_carbons"}
+    {
+     "step": 1,
+     "action": "couple two alkyl radicals",
+     "explain": "the alkyl part doubles when two carboxylates lose CO2 and join",
+     "compute": "alkane_carbons = 2 * alkyl_carbons"
+    }
    ]
   },
   {
@@ -408,9 +570,16 @@
    "concept": "lech203.8.9.2.1",
    "question_type": "kolbe_electrolysis_carbon_count",
    "question_pattern": "Sodium propanoate solution is electrolysed and the anode gas collected. Determine its carbon count.",
-   "extracted_variables": {"alkyl_carbons": 2},
+   "extracted_variables": {
+    "alkyl_carbons": 2
+   },
    "solution_template": [
-    {"step": 1, "action": "couple two alkyl radicals", "explain": "two ethyl radicals join to a 4-carbon alkane", "compute": "alkane_carbons = 2 * alkyl_carbons"}
+    {
+     "step": 1,
+     "action": "couple two alkyl radicals",
+     "explain": "two ethyl radicals join to a 4-carbon alkane",
+     "compute": "alkane_carbons = 2 * alkyl_carbons"
+    }
    ]
   }
  ],

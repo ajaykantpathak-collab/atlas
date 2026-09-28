@@ -34,6 +34,31 @@
      "q": "Create a real-world problem (Indian context: rupees, metres, etc.) that can be modelled by a linear equation in slope-intercept form. Define what the slope and y-intercept represent in your problem. Then write the equation and explain what the x-intercept would mean in this context.",
      "a": "Example: \"A taxi charges ₹50 as base fare plus ₹12 per kilometre. Let y be total fare (₹) and x be distance (km). Equation: y = 12x + 50. Slope (12) = rate per km. y-intercept (50) = base fare when distance = 0. x-intercept = -50/12 ≈ -4.17 km (not physically meaningful - would mean negative distance to get zero fare).\" A good answer has correct units, proper interpretation, and recognises when x-intercept is not meaningful. A poor answer uses vague variables, misses units, or thinks x-intercept is always meaningful.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The slope-intercept form of a straight line is the equation y = mx + c, where m is the slope (tan θ, θ being the angle of inclination measured ______ from the positive x-axis) and c is the y-intercept (the y-coordinate where the line crosses the y-axis).",
+     "a": "anticlockwise",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The slope ______ how steep it is (accessibility guidelines require specific slopes), and the y-intercept tells you where it starts from the ground level.",
+     "a": "determines",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Let's start with a line crossing the y-axis at (______, c).",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the slope-intercept form from the point-slope form, convert any linear equation in general form ax + by + c = 0 to slope-intercept form (identifying slope and y-intercept correctly), and interpret the geometric meaning of m and c including special cases (horizontal lines, lines through origin).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The slope determines how steep it is (______ guidelines require specific slopes), and the y-intercept tells you where it starts from the ground level.",
+     "a": "accessibility",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,491 @@
+{
+ "catalog": "catalog_class9_science_ch103.json",
+ "concepts": [
+  {
+   "id": "iesc.103.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "tissues = 66",
+      "organs = 95",
+      "organ_systems = 3.6",
+      "organism = tissues + organs + organ_systems"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "tissues = 54",
+      "organs = 61",
+      "organ_systems = 11.6",
+      "organism = tissues + organs + organ_systems"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "tissues = 63",
+      "organs = 2.4",
+      "organ_systems = 13",
+      "organism = tissues + organs + organ_systems"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "tissues = 65",
+      "organs = 80",
+      "organ_systems = 5.9",
+      "organism = tissues + organs + organ_systems"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "tissues = 52",
+      "organs = 35",
+      "organ_systems = 2.6",
+      "organism = tissues + organs + organ_systems"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "tissues = 21",
+      "organs = 38",
+      "organ_systems = 12.4",
+      "organism = tissues + organs + organ_systems"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "organism = tissues + organs + organ_systems"
+   ]
+  },
+  {
+   "id": "iesc.103.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "apical_growth = 55",
+      "lateral_growth = 42",
+      "intercalary_growth = 88",
+      "total_growth = apical_growth + lateral_growth + intercalary_growth"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "apical_growth = 70",
+      "lateral_growth = 11.1",
+      "intercalary_growth = 1.9",
+      "total_growth = apical_growth + lateral_growth + intercalary_growth"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "apical_growth = 69",
+      "lateral_growth = 4.9",
+      "intercalary_growth = 23",
+      "total_growth = apical_growth + lateral_growth + intercalary_growth"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "apical_growth = 84",
+      "lateral_growth = 47",
+      "intercalary_growth = 7.1",
+      "total_growth = apical_growth + lateral_growth + intercalary_growth"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "apical_growth = 88",
+      "lateral_growth = 52",
+      "intercalary_growth = 85",
+      "total_growth = apical_growth + lateral_growth + intercalary_growth"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "apical_growth = 1.6",
+      "lateral_growth = 62",
+      "intercalary_growth = 94",
+      "total_growth = apical_growth + lateral_growth + intercalary_growth"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_growth = apical_growth + lateral_growth + intercalary_growth"
+   ]
+  },
+  {
+   "id": "iesc.103.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "xylem = 4.2",
+      "phloem = 36",
+      "vascular_system = xylem + phloem"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "xylem = 54",
+      "phloem = 75",
+      "vascular_system = xylem + phloem"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "xylem = 51",
+      "phloem = 23",
+      "vascular_system = xylem + phloem"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "xylem = 49",
+      "phloem = 44",
+      "vascular_system = xylem + phloem"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "xylem = 78",
+      "phloem = 39",
+      "vascular_system = xylem + phloem"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "xylem = 51",
+      "phloem = 3.8",
+      "vascular_system = xylem + phloem"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "vascular_system = xylem + phloem"
+   ]
+  },
+  {
+   "id": "iesc.103.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "protection = 80",
+      "secretion = 38",
+      "absorption = 21",
+      "epithelial_function = protection + secretion + absorption"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "protection = 28",
+      "secretion = 15",
+      "absorption = 97",
+      "epithelial_function = protection + secretion + absorption"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "protection = 63",
+      "secretion = 1.8",
+      "absorption = 66",
+      "epithelial_function = protection + secretion + absorption"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "protection = 58",
+      "secretion = 51",
+      "absorption = 75",
+      "epithelial_function = protection + secretion + absorption"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "protection = 48",
+      "secretion = 91",
+      "absorption = 73",
+      "epithelial_function = protection + secretion + absorption"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "protection = 95",
+      "secretion = 81",
+      "absorption = 22",
+      "epithelial_function = protection + secretion + absorption"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "epithelial_function = protection + secretion + absorption"
+   ]
+  },
+  {
+   "id": "iesc.103.6",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "matrix = 96",
+      "cellular_components = 98",
+      "connective_tissue = matrix + cellular_components"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "matrix = 81",
+      "cellular_components = 76",
+      "connective_tissue = matrix + cellular_components"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "matrix = 93",
+      "cellular_components = 80",
+      "connective_tissue = matrix + cellular_components"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "matrix = 20",
+      "cellular_components = 23",
+      "connective_tissue = matrix + cellular_components"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "matrix = 54",
+      "cellular_components = 53",
+      "connective_tissue = matrix + cellular_components"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "matrix = 8.3",
+      "cellular_components = 40",
+      "connective_tissue = matrix + cellular_components"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "connective_tissue = matrix + cellular_components"
+   ]
+  },
+  {
+   "id": "iesc.103.7",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "skeletal = 5.4",
+      "smooth = 93",
+      "cardiac = 2.8",
+      "muscle_types = skeletal + smooth + cardiac"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "skeletal = 84",
+      "smooth = 99",
+      "cardiac = 25",
+      "muscle_types = skeletal + smooth + cardiac"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "skeletal = 33",
+      "smooth = 34",
+      "cardiac = 15.9",
+      "muscle_types = skeletal + smooth + cardiac"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "skeletal = 22",
+      "smooth = 83",
+      "cardiac = 63",
+      "muscle_types = skeletal + smooth + cardiac"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "skeletal = 17.3",
+      "smooth = 1.1",
+      "cardiac = 66",
+      "muscle_types = skeletal + smooth + cardiac"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "skeletal = 80",
+      "smooth = 81",
+      "cardiac = 91",
+      "muscle_types = skeletal + smooth + cardiac"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "muscle_types = skeletal + smooth + cardiac"
+   ]
+  },
+  {
+   "id": "iesc.103.8",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "cell_body = 78",
+      "dendrites = 44",
+      "axon = 47",
+      "axon_terminals = 4.4",
+      "neuron_structure = cell_body + dendrites + axon + axon_terminals"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "cell_body = 66",
+      "dendrites = 67",
+      "axon = 72",
+      "axon_terminals = 117",
+      "neuron_structure = cell_body + dendrites + axon + axon_terminals"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "cell_body = 53",
+      "dendrites = 47",
+      "axon = 49",
+      "axon_terminals = 99",
+      "neuron_structure = cell_body + dendrites + axon + axon_terminals"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "cell_body = 6.7",
+      "dendrites = 48",
+      "axon = 18.7",
+      "axon_terminals = 114",
+      "neuron_structure = cell_body + dendrites + axon + axon_terminals"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "cell_body = 67",
+      "dendrites = 0.9",
+      "axon = 63",
+      "axon_terminals = 72",
+      "neuron_structure = cell_body + dendrites + axon + axon_terminals"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "cell_body = 76",
+      "dendrites = 26",
+      "axon = 12.1",
+      "axon_terminals = 24",
+      "neuron_structure = cell_body + dendrites + axon + axon_terminals"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "neuron_structure = cell_body + dendrites + axon + axon_terminals"
+   ]
+  },
+  {
+   "id": "iesc.103.10",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "annual_rings_count = 496",
+      "tree_age = annual_rings_count"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "annual_rings_count = 122",
+      "tree_age = annual_rings_count"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "annual_rings_count = 253",
+      "tree_age = annual_rings_count"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "annual_rings_count = 191",
+      "tree_age = annual_rings_count"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "annual_rings_count = 475",
+      "tree_age = annual_rings_count"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "annual_rings_count = 182",
+      "tree_age = annual_rings_count"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "tree_age = annual_rings_count"
+   ]
+  }
+ ]
+}

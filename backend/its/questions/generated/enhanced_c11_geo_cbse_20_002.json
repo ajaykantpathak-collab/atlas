@@ -34,6 +34,36 @@
      "q": "Design a locational decision framework for a new 5,000 TCD sugar mill in Karnataka. Specify: (a) 5 geographical criteria with measurable thresholds, (b) 2 policy incentives to leverage, (c) 1 sustainability constraint, and (d) a 3-step site selection process using GIS layers.",
      "a": "(a) Criteria: (1) Cane availability: ≥50,000 ha command area within 25 km radius; (2) Irrigation assurance: ≥80% area under canal/drip (not rainfed); (3) Road density: ≥2 km/km² for cane transport; (4) Power: 33 kV substation within 5 km; (5) Effluent disposal: non-floodplain site with 500m buffer from river. (b) Incentives: (i) Soft loan under Sugar Development Fund (SDF) for cogeneration; (ii) State SAP above FRP + transport subsidy. (c) Sustainability: Zero Liquid Discharge (ZLD) mandate — no effluent discharge; bagasse-based cogeneration must meet 100% process steam + export surplus. (d) GIS process: Step 1: Overlay cane area, irrigation, road layers — identify 10km grid cells meeting all thresholds. Step 2: Buffer analysis — exclude floodplains, forest, urban zones. Step 3: Network analysis — compute weighted transport cost from each candidate cell to cane centroids; select minimum-cost cell with power access. Poor answer: lists generic factors without thresholds or GIS workflow — shows inability to operationalise geographical reasoning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Agro-based industries are manufacturing units that use agricultural raw materials (cotton, jute, sugarcane) as primary inputs, where the weight-losing nature of raw materials dictates location near production zones, and where processing involves distinct stages (ginning, spinning, weaving for cotton; retting, spinning, weaving for jute; crushing, clarification, ______ for sugar) each with specific locational requirements.",
+     "a": "crystallisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ with a cotton t-shirt label: \"Where was the cotton grown?",
+     "a": "Start",
+     "self_check": true
+    },
+    {
+     "q": "What is Agro-based industries? State the definition given in this lesson.",
+     "a": "Agro-based industries are manufacturing units that use agricultural raw materials (cotton, jute, sugarcane) as primary inputs, where the weight-losing nature of raw materials dictates location near production zones, and where processing involves distinct stages (ginning, spinning, weaving for cotton; retting, spinning, weaving for jute.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Students observe that raw cotton loses ______% weight in ginning — so ginning mills cluster in cotton belts.",
+     "a": "65",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Agro-based industries?",
+     "a": "Students believe \"agro-based industries locate near raw material because they are weight-losing\" as a blanket rule.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the locational logic of each industry using Weber's least-cost theory, map the spatial shift of cotton mills from Mumbai to interior Maharashtra/Gujarat/Tamil Nadu with geographical reasoning, and evaluate why sugar industry shows a stronger northward shift than jute despite both being weight-losing.",
+     "self_check": true
     }
    ]
   }

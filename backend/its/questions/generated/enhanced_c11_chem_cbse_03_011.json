@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using only a periodic table and the valency cross-rule to predict and verify the formulas of three binary compounds formed between pairs of elements chosen from: Na, Mg, Al, Cl, O, S. Write the predicted formulas and the reasoning for each.",
      "a": "Example predictions: (1) Na (Gr1, val1) + Cl (Gr17, val1) → NaCl. (2) Mg (Gr2, val2) + O (Gr16, val2) → MgO. (3) Al (Gr13, val3) + S (Gr16, val2) → Al₂S₃. Reasoning: identify group → assign valency (metals = group no., non-metals = 8 – group no.) → cross-multiply → simplify to lowest whole-number ratio. A poor answer uses random pairing, ignores the cross-rule, or writes formulas like AlS₃ (wrong cross-multiplication) or MgCl (ignores Mg valency 2).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Valency is the combining capacity of an element, numerically equal to the number of electrons in the outermost shell (valence electrons) that an atom can lose, gain, or share to achieve a stable noble gas configuration; for representative elements, it equals the group number (for groups 1–14) or 18 minus the group number (for groups 15–17), while oxidation state is the charge assigned to an atom in a compound based on ______ differences.",
+     "a": "electronegativity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how common salt (NaCl) forms from sodium (Group 1) and chlorine (Group 17) — sodium loses one ______, chlorine gains one.",
+     "a": "electron",
+     "self_check": true
+    },
+    {
+     "q": "What is Valency? State the definition given in this lesson.",
+     "a": "Valency is the combining capacity of an element, numerically equal to the number of electrons in the outermost shell (valence electrons) that an atom can lose, gain, or share to achieve a stable noble gas configuration; for representative elements, it equals the group number (for groups 1–14) or 18 minus the group number (for groups.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now consider magnesium chloride (MgCl₂): magnesium (Group ______) loses two electrons, so it needs two chlorine atoms.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Valency?",
+     "a": "Students treat valency and oxidation state as interchangeable fixed numbers for an element.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can predict the formula of a binary compound formed between any two main-group elements using their group numbers and valency rules, and can distinguish between fixed valency (s- and p-block) and variable valency (d-block) with justification from electronic configuration.",
+     "self_check": true
     }
    ]
   }

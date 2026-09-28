@@ -854,7 +854,7 @@ class TutorService:
                             return await TutorService._build_reply(session_id, meta, f"**Glossary for this topic**\n\n{glossary_text}", "glossary", db)
                         return await TutorService._build_reply(session_id, meta, "No glossary available. Type 'flashcards' for key concepts.", "glossary", db)
                     if "eli5" in lower or "simplify" in lower:
-                        content = enrichment.eli5 or "Simple explanation not available for this topic."
+                        content = enrichment.eli5 or enrichment.text_walkthrough or "Simple explanation not available for this topic."
                         return await TutorService._build_reply(session_id, meta, content, "eli5", db)
                     if "what topics" in lower or "browse" in lower or "chapters" in lower:
                         browse_content = await TutorService._handle_topic_browse(db, meta)
@@ -1023,7 +1023,7 @@ class TutorService:
                 # Fall through to intent handling below
             elif any(w in lower for w in ["simplify", "eli5", "explain like", "easy way", "too hard"]):
                 # Serve ELI5 without leaving Socratic mode
-                content = enrichment.eli5 or "Simple explanation not available for this topic."
+                content = enrichment.eli5 or enrichment.text_walkthrough or "Simple explanation not available for this topic."
                 return await TutorService._build_reply(session_id, meta, content, "eli5", db)
             elif lower in ("back", "previous", "go back", "repeat"):
                 # Go back to previous chunk
@@ -1796,6 +1796,80 @@ class TutorService:
         # solvers can't handle. This handles ANY math question.
         _PURE_CONVERSATIONAL = ["hi", "hello", "hey", "thanks", "thank you", "ok", "okay", "bye"]
         if message.lower().strip() not in _PURE_CONVERSATIONAL:
+            # ---- Layer -1: generic expression solver -------------------------
+            # Runs BEFORE the hand-written patterns because measurement says it
+            # is strictly safer: over 10,161 real corpus questions the generic
+            # lanes produced 1 wrong answer against pattern_solver's 36, since
+            # every result is either back-substituted into the original
+            # equation or exact. See scripts/coverage_lab.py --gate.
+            #
+            # Self-contained algebra only ("solve for x: 2x + 8 = 16",
+            # "find the value of 2x^2 + 2x + 6 at x = 3"). The FORMULA lane is
+            # deliberately NOT here: it needs the concept's stored formula,
+            # which does not exist until RoutingService picks a node at Layer 1.
+            # That lane is wired after routing for exactly that reason.
+            # Local import: this module has no module-level `os`, and putting
+            # `_os.environ` outside the try below raised NameError on EVERY
+            # question — a wiring bug that would have broken the tutor outright.
+            import os as _os
+            _gen_on = _os.environ.get("GENERIC_SOLVER_ENABLED", "1")
+            if _gen_on not in ("0", "false", "no", "False"):
+                try:
+                    from backend.ai.generic_solver import solve_expression_question
+                    _gen = solve_expression_question(message)
+                    if _gen and _gen.matched and _gen.answer is not None:
+                        _steps = "\n".join(f"• {s}" for s in _gen.steps)
+                        return {
+                            "question": message,
+                            "answer": f"{_gen.answer}\n\n{_steps}",
+                            "node_id": None,
+                            "node_title": f"Computed ({_gen.question_type})",
+                            "subject": subject,
+                            "class_level": class_level,
+                            "type": _gen.question_type,
+                            "confidence": _gen.confidence,
+                            "method": "generic_expression",
+                        }
+                except Exception as _gen_exc:
+                    # A solver regression must never cost a student their
+                    # answer: fall through to the existing layers untouched.
+                    import logging as _logging
+                    _logging.getLogger(__name__).warning(
+                        f"generic expression solver unavailable: {_gen_exc}"
+                    )
+
+                # Layer -1b: the YAML formula bank. OFF by default.
+                #
+                # Measured on 10,161 real corpus questions: the JSON catalog
+                # formulas (1,771 evaluable, sitting on the owning concept)
+                # solved 888 with 0 wrong, while the bank converted only 458
+                # of 5,520 entries to solvable equations and solved 0 — for
+                # ~11s of startup. Kept behind an env flag for experiments,
+                # out of the student request path.
+                _bank_on = _os.environ.get("FORMULA_BANK_ENABLED", "0")
+                if _bank_on in ("1", "true", "yes", "True"):
+                  try:
+                    from backend.ai.generic_solver import solve_from_bank
+                    _bank = solve_from_bank(message)
+                    if _bank and _bank.matched and _bank.answer is not None:
+                        _bsteps = "\n".join(f"• {s}" for s in _bank.steps)
+                        return {
+                            "question": message,
+                            "answer": f"{_bank.answer}\n\n{_bsteps}",
+                            "node_id": None,
+                            "node_title": "Computed (formula bank)",
+                            "subject": subject,
+                            "class_level": class_level,
+                            "type": "bank_formula",
+                            "confidence": _bank.confidence,
+                            "method": "generic_bank_formula",
+                        }
+                  except Exception as _bank_exc:
+                    import logging as _logging
+                    _logging.getLogger(__name__).warning(
+                        f"formula bank lane unavailable: {_bank_exc}"
+                    )
+
             # Layer 0.1: Try structural pattern solver FIRST (deterministic, no LLM)
             # This is the new spaCy + structural pattern + SymPy pipeline.
             # It handles competency questions, narrative scenarios, and
@@ -1922,6 +1996,46 @@ class TutorService:
             import logging
             logging.getLogger(__name__).warning(f"Routing service unavailable: {e}")
             route = None
+
+        # ---- Post-routing generic lanes ------------------------------------
+        # We now know WHICH concept this question is about, which is what the
+        # formula lane needs (the concept's stored formula) and what the
+        # concept-answer lane needs (its curated explanation). This is why
+        # these lanes could not sit at the top of the funnel.
+        #
+        # `import os as _os` is repeated deliberately: the Layer -1 import is
+        # function-local and sits inside a conditional, so for a conversational
+        # message it never ran and `_os` was UNBOUND here.
+        import os as _os
+        _gen_on = _os.environ.get("GENERIC_SOLVER_ENABLED", "1")
+        if _gen_on not in ("0", "false", "no", "False") and route is not None:
+            try:
+                _node_id = (
+                    route.get("node_id") if isinstance(route, dict)
+                    else getattr(route, "node_id", None)
+                )
+                if _node_id:
+                    from backend.ai.generic_solver import solve_for_node
+                    _node = solve_for_node(message, _node_id)
+                    if _node and _node.matched and _node.answer is not None:
+                        _steps = "\n".join(f"• {s}" for s in _node.steps)
+                        return {
+                            "question": message,
+                            "answer": f"{_node.answer}\n\n{_steps}",
+                            "node_id": str(_node_id),
+                            "node_title": str(_node_id),
+                            "subject": subject,
+                            "class_level": class_level,
+                            "type": _node.question_type or "answer",
+                            "confidence": _node.confidence,
+                            "method": f"generic_{_node.lane}",
+                        }
+            except Exception as _node_exc:
+                # Fail OPEN: fall through to the existing funnel untouched.
+                import logging as _logging
+                _logging.getLogger(__name__).warning(
+                    f"generic node solver unavailable: {_node_exc}"
+                )
 
         # If routing found no match, give a friendly response
         if route is None:
@@ -2138,7 +2252,7 @@ class TutorService:
         if any(w in lower for w in ["simplify", "simple", "eli5", "explain like", "easy way", "too hard",
                                      "easy way batao", "aur explain karo", "aur explain", "explain karo",
                                      "samjhao", "aasan bhasha", "simple bhasha"]):
-            content = enrichment.eli5 or "Simple explanation not available for this topic."
+            content = enrichment.eli5 or enrichment.text_walkthrough or "Simple explanation not available for this topic."
             return content, "eli5"
 
         # Hint (including Hinglish "hint do", "hint de", "hint dedo")

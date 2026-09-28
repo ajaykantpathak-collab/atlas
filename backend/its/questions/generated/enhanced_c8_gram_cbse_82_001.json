@@ -1,0 +1,51 @@
+{
+ "catalog": "enhanced_c8_gram_cbse_82_001",
+ "concepts": [
+  {
+   "id": "enh:c8_gram_cbse_82_001",
+   "title": "c8_gram_cbse_82_001",
+   "questions": [
+    {
+     "q": "Report: 'I will come tomorrow,' he said.",
+     "a": "'He said (that) he would come the next day.' A wrong answer 'he will come tomorrow' shifts nothing — verb, pronoun, and time-word must all move.",
+     "self_check": true
+    },
+    {
+     "q": "'She ___ me that she was leaving.' said or told?",
+     "a": "'told' — 'told' requires the listener object ('told me'); 'said' cannot take 'me' directly. A wrong answer 'said me' is a classic Indian-English slip boards penalize.",
+     "self_check": true
+    },
+    {
+     "q": "Report: 'I have finished my work today,' Ravi said to his mother.",
+     "a": "'Ravi told his mother (that) he had finished his work that day.' has→had, today→that day. A wrong answer keeping 'has finished' shows partial backshift.",
+     "self_check": true
+    },
+    {
+     "q": "Reported speech retells what someone said without quoting them: 'I am tired,' she said → 'She said (that) she was tired.' Three things move together — tense steps back, pronouns ______ to the reporter, and pointing words shift (now→then, today→that day).",
+     "a": "re-anchor",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ speech retells what someone said without quoting them: 'I am tired,' she said → 'She said (that) she was tired.' Three things move together — tense steps back, pronouns re-anchor to the reporter, and pointing words shift (now→then, today→that day).",
+     "a": "Reported",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The camera moves: direct speech is the speaker's camera; ______ speech is the reporter's camera — everything re-frames. 'I am happy here' → 'He said he was happy there'.",
+     "a": "reported",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student converts statements direct→indirect with the full three-part shift (tense, pronouns, deictics), choosing said/told correctly ('told' needs an object).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The camera moves: direct speech is the speaker's camera; reported speech is the reporter's camera — ______ re-frames. 'I am happy here' → 'He said he was happy there'.",
+     "a": "everything",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

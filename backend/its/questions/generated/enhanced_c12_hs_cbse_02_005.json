@@ -32,7 +32,32 @@
     },
     {
      "q": "Design a one-day lipid-modified menu for a 60-year-old post-MI patient with dyslipidemia (LDL 160 mg/dL, TG 220 mg/dL, HDL 35 mg/dL) using ICMR 2020 guidelines, specifying oil choices, visible fat quantity, and omega-3 sources.",
-     "a": "Menu principles: Total fat 20-25% energy (~45-55 g/day for 1800 kcal), visible fat 20 g/day. SFA <7% energy, MUFA 10-15%, PUFA 8-10% (omega-6:omega-3 5:1). Oils: 10 g rice bran oil (MUFA+PUFA, oryzanol), 5 g mustard oil (ALA 12%), 5 g flaxseed oil (ALA 55%, cold use only). Visible fat = 20 g. Omega-3 sources: 30 g roasted flaxseed powder (5 g ALA), 100 g fatty fish (rohu/mackerel, 1.5 g EPA+DHA) 2×/week, walnuts 15 g/day. Sample: Breakfast — oats porridge with 5 g flaxseed powder, 100 mL skim milk; Lunch — brown rice, dal, mustard-oil sautéed greens, fish curry (rice bran oil); Snack — walnuts 15 g; Dinner — multigrain roti, rajma, salad with 5 g flaxseed oil dressing. A poor answer giving generic \"low fat\" without quantitative oil allocation, omega-3 specification, or cooking method shows inability to translate guidelines into personalized prescription — the core skill of clinical nutrition.",
+     "a": "(1) Fat budget — total fat 20 to 25 percent of energy, visible fat near 20 grams a day, saturated fat under 7 percent, omega-6 to omega-3 near 5 to 1, (2) Oil allocation — rice bran oil for cooking, mustard oil for its alpha-linolenic acid, and flaxseed oil used cold in dressings, (3) Omega-3 sources — flaxseed powder daily, fatty fish twice a week for EPA and DHA, and walnuts as the snack, (4) The day's menu — oats with flaxseed powder and skim milk at breakfast, brown rice, dal, mustard-oil greens and fish curry at lunch, and multigrain roti with rajma and a flaxseed-oil salad at dinner. A poor answer prescribes generic low-fat eating without quantitative oil allocation, omega-3 specification or cooking method.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Lipids are a ______ group of organic compounds insoluble in water but soluble in non-polar solvents, primarily composed of carbon, hydrogen, and oxygen, classified into simple lipids (triglycerides, waxes), compound lipids (phospholipids, glycolipids), and derived lipids (steroids, fat-soluble vitamins), with fatty acids as their fundamental building blocks determining physical properties and physiological functions.",
+     "a": "heterogeneous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"Why does ghee solidify in winter but mustard oil stays liquid — and why does your nutritionist insist on both omega-3 and omega-6?\" This hooks the student to the real-world puzzle of lipid physical properties and ______.",
+     "a": "essentiality",
+     "self_check": true
+    },
+    {
+     "q": "What is Lipids? State the definition given in this lesson.",
+     "a": "Lipids are a heterogeneous group of organic compounds insoluble in water but soluble in non-polar solvents, primarily composed of carbon, hydrogen, and oxygen, classified into simple lipids (triglycerides, waxes), compound lipids (phospholipids, glycolipids), and derived lipids (steroids, fat-soluble vitamins), with fatty acids as their.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) classify any given lipid into simple, compound, or derived categories with structural justification, and (2) evaluate a dietary scenario for essential fatty acid adequacy and health risk by calculating omega-6:omega-3 ratio and identifying trans-fat sources.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"Why does ghee solidify in winter but mustard oil stays liquid — and why does your ______ insist on both omega-3 and omega-6?\" This hooks the student to the real-world puzzle of lipid physical properties and essentiality.",
+     "a": "nutritionist",
      "self_check": true
     }
    ]

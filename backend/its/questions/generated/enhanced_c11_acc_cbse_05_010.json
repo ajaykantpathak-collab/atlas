@@ -34,6 +34,26 @@
      "q": "Create a new BRS problem with overdraft as per passbook as starting point, including at least 6 adjusting items (mix of timing differences and one error). Provide the problem statement only - do not solve it.",
      "a": "**Problem:** On 31st December 2023, the passbook of M/s Sharma Traders showed an overdraft of ₹75,000. On comparing with cash book, the following discrepancies were found:\n1. Cheques issued in December ₹25,000, of which ₹8,000 were presented in January 2024.\n2. Cheques deposited ₹18,000, of which ₹5,000 were credited in January 2024.\n3. Bank charged ₹350 for cheque collection, not recorded in cash book.\n4. Interest on overdraft ₹2,100 debited by bank, not entered in cash book.\n5. A customer directly deposited ₹12,000 into the bank account, no entry in cash book.\n6. LIC premium ₹4,500 paid by bank under standing instruction, not recorded in cash book.\n7. **Error:** A cheque of ₹3,200 issued to supplier was recorded in cash book as ₹2,300.\nPrepare Bank Reconciliation Statement as on 31st December 2023 starting with overdraft as per passbook.\n\n*Criteria for good answer:* Student must correctly classify all 7 items with reversed treatment (vs cash book start), handle the error by comparing correct vs recorded amount (₹900 difference), and present in proper two-column format. Poor answer reveals inability to reverse logic when starting point changes and/or mishandling error adjustment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Bank ______ Statement with an overdraft balance reconciles the credit balance (unfavourable) in the bank column of the cash book with the debit balance (unfavourable) in the passbook, by adjusting for timing differences and errors.",
+     "a": "Reconciliation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small wholesale business and your bank ______ shows a negative balance of ₹50,000 (overdraft), but your cash book shows only ₹42,000 overdraft.",
+     "a": "statement",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to prepare a complete Bank Reconciliation Statement starting from either overdraft as per cash book or overdraft as per passbook, correctly classifying each adjusting item as addition or deduction, and arriving at the matching balance with proper presentation format.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small ______ business and your bank statement shows a negative balance of ₹50,000 (overdraft), but your cash book shows only ₹42,000 overdraft.",
+     "a": "wholesale",
+     "self_check": true
     }
    ]
   }

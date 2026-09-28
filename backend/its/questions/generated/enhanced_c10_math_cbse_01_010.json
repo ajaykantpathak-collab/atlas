@@ -34,6 +34,16 @@
      "q": "Create a real-life word problem (Indian context) that requires finding the LCM of three numbers. The three numbers should be between 10 and 50. Write the problem and solve it.",
      "a": "**Expected answer:** A well-formed problem, e.g.:  \n\"Three traffic lights at different crossings change after 24 seconds, 36 seconds, and 48 seconds respectively. If they change simultaneously at 8:00 AM, at what time will they next change together?\"  \nSolution: LCM of 24, 36, 48.  \n24 = 2³ × 3, 36 = 2² × 3², 48 = 2⁴ × 3.  \nLCM = 2⁴ × 3² = 16 × 9 = 144 seconds = 2 minutes 24 seconds.  \nNext simultaneous change at 8:02:24 AM.  \n**Criteria for good answer:** Correct use of LCM context (simultaneous events), three numbers in range, correct prime factorisation, correct LCM calculation, correct conversion to time, final answer with units.  \n**What a poor answer reveals:** Using HCF context (e.g., \"cutting ribbons into equal pieces\" for LCM), numbers outside range, missing prime factorisation steps, arithmetic error in LCM, forgetting to convert seconds to minutes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine three bells in a temple ring at ______ of 12 minutes, 18 minutes, and 30 minutes.",
+     "a": "intervals",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can correctly compute HCF and LCM of any three given positive integers using prime factorisation, showing all steps of factorisation, identification of common primes for HCF and all primes for LCM, and selection of correct exponents.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a simple flowchart showing how a UPI payment of ₹500 from Person A (Bank X) to Person B (Bank Y) moves through the banking system. Label the role of NPCI, the two banks, and the demand deposit accounts.",
      "a": "Expected flowchart (text description):\n1. Person A initiates UPI payment (₹500) via app → request goes to **NPCI (National Payments Corporation of India)**.\n2. NPCI routes request to **Bank X** (A’s bank) → Bank X verifies balance & debits A’s **demand deposit (savings) account** by ₹500.\n3. NPCI sends credit instruction to **Bank Y** (B’s bank) → Bank Y credits B’s **demand deposit (savings/current) account** by ₹500.\n4. NPCI sends confirmation to both apps. Settlement between Bank X and Bank Y occurs via their accounts with **RBI** (inter-bank settlement).\nA poor answer (missing NPCI, showing cash movement, or omitting demand deposit debit/credit) reveals the student views UPI as a \"wallet\" rather than a **bank-account-to-bank-account transfer system**.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Modern forms of money in India consist of currency (paper notes and coins) issued by the Reserve Bank of India (RBI) on behalf of the central ______, and bank deposits (demand deposits) held in commercial banks that can be withdrawn on demand via cheques, ATMs, or digital transfers.",
+     "a": "government",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You can pay with a ₹500 note (______) or scan a UPI QR code (bank deposit transfer).",
+     "a": "currency",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You can pay with a ₹______ note (currency) or scan a UPI QR code (bank deposit transfer).",
+     "a": "500",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between currency and bank deposits as forms of money, explain why both are accepted as medium of exchange in India, and describe the role of RBI in issuing currency and regulating bank deposits.",
+     "self_check": true
     }
    ]
   }

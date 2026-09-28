@@ -34,6 +34,31 @@
      "q": "Design a communication accessibility index for a tribal district using four indicators: (a) active wireless connections per 100 population, (b) gram panchayats with BharatNet FTTH, (c) community radio stations per lakh population, (d) post offices offering Aadhaar enrolment. Assign weights and justify.",
      "a": "Proposed index (0-100): (a) Wireless tele-density × 0.4 (primary access), (b) % GPs with FTTH × 0.3 (broadband backbone), (c) Community radio per lakh × 10 × 0.2 (local content), (d) % POs with Aadhaar × 0.1 (identity + finance). Weights reflect hierarchy: personal mobile access > broadband infrastructure > local media > institutional services. A poor answer using equal weights fails to recognize that in tribal areas, mobile voice is the entry point, while community radio addresses language barriers that mainstream media ignores.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Communication in geography refers to the transmission and exchange of information, ideas, and messages across space through established networks and technologies, encompassing personal communication (postal services, ______) enabling one-to-one or few-to-few interaction, and mass communication (print, electronic, digital media) facilitating one-to-many dissemination, both serving as critical infrastructure for socio-economic integration, governance, and spatial connectivity in India.",
+     "a": "telecommunications",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your ______: it delivers a letter (email), a voice call (VoLTE), a newspaper (news app), and a TV channel (streaming) — all through one device using the same optical fiber or wireless spectrum.",
+     "a": "smartphone",
+     "self_check": true
+    },
+    {
+     "q": "What is Communication in geography? State the definition given in this lesson.",
+     "a": "Communication in geography refers to the transmission and exchange of information, ideas, and messages across space through established networks and technologies, encompassing personal communication (postal services, telecommunications) enabling one-to-one or few-to-few interaction, and mass communication (print, electronic, digital.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Communication in geography?",
+     "a": "Students believe \"Digital India\" means every village has high-speed internet.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can analyze the spatial distribution and technological evolution of India's communication networks, evaluate the impact of digital convergence on regional accessibility, and explain how communication infrastructure transforms economic geography through worked examples involving tele-density calculations, network topology.",
+     "self_check": true
     }
    ]
   }

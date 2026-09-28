@@ -34,6 +34,31 @@
      "q": "Design a novel scoring scheme for aligning two DNA sequences where transitions (A↔G, C↔T) are penalized less than transversions (purine↔pyrimidine), and gaps in homopolymer runs (e.g., AAAAA) are penalized less than isolated gaps. Specify all parameters and explain how this would modify the standard dynamic programming recurrence.",
      "a": "Scoring scheme: Match=+5; Transition mismatch=-1 (A↔G, C↔T); Transversion mismatch=-3 (A/C↔G/T); Gap open=-4; Gap extend=-1; Homopolymer gap extend=-0.5 (if gap continues in a run of identical bases). This requires affine gap penalty with context-dependent extension cost. Modified recurrence needs three matrices: M(i,j) for match/mismatch, Ix(i,j) for gap in X, Iy(i,j) for gap in Y. M(i,j) = max{ M(i-1,j-1), Ix(i-1,j-1), Iy(i-1,j-1) } + s(x_i,y_j). Ix(i,j) = max{ M(i-1,j) - gap_open, Ix(i-1,j) - gap_extend_context }. Context-dependent extension: if x_{i-1}=x_i=... (homopolymer), use -0.5 else -1. This captures biological reality that transitions are more common mutations and polymerase slippage in homopolymers creates indels more easily. A poor answer would just list parameters without modifying the recurrence structure, or would keep linear gap penalty.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Pairwise sequence alignment using dynamic programming is a ______ algorithm that finds the optimal alignment between two biological sequences (DNA, RNA, or protein) by breaking the problem into smaller overlapping subproblems, solving each subproblem once, and storing solutions in a scoring matrix to avoid redundant calculations, guaranteeing the globally optimal alignment for a given scoring scheme.",
+     "a": "computational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have two DNA ______ from different patients: Patient A has \"ATCG\" and Patient B has \"ACG\".",
+     "a": "sequences",
+     "self_check": true
+    },
+    {
+     "q": "What is Pairwise sequence alignment using dynamic programming? State the definition given in this lesson.",
+     "a": "Pairwise sequence alignment using dynamic programming is a computational algorithm that finds the optimal alignment between two biological sequences (DNA, RNA, or protein) by breaking the problem into smaller overlapping subproblems, solving each subproblem once, and storing solutions in a scoring matrix to avoid redundant calculations.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Pairwise sequence alignment using dynamic programming?",
+     "a": "Students believe that the dynamic programming matrix cells represent \"the alignment score up to that point\" in a vague sense, and that traceback simply follows the maximum values.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Construct the complete dynamic programming scoring matrix for two given sequences with specified match/mismatch/gap scores, (2) Perform traceback to derive the optimal alignment(s), and (3) Explain why dynamic programming guarantees optimality while greedy approaches do not.",
+     "self_check": true
     }
    ]
   }

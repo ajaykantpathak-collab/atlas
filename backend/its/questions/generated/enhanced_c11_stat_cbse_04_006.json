@@ -34,6 +34,26 @@
      "q": "Create a grouped frequency distribution with 5 classes such that its frequency polygon is a perfect symmetric triangle (isosceles triangle with base on the horizontal axis). Provide the class intervals, frequencies, and a rough sketch description of the resulting histogram and polygon.",
      "a": "Example: Classes 0–10, 10–20, 20–30, 30–40, 40–50 (equal width 10). Frequencies: 0, 5, 10, 5, 0. Class marks: 5, 15, 25, 35, 45. Polygon points: (5,0), (15,5), (25,10), (35,5), (45,0) — forms a symmetric triangle. Histogram: rectangles of heights 0, 5, 10, 5, 0 (first and last rectangles have zero height, so effectively three rectangles). A poor answer (e.g., asymmetric frequencies or forgetting zero-frequency end classes) reveals the student cannot reverse-engineer the polygon's geometry to design a matching distribution, indicating a lack of synthesis between tabular data and graphical shape.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A frequency polygon is a graphical ______ of a grouped frequency distribution constructed by joining the mid-points of the upper horizontal sides of adjacent rectangles in a histogram with straight line segments, and extending the ends to the horizontal axis at the mid-points of the preceding and succeeding classes with zero frequency.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have drawn a histogram showing the daily wages of 85 workers in a locality, but now you need to compare this wage ______ with another locality's data on the same graph paper.",
+     "a": "distribution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have drawn a histogram showing the daily wages of ______ workers in a locality, but now you need to compare this wage distribution with another locality's data on the same graph paper.",
+     "a": "85",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently construct a frequency polygon from a given histogram by correctly identifying class marks, plotting points at the top mid-points of each rectangle, adding two extra points at the base line for the classes with zero frequency at both ends, and joining all points with straight lines to form a.",
+     "self_check": true
     }
    ]
   }

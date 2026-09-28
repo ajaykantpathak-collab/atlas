@@ -1,6 +1,147 @@
 {
- "catalog": "catalog_class12_biotechnology_lebt107",
+ "catalog": "catalog_class12_biotechnology_lebt107.json",
  "concepts": [
+  {
+   "id": "lebt107.3",
+   "title": "Auxin Cytokinin Balance in Nutrient Media",
+   "converted_to_compute": true,
+   "formula": "hormone_ratio = auxin_level / kinetin_level",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "hormone_ratio = auxin_level / kinetin_level",
+     "compute": "hormone_ratio = auxin_level / kinetin_level"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Auxin Cytokinin Balance in Nutrient Media: given auxin_level = 10.6, kinetin_level = 18.1, find hormone ratio.",
+     "a": "0.585635",
+     "self_check": false
+    },
+    {
+     "q": "For Auxin Cytokinin Balance in Nutrient Media: given auxin_level = 5.6, kinetin_level = 12, find hormone ratio.",
+     "a": "0.466667",
+     "self_check": false
+    },
+    {
+     "q": "For Auxin Cytokinin Balance in Nutrient Media: given auxin_level = 19.8, kinetin_level = 16.6, find hormone ratio.",
+     "a": "1.19277",
+     "self_check": false
+    },
+    {
+     "q": "For Auxin Cytokinin Balance in Nutrient Media: given auxin_level = 11.4, kinetin_level = 11.6, find hormone ratio.",
+     "a": "0.982759",
+     "self_check": false
+    },
+    {
+     "q": "For Auxin Cytokinin Balance in Nutrient Media: given auxin_level = 2.3, kinetin_level = 17.4, find hormone ratio.",
+     "a": "0.132184",
+     "self_check": false
+    },
+    {
+     "q": "For Auxin Cytokinin Balance in Nutrient Media: given auxin_level = 18.6, kinetin_level = 12.4, find hormone ratio.",
+     "a": "1.5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lebt107.4",
+   "title": "MS Medium Strength versus White Medium",
+   "converted_to_compute": true,
+   "formula": "ms_fold = ms_conc / white_conc",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ms_fold = ms_conc / white_conc",
+     "compute": "ms_fold = ms_conc / white_conc"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For MS Medium Strength versus White Medium: given ms_conc = 15.3, white_conc = 32, find ms fold.",
+     "a": "0.478125",
+     "self_check": false
+    },
+    {
+     "q": "For MS Medium Strength versus White Medium: given ms_conc = 5.8, white_conc = 60, find ms fold.",
+     "a": "0.0966667",
+     "self_check": false
+    },
+    {
+     "q": "For MS Medium Strength versus White Medium: given ms_conc = 55, white_conc = 1.1, find ms fold.",
+     "a": "50",
+     "self_check": false
+    },
+    {
+     "q": "For MS Medium Strength versus White Medium: given ms_conc = 59, white_conc = 59, find ms fold.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "For MS Medium Strength versus White Medium: given ms_conc = 64, white_conc = 54, find ms fold.",
+     "a": "1.18519",
+     "self_check": false
+    },
+    {
+     "q": "For MS Medium Strength versus White Medium: given ms_conc = 25, white_conc = 15.9, find ms fold.",
+     "a": "1.57233",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lebt107.6",
+   "title": "Haploids Double Haploids and Somatic Hybrids",
+   "converted_to_compute": true,
+   "formula": "doubled_count = haploid_count * 2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "doubled_count = haploid_count * 2",
+     "compute": "doubled_count = haploid_count * 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Haploids Double Haploids and Somatic Hybrids: given haploid_count = 379, find doubled count.",
+     "a": "758",
+     "self_check": false
+    },
+    {
+     "q": "For Haploids Double Haploids and Somatic Hybrids: given haploid_count = 374, find doubled count.",
+     "a": "748",
+     "self_check": false
+    },
+    {
+     "q": "For Haploids Double Haploids and Somatic Hybrids: given haploid_count = 179, find doubled count.",
+     "a": "358",
+     "self_check": false
+    },
+    {
+     "q": "For Haploids Double Haploids and Somatic Hybrids: given haploid_count = 256, find doubled count.",
+     "a": "512",
+     "self_check": false
+    },
+    {
+     "q": "For Haploids Double Haploids and Somatic Hybrids: given haploid_count = 351, find doubled count.",
+     "a": "702",
+     "self_check": false
+    },
+    {
+     "q": "For Haploids Double Haploids and Somatic Hybrids: given haploid_count = 254, find doubled count.",
+     "a": "508",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "lebt107.1",
    "title": "Totipotency and the History of Plant Tissue Culture",
@@ -44,68 +185,6 @@
    ]
   },
   {
-   "id": "lebt107.3",
-   "title": "Auxin Cytokinin Balance in Nutrient Media",
-   "questions": [
-    {
-     "q": "Using the method 'Auxin Cytokinin Balance in Nutrient Media', work with: auxin_level = 400, kinetin_level = 240. Carry the chain through step by step and give the final value of excess.",
-     "a": "160 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Auxin Cytokinin Balance in Nutrient Media' and work with: auxin_level = 25, kinetin_level = 15. Carry the chain through step by step and give the final value of excess.",
-     "a": "10 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Auxin Cytokinin Balance in Nutrient Media' refers to.",
-     "a": "Media blend macronutrients, micronutrients, amino acids, B vitamins, two to five percent sucrose, gelling agar, optional antibiotics and minute doses of five hormone classes; the auxin-cytokinin ratio rules morphogenesis - excess auxin roots, excess cytokinin shoots, and intermediate balance proliferates callus - while a pH set around 5.8-6.0 keeps the gel firm and the salts soluble.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Auxin Cytokinin Balance in Nutrient Media'.",
-     "a": "Divide auxin by cytokinin - a quotient above one pushes roots, below one pushes shoots, near one keeps callus.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Auxin Cytokinin Balance in Nutrient Media', in plain ASCII form.",
-     "a": "hormone_ratio = auxin_level / kinetin_level",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebt107.4",
-   "title": "MS Medium Strength versus White Medium",
-   "questions": [
-    {
-     "q": "Using the method 'MS Medium Strength versus White Medium', work with: ms_conc = 240, white_conc = 40. Carry the chain through step by step and give the final value of extra_mg.",
-     "a": "200 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'MS Medium Strength versus White Medium' and work with: ms_conc = 100, white_conc = 30. Carry the chain through step by step and give the final value of extra_mg.",
-     "a": "70 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'MS Medium Strength versus White Medium' refers to.",
-     "a": "Murashige and Skoog's formulation is a salt powerhouse next to White's classic recipe: potassium nitrate runs 1900 against 80 milligrams per litre and ammonium nitrate adds 1650 where White has none, thiamine sits at 0.5 rather than 0.01, and sucrose rises from 20 to 30 grams per litre - richness that lets MS culture a far wider range of species.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'MS Medium Strength versus White Medium'.",
-     "a": "Divide each MS concentration by its White's value to see how much stronger the modern medium is.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'MS Medium Strength versus White Medium', in plain ASCII form.",
-     "a": "ms_fold = ms_conc / white_conc",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "lebt107.5",
    "title": "Micropropagation and Synthetic Seeds",
    "questions": [
@@ -122,37 +201,6 @@
     {
      "q": "Under which section is 'Micropropagation and Synthetic Seeds' taught, and from which source text?",
      "a": "7.5 (source: lebt107.txt section 7.5, Fig. 7.3)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebt107.6",
-   "title": "Haploids Double Haploids and Somatic Hybrids",
-   "questions": [
-    {
-     "q": "Using the method 'Haploids Double Haploids and Somatic Hybrids', work with: haploid_count = 500. Carry the chain through step by step and give the final value of homozygous_pairs.",
-     "a": "500 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Haploids Double Haploids and Somatic Hybrids' and work with: haploid_count = 5. Carry the chain through step by step and give the final value of homozygous_pairs.",
-     "a": "5 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Haploids Double Haploids and Somatic Hybrids' refers to.",
-     "a": "Anther, pollen or ovary culture yields haploids whose colchicine doubling produces homozygous diploids that expose recessive traits for breeders; protoplasts stripped by cellulase and pectinase fuse under polyethylene glycol across species barriers - Carlson's 1972 Nicotiana hybrids began the era, Pomato mixed potato with tomato, and cybridisation even pairs one parent's nucleus with another's mitochondria or chloroplasts.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Haploids Double Haploids and Somatic Hybrids'.",
-     "a": "Double the haploid chromosome set with colchicine and the clone turns homozygous diploid; fuse protoplasts and species barriers fall.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Haploids Double Haploids and Somatic Hybrids', in plain ASCII form.",
-     "a": "doubled_count = haploid_count * 2",
      "self_check": true
     }
    ]

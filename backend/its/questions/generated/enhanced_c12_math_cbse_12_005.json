@@ -34,6 +34,16 @@
      "q": "Create a real-world maximisation problem (Indian context) with two decision variables, three constraints (excluding non-negativity), and a bounded feasible region. Write the complete mathematical formulation and solve it graphically using the Corner Point Method. Show all corner points and the optimal solution.",
      "a": "Example: A farmer in Punjab has 50 acres of land. He grows wheat (₹2000 profit/acre) and rice (₹3000 profit/acre). Wheat needs 2 hours/acre of labour, rice needs 3 hours/acre; total labour available is 120 hours. Fertiliser: wheat 50 kg/acre, rice 40 kg/acre; max 2000 kg. Let x = acres of wheat, y = acres of rice. Maximise Z = 2000x + 3000y subject to: x + y ≤ 50, 2x + 3y ≤ 120, 50x + 40y ≤ 2000 → 5x + 4y ≤ 200, x≥0, y≥0. Corner points: O(0,0), A(40,0), B(0,40), C(20,20) [intersection of x+y=50 and 2x+3y=120], D(0,50) but D violates 2x+3y≤120? Actually (0,50): 2(0)+3(50)=150>120 so not feasible. Intersection of 2x+3y=120 and 5x+4y=200 gives (0,40) and (40,0) and (80/7, 200/7) ≈ (11.4,28.6). Feasible region vertices: O(0,0), A(40,0), E(80/7,200/7), B(0,40). Z values: 0, 80000, 2000(80/7)+3000(200/7)= (160000+600000)/7=760000/7≈108571, 120000. Max = 120000 at (0,40) i.e. 40 acres rice, 0 wheat. A good answer includes correct formulation, accurate graph, all corner points identified by solving pairs of equations, and correct optimum.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small ______ in Jaipur that makes wooden toys: cars (₹50 profit each) and dolls (₹40 profit each).",
+     "a": "workshop",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) graph the feasible region from a set of linear constraints, (2) identify all corner points correctly by solving intersecting lines, (3) evaluate the objective function at each corner point, (4) determine the optimal value for bounded regions directly, and (5) for unbounded regions correctly apply the open half-plane.",
+     "self_check": true
     }
    ]
   }

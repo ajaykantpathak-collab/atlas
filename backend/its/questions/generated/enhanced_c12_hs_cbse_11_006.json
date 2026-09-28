@@ -34,6 +34,31 @@
      "q": "Design a simple weekly expense tracking sheet for a family of four that captures date, category (fixed/variable/discretionary), amount, payment mode (cash/UPI/card), and a notes column for unusual items. Explain how this sheet feeds into the monthly budget evaluation process.",
      "a": "A good answer will present a table with columns: Date | Category (F/V/D) | Description | Amount (₹) | Mode | Notes. It should explain that at month-end, expenses are summed by category, compared to budgeted amounts, variances are calculated, and reasons for variances (from notes) are analyzed to adjust next month's budget or spending behavior. A poor answer that omits categorization or notes fails to link tracking to the control and evaluation steps of the management process.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Money Management in a family context refers to the systematic process of planning, organizing, ______, and evaluating the use of financial resources (income) to meet current and future expenditure needs, achieve financial goals, and ensure economic security through budgeting, record-keeping, and informed decision-making.",
+     "a": "controlling",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family receives a monthly income of ₹50,000 but often runs out of money before the month ends, leading to stress and ______.",
+     "a": "borrowing",
+     "self_check": true
+    },
+    {
+     "q": "What is Money Management in a family context? State the definition given in this lesson.",
+     "a": "Money Management in a family context refers to the systematic process of planning, organizing, controlling, and evaluating the use of financial resources (income) to meet current and future expenditure needs, achieve financial goals, and ensure economic security through budgeting, record-keeping, and informed decision-making.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Money Management in a family context?",
+     "a": "Students often think that \"budgeting means cutting down all enjoyment and living frugally.\" They equate budgeting with deprivation, so they either avoid making a budget or make one so strict it fails.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to construct a realistic monthly family budget given a set of income sources and expenditure categories, identify variances between planned and actual spending, and propose corrective actions to align with financial goals.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Create a real-life word problem (using rupees, metres, or litres) that requires using the rule \\(a^m \\div a^n = a^{m-n}\\) to solve. Write the problem and solve it.",
      "a": "Example problem: \"A water tank holds \\(10^6\\) litres of water. If each household uses \\(10^3\\) litres per day, how many days will the water last for one household?\" Solution: \\(10^6 \\div 10^3 = 10^{6-3} = 10^3 = 1000\\) days. A good answer includes a clear scenario with same base (10), correct application of the rule, and interpretation of the result. A poor answer uses different bases, does not require division of powers, or solves by repeated subtraction instead of the exponent rule.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This rule follows from ______ common factors in the expanded form.",
+     "a": "cancelling",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This pattern leads to the rule: when dividing powers with the same base, subtract the ______.",
+     "a": "exponents",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly apply the quotient rule for exponents to simplify expressions with the same base, explain why subtraction of exponents occurs by showing the cancellation of factors, and solve problems where the rule is combined with multiplication of powers or power of a power.",
+     "self_check": true
     }
    ]
   }

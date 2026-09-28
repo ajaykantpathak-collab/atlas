@@ -34,6 +34,26 @@
      "q": "Design a finishing protocol for a blended fabric: 60% polyester / 40% cotton white bedsheet that has turned grey after multiple washes. Specify the washing method, brightening agent, stiffening agent (if any), and drying condition. Justify each choice.",
      "a": "Washing method: Machine wash (gentle cycle) — polyester-cotton blends tolerate machine agitation; gentle cycle reduces cotton abrasion. Brightening agent: Optical brightener (not blue) — counters both greyness (polyester) and yellowness (cotton); blue only masks yellowness. Stiffening agent: Light starch (optional) — cotton component accepts starch; polyester does not need it but tolerates it. Drying: Line dry in shade — polyester loses strength in sunlight; cotton tolerates sun but shade prevents unnecessary UV exposure. A poor answer chooses blue over optical brightener (missing greyness), recommends heavy starch (polyester doesn't absorb starch), or sun-dries (ignores polyester photodegradation), revealing inability to synthesise blend-specific care.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Methods of washing fabrics refer to the mechanical techniques (friction, kneading/squeezing, suction, machine agitation) selected based on fibre type, fabric ______, and soil level to dislodge dirt and hold it in suspension.",
+     "a": "construction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just washed a white cotton kurta, a silk ______, and a woollen sweater—all in the same load by mistake.",
+     "a": "dupatta",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can select the correct washing method and finishing agent for a given fabric type (cotton, silk, wool, synthetic, blend) and soil condition, justify the choice based on fibre properties, and explain the mechanism of blues versus optical brighteners and the role of borax in starch solutions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you have just washed a white cotton kurta, a silk dupatta, and a woollen sweater—all in the same load by mistake.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_14_003",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_14_003",
+   "title": "c12_leg_cbse_14_003",
+   "questions": [
+    {
+     "q": "State the constitutional provision that mandates free legal aid and the year it was inserted. Explain the significance of its placement in Part IV (Directive Principles) rather than Part III (Fundamental Rights).",
+     "a": "Article 39A, inserted by the 42nd Amendment Act, 1976. Its placement in Part IV means it is not directly enforceable by courts (unlike Part III rights), but it imposes a moral and policy obligation on the State. The Supreme Court has read it into Article 21 (Right to Life) to make it justiciable — a classic example of judicial creativity expanding Directive Principles into enforceable rights. A wrong answer (e.g., citing Article 21 directly or saying it's in Part III) reveals confusion between constitutional text and judicial interpretation, and ignorance of the 42nd Amendment's role in social justice jurisprudence.",
+     "self_check": true
+    },
+    {
+     "q": "A 65-year-old widow in Delhi with an annual income of ₹1.5 lakh wants free legal aid for a property dispute in the District Court. She owns a small house. Does she qualify under Section 12 of the Legal Services Authorities Act, 1987? Justify using specific clauses.",
+     "a": "No, she does not automatically qualify. Section 12(h) sets the income ceiling at ₹9,000 (or higher as prescribed by State Government) for courts other than the Supreme Court. Delhi's rules may raise this limit, but ₹1.5 lakh likely exceeds it. She is a woman [12(c)] and a senior citizen (eligible under State Rules), but the income criterion is a statutory filter. A wrong answer (\"Yes, because she is a woman/senior citizen\") reveals the misconception that category membership alone guarantees aid — ignoring the income ceiling for non-SC/ST/disaster victims. The Act uses \"and\" logic for income-based categories, not \"or\".",
+     "self_check": true
+    },
+    {
+     "q": "A dispute arises between a consumer and an electricity distribution company (a public utility) over a billing error of ₹50,000. The consumer refuses to attend conciliation at the Permanent Lok Adalat. Can the Permanent Lok Adalat still decide the dispute? Explain the procedure under the 2002 Amendment.",
+     "a": "Yes. Under Section 22B(3) of the 2002 Amendment, if parties fail to reach agreement, the Permanent Lok Adalat \"shall decide the dispute\" on merits. Unlike regular Lok Adalats (which require mutual consent for settlement), Permanent Lok Adalats have adjudicatory power for public utility disputes — they can pass a binding award even if one party is uncooperative. The award is final and deemed a civil court decree. A wrong answer (\"No, consent is mandatory\") confuses Permanent Lok Adalats (statutory, adjudicatory, for public utilities) with regular Lok Adalats (consensual, conciliatory, for any compoundable dispute).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the composition and appointment process of NALSA and a State Legal Services Authority (SLSA). Why is the Chief Justice of India the Patron-in-Chief of NALSA but the Chief Justice of the High Court the Patron-in-Chief of SLSA?",
+     "a": "NALSA: Patron-in-Chief = CJI; Executive Chairman = sitting/retired SC Judge (appointed by President in consultation with CJI); Member Secretary = District Judge level officer. SLSA: Patron-in-Chief = Chief Justice of High Court; Executive Chairman = sitting/retired HC Judge (appointed by Governor in consultation with HC CJ); Member Secretary = District Judge. The hierarchy mirrors the judicial hierarchy: Supreme Court oversees national legal aid; High Courts oversee state-level implementation. This ensures judicial independence in legal aid administration. A wrong answer (e.g., \"Government appoints both\") misses the constitutional design — legal aid authorities are judicial, not executive, bodies to prevent political interference in aid allocation.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The Legal Services Authorities Act, 1987 has failed because lakhs of undertrial prisoners still languish in jails without legal representation.\" Use the Hussainara Khatoon judgment and NALSA's current mandate to support your view.",
+     "a": "The statement is partially valid but ignores structural constraints. Hussainara Khatoon (1979) established free legal aid and speedy trial as Article 21 rights — before the 1987 Act existed. The Act operationalized this mandate. NALSA now runs \"Legal Aid Clinics\" in jails, appoints panel lawyers for undertrials, and organizes \"Jail Adalats\". However, systemic issues persist: lawyer vacancies, low honorariums, lack of prison-visit infrastructure, and judicial vacancies. The Act provided the *framework*; implementation gaps are administrative, not legislative. A purely negative evaluation reveals ignorance of the Act's achievements (millions served, Lok Adalats disposing of crores of cases) and the distinction between law-making and law-enforcement.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Legal Aid Awareness Campaign\" for a tribal district in Odisha where people speak only Kui language, have no internet, and distrust courts due to historical land alienation. Specify: (a) 3 delivery methods, (b) 2 key messages, (c) 1 metric to measure impact.",
+     "a": "(a) 1) Mobile Legal Aid Van with Kui-speaking para-legals visiting weekly haats (markets); 2) Community radio spots in Kui explaining Section 12 eligibility via folk songs; 3) Training traditional village heads (Naik/Gountia) as \"Legal First Responders\" to identify eligible persons and connect them to TLSC. (b) 1) \"You don't need money to get justice — the State pays for your lawyer\"; 2) \"Land disputes, forest rights, wages — free help is your right, not charity.\" (c) Metric: Number of Section 12 applications filed at TLSC from the district in 6 months (baseline vs post-campaign). A poor answer (e.g., \"distribute pamphlets in English\") reveals urban bias, ignorance of linguistic/cultural barriers, and confusion between awareness and access.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

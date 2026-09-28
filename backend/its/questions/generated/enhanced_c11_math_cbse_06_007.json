@@ -34,6 +34,26 @@
      "q": "Create a real-life word problem (Indian context) that leads to the system of inequalities:\n3x + 2y ≤ 100\nx ≥ 10\ny ≥ 5\nx, y are non-negative integers.\nExplain what x and y represent.",
      "a": "Example: \"A farmer has 100 kg of fertilizer. Crop A requires 3 kg per acre and Crop B requires 2 kg per acre. He must plant at least 10 acres of Crop A and at least 5 acres of Crop B. Let x = acres of Crop A, y = acres of Crop B. Write the constraints.\" A good answer shows creativity and correct mapping of coefficients to resource usage. A poor answer might assign x,y to unrelated quantities or misstate the inequality direction, revealing weak modeling skills.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Word problems involving linear inequalities require translating real-life constraints into one or more linear inequalities in one or two variables, solving them ______ or graphically, and interpreting the solution set in the context of the problem.",
+     "a": "algebraically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a relatable scenario: \"A student has ₹500 to buy ______ (₹40 each) and pens (₹10 each).",
+     "a": "notebooks",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently translate a real-world scenario into a system of linear inequalities, solve it using algebraic or graphical methods, and interpret the solution in the context of the problem, including identifying feasible integer solutions when applicable.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a ______ scenario: \"A student has ₹500 to buy notebooks (₹40 each) and pens (₹10 each).",
+     "a": "relatable",
+     "self_check": true
     }
    ]
   }

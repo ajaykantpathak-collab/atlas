@@ -34,6 +34,31 @@
      "q": "Design a chemical test using nucleophilic addition reactions to distinguish between: (a) propanal and propanone, (b) benzaldehyde and acetophenone. Specify the reagent, observation, and chemical basis for each distinction.",
      "a": "(a) Propanal vs propanone: Use Tollens' reagent (ammoniacal AgNO₃). Propanal (aldehyde) gives silver mirror (Ag⁰ deposit); propanone (ketone) does not react. Basis: Aldehydes oxidise to carboxylates reducing Ag⁺ to Ag; ketones lack α-H on carbonyl carbon and resist mild oxidation. Alternative: Fehling's test (red ppt Cu₂O for propanal only). (b) Benzaldehyde vs acetophenone: Use NaHSO₃ addition. Benzaldehyde (aldehyde) gives white crystalline bisulfite addition product (soluble, precipitates); acetophenone (ketone) does not form stable addition product (equilibrium lies left due to steric hindrance from phenyl + methyl). Basis: Aldehydes form stable bisulfite adducts; most ketones (especially aryl alkyl ketones) do not. A poor answer uses only Tollens' for both pairs (works for a but not reliable for b as aromatic aldehydes give Tollens' but so do some α-hydroxy ketones). The test must exploit the aldehyde/ketone difference in nucleophilic addition equilibrium, not just oxidation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Nucleophilic addition reaction is the ______ reaction of aldehydes and ketones where a nucleophile (Nu⁻) attacks the electrophilic carbonyl carbon (C=O), breaking the π-bond and forming a tetrahedral alkoxide intermediate that is subsequently protonated to yield an addition product.",
+     "a": "characteristic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe what happens when you add a few drops of ______ to a solution of sodium bisulfite in a test tube — a white crystalline precipitate forms instantly.",
+     "a": "benzaldehyde",
+     "self_check": true
+    },
+    {
+     "q": "What is Nucleophilic addition reaction? State the definition given in this lesson.",
+     "a": "Nucleophilic addition reaction is the characteristic reaction of aldehydes and ketones where a nucleophile (Nu⁻) attacks the electrophilic carbonyl carbon (C=O), breaking the π-bond and forming a tetrahedral alkoxide intermediate that is subsequently protonated to yield an addition product.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Nucleophilic addition reaction?",
+     "a": "Students often write the product of ammonia derivative addition (e.g., 2,4-DNPH, hydroxylamine, semicarbazide) as the carbinolamine intermediate (>C(OH)–NH–Z) instead of the final imine/oxime/hydrazone (>C=N–Z).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Draw the complete stepwise mechanism for nucleophilic addition of HCN, NaHSO₃, Grignard reagents, alcohols, and ammonia derivatives to aldehydes/ketones, showing the tetrahedral alkoxide intermediate and protonation step.",
+     "self_check": true
     }
    ]
   }

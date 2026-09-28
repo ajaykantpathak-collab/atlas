@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a hydrogen discharge tube, a diffraction grating, and a spectrometer to verify the Rydberg formula. Describe the measurements you would take, the graph you would plot, and how you would extract R_H from the slope.",
      "a": "Measure the diffraction angles θ for each visible Balmer line (H-α 656 nm, H-β 486 nm, H-γ 434 nm, H-δ 410 nm). Use grating equation d sinθ = mλ (m=1) to find λ. Plot 1/λ (y-axis) vs (1/2² - 1/ni²) for ni=3,4,5,6 (x-axis). The graph should be a straight line through origin with slope = R_H. A poor answer would plot λ vs ni (non-linear), forget to use the grating equation to convert θ to λ, or not realise the x-values are (1/4 - 1/ni²). This tests ability to design a verification experiment and linearise the Rydberg formula.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The line spectra of hydrogen are discrete ______ of light emitted or absorbed when the electron in a hydrogen atom transitions between quantized energy levels.",
+     "a": "wavelengths",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a hydrogen discharge tube through a ______ grating in a dark room — you see distinct colored lines (red, blue-green, violet) against a dark background, not a continuous rainbow.",
+     "a": "diffraction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Substitute the Bohr energy formula E_n = -______ eV/n².",
+     "a": "13.6",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) calculate the wavelength, frequency, and photon energy for any transition in hydrogen using the Rydberg formula and Bohr energy levels, (2) identify which series a given transition belongs to and whether it lies in UV, visible, or IR region, (3) determine the series limit (shortest wavelength) and first line (longest.",
+     "self_check": true
     }
    ]
   }

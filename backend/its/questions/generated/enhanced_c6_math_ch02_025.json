@@ -34,6 +34,21 @@
      "q": "Create a scenario involving money (credits and debits) where two different amounts result in the same absolute value.",
      "a": "A credit of ₹50 (+50) and a debit of ₹50 (-50) both have an absolute value of 50. A poor answer would use numbers with different values, showing a failure to grasp that absolute value focuses on the magnitude of the change, not the direction (credit vs debit).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The absolute value of an integer is its distance from zero on the number line, expressed as a non-negative value ______ of whether the integer is positive or negative.",
+     "a": "regardless",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in a lift in \"Bela’s ______ of Fun.\" Whether you go 3 floors up to the Book Store (+3) or 3 floors down to the Video Games shop (-3), the actual distance you have traveled from the ground floor (0) is exactly 3 floors.",
+     "a": "Building",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to convert any integer into its absolute value and explain that this value represents a distance, which is always neutral or positive.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Design a one-day vegetarian meal plan for a 16-year-old boy (RDA: Ca 1000 mg, Fe 22 mg, I 150 µg, Zn 12 mg) that meets ≥80% RDA for all four minerals using only common Indian foods. Provide food items, quantities (raw), and mineral contribution per meal. Justify one food combination that enhances absorption of two minerals simultaneously.",
      "a": "Expected answer: A valid plan includes: Breakfast — Ragi porridge (50 g ragi: Ca 170 mg, Fe 2 mg, Zn 1 mg) + curd (100 g: Ca 120 mg) + guava (100 g: Vit C 230 mg enhances Fe/Zn absorption). Lunch — Rajma (30 g raw: Fe 2.5 mg, Zn 1 mg, Ca 60 mg) + rice + spinach sabzi (50 g: Fe 1.5 mg, Ca 50 mg) + lemon juice. Snack — Roasted chana (30 g: Zn 1.5 mg, Fe 1.5 mg). Dinner — Soybean curry (30 g raw: Fe 3 mg, Zn 1.5 mg, Ca 70 mg) + chapati + iodised salt (5 g: I 150 µg). Totals: Ca ~470 mg (47%), Fe ~10.5 mg (48%), Zn ~5 mg (42%), I ~150 µg (100%). Note: 80% RDA not fully met for Ca, Fe, Zn — student must recognise vegetarian diets need larger quantities/fortification. Justification: Guava (vit C) with ragi enhances non-heme Fe and Zn absorption simultaneously. A poor plan that relies only on milk for calcium and ignores enhancers/inhibitors shows inability to integrate bioavailability into meal planning — a practical skill tested in board practicals and CUET home science.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Macro and micro minerals are inorganic elements required by the body in relatively large (macro: >100 mg/day) and trace (micro: <100 mg/day) amounts ______.",
+     "a": "respectively",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 14-year-old girl named Priya who feels constantly tired, has pale conjunctiva, and struggles to concentrate in class — her doctor suspects iron ______ anaemia.",
+     "a": "deficiency",
+     "self_check": true
+    },
+    {
+     "q": "What is Macro and micro minerals? State the definition given in this lesson.",
+     "a": "Macro and micro minerals are inorganic elements required by the body in relatively large (macro: >100 mg/day) and trace (micro: <100 mg/day) amounts respectively.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______-year-old girl named Priya who feels constantly tired, has pale conjunctiva, and struggles to concentrate in class — her doctor suspects iron deficiency anaemia.",
+     "a": "14",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Macro and micro minerals?",
+     "a": "Students believe \"milk is the only good source of calcium\" and \"spinach is the best iron source\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the physiological roles, dietary sources, RDA values, deficiency disorders, and toxicity risks for calcium, iron, iodine, and zinc, and can evaluate a given diet plan for adequacy of these four minerals using ICMR guidelines.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a proposal for a \"dual time zone\" system for India that minimizes disruption to national transport networks while addressing the daylight mismatch in the Northeast. Include the proposed meridians, transition mechanism, and one implementation challenge.",
      "a": "A strong proposal: IST-I (UTC+5:30) for west of 82.5°E; IST-II (UTC+6:30) for east of 82.5°E (or 90°E). Transition at a major railway junction (e.g., New Jalpaiguri) with dual clocks. Challenge: Railway timetables would need dual scheduling at the boundary. A weak proposal (e.g., arbitrary state boundaries) reveals failure to consider the physical geography of transport corridors and the operational reality of continuous networks.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Standard Meridian of India is the ______ line at 82°30'E (82.5°E) that passes through Mirzapur in Uttar Pradesh, serving as the central reference for Indian Standard Time (IST), which is UTC+5:30.",
+     "a": "longitudinal",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are on a train travelling from Gujarat to ______ Pradesh.",
+     "a": "Arunachal",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why 82°30'E was chosen as the standard meridian, calculate the time difference between IST and any given longitude, and justify the socio-economic implications of having a single time zone for a country with India's longitudinal spread.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are on a train ______ from Gujarat to Arunachal Pradesh.",
+     "a": "travelling",
+     "self_check": true
     }
    ]
   }

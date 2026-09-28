@@ -34,6 +34,21 @@
      "q": "Create a probability distribution for a discrete random variable Z (with at least 3 values) such that E(Z) = 5 and Var(Z) = 4. Show your work and verify.",
      "a": "One simple solution: Let Z take values 3, 5, 7 with probabilities 0.25, 0.5, 0.25.  \nE(Z) = 3×0.25 + 5×0.5 + 7×0.25 = 0.75 + 2.5 + 1.75 = 5.  \nE(Z²) = 9×0.25 + 25×0.5 + 49×0.25 = 2.25 + 12.5 + 12.25 = 27.  \nVar(Z) = 27 - 25 = 2. Not 4. Adjust: try 1, 5, 9 with probabilities 0.25, 0.5, 0.25.  \nE(Z) = 1×0.25 + 5×0.5 + 9×0.25 = 0.25 + 2.5 + 2.25 = 5.  \nE(Z²) = 1×0.25 + 25×0.5 + 81×0.25 = 0.25 + 12.5 + 20.25 = 33.  \nVar = 33 - 25 = 8. Too high.  \nBetter: Use two values: Z = 3 with prob 0.5, Z = 7 with prob 0.5. E(Z)=5, E(Z²)= (9+49)/2=29, Var=29-25=4. This works! A good answer shows systematic trial or solving equations. A poor answer just guesses without verification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The mean (or expected value) of a discrete random variable X is the weighted average of its possible values, where each value is weighted by its ______: μ = E(X) = Σ x_i P(X = x_i).",
+     "a": "probability",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You sell three items: samosa (₹10), ______ (₹20), and pizza slice (₹30).",
+     "a": "sandwich",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can compute the mean and variance of any discrete random variable given its probability distribution, interpret the mean as a long-run average and variance as a measure of variability, and apply the shortcut formula Var(X) = E(X²) - [E(X)]² efficiently.",
+     "self_check": true
     }
    ]
   }

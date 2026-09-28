@@ -34,6 +34,31 @@
      "q": "Design a one-page \"Species Alert Card\" for a hypothetical species discovered in the Andaman Islands. Include: name, category (choose one), population estimate, geographic range, two major threats, and one specific conservation action. Justify your category choice using the classification criteria.",
      "a": "Expected answer: A well-structured card for e.g., \"Andaman Banded Gecko\" — Category: Endemic (found only in Andamans), Population: 2,500, Range: 3 islands in North Andaman, Threats: invasive species (rats), tourism development, Action: declare habitat as Community Reserve under Wildlife Protection Act. Justification: \"Endemic because restricted to Andamans; not Endangered because population stable and no rapid decline observed.\" Poor answer: chooses category without justification, omits geographic restriction for endemic, or suggests generic action like \"plant trees\" without linking to specific threats.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of species is the systematic categorization of plants and animals based on their population status and risk of extinction, using criteria such as population size, rate of decline, geographic range, and habitat specificity.",
+     "a": "Classification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by observing the wildlife around your school or neighbourhood — you might see common birds like house sparrows (Normal) but never spot a Great Indian Bustard (______).",
+     "a": "Endangered",
+     "self_check": true
+    },
+    {
+     "q": "What is Classification of species? State the definition given in this lesson.",
+     "a": "Classification of species is the systematic categorization of plants and animals based on their population status and risk of extinction, using criteria such as population size, rate of decline, geographic range, and habitat specificity.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Classification of species?",
+     "a": "Students believe the categories form a linear hierarchy: Normal → Rare → Vulnerable → Endangered → Extinct, with Endemic as a separate \"special\" category.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify a given Indian species into Normal, Endangered, Vulnerable, Rare, or Endemic category using population trends, geographic range, and threat criteria, and can explain why a species like the Asiatic Lion is Endemic while the Bengal Tiger is Endangered.",
+     "self_check": true
     }
    ]
   }

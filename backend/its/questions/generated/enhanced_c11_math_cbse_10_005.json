@@ -34,6 +34,21 @@
      "q": "Design a real-world problem for a Class 11 student where they must use the triangle area formula combined with the section formula (internal division) to find the area of a triangular park where one vertex is a point dividing the line joining two gates in a given ratio. Specify all coordinates and the ratio.",
      "a": "Example: Gates at A(1, 2) and B(7, 8). A fountain F divides AB internally in ratio 2:3. A third gate C is at (4, 10). Find area of triangle AFC. Steps: 1) Use section formula to find F: ((2×7+3×1)/5, (2×8+3×2)/5) = (17/5, 22/5). 2) Use area formula with A(1,2), F(17/5,22/5), C(4,10). A good answer shows both formulas correctly combined. A poor answer (e.g., using midpoint instead of section formula, or wrong ratio order) reveals confusion between section formula variants or inability to chain concepts.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The area of a triangle with vertices at coordinates A(x₁, y₁), B(x₂, y₂), and C(x₃, y₃) is given by the absolute value of half the ______ formed by the coordinates: Area = ½ |x₁(y₂ − y₃) + x₂(y₃ − y₁) + x₃(y₁ − y₂)| square units.",
+     "a": "determinant",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a surveyor in Jaipur measuring a triangular plot of land with corners marked by GPS ______: A(2, 3), B(5, 7), C(8, 2).",
+     "a": "coordinates",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute the area of any triangle given its three vertices, determine collinearity of three points using the zero-area condition, find unknown coordinates when area is given, and solve composite problems combining area with section formula, distance formula, or line equations from the same chapter.",
+     "self_check": true
     }
    ]
   }

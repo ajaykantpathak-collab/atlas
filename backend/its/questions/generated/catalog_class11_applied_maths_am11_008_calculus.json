@@ -5,6 +5,8 @@
    "id": "am11_008.1",
    "title": "Functions and Their Evaluation",
    "converted_to_compute": false,
+   "formula": "out = x * x + 1",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 5 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -41,15 +43,9 @@
   {
    "id": "am11_008.2",
    "title": "Domain and Range of a Function",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 5 gives 5",
-     "compute": "count = 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "domain = inputs where the rule makes sense",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 5 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -86,15 +82,9 @@
   {
    "id": "am11_008.3",
    "title": "Types of Functions",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the exponent law to the given powers",
-     "explain": "apply the exponent law to the given powers: val = 3 ** (3 + 4) gives 2187",
-     "compute": "val = 3 ** (3 + 4)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "degree = highest power of x",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 3^3 x 3^4.",
@@ -132,6 +122,8 @@
    "id": "am11_008.4",
    "title": "Limits by Substitution and Cancellation",
    "converted_to_compute": false,
+   "formula": "poly = c + b * x + a * sq",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate the limit of 2x^2 + 8x + 4 as x approaches 4 (direct substitution).",
@@ -168,15 +160,9 @@
   {
    "id": "am11_008.5",
    "title": "Continuity of a Function at a Point",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "recall the count for the shape",
-     "explain": "recall the count for the shape: lines = 2 gives 2",
-     "compute": "lines = 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "lhl = rhl = f_a",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a rectangle have?",
@@ -214,6 +200,8 @@
    "id": "am11_008.6",
    "title": "Average and Instantaneous Rate of Change",
    "converted_to_compute": false,
+   "formula": "rate = 2 * coef * t",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 40, 28, 35, 38, 14.",
@@ -251,6 +239,8 @@
    "id": "am11_008.7",
    "title": "Derivative of a Polynomial by the Power Rule",
    "converted_to_compute": false,
+   "formula": "slope = 3 * sq + 6 * a",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate the limit of 4x^2 + 2x + 4 as x approaches 4 (direct substitution).",
@@ -288,6 +278,8 @@
    "id": "am11_008.8",
    "title": "Chain Rule for Composite Functions",
    "converted_to_compute": false,
+   "formula": "slope = 15 * inner * inner",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 10 and 2 have HCF 2 with coprime multipliers 5 and 1. Verify by computing hcf = 2 x 1; then find the HCF value.",
@@ -325,6 +317,8 @@
    "id": "am11_008.9",
    "title": "Tangent Line to a Curve",
    "converted_to_compute": false,
+   "formula": "y_at = m * (x0 - a) + b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 63 cm (take pi = 22/7).",

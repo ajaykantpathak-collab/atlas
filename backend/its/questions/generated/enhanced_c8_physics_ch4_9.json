@@ -34,6 +34,26 @@
      "q": "Design a simple observation schedule for a week in the pre-monsoon season (April-May) to collect evidence for the three thunderstorm conditions. What would you measure/record each day, and how would you use it to predict a thunderstorm?",
      "a": "A good answer includes: (1) Daily maximum temperature and humidity (proxy for instability and moisture), (2) Wind direction/shift (proxy for lifting mechanism like sea breeze or trough), (3) Cloud development sequence (morning clear → afternoon cumulus → cumulonimbus). Prediction: If morning shows high humidity, rising temperature, and a wind shift bringing moist air, thunderstorm probability is high. A poor answer only records \"rain or no rain\" or \"temperature\" without linking measurements to the three specific conditions, showing lack of systematic scientific thinking.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A thunderstorm is a violent, short-lived weather disturbance ______ by lightning, thunder, heavy rain or hail, and strong gusty winds, formed when warm, moist air rises rapidly in an unstable atmosphere, condenses into towering cumulonimbus clouds, and triggers strong updrafts and downdrafts.",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine standing on a playground in Delhi on a hot May ______: the air feels heavy and sticky, and suddenly dark, cauliflower-shaped clouds boil up rapidly, followed by a loud crack of thunder and a downpour.",
+     "a": "afternoon",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the three essential conditions for thunderstorm formation (moisture, instability, lifting mechanism) and describe the three stages of a thunderstorm's life cycle (cumulus, mature, dissipating) using the concepts of convection and pressure differences.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine standing on a playground in Delhi on a hot May afternoon: the air feels heavy and sticky, and suddenly dark, ______-shaped clouds boil up rapidly, followed by a loud crack of thunder and a downpour.",
+     "a": "cauliflower",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Construct an equivalence relation on the set A = {1, 2, 3, 4, 5, 6} that has exactly three equivalence classes, with class sizes 1, 2, and 3. Write the relation explicitly as a set of ordered pairs.",
      "a": "One possible partition: {1}, {2, 3}, {4, 5, 6}. The equivalence relation R consists of all pairs within each class: R = {(1,1), (2,2),(2,3),(3,2),(3,3), (4,4),(4,5),(4,6),(5,4),(5,5),(5,6),(6,4),(6,5),(6,6)}. Check: reflexive (all (a,a) present), symmetric (if (a,b) in R then (b,a) in R), transitive (within each class, all pairs are present). A student who produces a relation missing some pairs (e.g., missing (4,6) or (5,4)) reveals they do not understand that an equivalence class must contain ALL pairs between its elements — they may think only adjacent elements are related, confusing equivalence with a partial order or a graph.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An equivalence relation on a set A is a relation R ⊆ A × A that satisfies three properties ______: (1) Reflexive: (a, a) ∈ R for every a ∈ A; (2) Symmetric: if (a, b) ∈ R then (b, a) ∈ R for all a, b ∈ A; (3) Transitive: if (a, b) ∈ R and (b, c) ∈ R then (a, c) ∈ R for all a, b, c ∈ A.",
+     "a": "simultaneously",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class monitor and need to group all 40 students of Class XII into teams such that every student is in exactly one team and students in the same team share a specific ______ — say, the same birth month.",
+     "a": "property",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class monitor and need to group all ______ students of Class XII into teams such that every student is in exactly one team and students in the same team share a specific property — say, the same birth month.",
+     "a": "40",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) verify whether a given relation is an equivalence relation by checking all three properties with rigorous justification, (2) determine the equivalence classes of a given equivalence relation and show they form a partition of the set, and (3) construct an equivalence relation from a given partition of a set.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class monitor and need to group all 40 students of Class XII into teams such that every student is in exactly one team and students in the same team share a ______ property — say, the same birth month.",
+     "a": "specific",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a Debit Note and a Credit Note for a transaction where M/s A Ltd. returns 10 units of Product X (list price ₹500 each, trade discount 20%) to M/s B Ltd. due to defective quality. Include all mandatory fields as per NCERT format and calculate the amount.",
      "a": "Debit Note (issued by A Ltd. to B Ltd.): Serial No., Date, Supplier Name (B Ltd.), Details: 10 units Product X @ ₹500 = ₹5,000, Less Trade Discount 20% = ₹1,000, Net ₹4,000. Add GST (assume CGST 9% + SGST 9% = ₹720). Total ₹4,720. Credit Note (issued by B Ltd. to A Ltd.): Same details, but issued by seller to buyer acknowledging receipt of return. Amount identical. A poor answer omits trade discount calculation, GST, or mandatory fields (serial no., date, signatures), showing incomplete understanding of the source document's role as evidence for the return entry.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Purchase Return Book (Return Outwards Book) is a ______ book used to record goods returned to suppliers on credit, with the source document being a Debit Note; the Sales Return Book (Return Inwards Book) records goods returned by customers on credit, with the source document being a Credit Note.",
+     "a": "subsidiary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a stationery shop and a customer returns 5 ______ notebooks you sold on credit last week.",
+     "a": "defective",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a stationery shop and a customer returns ______ defective notebooks you sold on credit last week.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) distinguish between purchase returns and sales returns, identify the correct source document (Debit Note vs Credit Note), and (2) correctly post entries from these books to the respective ledger accounts (supplier/customer accounts and the Purchases Return/Sales Return accounts) including the periodic.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a ______ shop and a customer returns 5 defective notebooks you sold on credit last week.",
+     "a": "stationery",
+     "self_check": true
     }
    ]
   }

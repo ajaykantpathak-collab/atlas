@@ -5,6 +5,8 @@
    "id": "jemh.5.1",
    "title": "Definition of AP and Common Difference",
    "converted_to_compute": false,
+   "formula": "d = a_(n+1) - a_n ; AP: a, a+d, a+2d, a+3d, ...",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 8th term of the AP with first term 9 and common difference 5.",
@@ -42,6 +44,8 @@
    "id": "jemh.5.2",
    "title": "nth Term of an AP",
    "converted_to_compute": false,
+   "formula": "a_n = a + (n - 1) * d",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 14th term of the AP with first term 8 and common difference 3.",
@@ -79,6 +83,8 @@
    "id": "jemh.5.3",
    "title": "Sum of First n Terms of an AP",
    "converted_to_compute": false,
+   "formula": "S_n = (n / 2) * (2a + (n - 1) * d)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 10th term of the AP with first term 5 and common difference 8.",
@@ -116,6 +122,8 @@
    "id": "jemh.5.4",
    "title": "Sum of AP with Given First and Last Term",
    "converted_to_compute": false,
+   "formula": "S_n = (n / 2) * (a + l)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 8th term of the AP with first term 3 and common difference 5.",
@@ -153,6 +161,8 @@
    "id": "jemh.5.5",
    "title": "Finding Missing Terms in an AP",
    "converted_to_compute": false,
+   "formula": "d = (a_m - a_n) / (m - n) ; a_k = a + (k - 1) * d",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 11th term of the AP with first term 12 and common difference 4.",
@@ -190,6 +200,8 @@
    "id": "jemh.5.6",
    "title": "Word Problems on AP",
    "converted_to_compute": false,
+   "formula": "a_n = a + (n - 1) * d ; S_n = (n / 2) * (2a + (n - 1) * d)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 8th term of the AP with first term 10 and common difference 2.",
@@ -226,15 +238,9 @@
   {
    "id": "jemh.5.7",
    "title": "Verifying an Arithmetic Progression",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the AP/GP term or sum formula",
-     "explain": "apply the AP/GP term or sum formula: an = 6 + (10 - 1) * 9 gives 87",
-     "compute": "an = 6 + (10 - 1) * 9"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "Check: a_2 - a_1 = a_3 - a_2 = ... = a_(n+1) - a_n = d (constant)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 10th term of the AP with first term 6 and common difference 9.",
@@ -272,6 +278,8 @@
    "id": "jemh.5.8",
    "title": "Finding the nth Term from the End of an AP",
    "converted_to_compute": false,
+   "formula": "nth term from end = l - (n - 1) * d ; where l is the last term",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 9th term of the AP with first term 5 and common difference 6.",
@@ -308,15 +316,9 @@
   {
    "id": "jemh.5.9",
    "title": "Sum and Terms of an AP",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the AP/GP term or sum formula",
-     "explain": "apply the AP/GP term or sum formula: an = 5 + (9 - 1) * 2 gives 21",
-     "compute": "an = 5 + (9 - 1) * 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "a_n = S_n - S_(n - 1)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 9th term of the AP with first term 5 and common difference 2.",

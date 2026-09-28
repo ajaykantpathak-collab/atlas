@@ -34,6 +34,31 @@
      "q": "Create a list of numbers between 1 and 10 that are neither prime nor composite (excluding 1).",
      "a": "There are no such numbers because every number greater than 1 is either prime or composite. A poor answer shows a lack of understanding of the definitions of prime and composite numbers.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A factor is a whole number that divides another number exactly, leaving no ______.",
+     "a": "remainder",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If you give them out in groups of 1, 2, 3, 4, 6, or 12, you have no leftovers—these are the \"______\" of 12 because they divide it perfectly.",
+     "a": "factors",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have ______ chocolate bars to share equally among friends.",
+     "a": "12",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to list all factors of a given number up to 50 and generate the first five multiples of any single-digit number without error.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have 12 ______ bars to share equally among friends.",
+     "a": "chocolate",
+     "self_check": true
     }
    ]
   }

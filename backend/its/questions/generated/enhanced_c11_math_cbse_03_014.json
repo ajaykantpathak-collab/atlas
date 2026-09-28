@@ -34,6 +34,21 @@
      "q": "Create a trigonometric equation of the form \\(a\\sin x + b\\cos x = c\\) that has exactly two principal solutions in \\([0, 2\\pi)\\), and explain how you chose \\(a, b, c\\) to ensure this.",
      "a": "Example: \\(\\sin x + \\cos x = 1\\). Here \\(a=1, b=1, c=1\\). The auxiliary angle method: \\(\\sqrt{2}\\sin(x + \\frac{\\pi}{4}) = 1 \\Rightarrow \\sin(x + \\frac{\\pi}{4}) = \\frac{1}{\\sqrt{2}}\\). Principal solutions for \\(x + \\frac{\\pi}{4}\\) are \\(\\frac{\\pi}{4}\\) and \\(\\frac{3\\pi}{4}\\), giving \\(x = 0\\) and \\(x = \\frac{\\pi}{2}\\). Both lie in \\([0, 2\\pi)\\). The condition for exactly two principal solutions is that the equation \\(\\sin(x+\\alpha) = \\frac{c}{\\sqrt{a^2+b^2}}\\) has exactly two solutions in the shifted interval, which happens when \\(\\left|\\frac{c}{\\sqrt{a^2+b^2}}\\right| < 1\\) and the interval length is \\(2\\pi\\) (always two solutions for sine unless the value is \\(\\pm 1\\)). A poor answer that gives an equation with no solution (e.g., \\(\\sin x + \\cos x = 2\\)) or infinitely many (not possible for finite interval) reveals lack of understanding of the range of \\(a\\sin x + b\\cos x\\).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A trigonometric equation is an equation ______ trigonometric functions of an unknown angle.",
+     "a": "involving",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You need to find all times in the first minute when the seat is ______ 17 metres high.",
+     "a": "exactly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You need to find all times in the first minute when the seat is exactly ______ metres high.",
+     "a": "17",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a simple thought experiment using a paramagnetic salt to illustrate why absolute zero cannot be reached by adiabatic demagnetisation, referencing the Third Law.",
      "a": "A good answer: Start with a paramagnetic salt at low temperature in a magnetic field. The field aligns spins (low entropy). Adiabatically remove the field – spins randomise, temperature drops further. Repeat. Each cycle reduces temperature but the entropy change per cycle diminishes as T→0 because S→0. Infinite cycles are needed to reach exactly 0 K. A poor answer reveals the student cannot connect the Third Law's S→0 limit to the diminishing cooling efficiency.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Third Law of ______ states that the entropy of a perfect crystalline substance at absolute zero (0 K) is exactly zero.",
+     "a": "Thermodynamics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine ______ a piece of solid carbon dioxide (dry ice) with liquid nitrogen (77 K) and then with liquid helium (4 K).",
+     "a": "cooling",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Third Law of Thermodynamics states that the entropy of a perfect crystalline substance at absolute zero (______ K) is exactly zero.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state the Third Law precisely, explain why a perfect crystal at 0 K has zero entropy, distinguish between perfect crystals and substances with residual entropy, and calculate absolute entropy values using heat capacity data and the relation ΔS = ∫(C_p/T)dT from 0 K to T.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine cooling a piece of solid carbon dioxide (dry ice) with liquid ______ (77 K) and then with liquid helium (4 K).",
+     "a": "nitrogen",
+     "self_check": true
     }
    ]
   }

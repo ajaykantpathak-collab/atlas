@@ -32,7 +32,32 @@
     },
     {
      "q": "Construct a subtraction problem involving two 8-digit numbers where every single column requires borrowing, and state the exact difference.",
-     "a": "[Answer needed]",
+     "a": "Sample problem: $5,00,00,005 - 3,99,99,998$. Every column needs a borrow, and the borrow cascades from the ones place all the way up to the crores digit, giving the exact difference $1,00,00,007$. A student who treats the internal zeros as plain $0$ without regrouping gets several digits wrong.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Operations with large numbers involving addition and ______ require combining or finding the difference between numbers with 6, 7, or 8 digits (lakhs and crores) by strictly aligning digits according to their place value from right to left.",
+     "a": "subtraction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To begin, you must write down both numbers vertically, ______ that every place value—from ones up to crores—is perfectly aligned in straight vertical columns.",
+     "a": "ensuring",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Regrouping (carrying over or borrowing) must be applied systematically across adjacent place value columns whenever a sum reaches ______ or more, or when a digit being subtracted is smaller than the digit it is subtracted from.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can accurately set up, perform, and verify multi-digit addition and subtraction problems up to 8 digits (crores) with proper column alignment, handle consecutive regrouping (carrying and borrowing) across multiple place values, and solve multi-step word problems set in real-world Indian contexts.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To begin, you must write down both numbers ______, ensuring that every place value—from ones up to crores—is perfectly aligned in straight vertical columns.",
+     "a": "vertically",
      "self_check": true
     }
    ]

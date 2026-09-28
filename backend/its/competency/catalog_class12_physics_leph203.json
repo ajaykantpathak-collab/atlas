@@ -71,7 +71,16 @@
      "explain": "one quantum carries h times the frequency",
      "compute": "photon_energy = planck_const * light_freq"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "photon_energy = planck_const * light_freq",
+     "compute": "photon_energy = planck_const * light_freq"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph203.11.7.2",
@@ -186,7 +195,7 @@
    "title": "Threshold Frequency From Work Function",
    "section": "11.6",
    "definition": "Every emitter has a cut-off frequency: the photon must at least pay the work function, so the cheapest light that still frees electrons has frequency equal to the work function divided by Planck's constant.",
-   "formula": "nu0 = phi0 / h",
+   "formula": "nu_0 = phi_0 / h",
    "key_idea": "A bigger work function pushes the threshold higher, and nothing below it emits no matter the intensity.",
    "textbook_ref": "leph203.txt section 11.6 (Eq. 11.3 and Example 11.2 part a)",
    "question_patterns": [
@@ -211,7 +220,16 @@
      "explain": "the cut-off satisfies h nu0 = phi0 exactly",
      "compute": "threshold_freq = work_func_joule / planck_const"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "nu_0 = phi_0 / h",
+     "compute": "nu_0 = phi_0 / h"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph203.11.6.3",
@@ -268,7 +286,7 @@
    "title": "Kmax From the Stopping Potential",
    "section": "11.4.2",
    "definition": "The cut-off voltage is a direct energy meter: the retarding field that just stops the quickest electrons tells you their maximum kinetic energy as charge times that voltage.",
-   "formula": "Kmax = e * V0",
+   "formula": "Kmax = e * V_0",
    "key_idea": "Whatever the emitter or the light, e times the stopping voltage is the fastest electron's energy.",
    "textbook_ref": "leph203.txt section 11.4.2 (Eq. 11.1 and Exercise 11.3)",
    "question_patterns": [
@@ -293,7 +311,16 @@
      "explain": "the retarding potential times e equals the maximum kinetic energy",
      "compute": "k_max = elem_charge * stop_potential"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "Kmax = e * V_0",
+     "compute": "Kmax = e * V_0"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph203.11.5.1",
@@ -360,7 +387,16 @@
      "explain": "the matter wavelength is h over the momentum",
      "compute": "debroglie_wl = planck_const / momentum"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "lambda = h / p",
+     "compute": "lambda = h / p"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph203.11.8.2",
@@ -430,7 +466,16 @@
      "explain": "the line's slope is h over e, so h is slope times e",
      "compute": "planck_h = slope_vs * elem_charge"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "h = slope * e",
+     "compute": "h = slope * e"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -440,11 +485,29 @@
    "concept": "leph203.11.7.2",
    "question_type": "photon_count_from_power",
    "question_pattern": "A laser beam of frequency {light_freq} Hz carries a power of {beam_power} W. How many photons does it emit per second?",
-   "extracted_variables": {"light_freq": 6.0e+14, "beam_power": 0.002},
+   "extracted_variables": {
+    "light_freq": 600000000000000.0,
+    "beam_power": 0.002
+   },
    "solution_template": [
-    {"step": 1, "action": "fix Planck's constant", "explain": "h = 6.63e-34 J s", "compute": "planck_const = 6.63e-34"},
-    {"step": 2, "action": "energy per photon", "explain": "E = h nu", "compute": "photon_energy = planck_const * light_freq"},
-    {"step": 3, "action": "divide power by photon energy", "explain": "N = P/E", "compute": "photon_count = beam_power / photon_energy"}
+    {
+     "step": 1,
+     "action": "fix Planck's constant",
+     "explain": "h = 6.63e-34 J s",
+     "compute": "planck_const = 6.63e-34"
+    },
+    {
+     "step": 2,
+     "action": "energy per photon",
+     "explain": "E = h nu",
+     "compute": "photon_energy = planck_const * light_freq"
+    },
+    {
+     "step": 3,
+     "action": "divide power by photon energy",
+     "explain": "N = P/E",
+     "compute": "photon_count = beam_power / photon_energy"
+    }
    ]
   },
   {
@@ -453,11 +516,28 @@
    "concept": "leph203.11.6.2",
    "question_type": "threshold_frequency",
    "question_pattern": "The work function of caesium is {work_func_ev} eV. What is its threshold frequency?",
-   "extracted_variables": {"work_func_ev": 2.14},
+   "extracted_variables": {
+    "work_func_ev": 2.14
+   },
    "solution_template": [
-    {"step": 1, "action": "convert eV to joule", "explain": "multiply by 1.6e-19", "compute": "work_func_joule = work_func_ev * 1.6e-19"},
-    {"step": 2, "action": "fix Planck's constant", "explain": "h = 6.63e-34 J s", "compute": "planck_const = 6.63e-34"},
-    {"step": 3, "action": "divide phi0 by h", "explain": "nu0 = phi0/h", "compute": "threshold_freq = work_func_joule / planck_const"}
+    {
+     "step": 1,
+     "action": "convert eV to joule",
+     "explain": "multiply by 1.6e-19",
+     "compute": "work_func_joule = work_func_ev * 1.6e-19"
+    },
+    {
+     "step": 2,
+     "action": "fix Planck's constant",
+     "explain": "h = 6.63e-34 J s",
+     "compute": "planck_const = 6.63e-34"
+    },
+    {
+     "step": 3,
+     "action": "divide phi0 by h",
+     "explain": "nu0 = phi0/h",
+     "compute": "threshold_freq = work_func_joule / planck_const"
+    }
    ]
   },
   {
@@ -466,13 +546,41 @@
    "concept": "leph203.11.6.3",
    "question_type": "stopping_potential_from_frequency",
    "question_pattern": "Caesium of work function {work_func_ev} eV is lit by {light_freq} Hz light. What stopping potential stops the photoelectrons?",
-   "extracted_variables": {"light_freq": 6.0e+14, "work_func_ev": 2.14},
+   "extracted_variables": {
+    "light_freq": 600000000000000.0,
+    "work_func_ev": 2.14
+   },
    "solution_template": [
-    {"step": 1, "action": "convert eV to joule", "explain": "multiply by 1.6e-19", "compute": "work_func_joule = work_func_ev * 1.6e-19"},
-    {"step": 2, "action": "fix Planck's constant", "explain": "h = 6.63e-34 J s", "compute": "planck_const = 6.63e-34"},
-    {"step": 3, "action": "energy per photon", "explain": "E = h nu", "compute": "photon_energy = planck_const * light_freq"},
-    {"step": 4, "action": "subtract the escape cost", "explain": "surplus energy over work function", "compute": "excess_energy = photon_energy - work_func_joule"},
-    {"step": 5, "action": "divide by the electron charge", "explain": "V0 = Kmax/e", "compute": "stop_potential = excess_energy / 1.6e-19"}
+    {
+     "step": 1,
+     "action": "convert eV to joule",
+     "explain": "multiply by 1.6e-19",
+     "compute": "work_func_joule = work_func_ev * 1.6e-19"
+    },
+    {
+     "step": 2,
+     "action": "fix Planck's constant",
+     "explain": "h = 6.63e-34 J s",
+     "compute": "planck_const = 6.63e-34"
+    },
+    {
+     "step": 3,
+     "action": "energy per photon",
+     "explain": "E = h nu",
+     "compute": "photon_energy = planck_const * light_freq"
+    },
+    {
+     "step": 4,
+     "action": "subtract the escape cost",
+     "explain": "surplus energy over work function",
+     "compute": "excess_energy = photon_energy - work_func_joule"
+    },
+    {
+     "step": 5,
+     "action": "divide by the electron charge",
+     "explain": "V0 = Kmax/e",
+     "compute": "stop_potential = excess_energy / 1.6e-19"
+    }
    ]
   },
   {
@@ -481,11 +589,29 @@
    "concept": "leph203.11.8.2",
    "question_type": "de_broglie_electron",
    "question_pattern": "What de Broglie wavelength belongs to an electron of mass {mass} kg moving at {speed} m/s?",
-   "extracted_variables": {"mass": 9.11e-31, "speed": 5.4e+06},
+   "extracted_variables": {
+    "mass": 9.11e-31,
+    "speed": 5400000.0
+   },
    "solution_template": [
-    {"step": 1, "action": "form the momentum", "explain": "p = m v", "compute": "momentum = mass * speed"},
-    {"step": 2, "action": "fix Planck's constant", "explain": "h = 6.63e-34 J s", "compute": "planck_const = 6.63e-34"},
-    {"step": 3, "action": "divide h by p", "explain": "lambda = h/p", "compute": "debroglie_wl = planck_const / momentum"}
+    {
+     "step": 1,
+     "action": "form the momentum",
+     "explain": "p = m v",
+     "compute": "momentum = mass * speed"
+    },
+    {
+     "step": 2,
+     "action": "fix Planck's constant",
+     "explain": "h = 6.63e-34 J s",
+     "compute": "planck_const = 6.63e-34"
+    },
+    {
+     "step": 3,
+     "action": "divide h by p",
+     "explain": "lambda = h/p",
+     "compute": "debroglie_wl = planck_const / momentum"
+    }
    ]
   },
   {
@@ -494,10 +620,22 @@
    "concept": "leph203.11.6.4",
    "question_type": "planck_from_slope",
    "question_pattern": "In a photoelectric experiment the slope of the cut-off voltage versus frequency graph is {slope_vs} V s. What value of Planck's constant follows?",
-   "extracted_variables": {"slope_vs": 4.12e-15},
+   "extracted_variables": {
+    "slope_vs": 4.12e-15
+   },
    "solution_template": [
-    {"step": 1, "action": "fix the elementary charge", "explain": "e = 1.6e-19 C", "compute": "elem_charge = 1.6e-19"},
-    {"step": 2, "action": "multiply slope by e", "explain": "slope = h/e so h = slope times e", "compute": "planck_h = slope_vs * elem_charge"}
+    {
+     "step": 1,
+     "action": "fix the elementary charge",
+     "explain": "e = 1.6e-19 C",
+     "compute": "elem_charge = 1.6e-19"
+    },
+    {
+     "step": 2,
+     "action": "multiply slope by e",
+     "explain": "slope = h/e so h = slope times e",
+     "compute": "planck_h = slope_vs * elem_charge"
+    }
    ]
   }
  ],

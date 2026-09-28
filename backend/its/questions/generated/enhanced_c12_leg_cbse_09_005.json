@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_09_005",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_09_005",
+   "title": "c12_leg_cbse_09_005",
+   "questions": [
+    {
+     "q": "Define \"mens rea\" and \"actus reus\" in the context of a criminal offence under the IPC. Why is the Latin maxim *actus non facit reum nisi mens sit rea* considered the foundation of criminal liability?",
+     "a": "Mens rea = guilty mind/intention; actus reus = guilty act/illegal omission. The maxim means \"an act does not make a person guilty unless the mind is also guilty.\" A wrong answer (e.g., \"mens rea is motive\") reveals confusion between *intention* (awareness of consequences) and *motive* (ulterior reason like poverty) — a classic error that costs marks in distinction questions.",
+     "self_check": true
+    },
+    {
+     "q": "In *State of Maharashtra v. Mayer Hans George* (1965), the Supreme Court held that mens rea can be excluded by statute. Explain the reasoning. How does this differ from the general rule that mens rea is essential for every crime?",
+     "a": "The Court ruled that where a statute imposes strict liability (e.g., FERA for gold smuggling), the legislature can expressly or impliedly exclude mens rea if including it would defeat the law's purpose (e.g., preventing economic harm). A wrong answer stating \"mens rea is never required in economic offences\" misses the nuance: exclusion is *exceptional*, not the norm, and requires clear legislative intent — a distinction examiners test via \"discuss\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "A woman, driven by extreme poverty, steals bread to feed her starving child. She is caught. Applying the distinction between intention and motive, explain whether she can be held guilty of theft under Section 378 IPC. What role does motive play in sentencing?",
+     "a": "Yes, she is guilty. Intention = she knowingly took property without consent (actus reus + mens rea present). Motive (feeding child) is irrelevant for *liability* but relevant for *sentencing* (mitigation). A wrong answer claiming \"no theft because motive was good\" confuses motive with intention — the most frequent error in case-based questions. Examiners want: \"Liability established; motive only for sympathy in punishment.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"preparation\" and \"attempt\" as stages of crime. Give one example where preparation is punishable under IPC, and explain why the law punishes attempt but not mere preparation.",
+     "a": "Preparation = arranging means (e.g., buying poison); Attempt = direct movement towards commission after preparation (e.g., putting poison in food). Preparation punishable only for grave offences (e.g., Sec 122 IPC: collecting arms to wage war). Law punishes attempt because danger becomes imminent; preparation is too remote to prove criminal intent conclusively. A weak answer lists stages but fails to explain *why* the line is drawn at \"proximity to commission\" — the analytical depth boards demand.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"A dying declaration is the sole basis for conviction in a murder trial if it is voluntary and consistent.\" Refer to *K.R. Reddy v. Public Prosecutor* and *R. Mani v. State of T.N.* Is corroboration legally mandatory?",
+     "a": "No, corroboration is not *legally* mandatory. *K.R. Reddy*: Court must apply \"strictest scrutiny\" — check fit state of mind, opportunity to observe, no tutoring. *R. Mani*: If coherent, consistent, voluntary → conviction *can* be based solely on it. But *prudence* demands corroboration. A wrong answer saying \"corroboration is compulsory\" misstates law; saying \"never needed\" ignores judicial caution. The balanced view — \"not mandatory but highly desirable\" — fetches full marks.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical fact scenario (150 words) where an accused makes a statement to a doctor while being treated for injuries sustained during the crime. The statement reveals his involvement. Is this a confession? Admissible? Under which section? What factors would the court examine?",
+     "a": "Scenario: A, injured in a robbery, tells doctor: \"I stabbed the guard during the loot.\" This is an **extra-judicial confession** (Sec 24–30 Evidence Act). Admissible *only if* voluntary, not induced by promise/threat (Sec 24), and not made to police (Sec 25). Court examines: Was A in fit mental state? Was doctor an authority figure? Was there coercion? Good answer cites *Sahoo v. UP* (self-talk = confession) and distinguishes from *dying declaration* (Sec 32) — A isn't dying. A poor answer confuses it with dying declaration or ignores voluntariness test.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using household items to demonstrate the difference between shearing stress and tensile stress. List materials, procedure, and what you would observe to distinguish the two types of stress.",
      "a": "Materials: Rubber eraser, two wooden blocks, heavy book, spring balance. Procedure: (1) Tensile: Glue eraser between two blocks, pull blocks apart with spring balance — observe elongation. (2) Shearing: Fix bottom block to table, apply horizontal force to top block — observe sideways displacement without length change. Observation: Tensile stress increases length; shearing stress changes shape (angle). A poor answer using only stretching for both shows inability to visualize tangential force application. The eraser's rectangular shape makes shear deformation (parallelogram) clearly visible.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stress is the internal ______ force per unit cross-sectional area developed within a material when an external deforming force is applied, measured in pascals (Pa) or N·m⁻².",
+     "a": "restoring",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a rubber band hanging from a ceiling fan hook with a 500 g mass attached — the band ______ but holds the weight.",
+     "a": "stretches",
+     "self_check": true
+    },
+    {
+     "q": "What is Stress? State the definition given in this lesson.",
+     "a": "Stress is the internal restoring force per unit cross-sectional area developed within a material when an external deforming force is applied, measured in pascals (Pa) or N·m⁻².",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a rubber band hanging from a ceiling fan hook with a ______ g mass attached — the band stretches but holds the weight.",
+     "a": "500",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Stress?",
+     "a": "Students often think stress is a vector quantity because it comes from force.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between tensile, compressive, shearing, and hydraulic stress from a physical description or diagram, calculate stress magnitude using σ = F/A with correct unit conversion, and explain why stress is not a vector quantity despite force being a vector.",
+     "self_check": true
     }
    ]
   }

@@ -24,10 +24,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "count the hydroxyl groups",
-     "explain": "one, two, three or many OH groups tag the alcohol mono-, di-, tri- or polyhydric"},
-    {"step": 2, "action": "inspect the OH-bearing carbon",
-     "explain": "count its carbon neighbours for 1/2/3 degree, then check for an adjacent C=C or ring (allylic, benzylic) or sp2 character (vinylic)"}
+    {
+     "step": 1,
+     "action": "count the hydroxyl groups",
+     "explain": "one, two, three or many OH groups tag the alcohol mono-, di-, tri- or polyhydric"
+    },
+    {
+     "step": 2,
+     "action": "inspect the OH-bearing carbon",
+     "explain": "count its carbon neighbours for 1/2/3 degree, then check for an adjacent C=C or ring (allylic, benzylic) or sp2 character (vinylic)"
+    }
    ]
   },
   {
@@ -48,10 +54,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "choose the parent for each family",
-     "explain": "alcohols use the longest chain with the OH carbon; ethers promote the larger group to parent with an alkoxy prefix"},
-    {"step": 2, "action": "number for the lowest OH locants",
-     "explain": "the hydroxyl carbon takes the smallest possible number before other substituents are placed"}
+    {
+     "step": 1,
+     "action": "choose the parent for each family",
+     "explain": "alcohols use the longest chain with the OH carbon; ethers promote the larger group to parent with an alkoxy prefix"
+    },
+    {
+     "step": 2,
+     "action": "number for the lowest OH locants",
+     "explain": "the hydroxyl carbon takes the smallest possible number before other substituents are placed"
+    }
    ]
   },
   {
@@ -70,13 +82,28 @@
     "state why diborane adds boron to the carbon carrying more hydrogens",
     "give the reagents that convert pent-1-ene to pentan-1-ol"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "pick the regiochemistry route",
-     "explain": "acid plus water follows Markovnikov through a carbocation; BH3 then H2O2/OH- delivers the opposite orientation"},
-    {"step": 2, "action": "place the OH group accordingly",
-     "explain": "Markovnikov puts OH on the carbon with fewer hydrogens; hydroboration puts it on the carbon with more"}
-   ]
+    {
+     "step": 1,
+     "action": "pick the regiochemistry route",
+     "explain": "acid plus water follows Markovnikov through a carbocation; BH3 then H2O2/OH- delivers the opposite orientation"
+    },
+    {
+     "step": 2,
+     "action": "place the OH group accordingly",
+     "explain": "Markovnikov puts OH on the carbon with fewer hydrogens; hydroboration puts it on the carbon with more"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "hydroboration_product = anti_markovnikov_alcohol",
+     "compute": "hydroboration_product = anti_markovnikov_alcohol"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lech202.7.4.2.1",
@@ -96,10 +123,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "read the carbonyl type",
-     "explain": "aldehyde carbons carry one carbon neighbour, ketone carbons two; reduction preserves that count"},
-    {"step": 2, "action": "add the Grignard carbon where relevant",
-     "explain": "the reagent's R group joins the carbonyl carbon, raising the alcohol degree by the number of carbons added"}
+    {
+     "step": 1,
+     "action": "read the carbonyl type",
+     "explain": "aldehyde carbons carry one carbon neighbour, ketone carbons two; reduction preserves that count"
+    },
+    {
+     "step": 2,
+     "action": "add the Grignard carbon where relevant",
+     "explain": "the reagent's R group joins the carbonyl carbon, raising the alcohol degree by the number of carbons added"
+    }
    ]
   },
   {
@@ -118,13 +151,28 @@
     "name the co-product of the cumene process",
     "convert aniline to phenol in two steps"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "identify the precursor family",
-     "explain": "haloarene, aryl sulphonic acid, diazonium salt and cumene each need their own conditions"},
-    {"step": 2, "action": "release the phenol",
-     "explain": "most routes end by acidifying a sodium phenoxide intermediate"}
-   ]
+    {
+     "step": 1,
+     "action": "identify the precursor family",
+     "explain": "haloarene, aryl sulphonic acid, diazonium salt and cumene each need their own conditions"
+    },
+    {
+     "step": 2,
+     "action": "release the phenol",
+     "explain": "most routes end by acidifying a sodium phenoxide intermediate"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "cumene_route = phenol + acetone",
+     "compute": "cumene_route = phenol + acetone"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lech202.7.4.3.1",
@@ -144,10 +192,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "look for donor and acceptor sites",
-     "explain": "an O-H bond donates hydrogen bonds; a lone-pair oxygen can only accept them"},
-    {"step": 2, "action": "weigh hydrophobic bulk",
-     "explain": "bigger alkyl groups cut water solubility while surface area governs dispersion contributions to boiling"}
+    {
+     "step": 1,
+     "action": "look for donor and acceptor sites",
+     "explain": "an O-H bond donates hydrogen bonds; a lone-pair oxygen can only accept them"
+    },
+    {
+     "step": 2,
+     "action": "weigh hydrophobic bulk",
+     "explain": "bigger alkyl groups cut water solubility while surface area governs dispersion contributions to boiling"
+    }
    ]
   },
   {
@@ -168,10 +222,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "inspect the conjugate base",
-     "explain": "charge delocalisation over the ring stabilises phenoxide; alkyl groups intensify charge on oxygen and destabilise"},
-    {"step": 2, "action": "apply substituent position rules",
-     "explain": "electron-withdrawing nitro groups help most from ortho and para, never from meta"}
+    {
+     "step": 1,
+     "action": "inspect the conjugate base",
+     "explain": "charge delocalisation over the ring stabilises phenoxide; alkyl groups intensify charge on oxygen and destabilise"
+    },
+    {
+     "step": 2,
+     "action": "apply substituent position rules",
+     "explain": "electron-withdrawing nitro groups help most from ortho and para, never from meta"
+    }
    ]
   },
   {
@@ -192,16 +252,34 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "convert the first pKa to Ka",
+    {
+     "step": 1,
+     "action": "convert the first pKa to Ka",
      "explain": "Ka equals ten raised to the negative pKa",
-     "compute": "ka_a = 10 ** (-pka_a)"},
-    {"step": 2, "action": "convert the second pKa to Ka",
+     "compute": "ka_a = 10 ** (-pka_a)"
+    },
+    {
+     "step": 2,
+     "action": "convert the second pKa to Ka",
      "explain": "same conversion for the comparison acid",
-     "compute": "ka_b = 10 ** (-pka_b)"},
-    {"step": 3, "action": "divide the constants",
+     "compute": "ka_b = 10 ** (-pka_b)"
+    },
+    {
+     "step": 3,
+     "action": "divide the constants",
      "explain": "the quotient counts how many times one acid out-ionises the other",
-     "compute": "strength_ratio = ka_a / ka_b"}
-   ]
+     "compute": "strength_ratio = ka_a / ka_b"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "strength_ratio = 10 ** (pka_b - pka_a)",
+     "compute": "strength_ratio = 10 ** (pka_b - pka_a)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lech202.7.4.4.3",
@@ -221,10 +299,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "match the alcohol class to its carbocation stability",
-     "explain": "the reaction price is a carbocation, so tertiary alcohols respond fastest in both halogenation and dehydration"},
-    {"step": 2, "action": "read the test signal",
-     "explain": "immediate cloudiness marks tertiary, slow cloudiness secondary, and heating is needed for primary"}
+    {
+     "step": 1,
+     "action": "match the alcohol class to its carbocation stability",
+     "explain": "the reaction price is a carbocation, so tertiary alcohols respond fastest in both halogenation and dehydration"
+    },
+    {
+     "step": 2,
+     "action": "read the test signal",
+     "explain": "immediate cloudiness marks tertiary, slow cloudiness secondary, and heating is needed for primary"
+    }
    ]
   },
   {
@@ -245,10 +329,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "count the hydrogens on the carbinol carbon",
-     "explain": "two removable hydrogens mark a primary alcohol, one a secondary, none a tertiary"},
-    {"step": 2, "action": "pick reagent strength for the target rung",
-     "explain": "PCC or CrO3 in anhydrous medium halts at the aldehyde; aqueous KMnO4 forces the acid"}
+    {
+     "step": 1,
+     "action": "count the hydrogens on the carbinol carbon",
+     "explain": "two removable hydrogens mark a primary alcohol, one a secondary, none a tertiary"
+    },
+    {
+     "step": 2,
+     "action": "pick reagent strength for the target rung",
+     "explain": "PCC or CrO3 in anhydrous medium halts at the aldehyde; aqueous KMnO4 forces the acid"
+    }
    ]
   },
   {
@@ -269,10 +359,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "let the OH group direct the electrophile",
-     "explain": "resonance enriches ortho and para positions, and the phenoxide ion is reactive enough even for CO2"},
-    {"step": 2, "action": "match the condition to the substitution depth",
-     "explain": "low-polarity solvent keeps bromination monosubstituted; excess bromine water takes all three positions"}
+    {
+     "step": 1,
+     "action": "let the OH group direct the electrophile",
+     "explain": "resonance enriches ortho and para positions, and the phenoxide ion is reactive enough even for CO2"
+    },
+    {
+     "step": 2,
+     "action": "match the condition to the substitution depth",
+     "explain": "low-polarity solvent keeps bromination monosubstituted; excess bromine water takes all three positions"
+    }
    ]
   },
   {
@@ -293,13 +389,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "double the glucose moles",
+    {
+     "step": 1,
+     "action": "double the glucose moles",
      "explain": "each glucose splits into two ethanol molecules under zymase",
-     "compute": "ethanol_moles = 2 * glucose_moles"},
-    {"step": 2, "action": "convert moles to mass",
+     "compute": "ethanol_moles = 2 * glucose_moles"
+    },
+    {
+     "step": 2,
+     "action": "convert moles to mass",
      "explain": "multiplying by the molar mass of ethanol gives grams",
-     "compute": "ethanol_grams = ethanol_moles * molar_mass_ethanol"}
-   ]
+     "compute": "ethanol_grams = ethanol_moles * molar_mass_ethanol"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ethanol_moles = 2 * glucose_moles",
+     "compute": "ethanol_moles = 2 * glucose_moles"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lech202.7.6.1.1",
@@ -317,13 +428,28 @@
     "explain why acid dehydration fails for secondary and tertiary alcohols making ethers",
     "propose a synthesis of t-butyl ethyl ether that actually works"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "sort the fragments by bulk",
-     "explain": "the alkyl halide in Williamson must be primary; bulky groups belong in the alkoxide"},
-    {"step": 2, "action": "watch the temperature window",
-     "explain": "low temperature favours substitution to the ether, 443 K pushes elimination to the alkene"}
-   ]
+    {
+     "step": 1,
+     "action": "sort the fragments by bulk",
+     "explain": "the alkyl halide in Williamson must be primary; bulky groups belong in the alkoxide"
+    },
+    {
+     "step": 2,
+     "action": "watch the temperature window",
+     "explain": "low temperature favours substitution to the ether, 443 K pushes elimination to the alkene"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "williamson_pair = primary_halide + sodium_alkoxide",
+     "compute": "williamson_pair = primary_halide + sodium_alkoxide"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lech202.7.6.3.1",
@@ -341,13 +467,28 @@
     "where does Friedel-Crafts alkylation place the entering group on anisole",
     "explain why the phenyl-oxygen bond of an aryl alkyl ether survives HI cleavage"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "protonate the ether oxygen",
-     "explain": "the oxonium ion hands a leaving group to the halide; iodide then picks the easier carbon"},
-    {"step": 2, "action": "route by substrate class",
-     "explain": "primary or secondary goes SN2 at the smaller group, tertiary goes SN1, and aryl carbons never substitute nucleophilically"}
-   ]
+    {
+     "step": 1,
+     "action": "protonate the ether oxygen",
+     "explain": "the oxonium ion hands a leaving group to the halide; iodide then picks the easier carbon"
+    },
+    {
+     "step": 2,
+     "action": "route by substrate class",
+     "explain": "primary or secondary goes SN2 at the smaller group, tertiary goes SN1, and aryl carbons never substitute nucleophilically"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "anisole_cleavage = phenol + methyl_iodide",
+     "compute": "anisole_cleavage = phenol + methyl_iodide"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -357,11 +498,29 @@
    "concept": "lech202.7.4.4.2",
    "question_type": "acid_strength_ratio",
    "question_pattern": "Phenol has pKa 10.0 while ethanol has pKa 15.9. Calculate how many times more acidic phenol is than ethanol.",
-   "extracted_variables": {"pka_a": 10.0, "pka_b": 15.9},
+   "extracted_variables": {
+    "pka_a": 10.0,
+    "pka_b": 15.9
+   },
    "solution_template": [
-    {"step": 1, "action": "convert the first pKa to Ka", "explain": "Ka = 10 to the minus pKa", "compute": "ka_a = 10 ** (-pka_a)"},
-    {"step": 2, "action": "convert the second pKa to Ka", "explain": "same conversion for ethanol", "compute": "ka_b = 10 ** (-pka_b)"},
-    {"step": 3, "action": "divide the constants", "explain": "the quotient is the acidity multiple", "compute": "strength_ratio = ka_a / ka_b"}
+    {
+     "step": 1,
+     "action": "convert the first pKa to Ka",
+     "explain": "Ka = 10 to the minus pKa",
+     "compute": "ka_a = 10 ** (-pka_a)"
+    },
+    {
+     "step": 2,
+     "action": "convert the second pKa to Ka",
+     "explain": "same conversion for ethanol",
+     "compute": "ka_b = 10 ** (-pka_b)"
+    },
+    {
+     "step": 3,
+     "action": "divide the constants",
+     "explain": "the quotient is the acidity multiple",
+     "compute": "strength_ratio = ka_a / ka_b"
+    }
    ]
   },
   {
@@ -370,11 +529,29 @@
    "concept": "lech202.7.4.4.2",
    "question_type": "acid_strength_ratio",
    "question_pattern": "p-Nitrophenol has pKa 7.1 and phenol has pKa 10.0. Determine the factor by which the nitro acid out-ionises phenol.",
-   "extracted_variables": {"pka_a": 7.1, "pka_b": 10.0},
+   "extracted_variables": {
+    "pka_a": 7.1,
+    "pka_b": 10.0
+   },
    "solution_template": [
-    {"step": 1, "action": "convert the first pKa to Ka", "explain": "Ka of p-nitrophenol", "compute": "ka_a = 10 ** (-pka_a)"},
-    {"step": 2, "action": "convert the second pKa to Ka", "explain": "Ka of phenol", "compute": "ka_b = 10 ** (-pka_b)"},
-    {"step": 3, "action": "divide the constants", "explain": "ratio of ionisations", "compute": "strength_ratio = ka_a / ka_b"}
+    {
+     "step": 1,
+     "action": "convert the first pKa to Ka",
+     "explain": "Ka of p-nitrophenol",
+     "compute": "ka_a = 10 ** (-pka_a)"
+    },
+    {
+     "step": 2,
+     "action": "convert the second pKa to Ka",
+     "explain": "Ka of phenol",
+     "compute": "ka_b = 10 ** (-pka_b)"
+    },
+    {
+     "step": 3,
+     "action": "divide the constants",
+     "explain": "ratio of ionisations",
+     "compute": "strength_ratio = ka_a / ka_b"
+    }
    ]
   },
   {
@@ -383,10 +560,23 @@
    "concept": "lech202.7.5.1",
    "question_type": "fermentation_yield",
    "question_pattern": "A wash contains 5 mol of glucose. How many moles of ethanol does zymase fermentation deliver, and what mass is that?",
-   "extracted_variables": {"glucose_moles": 5, "molar_mass_ethanol": 46},
+   "extracted_variables": {
+    "glucose_moles": 5,
+    "molar_mass_ethanol": 46
+   },
    "solution_template": [
-    {"step": 1, "action": "double the glucose moles", "explain": "one glucose gives two ethanol molecules", "compute": "ethanol_moles = 2 * glucose_moles"},
-    {"step": 2, "action": "convert moles to mass", "explain": "multiply by 46 g per mol", "compute": "ethanol_grams = ethanol_moles * molar_mass_ethanol"}
+    {
+     "step": 1,
+     "action": "double the glucose moles",
+     "explain": "one glucose gives two ethanol molecules",
+     "compute": "ethanol_moles = 2 * glucose_moles"
+    },
+    {
+     "step": 2,
+     "action": "convert moles to mass",
+     "explain": "multiply by 46 g per mol",
+     "compute": "ethanol_grams = ethanol_moles * molar_mass_ethanol"
+    }
    ]
   },
   {
@@ -395,10 +585,23 @@
    "concept": "lech202.7.5.1",
    "question_type": "fermentation_yield",
    "question_pattern": "Grape sugar amounting to 2.5 mol ferments completely. Calculate the mass of ethanol formed.",
-   "extracted_variables": {"glucose_moles": 2.5, "molar_mass_ethanol": 46},
+   "extracted_variables": {
+    "glucose_moles": 2.5,
+    "molar_mass_ethanol": 46
+   },
    "solution_template": [
-    {"step": 1, "action": "double the glucose moles", "explain": "2:1 ethanol to glucose ratio", "compute": "ethanol_moles = 2 * glucose_moles"},
-    {"step": 2, "action": "convert moles to mass", "explain": "molar mass of ethanol applied", "compute": "ethanol_grams = ethanol_moles * molar_mass_ethanol"}
+    {
+     "step": 1,
+     "action": "double the glucose moles",
+     "explain": "2:1 ethanol to glucose ratio",
+     "compute": "ethanol_moles = 2 * glucose_moles"
+    },
+    {
+     "step": 2,
+     "action": "convert moles to mass",
+     "explain": "molar mass of ethanol applied",
+     "compute": "ethanol_grams = ethanol_moles * molar_mass_ethanol"
+    }
    ]
   }
  ],

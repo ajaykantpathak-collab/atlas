@@ -34,6 +34,26 @@
      "q": "Design a function `calculate_discount(price, discount_percent=10)` that returns the discounted price. Then create a new function `apply_discounts(prices, discount_percent=10)` that uses `calculate_discount` to return a list of discounted prices for a list of prices. Show how you would call `apply_discounts` for a list `[100, 200, 300]` with the default discount and with a 20% discount.",
      "a": "A good answer defines `calculate_discount` correctly, then defines `apply_discounts` using a loop or list comprehension calling `calculate_discount`. Calls: `apply_discounts([100,200,300])` returns `[90, 180, 270]` (10% off); `apply_discounts([100,200,300], 20)` returns `[80, 160, 240]`. A poor answer hardcodes the discount inside `apply_discounts` or fails to pass the discount parameter through, showing inability to compose functions with default arguments.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A default argument in a Python function is a parameter that is assigned a specific value in the function definition, allowing the caller to omit that argument during the function call; if omitted, the default value is used ______.",
+     "a": "automatically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a program for a bank to ______ simple interest.",
+     "a": "calculate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Most customers get the standard ______% interest rate, but some premium customers get a custom rate.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write a function definition with one or more default parameters, correctly call the function with and without providing those arguments, and explain why non-default parameters must appear before default parameters in the parameter list.",
+     "self_check": true
     }
    ]
   }

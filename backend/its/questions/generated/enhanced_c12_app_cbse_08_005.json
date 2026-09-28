@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_08_005",
+   "title": "c12_app_cbse_08_005",
+   "questions": [
+    {
+     "q": "What is the index number of the base period by definition, and why is it assigned this specific value?",
+     "a": "The index number of the base period is always 100. It is assigned this value by convention to serve as a fixed reference point — all other periods are expressed as a percentage of this base. A wrong answer (e.g., 0, 1, or \"it depends\") reveals the student thinks the index is calculated from data for the base year too, rather than being *defined* as the benchmark.",
+     "self_check": true
+    },
+    {
+     "q": "The Consumer Price Index (CPI) for industrial workers was 145 in 2014 and 230 in 2020 (base 2012 = 100). A student says: \"Prices increased by 85% from 2014 to 2020 because 230 - 145 = 85.\" Is this correct? Explain why or why not.",
+     "a": "No, it is incorrect. The 85-point difference is *not* the percentage change. The correct percentage increase from 2014 to 2020 is ((230 - 145) / 145) × 100 ≈ 58.6%. The student confused index *points* with percentage change — a classic error. The index numbers are both relative to 2012 (base = 100), so you cannot subtract them directly to get the % change between 2014 and 2020. This reveals the student treats index numbers as absolute levels rather than relatives to a common base.",
+     "self_check": true
+    },
+    {
+     "q": "A commodity cost ₹80 per kg in 2015 (base year) and ₹120 per kg in 2023. Compute the price relative index number for 2023 with 2015 as base. Interpret the result in one sentence.",
+     "a": "Index = (120 / 80) × 100 = 150. Interpretation: The price in 2023 is 50% higher than in the base year 2015. A wrong answer (e.g., 1.5, 60, or 200) reveals: (a) forgetting to multiply by 100, (b) using (80/120)×100 = 66.7 (inverted), or (c) thinking the index is the absolute price. The step (pn/p0)×100 must be automatic.",
+     "self_check": true
+    },
+    {
+     "q": "The Index of Industrial Production (IIP) is a quantity index. The Wholesale Price Index (WPI) is a price index. GDP deflator is a value index. Explain the *conceptual difference* in what each measures, using the formula: Value = Price × Quantity.",
+     "a": "A quantity index (IIP) measures change in *physical volume* of output (ΣQn/ΣQ0 × 100), holding prices constant conceptually. A price index (WPI) measures change in *price level* (ΣPn/ΣP0 × 100), holding quantities constant. A value index (GDP deflator) measures change in *total monetary value* (ΣPnQn/ΣP0Q0 × 100), capturing both price and quantity changes together. A wrong answer that just names examples without linking to P×Q reveals the student memorizes labels but doesn't grasp the structural distinction — critical for choosing the right index in policy analysis.",
+     "self_check": true
+    },
+    {
+     "q": "\"An index number is a special type of average.\" Defend or critique this statement with reference to the simple average of relatives method and the weighted aggregative method. Which \"kind\" of average is it in each case?",
+     "a": "The statement is *partially correct but incomplete*. In the **simple average of relatives method**, the index is literally the *arithmetic mean* of individual price relatives (I = Σ(pn/p0 × 100)/n) — so it *is* an average. In the **weighted aggregative method** (e.g., Laspeyres: ΣpnQ0/Σp0Q0 × 100), the index is a *ratio of aggregates*, not an average of individual ratios — it behaves like a weighted average only if weights are value shares. Calling it an \"average\" without specifying the method obscures the fact that different methods answer different questions (e.g., \"average price change per item\" vs \"change in total cost of a fixed basket\"). A student who says \"yes, it's always an average\" misses the methodological nuance that matters in JEE/NEET.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario where using a *simple relative index* (single commodity) would be *misleading* for decision-making, and explain what additional information a *weighted index* would capture to fix this.",
+     "a": "Scenario: A household spends ₹500 on rice (price doubled from ₹20 to ₹40/kg) and ₹5000 on rent (unchanged at ₹10,000). Simple relative index for rice = 200, for rent = 100. Average = 150 → suggests 50% cost-of-living increase. But actual expenditure rose from ₹5500 to ₹5500 (rice ₹1000 + rent ₹10000 = ₹11000? Wait — rice was 25kg × ₹20 = ₹500, now 25kg × ₹40 = ₹1000; rent unchanged ₹10,000. Total: ₹5500 → ₹11,000? No: ₹500 + ₹10,000 = ₹10,500 base; current = ₹1,000 + ₹10,000 = ₹11,000. Increase = 4.76%. The simple average (150) grossly overstates because it gives equal weight to rice and rent despite rent dominating the budget. A weighted index (using expenditure shares as weights) would capture the *actual* burden. A poor answer gives a vague scenario without numbers or fails to link weights to expenditure importance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

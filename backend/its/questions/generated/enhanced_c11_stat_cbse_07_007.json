@@ -34,6 +34,26 @@
      "q": "Design a small real-world problem (with at least 6 pairs) where Spearman's rank correlation would be more appropriate than Pearson's correlation. Provide the data and ask a question that requires calculating and interpreting Spearman's coefficient.",
      "a": "A good answer might describe: \"Ranking of 8 cities by Air Quality Index (AQI) and Respiratory Illness Rate. AQI is skewed with extreme outliers; the relationship is monotonic but not linear.\" Data: City AQI ranks (1-8) and Illness Rate ranks (1-8). Question: \"Calculate Spearman's coefficient and interpret.\" A poor answer (e.g., using raw AQI values, or a linear relationship like height-weight) reveals the student cannot identify situations where ranking is necessary or where monotonic non-linear relationships exist.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Spearman's rank correlation coefficient (denoted by ρ or rₛ) is a non-parametric measure of the strength and direction of the monotonic ______ between two variables.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a sports analyst ______ the rankings of 10 cricket players in Test matches and T20 matches.",
+     "a": "comparing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Pearson's correlation would use the raw scores, but if the relationship is not linear (e.g., a player excellent in Tests may not be proportionally excellent in T______s), Pearson's measure can be misleading.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently compute Spearman's rank correlation coefficient from raw data by correctly assigning ranks, calculating rank differences, applying the formula, and interpreting the magnitude and sign of the result in the context of a monotonic relationship.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Design a budgeting template (table format) for a family with irregular income (e.g., freelancer father, seasonal agricultural mother) that incorporates: (a) income smoothing mechanism, (b) priority-based expense ranking, (c) savings automation trigger, and (d) monthly review checkpoint. Explain how each feature addresses irregular income challenges.",
      "a": "Template columns: Month | Projected Income (3-month avg) | Actual Income | Surplus/Deficit vs Projected | Priority 1 Expenses (survival: food, rent, medicine) | Priority 2 Expenses (obligations: EMI, insurance, fees) | Priority 3 Expenses (quality: transport, utilities, education) | Priority 4 Expenses (discretionary: entertainment, eating out) | Savings Transfer (auto if Actual > Projected + 10%) | Contingency Top-up | Review Notes. Features: (a) Uses 3-month rolling average to smooth projections. (b) Priority ranking ensures survival first when income falls short. (c) Automation trigger prevents \"no savings this month\" excuse. (d) Monthly review forces adjustment. A poor answer that gives a standard fixed-income budget template reveals inability to adapt budgeting principles to real-world income volatility — a key Class 12 competency.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Money management is the systematic process of planning, organizing, controlling, and evaluating family financial resources — including money income (earnings, pensions, remittances), real income (goods/services produced or received in kind), and psychic income (______ from money use) — through a budget that allocates income to expenditure, savings, and investment to achieve family goals within a defined time period.",
+     "a": "satisfaction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your ______ earns ₹60,000 per month but by the 25th, there is barely ₹2,000 left and you don't know where the money went.",
+     "a": "family",
+     "self_check": true
+    },
+    {
+     "q": "What is Money management? State the definition given in this lesson.",
+     "a": "Money management is the systematic process of planning, organizing, controlling, and evaluating family financial resources — including money income (earnings, pensions, remittances), real income (goods/services produced or received in kind), and psychic income (satisfaction from money use) — through a budget that allocates income to.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: We walk through the ______-step budgeting process using a real Indian family scenario, showing how to estimate income, list fixed and variable expenses, set savings targets, and build in a contingency fund.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Money management?",
+     "a": "Students believe \"budgeting means cutting expenses\" and \"real income is only what you grow yourself.\" The first error leads to budgets that are punitive and unsustainable — they miss that budgeting is about *directing* money to valued goals, not just restriction.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) classify a given family's income sources into money, real, and psychic income with justification, and (2) construct a balanced monthly family budget for a given income level and family composition, showing allocation percentages for major expenditure heads, savings, and contingencies, and explain the.",
+     "self_check": true
     }
    ]
   }

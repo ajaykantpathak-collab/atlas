@@ -34,6 +34,31 @@
      "q": "Design a simple thought experiment to demonstrate that electrons have negligible mass compared to protons, using only the concept of charge-to-mass ratio and deflection in a magnetic field.",
      "a": "Place an electron and a proton in the same uniform magnetic field with identical velocity. The radius of curvature r = mv/(qB). Since q is same magnitude, r ∝ m. The electron’s path curves sharply (tiny radius) while the proton’s path curves gently (large radius). Observing the dramatically different curvatures proves the electron’s mass is far smaller. A poor answer (e.g., “weigh them on a balance”) ignores the subatomic scale and shows inability to design an indirect measurement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Subatomic particles are the fundamental ______ of an atom: electrons (negatively charged, negligible mass, orbit the nucleus), protons (positively charged, mass ~1 u, reside in nucleus), and neutrons (neutral, mass ~1 u, reside in nucleus).",
+     "a": "constituents",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a familiar observation: when you rub a balloon on your hair, it sticks to the wall – this static ______ hints at invisible charged particles.",
+     "a": "electricity",
+     "self_check": true
+    },
+    {
+     "q": "What is Subatomic particles? State the definition given in this lesson.",
+     "a": "Subatomic particles are the fundamental constituents of an atom: electrons (negatively charged, negligible mass, orbit the nucleus), protons (positively charged, mass ~1 u, reside in nucleus), and neutrons (neutral, mass ~1 u, reside in nucleus).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Subatomic particles?",
+     "a": "Students often believe that because electrons orbit the nucleus, they must have significant mass like planets orbiting the sun.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently compare the three subatomic particles in a table stating charge, relative mass, absolute mass (kg), and location in the atom, and explain how the equality of charge magnitude ensures atomic neutrality.",
+     "self_check": true
     }
    ]
   }

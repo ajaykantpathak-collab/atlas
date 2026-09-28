@@ -34,6 +34,16 @@
      "q": "Create a word problem involving a real-life situation (e.g., electrical circuits, signal processing) where two quantities are represented as complex numbers and must be multiplied. Define the numbers, state the question, and solve it.",
      "a": "Example: \"In an AC circuit, impedance \\(Z_1 = 4 + 3j\\) ohms and \\(Z_2 = 2 - j\\) ohms are connected in series. Find the total impedance.\" (Note: series adds, parallel multiplies reciprocals; better: \"A signal passes through two filters with transfer functions \\(H_1 = 1+2i\\) and \\(H_2 = 3-i\\). Find the overall transfer function.\") Solution: \\((1+2i)(3-i) = 3 - i + 6i - 2i^2 = 5 + 5i\\). A poor answer uses addition instead of multiplication, or gives non-complex quantities, showing the student cannot map the physical situation to the mathematical operation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The result is a new complex number representing the combined ______.",
+     "a": "impedance",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The result is a new complex number ______ the combined impedance.",
+     "a": "representing",
+     "self_check": true
     }
    ]
   }

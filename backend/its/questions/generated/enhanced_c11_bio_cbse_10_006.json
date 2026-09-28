@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using onion flower buds (or any locally available plant) to demonstrate that Meiosis I reduces chromosome number. Specify the stage you would observe, the stain you would use, and the expected chromosome count in the observed cells compared to a root tip mitotic cell of the same plant.",
      "a": "Collect young anthers from onion flower buds, squash in acetocarmine stain, and observe pollen mother cells (PMCs) at Metaphase I. Count bivalents (each = one homologous pair) — number should be half the somatic chromosome number (e.g., onion 2n=16, so 8 bivalents). Compare with root tip mitotic metaphase showing 16 individual chromosomes. A poor design (e.g., using root tips for meiosis, or counting chromatids instead of bivalents) reveals inability to select appropriate tissue (gametogenic vs somatic) and stage for observing reductional division.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Meiosis I is the ______ division in which homologous chromosomes separate, reducing the chromosome number from diploid (2n) to haploid (n) while sister chromatids remain attached at their centromeres, producing two haploid cells each containing replicated chromosomes.",
+     "a": "reductional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how siblings from the same parents show different ______ of traits — eye colour, hair texture, height — despite inheriting chromosomes from the same two people.",
+     "a": "combinations",
+     "self_check": true
+    },
+    {
+     "q": "What is Meiosis I? State the definition given in this lesson.",
+     "a": "Meiosis I is the reductional division in which homologous chromosomes separate, reducing the chromosome number from diploid (2n) to haploid (n) while sister chromatids remain attached at their centromeres, producing two haploid cells each containing replicated chromosomes.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Meiosis I is the reductional division in which homologous chromosomes separate, reducing the chromosome number from diploid (______n) to haploid (n) while sister chromatids remain attached at their centromeres, producing two haploid cells each containing replicated chromosomes.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can sequence the five sub-stages of Prophase I with their defining chromosomal events, explain how synapsis and crossing over generate genetic variation, and distinguish Anaphase I (homologous chromosome separation) from mitotic anaphase (sister chromatid separation) using a labeled diagram.",
+     "self_check": true
     }
    ]
   }

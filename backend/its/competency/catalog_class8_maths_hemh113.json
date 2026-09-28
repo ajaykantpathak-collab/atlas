@@ -22,15 +22,33 @@
     "draw a graph for the principal and simple interest data",
     "check which of the given tables give a linear graph"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "fix the axes",
-     "explain": "Choose the x-axis and y-axis quantities and their scales."},
-    {"step": 2, "action": "plot the pairs",
-     "explain": "Each row of the table becomes one point."},
-    {"step": 3, "action": "join and inspect",
-     "explain": "A single straight line through all points signals a linear relation."}
-   ]
+    {
+     "step": 1,
+     "action": "fix the axes",
+     "explain": "Choose the x-axis and y-axis quantities and their scales."
+    },
+    {
+     "step": 2,
+     "action": "plot the pairs",
+     "explain": "Each row of the table becomes one point."
+    },
+    {
+     "step": 3,
+     "action": "join and inspect",
+     "explain": "A single straight line through all points signals a linear relation."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (42 - 14) / 4 gives 7",
+     "compute": "x = (42 - 14) / 4"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hemh.113.13.2",
@@ -48,15 +66,45 @@
     "plot the given ordered pairs and join them",
     "which point lies on the y-axis - justify"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "read the x-coordinate",
-     "explain": "Move along the horizontal axis by the first number."},
-    {"step": 2, "action": "read the y-coordinate",
-     "explain": "Move parallel to the vertical axis by the second number."},
-    {"step": 3, "action": "mark the point",
-     "explain": "The meeting place of the two guides is the point."}
-   ]
+    {
+     "step": 1,
+     "action": "read the x-coordinate",
+     "explain": "Move along the horizontal axis by the first number."
+    },
+    {
+     "step": 2,
+     "action": "read the y-coordinate",
+     "explain": "Move parallel to the vertical axis by the second number."
+    },
+    {
+     "step": 3,
+     "action": "mark the point",
+     "explain": "The meeting place of the two guides is the point."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the coordinate-geometry formula",
+     "explain": "apply the coordinate-geometry formula: dx = 6 - -6 gives 12",
+     "compute": "dx = 6 - -6"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the coordinate-geometry formula: dy = 11 - -5 gives 16",
+     "compute": "dy = 11 - -5"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 20",
+     "compute": "dist = sqrt(dx * dx + dy * dy)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hemh.113.13.3",
@@ -76,9 +124,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "divide distance by time",
+    {
+     "step": 1,
+     "action": "divide distance by time",
      "explain": "Uniform speed is the distance covered per unit time.",
-     "compute": "speed = distance / time"}
+     "compute": "speed = distance / time"
+    }
    ]
   }
  ],
@@ -94,9 +145,12 @@
     "time": "time taken in hours"
    },
    "solution_template": [
-    {"step": 1, "action": "divide distance by time",
+    {
+     "step": 1,
+     "action": "divide distance by time",
      "explain": "Uniform speed equals distance over time.",
-     "compute": "speed = distance / time"}
+     "compute": "speed = distance / time"
+    }
    ]
   },
   {
@@ -110,9 +164,12 @@
     "time": "time read from the graph in seconds"
    },
    "solution_template": [
-    {"step": 1, "action": "divide distance by time",
+    {
+     "step": 1,
+     "action": "divide distance by time",
      "explain": "The slope of the line is the speed.",
-     "compute": "speed = distance / time"}
+     "compute": "speed = distance / time"
+    }
    ]
   }
  ],
@@ -121,18 +178,18 @@
    "id": "ex13.1",
    "source_ref": "hemh113.txt EXERCISE 13.1-13.2",
    "questions": [
-     "Draw the graph of the given data and say whether it is linear.",
-     "Write the coordinates of the points marked in the graph.",
-     "Draw a graph for the principal and simple interest data."
+    "Draw the graph of the given data and say whether it is linear.",
+    "Write the coordinates of the points marked in the graph.",
+    "Draw a graph for the principal and simple interest data."
    ]
   },
   {
    "id": "ex13.2",
    "source_ref": "hemh113.txt EXERCISE 13.3",
    "questions": [
-     "Draw the distance-time graph for the given journey.",
-     "Find the speed from the drawn distance-time graph.",
-     "Identify the time intervals when the object was at rest."
+    "Draw the distance-time graph for the given journey.",
+    "Find the speed from the drawn distance-time graph.",
+    "Identify the time intervals when the object was at rest."
    ]
   }
  ]

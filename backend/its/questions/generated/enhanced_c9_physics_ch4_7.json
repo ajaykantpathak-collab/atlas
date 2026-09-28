@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a ball, a ramp, and a meter scale to demonstrate that mechanical energy is conserved when a ball rolls down a smooth incline. Specify what you would measure, how you would calculate kinetic and potential energy at three points, and what result would confirm conservation.",
      "a": "Set up a smooth ramp of length 2 m inclined at 30° (height 1 m). Use a 0.1 kg ball. Measure time to roll from rest at top to three points: top (h=1 m), middle (h=0.5 m), bottom (h=0). Calculate speed from distance/time (assuming uniform acceleration) or use v²=2gh for predicted speeds. At each point: KE=½mv², PE=mgh. Conservation is confirmed if KE+PE ≈ 1 J (mgh_initial) at all three points within experimental error. A poor answer that only measures final speed or ignores the middle point shows the student doesn't understand that conservation must hold at every instant, not just initial and final.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mechanical energy is the total energy possessed by an object due to its motion and position, defined as the sum of its kinetic energy (energy due to motion) and potential energy (energy due to position or ______).",
+     "a": "configuration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a child on a swing in a playground: at the ______ points the swing momentarily stops (zero kinetic energy) but is at maximum height (maximum potential energy), while at the lowest point it moves fastest (maximum kinetic energy) at minimum height (minimum potential energy).",
+     "a": "highest",
+     "self_check": true
+    },
+    {
+     "q": "What is Mechanical energy? State the definition given in this lesson.",
+     "a": "Mechanical energy is the total energy possessed by an object due to its motion and position, defined as the sum of its kinetic energy (energy due to motion) and potential energy (energy due to position or configuration).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the total mechanical energy of a system at any instant by correctly computing kinetic energy (½mv²) and gravitational potential energy (mgh) with consistent reference levels, and can explain why mechanical energy remains constant in a closed system with only conservative forces acting.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a child on a swing in a playground: at the highest points the swing ______ stops (zero kinetic energy) but is at maximum height (maximum potential energy), while at the lowest point it moves fastest (maximum kinetic energy) at minimum height (minimum potential energy).",
+     "a": "momentarily",
+     "self_check": true
     }
    ]
   }

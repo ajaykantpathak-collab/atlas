@@ -34,6 +34,21 @@
      "q": "Design a function `create_student_profile()` that accepts at least four parameters (name, age, grade, city) and demonstrate two different valid function calls: one using only positional arguments and another using only keyword arguments in a different order. Explain why the keyword version might be preferred in a large program.",
      "a": "Example function: `def create_student_profile(name, age, grade, city):`. Positional call: `create_student_profile(\"Rohan\", 16, \"11th\", \"Delhi\")`. Keyword call: `create_student_profile(city=\"Mumbai\", name=\"Anita\", grade=\"11th\", age=15)`. The keyword version is preferred in large programs because it is self-documenting (parameter names clarify purpose), order-independent (reduces errors when parameters are many), and resilient to signature changes (adding parameters doesn't break existing calls). A poor answer might only show calls without explaining the software engineering benefits.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Keyword arguments (or named arguments) in Python allow passing values to a function by ______ specifying the parameter name along with the value during the function call, using the syntax parameter_name=value.",
+     "a": "explicitly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a program to calculate the total cost of a mobile phone purchase where the function has ______ for base_price, gst_rate, discount, and delivery_charge.",
+     "a": "parameters",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly write function calls using keyword arguments, mix positional and keyword arguments following the rule that positional arguments must precede keyword arguments, and explain how keyword arguments improve code readability and prevent errors when a function has many parameters.",
+     "self_check": true
     }
    ]
   }

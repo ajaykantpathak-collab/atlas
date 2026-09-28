@@ -34,6 +34,26 @@
      "q": "Create a new scenario with at least 5 reconciling items (including one error by the bank and one error by the firm) where the cash book shows a debit balance of ₹25,000 and the passbook shows a credit balance of ₹30,000. List the items with amounts and prepare the BRS.",
      "a": "**Scenario:**\n1. Cash book balance (Dr.) ₹25,000\n2. Cheques issued but not presented ₹6,000\n3. Cheques deposited but not collected ₹4,000\n4. Bank charges ₹300 not in cash book\n5. Direct deposit by customer ₹2,500 not in cash book\n6. **Error by bank:** Cheque of ₹1,000 wrongly debited to our account\n7. **Error by firm:** Cheque of ₹800 recorded twice in cash book\n\n**BRS:**\n+ Cash book balance: 25,000\n+ Unpresented cheques: 6,000\n+ Direct deposit: 2,500\n+ Error by bank (wrong debit): 1,000\n- Uncollected cheques: 4,000\n- Bank charges: 300\n- Error by firm (double recording): 800\n= Passbook balance: **30,400** (adjust one item slightly to get exactly 30,000, e.g., change direct deposit to ₹2,100).\nA poor answer (missing error items, wrong signs, or not balancing) reveals inability to synthesize multiple concepts including error rectification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Bank ______ Statement (BRS) prepared from the cash book balance is a statement that reconciles the bank balance as per the cash book with the balance as per the bank passbook/statement by identifying and adjusting for timing differences and errors, starting with the cash book balance as the base figure and adding/subtracting items to arrive at the passbook balance.",
+     "a": "Reconciliation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small stationery shop and your cash book shows ₹50,000 in the bank, but the bank ______ shows ₹57,600.",
+     "a": "statement",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently prepare a Bank Reconciliation Statement starting from a given cash book balance (debit or credit) by correctly classifying each reconciling item as an addition or deduction, handling both favourable balances and overdrafts, and arriving at the correct passbook balance with proper formatting.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small ______ shop and your cash book shows ₹50,000 in the bank, but the bank statement shows ₹57,600.",
+     "a": "stationery",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,52 @@
+{
+ "catalog": "catalog_class12_chemistry_lech104.json",
+ "concepts": [
+  {
+   "id": "lech.04.4.3.6",
+   "title": "Spin-only Magnetic Moment of Transition Metal Ions",
+   "converted_to_compute": true,
+   "formula": "moment_bm = sqrt(unpaired_electrons * (unpaired_electrons + 2))",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "moment_bm = sqrt(unpaired_electrons * (unpaired_electrons + 2))",
+     "compute": "moment_bm = sqrt(unpaired_electrons * (unpaired_electrons + 2))"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Spin-only Magnetic Moment of Transition Metal Ions: given unpaired_electrons = 64, find moment bm.",
+     "a": "64.9923",
+     "self_check": false
+    },
+    {
+     "q": "For Spin-only Magnetic Moment of Transition Metal Ions: given unpaired_electrons = 72, find moment bm.",
+     "a": "72.9932",
+     "self_check": false
+    },
+    {
+     "q": "For Spin-only Magnetic Moment of Transition Metal Ions: given unpaired_electrons = 58, find moment bm.",
+     "a": "58.9915",
+     "self_check": false
+    },
+    {
+     "q": "For Spin-only Magnetic Moment of Transition Metal Ions: given unpaired_electrons = 57, find moment bm.",
+     "a": "57.9914",
+     "self_check": false
+    },
+    {
+     "q": "For Spin-only Magnetic Moment of Transition Metal Ions: given unpaired_electrons = 50, find moment bm.",
+     "a": "50.9902",
+     "self_check": false
+    },
+    {
+     "q": "For Spin-only Magnetic Moment of Transition Metal Ions: given unpaired_electrons = 90, find moment bm.",
+     "a": "90.9945",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

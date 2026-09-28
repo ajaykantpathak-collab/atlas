@@ -34,6 +34,31 @@
      "q": "Design a simple experiment to distinguish between temporary and permanent hardness in two unknown water samples using only soap solution, a burner, and test tubes.",
      "a": "Take equal volumes of each sample in separate test tubes. Add soap solution dropwise, counting drops until permanent lather forms. Record drops. Boil both samples for 10 minutes, cool, and repeat soap test. The sample showing a significant drop in soap requirement after boiling contains temporary hardness; the one with little change contains permanent hardness. A poor answer (e.g., \"just taste the water\") lacks chemical reasoning and quantitative observation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Hardness of water is the property that prevents lather formation with soap due to the presence of dissolved calcium and magnesium salts (______, chlorides, sulphates).",
+     "a": "bicarbonates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bucket of ______ and a bucket of rainwater in an Indian household.",
+     "a": "groundwater",
+     "self_check": true
+    },
+    {
+     "q": "What is Hardness of water? State the definition given in this lesson.",
+     "a": "Hardness of water is the property that prevents lather formation with soap due to the presence of dissolved calcium and magnesium salts (bicarbonates, chlorides, sulphates).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Hardness of water?",
+     "a": "Students often think that \"hardness\" means high TDS (total dissolved solids) and confuse it with salinity.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write balanced chemical equations for the reactions causing temporary and permanent hardness, calculate hardness in ppm and degrees Clark/French, and predict whether a given water sample will form lather with soap based on its ionic composition.",
+     "self_check": true
     }
    ]
   }

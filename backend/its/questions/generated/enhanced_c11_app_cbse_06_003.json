@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_06_003",
+   "title": "c11_app_cbse_06_003",
+   "questions": [
+    {
+     "q": "State the Rule of Product (Fundamental Principle of Multiplication) in your own words, including the condition under which it applies.",
+     "a": "**Correct Answer:** If a task can be completed in a sequence of two steps, where the first step can be done in *m* ways and the second step can be done in *n* ways **for each way of doing the first step**, then the total number of ways to complete the task is *m × n*. The critical condition is that the number of options for the second step must **not depend** on which specific choice was made in the first step (only that a choice was made).  \n**What a wrong answer reveals:** If the student omits \"for each way of the first step\" or says \"independent events,\" they confuse probabilistic independence with counting dependence. In counting, the second step's options can vary *in identity* (e.g., different exit gates) but the *count* must be constant. If they say \"simultaneous,\" they confuse it with the Rule of Sum.",
+     "self_check": true
+    },
+    {
+     "q": "A student must choose **one** elective from **either** 4 Science electives **or** 5 Humanities electives. Another student must choose **one** Science elective **and** **one** Humanities elective. Explain why the first student has 9 options but the second has 20, using the correct principle names.",
+     "a": "**Correct Answer:** The first student uses the **Rule of Sum** because the tasks are mutually exclusive — choosing a Science elective **or** a Humanities elective (not both). Total = 4 + 5 = 9. The second student uses the **Rule of Product** because they must choose a Science elective **and then** a Humanities elective — a two-stage sequence. For each of the 4 Science choices, there are 5 Humanities choices, giving 4 × 5 = 20.  \n**What a wrong answer reveals:** If the student says both are multiplication or both addition, they cannot distinguish \"or\" (mutually exclusive alternatives) from \"and then\" (sequential stages). If they say the second student has 9 options, they treat the pair as a single combined choice rather than a sequence.",
+     "self_check": true
+    },
+    {
+     "q": "How many 3-digit even numbers can be formed using digits {0, 1, 2, 3, 4} if **repetition is not allowed**? Show your reasoning step by step.",
+     "a": "**Correct Answer with Steps:**  \nStep 1: Identify the stages — fill the units (U), tens (T), hundreds (H) places. Since the number must be even, **start with the most restricted place: Units**.  \nStep 2: Units place must be even → {0, 2, 4} → **3 options**.  \nStep 3: Split into two **cases** because 0 in units affects hundreds place differently:  \n- **Case 1: Units = 0** (1 way). Then H: {1,2,3,4} → 4 ways. T: remaining 3 digits → 3 ways. Total = 1 × 4 × 3 = 12.  \n- **Case 2: Units = 2 or 4** (2 ways). Then H: cannot be 0 or the used even digit → {1,3, remaining even} → 3 ways. T: remaining 3 digits (including 0) → 3 ways. Total = 2 × 3 × 3 = 18.  \nStep 4: Add cases (Rule of Sum): 12 + 18 = **30 numbers**.  \n**What a wrong answer reveals:** If the student does 4 × 4 × 3 = 48 (ignoring that 0 cannot be in hundreds), they miss the restriction dependency. If they do 3 × 4 × 3 = 36, they treat units as independent of hundreds. Case analysis is essential when a restriction (even) interacts with another (non-zero leading digit).",
+     "self_check": true
+    },
+    {
+     "q": "Compare: \"Number of ways to select a captain and vice-captain from 11 players\" vs \"Number of ways to select a team of 2 players from 11.\" Both involve choosing 2 from 11. Why does the first use the Rule of Product (11 × 10 = 110) while the second uses combinations (55)? What structural difference in the task changes the principle?",
+     "a": "**Correct Answer:** The first task has **ordered stages**: choose captain (11 ways) **and then** vice-captain from remaining (10 ways) — sequence matters, so Rule of Product applies directly (11 × 10). The second task has **no order**: selecting {A, B} is the same as {B, A}. The Rule of Product overcounts by a factor of 2! (the arrangements of the 2 chosen). The structural difference is whether the **stages are distinguishable** (captain vs vice-captain) or **indistinguishable** (just two team members).  \n**What a wrong answer reveals:** If the student says \"one is permutation, one is combination\" without explaining *why* the principles differ, they are labelling, not analysing. The core insight: Rule of Product counts **sequences**; if the final outcome does not care about sequence, we must divide by the permutations of the chosen items — which is exactly what nCr does.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher claims: \"To count the number of 4-letter codes from letters {A, B, C, D, E} with no repetition, you can either do 5 × 4 × 3 × 2 = 120 (Rule of Product) or 5P4 = 120. Since both give the same answer, the Rule of Product and nPr are the same thing.\" Evaluate this claim.",
+     "a": "**Correct Answer:** The claim is **false**. The Rule of Product is a **general reasoning principle** for breaking any sequential task into stages. nPr is a **specific formula** derived *from* the Rule of Product for the special case of arranging *r* distinct objects from *n* distinct objects in order. The Rule of Product applies even when stages have different option sets (e.g., \"first digit 1–9, second 0–9 except first\"), while nPr assumes a uniform pool. They are not \"the same thing\" — one is the engine, the other a pre-built vehicle for a specific terrain.  \n**What a wrong answer reveals:** If the student agrees, they confuse a **foundational principle** with a **derived formula**. This leads to failure when a problem has non-uniform restrictions (e.g., \"vowels in even positions\") where nPr cannot be directly applied but the Rule of Product still works via case analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) that requires **both** the Rule of Sum and Rule of Product in sequence. The problem must have at least 3 stages and one restriction. State the problem, then solve it.",
+     "a": "**Example Problem:** \"A Delhi Metro commuter travels from Rajiv Chowk to Noida Sector 51. There are 3 routes to reach the interchange station (Route A, B, C). From the interchange, there are 2 lines to Noida (Blue Line, Aqua Line). On the Blue Line, the commuter can alight at any of 4 stations; on the Aqua Line, at any of 3 stations. However, if they took Route A, they **cannot** take the Aqua Line due to a technical fault. How many distinct journey options (route + line + exit station) exist?\"  \n**Solution:**  \nCase 1: Route A taken (1 way) → only Blue Line (1 way) → 4 exit stations → 1 × 1 × 4 = 4.  \nCase 2: Route B or C taken (2 ways) → 2 line choices → if Blue: 4 exits; if Aqua: 3 exits → per route: (1×4) + (1×3) = 7. Total for Case 2: 2 × 7 = 14.  \nTotal journeys (Rule of Sum): 4 + 14 = **18**.  \n**Criteria for good answer:** Must have mutually exclusive cases (Sum) each containing a sequence of dependent choices (Product), with a restriction linking a choice in an early stage to options in a later stage.  \n**What a poor answer reveals:** If the problem only uses Sum or only Product, or has no restriction linking stages, the student hasn't grasped the **interplay** of the two principles in multi-stage real-world scenarios.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

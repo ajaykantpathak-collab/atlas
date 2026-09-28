@@ -34,6 +34,31 @@
      "q": "Design a minigene splicing reporter assay to test whether a synonymous mutation (does not change amino acid) in exon 3 of the CFTR gene creates a cryptic 5' splice site. Specify: vector backbone, insert design, cell line, readout, and critical controls.",
      "a": "Vector: pSPL3 or pCI-neo with dual reporter (e.g., GFP/RFP). Insert: CFTR genomic fragment spanning exon 2–intron 2–exon 3–intron 3–exon 4 (with flanking intronic sequences ≥200 bp) cloned between two constitutive exons (SD/SA). Two constructs: wild-type and mutant (synonymous change). Cell line: HEK293T (high transfection, functional splicing machinery). Readout: RT-PCR with primers in vector exons → resolve products on capillary electrophoresis; quantify % exon inclusion/skipping. Controls: (1) Empty vector (background); (2) Known pathogenic splice mutation (positive control); (3) RNase-free DNase treatment (exclude genomic DNA); (4) qPCR for transfection normalization. A poor answer omits flanking intronic context, uses wrong cell type (e.g., bacteria), or lacks quantification strategy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: RNA splicing is the precise, ATP-dependent post-transcriptional process in eukaryotes where non-coding intervening sequences (introns) are excised from the primary transcript (hnRNA/pre-mRNA) and the coding sequences (exons) are ligated together in a 5'→3' orientation to form mature mRNA, mediated by the spliceosome—a dynamic ______ complex recognizing conserved consensus sequences at intron-exon boundaries (5' GU, branch point A, 3' AG).",
+     "a": "ribonucleoprotein",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a patient with β-______ who produces abnormal hemoglobin because a single G→A mutation at the 5' splice site of intron 1 in the β-globin gene causes exon 1 to be skipped—this is the real-world stakes of splicing fidelity.",
+     "a": "thalassemia",
+     "self_check": true
+    },
+    {
+     "q": "What is RNA splicing? State the definition given in this lesson.",
+     "a": "RNA splicing is the precise, ATP-dependent post-transcriptional process in eukaryotes where non-coding intervening sequences (introns) are excised from the primary transcript (hnRNA/pre-mRNA) and the coding sequences (exons) are ligated together in a 5'→3' orientation to form mature mRNA, mediated by the spliceosome—a dynamic.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about RNA splicing?",
+     "a": "Students believe: \"Introns are evolutionary junk that are simply discarded.\" This error arises because textbooks emphasize intron removal without discussing intron function.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Identify canonical 5' splice donor (GU), branch point (A), and 3' splice acceptor (AG) sites in a given pre-mRNA sequence and predict the mature mRNA product; (2) Explain the stepwise assembly and catalytic mechanism of the spliceosome (E, A, B, Bact, B*, C, C* complexes) including the two.",
+     "self_check": true
     }
    ]
   }

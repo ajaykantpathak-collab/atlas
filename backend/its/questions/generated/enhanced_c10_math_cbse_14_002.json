@@ -34,6 +34,26 @@
      "q": "Create a random experiment (different from coins, dice, or cards) that has exactly 10 equally likely outcomes in its sample space. Describe the experiment clearly and list its sample space.",
      "a": "Example: A spinner divided into 10 equal sectors numbered 1 to 10 is spun once. Sample space S = {1,2,3,4,5,6,7,8,9,10}. Another example: A box contains 10 tickets numbered 1 to 10; one ticket is drawn at random. S = {1,2,3,4,5,6,7,8,9,10}. A good answer must specify a physical mechanism that yields exactly 10 distinct, equally likely results. A poor answer might give an experiment with non-equally likely outcomes (e.g., \"number of children in a family\") or an incorrect count (e.g., \"toss a coin 3 times\" which gives 8 outcomes). This tests creativity and understanding of \"equally likely\" and sample space size.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The sample space of a random experiment is the set of all ______ outcomes of that experiment, denoted by S or Ω.",
+     "a": "possible",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are playing a board game with your friends during Diwali holidays: you roll two dice ______ to move your token.",
+     "a": "simultaneously",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Before calculating your chances of getting a sum of ______, you must first list every possible outcome when two dice are rolled.",
+     "a": "7",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly list the sample space for any random experiment (single or combined trials) using systematic methods (listing, tree diagrams, tables), identify whether a given subset is an elementary or compound event, and distinguish between impossible, certain, and complementary events with precise mathematical notation.",
+     "self_check": true
     }
    ]
   }

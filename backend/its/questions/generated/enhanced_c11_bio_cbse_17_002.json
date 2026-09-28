@@ -34,6 +34,31 @@
      "q": "Design a simple microscopic observation protocol (stains, magnification, key features to note) that would allow a Class 11 student to distinguish the three muscle types in unlabelled histological sections.",
      "a": "Use H&E stain at 400×. Skeletal: long parallel fibres, peripheral nuclei, clear A/I bands. Smooth: short spindle-shaped fibres, central nucleus, no striations. Cardiac: branching fibres, central nucleus, faint striations, intercalated discs (dark lines). A poor protocol that omits intercalated discs or nuclear position fails to separate cardiac from skeletal reliably.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Muscles are specialised mesodermal tissues ______ 40–50% of adult human body mass, classified into three types based on location, striation pattern, and neural control: skeletal (striated, voluntary, attached to bones), smooth/visceral (non-striated, involuntary, walls of hollow viscera), and cardiac (striated, branched, involuntary, heart wall).",
+     "a": "constituting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your forearm while you deliberately make a fist — you see and feel the skeletal muscles bulge under ______ control.",
+     "a": "voluntary",
+     "self_check": true
+    },
+    {
+     "q": "What is Muscles? State the definition given in this lesson.",
+     "a": "Muscles are specialised mesodermal tissues constituting 40–50% of adult human body mass, classified into three types based on location, striation pattern, and neural control: skeletal (striated, voluntary, attached to bones), smooth/visceral (non-striated, involuntary, walls of hollow viscera), and cardiac (striated, branched.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Muscles?",
+     "a": "Students often think \"striated = voluntary\" and \"non-striated = involuntary\" as absolute rules, leading them to misclassify cardiac muscle as voluntary because it is striated.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly classify a given muscle description or micrograph into skeletal, smooth, or cardiac type by stating its striation status, control mechanism (voluntary/involuntary), typical location, and one key structural feature (e.g., branching, multinucleate, spindle-shaped).",
+     "self_check": true
     }
    ]
   }

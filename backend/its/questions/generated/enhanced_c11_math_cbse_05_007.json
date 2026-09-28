@@ -34,6 +34,16 @@
      "q": "Create a complex number \\( z \\) such that \\( |z| = 5 \\) and \\( \\text{Re}(z) = 3 \\). How many such numbers exist? Find all of them and plot them on the Argand plane.",
      "a": "Let \\( z = 3 + iy \\). Then \\( |z| = \\sqrt{3^2 + y^2} = 5 \\Rightarrow 9 + y^2 = 25 \\Rightarrow y^2 = 16 \\Rightarrow y = \\pm 4 \\). Two numbers: \\( 3 + 4i \\) and \\( 3 - 4i \\). They are symmetric about the real axis (conjugates). A poor answer giving only \\( 3 + 4i \\) misses the negative root, revealing the student forgets that modulus uses \\( y^2 \\), losing sign information — a key insight that conjugate pairs share the same modulus.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're measuring the ______ from your classroom (origin) to a point marked 3 metres east and 4 metres north — you'd use the Pythagorean theorem to get 5 metres.",
+     "a": "distance",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're measuring the distance from your classroom (origin) to a point marked 3 metres east and 4 metres north — you'd use the ______ theorem to get 5 metres.",
+     "a": "Pythagorean",
+     "self_check": true
     }
    ]
   }

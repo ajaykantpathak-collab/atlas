@@ -34,6 +34,26 @@
      "q": "Design a real-world scenario where using a tuple prevents a logical bug that would occur with a list. Write the buggy list version and the corrected tuple version.",
      "a": "Scenario: Storing RGB color constants `RED = (255, 0, 0)`. Buggy list version: `RED = [255, 0, 0]`; later code accidentally does `RED[1] = 128` turning red into orange globally. Tuple version prevents this at runtime with `TypeError`. A poor answer uses a scenario where mutation is actually needed (e.g., accumulating scores), showing the student doesn't understand when immutability is appropriate.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A tuple is an ordered, immutable sequence of elements enclosed in ______ () where elements can be of mixed data types.",
+     "a": "parentheses",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're building a student record system where each student's roll number, name, and date of birth must never change once entered — unlike a list of daily attendance which ______ every day.",
+     "a": "changes",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why tuples are immutable, demonstrate tuple creation with correct syntax (including the trailing comma for single-element tuples), and predict the output of code that attempts to modify a tuple versus code that creates a new tuple from existing ones.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're building a student record system where each student's roll number, name, and date of birth must never change once entered — unlike a list of daily ______ which changes every day.",
+     "a": "attendance",
+     "self_check": true
     }
    ]
   }

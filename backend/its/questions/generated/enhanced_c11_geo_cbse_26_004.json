@@ -34,6 +34,36 @@
      "q": "Design a two-sensor strategy to simultaneously map urban heat islands and impervious surface expansion in Bengaluru over a 5-year period. Specify the sensors, their types (active/passive), acquisition timing, and one key parameter each will measure.",
      "a": "Sensor 1 (passive): Landsat-8/9 TIRS (Thermal Infrared Sensor) – acquire night-time (10:30 pm) images in pre-monsoon (April) to measure land-surface temperature (LST) for heat island intensity. Sensor 2 (passive): Sentinel-2 MSI – acquire cloud-free day-time images in the same season to calculate Normalised Difference Built-up Index (NDBI) for impervious surface extent. Both are passive optical/thermal; active radar is not needed here because clouds are minimal in April and the parameters (LST, NDBI) are best derived from optical/thermal bands. A poor answer selects radar for heat islands, misunderstanding that LST requires thermal infrared emission, not microwave backscatter.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Active sensors are remote sensing devices that emit their own ______ energy (e.g., radar, LiDAR) toward the Earth's surface and record the backscattered signal, whereas passive sensors detect naturally occurring radiation—primarily solar radiation reflected off the surface or thermal emissions from the surface itself—without providing their own illumination.",
+     "a": "electromagnetic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Open Google Earth on your phone and look at your neighbourhood—you are seeing a passive optical image captured by ______ reflecting off roofs and trees.",
+     "a": "sunlight",
+     "self_check": true
+    },
+    {
+     "q": "What is Active sensors? State the definition given in this lesson.",
+     "a": "Active sensors are remote sensing devices that emit their own electromagnetic energy (e.g., radar, LiDAR) toward the Earth's surface and record the backscattered signal, whereas passive sensors detect naturally occurring radiation—primarily solar radiation reflected off the surface or thermal emissions from the surface itself—without.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now imagine trying to see the same area at ______ am or during a heavy monsoon downpour; the optical image would be black or obscured by clouds.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Active sensors?",
+     "a": "Students often believe that “active sensor” means the sensor actively moves (like a scanning mirror) while “passive sensor” sits still.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) clearly distinguish active and passive sensors by energy source, operational constraints (day/night, weather), and typical wavelength regions; (2) explain the scanning mechanism of whiskbroom and pushbroom scanners with a labelled sketch; and (3) select the appropriate sensor type for a given Indian mapping problem.",
+     "self_check": true
     }
    ]
   }

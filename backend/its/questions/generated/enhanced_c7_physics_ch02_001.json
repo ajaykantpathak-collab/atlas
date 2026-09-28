@@ -34,6 +34,21 @@
      "q": "Design a simple setup using everyday household items to demonstrate how electrical energy can be converted into sound energy.",
      "a": "An acceptable design uses an electric cell, connecting wires, a switch, and a small electric buzzer. When the switch is closed, electrical energy flows through the buzzer and is converted into sound energy. A poor answer fails to include a working power source or includes non-conducting materials that break the circuit.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Electricity and its uses in daily life encompass the generation, ______, and conversion of electrical energy into other forms of energy (such as light, heat, and mechanical work) to power household appliances and devices.",
+     "a": "distribution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Every morning in an Indian ______, we see switches being flipped to turn on ceiling fans, tube lights, and water pumps.",
+     "a": "household",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify common household appliances and explain the energy transformations (electrical to light, heat, or mechanical) occurring within them to solve daily life problems.",
+     "self_check": true
     }
    ]
   }

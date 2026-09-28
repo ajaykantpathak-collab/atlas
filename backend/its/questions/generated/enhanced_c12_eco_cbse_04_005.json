@@ -32,7 +32,27 @@
     },
     {
      "q": "Construct a numerical example where a firm incurs losses in the short run but continues to produce. Specify TFC, TVC function, market price, and show that producing reduces losses compared to shutting down.",
-     "a": "Example: TFC = 100, TVC = Q² + 5Q, P = 15. MC = 2Q+5. P=MC → 15=2Q+5 → Q=5. AVC = Q+5 = 10 at Q=5. P=15 > AVC=10 → produce. TR=75, TVC=50, TFC=100. Loss producing = 100+50-75 = 75. Loss shutting down = TFC = 100. Producing reduces loss by 25. A poor answer (e.g., showing profit) reveals the student cannot construct a loss-making-yet-producing scenario, missing the core insight that covering variable costs + part of fixed costs is better than covering none.",
+     "a": "Example: TFC = 100, TVC = Q² + 5Q, P = 15. MC = 2Q+5. P=MC → 15=2Q+5 → Q=5. AVC = Q+5 = 10 at Q=5. P=15 > AVC=10 → produce. TR=75, TVC=50, TFC=100. Loss producing = 100+50-75 = 75. Loss shutting down = TFC = 100. Producing reduces loss by 25. A poor answer (e.g., showing profit) reveals the student cannot construct a loss-making-yet-producing scenario, missing the core insight that covering variable costs + part of fixed costs is better than covering N/A.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The short run supply curve of a perfectly ______ firm is the portion of its marginal cost (MC) curve that lies above the minimum point of its average variable cost (AVC) curve.",
+     "a": "competitive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a wheat farmer in Punjab who has already paid rent for land and bought seeds (fixed costs) but must decide daily whether to hire labor and run irrigation (______ costs) based on the mandi price.",
+     "a": "variable",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the firm's short run supply curve from given cost schedules, identify the shutdown price and output level, determine the firm's profit/loss position at any market price, and explain why the MC curve above min AVC represents the supply curve while the portion below does not.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a wheat farmer in Punjab who has already paid rent for land and bought seeds (fixed costs) but must decide daily whether to hire labor and run ______ (variable costs) based on the mandi price.",
+     "a": "irrigation",
      "self_check": true
     }
    ]

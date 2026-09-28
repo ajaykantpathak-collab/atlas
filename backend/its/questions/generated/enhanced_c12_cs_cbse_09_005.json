@@ -21,7 +21,7 @@
      "self_check": true
     },
     {
-     "q": "Compare the two snippets below. Why does the first print `10` while the second prints `20`?\n```python",
+     "q": "Compare the two snippets below. Why does the first print `10` while the second prints `20`?\n```python\n# Snippet A\nx = 10\ndef f():\n    print(x)\nf()\n\n# Snippet B\nx = 10\ndef g():\n    x = 20\n    print(x)\ng()\n```",
      "a": "In Snippet A, `x` is never assigned inside `f`, so it is a free variable resolved via LEGB to the global `x = 10`. In Snippet B, the assignment `x = 20` makes `x` a local variable of `g`; the `print` therefore uses the local `x = 20`. A student who claims both print `10` thinks assignment does not create a new local binding; they have not internalised that *any* assignment (including `+=`) creates a local variable unless declared `global`/`nonlocal`.",
      "self_check": true
     },
@@ -33,6 +33,31 @@
     {
      "q": "Design a scenario where you *must* use `nonlocal` (not `global`) to solve a problem. Provide the code and explain why `global` would be wrong.",
      "a": "Scenario: a closure that counts how many times a specific function is called, without polluting the module namespace.\n```python\ndef call_counter(func):\n    count = 0\n    def wrapper(*args, **kwargs):\n        nonlocal count\n        count += 1\n        return func(*args, **kwargs)\n    wrapper.call_count = lambda: count\n    return wrapper\n```\n`global` would share one counter across all decorated functions — wrong. `nonlocal` gives each decorated function its own private `count`. A poor answer uses a global dictionary keyed by function name; that works but misses the point of `nonlocal` for encapsulation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Variable scope in Python defines the region of a program where a variable is accessible: local scope restricts a variable to the function where it is created; global scope makes a variable accessible ______ the entire module; nonlocal scope (used in nested functions) allows an inner function to access and modify a variable from its nearest enclosing function scope.",
+     "a": "throughout",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a banking app: a global variable bank_name is visible everywhere, a function calculate_interest() has a local variable rate that disappears after the call, and a nested function apply_bonus() inside calculate_interest() needs to update a bonus variable defined in calculate_interest() — that is ______.",
+     "a": "nonlocal",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Practice with a ______-line nested function example until the search order becomes automatic.",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Given a Python code snippet with nested functions and global variables, the student must correctly predict the output by tracing variable bindings across local, global, and nonlocal scopes, and must explain why a variable is accessible or not at each point.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a banking app: a global variable bank_name is visible ______, a function calculate_interest() has a local variable rate that disappears after the call, and a nested function apply_bonus() inside calculate_interest() needs to update a bonus variable defined in calculate_interest() — that is nonlocal.",
+     "a": "everywhere",
      "self_check": true
     }
    ]

@@ -34,6 +34,26 @@
      "q": "Design a simple observation activity using a smartphone app (e.g., Satellite Tracker or Heavens-Above) to distinguish a geostationary satellite from a polar satellite in the night sky over one week. What would you record and how would you conclude?",
      "a": "Record: (1) Time, azimuth, elevation of a bright satellite (e.g., INSAT-3D for geostationary, ISS for near-polar) each night for 7 days. (2) Plot positions on a star chart. Geostationary: same coordinates every night (fixed point near equator). Polar: moves across sky in different paths each night, visible only near dawn/dusk, crosses from north to south or vice versa. Conclusion: Fixed position → geostationary; moving track shifting westward daily → polar. A poor answer (e.g., \"watch for a week and see\") lacks specific measurable criteria and confusion with stars/planets.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ satellite orbits Earth in the equatorial plane at an altitude of approximately 35,786 km with a period of exactly 24 hours, matching Earth's rotation so it appears fixed relative to a ground observer.",
+     "a": "geostationary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at a DTH dish on a rooftop — it points at a fixed spot in the sky because the ______ (like INSAT-3D) does not move relative to your house.",
+     "a": "satellite",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at a DTH dish on a rooftop — it points at a fixed spot in the sky because the satellite (like INSAT-______D) does not move relative to your house.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the height of a geostationary satellite using the orbital period formula, explain why a polar satellite must have a low altitude and high inclination, and distinguish the applications (communication vs. remote sensing) based on orbital geometry.",
+     "self_check": true
     }
    ]
   }

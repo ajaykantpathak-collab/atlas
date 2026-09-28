@@ -167,7 +167,16 @@
      "q": "Dry cell mass per unit substrate consumed defines what coefficient: the yield or the drag?",
      "a": "yield"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "yield_coef = biomass_produced / substrate_used",
+     "compute": "yield_coef = biomass_produced / substrate_used"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebt110.5",
@@ -288,7 +297,16 @@
      "q": "Microfiltration holds back bacteria through pores of 0.1 to how many microns: 10 or 0.1?",
      "a": "10"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "pressure_fold = ro_psi / mf_psi",
+     "compute": "pressure_fold = ro_psi / mf_psi"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebt110.8",

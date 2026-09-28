@@ -82,7 +82,7 @@
     "verify commutative property with two rational numbers",
     "check whether x/y + m/n = m/n + x/y"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -101,7 +101,28 @@
      "action": "compare",
      "explain": "If both sums are equal, addition is commutative"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the rational-number operation rules",
+     "explain": "apply the rational-number operation rules: num = 4 * 7 + 1 * 6 gives 34",
+     "compute": "num = 4 * 7 + 1 * 6"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the rational-number operation rules: den = 6 * 7 gives 42",
+     "compute": "den = 6 * 7"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the rational-number operation rules: val = num / den gives 0.809524",
+     "compute": "val = num / den"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c8m1.2.3",
@@ -121,7 +142,7 @@
     "verify associative property with three rational numbers",
     "find sum of three rational numbers by grouping"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -138,7 +159,28 @@
      "action": "compare",
      "explain": "If both results are equal, addition is associative"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the rational-number operation rules",
+     "explain": "apply the rational-number operation rules: num = 1 * 8 + 4 * 3 gives 20",
+     "compute": "num = 1 * 8 + 4 * 3"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the rational-number operation rules: den = 3 * 8 gives 24",
+     "compute": "den = 3 * 8"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the rational-number operation rules: val = num / den gives 0.833333",
+     "compute": "val = num / den"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c8m1.2.4",
@@ -233,7 +275,7 @@
     "find a times b minus c",
     "name the property a(b + c) = ab + ac"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -252,7 +294,16 @@
      "action": "compare",
      "explain": "Both sides are equal, so distributivity holds"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the integer operation sign rules",
+     "explain": "apply the integer operation sign rules: total = -2 + (-16) gives -18",
+     "compute": "total = -2 + (-16)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c8m1.2.7",

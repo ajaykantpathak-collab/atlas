@@ -34,6 +34,31 @@
      "q": "Design a real-world scenario (not a ticket counter) where a queue is the appropriate data structure, and write a sequence of 5 enqueue/dequeue operations that demonstrates a non-trivial state change (e.g., queue becomes empty then non-empty again).",
      "a": "Scenario: A printer queue in a school computer lab. Operations: enqueue(DocA), enqueue(DocB), dequeue() → prints DocA, dequeue() → prints DocB (queue empty), enqueue(DocC). Final queue: [DocC]. A poor answer uses a stack-like scenario (e.g., undo button) or operations that don't show empty-to-non-empty transition, indicating inability to map FIFO to real life.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Enqueue is the operation of ______ an element at the rear end of a queue, while Dequeue is the operation of removing and returning the element from the front end of a queue, strictly following the First-In-First-Out (FIFO) principle.",
+     "a": "inserting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ in a queue at a railway ticket counter in Mumbai.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What is Enqueue? State the definition given in this lesson.",
+     "a": "Enqueue is the operation of inserting an element at the rear end of a queue, while Dequeue is the operation of removing and returning the element from the front end of a queue, strictly following the First-In-First-Out (FIFO) principle.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Enqueue?",
+     "a": "Students often believe that in a queue, 'front' is where you insert and 'rear' is where you delete, because they associate 'front' with 'first' and think the first element should be added at the front.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to trace a sequence of enqueue and dequeue operations on a queue, correctly identifying the front and rear positions after each step, and write pseudocode or Python code for both operations including underflow/overflow checks.",
+     "self_check": true
     }
    ]
   }

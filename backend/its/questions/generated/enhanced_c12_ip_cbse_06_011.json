@@ -34,6 +34,21 @@
      "q": "Design a mini \"character counter\" for a `<textarea maxlength=\"200\">` that shows \"X characters remaining\" and updates live as the user types. The counter must turn red when remaining < 20. Provide the complete HTML + JavaScript (single file).",
      "a": "```html\n<textarea id=\"msg\" maxlength=\"200\" rows=\"4\" cols=\"50\"></textarea>\n<div id=\"counter\">200 characters remaining</div>\n<script>\n  const ta = document.getElementById('msg');\n  const ct = document.getElementById('counter');\n  ta.addEventListener('input', function() {\n    const rem = 200 - ta.value.length;\n    ct.textContent = rem + ' characters remaining';\n    ct.style.color = rem < 20 ? 'red' : 'black';\n  });\n</script>\n```\nA poor answer (using `keyup` instead of `input`, missing `maxlength` attribute, or not handling paste/drag-drop) shows the student doesn't know `input` event fires on all value changes (typing, paste, undo, drag-drop) while `keyup` misses non-keyboard input.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A JavaScript function is a reusable block of code designed to perform a specific task, executed when invoked (called) by an event, another function, or directly; event handling is the mechanism by which JavaScript responds to user ______ (clicks, keystrokes, form submissions) or browser events (page load, resize) by associating a function (event handler) with a specific event on an HTML element.",
+     "a": "interactions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a simple EMI ______ for a school project: the user enters principal, rate, and tenure, clicks \"Calculate\", and the monthly instalment appears instantly.",
+     "a": "calculator",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write a complete HTML page that defines a function with parameters and a return value, attaches it as an event handler to a button click using addEventListener, and demonstrates the function reading input values, performing a calculation, and updating the DOM with the result — all without syntax errors.",
+     "self_check": true
     }
    ]
   }

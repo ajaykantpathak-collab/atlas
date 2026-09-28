@@ -34,6 +34,36 @@
      "q": "Create a mini case: A company declares a dividend of ₹5,00,000 on 31st March 2024. By 30th April, ₹4,60,000 is paid. The remaining ₹40,000 is transferred to Unpaid Dividend Account. In 2025, ₹15,000 is claimed. In 2031, the balance is transferred to IEPF. Write all journal entries from declaration to IEPF transfer.",
      "a": "**31.03.2024:** Debit Statement of P&L (Dividend) ₹5,00,000; Credit Dividend Payable ₹5,00,000.  \n**30.04.2024:** Debit Dividend Payable ₹4,60,000; Credit Bank ₹4,60,000.  \n**30.04.2024 (transfer):** Debit Dividend Payable ₹40,000; Credit Unpaid Dividend A/c ₹40,000.  \n**2025 (claim):** Debit Unpaid Dividend A/c ₹15,000; Credit Bank ₹15,000.  \n**2031 (IEPF):** Debit Unpaid Dividend A/c ₹25,000; Credit IEPF A/c ₹25,000.  \nA poor answer misses the initial declaration entry, omits the transfer to Unpaid Dividend Account, or forgets the IEPF transfer after 7 years — showing gaps in the full life-cycle understanding.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Unclaimed Dividend refers to the dividend declared by a company that remains unpaid or unclaimed by ______ within 30 days of declaration; it must be transferred to a separate 'Unpaid Dividend Account' and shown as a Current Liability in the Balance Sheet.",
+     "a": "shareholders",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a company declares a dividend of ₹10 lakh, but ₹50,000 remains unclaimed by ______ after 30 days — where does this ₹50,000 go in the books?",
+     "a": "shareholders",
+     "self_check": true
+    },
+    {
+     "q": "What is Unclaimed Dividend? State the definition given in this lesson.",
+     "a": "Unclaimed Dividend refers to the dividend declared by a company that remains unpaid or unclaimed by shareholders within 30 days of declaration; it must be transferred to a separate 'Unpaid Dividend Account' and shown as a Current Liability in the Balance Sheet.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Unclaimed Dividend refers to the dividend declared by a company that remains unpaid or unclaimed by shareholders within ______ days of declaration; it must be transferred to a separate 'Unpaid Dividend Account' and shown as a Current Liability in the Balance Sheet.",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Unclaimed Dividend?",
+     "a": "Students often treat Unclaimed Dividend as a Provision (like Provision for Tax) and show it under 'Short-term Provisions' because the word 'unclaimed' sounds like an estimated liability.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) pass correct journal entries for transfer of unclaimed dividend to Unpaid Dividend Account and for forfeiture/reissue of shares, and (2) correctly present both items in the Balance Sheet as per Schedule III format with proper heads and sub-heads.",
+     "self_check": true
     }
    ]
   }

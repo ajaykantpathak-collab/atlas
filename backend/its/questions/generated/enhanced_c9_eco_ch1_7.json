@@ -34,6 +34,31 @@
      "q": "Design a **micro-enterprise plan** for a \"Mobile Juice Cart\" in your neighbourhood. List **at least 3 specific inputs for each factor** (Land, Labour, Capital, Entrepreneurship). Estimate the **monthly factor cost** (rent, wages, interest on capital, expected profit) using realistic local prices. Justify your chosen factor combination.",
      "a": "**Good answer criteria:** 1) Land: Cart parking spot (₹2,000/month), water/electricity access, fruit storage space. 2) Labour: Self (implicit wage ₹10,000), 1 helper (₹8,000). 3) Capital: Cart (₹50,000), juicer (₹15,000), utensils (₹5,000) → Interest cost @12% p.a. = ₹7,000/month. 4) Entrepreneurship: Recipe decisions, marketing, risk of unsold fruit → Target profit ₹15,000. **Total monthly cost ≈ ₹42,000.** Justification: \"Chose low capital (manual juicer) because capital is expensive (high interest) and labour is cheap (self + 1 helper) – matches India's factor endowment.\" A poor answer lists vague inputs (\"money\", \"effort\"), misses implicit costs (self-wage, own capital interest), or cannot justify the combination using factor prices.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Factors of production are the scarce economic resources used to create goods and services, classified into four categories: Land (all natural resources, reward: rent), Labour (human physical and mental effort, reward: wages), Capital (man-made tools, machinery, infrastructure, and buildings used for further production, reward: interest), and ______ (the initiative to combine the other three factors, bear uncertainty, and innovate, reward: profit).",
+     "a": "Entrepreneurship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are visiting a small garment ______ in Tirupur, Tamil Nadu, that exports cotton T-shirts.",
+     "a": "factory",
+     "self_check": true
+    },
+    {
+     "q": "What is Factors of production? State the definition given in this lesson.",
+     "a": "Factors of production are the scarce economic resources used to create goods and services, classified into four categories: Land (all natural resources, reward: rent), Labour (human physical and mental effort, reward: wages), Capital (man-made tools, machinery, infrastructure, and buildings used for further production, reward: interest).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Factors of production?",
+     "a": "Students consistently treat \"capital\" as \"money in the bank\" or \"financial investment\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify and classify the four factors of production in any real-world Indian production scenario (farm, factory, startup, service), state the specific factor reward for each, and explain how a change in the relative price of one factor (e.g., wage rise) leads to factor substitution in the \"how to produce\" decision.",
+     "self_check": true
     }
    ]
   }

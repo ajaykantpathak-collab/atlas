@@ -34,6 +34,31 @@
      "q": "Design a simple domestic setup using everyday items found in an Indian home to demonstrate that dark surfaces absorb more radiant heat than light surfaces.",
      "a": "Take two identical tin cans, paint one black and leave the other silver or white. Fill both with equal amounts of water at room temperature and place them equidistant from a single table lamp or under direct sunlight for one hour. Measure the final temperatures using a thermometer; the black can will show a higher temperature, proving it absorbs more radiation. A poor answer fails to control variables (like distance from the light source or initial water temperature) or omits measuring tools.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Radiation is the process of heat transfer through empty space or transparent mediums without requiring any material medium, transferring energy via ______ waves.",
+     "a": "electromagnetic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stand outside under the bright ______ midday sun and hold your hands out; you instantly feel warmth on your skin even though the air around you might be cool or shaded.",
+     "a": "Indian",
+     "self_check": true
+    },
+    {
+     "q": "What is Radiation? State the definition given in this lesson.",
+     "a": "Radiation is the process of heat transfer through empty space or transparent mediums without requiring any material medium, transferring energy via electromagnetic waves.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Radiation?",
+     "a": "Students often think that radiation requires air or wind to carry heat from one place to another, or they confuse it with convection because both involve heat moving across a room.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can explain how thermal energy from the Sun reaches the Earth through the vacuum of space without conduction or convection, and can distinguish radiation from other modes of heat transfer based on the requirement of a material medium.",
+     "self_check": true
     }
    ]
   }

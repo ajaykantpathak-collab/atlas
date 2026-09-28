@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using household items to demonstrate that microwaves are absorbed by water but pass through dry materials. List materials, procedure, expected observations, and the physics principle being tested.",
      "a": "**Materials:** Microwave oven, two identical ceramic mugs, water, dry sand/salt, thermometer.\n**Procedure:** (1) Fill mug A with 100 mL water, mug B with 100 g dry sand. (2) Heat both for 60 s at same power. (3) Measure temperature rise ΔT.\n**Observation:** Water ΔT ≈ 15–20°C; sand ΔT ≈ 1–2°C.\n**Principle:** Water has permanent dipole moment → resonant rotational absorption at 2.45 GHz; dry sand (SiO₂) has no net dipole → minimal dielectric loss. Microwaves pass through sand with little energy transfer.\nPoor answer (e.g., \"water has high specific heat\") confuses thermal capacity with microwave absorption — the key is dielectric loss tangent, not specific heat.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ waves are self-propagating oscillations of mutually perpendicular electric and magnetic fields that travel through vacuum at speed c = 3×10⁸ m/s; their applications exploit specific wavelength/frequency bands — radio waves (λ > 0.1 m) for communication via accelerated charges in antennas, microwaves (λ = 1 mm to 0.1 m) for radar and dielectric heating via resonant molecular excitation, and X-rays (λ = 10⁻⁸ m to 10⁻¹³ m) for medical imaging and therapy via high-energy photon interactions with matter.",
+     "a": "Electromagnetic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ oven heating food in your kitchen — the turntable rotates while invisible waves penetrate the container and agitate water molecules.",
+     "a": "microwave",
+     "self_check": true
+    },
+    {
+     "q": "What is Electromagnetic waves? State the definition given in this lesson.",
+     "a": "Electromagnetic waves are self-propagating oscillations of mutually perpendicular electric and magnetic fields that travel through vacuum at speed c = 3×10⁸ m/s; their applications exploit specific wavelength/frequency bands — radio waves (λ > 0.1 m) for communication via accelerated charges in antennas, microwaves (λ = 1 mm to 0.1 m).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ask: why does the oven use ______ GHz specifically?",
+     "a": "2.45",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Electromagnetic waves?",
+     "a": "Students believe \"higher frequency always means more dangerous\" and incorrectly rank hazards as: gamma > X-ray > UV > microwave > radio.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) identify the production mechanism, frequency/wavelength range, and primary application for radio waves, microwaves, and X-rays; (2) calculate wavelength from frequency (or vice versa) using c = νλ for any EM wave; (3) explain why microwaves heat water-containing substances efficiently using the concept of resonant.",
+     "self_check": true
     }
    ]
   }

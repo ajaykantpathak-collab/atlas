@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_08_009",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_08_009",
+   "title": "c11_app_cbse_08_009",
+   "questions": [
+    {
+     "q": "State the Chain Rule formula for the derivative of a composite function $y = f(g(x))$ using prime notation, and explain in one sentence what $f'(g(x))$ represents.",
+     "a": "The Chain Rule formula is $\\frac{d}{dx}[f(g(x))] = f'(g(x)) \\cdot g'(x)$. The term $f'(g(x))$ represents the derivative of the outer function $f$ evaluated at the inner function $g(x)$ — i.e., how fast the outer function changes with respect to its input, where that input is the inner function. A wrong answer (e.g., writing $f'(x) \\cdot g'(x)$ or omitting $g'(x)$) reveals the student does not distinguish between differentiating the outer function at $x$ versus at $g(x)$, or thinks the derivative of a composite is just the product of derivatives at $x$.",
+     "self_check": true
+    },
+    {
+     "q": "A student differentiates $y = (3x^2 - 5)^4$ and writes $\\frac{dy}{dx} = 4(3x^2 - 5)^3$. Is this correct? Explain why or why not, identifying the exact step the student missed.",
+     "a": "No, it is incorrect. The student applied the Power Rule to the outer function correctly ($4u^3$ where $u = 3x^2-5$) but forgot to multiply by the derivative of the inner function $g'(x) = 6x$. The correct derivative is $4(3x^2-5)^3 \\cdot 6x = 24x(3x^2-5)^3$. A wrong explanation (e.g., \"the power should be 3\" or \"the coefficient is wrong\") reveals the student does not recognize the missing multiplication by $g'(x)$ as the core Chain Rule step — they are treating the composite function as if the inner function were just $x$.",
+     "self_check": true
+    },
+    {
+     "q": "Differentiate $y = \\sqrt{2x^3 + 7x - 1}$ with respect to $x$ using the Chain Rule. Show all steps clearly.",
+     "a": "Step 1: Rewrite $y = (2x^3 + 7x - 1)^{1/2}$. Step 2: Identify outer $f(u) = u^{1/2}$ and inner $u = g(x) = 2x^3 + 7x - 1$. Step 3: $f'(u) = \\frac{1}{2}u^{-1/2}$, $g'(x) = 6x^2 + 7$. Step 4: $\\frac{dy}{dx} = \\frac{1}{2}(2x^3 + 7x - 1)^{-1/2} \\cdot (6x^2 + 7)$. Step 5: Simplify: $\\frac{dy}{dx} = \\frac{6x^2 + 7}{2\\sqrt{2x^3 + 7x - 1}}$. A wrong answer (e.g., missing the denominator 2, or forgetting $6x^2+7$) reveals the student either misapplies the power rule for fractional exponents or omits the inner derivative — the two most frequent Chain Rule errors with radicals.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the derivatives of $y_1 = (x^2 + 1)^3$ and $y_2 = x^6 + 3x^4 + 3x^2 + 1$. Are they equal? Explain why this must be true algebraically, and what this tells you about when the Chain Rule is *necessary* versus when you could expand first.",
+     "a": "Yes, they are equal. $y_2$ is the expanded form of $y_1$ (binomial expansion of $(x^2+1)^3$). Differentiating $y_1$ via Chain Rule: $3(x^2+1)^2 \\cdot 2x = 6x(x^2+1)^2 = 6x(x^4+2x^2+1) = 6x^5+12x^3+6x$. Differentiating $y_2$ term-by-term: $6x^5+12x^3+6x$. They match. This shows the Chain Rule is *always* valid, but expanding first is only practical for low powers — for $y = (x^2+1)^{20}$, expansion is impossible, so the Chain Rule is necessary. A wrong answer (e.g., \"they are different because one uses Chain Rule\") reveals the student views the Chain Rule as a different *operation* rather than a *method* to differentiate composites that yields the same result as expanding.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"For $y = \\frac{1}{(2x-3)^2}$, I can just use the Quotient Rule with numerator 1 and denominator $(2x-3)^2$. The Chain Rule is not needed.\" Evaluate this claim. Is the student correct that the Chain Rule is *not needed*? Is the Quotient Rule approach valid? Justify.",
+     "a": "The student is partially correct in that the Quotient Rule *can* be applied, but incorrect that the Chain Rule is \"not needed.\" The denominator $(2x-3)^2$ is itself a composite function; differentiating it *requires* the Chain Rule (or expanding). Using Quotient Rule: $y = \\frac{1}{u}$ where $u = (2x-3)^2$, so $y' = \\frac{0 \\cdot u - 1 \\cdot u'}{u^2} = -\\frac{u'}{u^2}$. Here $u' = 2(2x-3) \\cdot 2 = 4(2x-3)$ *using the Chain Rule*. So the Chain Rule is embedded inside the Quotient Rule step. Rewriting $y = (2x-3)^{-2}$ and using Chain Rule directly is simpler: $y' = -2(2x-3)^{-3} \\cdot 2 = -4(2x-3)^{-3}$. Both methods require the Chain Rule for the inner derivative. A wrong evaluation (e.g., \"Quotient Rule avoids Chain Rule\") reveals the student does not see that *any* differentiation of a composite structure invokes the Chain Rule, regardless of the outer rule used.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) involving a composite algebraic function where the Chain Rule is essential to find a rate of change. Define the variables, give the function, state what rate is asked, and solve it completely.",
+     "a": "*Example problem:* A spherical balloon is being inflated such that its radius $r$ (in cm) increases with time $t$ (in seconds) as $r(t) = \\sqrt{t+4}$. The volume of a sphere is $V = \\frac{4}{3}\\pi r^3$. Find the rate of change of volume with respect to time when $t = 5$ s.\n*Solution:* $V(r) = \\frac{4}{3}\\pi r^3$, $r(t) = (t+4)^{1/2}$. $\\frac{dV}{dr} = 4\\pi r^2$, $\\frac{dr}{dt} = \\frac{1}{2}(t+4)^{-1/2}$. At $t=5$, $r = \\sqrt{9} = 3$, $\\frac{dr}{dt} = \\frac{1}{2}(9)^{-1/2} = \\frac{1}{6}$. $\\frac{dV}{dt} = 4\\pi(3)^2 \\cdot \\frac{1}{6} = 36\\pi \\cdot \\frac{1}{6} = 6\\pi$ cm³/s.\n*Criteria for a good answer:* Correct composite structure, clear identification of inner/outer, correct derivatives, correct substitution, correct units. A poor answer (e.g., missing $\\frac{dr}{dt}$, wrong power on $r$, substituting $t$ into $r$ formula incorrectly) reveals the student cannot translate a physical scenario into a composite function and apply the Chain Rule systematically.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

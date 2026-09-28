@@ -34,6 +34,26 @@
      "q": "Create an algebraic expression that has exactly four terms, contains variables $p$ and $q$, has a negative coefficient for one of its terms, and includes a constant term of $-15$.",
      "a": "An example of a correct expression is $4p - 3pq + 7q - 15$. This expression has four distinct terms ($4p$, $-3pq$, $7q$, $-15$), contains variables $p$ and $q$, features a negative coefficient ($-3$), and includes a constant term of $-15$. A poor answer might create an expression with multiplication of terms into each other or miss the negative coefficient requirement, showing incomplete grasp of term separation rules.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An algebraic expression is made up of terms added or subtracted together, where each term consists of a numerical ______ multiplied by one or more variables, or stands alone as a constant term.",
+     "a": "coefficient",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying stationery for school in Delhi: 3 ______ cost 3 rupees each, 2 pens cost ₹10 each, and you also paid an entry fee of ₹5.",
+     "a": "notebooks",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify individual terms, numerical coefficients, and constant terms in any given algebraic expression, including those with negative signs and multiple variables.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying ______ for school in Delhi: 3 notebooks cost 3 rupees each, 2 pens cost ₹10 each, and you also paid an entry fee of ₹5.",
+     "a": "stationery",
+     "self_check": true
     }
    ]
   }

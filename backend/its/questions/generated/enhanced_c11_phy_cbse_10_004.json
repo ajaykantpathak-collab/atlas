@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a glass bottle, a capillary tube, and water to demonstrate the apparent volume expansion of a liquid. Explain how you would account for the expansion of the glass container in your calculation.",
      "a": "Fill a glass bottle with coloured water, insert a capillary tube through a cork, mark initial water level in the tube. Heat the bottle uniformly in a water bath. Measure the rise in water column (Δh) in the capillary of cross-section a. The apparent volume increase = aΔh. To find real expansion of water, measure the expansion of an identical empty bottle (or calculate using γ_glass). Real expansion of water = apparent expansion + expansion of container volume. A poor answer ignores the container expansion, showing lack of understanding of relative expansion.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ of area expansion (β) is defined as the fractional increase in area per unit rise in temperature: β = (1/A)(ΔA/ΔT).",
+     "a": "coefficient",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a metal jar lid that is stuck: running hot water over the lid (not the glass) loosens it because the metal lid expands more in area than the glass threads.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The coefficient of area expansion (β) is defined as the fractional increase in area per unit rise in temperature: β = (______/A)(ΔA/ΔT).",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can derive the relationships β = 2α and γ = 3α for isotropic solids using binomial approximation, and solve numerical problems involving area expansion of plates/sheets and volume expansion of solids/liquids, including apparent expansion of liquids in containers.",
+     "self_check": true
     }
    ]
   }

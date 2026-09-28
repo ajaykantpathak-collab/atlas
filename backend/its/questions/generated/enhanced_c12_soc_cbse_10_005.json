@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_10_005",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_10_005",
+   "title": "c12_soc_cbse_10_005",
+   "questions": [
+    {
+     "q": "What is the constitutional status of the Gram Sabha under the 73rd Amendment, and how does its composition differ from that of the Gram Panchayat?",
+     "a": "The Gram Sabha is a constitutional body under Article 243A comprising all registered voters in a village/panchayat area; it is the electorate that elects the Gram Panchayat. The Gram Panchayat is the elected executive council (with a Sarpanch and ward members) drawn from the Gram Sabha. A wrong answer (e.g., \"Gram Sabha is the same as Gram Panchayat\" or \"Gram Sabha members are elected\") reveals confusion between the legislative/electoral body (all voters) and the executive body (elected representatives) — a fundamental category error that undermines understanding of accountability mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Dr. Ambedkar opposed including panchayats in the original Constitution, and how the 73rd Amendment attempted to address his concern.",
+     "a": "Ambedkar argued that in a village dominated by upper-caste elites, local self-government would institutionalise the exploitation of Dalits and lower castes because the same power structures would control the panchayat. The 73rd Amendment addressed this by mandating reservations for SCs/STs (proportional to population) and women (33%), regular elections every five years, State Election Commission oversight, and devolution of funds/functions to reduce elite capture. A wrong answer that misses the \"elite capture\" argument or treats reservations as mere \"representation\" without linking to power redistribution shows superficial understanding of the sociological logic behind the constitutional design.",
+     "self_check": true
+    },
+    {
+     "q": "A Gram Panchayat in a village with 40% SC population and 50% women voters has 15 wards. Under the 73rd Amendment, what is the minimum number of wards that must be reserved for SC candidates, and how many total seats (including Sarpanch) must be reserved for women? Show your calculation.",
+     "a": "SC reservation: 40% of 15 wards = 6 wards (minimum, proportional to population). Women reservation: 33% of total seats (15 ward members + 1 Sarpanch = 16 seats) = 5.28 → 6 seats (rounded up as per practice). A wrong answer calculating women's reservation only on ward members (15 × 0.33 = 5) or ignoring the Sarpanch seat reveals a common error: forgetting that the 33% applies to the total number of seats including the chairperson, and that SC reservation is proportional while women's reservation is a fixed one-third floor.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the functions of the Panchayat Samiti and the Zilla Parishad. Why does the NCERT text describe the three-tier structure as a \"pyramid\" with the Gram Sabha at the base? What sociological insight does this pyramid metaphor convey about power and accountability?",
+     "a": "Panchayat Samiti (block level) coordinates Gram Panchayats, implements state schemes, and supervises development works; Zilla Parishad (district level) prepares district plans, allocates resources across blocks, and oversees the entire district rural administration. The \"pyramid\" metaphor places Gram Sabha (all voters) as the broad base that legitimises the structure — accountability flows upward from the base. A wrong answer listing functions without the pyramid analysis misses the sociological point: the structure is designed so power originates in the collective (Gram Sabha) and narrows upward, but in practice, the pyramid often inverts — dominant groups at the top (Zilla Parishad/state) control the base, subverting the constitutional design.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following statement using evidence from the NCERT text: \"The 73rd Amendment has successfully democratised rural India because it brought 800,000 women into elected office in the first election cycle.\"",
+     "a": "The statement confuses descriptive representation (numbers) with substantive democratisation (power). NCERT highlights that women representatives often remain proxies for male relatives (\"sarpanch pati\"), Gram Sabhas are controlled by dominant caste landlords who exclude weaker sections from meetings, and funds are diverted before reaching villages. The Kalavati example shows empowerment is possible but exceptional. A good critique acknowledges the numerical achievement but argues democratisation requires functional autonomy, financial devolution, and social equality — N/A guaranteed by the Amendment alone. A wrong answer that accepts the statement uncritically reveals a \"numbers = success\" fallacy common in board answers.",
+     "self_check": true
+    },
+    {
+     "q": "Design a fictional but realistic case study of a village where the Gram Sabha, Gram Panchayat, and Panchayat Samiti are formally constituted but functionally captured by a dominant caste group. Specify: (a) how the Gram Sabha meeting is manipulated, (b) how the Sarpanch is selected, (c) how funds from the Panchayat Samiti are diverted, and (d) one constitutional mechanism that *could* break this capture if activated.",
+     "a": "A strong answer: (a) Gram Sabha meetings held at odd hours/locations inaccessible to Dalit hamlets; quorum rigged by dominant caste members; agenda controlled by Sarpanch. (b) Sarpanch chosen by consensus of dominant caste elders; opposition candidates pressured to withdraw. (c) Panchayat Samiti funds for MGNREGA works shown as \"completed\" on paper; wages siphoned via fake muster rolls; materials purchased from dominant caste contractors at inflated rates. (d) Social audit under MGNREGA / Right to Information / State Election Commission intervention / Reservation rotation forcing new leadership. A weak answer describes generic corruption without linking to caste/gender power structures or naming specific constitutional mechanisms shows inability to connect institutional design to sociological reality.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Panchayati Raj system is a three-tier structure of rural local self-government in India — Gram Sabha (village assembly of all registered voters), Gram Panchayat (elected village council), Panchayat Samiti (block-level council), and Zilla Parishad (district-level council) — established by the 73rd Constitutional Amendment (1992) to ______ grassroots democracy, devolve powers for economic development and social justice, and mandate reservations for SCs, STs, and women (33%).",
+     "a": "institutionalise",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you live in a village where the only paved road washes away every monsoon, the primary health centre has no doctor, and the ______ scheme for toilets exists only on paper.",
+     "a": "government",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This node unpacks how the Constitution tried to build democracy from the bottom up (______rd Amendment, three tiers, reservations) and why sociological realities — caste hierarchies, gender norms, class power — often subvert that design.",
+     "a": "73",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the composition, functions, and interrelationship of all four tiers of the Panchayati Raj system, identify the specific constitutional provisions of the 73rd Amendment that enable each tier, and analyse how social inequalities (caste, gender, class) affect the actual functioning of these bodies in practice.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_09_010",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_09_010",
+   "title": "c12_soc_cbse_09_010",
+   "questions": [
+    {
+     "q": "What is the constitutional basis for the Indian state's intervention in cultural practices like untouchability and child marriage?",
+     "a": "The constitutional basis lies in Fundamental Rights (Articles 17, 21, 23, 24) and Directive Principles (Articles 38, 39, 45, 46). Article 17 abolishes untouchability; Article 21 protects life and personal liberty (interpreted to include dignity); Articles 23-24 prohibit forced labour and child labour; Directive Principles direct the state to promote welfare, reduce inequality, and provide free education. A wrong answer citing only \"laws passed by Parliament\" misses the constitutional mandate that empowers and obligates the state to transform culture — revealing a confusion between legislative output and constitutional authority.",
+     "self_check": true
+    },
+    {
+     "q": "Explain how the Right to Education Act (2009) functions as an instrument of cultural change beyond just increasing school enrollment.",
+     "a": "The RTE Act mandates 25% reservation in private schools for disadvantaged groups, prohibits corporal punishment, bans screening procedures, and sets norms for teacher-student ratios and infrastructure. By mixing children across caste/class lines in classrooms, it challenges endogamy and purity-pollution norms at the everyday level. It redefines childhood as a period of learning rather than labour or marriage preparation. A wrong answer focusing only on \"more children in school\" misses the structural cultural disruption — revealing a failure to see education as a site of socialisation that reshapes identity, not just a service delivery metric.",
+     "self_check": true
+    },
+    {
+     "q": "A state government passes a law banning a traditional festival practice involving animal sacrifice, citing prevention of cruelty. The community protests, claiming religious freedom under Article 25. As a sociologist, how would you analyse this conflict using the concept of 'secularisation of law'?",
+     "a": "Secularisation of law means the state regulates religious practices when they conflict with constitutional values (e.g., dignity, cruelty prevention) using neutral, universal criteria — not theological ones. The court would apply the 'essential religious practice' test (Shirur Mutt case): is animal sacrifice essential to that religion? If not, the law prevails. This shifts authority from religious texts to constitutional morality. A wrong answer saying \"the state shouldn't interfere in religion\" confuses Indian secularism (principled distance) with Western strict separation — revealing ignorance of the Indian model where state intervention in religion for reform is constitutionally mandated (Article 25(2)(b)).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the cultural impact of the Hindu Code Bills (1955-56) and the Special Marriage Act (1954). Which led to deeper transformation in kinship and gender norms, and why?",
+     "a": "The Hindu Code Bills (Hindu Marriage Act, Succession Act, etc.) reformed the majority community's personal law — introducing monogamy, divorce, equal inheritance for daughters, and banning polygamy — directly altering kinship, marriage, and property norms for ~80% of Indians. The Special Marriage Act provided a civil, secular alternative but was used by a tiny minority (inter-caste/inter-religious couples). The Hindu Code Bills transformed the 'default' cultural script for Hindus; the SMA created an 'exit option'. A wrong answer claiming SMA was more transformative confuses symbolic secularism with structural change — revealing a misunderstanding of how law operates on mass cultural practices versus exceptional cases.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the view that \"state legislation alone can eradicate caste discrimination.\" Use the distinction between 'legal change' and 'cultural change' and the concept of 'secularisation of caste'.",
+     "a": "Laws (e.g., Protection of Civil Rights Act 1955, SC/ST Prevention of Atrocities Act 1989) criminalise discrimination but cannot erase caste identity, endogamy, or occupational stereotypes — which persist because caste has been 'secularised': it now operates as political mobilisation (caste associations, vote banks), economic networks, and marriage markets, not just religious purity. Cultural change requires shifts in socialisation, media, education, and economic structure — law sets boundaries but cannot engineer intimacy or belief. A wrong answer saying \"laws reduced caste discrimination so they work\" confuses decline in overt atrocity with persistence of structural inequality — revealing a failure to distinguish legal compliance from cultural internalisation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a state-led intervention (law + education + public campaign) to address the cultural practice of 'honour killings' in a North Indian state. Justify each component sociologically.",
+     "a": "Law: Amend IPC to define 'honour killing' as distinct murder with mandatory minimum sentence — signals state rejection of 'community honour' as mitigating factor. Education: Revise Class 9-10 civics/textbooks to include case studies on Khap Panchayats, constitutional morality vs. customary law, and gender equality — targets secondary socialisation. Campaign: \"Mera Haq, Mera Faisla\" (My Right, My Choice) with local influencers, using folk media — attacks the normative legitimacy of patriarchal control. A poor answer proposing only \"strict laws\" ignores that honour killings are enforced by informal social control (caste panchayats) — revealing a belief that state law automatically overrides community norms, missing the sociological insight that cultural change requires legitimacy shift, not just coercion.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The role of the state in cultural change refers to the deliberate use of state power — through legislation, educational policy, and ______ action — to transform social norms, values, and practices, particularly those rooted in inequality, discrimination, or tradition deemed incompatible with constitutional goals of justice, liberty, equality, and fraternity.",
+     "a": "administrative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a 16-year-old girl in a rural village in 1950 — she is married, pulled out of school, and expected to manage a household.",
+     "a": "Imagine",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Not just \"time\" — the state passed laws (Child Marriage Restraint Act, Prohibition of Child Marriage Act), made education free and compulsory (RTE Act ______), and launched schemes like Beti Bachao Beti Padhao.",
+     "a": "2009",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how specific laws (e.g., Hindu Code Bills, Right to Education Act, Anti-Dowry Act) and state-led educational initiatives have altered cultural practices related to caste, gender, and religion, and can evaluate the tension between state-imposed change and community resistance using sociological concepts like.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 16-year-old girl in a rural village in 1950 — she is married, pulled out of school, and expected to manage a ______.",
+     "a": "household",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,21 @@
      "q": "Create a personal \"Digital Citizenship Pledge\" of five rules you will follow, each linked to a specific concept from this chapter (e.g., netiquette, IPR, cyber law, health).",
      "a": "Example pledge: 1) I will verify URLs and use HTTPS before entering credentials (phishing prevention). 2) I will cite sources for any text/media I use (avoid plagiarism/copyright infringement). 3) I will not forward unverified news or post hurtful comments (netiquette, anti-cyberbullying). 4) I will use unique passwords and 2FA for all accounts (credential security). 5) I will maintain ergonomic posture and take screen breaks every 40 minutes (health/ergonomics). A poor answer that lists generic rules without linking to chapter concepts shows the student cannot synthesize the diverse topics into a coherent personal practice.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Safe Browsing Practices refer to the set of proactive measures and habits (such as verifying HTTPS, avoiding ______ links, using strong unique passwords, and managing privacy settings) that protect a user's data and device while accessing the internet.",
+     "a": "suspicious",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive an email ______ your bank password expires today, with a link to \"renew\" it.",
+     "a": "claiming",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently evaluate a given online scenario (e.g., a suspicious email, a social media post, a software download prompt) and decide on the correct safe-browsing action while justifying the choice using netiquettes, IPR concepts, and relevant provisions of the IT Act.",
+     "self_check": true
     }
    ]
   }

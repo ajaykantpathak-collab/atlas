@@ -404,7 +404,7 @@
     "Are the points (x1, y1), (x2, y2), (x3, y3) collinear?",
     "Show that the three given points are collinear"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -447,7 +447,28 @@
      "question": "Show that the points (7, 10), (-2, 5), and (3, -4) are not collinear.",
      "type": "verify_property"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the coordinate-geometry formula",
+     "explain": "apply the coordinate-geometry formula: dx = 17 - 5 gives 12",
+     "compute": "dx = 17 - 5"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the coordinate-geometry formula: dy = 10 - -6 gives 16",
+     "compute": "dy = 10 - -6"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 20",
+     "compute": "dist = sqrt(dx * dx + dy * dy)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.7.8",
@@ -526,7 +547,7 @@
     "What type of quadrilateral is formed by the four given points?",
     "Classify the quadrilateral by computing side and diagonal lengths"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -569,7 +590,16 @@
      "question": "Find the type of quadrilateral formed by the points (1, 1), (4, 1), (4, 4), and (1, 4).",
      "type": "verify_property"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the quadrilateral property to compute the value",
+     "explain": "use the quadrilateral property to compute the value: adj = 180 - 80 gives 100",
+     "compute": "adj = 180 - 80"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "license": "NCERT-derived; author-first rendered",

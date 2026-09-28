@@ -34,6 +34,26 @@
      "q": "Create a short two-sentence scenario where a character faces an unknown element and exhibits the core theme of adventure.",
      "a": "An expected answer should feature a protagonist approaching a hidden, mysterious place (like a locked attic or an unmapped forest trail) and choosing to step forward out of curiosity rather than running away. A poor answer describes a character sitting safely indoors doing homework, which lacks any element of adventure or the unknown.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The theme of adventure and exploration of the unknown in literature explores a character's journey away from familiar ______ into uncharted, mysterious spaces to test their courage, curiosity, and personal growth.",
+     "a": "surroundings",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever walked down a dimly lit street or entered an empty, locked room at your grandparents' house, ______ both terrified and intensely curious about what lies inside?",
+     "a": "feeling",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Students will be able to identify how a character's encounter with an unfamiliar, mysterious setting (such as a dark tunnel or deep jungle) drives them to confront their fears, demonstrate curiosity, and undergo personal transformation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever walked down a dimly lit street or entered an empty, locked room at your ______' house, feeling both terrified and intensely curious about what lies inside?",
+     "a": "grandparents",
+     "self_check": true
     }
    ]
   }

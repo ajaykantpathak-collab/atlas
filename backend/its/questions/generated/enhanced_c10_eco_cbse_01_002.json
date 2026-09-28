@@ -34,6 +34,26 @@
      "q": "Design a 3-indicator \"Non-Income Development Index\" for your district. For each indicator, specify: (a) the goal it measures (freedom/equality/security), (b) data source, (c) why income data cannot capture it.",
      "a": "Example: (1) % women in local governance — Equality — Election Commission data — Income doesn't reveal political voice. (2) % households with piped water — Security — Jal Jeevan Mission data — Rich households buy tankers; poor cannot, but income averages hide this. (3) % youth enrolled in vocational/college — Freedom — UDISE+ data — Income doesn't show if choices are expanding or if youth are trapped in distress work. A poor answer lists generic indicators (literacy rate) without linking each to a specific goal or explaining the income-blindness.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Development goals beyond income refer to the non-monetary aspirations that individuals and societies pursue for a meaningful quality of life, including freedom (political, economic, social), equality (of opportunity, gender, caste), and security (economic, food, health, ______).",
+     "a": "environmental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two Class 10 students, Rohan and Aisha, both from ______ earning ₹25,000 per month per capita.",
+     "a": "families",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Aisha fetches water from ______ km away, faces caste discrimination at the government school, and her family fears eviction from their slum.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain with Indian examples why two families with identical per capita income may have vastly different development outcomes due to differences in freedom, equality, and security.",
+     "self_check": true
     }
    ]
   }

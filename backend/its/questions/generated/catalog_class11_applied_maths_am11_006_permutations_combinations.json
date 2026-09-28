@@ -5,6 +5,8 @@
    "id": "am11_006.1",
    "title": "Factorial Notation and Ratios of Factorials",
    "converted_to_compute": false,
+   "formula": "ratio = n * (n - 1) * (n - 2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 4 : 36 in its simplest form and give the first term of the simplest form.",
@@ -42,6 +44,8 @@
    "id": "am11_006.2",
    "title": "Rule of Sum for Exclusive Alternatives",
    "converted_to_compute": false,
+   "formula": "total_ways = indian + foreign",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A canteen offers 9 drinks and 7 snacks. How many drink-snack combos are possible (rule of product)?",
@@ -79,6 +83,8 @@
    "id": "am11_006.3",
    "title": "Rule of Product for Successive Choices",
    "converted_to_compute": false,
+   "formula": "total_ways = m * n",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A canteen offers 7 drinks and 8 snacks. How many drink-snack combos are possible (rule of product)?",
@@ -116,6 +122,8 @@
    "id": "am11_006.4",
    "title": "Permutations of n Distinct Objects Taken r at a Time",
    "converted_to_compute": false,
+   "formula": "npr = n * (n - 1) * (n - 2) * (n - 3)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A canteen offers 5 drinks and 6 snacks. How many drink-snack combos are possible (rule of product)?",
@@ -153,6 +161,8 @@
    "id": "am11_006.5",
    "title": "Permutations with Repetition Allowed",
    "converted_to_compute": false,
+   "formula": "ways = n**slots",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A canteen offers 4 drinks and 2 snacks. How many drink-snack combos are possible (rule of product)?",
@@ -190,6 +200,8 @@
    "id": "am11_006.6",
    "title": "Arrangements with Repeated Letters",
    "converted_to_compute": false,
+   "formula": "arrangements = n_factorial / (p_factorial * q_factorial)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A canteen offers 6 drinks and 2 snacks. How many drink-snack combos are possible (rule of product)?",
@@ -227,6 +239,8 @@
    "id": "am11_006.7",
    "title": "Circular Permutations and Necklaces",
    "converted_to_compute": false,
+   "formula": "ring_ways = (n - 1)_factorial",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 56 cm (take pi = 22/7).",
@@ -264,6 +278,8 @@
    "id": "am11_006.8",
    "title": "Combinations of n Objects Taken r at a Time",
    "converted_to_compute": false,
+   "formula": "ncr = n * (n - 1) * (n - 2) / (3 * 2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A canteen offers 4 drinks and 4 snacks. How many drink-snack combos are possible (rule of product)?",
@@ -301,6 +317,8 @@
    "id": "am11_006.9",
    "title": "Committee Selections with At Least Conditions",
    "converted_to_compute": false,
+   "formula": "total_ways = case1 + case2 + case3",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A canteen offers 3 drinks and 2 snacks. How many drink-snack combos are possible (rule of product)?",
@@ -338,6 +356,8 @@
    "id": "am11_006.10",
    "title": "Counting Lines and Triangles with Collinear Points",
    "converted_to_compute": false,
+   "formula": "lines = total_pairs - collinear_pairs + 1",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (-5, 0) and (1, 8).",
@@ -375,6 +395,8 @@
    "id": "am11_006.11",
    "title": "Combinations with Repetition",
    "converted_to_compute": false,
+   "formula": "repeat_ways = (n + r - 1) * (n + r - 2) / 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A canteen offers 8 drinks and 3 snacks. How many drink-snack combos are possible (rule of product)?",
@@ -412,6 +434,8 @@
    "id": "am11_006.12",
    "title": "At Least One via Total Minus Excluded",
    "converted_to_compute": false,
+   "formula": "valid = total - restricted",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A canteen offers 5 drinks and 5 snacks. How many drink-snack combos are possible (rule of product)?",

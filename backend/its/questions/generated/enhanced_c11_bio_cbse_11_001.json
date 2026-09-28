@@ -31,8 +31,33 @@
      "self_check": true
     },
     {
-     "q": "Design a simple experiment using only a prism, a green alga (e.g., Spirogyra), aerobic bacteria, and a microscope to demonstrate that photosynthesis is maximised in blue and red light – replicating Engelmann's 1883 experiment. State the expected observation and its interpretation.",
-     "a": "Place a filament of Spirogyra on a slide, illuminate with white light passed through a prism to create a spectrum. Add a drop of aerobic bacteria (e.g., Clostridium) suspension. After 10–15 minutes, observe under microscope: bacteria accumulate densely in blue (400–500 nm) and red (600–700 nm) regions of the spectrum on the alga. Interpretation: bacteria move toward oxygen; their accumulation shows where O₂ evolution (hence photosynthesis) is highest. This matches chlorophyll a absorption peaks. A poor design (e.g., no prism, using colored filters instead, or missing bacteria as O₂ sensor) reveals inability to translate historical experimental logic into a reproducible setup – a key board exam skill (NCERT Figure 11.3 reference).",
+     "q": "Give the correct order of steps in the prism-and-bacteria experiment that shows where photosynthesis is maximal.",
+     "a": "The experiment runs: (1) Pass white light through a prism to spread a spectrum over a filament of the alga (2) Suspend aerobic bacteria in the drop with the alga (3) Wait and observe where the bacteria accumulate most densely (4) Read the dense clusters in the blue and red regions as the zones of highest oxygen evolution and photosynthesis. A wrong answer that expects bacteria evenly everywhere shows the student has missed that bacteria track oxygen, making them living indicators of the photosynthetic rate across wavelengths.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ in higher plants is a physico-chemical process occurring in chloroplasts where green plants convert light energy into chemical energy by using carbon dioxide and water to synthesise carbohydrates, with oxygen released as a by-product.",
+     "a": "Photosynthesis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a spinach leaf (palak) held against sunlight – you see deep green, but notice the younger leaves are lighter green while older ones may yellow.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What is Photosynthesis in higher plants? State the definition given in this lesson.",
+     "a": "Photosynthesis in higher plants is a physico-chemical process occurring in chloroplasts where green plants convert light energy into chemical energy by using carbon dioxide and water to synthesise carbohydrates, with oxygen released as a by-product.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can label chloroplast ultrastructure (grana, stroma, thylakoid, stroma lamellae) in an electron micrograph, explain why chlorophyll a is the primary pigment using absorption and action spectra, and describe how accessory pigments expand the spectrum of usable light while protecting chlorophyll a from photo-oxidation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a spinach leaf (palak) held against ______ – you see deep green, but notice the younger leaves are lighter green while older ones may yellow.",
+     "a": "sunlight",
      "self_check": true
     }
    ]

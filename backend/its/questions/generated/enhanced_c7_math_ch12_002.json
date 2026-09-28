@@ -34,6 +34,26 @@
      "q": "Create a multiplication problem involving a decimal and a whole number where the product is a whole number, and explain why your numbers work.",
      "a": "An example is $2.5 \\times 4 = 10.0$ or $10$. This works because $2.5 = \\frac{5}{2}$, and multiplying by 4 gives $\\frac{20}{2} = 10$, where the fractional parts combine to make a complete whole. A poor answer gives numbers that still result in a decimal without explaining the underlying factor relationship.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Multiplying a decimal number by a whole number ______ multiplying the numbers as if they were whole numbers, and then placing the decimal point in the product so that it has the same number of decimal places as the original decimal factor.",
+     "a": "involves",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying 4 notebooks for ______, and each notebook costs ₹24.75.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can multiply any given decimal number (up to three decimal places) by a single or multi-digit whole number, correctly place the decimal point in the final product by counting total decimal places, and apply this operation to solve real-world measurement and money problems.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying 4 ______ for school, and each notebook costs ₹24.75.",
+     "a": "notebooks",
+     "self_check": true
     }
    ]
   }

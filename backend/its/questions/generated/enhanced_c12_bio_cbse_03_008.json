@@ -17,12 +17,12 @@
     },
     {
      "q": "A pregnant woman at 6 weeks gestation experiences severe nausea and vomiting (hyperemesis gravidarum). Her serum hCG level is markedly elevated. Explain the physiological basis for the correlation between high hCG and nausea, and predict which hormone's rising levels will likely bring relief by the end of the first trimester.",
-     "a": "**hCG peaks around weeks 8–10** and shares structural similarity with TSH, potentially overstimulating the thyroid and the chemoreceptor trigger zone in the area postrema, contributing to nausea. As hCG declines, **progesterone and estrogen from the placenta rise steadily**; progesterone's smooth-muscle relaxant effect on the gastrointestinal tract and the establishment of placentation correlate with symptom resolution. A wrong answer that attributes nausea solely to \"progesterone\" misses the specific temporal correlation with hCG dynamics.",
+     "a": "(1) Cause of the nausea — hCG peaks around weeks 8 to 10 and structurally resembles TSH, so it can overstimulate the thyroid and the chemoreceptor trigger zone in the area postrema, (2) The relief — as hCG declines toward the end of the first trimester, progesterone and estrogen from the placenta rise steadily, (3) Why symptoms resolve — placental progesterone relaxes gastrointestinal smooth muscle and established placentation correlates with symptom relief. A wrong answer attributing the nausea solely to progesterone misses the specific temporal correlation with hCG dynamics.",
      "self_check": true
     },
     {
      "q": "Compare and contrast the roles of the **yolk sac** and the **allantois** in early human embryonic development. Why is the human yolk sac non-nutritive despite being well-developed?",
-     "a": "The **yolk sac** is the first site of hematopoiesis (blood island formation), produces primordial germ cells, and contributes to the gut tube; it is non-nutritive because **placental nutrition is established early** via the chorionic villi. The **allantois** emerges as an endodermal diverticulum from the yolk sac, expands into the connecting stalk, forms the umbilical vessels, and its proximal part becomes the urachus (later median umbilical ligament). A wrong answer that assigns nutritive function to the yolk sac confuses human development with avian/reptilian models.",
+     "a": "(1) Yolk sac roles — it is the first site of hematopoiesis with blood island formation, produces primordial germ cells and contributes to the gut tube, (2) Why it is non-nutritive — placental nutrition through the chorionic villi is established early, so the well-developed human yolk sac never feeds the embryo, (3) Allantois roles — it grows out of the yolk sac as an endodermal diverticulum, expands into the connecting stalk, forms the umbilical vessels and its proximal part becomes the urachus. A wrong answer that assigns a nutritive function to the human yolk sac confuses human development with avian and reptilian models.",
      "self_check": true
     },
     {
@@ -33,6 +33,26 @@
     {
      "q": "Design a simple flowchart (text-based) that traces the origin of the three primary germ layers from the epiblast through gastrulation, and lists **one** major organ system derived from each layer. Include the key structure that initiates gastrulation.",
      "a": "**Flowchart:**  \nEpiblast → (cells migrate through **primitive streak**) →  \n- **Endoderm** (first layer to ingress) → Gut tube epithelium, liver, pancreas, lungs  \n- **Mesoderm** (middle layer) → Notochord, somites → muscle, bone, kidney, gonads, circulatory system  \n- **Ectoderm** (remaining epiblast) → Neural plate → CNS, PNS, epidermis, hair, nails  \n\nA poor answer that omits the **primitive streak** or lists \"heart\" under ectoderm reveals a fundamental misunderstanding of germ-layer topology and the inductive role of the node/organizer.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Pregnancy is the ______ state in a female mammal beginning with the implantation of the blastocyst in the uterine endometrium and ending with parturition, during which the embryo and later the fetus develops inside the uterus.",
+     "a": "physiological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking the student to recall the journey of the zygote from the fallopian tube to the uterus — a journey they studied in the ______ and implantation nodes.",
+     "a": "fertilization",
+     "self_check": true
+    },
+    {
+     "q": "What is Pregnancy? State the definition given in this lesson.",
+     "a": "Pregnancy is the physiological state in a female mammal beginning with the implantation of the blastocyst in the uterine endometrium and ending with parturition, during which the embryo and later the fetus develops inside the uterus.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) sequence the major events of embryonic development from fertilization through the three trimesters, identifying the key structures formed at each stage (morula, blastocyst, gastrula, neurula), (2) explain the hormonal regulation of pregnancy maintenance by hCG, progesterone, estrogen, and relaxin, including the source.",
      "self_check": true
     }
    ]

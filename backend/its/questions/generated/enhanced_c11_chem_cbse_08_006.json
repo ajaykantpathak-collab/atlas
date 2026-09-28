@@ -34,6 +34,31 @@
      "q": "Design a simple experiment to demonstrate that rusting is an electrochemical process requiring both anodic and cathodic sites. List materials, procedure, and expected observations with half-reactions.",
      "a": "Materials: Two iron nails, agar-agar gel, K₃[Fe(CN)₆] (ferricyanide), phenolphthalein, NaCl. Procedure: Embed nails in gel with indicators; one nail straight, one bent sharply. Add NaCl droplets. Expected: Blue colour (Prussian blue, Fe³⁺ + [Fe(CN)₆]³⁻) at bent regions (anode, Fe→Fe²⁺); pink colour (phenolphthalein, OH⁻) at straight regions (cathode, O₂+2H₂O+4e⁻→4OH⁻). Half-reactions as in Q1. A poor answer omitting spatial separation of colours or half-reactions reveals failure to grasp electrochemical cell nature of corrosion.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Corrosion is an ______ redox process where a metal spontaneously oxidises in the presence of moisture and oxygen, forming metal oxides/hydroxides/carbonates; rusting of iron specifically involves Fe → Fe²⁺ + 2e⁻ (anode) and O₂ + 2H₂O + 4e⁻ → 4OH⁻ (cathode) forming hydrated Fe₂O₃·xH₂O.",
+     "a": "electrochemical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a rusted iron gate and a packet of stale chips at home — both show redox damage but differ fundamentally: the gate involves metal oxidation with oxygen reduction (______ cell), while chips involve radical chain oxidation of unsaturated fats.",
+     "a": "electrochemical",
+     "self_check": true
+    },
+    {
+     "q": "What is Corrosion? State the definition given in this lesson.",
+     "a": "Corrosion is an electrochemical redox process where a metal spontaneously oxidises in the presence of moisture and oxygen, forming metal oxides/hydroxides/carbonates; rusting of iron specifically involves Fe → Fe²⁺ + 2e⁻ (anode) and O₂ + 2H₂O + 4e⁻ → 4OH⁻ (cathode) forming hydrated Fe₂O₃·xH₂O.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Corrosion?",
+     "a": "Students write the overall rusting reaction as 4Fe + 3O₂ → 2Fe₂O₃, ignoring water's role and the Fe(OH)₃ intermediate.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write balanced half-reactions for iron rusting in acidic/neutral media, calculate equivalent weight of metal corroded using Faraday's laws, explain why rancidity accelerates at higher temperatures using Arrhenius concept, and design a prevention strategy (cathodic protection/antioxidant) for a given real-world scenario.",
+     "self_check": true
     }
    ]
   }

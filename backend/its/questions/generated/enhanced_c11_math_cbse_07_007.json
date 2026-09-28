@@ -34,6 +34,16 @@
      "q": "Create a real-life problem (in an Indian context, e.g., choosing dishes from a menu, selecting players for a cricket team) that requires the use of \\(^nC_r\\) with \\(n=8\\) and \\(r=3\\). Write the problem statement and solve it.",
      "a": "Example problem: \"A restaurant offers 8 different vegetarian starters. A customer wants to order 3 different starters for a party. How many different combinations of starters can the customer choose?\" Solution: \\(^8C_3 = \\frac{8!}{3!5!} = 56\\). A poor answer might use permutations or have an unrealistic context, showing the student cannot formulate a combination scenario.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have 5 different coloured pens — red, blue, green, black, and purple — and you want to ______ 3 to put in your pencil case.",
+     "a": "choose",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have 5 different ______ pens — red, blue, green, black, and purple — and you want to choose 3 to put in your pencil case.",
+     "a": "coloured",
+     "self_check": true
     }
    ]
   }

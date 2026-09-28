@@ -42,16 +42,19 @@
    ],
    "worked_examples": [
     {
-     "question": "Solve a typical question involving plane angle.",
-     "solution": "Step 1: divide arc length by radius. Step 2: convert the angle from radians to degrees if required. Step 3: round the result to the appropriate significant figures. Working: arc_length / radius, theta * 180 / pi.",
-     "answer": "Plane Angle applied step by step gives the required result."
-    },
-    {
-     "question": "Apply plane angle to a fresh example and interpret the result.",
-     "solution": "Step 1: divide arc length by radius. Step 2: convert the angle from radians to degrees if required. Step 3: round the result to the appropriate significant figures. Working: arc_length / radius, theta * 180 / pi.",
-     "answer": "The method of plane angle leads to the required value or conclusion."
+     "concept": "keph.101.1",
+     "question_pattern": "calculate the plane angle subtended by an arc of length {arc_length} and radius {radius}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "theta = arc_length / radius",
+     "compute": "theta = arc_length / radius"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.101.2",
@@ -90,16 +93,19 @@
    ],
    "worked_examples": [
     {
-     "question": "Solve a typical question involving solid angle.",
-     "solution": "Step 1: square the radius. Step 2: divide area by squared radius. Step 3: round the solid angle to the appropriate significant figures. Working: radius ** 2, area / r_sq.",
-     "answer": "Solid Angle applied step by step gives the required result."
-    },
-    {
-     "question": "Apply solid angle to a fresh example and interpret the result.",
-     "solution": "Step 1: square the radius. Step 2: divide area by squared radius. Step 3: round the solid angle to the appropriate significant figures. Working: radius ** 2, area / r_sq.",
-     "answer": "The method of solid angle leads to the required value or conclusion."
+     "concept": "keph.101.2",
+     "question_pattern": "calculate the solid angle subtended by an area of {area} at a distance of {radius}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "omega = area / (radius ** 2)",
+     "compute": "omega = area / (radius ** 2)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.101.3",
@@ -137,16 +143,19 @@
    ],
    "worked_examples": [
     {
-     "question": "Solve a typical question involving density calculation with significant figures.",
-     "solution": "Step 1: divide mass by volume. Step 2: count the significant figures in mass and volume. Step 3: round the density to the least number of significant figures. Working: mass / volume.",
-     "answer": "Density Calculation with Significant Figures applied step by step gives the required result."
-    },
-    {
-     "question": "Apply density calculation with significant figures to a fresh example and interpret the result.",
-     "solution": "Step 1: divide mass by volume. Step 2: count the significant figures in mass and volume. Step 3: round the density to the least number of significant figures. Working: mass / volume.",
-     "answer": "The method of density calculation with significant figures leads to the required value or conclusion."
+     "concept": "keph.101.3",
+     "question_pattern": "calculate the density of a substance of mass {mass} and volume {volume}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "density = mass / volume",
+     "compute": "density = mass / volume"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.101.4",
@@ -184,16 +193,19 @@
    ],
    "worked_examples": [
     {
-     "question": "Solve a typical question involving volume of a cube.",
-     "solution": "Step 1: cube the side length. Step 2: count the significant figures in the side length. Step 3: round the volume to the appropriate significant figures. Working: side ** 3.",
-     "answer": "Volume of a Cube applied step by step gives the required result."
-    },
-    {
-     "question": "Apply volume of a cube to a fresh example and interpret the result.",
-     "solution": "Step 1: cube the side length. Step 2: count the significant figures in the side length. Step 3: round the volume to the appropriate significant figures. Working: side ** 3.",
-     "answer": "The method of volume of a cube leads to the required value or conclusion."
+     "concept": "keph.101.4",
+     "question_pattern": "calculate the volume of a cube of side {side}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "volume = side ** 3",
+     "compute": "volume = side ** 3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.101.5",
@@ -232,16 +244,19 @@
    ],
    "worked_examples": [
     {
-     "question": "Solve a typical question involving surface area of a cube.",
-     "solution": "Step 1: square the side length. Step 2: multiply by six. Step 3: round the surface area to the appropriate significant figures. Working: side ** 2, 6 * side_sq.",
-     "answer": "Surface Area of a Cube applied step by step gives the required result."
-    },
-    {
-     "question": "Apply surface area of a cube to a fresh example and interpret the result.",
-     "solution": "Step 1: square the side length. Step 2: multiply by six. Step 3: round the surface area to the appropriate significant figures. Working: side ** 2, 6 * side_sq.",
-     "answer": "The method of surface area of a cube leads to the required value or conclusion."
+     "concept": "keph.101.5",
+     "question_pattern": "calculate the surface area of a cube of side {side}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "surface_area = 6 * (side ** 2)",
+     "compute": "surface_area = 6 * (side ** 2)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.101.6",
@@ -281,16 +296,19 @@
    ],
    "worked_examples": [
     {
-     "question": "Solve a typical question involving time period of a simple pendulum.",
-     "solution": "Step 1: divide length by gravity. Step 2: take square root of the ratio. Step 3: multiply by the dimensionless constant k. Working: length / g, sqrt(ratio), k * sqrt_ratio.",
-     "answer": "Time Period of a Simple Pendulum applied step by step gives the required result."
-    },
-    {
-     "question": "Apply time period of a simple pendulum to a fresh example and interpret the result.",
-     "solution": "Step 1: divide length by gravity. Step 2: take square root of the ratio. Step 3: multiply by the dimensionless constant k. Working: length / g, sqrt(ratio), k * sqrt_ratio.",
-     "answer": "The method of time period of a simple pendulum leads to the required value or conclusion."
+     "concept": "keph.101.6",
+     "question_pattern": "derive the time period of a simple pendulum of length {k} and acceleration due to gravity {length}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "T = k * sqrt(length / g)",
+     "compute": "T = k * sqrt(length / g)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.101.7",
@@ -363,23 +381,26 @@
    ],
    "worked_examples": [
     {
-     "question": "Solve a typical question involving linear magnification from area magnification.",
-     "solution": "Step 1: divide screen area by slide area to get area magnification. Step 2: take the square root of area magnification. Step 3: round the linear magnification to the appropriate significant figures. Working: area_screen / area_slide, sqrt(area_mag).",
-     "answer": "Linear Magnification from Area Magnification applied step by step gives the required result."
-    },
-    {
-     "question": "Apply linear magnification from area magnification to a fresh example and interpret the result.",
-     "solution": "Step 1: divide screen area by slide area to get area magnification. Step 2: take the square root of area magnification. Step 3: round the linear magnification to the appropriate significant figures. Working: area_screen / area_slide, sqrt(area_mag).",
-     "answer": "The method of linear magnification from area magnification leads to the required value or conclusion."
+     "concept": "keph.101.8",
+     "question_pattern": "find the linear magnification given slide area {area_screen} and screen area {area_slide}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "linear_magnification = sqrt(area_screen / area_slide)",
+     "compute": "linear_magnification = sqrt(area_screen / area_slide)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.101.9",
    "title": "Volume of a Cube with Unit Conversion",
    "section": "1.2",
    "definition": "Calculating the volume of a cube in cubic meters when the side is given in centimeters.",
-   "formula": "volume_m3 = (side_cm / 100) ** 3",
+   "formula": "volume_m_3 = (side_cm / 100) ** 3",
    "key_idea": "Convert the side length to meters first, then cube it to get the volume in cubic meters.",
    "textbook_ref": "keph101.txt lines 390-400",
    "question_patterns": [
@@ -411,16 +432,19 @@
    ],
    "worked_examples": [
     {
-     "question": "Solve a typical question involving volume of a cube with unit conversion.",
-     "solution": "Step 1: convert side from cm to m. Step 2: cube the side length in meters. Step 3: round the volume to the appropriate significant figures. Working: side_cm / 100, side_m ** 3.",
-     "answer": "Volume of a Cube with Unit Conversion applied step by step gives the required result."
-    },
-    {
-     "question": "Apply volume of a cube with unit conversion to a fresh example and interpret the result.",
-     "solution": "Step 1: convert side from cm to m. Step 2: cube the side length in meters. Step 3: round the volume to the appropriate significant figures. Working: side_cm / 100, side_m ** 3.",
-     "answer": "The method of volume of a cube with unit conversion leads to the required value or conclusion."
+     "concept": "keph.101.9",
+     "question_pattern": "find the volume of a cube of side {side_cm} cm in m3"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "volume_m_3 = (side_cm / 100) ** 3",
+     "compute": "volume_m_3 = (side_cm / 100) ** 3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.101.10",
@@ -459,16 +483,19 @@
    ],
    "worked_examples": [
     {
-     "question": "Solve a typical question involving surface area of a cylinder.",
-     "solution": "Step 1: sum radius and height. Step 2: multiply 2 times pi times radius times the sum. Step 3: round the surface area to the appropriate significant figures. Working: radius + height, 2 * pi * radius * sum_r_h.",
-     "answer": "Surface Area of a Cylinder applied step by step gives the required result."
-    },
-    {
-     "question": "Apply surface area of a cylinder to a fresh example and interpret the result.",
-     "solution": "Step 1: sum radius and height. Step 2: multiply 2 times pi times radius times the sum. Step 3: round the surface area to the appropriate significant figures. Working: radius + height, 2 * pi * radius * sum_r_h.",
-     "answer": "The method of surface area of a cylinder leads to the required value or conclusion."
+     "concept": "keph.101.10",
+     "question_pattern": "calculate the surface area of a cylinder of radius {radius} and height {height}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "area = 2 * pi * radius * (radius + height)",
+     "compute": "area = 2 * pi * radius * (radius + height)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.101.11",
@@ -507,16 +534,19 @@
    ],
    "worked_examples": [
     {
-     "question": "Solve a typical question involving speed conversion from km/h to m/s.",
-     "solution": "Step 1: multiply speed in km/h by 1000 and divide by 3600. Step 2: simplify the conversion factor to 5/18. Step 3: round the speed to the appropriate significant figures. Working: speed_kmh * 1000 / 3600, speed_kmh * 5 / 18.",
-     "answer": "Speed Conversion from km/h to m/s applied step by step gives the required result."
-    },
-    {
-     "question": "Apply speed conversion from km/h to m/s to a fresh example and interpret the result.",
-     "solution": "Step 1: multiply speed in km/h by 1000 and divide by 3600. Step 2: simplify the conversion factor to 5/18. Step 3: round the speed to the appropriate significant figures. Working: speed_kmh * 1000 / 3600, speed_kmh * 5 / 18.",
-     "answer": "The method of speed conversion from km/h to m/s leads to the required value or conclusion."
+     "concept": "keph.101.11",
+     "question_pattern": "convert a speed of {speed_kmh} km h-1 to m s-1"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "speed_ms = speed_kmh * 1000 / 3600",
+     "compute": "speed_ms = speed_kmh * 1000 / 3600"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.101.12",
@@ -555,16 +585,19 @@
    ],
    "worked_examples": [
     {
-     "question": "Solve a typical question involving thickness of hair from microscope magnification.",
-     "solution": "Step 1: divide observed width by magnification. Step 2: convert the thickness to the desired unit if needed. Step 3: round the thickness to the appropriate significant figures. Working: observed_width / magnification, actual_thickness / 1000.",
-     "answer": "Thickness of Hair from Microscope Magnification applied step by step gives the required result."
-    },
-    {
-     "question": "Apply thickness of hair from microscope magnification to a fresh example and interpret the result.",
-     "solution": "Step 1: divide observed width by magnification. Step 2: convert the thickness to the desired unit if needed. Step 3: round the thickness to the appropriate significant figures. Working: observed_width / magnification, actual_thickness / 1000.",
-     "answer": "The method of thickness of hair from microscope magnification leads to the required value or conclusion."
+     "concept": "keph.101.12",
+     "question_pattern": "calculate the estimate on the thickness of hair given magnification {observed_width} and average width {magnification}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "actual_thickness = observed_width / magnification",
+     "compute": "actual_thickness = observed_width / magnification"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

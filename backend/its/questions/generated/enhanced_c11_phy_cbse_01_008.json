@@ -34,6 +34,36 @@
      "q": "Design a thought experiment or real-world scenario where dimensional analysis would fail to derive the correct physical relationship, and explain which specific limitation applies.",
      "a": "Scenario: Deriving the range of a projectile launched at angle θ with speed u. The range R = (u²/g) sin(2θ). Dimensional analysis gives R ∝ u²/g but cannot produce sin(2θ) because it is a trigonometric function of a dimensionless angle. The limitation is inability to handle trigonometric functions. A good answer identifies a specific physical law involving sin, cos, log, or exp, and names the exact limitation. A poor answer gives a generic \"complex situation\" without naming the functional form limitation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Dimensional analysis is a powerful tool for checking dimensional consistency of equations and deducing relations among physical quantities, but it has inherent limitations: it cannot determine ______ numerical constants (like 2, π, 1/2), cannot handle equations involving trigonometric, logarithmic, or exponential functions, cannot distinguish between physical quantities with identical dimensions (e.g., work and torque both [ML²T⁻²]), and fails when a physical quantity depends on more than three independent variables or when the dependence is not of product type.",
+     "a": "dimensionless",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're trying to find the time period of a simple pendulum using ______ analysis.",
+     "a": "dimensional",
+     "self_check": true
+    },
+    {
+     "q": "What is Dimensional analysis? State the definition given in this lesson.",
+     "a": "Dimensional analysis is a powerful tool for checking dimensional consistency of equations and deducing relations among physical quantities, but it has inherent limitations: it cannot determine dimensionless numerical constants (like 2, π, 1/2), cannot handle equations involving trigonometric, logarithmic, or exponential functions, cannot.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You get T = k√(l/g) but dimensional analysis cannot tell you that k = ______π.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Dimensional analysis?",
+     "a": "Students believe that if an equation is dimensionally consistent, it must be physically correct.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can identify which physical problems can and cannot be solved using dimensional analysis, explain why dimensionless constants cannot be determined, and justify why equations with trigonometric/exponential functions fall outside the method's scope.",
+     "self_check": true
     }
    ]
   }

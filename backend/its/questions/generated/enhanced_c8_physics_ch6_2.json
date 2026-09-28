@@ -34,6 +34,21 @@
      "q": "Design a simple activity using a stainless steel spoon, a sheet of paper, and a pencil to demonstrate the difference between the pole and the centre of curvature of a spherical mirror. Describe the steps and what a Class 8 student would observe.",
      "a": "Steps: (1) Place the spoon's concave side (inner curve) on paper. (2) Trace the circular rim. (3) Find the centre of this circle by folding or using a compass - mark it as C. (4) Mark the midpoint of the actual shiny reflecting surface visible inside the rim - this is P. (5) Draw line PC - this is the principal axis. (6) Repeat for convex side (outer curve). Observation: For concave side, C and P are on the same side of the mirror; for convex side, they are on opposite sides. A poor answer traces only the rim without distinguishing P (on the surface) from C (centre of the circle), or cannot explain why C shifts sides.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The pole (P) is the geometric centre of the spherical mirror's ______ surface.",
+     "a": "reflecting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at the shiny outer surface of a ______ steel spoon used in an Indian kitchen - the back of the spoon acts like a convex mirror, while the inner curved surface acts like a concave mirror.",
+     "a": "stainless",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify and label P, C, R, and the principal axis on diagrams of both concave and convex mirrors, and explain why the centre of curvature lies in front of a concave mirror but behind a convex mirror.",
+     "self_check": true
     }
    ]
   }

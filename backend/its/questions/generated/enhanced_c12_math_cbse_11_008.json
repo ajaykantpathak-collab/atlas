@@ -34,6 +34,21 @@
      "q": "Create a real-world problem (with Indian context) where you need to find the distance of a point from a plane, and solve it. The plane should be defined by three non-collinear points.",
      "a": "**Problem:** A triangular solar panel is installed on a roof with corners at \\( A(2,0,0) \\), \\( B(0,3,0) \\), \\( C(0,0,4) \\) (coordinates in metres). A support rod is fixed at point \\( P(1,1,1) \\). Find the perpendicular distance from the rod to the panel.  \n**Solution:**  \n1. Vectors \\( \\vec{AB} = (-2,3,0) \\), \\( \\vec{AC} = (-2,0,4) \\).  \n2. Normal \\( \\vec{n} = \\vec{AB} \\times \\vec{AC} = (12, 8, 6) \\) (or simplified to \\( (6,4,3) \\)).  \n3. Plane equation: \\( 6(x-2) + 4(y-0) + 3(z-0) = 0 \\Rightarrow 6x+4y+3z = 12 \\).  \n4. Distance = \\( \\frac{|6(1)+4(1)+3(1)-12|}{\\sqrt{36+16+9}} = \\frac{|1|}{ \\sqrt{61}} = \\frac{1}{\\sqrt{61}} \\) m.  \nA poor answer would use the wrong normal (e.g., not taking cross product) or miscalculate the plane constant.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a roof for a house in Bengaluru and need to know how far a ventilation pipe (point) is from the ______ roof surface (plane).",
+     "a": "sloping",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute the perpendicular distance from a point to a plane given in Cartesian or vector form, can determine whether a point lies on the plane (distance = 0), and can apply the formula to solve problems involving distances between parallel planes or the distance of a point from a plane determined by three non-collinear.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a roof for a house in Bengaluru and need to know how far a ______ pipe (point) is from the sloping roof surface (plane).",
+     "a": "ventilation",
+     "self_check": true
     }
    ]
   }

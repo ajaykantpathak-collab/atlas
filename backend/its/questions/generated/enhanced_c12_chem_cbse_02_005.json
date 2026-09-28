@@ -34,6 +34,26 @@
      "q": "Design an experiment to determine the cell constant of a conductivity cell using only a standard 0.1 M KCl solution (κ = 1.29 S m⁻¹ at 298 K) and a Wheatstone bridge with an AC source. List the steps, the measurements needed, and how you would verify the cell constant is reliable.",
      "a": "Steps: (1) Rinse cell with conductivity water, then with 0.1 M KCl. (2) Fill cell with 0.1 M KCl, immerse in thermostat at 298 K. (3) Connect cell as unknown resistance R₂ in Wheatstone bridge with AC oscillator (550–5000 Hz) to avoid electrolysis. (4) Balance bridge by adjusting R₁ until detector shows null. (5) Calculate R₂ = (R₃/R₄) × R₁. (6) Cell constant G* = κ × R₂ = 1.29 S m⁻¹ × R₂. (7) Repeat with fresh KCl solution 2–3 times; G* should be consistent within ±1%. (8) Verify by measuring a second standard (e.g., 0.01 M KCl, κ = 0.141 S m⁻¹) and checking if calculated κ matches. A student who suggests using DC current misses that DC causes electrolysis, changing concentration and electrode polarization. A student who omits temperature control ignores that κ varies ~2%/°C.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Molar ______ (Λₘ) of an electrolytic solution is the conductance of a volume of solution containing one mole of the electrolyte, placed between two parallel electrodes of unit area and unit distance apart.",
+     "a": "conductivity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you dip two platinum electrodes into a beaker of 0.1 M KCl solution and connect them to a ______ meter — the reading you see is the conductance G.",
+     "a": "conductivity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For concentration in mol L⁻¹ (M), Λₘ = (κ × ______)/M with κ in S cm⁻¹, yielding units of S cm² mol⁻¹.",
+     "a": "1000",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate molar conductivity from experimental resistance and cell constant data, convert between SI and CGS units correctly, explain why molar conductivity increases with dilution while conductivity decreases, and distinguish the concentration dependence for strong versus weak electrolytes using the Λₘ vs √c plot.",
+     "self_check": true
     }
    ]
   }

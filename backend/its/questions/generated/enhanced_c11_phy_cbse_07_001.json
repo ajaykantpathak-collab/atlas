@@ -32,7 +32,27 @@
     },
     {
      "q": "Design a simple tabletop experiment using a ball on a string (or a puck on an air table) to demonstrate the principle behind Kepler's second law (equal areas in equal times). Describe the setup, what you would measure, and how you would verify the law.",
-     "a": "**Expected answer criteria:**  \n- **Setup:** A small mass (ball/puck) attached to a string passing through a hole in a frictionless horizontal surface (air table or smooth glass). The string is pulled from below to provide a central force. Alternatively, a ball on a string whirled horizontally with the hand providing the central force (less ideal because hand moves).  \n- **Measurement:** Mark positions of the mass at equal time intervals (e.g., using a video camera and frame-by-frame analysis). Draw radius vectors from the center to each position.  \n- **Verification:** Compute the area of each triangle formed by two successive radius vectors (area = \\(\\frac{1}{2} r_1 r_2 \\sin \\Delta\\theta\\)). Check if these areas are constant within experimental error.  \n- **Key point:** The force must be purely central (string tension directed exactly toward the center). Any friction or tangential force will cause angular momentum to change, violating the law.\n\n**What a poor answer reveals:** If the student suggests a vertical circle (like a conical pendulum), gravity adds a non-central component. If they propose measuring speed at different radii without measuring areas, they are testing \\(v \\propto 1/r\\) (which is a consequence) but not the law itself. If they ignore friction, they won't understand why real data deviates.",
+     "a": "(1) Setup — tie a small mass on a string passing through a hole in a frictionless horizontal air table so the string tension is a purely central force, (2) Measure — video the mass, mark its position at equal time intervals, and draw radius vectors from the centre to each position, (3) Verify — compute each triangular area as half r1 r2 sin delta-theta between successive radius vectors and check the areas stay constant within experimental error, (4) Key condition — the force must remain central, because friction or any tangential force changes the angular momentum and violates the law. A poor answer uses a vertical circle where gravity adds a non-central component, or measures speed at different radii without measuring areas, which tests a consequence rather than the law itself.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking students to observe the night sky over several weeks (or use a free planetarium app like Stellarium) and note that ______ like Mars or Jupiter appear to move against the background stars, sometimes even reversing direction (retrograde motion).",
+     "a": "planets",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Kepler's laws of planetary motion?",
+     "a": "Misconception: \"Kepler's first law says planets move in ellipses, so the Sun is at the *center* of the ellipse.\" Exact wrong reasoning: Students often confuse the geometric center of an ellipse with its focus.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (a) state all three laws in precise physical language, distinguishing between elliptical and circular orbits; (b) explain why the second law implies variable orbital speed (faster at perihelion, slower at aphelion) using angular momentum conservation; (c) apply the third law to compute the period or semi-major axis of a.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking students to observe the night sky over several weeks (or use a free ______ app like Stellarium) and note that planets like Mars or Jupiter appear to move against the background stars, sometimes even reversing direction (retrograde motion).",
+     "a": "planetarium",
      "self_check": true
     }
    ]

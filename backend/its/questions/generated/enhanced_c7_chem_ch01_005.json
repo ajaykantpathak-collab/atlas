@@ -34,6 +34,31 @@
      "q": "Design a safe, low-cost school science experiment to prove that graphite (a form of the non-metal carbon) does not conduct heat as efficiently as a copper wire, even though graphite can conduct electricity. Describe your materials, steps, and expected observation.\nA) A valid response includes: Materials (battery, copper wire, graphite pencil lead, candle, wax, small pins). Steps: Coat a copper wire and a pencil lead with an equal layer of wax, stick a pin to each at the same distance from one end, heat both ends simultaneously with a candle flame, and time how long it takes for the wax to melt and the pin to drop. Expected observation: The pin on the copper wire drops much faster than the pin on the graphite lead, demonstrating that thermal conduction and electrical conduction do not always scale identically across non-metal allotropes.",
      "a": "The expected response must clearly outline an experimental setup comparing a metal (copper) to a non-metal form (graphite), controlling variables like length and heat source, and predicting a measurable difference in heat transfer speed. A poor response would suggest testing electrical circuits instead of heat, or failing to mention safety precautions around the candle flame.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Thermal conduction is the process by which heat energy is ______ through a substance from a region of higher temperature to a region of lower temperature without the bulk movement of the substance itself.",
+     "a": "transferred",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When a hot steel tawa (griddle) is placed on a gas burner in an Indian ______, the entire metal surface quickly becomes hot enough to cook chapatis, yet the plastic or wooden knob on the lid stays cool to the touch.",
+     "a": "kitchen",
+     "self_check": true
+    },
+    {
+     "q": "What is Thermal conduction? State the definition given in this lesson.",
+     "a": "Thermal conduction is the process by which heat energy is transferred through a substance from a region of higher temperature to a region of lower temperature without the bulk movement of the substance itself.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Thermal conduction?",
+     "a": "Students often confuse thermal conductivity with electrical conductivity or general hardness.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can differentiate between thermal conductors and insulators, explain the physical observation of why metal cookware handles get hot while wooden or plastic handles do not, and predict the outcome of a simple heat conduction experiment comparing various solid materials.",
+     "self_check": true
     }
    ]
   }

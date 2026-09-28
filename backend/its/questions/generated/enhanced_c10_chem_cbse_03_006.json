@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using three metals (Fe, Zn, Cu) and three salt solutions (FeSO₄, ZnSO₄, CuSO₄) to determine their relative reactivity order. Describe the setup, observations, and conclusion.",
      "a": "Setup: 9 test tubes, each metal in each solution. Observations: Zn displaces Fe and Cu (solution colour changes, deposition); Fe displaces Cu only; Cu displaces none. Conclusion: Zn > Fe > Cu. A poor answer (e.g., testing only one combination, not recording colour changes, or concluding Cu > Fe) shows the student cannot design a systematic investigation — a skill tested in CBSE practical and case-based questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ reaction occurs when a more reactive metal displaces a less reactive metal from its aqueous salt solution, forming a new salt and the displaced metal.",
+     "a": "displacement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe an iron nail dipped in blue copper ______ solution — the blue colour fades to light green and a reddish-brown coating appears on the nail.",
+     "a": "sulphate",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can predict whether a displacement reaction will occur between a given metal and a metal salt solution using the reactivity series, write the correctly balanced chemical equation with state symbols, and identify the observable changes (colour change, metal deposition).",
+     "self_check": true
     }
    ]
   }

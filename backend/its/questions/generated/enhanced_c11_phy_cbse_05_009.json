@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a spring, a block, and a rough horizontal surface to demonstrate that the spring force is conservative while kinetic friction is non-conservative. Describe the measurements you would take and the expected outcome.",
      "a": "**Experiment:** Compress the spring by distance \\( x \\) and release the block. Measure the maximum distance \\( d \\) the block travels before stopping. Repeat with different compression distances. For a conservative spring force, the initial spring potential energy \\( \\frac{1}{2}kx^2 \\) equals the work done by friction \\( -\\mu_k mg d \\). Plot \\( x^2 \\) vs \\( d \\); a straight line through the origin confirms spring energy is fully converted to friction work, showing spring force is conservative (energy stored and recovered) and friction is non-conservative (energy dissipated). A poor design (e.g., not varying \\( x \\), ignoring friction's path-dependence) reveals the student cannot link the concepts to a testable prediction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A force is conservative if the work done by it on an object moving between two points depends only on the initial and final positions, not on the path taken; ______, the work done by a conservative force over any closed loop is zero.",
+     "a": "equivalently",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a block sliding down two different ramps of the same ______ from rest: one smooth, one rough.",
+     "a": "height",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) classify a given force as conservative or non-conservative by checking path-independence or the closed-loop work condition, (2) explain why friction and air resistance are non-conservative while gravity and spring forces are conservative, and (3) apply the work-energy theorem in the presence of both conservative and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a block sliding down two different ramps of the same height from rest: one smooth, one rough.",
+     "a": "Observe",
+     "self_check": true
     }
    ]
   }

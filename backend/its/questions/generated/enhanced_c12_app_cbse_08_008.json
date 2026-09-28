@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_08_008",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_08_008",
+   "title": "c12_app_cbse_08_008",
+   "questions": [
+    {
+     "q": "Define \"relative price index number\" in your own words and state the formula. What is the index number of the base period always equal to?",
+     "a": "Relative price index number for period $n$ with base period $0$ is $I_n = \\frac{p_n}{p_0} \\times 100$, where $p_n$ is current period price and $p_0$ is base period price. The base period index is always 100. A wrong answer (e.g., giving formula as $\\frac{p_0}{p_n} \\times 100$ or saying base index is 0 or 1) reveals confusion between base/current period roles or misunderstanding that the index is a percentage-of-base scale where base = 100%.",
+     "self_check": true
+    },
+    {
+     "q": "A student computes the relative price index for wheat in 2023 (base 2018) as $I_{2023} = \\frac{25}{20} \\times 100 = 125$. They write: \"Wheat price increased by 125% from 2018 to 2023.\" Is this statement correct? Explain why or why not.",
+     "a": "The statement is **incorrect**. Index 125 means the 2023 price is 125% of the 2018 price, so the **increase** is $125 - 100 = 25\\%$, not 125%. A student making this error confuses the index value (level relative to base) with the percentage change (difference from base). This is the #1 interpretation error in board exams — always subtract 100 to get % change.",
+     "self_check": true
+    },
+    {
+     "q": "The price of crude oil was ₹2,500/gallon in Dec 2005 (base), ₹3,500 in Jan 2010, ₹2,800 in Nov 2015, and ₹2,900 in Oct 2020. Compute the relative price index for each period and construct the index series table. What was the percentage change from 2005 to 2010?",
+     "a": "Indices: 2005 = 100, 2010 = $\\frac{3500}{2500} \\times 100 = 140$, 2015 = $\\frac{2800}{2500} \\times 100 = 112$, 2020 = $\\frac{2900}{2500} \\times 100 = 116$. Index series table: Period | Price | Index. % change 2005→2010 = $140 - 100 = 40\\%$ increase. A wrong answer (e.g., 35% or 140%) reveals either arithmetic error or the index-vs-%change confusion from Diagnostic 2.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two commodities: Commodity A (base price ₹100, current ₹150) and Commodity B (base price ₹10, current ₹18). Compute relative price indices. Which commodity experienced a larger **percentage increase**? Does the commodity with the larger absolute price increase (₹50 vs ₹8) necessarily have the larger percentage increase? Explain.",
+     "a": "Index A = $\\frac{150}{100} \\times 100 = 150$ (50% increase). Index B = $\\frac{18}{10} \\times 100 = 180$ (80% increase). Commodity B had larger percentage increase despite smaller absolute increase (₹8 vs ₹50). This demonstrates why relative indices are essential: they normalize for different base price levels, enabling fair comparison. A student saying \"A increased more because ₹50 > ₹8\" fails to grasp the purpose of relative indices.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"The relative index number for a commodity in 2022 with base 2018 is 95. This means the price fell by 5% from 2018 to 2022.\" Is the reasoning fully correct? What additional assumption about the base period is implicitly required for this interpretation to be valid in economic analysis?",
+     "a": "The arithmetic is correct: index 95 → 5% decrease. However, the **economic interpretation** assumes the base period (2018) was a \"normal\" period without abnormal price shocks (boom, depression, war, natural calamity). If 2018 had unusually high prices due to a temporary supply disruption, a 2022 index of 95 might not indicate a real 5% decline in normal conditions — it might just mean prices returned to normal. NCERT explicitly states base period must be \"normal\" (Sec 6.4, Choice of base period). A student missing this shows lack of understanding of index number construction principles.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where you would use relative quantity index numbers instead of price indices. Define the variable, choose a base period, invent plausible data for 3 current periods, compute the index series, and write a one-sentence interpretation for a policymaker.",
+     "a": "Scenario: Tracking **rice production (in million tonnes)** in India to assess food security. Base: 2018-19 (normal monsoon year, production = 116 MT). Data: 2019-20 = 118 MT, 2020-21 = 124 MT, 2021-22 = 130 MT. Indices: 2018-19 = 100, 2019-20 = 102, 2020-21 = 107, 2021-22 = 112. Interpretation: \"Rice production has increased 12% over the base period, indicating improving food grain availability.\" A poor answer would use price data, forget to multiply by 100, or give interpretation without % change.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

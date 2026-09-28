@@ -34,6 +34,16 @@
      "q": "Construct a word problem about a triangular garden plot in a school courtyard where two angles are known algebraically in terms of $x$, and the third angle is a fixed number of degrees, requiring an equation to find all three angles.",
      "a": "A good problem looks like this: \"Rahul's school has a triangular flower bed. Angle $A$ is $x^\\circ$, angle $B$ is $(2x - 10)^\\circ$, and angle $C$ is $50^\\circ$. Find the measure of angles $A$ and $B$.\" Expected solution: $x + (2x - 10) + 50 = 180 \\Rightarrow 3x + 40 = 180 \\Rightarrow 3x = 140 \\Rightarrow x = 46.67^\\circ$. A poor response provides random numbers that do not allow a logical algebraic setup or forgets to include units and context.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are cutting a ______ slice of a paratha for lunch, and you want to check if the corners fit together on a straight line.",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can calculate an unknown interior angle of a triangle given the other two angles, can classify whether a set of three given angle measurements can form a valid triangle, and can apply algebraic equations to solve missing angle problems involving variables.",
+     "self_check": true
     }
    ]
   }

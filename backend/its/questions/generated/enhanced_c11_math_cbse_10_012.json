@@ -34,6 +34,16 @@
      "q": "Create a real-world problem where the intercept form of a line is the most natural way to model the situation, and explain why other forms (point-slope, slope-intercept) would be less convenient.",
      "a": "Example: A factory produces two products A and B. Each unit of A requires 2 hours of machine time and 3 hours of labour. Each unit of B requires 4 hours of machine time and 1 hour of labour. The factory has 24 hours of machine time and 12 hours of labour available daily. If \\(x\\) units of A and \\(y\\) units of B are produced, the constraints are \\(2x + 4y = 24\\) (machine) and \\(3x + y = 12\\) (labour). The intercept form \\(\\frac{x}{12} + \\frac{y}{6} = 1\\) and \\(\\frac{x}{4} + \\frac{y}{12} = 1\\) immediately shows maximum possible production of each product alone (when other is zero). Other forms would require extra steps to find these boundary values. A poor answer gives a generic \"graphing\" problem without justifying why intercept form is uniquely suited.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're designing a rectangular garden plot in your backyard where two adjacent sides lie along the ______ walls (x-axis and y-axis).",
+     "a": "boundary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're designing a ______ garden plot in your backyard where two adjacent sides lie along the boundary walls (x-axis and y-axis).",
+     "a": "rectangular",
+     "self_check": true
     }
    ]
   }

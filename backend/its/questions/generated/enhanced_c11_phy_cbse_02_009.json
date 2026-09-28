@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a toy car on an inclined plane to verify that stopping distance is proportional to the square of initial speed. List materials, procedure, measurements, and how you would plot the data.",
      "a": "Materials: Toy car, adjustable ramp, metre scale, stopwatch, sandpaper strip (for constant deceleration zone).\nProcedure: Release car from different heights (giving different v₀ at bottom). Measure stopping distance on sandpaper for each release height. Calculate v₀ from height using energy conservation (mgh = ½mv₀² → v₀ = √(2gh)). Plot ds vs v₀² — should be straight line through origin with slope 1/(2a).\nA poor answer omits v₀ calculation or suggests plotting ds vs v₀ (would give parabola, harder to verify proportionality). This tests understanding of experimental verification of quadratic relationships.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stopping distance is the total ______ of a vehicle from the instant the brakes are fully applied until it comes to a complete rest, assuming constant deceleration.",
+     "a": "displacement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are riding a bicycle at 15 km/h and suddenly apply brakes — you stop within 2-3 metres.",
+     "a": "Imagine",
+     "self_check": true
+    },
+    {
+     "q": "What is Stopping distance? State the definition given in this lesson.",
+     "a": "Stopping distance is the total displacement of a vehicle from the instant the brakes are fully applied until it comes to a complete rest, assuming constant deceleration.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: We begin by recalling the kinematic equation v² = u² + ______as from our study of uniformly accelerated motion.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Stopping distance?",
+     "a": "Students believe stopping distance is directly proportional to speed (ds ∝ v₀) because \"twice the speed means twice the distance to stop.\" They incorrectly apply uniform motion logic (s = vt) to decelerated motion, ignoring that braking time also doubles when speed doubles, making distance quadruple (s = ½at² with t = v₀/a → s ∝ v₀²).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can derive the stopping distance formula from kinematic equations, calculate stopping distance for given initial velocity and deceleration, and explain why doubling speed quadruples stopping distance.",
+     "self_check": true
     }
    ]
   }

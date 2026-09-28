@@ -34,6 +34,31 @@
      "q": "Design a laboratory experiment to test whether dsRNA expressed in transgenic tomato roots moves systemically to silence a reporter gene in feeding whiteflies (*Bemisia tabaci*), including controls needed to distinguish plant-mediated RNAi from direct dsRNA uptake from artificial diet.",
      "a": "Expected answer: \n1. Generate tomato lines expressing hairpin RNA targeting whitefly *v-ATPase* subunit (essential) under root-specific promoter (e.g., *AtRB7*). \n2. Controls: (a) wild-type tomato; (b) tomato expressing hairpin against non-target gene (e.g., GFP); (c) whiteflies fed artificial diet with synthetic *v-ATPase* dsRNA (positive control for RNAi efficacy); (d) whiteflies on hairpin tomato + dsRNA-degrading RNase in diet (tests plant-derived dsRNA necessity). \n3. Assay: qRT-PCR of *v-ATPase* mRNA in whiteflies after 48h feeding; mortality/survival curves; siRNA detection in whitefly bodies by northern blot. \n4. Key distinction: If silencing occurs only on hairpin tomato and synthetic dsRNA diet but not on WT or GFP-hairpin tomato, and is abolished by RNase, it confirms plant-mediated systemic RNAi. A poor answer omits the RNase control or the non-target hairpin control, failing to rule out non-specific effects or direct dsRNA contamination.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: RNA ______ (RNAi) is a conserved eukaryotic gene-silencing mechanism where double-stranded RNA (dsRNA) homologous to a target mRNA triggers its sequence-specific degradation, preventing translation.",
+     "a": "interference",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a tobacco field where root-knot nematodes (*______ incognita*) form galls on roots, stunting growth — a farmer's nightmare.",
+     "a": "Meloidogyne",
+     "self_check": true
+    },
+    {
+     "q": "What is RNA interference (RNAi)? State the definition given in this lesson.",
+     "a": "RNA interference (RNAi) is a conserved eukaryotic gene-silencing mechanism where double-stranded RNA (dsRNA) homologous to a target mRNA triggers its sequence-specific degradation, preventing translation.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about RNA interference (RNAi)?",
+     "a": "Students believe that \"the plant makes siRNA directly\" and that \"siRNA is the molecule ingested by the pest.\" In reality, the plant transgene expresses a long hairpin RNA (hpRNA) — a single transcript with sense and antisense arms linked by a loop — which is processed by the *plant's* Dicer into siRNAs.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) diagram the stepwise RNAi pathway from dsRNA entry to target mRNA cleavage, naming Dicer, RISC, siRNA, and Argonaute; (2) explain how a transgenic plant is constructed to express pest-specific dsRNA (vector design, promoter choice, transformation); (3) predict whether a given pest gene is a suitable RNAi target based on.",
+     "self_check": true
     }
    ]
   }

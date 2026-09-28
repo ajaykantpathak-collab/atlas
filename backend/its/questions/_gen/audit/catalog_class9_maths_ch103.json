@@ -44,10 +44,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lhs = 3 ** 3 + 4 ** 3",
-    "diff = 5 ** 3 - lhs"
-   ]
+   "steps_chain": []
   },
   {
    "id": "iemh.3.2.2",
@@ -178,11 +175,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "num = 7 * 8 + 2 * 5",
-    "den = 5 * 8",
-    "val = num / den"
-   ]
+   "steps_chain": []
   },
   {
    "id": "iemh.3.4.2",
@@ -362,11 +355,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "num = 2 * 8 + 5 * 4",
-    "den = 4 * 8",
-    "val = num / den"
-   ]
+   "steps_chain": []
   },
   {
    "id": "iemh.3.4.7",
@@ -456,10 +445,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lhs = 3 ** 3 + 4 ** 3",
-    "diff = 5 ** 3 - lhs"
-   ]
+   "steps_chain": []
   },
   {
    "id": "iemh.3.5.2",
@@ -503,9 +489,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "sq = 36 ** 2"
-   ]
+   "steps_chain": []
   },
   {
    "id": "iemh.3.5.3",
@@ -550,10 +534,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lhs = 3 ** 3 + 4 ** 3",
-    "diff = 5 ** 3 - lhs"
-   ]
+   "steps_chain": []
   },
   {
    "id": "iemh.3.6.1",
@@ -598,10 +579,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lhs = 3 ** 3 + 4 ** 3",
-    "diff = 5 ** 3 - lhs"
-   ]
+   "steps_chain": []
   },
   {
    "id": "iemh.3.6.2",
@@ -646,10 +624,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lhs = 3 ** 3 + 4 ** 3",
-    "diff = 5 ** 3 - lhs"
-   ]
+   "steps_chain": []
   },
   {
    "id": "iemh.3.6.3",
@@ -694,10 +669,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lhs = 3 ** 3 + 4 ** 3",
-    "diff = 5 ** 3 - lhs"
-   ]
+   "steps_chain": []
   },
   {
    "id": "iemh.3.6.4",
@@ -742,10 +714,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lhs = 3 ** 3 + 4 ** 3",
-    "diff = 5 ** 3 - lhs"
-   ]
+   "steps_chain": []
   },
   {
    "id": "iemh.3.6.5",
@@ -790,10 +759,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lhs = 3 ** 3 + 4 ** 3",
-    "diff = 5 ** 3 - lhs"
-   ]
+   "steps_chain": []
   }
  ]
 }

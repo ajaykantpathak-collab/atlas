@@ -34,6 +34,21 @@
      "q": "Design a labelled diagram sequence (4 panels) showing the Nebular Hypothesis from initial cloud to planetary system. For each panel, write a one-sentence caption linking the visual to a physical principle (gravity, angular momentum, accretion, differentiation).",
      "a": "Panel 1: Spherical cold nebula — \"Gravity initiates collapse of a rotating gas cloud.\" Panel 2: Flattening disk — \"Conservation of angular momentum forces collapse into a disk perpendicular to rotation axis.\" Panel 3: Planetesimals forming — \"Collisional accretion builds km-sized planetesimals from dust grains.\" Panel 4: Planets in coplanar orbits — \"Runaway accretion forms planets; solar wind clears residual gas.\" A poor answer shows panels without physical-principle captions, revealing rote memorisation without mechanistic understanding.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Nebular Hypothesis is a cosmogonic model proposing that the Solar System formed from a large, cold, rotating cloud of gas and dust (solar nebula) which collapsed under its own gravity, conserved angular momentum to form a spinning ______ disk, and through accretion of planetesimals formed the Sun at the centre and planets in the disk plane.",
+     "a": "protoplanetary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a spiral galaxy image (e.g., Andromeda) or a draining sink vortex — both show rotating matter ______ into a disk.",
+     "a": "flattening",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the step-by-step mechanism of the Nebular Hypothesis using conservation of angular momentum and gravitational collapse, distinguish Kant's and Laplace's versions, and identify why this hypothesis replaced earlier catastrophic theories.",
+     "self_check": true
     }
    ]
   }

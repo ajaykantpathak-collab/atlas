@@ -1,212 +1,332 @@
 {
-  "class": 11,
-  "subject": "physics",
-  "chapter": 204,
-  "chapter_title": "Thermodynamics",
-  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keph204.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "concepts": [
+ "class": 11,
+ "subject": "physics",
+ "chapter": 204,
+ "chapter_title": "Thermodynamics",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keph204.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "keph204.11.2.1",
+   "title": "Thermal Equilibrium and the Zeroth Law",
+   "section": "11.2, 11.3",
+   "definition": "Bodies left in contact stop exchanging net heat when their temperatures match -- thermal equilibrium. The zeroth law extends this: if two systems are each in equilibrium with a third, they are in equilibrium with each other, which is exactly the property that makes temperature a measurable, comparable quantity.",
+   "formula": "",
+   "key_idea": "Equal temperature means no net heat flow -- and the zeroth law makes the thermometer legitimate.",
+   "textbook_ref": "keph204.txt lines 30-140 (sections 11.2 thermal equilibrium, 11.3 zeroth law of thermodynamics, thermometer and variable like pressure used to sense temperature)",
+   "question_patterns": [
+    "state the zeroth law of thermodynamics and its use",
+    "in class 11 thermodynamics: what is thermal equilibrium",
+    "why is the zeroth law needed to define temperature",
+    "when do two bodies in contact stop exchanging heat",
+    "how does a thermometer measure the temperature of a body",
+    "three systems in mutual equilibrium, what can be said of their temperatures"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
     {
-      "id": "keph204.11.2.1",
-      "title": "Thermal Equilibrium and the Zeroth Law",
-      "section": "11.2, 11.3",
-      "definition": "Bodies left in contact stop exchanging net heat when their temperatures match -- thermal equilibrium. The zeroth law extends this: if two systems are each in equilibrium with a third, they are in equilibrium with each other, which is exactly the property that makes temperature a measurable, comparable quantity.",
-      "formula": "",
-      "key_idea": "Equal temperature means no net heat flow -- and the zeroth law makes the thermometer legitimate.",
-      "textbook_ref": "keph204.txt lines 30-140 (sections 11.2 thermal equilibrium, 11.3 zeroth law of thermodynamics, thermometer and variable like pressure used to sense temperature)",
-      "question_patterns": [
-        "state the zeroth law of thermodynamics and its use",
-        "in class 11 thermodynamics: what is thermal equilibrium",
-        "why is the zeroth law needed to define temperature",
-        "when do two bodies in contact stop exchanging heat",
-        "how does a thermometer measure the temperature of a body",
-        "three systems in mutual equilibrium, what can be said of their temperatures"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "define the equilibrium state", "explain": "In thermal equilibrium the macroscopic variables stop drifting and the net heat exchange is zero."},
-        {"step": 2, "action": "state the zeroth law", "explain": "Equilibrium with a common third system forces equilibrium between any pair -- temperature equality is transitive."},
-        {"step": 3, "action": "justify thermometry", "explain": "A thermometer works because reading it is just testing equilibrium with a calibrated system."}
-      ]
+     "step": 1,
+     "action": "define the equilibrium state",
+     "explain": "In thermal equilibrium the macroscopic variables stop drifting and the net heat exchange is zero."
     },
     {
-      "id": "keph204.11.4.1",
-      "title": "Heat, Internal Energy and Work in a Gas",
-      "section": "11.4",
-      "definition": "A gas carries internal energy in the motion and interactions of its molecules. Two routes change it: heat, energy flowing because of temperature difference, and work, energy transferred by volume change against a piston. Neither heat nor work is a property of the state -- only internal energy is.",
-      "formula": "",
-      "key_idea": "Internal energy is a state property; heat and work are two roads into it, defined only during the journey.",
-      "textbook_ref": "keph204.txt lines 141-260 (section 11.4 heat internal energy and work, sign convention, work done in volume change with pV diagram)",
-      "question_patterns": [
-        "distinguish heat internal energy and work with the sign convention",
-        "in class 11 thermodynamics: why is internal energy called a state variable",
-        "find the work done by a gas expanding at constant pressure",
-        "interpret the area under a pressure volume curve",
-        "can a gas be heated without supplying heat",
-        "how does compression change the internal energy of a gas"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "fix the sign convention", "explain": "Heat into the gas and work done by the gas are taken positive."},
-        {"step": 2, "action": "read work from the pV diagram", "explain": "Work equals the area under the pressure-volume curve for the process taken."},
-        {"step": 3, "action": "separate state from path", "explain": "The same internal energy change can be reached by many different heat and work splits -- only their sum is fixed."}
-      ]
+     "step": 2,
+     "action": "state the zeroth law",
+     "explain": "Equilibrium with a common third system forces equilibrium between any pair -- temperature equality is transitive."
     },
     {
-      "id": "keph204.11.5.1",
-      "title": "First Law of Thermodynamics",
-      "section": "11.5",
-      "definition": "Energy bookkeeping for a gas: the change in internal energy equals the heat supplied to the system minus the work the system does on its surroundings. It is the law of conservation of energy applied to thermal systems, valid for every process whatever the path.",
-      "formula": "delta_u = heat_added - work_by",
-      "key_idea": "Heat in either raises the internal energy or leaves as work done -- nothing vanishes.",
-      "textbook_ref": "keph204.txt lines 261-350 (section 11.5 first law of thermodynamics, application to isothermal and adiabatic processes, specific heats of gases)",
-      "question_patterns": [
-        "apply the first law to find the change in internal energy",
-        "in class 11 thermodynamics: state the first law of thermodynamics in symbols",
-        "a gas absorbs heat and does work, what is its internal energy change",
-        "in an adiabatic process relate the internal energy change to the work",
-        "why is the first law a conservation law",
-        "heat of the given amount is removed while work is done on the gas, find delta U"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "balance the energy ledger", "explain": "Subtract the work done by the gas from the heat supplied to get the internal energy change.",
-         "compute": "delta_u = heat_added - work_by"}
-      ]
-    },
-    {
-      "id": "keph204.11.6.1",
-      "title": "Specific Heats of Gases and Mayer's Relation",
-      "section": "11.6, 11.7",
-      "definition": "Heating a gas at constant volume spends energy only on internal energy (capacity Cv), while heating at constant pressure must also pay for expansion work, so Cp exceeds Cv. Their difference equals the universal gas constant R -- Mayer's relation -- and their ratio gamma controls adiabatic behaviour.",
-      "formula": "",
-      "key_idea": "Constant-pressure heating costs extra because the gas pushes the piston -- that extra is exactly R per mole.",
-      "textbook_ref": "keph204.txt lines 300-420 (sections 11.6 specific heat capacity, 11.7 thermodynamic processes mentioning molar specific heats, Cp minus Cv equals R)",
-      "question_patterns": [
-        "why is Cp greater than Cv for a gas",
-        "in class 11 thermodynamics: state Mayer's relation between Cp and Cv",
-        "define gamma and give typical values for mono and diatomic gases",
-        "find the heat needed to raise the gas temperature at constant volume",
-        "which specific heat applies to an isobaric heating of the gas",
-        "how does gamma influence the speed of sound in a gas"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "heat at fixed volume", "explain": "No piston moves, so every joule goes into internal energy -- that defines Cv."},
-        {"step": 2, "action": "heat at fixed pressure", "explain": "The gas must expand to keep pressure constant, spending extra energy as work -- that defines Cp."},
-        {"step": 3, "action": "state the difference and ratio", "explain": "Cp - Cv = R per mole, and gamma = Cp/Cv lies between 1 and about 1.67 for real gases."}
-      ]
-    },
-    {
-      "id": "keph204.11.8.1",
-      "title": "Isothermal and Adiabatic Processes",
-      "section": "11.8",
-      "definition": "In an isothermal change the temperature never shifts, so an ideal gas keeps pV constant and all absorbed heat leaves as work. In an adiabatic change no heat crosses the wall at all, pressure and volume follow p times V gamma constant, and the gas cools on expansion and heats on compression entirely from its own internal energy.",
-      "formula": "",
-      "key_idea": "Isothermal trades heat for work; adiabatic trades internal energy for work -- the wall decides which.",
-      "textbook_ref": "keph204.txt lines 380-500 (sections 11.8.2 isothermal process, 11.8.3 adiabatic process, pV diagrams, comparison of slopes)",
-      "question_patterns": [
-        "compare isothermal and adiabatic processes on a pV diagram",
-        "in class 11 thermodynamics: why does an adiabatic expansion cool the gas",
-        "write the relation between pressure and volume for an adiabatic change",
-        "an ideal gas expands isothermally, what happens to the absorbed heat",
-        "which process has the steeper pV curve and why",
-        "give a real example of a nearly adiabatic compression"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "fix the wall condition", "explain": "Isothermal means perfect thermal contact with a reservoir; adiabatic means perfect insulation."},
-        {"step": 2, "action": "apply the gas relation", "explain": "Isothermal keeps pV constant; adiabatic keeps p V^gamma constant, the extra gamma reflecting rising temperature on compression."},
-        {"step": 3, "action": "track the energy", "explain": "Isothermal: heat in equals work out with no temperature change. Adiabatic: work comes entirely from internal energy, so temperature moves."}
-      ]
-    },
-    {
-      "id": "keph204.11.11.1",
-      "title": "Heat Engines, Carnot Efficiency and the Second Law",
-      "section": "11.9, 11.10, 11.11",
-      "definition": "A heat engine robs a hot reservoir of heat, turns part of it into work and dumps the remainder into a cold sink; efficiency is the work fraction of the absorbed heat. The best possible engine working between two temperatures is the reversible Carnot engine, whose efficiency depends only on those temperatures -- no engine can beat it, which is the second law's core message.",
-      "formula": "carnot_eff = 1 - cold_temp / hot_temp",
-      "key_idea": "Even perfect engines must reject heat -- efficiency is capped by one minus the temperature ratio of the sinks.",
-      "textbook_ref": "keph204.txt lines 500-640 (sections 11.9 heat engines, 11.10 refrigerators, 11.11 Carnot engine, second law Kelvin-Planck and Clausius statements)",
-      "question_patterns": [
-        "find the efficiency of a heat engine from the work output and heat input",
-        "in class 11 thermodynamics: state the Carnot efficiency formula and its limits",
-        "why can no engine convert all absorbed heat into work",
-        "a Carnot engine runs between the given temperatures, compute the maximum efficiency",
-        "state the Kelvin-Planck statement of the second law",
-        "how does a refrigerator reverse the engine cycle"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "take the temperature ratio", "explain": "Divide the cold reservoir temperature by the hot reservoir temperature, both in kelvin.",
-         "compute": "temp_ratio = cold_temp / hot_temp"},
-        {"step": 2, "action": "subtract from one", "explain": "One minus that ratio is the maximum possible efficiency.",
-         "compute": "carnot_eff = 1 - temp_ratio"}
-      ]
+     "step": 3,
+     "action": "justify thermometry",
+     "explain": "A thermometer works because reading it is just testing equilibrium with a calibrated system."
     }
-  ],
-  "worked_examples": [
+   ]
+  },
+  {
+   "id": "keph204.11.4.1",
+   "title": "Heat, Internal Energy and Work in a Gas",
+   "section": "11.4",
+   "definition": "A gas carries internal energy in the motion and interactions of its molecules. Two routes change it: heat, energy flowing because of temperature difference, and work, energy transferred by volume change against a piston. Neither heat nor work is a property of the state -- only internal energy is.",
+   "formula": "",
+   "key_idea": "Internal energy is a state property; heat and work are two roads into it, defined only during the journey.",
+   "textbook_ref": "keph204.txt lines 141-260 (section 11.4 heat internal energy and work, sign convention, work done in volume change with pV diagram)",
+   "question_patterns": [
+    "distinguish heat internal energy and work with the sign convention",
+    "in class 11 thermodynamics: why is internal energy called a state variable",
+    "find the work done by a gas expanding at constant pressure",
+    "interpret the area under a pressure volume curve",
+    "can a gas be heated without supplying heat",
+    "how does compression change the internal energy of a gas"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
     {
-      "id": "we1",
-      "source_ref": "keph204.txt lines 261-350 (first law)",
-      "concept": "keph204.11.5.1",
-      "question_type": "compute",
-      "question_pattern": "A gas absorbs {heat_added} J of heat and does {work_by} J of work; find the change in internal energy.",
-      "extracted_variables": {"heat_added": 100, "work_by": 40},
-      "solution_template": [
-        {"step": 1, "action": "balance the energy ledger", "explain": "delta_u = 100 - 40 = 60 J.", "compute": "delta_u = heat_added - work_by"}
-      ]
+     "step": 1,
+     "action": "fix the sign convention",
+     "explain": "Heat into the gas and work done by the gas are taken positive."
     },
     {
-      "id": "we2",
-      "source_ref": "keph204.txt lines 261-350 (first law)",
-      "concept": "keph204.11.5.1",
-      "question_type": "compute",
-      "question_pattern": "A gas loses {heat_added} J (negative) while {work_by} J of work is done on it; compute delta U.",
-      "extracted_variables": {"heat_added": -50, "work_by": -20},
-      "solution_template": [
-        {"step": 1, "action": "balance the energy ledger", "explain": "delta_u = -50 - (-20) = -30 J: the internal energy falls by 30 J.", "compute": "delta_u = heat_added - work_by"}
-      ]
+     "step": 2,
+     "action": "read work from the pV diagram",
+     "explain": "Work equals the area under the pressure-volume curve for the process taken."
     },
     {
-      "id": "we3",
-      "source_ref": "keph204.txt lines 500-640 (Carnot engine)",
-      "concept": "keph204.11.11.1",
-      "question_type": "compute",
-      "question_pattern": "A Carnot engine runs between {hot_temp} K and {cold_temp} K; find its maximum efficiency.",
-      "extracted_variables": {"hot_temp": 600, "cold_temp": 300},
-      "solution_template": [
-        {"step": 1, "action": "take the temperature ratio", "explain": "temp_ratio = 300 / 600 = 0.5.", "compute": "temp_ratio = cold_temp / hot_temp"},
-        {"step": 2, "action": "subtract from one", "explain": "carnot_eff = 1 - 0.5 = 0.5, that is 50 percent.", "compute": "carnot_eff = 1 - temp_ratio"}
-      ]
-    },
-    {
-      "id": "we4",
-      "source_ref": "keph204.txt lines 500-640 (Carnot engine)",
-      "concept": "keph204.11.11.1",
-      "question_type": "compute",
-      "question_pattern": "Between reservoirs at {hot_temp} K and {cold_temp} K, compute the efficiency ceiling of any engine.",
-      "extracted_variables": {"hot_temp": 500, "cold_temp": 300},
-      "solution_template": [
-        {"step": 1, "action": "take the temperature ratio", "explain": "temp_ratio = 300 / 500 = 0.6.", "compute": "temp_ratio = cold_temp / hot_temp"},
-        {"step": 2, "action": "subtract from one", "explain": "carnot_eff = 1 - 0.6 = 0.4, that is 40 percent.", "compute": "carnot_eff = 1 - temp_ratio"}
-      ]
+     "step": 3,
+     "action": "separate state from path",
+     "explain": "The same internal energy change can be reached by many different heat and work splits -- only their sum is fixed."
     }
-  ],
-  "exercises": [
+   ]
+  },
+  {
+   "id": "keph204.11.5.1",
+   "title": "First Law of Thermodynamics",
+   "section": "11.5",
+   "definition": "Energy bookkeeping for a gas: the change in internal energy equals the heat supplied to the system minus the work the system does on its surroundings. It is the law of conservation of energy applied to thermal systems, valid for every process whatever the path.",
+   "formula": "delta_u = heat_added - work_by",
+   "key_idea": "Heat in either raises the internal energy or leaves as work done -- nothing vanishes.",
+   "textbook_ref": "keph204.txt lines 261-350 (section 11.5 first law of thermodynamics, application to isothermal and adiabatic processes, specific heats of gases)",
+   "question_patterns": [
+    "apply the first law to find the change in internal energy",
+    "in class 11 thermodynamics: state the first law of thermodynamics in symbols",
+    "a gas absorbs heat and does work, what is its internal energy change",
+    "in an adiabatic process relate the internal energy change to the work",
+    "why is the first law a conservation law",
+    "heat of the given amount is removed while work is done on the gas, find delta U"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "ex1",
-      "source_ref": "keph204.txt end-of-chapter exercises, reworded",
-      "questions": [
-        "A geyser heats water flowing at a given rate through a given temperature rise; find the power.",
-        "In the stated process the gas absorbs heat and does work; apply the first law to find delta U.",
-        "A cylinder with a movable piston contains gas under a given pressure; find the work done in the expansion.",
-        "State the conditions under which a process is reversible and give examples of irreversible ones.",
-        "A Carnot refrigerator maintains a cold space at the given temperature; find its coefficient of performance.",
-        "Explain why the efficiency of a heat engine can never be unity.",
-        "An air bubble rises from the bottom of a lake; describe the energy changes of the air inside.",
-        "Compare the slopes of isothermal and adiabatic curves on a pV diagram."
-      ]
+     "step": 1,
+     "action": "balance the energy ledger",
+     "explain": "Subtract the work done by the gas from the heat supplied to get the internal energy change.",
+     "compute": "delta_u = heat_added - work_by"
     }
-  ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "delta_u = heat_added - work_by",
+     "compute": "delta_u = heat_added - work_by"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "keph204.11.6.1",
+   "title": "Specific Heats of Gases and Mayer's Relation",
+   "section": "11.6, 11.7",
+   "definition": "Heating a gas at constant volume spends energy only on internal energy (capacity Cv), while heating at constant pressure must also pay for expansion work, so Cp exceeds Cv. Their difference equals the universal gas constant R -- Mayer's relation -- and their ratio gamma controls adiabatic behaviour.",
+   "formula": "",
+   "key_idea": "Constant-pressure heating costs extra because the gas pushes the piston -- that extra is exactly R per mole.",
+   "textbook_ref": "keph204.txt lines 300-420 (sections 11.6 specific heat capacity, 11.7 thermodynamic processes mentioning molar specific heats, Cp minus Cv equals R)",
+   "question_patterns": [
+    "why is Cp greater than Cv for a gas",
+    "in class 11 thermodynamics: state Mayer's relation between Cp and Cv",
+    "define gamma and give typical values for mono and diatomic gases",
+    "find the heat needed to raise the gas temperature at constant volume",
+    "which specific heat applies to an isobaric heating of the gas",
+    "how does gamma influence the speed of sound in a gas"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "heat at fixed volume",
+     "explain": "No piston moves, so every joule goes into internal energy -- that defines Cv."
+    },
+    {
+     "step": 2,
+     "action": "heat at fixed pressure",
+     "explain": "The gas must expand to keep pressure constant, spending extra energy as work -- that defines Cp."
+    },
+    {
+     "step": 3,
+     "action": "state the difference and ratio",
+     "explain": "Cp - Cv = R per mole, and gamma = Cp/Cv lies between 1 and about 1.67 for real gases."
+    }
+   ]
+  },
+  {
+   "id": "keph204.11.8.1",
+   "title": "Isothermal and Adiabatic Processes",
+   "section": "11.8",
+   "definition": "In an isothermal change the temperature never shifts, so an ideal gas keeps pV constant and all absorbed heat leaves as work. In an adiabatic change no heat crosses the wall at all, pressure and volume follow p times V gamma constant, and the gas cools on expansion and heats on compression entirely from its own internal energy.",
+   "formula": "",
+   "key_idea": "Isothermal trades heat for work; adiabatic trades internal energy for work -- the wall decides which.",
+   "textbook_ref": "keph204.txt lines 380-500 (sections 11.8.2 isothermal process, 11.8.3 adiabatic process, pV diagrams, comparison of slopes)",
+   "question_patterns": [
+    "compare isothermal and adiabatic processes on a pV diagram",
+    "in class 11 thermodynamics: why does an adiabatic expansion cool the gas",
+    "write the relation between pressure and volume for an adiabatic change",
+    "an ideal gas expands isothermally, what happens to the absorbed heat",
+    "which process has the steeper pV curve and why",
+    "give a real example of a nearly adiabatic compression"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "fix the wall condition",
+     "explain": "Isothermal means perfect thermal contact with a reservoir; adiabatic means perfect insulation."
+    },
+    {
+     "step": 2,
+     "action": "apply the gas relation",
+     "explain": "Isothermal keeps pV constant; adiabatic keeps p V^gamma constant, the extra gamma reflecting rising temperature on compression."
+    },
+    {
+     "step": 3,
+     "action": "track the energy",
+     "explain": "Isothermal: heat in equals work out with no temperature change. Adiabatic: work comes entirely from internal energy, so temperature moves."
+    }
+   ]
+  },
+  {
+   "id": "keph204.11.11.1",
+   "title": "Heat Engines, Carnot Efficiency and the Second Law",
+   "section": "11.9, 11.10, 11.11",
+   "definition": "A heat engine robs a hot reservoir of heat, turns part of it into work and dumps the remainder into a cold sink; efficiency is the work fraction of the absorbed heat. The best possible engine working between two temperatures is the reversible Carnot engine, whose efficiency depends only on those temperatures -- no engine can beat it, which is the second law's core message.",
+   "formula": "carnot_eff = 1 - cold_temp / hot_temp",
+   "key_idea": "Even perfect engines must reject heat -- efficiency is capped by one minus the temperature ratio of the sinks.",
+   "textbook_ref": "keph204.txt lines 500-640 (sections 11.9 heat engines, 11.10 refrigerators, 11.11 Carnot engine, second law Kelvin-Planck and Clausius statements)",
+   "question_patterns": [
+    "find the efficiency of a heat engine from the work output and heat input",
+    "in class 11 thermodynamics: state the Carnot efficiency formula and its limits",
+    "why can no engine convert all absorbed heat into work",
+    "a Carnot engine runs between the given temperatures, compute the maximum efficiency",
+    "state the Kelvin-Planck statement of the second law",
+    "how does a refrigerator reverse the engine cycle"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the temperature ratio",
+     "explain": "Divide the cold reservoir temperature by the hot reservoir temperature, both in kelvin.",
+     "compute": "temp_ratio = cold_temp / hot_temp"
+    },
+    {
+     "step": 2,
+     "action": "subtract from one",
+     "explain": "One minus that ratio is the maximum possible efficiency.",
+     "compute": "carnot_eff = 1 - temp_ratio"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "carnot_eff = 1 - cold_temp / hot_temp",
+     "compute": "carnot_eff = 1 - cold_temp / hot_temp"
+    }
+   ],
+   "converted_to_compute": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "keph204.txt lines 261-350 (first law)",
+   "concept": "keph204.11.5.1",
+   "question_type": "compute",
+   "question_pattern": "A gas absorbs {heat_added} J of heat and does {work_by} J of work; find the change in internal energy.",
+   "extracted_variables": {
+    "heat_added": 100,
+    "work_by": 40
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "balance the energy ledger",
+     "explain": "delta_u = 100 - 40 = 60 J.",
+     "compute": "delta_u = heat_added - work_by"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "keph204.txt lines 261-350 (first law)",
+   "concept": "keph204.11.5.1",
+   "question_type": "compute",
+   "question_pattern": "A gas loses {heat_added} J (negative) while {work_by} J of work is done on it; compute delta U.",
+   "extracted_variables": {
+    "heat_added": -50,
+    "work_by": -20
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "balance the energy ledger",
+     "explain": "delta_u = -50 - (-20) = -30 J: the internal energy falls by 30 J.",
+     "compute": "delta_u = heat_added - work_by"
+    }
+   ]
+  },
+  {
+   "id": "we3",
+   "source_ref": "keph204.txt lines 500-640 (Carnot engine)",
+   "concept": "keph204.11.11.1",
+   "question_type": "compute",
+   "question_pattern": "A Carnot engine runs between {hot_temp} K and {cold_temp} K; find its maximum efficiency.",
+   "extracted_variables": {
+    "hot_temp": 600,
+    "cold_temp": 300
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the temperature ratio",
+     "explain": "temp_ratio = 300 / 600 = 0.5.",
+     "compute": "temp_ratio = cold_temp / hot_temp"
+    },
+    {
+     "step": 2,
+     "action": "subtract from one",
+     "explain": "carnot_eff = 1 - 0.5 = 0.5, that is 50 percent.",
+     "compute": "carnot_eff = 1 - temp_ratio"
+    }
+   ]
+  },
+  {
+   "id": "we4",
+   "source_ref": "keph204.txt lines 500-640 (Carnot engine)",
+   "concept": "keph204.11.11.1",
+   "question_type": "compute",
+   "question_pattern": "Between reservoirs at {hot_temp} K and {cold_temp} K, compute the efficiency ceiling of any engine.",
+   "extracted_variables": {
+    "hot_temp": 500,
+    "cold_temp": 300
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "take the temperature ratio",
+     "explain": "temp_ratio = 300 / 500 = 0.6.",
+     "compute": "temp_ratio = cold_temp / hot_temp"
+    },
+    {
+     "step": 2,
+     "action": "subtract from one",
+     "explain": "carnot_eff = 1 - 0.6 = 0.4, that is 40 percent.",
+     "compute": "carnot_eff = 1 - temp_ratio"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "keph204.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "A geyser heats water flowing at a given rate through a given temperature rise; find the power.",
+    "In the stated process the gas absorbs heat and does work; apply the first law to find delta U.",
+    "A cylinder with a movable piston contains gas under a given pressure; find the work done in the expansion.",
+    "State the conditions under which a process is reversible and give examples of irreversible ones.",
+    "A Carnot refrigerator maintains a cold space at the given temperature; find its coefficient of performance.",
+    "Explain why the efficiency of a heat engine can never be unity.",
+    "An air bubble rises from the bottom of a lake; describe the energy changes of the air inside.",
+    "Compare the slopes of isothermal and adiabatic curves on a pV diagram."
+   ]
+  }
+ ]
 }

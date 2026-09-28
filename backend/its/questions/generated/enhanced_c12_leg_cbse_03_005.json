@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_03_005",
+   "title": "c12_leg_cbse_03_005",
+   "questions": [
+    {
+     "q": "State the six essential elements of a valid contract under Section 10 of the Indian Contract Act, 1872.",
+     "a": "The six elements are: (1) Offer and acceptance, (2) Intention to create legal relations, (3) Lawful consideration, (4) Capacity of parties (competent to contract), (5) Free consent (not vitiated by coercion, undue influence, fraud, misrepresentation, mistake), (6) Lawful object and not expressly declared void. A wrong answer (e.g., missing \"intention to create legal relations\" or listing \"writing\" as essential) reveals the student confuses formalities with essentials — oral contracts are valid unless law requires writing.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why an agreement to sell a car for ₹1 is a valid contract, but an agreement to sell a car for \"natural love and affection\" without writing and registration is void.",
+     "a": "Consideration need not be adequate but must be real (Section 25, Explanation 2). ₹1 is real consideration — the law doesn't inquire into adequacy. \"Natural love and affection\" is not consideration unless the agreement is in writing and registered (Section 25(1)). A wrong answer claiming \"inadequate consideration makes contract void\" reveals confusion between adequacy (irrelevant) and reality (essential) of consideration.",
+     "self_check": true
+    },
+    {
+     "q": "A minor, aged 17, buys a laptop on credit for ₹50,000, pays ₹10,000, then refuses to pay the balance. The seller sues. Decide the case with legal reasoning.",
+     "a": "Minor's agreement is void ab initio (Mohori Bibee v. Dharmodas Ghose). No contract exists, so seller cannot recover balance. Minor can plead minority as defence. However, if minor received benefit (laptop), court may order restitution under Section 65 (though Indian law is unsettled; generally no restitution for void contracts). A wrong answer saying \"minor is liable for necessaries\" misapplies Section 68 — laptop is not a necessary for a student unless proven essential for education.",
+     "self_check": true
+    },
+    {
+     "q": "Distinguish between a void agreement and a voidable contract using Section 2(g), 2(i), 2(j) and the table in NCERT. Give one example of each.",
+     "a": "Void agreement (Section 2(g)): Not enforceable by law from inception (e.g., wagering agreement under Section 30). Voidable contract (Section 2(i)): Enforceable at option of party whose consent wasn't free (e.g., contract induced by coercion under Section 19). Key difference: Void = no legal existence ever; Voidable = valid until avoided. A wrong answer swapping examples shows confusion between initial invalidity vs. subsequent avoidability.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"A contract to do an impossible act is void under Section 56. But if a singer contracts to perform at a concert and falls ill, the contract is not void — it's discharged by supervening impossibility.\" Is this correct? Justify.",
+     "a": "Correct. Section 56 distinguishes initial impossibility (void ab initio) from supervening impossibility (discharge after formation). Illness of a specific performer (personal service) makes performance impossible — contract discharged, not void. Taylor v. Caldwell (1863) established this. A wrong answer saying \"both are void\" fails to distinguish between impossibility at formation vs. after formation — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a contract is discharged by novation, and explain how it differs from rescission and alteration.",
+     "a": "Scenario: A owes B ₹10,000. B owes C ₹10,000. All three agree: A will pay C directly, and B is released. This is novation — new contract substitutes old (Section 62). Rescission = cancellation of contract (no new contract). Alteration = change in terms (same parties). A good answer must show: (1) new contract, (2) new parties or new terms, (3) old contract extinguished. Poor answer confuses novation with mere assignment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

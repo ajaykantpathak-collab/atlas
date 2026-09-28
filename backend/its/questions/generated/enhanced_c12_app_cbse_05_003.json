@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_05_003",
+   "title": "c12_app_cbse_05_003",
+   "questions": [
+    {
+     "q": "What is the order of the differential equation \\( \\frac{d^3y}{dx^3} + 2\\frac{d^2y}{dx^2} - 5\\frac{dy}{dx} + 6y = e^x \\)?",
+     "a": "The order is 3 because the highest derivative present is \\( \\frac{d^3y}{dx^3} \\) (third derivative). A wrong answer like 1 or 2 reveals the student is either looking at the first derivative only, or confusing order with the number of terms, or mistakenly thinking the order is the power of the highest derivative (which would be degree, not order).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The differential equation \\( \\left(\\frac{d^2y}{dx^2}\\right)^3 + \\frac{dy}{dx} = \\sin x \\) has order 3 because the second derivative is cubed.\" Is the student correct? Explain why or why not.",
+     "a": "The student is **incorrect**. The order is 2, not 3. The order is determined solely by the **highest derivative** (\\( \\frac{d^2y}{dx^2} \\)), which is of order 2. The exponent 3 is the **power** of that derivative, which relates to **degree** (if defined), not order. This error reveals the classic confusion between order (derivative level) and degree (power of highest derivative).",
+     "self_check": true
+    },
+    {
+     "q": "Find the order of the differential equation: \\( y = x\\frac{dy}{dx} + \\sqrt{a^2\\left(1 + \\left(\\frac{dy}{dx}\\right)^2\\right)} \\), where \\( a \\) is a constant.",
+     "a": "The order is 1. The only derivative present is \\( \\frac{dy}{dx} \\) (first derivative). The constant \\( a \\) and the square root do not introduce any higher derivatives. A wrong answer (e.g., 2) suggests the student thinks squaring the derivative or having a square root raises the order — it does not. Order depends only on the **highest derivative notation**, not algebraic operations on it.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the family of curves \\( y = Ae^{2x} + Be^{3x} \\), where \\( A \\) and \\( B \\) are arbitrary constants. What is the order of the differential equation obtained by eliminating \\( A \\) and \\( B \\)? Justify without forming the full equation.",
+     "a": "The order is 2. A family of curves with \\( n \\) arbitrary constants yields a differential equation of order \\( n \\) upon elimination. Here there are 2 arbitrary constants (\\( A \\) and \\( B \\)), so the resulting differential equation must be of order 2. A student who answers 1 or 3 is likely guessing or confusing the number of constants with the powers in the exponents. This tests the conceptual link between arbitrary constants and order.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"A differential equation of order 3 must contain the third derivative \\( \\frac{d^3y}{dx^3} \\) explicitly, and cannot be formed from a family of curves with only 2 arbitrary constants.\" Is it true or false? Defend your answer.",
+     "a": "The statement is **true** on both counts. (1) By definition, order 3 means the highest derivative is the third derivative — it must appear (explicitly or implicitly after simplification). (2) Eliminating \\( n \\) arbitrary constants requires \\( n \\) differentiations, yielding an \\( n \\)-th order differential equation. Two constants can only yield order 2. A false judgment reveals misunderstanding of the definition of order or the formation process linking constants to order.",
+     "self_check": true
+    },
+    {
+     "q": "Create a differential equation of order 2 that models the following real-world situation: \"The rate of change of the acceleration of a particle moving along a straight line is proportional to its displacement from the origin.\" Define all variables.",
+     "a": "Let \\( x(t) \\) be displacement at time \\( t \\). Velocity \\( v = \\frac{dx}{dt} \\), acceleration \\( a = \\frac{d^2x}{dt^2} \\). Rate of change of acceleration \\( = \\frac{da}{dt} = \\frac{d^3x}{dt^3} \\). Wait — the statement says \"rate of change of acceleration\" which is **jerk** (third derivative). But the question asks for order 2. So we must reinterpret: perhaps \"acceleration is proportional to displacement\" → \\( \\frac{d^2x}{dt^2} = -kx \\) (simple harmonic motion), which is order 2. A good answer recognizes the mismatch and constructs a valid order-2 model like \\( \\frac{d^2x}{dt^2} = -kx \\). A poor answer writes \\( \\frac{d^3x}{dt^3} = kx \\) (order 3), missing the constraint.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

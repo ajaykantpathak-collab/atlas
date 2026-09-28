@@ -34,6 +34,26 @@
      "q": "Create a real-world problem from Indian economics where Geometric Mean is the ONLY appropriate average, and Arithmetic Mean would give a misleading result. Specify the data, compute both, and explain the interpretation difference.",
      "a": "Problem: India's GDP growth rates over 5 years: 8%, 7%, -5%, 9%, 6%. Growth factors: 1.08, 1.07, 0.95, 1.09, 1.06. AM of rates = (8+7-5+9+6)/5 = 5%. GM of factors = \\( \\sqrt[5]{1.08 \\times 1.07 \\times 0.95 \\times 1.09 \\times 1.06} = \\sqrt[5]{1.267} \\approx 1.0486 \\) → 4.86% annualised. If ₹100 crore initial GDP: AM predicts ₹100 × (1.05)^5 = ₹127.63 cr. Actual: ₹100 × 1.267 = ₹126.7 cr. GM matches reality; AM overstates by ₹0.93 cr. A poor answer uses positive-only data (no negative growth) where AM and GM are close, missing the critical role of GM in handling volatility and negative values. The student must recognise that GM captures compounding and volatility drag.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It is the appropriate average for ______ processes, ratios, rates of change, and percentage growth where the Arithmetic Mean overstates the central tendency.",
+     "a": "multiplicative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you invested ₹10,000 in a ______ fund that grew by 50% in Year 1, then fell by 50% in Year 2.",
+     "a": "mutual",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This happens because Arithmetic Mean (______%) misrepresents multiplicative growth.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you ______ ₹10,000 in a mutual fund that grew by 50% in Year 1, then fell by 50% in Year 2.",
+     "a": "invested",
+     "self_check": true
     }
    ]
   }

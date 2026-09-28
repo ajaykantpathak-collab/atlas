@@ -1,6 +1,147 @@
 {
- "catalog": "catalog_class11_economics_ch104",
+ "catalog": "catalog_class11_economics_ch104.json",
  "concepts": [
+  {
+   "id": "keks.104.2",
+   "title": "Lost Wax Casting Technique",
+   "converted_to_compute": true,
+   "formula": "final_bronze = (copper + zinc + tin) / mold_process",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "final_bronze = (copper + zinc + tin) / mold_process",
+     "compute": "final_bronze = (copper + zinc + tin) / mold_process"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Lost Wax Casting Technique: given copper = 12.7, zinc = 60, tin = 50, mold_process = 100, find final bronze.",
+     "a": "1.227",
+     "self_check": false
+    },
+    {
+     "q": "For Lost Wax Casting Technique: given copper = 51, zinc = 73, tin = 39, mold_process = 29, find final bronze.",
+     "a": "5.62069",
+     "self_check": false
+    },
+    {
+     "q": "For Lost Wax Casting Technique: given copper = 36, zinc = 33, tin = 54, mold_process = 100, find final bronze.",
+     "a": "1.23",
+     "self_check": false
+    },
+    {
+     "q": "For Lost Wax Casting Technique: given copper = 92, zinc = 19.8, tin = 42, mold_process = 55, find final bronze.",
+     "a": "2.79636",
+     "self_check": false
+    },
+    {
+     "q": "For Lost Wax Casting Technique: given copper = 13.4, zinc = 91, tin = 9.9, mold_process = 83, find final bronze.",
+     "a": "1.37711",
+     "self_check": false
+    },
+    {
+     "q": "For Lost Wax Casting Technique: given copper = 92, zinc = 63, tin = 86, mold_process = 76, find final bronze.",
+     "a": "3.17105",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keks.104.3",
+   "title": "Nagara Temple Architecture",
+   "converted_to_compute": true,
+   "formula": "nagara_structure = platform + garbhagriha + shikhara",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "nagara_structure = platform + garbhagriha + shikhara",
+     "compute": "nagara_structure = platform + garbhagriha + shikhara"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Nagara Temple Architecture: given platform = 21, garbhagriha = 60, shikhara = 79, find nagara structure.",
+     "a": "160",
+     "self_check": false
+    },
+    {
+     "q": "For Nagara Temple Architecture: given platform = 65, garbhagriha = 43, shikhara = 33, find nagara structure.",
+     "a": "141",
+     "self_check": false
+    },
+    {
+     "q": "For Nagara Temple Architecture: given platform = 87, garbhagriha = 90, shikhara = 9.9, find nagara structure.",
+     "a": "186.9",
+     "self_check": false
+    },
+    {
+     "q": "For Nagara Temple Architecture: given platform = 70, garbhagriha = 86, shikhara = 86, find nagara structure.",
+     "a": "242",
+     "self_check": false
+    },
+    {
+     "q": "For Nagara Temple Architecture: given platform = 34, garbhagriha = 30, shikhara = 90, find nagara structure.",
+     "a": "154",
+     "self_check": false
+    },
+    {
+     "q": "For Nagara Temple Architecture: given platform = 52, garbhagriha = 53, shikhara = 54, find nagara structure.",
+     "a": "159",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keks.104.4",
+   "title": "Dravida Temple Architecture",
+   "converted_to_compute": true,
+   "formula": "dravida_temple = compound_wall + gopuram + stepped_vimana",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "dravida_temple = compound_wall + gopuram + stepped_vimana",
+     "compute": "dravida_temple = compound_wall + gopuram + stepped_vimana"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Dravida Temple Architecture: given compound_wall = 76, gopuram = 8.5, stepped_vimana = 13.4, find dravida temple.",
+     "a": "97.9",
+     "self_check": false
+    },
+    {
+     "q": "For Dravida Temple Architecture: given compound_wall = 24, gopuram = 13.7, stepped_vimana = 34, find dravida temple.",
+     "a": "71.7",
+     "self_check": false
+    },
+    {
+     "q": "For Dravida Temple Architecture: given compound_wall = 86, gopuram = 70, stepped_vimana = 85, find dravida temple.",
+     "a": "241",
+     "self_check": false
+    },
+    {
+     "q": "For Dravida Temple Architecture: given compound_wall = 32, gopuram = 4.3, stepped_vimana = 77, find dravida temple.",
+     "a": "113.3",
+     "self_check": false
+    },
+    {
+     "q": "For Dravida Temple Architecture: given compound_wall = 58, gopuram = 19.9, stepped_vimana = 80, find dravida temple.",
+     "a": "157.9",
+     "self_check": false
+    },
+    {
+     "q": "For Dravida Temple Architecture: given compound_wall = 50, gopuram = 38, stepped_vimana = 118, find dravida temple.",
+     "a": "206",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "keks.104.1",
    "title": "Six Limbs of Painting (Shadanga)",
@@ -28,99 +169,6 @@
     {
      "q": "Write the standard relation used for 'Six Limbs of Painting (Shadanga)', in plain ASCII form.",
      "a": "shadanga_score = rupabheda + pramana + bhava + lavanya_yojana + sadrishyam + varnikabhanga",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keks.104.2",
-   "title": "Lost Wax Casting Technique",
-   "questions": [
-    {
-     "q": "Using the method 'Lost Wax Casting Technique', work with: copper = 100, mold_process = 360, tin = 200, zinc = 25. Carry the chain through step by step and give the final value of final_bronze.",
-     "a": "0.9028 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Lost Wax Casting Technique' and work with: copper = 80, mold_process = 4, tin = 60, zinc = 6. Carry the chain through step by step and give the final value of final_bronze.",
-     "a": "36.5 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Lost Wax Casting Technique' refers to.",
-     "a": "A metal casting process (cire-perdue) where a wax model is used to create a mold, allowing for intricate bronze sculptures.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Lost Wax Casting Technique'.",
-     "a": "An ancient, sophisticated method for creating detailed metal icons.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Lost Wax Casting Technique', in plain ASCII form.",
-     "a": "final_bronze = (copper + zinc + tin) / mold_process",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keks.104.3",
-   "title": "Nagara Temple Architecture",
-   "questions": [
-    {
-     "q": "Using the method 'Nagara Temple Architecture', work with: garbhagriha = 24, platform = 45, shikhara = 25. Carry the chain through step by step and give the final value of nagara_structure.",
-     "a": "94 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Nagara Temple Architecture' and work with: garbhagriha = 15, platform = 75, shikhara = 100. Carry the chain through step by step and give the final value of nagara_structure.",
-     "a": "190 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Nagara Temple Architecture' refers to.",
-     "a": "A North Indian temple style characterized by a stone platform, a garbhagriha, and a towering shikhara.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Nagara Temple Architecture'.",
-     "a": "Verticality and geometric progression are core to Nagara design.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Nagara Temple Architecture', in plain ASCII form.",
-     "a": "nagara_structure = platform + garbhagriha + shikhara",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keks.104.4",
-   "title": "Dravida Temple Architecture",
-   "questions": [
-    {
-     "q": "Using the method 'Dravida Temple Architecture', work with: compound_wall = 80, gopuram = 60, stepped_vimana = 18. Carry the chain through step by step and give the final value of dravida_temple.",
-     "a": "158 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Dravida Temple Architecture' and work with: compound_wall = 60, gopuram = 6, stepped_vimana = 20. Carry the chain through step by step and give the final value of dravida_temple.",
-     "a": "86 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Dravida Temple Architecture' refers to.",
-     "a": "A South Indian temple style defined by a walled compound, a monumental gopuram entrance, and a stepped-pyramid vimana.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Dravida Temple Architecture'.",
-     "a": "Emphasis on horizontal enclosure and pyramidal verticality.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Dravida Temple Architecture', in plain ASCII form.",
-     "a": "dravida_temple = compound_wall + gopuram + stepped_vimana",
      "self_check": true
     }
    ]

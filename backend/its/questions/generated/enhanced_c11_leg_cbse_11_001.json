@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_11_001",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_11_001",
+   "title": "c11_leg_cbse_11_001",
+   "questions": [
+    {
+     "q": "What are the three types of jurisdiction exercised by the Supreme Court of India under the Constitution, and which Article corresponds to each?",
+     "a": "The three jurisdictions are: (1) **Original jurisdiction** — Article 131 (disputes between Centre and states or between states); (2) **Appellate jurisdiction** — Articles 132, 133, 134 (appeals from High Courts in constitutional, civil, criminal matters) and Article 136 (special leave to appeal from any court/tribunal); (3) **Advisory jurisdiction** — Article 143 (President may refer questions of law/fact of public importance). A wrong answer (e.g., listing \"writ jurisdiction\" as a separate type) reveals confusion between *original jurisdiction* (Art. 131) and *writ jurisdiction* (Art. 32) — both are original in nature but Art. 32 is for fundamental rights enforcement, while Art. 131 is for federal disputes.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Supreme Court's power under Article 141 (\"law declared by Supreme Court binding on all courts\") does not make it bound by its own previous decisions, and what exception exists.",
+     "a": "Article 141 binds *all courts* in India — but the Supreme Court is *not* a \"court\" subordinate to itself. It is the apex court. Therefore, it is not bound by its own precedents (*stare decisis* does not apply strictly). However, a **smaller bench is bound by the decision of a larger bench** (e.g., a 3-judge bench must follow a 5-judge Constitution Bench ruling) and by a **co-equal bench** (same strength) unless it refers the matter to a larger bench. A wrong answer (e.g., \"Supreme Court is bound by its own decisions\") reveals a misunderstanding of the hierarchical nature of precedent: precedent flows *downward*, not upward.",
+     "self_check": true
+    },
+    {
+     "q": "A civil suit for recovery of ₹15 lakh is filed in a Munsiff court. The defendant argues the court lacks pecuniary jurisdiction. The Munsiff court's pecuniary limit is ₹10 lakh. The plaintiff then files the same suit in the District Court. The defendant files an application under Section 10 CPC claiming *res sub judice*. Will the application succeed? Why or why not?",
+     "a": "No, the *res sub judice* application will **fail**. Section 10 CPC bars a *subsequent* suit when the *same matter* is *already pending* in a *competent* court. Here, the Munsiff court **lacked pecuniary jurisdiction** (₹15 lakh > ₹10 lakh limit), so the first suit was **not pending in a competent court**. A court without jurisdiction cannot \"entertain\" a suit — it is a nullity. Therefore, no *res sub judice* bar arises. The District Court can proceed. A wrong answer (saying the bar applies) reveals confusion between \"pending\" and \"pending in a court of competent jurisdiction\" — a critical distinction in CPC.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the writ jurisdiction of the Supreme Court (Article 32) and High Courts (Article 226) on three grounds: (a) purpose, (b) territorial reach, (c) discretion to refuse.",
+     "a": "(a) **Purpose**: Art. 32 — *only* for enforcement of fundamental rights; Art. 226 — for fundamental rights **and** \"any other purpose\" (including statutory/legal rights). (b) **Territorial reach**: Art. 32 — entire territory of India; Art. 226 — only within the territorial jurisdiction of that High Court (though can issue writs outside if cause of action arises partly within). (c) **Discretion**: Art. 32 — **no discretion**; Supreme Court *must* entertain (it is itself a fundamental right); Art. 226 — **discretionary**; High Court *may* refuse (e.g., alternative remedy available, delay, no locus standi). A wrong answer (e.g., \"both have same purpose\") reveals failure to grasp that Art. 226 is wider — a deliberate constitutional design to make High Courts the primary guardians of rights at the regional level.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"The doctrine of *autrefois acquit* and *autrefois convict* (Article 20(2), Section 300 CrPC) provides absolute protection against double jeopardy in India.\" Is this statement accurate? Justify with exceptions.",
+     "a": "**No, the statement is inaccurate** — protection is **not absolute**. Article 20(2) / Section 300 CrPC bars *second prosecution* for the *same offence* on *same facts* after acquittal/conviction. But exceptions exist: (1) **Different offence, same facts** — if the second charge is for a *distinct offence* (different ingredients), even on same facts, it may proceed (e.g., *State of Rajasthan v. Hat Singh*, 2003: acquittal under Arms Act doesn't bar trial under TADA for same act). (2) **Fresh evidence** — if new evidence emerges, retrial may be permitted in exceptional cases (though rare). (3) **Appeal by prosecution** — if the State appeals an acquittal and High Court convicts, it's not \"second prosecution\" but continuation. (4) **Departmental proceedings** — criminal acquittal doesn't bar disciplinary action (different forum, different standard of proof). A wrong answer claiming absolute protection reveals ignorance of the \"same offence\" requirement — *autrefois acquit* applies only when the *offence* (legal ingredients) is identical, not merely the *facts*.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical scenario where a citizen's fundamental right is violated by a *private* entity (not the State), and explain whether they can approach the Supreme Court under Article 32. If yes, on what basis? If no, what is the remedy?",
+     "a": "**Scenario**: A private hospital refuses emergency treatment to a road accident victim (citing inability to pay), resulting in death. The victim's family claims violation of Article 21 (right to life). **Can they approach SC under Art. 32?** **Yes**, but *only if* the private entity is performing a \"public function\" or is an \"instrumentality of the State\" (per *Ajay Hasia v. Khalid Mujib*, 1981 test: government funding, control, monopoly status, etc.). If the hospital is *purely private* with no State nexus, Art. 32 **does not lie** — because Art. 12 defines \"State\" for Part III, and private bodies are not \"State\" unless they meet the *instrumentality* test. **Remedy**: File a civil suit for damages (tort of negligence) or approach the High Court under Art. 226 (wider — \"any other purpose\") if a statutory duty exists (e.g., Clinical Establishments Act). A poor answer (saying \"Art. 32 always works for Art. 21\") reveals the critical misconception that fundamental rights bind *private parties* directly — they don't; they bind the \"State\" (Art. 12).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

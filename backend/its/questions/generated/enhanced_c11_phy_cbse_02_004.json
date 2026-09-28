@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a smartphone and a ruler to measure the instantaneous acceleration of a toy car rolling down an inclined plane at a specific point. Describe the procedure, what data to collect, and how to calculate instantaneous acceleration from that data.",
      "a": "Procedure: (1) Set up an inclined plane with a ruler along it. (2) Place smartphone on the car with accelerometer app (or use video recording at 60 fps). (3) Release car from rest, record position vs time at small intervals near the point of interest. (4) Plot x-t graph, draw tangent at the point, find slope = v. (5) Repeat for multiple points to get v-t data, then find slope of v-t graph at that point = a_inst. Alternative: Use smartphone's built-in accelerometer directly. A poor answer would only measure average acceleration over the whole ramp or confuse speed with acceleration. The key is understanding that instantaneous acceleration requires the limit process or derivative.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the rate of change of velocity with respect to time.",
+     "a": "Acceleration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a metro train departing from a station: initially at rest, it gradually speeds up, then moves ______, and finally slows down before the next stop.",
+     "a": "uniformly",
+     "self_check": true
+    },
+    {
+     "q": "What is Acceleration? State the definition given in this lesson.",
+     "a": "Acceleration is the rate of change of velocity with respect to time.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Acceleration?",
+     "a": "Students believe that negative acceleration always means \"slowing down\" and positive acceleration always means \"speeding up.\" This is incorrect because the sign of acceleration depends on the chosen coordinate axis, not on whether speed increases.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate average acceleration from velocity-time data, determine instantaneous acceleration from a velocity function using differentiation, interpret the physical meaning of positive/negative/zero acceleration on v-t and x-t graphs, and explain why zero velocity does not imply zero acceleration.",
+     "self_check": true
     }
    ]
   }

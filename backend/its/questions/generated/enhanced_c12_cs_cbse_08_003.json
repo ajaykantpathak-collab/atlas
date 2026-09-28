@@ -12,7 +12,7 @@
     },
     {
      "q": "Explain in your own words why `list.pop()` without an index correctly implements the stack pop operation, and what happens if you call it on an empty list in Python.",
-     "a": "`list.pop()` removes and returns the last element (index -1), which is the top of the stack when the list's end represents the top — this matches LIFO. On an empty list, Python raises `IndexError: pop from empty list`. A wrong answer (e.g., \"it removes the first element\" or \"it returns None\") reveals the student doesn't know Python's default `pop()` behavior or the LIFO mapping, leading to bugs in implementation and trace questions.",
+     "a": "`list.pop()` removes and returns the last element (index -1), which is the top of the stack when the list's end represents the top — this matches LIFO. On an empty list, Python raises `IndexError: pop from empty list`. A wrong answer (e.g., \"it removes the first element\" or \"it returns N/A\") reveals the student doesn't know Python's default `pop()` behavior or the LIFO mapping, leading to bugs in implementation and trace questions.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Design a stack class that supports a `get_min()` operation returning the minimum element in O(1) time, using only push/pop and one auxiliary stack. Describe the push/pop logic modifications.",
      "a": "Maintain a second stack `min_stack`. On `push(x)`: push to main stack; if `min_stack` is empty or `x <= min_stack[-1]`, also push `x` to `min_stack`. On `pop()`: pop from main stack; if popped value equals `min_stack[-1]`, pop from `min_stack` too. `get_min()` returns `min_stack[-1]`. A poor answer (e.g., scanning the stack) shows inability to augment data structures — a JEE-style problem requiring multi-concept synthesis (stack + auxiliary storage + invariant maintenance).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A stack is a linear data structure that follows the Last-In-First-Out (LIFO) principle, where insertion (push) and deletion (pop) ______ are performed only at one end called the top.",
+     "a": "operations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're building a ______'s \"Back\" button: each visited URL is stacked, and clicking Back pops the most recent one.",
+     "a": "browser",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Push adds an element to the top of the stack, while pop removes and returns the top element, with both operations having O(______) time complexity when implemented using a Python list.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) write Python functions for push and pop operations on a stack implemented as a list, correctly handling overflow (if size is fixed) and underflow conditions, and (2) trace the state of the stack after a sequence of push/pop operations, identifying the top element and stack size at each step.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're ______ a browser's \"Back\" button: each visited URL is stacked, and clicking Back pops the most recent one.",
+     "a": "building",
      "self_check": true
     }
    ]

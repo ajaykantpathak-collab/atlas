@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_11_003",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_11_003",
+   "title": "c11_leg_cbse_11_003",
+   "questions": [
+    {
+     "q": "What are the three types of jurisdiction exercised by the Supreme Court of India under the Constitution, and which Articles confer them?",
+     "a": "The Supreme Court exercises: (1) Original jurisdiction under Article 131 (disputes between Centre and States or between States), (2) Appellate jurisdiction under Articles 132, 133, 134 (appeals from High Courts in constitutional, civil, criminal matters), and (3) Writ jurisdiction under Article 32 (enforcement of fundamental rights). A wrong answer (e.g., listing \"advisory jurisdiction\" as a primary type or confusing Article 226 with Article 32) reveals the student cannot distinguish between the Supreme Court's and High Court's writ powers, or conflates advisory jurisdiction (Article 143) — which is discretionary and non-binding — with core adjudicatory jurisdiction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a High Court's writ jurisdiction under Article 226 is wider than the Supreme Court's under Article 32, yet the Supreme Court's power is considered more fundamental.",
+     "a": "Article 226 allows High Courts to issue writs for *both* fundamental rights and \"any other purpose\" (ordinary legal rights), while Article 32 is limited to fundamental rights only. However, Article 32 is itself a fundamental right — the Supreme Court *cannot refuse* to exercise it — whereas High Courts *may refuse* under Article 226 (discretionary). A wrong answer (e.g., \"Supreme Court has wider jurisdiction because it's higher\") shows the student confuses hierarchy with jurisdictional scope and misses the constitutional design: Article 32 is a guaranteed remedy; Article 226 is a supervisory power.",
+     "self_check": true
+    },
+    {
+     "q": "A person is arrested for a cognizable offence. The police refuse to register an FIR. The person approaches the Superintendent of Police (SP) by post under Section 154(3) CrPC. The SP directs an investigation. The police file a charge sheet. The Magistrate takes cognizance. At which stage does \"inquiry\" begin, and how does it differ from \"investigation\"?",
+     "a": "Inquiry begins when the Magistrate takes cognizance of the offence (Section 2(g) CrPC) — *after* investigation ends and the police report (charge sheet) is filed. Investigation (Sections 154-173) is a police function: evidence collection, arrest, search. Inquiry is a judicial function: the Magistrate examines whether a prima facie case exists to frame charges or discharge the accused. A wrong answer (e.g., \"inquiry starts when FIR is filed\") reveals confusion between police investigation (executive) and judicial inquiry — a classic error in distinguishing the three stages: investigation → inquiry → trial.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the doctrine of *res judicata* (Section 11 CPC) and *res sub judice* (Section 10 CPC). Give a concrete scenario where each applies, and explain why the distinction matters for judicial efficiency.",
+     "a": "*Res judicata* bars a *subsequent* suit on the same cause of action between same parties after a final decision (finality of litigation). *Res sub judice* stays a *parallel* suit on the same matter *pending* in another court (prevents multiplicity). Scenario A: X sues Y for breach of contract → dismissed. X sues again for damages for same breach → barred by *res judicata*. Scenario B: X sues Y for negligence (pending). X files another suit for accounts against Y → stayed under *res sub judice*. A wrong answer (e.g., swapping the two) shows the student cannot distinguish between \"matter already decided\" vs. \"matter pending\" — critical for understanding how CPC prevents conflicting judgments and forum shopping.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"The Supreme Court's advisory jurisdiction under Article 143 is binding on all courts.\" Support your answer with the conflicting principles from *In re Kerala Education Bill* (1958) and *In re Special Courts Bill* (1979).",
+     "a": "The statement is *partially correct but legally contested*. In *Kerala Education Bill*, the Court held advisory opinions are *not binding* (not \"law\" under Article 141) and the Court has discretion to refuse. In *Special Courts Bill*, the Court held its advisory opinions *are binding* on all courts under Article 141. The latter view prevails in practice, but the constitutional text (Article 143: \"report its opinion\") supports the former. A good evaluation acknowledges this tension and notes that advisory jurisdiction is rare, non-contentious, and politically sensitive — the Court avoids declaring law here. A wrong answer (simple \"yes/no\") reveals the student misses the doctrinal evolution and the Court's self-restraint in advisory matters.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new scenario where the doctrine of *autrefois acquit* (Article 20(2)/Section 300 CrPC) would be a valid defence, but *autrefois convict* would not. Explain why.",
+     "a": "Scenario: A is tried for theft (Section 379 IPC) and *acquitted*. Later, the prosecution discovers new evidence and charges A with *criminal breach of trust* (Section 406 IPC) for the *same act* of taking property. A pleads *autrefois acquit* — valid, because the second charge arises from the *same facts* (Section 300 CrPC: \"same offence or on the same facts for any other offence\"). *Autrefois convict* would not apply because A was *not convicted* earlier. A poor answer (e.g., using different facts or ignoring \"same facts\" test) shows the student doesn't grasp that the bar applies to *same transaction*, not just same legal provision — a nuance from *State of Maharashtra v. S.B. Pawar*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

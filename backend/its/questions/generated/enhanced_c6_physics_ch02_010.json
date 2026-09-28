@@ -34,6 +34,31 @@
      "q": "Design a template for an observation log for a nature walk where you need to identify different types of leaves. What columns would you include?",
      "a": "The template should include columns for: Date/Time, Location, Weather, Leaf Description (Shape/Color), and a space for a Sketch. A poor answer would omit the conditions (weather/location), which are crucial for natural history observations.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Recording observations is the systematic process of writing down what is seen, measured, or experienced during an activity, including details like date, time, location, and ______ conditions.",
+     "a": "environmental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever tried to remember exactly what happened during a science ______ three days after you did it, only to find the details fuzzy?",
+     "a": "experiment",
+     "self_check": true
+    },
+    {
+     "q": "What is Recording observations? State the definition given in this lesson.",
+     "a": "Recording observations is the systematic process of writing down what is seen, measured, or experienced during an activity, including details like date, time, location, and environmental conditions.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Recording observations?",
+     "a": "Students often believe that \"observation\" only means the final result (e.g., \"the salt remained\").",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to create a structured observation log for a simple experiment that includes the date, time, environment, and a clear description of the result.",
+     "self_check": true
     }
    ]
   }

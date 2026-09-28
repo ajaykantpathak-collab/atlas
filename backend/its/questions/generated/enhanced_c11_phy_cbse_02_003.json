@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a smartphone and a metre scale to measure the instantaneous speed of a toy car at a specific point on a ramp. Describe the procedure, the data you would collect, and how you would calculate the instantaneous speed from your data. (Hint: Use the concept of shrinking time intervals.)",
      "a": "**Procedure:** Place a metre scale along a ramp. Mark a point P (e.g., 50 cm from start). Use a smartphone's slow-motion video (240 fps or 480 fps) to record the toy car rolling down from rest. In the video, note the time stamps when the car's front crosses positions \\( x_1 = 48 \\) cm, \\( x_2 = 49 \\) cm, \\( x_3 = 50 \\) cm (point P), \\( x_4 = 51 \\) cm, \\( x_5 = 52 \\) cm.\n**Data:** Frame numbers or time stamps for each position. Convert to time \\( t \\) using frame rate.\n**Calculation:** Compute average velocities over shrinking intervals centred at P:\n\\( v_{avg1} = \\frac{x_5 - x_1}{t_5 - t_1} \\) (interval 4 cm),\n\\( v_{avg2} = \\frac{x_4 - x_2}{t_4 - t_2} \\) (interval 2 cm),\n\\( v_{avg3} = \\frac{x_3 - x_3}{t_3 - t_3} \\) — wait, use symmetric intervals: \\( \\frac{x_4 - x_2}{t_4 - t_2} \\), then \\( \\frac{x_3.5 - x_2.5}{t_3.5 - t_2.5} \\) if interpolating.\nAs interval \\( \\Delta x \\to 0 \\), \\( v_{avg} \\to \\) instantaneous speed at P.\n**Good answer criteria:** Uses symmetric intervals around P, mentions limiting process, acknowledges smartphone frame rate limits \\( \\Delta t \\) resolution.\n**Poor answer:** Just measures total time over total distance (gives average speed), or uses only two points far apart. Reveals the student doesn't grasp the *limiting process* central to the definition of instantaneous velocity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Instantaneous speed is the ______ of instantaneous velocity, always non-negative, with the same SI unit (m/s).",
+     "a": "magnitude",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are riding a bicycle on a ______ road from your home to school.",
+     "a": "straight",
+     "self_check": true
+    },
+    {
+     "q": "What is Instantaneous velocity? State the definition given in this lesson.",
+     "a": "Instantaneous speed is the magnitude of instantaneous velocity, always non-negative, with the same SI unit (m/s).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Instantaneous velocity?",
+     "a": "This misconception persists because Class 10 only dealt with average quantities; the concept of a limit is new.",
+     "self_check": true
     }
    ]
   }

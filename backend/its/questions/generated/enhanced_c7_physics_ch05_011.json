@@ -34,6 +34,26 @@
      "q": "Design a simple classroom demonstration using everyday materials to prove whether the image formed by a plane mirror is real or virtual.",
      "a": "To demonstrate this, place a plane mirror upright on a table and look at the reflection of a lit candle. Then, place a blank sheet of paper behind the mirror where the image appears to be; no flame appears on the paper. Next, place the paper in front of the mirror where the light rays reflect; still no image forms on the paper, proving the image in a plane mirror cannot be caught on a screen and is therefore virtual. A poor answer fails to test the screen-capture property or misinterprets reflections.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A real image is formed when light rays actually intersect after ______ or refraction, and it can be caught on a screen.",
+     "a": "reflection",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you look into your dressing table mirror at home, you see your face ______, but if you place a sheet of paper behind the mirror, no image appears on it.",
+     "a": "clearly",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can differentiate between real and virtual images based on screen catchability, upright/inverted orientation, and actual versus apparent intersection of light rays, and can correctly identify them in optical devices like plane mirrors, pinhole cameras, and lenses.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you look into your ______ table mirror at home, you see your face clearly, but if you place a sheet of paper behind the mirror, no image appears on it.",
+     "a": "dressing",
+     "self_check": true
     }
    ]
   }

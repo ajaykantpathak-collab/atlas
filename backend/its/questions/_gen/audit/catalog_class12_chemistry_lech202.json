@@ -1,0 +1,335 @@
+{
+ "catalog": "catalog_class12_chemistry_lech202.json",
+ "concepts": [
+  {
+   "id": "lech202.7.4.1.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "anti_markovnikov_alcohol = 25",
+      "hydroboration_product = anti_markovnikov_alcohol"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "anti_markovnikov_alcohol = 15",
+      "hydroboration_product = anti_markovnikov_alcohol"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "anti_markovnikov_alcohol = 51",
+      "hydroboration_product = anti_markovnikov_alcohol"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "anti_markovnikov_alcohol = 93",
+      "hydroboration_product = anti_markovnikov_alcohol"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "anti_markovnikov_alcohol = 29",
+      "hydroboration_product = anti_markovnikov_alcohol"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "anti_markovnikov_alcohol = 79",
+      "hydroboration_product = anti_markovnikov_alcohol"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "hydroboration_product = anti_markovnikov_alcohol"
+   ]
+  },
+  {
+   "id": "lech202.7.4.2.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "phenol = 89",
+      "acetone = 99",
+      "cumene_route = phenol + acetone"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "phenol = 15.5",
+      "acetone = 71",
+      "cumene_route = phenol + acetone"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "phenol = 42",
+      "acetone = 94",
+      "cumene_route = phenol + acetone"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "phenol = 50",
+      "acetone = 39",
+      "cumene_route = phenol + acetone"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "phenol = 74",
+      "acetone = 35",
+      "cumene_route = phenol + acetone"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "phenol = 10.4",
+      "acetone = 15.3",
+      "cumene_route = phenol + acetone"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "cumene_route = phenol + acetone"
+   ]
+  },
+  {
+   "id": "lech202.7.4.4.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "pka_b = 6.8",
+      "pka_a = 57",
+      "strength_ratio = 10 ** (pka_b - pka_a)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pka_b = 54",
+      "pka_a = 61",
+      "strength_ratio = 10 ** (pka_b - pka_a)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "pka_b = 45",
+      "pka_a = 63",
+      "strength_ratio = 10 ** (pka_b - pka_a)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "pka_b = 19.1",
+      "pka_a = 64",
+      "strength_ratio = 10 ** (pka_b - pka_a)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "pka_b = 28",
+      "pka_a = 15.4",
+      "strength_ratio = 10 ** (pka_b - pka_a)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "pka_b = 16.9",
+      "pka_a = 28",
+      "strength_ratio = 10 ** (pka_b - pka_a)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "strength_ratio = 10 ** (pka_b - pka_a)"
+   ]
+  },
+  {
+   "id": "lech202.7.5.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "glucose_moles = 4.3",
+      "ethanol_moles = 2 * glucose_moles"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "glucose_moles = 1",
+      "ethanol_moles = 2 * glucose_moles"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "glucose_moles = 19.7",
+      "ethanol_moles = 2 * glucose_moles"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "glucose_moles = 8.1",
+      "ethanol_moles = 2 * glucose_moles"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "glucose_moles = 10.4",
+      "ethanol_moles = 2 * glucose_moles"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "glucose_moles = 4.5",
+      "ethanol_moles = 2 * glucose_moles"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "ethanol_moles = 2 * glucose_moles"
+   ]
+  },
+  {
+   "id": "lech202.7.6.1.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "primary_halide = 42",
+      "sodium_alkoxide = 54",
+      "williamson_pair = primary_halide + sodium_alkoxide"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "primary_halide = 12.3",
+      "sodium_alkoxide = 27",
+      "williamson_pair = primary_halide + sodium_alkoxide"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "primary_halide = 97",
+      "sodium_alkoxide = 87",
+      "williamson_pair = primary_halide + sodium_alkoxide"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "primary_halide = 99",
+      "sodium_alkoxide = 18.9",
+      "williamson_pair = primary_halide + sodium_alkoxide"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "primary_halide = 97",
+      "sodium_alkoxide = 89",
+      "williamson_pair = primary_halide + sodium_alkoxide"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "primary_halide = 77",
+      "sodium_alkoxide = 58",
+      "williamson_pair = primary_halide + sodium_alkoxide"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "williamson_pair = primary_halide + sodium_alkoxide"
+   ]
+  },
+  {
+   "id": "lech202.7.6.3.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "phenol = 30",
+      "methyl_iodide = 0.7",
+      "anisole_cleavage = phenol + methyl_iodide"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "phenol = 67",
+      "methyl_iodide = 46",
+      "anisole_cleavage = phenol + methyl_iodide"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "phenol = 66",
+      "methyl_iodide = 87",
+      "anisole_cleavage = phenol + methyl_iodide"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "phenol = 25",
+      "methyl_iodide = 41",
+      "anisole_cleavage = phenol + methyl_iodide"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "phenol = 99",
+      "methyl_iodide = 14.6",
+      "anisole_cleavage = phenol + methyl_iodide"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "phenol = 60",
+      "methyl_iodide = 80",
+      "anisole_cleavage = phenol + methyl_iodide"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "anisole_cleavage = phenol + methyl_iodide"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,137 @@
+{
+ "catalog": "catalog_class12_computer_science_lecs113.json",
+ "concepts": [
+  {
+   "id": "lecs113.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "price1 = 53",
+      "qty1 = 95",
+      "price2 = 64",
+      "qty2 = 68",
+      "bill_amount = price1 * qty1 + price2 * qty2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "price1 = 8.9",
+      "qty1 = 1.7",
+      "price2 = 98",
+      "qty2 = 1.5",
+      "bill_amount = price1 * qty1 + price2 * qty2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "price1 = 33",
+      "qty1 = 48",
+      "price2 = 70",
+      "qty2 = 47",
+      "bill_amount = price1 * qty1 + price2 * qty2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "price1 = 7.3",
+      "qty1 = 15.7",
+      "price2 = 93",
+      "qty2 = 66",
+      "bill_amount = price1 * qty1 + price2 * qty2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "price1 = 66",
+      "qty1 = 22",
+      "price2 = 5.2",
+      "qty2 = 70",
+      "bill_amount = price1 * qty1 + price2 * qty2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "price1 = 99",
+      "qty1 = 5",
+      "price2 = 25",
+      "qty2 = 47",
+      "bill_amount = price1 * qty1 + price2 * qty2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "bill_amount = price1 * qty1 + price2 * qty2"
+   ]
+  },
+  {
+   "id": "lecs113.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "modules = 59",
+      "days_per_module = 17.9",
+      "integration_days = 6.8",
+      "total_days = modules * days_per_module + integration_days"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "modules = 41",
+      "days_per_module = 84",
+      "integration_days = 13.4",
+      "total_days = modules * days_per_module + integration_days"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "modules = 91",
+      "days_per_module = 61",
+      "integration_days = 3.6",
+      "total_days = modules * days_per_module + integration_days"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "modules = 40",
+      "days_per_module = 51",
+      "integration_days = 16.8",
+      "total_days = modules * days_per_module + integration_days"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "modules = 77",
+      "days_per_module = 70",
+      "integration_days = 17.2",
+      "total_days = modules * days_per_module + integration_days"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "modules = 28",
+      "days_per_module = 95",
+      "integration_days = 18",
+      "total_days = modules * days_per_module + integration_days"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_days = modules * days_per_module + integration_days"
+   ]
+  }
+ ]
+}

@@ -34,6 +34,31 @@
      "q": "Design a flow-cytometry experiment using propidium iodide staining to distinguish a population of cycling cells (G1, S, G2/M) from a population containing G0 cells. Sketch the expected DNA-content histograms and label peaks.",
      "a": "Cycling population: three peaks—G1 at 2C, broad S-phase distribution between 2C–4C, G2/M at 4C. G0-containing population: G0 cells overlap G1 at 2C (same DNA content), so an additional marker (e.g., Ki-67 negative for G0, positive for cycling) is needed to resolve them. A poor design omits the need for a proliferation marker, showing the student thinks DNA content alone distinguishes G0 from G1.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Interphase is the ______ phase of the cell cycle between two successive mitotic divisions, comprising three sequential sub-phases—G1 (Gap 1), S (Synthesis), and G2 (Gap 2)—during which the cell grows, replicates its DNA precisely once, and synthesizes proteins and organelles required for mitosis, while maintaining a constant chromosome number (2n) despite DNA content doubling from 2C to 4C.",
+     "a": "preparatory",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a single cell in your bone marrow that must divide to produce red blood cells—how does it \"know\" when it has grown enough, copied its DNA ______, and built enough machinery to split into two functional daughters?",
+     "a": "correctly",
+     "self_check": true
+    },
+    {
+     "q": "What is Interphase? State the definition given in this lesson.",
+     "a": "Interphase is the preparatory phase of the cell cycle between two successive mitotic divisions, comprising three sequential sub-phases—G1 (Gap 1), S (Synthesis), and G2 (Gap 2)—during which the cell grows, replicates its DNA precisely once, and synthesizes proteins and organelles required for mitosis, while maintaining a constant.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Interphase?",
+     "a": "Students believe \"chromosome number doubles during S phase\" because they see replicated chromosomes as \"two chromosomes.\" They count chromatids instead of centromeres.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish G1, S, and G2 phases by their defining molecular events (DNA content, chromosome number, centriole status, macromolecular synthesis) and (2) Explain why DNA content doubles in S phase while chromosome number remains unchanged, using the concepts of chromatids and centromeres.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Create a plan for a friend who has never used a compass to construct a triangle with two sides of 5 cm and an angle of 60 degrees between them.",
      "a": "The plan should include: 1. Draw a 5 cm line. 2. Use a protractor to mark a 60-degree angle from one end. 3. Draw a ray from that point. 4. Use a ruler to mark 5 cm on that ray. 5. Connect the ends. A poor answer ignores the need for a protractor for the angle or fails to define the \"included\" nature of the angle.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ triangles is the process of using a ruler and a compass to draw a triangle based on specific, fixed measurements—such as the lengths of its three sides (SSS) or two sides and the included angle (SAS).",
+     "a": "Constructing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a carpenter who needs to build a ______ bracket for a shelf, and you only have three wooden sticks of specific lengths (5 cm, 6 cm, and 7 cm).",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "What is Constructing triangles? State the definition given in this lesson.",
+     "a": "Constructing triangles is the process of using a ruler and a compass to draw a triangle based on specific, fixed measurements—such as the lengths of its three sides (SSS) or two sides and the included angle (SAS).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You start by placing the longest side (______ cm) flat on your work surface as a base.",
+     "a": "7",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Constructing triangles?",
+     "a": "Students often try to draw the third side first by guessing its length or by using a ruler to \"connect\" the arcs without measuring them.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to correctly draw a triangle when given three sides or two sides and an included angle, ensuring the arcs intersect at a precise point to form the third vertex.",
+     "self_check": true
     }
    ]
   }

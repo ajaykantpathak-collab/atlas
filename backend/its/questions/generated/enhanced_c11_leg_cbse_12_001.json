@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_12_001",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_12_001",
+   "title": "c11_leg_cbse_12_001",
+   "questions": [
+    {
+     "q": "Define 'void marriage' and 'voidable marriage' under the Hindu Marriage Act, 1955, and state one statutory ground for each.",
+     "a": "Void marriage: No legal existence from inception (void ab initio); no decree needed but declaratory decree available. Ground: Bigamy (Section 11 - spouse living at time of second marriage). Voidable marriage: Valid until annulled by court decree at instance of aggrieved party. Ground: Impotency preventing consummation (Section 12(1)(a)). Wrong answer reveals: Confusing void/voidable with valid/invalid, or mixing Hindu grounds with Muslim concepts (Batil/Fasid), or thinking voidable marriage requires mutual consent to annul.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a Muslim marriage with a fifth wife is 'irregular (Fasid)' not 'void (Batil)', and how it can be regularized. Contrast with Hindu law on the same fact pattern.",
+     "a": "Under Sunni Muslim law, marriage with fifth wife is Fasid (irregular) because polygamy up to 4 wives is permitted; the defect (exceeding limit) is curable — if one existing wife dies or divorces, the fifth marriage becomes valid. Shia law treats it as Batil (void). Under Hindu law (Section 11 HMA), any second marriage during subsistence of first is void ab initio — no regularization possible. Wrong answer reveals: Not grasping the \"curable defect\" concept in Muslim law, or assuming all personal laws treat bigamy identically, or confusing Fasid with voidable marriage (Hindu concept requires court decree; Fasid auto-regularizes on cure).",
+     "self_check": true
+    },
+    {
+     "q": "A Hindu husband files for divorce on grounds of wife's adultery. Wife counter-claims husband's cruelty. Apply the 'fault theory' and 'breakdown theory' to predict outcomes under Hindu Marriage Act, 1955. What changes if they file jointly under Section 13B?",
+     "a": "Fault theory: Each must prove other's matrimonial offence (adultery/cruelty) — if both proven, neither gets divorce (recrimination bar). Breakdown theory (not fully codified in HMA but SC recommends): Marriage irretrievably broken → divorce granted regardless of fault. Section 13B (mutual consent): Joint petition → 6-month cooling off (waivable per Amardeep Singh v. Harveen Kaur) → second motion → decree. No fault needed. Wrong answer reveals: Thinking fault theory allows divorce if both at fault, or that Section 13B requires proving fault, or not knowing cooling-off period is directory not mandatory post-2017 SC ruling.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the Family Courts Act, 1984 modifies the adversarial system. Why do women's groups criticize the 'conciliation-first' mandate despite its pro-women intent?",
+     "a": "Family Courts Act: (1) Restricts lawyer role (amicus curiae only), elevates counsellors; (2) Mandates conciliation before trial; (3) Less formal procedure; (4) Woman-friendly design. Women's groups critique: (1) Conciliation often coerces women back into violent homes to 'preserve family'; (2) Counsellors' 'neutrality' masks patriarchal bias; (3) 'Speedy settlement' prioritizes case disposal over gender justice; (4) Maintenance claims (Section 125 CrPC) undermined by forced reconciliation. Wrong answer reveals: Seeing conciliation as purely positive, missing power imbalance in mediation, or not linking 'preservation of family' (statutory goal) with 'gender justice' (women's movement goal) as conflicting objectives.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the constitutional validity of different marriageable ages for girls (18) and boys (21) under Hindu/Christian/Parsi law versus Muslim law (puberty ~15). Does the Prohibition of Child Marriage (Amendment) Bill, 2021 (raising girls' age to 21) resolve the inequality?",
+     "a": "Differential ages violate Article 14 (equality) and Article 15(1) (non-discrimination on sex) — no reasonable classification justification. Muslim law's puberty rule compounds inequality. The 2021 Bill equalizes age at 21 for both sexes and adds overriding clause over personal laws — addresses formal equality but: (1) Doesn't fix Muslim law's puberty rule for validity (only penalizes solemnization); (2) Criminalizes young adults' agency; (3) Implementation gaps persist (child marriages still 'voidable' not 'void'). Wrong answer reveals: Thinking equal age = full gender justice, missing that personal law validity rules differ from penal provisions, or not seeing that overriding clause in Bill challenges Article 25-26 religious freedom arguments.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a comparative framework (table or flowchart) showing how a Hindu woman, Muslim woman, Christian woman, and Parsi woman would EACH seek maintenance: (a) during marriage, (b) after divorce, (c) statutory provisions, (d) key limitations. Identify which system offers strongest protection and why.",
+     "a": "Expected framework: Hindu — HMA Section 24 (pendente lite), Section 25 (permanent alimony), HAMA Section 18 (during marriage); limitation: wife must remain chaste/unmarried for alimony. Muslim — MWPRDA 1986 (post-divorce only during iddat); limitation: no maintenance after iddat (Shah Bano overruled by Act). Christian — Indian Divorce Act Section 36 (pendente lite), Section 37 (permanent); similar to Parsi. Parsi — Parsi Marriage Act Section 39/40. Strongest: Hindu law (broadest duration, court discretion on quantum, constitutional backing via Article 15(3)). Good answer must show: statutory mapping, procedural access (Family Court vs Civil Court), gender-neutral vs gender-specific provisions, and impact of judicial interpretation (e.g., Shah Bano, Daniel Latifi). Poor answer reveals: Listing provisions without comparing enforceability, ignoring the 'chastity condition' in Hindu alimony, or missing that Muslim law limits maintenance to iddat period only.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

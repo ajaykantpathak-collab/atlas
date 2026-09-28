@@ -34,6 +34,21 @@
      "q": "Create a new problem: A firm has three partners A, B, C sharing profits 5:3:2. C retires. The Balance Sheet shows: General Reserve ₹80,000; Profit & Loss A/c (Cr.) ₹20,000; Workmen Compensation Reserve ₹40,000 (actual liability ₹35,000); Investment Fluctuation Fund ₹10,000 (investments cost ₹1,20,000, market value ₹1,25,000). There is also a **Contingency Reserve ₹15,000**. Pass journal entries for all reserves. Assume Contingency Reserve is a free reserve.",
      "a": "**Expected Answer / Criteria:**  \nThe student must:  \n1. Identify all reserves: General Reserve, P&L (Cr.), WCR (excess ₹5,000), IFF (no deficit, market > cost → full ₹10,000), Contingency Reserve (free reserve → full ₹15,000).  \n2. Calculate net accumulated profit = 80,000 + 20,000 + 5,000 + 10,000 + 15,000 = **₹1,30,000**.  \n3. Distribute in old ratio 5:3:2 (total 10 parts):  \n A = 1,30,000 × 5/10 = ₹65,000  \n B = 1,30,000 × 3/10 = ₹39,000  \n C = 1,30,000 × 2/10 = ₹26,000  \n4. Pass **separate journal entries** for each reserve (or one combined entry with clear narration).  \n5. For WCR: Debit WCR ₹40,000; Credit Claim ₹35,000; Credit Capitals (excess ₹5,000 in 5:3:2).  \n6. For IFF: Since market value > cost, no deficit → Credit full ₹10,000 to capitals in 5:3:2.  \n\n**What a poor answer reveals:**  \nIf the student misses Contingency Reserve (treats it as liability), they don't know it's a free reserve. If they debit IFF for deficit when market > cost, they don't understand IFF purpose. If they combine all into one entry without showing WCR claim separately, they lose marks for incomplete disclosure. A good answer shows **separate entries for each reserve** with clear workings — this is what board examiners expect for 6-mark questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Adjustment of Accumulated Profits and Reserves on Retirement refers to the process of distributing the ______ profits and reserves (such as General Reserve, Profit & Loss Account credit balance, Workmen Compensation Reserve, Investment Fluctuation Fund, etc.) among all partners, including the retiring partner, in their old profit sharing ratio before the retirement takes effect.",
+     "a": "undistributed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ firm where three friends — A, B, and C — have been running a business for five years.",
+     "a": "partnership",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Identify all accumulated profits and reserves appearing in the Balance Sheet on the date of retirement, (2) Pass correct journal entries to transfer each reserve to partners' capital accounts in the old profit sharing ratio, (3) Calculate each partner's share (including the retiring partner) correctly.",
+     "self_check": true
     }
    ]
   }

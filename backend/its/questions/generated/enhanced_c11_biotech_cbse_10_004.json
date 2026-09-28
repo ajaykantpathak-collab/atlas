@@ -34,6 +34,36 @@
      "q": "Design a homology modelling workflow for a hypothetical protein with 35% sequence identity to a template over 90% coverage, but the template has a missing loop (residues 120–135) in its crystal structure. Specify how you would handle the missing loop and validate the final model.",
      "a": "Workflow: (1) **Template preparation**: Download template PDB, check for missing atoms/residues. (2) **Loop modelling**: Since the template lacks residues 120–135, use *ab initio* loop modelling (e.g., MODELLER's loop refinement or Rosetta loop modelling) to build this region *de novo* using the target sequence, constrained by the flanking anchor residues. (3) **Alignment**: Generate structure-guided alignment (e.g., with PROMALS3D) incorporating the template structure and target sequence. (4) **Model building**: Generate 50–100 models with MODELLER using the alignment and loop modelling protocol. (5) **Selection**: Rank by DOPE score and GA341; select top 5. (6) **Refinement**: Energy-minimize selected models in explicit solvent (e.g., GROMACS). (7) **Validation**: Ramachandran plot (>90% favored), Verify3D, ProSA Z-score, and MolProbity clashscore. A poor answer omits *ab initio* loop modelling for the missing template region or relies solely on sequence alignment without structural guidance.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Homology modelling is a computational method for predicting the three-dimensional structure of a target protein by aligning its amino acid sequence to one or more template proteins with ______ determined structures (from PDB), leveraging the principle that evolutionary related (homologous) proteins share similar folds.",
+     "a": "experimentally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have the gene sequence for a novel enzyme from a heat-tolerant bacterium found in an Indian hot spring, but no ______ structure exists.",
+     "a": "experimental",
+     "self_check": true
+    },
+    {
+     "q": "What is Homology modelling? State the definition given in this lesson.",
+     "a": "Homology modelling is a computational method for predicting the three-dimensional structure of a target protein by aligning its amino acid sequence to one or more template proteins with experimentally determined structures (from PDB), leveraging the principle that evolutionary related (homologous) proteins share similar folds.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How would you predict its ______D shape to understand its thermostability?",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Homology modelling?",
+     "a": "Students often believe that sequence identity percentage alone determines model quality, ignoring alignment coverage, template resolution, and structural context.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain the stepwise workflow of homology modelling (template identification, alignment, model building, refinement, validation) and justify why sequence identity thresholds (>30% for global, >25% for local) determine modelling reliability.",
+     "self_check": true
     }
    ]
   }

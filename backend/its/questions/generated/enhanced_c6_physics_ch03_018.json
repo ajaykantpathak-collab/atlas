@@ -34,6 +34,26 @@
      "q": "Draw a diagram or describe how you would arrange two bulbs so that if one is unscrewed, the other remains shining.",
      "a": "The student must describe two separate loops connected to the same battery terminals. A poor answer would show a single loop (series), indicating a failure to grasp the physical layout of \"separate branches.\"",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A parallel circuit is an electrical ______ where components are connected across the same two points, creating multiple independent paths for the electric current to flow.",
+     "a": "arrangement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever wondered why, if one light bulb in your house burns out, the rest of the ______ in your room stay on?",
+     "a": "lights",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to predict that if one bulb is removed from a parallel circuit, the other(s) will remain lit, and explain why this happens by identifying the independent paths for the current.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever ______ why, if one light bulb in your house burns out, the rest of the lights in your room stay on?",
+     "a": "wondered",
+     "self_check": true
     }
    ]
   }

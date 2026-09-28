@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_06_005",
+   "title": "c12_leg_cbse_06_005",
+   "questions": [
+    {
+     "q": "What is the term of copyright protection for a literary work in India, and from when is it calculated?",
+     "a": "Copyright for a literary work lasts 60 years from the beginning of the calendar year following the author's death. A wrong answer (e.g., \"life + 50 years\" or \"from date of publication\") reveals confusion with the Berne Convention minimum term or with cinematograph films/sound recordings where the 60-year term runs from publication — not the author's death.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes a poem in her notebook but never publishes it. Six months later, a classmate copies it and wins a contest. Can the student claim copyright infringement? Explain why or why not.",
+     "a": "Yes. Copyright arises automatically upon creation in tangible form (the notebook) — registration is not required. The work is original and fixed. A wrong answer (\"No, because it wasn't registered/published\") reveals the misconception that copyright requires formalities, confusing it with the UCC system or patent law where registration is mandatory.",
+     "self_check": true
+    },
+    {
+     "q": "A pharmaceutical company develops a new drug formulation. They apply for a patent but the Controller rejects it, saying the invention lacks \"inventive step.\" The company argues the formulation is new and useful. Why is \"new and useful\" not enough for a patent in India?",
+     "a": "Indian patent law (Patents Act 1970, as amended 2005) requires three criteria: (1) Novelty — new globally; (2) Inventive step — not obvious to a person skilled in the art; (3) Industrial application — capable of being made/used in industry. \"New and useful\" covers only novelty and utility, but misses inventive step (non-obviousness). A wrong answer shows confusion with the US \"non-obviousness\" standard or thinks utility alone suffices.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the protection given to a \"trade secret\" (e.g., Coca-Cola's recipe) vs. a \"patent\" (e.g., a new drug molecule). Why might a company choose trade secret over patent for a manufacturing process?",
+     "a": "A patent gives 20-year monopoly but requires full public disclosure; after expiry, anyone can use it. A trade secret lasts indefinitely (as long as secrecy is maintained) but offers no protection against reverse engineering or independent discovery. A company chooses trade secret when the process cannot be easily reverse-engineered (e.g., internal chemical process) and they want perpetual protection — unlike a patent which expires. A wrong answer confuses trade secret with confidential information or thinks trade secret is a registered right.",
+     "self_check": true
+    },
+    {
+     "q": "The GI tag for \"Darjeeling Tea\" was granted to West Bengal. Odisha claimed the tea originated there. Evaluate: Does a GI tag prevent others from producing the same product? What rights does it actually confer?",
+     "a": "A GI tag does NOT prevent others from producing similar tea — it only prevents misuse of the *name* \"Darjeeling Tea\" for tea not grown in that region. It certifies geographical origin and associated qualities. The right is collective (held by producers' association), not individual. A wrong answer (\"It gives monopoly over the tea\") confuses GI with patent/trademark. GI protects indication of source, not the product per se.",
+     "self_check": true
+    },
+    {
+     "q": "Create a scenario where a single product (e.g., a smartwatch) attracts at least FOUR different types of IPR. Name each IPR, what it protects, and its duration.",
+     "a": "Smartwatch example: (1) **Patent** — novel sensor algorithm (20 years from filing); (2) **Copyright** — firmware code, UI design (life + 60 years); (3) **Trademark** — brand name/logo \"FitPulse\" (10 years, renewable indefinitely); (4) **Design** — unique curved strap shape (10 years, extendable 5 years). A poor answer lists only 1-2 IPRs or confuses design with patent, showing inability to deconstruct a product into protectable elements.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_06_005",
+   "title": "c11_leg_cbse_06_005",
+   "questions": [
+    {
+     "q": "Define the maxim \"Lex injusta non est lex\" and state which School of Law it is associated with.",
+     "a": "**Correct Answer:** The maxim means \"An unjust law is not a law.\" It is the central tenet of the **Natural Law School** (associated with St. Thomas Aquinas, Lon Fuller, Finnis). It asserts that legal validity depends on moral validity; a law lacking moral content (lex injusta) loses its obligatory force.\n**Diagnostic Insight:** If a student links this to the Analytical School (Austin/Kelsen), they confuse *validity* (positivity/enactment) with *morality*. Analytical positivists explicitly reject this maxim (e.g., Hart's \"separation thesis\").",
+     "self_check": true
+    },
+    {
+     "q": "In the Speluncean Explorers case, Justice Truepenny upholds the conviction but recommends executive clemency. A student argues this makes Truepenny a \"Natural Law\" judge because he shows mercy. Explain why this classification is incorrect using the concept of Separation of Powers.",
+     "a": "**Correct Answer:** Truepenny is a **Legal Positivist (Analytical School)**. He explicitly states: *\"The statute is unambiguous and must be applied by the judiciary... granting mercy falls within the scope of the executive and not the judiciary.\"* He separates the *legal duty* (apply the written law) from the *moral desire* (mercy), relegating morality to the Executive. A Natural Law judge (like Foster) would invalidate the statute itself as contrary to higher moral law.\n**Diagnostic Insight:** Students conflate \"mercy\" or \"kindness\" with Natural Law. Natural Law challenges the *validity* of the statute; Positivism accepts validity but may seek mitigation *outside* the judicial function.",
+     "self_check": true
+    },
+    {
+     "q": "Apply Justice Foster’s \"Purposive Approach\" to a hypothetical scenario: A statute bans \"vehicles in the park.\" An ambulance enters the park to save a dying child. The prosecution charges the driver. How would Foster decide, and which specific passage from the textbook supports this?",
+     "a": "**Correct Answer:** Foster would **acquit the driver**. \n**Steps:**\n1. Identify the **Mischief/Purpose**: The statute aims to prevent danger/noise/pollution from *recreational/traffic* vehicles, not to hinder life-saving.\n2. Apply **Purposive Interpretation**: \"The judges can find an exception to the law just like the courts had done earlier with self defence.\"\n3. Conclude: Applying the law here defeats its purpose (deterrence/public safety); the ambulance serves the *spirit* of the law.\n**Textbook Anchor:** Foster's opinion: *\"A 'purposive approach' must be taken to the statute... The main aim of criminal law is punishing the criminals, and by that punishment, deterring further offenders. In this case, punishing the offenders will not serve the purpose of deterrence.\"*\n**Diagnostic Insight:** If the student convicts based on the \"plain meaning\" of \"vehicle,\" they are applying Justice Keen’s Literalist/Positivist approach, not Foster’s.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the **Historical School (Savigny)** and the **Sociological School (Roscoe Pound)** regarding the *source* of law and the *role of the State*. Use the textbook's \"Distinguishing features/source of Law\" diagram logic.",
+     "a": "**Correct Answer:**\n| Feature | Historical School (Savigny) | Sociological School (Pound) |\n| :--- | :--- | :--- |\n| **Source of Law** | **Custom / Common Spirit (Volksgeist)** of the people. Law is \"found,\" not made. | **Social Needs / Conflicting Interests**. Law is a \"tool for social engineering.\" |\n| **Role of State** | Passive: State merely formulates what the people's spirit dictates. Legislation is secondary to custom. | Active: State *must* legislate to balance interests. Law is a conscious instrument of social change. |\n| **Nature of Law** | Organic, evolutionary, particular to each society (like language). | Functional, pragmatic, instrumental. \"Law is a social institution designed for social need.\" |\n**Diagnostic Insight:** Students often confuse both as \"society-based.\" The distinction: Historical = *Unconscious organic growth* (Past-oriented); Sociological = *Conscious social engineering* (Present/Future-oriented).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: *\"The Realist School renders the concept of 'Rule of Law' meaningless because it claims judicial decisions are merely predictions of what judges will do based on their psychological biases.\"* (Reference: Karl Llewellyn, Jerome Frank).",
+     "a": "**Correct Answer:** The statement is an **exaggeration (Critique), not an accurate description of Realism**.\n**Evaluation:**\n1. **Realists describe, don't prescribe**: Llewellyn/Frank observe that *in practice* judges' backgrounds influence outcomes (\"Courtroom is a laboratory\"). They do not argue Rule of Law *should* be abandoned.\n2. **Rule of Law as Ideal vs. Reality**: Realism exposes the *gap* between the formal ideal (Rule of Law = certainty/predictability) and behavioral reality. It demands we study the *actual* factors (facts, judge's personality) to *improve* prediction and fairness.\n3. **Textbook Nuance**: The textbook lists \"Law cannot be certain\" and \"Decisions depend on psychological background\" as features, but concludes: *\"These theories are products of certain times and places... Every school has its own approach... cannot be accepted in totality nor rejected completely.\"*\n**Diagnostic Insight:** Students mistake the Realist *critique of formalism* for a *rejection of legal order*. Realism is a methodology for better advocacy/adjudication, not anarchism.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new \"Speluncean Explorers\" style fact pattern (3-4 sentences) that tests the conflict between **Analytical Positivism (Austin)** and **Natural Law (Finnis/Fuller)** regarding a \"wicked legal system\" (e.g., apartheid or Nazi law). Frame it as a 6-mark \"Case-Based Question.\"",
+     "a": "**Expected Answer Criteria (Model Fact Pattern):**\n*\"In the Republic of 'Lexland', the 'Public Safety Act, 1940' (validly enacted by the sovereign Parliament) mandated the forced relocation of 'Category B' citizens to labor camps. Judge Aris, a positivist, upheld the relocation orders, citing Austin: 'Law is the command of the sovereign backed by sanction; morality is irrelevant.' Judge Bela, a natural lawyer, declared the Act 'null and void ab initio' (Lex injusta non est lex), arguing it violated the 'basic goods' of human dignity and life inherent in natural law. The Supreme Court of Lexland split 3-2.\"*\n**Why this works:** It forces the student to apply **Austin's Command Theory** (Validity = Source/Pedigree) vs. **Finnis/Fuller's Moral Threshold** (Validity = Content/Morality) — the core Class 11 debate.\n**Poor Answer Reveals:** A student writing a generic \"murder case\" fails to isolate the *validity of wicked laws* distinction, which is the specific examinable fault line between these two schools in the NCERT text.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

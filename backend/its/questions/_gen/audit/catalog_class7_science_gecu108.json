@@ -1,0 +1,62 @@
+{
+ "catalog": "catalog_class7_science_gecu108.json",
+ "concepts": [
+  {
+   "id": "gecu.8.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "distance = 189",
+      "time = 95",
+      "speed = distance / time"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "distance = 485",
+      "time = 50",
+      "speed = distance / time"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "distance = 10.8",
+      "time = 46",
+      "speed = distance / time"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "distance = 1.4",
+      "time = 106",
+      "speed = distance / time"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "distance = 402",
+      "time = 47",
+      "speed = distance / time"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "distance = 268",
+      "time = 23",
+      "speed = distance / time"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "speed = distance / time"
+   ]
+  }
+ ]
+}

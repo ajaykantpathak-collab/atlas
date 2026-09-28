@@ -34,6 +34,26 @@
      "q": "Create a real-life problem (Indian context) that requires using the section formula to find an unknown coordinate. The problem must involve a ratio that is not 1:1 and must have a solution that is not an integer. Write the problem and solve it.",
      "a": "Example problem: \"A straight road connects two villages A and B. Village A is at coordinates (2, 3) km and village B is at (14, 11) km on a district map. A water tank is to be built on the road such that its distance from A is 2/5 of the total road length. Find the coordinates of the water tank.\" Solution: Ratio AP:PB = 2:3 (since 2/5 from A means remaining 3/5 to B). Using section formula: x = (2×14 + 3×2)/5 = (28+6)/5 = 34/5 = 6.8 km; y = (2×11 + 3×3)/5 = (22+9)/5 = 31/5 = 6.2 km. Coordinates: (6.8, 6.2). A good answer includes a clear problem statement, correct ratio interpretation (2:3 not 2:5), non-integer answer, and full working. A poor answer uses ratio 2:5 or gets integer coordinates, showing misunderstanding of \"fraction of total length\" vs \"ratio of parts\".",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The section formula for internal division states that if a point P(x, y) divides the line segment joining A(x₁, y₁) and B(x₂, y₂) internally in the ratio m:n (where m, n > 0), then the ______ of P are given by x = (m x₂ + n x₁)/(m + n) and y = (m y₂ + n y₁)/(m + n).",
+     "a": "coordinates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your father divide a ______ plot of land in your village between two brothers in the ratio 3:2.",
+     "a": "rectangular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The section formula for internal division states that if a point P(x, y) divides the line segment joining A(x₁, y₁) and B(x₂, y₂) internally in the ratio m:n (where m, n > ______), then the coordinates of P are given by x = (m x₂ + n x₁)/(m + n) and y = (m y₂ + n y₁)/(m + n).",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can solve real-world problems by translating verbal descriptions into coordinate geometry setups, correctly identifying the ratio (including cases where the ratio is unknown and must be found), applying the section formula accurately, and interpreting the result in the context of the problem (e.g., locating a point on a map.",
+     "self_check": true
     }
    ]
   }

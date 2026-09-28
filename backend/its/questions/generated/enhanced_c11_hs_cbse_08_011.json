@@ -34,6 +34,26 @@
      "q": "Design a 5-component \"School Nutrition Action Plan\" for a mixed socio-economic urban school (Classes 6-8) that simultaneously addresses obesity in 22% of students and undernutrition (thinness) in 18%. Each component must target a different leverage point: policy, curriculum, food environment, family engagement, and monitoring. Specify one measurable target per component for a 12-month period.",
      "a": "1. **Policy**: Ban sale of HFSS (high fat/salt/sugar) foods within 200m of school; target: 100% compliance verified by quarterly inspections. 2. **Curriculum**: Integrate 12-session \"Nutrition Literacy\" module (label reading, portion awareness, media literacy) into science/life skills; target: ≥80% students score ≥70% on post-test. 3. **Food Environment**: Redesign canteen using \"traffic light\" system (green=everyday, amber=select carefully, red=occasionally); target: green items ≥60% of sales volume. 4. **Family Engagement**: Monthly \"Tiffin Audit\" workshops with parents using ICMR balanced diet plates; target: ≥50% families attend ≥3 sessions; mean tiffin diversity score ↑20%. 5. **Monitoring**: Bi-annual BMI-for-age screening + Hb estimation (for undernutrition); target: obesity prevalence ↓3 percentage points; thinness prevalence ↓2.5 percentage points; zero increase in stunting. Poor answers list generic activities without specific leverage points, measurable targets, or dual-condition focus.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Health and nutrition issues in school-age children (7-12 years) refer to the dual burden of malnutrition—______ (insufficient nutrient intake leading to stunting, wasting, underweight) and overnutrition (excess calorie intake leading to overweight/obesity)—that coexist in the same population, driven by socio-economic disparities, dietary transitions, and lifestyle changes, with direct consequences on physical growth, cognitive performance, and long-term non-communicable disease risk.",
+     "a": "undernutrition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a school health coordinator reviewing two students: Rohan (11 years, 55 kg, 145 cm) from a private urban school who brings packaged snacks daily, and Meena (10 years, 22 kg, 128 cm) from a ______ rural school who often skips breakfast.",
+     "a": "government",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) differentiate the etiology, clinical features, and long-term consequences of obesity versus undernutrition in school-age children using ICMR growth standards and BMI-for-age criteria; (2) evaluate the Mid-Day Meal Scheme's impact on nutritional status, school attendance, and gender equity using.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a school health ______ reviewing two students: Rohan (11 years, 55 kg, 145 cm) from a private urban school who brings packaged snacks daily, and Meena (10 years, 22 kg, 128 cm) from a government rural school who often skips breakfast.",
+     "a": "coordinator",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a simple laboratory setup to collect dry dihydrogen gas from the reaction of zinc with dilute H₂SO₄. List the components and explain the function of each.",
      "a": "Setup: Woulfe's bottle (generation) → delivery tube → wash bottle with water (remove acid spray) → drying tube with anhydrous CaCl₂ (remove moisture) → gas jar (collection by downward displacement of water). A poor answer omits drying or uses upward delivery, revealing misunderstanding of H₂'s low solubility and need for dryness.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ (H₂) is prepared in the laboratory by the reaction of metals (Zn, Fe) with dilute acids (H₂SO₄, HCl) or with aqueous alkalis (NaOH), and by the reaction of metals (Mg, Fe) with steam.",
+     "a": "Dihydrogen",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a kitchen gas stove: the blue flame comes from combustion of methane, but the hydrogen in methane can be liberated as ______.",
+     "a": "dihydrogen",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write balanced chemical equations for at least three laboratory methods and two industrial methods of dihydrogen preparation, explain the role of each reactant, and compare the methods based on purity, cost, and scalability.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a kitchen gas stove: the blue flame comes from ______ of methane, but the hydrogen in methane can be liberated as dihydrogen.",
+     "a": "combustion",
+     "self_check": true
     }
    ]
   }

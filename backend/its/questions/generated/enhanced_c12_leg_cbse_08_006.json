@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_08_006",
+   "title": "c12_leg_cbse_08_006",
+   "questions": [
+    {
+     "q": "Define 'separate legal entity' in the context of business organisations and state which two forms among the six NCERT forms do NOT possess this characteristic.",
+     "a": "A separate legal entity means the organisation is distinct from its owners in the eyes of law — it can own property, sue, be sued, and enter contracts in its own name. Sole Proprietorship and Partnership (traditional) do NOT have separate legal entity status; the owner/partners and the firm are legally identical. A wrong answer (e.g., claiming Partnership has separate entity) reveals confusion between 'firm name' and 'legal personality' — students often mistake registration under the Partnership Act for incorporation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a Private Limited Company is preferred over an LLP for a startup planning to raise venture capital, even though both offer limited liability.",
+     "a": "A Private Limited Company can issue equity shares with differential voting rights, ESOPs, and convertible instruments — standard tools for VC funding. An LLP cannot issue shares; partners' rights are governed solely by the LLP Agreement, making equity investment structurally difficult. A wrong answer (e.g., \"LLP has lower compliance so it's better\") shows failure to distinguish between operational compliance and capital structure requirements — a common trap in board case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "A group of 100 weavers wants to form a collective to sell handloom products globally. They need to raise capital from impact investors, want limited liability, and desire democratic governance (one member, one vote). Which entity form fits best? Justify using three specific features from the NCERT comparison.",
+     "a": "A Private Limited Company is optimal: (1) Allows up to 200 members — accommodates 100 weavers; (2) Can issue equity shares to impact investors — LLP cannot; (3) Articles of Association can enshrine one-share-one-vote or weighted voting — unlike a cooperative which is not in the NCERT list. A wrong answer choosing LLP ignores the share-issuance constraint; choosing Partnership ignores the 50-partner cap and unlimited liability.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the continuity of existence (perpetual succession) across Sole Proprietorship, Partnership, LLP, and Private Limited Company. Explain how the death of an owner/partner affects each.",
+     "a": "Sole Proprietorship: ends on owner's death/incapacity. Partnership: dissolves unless partnership deed provides otherwise (but new partnership arises). LLP: continues unaffected — separate legal entity with perpetual succession. Private Limited Company: continues unaffected — separate legal entity with perpetual succession. A wrong answer claiming Partnership has perpetual succession confuses 'firm continuation via new deed' with 'same legal entity surviving' — a subtle but critical distinction for succession planning questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"One Person Company (OPC) is just a Sole Proprietorship with a fancy name because both have only one owner.\" Use three legal distinctions from the NCERT textbook.",
+     "a": "The statement is false. Three distinctions: (1) OPC is a separate legal entity; Sole Proprietorship is not — OPC's liabilities are its own, not the member's. (2) OPC enjoys perpetual succession via nominee; Sole Proprietorship ends on owner's death. (3) OPC can raise funds from VCs/angel investors as a private company; Sole Proprietorship cannot issue shares. A wrong answer focusing only on \"single owner\" misses the core legal architecture difference — entity vs. individual.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hybrid business structure for a law firm that wants to: (a) retain partnership-style profit sharing and tax transparency, (b) protect partners from each other's negligence, (c) admit junior partners easily without amending a complex charter. Specify the entity form and explain how it meets all three using NCERT features.",
+     "a": "Limited Liability Partnership (LLP). (a) LLP Agreement governs profit-sharing — flexible like partnership; taxed as partnership (pass-through) under Income Tax Act. (b) Partner not liable for another partner's independent/unauthorized acts (NCERT: \"No partner is liable on account of the independent or un-authorized actions of other partners\"). (c) New partners admitted per LLP Agreement — simpler than amending MoA/AoA of a company. A poor answer suggesting \"Private Limited Company\" fails (a) and (c) — rigid share structure and MoA amendment required.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

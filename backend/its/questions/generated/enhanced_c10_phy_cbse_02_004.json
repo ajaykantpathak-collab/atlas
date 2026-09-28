@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a battery, insulated copper wire, an iron nail, and a compass to demonstrate that (a) a current-carrying solenoid behaves like a bar magnet, and (b) the polarity reverses when current direction is reversed.",
      "a": "**Expected answer:** Wind 50 turns of wire on the nail, connect to battery via a switch. Place compass near one end; note deflection direction (e.g., north pole of compass points away → that end is north). Reverse battery terminals; compass deflection reverses, proving polarity reversal. For (a), bring a bar magnet near the solenoid; observe attraction/repulsion matching pole polarity. A poor answer (e.g., \"just use the compass\") lacks controlled steps, does not mention reversing current, or does not link deflection to pole identification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A solenoid is a long helical coil of insulated copper wire that produces a nearly uniform magnetic field inside it when electric current passes through it, with field lines parallel to its axis and ______ those of a bar magnet.",
+     "a": "resembling",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a doorbell or an electric crane lifting scrap metal — both use ______.",
+     "a": "electromagnets",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can draw the magnetic field line pattern for a current-carrying solenoid, label the north and south poles using the clock rule or right-hand grip rule, explain how an electromagnet differs from a permanent magnet, and predict how changes in current, number of turns, or core material affect the magnetic field strength.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a one-page consent form for a study: \"Social Media Usage Patterns and Anxiety Levels in Class 11 Students (CBSE Schools, Delhi NCR).\" Your form must explicitly address all five NCERT ethical principles. Include a section for parental consent (participants are minors).",
      "a": "A strong answer includes: Title, Researcher details, Purpose (in simple language), Procedures (anonymous online questionnaire, 15 mins), Risks (minimal — mild discomfort reflecting on anxiety), Benefits (contribute to student mental health research), **Voluntary Participation** (explicit \"may withdraw anytime without penalty\"), **Informed Consent** (checkboxes for each procedure, separate student/parent signatures), **Confidentiality** (no names/IPs collected, data encrypted, reported only in aggregates), **Debriefing** (summary emailed post-study, counsellor contact provided), **Sharing Results** (school-level summary shared with principal/participants). Poor answers miss parental consent, use jargon (\"anonymised\"), omit withdrawal rights, or treat debriefing as \"thank you note\" — revealing they see ethics as paperwork, not participant protection.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ethical issues in psychological research refer to the moral principles and guidelines that researchers must follow to protect participants' rights, dignity, and welfare during scientific investigations, encompassing five core principles: voluntary participation, informed consent, debriefing, sharing results, and ______ of data.",
+     "a": "confidentiality",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're asked to join a \"memory study\" where you'll receive mild electric shocks for wrong answers — would you want to know this *before* ______?",
+     "a": "agreeing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can identify specific ethical violations in research scenarios, explain all five NCERT ethical principles with concrete examples, and design a study protocol that addresses each principle with appropriate safeguards.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're asked to join a \"memory study\" where you'll receive mild ______ shocks for wrong answers — would you want to know this *before* agreeing?",
+     "a": "electric",
+     "self_check": true
     }
    ]
   }

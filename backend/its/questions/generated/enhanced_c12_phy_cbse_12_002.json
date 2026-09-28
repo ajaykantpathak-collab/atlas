@@ -34,6 +34,31 @@
      "q": "Design a thought experiment to test whether an electron in a stationary state truly does not radiate. Describe the setup, what you would measure, and how the result would distinguish Bohr's Postulate 1 from classical electrodynamics.",
      "a": "**Expected answer:** Place a single hydrogen atom in a high-Q microwave cavity tuned to the predicted orbital frequency of the \\(n=2\\) state (approx. \\(8 \\times 10^{14}\\,\\text{Hz}\\) — optical, so use an optical cavity). Monitor the cavity for spontaneous photon emission over a time much longer than the classical radiation lifetime (\\(\\sim 10^{-11}\\,\\text{s}\\)). Classical theory predicts continuous radiation at the orbital frequency, causing the electron to spiral down in \\(\\sim 10^{-11}\\,\\text{s}\\). Bohr's Postulate 1 predicts *no* radiation at that frequency; the atom stays in \\(n=2\\) indefinitely until a transition occurs. Detection of zero photons at the orbital frequency (but photons at transition frequencies like Lyman-alpha) confirms Postulate 1.  \n**Poor-answer diagnosis:** A student who suggests \"measure the electron's acceleration\" misses that acceleration alone doesn't prove radiation — the key is detecting the *absence* of radiation at the orbital frequency. Another who says \"use a cloud chamber\" confuses particle tracks with electromagnetic emission.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Bohr's model of the hydrogen atom is based on three ______: (1) Electrons revolve in certain discrete, stable orbits called stationary states without radiating energy, each with a definite total energy.",
+     "a": "postulates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real-world ______: a neon sign glowing with distinct colours (red-orange) while an incandescent bulb emits white light.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "What is Bohr's model of the hydrogen atom? State the definition given in this lesson.",
+     "a": "Bohr's model of the hydrogen atom is based on three postulates: (1) Electrons revolve in certain discrete, stable orbits called stationary states without radiating energy, each with a definite total energy.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Bohr's model of the hydrogen atom is based on three postulates: (______) Electrons revolve in certain discrete, stable orbits called stationary states without radiating energy, each with a definite total energy.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can also explain how the third postulate links energy differences to spectral line frequencies.",
+     "self_check": true
     }
    ]
   }

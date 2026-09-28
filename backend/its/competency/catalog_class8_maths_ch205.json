@@ -20,7 +20,7 @@
     "determine if a given number is the balance point mean of a dataset",
     "show that the sum of distances below the mean equals those above"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,16 @@
      "action": "compare distance sums",
      "explain": "verify that total left distance equals total right distance"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 1 gives 1",
+     "compute": "lines = 1"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hegp.205.5.1.2",
@@ -236,7 +245,7 @@
     "what is the median of data presented in a frequency distribution",
     "how to locate the central value in a frequency table"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -253,7 +262,22 @@
      "action": "find median value",
      "explain": "cumulate frequencies from smallest value up to locate the category matching the central position"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the mean/median/mode definition",
+     "explain": "apply the mean/median/mode definition: total = sum((39, 34, 28, 5, 20)) gives 126",
+     "compute": "total = sum((39, 34, 28, 5, 20))"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 25.2",
+     "compute": "mean = total / 5"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hegp.205.5.1.8",
@@ -270,7 +294,7 @@
     "find the correct formula for average of cells B7 through D7",
     "identify the spreadsheet formula for row totals and column averages"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -287,7 +311,22 @@
      "action": "verify the formula output",
      "explain": "confirm the computed result matches the expected total or average by checking the highlighted cell value"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the mean/median/mode definition",
+     "explain": "apply the mean/median/mode definition: total = sum((38, 9, 16, 4, 14)) gives 81",
+     "compute": "total = sum((38, 9, 16, 4, 14))"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 16.2",
+     "compute": "mean = total / 5"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hegp.205.5.2.1",
@@ -304,7 +343,7 @@
     "what information does a line graph convey about time series data",
     "analyze trends and rate of increase in line graph representations"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -321,7 +360,16 @@
      "action": "compare multiple series and summarize the trend",
      "explain": "when several lines are plotted together, contrast their slopes and peaks to draw comparative conclusions about the data over time"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 3 + 2 + 8 gives 13",
+     "compute": "total = 3 + 2 + 8"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hegp.205.5.2.2",
@@ -338,7 +386,7 @@
     "determine daily routine duration from color coded activity strips",
     "extract qualitative insights from geographical infographics"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -355,7 +403,16 @@
      "action": "summarize the categorical distribution",
      "explain": "combine the per-category durations to describe how time or preference is distributed across the visual strip"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 2 + 2 + 4 gives 8",
+     "compute": "total = 2 + 2 + 4"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

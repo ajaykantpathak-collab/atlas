@@ -32,7 +32,32 @@
     },
     {
      "q": "Design a real-world scenario (Indian context) where you need a list of 7 items, and you must access the 2nd, 5th, and last items using both positive and negative indices. Write the complete Python code with comments explaining each access.",
-     "a": "**Expected answer:**  \n```python",
+     "a": "**Expected answer:**  \n```python\n# Weekly milk delivery in litres for a household\nmilk = [2, 3, 2, 4, 3, 2, 5]  # Mon-Sun\n# 2nd day (Tue): positive index 1, negative index -6\nprint(\"Tue:\", milk[1], milk[-6])\n# 5th day (Fri): positive index 4, negative index -3\nprint(\"Fri:\", milk[4], milk[-3])\n# Last day (Sun): positive index 6, negative index -1\nprint(\"Sun:\", milk[6], milk[-1])\n```  \n**Poor answer reveals:** Using 1-based indices (milk[2] for 2nd), not showing both index types, or choosing a scenario where length isn't fixed (e.g., \"daily expenses\" without specifying 7 days). Indicates inability to construct a meaningful mapping between domain and indices.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A list in Python is an ordered, mutable ______ of elements enclosed in square brackets [] where each element is assigned an integer index starting from 0 (positive indexing) and -1 (negative indexing) allowing individual access via list[index].",
+     "a": "collection",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're building a contact list for your ______ – you need to store names in order and quickly retrieve the 3rd contact or the most recent one.",
+     "a": "phone",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're building a contact list for your phone – you need to store names in order and quickly retrieve the ______rd contact or the most recent one.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can create lists using three different methods (literal, list() constructor, repetition), access any element using both positive and negative indices without IndexError, and explain why list[0] returns the first element while list[-1] returns the last.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're ______ a contact list for your phone – you need to store names in order and quickly retrieve the 3rd contact or the most recent one.",
+     "a": "building",
      "self_check": true
     }
    ]

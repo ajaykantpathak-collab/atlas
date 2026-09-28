@@ -34,6 +34,31 @@
      "q": "Design a hypothetical First Plan allocation for a fictional country with: 65% workforce in agriculture, 55% GDP from agriculture, food deficit of 10%, savings rate 7%, capital-output ratio 3 in agriculture vs 5 in industry. Total outlay: 1000 units. Justify your sectoral split using wage-goods constraint and employment generation per unit capital.",
      "a": "Allocate 50% to agriculture/irrigation, 20% to transport/power (complementary), 15% to industry (consumer goods), 15% to social services. Reasoning: (1) Food deficit 10% → wage-goods constraint binds; agriculture must grow > population growth. (2) Employment elasticity: agriculture ≈ 0.5, industry ≈ 0.2 per unit capital; with 65% workforce in agriculture, labour absorption priority demands agri investment. (3) Capital-output ratio 3 vs 5 → agriculture gives 67% more output per unit capital. (4) Savings 7% → g = 7/3 = 2.3% achievable in agri vs 1.4% in industry. A poor answer splits equally \"for balance\" ignoring that initial conditions (food deficit, labour surplus) make balanced allocation dynamically inconsistent — industry would stall without wage-goods.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The First Five Year Plan (1951-56) was India's inaugural centralised economic plan based on the Harrod-Domar growth model, prioritising agriculture and irrigation with 44.6% of total plan outlay (₹1,960 crore) to address food insecurity, rebuild war-damaged ______, and establish a foundation for self-reliant growth through land reforms, multipurpose river valley projects, and community development programmes.",
+     "a": "infrastructure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're a planner in 1951: India's food grain production is 51 million tonnes for 360 million people, Bengal famine killed 3 million just 8 years ago, and 72% of workforce depends on ______ contributing 59% of GDP.",
+     "a": "agriculture",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Third, you allocate ______% to agriculture/irrigation, launch multipurpose river valley projects (Bhakra-Nangal on Sutlej, Hirakud on Mahanadi, Damodar Valley), and enact land reform laws transferring ownership to tillers.",
+     "a": "44.6",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can calculate sectoral allocation percentages from plan outlay data, explain how land reform legislation translated into productivity gains using the ownership-incentive mechanism, and evaluate why the First Plan's agricultural focus succeeded where colonial policy failed, using GDP composition and occupational structure data.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're a planner in 1951: India's food grain production is 51 million tonnes for 360 million people, Bengal famine killed 3 million just 8 years ago, and 72% of workforce depends on agriculture ______ 59% of GDP.",
+     "a": "contributing",
+     "self_check": true
     }
    ]
   }

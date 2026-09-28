@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_eco_ch3_5",
+ "concepts": [
+  {
+   "id": "enh:c9_eco_ch3_5",
+   "title": "c9_eco_ch3_5",
+   "questions": [
+    {
+     "q": "What is the term for the uncertainty of outcomes when pursuing a new idea or innovation?",
+     "a": "Risk. A wrong answer like \"failure\" shows the student confuses the potential negative outcome with the uncertainty itself; risk is the possibility of loss or failure, not failure itself.",
+     "self_check": true
+    },
+    {
+     "q": "Why might an entrepreneur continue to innovate even after experiencing failure in a previous venture?",
+     "a": "Because failure provides valuable feedback about what doesn’t work, helping refine future ideas. A wrong answer like \"because they enjoy losing money\" reveals a misunderstanding that failure is desirable in itself, rather than recognizing it as a source of learning critical for improving innovation.",
+     "self_check": true
+    },
+    {
+     "q": "A startup in Bengaluru develops a solar-powered irrigation pump priced at ₹15,000. After six months, only 20 units are sold against a target of 200. The founders conduct a survey and find that 70% of farmers said the price was too high. If the startup reduces the price to ₹12,000 and expects sales to triple, what will be the new expected sales volume?",
+     "a": "STEP 1: Identify current sales and target – 20 sold, target 200.  \nSTEP 2: Note the feedback – 70% cited high price as barrier.  \nSTEP 3: Price reduced from ₹15,000 to ₹12,000 (a 20% decrease).  \nSTEP 4: Founders expect sales to triple current volume.  \nSTEP 5: 20 × 3 = 60 units.  \nANSWER: 60 units.  \nA wrong answer like 200 shows the student ignored the feedback and assumed the original target would be met, failing to apply the lesson from failure (price sensitivity) to adjust expectations.",
+     "self_check": true
+    },
+    {
+     "q": "Two startups both fail after launching food delivery apps. Startup A blames the failure on bad luck and closes down. Startup B analyzes customer feedback, finds users wanted more regional language options, and relaunches with improved features. Which startup is more likely to succeed in the long term, and why?",
+     "a": "Startup B is more likely to succeed because it treats failure as a learning opportunity and adapts its innovation based on user feedback. A wrong answer choosing Startup A reveals the misconception that failure means the idea was fundamentally bad, ignoring that iterative improvement after failure is key to successful innovation in real markets.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Government should only fund startups that are guaranteed to succeed, to avoid wasting public money.\"",
+     "a": "The statement is flawed because innovation inherently involves risk and uncertainty—no outcome can be guaranteed. If only \"sure-success\" startups were funded, truly novel ideas (which often fail initially) would never get support. Public funding should aim to foster a culture of experimentation where failure is expected and learned from, as seen in schemes like Startup India that support early-stage ventures despite high failure rates. A wrong answer agreeing with the statement shows a failure to understand that risk and failure are necessary parts of the innovation process, not signs of waste.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple two-step plan for a student who wants to innovate a solution to reduce plastic waste in their school but is afraid of failing.",
+     "a": "Step 1: Start small—create a prototype using recycled materials for one classroom and gather feedback from peers and teachers.  \nStep 2: Use the feedback to improve the design, then scale to other classes only after testing.  \nA poor answer that says \"just don’t try\" or \"wait until you’re sure it will work\" reveals a misunderstanding that innovation requires perfection before action, ignoring that small-scale testing and learning from early attempts are essential to managing risk and improving innovation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

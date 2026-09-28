@@ -34,6 +34,26 @@
      "q": "Create a scenario using a thermometer where a temperature change results in an additive inverse outcome.",
      "a": "If the temperature is 5°C and it drops by 5 degrees, we reach 0°C. An answer failing to use the \"drop\" or \"increase\" concept shows the student isn't connecting the inverse operation to a change in state or measurement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ inverse of an integer is another integer that, when added to the original, results in a sum of zero.",
+     "a": "additive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at the ground floor (Floor 0) of a ______ and you take the elevator up 3 floors.",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You would need to press a button to go down ______ floors.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify the additive inverse of any given integer, verify it using the addition rule, and explain why the sum equals zero in a real-world context like a lift moving between floors.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a constant-pressure experiment to determine ΔH for the neutralisation HCl(aq) + NaOH(aq) → NaCl(aq) + H₂O(l) using only a thermometer, polystyrene cup, and standard solutions. Explain why ΔH ≈ ΔU for this reaction, and identify one systematic error that would make |ΔH| appear smaller than true value.",
      "a": "Experiment: Mix known volumes of 1M HCl and 1M NaOH in insulated cup, measure ΔT. q_p = (total mass)×c×ΔT = ΔH (constant p, negligible volume change). ΔH ≈ ΔU because Δn_g = 0 (no gases) and Δ(pV) ≈ 0 for condensed phases. Systematic error: heat loss to surroundings (cup not perfectly adiabatic) → smaller ΔT → smaller |q_p| → |ΔH| underestimated. Good answer shows understanding of constant-p setup, condensed-phase approximation, and error analysis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Enthalpy (H) is a ______ state function defined as the sum of a system's internal energy (U) and the product of its pressure (p) and volume (V): H = U + pV.",
+     "a": "thermodynamic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a pressure cooker whistling in an Indian kitchen — steam escapes at ______ atmospheric pressure while the dal cooks.",
+     "a": "constant",
+     "self_check": true
+    },
+    {
+     "q": "What is Enthalpy (H)? State the definition given in this lesson.",
+     "a": "Enthalpy (H) is a thermodynamic state function defined as the sum of a system's internal energy (U) and the product of its pressure (p) and volume (V): H = U + pV.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Enthalpy (H)?",
+     "a": "Students treat ΔH = ΔU + Δn_gRT as universally valid without checking: (1) all species are ideal gases, (2) temperature is constant, (3) Δn_g counts ONLY gaseous stoichiometric coefficients.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can derive the relationship ΔH = ΔU + Δn_gRT for gaseous reactions, calculate ΔH from ΔU (and vice versa) given stoichiometric data, and explain why ΔH = q_p only at constant pressure while identifying when ΔH ≈ ΔU for condensed-phase reactions.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,51 @@
+{
+ "catalog": "enhanced_c7_gram_cbse_80_001",
+ "concepts": [
+  {
+   "id": "enh:c7_gram_cbse_80_001",
+   "title": "c7_gram_cbse_80_001",
+   "questions": [
+    {
+     "q": "Phrase or clause: 'under the tall banyan tree' vs 'when the rain stopped'.",
+     "a": "First = phrase (no subject-verb). Second = dependent clause (subject 'rain', verb 'stopped', leaning word 'when'). A wrong answer swapping them shows the student tests by length, not structure.",
+     "self_check": true
+    },
+    {
+     "q": "'Because she practised daily' — complete sentence or not?",
+     "a": "Not — 'because' makes the clause lean on a missing main clause. Complete: 'She won because she practised daily.' A wrong answer accepting it alone shows the dependent-fragment error.",
+     "self_check": true
+    },
+    {
+     "q": "How many clauses: 'The sun set, and the birds flew home.'",
+     "a": "Two independent clauses joined by 'and'. A wrong answer 'one' shows the student counts sentences, not subject-verb pairs.",
+     "self_check": true
+    },
+    {
+     "q": "A phrase is a word-group with no ______ pair ('in the morning').",
+     "a": "subject-verb",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ is a group of words with its own subject and verb.",
+     "a": "clause",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The subject-verb test decides everything: 'after the match ended' — subject 'match', verb 'ended' → ______. 'after the match' — no verb → phrase.",
+     "a": "clause",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student separates phrases from clauses and independent from dependent clauses, and explains why 'when the bell rang' alone is incomplete.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The subject-verb test decides ______: 'after the match ended' — subject 'match', verb 'ended' → clause. 'after the match' — no verb → phrase.",
+     "a": "everything",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

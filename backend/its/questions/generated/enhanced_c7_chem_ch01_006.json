@@ -34,6 +34,31 @@
      "q": "Design a quick classroom test using a 9V battery, an LED bulb, and connecting wires to distinguish between a powdered sample of iron filings and a powdered sample of sulfur. Describe what you would observe and conclude.",
      "a": "The student should describe placing the two powders in separate small testing dishes or cups and bridging the circuit wires into the powder. For iron filings, the LED bulb will glow because iron is a metal conductor. For sulfur, the LED bulb will not glow because sulfur is a non-metal insulator. A poor answer would suggest mixing them together or failing to connect the circuit properly, showing a lack of experimental design skills.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Metals are good conductors of ______, allowing electric current to pass through them easily due to the presence of free-moving electrons, whereas most non-metals (with the exception of graphite) are poor conductors or insulators.",
+     "a": "electricity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you look at the plastic-coated copper wires plugged into a wall socket in an Indian home, you are seeing two distinct ______ working together: copper inside and plastic outside.",
+     "a": "materials",
+     "self_check": true
+    },
+    {
+     "q": "What is Metals? State the definition given in this lesson.",
+     "a": "Metals are good conductors of electricity, allowing electric current to pass through them easily due to the presence of free-moving electrons, whereas most non-metals (with the exception of graphite) are poor conductors or insulators.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Metals?",
+     "a": "Students often believe that all solid non-metals are insulators under all conditions, completely forgetting about graphite.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Students can correctly classify given materials as conductors or insulators of electricity, explain why metals conduct electric current based on their internal structure, and predict the suitability of a metal or non-metal for an electrical application in a circuit.",
+     "self_check": true
     }
    ]
   }

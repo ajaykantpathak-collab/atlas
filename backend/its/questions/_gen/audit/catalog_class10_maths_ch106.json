@@ -42,9 +42,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 3 * 9 + 6"
-   ]
+   "steps_chain": []
   },
   {
    "id": "jemh.106.3.1",
@@ -130,9 +128,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "t1 = 12 / 6"
-   ]
+   "steps_chain": []
   },
   {
    "id": "jemh.106.4.1",
@@ -175,9 +171,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "other = 90 - 10"
-   ]
+   "steps_chain": []
   },
   {
    "id": "jemh.106.4.2",
@@ -220,9 +214,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "third = 180 - 56 - 55"
-   ]
+   "steps_chain": []
   },
   {
    "id": "jemh.106.4.3",
@@ -265,9 +257,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "other = 90 - 40"
-   ]
+   "steps_chain": []
   },
   {
    "id": "jemh.106.4.4",

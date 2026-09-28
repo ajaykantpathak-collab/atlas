@@ -34,6 +34,31 @@
      "q": "Design a dictionary to represent a student's report card for Term 1 that can store: subject names, marks (out of 100), letter grades (A1, A2, B1...), and teacher remarks. The structure must allow easy retrieval of all data for one subject and easy calculation of average marks. Justify your key choice.",
      "a": "```python\nreport = {\n    \"math\": {\"marks\": 95, \"grade\": \"A1\", \"remark\": \"Excellent\"},\n    \"science\": {\"marks\": 88, \"grade\": \"A2\", \"remark\": \"Good\"},\n    \"english\": {\"marks\": 92, \"grade\": \"A1\", \"remark\": \"Very Good\"}\n}\n```\nKeys = subject names (strings) — immutable, meaningful, unique. Values = nested dictionaries for structured data. Average = `sum(v[\"marks\"] for v in report.values()) / len(report)`. If a student uses a list of dictionaries `[{\"subject\": \"math\", ...}]`, they lose O(1) subject-wise access and complicate average calculation — showing they haven't internalized *key-based design*.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ in Python is an unordered, mutable collection of key-value pairs where each unique key maps to exactly one value, enabling fast lookup, insertion, and deletion based on keys rather than numeric indices.",
+     "a": "dictionary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to store the ______ numbers of 50 students.",
+     "a": "contact",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to store the contact numbers of ______ students.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the key-value pair concept, identify valid and invalid key types, distinguish dictionaries from lists/tuples, and write code to create an empty dictionary and a dictionary with initial key-value pairs.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you need to store the contact numbers of 50 students.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

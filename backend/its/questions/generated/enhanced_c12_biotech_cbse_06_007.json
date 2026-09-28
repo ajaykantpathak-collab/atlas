@@ -34,6 +34,31 @@
      "q": "Design a 7-day subculture protocol for a newly established *Taxus baccata* (yew) suspension culture to maximize paclitaxel (Taxol) precursor (baccatin III) production. Specify: (i) inoculum density (PCV/mL), (ii) medium modifications from standard MS, (iii) harvest day based on growth phase, and (iv) one elicitor addition strategy. Justify each choice.",
      "a": "**Expected criteria for a good answer:**  \n1. **Inoculum density:** 10–15% PCV (e.g., 10 mL settled cells into 90 mL fresh medium) — too low → long lag; too high → early stationary.  \n2. **Medium modifications:** Reduce NH₄⁺ (use nitrate-only), add 5% sucrose (carbon sink for terpenoids), supplement with 0.1 mg/L NAA + 0.05 mg/L BA (maintains dedifferentiation), add 100 mg/L casein hydrolysate (nitrogen/organic).  \n3. **Harvest day:** Day 5–6 (late exponential/early stationary) — secondary metabolites peak when growth slows (idiophase).  \n4. **Elicitor:** Add 100 µM methyl jasmonate (MeJA) on Day 3 (mid-exponential) for 48 h — induces terpenoid pathway genes.  \n**Poor answer:** \"Use MS medium, harvest Day 7, no elicitor\" — reveals no understanding of metabolic shift from primary to secondary metabolism or elicitation timing.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cell suspension culture is a plant tissue culture system where friable callus tissue is transferred to liquid nutrient medium and maintained under continuous agitation (typically 80–150 rpm on an orbital shaker) to disperse cells into single cells and small aggregates, enabling homogeneous growth, easy ______, and scalable biomass or secondary metabolite production.",
+     "a": "subculturing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a friable callus of *______ roseus* (source of anticancer alkaloids) on solid MS medium with 2,4-D.",
+     "a": "Catharanthus",
+     "self_check": true
+    },
+    {
+     "q": "What is Cell suspension culture? State the definition given in this lesson.",
+     "a": "Cell suspension culture is a plant tissue culture system where friable callus tissue is transferred to liquid nutrient medium and maintained under continuous agitation (typically 80–150 rpm on an orbital shaker) to disperse cells into single cells and small aggregates, enabling homogeneous growth, easy subculturing, and scalable biomass.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You place it on a shaker at ______ rpm — but why that speed?",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) describe the step-by-step protocol to establish a suspension culture from friable callus, including media modifications and agitation parameters, and (2) calculate specific growth rate (µ) and doubling time (td) from cell count or packed cell volume (PCV) data, interpreting which growth phase the culture.",
+     "self_check": true
     }
    ]
   }

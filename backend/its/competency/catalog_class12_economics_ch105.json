@@ -20,7 +20,7 @@
     "What does Tao Ying mean by carrying an audience with her wherever she goes?",
     "Analyze how Tao Ying's desire to be an ideal mother affects her daily choices."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,16 @@
      "action": "Connect behavior to self-worth",
      "explain": "Acting graciously and setting a moral example elevates her sense of self-worth and dignity."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "exemplary_behavior = parent_actions + moral_consistency",
+     "compute": "exemplary_behavior = parent_actions + moral_consistency"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lekl.105.2",
@@ -122,7 +131,7 @@
     "How did the old woman's inaccurate scale create a conflict between Tao Ying and her son?",
     "Why did Xiao Ye trust the old woman's scale over his mother's word?"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -139,7 +148,16 @@
      "action": "Analyze the psychological impact",
      "explain": "This commercial deception made Xiao Ye believe his mother was lying to save money, destroying his trust in her."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "measured_height = actual_height + flattering_bias",
+     "compute": "measured_height = actual_height + flattering_bias"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lekl.105.5",
@@ -156,7 +174,7 @@
     "What was the ultimate vindication that Tao Ying sought from the temple officials?",
     "How does the ending of the story highlight the importance of maternal dignity?"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -173,7 +191,16 @@
      "action": "Explain the refusal of material compensation",
      "explain": "Tao Ying rejected money and tickets, requesting instead that the officials explain the truth to her son to restore his trust."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "vindication = truth_acknowledgment + restored_trust",
+     "compute": "vindication = truth_acknowledgment + restored_trust"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lekl.105.6",
@@ -258,7 +285,7 @@
     "How does the author portray the economic reality of blue-collar workers in China?",
     "What does Tao Ying's refusal of the five-dollar refund show about her character?"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -275,7 +302,16 @@
      "action": "Contrast frugality with her sense of honor",
      "explain": "Despite her poverty, she refuses to lie, cheat, or accept material compensation that compromises her dignity or her son's trust."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "dignity_maintenance = ethical_integrity - economic_opportunism",
+     "compute": "dignity_maintenance = ethical_integrity - economic_opportunism"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lekl.105.9",
@@ -303,16 +339,19 @@
    ],
    "worked_examples": [
     {
-     "question": "Using Height Deficit for Ticketing, compute the result for threshold = 3, child_height = 3.",
-     "solution": "Step 1: Identify the threshold and child's height: deficit = threshold - child_height = 0.0 Final result: 0.0",
-     "answer": "0.0"
-    },
-    {
-     "question": "Using Height Deficit for Ticketing, compute the result for threshold = 4, child_height = 4.",
-     "solution": "Step 1: Identify the threshold and child's height: deficit = threshold - child_height = 0.0 Final result: 0.0",
-     "answer": "0.0"
+     "concept": "lekl.105.9",
+     "question_pattern": "Calculate the height deficit if the threshold is {threshold} cm and the child's height is {child_height} cm"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "deficit = threshold - child_height",
+     "compute": "deficit = threshold - child_height"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

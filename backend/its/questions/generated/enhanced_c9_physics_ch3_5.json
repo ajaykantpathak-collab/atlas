@@ -34,6 +34,21 @@
      "q": "Design a simple classroom experiment using two spring balances, a string, and two students to demonstrate Newton's Third Law. Describe the setup, what each student does, what the spring balances read, and how this proves the law.",
      "a": "**Setup:** Hook two spring balances together in series. Student A holds one end, Student B holds the other. Both pull horizontally.\n**Action:** Both students pull gently, then harder.\n**Observation:** Both spring balances show **identical readings** at all times (e.g., both read 10 N, then both read 20 N).\n**Proof:** Balance A measures force of Student A on string (action). Balance B measures force of string on Student B (reaction). Identical readings confirm equal magnitude. Opposite directions are evident from the pulls. A poor answer (e.g., using only one balance, or expecting different readings) reveals the student doesn't grasp that the interaction is symmetric and simultaneous.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Newton's Third Law of Motion states that for every action force exerted by object A on object B, there is an equal and ______ reaction force exerted by object B on object A.",
+     "a": "opposite",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a student pushing against a wall while standing on a ______: the student rolls backward.",
+     "a": "skateboard",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify action-reaction pairs in a given physical situation (e.g., a book on a table, a rocket launch, walking) and explain why the forces do not cancel each other out.",
+     "self_check": true
     }
    ]
   }

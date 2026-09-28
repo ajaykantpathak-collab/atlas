@@ -34,6 +34,36 @@
      "q": "Design a community-level preparedness map for a village 2 km downwind of a chlorine-tonner storage depot. List four map layers (with data sources) and one actionable protocol the map enables.",
      "a": "Layers: (1) Hazard footprint — ALOHA/CAMEO dispersion modeling output for worst-case chlorine release (source: depot's on-site emergency plan); (2) Vulnerable population — households with elderly, children, respiratory patients (source: ASHA/ANM health registers, Gram Panchayat survey); (3) Evacuation routes & assembly points — road network, community halls, schools (source: PMGSY maps, GP records); (4) Early warning sirens & communication nodes — siren coverage radius, mobile network dead zones (source: depot safety audit, TRAI coverage maps). Protocol enabled: \"Siren pattern 'wavering tone' → shelter-in-place (seal doors/windows, wet cloth over nose) for 15 min → if 'steady tone' sounds, evacuate perpendicular to wind via Route B to School Hall.\" A poor map omits wind rose data or assumes all roads are usable during monsoon flooding.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Human-made industrial disasters are catastrophic events resulting from technological or industrial failures, hazardous material releases, or systemic safety lapses in manufacturing, processing, or energy facilities, causing widespread harm to human health, ecosystems, and ______.",
+     "a": "infrastructure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with the Bhopal gas tragedy (1984) — a name every Indian student recognises — and ask: \"Why did methyl ______ leak from a pesticide plant in the heart of a city?\" This hooks the learner to a real, emotionally resonant event.",
+     "a": "isocyanate",
+     "self_check": true
+    },
+    {
+     "q": "What is Human-made industrial disasters? State the definition given in this lesson.",
+     "a": "Human-made industrial disasters are catastrophic events resulting from technological or industrial failures, hazardous material releases, or systemic safety lapses in manufacturing, processing, or energy facilities, causing widespread harm to human health, ecosystems, and infrastructure.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with the Bhopal gas tragedy (______) — a name every Indian student recognises — and ask: \"Why did methyl isocyanate leak from a pesticide plant in the heart of a city?\" This hooks the learner to a real, emotionally resonant event.",
+     "a": "1984",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Human-made industrial disasters?",
+     "a": "Students conflate \"industrial pollution\" (chronic, diffuse, long-term degradation) with \"industrial disaster\" (acute, discrete, high-consequence event).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) classify industrial disasters by causative agent (chemical, radiological, thermal, mechanical) and scale (on-site vs off-site impact), (2) explain the spatial distribution of industrial hazard zones in India using locational factors (raw material, transport, labor, policy), (3) evaluate the effectiveness of India's.",
+     "self_check": true
     }
    ]
   }

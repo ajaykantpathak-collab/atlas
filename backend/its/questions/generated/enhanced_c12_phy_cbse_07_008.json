@@ -34,6 +34,21 @@
      "q": "Design a simple experiment to demonstrate LC oscillations using a capacitor, an inductor, a DC source, a switch, and an oscilloscope (or a galvanometer with a high-frequency response). Describe the procedure, what you would observe on the oscilloscope, and how you would verify the formula $\\omega = 1/\\sqrt{LC}$.",
      "a": "**Procedure:** (1) Charge capacitor $C$ using DC source via switch. (2) Open switch to disconnect source. (3) Immediately close switch to connect $C$ across $L$. (4) Observe voltage across $C$ on oscilloscope. **Observation:** Damped sinusoidal voltage waveform. Measure period $T$ from zero crossings; compute $\\omega_{exp} = 2\\pi/T$. **Verification:** Repeat with different $C$ or $L$ values; plot $\\omega_{exp}$ vs $1/\\sqrt{LC}$ — should be a straight line through origin with slope 1. A poor answer would omit the need to disconnect the DC source before connecting to $L$, or would not mention measuring period from the oscilloscope trace.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: LC ______ are the periodic exchange of energy between a capacitor (storing electrical energy in its electric field) and an inductor (storing magnetic energy in its magnetic field) in an ideal LC circuit with zero resistance.",
+     "a": "oscillations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a tuning fork vibrating in air — it ______ at a natural frequency determined by its stiffness and mass.",
+     "a": "oscillates",
+     "self_check": true
+    },
+    {
+     "q": "What is LC oscillations? State the definition given in this lesson.",
+     "a": "LC oscillations are the periodic exchange of energy between a capacitor (storing electrical energy in its electric field) and an inductor (storing magnetic energy in its magnetic field) in an ideal LC circuit with zero resistance.",
+     "self_check": true
     }
    ]
   }

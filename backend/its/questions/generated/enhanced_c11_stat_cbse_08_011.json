@@ -34,6 +34,26 @@
      "q": "Design a mini-research project to quantify the \"outlet substitution bias\" in your city's CPI. Outline: (a) hypothesis, (b) data sources, (c) method to isolate this bias from other limitations, (d) expected policy implication.",
      "a": "Expected answer: (a) Hypothesis: CPI overstates inflation because it samples prices from traditional retail outlets while consumers increasingly buy from cheaper online platforms. (b) Data: CPI price quotes (secondary) + primary survey of 200 households tracking identical items across online/offline for 6 months. (c) Method: Construct a matched-model index for 50 items using both outlet types; difference = outlet substitution bias. Control for quality by matching exact SKUs. (d) Policy: If bias >0.5% annually, statistical office should expand price collection to online platforms. A poor answer (e.g., \"compare CPI with WPI\") shows inability to design a targeted isolation of one specific limitation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of index numbers refer to the inherent constraints and potential sources of error that prevent index numbers from being perfect measures of relative changes in economic variables over time or across regions, including issues like base year selection bias, weighting rigidity, quality change neglect, and aggregation problems.",
+     "a": "Limitations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you read in the newspaper that \"CPI ______ is 5%\" but your household expenses feel like they've risen by 15%.",
+     "a": "inflation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can identify and explain at least five distinct limitations of index numbers with concrete economic examples, and evaluate how each limitation affects the interpretation of a given index number (e.g., CPI, WPI) in a real-world policy context.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you read in the ______ that \"CPI inflation is 5%\" but your household expenses feel like they've risen by 15%.",
+     "a": "newspaper",
+     "self_check": true
     }
    ]
   }

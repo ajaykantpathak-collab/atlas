@@ -34,6 +34,36 @@
      "q": "Design a field protocol to estimate the population density of Indian bullfrogs (Hoplobatrachus tigerinus) in a 2-hectare seasonal wetland during monsoon. Specify: (i) method choice with justification, (ii) sampling design (number/size of units), (iii) how you will handle the \"closed population\" assumption, (iv) one major source of bias and how to minimise it.",
      "a": "(i) Mark-recapture using toe-clipping or PIT tags — frogs are mobile, nocturnal, and hide in vegetation, making quadrats unreliable. (ii) Capture 50–100 frogs over 3 nights (marking each), release; after 5–7 days for mixing, recapture 50–100 over 3 nights. Use Lincoln-Petersen with Chapman correction for small samples. (iii) Conduct study within a single breeding season (2–3 weeks) when population is relatively closed; avoid periods of mass metamorphosis or dispersal. (iv) Bias: Trap-happy or trap-shy behaviour. Minimise by using multiple capture methods (hand-capture, funnel traps) and not re-using the same trap locations. A poor answer that suggests quadrat sampling for frogs or ignores the closed-population assumption reveals the student cannot match method to organism ecology — a skill tested in NEET practical-based questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Population attributes are statistical ______ that describe a population's size, structure, and dynamics.",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a wildlife ______ in Kaziranga National Park tasked with estimating the one-horned rhinoceros population.",
+     "a": "researcher",
+     "self_check": true
+    },
+    {
+     "q": "What is Population attributes? State the definition given in this lesson.",
+     "a": "Population attributes are statistical characteristics that describe a population's size, structure, and dynamics.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Birth rate (natality) is the number of live births per unit population per unit time, typically expressed per ______ individuals per year.",
+     "a": "1000",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Population attributes?",
+     "a": "Students often think \"population density\" always means \"number of individuals per unit area\" and apply it uniformly.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can calculate population density using appropriate methods (direct count, quadrat, mark-recapture) for given scenarios, distinguish between crude and specific birth/death rates, and explain how these attributes collectively determine population growth trajectory with correct units and biological reasoning.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Create a new revaluation scenario for admission of a partner where:  \n- There is at least one unrecorded asset  \n- There is at least one unrecorded liability  \n- The net result is a **loss**  \nWrite the full Revaluation Account and show the transfer to old partners X and Y (old ratio 5:3). Use realistic Indian rupee amounts.",
      "a": "**Sample scenario (student may create variations):**  \n- Unrecorded asset: Old furniture valued at ₹12,000  \n- Unrecorded liability: Outstanding rent ₹8,000  \n- Machinery depreciated by ₹25,000  \n- Building appreciated by ₹10,000  \n\n**Revaluation Account**  \n| Dr. | | Cr. |  \n| --- | --- | --- |  \n| To Machinery A/c | 25,000 | By Furniture A/c (unrecorded) | 12,000 |  \n| To Outstanding Rent A/c | 8,000 | By Building A/c | 10,000 |  \n| To Loss transferred to: | | | |  \n|   X’s Capital (5/8 × 11,000) | 6,875 | | |  \n|   Y’s Capital (3/8 × 11,000) | 4,125 | | |  \n| **Total** | **33,000** | **Total** | **33,000** |  \n\n**Net Loss = ₹11,000** (25,000 + 8,000 – 12,000 – 10,000)  \n**Criteria for good answer:** Correct identification of debit/credit for each item, correct net loss, correct old ratio sharing. A poor answer will misclassify unrecorded items or use new ratio.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Revaluation Account is a nominal account prepared at the time of ______ of a partnership firm (admission, retirement, or death) to record the effect of revaluing assets and liabilities to their current market values.",
+     "a": "reconstitution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family decides to bring in a new ______ to your small bakery business.",
+     "a": "partner",
+     "self_check": true
+    },
+    {
+     "q": "What is Revaluation Account? State the definition given in this lesson.",
+     "a": "Revaluation Account is a nominal account prepared at the time of reconstitution of a partnership firm (admission, retirement, or death) to record the effect of revaluing assets and liabilities to their current market values.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Revaluation Account?",
+     "a": "Misconception: “Unrecorded assets are credited to Revaluation Account and unrecorded liabilities are debited.” Why students make this error: They memorise “credit for increase, debit for decrease” without understanding what is increasing.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently prepare a Revaluation Account from given adjustments, pass correct journal entries for each adjustment, and transfer the net profit/loss to old partners' capital accounts in the old ratio — all without referring to notes.",
+     "self_check": true
     }
    ]
   }

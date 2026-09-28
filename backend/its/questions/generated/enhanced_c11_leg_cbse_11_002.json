@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_11_002",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_11_002",
+   "title": "c11_leg_cbse_11_002",
+   "questions": [
+    {
+     "q": "What is the constitutional basis for the Supreme Court's power to issue writs for enforcement of fundamental rights, and how does it differ from the High Court's writ jurisdiction in terms of scope and discretion?",
+     "a": "The Supreme Court's writ jurisdiction derives from **Article 32** (a fundamental right itself — Court *cannot* refuse to entertain a petition), while High Courts exercise writ jurisdiction under **Article 226** (not a fundamental right — Court *may* refuse). Article 32 is limited to fundamental rights enforcement; Article 226 covers fundamental rights *and* \"any other purpose\" (ordinary legal rights). A wrong answer (e.g., \"both are identical\" or \"High Court has wider scope\") reveals confusion between the *mandatory* nature of Article 32 vs. *discretionary* Article 226, and the narrower *purpose* of Article 32.",
+     "self_check": true
+    },
+    {
+     "q": "A person is arrested for an offence punishable with 5 years imprisonment. The police file a chargesheet after 60 days. The accused applies for statutory bail under Section 167(2) CrPC. Will the bail be granted? Explain the legal reasoning.",
+     "a": "Yes, bail **must** be granted. Section 167(2) CrPC mandates \"default bail\" if investigation is not completed within 90 days for offences punishable with death/imprisonment for life/imprisonment ≥10 years, or **60 days for all other offences**. Here, the offence carries 5 years (<10 years), so the 60-day limit applies. Since chargesheet was filed *after* 60 days, the accused has an *indefeasible right* to bail. A wrong answer (e.g., \"bail is discretionary\" or \"90 days applies\") shows misunderstanding of the *mandatory* nature of statutory bail and the offence-based time thresholds in Section 167(2).",
+     "self_check": true
+    },
+    {
+     "q": "In a civil suit, the plaintiff files a case in Court A for breach of contract. While the suit is pending, the plaintiff files a second suit in Court B for damages arising from the *same breach*. Court B stays the second suit. Which CPC provision applies, and what happens to the second suit after Court A decides the first?",
+     "a": "**Section 10 CPC (Res sub judice)** applies — it bars a second suit between same parties on same cause of action *pending* in a competent court. The second suit is **stayed**, not dismissed. After Court A decides the first suit, the second suit becomes barred by **Section 11 CPC (Res judicata)** — the matter is now \"finally decided.\" A wrong answer (e.g., \"second suit is dismissed immediately\" or \"Res judicata applies from the start\") confuses *pendency* (Res sub judice) with *finality* (Res judicata) and their procedural consequences.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the constitutional safeguards for judicial independence of Supreme Court judges vs. subordinate court judges. Why are the safeguards stronger for the higher judiciary?",
+     "a": "Supreme Court judges enjoy: (1) **Security of tenure** — removal only by impeachment (special majority in Parliament, Art. 124(4)); (2) **Salaries charged on Consolidated Fund** (non-votable); (3) **No legislative discussion on conduct** (Art. 121); (4) **Post-retirement bar** on practice in any Indian court. Subordinate judges (District Judges) are appointed by the Governor in consultation with the High Court (Art. 233), removable by the Governor, and their service conditions are state-regulated. Stronger safeguards for higher judiciary exist because they **interpret the Constitution, review legislative/executive actions, and check majoritarian excesses** — requiring insulation from political pressure. A wrong answer (e.g., \"same safeguards apply\" or \"subordinate judges have more protection\") misses the *functional rationale*: higher courts bear the ultimate burden of constitutional guardianship.",
+     "self_check": true
+    },
+    {
+     "q": "The Supreme Court in *Kesavananda Bharati* (1973) held that Parliament cannot amend the \"basic structure\" of the Constitution. Evaluate whether this doctrine strengthens or weakens judicial independence, considering the Court's power to *define* what constitutes basic structure.",
+     "a": "It **strengthens** judicial independence by making the Court the *final arbiter* of constitutional identity — preventing legislative majorities from dismantling core features (democracy, secularism, judicial review, federalism). However, it *concentrates* immense power in the judiciary (unelected judges defining unamendable provisions). The doctrine is a **double-edged safeguard**: it protects the Constitution from majoritarian capture but risks judicial overreach if \"basic structure\" expands unboundedly. A weak answer (e.g., \"it only strengthens\" or \"it weakens because judges are unelected\") fails to weigh *both* the protective function against legislative tyranny *and* the democratic legitimacy concern of judicial self-aggrandizement.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a hypothetical scenario where a High Court *refuses* to entertain a writ petition under Article 226 despite a clear fundamental rights violation, and justify the refusal using established judicial principles.",
+     "a": "**Scenario**: A detained person files *habeas corpus* in High Court alleging illegal arrest. The High Court refuses because: (1) **Alternative remedy exists** — the person could approach the Sessions Court for bail under Section 439 CrPC; (2) **Delay/laches** — petition filed 2 years after arrest without explanation; (3) **Disputed facts** — arrest legality requires evidence recording (witnesses, documents), unsuitable for summary writ jurisdiction. **Justification**: Article 226 is *discretionary*; courts refuse where alternative efficacious remedy exists (*Khatri v. State of Bihar*), inordinate delay prejudices respondent, or facts are contested (*State of UP v. Rajesh Gautam*). A poor answer (e.g., \"High Court can never refuse\" or \"refusal is arbitrary\") ignores the *well-settled discretionary grounds* limiting Article 226 despite fundamental rights violation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

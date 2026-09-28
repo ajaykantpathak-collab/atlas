@@ -34,6 +34,36 @@
      "q": "Design a strategy to produce an edible vaccine for a novel viral antigen (e.g., SARS-CoV-2 RBD) in lettuce, addressing: (a) vector design for high expression and correct folding, (b) choice of plant tissue and harvest time, (c) method to ensure consistent dosing without purification, (d) one preclinical test to confirm immunogenicity.",
      "a": "(a) Use a plant-optimized codon RBD gene fused to a carrier (e.g., CTB) for mucosal targeting, under a strong inducible promoter (e.g., estrogen-inducible) to avoid metabolic burden; include ER-retention signal (KDEL) to enhance stability and reduce glycosylation complexity. (b) Express in leaves (high biomass, uniform), harvest at fixed developmental stage (e.g., 6-week rosette). (c) Lyophilize (freeze-dry) leaves into standardized powder capsules — converts variable fresh weight to fixed antigen dose per capsule. (d) Oral gavage in mice → measure fecal IgA and serum IgG against RBD, plus viral neutralization assay. A poor answer suggests \"just feed lettuce leaves\" without addressing folding, glycosylation, or dose standardization — missing the bioprocess engineering depth required at this level.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Edible vaccines are subunit vaccines produced by ______ selected genes encoding antigenic proteins into plants via genetic engineering, enabling the plant to express the antigen in its edible tissues (fruits, tubers, leaves); upon oral consumption, the plant-derived antigen is delivered to gut-associated lymphoid tissue (GALT) to induce both mucosal (secretory IgA) and systemic (IgG) immune responses without the need for needles, adjuvants, or cold-chain storage.",
+     "a": "introducing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a child in a remote Indian village getting vaccinated against ______ B by simply eating a banana — no syringe, no nurse, no refrigerator needed.",
+     "a": "hepatitis",
+     "self_check": true
+    },
+    {
+     "q": "What is Edible vaccines? State the definition given in this lesson.",
+     "a": "Edible vaccines are subunit vaccines produced by introducing selected genes encoding antigenic proteins into plants via genetic engineering, enabling the plant to express the antigen in its edible tissues (fruits, tubers, leaves); upon oral consumption, the plant-derived antigen is delivered to gut-associated lymphoid tissue (GALT) to.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now ask: *Can we turn a plant into a bioreactor that makes this antigen in its fruit?* Walk through the pipeline: isolate antigen gene → clone into plant expression vector (e.g., CaMV ______S promoter) → transform *Agrobacterium* → infect plant tissue (leaf disc, embryogenic callus) → select transgenic cells → regenerate whole plant → confirm antigen expression (Western blot, ELISA) → test immunogenicity in animal models.",
+     "a": "35",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Edible vaccines?",
+     "a": "Students believe edible vaccines are simply \"plants expressing antigens that you eat\" and assume the plant's natural glycosylation is identical to humans.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the molecular mechanism of edible vaccine action (from gene insertion to immune induction), describe the step-by-step plant-based production pipeline (vector design, transformation, regeneration, expression analysis), and critically evaluate advantages (needle-free, low cost, heat stability) versus limitations (dosage.",
+     "self_check": true
     }
    ]
   }

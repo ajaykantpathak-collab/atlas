@@ -34,6 +34,21 @@
      "q": "Design a scenario where you would deliberately use `read()` to read a configuration file, then `readline()` to process a log file, and `readlines()` to load a small CSV file — all in the same program. Justify each choice in one sentence.",
      "a": "Example: `config = f.read()` for a small JSON config (need whole structure at once); `f.readline()` in a loop for a massive log file (memory-efficient line-by-line parsing); `rows = f.readlines()` for a 50-line CSV (convenient list for `csv.reader` or list comprehension). A poor answer uses the same method for all three, indicating the student hasn't internalized the trade-offs: whole-content vs streaming vs list convenience.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The read(), readline(), and readlines() methods are used to extract data from a text file opened in read mode ('r'). read(size) reads the entire file or up to size ______ as a single string; readline() reads one line at a time including the trailing newline character; readlines() reads all lines and returns them as a list of strings where each element ends with \\n (except possibly the last line).",
+     "a": "characters",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a text file marks.txt ______ one student's marks per line: 78\\n92\\n85\\n.",
+     "a": "containing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly choose and apply the appropriate read method (read, readline, readlines) for a given file processing task, predict the exact data structure returned (string vs list), and explain how the file pointer moves after each operation.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,146 @@
+{
+ "catalog": "catalog_class11_chemistry_kech101.json",
+ "concepts": [
+  {
+   "id": "kech.101.2.1",
+   "title": "Mole Concept and Molar Mass Computation",
+   "converted_to_compute": true,
+   "formula": "moles = mass / molar_mass",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "moles = mass / molar_mass",
+     "compute": "moles = mass / molar_mass"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Mole Concept and Molar Mass Computation: given mass = 34, molar_mass = 190, find moles.",
+     "a": "0.178947",
+     "self_check": false
+    },
+    {
+     "q": "For Mole Concept and Molar Mass Computation: given mass = 130, molar_mass = 35, find moles.",
+     "a": "3.71429",
+     "self_check": false
+    },
+    {
+     "q": "For Mole Concept and Molar Mass Computation: given mass = 53, molar_mass = 162, find moles.",
+     "a": "0.32716",
+     "self_check": false
+    },
+    {
+     "q": "For Mole Concept and Molar Mass Computation: given mass = 125, molar_mass = 154, find moles.",
+     "a": "0.811688",
+     "self_check": false
+    },
+    {
+     "q": "For Mole Concept and Molar Mass Computation: given mass = 183, molar_mass = 7.8, find moles.",
+     "a": "23.4615",
+     "self_check": false
+    },
+    {
+     "q": "For Mole Concept and Molar Mass Computation: given mass = 166, molar_mass = 101, find moles.",
+     "a": "1.64356",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kech.101.3.1",
+   "title": "Mass Percent, Empirical and Molecular Formula",
+   "converted_to_compute": true,
+   "formula": "mass_percent = element_mass / compound_mass * 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mass_percent = element_mass / compound_mass * 100",
+     "compute": "mass_percent = element_mass / compound_mass * 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Mass Percent, Empirical and Molecular Formula: given element_mass = 5.1, compound_mass = 108, find mass percent.",
+     "a": "4.72222",
+     "self_check": false
+    },
+    {
+     "q": "For Mass Percent, Empirical and Molecular Formula: given element_mass = 68, compound_mass = 59, find mass percent.",
+     "a": "115.254",
+     "self_check": false
+    },
+    {
+     "q": "For Mass Percent, Empirical and Molecular Formula: given element_mass = 82, compound_mass = 15.1, find mass percent.",
+     "a": "543.046",
+     "self_check": false
+    },
+    {
+     "q": "For Mass Percent, Empirical and Molecular Formula: given element_mass = 90, compound_mass = 92, find mass percent.",
+     "a": "97.8261",
+     "self_check": false
+    },
+    {
+     "q": "For Mass Percent, Empirical and Molecular Formula: given element_mass = 84, compound_mass = 123, find mass percent.",
+     "a": "68.2927",
+     "self_check": false
+    },
+    {
+     "q": "For Mass Percent, Empirical and Molecular Formula: given element_mass = 26, compound_mass = 58, find mass percent.",
+     "a": "44.8276",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kech.101.4.1",
+   "title": "Stoichiometry, Limiting Reagent and Concentration Terms",
+   "converted_to_compute": true,
+   "formula": "molarity = moles_solute / volume_solution",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "molarity = moles_solute / volume_solution",
+     "compute": "molarity = moles_solute / volume_solution"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Stoichiometry, Limiting Reagent and Concentration Terms: given moles_solute = 3.5, volume_solution = 43, find molarity.",
+     "a": "0.0813953",
+     "self_check": false
+    },
+    {
+     "q": "For Stoichiometry, Limiting Reagent and Concentration Terms: given moles_solute = 14, volume_solution = 90, find molarity.",
+     "a": "0.155556",
+     "self_check": false
+    },
+    {
+     "q": "For Stoichiometry, Limiting Reagent and Concentration Terms: given moles_solute = 12.7, volume_solution = 35, find molarity.",
+     "a": "0.362857",
+     "self_check": false
+    },
+    {
+     "q": "For Stoichiometry, Limiting Reagent and Concentration Terms: given moles_solute = 2.7, volume_solution = 91, find molarity.",
+     "a": "0.0296703",
+     "self_check": false
+    },
+    {
+     "q": "For Stoichiometry, Limiting Reagent and Concentration Terms: given moles_solute = 9.8, volume_solution = 63, find molarity.",
+     "a": "0.155556",
+     "self_check": false
+    },
+    {
+     "q": "For Stoichiometry, Limiting Reagent and Concentration Terms: given moles_solute = 8.4, volume_solution = 91, find molarity.",
+     "a": "0.0923077",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

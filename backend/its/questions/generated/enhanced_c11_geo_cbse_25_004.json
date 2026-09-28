@@ -34,6 +34,26 @@
      "q": "Design a field procedure to determine the scale of an old vertical aerial photograph (no camera metadata available) of the Yamuna floodplain near Delhi. You have access to a current 1:25,000 topographical map of the area and GPS equipment. List the steps, identify potential error sources, and explain how you would validate your result.",
      "a": "Expected answer: Steps: (1) Identify 8-10 clearly recognizable, unchanged features (road intersections, building corners, bridge ends) on both photo and map. (2) Measure photo distances (mm) between feature pairs using a stereoscope or high-resolution scan. (3) Measure corresponding map distances (cm) and convert to ground distances using map scale. (4) Calculate scale for each pair: S_i = photo_dist_i / ground_dist_i. (5) Compute mean scale and standard deviation. (6) Validate: Use GPS to measure 3-4 ground control points not used in calculation; compare photo-predicted positions with GPS positions. Error sources: Feature misidentification (changes over time), map measurement error, photo distortion (relief displacement), paper shrinkage/expansion. Validation criterion: Mean positional error < 2 mm on photo (equivalent to < 50 m ground at 1:25,000). A poor answer omits validation, uses too few points, or ignores relief displacement effects.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The scale of an aerial photograph is the ratio of a distance on the photograph to the corresponding distance on the ground, expressed as a ______ fraction (RF) or statement scale.",
+     "a": "representative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a surveyor in Dehradun holding a vertical aerial ______ of the Doon Valley taken from 3000 m above sea level.",
+     "a": "photograph",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a surveyor in Dehradun holding a vertical aerial photograph of the Doon Valley taken from ______ m above sea level.",
+     "a": "3000",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the scale of a vertical aerial photograph using any of the three determination methods (focal length/flying height, known ground distance, or map comparison) and explain how terrain relief causes scale variation across a single photograph.",
+     "self_check": true
     }
    ]
   }

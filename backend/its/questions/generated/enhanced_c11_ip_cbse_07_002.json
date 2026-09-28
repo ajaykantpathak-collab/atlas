@@ -34,6 +34,21 @@
      "q": "Design a minimal relation schema for a \"LIBRARY_BOOK\" entity that captures: book identification, title, author, publication year, and current status (available/issued). Specify relation name, attribute names, plausible domains, degree, and cardinality for a library with 12,000 books. Explain why your design satisfies Property 3 (atomicity and domain consistency).",
      "a": "Relation: LIBRARY_BOOK(BookID, Title, Author, PubYear, Status). Domains: BookID → INTEGER (or VARCHAR for ISBN), Title → VARCHAR(100), Author → VARCHAR(50), PubYear → INTEGER (1000..2025), Status → ENUM('available','issued') or CHAR(1) with CHECK constraint. Degree = 5. Cardinality = 12,000. Property 3 satisfied because: each attribute draws from a single domain (no mixed types), each value is atomic (Title is not split into subtitle/series here; Author is single string – though in practice we might normalize further, at this level it's atomic), no attribute holds multiple values per tuple (Status is single-valued), NULL allowed only where meaningful (e.g., PubYear might be NULL for ancient books). A poor answer lists attributes without domains, confuses degree/cardinality, or allows multi-valued Status like \"available, issued, reserved\" in one field.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In the Relational Data Model, a relation (table) is a two-______ structure that stores data as a collection of tuples (rows), where each tuple represents a single entity instance, and each attribute (column) represents a property of that entity drawn from a specific domain (set of permissible values of a given data type).",
+     "a": "dimensional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class monitor asked to digitize the paper ______ register.",
+     "a": "attendance",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify degree and cardinality of any given relation, distinguish between attribute/domain/tuple/relation using precise terminology, and explain how the three properties of a relation (atomicity, tuple uniqueness, attribute uniqueness) enforce data integrity in a relational database.",
+     "self_check": true
     }
    ]
   }

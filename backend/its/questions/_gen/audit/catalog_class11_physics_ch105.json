@@ -1,0 +1,548 @@
+{
+ "catalog": "catalog_class11_physics_ch105.json",
+ "concepts": [
+  {
+   "id": "keph.5.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "ke_final = 2.3",
+      "ke_initial = 89",
+      "work = ke_final - ke_initial"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "ke_final = 83",
+      "ke_initial = 9.5",
+      "work = ke_final - ke_initial"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "ke_final = 77",
+      "ke_initial = 65",
+      "work = ke_final - ke_initial"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "ke_final = 25",
+      "ke_initial = 4.3",
+      "work = ke_final - ke_initial"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ke_final = 1.9",
+      "ke_initial = 18",
+      "work = ke_final - ke_initial"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ke_final = 17.4",
+      "ke_initial = 91",
+      "work = ke_final - ke_initial"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "work = ke_final - ke_initial"
+   ]
+  },
+  {
+   "id": "keph.5.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "force = 489",
+      "displacement = 399",
+      "cos_theta = 100",
+      "work = force * displacement * cos_theta"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "force = 396",
+      "displacement = 101",
+      "cos_theta = 90",
+      "work = force * displacement * cos_theta"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "force = 843",
+      "displacement = 398",
+      "cos_theta = 33",
+      "work = force * displacement * cos_theta"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "force = 319",
+      "displacement = 272",
+      "cos_theta = 92",
+      "work = force * displacement * cos_theta"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "force = 803",
+      "displacement = 474",
+      "cos_theta = 97",
+      "work = force * displacement * cos_theta"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "force = 57",
+      "displacement = 440",
+      "cos_theta = 21",
+      "work = force * displacement * cos_theta"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "work = force * displacement * cos_theta"
+   ]
+  },
+  {
+   "id": "keph.5.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mass = 58",
+      "speed = 70",
+      "ke = (1/2) * mass * speed**2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mass = 28",
+      "speed = 32",
+      "ke = (1/2) * mass * speed**2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mass = 64",
+      "speed = 79",
+      "ke = (1/2) * mass * speed**2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mass = 145",
+      "speed = 113",
+      "ke = (1/2) * mass * speed**2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mass = 43",
+      "speed = 74",
+      "ke = (1/2) * mass * speed**2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mass = 21",
+      "speed = 70",
+      "ke = (1/2) * mass * speed**2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "ke = (1/2) * mass * speed**2"
+   ]
+  },
+  {
+   "id": "keph.5.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "constant_force = 83",
+      "dist_1 = 36",
+      "initial_force = 401",
+      "final_force = 164",
+      "dist_2 = 19.9",
+      "work = constant_force * dist_1 + (1/2) * (initial_force + final_force) * dist_2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "constant_force = 100",
+      "dist_1 = 31",
+      "initial_force = 901",
+      "final_force = 629",
+      "dist_2 = 32",
+      "work = constant_force * dist_1 + (1/2) * (initial_force + final_force) * dist_2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "constant_force = 80",
+      "dist_1 = 36",
+      "initial_force = 749",
+      "final_force = 815",
+      "dist_2 = 112",
+      "work = constant_force * dist_1 + (1/2) * (initial_force + final_force) * dist_2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "constant_force = 105",
+      "dist_1 = 71",
+      "initial_force = 53",
+      "final_force = 480",
+      "dist_2 = 98",
+      "work = constant_force * dist_1 + (1/2) * (initial_force + final_force) * dist_2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "constant_force = 80",
+      "dist_1 = 38",
+      "initial_force = 781",
+      "final_force = 392",
+      "dist_2 = 14.9",
+      "work = constant_force * dist_1 + (1/2) * (initial_force + final_force) * dist_2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "constant_force = 111",
+      "dist_1 = 59",
+      "initial_force = 562",
+      "final_force = 427",
+      "dist_2 = 97",
+      "work = constant_force * dist_1 + (1/2) * (initial_force + final_force) * dist_2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "work = constant_force * dist_1 + (1/2) * (initial_force + final_force) * dist_2"
+   ]
+  },
+  {
+   "id": "keph.5.6",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "ke_initial = 27",
+      "integral_force_dx = 248",
+      "ke_final = ke_initial + integral_force_dx"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "ke_initial = 88",
+      "integral_force_dx = 192",
+      "ke_final = ke_initial + integral_force_dx"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "ke_initial = 4.9",
+      "integral_force_dx = 850",
+      "ke_final = ke_initial + integral_force_dx"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "ke_initial = 54",
+      "integral_force_dx = 539",
+      "ke_final = ke_initial + integral_force_dx"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ke_initial = 42",
+      "integral_force_dx = 249",
+      "ke_final = ke_initial + integral_force_dx"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ke_initial = 96",
+      "integral_force_dx = 743",
+      "ke_final = ke_initial + integral_force_dx"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "ke_final = ke_initial + integral_force_dx"
+   ]
+  },
+  {
+   "id": "keph.5.7",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mass = 194",
+      "height = 284",
+      "pe = mass * g * height"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mass = 14",
+      "height = 212",
+      "pe = mass * g * height"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mass = 38",
+      "height = 172",
+      "pe = mass * g * height"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mass = 167",
+      "height = 325",
+      "pe = mass * g * height"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mass = 13.8",
+      "height = 4.3",
+      "pe = mass * g * height"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mass = 1.4",
+      "height = 331",
+      "pe = mass * g * height"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "pe = mass * g * height"
+   ]
+  },
+  {
+   "id": "keph.5.8",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mass = 51",
+      "speed = 35",
+      "height = 288",
+      "total_energy = (1/2) * mass * speed**2 + mass * g * height"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mass = 8.9",
+      "speed = 120",
+      "height = 282",
+      "total_energy = (1/2) * mass * speed**2 + mass * g * height"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mass = 106",
+      "speed = 102",
+      "height = 357",
+      "total_energy = (1/2) * mass * speed**2 + mass * g * height"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mass = 12.2",
+      "speed = 85",
+      "height = 113",
+      "total_energy = (1/2) * mass * speed**2 + mass * g * height"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mass = 79",
+      "speed = 14.9",
+      "height = 309",
+      "total_energy = (1/2) * mass * speed**2 + mass * g * height"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mass = 46",
+      "speed = 120",
+      "height = 13.6",
+      "total_energy = (1/2) * mass * speed**2 + mass * g * height"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_energy = (1/2) * mass * speed**2 + mass * g * height"
+   ]
+  },
+  {
+   "id": "keph.5.9",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "spring_k = 25",
+      "displacement = 326",
+      "pe_spring = (1/2) * spring_k * displacement**2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "spring_k = 12.3",
+      "displacement = 474",
+      "pe_spring = (1/2) * spring_k * displacement**2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "spring_k = 39",
+      "displacement = 480",
+      "pe_spring = (1/2) * spring_k * displacement**2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "spring_k = 39",
+      "displacement = 238",
+      "pe_spring = (1/2) * spring_k * displacement**2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "spring_k = 38",
+      "displacement = 301",
+      "pe_spring = (1/2) * spring_k * displacement**2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "spring_k = 92",
+      "displacement = 381",
+      "pe_spring = (1/2) * spring_k * displacement**2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "pe_spring = (1/2) * spring_k * displacement**2"
+   ]
+  },
+  {
+   "id": "keph.5.10",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total_force = 49",
+      "speed = 50",
+      "power = total_force * speed"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total_force = 794",
+      "speed = 10.8",
+      "power = total_force * speed"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_force = 39",
+      "speed = 97",
+      "power = total_force * speed"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total_force = 353",
+      "speed = 25",
+      "power = total_force * speed"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "total_force = 49",
+      "speed = 91",
+      "power = total_force * speed"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total_force = 696",
+      "speed = 64",
+      "power = total_force * speed"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "power = total_force * speed"
+   ]
+  }
+ ]
+}

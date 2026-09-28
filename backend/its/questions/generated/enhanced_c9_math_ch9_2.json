@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch9_2",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch9_2",
+   "title": "c9_math_ch9_2",
+   "questions": [
+    {
+     "q": "State Euclid's Axiom 1 in your own words and give a geometric example using line segments where this axiom is used to conclude that two segments are equal.",
+     "a": "Correct answer: Axiom 1 — \"Things which are equal to the same thing are equal to one another.\" Example: If segment AB = segment CD and segment EF = segment CD, then AB = EF. A wrong answer (e.g., stating \"if equals are added to equals...\" or giving a numerical example like 5 = 5) reveals the student cannot distinguish between the five axioms or confuses geometric magnitude equality with numerical equality, indicating they memorised wording without understanding the logical structure.",
+     "self_check": true
+    },
+    {
+     "q": "In the figure, PQ = RS and RS = TU. A student writes: \"Therefore PQ = TU by Axiom 2 (if equals are added to equals...).\" Is the student correct? Explain why or why not, naming the correct axiom.",
+     "a": "Correct answer: The student is incorrect. Axiom 2 deals with addition of equals (\"If equals are added to equals, the wholes are equal\"). Here, we have a chain of equalities: PQ = RS and RS = TU, so PQ = TU by Axiom 1 (\"Things equal to the same thing are equal to each other\"). A wrong answer reveals the student treats all axioms as interchangeable \"equality rules\" and cannot match the logical structure of the situation to the correct axiom — a critical gap for writing geometric proofs.",
+     "self_check": true
+    },
+    {
+     "q": "In the diagram, ∠AOB = ∠COD and ∠BOC = ∠DOE. Using Euclid's axioms, prove that ∠AOC = ∠DOE. Show each step and name the axiom used.",
+     "a": "Correct answer:\nStep 1: ∠AOB = ∠COD (Given)\nStep 2: ∠BOC = ∠DOE (Given)\nStep 3: ∠AOB + ∠BOC = ∠COD + ∠DOE (Adding equals to equals — Axiom 2)\nStep 4: ∠AOB + ∠BOC = ∠AOC and ∠COD + ∠DOE = ∠DOE (Angle addition)\nStep 5: Therefore ∠AOC = ∠DOE (Axiom 1: things equal to the same sum are equal)\nA wrong answer (e.g., skipping Step 3, or using Axiom 1 directly on angles without addition) reveals the student does not understand that axioms apply to the operation of addition of magnitudes, not just static equality — they miss the \"added to equals\" structure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Axiom 4 (\"Things which coincide with one another are equal to one another\") and Axiom 5 (\"The whole is greater than the part\"). Give a geometric situation where both could be used in the same proof, and explain the different logical role each plays.",
+     "a": "Correct answer: Consider proving that a point P on segment AB divides it into two parts AP and PB such that AP < AB and PB < AB. Axiom 5 directly gives AP < AB and PB < AB (each part is less than the whole). Axiom 4 is used if we superpose AP onto another segment of equal length to prove congruence. Axiom 5 establishes inequality (order), Axiom 4 establishes equality via superposition. A wrong answer (e.g., saying both prove equality, or both compare size) reveals the student does not grasp that Axiom 4 is about equality through physical coincidence (a constructive notion), while Axiom 5 is about the part-whole order relation — a confusion that undermines understanding of congruence vs. betweenness.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Euclid's axioms are only about numbers. In geometry, we use postulates, not axioms.\" Evaluate this statement. Is it true, false, or partially true? Justify your answer with reference to the historical and logical distinction.",
+     "a": "Correct answer: The statement is false. Euclid's \"Common Notions\" (axioms) are general logical principles about magnitude and equality that apply to geometric objects (lengths, angles, areas) just as much as to numbers. His \"Postulates\" are specific geometric construction assumptions (e.g., \"a straight line can be drawn between any two points\"). Both are used in geometric proofs. A wrong answer reveals the student confuses the modern algebraic meaning of \"axiom\" (e.g., field axioms) with Euclid's original usage, and does not understand that in Class 9 geometry, we use Euclid's axioms to justify steps like \"if AB = CD and CD = EF then AB = EF\" — a purely geometric reasoning step.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new geometric problem (with a diagram description) that requires using at least three different Euclid's axioms in sequence to prove a final equality. Write the problem statement and outline the proof steps with axiom names.",
+     "a": "Expected answer: Problem: \"In the figure, AB = CD, BC = DE, and ∠ABC = ∠CDE. Prove that AC = CE.\" Proof outline:\n1. AB = CD (Given)\n2. BC = DE (Given)\n3. AB + BC = CD + DE (Axiom 2: add equals to equals)\n4. AB + BC = AC, CD + DE = CE (Segment addition)\n5. AC = CE (Axiom 1: things equal to the same sum)\n6. Also, ∠ABC = ∠CDE (Given) — could use Axiom 1 if linked to another equal angle.\nA poor answer (e.g., using only one axiom, or mixing up addition/subtraction) reveals the student cannot design a multi-step logical chain — they see axioms as isolated facts, not as tools for building deductive arguments.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

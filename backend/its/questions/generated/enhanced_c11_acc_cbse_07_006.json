@@ -34,6 +34,31 @@
      "q": "Design a decision flowchart (text-based) that a junior accountant could use to select between SLM and WDV for any new asset. Include at least four decision nodes with yes/no branches, referencing the five NCERT comparison criteria.",
      "a": "Example flowchart:\n1. Is asset subject to high technological obsolescence? Yes → WDV; No → Q2.\n2. Do repair costs increase significantly over life? Yes → WDV; No → Q3.\n3. Is tax depreciation alignment critical (no separate tax computation)? Yes → WDV; No → Q4.\n4. Does asset need full write-down to zero/scrap (e.g., leasehold)? Yes → SLV; No → Consider SLM for stable profit reporting.\nA poor flowchart using only \"asset type\" or \"management preference\" without the five criteria shows inability to operationalise the comparative framework.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The comparison between Straight Line Method (SLM) and Written Down Value Method (WDV) of depreciation evaluates five key dimensions: basis of charging depreciation (original cost vs. ______ book value), pattern of annual depreciation charge (constant vs. declining), combined impact with repair expenses on Profit & Loss (increasing vs. stable), recognition under Income Tax Act (not recognised vs. recognised), and asset suitability (low obsolescence/repair assets vs. high obsolescence/repair assets).",
+     "a": "diminishing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're the ______ for a manufacturing company that just bought two assets: a factory building (₹50 lakh) and a CNC machine (₹30 lakh).",
+     "a": "accountant",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This comparative analysis enables selection of the appropriate method based on asset nature, business circumstances, and legal requirements as per AS-______.",
+     "a": "6",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Compare SLM and WDV across all five NCERT dimensions with precise terminology, (2) Justify method selection for a given asset scenario using at least three comparative factors, (3) Calculate and contrast depreciation amounts for both methods over multiple years for the same asset, and (4) Explain the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're the accountant for a ______ company that just bought two assets: a factory building (₹50 lakh) and a CNC machine (₹30 lakh).",
+     "a": "manufacturing",
+     "self_check": true
     }
    ]
   }

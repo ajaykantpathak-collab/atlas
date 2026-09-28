@@ -1,0 +1,62 @@
+{
+ "catalog": "catalog_class12_biology_lebo113.json",
+ "concepts": [
+  {
+   "id": "lebo.113.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "steep_z_low = 79",
+      "shallow_z_high = 31",
+      "z_gap = steep_z_low - shallow_z_high"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "steep_z_low = 77",
+      "shallow_z_high = 91",
+      "z_gap = steep_z_low - shallow_z_high"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "steep_z_low = 32",
+      "shallow_z_high = 9.9",
+      "z_gap = steep_z_low - shallow_z_high"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "steep_z_low = 3.2",
+      "shallow_z_high = 71",
+      "z_gap = steep_z_low - shallow_z_high"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "steep_z_low = 44",
+      "shallow_z_high = 92",
+      "z_gap = steep_z_low - shallow_z_high"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "steep_z_low = 75",
+      "shallow_z_high = 34",
+      "z_gap = steep_z_low - shallow_z_high"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "z_gap = steep_z_low - shallow_z_high"
+   ]
+  }
+ ]
+}

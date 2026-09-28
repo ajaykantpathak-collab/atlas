@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (Indian context) where calculating slope is necessary. The problem must involve two distinct points with given coordinates, and the slope must be interpreted as a rate of change with proper units. Write the problem, solve it, and explain what the numerical value of the slope means in your context.",
      "a": "Example problem: \"A train travels from Delhi to Agra. At 10:00 AM it is at kilometre marker 50 (x = 0 hours, y = 50 km). At 1:00 PM it is at kilometre marker 200 (x = 3 hours, y = 200 km). Find the average speed.\" Solution: Slope = (200 - 50)/(3 - 0) = 150/3 = 50 km/h. The slope 50 means the train covers 50 km per hour. A poor answer might give slope as 50 without units, or interpret it as \"distance increases by 50\" without \"per hour\", or use wrong coordinates (e.g., swapping x and y). This tests the ability to map physical quantities to coordinates and interpret slope as a rate with units.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The slope (or gradient) of a non-vertical line is defined as the tangent of the angle of inclination θ that the line makes with the positive direction of the x-axis measured ______, where 0° ≤ θ < 180° and θ ≠ 90°.",
+     "a": "anticlockwise",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ramp must rise 30 cm over a ______ distance of 3 metres to meet accessibility guidelines.",
+     "a": "horizontal",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute the slope of a line given two points or an angle of inclination, determine whether a line is horizontal/vertical/rising/falling from its slope value, and explain why the slope formula represents the rate of change of y with respect to x.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ramp must rise 30 cm over a horizontal distance of 3 metres to meet ______ guidelines.",
+     "a": "accessibility",
+     "self_check": true
     }
    ]
   }

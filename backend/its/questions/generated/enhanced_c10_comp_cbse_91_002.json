@@ -1,0 +1,51 @@
+{
+ "catalog": "enhanced_c10_comp_cbse_91_002",
+ "concepts": [
+  {
+   "id": "enh:c10_comp_cbse_91_002",
+   "title": "c10_comp_cbse_91_002",
+   "questions": [
+    {
+     "q": "What's wrong: 'NOTICE — I am happy to inform you all that we are having a very exciting and fun annual day celebration on 15th March at 10 am in the school auditorium and everyone should definitely come and bring their parents too!!!' (68 words)",
+     "a": "Nearly everything: first person, exclamations, no org name/date/heading/contact, 68 words, essay-tone. Correct: clipped third-person announcement under 50 words. A wrong answer listing only word-count shows the student sees the limit but not the register violations.",
+     "self_check": true
+    },
+    {
+     "q": "Reorder a notice's header: heading, date, NOTICE, organization name.",
+     "a": "Organization name → NOTICE → date → heading. A wrong answer putting the heading first reveals the student treats the notice like an essay title instead of a bureaucratic instrument — the issuing authority leads because authority IS the format.",
+     "self_check": true
+    },
+    {
+     "q": "Which body sentence fits a notice: 'You should totally come!' or 'Interested students may register with the undersigned by 10 March'?",
+     "a": "The second — third person, action + deadline + contact, zero enthusiasm-performance. A wrong answer choosing the first reveals the student hasn't internalized that notices inform; they never persuade.",
+     "self_check": true
+    },
+    {
+     "q": "A notice is a public ______ in a box: organization name → NOTICE → date → heading → body answering What/When/Where/Who-contact → signature+designation.",
+     "a": "announcement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A notice is a public ______ in a box: organization name → NOTICE → date → heading → body answering What/When/Where/Who-contact → signature+designation.",
+     "a": "announcement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Show a real ______ notice, then strip it: everything outside the box is the skeleton, everything inside answers What-When-Where-Whom.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student drafts a complete notice under 50 words with all 6 elements, in third-person declaratives, with a body that answers the 4W questions, and can audit a defective notice for missing elements and register violations.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Show a real school notice, then strip it: everything outside the box is the ______, everything inside answers What-When-Where-Whom.",
+     "a": "skeleton",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

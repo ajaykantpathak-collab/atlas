@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a smartphone, a long smooth plank, and a few books to verify the equation s = ut + ½at² for a ball rolling down an inclined plane. Describe the procedure, measurements, and how you would analyse the data to confirm the ½ factor.",
      "a": "Procedure: 1) Prop the plank on books to make an incline. 2) Mark positions at 0.5 m, 1.0 m, 1.5 m from the top. 3) Use the smartphone's stopwatch to measure time t for the ball to roll from rest (u=0) to each mark. Repeat 3 times per mark. 4) Plot s (y-axis) vs t² (x-axis). Since u=0, s = ½a t² → graph should be a straight line through origin with slope = ½a. 5) Calculate a from slope and compare with a = g sinθ. A poor answer (e.g., \"measure time for one distance and calculate a\") shows the student doesn't understand that verifying the t² dependence requires multiple data points and graphical analysis, not a single calculation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The three equations of motion are mathematical ______ that connect the five kinematic variables – initial velocity (u), final velocity (v), uniform acceleration (a), time (t), and displacement (s) – for an object moving in a straight line with constant acceleration.",
+     "a": "relationships",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a motorcycle at a traffic signal in Delhi – it starts from rest and ______ uniformly to cross the intersection.",
+     "a": "accelerates",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive all three equations (v = u + at, s = ut + ½at², v² = u² + 2as) from a velocity-time graph or algebraic manipulation, and can correctly select the appropriate equation when given any three of the five variables in a word problem.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a motorcycle at a traffic signal in Delhi – it starts from rest and accelerates uniformly to cross the ______.",
+     "a": "intersection",
+     "self_check": true
     }
    ]
   }

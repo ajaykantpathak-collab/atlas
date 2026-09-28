@@ -34,6 +34,31 @@
      "q": "Create a realistic scenario where three partners (A, B, C) without a deed face a conflict involving: (i) profit sharing, (ii) interest on capital, (iii) admission of a new partner. Write the correct resolution for each conflict citing the relevant Act sections.",
      "a": "Scenario: A (₹10L capital), B (₹5L), C (₹1L). Conflict 1: A demands 10:5:1 profit split. Resolution: Equal 1:1:1 (Sec 13(b)). Conflict 2: A demands 12% interest on capital. Resolution: Not allowed (Sec 13(c)). Conflict 3: A and B want to admit D; C objects. Resolution: Admission requires unanimous consent (Sec 31); C's veto stands. A good answer cites all three sections; a poor answer misses the unanimous consent rule or allows interest on capital.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In the absence of a written Partnership Deed, the provisions of the Indian Partnership Act, 1932 (Sections 13, 17, 26, 31, 32, 33, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59) ______ govern the rights, duties, and liabilities of partners.",
+     "a": "automatically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two friends, ______ and Priya, start a consulting firm.",
+     "a": "Arjun",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: These default rules include: equal profit/loss sharing regardless of capital contribution; no interest on capital or drawings; ______% p.a. interest on loans advanced by partners to the firm; no remuneration (salary/commission) for participating in business; unanimous consent required for admission of new partners; and the firm's property must be used exclusively for firm's business.",
+     "a": "6",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) list all nine default rules under the Indian Partnership Act 1932 that apply when no deed exists, and (2) apply these rules to a given partnership scenario to determine correct accounting treatment for profit distribution, interest, loans, and admission/retirement decisions without referring to a deed.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two friends, Arjun and Priya, start a ______ firm.",
+     "a": "consulting",
+     "self_check": true
     }
    ]
   }

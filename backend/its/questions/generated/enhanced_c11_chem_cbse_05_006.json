@@ -34,6 +34,26 @@
      "q": "Design an experiment to determine the molar mass of a volatile liquid using the ideal gas equation. List measurements needed, the equation rearranged for M, and two assumptions made.",
      "a": "Method: Vaporise known mass (m) of liquid in a flask of known volume (V) at known temperature (T) and pressure (P). Measure: m, V, T, P. Rearrange: M = mRT/PV. Assumptions: (1) Vapour behaves ideally (low P, high T), (2) No liquid remains (complete vaporisation), (3) Flask volume equals vapour volume. A poor answer omits vapour pressure correction, uses mass of liquid instead of vapour, or assumes STP without measuring T and P.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ideal gas equation, PV = nRT, is a fundamental equation of state that relates the pressure (P), volume (V), temperature (T), and amount of substance (n) for a hypothetical ideal gas composed of point particles with no ______ forces undergoing perfectly elastic collisions; it combines Boyle's law, Charles's law, and Avogadro's law into a single universal relationship valid for all ideal gases at low pressures and high temperatures.",
+     "a": "intermolecular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a pressure cooker whistle in an Indian kitchen: steam builds up at high ______, creating pressure that lifts the weight — this is P ∝ T at constant V (Gay-Lussac's law).",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Show how combining P ∝ n (Avogadro), P ∝ ______/V, and P ∝ T gives P ∝ nT/V → PV = nRT.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) correctly identify and substitute values with proper units into PV = nRT to solve for any single unknown variable, (2) apply the combined gas law form (P₁V₁/T₁ = P₂V₂/T₂) for constant-amount processes, and (3) integrate the ideal gas equation with reaction stoichiometry to calculate gas volumes or moles in chemical.",
+     "self_check": true
     }
    ]
   }

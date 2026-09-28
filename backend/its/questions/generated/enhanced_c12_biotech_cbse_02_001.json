@@ -34,6 +34,36 @@
      "q": "Design a strategy to determine whether an unknown restriction enzyme (purified from a new bacterial strain) is a Type II enzyme that recognizes a 6-bp palindrome. Outline the experimental steps and the expected results that would confirm your hypothesis.",
      "a": "Step 1: Incubate the enzyme with a known DNA substrate (e.g., λ phage DNA, 48.5 kb) under standard buffer conditions (Mg²⁺, no ATP). Step 2: Run products on agarose gel alongside a DNA ladder. Step 3: If discrete bands appear (not a smear), the enzyme cuts at specific sites. Step 4: Clone and sequence the fragments flanking a cut site to deduce the recognition sequence. Step 5: Verify the sequence is a 6-bp palindrome and that cleavage occurs at a fixed position within it. Step 6: Test cofactor requirements: if activity requires only Mg²⁺ (no ATP, S-adenosylmethionine), it confirms Type II. A poor answer would skip sequencing the junction or ignore cofactor testing, confusing Type II with Type I/III.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Restriction endonucleases are bacterial enzymes that recognize specific palindromic DNA sequences (typically 4-8 bp long) and cleave the ______ backbone within or near these sites; Type II enzymes, which cut at defined positions within their recognition sequence, are the workhorses of recombinant DNA technology.",
+     "a": "phosphodiester",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a 5 kb plasmid and want to ______ a gene at a single, precise location — how do you cut the plasmid without shredding it?",
+     "a": "insert",
+     "self_check": true
+    },
+    {
+     "q": "What is Restriction endonucleases? State the definition given in this lesson.",
+     "a": "Restriction endonucleases are bacterial enzymes that recognize specific palindromic DNA sequences (typically 4-8 bp long) and cleave the phosphodiester backbone within or near these sites; Type II enzymes, which cut at defined positions within their recognition sequence, are the workhorses of recombinant DNA technology.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a ______ kb plasmid and want to insert a gene at a single, precise location — how do you cut the plasmid without shredding it?",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Restriction endonucleases?",
+     "a": "Students often think that any enzyme cutting DNA at a specific sequence is a Type II restriction enzyme.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) classify a given restriction enzyme by type (I, II, III) based on its recognition/cleavage pattern and cofactor requirements, (2) identify palindromic recognition sites in a DNA sequence and predict whether the enzyme produces sticky or blunt ends, and (3) calculate the expected number of fragments and their approximate.",
+     "self_check": true
     }
    ]
   }

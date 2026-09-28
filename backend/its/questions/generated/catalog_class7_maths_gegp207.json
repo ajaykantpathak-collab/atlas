@@ -5,6 +5,8 @@
    "id": "gegp2.7.1",
    "title": "Find the Unknowns: Balance Puzzles",
    "converted_to_compute": false,
+   "formula": "unknown = total - known",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 2x + 4 = 26.",
@@ -41,15 +43,8 @@
   {
    "id": "gegp2.7.2",
    "title": "Equations as Balanced Scales",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "set up the proportion and solve for the unknown part",
-     "explain": "set up the proportion and solve for the unknown part: t1 = 8 / 4 gives 2",
-     "compute": "t1 = 8 / 4"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 8 : 44 in its simplest form and give the first term of the simplest form.",
@@ -87,6 +82,8 @@
    "id": "gegp2.7.3",
    "title": "One-Step Equations with Sharing",
    "converted_to_compute": false,
+   "formula": "x = diff / n",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 42 cm (take pi = 22/7).",
@@ -123,15 +120,8 @@
   {
    "id": "gegp2.7.4",
    "title": "From Stories to Equations",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "transpose the terms and divide by the coefficient",
-     "explain": "transpose the terms and divide by the coefficient: x = (99 - 9) / 9 gives 10",
-     "compute": "x = (99 - 9) / 9"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 9x + 9 = 99.",

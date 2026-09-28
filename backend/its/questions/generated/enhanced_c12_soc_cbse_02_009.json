@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_02_009",
+   "title": "c12_soc_cbse_02_009",
+   "questions": [
+    {
+     "q": "According to Census 2011, what percentage of India's population lived in rural areas and what percentage in urban areas?",
+     "a": "Correct answer: 68.8 % rural, 31.2 % urban. A wrong answer (e.g., 70‑30 or 60‑40) reveals the student has not memorised the latest census benchmark — a basic fact required for every board answer on urbanisation. It also suggests they confuse older data (e.g., 2001: 72.2‑27.8) with current figures.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the death rate in India fell sharply after 1921 while the birth rate declined only slowly, and how this relates to rural-urban differences.",
+     "a": "Correct explanation: Death rate dropped due to epidemic control (vaccination, sanitation), famine relief (transport, irrigation), and medical advances — these are technical/administrative interventions that work quickly across both rural and urban areas. Birth rate is a socio-cultural phenomenon: it falls only when fertility norms change through education (especially female), reduced infant mortality, and economic shifts — processes that spread slowly, particularly in rural areas where patriarchal values and agricultural livelihoods favour larger families. A wrong answer that attributes birth-rate decline solely to 'government programmes' or 'contraception availability' misses the deeper structural lag between mortality and fertility transitions, which is central to the demographic transition model.",
+     "self_check": true
+    },
+    {
+     "q": "A hypothetical State X has 75 % rural population, but its common property resources (village ponds, grazing lands) have been depleted over the last decade. Using the push-pull framework from the text, predict the likely migration pattern and the socio-economic profile of migrants.",
+     "a": "Correct prediction: Increased rural-to-urban migration, especially of landless/poor households who previously relied on common resources for fuel, fodder, and supplementary food. Migrants will likely be young males from lower castes/classes, moving to nearby towns or million-plus cities for informal-sector work (construction, transport). Some whole families may migrate if agricultural wages collapse. A wrong answer that predicts migration only from 'rich farmers' or 'upper castes' ignores the text's emphasis on common-property depletion hurting the poor most, and the role of urban anonymity for oppressed groups.",
+     "self_check": true
+    },
+    {
+     "q": "Compare India's urbanisation pattern (1901‑2011) with the classical demographic transition model's prediction for the 'transitional stage'. Identify two similarities and one key difference.",
+     "a": "Similarities: (1) Death rate falls before birth rate, creating a population explosion — seen in India post-1921. (2) Urban share rises as industrial/urban jobs grow — India's urban % tripled. Key difference: Classical model assumes urbanisation accompanies industrialisation; in India, urbanisation has outpaced industrial job creation — the 'service-sector-led' urbanisation with massive informal employment and slums. A wrong answer that claims 'India follows the model exactly' misses the critical deviation: urban growth without proportional formal employment, a major theme in Indian sociology.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Rapid urbanisation in India is solely driven by economic pull factors from cities.\" Provide evidence from the text to support your judgement.",
+     "a": "Judgement: The statement is false. The text explicitly lists push factors: (1) decline of common property resources (ponds, forests, grazing lands) that once allowed poor villagers to survive without cash; (2) limited cash-earning opportunities in villages; (3) social push — caste oppression in villages drives Dalits/STs to cities for anonymity. Pull factors exist (urban jobs, consumption aspirations via media), but the text emphasises the *interaction* of push and pull. A wrong answer that agrees with the statement ignores the structural rural distress documented in the chapter and fails the 'evaluate' requirement of using textual evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5‑question survey to investigate how mass media exposure in a specific village influences young people's aspirations for urban consumption and migration intentions. State the hypothesis you would test.",
+     "a": "Good answer includes: Hypothesis — \"Higher exposure to urban-centric media (TV, smartphones) correlates with stronger desire for urban consumption goods and higher migration intent among rural youth.\" Survey questions: (1) Hours/day of TV/smartphone use; (2) Favourite programmes (urban soaps, ads, news); (3) List 3 consumption items you wish to own (categorise as urban/rural); (4) Have you considered moving to a city for work? (Yes/No/Maybe); (5) If yes, which city and why? A poor answer asks only about media access without linking to consumption/migration, or uses leading questions, showing inability to operationalise sociological concepts.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Rural-urban distribution refers to the proportional division of a country's population between areas classified as 'rural' (villages, low density, agricultural livelihood) and 'urban' (towns/cities, high density, non-agricultural livelihood) as per the Census of India criteria; urbanisation is the process by which the urban share of total population increases over time due to natural increase, rural-to-urban migration, and ______ of rural settlements into urban areas.",
+     "a": "reclassification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a bus stand in a village in Uttar Pradesh at 5 a.m.: dozens of young men board a bus to the nearest city for daily-wage ______ work, while their families tend small farms.",
+     "a": "construction",
+     "self_check": true
+    },
+    {
+     "q": "What is Rural-urban distribution? State the definition given in this lesson.",
+     "a": "Rural-urban distribution refers to the proportional division of a country's population between areas classified as 'rural' (villages, low density, agricultural livelihood) and 'urban' (towns/cities, high density, non-agricultural livelihood) as per the Census of India criteria; urbanisation is the process by which the urban share of.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a bus stand in a village in Uttar Pradesh at ______ a.m.: dozens of young men board a bus to the nearest city for daily-wage construction work, while their families tend small farms.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can interpret Census of India rural-urban data tables (1901–2011), explain the three drivers of urbanisation (natural increase, migration, reclassification) with Indian examples, and analyze the socio-economic consequences of India's 'metropolisation' (concentration in million-plus cities) for infrastructure, slum formation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

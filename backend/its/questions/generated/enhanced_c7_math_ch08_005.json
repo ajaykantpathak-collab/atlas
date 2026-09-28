@@ -34,6 +34,21 @@
      "q": "Create a real-world word problem involving sharing a length of ribbon where the calculation requires dividing $\\frac{9}{10}$ of a metre by a whole number, and provide its solution.",
      "a": "A good problem: \"Rahul has $\\frac{9}{10}$ metres of decorative ribbon. He cuts it into 3 equal pieces for a craft project. What is the length of each piece?\" Solution: $\\frac{9}{10} \\div 3 = \\frac{9}{10} \\times \\frac{1}{3} = \\frac{3}{10}$ metres. A poor answer lacks a realistic context or fails to set up a valid fraction-by-whole-number division.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Dividing a fraction by a whole number means partitioning a fractional quantity into an equal number of whole parts, which is ______ equivalent to multiplying the fraction by the multiplicative inverse (reciprocal) of that whole number.",
+     "a": "mathematically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Next, apply the rule learned in fraction division: to divide by a fraction, multiply by its ______.",
+     "a": "reciprocal",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can compute the division of any proper, improper, or mixed fraction by a non-zero whole number using the reciprocal method, simplify the resulting fraction to its lowest terms, and solve multi-step real-world word problems involving shared quantities.",
+     "self_check": true
     }
    ]
   }

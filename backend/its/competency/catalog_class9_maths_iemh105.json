@@ -22,15 +22,33 @@
     "state the relation between radius and diameter",
     "why is a circle called a symmetric figure"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "check the definition",
-     "explain": "All points equidistant from the centre form the circle."},
-    {"step": 2, "action": "fold mentally",
-     "explain": "Any diameter is a line of symmetry; the centre is the rotation point."},
-    {"step": 3, "action": "name the parts",
-     "explain": "Chord, arc, sector and diameter follow from the same picture."}
-   ]
+    {
+     "step": 1,
+     "action": "check the definition",
+     "explain": "All points equidistant from the centre form the circle."
+    },
+    {
+     "step": 2,
+     "action": "fold mentally",
+     "explain": "Any diameter is a line of symmetry; the centre is the rotation point."
+    },
+    {
+     "step": 3,
+     "action": "name the parts",
+     "explain": "Chord, arc, sector and diameter follow from the same picture."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 14 gives 88",
+     "compute": "circ = 2 * 22 / 7 * 14"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.105.5.2",
@@ -48,15 +66,33 @@
     "state the converse of the equal chords theorem",
     "apply the theorem to find the given angle"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "join the radii",
-     "explain": "Connect the centre to the endpoints of both chords."},
-    {"step": 2, "action": "prove congruence",
-     "explain": "Equal radii and equal chords give congruent triangles by SSS."},
-    {"step": 3, "action": "read off the angles",
-     "explain": "Corresponding parts of congruent triangles give equal central angles."}
-   ]
+    {
+     "step": 1,
+     "action": "join the radii",
+     "explain": "Connect the centre to the endpoints of both chords."
+    },
+    {
+     "step": 2,
+     "action": "prove congruence",
+     "explain": "Equal radii and equal chords give congruent triangles by SSS."
+    },
+    {
+     "step": 3,
+     "action": "read off the angles",
+     "explain": "Corresponding parts of congruent triangles give equal central angles."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 56 gives 352",
+     "compute": "circ = 2 * 22 / 7 * 56"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.105.5.3",
@@ -74,15 +110,33 @@
     "why is the line from the centre to the chord's midpoint perpendicular",
     "apply the theorem to the given circle figure"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "drop the perpendicular",
-     "explain": "Draw the segment from the centre meeting the chord at right angles."},
-    {"step": 2, "action": "form right triangles",
-     "explain": "The two triangles on either side share a leg and hypotenuse equal to the radius."},
-    {"step": 3, "action": "conclude bisection",
-     "explain": "RHS congruence gives equal halves of the chord."}
-   ]
+    {
+     "step": 1,
+     "action": "drop the perpendicular",
+     "explain": "Draw the segment from the centre meeting the chord at right angles."
+    },
+    {
+     "step": 2,
+     "action": "form right triangles",
+     "explain": "The two triangles on either side share a leg and hypotenuse equal to the radius."
+    },
+    {
+     "step": 3,
+     "action": "conclude bisection",
+     "explain": "RHS congruence gives equal halves of the chord."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 35 gives 220",
+     "compute": "circ = 2 * 22 / 7 * 35"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.105.5.4",
@@ -102,12 +156,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "square and subtract",
+    {
+     "step": 1,
+     "action": "square and subtract",
      "explain": "Radius squared minus distance squared gives half-chord squared.",
-     "compute": "half_sq = r * r - d * d"},
-    {"step": 2, "action": "root and double",
+     "compute": "half_sq = r * r - d * d"
+    },
+    {
+     "step": 2,
+     "action": "root and double",
      "explain": "The square root is the half-chord; doubling gives the chord.",
-     "compute": "chord = 2 * sqrt(half_sq)"}
+     "compute": "chord = 2 * sqrt(half_sq)"
+    }
    ]
   },
   {
@@ -126,15 +186,33 @@
     "apply the same segment theorem to find the unknown angle",
     "compare the angle at the centre and at the circumference for the same arc"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "fix the arc",
-     "explain": "Choose the arc whose subtended angles are being compared."},
-    {"step": 2, "action": "use the central angle",
-     "explain": "The central angle doubles any angle at the circumference on the same arc."},
-    {"step": 3, "action": "conclude equality",
-     "explain": "Two angles viewing the same arc from the same segment must be equal."}
-   ]
+    {
+     "step": 1,
+     "action": "fix the arc",
+     "explain": "Choose the arc whose subtended angles are being compared."
+    },
+    {
+     "step": 2,
+     "action": "use the central angle",
+     "explain": "The central angle doubles any angle at the circumference on the same arc."
+    },
+    {
+     "step": 3,
+     "action": "conclude equality",
+     "explain": "Two angles viewing the same arc from the same segment must be equal."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 7 gives 44",
+     "compute": "circ = 2 * 22 / 7 * 7"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -149,12 +227,18 @@
     "d": "distance of the chord from the centre in cm"
    },
    "solution_template": [
-    {"step": 1, "action": "square and subtract",
+    {
+     "step": 1,
+     "action": "square and subtract",
      "explain": "r squared minus d squared gives half-chord squared.",
-     "compute": "half_sq = r * r - d * d"},
-    {"step": 2, "action": "root and double",
+     "compute": "half_sq = r * r - d * d"
+    },
+    {
+     "step": 2,
+     "action": "root and double",
      "explain": "Double the half-chord for the full length.",
-     "compute": "chord = 2 * sqrt(half_sq)"}
+     "compute": "chord = 2 * sqrt(half_sq)"
+    }
    ]
   },
   {
@@ -168,12 +252,18 @@
     "d": "distance from the centre in cm"
    },
    "solution_template": [
-    {"step": 1, "action": "square and subtract",
+    {
+     "step": 1,
+     "action": "square and subtract",
      "explain": "Compute the half-chord squared.",
-     "compute": "half_sq = r * r - d * d"},
-    {"step": 2, "action": "root and double",
+     "compute": "half_sq = r * r - d * d"
+    },
+    {
+     "step": 2,
+     "action": "root and double",
      "explain": "The full chord is twice the root.",
-     "compute": "chord = 2 * sqrt(half_sq)"}
+     "compute": "chord = 2 * sqrt(half_sq)"
+    }
    ]
   }
  ],
@@ -182,17 +272,17 @@
    "id": "ex5.1",
    "source_ref": "iemh105.txt chord theorem exercises",
    "questions": [
-     "Prove that equal chords subtend equal angles at the centre.",
-     "Prove that the perpendicular from the centre bisects a chord.",
-     "Find the radius when chord and distance from the centre are given."
+    "Prove that equal chords subtend equal angles at the centre.",
+    "Prove that the perpendicular from the centre bisects a chord.",
+    "Find the radius when chord and distance from the centre are given."
    ]
   },
   {
    "id": "ex5.2",
    "source_ref": "iemh105.txt arc and segment exercises",
    "questions": [
-     "Show that angles in the same segment are equal.",
-     "Prove that the angle in a semicircle is a right angle."
+    "Show that angles in the same segment are equal.",
+    "Prove that the angle in a semicircle is a right angle."
    ]
   }
  ]

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_03_003",
+   "title": "c11_leg_cbse_03_003",
+   "questions": [
+    {
+     "q": "In the Indian context, which landmark case first declared that 'Separation of Powers' is part of the Basic Structure of the Constitution, making it unamendable under Article 368?",
+     "a": "Kesavananda Bharati v. State of Kerala (1973). A wrong answer (e.g., Golaknath or Minerva Mills) reveals the student confuses the *origin* of basic structure doctrine (Golaknath) or its *application* to judicial review (Minerva Mills) with the specific inclusion of separation of powers as a basic feature — which was explicitly listed in Kesavananda Bharati by multiple judges (Khanna, Shelat & Grover, Hegde & Mukherjea).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Supreme Court in *Ram Jawaya Kapur v. State of Punjab (1955)* held that the Indian Constitution does not follow a rigid separation of powers like the USA, yet prevents arbitrary exercise of power.",
+     "a": "The Court observed that while the Constitution differentiates functions (legislative, executive, judicial), it does not vest them in *water-tight compartments* — the executive is drawn from and accountable to the legislature (fusion), and the President acts on ministerial advice. However, no organ can assume functions *essentially* belonging to another. A wrong answer (e.g., \"India has strict separation\") shows the student misses the *parliamentary fusion* nuance; \"no checks exist\" ignores judicial review and collective responsibility.",
+     "self_check": true
+    },
+    {
+     "q": "A state government re-promulgates the same ordinance 5 times over 3 years without placing it before the legislature. Which case would you cite to challenge this, and what constitutional principle does it violate?",
+     "a": "DC Wadhwa v. State of Bihar (1987). The Court held that repeated re-promulgation without legislative approval is a \"fraud on the Constitution\" and violates separation of powers because the Executive usurps the Legislature's law-making function. A wrong answer citing only \"Article 213\" shows the student knows the provision but not its *judicial limitation*; citing \"Kesavananda\" without linking to ordinance abuse shows inability to apply precedent to specific executive overreach.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the UK and Indian models: In the UK, the Lord Chancellor (pre-2005) fused all three organs. In India, the Prime Minister and Council of Ministers are part of the Legislature. Despite this fusion, how does India maintain a stronger check on executive power than the pre-2005 UK model?",
+     "a": "India has a written Constitution with *judicial review* (Article 13, 32, 226) and *basic structure doctrine* — courts can strike down executive/legislative action violating separation of powers. Pre-2005 UK had parliamentary sovereignty (no judicial review of primary legislation) and the Lord Chancellor sat in Cabinet, Legislature, and Judiciary simultaneously. A wrong answer focusing only on \"both have fusion\" misses that India's *written Constitution + judicial review* creates enforceable boundaries, unlike UK's political conventions.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The Supreme Court's collegium system for judicial appointments (established in *Supreme Court Advocates-on-Record Association v. Union of India, 1993*) violates separation of powers because the Judiciary appoints itself, excluding the Executive.\"",
+     "a": "The collegium system *upholds* separation of powers by insulating judicial independence from executive control — a core feature of basic structure (State of Bihar v. Bal Mukund Shah, 2000). The Executive (President) formally appoints *on the binding advice* of the Collegium, preserving constitutional form while ensuring judicial primacy. A wrong answer calling it \"judicial overreach\" ignores that the alternative (executive dominance) was struck down in *SP Gupta v. Union of India (1981)* as violating independence of judiciary — another basic structure feature.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a hypothetical scenario where the Legislature passes a law removing the High Court's writ jurisdiction under Article 226 for a specific category of cases (e.g., service matters). Identify which organ encroaches, which check applies, and which case would decide it.",
+     "a": "Scenario: Parliament enacts \"Tribunal Act, 2025\" excluding High Court jurisdiction under Article 226 for service disputes. Legislature encroaches on Judiciary's constitutional jurisdiction (basic structure: judicial review, access to justice). Check: Judicial Review — Supreme Court strikes it down under *L. Chandra Kumar v. Union of India (1997)* which held Article 226/32 jurisdiction is part of basic structure and cannot be ousted by legislation. A poor answer suggests \"President veto\" (not a check in India) or \"Parliament can amend anything\" (ignores basic structure).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

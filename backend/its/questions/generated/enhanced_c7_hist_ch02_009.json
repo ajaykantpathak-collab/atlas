@@ -27,12 +27,27 @@
     },
     {
      "q": "Evaluate the reliability of Greek ambassador Megasthenes' account of Indian society divided into seven castes or occupations. Is this classification an accurate reflection of the rigid varna system?",
-     "a": "[Answer needed]",
+     "a": "Only partly reliable: Megasthenes counted seven divisions because he recast the four varnas and the many occupational guilds (*shrenis*) he observed in terms familiar to a Greek, so his account describes occupation groups rather than the rigid varna framework. Accepting the seven-fold list as literal fact misses how foreign visitors misread Indian society through their own cultural lens.",
      "self_check": true
     },
     {
      "q": "Megasthenes' seven-fold division (philosophers, farmers, herdsmen, artisans, soldiers, overseers, and councillors) reflects a Greek observer's confusion between the traditional four-fold *varna* system and actual occupational guilds (*shrenis*). A wrong answer accepts Megasthenes' division as an exact description of Indian social structure without considering how foreign visitors often misinterpreted local social realities through their own cultural lens.",
-     "a": "[Answer needed]",
+     "a": "Correct — the seven-fold division blends the traditional four varnas with the actual occupational guilds (*shrenis*), reflecting a Greek outsider's interpretation; taking it as an exact map of Indian society ignores this cultural misreading.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This topic explores how the Mauryan Empire organized its vast agricultural production, taxation systems, urban trade networks, and social ______ across the Indian subcontinent during the 4th to 2nd centuries BCE.",
+     "a": "stratification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine walking through a bustling ancient Indian ______ where merchants sell goods brought from distant provinces along royal highways, while state officials collect taxes in grain and coin.",
+     "a": "marketplace",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Students can analyze how surplus agricultural production, taxation, and trade routes sustained the centralized Mauryan administration, and explain the social division of labor described in contemporary texts like Megasthenes' *Indica* and Kautilya's *Arthashastra*.",
      "self_check": true
     }
    ]

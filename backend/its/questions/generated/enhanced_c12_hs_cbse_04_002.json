@@ -34,6 +34,31 @@
      "q": "Design a cotton blend recipe for 30s Ne open-end rotor yarn for denim warp, using: (a) 28 mm, 4.5 Mic, 26 g/tex, 78% maturity (low-cost Indian cotton), (b) 30 mm, 3.8 Mic, 30 g/tex, 85% maturity (premium cotton). Specify blend ratio, justify based on rotor spinning mechanics, and predict yarn CSP and imperfections/1000m.",
      "a": "Rotor spinning tolerates shorter, coarser fibres but needs strength for denim warp (high tension). Blend 70% (a) + 30% (b). Why: (a) provides bulk, cost advantage, adequate length for rotor (min 22 mm); (b) boosts strength, maturity (reduces ends-down), and fineness (improves yarn evenness). 70/30 balances cost and performance. Predicted CSP: weighted tenacity = 0.7×26 + 0.3×30 = 27.2 g/tex; weighted maturity = 0.7×0.78 + 0.3×0.85 = 0.801. CSP ≈ 1300 × 27.2 × 0.801 ≈ 28,300? Wait — CSP for 30s Ne rotor is typically 1800-2200. Better: CSP = K × tenacity × maturity; for 30s Ne, K ≈ 100. 100 × 27.2 × 0.801 ≈ 2179 — meets denim warp minimum (~2000). Imperfections: rotor yarn has fewer thin places but more thick/neps. Blend maturity 80.1% → moderate neps. Expect 80-100 imperfections/1000m (Classimat). A poor answer uses 50/50 \"to balance\" without justifying rotor's tolerance for short fibre — missing that rotor doesn't need long staple, so premium cotton % should be minimized for cost.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cotton fibre is a natural cellulosic seed fibre obtained from the seed boll of Gossypium species, composed of 90-95% cellulose with a twisted ribbon-like morphology, whose length, fineness, maturity, and strength determine its ______ and end-use performance in textiles.",
+     "a": "spinnability",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a textile technologist at a ______ mill in Coimbatore.",
+     "a": "spinning",
+     "self_check": true
+    },
+    {
+     "q": "What is Cotton fibre? State the definition given in this lesson.",
+     "a": "Cotton fibre is a natural cellulosic seed fibre obtained from the seed boll of Gossypium species, composed of 90-95% cellulose with a twisted ribbon-like morphology, whose length, fineness, maturity, and strength determine its spinnability and end-use performance in textiles.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The production manager asks: \"Can we spin ______s Ne compact yarn for premium shirting, or should we blend?\" To answer, you must connect fibre length to spinning limit (Hegde's formula), micronaire to yarn evenness and neps, strength to breakage rate, and maturity to dye uptake.",
+     "a": "60",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Classify cotton by staple length and grade, linking each class to specific yarn counts and fabric end-uses with justification; (2) Explain how fibre properties (maturity ratio, micronaire, trash content) affect processing behaviour at blowroom, carding, and spinning stages; (3) Evaluate a given cotton.",
+     "self_check": true
     }
    ]
   }

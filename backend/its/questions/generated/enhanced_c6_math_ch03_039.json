@@ -34,6 +34,26 @@
      "q": "Create a scenario using everyday objects (like pencils or apples) where you would use a fraction. Explain why you used those specific numbers.",
      "a": "A good answer would involve a clear \"whole\" (e.g., a packet of 6 pencils) and a \"part\" (e.g., taking 2 pencils out). A poor answer fails to ensure the parts are \"equal\" or misidentifies the total as the numerator.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A fraction ______ a part of a whole, where a \"whole\" is divided into equal segments.",
+     "a": "represents",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have one round roti and you want to share it ______ with a friend.",
+     "a": "equally",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to visually represent a fraction, identify the numerator and denominator, and explain that a larger denominator means smaller individual pieces when sharing a single whole.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you have one round roti and you want to share it equally with a friend.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

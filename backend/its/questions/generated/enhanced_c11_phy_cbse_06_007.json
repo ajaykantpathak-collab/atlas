@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a metre rule, a triangular prism as fulcrum, and known masses to verify the Principle of Moments for a lever with three forces: two on one side of the fulcrum and one on the other. Describe the procedure, measurements, and how you would analyse the data.",
      "a": "Procedure: (1) Balance the empty metre rule on the prism to find its centre of gravity (should be at 50 cm for uniform rule). (2) Place the fulcrum at the 50 cm mark. (3) Suspend a 50 g mass at 20 cm mark and a 30 g mass at 35 cm mark (both on left side). (4) Find the position on the right side where a 100 g mass balances the rule. (5) Calculate Στ_left = (50g×30) + (30g×15) and Στ_right = 100g×d. Verify equality. Analysis: Plot Στ_left vs Στ_right for multiple trials; slope should be 1. A poor answer reveals inability to handle multiple forces on one side or confusion about sign conventions for moments.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Principle of Moments states that for a rigid body in rotational equilibrium under the action of coplanar forces, the algebraic sum of the moments (torques) of all forces about any point in the plane is zero; equivalently, the sum of clockwise moments equals the sum of ______ moments about the fulcrum.",
+     "a": "anticlockwise",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a see-saw in a playground: two children of different masses can balance by adjusting their ______ from the central pivot.",
+     "a": "distances",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This connects directly to the rotational equilibrium condition (Στ = ______) studied in the previous node on Equilibrium of a Rigid Body.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can identify all forces acting on a lever system, correctly compute perpendicular distances from the fulcrum, apply the principle Στ_clockwise = Στ_anticlockwise to solve for unknown forces or distances, and calculate mechanical advantage for real-world levers like see-saws, crowbars, and beam balances.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a see-saw in a ______: two children of different masses can balance by adjusting their distances from the central pivot.",
+     "a": "playground",
+     "self_check": true
     }
    ]
   }

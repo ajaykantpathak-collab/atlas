@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_09_003",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_09_003",
+   "title": "c12_leg_cbse_09_003",
+   "questions": [
+    {
+     "q": "Define actus reus and mens rea in one sentence each, and state the Latin maxim that encapsulates their relationship.",
+     "a": "Actus reus is a voluntary act or illegal omission prohibited by law; mens rea is the guilty intention or knowledge accompanying the act. The maxim is *actus non facit reum nisi mens sit rea* — an act does not make one guilty unless the mind is also guilty. A wrong answer (e.g., defining actus reus as \"the crime itself\" or mens rea as \"motive\") reveals the student conflates the physical act with the legal definition of crime, or confuses intention with the underlying reason for acting.",
+     "self_check": true
+    },
+    {
+     "q": "A lifeguard on duty sees a child drowning but deliberately does nothing because he dislikes the child's parents. The child dies. The lifeguard is charged under IPC. Explain whether actus reus exists here, and why this is different from a bystander who also does nothing.",
+     "a": "Yes, actus reus exists for the lifeguard because Section 32 IPC includes \"illegal omissions\" — his legal duty to act (arising from his employment) makes his inaction a punishable omission. The bystander has only a moral duty, not a legal one, so no actus reus. A wrong answer (e.g., \"both are guilty\" or \"neither is guilty\") reveals the student does not grasp that actus reus can be an omission *only when a legal duty exists*, confusing moral obligation with legal duty.",
+     "self_check": true
+    },
+    {
+     "q": "Mayer Hans George (a German national) was caught at Bombay airport with 34 kg of gold, violating a RBI notification issued 4 days earlier. He claimed he didn't know the law. The Supreme Court convicted him. Using *State of Maharashtra v. Mayer Hans George (1965)*, explain why mens rea was *not* required for this offence.",
+     "a": "The Court held that mens rea can be excluded by *express statutory language* or *necessary implication* where the statute's object (preventing gold smuggling, a grave economic threat) would be defeated if knowledge of the law were required. The Foreign Exchange Regulation Act imposed strict liability. A wrong answer (e.g., \"he knew gold was illegal everywhere\" or \"ignorance of law is no excuse\") reveals the student applies the general maxim *ignorantia juris non excusat* mechanically, missing the nuanced judicial test: **whether the statute's purpose requires exclusion of mens rea**.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: (a) Preparation to commit dacoity (Section 399 IPC) vs. (b) Preparation to commit theft. Why is (a) punishable but (b) not? What does this reveal about the \"stages of crime\" doctrine?",
+     "a": "Preparation for dacoity is punishable under Section 399 IPC because dacoity is a grave offence against public order (gang robbery with violence); the legislature singled it out as an exception to the general rule that preparation is not punishable. Preparation for theft is not punishable because theft is a less serious property offence and the law waits for an \"attempt\" (direct step towards commission). This reveals that **the stages of crime are not rigid** — the legislature can criminalize preparation for *specific heinous offences* based on policy. A wrong answer (e.g., \"both are punishable\" or \"neither is punishable\") shows the student treats the stages as absolute rules, not default rules with statutory exceptions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"In *R v. Tolson (1889)*, a woman remarried believing her husband dead after 7 years absence. She was acquitted of bigamy. This proves that *honest mistake of fact* always negates mens rea in Indian law.\" Is this correct? Why or why not?",
+     "a": "No, the statement is incorrect. *R v. Tolson* is an English case; Indian law follows the same principle (mistake of fact negates mens rea under Sections 76/79 IPC) but **only if the mistake is honest *and* reasonable**. An unreasonable mistake (e.g., believing a living person is dead without inquiry) may not excuse. Also, mistake of *law* (ignorantia juris) is no defence. A wrong answer (e.g., \"yes, it proves mistake of fact always works\") reveals the student treats a foreign precedent as binding Indian law and ignores the \"reasonableness\" requirement and the law/fact distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario (3-4 sentences) where a person commits an act that *looks* like theft (actus reus present) but has *no mens rea* because of a genuine mistake of fact. Explain why they should be acquitted.",
+     "a": "Example: \"A picks up an identical umbrella from a restaurant stand, honestly believing it is his own. He takes it home. Later he realizes it belongs to B.\" Actus reus (taking movable property without consent) exists, but mens rea is absent because A lacked *dishonest intention* — he believed the property was his (mistake of fact under Section 79 IPC). Acquittal follows because *both* elements must coexist. A poor answer (e.g., \"he didn't mean to steal\" without identifying the mistake of fact) shows the student cannot articulate the *legal* basis for negating mens rea, relying on moral language instead of statutory provisions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

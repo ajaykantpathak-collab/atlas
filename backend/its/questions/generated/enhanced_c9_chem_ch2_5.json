@@ -34,6 +34,31 @@
      "q": "Create an analogy using a real-life Indian context (e.g., Aadhaar card, vehicle registration, school roll number) to explain the difference between atomic number and mass number to a Class 8 student. Your analogy must distinguish \"identity\" from \"variable weight\".",
      "a": "Good answer example: \"Atomic number is like your Aadhaar number — unique, permanent, defines who you are. Mass number is like your total weight (body + backpack) — it can change if you add/remove items (neutrons) but your Aadhaar (protons) stays the same.\" A poor answer that uses only \"roll number\" for both, or says mass number is also fixed, shows the student cannot conceptually separate the defining property (protons) from the variable property (neutrons).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Atomic number (Z) is the number of protons in the nucleus of an atom, which uniquely ______ an element and equals the number of electrons in a neutral atom.",
+     "a": "identifies",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at a ______ table — every element has a unique integer (1 for Hydrogen, 6 for Carbon, 17 for Chlorine) that never changes; that is the atomic number, the count of protons.",
+     "a": "periodic",
+     "self_check": true
+    },
+    {
+     "q": "What is Atomic number (Z)? State the definition given in this lesson.",
+     "a": "Atomic number (Z) is the number of protons in the nucleus of an atom, which uniquely identifies an element and equals the number of electrons in a neutral atom.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Atomic number (Z)?",
+     "a": "Students frequently write the nuclear notation with atomic number as superscript and mass number as subscript (e.g., ^12_24 Mg instead of ^24_12 Mg).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can define atomic number and mass number precisely, calculate the number of protons, neutrons, and electrons given Z and A (and charge), write the standard nuclear notation ^A_Z X, and explain why atomic number determines elemental identity while mass number does not.",
+     "self_check": true
     }
    ]
   }

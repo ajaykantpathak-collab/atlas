@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_07_006",
+   "title": "c12_leg_cbse_07_006",
+   "questions": [
+    {
+     "q": "State the three constitutional provisions that form the core of India's environmental jurisprudence and explain how Article 21 has been judicially expanded to include environmental rights.",
+     "a": "The three provisions are Article 21 (Right to Life), Article 48A (Directive Principle: State shall protect environment), and Article 51A(g) (Fundamental Duty: citizens shall protect environment). Article 21 has been expanded by the Supreme Court (e.g., *Subhash Kumar v. State of Bihar*, *Virender Gaur v. State of Haryana*) to include the right to clean air, water, and a wholesome environment as facets of \"life\" — not mere animal existence. A wrong answer that lists only statutes (e.g., EPA 1986) or omits Article 51A(g) reveals the student sees environmental law as purely statutory, missing the constitutional foundation that makes it enforceable against both State and citizens.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between the \"precautionary principle\" and the \"polluter pays principle\" in the context of Indian environmental law. Give one example of how each has been applied by the Supreme Court or NGT.",
+     "a": "The precautionary principle (from *Vellore Citizens* case) mandates that lack of scientific certainty shall not postpone cost-effective measures to prevent environmental degradation — the burden of proof is on the developer to show *no harm*. The polluter pays principle (from *Indian Council for Enviro-Legal Action* and *Oleum Gas Leak* cases) holds that the polluter must bear the cost of pollution prevention, control, and remediation — including compensation to victims. Example: Precautionary — NGT staying a project until cumulative impact assessment is done (e.g., *Yamuna Muktikaran Abhiyan*). Polluter Pays — *Oleum Gas Leak* case where Shriram Foods was made to pay compensation and relocate. A wrong answer that conflates the two or cites only statutory definitions (not judicial evolution) shows the student hasn't grasped how Indian courts *created* these principles as part of \"law declared by Supreme Court\" under Article 141.",
+     "self_check": true
+    },
+    {
+     "q": "A thermal power plant is proposed in a critically polluted area (CPA) as per CPCB's Comprehensive Environmental Pollution Index (CEPI). The EIA report claims \"negligible impact\" but ignores cumulative pollution from three existing plants within 10 km. As a legal advisor to the affected village panchayat, list the specific legal grounds under the EIA Notification 2006 and NGT Act 2010 to challenge the environmental clearance.",
+     "a": "Grounds: (1) Violation of EIA Notification 2006, Schedule/Clause requiring cumulative impact assessment for projects in CPAs — the report's omission makes the clearance *void ab initio* (per *Lafarge Umiam Mining* case). (2) Breach of precautionary principle — the State cannot permit further pollution in a CPA without carrying capacity study (per *Vellore Citizens*). (3) Violation of Section 14/15 NGT Act 2010 — the NGT can set aside clearance for \"substantial question relating to environment.\" (4) Non-compliance with public hearing process under EIA Notification if objections on cumulative impact were ignored. A wrong answer citing only \"violation of EPA 1986\" without specifying the EIA Notification's cumulative impact mandate or NGT's suo motu powers reveals the student cannot translate principles into procedural legal strategy — a key board/competitive exam skill.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the jurisdiction and powers of the Central Pollution Control Board (CPCB) and the National Green Tribunal (NGT) in enforcing sustainable development. Which body can award compensation to victims of pollution? Why?",
+     "a": "CPCB (statutory under Water Act 1974/Air Act 1981) has *advisory, standard-setting, coordination, and direction-issuing powers* — it can direct SPCBs, set emission/effluent standards, and issue closure directions under Section 5 EPA 1986, but *cannot adjudicate disputes or award compensation*. NGT (statutory under NGT Act 2010) is a *specialized environmental court* with *original and appellate jurisdiction* over substantial questions of environment (Schedule I laws). It *can* award compensation (Section 15 NGT Act), order restitution, and impose penalties — applying polluter pays principle directly. The NGT's judicial powers (civil court powers under Section 19) make it the only body that can grant victim compensation. A wrong answer saying \"CPCB can fine polluters\" confuses *direction-issuing* with *adjudication* — a fatal error in board exams where distinction between regulatory and judicial functions is tested.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The Sustainable Development Goals (SDGs) are merely aspirational and have no legal force in India unless incorporated into domestic legislation.\" Support your answer with constitutional provisions and judicial precedents.",
+     "a": "The statement is *partially incorrect*. While SDGs (UNGA Resolution 70/1, 2015) are not self-executing treaties, they have *interpretive force* in Indian law: (1) Article 51(c) directs the State to \"foster respect for international law and treaty obligations\" — courts use SDGs to interpret constitutional provisions (e.g., *People's Union for Civil Liberties v. Union of India* on right to food linking SDG 2). (2) NGT has used SDGs (e.g., SDG 6, 13, 15) to fill gaps in domestic law (*M.C. Mehta v. Union of India* on Yamuna rejuvenation). (3) The *Preamble* and *Directive Principles* (Art 38, 39, 47, 48A) align with SDGs — courts treat them as \"constitutional mandates\" not mere aspirations. However, SDGs *cannot* create new legal rights absent legislation. A wrong answer saying \"SDGs are binding\" or \"SDGs are irrelevant\" misses the nuanced *dualist* approach of Indian courts: international soft law informs constitutional interpretation but doesn't override statutory gaps.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 150-word legal notice on behalf of a resident welfare association to a State Pollution Control Board, demanding action against a hospital illegally dumping biomedical waste in violation of the Biomedical Waste Management Rules, 2016. Cite specific statutory provisions and the constitutional duty violated.",
+     "a": "A strong notice includes: (1) Address to Member Secretary, SPCB under Water/Air Acts. (2) Facts: Hospital X at [address] dumping untreated biomedical waste (yellow/red bags) in municipal dump since [date], witnessed by residents. (3) Violations: Rule 4/5/7 BMW Rules 2016 (segregation, treatment, disposal); Section 15 EPA 1986 (penalty); Section 33A Water Act / Section 31A Air Act (emergency closure powers). (4) Constitutional breach: Article 21 (right to health), Article 48A (State duty), Article 51A(g) (citizen duty). (5) Demand: Immediate inspection, show-cause notice, closure direction under Section 5 EPA, and prosecution within 15 days. (6) Warning: Will approach NGT under Section 14/15 NGT Act 2010 if no action. A poor notice citing only \"pollution is bad\" or missing BMW Rules 2016 specifics shows the student cannot convert textbook knowledge into legal drafting — a CUET/IPMAT skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -22,15 +22,33 @@
     "what is the parity of the square of an odd number",
     "check whether 1057 is a perfect square"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "inspect the units digit",
-     "explain": "Digits 2, 3, 7, 8 immediately disqualify a number."},
-    {"step": 2, "action": "test by odd subtraction",
-     "explain": "Subtract 1, 3, 5 ... ; reaching exactly 0 proves a perfect square."},
-    {"step": 3, "action": "confirm by factors",
-     "explain": "Pairing prime factors into equal pairs confirms the square."}
-   ]
+    {
+     "step": 1,
+     "action": "inspect the units digit",
+     "explain": "Digits 2, 3, 7, 8 immediately disqualify a number."
+    },
+    {
+     "step": 2,
+     "action": "test by odd subtraction",
+     "explain": "Subtract 1, 3, 5 ... ; reaching exactly 0 proves a perfect square."
+    },
+    {
+     "step": 3,
+     "action": "confirm by factors",
+     "explain": "Pairing prime factors into equal pairs confirms the square."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "square the given number using the stated square rule",
+     "explain": "square the given number using the stated square rule: sq = 37 ** 2 gives 1369",
+     "compute": "sq = 37 ** 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hemh.105.5.2",
@@ -50,12 +68,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "square the odd seed",
+    {
+     "step": 1,
+     "action": "square the odd seed",
      "explain": "Compute m squared.",
-     "compute": "sq = m * m"},
-    {"step": 2, "action": "form the two legs",
+     "compute": "sq = m * m"
+    },
+    {
+     "step": 2,
+     "action": "form the two legs",
      "explain": "Half of sq minus 1 and half of sq plus 1 give the other members.",
-     "compute": "leg = (sq - 1) / 2"}
+     "compute": "leg = (sq - 1) / 2"
+    }
    ]
   },
   {
@@ -76,12 +100,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "write the nth odd number",
+    {
+     "step": 1,
+     "action": "write the nth odd number",
      "explain": "The nth odd number equals 2n - 1.",
-     "compute": "next_odd = 2 * n - 1"},
-    {"step": 2, "action": "add to the previous square",
+     "compute": "next_odd = 2 * n - 1"
+    },
+    {
+     "step": 2,
+     "action": "add to the previous square",
      "explain": "Each square exceeds the previous one by the nth odd number.",
-     "compute": "next_square = prev_square + next_odd"}
+     "compute": "next_square = prev_square + next_odd"
+    }
    ]
   },
   {
@@ -102,12 +132,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "square the two parts",
+    {
+     "step": 1,
+     "action": "square the two parts",
      "explain": "Compute a squared and b squared.",
-     "compute": "sq_terms = a * a + b * b"},
-    {"step": 2, "action": "add twice the cross product",
+     "compute": "sq_terms = a * a + b * b"
+    },
+    {
+     "step": 2,
+     "action": "add twice the cross product",
      "explain": "The identity completes the square of the sum.",
-     "compute": "value = sq_terms + 2 * a * b"}
+     "compute": "value = sq_terms + 2 * a * b"
+    }
    ]
   },
   {
@@ -128,9 +164,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "take the square root",
+    {
+     "step": 1,
+     "action": "take the square root",
      "explain": "The root is the number whose square gives the original.",
-     "compute": "root = sqrt(number)"}
+     "compute": "root = sqrt(number)"
+    }
    ]
   }
  ],
@@ -145,12 +184,18 @@
     "m": "the given odd member of the triplet"
    },
    "solution_template": [
-    {"step": 1, "action": "square the seed",
+    {
+     "step": 1,
+     "action": "square the seed",
      "explain": "Compute m squared.",
-     "compute": "sq = m * m"},
-    {"step": 2, "action": "form the smaller leg",
+     "compute": "sq = m * m"
+    },
+    {
+     "step": 2,
+     "action": "form the smaller leg",
      "explain": "Half of sq minus 1.",
-     "compute": "leg = (sq - 1) / 2"}
+     "compute": "leg = (sq - 1) / 2"
+    }
    ]
   },
   {
@@ -163,12 +208,18 @@
     "m": "odd seed of the triplet"
    },
    "solution_template": [
-    {"step": 1, "action": "square the seed",
+    {
+     "step": 1,
+     "action": "square the seed",
      "explain": "m squared drives the formula.",
-     "compute": "sq = m * m"},
-    {"step": 2, "action": "form the smaller leg",
+     "compute": "sq = m * m"
+    },
+    {
+     "step": 2,
+     "action": "form the smaller leg",
      "explain": "Half of the square minus one.",
-     "compute": "leg = (sq - 1) / 2"}
+     "compute": "leg = (sq - 1) / 2"
+    }
    ]
   },
   {
@@ -183,12 +234,18 @@
     "b": "the smaller part"
    },
    "solution_template": [
-    {"step": 1, "action": "square the parts",
+    {
+     "step": 1,
+     "action": "square the parts",
      "explain": "Compute a squared and b squared.",
-     "compute": "sq_terms = a * a + b * b"},
-    {"step": 2, "action": "add twice the product",
+     "compute": "sq_terms = a * a + b * b"
+    },
+    {
+     "step": 2,
+     "action": "add twice the product",
      "explain": "2ab completes the square of the sum.",
-     "compute": "value = sq_terms + 2 * a * b"}
+     "compute": "value = sq_terms + 2 * a * b"
+    }
    ]
   },
   {
@@ -203,12 +260,18 @@
     "b": "remaining part"
    },
    "solution_template": [
-    {"step": 1, "action": "square the parts",
+    {
+     "step": 1,
+     "action": "square the parts",
      "explain": "Easy squares of a and b.",
-     "compute": "sq_terms = a * a + b * b"},
-    {"step": 2, "action": "add twice the product",
+     "compute": "sq_terms = a * a + b * b"
+    },
+    {
+     "step": 2,
+     "action": "add twice the product",
      "explain": "Double the cross product joins them.",
-     "compute": "value = sq_terms + 2 * a * b"}
+     "compute": "value = sq_terms + 2 * a * b"
+    }
    ]
   },
   {
@@ -222,12 +285,18 @@
     "prev_square": "square of n minus 1"
    },
    "solution_template": [
-    {"step": 1, "action": "write the nth odd number",
+    {
+     "step": 1,
+     "action": "write the nth odd number",
      "explain": "2n minus 1 is the nth odd number.",
-     "compute": "next_odd = 2 * n - 1"},
-    {"step": 2, "action": "add to the previous square",
+     "compute": "next_odd = 2 * n - 1"
+    },
+    {
+     "step": 2,
+     "action": "add to the previous square",
      "explain": "The sum is the next square.",
-     "compute": "next_square = prev_square + next_odd"}
+     "compute": "next_square = prev_square + next_odd"
+    }
    ]
   },
   {
@@ -241,12 +310,18 @@
     "prev_square": "known earlier square"
    },
    "solution_template": [
-    {"step": 1, "action": "write the nth odd number",
+    {
+     "step": 1,
+     "action": "write the nth odd number",
      "explain": "Compute 2n minus 1.",
-     "compute": "next_odd = 2 * n - 1"},
-    {"step": 2, "action": "add to the previous square",
+     "compute": "next_odd = 2 * n - 1"
+    },
+    {
+     "step": 2,
+     "action": "add to the previous square",
      "explain": "The next square follows.",
-     "compute": "next_square = prev_square + next_odd"}
+     "compute": "next_square = prev_square + next_odd"
+    }
    ]
   },
   {
@@ -259,9 +334,12 @@
     "number": "the perfect square given"
    },
    "solution_template": [
-    {"step": 1, "action": "take the square root",
+    {
+     "step": 1,
+     "action": "take the square root",
      "explain": "The root is the side whose square rebuilds the number.",
-     "compute": "root = sqrt(number)"}
+     "compute": "root = sqrt(number)"
+    }
    ]
   },
   {
@@ -274,9 +352,12 @@
     "number": "area of the square"
    },
    "solution_template": [
-    {"step": 1, "action": "take the square root",
+    {
+     "step": 1,
+     "action": "take the square root",
      "explain": "The side is the root of the area.",
-     "compute": "root = sqrt(number)"}
+     "compute": "root = sqrt(number)"
+    }
    ]
   }
  ],
@@ -285,26 +366,26 @@
    "id": "ex5.1",
    "source_ref": "hemh105.txt EXERCISE 5.1-5.2",
    "questions": [
-     "What will be the unit digit of the squares of the given numbers?",
-     "Observe the pattern and find the missing square numbers.",
-     "How many numbers lie between the squares of the given pairs?"
+    "What will be the unit digit of the squares of the given numbers?",
+    "Observe the pattern and find the missing square numbers.",
+    "How many numbers lie between the squares of the given pairs?"
    ]
   },
   {
    "id": "ex5.2",
    "source_ref": "hemh105.txt EXERCISE 5.3-5.4",
    "questions": [
-     "Find the square of the given numbers without actual multiplication.",
-     "Write a Pythagorean triplet whose one member is 15.",
-     "Express 81 as the sum of successive odd numbers."
+    "Find the square of the given numbers without actual multiplication.",
+    "Write a Pythagorean triplet whose one member is 15.",
+    "Express 81 as the sum of successive odd numbers."
    ]
   },
   {
    "id": "ex5.3",
    "source_ref": "hemh105.txt EXERCISE 5.5",
    "questions": [
-     "Find the square root of each of the given numbers by division method.",
-     "Find the smallest number by which 3645 must be divided to get a perfect square."
+    "Find the square root of each of the given numbers by division method.",
+    "Find the smallest number by which 3645 must be divided to get a perfect square."
    ]
   }
  ]

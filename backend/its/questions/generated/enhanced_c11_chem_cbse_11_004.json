@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_11_004",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_11_004",
+   "title": "c11_chem_cbse_11_004",
+   "questions": [
+    {
+     "q": "State the molecular formula of benzene and the Hückel rule condition for aromaticity. How many π-electrons does benzene have, and what is the value of n?",
+     "a": "Benzene: C₆H₆. Hückel rule: (4n+2) π-electrons, n = 0, 1, 2… Benzene has 6 π-electrons (3 π-bonds × 2 e⁻), so 4n+2 = 6 → n = 1. A wrong answer (e.g., \"4 π-electrons\" or \"n=0\") reveals the student is counting double bonds literally instead of understanding delocalisation, or misapplying the formula without linking it to the cyclic conjugated system.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why benzene does not undergo addition reactions (like with Br₂/CHCl₃ or cold dilute KMnO₄) under normal conditions, whereas ethene does readily.",
+     "a": "Benzene's π-electrons are fully delocalised over six carbons, giving a resonance-stabilised aromatic sextet (extra stability ~150 kJ/mol). Addition would destroy this delocalisation by converting sp² carbons to sp³, losing aromaticity. Ethene has localised π-bonds; addition simply converts a π-bond to a σ-bond with no such penalty. A student who says \"benzene has no double bonds\" or \"benzene is saturated\" confuses equivalence of bonds with absence of unsaturation — the key is delocalisation energy, not bond count.",
+     "self_check": true
+    },
+    {
+     "q": "Write the balanced chemical equation for the nitration of benzene using conc. HNO₃ and conc. H₂SO₄. Identify the electrophile and show its generation from the acids.",
+     "a": "Electrophile generation: HNO₃ + H₂SO₄ ⇌ H₂NO₃⁺ + HSO₄⁻ (protonation); H₂NO₃⁺ → NO₂⁺ + H₂O (loss of water). Nitration: C₆H₆ + NO₂⁺ → C₆H₅NO₂ + H⁺ (overall: C₆H₆ + HNO₃ → C₆H₅NO₂ + H₂O, with H₂SO₄ catalyst). Steps: (1) H₂SO₄ protonates HNO₃; (2) H₂O leaves forming NO₂⁺; (3) NO₂⁺ attacks benzene ring forming arenium ion; (4) HSO₄⁻ abstracts H⁺ restoring aromaticity. A wrong equation (e.g., missing H₂O, wrong electrophile NO₃⁻) shows the student treats it as a simple acid-base reaction rather than electrophile generation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the directive effects of –OH (phenol) and –NO₂ (nitrobenzene) in electrophilic substitution. Draw resonance structures to justify why –OH is ortho/para directing and activating while –NO₂ is meta directing and deactivating.",
+     "a": "–OH: Lone pair on O delocalises into ring via resonance, placing negative charge at ortho/para positions → increased electron density at o/p → activates ring, directs o/p. Resonance structures show O⁺ with ring bearing negative charge at o/p. –NO₂: Strong –I and –R effects withdraw electron density from ring; resonance structures place positive charge at ortho/para positions → these positions become electron-deficient → meta position is relatively electron-rich → substitution occurs at meta. Deactivating because overall ring electron density decreases. A student who only cites inductive effect for –OH (ignoring resonance donation) or claims –NO₂ directs ortho/para due to resonance fails to distinguish +R vs –R and misassigns charge distribution in the σ-complex.",
+     "self_check": true
+    },
+    {
+     "q": "A student performs Friedel–Crafts alkylation of benzene with 1-chloropropane (CH₃CH₂CH₂Cl) and anhydrous AlCl₃. They isolate isopropylbenzene (cumene) as the major product, not n-propylbenzene. Evaluate whether this result is expected and explain the reason.",
+     "a": "Yes, expected. 1-Chloropropane with AlCl₃ generates a primary carbocation (CH₃CH₂CH₂⁺) which is unstable; it rapidly rearranges via hydride shift to the more stable secondary carbocation (CH₃CH⁺CH₃). This attacks benzene to give isopropylbenzene. Friedel–Crafts alkylation is prone to carbocation rearrangements; the product reflects the stability of the actual electrophile, not the original alkyl halide. A student who says \"n-propylbenzene should form because the halide is 1-chloropropane\" ignores carbocation stability and rearrangement — a classic error in predicting FC products.",
+     "self_check": true
+    },
+    {
+     "q": "Design a two-step synthesis to convert benzene to p-nitrobenzoic acid. Specify reagents and conditions for each step. Explain why the order of steps matters.",
+     "a": "Step 1: Friedel–Crafts acylation with CH₃COCl/AlCl₃ → acetophenone (C₆H₅COCH₃). Step 2: Oxidation of side chain with hot alkaline KMnO₄ followed by acid workup → benzoic acid. Step 3: Nitration with conc. HNO₃/H₂SO₄ → p-nitrobenzoic acid (COOH is meta-directing, but wait — COOH is meta-directing! Correction: acylation first gives acetophenone; –COCH₃ is ortho/para directing. Nitration of acetophenone gives p-nitroacetophenone. Then oxidation of –COCH₃ to –COOH yields p-nitrobenzoic acid. Order matters: if nitration done first, –NO₂ is meta-directing, so further substitution gives m-dinitrobenzene, not p-substituted product. A poor answer attempts nitration first, ignoring directive effects, or uses alkylation (which rearranges) instead of acylation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

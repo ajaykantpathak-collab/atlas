@@ -34,6 +34,36 @@
      "q": "Design a hypothetical 40-residue protein that would form a stable homodimer (quaternary structure) but each monomer remains unstructured in isolation. Describe the sequence features you would include at each structural level to achieve this.",
      "a": "Primary: Two domains — N-terminal 20 residues rich in hydrophobic residues (Leu, Ile, Val) for dimer interface; C-terminal 20 residues with charged/polar residues (Lys, Glu, Gln) for solubility. Secondary: Monomer has low helical propensity (high Pro/Gly) to prevent folding alone. Tertiary: No stable tertiary fold in monomer. Quaternary: Hydrophobic patches from two monomers associate to form a stable dimer interface, burying nonpolar surface area. A poor answer ignores the coupling between levels (e.g., designing a stable monomer fold) or omits specific residue-level rationale.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Protein structure is organized into four ______ levels: primary (linear amino acid sequence linked by peptide bonds), secondary (local folding into α-helices and β-pleated sheets stabilized by backbone hydrogen bonds), tertiary (overall three-dimensional conformation of a single polypeptide chain stabilized by side-chain interactions including disulfide bonds, hydrophobic interactions, hydrogen bonds, and ionic bonds), and quaternary (spatial arrangement of multiple polypeptide subunits into a functional protein complex).",
+     "a": "hierarchical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a long beaded necklace where each bead is an ______ acid with a unique shape and stickiness.",
+     "a": "amino",
+     "self_check": true
+    },
+    {
+     "q": "What is Protein structure? State the definition given in this lesson.",
+     "a": "Protein structure is organized into four hierarchical levels: primary (linear amino acid sequence linked by peptide bonds), secondary (local folding into α-helices and β-pleated sheets stabilized by backbone hydrogen bonds), tertiary (overall three-dimensional conformation of a single polypeptide chain stabilized by side-chain.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Next, the coiled/folded string crumples into a precise ______D globule as distant beads interact — that's tertiary structure.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Protein structure?",
+     "a": "Students often believe that hydrogen bonds in secondary structures form between side chains (R groups) rather than between backbone carbonyl oxygen and amide hydrogen.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly assign a given structural feature (e.g., disulfide bond, α-helix, subunit assembly) to its appropriate structural level and explain how the sequence of amino acids determines the final functional conformation through hierarchical folding.",
+     "self_check": true
     }
    ]
   }

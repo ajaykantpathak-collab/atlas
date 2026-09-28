@@ -34,6 +34,31 @@
      "q": "Create a decimal number where the digit 4 has a value of 0.004 and the digit 7 has a value of 70.",
      "a": "A correct answer is 70.004 or 72.404 (as long as 4 is in the thousandths place and 7 is in the tens place). An incorrect answer reveals the student cannot correctly map the digit to its required fractional or whole-number position.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Place value in decimals is an extension of the whole number system, where digits to the right of the decimal point represent fractions of a whole, ______ tenths (1/10), hundredths (1/100), and thousandths (1/1000).",
+     "a": "specifically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever looked at a price tag like ₹45.75 and wondered why the 7 and 5 aren't just ______ numbers?",
+     "a": "whole",
+     "self_check": true
+    },
+    {
+     "q": "What is Place value in decimals? State the definition given in this lesson.",
+     "a": "Place value in decimals is an extension of the whole number system, where digits to the right of the decimal point represent fractions of a whole, specifically tenths (1/10), hundredths (1/100), and thousandths (1/1000).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Place value in decimals?",
+     "a": "Students often treat the digits to the right of the decimal point as whole numbers, believing that 0.45 is larger than 0.6 because \"45 is bigger than 6.\" This happens because they ignore the place value (tenths vs. hundredths) and only look at the face value of the digits.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify the place value of any digit in a decimal number up to three decimal places and express that digit as both a fraction and a decimal value.",
+     "self_check": true
     }
    ]
   }

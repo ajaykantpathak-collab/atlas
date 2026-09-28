@@ -34,6 +34,36 @@
      "q": "Create a 3-day cyclic menu for a 50-year-old male post-MI patient (sedentary, 1800 kcal) that incorporates traditional North Indian foods (e.g., dal, roti, sabzi, dahi) while meeting CVD therapeutic targets. Provide a table with meals, major food groups, and key nutrient highlights (sodium, saturated fat, fiber, potassium) for each day.",
      "a": "**Day 1:** Breakfast: 1 multigrain roti (30 g whole wheat + 10 g oats flour), 100 g low-fat dahi, 50 g methi leaves sautéed in 2 g olive oil. Lunch: 1 katori (150 g) moong dal, 1 katori (100 g) lauki sabzi (no added salt), 2 multigrain rotis, salad (cucumber, tomato, lemon). Dinner: 100 g grilled fish (rohu), 100 g brown rice, 100 g palak sabzi (steamed), 1 small orange.  \n**Day 2:** Breakfast: 1 besan cheela (30 g besan + spinach), 100 g mint-coriander chutney (no salt), 100 g low-fat milk. Lunch: 1 katori rajma (kidney beans), 1 katori bhindi sabzi (air-fried), 2 rotis, 100 g curd. Dinner: 100 g tofu stir-fry with mixed veg, 100 g quinoa pulao, 1 apple.  \n**Day 3:** Breakfast: 1 vegetable dalia (broken wheat) upma with peas, carrots, 2 g olive oil, 100 g buttermilk. Lunch: 1 katori chana dal, 1 katori baingan bharta (roasted, minimal oil), 2 rotis, salad. Dinner: 100 g chicken stew (pressure cooked, no skin), 100 g millet (bajra) roti, 100 g sautéed beans, 1 guava.  \n**Nutrient highlights (per day avg):** Sodium ~1.8 g, Saturated fat ~6 g (≤7% E), Fiber ~30 g, Potassium ~3.8 g.  \nA poor answer that includes pickles, papad, fried snacks, or full-fat dairy shows failure to internalize sodium and saturated fat constraints while maintaining cultural acceptability — a key competency in CBSE case studies.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Therapeutic diets for cardiovascular diseases (CVD) are evidence-based dietary modifications that aim to reduce risk factors (hyperlipidemia, hypertension, ______) by controlling saturated fat, trans fat, cholesterol, sodium, and refined carbohydrates while increasing dietary fiber, omega-3 fatty acids, antioxidants, and plant sterols.",
+     "a": "atherosclerosis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 55-year-old uncle who just had a mild heart attack; the doctor says \"change your diet\" but he loves his daily ______ with butter, pickles, and salty snacks.",
+     "a": "parathas",
+     "self_check": true
+    },
+    {
+     "q": "What is Therapeutic diets for cardiovascular diseases (CVD)? State the definition given in this lesson.",
+     "a": "Therapeutic diets for cardiovascular diseases (CVD) are evidence-based dietary modifications that aim to reduce risk factors (hyperlipidemia, hypertension, atherosclerosis) by controlling saturated fat, trans fat, cholesterol, sodium, and refined carbohydrates while increasing dietary fiber, omega-3 fatty acids, antioxidants, and plant.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Therapeutic diets for cardiovascular diseases (CVD) are evidence-based dietary modifications that aim to reduce risk factors (hyperlipidemia, hypertension, atherosclerosis) by controlling saturated fat, trans fat, cholesterol, sodium, and refined carbohydrates while increasing dietary fiber, omega-______ fatty acids, antioxidants, and plant sterols.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Therapeutic diets for cardiovascular diseases (CVD)?",
+     "a": "Students often believe \"cholesterol-free\" labels on plant oils (e.g., \"zero cholesterol\" on sunflower oil bottles) mean the oil is automatically heart-healthy for CVD patients.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can design a one-day therapeutic menu for a CVD patient (e.g., 55-year-old male with hypertension and hypercholesterolemia) that meets ICMR RDAs, provides <7% energy from saturated fat, <200 mg cholesterol, <2 g sodium, and ≥25 g fiber, and justify each food choice with reference to the pathophysiological rationale.",
+     "self_check": true
     }
    ]
   }

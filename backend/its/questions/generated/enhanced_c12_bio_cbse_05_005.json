@@ -34,6 +34,21 @@
      "q": "Design a simple genetic test using only ABO blood grouping to exclude a man from being the biological father of a child. Provide a specific mother-child blood group combination that would make this possible, and explain the logic.",
      "a": "Mother: group O (*ii*), Child: group AB (*I^A I^B*). The child must have inherited *I^A* from one parent and *I^B* from the other. The mother can only contribute *i*, so the father must contribute *I^A* or *I^B*. Any man with blood group O (*ii*) cannot be the father. This works because group O has no A or B allele to pass on. A poor answer chooses mother A, child B — this does not exclude group O fathers because mother could be *I^A i* and father *I^B i*.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Multiple alleles refer to the existence of more than two allelic forms of a gene in a ______, though any individual diploid organism carries only two alleles.",
+     "a": "population",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a blood donation camp in Delhi and see a poster: \"Blood Group O – Universal Donor, Blood Group AB – Universal ______.\" Have you ever wondered why your friend with blood group A cannot donate to you if you are group B?",
+     "a": "Recipient",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) predict all possible genotypes and phenotypes of offspring from any ABO cross, including crosses involving heterozygous parents; (2) explain why an individual with blood group O is a universal donor and AB a universal recipient in terms of antigen-antibody reactions; (3) solve reverse genetics problems (e.g..",
+     "self_check": true
     }
    ]
   }

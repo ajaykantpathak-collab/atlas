@@ -4,15 +4,8 @@
   {
    "id": "fegp.2.1",
    "title": "Point",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "recall the count for the shape",
-     "explain": "recall the count for the shape: lines = 1 gives 1",
-     "compute": "lines = 1"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a kite have?",
@@ -49,15 +42,8 @@
   {
    "id": "fegp.2.2",
    "title": "Line Segment",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "recall the count for the shape",
-     "explain": "recall the count for the shape: lines = 5 gives 5",
-     "compute": "lines = 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a regular pentagon have?",
@@ -94,15 +80,8 @@
   {
    "id": "fegp.2.3",
    "title": "Line",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "recall the count for the shape",
-     "explain": "recall the count for the shape: lines = 5 gives 5",
-     "compute": "lines = 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a regular pentagon have?",
@@ -139,15 +118,8 @@
   {
    "id": "fegp.2.4",
    "title": "Ray",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "recall the count for the shape",
-     "explain": "recall the count for the shape: lines = 3 gives 3",
-     "compute": "lines = 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a equilateral triangle have?",
@@ -184,15 +156,8 @@
   {
    "id": "fegp.2.5",
    "title": "Angle",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 31 gives 59",
-     "compute": "other = 90 - 31"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 31 degrees, find the other.",
@@ -230,6 +195,8 @@
    "id": "fegp.2.8.1",
    "title": "Straight Angle",
    "converted_to_compute": false,
+   "formula": "angle = 180",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 59 degrees, find the other.",
@@ -267,6 +234,8 @@
    "id": "fegp.2.8.2",
    "title": "Right Angle",
    "converted_to_compute": false,
+   "formula": "angle = 90",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 66 degrees, find the other.",
@@ -304,6 +273,8 @@
    "id": "fegp.2.9.1",
    "title": "Angles in a Clock",
    "converted_to_compute": false,
+   "formula": "angle = hours * 30",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 69 degrees, find the other.",
@@ -340,15 +311,9 @@
   {
    "id": "fegp.2.11.1",
    "title": "Acute Angle",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 23 gives 67",
-     "compute": "other = 90 - 23"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "0 < angle < 90",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 23 degrees, find the other.",
@@ -385,15 +350,9 @@
   {
    "id": "fegp.2.11.2",
    "title": "Obtuse Angle",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 62 gives 28",
-     "compute": "other = 90 - 62"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "90 < angle < 180",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 62 degrees, find the other.",
@@ -431,6 +390,8 @@
    "id": "fegp.2.11.3",
    "title": "Reflex Angle",
    "converted_to_compute": false,
+   "formula": "180 < angle < 360",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 56 degrees, find the other.",

@@ -1,6 +1,59 @@
 {
- "catalog": "catalog_class11_biology_ch104",
+ "catalog": "catalog_class11_biology_ch104.json",
  "concepts": [
+  {
+   "id": "kebo.4.1.7",
+   "title": "Estimation of Arthropod Species Count",
+   "converted_to_compute": true,
+   "formula": "arthropod_species = total_species * 2 / 3",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "arthropod_species = total_species * 2 / 3",
+     "compute": "arthropod_species = total_species * 2 / 3"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "kebo.4.1.7",
+     "question_pattern": "calculate the number of arthropod species if total named species is {total_species}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Estimation of Arthropod Species Count: given total_species = 93, find arthropod species.",
+     "a": "62",
+     "self_check": false
+    },
+    {
+     "q": "calculate the number of arthropod species if total named species is 93?",
+     "a": "62",
+     "self_check": false
+    },
+    {
+     "q": "For Estimation of Arthropod Species Count: given total_species = 88, find arthropod species.",
+     "a": "58.6667",
+     "self_check": false
+    },
+    {
+     "q": "calculate the number of arthropod species if total named species is 88?",
+     "a": "58.6667",
+     "self_check": false
+    },
+    {
+     "q": "For Estimation of Arthropod Species Count: given total_species = 44, find arthropod species.",
+     "a": "29.3333",
+     "self_check": false
+    },
+    {
+     "q": "calculate the number of arthropod species if total named species is 44?",
+     "a": "29.3333",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "kebo.4.1.1",
    "title": "Levels of Body Organisation",
@@ -165,37 +218,6 @@
     {
      "q": "Write the standard relation used for 'Higher Non-Chordate Phyla (Annelida to Hemichordata)', in plain ASCII form.",
      "a": "concept method; no single closed formula",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebo.4.1.7",
-   "title": "Estimation of Arthropod Species Count",
-   "questions": [
-    {
-     "q": "Calculate the number of arthropod species if total named species is .... Use the method 'Estimation of Arthropod Species Count'. Work with: total_species = 100. Carry the chain through step by step and give the final value of proportion.",
-     "a": "0.6667 units",
-     "self_check": false
-    },
-    {
-     "q": "How many arthropod species exist out of ... total animal species? Use the method 'Estimation of Arthropod Species Count'. Work with: total_species = 30. Carry the chain through step by step and give the final value of proportion.",
-     "a": "0.6667 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Estimation of Arthropod Species Count' refers to.",
-     "a": "Quantitative calculation of arthropod abundance using the principle that two-thirds of all named animal species on Earth belong to phylum Arthropoda.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Estimation of Arthropod Species Count'.",
-     "a": "Arthropods account for about two-thirds of all described living animal species.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Estimation of Arthropod Species Count', in plain ASCII form.",
-     "a": "arthropod_species = total_species * 2 / 3",
      "self_check": true
     }
    ]

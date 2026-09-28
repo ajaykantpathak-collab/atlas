@@ -34,6 +34,16 @@
      "q": "Create a function of the form \\( y = [u(x)]^{v(x)} \\) where \\( u(x) \\) and \\( v(x) \\) are non-constant differentiable functions, such that its derivative using logarithmic differentiation simplifies to a form without logarithms. Provide the function and its simplified derivative.",
      "a": "Example: \\( y = x^{\\ln x} \\) (for \\( x > 0 \\)). Then \\( \\ln y = \\ln x \\cdot \\ln x = (\\ln x)^2 \\). Differentiate: \\( \\frac{1}{y} y' = 2 \\ln x \\cdot \\frac{1}{x} \\). So \\( y' = x^{\\ln x} \\cdot \\frac{2 \\ln x}{x} = 2 x^{\\ln x - 1} \\ln x \\). The derivative still contains \\( \\ln x \\). A better example: \\( y = e^{x \\ln x} = x^x \\) gives \\( y' = x^x(1+\\ln x) \\) which still has log. To get rid of log entirely, choose \\( u(x) = e^{g(x)} \\) so \\( \\ln u = g(x) \\). Let \\( y = (e^{x^2})^{\\sin x} = e^{x^2 \\sin x} \\). Then \\( \\ln y = x^2 \\sin x \\), \\( y' = y (2x \\sin x + x^2 \\cos x) = e^{x^2 \\sin x} (2x \\sin x + x^2 \\cos x) \\). No logarithms remain. A poor answer would be a function where the derivative still contains \\( \\ln u(x) \\) and the student doesn't realize the condition for log-free simplification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Direct ______ using power rule or exponential rule fails because both base and exponent vary.",
+     "a": "differentiation",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Logarithmic differentiation?",
+     "a": "This error changes the dimension and magnitude of the derivative completely.",
+     "self_check": true
     }
    ]
   }

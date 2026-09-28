@@ -34,6 +34,26 @@
      "q": "Design a concept for a Web 3.0 application for Indian farmers that uses semantic data, decentralized storage, and token incentives. Sketch the three core components and one user benefit.",
      "a": "Components: (1) Semantic knowledge graph linking crop, soil, weather, market data; (2) IPFS storage for immutable land records and supply-chain logs; (3) Token rewards for contributing verified data. Benefit: Farmer owns data, gets fair price via transparent market oracle. A poor answer describing a regular app with a crypto wallet shows failure to integrate semantic and decentralized aspects.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Web 2.0 refers to the second generation of the World Wide Web ______ by user-generated content, interactivity, social networking, and collaboration (e.g., blogs, wikis, social media).",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking: \"When you post a photo on Instagram, who owns that data and how does the platform 'understand' your preferences?\" This triggers curiosity about data ownership and machine ______.",
+     "a": "intelligence",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Web ______ refers to the second generation of the World Wide Web characterized by user-generated content, interactivity, social networking, and collaboration (e.g., blogs, wikis, social media).",
+     "a": "2.0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish Web 1.0, 2.0, and 3.0 by their core characteristics (read-only vs. read-write vs. read-write-execute/own), identify real-world examples of each, and explain how technologies like AJAX, RSS, blockchain, and semantic metadata enable the transitions.",
+     "self_check": true
     }
    ]
   }

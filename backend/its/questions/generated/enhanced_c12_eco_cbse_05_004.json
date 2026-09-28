@@ -34,6 +34,31 @@
      "q": "Construct a real-world Indian market scenario (different from tomatoes, EVs, wheat, onions) where **demand decreases and supply increases simultaneously**. Specify the non-price determinants causing each shift. Draw a labelled diagram showing initial and new equilibria. State whether equilibrium price and quantity are determinate or indeterminate, and explain what additional information would be needed to resolve the indeterminacy.",
      "a": "**Scenario:** Market for **feature phones (basic keypad phones) in rural Uttar Pradesh**.  \n- **Demand decreases (left shift):** Rising rural incomes and cheap 4G data plans shift consumers to smartphones (substitute).  \n- **Supply increases (right shift):** Chinese manufacturers flood the market with ultra-low-cost feature phones (e.g., ₹500-800 models), and existing firms adopt cheaper assembly techniques.  \n\n**Diagram:** Downward-sloping D₀, upward-sloping S₀ intersecting at E₀. D₁ left of D₀, S₁ right of S₀. New intersection E₁ lower than E₀ (price definitely ↓). Quantity at E₁ could be left or right of E₀ depending on shift magnitudes.  \n\n**Outcomes:** Price **determinate (falls)** — both shifts push price down. Quantity **indeterminate** — demand ↓ pushes Q down, supply ↑ pushes Q up.  \n**Additional info needed:** Horizontal shift magnitudes at original price (e.g., \"demand falls by 20 lakh units at ₹1000; supply rises by 15 lakh units at ₹1000\"). If demand shift > supply shift → Q falls; if supply shift > demand shift → Q rises; if equal → Q unchanged.  \n**Poor answer** gives a scenario where shifts don't actually oppose on quantity (e.g., both decrease) or fails to specify non-price determinants.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ shifts in demand and supply occur when both the demand curve and the supply curve shift at the same time due to changes in their respective non-price determinants (e.g., income and technology changing together).",
+     "a": "Simultaneous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're analysing the market for ______ in Azadpur Mandi, Delhi.",
+     "a": "tomatoes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by drawing the initial equilibrium (from node ______).",
+     "a": "001",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Identify all four combinations of simultaneous shifts and state the determinate/indeterminate outcomes for equilibrium price and quantity in each case; (2) Given a real-world scenario with specific shift directions and magnitudes, calculate the new equilibrium price and quantity algebraically and graphically; (3).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're ______ the market for tomatoes in Azadpur Mandi, Delhi.",
+     "a": "analysing",
+     "self_check": true
     }
    ]
   }

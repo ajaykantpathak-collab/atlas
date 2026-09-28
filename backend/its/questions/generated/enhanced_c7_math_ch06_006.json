@@ -34,6 +34,36 @@
      "q": "Create a simple 2-digit addition puzzle of the form $AB + BC = DDD$ where $D = 1$, and provide the unique values for $A, B,$ and $C$.",
      "a": "The expected answer is a puzzle where $AB + BC = 111$. By testing digit combinations where two 2-digit numbers sum to 111, one valid solution is $56 + 55 = 111$, meaning $A = 5, B = 6, C = 5, D = 1$. A poor answer would choose numbers that do not share common middle letters or result in a sum other than 111, showing a failure to construct consistent constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Digits in Disguise: Number Puzzles and Logic involves solving ______—cryptic puzzles where digits in a standard arithmetic operation are replaced by letters, symbols, or shapes, requiring deductive reasoning based on place value and properties of numbers.",
+     "a": "cryptarithms",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How do we figure out what each ______ stands for without guessing blindly?",
+     "a": "letter",
+     "self_check": true
+    },
+    {
+     "q": "What is Digits in Disguise? State the definition given in this lesson.",
+     "a": "Digits in Disguise: Number Puzzles and Logic involves solving cryptarithms—cryptic puzzles where digits in a standard arithmetic operation are replaced by letters, symbols, or shapes, requiring deductive reasoning based on place value and properties of numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: By applying logical rules about carries (can a carry from adding two single digits ever be more than ______?), we eliminate impossible values.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Digits in Disguise?",
+     "a": "Students often assume that different letters can represent the same digit, or that the same letter can represent different digits in different parts of the same puzzle.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can solve multi-digit addition, subtraction, and multiplication puzzle problems by systematically testing logical constraints like place value limits, parity, and carries.",
+     "self_check": true
     }
    ]
   }

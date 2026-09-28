@@ -34,6 +34,31 @@
      "q": "Construct a real-world problem (Indian context) where the cross product of two vectors is used to find a physical quantity. Define the vectors clearly with units, state what the cross product represents physically, and write the mathematical expression for it.",
      "a": "Example: A force **F** = (3**î** + 4**ĵ**) N is applied at a point with position vector **r** = (2**î** + **ĵ** + **k̂**) m relative to a pivot. The torque **τ** = **r** × **F** (in N·m) measures the turning effect.  \n**τ** = det |**î** **ĵ** **k̂**; 2 1 1; 3 4 0| = **î**(0−4) − **ĵ**(0−3) + **k̂**(8−3) = −4**î** + 3**ĵ** + 5**k̂** N·m.  \nA poor answer uses vague vectors without units, confuses torque with work (dot product), or writes **F** × **r** instead of **r** × **F** (wrong direction by right-hand rule). This tests whether the student can map the mathematical operation to physics and apply the correct order.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The vector (cross) product of two non-zero vectors a and b, denoted by a × b, is a vector defined as a × b = |a||b| sin θ n̂, where θ is the angle between a and b (0 ≤ θ ≤ π), and n̂ is a unit vector ______ to both a and b such that a, b, n̂ form a right-handed system.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are tightening a bolt with a spanner: you apply a force F at the end of the spanner (______ vector r from the bolt).",
+     "a": "position",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The vector (cross) product of two non-zero vectors a and b, denoted by a × b, is a vector defined as a × b = |a||b| sin θ n̂, where θ is the angle between a and b (______ ≤ θ ≤ π), and n̂ is a unit vector perpendicular to both a and b such that a, b, n̂ form a right-handed system.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute the cross product of two vectors given in component form using the determinant method, apply the right-hand rule to determine direction, use the cross product to find the area of a triangle or parallelogram, and find a unit vector perpendicular to two given vectors.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a bolt with a spanner: you apply a force F at the end of the spanner (position vector r from the bolt).",
+     "a": "tightening",
+     "self_check": true
     }
    ]
   }

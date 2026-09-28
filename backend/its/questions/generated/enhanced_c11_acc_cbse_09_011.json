@@ -34,6 +34,26 @@
      "q": "Create a mini-case with a Trial Balance (5 accounts) and 3 adjustments that require the student to prepare a Trading Account, Profit & Loss Account, and Balance Sheet. Ensure one adjustment affects Trading Account, one affects Profit & Loss Account, and one affects both.",
      "a": "Example: Trial Balance: Capital ₹1,00,000, Purchases ₹60,000, Sales ₹90,000, Wages ₹10,000, Furniture ₹20,000. Adjustments: (1) Closing Stock ₹15,000 (Trading), (2) Outstanding Wages ₹2,000 (Trading), (3) Depreciation on Furniture 10% (P&L and Balance Sheet). A poor answer would miss the dual effect of depreciation or misplace closing stock, showing inability to synthesize multiple adjustments.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Preparation of Adjusted Financial Statements with Multiple Adjustments is the process of integrating all year-end adjustment entries (such as closing stock, outstanding/prepaid expenses, accrued/advance incomes, ______, bad debts, provisions, manager's commission, and interest on capital) into the Trading and Profit & Loss Account and Balance Sheet to reflect the true financial performance and position under the accrual basis of accounting.",
+     "a": "depreciation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The owner hands you a Trial Balance and a scribbled list of 7 adjustments: closing stock value, unpaid wages, prepaid insurance, commission earned but not received, rent received in advance, ______ on furniture, and a provision for doubtful debts.",
+     "a": "depreciation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The owner hands you a Trial Balance and a scribbled list of ______ adjustments: closing stock value, unpaid wages, prepaid insurance, commission earned but not received, rent received in advance, depreciation on furniture, and a provision for doubtful debts.",
+     "a": "7",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently prepare a complete Trading and Profit & Loss Account and Balance Sheet from a given Trial Balance and a set of 5-7 adjustments, correctly showing each adjustment at two places (double effect) and arriving at the correct net profit/loss and balanced Balance Sheet totals.",
+     "self_check": true
     }
    ]
   }

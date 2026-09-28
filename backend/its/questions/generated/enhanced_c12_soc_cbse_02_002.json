@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_02_002",
+   "title": "c12_soc_cbse_02_002",
+   "questions": [
+    {
+     "q": "State the core mathematical difference between population growth and food supply growth according to Malthus, and name the two types of checks he proposed.",
+     "a": "Malthus argued population grows in geometric progression (e.g., 2, 4, 8, 16) while food supply grows in arithmetic progression (e.g., 2, 4, 6, 8). The two checks are preventive checks (voluntary: delayed marriage, celibacy) and positive checks (involuntary: famine, disease, war). A wrong answer — such as saying both grow geometrically, or naming \"contraception\" as a Malthusian preventive check — reveals confusion between Malthus's 18th-century moral restraint and modern family planning, or a failure to grasp the mathematical core of his pessimism.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the Demographic Transition Theory calls the middle stage a \"population explosion,\" and why this explosion is considered temporary.",
+     "a": "The \"population explosion\" in Stage 2 occurs because death rates drop rapidly due to improved medicine, sanitation, and nutrition, while birth rates remain high due to cultural lag — reproductive behaviour adapts slowly to lower mortality. It is temporary because, as development continues, education and economic changes eventually reduce birth rates, leading to Stage 3 stability. A wrong answer that attributes the explosion solely to \"lack of contraception\" or claims it is permanent misses the structural lag mechanism central to the theory.",
+     "self_check": true
+    },
+    {
+     "q": "A country has a crude birth rate of 35 per 1000 and a crude death rate of 10 per 1000. Using Demographic Transition Theory, identify its likely stage and justify your answer with reference to the theory's defining characteristics.",
+     "a": "Stage 2 (transitional). Reasoning: (1) Death rate (10) is low, indicating control over epidemics/famine — typical of Stage 2 onset. (2) Birth rate (35) remains high, showing reproductive behaviour has not yet adjusted. (3) The large gap (25 per 1000) implies rapid growth, the hallmark of Stage 2 \"population explosion.\" A wrong answer placing it in Stage 1 (would require high death rate ~35) or Stage 3 (would require low birth rate ~10) shows inability to map rates to stages.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Malthusian and Marxist explanations for poverty. Why did Marxist scholars reject Malthus's claim that population growth causes poverty?",
+     "a": "Malthus: Poverty results from population outstripping food supply — a natural, inevitable imbalance. Marxist critique: Poverty stems from unequal distribution of resources under capitalism, not absolute scarcity; the wealthy minority appropriates surplus while the majority starves. Marxists argued Malthus blamed the victims (the poor) for a crisis created by the exploitative social system. A wrong answer that says \"Marxists agreed with Malthus but wanted revolution\" or \"Marxists said technology solves everything\" confuses the distributive vs. productive causation debate.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Malthus was proven wrong because agricultural productivity increased.\" Is this a sufficient explanation? What other factors does the NCERT text identify?",
+     "a": "The statement is partially correct but insufficient. NCERT identifies three reasons Malthus was wrong: (1) Agricultural productivity rose dramatically (Green Revolution, irrigation, technology). (2) Standards of living rose despite population growth — economic growth outpaced population growth in Europe. (3) Birth rates declined voluntarily due to socio-economic changes (education, urbanization), not just \"moral restraint.\" A weak evaluation that only mentions technology misses the structural economic and behavioural shifts central to the demographic transition critique.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical example of a society in Stage 1 of demographic transition. Specify plausible birth/death rates, life expectancy, and one social characteristic that would keep birth rates high despite high mortality.",
+     "a": "Example: An isolated agrarian community with CBR = 45, CDR = 40, life expectancy = 35 years. Social characteristic: High infant mortality leads to \"insurance births\" — families have many children expecting several to die, reinforced by lack of education, no pension system, and religious norms valuing large families. A poor answer would give Stage 2 rates (low CDR) or cite \"lack of contraception\" as the sole reason, ignoring the structural economic rationality of high fertility in high-mortality settings.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Malthusian Theory posits that population grows geometrically (2, 4, 8, 16…) while food supply grows ______ (2, 4, 6, 8…), inevitably leading to poverty unless checked by preventive (moral restraint) or positive (famine, disease) checks.",
+     "a": "arithmetically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a village where every family has 6 ______, but the farmland cannot feed everyone.",
+     "a": "children",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a village where every family has ______ children, but the farmland cannot feed everyone.",
+     "a": "6",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) contrast the Malthusian and Demographic Transition explanations for population growth and poverty, (2) identify the stage of demographic transition for a given society using birth/death rate data, and (3) explain why the transition period creates a \"population explosion\" using the lag between mortality and.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

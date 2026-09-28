@@ -38,7 +38,15 @@ import json
 import logging
 import math
 import re
+import re as _re  # legacy alias used by answer-normalization helpers
 import uuid
+
+# PLUMB restorative fix (2026-09-21): _re is referenced by the answer
+# canonicaliser and the applied-maths id-shape probes below but was
+# never aliased — every POST /api/diagnostics/start 500'd with
+# NameError: name '_re' is not defined (backend logs, both backends,
+# since the 2026-09-20 23:31 diagnostics.py edit landed). Aliased here.
+_re = re
 from datetime import datetime, timezone
 from typing import Any, Dict, List, Optional
 
@@ -134,25 +142,63 @@ class DiagnosticConfigIn(BaseModel):
 class StartDiagnosticIn(BaseModel):
     studentId: Optional[str] = None  # advisory only; token identity wins
     config: DiagnosticConfigIn = Field(default_factory=DiagnosticConfigIn)
+    # Flat-shape alias: {"subjects": [...], "gradeLevel": N, ...} at the top
+    # level used to be SILENTLY DROPPED (pydantic extra="ignore" default) and
+    # the request graded Mathematics grade-10 instead of what the caller sent.
+    # Accept the flat DiagnosticConfigIn fields and merge them over the nested
+    # config (flat wins only where explicitly provided).
+    subjects: Optional[List[str]] = None
+    gradeLevel: Optional[int] = Field(default=None, ge=1, le=12)
+    board: Optional[str] = None
+    language: Optional[str] = None
+    questionCountPerSubject: Optional[int] = Field(default=None, ge=1, le=30)
+    timeLimitMinutes: Optional[int] = None
+    adaptiveEnabled: Optional[bool] = None
+
+    def resolved_config(self) -> DiagnosticConfigIn:
+        cfg = self.config.model_copy(deep=True)
+        overrides = {
+            "subjects": self.subjects,
+            "gradeLevel": self.gradeLevel,
+            "board": self.board,
+            "language": self.language,
+            "questionCountPerSubject": self.questionCountPerSubject,
+            "timeLimitMinutes": self.timeLimitMinutes,
+            "adaptiveEnabled": self.adaptiveEnabled,
+        }
+        for name, value in overrides.items():
+            if value is not None:
+                setattr(cfg, name, value)
+        return cfg
 
 
 class AnswerRecordIn(BaseModel):
     questionId: str
     selectedOptionId: str  # option index (MCQ, as string) or raw text
     isCorrect: Optional[bool] = None  # client hint; server re-grades
-    timeSpentSeconds: float = 60
+    timeSpentSeconds: float = Field(default=60, ge=0)
     submittedAt: Optional[str] = None
 
 
 class SubmitDiagnosticIn(BaseModel):
-    answers: List[AnswerRecordIn] = Field(min_length=1)
+    # Optional — sessions that already recorded answers via POST /answer
+    # (and may have auto-completed) must not 422 on an empty submit.
+    answers: List[AnswerRecordIn] = Field(default_factory=list)
     completedAt: Optional[str] = None
+
+
+class GradeAnswerIn(BaseModel):
+    """Single-answer payload for the per-question grading endpoint."""
+    questionId: str
+    selectedOptionId: Optional[str] = None  # option index (MCQ) or raw text
+    answerText: Optional[str] = None
+    timeSpentSeconds: float = Field(default=60, ge=0)
 
 
 class CompleteStepIn(BaseModel):
     stepId: str
-    score: float = 0
-    timeSpentSeconds: float = 0
+    score: float = Field(default=0, ge=0)
+    timeSpentSeconds: float = Field(default=0, ge=0)
 
 
 class ReplayMutationIn(BaseModel):
@@ -237,7 +283,16 @@ class PlanPracticeSource:
         self._selector = selector
 
     async def generate_question(self, subskill: str = "", difficulty: str = "") -> dict:
-        return await self._selector.get_next_question()
+        """Engine fallback when the replay selector is out of planned
+        questions.  A plan shorter than the engine's own TOTAL_QUESTIONS=15
+        (thin bank → honest short plan) hits this on the LAST answer and
+        used to escape as 500 AttributeError("plan exhausted") (C7).
+        Serve the last planned question as a harmless placeholder instead —
+        the wrapper force-completes the session before the placeholder
+        could ever be handed to the client."""
+        if self.bank.plan:
+            return self.bank.raw(self.bank.plan[-1])
+        raise AttributeError("plan exhausted")
 
     async def get_question(self, question_id: str) -> Optional[dict]:
         return self.bank.canonical(question_id)
@@ -309,11 +364,56 @@ def _build_engine(db: AsyncSession, session: "DiagnosticSessionORM",
     return svc
 
 
+def _sync_session_to_plan(orm: DiagnosticSessionORM, bank: _PlanQuestionBank,
+                          plan: List[dict]) -> None:
+    """Single source of truth: the persisted plan row.
+
+    The engine validates every answer against ``questions_asked_list`` — a
+    snapshot appended when the question was SERVED.  ``_steer_plan_tail``
+    re-orders the unanswered plan tail between calls, so that snapshot goes
+    stale and the next honest answer dies with 400 "Question mismatch"
+    (C7: expected <pre-steer id>, got <served id>).  Rebuild the engine's
+    asked-list/index from the CURRENT plan: answered prefix in plan order
+    plus the one pending question."""
+    n = len(orm.responses_list or [])
+    take = min(n + 1, len(plan))
+    orm.questions_asked_list = [bank.raw(q) for q in plan[:take]]
+    orm.current_question_index = take
+
+
+def _canonicalise_answer_position(plan: List[dict], orm: DiagnosticSessionORM,
+                                  question_id: str) -> None:
+    """Answer-order tolerance.
+
+    The client may answer any not-yet-answered planned question — its
+    buffer order predates the latest steering (the page keeps the /start
+    order unless the served nextQuestion id was new).  Move the answered
+    question to the head of the unanswered tail so the engine's
+    pending-slot validation matches what the client was actually served,
+    and the persisted plan keeps mirroring the real served sequence."""
+    n = len(orm.responses_list or [])
+    if n >= len(plan):
+        return
+    pos = next((i for i, pq in enumerate(plan)
+                if pq.get("question_id") == question_id), None)
+    if pos is None or pos < n:
+        return
+    if pos != n:
+        plan[n], plan[pos] = plan[pos], plan[n]
+
+
 # ══════════════════════════════════════════════════════════════════════════════
 #  Question plan generation (real questions via the /practice selector)
 # ══════════════════════════════════════════════════════════════════════════════
 
 _PHASE_LABELS = ("initial", "initial", "initial") + ("adaptive",) * 7 + ("confirmation",) * 5
+
+# Generator template leak (C8): an unrendered placeholder like "{nums}" in
+# the served text means the generator's render step skipped a field — the
+# question is unanswerable as shown.  Refuse such items at selection time
+# instead of letting them reach a student.  Single-letter math sets like
+# "{x}" are deliberately NOT matched.
+_UNRENDERED_TEMPLATE = re.compile(r"\{[a-z][a-z_]{2,}\}")
 
 
 def _answerable(q: dict) -> bool:
@@ -332,6 +432,53 @@ def _has_options(q: dict) -> bool:
     return isinstance(q.get("options"), list) and len(q["options"]) >= 2
 
 
+def _extract_misconception_hint(q: dict) -> str:
+    """Pull the misconception clause out of a corpus question's answer
+    (e.g. '... A wrong answer (e.g., X) reveals the student confuses Y')."""
+    hint = str(q.get("misconception") or q.get("misconception_if_wrong") or "")
+    if hint:
+        return hint.strip()
+    ans = str(q.get("correct_answer") or "")
+    for marker in ("A wrong answer", "reveals the student"):
+        if marker in ans:
+            return ans[ans.index(marker):].strip()[:300]
+    return ""
+
+
+def _norm_answer_vs_options(ans: str, options: list) -> str:
+    """Corpus drift: stored answers come in shapes like 'B) Contradiction',
+    'b. Contradiction', bare 'B', or case/whitespace variants of the option
+    text. Resolve any of them to the canonical option text so the question
+    is actually answerable and gradable (B24)."""
+    if not ans or not options:
+        return ans
+    import re as _re
+    opts = [str(o).strip() for o in options]
+    # exact match already
+    for o in opts:
+        if o == ans:
+            return ans
+    # case-insensitive / whitespace-normalized match
+    low = {o.lower(): o for o in opts}
+    if ans.strip().lower() in low:
+        return low[ans.strip().lower()]
+    # letter prefix: "B) text", "B. text", "(b) text"
+    m = _re.match(r"^\(?([A-Ha-h])\)?[.)]\s*(.+)$", ans.strip())
+    if m:
+        letter, rest = m.group(1).lower(), m.group(2).strip()
+        if rest.lower() in low:
+            return low[rest.lower()]
+        idx = "abcdefgh".index(letter)
+        if 0 <= idx < len(opts):
+            return opts[idx]
+    # bare letter "B"
+    if _re.fullmatch(r"[A-Ha-h]", ans.strip()):
+        idx = "abcdefgh".index(ans.strip().lower())
+        if 0 <= idx < len(opts):
+            return opts[idx]
+    return ans
+
+
 def _norm_candidate(q: dict, topic_fallback: str) -> Optional[dict]:
     text = str(q.get("question_text") or q.get("text") or "").strip()
     if not text or not _answerable(q):
@@ -339,6 +486,9 @@ def _norm_candidate(q: dict, topic_fallback: str) -> Optional[dict]:
     options = q.get("options")
     if not isinstance(options, list):
         options = []
+    if _UNRENDERED_TEMPLATE.search(text) or any(
+            _UNRENDERED_TEMPLATE.search(str(o)) for o in options):
+        return None  # unrendered generator template (C8) — never serve
     qid = str(q.get("question_id") or "").strip()
     if not qid:
         return None
@@ -353,11 +503,19 @@ def _norm_candidate(q: dict, topic_fallback: str) -> Optional[dict]:
         "topic_label": topic_label,
         "question_text": text,
         "options": [str(o) for o in options],
-        "correct_answer": str(q.get("correct_answer") or "").strip(),
-        "explanation": str(q.get("explanation") or ""),
+        "correct_answer": _norm_answer_vs_options(
+            str(q.get("correct_answer") or "").strip(), options),
+        "explanation": str(q.get("explanation") or "").strip().lower() in ("null", "none", "") and "" or str(q.get("explanation") or ""),
+        "marking_scheme": str(q.get("marking_scheme") or ""),
         "difficulty_beta": beta,
         "question_type": str(q.get("question_type") or "mcq"),
         "phase": "initial",
+        # corpus misconception hint — the 6/node diagnostics embed
+        # "A wrong answer reveals the student X" in the answer key
+        "misconception_hint": _extract_misconception_hint(q),
+        # The node's own authored content backs the "I don't get it" hint —
+        # internal id, allowed in fetch params (never rendered as text).
+        "node_id": q.get("node_id"),
     }
 
 
@@ -378,11 +536,92 @@ async def _build_plan(db: AsyncSession, student_id: str, subject: str,
     """
     selector = QuestionSelector(db)
     pool: Dict[str, dict] = {}
+    seen_texts: set = set()
 
-    def _absorb(raw: Any, topic_fallback: str) -> None:
+    def _class_of(raw: Any) -> Optional[int]:
+        """Class encoded in the candidate's fields or id ('C10-APP-...',
+        'c10_math_...', class10_*)."""
+        for k in ("class_level", "grade", "class"):
+            v = raw.get(k) if isinstance(raw, dict) else getattr(raw, k, None)
+            if v is not None:
+                try:
+                    return int(v)
+                except (TypeError, ValueError):
+                    pass
+        import re as _re
+        _get = (lambda k: raw.get(k) if isinstance(raw, dict)
+                else getattr(raw, k, None))
+        m = _re.search(r"(?:^|[_\-])c(\d{1,2})[_\-]|class(\d{1,2})|"
+                       r"^[cC](\d{1,2})(?![0-9])",
+                       str(_get("question_id") or _get("id") or ""),
+                       _re.IGNORECASE)
+        if m:
+            return int(next(g for g in m.groups() if g))
+        return None
+
+    def _absorb(raw: Any, topic_fallback: str,
+                require_class_proof: bool = False) -> None:
+        # Wrong-class leak: adapter/generator pools don't enforce class, so
+        # a grade-8 plan picked up C1-/C5-/C11-* questions (B24, C8 audit).
+        # Enforce the student's EXACT class whenever the id encodes one.
+        c = _class_of(raw)
+        if c is not None and c != grade:
+            return
+        # Syllabus-fit (C10 audit): generator ids encode class but not
+        # curriculum — "C10-APP-*" is applied mathematics (a c11/12
+        # elective), "C10-EVS-*" is a primary-school subject. The class
+        # check alone can't reject them, so the pool segment does.
+        _get2 = (lambda k: raw.get(k) if isinstance(raw, dict)
+                 else getattr(raw, k, None))
+        _qid = str(_get2("question_id") or _get2("id") or "")
+        _seg = _re.match(r"(?i)^c(\d{1,2})-(app|evs|commapp|commstud|econapp)-",
+                         _qid)
+        if _seg:
+            _gc, _pool_kind = int(_seg.group(1)), _seg.group(2).lower()
+            if ((_pool_kind == "evs" and _gc >= 6)
+                    or (_pool_kind == "app" and _gc <= 10)
+                    or _pool_kind in ("commapp", "commstud", "econapp")):
+                return
+        if require_class_proof and c is None:
+            # Untagged adaptive-context lanes (select_next generator /
+            # fallback picks) carry no class signal at all — their content
+            # cannot be proven on-grade, so skip them rather than risk an
+            # off-grade item (C8).  Corpus picks are class-gated in SQL.
+            _get = (lambda k: raw.get(k) if isinstance(raw, dict)
+                    else getattr(raw, k, None))
+            qid = str(_get("question_id") or _get("id") or "")
+            if not qid.startswith("corpus:"):
+                return
         norm = _norm_candidate(raw, topic_fallback)
-        if norm is not None and norm["question_id"] not in pool:
-            pool[norm["question_id"]] = norm
+        if norm is None or norm["question_id"] in pool:
+            return
+        # Text-level dedup: the corpus holds identical question text under
+        # multiple ids — a 15-question plan must not serve the same text 5x.
+        tkey = " ".join(norm["question_text"].split()).lower()
+        if tkey in seen_texts:
+            return
+        seen_texts.add(tkey)
+        pool[norm["question_id"]] = norm
+
+    # 0) corpus diagnostics — real node questions (enhanced_nodes_md),
+    #    spread across the difficulty ladder (recall → create)
+    for tgt in (-1.5, -0.9, -0.3, 0.3, 0.9, 1.5):
+        try:
+            for _ in range(max(count // 6, 3)):
+                cq = await selector.get_next_question(
+                    ability_estimate=0.0,
+                    subskill=subject,
+                    exclude_ids=list(pool.keys()),
+                    target_difficulty=tgt,
+                    subject=subject,
+                    class_level=grade,
+                )
+                if not cq:
+                    break
+                _absorb(cq, subject)
+        except Exception as e:
+            logger.warning("[diagnostics] corpus plan step failed: %s", e)
+            break
 
     # 1) grade-matched diagnostic selection
     for topic in dict.fromkeys([subject, f"{subject} basics", subject.lower()]):
@@ -399,10 +638,16 @@ async def _build_plan(db: AsyncSession, student_id: str, subject: str,
         if len(pool) >= count * 3:
             break
 
-    # 2) adapter seed sweep across subject generators
+    # 2) adapter seed sweep across subject generators — GRADE-MATCHED only.
+    #    The subject-wide sweep served class-11/12 generator templates to a
+    #    grade-8 plan (C8); a generator module's name encodes its class, so
+    #    match on subject AND grade like select_for_diagnostic does.
     if len(pool) < count * 2:
         try:
-            qtypes = selector._get_generators_for_subject(subject) or []
+            grade_qtypes, _any_grade = selector._match_generators(
+                subject, subject, grade)
+            qtypes = [qt for qt in (grade_qtypes or [])
+                      if selector._adapters.get_adapter(qt) is not None]
         except Exception:
             qtypes = []
         date_str = datetime.now(timezone.utc).strftime("%Y%m%d")
@@ -436,14 +681,19 @@ async def _build_plan(db: AsyncSession, student_id: str, subject: str,
                 )
             except Exception:
                 continue
-            _absorb(q, subject)
+            _absorb(q, subject, require_class_proof=True)
 
-    # Order: MCQs first (better UX + exact grading), easier before harder
-    ordered = sorted(
-        pool.values(),
-        key=lambda q: (0 if _has_options(q) else 1, q["difficulty_beta"]),
-    )
-    items = ordered[:count]
+    # Order: MCQs first (better UX + exact grading).  Within each group the
+    # plan starts at MID difficulty — candidates closest to the 0.0 theta
+    # point lead, spreading outward.  The adaptive steering in
+    # /{session_id}/answer re-orders the remaining tail around the running
+    # ability estimate after every answer; the first question must begin at
+    # the student's expected level, not at the bottom of the bank.
+    mcqs = sorted((q for q in pool.values() if _has_options(q)),
+                  key=lambda q: abs(float(q.get("difficulty_beta", 0.0))))
+    texts = sorted((q for q in pool.values() if not _has_options(q)),
+                   key=lambda q: abs(float(q.get("difficulty_beta", 0.0))))
+    items = (mcqs + texts)[:count]
     for idx, q in enumerate(items):
         q["phase"] = _PHASE_LABELS[idx] if idx < len(_PHASE_LABELS) else "confirmation"
     return items
@@ -510,8 +760,11 @@ def _map_question(q: dict, subject: str) -> dict:
         "difficulty": _difficulty_label(float(q.get("difficulty_beta", 0.0))),
         "questionText": q.get("question_text", ""),
         "options": mapped,
-        "correctOptionId": correct_option_id,
-        "explanation": q.get("explanation", ""),
+        # Authored hint backing (fetched by id, never rendered as text).
+        "nodeId": q.get("node_id"),
+        # correctOptionId / explanation intentionally withheld — answers are
+        # graded server-side via POST /{session_id}/answer. Revealing them in
+        # the question payload lets anyone scrape the key before answering.
     }
 
 
@@ -656,8 +909,16 @@ def _map_remediation(path, session: DiagnosticSessionORM,
         path_status = "not_started"
     primary = path.weak_areas[0] if path.weak_areas else (
         path.strong_areas[0] if path.strong_areas else session.subject)
+    plan_completed_at = None
+    if path_status == "completed":
+        plan_completed_at = max(
+            (st.get("completed_at") or "" for st in step_states.values()),
+            default=None) or None
+
     return {
-        "remediationId": path.path_id,
+        # Stable id: path.path_id is regenerated per call — clients keying
+        # on it (retry, deep-link, analytics) need a session-stable value.
+        "remediationId": f"rp-{session.id}",
         "sessionId": session.id,  # IndexedDB store uses keyPath "sessionId"
         "studentId": path.student_id,
         "diagnosticSessionId": session.id,
@@ -669,7 +930,7 @@ def _map_remediation(path, session: DiagnosticSessionORM,
         "steps": steps_out,
         "currentStepIndex": current_idx,
         "estimatedDurationMinutes": max(15, path.total_duration_days * 30),
-        "completedAt": None,
+        "completedAt": plan_completed_at,
         "masteryAfterScore": round(path.expected_mastery_after * 100, 1),
     }
 
@@ -781,10 +1042,11 @@ async def start_diagnostic(
 ):
     await _ensure_tables()
     student_id = str(user.id)
-    cfg = _config_dict(payload.config)
-    subject = (payload.config.subjects or ["Mathematics"])[0] or "Mathematics"
-    chapter_id = f"{_slug(subject)}-g{payload.config.gradeLevel}"
-    want = max(5, min(payload.config.questionCountPerSubject, TOTAL_QUESTIONS))
+    _config = payload.resolved_config()  # nested config + flat-shape alias merged
+    cfg = _config_dict(_config)
+    subject = (_config.subjects or ["Mathematics"])[0] or "Mathematics"
+    chapter_id = f"{_slug(subject)}-g{_config.gradeLevel}"
+    want = max(5, min(_config.questionCountPerSubject, TOTAL_QUESTIONS))
 
     # Resume an in-progress session for the same chapter (unique constraint
     # uq_active_diagnostic) — reload-safe.
@@ -801,7 +1063,7 @@ async def start_diagnostic(
         if plan:
             return _map_session(orm, plan, cfg)
 
-    plan = await _build_plan(db, student_id, subject, payload.config.gradeLevel, want)
+    plan = await _build_plan(db, student_id, subject, _config.gradeLevel, want)
     if not plan:
         raise HTTPException(
             status.HTTP_503_SERVICE_UNAVAILABLE,
@@ -887,6 +1149,11 @@ async def _drive_submit(db: AsyncSession, orm: DiagnosticSessionORM,
                 status.HTTP_400_BAD_REQUEST,
                 detail=f"Unknown question {rec.questionId} for this session.",
             )
+        # Order-tolerant replay: canonicalise the answered question into the
+        # pending slot of the CURRENT plan and re-sync the engine's
+        # validation snapshot before driving this answer (C7 mismatch).
+        _canonicalise_answer_position(plan, orm, rec.questionId)
+        _sync_session_to_plan(orm, bank, plan)
         answer_text = _resolve_answer_text(rec, bank.by_id.get(rec.questionId))
         time_ms = max(0, min(int(float(rec.timeSpentSeconds or 0) * 1000),
                              30 * 60 * 1000))
@@ -932,6 +1199,175 @@ async def submit_diagnostic(
         # idempotent: page may double-submit; return the stored report
         return await _result_response(db, orm)
     return await _drive_submit(db, orm, payload)
+
+
+def _correct_option_id(q: dict) -> str:
+    """Option index (as str) matching the plan's correct answer, else '' ."""
+    correct = str(q.get("correct_answer") or "").strip()
+    for i, opt in enumerate(q.get("options") or []):
+        if correct and str(opt).strip() == correct:
+            return str(i)
+    return ""
+
+
+def _steer_plan_tail(plan: List[dict], answered: int, theta: float) -> float:
+    """ADAPT: re-order the UNANSWERED tail of a persisted plan so the next
+    question served sits at the student's current ability estimate.
+
+    The plan's ``difficulty_beta`` values live on the theta scale (-2..+2)
+    — the IRT target for the next question IS the running theta (max
+    information at difficulty ≈ ability, biased slightly up for desirable
+    difficulty).  Only the tail moves; answered questions stay fixed so
+    replay order in /submit is preserved.  Returns the target beta."""
+    if answered < 0 or answered >= len(plan):
+        return max(-2.0, min(2.0, float(theta)))
+    target = max(-2.0, min(2.0, float(theta) + 0.1))
+    tail = plan[answered:]
+    tail.sort(key=lambda q: abs(float(q.get("difficulty_beta", 0.0)) - target))
+    plan[answered:] = tail
+    return target
+
+
+def _feedback_payload(q: dict, is_correct: bool,
+                      explanation: str = "") -> dict:
+    return {
+        "questionId": q.get("question_id", ""),
+        "isCorrect": bool(is_correct),
+        "correctOptionId": _correct_option_id(q),
+        "correctAnswer": str(q.get("correct_answer") or ""),
+        "explanation": next((e for e in (explanation, q.get("explanation", "")) if e and str(e).strip().lower() not in ("null", "none")), ""),
+    }
+
+
+@router.post("/{session_id}/answer")
+async def answer_question(
+    session_id: str,
+    payload: GradeAnswerIn,
+    db: AsyncSession = Depends(get_db),
+    user: User = Depends(get_current_user),
+):
+    """Grade one answer server-side and return feedback.
+
+    The answer is committed to the session via the real engine (IRT + BKT +
+    misconception capture) at answer time — feedback can't be probed before
+    the answer exists. Sequential order is enforced by the engine; the page
+    answers questions in plan order. Re-calls are idempotent: an already-
+    recorded question returns its stored verdict.
+    """
+    orm = await _load_owned_session(db, session_id, user)
+    plan = await _plan_for(db, orm)
+    bank = _PlanQuestionBank(plan)
+    q = bank.by_id.get(payload.questionId)
+    if q is None:
+        raise HTTPException(
+            status.HTTP_400_BAD_REQUEST,
+            detail=f"Unknown question {payload.questionId} for this session.",
+        )
+
+    # Idempotent: already recorded → return stored verdict
+    for r in orm.responses_list or []:
+        if r.get("question_id") == payload.questionId:
+            return _feedback_payload(q, bool(r.get("is_correct")))
+
+    if orm.status == "completed":
+        raise HTTPException(status.HTTP_400_BAD_REQUEST,
+                            "Diagnostic already completed.")
+
+    if len(orm.responses_list or []) >= len(plan):
+        raise HTTPException(
+            status.HTTP_400_BAD_REQUEST,
+            detail="All planned questions already answered — submit to finish.",
+        )
+
+    # Single source of truth: canonicalise the answered question into the
+    # pending slot of the CURRENT plan and rebuild the engine's validation
+    # snapshot from it (the plan tail may have been re-steered since the
+    # question was served — C7 "Question mismatch").
+    _canonicalise_answer_position(plan, orm, payload.questionId)
+    _sync_session_to_plan(orm, bank, plan)
+
+    rec = AnswerRecordIn(
+        questionId=payload.questionId,
+        selectedOptionId=payload.selectedOptionId
+                         or payload.answerText or "",
+        timeSpentSeconds=payload.timeSpentSeconds,
+    )
+    answer_text = _resolve_answer_text(rec, q)
+    time_ms = max(0, min(int(float(payload.timeSpentSeconds or 0) * 1000),
+                         30 * 60 * 1000))
+
+    svc = _build_engine(db, orm, bank)
+    resp = await svc.submit_diagnostic_answer(
+        session_id=orm.id,
+        question_id=payload.questionId,
+        answer=answer_text,
+        time_ms=time_ms,
+    )
+    fb = resp.feedback
+    out = _feedback_payload(q, fb.is_correct, fb.explanation)
+    out["misconception"] = fb.misconception_detected
+    out["completed"] = resp.diagnostic_complete
+
+    # ADAPT: with the answer on record, re-aim the unanswered tail of the
+    # plan at the updated ability estimate (up after correct, down after
+    # wrong) and hand the client the next question to splice in.  The
+    # persisted plan is updated so the batch /submit replay follows the
+    # exact served order, and the engine's asked-list is re-synced to that
+    # steered plan so the NEXT answer validates against what was served.
+    answered_count = len(orm.responses_list or [])
+    remaining = max(0, len(plan) - answered_count)
+    if remaining > 0:
+        theta = (orm.ability_history_list[-1]
+                 if orm.ability_history_list else INITIAL_ABILITY)
+        target = _steer_plan_tail(plan, answered_count, theta)
+        _sync_session_to_plan(orm, bank, plan)
+        row = await _load_plan_row(db, orm.id)
+        data = (row.to_data() if row is not None else {}) or {}
+        if data.get("questions") is not None:
+            data["questions"] = plan
+            row.set_data(data)
+            db.add(row)
+        db.add(orm)
+        await db.commit()
+        out["nextQuestion"] = _map_question(plan[answered_count], orm.subject)
+        out["questionsRemaining"] = remaining
+        out["adaptiveTarget"] = _difficulty_label(target)
+    elif answered_count >= len(plan) and orm.status != "completed":
+        # Short plan (bank honestly thinner than the engine's own
+        # TOTAL_QUESTIONS=15): the engine never reaches its completion
+        # check and used to 500 selecting a question that does not exist
+        # (C7 "plan exhausted").  Complete here — same contract as the
+        # batch /submit force-complete.
+        report = await svc._build_diagnostic_result(orm)
+        orm.status = "completed"
+        orm.completed_at = _now_iso()
+        orm.total_time_ms = sum((r.get("time_ms") or 0)
+                                for r in orm.responses_list)
+        orm.current_question_index = len(plan)
+        orm.final_result = report.model_dump_json()
+        db.add(orm)
+        await db.commit()
+        await db.refresh(orm)
+        out["completed"] = True
+        out["questionsRemaining"] = 0
+
+    # XP propagation — diagnostic answers count toward the same
+    # total_xp / level / streak numbers practice drives. award_xp takes a
+    # USERS id; the authenticated caller is the right identity.
+    try:
+        from backend.services.progress_service import ProgressService
+        await ProgressService.award_xp(db, str(user.id), 10 if fb.is_correct else 2)
+        await ProgressService.update_streak(db, str(user.id))
+        await ProgressService.log_activity(
+            db, str(user.id),
+            activity_type="diagnostic",
+            title=f"Diagnostic answer ({'correct' if fb.is_correct else 'wrong'})",
+            subject=str(getattr(orm, "subject", "") or ""),
+            score="correct" if fb.is_correct else "incorrect",
+        )
+    except Exception:
+        pass
+    return out
 
 
 @router.get("/history")
@@ -1070,6 +1506,28 @@ async def _update_step(db: AsyncSession, orm: DiagnosticSessionORM,
     row = await _load_plan_row(db, orm.id)
     data = row.to_data() if row else {"questions": [], "steps": {}}
     steps = data.setdefault("steps", {})
+
+    if not complete:
+        # Sequential gating: a step may only start when every earlier
+        # module in the remediation path is completed — "locked" must be
+        # real, not cosmetic.
+        bank = _PlanQuestionBank(await _plan_for(db, orm))
+        svc = _build_engine(db, orm, bank)
+        result = await svc.get_diagnostic_result(orm.id)
+        path = await svc.generate_remediation_path(result)
+        order = [m.module_id for m in path.modules]
+        if step_id in order:
+            idx = order.index(step_id)
+            for prev in order[:idx]:
+                if steps.get(prev, {}).get("status") != "completed":
+                    raise HTTPException(
+                        status.HTTP_400_BAD_REQUEST,
+                        detail=f"Step {step_id} is locked — complete earlier steps first.",
+                    )
+        else:
+            raise HTTPException(status.HTTP_404_NOT_FOUND,
+                                detail=f"Unknown remediation step {step_id}")
+
     st = steps.setdefault(step_id, {"attempts": 0})
     if complete:
         st["status"] = "completed"

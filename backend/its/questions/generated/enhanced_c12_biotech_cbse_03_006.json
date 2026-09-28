@@ -34,6 +34,31 @@
      "q": "Design a **step-by-step protocol** to introduce a recombinant plasmid into **plant leaf tissue** using the biolistic method. Include: (a) preparation of DNA-coated particles, (b) target tissue preparation, (c) bombardment parameters, (d) post-bombardment recovery. Assume you have a helium-driven gene gun, 1 µm gold particles, and sterile conditions.",
      "a": "**Expected answer outline:**\n1. **DNA-gold complex:** Precipitate plasmid DNA (1–5 µg) onto 1 µm gold particles using CaCl₂ and spermidine; vortex, centrifuge, wash with ethanol, resuspend in glycerol.\n2. **Tissue prep:** Excise young leaf discs (5–10 mm), place on osmotic medium (0.4 M mannitol/sorbitol) for 30–60 min to plasmolyze cells (reduces damage).\n3. **Bombardment:** Load macrocarrier with DNA-gold suspension; vacuum chamber to 25–28 in Hg; set helium pressure (e.g., 1100–1300 psi); target distance 6–9 cm; fire.\n4. **Recovery:** Transfer discs to regeneration medium (with selection antibiotic) in dark for 24–48 h, then move to light for shoot regeneration.\n**Criteria for good answer:** Mentions plasmolysis (critical for plant cells), particle size, vacuum/pressure parameters, and selection/recovery. A poor answer omits plasmolysis or uses bacterial transformation steps — showing inability to adapt protocol to eukaryotic tissue.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ of recombinant DNA (rDNA) into a host cell is the process by which a vector carrying foreign DNA is delivered into a suitable host organism (bacterial, yeast, plant, or animal cells) so that the recombinant DNA can replicate and express the gene of interest.",
+     "a": "introduction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have successfully ligated your gene of ______ into a plasmid vector (learned in the previous node).",
+     "a": "interest",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by recalling that bacteria naturally take up DNA from their environment (transformation), but lab strains like E. coli DH______α have lost this ability.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish between natural and artificial methods of DNA transfer, naming at least two examples of each; (2) Explain the principle behind calcium chloride transformation, electroporation, microinjection, and biolistic methods; (3) Select the appropriate method for a given host cell type (e.g., E. coli.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have ______ ligated your gene of interest into a plasmid vector (learned in the previous node).",
+     "a": "successfully",
+     "self_check": true
     }
    ]
   }

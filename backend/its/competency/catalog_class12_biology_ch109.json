@@ -281,16 +281,19 @@
    ],
    "worked_examples": [
     {
-     "question": "Using Polymerase Chain Reaction (PCR) Amplification, compute the result for cycles = 3, initial_copies = 3.",
-     "solution": "Step 1: Calculate the amplification factor: factor = 2 ** cycles = 8.0 Step 2: Multiply by initial copies: final_copies = initial_copies * factor = 24.0 Step 3: Verify the amplification result: verify = initial_copies * (2 ** cycles) = 24.0 Final result: 24.0",
-     "answer": "24.0"
-    },
-    {
-     "question": "Using Polymerase Chain Reaction (PCR) Amplification, compute the result for cycles = 4, initial_copies = 4.",
-     "solution": "Step 1: Calculate the amplification factor: factor = 2 ** cycles = 16.0 Step 2: Multiply by initial copies: final_copies = initial_copies * factor = 64.0 Step 3: Verify the amplification result: verify = initial_copies * (2 ** cycles) = 64.0 Final result: 64.0",
-     "answer": "64.0"
+     "concept": "lebo.109.8",
+     "question_pattern": "how many copies of a gene are generated if we start with {initial_copies} copy and run {cycles} cycles of PCR"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "final_copies = initial_copies * (2 ** cycles)",
+     "compute": "final_copies = initial_copies * (2 ** cycles)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebo.109.9",

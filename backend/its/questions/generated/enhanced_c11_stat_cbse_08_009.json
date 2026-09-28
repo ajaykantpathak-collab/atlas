@@ -34,6 +34,26 @@
      "q": "Design a minimal WPI basket for the 'Chemical Fertilizers' sub-group (weight ~1.5% in manufactured products). List 4-5 representative items, justify their inclusion based on production volume and price variability, and explain how you would assign weights among them.",
      "a": "**Items**: Urea, DAP (Di-ammonium Phosphate), MOP (Muriate of Potash), Complex Fertilizers (NPK), Single Super Phosphate (SSP). **Justification**: These cover the major nutrient types (N, P, K) and account for >90% of fertilizer consumption in India. Urea alone is ~50% of consumption. **Weighting**: Use value of production (ex-factory price × quantity) in the base year. For example, if base year production values are Urea ₹50,000 cr, DAP ₹20,000 cr, MOP ₹10,000 cr, NPK ₹15,000 cr, SSP ₹5,000 cr, weights would be proportional to these values. A poor answer lists random chemicals without volume justification or suggests equal weights, ignoring the index number principle of economic importance weighting.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Wholesale Price Index (WPI) is a statistical measure that tracks the average change over time in the prices of goods sold in bulk at the wholesale level (i.e., ______ between businesses, not final consumers).",
+     "a": "transactions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you read a headline: \"WPI ______ surges to 14% in March, highest in 10 years.\" A Class 11 student might wonder: *Does this mean my grocery bill will jump 14%?* Start by clarifying that WPI measures prices at the factory gate or wholesale mandi, not at the retail shop.",
+     "a": "inflation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to define WPI precisely, distinguish it from CPI on at least three parameters (coverage, stage of transaction, target group), explain its significance for measuring producer-level inflation and as a GDP deflator, and interpret a given WPI value in the context of cost pressures for a specific industry.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you read a headline: \"WPI inflation surges to 14% in March, highest in 10 years.\" A Class 11 student might wonder: *Does this mean my grocery bill will jump 14%?* Start by ______ that WPI measures prices at the factory gate or wholesale mandi, not at the retail shop.",
+     "a": "clarifying",
+     "self_check": true
     }
    ]
   }

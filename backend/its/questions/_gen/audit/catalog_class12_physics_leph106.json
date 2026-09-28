@@ -1,0 +1,743 @@
+{
+ "catalog": "catalog_class12_physics_leph106.json",
+ "concepts": [
+  {
+   "id": "leph106.6.3.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mag_field = 56",
+      "area = 5.6",
+      "cos_tilt = 43",
+      "mag_flux = mag_field * area * cos_tilt"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mag_field = 20",
+      "area = 47",
+      "cos_tilt = 30",
+      "mag_flux = mag_field * area * cos_tilt"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mag_field = 78",
+      "area = 21",
+      "cos_tilt = 93",
+      "mag_flux = mag_field * area * cos_tilt"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mag_field = 79",
+      "area = 96",
+      "cos_tilt = 80",
+      "mag_flux = mag_field * area * cos_tilt"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mag_field = 3.2",
+      "area = 44",
+      "cos_tilt = 6.2",
+      "mag_flux = mag_field * area * cos_tilt"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mag_field = 73",
+      "area = 33",
+      "cos_tilt = 73",
+      "mag_flux = mag_field * area * cos_tilt"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "mag_flux = mag_field * area * cos_tilt"
+   ]
+  },
+  {
+   "id": "leph106.6.4.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "turns = 474",
+      "flux_change = 33",
+      "time_gap = 82",
+      "emf_ind = turns * flux_change / time_gap"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "turns = 395",
+      "flux_change = 84",
+      "time_gap = 31",
+      "emf_ind = turns * flux_change / time_gap"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "turns = 455",
+      "flux_change = 25",
+      "time_gap = 28",
+      "emf_ind = turns * flux_change / time_gap"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "turns = 406",
+      "flux_change = 91",
+      "time_gap = 92",
+      "emf_ind = turns * flux_change / time_gap"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "turns = 201",
+      "flux_change = 80",
+      "time_gap = 63",
+      "emf_ind = turns * flux_change / time_gap"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "turns = 438",
+      "flux_change = 78",
+      "time_gap = 91",
+      "emf_ind = turns * flux_change / time_gap"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "emf_ind = turns * flux_change / time_gap"
+   ]
+  },
+  {
+   "id": "leph106.6.4.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "emf_ind = 159",
+      "loop_resist = 28",
+      "loop_current = emf_ind / loop_resist"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "emf_ind = 55",
+      "loop_resist = 96",
+      "loop_current = emf_ind / loop_resist"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "emf_ind = 20",
+      "loop_resist = 66",
+      "loop_current = emf_ind / loop_resist"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "emf_ind = 229",
+      "loop_resist = 36",
+      "loop_current = emf_ind / loop_resist"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "emf_ind = 281",
+      "loop_resist = 63",
+      "loop_current = emf_ind / loop_resist"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "emf_ind = 73",
+      "loop_resist = 36",
+      "loop_current = emf_ind / loop_resist"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "loop_current = emf_ind / loop_resist"
+   ]
+  },
+  {
+   "id": "leph106.6.6.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mag_field = 41",
+      "rod_len = 97",
+      "speed = 68",
+      "motional_emf = mag_field * rod_len * speed"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mag_field = 9.7",
+      "rod_len = 11.4",
+      "speed = 69",
+      "motional_emf = mag_field * rod_len * speed"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mag_field = 62",
+      "rod_len = 7.2",
+      "speed = 70",
+      "motional_emf = mag_field * rod_len * speed"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mag_field = 6.6",
+      "rod_len = 30",
+      "speed = 49",
+      "motional_emf = mag_field * rod_len * speed"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mag_field = 75",
+      "rod_len = 62",
+      "speed = 21",
+      "motional_emf = mag_field * rod_len * speed"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mag_field = 10.1",
+      "rod_len = 35",
+      "speed = 68",
+      "motional_emf = mag_field * rod_len * speed"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "motional_emf = mag_field * rod_len * speed"
+   ]
+  },
+  {
+   "id": "leph106.6.6.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mag_field = 62",
+      "omega = 14.4",
+      "radius = 35",
+      "emf_rot = 0.5 * mag_field * omega * radius ** 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mag_field = 71",
+      "omega = 4.2",
+      "radius = 2",
+      "emf_rot = 0.5 * mag_field * omega * radius ** 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mag_field = 97",
+      "omega = 2.9",
+      "radius = 3",
+      "emf_rot = 0.5 * mag_field * omega * radius ** 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mag_field = 71",
+      "omega = 0.8",
+      "radius = 14.5",
+      "emf_rot = 0.5 * mag_field * omega * radius ** 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mag_field = 20",
+      "omega = 57",
+      "radius = 6.4",
+      "emf_rot = 0.5 * mag_field * omega * radius ** 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mag_field = 93",
+      "omega = 27",
+      "radius = 1.9",
+      "emf_rot = 0.5 * mag_field * omega * radius ** 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "emf_rot = 0.5 * mag_field * omega * radius ** 2"
+   ]
+  },
+  {
+   "id": "leph106.6.7.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "flux_link = 52",
+      "current = 12.6",
+      "inductance = flux_link / current"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "flux_link = 42",
+      "current = 24",
+      "inductance = flux_link / current"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "flux_link = 16.3",
+      "current = 16.7",
+      "inductance = flux_link / current"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "flux_link = 2.6",
+      "current = 16.1",
+      "inductance = flux_link / current"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "flux_link = 31",
+      "current = 3.4",
+      "inductance = flux_link / current"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "flux_link = 59",
+      "current = 16.8",
+      "inductance = flux_link / current"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "inductance = flux_link / current"
+   ]
+  },
+  {
+   "id": "leph106.6.7.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mutual_ind = 98",
+      "current_rate = 32",
+      "emf_two = mutual_ind * current_rate"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mutual_ind = 19.7",
+      "current_rate = 109",
+      "emf_two = mutual_ind * current_rate"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mutual_ind = 29",
+      "current_rate = 55",
+      "emf_two = mutual_ind * current_rate"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mutual_ind = 13.4",
+      "current_rate = 7.7",
+      "emf_two = mutual_ind * current_rate"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mutual_ind = 61",
+      "current_rate = 13.7",
+      "emf_two = mutual_ind * current_rate"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mutual_ind = 78",
+      "current_rate = 62",
+      "emf_two = mutual_ind * current_rate"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "emf_two = mutual_ind * current_rate"
+   ]
+  },
+  {
+   "id": "leph106.6.7.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "self_ind = 99",
+      "current_rate = 93",
+      "back_emf = self_ind * current_rate"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "self_ind = 41",
+      "current_rate = 68",
+      "back_emf = self_ind * current_rate"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "self_ind = 55",
+      "current_rate = 16.1",
+      "back_emf = self_ind * current_rate"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "self_ind = 38",
+      "current_rate = 12.8",
+      "back_emf = self_ind * current_rate"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "self_ind = 36",
+      "current_rate = 2",
+      "back_emf = self_ind * current_rate"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "self_ind = 89",
+      "current_rate = 94",
+      "back_emf = self_ind * current_rate"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "back_emf = self_ind * current_rate"
+   ]
+  },
+  {
+   "id": "leph106.6.7.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mu_0 = 5.5",
+      "perm_rel = 63",
+      "turns_per_len = 236",
+      "area = 62",
+      "solenoid_len = 75",
+      "sol_ind = mu_0 * perm_rel * turns_per_len ** 2 * area * solenoid_len"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mu_0 = 67",
+      "perm_rel = 48",
+      "turns_per_len = 269",
+      "area = 8.2",
+      "solenoid_len = 98",
+      "sol_ind = mu_0 * perm_rel * turns_per_len ** 2 * area * solenoid_len"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mu_0 = 78",
+      "perm_rel = 83",
+      "turns_per_len = 386",
+      "area = 25",
+      "solenoid_len = 40",
+      "sol_ind = mu_0 * perm_rel * turns_per_len ** 2 * area * solenoid_len"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mu_0 = 37",
+      "perm_rel = 43",
+      "turns_per_len = 120",
+      "area = 6.4",
+      "solenoid_len = 97",
+      "sol_ind = mu_0 * perm_rel * turns_per_len ** 2 * area * solenoid_len"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mu_0 = 14.1",
+      "perm_rel = 69",
+      "turns_per_len = 149",
+      "area = 29",
+      "solenoid_len = 10.9",
+      "sol_ind = mu_0 * perm_rel * turns_per_len ** 2 * area * solenoid_len"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mu_0 = 76",
+      "perm_rel = 59",
+      "turns_per_len = 101",
+      "area = 5",
+      "solenoid_len = 82",
+      "sol_ind = mu_0 * perm_rel * turns_per_len ** 2 * area * solenoid_len"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "sol_ind = mu_0 * perm_rel * turns_per_len ** 2 * area * solenoid_len"
+   ]
+  },
+  {
+   "id": "leph106.6.7.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "self_ind = 19.9",
+      "current = 8.5",
+      "stored_energy = 0.5 * self_ind * current ** 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "self_ind = 74",
+      "current = 27",
+      "stored_energy = 0.5 * self_ind * current ** 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "self_ind = 52",
+      "current = 13.3",
+      "stored_energy = 0.5 * self_ind * current ** 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "self_ind = 11.3",
+      "current = 1.4",
+      "stored_energy = 0.5 * self_ind * current ** 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "self_ind = 92",
+      "current = 28",
+      "stored_energy = 0.5 * self_ind * current ** 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "self_ind = 49",
+      "current = 19.6",
+      "stored_energy = 0.5 * self_ind * current ** 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "stored_energy = 0.5 * self_ind * current ** 2"
+   ]
+  },
+  {
+   "id": "leph106.6.7.6",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mag_field = 9.1",
+      "mu_0 = 3.3",
+      "energy_density = mag_field ** 2 / (2 * mu_0)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mag_field = 27",
+      "mu_0 = 11.5",
+      "energy_density = mag_field ** 2 / (2 * mu_0)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mag_field = 12.3",
+      "mu_0 = 71",
+      "energy_density = mag_field ** 2 / (2 * mu_0)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mag_field = 16",
+      "mu_0 = 43",
+      "energy_density = mag_field ** 2 / (2 * mu_0)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mag_field = 48",
+      "mu_0 = 32",
+      "energy_density = mag_field ** 2 / (2 * mu_0)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mag_field = 11.1",
+      "mu_0 = 16.1",
+      "energy_density = mag_field ** 2 / (2 * mu_0)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "energy_density = mag_field ** 2 / (2 * mu_0)"
+   ]
+  },
+  {
+   "id": "leph106.6.8.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "turns = 254",
+      "mag_field = 10.7",
+      "area = 31",
+      "omega = 27",
+      "peak_emf = turns * mag_field * area * omega"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "turns = 258",
+      "mag_field = 96",
+      "area = 21",
+      "omega = 58",
+      "peak_emf = turns * mag_field * area * omega"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "turns = 59",
+      "mag_field = 55",
+      "area = 68",
+      "omega = 100",
+      "peak_emf = turns * mag_field * area * omega"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "turns = 81",
+      "mag_field = 24",
+      "area = 28",
+      "omega = 14.4",
+      "peak_emf = turns * mag_field * area * omega"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "turns = 37",
+      "mag_field = 82",
+      "area = 41",
+      "omega = 68",
+      "peak_emf = turns * mag_field * area * omega"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "turns = 6",
+      "mag_field = 69",
+      "area = 72",
+      "omega = 66",
+      "peak_emf = turns * mag_field * area * omega"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "peak_emf = turns * mag_field * area * omega"
+   ]
+  }
+ ]
+}

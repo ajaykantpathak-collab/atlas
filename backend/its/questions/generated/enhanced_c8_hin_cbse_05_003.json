@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c8_hin_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c8_hin_cbse_05_003",
+   "title": "c8_hin_cbse_05_003",
+   "questions": [
+    {
+     "q": "पाठ्य-परिवेश (textual setting) के तीन मुख्य घटक कौन-से हैं जो वातावरण बनाने में सहायक होते हैं?",
+     "a": "**Correct answer**: काल (time), स्थान (place), और संवेदनात्मक विवरण (sensory details — दृश्य, ध्वनि, गंध, स्पर्श). **What a wrong answer reveals**: If a student only says \"time and place,\" they are stuck at Class 6 level (where setting = backdrop). They miss that **sensory details are the engine of atmosphere** — without them, setting is just a label, not a mood-maker.",
+     "self_check": true
+    },
+    {
+     "q": "निम्नलिखित अंश पढ़ें: *\"कमरे में धूल की परत जमी थी, खिड़की का शीशा टूटा हुआ था, और बाहर से केवल सियारों की हुआँ-हुआँ सुनाई दे रही थी।\"* — यह परिवेश कौन-सा वातावरण बना रहा है? अपने शब्दों में समझाएँ।",
+     "a": "**Correct answer**: यह परिवेश **वीरानी, भय और उपेक्षा** का वातावरण बनाता है। धूल = लंबे समय से कोई नहीं आया; टूटी खिड़की = असुरक्षा/रखरखाव की कमी; सियारों की आवाज़ = अकेलापन और रात का सन्नाटा। **What a wrong answer reveals**: If a student says \"यह दुखद है\" (it's sad) without linking *specific details* to *specific feelings*, they are guessing the mood instead of **analyzing how details construct it**. They treat atmosphere as a label, not a built effect.",
+     "self_check": true
+    },
+    {
+     "q": "एक नई स्थिति में समान कौशल लागू करें: आप एक कहानी लिख रहे हैं जहाँ नायक एक पुराने पुस्तकालय में रात बिताता है। **चार विशिष्ट संवेदनात्मक विवरण** लिखें जो **रहस्यमय तनाव (mysterious tension)** का वातावरण बनाएँ — प्रत्येक विवरण के आगे लिखें कि वह तनाव कैसे बढ़ाता है।",
+     "a": "**Sample strong answer**:\n1. **फर्श पर धीमी चरमराहट** (ध्वनि) → कोई अदृश्य चल रहा है, पर दिखता नहीं = अज्ञात का भय।\n2. **पन्नों की गंध में मिली सीलन** (गंध) → समय रुका हुआ है, कुछ छिपा है = अतीत का बोझ।\n3. **चाँदनी से झाँकती धूल के कण** (दृश्य) → रोशनी अधूरी है, सत्य धुंधला है = अनिश्चितता।\n4. **कंधे पर अचानक ठंडी हवा का स्पर्श** (स्पर्श) → कोई दरवाज़ा खुला? या कोई पास खड़ा है? = तत्काल खतरा।\n**What a wrong answer reveals**: Generic details like \"अंधेरा था\" (it was dark) or \"डरावना था\" (it was scary) show the student **cannot translate atmosphere into concrete sensory building blocks** — they know the *result* but not the *craft*.",
+     "self_check": true
+    },
+    {
+     "q": "पाठ 5 के किसी एक दृश्य में, लेखक ने \"दोपहर की चिलचिलाती धूप\" और \"सूखे पत्तों की सरसराहट\" का प्रयोग किया है। विश्लेषण करें: ये दो विवरण **मिलकर** कैसा वातावरण बनाते हैं जो **केवल एक विवरण से नहीं बनता**? (संकेत: संयुक्त प्रभाव पर ध्यान दें)",
+     "a": "**Correct analysis**: \"चिलचिलाती धूप\" = शारीरिक तपन, थकान, खुलापन; \"सूखे पत्तों की सरसराहट\" = सूखापन, मृत्यु/अंत की ध्वनि, हलचल बिना जीवन के। **संयुक्त प्रभाव**: **निर्जीव तपन (lifeless heat)** — एक ऐसा वातावरण जहाँ जीवन संघर्ष कर रहा है, आवाज़ें हैं पर जीव नहीं, गर्मी है पर ऊर्जा नहीं। यह **निराशा + बेचैनी** मिलकर बनाता है जो नायक की आंतरिक स्थिति (शायद इंतज़ार, थकान, निर्णय की घड़ी) को बाहरी दुनिया में प्रतिबिंबित करता है। **What a wrong answer reveals**: Listing effects separately (\"धूप से गर्मी लगी, पत्तों से आवाज़ आई\") shows **inability to synthesize** — they see parts, not the *emergent atmosphere* that only arises from interaction. This is the core Class 8 leap: setting details **converse** with each other.",
+     "self_check": true
+    },
+    {
+     "q": "कथन का मूल्यांकन करें: *\"किसी कहानी में वातावरण केवल परिवेश के विवरण से बनता है; संवाद और पात्रों के विचार इसमें कोई भूमिका नहीं निभाते।\"* सहमत हैं या असहमत? पाठ 5 के उदाहरण से तर्क दें।",
+     "a": "**Correct evaluation**: **असहमत**। परिवेश **आधार** देता है, लेकिन वातावरण **पात्रों की प्रतिक्रिया** से पूरा होता है। उदाहरण: पाठ 5 में यदि परिवेश \"सूनसान गली, टिमटिमाती स्ट्रीटलाइट\" है, तो वही परिवेश **भय** बनेगा यदि पात्र \"तेज़ चलने लगे, पीछे मुड़कर देखें\" — लेकिन **उत्सुकता** बनेगा यदि पात्र \"रुककर देखें, नोटबुक निकालें\"। वातावरण = परिवेश × पात्र की दृष्टि। **What a wrong answer reveals**: Agreeing shows **reductionist thinking** — treating atmosphere as a static painting instead of a dynamic interaction between world and observer. This misconception blocks deeper analysis in nodes 004, 006, 013.",
+     "self_check": true
+    },
+    {
+     "q": "पाठ 5 के शीर्षक/कथानक के आधार पर, एक **नया प्रारंभिक पैराग्राफ** लिखें जो **उसी कथानक** के लिए **बिल्कुल अलग वातावरण** (उदाहरण: तनावपूर्ण के बजाय शांत/आशापूर्ण) बनाता हो — केवल परिवेश के विवरण बदलकर। संवाद/विचार न लिखें, केवल परिवेश।",
+     "a": "**Criteria for strong answer**:\n- Same physical location (e.g., railway station, village square, hospital corridor) but **different sensory palette**.\n- E.g., original: \"धुएँ भरा प्लेटफॉर्म, चीख़ती रेल, भीड़ की धक्का-मुक्की\" (तनाव) → New: \"भोर की धुंध में डूबा प्लेटफॉर्म, दूर मंदिर की घंटी, चाय वाले की मीठी सुगंध, बेंच पर सोए बूढ़े का निश्चिंत खर्राटा\" (शांति/आशा).\n- Must use **4+ sensory details** that *cohere* into the new mood.\n**What a poor answer reveals**: Just changing adjectives (\"सुंदर प्लेटफॉर्म\") without shifting the **sensory logic** shows the student doesn't grasp that atmosphere is **built from consistent sensory evidence**, not decorative words.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

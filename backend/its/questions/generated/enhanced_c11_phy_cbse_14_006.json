@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using two tuning forks of slightly different frequencies (e.g., 256 Hz and 260 Hz) to demonstrate that interference requires constant phase difference. Describe what you would observe and how it proves the requirement.",
      "a": "Strike both forks simultaneously and hold them near each other. Observe beats — periodic waxing and waning of intensity at 4 Hz. This occurs because the phase difference φ = (ω₁ - ω₂)t changes continuously with time, causing the interference to alternate between constructive and destructive. If the forks had identical frequencies (constant φ), a steady interference pattern (fixed loud/soft regions in space) would be observed. The beats demonstrate that time-varying phase difference prevents stable interference. A poor answer (e.g., just describing beats without linking to phase difference variability) reveals inability to connect the mathematical condition (constant φ) to the physical observation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of waves is the phenomenon where two or more coherent waves superpose to form a resultant wave of greater, lower, or the same amplitude.",
+     "a": "Interference",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe ripples in a pond when two stones are dropped ______ — where crests meet crests, the water rises higher; where crests meet troughs, the surface becomes calm.",
+     "a": "simultaneously",
+     "self_check": true
+    },
+    {
+     "q": "What is Interference of waves? State the definition given in this lesson.",
+     "a": "Interference of waves is the phenomenon where two or more coherent waves superpose to form a resultant wave of greater, lower, or the same amplitude.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Connect φ to path difference Δx via φ = ______πΔx/λ.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Interference of waves?",
+     "a": "Students believe that destructive interference means energy is destroyed.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the resultant amplitude and intensity for two interfering waves given their individual amplitudes, phase difference, and path difference; can determine whether interference at a point is constructive or destructive by analyzing path difference in terms of wavelength; and can explain why interference patterns.",
+     "self_check": true
     }
    ]
   }

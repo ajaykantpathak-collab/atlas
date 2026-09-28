@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_geo_ch3_1",
+ "concepts": [
+  {
+   "id": "enh:c9_geo_ch3_1",
+   "title": "c9_geo_ch3_1",
+   "questions": [
+    {
+     "q": "What is the typical depth range of the continental shelf, and where does it end?",
+     "a": "The continental shelf typically extends from the shoreline to a depth of 130–200 metres, ending at the **shelf break**. A wrong answer (e.g., \"2,000 m\" or \"ends at the coastline\") reveals the student confuses the shelf with the slope or deep-sea floor, or thinks the shelf is the entire submerged continent.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the continental slope steeper than the continental shelf, and what major erosional feature is commonly found on it?",
+     "a": "The continental slope is steeper (2°–5°) because it marks the true edge of the continental crust, where granitic rock transitions to basaltic oceanic crust. **Submarine canyons** (e.g., Indus Canyon, Swatch of No Ground) are major erosional features cut by turbidity currents. A wrong answer (e.g., \"waves make it steep\" or \"rivers flow down it\") shows confusion between surface wave processes and deep-water gravity flows.",
+     "self_check": true
+    },
+    {
+     "q": "On a bathymetric map of the Bay of Bengal, the 200 m isobath runs ~100 km off the Odisha coast but only ~20 km off the Tamil Nadu coast. Which coast has the wider continental shelf, and what does this imply for marine resources?",
+     "a": "The **Odisha coast** has the wider shelf (100 km vs 20 km). Wider shelves receive more river sediment (Mahanadi, Godavari), support richer benthic ecosystems, and host major fishing grounds (e.g., Paradip) and potential hydrocarbon reserves. A wrong answer (choosing Tamil Nadu) reveals the student misreads isobath spacing — closer lines = steeper slope, not wider shelf.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sediment types on the continental shelf vs. the abyssal plain in the Indian Ocean. How do their origins and grain sizes differ?",
+     "a": "**Shelf sediments** are **terrigenous** (quartz, clay from rivers like Ganga, Indus), coarse to medium-grained, deposited by waves and currents. **Abyssal plain sediments** are **pelagic** (calcareous/siliceous ooze from plankton, red clay), extremely fine-grained, settling slowly over millions of years. A wrong answer (e.g., \"both are sandy\") shows the student misses the shift from land-derived to biogenic/chemical sedimentation with distance from shore.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The deep-sea floor is a flat, featureless, and lifeless desert.\" Use evidence from the Indian Ocean.",
+     "a": "**False.** The Indian Ocean deep-sea floor has **abyssal hills**, **seamounts** (e.g., Afanasy Nikitin Seamount), **trenches** (Java/Sunda Trench, 7,450 m), and **hydrothermal vent communities** (Central Indian Ridge). Life exists via chemosynthesis. Calling it \"featureless\" ignores tectonic topography; \"lifeless\" ignores vent ecosystems. A wrong answer reveals reliance on outdated \"desert\" stereotypes, not modern oceanography.",
+     "self_check": true
+    },
+    {
+     "q": "Design a cross-sectional profile (sketch with labels) of a passive continental margin from the Gujarat coast to the Arabian Sea abyssal plain. Include: depth zones, gradient changes, sediment types, and one resource activity per zone.",
+     "a": "A good profile shows: (1) **Shelf** (0–200 m, gentle slope, terrigenous sand/mud, **oil/gas drilling** off Mumbai High), (2) **Slope** (200–3,000 m, steep, canyons, **turbidite deposition**), (3) **Continental Rise** (gentle, sediment fans), (4) **Abyssal Plain** (3,000–4,000 m, flat, calcareous ooze, **manganese nodule exploration**). A poor sketch merges shelf/slope, omits the rise, or places resources in wrong zones.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

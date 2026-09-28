@@ -24,9 +24,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "name the components", "explain": "position statement (balance sheet), performance statement (profit and loss) and the cash flow statement"},
-    {"step": 2, "action": "state the audience", "explain": "owners and external parties such as investors, tax authorities, government, employees and creditors"},
-    {"step": 3, "action": "state the role", "explain": "the statements condense chronological monetary records into a form usable for profitability and solvency judgements"}
+    {
+     "step": 1,
+     "action": "name the components",
+     "explain": "position statement (balance sheet), performance statement (profit and loss) and the cash flow statement"
+    },
+    {
+     "step": 2,
+     "action": "state the audience",
+     "explain": "owners and external parties such as investors, tax authorities, government, employees and creditors"
+    },
+    {
+     "step": 3,
+     "action": "state the role",
+     "explain": "the statements condense chronological monetary records into a form usable for profitability and solvency judgements"
+    }
    ]
   },
   {
@@ -45,12 +57,33 @@
     "what role do recorded facts play in the statements",
     "describe the nature of financial statement information"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "start from the records", "explain": "chronologically recorded events, valued in money for a defined period, supply the raw figures"},
-    {"step": 2, "action": "add the conventions", "explain": "concepts such as going concern, accrual and consistency decide how events are recognised and matched"},
-    {"step": 3, "action": "add the judgement", "explain": "estimates like useful lives, bad debt percentages and provision sizes inject personal judgement into the reported amounts"}
-   ]
+    {
+     "step": 1,
+     "action": "start from the records",
+     "explain": "chronologically recorded events, valued in money for a defined period, supply the raw figures"
+    },
+    {
+     "step": 2,
+     "action": "add the conventions",
+     "explain": "concepts such as going concern, accrual and consistency decide how events are recognised and matched"
+    },
+    {
+     "step": 3,
+     "action": "add the judgement",
+     "explain": "estimates like useful lives, bad debt percentages and provision sizes inject personal judgement into the reported amounts"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "statement_figures = recorded_facts + accounting_conventions + personal_judgements",
+     "compute": "statement_figures = recorded_facts + accounting_conventions + personal_judgements"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.203.3.1",
@@ -70,9 +103,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "state the performance goal", "explain": "show the operating results -- profit or loss -- for the period just ended"},
-    {"step": 2, "action": "state the position goal", "explain": "show the financial position -- assets, liabilities and equity -- at the closing date"},
-    {"step": 3, "action": "state the management goal", "explain": "supply the internal base for planning, decision making and control"}
+    {
+     "step": 1,
+     "action": "state the performance goal",
+     "explain": "show the operating results -- profit or loss -- for the period just ended"
+    },
+    {
+     "step": 2,
+     "action": "state the position goal",
+     "explain": "show the financial position -- assets, liabilities and equity -- at the closing date"
+    },
+    {
+     "step": 3,
+     "action": "state the management goal",
+     "explain": "supply the internal base for planning, decision making and control"
+    }
    ]
   },
   {
@@ -93,9 +138,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "name the external pair", "explain": "balance sheet (position) and statement of profit and loss (performance)"},
-    {"step": 2, "action": "add the movement statement", "explain": "the cash flow statement reports inflows and outflows of funds"},
-    {"step": 3, "action": "fix the format source", "explain": "revised Schedule III of the Companies Act 2013 prescribes the vertical form and disclosure for all companies"}
+    {
+     "step": 1,
+     "action": "name the external pair",
+     "explain": "balance sheet (position) and statement of profit and loss (performance)"
+    },
+    {
+     "step": 2,
+     "action": "add the movement statement",
+     "explain": "the cash flow statement reports inflows and outflows of funds"
+    },
+    {
+     "step": 3,
+     "action": "fix the format source",
+     "explain": "revised Schedule III of the Companies Act 2013 prescribes the vertical form and disclosure for all companies"
+    }
    ]
   },
   {
@@ -116,9 +173,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "stack the liability side", "explain": "shareholders' funds, then non-current liabilities, then current liabilities, each with its Schedule III sub-items"},
-    {"step": 2, "action": "stack the asset side", "explain": "non-current assets (fixed, investments, deferred tax, long-term loans) then current assets (inventories, receivables, cash)"},
-    {"step": 3, "action": "attach the notes", "explain": "broad heads stay on the face of the statement; the item-by-item detail moves to notes to accounts"}
+    {
+     "step": 1,
+     "action": "stack the liability side",
+     "explain": "shareholders' funds, then non-current liabilities, then current liabilities, each with its Schedule III sub-items"
+    },
+    {
+     "step": 2,
+     "action": "stack the asset side",
+     "explain": "non-current assets (fixed, investments, deferred tax, long-term loans) then current assets (inventories, receivables, cash)"
+    },
+    {
+     "step": 3,
+     "action": "attach the notes",
+     "explain": "broad heads stay on the face of the statement; the item-by-item detail moves to notes to accounts"
+    }
    ]
   },
   {
@@ -139,9 +208,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "apply the time test", "explain": "realise or settle within twelve months or one operating cycle means current; anything longer is non-current"},
-    {"step": 2, "action": "apply the demand test", "explain": "loans repayable on demand are short-term borrowings regardless of history"},
-    {"step": 3, "action": "split the long-term debt", "explain": "the slice of a long-term loan falling due within the year is reported under other current liabilities as current maturities"}
+    {
+     "step": 1,
+     "action": "apply the time test",
+     "explain": "realise or settle within twelve months or one operating cycle means current; anything longer is non-current"
+    },
+    {
+     "step": 2,
+     "action": "apply the demand test",
+     "explain": "loans repayable on demand are short-term borrowings regardless of history"
+    },
+    {
+     "step": 3,
+     "action": "split the long-term debt",
+     "explain": "the slice of a long-term loan falling due within the year is reported under other current liabilities as current maturities"
+    }
    ]
   },
   {
@@ -162,8 +243,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "net the premium against the write-off", "explain": "preliminary expenses are written off first from the securities premium balance", "compute": "netted_premium = securities_premium - preliminary_expenses"},
-    {"step": 2, "action": "add the accumulated surplus", "explain": "the credit balance of the statement of profit and loss joins the note", "compute": "reserves_and_surplus = netted_premium + surplus_in_profit_and_loss"}
+    {
+     "step": 1,
+     "action": "net the premium against the write-off",
+     "explain": "preliminary expenses are written off first from the securities premium balance",
+     "compute": "netted_premium = securities_premium - preliminary_expenses"
+    },
+    {
+     "step": 2,
+     "action": "add the accumulated surplus",
+     "explain": "the credit balance of the statement of profit and loss joins the note",
+     "compute": "reserves_and_surplus = netted_premium + surplus_in_profit_and_loss"
+    }
    ]
   },
   {
@@ -184,9 +275,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "add up shareholders' funds", "explain": "share capital plus reserves and surplus plus money against warrants", "compute": "funds_total = share_capital + reserves_and_surplus"},
-    {"step": 2, "action": "join the liability layers", "explain": "non-current liabilities and current liabilities sit on top of the funds", "compute": "balance_sheet_total = funds_total + non_current_liabilities + current_liabilities"}
-   ]
+    {
+     "step": 1,
+     "action": "add up shareholders' funds",
+     "explain": "share capital plus reserves and surplus plus money against warrants",
+     "compute": "funds_total = share_capital + reserves_and_surplus"
+    },
+    {
+     "step": 2,
+     "action": "join the liability layers",
+     "explain": "non-current liabilities and current liabilities sit on top of the funds",
+     "compute": "balance_sheet_total = funds_total + non_current_liabilities + current_liabilities"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "balance_sheet_total = shareholders_funds + non_current_liabilities + current_liabilities",
+     "compute": "balance_sheet_total = shareholders_funds + non_current_liabilities + current_liabilities"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.203.4.6",
@@ -204,12 +314,33 @@
     "distinguish revenue from operations and other income",
     "how does the statement end after tax is deducted"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "build total revenue", "explain": "revenue from operations (sales of goods and services) plus other income such as interest and dividend for a non-finance company"},
-    {"step": 2, "action": "build total expenses", "explain": "cost of materials, purchases and inventory changes, employee benefits, finance costs, depreciation and other expenses"},
-    {"step": 3, "action": "step down to the bottom line", "explain": "profit before tax less tax expense gives profit for the period, followed by basic and diluted earnings per share"}
-   ]
+    {
+     "step": 1,
+     "action": "build total revenue",
+     "explain": "revenue from operations (sales of goods and services) plus other income such as interest and dividend for a non-finance company"
+    },
+    {
+     "step": 2,
+     "action": "build total expenses",
+     "explain": "cost of materials, purchases and inventory changes, employee benefits, finance costs, depreciation and other expenses"
+    },
+    {
+     "step": 3,
+     "action": "step down to the bottom line",
+     "explain": "profit before tax less tax expense gives profit for the period, followed by basic and diluted earnings per share"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "profit_before_tax = total_revenue - total_expenses",
+     "compute": "profit_before_tax = total_revenue - total_expenses"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.203.4.7",
@@ -229,10 +360,30 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "combine the revenue lines", "explain": "revenue from operations plus other income", "compute": "total_revenue = revenue_from_operations + other_income"},
-    {"step": 2, "action": "build the employee benefits line", "explain": "wages plus salaries and like staff costs form the employee benefits head", "compute": "employee_benefits = wages + salaries"},
-    {"step": 3, "action": "combine the expense heads", "explain": "materials, employee benefits, finance costs and depreciation land in one total", "compute": "total_expenses = cost_of_materials + employee_benefits + finance_costs + depreciation"},
-    {"step": 4, "action": "take the difference", "explain": "profit before tax is revenue total minus expense total", "compute": "profit_before_tax = total_revenue - total_expenses"}
+    {
+     "step": 1,
+     "action": "combine the revenue lines",
+     "explain": "revenue from operations plus other income",
+     "compute": "total_revenue = revenue_from_operations + other_income"
+    },
+    {
+     "step": 2,
+     "action": "build the employee benefits line",
+     "explain": "wages plus salaries and like staff costs form the employee benefits head",
+     "compute": "employee_benefits = wages + salaries"
+    },
+    {
+     "step": 3,
+     "action": "combine the expense heads",
+     "explain": "materials, employee benefits, finance costs and depreciation land in one total",
+     "compute": "total_expenses = cost_of_materials + employee_benefits + finance_costs + depreciation"
+    },
+    {
+     "step": 4,
+     "action": "take the difference",
+     "explain": "profit before tax is revenue total minus expense total",
+     "compute": "profit_before_tax = total_revenue - total_expenses"
+    }
    ]
   },
   {
@@ -251,12 +402,33 @@
     "explain the importance of financial statements to investors",
     "how does management benefit from its own statements"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "list the internal reader", "explain": "management reads results and position to plan and control operations"},
-    {"step": 2, "action": "list the capital readers", "explain": "shareholders and investors judge returns; bankers and creditors judge security and repayment capacity"},
-    {"step": 3, "action": "list the public readers", "explain": "government and tax authorities check compliance and levy taxes; employees link wages to performance"}
-   ]
+    {
+     "step": 1,
+     "action": "list the internal reader",
+     "explain": "management reads results and position to plan and control operations"
+    },
+    {
+     "step": 2,
+     "action": "list the capital readers",
+     "explain": "shareholders and investors judge returns; bankers and creditors judge security and repayment capacity"
+    },
+    {
+     "step": 3,
+     "action": "list the public readers",
+     "explain": "government and tax authorities check compliance and levy taxes; employees link wages to performance"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "statement_users = management + investors + creditors + government + employees",
+     "compute": "statement_users = management + investors + creditors + government + employees"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.203.6.1",
@@ -274,12 +446,33 @@
     "can financial statements capture employee skill or brand value",
     "list the limitations a reader must keep in mind"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "note the monetary cage", "explain": "only events expressible in money enter the statements; skills, reputation and morale stay out"},
-    {"step": 2, "action": "note the time lag", "explain": "figures are historical, so inflation and current values may make them stale"},
-    {"step": 3, "action": "note the judgement risk", "explain": "estimates and deliberate window dressing can bend the reported numbers"}
-   ]
+    {
+     "step": 1,
+     "action": "note the monetary cage",
+     "explain": "only events expressible in money enter the statements; skills, reputation and morale stay out"
+    },
+    {
+     "step": 2,
+     "action": "note the time lag",
+     "explain": "figures are historical, so inflation and current values may make them stale"
+    },
+    {
+     "step": 3,
+     "action": "note the judgement risk",
+     "explain": "estimates and deliberate window dressing can bend the reported numbers"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "statement_reliability = full_picture - unmeasured_factors",
+     "compute": "statement_reliability = full_picture - unmeasured_factors"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -295,8 +488,18 @@
     "surplus_in_profit_and_loss": 150000
    },
    "solution_template": [
-    {"step": 1, "action": "net the premium against the write-off", "explain": "20000 - 40000 = -20000", "compute": "netted_premium = securities_premium - preliminary_expenses"},
-    {"step": 2, "action": "add the accumulated surplus", "explain": "-20000 + 150000 = 130000", "compute": "reserves_and_surplus = netted_premium + surplus_in_profit_and_loss"}
+    {
+     "step": 1,
+     "action": "net the premium against the write-off",
+     "explain": "20000 - 40000 = -20000",
+     "compute": "netted_premium = securities_premium - preliminary_expenses"
+    },
+    {
+     "step": 2,
+     "action": "add the accumulated surplus",
+     "explain": "-20000 + 150000 = 130000",
+     "compute": "reserves_and_surplus = netted_premium + surplus_in_profit_and_loss"
+    }
    ]
   },
   {
@@ -315,10 +518,30 @@
     "depreciation": 16000
    },
    "solution_template": [
-    {"step": 1, "action": "combine the revenue lines", "explain": "1000000 + 0 = 1000000", "compute": "total_revenue = revenue_from_operations + other_income"},
-    {"step": 2, "action": "build the employee benefits line", "explain": "120000 + 80000 = 200000", "compute": "employee_benefits = wages + salaries"},
-    {"step": 3, "action": "combine the expense heads", "explain": "400000 + 200000 + 10000 + 16000 = 626000", "compute": "total_expenses = cost_of_materials + employee_benefits + finance_costs + depreciation"},
-    {"step": 4, "action": "take the difference", "explain": "1000000 - 626000 = 374000", "compute": "profit_before_tax = total_revenue - total_expenses"}
+    {
+     "step": 1,
+     "action": "combine the revenue lines",
+     "explain": "1000000 + 0 = 1000000",
+     "compute": "total_revenue = revenue_from_operations + other_income"
+    },
+    {
+     "step": 2,
+     "action": "build the employee benefits line",
+     "explain": "120000 + 80000 = 200000",
+     "compute": "employee_benefits = wages + salaries"
+    },
+    {
+     "step": 3,
+     "action": "combine the expense heads",
+     "explain": "400000 + 200000 + 10000 + 16000 = 626000",
+     "compute": "total_expenses = cost_of_materials + employee_benefits + finance_costs + depreciation"
+    },
+    {
+     "step": 4,
+     "action": "take the difference",
+     "explain": "1000000 - 626000 = 374000",
+     "compute": "profit_before_tax = total_revenue - total_expenses"
+    }
    ]
   },
   {
@@ -335,8 +558,18 @@
     "preference_capital": 100000
    },
    "solution_template": [
-    {"step": 1, "action": "add up shareholders' funds", "explain": "200000 + 100000 = 300000", "compute": "funds_total = share_capital + reserves_and_surplus"},
-    {"step": 2, "action": "join the liability layers", "explain": "300000 + 100000 + 200000 = 600000", "compute": "balance_sheet_total = funds_total + non_current_liabilities + current_liabilities"}
+    {
+     "step": 1,
+     "action": "add up shareholders' funds",
+     "explain": "200000 + 100000 = 300000",
+     "compute": "funds_total = share_capital + reserves_and_surplus"
+    },
+    {
+     "step": 2,
+     "action": "join the liability layers",
+     "explain": "300000 + 100000 + 200000 = 600000",
+     "compute": "balance_sheet_total = funds_total + non_current_liabilities + current_liabilities"
+    }
    ]
   }
  ],

@@ -34,6 +34,31 @@
      "q": "Design a basic transport strategy for a landlocked district that produces perishable vegetables, specifying whether roads or railways should be prioritized for immediate market integration and why.",
      "a": "The expected answer should prioritize all-weather paved roads (and refrigerated trucks) because perishable vegetables require point-to-point flexibility and rapid short-to-medium distance transit to local mandis before spoiling, whereas railways are better suited for bulk, non-perishable goods over very long distances. A poor answer recommends building a heavy railway line without considering the high fixed costs, lack of immediate industrial bulk cargo, and the specific perishability constraints of vegetable farming.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ infrastructure comprises the physical networks—specifically roads, bridges, and railways—that facilitate the movement of people, raw materials, and finished goods across regions, thereby integrating local markets into a national economy.",
+     "a": "Transportation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a mango farmer in a remote ______ in Maharashtra who has harvested 500 kilograms of fresh alphonsos.",
+     "a": "village",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a mango farmer in a remote village in Maharashtra who has harvested ______ kilograms of fresh alphonsos.",
+     "a": "500",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can calculate and compare transportation cost reductions between road and rail networks, and can analyze how a new bridge or railway line reduces market isolation for rural producers.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a mango farmer in a remote village in ______ who has harvested 500 kilograms of fresh alphonsos.",
+     "a": "Maharashtra",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Create a short paragraph describing a fictional character who shows courage to pursue a dream of learning, incorporating one internal obstacle and one external obstacle.",
      "a": "A successful answer features a character who feels self-doubt (internal obstacle) and lacks financial resources (external obstacle), yet takes concrete steps like studying under a streetlamp or working part-time to learn. A poor answer lacks clear obstacles or makes the character's success happen without any struggle or determination.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The theme of courage to pursue one's dreams explores a character's inner strength, ______, and willingness to overcome societal barriers, fear, and obstacles to achieve their deepest aspirations.",
+     "a": "determination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever wanted to learn something new or do something important, but people told you it was too ______ or not meant for you?",
+     "a": "difficult",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Students must be able to identify specific evidence of courage in a literary text, explain how a character overcomes obstacles, and connect the character's actions to the overarching theme of determination.",
+     "self_check": true
     }
    ]
   }

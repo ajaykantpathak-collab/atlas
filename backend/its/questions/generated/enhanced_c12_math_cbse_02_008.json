@@ -34,6 +34,21 @@
      "q": "Create a word problem that requires using the identity sin⁻¹ x + cos⁻¹ x = π/2 to find an unknown angle. Provide the problem statement and outline the solution steps.",
      "a": "Problem: \"A right triangle has an acute angle α such that sin α = 3/5. Another acute angle β in the same triangle satisfies cos β = 3/5. Show that α + β = 90° using inverse trigonometric functions.\" Solution: α = sin⁻¹(3/5), β = cos⁻¹(3/5). Using the identity sin⁻¹ x + cos⁻¹ x = π/2, we get α + β = π/2 = 90°. A poor answer would be a problem that does not naturally lead to this identity (e.g., using different ratios) or a solution that computes angles numerically without invoking the identity, missing the point of the exercise.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Word problems involving inverse trigonometric functions require translating real-world scenarios (such as heights, distances, angles of elevation/depression, or geometric ______) into mathematical equations using inverse trigonometric functions (sin⁻¹, cos⁻¹, tan⁻¹, etc.), solving for unknown angles or side lengths, and interpreting the results within the principal value ranges of the respective functions.",
+     "a": "configurations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing 30 metres away from the base of a historic minar in Delhi and measure the angle of ______ to its top as 60°.",
+     "a": "elevation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently draw a labelled diagram from a word problem, identify the appropriate inverse trigonometric function based on given sides/angles, set up the equation respecting domain and principal value range restrictions, solve for the unknown, and verify that the solution is physically meaningful (e.g., angle lies in the.",
+     "self_check": true
     }
    ]
   }

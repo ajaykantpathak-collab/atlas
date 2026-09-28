@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_11_001",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_11_001",
+   "title": "c12_soc_cbse_11_001",
+   "questions": [
+    {
+     "q": "Name the three main classes in the colonial Indian agrarian structure and state one defining feature of each.",
+     "a": "Correct answer: (1) Landlords/zamindars — held superior property rights, collected rent/revenue from cultivators. (2) Tenants/cultivators — leased land, paid rent (often 50-75% of produce) to landlords. (3) Landless agricultural labourers — owned no land, worked for wages (often below minimum, in kind or cash), frequently tied by hereditary bonds. A wrong answer that lists \"farmers, workers, zamindars\" without distinguishing tenants from landless labourers reveals confusion between cultivating tenants and wage labourers — a critical distinction because tenants had some tenurial security while labourers had N/A.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words the fundamental difference between the zamindari and raiyatwari systems of land revenue collection. Who bore the revenue burden in each?",
+     "a": "Correct answer: In zamindari, the state dealt with zamindars as intermediaries; zamindars paid a fixed revenue to the state and extracted rent from cultivators. The revenue burden fell on cultivators via high rents. In raiyatwari, the state settled revenue directly with the cultivator (ryot), who paid a variable assessment (often 50% of produce) to the state. The cultivator bore the burden directly but had more incentive to invest. A wrong answer that says \"zamindari had landlords, raiyatwari had no landlords\" misses the point: raiyatwari areas also developed landlordism because ryots often sublet land. The misconception is equating raiyatwari with peasant proprietorship — in practice, many ryots became de facto landlords.",
+     "self_check": true
+    },
+    {
+     "q": "A cultivator in a zamindari village in Bihar produces 1,200 kg of paddy. The zamindar demands 60% as rent. The zamindar must pay 90% of the collected rent to the state as land revenue. Calculate: (a) how much paddy the cultivator retains, (b) how much the zamindar keeps as net income, (c) how much goes to the state.",
+     "a": "Steps: (1) Total produce = 1,200 kg. (2) Rent to zamindar = 60% of 1,200 = 720 kg. (3) Cultivator retains = 1,200 - 720 = 480 kg. (4) State share = 90% of 720 = 648 kg. (5) Zamindar's net = 720 - 648 = 72 kg. Answer: (a) 480 kg, (b) 72 kg, (c) 648 kg. A wrong answer that calculates state share as 90% of total produce (1,080 kg) shows misunderstanding of the two-stage extraction: the state's claim is on the rent collected by the zamindar, not on the total produce. This error ignores the intermediary role of the zamindar.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the condition of a tenant in a zamindari area (e.g., Bengal) with a tenant in a raiyatwari area (e.g., Madras) in the late 19th century. Identify two similarities and two differences in their economic vulnerability.",
+     "a": "Similarities: (1) Both paid high rents (50-75% of produce) and faced eviction risk. (2) Both were often from lower castes and lacked political power. Differences: (1) Zamindari tenants faced a double extraction (zamindar + state via zamindar), while raiyatwari tenants paid revenue directly to the state but could be sub-tenants of a ryot who acted as a landlord. (2) In zamindari, the zamindar had judicial/administrative power over tenants; in raiyatwari, the state's revenue officials dealt directly with cultivators, but moneylenders often became de facto landlords through debt. A wrong answer that claims raiyatwari tenants were \"owners\" and zamindari tenants were \"slaves\" shows binary thinking — both systems produced exploitation, but through different mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The raiyatwari system was more beneficial for cultivators than the zamindari system because it eliminated the intermediary.\" Provide two arguments supporting and two challenging this view.",
+     "a": "Supporting arguments: (1) Direct settlement gave cultivators proprietary rights and incentive to improve land. (2) Revenue demand was periodically revised (not permanent), so cultivators could benefit from productivity gains. Challenging arguments: (1) High revenue assessments (often 50% of gross produce) left little surplus; cultivators fell into debt to moneylenders who became new landlords. (2) The system recognised only the registered ryot — sub-tenants and labourers had no protection. A wrong answer that simply agrees or disagrees without nuance fails to see that both systems ultimately concentrated land control in the hands of a few (zamindars or rich ryots/moneylenders) and marginalised the actual tillers.",
+     "self_check": true
+    },
+    {
+     "q": "Create a flowchart (described in text) showing the flow of agricultural surplus from producer to state under (a) zamindari and (b) raiyatwari systems. Include the roles of moneylenders and sub-tenants where relevant.",
+     "a": "Expected answer: (a) Zamindari: Cultivator → (rent) → Zamindar → (land revenue) → State. Moneylender may lend to cultivator or zamindar. Sub-tenant → (rent) → Tenant → (rent) → Zamindar. (b) Raiyatwari: Cultivator/Ryot → (land revenue) → State. But Ryot may sublet to Sub-tenant → (rent) → Ryot. Moneylender → (debt/interest) → Ryot/Sub-tenant; Moneylender may acquire land. A poor answer that draws a single line \"Farmer → State\" for both systems shows inability to represent the layered extraction and the emergence of intermediary classes in raiyatwari areas.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The colonial agrarian structure in India was a three-tier hierarchy of land rights and labour relations: zamindars/landlords (who held superior property rights and collected revenue), tenants/cultivators (who leased land and paid rent in cash or kind), and landless ______ labourers (who worked for wages with no land rights).",
+     "a": "agricultural",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a village in 1890 Bengal: a ______ lives in a mansion, collects rent from 50 tenant families, and pays a fixed sum to the British collector.",
+     "a": "zamindar",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) distinguish between zamindari and raiyatwari systems in terms of revenue flow and property rights, (2) explain how each system positioned landlords, tenants, and labourers differently, and (3) describe the caste-class overlap that emerged from these arrangements.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a village in 1890 Bengal: a zamindar lives in a mansion, collects rent from 50 tenant families, and pays a fixed sum to the British ______.",
+     "a": "collector",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

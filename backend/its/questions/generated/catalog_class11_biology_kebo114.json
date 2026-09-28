@@ -1,6 +1,53 @@
 {
- "catalog": "catalog_class11_biology_kebo114",
+ "catalog": "catalog_class11_biology_kebo114.json",
  "concepts": [
+  {
+   "id": "kebo.114.2.1",
+   "title": "Respiratory Volumes and Capacities",
+   "converted_to_compute": true,
+   "formula": "vital_capacity = inspiratory_reserve + tidal_volume + expiratory_reserve",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "vital_capacity = inspiratory_reserve + tidal_volume + expiratory_reserve",
+     "compute": "vital_capacity = inspiratory_reserve + tidal_volume + expiratory_reserve"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Respiratory Volumes and Capacities: given inspiratory_reserve = 63, tidal_volume = 27, expiratory_reserve = 72, find vital capacity.",
+     "a": "162",
+     "self_check": false
+    },
+    {
+     "q": "For Respiratory Volumes and Capacities: given inspiratory_reserve = 26, tidal_volume = 18, expiratory_reserve = 12, find vital capacity.",
+     "a": "56",
+     "self_check": false
+    },
+    {
+     "q": "For Respiratory Volumes and Capacities: given inspiratory_reserve = 49, tidal_volume = 55, expiratory_reserve = 99, find vital capacity.",
+     "a": "203",
+     "self_check": false
+    },
+    {
+     "q": "For Respiratory Volumes and Capacities: given inspiratory_reserve = 3.6, tidal_volume = 44, expiratory_reserve = 68, find vital capacity.",
+     "a": "115.6",
+     "self_check": false
+    },
+    {
+     "q": "For Respiratory Volumes and Capacities: given inspiratory_reserve = 93, tidal_volume = 110, expiratory_reserve = 40, find vital capacity.",
+     "a": "243",
+     "self_check": false
+    },
+    {
+     "q": "For Respiratory Volumes and Capacities: given inspiratory_reserve = 75, tidal_volume = 7.1, expiratory_reserve = 62, find vital capacity.",
+     "a": "144.1",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "kebo.114.1.1",
    "title": "Respiratory Organs and the Human Respiratory System",
@@ -18,37 +65,6 @@
     {
      "q": "Under which section is 'Respiratory Organs and the Human Respiratory System' taught, and from which source text?",
      "a": "14.1 Respiratory Organs, 14.2 Human Respiratory System (source: kebo114.txt sections 14.1, 14.2)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebo.114.2.1",
-   "title": "Respiratory Volumes and Capacities",
-   "questions": [
-    {
-     "q": "Using the method 'Respiratory Volumes and Capacities', work with: expiratory_reserve = 400, inspiratory_reserve = 150, residual_volume = 75, tidal_volume = 4. Carry the chain through step by step and give the final value of total_lung_capacity.",
-     "a": "629 bytes",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Respiratory Volumes and Capacities' and work with: expiratory_reserve = 200, inspiratory_reserve = 18, residual_volume = 18, tidal_volume = 200. Carry the chain through step by step and give the final value of total_lung_capacity.",
-     "a": "436 bytes",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Respiratory Volumes and Capacities' refers to.",
-     "a": "Breathing volumes include tidal volume of about 500 ml, inspiratory reserve volume, expiratory reserve volume and residual volume, and capacities combine them: inspiratory capacity equals tidal volume plus IRV, vital capacity equals IRV plus tidal volume plus ERV, and total lung capacity equals vital capacity plus residual volume.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Respiratory Volumes and Capacities'.",
-     "a": "Intrapulmonary pressure falls below atmospheric pressure during inspiration as the diaphragm and external intercostals contract, and expiration is largely a passive return.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Respiratory Volumes and Capacities', in plain ASCII form.",
-     "a": "vital_capacity = inspiratory_reserve + tidal_volume + expiratory_reserve",
      "self_check": true
     }
    ]

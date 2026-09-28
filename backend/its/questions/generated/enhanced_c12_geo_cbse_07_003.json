@@ -34,6 +34,31 @@
      "q": "Design a multimodal transport plan for exporting 10,000 tonnes of iron ore from a mine in Chhattisgarh (central India) to a steel plant in Jamshedpur (Jharkhand), and then shipping finished steel coils (2,000 tonnes) to a port for export to Japan. Specify modes for each leg, transfer points, and justify each choice using cost-distance-productivity logic.",
      "a": "Leg 1 (Mine to Railhead): Road trucks (short distance, flexible, mine may lack rail siding). Leg 2 (Chhattisgarh to Jamshedpur): Railway — bulk, heavy, long-distance (approx. 400 km), low value-to-weight. Leg 3 (Jamshedpur to Port, e.g., Paradip/Kolkata): Railway — bulk coils, ~400 km. Leg 4 (Port to Japan): Ocean freighter (bulk carrier) — lowest cost per tonne-km for transoceanic bulk. Transfer points: mine siding, Jamshedpur yard, port. Justification: Each mode operates in its comparative advantage zone (road: collection/distribution; rail: long-haul bulk; sea: intercontinental bulk). A poor plan using road for Leg 2 or air for Leg 4 ignores the cost penalty for bulk low-value goods.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Transport as a service is an organised tertiary activity that provides the network of links (routes) and carriers (vehicles) for the carriage of persons and goods between locations over land, water, and air, enabling trade, economic integration, and spatial ______.",
+     "a": "connectivity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a delivery truck, a ______ train, and an airplane at your nearest city — all moving goods but chosen for different reasons.",
+     "a": "freight",
+     "self_check": true
+    },
+    {
+     "q": "What is Transport as a service? State the definition given in this lesson.",
+     "a": "Transport as a service is an organised tertiary activity that provides the network of links (routes) and carriers (vehicles) for the carriage of persons and goods between locations over land, water, and air, enabling trade, economic integration, and spatial connectivity.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) classify the five principal modes of transport with their defining characteristics (medium, vehicle, energy source, typical cargo), (2) explain the concept of complementarity among modes in a well-managed transport system using the cost-distance-productivity trade-off, and (3) evaluate the significance of a given mode.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ truck, a freight train, and an airplane at your nearest city — all moving goods but chosen for different reasons.",
+     "a": "delivery",
+     "self_check": true
     }
    ]
   }

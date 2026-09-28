@@ -34,6 +34,26 @@
      "q": "Create an inferential comprehension question on the poem that requires connecting the shadow metaphor to the theme of authenticity in love. Provide a model answer using PEEL.",
      "a": "Question: \"How does Donne use the shift from morning to afternoon shadows to argue that authentic love cannot tolerate disguise?\" Model Answer: Point: The shadow shift reveals that early love's disguises become dangerous self-deception in mature love. Evidence: \"These three houres ... Two shadowes went / Along with us, which we our selves produc'd\" (morning) vs. \"these which come behinde / Will worke upon our selves, and blind our eyes\" (afternoon). Explanation: Morning shadows are mutual, external disguises (\"we our selves produc'd\"); afternoon shadows are internal, self-inflicted blindness (\"worke upon our selves\"). Link: Thus authenticity requires shedding disguises before they turn inward and destroy love. A poor answer would only describe the shadow shift without the metaphorical pivot from \"we\" to \"our selves\".",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal comprehension questions require retrieving ______ explicitly stated in the text, while inferential comprehension questions require drawing conclusions by combining textual evidence with reasoning to uncover implied meanings.",
+     "a": "information",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're in the CBSE exam hall and the question reads: \"What do the morning shadows ______ in the poem?\" The answer isn't directly written — you must infer.",
+     "a": "represent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Scan the poem for the phrase \"morning shadowes\" (stanza ______).",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently distinguish question types, locate exact textual evidence for literal answers, and construct logical inferences supported by quotations using the PEEL (Point, Evidence, Explanation, Link) structure for a 3-4 mark CBSE board answer.",
+     "self_check": true
     }
    ]
   }

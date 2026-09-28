@@ -34,6 +34,21 @@
      "q": "Construct a linear programming problem (objective function and constraints) whose feasible region is a triangle with vertices (0,0), (6,0), (0,8). Write the objective function \\(Z = px + qy\\) such that the maximum occurs at (6,0) and the minimum at (0,8). Explain your choice of \\(p\\) and \\(q\\).",
      "a": "Constraints: \\(x \\ge 0, y \\ge 0, 4x + 3y \\le 24\\) (line through (6,0) and (0,8)). Choose \\(Z = 4x - 3y\\). At (6,0): \\(Z=24\\); at (0,8): \\(Z=-24\\); at (0,0): \\(Z=0\\). Maximum 24 at (6,0), minimum -24 at (0,8). A poor answer (e.g., \\(Z = x + y\\)) gives maximum at (6,0) and (0,8) both 6 and 8? Actually (0,8) gives 8, (6,0) gives 6, so max at (0,8) — wrong. This reveals the student does not understand how the coefficients of the objective function determine which vertex is optimal.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A corner point (or vertex) of the feasible region is a point that lies at the ______ of two boundary lines of the feasible region.",
+     "a": "intersection",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small bakery in Delhi that makes two types of cakes: ______ (₹200 profit per cake) and vanilla (₹150 profit per cake).",
+     "a": "chocolate",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) graph a system of linear inequalities to identify the feasible region and correctly shade it, (2) determine the coordinates of every corner point by solving the corresponding pairs of linear equations, and (3) explain why the optimal value of a linear objective function must occur at a corner point of the feasible.",
+     "self_check": true
     }
    ]
   }

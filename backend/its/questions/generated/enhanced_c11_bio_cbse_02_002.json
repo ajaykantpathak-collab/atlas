@@ -34,6 +34,21 @@
      "q": "Design a simple laboratory investigation to demonstrate that curd formation is caused by living bacteria and not by a chemical enzyme secreted into the milk. List materials, procedure, controls, and expected observations.",
      "a": "Materials: fresh milk, curd starter, test tubes, water bath, thermometer. Procedure: (1) Label tubes A (raw milk + starter), B (boiled milk + starter), C (raw milk + boiled starter), D (raw milk only). (2) Incubate all at 37°C for 6–8 h. Controls: B tests if milk components alone curdle; C tests if heat-killed bacteria can curdle; D tests spontaneous curdling. Expected: Only A sets into curd. B and C remain liquid — proving live bacteria are required. D remains liquid — ruling out abiotic curdling. A poor answer omits the boiled-starter control, failing to distinguish between live cells and heat-stable enzymes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Kingdom Monera comprises exclusively prokaryotic organisms (bacteria and archaea) that lack a true nucleus and membrane-bound organelles, possess a non-cellulosic cell wall (peptidoglycan in bacteria, ______ or S-layer in archaea), and exhibit the highest metabolic diversity among all kingdoms including photosynthetic, chemosynthetic, and heterotrophic modes of nutrition.",
+     "a": "pseudopeptidoglycan",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bowl of curd set overnight in a typical Indian kitchen — the ______ of liquid milk into semi-solid curd is driven by millions of *Lactobacillus* bacteria, a eubacterium.",
+     "a": "transformation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can classify a given prokaryote as archaebacteria or eubacteria based on habitat and cell wall features, explain the ecological significance of each metabolic type (photosynthetic, chemosynthetic, heterotrophic), and justify why mycoplasma are placed in Monera despite lacking a cell wall.",
+     "self_check": true
     }
    ]
   }

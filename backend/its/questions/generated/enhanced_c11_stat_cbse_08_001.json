@@ -34,6 +34,31 @@
      "q": "Design a mini-index number to track the \"study cost\" for a Class 11 student over two years. Specify: (a) the group of variables, (b) the base period, (c) how you would assign weights, and (d) one limitation of your index.",
      "a": "(a) Variables: tuition fees, textbook prices, stationery, transport, online subscription costs.\n(b) Base period: Academic year 2023-24 (assigned 100).\n(c) Weights: Proportion of total study expenditure spent on each item in the base year (e.g., if tuition is 70% of total cost, weight = 0.7).\n(d) Limitation: Does not capture quality changes (e.g., better textbooks) or new items (e.g., AI tutoring apps introduced in 2024-25).\nA poor answer that uses equal weights or ignores the \"group of variables\" requirement shows the student has not internalized the characteristics of weighting and group measurement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An index number is a ______ measure designed to show the average relative change in a group of related variables (such as prices, quantities, or values) between two time periods or across different situations, expressed as a percentage relative to a base period assigned the value 100.",
+     "a": "statistical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you hear on the news: \"Retail ______ hit 6.5% in January.\" Have you ever wondered how a single number summarizes price changes for thousands of goods — from onions to smartphones — across the whole country?",
+     "a": "inflation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An index number is a statistical measure designed to show the average relative change in a group of related variables (such as prices, quantities, or values) between two time periods or across different situations, expressed as a percentage relative to a base period assigned the value ______.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain the purpose of an index number in their own words, list at least four distinct characteristics with precise terminology, and distinguish between a simple average and an index number as a \"specialized average\" using a concrete example.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you hear on the news: \"Retail inflation hit 6.5% in January.\" Have you ever wondered how a single number summarizes price changes for thousands of goods — from onions to ______ — across the whole country?",
+     "a": "smartphones",
+     "self_check": true
     }
    ]
   }

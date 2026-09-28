@@ -11,7 +11,7 @@
      "self_check": true
     },
     {
-     "q": "A student writes the following three lines in a Python script and runs it. Explain what will happen and why:\n```",
+     "q": "A student writes the following three lines in a Python script and runs it. Explain what will happen and why:\n```\n# This is a comment\nprint(\"Hello\") # This prints a greeting\n''' This is also a comment '''\n```",
      "a": "The program will output `Hello` only. The first line is a full-line comment (ignored). The second line executes `print(\"Hello\")`; the part after `#` is an inline comment (ignored). The third line is a multi-line comment using triple single quotes — it is a string literal not assigned to any variable, so it is evaluated and discarded (no output). A wrong answer (e.g., \"syntax error on line 3\" or \"prints the triple-quoted text\") reveals the misconception that triple-quoted strings are a special comment syntax rather than unused string expressions.",
      "self_check": true
     },
@@ -21,7 +21,7 @@
      "self_check": true
     },
     {
-     "q": "Compare the following two multi-line comment blocks. Which one is technically a string literal that exists at runtime (occupies memory), and why does this distinction matter in a long-running program like a server?\n```python",
+     "q": "Compare the following two multi-line comment blocks. Which one is technically a string literal that exists at runtime (occupies memory), and why does this distinction matter in a long-running program like a server?\n```python\n# Block A\n''' \nThis is a multi-line comment\nspanning three lines\n'''\n\n# Block B\n# This is a multi-line comment\n# spanning three lines\n# using multiple single-line comments\n```",
      "a": "Block A is a string literal (triple-quoted) — it is created in memory at runtime and immediately discarded because it is not assigned. Block B uses only `#` comments, which are stripped by the lexer and never exist at runtime. In a long-running server, repeated execution of Block A (e.g., inside a loop) creates unnecessary memory churn (garbage collection pressure), while Block B has zero runtime cost. A wrong answer (e.g., \"both are same\" or \"Block B uses more memory\") reveals lack of understanding of Python's execution model (lexing vs. evaluation).",
      "self_check": true
     },
@@ -32,7 +32,32 @@
     },
     {
      "q": "Design a Python program skeleton (no need for full logic) for a \"Student Grade Calculator\" that uses comments to structure the code into logical sections: Input, Processing, Output. Use multi-line comments as section headers and single-line comments for key variable declarations. The program should accept marks for 5 subjects (out of 100), calculate percentage, and print grade (A/B/C/F). Show only the comments and variable declarations — no calculations.",
-     "a": "```python\n''' \n========================================\nSTUDENT GRADE CALCULATOR\nAuthor: [Name]\nDate: [Date]\nAccepts marks for 5 subjects (0-100)\nCalculates percentage and assigns grade\n========================================\n'''",
+     "a": "```python\n''' \n========================================\nSTUDENT GRADE CALCULATOR\nAuthor: [Name]\nDate: [Date]\nAccepts marks for 5 subjects (0-100)\nCalculates percentage and assigns grade\n========================================\n'''\n\n# ---------- INPUT SECTION ----------\nsub1 = 0  # Subject 1 marks\nsub2 = 0  # Subject 2 marks\nsub3 = 0  # Subject 3 marks\nsub4 = 0  # Subject 4 marks\nsub5 = 0  # Subject 5 marks\n\n# ---------- PROCESSING SECTION ----------\n# total_marks = sum of all subjects\n# percentage = (total_marks / 500) * 100\n# grade = 'A' if percentage >= 90 else 'B' if percentage >= 75 else 'C' if percentage >= 60 else 'F'\n\n# ---------- OUTPUT SECTION ----------\n# print(f\"Percentage: {percentage:.2f}%\")\n# print(f\"Grade: {grade}\")\n```\nA poor answer (no section headers, no variable comments, or mixing logic in comments) reveals inability to use comments for structural documentation — a key skill for board practical file viva.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Comments in Python are non-executable annotations in the source code that begin with a hash symbol (#) for single-line comments or are enclosed within triple quotes (''' or \"\"\") for multi-line comments, used exclusively for human-readable ______ and ignored by the Python interpreter during execution.",
+     "a": "documentation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a Python program to ______ the total cost of ingredients for a Diwali sweet recipe (ladoo) — you have variables for flour (₹40/kg), sugar (₹45/kg), ghee (₹500/kg), and nuts (₹800/kg).",
+     "a": "calculate",
+     "self_check": true
+    },
+    {
+     "q": "What is Comments in Python? State the definition given in this lesson.",
+     "a": "Comments in Python are non-executable annotations in the source code that begin with a hash symbol (#) for single-line comments or are enclosed within triple quotes (''' or \"\"\") for multi-line comments, used exclusively for human-readable documentation and ignored by the Python interpreter during execution.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Comments in Python?",
+     "a": "\"\"\") are the \"official\" multi-line comment syntax in Python, and that # is only for single lines.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) correctly write both single-line and multi-line comments in a Python script, (2) explain the purpose of comments in program documentation and debugging, and (3) distinguish between commented-out code (for testing) and explanatory comments (for maintenance) in a given code snippet.",
      "self_check": true
     }
    ]

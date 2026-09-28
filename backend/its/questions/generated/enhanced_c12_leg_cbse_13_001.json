@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_13_001",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_13_001",
+   "title": "c12_leg_cbse_13_001",
+   "questions": [
+    {
+     "q": "What is the minimum educational qualification required for enrollment as an advocate under the Advocates Act, 1961?",
+     "a": "An LLB degree from a recognized Indian university (or a foreign degree recognized by BCI). A wrong answer (e.g., \"BA LLB\" without specifying it's an LLB degree, or \"LLM\") reveals the student confuses degree types or thinks postgraduate qualification is mandatory — the Act only requires a bachelor's degree in law (LLB), whether 3-year or 5-year integrated.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why passing the All India Bar Examination (AIBE) is necessary even after obtaining an LLB degree and enrolling with a State Bar Council.",
+     "a": "AIBE is a mandatory licensing exam introduced in 2010 to test minimum competency to practice; enrollment with a State Bar Council only makes you an \"advocate on the roll,\" but the Certificate of Practice (license to actually appear in courts) is issued only after clearing AIBE. A wrong answer (e.g., \"AIBE is for government jobs\" or \"enrollment is enough\") shows the student doesn't grasp the distinction between enrollment (registration) and licensure (permission to practice) — a critical regulatory two-step.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul completed his 5-year BA LLB from a BCI-recognized university in 2023. He applied for enrollment with the Delhi Bar Council but has not yet appeared for AIBE. Can he file a vakalatnama and appear for a client in the Delhi High Court? Why or why not?",
+     "a": "No. Without clearing AIBE, Rahul cannot obtain a Certificate of Practice, which is mandatory to practice in any court. Enrollment alone only places his name on the State Roll; the Advocates Act and BCI rules require AIBE clearance for the right to practice. A wrong answer (\"yes, enrollment is enough\") reveals the student misses the post-enrollment licensing requirement — a common error that leads to unauthorized practice.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the roles, eligibility, and restrictions of a Senior Advocate versus an Advocate-on-Record (AOR) in the Supreme Court of India.",
+     "a": "Senior Advocate: designated by SC/HC based on ability/standing; cannot appear without an AOR/junior; cannot file vakalatnama or draft pleadings; wears gown with flap. AOR: only one who can file matters/documents in SC; requires 4 years' practice + 1 year training under AOR + SC exam; must have office within 10 miles of SC and registered clerk. A wrong answer conflating the two (e.g., \"both can file in SC\") shows failure to distinguish honorific designation (Senior Advocate) from functional license (AOR) — a key procedural distinction in Supreme Court practice.",
+     "self_check": true
+    },
+    {
+     "q": "\"Advertising by lawyers in India should be fully liberalized like in the USA to improve access to justice.\" Evaluate this statement considering the Bar Council of India's current rules, the rationale for restrictions, and the counter-arguments.",
+     "a": "The statement oversimplifies a nuanced balance. BCI permits only 5 specific details on websites (name, contact, enrollment, qualifications, practice areas) after approval — no solicitations, ads, or touting. Rationale: prevent misleading claims, protect profession's dignity, avoid \"ambulance chasing.\" Counter: restricted ads limit public awareness of legal rights/services, especially for marginalized groups. Evaluation: India's calibrated approach (limited info, no solicitation) balances access with ethical guardrails; full US-style liberalization risks commercialization and exploitation. A wrong answer taking an extreme position (\"ban all ads\" or \"allow all ads\") shows lack of analytical evaluation of competing values.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step career roadmap for a Class 12 student (commerce stream) who wants to become a corporate lawyer at a top-tier law firm in Mumbai, including education, exams, internships, and licensing milestones.",
+     "a": "Roadmap: (1) Clear CLAT/LSAT/other entrance → (2) 5-year BBA LLB at NLU/top private law school → (3) Internships: Year 1-2 (NGOs/trial courts), Year 3-4 (corporate law firms), Year 5 (pre-placement offer target) → (4) Graduate with LLB → (5) Clear AIBE → (6) Enroll with Maharashtra State Bar Council → (7) Get Certificate of Practice → (8) Join firm as Associate. Good answer includes specific milestones (CLAT, AIBE, internships timeline); poor answer misses AIBE, thinks degree alone suffices, or ignores internship strategy — revealing gaps in practical pathway knowledge.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

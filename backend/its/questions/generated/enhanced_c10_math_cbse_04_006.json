@@ -34,6 +34,21 @@
      "q": "Create a quadratic equation with integer coefficients that has roots \\(2 + \\sqrt{5}\\) and \\(2 - \\sqrt{5}\\). Show how you used the quadratic formula in reverse.",
      "a": "Sum of roots = \\(4\\), product = \\(4 - 5 = -1\\). Equation: \\(x^2 - 4x - 1 = 0\\). Check with quadratic formula: \\(a=1, b=-4, c=-1\\), \\(D = 16 + 4 = 20\\), \\(\\sqrt{20} = 2\\sqrt{5}\\), \\(x = \\frac{4 \\pm 2\\sqrt{5}}{2} = 2 \\pm \\sqrt{5}\\). If a student creates \\(x^2 - 4x + 1 = 0\\) (wrong product sign), they confuse product of conjugates. If they cannot form the equation, they don't understand the relationship between roots and coefficients (sum = \\(-b/a\\), product = \\(c/a\\)).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It is a universal method that works for all quadratic equations, ______ of whether the roots are real and distinct, real and equal, or non-real (though Class 10 only considers real roots).",
+     "a": "regardless",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a Class 10 student, Rohan, is designing a ______ garden in his backyard in Pune.",
+     "a": "rectangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can also verify the roots by substitution.",
+     "self_check": true
     }
    ]
   }

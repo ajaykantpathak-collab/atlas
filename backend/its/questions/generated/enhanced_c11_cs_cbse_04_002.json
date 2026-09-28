@@ -34,6 +34,36 @@
      "q": "Design a step-by-step guide (with screenshots described in text) for a classmate to install Python 3.12 on Ubuntu Linux using the terminal, verify the installation, and launch IDLE. Include commands and expected outputs.",
      "a": "A good answer includes: 1) `sudo apt update`, 2) `sudo apt install python3.12 idle3`, 3) `python3.12 --version` (output: Python 3.12.x), 4) `idle3` launches IDLE. It should mention that IDLE may be installed separately. A poor answer omits the separate IDLE package, uses `python3` instead of `python3.12`, or doesn't verify the version, indicating gaps in Linux package management knowledge.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Python ______ and IDLE refers to the process of downloading, installing, and configuring the Python interpreter on a computer system, and using IDLE (Integrated Development and Learning Environment) – the default IDE that comes bundled with Python – to write, edit, run, and debug Python programs.",
+     "a": "Installation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to write your first Python program to ______ the total cost of buying 5 notebooks at ₹40 each.",
+     "a": "calculate",
+     "self_check": true
+    },
+    {
+     "q": "What is Python Installation and IDLE? State the definition given in this lesson.",
+     "a": "Python Installation and IDLE refers to the process of downloading, installing, and configuring the Python interpreter on a computer system, and using IDLE (Integrated Development and Learning Environment) – the default IDE that comes bundled with Python – to write, edit, run, and debug Python programs.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Show the Shell window (>>> prompt) for immediate commands, then open a New File (Ctrl+N) to write a script, save it as cost.py, and run it with F______.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Python Installation and IDLE?",
+     "a": "Students often think that installing Python automatically creates a desktop shortcut for IDLE and that the Shell window is where you write and save programs.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently download the correct Python version for their operating system, complete the installation with appropriate settings (including adding Python to PATH), launch IDLE, distinguish between the Shell and Editor windows, write a simple script in the editor, save it with a .py extension, and execute it.",
+     "self_check": true
     }
    ]
   }

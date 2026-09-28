@@ -34,6 +34,26 @@
      "q": "Design a mini-project for your Class 12 practical file: *Use Bhuvan to map the change in water-body area of a local lake/reservoir over the last 10 years and suggest one management action.* Outline the **exact steps** you would perform on Bhuvan, the **data layers** you would use, and the **output** you would submit.",
      "a": "**Expected answer structure (not a single right answer, but must include):**  \n1. **Problem definition:** Select a lake (e.g., Chilika, Kolleru, or a local reservoir).  \n2. **Data acquisition on Bhuvan:**  \n   - Open Bhuvan → \"Thematic Services\" → \"Water Resources\" → \"Water Body Extent\" (or use \"Time Series\" if available).  \n   - Download two layers: *earliest available* (e.g., 2014) and *latest* (e.g., 2024) — both as shapefiles or GeoTIFFs.  \n3. **Pre-processing (if needed):** Reproject to same CRS (WGS 84 / UTM zone), clip to lake boundary.  \n4. **Change detection (overlay):** In QGIS (or Bhuvan's analysis tool if enabled):  \n   - Load both layers → Intersect / Difference → calculate area loss/gain.  \n   - Create a *change map* (three classes: persistent water, lost water, new water).  \n5. **Quantify:** Attribute table → sum area for each class → percentage change.  \n6. **Management action:** Based on pattern (e.g., shrinkage due to encroachment → \"demarcate and fence buffer zone\"; sedimentation → \"desilting plan\").  \n7. **Output for practical file:**  \n   - Screenshots of Bhuvan layers with metadata.  \n   - Change map with legend, scale, north arrow.  \n   - Table of area statistics.  \n   - One-paragraph recommendation with geographic justification.  \nA poor answer skips metadata, uses only visual comparison without quantification, or suggests generic actions (\"save water\") without linking to the *spatial pattern* observed. This tests the **create** competency: designing a complete GIS workflow from problem to policy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Applications of Spatial Information Technology in India refer to the practical use of integrated geospatial tools — GIS, Remote Sensing, GPS, and digital cartography — to solve location-based problems across sectors such as urban planning, agriculture, disaster management, natural resource monitoring, and ______ development, leveraging India's satellite programmes (IRS, Cartosat, Resourcesat) and indigenous platforms like Bhuvan.",
+     "a": "infrastructure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ planner in Aligarh, Uttar Pradesh, and you see the city expanding rapidly into surrounding farmland.",
+     "a": "district",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify a real-world Indian problem (e.g., urban sprawl mapping, crop health monitoring, flood risk zonation), select the appropriate spatial technology combination (RS+GIS+GPS), describe the data sources (satellite sensors, survey data), outline the analytical steps (overlay, buffer, network analysis), and interpret the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a district planner in Aligarh, Uttar Pradesh, and you see the city expanding rapidly into ______ farmland.",
+     "a": "surrounding",
+     "self_check": true
     }
    ]
   }

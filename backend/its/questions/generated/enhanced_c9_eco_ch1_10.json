@@ -34,6 +34,36 @@
      "q": "Design a **realistic policy proposal** for providing **flood control embankments** along the Kosi River in Bihar. Your proposal must: (a) justify why this is a public good, (b) explain how the government should fund it, and (c) address the free-rider problem for maintenance.",
      "a": "**Expected answer criteria:**  \n(a) **Public good justification:** Embankments protect *all* villages downstream simultaneously (non-rivalrous); cannot exclude a village that refuses to pay (non-excludable).  \n(b) **Funding:** Central + State government budget (tax revenue: GST, income tax), possibly supplemented by World Bank/ADB loans for capital expenditure. *Not* user fees—exclusion is impossible.  \n(c) **Free-rider solution for maintenance:** Legally mandate maintenance as a **public duty** of the Water Resources Department, funded by recurring budget allocation. Create a **River Basin Authority** with statutory powers to levy a small *land betterment tax* on protected agricultural land (beneficiaries are identifiable), ensuring no village can free-ride on upkeep.  \n\n**Poor answer reveals:** If a student suggests \"collect ₹500 from each farmer,\" they ignore non-excludability—farmers upstream would refuse, leaving gaps in the embankment. If they say \"NGOs should maintain it,\" they miss that maintenance is a recurring *public* cost requiring state capacity, not charity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Public goods are goods ______ by non-excludability (impossible or extremely costly to prevent anyone from using them) and non-rivalry (one person's consumption does not reduce availability for others), leading to market failure where private firms cannot profitably supply them, necessitating government provision funded through taxation.",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are walking home at 8 PM in your neighbourhood in ______.",
+     "a": "Bengaluru",
+     "self_check": true
+    },
+    {
+     "q": "What is Public goods? State the definition given in this lesson.",
+     "a": "Public goods are goods characterized by non-excludability (impossible or extremely costly to prevent anyone from using them) and non-rivalry (one person's consumption does not reduce availability for others), leading to market failure where private firms cannot profitably supply them, necessitating government provision funded through.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are walking home at ______ PM in your neighbourhood in Bengaluru.",
+     "a": "8",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Public goods?",
+     "a": "Misconception: \"Any good provided free by the government is a public good.\" Exact error: Students conflate *zero-price provision* with the *economic definition*.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish public goods from private and common goods using the two defining characteristics, explain the free-rider problem with a concrete Indian example, and justify why government must provide national defense, street lighting, and flood control using economic reasoning about market failure.",
+     "self_check": true
     }
    ]
   }

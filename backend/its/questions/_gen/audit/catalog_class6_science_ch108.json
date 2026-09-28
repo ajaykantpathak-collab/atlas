@@ -1,0 +1,335 @@
+{
+ "catalog": "catalog_class6_science_ch108.json",
+ "concepts": [
+  {
+   "id": "fesc.8.1.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "infant_bones = 109",
+      "adult_bones = 56",
+      "fused_bones = infant_bones - adult_bones"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "infant_bones = 21",
+      "adult_bones = 8.5",
+      "fused_bones = infant_bones - adult_bones"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "infant_bones = 30",
+      "adult_bones = 111",
+      "fused_bones = infant_bones - adult_bones"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "infant_bones = 67",
+      "adult_bones = 45",
+      "fused_bones = infant_bones - adult_bones"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "infant_bones = 21",
+      "adult_bones = 56",
+      "fused_bones = infant_bones - adult_bones"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "infant_bones = 12.7",
+      "adult_bones = 39",
+      "fused_bones = infant_bones - adult_bones"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "fused_bones = infant_bones - adult_bones"
+   ]
+  },
+  {
+   "id": "fesc.8.1.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "rotational_axial = 50",
+      "movement = rotational_axial"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "rotational_axial = 44",
+      "movement = rotational_axial"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "rotational_axial = 54",
+      "movement = rotational_axial"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rotational_axial = 73",
+      "movement = rotational_axial"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "rotational_axial = 35",
+      "movement = rotational_axial"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "rotational_axial = 39",
+      "movement = rotational_axial"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "movement = rotational_axial"
+   ]
+  },
+  {
+   "id": "fesc.8.1.6",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "ribs_per_side = 395",
+      "total_ribs = ribs_per_side * 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "ribs_per_side = 125",
+      "total_ribs = ribs_per_side * 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "ribs_per_side = 123",
+      "total_ribs = ribs_per_side * 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "ribs_per_side = 70",
+      "total_ribs = ribs_per_side * 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ribs_per_side = 275",
+      "total_ribs = ribs_per_side * 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ribs_per_side = 135",
+      "total_ribs = ribs_per_side * 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_ribs = ribs_per_side * 2"
+   ]
+  },
+  {
+   "id": "fesc.8.1.8",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "contraction_pull_only = 18.5",
+      "movement_force = contraction_pull_only"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "contraction_pull_only = 0.6",
+      "movement_force = contraction_pull_only"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "contraction_pull_only = 18.6",
+      "movement_force = contraction_pull_only"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "contraction_pull_only = 9.4",
+      "movement_force = contraction_pull_only"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "contraction_pull_only = 4.9",
+      "movement_force = contraction_pull_only"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "contraction_pull_only = 13.3",
+      "movement_force = contraction_pull_only"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "movement_force = contraction_pull_only"
+   ]
+  },
+  {
+   "id": "fesc.8.2.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "segment_extension = 7.6",
+      "bristle_anchor = 48",
+      "segment_shortening = 82",
+      "locomotion = segment_extension + bristle_anchor + segment_shortening"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "segment_extension = 114",
+      "bristle_anchor = 47",
+      "segment_shortening = 2.3",
+      "locomotion = segment_extension + bristle_anchor + segment_shortening"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "segment_extension = 29",
+      "bristle_anchor = 83",
+      "segment_shortening = 9.3",
+      "locomotion = segment_extension + bristle_anchor + segment_shortening"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "segment_extension = 119",
+      "bristle_anchor = 83",
+      "segment_shortening = 90",
+      "locomotion = segment_extension + bristle_anchor + segment_shortening"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "segment_extension = 92",
+      "bristle_anchor = 61",
+      "segment_shortening = 11.7",
+      "locomotion = segment_extension + bristle_anchor + segment_shortening"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "segment_extension = 72",
+      "bristle_anchor = 12.1",
+      "segment_shortening = 68",
+      "locomotion = segment_extension + bristle_anchor + segment_shortening"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "locomotion = segment_extension + bristle_anchor + segment_shortening"
+   ]
+  },
+  {
+   "id": "fesc.8.2.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "muscular_foot_wave = 113",
+      "slimy_lubrication = 14.2",
+      "locomotion = muscular_foot_wave + slimy_lubrication"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "muscular_foot_wave = 2.8",
+      "slimy_lubrication = 61",
+      "locomotion = muscular_foot_wave + slimy_lubrication"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "muscular_foot_wave = 26",
+      "slimy_lubrication = 33",
+      "locomotion = muscular_foot_wave + slimy_lubrication"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "muscular_foot_wave = 39",
+      "slimy_lubrication = 78",
+      "locomotion = muscular_foot_wave + slimy_lubrication"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "muscular_foot_wave = 60",
+      "slimy_lubrication = 60",
+      "locomotion = muscular_foot_wave + slimy_lubrication"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "muscular_foot_wave = 69",
+      "slimy_lubrication = 23",
+      "locomotion = muscular_foot_wave + slimy_lubrication"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "locomotion = muscular_foot_wave + slimy_lubrication"
+   ]
+  }
+ ]
+}

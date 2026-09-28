@@ -34,6 +34,21 @@
      "q": "Design a safe laboratory activity to demonstrate that copper does not react with steam, while iron does. List the apparatus, chemicals, procedure, and the specific observation that confirms the difference.",
      "a": "Apparatus: Two hard glass boiling tubes, delivery tubes, trough, gas jars, Bunsen burner. Chemicals: Copper turnings, iron filings, water. Procedure: Place copper in one tube, iron in another. Heat each strongly while passing steam from a separate steam generator. Collect gas over water. Observation: Iron tube produces a colourless gas that burns with a 'pop' sound (H₂) and the solid turns black (Fe₃O₄); copper tube shows no gas evolution and copper remains reddish-brown. A poor answer (e.g., \"heat copper in water\") misses the need for steam, gas collection, and a positive control (iron) to validate the setup.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The reaction of metals with water (cold, hot, or steam) is a redox process where the metal displaces hydrogen from water, forming a metal hydroxide (with cold/hot water) or metal oxide (with steam) and liberating hydrogen gas; the vigour and ______ of the reaction depend on the metal's position in the reactivity series.",
+     "a": "feasibility",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine dropping a small piece of sodium into a trough of cold water — it dances vigorously, catches fire, and the solution turns pink with ______.",
+     "a": "phenolphthalein",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can predict whether a given metal will react with cold water, hot water, or steam; write balanced chemical equations for each case; and explain the observed reactivity trend using the concept of the reactivity series.",
+     "self_check": true
     }
    ]
   }

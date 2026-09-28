@@ -34,6 +34,36 @@
      "q": "Design a one-page infographic for a Class 10 exhibition showing \"India's Trade Lifelines\" — include: (a) a proportional circle map of top 5 export destinations, (b) a Sankey diagram of crude oil import→refining→export flow, (c) a timeline of trade policy milestones (1991 LPG, 2015 FTP, 2023 RoDTEP), and (d) one policy recommendation to reduce trade deficit with China. Specify data sources and visual hierarchy.",
      "a": "Expected infographic elements: (a) Proportional circles on world map — USA ($78B), UAE ($32B), Netherlands ($24B), China ($16B), Bangladesh ($12B) — circle area ∝ export value; source: DGCI&S FY24. (b) Sankey: Crude imports (150 MMT) → Refineries (250 MMT capacity) → Domestic supply (130 MMT) + Exports (65 MMT, $85B); width ∝ volume. (c) Timeline: 1991 LPG reforms → 2004-09 FTP (focus on traditional sectors) → 2015-20 FTP (MEIS, SEIS) → 2023 RoDTEP (WTO-compliant remission) → 2024 PLI 2.0. (d) Recommendation: \"Phased PLI for API (Active Pharmaceutical Ingredients) and semiconductor assembly — reduces 2 highest-value China imports ($12B APIs, $15B electronics) while leveraging India's pharma/IT strength.\" Poor answer: pie charts instead of proportional circles, missing Sankey flows, generic \"buy Indian\" recommendation — reveals inability to select appropriate visualisation for geographical data and propose evidence-based policy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: International trade refers to the exchange of goods and services between India and other countries across international borders; exports are goods and services produced in India and sold abroad earning foreign exchange, while imports are goods and services purchased from foreign countries paying foreign exchange, and the balance of trade is the difference between the value of exports and imports over a given period — a favourable balance occurs when exports exceed imports, and an ______ balance when imports exceed exports.",
+     "a": "unfavourable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the label on your smartphone charger — it likely says \"Designed in California, Assembled in China\" but the rare earth minerals inside may come from Africa, refined in India, and the final product ships through JNPT port to reach you; this single object connects mining in Africa, ______ in China, assembly in India, and export to the USA — all linked by international trade routes.",
+     "a": "manufacturing",
+     "self_check": true
+    },
+    {
+     "q": "What is International trade? State the definition given in this lesson.",
+     "a": "International trade refers to the exchange of goods and services between India and other countries across international borders; exports are goods and services produced in India and sold abroad earning foreign exchange, while imports are goods and services purchased from foreign countries paying foreign exchange, and the balance of trade.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by identifying what India sells (exports) and buys (imports) using the latest DGCI&S data table; notice that crude oil alone constitutes ~______% of our import bill while petroleum products are our top export — this apparent contradiction reveals India's role as a refining hub.",
+     "a": "25",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about International trade?",
+     "a": "Students believe \"Balance of Trade\" and \"Balance of Payments\" are the same thing and use the terms interchangeably; they also think a trade deficit is always bad and a surplus always good.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate balance of trade from given export-import data, classify India's major export and import commodities with their HS code categories, identify top trading partners on a world map, and explain how changes in global crude oil prices impact India's trade deficit using the concept of import elasticity.",
+     "self_check": true
     }
    ]
   }

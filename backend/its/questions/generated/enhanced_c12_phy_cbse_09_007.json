@@ -34,6 +34,26 @@
      "q": "Design a combination of two thin lenses in contact that has an effective power of +2.5 D. One lens must be concave. Specify the focal lengths (in cm) of both lenses. (Multiple answers possible; give one valid pair.)",
      "a": "Let convex lens power \\(P_1 = +5\\,\\text{D}\\) (\\(f_1 = +20\\,\\text{cm}\\)), concave lens power \\(P_2 = -2.5\\,\\text{D}\\) (\\(f_2 = -40\\,\\text{cm}\\)). Then \\(P = +5 - 2.5 = +2.5\\,\\text{D}\\). Any pair with \\(P_1 + P_2 = +2.5\\) and \\(P_2 < 0\\) works. A poor answer gives both focal lengths positive or ignores the concave requirement, showing inability to work backwards from net power.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ of thin lenses in contact refers to an optical system where two or more thin lenses are placed coaxially with their optical centres coincident (or so close that the separation is negligible compared to focal lengths).",
+     "a": "combination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ lens: many prescription glasses are actually two thin lenses cemented together (e.g., a convex lens for hypermetropia combined with a cylindrical lens for astigmatism).",
+     "a": "spectacle",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the effective focal length, power, and net magnification of a combination of 2–3 thin lenses in contact given individual focal lengths (with correct sign convention), and can determine whether the combination is converging or diverging.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a spectacle lens: many prescription glasses are actually two thin lenses cemented together (e.g., a convex lens for ______ combined with a cylindrical lens for astigmatism).",
+     "a": "hypermetropia",
+     "self_check": true
     }
    ]
   }

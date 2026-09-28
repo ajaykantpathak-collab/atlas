@@ -34,6 +34,31 @@
      "q": "Design a simple field experiment to determine whether a newly discovered flowering plant is predominantly autogamous or xenogamous. List the steps and the expected observations for each case.",
      "a": "Steps: (1) Bag several buds before anthesis to exclude pollinators. (2) Leave similar buds unbagged as controls. (3) After flowering, compare fruit/seed set in bagged vs. unbagged flowers. (4) If bagged flowers set seeds equally well → autogamy. (5) If bagged flowers fail but unbagged succeed → xenogamy. A poor design (e.g., \"observe insects visiting\") shows the student confuses pollinator visitation with actual pollen transfer and fertilization success.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the transfer of pollen grains from the anther (male part) to the stigma (female part) of a flower.",
+     "a": "Pollination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a hibiscus flower in your garden: its anthers and stigma are close together, making self-______ likely.",
+     "a": "pollination",
+     "self_check": true
+    },
+    {
+     "q": "What is Pollination? State the definition given in this lesson.",
+     "a": "Pollination is the transfer of pollen grains from the anther (male part) to the stigma (female part) of a flower.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Pollination?",
+     "a": "Students often believe that any pollen transfer between different flowers is cross-pollination.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish autogamy, geitonogamy, and xenogamy using floral morphology and genetic consequences, explain why geitonogamy is functionally cross-pollination but genetically self-pollination, and predict the effect of each type on genetic variation in a population.",
+     "self_check": true
     }
    ]
   }

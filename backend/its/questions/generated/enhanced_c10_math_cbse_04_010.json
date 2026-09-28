@@ -34,6 +34,11 @@
      "q": "Create a real-life problem (in an Indian context: rupees, metres, litres, etc.) that leads to a quadratic equation with **no real roots**. Write the problem statement, form the equation, compute its discriminant, and explain what \"no real roots\" means in your context.",
      "a": "**Example problem:** \"A rectangular garden has a perimeter of 40 metres. Can its area be 150 m²?\"  \nLet length = \\(x\\) metres, then breadth = \\(20 - x\\) metres. Area = \\(x(20-x) = 150\\) → \\(-x^2 + 20x - 150 = 0\\) → \\(x^2 - 20x + 150 = 0\\).  \nDiscriminant: \\(D = (-20)^2 - 4(1)(150) = 400 - 600 = -200 < 0\\).  \n**Interpretation:** No real roots means no real dimensions \\(x\\) satisfy the conditions. So, a rectangle with perimeter 40 m **cannot** have area 150 m² (maximum area for given perimeter is a square of side 10 m, area 100 m²).  \nA poor answer would give a problem where the discriminant is accidentally negative without the student realizing the physical impossibility, or they might not explain the contextual meaning of \"no real roots\".",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight: a negative ______ tells us the quadratic equation has no solution in the real numbers — the graph stays entirely above or below the x-axis.",
+     "a": "discriminant",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Design a protocol to determine the molar extinction coefficient (ε) of a newly synthesized fluorescent dye at its λmax, using only a UV-visible spectrophotometer, analytical balance, and volumetric glassware. Outline the steps and the graph you would plot.",
      "a": "1. Accurately weigh ~10 mg dye, dissolve in 100 mL volumetric flask → stock solution.  \n2. Prepare 5-6 serial dilutions (e.g., 2, 4, 6, 8, 10 µM) using volumetric pipettes.  \n3. Scan each dilution from 200-800 nm to find λmax (peak absorbance).  \n4. At λmax, measure absorbance of each dilution in 1 cm cuvette against solvent blank.  \n5. Plot A vs. c (µM). The slope = εl (l = 1 cm), so ε = slope (in M⁻¹ cm⁻¹).  \nA poor answer (e.g., \"measure absorbance of one concentration and use formula\") shows inability to design a calibration experiment and confuse ε determination with single-point concentration measurement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is an analytical technique that measures the amount of light absorbed by a chemical substance at specific wavelengths of the electromagnetic spectrum, enabling both qualitative identification and quantitative determination of biomolecule concentrations using the Beer-Lambert law.",
+     "a": "Spectrophotometry",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just isolated a plasmid DNA sample and need to know its concentration before setting up a PCR reaction — but the lab only has a UV-visible ______ and a box of quartz cuvettes.",
+     "a": "spectrophotometer",
+     "self_check": true
+    },
+    {
+     "q": "What is Spectrophotometry? State the definition given in this lesson.",
+     "a": "Spectrophotometry is an analytical technique that measures the amount of light absorbed by a chemical substance at specific wavelengths of the electromagnetic spectrum, enabling both qualitative identification and quantitative determination of biomolecule concentrations using the Beer-Lambert law.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: First, recall that DNA absorbs maximally at ______ nm due to its purine and pyrimidine bases.",
+     "a": "260",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Spectrophotometry?",
+     "a": "Students often believe that the Beer-Lambert law (A = εlc) holds for all concentrations and all samples.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) state the Beer-Lambert law with all variables and units, (2) explain the function of each component in a UV-visible spectrophotometer, (3) calculate unknown concentration from absorbance data, and (4) justify why absorbance (not transmittance) is used for quantitative work.",
+     "self_check": true
     }
    ]
   }

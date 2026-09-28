@@ -1,0 +1,56 @@
+{
+ "catalog": "enhanced_c10_gram_cbse_95_003",
+ "concepts": [
+  {
+   "id": "enh:c10_gram_cbse_95_003",
+   "title": "c10_gram_cbse_95_003",
+   "questions": [
+    {
+     "q": "Classify: 'Although it rained, the match continued.'",
+     "a": "Complex — 'although' subordinates the first clause. A wrong answer 'compound' reveals the student classifies by clause COUNT alone, ignoring that the joiner type (subordinator vs coordinator) is the actual diagnostic.",
+     "self_check": true
+    },
+    {
+     "q": "Make it simple: 'He was tired, so he went to bed.'",
+     "a": "'Being tired, he went to bed' (or 'Tired, he went to bed'). A wrong answer 'He was tired and went to bed' keeps two finite verbs — the student joined clauses but never reduced the count, so the sentence is still compound.",
+     "self_check": true
+    },
+    {
+     "q": "Is this legal? 'She loves maths, she practises daily.'",
+     "a": "No — comma splice; needs 'and' (compound), 'because' with order flip (complex), or a full stop. A wrong answer accepting it reveals the student believes a comma has conjunctive power — the single most common punctuation-structure error.",
+     "self_check": true
+    },
+    {
+     "q": "______ move meaning between these containers — 'Being tired, she slept' ≡ 'She was tired, so she slept' ≡ 'Because she was tired, she slept.'",
+     "a": "Transformations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sentence structure is about clause count and dependence: simple = one finite verb, compound = independent clauses joined by ______ (and/but/or/yet/so/for), complex = one main + subordinate clause(s) joined by because/although/which/when/that.",
+     "a": "coordinators",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Take one meaning — 'tired → slept' — and pour it into three ______.",
+     "a": "containers",
+     "self_check": true
+    },
+    {
+     "q": "What is Sentence structure? State the definition given in this lesson.",
+     "a": "Sentence structure is about clause count and dependence: simple = one finite verb, compound = independent clauses joined by coordinators (and/but/or/yet/so/for), complex = one main + subordinate clause(s) joined by because/although/which/when/that.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Sentence structure?",
+     "a": "Students call any long sentence 'complex', miss that 'and/but' between two full clauses is compound not complex, and write comma splices ('She was tired, she slept') believing a comma can join clauses.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student counts clauses correctly, identifies the connector type each structure needs, transforms among all three forms preserving meaning, and punctuates each correctly (comma-splice recognition).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

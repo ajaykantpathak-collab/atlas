@@ -34,6 +34,26 @@
      "q": "Create a one-week tiffin planner for a 13-year-old vegetarian boy (RDA: 2450 kcal, 54g protein, 35mg iron, 850mg calcium) that: (a) uses ≤3 food exchanges per day, (b) requires no reheating, (c) includes at least one GLV and one vitamin C source daily for iron absorption, (d) varies cereal base (wheat, rice, millet, Bengal gram flour) across days. Present as a table with Day | Menu | Exchanges Used | Key Nutrient Highlight.",
      "a": "| Day | Menu | Exchanges Used | Key Nutrient Highlight |\n|-----|------|----------------|------------------------|\n| Mon | Bajra roti (40g) + chana dal stuffing (20g) + mint-coriander chutney + guava (50g) | Cereal 1, Pulse 1, GLV 0.5, Fruit 1 | Millet iron (2.8mg) + vit C (guava 200mg) |\n| Tue | Rice flour idli (60g) + sambar (30g dal + 20g drumstick leaves) + coconut chutney | Cereal 1.5, Pulse 1, GLV 0.5, Fat 0.5 | Drumstick leaf iron + vit C |\n| Wed | Besan chilla (30g besan + 20g spinach) + tomato chutney + orange (100g) | Pulse 1, GLV 1, Fruit 1 | Besan protein (6g) + spinach iron + orange vit C |\n| Thu | Whole wheat wrap (40g) + rajma salad (30g rajma + 30g carrot/pepper) + lemon squeeze | Cereal 1, Pulse 1, Other Veg 1, Fruit 0.5 (lemon) | Rajma iron (3mg) + lemon vit C |\n| Fri | Jowar roti (40g) + moong dal chutney (20g) + grated carrot-beetroot + amla candy (10g) | Cereal 1, Pulse 1, Other Veg 1, Fruit 0.5 | Amla vit C (600mg/100g) enhances non-heme iron |\n| Sat | Ragi dosa (30g ragi + 20g urad dal) + peanut chutney + banana (50g) | Cereal 1, Pulse 1, Nut 0.5, Fruit 1 | Ragi calcium (344mg/100g) + banana potassium |\n| Sun | Multigrain paratha (wheat 30g + soy flour 10g) + palak paneer (20g spinach + 30g paneer) + lime | Cereal 1, Pulse 0.5, Milk 1, GLV 1 | Soy flour protein quality + paneer calcium + spinach iron |\n\nA poor answer uses same cereal daily, omits GLV/vit C pairing, exceeds exchange limits, or ignores vegetarian protein complementarity — revealing template-thinking instead of constraint-based design.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Meal planning for school-age children (7-12 years) and adolescents (13-19 years) is the systematic process of designing nutritionally adequate, culturally acceptable, and ______ appropriate daily menus that meet the increased energy and nutrient demands of rapid growth, pubertal changes, high physical activity, and cognitive development, while preventing lifestyle-related nutritional disorders such as obesity, anaemia, and eating disorders.",
+     "a": "developmentally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 14-year-old girl who skips breakfast, survives on samosas and cold drinks at school, and feels dizzy during afternoon sports — her ______ is 9.8 g/dL.",
+     "a": "haemoglobin",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by identifying her physiological stage: mid-adolescence, peak height velocity, menarche recently attained, high iron needs (______ mg/day).",
+     "a": "28",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Calculate RDA-based nutrient requirements for a specific school-age child or adolescent given age, sex, activity level, and growth velocity, and (2) Design a full-day menu using ICMR food groups and exchange lists that meets ≥90% of RDAs for energy, protein, iron, calcium, and vitamin A while respecting.",
+     "self_check": true
     }
    ]
   }

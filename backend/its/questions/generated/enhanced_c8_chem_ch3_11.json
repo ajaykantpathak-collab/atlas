@@ -34,6 +34,26 @@
      "q": "Design a simple investigative procedure to demonstrate that brass is a mixture rather than a chemical compound, using its physical properties.",
      "a": "A good response suggests measuring properties like melting point or density across different samples of brass; since mixtures have variable melting ranges and compositions, different brass samples can show slight variations in density and melt over a temperature range rather than at a single fixed melting point like a pure compound. A poor response simply states \"look at it under a microscope\" without explaining what variable composition or property range would be observed.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An alloy is a ______ mixture of two or more metals, or a metal and a non-metal, created by melting them together and cooling them to enhance desirable physical properties like strength, hardness, and corrosion resistance.",
+     "a": "homogeneous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When walking through an old temple in India, you might notice ______ statues made of bronze that have survived centuries without rusting away completely, unlike a pure iron gate left in the rain.",
+     "a": "ancient",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Students can identify the component elements of common alloys (bronze, brass, steel), explain how alloying alters the arrangement of atoms to improve hardness compared to pure metals, and select appropriate alloys for specific structural or domestic applications based on their properties.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When walking through an old temple in India, you might notice ancient statues made of bronze that have survived centuries without rusting away ______, unlike a pure iron gate left in the rain.",
+     "a": "completely",
+     "self_check": true
     }
    ]
   }

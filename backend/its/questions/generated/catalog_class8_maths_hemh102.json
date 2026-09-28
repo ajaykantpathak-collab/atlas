@@ -5,6 +5,8 @@
    "id": "hemh.102.2.1",
    "title": "Solving Equations with Variables on Both Sides",
    "converted_to_compute": false,
+   "formula": "x = (right_const - left_const) / (left_coef - right_coef)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 7 when x = 2.",
@@ -41,15 +43,9 @@
   {
    "id": "hemh.102.2.2",
    "title": "Solving Equations with Brackets",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute the given values and simplify",
-     "explain": "substitute the given values and simplify: val = 3 * 6 + 7 gives 25",
-     "compute": "val = 3 * 6 + 7"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "expanded = coef * (inner)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 7 when x = 6.",
@@ -86,15 +82,9 @@
   {
    "id": "hemh.102.2.3",
    "title": "Equations Reducible to Linear Form",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "transpose the terms and divide by the coefficient",
-     "explain": "transpose the terms and divide by the coefficient: x = (32 - 4) / 4 gives 7",
-     "compute": "x = (32 - 4) / 4"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 4x + 4 = 32.",
@@ -131,15 +121,9 @@
   {
    "id": "hemh.102.2.4",
    "title": "Word Problems with Linear Equations",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "transpose the terms and divide by the coefficient",
-     "explain": "transpose the terms and divide by the coefficient: x = (87 - 15) / 6 gives 12",
-     "compute": "x = (87 - 15) / 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 6x + 15 = 87.",

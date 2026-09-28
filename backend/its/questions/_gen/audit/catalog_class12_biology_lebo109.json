@@ -1,0 +1,56 @@
+{
+ "catalog": "catalog_class12_biology_lebo109.json",
+ "concepts": [
+  {
+   "id": "lebo109.9.3.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "cycles = 56",
+      "copy_count = 2 ** cycles"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "cycles = 44",
+      "copy_count = 2 ** cycles"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "cycles = 11.9",
+      "copy_count = 2 ** cycles"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "cycles = 10.7",
+      "copy_count = 2 ** cycles"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "cycles = 41",
+      "copy_count = 2 ** cycles"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "cycles = 13.7",
+      "copy_count = 2 ** cycles"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "copy_count = 2 ** cycles"
+   ]
+  }
+ ]
+}

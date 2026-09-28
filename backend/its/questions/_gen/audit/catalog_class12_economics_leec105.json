@@ -1,0 +1,467 @@
+{
+ "catalog": "catalog_class12_economics_leec105.json",
+ "concepts": [
+  {
+   "id": "leec.105.1.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "allocation = 98",
+      "redistribution = 20",
+      "stabilisation = 70",
+      "budget_functions = allocation + redistribution + stabilisation"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "allocation = 29",
+      "redistribution = 68",
+      "stabilisation = 22",
+      "budget_functions = allocation + redistribution + stabilisation"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "allocation = 91",
+      "redistribution = 40",
+      "stabilisation = 71",
+      "budget_functions = allocation + redistribution + stabilisation"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "allocation = 28",
+      "redistribution = 18.3",
+      "stabilisation = 81",
+      "budget_functions = allocation + redistribution + stabilisation"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "allocation = 28",
+      "redistribution = 46",
+      "stabilisation = 23",
+      "budget_functions = allocation + redistribution + stabilisation"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "allocation = 99",
+      "redistribution = 14.8",
+      "stabilisation = 87",
+      "budget_functions = allocation + redistribution + stabilisation"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "budget_functions = allocation + redistribution + stabilisation"
+   ]
+  },
+  {
+   "id": "leec.105.1.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "non_rivalrous = 16.7",
+      "non_excludable = 8.8",
+      "public_good = non_rivalrous + non_excludable"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "non_rivalrous = 14.9",
+      "non_excludable = 2.8",
+      "public_good = non_rivalrous + non_excludable"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "non_rivalrous = 19.7",
+      "non_excludable = 12.9",
+      "public_good = non_rivalrous + non_excludable"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "non_rivalrous = 12.7",
+      "non_excludable = 4.9",
+      "public_good = non_rivalrous + non_excludable"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "non_rivalrous = 14.7",
+      "non_excludable = 8",
+      "public_good = non_rivalrous + non_excludable"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "non_rivalrous = 16.4",
+      "non_excludable = 14.4",
+      "public_good = non_rivalrous + non_excludable"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "public_good = non_rivalrous + non_excludable"
+   ]
+  },
+  {
+   "id": "leec.105.1.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "tax_revenue = 92",
+      "non_tax_revenue = 81",
+      "revenue_receipts = tax_revenue + non_tax_revenue"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "tax_revenue = 64",
+      "non_tax_revenue = 104",
+      "revenue_receipts = tax_revenue + non_tax_revenue"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "tax_revenue = 53",
+      "non_tax_revenue = 19.6",
+      "revenue_receipts = tax_revenue + non_tax_revenue"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "tax_revenue = 4.3",
+      "non_tax_revenue = 119",
+      "revenue_receipts = tax_revenue + non_tax_revenue"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "tax_revenue = 94",
+      "non_tax_revenue = 40",
+      "revenue_receipts = tax_revenue + non_tax_revenue"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "tax_revenue = 51",
+      "non_tax_revenue = 90",
+      "revenue_receipts = tax_revenue + non_tax_revenue"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "revenue_receipts = tax_revenue + non_tax_revenue"
+   ]
+  },
+  {
+   "id": "leec.105.1.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "revenue_expenditure = 32",
+      "capital_expenditure = 62",
+      "total_expenditure = revenue_expenditure + capital_expenditure"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "revenue_expenditure = 53",
+      "capital_expenditure = 35",
+      "total_expenditure = revenue_expenditure + capital_expenditure"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "revenue_expenditure = 49",
+      "capital_expenditure = 14.3",
+      "total_expenditure = revenue_expenditure + capital_expenditure"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "revenue_expenditure = 50",
+      "capital_expenditure = 2.5",
+      "total_expenditure = revenue_expenditure + capital_expenditure"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "revenue_expenditure = 36",
+      "capital_expenditure = 43",
+      "total_expenditure = revenue_expenditure + capital_expenditure"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "revenue_expenditure = 44",
+      "capital_expenditure = 53",
+      "total_expenditure = revenue_expenditure + capital_expenditure"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_expenditure = revenue_expenditure + capital_expenditure"
+   ]
+  },
+  {
+   "id": "leec.105.2.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total_receipts = 41",
+      "total_expenditure = 61",
+      "budget_balance = total_receipts - total_expenditure"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total_receipts = 32",
+      "total_expenditure = 60",
+      "budget_balance = total_receipts - total_expenditure"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_receipts = 16.2",
+      "total_expenditure = 50",
+      "budget_balance = total_receipts - total_expenditure"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total_receipts = 1.3",
+      "total_expenditure = 40",
+      "budget_balance = total_receipts - total_expenditure"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "total_receipts = 33",
+      "total_expenditure = 76",
+      "budget_balance = total_receipts - total_expenditure"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total_receipts = 87",
+      "total_expenditure = 44",
+      "budget_balance = total_receipts - total_expenditure"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "budget_balance = total_receipts - total_expenditure"
+   ]
+  },
+  {
+   "id": "leec.105.2.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "revenue_expenditure = 1",
+      "revenue_receipts = 3.6",
+      "revenue_deficit = revenue_expenditure - revenue_receipts"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "revenue_expenditure = 90",
+      "revenue_receipts = 72",
+      "revenue_deficit = revenue_expenditure - revenue_receipts"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "revenue_expenditure = 69",
+      "revenue_receipts = 21",
+      "revenue_deficit = revenue_expenditure - revenue_receipts"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "revenue_expenditure = 67",
+      "revenue_receipts = 80",
+      "revenue_deficit = revenue_expenditure - revenue_receipts"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "revenue_expenditure = 68",
+      "revenue_receipts = 97",
+      "revenue_deficit = revenue_expenditure - revenue_receipts"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "revenue_expenditure = 2.7",
+      "revenue_receipts = 49",
+      "revenue_deficit = revenue_expenditure - revenue_receipts"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "revenue_deficit = revenue_expenditure - revenue_receipts"
+   ]
+  },
+  {
+   "id": "leec.105.2.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "fiscal_deficit = 32",
+      "interest_payments = 83",
+      "primary_deficit = fiscal_deficit - interest_payments"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "fiscal_deficit = 18.5",
+      "interest_payments = 114",
+      "primary_deficit = fiscal_deficit - interest_payments"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "fiscal_deficit = 95",
+      "interest_payments = 47",
+      "primary_deficit = fiscal_deficit - interest_payments"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "fiscal_deficit = 88",
+      "interest_payments = 54",
+      "primary_deficit = fiscal_deficit - interest_payments"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "fiscal_deficit = 66",
+      "interest_payments = 83",
+      "primary_deficit = fiscal_deficit - interest_payments"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "fiscal_deficit = 63",
+      "interest_payments = 4.7",
+      "primary_deficit = fiscal_deficit - interest_payments"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "primary_deficit = fiscal_deficit - interest_payments"
+   ]
+  },
+  {
+   "id": "leec.105.4.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "accumulated_deficits = 21",
+      "accumulated_interest = 1",
+      "debt_stock = accumulated_deficits + accumulated_interest"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "accumulated_deficits = 62",
+      "accumulated_interest = 57",
+      "debt_stock = accumulated_deficits + accumulated_interest"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "accumulated_deficits = 30",
+      "accumulated_interest = 51",
+      "debt_stock = accumulated_deficits + accumulated_interest"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "accumulated_deficits = 4.4",
+      "accumulated_interest = 64",
+      "debt_stock = accumulated_deficits + accumulated_interest"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "accumulated_deficits = 60",
+      "accumulated_interest = 6.2",
+      "debt_stock = accumulated_deficits + accumulated_interest"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "accumulated_deficits = 3.6",
+      "accumulated_interest = 60",
+      "debt_stock = accumulated_deficits + accumulated_interest"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "debt_stock = accumulated_deficits + accumulated_interest"
+   ]
+  }
+ ]
+}

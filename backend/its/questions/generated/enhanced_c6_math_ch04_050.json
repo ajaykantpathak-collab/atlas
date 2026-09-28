@@ -34,6 +34,36 @@
      "q": "Create a decimal that, when rounded to the nearest tenth, becomes 5.5, but is not 5.5 itself.",
      "a": "Examples like 5.46, 5.47, 5.54, or 5.52 are correct. An incorrect answer (like 5.6) shows a failure to understand the range of numbers that round to a specific value.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Rounding decimals is the process of ______ a number to a specific place value to make it easier to work with, by looking at the digit immediately to the right of the target place.",
+     "a": "approximating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a grocery store and a bag of apples costs ₹45.78, but you only have coins in increments of 10 paise or ______ rupees.",
+     "a": "whole",
+     "self_check": true
+    },
+    {
+     "q": "What is Rounding decimals? State the definition given in this lesson.",
+     "a": "Rounding decimals is the process of approximating a number to a specific place value to make it easier to work with, by looking at the digit immediately to the right of the target place.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Next, look at the digit to its immediate right (the hundredths digit, ______).",
+     "a": "7",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Rounding decimals?",
+     "a": "Students often try to round by looking at the very last digit in a long decimal (e.g., rounding 3.472 by looking at the 2 instead of the 7).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify the target place value, check the \"deciding\" digit to the right, and correctly increase or keep the target digit to produce the rounded decimal.",
+     "self_check": true
     }
    ]
   }

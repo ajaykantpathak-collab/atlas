@@ -34,6 +34,36 @@
      "q": "Design a calorimetry experiment to determine the internal energy change (ΔU) for the combustion of 1 g of glucose (C₆H₁₂O₆) in a bomb calorimeter. Specify: (a) Why bomb calorimeter measures ΔU not ΔH; (b) What measurements are needed; (c) How to calculate ΔU per mole from temperature rise; (d) One assumption that limits accuracy.",
      "a": "(a) Bomb calorimeter is constant-volume (rigid steel vessel), so ΔV = 0 ⇒ w = -PΔV = 0. First Law: ΔU = q_v + w = q_v. Heat measured (q_v) equals ΔU directly. ΔH = ΔU + Δn_gRT requires Δn_g (change in gas moles).\n(b) Measure: mass of glucose (m), mass of water in calorimeter (m_w), heat capacity of calorimeter assembly (C_cal), initial and final temperatures (T_i, T_f).\n(c) Heat released by combustion = heat absorbed by water + calorimeter: q_v = -(m_w c_w + C_cal)(T_f - T_i). c_w = 4.184 J/g·K. ΔU_per_gram = q_v / m. ΔU_per_mole = ΔU_per_gram × M_glucose (180 g/mol).\n(d) Assumption: Complete combustion to CO₂(g) and H₂O(l). Incomplete combustion (CO formation) or water remaining as vapor changes ΔU. Also assumes no heat loss to surroundings (adiabatic), which is approximate.\nA poor design missing (a) reveals confusion between constant-V and constant-P calorimetry; missing (c) mole conversion reveals stoichiometry gap.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Internal energy (U) is the total energy stored within a thermodynamic system arising from the kinetic and potential energies of its constituent particles (translational, rotational, vibrational motion of molecules, ______ forces, electron-nuclei interactions, and nuclear energy).",
+     "a": "intermolecular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a pressure cooker whistle lifting as steam pushes it upward — the steam (system) does work on the whistle (______) by expanding against atmospheric pressure, and you feel heat radiating from the cooker.",
+     "a": "surroundings",
+     "self_check": true
+    },
+    {
+     "q": "What is Internal energy (U)? State the definition given in this lesson.",
+     "a": "Internal energy (U) is the total energy stored within a thermodynamic system arising from the kinetic and potential energies of its constituent particles (translational, rotational, vibrational motion of molecules, intermolecular forces, electron-nuclei interactions, and nuclear energy).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For the steam expanding against constant ______ atm, w = -P_extΔV (negative because system does work).",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Internal energy (U)?",
+     "a": "Students write the First Law as ΔU = q - w (with w = work done BY system) and use w = +PΔV for expansion work.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Calculate ΔU, q, and w for any process given two of the three quantities, applying correct sign conventions for heat absorption/release and work done by/on the system; (2) Derive and apply the expression for reversible isothermal work of an ideal gas (w = -nRT ln(V₂/V₁)) and distinguish it from irreversible work against.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a strategy to clone a full-length cDNA of a novel human kinase (unknown sequence) into an expression vector for *E. coli*, starting from total RNA. Include primer choice, 5' end capture, and cloning-site engineering.",
      "a": "1. Enrich poly-A mRNA via oligo-dT chromatography. 2. Use cap-switching reverse transcriptase with oligo-dT primer containing a 5' *NotI* site and a template-switch oligo with a 5' *SalI* site. 3. PCR amplify with primers matching the engineered sites. 4. Digest PCR product and vector with *NotI*/*SalI*, ligate, transform. 5. Sequence to verify ORF. A poor answer omits 5' capture (uses only oligo-dT), uses blunt-end ligation (loses directionality), or skips sequencing verification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: cDNA (complementary DNA) synthesis is the enzymatic process of generating a double-stranded DNA copy of a mature mRNA molecule using the enzyme reverse ______, which reads the RNA template in the 3'→5' direction to synthesize a complementary DNA strand (first strand), followed by second-strand synthesis using DNA polymerase to yield a stable dsDNA insert lacking introns and regulatory sequences.",
+     "a": "transcriptase",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to ______ human insulin in *E. coli* — but the human insulin gene contains introns that bacteria cannot splice out.",
+     "a": "produce",
+     "self_check": true
+    },
+    {
+     "q": "What is cDNA (complementary DNA) synthesis? State the definition given in this lesson.",
+     "a": "cDNA (complementary DNA) synthesis is the enzymatic process of generating a double-stranded DNA copy of a mature mRNA molecule using the enzyme reverse transcriptase, which reads the RNA template in the 3'→5' direction to synthesize a complementary DNA strand (first strand), followed by second-strand synthesis using DNA polymerase to.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about cDNA (complementary DNA) synthesis?",
+     "a": "Students often think reverse transcriptase *alone* makes double-stranded cDNA.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) list the sequential enzymatic steps from mRNA isolation to ds-cDNA with correct enzyme names and cofactor requirements, and (2) explain why cDNA — not genomic DNA — is essential for expressing eukaryotic genes in prokaryotic hosts.",
+     "self_check": true
     }
    ]
   }

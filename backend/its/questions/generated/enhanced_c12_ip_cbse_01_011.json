@@ -34,6 +34,26 @@
      "q": "Design a scenario where you must use UPDATE with a CASE expression in the SET clause to apply different discounts based on FuelType: 5% for Petrol, 8% for Diesel, 10% for CNG. Write the full SQL statement for the INVENTORY table.",
      "a": "Expected answer:\n```sql\nUPDATE INVENTORY\nSET Price = CASE\n    WHEN FuelType = 'Petrol' THEN Price * 0.95\n    WHEN FuelType = 'Diesel' THEN Price * 0.92\n    WHEN FuelType = 'CNG' THEN Price * 0.90\n    ELSE Price\nEND;\n```\nA good answer includes the ELSE clause to leave other fuel types unchanged. A poor answer uses multiple UPDATE statements (works but less efficient) or forgets the ELSE, causing NULL for unmatched types (if Price is nullable) or no change (if ELSE omitted, standard SQL leaves column unchanged — but some dialects may set to NULL). The key is demonstrating conditional update in a single statement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The UPDATE statement modifies existing row(s) in a table by ______ new values to specified columns, optionally filtered by a WHERE clause; the DELETE statement removes existing row(s) from a table, optionally filtered by a WHERE clause.",
+     "a": "assigning",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are managing the ______ database: a customer returns a car (so you must delete the sale record) and the manager decides to increase all petrol car prices by 5% (so you must update the INVENTORY table).",
+     "a": "CARSHOWROOM",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are managing the CARSHOWROOM database: a customer returns a car (so you must delete the sale record) and the manager decides to increase all petrol car prices by ______% (so you must update the INVENTORY table).",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write correct UPDATE and DELETE statements for a given scenario, including proper use of WHERE clause to target specific rows, using expressions and subqueries in the SET clause, and explaining the effect of omitting the WHERE clause (all rows affected).",
+     "self_check": true
     }
    ]
   }

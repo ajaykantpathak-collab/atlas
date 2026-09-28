@@ -34,6 +34,36 @@
      "q": "Design a minimal HTTP/1.1 request that a browser would send to fetch `https://www.cbse.gov.in/results?roll=12345` (assume TLS already established). Write the exact request lines.",
      "a": "```\nGET /results?roll=12345 HTTP/1.1\nHost: www.cbse.gov.in\nUser-Agent: Mozilla/5.0 (compatible; Class12Bot)\nAccept: text/html\nConnection: keep-alive\n\n```\n(Empty line terminates headers.) Missing `Host` header (mandatory in HTTP/1.1) or using absolute URL in request line (only for proxies) reveals misunderstanding of HTTP/1.1 vs HTTP/1.0.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: HTTP (HyperText Transfer Protocol) is an ______-layer protocol that defines how clients (browsers) request resources from web servers and how servers respond, using a stateless request-response cycle over TCP.",
+     "a": "application",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you log into your school’s result portal: you type the URL, press Enter, and see your marks.",
+     "a": "Imagine",
+     "self_check": true
+    },
+    {
+     "q": "What is HTTP (HyperText Transfer Protocol)? State the definition given in this lesson.",
+     "a": "HTTP (HyperText Transfer Protocol) is an application-layer protocol that defines how clients (browsers) request resources from web servers and how servers respond, using a stateless request-response cycle over TCP.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Your browser sent an HTTP GET request to the server; the server replied with an HTTP ______ OK response containing an HTML page.",
+     "a": "200",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about HTTP (HyperText Transfer Protocol)?",
+     "a": "Students think HTTPS is just \"HTTP with a lock icon\" and that the HTTP protocol itself changes.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) diagram a complete HTTP request and response with all components, (2) explain how TLS establishes a secure channel before HTTP data flows, and (3) given a scenario (e.g., form submission, API call), identify the appropriate HTTP method, status code, and whether HTTPS is required.",
+     "self_check": true
     }
    ]
   }

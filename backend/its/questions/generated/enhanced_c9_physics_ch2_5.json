@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a smartphone, a toy car, and a ramp to measure the acceleration of the car rolling down. Describe the procedure, measurements needed, and how you would calculate acceleration.",
      "a": "Use the phone's accelerometer or video analysis (e.g., record motion, track position frame-by-frame). Measure time intervals between known positions, compute velocities, then acceleration. A poor answer would just say \"use a stopwatch\" without explaining how to get velocity change, showing inability to translate the definition into a measurement procedure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the rate of change of velocity with respect to time.",
+     "a": "Acceleration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bicycle starting from rest at a traffic signal: initially its velocity is zero, then it ______ steadily as the rider pedals.",
+     "a": "increases",
+     "self_check": true
+    },
+    {
+     "q": "What is Acceleration? State the definition given in this lesson.",
+     "a": "Acceleration is the rate of change of velocity with respect to time.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Acceleration?",
+     "a": "Students often think negative acceleration always means \"slowing down\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate acceleration from given initial velocity, final velocity, and time interval with correct units, and can explain whether an object is speeding up, slowing down, or moving with uniform velocity based on the sign of acceleration.",
+     "self_check": true
     }
    ]
   }

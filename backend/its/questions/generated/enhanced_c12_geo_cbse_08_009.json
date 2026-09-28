@@ -34,6 +34,31 @@
      "q": "Design a satellite-based communication plan for a hypothetical new Indian Union Territory comprising 50 scattered islands in the Indian Ocean (lat 5°S–10°S, long 70°E–75°E). Specify orbital type, number of satellites, frequency band, ground-segment requirements, and two non-communication services the same satellites could provide.",
      "a": "Orbital type: GEO at 72.5°E (central longitude) — single satellite covers all islands (latitudinal spread 5° fits within 81° footprint). Frequency: Ku-band (12-18 GHz) for compact dishes; Ka-band if high throughput needed. Ground segment: 50 VSAT terminals (0.75 m dishes), one hub earth station on main island for gateway to fiber backhaul. Non-comm services: (1) NavIC augmentation for precise navigation in EEZ; (2) Meteorological imaging (INSAT-3D/3DR payload) for cyclone tracking. A plan proposing LEO constellation ignores cost/complexity for fixed islands; one ignoring cyclone monitoring misses the multi-mission value of GEO platforms.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Satellite communication is a mode of ______ that uses artificial satellites in Earth's orbit to relay signals (voice, data, video) between distant points on the globe, enabling real-time, long-distance connectivity without terrestrial cables; it operates via transponders that receive, amplify, and retransmit signals across vast footprints covering continents and oceans.",
+     "a": "telecommunication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in a village in ______ Pradesh where no mobile tower reaches — yet your teacher streams a live lecture from Delhi via a dish antenna on the school roof.",
+     "a": "Arunachal",
+     "self_check": true
+    },
+    {
+     "q": "What is Satellite communication? State the definition given in this lesson.",
+     "a": "Satellite communication is a mode of telecommunication that uses artificial satellites in Earth's orbit to relay signals (voice, data, video) between distant points on the globe, enabling real-time, long-distance connectivity without terrestrial cables; it operates via transponders that receive, amplify, and retransmit signals across.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Satellite communication?",
+     "a": "Students think \"satellite communication means only satellite phones used by the military\" — they miss that DTH TV (Tata Play, Dish TV), VSAT banking ATMs in rural India, airline Wi-Fi, ship navigation (GAGAN/NavIC), and even village internet (BharatNet satellite backhaul) are everyday satellite-dependent services.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can explain the orbital mechanics (geostationary vs. low Earth orbit) that determine a satellite's coverage footprint and latency, and can evaluate why satellite communication remains indispensable for remote regions, disaster response, and global broadcasting despite fiber-optic alternatives.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_01_008",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_01_008",
+   "title": "c11_app_cbse_01_008",
+   "questions": [
+    {
+     "q": "State the three fundamental laws of logarithms for base $b$ ($b>0, b\\neq 1$) and specify the domain restrictions on the arguments $M$ and $N$ for each law to be valid.",
+     "a": "**Correct Answer:** \n1. **Product Law:** $\\log_b(MN) = \\log_b M + \\log_b N$; Domain: $M>0, N>0$.\n2. **Quotient Law:** $\\log_b(M/N) = \\log_b M - \\log_b N$; Domain: $M>0, N>0$.\n3. **Power Law:** $\\log_b(M^p) = p \\log_b M$; Domain: $M>0$, $p \\in \\mathbb{R}$.\n\n**Why a wrong answer reveals misunderstanding:** If a student omits the domain restrictions ($M,N>0$), they do not grasp that logarithms are only defined for positive real numbers — a critical Class 11 concept. If they write $\\log_b(M+N) = \\log_b M + \\log_b N$, they are confusing the law with the distributive property of multiplication over addition, indicating a fundamental structural misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why $\\log_{10}(1000) = 3$ but $\\ln(1000) \\approx 6.908$. A student claims \"logs of the same number should be the same regardless of base.\" Identify the flaw in this reasoning using the definition of logarithm.",
+     "a": "**Correct Answer:** By definition, $\\log_b N = x \\iff b^x = N$. For $\\log_{10}(1000)$, we ask: \"10 raised to what power gives 1000?\" $\\rightarrow 10^3 = 1000$, so $x=3$. For $\\ln(1000) = \\log_e(1000)$, we ask: \"$e \\approx 2.718$ raised to what power gives 1000?\" Since $e < 10$, we need a *larger* exponent to reach the same number 1000. The base determines the \"step size\" of the exponent; different bases $\\rightarrow$ different exponents. The Change of Base formula $\\log_b a = \\frac{\\log_c a}{\\log_c b}$ quantifies this relationship.\n\n**Why a wrong answer reveals misunderstanding:** If the student thinks the value is independent of the base, they treat \"log\" as a generic function like \"square root\" rather than a function *parameterized by its base*. This indicates they haven't internalized the inverse relationship with exponentiation where the base is fundamental.",
+     "self_check": true
+    },
+    {
+     "q": "Simplify the expression $\\log_2(8x^3) - 2\\log_2(4x) + \\log_2(16)$ into a single logarithm, stating the domain of the resulting expression. Assume $x$ is a real variable.",
+     "a": "**Correct Answer with Steps:**\n1. Apply Power Law: $2\\log_2(4x) = \\log_2((4x)^2) = \\log_2(16x^2)$.\n2. Apply Product Law to first and third terms: $\\log_2(8x^3) + \\log_2(16) = \\log_2(8x^3 \\cdot 16) = \\log_2(128x^3)$.\n3. Apply Quotient Law: $\\log_2(128x^3) - \\log_2(16x^2) = \\log_2\\left(\\frac{128x^3}{16x^2}\\right)$.\n4. Simplify argument: $\\frac{128}{16} = 8$, $\\frac{x^3}{x^2} = x$. Result: $\\log_2(8x)$.\n5. **Domain:** Original expression requires $8x^3 > 0 \\implies x>0$, $4x > 0 \\implies x>0$, $16>0$ (always). Final expression $\\log_2(8x)$ requires $8x > 0 \\implies x > 0$. Domain: $x \\in (0, \\infty)$.\n\n**Why a wrong answer reveals misunderstanding:** If a student simplifies to $\\log_2(8x)$ but states domain as $x \\neq 0$ or all reals, they ignore that log arguments must be *strictly positive*, not just non-zero. If they cancel $x^2$ without considering sign, they lose the domain restriction. If they incorrectly combine as $\\log_2(8x^3 - 16x^2 + 16)$, they are distributing log over addition/subtraction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the processes of solving $5^{2x} = 125$ and $5^{2x} = 50$. Why does the first allow an \"equating exponents\" strategy while the second requires \"taking logs of both sides\"? Analyze the structural difference.",
+     "a": "**Correct Answer:** In $5^{2x} = 125$, the RHS (125) can be expressed as an exact power of the *same base* (5): $125 = 5^3$. The equation becomes $5^{2x} = 5^3$. Since the exponential function $f(y)=5^y$ is one-to-one (injective), we equate exponents: $2x=3 \\implies x=1.5$. In $5^{2x} = 50$, the RHS (50) *cannot* be written as an exact integer/rational power of 5. There is no \"nice\" $k$ such that $5^k=50$. We must apply $\\log$ to both sides to \"bring down\" the exponent using the Power Law: $\\log(5^{2x}) = \\log 50 \\implies 2x \\log 5 = \\log 50 \\implies x = \\frac{\\log 50}{2\\log 5}$. The structural difference: **Equating exponents requires the same base on both sides; taking logs works for any base on the LHS and any positive number on the RHS.**\n\n**Why a wrong answer reveals misunderstanding:** If the student tries to force $50 = 5^k$ (e.g., guessing $k=2.4$), they miss the algebraic necessity of logs. If they take logs of the first equation unnecessarily, they lack strategic efficiency. If they don't mention the one-to-one property of exponential functions, their understanding is procedural, not conceptual.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves $\\log_2(x-1) + \\log_2(x+3) = 3$ as follows:\n$\\log_2[(x-1)(x+3)] = 3 \\implies (x-1)(x+3) = 8 \\implies x^2+2x-11=0 \\implies x = -1 \\pm 2\\sqrt{3}$.\nThey give both values as final answers. Evaluate this solution. Is it complete? Correct? Justify.",
+     "a": "**Correct Answer with Justification:** The solution is **incomplete and partially incorrect**. The algebraic steps are correct until the quadratic solutions: $x_1 = -1 + 2\\sqrt{3} \\approx 2.464$ and $x_2 = -1 - 2\\sqrt{3} \\approx -4.464$. However, the **domain of the original logarithmic equation** requires arguments to be positive: $x-1 > 0 \\implies x > 1$ AND $x+3 > 0 \\implies x > -3$. Combined domain: $x > 1$. $x_2 \\approx -4.464$ violates this (it makes both arguments negative). **Extraneous root introduced by combining logs.** Only $x = -1 + 2\\sqrt{3}$ is valid. The student failed to check solutions against the original domain — a critical step in log equations.\n\n**Why a wrong answer reveals misunderstanding:** If the evaluator accepts both roots, they ignore the domain restriction of logarithmic functions, treating $\\log$ as a purely algebraic symbol without functional meaning. This is the #1 error in Class 11 log equations.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world word problem (Indian context) that requires using the Change of Base formula $\\log_b a = \\frac{\\log_c a}{\\log_c b}$ to solve, where $c=10$ (common log) or $c=e$ (natural log). The problem must involve a quantity that grows/decays exponentially and ask for the time or rate. Provide the full solution.",
+     "a": "**Sample Problem:** *The population of a bacteria culture in a Pune lab grows according to $P(t) = P_0 \\cdot 3^{t/4}$, where $t$ is in hours. The lab's digital sensor only displays $\\log_{10}(P(t))$. If the sensor reads $2.5$ when $P_0 = 100$, find the time $t$ elapsed. (Use $\\log_{10}3 \\approx 0.4771$).*\n\n**Solution:**\n1. Sensor reading: $\\log_{10} P(t) = 2.5 \\implies P(t) = 10^{2.5} \\approx 316.23$.\n2. Growth model: $100 \\cdot 3^{t/4} = 316.23 \\implies 3^{t/4} = 3.1623$.\n3. Take $\\log_{10}$ both sides: $\\frac{t}{4} \\log_{10} 3 = \\log_{10} 3.1623$.\n4. Note $\\log_{10} 3.1623 \\approx \\log_{10} \\sqrt{10} = 0.5$ (since $\\sqrt{10} \\approx 3.1623$).\n5. $\\frac{t}{4} \\times 0.4771 = 0.5 \\implies t = \\frac{2}{0.4771} \\approx 4.19$ hours.\n**Alternatively using Change of Base directly on step 2:** $\\frac{t}{4} = \\log_3(3.1623) = \\frac{\\log_{10} 3.1623}{\\log_{10} 3} = \\frac{0.5}{0.4771}$.\n\n**Criteria for good answer:** Problem must genuinely require Change of Base (not just taking log of both sides with same base), use realistic Indian context (lab, finance, population), and solution must explicitly show $\\log_b a = \\frac{\\log_c a}{\\log_c b}$ step. Poor answer: Uses same base throughout, ignores sensor constraint, or creates a problem solvable without Change of Base.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

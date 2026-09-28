@@ -21,8 +21,8 @@
      "self_check": true
     },
     {
-     "q": "Compare the role of mitosis in human skin epithelium versus honeybee drone (male) development. What fundamental difference in ploidy exists?",
-     "a": "Correct answer: Human skin mitosis occurs in diploid somatic cells (2n → 2n); honeybee drone develops from unfertilized haploid egg, so its somatic cells are haploid (n) and divide by mitosis (n → n). A wrong answer stating both are diploid reveals the misconception that mitosis only occurs in diploid cells.",
+     "q": "Trace the correct sequence of reasoning that contrasts mitosis in human skin with mitosis in a honeybee drone.",
+     "a": "The contrast runs: (1) Human skin cells arise from diploid somatic divisions (2) The drone develops from an unfertilised haploid egg (3) Mitosis in the drone's tissues is therefore haploid acting on haploid (4) Mitosis itself preserves whatever ploidy the dividing cell carries, diploid or haploid. A wrong answer that insists mitosis only occurs in diploid cells shows the student has missed that mitosis is equational, conserving the starting chromosome number in both cases.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Design a simple experiment using onion root tips to demonstrate that mitosis is restricted to specific regions of a plant.",
      "a": "Expected answer: Stain root tips with acetocarmine, squash, and observe under microscope. Count mitotic indices in 1 mm zones from tip upward. High index in apical 2-3 mm (meristem), near zero in mature zones. Poor answer: only staining without zonal comparison, revealing failure to link mitosis to spatial localization.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mitosis is an equational cell division process in which a single diploid parent cell divides to produce two ______ identical diploid daughter cells, maintaining the chromosome number (2n) and DNA content (2C) across generations of somatic cells.",
+     "a": "genetically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a mango tree in your courtyard: it grows taller every year, heals bark wounds within weeks, and ______ new leaves each spring.",
+     "a": "produces",
+     "self_check": true
+    },
+    {
+     "q": "What is Mitosis? State the definition given in this lesson.",
+     "a": "Mitosis is an equational cell division process in which a single diploid parent cell divides to produce two genetically identical diploid daughter cells, maintaining the chromosome number (2n) and DNA content (2C) across generations of somatic cells.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Mitosis?",
+     "a": "Students believe mitosis occurs in all living cells of an organism throughout life.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain four distinct biological roles of mitosis (growth, repair, nucleo-cytoplasmic ratio maintenance, and asexual reproduction) with specific examples from plants and animals, and can justify why mitosis is restricted to diploid cells in most higher organisms but occurs in haploid cells of certain lower plants and.",
      "self_check": true
     }
    ]

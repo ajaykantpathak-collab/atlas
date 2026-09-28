@@ -34,6 +34,31 @@
      "q": "Design a BLAST-based workflow to identify candidate orthologs of a human disease gene (coding sequence known) in the newly sequenced genome of *Milletia pinnata* (a legume), distinguishing them from paralogs. Specify programs, databases, filters, and validation steps.",
      "a": "Expected workflow: 1. **blastp** human protein vs *M. pinnata* predicted proteome (if available) → get top hits. 2. **Reciprocal best hit (RBH)**: take each candidate, blastp back vs human proteome; retain only those where the original human gene is the top hit. 3. **Synteny check**: if genome assembly is scaffolded, verify genomic neighborhood conservation (flanking genes). 4. **Phylogenetic validation**: align candidates + human gene + outgroup, build tree (neighbor-joining/ML); orthologs cluster by speciation, not duplication. 5. **Domain architecture check**: use CD-search/Pfam to ensure domain order conserved. A poor answer (e.g., \"just run blastp and take top hit\") reveals the student confuses homology (any common ancestry) with orthology (speciation-derived) and ignores paralogs from gene duplication. This synthesis question mirrors competency-based exam tasks.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: BLAST (Basic Local Alignment Search Tool) is a heuristic algorithm that rapidly compares a query nucleotide or protein sequence against a database to identify locally similar regions, reporting alignments with statistical significance (E-value) to infer homology, function, or evolutionary ______.",
+     "a": "relationships",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have discovered a new gene in *Oryza ______* (rice) that might confer drought tolerance.",
+     "a": "sativa",
+     "self_check": true
+    },
+    {
+     "q": "What is BLAST (Basic Local Alignment Search Tool)? State the definition given in this lesson.",
+     "a": "BLAST (Basic Local Alignment Search Tool) is a heuristic algorithm that rapidly compares a query nucleotide or protein sequence against a database to identify locally similar regions, reporting alignments with statistical significance (E-value) to infer homology, function, or evolutionary relationships.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about BLAST (Basic Local Alignment Search Tool)?",
+     "a": "Misconception: \"A lower E-value always means the sequences are more similar (higher % identity).\" Why it's wrong: E-value depends on *bit score*, *query length*, and *database size* (E = K * m * n * e^(-λS)).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) select the appropriate BLAST program (blastn, blastp, blastx, tblastn, tblastx) for a given query/database type, (2) interpret key output fields (E-value, % identity, alignment length, bit score) to distinguish true homologs from chance matches, and (3) adjust search parameters (word size, scoring matrix.",
+     "self_check": true
     }
    ]
   }

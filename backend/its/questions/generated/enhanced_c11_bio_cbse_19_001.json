@@ -34,6 +34,26 @@
      "q": "Design a simple flowchart experiment to demonstrate that the anterior pituitary requires hypothalamic factors for hormone secretion, using the concept of the portal system.",
      "a": "A good answer: 1) Remove pituitary from an animal and place in culture medium — anterior pituitary hormones decline. 2) Add hypothalamic extract to the medium — hormone secretion restores. 3) Sever the portal vessels in vivo — anterior pituitary atrophy occurs while posterior pituitary function remains. 4) Transplant anterior pituitary to a site with portal connection from hypothalamus — function maintains. This shows anterior pituitary depends on hypothalamic factors delivered via portal blood. A poor answer that only says \"measure hormone levels before/after stalk section\" without distinguishing anterior vs. posterior or using portal blood transfer misses the experimental proof of humoral vs. neural control.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The hypothalamus is a neuroendocrine region of the diencephalon that synthesizes releasing and inhibiting hormones to regulate the anterior pituitary via a hypophyseal portal system, while the pituitary gland (hypophysis) is a pea-sized endocrine organ anatomically divided into ______ (anterior and intermediate lobes) and neurohypophysis (posterior lobe), which together secrete tropic hormones controlling peripheral endocrine glands and direct effector hormones regulating water balance, uterine contraction, and growth.",
+     "a": "adenohypophysis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ up quickly after sitting for a long time and feel dizzy for a moment — your body instantly adjusts blood pressure and heart rate.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can draw and label the hypothalamo-hypophyseal portal system, trace the origin and target of each anterior and posterior pituitary hormone, and explain the functional distinction between releasing/inhibiting hormones from the hypothalamus and tropic/direct hormones from the pituitary.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing up quickly after sitting for a long time and feel dizzy for a moment — your body ______ adjusts blood pressure and heart rate.",
+     "a": "instantly",
+     "self_check": true
     }
    ]
   }

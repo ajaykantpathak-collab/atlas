@@ -34,6 +34,26 @@
      "q": "Design a 4-step patch management policy for a small business (20 employees, mixed Windows/macOS/Linux, no dedicated IT staff) that balances security and operational continuity.",
      "a": "Good answer: (1) Enable automatic OS/security updates on all endpoints with a 48-hour deferral window. (2) Subscribe to vendor security advisories (Microsoft, Apple, Linux distros) via email/RSS. (3) For critical patches (CVSS ≥ 9), manually verify on one test machine, then deploy to all within 24 hours. (4) Monthly audit: run `wsusutil` / `apt list --upgradable` / `softwareupdate -l` to confirm compliance. Poor answer: \"Update everything automatically\" — fails to address testing, mixed OS, or verification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Software updates and patch management refer to the systematic process of identifying, acquiring, testing, and installing code changes (patches) released by software vendors to fix security ______, correct bugs, and add new features, thereby reducing the attack surface of a system.",
+     "a": "vulnerabilities",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your phone notifies you of a \"critical security update\" — do you install it ______ or hit \"Remind me tomorrow\"?",
+     "a": "immediately",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Emphasize that \"later\" often becomes \"never,\" and unpatched systems are the #______ entry point for ransomware.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain the difference between security patches, feature updates, and bug fixes; describe the patch management lifecycle (identify → assess → test → deploy → verify); and articulate the risks of delaying updates using real-world examples like WannaCry or Equifax.",
+     "self_check": true
     }
    ]
   }

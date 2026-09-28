@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_10_004",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_10_004",
+   "title": "c12_leg_cbse_10_004",
+   "questions": [
+    {
+     "q": "What is the statutory time limit for filing a complaint with the National Human Rights Commission (NHRC) after the alleged human rights violation occurs?",
+     "a": "The complaint must be filed within **one year** from the date on which the act constituting the violation is alleged to have been committed (Protection of Human Rights Act, 1993; NHRC Guidelines, point 6). A wrong answer (e.g., \"no time limit\" or \"three years\") reveals the student confuses NHRC with regular civil/criminal limitation periods (Limitation Act, 1963) or assumes human rights bodies have no limitation — a critical error because a time-barred complaint is rejected outright without inquiry.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"The NHRC can punish a police officer who tortured a detainee by sending him to jail for two years.\" Explain why this statement is legally incorrect.",
+     "a": "The NHRC **cannot punish or send anyone to jail**. It has the powers of a civil court (summons, documents, affidavits, witnesses) but **no criminal sentencing power**. It can only *recommend* payment of compensation to the victim, initiation of prosecution, or disciplinary action against the public servant. The student's error stems from confusing \"quasi-judicial powers of inquiry\" with \"judicial powers of punishment\" — a classic mix-up because the NHRC *looks* like a court (oath, summons, records) but is an *administrative* body under the executive, not a court under the judiciary.",
+     "self_check": true
+    },
+    {
+     "q": "Ravi, a central government employee, is denied promotion allegedly due to his Scheduled Caste status. He files a complaint with the National Commission for Scheduled Castes (NCSC). The Commission rejects it saying the matter is \"sub judice\" before the Central Administrative Tribunal (CAT). Is the Commission correct? Justify using the NCERT grounds for rejection.",
+     "a": "**Yes, the Commission is correct.** Under the NCSC complaint mechanism (mirroring NHRC Guidelines, point xi), matters **pending before a Court/Tribunal (sub judice)** are not ordinarily entertainable. CAT is a tribunal adjudicating service matters; once Ravi approached CAT, the same cause of action cannot be parallely pursued before NCSC. A wrong answer (\"No, NCSC can still inquire\") shows the student misses the *exclusivity principle*: quasi-judicial bodies avoid parallel proceedings to prevent conflicting orders. The student must distinguish \"sub judice\" (pending adjudication) from \"res judicata\" (already decided) — both are bars, but at different stages.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the composition of the NHRC Chairperson and the NCW Chairperson. What is the *key constitutional/statutory difference* in their eligibility criteria?",
+     "a": "The **NHRC Chairperson must be a former Chief Justice of the Supreme Court** (Protection of Human Rights Act, 1993, s.3), while the **NCW Chairperson is nominated by the Central Government from persons of \"ability, integrity, and standing\" with experience in law, trade unionism, women's organisations, etc.** (NCW Act, 1990, s.3) — *no judicial office is required*. A wrong answer (\"Both must be judges\") reveals the student assumes all human rights commissions are headed by retired judges, ignoring the *deliberate legislative design*: NHRC needs highest judicial credibility for *general* human rights; NCW needs *gender-specific expertise* and grassroots experience. This distinction is frequently tested in assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"The creation of Permanent Lok Adalats under the Legal Services Authorities (Amendment) Act, 2002, makes the NHRC redundant for disputes involving public utility services.\" Defend or critique with two substantive arguments.",
+     "a": "**Critique — the statement is false.** (1) **Jurisdiction differs**: Permanent Lok Adalats (PLA) handle *pre-litigation* disputes on *public utility services* (transport, power, water, hospital, insurance) — essentially *consumer/contractual* grievances. NHRC handles *human rights violations by public servants* (custodial death, police excess, discrimination) — *constitutional/public law* grievances. (2) **Remedy differs**: PLA awards are *final, binding, deemed civil court decrees*; NHRC recommendations are *non-binding*, though it can approach High Court/Supreme Court for directions. A student who agrees confuses *alternative dispute resolution* (PLA) with *human rights enforcement* (NHRC) — two parallel, non-overlapping tracks. The error shows inability to map *remedy to right*.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical complaint scenario where the **NCPCR** would take *suo motu* cognisance, but the **NHRC** would *decline* jurisdiction. Specify the victim, violation, public servant involved, and the exact NCERT ground for NHRC's refusal.",
+     "a": "**Scenario**: A 12-year-old girl is found working 14 hours daily in a *government-run* child care institution (CCI) in Maharashtra, denied education, and beaten by the *superintendent (a public servant)*. **NCPCR takes suo motu cognisance** from a newspaper report (NCPCR Act, 2005, s.13(1): \"inquire into complaints and take suo motu notice of matters related to deprivation and violation of child rights\"). **NHRC declines** because the complaint relates to **service matters** (the superintendent's employment conditions/disciplinary action) — NHRC Guidelines, point (viii): \"The issue raised relates to service matters\" is not entertainable. A poor answer (e.g., \"NHRC declines because victim is a child\") shows the student doesn't know NHRC *does* cover children's rights generally, but *excludes service matters* specifically — a nuanced jurisdictional boundary tested in case-based questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

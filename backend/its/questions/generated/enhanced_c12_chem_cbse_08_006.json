@@ -34,6 +34,31 @@
      "q": "Design a synthetic route to prepare 4-phenylbut-3-en-2-one (benzylideneacetone) using aldol condensation. Specify the starting carbonyl compounds, reagent, conditions, and explain how you would avoid self-aldol side products.",
      "a": "React benzaldehyde (no α-H) with acetone (excess) using dilute NaOH at 0-5°C, then warm. Benzaldehyde cannot self-aldol (no enolate), so it acts only as electrophile. Acetone enolate attacks benzaldehyde selectively. Excess acetone minimizes acetone self-aldol (though some occurs). The product is benzylideneacetone (PhCH=CHCOCH₃). Using equimolar amounts gives significant acetone self-aldol (diacetone alcohol). A student suggesting propanal + benzaldehyde gives the wrong carbon skeleton. Suggesting concentrated NaOH favors Cannizzaro of benzaldehyde.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Aldol ______ is a base-catalyzed reaction where aldehydes or ketones containing at least one α-hydrogen undergo nucleophilic addition of an enolate ion to the carbonyl carbon of another molecule, forming a β-hydroxy carbonyl compound (aldol or ketol) which upon heating undergoes dehydration to yield an α,β-unsaturated carbonyl compound.",
+     "a": "condensation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe what happens when you leave a bottle of ______ (ethanal) exposed to air — it slowly turns into a resinous solid.",
+     "a": "acetaldehyde",
+     "self_check": true
+    },
+    {
+     "q": "What is Aldol condensation? State the definition given in this lesson.",
+     "a": "Aldol condensation is a base-catalyzed reaction where aldehydes or ketones containing at least one α-hydrogen undergo nucleophilic addition of an enolate ion to the carbonyl carbon of another molecule, forming a β-hydroxy carbonyl compound (aldol or ketol) which upon heating undergoes dehydration to yield an α,β-unsaturated carbonyl.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Aldol condensation?",
+     "a": "Students write the enolate as CH₃-CH⁻-CHO (carbanion on α-carbon) without showing resonance stabilization CH₃-CH=CH-O⁻, and then draw the nucleophilic attack from the carbon without the negative charge delocalized.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Draw the complete stepwise mechanism of aldol condensation showing enolate formation, nucleophilic attack, protonation, and dehydration; (2) Predict the aldol product(s) for any given aldehyde/ketone with α-hydrogens, including cross-aldol mixtures; (3) Distinguish between aldol reaction and aldol condensation, and.",
+     "self_check": true
     }
    ]
   }

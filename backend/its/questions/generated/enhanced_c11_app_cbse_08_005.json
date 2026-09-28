@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_08_005",
+   "title": "c11_app_cbse_08_005",
+   "questions": [
+    {
+     "q": "State the definition of a rational function and give an example that is NOT a polynomial function. What is the domain of your example?",
+     "a": "A rational function is a function of the form f(x) = p(x)/q(x) where p(x) and q(x) are polynomial functions and q(x) ≠ 0. Example: f(x) = (x²+1)/(x-2). This is not a polynomial because it cannot be written as a sum of non-negative integer powers of x. Domain: all real numbers except x=2 (where denominator is zero). A wrong answer (e.g., calling (x²+1)/(x-2) a polynomial, or saying domain is all reals) reveals the student confuses rational functions with polynomials or doesn't understand that division by zero is undefined.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the function f(x) = log₂(x) has domain (0, ∞) but range (-∞, ∞). Use the relationship between logarithmic and exponential functions in your explanation.",
+     "a": "The logarithmic function y = log₂(x) is defined as the inverse of the exponential function x = 2^y. Since 2^y > 0 for all real y, the input x to the logarithm must be positive — hence domain (0, ∞). As y varies over all real numbers, 2^y takes all positive values, so log₂(x) can output any real number — hence range (-∞, ∞). A wrong answer (e.g., saying domain includes 0 or negatives, or range is only positive) reveals the student hasn't internalized the inverse relationship and is memorizing domain/range without understanding the \"why\".",
+     "self_check": true
+    },
+    {
+     "q": "Given f(x) = |x-3|, find all x such that f(x) = 5. Show your work algebraically using the piecewise definition of modulus.",
+     "a": "Using |u| = u if u≥0, -u if u<0 with u = x-3:\nCase 1: x-3 ≥ 0 ⇒ x ≥ 3. Then |x-3| = x-3 = 5 ⇒ x = 8 (valid since 8 ≥ 3).\nCase 2: x-3 < 0 ⇒ x < 3. Then |x-3| = -(x-3) = -x+3 = 5 ⇒ -x = 2 ⇒ x = -2 (valid since -2 < 3).\nSolutions: x = 8 or x = -2.\nA wrong answer (e.g., only x=8, or x=-2, or x=±2) reveals the student either forgets the piecewise definition, mishandles the negative case, or doesn't check the condition for each case.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the graphs of f(x) = 2^x and g(x) = (1/2)^x. How are they related geometrically? What does this tell you about exponential functions with bases a>1 versus 0<a<1?",
+     "a": "g(x) = (1/2)^x = 2^{-x} = f(-x). So the graph of g is the reflection of f across the y-axis. f(x)=2^x (a>1) is strictly increasing, passes through (0,1), has horizontal asymptote y=0 as x→-∞. g(x)=(1/2)^x (0<a<1) is strictly decreasing, passes through (0,1), has horizontal asymptote y=0 as x→+∞. This shows: for a>1, exponential growth; for 0<a<1, exponential decay — they are mirror images across the y-axis. A wrong answer (e.g., saying both increase, or asymptotes are different) reveals the student doesn't grasp the base's role or the reflection property f(-x).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The greatest integer function ⌊x⌋ and the signum function sgn(x) are both discontinuous at x=0, so they are essentially the same type of discontinuity.\" Evaluate this claim. Is it correct? Justify your answer.",
+     "a": "The claim is incorrect. At x=0: ⌊x⌋ has a jump discontinuity — left-hand limit = -1, right-hand limit = 0, function value = 0. The jump is 1 unit. sgn(x) has a jump discontinuity — left-hand limit = -1, right-hand limit = +1, function value = 0. The jump is 2 units, and the function takes three distinct values (-1, 0, 1) around 0. While both are jump discontinuities, the nature differs: ⌊x⌋ jumps at every integer; sgn(x) jumps only at 0 and is constant elsewhere. A wrong evaluation (agreeing they are \"the same\") reveals the student oversimplifies discontinuity types and doesn't analyze the limit behavior on both sides.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) that can be modeled by a piecewise function combining the modulus function and a polynomial. Define the function, state its domain, and explain what each piece represents.",
+     "a": "Scenario: Auto-rickshaw fare in Delhi. First 1.5 km: ₹30. After that: ₹10 per km. Let x = distance in km (x ≥ 0).\nFare f(x) = 30 + 10·|x - 1.5|? No — that would charge for distance before 1.5 km. Better: f(x) = 30 for 0 ≤ x ≤ 1.5, and f(x) = 30 + 10(x - 1.5) for x > 1.5.\nUsing modulus: f(x) = 30 + 10·max(0, x-1.5) = 30 + 5(x-1.5 + |x-1.5|). Domain: [0, ∞).\nPiece 1 (constant): minimum fare for short trips. Piece 2 (linear): additional charge proportional to extra distance. The modulus captures the \"threshold\" behavior.\nA poor answer (e.g., using |x| directly without shift, or not explaining the pieces) reveals the student can't translate real-world thresholds into piecewise/modulus form.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_04_006",
+   "title": "c12_leg_cbse_04_006",
+   "questions": [
+    {
+     "q": "Define 'unliquidated damages' in tort law and explain how it differs from damages in breach of contract.",
+     "a": "Unliquidated damages are compensation amounts not predetermined by a fixed formula or agreement, but assessed by the court based on the actual harm suffered (e.g., pain, suffering, future medical costs). In breach of contract, damages are typically liquidated — either pre-agreed in the contract or calculable from the contract terms (e.g., unpaid price). A wrong answer reveals the student confuses tort's restorative aim (putting victim in pre-harm position) with contract's compensatory aim (fulfilling expectation interest).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why 'duty of care' in negligence is owed only to 'reasonably foreseeable' plaintiffs, using Donoghue v. Stevenson as illustration.",
+     "a": "In Donoghue v. Stevenson, the manufacturer owed duty of care to Mrs. Donoghue (the ultimate consumer) because it was reasonably foreseeable that a defective ginger beer bottle could harm anyone drinking it. The duty does not extend to unforeseeable plaintiffs (e.g., a bystander hit by a flying bottle cap in a different city). A wrong answer reveals the student thinks duty of care is universal or based on contractual privity, missing the 'neighbour principle' — you must take reasonable care to avoid acts/omissions you can reasonably foresee would injure your 'neighbour' (persons so closely/directly affected you ought to have them in contemplation).",
+     "self_check": true
+    },
+    {
+     "q": "A chemical factory stores highly toxic gas in a densely populated residential area. A leak occurs due to an unprecedented earthquake (act of God), injuring 50 residents. The factory claims 'act of God' defence under strict liability. Will this defence succeed? Now analyse if the factory would be liable under absolute liability instead.",
+     "a": "Under strict liability (Rylands v. Fletcher), 'act of God' is a valid defence — if the escape was caused solely by natural forces without human intervention, the defendant escapes liability. Here, the earthquake qualifies, so strict liability defence succeeds. BUT under absolute liability (M.C. Mehta v. Shri Ram Foods), NO exceptions exist — not even act of God. Since the factory is an enterprise engaged in inherently dangerous activity (toxic gas storage near residences) for commercial gain, it is absolutely liable regardless of the earthquake. A wrong answer reveals the student fails to distinguish the two doctrines: strict liability admits exceptions (act of God, plaintiff's fault, stranger's act, statutory authority, mutual benefit); absolute liability admits NONE and applies to enterprises, not persons.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast 'trespass to land' and 'nuisance' as intentional torts. Give one factual scenario where both could be pleaded simultaneously.",
+     "a": "Trespass to land requires direct physical invasion of plaintiff's land (e.g., neighbour dumps debris on your garden). Nuisance is indirect interference with use/enjoyment of land (e.g., neighbour's factory emits noxious fumes drifting onto your property). Key difference: trespass = direct, tangible intrusion; nuisance = indirect, intangible interference (smell, noise, vibration). Both can be pleaded when a neighbour's construction vibrations (direct physical impact = trespass) also cause noise/dust preventing sleep (indirect interference = nuisance). A wrong answer reveals confusion between direct/indirect interference or treating nuisance as only 'public' nuisance.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"Absolute liability in India is merely strict liability without exceptions.\" Is this statement accurate? Support with case law and policy reasoning.",
+     "a": "The statement is INACCURATE. While absolute liability indeed removes all exceptions (act of God, stranger, etc.), it differs fundamentally in THREE ways: (1) Applies to ENTERPRISES (commercial undertakings), not persons; (2) Escape of hazardous substance is NOT necessary (harm within premises suffices); (3) Compensation is exemplary/deterrent based on enterprise's magnitude/financial capacity, not just actual damages. Policy reason: M.C. Mehta established absolute liability for hazardous industries because strict liability's exceptions (especially 'act of God') allowed enterprises to escape accountability for catastrophic harm (Bhopal/Oleum leaks). The 'deep pocket' principle makes the enterprise bear risk as cost of doing business. A wrong answer reveals superficial understanding — seeing only 'no exceptions' but missing the doctrinal shift from person-based to enterprise-based liability.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel fact scenario involving a 'general offer' (Carlill v. Carbolic Smoke Ball type) that could give rise to a tort claim (not contract) if the offeror fails to honour it. Explain the tort, its elements, and why contract law might not apply.",
+     "a": "Scenario: A pharmaceutical company publicly advertises: \"₹1 crore reward to anyone who contracts Disease X after taking our preventive Drug Y for 30 days as prescribed.\" A doctor takes Drug Y correctly, contracts Disease X, claims reward. Company refuses, saying \"advertisement was puffery, not offer.\" Tort claim: Deceit/Fraudulent Misrepresentation (intentional tort). Elements: (1) False representation (drug prevents Disease X); (2) Knowledge of falsity/recklessness; (3) Intent to induce reliance; (4) Actual reliance (doctor took drug); (5) Damage (contracting disease + lost reward). Contract law may not apply if court finds no intention to create legal relations (puffery defence) or no communication of acceptance (general offer requires performance as acceptance, but company argues performance was impossible/conditional). Tort fills the gap where contract fails. A poor answer reveals inability to distinguish tort/contract boundaries or identify misrepresentation as separate from breach of promise.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

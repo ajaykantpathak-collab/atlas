@@ -34,6 +34,21 @@
      "q": "Create a multiplication problem involving two decimal numbers, each having two decimal places, such that their product is a whole number. Provide the problem and its solution.",
      "a": "An example is $2.50 \\times 0.40$. Working: $250 \\times 40 = 10000$. There are $2 + 2 = 4$ total decimal places, so placing the decimal point four places from the right gives $1.0000$, which simplifies to the whole number $1$. A poor answer provides numbers that do not result in a terminating whole number or fails to count decimal places correctly.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Multiplying two decimal numbers involves multiplying their whole number values as if no decimal points exist, and then placing the decimal point in the product so that the total number of decimal places equals the sum of the decimal places in both ______.",
+     "a": "multipliers",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight is that the product's decimal point must be moved three places from right to left, turning the whole number product into the correct decimal ______ value.",
+     "a": "currency",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can accurately multiply any two terminating decimal numbers by counting total decimal places and placing the decimal point correctly in the product, and can apply this skill to calculate areas, costs, and measurements in real-world contexts.",
+     "self_check": true
     }
    ]
   }

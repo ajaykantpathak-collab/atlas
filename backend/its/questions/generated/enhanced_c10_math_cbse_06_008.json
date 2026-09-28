@@ -34,6 +34,26 @@
      "q": "Create a real-world problem involving two similar triangular signboards where the Ratio of Areas Theorem is needed to find an unknown dimension. The problem must use at least two different corresponding linear elements (e.g., side and altitude, or side and median). Provide the problem statement and a complete solution.",
      "a": "Example problem: \"Two similar triangular traffic signboards have corresponding sides in the ratio 3:5. The altitude of the smaller signboard is 12 cm. Find (i) the altitude of the larger signboard, (ii) the ratio of their areas, and (iii) if the area of the larger signboard is 250 cm², find the area of the smaller one.\" Solution: (i) Altitude ratio = side ratio = 3:5, so larger altitude = (5/3)×12 = 20 cm. (ii) Area ratio = (3/5)² = 9:25. (iii) Smaller area = (9/25)×250 = 90 cm². A poor answer would use the same ratio for areas as for sides, or fail to set up the proportion correctly, indicating the student cannot transfer the theorem to a self-constructed context.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Ratio of Areas Theorem states that if two ______ are similar, then the ratio of their areas is equal to the square of the ratio of their corresponding sides (or corresponding altitudes, medians, or angle bisectors).",
+     "a": "triangles",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing two similar ______ garden beds for a school project.",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The larger bed has a corresponding side of ______ m.",
+     "a": "9",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly apply the theorem to find unknown areas, side lengths, altitudes, or medians in similar triangles, and can justify each step by citing the similarity criterion and the squared ratio relationship.",
+     "self_check": true
     }
    ]
   }

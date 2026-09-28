@@ -34,6 +34,21 @@
      "q": "Create a word problem based on a frequency distribution table that requires finding the mode, where the modal class is NOT the class with the highest frequency in the original table but becomes so after adjusting for class width (i.e., when class intervals are unequal). Provide the table, the question, and the solution steps.",
      "a": "Good answer example: \"A survey records ages of participants in a marathon. The table has unequal class intervals: 10-20 (width 10, freq 5), 20-30 (width 10, freq 12), 30-50 (width 20, freq 18), 50-60 (width 10, freq 7). Question: Find the modal age. Solution: Since classes are unequal, we must compute frequency density = frequency / class width. Densities: 0.5, 1.2, 0.9, 0.7. Highest density is 1.2 for class 20-30 → modal class = 20-30. Then apply mode formula.\" A poor answer (using raw frequencies and picking 30-50) reveals the student does not know that mode formula for grouped data assumes equal class widths, and fails to recognize the need for frequency density when widths differ — a higher-order concept tested in competency questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Word problems on ______ frequency distribution tables require extracting statistical information (class intervals, frequencies, cumulative frequencies, class marks) from a given table and applying appropriate formulas for mean, median, mode, or graphical methods to answer real-world questions.",
+     "a": "interpreting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school conducts a health check-up and records the heights of 100 Class 10 students in a ______ table.",
+     "a": "frequency",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently read a frequency distribution table from a word problem, identify whether it is discrete or continuous, select and apply the correct method (direct, assumed mean, step-deviation for mean; formula for median/mode; ogive for graphical median), compute the answer with all steps shown, and interpret the result.",
+     "self_check": true
     }
    ]
   }

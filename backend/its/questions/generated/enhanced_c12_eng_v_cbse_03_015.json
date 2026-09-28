@@ -34,6 +34,31 @@
      "q": "Design a 3-question discussion sequence that moves from factual recall to thematic interpretation to real-world application, all based on the chapter.",
      "a": "Expected answer: \n1. Factual: \"What is the Students on Ice programme and who founded it?\" \n2. Interpretive: \"Why does Geoff Green target high school students rather than celebrities or policymakers directly?\" \n3. Applicative: \"If you were designing a similar programme for Indian students, which local ecosystem would you choose and why?\" \nA poor sequence that jumps straight to application without textual grounding, or repeats the same cognitive level, reveals the student cannot scaffold discussion rigor.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Speaking and Listening: Discussion Points refers to structured oral activities where students engage in group discussions, debates, or ______ based on the chapter's themes, characters, and issues, developing their ability to articulate ideas, listen actively, and respond critically using textual evidence.",
+     "a": "presentations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a youth climate summit and need to discuss the urgency of protecting ______.",
+     "a": "Antarctica",
+     "self_check": true
+    },
+    {
+     "q": "What is Speaking and Listening? State the definition given in this lesson.",
+     "a": "Speaking and Listening: Discussion Points refers to structured oral activities where students engage in group discussions, debates, or presentations based on the chapter's themes, characters, and issues, developing their ability to articulate ideas, listen actively, and respond critically using textual evidence.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Speaking and Listening?",
+     "a": "Students think discussion points are just personal opinions (\"I think...\") without textual anchoring.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can initiate and sustain a meaningful discussion on the chapter's themes (climate change, geological history, human impact, youth action) using textual evidence, listen to peers' perspectives, and build on them with relevant counterpoints or extensions.",
+     "self_check": true
     }
    ]
   }

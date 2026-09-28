@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_02_001",
+   "title": "c11_leg_cbse_02_001",
+   "questions": [
+    {
+     "q": "Define 'Government' as per Black's Law Dictionary and state the three essential functions it performs in any State.",
+     "a": "Government is \"the structure of principles and rules determining how a state or organization is regulated.\" The three essential functions are: legislative (making laws), executive (enforcing laws), and judicial (interpreting laws and adjudicating disputes). A wrong answer (e.g., \"Government is the State\" or listing only two functions) reveals confusion between the State as a permanent entity and Government as its temporary machinery, or ignorance of the functional triad that defines governance.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Aristotle's classification of governments (monarchy, aristocracy, polity) differs from the modern four-fold classification in your textbook (monarchy, aristocracy, dictatorship, democracy), and where 'dictatorship' fits in Aristotle's scheme.",
+     "a": "Aristotle classified by *number of rulers* (one, few, many) and *aim* (common good vs. self-interest), yielding monarchy/tyranny, aristocracy/oligarchy, polity/democracy. The modern textbook drops the normative \"common good\" test and adds 'dictatorship' as a distinct *modern* form where power is seized by force/consent, not inheritance — unlike monarchy. Dictatorship roughly maps to Aristotle's 'tyranny' (rule by one for self-interest) but differs in legitimacy source. A wrong answer conflating dictatorship with absolute monarchy reveals failure to distinguish *origin of power* (hereditary vs. force/consent) as the textbook's key differentiator.",
+     "self_check": true
+    },
+    {
+     "q": "A country 'X' has a President elected directly by people for a fixed 4-year term. The President appoints ministers who are *not* members of the legislature. The legislature cannot remove the President except by impeachment. The President can veto bills but legislature can override with 2/3 majority. Identify the form and structure of government in X, and name two real countries with this system.",
+     "a": "Country X has a **Presidential form of government** (executive independent of legislature for tenure and policies) within a **Democratic** form (power vested in people). Real examples: USA, Argentina, Brazil. A wrong answer calling it \"Parliamentary\" reveals confusion between fusion of powers (PM + Council of Ministers from legislature) and separation of powers (President separate from Congress). A wrong answer saying \"Dictatorship\" ignores the fixed term, direct election, and legislative override — all democratic checks.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the legislative process for an Ordinary Bill vs. a Money Bill in India's Parliament. Why does the Constitution restrict Money Bills to Lok Sabha only, and what happens if Rajya Sabha rejects a Money Bill?",
+     "a": "**Ordinary Bill**: Can originate in either House; requires passage by both Houses; President's assent needed; deadlock resolved by joint sitting (Art. 108). **Money Bill**: Only in Lok Sabha (Art. 109); Rajya Sabha can only *recommend* amendments within 14 days (cannot reject/amend); Lok Sabha may accept/reject recommendations; deemed passed after 14 days; no joint sitting provision. The restriction exists because Lok Sabha is directly elected (popular mandate over public finance); Rajya Sabha represents States (federal chamber). If Rajya Sabha \"rejects\" a Money Bill, it is *deemed passed* after 14 days regardless. A wrong answer claiming Rajya Sabha can reject Money Bills or that joint sitting applies reveals ignorance of Art. 109's special procedure — a classic exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "\"India is a federation with a strong unitary bias.\" Evaluate this statement using *three* constitutional provisions that centralise power, and *two* that preserve federalism. Conclude whether K.C. Wheare's \"federal in character, unitary in spirit\" is accurate.",
+     "a": "**Centralising (Unitary) provisions**: (1) Art. 356 (President's Rule — Centre dismisses State govt); (2) Art. 249 (Parliament legislates on State List in national interest); (3) Single citizenship (Art. 5-11), integrated judiciary, All-India Services (Art. 312), Governor appointed by Centre (Art. 155). **Federal provisions**: (1) Seventh Schedule (Union/State/Concurrent Lists — dual polity); (2) Art. 368 (amendment requires State ratification for federal provisions); (3) Independent judiciary (Art. 124, 214) adjudicates Centre-State disputes. **Conclusion**: Wheare is accurate — the *structure* is federal (two governments, written Constitution, division of powers) but *emergency powers* and *financial dependence* of States make the *working* unitary. A wrong answer listing only federal features or only unitary features shows one-sided analysis; missing the \"spirit vs. character\" distinction misses the nuance.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical country 'Z' that combines: (a) a hereditary monarch as ceremonial head, (b) a Prime Minister responsible to an elected lower house, (c) a federal structure with strong States, (d) direct democracy tools (referendum/initiative) for constitutional amendments. Name *each* element's real-world counterpart (country) and explain how Z avoids the \"fusion of powers\" criticism of parliamentary systems.",
+     "a": "**Country Z's blueprint**: (a) Monarch = UK/Japan (ceremonial); (b) PM + responsible government = UK/India/Canada; (c) Federalism = USA/Australia/Germany (strong States); (d) Direct democracy = Switzerland (referendums/initiatives). **Avoiding fusion criticism**: In pure parliamentary systems (UK), executive *dominates* legislature via party whip. In Z, (1) Federal upper house (like US Senate) represents States, checking central executive; (2) Direct democracy lets people bypass legislature on constitutional issues; (3) Fixed-term lower house (unlike UK) prevents PM from timing elections; (4) Strong judicial review (like India/US) checks executive overreach. A poor answer copies one country wholesale (e.g., \"Z is just India\") showing inability to *synthesize* institutional design — a key Class 11 competency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

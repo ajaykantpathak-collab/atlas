@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_07_003",
+   "title": "c12_psy_cbse_07_003",
+   "questions": [
+    {
+     "q": "Define group formation and name the three factors that facilitate it according to NCERT Class 12 Psychology.",
+     "a": "Group formation is the process by which individuals become an organised, interdependent system with common motives, roles, and norms. The three facilitating factors are proximity, similarity, and common motives/goals. A wrong answer (e.g., listing \"shared norms\" or \"roles\" as formation factors) reveals confusion between factors that *initiate* formation versus structural elements that *emerge after* the group forms (covered in node c12_psy_cbse_07_005).",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why similarity leads to liking and group formation, using both psychological explanations given in the textbook.",
+     "a": "Similarity leads to liking through two mechanisms: (1) Cognitive consistency — people prefer relationships that are consistent; when attitudes/interests match, there is no cognitive dissonance, so we like the person. (2) Validation — similar others reinforce our opinions and values, making us feel correct, so we like them. A wrong answer that only mentions \"birds of a feather flock together\" or only gives one explanation shows superficial understanding and misses the specific theoretical distinctions NCERT requires.",
+     "self_check": true
+    },
+    {
+     "q": "A group of five Class 12 students from different schools meet at a weekend robotics workshop in Bangalore. They are assigned to the same workstation (proximity). During lunch, they discover all five are preparing for JEE Advanced and all want to pursue computer science at IIT Bombay (common goals). They also share a love for sci-fi movies and coding hackathons (similarity). Within two days, they form a study group that continues online after the workshop. Analyse which formation factor was *necessary* for the initial contact, which factor *accelerated* bonding, and which factor *sustains* the group long-term.",
+     "a": "Proximity (shared workstation) was necessary for initial contact — without it, they would never have met. Similarity (shared interests) accelerated bonding by providing immediate rapport and validation. Common goals (JEE Advanced, IIT Bombay CS) sustain the group long-term because they require ongoing coordinated effort. A wrong answer that swaps these roles (e.g., saying common goals caused initial contact) reveals inability to distinguish the temporal function of each factor.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the role of proximity in forming a primary group (e.g., family) versus a secondary group (e.g., project team at work). Use the concepts of \"permeable boundaries\" and \"choice\" from the primary/secondary group distinction.",
+     "a": "In primary groups like family, proximity is largely given (born into same household) and boundaries are less permeable — you cannot easily choose or leave. In secondary groups like a project team, proximity is often structurally arranged (assigned to same office/project) and boundaries are more permeable — you can request transfer or quit. Both use proximity for repeated interaction, but the *degree of choice* and *permeability* differ. A wrong answer that treats proximity identically in both contexts misses the sociological distinction between primary/secondary groups (node c12_psy_cbse_07_007).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Common motives and goals are the most important factor for group formation because without them, proximity and similarity only create acquaintances, not groups.\" Support your evaluation with reasoning from the textbook's definition of a group.",
+     "a": "The claim is largely correct. NCERT defines a group as having \"common motives\" and \"interdependence\" — proximity and similarity alone produce mere collections (like audiences) or friendships without collective purpose. Common goals create the interdependence and goal-directed interaction that define a group. However, \"most important\" is context-dependent: in minimal group experiments (Tajfel), mere categorisation (artificial similarity) created ingroup favouritism without common goals. A wrong answer that uncritically agrees or disagrees without referencing the textbook's defining characteristics shows poor evaluative skill.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario (Indian context, 150-200 words) where all three formation factors operate sequentially to form a group that later exhibits groupthink (Box 7.1). Identify the exact point where groupthink risk emerges.",
+     "a": "A good answer will describe: (1) Proximity — 12 residents of a Delhi RWA colony meet at the park daily. (2) Similarity — they discover shared concern about water scarcity and similar political leanings. (3) Common goals — they form a \"Water Action Committee\" to petition the MLA. (4) Groupthink risk emerges when the committee becomes highly cohesive, isolates from dissenting residents, and unanimously decides to boycott municipal water bills despite legal warnings — showing \"exaggerated sense of power\" and \"ignoring cues from reality.\" A poor answer will miss the sequential operation, omit groupthink markers, or create an unrealistic scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Group formation is the process through which individuals come together to create an organised system of two or more people who interact, are ______, share common motives or goals, and develop structured roles and norms; this process is primarily facilitated by three key factors: proximity (physical or functional closeness enabling repeated interaction), similarity (shared attitudes, interests, or backgrounds that create consistency and validation), and common motives/goals (shared objectives that require collective effort for attainment).",
+     "a": "interdependent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you start at a new coaching centre in Delhi for JEE ______.",
+     "a": "preparation",
+     "self_check": true
+    },
+    {
+     "q": "What is Group formation? State the definition given in this lesson.",
+     "a": "Group formation is the process through which individuals come together to create an organised system of two or more people who interact, are interdependent, share common motives or goals, and develop structured roles and norms; this process is primarily facilitated by three key factors: proximity (physical or functional closeness.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Group formation?",
+     "a": "Students often believe that similarity alone is sufficient for group formation and write answers like \"People with similar interests form groups.\" This is wrong because similarity only creates *attraction* or *liking* — it does not guarantee the interdependence, common motives, roles, and norms that define a group (NCERT definition).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) explain how proximity, similarity, and common motives each independently and interactively facilitate group formation using concrete real-life examples, and (2) analyse a given social scenario to identify which formation factor(s) are operating and predict the likely stability of the resulting group.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

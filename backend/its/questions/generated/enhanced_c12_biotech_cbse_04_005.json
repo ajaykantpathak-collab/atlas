@@ -34,6 +34,26 @@
      "q": "Design a hypothetical rDNA strategy to produce a long-acting HGH analog in *E. coli* by fusing the mature HGH sequence to a carrier protein that extends half-life. Specify: (a) the carrier protein choice, (b) the linker design considerations, and (c) how you would verify the fusion retains HGH receptor binding activity.",
      "a": "(a) Carrier: Human serum albumin (HSA) or Fc domain of IgG1 — both extend half-life via FcRn recycling and are non-immunogenic in humans. (b) Linker: Flexible (GGGGS)₃ linker to allow independent folding of HGH and carrier; include a protease cleavage site (e.g., TEV) if native HGH release is desired. (c) Verification: 1) SDS-PAGE/Western for size; 2) Surface plasmon resonance (SPR) or ELISA using immobilized HGH receptor to measure binding affinity (KD) vs. native HGH; 3) In vitro bioassay (e.g., Nb2 cell proliferation) to confirm functional activity. A poor answer chooses an immunogenic carrier (e.g., bacterial protein), omits linker flexibility, or suggests only size verification without functional assay.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Human Growth Hormone (HGH) production in recombinant systems refers to the ______ process of synthesizing the 191-amino-acid human peptide hormone (somatotropin) in a heterologous host (typically *E. coli*) by cloning a modified cDNA that lacks the native signal peptide sequence, enabling bacterial expression, purification, and therapeutic use for growth hormone deficiency disorders.",
+     "a": "biotechnological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 10-year-old child diagnosed with growth hormone ______ — they need daily HGH injections for years.",
+     "a": "deficiency",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Human Growth Hormone (HGH) production in recombinant systems refers to the biotechnological process of synthesizing the ______-amino-acid human peptide hormone (somatotropin) in a heterologous host (typically *E. coli*) by cloning a modified cDNA that lacks the native signal peptide sequence, enabling bacterial expression, purification, and therapeutic use for growth hormone deficiency disorders.",
+     "a": "191",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain why the native HGH cDNA cannot be directly expressed in *E. coli* (signal peptide processing failure), describe the EcoRI-based strategy to remove the signal peptide and restore the mature N-terminus via synthetic linker ligation, and compare the recombinant product (Humatrope/Protropin) with.",
+     "self_check": true
     }
    ]
   }

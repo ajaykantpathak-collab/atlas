@@ -34,6 +34,21 @@
      "q": "Create a decimal number using the digits $2$, $5$, and $9$ exactly once each, such that the digit $5$ has the greatest possible place value among your choices. What is this number, and what is its expanded form?",
      "a": "The number is $5.92$ (or $5.29$). Expanded form: $5 + \\frac{9}{10} + \\frac{2}{100}$. \nCriteria for a good answer: The digit $5$ must be placed in the ones place (or tenths place if restricted to strictly decimals like $0.592$, but ones gives the greatest possible value). A poor answer places $5$ in the thousandths place ($0.295$), giving it the smallest possible place value.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Each position to the right is one-tenth the value of the position ______ to its left.",
+     "a": "immediately",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Just like whole numbers use ones, tens, and hundreds going left, decimals use tenths, hundredths, and ______ going right.",
+     "a": "thousandths",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify, read, write, and expand numbers involving tenths, hundredths, and thousandths, and can determine the exact place value and face value of any digit in a given decimal number.",
+     "self_check": true
     }
    ]
   }

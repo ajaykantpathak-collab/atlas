@@ -34,6 +34,26 @@
      "q": "Design a step-by-step procedure for a Class 12 student to construct a \"more than\" ogive from raw data of 50 students' heights (in cm) ranging from 140 to 190. Include class interval selection, cumulative frequency calculation, and plotting instructions.",
      "a": "1. Decide class intervals (e.g., 140-150, 150-160, ... 180-190). 2. Tally frequencies. 3. Compute \"more than\" cumulative frequencies starting from the lowest class: for 140-150, cumulative = total N (50); for 150-160, cumulative = 50 - freq(140-150), etc. 4. Plot lower class limits (140, 150, ..., 180) on X-axis against cumulative frequencies on Y-axis. 5. Join points with smooth curve. 6. Label axes, title, and scale. A poor answer omits the starting cumulative frequency = N or uses upper limits instead of lower limits.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A cumulative frequency curve (ogive) is a graphical ______ of cumulative frequencies plotted against the upper (or lower) class boundaries of a grouped frequency distribution.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have rainfall data for 50 years grouped into class ______ (e.g., 0-20 cm, 20-40 cm, etc.) and you want to quickly find the median rainfall without calculating.",
+     "a": "intervals",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can construct both \"less than\" and \"more than\" ogives from a given grouped frequency distribution, correctly plot cumulative frequencies against appropriate class boundaries, draw smooth curves, and determine the median graphically by locating the intersection point of the two ogives.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have rainfall data for 50 years grouped into class intervals (e.g., 0-20 cm, 20-40 cm, etc.) and you want to quickly find the median rainfall without ______.",
+     "a": "calculating",
+     "self_check": true
     }
    ]
   }

@@ -31,8 +31,33 @@
      "self_check": true
     },
     {
-     "q": "Create a \"Digital Safety Checklist\" for a Class 11 student that includes: (a) 3 daily habits, (b) 3 weekly habits, (c) 3 monthly habits, and (d) 1 emergency response step for each: phishing email, ransomware infection, and cyber bullying incident. Justify each item with a specific threat it mitigates.",
-     "a": "Sample answer: Daily: (1) Verify sender before clicking links (mitigates phishing); (2) Log out of shared devices (mitigates session hijacking); (3) Avoid posting location in real-time (mitigates stalking/physical threat). Weekly: (1) Scan for malware (mitigates ransomware/trojans); (2) Review app permissions (mitigates data leakage); (3) Backup important files offline (mitigates ransomware data loss). Monthly: (1) Change critical passwords (mitigates credential stuffing); (2) Check privacy settings on social media (mitigates oversharing); (3) Update OS and apps (mitigates exploit of known vulnerabilities). Emergency: Phishing — report to 1930, change passwords, enable 2FA; Ransomware — disconnect from network, do not pay, restore from backup, report to cyber cell; Cyber bullying — screenshot evidence, block/report user, inform trusted adult/school, file complaint under IT Act Section 66A/67. A poor answer with generic advice (\"be careful\") reveals lack of threat-specific procedural knowledge.",
+     "q": "Give the correct order of immediate actions after receiving a suspicious bank-verification email asking for your PIN.",
+     "a": "The response runs: (1) Inspect the sender domain against the bank's real domain (2) Refuse to click the link or enter the PIN anywhere (3) Delete the message and report it through the bank's official helpline (4) Forward the details to the national cyber crime helpline. A wrong answer that clicks first to check shows the student has missed that phishing exploits trust and urgency, and that technical indicators must be verified before any action.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cyber safety refers to the practices, measures, and awareness required to protect individuals, systems, and networks from cyber threats such as ______ access, data theft, malware, phishing, and identity theft, while ensuring ethical, legal, and responsible use of digital technologies.",
+     "a": "unauthorised",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive an email ______ to be from your bank asking you to \"verify your account\" by clicking a link and entering your PIN.",
+     "a": "claiming",
+     "self_check": true
+    },
+    {
+     "q": "What is Cyber safety? State the definition given in this lesson.",
+     "a": "Cyber safety refers to the practices, measures, and awareness required to protect individuals, systems, and networks from cyber threats such as unauthorised access, data theft, malware, phishing, and identity theft, while ensuring ethical, legal, and responsible use of digital technologies.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Cyber safety?",
+     "a": "Students believe that \"deleting a post or photo from social media permanently removes it from the internet.\" This misconception arises because the UI shows the content disappearing from their profile, creating a false sense of control.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify a given online scenario into the correct cyber threat category (hacking, phishing, identity theft, ransomware, cyber bullying, plagiarism, copyright infringement) and justify the classification using at least two specific indicators from the scenario.",
      "self_check": true
     }
    ]

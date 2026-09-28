@@ -4,81 +4,46 @@
   {
    "id": "hecu.106.6.1",
    "title": "Pressure: Force per Unit Area",
+   "converted_to_compute": true,
+   "formula": "pressure = force / area",
    "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
-     "name": "pressure",
-     "expr": "force / area",
-     "explain": "pressure = force divided by area of contact"
-    },
-    {
-     "step": 2,
-     "name": "per_sq_cm",
-     "expr": "force / (area * 10000)",
-     "explain": "pressure in newtons per square centimetre"
-    },
-    {
-     "step": 3,
-     "name": "pressure_with_half_area",
-     "expr": "pressure * 2",
-     "explain": "halving the area doubles the pressure"
+     "action": "substitute the given values into the formula",
+     "explain": "pressure = force / area",
+     "compute": "pressure = force / area"
     }
    ],
    "questions": [
     {
-     "q": "A 300 N crate rests on 1.5 sq m of floor. Find the pressure, and the pressure if the base is halved.",
-     "vals": {
-      "force": 300,
-      "area": 1.5
-     },
-     "unit": "N/m2",
-     "steps": null,
-     "a": "400 N/m2",
+     "q": "For Pressure: Force per Unit Area: given force = 103, area = 83, find pressure.",
+     "a": "1.24096",
      "self_check": false
     },
     {
-     "q": "A camel of 4000 N stands on feet of total area 0.2 sq m. Calculate the pressure on sand.",
-     "vals": {
-      "force": 4000,
-      "area": 0.2
-     },
-     "unit": "N/m2",
-     "steps": null,
-     "a": "40000 N/m2",
+     "q": "For Pressure: Force per Unit Area: given force = 414, area = 40, find pressure.",
+     "a": "10.35",
      "self_check": false
     },
     {
-     "q": "A 100 N force presses a piston of 0.004 sq m. Find the pressure, and for half the area.",
-     "vals": {
-      "force": 100,
-      "area": 0.004
-     },
-     "unit": "N/m2",
-     "steps": null,
-     "a": "50000 N/m2",
+     "q": "For Pressure: Force per Unit Area: given force = 834, area = 94, find pressure.",
+     "a": "8.87234",
      "self_check": false
     },
     {
-     "q": "A drawing pin is pushed with 25 N on a tip of 0.0000005 sq m. What pressure results?",
-     "vals": {
-      "force": 25,
-      "area": 5e-07
-     },
-     "unit": "N/m2",
-     "steps": null,
-     "a": "100000000 N/m2",
+     "q": "For Pressure: Force per Unit Area: given force = 48, area = 33, find pressure.",
+     "a": "1.45455",
      "self_check": false
     },
     {
-     "q": "A 450 N student sits on a chair seat of 0.09 sq m. Compute the pressure on the seat.",
-     "vals": {
-      "force": 450,
-      "area": 0.09
-     },
-     "unit": "N/m2",
-     "steps": null,
-     "a": "10000 N/m2",
+     "q": "For Pressure: Force per Unit Area: given force = 749, area = 63, find pressure.",
+     "a": "11.8889",
+     "self_check": false
+    },
+    {
+     "q": "For Pressure: Force per Unit Area: given force = 888, area = 78, find pressure.",
+     "a": "11.3846",
      "self_check": false
     }
    ]

@@ -34,6 +34,31 @@
      "q": "Design a 10-digit coding structure for a manufacturing company's inventory accounts that must capture: (a) 3 divisions (Textiles, Chemicals, Engineering), (b) 4 warehouse zones per division, (c) 5 raw material categories, (d) up to 99 items per category. Specify digit allocation, give an example code for \"Textiles Division, North Zone, Cotton Yarn, Item 07\", and explain how this structure supports hierarchical reporting.",
      "a": "Expected answer: Digit allocation — Division (1 digit: 1/2/3), Zone (1 digit: 1–4), Category (1 digit: 1–5), Item (2 digits: 01–99). Remaining 5 digits can be reserved for future (e.g., batch, grade). Example: Textiles=1, North=1, Cotton Yarn=2, Item 07=07 → Code: 11207 (padded to 10 digits: 1120700000). Hierarchical reporting: sorting by code auto-groups all Textiles (1xxxx), then North Zone (11xxx), then Cotton Yarn (112xx). A poor answer uses non-hierarchical digits (e.g., random 10-digit numbers) or omits expansion gaps, showing the student cannot translate real-world dimensions into a structured coding scheme.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Grouping of Accounts is the systematic hierarchical ______ of all ledger accounts into four primary categories — Equity & Liabilities, Assets, Revenues, and Expenses — based on the accounting equation (Assets = Liabilities + Capital + Revenues – Expenses), enabling structured data organisation, accurate financial reporting, and logical codification in a Computerised Accounting System.",
+     "a": "classification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the accountant for a growing Delhi-based startup that just ______ Series-A funding.",
+     "a": "received",
+     "self_check": true
+    },
+    {
+     "q": "What is Grouping of Accounts? State the definition given in this lesson.",
+     "a": "Grouping of Accounts is the systematic hierarchical classification of all ledger accounts into four primary categories — Equity & Liabilities, Assets, Revenues, and Expenses — based on the accounting equation (Assets = Liabilities + Capital + Revenues – Expenses), enabling structured data organisation, accurate financial reporting, and.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Grouping of Accounts?",
+     "a": "Students often treat \"Grouping of Accounts\" and \"Codification of Accounts\" as two separate, unrelated topics.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) classify any given account into the correct primary group and sub-group per the NCERT hierarchy, and (2) design a 6–10 digit hierarchical account code that reflects the group–sub-group–account relationship and allows automatic sorting into Balance Sheet and Profit & Loss order.",
+     "self_check": true
     }
    ]
   }

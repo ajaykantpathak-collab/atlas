@@ -1,0 +1,46 @@
+{
+ "catalog": "enhanced_c10_gram_cbse_95_002",
+ "concepts": [
+  {
+   "id": "enh:c10_gram_cbse_95_002",
+   "title": "c10_gram_cbse_95_002",
+   "questions": [
+    {
+     "q": "Transform to comparative: 'Asha is the tallest girl in the class.'",
+     "a": "'Asha is taller than any other girl in the class.' The 'other' is mandatory — it removes Asha from the comparison set. A wrong answer 'taller than any girl' creates the logical impossibility of Asha exceeding herself — the precise error the frame prevents.",
+     "self_check": true
+    },
+    {
+     "q": "Transform to positive: 'Mumbai is bigger than most cities in India.'",
+     "a": "'Very few cities in India are as big as Mumbai.' 'Most' maps to 'very few' at the top of the set. A wrong answer 'no city is as big' overstates — comparative 'most' leaves room for rivals; 'no other' claims absolute top — the student changed the fact, not just the form.",
+     "self_check": true
+    },
+    {
+     "q": "Correct: 'She is more taller than her sister.'",
+     "a": "'She is taller than her sister' — double comparative marking. A wrong answer accepting it reveals the student treats 'more' and '-er' as separate decoration slots rather than alternate realizations of ONE feature.",
+     "self_check": true
+    },
+    {
+     "q": "The three degrees must preserve exact meaning through fixed frames: positive 'as…as', ______ '…er/more…than', superlative '…est/most…in/of'.",
+     "a": "comparative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The three degrees must preserve exact meaning through fixed frames: positive 'as…as', ______ '…er/more…than', superlative '…est/most…in/of'. 'No other girl is as tall as Asha' ≡ 'Asha is taller than any other girl' ≡ 'Asha is the tallest girl' — one fact, three legal frames.",
+     "a": "comparative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Write the same fact three ways on the board and mark what each frame forces: ______ → 'the tallest IN the class' (entity inside group); comparative → 'taller THAN any OTHER girl' (entity must be excluded from the comparison set — that's why 'other' exists); positive → 'NO OTHER … as tall as'.",
+     "a": "superlative",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student transforms among the three degrees preserving truth conditions — including the 'other/else' word that keeps the compared entity inside or outside its group correctly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

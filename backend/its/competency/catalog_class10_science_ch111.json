@@ -40,6 +40,21 @@
      "explain": "express the result in coulombs, since one ampere of current carries one coulomb of charge per second",
      "compute": "charge_coulombs = current * time_seconds"
     }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "current = charge / time",
+     "compute": "current = charge / time"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "jesc.11.1",
+     "question_pattern": "find the electric current when charge {charge} flows in time {time}"
+    }
    ]
   },
   {
@@ -76,6 +91,21 @@
      "action": "state the result with correct unit",
      "explain": "express work done or energy in joules, since one volt times one coulomb equals one joule",
      "compute": "result_joules = work_done"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "potential_difference = work_done / charge",
+     "compute": "potential_difference = work_done / charge"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "jesc.11.2",
+     "question_pattern": "how much energy is transferred when charge {work_done} moves through potential difference {charge}"
     }
    ]
   },
@@ -148,6 +178,21 @@
      "explain": "express current in amperes and resistance in ohms, confirming the values satisfy Ohm's law V = I x R",
      "compute": "verify = current * resistance"
     }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "voltage = current * resistance",
+     "compute": "voltage = current * resistance"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "jesc.11.4",
+     "question_pattern": "how much current flows through a bulb of resistance {current} connected to {resistance}"
+    }
    ]
   },
   {
@@ -185,14 +230,23 @@
      "explain": "express resistivity in ohm-meters, which is the intrinsic material property independent of wire dimensions",
      "compute": "resistivity_ohm_m = resistivity"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "resistance = (resistivity * length) / area",
+     "compute": "resistance = (resistivity * length) / area"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.11.6.1",
    "title": "Resistors in Series",
    "section": "11.6.1",
    "definition": "When multiple resistors are joined end to end in a single line, the total resistance is the sum of individual resistances while current remains uniform.",
-   "formula": "r_series = r1 + r2 + r3",
+   "formula": "r_series = r_1 + r_2 + r_3",
    "key_idea": "Series connection adds individual resistances and maintains equal current through all components.",
    "textbook_ref": "jesc111.txt lines 270-330",
    "question_patterns": [
@@ -222,7 +276,16 @@
      "explain": "in a series circuit the same current flows through all resistors, so each voltage drop equals current times that resistor's value",
      "compute": "v_drop = current * resistor"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "r_series = r_1 + r_2 + r_3",
+     "compute": "r_series = r_1 + r_2 + r_3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.11.6.2",
@@ -296,7 +359,16 @@
      "explain": "express the result in joules, confirming Joule's law that heat is proportional to current squared, resistance, and time",
      "compute": "heat_joules = heat"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "heat = (current ** 2) * resistance * time",
+     "compute": "heat = (current ** 2) * resistance * time"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.11.8",
@@ -332,6 +404,21 @@
      "action": "state the power with correct unit",
      "explain": "express power in watts, where one watt equals one joule per second, representing the rate of energy consumption",
      "compute": "power_watts = power"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "power = voltage * current",
+     "compute": "power = voltage * current"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "jesc.11.8",
+     "question_pattern": "how much power is consumed when voltage is {voltage} and resistance is {current}"
     }
    ]
   },
@@ -370,7 +457,16 @@
      "explain": "express energy in kilowatt-hours (units) and cost in rupees, confirming the commercial billing calculation",
      "compute": "result_cost = total_cost"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "energy_kwh = (power_watts * hours * days) / 1000",
+     "compute": "energy_kwh = (power_watts * hours * days) / 1000"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

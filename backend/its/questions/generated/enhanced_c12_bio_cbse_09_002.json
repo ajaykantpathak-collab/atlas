@@ -34,6 +34,31 @@
      "q": "Design a clean milk production protocol for a 20-cow farm targeting somatic cell count (SCC) <200,000 cells/mL and total plate count (TPC) <50,000 cfu/mL. Include pre-milking, milking, and post-milking steps with biological justification for each.",
      "a": "Pre-milking: (1) Cow entry → clean loafing area (reduces environmental mastitis pathogens). (2) Fore-strip 3-4 streams → detects clinical mastitis, stimulates oxytocin. (3) Pre-dip with 0.5% iodine → 30s contact kills teat skin bacteria. (4) Dry with single-use paper towel → removes dip + dirt, prevents vacuum drop. Milking: (5) Attach cluster within 60-90s of stimulation → matches oxytocin peak. (6) Monitor vacuum (40-48 kPa) and pulsation (60:40) → prevents teat end damage. Post-milking: (7) Post-dip (barrier + germicide) → seals teat canal, kills residual bacteria. (8) Teat dip cup sanitized between cows. (9) Milk filtered, chilled to 4°C within 30 min → inhibits bacterial proliferation (generation time >6h at 4°C vs 20 min at 37°C). A poor answer lists steps without linking to bacterial growth kinetics or udder physiology.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Dairy farm management is the systematic application of scientific principles to housing, feeding, breeding, health care, and milking of dairy animals (cattle and buffalo) to maximize milk yield, quality, and animal welfare while ensuring economic ______.",
+     "a": "sustainability",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a dairy farm early morning: cows are let loose, fed dry fodder, hand-milked on a muddy floor, and the milk is strained through a used cloth.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What is Dairy farm management? State the definition given in this lesson.",
+     "a": "Dairy farm management is the systematic application of scientific principles to housing, feeding, breeding, health care, and milking of dairy animals (cattle and buffalo) to maximize milk yield, quality, and animal welfare while ensuring economic sustainability.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Dairy farm management?",
+     "a": "Students believe \"more concentrate = more milk\" and feed 70-80% concentrate to high yielders.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can design a daily management schedule for a 10-cow dairy unit specifying feed ration formulation (DM, CP, TDN), milking routine with hygiene checkpoints, housing ventilation parameters, and vaccination/deworming calendar; and can explain how each component affects milk yield and composition physiologically.",
+     "self_check": true
     }
    ]
   }

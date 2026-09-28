@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using household items to demonstrate that rolling friction is less than sliding friction for the same normal force. List materials, procedure, measurements, and how you would conclude quantitatively.",
      "a": "**Materials:** Wooden plank (ramp), book (slider), cylindrical pencil/pen (roller), spring balance, protractor.\n**Procedure:** 1. Place book on plank, attach spring balance parallel to plank. 2. Slowly tilt plank until book just starts sliding; note angle θ_s and force F_s (or use horizontal pull with spring balance at constant velocity). 3. Replace book with pencil (same mass) on its side; repeat to find angle θ_r or force F_r for rolling.\n**Measurements:** Compare θ_s vs θ_r (tan θ = μ) or F_s vs F_r.\n**Conclusion:** If θ_r < θ_s (or F_r < F_s), rolling friction is smaller.\n**Good answer criteria:** Controls mass and contact material; measures force/angle; acknowledges static vs kinetic friction. A poor answer (e.g., \"push both and see which goes farther\") lacks controlled normal force and quantitative comparison.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Increasing friction involves enhancing the interlocking between surface ______ or increasing adhesive forces to oppose relative motion, achieved by methods like grooving surfaces, using rough materials, or increasing normal force.",
+     "a": "irregularities",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bicycle: when brakes are applied, rubber pads press against the metal rim — the rough brake pads ______ friction to stop the wheel.",
+     "a": "increase",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the physical mechanism behind at least three methods each for increasing and reducing friction with real-world Indian examples, and solve numerical problems combining friction concepts with Newton's second law (F_net = ma) to find acceleration or required force.",
+     "self_check": true
     }
    ]
   }

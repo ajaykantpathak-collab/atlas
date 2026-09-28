@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using only natural indicators (like turmeric, beetroot, or hibiscus petals) to arrange three unknown colourless solutions in order of increasing pH. Explain the principle.",
      "a": "Prepare extracts of turmeric (turns red in base), beetroot (colour intensifies in acid), and hibiscus (turns pink in acid, green in base). Add a few drops of each indicator to each solution and observe colour changes. Arrange solutions from most acidic (red with hibiscus, no change with turmeric) to most basic (red with turmeric, green with hibiscus). A poor answer uses only one indicator or cannot explain the colour chemistry, showing lack of understanding of indicator pH ranges.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: pH is the negative ______ (base 10) of the hydrogen ion concentration in a solution, expressed as pH = -log₁₀[H⁺], where [H⁺] is the molar concentration of hydrogen ions (mol L⁻¹).",
+     "a": "logarithm",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer in Punjab testing his soil with pH paper before sowing wheat — the paper turns yellow, ______ pH around 6, which is slightly acidic and suitable for wheat.",
+     "a": "indicating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: pH is the negative logarithm (base ______) of the hydrogen ion concentration in a solution, expressed as pH = -log₁₀[H⁺], where [H⁺] is the molar concentration of hydrogen ions (mol L⁻¹).",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate pH from a given hydrogen ion concentration, interpret the meaning of a pH value in terms of acid/base strength, explain why the scale is logarithmic, and predict how dilution or mixing affects pH.",
+     "self_check": true
     }
    ]
   }

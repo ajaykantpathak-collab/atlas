@@ -1,65 +1,97 @@
 {
- "catalog": "catalog_class12_biotechnology_lebt111",
+ "catalog": "catalog_class12_biotechnology_lebt111.json",
  "concepts": [
   {
    "id": "lebt111.1",
    "title": "Sewage Composition and BOD Dilution",
+   "converted_to_compute": true,
+   "formula": "dilution_factor = total_volume / sample_volume",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "dilution_factor = total_volume / sample_volume",
+     "compute": "dilution_factor = total_volume / sample_volume"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Sewage Composition and BOD Dilution', work with: do_drop = 500, sample_volume = 12, total_volume = 20. Carry the chain through step by step and give the final value of bod_value.",
-     "a": "833.3333 units",
+     "q": "For Sewage Composition and BOD Dilution: given total_volume = 104, sample_volume = 73, find dilution factor.",
+     "a": "1.42466",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Sewage Composition and BOD Dilution' and work with: do_drop = 12, sample_volume = 80, total_volume = 100. Carry the chain through step by step and give the final value of bod_value.",
-     "a": "15 units",
+     "q": "For Sewage Composition and BOD Dilution: given total_volume = 21, sample_volume = 73, find dilution factor.",
+     "a": "0.287671",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Sewage Composition and BOD Dilution' refers to.",
-     "a": "Sewage is ninety-nine percent water carrying one percent of suspended and soluble refuse, and its strength is read through the biochemical oxygen demand: a diluted sample is incubated at twenty degrees for five days beside a control, the oxygen drop before and after incubation is multiplied by the dilution factor - the total volume divided by the sample volume, from one at full strength to fifty at a twentieth - and a high BOD brands the sewage strong enough to suffocate fish.",
-     "self_check": true
+     "q": "For Sewage Composition and BOD Dilution: given total_volume = 29, sample_volume = 60, find dilution factor.",
+     "a": "0.483333",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Sewage Composition and BOD Dilution'.",
-     "a": "Divide the bottle volume by the sample volume for the dilution factor, then multiply the oxygen drop by it to price the BOD.",
-     "self_check": true
+     "q": "For Sewage Composition and BOD Dilution: given total_volume = 16.7, sample_volume = 3.5, find dilution factor.",
+     "a": "4.77143",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Sewage Composition and BOD Dilution', in plain ASCII form.",
-     "a": "dilution_factor = total_volume / sample_volume",
-     "self_check": true
+     "q": "For Sewage Composition and BOD Dilution: given total_volume = 110, sample_volume = 23, find dilution factor.",
+     "a": "4.78261",
+     "self_check": false
+    },
+    {
+     "q": "For Sewage Composition and BOD Dilution: given total_volume = 37, sample_volume = 42, find dilution factor.",
+     "a": "0.880952",
+     "self_check": false
     }
    ]
   },
   {
    "id": "lebt111.2",
    "title": "Primary Treatment BOD Removal",
+   "converted_to_compute": true,
+   "formula": "remaining_bod = bod_before * (100 - removal_pct) / 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "remaining_bod = bod_before * (100 - removal_pct) / 100",
+     "compute": "remaining_bod = bod_before * (100 - removal_pct) / 100"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Primary Treatment BOD Removal', work with: bod_before = 25, removal_pct = 4. Carry the chain through step by step and give the final value of removed_bod.",
-     "a": "1 units",
+     "q": "For Primary Treatment BOD Removal: given bod_before = 14.9, removal_pct = 49, find remaining bod.",
+     "a": "7.599",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Primary Treatment BOD Removal' and work with: bod_before = 18, removal_pct = 120. Carry the chain through step by step and give the final value of removed_bod.",
-     "a": "21.6 units",
+     "q": "For Primary Treatment BOD Removal: given bod_before = 84, removal_pct = 56, find remaining bod.",
+     "a": "36.96",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Primary Treatment BOD Removal' refers to.",
-     "a": "Primary treatment is purely mechanical - screens catch bottles and rags, a grit chamber drops sand, and sedimentation tanks hold the sewage two to ten hours so coarse solids settle as primary sludge - trimming only thirty to forty percent of the BOD while the dissolved organic load waits for biology.",
-     "self_check": true
+     "q": "For Primary Treatment BOD Removal: given bod_before = 54, removal_pct = 39, find remaining bod.",
+     "a": "32.94",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Primary Treatment BOD Removal'.",
-     "a": "Apply the removal percentage to the incoming BOD; whatever remains is the biology's job downstream.",
-     "self_check": true
+     "q": "For Primary Treatment BOD Removal: given bod_before = 2, removal_pct = 25, find remaining bod.",
+     "a": "1.5",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Primary Treatment BOD Removal', in plain ASCII form.",
-     "a": "remaining_bod = bod_before * (100 - removal_pct) / 100",
-     "self_check": true
+     "q": "For Primary Treatment BOD Removal: given bod_before = 40, removal_pct = 13.4, find remaining bod.",
+     "a": "34.64",
+     "self_check": false
+    },
+    {
+     "q": "For Primary Treatment BOD Removal: given bod_before = 97, removal_pct = 60, find remaining bod.",
+     "a": "38.8",
+     "self_check": false
     }
    ]
   },

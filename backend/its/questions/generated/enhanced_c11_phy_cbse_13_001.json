@@ -22,7 +22,7 @@
     },
     {
      "q": "Figure shows four x-t graphs. Graph A: straight line with positive slope. Graph B: parabola opening upward. Graph C: repeating sinusoidal curve. Graph D: repeating sawtooth pattern (sharp peaks). Which graphs represent periodic motion? For the periodic ones, which represent oscillatory motion? Explain your reasoning.",
-     "a": "Graphs C and D are periodic (repeat after a fixed interval). Graph C is oscillatory (sinusoidal, symmetric about an equilibrium position, implying a restoring force). Graph D is periodic but not oscillatory (the motion is not symmetric to-and-fro about a mean position; it resembles a particle moving with constant velocity and instantly reversing, which requires infinite force). A wrong answer shows inability to distinguish oscillatory from non-oscillatory periodic motion based on symmetry and physical plausibility.",
+     "a": "(1) Graph A, a straight line with positive slope, is not periodic, (2) Graph B, an upward-opening parabola, is not periodic, (3) Graph C, a repeating sinusoidal curve, is periodic and also oscillatory because it is symmetric to-and-fro about an equilibrium position under a restoring force, (4) Graph D, a repeating sawtooth, is periodic but not oscillatory because it is not symmetric about a mean position and its instant reversal would require infinite force. A wrong answer shows inability to distinguish oscillatory from non-oscillatory periodic motion using symmetry and physical plausibility.",
      "self_check": true
     },
     {
@@ -33,6 +33,36 @@
     {
      "q": "Design a simple experiment using household items to demonstrate the difference between periodic motion that is oscillatory and periodic motion that is not oscillatory. List materials, procedure, and the observations that distinguish the two.",
      "a": "Materials: a thread with a small stone (pendulum), a rotating stool or a bicycle wheel mounted on an axle. Procedure: (1) Displace the pendulum slightly and release; observe to-and-fro motion about the lowest point. (2) Spin the bicycle wheel; observe continuous rotation. Observations: The pendulum moves back and forth about an equilibrium position (oscillatory). The wheel repeats its orientation after each full turn but does not have an equilibrium position it returns to after displacement; it is periodic but not oscillatory. A poor answer fails to identify the equilibrium position or the restoring force as the distinguishing feature.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Periodic motion is a motion that repeats itself ______ after a fixed interval of time called the period (T).",
+     "a": "identically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan rotating at constant speed — its motion repeats but the blade does not move to and fro about a fixed point; it is periodic but not ______.",
+     "a": "oscillatory",
+     "self_check": true
+    },
+    {
+     "q": "What is Periodic motion? State the definition given in this lesson.",
+     "a": "Periodic motion is a motion that repeats itself identically after a fixed interval of time called the period (T).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The frequency (ν) is the reciprocal of the period (ν = ______/T) measured in hertz (Hz).",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Periodic motion?",
+     "a": "Students often believe that any motion that repeats is oscillatory.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between periodic and oscillatory motion with examples, define period and frequency with correct SI units, identify the equilibrium position in a given oscillatory system, and express displacement as a sinusoidal function of time (e.g., x = A cos ωt) recognizing that displacement is not limited to spatial.",
      "self_check": true
     }
    ]

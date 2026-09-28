@@ -34,6 +34,31 @@
      "q": "Design a step-by-step flowchart for a dry-cleaning establishment receiving a batch of 20 mixed garments (silk, wool, polyester, rayon) with various stains (lipstick, mud, wine, grease). Include decision points for spot-testing, solvent selection, and post-cleaning inspection.",
      "a": "Flowchart must include: 1) Tag & record fibre/content/stains; 2) Sort by fibre type & colour; 3) Spot-test colourfastness on hidden seam; 4) Spot-board: treat water-soluble stains (mud, wine) with appropriate reagents; 5) Treat solvent-soluble stains (lipstick, grease) — may skip if machine handles; 6) Load by compatible groups (silk/wool together in perc; rayon/polyester in petroleum); 7) Machine cycle: wash → extract → dry (solvent recovery); 8) Post-spot any remaining stains; 9) Finish: steam press, replace buttons/sizing; 10) Final inspection against original tag. Missing decision points (e.g., no colourfastness test, no solvent grouping) reveals procedural gaps.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Dry-cleaning is a fabric cleaning process that uses non-aqueous chemical solvents (such as ______, petroleum spirits, or fluorocarbons) instead of water to remove soils and stains from textiles, preventing fibre swelling, shrinkage, and colour bleeding that occur during wet washing.",
+     "a": "perchloroethylene",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a silk saree with a stubborn oil stain that didn't come out with gentle hand ______ — you wonder why the care label says \"Dry Clean Only\" and what actually happens at the dry cleaner's.",
+     "a": "washing",
+     "self_check": true
+    },
+    {
+     "q": "What is Dry-cleaning? State the definition given in this lesson.",
+     "a": "Dry-cleaning is a fabric cleaning process that uses non-aqueous chemical solvents (such as perchloroethylene, petroleum spirits, or fluorocarbons) instead of water to remove soils and stains from textiles, preventing fibre swelling, shrinkage, and colour bleeding that occur during wet washing.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Dry-cleaning?",
+     "a": "Students believe \"dry-cleaning\" means cleaning without any liquid, or that it uses heat/air like a dryer.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the dry-cleaning process sequence (inspection → spot treatment → machine cleaning → finishing), identify which fabric types require dry-cleaning based on fibre properties, and interpret care label symbols for dry-cleaning instructions.",
+     "self_check": true
     }
    ]
   }

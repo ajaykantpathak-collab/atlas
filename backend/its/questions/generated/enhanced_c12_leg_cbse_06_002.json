@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_06_002",
+   "title": "c12_leg_cbse_06_002",
+   "questions": [
+    {
+     "q": "What are the two main categories of Intellectual Property as defined in the CBSE Class 12 Legal Studies textbook, and name one right that falls under each category.",
+     "a": "The two main categories are: (1) Industrial Property — includes patents, trademarks, industrial designs, geographical indications; (2) Copyright — includes literary, dramatic, musical, artistic works, cinematograph films, sound recordings. A wrong answer (e.g., \"patents and copyrights are the two categories\") reveals the student is confusing sub-types with top-level classification — they haven't grasped the structural division between industrial/commercial IP and creative/expressive IP.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the principle of \"National Treatment\" in the context of the Paris Convention and the Berne Convention. How does the obligation differ between the two?",
+     "a": "Under the Paris Convention, National Treatment requires member countries to grant equal legal protection to nationals of other member countries for industrial property (patents, trademarks, etc.) as they grant to their own nationals. Under the Berne Convention, it requires the same for literary/artistic works — but with a critical difference: Berne mandates *automatic* protection (no formalities like registration), while Paris allows procedural formalities. A wrong answer that says \"both are identical\" misses the automatic-vs-formalities distinction — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A software developer in India creates a new mobile app. She wants to protect the app's source code, its unique name/logo, and the novel algorithm it uses. Identify which Indian statute governs protection for each of these three elements.",
+     "a": "Source code → Copyright Act, 1957 (as a literary work); Name/logo → Trade Marks Act, 1999; Novel algorithm → Patents Act, 1970 (if it meets novelty, non-obviousness, industrial application). A wrong answer assigning the algorithm to Copyright reveals the student doesn't understand that copyright protects *expression* (code), not *functionality* (algorithm) — a fundamental conceptual error tested in CUET and board case-questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Universal Copyright Convention (UCC) and the Berne Convention on the basis of: (a) formalities required for protection, (b) term of protection, (c) nature of rights guaranteed. Which convention is more creator-friendly and why?",
+     "a": "(a) Berne: automatic protection (no formalities); UCC: requires copyright notice and allows national formalities. (b) Berne: life + 50 years (now life + 60 in India); UCC: life + 25 years. (c) Berne: comprehensive moral + economic rights; UCC: only \"minimum rights\" not conflicting with convention spirit. Berne is more creator-friendly because it removes barriers (formalities), gives longer term, and stronger rights. A wrong answer claiming UCC is stronger reveals confusion between \"minimum standards\" and \"maximum protection.\"",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The TRIPS Agreement made Indian IP law fully compliant with global standards, so no further amendments are needed.\" Use at least two specific examples from post-1995 Indian legislative history to support your position.",
+     "a": "The statement is false. TRIPS set *minimum* standards, not a ceiling. India amended the Patents Act in 2005 (product patents for pharma), the Copyright Act in 2012 (digital rights, performer rights), and enacted the GI Act (1999) and PPVFR Act (2001) — all post-TRIPS. Further, India uses TRIPS flexibilities (compulsory licensing, Sec 3(d) patentability) which require ongoing legislative calibration. A wrong answer agreeing with the statement shows the student treats TRIPS as a static endpoint, not a dynamic floor — a misconception that costs marks in \"critical analysis\" board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical \"IP Audit Checklist\" for a new Indian startup that: (a) creates original video games, (b) uses a distinctive brand name and character designs, (c) develops proprietary game-engine technology. List 5 specific IP assets to identify, the governing Act for each, and whether registration is mandatory.",
+     "a": "1. Game code/script → Copyright Act, 1957 → Registration optional (but evidentiary value). 2. Brand name/logo → Trade Marks Act, 1999 → Registration mandatory for statutory enforcement. 3. Character designs → Designs Act, 2000 → Registration mandatory for protection. 4. Game-engine algorithm → Patents Act, 1970 → Registration mandatory. 5. In-game music/sound → Copyright Act, 1957 → Registration optional. A poor answer missing the Designs Act for character designs or treating all as copyright reveals inability to map creative outputs to correct IP silos — a key competency for case-based questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using only aqueous solutions of [Co(H₂O)₆]²⁺ (pink), concentrated HCl, and a magnetic balance (Gouy balance) to demonstrate that [CoCl₄]²⁻ is tetrahedral and paramagnetic while [Co(H₂O)₆]²⁺ is octahedral and paramagnetic, but with different magnetic moments. Describe the observations and the underlying d-orbital splitting changes.",
      "a": "Add conc. HCl to pink [Co(H₂O)₆]²⁺ (d⁷, octahedral, high-spin t₂g⁵ e_g², 3 unpaired e⁻, μ ≈ 3.87 BM). The solution turns blue due to formation of [CoCl₄]²⁻ (tetrahedral, d⁷ e⁴ t₂³, 3 unpaired e⁻, μ ≈ 4.4–4.8 BM due to orbital contribution). Gouy balance shows increased mass loss (higher μ) for blue solution. The colour change (pink → blue) occurs because Δ_t ≈ 4/9 Δ₀ shifts absorption from green (pink observed) to red (blue observed). A poor answer that only notes colour change without magnetic measurement or orbital splitting explanation misses the core competency: correlating geometry, magnetism, and colour via CFT.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The colour of a coordination complex arises from d-d electronic transitions where visible light is absorbed to promote an electron from the lower-energy t₂g set to the higher-energy e_g set (in octahedral fields) or from e to t₂ (in tetrahedral fields); the observed colour is ______ to the absorbed wavelength.",
+     "a": "complementary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a copper sulphate solution (blue) and a copper sulphate pentahydrate crystal (blue) versus ______ copper sulphate (white) — the colour vanishes when water ligands are removed, proving ligands create the crystal field.",
+     "a": "anhydrous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The magnetic behaviour (paramagnetic or diamagnetic) is determined by the number of unpaired electrons in the d-orbitals of the central metal ion, quantified by the spin-only magnetic moment formula μ = √[n(n+______)] BM, where n is the number of unpaired electrons.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) calculate the spin-only magnetic moment for any given dⁿ configuration in octahedral/tetrahedral fields, distinguishing high-spin vs low-spin cases using the spectrochemical series, (2) predict the colour of a complex from its crystal field splitting parameter Δ₀ and explain the complementary colour relationship, and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a copper sulphate solution (blue) and a copper sulphate ______ crystal (blue) versus anhydrous copper sulphate (white) — the colour vanishes when water ligands are removed, proving ligands create the crystal field.",
+     "a": "pentahydrate",
+     "self_check": true
     }
    ]
   }

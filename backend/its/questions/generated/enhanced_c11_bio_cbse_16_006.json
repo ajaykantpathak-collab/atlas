@@ -34,6 +34,31 @@
      "q": "A CREATE level question: Design a simple classroom investigation using simulated urine samples (prepared by teacher) to demonstrate how dipstick tests detect glucose, protein, and ketones. Specify the chemical principle for each test pad.",
      "a": "Expected answer: Prepare 3 simulated samples: (A) normal (water + NaCl + urea + yellow dye), (B) diabetic (A + 2% glucose), (C) starvation (A + 0.5% acetoacetic acid + trace albumin). Dipstick principles: Glucose — glucose oxidase/peroxidase reaction (color change via chromogen oxidation). Protein — pH indicator (tetrabromophenol blue) shifts color due to protein charge (protein error of indicators). Ketones — nitroprusside reaction (acetoacetate + nitroprusside in alkaline medium → purple). A poor answer uses generic \"color change\" without naming enzymes/reagents, showing lack of biochemical understanding of diagnostic tools.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Urine composition refers to the quantitative and qualitative profile of dissolved solutes (primarily nitrogenous wastes like urea, uric acid, creatinine; electrolytes like Na⁺, K⁺, Cl⁻, HCO₃⁻, phosphate, sulphate; and trace substances) and water excreted by the kidneys, typically appearing as a light yellow, slightly acidic (pH 5.5–6.5), aqueous fluid with ______ odor, whose analysis serves as a diagnostic window into metabolic and renal status.",
+     "a": "characteristic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a routine ______ report from a local pathology lab — notice how a simple \"dipstick test\" reveals glucose, protein, ketones, and blood within minutes.",
+     "a": "urinalysis",
+     "self_check": true
+    },
+    {
+     "q": "What is Urine composition? State the definition given in this lesson.",
+     "a": "Urine composition refers to the quantitative and qualitative profile of dissolved solutes (primarily nitrogenous wastes like urea, uric acid, creatinine; electrolytes like Na⁺, K⁺, Cl⁻, HCO₃⁻, phosphate, sulphate; and trace substances) and water excreted by the kidneys, typically appearing as a light yellow, slightly acidic (pH 5.5–6.5).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Urine composition?",
+     "a": "Students believe that \"urine composition is fixed\" — i.e., the kidney produces urine of constant composition regardless of hydration, diet, or hormonal status.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) list the normal constituents of urine with their typical concentration ranges and daily excretion amounts, (2) explain the physiological basis for the presence or absence of each constituent based on glomerular filtration, tubular reabsorption, and secretion, and (3) interpret abnormal findings (glucose, ketone.",
+     "self_check": true
     }
    ]
   }

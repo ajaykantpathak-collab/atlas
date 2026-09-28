@@ -300,9 +300,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "an = 6 + (10 - 1) * 9"
-   ]
+   "steps_chain": []
   },
   {
    "id": "jemh.5.8",
@@ -388,9 +386,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "an = 5 + (9 - 1) * 2"
-   ]
+   "steps_chain": []
   }
  ]
 }

@@ -34,6 +34,31 @@
      "q": "Create a data set of 6 integers where the median is 15, the mean is 20, but the mode is 10. Explain how you constructed it.",
      "a": "An example data set is: 10, 10, 12, 18, 25, 45. \nVerification: \n- Mode: 10 appears twice (most frequent).\n- Median: The 3rd and 4th terms are 12 and 18, so the median is $(12 + 18) \\div 2 = 15$.\n- Mean: Sum is $10 + 10 + 12 + 18 + 25 + 45 = 120$. Divide by 6: $120 \\div 6 = 20$.\nA poor answer shows arbitrary guessing without verifying all three conditions (mean, median, mode) against the constructed numbers.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Choosing an appropriate ______ value involves analyzing the distribution, spread, and presence of extreme values (outliers) in a data set to decide whether the arithmetic mean, median, or mode best reflects the central tendency.",
+     "a": "representative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the captain of a school ______ team trying to figure out how many runs your star batter, Rahul, scores on average.",
+     "a": "cricket",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Does ______ accurately represent Rahul's typical performance?",
+     "a": "38",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can analyze a given real-world data set containing outliers or varying distributions, select the most appropriate representative value (mean, median, or mode) among the three, justify the choice mathematically, and calculate the chosen value accurately.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are the captain of a school cricket team trying to figure out how many runs your star batter, Rahul, scores on average.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

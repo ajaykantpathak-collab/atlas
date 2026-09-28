@@ -34,6 +34,26 @@
      "q": "Design a one-day complementary feeding schedule for a 7-month-old infant (weight 8 kg) that meets the ICMR RDA for Energy and Protein *from complementary foods alone*, assuming 600 ml breast milk provides 420 kcal and 7 g protein. Use only foods listed in Table 2 (Types of Complementary Foods). Show calculations.",
      "a": "Step 1: Total RDA for 7-mo (6–12 mo column): Energy = 98 × 8 = 784 kcal; Protein = 1.65 × 8 = 13.2 g. Step 2: Subtract breast milk contribution: Complementary foods must supply 784 – 420 = 364 kcal and 13.2 – 7 = 6.2 g protein. Step 3: Select foods from Table 2 (semi-solids): e.g., 50 g cooked rice (170 kcal, 3.5 g protein) + 30 g cooked moong dal (105 kcal, 7 g protein) + 50 g mashed potato (45 kcal, 1 g protein) + 5 ml ghee (45 kcal, 0 g protein) = 365 kcal, 11.5 g protein. Protein % of energy = (11.5×4)/365 ≈ 12.6% (>10% ✓). Meets criteria. A poor answer uses only one food group, ignores protein %, or picks foods not in Table 2 (e.g., commercial cerelac).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ICMR Recommended Dietary Allowances (RDAs) for infants are ______ derived nutrient intake standards (ICMR, 2010) that specify the daily amounts of energy, protein, vitamins, and minerals required to support the rapid growth, development, and metabolic functions of healthy infants aged 0–12 months, categorized into two physiological phases: 0–6 months (exclusive breastfeeding) and 6–12 months (breastfeeding plus complementary feeding), with values expressed per kilogram body weight for energy and protein and as absolute amounts for micronutrients.",
+     "a": "scientifically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ nutrition intern visiting a young mother whose 4-month-old baby weighs 5.8 kg and 9-month-old baby weighs 8.2 kg.",
+     "a": "community",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: She asks, \"How many calories and grams of protein do each of my babies need every day?\" To answer, you first locate the correct ICMR ______ table.",
+     "a": "2010",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can accurately interpret the ICMR 2010 RDA table for infants, calculate the daily energy and protein requirements for a specific infant using body-weight-based formulas, and justify why the requirements per kg body weight decrease from 0–6 months to 6–12 months despite total needs increasing.",
+     "self_check": true
     }
    ]
   }

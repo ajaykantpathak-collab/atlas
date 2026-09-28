@@ -34,6 +34,26 @@
      "q": "Design a recursive function `is_palindrome(s)` that returns True if the string s is a palindrome (reads the same forwards and backwards), ignoring case and non-alphanumeric characters. Provide the base case(s) and recursive step.",
      "a": "```python\ndef is_palindrome(s):\n    s = ''.join(ch.lower() for ch in s if ch.isalnum())\n    if len(s) <= 1:\n        return True\n    if s[0] != s[-1]:\n        return False\n    return is_palindrome(s[1:-1])\n```\nBase cases: empty string or single character -> True. First and last characters differ -> False. Recursive step: check substring without first and last characters. A poor answer (e.g., using a loop, or not handling case/non-alphanumeric) reveals inability to translate a string problem into a recursive reduction and handle preprocessing.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A recursive function is a function that solves a problem by calling itself with a smaller or simpler version of the same problem, ______ until it reaches a base case that can be solved directly without further recursion.",
+     "a": "continuing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of writing a loop, think: \"What if I had a machine that could give me 4!?",
+     "a": "Instead",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Instead of writing a loop, think: \"What if I had a machine that could give me ______!?",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify the base case and recursive case in a given recursive function, trace the execution of a recursive function for a given input (showing the call stack), and write a correct recursive function for a simple mathematical problem (e.g., factorial, sum of first n natural numbers) with proper termination.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Imagine you want to know if mornings are usually windier than afternoons; how would you design your diary entry to test this?",
      "a": "The student should propose recording wind observations at two specific times (morning and afternoon) consistently for several days. A poor answer fails to incorporate the \"consistency\" or \"time-variable\" needed for a fair comparison.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A weather diary is a personal, ongoing log used to record daily atmospheric ______, such as temperature, rainfall, wind, and cloud cover, to help identify long-term weather patterns.",
+     "a": "observations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever noticed that you need a sweater in the morning but feel hot by the ______, or that the wind feels different right before it rains?",
+     "a": "afternoon",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to maintain a daily observation log for one week, correctly recording temperature, wind direction, and cloud cover, and identify at least one simple pattern from their collected data.",
+     "self_check": true
     }
    ]
   }

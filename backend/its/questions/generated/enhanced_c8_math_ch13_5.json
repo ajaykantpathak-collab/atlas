@@ -34,6 +34,21 @@
      "q": "Create an algebraic expression with exactly four terms that includes: (i) a term with coefficient -3 and variable part \\(x^2y\\), (ii) a term with coefficient \\(\\frac{1}{2}\\) and variable part \\(xy\\), (iii) a constant term 7, and (iv) a term with coefficient 4 and variable part \\(y^3\\). Write the expression and then explain how you would identify the terms if the expression were written without spaces.",
      "a": "Expression: \\(-3x^2y + \\frac{1}{2}xy + 4y^3 + 7\\). Terms are identified by the + and – signs that separate them; each term includes its preceding sign. Without spaces, \\(-3x^2y+\\frac{1}{2}xy+4y^3+7\\) still has four terms because the signs act as delimiters. A poor answer might write terms without signs (e.g., \\(3x^2y, \\frac{1}{2}xy, 4y^3, 7\\)) showing the student does not treat the sign as part of the term, which leads to errors when combining like terms later.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An algebraic expression is a ______ of variables, constants, and arithmetic operations.",
+     "a": "combination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a number trick for your friends: \"Think of a number, multiply by 3, add 5, multiply by 2, subtract 10, divide by 6.\" To explain why the trick works, you need to write the algebraic ______ and break it into pieces.",
+     "a": "expression",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can decompose any algebraic expression (including those with multiple variables, powers, fractions, and nested brackets) into its individual terms, correctly identify the coefficient and variable part of each term, distinguish constants from variable terms, and explain how the structure of terms determines whether terms are.",
+     "self_check": true
     }
    ]
   }

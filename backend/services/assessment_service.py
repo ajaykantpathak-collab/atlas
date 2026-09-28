@@ -166,7 +166,14 @@ class AssessmentService:
         section_rows = list(sections_result.scalars().all())
         section_questions: dict[str, dict] = {}
         for section in section_rows:
-            for q in section.questions or []:
+            qs = section.questions or []
+            if isinstance(qs, str):
+                try:
+                    import json as _json
+                    qs = _json.loads(qs)
+                except Exception:
+                    qs = []
+            for q in qs:
                 section_questions[str(q.get("id", ""))] = {
                     "question": q,
                     "section": section,

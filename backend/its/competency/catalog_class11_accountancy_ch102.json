@@ -78,7 +78,7 @@
     "how does expressing physical units in currency enable aggregation of assets",
     "identify transactions excluded under the money measurement postulate"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -90,7 +90,16 @@
      "action": "convert physical quantities to common monetary metrics",
      "explain": "Express heterogeneous physical assets using standard currency units."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "recorded_value = quantity * monetary_unit_price",
+     "compute": "recorded_value = quantity * monetary_unit_price"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.102.2.3",
@@ -144,7 +153,16 @@
      "explain": "Sum the acquisition outlay along with transport, setup, and initial repair expenses.",
      "compute": "total_cost = purchase_price + freight_charge + installation_charge + repair_charge"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_cost = purchase_price + freight_charge + installation_charge + repair_charge",
+     "compute": "total_cost = purchase_price + freight_charge + installation_charge + repair_charge"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.102.2.6",
@@ -169,7 +187,16 @@
      "explain": "Subtract external liabilities from total assets to find owner equity.",
      "compute": "capital = total_assets - total_liabilities"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "capital = total_assets - total_liabilities",
+     "compute": "capital = total_assets - total_liabilities"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.102.2.7",
@@ -186,7 +213,7 @@
     "how does inventory valuation reflect the matching principle",
     "distinguish between cash receipt and accrual of revenue under realisation principle"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -198,7 +225,16 @@
      "action": "align costs to period revenue",
      "explain": "Match costs incurred specifically to generate revenues of that accounting period."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_profit = period_realised_revenue - period_matched_expenses",
+     "compute": "net_profit = period_realised_revenue - period_matched_expenses"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.102.2.11",
@@ -244,7 +280,7 @@
     "which basis of accounting aligns with the matching principle",
     "state the main differences between single and double entry recording"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -256,7 +292,16 @@
      "action": "determine temporal basis of record",
      "explain": "Accrual logs transactions upon occurrence rather than upon liquid cash exchange."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "accrual_profit = earned_revenues - incurred_expenses",
+     "compute": "accrual_profit = earned_revenues - incurred_expenses"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.102.5.1",
@@ -293,7 +338,16 @@
      "explain": "Add CGST and SGST to obtain total tax levied.",
      "compute": "total_gst = cgst_amount + sgst_amount"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_gst = (invoice_amount * cgst_rate / 100) + (invoice_amount * sgst_rate / 100)",
+     "compute": "total_gst = (invoice_amount * cgst_rate / 100) + (invoice_amount * sgst_rate / 100)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.102.5.2",
@@ -318,7 +372,16 @@
      "explain": "Multiply transaction value by applicable IGST percentage rate.",
      "compute": "igst_amount = transaction_value * igst_rate / 100"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "igst_amount = transaction_value * igst_rate / 100",
+     "compute": "igst_amount = transaction_value * igst_rate / 100"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

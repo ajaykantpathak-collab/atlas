@@ -34,6 +34,31 @@
      "q": "Construct a simple 3-sector employment transition diagram for a hypothetical district in 1990 and 2020, showing the flow of workers between sectors. Label the flows with plausible percentages and explain one reason why the flow from primary to tertiary might be larger than primary to secondary.",
      "a": "Expected answer: Diagram with three boxes (Primary, Secondary, Tertiary) for each year. Arrows: Primary 1990 (60%) -> Secondary 2020 (15%) and Primary 1990 -> Tertiary 2020 (30%), with Secondary and Tertiary also having internal retention. Reason: Many displaced agricultural workers lack the vocational skills for factory jobs but can enter low-skill services (delivery, retail, construction) immediately; also, manufacturing units are concentrated in industrial clusters, not every district. A poor answer with no skill/geography reasoning shows inability to link structural change to micro-level labour market frictions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sectoral shift refers to the structural ______ of an economy where the relative contribution of the primary sector (agriculture, mining) to GDP and employment declines, the secondary sector (manufacturing, construction) initially rises then stabilizes, and the tertiary sector (services like banking, IT, transport, trade) becomes the dominant contributor to both output and employment over a long historical period.",
+     "a": "transformation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are looking at your grandfather's village in 1950: most families farmed, a few worked in a local textile mill, and the teacher or postman represented ______.",
+     "a": "services",
+     "self_check": true
+    },
+    {
+     "q": "What is Sectoral shift? State the definition given in this lesson.",
+     "a": "Sectoral shift refers to the structural transformation of an economy where the relative contribution of the primary sector (agriculture, mining) to GDP and employment declines, the secondary sector (manufacturing, construction) initially rises then stabilizes, and the tertiary sector (services like banking, IT, transport, trade) becomes.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are looking at your grandfather's village in ______: most families farmed, a few worked in a local textile mill, and the teacher or postman represented services.",
+     "a": "1950",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can interpret historical GDP and employment share data tables for India (1950-2023), explain why India's sectoral shift bypassed a strong secondary sector expansion, and evaluate the implications for employment generation and policy using the concepts of disguised unemployment and skill requirements.",
+     "self_check": true
     }
    ]
   }

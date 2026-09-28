@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_07_006",
+   "title": "c11_leg_cbse_07_006",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between civil law and criminal law in terms of who initiates the action and the nature of remedy?",
+     "a": "In civil law, the aggrieved individual initiates the action and the remedy is typically compensation, damages, or injunction. In criminal law, the State initiates action on behalf of society and the remedy is punishment (imprisonment, fine, or both). A wrong answer reveals the student confuses the *party* bringing the case (individual vs State) or the *purpose* of the remedy (redress vs punishment).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the same act — say, a builder delaying possession of a flat — can give rise to both civil and criminal proceedings simultaneously.",
+     "a": "The act breaches a private contractual obligation (civil: buyer sues for compensation under RERA or contract law) and may also constitute cheating or criminal breach of trust under IPC Sections 406/420 (criminal: State prosecutes for fraud against society). A wrong answer shows the student thinks legal classifications are mutually exclusive rather than overlapping based on the *nature of the wrong* and *who is harmed*.",
+     "self_check": true
+    },
+    {
+     "q": "A consumer files a complaint in the District Consumer Commission against a hospital for medical negligence. Classify this dispute under: (a) subject matter, (b) scope, (c) jurisdiction — and justify each.",
+     "a": "(a) Subject matter: Civil law — private dispute between consumer and service provider, remedy is compensation. (b) Scope: Procedural law invoked — Consumer Protection Act, 2019 provides the *procedure* (filing, hearing, appeal) to enforce the *substantive* right to safe services. (c) Jurisdiction: Municipal law — domestic dispute under Indian statute, not involving foreign elements. A wrong answer reveals inability to distinguish substantive right (safe healthcare) from procedural mechanism (Consumer Commission process).",
+     "self_check": true
+    },
+    {
+     "q": "Compare Public International Law and Private International Law using the criteria: (i) parties involved, (ii) source of obligation, (iii) enforcement mechanism.",
+     "a": "Public International Law: (i) States/organizations, (ii) treaties/custom, (iii) ICJ, UNSC, reciprocity. Private International Law: (i) private citizens/corporations, (ii) domestic conflict-of-law rules, (iii) domestic courts applying foreign law. A wrong answer shows the student conflates \"international\" with \"between countries\" and misses that Private International Law is *municipal law* dealing with cross-border private disputes.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"Substantive law is more important than procedural law because it defines actual rights.\" Use the Consumer Protection Act, 2019 and CPC, 1908 as examples.",
+     "a": "The statement is flawed — substantive law (e.g., right to defect-free goods under CPA) is meaningless without procedural law (CPA’s 30-day filing, e-filing, video conferencing) to enforce it. Maneka Gandhi v. UOI established that *procedure must be fair, just, reasonable* — making procedural law a constitutional requirement under Article 21. A wrong answer reveals a hierarchical misunderstanding: the student sees procedure as \"technical\" rather than a guarantor of substantive justice.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel legal scenario involving a cross-border data breach affecting Indian users, and classify it under all three classification dimensions with sub-types.",
+     "a": "Scenario: A US-based social media app leaks Indian users' biometric data. Classification: (1) Subject matter: Criminal (IT Act, 2000 Sec 43A/72A — wrongful loss/gain, breach of privacy) AND Civil (users sue for damages under SPDI Rules). (2) Scope: Substantive (right to data privacy under Art 21, IT Act) + Procedural (IT Act Sec 46 adjudication, CPC for civil suit). (3) Jurisdiction: Private International Law (foreign entity, Indian victims — conflict of laws on jurisdiction, applicable law) + Municipal Law (IT Act applies extraterritorially per Sec 75). A poor answer treats this as only one category or misses extraterritorial application of municipal law.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

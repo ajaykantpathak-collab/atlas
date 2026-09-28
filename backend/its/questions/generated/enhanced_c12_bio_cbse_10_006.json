@@ -34,6 +34,31 @@
      "q": "Design a simple field experiment to test whether a local isolate of Bacillus thuringiensis is effective against the diamondback moth (Plutella xylostella) on cabbage. List the key treatments, controls, and measurable parameters.",
      "a": "Treatments: (i) Bt isolate at 3 concentrations (e.g., 10^6, 10^7, 10^8 spores/mL), (ii) commercial Bt formulation (positive control), (iii) water only (negative control). Randomized block design with 3 replicates. Measurable parameters: larval mortality at 24, 48, 72 h; leaf damage index; yield at harvest. A poor answer that omits dose-response, replication, or a proper negative control reveals inability to design a valid biological experiment — a skill required for practical exams and research aptitude.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Microbes as biocontrol agents are ______ (bacteria, fungi, viruses, protozoa) that are deliberately applied to agricultural ecosystems to suppress pest populations — including insects, weeds, and plant pathogens — through specific biological mechanisms such as toxin production, parasitism, competition, or induced host resistance, thereby reducing reliance on synthetic chemical pesticides.",
+     "a": "microorganisms",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer in Punjab spraying a white powder on his cotton crop — it’s not a chemical pesticide but a formulation of Bacillus ______ spores.",
+     "a": "thuringiensis",
+     "self_check": true
+    },
+    {
+     "q": "What is Microbes as biocontrol agents? State the definition given in this lesson.",
+     "a": "Microbes as biocontrol agents are microorganisms (bacteria, fungi, viruses, protozoa) that are deliberately applied to agricultural ecosystems to suppress pest populations — including insects, weeds, and plant pathogens — through specific biological mechanisms such as toxin production, parasitism, competition, or induced host resistance.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Microbes as biocontrol agents?",
+     "a": "Students often think that \"Bacillus thuringiensis\" and \"Bt cotton\" are the same thing.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the mode of action of at least three microbial biocontrol agents (e.g., Bacillus thuringiensis, Trichoderma, baculoviruses) with specific reference to their target pests, and can compare their advantages and limitations relative to chemical pesticides in a tabular format.",
+     "self_check": true
     }
    ]
   }

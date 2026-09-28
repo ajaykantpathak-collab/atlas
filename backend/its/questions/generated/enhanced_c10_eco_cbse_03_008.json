@@ -34,6 +34,31 @@
      "q": "Design a credit product for a seasonal migrant construction worker in Delhi who earns ₹600/day for 8 months/year, has no ID proof in Delhi, and sends ₹8,000/month to his village in UP. Specify: loan amount, repayment frequency, interest rate, collateral substitute, and delivery channel. Justify each feature using concepts from this chapter.",
      "a": "**Product:** \"Migrant Flexi-Loan\" — ₹30,000 limit, repayable in 8 monthly instalments of ₹4,000 (aligned with earning months), 14% p.a. (bank rate + 2% risk premium), collateral substitute = **Aadhaar-linked remittance history** (proof of ₹8,000/month transfer for 6 months), delivered via **BC (Business Correspondent) at worksite** with UPI repayment.  \n**Justification:** Repayment matches cash flow (solves mismatch), remittance history substitutes KYC/collateral (solves documentation), BC channel solves distance, rate is below moneylender's 48% but covers bank's higher risk. A poor answer proposes fixed monthly EMIs year-round — ignores seasonality, the core reason migrants borrow informally.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Informal credit dependence refers to the reliance of low-income households on unregulated, non-______ lenders (moneylenders, traders, landlords, relatives) for loans, characterised by high interest rates (24-60% per annum), absence of collateral documentation, and coercive recovery practices, leading to debt traps where interest payments exceed the principal and borrowers lose productive assets or fall into bonded labour.",
+     "a": "institutional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small farmer in Vidarbha, ______, who needs ₹30,000 for soybean seeds in June.",
+     "a": "Maharashtra",
+     "self_check": true
+    },
+    {
+     "q": "What is Informal credit dependence? State the definition given in this lesson.",
+     "a": "Informal credit dependence refers to the reliance of low-income households on unregulated, non-institutional lenders (moneylenders, traders, landlords, relatives) for loans, characterised by high interest rates (24-60% per annum), absence of collateral documentation, and coercive recovery practices, leading to debt traps where interest.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Informal credit dependence?",
+     "a": "Students think \"poor people prefer informal credit because it's easier/faster\" — confusing preference with exclusion.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain three distinct structural reasons why poor households cannot access formal credit, calculate the effective interest burden difference between a moneylender charging 5% per month and a bank charging 12% per annum on a ₹20,000 loan over 2 years, and evaluate how SHGs and RBI's priority sector lending norms address the.",
+     "self_check": true
     }
    ]
   }

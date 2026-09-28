@@ -34,6 +34,16 @@
      "q": "**CREATE**: Construct a real-world problem (in an Indian context, e.g., finance, population, physics) that leads to a separable differential equation of the form \\(\\frac{dy}{dx} = \\frac{g(x)}{h(y)}\\) where \\(g(x)\\) is a quadratic polynomial and \\(h(y)\\) is a linear function. Write the problem statement, derive the differential equation, and find the general solution.",
      "a": "**Problem**: A spherical balloon is being inflated such that the rate of increase of its volume \\(V\\) (in cm³) with respect to time \\(t\\) (in seconds) is proportional to the square of the radius \\(r\\). Given \\(V = \\frac{4}{3}\\pi r^3\\), derive the differential equation for \\(r(t)\\) and solve it.\n**Derivation**: \\(\\frac{dV}{dt} = k r^2\\). But \\(\\frac{dV}{dt} = \\frac{dV}{dr}\\frac{dr}{dt} = 4\\pi r^2 \\frac{dr}{dt}\\). So \\(4\\pi r^2 \\frac{dr}{dt} = k r^2 \\Rightarrow \\frac{dr}{dt} = \\frac{k}{4\\pi}\\) (constant). That gives linear \\(r\\), not quadratic/linear separable. Let's make a better one.\n**Better Problem**: The rate of cooling of a hot object (Newton's Law of Cooling) is proportional to the temperature difference between the object and the surroundings. If surroundings are at 25°C and the object's temperature is \\(T\\), then \\(\\frac{dT}{dt} = -k(T-25)\\). That's linear/linear. Need quadratic/linear.\n**Created Problem**: A chemical reaction rate is given by \\(\\frac{dx}{dt} = k(a-x)^2\\) where \\(x\\) is amount reacted, \\(a\\) is initial concentration. That's separable with \\(g(x) = k(a-x)^2\\) and \\(h(y)=1\\). Not quadratic in \\(t\\).\n**Final Created Problem**: The marginal cost \\(C'(x)\\) of producing \\(x\\) units of a product is given by \\(C'(x) = \\frac{3x^2 + 2x}{C(x) + 10}\\), where \\(C(x)\\) is the total cost in rupees. Find the general cost function.\n**DE**: \\(\\frac{dC}{dx} = \\frac{3x^2+2x}{C+10} \\Rightarrow (C+10)dC = (3x^2+2x)dx\\).\n**Solution**: \\(\\int (C+10)dC = \\int (3x^2+2x)dx \\Rightarrow \\frac{C^2}{2} + 10C = x^3 + x^2 + K\\).\nThis is a valid example. A good student answer will show correct separation, integration, and interpretation of the constant. A poor answer will either mis-separate (e.g., put \\(C+10\\) in denominator) or forget the constant of integration.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are tracking the growth of a bacterial culture in a lab: the rate of increase of bacteria is ______ to the current population.",
+     "a": "proportional",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Identify whether a given first-order first-degree differential equation is separable.",
+     "self_check": true
     }
    ]
   }

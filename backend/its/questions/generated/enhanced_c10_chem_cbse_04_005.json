@@ -34,6 +34,31 @@
      "q": "Design a step-by-step method to ensure you have drawn ALL structural isomers for a given alkane formula CₙH₂ₙ₊₂ without missing any or drawing duplicates.",
      "a": "Good method:\n1. Draw the straight-chain isomer (n-alkane).\n2. Systematically shorten the main chain by one carbon and place the removed carbon as a methyl branch on the next possible carbon (C-2, then C-3, etc.), ensuring the main chain remains the longest possible.\n3. For each main chain length, try all distinct branch positions (avoid symmetry duplicates by numbering from the end giving lowest locants).\n4. Add two branches (dimethyl) on the same or different carbons, again checking for longest chain and symmetry.\n5. Verify each structure: molecular formula matches, each carbon has 4 bonds, no duplicate (flip/rotate to check).\n6. Count isomers: C₄=2, C₅=3, C₆=5, C₇=9.\nA poor method (random drawing, no system) reveals lack of algorithmic thinking and leads to missing isomers (common in board exams for C₆H₁₄).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Structural isomerism is a phenomenon where two or more carbon compounds have the same molecular formula but differ in the arrangement of carbon atoms (carbon skeleton) or the position of functional groups/______ along the chain, leading to different structural formulas and distinct physical and chemical properties.",
+     "a": "unsaturation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a box of ______ Lego bricks (carbon atoms) and you build two different shapes — a straight tower and a branched tree.",
+     "a": "identical",
+     "self_check": true
+    },
+    {
+     "q": "What is Structural isomerism? State the definition given in this lesson.",
+     "a": "Structural isomerism is a phenomenon where two or more carbon compounds have the same molecular formula but differ in the arrangement of carbon atoms (carbon skeleton) or the position of functional groups/unsaturation along the chain, leading to different structural formulas and distinct physical and chemical properties.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Structural isomerism?",
+     "a": "Students often draw \"false isomers\" by violating tetravalency: e.g., for C₅H₁₂, they draw CH₃-CH₂-C(CH₃)₂-CH₃ (a carbon with 5 bonds: one to CH₂, three to CH₃, and one to CH₃?.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can draw all possible structural isomers for a given molecular formula up to C₅ (alkanes) or C₄ (alkenes/alkynes/alcohols), name them correctly using IUPAC rules, and explain why they have different boiling points despite identical molecular formulas.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_05_006",
+   "title": "c11_app_cbse_05_006",
+   "questions": [
+    {
+     "q": "State the formula for the sum of first n terms of an A.P. with first term 'a' and common difference 'd'. If the first term is 5 and common difference is 3, write the expression for S₁₀ (do not calculate the final value).",
+     "a": "Correct answer: Sₙ = n/2[2a + (n-1)d]. For a=5, d=3, n=10: S₁₀ = 10/2[2(5) + 9(3)] = 5[10+27].\nA wrong answer (e.g., writing Sₙ = n/2[a + (n-1)d] or using aₙ formula) reveals the student has memorized the formula incorrectly — likely confusing the \"2a\" term with just \"a\", or confusing the sum formula with the nth term formula aₙ = a + (n-1)d. This indicates a lack of structural understanding of where the \"2\" comes from (pairing first and last terms).",
+     "self_check": true
+    },
+    {
+     "q": "The sum of first n terms of an A.P. is given by Sₙ = 3n² + 5n. Explain how to find the common difference 'd' of this A.P. WITHOUT finding the first term 'a' explicitly. What is the value of d?",
+     "a": "Correct answer: Since Sₙ is a quadratic in n with no constant term (Sₙ = An² + Bn), the coefficient of n² is d/2. Here 3 = d/2 ⇒ d = 6. Alternatively, aₙ = Sₙ - Sₙ₋₁ = (3n²+5n) - [3(n-1)²+5(n-1)] = 6n+2, which is linear in n with coefficient 6 = d.\nA wrong answer (e.g., trying to find a = S₁ = 8, then a₂ = S₂ - S₁ = 22-8=14, d=6) works but misses the structural insight: **In an A.P., Sₙ is always a quadratic in n with zero constant term, and d = 2 × (coefficient of n²).** If a student cannot explain this, they treat Sₙ as just a formula to plug numbers into, not as a function revealing the progression's parameters.",
+     "self_check": true
+    },
+    {
+     "q": "How many terms of the A.P. 24, 21, 18, 15, ... must be taken so that their sum is 78? Explain why there are two answers and what they mean in the context of the series.",
+     "a": "Correct answer: n = 4 or n = 13.\nSteps: a=24, d=-3, Sₙ=78 ⇒ n/2[48 + (n-1)(-3)] = 78 ⇒ n(51-3n) = 156 ⇒ 3n² - 51n + 156 = 0 ⇒ n² - 17n + 52 = 0 ⇒ (n-4)(n-13)=0.\nInterpretation: Sum of first 4 terms (24+21+18+15) = 78. Sum of first 13 terms = 78 because terms 5 to 13 are negative (12, 9, 6, 3, 0, -3, -6, -9, -12) and cancel out the positive sum of first 4 terms.\nA wrong answer giving only n=4 reveals the student solves the quadratic correctly but fails to interpret the second root. This is the classic \"double answer\" misconception: ignoring that an A.P. with negative d eventually has negative terms that reduce the cumulative sum.",
+     "self_check": true
+    },
+    {
+     "q": "Two A.P.s have the same first term 'a'. The sum of their first n terms are in the ratio (7n+1) : (4n+27). Find the ratio of their 9th terms.",
+     "a": "Correct answer: Ratio of 9th terms = 31 : 19.\nReasoning: Let Sₙ⁽¹⁾/Sₙ⁽²⁾ = (7n+1)/(4n+27). We know Sₙ = n/2[2a + (n-1)d]. The ratio of nth terms aₙ⁽¹⁾/aₙ⁽²⁾ = [2a + (n-1)d₁] / [2a + (n-1)d₂]. This matches the ratio of sums if we replace n by (2n-1) in the sum ratio (since Sₙ ∝ [2a+(n-1)d]). For 9th term, put n=9 in term ratio ⇒ use n' = 2×9-1 = 17 in sum ratio: (7×17+1)/(4×17+27) = 120/95 = 24/19. Wait, check: Sₙ = n/2 × (nth term expression). Actually, aₙ = Sₙ - Sₙ₋₁, but the standard trick: aₙ = (Sₙ for n terms with modified n). Correct method: Sₙ⁽¹⁾/Sₙ⁽²⁾ = [2a₁+(n-1)d₁] / [2a₂+(n-1)d₂] = (7n+1)/(4n+27). For 9th term, we need [a₁+8d₁]/[a₂+8d₂] = [2a₁+16d₁]/[2a₂+16d₂]. This equals the sum ratio with (n-1)=16 ⇒ n=17. So ratio = (7×17+1)/(4×17+27) = 120/95 = 24/19.\nA wrong answer (e.g., putting n=9 directly in sum ratio giving 64/63) reveals the student confuses the ratio of *sums* with the ratio of *terms*. The structural link is: **The nth term is proportional to the sum formula with (n-1) replaced by 2(n-1), i.e., replace n by (2n-1) in the sum ratio.** This tests deep understanding of the linear relationship between aₙ and Sₙ.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If the sum of first p terms of an A.P. equals the sum of first q terms (p ≠ q), then the sum of first (p+q) terms must be zero.\" Evaluate this claim. Is it always true? Prove or give a counterexample.",
+     "a": "Correct answer: The claim is **always true**.\nProof: Given Sₚ = S_q. Using Sₙ = n/2[2a+(n-1)d]:\np/2[2a+(p-1)d] = q/2[2a+(q-1)d]\n⇒ 2a(p-q) + d(p²-p - q²+q) = 0\n⇒ 2a(p-q) + d[(p-q)(p+q) - (p-q)] = 0\n⇒ (p-q)[2a + d(p+q-1)] = 0\nSince p≠q, 2a + d(p+q-1) = 0.\nNow S₍ₚ₊q₎ = (p+q)/2[2a + (p+q-1)d] = (p+q)/2 × 0 = 0.\nA wrong answer (e.g., \"not always true, only if d=0\") reveals the student cannot manipulate the algebraic identity or misses that the condition forces the bracket [2a+(p+q-1)d] to vanish. This tests algebraic reasoning with the sum formula structure.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life word problem (Indian context) where the sum of an A.P. is used to find the *number of terms n*, and the quadratic equation yields two positive integer roots. Explain the physical meaning of both roots in your problem's context.",
+     "a": "Expected answer: Example: \"A construction company penalizes a contractor ₹5000 for the first day of delay, ₹4950 for the second day, ₹4900 for the third day, decreasing by ₹50 each day. If the total penalty paid is ₹31,500, find the number of days delayed.\"\nEquation: a=5000, d=-50, Sₙ=31500 ⇒ n/2[10000 -50(n-1)] = 31500 ⇒ n(20050 -50n) = 63000 ⇒ n² - 401n + 1260 = 0? Wait, let's design properly: a=200, d=-10, Sₙ=1000 ⇒ n/2[400 -10(n-1)]=1000 ⇒ n(410-10n)=2000 ⇒ n² -41n +200=0 ⇒ (n-16)(n-25)=0. n=16 or 25.\nMeaning: Penalty decreases daily. First 16 days sum to 1000. Days 17-25 have negative penalties (i.e., bonuses?) No, penalty can't be negative. Better context: \"A child saves ₹10 on day 1, ₹12 on day 2... increasing by ₹2. When will total savings reach ₹120?\" a=10, d=2, Sₙ=120 ⇒ n/2[20+2(n-1)]=120 ⇒ n(n+9)=120 ⇒ n²+9n-120=0 ⇒ (n+? no). Let's use standard: a=17, d=-2, Sₙ=72 (from NCERT Illus 9). \"A stack of logs has 17 logs in bottom row, 15 in next, decreasing by 2. If total logs = 72, how many rows?\" n=6 or 12. Meaning: 6 rows use 72 logs (17+15+...+7). 12 rows also sum to 72 because rows 7-12 have negative logs? No, logs can't be negative. Physical meaning: The stack *cannot* have 12 rows because row 9 would have 1 log, row 10 would need -1 logs (impossible). So n=6 is the only valid answer. The second root is mathematically valid but physically inadmissible.\nA poor answer (e.g., a problem where both roots make physical sense, or no explanation of the second root) reveals the student cannot distinguish mathematical solutions from contextual validity — a critical skill for board exam \"explain the double answer\" questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

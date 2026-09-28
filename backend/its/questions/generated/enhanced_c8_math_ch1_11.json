@@ -34,6 +34,26 @@
      "q": "Create a 5-digit number that is a perfect cube and has exactly two distinct prime factors. Show its prime factorisation and verify it is a perfect cube.",
      "a": "We need \\( n^3 \\) to be a 5-digit number with exactly two distinct primes. Let \\( n = p^a q^b \\) with primes \\( p, q \\). Then \\( n^3 = p^{3a} q^{3b} \\). Choose small primes 2 and 3. Try \\( n = 2^2 \\times 3 = 12 \\), \\( 12^3 = 1728 \\) (4 digits). \\( n = 2 \\times 3^2 = 18 \\), \\( 18^3 = 5832 \\) (4 digits). \\( n = 2^3 \\times 3 = 24 \\), \\( 24^3 = 13824 \\) (5 digits). Prime factorisation: \\( 13824 = 2^9 \\times 3^3 \\). Exponents 9 and 3 are multiples of 3. Distinct primes: 2 and 3. This works. If a student picks a number like 10000 and cannot factor it correctly, they lack the skill to construct examples meeting multiple constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A perfect cube is an integer that can be ______ as the cube of another integer.",
+     "a": "expressed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have 216 ______ small cubic blocks (each 1 cm³) and you want to arrange them into one large solid cube with no gaps.",
+     "a": "identical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This is exactly the question: is ______ a perfect cube?",
+     "a": "216",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can determine whether a given integer (up to 6 digits) is a perfect cube by using prime factorisation and checking if every prime factor appears in groups of three.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_hin_ga_cbse_10_012",
+ "concepts": [
+  {
+   "id": "enh:c9_hin_ga_cbse_10_012",
+   "title": "c9_hin_ga_cbse_10_012",
+   "questions": [
+    {
+     "q": "पाठ 10 में से एक वस्तुनिष्ठ प्रश्न और एक आशय-सूचक प्रश्न पहचानकर लिखिए। प्रत्येक के लिए बताइए कि आपने उसे उस श्रेणी में क्यों रखा?",
+     "a": "**Correct Answer:**  \nवस्तुनिष्ठ उदाहरण: \"पाठ में नायक का नाम क्या है?\" — उत्तर पाठ में सीधे लिखा है, एक ही सही उत्तर है।  \nआशय-सूचक उदाहरण: \"नायक के निर्णय से लेखक समाज को क्या संदेश देना चाहता है?\" — उत्तर पाठ में सीधे नहीं है; नायक के संवाद, कार्य, और प्रसंग जोड़कर निकालना पड़ेगा।  \n\n**What a wrong answer reveals:** If a student classifies \"नायक ने ऐसा क्यों किया?\" as वस्तुनिष्ठ, they confuse *motivation* (inferred) with *action* (stated). They are hunting for a \"reason sentence\" that doesn't exist — they haven't grasped that आशय requires synthesis, not location.",
+     "self_check": true
+    },
+    {
+     "q": "निम्नलिखित प्रश्न को पढ़कर बताइए: यह वस्तुनिष्ठ है या आशय-सूचक? अपने उत्तर का कारण भी दीजिए।  \n\"पाठ में वर्णित वातावरण नायक की मानसिक स्थिति को कैसे प्रतिबिंबित करता है?\"",
+     "a": "**Correct Answer:** यह **आशय-सूचक** प्रश्न है।  \n**कारण:** पाठ में कोई एक वाक्य नहीं लिखता \"वातावरण नायक की मानसिक स्थिति को ऐसे प्रतिबिंबित करता है।\" उत्तर के लिए छात्र को (1) वातावरण के बिंब (जैसे: अंधेरा, सन्नाटा) पहचानने होंगे, (2) नायक के विचारों/संवादों से उसकी मानसिक स्थिति (जैसे: निराशा, अकेलापन) निकालनी होगी, और (3) दोनों में समानता/संबंध स्थापित करना होगा।  \n\n**What a wrong answer reveals:** If a student says \"वस्तुनिष्ठ क्योंकि वातावरण का वर्णन पाठ में है,\" they are doing **keyword matching** (seeing \"वातावरण\" in text and question) instead of analyzing the *cognitive demand* of the question. They miss that \"कैसे प्रतिबिंबित करता है\" demands a relational explanation, not a factual retrieval.",
+     "self_check": true
+    },
+    {
+     "q": "पाठ 10 के किसी एक प्रसंग का उपयोग करके एक आशय-सूचक प्रश्न का उत्तर **PEEL संरचना (Point, Evidence, Explanation, Link)** में लिखिए।  \n(मान लीजिए प्रश्न है: \"सहायक पात्र का व्यवहार मुख्य विषय को कैसे आगे बढ़ाता है?\")",
+     "a": "**Correct Answer (Sample PEEL structure):**  \n**Point:** सहायक पात्र का मौन प्रतिरोध मुख्य विषय 'व्यक्तिगत स्वतंत्रता बनाम सामाजिक दबाव' को मूर्त करता है।  \n**Evidence:** पाठ के तीसरे अनुच्छेद में जब मुखिया फैसला सुनाता है, सहायक पात्र \"सिर झुकाकर खड़ा रहता है, पर आँखों में एक अजीब-सी चमक होती है\" (पैराफ्रेस्ड)।  \n**Explanation:** यह शारीरिक भाषा (सिर झुकाना = बाहरी समर्पण, आँखों की चमक = आंतरिक विद्रोह) दर्शाती है कि दमन के बावजूद आत्मा मुक्त है — यही मुख्य विषय का केंद्र है।  \n**Link:** इस प्रकार, सहायक पात्र का व्यवहार कथानक को आगे बढ़ाने के साथ-साथ विषय को सार्वभौमिक आयाम देता है।  \n\n**What a wrong answer reveals:** A student writing only \"सहायक पात्र चुप रहता है पर उसकी आँखें बोलती हैं\" stops at Evidence. They miss **Explanation** (connecting evidence to theme) and **Link** (showing thematic significance). This is the classic \"quote dumping\" error — treating analysis as citation.",
+     "self_check": true
+    },
+    {
+     "q": "पाठ 10 से दो वस्तुनिष्ठ प्रश्नों की तुलना कीजिए: एक जो **तथ्य-आधारित** है (जैसे: \"कौन, कब, कहाँ\") और एक जो **क्रम-आधारित** है (जैसे: \"पहले क्या हुआ, फिर क्या?\")। दोनों के उत्तर देने की रणनीति में क्या अंतर है?",
+     "a": "**Correct Answer:**  \n**तथ्य-आधारित (उदाहरण: \"नायक का गाँव कौन-सा है?\"):** रणनीति = **स्कैनिंग (Scanning)**। कीवर्ड (\"गाँव\") ढूंढें, उस वाक्य को पढ़ें, उत्तर निकालें। क्रम irrelevant है।  \n**क्रम-आधारित (उदाहरण: \"नायक के गाँव छोड़ने से पहले की तीन घटनाएँ क्रमानुसार लिखिए\"):** रणनीति = **सीक्वेंसिंग (Sequencing)**। पूरे प्रसंग को पढ़कर घटनाओं को समय-रेखा पर रखें, फिर क्रम लिखें। यहाँ स्कैनिंग फेल होगी क्योंकि जानकारी बिखरी है।  \n\n**What a wrong answer reveals:** If a student uses scanning for sequencing (\"मैं 'गाँव' शब्द ढूंढकर पढ़ लूंगा\"), they will miss causal links and chronological order. They treat all वस्तुनिष्ठ questions as \"find the keyword\" tasks, not realizing **क्रम-आधारित questions test structural understanding of the narrative**, not just factual recall.",
+     "self_check": true
+    },
+    {
+     "q": "एक छात्र ने आशय-सूचक प्रश्न का उत्तर देते हुए पाठ के तीन अलग-अलग उद्धरण दिए, लेकिन कोई व्याख्या नहीं लिखी। शिक्षक ने अंक काट लिए। आप उस छात्र को क्या समझाएंगे कि उद्धरण देना पर्याप्त क्यों नहीं है? बोर्ड परीक्षा की अपेक्षा के संदर्भ में समझाइए।",
+     "a": "**Correct Answer:**  \nबोर्ड परीक्षा में आशय-सूचक प्रश्न **'विश्लेषण' (Analysis)** कौशल जांचते हैं, न कि 'उद्धरण स्मृति' (Quote Memory)। उद्धरण केवल **साक्ष्य (Evidence)** है — वह आपके दावे (Point) का समर्थन करता है। बिना **व्याख्या (Explanation)** के, परीक्षक नहीं जान पाता कि *आप* उस उद्धरण को प्रश्न के आशय से कैसे जोड़ते हैं।  \nउदाहरण: यदि प्रश्न है \"लेखक ने विरोधाभास का प्रयोग क्यों किया?\" और छात्र केवल विरोधाभास वाली पंक्तियाँ लिख दे, तो उसने यह नहीं बताया कि *उस विरोधाभास से क्या प्रभाव उत्पन्न होता है*।  \n**बोर्ड अपेक्षा:** Point → Evidence → **Explanation (Effect/Meaning)** → Link to Theme. Explanation वह चरण है जहाँ आपके अंक बनते हैं।  \n\n**What a wrong answer reveals:** If a student says \"लेकिन मैम, पाठ में तो यही लिखा है,\" they view the text as the answer key, not as raw material for argument. They haven't internalized that **board exams test *their* thinking, not the textbook's wording**.",
+     "self_check": true
+    },
+    {
+     "q": "पाठ 10 के मुख्य विषय को ध्यान में रखते हुए एक **मूल आशय-सूचक प्रश्न** बनाइए जिसका उत्तर देने के लिए कम से कम दो अलग-अलग प्रसंगों के साक्ष्य जोड़ने पड़ें। फिर उस प्रश्न का संक्षिप्त उत्तर रूपरेखा (outline) दीजिए।",
+     "a": "**Created Question:** \"पाठ में 'परंपरा' और 'व्यक्तिगत इच्छा' के संघर्ष को लेखक ने किन दो प्रसंगों के माध्यम से उभारा है? दोनों प्रसंगों के साक्ष्यों का उपयोग करके समझाइए।\"  \n\n**Outline Answer:**  \n1. **Point:** दो प्रसंग — (अ) नायक का विवाह-प्रसंग, (ब) नायक का गाँव छोड़ने का निर्णय।  \n2. **Evidence 1 (प्रसंग अ):** परिवार के दबाव में नायक की चुप्पी बनाम मन में उठते प्रश्न (आंतरिक द्वंद्व)।  \n3. **Evidence 2 (प्रसंग ब):** नायक का सामान बांधते समय माँ का मौन आशीर्वाद — परंपरा का लचीलापन।  \n4. **Explanation:** प्रसंग अ में संघर्ष बाह्य (समाज vs व्यक्ति) है; प्रसंग ब में आंतरिक समाधान (परंपरा स्वयं व्यक्ति को मुक्त करती है)।  \n5. **Link:** लेखक दर्शाता है कि परंपरा और व्यक्ति शत्रु नहीं, पूरक हो सकते हैं — यही पाठ का केंद्रीय आशय है।  \n\n**What a poor answer reveals:** A question like \"नायक दुखी क्यों है?\" (single scene, single emotion) or an outline that lists quotes without **comparative Explanation** shows the student cannot design multi-evidence synthesis — the hallmark of high-order आशय-सूचक questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

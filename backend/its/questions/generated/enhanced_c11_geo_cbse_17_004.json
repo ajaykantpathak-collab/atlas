@@ -34,6 +34,36 @@
      "q": "Design a 3-indicator dashboard to monitor urbanisation quality (not just quantity) for a state government. Justify each indicator.",
      "a": "Good answer: (1) *Slum household %* (Census/NFHS) — captures housing deprivation. (2) *Per capita water supply (lpcd) vs. 135 lpcd norm* — captures service delivery. (3) *PM2.5 annual mean* — captures environmental sustainability. Justification: These reflect SDG 11 (sustainable cities). Poor answer: \"urbanisation level, growth rate, number of towns\" — only measures quantity, repeating the error in Q5.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Urbanisation in India is the process of increasing proportion of a country's population living in urban areas, driven by rural-to-urban migration, natural increase, and ______ of rural settlements, resulting in structural transformation of the economy from agrarian to industrial and service-based activities.",
+     "a": "reclassification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your own city or nearest town: new apartment complexes replacing farms, traffic jams at 8 AM, water tankers in summer, and ______ along railway tracks without toilets.",
+     "a": "settlements",
+     "self_check": true
+    },
+    {
+     "q": "What is Urbanisation in India? State the definition given in this lesson.",
+     "a": "Urbanisation in India is the process of increasing proportion of a country's population living in urban areas, driven by rural-to-urban migration, natural increase, and reclassification of rural settlements, resulting in structural transformation of the economy from agrarian to industrial and service-based activities.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your own city or nearest town: new apartment complexes replacing farms, traffic jams at ______ AM, water tankers in summer, and settlements along railway tracks without toilets.",
+     "a": "8",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Urbanisation in India?",
+     "a": "Students equate \"urbanisation\" with \"metropolitanisation\" — thinking India's urbanisation is only about Mumbai, Delhi, Kolkata growing.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can calculate urbanisation level and growth rate from Census data, explain the push-pull factors causing urbanisation with Indian examples, and evaluate the severity of urban problems (slums, infrastructure deficit, environmental degradation) using spatial and temporal evidence.",
+     "self_check": true
     }
    ]
   }

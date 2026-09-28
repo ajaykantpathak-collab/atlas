@@ -34,6 +34,26 @@
      "q": "Design a minimal network for a pop-up medical camp in a rural village with no internet connectivity. The camp has: 1 doctor's laptop, 3 nurse tablets, 1 portable ultrasound machine with Ethernet port, 1 label printer. Requirements: (a) Doctor views ultrasound images on laptop in real time. (b) Nurses enter patient data on tablets saved to doctor's laptop. (c) Labels printed wirelessly. Draw a labelled diagram (text description acceptable) and specify: topology, addressing method, and one protocol used for each requirement.",
      "a": "Diagram (star topology): All devices connect to a battery-powered wireless router (switch + AP). Doctor's laptop = 192.168.1.10 (static). Nurse tablets = DHCP (192.168.1.20-22). Ultrasound = 192.168.1.30 (static). Printer = 192.168.1.40 (static). Protocols: (a) Real-time video: RTP over UDP (low latency). (b) Data entry: HTTP/HTTPS to a lightweight local web server on doctor's laptop (or SMB file share). (c) Printing: IPP (Internet Printing Protocol) over IP. A poor answer that says \"Bluetooth for everything\" ignores bandwidth/range limits for ultrasound video and shows inability to match protocol to requirement — a skill tested in board competency questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A computer network is a collection of ______ computing devices (nodes) that can communicate with each other and share resources such as data, applications, and hardware.",
+     "a": "interconnected",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ on a project with three classmates.",
+     "a": "working",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Define a computer network using precise terminology (nodes, links, protocols, resources) and explain the three core needs it addresses (resource sharing, communication, distributed processing) with one real-world example each.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are working on a project with three ______.",
+     "a": "classmates",
+     "self_check": true
     }
    ]
   }

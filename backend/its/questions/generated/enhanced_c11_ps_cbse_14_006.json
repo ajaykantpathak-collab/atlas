@@ -34,6 +34,26 @@
      "q": "Draft a hypothetical Bill title and one-line subject description for EACH of the four bill types that would TEST the boundary of classification. Explain why each is a borderline case.",
      "a": "(1) Ordinary Bill borderline: \"The Regulation of Online Content and Digital Taxation Bill, 2024\" - mixes general regulation (ordinary) with taxation (money). Tests whether \"incidental\" taxation makes it Money Bill. (2) Money Bill borderline: \"The Consolidated Fund Charged Expenditure (Salaries of Constitutional Authorities) Bill, 2024\" - only charges salaries on Consolidated Fund. Tests whether \"charged expenditure alone\" without appropriation qualifies under Article 110(1)(e). (3) Financial Bill borderline: \"The National Infrastructure Development and Funding Bill, 2024\" - creates infrastructure fund (financial) but also sets technical standards (ordinary). Tests Article 117(1) vs 117(3) distinction. (4) Amendment Bill borderline: \"The Constitution (Amendment of Preamble) Bill, 2024\" - amends Preamble only. Tests whether Preamble amendment requires state ratification (Basic Structure doctrine). Good answer shows understanding of classification boundaries; poor answer gives clear-cut examples missing the \"test the boundary\" requirement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Bill is a draft legislative proposal that becomes law after passage by both Houses of Parliament and ______ assent.",
+     "a": "presidential",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're reading a news headline: \"______ introduces Bill to amend GST rates\" - your first civic question should be: \"What TYPE of bill is this?\" because the answer determines whether Rajya Sabha can block it, whether the President can return it, and whether states must ratify it.",
+     "a": "Government",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"Does this bill ONLY deal with taxes, borrowing, or the Consolidated Fund?\" If yes, it's a Money Bill (Article ______) - Lok Sabha dominates.",
+     "a": "110",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly classify any given legislative proposal into one of the four bill types by identifying its subject matter, cite the correct constitutional article governing its passage, explain the distinct parliamentary procedure for each type (especially the Rajya Sabha's limited role in Money Bills), and predict the outcome when.",
+     "self_check": true
     }
    ]
   }

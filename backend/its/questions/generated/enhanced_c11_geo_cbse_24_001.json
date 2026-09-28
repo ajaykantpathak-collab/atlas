@@ -34,6 +34,26 @@
      "q": "Design a workflow for a disaster management team to quickly identify all 1:50,000 toposheets covering a flood-affected district spanning 3,600 km² in Assam, given only the district boundary coordinates. Specify the SOI numbering steps and any digital tools needed.",
      "a": "Step 1: Obtain district boundary as polygon (lat/long). Step 2: Overlay SOI 1:50K grid (15'×15') using GIS (QGIS/ArcGIS) or SOI's online index. Step 3: Query grid cells intersecting polygon → list sheet numbers (e.g., 83C/1, 83C/2, 83D/3...). Step 4: Verify coverage by calculating each sheet's extent at that latitude (longitudinal km varies). Step 5: Cross-check with 1:250K index (83C, 83D) for adjacency. Step 6: Export sheet list for procurement. A poor answer omits the latitude-dependent longitudinal distance calculation or assumes a fixed km² per sheet, revealing ignorance of map projection distortions covered in the sibling chapter (c11_geo_cbse_24_008).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A topographical map is a detailed, large-scale ______ of a small portion of the Earth's surface showing both natural features (relief, drainage, vegetation) and cultural features (settlements, transport, boundaries) using standardized symbols, where elevation is depicted through contour lines at regular vertical intervals.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are planning a trek in the Western Ghats near Kudremukh, ______.",
+     "a": "Karnataka",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can decode any SOI toposheet number (e.g., 45D/10) to identify its scale, parent 1:1M sheet, 1:250K sub-sheet, and 1:50K quadrant, and explain the geographic coverage (latitudinal/longitudinal extent) of each scale in the Indian context.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are planning a trek in the Western Ghats near ______, Karnataka.",
+     "a": "Kudremukh",
+     "self_check": true
     }
    ]
   }

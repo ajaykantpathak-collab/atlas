@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_13_004",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_13_004",
+   "title": "c12_leg_cbse_13_004",
+   "questions": [
+    {
+     "q": "What single category of legal practitioners was created by the Advocates Act, 1961, replacing all previous categories like vakils, barristers, pleaders, and mukhtars?",
+     "a": "The Advocates Act, 1961 created a single unified category called \"advocate\" (Section 2(a)). A wrong answer (e.g., \"senior advocate\" or \"barrister\") reveals the student doesn't grasp the Act's core consolidation purpose — it abolished the colonial-era hierarchy of practitioners and created one class with uniform rights to practice in all courts across India.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why an LL.B. graduate cannot immediately file a vakalatnama in the Supreme Court after enrolling with a State Bar Council.",
+     "a": "Even after enrolment, the graduate must clear the All India Bar Examination (AIBE) to get a Certificate of Practice. Only an Advocate-on-Record (AOR) — who has 4 years' practice + 1 year training under a Senior AOR + passes the Supreme Court's AOR exam — can file vakalatnamas in the Supreme Court. A wrong answer reveals confusion between \"enrolment\" (State Bar Council) and \"right to practice\" (AIBE clearance) and the special AOR requirement for the Supreme Court.",
+     "self_check": true
+    },
+    {
+     "q": "Meera, an advocate enrolled with the Delhi Bar Council, wants to advertise her services on Instagram with client testimonials and case results. She argues the Bar Council's advertising rules violate her Article 19(1)(g) right. Apply the Bar Council of India Rules to evaluate her claim.",
+     "a": "Meera's claim fails. Rule 36 of BCI Rules strictly prohibits advertising/solicitation — only 5 details allowed on websites: name, contact, enrolment details, qualifications, practice areas. No testimonials, case results, or social media promotion. The Supreme Court has upheld this restriction as reasonable under Article 19(6) to maintain professional dignity. A wrong answer shows the student doesn't know the specific permitted information list or the constitutional validity precedent.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the disciplinary jurisdiction of the Bar Council of India versus a State Bar Council. Which body hears appeals from the other?",
+     "a": "State Bar Councils have original disciplinary jurisdiction over advocates on their roll (Section 35). The Bar Council of India has appellate jurisdiction over State Bar Council decisions (Section 37) and original jurisdiction for advocates not on any State roll. The BCI also sets the disciplinary procedure for all State Bar Councils (Section 48B). A wrong answer (e.g., \"BCI has original jurisdiction over all\") reveals misunderstanding of the federal structure of legal profession regulation.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The Senior Advocate designation under Section 16 of the Advocates Act is merely an honorific title with no practical restrictions on practice.\"",
+     "a": "This is false. Senior Advocates face significant practice restrictions: cannot appear without an Advocate-on-Record in SC or a junior in other courts, cannot file vakalatnamas, cannot draft pleadings/affidavits, cannot accept direct client instructions. These restrictions (BCI Rules, Chapter III) exist to ensure Senior Advocates focus on complex advocacy, not routine work. A wrong answer shows the student misses the functional rationale behind the designation — it's not a promotion but a role change with trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step compliance checklist for a foreign law graduate (LL.B. from UK) who wants to practice law in India. Include all regulatory hurdles: degree recognition, enrolment, AIBE, and any reciprocity requirements.",
+     "a": "Checklist: (1) Verify UK university is on BCI's recognised foreign degrees list (reciprocity basis). (2) Apply for enrolment to State Bar Council with degree, age proof, citizenship proof, character certificate. (3) State Bar Council forwards to BCI for degree equivalence confirmation. (4) If approved, enrol on State roll. (5) Clear AIBE within 2 years of enrolment. (6) Get Certificate of Practice. (7) Can practice in all courts except SC filing (needs AOR separately). A poor answer misses the BCI's prior approval requirement for foreign degrees or the AIBE mandate for foreign graduates.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

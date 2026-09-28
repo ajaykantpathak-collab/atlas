@@ -22,15 +22,33 @@
     "find the sum of the like terms in the expression",
     "what is the coefficient of x squared in the given expression"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "count the unlike terms",
-     "explain": "One unlike term is a monomial, two a binomial, three a trinomial."},
-    {"step": 2, "action": "spot the like terms",
-     "explain": "Terms with identical variable parts can merge."},
-    {"step": 3, "action": "combine carefully",
-     "explain": "Add or subtract only the coefficients of like terms, keeping signs."}
-   ]
+    {
+     "step": 1,
+     "action": "count the unlike terms",
+     "explain": "One unlike term is a monomial, two a binomial, three a trinomial."
+    },
+    {
+     "step": 2,
+     "action": "spot the like terms",
+     "explain": "Terms with identical variable parts can merge."
+    },
+    {
+     "step": 3,
+     "action": "combine carefully",
+     "explain": "Add or subtract only the coefficients of like terms, keeping signs."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 6 + 6 gives 24",
+     "compute": "val = 3 * 6 + 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hemh.108.8.2",
@@ -50,9 +68,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "multiply the coefficients",
+    {
+     "step": 1,
+     "action": "multiply the coefficients",
      "explain": "The numeric parts multiply first.",
-     "compute": "product = coef1 * coef2"}
+     "compute": "product = coef1 * coef2"
+    }
    ]
   },
   {
@@ -71,15 +92,33 @@
     "simplify a times (a + b)",
     "find the area of a rectangular garden with sides the given monomial and binomial"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "multiply the first inside term",
-     "explain": "The monomial multiplies the first term of the bracket."},
-    {"step": 2, "action": "multiply the remaining terms",
-     "explain": "Each term inside receives the monomial."},
-    {"step": 3, "action": "write the sum",
-     "explain": "The products add to give the expanded expression."}
-   ]
+    {
+     "step": 1,
+     "action": "multiply the first inside term",
+     "explain": "The monomial multiplies the first term of the bracket."
+    },
+    {
+     "step": 2,
+     "action": "multiply the remaining terms",
+     "explain": "Each term inside receives the monomial."
+    },
+    {
+     "step": 3,
+     "action": "write the sum",
+     "explain": "The products add to give the expanded expression."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 4 + 2 gives 14",
+     "compute": "val = 3 * 4 + 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hemh.108.8.4",
@@ -97,15 +136,33 @@
     "multiply binomials and combine like terms",
     "what four products arise in multiplying two binomials"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "distribute the first binomial",
-     "explain": "Multiply each of its terms by the whole second binomial."},
-    {"step": 2, "action": "expand fully",
-     "explain": "Four products appear from the two-plus-two terms."},
-    {"step": 3, "action": "combine like terms",
-     "explain": "Merge the middle terms to finish the product."}
-   ]
+    {
+     "step": 1,
+     "action": "distribute the first binomial",
+     "explain": "Multiply each of its terms by the whole second binomial."
+    },
+    {
+     "step": 2,
+     "action": "expand fully",
+     "explain": "Four products appear from the two-plus-two terms."
+    },
+    {
+     "step": 3,
+     "action": "combine like terms",
+     "explain": "Merge the middle terms to finish the product."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 9 + 6 gives 33",
+     "compute": "val = 3 * 9 + 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hemh.108.8.5",
@@ -125,12 +182,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "square the two parts",
+    {
+     "step": 1,
+     "action": "square the two parts",
      "explain": "Compute a squared plus b squared.",
-     "compute": "sq_terms = a * a + b * b"},
-    {"step": 2, "action": "add twice the product",
+     "compute": "sq_terms = a * a + b * b"
+    },
+    {
+     "step": 2,
+     "action": "add twice the product",
      "explain": "The identity completes the square of the sum.",
-     "compute": "value = sq_terms + 2 * a * b"}
+     "compute": "value = sq_terms + 2 * a * b"
+    }
    ]
   }
  ],
@@ -146,9 +209,12 @@
     "coef2": "coefficient of the second monomial"
    },
    "solution_template": [
-    {"step": 1, "action": "multiply the coefficients",
+    {
+     "step": 1,
+     "action": "multiply the coefficients",
      "explain": "Numerical parts multiply; powers of x add.",
-     "compute": "product = coef1 * coef2"}
+     "compute": "product = coef1 * coef2"
+    }
    ]
   },
   {
@@ -162,9 +228,12 @@
     "coef2": "second coefficient"
    },
    "solution_template": [
-    {"step": 1, "action": "multiply the coefficients",
+    {
+     "step": 1,
+     "action": "multiply the coefficients",
      "explain": "The product's coefficient is the product of the coefficients.",
-     "compute": "product = coef1 * coef2"}
+     "compute": "product = coef1 * coef2"
+    }
    ]
   },
   {
@@ -178,12 +247,18 @@
     "b": "smaller part"
    },
    "solution_template": [
-    {"step": 1, "action": "square the parts",
+    {
+     "step": 1,
+     "action": "square the parts",
      "explain": "a squared plus b squared.",
-     "compute": "sq_terms = a * a + b * b"},
-    {"step": 2, "action": "add twice the product",
+     "compute": "sq_terms = a * a + b * b"
+    },
+    {
+     "step": 2,
+     "action": "add twice the product",
      "explain": "2ab finishes the identity.",
-     "compute": "value = sq_terms + 2 * a * b"}
+     "compute": "value = sq_terms + 2 * a * b"
+    }
    ]
   },
   {
@@ -197,12 +272,18 @@
     "b": "value of b"
    },
    "solution_template": [
-    {"step": 1, "action": "square the parts",
+    {
+     "step": 1,
+     "action": "square the parts",
      "explain": "Compute both squares.",
-     "compute": "sq_terms = a * a + b * b"},
-    {"step": 2, "action": "add twice the product",
+     "compute": "sq_terms = a * a + b * b"
+    },
+    {
+     "step": 2,
+     "action": "add twice the product",
      "explain": "The cross term completes it.",
-     "compute": "value = sq_terms + 2 * a * b"}
+     "compute": "value = sq_terms + 2 * a * b"
+    }
    ]
   }
  ],
@@ -211,27 +292,27 @@
    "id": "ex8.1",
    "source_ref": "hemh108.txt EXERCISE 8.1-8.2",
    "questions": [
-     "Add the given pairs of algebraic expressions.",
-     "Subtract the second expression from the first.",
-     "Identify the like terms in the given expressions."
+    "Add the given pairs of algebraic expressions.",
+    "Subtract the second expression from the first.",
+    "Identify the like terms in the given expressions."
    ]
   },
   {
    "id": "ex8.2",
    "source_ref": "hemh108.txt EXERCISE 8.3-8.4",
    "questions": [
-     "Find the product of the given monomials.",
-     "Multiply the monomial by the given binomial.",
-     "Simplify the products and find the values at the given points."
+    "Find the product of the given monomials.",
+    "Multiply the monomial by the given binomial.",
+    "Simplify the products and find the values at the given points."
    ]
   },
   {
    "id": "ex8.3",
    "source_ref": "hemh108.txt EXERCISE 8.5",
    "questions": [
-     "Multiply the given binomials and verify with a numerical example.",
-     "Use the identities to find the squares and products asked.",
-     "Simplify (a + b)(a - b) for the given values."
+    "Multiply the given binomials and verify with a numerical example.",
+    "Use the identities to find the squares and products asked.",
+    "Simplify (a + b)(a - b) for the given values."
    ]
   }
  ]

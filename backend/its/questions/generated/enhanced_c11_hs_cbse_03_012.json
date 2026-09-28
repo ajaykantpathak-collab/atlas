@@ -34,6 +34,36 @@
      "q": "Design a one-page “Iron-Rich Tiffin Box” guide for a 16-year-old vegetarian boy who carries lunch to school, using only foods from the five ICMR food groups. The guide must: (a) provide ≥8 mg bioavailable iron (assume 8% bioavailability with enhancers), (b) include at least one vitamin C source, (c) be culturally acceptable in North India, and (d) fit in a standard 3-compartment tiffin. List items with raw weights and justify each choice.",
      "a": "Example solution: Compartment 1 (Cereal): 60 g whole wheat flour chapati (2.5 mg Fe) + 10 g soybean flour blended (1.5 mg Fe) = 4 mg Fe. Compartment 2 (Pulse + Vegetable): 30 g raw sprouted moong dal (2.8 mg Fe) cooked with 50 g spinach (1.4 mg Fe) + 5 g lemon juice added after cooking (vitamin C enhancer) = 4.2 mg Fe. Compartment 3 (Fruit): 100 g guava (0.3 mg Fe + 228 mg vitamin C) = 0.3 mg Fe. Total dietary iron = 8.5 mg; with 8% bioavailability (due to sprouting, vitamin C, fermentation) → 0.68 mg absorbed, contributing significantly to daily need. A poor answer that omits vitamin C, uses only one food group, or ignores raw-weight calculations shows inability to translate nutrient requirements into practical meal planning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Adolescent anaemia is a condition characterised by haemoglobin concentration below the age- and sex-specific WHO cut-off values (girls 12–14 years: <11.5 g/dL; girls 15–19 years: <12.0 g/dL; boys 12–14 years: <11.5 g/dL; boys 15–19 years: <13.0 g/dL), resulting predominantly from iron deficiency exacerbated by the accelerated growth spurt, menstrual losses in girls, inadequate dietary iron intake, poor ______, and concurrent infections such as helminthiasis.",
+     "a": "bioavailability",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 15-year-old girl in your neighbourhood who feels exhausted after climbing one flight of stairs, looks pale, and has been ______ school frequently.",
+     "a": "missing",
+     "self_check": true
+    },
+    {
+     "q": "What is Adolescent anaemia? State the definition given in this lesson.",
+     "a": "Adolescent anaemia is a condition characterised by haemoglobin concentration below the age- and sex-specific WHO cut-off values (girls 12–14 years: <11.5 g/dL; girls 15–19 years: <12.0 g/dL; boys 12–14 years: <11.5 g/dL; boys 15–19 years: <13.0 g/dL), resulting predominantly from iron deficiency exacerbated by the accelerated growth.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______-year-old girl in your neighbourhood who feels exhausted after climbing one flight of stairs, looks pale, and has been missing school frequently.",
+     "a": "15",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Adolescent anaemia?",
+     "a": "Students often believe that “eating spinach (palak) daily is enough to prevent anaemia” because it is famously high in iron.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) interpret NFHS prevalence data to compare anaemia burden across age, sex, and socioeconomic groups; (2) explain the physiological mechanisms linking adolescent growth spurt, menarche, and dietary iron bioavailability to the development of iron-deficiency anaemia; (3) design a context-specific prevention.",
+     "self_check": true
     }
    ]
   }

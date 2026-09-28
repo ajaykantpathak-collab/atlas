@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a cathode ray tube to demonstrate that cathode rays carry momentum and can do mechanical work.",
      "a": "Place a lightweight paddle wheel (mica vanes) on rails inside the tube in the path of cathode rays. When rays strike the vanes, the wheel rotates, moving away from cathode. This shows rays have momentum (mass × velocity) and can transfer kinetic energy. A poor answer (e.g., \"heat the tube\") reveals inability to connect particle properties to macroscopic mechanical effects.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The electron is a ______ subatomic particle carrying a unit negative charge (-1.602 × 10⁻¹⁹ C) and negligible mass (9.109 × 10⁻³¹ kg), discovered through cathode ray experiments where streams of particles travel from cathode to anode in a discharge tube at low pressure and high voltage.",
+     "a": "fundamental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe an old television or computer monitor (CRT type) — the screen glows when ______ strike the phosphorescent coating.",
+     "a": "electrons",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the cathode ray experiment setup, list the properties of cathode rays that led to the conclusion they are negatively charged particles (electrons), and describe how J.J.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe an old television or computer monitor (CRT type) — the screen glows when electrons strike the ______ coating.",
+     "a": "phosphorescent",
+     "self_check": true
     }
    ]
   }

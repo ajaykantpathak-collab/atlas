@@ -34,6 +34,36 @@
      "q": "Design a loop algorithm (in plain English or pseudocode) to solve this problem: \"A ball is dropped from a height of 100 metres. After each bounce, it rises to 60% of its previous height. Calculate the total distance travelled by the ball until it rises less than 1 metre.\" Identify the initialization, condition, update, and body. Explain why this problem requires a loop rather than a formula.",
      "a": "Algorithm:\n1. Initialize `height = 100`, `total_distance = 100` (first drop).\n2. Condition: `while height * 0.6 >= 1:`.\n3. Body: `height = height * 0.6`; `total_distance = total_distance + 2 * height` (up and down).\n4. Update is embedded in the body (`height` changes).\n5. After loop, print `total_distance`.\nThis requires a loop because the number of bounces is not known in advance — it depends on the dynamic condition `height * 0.6 >= 1`. A closed-form formula would require solving `100 * (0.6)^n < 1` for integer n, which is possible but more complex; the loop directly models the physical process. A poor answer that writes a fixed `for` loop (e.g., `for i in range(10)`) shows the student forces definite iteration on an inherently indefinite problem.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Iteration is the process of ______ executing a block of statements until a specified condition becomes false, allowing a program to automate repetitive tasks without writing the same code multiple times.",
+     "a": "repeatedly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to send a personalized Diwali greeting to 500 ______ on your phone.",
+     "a": "contacts",
+     "self_check": true
+    },
+    {
+     "q": "What is Iteration? State the definition given in this lesson.",
+     "a": "Iteration is the process of repeatedly executing a block of statements until a specified condition becomes false, allowing a program to automate repetitive tasks without writing the same code multiple times.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to send a personalized Diwali greeting to ______ contacts on your phone.",
+     "a": "500",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Iteration?",
+     "a": "Students often believe that the loop condition is checked after the loop body executes (like a do-while loop in other languages).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the three essential components of any loop (initialization, condition, update) and correctly predict how many times a given loop will execute by tracing the loop variable values.",
+     "self_check": true
     }
    ]
   }

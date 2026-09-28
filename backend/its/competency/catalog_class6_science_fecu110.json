@@ -57,7 +57,7 @@
     "where is the food stored in a seed",
     "why is warmth needed for germination"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -74,7 +74,16 @@
      "action": "sum up",
      "explain": "Give the overall picture in one sentence."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "germination = seed + air + water + warmth",
+     "compute": "germination = seed + air + water + warmth"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fecu.10.3",
@@ -92,7 +101,7 @@
     "compare the life cycles of a plant and a frog",
     "what would happen if living beings did not reproduce"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -109,7 +118,16 @@
      "action": "sum up",
      "explain": "Give the overall picture in one sentence."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "cycle = birth + growth + reproduction",
+     "compute": "cycle = birth + growth + reproduction"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fecu.10.4",

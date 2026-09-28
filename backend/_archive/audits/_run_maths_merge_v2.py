@@ -11,8 +11,8 @@ import re
 from pathlib import Path
 
 API_KEYS = [
-    "sk-ant-co-QsK1rhxdfRWZ65OJ5cVxaAZ5ISNUY0lK",
-    "sk-ant-co-gIEUzRWw_mtUpxKk668B1lzJe3XntCna",
+    "<redacted>",
+    "<redacted>",
 ]
 API_URL = "https://api.claudeopus.pro/v1/messages"
 MODEL = "claude-opus-5"

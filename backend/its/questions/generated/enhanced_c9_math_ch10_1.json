@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch10_1",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch10_1",
+   "title": "c9_math_ch10_1",
+   "questions": [
+    {
+     "q": "Name the geometric figure represented by each: (i) The edge of a ruler from the 2 cm mark to the 8 cm mark. (ii) Sunlight coming through a small hole in a curtain. (iii) Three dots marked on a curved wire.",
+     "a": "(i) Line segment — it has two fixed endpoints (2 cm and 8 cm marks). (ii) Ray — it starts at the hole (initial point) and travels infinitely in one direction. (iii) Non-collinear points — they lie on a curved wire, so no single straight line passes through all three. A wrong answer like calling (ii) a line segment reveals the student thinks a ray has a second endpoint; calling (iii) collinear reveals they confuse \"lying on a curve\" with \"lying on a straight line\".",
+     "self_check": true
+    },
+    {
+     "q": "Explain why $\\overrightarrow{AB}$ and $\\overrightarrow{BA}$ are different rays, but $\\overline{AB}$ and $\\overline{BA}$ represent the same line segment.",
+     "a": "$\\overrightarrow{AB}$ has initial point A and extends infinitely through B; $\\overrightarrow{BA}$ has initial point B and extends infinitely through A — they point in opposite directions (opposite rays). $\\overline{AB}$ and $\\overline{BA}$ both consist of exactly the same set of points between A and B, so they are identical; length and midpoint are unchanged. A wrong answer claiming they are the same ray shows the student ignores the initial point; claiming the segments are different shows they think order of endpoints changes the segment.",
+     "self_check": true
+    },
+    {
+     "q": "Points A, B, C lie on a line such that B is between A and C. If AB = 3.5 cm and BC = 4.2 cm, find AC. Then state whether A, B, C are collinear and justify.",
+     "a": "Since B lies between A and C on the same line, AC = AB + BC = 3.5 + 4.2 = 7.7 cm. Yes, A, B, C are collinear because they all lie on the same straight line (given B is between A and C on that line). A wrong answer like AC = |3.5 − 4.2| = 0.7 cm reveals the student incorrectly applies the \"difference of segments\" rule meant for when a point lies outside the segment; not justifying collinearity reveals they treat it as a definition rather than a condition to verify.",
+     "self_check": true
+    },
+    {
+     "q": "In the figure, line l passes through points P and Q. Point R is marked not on line l. A student says: \"P, Q, R are collinear because I can draw a line through P and R, and another through Q and R.\" Identify the flaw in this reasoning.",
+     "a": "Collinear means a **single** straight line passes through **all three** points simultaneously. The student draws two different lines (PR and QR), which only proves each pair is collinear pairwise — not that all three lie on one line. Since R is not on line l (which contains P and Q), no single line contains P, Q, and R. A wrong answer accepting the student's reasoning reveals the confusion between \"pairwise collinear\" (always true for any two points) and \"collinear as a set of three\" (requires one common line).",
+     "self_check": true
+    },
+    {
+     "q": "A classmate draws $\\overrightarrow{XY}$ and labels the initial point as Y and the arrow pointing towards X. Is this correct? If not, correct the notation and explain the error.",
+     "a": "Incorrect. The notation $\\overrightarrow{XY}$ means initial point is X and the ray extends through Y. If the initial point is Y and it extends through X, the correct notation is $\\overrightarrow{YX}$. The error is reversing the order of letters — the first letter must always be the initial point. A wrong answer saying \"it's fine, order doesn't matter\" reveals the student treats ray notation like segment notation, ignoring directionality.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life scenario (different from the walkthrough) involving a ray, a line segment, and three collinear points. Draw a rough sketch and label all parts with proper geometric notation.",
+     "a": "Example: A straight railway track — the track from station A to station B is $\\overline{AB}$ (line segment); the beam of the train's headlight starting at the engine (point E) and going forward is $\\overrightarrow{EF}$ (ray); three signal poles P, Q, R standing exactly along the straight track are collinear points. A good answer includes a labelled sketch, correct notation ($\\overline{AB}$, $\\overrightarrow{EF}$, P, Q, R on one line), and distinct contexts for each. A poor answer uses the same object for all three or draws non-collinear points for the collinear example, showing they cannot distinguish the concepts in a novel setting.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

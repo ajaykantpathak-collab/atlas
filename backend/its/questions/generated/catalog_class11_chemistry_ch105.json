@@ -1,0 +1,252 @@
+{
+ "catalog": "catalog_class11_chemistry_ch105.json",
+ "concepts": [
+  {
+   "id": "jech.5.2",
+   "title": "Surroundings, Work, Heat and Energy",
+   "converted_to_compute": true,
+   "formula": "delta_E = q + w",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "delta_E = q + w",
+     "compute": "delta_E = q + w"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Surroundings, Work, Heat and Energy: given q = 68, w = 9.1, find delta E.",
+     "a": "77.1",
+     "self_check": false
+    },
+    {
+     "q": "For Surroundings, Work, Heat and Energy: given q = 25, w = 88, find delta E.",
+     "a": "113",
+     "self_check": false
+    },
+    {
+     "q": "For Surroundings, Work, Heat and Energy: given q = 31, w = 56, find delta E.",
+     "a": "87",
+     "self_check": false
+    },
+    {
+     "q": "For Surroundings, Work, Heat and Energy: given q = 86, w = 19.9, find delta E.",
+     "a": "105.9",
+     "self_check": false
+    },
+    {
+     "q": "For Surroundings, Work, Heat and Energy: given q = 29, w = 88, find delta E.",
+     "a": "117",
+     "self_check": false
+    },
+    {
+     "q": "For Surroundings, Work, Heat and Energy: given q = 77, w = 15.4, find delta E.",
+     "a": "92.4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jech.5.4",
+   "title": "First Law of Thermodynamics (Internal Energy and Enthalpy)",
+   "converted_to_compute": true,
+   "formula": "delta_U = q + w; H = U + PV",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "delta_U = q + w",
+     "compute": "delta_U = q + w"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "H = U + PV",
+     "compute": "H = U + PV"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For First Law of Thermodynamics (Internal Energy and Enthalpy): given q = 3.7, w = 13.5, U = 77, PV = 36, find H.",
+     "a": "113",
+     "self_check": false
+    },
+    {
+     "q": "For First Law of Thermodynamics (Internal Energy and Enthalpy): given q = 92, w = 88, U = 58, PV = 10.4, find H.",
+     "a": "68.4",
+     "self_check": false
+    },
+    {
+     "q": "For First Law of Thermodynamics (Internal Energy and Enthalpy): given q = 94, w = 63, U = 10.1, PV = 17.9, find H.",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "For First Law of Thermodynamics (Internal Energy and Enthalpy): given q = 14.2, w = 48, U = 42, PV = 90, find H.",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "For First Law of Thermodynamics (Internal Energy and Enthalpy): given q = 0.8, w = 11.5, U = 60, PV = 31, find H.",
+     "a": "91",
+     "self_check": false
+    },
+    {
+     "q": "For First Law of Thermodynamics (Internal Energy and Enthalpy): given q = 37, w = 73, U = 41, PV = 44, find H.",
+     "a": "85",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jech.5.6",
+   "title": "Measurement of Delta U and Delta H",
+   "converted_to_compute": true,
+   "formula": "delta_U = C_cal * delta_T; delta_H = delta_U + delta_n_gas * 8.314 * T",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "delta_U = C_cal * delta_T",
+     "compute": "delta_U = C_cal * delta_T"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "delta_H = delta_U + delta_n_gas * 8.314 * T",
+     "compute": "delta_H = delta_U + delta_n_gas * 8.314 * T"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Measurement of Delta U and Delta H: given C_cal = 93, delta_T = 82, delta_n_gas = 17.5, T = 73, find delta H.",
+     "a": "18247.1",
+     "self_check": false
+    },
+    {
+     "q": "For Measurement of Delta U and Delta H: given C_cal = 84, delta_T = 37, delta_n_gas = 5, T = 54, find delta H.",
+     "a": "5352.78",
+     "self_check": false
+    },
+    {
+     "q": "For Measurement of Delta U and Delta H: given C_cal = 62, delta_T = 22, delta_n_gas = 19.3, T = 34, find delta H.",
+     "a": "6819.65",
+     "self_check": false
+    },
+    {
+     "q": "For Measurement of Delta U and Delta H: given C_cal = 63, delta_T = 17.1, delta_n_gas = 15, T = 87, find delta H.",
+     "a": "11927.1",
+     "self_check": false
+    },
+    {
+     "q": "For Measurement of Delta U and Delta H: given C_cal = 74, delta_T = 118, delta_n_gas = 17, T = 78, find delta H.",
+     "a": "19756.4",
+     "self_check": false
+    },
+    {
+     "q": "For Measurement of Delta U and Delta H: given C_cal = 13.4, delta_T = 59, delta_n_gas = 11.4, T = 99, find delta H.",
+     "a": "10173.8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jech.5.8",
+   "title": "Enthalpy of Bond Dissociation, Combustion, Formation and Atomization",
+   "converted_to_compute": true,
+   "formula": "delta_H_rxn = sum_bonds_broken - sum_bonds_formed",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "delta_H_rxn = sum_bonds_broken - sum_bonds_formed",
+     "compute": "delta_H_rxn = sum_bonds_broken - sum_bonds_formed"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Enthalpy of Bond Dissociation, Combustion, Formation and Atomization: given sum_bonds_broken = 57, sum_bonds_formed = 28, find delta H rxn.",
+     "a": "29",
+     "self_check": false
+    },
+    {
+     "q": "For Enthalpy of Bond Dissociation, Combustion, Formation and Atomization: given sum_bonds_broken = 90, sum_bonds_formed = 7.1, find delta H rxn.",
+     "a": "82.9",
+     "self_check": false
+    },
+    {
+     "q": "For Enthalpy of Bond Dissociation, Combustion, Formation and Atomization: given sum_bonds_broken = 73, sum_bonds_formed = 71, find delta H rxn.",
+     "a": "2",
+     "self_check": false
+    },
+    {
+     "q": "For Enthalpy of Bond Dissociation, Combustion, Formation and Atomization: given sum_bonds_broken = 6.8, sum_bonds_formed = 81, find delta H rxn.",
+     "a": "-74.2",
+     "self_check": false
+    },
+    {
+     "q": "For Enthalpy of Bond Dissociation, Combustion, Formation and Atomization: given sum_bonds_broken = 78, sum_bonds_formed = 4.6, find delta H rxn.",
+     "a": "73.4",
+     "self_check": false
+    },
+    {
+     "q": "For Enthalpy of Bond Dissociation, Combustion, Formation and Atomization: given sum_bonds_broken = 49, sum_bonds_formed = 33, find delta H rxn.",
+     "a": "16",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jech.5.10",
+   "title": "Gibbs Energy Change and Spontaneity; Third Law of Thermodynamics",
+   "converted_to_compute": true,
+   "formula": "delta_G = delta_H - T * delta_S",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "delta_G = delta_H - T * delta_S",
+     "compute": "delta_G = delta_H - T * delta_S"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Gibbs Energy Change and Spontaneity; Third Law of Thermodynamics: given delta_H = 50, T = 70, delta_S = 20, find delta G.",
+     "a": "-1350",
+     "self_check": false
+    },
+    {
+     "q": "For Gibbs Energy Change and Spontaneity; Third Law of Thermodynamics: given delta_H = 82, T = 0.7, delta_S = 35, find delta G.",
+     "a": "57.5",
+     "self_check": false
+    },
+    {
+     "q": "For Gibbs Energy Change and Spontaneity; Third Law of Thermodynamics: given delta_H = 28, T = 33, delta_S = 87, find delta G.",
+     "a": "-2843",
+     "self_check": false
+    },
+    {
+     "q": "For Gibbs Energy Change and Spontaneity; Third Law of Thermodynamics: given delta_H = 51, T = 95, delta_S = 24, find delta G.",
+     "a": "-2229",
+     "self_check": false
+    },
+    {
+     "q": "For Gibbs Energy Change and Spontaneity; Third Law of Thermodynamics: given delta_H = 63, T = 88, delta_S = 92, find delta G.",
+     "a": "-8033",
+     "self_check": false
+    },
+    {
+     "q": "For Gibbs Energy Change and Spontaneity; Third Law of Thermodynamics: given delta_H = 69, T = 80, delta_S = 88, find delta G.",
+     "a": "-6971",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

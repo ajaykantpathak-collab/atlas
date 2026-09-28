@@ -1,34 +1,332 @@
 {
- "catalog": "catalog_class12_accountancy_leac205",
+ "catalog": "catalog_class12_accountancy_leac205.json",
  "concepts": [
   {
    "id": "leac.205.5.1",
    "title": "Meaning and Groups of Accounting Ratios",
+   "converted_to_compute": true,
+   "formula": "ratio_groups = liquidity_ratios + solvency_ratios + activity_ratios + profitability_ratios",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ratio_groups = liquidity_ratios + solvency_ratios + activity_ratios + profitability_ratios",
+     "compute": "ratio_groups = liquidity_ratios + solvency_ratios + activity_ratios + profitability_ratios"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Meaning and Groups of Accounting Ratios', work with: activity_ratios = 200, liquidity_ratios = 24, profitability_ratios = 50000, solvency_ratios = 5. Carry the chain through step by step and give the final value of ratio_groups.",
-     "a": "50229 times",
+     "q": "For Meaning and Groups of Accounting Ratios: given liquidity_ratios = 9.5, solvency_ratios = 12.2, activity_ratios = 1.9, profitability_ratios = 50, find ratio groups.",
+     "a": "73.6",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Meaning and Groups of Accounting Ratios' and work with: activity_ratios = 18, liquidity_ratios = 18, profitability_ratios = 80000, solvency_ratios = 5. Carry the chain through step by step and give the final value of ratio_groups.",
-     "a": "80041 times",
+     "q": "For Meaning and Groups of Accounting Ratios: given liquidity_ratios = 94, solvency_ratios = 29, activity_ratios = 6.6, profitability_ratios = 31, find ratio groups.",
+     "a": "160.6",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Meaning and Groups of Accounting Ratios' refers to.",
-     "a": "A ratio sets one statement figure against another to expose their relationship; the family splits into liquidity ratios (short-term paying ability), solvency ratios (long-term debt cover), activity or turnover ratios (speed of using assets) and profitability ratios (earning capacity).",
-     "self_check": true
+     "q": "For Meaning and Groups of Accounting Ratios: given liquidity_ratios = 14.4, solvency_ratios = 19.8, activity_ratios = 14, profitability_ratios = 21, find ratio groups.",
+     "a": "69.2",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Meaning and Groups of Accounting Ratios'.",
-     "a": "Every ratio is just a division, but each division answers one specific question about the business.",
-     "self_check": true
+     "q": "For Meaning and Groups of Accounting Ratios: given liquidity_ratios = 11.6, solvency_ratios = 13.8, activity_ratios = 84, profitability_ratios = 49, find ratio groups.",
+     "a": "158.4",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Meaning and Groups of Accounting Ratios', in plain ASCII form.",
-     "a": "ratio_groups = liquidity_ratios + solvency_ratios + activity_ratios + profitability_ratios",
-     "self_check": true
+     "q": "For Meaning and Groups of Accounting Ratios: given liquidity_ratios = 72, solvency_ratios = 1.6, activity_ratios = 96, profitability_ratios = 40, find ratio groups.",
+     "a": "209.6",
+     "self_check": false
+    },
+    {
+     "q": "For Meaning and Groups of Accounting Ratios: given liquidity_ratios = 15, solvency_ratios = 76, activity_ratios = 79, profitability_ratios = 60, find ratio groups.",
+     "a": "230",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leac.205.6.1",
+   "title": "Current Ratio",
+   "converted_to_compute": true,
+   "formula": "current_ratio = current_assets / current_liabilities",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "current_ratio = current_assets / current_liabilities",
+     "compute": "current_ratio = current_assets / current_liabilities"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Current Ratio: given current_assets = 111, current_liabilities = 2.8, find current ratio.",
+     "a": "39.6429",
+     "self_check": false
+    },
+    {
+     "q": "For Current Ratio: given current_assets = 95, current_liabilities = 40, find current ratio.",
+     "a": "2.375",
+     "self_check": false
+    },
+    {
+     "q": "For Current Ratio: given current_assets = 75, current_liabilities = 73, find current ratio.",
+     "a": "1.0274",
+     "self_check": false
+    },
+    {
+     "q": "For Current Ratio: given current_assets = 112, current_liabilities = 72, find current ratio.",
+     "a": "1.55556",
+     "self_check": false
+    },
+    {
+     "q": "For Current Ratio: given current_assets = 103, current_liabilities = 107, find current ratio.",
+     "a": "0.962617",
+     "self_check": false
+    },
+    {
+     "q": "For Current Ratio: given current_assets = 25, current_liabilities = 22, find current ratio.",
+     "a": "1.13636",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leac.205.6.2",
+   "title": "Quick or Liquid Ratio",
+   "converted_to_compute": true,
+   "formula": "quick_ratio = (current_assets - inventories - prepaid_expenses) / current_liabilities",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "quick_ratio = (current_assets - inventories - prepaid_expenses) / current_liabilities",
+     "compute": "quick_ratio = (current_assets - inventories - prepaid_expenses) / current_liabilities"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Quick or Liquid Ratio: given current_assets = 39, inventories = 56, prepaid_expenses = 75, current_liabilities = 70, find quick ratio.",
+     "a": "-1.31429",
+     "self_check": false
+    },
+    {
+     "q": "For Quick or Liquid Ratio: given current_assets = 78, inventories = 40, prepaid_expenses = 72, current_liabilities = 48, find quick ratio.",
+     "a": "-0.708333",
+     "self_check": false
+    },
+    {
+     "q": "For Quick or Liquid Ratio: given current_assets = 9.2, inventories = 14.6, prepaid_expenses = 40, current_liabilities = 36, find quick ratio.",
+     "a": "-1.26111",
+     "self_check": false
+    },
+    {
+     "q": "For Quick or Liquid Ratio: given current_assets = 84, inventories = 7.1, prepaid_expenses = 61, current_liabilities = 23, find quick ratio.",
+     "a": "0.691304",
+     "self_check": false
+    },
+    {
+     "q": "For Quick or Liquid Ratio: given current_assets = 60, inventories = 49, prepaid_expenses = 9, current_liabilities = 76, find quick ratio.",
+     "a": "0.0263158",
+     "self_check": false
+    },
+    {
+     "q": "For Quick or Liquid Ratio: given current_assets = 33, inventories = 85, prepaid_expenses = 79, current_liabilities = 90, find quick ratio.",
+     "a": "-1.45556",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leac.205.7.1",
+   "title": "Debt-Equity Ratio",
+   "converted_to_compute": true,
+   "formula": "debt_equity_ratio = long_term_debts / shareholders_funds",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "debt_equity_ratio = long_term_debts / shareholders_funds",
+     "compute": "debt_equity_ratio = long_term_debts / shareholders_funds"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Debt-Equity Ratio: given long_term_debts = 3.2, shareholders_funds = 79, find debt equity ratio.",
+     "a": "0.0405063",
+     "self_check": false
+    },
+    {
+     "q": "For Debt-Equity Ratio: given long_term_debts = 74, shareholders_funds = 94, find debt equity ratio.",
+     "a": "0.787234",
+     "self_check": false
+    },
+    {
+     "q": "For Debt-Equity Ratio: given long_term_debts = 19.9, shareholders_funds = 90, find debt equity ratio.",
+     "a": "0.221111",
+     "self_check": false
+    },
+    {
+     "q": "For Debt-Equity Ratio: given long_term_debts = 20, shareholders_funds = 85, find debt equity ratio.",
+     "a": "0.235294",
+     "self_check": false
+    },
+    {
+     "q": "For Debt-Equity Ratio: given long_term_debts = 58, shareholders_funds = 50, find debt equity ratio.",
+     "a": "1.16",
+     "self_check": false
+    },
+    {
+     "q": "For Debt-Equity Ratio: given long_term_debts = 18.2, shareholders_funds = 24, find debt equity ratio.",
+     "a": "0.758333",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leac.205.8.3",
+   "title": "Trade Payables Turnover Ratio",
+   "converted_to_compute": true,
+   "formula": "payables_turnover_ratio = net_credit_purchases / average_trade_payables",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "payables_turnover_ratio = net_credit_purchases / average_trade_payables",
+     "compute": "payables_turnover_ratio = net_credit_purchases / average_trade_payables"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Trade Payables Turnover Ratio: given net_credit_purchases = 15.2, average_trade_payables = 118, find payables turnover ratio.",
+     "a": "0.128814",
+     "self_check": false
+    },
+    {
+     "q": "For Trade Payables Turnover Ratio: given net_credit_purchases = 70, average_trade_payables = 29, find payables turnover ratio.",
+     "a": "2.41379",
+     "self_check": false
+    },
+    {
+     "q": "For Trade Payables Turnover Ratio: given net_credit_purchases = 47, average_trade_payables = 59, find payables turnover ratio.",
+     "a": "0.79661",
+     "self_check": false
+    },
+    {
+     "q": "For Trade Payables Turnover Ratio: given net_credit_purchases = 36, average_trade_payables = 111, find payables turnover ratio.",
+     "a": "0.324324",
+     "self_check": false
+    },
+    {
+     "q": "For Trade Payables Turnover Ratio: given net_credit_purchases = 37, average_trade_payables = 102, find payables turnover ratio.",
+     "a": "0.362745",
+     "self_check": false
+    },
+    {
+     "q": "For Trade Payables Turnover Ratio: given net_credit_purchases = 86, average_trade_payables = 47, find payables turnover ratio.",
+     "a": "1.82979",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leac.205.9.3",
+   "title": "Operating Profit Ratio",
+   "converted_to_compute": true,
+   "formula": "operating_profit_ratio = 100 - operating_ratio",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "operating_profit_ratio = 100 - operating_ratio",
+     "compute": "operating_profit_ratio = 100 - operating_ratio"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Operating Profit Ratio: given operating_ratio = 38, find operating profit ratio.",
+     "a": "62",
+     "self_check": false
+    },
+    {
+     "q": "For Operating Profit Ratio: given operating_ratio = 3.8, find operating profit ratio.",
+     "a": "96.2",
+     "self_check": false
+    },
+    {
+     "q": "For Operating Profit Ratio: given operating_ratio = 47, find operating profit ratio.",
+     "a": "53",
+     "self_check": false
+    },
+    {
+     "q": "For Operating Profit Ratio: given operating_ratio = 23, find operating profit ratio.",
+     "a": "77",
+     "self_check": false
+    },
+    {
+     "q": "For Operating Profit Ratio: given operating_ratio = 18, find operating profit ratio.",
+     "a": "82",
+     "self_check": false
+    },
+    {
+     "q": "For Operating Profit Ratio: given operating_ratio = 83, find operating profit ratio.",
+     "a": "17",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leac.205.9.9",
+   "title": "Dividend Payout Ratio",
+   "converted_to_compute": true,
+   "formula": "dividend_payout_ratio = dividend_per_share / earnings_per_share * 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "dividend_payout_ratio = dividend_per_share / earnings_per_share * 100",
+     "compute": "dividend_payout_ratio = dividend_per_share / earnings_per_share * 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Dividend Payout Ratio: given dividend_per_share = 93, earnings_per_share = 22, find dividend payout ratio.",
+     "a": "422.727",
+     "self_check": false
+    },
+    {
+     "q": "For Dividend Payout Ratio: given dividend_per_share = 27, earnings_per_share = 18.8, find dividend payout ratio.",
+     "a": "143.617",
+     "self_check": false
+    },
+    {
+     "q": "For Dividend Payout Ratio: given dividend_per_share = 91, earnings_per_share = 85, find dividend payout ratio.",
+     "a": "107.059",
+     "self_check": false
+    },
+    {
+     "q": "For Dividend Payout Ratio: given dividend_per_share = 86, earnings_per_share = 86, find dividend payout ratio.",
+     "a": "100",
+     "self_check": false
+    },
+    {
+     "q": "For Dividend Payout Ratio: given dividend_per_share = 80, earnings_per_share = 70, find dividend payout ratio.",
+     "a": "114.286",
+     "self_check": false
+    },
+    {
+     "q": "For Dividend Payout Ratio: given dividend_per_share = 66, earnings_per_share = 55, find dividend payout ratio.",
+     "a": "120",
+     "self_check": false
     }
    ]
   },
@@ -59,99 +357,6 @@
     {
      "q": "Write the standard relation used for 'Advantages and Limitations of Ratio Analysis', in plain ASCII form.",
      "a": "ratio_usefulness = simplification_and_comparison - historical_and_judgement_bias",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leac.205.6.1",
-   "title": "Current Ratio",
-   "questions": [
-    {
-     "q": "Calculate the current ratio from the given items. Use the method 'Current Ratio'. Work with: cash_and_equivalents = 20, inventories = 150, prepaid_expenses = 5000, short_term_borrowings = 500, short_term_provisions = 45, trade_payables = 100, trade_receivables = 40. Carry the chain through step by step and give the final value of current_ratio.",
-     "a": "8.0775 times",
-     "self_check": false
-    },
-    {
-     "q": "Find the ratio of current assets to current liabilities. Use the method 'Current Ratio'. Work with: cash_and_equivalents = 100, inventories = 18, prepaid_expenses = 50000, short_term_borrowings = 80, short_term_provisions = 360, trade_payables = 10, trade_receivables = 100. Carry the chain through step by step and give the final value of current_ratio.",
-     "a": "111.5956 times",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Current Ratio' refers to.",
-     "a": "The current ratio divides all current assets by all current liabilities to show how many rupees of near-cash resources stand behind each rupee of near-term obligation, with two to one read as a comfortable norm.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Current Ratio'.",
-     "a": "Inventories, receivables, cash, prepaid and advance items all count on top; payables, short-term borrowings and short-term provisions all count below.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Current Ratio', in plain ASCII form.",
-     "a": "current_ratio = current_assets / current_liabilities",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leac.205.6.2",
-   "title": "Quick or Liquid Ratio",
-   "questions": [
-    {
-     "q": "Calculate the quick ratio from the given items. Use the method 'Quick or Liquid Ratio'. Work with: current_assets = 80000, current_liabilities = 3, inventories = 80, prepaid_expenses = 500. Carry the chain through step by step and give the final value of quick_ratio.",
-     "a": "26473.3333 times",
-     "self_check": false
-    },
-    {
-     "q": "Find the acid test ratio after excluding inventories. Use the method 'Quick or Liquid Ratio'. Work with: current_assets = 8000, current_liabilities = 3, inventories = 40, prepaid_expenses = 500. Carry the chain through step by step and give the final value of quick_ratio.",
-     "a": "2486.6667 times",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Quick or Liquid Ratio' refers to.",
-     "a": "The quick ratio strips the least liquid current assets -- inventories and prepayments such as prepaid expenses and advance tax -- out of current assets before dividing by current liabilities, giving a sterner acid-test of paying ability around the one-to-one norm.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Quick or Liquid Ratio'.",
-     "a": "Only assets that convert to cash quickly may face the short-term bills; stock that must first be sold does not.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Quick or Liquid Ratio', in plain ASCII form.",
-     "a": "quick_ratio = (current_assets - inventories - prepaid_expenses) / current_liabilities",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leac.205.7.1",
-   "title": "Debt-Equity Ratio",
-   "questions": [
-    {
-     "q": "Calculate the debt equity ratio from a balance sheet. Use the method 'Debt-Equity Ratio'. Work with: long_term_borrowings = 120, long_term_provisions = 80, money_against_warrants = 12, other_long_term_liabilities = 400, reserves_and_surplus = 18, share_capital = 0.3. Carry the chain through step by step and give the final value of debt_equity_ratio.",
-     "a": "19.802 times",
-     "self_check": false
-    },
-    {
-     "q": "Find the proportion of long-term debt to shareholders funds. Use the method 'Debt-Equity Ratio'. Work with: long_term_borrowings = 30, long_term_provisions = 80, money_against_warrants = 30, other_long_term_liabilities = 4, reserves_and_surplus = 4, share_capital = 0.6. Carry the chain through step by step and give the final value of debt_equity_ratio.",
-     "a": "3.2948 times",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Debt-Equity Ratio' refers to.",
-     "a": "The debt-equity ratio divides long-term debts by shareholders' funds to show how much of the permanent financing came from outsiders; about two to one is the usual comfort line, and a smaller figure means more security for lenders.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Debt-Equity Ratio'.",
-     "a": "Borrowings plus long-term liabilities and provisions go on top; share capital, reserves, warrant money and pending application money go below.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Debt-Equity Ratio', in plain ASCII form.",
-     "a": "debt_equity_ratio = long_term_debts / shareholders_funds",
      "self_check": true
     }
    ]
@@ -281,37 +486,6 @@
    ]
   },
   {
-   "id": "leac.205.8.3",
-   "title": "Trade Payables Turnover Ratio",
-   "questions": [
-    {
-     "q": "Calculate the trade payables turnover ratio. Use the method 'Trade Payables Turnover Ratio'. Work with: closing_trade_payables = 120, net_credit_purchases = 5000, opening_trade_payables = 5. Carry the chain through step by step and give the final value of payables_turnover_ratio.",
-     "a": "80 times",
-     "self_check": false
-    },
-    {
-     "q": "Find the average payment period allowed by suppliers. Use the method 'Trade Payables Turnover Ratio'. Work with: closing_trade_payables = 45, net_credit_purchases = 20000, opening_trade_payables = 5. Carry the chain through step by step and give the final value of payables_turnover_ratio.",
-     "a": "800 times",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Trade Payables Turnover Ratio' refers to.",
-     "a": "The trade payables turnover ratio divides net credit purchases by average trade payables to show how fast the firm settles its suppliers, and the period length over the ratio gives the average payment period.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Trade Payables Turnover Ratio'.",
-     "a": "A very low ratio can mean generous supplier credit -- or delayed payments that damage the firm's reputation.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Trade Payables Turnover Ratio', in plain ASCII form.",
-     "a": "payables_turnover_ratio = net_credit_purchases / average_trade_payables",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "leac.205.8.4",
    "title": "Capital Employed Turnover Ratio",
    "questions": [
@@ -400,37 +574,6 @@
     {
      "q": "Write the standard relation used for 'Operating Ratio', in plain ASCII form.",
      "a": "operating_ratio = (cost_of_revenue_from_operations + operating_expenses) / revenue_from_operations * 100",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leac.205.9.3",
-   "title": "Operating Profit Ratio",
-   "questions": [
-    {
-     "q": "Calculate the operating profit ratio from the operating ratio. Use the method 'Operating Profit Ratio'. Work with: operating_ratio = 30. Carry the chain through step by step and give the final value of operating_profit_ratio.",
-     "a": "70 times",
-     "self_check": false
-    },
-    {
-     "q": "Find the operating margin as a percentage of revenue. Use the method 'Operating Profit Ratio'. Work with: operating_ratio = 120. Carry the chain through step by step and give the final value of operating_profit_ratio.",
-     "a": "-20 times",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Operating Profit Ratio' refers to.",
-     "a": "The operating profit ratio is the mirror of the operating ratio: one hundred minus the operating ratio, or operating profit over revenue from operations as a percentage, showing the margin earned purely from operations.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Operating Profit Ratio'.",
-     "a": "Operating profit is revenue less operating cost, so the two ratios must together exhaust the hundred percent.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Operating Profit Ratio', in plain ASCII form.",
-     "a": "operating_profit_ratio = 100 - operating_ratio",
      "self_check": true
     }
    ]
@@ -555,37 +698,6 @@
     {
      "q": "Write the standard relation used for 'Earnings per Share', in plain ASCII form.",
      "a": "earnings_per_share = (profit_after_tax - preference_dividend) / number_of_equity_shares",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leac.205.9.9",
-   "title": "Dividend Payout Ratio",
-   "questions": [
-    {
-     "q": "Calculate the dividend payout ratio. Use the method 'Dividend Payout Ratio'. Work with: dividend_per_share = 20, earnings_per_share = 10. Carry the chain through step by step and give the final value of dividend_payout_ratio.",
-     "a": "200 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Compute the retention implied by the payout ratio. Use the method 'Dividend Payout Ratio'. Work with: dividend_per_share = 5, earnings_per_share = 10. Carry the chain through step by step and give the final value of dividend_payout_ratio.",
-     "a": "50 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Dividend Payout Ratio' refers to.",
-     "a": "The dividend payout ratio sets dividend per share against earnings per share to show what slice of the profit the company handed to shareholders and what slice stayed back for growth.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Dividend Payout Ratio'.",
-     "a": "A high payout favours income now; a low payout feeds future expansion through retained earnings.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Dividend Payout Ratio', in plain ASCII form.",
-     "a": "dividend_payout_ratio = dividend_per_share / earnings_per_share * 100",
      "self_check": true
     }
    ]

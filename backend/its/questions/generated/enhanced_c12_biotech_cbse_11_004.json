@@ -34,6 +34,31 @@
      "q": "Create a schematic flowchart (describe in words) showing the complete sequence from *cry1Ac* gene integration in cotton genome to bollworm death, including: transformation method, expression cassette components, protein processing in plant, ingestion by larva, activation steps, receptor binding, pore formation, and death. Indicate where *Agrobacterium*-mediated transformation (from sibling node) fits.",
      "a": "**Flowchart (textual):**\n1. **Gene construct**: *cry1Ac* coding sequence (codon-optimized for plants) + **CaMV 35S promoter** (constitutive) or **tissue-specific promoter** (e.g., *Cry1Ac* under *GhSCP1* for green tissue) + **nos terminator** + selectable marker (e.g., *nptII*) → cloned into **T-DNA binary vector**.\n2. **Transformation**: *Agrobacterium tumefaciens* (strain LBA4404/EHA105) carrying vector infects cotton hypocotyl/embryo explants → **T-DNA integration** into cotton genome (via non-homologous end joining) → selection on kanamycin → regeneration of transgenic shoots (ref: c12_biotech_cbse_11_002).\n3. **Expression in plant**: Transcription → mRNA processing → translation in cytoplasm → **130 kDa protoxin accumulates in chloroplasts/cytoplasm** (stable, inactive at plant pH ~7).\n4. **Insect ingestion**: Bollworm larva feeds on Bt cotton leaf/boll → ingests protoxin.\n5. **Midgut activation**: Protoxin solubilized at **pH 9.5–10.5** → cleaved by **trypsin-like proteases** at specific sites → N-terminal ~17 kDa and C-terminal ~45 kDa peptides removed → **65 kDa active toxin** (core domain I, II, III).\n6. **Receptor binding**: Domain II binds **cadherin (CaLP)** → facilitates oligomerization (pre-pore) → Domain I inserts → binds **APN/ALP** → stable pore.\n7. **Pore formation**: Oligomer (tetramer) forms **cation-selective pores** → osmotic imbalance → cell swelling/lysis → gut epithelium destruction.\n8. **Death**: Septicemia (gut bacteria enter hemocoel) + starvation → larva dies in 24–72 h.\n\nA poor answer omits the promoter choice, codon optimization, or the two-step receptor binding (cadherin then APN/ALP), showing incomplete mechanistic understanding.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Bt cotton is a genetically modified cotton variety that expresses insecticidal crystal (Cry) proteins from the bacterium *Bacillus ______* (Bt), providing inherent resistance against specific lepidopteran pests (e.g., *Helicoverpa armigera*, pink bollworm) by producing δ-endotoxins that are activated in the alkaline midgut of target insects, binding to specific cadherin-like receptors on midgut epithelial cells, forming pores that cause cell lysis, septicemia, and insect death.",
+     "a": "thuringiensis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a cotton farmer in ______ losing 40% of his yield to bollworms despite spraying chemical pesticides 12 times a season.",
+     "a": "Maharashtra",
+     "self_check": true
+    },
+    {
+     "q": "What is Bt cotton? State the definition given in this lesson.",
+     "a": "Bt cotton is a genetically modified cotton variety that expresses insecticidal crystal (Cry) proteins from the bacterium *Bacillus thuringiensis* (Bt), providing inherent resistance against specific lepidopteran pests (e.g., *Helicoverpa armigera*, pink bollworm) by producing δ-endotoxins that are activated in the alkaline midgut of.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Bt cotton?",
+     "a": "Misconception: \"Bt cotton kills all insects, including beneficial ones like bees and ladybird beetles.\" Why it's wrong: Cry proteins are highly specific to certain insect orders (mainly Lepidoptera for Cry1/Cry2).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) explain the step-by-step molecular mechanism of Cry protein activation and insecticidal action, including the role of alkaline pH, proteolytic cleavage, and receptor binding; (2) distinguish between different *cry* gene classes (e.g., *cry1Ac*, *cry2Ab*) and their pest specificity; (3) evaluate resistance.",
+     "self_check": true
     }
    ]
   }

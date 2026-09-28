@@ -34,6 +34,21 @@
      "q": "Design a real-world scenario (Indian context) that requires a two-way decision, write the decision rule in plain Hindi/English, and then write the corresponding if-else Python code. Example format: \"Scenario: ... Rule: ... Code: ...\"",
      "a": "**Scenario:** Auto-rickshaw fare calculation. First 2 km = ₹25, every additional km = ₹10.  \n**Rule:** If distance ≤ 2 km, fare = 25; else fare = 25 + (distance - 2) * 10.  \n**Code:**\n```python\ndist = float(input(\"Enter distance in km: \"))\nif dist <= 2:\n    fare = 25\nelse:\n    fare = 25 + (dist - 2) * 10\nprint(\"Fare = ₹\", fare)\n```\nA poor answer uses a scenario with more than two outcomes (e.g., grading A/B/C) or writes code that doesn’t match the rule, showing inability to map a binary decision to if-else.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An if-else statement is a two-way branching control structure that executes one block of ______ when a Boolean condition evaluates to True and a different block when the same condition evaluates to False, ensuring exactly one of the two blocks runs for any input.",
+     "a": "statements",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a program for a school library: \"If a student returns a book on time, fine = ₹0; ______ fine = ₹5 per day late.\" Ask the student: \"How many different paths can this decision take?\" (Two).",
+     "a": "otherwise",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) write correct if-else syntax with proper indentation, (2) trace execution for given inputs showing which branch executes, and (3) convert a real-world decision rule (e.g., \"pass if marks ≥ 33 else fail\") into a working Python program that handles both outcomes.",
+     "self_check": true
     }
    ]
   }

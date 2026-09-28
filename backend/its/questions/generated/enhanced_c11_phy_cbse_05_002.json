@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a spring, a force sensor (or spring balance), and a ruler to verify that the work done in stretching a spring from \\( x = 0 \\) to \\( x = x_0 \\) equals \\( \\frac{1}{2} k x_0^2 \\). Describe the measurements, the graph to plot, and how to calculate work from the graph.",
      "a": "Fix one end of a spring. Attach a force sensor to the free end. Stretch the spring slowly in small steps (e.g., 1 cm increments). At each extension \\( x \\), record the force \\( F \\) from the sensor. Plot \\( F \\) (y-axis) vs \\( x \\) (x-axis). The graph should be a straight line through origin (Hooke's law: \\( F = kx \\)). The work done is the area under this line from 0 to \\( x_0 \\): a triangle of area \\( \\frac{1}{2} \\times x_0 \\times (k x_0) = \\frac{1}{2} k x_0^2 \\). A poor answer might suggest measuring only final force and multiplying by \\( x_0 \\), or plotting force vs time instead of force vs displacement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Its SI unit is joule (J), ______ to newton-metre (N·m).",
+     "a": "equivalent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a spring balance being ______ slowly: the force you apply increases steadily from zero to a maximum value.",
+     "a": "stretched",
+     "self_check": true
+    },
+    {
+     "q": "What is Work done by a variable force? State the definition given in this lesson.",
+     "a": "Its SI unit is joule (J), equivalent to newton-metre (N·m).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Work done by a variable force?",
+     "a": "They confuse the *instantaneous* force at the endpoint with the *average* force over the interval.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Create a small dataset (N=5) where *r* = 1 exactly. Then modify **one** value to make *r* = -1. Explain the pattern you used.",
      "a": "Example for *r*=1: (1,2), (2,4), (3,6), (4,8), (5,10) — all points lie on line Y=2X. For *r*=-1: change last point to (5,-10) → points lie on Y=2X for first four, but last point breaks linearity; better: use (1,10), (2,8), (3,6), (4,4), (5,2) all on Y=12-2X. A poor answer (random numbers with *r*≈1) reveals the student does not grasp that *r*=±1 requires **all points exactly on a straight line** with non-zero slope.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Karl Pearson's Coefficient of Correlation (denoted by *r*) is a pure number that measures the strength and direction of a linear ______ between two quantitative variables, ranging from -1 (perfect negative linear correlation) to +1 (perfect positive linear correlation), with 0 indicating no linear correlation.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing the ______ between \"hours of daily study\" and \"marks obtained in Class 11 exams\" for 50 students.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A scatter diagram (node ______) shows an upward trend, but how *strong* is that trend?",
+     "a": "003",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) state the precise formula for *r* using the covariance method and the shortcut method with all variables defined, (2) interpret a given *r* value in terms of direction, strength, and linearity, and (3) explain why *r* is unit-free and bounded between -1 and +1.",
+     "self_check": true
     }
    ]
   }

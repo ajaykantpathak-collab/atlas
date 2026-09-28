@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c10_gram_cbse_90_001",
+ "concepts": [
+  {
+   "id": "enh:c10_gram_cbse_90_001",
+   "title": "c10_gram_cbse_90_001",
+   "questions": [
+    {
+     "q": "Sort these into time rows — past, present, future: 'She has finished', 'She will be finishing', 'She had finished'.",
+     "a": "'She has finished' → present (perfect aspect anchors it to now). 'She will be finishing' → future. 'She had finished' → past. A wrong answer putting 'has finished' in the past reveals the student reads the participle 'finished' as the tense carrier instead of the auxiliary 'has' — the tense lives in the helper, not the main verb.",
+     "self_check": true
+    },
+    {
+     "q": "Change ONLY the aspect, keep the time: 'He played cricket' → two other past forms.",
+     "a": "'He was playing cricket' (continuous) and 'He had played cricket' (perfect). A wrong answer like 'he plays' or 'he will play' shows the student changed the TIME row, not the aspect column — they cannot yet decouple the two axes, which is the whole point of the grid.",
+     "self_check": true
+    },
+    {
+     "q": "Which form fits: 'At this moment, the baby ___ (cry).' Defend your choice.",
+     "a": "'is crying' — present continuous, because 'at this moment' marks an ongoing action in present time. A wrong answer 'cries' or 'is cried' reveals the student matches tense to the verb's dictionary feel rather than to the time-marker in the sentence.",
+     "self_check": true
+    },
+    {
+     "q": "English has exactly twelve tense forms — three times (present, past, future) crossed with four aspects (simple, continuous, perfect, ______).",
+     "a": "perfect-continuous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ has exactly twelve tense forms — three times (present, past, future) crossed with four aspects (simple, continuous, perfect, perfect-continuous).",
+     "a": "English",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Draw the grid on the board: rows = time, columns = ______.",
+     "a": "aspect",
+     "self_check": true
+    },
+    {
+     "q": "What is English has exactly twelve tense forms? State the definition given in this lesson.",
+     "a": "English has exactly twelve tense forms — three times (present, past, future) crossed with four aspects (simple, continuous, perfect, perfect-continuous).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about English has exactly twelve tense forms?",
+     "a": "Students believe the tense name describes the verb alone ('wrote = past tense of write') and miss that aspect — the helper verbs — carries half the meaning.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can place any given verb phrase into the correct cell of the 3×4 tense grid, name its time and aspect, and produce the same meaning in at least two other cells on demand.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Draw the grid on the board: rows = time, ______ = aspect.",
+     "a": "columns",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

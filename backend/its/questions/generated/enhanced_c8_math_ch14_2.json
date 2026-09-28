@@ -34,6 +34,21 @@
      "q": "Create a real-life problem (in an Indian context) where you need to find the area of a triangle, but the given measurements are the sides of a rectangle that the triangle fits into. Write the problem and solve it.",
      "a": "Example problem: \"A rectangular garden plot is 15 m by 8 m. The owner wants to plant grass on a triangular section formed by one diagonal of the rectangle. Find the area to be planted.\" Solution: Rectangle area = 15 × 8 = 120 m². Triangle area = half = 60 m². A poor answer gives a problem that doesn't use the rectangle-triangle relationship (e.g., directly gives base and height) or solves incorrectly, showing the student cannot construct the conceptual link.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The area of a triangle is exactly half the area of a rectangle that shares the same base length and ______ height.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your mother stitch a ______ cloth patch for a torn kurta.",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why the triangle area formula is half the rectangle area by decomposing a rectangle along its diagonal, and can correctly calculate the area of any triangle (right, acute, obtuse) when given the base and the corresponding perpendicular height, including problems where the height falls outside the triangle.",
+     "self_check": true
     }
    ]
   }

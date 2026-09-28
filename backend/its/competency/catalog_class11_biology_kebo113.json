@@ -29,7 +29,16 @@
      "explain": "Divide the increase in size by the initial size and multiply by 100 to get the percent growth rate",
      "compute": "growth_rate_percent = increase / initial * 100"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "growth_rate_percent = increase / initial * 100",
+     "compute": "growth_rate_percent = increase / initial * 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.113.2.1",

@@ -34,6 +34,31 @@
      "q": "Design a laundry aid protocol for a hospital laundry washing white cotton patient gowns stained with blood (protein), iodine (colour), and washed in 300 ppm hard water. Specify the aid(s), sequence, temperature, and pH constraints for each step.",
      "a": "Pre-soak: enzyme presoak (protease) at 40°C, pH 9–10 for blood. Main wash: builder (STP 2 g/L) + detergent at 60–70°C, pH 10–11. Bleach step: oxygen bleach (H₂O₂ 0.5%) at 60°C, pH 10.5–11 for iodine. Rinse: FBA (0.05%) in final rinse at 30°C, pH 7. No chlorine bleach (damages cotton at high temp), no starch (hygiene protocols prohibit stiffening). A poor answer omits pH/temperature control or uses chlorine bleach, showing lack of integration across stain chemistry, water chemistry, and fibre limits.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Laundry aids are ______ chemical agents added during the washing process to enhance detergent performance, remove stubborn stains, counteract fabric yellowing, or impart desired physical properties — specifically builders (water softeners that sequester hardness ions), bleaches (oxidizing or reducing agents that decolorize stains), blues (optical brighteners or bluing agents that mask yellowing), and stiffening agents (starches or synthetic polymers that add body and crispness to fabrics).",
+     "a": "supplementary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're washing a white cotton kurta that has turned yellowish after multiple washes in hard water, and it also has a ______ turmeric stain.",
+     "a": "stubborn",
+     "self_check": true
+    },
+    {
+     "q": "What is Laundry aids? State the definition given in this lesson.",
+     "a": "Laundry aids are supplementary chemical agents added during the washing process to enhance detergent performance, remove stubborn stains, counteract fabric yellowing, or impart desired physical properties — specifically builders (water softeners that sequester hardness ions), bleaches (oxidizing or reducing agents that decolorize.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Laundry aids?",
+     "a": "Students believe \"blue\" and \"bleach\" both whiten clothes, so they are interchangeable.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) classify a given laundry aid into its correct category (builder, bleach, blue, or stiffening agent) with chemical justification, and (2) select the appropriate aid for a specific fabric-stain-water condition scenario, explaining the chemical mechanism and any fabric compatibility constraints.",
+     "self_check": true
     }
    ]
   }

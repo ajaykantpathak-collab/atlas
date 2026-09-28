@@ -1,0 +1,608 @@
+{
+ "catalog": "catalog_class11_physics_ch101.json",
+ "concepts": [
+  {
+   "id": "keph.101.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "arc_length = 443",
+      "radius = 25",
+      "theta = arc_length / radius"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "arc_length = 443",
+      "radius = 25",
+      "theta = arc_length / radius"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "arc_length = 11.1",
+      "radius = 49",
+      "theta = arc_length / radius"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "arc_length = 11.1",
+      "radius = 49",
+      "theta = arc_length / radius"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "arc_length = 159",
+      "radius = 45",
+      "theta = arc_length / radius"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "arc_length = 159",
+      "radius = 45",
+      "theta = arc_length / radius"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "theta = arc_length / radius"
+   ]
+  },
+  {
+   "id": "keph.101.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "area = 73",
+      "radius = 17.9",
+      "omega = area / (radius ** 2)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area = 73",
+      "radius = 17.9",
+      "omega = area / (radius ** 2)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "area = 61",
+      "radius = 6.8",
+      "omega = area / (radius ** 2)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "area = 61",
+      "radius = 6.8",
+      "omega = area / (radius ** 2)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "area = 54",
+      "radius = 27",
+      "omega = area / (radius ** 2)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "area = 54",
+      "radius = 27",
+      "omega = area / (radius ** 2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "omega = area / (radius ** 2)"
+   ]
+  },
+  {
+   "id": "keph.101.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mass = 106",
+      "volume = 91",
+      "density = mass / volume"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mass = 106",
+      "volume = 91",
+      "density = mass / volume"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mass = 32",
+      "volume = 70",
+      "density = mass / volume"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mass = 32",
+      "volume = 70",
+      "density = mass / volume"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mass = 11",
+      "volume = 23",
+      "density = mass / volume"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mass = 11",
+      "volume = 23",
+      "density = mass / volume"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "density = mass / volume"
+   ]
+  },
+  {
+   "id": "keph.101.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "side = 167",
+      "volume = side ** 3"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "side = 167",
+      "volume = side ** 3"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "side = 315",
+      "volume = side ** 3"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "side = 315",
+      "volume = side ** 3"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "side = 395",
+      "volume = side ** 3"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "side = 395",
+      "volume = side ** 3"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "volume = side ** 3"
+   ]
+  },
+  {
+   "id": "keph.101.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "side = 430",
+      "surface_area = 6 * (side ** 2)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "side = 430",
+      "surface_area = 6 * (side ** 2)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "side = 120",
+      "surface_area = 6 * (side ** 2)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "side = 120",
+      "surface_area = 6 * (side ** 2)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "side = 292",
+      "surface_area = 6 * (side ** 2)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "side = 292",
+      "surface_area = 6 * (side ** 2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "surface_area = 6 * (side ** 2)"
+   ]
+  },
+  {
+   "id": "keph.101.6",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "k = 62",
+      "length = 8.6",
+      "T = k * sqrt(length / g)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "k = 62",
+      "length = 8.6",
+      "T = k * sqrt(length / g)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "k = 13.8",
+      "length = 485",
+      "T = k * sqrt(length / g)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "k = 13.8",
+      "length = 485",
+      "T = k * sqrt(length / g)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "k = 79",
+      "length = 219",
+      "T = k * sqrt(length / g)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "k = 79",
+      "length = 219",
+      "T = k * sqrt(length / g)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "T = k * sqrt(length / g)"
+   ]
+  },
+  {
+   "id": "keph.101.8",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "area_screen = 68",
+      "area_slide = 78",
+      "linear_magnification = sqrt(area_screen / area_slide)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "area_screen = 68",
+      "area_slide = 78",
+      "linear_magnification = sqrt(area_screen / area_slide)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "area_screen = 70",
+      "area_slide = 61",
+      "linear_magnification = sqrt(area_screen / area_slide)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "area_screen = 70",
+      "area_slide = 61",
+      "linear_magnification = sqrt(area_screen / area_slide)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "area_screen = 59",
+      "area_slide = 24",
+      "linear_magnification = sqrt(area_screen / area_slide)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "area_screen = 59",
+      "area_slide = 24",
+      "linear_magnification = sqrt(area_screen / area_slide)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "linear_magnification = sqrt(area_screen / area_slide)"
+   ]
+  },
+  {
+   "id": "keph.101.9",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "side_cm = 409",
+      "volume_m_3 = (side_cm / 100) ** 3"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "side_cm = 409",
+      "volume_m_3 = (side_cm / 100) ** 3"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "side_cm = 364",
+      "volume_m_3 = (side_cm / 100) ** 3"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "side_cm = 364",
+      "volume_m_3 = (side_cm / 100) ** 3"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "side_cm = 52",
+      "volume_m_3 = (side_cm / 100) ** 3"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "side_cm = 52",
+      "volume_m_3 = (side_cm / 100) ** 3"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "volume_m_3 = (side_cm / 100) ** 3"
+   ]
+  },
+  {
+   "id": "keph.101.10",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "radius = 49",
+      "height = 104",
+      "area = 2 * pi * radius * (radius + height)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "radius = 49",
+      "height = 104",
+      "area = 2 * pi * radius * (radius + height)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "radius = 2.9",
+      "height = 11.2",
+      "area = 2 * pi * radius * (radius + height)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "radius = 2.9",
+      "height = 11.2",
+      "area = 2 * pi * radius * (radius + height)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "radius = 40",
+      "height = 478",
+      "area = 2 * pi * radius * (radius + height)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "radius = 40",
+      "height = 478",
+      "area = 2 * pi * radius * (radius + height)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "area = 2 * pi * radius * (radius + height)"
+   ]
+  },
+  {
+   "id": "keph.101.11",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "speed_kmh = 110",
+      "speed_ms = speed_kmh * 1000 / 3600"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "speed_kmh = 110",
+      "speed_ms = speed_kmh * 1000 / 3600"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "speed_kmh = 93",
+      "speed_ms = speed_kmh * 1000 / 3600"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "speed_kmh = 93",
+      "speed_ms = speed_kmh * 1000 / 3600"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "speed_kmh = 107",
+      "speed_ms = speed_kmh * 1000 / 3600"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "speed_kmh = 107",
+      "speed_ms = speed_kmh * 1000 / 3600"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "speed_ms = speed_kmh * 1000 / 3600"
+   ]
+  },
+  {
+   "id": "keph.101.12",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "observed_width = 469",
+      "magnification = 86",
+      "actual_thickness = observed_width / magnification"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "observed_width = 469",
+      "magnification = 86",
+      "actual_thickness = observed_width / magnification"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "observed_width = 479",
+      "magnification = 32",
+      "actual_thickness = observed_width / magnification"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "observed_width = 479",
+      "magnification = 32",
+      "actual_thickness = observed_width / magnification"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "observed_width = 394",
+      "magnification = 56",
+      "actual_thickness = observed_width / magnification"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "observed_width = 394",
+      "magnification = 56",
+      "actual_thickness = observed_width / magnification"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "actual_thickness = observed_width / magnification"
+   ]
+  }
+ ]
+}

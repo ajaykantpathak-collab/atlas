@@ -11,8 +11,8 @@
      "self_check": true
     },
     {
-     "q": "Explain why the distance formula uses \\((x_2 - x_1)^2 + (y_2 - y_1)^2\\) instead of \\(|x_2 - x_1| + |y_2 - y_1|\\). Give a concrete counterexample where the two expressions give different results.",
-     "a": "The formula \\(\\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\\) gives the straight-line (Euclidean) distance, while \\(|x_2 - x_1| + |y_2 - y_1|\\) gives the Manhattan distance (sum of horizontal and vertical legs). For \\(P(0,0)\\) and \\(Q(3,4)\\), Euclidean distance = 5, Manhattan distance = 7. A student who says \"both give the same because squaring removes signs\" misunderstands that \\(\\sqrt{a^2+b^2} \\neq |a|+|b|\\) in general. They are confusing the Pythagorean theorem with linear addition.",
+     "q": "Give the correct order of steps that show the straight-line distance between P(0, 0) and Q(3, 4) differs from the along-the-grid distance.",
+     "a": "The contrast runs: (1) Form the right triangle with legs 3 and 4 between the points (2) Apply Pythagoras to get the straight-line distance of 5 units (3) Add the legs directly to get the along-the-grid distance of 7 units (4) Conclude the two measures differ because squares do not distribute over addition. A wrong answer that treats the two distances as equal shows the student has confused the Pythagorean theorem with simple addition of leg lengths.",
      "self_check": true
     },
     {
@@ -33,6 +33,21 @@
     {
      "q": "Create a real-world problem (Indian context) that requires using the distance formula twice and comparing the results. The problem must involve a decision (e.g., which route is shorter, which location to choose). Provide the coordinates and the question.",
      "a": "Example: \"Rahul lives at (2, 3) and works at (8, 7). He can take the metro from station A(5, 5) or station B(4, 6). Walking speed is same. Which station should he walk to from home to minimize total walking distance (home → station + station → work)?\"\nA good answer sets up coordinates, computes home→A + A→work and home→B + B→work, compares. A poor answer only computes home→station distances and ignores station→work, or assumes the station with smaller x-coordinate is closer without calculation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This formula is derived from the ______ theorem applied to the right triangle formed by the horizontal and vertical distances between the points.",
+     "a": "Pythagorean",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ at your school gate (point A) and your friend is at the bus stop (point B).",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute the distance between any two points in the plane, apply the distance formula to determine the type of triangle (equilateral, isosceles, right-angled) or quadrilateral formed by given points, verify collinearity of three points using the distance condition, and solve real-world problems involving shortest path or.",
      "self_check": true
     }
    ]

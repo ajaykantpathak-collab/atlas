@@ -34,6 +34,36 @@
      "q": "Design a tripeptide (three amino acids) that has a net charge of +2 at pH 7.0. Use only the 20 standard amino acids. Write its sequence (three-letter codes), draw its full structure showing all ionizable groups in their correct protonation state at pH 7, and calculate the net charge step-by-step.",
      "a": "Expected answer: Choose two basic (Lys, Arg, His) and one neutral (e.g., Gly) amino acid. Example: Lys-Arg-Gly. At pH 7: N-terminal α-NH₃⁺ (+1), C-terminal α-COO⁻ (–1), Lys side chain (pKa~10.5) protonated (+1), Arg side chain (pKa~12.5) protonated (+1). Net = +2. A poor answer (using acidic amino acids, miscalculating charges, or ignoring terminal groups) reveals inability to apply pKa values and charge summation to a peptide chain.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Amino acids are organic ______ with a central α-carbon bonded to four different groups: an amino group (-NH₂), a carboxyl group (-COOH), a hydrogen atom, and a variable side chain (R group).",
+     "a": "molecules",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a boiled egg: the clear liquid egg white turns into a solid white mass.",
+     "a": "eating",
+     "self_check": true
+    },
+    {
+     "q": "What is Amino acids? State the definition given in this lesson.",
+     "a": "Amino acids are organic molecules with a central α-carbon bonded to four different groups: an amino group (-NH₂), a carboxyl group (-COOH), a hydrogen atom, and a variable side chain (R group).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight is that the resulting peptide bond is not a freely rotating single bond; resonance gives it ~______% double-bond character, locking six atoms in a rigid plane.",
+     "a": "40",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Amino acids?",
+     "a": "Students often believe: (1) The peptide bond forms between the carboxyl group of one amino acid and the R-group (side chain) of another, because they see \"–COOH + –NH₂\" but forget both groups are on the α-carbon.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Draw the general structure of an amino acid, label the α-carbon, and classify the 20 standard amino acids by R-group properties (non-polar, polar uncharged, acidic, basic).",
+     "self_check": true
     }
    ]
   }

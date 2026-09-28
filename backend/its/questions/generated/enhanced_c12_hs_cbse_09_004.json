@@ -34,6 +34,31 @@
      "q": "Create a one-day complementary feeding menu for a 9-month-old infant (weight 8.5 kg) using ONLY locally available, low-cost ingredients (no commercial products). The menu must: (a) provide 3 meals + 1 snack, (b) include ≥4 food groups per day (ICMR), (c) meet ≥50% of daily energy and protein RDA from complementary foods, (d) specify texture (mashed/chopped/finger food), and (e) show responsive feeding cues for each meal. Present as a table.",
      "a": "Expected answer: A table with columns: Meal, Time, Menu (ingredients + amounts), Food Groups Covered, Texture, Responsive Cue (e.g., \"baby leans forward/opens mouth\"), Estimated Energy (kcal), Protein (g). Example: Breakfast 8am: Ragi porridge (30g ragi + 100ml milk + 5g jaggery) + mashed banana (30g) → Cereals, Milk, Fruit; thick porridge; baby smacks lips → 210 kcal, 5g protein. Lunch 12pm: Khichdi (20g rice + 15g moong dal + 5g ghee + 30g carrot/spinach) + curd (30g) → Cereals, Pulses, Vegetables, Milk; soft mashed; baby reaches for spoon → 240 kcal, 7g protein. Snack 4pm: Steamed apple (50g) + 2 tsp peanut powder → Fruit, Nuts; finger food; baby picks up pieces → 60 kcal, 1.5g protein. Dinner 7pm: Suji upma (20g suji + 5g ghee + 30g peas/carrot) + egg yolk (½) → Cereals, Vegetables, Egg; soft lumps; baby makes chewing motions → 180 kcal, 5g protein. Total: 690 kcal, 18.5g protein (RDA 6-12mo: 710 kcal, 9.5g protein → meets >50% energy, >100% protein). Poor answer: missing food groups, no texture progression, no responsive cues, or commercial Cerelac included — reveals inability to translate guidelines into practical, culturally appropriate plans.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Infant nutrition (0-1 year) encompasses the scientific principles and evidence-based guidelines for feeding infants from birth to 12 months, including exclusive breastfeeding for the first 6 months followed by timely introduction of adequate, safe, and appropriate complementary foods while continuing breastfeeding up to 2 years or beyond, as per WHO/UNICEF and ICMR ______.",
+     "a": "recommendations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ nutrition intern visiting an Anganwadi centre in rural Maharashtra.",
+     "a": "community",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: But the ASHA didi said only breastmilk till ______ months.",
+     "a": "6",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Compare breastmilk composition with formula and animal milk across macro/micronutrients and bioactive factors, justifying why exclusive breastfeeding is recommended for 6 months; (2) Design a day's complementary feeding plan for a 7-month-old infant using ICMR food groups, calculating energy/nutrient.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a community nutrition intern visiting an Anganwadi centre in rural ______.",
+     "a": "Maharashtra",
+     "self_check": true
     }
    ]
   }

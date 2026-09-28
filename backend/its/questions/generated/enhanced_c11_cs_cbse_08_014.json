@@ -32,7 +32,22 @@
     },
     {
      "q": "Design a user-defined module `text_analysis.py` that provides three functions: `count_words(text)`, `count_vowels(text)`, and `is_palindrome(text)`. Include a `__main__` block that demonstrates each function on a sample string. Write the complete module code.",
-     "a": "```python",
+     "a": "```python\n# text_analysis.py\ndef count_words(text):\n    return len(text.split())\n\ndef count_vowels(text):\n    vowels = \"aeiouAEIOU\"\n    return sum(1 for ch in text if ch in vowels)\n\ndef is_palindrome(text):\n    cleaned = ''.join(ch.lower() for ch in text if ch.isalnum())\n    return cleaned == cleaned[::-1]\n\nif __name__ == \"__main__\":\n    sample = \"Madam, I'm Adam\"\n    print(f\"Words: {count_words(sample)}\")\n    print(f\"Vowels: {count_vowels(sample)}\")\n    print(f\"Palindrome? {is_palindrome(sample)}\")\n```\nA poor answer (e.g., missing `__main__` guard, using `input()` inside functions, or not handling case/punctuation in palindrome) shows the student cannot synthesize a complete, reusable module with proper structure and testing.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A user-defined module is a Python file (with a .py extension) containing function definitions, classes, variables, and executable code that can be imported into other Python programs using the import statement to promote code reuse, ______, and namespace management.",
+     "a": "organization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have written a set of ______ to calculate GST, discounts, and final prices for a shop billing system.",
+     "a": "functions",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can create a .py file with multiple functions, import it in a separate script using import, from ... import, and as alias, correctly use the if __name__ == \"__main__\": guard for testing, and explain how Python locates modules via sys.path.",
      "self_check": true
     }
    ]

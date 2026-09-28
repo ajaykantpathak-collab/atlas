@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch12_6",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch12_6",
+   "title": "c9_math_ch12_6",
+   "questions": [
+    {
+     "q": "State the Mid-Point Theorem and its converse in your own words. Include both the parallelism and length relationship.",
+     "a": "The Mid-Point Theorem: In a triangle, the segment joining the mid-points of two sides is parallel to the third side and half its length. Converse: A line through the mid-point of one side, parallel to another side, bisects the third side. A wrong answer (e.g., missing \"parallel\" or \"half\") reveals the student has memorised only half the statement — a critical error in board proofs where both conditions must be explicitly stated and used.",
+     "self_check": true
+    },
+    {
+     "q": "In ΔPQR, M and N are mid-points of PQ and PR. A student claims MN = ½ QR but MN is NOT parallel to QR. Is this possible? Explain why or why not using the theorem.",
+     "a": "No, it is impossible. The Mid-Point Theorem guarantees BOTH parallelism and the length relationship simultaneously — they are not independent. If MN = ½ QR but MN ∦ QR, the construction would violate the theorem's proof (which uses congruence to establish both). A student who says \"yes\" confuses the theorem with a one-way implication or thinks the length ratio can hold without parallelism — a fundamental misunderstanding of the theorem as a biconditional geometric fact.",
+     "self_check": true
+    },
+    {
+     "q": "In ΔABC, D and E are mid-points of AB and AC. If BC = 14 cm, find DE. If DE = 9 cm, find BC. Show both calculations.",
+     "a": "Given BC = 14 cm → DE = ½ × 14 = 7 cm. Given DE = 9 cm → BC = 2 × 9 = 18 cm. A wrong answer (e.g., DE = 28 cm or BC = 4.5 cm) reveals the student reverses the \"half\" relationship — they multiply when they should divide or vice versa. This arithmetic confusion appears often in board exams when the given and asked quantities are swapped.",
+     "self_check": true
+    },
+    {
+     "q": "In ΔXYZ, P and Q are mid-points of XY and XZ. The line through P parallel to YZ meets XZ at R. Compare QR and RZ. What theorem justifies your answer?",
+     "a": "By the converse of the Mid-Point Theorem, since P is the mid-point of XY and PR ∥ YZ, R must be the mid-point of XZ. But Q is also the mid-point of XZ (given). Therefore R and Q coincide, so QR = 0 and RZ = QZ = ½ XZ. A wrong answer (e.g., QR = RZ or QR > RZ) shows the student fails to recognise that the converse forces the intersection point to be the unique mid-point — they treat the construction as creating a new point rather than identifying the existing one.",
+     "self_check": true
+    },
+    {
+     "q": "A student proves the Mid-Point Theorem by drawing ΔABC with mid-points D, E on AB, AC. They extend DE to F such that DE = EF, join CF, and claim ΔADE ≅ ΔCFE by SAS (AD = CF, DE = EF, ∠ADE = ∠CFE). Is this proof correct? Identify the error if any.",
+     "a": "The proof is INCORRECT. The student assumes AD = CF and ∠ADE = ∠CFE as given, but these are what need to be proved. The correct congruence is ΔADE ≅ ΔCFE by ASA: AD = CE? No — AD = DB (D is mid-point), AE = EC (E is mid-point), and ∠DAE = ∠FCE (alternate interior angles once we prove DE ∥ BC — circular!). The valid proof uses SAS: AD = DB, DE = EF (construction), ∠ADE = ∠BDF (vertically opposite). This gives ΔADE ≅ ΔBDF, then AD = BF and ∠AED = ∠BFD, leading to BF ∥ AC and BF = AD = CE, so BCEF is a parallelogram. A student who accepts the flawed proof doesn't understand the logical flow — they confuse \"what we know\" with \"what we want to prove.\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context: farming, construction, tailoring) where the Mid-Point Theorem gives a practical shortcut. State the problem, draw a labelled diagram, and show how the theorem solves it in fewer steps than coordinate geometry.",
+     "a": "Example: A farmer has a triangular field ABC. He wants to build a fence parallel to side BC, starting from the mid-point of AB and ending at the mid-point of AC. He knows BC = 120 m. Instead of measuring angles or using a theodolite, he simply measures 60 m from the mid-point of AB towards AC — the Mid-Point Theorem guarantees the fence will be parallel to BC and exactly 60 m long. A poor answer uses coordinate geometry or trigonometry, missing the theorem's purpose as a construction shortcut. This reveals the student sees the theorem as abstract, not as a practical tool for \"ruler-only\" geometric constructions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

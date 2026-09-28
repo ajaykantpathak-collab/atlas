@@ -303,16 +303,19 @@
    ],
    "worked_examples": [
     {
-     "question": "What is the ratio of exports to imports given exports of ... and imports of ...?",
-     "solution": "Step 1: Divide exports by imports to find the basic ratio. Step 2: Multiply by 100 to get the percentage. Working: exports / imports, ratio * 100.",
-     "answer": "Export-to-Import Ratio applied step by step gives the required result."
-    },
-    {
-     "question": "Apply export-to-import ratio to a fresh example and interpret the result.",
-     "solution": "Step 1: Divide exports by imports to find the basic ratio. Step 2: Multiply by 100 to get the percentage. Working: exports / imports, ratio * 100.",
-     "answer": "The method of export-to-import ratio leads to the required value or conclusion."
+     "concept": "keec.108.10",
+     "question_pattern": "What is the ratio of exports to imports given exports of {exports} and imports of {imports}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "export_import_ratio = (exports / imports) * 100",
+     "compute": "export_import_ratio = (exports / imports) * 100"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

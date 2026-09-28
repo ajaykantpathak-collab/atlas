@@ -34,6 +34,26 @@
      "q": "Construct a differential equation of order 2 and degree 3 that is a polynomial in derivatives. Then modify it slightly to make the degree undefined while keeping order 2. Explain the modification.",
      "a": "Example of order 2, degree 3: (d²y/dx²)³ + x(dy/dx) + y = 0. To make degree undefined: (d²y/dx²)³ + sin(dy/dx) + y = 0 (adds transcendental function of first derivative) OR √(d²y/dx²) + (dy/dx) + y = 0 (adds fractional power of highest derivative). A good answer shows understanding that degree depends on the form of the highest derivative term and polynomial nature of ALL derivative terms. A poor answer modifies the dependent variable y (e.g., adds sin y) which does not affect degree.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The degree of a differential equation is the highest positive integral power of the highest order derivative, provided the differential equation is a polynomial equation in its derivatives (i.e., all derivatives appear with integer powers and are free from radicals, fractions, and ______ functions like sin, cos, log, exp).",
+     "a": "transcendental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a roller ______ track for an amusement park in Mumbai.",
+     "a": "coaster",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Identify whether a given differential equation is a polynomial in its derivatives, (2) Determine the order correctly, (3) If polynomial, find the degree as the highest power of the highest order derivative, (4) State \"degree not defined\" with justification when the equation contains non-polynomial terms.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a roller coaster track for an amusement park in Mumbai.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

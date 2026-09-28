@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using household items to compare the viscosities of cooking oil, water, and honey at room temperature. Describe the setup, measurements, and how you would calculate a relative viscosity ratio without using a stopwatch.",
      "a": "Use a tall transparent bottle (e.g., 1 L soda bottle) filled with each liquid. Drop a small steel ball (ball bearing) from the surface and mark the positions at 1-second intervals by video recording (phone camera at 30 fps). Measure distances fallen in each frame. For low Reynolds number (small ball, viscous liquid), terminal velocity v_t ∝ 1/η (Stokes' law). Compare distances fallen in same number of frames: η₁/η₂ ≈ d₂/d₁. A poor answer uses a stopwatch with human reaction time error, or ignores terminal velocity condition (ball must reach constant speed), or uses balls of different sizes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ of viscosity (η) is a scalar physical quantity that measures a fluid's internal resistance to flow by quantifying the ratio of shearing stress to the rate of shearing strain.",
+     "a": "coefficient",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ honey dripping slowly from a spoon versus water flowing rapidly from a tap — both are liquids but resist flow differently.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the coefficient of viscosity from experimental data (force, area, velocity gradient) using the formula η = Fl/(Av) with correct unit conversions, and can explain why viscosity decreases with temperature for liquids but increases for gases using molecular motion arguments.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe honey dripping slowly from a spoon versus water flowing rapidly from a tap — both are liquids but resist flow ______.",
+     "a": "differently",
+     "self_check": true
     }
    ]
   }

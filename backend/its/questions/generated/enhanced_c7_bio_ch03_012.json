@@ -31,8 +31,33 @@
      "self_check": true
     },
     {
-     "q": "[Question needed - generate a create level question]",
-     "a": "[Answer needed]",
+     "q": "Create a labelled 24-hour timeline for a potted hibiscus plant showing which of the two processes dominates its gas exchange in bright daylight, in complete darkness, and around dawn and dusk, and justify each marking in one sentence.",
+     "a": "A strong timeline marks net oxygen outflow and carbon-dioxide uptake during bright daylight (photosynthesis outrunning respiration), net oxygen intake and carbon-dioxide outflow in darkness (respiration only), and dawn/dusk as balance points where the two proceed at similar rates — with respiration shown running continuously through all 24 hours. A weak timeline shows photosynthesis and respiration as mutually exclusive day/night shifts, revealing the shift-working misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Photosynthesis and respiration are two fundamental, ______ biochemical processes occurring in plants where photosynthesis synthesizes glucose and stores solar energy using carbon dioxide and water, while respiration breaks down glucose to release chemical energy for cellular activities, consuming oxygen and releasing carbon dioxide.",
+     "a": "complementary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you walk past a potted Hibiscus plant in your courtyard during a bright sunny afternoon, it is actively making food while also ______ using some of that food to keep its living cells alive.",
+     "a": "continuously",
+     "self_check": true
+    },
+    {
+     "q": "What is Photosynthesis and respiration? State the definition given in this lesson.",
+     "a": "Photosynthesis and respiration are two fundamental, complementary biochemical processes occurring in plants where photosynthesis synthesizes glucose and stores solar energy using carbon dioxide and water, while respiration breaks down glucose to release chemical energy for cellular activities, consuming oxygen and releasing carbon.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Photosynthesis and respiration?",
+     "a": "Students frequently believe that \"plants breathe in carbon dioxide and breathe out oxygen during the day, and do the exact opposite (breathe in oxygen and breathe out carbon dioxide) at night,\" thinking that respiration only happens in the dark and photosynthesis only happens in the light.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can correctly compare and contrast photosynthesis and respiration across five distinct biological parameters: site of occurrence, raw materials, end products, energy requirement/release, and timing (light vs. continuous), and can predict how a plant responds when one process is altered.",
      "self_check": true
     }
    ]

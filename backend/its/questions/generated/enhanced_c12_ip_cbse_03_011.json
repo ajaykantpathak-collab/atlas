@@ -34,6 +34,31 @@
      "q": "Design a simple application-layer protocol for a smart-home system where a central hub controls light bulbs (on/off, brightness 0-100). The protocol must run over UDP, support command acknowledgment, and handle out-of-order delivery. Specify: (a) message format (fields), (b) how the hub detects lost commands, (c) how the bulb handles duplicate commands.",
      "a": "(a) Message format (binary): | MsgType (1 byte: 0=cmd, 1=ack) | SeqNum (2 bytes) | BulbID (1 byte) | Command (1 byte: 0=off, 1=on, 2=set_brightness) | Payload (1 byte: brightness 0-100) | Checksum (2 bytes) |. (b) Hub maintains a sliding window of sent sequence numbers per bulb; if no ACK received within timeout (e.g., 200ms), retransmit with same SeqNum. (c) Bulb stores last processed SeqNum per hub; if incoming SeqNum ≤ last processed, discard as duplicate; if > last processed, execute and send ACK with that SeqNum. A poor design omits sequence numbers (cannot detect loss/duplicates) or uses TCP (violates \"over UDP\" constraint). This tests synthesis of transport-layer limitations into application-layer solutions — a JEE-style system design question.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Network protocols are ______ rules and conventions that govern how data is formatted, transmitted, and received across a network.",
+     "a": "standardized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're video-calling a friend on WhatsApp while ______ downloading a large game update on Steam and browsing a website.",
+     "a": "simultaneously",
+     "self_check": true
+    },
+    {
+     "q": "What is Network protocols? State the definition given in this lesson.",
+     "a": "Network protocols are standardized rules and conventions that govern how data is formatted, transmitted, and received across a network.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Network protocols?",
+     "a": "Students often believe \"TCP is always better because it's reliable\" and \"UDP is only for streaming.\" They fail to see that TCP's reliability mechanisms (retransmission, congestion control, in-order delivery) introduce latency and head-of-line blocking that harm real-time applications (gaming, VoIP, live video).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the key characteristics (connection-oriented vs connectionless, reliable vs unreliable, ordering guarantees) of TCP and UDP, describe the request-response cycle of HTTP including common methods (GET, POST) and status codes, explain FTP's dual-connection architecture (control on port 21, data on port 20), and justify.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_11_009",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_11_009",
+   "title": "c12_soc_cbse_11_009",
+   "questions": [
+    {
+     "q": "According to NCERT, which four states accounted for 8,900 farmer suicides between 2001 and 2006?",
+     "a": "Andhra Pradesh, Karnataka, Kerala, and Maharashtra. A wrong answer listing Punjab, Haryana, or Uttar Pradesh reveals the student confuses Green Revolution heartlands (high productivity, assured irrigation, MSP procurement) with suicide hotspots (rainfed, cash-crop dependent, high indebtedness). The suicides cluster where commercialisation outpaced risk protection.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the shift from food grains to cash crops increases farmers' vulnerability to suicide, using the concepts of input costs and market risk.",
+     "a": "Cash crops (cotton, soyabean, chilli) require expensive proprietary seeds, chemical fertilisers, and pesticides — often bought on credit. Unlike wheat/rice, they lack assured procurement at Minimum Support Price (MSP); farmers sell to private traders at volatile prices. A crop failure or price crash leaves the farmer with unsustainable debt. A wrong answer claiming \"cash crops always give higher income\" ignores the asymmetry: high fixed costs + price/yield risk + no safety net = debt trap.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Telangana switches from paddy to cotton. He borrows ₹2 lakh at 24% interest from a moneylender for seeds and pesticides. The crop fails due to pink bollworm. Using the concept of 'individualisation of agricultural operations', explain why he bears the risk alone.",
+     "a": "Individualisation means the farmer alone decides what to grow, buys inputs from private dealers (who replace state extension), and bears all losses. Public risk-sharing mechanisms (crop insurance, MSP, subsidised credit) are weak or inaccessible. He cannot fall back on collective village institutions or state support. A wrong answer blaming \"poor choice of crop\" misses the structural withdrawal: the state stopped advising him, the company agent sold him the package, and no viable alternative existed.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the agrarian distress leading to suicides in Vidarbha (Maharashtra) with Punjab during the Green Revolution. How do class, caste, and ecological conditions differ?",
+     "a": "Vidarbha: small/marginal farmers (often OBC/SC), rainfed, cotton monoculture, indebted to moneylenders, no MSP procurement. Punjab (early Green Revolution): medium/large Jat Sikh farmers, assured canal/tubewell irrigation, wheat-rice with FCI procurement, institutional credit. Suicides in Punjab emerged later with falling water tables and rising costs. Caste matters: Vidarbha victims are often from lower castes with no land security; Punjab victims initially from dominant castes. A wrong answer treating both as \"farmers in debt\" erases the regional, ecological, and caste-class specificities that NCERT emphasizes.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the Pradhan Mantri Fasal Bima Yojana (PMFBY) as a solution to farmers' suicides, using NCERT's point about 'withdrawal of the State from agricultural extension'.",
+     "a": "PMFBY provides crop insurance but has critical gaps: high actuarial premiums, delayed/denied claims, exclusion of tenant/sharecropper farmers (who are most vulnerable), and no regulation of input costs. It treats the symptom (crop loss) not the root causes: monopoly of seed/pesticide companies replacing public extension, promotion of high-cost packages, and absence of price support for non-grain crops. NCERT notes extension agents were replaced by company agents — insurance doesn't restore independent advice. A wrong answer praising PMFBY as \"financial security\" shows uncritical acceptance of scheme rhetoric over structural analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Design a three-point intervention plan for a high-suicide district integrating (a) credit access, (b) crop diversification, and (c) social support. Justify each with reference to NCERT's analysis.",
+     "a": "1) Expand institutional credit at 4-7% interest through cooperatives and Kisan Credit Cards to replace moneylenders (addresses indebtedness root cause). 2) Provide MSP and procurement for millets, pulses, oilseeds to make diversification viable (breaks cash-crop monoculture risk). 3) Revive public agricultural extension with trained officers and promote farmer producer organisations (counters individualisation and company-dominated advice). Justification: NCERT identifies high-cost inputs, market dependence, and state withdrawal as structural drivers. A poor answer suggesting only \"loan waiver\" offers temporary relief without fixing the production system.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Farmers' suicides in India refer to the tragic phenomenon where cultivators, ______ small and marginal holders, take their own lives due to overwhelming debt, repeated crop failures, and the broader agrarian crisis driven by structural changes in agriculture and economic policies since the 1990s.",
+     "a": "particularly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small farmer in Vidarbha who borrowed ₹3 lakh for Bt cotton seeds and ______ on the advice of a company agent, but untimely rain and pest attack destroyed the crop.",
+     "a": "pesticides",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Farmers' suicides in India refer to the tragic phenomenon where cultivators, particularly small and marginal holders, take their own lives due to overwhelming debt, repeated crop failures, and the broader agrarian crisis driven by structural changes in agriculture and economic policies since the ______s.",
+     "a": "1990",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the interconnected causes (indebtedness, crop failure, policy-driven shifts to cash crops, withdrawal of state support) and evaluate government responses using specific evidence from NCERT, while distinguishing individual distress from systemic agrarian crisis.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

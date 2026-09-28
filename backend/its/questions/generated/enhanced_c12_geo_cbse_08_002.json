@@ -34,6 +34,26 @@
      "q": "Design a last-mile connectivity plan for a new industrial corridor node at Dholera (Gujarat). The node has: (a) BG railway siding, (b) NH-751 (4-lane), (c) 50 km to nearest port (Pipavav). Specify: (i) Road hierarchy for internal circulation, (ii) Railway siding design for 20 rakes/day, (iii) One multimodal transfer facility. Justify each choice geographically.",
      "a": "Expected answer criteria:\n(i) Internal roads: Expressway (NH-751) → Arterial (4-lane SH) → Collector (2-lane MDR) → Local (VR). Justification: Hierarchy matches traffic generation — heavy freight on arterial, employees on collector.\n(ii) Siding: 3 reception lines (750 m each for full rake), 2 holding lines, 1 inspection pit, electronic interlocking. Justification: 20 rakes/day = 1 rake/72 min; 3 reception lines allow simultaneous arrival/departure/inspection without blocking main line.\n(iii) Multimodal facility: Rail-linked ICD (Inland Container Depot) with 4 RMQCs (rail-mounted quay cranes), 20,000 TEU yard, customs clearance. Justification: Pipavav is 50 km — rail shuttle (30 min) beats truck (90 min) for container volume > 500 TEU/day.\nPoor answer: \"Build more roads\" or \"Add trains\" without hierarchy, capacity math, or modal integration — reveals inability to synthesize transport geography into infrastructure planning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Land ______ comprises roadways and railways that move people and goods over the Earth's surface.",
+     "a": "transport",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real observation: \"Open ______ Maps on your phone and search your hometown.",
+     "a": "Google",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Classify any Indian road into its correct category (NH, SH, MDR, ODR, VR) and explain the administrative authority responsible; (2) Interpret a railway map to identify gauge type, zone headquarters, and deduce why a specific route uses broad vs metre gauge; (3) Compare road vs rail for a given freight/passenger scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real ______: \"Open Google Maps on your phone and search your hometown.",
+     "a": "observation",
+     "self_check": true
     }
    ]
   }

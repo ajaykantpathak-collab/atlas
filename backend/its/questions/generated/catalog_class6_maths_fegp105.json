@@ -5,6 +5,8 @@
    "id": "fegp.5.1",
    "title": "Prime Factorisation: Breaking Numbers into Primes",
    "converted_to_compute": false,
+   "formula": "num = product of its prime factors",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 10 and 40 have HCF 10 with coprime multipliers 1 and 4. Verify by computing hcf = 10 x 1; then find the HCF value.",
@@ -41,26 +43,13 @@
   {
    "id": "fegp.5.2",
    "title": "Primes, Composites and the Idli-Vada Game",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "verify the number-theory claim numerically",
-     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
-     "compute": "lhs = 3 ** 3 + 4 ** 3"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
-     "compute": "diff = 5 ** 3 - lhs"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
      "a": "34",
-     "self_check": false
+     "self_check": true
     },
     {
      "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
@@ -79,7 +68,7 @@
     },
     {
      "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
-     "a": "0",
+     "a": "18",
      "self_check": false
     },
     {
@@ -92,15 +81,8 @@
   {
    "id": "fegp.5.3",
    "title": "Divisibility Tests",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
-     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 7 * 1 gives 7",
-     "compute": "hcf = 7 * 1"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 14 and 28 have HCF 7 with coprime multipliers 2 and 4. Verify by computing hcf = 7 x 1; then find the HCF value.",
@@ -119,12 +101,12 @@
     },
     {
      "q": "Two ropes of lengths 14 cm and 28 cm are cut into equal pieces of greatest length. What is the length of each piece?",
-     "a": "7",
+     "a": "14",
      "self_check": false
     },
     {
      "q": "Two bells ring together now. They ring at intervals of 14 minutes and 28 minutes. After how many minutes will they next ring together?",
-     "a": "56",
+     "a": "28",
      "self_check": false
     },
     {
@@ -137,26 +119,13 @@
   {
    "id": "fegp.5.4",
    "title": "Perfect Numbers and the Prime Hunt",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "verify the number-theory claim numerically",
-     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
-     "compute": "lhs = 3 ** 3 + 4 ** 3"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
-     "compute": "diff = 5 ** 3 - lhs"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
      "a": "34",
-     "self_check": false
+     "self_check": true
     },
     {
      "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
@@ -175,7 +144,7 @@
     },
     {
      "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
-     "a": "0",
+     "a": "18",
      "self_check": false
     },
     {

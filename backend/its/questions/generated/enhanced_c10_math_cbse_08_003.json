@@ -34,6 +34,26 @@
      "q": "Construct a real-world problem (using an Indian context like a ramp, ladder, or kite string) where the angle is either 0° or 90° and you must use trigonometric ratios to find a missing length or verify a situation. Write the problem and solve it.",
      "a": "Example problem: \"A 5 m long ramp is placed horizontally on the ground (angle 0°). What is the vertical height of the ramp's upper end from the ground?\" Solution: sin 0° = opposite/hypotenuse = height/5 → 0 = height/5 → height = 0 m. A good answer includes a clear scenario, correct ratio choice, correct substitution of the specific angle value, and correct arithmetic. A poor answer uses the wrong ratio (e.g., cos 0°) or writes \"not defined\" for sin 0°, showing confusion about which ratio applies to height.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ ratios for angles of 0° and 90° are defined as the limiting values of the ratios in a right-angled triangle as the angle approaches 0° or 90°.",
+     "a": "trigonometric",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ leaning against a wall making an angle θ with the ground.",
+     "a": "ladder",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state all six trigonometric ratios for 0° and 90° from memory, explain why certain ratios are \"not defined\" (division by zero) using the triangle side-length limiting process, and correctly substitute these values into algebraic expressions to evaluate or simplify them.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a ladder leaning against a wall making an angle θ with the ground.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

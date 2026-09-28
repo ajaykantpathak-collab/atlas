@@ -5,6 +5,8 @@
    "id": "lemh.4.2.2",
    "title": "Determinant of a 2x2 Matrix",
    "converted_to_compute": false,
+   "formula": "det = a11 * a22 - a12 * a21",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the determinant of [[3, 9], [-2, 7]].",
@@ -42,6 +44,8 @@
    "id": "lemh.4.2.3",
    "title": "Determinant of a 3x3 Matrix",
    "converted_to_compute": false,
+   "formula": "det = a11*(a22*a33 - a23*a32) - a12*(a21*a33 - a23*a31) + a13*(a21*a32 - a22*a31)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the determinant of [[-3, 3], [9, 5]].",
@@ -79,6 +83,8 @@
    "id": "lemh.4.3.1",
    "title": "Area of a Triangle using Determinants",
    "converted_to_compute": false,
+   "formula": "area = (1/2) * abs(x1*(y2 - y3) + x2*(y3 - y1) + x3*(y1 - y2))",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 24 cm by 20 cm.",
@@ -116,6 +122,8 @@
    "id": "lemh.4.3.2",
    "title": "Line Equation and Collinearity using Determinants",
    "converted_to_compute": false,
+   "formula": "x * (y1 - y2) - y * (x1 - x2) + (x1 * y2 - x2 * y1) = 0",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (-5, 1) and (7, 17).",
@@ -153,6 +161,8 @@
    "id": "lemh.4.4.1",
    "title": "Minors of a Matrix Element",
    "converted_to_compute": false,
+   "formula": "m_ij = det(submatrix_ij)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the determinant of [[7, 1], [-1, -2]].",
@@ -190,6 +200,8 @@
    "id": "lemh.4.4.2",
    "title": "Cofactors of a Matrix Element",
    "converted_to_compute": false,
+   "formula": "a_ij = ((-1)**(row + col)) * m_ij",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the determinant of [[-6, 9], [4, -1]].",
@@ -227,6 +239,8 @@
    "id": "lemh.4.5.1",
    "title": "Adjoint of a Square Matrix",
    "converted_to_compute": false,
+   "formula": "adj(A) = transpose(cofactor_matrix)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 22.",
@@ -264,6 +278,8 @@
    "id": "lemh.4.5.2",
    "title": "Determinant of Adjoint Matrix Property",
    "converted_to_compute": false,
+   "formula": "det_adj = det ** (n - 1)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the determinant of [[-5, 0], [2, -6]].",
@@ -301,6 +317,8 @@
    "id": "lemh.4.5.3",
    "title": "Inverse of a Square Matrix using Adjoint",
    "converted_to_compute": false,
+   "formula": "A_inv = (1 / det) * adj(A)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 39.",
@@ -338,6 +356,8 @@
    "id": "lemh.4.6.1",
    "title": "Solving System of Linear Equations using Matrix Method",
    "converted_to_compute": false,
+   "formula": "X = A_inv * B",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 2x + 3 = 13.",

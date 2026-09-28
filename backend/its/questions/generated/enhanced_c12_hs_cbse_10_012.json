@@ -34,6 +34,31 @@
      "q": "Design a one-day vegetarian meal plan for a family of two adults (moderate work) and two children (10 and 12 years) with a daily food budget of ₹350. Provide: (a) menu with servings, (b) raw ingredient quantities, (c) cost calculation using a provided price list, (d) verification that RDAs for energy and protein are met for each member. (Use ICMR 2020 RDAs and assume local prices.)",
      "a": "A good answer will: (a) list 3 meals + 2 snacks with servings per person, (b) convert to raw amounts using standard recipes, (c) apply a price list (provided or assumed) with unit conversions, (d) sum costs ≤ ₹350, (e) compute total energy/protein and compare to sum of individual RDAs (e.g., adult male 2700 kcal/54 g, adult female 2000 kcal/46 g, child 10y 2190 kcal/35 g, child 12y 2450 kcal/41 g). A poor answer misses any of these steps, uses cooked weights instead of raw, or fails to verify per-member adequacy — indicating the student cannot integrate budgeting, food exchange lists, and RDA verification into a complete planning cycle.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Food budgeting is the systematic process of estimating and allocating financial resources for purchasing food to meet the nutritional needs of all family members within a given income, while cost calculation involves determining the monetary value of planned meals by quantifying ingredients, applying current market prices, and summing ______ to ensure the meal plan stays within the allocated budget.",
+     "a": "expenditures",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family has a monthly food budget of ₹12,000 and you need to plan tomorrow's meals for four people — two adults (one ______, one moderate worker), a 14-year-old adolescent, and a 70-year-old grandparent.",
+     "a": "sedentary",
+     "self_check": true
+    },
+    {
+     "q": "What is Food budgeting? State the definition given in this lesson.",
+     "a": "Food budgeting is the systematic process of estimating and allocating financial resources for purchasing food to meet the nutritional needs of all family members within a given income, while cost calculation involves determining the monetary value of planned meals by quantifying ingredients, applying current market prices, and summing.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Food budgeting?",
+     "a": "Students often treat food budgeting as a single arithmetic division (total budget ÷ days ÷ family members) and then try to fit meals into that per-person amount.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently create a one-day balanced meal plan for a family of four with specified age/activity profiles, calculate the total cost using a given price list, and adjust the plan to meet a target budget without compromising nutritional adequacy.",
+     "self_check": true
     }
    ]
   }

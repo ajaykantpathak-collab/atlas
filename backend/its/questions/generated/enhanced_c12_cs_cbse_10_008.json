@@ -32,7 +32,32 @@
     },
     {
      "q": "Design a simple binary file format to store a list of 32‑bit signed integers (one after another, 4 bytes each, little‑endian). Write Python code to write the list `[10, -20, 300]` to `ints.bin` and then read it back into a list.",
-     "a": "```python\nimport struct",
+     "a": "```python\nimport struct\n# Write\nwith open('ints.bin', 'wb') as f:\n    for num in [10, -20, 300]:\n        f.write(struct.pack('<i', num))   # '<i' = little-endian 4-byte signed int\n# Read\nresult = []\nwith open('ints.bin', 'rb') as f:\n    while True:\n        chunk = f.read(4)\n        if not chunk:\n            break\n        result.append(struct.unpack('<i', chunk)[0])\nprint(result)  # [10, -20, 300]\n```\nA poor answer might use `str(num).encode()` (text representation) or forget `struct`, showing confusion between text and binary representation of numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Binary files store data as raw bytes (sequences of 0s and 1s) without any character encoding or newline ______.",
+     "a": "translation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to save a screenshot (PNG) or a compiled Python ______ (.pyc) to disk.",
+     "a": "program",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If you open the file in text mode ('r'/'w'), Python will try to decode the raw bytes as UTF‑______ text and translate newlines, corrupting the data.",
+     "a": "8",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly open a binary file using appropriate modes, read/write bytes data using read(), write(), readline(), writelines(), manipulate the file pointer with seek()/tell() using byte offsets, and explain why binary mode is necessary for non-text data like images, audio, or structured records.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to save a ______ (PNG) or a compiled Python program (.pyc) to disk.",
+     "a": "screenshot",
      "self_check": true
     }
    ]

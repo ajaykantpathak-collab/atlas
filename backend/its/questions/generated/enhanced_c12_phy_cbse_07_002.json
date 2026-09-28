@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a signal generator, a resistor, and an oscilloscope to demonstrate that voltage and current are in phase in a purely resistive AC circuit. Describe the connections, what you would measure, and what the oscilloscope display would show for in-phase signals. How would you verify the phase difference is zero?",
      "a": "Connect the signal generator across the resistor. Use Channel 1 of the oscilloscope to measure voltage across the resistor (v). Use Channel 2 to measure voltage across a small known series resistor (Rsense ≪ R) to get current waveform (i ∝ v_Rsense). Set the oscilloscope to dual-trace mode. For in-phase signals, both sine waves will cross zero at the same time, reach positive peaks together, and negative peaks together. Measure the time difference Δt between corresponding zero-crossings; phase difference φ = ωΔt. If Δt ≈ 0, φ ≈ 0. Alternatively, use XY mode: in-phase signals produce a straight line with positive slope (y = kx). A poor answer would suggest measuring voltage across the resistor for both channels (giving identical traces but not proving current phase) or using an inductor/capacitor instead of a resistor.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An AC circuit containing only a pure resistor (no inductance or capacitance) exhibits a current that varies ______ with time and is exactly in phase with the applied AC voltage.",
+     "a": "sinusoidally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe an ______ bulb in your home — it glows steadily when connected to the 220 V, 50 Hz mains supply, even though the current reverses direction 100 times per second.",
+     "a": "incandescent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The phasor diagram shows voltage and current phasors aligned (phase angle φ = ______).",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the instantaneous current and power expressions for a pure resistive AC circuit from Kirchhoff's loop rule, compute RMS values from peak values and vice versa, draw the phasor diagram showing zero phase difference, calculate average power consumed, and explain why average power is non-zero despite average current.",
+     "self_check": true
     }
    ]
   }

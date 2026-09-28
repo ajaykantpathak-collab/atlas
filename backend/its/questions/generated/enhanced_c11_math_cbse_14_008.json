@@ -34,6 +34,26 @@
      "q": "Create a real-life scenario (Indian context) involving a compound statement with \"and\", \"or\", and an implication. Write the logical form, then construct a truth table to determine when the overall statement is true.",
      "a": "Example: \"If it rains (p) AND the train is on time (q), then I will carry an umbrella (r) OR wear a raincoat (s).\" Logical form: (p ∧ q) → (r ∨ s). A good answer includes a 16-row truth table and identifies the only false case: p=T, q=T, r=F, s=F. A poor answer omits the truth table or misplaces parentheses, showing inability to translate compound statements into symbolic logic.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of Mathematical Reasoning involve using logical principles—statements, connectives, quantifiers, implications, and validation methods—to analyse mathematical claims, construct proofs, solve logical puzzles, and verify the validity of arguments in both pure mathematics and real-world contexts.",
+     "a": "Applications",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ in Delhi says: \"If you buy more than 5 kg of apples, I will give you a 10% discount.\" You buy 6 kg but he refuses the discount, claiming the offer was only for regular customers.",
+     "a": "shopkeeper",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To begin, always break the claim into simple statements, symbolise them, and then apply the rules of implication (contrapositive: no discount ⇒ not >______ kg).",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can translate a verbal or mathematical claim into logical form, identify the appropriate validation method (direct, contrapositive, contradiction, counterexample), and produce a step-by-step justification.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,503 @@
+{
+ "catalog": "catalog_class11_accountancy_ch201.json",
+ "concepts": [
+  {
+   "id": "keac.8.2.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "capital_expenditure = 3",
+      "revenue_expenditure = 27",
+      "total_expenditure = capital_expenditure + revenue_expenditure"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "capital_expenditure = 25",
+      "revenue_expenditure = 83",
+      "total_expenditure = capital_expenditure + revenue_expenditure"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "capital_expenditure = 13.4",
+      "revenue_expenditure = 29",
+      "total_expenditure = capital_expenditure + revenue_expenditure"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "capital_expenditure = 79",
+      "revenue_expenditure = 26",
+      "total_expenditure = capital_expenditure + revenue_expenditure"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "capital_expenditure = 45",
+      "revenue_expenditure = 38",
+      "total_expenditure = capital_expenditure + revenue_expenditure"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "capital_expenditure = 9.5",
+      "revenue_expenditure = 56",
+      "total_expenditure = capital_expenditure + revenue_expenditure"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_expenditure = capital_expenditure + revenue_expenditure"
+   ]
+  },
+  {
+   "id": "keac.8.2.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "capital_receipts = 19.2",
+      "revenue_receipts = 53",
+      "total_receipts = capital_receipts + revenue_receipts"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "capital_receipts = 9",
+      "revenue_receipts = 77",
+      "total_receipts = capital_receipts + revenue_receipts"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "capital_receipts = 26",
+      "revenue_receipts = 87",
+      "total_receipts = capital_receipts + revenue_receipts"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "capital_receipts = 19.7",
+      "revenue_receipts = 10",
+      "total_receipts = capital_receipts + revenue_receipts"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "capital_receipts = 27",
+      "revenue_receipts = 7.9",
+      "total_receipts = capital_receipts + revenue_receipts"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "capital_receipts = 22",
+      "revenue_receipts = 65",
+      "total_receipts = capital_receipts + revenue_receipts"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_receipts = capital_receipts + revenue_receipts"
+   ]
+  },
+  {
+   "id": "keac.8.4.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "net_sales = 57",
+      "closing_stock = 71",
+      "opening_stock = 41",
+      "net_purchases = 19",
+      "direct_expenses = 23",
+      "trading_account_balance = net_sales + closing_stock - (opening_stock + net_purchases + direct_expenses)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "net_sales = 23",
+      "closing_stock = 85",
+      "opening_stock = 5.2",
+      "net_purchases = 82",
+      "direct_expenses = 13.4",
+      "trading_account_balance = net_sales + closing_stock - (opening_stock + net_purchases + direct_expenses)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "net_sales = 19.2",
+      "closing_stock = 93",
+      "opening_stock = 69",
+      "net_purchases = 55",
+      "direct_expenses = 22",
+      "trading_account_balance = net_sales + closing_stock - (opening_stock + net_purchases + direct_expenses)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "net_sales = 79",
+      "closing_stock = 19.6",
+      "opening_stock = 12.5",
+      "net_purchases = 114",
+      "direct_expenses = 87",
+      "trading_account_balance = net_sales + closing_stock - (opening_stock + net_purchases + direct_expenses)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "net_sales = 61",
+      "closing_stock = 51",
+      "opening_stock = 33",
+      "net_purchases = 75",
+      "direct_expenses = 27",
+      "trading_account_balance = net_sales + closing_stock - (opening_stock + net_purchases + direct_expenses)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "net_sales = 60",
+      "closing_stock = 90",
+      "opening_stock = 40",
+      "net_purchases = 104",
+      "direct_expenses = 23",
+      "trading_account_balance = net_sales + closing_stock - (opening_stock + net_purchases + direct_expenses)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "trading_account_balance = net_sales + closing_stock - (opening_stock + net_purchases + direct_expenses)"
+   ]
+  },
+  {
+   "id": "keac.8.4.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "gross_profit = 29",
+      "other_incomes = 86",
+      "indirect_expenses = 47",
+      "net_profit = gross_profit + other_incomes - indirect_expenses"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "gross_profit = 88",
+      "other_incomes = 66",
+      "indirect_expenses = 48",
+      "net_profit = gross_profit + other_incomes - indirect_expenses"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gross_profit = 68",
+      "other_incomes = 12.5",
+      "indirect_expenses = 5.6",
+      "net_profit = gross_profit + other_incomes - indirect_expenses"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "gross_profit = 22",
+      "other_incomes = 40",
+      "indirect_expenses = 109",
+      "net_profit = gross_profit + other_incomes - indirect_expenses"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "gross_profit = 70",
+      "other_incomes = 96",
+      "indirect_expenses = 36",
+      "net_profit = gross_profit + other_incomes - indirect_expenses"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "gross_profit = 64",
+      "other_incomes = 22",
+      "indirect_expenses = 19.6",
+      "net_profit = gross_profit + other_incomes - indirect_expenses"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "net_profit = gross_profit + other_incomes - indirect_expenses"
+   ]
+  },
+  {
+   "id": "keac.8.5.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "net_profit = 15.2",
+      "non_operating_expenses = 16.3",
+      "non_operating_incomes = 4.9",
+      "operating_profit = net_profit + non_operating_expenses - non_operating_incomes"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "net_profit = 15.2",
+      "non_operating_expenses = 16.3",
+      "non_operating_incomes = 4.9",
+      "operating_profit = net_profit + non_operating_expenses - non_operating_incomes"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "net_profit = 77",
+      "non_operating_expenses = 1.6",
+      "non_operating_incomes = 3.9",
+      "operating_profit = net_profit + non_operating_expenses - non_operating_incomes"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "net_profit = 77",
+      "non_operating_expenses = 1.6",
+      "non_operating_incomes = 3.9",
+      "operating_profit = net_profit + non_operating_expenses - non_operating_incomes"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "net_profit = 92",
+      "non_operating_expenses = 3.9",
+      "non_operating_incomes = 16.2",
+      "operating_profit = net_profit + non_operating_expenses - non_operating_incomes"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "net_profit = 92",
+      "non_operating_expenses = 3.9",
+      "non_operating_incomes = 16.2",
+      "operating_profit = net_profit + non_operating_expenses - non_operating_incomes"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "operating_profit = net_profit + non_operating_expenses - non_operating_incomes"
+   ]
+  },
+  {
+   "id": "keac.8.6.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "opening_capital = 41",
+      "net_profit = 6.6",
+      "drawings = 21",
+      "income_tax = 58",
+      "closing_capital = opening_capital + net_profit - drawings - income_tax"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "opening_capital = 46",
+      "net_profit = 1.1",
+      "drawings = 52",
+      "income_tax = 104",
+      "closing_capital = opening_capital + net_profit - drawings - income_tax"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "opening_capital = 51",
+      "net_profit = 72",
+      "drawings = 82",
+      "income_tax = 100",
+      "closing_capital = opening_capital + net_profit - drawings - income_tax"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "opening_capital = 17.2",
+      "net_profit = 56",
+      "drawings = 52",
+      "income_tax = 87",
+      "closing_capital = opening_capital + net_profit - drawings - income_tax"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "opening_capital = 33",
+      "net_profit = 5.8",
+      "drawings = 98",
+      "income_tax = 69",
+      "closing_capital = opening_capital + net_profit - drawings - income_tax"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "opening_capital = 69",
+      "net_profit = 66",
+      "drawings = 3.5",
+      "income_tax = 39",
+      "closing_capital = opening_capital + net_profit - drawings - income_tax"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "closing_capital = opening_capital + net_profit - drawings - income_tax"
+   ]
+  },
+  {
+   "id": "keac.8.6.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "current_assets = 70",
+      "non_current_assets = 56",
+      "total_assets = current_assets + non_current_assets"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "current_assets = 103",
+      "non_current_assets = 19.3",
+      "total_assets = current_assets + non_current_assets"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "current_assets = 14.8",
+      "non_current_assets = 76",
+      "total_assets = current_assets + non_current_assets"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "current_assets = 22",
+      "non_current_assets = 114",
+      "total_assets = current_assets + non_current_assets"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "current_assets = 46",
+      "non_current_assets = 19.6",
+      "total_assets = current_assets + non_current_assets"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "current_assets = 58",
+      "non_current_assets = 36",
+      "total_assets = current_assets + non_current_assets"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_assets = current_assets + non_current_assets"
+   ]
+  },
+  {
+   "id": "keac.8.7.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total_credit_liabilities = 86",
+      "closing_capital = 36",
+      "total_debit_assets = total_credit_liabilities + closing_capital"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total_credit_liabilities = 36",
+      "closing_capital = 79",
+      "total_debit_assets = total_credit_liabilities + closing_capital"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_credit_liabilities = 70",
+      "closing_capital = 46",
+      "total_debit_assets = total_credit_liabilities + closing_capital"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total_credit_liabilities = 54",
+      "closing_capital = 36",
+      "total_debit_assets = total_credit_liabilities + closing_capital"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "total_credit_liabilities = 70",
+      "closing_capital = 31",
+      "total_debit_assets = total_credit_liabilities + closing_capital"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total_credit_liabilities = 12.2",
+      "closing_capital = 7.4",
+      "total_debit_assets = total_credit_liabilities + closing_capital"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_debit_assets = total_credit_liabilities + closing_capital"
+   ]
+  }
+ ]
+}

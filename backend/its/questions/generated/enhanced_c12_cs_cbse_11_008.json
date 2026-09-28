@@ -22,7 +22,7 @@
     },
     {
      "q": "Compare `remove()` and `discard()` when the element is not in the set. Then explain why `pop()` on an empty set raises `KeyError` while `clear()` does not.",
-     "a": "`remove(x)` raises `KeyError` if `x` is absent; `discard(x)` does nothing. `pop()` requires at least one element to remove and return, so it raises `KeyError` on an empty set. `clear()` simply empties the set and is defined to succeed even on an already-empty set (idempotent). A student who thinks `pop()` returns `None` on empty set or that `clear()` raises an error has not grasped the contract of each method.",
+     "a": "`remove(x)` raises `KeyError` if `x` is absent; `discard(x)` does nothing. `pop()` requires at least one element to remove and return, so it raises `KeyError` on an empty set. `clear()` simply empties the set and is defined to succeed even on an already-empty set (idempotent). A student who thinks `pop()` returns `N/A` on empty set or that `clear()` raises an error has not grasped the contract of each method.",
      "self_check": true
     },
     {
@@ -33,6 +33,26 @@
     {
      "q": "Design a small program fragment that reads a list of roll numbers (with possible duplicates) from input, stores only the unique ones in a set, and prints the count of unique students. Then extend it to also print the roll numbers in sorted order.",
      "a": "```python\nrolls = list(map(int, input(\"Enter roll numbers: \").split()))\nunique = set(rolls)          # deduplicate\nprint(\"Unique count:\", len(unique))\nprint(\"Sorted rolls:\", sorted(unique))\n```\nA good answer uses `set()` constructor for deduplication and `sorted()` to produce a list in ascending order (since sets have no order). A poor answer tries to sort the set in-place (`unique.sort()` fails) or uses a list and manual duplicate removal, missing the purpose of sets.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A set in Python is an unordered, mutable collection of unique, hashable elements that supports ______ set operations.",
+     "a": "mathematical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a contact-tracing app for a school event: you need to store unique student IDs of ______, quickly check if a student was present, and add/remove IDs as students check in and out.",
+     "a": "attendees",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Unlike lists or tuples, sets cannot contain duplicate values and do not maintain insertion order (though Python ______+ preserves insertion order as an implementation detail, it is not guaranteed by the language specification).",
+     "a": "3.7",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) create sets using curly braces and the set() constructor, distinguishing between empty set and empty dictionary syntax; (2) add elements with add() and update(), and remove elements with remove(), discard(), pop(), and clear() while explaining the behavioral differences; (3) test membership with in/not in.",
      "self_check": true
     }
    ]

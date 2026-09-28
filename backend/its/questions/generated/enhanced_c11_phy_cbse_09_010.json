@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using Stokes' Law to determine the coefficient of viscosity of honey at room temperature. List apparatus, procedure, measurements needed, and how you'll verify laminar flow condition. What precautions would you take for temperature control?",
      "a": "Apparatus: Tall transparent cylinder (diameter ≥ 5 cm), honey, steel balls of 3-4 different radii (1-3 mm), stopwatch, metre scale, thermometer, magnet for ball retrieval. Procedure: (1) Measure honey temperature, record. (2) Fill cylinder with honey, let air bubbles rise. (3) Drop smallest ball, measure time \\(t\\) to fall distance \\(h\\) after reaching terminal velocity (ignore first 10 cm). (4) Compute \\(v_t = h/t\\). (5) Repeat for each ball radius \\(a\\). (6) Plot \\(v_t\\) vs \\(a^2\\) — slope = \\(\\frac{2(\\rho-\\sigma)g}{9\\eta}\\) gives \\(\\eta\\). Verify laminar flow: Check Re = \\(\\frac{\\sigma v_t a}{\\eta} < 1\\) for all balls. Precautions: (a) Use water bath to maintain constant temperature (±0.5°C) since honey viscosity is highly temperature-sensitive. (b) Ensure balls are spherical and smooth. (c) Cylinder diameter > 10× ball diameter to avoid wall effects. (d) Clean balls between trials. A poor answer omits temperature control or Re verification, revealing lack of experimental rigor.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a raindrop falling on a window pane during monsoon — it doesn't ______ indefinitely but reaches a steady speed.",
+     "a": "accelerate",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate terminal velocity for a sphere falling through a viscous fluid given radius, densities, and viscosity; can derive the expression for terminal velocity by equating viscous drag, buoyant force, and weight; and can identify the conditions under which Stokes' Law is valid (laminar flow, small Reynolds number.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a raindrop falling on a window pane during monsoon — it doesn't accelerate ______ but reaches a steady speed.",
+     "a": "indefinitely",
+     "self_check": true
     }
    ]
   }

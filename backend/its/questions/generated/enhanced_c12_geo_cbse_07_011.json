@@ -34,6 +34,31 @@
      "q": "Design a three-tier urban policy framework for a state government aiming to promote quaternary and quinary activity growth in its tier-2 cities (e.g., Indore, Coimbatore, Kochi). Specify one intervention per tier.",
      "a": "Expected answer: Tier 1 (Tertiary foundation) — Upgrade last-mile logistics, healthcare, and retail to support quality of life. Tier 2 (Quaternary engine) — Establish a sector-specific Centre of Excellence (e.g., Agri-tech in Indore, Med-tech in Coimbatore) linked to local universities. Tier 3 (Quinary anchor) — Attract a corporate regional HQ or regulatory regional office via tax incentives and governance reforms. A poor answer proposing only \"build IT parks\" for all tiers reveals failure to differentiate the distinct infrastructure, talent, and governance needs of each activity tier.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Tertiary, quaternary, and quinary activities represent the progressive evolution of service-sector economic activities: tertiary activities involve direct service provision (trade, transport, healthcare, education); quaternary activities are knowledge-intensive services requiring specialised expertise (R&D, IT, consultancy, financial analysis); quinary activities constitute the highest-level decision-making and policy-formulation roles (top corporate executives, senior government officials, leading scientists, strategic planners) that shape ______ and societal direction.",
+     "a": "organisational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a hospital in your city: nurses and paramedics deliver direct patient care (tertiary), the medical ______ developing a new treatment protocol works in a quaternary role, and the hospital director deciding resource allocation across departments performs a quinary function.",
+     "a": "researcher",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by listing ______ service jobs you see daily, then classify each using the \"knowledge-intensity vs. decision-authority\" matrix.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can construct a three-column comparison table distinguishing tertiary, quaternary, and quinary activities across five dimensions (nature of work, skill requirement, typical examples, economic share trend, locational pattern) and explain why India's IT-BPM sector represents a quaternary-to-quinary transition in cities like.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a hospital in your city: nurses and paramedics deliver direct patient care (tertiary), the medical researcher developing a new treatment protocol works in a quaternary role, and the hospital director deciding resource allocation across ______ performs a quinary function.",
+     "a": "departments",
+     "self_check": true
     }
    ]
   }

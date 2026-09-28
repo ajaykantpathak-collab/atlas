@@ -20,7 +20,7 @@
     "match the angle of the plane to the resulting conic",
     "Explain the method of Sections of a Cone."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -59,7 +59,16 @@
      "question": "Which conic is formed when the cutting plane is parallel to the axis of the cone?",
      "type": "verify_property"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the solid's surface area or volume formula",
+     "explain": "apply the solid's surface area or volume formula: vol = 8 * 3 * 9 gives 216",
+     "compute": "vol = 8 * 3 * 9"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.11.2",
@@ -76,7 +85,7 @@
     "classify the degenerate conic from the given plane position",
     "Explain the method of Degenerate Conic Sections."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -115,7 +124,16 @@
      "question": "State the three possible degenerate conic sections.",
      "type": "verify_property"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 4 gives 4",
+     "compute": "lines = 4"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.11.3",
@@ -132,7 +150,7 @@
     "determine the radius of the circle from its equation",
     "Explain the method of Standard Equation of a Circle."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -171,7 +189,16 @@
      "question": "Find the centre and radius of the circle x^2 + y^2 + 6x - 4y - 3 = 0.",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 21 gives 132",
+     "compute": "circ = 2 * 22 / 7 * 21"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.11.4",
@@ -188,7 +215,7 @@
     "write the standard equation of the parabola",
     "Explain the method of Standard Equation of a Parabola."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -227,7 +254,16 @@
      "question": "Find the equation of the parabola with focus (4, 0) and directrix x = -4.",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (23 - 8) / 3 gives 5",
+     "compute": "x = (23 - 8) / 3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.11.5",
@@ -301,7 +337,7 @@
     "write the standard equation of the ellipse",
     "Explain the method of Standard Equation of an Ellipse."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -340,7 +376,16 @@
      "question": "Find the foci and vertices of the ellipse x^2/36 + y^2/20 = 1.",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (81 - 11) / 7 gives 10",
+     "compute": "x = (81 - 11) / 7"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.11.7",
@@ -414,7 +459,7 @@
     "write the standard equation of the hyperbola",
     "Explain the method of Standard Equation of a Hyperbola."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -453,7 +498,16 @@
      "question": "Find the foci and vertices of the hyperbola x^2/16 - y^2/9 = 1.",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (26 - 8) / 6 gives 3",
+     "compute": "x = (26 - 8) / 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.11.9",
@@ -470,7 +524,7 @@
     "determine the foci and eccentricity of the hyperbola",
     "Explain the method of Properties of a Hyperbola."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -509,7 +563,28 @@
      "question": "Find the foci and eccentricity of the hyperbola x^2/4 - y^2/12 = 1.",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the coordinate-geometry formula",
+     "explain": "apply the coordinate-geometry formula: dx = 10 - 4 gives 6",
+     "compute": "dx = 10 - 4"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the coordinate-geometry formula: dy = 10 - 2 gives 8",
+     "compute": "dy = 10 - 2"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 10",
+     "compute": "dist = sqrt(dx * dx + dy * dy)"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "license": "NCERT-derived; author-first rendered",

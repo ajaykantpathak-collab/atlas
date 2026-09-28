@@ -34,6 +34,31 @@
      "q": "Create a real-world scenario (Indian context) where a service organisation uses all five steps of the controlling process. Include at least one qualitative standard and show how management by exception is applied.",
      "a": "Example: A Bengaluru-based food delivery app sets standards: (1) Quantitative: 30-minute average delivery time; Qualitative: Customer satisfaction ≥ 4.5/5. (2) Measures actual: 35 min avg, 4.2 rating. (3) Compares: Both deviations negative. (4) Analyses: Uses critical point control — delivery time is KRA; satisfaction is secondary. Management by exception: Only delivery time deviation (>5 min beyond limit) escalated to CEO. (5) Corrective: Hires more delivery partners, optimises routing algorithm. A poor answer lacks qualitative standard, misses KRA focus, or doesn't show exception reporting.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Controlling is the systematic process of setting performance standards, measuring actual performance, comparing it with standards, analysing deviations, and taking corrective action to ensure ______ goals are achieved efficiently and effectively.",
+     "a": "organisational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the ______ manager at a textile factory in Surat.",
+     "a": "production",
+     "self_check": true
+    },
+    {
+     "q": "What is Controlling? State the definition given in this lesson.",
+     "a": "Controlling is the systematic process of setting performance standards, measuring actual performance, comparing it with standards, analysing deviations, and taking corrective action to ensure organisational goals are achieved efficiently and effectively.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Controlling?",
+     "a": "Students often think \"controlling\" means only the last step (taking corrective action) or that it is a one-time event at the end of a period.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can list the five steps of the controlling process in correct sequence, explain the purpose of each step with a business example, and distinguish between critical point control and management by exception as tools for analysing deviations.",
+     "self_check": true
     }
    ]
   }

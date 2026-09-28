@@ -34,6 +34,31 @@
      "q": "**Create:** Construct a realistic short-run cost schedule for a home-based candle-making business in Jaipur. Assume TFC = ₹2,000 (equipment, license). Variable costs: wax ₹30/kg, wick ₹5/piece, labor ₹200/day. Each candle uses 0.1 kg wax, 1 wick, and 0.01 labor-day. Produce a table for Q = 0 to 6 candles showing TFC, TVC, TC, AFC, AVC, ATC, MC. Explain why MC initially falls then rises.",
      "a": "**Expected answer criteria:**  \n- Correct per-unit variable cost = 0.1×30 + 5 + 0.01×200 = 3+5+2 = ₹10/candle (constant).  \n- TVC = 10Q (linear) → MC = constant ₹10.  \n- Table: Q=0: TFC=2000, TVC=0, TC=2000, AFC=–, AVC=–, ATC=–, MC=–  \n  Q=1: TVC=10, TC=2010, AFC=2000, AVC=10, ATC=2010, MC=10  \n  Q=2: TVC=20, TC=2020, AFC=1000, AVC=10, ATC=1010, MC=10  \n  ... up to Q=6.  \n- Explanation: With constant per-unit variable cost, MC is constant (horizontal). If the student introduces diminishing returns (e.g., labor becomes less efficient after 3 candles), MC would rise. A good answer recognizes that constant returns to variable input → constant MC; diminishing returns → rising MC.  \n**Why a poor answer reveals misunderstanding:** If TVC is not proportional to Q (e.g., they forget wick cost), unit cost is wrong. If they claim MC falls then rises without changing input proportions, they confuse short-run diminishing returns with long-run economies of scale.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In the short run, Total Fixed Cost (TFC) is the cost of fixed inputs (e.g., rent, ______) that does not change with output level; Total Variable Cost (TVC) is the cost of variable inputs (e.g., raw materials, labor) that varies directly with output; Total Cost (TC = TFC + TVC) is the sum of fixed and variable costs.",
+     "a": "machinery",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small bakery in Delhi that ______ artisanal bread.",
+     "a": "produces",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Each loaf requires ₹______ of flour, yeast, and labor (variable cost).",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) compute TFC, TVC, TC, AFC, AVC, ATC, and MC from a given cost schedule or production function with input prices; (2) explain why TFC is constant and TVC varies with output in the short run; (3) derive MC from TC and recognize that MC = ΔTVC/ΔQ because TFC is constant.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small bakery in Delhi that produces ______ bread.",
+     "a": "artisanal",
+     "self_check": true
     }
    ]
   }

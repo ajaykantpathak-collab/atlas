@@ -34,6 +34,26 @@
      "q": "Design a real-world scenario (Indian context) where CROSS JOIN is the appropriate choice, and write the SQL query. Explain why INNER/LEFT/RIGHT JOIN would not work.",
      "a": "Scenario: A clothing store has `Sizes(SID, SizeName)` with values S, M, L, XL and `Colors(CID, ColorName)` with values Red, Blue, Green. They need a stock matrix showing every size-color combination to initialize inventory with zero quantity.\nQuery:\n```sql\nSELECT S.SizeName, C.ColorName, 0 AS InitialQty\nFROM Sizes S\nCROSS JOIN Colors C;\n```\nResult: 4 × 3 = 12 rows. INNER/LEFT/RIGHT JOIN require a matching condition between tables, but sizes and colors have no direct relationship – they are independent attributes. CROSS JOIN is the only way to generate all combinations. A poor answer might suggest using a dummy key or UNION, showing inability to recognize independent dimensions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: LEFT JOIN ______ all rows from the left table and matching rows from the right table, with NULLs for non-matching right columns.",
+     "a": "returns",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a school database with two tables: Students (StudentID, Name) and ______ (EnrollmentID, StudentID, CourseName).",
+     "a": "Enrollments",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write correct SQL queries using LEFT JOIN, RIGHT JOIN, and CROSS JOIN for given relational scenarios, predict the exact number of rows and column values in the result set, and explain why each join type is chosen over INNER JOIN.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a school database with two tables: Students (StudentID, Name) and Enrollments (______, StudentID, CourseName).",
+     "a": "EnrollmentID",
+     "self_check": true
     }
    ]
   }

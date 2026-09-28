@@ -4,15 +4,9 @@
   {
    "id": "gegp.201.1",
    "title": "Congruent Figures",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the congruence condition and angle sums",
-     "explain": "use the congruence condition and angle sums: third = 180 - 32 - 80 gives 68",
-     "compute": "third = 180 - 32 - 80"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "figure_a congruent figure_b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two triangles are congruent. In triangle one the angles are 32 and 80 degrees; the third angle is what? (The third angles must match.)",
@@ -49,15 +43,9 @@
   {
    "id": "gegp.201.2",
    "title": "SSS Congruence Condition",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the congruence condition and angle sums",
-     "explain": "use the congruence condition and angle sums: third = 180 - 58 - 30 gives 92",
-     "compute": "third = 180 - 58 - 30"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "side1_a = side1_b, side2_a = side2_b, side3_a = side3_b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two triangles are congruent. In triangle one the angles are 58 and 30 degrees; the third angle is what? (The third angles must match.)",
@@ -94,15 +82,9 @@
   {
    "id": "gegp.201.3",
    "title": "Congruence Notation and Correspondence",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the congruence condition and angle sums",
-     "explain": "use the congruence condition and angle sums: third = 180 - 52 - 70 gives 58",
-     "compute": "third = 180 - 52 - 70"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "delta_abc congruent delta_xyz",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two triangles are congruent. In triangle one the angles are 52 and 70 degrees; the third angle is what? (The third angles must match.)",
@@ -139,15 +121,9 @@
   {
    "id": "gegp.201.4",
    "title": "SAS Congruence Condition",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 65 gives 25",
-     "compute": "other = 90 - 65"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "side1_a = side1_b, angle_included_a = angle_included_b, side2_a = side2_b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 65 degrees, find the other.",
@@ -184,15 +160,9 @@
   {
    "id": "gegp.201.5",
    "title": "ASA Congruence Condition",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 66 gives 24",
-     "compute": "other = 90 - 66"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "angle1_a = angle1_b, side_included_a = side_included_b, angle2_a = angle2_b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 66 degrees, find the other.",
@@ -230,6 +200,8 @@
    "id": "gegp.201.6",
    "title": "AAS Congruence Condition",
    "converted_to_compute": false,
+   "formula": "angle1_a = angle1_b, angle2_a = angle2_b, side_nonincluded_a = side_nonincluded_b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 15 degrees, find the other.",
@@ -266,15 +238,9 @@
   {
    "id": "gegp.201.7",
    "title": "RHS Congruence Condition",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 63 gives 27",
-     "compute": "other = 90 - 63"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "angle = 90, hypotenuse_a = hypotenuse_b, side_a = side_b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 63 degrees, find the other.",
@@ -312,6 +278,8 @@
    "id": "gegp.201.8",
    "title": "Angles of Isosceles Triangles",
    "converted_to_compute": false,
+   "formula": "if side_ab = side_ac then angle_b = angle_c",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 68 degrees, find the other.",
@@ -349,6 +317,8 @@
    "id": "gegp.201.9",
    "title": "Angles of an Equilateral Triangle",
    "converted_to_compute": false,
+   "formula": "angle = 180 / 3",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 48 degrees, find the other.",

@@ -34,6 +34,16 @@
      "q": "Design a simple experiment using household items to demonstrate that water pressure at the bottom of a container depends only on the height of the water column, not on the container's shape.",
      "a": "Take three plastic bottles of different shapes (wide, narrow, slanted) but same height. Cut off the bottoms and attach a thin rubber sheet with a small straw to each bottom. Fill each with water to the same height. Observe the water rise in the straws: they will reach the same height, showing equal pressure at the bottom. A poor answer (e.g., measuring flow rate from holes at different heights) confuses pressure with flow velocity and does not isolate the depth dependence.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a water tank in your home: the tap on the ground floor flows faster than the one on the terrace.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can derive the pressure-depth relationship from force balance on a fluid element, compute absolute and gauge pressures at any depth in a static fluid, and explain why pressure depends only on vertical depth and not on container shape (hydrostatic paradox).",
+     "self_check": true
     }
    ]
   }

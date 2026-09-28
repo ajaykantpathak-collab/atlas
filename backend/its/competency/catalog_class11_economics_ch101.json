@@ -209,7 +209,7 @@
     "State the values of infant mortality rate and life expectancy during the colonial era.",
     "Explain demographic profile and the demographic transition of 1921 in your own words."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -221,7 +221,16 @@
      "action": "list key demographic statistics",
      "explain": "Overall literacy was below 16% (female literacy around 7%), infant mortality was approximately 218 per thousand, and life expectancy was just 32 years."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "infant_mortality_rate = (infant_deaths / live_births) * 1000",
+     "compute": "infant_mortality_rate = (infant_deaths / live_births) * 1000"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keec.1.7.1",

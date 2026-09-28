@@ -34,6 +34,31 @@
      "q": "Design a mini-project: You have sequenced a novel viral genome and want to identify all known protein domains in it. Outline the alignment strategy (global/local), database, and tool you would use, and justify each choice.",
      "a": "Use local alignment (e.g., BLASTP) against a protein domain database (e.g., Pfam or CDD) because viral genomes are compact and may contain multiple domains in different reading frames; global alignment would fail due to length mismatches and non-homologous regions. A poor answer (e.g., \"use global alignment against GenBank\") shows the student cannot translate a real-world problem into appropriate bioinformatics choices.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sequence alignment is the ______ arrangement of two or more biological sequences (DNA, RNA, or protein) to identify regions of similarity that may indicate functional, structural, or evolutionary relationships.",
+     "a": "computational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have two DNA ______ from different bacteria: one is 1,200 bp long, the other is 1,500 bp.",
+     "a": "sequences",
+     "self_check": true
+    },
+    {
+     "q": "What is Sequence alignment? State the definition given in this lesson.",
+     "a": "Sequence alignment is the computational arrangement of two or more biological sequences (DNA, RNA, or protein) to identify regions of similarity that may indicate functional, structural, or evolutionary relationships.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Sequence alignment?",
+     "a": "Students often think \"global alignment is for similar sequences, local for dissimilar ones.\" This is incorrect: global alignment is for comparing *entire* sequences (regardless of similarity), while local alignment is for finding *any* conserved region (even in highly similar sequences).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to distinguish between global and local alignment scenarios, justify the choice of alignment type for a given biological question (e.g., comparing full-length orthologs vs. finding conserved domains), and explain how gap penalties and scoring matrices influence the alignment outcome.",
+     "self_check": true
     }
    ]
   }

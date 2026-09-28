@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_02_004",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_02_004",
+   "title": "c12_app_cbse_02_004",
+   "questions": [
+    {
+     "q": "**REMEMBER:** List the three distinct methods shown in the NCERT Concept Map for solving a system of simultaneous linear equations, and name the one matrix property that acts as a gatekeeper for two of them.",
+     "a": "**Correct Answer:** The three methods are: (1) Inverse of Coefficient Matrix Method (Adjoint Method), (2) Cramer's Rule, (3) Elementary Row Transformation (Row Reduction Method). The gatekeeper property is the **Determinant (|A|)** — if |A| = 0, the matrix is singular, making the Inverse Method and Cramer's Rule inapplicable (since they require |A| ≠ 0).\n**Wrong Answer Reveals:** If a student lists \"Matrix Multiplication\" or \"Transpose\" as a solving method, they confuse *algebraic operations* with *solution techniques*. If they miss \"Determinant\" as the gatekeeper, they do not understand why singular matrices break specific methods — a critical JEE/Board trap where questions give |A| = 0 and ask \"which method fails?\"",
+     "self_check": true
+    },
+    {
+     "q": "**UNDERSTAND:** The Concept Map shows \"Adjoint Matrix\" pointing to \"Inverse Matrix\" which points to \"Solving System... using Inverse Coefficient Method.\" Explain in your own words why the arrow direction is Adjoint → Inverse → Solution, and not Inverse → Adjoint → Solution.",
+     "a": "**Correct Answer:** The formula for inverse is A⁻¹ = (adj A) / |A|. You **must** compute the Adjoint (transpose of cofactor matrix) *first* to construct the Inverse. You cannot find the Adjoint from the Inverse without already knowing the Inverse — that would be circular. The arrow represents **computational dependency**: Adjoint is the *ingredient*; Inverse is the *dish*; Solution is the *meal*.\n**Wrong Answer Reveals:** If a student says \"Inverse comes first because it's more important,\" they confuse *conceptual hierarchy* with *procedural sequence*. This leads to exam errors where they write A⁻¹ = 1/|A| and forget the adj A factor entirely, losing 2-3 marks in Board \"find inverse\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "**APPLY:** A JEE Main question gives a 3×3 system AX = B where |A| = 0. The Concept Map shows three solution paths. Which **single method** from the map can *still* be attempted to analyze the system, and what are the **two possible outcomes** it will reveal?",
+     "a": "**Correct Answer:** **Row Reduction Method (Elementary Row Transformation)** on the augmented matrix [A|B]. Since it does not require |A| ≠ 0, it works for singular matrices. The two outcomes: (1) **Inconsistent (No Solution)** — if a row reduces to [0 0 0 | k] with k ≠ 0; (2) **Consistent with Infinite Solutions** — if rank(A) = rank([A|B]) < 3 (number of variables).\n**Wrong Answer Reveals:** If the student says \"Cramer's Rule\" or \"Inverse Method,\" they miss the |A| ≠ 0 precondition — a classic JEE trap. If they say \"Row Reduction gives a unique solution,\" they confuse *existence of method* with *nature of solution*. Board exams often ask: \"Using matrices, solve... or show inconsistency\" — this diagnostic catches that exact decision point.",
+     "self_check": true
+    },
+    {
+     "q": "**ANALYZE:** Compare the **Leontief Input-Output Model** branch on the Concept Map with the **System of Equations** branch. Identify the **exact structural similarity** in their matrix equation form, and explain why the Leontief model requires the **Hawkins-Simon Conditions** while a general linear system does not.",
+     "a": "**Correct Answer:** Both reduce to **(I - A)X = D** (Leontief) and **AX = B** (General System) — structurally, both are **Linear Matrix Equations** solving for X via X = (Coefficient Matrix)⁻¹ × (Constant Matrix). The difference: In Leontief, the coefficient matrix is **(I - A)** where A is the *technology matrix* (input coefficients < 1). **Hawkins-Simon Conditions** (|I-A| > 0 and diagonal(I-A) > 0) guarantee **(I-A)⁻¹ exists AND has all positive entries** — ensuring *economically meaningful* (non-negative) output X for positive demand D. A general system AX=B only needs |A| ≠ 0 for a unique solution; the solution can be negative/negative (mathematically valid but economically nonsense).\n**Wrong Answer Reveals:** If a student says \"Leontief uses Cramer's Rule,\" they miss the *economic interpretation* layer. If they think Hawkins-Simon is just \"|I-A| ≠ 0,\" they miss the **positivity of inverse entries** requirement — a frequent CUET/IPMAT case-study question where viability fails because (I-A)⁻¹ has negative entries even though |I-A| > 0.",
+     "self_check": true
+    },
+    {
+     "q": "**EVALUATE:** A student claims: \"The Concept Map shows 'Symmetric Matrix' and 'Skew-Symmetric Matrix' as dead ends — they don't connect to 'Solving Systems' or 'Leontief Model', so they are low-priority for exams.\" Critique this claim using the map's structure and competitive exam patterns.",
+     "a": "**Correct Answer:** The claim is **false and dangerous**. While Symmetric/Skew-Symmetric matrices (via Transpose) do not *directly* feed into System Solution arrows on the map, they are **high-yield for Board Competency Questions and JEE**:\n1. **Board (Case-Based):** \"Express given matrix as sum of symmetric and skew-symmetric\" — 4 marks, appears in 2023, 2022 papers.\n2. **JEE Advanced:** Properties like (AB - BA) is skew-symmetric if A,B symmetric; diagonal of skew-symmetric is zero — used in determinant simplification and matrix algebra MCQs.\n3. **CUET/IPMAT:** \"If A is symmetric, then Aⁿ is symmetric\" — tests property chaining.\nThe map shows them under \"Special Matrices\" (Transpose branch) — they are **tool-building nodes**, not application nodes. Ignoring them loses 8-10 marks across exams.\n**Wrong Answer Reveals:** If the student agrees, they treat the map as a *syllabus checklist* rather than a *skill dependency graph*. They will skip \"prove A + A' is symmetric\" derivations, which are 2-marker Board staples and JEE Integer-Type foundations.",
+     "self_check": true
+    },
+    {
+     "q": "**CREATE:** Design a **mini-concept-map** (5 nodes, 4 arrows) for a *new* real-life scenario: \"A startup allocates budget across Marketing (M), R&D (R), Operations (O) using a 3×3 transition matrix T. Next quarter's budget = T × Current Budget.\" Show the nodes and arrows needed to answer: \"Find initial budget if next quarter's budget is given and T is invertible.\"",
+     "a": "**Correct Answer (Criteria for Good Map):**\n**Nodes (5):**\n1. **Transition Matrix T (3×3)** — Given\n2. **Determinant |T|** — Gatekeeper (Check |T| ≠ 0)\n3. **Inverse Matrix T⁻¹** — Computed via Adjoint/Row Reduction\n4. **Current Budget Vector X** — Unknown to find\n5. **Next Quarter Budget Vector B** — Given\n**Arrows (4):**\nT → |T| (Check invertibility)\n|T| → T⁻¹ (Compute inverse only if |T| ≠ 0)\nT⁻¹ → X (Apply X = T⁻¹B)\nB → X (Input for multiplication)\n**Why this works:** Mirrors the main map's **Inverse Coefficient Method** path but contextualized. A poor map misses |T| check (assumes invertibility) or adds irrelevant nodes like \"Transpose\" or \"Leontief.\" This tests if the student can *transfer* the map structure to a new context — a JEE/Board \"Application\" competency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

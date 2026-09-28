@@ -27,12 +27,27 @@
     },
     {
      "q": "A student solves a recoil problem: \"A 100 kg gun fires a 10 g bullet at 800 m/s. Find recoil speed.\" They write: \\(0 = 0.01 \\times 800 + 100 \\times v \\Rightarrow v = -0.08\\ \\text{m/s}\\). Is this correct? If not, identify the error and give the correct answer.",
-     "a": "The equation is correct but the mass conversion is wrong: 10 g = 0.01 kg ✓. \\(0 = 8 + 100v \\Rightarrow v = -0.08\\ \\text{m/s}\\). Actually correct! Wait — check: \\(0.01 \\times 800 = 8\\ \\text{kg·m/s}\\). \\(100 \\times (-0.08) = -8\\ \\text{kg·m/s}\\). Sum = 0 ✓. The negative sign means opposite direction. The student's answer is correct. A wrong evaluation would be claiming the sign is wrong or mass conversion error. This tests careful unit checking and sign convention understanding.",
+     "a": "(1) The mass conversion is right — 10 g equals 0.01 kg, (2) The momentum sum is right — 0.01 times 800 gives 8 kg m/s and 100 times minus 0.08 gives minus 8 kg m/s, (3) The total momentum is zero, so the student's recoil speed of minus 0.08 m/s is correct, (4) The negative sign only shows the gun recoils opposite to the bullet. A wrong evaluation claiming a sign error or a mass-conversion error shows the student has not carefully checked units and the sign convention.",
      "self_check": true
     },
     {
      "q": "Design a simple classroom experiment using low-friction carts on a track to verify momentum conservation in a perfectly inelastic collision. Specify measurements needed, how to ensure isolation, and how to analyse data.",
      "a": "Use two carts with Velcro pads (stick on collision). Measure masses \\(m_1, m_2\\). Give cart 1 initial velocity \\(u_1\\) (photogate), cart 2 at rest. After collision, measure combined velocity \\(v\\) (photogate). Check \\(m_1 u_1 \\approx (m_1+m_2)v\\). Ensure isolation: level track (no gravity component), minimal friction (air track or low-friction wheels), collision time short so friction impulse negligible. Analyse: plot \\(m_1 u_1\\) vs \\((m_1+m_2)v\\) for multiple trials; slope should be 1. A poor design ignores friction or uses single trial without error analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The law follows directly from Newton's second and third laws and holds for all ______ and explosions in isolated systems, regardless of whether kinetic energy is conserved.",
+     "a": "collisions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a cricket bowler deliver a ball: the ball gains forward momentum while the bowler ______ a tiny backward recoil.",
+     "a": "experiences",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can identify whether a given physical system is isolated, set up vector momentum conservation equations for 1D and 2D collisions/explosions, solve for unknown velocities or masses, and distinguish between elastic and inelastic outcomes using kinetic energy comparison.",
      "self_check": true
     }
    ]

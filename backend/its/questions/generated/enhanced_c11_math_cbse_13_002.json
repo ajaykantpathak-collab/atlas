@@ -34,6 +34,21 @@
      "q": "Create a limit problem of the form limₓ→ₐ (polynomial)/(polynomial) that requires factorization of a cubic numerator and quadratic denominator, where the limit equals 5. Provide the problem and solution.",
      "a": "Example: limₓ→₂ (x³−2x²−x+2)/(x²−4) = 5. Solution: Numerator at x=2: 8−8−2+2=0, so (x−2) is a factor. Factor by grouping: x²(x−2)−1(x−2) = (x−2)(x²−1) = (x−2)(x−1)(x+1). Denominator: (x−2)(x+2). Cancel (x−2): limₓ→₂ (x−1)(x+1)/(x+2) = (1)(3)/4 = 3/4 ≠ 5. To get 5: design (x−2)(5x+5)/(x+2) → need numerator (x−2)(5x+5)=5x²−5x−10. A good student answer shows understanding of the factor theorem and reverse-engineering. A poor answer copies a known problem without verifying the limit equals 5.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Algebraic methods of evaluating limits involve manipulating an algebraic expression f(x) to remove ______ forms (such as 0/0, ∞/∞, 0·∞, ∞−∞) so that direct substitution of x → a yields a finite limit L, where limₓ→ₐ f(x) = L exists if and only if both left-hand limit (x → a⁻) and right-hand limit (x → a⁺) exist and are equal to L.",
+     "a": "indeterminate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're calculating the ______ speed of a car at exactly 2 seconds, but your distance formula gives 0/0 when you plug in t=2.",
+     "a": "instantaneous",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the indeterminate form, select the appropriate algebraic technique (factorization, rationalization, standard limits, or algebraic manipulation), execute the manipulation without algebraic errors, and state the final limit with proper justification.",
+     "self_check": true
     }
    ]
   }

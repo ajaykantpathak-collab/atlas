@@ -26,13 +26,33 @@
      "self_check": true
     },
     {
-     "q": "\"Cooperative societies enjoy government support in the form of low taxes and subsidies, yet they often suffer from inefficiency in management.\" Evaluate this statement by explaining why government support does not automatically translate into efficient management, using two specific limitations from the NCERT text.",
-     "a": "Government support addresses financial constraints (low taxes, subsidised loans) but cannot fix structural limitations: (1) Honorary services by members — unpaid volunteers lack professional management skills, leading to operational inefficiency. (2) Government control via auditing and regulatory compliance — bureaucratic interference reduces operational freedom and delays decisions. A wrong answer (e.g., \"government support causes inefficiency\" or listing unrelated limitations) reveals the student cannot distinguish between financial support and managerial capability, or confuses correlation with causation.",
+     "q": "Trace the correct sequence of links by which government support fails to become efficient management in a cooperative society.",
+     "a": "The chain runs: (1) Low taxes and subsidised loans ease the cooperative's financial burden (2) Management stays with honorary members who lack professional skills (3) Unpaid elected committees work without expert administration (4) Government control adds audits and compliance that slow decisions, so inefficiency persists despite support. A wrong answer that says support itself causes inefficiency shows the student has missed the structural limitations of honorary service and state control named in the textbook.",
      "self_check": true
     },
     {
      "q": "Design a cooperative society for a group of 30 women artisans in a rural village who make handcrafted textiles. They face three problems: (1) no access to quality raw materials at fair prices, (2) no direct market access — middlemen pay them very little, (3) no working capital for bulk orders. Specify the type(s) of cooperative society you would recommend, and for each problem, explain which cooperative function solves it.",
      "a": "Recommend a **Producer's Cooperative Society** (integrates all three functions) OR a combination: Producer's (for raw material procurement and production support) + Marketing (for direct market access) + Credit (for working capital). Mapping: Problem 1 → Producer cooperative procures raw materials in bulk at wholesale prices. Problem 2 → Marketing cooperative pools output, handles packaging/transport, sells directly to retailers/exporters. Problem 3 → Credit cooperative provides low-interest loans from member deposits. A poor answer (e.g., only \"consumer cooperative\" or no problem-function mapping) reveals the student cannot synthesise multiple cooperative types to solve a real-world multi-problem scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A cooperative society is a voluntary association of persons who join together to protect their common economic interests through a ______ controlled enterprise, where membership is open to all, liability is limited to capital contribution, and the primary motive is service to members rather than profit maximisation.",
+     "a": "democratically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and your neighbours in a ______ colony are tired of paying high maintenance charges to a private builder who ignores your complaints.",
+     "a": "housing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify any given real-world cooperative scenario into one of the six types (consumer, producer, marketing, farmer, credit, housing) and justify the classification by linking the society's purpose, member composition, and operational method to the defining features of that type.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and your neighbours in a housing colony are tired of paying high ______ charges to a private builder who ignores your complaints.",
+     "a": "maintenance",
      "self_check": true
     }
    ]

@@ -117,7 +117,7 @@
     "why do electron and hole currents add instead of cancelling",
     "distinguish the motion of a free electron from that of a hole"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -134,7 +134,16 @@
      "action": "add the streams",
      "explain": "total current equals the electron current plus the hole current"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "current_total = current_e + current_h",
+     "compute": "current_total = current_e + current_h"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph206.14.4.1",
@@ -338,7 +347,16 @@
      "explain": "divide the small voltage swing by the current swing it causes, with the current in amperes",
      "compute": "rd = volt_change / current_change"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rd = delta_v / delta_i",
+     "compute": "rd = delta_v / delta_i"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph206.14.7.1",
@@ -439,7 +457,16 @@
      "explain": "the ripple frequency is the pulse count times the input frequency",
      "compute": "freq_out = pulses_per_cycle * freq_in"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "freq_out = pulses_per_cycle * freq_in",
+     "compute": "freq_out = pulses_per_cycle * freq_in"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph206.14.7.4",
@@ -484,11 +511,30 @@
    "concept": "leph206.14.4.3",
    "question_type": "carrier_concentrations",
    "question_pattern": "A pure silicon crystal holds {atom_density} atoms per cubic metre and is doped with {doping_ppm} ppm of pentavalent arsenic. With intrinsic concentration {intrinsic_ni} per cubic metre, find the electron and hole densities.",
-   "extracted_variables": {"atom_density": 5e+28, "doping_ppm": 1.0, "intrinsic_ni": 1.5e+16},
+   "extracted_variables": {
+    "atom_density": 5e+28,
+    "doping_ppm": 1.0,
+    "intrinsic_ni": 1.5e+16
+   },
    "solution_template": [
-    {"step": 1, "action": "dopant density", "explain": "5e28 * 1e-6 = 5e22 donors per cubic metre", "compute": "donor_nd = atom_density * (doping_ppm / 1.0e6)"},
-    {"step": 2, "action": "electrons from donors", "explain": "donor electrons swamp the intrinsic ones, so ne is about 5e22 per cubic metre", "compute": "carrier_majority = donor_nd"},
-    {"step": 3, "action": "holes from the mass action law", "explain": "(1.5e16)^2 / 5e22 = 4.5e9 holes per cubic metre", "compute": "carrier_minority = (intrinsic_ni ** 2) / carrier_majority"}
+    {
+     "step": 1,
+     "action": "dopant density",
+     "explain": "5e28 * 1e-6 = 5e22 donors per cubic metre",
+     "compute": "donor_nd = atom_density * (doping_ppm / 1.0e6)"
+    },
+    {
+     "step": 2,
+     "action": "electrons from donors",
+     "explain": "donor electrons swamp the intrinsic ones, so ne is about 5e22 per cubic metre",
+     "compute": "carrier_majority = donor_nd"
+    },
+    {
+     "step": 3,
+     "action": "holes from the mass action law",
+     "explain": "(1.5e16)^2 / 5e22 = 4.5e9 holes per cubic metre",
+     "compute": "carrier_minority = (intrinsic_ni ** 2) / carrier_majority"
+    }
    ]
   },
   {
@@ -497,11 +543,31 @@
    "concept": "leph206.14.6.2",
    "question_type": "dynamic_resistance",
    "question_pattern": "On a silicon diode curve the current swings from {i_low_a} A to {i_high_a} A while the voltage moves from {v_low} V to {v_high} V. Calculate the diode's dynamic resistance in this region.",
-   "extracted_variables": {"v_low": 0.7, "v_high": 0.8, "i_low_a": 0.01, "i_high_a": 0.02},
+   "extracted_variables": {
+    "v_low": 0.7,
+    "v_high": 0.8,
+    "i_low_a": 0.01,
+    "i_high_a": 0.02
+   },
    "solution_template": [
-    {"step": 1, "action": "voltage swing", "explain": "0.8 - 0.7 = 0.1 V", "compute": "volt_change = v_high - v_low"},
-    {"step": 2, "action": "current swing", "explain": "0.02 - 0.01 = 0.01 A", "compute": "current_change = i_high_a - i_low_a"},
-    {"step": 3, "action": "slope gives rd", "explain": "0.1 V over 0.01 A = 10 ohm", "compute": "rd = volt_change / current_change"}
+    {
+     "step": 1,
+     "action": "voltage swing",
+     "explain": "0.8 - 0.7 = 0.1 V",
+     "compute": "volt_change = v_high - v_low"
+    },
+    {
+     "step": 2,
+     "action": "current swing",
+     "explain": "0.02 - 0.01 = 0.01 A",
+     "compute": "current_change = i_high_a - i_low_a"
+    },
+    {
+     "step": 3,
+     "action": "slope gives rd",
+     "explain": "0.1 V over 0.01 A = 10 ohm",
+     "compute": "rd = volt_change / current_change"
+    }
    ]
   },
   {
@@ -510,10 +576,22 @@
    "concept": "leph206.14.7.3",
    "question_type": "rectifier_frequency",
    "question_pattern": "A full-wave centre-tap rectifier is fed {freq_in} Hz ac. What is the fundamental frequency of its output? What would it be for a half-wave rectifier on the same input?",
-   "extracted_variables": {"freq_in": 50.0, "pulses_per_cycle": 2.0},
+   "extracted_variables": {
+    "freq_in": 50.0,
+    "pulses_per_cycle": 2.0
+   },
    "solution_template": [
-    {"step": 1, "action": "pulses per cycle", "explain": "two diodes conduct on alternate halves, so two pulses per cycle; a half-wave unit manages one"},
-    {"step": 2, "action": "output frequency", "explain": "2 * 50 = 100 Hz for the full-wave case, 50 Hz for half-wave", "compute": "freq_out = pulses_per_cycle * freq_in"}
+    {
+     "step": 1,
+     "action": "pulses per cycle",
+     "explain": "two diodes conduct on alternate halves, so two pulses per cycle; a half-wave unit manages one"
+    },
+    {
+     "step": 2,
+     "action": "output frequency",
+     "explain": "2 * 50 = 100 Hz for the full-wave case, 50 Hz for half-wave",
+     "compute": "freq_out = pulses_per_cycle * freq_in"
+    }
    ]
   },
   {
@@ -522,11 +600,25 @@
    "concept": "leph206.14.4.1",
    "question_type": "carrier_type_classification",
    "question_pattern": "A silicon sample is doped with phosphorus ({dopant_valency} valence electrons per dopant atom). Name the semiconductor type, the dopant kind, and the majority and minority carriers.",
-   "extracted_variables": {"dopant_valency": 5},
+   "extracted_variables": {
+    "dopant_valency": 5
+   },
    "solution_template": [
-    {"step": 1, "action": "classify the dopant", "explain": "five valence electrons make phosphorus a pentavalent donor in the tetravalent lattice"},
-    {"step": 2, "action": "name the type", "explain": "donor doping gives n-type material"},
-    {"step": 3, "action": "assign the carriers", "explain": "electrons are majority carriers; the few thermally made holes are minority carriers"}
+    {
+     "step": 1,
+     "action": "classify the dopant",
+     "explain": "five valence electrons make phosphorus a pentavalent donor in the tetravalent lattice"
+    },
+    {
+     "step": 2,
+     "action": "name the type",
+     "explain": "donor doping gives n-type material"
+    },
+    {
+     "step": 3,
+     "action": "assign the carriers",
+     "explain": "electrons are majority carriers; the few thermally made holes are minority carriers"
+    }
    ]
   }
  ],

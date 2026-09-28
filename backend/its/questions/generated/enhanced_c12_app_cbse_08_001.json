@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_08_001",
+   "title": "c12_app_cbse_08_001",
+   "questions": [
+    {
+     "q": "What does an index number of 125 for the year 2023 with base year 2010 indicate about price levels?",
+     "a": "An index of 125 means prices in 2023 are 25% higher than in the base year 2010. A wrong answer like \"prices increased by 125%\" reveals the student misunderstands that the base is 100, not 0 — they are treating the index as an absolute percentage rather than a relative measure anchored at 100.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the base period index always fixed at 100, and not at 1, 1000, or any other number?",
+     "a": "The base is fixed at 100 so that the index number directly shows percentage change: an index of 115 means a 15% increase, 92 means an 8% decrease. If base were 1, index 1.15 would require mental conversion; if 1000, index 1150 would be less intuitive. A wrong answer like \"it's just a convention\" shows the student misses the practical purpose — easy interpretation of percentage change without calculation.",
+     "self_check": true
+    },
+    {
+     "q": "A news report states: \"The Consumer Price Index (CPI) rose from 160 to 176 this year.\" Calculate the percentage increase in the price level and explain why you cannot simply say \"CPI increased by 16 points.\"",
+     "a": "Percentage increase = ((176 - 160) / 160) × 100 = 10%. Saying \"increased by 16 points\" is misleading because index points are not percentage points — the same 16-point rise from 100 to 116 would be 16%, but from 200 to 216 only 8%. A wrong answer of \"16%\" reveals the student confuses index points with percentage change, a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: Price Index, Quantity Index, and Value Index. Give one real-world example of each used in India.",
+     "a": "Price Index measures price changes (e.g., CPI — retail inflation). Quantity Index measures volume changes (e.g., IIP — industrial output). Value Index measures total value changes (e.g., total sales revenue index). A wrong answer that swaps examples (e.g., \"CPI is a quantity index\") shows confusion between *what* is being measured — price vs. quantity vs. value — which is fundamental to choosing the right index for policy analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Since the Wholesale Price Index (WPI) increased from 120 to 132, the purchasing power of money decreased by 10%.\"",
+     "a": "The statement is incorrect. WPI increase = ((132-120)/120)×100 = 10%, but purchasing power of money = (100 / current index) × 100 relative to base. If base WPI = 100, purchasing power fell from 100/120 ≈ 83.3 to 100/132 ≈ 75.8 — a decline of about 9%, not 10%. A wrong answer accepting the 10% claim reveals the student doesn't understand the inverse relationship between price index and purchasing power.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple index series to track the \"cost of a student's monthly snack budget\" over 5 months. Specify: (a) base month, (b) 3-4 snack items with quantities, (c) how you'd compute the index each month, and (d) one limitation of your index.",
+     "a": "Example: Base = January. Items: Samosa (20 pcs), Chai (30 cups), Bread pakora (15 pcs), Juice (10 bottles). Monthly index = (Σ current price × base qty) / (Σ base price × base qty) × 100 (Laspeyres-style). Limitation: Fixed quantities ignore substitution (e.g., if samosa price spikes, student buys more bread pakora). A poor answer uses current quantities (Paasche) or simple average of prices — showing they don't grasp the purpose of a fixed-weight index for consistent comparison.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

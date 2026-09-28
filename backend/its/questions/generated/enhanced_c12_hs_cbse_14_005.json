@@ -34,6 +34,31 @@
      "q": "Design a simple home experiment to determine whether a given water sample has temporary hardness, permanent hardness, or both. List the steps, observations, and conclusions you would draw.",
      "a": "1. Take three test tubes with equal volumes of the water sample. 2. To Tube A, add soap solution and shake — scum formation indicates hardness. 3. Boil Tube B for 10 minutes, cool, then add soap — if scum disappears, temporary hardness was present. 4. To Tube C (unboiled), add washing soda, shake, filter, then add soap — if scum disappears, permanent hardness was present. 5. Conclusion: If only Tube B gives lather → only temporary hardness; if only Tube C gives lather → only permanent hardness; if both B and C give lather → both types present. A poor design (e.g., skipping the boiling step or not using a control) fails to isolate the hardness type.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Water hardness refers to the ______ of dissolved calcium and magnesium salts (primarily bicarbonates, sulfates, and chlorides) in water that interferes with the cleaning action of soaps by forming insoluble precipitates (scum).",
+     "a": "concentration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a white cotton kurta with a good quality soap, but instead of bright white, it comes out dull gray and feels stiff.",
+     "a": "washing",
+     "self_check": true
+    },
+    {
+     "q": "What is Water hardness? State the definition given in this lesson.",
+     "a": "Water hardness refers to the concentration of dissolved calcium and magnesium salts (primarily bicarbonates, sulfates, and chlorides) in water that interferes with the cleaning action of soaps by forming insoluble precipitates (scum).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Water hardness?",
+     "a": "Students often believe that \"boiling removes all hardness\" because they see scale deposits in kettles and assume that is the only hardness.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) distinguish between temporary and permanent hardness based on chemical composition and response to boiling, (2) write balanced chemical equations for at least two household water-softening methods (boiling, washing soda, ion exchange), and (3) select the most appropriate softening method for a given fabric.",
+     "self_check": true
     }
    ]
   }

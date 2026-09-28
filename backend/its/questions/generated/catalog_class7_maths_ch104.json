@@ -5,6 +5,8 @@
    "id": "gegp.104.1",
    "title": "Concept of Letter-Numbers (Variables)",
    "converted_to_compute": false,
+   "formula": "s = a + k",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 9 when x = 5.",
@@ -42,6 +44,8 @@
    "id": "gegp.104.2",
    "title": "Translating Phrases to Algebraic Expressions",
    "converted_to_compute": false,
+   "formula": "expression = n + k or n - k",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 3 when x = 9.",
@@ -79,6 +83,8 @@
    "id": "gegp.104.3",
    "title": "Evaluating Algebraic Expressions",
    "converted_to_compute": false,
+   "formula": "value = expression(variable = n)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 2 when x = 6.",
@@ -115,15 +121,9 @@
   {
    "id": "gegp.104.4",
    "title": "Omission of Multiplication Symbol",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute the given values and simplify",
-     "explain": "substitute the given values and simplify: val = 3 * 6 + 5 gives 23",
-     "compute": "val = 3 * 6 + 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "a * n = an",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 5 when x = 6.",
@@ -161,6 +161,8 @@
    "id": "gegp.104.5",
    "title": "Perimeter of Regular Polygons as Expressions",
    "converted_to_compute": false,
+   "formula": "perimeter = n * side_length",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A rectangular park is 24 m long and 22 m wide. Find its perimeter.",
@@ -197,15 +199,9 @@
   {
    "id": "gegp.104.6",
    "title": "Like and Unlike Terms",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute the given values and simplify",
-     "explain": "substitute the given values and simplify: val = 3 * 8 + 2 gives 26",
-     "compute": "val = 3 * 8 + 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "like: {ax, bx}, unlike: {ax, by}",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 2 when x = 8.",
@@ -243,6 +239,8 @@
    "id": "gegp.104.7",
    "title": "Simplification by Combining Like Terms",
    "converted_to_compute": false,
+   "formula": "ac + bc = (a + b)c",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 5 when x = 7.",
@@ -280,6 +278,8 @@
    "id": "gegp.104.8",
    "title": "Perimeter of a Rectangle as an Expression",
    "converted_to_compute": false,
+   "formula": "p = 2*l + 2*b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A rectangular park is 23 m long and 35 m wide. Find its perimeter.",
@@ -317,6 +317,8 @@
    "id": "gegp.104.9",
    "title": "Generalizing Patterns (nth Term)",
    "converted_to_compute": false,
+   "formula": "position = a*n + b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 10th term of the AP with first term 2 and common difference 9.",

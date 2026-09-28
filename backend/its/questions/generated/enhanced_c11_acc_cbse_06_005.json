@@ -34,6 +34,26 @@
      "q": "Create an original scenario involving a partial omission error in a cash transaction (e.g., cash received from a debtor). Write the wrong effect, correct effect, and the rectification entry using a Suspense Account.",
      "a": "**Scenario:** Cash ₹5,000 received from debtor Anil was entered in the Cash Book but not posted to Anil's account. **Wrong effect:** Cash A/c Dr. ₹5,000 (correct), Anil A/c Dr. Nil (missing). **Correct effect:** Cash A/c Dr. ₹5,000, To Anil A/c ₹5,000. **Rectification:** Anil A/c Dr. ₹5,000 To Suspense A/c ₹5,000. A poor answer (e.g., debiting Cash again) shows the student fails to identify which account is already correct and which is missing the posting.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Errors of Omission occur when a ______ is either completely left out from the books of original entry (complete omission) or recorded in the subsidiary book but not posted to the relevant ledger account (partial omission).",
+     "a": "transaction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: On March 15th, you sold notebooks worth ₹5,000 to a ______ on credit.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to distinguish between complete and partial omission, identify the effect of each on the trial balance, and write the correct rectification journal entry (with or without Suspense Account) for a given omission scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: On March 15th, you sold ______ worth ₹5,000 to a school on credit.",
+     "a": "notebooks",
+     "self_check": true
     }
    ]
   }

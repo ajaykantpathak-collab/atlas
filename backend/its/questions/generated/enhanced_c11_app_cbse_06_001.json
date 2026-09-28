@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_06_001",
+   "title": "c11_app_cbse_06_001",
+   "questions": [
+    {
+     "q": "State the Fundamental Principle of Multiplication in your own words, and give a real-life example (different from dosa/idli) where it applies.",
+     "a": "Correct answer: \"If a task can be completed in a sequence of steps where step 1 has m ways, step 2 has n ways (after step 1), etc., total ways = m × n × ... Example: Choosing a 3-course meal — 4 starters, 5 mains, 3 desserts → 4×5×3=60 meals.\" A wrong answer (e.g., adding instead of multiplying, or citing independent non-sequential events) reveals the student conflates 'AND' (sequential) with 'OR' (exclusive), or doesn't grasp that the principle requires *ordered succession* of choices.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"5! = 5 × 4! is true, so 0! = 0 × (-1)! must also be true.\" Explain why this reasoning is flawed, using the definition of factorial.",
+     "a": "Correct answer: \"Factorial is defined only for non-negative integers. The recursive relation n! = n × (n-1)! holds for n ≥ 1. 0! is *defined* as 1 (empty product convention), not derived from (-1)! which is undefined. The pattern 5! = 5×4!, 4! = 4×3!, ..., 1! = 1×0! forces 0! = 1 for consistency.\" A wrong answer (e.g., \"0! = 0\" or \"(-1)! exists\") shows the student treats factorial as an algebraic formula extendable to negatives, missing its combinatorial meaning (arrangements of 0 objects = 1 way: do nothing).",
+     "self_check": true
+    },
+    {
+     "q": "A password must be 6 characters long using only letters {A, B, C} and digits {1, 2}. Repetition allowed. How many passwords contain *exactly one digit*? Show your reasoning using the Fundamental Principles.",
+     "a": "Correct answer: Step 1: Choose position for the single digit — 6 ways (Rule of Product: 1 choice of position type × 6 positions). Step 2: Fill that position with a digit — 2 ways (1 or 2). Step 3: Fill remaining 5 positions with letters — 3⁵ ways (3 choices each, repetition allowed). Total = 6 × 2 × 3⁵ = 6 × 2 × 243 = 2916. A wrong answer (e.g., 6 × 2 × 3⁵ × something, or 5×2×3⁵) reveals failure to decompose: choosing position AND filling it are sequential (multiply), not exclusive (add).",
+     "self_check": true
+    },
+    {
+     "q": "Compare: (A) Number of ways to select a captain and vice-captain from 11 players. (B) Number of ways to select a 2-member leadership committee from 11 players. Without calculating, explain why (A) > (B) and by what factor.",
+     "a": "Correct answer: \"(A) is permutations (order matters: Captain X, VC Y ≠ Captain Y, VC X). (B) is combinations (order irrelevant: {X,Y} = {Y,X}). Each unordered pair in (B) corresponds to 2! = 2 ordered pairs in (A). So (A) = 2 × (B).\" A wrong answer (e.g., \"(A) = (B)\" or \"factor is 11\") shows the student doesn't internalize that permutations = combinations × r! — the core link between the two concepts.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this solution: \"How many 4-digit even numbers can be formed from digits {1,2,3,4,5} without repetition? Solution: Units place must be even → 2 choices (2,4). Thousands place → 4 choices (remaining). Hundreds → 3. Tens → 2. Total = 2×4×3×2 = 48.\"",
+     "a": "Correct answer: \"The solution is *correct* for this specific digit set. But the *reasoning order* is risky: filling units place *first* (most restrictive) is the correct strategy. If digits included 0, thousands place couldn't be 0 — the solver must handle restrictions first. A robust approach: (Case 1: units=2) thousands: 3 choices (1,3,4,5 minus 0? no 0 here) → 3×3×2=18. (Case 2: units=4) similarly 18. Total 36? Wait — original digits {1,2,3,4,5} no 0, so thousands has 4 choices after units fixed. 2×4×3×2=48 is right. But if 0 were included, this method fails unless cases are split.\" A poor critique (e.g., \"it's wrong because 0 not considered\") misses that the problem *has no 0* — but the student should recognize the *methodological flaw*: always fill most restricted position first, and case-split when restrictions interact (like 0 in thousands place).",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world counting problem (Indian context) that requires *both* the Addition and Multiplication Principles in sequence. State the problem clearly, then solve it step-by-step.",
+     "a": "Good answer example: \"Problem: An IPL team selects a playing XI. They must choose: (A) 1 wicketkeeper from 2, (B) 4 bowlers from 5, (C) 6 batsmen from 8. But the captain (already chosen) is a batsman. So remaining 5 batsman spots from 7 others. Total ways = (ways to choose WK) × (ways to choose bowlers) × (ways to choose remaining batsmen) = 2C1 × 5C4 × 7C5 = 2 × 5 × 21 = 210. Here Addition isn't used — wait, need both principles. Revised problem: 'A student applies to 3 IITs. IIT Bombay has 4 branches, IIT Delhi 5, IIT Madras 3. He will accept exactly 1 offer. How many (institute, branch) pairs are possible?' Solution: Choose institute (Addition: 3 choices) THEN choose branch within it (Multiplication: 4, 5, or 3). But this is just sum of products... Better: 'A meal combo: choose 1 starter (3 veg + 2 non-veg) AND 1 main (4 veg + 3 non-veg). How many combos with *at least one veg item*?' Solution: Total combos = (3+2)×(4+3)=35. Non-veg only = 2×3=6. Veg-inclusive = 35-6=29. Uses both principles.\" A poor answer uses only one principle, or creates a convoluted scenario without clear decomposition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

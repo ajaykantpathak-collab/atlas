@@ -34,6 +34,26 @@
      "q": "Design a quick mental checklist (3–4 steps) that a student can use during an exam to verify that a written electronic configuration or orbital diagram does not violate Pauli's Exclusion Principle.",
      "a": "Expected answer (criteria): A good checklist includes: (1) Count electrons in each orbital box — no box has more than 2 arrows. (2) In any box with 2 arrows, one must point up (↑) and one down (↓). (3) For a given subshell (e.g., 2p), total electrons ≤ 2(2l+1) (i.e., ≤6 for p, ≤10 for d). (4) Total electrons in shell n ≤ 2n². A poor answer (e.g., \"just check the total electron count\") shows the student cannot translate the principle into operational verification steps for orbital diagrams.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Pauli's ______ Principle states that no two electrons in an atom can have an identical set of four quantum numbers (n, l, mₗ, mₛ).",
+     "a": "Exclusion",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a residential apartment complex where each flat has a unique address: building number (n), floor (l), flat number on that floor (mₗ), and the ______ bed in the room (mₛ = ↑ or ↓).",
+     "a": "specific",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) State Pauli's Exclusion Principle precisely using the four quantum numbers, (2) Calculate the maximum number of electrons in any given subshell (s, p, d, f) and shell (n) using the principle, (3) Identify whether a given set of quantum numbers for multiple electrons violates the principle, and (4) Apply.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ apartment complex where each flat has a unique address: building number (n), floor (l), flat number on that floor (mₗ), and the specific bed in the room (mₛ = ↑ or ↓).",
+     "a": "residential",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a concave mirror, a metre scale, and a distant object (like a tree or building) to determine the focal length of the mirror. Describe the steps and how you would ensure accuracy.",
      "a": "Steps: (1) Mount the concave mirror on a stand facing a distant object (at least 50 m away). (2) Place a white screen on the other side of the mirror. (3) Move the screen back and forth until a sharp, inverted image of the distant object forms. (4) Measure the distance between the mirror's pole and the screen using the metre scale — this is the focal length. (5) Repeat 3 times and take the average. Accuracy: use a distant object so incoming rays are nearly parallel; ensure the screen is perpendicular to the principal axis; measure from the pole (not the mirror's edge). A poor answer (e.g., using a nearby object, measuring from the wrong point, or not repeating) shows lack of experimental rigor and misunderstanding of \"parallel rays.\"",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The principal focus (F) of a concave mirror is the point on the principal axis where light rays parallel to the principal axis converge after ______.",
+     "a": "reflection",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a stainless steel spoon from your kitchen: the inner curved ______ acts like a concave mirror.",
+     "a": "surface",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For a concave mirror, the focal length is half the radius of curvature (f = R/______) and is taken as negative in the Cartesian sign convention.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why parallel rays converge at a single point after reflecting from a concave mirror, derive the relationship f = R/2 using geometry, and calculate the focal length given the radius of curvature (or vice versa) with correct sign and units.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ steel spoon from your kitchen: the inner curved surface acts like a concave mirror.",
+     "a": "stainless",
+     "self_check": true
     }
    ]
   }

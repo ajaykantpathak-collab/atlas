@@ -34,6 +34,36 @@
      "q": "Create a 3-step verification checklist a Class 11 student can use when receiving any message asking for personal information (Aadhaar, OTP, password). Make it practical for Indian context.",
      "a": "Good checklist: (1) Source Check — Is sender using official domain (e.g., @sbi.co.in not @sbi-services.xyz)? Call official helpline (1800-xxx-xxxx) to verify. (2) Request Check — Legitimate orgs NEVER ask for OTP/password/Aadhaar via email/SMS. (3) Urgency Check — \"Act now or lose access\" is a red flag; take 10 minutes to verify. Poor answer like \"check spelling\" shows focus on superficial cues — misses structural verification needed for sophisticated attacks.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Phishing is a cybercrime where attackers ______ legitimate entities through fraudulent emails, websites, or messages to trick users into revealing sensitive information like passwords, banking details, or Aadhaar numbers.",
+     "a": "impersonate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive an email claiming your SBI account will be closed in 2 hours unless you \"verify\" your details by ______ a link.",
+     "a": "clicking",
+     "self_check": true
+    },
+    {
+     "q": "What is Phishing? State the definition given in this lesson.",
+     "a": "Phishing is a cybercrime where attackers impersonate legitimate entities through fraudulent emails, websites, or messages to trick users into revealing sensitive information like passwords, banking details, or Aadhaar numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive an email claiming your SBI account will be closed in ______ hours unless you \"verify\" your details by clicking a link.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Phishing?",
+     "a": "Students believe phishing only happens via email and only targets \"gullible\" people.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently identify a phishing attempt by analyzing URL discrepancies, email headers, and urgency tactics; explain the three types of identity theft with distinct real-world examples; and distinguish cyberbullying from normal online conflict by identifying repetition, power imbalance, and intent to harm.",
+     "self_check": true
     }
    ]
   }

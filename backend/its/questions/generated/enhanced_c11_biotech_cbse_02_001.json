@@ -34,6 +34,31 @@
      "q": "Design a diagnostic flowchart (decision tree) with exactly 5 yes/no questions that a microscopist could use to classify an unknown cell as prokaryotic or eukaryotic based solely on ultrastructural features visible in a transmission electron micrograph. Each question must target a single, unambiguous structural criterion from NCERT.",
      "a": "**Flowchart:**\n1. Is there a double-membrane bound nucleus with nuclear pores? → YES = Eukaryotic; NO → Q2\n2. Are cytoplasmic ribosomes 80S (60S+40S)? → YES = Eukaryotic; NO → Q3\n3. Are membrane-bound organelles (mitochondria with cristae, Golgi cisternae, ER) present? → YES = Eukaryotic; NO → Q4\n4. Does the cell wall contain peptidoglycan (muramic acid)? → YES = Prokaryotic; NO → Q5\n5. Do flagella/cilia show a 9+2 microtubule array? → YES = Eukaryotic; NO = Prokaryotic (9+0 or absent)\n\n**Criteria for good answer:** Questions must be mutually exclusive, based on NCERT-listed features, and lead to a definitive classification in ≤5 steps. A poor answer uses functional criteria (e.g., \"does it photosynthesize?\"), combines multiple features in one question, or fails to distinguish 70S in prokaryotic cytoplasm vs. eukaryotic organelles.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Prokaryotic cells are defined by the absence of a true membrane-bound nucleus and membrane-bound organelles, with genetic material organized in a nucleoid region, while eukaryotic cells possess a well-defined nucleus enclosed by a double-membrane nuclear envelope and contain membrane-bound organelles (endoplasmic reticulum, Golgi apparatus, mitochondria, plastids, lysosomes, vacuoles, peroxisomes) that ______ cellular functions.",
+     "a": "compartmentalize",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a forensic biotechnologist examining two ______ microscopic samples: one from a yogurt culture (Lactobacillus) and another from a human cheek swab.",
+     "a": "unknown",
+     "self_check": true
+    },
+    {
+     "q": "What is Prokaryotic cells? State the definition given in this lesson.",
+     "a": "Prokaryotic cells are defined by the absence of a true membrane-bound nucleus and membrane-bound organelles, with genetic material organized in a nucleoid region, while eukaryotic cells possess a well-defined nucleus enclosed by a double-membrane nuclear envelope and contain membrane-bound organelles (endoplasmic reticulum, Golgi.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Prokaryotic cells?",
+     "a": "Students often believe that \"prokaryotes lack ribosomes\" or \"prokaryotes have 80S ribosomes\" because they memorize \"eukaryotes = 80S, prokaryotes = 70S\" without understanding that 70S ribosomes exist in eukaryotic mitochondria and chloroplasts.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to construct a comparative table distinguishing prokaryotic and eukaryotic cells across at least 8 structural parameters (nuclear organization, ribosome type, membrane-bound organelles, cell wall composition, flagellar structure, chromosome number, DNA packaging, cell division mechanism) and justify each.",
+     "self_check": true
     }
    ]
   }

@@ -4,15 +4,9 @@
   {
    "id": "c8m13.1.1",
    "title": "Line Graphs",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "recall the count for the shape",
-     "explain": "recall the count for the shape: lines = 2 gives 2",
-     "compute": "lines = 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "line graph = data points joined by line segments over time",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a rectangle have?",
@@ -50,6 +44,8 @@
    "id": "c8m13.1.2",
    "title": "Reading Values from a Graph",
    "converted_to_compute": false,
+   "formula": "change = later reading - earlier reading",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a frequency table the rows have frequencies 7, 4 and 8. Find the total frequency.",
@@ -86,15 +82,9 @@
   {
    "id": "c8m13.2.1",
    "title": "Independent and Dependent Variables",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute the given values and simplify",
-     "explain": "substitute the given values and simplify: val = 3 * 2 + 6 gives 12",
-     "compute": "val = 3 * 2 + 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "dependent variable = f(independent variable)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 6 when x = 2.",
@@ -131,15 +121,9 @@
   {
    "id": "c8m13.2.2",
    "title": "Drawing a Linear Graph",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "set up the proportion and solve for the unknown part",
-     "explain": "set up the proportion and solve for the unknown part: t1 = 15 / 3 gives 5",
-     "compute": "t1 = 15 / 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "steps: choose scale -> mark axes -> plot points -> join the points",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 15 : 24 in its simplest form and give the first term of the simplest form.",
@@ -177,6 +161,8 @@
    "id": "c8m13.2.3",
    "title": "Using Graphs of Direct Variation (Quantity-Cost, Time-Distance)",
    "converted_to_compute": false,
+   "formula": "distance = speed x time; cost = rate x quantity",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 20 : 44 in its simplest form and give the first term of the simplest form.",

@@ -34,6 +34,26 @@
      "q": "Design a \"District Human Development Index\" for your own district using locally available data. Specify: (a) which indicators you would use for each of the three dimensions (justify any substitutions from the national/global HDI), (b) what minimum and maximum goalposts you would set for each indicator, and (c) how you would handle missing data for one indicator.",
      "a": "A good answer demonstrates contextual adaptation:  \n(a) **Health**: Instead of life expectancy at birth (often unavailable at district level), use Infant Mortality Rate (IMR) or Under-5 Mortality Rate — inversely related to longevity. **Education**: Use literacy rate (7+ age) and net enrolment ratio at secondary level (more relevant than gross enrolment). **Income**: Use per capita district domestic product (if available) or proxy like % households with pucca house, electricity, sanitation (asset index).  \n(b) **Goalposts**: Set minimum at the worst observed value across districts in the state (or a normative floor like IMR=100, literacy=0%, income=₹20,000) and maximum at the best observed (or a normative ceiling like IMR=10, literacy=100%, income=₹2,00,000).  \n(c) **Missing data**: Use imputation from neighboring districts with similar socio-economic profile, or drop the dimension and re-weight (with caveat), or use a proxy indicator with clear documentation.  \nA poor answer simply copies national indicators without justifying feasibility at district level, or ignores the goalpost-setting challenge, or says \"ignore missing data\" without a method.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Human Development Index (HDI) is a composite ______ measure used by the United Nations Development Programme (UNDP) to rank countries based on their average achievement in three basic dimensions of human development: a long and healthy life (health), access to knowledge (education), and a decent standard of living (access to resources).",
+     "a": "statistical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are comparing two Indian ______ — Kerala and Bihar — using only their per capita income.",
+     "a": "states",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) list the three dimensions of HDI and their respective indicators with correct units, (2) calculate a dimension index given observed value, minimum, and maximum goalposts using the normalization formula, (3) compute the overall HDI from the three dimension indices, and (4) interpret what a given HDI score implies.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ two Indian states — Kerala and Bihar — using only their per capita income.",
+     "a": "comparing",
+     "self_check": true
     }
    ]
   }

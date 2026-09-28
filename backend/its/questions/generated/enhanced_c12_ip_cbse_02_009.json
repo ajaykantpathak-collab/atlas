@@ -34,6 +34,31 @@
      "q": "Design a real-world dataset (describe columns and 5-6 sample rows) where grouping by two columns and aggregating with three different functions (e.g., sum, mean, count) would yield actionable business insight. Write the Pandas code to produce that insight.",
      "a": "Example dataset: `orders.csv` with columns `['OrderDate', 'Region', 'SalesRep', 'Product', 'Quantity', 'UnitPrice']`. Sample rows: \n```\n2024-01-15,North,Amit,Laptop,2,50000\n2024-01-16,South,Priya,Mouse,10,500\n2024-01-17,North,Amit,Keyboard,5,1500\n2024-01-18,East,Rahul,Monitor,3,12000\n2024-01-19,West,Sneha,Laptop,1,55000\n```\nInsight: \"For each Region and SalesRep, what is total revenue, average order value, and number of orders?\" Code:\n```python\ndf['Revenue'] = df['Quantity'] * df['UnitPrice']\ninsight = df.groupby(['Region', 'SalesRep'])['Revenue'].agg(['sum', 'mean', 'count'])\ninsight.columns = ['Total_Revenue', 'Avg_Order_Value', 'Order_Count']\nprint(insight.sort_values('Total_Revenue', ascending=False))\n```\nA poor answer uses only one grouping column or only one aggregation function, missing the multi-dimensional insight. A poor answer forgets to create the Revenue column first, showing they don't connect derived columns to aggregation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Groupby is a Pandas operation that splits a DataFrame into groups based on one or more column values, applies an aggregation function (such as sum, mean, count, min, max, std) to each group ______, and combines the results into a new DataFrame or Series.",
+     "a": "independently",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a CSV file with 10,000 rows of sales data: each row has a date, region (North/South/East/West), product ______, and sale amount.",
+     "a": "category",
+     "self_check": true
+    },
+    {
+     "q": "What is Groupby? State the definition given in this lesson.",
+     "a": "Groupby is a Pandas operation that splits a DataFrame into groups based on one or more column values, applies an aggregation function (such as sum, mean, count, min, max, std) to each group independently, and combines the results into a new DataFrame or Series.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Groupby?",
+     "a": "Students believe that after df.groupby('Category')['Value'].sum(), the result is a DataFrame with two columns: 'Category' and 'Value'.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write correct Pandas code to group a DataFrame by single or multiple columns, apply one or more aggregation functions (including built-in and custom functions via agg), reset the index when needed, and interpret the resulting grouped output to answer analytical questions such as \"total sales per region\" or.",
+     "self_check": true
     }
    ]
   }

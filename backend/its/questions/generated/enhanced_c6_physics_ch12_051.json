@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a torch and a tennis ball to show a \"waxing crescent\" phase.",
      "a": "The student should place the torch (Sun) to one side, move the ball (Moon) around their head (Earth), and position the ball so only a tiny sliver of the lit side is visible. A poor answer would just say \"move the ball\" without explaining how to align the light to create the specific crescent shape.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The phases of the Moon are the different shapes of the Moon's ______ portion as seen from Earth, caused by the Moon orbiting the Earth while reflecting sunlight.",
+     "a": "illuminated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever noticed how the Moon sometimes looks like a thin silver slice, a half-______, or a bright glowing ball, even though it is always the same round shape?",
+     "a": "circle",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This cycle of changing appearances repeats over a period of approximately ______ days.",
+     "a": "29.5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify the sequence of lunar phases (new moon, waxing, full moon, waning) and explain that the Moon does not produce its own light but reflects light from the Sun.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever ______ how the Moon sometimes looks like a thin silver slice, a half-circle, or a bright glowing ball, even though it is always the same round shape?",
+     "a": "noticed",
+     "self_check": true
     }
    ]
   }

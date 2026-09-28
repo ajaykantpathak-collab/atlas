@@ -34,6 +34,31 @@
      "q": "Design a thought experiment: You have a satellite in circular orbit at height h. You want to move it to a higher circular orbit at height 2h using a single instantaneous rocket burn. Is this possible? If not, what is the minimum number of burns required and why? Describe the intermediate orbit.",
      "a": "Not possible with one burn. Minimum two burns required (Hohmann transfer). First burn at perigee (original circular orbit) creates elliptical transfer orbit with apogee at target radius. Second burn at apogee circularizes the orbit. A poor answer (saying one burn works, or not mentioning elliptical transfer) reveals lack of understanding that a single impulse changes orbit shape but cannot circularize at a different radius.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The total ______ energy of a satellite in a stable orbit around Earth is the sum of its kinetic energy (due to orbital motion) and gravitational potential energy (due to Earth's gravitational field).",
+     "a": "mechanical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you watch a ______ launch on TV, notice how the rocket first goes straight up, then tilts horizontally to gain enormous speed.",
+     "a": "satellite",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For a circular orbit of radius r = Rₑ + h, it is given by E = -GMₑm/(______r), where the negative sign indicates a bound system.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can derive expressions for kinetic, potential, and total energy of a satellite in circular orbit from orbital velocity and gravitational potential energy formulas, calculate energy required to change orbital radius, and explain why total energy must be negative for bound orbits while identifying the virial theorem relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you watch a satellite launch on TV, notice how the rocket first goes straight up, then tilts ______ to gain enormous speed.",
+     "a": "horizontally",
+     "self_check": true
     }
    ]
   }

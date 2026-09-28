@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_eco_ch3_4",
+ "concepts": [
+  {
+   "id": "enh:c9_eco_ch3_4",
+   "title": "c9_eco_ch3_4",
+   "questions": [
+    {
+     "q": "What is the maximum loan amount available under the Tarun category of Mudra Yojana?",
+     "a": "₹10 lakh. A wrong answer like ₹5 lakh reveals confusion between Kishore and Tarun categories, indicating the student hasn't memorized the tiered loan structure specific to Mudra Yojana's design for progressive business scaling.",
+     "self_check": true
+    },
+    {
+     "q": "Why does Startup India offer tax exemptions for 3 years to eligible startups instead of direct cash grants?",
+     "a": "Tax exemptions reduce the financial burden during early loss-making phases without creating fiscal strain on the government, encouraging reinvestment of profits into growth. A wrong answer suggesting it's to avoid accountability shows misunderstanding; the policy leverages retained earnings for sustainable scaling, a core Startup India principle to foster self-reliant enterprises.",
+     "self_check": true
+    },
+    {
+     "q": "A startup registers under Startup India and avails a Mudra Kishore loan of ₹4 lakh at 9% annual interest. If they repay after 2 years, what is the total interest paid? (Use simple interest: SI = P×R×T/100)",
+     "a": "Step 1: Identify P = ₹4,00,000, R = 9%, T = 2 years.  \nStep 2: Recall SI formula: SI = (P × R × T) / 100.  \nStep 3: Substitute values: SI = (4,00,000 × 9 × 2) / 100.  \nStep 4: Calculate numerator: 4,00,000 × 9 = 36,00,000; ×2 = 72,00,000.  \nStep 5: Divide by 100: 72,00,000 / 100 = ₹72,000.  \nANSWER: ₹72,000.  \nA wrong answer of ₹36,000 reveals forgetting to multiply by time (T=2), showing inability to apply the interest formula to multi-year scenarios—a critical skill for evaluating loan costs in entrepreneurship.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of Mudra Yojana on a street vendor seeking ₹30,000 for a cart versus a tech startup needing ₹8 lakh for software development. Which benefits more and why?",
+     "a": "The street vendor benefits more as ₹30,000 falls under Shishu (up to ₹50,000), offering minimal documentation and quick disbursement. The tech startup needs ₹8 lakh, requiring Tarun category (₹5–10 lakh) with stricter viability checks. A wrong answer claiming the tech startup benefits more ignores that Mudra prioritizes micro-enterprises; Shishu loans have higher approval rates for informal sectors, aligning with Mudra's goal to fund underserved segments.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Startup India's success should be measured only by the number of startups registered, not their survival rate.\"",
+     "a": "This is incorrect. Registration numbers alone don't reflect economic impact; survival rate indicates whether support translated into sustainable businesses. High registration with low survival suggests ineffective mentorship or funding misallocation. A correct evaluation considers both metrics: registration shows access, survival shows efficacy. A wrong answer focusing solely on registration reveals confusion between output (activity) and outcome (impact), a key policy evaluation flaw.",
+     "self_check": true
+    },
+    {
+     "q": "Design a one-page flyer for a village youth club explaining how to access Mudra Yojana loans for starting a dairy farming business. Include eligibility, loan amount, and one key benefit.",
+     "a": "Expected answer: Flyer mentions eligibility (Indian citizen, non-agricultural activity like dairy processing), loan up to ₹10 lakh (Kishore/Tarun for dairy units), benefit (no collateral needed). A poor answer omitting non-agricultural focus or confusing Mudra with education loans reveals inability to apply scheme specifics to real sectoral contexts, indicating weak conceptual transfer.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,31 @@
      "q": "Design a thought experiment: You have a variegated plant (green and white sectors). You culture single cells from the white (chloroplast-deficient) sector. Predict whether the regenerated plant will be variegated, all-green, or all-white. Explain your reasoning using the concept of *genomic vs. cytoplasmic* inheritance.",
      "a": "Expected answer: The regenerated plant will be *all-white* (non-variegated). Reason: Chloroplasts are maternally inherited (cytoplasmic). The white sector lacks functional chloroplasts; its cells contain only mutant plastids. During regeneration, all daughter cells inherit the same mutant plastids — nuclear totipotency does not restore functional chloroplasts. A poor answer (\"it will be variegated\") confuses nuclear genetic equivalence with cytoplasmic inheritance — a NEET-level trap.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cell totipotency is the inherent genetic potential of a single plant cell to ______, divide, and regenerate into a complete, fertile plant under appropriate in vitro culture conditions, demonstrating that all genetic information for whole-plant development is retained in differentiated somatic cells.",
+     "a": "dedifferentiate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you take a tiny piece of carrot root (a fully differentiated, orange, non-dividing cell) and place it on a nutrient gel with the right hormones — within weeks, it forms an ______ callus, then grows shoots and roots, and eventually becomes a whole carrot plant identical to the parent.",
+     "a": "undifferentiated",
+     "self_check": true
+    },
+    {
+     "q": "What is Cell totipotency? State the definition given in this lesson.",
+     "a": "Cell totipotency is the inherent genetic potential of a single plant cell to dedifferentiate, divide, and regenerate into a complete, fertile plant under appropriate in vitro culture conditions, demonstrating that all genetic information for whole-plant development is retained in differentiated somatic cells.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Cell totipotency?",
+     "a": "Students believe \"totipotency means any plant cell can *always* become a whole plant.\" They ignore three critical constraints: (1) Physiological state — only living, nucleated cells with intact membranes can respond (dead xylem vessels, mature sclerenchyma cannot).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) define totipotency using precise NCERT terminology and distinguish it from pluripotency and multipotency, and (2) explain the biological basis — including dedifferentiation, cell cycle re-entry, and the role of plant growth regulators — with a labeled diagram showing the transition from explant to callus.",
+     "self_check": true
     }
    ]
   }

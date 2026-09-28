@@ -34,6 +34,36 @@
      "q": "Design a thought experiment to demonstrate that the conductivity of an intrinsic semiconductor increases exponentially with temperature, while that of a metal decreases linearly. Specify what you would measure, the expected graph shapes, and the physical reason for the difference.",
      "a": "Experiment: Take a pure Ge crystal (intrinsic semiconductor) and a copper wire of same dimensions. Measure resistance R with a multimeter while heating from 100 K to 400 K in a controlled furnace. Plot ln(σ) vs 1/T for Ge and σ vs T for Cu.\nExpected: Ge shows ln(σ) ∝ -E_g/(2kT) → straight line with negative slope; conductivity increases exponentially. Cu shows σ decreasing roughly linearly with T (σ ∝ 1/T) due to increased phonon scattering.\nReason: In semiconductors, carrier concentration n_i ∝ exp(-E_g/2kT) dominates over mobility decrease. In metals, carrier concentration is constant (≈10^28 m⁻³), so only mobility decreases with T.\nA poor answer that says \"both increase because heat gives energy to electrons\" misses the fundamental difference: metals have a fixed carrier density, semiconductors have thermally generated carriers.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Energy bands in solids are ______ ranges of allowed energy levels for electrons, formed by the splitting and merging of discrete atomic energy levels when atoms come together to form a crystal lattice.",
+     "a": "continuous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a copper wire (excellent conductor), a plastic ruler (insulator), and a silicon chip (______) — all are solids made of atoms, yet their electrical behaviour differs dramatically.",
+     "a": "semiconductor",
+     "self_check": true
+    },
+    {
+     "q": "What is Energy bands in solids? State the definition given in this lesson.",
+     "a": "Energy bands in solids are continuous ranges of allowed energy levels for electrons, formed by the splitting and merging of discrete atomic energy levels when atoms come together to form a crystal lattice.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Emphasise that at ______ K, intrinsic semiconductors have a completely filled valence band and empty conduction band — they are perfect insulators.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Energy bands in solids?",
+     "a": "Students often think: \"In an n-type semiconductor, the donor electrons go into the valence band and fill holes, so the number of holes increases.\" The correct picture: Donor electrons occupy a donor level just below E_C; at room temperature they are excited into the conduction band, becoming majority electrons.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Draw and label the energy band diagrams for conductors, insulators, and semiconductors at T=0 K and T>0 K, (2) Explain why carbon (diamond) is an insulator while silicon and germanium are semiconductors despite having the same diamond crystal structure, (3) Calculate majority and minority carrier concentrations in a.",
+     "self_check": true
     }
    ]
   }

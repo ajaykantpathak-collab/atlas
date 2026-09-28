@@ -34,6 +34,31 @@
      "q": "Design a simple investigation using only observable features (no DNA) to determine whether the wings of a butterfly and a bat are homologous or analogous. List the specific structures you would compare and the conclusion each outcome would support.",
      "a": "Compare: (1) internal skeleton — bat wing has humerus, radius, ulna, digits; butterfly wing has no bones, only chitinous veins. (2) developmental origin — bat wing develops from forelimb bud; butterfly wing from imaginal discs in larva. (3) muscle attachment — bat uses modified forelimb muscles; butterfly uses thoracic muscles. If structures differ fundamentally in composition, development, and attachment → analogous (convergent evolution). If they share bone pattern, developmental origin, and muscle homology → homologous. A poor answer only compares \"both used for flying,\" ignoring structural and developmental criteria.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Evolution is the gradual, cumulative change in the heritable ______ of populations of organisms over successive generations, driven by mechanisms such as natural selection, genetic drift, and mutation, resulting in the diversity of life observed today.",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at your own hand and then at a bat's wing, a whale's flipper, and a cat's forelimb — all have the same basic bone ______ (humerus, radius, ulna, carpals, metacarpals, phalanges) despite serving completely different functions.",
+     "a": "arrangement",
+     "self_check": true
+    },
+    {
+     "q": "What is Evolution? State the definition given in this lesson.",
+     "a": "Evolution is the gradual, cumulative change in the heritable characteristics of populations of organisms over successive generations, driven by mechanisms such as natural selection, genetic drift, and mutation, resulting in the diversity of life observed today.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Evolution?",
+     "a": "Students believe \"evolution means monkeys turned into humans\" or \"individual organisms evolve during their lifetime.\" The exact error: they conflate *individual adaptation* (acquired traits) with *population-level genetic change* over generations.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the concept of evolution as descent with modification, distinguish between homologous and analogous structures with examples, interpret a simple phylogenetic tree to infer common ancestry, and describe how fossil evidence supports evolutionary relationships.",
+     "self_check": true
     }
    ]
   }

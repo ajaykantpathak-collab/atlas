@@ -34,6 +34,21 @@
      "q": "Design a simple investment plan for a family with ₹2,00,000 surplus, aiming for: (i) emergency fund (6 months expenses ₹1,20,000), (ii) daughter's marriage in 10 years (₹80,000). Specify avenues, amounts, and principles applied.",
      "a": "Emergency fund: ₹1,20,000 in savings account / liquid mutual fund / sweep-in FD (high liquidity, safety). Marriage goal: ₹80,000 in PPF (safety, tax-free, 15-year lock-in but partial withdrawal after 7 years) or equity mutual fund SIP (growth potential for 10 years). Principles: safety & liquidity for emergency; long-term growth & tax efficiency for marriage. A poor answer puts all in one avenue or ignores liquidity for emergency.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Savings refer to the portion of income not spent on current ______, set aside for future use, typically held in low-risk, liquid instruments.",
+     "a": "consumption",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family has ₹50,000 left after monthly expenses and wants to grow this money for your younger sibling's college ______ in 5 years.",
+     "a": "education",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish between savings and investment with examples, (2) list at least five investment avenues available in India with their risk-return-liquidity profiles, (3) explain the five core principles of sound investment (safety, liquidity, return, diversification, tax efficiency) and apply them to evaluate a given.",
+     "self_check": true
     }
    ]
   }

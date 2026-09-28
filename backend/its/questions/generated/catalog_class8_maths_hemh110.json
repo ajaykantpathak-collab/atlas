@@ -5,6 +5,8 @@
    "id": "hemh.110.10.1",
    "title": "Powers with Negative Exponents",
    "converted_to_compute": false,
+   "formula": "neg_power = 1 / base ** exp",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 4^4 x 4^2.",
@@ -42,6 +44,8 @@
    "id": "hemh.110.10.2",
    "title": "Laws of Exponents",
    "converted_to_compute": false,
+   "formula": "product = base ** (exp_a + exp_b)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 3^2 x 3^2.",
@@ -79,6 +83,8 @@
    "id": "hemh.110.10.3",
    "title": "Standard Form for Very Large and Small Numbers",
    "converted_to_compute": false,
+   "formula": "value = coeff * 10 ** exp",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 4^4 x 4^2.",
@@ -115,15 +121,9 @@
   {
    "id": "hemh.110.10.4",
    "title": "Comparing Very Large and Very Small Numbers",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the circle formula with pi = 22/7",
-     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 14 gives 88",
-     "compute": "circ = 2 * 22 / 7 * 14"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 14 cm (take pi = 22/7).",

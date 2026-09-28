@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using yeast suspension, glucose, and a redox indicator (e.g., methylene blue) to demonstrate that glycolysis produces NADH and that NADH must be reoxidized for glycolysis to continue. State the expected color change and its biochemical meaning.",
      "a": "Incubate yeast in glucose solution with methylene blue (blue when oxidized, colorless when reduced). Initially blue, the solution turns colorless as glycolytic NADH reduces methylene blue via yeast dehydrogenases. If oxygen is then introduced (shake the tube), the color returns to blue as mitochondrial electron transport reoxidizes the reduced dye. If no oxygen is added, the solution stays colorless and glycolysis stops when NAD⁺ is depleted — adding acetaldehyde (which accepts electrons from NADH via alcohol dehydrogenase) restores NAD⁺ and glycolysis resumes, turning the dye colorless again. A poor design (e.g., no control, no oxygen manipulation) reveals failure to link NADH production to glycolytic continuity and the role of fermentation/regeneration in sustaining flux.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A metabolic pathway is a series of consecutive, enzyme-catalyzed biochemical reactions where the product of one reaction serves as the substrate for the next, transforming an initial metabolite into a final product through defined intermediate steps; glycolysis is the universal 10-step cytosolic pathway converting one glucose molecule into two pyruvate molecules with net production of 2 ATP and 2 NADH, while the Krebs cycle (citric acid cycle) is an 8-step ______ matrix pathway oxidizing acetyl-CoA to CO₂, generating 3 NADH, 1 FADH₂, and 1 GTP per turn.",
+     "a": "mitochondrial",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you sprint up stairs and your leg muscles burn, that burning sensation comes from lactic acid accumulating because your muscle cells are running glycolysis without oxygen — a pathway you already know from Class 10 as \"anaerobic ______.\" But glycolysis is not just an emergency backup; it is the universal entry point for glucose catabolism in every living cell, from bacteria to humans.",
+     "a": "respiration",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can trace the carbon fate of glucose through glycolysis and Krebs cycle, identify the specific steps where substrate-level phosphorylation occurs, explain the redox cofactor production at each decarboxylation step, and predict the metabolic outcome when oxygen is absent versus present.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you sprint up stairs and your leg muscles burn, that burning sensation comes from lactic acid ______ because your muscle cells are running glycolysis without oxygen — a pathway you already know from Class 10 as \"anaerobic respiration.\" But glycolysis is not just an emergency backup; it is the universal entry point for glucose catabolism in every living cell, from bacteria to humans.",
+     "a": "accumulating",
+     "self_check": true
     }
    ]
   }

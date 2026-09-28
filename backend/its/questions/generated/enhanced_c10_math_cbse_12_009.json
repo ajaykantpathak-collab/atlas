@@ -34,6 +34,31 @@
      "q": "Create a word problem where a solid is melted and recast into **two different types of solids** (e.g., some spheres and some cylinders), and the question asks for an unknown dimension of one of the new solids. Provide the full problem statement with all necessary data.",
      "a": "**Example problem:**  \n\"A solid metal cylinder of radius 14 cm and height 20 cm is melted and recast into 10 identical solid spheres and 5 identical solid cones. Each cone has height 12 cm and base radius 7 cm. Find the radius of each sphere.\"  \n**Criteria for a good answer:**  \n- Clearly states original solid and its dimensions.  \n- Specifies number and type of new solids.  \n- Gives all dimensions for at least one new solid type.  \n- Asks for a dimension of the other new solid.  \n- Data allows a unique solution (volumes balance).  \nA poor problem misses data (e.g., doesn't give cone dimensions), makes volumes inconsistent, or asks for something not solvable (e.g., two unknowns with one equation).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When a solid is melted and recast into one or more new solids, the total volume of the ______ remains constant (assuming no loss or wastage).",
+     "a": "material",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a jeweller melts a gold bar (cuboid) to make ______ spherical beads.",
+     "a": "identical",
+     "self_check": true
+    },
+    {
+     "q": "What is When a solid? State the definition given in this lesson.",
+     "a": "When a solid is melted and recast into one or more new solids, the total volume of the material remains constant (assuming no loss or wastage).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about When a solid?",
+     "a": "Equating surface areas instead of volumes.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can solve multi-step word problems by equating the total volume before melting to the total volume after recasting, correctly selecting and applying volume formulas for cylinders, cones, spheres, hemispheres, and frustums, and performing algebraic manipulations to find unknown dimensions (radius, height, number of solids.",
+     "self_check": true
     }
    ]
   }

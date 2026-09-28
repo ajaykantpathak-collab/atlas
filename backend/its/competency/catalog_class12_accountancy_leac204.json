@@ -24,9 +24,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "simplify the data", "explain": "methodical classification of the statement figures reduces a mass of numbers to workable groups"},
-    {"step": 2, "action": "build the relationships", "explain": "items are compared across time, across statements and against totals to expose patterns"},
-    {"step": 3, "action": "read the results", "explain": "the relationships are interpreted to judge profitability, operational efficiency and financial health"}
+    {
+     "step": 1,
+     "action": "simplify the data",
+     "explain": "methodical classification of the statement figures reduces a mass of numbers to workable groups"
+    },
+    {
+     "step": 2,
+     "action": "build the relationships",
+     "explain": "items are compared across time, across statements and against totals to expose patterns"
+    },
+    {
+     "step": 3,
+     "action": "read the results",
+     "explain": "the relationships are interpreted to judge profitability, operational efficiency and financial health"
+    }
    ]
   },
   {
@@ -45,12 +57,33 @@
     "state the parties interested in financial statement analysis",
     "can analysis of statements expose a firm's weaknesses"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "identify the internal reader", "explain": "management measures efficiency, spots weaknesses and plans corrections"},
-    {"step": 2, "action": "identify the finance readers", "explain": "banks and creditors test short-term paying ability; investors judge earning power and growth"},
-    {"step": 3, "action": "identify the public readers", "explain": "government and researchers read the analysed figures for taxation, policy and industry study"}
-   ]
+    {
+     "step": 1,
+     "action": "identify the internal reader",
+     "explain": "management measures efficiency, spots weaknesses and plans corrections"
+    },
+    {
+     "step": 2,
+     "action": "identify the finance readers",
+     "explain": "banks and creditors test short-term paying ability; investors judge earning power and growth"
+    },
+    {
+     "step": 3,
+     "action": "identify the public readers",
+     "explain": "government and researchers read the analysed figures for taxation, policy and industry study"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "analysis_output = financial_strengths + financial_weaknesses",
+     "compute": "analysis_output = financial_strengths + financial_weaknesses"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.204.3.1",
@@ -68,12 +101,33 @@
     "how does analysis help assess managerial efficiency",
     "distinguish short-term and long-term solvency objectives"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "judge the earning side", "explain": "profitability and operating efficiency come out of the profit statement relationships"},
-    {"step": 2, "action": "judge the paying side", "explain": "short-term solvency (current obligations) and long-term solvency (debt burden) are tested from the balance sheet"},
-    {"step": 3, "action": "enable comparison", "explain": "intra-firm comparison across years and inter-firm comparison across companies rest on the analysed figures"}
-   ]
+    {
+     "step": 1,
+     "action": "judge the earning side",
+     "explain": "profitability and operating efficiency come out of the profit statement relationships"
+    },
+    {
+     "step": 2,
+     "action": "judge the paying side",
+     "explain": "short-term solvency (current obligations) and long-term solvency (debt burden) are tested from the balance sheet"
+    },
+    {
+     "step": 3,
+     "action": "enable comparison",
+     "explain": "intra-firm comparison across years and inter-firm comparison across companies rest on the analysed figures"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "analysis_goals = profitability_judgement + solvency_test + comparison_base",
+     "compute": "analysis_goals = profitability_judgement + solvency_test + comparison_base"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.204.4.1",
@@ -91,12 +145,33 @@
     "when would an analyst pick ratio analysis over other tools",
     "list the techniques financial experts have developed for analysis"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "pair the period tools", "explain": "comparative statements set two years' absolute figures and changes together; trend percentages stretch the view over several years"},
-    {"step": 2, "action": "pair the proportion tools", "explain": "common size statements express each item as a percentage of a common base; ratios relate chosen pairs of figures"},
-    {"step": 3, "action": "add the movement tool", "explain": "cash flow analysis traces where funds came from and where they went"}
-   ]
+    {
+     "step": 1,
+     "action": "pair the period tools",
+     "explain": "comparative statements set two years' absolute figures and changes together; trend percentages stretch the view over several years"
+    },
+    {
+     "step": 2,
+     "action": "pair the proportion tools",
+     "explain": "common size statements express each item as a percentage of a common base; ratios relate chosen pairs of figures"
+    },
+    {
+     "step": 3,
+     "action": "add the movement tool",
+     "explain": "cash flow analysis traces where funds came from and where they went"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "toolkit = comparative_statements + common_size_statements + trend_analysis + ratio_analysis + cash_flow_analysis",
+     "compute": "toolkit = comparative_statements + common_size_statements + trend_analysis + ratio_analysis + cash_flow_analysis"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.204.4.2",
@@ -116,8 +191,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "fix the base year figure", "explain": "pick the same item in the base year; it will read as one hundred", "compute": "base_index = item_value_in_base_year"},
-    {"step": 2, "action": "scale the given year to the base", "explain": "divide the given year's item value by the base value and multiply by one hundred", "compute": "trend_percentage = item_value_in_given_year / base_index * 100"}
+    {
+     "step": 1,
+     "action": "fix the base year figure",
+     "explain": "pick the same item in the base year; it will read as one hundred",
+     "compute": "base_index = item_value_in_base_year"
+    },
+    {
+     "step": 2,
+     "action": "scale the given year to the base",
+     "explain": "divide the given year's item value by the base value and multiply by one hundred",
+     "compute": "trend_percentage = item_value_in_given_year / base_index * 100"
+    }
    ]
   },
   {
@@ -138,8 +223,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "subtract the base year", "explain": "previous year figure comes off the current year figure", "compute": "absolute_change = current_year_figure - previous_year_figure"}
-   ]
+    {
+     "step": 1,
+     "action": "subtract the base year",
+     "explain": "previous year figure comes off the current year figure",
+     "compute": "absolute_change = current_year_figure - previous_year_figure"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "absolute_change = current_year_figure - previous_year_figure",
+     "compute": "absolute_change = current_year_figure - previous_year_figure"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.204.5.2",
@@ -159,9 +258,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "measure the absolute move", "explain": "current year figure minus previous year figure", "compute": "absolute_change = current_year_figure - previous_year_figure"},
-    {"step": 2, "action": "scale the move to the starting point", "explain": "divide the change by the previous year figure and multiply by one hundred", "compute": "percentage_change = absolute_change / previous_year_figure * 100"}
-   ]
+    {
+     "step": 1,
+     "action": "measure the absolute move",
+     "explain": "current year figure minus previous year figure",
+     "compute": "absolute_change = current_year_figure - previous_year_figure"
+    },
+    {
+     "step": 2,
+     "action": "scale the move to the starting point",
+     "explain": "divide the change by the previous year figure and multiply by one hundred",
+     "compute": "percentage_change = absolute_change / previous_year_figure * 100"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "percentage_change = absolute_change / previous_year_figure * 100",
+     "compute": "percentage_change = absolute_change / previous_year_figure * 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.204.5.3",
@@ -181,10 +299,34 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "reach the pre-tax line", "explain": "total revenue (operations plus other income) less total expenses", "compute": "profit_before_tax = total_revenue - total_expenses"},
-    {"step": 2, "action": "charge the year's tax", "explain": "apply that year's tax rate to the pre-tax profit", "compute": "tax_amount = profit_before_tax * tax_rate"},
-    {"step": 3, "action": "drop to the after-tax line", "explain": "pre-tax profit less the tax charge is profit after tax", "compute": "profit_after_tax = profit_before_tax - tax_amount"}
-   ]
+    {
+     "step": 1,
+     "action": "reach the pre-tax line",
+     "explain": "total revenue (operations plus other income) less total expenses",
+     "compute": "profit_before_tax = total_revenue - total_expenses"
+    },
+    {
+     "step": 2,
+     "action": "charge the year's tax",
+     "explain": "apply that year's tax rate to the pre-tax profit",
+     "compute": "tax_amount = profit_before_tax * tax_rate"
+    },
+    {
+     "step": 3,
+     "action": "drop to the after-tax line",
+     "explain": "pre-tax profit less the tax charge is profit after tax",
+     "compute": "profit_after_tax = profit_before_tax - tax_amount"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "profit_after_tax = profit_before_tax - profit_before_tax * tax_rate",
+     "compute": "profit_after_tax = profit_before_tax - profit_before_tax * tax_rate"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.204.6.1",
@@ -204,9 +346,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "fix the base", "explain": "revenue from operations for the profit statement, total assets or total liabilities for the balance sheet", "compute": "base_amount = revenue_from_operations"},
-    {"step": 2, "action": "scale the item to the base", "explain": "divide the item amount by the base and multiply by one hundred", "compute": "common_size_percentage = item_amount / base_amount * 100"}
-   ]
+    {
+     "step": 1,
+     "action": "fix the base",
+     "explain": "revenue from operations for the profit statement, total assets or total liabilities for the balance sheet",
+     "compute": "base_amount = revenue_from_operations"
+    },
+    {
+     "step": 2,
+     "action": "scale the item to the base",
+     "explain": "divide the item amount by the base and multiply by one hundred",
+     "compute": "common_size_percentage = item_amount / base_amount * 100"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "common_size_percentage = item_amount / base_amount * 100",
+     "compute": "common_size_percentage = item_amount / base_amount * 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.204.6.2",
@@ -226,9 +387,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "put both firms on percentages", "explain": "each item becomes a share of the common base, so absolute size stops mattering"},
-    {"step": 2, "action": "read the structure", "explain": "cost shares, asset mixes and financing patterns line up side by side"},
-    {"step": 3, "action": "read the drift", "explain": "the same statement over successive years shows which components grew or shrank in importance"}
+    {
+     "step": 1,
+     "action": "put both firms on percentages",
+     "explain": "each item becomes a share of the common base, so absolute size stops mattering"
+    },
+    {
+     "step": 2,
+     "action": "read the structure",
+     "explain": "cost shares, asset mixes and financing patterns line up side by side"
+    },
+    {
+     "step": 3,
+     "action": "read the drift",
+     "explain": "the same statement over successive years shows which components grew or shrank in importance"
+    }
    ]
   },
   {
@@ -247,12 +420,33 @@
     "why must the analyst know changes in accounting policy",
     "is analysis of past reports enough to judge the present"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "carry over statement defects", "explain": "whatever weakened the statements -- estimates, conventions, judgements -- weakens the analysis"},
-    {"step": 2, "action": "flag the price level blind spot", "explain": "figures of different years sit on different price levels, so raw comparisons mislead"},
-    {"step": 3, "action": "flag the data blind spots", "explain": "non-monetary aspects stay invisible, and policy changes or window dressing can bend every ratio and percentage"}
-   ]
+    {
+     "step": 1,
+     "action": "carry over statement defects",
+     "explain": "whatever weakened the statements -- estimates, conventions, judgements -- weakens the analysis"
+    },
+    {
+     "step": 2,
+     "action": "flag the price level blind spot",
+     "explain": "figures of different years sit on different price levels, so raw comparisons mislead"
+    },
+    {
+     "step": 3,
+     "action": "flag the data blind spots",
+     "explain": "non-monetary aspects stay invisible, and policy changes or window dressing can bend every ratio and percentage"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "analysis_reliability = statement_quality - price_level_effects - non_monetary_gaps",
+     "compute": "analysis_reliability = statement_quality - price_level_effects - non_monetary_gaps"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -267,8 +461,18 @@
     "current_year_figure": 7500000
    },
    "solution_template": [
-    {"step": 1, "action": "measure the absolute move", "explain": "7500000 - 6000000 = 1500000", "compute": "absolute_change = current_year_figure - previous_year_figure"},
-    {"step": 2, "action": "scale the move to the starting point", "explain": "1500000 / 6000000 x 100 = 25", "compute": "percentage_change = absolute_change / previous_year_figure * 100"}
+    {
+     "step": 1,
+     "action": "measure the absolute move",
+     "explain": "7500000 - 6000000 = 1500000",
+     "compute": "absolute_change = current_year_figure - previous_year_figure"
+    },
+    {
+     "step": 2,
+     "action": "scale the move to the starting point",
+     "explain": "1500000 / 6000000 x 100 = 25",
+     "compute": "percentage_change = absolute_change / previous_year_figure * 100"
+    }
    ]
   },
   {
@@ -280,12 +484,27 @@
    "extracted_variables": {
     "total_revenue": 7620000,
     "total_expenses": 5060000,
-    "tax_rate": 0.40
+    "tax_rate": 0.4
    },
    "solution_template": [
-    {"step": 1, "action": "reach the pre-tax line", "explain": "7620000 - 5060000 = 2560000", "compute": "profit_before_tax = total_revenue - total_expenses"},
-    {"step": 2, "action": "charge the year's tax", "explain": "2560000 x 0.40 = 1024000", "compute": "tax_amount = profit_before_tax * tax_rate"},
-    {"step": 3, "action": "drop to the after-tax line", "explain": "2560000 - 1024000 = 1536000", "compute": "profit_after_tax = profit_before_tax - tax_amount"}
+    {
+     "step": 1,
+     "action": "reach the pre-tax line",
+     "explain": "7620000 - 5060000 = 2560000",
+     "compute": "profit_before_tax = total_revenue - total_expenses"
+    },
+    {
+     "step": 2,
+     "action": "charge the year's tax",
+     "explain": "2560000 x 0.40 = 1024000",
+     "compute": "tax_amount = profit_before_tax * tax_rate"
+    },
+    {
+     "step": 3,
+     "action": "drop to the after-tax line",
+     "explain": "2560000 - 1024000 = 1536000",
+     "compute": "profit_after_tax = profit_before_tax - tax_amount"
+    }
    ]
   },
   {
@@ -299,8 +518,18 @@
     "item_amount": 1000000
    },
    "solution_template": [
-    {"step": 1, "action": "fix the base", "explain": "revenue from operations is the base at one hundred", "compute": "base_amount_confirmed = base_amount"},
-    {"step": 2, "action": "scale the item to the base", "explain": "1000000 / 1800000 x 100 = 55.56", "compute": "common_size_percentage = item_amount / base_amount * 100"}
+    {
+     "step": 1,
+     "action": "fix the base",
+     "explain": "revenue from operations is the base at one hundred",
+     "compute": "base_amount_confirmed = base_amount"
+    },
+    {
+     "step": 2,
+     "action": "scale the item to the base",
+     "explain": "1000000 / 1800000 x 100 = 55.56",
+     "compute": "common_size_percentage = item_amount / base_amount * 100"
+    }
    ]
   }
  ],

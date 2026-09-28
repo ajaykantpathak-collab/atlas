@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using ¹⁴C-labeled acetate to determine whether the TCA cycle operates in a germinating mung bean (moong) seedling under aerobic conditions. Specify what you would measure and expected results.",
      "a": "Feed ¹⁴C-acetate (label on methyl or carboxyl carbon) to aerated seedlings, trap evolved ¹⁴CO₂ in KOH, and measure radioactivity in organic acids (malate, citrate) extracted at intervals. Expected: rapid ¹⁴CO₂ evolution and label incorporation into TCA intermediates. Poor answer (e.g., \"measure O₂ uptake only\") shows inability to design isotope-tracing experiments — a key competency for board practicals.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Krebs cycle (tricarboxylic acid/TCA cycle) is a cyclic metabolic pathway occurring in the mitochondrial matrix where acetyl-CoA (2C) condenses with oxaloacetate (4C) to form citrate (6C), which undergoes a series of enzyme-catalyzed oxidations, ______, and substrate-level phosphorylations to regenerate oxaloacetate while producing 3 NADH, 1 FADH₂, 1 GTP (≈ATP), and 2 CO₂ per acetyl-CoA.",
+     "a": "decarboxylations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're watching a pressure cooker whistle — steam (CO₂) escapes while the cooker (______ matrix) gets hotter as energy is trapped in high-energy carriers.",
+     "a": "mitochondrial",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can trace the carbon skeleton transformations from acetyl-CoA to oxaloacetate, identify the three decarboxylation steps, the four redox steps (3 NAD⁺, 1 FAD), and the single substrate-level phosphorylation step, and explain why the cycle must turn twice per glucose molecule.",
+     "self_check": true
     }
    ]
   }

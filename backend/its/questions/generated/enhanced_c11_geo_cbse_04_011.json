@@ -34,6 +34,26 @@
      "q": "Design a conceptual cross-section diagram showing a complete Wilson Cycle for a hypothetical ocean basin, labeling all plate boundaries, lithospheric thickness changes, and magma generation zones at each stage. Include annotations linking to real-world examples (e.g., Red Sea = embryonic, Atlantic = mature, Himalayas = terminal).",
      "a": "Expected diagram elements: Stage 1 (Embryonic) — continental lithosphere thinning, asthenospheric upwelling, basaltic dikes — label \"Red Sea/East African Rift\"; Stage 2 (Juvenile) — narrow oceanic crust, axial ridge, transform faults — label \"Gulf of California\"; Stage 3 (Mature) — wide ocean, abyssal plains, passive margins, thick sediment wedge — label \"Atlantic Ocean\"; Stage 4 (Declining) — subduction trench, volcanic arc, back-arc basin — label \"Western Pacific\"; Stage 5 (Terminal) — continental collision, thrust stack, foreland basin — label \"Himalaya-Tibet\"; Stage 6 (Suturing) — suture zone, ophiolite obduction, crustal root — label \"Ural Mountains\". Poor answer omits lithospheric thickness evolution or misplaces magma zones (e.g., showing arc volcanism at embryonic stage).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Wilson Cycle is a geodynamic model describing the cyclic opening and closing of ocean basins driven by plate tectonics, encompassing stages from continental rifting (embryonic) through seafloor spreading (juvenile/mature) to subduction and continental collision (declining/terminal), ultimately leading to ______ assembly and subsequent breakup over 300-500 million year periods.",
+     "a": "supercontinent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the ______ from a satellite image — they are still rising today because India continues pushing northward at ~5 cm/year.",
+     "a": "Himalayas",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the Himalayas from a satellite image — they are still rising today because India continues pushing northward at ~______ cm/year.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can diagram all six stages of the Wilson Cycle with correct plate boundary types, identify geological evidence for each stage in the Indian context (e.g., Himalayan collision = terminal stage, Indian Ocean spreading = mature stage), and explain how mantle convection drives the cycle's periodicity.",
+     "self_check": true
     }
    ]
   }

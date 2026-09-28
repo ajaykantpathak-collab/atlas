@@ -34,6 +34,31 @@
      "q": "Design a 3-step \"Planning Limitation Audit\" checklist that a startup founder can use quarterly to detect if their planning process is suffering from rigidity, creativity suppression, or cost-time overruns. Each step must be actionable and measurable.",
      "a": "A strong answer:\nStep 1 (Rigidity Check): \"In the last quarter, how many times did we deviate from the plan due to new information? If zero → rigidity risk.\" (Measurable: count of approved plan deviations).\nStep 2 (Creativity Check): \"What % of implemented ideas originated from non-top-management? If <20% → creativity suppression.\" (Measurable: idea source tracking).\nStep 3 (Cost-Time Check): \"Ratio of planning cost (hours × hourly cost + external fees) to revenue impact of plan-driven decisions. If ratio > 0.15 → overrun.\" (Measurable: cost accounting).\nA poor answer gives vague steps like \"review the plan regularly\" without metrics — this fails to demonstrate application of limitations to real management practice.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Limitations of Planning refer to the inherent constraints and drawbacks that reduce the ______ of planning as a managerial function, including rigidity in execution, inability to cope with dynamic environments, suppression of creativity, high formulation costs, time consumption, and the absence of a success guarantee despite thorough planning.",
+     "a": "effectiveness",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the CEO of a mid-sized Indian EV startup that spent three months and ₹50 lakh crafting a ______ five-year expansion plan.",
+     "a": "detailed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the CEO of a mid-sized Indian EV startup that spent three months and ₹______ lakh crafting a detailed five-year expansion plan.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) list all six limitations of planning with precise NCERT terminology, (2) explain each limitation using a distinct real-world business scenario, and (3) evaluate a given case study to identify which limitations are operating and justify why planning remains necessary despite them.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the CEO of a mid-sized Indian EV startup that spent three months and ₹50 lakh crafting a detailed five-year ______ plan.",
+     "a": "expansion",
+     "self_check": true
     }
    ]
   }

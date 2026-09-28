@@ -1,6 +1,241 @@
 {
- "catalog": "catalog_class12_accountancy_ch202",
+ "catalog": "catalog_class12_accountancy_ch202.json",
  "concepts": [
+  {
+   "id": "leac.202.3",
+   "title": "Issue of Debentures at a Discount",
+   "converted_to_compute": true,
+   "formula": "issue_price = face_value - discount_amount",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "issue_price = face_value - discount_amount",
+     "compute": "issue_price = face_value - discount_amount"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Issue of Debentures at a Discount: given face_value = 21, discount_amount = 48, find issue price.",
+     "a": "-27",
+     "self_check": false
+    },
+    {
+     "q": "For Issue of Debentures at a Discount: given face_value = 18.5, discount_amount = 30, find issue price.",
+     "a": "-11.5",
+     "self_check": false
+    },
+    {
+     "q": "For Issue of Debentures at a Discount: given face_value = 5.8, discount_amount = 50, find issue price.",
+     "a": "-44.2",
+     "self_check": false
+    },
+    {
+     "q": "For Issue of Debentures at a Discount: given face_value = 87, discount_amount = 7.6, find issue price.",
+     "a": "79.4",
+     "self_check": false
+    },
+    {
+     "q": "For Issue of Debentures at a Discount: given face_value = 23, discount_amount = 61, find issue price.",
+     "a": "-38",
+     "self_check": false
+    },
+    {
+     "q": "For Issue of Debentures at a Discount: given face_value = 85, discount_amount = 113, find issue price.",
+     "a": "-28",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leac.202.4",
+   "title": "Issue of Debentures at a Premium",
+   "converted_to_compute": true,
+   "formula": "issue_price = face_value + premium_amount",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "issue_price = face_value + premium_amount",
+     "compute": "issue_price = face_value + premium_amount"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Issue of Debentures at a Premium: given face_value = 94, premium_amount = 36, find issue price.",
+     "a": "130",
+     "self_check": false
+    },
+    {
+     "q": "For Issue of Debentures at a Premium: given face_value = 95, premium_amount = 43, find issue price.",
+     "a": "138",
+     "self_check": false
+    },
+    {
+     "q": "For Issue of Debentures at a Premium: given face_value = 57, premium_amount = 80, find issue price.",
+     "a": "137",
+     "self_check": false
+    },
+    {
+     "q": "For Issue of Debentures at a Premium: given face_value = 6.9, premium_amount = 18.9, find issue price.",
+     "a": "25.8",
+     "self_check": false
+    },
+    {
+     "q": "For Issue of Debentures at a Premium: given face_value = 13.3, premium_amount = 17.9, find issue price.",
+     "a": "31.2",
+     "self_check": false
+    },
+    {
+     "q": "For Issue of Debentures at a Premium: given face_value = 43, premium_amount = 61, find issue price.",
+     "a": "104",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leac.202.6",
+   "title": "Debentures as Collateral Security",
+   "converted_to_compute": true,
+   "formula": "loan_amount = principal_borrowed",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "loan_amount = principal_borrowed",
+     "compute": "loan_amount = principal_borrowed"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Debentures as Collateral Security: given principal_borrowed = 59, find loan amount.",
+     "a": "59",
+     "self_check": false
+    },
+    {
+     "q": "For Debentures as Collateral Security: given principal_borrowed = 95, find loan amount.",
+     "a": "95",
+     "self_check": false
+    },
+    {
+     "q": "For Debentures as Collateral Security: given principal_borrowed = 32, find loan amount.",
+     "a": "32",
+     "self_check": false
+    },
+    {
+     "q": "For Debentures as Collateral Security: given principal_borrowed = 76, find loan amount.",
+     "a": "76",
+     "self_check": false
+    },
+    {
+     "q": "For Debentures as Collateral Security: given principal_borrowed = 7.7, find loan amount.",
+     "a": "7.7",
+     "self_check": false
+    },
+    {
+     "q": "For Debentures as Collateral Security: given principal_borrowed = 94, find loan amount.",
+     "a": "94",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leac.202.7",
+   "title": "Interest on Debentures",
+   "converted_to_compute": true,
+   "formula": "interest = face_value * rate * time / 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "interest = face_value * rate * time / 100",
+     "compute": "interest = face_value * rate * time / 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Interest on Debentures: given face_value = 43, rate = 33, time = 82, find interest.",
+     "a": "1163.58",
+     "self_check": false
+    },
+    {
+     "q": "For Interest on Debentures: given face_value = 105, rate = 98, time = 37, find interest.",
+     "a": "3807.3",
+     "self_check": false
+    },
+    {
+     "q": "For Interest on Debentures: given face_value = 5.1, rate = 54, time = 27, find interest.",
+     "a": "74.358",
+     "self_check": false
+    },
+    {
+     "q": "For Interest on Debentures: given face_value = 109, rate = 32, time = 59, find interest.",
+     "a": "2057.92",
+     "self_check": false
+    },
+    {
+     "q": "For Interest on Debentures: given face_value = 61, rate = 85, time = 11.9, find interest.",
+     "a": "617.015",
+     "self_check": false
+    },
+    {
+     "q": "For Interest on Debentures: given face_value = 64, rate = 98, time = 86, find interest.",
+     "a": "5393.92",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leac.2.14.3",
+   "title": "Debenture Redemption Investment and Reserve Requirement",
+   "converted_to_compute": true,
+   "formula": "dri_amount = nominal_maturing * dri_rate / 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "dri_amount = nominal_maturing * dri_rate / 100",
+     "compute": "dri_amount = nominal_maturing * dri_rate / 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Debenture Redemption Investment and Reserve Requirement: given nominal_maturing = 38, dri_rate = 100, find dri amount.",
+     "a": "38",
+     "self_check": false
+    },
+    {
+     "q": "For Debenture Redemption Investment and Reserve Requirement: given nominal_maturing = 68, dri_rate = 9.9, find dri amount.",
+     "a": "6.732",
+     "self_check": false
+    },
+    {
+     "q": "For Debenture Redemption Investment and Reserve Requirement: given nominal_maturing = 43, dri_rate = 71, find dri amount.",
+     "a": "30.53",
+     "self_check": false
+    },
+    {
+     "q": "For Debenture Redemption Investment and Reserve Requirement: given nominal_maturing = 41, dri_rate = 89, find dri amount.",
+     "a": "36.49",
+     "self_check": false
+    },
+    {
+     "q": "For Debenture Redemption Investment and Reserve Requirement: given nominal_maturing = 27, dri_rate = 31, find dri amount.",
+     "a": "8.37",
+     "self_check": false
+    },
+    {
+     "q": "For Debenture Redemption Investment and Reserve Requirement: given nominal_maturing = 48, dri_rate = 25, find dri amount.",
+     "a": "12",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "leac.202.1",
    "title": "Meaning and Nature of Debentures",
@@ -64,68 +299,6 @@
    ]
   },
   {
-   "id": "leac.202.3",
-   "title": "Issue of Debentures at a Discount",
-   "questions": [
-    {
-     "q": "Find the issue price of a debenture at discount. Use the method 'Issue of Debentures at a Discount'. Work with: discount_rate = 5, face_value = 50000, num_debentures = 15. Carry the chain through step by step and give the final value of net_cash.",
-     "a": "712500 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Calculate total discount on issue of debentures. Use the method 'Issue of Debentures at a Discount'. Work with: discount_rate = 18, face_value = 500, num_debentures = 300. Carry the chain through step by step and give the final value of net_cash.",
-     "a": "123000 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Issue of Debentures at a Discount' refers to.",
-     "a": "Issuing debentures at a price lower than their face value, where the difference is treated as a capital loss.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Issue of Debentures at a Discount'.",
-     "a": "The discount is a loss to be written off against profits or securities premium.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Issue of Debentures at a Discount', in plain ASCII form.",
-     "a": "issue_price = face_value - discount_amount",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leac.202.4",
-   "title": "Issue of Debentures at a Premium",
-   "questions": [
-    {
-     "q": "Calculate the premium on issue of debentures. Use the method 'Issue of Debentures at a Premium'. Work with: face_value = 20000, num_debentures = 12, premium_rate = 12. Carry the chain through step by step and give the final value of total_proceeds.",
-     "a": "268800 units",
-     "self_check": false
-    },
-    {
-     "q": "Find the total bank receipt for debentures issued at a premium. Use the method 'Issue of Debentures at a Premium'. Work with: face_value = 120000, num_debentures = 50, premium_rate = 5. Carry the chain through step by step and give the final value of total_proceeds.",
-     "a": "6300000 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Issue of Debentures at a Premium' refers to.",
-     "a": "The issuance of debentures at a price higher than their face value, with the excess credited to the Securities Premium Reserve.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Issue of Debentures at a Premium'.",
-     "a": "The premium is a capital gain used for specific purposes under the Companies Act.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Issue of Debentures at a Premium', in plain ASCII form.",
-     "a": "issue_price = face_value + premium_amount",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "leac.202.5",
    "title": "Issue for Consideration Other Than Cash",
    "questions": [
@@ -152,68 +325,6 @@
     {
      "q": "Write the standard relation used for 'Issue for Consideration Other Than Cash', in plain ASCII form.",
      "a": "number_of_debentures = purchase_consideration / issue_price",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leac.202.6",
-   "title": "Debentures as Collateral Security",
-   "questions": [
-    {
-     "q": "Using the method 'Debentures as Collateral Security', work with: principal_borrowed = 20000. Carry the chain through step by step and give the final value of loan_amount.",
-     "a": "20000 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Debentures as Collateral Security' and work with: principal_borrowed = 120000. Carry the chain through step by step and give the final value of loan_amount.",
-     "a": "120000 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Debentures as Collateral Security' refers to.",
-     "a": "Issuing debentures as a secondary or auxiliary security to a lender in addition to the primary security for a loan.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Debentures as Collateral Security'.",
-     "a": "Collateral debentures do not carry interest until the primary security fails and the lender invokes them.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Debentures as Collateral Security', in plain ASCII form.",
-     "a": "loan_amount = principal_borrowed",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leac.202.7",
-   "title": "Interest on Debentures",
-   "questions": [
-    {
-     "q": "Calculate interest on debentures for six months. Use the method 'Interest on Debentures'. Work with: coupon_rate = 12, months = 75, tds_rate = 8, total_face_value = 8000. Carry the chain through step by step and give the final value of net_interest.",
-     "a": "5520 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the amount of TDS on debenture interest. Use the method 'Interest on Debentures'. Work with: coupon_rate = 18, months = 75, tds_rate = 15, total_face_value = 12000. Carry the chain through step by step and give the final value of net_interest.",
-     "a": "11475 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Interest on Debentures' refers to.",
-     "a": "Periodic payment made to debentureholders at a fixed rate calculated on the face value of the debentures.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Interest on Debentures'.",
-     "a": "Interest is a charge against profits and is payable regardless of profit levels, subject to Tax Deducted at Source (TDS).",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Interest on Debentures', in plain ASCII form.",
-     "a": "interest = face_value * rate * time / 100",
      "self_check": true
     }
    ]
@@ -369,37 +480,6 @@
     {
      "q": "Write the standard relation used for 'Redemption of Debentures by Conversion into Shares at a Premium', in plain ASCII form.",
      "a": "number_of_shares = amount_payable / (share_face_value + premium_per_share)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leac.2.14.3",
-   "title": "Debenture Redemption Investment and Reserve Requirement",
-   "questions": [
-    {
-     "q": "Calculate the amount to be invested in debenture redemption investment. Use the method 'Debenture Redemption Investment and Reserve Requirement'. Work with: dri_rate = 8, face_value = 5000, num_maturing_debentures = 360. Carry the chain through step by step and give the final value of dri_amount.",
-     "a": "144000 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the required debenture redemption investment before redemption. Use the method 'Debenture Redemption Investment and Reserve Requirement'. Work with: dri_rate = 18, face_value = 20000, num_maturing_debentures = 8. Carry the chain through step by step and give the final value of dri_amount.",
-     "a": "28800 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Debenture Redemption Investment and Reserve Requirement' refers to.",
-     "a": "Mandatory creation of a reserve out of divisible profits and investment of a minimum percentage of the nominal value of debentures maturing during the financial year into specified financial instruments.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Debenture Redemption Investment and Reserve Requirement'.",
-     "a": "A specified percentage of debentures maturing in the year must be invested in prescribed securities before redemption.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Debenture Redemption Investment and Reserve Requirement', in plain ASCII form.",
-     "a": "dri_amount = nominal_maturing * dri_rate / 100",
      "self_check": true
     }
    ]

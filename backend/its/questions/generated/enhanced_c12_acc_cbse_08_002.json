@@ -34,6 +34,21 @@
      "q": "Design a mini-case (3-4 sentences) where a financial analyst draws an incorrect conclusion because they used a ratio based on unrelated figures. Specify the ratio, the unrelated figures, and the correct analytical approach.",
      "a": "Expected answer: Example: \"An analyst computes 'Furniture Turnover Ratio' = Revenue from Operations / Furniture (Fixed Asset) and concludes the firm uses its furniture efficiently because the ratio is high.\" The figures are unrelated — furniture is a fixed asset not directly tied to revenue generation. Correct approach: Use Fixed Assets Turnover Ratio = Revenue from Operations / Net Fixed Assets (including furniture, plant, etc.) to assess overall asset utilization. A poor answer would invent a ratio that is actually standard (e.g., inventory turnover) or fail to explain why the figures are unrelated, showing the student hasn't grasped the \"meaningful correlation\" requirement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Limitations of Financial Statement Analysis refer to the inherent constraints and weaknesses that affect the reliability, comparability, and ______ of conclusions drawn from analyzing financial statements, arising from the nature of accounting data, accounting policies, and the analytical tools themselves.",
+     "a": "interpretability",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an investor ______ two companies: Company A uses FIFO inventory valuation and straight-line depreciation, while Company B uses LIFO and written-down value depreciation.",
+     "a": "comparing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) list and explain at least five distinct limitations of financial statement analysis with concrete examples, and (2) evaluate a given analytical scenario to identify which limitation(s) undermine the validity of the comparison or conclusion.",
+     "self_check": true
     }
    ]
   }

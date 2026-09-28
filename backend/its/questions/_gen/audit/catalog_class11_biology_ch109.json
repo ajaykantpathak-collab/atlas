@@ -1,0 +1,506 @@
+{
+ "catalog": "catalog_class11_biology_ch109.json",
+ "concepts": [
+  {
+   "id": "kebo.109.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "wet_weight = 100",
+      "water_mass = 35",
+      "dry_weight = wet_weight - water_mass"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "wet_weight = 82",
+      "water_mass = 95",
+      "dry_weight = wet_weight - water_mass"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "wet_weight = 77",
+      "water_mass = 129",
+      "dry_weight = wet_weight - water_mass"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "wet_weight = 69",
+      "water_mass = 111",
+      "dry_weight = wet_weight - water_mass"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "wet_weight = 40",
+      "water_mass = 69",
+      "dry_weight = wet_weight - water_mass"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "wet_weight = 3.4",
+      "water_mass = 67",
+      "dry_weight = wet_weight - water_mass"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "dry_weight = wet_weight - water_mass"
+   ]
+  },
+  {
+   "id": "kebo.109.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "primary_count = 207",
+      "secondary_count = 368",
+      "total_metabolites = primary_count + secondary_count"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "primary_count = 262",
+      "secondary_count = 70",
+      "total_metabolites = primary_count + secondary_count"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "primary_count = 231",
+      "secondary_count = 412",
+      "total_metabolites = primary_count + secondary_count"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "primary_count = 323",
+      "secondary_count = 173",
+      "total_metabolites = primary_count + secondary_count"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "primary_count = 161",
+      "secondary_count = 330",
+      "total_metabolites = primary_count + secondary_count"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "primary_count = 138",
+      "secondary_count = 10",
+      "total_metabolites = primary_count + secondary_count"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_metabolites = primary_count + secondary_count"
+   ]
+  },
+  {
+   "id": "kebo.109.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "percentage = 79",
+      "total_cell_mass = 66",
+      "component_mass = (percentage * total_cell_mass) / 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "percentage = 5.1",
+      "total_cell_mass = 111",
+      "component_mass = (percentage * total_cell_mass) / 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "percentage = 9.7",
+      "total_cell_mass = 8.6",
+      "component_mass = (percentage * total_cell_mass) / 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "percentage = 81",
+      "total_cell_mass = 166",
+      "component_mass = (percentage * total_cell_mass) / 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "percentage = 57",
+      "total_cell_mass = 85",
+      "component_mass = (percentage * total_cell_mass) / 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "percentage = 55",
+      "total_cell_mass = 24",
+      "component_mass = (percentage * total_cell_mass) / 100"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "component_mass = (percentage * total_cell_mass) / 100"
+   ]
+  },
+  {
+   "id": "kebo.109.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "amino_acid_count = 247",
+      "peptide_bonds = amino_acid_count - 1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "amino_acid_count = 237",
+      "peptide_bonds = amino_acid_count - 1"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "amino_acid_count = 200",
+      "peptide_bonds = amino_acid_count - 1"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "amino_acid_count = 369",
+      "peptide_bonds = amino_acid_count - 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "amino_acid_count = 100",
+      "peptide_bonds = amino_acid_count - 1"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "amino_acid_count = 319",
+      "peptide_bonds = amino_acid_count - 1"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "peptide_bonds = amino_acid_count - 1"
+   ]
+  },
+  {
+   "id": "kebo.109.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total_polymer_mass = 197",
+      "monomer_count = 455",
+      "monosaccharide_mass = total_polymer_mass / monomer_count"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total_polymer_mass = 73",
+      "monomer_count = 465",
+      "monosaccharide_mass = total_polymer_mass / monomer_count"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_polymer_mass = 82",
+      "monomer_count = 231",
+      "monosaccharide_mass = total_polymer_mass / monomer_count"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total_polymer_mass = 167",
+      "monomer_count = 150",
+      "monosaccharide_mass = total_polymer_mass / monomer_count"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "total_polymer_mass = 156",
+      "monomer_count = 474",
+      "monosaccharide_mass = total_polymer_mass / monomer_count"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total_polymer_mass = 5",
+      "monomer_count = 98",
+      "monosaccharide_mass = total_polymer_mass / monomer_count"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "monosaccharide_mass = total_polymer_mass / monomer_count"
+   ]
+  },
+  {
+   "id": "kebo.109.6",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "purine_count = 477",
+      "pyrimidine_count = 409",
+      "total_nucleotides = purine_count + pyrimidine_count"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "purine_count = 464",
+      "pyrimidine_count = 378",
+      "total_nucleotides = purine_count + pyrimidine_count"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "purine_count = 414",
+      "pyrimidine_count = 386",
+      "total_nucleotides = purine_count + pyrimidine_count"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "purine_count = 407",
+      "pyrimidine_count = 34",
+      "total_nucleotides = purine_count + pyrimidine_count"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "purine_count = 347",
+      "pyrimidine_count = 257",
+      "total_nucleotides = purine_count + pyrimidine_count"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "purine_count = 156",
+      "pyrimidine_count = 138",
+      "total_nucleotides = purine_count + pyrimidine_count"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_nucleotides = purine_count + pyrimidine_count"
+   ]
+  },
+  {
+   "id": "kebo.109.8",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "delta_p = 50",
+      "delta_t = 104",
+      "rate = delta_p / delta_t"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "delta_p = 27",
+      "delta_t = 22",
+      "rate = delta_p / delta_t"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "delta_p = 52",
+      "delta_t = 63",
+      "rate = delta_p / delta_t"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "delta_p = 85",
+      "delta_t = 8.1",
+      "rate = delta_p / delta_t"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "delta_p = 68",
+      "delta_t = 101",
+      "rate = delta_p / delta_t"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "delta_p = 52",
+      "delta_t = 30",
+      "rate = delta_p / delta_t"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "rate = delta_p / delta_t"
+   ]
+  },
+  {
+   "id": "kebo.109.9",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "catalysed_rate = 86",
+      "uncatalysed_rate = 64",
+      "fold_acceleration = catalysed_rate / uncatalysed_rate"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "catalysed_rate = 35",
+      "uncatalysed_rate = 87",
+      "fold_acceleration = catalysed_rate / uncatalysed_rate"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "catalysed_rate = 72",
+      "uncatalysed_rate = 48",
+      "fold_acceleration = catalysed_rate / uncatalysed_rate"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "catalysed_rate = 77",
+      "uncatalysed_rate = 12.1",
+      "fold_acceleration = catalysed_rate / uncatalysed_rate"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "catalysed_rate = 73",
+      "uncatalysed_rate = 40",
+      "fold_acceleration = catalysed_rate / uncatalysed_rate"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "catalysed_rate = 64",
+      "uncatalysed_rate = 50",
+      "fold_acceleration = catalysed_rate / uncatalysed_rate"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "fold_acceleration = catalysed_rate / uncatalysed_rate"
+   ]
+  },
+  {
+   "id": "kebo.109.10",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "vmax = 39",
+      "half_vmax = vmax / 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "vmax = 21",
+      "half_vmax = vmax / 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "vmax = 64",
+      "half_vmax = vmax / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "vmax = 10.2",
+      "half_vmax = vmax / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "vmax = 74",
+      "half_vmax = vmax / 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "vmax = 29",
+      "half_vmax = vmax / 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "half_vmax = vmax / 2"
+   ]
+  }
+ ]
+}

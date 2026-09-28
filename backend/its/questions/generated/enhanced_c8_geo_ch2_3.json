@@ -34,6 +34,31 @@
      "q": "Design a simple set of visual rules or annotations for a school atlas to prevent Class 8 students from developing false impressions about land sizes when viewing a Mercator world map.",
      "a": "A complete answer should propose at least three clear visual additions:\n1. Place a prominent scale indicator or \"Latitudinal Distortion Bar\" showing how the area scale factor increases from $1\\times$ at the Equator to over $4\\times$ at $60^\\circ$ latitude.\n2. Insert an inset box showing true relative land sizes (e.g., placing Greenland inside Africa to show it fits over 14 times).\n3. Include an explicit textual warning banner stating: \"This map preserves compass angles for navigation; land area near the poles is visually magnified.\"\nA weak answer merely suggesting to \"use a globe instead\" fails to design effective educational annotations on the 2D flat map itself.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Map distortion refers to the unavoidable alteration of spatial properties—______ relative size (area), shape (angle/conformality), distance, and direction—that occurs when transforming the curved, three-dimensional surface of Earth (an oblate spheroid) onto a flat, two-dimensional plane.",
+     "a": "specifically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Take an orange peel or a hollow rubber ball cut in half and try pressing it ______ flat on a study table; you will notice that it immediately cracks, tears, or stretches along the edges.",
+     "a": "completely",
+     "self_check": true
+    },
+    {
+     "q": "What is Map distortion? State the definition given in this lesson.",
+     "a": "Map distortion refers to the unavoidable alteration of spatial properties—specifically relative size (area), shape (angle/conformality), distance, and direction—that occurs when transforming the curved, three-dimensional surface of Earth (an oblate spheroid) onto a flat, two-dimensional plane.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Map distortion?",
+     "a": "Students often believe that wall maps displayed in classrooms show true physical sizes, leading them to conclude that Greenland is larger than South America or India, and that polar regions are vast continents relative to the tropics.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can analyze map distortions by evaluating how relative land area and shape change across latitudes on different map projections.",
+     "self_check": true
     }
    ]
   }

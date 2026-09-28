@@ -34,6 +34,26 @@
      "q": "Construct a division problem using two integers where the dividend is a negative two-digit number, the divisor is a negative single-digit number, and the final quotient is exactly $+7$. Show your check using multiplication.",
      "a": "An example of a correct construction is $(-63) \\div (-9) = +7$. Checking via multiplication: $+7 \\times (-9) = -63$, which matches the original dividend. A poor response would use numbers that do not divide evenly, or use incorrect signs resulting in a negative quotient like $-7$.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ of integers follows specific sign rules: dividing two integers with like signs (both positive or both negative) yields a positive quotient, while dividing two integers with unlike signs (one positive and one negative) yields a negative quotient.",
+     "a": "division",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a shopkeeper in your local market who finds that his total loss over 4 days is ₹200, and the loss was ______ the same amount every single day.",
+     "a": "exactly",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can correctly divide any two integers by first determining the sign of the quotient using sign rules and then dividing their absolute values, and can apply this to real-world scenarios such as tracking financial losses over equal intervals or temperature changes.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ in your local market who finds that his total loss over 4 days is ₹200, and the loss was exactly the same amount every single day.",
+     "a": "shopkeeper",
+     "self_check": true
     }
    ]
   }

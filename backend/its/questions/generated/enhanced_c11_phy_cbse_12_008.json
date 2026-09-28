@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a syringe, a pressure sensor, and a water bath to verify Charles's law (V ∝ T at constant P) for air. List the measurements, controls, and how you would extract absolute zero from the graph.",
      "a": "Seal a syringe with a known volume of air (e.g., 20 mL) at room temperature. Connect to a pressure sensor to monitor pressure. Immerse the syringe in a water bath at varying temperatures (0°C to 80°C). Allow thermal equilibrium at each temperature. Adjust the syringe plunger to keep pressure constant (equal to atmospheric pressure) and record the volume. Plot V vs T (in °C). Extrapolate the straight line to V = 0; the intercept on the T-axis gives absolute zero in °C (should be near -273°C). Controls: fixed amount of air, constant atmospheric pressure, thermal equilibrium. A poor design (e.g., not allowing equilibrium, ignoring pressure changes, using Celsius without extrapolation) reveals lack of understanding of the need for constant pressure and the linear relationship in absolute temperature.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Avogadro's number (N_A) is the number of ______ particles (atoms or molecules) in one mole of a substance, defined exactly as 6.02214076 × 10²³ mol⁻¹.",
+     "a": "constituent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a pressure cooker whistle: steam escapes at high pressure and ______.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "What is Avogadro's number (N_A)? State the definition given in this lesson.",
+     "a": "Avogadro's number (N_A) is the number of constituent particles (atoms or molecules) in one mole of a substance, defined exactly as 6.02214076 × 10²³ mol⁻¹.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ideal gas law states that for an ideal gas, the product of pressure (P) and volume (V) is directly proportional to the number of moles (μ) and the absolute temperature (T): PV = μRT, where R = ______ J mol⁻¹ K⁻¹ is the universal gas constant.",
+     "a": "8.314",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Avogadro's number (N_A)?",
+     "a": "Students often think Avogadro's number (6.02 × 10²³) is the number of molecules in 22.4 L of gas at *any* temperature and pressure.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the number of moles, number of molecules, or molar mass from given mass/volume/pressure/temperature data using the ideal gas law, and can explain why real gases deviate from ideal behaviour at high pressures and low temperatures using molecular volume and intermolecular forces.",
+     "self_check": true
     }
    ]
   }

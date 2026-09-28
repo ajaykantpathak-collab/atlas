@@ -34,6 +34,31 @@
      "q": "Design a 3-indicator dashboard to monitor sustainable urbanisation in a rapidly growing Indian city (e.g., Bengaluru). Indicators must capture demographic, economic, and environmental dimensions. Justify each choice.",
      "a": "1. Demographic: Annual growth rate of slum population (% of total urban pop) — captures inclusivity. 2. Economic: Share of informal sector employment in urban workforce — captures livelihood quality. 3. Environmental: Per capita green space (m²) and PM2.5 annual mean — captures livability. A poor answer lists generic indicators (e.g., \"total population\") without linking to sustainability or the specific city's context (e.g., Bengaluru's lake depletion, IT-driven migration).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Urbanisation in India refers to the process of increasing proportion of a country's population living in urban areas, driven by rural-to-urban migration, natural increase in urban populations, and ______ of rural settlements as urban.",
+     "a": "reclassification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how your nearest city has expanded over the last ______ — new colonies, traffic, high-rises replacing fields.",
+     "a": "decade",
+     "self_check": true
+    },
+    {
+     "q": "What is Urbanisation in India? State the definition given in this lesson.",
+     "a": "Urbanisation in India refers to the process of increasing proportion of a country's population living in urban areas, driven by rural-to-urban migration, natural increase in urban populations, and reclassification of rural settlements as urban.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Urbanisation in India?",
+     "a": "Students often think \"urbanisation\" means only the growth of big metropolitan cities like Delhi or Mumbai.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can interpret Census of India urbanisation data (1901–2011) to calculate decadal growth rates, explain the push-pull factors causing urbanisation in specific Indian regions, and evaluate the socio-economic and environmental consequences of rapid urban growth using case examples like Mumbai or Delhi NCR.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_03_006",
+   "title": "c12_leg_cbse_03_006",
+   "questions": [
+    {
+     "q": "State the exact legal distinction between a 'void agreement' and a 'voidable contract' under the Indian Contract Act, 1872, citing the relevant sections.",
+     "a": "A void agreement (Section 2(g)) is void ab initio — never legally enforceable — while a voidable contract (Section 2(i)) is valid until rescinded by the party whose consent was not free. A wrong answer (e.g., \"both can be cancelled\") reveals confusion about initial validity: void agreements have no legal existence from inception (e.g., agreement with a minor), whereas voidable contracts arise from flawed consent (coercion, undue influence) and remain binding unless avoided.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why an agreement to sell a car for ₹1 is valid consideration, but an agreement to sell it for \"love and affection\" without registration is not — unless it falls under a specific exception. Name that exception.",
+     "a": "Consideration need not be adequate (Section 25, Explanation 2) but must be real and have some value in the eyes of law — ₹1 suffices. \"Love and affection\" alone is not consideration unless the agreement is in writing, registered, and made out of natural love and affection between near relations (Section 25(1)). A wrong answer (e.g., \"love is enough\") ignores the statutory formalities required to enforce gratuitous promises.",
+     "self_check": true
+    },
+    {
+     "q": "A contracts to supply 1,000 kg of onions to B at ₹20/kg by 15th November. On 10th November, the government bans onion exports, causing domestic prices to crash to ₹5/kg. A refuses to supply, claiming frustration. B sues for damages. Apply Section 56 and the *Satyabrata Ghose* test to decide if the contract is discharged.",
+     "a": "The contract is NOT discharged. Section 56 requires impossibility of performance, not commercial unprofitability. The *Satyabrata Ghose* test (supervening event must destroy the foundation of the contract) fails — A can still supply onions; only the market price changed. A wrong answer (\"yes, it's frustrated\") confuses economic hardship with legal impossibility. Damages under Section 73 would be the difference between contract price and market price at breach (₹15,000), not the full contract value.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the measure of damages under Section 73 (general damages) and Section 74 (liquidated damages) when a contract stipulates a penalty of ₹1 lakh for delay, but actual loss is ₹20,000. Which amount can the injured party recover, and why?",
+     "a": "The injured party recovers only ₹20,000 (actual loss), not ₹1 lakh. Section 74 caps recovery at reasonable compensation not exceeding the stipulated sum — courts treat penalty clauses as liquidated damages only if they represent a genuine pre-estimate of loss (*Fateh Chand v. Balkishan Das*). A wrong answer (\"₹1 lakh because it's in the contract\") ignores the judicial doctrine against penalties and the requirement to prove actual loss under Section 73 principles.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"A minor's agreement is voidable at the option of the minor.\" Is this statement correct? Justify using *Mohori Bibee v. Dharmodas Ghose* and the current legal position.",
+     "a": "The statement is INCORRECT. *Mohori Bibee* (Privy Council) held a minor's agreement is **void ab initio**, not voidable — it never creates legal obligations. The minor cannot ratify it on majority. A wrong answer (\"voidable\") confuses minor's agreements with contracts induced by coercion/undue influence (voidable under Section 19). This error costs marks in both board and competitive exams where the distinction is frequently tested.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel fact scenario involving a contingent contract (Section 31) and a wagering agreement (Section 30) that look similar but differ in enforceability. Explain the distinguishing features in your scenario.",
+     "a": "**Scenario**: A promises to pay B ₹50,000 if India wins the World Cup (contingent contract — enforceable). Separately, A and B bet ₹50,000 on the same match — A pays if India wins, B pays if India loses (wagering agreement — void under Section 30). **Distinction**: In the first, the event (India winning) is collateral to a real obligation (e.g., a sponsorship deal); in the second, the *only* interest is winning/losing the bet. A good answer must show: (1) contingent contracts have an independent interest; (2) wagering agreements are purely speculative with reciprocal promises to pay based on uncertain events. A poor answer treats both as \"bets.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

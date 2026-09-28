@@ -1,0 +1,193 @@
+{
+ "catalog": "catalog_class11_physics_keph106.json",
+ "concepts": [
+  {
+   "id": "keph106.6.2.1",
+   "title": "Centre of Mass of a Two-Body System",
+   "converted_to_compute": true,
+   "formula": "com = (mass_1 * position_1 + mass_2 * position_2) / (mass_1 + mass_2)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "com = (mass_1 * position_1 + mass_2 * position_2) / (mass_1 + mass_2)",
+     "compute": "com = (mass_1 * position_1 + mass_2 * position_2) / (mass_1 + mass_2)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Centre of Mass of a Two-Body System: given mass_1 = 18.7, position_1 = 11.2, mass_2 = 94, position_2 = 8.8, find com.",
+     "a": "9.19823",
+     "self_check": false
+    },
+    {
+     "q": "For Centre of Mass of a Two-Body System: given mass_1 = 93, position_1 = 2.8, mass_2 = 159, position_2 = 8.7, find com.",
+     "a": "6.52262",
+     "self_check": false
+    },
+    {
+     "q": "For Centre of Mass of a Two-Body System: given mass_1 = 174, position_1 = 18.4, mass_2 = 27, position_2 = 17.2, find com.",
+     "a": "18.2388",
+     "self_check": false
+    },
+    {
+     "q": "For Centre of Mass of a Two-Body System: given mass_1 = 119, position_1 = 18.2, mass_2 = 150, position_2 = 17.6, find com.",
+     "a": "17.8654",
+     "self_check": false
+    },
+    {
+     "q": "For Centre of Mass of a Two-Body System: given mass_1 = 134, position_1 = 11.9, mass_2 = 119, position_2 = 1.8, find com.",
+     "a": "7.14941",
+     "self_check": false
+    },
+    {
+     "q": "For Centre of Mass of a Two-Body System: given mass_1 = 94, position_1 = 17.3, mass_2 = 190, position_2 = 8.9, find com.",
+     "a": "11.6803",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph106.6.6.1",
+   "title": "Angular Velocity and Linear Speed",
+   "converted_to_compute": true,
+   "formula": "v_tan = radius * omega",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "v_tan = radius * omega",
+     "compute": "v_tan = radius * omega"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Angular Velocity and Linear Speed: given radius = 4.6, omega = 41, find v tan.",
+     "a": "188.6",
+     "self_check": false
+    },
+    {
+     "q": "For Angular Velocity and Linear Speed: given radius = 17, omega = 85, find v tan.",
+     "a": "1445",
+     "self_check": false
+    },
+    {
+     "q": "For Angular Velocity and Linear Speed: given radius = 43, omega = 13.3, find v tan.",
+     "a": "571.9",
+     "self_check": false
+    },
+    {
+     "q": "For Angular Velocity and Linear Speed: given radius = 26, omega = 33, find v tan.",
+     "a": "858",
+     "self_check": false
+    },
+    {
+     "q": "For Angular Velocity and Linear Speed: given radius = 37, omega = 30, find v tan.",
+     "a": "1110",
+     "self_check": false
+    },
+    {
+     "q": "For Angular Velocity and Linear Speed: given radius = 42, omega = 54, find v tan.",
+     "a": "2268",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph106.6.7.1",
+   "title": "Torque: the Turning Effect of Force",
+   "converted_to_compute": true,
+   "formula": "torque = force * moment_arm",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "torque = force * moment_arm",
+     "compute": "torque = force * moment_arm"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Torque: the Turning Effect of Force: given force = 544, moment_arm = 72, find torque.",
+     "a": "39168",
+     "self_check": false
+    },
+    {
+     "q": "For Torque: the Turning Effect of Force: given force = 267, moment_arm = 102, find torque.",
+     "a": "27234",
+     "self_check": false
+    },
+    {
+     "q": "For Torque: the Turning Effect of Force: given force = 750, moment_arm = 21, find torque.",
+     "a": "15750",
+     "self_check": false
+    },
+    {
+     "q": "For Torque: the Turning Effect of Force: given force = 634, moment_arm = 75, find torque.",
+     "a": "47550",
+     "self_check": false
+    },
+    {
+     "q": "For Torque: the Turning Effect of Force: given force = 69, moment_arm = 74, find torque.",
+     "a": "5106",
+     "self_check": false
+    },
+    {
+     "q": "For Torque: the Turning Effect of Force: given force = 575, moment_arm = 75, find torque.",
+     "a": "43125",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph106.6.7.2",
+   "title": "Moment of Inertia and Angular Momentum",
+   "converted_to_compute": true,
+   "formula": "ang_mom = moi * omega",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ang_mom = moi * omega",
+     "compute": "ang_mom = moi * omega"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Moment of Inertia and Angular Momentum: given moi = 80, omega = 56, find ang mom.",
+     "a": "4480",
+     "self_check": false
+    },
+    {
+     "q": "For Moment of Inertia and Angular Momentum: given moi = 71, omega = 56, find ang mom.",
+     "a": "3976",
+     "self_check": false
+    },
+    {
+     "q": "For Moment of Inertia and Angular Momentum: given moi = 29, omega = 39, find ang mom.",
+     "a": "1131",
+     "self_check": false
+    },
+    {
+     "q": "For Moment of Inertia and Angular Momentum: given moi = 58, omega = 68, find ang mom.",
+     "a": "3944",
+     "self_check": false
+    },
+    {
+     "q": "For Moment of Inertia and Angular Momentum: given moi = 23, omega = 72, find ang mom.",
+     "a": "1656",
+     "self_check": false
+    },
+    {
+     "q": "For Moment of Inertia and Angular Momentum: given moi = 95, omega = 4.4, find ang mom.",
+     "a": "418",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -4,15 +4,9 @@
   {
    "id": "lemh.201.7.2.1",
    "title": "Antiderivative and the Indefinite Integral",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the calculus rule and evaluate at the point",
-     "explain": "apply the calculus rule and evaluate at the point: val = 5 * 1 * 1 + 4 * 1 + 1 gives 10",
-     "compute": "val = 5 * 1 * 1 + 4 * 1 + 1"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "integral(f(x)) dx = F(x) + C where d/dx of F(x) = f(x)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate the limit of 5x^2 + 4x + 1 as x approaches 1 (direct substitution).",
@@ -49,15 +43,9 @@
   {
    "id": "lemh.201.7.2.2",
    "title": "Standard Integration Formulae from the Derivative Table",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the calculus rule and evaluate at the point",
-     "explain": "apply the calculus rule and evaluate at the point: val = 5 * 5 * 5 + 4 * 5 + 1 gives 146",
-     "compute": "val = 5 * 5 * 5 + 4 * 5 + 1"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "integral(x**n) dx = x**(n + 1)/(n + 1) + C valid for n other than -1",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate the limit of 5x^2 + 4x + 1 as x approaches 5 (direct substitution).",
@@ -94,15 +82,9 @@
   {
    "id": "lemh.201.7.2.3",
    "title": "Linearity Properties of the Indefinite Integral",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "transpose the terms and divide by the coefficient",
-     "explain": "transpose the terms and divide by the coefficient: x = (98 - 8) / 9 gives 10",
-     "compute": "x = (98 - 8) / 9"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "integral(k1*f1(x) + k2*f2(x)) dx = k1*integral(f1(x)) dx + k2*integral(f2(x)) dx",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 9x + 8 = 98.",
@@ -139,15 +121,9 @@
   {
    "id": "lemh.201.7.3.1",
    "title": "Integration by Substitution",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
-     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 9 * 1 gives 9",
-     "compute": "hcf = 9 * 1"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "integral(f(x)) dx with x = g(t) becomes integral(f(g(t)) * g_prime(t)) dt",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 18 and 72 have HCF 9 with coprime multipliers 2 and 8. Verify by computing hcf = 9 x 1; then find the HCF value.",
@@ -166,12 +142,12 @@
     },
     {
      "q": "Two ropes of lengths 18 cm and 72 cm are cut into equal pieces of greatest length. What is the length of each piece?",
-     "a": "9",
+     "a": "18",
      "self_check": false
     },
     {
      "q": "Two bells ring together now. They ring at intervals of 18 minutes and 72 minutes. After how many minutes will they next ring together?",
-     "a": "144",
+     "a": "72",
      "self_check": false
     },
     {
@@ -184,15 +160,9 @@
   {
    "id": "lemh.201.7.3.2",
    "title": "Logarithmic Integrals of tan, cot, sec and cosec",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "take the ratio of the relevant sides",
-     "explain": "take the ratio of the relevant sides: s = 8 / 17 gives 0.470588",
-     "compute": "s = 8 / 17"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "integral(sec(x)) dx = log(sec(x) + tan(x)) + C",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a right triangle the sides adjacent to the right angle are 8 and 15, and the hypotenuse is 17. Find sin of the angle opposite the side 8. (give the fraction)",
@@ -201,7 +171,7 @@
     },
     {
      "q": "For the same triangle (legs 8 and 15, hypotenuse 17), find cos of the angle opposite the side 15. (give the fraction)",
-     "a": "15/17",
+     "a": "0.470588",
      "self_check": false
     },
     {
@@ -229,15 +199,9 @@
   {
    "id": "lemh.201.7.3.3",
    "title": "Integration Using Trigonometric Identities",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute into the identity and simplify",
-     "explain": "substitute into the identity and simplify: val = (6 / 10) ** 2 + (8 / 10) ** 2 gives 1",
-     "compute": "val = (6 / 10) ** 2 + (8 / 10) ** 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "integral(sin(x)**2) dx = x/2 - sin(2*x)/4 + C",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Verify sin^2 A + cos^2 A = 1 for the right triangle with legs 6, 8 and hypotenuse 10 by computing (6/10)^2 + (8/10)^2.",
@@ -274,15 +238,9 @@
   {
    "id": "lemh.201.7.4.1",
    "title": "Standard Forms with Quadratic Denominators",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the exponent law to the given powers",
-     "explain": "apply the exponent law to the given powers: val = 5 ** (2 + 2) gives 625",
-     "compute": "val = 5 ** (2 + 2)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "integral(1/(x**2 + a**2)) dx = (1/a) * arctan(x/a) + C",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 5^2 x 5^2.",
@@ -319,15 +277,9 @@
   {
    "id": "lemh.201.7.5.1",
    "title": "Integration by Partial Fractions",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "combine the fractions with the fraction operation rules",
-     "explain": "combine the fractions with the fraction operation rules: prod = 6 * 6 / 7 gives 5.14286",
-     "compute": "prod = 6 * 6 / 7"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "integral(p(x)/((x - a)*(x - b))) dx = A*log(x - a) + B*log(x - b) + C",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 6 x 6/7.",
@@ -364,15 +316,9 @@
   {
    "id": "lemh.201.7.6.1",
    "title": "Integration by Parts and the ILATE Choice",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
-     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 6 * 1 gives 6",
-     "compute": "hcf = 6 * 1"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "integral(f(x) * g(x)) dx = f(x) * integral(g(x)) dx - integral(f_prime(x) * V(x)) dx where V = integral(g(x)) dx",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 42 and 30 have HCF 6 with coprime multipliers 7 and 5. Verify by computing hcf = 6 x 1; then find the HCF value.",
@@ -409,15 +355,9 @@
   {
    "id": "lemh.201.7.6.2",
    "title": "Exponential Pattern of e to the x times Function plus Its Derivative",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the calculus rule and evaluate at the point",
-     "explain": "apply the calculus rule and evaluate at the point: val = 3 * 3 * 3 + 8 * 3 + 2 gives 53",
-     "compute": "val = 3 * 3 * 3 + 8 * 3 + 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "integral(e**x * (f(x) + f_prime(x))) dx = e**x * f(x) + C",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate the limit of 3x^2 + 8x + 2 as x approaches 3 (direct substitution).",
@@ -455,6 +395,8 @@
    "id": "lemh.201.7.8.1",
    "title": "Evaluating a Definite Integral by the Fundamental Theorem",
    "converted_to_compute": false,
+   "formula": "integral from lower to upper of f(x) dx = F(upper) - F(lower) where F is an antiderivative of f",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate the limit of 1x^2 + 1x + 6 as x approaches 5 (direct substitution).",
@@ -491,15 +433,9 @@
   {
    "id": "lemh.201.7.10.1",
    "title": "Properties of Definite Integrals Including the King Property",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 5 gives 5",
-     "compute": "count = 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "integral from 0 to a of f(x) dx = integral from 0 to a of f(a - x) dx",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 5 elements. How many elements are in its identity relation (a, a) for every element?",

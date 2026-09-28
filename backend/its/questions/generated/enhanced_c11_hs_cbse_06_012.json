@@ -34,6 +34,31 @@
      "q": "Design a low-cost digital communication kit for a Krishi Vigyan Kendra (KVK) to conduct weekly farmer training sessions in 5 nearby villages (each 3-8 km away). The kit must support: (a) live video demonstration from KVK to village, (b) farmer Q&A audio, (c) offline content distribution (PDFs, videos). Specify the hardware, software, and connectivity technologies for each component, justifying why Bluetooth is NOT used for the village link.",
      "a": "Good answer includes: (a) Live video: KVK uses a laptop + webcam + 4G dongle (or broadband) -> Zoom/Google Meet -> village receives via a smartphone/tablet + 4G data + projector (HDMI) + Bluetooth speaker (for audio amplification *locally*). (b) Q&A: Farmers use smartphone mics (VoIP over 4G). (c) Offline content: Pre-load SD cards/USB drives at KVK; distribute physically or via local Wi-Fi hotspot (phone tethering) at village meeting. Bluetooth is only used for *last-meter* audio (phone to speaker) because its range (10m) cannot cover 3-8 km. A poor answer proposes Bluetooth for village-to-village or KVK-to-village links, ignoring the fundamental range limitation and confusing PAN with WAN.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Modern Digital Communication Technologies refer to electronic systems that transmit, process, and store information in digital format (binary code) using hardware, software, and network ______.",
+     "a": "infrastructure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an ______ worker in a rural village demonstrating a new agricultural technique.",
+     "a": "extension",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Break down its name origin (Harald Bluetooth), its frequency band (______ GHz), and its key advantage: cable replacement for peripherals.",
+     "a": "2.4",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the working principle of Bluetooth (frequency hopping spread spectrum, pairing, profiles) and differentiate it from other wireless technologies (Wi-Fi, infrared, NFC) based on range, data rate, power consumption, and typical use cases in home and extension work contexts.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an extension worker in a rural village ______ a new agricultural technique.",
+     "a": "demonstrating",
+     "self_check": true
     }
    ]
   }

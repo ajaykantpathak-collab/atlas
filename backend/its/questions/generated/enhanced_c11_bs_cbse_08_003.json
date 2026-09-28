@@ -34,6 +34,31 @@
      "q": "Design a decision flowchart for a startup founder choosing between owner's funds and borrowed funds for three scenarios: (a) ₹10 lakh for 6 months working capital, (b) ₹1 crore for factory building, (c) ₹25 lakh for R&D with uncertain returns. Use at least four decision criteria from NCERT Section 8.6.",
      "a": "Flowchart criteria nodes: (1) Purpose & Period → short-term working capital → trade credit/bank overdraft (borrowed, flexible, low cost); long-term fixed asset → equity/debentures (owner's/borrowed, match maturity). (2) Risk Profile → uncertain R&D → equity (owner's, no fixed burden); stable cash flows → debentures (borrowed, tax shield). (3) Control → founder wants full control → avoid equity dilution, prefer debt/preference shares. (4) Credit Worthiness → high debt-equity ratio → avoid secured debentures (charge on assets), prefer equity/internal accruals. A poor answer that lists criteria without scenario-specific logic or ignores the \"matching principle\" (maturity matching) reveals inability to apply classification to real decisions — exactly what board case-study questions test.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Owner's funds represent capital contributed by the proprietors/partners/______ plus accumulated profits reinvested in the business (retained earnings), which carries residual claim on assets, voting rights, and no mandatory repayment obligation during the firm's lifetime.",
+     "a": "shareholders",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Anil Singh from the textbook case: his restaurant chain ______ needs ₹2 crore.",
+     "a": "expansion",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Anil Singh from the textbook case: his restaurant chain expansion needs ₹______ crore.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify any given source of finance as owner's fund or borrowed fund, justify the classification using at least three distinguishing criteria (claim type, repayment obligation, control, security, cost, risk), and explain how the choice between them affects the firm's financial risk, control structure, and tax.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Anil Singh from the textbook case: his ______ chain expansion needs ₹2 crore.",
+     "a": "restaurant",
+     "self_check": true
     }
    ]
   }

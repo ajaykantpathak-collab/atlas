@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a human volunteer to demonstrate the effect of ADH on urine output and osmolarity. Specify the control condition, experimental intervention, measurements, and expected results.",
      "a": "Control: volunteer drinks 500 mL water after overnight fast; collect urine for 2 hours. Experimental: same volunteer receives intravenous hypertonic saline (raises plasma osmolarity) then drinks 500 mL water; collect urine for 2 hours. Measure urine volume and osmolarity. Expected: experimental condition shows lower urine volume and higher urine osmolarity due to ADH release. A poor design (e.g., no control, measuring only volume) fails to isolate ADH's specific role.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Regulation of kidney function refers to the hormonal feedback mechanisms (primarily ADH, RAAS, and ANF) that maintain homeostasis of blood volume, osmolarity, blood pressure, and glomerular filtration rate (GFR) by modulating water and electrolyte ______ in the nephron.",
+     "a": "reabsorption",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Notice how your urine output ______ on a hot summer day when you sweat heavily, but increases after drinking a large glass of water.",
+     "a": "decreases",
+     "self_check": true
+    },
+    {
+     "q": "What is Regulation of kidney function? State the definition given in this lesson.",
+     "a": "Regulation of kidney function refers to the hormonal feedback mechanisms (primarily ADH, RAAS, and ANF) that maintain homeostasis of blood volume, osmolarity, blood pressure, and glomerular filtration rate (GFR) by modulating water and electrolyte reabsorption in the nephron.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Regulation of kidney function?",
+     "a": "Students often believe that ADH increases urine output (diuresis) because its name \"antidiuretic\" is misinterpreted as \"against diuresis\" meaning it promotes urine formation.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) trace the complete ADH pathway from osmoreceptor stimulation to water reabsorption in collecting ducts, (2) explain the RAAS cascade step-by-step from renin release to aldosterone action, and (3) describe how ANF counteracts RAAS, including the physiological conditions that trigger each hormone.",
+     "self_check": true
     }
    ]
   }

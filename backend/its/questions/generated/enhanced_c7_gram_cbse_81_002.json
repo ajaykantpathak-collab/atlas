@@ -1,0 +1,46 @@
+{
+ "catalog": "enhanced_c7_gram_cbse_81_002",
+ "concepts": [
+  {
+   "id": "enh:c7_gram_cbse_81_002",
+   "title": "c7_gram_cbse_81_002",
+   "questions": [
+    {
+     "q": "'I ___ (finish) my homework just now' vs 'I ___ (finish) it an hour ago.'",
+     "a": "have finished / finished — 'just now' bridges to now; 'an hour ago' is a dead time-stamp → simple past. A wrong answer 'have finished' for the second shows the dated-perfect error.",
+     "self_check": true
+    },
+    {
+     "q": "Fix: 'She has visited Agra last year.'",
+     "a": "'She visited Agra last year' — 'last year' is a closed box; present perfect cannot carry a finished time. A wrong answer keeping 'has visited' shows the signal-word rule isn't applied.",
+     "self_check": true
+    },
+    {
+     "q": "Which fits: 'I ___ never ___ (see) the Taj Mahal.'",
+     "a": "'have never seen' — 'never' is a perfect signal (life experience up to now). 'Seen' must be V3, not 'saw' — 'have saw' is a broken participle error.",
+     "self_check": true
+    },
+    {
+     "q": "It differs from simple past, which is ______: 'I finished yesterday' — done, closed, dated.",
+     "a": "dead-and-gone",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Present perfect ______ a past action to NOW: 'I have finished' — the work is done AND matters now.",
+     "a": "connects",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The bridge rule: ______ perfect = past action with a bridge to now; simple past = past action in a closed box. 'I have lost my keys' — still lost (bridge). 'I lost my keys yesterday' — the story ended yesterday (box).",
+     "a": "present",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student chooses present perfect vs simple past using the connection-to-now test and signal words, forms have/has + V3 correctly, and knows yesterday/ago words KILL the perfect.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

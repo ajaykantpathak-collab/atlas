@@ -34,6 +34,26 @@
      "q": "Design a new fractal pattern starting with a square where you divide it into 16 smaller congruent squares and remove 4 of them in a symmetric pattern. Write the formula for the number of remaining squares at step n and the fraction of remaining area.",
      "a": "Number of squares at step n = 12^n (since 16-4=12 kept each time). Area fraction = (12/16)^n = (3/4)^n. A poor answer that gives 12n or 16^n - 4^n shows the student cannot generalise the multiplicative structure from the Sierpinski examples to a new variation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Sierpinski Gasket (or Sierpinski Triangle) is a fractal ______ by starting with an equilateral triangle, dividing it into four congruent smaller equilateral triangles, removing the central inverted triangle, and recursively repeating this process on each of the three remaining triangles.",
+     "a": "constructed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are making a Diwali rangoli design using a large ______ triangle of side 16 cm.",
+     "a": "equilateral",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are making a Diwali rangoli design using a large equilateral triangle of side ______ cm.",
+     "a": "16",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can physically construct the first three iterations of the Sierpinski Gasket using paper folding or drawing, correctly identify the pattern in the number of remaining triangles (3^n) and the fraction of remaining area ((3/4)^n), and explain why the pattern follows a multiplicative rule rather than an additive one.",
+     "self_check": true
     }
    ]
   }

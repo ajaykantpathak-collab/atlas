@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using only a battery, a long straight wire, a variable resistor (rheostat), a compass, and a ruler to verify that B ∝ I and B ∝ 1/r. Describe the procedure, what you would measure, and how you would analyze the data to confirm both relationships.",
      "a": "**Procedure:** (1) Fix wire vertically, place compass at fixed distance r₁ (e.g., 5 cm). (2) Vary current I using rheostat, measure I with ammeter (or calculate from V/R). For each I, record compass deflection angle θ from geographic north. Since B_wire ∝ tan θ (for small θ, B_wire = B_earth tan θ), plot tan θ vs I — should be straight line through origin, confirming B ∝ I. (3) Fix I at a constant value. Move compass to different distances r (2, 4, 6, 8, 10 cm), record θ at each r. Plot tan θ vs 1/r — should be straight line through origin, confirming B ∝ 1/r. A poor answer (e.g., just \"measure deflection at different currents\") reveals the student doesn't know how to isolate variables or use the tangent law to convert deflection to field strength.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A current-carrying straight conductor produces a magnetic field in the surrounding space whose field lines form concentric circles centered on the wire, with direction given by Maxwell's right-hand thumb rule: if the thumb points in the direction of ______ current (positive to negative), the curled fingers show the direction of magnetic field lines.",
+     "a": "conventional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real ______: place a compass near a straight wire connected to a battery — the needle deflects and aligns tangentially to circles around the wire.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Finally, introduce B = μ₀I/(______πr) as the quantitative expression, emphasizing μ₀ is a universal constant like ε₀ in electrostatics.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) draw magnetic field lines around a straight current-carrying conductor with correct direction using the right-hand thumb rule, (2) state and apply the formula B = μ₀I/(2πr) to calculate magnetic field magnitude at a given distance, (3) explain how B varies with current I and distance r, and (4) predict the resultant.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real observation: place a compass near a straight wire connected to a battery — the needle deflects and aligns ______ to circles around the wire.",
+     "a": "tangentially",
+     "self_check": true
     }
    ]
   }

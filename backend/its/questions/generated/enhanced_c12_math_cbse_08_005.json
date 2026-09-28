@@ -34,6 +34,26 @@
      "q": "Create a problem where the area of a circle is found using horizontal strips, but the region is only the part of the circle \\(x^2 + y^2 = 16\\) that lies above the line \\(y = 2\\). Set up the integral (do not evaluate).",
      "a": "The circle radius is 4. The line \\(y = 2\\) cuts the circle at \\(x = \\pm\\sqrt{16 - 4} = \\pm\\sqrt{12} = \\pm 2\\sqrt{3}\\). The region above \\(y = 2\\) is symmetric about the y-axis. Using horizontal strips, for a given \\(y\\), \\(x\\) runs from \\(-\\sqrt{16 - y^2}\\) to \\(\\sqrt{16 - y^2}\\). The width is \\(2\\sqrt{16 - y^2}\\). \\(y\\) runs from 2 to 4.  \nArea \\(A = \\int_2^4 2\\sqrt{16 - y^2}\\,dy\\).  \nA good answer shows the correct limits (2 to 4), the correct width \\(2\\sqrt{16 - y^2}\\), and recognises the symmetry. A poor answer might use limits 0 to 4 (full upper half) or forget the factor 2 for the width.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When only a portion (e.g., a quadrant or a segment cut by a line) is required, the limits of ______ change accordingly, and the symmetry factor is adjusted.",
+     "a": "integration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing an ______ running track for your school sports day.",
+     "a": "elliptical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Because the ellipse is symmetric about both axes, the total area is ______ times the area in the first quadrant.",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "They can also handle regions bounded by the curve and a coordinate axis or a line parallel to an axis.",
+     "self_check": true
     }
    ]
   }

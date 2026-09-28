@@ -34,6 +34,31 @@
      "q": "Create a word problem about buying fruits at a local market where the total cost is Rs. 150, involving two types of fruits (mangoes and apples), such that it requires setting up a two-step linear equation in one variable to solve.",
      "a": "A good response should look like this: \"Aman bought 2 kg of mangoes and a basket of apples costing Rs. 50. If the total bill was Rs. 150, and 1 kg of mangoes costs $x$ rupees, set up the equation.\" \nExpected equation: $2x + 50 = 150$. \nA poor response would give disconnected numbers or fail to define a variable linked to a rate and a fixed cost.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Setting up equations from word problems is the process of translating a real-world verbal description into a ______ statement of equality using an unknown variable.",
+     "a": "mathematical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Next, we ______ each piece of the sentence into math, connecting the cost of the notebook and the pens to the total money spent.",
+     "a": "translate",
+     "self_check": true
+    },
+    {
+     "q": "What is Setting up equations from word problems? State the definition given in this lesson.",
+     "a": "Setting up equations from word problems is the process of translating a real-world verbal description into a mathematical statement of equality using an unknown variable.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Setting up equations from word problems?",
+     "a": "Students often write subtraction terms in reverse order when translating phrases like \"5 subtracted from a number\" or \"less than\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can read a multi-step word problem, define a variable for the unknown quantity, write a correct linear equation representing the given conditions, and solve it to find the correct value with proper units.",
+     "self_check": true
     }
    ]
   }

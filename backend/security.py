@@ -37,18 +37,18 @@ def create_access_token(
     Args:
         data: The payload to encode (must include ``sub`` for subject/user id).
         expires_delta: Optional custom expiration duration. Defaults to
-            ``settings.JWT_EXPIRE_MINUTES``.
+            ``settings.access_token_expire_minutes``.
 
     Returns:
         Encoded JWT string.
     """
     to_encode = data.copy()
     expire = datetime.now(timezone.utc) + (
-        expires_delta or timedelta(minutes=settings.JWT_EXPIRE_MINUTES)
+        expires_delta or timedelta(minutes=settings.access_token_expire_minutes)
     )
     to_encode.update({"exp": expire})
     encoded_jwt = jwt.encode(
-        to_encode, settings.JWT_SECRET, algorithm=settings.JWT_ALGORITHM
+        to_encode, settings.jwt_secret, algorithm=settings.jwt_algorithm
     )
     return encoded_jwt
 
@@ -60,7 +60,7 @@ def decode_access_token(token: str) -> Optional[dict[str, Any]]:
     """
     try:
         payload = jwt.decode(
-            token, settings.JWT_SECRET, algorithms=[settings.JWT_ALGORITHM]
+            token, settings.jwt_secret, algorithms=[settings.jwt_algorithm]
         )
         return payload
     except jwt.PyJWTError:

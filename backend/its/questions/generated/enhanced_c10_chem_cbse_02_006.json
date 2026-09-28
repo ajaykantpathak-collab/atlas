@@ -34,6 +34,26 @@
      "q": "Design a simple experiment to prove that neutralisation between HCl and NaOH is exothermic, using only a thermometer, two beakers, and the solutions. List the steps, what you would measure, and how you would conclude.",
      "a": "Steps: (1) Measure 50 mL each of 1M HCl and 1M NaOH at room temperature. (2) Record initial temperature of both (should be same). (3) Pour NaOH into HCl in a beaker, stir, record maximum temperature reached. (4) Calculate ΔT = T_final - T_initial. (5) Repeat with water instead of NaOH as control. Conclusion: If ΔT > 0 for acid-base mix but ≈0 for water mix, reaction is exothermic. A poor answer that doesn't include a control or doesn't specify equal concentrations/volumes reveals lack of experimental design understanding — a key competency in CBSE practical assessment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ reaction is a chemical reaction in which an acid reacts with a base to form a salt and water, involving the combination of H⁺ ions from the acid and OH⁻ ions from the base to produce H₂O molecules.",
+     "a": "neutralisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have severe acidity after eating spicy food — your mother gives you a spoonful of baking soda ______ or an antacid tablet.",
+     "a": "solution",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write balanced chemical equations for neutralisation reactions given any acid-base pair, identify the salt formed, explain why the reaction is exothermic using the ionic equation, and calculate the amount of acid/base needed for complete neutralisation using stoichiometry.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have severe acidity after eating spicy food — your mother gives you a ______ of baking soda solution or an antacid tablet.",
+     "a": "spoonful",
+     "self_check": true
     }
    ]
   }

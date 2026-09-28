@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_05_001",
+   "title": "c11_leg_cbse_05_001",
+   "questions": [
+    {
+     "q": "Define Administrative Law and state its primary objective in a democratic welfare state.",
+     "a": "Administrative Law is the branch of public law that regulates the organization, powers, and duties of administrative authorities, prescribing procedures they must follow and providing remedies for those affected by their decisions. Its primary objective is to ensure that executive power is exercised legally, reasonably, and fairly (non-arbitrarily), preventing the concentration of unchecked power. A wrong answer (e.g., \"It is the law made by the administration\") reveals confusion between *delegated legislation* (an output) and *Administrative Law* (the controlling framework).",
+     "self_check": true
+    },
+    {
+     "q": "Explain the \"Minister vs. Ministry\" distinction to differentiate Constitutional Law from Administrative Law.",
+     "a": "Constitutional Law deals with the *structure and formation* of the Ministry (e.g., how the Council of Ministers is appointed under Article 75, collective responsibility). Administrative Law begins *after* the Minister takes office and governs the *exercise of power* by the Ministry/Department (e.g., how the Ministry issues a notification, conducts an inquiry, or frames rules). A wrong answer focusing on \"Constitutional Law deals with Fundamental Rights\" misses the structural vs. functional distinction central to the textbook's \"key questions\" comparison.",
+     "self_check": true
+    },
+    {
+     "q": "The University Grants Commission (UGC) issues a regulation mandating that all universities must reserve 10% seats for single girl children. Classify this action and justify your classification using the textbook's typology.",
+     "a": "This is **Administrative Legislative Action (Delegated Legislation)**. Step 1: Identify the actor (UGC - an administrative body). Step 2: Identify the output (a binding regulation/rule). Step 3: Match to typology: \"Rule-making action as well as delegated legislation\" performed because the legislature cannot foresee every detail. Step 4: Confirm it is not Quasi-Judicial (no adjudication of specific rights), not Pure Administrative (it creates a general norm), not Ministerial (discretion involved in policy). A wrong classification as \"Quasi-Judicial\" reveals confusion between *general norm creation* (legislative) and *specific dispute resolution* (judicial).",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why the \"Droit Administratif\" system (French model) was historically considered more efficient than the Common Law \"Rule of Law\" model for administering a welfare state.",
+     "a": "Droit Administratif creates specialized Administrative Courts (Conseil d'État) staffed by administrators, ensuring expert, speedy resolution of state-citizen disputes without ordinary courts blocking welfare schemes. The Common Law model subjects administration to ordinary courts, risking judicial interference in policy (as noted in the text: ordinary courts \"put breaks on schemes\"). However, Droit lacks an independent judiciary check initially. A weak answer focusing only on \"separate courts\" misses the *efficiency vs. liberty* trade-off and the historical context of Napoleon curbing judicial obstruction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Rule of Law under Dicey is incompatible with the modern Welfare State because the Welfare State requires broad discretionary powers which Dicey equated with arbitrariness.\"",
+     "a": "The statement is partially valid but outdated. Dicey's formal equality (no special privileges for officials) clashed with delegated legislation and administrative tribunals essential for the Welfare State. However, the *modern* Rule of Law (post-Maneka Gandhi) has evolved to accommodate discretion *provided* it is structured, reasoned, and reviewable (Article 14/21). The Indian Constitution reconciles this by making Rule of Law a \"Basic Structure\" (Kesavananda Bharati) while permitting delegated legislation. A poor evaluation treats Dicey's 19th-century critique as absolute, ignoring the doctrinal evolution in India.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario involving a Municipal Corporation where all FOUR types of administrative action (Legislative, Quasi-Judicial, Administrative, Ministerial) occur sequentially in a single policy implementation (e.g., street vending regulation).",
+     "a": "**Scenario:** 1. **Legislative:** Corporation frames *Street Vending Bye-laws, 2024* (delegated legislation). 2. **Quasi-Judicial:** A specific vendor's license is cancelled after a hearing for violating hygiene norms (adjudication of rights). 3. **Administrative:** Corporation allocates a new vending zone and deploys sanitation staff (policy execution with discretion). 4. **Ministerial:** The Clerk issues the renewed license card upon payment of the exact fee prescribed in the bye-law (no discretion, mandatory duty). A good answer demonstrates the *continuum* from general norm to specific order to execution to mechanical act. A poor answer conflates steps 3 and 4 or mislabels the hearing as \"Administrative.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

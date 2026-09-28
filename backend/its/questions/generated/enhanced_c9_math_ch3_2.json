@@ -34,6 +34,26 @@
      "q": "Create a real-life word problem (Indian context) that requires the use of **both** addition and multiplication of negative integers to solve. The problem must have a realistic scenario (e.g., banking, temperature, elevation) and the final answer must be a negative integer.",
      "a": "Example: \"Ravi's bank account has ₹$-500$ (overdraft). He withdraws ₹$200$ three times in a week. Then he deposits ₹$100$. What is his final balance?\" Solution: Start $-500$. Withdrawals: $3 \\times (-200) = -600$. Balance: $-500 + (-600) = -1100$. Deposit: $-1100 + 100 = -1000$. Final answer: $-1000$. A poor answer (e.g., a problem that only uses addition, or yields a positive answer, or uses unrealistic numbers) reveals the student cannot synthesise operations or connect the sign rules to a coherent real-world model.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by drawing a ______ number line (thermometer) with zero in the middle, positive above, negative below.",
+     "a": "vertical",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Integers?",
+     "a": "Students treat subtraction of a negative integer as subtraction of its absolute value.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can fluently perform all four operations on integers, explain and apply the sign rules for multiplication/division using the distributive property, solve multi-step word problems involving temperature, elevation, or financial transactions, and justify why integers are closed under addition, subtraction, and multiplication but.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by drawing a vertical number line (______) with zero in the middle, positive above, negative below.",
+     "a": "thermometer",
+     "self_check": true
     }
    ]
   }

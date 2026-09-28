@@ -34,6 +34,21 @@
      "q": "Create a multiplication problem involving two mixed fractions representing lengths of cloth in metres, where the product results in an improper fraction that must be converted back to a mixed fraction.",
      "a": "A valid problem is: A tailor has a fabric roll of length $1\\frac{1}{2}$ metres and uses $2\\frac{1}{3}$ rolls for a curtain. Find the total length used. Solution setup: Convert $1\\frac{1}{2}$ to $\\frac{3}{2}$ and $2\\frac{1}{3}$ to $\\frac{7}{3}$, multiply to get $\\frac{21}{6}$, simplify to $\\frac{7}{2}$, and convert back to $3\\frac{1}{2}$ metres. A poor answer uses whole numbers only or fails to convert mixed fractions into improper fractions before multiplying.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Multiplying two fractions involves multiplying their numerators together to form the new numerator and multiplying their ______ together to form the new denominator.",
+     "a": "denominators",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To find out what fraction of a whole metre you are actually using, you need to find a fraction of a fraction, which means ______ the two fractions together.",
+     "a": "multiplying",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can correctly multiply two proper, improper, or mixed fractions by multiplying numerators and denominators, simplifying the result, and applying the operation to solve multi-step word problems involving real-world quantities.",
+     "self_check": true
     }
    ]
   }

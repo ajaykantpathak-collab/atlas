@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_07_005",
+   "title": "c12_app_cbse_07_005",
+   "questions": [
+    {
+     "q": "In a study to estimate the average monthly electricity consumption (in kWh) of all households in Delhi, a researcher surveys 400 randomly selected households and finds their average consumption to be 320 kWh. Identify the parameter and the statistic in this scenario, including their standard notations.",
+     "a": "**Correct answer:** Parameter = population mean monthly electricity consumption of all Delhi households, denoted by **µ** (mu). Statistic = sample mean monthly electricity consumption of the 400 surveyed households, denoted by **x̄ = 320 kWh**.  \n**Why a wrong answer reveals misunderstanding:** If a student writes \"parameter = 320 kWh\" or uses x̄ for the parameter, they confuse the *estimate* with the *true value* and mix up Greek vs. English notation. This is the most fundamental error — it means they think the sample result *is* the population truth, ignoring sampling variability entirely.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"The Central Limit Theorem says that if my sample size is large (n ≥ 30), my *sample data* will become normally distributed.\" Explain why this statement is incorrect, and state what the CLT actually says about the *sampling distribution of the sample mean*.",
+     "a": "**Correct answer:** The CLT does **not** say the sample data becomes normal — the sample data always reflects the population shape (e.g., if income is right-skewed, your sample of 100 incomes will still be right-skewed). The CLT says: **the distribution of the sample mean (x̄) across all possible samples of size n becomes approximately normal as n increases (n ≥ 30), regardless of the population distribution.**  \n**Why a wrong answer reveals misunderstanding:** If the student agrees with the statement, they confuse the *distribution of raw data* with the *sampling distribution of a statistic*. This leads to misapplying normality tests on raw data instead of understanding that inference procedures (like t-tests) rely on the normality of the *estimator*, not the data.",
+     "self_check": true
+    },
+    {
+     "q": "A pharmaceutical company tests a new drug on a random sample of 50 patients and computes a 95% confidence interval for the mean reduction in blood pressure as (8.2 mmHg, 12.6 mmHg). The company claims: \"There is a 95% probability that the true mean reduction lies between 8.2 and 12.6 mmHg.\" Is this interpretation correct? If not, give the correct interpretation.",
+     "a": "**Correct answer:** The company's claim is **incorrect**. The true population mean (µ) is a fixed, unknown constant — it either lies in the interval or it doesn't; there is no probability about it *after* the interval is calculated. The correct interpretation: **\"We are 95% confident that the method used to construct this interval (from random sampling) will produce intervals that capture the true mean µ in 95% of all possible samples.\"**  \n**Why a wrong answer reveals misunderstanding:** If the student says \"yes, it's correct,\" they treat the parameter as random and the interval as fixed — the Bayesian interpretation, which is not the frequentist framework used in CBSE/JEE. This confusion leads to misreading confidence intervals in exam questions and research papers.",
+     "self_check": true
+    },
+    {
+     "q": "Two researchers estimate the average screen time of teenagers in Mumbai. Researcher A takes a simple random sample of 100 teens. Researcher B takes a convenience sample of 100 teens from a single mall. Both compute x̄ = 4.5 hours/day. Compare the **sampling distributions** of their sample means. Which researcher's x̄ is a better estimator of the population mean µ? Why?",
+     "a": "**Correct answer:** Researcher A's x̄ comes from a **probability sample** — its sampling distribution is centered at µ (unbiased), with standard error σ/√100. Researcher B's x̄ comes from a **non-probability (convenience) sample** — its sampling distribution is likely **biased** (centered at some value ≠ µ) because mall teens may systematically differ from all Mumbai teens (e.g., higher income, different lifestyle). Even with same n=100, Researcher A's estimator is **unbiased and consistent**; Researcher B's is **biased** — no amount of increasing n fixes selection bias.  \n**Why a wrong answer reveals misunderstanding:** If the student says \"both are equally good because n=100,\" they ignore **sampling method** and think sample size alone guarantees good inference. This misses the core distinction between *sampling error* (reduced by n) and *selection bias* (caused by non-random sampling) — a major JEE/CUET trap.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher reads: \"The p-value is the probability that the null hypothesis is true.\" She asks you to evaluate this statement. Is it correct? If not, explain what the p-value actually is, and why this misinterpretation is dangerous in hypothesis testing.",
+     "a": "**Correct answer:** The statement is **incorrect**. The p-value is **not** P(H₀ true | data). It is: **P(observing a test statistic as extreme as, or more extreme than, the one calculated | H₀ is true).** It assumes H₀ is true and asks: \"How surprising is my data under that assumption?\" The misinterpretation is dangerous because it reverses the conditional probability — it makes researchers think a small p-value (e.g., 0.01) means \"there's only 1% chance H₀ is true,\" when it actually means \"if H₀ were true, such extreme data would occur only 1% of the time.\" This leads to overstating evidence against H₀ and ignoring prior plausibility.  \n**Why a wrong answer reveals misunderstanding:** If the student agrees with the statement, they commit the **inverse probability fallacy** — confusing P(data|H₀) with P(H₀|data). This is the #1 statistical misconception in science and a frequent CBSE assertion-reason trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where you would use statistical inference to make a decision. Specify: (a) the population and parameter of interest, (b) how you would select a representative sample, (c) what statistic you would compute, (d) what inference method you would use (confidence interval or hypothesis test), and (e) how you would interpret the result for a non-technical stakeholder.",
+     "a": "**Expected answer criteria:** A strong answer includes: (a) Clear population (e.g., \"all Class 10 students in CBSE schools in Delhi\") and parameter (e.g., \"mean mathematics score µ\"). (b) Probability sampling method (e.g., \"stratified random sampling by school type and gender, n=500\"). (c) Appropriate statistic (e.g., \"sample mean x̄ and sample standard deviation s\"). (d) Correct method choice with justification (e.g., \"95% CI for µ if estimating; one-sample t-test if testing against a benchmark like 75%\"). (e) Plain-language interpretation (e.g., \"We are 95% confident the true average math score is between 72 and 78; since 75 is inside, we don't have evidence it's different from the national average\").  \n**Why a poor answer reveals misunderstanding:** If the student uses convenience sampling, confuses parameter/statistic, picks wrong inference method, or says \"the p-value proves the alternative hypothesis,\" they haven't internalized the inference framework. This question tests synthesis — the ability to connect all concepts into a coherent decision-making pipeline.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

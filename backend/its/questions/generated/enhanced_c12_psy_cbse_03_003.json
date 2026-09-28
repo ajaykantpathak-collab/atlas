@@ -34,6 +34,21 @@
      "q": "Design a 4-item self-report checklist for Class 12 students to identify their dominant stress TYPE (physical/environmental, psychological, social). Each item must be a concrete, observable behavior or sensation (not a feeling label). Provide the scoring key.",
      "a": "Sample items: 1. \"I get headaches/stomachaches before exams\" (Physical). 2. \"I repeatedly think 'I'll fail' while studying\" (Psychological). 3. \"I avoid family dinners because parents ask about marks\" (Social). 4. \"I can't sleep due to noise/heat in my room\" (Physical/environmental). Scoring: Count items per type; highest count = dominant type. A poor answer uses vague items like \"I feel stressed\" or mixes types in one item, showing inability to operationalize NCERT categories.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stress types categorize the origin of demands that disrupt homeostasis: physical/______ stressors arise from bodily strain or surroundings (e.g., noise, injury); psychological stressors are internally generated mental conflicts (e.g., frustration, unrealistic expectations); social stressors stem from interpersonal interactions (e.g., bereavement, relationship strain).",
+     "a": "environmental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are stuck in a Delhi traffic jam at 8:45 AM, honking non-stop, late for your board practical exam — your heart races, palms sweat, and you think \"I'll fail, my parents will be furious.\" Ask: Which aspects of this situation are physical/______?",
+     "a": "environmental",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify a given real-life scenario into the correct stress type (physical/environmental, psychological, social) and source category (life event, hassle, traumatic event), and justify the classification using NCERT terminology.",
+     "self_check": true
     }
    ]
   }

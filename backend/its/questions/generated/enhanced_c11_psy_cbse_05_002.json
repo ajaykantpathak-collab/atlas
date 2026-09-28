@@ -34,6 +34,31 @@
      "q": "Design a real-life classical conditioning scenario (not from the textbook) involving an **aversive US** that would establish a CR in **one trial**. Specify: the US, UR, CS, CR, and explain why one-trial learning is plausible here but not for an appetitive US like chocolate.",
      "a": "Example: A child touches a hot stove (US → pain/withdrawal UR); the sight of the glowing red burner (CS) later elicits fear/avoidance (CR). One-trial learning occurs because the aversive US (pain) threatens bodily integrity, triggering biological preparedness for rapid danger learning. Chocolate (appetitive) requires many trials because missing a reward is not life-threatening. A poor answer uses an appetitive US or fails to link one-trial learning to survival relevance.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Classical conditioning is a type of learning in which a neutral stimulus (Conditioned Stimulus, CS) acquires the capacity to elicit a response (Conditioned Response, CR) after being repeatedly paired with an unconditioned stimulus (US) that naturally and ______ triggers an unconditioned response (UR), resulting in an associative S–S learning where the CS signals the impending US.",
+     "a": "automatically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're walking past a bakery and suddenly ______ fresh bread—your mouth waters before you even see the loaf.",
+     "a": "smell",
+     "self_check": true
+    },
+    {
+     "q": "What is Classical conditioning? State the definition given in this lesson.",
+     "a": "Classical conditioning is a type of learning in which a neutral stimulus (Conditioned Stimulus, CS) acquires the capacity to elicit a response (Conditioned Response, CR) after being repeatedly paired with an unconditioned stimulus (US) that naturally and automatically triggers an unconditioned response (UR), resulting in an associative.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Classical conditioning?",
+     "a": "Students believe the neutral stimulus becomes the unconditioned stimulus after conditioning (e.g., \"the bell turns into food for the dog\").",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) correctly label US, UR, CS, and CR in any novel classical conditioning scenario, and (2) explain why delayed conditioning is the most effective procedure by describing the temporal relationship between CS and US onset/offset.",
+     "self_check": true
     }
    ]
   }

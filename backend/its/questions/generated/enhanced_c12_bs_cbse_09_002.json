@@ -34,6 +34,36 @@
      "q": "Create a mini-case (3-4 sentences) where a manufacturing firm faces a conflict between the Investment Decision and the Financing Decision. Show how the CFO resolves it using the wealth maximisation criterion.",
      "a": "**Example case:** \"XYZ Ltd. must invest ₹50 cr in a new robotic line (expected ROI 14%). It can raise funds via 10% debt (increasing debt-equity from 0.5 to 1.2) or 16% equity. The CFO chooses debt because ROI (14%) > cost of debt (10%), EPS rises, and the debt-equity ratio, though higher, remains within industry norms. Wealth maximisation is served as the value added (14% - 10% after tax) exceeds the incremental financial risk.\" A poor answer would ignore ROI vs. cost comparison or ignore risk constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Financial decisions are the three core choices a firm makes to allocate scarce financial resources: ______ Decision (where to deploy funds for maximum return), Financing Decision (what mix of owners' funds and borrowed funds to raise), and Dividend Decision (how much profit to distribute vs. retain).",
+     "a": "Investment",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the CFO of a ______ that just received ₹5 crore in funding.",
+     "a": "startup",
+     "self_check": true
+    },
+    {
+     "q": "What is Financial decisions? State the definition given in this lesson.",
+     "a": "Financial decisions are the three core choices a firm makes to allocate scarce financial resources: Investment Decision (where to deploy funds for maximum return), Financing Decision (what mix of owners' funds and borrowed funds to raise), and Dividend Decision (how much profit to distribute vs. retain).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the CFO of a startup that just received ₹______ crore in funding.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Financial decisions?",
+     "a": "Students often think the Financing Decision is only about \"choosing the cheapest source\" (lowest interest rate).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) distinguish the three decisions by their objective, key variables, and impact on financial statements; (2) list at least four factors affecting each decision and explain the trade-offs; (3) given a mini-case, identify which decision is being described and justify the relevant factor.",
+     "self_check": true
     }
    ]
   }

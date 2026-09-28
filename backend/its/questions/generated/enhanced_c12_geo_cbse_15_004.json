@@ -34,6 +34,31 @@
      "q": "Design a schematic map annotation exercise for a Class 12 student to demonstrate the relationship between railway gauge distribution and physiographic divisions. Specify: (a) base map layers, (b) symbols for each gauge, (c) two analytical annotations linking gauge to terrain.",
      "a": "(a) Base map: Outline of India with state boundaries, major rivers, and physiographic divisions shaded (Northern Plains, Peninsular Plateau, Himalayas, Thar Desert, Coastal Plains). (b) Symbols: Broad gauge — thick red solid line; Metre gauge — medium blue dashed line; Narrow gauge — thin green dotted line. (c) Annotations: (i) \"Metre/narrow gauge concentrated in Himalayan foothills (e.g., Kalka-Shimla, Darjeeling Himalayan) and Western Ghats (e.g., Nilgiri Mountain Railway) because narrower gauge permits sharper curves and steeper gradients in rugged terrain.\" (ii) \"Broad gauge dominates Northern Plains and Peninsular Plateau trunk routes (e.g., Delhi-Howrah, Mumbai-Chennai) where flat terrain allows high-speed, high-capacity operations.\" A poor answer uses only one symbol or fails to link gauge choice to gradient/curve radius — indicating inability to synthesize physical and human geography.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Indian Railways is the state-owned railway system of India, operating a network of 67,956 km (2019-20) divided into 17 ______ zones, characterized by three track gauges: broad gauge (1.676 m, 63,950 km), metre gauge (1 m, 2,402 km), and narrow gauge (0.762 m or 0.610 m, 1,604 km), with ongoing conversion to broad gauge for uniformity and increased capacity.",
+     "a": "administrative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by observing a ______ map of India (e.g., Survey of India toposheet or IRCTC route map).",
+     "a": "railway",
+     "self_check": true
+    },
+    {
+     "q": "What is Indian Railways? State the definition given in this lesson.",
+     "a": "Indian Railways is the state-owned railway system of India, operating a network of 67,956 km (2019-20) divided into 17 administrative zones, characterized by three track gauges: broad gauge (1.676 m, 63,950 km), metre gauge (1 m, 2,402 km), and narrow gauge (0.762 m or 0.610 m, 1,604 km), with ongoing conversion to broad gauge for.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Indian Railways?",
+     "a": "Students often think \"gauge conversion is complete\" or \"metre gauge no longer exists.\" In reality, as of 2019-20, 2,402 km of metre gauge and 1,604 km of narrow gauge remain operational, mostly in hilly/remote areas (e.g., Nilgiri Mountain Railway, Kangra Valley Railway, some Northeast lines).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) identify the three gauge systems on a map of India and explain their historical and operational significance; (2) analyze how physiographic divisions (Northern Plains, Peninsular Plateau, Himalayan region) influence railway network density and alignment; (3) evaluate the economic and strategic importance of gauge.",
+     "self_check": true
     }
    ]
   }

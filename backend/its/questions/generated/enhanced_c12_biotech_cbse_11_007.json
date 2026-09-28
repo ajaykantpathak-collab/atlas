@@ -34,6 +34,31 @@
      "q": "Design a transgenic strategy to confer resistance to a new virus, \"Zeta virus\", in soybean. Specify: (i) which viral gene you would use, (ii) the promoter choice, (iii) one potential limitation, and (iv) how you would test efficacy in the lab.",
      "a": "(i) Zeta virus coat protein gene. (ii) Constitutive promoter (CaMV 35S) for broad expression, or phloem-specific promoter if virus is phloem-limited. (iii) Limitation: resistance may break down if Zeta virus mutates its coat protein or if the virus uses a different uncoating mechanism. (iv) Infect T0/T1 transgenic lines with Zeta virus, measure viral load by qRT-PCR/ELISA, compare symptom severity with non-transgenic controls. A poor answer omits promoter choice or suggests an irrelevant gene (e.g., replicase), showing lack of strategic thinking.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Coat protein-mediated resistance is a pathogen-derived resistance strategy where the gene encoding the viral coat protein (CP) is introduced into a plant genome; the expressed coat protein interferes with viral uncoating, ______, or cell-to-cell movement, thereby conferring resistance to the specific virus and often to closely related viruses.",
+     "a": "replication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer loses 80% of his papaya crop to Papaya ______ virus (PRSV) — spraying insecticides doesn't help because aphids transmit the virus in seconds.",
+     "a": "ringspot",
+     "self_check": true
+    },
+    {
+     "q": "What is Coat protein-mediated resistance? State the definition given in this lesson.",
+     "a": "Coat protein-mediated resistance is a pathogen-derived resistance strategy where the gene encoding the viral coat protein (CP) is introduced into a plant genome; the expressed coat protein interferes with viral uncoating, replication, or cell-to-cell movement, thereby conferring resistance to the specific virus and often to closely.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Coat protein-mediated resistance?",
+     "a": "Students often think the plant \"recognizes\" the viral coat protein as foreign and mounts an immune response (like antibodies).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the molecular mechanism of coat protein-mediated resistance, distinguish it from RNAi-based virus resistance, and predict the outcome of expressing a coat protein gene from one virus in a plant challenged with a heterologous virus.",
+     "self_check": true
     }
    ]
   }

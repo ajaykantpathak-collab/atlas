@@ -34,6 +34,31 @@
      "q": "Design a thought experiment using isolated perfused tubule microdissection to distinguish whether urea reabsorption in the inner medullary collecting duct (IMCD) is mediated by facilitated diffusion (UT-A1/UT-A3) versus passive paracellular leak. Specify the key measurements, controls, and expected outcomes for each hypothesis.",
      "a": "Perfuse IMCD with radiolabeled urea ± phloretin (UT inhibitor) or high urea gradient; measure transepithelial urea flux (Jurea) and transepithelial voltage (Vt). Controls: (1) no urea gradient (equilibrium), (2) tight junction disruptor (EGTA) to test paracellular route. If facilitated: Jurea saturates at high [urea], inhibited by phloretin, Vt unchanged. If paracellular: Jurea linear with gradient, unaffected by phloretin, abolished by EGTA. Poor design (e.g., no voltage measurement, no saturation test) reveals inability to apply kinetic and pharmacological criteria to distinguish transporter-mediated vs. passive paracellular transport.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Tubular ______ is the selective process by which the renal tubules reclaim essential substances (water, glucose, amino acids, ions) from the glomerular filtrate back into the peritubular capillaries, while tubular secretion is the active transport of specific waste products (H+, K+, NH3, drugs, toxins) from peritubular capillaries into the tubular lumen for excretion, together converting 180 L/day of filtrate into ~1.5 L/day of concentrated urine.",
+     "a": "reabsorption",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine drinking 2 litres of nimbu pani on a hot Delhi afternoon — your kidneys must reclaim that water and the precious glucose, sodium, and ______ from 180 litres of daily filtrate while dumping excess H+ and K+ into urine.",
+     "a": "bicarbonate",
+     "self_check": true
+    },
+    {
+     "q": "What is Tubular reabsorption? State the definition given in this lesson.",
+     "a": "Tubular reabsorption is the selective process by which the renal tubules reclaim essential substances (water, glucose, amino acids, ions) from the glomerular filtrate back into the peritubular capillaries, while tubular secretion is the active transport of specific waste products (H+, K+, NH3, drugs, toxins) from peritubular capillaries.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Tubular reabsorption?",
+     "a": "Students believe \"water follows salt passively everywhere in the nephron\" and fail to recognize that water permeability is segment-specific and hormonally regulated — e.g., they think ascending limb reabsorbs water because it reabsorbs NaCl, or that collecting duct is always water-permeable.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can trace the fate of Na+, glucose, water, urea, H+, and K+ through each nephron segment (PCT, Henle's loop, DCT, collecting duct), identify the transport mechanism (active/passive, transcellular/paracellular) and hormonal regulation at each step, and explain how reabsorption and secretion jointly maintain blood pH, osmolarity.",
+     "self_check": true
     }
    ]
   }

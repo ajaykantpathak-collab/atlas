@@ -34,6 +34,11 @@
      "q": "Create a quadratic equation with integer coefficients that *cannot* be solved by factorisation (i.e., its roots are irrational). Then, derive the quadratic formula specifically for your equation by completing the square, showing how the irrational roots appear naturally from the square root of a non-perfect square.",
      "a": "**Example equation:** \\(x^2 - 4x - 1 = 0\\) (roots are \\(2 \\pm \\sqrt{5}\\), irrational). **Derivation:**\n1. \\(x^2 - 4x - 1 = 0\\)\n2. \\(x^2 - 4x = 1\\)\n3. Half of \\(-4\\) is \\(-2\\), square is 4. Add 4: \\(x^2 - 4x + 4 = 5\\)\n4. \\((x-2)^2 = 5\\)\n5. \\(x-2 = \\pm \\sqrt{5}\\) → \\(x = 2 \\pm \\sqrt{5}\\).\n**Criteria for a good answer:** The equation must have \\(b^2 - 4ac\\) not a perfect square. The derivation must correctly complete the square and show the square root of a non-perfect square. A poor answer (e.g., using an equation that factorises, or making arithmetic errors in completing the square) reveals the student cannot connect the discriminant to factorisability or cannot execute the completing-the-square steps independently.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ garden where the length is 5 metres more than the breadth, and the area is 150 sq m.",
+     "a": "rectangular",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a simplified flow‑chart (text‑based) that a customs officer at an Indian port could use to decide whether a shipment of \"GM maize grains\" requires AIA documentation or only BCH notification. Include decision points for: (a) viability of grains, (b) intended use (planting vs. processing), (c) whether the exporting country is a Party.",
      "a": "Flow‑chart:\n1. Are the maize grains viable (capable of germination)? → No → Treat as LMO‑FFP → BCH notification sufficient → END.\n2. Yes → What is the intended use declared on shipping documents?\n   a. Planting/field trials → Intentional introduction → AIA required → Check if exporter provided AIA advance notification and importing Party's decision → If yes, allow; if no, detain.\n   b. Food/feed/processing → LMO‑FFP → BCH notification sufficient → END.\n3. If exporting country is non‑Party (e.g., USA), the Protocol still encourages the importing Party (India) to apply its domestic biosafety law (which mirrors AIA) — the customs officer follows national regulations that implement the Protocol.\nA poor answer that omits the viability check or treats all GM grain as LMO‑FFP shows inability to operationalize the Protocol's definitions — a practical skill needed for case‑based questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Cartagena Protocol on Biosafety is an ______ treaty under the Convention on Biological Diversity that establishes a framework for the safe transfer, handling, and use of living modified organisms (LMOs) resulting from modern biotechnology, with a focus on protecting biological diversity and human health through procedures like Advance Informed Agreement (AIA) and the Biosafety Clearing-House (BCH).",
+     "a": "international",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a biotech entrepreneur in India planning to export a ______ modified drought‑tolerant maize variety to Brazil for field trials.",
+     "a": "genetically",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) list and explain the four core operational provisions of the Cartagena Protocol (AIA, BCH, risk assessment, documentation) and (2) apply the AIA procedure to a hypothetical transboundary movement scenario, identifying the roles of the Party of import, Party of export, and the exporter.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a biotech ______ in India planning to export a genetically modified drought‑tolerant maize variety to Brazil for field trials.",
+     "a": "entrepreneur",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Create a sequence of 5 integers that starts at -10 and increases by 3 each time.",
      "a": "The sequence must be -10, -7, -4, -1, 2. A poor answer would show a failure to add correctly across the zero boundary (e.g., -10, -7, -4, 0, 3).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Patterns with integers are sequences of numbers that follow a specific, repeating rule—such as adding, ______, or multiplying by a constant integer—to determine the next term in the series.",
+     "a": "subtracting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever noticed how the temperature drops steadily as you climb higher up a mountain, or how a bank balance changes after a series of ______ and withdrawals?",
+     "a": "deposits",
+     "self_check": true
+    },
+    {
+     "q": "What is Patterns with integers? State the definition given in this lesson.",
+     "a": "Patterns with integers are sequences of numbers that follow a specific, repeating rule—such as adding, subtracting, or multiplying by a constant integer—to determine the next term in the series.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Patterns with integers?",
+     "a": "Students often fail to cross the zero barrier correctly.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify the rule governing an integer sequence (such as a common difference or ratio) and use that rule to correctly determine the next three terms in both increasing and decreasing patterns.",
+     "self_check": true
     }
    ]
   }

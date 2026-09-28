@@ -34,6 +34,21 @@
      "q": "Create a real-life scenario (Indian context) involving two quantities that are NOT in a proportional relationship, but where a student might mistakenly think they are. Explain the error.",
      "a": "Example: A metro card in Delhi has a ₹50 initial balance (non-refundable) and each ride costs ₹10. Total cost for n rides: C = 50 + 10n. A student might see \"₹10 per ride\" and assume proportionality, but the fixed ₹50 makes the ratio C/n = 10 + 50/n vary with n. The error is ignoring the fixed starting value (additive constant). A poor answer would give a proportional scenario (like simple cost per item) or fail to explain why the ratio isn't constant.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A proportional relationship exists between two quantities when their ratio remains constant across all pairs of corresponding values, meaning one quantity is a constant multiple of the other (y = kx, where k is the constant of ______).",
+     "a": "proportionality",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Notice how the cost ______ by the same factor as the weight?",
+     "a": "increases",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can determine whether a relationship is proportional by examining tables, graphs, equations, or verbal descriptions, and can justify their conclusion by demonstrating the constant ratio (or lack thereof) across multiple data points.",
+     "self_check": true
     }
    ]
   }

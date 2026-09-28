@@ -1,8 +1,9 @@
+import os
 """Regenerate the remaining old/tiny supporting files for the 4 poets."""
 import json, time, urllib.request, ssl, re, os
 from pathlib import Path
 
-API_KEY = 'sk-ant-co-QsK1rhxdfRWZ65OJ5cVxaAZ5ISNUY0lK'
+API_KEY = os.environ.get('ANTHROPIC_API_KEY') or ''
 API_URL = 'https://api.claudeopus.pro/v1/messages'
 MODEL = 'claude-opus-5'
 MAX_TOKENS = 128000

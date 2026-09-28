@@ -34,6 +34,31 @@
      "q": "Create a novel \"Creativity Challenge\" for Class 11 students that simultaneously develops all four divergent thinking components. Specify: (1) the challenge prompt, (2) how fluency is measured, (3) how flexibility is scored across categories, (4) how originality is assessed statistically, (5) how elaboration is evaluated, and (6) the time limit.",
      "a": "Expected answer criteria: (1) Prompt example: \"Design a multi-functional study desk for a 10 sq ft room that serves 5+ distinct needs of a Class 11 student.\" (2) Fluency = total valid ideas counted. (3) Flexibility = number of distinct functional categories (e.g., storage, posture, lighting, tech-integration, stress-relief) – scored by independent raters. (4) Originality = statistical infrequency: ideas given by <5% of cohort get 2 points, 5-10% get 1 point, >10% get 0. (5) Elaboration = detail richness scored on 0-3 scale per idea (0=label only, 1=one detail, 2=multiple details, 3=systemic description with materials/dimensions/mechanisms). (6) Time limit: 20 minutes (5 min clarification, 12 min generation, 3 min elaboration of top 3). A poor answer using a trivial prompt (\"uses of a brick\") reveals inability to design domain-relevant challenges. Missing statistical originality scoring shows confusion between subjective \"coolness\" and psychometric originality. No elaboration metric reveals the student thinks creativity ends at ideation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Creative thinking is a cognitive process ______ by the production of novel, original, and appropriate ideas or solutions, distinguished by divergent thinking abilities (fluency, flexibility, originality, elaboration) and facilitated by specific attitudes (openness, curiosity, tolerance for ambiguity) and strategies (brainstorming, incubation, lateral thinking).",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are tasked with designing a low-cost water ______ method for a rural Indian village using only locally available materials.",
+     "a": "purification",
+     "self_check": true
+    },
+    {
+     "q": "What is Creative thinking? State the definition given in this lesson.",
+     "a": "Creative thinking is a cognitive process characterized by the production of novel, original, and appropriate ideas or solutions, distinguished by divergent thinking abilities (fluency, flexibility, originality, elaboration) and facilitated by specific attitudes (openness, curiosity, tolerance for ambiguity) and strategies (brainstorming.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This walkthrough shows that creativity isn't magic—it's a disciplined process using specific mental habits (fluency to generate ______+ ideas, flexibility to switch categories from chemical to physical to biological methods, originality to combine waste materials with purification, elaboration to detail the prototype).",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) list and define the four components of divergent thinking with a concrete example for each, and (2) design a 4-step brainstorming session following Osborn's rules for a given real-world problem.",
+     "self_check": true
     }
    ]
   }

@@ -4,15 +4,9 @@
   {
    "id": "hemh.104.4.1",
    "title": "Organising Data with Tally Marks",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "read the table or chart with its key",
-     "explain": "read the table or chart with its key: total = 2 + 4 + 7 gives 13",
-     "compute": "total = 2 + 4 + 7"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a frequency table the rows have frequencies 2, 4 and 7. Find the total frequency.",
@@ -50,6 +44,8 @@
    "id": "hemh.104.4.2",
    "title": "Circle Graphs and Drawing Pie Charts",
    "converted_to_compute": false,
+   "formula": "sector_angle = fraction * 360",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 12 x 6/7.",
@@ -86,15 +82,9 @@
   {
    "id": "hemh.104.4.3",
    "title": "Random Experiments and Equally Likely Outcomes",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "divide favourable outcomes by total outcomes",
-     "explain": "divide favourable outcomes by total outcomes: p = 3 / 6 gives 0.5",
-     "compute": "p = 3 / 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A die is rolled once. What is the probability of getting a number greater than 3? (give the fraction)",
@@ -132,6 +122,8 @@
    "id": "hemh.104.4.4",
    "title": "Probability of an Event",
    "converted_to_compute": false,
+   "formula": "probability = favourable / total",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A die is rolled once. What is the probability of getting a number greater than 4? (give the fraction)",

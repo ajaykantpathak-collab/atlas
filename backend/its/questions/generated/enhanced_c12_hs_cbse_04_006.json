@@ -34,6 +34,36 @@
      "q": "Design a novelty yarn for a decorative upholstery fabric that requires high bulk, irregular texture, and good abrasion resistance. Specify: (a) base yarn count and fibre, (b) type of novelty effect (slub, loop, Chenille, etc.), (c) twist levels for core/effect/binder, (d) expected fabric properties. Justify each choice.",
      "a": "(a) Base: 2/20 Ne cotton core (ply for strength) + 10 Ne polyester effect (for bulk) + 30 Ne nylon binder (for abrasion resistance).  \n(b) Slub effect: thick/thin sections at 5 cm intervals.  \n(c) Core twist: 800 TPM Z; Effect twist: low (200 TPM S) to create slubs; Binder twist: 1200 TPM Z to lock effect.  \n(d) Fabric: High bulk from slubs, irregular texture, good abrasion from nylon binder. A poor answer (e.g., only chooses fibre without twist specs) shows inability to integrate count, twist, and structure for functional design.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Yarn construction refers to the structural parameters that define a yarn's physical ______, primarily twist (the spiral arrangement of fibres around the yarn axis, measured as turns per inch or meter and designated S or Z), yarn count (a numerical expression of linear density indicating fineness or coarseness, expressed in direct systems like Tex/Denier or indirect systems like English Cotton Count/Metric Count), and yarn classification (categorisation based on structure: simple yarns — single, ply, cord; and complex/novelty yarns — slub, loop, Chenille, etc.).",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a summer kurta ______: you need a yarn that is fine, smooth, and cool — so you choose a high-count, low-twist single cotton yarn.",
+     "a": "fabric",
+     "self_check": true
+    },
+    {
+     "q": "What is Yarn construction? State the definition given in this lesson.",
+     "a": "Yarn construction refers to the structural parameters that define a yarn's physical characteristics, primarily twist (the spiral arrangement of fibres around the yarn axis, measured as turns per inch or meter and designated S or Z), yarn count (a numerical expression of linear density indicating fineness or coarseness, expressed in.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then derive the conversion between direct and indirect systems using the constant ______ (for cotton).",
+     "a": "590.5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Yarn construction?",
+     "a": "Students often believe that higher count always means finer yarn — this is true only in indirect systems (Ne, Nm).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) identify twist direction and calculate twist multiplier for a given yarn, (2) convert yarn count between direct and indirect systems and compute resultant count of plied yarns, and (3) classify a yarn sample into its structural category and justify how its construction influences fabric properties such as.",
+     "self_check": true
     }
    ]
   }

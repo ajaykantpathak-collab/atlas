@@ -34,6 +34,21 @@
      "q": "Create a real‑world scenario (different from medical testing or factory defects) that requires Bayes' Theorem. Define the partition, the evidence event, and assign plausible prior and likelihood probabilities. Write the question that asks for a specific posterior probability.",
      "a": "Example: A spam filter classifies emails. Partition: \\(E_1\\) = email is spam (prior 0.3), \\(E_2\\) = email is not spam (prior 0.7). Evidence \\(A\\): email contains the word \"free\". Likelihoods: \\(P(A|E_1)=0.8\\), \\(P(A|E_2)=0.1\\). Question: \"Given an email contains 'free', what is the probability it is spam?\" A poor answer would use events that are not a partition (e.g., overlapping categories) or assign likelihoods that don't reflect the conditional nature (e.g., giving \\(P(E_1|A)\\) directly). This reveals the student cannot translate a practical situation into the formal structure of Bayes' Theorem.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Bayes' Theorem provides a way to update the ______ of a hypothesis (cause) given observed evidence (effect).",
+     "a": "probability",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a medical test for a rare disease: the test is 99% accurate, but the disease affects only 0.1% of the ______.",
+     "a": "population",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) state Bayes' Theorem with all conditions (partition, non-zero probabilities), (2) prove the theorem step-by-step using the definition of conditional probability and the Theorem of Total Probability, and (3) correctly identify the prior probabilities, likelihoods, and the evidence in a word problem to compute a.",
+     "self_check": true
     }
    ]
   }

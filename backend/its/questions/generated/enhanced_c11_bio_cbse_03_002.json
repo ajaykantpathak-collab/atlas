@@ -34,6 +34,36 @@
      "q": "Design a simple laboratory activity using only a compound microscope, iodine solution, and fresh algal samples (green pond scum, brown kelp fragment, red seaweed) to demonstrate the three major stored food types in algae. Include controls and expected observations.",
      "a": "Activity: Place a drop of each algal suspension on separate slides. Add iodine solution (tests for starch). Observe under microscope.\n- Green alga (Chlorophyceae): blue-black colour in chloroplasts/pyrenoids → starch positive.\n- Brown alga (Phaeophyceae): no blue-black colour (mannitol/laminarin do not react with iodine) → negative control for starch.\n- Red alga (Rhodophyceae): reddish-brown colour (floridean starch, similar to amylopectin, gives weak/pinkish reaction) → distinguishable from true starch.\nControl: Pure starch solution + iodine = blue-black. Water + iodine = brown.\nA poor design (e.g., no control, using Benedict's test for reducing sugars instead) shows lack of biochemical reasoning about polysaccharide-iodine interactions and inability to link stored food to classification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Algae are chlorophyll-bearing, simple, thalloid, autotrophic, and largely aquatic (freshwater and marine) organisms that lack true roots, stems, and leaves, and reproduce by vegetative (______), asexual (motile zoospores), and sexual (isogamy, anisogamy, oogamy) methods.",
+     "a": "fragmentation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by observing a greenish scum on a stagnant village pond or the slimy ______ on wet bathroom tiles — these are algae.",
+     "a": "coating",
+     "self_check": true
+    },
+    {
+     "q": "What is Algae? State the definition given in this lesson.",
+     "a": "Algae are chlorophyll-bearing, simple, thalloid, autotrophic, and largely aquatic (freshwater and marine) organisms that lack true roots, stems, and leaves, and reproduce by vegetative (fragmentation), asexual (motile zoospores), and sexual (isogamy, anisogamy, oogamy) methods.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Finally, introduce the classification challenge: with such diversity (unicellular Chlamydomonas to ______m kelps), what criteria do taxonomists use?",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Algae?",
+     "a": "Students believe \"all algae have flagellated zoospores and gametes\" because textbook examples (Chlamydomonas, Ulothrix, Volvox) are flagellated.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify a given alga into Chlorophyceae, Phaeophyceae, or Rhodophyceae using a diagnostic key based on major pigments, stored food, cell wall composition, flagella number/position, and habitat, and can explain the evolutionary significance of the three sexual reproduction types (isogamy, anisogamy, oogamy) in algae.",
+     "self_check": true
     }
    ]
   }

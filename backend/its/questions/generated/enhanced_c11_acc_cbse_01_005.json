@@ -21,8 +21,8 @@
      "self_check": true
     },
     {
-     "q": "Compare and contrast the roles of **verifiability** and **faithfulness** as sub-components of reliability. Can information be verifiable but not faithful? Give a concrete example.",
-     "a": "Verifiability means independent observers using the same method reach substantially the same measurement (consensus on measurement process). Faithfulness means the measurement actually represents the economic phenomenon it purports to represent (correspondence with reality). Yes, information can be verifiable but not faithful. Example: A company values inventory at historical cost (verifiable — multiple auditors agree on the invoice price), but the inventory has become obsolete and its realisable value is near zero (not faithful — does not represent current economic value). A wrong answer claiming they are the same or that verifiability implies faithfulness reveals a fundamental misunderstanding: verifiability is about *process consensus*, faithfulness is about *representation accuracy*. Board exams test this distinction through scenarios involving historical cost vs. fair value.",
+     "q": "Compare and contrast the roles of verifiability and faithfulness as sub-components of reliability. Can information be verifiable but not faithful? Give a concrete example.",
+     "a": "(1) Verifiability demands that independent observers applying the same method reach the same measurement, (2) Faithfulness demands that the measurement actually represents the economic phenomenon it purports to represent, (3) Yes, information can be verifiable without being faithful, (4) Example — obsolete inventory still held at invoice cost is verifiable because auditors agree on the price, yet not faithful to its near-zero realisable value. A wrong answer treating the two as synonyms, or claiming verifiability guarantees faithfulness, reveals a fundamental misunderstanding of the sub-components of reliability.",
      "self_check": true
     },
     {
@@ -33,6 +33,36 @@
     {
      "q": "Create a realistic scenario involving a small Indian business (e.g., a textile trader in Surat) where the accountant must make a judgment call between two qualitative characteristics. Describe the situation, the two characteristics in conflict, the decision the accountant should make, and the disclosure required.",
      "a": "**Scenario**: Surat Textiles receives a large order in late March 2024 (year-end 31 March). The goods are dispatched on 28 March but reach the customer on 3 April. The accountant must decide whether to recognise revenue in FY 2023-24 or FY 2024-25. **Conflict**: **Relevance (timeliness/predictive value)** — recognising in FY 2023-24 gives timely information about the order secured — vs. **Reliability (faithfulness)** — revenue recognition criteria (transfer of control) may not be met until delivery on 3 April. **Decision**: Defer revenue to FY 2024-25 (faithfulness > timeliness) because recognising unearned revenue misrepresents performance. **Disclosure**: Note in financial statements: \"Revenue of ₹15 lakh relating to goods dispatched on 28 March 2024 but delivered on 3 April 2024 has been recognised in FY 2024-25 in accordance with the transfer-of-control principle.\" A poor answer chooses timeliness without justification or omits disclosure, showing the student doesn't understand that reliability is a *threshold* quality (information must be reliable to be useful at all) while relevance is a *degreed* quality.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Qualitative characteristics are the attributes that make accounting information useful for decision-making by enhancing its ______ and decision-usefulness.",
+     "a": "understandability",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a bank manager deciding whether to approve a ₹50 lakh loan to a small ______ firm.",
+     "a": "manufacturing",
+     "self_check": true
+    },
+    {
+     "q": "What is Qualitative characteristics? State the definition given in this lesson.",
+     "a": "Qualitative characteristics are the attributes that make accounting information useful for decision-making by enhancing its understandability and decision-usefulness.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a bank manager deciding whether to approve a ₹______ lakh loan to a small manufacturing firm.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Qualitative characteristics?",
+     "a": "Students believe \"comparability\" means all companies must use identical accounting policies for all transactions.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain each qualitative characteristic in their own words with a concrete business example, distinguish between reliability and relevance when they conflict, and identify which characteristic is violated in a given scenario involving financial statement preparation or presentation.",
      "self_check": true
     }
    ]

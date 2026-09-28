@@ -34,6 +34,26 @@
      "q": "Design a 3-step 'climate resilience audit' for a coastal city (e.g., Mumbai) that integrates: (a) observed sea-level rise trend, (b) land subsidence from groundwater extraction, (c) storm surge amplification from Arabian Sea warming. Specify one measurable indicator for each step.",
      "a": "Step 1: Quantify relative sea-level rise (RSLR) = satellite altimetry trend (e.g., 3.3 mm/yr) + GPS-measured subsidence rate (e.g., 2 mm/yr from aquifer compaction). Indicator: RSLR in mm/yr.\nStep 2: Model 100-year storm surge height using CMIP6 projections of Arabian Sea SST + cyclone intensity. Indicator: Projected surge elevation (m above chart datum) for 2050.\nStep 3: Map critical infrastructure (power, hospitals, transport) below the Step 2 elevation + 0.5 m safety margin. Indicator: % of critical assets in inundation zone.\nA poor answer (e.g., only listing \"build walls\") shows inability to integrate physical drivers, observations, and exposure assessment into a decision-relevant framework.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Human impact on climate refers to the alteration of Earth's atmospheric composition and energy balance through ______ activities — primarily the emission of greenhouse gases (CO₂, CH₄, N₂O) and aerosols from fossil fuel combustion, industrial processes, agriculture, and land-use change — leading to enhanced greenhouse effect, global warming, and consequent shifts in long-term weather patterns.",
+     "a": "anthropogenic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by observing the thick haze over Delhi-NCR every November — a visible mixture of crop-residue smoke, vehicle emissions, and ______ pollutants that reduces sunlight and traps heat.",
+     "a": "industrial",
+     "self_check": true
+    },
+    {
+     "q": "What is Human impact on climate? State the definition given in this lesson.",
+     "a": "Human impact on climate refers to the alteration of Earth's atmospheric composition and energy balance through anthropogenic activities — primarily the emission of greenhouse gases (CO₂, CH₄, N₂O) and aerosols from fossil fuel combustion, industrial processes, agriculture, and land-use change — leading to enhanced greenhouse effect.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the mechanism linking specific human activities (e.g., coal-based power generation, rice cultivation, cement production) to increased radiative forcing, and can analyze how resultant global warming alters regional climate elements (temperature extremes, monsoon variability, sea-level rise) using Indian case.",
+     "self_check": true
     }
    ]
   }

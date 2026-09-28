@@ -34,6 +34,31 @@
      "q": "Create a scenario where you would use subtraction with decimals in a grocery store.",
      "a": "A good answer involves having a specific amount of money (e.g., ₹100) and calculating the change after buying items costing, for example, ₹65.75. A poor answer fails to include a total budget or forgets to use a decimal amount, showing a failure to connect the math to the real-world utility of currency.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Decimals in real life are a way of expressing parts of a whole unit, such as money (where 1 rupee = 100 paise) or ______ (where 1 metre = 100 centimetres), using a decimal point to separate the whole number from the fractional part.",
+     "a": "measurements",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To ______ this, think of the decimal point as a bridge between the \"whole\" (rupees) and the \"part\" (paise).",
+     "a": "understand",
+     "self_check": true
+    },
+    {
+     "q": "What is Decimals in real life? State the definition given in this lesson.",
+     "a": "Decimals in real life are a way of expressing parts of a whole unit, such as money (where 1 rupee = 100 paise) or measurements (where 1 metre = 100 centimetres), using a decimal point to separate the whole number from the fractional part.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Decimals in real life?",
+     "a": "Students often treat the digits after the decimal point as whole numbers, such as thinking 0.50 is \"fifty\" and 0.5 is \"five,\" leading them to believe 0.50 is larger than 0.5.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to convert units of currency and measurement into decimal notation and perform addition or subtraction of these decimal values to solve word problems.",
+     "self_check": true
     }
    ]
   }

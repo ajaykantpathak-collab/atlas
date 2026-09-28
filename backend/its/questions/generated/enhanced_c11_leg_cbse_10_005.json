@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_10_005",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_10_005",
+   "title": "c11_leg_cbse_10_005",
+   "questions": [
+    {
+     "q": "What is the primary legislation governing cyber laws in India?\nA) Indian Penal Code, 1860  \nB) Information Technology Act, 2000  \nC) Copyright Act, 1957  \nD) Telegraph Act, 1885",
+     "a": "Correct answer: B) Information Technology Act, 2000.  \nA wrong answer like A) IPC 1860 reveals a misunderstanding that cybercrimes are solely traditional crimes adapted to digital tools. In reality, while IPC applies to some cyber offenses (e.g., cheating via email under Section 420), the IT Act, 2000 is the special law defining unique cyber offenses like hacking (Section 66) and data theft (Section 43). Students must recognize that cyber law requires specialized legislation due to the nature of digital evidence and cross-border jurisdiction.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Section 66A of the IT Act, 2000 was struck down by the Supreme Court in Shreya Singhal v. Union of India (2015).",
+     "a": "Section 66A was struck down because it used vague terms like \"grossly offensive\" and \"menacing\" without clear definitions, leading to arbitrary arrests for social media posts. This violated Article 19(1)(a) (freedom of speech) as it allowed prosecution based on subjective interpretation rather than objective legal standards. A wrong answer claiming it was removed due to \"being too strict on cyberbullies\" misses the core issue: the law's ambiguity enabled misuse against legitimate expression, not that it failed to punish harmful speech. The Court emphasized that laws must be precise to avoid chilling free speech—a key principle in democratic societies.",
+     "self_check": true
+    },
+    {
+     "q": "A college student's email account is hacked, and fake messages are sent to their contacts asking for money. Which sections of the IT Act, 2000 apply, and what is the first legal step the victim should take?",
+     "a": "Applicable sections:  \n- Section 66 (computer-related offenses: hacking with intent to cause wrongful loss)  \n- Section 66D (cheating by personation using computer resource)  \n- Section 43 (penalty for unauthorized access/data theft)  \nFirst step: File an online FIR at cybercrime.gov.in or visit the nearest cyber police station, preserving screenshots, email headers, and transaction IDs as evidence.  \nA wrong answer suggesting \"just change the password and report to email provider\" ignores legal remedies and evidentiary requirements. Victims often fail to preserve digital logs (which expire), weakening prosecution. Legal action is crucial because hacking under Section 66 carries up to 3 years imprisonment, and timely FIR triggers investigation under Section 78 (police power to investigate cyber offenses).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the legal treatment of 'cyberstalking' under the IT Act, 2000 versus 'stalking' under the Indian Penal Code, 1860. How does jurisdiction differ in cross-border cases?",
+     "a": "Cyberstalking (e.g., persistent unwanted emails/messages causing fear) falls under Section 66A (now struck down) but is now addressed via Section 67 (publishing obscene material) or Section 509 IPC (word/gesture insulting modesty). Traditional stalking (physical following) is Section 354D IPC. Jurisdiction under IT Act applies if the computer/system is in India (Section 75), even if the offender is abroad—unlike IPC which requires the act to occur within Indian territory. A wrong answer claiming \"both are identical under IPC\" shows failure to grasp that cyber laws create extraterritorial jurisdiction for digital acts, a necessity given the borderless internet. This distinction is vital for victims of online harassment by foreign actors.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The IT Act, 2000 adequately balances cybersecurity needs with freedom of expression in India.\" Justify your stance with reference to Section 69 (interception powers) and the Shreya Singhal verdict.",
+     "a": "The statement is partially valid but flawed. While the IT Act enables cybersecurity via Sections 69 (interception for national security) and 43 (data protection), its broad provisions risk overreach. Section 69 allows surveillance without adequate judicial oversight, potentially chilling dissent—unlike the Shreya Singhal ruling which struck down vague speech restrictions. A wrong answer claiming \"it perfectly balances both\" ignores that post-66A, laws like Section 69A (blocking websites) still lack transparent procedures, enabling censorship under security pretexts. True balance requires narrow, defined powers (as in 66A's rejection) and independent oversight—elements still evolving in India's cyber framework.",
+     "self_check": true
+    },
+    {
+     "q": "Design a cyber safety campaign for senior citizens in rural India to prevent UPI fraud. List three legal provisions they should know and explain how each empowers them.",
+     "a": "Good answer includes:  \n1) Section 43 (compensation for unauthorized transactions): Empowers victims to claim refunds from banks if defrauded via hacked UPI IDs.  \n2) Section 66D (cheating by personation): Allows FIR against fraudsters posing as bank officials.  \n3) Section 79 (intermediary liability): Requires platforms like PhonePe to act on fraud reports, aiding victim support.  \nA poor answer focusing only on \"don't share OTP\" misses legal recourse. Many rural users don't know they can reclaim funds under Section 43 read with RBI guidelines—leading to silent acceptance of loss. Legal awareness transforms passive victims into active claimants, crucial given India's rising UPI fraud cases (over ₹1.13 lakh crore in 2022-23).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

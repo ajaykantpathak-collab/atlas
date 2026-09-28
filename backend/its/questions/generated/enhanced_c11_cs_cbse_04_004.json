@@ -34,6 +34,21 @@
      "q": "Design a minimal Python code snippet that uses all five token categories at least once. Explain your choices.",
      "a": "Example: `if x > 10: print(\"ok\")`. Tokens: `if` (keyword), `x` (identifier), `>` (operator), `10` (literal), `:` (punctuator), `print` (identifier), `(` (punctuator), `\"ok\"` (literal), `)` (punctuator). A poor answer might use `=` instead of `>` and miss the comparison operator category, or forget punctuators. This tests whether the student can distinguish operators from punctuators and keywords from identifiers in a real snippet.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Python character set is the collection of all valid characters (letters A-Z, a-z, digits 0-9, special symbols like +, -, *, /, =, ______, and whitespace) that the Python interpreter can recognize and process in source code.",
+     "a": "punctuation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're writing a secret code language where only certain symbols are allowed and words must follow strict ______ rules.",
+     "a": "formation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify any given Python code element into its token category and explain why a specific character sequence is valid or invalid based on the Python character set rules.",
+     "self_check": true
     }
    ]
   }

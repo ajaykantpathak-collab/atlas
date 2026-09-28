@@ -34,6 +34,31 @@
      "q": "Design a cyclone preparedness infographic for a coastal district in Andhra Pradesh that integrates (a) IMD color-coded warning stages, (b) storm surge height zones, and (c) evacuation routes based on topography. Sketch the key elements and annotate the geographical reasoning behind each.",
      "a": "A good answer includes: (a) Four-color warning (green/yellow/orange/red) tied to lead times (72/48/24/12 hrs). (b) Surge zones mapped using contour intervals (0–2m, 2–5m, >5m) derived from bathymetry and coastline shape. (c) Evacuation routes following ridge lines (higher ground) perpendicular to coast, avoiding river crossings. Annotations must link surge height to bay geometry (funneling effect) and route choice to digital elevation model. A poor answer uses generic symbols without local topographic justification, showing failure to apply geographical knowledge to disaster planning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Tropical cyclones in India are intense low-pressure systems forming over warm tropical oceans (Bay of Bengal and Arabian Sea) with sustained winds ≥ 62 km/h, ______ by a warm core, spiral rainbands, and a central eye; they derive energy from latent heat release over sea surface temperatures ≥ 26.5°C and are steered by subtropical easterlies or westerlies depending on season.",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a news clip of Cyclone Fani (2019) hitting Odisha and Cyclone Tauktae (2021) ______ Gujarat — note the different coasts, months, and damage patterns.",
+     "a": "striking",
+     "self_check": true
+    },
+    {
+     "q": "What is Tropical cyclones in India? State the definition given in this lesson.",
+     "a": "Tropical cyclones in India are intense low-pressure systems forming over warm tropical oceans (Bay of Bengal and Arabian Sea) with sustained winds ≥ 62 km/h, characterized by a warm core, spiral rainbands, and a central eye; they derive energy from latent heat release over sea surface temperatures ≥ 26.5°C and are steered by subtropical.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Tropical cyclones in India?",
+     "a": "Students often believe that the Arabian Sea produces more cyclones because it is larger, or that cyclones only occur during the monsoon (June–September).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can compare and contrast the genesis, frequency, tracks, and impacts of tropical cyclones in the Bay of Bengal versus the Arabian Sea using synoptic charts, and explain the role of sea surface temperature, vertical wind shear, and steering currents in their differing behavior.",
+     "self_check": true
     }
    ]
   }

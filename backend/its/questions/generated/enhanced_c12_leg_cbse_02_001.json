@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_02_001",
+   "title": "c12_leg_cbse_02_001",
+   "questions": [
+    {
+     "q": "Define 'Arbitration Agreement' under the Arbitration and Conciliation Act, 1996. Is it mandatory for it to be in writing?",
+     "a": "An Arbitration Agreement is an agreement by parties to submit present or future disputes to arbitration (Section 7). It must be in writing — defined broadly to include signed documents, exchange of letters/telegrams/emails, or electronic communication. A wrong answer (e.g., \"oral agreement is enough\") reveals the student misses the statutory formal requirement under Section 7(3)-(4), which is a frequent board exam trap — courts routinely strike down arbitration clauses that fail the writing test.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between the role of a Mediator and a Conciliator in the ADR process. Why does this distinction matter for the parties?",
+     "a": "A Mediator facilitates negotiation but does not propose solutions; the parties craft the outcome. A Conciliator may actively suggest settlement terms and draft the agreement (Section 67, Arbitration Act). This matters because in Conciliation, the third party influences the substantive outcome, while in Mediation, party autonomy over the solution is absolute. A wrong answer (e.g., \"they are the same\") shows confusion between facilitative vs. evaluative intervention — a distinction tested in case-based questions on ADR mode selection.",
+     "self_check": true
+    },
+    {
+     "q": "A dispute arises between an Indian company and a German company. Their contract has an arbitration clause: seat = London, governing law = Indian law. Can the Indian company seek interim relief under Section 9 of the Arbitration Act from an Indian court? Explain with reference to the BALCO judgment.",
+     "a": "No. In BALCO v. Kaiser (2012), the Supreme Court held that Part I of the Arbitration Act (including Section 9 interim relief) applies only to arbitrations with seat in India. Choosing a foreign seat (London) means the law of that seat governs the arbitration procedure; Indian courts have no supervisory jurisdiction. The 2015 Amendment added a proviso to Section 2(2) allowing Section 9 for foreign-seated arbitrations, but only if parties have not agreed to exclude it. A wrong answer (e.g., \"yes, because governing law is Indian\") reveals the student conflates 'governing law of contract' with 'curial law of arbitration' — a classic competitive exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Lok Adalat and Permanent Lok Adalat on: (a) stage of dispute they address, (b) nature of award, (c) jurisdiction over public utility services.",
+     "a": "(a) Lok Adalat: pending court cases or pre-litigation; Permanent Lok Adalat: exclusively pre-litigation disputes in public utility services. (b) Both awards are final, binding, and deemed a civil court decree; but Permanent Lok Adalat can decide on merit if conciliation fails, while regular Lok Adalat only records settlement. (c) Regular Lok Adalat has no subject-matter restriction; Permanent Lok Adalat is limited to notified public utility services (transport, postal, power, water, hospital, insurance). A wrong answer (e.g., \"both are same\") misses the 2002 Amendment's creation of a specialised, mandatory pre-litigation forum for essential services — a key policy shift.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Banking Ombudsman Scheme provides a complete substitute for consumer courts in banking disputes.\" Support your evaluation with two limitations of the Ombudsman mechanism.",
+     "a": "The statement is incorrect. Two limitations: (1) The Banking Ombudsman can only award compensation up to ₹20 lakh (₹1 lakh for mental anguish), while consumer courts have no such cap; (2) The Ombudsman's decision is not appealable on merits — only a review by the Appellate Authority (RBI Deputy Governor), whereas consumer court orders can be appealed to State/National Commission. Also, the Ombudsman cannot handle disputes involving fraud/forgery requiring evidence recording. A wrong evaluation (e.g., \"yes, it's faster and free\") shows the student overlooks jurisdictional ceilings and appellate remedies — critical for advising clients.",
+     "self_check": true
+    },
+    {
+     "q": "Design a dispute resolution clause for a joint venture agreement between two Indian tech startups that: (a) preserves their business relationship, (b) ensures technical expertise in the decision-maker, (c) allows interim relief in India, and (d) keeps costs low. Specify the ADR mode, seat, and key procedural choices.",
+     "a": "A strong answer: \"Mediation-Arbitration (Med-Arb) clause: Step 1 — Mediation at Bangalore (seat) under Mediation Centre rules, 30 days. Step 2 — If unresolved, Institutional Arbitration at Bangalore (seat = India) under ICADR/IICA rules, sole arbitrator with tech/IP background, documents-only hearing, fee cap ₹5 lakh. Section 9 interim relief available. Governing law: Indian.\" This meets all criteria: Mediation preserves relationship; Arbitration ensures binding expert award; Indian seat enables Section 9; institutional rules control cost. A poor answer (e.g., \"arbitration in Singapore\") fails (c) and (d) — reveals inability to align ADR design with business constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

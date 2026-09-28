@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_hin_ga_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c9_hin_ga_cbse_01_006",
+   "title": "c9_hin_ga_cbse_01_006",
+   "questions": [
+    {
+     "q": "पाठ के 'मुख्य विषय' (Central Theme) और 'कथानक' (Plot) में मूलभूत अंतर क्या है? संक्षेप में स्पष्ट कीजिए।",
+     "a": "**Correct Answer:** कथानक घटनाओं का क्रमबद्ध विवरण है ('क्या हुआ'), जबकि मुख्य विषय उन घटनाओं के माध्यम से व्यक्त एक सार्वभौमिक विचार या अंतर्दृष्टि है ('क्या अभिप्रेत है')। कथानक विशिष्ट और स्थानीय होता है; विषय सार्वभौमिक और कालातीत होता है।\n**Wrong Answer Analysis:** If a student writes \"Theme is the summary of the story,\" they are confusing *plot summary* with *thematic abstraction*. This reveals they cannot yet distinguish concrete narrative events from abstract conceptual ideas — a critical gap for board-level analytical answers.",
+     "self_check": true
+    },
+    {
+     "q": "किसी पाठ में 'संदेश' (Message) हमेशा स्पष्ट रूप से लिखा हुआ नहीं होता। एक पाठक के रूप में आप लेखक के अंतर्निहित (implied) संदेश तक कैसे पहुँचते हैं? प्रक्रिया समझाइए।",
+     "a": "**Correct Answer:** पाठक को पात्रों के निर्णयों के परिणामों, संवादों में निहित द्वंद्व, और अंत की स्थिति (resolution) का विश्लेषण करना पड़ता है। जहां पात्र सफल होते हैं या असफल, वहां लेखक का मूल्यांकन (जो सही/गलत है) छिपा होता है; उन पैटर्न को जोड़कर संदेश निकाला जाता है।\n**Wrong Answer Analysis:** If a student says \"Read the last paragraph where the author explains the moral,\" they expect didactic, explicit moralizing (common in middle school fables). This reveals an inability to handle *implicit* authorial intent — a key Class 9 board skill where texts are subtle and open-ended.",
+     "self_check": true
+    },
+    {
+     "q": "मान लीजिए पाठ 1 में एक पात्र अत्यंत कठिन परिस्थिति में भी अपना वचन निभाता है, परंतु अंत में उसे सामाजिक अपमान सहना पड़ता है। इस स्थिति से उभरने वाला संभावित 'मुख्य विषय' और 'संदेश' लिखिए, और दोनों में अंतर स्पष्ट कीजिए।",
+     "a": "**Correct Answer:**\n**मुख्य विषय:** 'नैतिक सत्यनिष्ठा की कीमत' या 'सिद्धांत बनाम सामाजिक स्वीकृति का द्वंद्व'।\n**संदेश:** 'सच्ची नैतिकता पुरस्कार की अपेक्षा नहीं करती' या 'अपने सिद्धांतों पर अडिग रहना ही वास्तविक विजय है'।\n**अंतर:** विषय एक व्यापक अवधारणा है (द्वंद्व/कीमत), जबकि संदेश लेखक का विशिष्ट निष्कर्ष/सीख है (अडिग रहना विजय है)।\n**Wrong Answer Analysis:** Writing \"Theme: Honesty is the best policy\" for *both* blanks shows the student treats theme and message as synonyms. They miss that theme is the *explored tension* (honesty *vs* survival) while message is the *resolution stance* the author takes.",
+     "self_check": true
+    },
+    {
+     "q": "पाठ 1 में दो अलग-अलग पात्र एक ही परिस्थिति (उदाहरण: अकाल/सूखा) पर भिन्न प्रतिक्रिया देते हैं — एक हार मान लेता है, दूसरा संघर्ष करता है। लेखक इस 'फॉइल' (foil) तकनीक का उपयोग मुख्य विषय को उजागर करने के लिए कैसे करता है? विश्लेषण कीजिए।",
+     "a": "**Correct Answer:** विरोधाभासी प्रतिक्रियाएँ (Contrasting responses) विषय को 'निष्क्रिय भाग्यवाद बनाम सक्रिय मानवीय प्रयास' के रूप में परिभाषित करती हैं। हार मानने वाला पात्र विषय की सीमा दर्शाता है (कहाँ तक स्थिति बिगड़ सकती है), जबकि संघर्षशील पात्र विषय की संभावना दर्शाता है (मानवीय गरिमा की रक्षा)। लेखक पाठक को तुलना करने पर बाध्य करता है, जिससे विषय केवल बताया नहीं जाता, *दिखाया* जाता है।\n**Wrong Answer Analysis:** Saying \"The author shows one is good and one is bad\" reduces analysis to moral labeling. It misses the *structural function* of foil characters: they define the thematic spectrum by embodying its extremes. Board answers require explaining *how* the contrast constructs meaning, not just *who* is better.",
+     "self_check": true
+    },
+    {
+     "q": "कथन का मूल्यांकन कीजिए: \"किसी पाठ का मुख्य विषय पाठक की व्यक्तिगत पृष्ठभूमि पर निर्भर करता है, इसलिए एक पाठ के अनेक 'सही' विषय हो सकते हैं।\" क्या आप सहमत हैं? तर्क सहित उत्तर दीजिए।",
+     "a": "**Correct Answer:** आंशिक सहमति। **पाठगत साक्ष्य (Textual evidence)** विषय की सीमा तय करता है — एक पाठ जो 'लालच की विनाशकारी शक्ति' पर केंद्रित है, उसे 'प्रेम की विजय' का विषय नहीं ठहराया जा सकता। परंतु **व्याख्या की परतें (Layers of interpretation)** भिन्न हो सकती हैं: कोई 'लालच' को 'पूंजीवाद की आलोचना' पढ़ेगा, कोई 'पारिवारिक विघटन'। बोर्ड परीक्षा में वही विषय 'सही' माना जाता है जो पाठ के **सबसे व्यापक साक्ष्य-समुच्चय** द्वारा समर्थित हो।\n**Wrong Answer Analysis:** \"Yes, everyone has their own opinion\" reflects relativism — dangerous for board exams where answers are marked against a schema. \"No, only one theme exists\" reflects rigidity — missing that rich texts support *hierarchies* of themes (central vs peripheral). The nuance is *evidence-bound plurality*.",
+     "self_check": true
+    },
+    {
+     "q": "पाठ 1 के मुख्य विषय को केंद्र में रखकर एक वैकल्पिक अंत (alternate ending) लिखिए जो लेखक के संदेश को **पलट दे** (subvert)। फिर समझाइए कि यह परिवर्तन विषय की व्याख्या को कैसे बदल देता है।",
+     "a": "**Criteria for Good Answer:**\n1.  **Alternate Ending:** Concrete narrative change (e.g., the struggling character accepts a bribe and prospers).\n2.  **Subversion:** Explicitly states how this flips the message (e.g., from \"Integrity is its own reward\" to \"Pragmatism ensures survival\").\n3.  **Thematic Shift Analysis:** Explains that the *theme* shifts from \"Moral courage\" to \"Moral compromise as necessity,\" altering the text's worldview from idealistic to cynical.\n**Poor Answer Reveals:** Writing a happy ending without explaining the *thematic inversion* shows the student sees plot events as arbitrary, not as arguments for a worldview. They cannot yet see narrative as *rhetoric*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

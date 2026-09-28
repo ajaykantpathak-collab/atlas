@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_14_002",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_14_002",
+   "title": "c11_leg_cbse_14_002",
+   "questions": [
+    {
+     "q": "What is the fundamental legal difference between adoption under the Hindu Adoption and Maintenance Act, 1956 and guardianship under the Guardians and Wards Act, 1890?",
+     "a": "Adoption creates a permanent, irrevocable parent-child relationship with full inheritance rights and severance from the biological family. Guardianship is a temporary, revocable legal relationship where the guardian has custody and care responsibilities but the child retains legal ties to the biological family and no automatic inheritance rights from the guardian. A wrong answer (e.g., \"both are the same\") reveals the student confuses legal status with caregiving role and misses the core distinction: adoption changes the child's legal identity; guardianship does not.",
+     "self_check": true
+    },
+    {
+     "q": "Why can a Christian couple not adopt a child under the Hindu Adoption and Maintenance Act, 1956, and what is their legal alternative?",
+     "a": "The Hindu Adoption and Maintenance Act, 1956 applies only to Hindus (including Buddhists, Jains, Sikhs). Christians, Muslims, Parsis, and Jews are excluded because adoption is a matter of personal law. Their legal alternative is guardianship under the Guardians and Wards Act, 1890 (secular, universal) or adoption under the Juvenile Justice (Care and Protection of Children) Act, 2015 (secular, welfare-based). A wrong answer (e.g., \"they can adopt under HAMA if they convert\") reveals the student misunderstands the personal law basis of HAMA and the secular alternatives available.",
+     "self_check": true
+    },
+    {
+     "q": "A Hindu male aged 28 wants to adopt a 10-year-old girl. His wife is alive and consents. The girl's biological parents are unknown. List the conditions under HAMA, 1956 that must be satisfied for this adoption to be valid.",
+     "a": "Under HAMA 1956: (1) Adopter must be Hindu, of sound mind, not a minor (Sec 7) — satisfied. (2) Adopter must have capacity to adopt (Sec 8) — male Hindu, wife's consent obtained — satisfied. (3) Child must be Hindu, not already adopted, unmarried, under 15 years (Sec 10) — satisfied if girl is Hindu. (4) Actual giving and taking (Datta Homam) with intent to transfer (Sec 11) — must be performed. (5) Age gap of 21 years if adopting opposite sex (Sec 11(iii)) — 28 - 10 = 18 years — NOT satisfied. Adoption invalid. A wrong answer missing the 21-year gap rule reveals the student overlooks the gender-based age-difference requirement in Sec 11(iii).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the legal effect of adoption under HAMA 1956 with adoption under the Juvenile Justice Act, 2015 on the child's inheritance rights from the adoptive and biological families.",
+     "a": "Under HAMA 1956 (Sec 12): Adopted child gets full inheritance rights in adoptive family; ties with biological family severed — cannot inherit from biological parents. Under JJ Act 2015 (Sec 63): Adopted child gets same rights as biological child in adoptive family; but the Act is silent on severance from biological family — however, CARA guidelines and judicial interpretation treat it as full adoption with severance. Key difference: HAMA is personal law (Hindus only); JJ Act is secular (all communities). A wrong answer claiming \"JJ Act adoption doesn't give inheritance rights\" reveals the student hasn't read Sec 63 of JJ Act 2015 which explicitly confers \"all rights\" including inheritance.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the constitutional validity of having different adoption laws for different religious communities in light of Article 44 (Uniform Civil Code) and Article 14 (Equality).",
+     "a": "Different adoption laws (HAMA for Hindus, Guardianship Act for others) create inequality: Hindu children get full adoption rights; Muslim/Christian/Parsi children only get guardianship unless they use JJ Act 2015. Article 44 urges a UCC but is non-justiciable (DPSP). Article 14 permits reasonable classification — the classification here is based on religion, which is a suspect classification. The Supreme Court in *Shabnam Hashmi v. Union of India* (2014) held JJ Act 2000/2015 provides a secular adoption option for all, partially addressing the gap. However, the lack of a uniform adoption law remains a constitutional anomaly. A wrong answer saying \"Article 44 makes it unconstitutional\" reveals the student doesn't know DPSPs are non-enforceable.",
+     "self_check": true
+    },
+    {
+     "q": "Design a secular adoption framework that would satisfy Article 44 while respecting religious diversity. Specify: (a) who can adopt, (b) who can be adopted, (c) core conditions, (d) legal effects.",
+     "a": "(a) Any Indian citizen/OCI, regardless of religion, marital status, sexual orientation — single, married, live-in partners eligible. (b) Any child declared legally free for adoption by CWC under JJ Act — orphan, abandoned, surrendered. (c) Core conditions: minimum age 25, age gap 21+ years (flexible for older children), home study by CARA-approved agency, no coercion. (d) Legal effects: Full parent-child relationship, inheritance rights in adoptive family, severance from biological family, new birth certificate. A poor answer that retains religious restrictions or omits severance reveals the student hasn't synthesized the constitutional mandate with child welfare principles.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

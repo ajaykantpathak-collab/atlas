@@ -34,6 +34,26 @@
      "q": "Create a word problem on \"ships and lighthouses\" where the height of the lighthouse is unknown, but the distance between the two ships (on the same side) and the two angles of depression are given. The problem should require finding the height of the lighthouse. Provide the problem statement and the formula to find the height.",
      "a": "Problem: \"From the top of a lighthouse, the angles of depression of two ships on the same side are observed to be 30° and 45°. If the distance between the ships is 100 m, find the height of the lighthouse.\" Formula: h = d / (cot β - cot α) where α > β (here α = 45°, β = 30°). A poor answer would give a problem where the ships are on opposite sides but still use subtraction, or would not specify which angle is larger, leading to ambiguity. The student must recognise that the larger angle of depression corresponds to the nearer ship, so the denominator is cot(smaller angle) - cot(larger angle).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Word problems involving ships and ______ with two angles refer to a specific class of heights-and-distances problems where an observer at the top of a lighthouse (or any elevated point) measures the angles of depression to two ships on the sea.",
+     "a": "lighthouses",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing at the top of the lighthouse at ______, 75 metres above sea level.",
+     "a": "Kanyakumari",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing at the top of the lighthouse at Kanyakumari, ______ metres above sea level.",
+     "a": "75",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently draw a correct labelled diagram, identify the two right triangles, set up tangent/cotangent equations for each angle of depression, algebraically solve for the unknown horizontal distances, and correctly combine them (addition for opposite sides, subtraction for same side) to find the distance between the.",
+     "self_check": true
     }
    ]
   }

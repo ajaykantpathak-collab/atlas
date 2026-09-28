@@ -34,6 +34,31 @@
      "q": "Design a simple field experiment to test whether a particular legume species forms arbuscular mycorrhiza in your school garden soil, using only a hand lens, forceps, and a microscope available in the biology lab.",
      "a": "Collect fine lateral roots from the legume and a non-mycorrhizal control (e.g., Brassica). Wash gently, clear in 10% KOH (heat), rinse, acidify with 1% HCl, stain with trypan blue (0.05% in lactoglycerol), destain. Mount root segments on slides. Under microscope (40x), look for: (1) hyphae entering root cortex, (2) vesicles (storage structures), (3) arbuscules (branched tree-like structures inside cortical cells). Presence of arbuscules confirms AM. A poor design would skip clearing/staining (can't see internal structures) or only check for external sheath (misses endomycorrhiza). This reveals whether the student understands that AM structures are intracellular and require microscopic visualization.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Lichens are obligate symbiotic associations between a fungal partner (mycobiont, typically Ascomycota) and a ______ partner (phycobiont, green algae or cyanobacteria) where the mycobiont provides structural protection, water retention, and mineral absorption while the phycobiont supplies carbohydrates through photosynthesis; mycorrhiza is a mutualistic association between fungal hyphae and roots of vascular plants where the fungus enhances phosphorus and water uptake for the plant in exchange for photosynthates.",
+     "a": "photosynthetic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at the crusty grey-green patches on the bark of a mango tree or on rocks near your school during monsoon – those are lichens, not a single ______ but two living together so intimately they appear as one.",
+     "a": "organism",
+     "self_check": true
+    },
+    {
+     "q": "What is Lichens? State the definition given in this lesson.",
+     "a": "Lichens are obligate symbiotic associations between a fungal partner (mycobiont, typically Ascomycota) and a photosynthetic partner (phycobiont, green algae or cyanobacteria) where the mycobiont provides structural protection, water retention, and mineral absorption while the phycobiont supplies carbohydrates through photosynthesis.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Lichens?",
+     "a": "Students think lichens are \"algae covered by fungus\" like a blanket, and mycorrhiza is \"fungi growing on roots\" like a pathogen.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can distinguish between lichen and mycorrhizal symbiosis by identifying the specific partners, their nutritional roles, and the structural modifications in each association; can explain why lichens are sensitive bioindicators of air pollution using the physiological basis of their poikilohydric nature.",
+     "self_check": true
     }
    ]
   }

@@ -2,6 +2,100 @@
  "catalog": "catalog_class8_science_hecu109.json",
  "concepts": [
   {
+   "id": "hecu.109.9.3",
+   "title": "Concentration of a Solution",
+   "converted_to_compute": true,
+   "formula": "conc = solute / solvent * 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "conc = solute / solvent * 100",
+     "compute": "conc = solute / solvent * 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Concentration of a Solution: given solute = 26, solvent = 3.2, find conc.",
+     "a": "812.5",
+     "self_check": false
+    },
+    {
+     "q": "For Concentration of a Solution: given solute = 61, solvent = 52, find conc.",
+     "a": "117.308",
+     "self_check": false
+    },
+    {
+     "q": "For Concentration of a Solution: given solute = 39, solvent = 57, find conc.",
+     "a": "68.4211",
+     "self_check": false
+    },
+    {
+     "q": "For Concentration of a Solution: given solute = 18.3, solvent = 91, find conc.",
+     "a": "20.1099",
+     "self_check": false
+    },
+    {
+     "q": "For Concentration of a Solution: given solute = 53, solvent = 41, find conc.",
+     "a": "129.268",
+     "self_check": false
+    },
+    {
+     "q": "For Concentration of a Solution: given solute = 98, solvent = 71, find conc.",
+     "a": "138.028",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hecu.109.9.5",
+   "title": "Density: Mass per Unit Volume",
+   "converted_to_compute": true,
+   "formula": "density = mass / volume",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "density = mass / volume",
+     "compute": "density = mass / volume"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Density: Mass per Unit Volume: given mass = 9.9, volume = 7.5, find density.",
+     "a": "1.32",
+     "self_check": false
+    },
+    {
+     "q": "For Density: Mass per Unit Volume: given mass = 69, volume = 24, find density.",
+     "a": "2.875",
+     "self_check": false
+    },
+    {
+     "q": "For Density: Mass per Unit Volume: given mass = 38, volume = 55, find density.",
+     "a": "0.690909",
+     "self_check": false
+    },
+    {
+     "q": "For Density: Mass per Unit Volume: given mass = 154, volume = 91, find density.",
+     "a": "1.69231",
+     "self_check": false
+    },
+    {
+     "q": "For Density: Mass per Unit Volume: given mass = 142, volume = 69, find density.",
+     "a": "2.05797",
+     "self_check": false
+    },
+    {
+     "q": "For Density: Mass per Unit Volume: given mass = 54, volume = 68, find density.",
+     "a": "0.794118",
+     "self_check": false
+    }
+   ]
+  },
+  {
    "id": "hecu.109.9.1",
    "title": "Solute, Solvent and Solution",
    "solution_type": "verify_property",
@@ -46,88 +140,6 @@
    ]
   },
   {
-   "id": "hecu.109.9.3",
-   "title": "Concentration of a Solution",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "conc",
-     "expr": "(solute / solvent) * 100",
-     "explain": "mass of solute per 100 g (or mL) of solvent"
-    },
-    {
-     "step": 2,
-     "name": "conc_per_50",
-     "expr": "(solute / solvent) * 50",
-     "explain": "solute per 50 g of solvent"
-    },
-    {
-     "step": 3,
-     "name": "solute_for_200",
-     "expr": "conc * 2",
-     "explain": "solute needed to make twice the reference amount"
-    }
-   ],
-   "questions": [
-    {
-     "q": "10 g of sugar dissolves in 100 g of water. Find the concentration, and the sugar needed for 200 g of water.",
-     "vals": {
-      "solute": 10,
-      "solvent": 100
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "20 g",
-     "self_check": false
-    },
-    {
-     "q": "5 g of salt is dissolved in 50 g of water. Calculate the concentration of the solution.",
-     "vals": {
-      "solute": 5,
-      "solvent": 50
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "20 g",
-     "self_check": false
-    },
-    {
-     "q": "A solution holds 20 g of glucose in 400 g of water. Find its concentration.",
-     "vals": {
-      "solute": 20,
-      "solvent": 400
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "10 g",
-     "self_check": false
-    },
-    {
-     "q": "2 g of urea in 80 g of water: what is the concentration, and the urea for 200 g of water?",
-     "vals": {
-      "solute": 2,
-      "solvent": 80
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "5 g",
-     "self_check": false
-    },
-    {
-     "q": "25 g of potash dissolves in 125 g of water. Compute the concentration.",
-     "vals": {
-      "solute": 25,
-      "solvent": 125
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "40 g",
-     "self_check": false
-    }
-   ]
-  },
-  {
    "id": "hecu.109.9.4",
    "title": "Solubility of Gases in Water",
    "solution_type": "verify_property",
@@ -146,88 +158,6 @@
      "q": "How does a fizzy drink lose its fizz when left open in the heat?",
      "a": "Carbon dioxide gas escapes faster in warm, open conditions.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "hecu.109.9.5",
-   "title": "Density: Mass per Unit Volume",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "density",
-     "expr": "mass / volume",
-     "explain": "density is mass per unit volume"
-    },
-    {
-     "step": 2,
-     "name": "half_volume_mass",
-     "expr": "density * (volume / 2)",
-     "explain": "mass of half the volume"
-    },
-    {
-     "step": 3,
-     "name": "mass_of_3v",
-     "expr": "density * 3",
-     "explain": "mass of three times that volume"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A stone of mass 60 g has volume 20 cu cm. Find its density and the mass of 60 cu cm of it.",
-     "vals": {
-      "mass": 60,
-      "volume": 20
-     },
-     "unit": "g/cu cm",
-     "steps": null,
-     "a": "9 g/cu cm",
-     "self_check": false
-    },
-    {
-     "q": "An iron block of mass 237 g occupies 30 cu cm. Calculate its density.",
-     "vals": {
-      "mass": 237,
-      "volume": 30
-     },
-     "unit": "g/cu cm",
-     "steps": null,
-     "a": "23.7 g/cu cm",
-     "self_check": false
-    },
-    {
-     "q": "450 g of a liquid fills 500 cu cm. What is its density?",
-     "vals": {
-      "mass": 450,
-      "volume": 500
-     },
-     "unit": "g/cu cm",
-     "steps": null,
-     "a": "2.7 g/cu cm",
-     "self_check": false
-    },
-    {
-     "q": "A wooden cube of 120 g has volume 240 cu cm. Compute its density and the mass of 720 cu cm.",
-     "vals": {
-      "mass": 120,
-      "volume": 240
-     },
-     "unit": "g/cu cm",
-     "steps": null,
-     "a": "1.5 g/cu cm",
-     "self_check": false
-    },
-    {
-     "q": "A metal ball of 890 g has volume 100 cu cm. Find its density.",
-     "vals": {
-      "mass": 890,
-      "volume": 100
-     },
-     "unit": "g/cu cm",
-     "steps": null,
-     "a": "26.7 g/cu cm",
-     "self_check": false
     }
    ]
   },
@@ -264,7 +194,7 @@
      },
      "unit": null,
      "steps": null,
-     "a": "0.2",
+     "a": "1.2",
      "self_check": false
     },
     {
@@ -275,7 +205,7 @@
      },
      "unit": null,
      "steps": null,
-     "a": "1.7",
+     "a": "2.7",
      "self_check": false
     },
     {
@@ -286,7 +216,7 @@
      },
      "unit": null,
      "steps": null,
-     "a": "-0.2",
+     "a": "0.8",
      "self_check": false
     },
     {
@@ -297,7 +227,7 @@
      },
      "unit": null,
      "steps": null,
-     "a": "5",
+     "a": "6",
      "self_check": false
     },
     {
@@ -308,7 +238,7 @@
      },
      "unit": null,
      "steps": null,
-     "a": "-0.08",
+     "a": "0.92",
      "self_check": false
     }
    ]

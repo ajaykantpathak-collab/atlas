@@ -34,6 +34,36 @@
      "q": "**CREATE**: Construct a real-world scenario (2-3 sentences) where the *same* word \"statistics\" appears twice — once in plural sense and once in singular sense — and the meaning shifts. Label each occurrence.",
      "a": "**Expected answer**: Example: \"The **statistics** (plural: data) on farm suicides are alarming, so the ministry hired experts in **statistics** (singular: methods) to design a better reporting system.\"  \n**Poor answer reveals**: Using \"statistics\" twice in the same sense (e.g., \"The statistics are alarming, so we need more statistics\") shows inability to operationalise the distinction. A good answer must have a clear context shift from *numbers* to *discipline*.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Statistics in the plural sense refers to numerical data or quantitative facts ______ collected for a predetermined purpose (e.g., \"Statistics show India's GDP grew by 7.2%\").",
+     "a": "systematically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are reading a news headline: \"Statistics reveal that 68% of Indian households use LPG as primary cooking fuel.\" Ask yourself: does \"statistics\" here mean the *numbers ______* (68%, the count of households) or the *process* that produced those numbers (survey design, sampling, calculation)?",
+     "a": "themselves",
+     "self_check": true
+    },
+    {
+     "q": "What is Statistics in the plural sense? State the definition given in this lesson.",
+     "a": "Statistics in the plural sense refers to numerical data or quantitative facts systematically collected for a predetermined purpose (e.g., \"Statistics show India's GDP grew by 7.2%\").",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Statistics in the plural sense refers to numerical data or quantitative facts systematically collected for a predetermined purpose (e.g., \"Statistics show India's GDP grew by ______%\").",
+     "a": "7.2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Statistics in the plural sense?",
+     "a": "Students often think \"statistics in singular sense\" means \"a single statistic\" (e.g., one number like the mean).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify any given statistical statement as plural sense (data) or singular sense (method), and explain why the distinction matters for economic analysis.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a resource checklist for a traditional brick-and-mortar bookstore in Delhi wanting to launch a B2C website offering 5,000 titles, COD and UPI payments, and delivery across India. Organise into Hardware, Software, Data with at least 3 items each, specific to this scenario.",
      "a": "Good answer includes: Hardware: (1) Cloud VPS/server (2 vCPU, 4GB RAM, 100GB SSD) for hosting, (2) Admin laptop + barcode scanner for inventory sync, (3) Backup 4G dongle for internet redundancy. Software: (1) WooCommerce/Shopify plan with Indian payment gateways (Razorpay/PayU), (2) Inventory management software synced with POS, (3) Logistics integration plugin (Shiprocket/Delhivery API). Data: (1) ISBN-based product catalogue (title, author, price, stock, images), (2) Customer database (name, address, phone, order history), (3) Courier pincode serviceability master data. A poor answer lists generic items like \"computer, internet, products\" showing inability to contextualise resources to the specific scale, payment methods, and logistics needs.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Resources required for e-business refer to the essential technological ______ comprising hardware (servers, computers, networking devices), software (operating systems, databases, e-commerce platforms, security protocols), and data (product catalogs, customer databases, transaction records) that collectively enable a firm to establish, operate, and maintain its online presence and conduct electronic transactions securely and efficiently.",
+     "a": "infrastructure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to start an online store selling handmade Indian crafts to ______ across India and abroad.",
+     "a": "customers",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to categorise a given e-business requirement into hardware, software, or data resources, and explain how each category supports specific e-business functions (B2B, B2C, intra-B, C2C) with at least two concrete examples per category.",
+     "self_check": true
     }
    ]
   }

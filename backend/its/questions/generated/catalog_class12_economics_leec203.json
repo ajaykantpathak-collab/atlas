@@ -1,6 +1,147 @@
 {
- "catalog": "catalog_class12_economics_leec203",
+ "catalog": "catalog_class12_economics_leec203.json",
  "concepts": [
+  {
+   "id": "leec.203.3.2",
+   "title": "Cost Function: Total Fixed, Total Variable and Total Cost",
+   "converted_to_compute": true,
+   "formula": "total_cost = total_fixed_cost + total_variable_cost",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_cost = total_fixed_cost + total_variable_cost",
+     "compute": "total_cost = total_fixed_cost + total_variable_cost"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Cost Function: Total Fixed, Total Variable and Total Cost: given total_fixed_cost = 51, total_variable_cost = 74, find total cost.",
+     "a": "125",
+     "self_check": false
+    },
+    {
+     "q": "For Cost Function: Total Fixed, Total Variable and Total Cost: given total_fixed_cost = 33, total_variable_cost = 60, find total cost.",
+     "a": "93",
+     "self_check": false
+    },
+    {
+     "q": "For Cost Function: Total Fixed, Total Variable and Total Cost: given total_fixed_cost = 33, total_variable_cost = 82, find total cost.",
+     "a": "115",
+     "self_check": false
+    },
+    {
+     "q": "For Cost Function: Total Fixed, Total Variable and Total Cost: given total_fixed_cost = 34, total_variable_cost = 2.5, find total cost.",
+     "a": "36.5",
+     "self_check": false
+    },
+    {
+     "q": "For Cost Function: Total Fixed, Total Variable and Total Cost: given total_fixed_cost = 12.6, total_variable_cost = 117, find total cost.",
+     "a": "129.6",
+     "self_check": false
+    },
+    {
+     "q": "For Cost Function: Total Fixed, Total Variable and Total Cost: given total_fixed_cost = 12.9, total_variable_cost = 14.4, find total cost.",
+     "a": "27.3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leec.203.3.3",
+   "title": "Average Costs: SAC, AVC and AFC",
+   "converted_to_compute": true,
+   "formula": "short_run_average_cost = average_variable_cost + average_fixed_cost",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "short_run_average_cost = average_variable_cost + average_fixed_cost",
+     "compute": "short_run_average_cost = average_variable_cost + average_fixed_cost"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Average Costs: SAC, AVC and AFC: given average_variable_cost = 94, average_fixed_cost = 98, find short run average cost.",
+     "a": "192",
+     "self_check": false
+    },
+    {
+     "q": "For Average Costs: SAC, AVC and AFC: given average_variable_cost = 119, average_fixed_cost = 35, find short run average cost.",
+     "a": "154",
+     "self_check": false
+    },
+    {
+     "q": "For Average Costs: SAC, AVC and AFC: given average_variable_cost = 13.1, average_fixed_cost = 45, find short run average cost.",
+     "a": "58.1",
+     "self_check": false
+    },
+    {
+     "q": "For Average Costs: SAC, AVC and AFC: given average_variable_cost = 77, average_fixed_cost = 16.2, find short run average cost.",
+     "a": "93.2",
+     "self_check": false
+    },
+    {
+     "q": "For Average Costs: SAC, AVC and AFC: given average_variable_cost = 37, average_fixed_cost = 9.9, find short run average cost.",
+     "a": "46.9",
+     "self_check": false
+    },
+    {
+     "q": "For Average Costs: SAC, AVC and AFC: given average_variable_cost = 48, average_fixed_cost = 73, find short run average cost.",
+     "a": "121",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leec.203.3.6",
+   "title": "Long Run Costs and their Returns-to-Scale Link",
+   "converted_to_compute": true,
+   "formula": "lrac_shape = decreasing_over_irs + flat_over_crs + rising_over_drs",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "lrac_shape = decreasing_over_irs + flat_over_crs + rising_over_drs",
+     "compute": "lrac_shape = decreasing_over_irs + flat_over_crs + rising_over_drs"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Long Run Costs and their Returns-to-Scale Link: given decreasing_over_irs = 29, flat_over_crs = 5.3, rising_over_drs = 29, find lrac shape.",
+     "a": "63.3",
+     "self_check": false
+    },
+    {
+     "q": "For Long Run Costs and their Returns-to-Scale Link: given decreasing_over_irs = 74, flat_over_crs = 72, rising_over_drs = 44, find lrac shape.",
+     "a": "190",
+     "self_check": false
+    },
+    {
+     "q": "For Long Run Costs and their Returns-to-Scale Link: given decreasing_over_irs = 31, flat_over_crs = 37, rising_over_drs = 73, find lrac shape.",
+     "a": "141",
+     "self_check": false
+    },
+    {
+     "q": "For Long Run Costs and their Returns-to-Scale Link: given decreasing_over_irs = 43, flat_over_crs = 68, rising_over_drs = 23, find lrac shape.",
+     "a": "134",
+     "self_check": false
+    },
+    {
+     "q": "For Long Run Costs and their Returns-to-Scale Link: given decreasing_over_irs = 41, flat_over_crs = 117, rising_over_drs = 75, find lrac shape.",
+     "a": "233",
+     "self_check": false
+    },
+    {
+     "q": "For Long Run Costs and their Returns-to-Scale Link: given decreasing_over_irs = 12.9, flat_over_crs = 27, rising_over_drs = 58, find lrac shape.",
+     "a": "97.9",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "leec.203.1.1",
    "title": "Production Function",
@@ -159,68 +300,6 @@
    ]
   },
   {
-   "id": "leec.203.3.2",
-   "title": "Cost Function: Total Fixed, Total Variable and Total Cost",
-   "questions": [
-    {
-     "q": "Using the method 'Cost Function: Total Fixed, Total Variable and Total Cost', work with: total_fixed_cost = 5000, total_variable_cost = 8000. Carry the chain through step by step and give the final value of total_cost.",
-     "a": "13000 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Cost Function: Total Fixed, Total Variable and Total Cost' and work with: total_fixed_cost = 5000, total_variable_cost = 12000. Carry the chain through step by step and give the final value of total_cost.",
-     "a": "17000 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Cost Function: Total Fixed, Total Variable and Total Cost' refers to.",
-     "a": "For each output the firm picks the cheapest input combination, and in the short run its cost splits into a fixed part that does not vary with output and a variable part that does, their sum being total cost.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Cost Function: Total Fixed, Total Variable and Total Cost'.",
-     "a": "Fixed cost is the price of standing ready; variable cost grows with every extra unit produced.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Cost Function: Total Fixed, Total Variable and Total Cost', in plain ASCII form.",
-     "a": "total_cost = total_fixed_cost + total_variable_cost",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leec.203.3.3",
-   "title": "Average Costs: SAC, AVC and AFC",
-   "questions": [
-    {
-     "q": "Using the method 'Average Costs: SAC, AVC and AFC', work with: output = 75, total_fixed_cost = 2500, total_variable_cost = 80000. Carry the chain through step by step and give the final value of short_run_average_cost.",
-     "a": "1100 years",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Average Costs: SAC, AVC and AFC' and work with: output = 8, total_fixed_cost = 500, total_variable_cost = 5000. Carry the chain through step by step and give the final value of short_run_average_cost.",
-     "a": "687.5 years",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Average Costs: SAC, AVC and AFC' refers to.",
-     "a": "Per-unit costs divide each total by output: short run average cost equals total cost over output, average variable cost equals variable cost over output, and average fixed cost equals fixed cost over output, with average cost exactly the sum of the other two.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Average Costs: SAC, AVC and AFC'.",
-     "a": "Every per-unit figure is its total spread over output, and the averages stack up to the full unit cost.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Average Costs: SAC, AVC and AFC', in plain ASCII form.",
-     "a": "short_run_average_cost = average_variable_cost + average_fixed_cost",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "leec.203.3.4",
    "title": "Short Run Marginal Cost",
    "questions": [
@@ -268,37 +347,6 @@
     {
      "q": "Write the standard relation used for 'Shapes of Short Run Cost Curves', in plain ASCII form.",
      "a": "smc_below_avc implies avc falling; smc_above_avc implies avc rising",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leec.203.3.6",
-   "title": "Long Run Costs and their Returns-to-Scale Link",
-   "questions": [
-    {
-     "q": "Using the method 'Long Run Costs and their Returns-to-Scale Link', work with: decreasing_over_irs = 45, flat_over_crs = 6, rising_over_drs = 80. Carry the chain through step by step and give the final value of lrac_shape.",
-     "a": "131 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Long Run Costs and their Returns-to-Scale Link' and work with: decreasing_over_irs = 20, flat_over_crs = 20, rising_over_drs = 4. Carry the chain through step by step and give the final value of lrac_shape.",
-     "a": "44 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Long Run Costs and their Returns-to-Scale Link' refers to.",
-     "a": "With every input variable there is no fixed cost, so long run average and marginal costs describe the same total; increasing returns pull average cost down, decreasing returns push it up, and constant returns hold it flat, giving both curves their U shape with marginal cutting average at its minimum.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Long Run Costs and their Returns-to-Scale Link'.",
-     "a": "The long run average cost curve is the returns-to-scale story told in rupees per unit.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Long Run Costs and their Returns-to-Scale Link', in plain ASCII form.",
-     "a": "lrac_shape = decreasing_over_irs + flat_over_crs + rising_over_drs",
      "self_check": true
     }
    ]

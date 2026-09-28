@@ -4,15 +4,9 @@
   {
    "id": "jemh.106.6.1",
    "title": "Similar Figures and Similarity Criteria",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the congruence condition and angle sums",
-     "explain": "use the congruence condition and angle sums: third = 180 - 71 - 32 gives 77",
-     "compute": "third = 180 - 71 - 32"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two triangles are congruent. In triangle one the angles are 71 and 32 degrees; the third angle is what? (The third angles must match.)",
@@ -49,15 +43,9 @@
   {
    "id": "jemh.106.6.2",
    "title": "Basic Proportionality Theorem (Thales Theorem)",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "set up the proportion and solve for the unknown part",
-     "explain": "set up the proportion and solve for the unknown part: t1 = 18 / 6 gives 3",
-     "compute": "t1 = 18 / 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "ratio_check = seg1 / seg2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 18 : 48 in its simplest form and give the first term of the simplest form.",
@@ -95,6 +83,8 @@
    "id": "jemh.106.6.3",
    "title": "Areas of Similar Triangles",
    "converted_to_compute": false,
+   "formula": "area_ratio = s * s",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 21 cm by 6 cm.",
@@ -131,15 +121,9 @@
   {
    "id": "jemh.106.6.4",
    "title": "Pythagoras Theorem",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the quadrilateral property to compute the value",
-     "explain": "use the quadrilateral property to compute the value: adj = 180 - 60 gives 120",
-     "compute": "adj = 180 - 60"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a parallelogram one angle is 60 degrees. Find the adjacent angle.",

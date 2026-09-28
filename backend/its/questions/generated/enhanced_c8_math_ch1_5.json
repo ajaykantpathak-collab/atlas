@@ -34,6 +34,31 @@
      "q": "Create a real-world problem where finding the sum of consecutive odd numbers helps solve it. Use an Indian context (rupees, metres, tiles, etc.).",
      "a": "Example: \"Ravi arranges square tiles to make a square patio. He starts with 1 tile, then adds tiles around it to make a 2×2 square, then a 3×3 square, and so on. If he makes a 12×12 square patio, how many tiles did he add in the last step?\" Good answer: The last step adds the 12th odd number = 2×12-1 = 23 tiles. A poor answer that gives total tiles (144) instead of the last addition reveals the student cannot distinguish between the sum and the nth term.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The sum of the first n ______ odd natural numbers starting from 1 equals the perfect square n².",
+     "a": "consecutive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are arranging square tiles to make larger ______.",
+     "a": "squares",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The sum of the first n consecutive odd natural numbers starting from ______ equals the perfect square n².",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why the sum of consecutive odd numbers forms perfect squares using visual or algebraic reasoning, and can determine whether a given number is a perfect square by checking if it can be expressed as such a sum.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ square tiles to make larger squares.",
+     "a": "arranging",
+     "self_check": true
     }
    ]
   }

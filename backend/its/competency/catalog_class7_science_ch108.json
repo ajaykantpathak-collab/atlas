@@ -20,7 +20,7 @@
     "explain the asexual mode of plant reproduction",
     "state two key points about asexual reproduction"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,16 @@
      "action": "explain why offspring are genetically identical",
      "explain": "Since only one parent is involved and no gamete fusion occurs, the offspring are clones that inherit the exact genetic material of the single parent plant."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "offspring = parent_clone",
+     "compute": "offspring = parent_clone"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gesc.108.2",
@@ -72,7 +81,16 @@
      "action": "verify the result against expected growth",
      "explain": "After each cycle the population should be twice the previous value; checking that the computed total equals the initial count multiplied by 2 raised to the number of cycles confirms the exponential growth calculation."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total = initial * (2 ** time)",
+     "compute": "total = initial * (2 ** time)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gesc.108.3",
@@ -89,7 +107,7 @@
     "explain the role of gametes in reproduction",
     "how does sexual reproduction work"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -106,7 +124,16 @@
      "action": "explain the significance of genetic variation from sexual reproduction",
      "explain": "Because offspring inherit genetic material from two different parents, sexual reproduction produces variation in the new generation, which helps plants adapt to changing environments and resist diseases."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "zygote = male_gamete + female_gamete",
+     "compute": "zygote = male_gamete + female_gamete"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

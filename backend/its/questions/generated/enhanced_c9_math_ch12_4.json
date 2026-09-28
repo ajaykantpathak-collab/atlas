@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch12_4",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch12_4",
+   "title": "c9_math_ch12_4",
+   "questions": [
+    {
+     "q": "State the theorem: \"The diagonals of a parallelogram ______ each other.\" Fill in the blank with the precise mathematical verb.",
+     "a": "The correct answer is \"bisect\". A wrong answer like \"intersect\" or \"cross\" reveals the student knows diagonals meet but does not recall the specific property of equal division — they confuse \"intersect\" (just meeting) with \"bisect\" (dividing into two equal parts).",
+     "self_check": true
+    },
+    {
+     "q": "In parallelogram PQRS, diagonals PR and QS intersect at O. If PO = 3x + 2 and OR = 5x - 6, explain why you can set 3x + 2 = 5x - 6 to find x, and what property justifies this equation.",
+     "a": "Because diagonals bisect each other, O is the midpoint of PR, so PO = OR. Setting the expressions equal uses the definition of bisection (equal segments). A wrong explanation like \"opposite sides are equal\" or \"diagonals are equal\" shows the student confuses side properties with diagonal properties, or thinks diagonals of a parallelogram are equal in length (which is only true for rectangles).",
+     "self_check": true
+    },
+    {
+     "q": "In parallelogram ABCD, diagonals AC and BD intersect at O. Given AO = 4 cm, OC = (2y - 1) cm, BO = (3x + 1) cm, and OD = 5 cm. Find the values of x and y.",
+     "a": "Step 1: Use bisection property: AO = OC → 4 = 2y - 1 → 2y = 5 → y = 2.5.\nStep 2: Use bisection property: BO = OD → 3x + 1 = 5 → 3x = 4 → x = 4/3.\nStep 3: Verify: AO = 4, OC = 2(2.5) - 1 = 4 ✓; BO = 3(4/3) + 1 = 5, OD = 5 ✓.\nAnswer: x = 4/3, y = 2.5.\nA wrong answer like x = 4, y = 2.5 (from 3x+1=5 → 3x=4 → x=4, forgetting to divide by 3) reveals a basic algebraic error in solving linear equations (c6_math_ch05_057).",
+     "self_check": true
+    },
+    {
+     "q": "A quadrilateral has vertices A(1,2), B(4,5), C(7,2), D(4,-1). Without measuring side lengths, how can you use the diagonal bisection property to prove it is a parallelogram? Show the coordinate calculations.",
+     "a": "Find midpoints of both diagonals: Diagonal AC endpoints (1,2) and (7,2) → midpoint = ((1+7)/2, (2+2)/2) = (4,2). Diagonal BD endpoints (4,5) and (4,-1) → midpoint = ((4+4)/2, (5+(-1))/2) = (4,2). Both midpoints are identical (4,2), so diagonals bisect each other. By the converse theorem, ABCD is a parallelogram. A student who only checks one diagonal or calculates midpoints incorrectly (e.g., averaging x with y) shows they don't understand the \"if and only if\" nature of the converse or confuse midpoint formula coordinates.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In any parallelogram, the diagonals are equal in length because they bisect each other.\" Evaluate this statement. Is it true or false? Justify your answer with a counterexample or proof.",
+     "a": "False. Bisection means each diagonal is cut into two equal halves (AO=OC, BO=OD), but it does NOT mean the full diagonals are equal (AC = BD). Counterexample: A parallelogram with sides 5 cm and 3 cm and angle 60° has diagonals of different lengths (by law of cosines, AC ≈ 7 cm, BD ≈ 3.6 cm). The student who says \"true\" confuses \"bisect each other\" (mutual midpoint) with \"are equal\" (same total length) — this is the rectangle property, not general parallelogram.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a problem where a parallelogram's diagonals are given as algebraic expressions (e.g., AC = 6x + 4, BD = 8x - 2) and the bisection property is used to find x, but the problem must also require using the fact that the intersection point is the midpoint of BOTH diagonals. Write the full problem and solution.",
+     "a": "Problem: In parallelogram WXYZ, diagonals WY and XZ intersect at M. WM = 2x + 3, MY = 4x - 5, XM = 3y - 1, MZ = y + 7. Find x and y.\nSolution: WM = MY → 2x + 3 = 4x - 5 → 2x = 8 → x = 4. XM = MZ → 3y - 1 = y + 7 → 2y = 8 → y = 4.\nA poor problem would only use one diagonal (e.g., only give WM and MY), missing the \"both diagonals\" requirement. A poor solution would set WM = XZ (confusing segments with full diagonals) or WM = MZ (mixing diagonals).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

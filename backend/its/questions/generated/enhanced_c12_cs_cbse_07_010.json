@@ -34,6 +34,26 @@
      "q": "Design a 3-variable Boolean function F(A,B,C) where the minimal SOP has exactly 2 product terms, each with exactly 2 literals, and the function is NOT symmetric in all variables. Draw its K-map and write the expression.",
      "a": "Example: F = A'B + AC. K-map (BC columns: 00,01,11,10; A rows: 0,1): 1s at m₂(010), m₃(011) → pair (A'B); 1s at m₅(101), m₇(111) → pair (AC). No larger groups possible. Terms: A'B (2 literals), AC (2 literals). Not symmetric (A appears complemented in first, uncomplemented in second; B and C not interchangeable). A poor answer like F = AB + BC (symmetric in A,C) or F = A'B' + AB (2 terms but 4 literals total, not 2 each) shows the student doesn't grasp how group size determines literal count (pair → 2 literals in 3-var map) or what \"symmetric\" means. This tests creative synthesis of K-map constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Karnaugh Map (K-Map) is a graphical method for simplifying Boolean expressions by arranging minterms or maxterms in a grid where adjacent cells differ by exactly one variable, allowing visual ______ of redundant terms through grouping of 1s (for SOP) or 0s (for POS) in powers of two (pairs, quads, octets).",
+     "a": "identification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a circuit for a smart ______ system that turns on the water pump only when the soil is dry (D=1) AND either the tank has water (T=1) OR it's not raining (R=0).",
+     "a": "irrigation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You could use Boolean algebra laws, but with ______+ variables it becomes error-prone.",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Construct 2, 3, and 4-variable K-maps from a given truth table, canonical SOP/POS expression, or verbal description; (2) Identify all valid groups (pairs, quads, octets) including wrap-around and overlapping groups; (3) Derive the minimal SOP and POS expressions; (4) Handle don't-care conditions to.",
+     "self_check": true
     }
    ]
   }

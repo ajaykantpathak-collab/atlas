@@ -34,6 +34,36 @@
      "q": "Design a step‑by‑step procedure for a Class 12 student to compute the mean annual temperature of a district using daily maximum temperature data (365 values) with the step‑deviation method. Include how to choose the assumed mean and class interval.",
      "a": "1. Group the 365 daily values into a frequency distribution with equal class intervals (e.g., 5°C).  \n2. Calculate midpoints (x) of each class.  \n3. Choose assumed mean \\(A\\) as the midpoint of the class with highest frequency (or central class).  \n4. Compute deviations \\(d = x - A\\).  \n5. Determine step‑deviation \\(u = \\frac{d}{i}\\) where \\(i\\) is class interval.  \n6. Multiply each \\(u\\) by frequency \\(f\\) to get \\(fu\\).  \n7. Apply \\(\\bar{X} = A + i \\frac{\\sum fu}{N}\\).  \nA poor answer omits grouping, uses unequal intervals, or forgets to multiply by \\(i\\) in the final step.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Measures of Central Tendency: Computation Methods refer to the specific algorithmic procedures — direct method, indirect (assumed mean) method, and step‑deviation method — used to calculate the arithmetic mean, median, and mode for both ungrouped (raw) and grouped (frequency distribution) geographical data, ensuring a single ______ value that summarises the centre of a distribution such as rainfall, crop yield, or population density.",
+     "a": "representative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing the annual ______ (in mm) recorded at seven weather stations across the Malwa Plateau: 979, 1083, 833, 896, 891, 825, 977.",
+     "a": "rainfall",
+     "self_check": true
+    },
+    {
+     "q": "What is Measures of Central Tendency? State the definition given in this lesson.",
+     "a": "Measures of Central Tendency: Computation Methods refer to the specific algorithmic procedures — direct method, indirect (assumed mean) method, and step‑deviation method — used to calculate the arithmetic mean, median, and mode for both ungrouped (raw) and grouped (frequency distribution) geographical data, ensuring a single.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Next, decide whether to use the direct method (sum all values and divide by N) or the indirect method (choose an assumed mean, e.g., ______, find deviations, then adjust).",
+     "a": "800",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Measures of Central Tendency?",
+     "a": "Students often believe that the median for grouped data is simply the midpoint of the median class (e.g., 2500 for class 2000‑3000).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently compute mean, median, and mode for ungrouped and grouped datasets using direct, assumed‑mean, and step‑deviation methods; correctly identify the median class and modal class; and justify the choice of method based on data size and class‑interval structure.",
+     "self_check": true
     }
    ]
   }

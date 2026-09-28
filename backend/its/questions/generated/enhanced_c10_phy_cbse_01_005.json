@@ -34,6 +34,31 @@
      "q": "A copper wire has resistance 10 Ω. It is stretched to double its length (volume constant). Find the new resistance.",
      "a": "When stretched to double length with volume constant: L' = 2L, so A' = A/2 (volume = AL = A'L' is constant). New resistance R' = ρL'/A' = ρ(2L)/(A/2) = 4ρL/A = 4R = 40 Ω. A wrong answer (e.g., R' = 20 Ω) shows the student did not account for the area change when the wire is stretched.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ (ρ) is an intrinsic property of a material that measures how strongly it opposes the flow of electric current.",
+     "a": "Resistivity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two ______ wires: one thick and short, one thin and long.",
+     "a": "copper",
+     "self_check": true
+    },
+    {
+     "q": "What is Resistivity (ρ)? State the definition given in this lesson.",
+     "a": "Resistivity (ρ) is an intrinsic property of a material that measures how strongly it opposes the flow of electric current.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Resistivity (ρ)?",
+     "a": "Students often confuse resistance and resistivity.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can define resistivity, state the formula ρ = RA/L with correct units (Ω·m), distinguish between resistance (depends on dimensions) and resistivity (material property), explain how resistivity varies with temperature for conductors, semiconductors, and insulators, and calculate resistivity from given R, A, and L values.",
+     "self_check": true
     }
    ]
   }

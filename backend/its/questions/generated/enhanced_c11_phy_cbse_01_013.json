@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using only a metre scale (LC 1 mm), a vernier caliper (LC 0.01 cm), and a screw gauge (LC 0.001 cm) to demonstrate the difference between accuracy and precision to a Class 9 student. Specify the object to measure, the steps, and what you expect them to observe.",
      "a": "Object: Diameter of a steel ball bearing (~1 cm). Steps: (1) Each student measures diameter with all three instruments, recording 5 readings each. (2) Compute mean and spread for each instrument. (3) Compare means to a highly accurate reference value (e.g., manufacturer's specification). Expected observation: Metre scale readings vary widely (low precision, low accuracy). Vernier caliper readings cluster tightly (high precision) but mean may be off due to zero error (accuracy depends on calibration). Screw gauge readings cluster very tightly (highest precision) and if zero-corrected, mean matches reference (high accuracy). A poor design uses only one instrument or doesn't include a reference value, so the student cannot separate the two concepts.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Accuracy is the degree of ______ of a measured value to the true (accepted standard) value of the physical quantity being measured.",
+     "a": "closeness",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in your school physics lab ______ the diameter of a thin copper wire.",
+     "a": "measuring",
+     "self_check": true
+    },
+    {
+     "q": "What is Accuracy? State the definition given in this lesson.",
+     "a": "Accuracy is the degree of closeness of a measured value to the true (accepted standard) value of the physical quantity being measured.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Accuracy?",
+     "a": "Students believe \"high precision implies high accuracy\" and vice versa.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish accuracy from precision using a target diagram or numerical data, calculate the least count of vernier calipers and screw gauge from their specifications, and explain why an instrument with a smaller least count is not necessarily more accurate if it has a zero error.",
+     "self_check": true
     }
    ]
   }

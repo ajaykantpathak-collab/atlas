@@ -34,6 +34,36 @@
      "q": "Design a simple classroom activity using coloured balls (or clay) and sticks to model the formation of single, double, and triple covalent bonds in carbon compounds. Your model must show: (a) the number of valence electrons of carbon, (b) how sharing changes with bond order, (c) that carbon always forms four bonds. Write the steps and the key observation students should record.",
      "a": "Expected answer: Use 4 black balls (carbon valence electrons) and 1 white ball per hydrogen electron. For CH₄: 4 black + 4 white → form 4 pairs (C-H bonds). For C₂H₆: two sets of 4 black each; share 1 black-black pair (C-C) + 3 black-white pairs per C (C-H). For C₂H₄: share 2 black-black pairs (C=C) + 2 black-white pairs per C. For C₂H₂: share 3 black-black pairs (C≡C) + 1 black-white pair per C. Key observation: In every model, each carbon centre is connected to exactly 4 sticks (bonds). A poor answer that shows carbon with 3 or 5 sticks reveals the student hasn't internalized tetravalency. If they use different colours for σ and π bonds, that's advanced but not required at this level.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Covalent bonding in carbon compounds is the chemical bond formed when carbon atoms share one or more pairs of valence electrons with other carbon atoms or atoms of other non-metals (like H, O, N, Cl) to achieve a stable noble gas electron ______ (octet or duplet), resulting in the formation of discrete molecules with definite shapes.",
+     "a": "configuration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now we focus on carbon — which has 4 ______ electrons and cannot easily lose or gain 4 electrons.",
+     "a": "valence",
+     "self_check": true
+    },
+    {
+     "q": "What is Covalent bonding in carbon compounds? State the definition given in this lesson.",
+     "a": "Covalent bonding in carbon compounds is the chemical bond formed when carbon atoms share one or more pairs of valence electrons with other carbon atoms or atoms of other non-metals (like H, O, N, Cl) to achieve a stable noble gas electron configuration (octet or duplet), resulting in the formation of discrete molecules with definite.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Emphasize: each shared pair = one covalent bond; carbon always forms ______ bonds total.",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Covalent bonding in carbon compounds?",
+     "a": "Students often draw electron dot structures where carbon has fewer or more than 4 bonds (e.g., in CH₃Cl they draw C with 3 bonds to H and 1 to Cl but forget Cl has 3 lone pairs; in CO₂ they draw C with 2 single bonds to O and 2 lone pairs on C, giving carbon 10 electrons).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can draw accurate electron dot structures (Lewis structures) for simple carbon compounds (CH₄, C₂H₆, C₂H₄, C₂H₂, CH₃OH, CH₃COOH) showing all shared pairs and lone pairs, and can explain why carbon forms four covalent bonds using its electronic configuration (2,4).",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_05_001",
+   "title": "c12_leg_cbse_05_001",
+   "questions": [
+    {
+     "q": "Define \"immovable property\" as per Section 3 of the Transfer of Property Act, 1882 read with the General Clauses Act, 1897. What three categories are expressly excluded?",
+     "a": "Immovable property includes land, benefits arising out of land, and things attached to the earth or permanently fastened to anything attached to the earth. It expressly excludes: (1) standing timber, (2) growing crops, (3) grass. A wrong answer (e.g., including \"trees\" without qualification) reveals the student has not grasped the *intention test* from *Shantabai* — trees are immovable if meant to enjoy fruits (further sustenance from soil), but movable if meant for timber (cutting down).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a verbal agreement to sell a house worth ₹10 lakhs is legally ineffective to transfer ownership, even if both parties are honest and the buyer has taken possession.",
+     "a": "Under Section 54 TPA, sale of immovable property of value ≥₹100 requires a *registered instrument*. Section 17 of the Registration Act, 1908 makes registration compulsory for such instruments. Possession alone (part performance) does not confer title — it only creates an equitable defence under Section 53A TPA (if conditions met), not ownership. A wrong answer citing \"possession = ownership\" reveals confusion between *possession* (fact) and *title* (legal right), and ignorance of the statutory formalities that override oral agreements for immovable property.",
+     "self_check": true
+    },
+    {
+     "q": "A enters into a contract to sell his agricultural land to B. The contract states: \"B shall pay ₹20 lakhs. If B fails to pay by 31st March, the contract stands cancelled and A keeps the advance of ₹2 lakhs.\" B pays ₹2 lakhs but fails to pay the balance by 31st March. A refuses to refund the advance. B sues for refund. Decide with reference to the nature of the advance and the Doctrine of Election.",
+     "a": "The advance is *earnest money* (part payment), not a forfeiture clause (penalty). Under Section 74 ICA (read with *Maula Bux v. Union of India*), only reasonable compensation for breach is recoverable, not a penalty. A cannot retain the entire ₹2 lakhs unless actual loss is proven. Doctrine of Election (Section 35 TPA) does not apply here — it applies when a *single instrument* confers a benefit and imposes a burden (e.g., gift of house + liability to pay tax). This is a bilateral contract, not a unilateral instrument. A wrong answer applying Doctrine of Election reveals the student conflates *contractual forfeiture* with *instrument-based election*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"Lease\" and \"License\" in respect of immovable property. Why does the distinction matter for the transferee's rights against third parties?",
+     "a": "Lease (Section 105 TPA): Transfer of *right to enjoy* immovable property for a certain time/price; creates an *interest in land* (heritable, transferable unless restricted); transferee (lessee) gets *exclusive possession* and can sue third parties for trespass. License (Section 52 Indian Easements Act): Bare *permission* to do something on land; *no interest in land* created; personal, non-transferable, revocable; licensee has no exclusive possession and cannot sue third parties. The distinction matters because a lessee's rights survive transfer of the property by the lessor (Section 109 TPA — \"lease binds purchaser\"); a licensee's rights vanish on transfer. A wrong answer treating them as interchangeable reveals failure to grasp *proprietary vs. personal right* — the core of property law.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The Doctrine of Lis Pendens (Section 52 TPA) renders a pendente lite transfer void ab initio.\" Support your answer with the Supreme Court's interpretation in *Hardev Singh v. Gurmail Singh*.",
+     "a": "The statement is **false**. Section 52 does *not* declare the transfer void or illegal. It makes the *pendente lite purchaser bound by the decree* in the pending suit. In *Hardev Singh v. Gurmail Singh*, the SC held: \"Section 52 does not declare a pendente lite transfer by a party to the suit as void or illegal, but only makes the pendente lite purchaser bound by the decision of the pending litigation.\" The transfer is valid inter se parties but *subject to the outcome* of the suit. A wrong answer claiming \"void ab initio\" reveals confusion with *fraudulent transfer* (Section 53 TPA) or *ultra vires* acts — the student has not read the provision's actual wording or the binding precedent.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a hypothetical fact pattern (150 words) where *both* the Doctrine of Election and the Doctrine of Lis Pendens apply simultaneously. Identify the conflicting claims and the court's likely resolution.",
+     "a": "*Fact pattern:* A owns House X (worth ₹1 cr) and Land Y (worth ₹50 lakhs). A executes a *single registered gift deed* gifting both to B. The deed states: \"B shall pay the outstanding municipal tax of ₹10 lakhs on House X.\" Simultaneously, A has a pending suit with C over title to Land Y (C claims adverse possession). B accepts House X but refuses to pay the tax, and separately, C sells Land Y to D during the pendency of the suit. *Conflicts:* (1) Election: B wants benefit (House X) without burden (tax). (2) Lis Pendens: C's sale to D during pending suit over Land Y. *Resolution:* (1) Election: B must either accept both properties + tax liability, or reject the entire deed (*Cooper v. Cooper* — \"quod approbo non reprobo\"). (2) Lis Pendens: D's purchase is subject to the suit's outcome; if C loses, D gets nothing (*Hardev Singh*). A poor answer separates the doctrines mechanically without showing how a *single instrument* and *pending litigation* intersect in one transaction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,593 @@
+{
+ "catalog": "catalog_class12_accountancy_leac104.json",
+ "concepts": [
+  {
+   "id": "leac.104.4.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "credit_side_total = 2.7",
+      "debit_side_total = 9.9",
+      "realisation_result = credit_side_total - debit_side_total"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "credit_side_total = 45",
+      "debit_side_total = 107",
+      "realisation_result = credit_side_total - debit_side_total"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "credit_side_total = 103",
+      "debit_side_total = 112",
+      "realisation_result = credit_side_total - debit_side_total"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "credit_side_total = 71",
+      "debit_side_total = 78",
+      "realisation_result = credit_side_total - debit_side_total"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "credit_side_total = 62",
+      "debit_side_total = 109",
+      "realisation_result = credit_side_total - debit_side_total"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "credit_side_total = 6.3",
+      "debit_side_total = 106",
+      "realisation_result = credit_side_total - debit_side_total"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "realisation_result = credit_side_total - debit_side_total"
+   ]
+  },
+  {
+   "id": "leac.104.4.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "credits_total = 100",
+      "debits_total = 82",
+      "realisation_result = credits_total - debits_total"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "credits_total = 102",
+      "debits_total = 84",
+      "realisation_result = credits_total - debits_total"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "credits_total = 115",
+      "debits_total = 29",
+      "realisation_result = credits_total - debits_total"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "credits_total = 35",
+      "debits_total = 21",
+      "realisation_result = credits_total - debits_total"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "credits_total = 75",
+      "debits_total = 98",
+      "realisation_result = credits_total - debits_total"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "credits_total = 92",
+      "debits_total = 110",
+      "realisation_result = credits_total - debits_total"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "realisation_result = credits_total - debits_total"
+   ]
+  },
+  {
+   "id": "leac.104.4.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "realisation_result = 3.8",
+      "profit_share_fraction = 9.4",
+      "partner_share = realisation_result * profit_share_fraction"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "realisation_result = 0.2",
+      "profit_share_fraction = 88",
+      "partner_share = realisation_result * profit_share_fraction"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "realisation_result = 9.4",
+      "profit_share_fraction = 118",
+      "partner_share = realisation_result * profit_share_fraction"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "realisation_result = 19.5",
+      "profit_share_fraction = 11.2",
+      "partner_share = realisation_result * profit_share_fraction"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "realisation_result = 17.9",
+      "profit_share_fraction = 118",
+      "partner_share = realisation_result * profit_share_fraction"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "realisation_result = 14.9",
+      "profit_share_fraction = 35",
+      "partner_share = realisation_result * profit_share_fraction"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "partner_share = realisation_result * profit_share_fraction"
+   ]
+  },
+  {
+   "id": "leac.104.4.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "book_value = 30",
+      "realisation_percent = 8.3",
+      "realised_amount = book_value * realisation_percent / 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "book_value = 56",
+      "realisation_percent = 18.8",
+      "realised_amount = book_value * realisation_percent / 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "book_value = 6.5",
+      "realisation_percent = 2.3",
+      "realised_amount = book_value * realisation_percent / 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "book_value = 90",
+      "realisation_percent = 19.2",
+      "realised_amount = book_value * realisation_percent / 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "book_value = 118",
+      "realisation_percent = 1.2",
+      "realised_amount = book_value * realisation_percent / 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "book_value = 16",
+      "realisation_percent = 17.7",
+      "realised_amount = book_value * realisation_percent / 100"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "realised_amount = book_value * realisation_percent / 100"
+   ]
+  },
+  {
+   "id": "leac.104.4.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "book_value = 106",
+      "portion_fraction = 1.9",
+      "discount_percent = 28",
+      "takeover_value = book_value * portion_fraction * (1 - discount_percent / 100)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "book_value = 51",
+      "portion_fraction = 10.1",
+      "discount_percent = 107",
+      "takeover_value = book_value * portion_fraction * (1 - discount_percent / 100)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "book_value = 80",
+      "portion_fraction = 4.9",
+      "discount_percent = 2.7",
+      "takeover_value = book_value * portion_fraction * (1 - discount_percent / 100)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "book_value = 57",
+      "portion_fraction = 14.6",
+      "discount_percent = 27",
+      "takeover_value = book_value * portion_fraction * (1 - discount_percent / 100)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "book_value = 100",
+      "portion_fraction = 9.5",
+      "discount_percent = 18.6",
+      "takeover_value = book_value * portion_fraction * (1 - discount_percent / 100)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "book_value = 82",
+      "portion_fraction = 13.5",
+      "discount_percent = 69",
+      "takeover_value = book_value * portion_fraction * (1 - discount_percent / 100)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "takeover_value = book_value * portion_fraction * (1 - discount_percent / 100)"
+   ]
+  },
+  {
+   "id": "leac.104.4.6",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "liability_amount = 18.1",
+      "discount_percent = 91",
+      "payment_amount = liability_amount * (1 - discount_percent / 100)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "liability_amount = 82",
+      "discount_percent = 79",
+      "payment_amount = liability_amount * (1 - discount_percent / 100)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "liability_amount = 45",
+      "discount_percent = 34",
+      "payment_amount = liability_amount * (1 - discount_percent / 100)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "liability_amount = 81",
+      "discount_percent = 93",
+      "payment_amount = liability_amount * (1 - discount_percent / 100)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "liability_amount = 32",
+      "discount_percent = 85",
+      "payment_amount = liability_amount * (1 - discount_percent / 100)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "liability_amount = 38",
+      "discount_percent = 10.3",
+      "payment_amount = liability_amount * (1 - discount_percent / 100)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "payment_amount = liability_amount * (1 - discount_percent / 100)"
+   ]
+  },
+  {
+   "id": "leac.104.3.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "assets_available = 45",
+      "outside_claims = 68",
+      "partner_loans = 88",
+      "capital_balances = 24",
+      "residue_for_partners = assets_available - outside_claims - partner_loans - capital_balances"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "assets_available = 76",
+      "outside_claims = 183",
+      "partner_loans = 34",
+      "capital_balances = 49",
+      "residue_for_partners = assets_available - outside_claims - partner_loans - capital_balances"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "assets_available = 73",
+      "outside_claims = 174",
+      "partner_loans = 61",
+      "capital_balances = 23",
+      "residue_for_partners = assets_available - outside_claims - partner_loans - capital_balances"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "assets_available = 21",
+      "outside_claims = 38",
+      "partner_loans = 97",
+      "capital_balances = 75",
+      "residue_for_partners = assets_available - outside_claims - partner_loans - capital_balances"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "assets_available = 73",
+      "outside_claims = 212",
+      "partner_loans = 30",
+      "capital_balances = 32",
+      "residue_for_partners = assets_available - outside_claims - partner_loans - capital_balances"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "assets_available = 57",
+      "outside_claims = 334",
+      "partner_loans = 69",
+      "capital_balances = 72",
+      "residue_for_partners = assets_available - outside_claims - partner_loans - capital_balances"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "residue_for_partners = assets_available - outside_claims - partner_loans - capital_balances"
+   ]
+  },
+  {
+   "id": "leac.104.3.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "deficiency_amount = 36",
+      "capital_fraction = 88",
+      "loss_share = deficiency_amount * capital_fraction"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "deficiency_amount = 24",
+      "capital_fraction = 86",
+      "loss_share = deficiency_amount * capital_fraction"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "deficiency_amount = 98",
+      "capital_fraction = 37",
+      "loss_share = deficiency_amount * capital_fraction"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "deficiency_amount = 44",
+      "capital_fraction = 46",
+      "loss_share = deficiency_amount * capital_fraction"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "deficiency_amount = 90",
+      "capital_fraction = 3.8",
+      "loss_share = deficiency_amount * capital_fraction"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "deficiency_amount = 74",
+      "capital_fraction = 12.2",
+      "loss_share = deficiency_amount * capital_fraction"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "loss_share = deficiency_amount * capital_fraction"
+   ]
+  },
+  {
+   "id": "leac.104.4.8",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "accumulated_amount = 81",
+      "profit_share_fraction = 9.6",
+      "partner_share = accumulated_amount * profit_share_fraction"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "accumulated_amount = 15.6",
+      "profit_share_fraction = 5.7",
+      "partner_share = accumulated_amount * profit_share_fraction"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "accumulated_amount = 31",
+      "profit_share_fraction = 42",
+      "partner_share = accumulated_amount * profit_share_fraction"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "accumulated_amount = 53",
+      "profit_share_fraction = 96",
+      "partner_share = accumulated_amount * profit_share_fraction"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "accumulated_amount = 77",
+      "profit_share_fraction = 9.4",
+      "partner_share = accumulated_amount * profit_share_fraction"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "accumulated_amount = 47",
+      "profit_share_fraction = 26",
+      "partner_share = accumulated_amount * profit_share_fraction"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "partner_share = accumulated_amount * profit_share_fraction"
+   ]
+  },
+  {
+   "id": "leac.104.4.10",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "assets_sold_total = 2.4",
+      "commission_rate = 7.7",
+      "commission_amount = assets_sold_total * commission_rate / 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "assets_sold_total = 46",
+      "commission_rate = 12.3",
+      "commission_amount = assets_sold_total * commission_rate / 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "assets_sold_total = 5.5",
+      "commission_rate = 6.9",
+      "commission_amount = assets_sold_total * commission_rate / 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "assets_sold_total = 98",
+      "commission_rate = 7.3",
+      "commission_amount = assets_sold_total * commission_rate / 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "assets_sold_total = 116",
+      "commission_rate = 8.3",
+      "commission_amount = assets_sold_total * commission_rate / 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "assets_sold_total = 62",
+      "commission_rate = 11.4",
+      "commission_amount = assets_sold_total * commission_rate / 100"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "commission_amount = assets_sold_total * commission_rate / 100"
+   ]
+  }
+ ]
+}

@@ -34,6 +34,26 @@
      "q": "Construct a complex number z such that its conjugate z̅ lies in the second quadrant, z lies in the third quadrant, and |z| = 5. Explain your construction.",
      "a": "If z is in QIII, z = x + iy with x < 0, y < 0. Then z̅ = x - iy has x < 0, -y > 0 → QII. Choose x = -3, y = -4 (satisfies x² + y² = 25). So z = -3 - 4i works. A poor answer might give z = 3 + 4i (QI, conjugate in QIV) or fail to satisfy |z| = 5. This reveals the student doesn't understand how conjugation reflects across the real axis (y → -y) and how quadrant signs change.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Argand diagram is a geometric ______ of complex numbers on a two-dimensional Cartesian plane where the horizontal axis represents the real part and the vertical axis represents the imaginary part.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a navigation system for a drone that moves in a 2D plane using complex ______: moving 3 km east and 4 km north is represented as 3 + 4i.",
+     "a": "coordinates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How would you visualise the drone's position, its distance from base, and the effect of rotating its path by ______°?",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can accurately plot any complex number on the Argand plane, interpret geometric transformations (addition as translation, multiplication as rotation-scaling, conjugation as reflection), solve locus problems involving |z - z₁| = k, arg(z - z₁) = θ, and |z - z₁| = |z - z₂|, and derive geometric properties such as the.",
+     "self_check": true
     }
    ]
   }

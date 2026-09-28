@@ -59,7 +59,7 @@
     "expand a decimal number using negative exponents",
     "find the number from the expanded form"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -76,7 +76,16 @@
      "action": "to rebuild the number",
      "explain": "Evaluate each term and add"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "line up and combine the decimal values",
+     "explain": "line up and combine the decimal values: val = 1 + 5 / 10 + 5 / 100 gives 1.55",
+     "compute": "val = 1 + 5 / 10 + 5 / 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c8m10.3.1",
@@ -205,7 +214,7 @@
     "charge of an electron in standard form",
     "1 micron is equal to how many metres in standard form"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -222,7 +231,16 @@
      "action": "write in standard form",
      "explain": "number = d.ddd x 10^-n"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the exponent law to the given powers",
+     "explain": "apply the exponent law to the given powers: val = 3 ** (3 + 3) gives 729",
+     "compute": "val = 3 ** (3 + 3)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c8m10.4.2",

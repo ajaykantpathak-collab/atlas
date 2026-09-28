@@ -34,6 +34,36 @@
      "q": "Design a Lewis structure for the hypothetical molecule X₃ (linear, central atom X) that obeys the octet rule and has formal charges of +1 on the central atom and –1 on each terminal atom. State the required number of valence electrons for atom X and draw the structure with lone pairs.",
      "a": "Let X have V valence electrons. Central X: bonded to two terminal X atoms. To have FC = +1: V – lone-pair e⁻ – ½(bonding e⁻) = +1. Terminal X: FC = –1 = V – lone-pair e⁻ – ½(bonding e⁻). With single bonds (2 bonding e⁻ each) and octets: terminal X each have 3 lone pairs (6 e⁻) → FC = V – 6 – 1 = –1 → V = 6. Central X: two single bonds (4 bonding e⁻) and 1 lone pair (2 e⁻) → FC = 6 – 2 – 2 = +2 (not +1). Try double bonds: each terminal X double bonded (4 bonding e⁻) and 2 lone pairs (4 e⁻) → FC = 6 – 4 – 2 = 0. Not –1. Try central X with one single and one double bond? Not symmetric. The only symmetric linear X₃ with FC +1 central and –1 terminals is if X has 5 valence electrons (like N). Then central N: two double bonds (8 bonding e⁻), 0 lone pairs → FC = 5 – 0 – 4 = +1. Terminal N: one double bond (4 bonding e⁻), 2 lone pairs (4 e⁻) → FC = 5 – 4 – 2 = –1. Structure: :N=N=N: with charges +1 on central, –1 on each terminal. Total valence electrons = 5×3 + 1 (for –1 charge?) Wait, ion charge? The problem says molecule X₃, neutral. Sum of FC = +1 –1 –1 = –1, so it must be an ion X₃⁻. A good answer identifies the valence electron count and draws the structure with correct lone pairs and charges. A poor answer ignores the sum-of-charges constraint or miscounts electrons.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Formal charge is the ______ charge assigned to an atom in a Lewis structure, calculated as the difference between the number of valence electrons in the free neutral atom and the number of electrons assigned to that atom in the Lewis structure (counting all lone-pair electrons and half of the shared bonding electrons).",
+     "a": "hypothetical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at the ozone (O₃) molecule: its Lewis ______ shows one double bond and one single bond, yet experiments reveal both O–O bonds are identical in length and strength.",
+     "a": "structure",
+     "self_check": true
+    },
+    {
+     "q": "What is Formal charge? State the definition given in this lesson.",
+     "a": "Formal charge is the hypothetical charge assigned to an atom in a Lewis structure, calculated as the difference between the number of valence electrons in the free neutral atom and the number of electrons assigned to that atom in the Lewis structure (counting all lone-pair electrons and half of the shared bonding electrons).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Count lone-pair electrons on each atom and shared electrons in each bond (each bond contributes ______ shared electrons).",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Formal charge?",
+     "a": "Students often treat formal charge as the actual charge on an atom (like oxidation state) and believe it represents real electron density.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly calculate the formal charge on every atom in a given Lewis structure (including polyatomic ions) using the standard formula, and can use formal charge values to identify the most stable Lewis structure among several possibilities (e.g., the structure with formal charges closest to zero and negative formal.",
+     "self_check": true
     }
    ]
   }

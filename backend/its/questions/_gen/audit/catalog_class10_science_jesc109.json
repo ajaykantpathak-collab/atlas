@@ -1,0 +1,113 @@
+{
+ "catalog": "catalog_class10_science_jesc109.json",
+ "concepts": [
+  {
+   "id": "jesc.109.9.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "image_height = 332",
+      "object_height = 82",
+      "magnification = image_height / object_height"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "image_height = 2.9",
+      "object_height = 28",
+      "magnification = image_height / object_height"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "image_height = 257",
+      "object_height = 44",
+      "magnification = image_height / object_height"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "image_height = 353",
+      "object_height = 89",
+      "magnification = image_height / object_height"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "image_height = 110",
+      "object_height = 77",
+      "magnification = image_height / object_height"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "image_height = 482",
+      "object_height = 7.2",
+      "magnification = image_height / object_height"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "magnification = image_height / object_height"
+   ]
+  },
+  {
+   "id": "jesc.109.9.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "f = 74",
+      "power = 1 / f"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "f = 76",
+      "power = 1 / f"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "f = 98",
+      "power = 1 / f"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "f = 16.2",
+      "power = 1 / f"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "f = 51",
+      "power = 1 / f"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "f = 33",
+      "power = 1 / f"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "power = 1 / f"
+   ]
+  }
+ ]
+}

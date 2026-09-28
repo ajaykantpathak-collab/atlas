@@ -34,6 +34,26 @@
      "q": "Design a hypothetical 10-residue peptide sequence that would have: (a) GRAVY < -0.5 (hydrophilic), (b) aliphatic index < 50, and (c) instability index < 40. Justify your residue choices.",
      "a": "Example sequence: Asp-Glu-Lys-Arg-Asn-Gln-Ser-Thr-Pro-Gly (DEKRNSQTPG). Rationale: Charged residues (D,E,K,R) and polar uncharged (N,Q,S,T) give negative hydropathy values lowering GRAVY; absence of A,V,I,L keeps aliphatic index low; Pro and Gly are known stabilizing residues. A poor answer (using hydrophobic residues or ignoring instability index rules) reveals inability to integrate multiple parameter constraints simultaneously.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Primary structure analysis of proteins involves computational determination of physico-chemical properties from the amino acid sequence, including isoelectric point (pI), aliphatic index, instability index, and grand average hydropathy (GRAVY), which collectively predict solubility, thermal stability, in vitro stability, and ______ of the protein.",
+     "a": "hydrophobicity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just isolated a novel enzyme from a ______ bacterium found in a hot spring in Ladakh.",
+     "a": "thermophilic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You have its amino acid sequence from sequencing, but no ______D structure.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) interpret ProtParam output to classify a protein as acidic/basic, stable/unstable, and hydrophilic/hydrophobic; (2) calculate GRAVY value from a given amino acid sequence and hydropathy scale; (3) justify buffer pH selection for isoelectric focusing based on computed pI.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a simplified symbol set for a 1:25,000 scale toposheet of an urban fringe area (e.g., Gurugram-Faridabad border) that must represent: (a) multi-storey apartments, (b) industrial warehouses, (c) metro rail viaduct, (d) sewage treatment plant, (e) reclaimed landfill park. Explain how your symbols maintain SOI visual logic while adding new feature classes.",
      "a": "Good answer: (a) Tall rectangle with horizontal bars (floors) — extends building symbol vertically; (b) Large rectangle with diagonal hatching — industrial pattern distinct from residential; (c) Double red line with piers (∏∏∏) — adapts railway symbol for elevated structure; (d) Circular tank symbol with 'STP' label — uses water tank logic; (e) Green stipple with 'LF' — adapts vegetation symbol for reclaimed land. All use existing colour codes (black=cultural, red=transport, blue=water, green=vegetation) and visual variables (shape, texture, height). Poor answer uses arbitrary colours/shapes breaking SOI convention, showing failure to understand systematic symbol design principles.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Standard symbols (conventional signs) on Survey of India topographical maps are ______ standardized graphical representations used to depict cultural (human-made) and natural features at 1:50,000 and 1:25,000 scales, enabling uniform interpretation of terrain, settlement, transport, vegetation, and hydrological information without ambiguity across all Indian toposheets.",
+     "a": "internationally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are planning a trek in the Western Ghats using a 1:50,000 ______ of Kodagu district.",
+     "a": "toposheet",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly identify and interpret 30+ SOI conventional signs on a 1:50,000 toposheet, distinguish between perennial and non-perennial water features, classify settlement patterns by symbol morphology, and explain the functional significance of transport symbols in regional connectivity analysis.",
+     "self_check": true
     }
    ]
   }

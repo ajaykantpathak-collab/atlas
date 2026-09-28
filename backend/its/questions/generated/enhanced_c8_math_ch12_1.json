@@ -34,6 +34,26 @@
      "q": "Create a data set of five whole numbers between 1 and 20 (inclusive) such that the mean is 12 and the balancing property is satisfied. Show the distances on both sides.",
      "a": "Example: 8, 10, 12, 14, 16. Mean = 12. Below: 8 (4), 10 (2) → sum 6. Above: 14 (2), 16 (4) → sum 6. Any valid set with mean 12 and equal sum of distances works. A poor answer might give a set with mean 12 but unequal distance sums (e.g., 10, 11, 12, 13, 16 gives below sum 3, above sum 5), revealing the student does not truly grasp that the balancing property is a necessary condition for the mean.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The mean of a data set is the unique value where the sum of the signed deviations of all data points from it equals zero; ______, the total distance of points below the mean equals the total distance of points above the mean.",
+     "a": "equivalently",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and four ______ have different numbers of marbles: Ravi has 2, Priya has 4, Amit has 6, Sita has 8, and you have 10.",
+     "a": "friends",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can verify that the mean balances a data set by computing the sum of deviations on each side and showing they are equal.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you and four friends have different numbers of marbles: Ravi has 2, Priya has 4, Amit has 6, Sita has 8, and you have 10.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

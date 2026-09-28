@@ -34,6 +34,31 @@
      "q": "Design a map annotation exercise for a Class 11 practical exam: provide a 10 cm × 10 cm topo sheet extract (1:50,000) showing a **composite drainage pattern** where the upper catchment is radial on a conical hill, the middle reach transitions to trellis across a folded ridge belt, and the lower reach becomes dendritic on an alluvial plain. Specify the **minimum contour interval**, **key symbols to include**, and **three structured questions** that test pattern identification, structural inference, and transition zone analysis.",
      "a": "**Map specs:** Contour interval = 20 m (steep upper), 10 m (gentle lower); include: perennial/non-perennial streams, spot heights, contour labels, rock outcrop symbol, spring, waterfall. **Q1:** \"Identify the three drainage patterns in zones X, Y, Z and mark the transition boundaries with dashed lines.\" **Q2:** \"For each zone, name the dominant structural control (lithology/structure) and give one map evidence.\" **Q3:** \"Explain why the radial-to-trellis transition occurs at the 600 m contour, referencing the change in contour pattern and stream junction angles.\" A poor answer that lists patterns without map evidence or treats transitions as abrupt rather than gradational reveals inability to **synthesise pattern, process, and structure across a landscape continuum** — the hallmark of senior secondary geographical thinking.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Drainage pattern refers to the geometric arrangement of streams, rivers, and lakes in a drainage basin as depicted on a ______ map, which reflects the underlying geological structure, rock type, and relief.",
+     "a": "topographical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are trekking in the Western Ghats near Mahabaleshwar and notice how every small stream splits into smaller rivulets like the branches of a banyan tree — that is a ______ pattern forming on the uniform basalt plateau.",
+     "a": "dendritic",
+     "self_check": true
+    },
+    {
+     "q": "What is Drainage pattern? State the definition given in this lesson.",
+     "a": "Drainage pattern refers to the geometric arrangement of streams, rivers, and lakes in a drainage basin as depicted on a topographical map, which reflects the underlying geological structure, rock type, and relief.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Drainage pattern?",
+     "a": "Students often believe drainage pattern is determined solely by slope steepness (e.g., \"steep slopes = radial, gentle slopes = dendritic\") and ignore lithological homogeneity vs. heterogeneity and structural grain (folds, faults, joints).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently examine a Survey of India 1:50,000 topographical sheet extract, trace the drainage network using blue-line symbols and contour crossings, classify the pattern as dendritic, trellis, radial, or a composite type, and justify the classification by linking stream geometry to specific structural controls.",
+     "self_check": true
     }
    ]
   }

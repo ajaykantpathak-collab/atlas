@@ -34,6 +34,31 @@
      "q": "Design a simplified \"last-mile\" monitoring mechanism for a Fair Price Shop (FPS) in a tribal block of Odisha that addresses both leakage (diversion) and exclusion (eligible households not getting rations). Specify two technological and two social accountability tools.",
      "a": "Technological: (1) e-PoS with biometric (Aadhaar) authentication + SMS alert to beneficiary on dispensing; (2) GPS-tagged FPS location + real-time stock visibility on state portal (like \"Annavitran\" or \"ePDS\" dashboards). Social: (1) Vigilance Committee (mandated under NFSA Sec 29) with 50% women members, meeting monthly, recording minutes; (2) Social audit by Gram Sabha — public reading of stock register, distribution list, and beneficiary testimonials, with findings sent to District Grievance Redressal Officer. A poor answer lists only \"CCTV cameras\" or \"more inspections\" — these are top-down, not empowering community monitoring which NFSA envisions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Food security in India refers to the state where all citizens have physical, social, and economic access to sufficient, safe, and nutritious food at all times; the Public Distribution System (PDS) is the government-run network of fair price shops that distributes subsidized food grains (wheat, rice, coarse cereals) and essential commodities to identified ______, primarily through the Targeted PDS (TPDS) and the National Food Security Act (NFSA) 2013, supported by buffer stocks maintained by the Food Corporation of India (FCI).",
+     "a": "beneficiaries",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine standing outside a Fair Price Shop in your village or city early morning: you see ration cards being swiped on an e-PoS machine, biometric ______, and families receiving 35 kg of rice/wheat at ₹3/₹2 per kg.",
+     "a": "authentication",
+     "self_check": true
+    },
+    {
+     "q": "What is Food security in India? State the definition given in this lesson.",
+     "a": "Food security in India refers to the state where all citizens have physical, social, and economic access to sufficient, safe, and nutritious food at all times; the Public Distribution System (PDS) is the government-run network of fair price shops that distributes subsidized food grains (wheat, rice, coarse cereals) and essential.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Food security in India refers to the state where all citizens have physical, social, and economic access to sufficient, safe, and nutritious food at all times; the Public Distribution System (PDS) is the government-run network of fair price shops that distributes subsidized food grains (wheat, rice, coarse cereals) and essential commodities to identified beneficiaries, primarily through the Targeted PDS (TPDS) and the National Food Security Act (NFSA) ______, supported by buffer stocks maintained by the Food Corporation of India (FCI).",
+     "a": "2013",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the three dimensions of food security (availability, access, utilization), describe the evolution from universal PDS to TPDS to NFSA, calculate the entitlement per household under NFSA categories (AAY, PHH), and analyze how buffer stock norms, procurement prices (MSP), and issue prices interact to affect fiscal.",
+     "self_check": true
     }
    ]
   }

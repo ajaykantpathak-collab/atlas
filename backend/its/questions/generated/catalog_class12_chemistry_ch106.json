@@ -1,0 +1,99 @@
+{
+ "catalog": "catalog_class12_chemistry_ch106.json",
+ "concepts": [
+  {
+   "id": "jech.6.6",
+   "title": "Thermodynamic Principles of Metallurgy: Ellingham Diagram",
+   "converted_to_compute": true,
+   "formula": "deltaG = deltaH - T*deltaS",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "deltaG = deltaH - T*deltaS",
+     "compute": "deltaG = deltaH - T*deltaS"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Thermodynamic Principles of Metallurgy: Ellingham Diagram: given deltaH = 26, T = 39, deltaS = 21, find deltaG.",
+     "a": "-793",
+     "self_check": false
+    },
+    {
+     "q": "For Thermodynamic Principles of Metallurgy: Ellingham Diagram: given deltaH = 70, T = 42, deltaS = 76, find deltaG.",
+     "a": "-3122",
+     "self_check": false
+    },
+    {
+     "q": "For Thermodynamic Principles of Metallurgy: Ellingham Diagram: given deltaH = 9.4, T = 71, deltaS = 5.1, find deltaG.",
+     "a": "-352.7",
+     "self_check": false
+    },
+    {
+     "q": "For Thermodynamic Principles of Metallurgy: Ellingham Diagram: given deltaH = 72, T = 83, deltaS = 95, find deltaG.",
+     "a": "-7813",
+     "self_check": false
+    },
+    {
+     "q": "For Thermodynamic Principles of Metallurgy: Ellingham Diagram: given deltaH = 33, T = 76, deltaS = 6.8, find deltaG.",
+     "a": "-483.8",
+     "self_check": false
+    },
+    {
+     "q": "For Thermodynamic Principles of Metallurgy: Ellingham Diagram: given deltaH = 35, T = 27, deltaS = 91, find deltaG.",
+     "a": "-2422",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jech.6.7",
+   "title": "Electrochemical Principles of Metallurgy",
+   "converted_to_compute": true,
+   "formula": "deltaG = -nFE",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "deltaG = -nFE",
+     "compute": "deltaG = -nFE"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Electrochemical Principles of Metallurgy: given nFE = 25, find deltaG.",
+     "a": "-25",
+     "self_check": false
+    },
+    {
+     "q": "For Electrochemical Principles of Metallurgy: given nFE = 77, find deltaG.",
+     "a": "-77",
+     "self_check": false
+    },
+    {
+     "q": "For Electrochemical Principles of Metallurgy: given nFE = 70, find deltaG.",
+     "a": "-70",
+     "self_check": false
+    },
+    {
+     "q": "For Electrochemical Principles of Metallurgy: given nFE = 76, find deltaG.",
+     "a": "-76",
+     "self_check": false
+    },
+    {
+     "q": "For Electrochemical Principles of Metallurgy: given nFE = 46, find deltaG.",
+     "a": "-46",
+     "self_check": false
+    },
+    {
+     "q": "For Electrochemical Principles of Metallurgy: given nFE = 35, find deltaG.",
+     "a": "-35",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

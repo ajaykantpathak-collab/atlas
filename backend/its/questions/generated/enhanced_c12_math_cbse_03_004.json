@@ -34,6 +34,21 @@
      "q": "Create a real-world problem (with an Indian context, e.g., a school canteen, a farm, or a small business) that requires adding two matrices of order \\(2 \\times 3\\). Write the problem statement, define the matrices, and show the addition.",
      "a": "A good answer will: (1) describe two entities (e.g., two school canteens) with the same categories (rows) and items (columns), (2) give numerical data for each, (3) represent them as \\(2 \\times 3\\) matrices, (4) add them element-wise, and (5) interpret the result (e.g., total weekly sales). A poor answer might use different categories for the two matrices, mismatch orders, or fail to explain what rows/columns represent. This reveals whether the student understands that addition combines *comparable* data.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two shoe factories, Factory A and Factory B, each producing boys' and girls' shoes in three price ______.",
+     "a": "categories",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Matrix addition?",
+     "a": "Students frequently attempt to add matrices of different orders, arguing that \"both have 6 elements\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can also model real-world situations (e.g., combined sales, change in production) using matrix addition/subtraction.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,371 @@
+{
+ "catalog": "catalog_class12_accountancy_leac201.json",
+ "concepts": [
+  {
+   "id": "leac.201.1.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "separate_legal_entity = 58",
+      "limited_liability = 15.1",
+      "perpetual_succession = 47",
+      "common_seal = 0.2",
+      "company_character = separate_legal_entity + limited_liability + perpetual_succession + common_seal"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "separate_legal_entity = 18.1",
+      "limited_liability = 24",
+      "perpetual_succession = 36",
+      "common_seal = 16.9",
+      "company_character = separate_legal_entity + limited_liability + perpetual_succession + common_seal"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "separate_legal_entity = 90",
+      "limited_liability = 65",
+      "perpetual_succession = 15.3",
+      "common_seal = 2.7",
+      "company_character = separate_legal_entity + limited_liability + perpetual_succession + common_seal"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "separate_legal_entity = 71",
+      "limited_liability = 97",
+      "perpetual_succession = 85",
+      "common_seal = 1.3",
+      "company_character = separate_legal_entity + limited_liability + perpetual_succession + common_seal"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "separate_legal_entity = 52",
+      "limited_liability = 73",
+      "perpetual_succession = 93",
+      "common_seal = 7.7",
+      "company_character = separate_legal_entity + limited_liability + perpetual_succession + common_seal"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "separate_legal_entity = 82",
+      "limited_liability = 36",
+      "perpetual_succession = 86",
+      "common_seal = 1.4",
+      "company_character = separate_legal_entity + limited_liability + perpetual_succession + common_seal"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "company_character = separate_legal_entity + limited_liability + perpetual_succession + common_seal"
+   ]
+  },
+  {
+   "id": "leac.201.2.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "liability_basis = 86",
+      "membership_basis = 85",
+      "company_type = liability_basis + membership_basis"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "liability_basis = 37",
+      "membership_basis = 21",
+      "company_type = liability_basis + membership_basis"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "liability_basis = 19.9",
+      "membership_basis = 97",
+      "company_type = liability_basis + membership_basis"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "liability_basis = 42",
+      "membership_basis = 94",
+      "company_type = liability_basis + membership_basis"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "liability_basis = 65",
+      "membership_basis = 70",
+      "company_type = liability_basis + membership_basis"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "liability_basis = 64",
+      "membership_basis = 99",
+      "company_type = liability_basis + membership_basis"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "company_type = liability_basis + membership_basis"
+   ]
+  },
+  {
+   "id": "leac.201.4.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "distributable_profit = 99",
+      "preference_dividend = 1.3",
+      "equity_dividend = distributable_profit - preference_dividend"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "distributable_profit = 65",
+      "preference_dividend = 90",
+      "equity_dividend = distributable_profit - preference_dividend"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "distributable_profit = 38",
+      "preference_dividend = 72",
+      "equity_dividend = distributable_profit - preference_dividend"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "distributable_profit = 71",
+      "preference_dividend = 42",
+      "equity_dividend = distributable_profit - preference_dividend"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "distributable_profit = 82",
+      "preference_dividend = 48",
+      "equity_dividend = distributable_profit - preference_dividend"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "distributable_profit = 97",
+      "preference_dividend = 28",
+      "equity_dividend = distributable_profit - preference_dividend"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "equity_dividend = distributable_profit - preference_dividend"
+   ]
+  },
+  {
+   "id": "leac.201.5.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "issued_amount = 63",
+      "minimum_subscription = issued_amount * 0.9"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "issued_amount = 99",
+      "minimum_subscription = issued_amount * 0.9"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "issued_amount = 23",
+      "minimum_subscription = issued_amount * 0.9"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "issued_amount = 10.3",
+      "minimum_subscription = issued_amount * 0.9"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "issued_amount = 52",
+      "minimum_subscription = issued_amount * 0.9"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "issued_amount = 49",
+      "minimum_subscription = issued_amount * 0.9"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "minimum_subscription = issued_amount * 0.9"
+   ]
+  },
+  {
+   "id": "leac.201.7.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "shares_forfeited = 71",
+      "amount_called_per_share = 89",
+      "unpaid_per_share = 19.7",
+      "amount_forfeited = shares_forfeited * amount_called_per_share - shares_forfeited * unpaid_per_share"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "shares_forfeited = 22",
+      "amount_called_per_share = 47",
+      "unpaid_per_share = 46",
+      "amount_forfeited = shares_forfeited * amount_called_per_share - shares_forfeited * unpaid_per_share"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "shares_forfeited = 72",
+      "amount_called_per_share = 26",
+      "unpaid_per_share = 70",
+      "amount_forfeited = shares_forfeited * amount_called_per_share - shares_forfeited * unpaid_per_share"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "shares_forfeited = 84",
+      "amount_called_per_share = 24",
+      "unpaid_per_share = 68",
+      "amount_forfeited = shares_forfeited * amount_called_per_share - shares_forfeited * unpaid_per_share"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "shares_forfeited = 28",
+      "amount_called_per_share = 41",
+      "unpaid_per_share = 37",
+      "amount_forfeited = shares_forfeited * amount_called_per_share - shares_forfeited * unpaid_per_share"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "shares_forfeited = 67",
+      "amount_called_per_share = 18.1",
+      "unpaid_per_share = 70",
+      "amount_forfeited = shares_forfeited * amount_called_per_share - shares_forfeited * unpaid_per_share"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "amount_forfeited = shares_forfeited * amount_called_per_share - shares_forfeited * unpaid_per_share"
+   ]
+  },
+  {
+   "id": "leac.201.7.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "shares_reissued = 28",
+      "amount_paid_per_share = 11.6",
+      "face_value_per_share = 54",
+      "reissue_price_per_share = 95",
+      "capital_reserve = shares_reissued * amount_paid_per_share - shares_reissued * (face_value_per_share - reissue_price_per_share)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "shares_reissued = 7.6",
+      "amount_paid_per_share = 22",
+      "face_value_per_share = 3.5",
+      "reissue_price_per_share = 71",
+      "capital_reserve = shares_reissued * amount_paid_per_share - shares_reissued * (face_value_per_share - reissue_price_per_share)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "shares_reissued = 95",
+      "amount_paid_per_share = 78",
+      "face_value_per_share = 20",
+      "reissue_price_per_share = 72",
+      "capital_reserve = shares_reissued * amount_paid_per_share - shares_reissued * (face_value_per_share - reissue_price_per_share)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "shares_reissued = 47",
+      "amount_paid_per_share = 42",
+      "face_value_per_share = 81",
+      "reissue_price_per_share = 6.1",
+      "capital_reserve = shares_reissued * amount_paid_per_share - shares_reissued * (face_value_per_share - reissue_price_per_share)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "shares_reissued = 3.4",
+      "amount_paid_per_share = 72",
+      "face_value_per_share = 33",
+      "reissue_price_per_share = 52",
+      "capital_reserve = shares_reissued * amount_paid_per_share - shares_reissued * (face_value_per_share - reissue_price_per_share)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "shares_reissued = 17.9",
+      "amount_paid_per_share = 14",
+      "face_value_per_share = 45",
+      "reissue_price_per_share = 56",
+      "capital_reserve = shares_reissued * amount_paid_per_share - shares_reissued * (face_value_per_share - reissue_price_per_share)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "capital_reserve = shares_reissued * amount_paid_per_share - shares_reissued * (face_value_per_share - reissue_price_per_share)"
+   ]
+  }
+ ]
+}

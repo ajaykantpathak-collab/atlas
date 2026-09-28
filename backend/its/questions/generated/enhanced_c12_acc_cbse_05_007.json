@@ -34,6 +34,31 @@
      "q": "Create a scenario where a company forfeits shares issued at a premium, but the premium was fully received with application money. The default occurs on first call. Write the journal entry for forfeiture and explain why Securities Premium Reserve is NOT debited.",
      "a": "Scenario: Y Ltd. issued 1,000 shares of ₹100 each at a premium of ₹20. Payable: ₹50 on application (including ₹20 premium), ₹30 on allotment, ₹40 on first call. A shareholder holding 200 shares fails to pay first call.\nEntry:\nShare Capital A/c Dr. 16,000 (200 × ₹80 called-up)\nTo Calls in Arrears A/c 8,000 (200 × ₹40)\nTo Forfeited Shares A/c 8,000 (200 × ₹40 paid: ₹50 application − ₹10 capital portion of application)\nSecurities Premium Reserve is NOT debited because the premium of ₹20 was already received and credited — it is not refundable. The forfeited amount includes only the capital portion paid. A poor answer that debits Securities Premium Reserve shows the student thinks any premium credited must be reversed on forfeiture, ignoring that premium is received only once and not part of calls in arrears.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Forfeiture of shares is the ______ of shares by a company when a shareholder fails to pay the call money (or any instalment due) within the stipulated time, resulting in the shareholder losing the amount already paid and the shares reverting to the company.",
+     "a": "cancellation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you bought a smartphone on EMI but missed the third ______.",
+     "a": "instalment",
+     "self_check": true
+    },
+    {
+     "q": "What is Forfeiture of shares? State the definition given in this lesson.",
+     "a": "Forfeiture of shares is the cancellation of shares by a company when a shareholder fails to pay the call money (or any instalment due) within the stipulated time, resulting in the shareholder losing the amount already paid and the shares reverting to the company.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Forfeiture of shares?",
+     "a": "Students often believe that when shares are forfeited, the Securities Premium Reserve must always be debited if shares were originally issued at a premium.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Pass correct journal entries for forfeiture of shares issued at par, premium, and discount when calls are in arrears; (2) Calculate the amount to be credited to Forfeited Shares Account; (3) Show the effect of forfeiture on the Balance Sheet under 'Share Capital' and 'Reserves and Surplus'.",
+     "self_check": true
     }
    ]
   }

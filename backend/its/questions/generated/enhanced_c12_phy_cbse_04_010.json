@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a galvanometer, a battery, a variable resistor, and an ammeter to verify the linear relationship between current and deflection (φ ∝ I) for a moving coil galvanometer. Describe the procedure, the data to be collected, and how you would analyze it to confirm linearity.",
      "a": "Procedure: Connect the galvanometer in series with a battery, a variable resistor (rheostat), and an ammeter. Adjust the rheostat to get a small current (e.g., 10 μA), record the galvanometer deflection φ (in scale divisions). Increase the current in steps (20, 30, 40, 50 μA) and record φ each time. Plot φ vs I. If the graph is a straight line passing through the origin, φ ∝ I is verified. Calculate the slope to get current sensitivity. A poor answer (e.g., not using an ammeter, or not varying current systematically) reveals lack of understanding of experimental verification and the need for an independent current measurement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A moving coil ______ is a sensitive current-detecting instrument that operates on the principle that a current-carrying rectangular coil placed in a uniform radial magnetic field experiences a torque τ = NIAB (where N is the number of turns, I is the current, A is the area of the coil, and B is the magnetic field strength).",
+     "a": "galvanometer",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a physics laboratory ______ — a rectangular coil suspended between the poles of a horseshoe magnet with a cylindrical soft iron core.",
+     "a": "galvanometer",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Note that the magnet poles are shaped cylindrically and a soft iron core is placed inside the coil to make the magnetic field radial, ensuring the plane of the coil is always parallel to the field lines so sinθ = ______.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) derive the equilibrium condition kφ = NIAB from the torque on a current loop and the restoring torque of a spring, (2) compute current sensitivity and voltage sensitivity given N, A, B, k, and R, and (3) explain why increasing the number of turns N increases current sensitivity but may not increase voltage sensitivity.",
+     "self_check": true
     }
    ]
   }

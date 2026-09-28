@@ -34,6 +34,26 @@
      "q": "Design a simple experiment to verify Ohm's Law using a 1.5 V cell, a nichrome wire (30 cm), an ammeter, a voltmeter, and a rheostat (variable resistor). Draw the circuit diagram, list the steps, and explain how you will use the data to confirm the law.",
      "a": "Circuit: Cell → rheostat → ammeter → nichrome wire → back to cell. Voltmeter in parallel across the nichrome wire. Steps: (1) Set rheostat to maximum resistance, close circuit. (2) Record V and I. (3) Decrease rheostat resistance in 4-5 steps, record V and I each time. (4) Plot V vs I. (5) If graph is a straight line through origin, Ohm's Law is verified; slope = R. A poor answer (e.g., missing rheostat, voltmeter in series, not mentioning straight line through origin) reveals the student does not understand how to vary V systematically, how to connect meters correctly, or the graphical criterion for Ohm's Law.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ohm's Law states that the electric current flowing through a conductor is directly ______ to the potential difference applied across its ends, provided the temperature and other physical conditions of the conductor remain constant.",
+     "a": "proportional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: a student switches on a desk fan and notices the speed changes when the ______ is turned.",
+     "a": "regulator",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Measure V and I for at least ______ settings, record in a table, and plot V (y-axis) vs I (x-axis).",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world ______: a student switches on a desk fan and notices the speed changes when the regulator is turned.",
+     "a": "observation",
+     "self_check": true
     }
    ]
   }

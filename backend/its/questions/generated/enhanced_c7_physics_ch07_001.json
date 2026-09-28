@@ -34,6 +34,31 @@
      "q": "Design a safe, simple method to classify three unknown household liquids (lemon juice, sugar water, and soap solution) without tasting them.",
      "a": "A good answer involves using natural indicators like turmeric paste or red litmus paper, observing color changes without any ingestion, and recording which liquid turns red litmus blue (base), turns turmeric red (base), or keeps litmus red (acid/neutral). A poor answer suggests tasting the substances or using dangerous testing procedures.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Acids and bases are two major classes of chemical ______ defined by their distinct properties, where acids generally taste sour and turn blue litmus red, while bases taste bitter, feel soapy to the touch, and turn red litmus blue, with properties measured through chemical reactivity and pH indicators.",
+     "a": "substances",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you squeeze a lemon in the kitchen or touch a bar of soapy water during a bath, you ______ two very different classes of substances.",
+     "a": "experience",
+     "self_check": true
+    },
+    {
+     "q": "What is Acids and bases? State the definition given in this lesson.",
+     "a": "Acids and bases are two major classes of chemical substances defined by their distinct properties, where acids generally taste sour and turn blue litmus red, while bases taste bitter, feel soapy to the touch, and turn red litmus blue, with properties measured through chemical reactivity and pH indicators.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Acids and bases?",
+     "a": "Students often think that all acids are dangerous, artificial chemicals created in factories and that all natural things are neutral or basic.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can classify common household substances as acidic or basic based on their taste, touch, and reaction with natural indicators, and can distinguish between their general chemical properties.",
+     "self_check": true
     }
    ]
   }

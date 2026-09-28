@@ -34,6 +34,26 @@
      "q": "Design a graphical scale for a trekking map of the Western Ghats (RF 1:25,000) that shows kilometres and 200 m intervals, fitting within a 12 cm × 1.5 cm box on the map margin. Specify: total ground distance represented, length of 1 km division, length of 200 m division, and number of primary/secondary divisions.",
      "a": "Step 1: RF 1:25,000 → 1 cm = 0.25 km. Box width 12 cm → max ground distance = 12 × 0.25 = 3 km.\nStep 2: Choose 3 km total (uses full width). Primary division (1 km) = 12 cm / 3 = 4 cm.\nStep 3: Secondary division (200 m = 0.2 km) = 4 cm × 0.2 = 0.8 cm = 8 mm.\nStep 4: Primary divisions: 3 (0, 1, 2, 3 km). Secondary divisions: 1 km / 0.2 km = 5 divisions per km, but only need left of zero → 5 secondary divisions (0.2, 0.4, 0.6, 0.8, 1.0 km).\nA poor answer (e.g., arbitrary lengths) shows inability to work backwards from physical constraints to scale design — a key cartographic skill.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A graphical (bar) scale is a visual linear scale drawn on a map where a line segment is divided into equal parts, each ______ a specific ground distance, allowing direct measurement of distances without numerical calculation.",
+     "a": "representing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a tourist map of Jaipur printed on a ______.",
+     "a": "brochure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You photocopy it at ______% size to see details better.",
+     "a": "150",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can construct a plain graphical scale for a given RF, measure ground distances directly from a map using the bar scale, and explain why graphical scales are preferred for maps that may be photocopied or resized.",
+     "self_check": true
     }
    ]
   }

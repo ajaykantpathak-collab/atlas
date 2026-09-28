@@ -34,6 +34,16 @@
      "q": "Design a simple experiment using a dynamics cart, a track, a force sensor, and a motion sensor to verify the work-energy theorem for a constant force. Outline the measurements, the graph you would plot, and how you would extract the net work and change in kinetic energy.",
      "a": "Attach the force sensor to the cart and pull with a constant force (or use a hanging mass over a pulley). Record force \\(F\\) and position \\(x\\) simultaneously. Plot \\(F\\) vs \\(x\\); the area under the curve (rectangle for constant \\(F\\)) gives \\(W_{\\text{net}}\\). From the motion sensor, obtain initial and final velocities \\(v_i, v_f\\) and compute \\(\\Delta K = \\frac{1}{2}m(v_f^2 - v_i^2)\\). Compare the two values. A poor answer might omit the need for constant force, forget to subtract initial kinetic energy, or confuse the force sensor reading with net force (ignoring friction).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The SI unit of work and ______ energy is the joule (J), where 1 J = 1 N·m = 1 kg·m²/s².",
+     "a": "kinetic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a bicycle moving on a level road: when you pedal, you do ______ work and the bicycle speeds up; when you apply brakes, friction does negative work and the bicycle slows down.",
+     "a": "positive",
+     "self_check": true
     }
    ]
   }

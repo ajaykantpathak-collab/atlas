@@ -34,6 +34,21 @@
      "q": "Create a grouped frequency distribution with 5 class intervals of equal width where the mean calculated by the direct method is exactly 50. Provide the class intervals, frequencies, and show the verification.",
      "a": "Example: Class intervals 30-40, 40-50, 50-60, 60-70, 70-80 (width 10). Class marks: 35, 45, 55, 65, 75. Choose symmetric frequencies around 55: e.g., 2, 3, 5, 3, 2. Σf_i = 15. Σf_i x_i = 2(35)+3(45)+5(55)+3(65)+2(75) = 70+135+275+195+150 = 825. Mean = 825/15 = 55. To get mean 50, shift: use class marks 30,40,50,60,70 with frequencies 1,2,5,2,1. Σf_i=11, Σf_i x_i=550, mean=50. A poor answer uses unequal widths or non-symmetric frequencies without verification, revealing inability to reverse-engineer the formula.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The mean of grouped data using the direct method is the arithmetic average calculated by multiplying each class mark (midpoint of a class interval) by its ______ frequency, summing these products, and dividing by the total frequency.",
+     "a": "corresponding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school conducted a health check-up and recorded the heights of 50 students in a grouped ______ table with class intervals like 140-145 cm, 145-150 cm, etc.",
+     "a": "frequency",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school ______ a health check-up and recorded the heights of 50 students in a grouped frequency table with class intervals like 140-145 cm, 145-150 cm, etc.",
+     "a": "conducted",
+     "self_check": true
     }
    ]
   }

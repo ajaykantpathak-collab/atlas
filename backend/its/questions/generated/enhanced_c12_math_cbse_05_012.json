@@ -34,6 +34,31 @@
      "q": "Construct a function f on [0, 2] that satisfies f(0) = f(2) and is continuous on [0, 2], but for which Rolle's Theorem fails. Explain which condition fails and why f'(c) = 0 has no solution in (0, 2).",
      "a": "Example: f(x) = |x − 1| on [0, 2]. f(0) = 1, f(2) = 1, so f(0) = f(2). f is continuous on [0, 2]. But f is not differentiable at x = 1 ∈ (0, 2) (corner point). f'(x) = −1 for x < 1 and f'(x) = 1 for x > 1. f'(c) = 0 has no solution. Condition 2 (differentiability on open interval) fails. A poor answer gives a discontinuous function or one with f(0) ≠ f(2), revealing the student does not understand which specific condition causes the failure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Rolle's Theorem states that if a real-valued function f is continuous on the closed interval [a, b], ______ on the open interval (a, b), and satisfies f(a) = f(b), then there exists at least one point c ∈ (a, b) such that f'(c) = 0.",
+     "a": "differentiable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a roller coaster track that ______ and ends at the same height (say 50 metres above ground).",
+     "a": "starts",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Rolle's Theorem states that if a real-valued function f is continuous on the closed interval [a, b], differentiable on the open interval (a, b), and satisfies f(a) = f(b), then there exists at least one point c ∈ (a, b) such that f'(c) = ______.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) state Rolle's Theorem with all three conditions precisely, (2) verify whether a given function satisfies the conditions on a specified interval, (3) find the value(s) of c where f'(c) = 0, and (4) explain why each condition is necessary by constructing counterexamples when any condition fails.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a roller coaster track that starts and ends at the same height (say 50 metres above ground).",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

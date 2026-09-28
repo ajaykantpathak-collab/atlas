@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a frog sciatic nerve preparation to demonstrate that nerve impulse conduction is an active, energy-dependent process (not simple electrical conduction like a wire).",
      "a": "Stimulate the nerve and record compound action potentials. Then apply a metabolic inhibitor (e.g., cyanide) or remove oxygen/glucose. Conduction will fail within minutes as ATP depletes and the Na⁺/K⁺ pump stops, collapsing gradients. A wire would conduct indefinitely without metabolism. A poor design (e.g., only measuring speed) misses the key test: metabolic dependence.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The generation and conduction of a nerve impulse is the process by which a neuron transmits an electrical signal along its axon, initiated by a transient reversal of membrane polarity (______) due to voltage-gated Na⁺ influx, followed by restoration of polarity (repolarisation) via K⁺ efflux, propagated as a wave of action potentials.",
+     "a": "depolarisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you accidentally touch a hot tawa, your hand pulls back before you even feel the pain — that speed is the nerve ______ in action.",
+     "a": "impulse",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can sequentially explain the ionic basis of resting potential, the events of depolarisation and repolarisation at a single site, and the local current mechanism that propagates the action potential along myelinated and unmyelinated axons, using correct terminology (e.g., voltage-gated channels, Na⁺/K⁺ pump, nodes of Ranvier).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you ______ touch a hot tawa, your hand pulls back before you even feel the pain — that speed is the nerve impulse in action.",
+     "a": "accidentally",
+     "self_check": true
     }
    ]
   }

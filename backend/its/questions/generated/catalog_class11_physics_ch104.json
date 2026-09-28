@@ -1,0 +1,381 @@
+{
+ "catalog": "catalog_class11_physics_ch104.json",
+ "concepts": [
+  {
+   "id": "keph.104.4.5.1",
+   "title": "Linear Momentum",
+   "converted_to_compute": true,
+   "formula": "p = mass * velocity",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "p = mass * velocity",
+     "compute": "p = mass * velocity"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Linear Momentum: given mass = 101, velocity = 88, find p.",
+     "a": "8888",
+     "self_check": false
+    },
+    {
+     "q": "For Linear Momentum: given mass = 90, velocity = 78, find p.",
+     "a": "7020",
+     "self_check": false
+    },
+    {
+     "q": "For Linear Momentum: given mass = 178, velocity = 4.7, find p.",
+     "a": "836.6",
+     "self_check": false
+    },
+    {
+     "q": "For Linear Momentum: given mass = 118, velocity = 23, find p.",
+     "a": "2714",
+     "self_check": false
+    },
+    {
+     "q": "For Linear Momentum: given mass = 107, velocity = 101, find p.",
+     "a": "10807",
+     "self_check": false
+    },
+    {
+     "q": "For Linear Momentum: given mass = 180, velocity = 105, find p.",
+     "a": "18900",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.104.4.5.2",
+   "title": "Newton's Second Law of Motion",
+   "converted_to_compute": true,
+   "formula": "force = mass * acceleration",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "force = mass * acceleration",
+     "compute": "force = mass * acceleration"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Newton's Second Law of Motion: given mass = 2.8, acceleration = 24, find force.",
+     "a": "67.2",
+     "self_check": false
+    },
+    {
+     "q": "For Newton's Second Law of Motion: given mass = 138, acceleration = 17.2, find force.",
+     "a": "2373.6",
+     "self_check": false
+    },
+    {
+     "q": "For Newton's Second Law of Motion: given mass = 146, acceleration = 12.2, find force.",
+     "a": "1781.2",
+     "self_check": false
+    },
+    {
+     "q": "For Newton's Second Law of Motion: given mass = 91, acceleration = 14.8, find force.",
+     "a": "1346.8",
+     "self_check": false
+    },
+    {
+     "q": "For Newton's Second Law of Motion: given mass = 145, acceleration = 7.9, find force.",
+     "a": "1145.5",
+     "self_check": false
+    },
+    {
+     "q": "For Newton's Second Law of Motion: given mass = 197, acceleration = 17, find force.",
+     "a": "3349",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.104.4.5.3",
+   "title": "Impulse",
+   "converted_to_compute": true,
+   "formula": "impulse = force * time_duration",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "impulse = force * time_duration",
+     "compute": "impulse = force * time_duration"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Impulse: given force = 86, time_duration = 72, find impulse.",
+     "a": "6192",
+     "self_check": false
+    },
+    {
+     "q": "For Impulse: given force = 519, time_duration = 83, find impulse.",
+     "a": "43077",
+     "self_check": false
+    },
+    {
+     "q": "For Impulse: given force = 823, time_duration = 29, find impulse.",
+     "a": "23867",
+     "self_check": false
+    },
+    {
+     "q": "For Impulse: given force = 975, time_duration = 96, find impulse.",
+     "a": "93600",
+     "self_check": false
+    },
+    {
+     "q": "For Impulse: given force = 371, time_duration = 9.2, find impulse.",
+     "a": "3413.2",
+     "self_check": false
+    },
+    {
+     "q": "For Impulse: given force = 927, time_duration = 91, find impulse.",
+     "a": "84357",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.104.4.6",
+   "title": "Newton's Third Law of Motion",
+   "converted_to_compute": true,
+   "formula": "F_ab = -F_ba",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "F_ab = -F_ba",
+     "compute": "F_ab = -F_ba"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Newton's Third Law of Motion: given F_ba = 7, find F ab.",
+     "a": "-7",
+     "self_check": false
+    },
+    {
+     "q": "For Newton's Third Law of Motion: given F_ba = 8, find F ab.",
+     "a": "-8",
+     "self_check": false
+    },
+    {
+     "q": "For Newton's Third Law of Motion: given F_ba = 41, find F ab.",
+     "a": "-41",
+     "self_check": false
+    },
+    {
+     "q": "For Newton's Third Law of Motion: given F_ba = 5.2, find F ab.",
+     "a": "-5.2",
+     "self_check": false
+    },
+    {
+     "q": "For Newton's Third Law of Motion: given F_ba = 81, find F ab.",
+     "a": "-81",
+     "self_check": false
+    },
+    {
+     "q": "For Newton's Third Law of Motion: given F_ba = 17.3, find F ab.",
+     "a": "-17.3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.104.4.9.1",
+   "title": "Static Friction",
+   "converted_to_compute": true,
+   "formula": "f_s_max = mu_s * normal_force",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "f_s_max = mu_s * normal_force",
+     "compute": "f_s_max = mu_s * normal_force"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Static Friction: given mu_s = 43, normal_force = 745, find f s max.",
+     "a": "32035",
+     "self_check": false
+    },
+    {
+     "q": "For Static Friction: given mu_s = 89, normal_force = 643, find f s max.",
+     "a": "57227",
+     "self_check": false
+    },
+    {
+     "q": "For Static Friction: given mu_s = 60, normal_force = 391, find f s max.",
+     "a": "23460",
+     "self_check": false
+    },
+    {
+     "q": "For Static Friction: given mu_s = 16.2, normal_force = 83, find f s max.",
+     "a": "1344.6",
+     "self_check": false
+    },
+    {
+     "q": "For Static Friction: given mu_s = 8.2, normal_force = 918, find f s max.",
+     "a": "7527.6",
+     "self_check": false
+    },
+    {
+     "q": "For Static Friction: given mu_s = 17.2, normal_force = 980, find f s max.",
+     "a": "16856",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.104.4.9.2",
+   "title": "Kinetic Friction",
+   "converted_to_compute": true,
+   "formula": "f_k = mu_k * normal_force",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "f_k = mu_k * normal_force",
+     "compute": "f_k = mu_k * normal_force"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Kinetic Friction: given mu_k = 25, normal_force = 268, find f k.",
+     "a": "6700",
+     "self_check": false
+    },
+    {
+     "q": "For Kinetic Friction: given mu_k = 27, normal_force = 669, find f k.",
+     "a": "18063",
+     "self_check": false
+    },
+    {
+     "q": "For Kinetic Friction: given mu_k = 50, normal_force = 230, find f k.",
+     "a": "11500",
+     "self_check": false
+    },
+    {
+     "q": "For Kinetic Friction: given mu_k = 14.9, normal_force = 402, find f k.",
+     "a": "5989.8",
+     "self_check": false
+    },
+    {
+     "q": "For Kinetic Friction: given mu_k = 42, normal_force = 949, find f k.",
+     "a": "39858",
+     "self_check": false
+    },
+    {
+     "q": "For Kinetic Friction: given mu_k = 54, normal_force = 99, find f k.",
+     "a": "5346",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.104.4.10.1",
+   "title": "Centripetal Force",
+   "converted_to_compute": true,
+   "formula": "force = (mass * velocity**2) / radius",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "force = (mass * velocity**2) / radius",
+     "compute": "force = (mass * velocity**2) / radius"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Centripetal Force: given mass = 99, velocity = 79, radius = 7.5, find force.",
+     "a": "82381.2",
+     "self_check": false
+    },
+    {
+     "q": "For Centripetal Force: given mass = 47, velocity = 37, radius = 18.4, find force.",
+     "a": "3496.9",
+     "self_check": false
+    },
+    {
+     "q": "For Centripetal Force: given mass = 140, velocity = 70, radius = 14.7, find force.",
+     "a": "46666.7",
+     "self_check": false
+    },
+    {
+     "q": "For Centripetal Force: given mass = 81, velocity = 21, radius = 31, find force.",
+     "a": "1152.29",
+     "self_check": false
+    },
+    {
+     "q": "For Centripetal Force: given mass = 83, velocity = 55, radius = 45, find force.",
+     "a": "5579.44",
+     "self_check": false
+    },
+    {
+     "q": "For Centripetal Force: given mass = 143, velocity = 31, radius = 2.4, find force.",
+     "a": "57259.6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.104.4.10.2",
+   "title": "Max Speed on Level Road",
+   "converted_to_compute": true,
+   "formula": "v_max = sqrt(mu_s * radius * 9.8)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "v_max = sqrt(mu_s * radius * 9.8)",
+     "compute": "v_max = sqrt(mu_s * radius * 9.8)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Max Speed on Level Road: given mu_s = 67, radius = 40, find v max.",
+     "a": "162.062",
+     "self_check": false
+    },
+    {
+     "q": "For Max Speed on Level Road: given mu_s = 43, radius = 36, find v max.",
+     "a": "123.168",
+     "self_check": false
+    },
+    {
+     "q": "For Max Speed on Level Road: given mu_s = 5.2, radius = 6.9, find v max.",
+     "a": "18.7516",
+     "self_check": false
+    },
+    {
+     "q": "For Max Speed on Level Road: given mu_s = 10.2, radius = 9, find v max.",
+     "a": "29.994",
+     "self_check": false
+    },
+    {
+     "q": "For Max Speed on Level Road: given mu_s = 91, radius = 42, find v max.",
+     "a": "193.534",
+     "self_check": false
+    },
+    {
+     "q": "For Max Speed on Level Road: given mu_s = 25, radius = 45, find v max.",
+     "a": "105",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

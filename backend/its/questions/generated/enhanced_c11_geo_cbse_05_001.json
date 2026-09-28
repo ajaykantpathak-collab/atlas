@@ -34,6 +34,31 @@
      "q": "Design a one-page mineral identification flowchart for a Class 11 field kit that uses only: streak plate, copper coin, steel nail, glass plate, dilute HCl (dropper), hand lens, and magnet. The flowchart must separate at least 10 common minerals into distinct end-points.",
      "a": "A good flowchart starts with luster (metallic vs. non-metallic). Metallic branch: streak test → magnetite (magnetic, black streak) vs. hematite (non-magnetic, red streak) vs. galena (lead-gray streak, cubic cleavage) vs. pyrite (greenish-black streak, cubic). Non-metallic branch: hardness sequence using coin (3), nail (5.5), glass (5.5) → calcite (H=3, effervesces with HCl, rhombohedral cleavage) vs. fluorite (H=4, octahedral cleavage) vs. orthoclase (H=6, 90° cleavage, no HCl reaction) vs. quartz (H=7, conchoidal fracture) vs. gypsum (H=2, scratched by fingernail, one perfect cleavage) vs. talc (H=1, soapy feel). Poor flowcharts use color early, lack decision points for all tools, or group distinct minerals at same endpoint—revealing the student cannot operationalize diagnostic properties into a logical dichotomous key.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A mineral is a naturally occurring, inorganic solid substance with a definite chemical ______ and an ordered internal atomic structure (crystalline), formed through geological processes.",
+     "a": "composition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Pick up a piece of quartz from your school garden or a local construction site—notice its glassy shine, how it ______ glass, breaks with curved surfaces, and leaves a white streak on unglazed porcelain.",
+     "a": "scratches",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then test each diagnostic property in sequence: observe luster (vitreous), check streak (white/colorless), measure hardness (______ on Mohs scale), examine fracture (conchoidal).",
+     "a": "7",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can define a mineral using all five criteria (natural, inorganic, solid, definite composition, crystalline structure) and correctly identify an unknown mineral sample by systematically testing and recording at least four diagnostic properties, justifying each observation with proper terminology.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Pick up a piece of quartz from your school garden or a local ______ site—notice its glassy shine, how it scratches glass, breaks with curved surfaces, and leaves a white streak on unglazed porcelain.",
+     "a": "construction",
+     "self_check": true
     }
    ]
   }

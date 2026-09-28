@@ -5,6 +5,8 @@
    "id": "hegp.105.5.1",
    "title": "Sums of Consecutive Numbers",
    "converted_to_compute": false,
+   "formula": "total_sum = 4 * first_num + 6 (run of four consecutive terms)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Starting from 1, add the first 9 odd numbers: 1 + 3 + 5 + ... What square do you get?",
@@ -41,15 +43,9 @@
   {
    "id": "hegp.105.5.2",
    "title": "Same Parity of a +/- b +/- c +/- d Combinations",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "expand with the algebraic identity and evaluate",
-     "explain": "expand with the algebraic identity and evaluate: val = 6 * 6 + 2 * 6 * 7 + 7 * 7 gives 169",
-     "compute": "val = 6 * 6 + 2 * 6 * 7 + 7 * 7"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "value_shift = 2 * letter_num (even, for any single sign flip)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Use the identity (a + b)^2 = a^2 + 2ab + b^2 to find the square of 7 more than 6; report the value.",
@@ -87,6 +83,8 @@
    "id": "hegp.105.5.3",
    "title": "Spotting Expressions That Are Always Even",
    "converted_to_compute": false,
+   "formula": "even_expr = 2 * (2 * m_val + q_val)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 8 when x = 2.",
@@ -124,6 +122,8 @@
    "id": "hegp.105.5.4",
    "title": "Remainder Classes of Numbers",
    "converted_to_compute": false,
+   "formula": "class_member = divisor_val * k_val + rem_val",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A canteen offers 7 drinks and 4 snacks. How many drink-snack combos are possible (rule of product)?",
@@ -161,6 +161,8 @@
    "id": "hegp.105.5.5",
    "title": "Digit-Sum Test for Divisibility by 9",
    "converted_to_compute": false,
+   "formula": "rem_9 = (unit_d + tens_d + hund_d + thous_d) % 9",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 30 and 10 have HCF 10 with coprime multipliers 3 and 1. Verify by computing hcf = 10 x 1; then find the HCF value.",
@@ -198,6 +200,8 @@
    "id": "hegp.105.5.6",
    "title": "Alternating-Sum Test for Divisibility by 11",
    "converted_to_compute": false,
+   "formula": "rem_11 = (unit_d - tens_d + hund_d - thous_d) % 11",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 42 and 24 have HCF 6 with coprime multipliers 7 and 4. Verify by computing hcf = 6 x 1; then find the HCF value.",
@@ -235,6 +239,8 @@
    "id": "hegp.105.5.7",
    "title": "Digital Root by Repeated Digit Addition",
    "converted_to_compute": false,
+   "formula": "dig_root = number_val % 9 (a residue of 0 is reported as 9)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Use the identity (a + b)^2 = a^2 + 2ab + b^2 to find the square of 4 more than 4; report the value.",
@@ -271,15 +277,9 @@
   {
    "id": "hegp.105.5.8",
    "title": "Divisibility Laws for Always-Sometimes-Never Claims",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
-     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 5 * 1 gives 5",
-     "compute": "hcf = 5 * 1"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "k divides m_num and k divides n_num implies k divides m_num + n_num",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 35 and 10 have HCF 5 with coprime multipliers 7 and 2. Verify by computing hcf = 5 x 1; then find the HCF value.",
@@ -316,15 +316,9 @@
   {
    "id": "hegp.105.5.9",
    "title": "Cryptarithms - Letters Standing for Digits",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "split the number into digits and apply the rule",
-     "explain": "split the number into digits and apply the rule: diff = 9 * abs(5 - 7) gives 18",
-     "compute": "diff = 9 * abs(5 - 7)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "column_sum = units_digit + carry_in; carry_out = column_sum // 10",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "The digits of the 2-digit number 57 are swapped to make 75. Find the difference between the two numbers using 9 x |a - b|.",

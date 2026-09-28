@@ -34,6 +34,31 @@
      "q": "Design a hypothetical experiment to test whether O-GlcNAcylation of transcription factor Sp1 at Ser/Thr residues competes with phosphorylation at adjacent sites to regulate insulin gene expression in pancreatic β-cells. Specify: (a) genetic/pharmacological perturbations, (b) quantitative readouts, (c) expected results if competition occurs.",
      "a": "(a) Perturbations: CRISPRi knockdown of OGT (O-GlcNAc transferase) vs. OGA (O-GlcNAcase) inhibitor Thiamet-G; parallel treatment with kinase inhibitor (e.g., PKC inhibitor Gö6983) or high glucose (25 mM) to drive hexosamine pathway. (b) Readouts: ChIP-qPCR for Sp1 occupancy at insulin promoter; co-IP/Western for Sp1 O-GlcNAc (RL2 antibody) vs. phospho-Ser/Thr; insulin mRNA (RT-qPCR) and secreted insulin (ELISA). (c) Expected: High glucose → increased O-GlcNAcylation, decreased phosphorylation at adjacent sites, reduced Sp1 promoter binding, lower insulin transcription. OGT knockdown reverses this. Thiamet-G mimics high glucose. If competition exists, phospho-mimetic Sp1 (S→D mutants) should resist O-GlcNAcylation and maintain activity under high glucose. Poor answer: only measuring total Sp1 levels — misses the dynamic PTM crosstalk central to the hypothesis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Post-______ modifications (PTMs) are covalent, enzymatic modifications of polypeptide chains after ribosomal synthesis, including addition/removal of chemical groups (phosphate, acetyl, methyl, glycosyl, ubiquitin), proteolytic cleavage, or formation of disulfide bonds, which alter protein structure, stability, localization, activity, and interaction partners to generate functional proteomic diversity from a single gene product.",
+     "a": "translational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you order a custom-built smartphone: the factory assembles the basic chassis (______), but before delivery, technicians install the camera module, flash the operating system, apply a protective coating, and run diagnostic tests.",
+     "a": "translation",
+     "self_check": true
+    },
+    {
+     "q": "What is Post-translational modifications (PTMs)? State the definition given in this lesson.",
+     "a": "Post-translational modifications (PTMs) are covalent, enzymatic modifications of polypeptide chains after ribosomal synthesis, including addition/removal of chemical groups (phosphate, acetyl, methyl, glycosyl, ubiquitin), proteolytic cleavage, or formation of disulfide bonds, which alter protein structure, stability, localization.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by listing the ______ major PTMs on a concept map with three columns: Modification | Enzyme/Complex | Functional Consequence.",
+     "a": "8",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Classify 8 major PTM types with specific enzyme names, target residues, and functional consequences; (2) Predict how a given PTM alters protein fate (e.g., ubiquitination → proteasomal degradation, phosphorylation → conformational switch); (3) Explain the PTM cascade in insulin maturation (preproinsulin → proinsulin →.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a simple investigation using locally available materials (moong beans, wheat grains, yeast, sugar) to demonstrate the difference between growth by cell division (living) and growth by accretion (non-living). Specify observations, measurements, and how you would distinguish the two processes.",
      "a": "Setup: (1) Moong beans soaked overnight on wet cotton - measure radicle length daily for 5 days. (2) Wheat grains similarly treated. (3) Sugar crystals in supersaturated solution - measure crystal size daily. (4) Yeast + sugar solution - count cells under microscope daily. Living growth (1,2,4): exponential increase in cell number (microscopy), irreversible dry mass gain, metabolic heat detectable. Non-living (3): linear size increase, no cell structure, no metabolic heat, reversible (dissolves in water). A poor answer measuring only \"size increase\" for all fails to distinguish intracellular protoplasm synthesis from external molecular deposition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Growth in living organisms is an ______ increase in mass and number of cells through cell division, reproduction is the biological process by which organisms produce offspring ensuring species continuity, and metabolism is the sum total of all enzyme-catalyzed chemical reactions (anabolism and catabolism) occurring in a living system to maintain homeostasis and provide energy for life processes.",
+     "a": "irreversible",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a germinating moong bean (green gram) on your kitchen counter over three days - the radicle elongates, ______ expand, and tiny root hairs appear.",
+     "a": "cotyledons",
+     "self_check": true
+    },
+    {
+     "q": "What is Growth in living organisms? State the definition given in this lesson.",
+     "a": "Growth in living organisms is an irreversible increase in mass and number of cells through cell division, reproduction is the biological process by which organisms produce offspring ensuring species continuity, and metabolism is the sum total of all enzyme-catalyzed chemical reactions (anabolism and catabolism) occurring in a living.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Growth in living organisms?",
+     "a": "Students believe \"growth = increase in size/weight\" and equate it with non-living accretion (crystal, snowball).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can differentiate between growth in living vs non-living systems using cellular mechanisms, explain why metabolism is a defining characteristic while isolated metabolic reactions in vitro are not \"life\", and classify reproduction modes with their evolutionary significance for genetic diversity.",
+     "self_check": true
     }
    ]
   }

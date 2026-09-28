@@ -34,6 +34,31 @@
      "q": "Design a hypothetical nucleotide analog that could act as a chain terminator in DNA sequencing (like ddNTPs). Specify the modification at the sugar and explain why it prevents further elongation.",
      "a": "A valid analog: 2',3'-dideoxynucleoside 5'-triphosphate (ddNTP) — remove both the 2'-OH and 3'-OH from the pentose sugar. Without a 3'-OH, the incoming nucleotide cannot form a phosphodiester bond (nucleophilic attack by 3'-OH on the α-phosphate of the next dNTP is impossible), terminating chain extension. A poor answer that only removes the 2'-OH (creating a 3'-deoxy analog) or modifies the base shows misunderstanding of the 3'-OH's role as the nucleophile in polymerization.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A nucleoside consists of a nitrogenous base (purine or pyrimidine) covalently bonded to a pentose sugar (ribose or deoxyribose) via a β-N-glycosidic bond at the 1' carbon of the sugar; a nucleotide is a nucleoside with one or more phosphate groups esterified to the 5' carbon of the sugar, forming a ______ bond.",
+     "a": "phosphoester",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are given a mixed bag of Lego bricks: some are flat rectangular plates (bases), some are pentagonal rings (sugars), and some are small round knobs (______).",
+     "a": "phosphates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: First, you must attach a base to the sugar at a specific corner (the ______' carbon) using a special connector (β-N-glycosidic bond).",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) draw and label the three components of a nucleotide (base, sugar, phosphate) and identify the specific carbon numbering (1', 2', 3', 4', 5') on the pentose sugar; (2) distinguish between a nucleoside and a nucleotide and name the bond types (β-N-glycosidic and phosphoester) with correct directionality.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are given a mixed bag of Lego bricks: some are flat ______ plates (bases), some are pentagonal rings (sugars), and some are small round knobs (phosphates).",
+     "a": "rectangular",
+     "self_check": true
     }
    ]
   }

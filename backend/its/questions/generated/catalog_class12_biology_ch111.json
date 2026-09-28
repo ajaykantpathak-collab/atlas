@@ -1,158 +1,238 @@
 {
- "catalog": "catalog_class12_biology_ch111",
+ "catalog": "catalog_class12_biology_ch111.json",
  "concepts": [
   {
    "id": "lebo.111.1.1",
    "title": "Per Capita Birth and Death Rates",
+   "converted_to_compute": true,
+   "formula": "per_capita_rate = count / initial_pop",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "per_capita_rate = count / initial_pop",
+     "compute": "per_capita_rate = count / initial_pop"
+    }
+   ],
    "questions": [
     {
-     "q": "Calculate the per capita death rate of a population over a given period. Use the method 'Per Capita Birth and Death Rates'. Work with: count = 10, initial_pop = 400. Carry the chain through step by step and give the final value of per_capita_rate.",
-     "a": "0.025 per cent",
+     "q": "For Per Capita Birth and Death Rates: given count = 98, initial_pop = 2, find per capita rate.",
+     "a": "49",
      "self_check": false
     },
     {
-     "q": "Determine the birth rate per individual per year for a lotus population. Use the method 'Per Capita Birth and Death Rates'. Work with: count = 500, initial_pop = 20. Carry the chain through step by step and give the final value of per_capita_rate.",
-     "a": "25 per cent",
+     "q": "For Per Capita Birth and Death Rates: given count = 494, initial_pop = 11.7, find per capita rate.",
+     "a": "42.2222",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Per Capita Birth and Death Rates' refers to.",
-     "a": "The average rate of offspring addition or individual mortality evaluated per member of a specified population across a given timeframe.",
-     "self_check": true
+     "q": "For Per Capita Birth and Death Rates: given count = 192, initial_pop = 54, find per capita rate.",
+     "a": "3.55556",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Per Capita Birth and Death Rates'.",
-     "a": "Expresses biological changes on a individual unit basis across a set period.",
-     "self_check": true
+     "q": "For Per Capita Birth and Death Rates: given count = 67, initial_pop = 84, find per capita rate.",
+     "a": "0.797619",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Per Capita Birth and Death Rates', in plain ASCII form.",
-     "a": "per_capita_rate = count / initial_pop",
-     "self_check": true
+     "q": "For Per Capita Birth and Death Rates: given count = 126, initial_pop = 70, find per capita rate.",
+     "a": "1.8",
+     "self_check": false
+    },
+    {
+     "q": "For Per Capita Birth and Death Rates: given count = 349, initial_pop = 6, find per capita rate.",
+     "a": "58.1667",
+     "self_check": false
     }
    ]
   },
   {
    "id": "lebo.111.1.2",
    "title": "Population Density Change Equation",
+   "converted_to_compute": true,
+   "formula": "N_next = N_current + (births + immigration) - (deaths + emigration)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "N_next = N_current + (births + immigration) - (deaths + emigration)",
+     "compute": "N_next = N_current + (births + immigration) - (deaths + emigration)"
+    }
+   ],
    "questions": [
     {
-     "q": "Find N_next given current population, births, deaths, immigrants, and emigrants. Use the method 'Population Density Change Equation'. Work with: births = 300, deaths = 15, emigration = 150, immigration = 30, n_current = 40. Carry the chain through step by step and give the final value of n_next.",
-     "a": "205 units",
+     "q": "For Population Density Change Equation: given N_current = 17.9, births = 21, immigration = 49, deaths = 42, emigration = 62, find N next.",
+     "a": "-16.1",
      "self_check": false
     },
     {
-     "q": "Determine the net population size at time t+1 using demographic factors. Use the method 'Population Density Change Equation'. Work with: births = 100, deaths = 3, emigration = 400, immigration = 4, n_current = 10. Carry the chain through step by step and give the final value of n_next.",
-     "a": "-289 units",
+     "q": "For Population Density Change Equation: given N_current = 14.2, births = 50, immigration = 64, deaths = 16.7, emigration = 86, find N next.",
+     "a": "25.5",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Population Density Change Equation' refers to.",
-     "a": "The arithmetic tracking of population density shift over time accounting for births, deaths, immigration, and emigration.",
-     "self_check": true
+     "q": "For Population Density Change Equation: given N_current = 13.2, births = 5.2, immigration = 85, deaths = 64, emigration = 51, find N next.",
+     "a": "-11.6",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Population Density Change Equation'.",
-     "a": "Population density increases via natality and immigration while decreasing via mortality and emigration.",
-     "self_check": true
+     "q": "For Population Density Change Equation: given N_current = 8.1, births = 26, immigration = 69, deaths = 9.3, emigration = 99, find N next.",
+     "a": "-5.2",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Population Density Change Equation', in plain ASCII form.",
-     "a": "N_next = N_current + (births + immigration) - (deaths + emigration)",
-     "self_check": true
+     "q": "For Population Density Change Equation: given N_current = 3.9, births = 20, immigration = 25, deaths = 79, emigration = 12.5, find N next.",
+     "a": "-42.6",
+     "self_check": false
+    },
+    {
+     "q": "For Population Density Change Equation: given N_current = 19.4, births = 64, immigration = 79, deaths = 30, emigration = 45, find N next.",
+     "a": "87.4",
+     "self_check": false
     }
    ]
   },
   {
    "id": "lebo.111.1.3",
    "title": "Intrinsic Rate of Natural Increase",
+   "converted_to_compute": true,
+   "formula": "r = b - d",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "r = b - d",
+     "compute": "r = b - d"
+    }
+   ],
    "questions": [
     {
-     "q": "Find parameter r given per capita natality b and mortality d. Use the method 'Intrinsic Rate of Natural Increase'. Work with: b = 150, d = 20. Carry the chain through step by step and give the final value of r.",
-     "a": "130 units",
+     "q": "For Intrinsic Rate of Natural Increase: given b = 80, d = 47, find r.",
+     "a": "33",
      "self_check": false
     },
     {
-     "q": "Determine the intrinsic growth rate of a population. Use the method 'Intrinsic Rate of Natural Increase'. Work with: b = 200, d = 4. Carry the chain through step by step and give the final value of r.",
-     "a": "196 units",
+     "q": "For Intrinsic Rate of Natural Increase: given b = 49, d = 69, find r.",
+     "a": "-20",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Intrinsic Rate of Natural Increase' refers to.",
-     "a": "The per capita rate of population growth calculated as the difference between per capita birth rate and per capita death rate.",
-     "self_check": true
+     "q": "For Intrinsic Rate of Natural Increase: given b = 4.1, d = 94, find r.",
+     "a": "-89.9",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Intrinsic Rate of Natural Increase'.",
-     "a": "Measures the inherent biological potential of a population to grow under given conditions.",
-     "self_check": true
+     "q": "For Intrinsic Rate of Natural Increase: given b = 21, d = 92, find r.",
+     "a": "-71",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Intrinsic Rate of Natural Increase', in plain ASCII form.",
-     "a": "r = b - d",
-     "self_check": true
+     "q": "For Intrinsic Rate of Natural Increase: given b = 22, d = 11.3, find r.",
+     "a": "10.7",
+     "self_check": false
+    },
+    {
+     "q": "For Intrinsic Rate of Natural Increase: given b = 82, d = 9.7, find r.",
+     "a": "72.3",
+     "self_check": false
     }
    ]
   },
   {
    "id": "lebo.111.1.4",
    "title": "Exponential Growth Rate",
+   "converted_to_compute": true,
+   "formula": "growth_rate = r * N",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "growth_rate = r * N",
+     "compute": "growth_rate = r * N"
+    }
+   ],
    "questions": [
     {
-     "q": "Find instantaneous growth rate given intrinsic growth rate r and population size N. Use the method 'Exponential Growth Rate'. Work with: n = 30, r = 400. Carry the chain through step by step and give the final value of n_next.",
-     "a": "12030 units",
+     "q": "For Exponential Growth Rate: given r = 9.8, N = 52, find growth rate.",
+     "a": "509.6",
      "self_check": false
     },
     {
-     "q": "Determine the rate of change dN/dt under unlimited resources. Use the method 'Exponential Growth Rate'. Work with: n = 3, r = 25. Carry the chain through step by step and give the final value of n_next.",
-     "a": "78 units",
+     "q": "For Exponential Growth Rate: given r = 41, N = 5.5, find growth rate.",
+     "a": "225.5",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Exponential Growth Rate' refers to.",
-     "a": "The instantaneous change in population size under unconstrained resource conditions where growth is proportional to population size.",
-     "self_check": true
+     "q": "For Exponential Growth Rate: given r = 10.8, N = 32, find growth rate.",
+     "a": "345.6",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Exponential Growth Rate'.",
-     "a": "Unlimited resources yield a J-shaped population growth curve governed by dN/dt = rN.",
-     "self_check": true
+     "q": "For Exponential Growth Rate: given r = 87, N = 23, find growth rate.",
+     "a": "2001",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Exponential Growth Rate', in plain ASCII form.",
-     "a": "growth_rate = r * N",
-     "self_check": true
+     "q": "For Exponential Growth Rate: given r = 75, N = 33, find growth rate.",
+     "a": "2475",
+     "self_check": false
+    },
+    {
+     "q": "For Exponential Growth Rate: given r = 52, N = 2.6, find growth rate.",
+     "a": "135.2",
+     "self_check": false
     }
    ]
   },
   {
    "id": "lebo.111.1.5",
    "title": "Verhulst-Pearl Logistic Growth Rate",
+   "converted_to_compute": true,
+   "formula": "growth_rate = r * N * (K - N) / K",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "growth_rate = r * N * (K - N) / K",
+     "compute": "growth_rate = r * N * (K - N) / K"
+    }
+   ],
    "questions": [
     {
-     "q": "Calculate population change rate under Verhulst-Pearl logistic model. Use the method 'Verhulst-Pearl Logistic Growth Rate'. Work with: k = 4, n = 25, r = 400. Carry the chain through step by step and give the final value of growth_rate.",
-     "a": "-52500 per cent",
+     "q": "For Verhulst-Pearl Logistic Growth Rate: given r = 17.9, N = 96, K = 60, find growth rate.",
+     "a": "-1031.04",
      "self_check": false
     },
     {
-     "q": "Determine dN/dt when resources are limiting and carrying capacity is K. Use the method 'Verhulst-Pearl Logistic Growth Rate'. Work with: k = 400, n = 18, r = 400. Carry the chain through step by step and give the final value of growth_rate.",
-     "a": "6876 per cent",
+     "q": "For Verhulst-Pearl Logistic Growth Rate: given r = 51, N = 92, K = 11.9, find growth rate.",
+     "a": "-31582.3",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Verhulst-Pearl Logistic Growth Rate' refers to.",
-     "a": "Population growth model taking into account environmental carrying capacity limits resulting in a S-shaped curve.",
-     "self_check": true
+     "q": "For Verhulst-Pearl Logistic Growth Rate: given r = 47, N = 92, K = 29, find growth rate.",
+     "a": "-9393.52",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Verhulst-Pearl Logistic Growth Rate'.",
-     "a": "Finite environmental resources enforce an upper limit K, yielding a sigmoid growth pattern.",
-     "self_check": true
+     "q": "For Verhulst-Pearl Logistic Growth Rate: given r = 62, N = 83, K = 98, find growth rate.",
+     "a": "787.653",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Verhulst-Pearl Logistic Growth Rate', in plain ASCII form.",
-     "a": "growth_rate = r * N * (K - N) / K",
-     "self_check": true
+     "q": "For Verhulst-Pearl Logistic Growth Rate: given r = 87, N = 6.4, K = 14, find growth rate.",
+     "a": "302.263",
+     "self_check": false
+    },
+    {
+     "q": "For Verhulst-Pearl Logistic Growth Rate: given r = 51, N = 11.4, K = 48, find growth rate.",
+     "a": "443.318",
+     "self_check": false
     }
    ]
   },

@@ -34,6 +34,26 @@
      "q": "Design a simple experiment to prove that light travels in straight lines using a pinhole camera.",
      "a": "Place two objects of different colors at different heights in front of the pinhole; if the images appear inverted and in the same relative order, it proves the rays crossed. A poor answer lacks a clear way to track individual light paths or fails to connect the inversion to the straight-line path.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A pinhole camera is a simple light-tight box with a tiny hole on one side that forms an ______, real image of an object on the opposite screen by allowing light to travel in straight lines.",
+     "a": "inverted",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever wondered how a tiny hole in a dark box can \"______\" a picture of the world outside?",
+     "a": "capture",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to draw a ray diagram showing how light from the top and bottom of an object crosses at the pinhole to form an inverted image.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever ______ how a tiny hole in a dark box can \"capture\" a picture of the world outside?",
+     "a": "wondered",
+     "self_check": true
     }
    ]
   }

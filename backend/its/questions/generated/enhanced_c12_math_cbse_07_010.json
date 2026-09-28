@@ -34,6 +34,26 @@
      "q": "Create a definite integral problem that requires using both P2 (additivity) and P7 (even/odd) to evaluate efficiently. Provide the integrand, limits, and the final answer.",
      "a": "Example: Evaluate \\(\\int_{-2}^2 (|x| + x^3) dx\\). Split using P2: \\(\\int_{-2}^2 |x| dx + \\int_{-2}^2 x^3 dx\\). \\(|x|\\) is even, so first integral \\(= 2\\int_0^2 x dx = 2 \\cdot \\frac{4}{2} = 4\\). \\(x^3\\) is odd, so second integral \\(= 0\\). Total \\(= 4\\). A poor answer would be an integral that doesn't need both properties (e.g., just an even function on \\([-a,a]\\)), showing the student cannot design a problem that combines concepts.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The properties of definite integrals are a set of algebraic and symmetry rules that allow manipulation of definite integrals without explicitly finding ______.",
+     "a": "antiderivatives",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To begin any problem: (1) Identify the limits and the ______.",
+     "a": "integrand",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To begin any problem: (______) Identify the limits and the integrand.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can also prove each property using the Fundamental Theorem of Calculus or a direct substitution.",
+     "self_check": true
     }
    ]
   }

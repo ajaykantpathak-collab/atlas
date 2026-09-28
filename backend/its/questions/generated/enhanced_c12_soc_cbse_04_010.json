@@ -1,0 +1,71 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_04_010",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_04_010",
+   "title": "c12_soc_cbse_04_010",
+   "questions": [
+    {
+     "q": "Define \"liberalisation\" in the context of the Indian economy post-1991, listing any three specific policy measures it entailed.",
+     "a": "Liberalisation is the process of reducing government controls over the economy to allow greater role for market forces. Three key measures: (1) privatisation of public sector enterprises, (2) reduction of tariffs and import duties to allow easier entry of foreign goods, (3) loosening of regulations on foreign direct investment (FDI) to allow foreign companies to set up industries in India.  \nA wrong answer that only mentions \"opening up the economy\" without specific policy tools reveals a superficial understanding that cannot support analysis of sectoral impacts in board or competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT text states that globalisation means \"changes in a market in one part of the globe may have a profound impact somewhere else far away.\" Explain this statement using the example of the Indian software industry and the 9/11 attacks, and identify the sociological concept that captures this interdependence.",
+     "a": "The 9/11 attacks caused a US economic downturn, which reduced demand for outsourced software services, leading to loss of business and jobs in India's software industry. This illustrates the sociological concept of \"social embeddedness of economies\" — markets are not isolated but linked through global networks where local livelihoods depend on distant events.  \nA student who only describes the economic link (US recession → Indian job losses) without naming the sociological concept (embeddedness/interlinking of markets) misses the disciplinary perspective that distinguishes sociology from economics.",
+     "self_check": true
+    },
+    {
+     "q": "A small manufacturer of automobile parts in Pune faces bankruptcy after liberalisation because cheaper, high-quality imported components flood the market. Using the NCERT framework, explain why this happens and identify which specific liberalisation policy is most directly responsible.",
+     "a": "Liberalisation reduced tariffs and import duties, exposing domestic industries to global competition without adequate preparation. The Pune manufacturer cannot compete with foreign producers who benefit from economies of scale, advanced technology, and possibly subsidies in their home countries. The policy most directly responsible is the reduction of tariffs and import duties, which removed the protective barrier that previously shielded such small manufacturers.  \nA wrong answer that blames \"globalisation\" generically without pinpointing the specific policy tool (tariff reduction) fails to demonstrate the analytical precision required for case-based board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of liberalisation on (a) Indian software services and (b) Indian agriculture. In your comparison, explain why the former is cited as a beneficiary while the latter is described as negatively affected, using the concepts of \"global market access\" and \"withdrawal of state support.\"",
+     "a": "Software services benefited because liberalisation created a global market for Indian labour — Indian firms could offer low-cost services to Western clients without trade barriers. Agriculture suffered because liberalisation withdrew state support (support prices, subsidies on fertilizers/diesel) that previously protected farmers from global price volatility, while simultaneously allowing cheaper agricultural imports. The key difference: software entered a high-demand global niche where India had comparative advantage; agriculture was forced into a global market where Indian smallholders lack scale and capital to compete.  \nA response that only lists \"software gained, agriculture lost\" without explaining the structural reasons (market access vs. withdrawal of protection) shows an inability to apply the sociological lens of differential embeddedness in global circuits.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the argument that \"privatisation of public sector enterprises always increases efficiency and reduces government burden\" using evidence from the NCERT text about employment outcomes in the organised vs. unorganised sector.",
+     "a": "The NCERT text notes that privatisation/closing of public sector industries led to loss of employment in some sectors and growth of unorganised sector employment at the expense of the organised sector. Since organised sector jobs offer better pay, regularity, and permanence, the shift to unorganised work represents a deterioration in labour conditions — an efficiency gain for capital but a social cost for workers. Thus, the claim ignores the distributive consequences and the sociological reality that \"efficiency\" is not a neutral metric but reflects power relations between capital and labour.  \nA student who agrees with the statement uncritically reproduces a market-fundamentalist view and fails the evaluative competency required for assertion-reason questions in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a novel example (not from the textbook) of a cultural practice or traditional knowledge system in India that has been commodified for the global market in the last two decades. Describe the new circuits of goods, services, money, and people created by this commodification, and explain how it illustrates the sociological concept of \"commodification.\"",
+     "a": "Example: Traditional Indian Ayurvedic formulations repackaged as \"wellness supplements\" sold globally via e-commerce platforms. New circuits: (1) Goods — herbs sourced from tribal collectors in Western Ghats, processed in GMP-certified factories, shipped worldwide. (2) Services — Ayurvedic consultants offering online diagnostics to clients in Europe/US. (3) Money — foreign currency flows to Indian companies, royalties to traditional knowledge holders (often minimal). (4) People — tribal harvesters, factory workers, digital marketers, global consumers. This illustrates commodification because knowledge/practices previously transmitted through guru-shishya parampara or community use are now packaged, branded, and sold as standardised commodities in a global market, detached from their social and ecological context.  \nA weak answer that merely lists a product (e.g., \"yoga mats\") without tracing the new social circuits and the transformation of a non-market practice into a market commodity shows incomplete grasp of the concept.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Globalisation refers to the increasing ______ and integration of local, regional, national, and international markets through the accelerated movement of commodities, capital, information, technology, and people across borders.",
+     "a": "interconnection",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you order a smartphone online: it is designed in California, assembled in China with chips from Taiwan, shipped via a logistics network controlled by a Danish company, and delivered to your doorstep in India by a gig worker employed through a ______-based app.",
+     "a": "Bengaluru",
+     "self_check": true
+    },
+    {
+     "q": "What is Globalisation? State the definition given in this lesson.",
+     "a": "Globalisation refers to the increasing interconnection and integration of local, regional, national, and international markets through the accelerated movement of commodities, capital, information, technology, and people across borders.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by tracing the policy shifts in India since ______ that opened borders to foreign investment and reduced tariffs.",
+     "a": "1991",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Globalisation?",
+     "a": "Students often equate globalisation solely with \"Westernisation\" or \"Americanisation,\" assuming it is a one-way cultural imposition.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) explain the mechanisms of globalisation and liberalisation using specific Indian examples (software industry, agriculture, Pushkar fair), (2) analyze the differential impact of these policies on various sectors and social groups, and (3) evaluate the market-versus-state debate by weighing efficiency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

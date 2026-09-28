@@ -34,6 +34,31 @@
      "q": "Design a simple laboratory experiment to distinguish between three unlabelled solid oxides: MgO, Al₂O₃, and SO₃ (solid at low temperature). List reagents, observations, and conclusions.",
      "a": "Reagents: dilute HCl, dilute NaOH, water, pH paper.\nProcedure:\n1. Add water to each oxide, test pH of resulting mixture.\n   - MgO: pH > 7 (basic, forms Mg(OH)₂ slightly soluble)\n   - Al₂O₃: pH ≈ 7 (insoluble, no reaction)\n   - SO₃: pH < 1 (vigorous reaction, forms H₂SO₄)\n2. For the water-insoluble residue (Al₂O₃), add HCl → dissolves (forms AlCl₃); add NaOH → dissolves (forms NaAlO₂). MgO dissolves only in HCl. SO₃ already reacted.\nConclusion: MgO basic, Al₂O₃ amphoteric, SO₃ acidic.\nA poor answer that only uses litmus paper on dry oxides fails because solid oxides don't change litmus; they must be tested in aqueous medium or with acid/base.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the tendency of an atom in a chemical bond to attract the shared pair of electrons towards itself; it increases across a period due to increasing nuclear charge and decreases down a group due to increasing atomic size and shielding.",
+     "a": "Electronegativity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how rainwater becomes slightly acidic when it ______ non-metal oxides like SO₂ and NO₂ from vehicle exhaust — a common issue in Indian cities like Delhi during winter smog.",
+     "a": "dissolves",
+     "self_check": true
+    },
+    {
+     "q": "What is Electronegativity? State the definition given in this lesson.",
+     "a": "Electronegativity is the tendency of an atom in a chemical bond to attract the shared pair of electrons towards itself; it increases across a period due to increasing nuclear charge and decreases down a group due to increasing atomic size and shielding.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Electronegativity?",
+     "a": "Students often think that \"amphoteric oxide = weakly acidic oxide\" and write Al₂O₃ + 2HCl → AlCl₃ + H₂O but forget the reaction with NaOH: Al₂O₃ + 2NaOH → 2NaAlO₂ + H₂O.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can predict the acidic, basic, or amphoteric nature of an oxide given the element's position in the periodic table, and can explain the trend in electronegativity across a period and down a group using nuclear charge and atomic size arguments.",
+     "self_check": true
     }
    ]
   }

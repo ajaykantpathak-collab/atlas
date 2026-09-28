@@ -34,6 +34,26 @@
      "q": "Design a simple thought experiment using a spaceship moving at 0.8c towards a star emitting yellow light (λ₀ = 580 nm). What colour would the astronaut see? Justify using the relativistic formula.",
      "a": "β = 0.8. ν'/ν = √[(1+0.8)/(1-0.8)] = √[1.8/0.2] = √9 = 3. So λ' = λ₀/3 = 580/3 ≈ 193 nm (ultraviolet). The astronaut would not see a visible colour; the light shifts out of the visible range into UV. A good answer recognises that the non-relativistic formula (which would give λ' = λ₀/(1+0.8) ≈ 322 nm, still UV) is inaccurate at this speed, and that the shift is large enough to change the perceived colour entirely. A poor answer gives a visible colour (e.g., \"blue\") without calculation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Doppler effect in light is the change in observed frequency (or ______) of light due to relative motion between the source and the observer.",
+     "a": "wavelength",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ the pitch of an ambulance siren dropping as it passes you — this is the Doppler effect in sound.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Identify whether a given astronomical observation indicates red shift or blue shift and explain the physical reason; (2) Calculate the observed wavelength/frequency or the radial velocity of a star/galaxy given the rest wavelength and observed shift using the non-relativistic formula; (3) Distinguish between the Doppler.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the pitch of an ______ siren dropping as it passes you — this is the Doppler effect in sound.",
+     "a": "ambulance",
+     "self_check": true
     }
    ]
   }

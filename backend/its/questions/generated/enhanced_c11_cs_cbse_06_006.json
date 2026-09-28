@@ -34,6 +34,31 @@
      "q": "Create a new problem: \"Write a program that takes a string input from the user and prints a new string where every vowel is replaced by `*`, but only if the vowel is at an even index (0-based).\" Show the code using a `for` loop with `range(len(s))`.",
      "a": "```python\ns = input(\"Enter string: \")\nresult = \"\"\nfor i in range(len(s)):\n    if i % 2 == 0 and s[i] in \"AEIOUaeiou\":\n        result += \"*\"\n    else:\n        result += s[i]\nprint(result)\n```\nA poor answer uses `for ch in s:` and tries to track index manually with a separate counter — which works but is less direct. A student who cannot write this reveals they don't know how to combine index-based condition (`i % 2 == 0`) with character access (`s[i]`) in a `for-range` loop, a critical skill for position-dependent string processing.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Traversing a string using loops is the process of accessing each character of a string ______, one at a time, from the first character (index 0) to the last character (index len(string)-1) using iterative constructs like for or while loops to perform operations on individual characters.",
+     "a": "sequentially",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a security guard ______ ID cards of students entering a school gate one by one.",
+     "a": "checking",
+     "self_check": true
+    },
+    {
+     "q": "What is Traversing a string using loops? State the definition given in this lesson.",
+     "a": "Traversing a string using loops is the process of accessing each character of a string sequentially, one at a time, from the first character (index 0) to the last character (index len(string)-1) using iterative constructs like for or while loops to perform operations on individual characters.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Traversing a string using loops?",
+     "a": "Students believe that for i in s: gives them the index i (like in range(len(s))), so they write for i in \"TEXT\": print(s[i]) expecting i to be 0,1,2,3 — but i becomes 'T','E','X','T', causing TypeError: string indices must be integers.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write a Python program that correctly uses a for loop (with in operator) or a while loop (with index variable) to iterate through every character of a given string, and can modify the traversal to process characters conditionally (e.g., count vowels, build a reversed string, check for palindrome) without off-by-one errors.",
+     "self_check": true
     }
    ]
   }

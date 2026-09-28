@@ -34,6 +34,26 @@
      "q": "Design a short set of instructions using only an ungraduated straightedge and a compass to verify if two separate line segments drawn on your paper are of equal length.",
      "a": "Place the metal pointer of the compass at one end of the first line segment and adjust the pencil end so it touches the other end. Without changing the compass width, lift it and place the metal pointer at one end of the second line segment; if the pencil end touches the exact opposite endpoint, the segments are equal in length. A poor answer that suggests using a ruler's numerical scale reveals a failure to grasp how compasses transfer lengths independently of numbers.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Geometric ______ involve drawing precise figures, line segments, angles, and shapes using only two standard mathematical tools: a ungraduated straightedge (ruler) and a pair of compasses, without relying on measurement numbers.",
+     "a": "constructions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a builder designing a traditional Indian temple or a school playground, and you need to draw a perfectly straight line or split a land boundary into two ______ halves without using a measuring tape.",
+     "a": "identical",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can construct basic geometric elements (line segments, perpendiculars, angle bisectors, and angles) using a ruler and compass with accuracy, and can explain the geometric reasoning behind each construction step.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a builder designing a ______ Indian temple or a school playground, and you need to draw a perfectly straight line or split a land boundary into two identical halves without using a measuring tape.",
+     "a": "traditional",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Create a real-world scenario (Indian context) involving an implication where the hypothesis is false but the implication is still considered true. Explain why this doesn't violate common sense when understood as a logical rule rather than a causal claim.",
      "a": "Example: \"If it rains in Delhi tomorrow, then I will carry an umbrella.\" Suppose it does NOT rain in Delhi tomorrow (hypothesis false). Whether I carry an umbrella or not, the statement remains true because I only promised action IF it rains. I didn't promise to NOT carry an umbrella if it doesn't rain. This doesn't violate common sense because the statement is a conditional promise, not a causal law. A good answer will clearly separate the logical structure (promise about condition) from causal expectation. A poor answer will say \"it's true because logic says so\" without explaining the promise analogy, showing they memorized the rule without understanding the intuition behind vacuous truth.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An implication (if-then statement) is a compound statement of the form \"If p, then q\" denoted ______ as p → q, where p is the hypothesis (antecedent) and q is the conclusion (consequent).",
+     "a": "symbolically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your ______ teacher says: \"If you score above 90% in the Class 11 final exam, then I will gift you a scientific calculator.\" You want to know: under what circumstances did the teacher lie?",
+     "a": "mathematics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by identifying the two simple statements: p = \"you score above ______%\", q = \"teacher gifts calculator\".",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Translate natural language statements into symbolic implication form p → q and identify hypothesis/consequent correctly, (2) Construct and interpret the truth table for p → q explaining why false hypothesis makes implication true, (3) Distinguish between implication, converse, inverse, and contrapositive, and prove.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your mathematics teacher says: \"If you score above 90% in the Class 11 final exam, then I will gift you a scientific calculator.\" You want to know: under what ______ did the teacher lie?",
+     "a": "circumstances",
+     "self_check": true
     }
    ]
   }

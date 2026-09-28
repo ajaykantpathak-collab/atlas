@@ -1,305 +1,472 @@
 {
-  "class": 12,
-  "subject": "biology",
-  "chapter": 109,
-  "chapter_title": "Biotechnology : Principles and Processes",
-  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lebo109.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "concepts": [
+ "class": 12,
+ "subject": "biology",
+ "chapter": 109,
+ "chapter_title": "Biotechnology : Principles and Processes",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lebo109.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lebo109.9.1.1",
+   "title": "Principles of Biotechnology: Genetic Engineering and Bioprocesses",
+   "section": "9.1",
+   "definition": "Biotechnology uses living organisms or their enzymes to make products and processes people need -- curd and wine in the old sense, genetically modified organisms at scale in the modern sense; its two core techniques are genetic engineering, which rewrites the chemistry of dna or rna and installs it in a host to change the host's phenotype, and bioprocess engineering, which keeps a sterile, contamination-free environment so only the chosen cells multiply for making antibiotics, vaccines and enzymes.",
+   "formula": "",
+   "key_idea": "Traditional hybridisation drags undesirable genes along with wanted ones -- recombinant dna, gene cloning and gene transfer let you carry only the desired gene across.",
+   "textbook_ref": "lebo109.txt lines 49-125 (EFB definition, two core techniques, hybridisation limitation, ori and cloning idea)",
+   "question_patterns": [
+    "define biotechnology in both its traditional and modern senses",
+    "name the two core techniques that gave rise to modern biotechnology",
+    "what does bioprocess engineering maintain and why does sterility matter",
+    "why is sexual reproduction's variation an advantage for breeders",
+    "why must alien dna be linked to an origin of replication to multiply in a host",
+    "how does genetic engineering avoid carrying undesirable genes across"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
     {
-      "id": "lebo109.9.1.1",
-      "title": "Principles of Biotechnology: Genetic Engineering and Bioprocesses",
-      "section": "9.1",
-      "definition": "Biotechnology uses living organisms or their enzymes to make products and processes people need -- curd and wine in the old sense, genetically modified organisms at scale in the modern sense; its two core techniques are genetic engineering, which rewrites the chemistry of dna or rna and installs it in a host to change the host's phenotype, and bioprocess engineering, which keeps a sterile, contamination-free environment so only the chosen cells multiply for making antibiotics, vaccines and enzymes.",
-      "formula": "",
-      "key_idea": "Traditional hybridisation drags undesirable genes along with wanted ones -- recombinant dna, gene cloning and gene transfer let you carry only the desired gene across.",
-      "textbook_ref": "lebo109.txt lines 49-125 (EFB definition, two core techniques, hybridisation limitation, ori and cloning idea)",
-      "question_patterns": [
-        "define biotechnology in both its traditional and modern senses",
-        "name the two core techniques that gave rise to modern biotechnology",
-        "what does bioprocess engineering maintain and why does sterility matter",
-        "why is sexual reproduction's variation an advantage for breeders",
-        "why must alien dna be linked to an origin of replication to multiply in a host",
-        "how does genetic engineering avoid carrying undesirable genes across"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "Take the wide and narrow views", "explain": "Microbe-made curd, bread and wine qualify broadly; today the word usually means processes using genetically modified organisms, plus in vitro fertilisation, gene synthesis, dna vaccines and gene correction."},
-        {"step": 2, "action": "Name the two pillars", "explain": "Genetic engineering alters genetic-material chemistry and moves it into hosts; bioprocess engineering keeps sterile conditions so only the wanted microbe or eukaryotic cell grows in bulk."},
-        {"step": 3, "action": "See why cloning needs an ori", "explain": "A loose dna fragment cannot multiply in a new cell; hitched to a chromosome's origin of replication -- or to a vector carrying one -- it replicates and is inherited, giving multiple identical copies."},
-        {"step": 4, "action": "Recall the founding experiment", "explain": "Cohen and boyer linked an antibiotic-resistance gene to a salmonella plasmid with restriction enzymes and ligase, transferred it into e. coli, and multiplied the gene -- the first recombinant dna."}
-      ]
+     "step": 1,
+     "action": "Take the wide and narrow views",
+     "explain": "Microbe-made curd, bread and wine qualify broadly; today the word usually means processes using genetically modified organisms, plus in vitro fertilisation, gene synthesis, dna vaccines and gene correction."
     },
     {
-      "id": "lebo109.9.1.2",
-      "title": "Three Basic Steps of Genetically Modifying an Organism",
-      "section": "9.1, 9.3",
-      "definition": "Every genetic-modification project runs the same three-step play: identify the dna carrying the desirable gene, introduce that dna into the host, and keep it maintained there so it passes to the host's progeny; each stage has its own toolkit, from restriction cutting and ligation through vector delivery to selection of transformed cells.",
-      "formula": "",
-      "key_idea": "Identify, introduce, maintain -- the entire chapter is these three verbs elaborated with enzymes, vectors and hosts.",
-      "textbook_ref": "lebo109.txt lines 153-161 (the three basic steps) and 420-427 (process sequence)",
-      "question_patterns": [
-        "list the three basic steps in genetically modifying an organism",
-        "what must be done after the desirable gene is introduced into the host",
-        "in what sequence do the processes of recombinant dna technology run",
-        "why must introduced dna be transferred to the progeny of the host",
-        "how is the dna with desirable genes identified before transfer",
-        "which step of genetic modification uses vectors and which uses selection"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "Identify the wanted dna", "explain": "The dna fragment bearing desirable genes is cut out of its source with restriction endonucleases and separated on a gel."},
-        {"step": 2, "action": "Introduce it", "explain": "The fragment is ligated into a vector and the recombinant dna is delivered into a competent host cell by transformation, micro-injection, gene gun or disarmed pathogen."},
-        {"step": 3, "action": "Maintain and inherit", "explain": "An origin of replication lets the construct multiply in the host, selectable markers let only transformed cells survive, and the dna must reach the progeny for the change to stick."}
-      ]
+     "step": 2,
+     "action": "Name the two pillars",
+     "explain": "Genetic engineering alters genetic-material chemistry and moves it into hosts; bioprocess engineering keeps sterile conditions so only the wanted microbe or eukaryotic cell grows in bulk."
     },
     {
-      "id": "lebo109.9.2.1",
-      "title": "Restriction Enzymes: Palindromes and Sticky Ends",
-      "section": "9.2.1",
-      "definition": "Restriction endonucleases are the molecular scissors of genetic engineering -- hind ii was the first found to cut one specific six-base-pair recognition sequence, and over 900 such enzymes now come from more than 230 bacterial strains; each scans for a palindromic site that reads identically on both strands in the 5'-to-3' direction and cuts a little off-centre, leaving overhanging sticky ends that hydrogen-bond to their complements and invite dna ligase to seal the joint.",
-      "formula": "",
-      "key_idea": "Cut vector and insert with the same enzyme and their sticky ends match -- that single rule makes recombinant dna construction reproducible.",
-      "textbook_ref": "lebo109.txt lines 168-231 (Hind II, EcoRI naming, nucleases, palindrome GAATTC, sticky ends, recombinant formation)",
-      "question_patterns": [
-        "how are restriction enzymes named and what does ecori stand for",
-        "differentiate exonucleases from endonucleases",
-        "what is a palindromic sequence in dna and give an example",
-        "how do sticky ends help in forming recombinant dna",
-        "why must the vector and the source dna be cut by the same restriction enzyme",
-        "which was the first restriction endonuclease characterised and how long is its recognition sequence"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "Trace the origin and naming", "explain": "Two e. coli enzymes from 1963 started the story -- one methylated dna, one cut it; hind ii came five years later. Names encode source: eco ri reads escherichia coli strain ry 13, with roman numerals for order of isolation."},
-        {"step": 2, "action": "Sort the nucleases", "explain": "Exonucleases nibble nucleotides from dna ends; endonucleases cut at specific positions inside the molecule."},
-        {"step": 3, "action": "Recognise and cut", "explain": "Each enzyme inspects the dna until it finds its palindromic recognition site -- gaattc on one strand pairing cttaag on the other -- and cuts both backbones slightly off centre, between the same two bases."},
-        {"step": 4, "action": "Use the stickiness", "explain": "The single-stranded overhangs (sticky ends) pair by hydrogen bonding with complementary cut ends, and dna ligase permanently joins them -- fragments cut by the same enzyme fit end-to-end."}
-      ]
+     "step": 3,
+     "action": "See why cloning needs an ori",
+     "explain": "A loose dna fragment cannot multiply in a new cell; hitched to a chromosome's origin of replication -- or to a vector carrying one -- it replicates and is inherited, giving multiple identical copies."
     },
     {
-      "id": "lebo109.9.2.2",
-      "title": "Gel Electrophoresis and Elution of DNA Fragments",
-      "section": "9.2.1 (separation)",
-      "definition": "Because dna carries negative charge, an electric field drags restriction fragments through an agarose gel toward the anode, and the gel's sieve effect sorts them by size -- the smallest travel farthest; staining with ethidium bromide and viewing under uv light reveals bright orange bands, which are then cut out of the gel and eluted for use in constructing recombinant dna.",
-      "formula": "",
-      "key_idea": "Size decides the distance -- the gel is a molecular sieve, and the sample well must sit at the cathode end so fragments run toward the anode.",
-      "textbook_ref": "lebo109.txt lines 242-269 (electrophoresis principle, agarose, ethidium bromide, UV, elution)",
-      "question_patterns": [
-        "why do dna fragments move toward the anode during electrophoresis",
-        "how does an agarose gel separate dna fragments of different sizes",
-        "why cannot dna bands be seen without staining",
-        "which stain is used to visualise dna in a gel",
-        "what is elution and when is it performed",
-        "at which end of the gel is the sample loaded and why"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "Apply the field", "explain": "Negatively charged dna fragments migrate toward the anode through the agarose matrix under the electric field."},
-        {"step": 2, "action": "Let the sieve work", "explain": "The gel's mesh resists large fragments more, so fragments resolve strictly by size -- smaller ones run farther from the loading well."},
-        {"step": 3, "action": "Stain and view", "explain": "Ethidium bromide staining followed by uv exposure lights the bands bright orange; unstained dna is invisible in ordinary light."},
-        {"step": 4, "action": "Recover the bands", "explain": "Each band is sliced out of the gel and the dna extracted from the gel piece -- elution -- yielding pure fragments ready for ligation into cloning vectors."}
-      ]
-    },
-    {
-      "id": "lebo109.9.2.3",
-      "title": "Cloning Vectors: ori, Selectable Marker and Cloning Sites",
-      "section": "9.2.2",
-      "definition": "A cloning vector -- plasmid or bacteriophage dna that replicates autonomously in bacteria -- needs three essentials: an origin of replication that also sets the copy number, a selectable marker such as antibiotic-resistance genes that lets transformants outgrow non-transformants, and very few (ideally single) recognition sites for ligating alien dna; in pbr322 inserting at the bamh i site of the tetracycline gene knocks that resistance out, and chromogenic-substrate systems flag recombinants by losing colour through insertional inactivation of beta-galactosidase.",
-      "formula": "",
-      "key_idea": "One resistance gene selects transformants, the other reports the insert -- two antibiotic plates, or one colour test, settle which colonies are recombinant.",
-      "textbook_ref": "lebo109.txt lines 270-371 (copy numbers, ori, selectable markers, pBR322 BamHI/tetR, insertional inactivation)",
-      "question_patterns": [
-        "list the features required of a good cloning vector",
-        "why must a cloning vector carry an origin of replication and what else does the ori control",
-        "why do vectors need a selectable marker",
-        "in pbr322 how do you tell a recombinant colony from a non recombinant one",
-        "what is insertional inactivation and how does it show up on a plate",
-        "why should a vector carry only one recognition site for a restriction enzyme"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "Demand an ori", "explain": "Any dna tied to the origin of replication replicates inside the host; picking a high-copy ori multiplies the target dna many-fold -- plasmids range from one or two up to 15-100 copies per cell, phages higher still."},
-        {"step": 2, "action": "Demand a marker", "explain": "Transformation is inefficient, so genes for ampicillin, chloramphenicol, tetracycline or kanamycin resistance mark which cells actually took the vector."},
-        {"step": 3, "action": "Demand few sites", "explain": "Multiple recognition sites would shred the vector; a single site -- e.g. bamh i inside pbr322's tetracycline-resistance gene -- takes the insert cleanly."},
-        {"step": 4, "action": "Read the selection logic", "explain": "Recombinants keep ampicillin resistance but lose tetracycline resistance (insertion disrupts tet r), so they grow on ampicillin plates but not tetracycline; colour systems simplify this -- an insert knocking out beta-galactosidase leaves colonies colourless on chromogenic substrate while non-recombinants turn blue."}
-      ]
-    },
-    {
-      "id": "lebo109.9.2.4",
-      "title": "Vectors for Plants and Animals: Ti Plasmid and Retroviruses",
-      "section": "9.2.2 (iv)",
-      "definition": "Nature's own gene-deliverers became biotech's vectors: agrobacterium tumifaciens naturally injects t-dna into dicot plant cells to make tumors, so its tumor-inducing (ti) plasmid was disarmed into a harmless delivery vehicle for genes of interest, and retroviruses, which normally transform animal cells cancerous, were similarly neutered to ferry desirable genes into animal cells.",
-      "formula": "",
-      "key_idea": "Disarm the pathogen, keep the delivery machinery -- the trick that converted plant tumors and animal cancers into genetic-engineering tools.",
-      "textbook_ref": "lebo109.txt lines 373-393 (Agrobacterium T-DNA, Ti plasmid modified, retroviruses disarmed)",
-      "question_patterns": [
-        "how does agrobacterium tumifaciens naturally transform plant cells",
-        "what is t dna and what does it do in infected plants",
-        "how was the ti plasmid converted into a safe cloning vector",
-        "why are retroviruses useful vectors for animal cells",
-        "what does disarming a pathogen vector mean",
-        "which natural pathogens taught scientists gene delivery to eukaryotes"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "Study the natural invader", "explain": "Agrobacterium tumifaciens, a dicot pathogen, delivers a dna piece (t-dna) that turns normal plant cells into tumors producing the pathogen's chemicals; retroviruses do the equivalent to animal cells."},
-        {"step": 2, "action": "Disarm and repurpose", "explain": "The ti plasmid was modified so it no longer causes tumors yet still delivers -- now it carries genes of our choosing into many plants."},
-        {"step": 3, "action": "Do the same for animals", "explain": "Retroviruses, stripped of their harmful transformations, deliver desirable genes into animal cells; once ligated into any suitable vector the construct is transferred into bacterial, plant or animal hosts to multiply."}
-      ]
-    },
-    {
-      "id": "lebo109.9.2.5",
-      "title": "Making the Host Competent and Routes of DNA Entry",
-      "section": "9.2.3",
-      "definition": "Hydrophilic dna cannot cross a cell membrane on its own, so bacteria are made competent by soaking them in a divalent cation such as calcium, which widens efficiency through wall pores; recombinant dna then goes in with an ice-42 degree-ice heat shock, while animal cells can receive dna by micro-injection into the nucleus, plant cells by gene-gun bombardment with gold or tungsten microparticles, and both by disarmed-pathogen vectors that infect and deliver.",
-      "formula": "",
-      "key_idea": "Four delivery routes, one goal -- get dna through a membrane that chemistry says it cannot cross.",
-      "textbook_ref": "lebo109.txt lines 394-417 (calcium competence, heat shock, micro-injection, biolistics/gene gun, disarmed pathogens)",
-      "question_patterns": [
-        "why must bacterial cells be made competent before taking up dna",
-        "what role do calcium ions play in bacterial transformation",
-        "describe the ice heat shock ice procedure for introducing dna",
-        "how does a gene gun deliver dna into plant cells",
-        "what is micro injection and which cells suit it best",
-        "how do disarmed pathogen vectors introduce recombinant dna"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "Open the door chemically", "explain": "Dna is hydrophilic and blocked by membranes; treating cells with a specific concentration of a divalent cation like calcium boosts dna entry through pores in the wall."},
-        {"step": 2, "action": "Push it through", "explain": "Cells incubated with recombinant dna on ice are given a brief 42-degree heat shock and returned to ice -- the pulse lets the plasmid slip in."},
-        {"step": 3, "action": "Consider the alternatives", "explain": "Micro-injection shoots dna straight into an animal cell's nucleus; biolistics (gene gun) fires dna-coated gold or tungsten microparticles into plant cells; disarmed pathogens infect and deliver their cargo."}
-      ]
-    },
-    {
-      "id": "lebo109.9.3.1",
-      "title": "Isolating and Cutting the Genetic Material",
-      "section": "9.3.1, 9.3.2",
-      "definition": "Pure dna is the starting material, so cells are burst open with lysozyme for bacteria, cellulase for plant cells and chitinase for fungi; ribonuclease strips rna, protease removes proteins such as histones, and chilled ethanol precipitates the cleaned dna as fine spoolable threads, after which restriction digestion -- checked on an agarose gel -- cuts both the source dna and the vector at matching sites for ligation.",
-      "formula": "",
-      "key_idea": "Each contaminant has its own enzyme -- rna for ribonuclease, protein for protease, cell walls for lysozyme, cellulase or chitinase -- leaving dna alone.",
-      "textbook_ref": "lebo109.txt lines 428-464 (enzyme lysis, RNase, protease, chilled ethanol spooling, digestion and gel check)",
-      "question_patterns": [
-        "which enzymes break open bacterial plant and fungal cells for dna isolation",
-        "how are rna and proteins removed from a crude dna extract",
-        "why is chilled ethanol added at the end of dna purification",
-        "why must dna be pure before restriction digestion",
-        "how do you monitor the progress of a restriction enzyme digestion",
-        "what happens after both the source dna and the vector are cut"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "Lyse the right wall", "explain": "Bacterial cells yield to lysozyme, plant cells to cellulase, fungal cells to chitinase -- releasing dna together with rna, proteins, polysaccharides and lipids."},
-        {"step": 2, "action": "Strip the contaminants", "explain": "Ribonuclease degrades rna and protease digests the histone-associated proteins; other impurities fall to suitable treatments."},
-        {"step": 3, "action": "Precipitate and spool", "explain": "Adding chilled ethanol pulls the purified dna out as a visible tangle of fine threads that can be spooled off."},
-        {"step": 4, "action": "Cut and check", "explain": "Purified dna and vector are incubated separately with the chosen restriction enzyme under its optimal conditions, agarose gel electrophoresis confirms the digestion, and ligase then joins gene of interest to opened vector -- recombinant dna."}
-      ]
-    },
-    {
-      "id": "lebo109.9.3.2",
-      "title": "PCR Amplification of the Gene of Interest",
-      "section": "9.3.3",
-      "definition": "The polymerase chain reaction synthesises multiple copies of a chosen dna segment in vitro using two primer sets -- short synthetic oligonucleotides complementary to the target's flanks -- plus a dna polymerase; every cycle of denaturation, primer annealing and extension doubles the copies, and the thermostable polymerase from thermus aquaticus survives the heat that separates the strands, so about thirty cycles build roughly a billion-fold amplification.",
-      "formula": "copy_count = 2 ** cycles",
-      "key_idea": "Doubling per cycle is the whole arithmetic -- a thermostable polymerase is what lets the doubling repeat dozens of times without fresh enzyme.",
-      "textbook_ref": "lebo109.txt lines 465-486 (PCR steps, primers, Taq polymerase from Thermus aquaticus, billion copies)",
-      "question_patterns": [
-        "what are the three steps of each pcr cycle",
-        "why is a thermostable dna polymerase needed in pcr",
-        "from which bacterium was the heat stable polymerase of pcr isolated",
-        "work out how many copies of a dna segment remain after a given number of pcr cycles",
-        "what role do primers play in the polymerase chain reaction",
-        "roughly how many copies does pcr produce after about thirty cycles"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "Double once per cycle", "explain": "Each cycle -- denaturation, primer annealing, extension of primers -- doubles the number of target copies.", "compute": "copy_count = 2 ** cycles"}
-      ]
-    },
-    {
-      "id": "lebo109.9.3.3",
-      "title": "Bioreactors and Downstream Processing",
-      "section": "9.3.4, 9.3.5, 9.3.6",
-      "definition": "Transformed hosts are grown at scale in stirred-tank bioreactors handling 100-1000 litres, equipped with agitators, oxygen delivery, foam, temperature and ph controls and sampling ports so cells stay in their most productive exponential phase; afterwards downstream processing separates and purifies the product, formulates it with preservatives and puts it through clinical trials and strict quality control before marketing.",
-      "formula": "",
-      "key_idea": "A small flask culture never yields useful quantities -- scale-up in a bioreactor, then purification and quality control, turn a cloned gene into a sellable product.",
-      "textbook_ref": "lebo109.txt lines 487-603 (selection on ampicillin, recombinant protein, continuous culture, stirred-tank bioreactor, downstream processing)",
-      "question_patterns": [
-        "what capacities and controls does a stirred tank bioreactor offer",
-        "why does a small scale laboratory culture give poor product yields",
-        "what is a recombinant protein and where is it expressed",
-        "how does a continuous culture system keep cells in exponential phase",
-        "list the processes included in downstream processing",
-        "why must the finished biotech product undergo clinical trials and quality control"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "Select the transformed cells", "explain": "Spreading cells on ampicillin plates keeps only those carrying the resistance-gene construct -- the selectable marker at work; the alien dna must then be expressed under tuned conditions."},
-        {"step": 2, "action": "Scale up the culture", "explain": "Continuous culture drains spent medium while feeding fresh, holding cells at peak physiology; bioreactors of 100-1000 litres with stirrers, sparged air, and foam, temperature, ph controls provide optimal growth conditions."},
-        {"step": 3, "action": "Purify the product", "explain": "Downstream processing extracts the protein from the biomass and applies separation and purification techniques."},
-        {"step": 4, "action": "Finish like a drug", "explain": "The product is formulated with preservatives, run through clinical trials as drugs are, and released only after strict quality-control testing tailored to each product."}
-      ]
+     "step": 4,
+     "action": "Recall the founding experiment",
+     "explain": "Cohen and boyer linked an antibiotic-resistance gene to a salmonella plasmid with restriction enzymes and ligase, transferred it into e. coli, and multiplied the gene -- the first recombinant dna."
     }
-  ],
-  "worked_examples": [
+   ]
+  },
+  {
+   "id": "lebo109.9.1.2",
+   "title": "Three Basic Steps of Genetically Modifying an Organism",
+   "section": "9.1, 9.3",
+   "definition": "Every genetic-modification project runs the same three-step play: identify the dna carrying the desirable gene, introduce that dna into the host, and keep it maintained there so it passes to the host's progeny; each stage has its own toolkit, from restriction cutting and ligation through vector delivery to selection of transformed cells.",
+   "formula": "",
+   "key_idea": "Identify, introduce, maintain -- the entire chapter is these three verbs elaborated with enzymes, vectors and hosts.",
+   "textbook_ref": "lebo109.txt lines 153-161 (the three basic steps) and 420-427 (process sequence)",
+   "question_patterns": [
+    "list the three basic steps in genetically modifying an organism",
+    "what must be done after the desirable gene is introduced into the host",
+    "in what sequence do the processes of recombinant dna technology run",
+    "why must introduced dna be transferred to the progeny of the host",
+    "how is the dna with desirable genes identified before transfer",
+    "which step of genetic modification uses vectors and which uses selection"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
     {
-      "id": "we_lebo109_1",
-      "source_ref": "lebo109.txt lines 465-486 (PCR doubling per cycle and billion copies)",
-      "concept": "lebo109.9.3.2",
-      "question_type": "compute",
-      "question_pattern": "A pcr run completes {cycles} cycles starting from one copy of the target segment. Roughly how many copies of the segment exist at the end?",
-      "extracted_variables": {
-        "cycles": 30
-      },
-      "solution_template": [
-        {"step": 1, "action": "Double per cycle", "explain": "Every cycle of denaturation, annealing and extension doubles the copies, so the count is two raised to the cycle number: two to the thirtieth, about a billion.", "compute": "copy_count = 2 ** cycles"}
-      ]
+     "step": 1,
+     "action": "Identify the wanted dna",
+     "explain": "The dna fragment bearing desirable genes is cut out of its source with restriction endonucleases and separated on a gel."
     },
     {
-      "id": "we_lebo109_2",
-      "source_ref": "lebo109.txt lines 324-357 (pBR322 BamHI insert and two-plate selection)",
-      "concept": "lebo109.9.2.3",
-      "question_type": "verify_property",
-      "question_pattern": "Foreign dna was ligated into the bamh i site inside the tetracycline resistance gene of vector pbr322, and e coli was transformed. Sort the colonies: which grow on ampicillin, which on tetracycline, and which are recombinant?",
-      "extracted_variables": {},
-      "solution_template": [
-        {"step": 1, "action": "Mark the disruption", "explain": "Inserting dna at bamh i breaks the tetracycline-resistance gene, so recombinant plasmids keep ampicillin resistance but lose tetracycline resistance."},
-        {"step": 2, "action": "Plate and read", "explain": "Recombinants grow on ampicillin medium but fail on tetracycline; non-recombinants grow on both -- transformants are chosen on ampicillin, then recombinants identified by tetracycline sensitivity."}
-      ]
+     "step": 2,
+     "action": "Introduce it",
+     "explain": "The fragment is ligated into a vector and the recombinant dna is delivered into a competent host cell by transformation, micro-injection, gene gun or disarmed pathogen."
     },
     {
-      "id": "we_lebo109_3",
-      "source_ref": "lebo109.txt lines 181-190 (naming convention for restriction enzymes)",
-      "concept": "lebo109.9.2.1",
-      "question_type": "verify_property",
-      "question_pattern": "The restriction enzyme {enzyme_name} was isolated from a bacterium. Decode its name into genus, species, strain and order of discovery.",
-      "extracted_variables": {
-        "enzyme_name": "EcoRI"
-      },
-      "solution_template": [
-        {"step": 1, "action": "Read the genus and species", "explain": "The first letter e comes from escherichia and the next two letters co from coli -- the source organism's binomial."},
-        {"step": 2, "action": "Read the strain and order", "explain": "The capital r denotes the strain ry 13, and the roman numeral i marks it as the first enzyme isolated from that strain."}
-      ]
+     "step": 3,
+     "action": "Maintain and inherit",
+     "explain": "An origin of replication lets the construct multiply in the host, selectable markers let only transformed cells survive, and the dna must reach the progeny for the change to stick."
     }
-  ],
-  "exercises": [
+   ]
+  },
+  {
+   "id": "lebo109.9.2.1",
+   "title": "Restriction Enzymes: Palindromes and Sticky Ends",
+   "section": "9.2.1",
+   "definition": "Restriction endonucleases are the molecular scissors of genetic engineering -- hind ii was the first found to cut one specific six-base-pair recognition sequence, and over 900 such enzymes now come from more than 230 bacterial strains; each scans for a palindromic site that reads identically on both strands in the 5'-to-3' direction and cuts a little off-centre, leaving overhanging sticky ends that hydrogen-bond to their complements and invite dna ligase to seal the joint.",
+   "formula": "",
+   "key_idea": "Cut vector and insert with the same enzyme and their sticky ends match -- that single rule makes recombinant dna construction reproducible.",
+   "textbook_ref": "lebo109.txt lines 168-231 (Hind II, EcoRI naming, nucleases, palindrome GAATTC, sticky ends, recombinant formation)",
+   "question_patterns": [
+    "how are restriction enzymes named and what does ecori stand for",
+    "differentiate exonucleases from endonucleases",
+    "what is a palindromic sequence in dna and give an example",
+    "how do sticky ends help in forming recombinant dna",
+    "why must the vector and the source dna be cut by the same restriction enzyme",
+    "which was the first restriction endonuclease characterised and how long is its recognition sequence"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
     {
-      "id": "ex_lebo109_1",
-      "source_ref": "lebo109.txt lines 569-623 (end-of-chapter exercises 1-12, reworded)",
-      "questions": [
-        "List ten recombinant proteins used in medical practice and where each serves as a therapeutic.",
-        "Chart one restriction enzyme showing its substrate dna, its cut site and the products formed.",
-        "In molecular size, which is bigger -- enzymes or dna -- and how do you know?",
-        "What would the molar concentration of human dna in a human cell be?",
-        "Do eukaryotic cells carry restriction endonucleases? Justify your answer.",
-        "Beyond better aeration and mixing, what advantages do stirred-tank bioreactors hold over shake flasks?",
-        "Collect five palindromic dna sequences, or build one yourself using the base-pair rules.",
-        "Recalling meiosis, name the stage at which recombination of dna occurs naturally.",
-        "How can a reporter enzyme monitor transformation by foreign dna in addition to a selectable marker?",
-        "Briefly describe the origin of replication, bioreactors and downstream processing.",
-        "Explain in brief: pcr, restriction enzymes and dna, chitinase.",
-        "How would you distinguish plasmid dna from chromosomal dna, rna from dna, and exonuclease from endonuclease?"
-      ]
+     "step": 1,
+     "action": "Trace the origin and naming",
+     "explain": "Two e. coli enzymes from 1963 started the story -- one methylated dna, one cut it; hind ii came five years later. Names encode source: eco ri reads escherichia coli strain ry 13, with roman numerals for order of isolation."
+    },
+    {
+     "step": 2,
+     "action": "Sort the nucleases",
+     "explain": "Exonucleases nibble nucleotides from dna ends; endonucleases cut at specific positions inside the molecule."
+    },
+    {
+     "step": 3,
+     "action": "Recognise and cut",
+     "explain": "Each enzyme inspects the dna until it finds its palindromic recognition site -- gaattc on one strand pairing cttaag on the other -- and cuts both backbones slightly off centre, between the same two bases."
+    },
+    {
+     "step": 4,
+     "action": "Use the stickiness",
+     "explain": "The single-stranded overhangs (sticky ends) pair by hydrogen bonding with complementary cut ends, and dna ligase permanently joins them -- fragments cut by the same enzyme fit end-to-end."
     }
-  ]
+   ]
+  },
+  {
+   "id": "lebo109.9.2.2",
+   "title": "Gel Electrophoresis and Elution of DNA Fragments",
+   "section": "9.2.1 (separation)",
+   "definition": "Because dna carries negative charge, an electric field drags restriction fragments through an agarose gel toward the anode, and the gel's sieve effect sorts them by size -- the smallest travel farthest; staining with ethidium bromide and viewing under uv light reveals bright orange bands, which are then cut out of the gel and eluted for use in constructing recombinant dna.",
+   "formula": "",
+   "key_idea": "Size decides the distance -- the gel is a molecular sieve, and the sample well must sit at the cathode end so fragments run toward the anode.",
+   "textbook_ref": "lebo109.txt lines 242-269 (electrophoresis principle, agarose, ethidium bromide, UV, elution)",
+   "question_patterns": [
+    "why do dna fragments move toward the anode during electrophoresis",
+    "how does an agarose gel separate dna fragments of different sizes",
+    "why cannot dna bands be seen without staining",
+    "which stain is used to visualise dna in a gel",
+    "what is elution and when is it performed",
+    "at which end of the gel is the sample loaded and why"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Apply the field",
+     "explain": "Negatively charged dna fragments migrate toward the anode through the agarose matrix under the electric field."
+    },
+    {
+     "step": 2,
+     "action": "Let the sieve work",
+     "explain": "The gel's mesh resists large fragments more, so fragments resolve strictly by size -- smaller ones run farther from the loading well."
+    },
+    {
+     "step": 3,
+     "action": "Stain and view",
+     "explain": "Ethidium bromide staining followed by uv exposure lights the bands bright orange; unstained dna is invisible in ordinary light."
+    },
+    {
+     "step": 4,
+     "action": "Recover the bands",
+     "explain": "Each band is sliced out of the gel and the dna extracted from the gel piece -- elution -- yielding pure fragments ready for ligation into cloning vectors."
+    }
+   ]
+  },
+  {
+   "id": "lebo109.9.2.3",
+   "title": "Cloning Vectors: ori, Selectable Marker and Cloning Sites",
+   "section": "9.2.2",
+   "definition": "A cloning vector -- plasmid or bacteriophage dna that replicates autonomously in bacteria -- needs three essentials: an origin of replication that also sets the copy number, a selectable marker such as antibiotic-resistance genes that lets transformants outgrow non-transformants, and very few (ideally single) recognition sites for ligating alien dna; in pbr322 inserting at the bamh i site of the tetracycline gene knocks that resistance out, and chromogenic-substrate systems flag recombinants by losing colour through insertional inactivation of beta-galactosidase.",
+   "formula": "",
+   "key_idea": "One resistance gene selects transformants, the other reports the insert -- two antibiotic plates, or one colour test, settle which colonies are recombinant.",
+   "textbook_ref": "lebo109.txt lines 270-371 (copy numbers, ori, selectable markers, pBR322 BamHI/tetR, insertional inactivation)",
+   "question_patterns": [
+    "list the features required of a good cloning vector",
+    "why must a cloning vector carry an origin of replication and what else does the ori control",
+    "why do vectors need a selectable marker",
+    "in pbr322 how do you tell a recombinant colony from a non recombinant one",
+    "what is insertional inactivation and how does it show up on a plate",
+    "why should a vector carry only one recognition site for a restriction enzyme"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Demand an ori",
+     "explain": "Any dna tied to the origin of replication replicates inside the host; picking a high-copy ori multiplies the target dna many-fold -- plasmids range from one or two up to 15-100 copies per cell, phages higher still."
+    },
+    {
+     "step": 2,
+     "action": "Demand a marker",
+     "explain": "Transformation is inefficient, so genes for ampicillin, chloramphenicol, tetracycline or kanamycin resistance mark which cells actually took the vector."
+    },
+    {
+     "step": 3,
+     "action": "Demand few sites",
+     "explain": "Multiple recognition sites would shred the vector; a single site -- e.g. bamh i inside pbr322's tetracycline-resistance gene -- takes the insert cleanly."
+    },
+    {
+     "step": 4,
+     "action": "Read the selection logic",
+     "explain": "Recombinants keep ampicillin resistance but lose tetracycline resistance (insertion disrupts tet r), so they grow on ampicillin plates but not tetracycline; colour systems simplify this -- an insert knocking out beta-galactosidase leaves colonies colourless on chromogenic substrate while non-recombinants turn blue."
+    }
+   ]
+  },
+  {
+   "id": "lebo109.9.2.4",
+   "title": "Vectors for Plants and Animals: Ti Plasmid and Retroviruses",
+   "section": "9.2.2 (iv)",
+   "definition": "Nature's own gene-deliverers became biotech's vectors: agrobacterium tumifaciens naturally injects t-dna into dicot plant cells to make tumors, so its tumor-inducing (ti) plasmid was disarmed into a harmless delivery vehicle for genes of interest, and retroviruses, which normally transform animal cells cancerous, were similarly neutered to ferry desirable genes into animal cells.",
+   "formula": "",
+   "key_idea": "Disarm the pathogen, keep the delivery machinery -- the trick that converted plant tumors and animal cancers into genetic-engineering tools.",
+   "textbook_ref": "lebo109.txt lines 373-393 (Agrobacterium T-DNA, Ti plasmid modified, retroviruses disarmed)",
+   "question_patterns": [
+    "how does agrobacterium tumifaciens naturally transform plant cells",
+    "what is t dna and what does it do in infected plants",
+    "how was the ti plasmid converted into a safe cloning vector",
+    "why are retroviruses useful vectors for animal cells",
+    "what does disarming a pathogen vector mean",
+    "which natural pathogens taught scientists gene delivery to eukaryotes"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Study the natural invader",
+     "explain": "Agrobacterium tumifaciens, a dicot pathogen, delivers a dna piece (t-dna) that turns normal plant cells into tumors producing the pathogen's chemicals; retroviruses do the equivalent to animal cells."
+    },
+    {
+     "step": 2,
+     "action": "Disarm and repurpose",
+     "explain": "The ti plasmid was modified so it no longer causes tumors yet still delivers -- now it carries genes of our choosing into many plants."
+    },
+    {
+     "step": 3,
+     "action": "Do the same for animals",
+     "explain": "Retroviruses, stripped of their harmful transformations, deliver desirable genes into animal cells; once ligated into any suitable vector the construct is transferred into bacterial, plant or animal hosts to multiply."
+    }
+   ]
+  },
+  {
+   "id": "lebo109.9.2.5",
+   "title": "Making the Host Competent and Routes of DNA Entry",
+   "section": "9.2.3",
+   "definition": "Hydrophilic dna cannot cross a cell membrane on its own, so bacteria are made competent by soaking them in a divalent cation such as calcium, which widens efficiency through wall pores; recombinant dna then goes in with an ice-42 degree-ice heat shock, while animal cells can receive dna by micro-injection into the nucleus, plant cells by gene-gun bombardment with gold or tungsten microparticles, and both by disarmed-pathogen vectors that infect and deliver.",
+   "formula": "",
+   "key_idea": "Four delivery routes, one goal -- get dna through a membrane that chemistry says it cannot cross.",
+   "textbook_ref": "lebo109.txt lines 394-417 (calcium competence, heat shock, micro-injection, biolistics/gene gun, disarmed pathogens)",
+   "question_patterns": [
+    "why must bacterial cells be made competent before taking up dna",
+    "what role do calcium ions play in bacterial transformation",
+    "describe the ice heat shock ice procedure for introducing dna",
+    "how does a gene gun deliver dna into plant cells",
+    "what is micro injection and which cells suit it best",
+    "how do disarmed pathogen vectors introduce recombinant dna"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Open the door chemically",
+     "explain": "Dna is hydrophilic and blocked by membranes; treating cells with a specific concentration of a divalent cation like calcium boosts dna entry through pores in the wall."
+    },
+    {
+     "step": 2,
+     "action": "Push it through",
+     "explain": "Cells incubated with recombinant dna on ice are given a brief 42-degree heat shock and returned to ice -- the pulse lets the plasmid slip in."
+    },
+    {
+     "step": 3,
+     "action": "Consider the alternatives",
+     "explain": "Micro-injection shoots dna straight into an animal cell's nucleus; biolistics (gene gun) fires dna-coated gold or tungsten microparticles into plant cells; disarmed pathogens infect and deliver their cargo."
+    }
+   ]
+  },
+  {
+   "id": "lebo109.9.3.1",
+   "title": "Isolating and Cutting the Genetic Material",
+   "section": "9.3.1, 9.3.2",
+   "definition": "Pure dna is the starting material, so cells are burst open with lysozyme for bacteria, cellulase for plant cells and chitinase for fungi; ribonuclease strips rna, protease removes proteins such as histones, and chilled ethanol precipitates the cleaned dna as fine spoolable threads, after which restriction digestion -- checked on an agarose gel -- cuts both the source dna and the vector at matching sites for ligation.",
+   "formula": "",
+   "key_idea": "Each contaminant has its own enzyme -- rna for ribonuclease, protein for protease, cell walls for lysozyme, cellulase or chitinase -- leaving dna alone.",
+   "textbook_ref": "lebo109.txt lines 428-464 (enzyme lysis, RNase, protease, chilled ethanol spooling, digestion and gel check)",
+   "question_patterns": [
+    "which enzymes break open bacterial plant and fungal cells for dna isolation",
+    "how are rna and proteins removed from a crude dna extract",
+    "why is chilled ethanol added at the end of dna purification",
+    "why must dna be pure before restriction digestion",
+    "how do you monitor the progress of a restriction enzyme digestion",
+    "what happens after both the source dna and the vector are cut"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Lyse the right wall",
+     "explain": "Bacterial cells yield to lysozyme, plant cells to cellulase, fungal cells to chitinase -- releasing dna together with rna, proteins, polysaccharides and lipids."
+    },
+    {
+     "step": 2,
+     "action": "Strip the contaminants",
+     "explain": "Ribonuclease degrades rna and protease digests the histone-associated proteins; other impurities fall to suitable treatments."
+    },
+    {
+     "step": 3,
+     "action": "Precipitate and spool",
+     "explain": "Adding chilled ethanol pulls the purified dna out as a visible tangle of fine threads that can be spooled off."
+    },
+    {
+     "step": 4,
+     "action": "Cut and check",
+     "explain": "Purified dna and vector are incubated separately with the chosen restriction enzyme under its optimal conditions, agarose gel electrophoresis confirms the digestion, and ligase then joins gene of interest to opened vector -- recombinant dna."
+    }
+   ]
+  },
+  {
+   "id": "lebo109.9.3.2",
+   "title": "PCR Amplification of the Gene of Interest",
+   "section": "9.3.3",
+   "definition": "The polymerase chain reaction synthesises multiple copies of a chosen dna segment in vitro using two primer sets -- short synthetic oligonucleotides complementary to the target's flanks -- plus a dna polymerase; every cycle of denaturation, primer annealing and extension doubles the copies, and the thermostable polymerase from thermus aquaticus survives the heat that separates the strands, so about thirty cycles build roughly a billion-fold amplification.",
+   "formula": "copy_count = 2 ** cycles",
+   "key_idea": "Doubling per cycle is the whole arithmetic -- a thermostable polymerase is what lets the doubling repeat dozens of times without fresh enzyme.",
+   "textbook_ref": "lebo109.txt lines 465-486 (PCR steps, primers, Taq polymerase from Thermus aquaticus, billion copies)",
+   "question_patterns": [
+    "what are the three steps of each pcr cycle",
+    "why is a thermostable dna polymerase needed in pcr",
+    "from which bacterium was the heat stable polymerase of pcr isolated",
+    "work out how many copies of a dna segment remain after a given number of pcr cycles",
+    "what role do primers play in the polymerase chain reaction",
+    "roughly how many copies does pcr produce after about thirty cycles"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Double once per cycle",
+     "explain": "Each cycle -- denaturation, primer annealing, extension of primers -- doubles the number of target copies.",
+     "compute": "copy_count = 2 ** cycles"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "copy_count = 2 ** cycles",
+     "compute": "copy_count = 2 ** cycles"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lebo109.9.3.3",
+   "title": "Bioreactors and Downstream Processing",
+   "section": "9.3.4, 9.3.5, 9.3.6",
+   "definition": "Transformed hosts are grown at scale in stirred-tank bioreactors handling 100-1000 litres, equipped with agitators, oxygen delivery, foam, temperature and ph controls and sampling ports so cells stay in their most productive exponential phase; afterwards downstream processing separates and purifies the product, formulates it with preservatives and puts it through clinical trials and strict quality control before marketing.",
+   "formula": "",
+   "key_idea": "A small flask culture never yields useful quantities -- scale-up in a bioreactor, then purification and quality control, turn a cloned gene into a sellable product.",
+   "textbook_ref": "lebo109.txt lines 487-603 (selection on ampicillin, recombinant protein, continuous culture, stirred-tank bioreactor, downstream processing)",
+   "question_patterns": [
+    "what capacities and controls does a stirred tank bioreactor offer",
+    "why does a small scale laboratory culture give poor product yields",
+    "what is a recombinant protein and where is it expressed",
+    "how does a continuous culture system keep cells in exponential phase",
+    "list the processes included in downstream processing",
+    "why must the finished biotech product undergo clinical trials and quality control"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Select the transformed cells",
+     "explain": "Spreading cells on ampicillin plates keeps only those carrying the resistance-gene construct -- the selectable marker at work; the alien dna must then be expressed under tuned conditions."
+    },
+    {
+     "step": 2,
+     "action": "Scale up the culture",
+     "explain": "Continuous culture drains spent medium while feeding fresh, holding cells at peak physiology; bioreactors of 100-1000 litres with stirrers, sparged air, and foam, temperature, ph controls provide optimal growth conditions."
+    },
+    {
+     "step": 3,
+     "action": "Purify the product",
+     "explain": "Downstream processing extracts the protein from the biomass and applies separation and purification techniques."
+    },
+    {
+     "step": 4,
+     "action": "Finish like a drug",
+     "explain": "The product is formulated with preservatives, run through clinical trials as drugs are, and released only after strict quality-control testing tailored to each product."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_lebo109_1",
+   "source_ref": "lebo109.txt lines 465-486 (PCR doubling per cycle and billion copies)",
+   "concept": "lebo109.9.3.2",
+   "question_type": "compute",
+   "question_pattern": "A pcr run completes {cycles} cycles starting from one copy of the target segment. Roughly how many copies of the segment exist at the end?",
+   "extracted_variables": {
+    "cycles": 30
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Double per cycle",
+     "explain": "Every cycle of denaturation, annealing and extension doubles the copies, so the count is two raised to the cycle number: two to the thirtieth, about a billion.",
+     "compute": "copy_count = 2 ** cycles"
+    }
+   ]
+  },
+  {
+   "id": "we_lebo109_2",
+   "source_ref": "lebo109.txt lines 324-357 (pBR322 BamHI insert and two-plate selection)",
+   "concept": "lebo109.9.2.3",
+   "question_type": "verify_property",
+   "question_pattern": "Foreign dna was ligated into the bamh i site inside the tetracycline resistance gene of vector pbr322, and e coli was transformed. Sort the colonies: which grow on ampicillin, which on tetracycline, and which are recombinant?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Mark the disruption",
+     "explain": "Inserting dna at bamh i breaks the tetracycline-resistance gene, so recombinant plasmids keep ampicillin resistance but lose tetracycline resistance."
+    },
+    {
+     "step": 2,
+     "action": "Plate and read",
+     "explain": "Recombinants grow on ampicillin medium but fail on tetracycline; non-recombinants grow on both -- transformants are chosen on ampicillin, then recombinants identified by tetracycline sensitivity."
+    }
+   ]
+  },
+  {
+   "id": "we_lebo109_3",
+   "source_ref": "lebo109.txt lines 181-190 (naming convention for restriction enzymes)",
+   "concept": "lebo109.9.2.1",
+   "question_type": "verify_property",
+   "question_pattern": "The restriction enzyme {enzyme_name} was isolated from a bacterium. Decode its name into genus, species, strain and order of discovery.",
+   "extracted_variables": {
+    "enzyme_name": "EcoRI"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Read the genus and species",
+     "explain": "The first letter e comes from escherichia and the next two letters co from coli -- the source organism's binomial."
+    },
+    {
+     "step": 2,
+     "action": "Read the strain and order",
+     "explain": "The capital r denotes the strain ry 13, and the roman numeral i marks it as the first enzyme isolated from that strain."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_lebo109_1",
+   "source_ref": "lebo109.txt lines 569-623 (end-of-chapter exercises 1-12, reworded)",
+   "questions": [
+    "List ten recombinant proteins used in medical practice and where each serves as a therapeutic.",
+    "Chart one restriction enzyme showing its substrate dna, its cut site and the products formed.",
+    "In molecular size, which is bigger -- enzymes or dna -- and how do you know?",
+    "What would the molar concentration of human dna in a human cell be?",
+    "Do eukaryotic cells carry restriction endonucleases? Justify your answer.",
+    "Beyond better aeration and mixing, what advantages do stirred-tank bioreactors hold over shake flasks?",
+    "Collect five palindromic dna sequences, or build one yourself using the base-pair rules.",
+    "Recalling meiosis, name the stage at which recombination of dna occurs naturally.",
+    "How can a reporter enzyme monitor transformation by foreign dna in addition to a selectable marker?",
+    "Briefly describe the origin of replication, bioreactors and downstream processing.",
+    "Explain in brief: pcr, restriction enzymes and dna, chitinase.",
+    "How would you distinguish plasmid dna from chromosomal dna, rna from dna, and exonuclease from endonuclease?"
+   ]
+  }
+ ]
 }

@@ -34,6 +34,26 @@
      "q": "Construct a multi-bracket expression using parentheses and square brackets where the final evaluated answer is exactly `45`. Use at least three different arithmetic operations (`+`, `-`, `×`, `÷`).",
      "a": "An expected valid response is `[ 100 - { 10 × ( 2 + 3 ) } ] - 5` or `5 × [ 3 + ( 6 ÷ 2 ) ]`. A poor answer would be a simple expression without brackets or one that evaluates to a completely different number, showing a failure to work backward from a target number using grouped operations.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ with brackets use parentheses ( ), curly brackets { }, and square brackets [ ] to group numbers and operations, dictating that the grouped portion must be evaluated first according to the standard order of operations.",
+     "a": "Expressions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you go to a stationery shop in Delhi with your friends to buy 4 notebooks priced at ₹50 each and 3 pens priced at ₹10 each, and the shopkeeper gives you a special ₹20 discount on the total bill, while your teacher asks you to ______ it for 2 groups of students.",
+     "a": "calculate",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can correctly evaluate complex arithmetic expressions containing nested parentheses, square brackets, and curly braces by strictly following the innermost-to-outmost order of operations rule and accurately tracking signs.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you go to a ______ shop in Delhi with your friends to buy 4 notebooks priced at ₹50 each and 3 pens priced at ₹10 each, and the shopkeeper gives you a special ₹20 discount on the total bill, while your teacher asks you to calculate it for 2 groups of students.",
+     "a": "stationery",
+     "self_check": true
     }
    ]
   }

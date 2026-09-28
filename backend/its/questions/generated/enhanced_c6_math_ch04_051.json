@@ -34,6 +34,21 @@
      "q": "Create a simple word problem that requires the division of a decimal by a whole number.",
      "a": "A good problem would be: \"If 5 liters of milk cost 275.50 rupees, how much does 1 liter cost?\" A poor answer (like asking to add decimals instead) reveals the student does not recognize the \"unit rate\" structure of division problems.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Problem solving with decimals involves using operations like addition, subtraction, ______, or division on numbers with decimal points to resolve real-world quantities such as currency, length, or weight.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To begin, you must identify the ______: \"per kg\" tells you to multiply the quantity by the unit price.",
+     "a": "operation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to translate a word problem into a mathematical expression using decimal operations and correctly calculate the result, ensuring the decimal point is placed according to the place value rules.",
+     "self_check": true
     }
    ]
   }

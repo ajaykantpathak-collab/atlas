@@ -4,15 +4,8 @@
   {
    "id": "gegp2.6.1",
    "title": "Geometric Constructions with Instruments",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "recall the count for the shape",
-     "explain": "recall the count for the shape: lines = 2 gives 2",
-     "compute": "lines = 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a rectangle have?",
@@ -49,15 +42,8 @@
   {
    "id": "gegp2.6.2",
    "title": "Tilings: Shapes that Cover the Floor",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the area formula base times height",
-     "explain": "apply the area formula base times height: area = 16 * 5 gives 80",
-     "compute": "area = 16 * 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 16 cm by 5 cm.",
@@ -94,15 +80,8 @@
   {
    "id": "gegp2.6.3",
    "title": "Angles and Parallel Lines in Constructions",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 19 gives 71",
-     "compute": "other = 90 - 19"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 19 degrees, find the other.",
@@ -139,15 +118,8 @@
   {
    "id": "gegp2.6.4",
    "title": "Checking Constructions by Properties",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "recall the count for the shape",
-     "explain": "recall the count for the shape: lines = 3 gives 3",
-     "compute": "lines = 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a equilateral triangle have?",

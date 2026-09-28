@@ -34,6 +34,36 @@
      "q": "Design a real-world scenario (Indian context) where you would use both `count()` and `index()` on the same tuple in a single program. Write the tuple literal and the two method calls with comments explaining what each result represents.",
      "a": "Scenario: A metro train records the station codes where it stops in a day.\n```python\nstops = ('NDLS', 'DBG', 'NDLS', 'PNBE', 'NDLS', 'LKO')  # NDLS = New Delhi\nprint(stops.count('NDLS'))   # 3 → number of halts at New Delhi\nprint(stops.index('NDLS'))   # 0 → first halt is at New Delhi (origin)\n```\nA good answer uses a plausible domain, defines the tuple clearly, and explains both results. A poor answer uses abstract numbers like `(1,2,1)` without context, showing inability to map the concept to reality.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Tuple methods count() and index() are built-in operations that allow searching and frequency analysis on immutable sequences: count(element) returns the number of ______ of element in the tuple, while index(element) returns the zero-based position of the first occurrence of element and raises a ValueError exception if the element is not present.",
+     "a": "occurrences",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a ______ storing the daily temperatures (in °C) of a week: temps = (32, 35, 32, 30, 28, 32, 29).",
+     "a": "tuple",
+     "self_check": true
+    },
+    {
+     "q": "What is Tuple methods count() and index()? State the definition given in this lesson.",
+     "a": "Tuple methods count() and index() are built-in operations that allow searching and frequency analysis on immutable sequences: count(element) returns the number of occurrences of element in the tuple, while index(element) returns the zero-based position of the first occurrence of element and raises a ValueError exception if the element is.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You want to know how many days recorded ______°C and on which day it first occurred.",
+     "a": "32",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Tuple methods count() and index()?",
+     "a": "Students believe index() returns the *last* occurrence or *all* occurrences of an element because they confuse it with \"find all\" behaviour in string methods or list comprehensions.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) correctly predict the return value of count() and index() for any given tuple and element, including edge cases like empty tuples and missing elements, and (2) write code that uses these methods to solve frequency-counting and position-finding problems while handling the ValueError from index().",
+     "self_check": true
     }
    ]
   }

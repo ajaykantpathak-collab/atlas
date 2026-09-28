@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_15_001",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_15_001",
+   "title": "c11_leg_cbse_15_001",
+   "questions": [
+    {
+     "q": "Define \"maintenance\" in the context of Indian family law and state its constitutional foundation.",
+     "a": "Maintenance is the legally enforceable obligation to provide financial support (food, shelter, medical care, education) to a dependent who cannot maintain themselves, arising from personal law, CrPC, PWDVA, or constitutional principles. Its constitutional foundation is Article 21 (right to life with dignity), as affirmed in *Bhuwan Mohan Singh v. Meena* (2015). A wrong answer (e.g., \"only alimony after divorce\") reveals the student conflates maintenance with post-divorce permanent alimony, ignoring interim maintenance, child/parental maintenance, and live-in partner claims — and misses the constitutional rights dimension.",
+     "self_check": true
+    },
+    {
+     "q": "A Hindu wife earning ₹30,000/month files for maintenance against her husband earning ₹2 lakh/month. The husband argues she is \"not unable to maintain herself\" because she has income. Explain whether she can claim maintenance and the legal test applied.",
+     "a": "Yes, she can claim maintenance. The test is **not absolute destitution** but **inability to maintain the standard of living** enjoyed in the matrimonial home (*Kulbhushan v. Raj Kumari*, 1970; *Bhuwan Mohan Singh*, 2015). Her ₹30,000 may be insufficient for the lifestyle established during marriage. A wrong answer (\"she earns, so no maintenance\") reveals the student applies a \"poverty test\" instead of the \"matrimonial standard of living\" test — a classic Class 11 error stemming from misreading \"unable to maintain herself\" in Section 125 CrPC / Section 24 HMA.",
+     "self_check": true
+    },
+    {
+     "q": "A Muslim woman divorced by triple talaq (now void under 2019 Act) claims maintenance under Section 125 CrPC. Her husband argues Muslim personal law limits maintenance to *iddat* period (3 months) and CrPC cannot override it. Resolve using statutory hierarchy and precedent.",
+     "a": "She is entitled to maintenance **beyond iddat** under Section 125 CrPC. *Shah Bano* (1985) held CrPC is secular, overriding personal law. The Muslim Women (Protection of Rights on Divorce) Act, 1986 was interpreted in *Danial Latifi* (2001) to require \"fair and reasonable provision\" *including* future maintenance — not limited to iddat. The 2019 Act criminalizes triple talaq but doesn't alter maintenance rights. A wrong answer (\"only iddat maintenance\") reveals ignorance of the *Danial Latifi* \"reading down\" of the 1986 Act and the supremacy of secular statutory rights over personal law limitations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the maintenance rights of: (a) a Hindu wife under HMA Section 24 vs. CrPC Section 125; (b) a live-in partner under PWDVA vs. a legally married wife under CrPC. Identify two procedural and two substantive differences for each pair.",
+     "a": "(a) HMA S.24 vs CrPC S.125: **Procedural**: HMA → Family Court (civil procedure); CrPC → Judicial Magistrate (summary procedure). HMA allows *both* spouses to claim; CrPC only wife/children/parents. **Substantive**: HMA considers \"matrimonial standard of living\"; CrPC focuses on \"neglect/refusal\" + \"inability to maintain.\" HMA includes litigation expenses; CrPC does not explicitly. (b) Live-in partner (PWDVA) vs Wife (CrPC): **Procedural**: PWDVA → Magistrate (civil reliefs: protection order, residence order, monetary relief); CrPC → Magistrate (criminal proceeding, but maintenance is civil in nature). PWDVA requires \"domestic relationship\" proof; CrPC requires valid marriage. **Substantive**: PWDVA covers *economic abuse* (denial of funds, stridhan); CrPC covers basic maintenance. PWDVA relief is *victim-driven* (consent needed); CrPC can be *state-driven* (police/FIR not required but proceeding is under CrPC). A wrong answer conflating forums or ignoring \"economic abuse\" under PWDVA reveals failure to distinguish statutory schemes.",
+     "self_check": true
+    },
+    {
+     "q": "Critique: \"Section 125 CrPC is a complete code for maintenance; personal law provisions (HMA, Muslim law, etc.) are redundant.\" Use *Savitri v. Govind* (2019) and *Rajnesh v. Neha* (2020) to evaluate.",
+     "a": "The statement is **false**. Section 125 CrPC and personal laws are **concurrent, not mutually exclusive** (*Savitri v. Govind*, 2019). A claimant can choose *either* or *both* forums — but **double maintenance is barred** (*Rajnesh v. Neha*, 2020: courts must coordinate, disclose prior claims, adjust amounts). Personal laws offer **broader relief** (e.g., HMA S.24: litigation costs, higher quantum based on status; PWDVA: residence rights, protection orders). CrPC is **summary, speedy, no court fee** — but limited to \"neglect/refusal\" + \"inability.\" A wrong answer calling CrPC \"complete\" reveals ignorance of the **doctrine of election**, **anti-double-dipping safeguards**, and the **complementary nature** of civil (personal law) and criminal (CrPC) proceedings.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a hypothetical fact scenario where a **grandmother** claims maintenance from her **grandson** under Indian law. Specify: (a) the legal provision; (b) conditions to be proved; (c) why this is rare but legally possible.",
+     "a": "**Scenario**: 75-year-old widow, no children, no property, grandson (30, earning ₹1 lakh/month) refuses support. **Provision**: Section 125(1)(d) CrPC — \"father or mother\" includes **grandparents** if they are \"unable to maintain themselves\" (*Jagir Kaur v. Jaswant Singh*, 1963 — paternal grandmother; *Commissioner of Police v. M. Vijayakumar*, 2019 — maternal grandmother). **Conditions**: (1) Claimant is grandmother; (2) Grandson has sufficient means; (3) Grandson neglects/refuses; (4) Grandmother unable to maintain herself. **Why rare**: Social stigma, lack of awareness, grandson's denial of paternity link, evidentiary burden. A poor answer (e.g., \"only parents can claim\") reveals ignorance of the **expansive interpretation of \"father or mother\"** in CrPC jurisprudence and the **constitutional mandate** to prevent destitution of elderly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

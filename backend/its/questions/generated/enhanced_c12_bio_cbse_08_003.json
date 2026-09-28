@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a mouse model to demonstrate that acquired immunity requires prior exposure (or immunization) for a secondary response.",
      "a": "Correct design: Group 1: Inject mice with heat-killed *Streptococcus pneumoniae* (antigen) + adjuvant (primary immunization). Group 2: Inject PBS only. After 14 days (memory formation), challenge both groups with live virulent *S. pneumoniae*. Measure survival, bacterial load in blood, and anti-pneumococcal IgG titers at 0, 3, 7 days post-challenge. Expected: Group 1 shows rapid IgG rise (secondary response), low bacteremia, high survival; Group 2 shows delayed IgM/IgG (primary), high bacteremia, mortality. Poor answer: using same antigen for challenge without control, or measuring only survival without antibody kinetics — misses the quantitative hallmark of memory (faster, higher, isotype-switched).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Immunity is the ability of an organism to resist or eliminate ______ harmful foreign substances or abnormal cells through a coordinated system of physical, chemical, and cellular defenses.",
+     "a": "potentially",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a small cut on your finger — ______ hours it reddens, swells, and may form pus.",
+     "a": "within",
+     "self_check": true
+    },
+    {
+     "q": "What is Immunity? State the definition given in this lesson.",
+     "a": "Immunity is the ability of an organism to resist or eliminate potentially harmful foreign substances or abnormal cells through a coordinated system of physical, chemical, and cellular defenses.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Immunity?",
+     "a": "Students believe \"acquired immunity only starts after innate immunity fails.\" In reality, both systems activate simultaneously upon infection: dendritic cells phagocytose pathogens (innate), migrate to lymph nodes, and present antigen to naïve T cells (acquired) within hours.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Distinguish innate vs acquired immunity across five parameters (specificity, memory, response time, components, inheritance); (2) Trace the sequence of events from pathogen entry to antibody production in primary and secondary immune responses; (3) Explain why innate immunity alone cannot protect against all infections.",
+     "self_check": true
     }
    ]
   }

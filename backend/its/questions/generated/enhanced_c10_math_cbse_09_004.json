@@ -34,6 +34,26 @@
      "q": "Create a real-life word problem (Indian context) that requires using sin θ to find an unknown side in a single-step heights and distances problem. Specify the angle, the known side, and what is to be found. Draw the diagram mentally and write the equation you would set up.",
      "a": "**Example problem:** \"A kite is flying at a height of 30 m above the ground. The string makes an angle of 60° with the ground. Find the length of the string.\" \n**Equation:** sin 60° = opposite/hypotenuse = 30/L → L = 30/sin 60° = 30/(√3/2) = 60/√3 = 20√3 m.\nA poor answer would use tan or cos, or set up sin 60° = L/30, revealing the student doesn't recognise that \"length of string\" is the hypotenuse and \"height\" is the opposite side when angle is with the ground.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Heights and distances problems involve using ______ ratios (sine, cosine, tangent) in right-angled triangles formed by the line of sight, horizontal line, and vertical height/distance to find unknown heights of objects (towers, trees, buildings) or horizontal distances between objects when the angle of elevation or depression and one side length are given.",
+     "a": "trigonometric",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ 20 metres away from your school building and looking up at the top of the flagpole.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing ______ metres away from your school building and looking up at the top of the flagpole.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently draw a correct right-triangle diagram from a word problem, identify the appropriate trigonometric ratio based on given angle and known/unknown sides, set up the equation, solve for the unknown, and express the final answer with correct units (metres/centimetres).",
+     "self_check": true
     }
    ]
   }

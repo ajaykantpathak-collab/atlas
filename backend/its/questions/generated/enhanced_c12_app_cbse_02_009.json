@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_02_009",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_02_009",
+   "title": "c12_app_cbse_02_009",
+   "questions": [
+    {
+     "q": "What is the result of multiplying the matrix A = [[2, -1], [0, 3]] by the scalar k = -4? Write the resulting matrix and state its order.",
+     "a": "The result is -4A = [[-8, 4], [0, -12]], a 2×2 matrix. A wrong answer (e.g., only multiplying diagonal elements to get [[-8, -1], [0, -12]] or changing the order) reveals the student thinks scalar multiplication applies selectively or alters matrix dimensions — both are fundamental misunderstandings of the definition kA = [k·aᵢⱼ].",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the property (k + p)A = kA + pA holds true for any matrix A and scalars k, p. Use a 2×2 matrix with specific numbers to illustrate.",
+     "a": "The property holds because scalar multiplication distributes over scalar addition *element-wise*: for each entry aᵢⱼ, (k+p)aᵢⱼ = k·aᵢⱼ + p·aᵢⱼ by the distributive law of real numbers. Since this is true for every element, the matrices are equal. A student who only says \"it's like algebra\" without showing the element-wise reasoning misses the matrix-specific justification and may fail to apply it when matrices have different orders (though this property requires same order implicitly).",
+     "self_check": true
+    },
+    {
+     "q": "If X = [[1, 2], [3, 4]] and Y = [[5, 6], [7, 8]], find the matrix Z such that 3X - 2Y = 4Z. Show all steps.",
+     "a": "Step 1: Compute 3X = [[3, 6], [9, 12]]. Step 2: Compute 2Y = [[10, 12], [14, 16]]. Step 3: Compute 3X - 2Y = [[-7, -6], [-5, -4]]. Step 4: Since 4Z = [[-7, -6], [-5, -4]], divide each element by 4: Z = [[-7/4, -3/2], [-5/4, -1]]. A wrong answer often comes from subtracting before scalar multiplication (e.g., 3(X-Y)) or forgetting to divide by 4, revealing confusion about order of operations and the fact that scalar multiplication must be done before matrix addition/subtraction.",
+     "self_check": true
+    },
+    {
+     "q": "Given A = [[a, b], [c, d]] and B = [[p, q], [r, s]], prove that k(A - B) = kA - kB for any scalar k by comparing the (1,1) and (2,2) elements of both sides. What does this prove about the general case?",
+     "a": "LHS (1,1): k(a - p) = ka - kp. RHS (1,1): ka - kp. LHS (2,2): k(d - s) = kd - ks. RHS (2,2): kd - ks. Since corresponding elements match for arbitrary entries, the matrices are equal. This proves the property holds for all elements by the distributive law of real numbers. A student who only checks one element or assumes it's true \"because it works for numbers\" fails to grasp that matrix equality requires *every* corresponding element to match — a critical board exam requirement.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If kA = O (zero matrix), then either k = 0 or A = O.\" Is this statement always true? Justify your answer with a counterexample or proof.",
+     "a": "The statement is **true** for matrices over real numbers. If k ≠ 0, then kA = O implies each element k·aᵢⱼ = 0 ⇒ aᵢⱼ = 0 (since ℝ has no zero divisors), so A = O. If k = 0, then 0·A = O for any A. A student who says \"false\" and gives a non-zero matrix with k=0 misunderstands the \"or\" — the statement allows k=0 *or* A=O. A student who says \"false\" and cites matrix multiplication (where AB=O doesn't imply A=O or B=O) is confusing scalar multiplication with matrix multiplication — a classic JEE trap.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (different from the bakery) involving a 3×2 matrix and a scalar where scalar multiplication is the natural operation. Define the matrix, the scalar, and write the resulting matrix. Explain why addition or matrix multiplication would NOT make sense here.",
+     "a": "Scenario: A school has 3 sections (XII-A, XII-B, XII-C) and tracks boys and girls in each. Matrix M = [[40, 35], [38, 42], [45, 30]] (rows = sections, columns = boys, girls). The principal wants to estimate next year's enrollment assuming a 10% increase. Scalar k = 1.1. New matrix = 1.1M = [[44, 38.5], [41.8, 46.2], [49.5, 33]]. Addition would require another 3×2 matrix of \"new students\" (not a uniform percentage). Matrix multiplication would require a 2×? matrix (e.g., transition rates), which doesn't model a uniform scale-up. A poor answer uses a scalar that isn't uniform (e.g., different % per section) or suggests matrix multiplication with a 2×2 matrix, showing they don't recognize scalar multiplication as *uniform scaling*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,251 @@
+{
+ "catalog": "catalog_class11_biology_ch117.json",
+ "concepts": [
+  {
+   "id": "kebo.117.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total_body_weight = 197",
+      "body_muscle_mass = 0.45 * total_body_weight"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total_body_weight = 44",
+      "body_muscle_mass = 0.45 * total_body_weight"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_body_weight = 92",
+      "body_muscle_mass = 0.45 * total_body_weight"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total_body_weight = 98",
+      "body_muscle_mass = 0.45 * total_body_weight"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "total_body_weight = 117",
+      "body_muscle_mass = 0.45 * total_body_weight"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total_body_weight = 53",
+      "body_muscle_mass = 0.45 * total_body_weight"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "body_muscle_mass = 0.45 * total_body_weight"
+   ]
+  },
+  {
+   "id": "kebo.117.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "I_half = 1.5",
+      "A_band = 32",
+      "sarcomere = I_half + A_band + I_half"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "I_half = 69",
+      "A_band = 46",
+      "sarcomere = I_half + A_band + I_half"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "I_half = 97",
+      "A_band = 50",
+      "sarcomere = I_half + A_band + I_half"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "I_half = 60",
+      "A_band = 63",
+      "sarcomere = I_half + A_band + I_half"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "I_half = 72",
+      "A_band = 22",
+      "sarcomere = I_half + A_band + I_half"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "I_half = 61",
+      "A_band = 73",
+      "sarcomere = I_half + A_band + I_half"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "sarcomere = I_half + A_band + I_half"
+   ]
+  },
+  {
+   "id": "kebo.117.6",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "cervical = 97",
+      "thoracic = 8.9",
+      "lumbar = 17",
+      "sacral = 75",
+      "coccygeal = 41",
+      "total_v = cervical + thoracic + lumbar + sacral + coccygeal"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "cervical = 3.2",
+      "thoracic = 57",
+      "lumbar = 51",
+      "sacral = 53",
+      "coccygeal = 15.2",
+      "total_v = cervical + thoracic + lumbar + sacral + coccygeal"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "cervical = 68",
+      "thoracic = 75",
+      "lumbar = 71",
+      "sacral = 80",
+      "coccygeal = 46",
+      "total_v = cervical + thoracic + lumbar + sacral + coccygeal"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "cervical = 23",
+      "thoracic = 45",
+      "lumbar = 39",
+      "sacral = 21",
+      "coccygeal = 88",
+      "total_v = cervical + thoracic + lumbar + sacral + coccygeal"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "cervical = 93",
+      "thoracic = 81",
+      "lumbar = 25",
+      "sacral = 73",
+      "coccygeal = 12",
+      "total_v = cervical + thoracic + lumbar + sacral + coccygeal"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "cervical = 42",
+      "thoracic = 57",
+      "lumbar = 19.5",
+      "sacral = 63",
+      "coccygeal = 7.4",
+      "total_v = cervical + thoracic + lumbar + sacral + coccygeal"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_v = cervical + thoracic + lumbar + sacral + coccygeal"
+   ]
+  },
+  {
+   "id": "kebo.117.7",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "true_pairs = 35",
+      "false_pairs = 82",
+      "floating_pairs = 7.2",
+      "total_ribs = true_pairs * 2 + false_pairs * 2 + floating_pairs * 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "true_pairs = 73",
+      "false_pairs = 5.4",
+      "floating_pairs = 64",
+      "total_ribs = true_pairs * 2 + false_pairs * 2 + floating_pairs * 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "true_pairs = 41",
+      "false_pairs = 46",
+      "floating_pairs = 48",
+      "total_ribs = true_pairs * 2 + false_pairs * 2 + floating_pairs * 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "true_pairs = 80",
+      "false_pairs = 76",
+      "floating_pairs = 29",
+      "total_ribs = true_pairs * 2 + false_pairs * 2 + floating_pairs * 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "true_pairs = 86",
+      "false_pairs = 30",
+      "floating_pairs = 97",
+      "total_ribs = true_pairs * 2 + false_pairs * 2 + floating_pairs * 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "true_pairs = 32",
+      "false_pairs = 45",
+      "floating_pairs = 63",
+      "total_ribs = true_pairs * 2 + false_pairs * 2 + floating_pairs * 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_ribs = true_pairs * 2 + false_pairs * 2 + floating_pairs * 2"
+   ]
+  }
+ ]
+}

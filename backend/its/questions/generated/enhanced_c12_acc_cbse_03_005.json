@@ -34,6 +34,26 @@
      "q": "Design a mini-case: A partner retires when the firm has insufficient cash. The partnership deed is silent on settlement mode. Propose a settlement plan that protects both the firm's liquidity and the partner's legal right. Specify the journal entries for the first year, including interest. Assume the amount due is ₹5,00,000, firm pays ₹1,00,000 cash immediately, and the balance carries 6% p.a. interest payable half-yearly.",
      "a": "**Good answer criteria:**\n1. Recognizes that under Section 37 of the Partnership Act, 1932, the retiring partner is entitled to interest @ 6% p.a. on the unpaid amount if the deed is silent.\n2. Proposes: Immediate cash ₹1,00,000; balance ₹4,00,000 → Retiring Partner's Loan Account.\n3. First half-year interest = ₹4,00,000 × 6% × 6/12 = ₹12,000.\n4. Journal entries:\n   - Retiring Partner's Capital A/c Dr. 5,00,000 → Bank A/c 1,00,000, Retiring Partner's Loan A/c 4,00,000.\n   - Interest on Loan A/c Dr. 12,000 → Retiring Partner's Loan A/c 12,000 (accrual).\n   - Retiring Partner's Loan A/c Dr. 12,000 → Bank A/c 12,000 (payment).\nA poor answer omits the statutory interest provision or records interest as a capital adjustment instead of a charge against profit.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The amount due to a retiring partner is the final settlement figure ______ his total claim against the firm, computed by adjusting his capital account balance for his share of goodwill, revaluation profits/losses, accumulated reserves/profits, and any drawings or loans.",
+     "a": "representing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family's ______ firm where your uncle, a partner for 20 years, decides to retire.",
+     "a": "partnership",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family's partnership firm where your uncle, a partner for ______ years, decides to retire.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) prepare a retiring partner's capital account incorporating all adjustments (goodwill, revaluation, reserves, drawings) to arrive at the exact amount due, and (2) record the correct journal entries for at least three different settlement modes (cash, installment, loan) as per the partnership agreement.",
+     "self_check": true
     }
    ]
   }

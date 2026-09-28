@@ -34,6 +34,21 @@
      "q": "Create a simple numerical example with 3 firms showing how each firm's rational decision to reduce output when its own price falls can lead to a fall in aggregate output that is larger than the sum of individual reductions, illustrating a macroeconomic externality.",
      "a": "Firm A, B, C each produce 100 units at price ₹10. Each faces demand: Q = 200 - 10P. If each believes its own price cut won't affect others, they might cut output to 80 when price falls to ₹9. But if all three cut output simultaneously, aggregate income falls, shifting each firm's demand left further (since others' incomes are lower). New demand: Q = 150 - 10P. At P=9, each sells only 60. Aggregate output falls from 300 to 180, not 240. A poor answer misses the interdependence and feedback loop.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ studies the behaviour of individual economic agents (households, firms) and the determination of prices and quantities in specific markets.",
+     "a": "Microeconomics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you open a ______: the front page screams \"India's GDP grows at 7.2%\" while the business page says \"Onion prices surge to ₹80/kg in Delhi mandis\".",
+     "a": "newspaper",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) classify a given economic issue as microeconomic or macroeconomic with justification, (2) explain why aggregate outcomes may differ from the sum of individual behaviours (fallacy of composition), and (3) list the key macroeconomic aggregates (total output, employment, price level) and the central questions.",
+     "self_check": true
     }
    ]
   }

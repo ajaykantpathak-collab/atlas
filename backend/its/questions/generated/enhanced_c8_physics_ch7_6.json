@@ -34,6 +34,31 @@
      "q": "Design a 2-week observation project for your class to prove the Moon is visible during daytime. Specify: (1) what to record each day, (2) what pattern you expect to see, and (3) how this connects to the lunar month.",
      "a": "(1) Record: date, time, Moon phase (shape), compass direction, and whether it's day/night. (2) Pattern: Moon appears later each day by ~50 min; visible in morning sky after Full Moon, afternoon sky before Full Moon. (3) This tracks the Moon's 27.3-day orbit (lunar month, c8_physics_ch7_5) — the changing rise/set times prove the Moon orbits Earth independently of Earth's rotation. A poor answer that only records \"Moon seen at night\" shows the student didn't actually observe during daytime or doesn't understand the phase-rise time relationship.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Moon is visible during daytime when its orbital ______ places it above the horizon during daylight hours and its sunlit face reflects enough light to contrast with the bright sky.",
+     "a": "position",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look up at the sky around 10 AM on a clear day in Delhi — you might spot a pale Moon ______ above the school building.",
+     "a": "hanging",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look up at the sky around ______ AM on a clear day in Delhi — you might spot a pale Moon hanging above the school building.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why the Moon is sometimes visible in the daytime sky by describing the relative positions of the Sun, Earth, and Moon, and can predict during which lunar phases daytime visibility is most likely.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look up at the sky around 10 AM on a clear day in Delhi — you might spot a pale Moon hanging above the school ______.",
+     "a": "building",
+     "self_check": true
     }
    ]
   }

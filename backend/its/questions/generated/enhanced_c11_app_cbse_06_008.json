@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_06_008",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_06_008",
+   "title": "c11_app_cbse_06_008",
+   "questions": [
+    {
+     "q": "State the formula for the number of combinations of $r$ objects from $n$ distinct types when repetition is allowed, and explain what the variables $n$ and $r$ represent in the context of selecting items from a menu.",
+     "a": "The formula is ${}^{n+r-1}C_r$ (or ${}^{n+r-1}C_{n-1}$). Here, $n$ is the number of distinct types/categories available (e.g., menu items), and $r$ is the number of items to be selected (e.g., total dishes ordered). A wrong answer using ${}^nC_r$ reveals the student assumes items cannot be repeated (each type chosen at most once). A wrong answer using $n^r$ reveals confusion with permutations where order matters.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Selecting 4 candies from 3 flavors (with unlimited stock) is the same as arranging 4 identical balls into 3 distinct boxes.\" Is this statement correct? Justify your answer by explaining the mapping between the two scenarios.",
+     "a": "Yes, the statement is correct. Selecting 4 candies from 3 flavors maps directly to distributing 4 identical balls into 3 distinct boxes: the number of candies of flavor $i$ equals the number of balls in box $i$. Both scenarios count the number of non-negative integer solutions to $x_1 + x_2 + x_3 = 4$, which is ${}^{3+4-1}C_4 = {}^{6}C_4 = 15$. A wrong answer (\"incorrect\") usually stems from not recognizing that \"unlimited stock\" implies identical items (stars) and \"distinct flavors\" implies distinct categories (boxes separated by bars).",
+     "self_check": true
+    },
+    {
+     "q": "In how many ways can a person buy 10 pastries from a bakery selling 4 types (pineapple, chocolate, black forest, butterscotch) if they must buy **at least one** of each type? (Hint: Transform the problem to fit the standard formula).",
+     "a": "First, give 1 pastry of each type to satisfy the \"at least one\" condition. This uses 4 pastries. Remaining pastries to choose freely: $r' = 10 - 4 = 6$. Types remain $n = 4$. Apply formula: ${}^{n+r'-1}C_{r'} = {}^{4+6-1}C_6 = {}^{9}C_6 = {}^{9}C_3 = 84$. A wrong answer of ${}^{13}C_{10} = 286$ reveals the student applied the basic formula ${}^{n+r-1}C_r$ directly without adjusting for the \"at least one\" restriction (i.e., they allowed zero of a type). A wrong answer of ${}^{10}C_4$ reveals confusion with permutations or standard combinations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the number of solutions for the following two equations in non-negative integers:\n(A) $x_1 + x_2 + x_3 + x_4 = 10$\n(B) $x_1 + x_2 + x_3 + x_4 + x_5 = 10$\nWhich has more solutions? Explain conceptually *why* without calculating the exact binomial coefficients.",
+     "a": "Equation (B) has more solutions. Equation (A) corresponds to ${}^{4+10-1}C_{10} = {}^{13}C_{10}$ (stars=10, bars=3). Equation (B) corresponds to ${}^{5+10-1}C_{10} = {}^{14}C_{10}$ (stars=10, bars=4). Adding a variable ($x_5$) adds a degree of freedom (an extra box to put stars in), increasing the number of distributions. Since ${}^{14}C_{10} > {}^{13}C_{10}$, (B) has more solutions. A wrong answer claiming (A) has more or they are equal reveals a lack of understanding of how the number of categories ($n$) affects the stars-and-bars count (more bars = more gaps = more arrangements).",
+     "self_check": true
+    },
+    {
+     "q": "A teacher argues: \"The number of ways to select 5 fruits from 3 types (apples, bananas, mangoes) with repetition allowed is ${}^3C_5 = 0$ because you cannot choose 5 items from only 3 types.\" Evaluate this argument and identify the exact conceptual error.",
+     "a": "The teacher's argument is **incorrect**. The error is applying the standard combination formula ${}^nC_r$ (which requires $r \\le n$ and no repetition) to a problem explicitly allowing repetition. In combinations *with* repetition, $r$ can be greater than $n$ (e.g., picking 5 fruits from 3 types is perfectly valid: 3 apples, 1 banana, 1 mango). The correct formula is ${}^{n+r-1}C_r = {}^{3+5-1}C_5 = {}^{7}C_5 = 21$. The teacher confused \"selecting $r$ distinct objects from $n$\" with \"selecting $r$ objects from $n$ types with unlimited supply.\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world word problem (Indian context) that requires the combination with repetition formula ${}^{n+r-1}C_r$ to solve. Define $n$ and $r$ clearly in your problem statement. The problem must involve a constraint that requires a small logical step *before* applying the formula (e.g., \"at least one\", \"at most\", or a fixed allocation).",
+     "a": "**Sample Problem:** \"A voter must rank 3 candidates (A, B, C) by assigning them a total of 10 'preference points'. Each candidate must get at least 1 point. How many different point allocations are possible?\"\n**Definitions:** $n=3$ (candidates), Total points $=10$.\n**Step:** Give 1 point to each candidate first. Remaining points $r' = 10 - 3 = 7$.\n**Formula:** ${}^{n+r'-1}C_{r'} = {}^{3+7-1}C_7 = {}^{9}C_7 = 36$.\n**Criteria for good answer:** Clearly defines types ($n$) and identical items ($r$), includes a constraint requiring pre-allocation (transformation), and correctly applies ${}^{n+r-1}C_r$ on the reduced problem. A poor answer creates a problem solvable by simple ${}^nC_r$ or $n^r$, or forgets the transformation step for the constraint.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

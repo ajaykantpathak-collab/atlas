@@ -34,6 +34,26 @@
      "q": "Create a word problem involving a circle, two tangents from an external point, and a given angle between the tangents. The problem should ask for the radius of the circle given the distance from the external point to the centre. Provide the solution.",
      "a": "Example problem: \"From a point P, 17 cm away from the centre O of a circle, two tangents PA and PB are drawn. If the angle between the tangents is 60°, find the radius of the circle.\" Solution: In right triangle OAP, ∠APO = 30° (since OP bisects ∠APB). sin 30° = OA/OP => 1/2 = r/17 => r = 8.5 cm. A poor problem (e.g., missing data, inconsistent numbers) shows the student cannot synthesize the properties into a coherent problem, indicating shallow understanding of the interdependence of length and angle properties.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This node covers the application of tangent properties — specifically the equality of tangent lengths from an external point and the ______ of the tangent to the radius at the point of contact — to solve multi-step word problems involving unknown lengths and angles in geometric configurations with circles.",
+     "a": "perpendicularity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Two ______ paths from a gate outside the garden just touch the garden boundary at points A and B.",
+     "a": "straight",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a circular garden with a radius of ______ metres.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently translate a word problem into a labeled diagram, identify which tangent properties apply, set up equations using equal tangent lengths and right angles, solve for unknown lengths or angles, and verify the solution satisfies all geometric constraints.",
+     "self_check": true
     }
    ]
   }

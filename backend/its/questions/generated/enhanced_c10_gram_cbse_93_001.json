@@ -1,0 +1,51 @@
+{
+ "catalog": "enhanced_c10_gram_cbse_93_001",
+ "concepts": [
+  {
+   "id": "enh:c10_gram_cbse_93_001",
+   "title": "c10_gram_cbse_93_001",
+   "questions": [
+    {
+     "q": "Report: She said, 'I will finish the project tomorrow.'",
+     "a": "'She said (that) she would finish the project the next day.' will→would, I→she, tomorrow→the next day. A wrong answer keeping 'will' or 'tomorrow' reveals the student did a partial transform — verb only — missing that reported speech re-anchors ALL pointing words, not just the verb.",
+     "self_check": true
+    },
+    {
+     "q": "Report: 'The earth is round,' the teacher said.",
+     "a": "'The teacher said (that) the earth is round' — universal truths keep present tense. A wrong answer 'was round' reveals over-shifting: the student applied the table mechanically without the truth-exemption — the classic competent-but-rigid error boards love to test.",
+     "self_check": true
+    },
+    {
+     "q": "Report: He said, 'I saw this film here yesterday.'",
+     "a": "'He said he had seen that film there the day before.' saw→had seen (past→past perfect), this→that, here→there, yesterday→the day before. A wrong answer 'he saw that film here yesterday' shows the student backshifted nothing but pronouns — the deictic field is invisible to them.",
+     "self_check": true
+    },
+    {
+     "q": "______ speech moves every tense one step back: present→past, past→past perfect, will→would, can→could, am/is→was, have→had.",
+     "a": "Reporting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ speech moves every tense one step back: present→past, past→past perfect, will→would, can→could, am/is→was, have→had.",
+     "a": "Reporting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Build the machine visibly: Direct 'I am tired today' → Reported 'She said (that) she was tired that day.' Highlight every change: I→she (speaker re-anchor), am→was (______), today→that day (deictic shift).",
+     "a": "backshift",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student converts statements, questions, and commands between direct and indirect speech with correct backshift, pronoun re-anchoring, and time/place expression changes, in both directions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Build the machine visibly: Direct 'I am tired today' → Reported 'She said (that) she was tired that day.' ______ every change: I→she (speaker re-anchor), am→was (backshift), today→that day (deictic shift).",
+     "a": "Highlight",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

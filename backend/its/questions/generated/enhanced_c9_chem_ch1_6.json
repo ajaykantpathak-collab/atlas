@@ -34,6 +34,31 @@
      "q": "Design a simple paper chromatography experiment to determine which of three different black pens (A, B, C) was used to write a ransom note. List materials, procedure, and how you will interpret results.",
      "a": "Materials: three pens, ransom note paper strip, chromatography paper, beaker, water/ethanol solvent, pencil, ruler. Procedure: (1) Cut paper strips, draw pencil origin line 2 cm from bottom. (2) Spot ink from each pen and note on separate strips (or same strip side-by-side). (3) Develop in solvent until front nears top. (4) Dry, measure distances, calculate Rf for each dye component. (5) Compare Rf patterns: matching Rf values and color sequence for all resolved dyes indicate same pen. Good answer includes control spots, same solvent/tank, and pattern matching — not just \"same color\". Poor answer (e.g., \"compare colors\") reveals inability to translate theory into controlled experimental design.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Chromatography is a separation technique where components of a mixture are separated based on their ______ affinities for a stationary phase (e.g., chromatography paper) and a mobile phase (e.g., solvent), causing each component to travel at a different rate and form distinct spots or bands.",
+     "a": "differential",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a drop of blue-black fountain pen ink spreading on a wet tissue paper — the blue and violet dyes separate into distinct rings because water (mobile phase) carries them at different speeds through the paper fibers (______ phase).",
+     "a": "stationary",
+     "self_check": true
+    },
+    {
+     "q": "What is Chromatography? State the definition given in this lesson.",
+     "a": "Chromatography is a separation technique where components of a mixture are separated based on their differential affinities for a stationary phase (e.g., chromatography paper) and a mobile phase (e.g., solvent), causing each component to travel at a different rate and form distinct spots or bands.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Chromatography?",
+     "a": "Students believe the solvent front *is* the mobile phase and that components \"move with the solvent\" like passengers on a bus.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the principle of chromatography using the terms stationary phase, mobile phase, and partition coefficient, calculate Rf values from a chromatogram, and predict the order of separation for a given mixture based on solubility and adsorption differences.",
+     "self_check": true
     }
    ]
   }

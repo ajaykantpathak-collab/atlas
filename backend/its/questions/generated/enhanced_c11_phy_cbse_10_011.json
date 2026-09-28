@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using household items to compare the thermal conductivity of aluminium, steel, and copper rods of identical dimensions. Describe the setup, what you would measure, and how you would rank the materials.",
      "a": "Setup: Obtain three rods (Al, Steel, Cu) of same length (~30 cm) and diameter (~6 mm). Fix one end of each into a block of melted wax (or use drawing pins attached with wax at equal intervals). Heat the other ends equally using a spirit lamp or hot water bath. Measure: Time for each wax/pin to fall at a fixed distance from the hot end, or distance melted in fixed time. Rank: Shortest time / farthest melt = highest K. Expected order: Cu > Al > Steel. A poor answer (e.g., \"touch the rods to feel heat\") reveals inability to design a controlled, quantitative comparison and confusion between temperature and heat flow rate.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Conduction is the mode of heat transfer between adjacent parts of a material due to a ______ gradient, where energy is transferred through molecular collisions and lattice vibrations without any bulk motion of the material.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Place a metal spoon and a ______ spoon in a hot cup of tea.",
+     "a": "wooden",
+     "self_check": true
+    },
+    {
+     "q": "What is Conduction? State the definition given in this lesson.",
+     "a": "Conduction is the mode of heat transfer between adjacent parts of a material due to a temperature gradient, where energy is transferred through molecular collisions and lattice vibrations without any bulk motion of the material.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Conduction?",
+     "a": "Students believe that in a composite rod, the temperature drop across each section is proportional to its length (ΔT ∝ L) regardless of material.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can calculate the heat current through a composite rod in steady state, determine the junction temperature, and compute equivalent thermal conductivity for series combinations.",
+     "self_check": true
     }
    ]
   }

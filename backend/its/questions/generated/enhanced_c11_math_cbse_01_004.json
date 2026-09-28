@@ -31,8 +31,23 @@
      "self_check": true
     },
     {
-     "q": "Construct an example of three sets A, B, C such that A ⊂ B, B ⊄ C, but A ⊂ C. Explain why this does not contradict the transitivity property proved in Question 4.",
-     "a": "Example: A = {1}, B = {1, 2}, C = {1, 3}. Then A ⊂ B (1 ∈ A ⇒ 1 ∈ B), B ⊄ C (2 ∈ B but 2 ∉ C), but A ⊂ C (1 ∈ A ⇒ 1 ∈ C). This does not contradict transitivity because transitivity requires BOTH A ⊂ B AND B ⊂ C to conclude A ⊂ C. Here B ⊂ C is false, so the premise of transitivity is not satisfied — the conclusion A ⊂ C happens to be true for a different reason (1 happens to be in C). A student who says \"this contradicts transitivity\" fails to distinguish between \"premise false, conclusion true\" and \"premise true, conclusion false.\"",
+     "q": "Give the correct order of checks that decide whether A subset B and B subset C can deliver A subset C in the example A = {1}, B = {1, 2}, C = {1, 3}.",
+     "a": "The checks run: (1) Verify A subset B by testing each element of A (2) Test B subset C and find element 2 in B but not in C (3) Conclude the premise of transitivity fails since B subset C is false (4) Note that A subset C still holds here because 1 happens to lie in C, for a different reason. A wrong answer that calls this a contradiction of transitivity shows the student has missed that the law needs both premises, and a false second premise ends the argument.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A set A is a subset of set B, denoted A ⊂ B, if and only if every element of A is also an element of B; ______, A ⊂ B ⇔ (∀x)(x ∈ A ⇒ x ∈ B).",
+     "a": "formally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school has a \"Science Club\" (set S) and a \"______ Team\" (set R).",
+     "a": "Robotics",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can determine whether a given set is a subset or proper subset of another by verifying the element-wise implication, can correctly use the symbols ⊂ and ⊄ in statements, and can explain why φ ⊂ A and A ⊂ A hold for any set A.",
      "self_check": true
     }
    ]

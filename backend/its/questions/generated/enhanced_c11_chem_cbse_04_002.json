@@ -34,6 +34,31 @@
      "q": "Design a thought experiment to demonstrate that lattice enthalpy is the decisive factor making ionic bond formation favorable, using hypothetical elements A (low IE) and B (high EA) but with very low lattice enthalpy due to large ionic sizes.",
      "a": "Choose A = large alkali metal (e.g., Cs) and B = large halogen (e.g., I). Even though IE(Cs) is low (376 kJ/mol) and EA(I) is high (-295 kJ/mol), the sum is +81 kJ/mol. If the lattice enthalpy of CsI were only -500 kJ/mol (hypothetically low due to large ions), the net would be +81 - 500 = -419 kJ/mol (still exothermic). But if lattice enthalpy were even lower (e.g., -50 kJ/mol), net would be +31 kJ/mol (unfavorable). This shows lattice enthalpy must be sufficiently large to overcome the endothermic ion formation. A poor answer fails to construct a quantitative comparison.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An ionic bond is the ______ force of attraction between oppositely charged ions formed by the complete transfer of one or more electrons from a metal atom (low ionization enthalpy) to a non-metal atom (high electron gain enthalpy), resulting in a stable crystal lattice where the lattice enthalpy released during ion packing compensates for the energy invested in ion formation.",
+     "a": "electrostatic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a grain of ______ salt (NaCl) on your kitchen table — it is hard, crystalline, and conducts electricity only when dissolved or molten.",
+     "a": "common",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This macroscopic behavior originates from the electrostatic forces holding Na⁺ and Cl⁻ ions in a rigid ______D lattice.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the stepwise energy changes in ionic bond formation (ionization, electron gain, lattice formation), calculate net energy change using Born-Haber cycle concepts, and predict relative stability of ionic compounds based on lattice enthalpy trends.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a grain of common salt (NaCl) on your kitchen table — it is hard, ______, and conducts electricity only when dissolved or molten.",
+     "a": "crystalline",
+     "self_check": true
     }
    ]
   }

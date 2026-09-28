@@ -34,6 +34,26 @@
      "q": "Design a gene therapy strategy for a hypothetical monogenic disorder affecting hepatocytes (liver cells) where the defective protein is secreted into blood. Specify: (a) ex vivo or in vivo, (b) vector type, (c) delivery route, (d) one major challenge and how to mitigate it.",
      "a": "(a) In vivo (hepatocytes cannot be easily removed and re-engrafted). (b) AAV8 or AAV9 (hepatotropic serotypes). (c) Intravenous infusion. (d) Challenge: Pre-existing neutralizing antibodies against AAV capsid. Mitigation: Use engineered capsids, plasmapheresis, or immunosuppression. A poor answer would suggest ex vivo hepatocyte transplant without addressing engraftment failure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ex vivo gene therapy involves removing target cells from a patient, genetically modifying them outside the body (in culture), and ______ the corrected cells back into the patient; in vivo gene therapy delivers the therapeutic gene directly into the patient's target tissues or cells via a vector without cell removal.",
+     "a": "reintroducing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a child born with Severe Combined Immunodeficiency (SCID) — their T cells cannot make adenosine deaminase (ADA), leaving them defenseless ______ infections.",
+     "a": "against",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compare ex vivo and in vivo strategies across at least four parameters (vector choice, target cell accessibility, immune response risk, clinical examples) and justify which strategy suits a given genetic disorder (e.g., SCID vs. cystic fibrosis) with reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a child born with Severe Combined ______ (SCID) — their T cells cannot make adenosine deaminase (ADA), leaving them defenseless against infections.",
+     "a": "Immunodeficiency",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a container that holds exactly 1540 cm³ of water using a radius of 7 cm. What height must you choose?",
      "a": "The student should set up 1540 = (22/7) × 7 × 7 × h, simplify to 1540 = 154 × h, and find h = 10 cm. A poor answer ignores the formula and guesses numbers, showing a lack of algebraic connection to the geometry.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A cylinder is a 3D solid object with two ______ circular bases connected by a smooth, curved surface.",
+     "a": "identical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To find the space inside (volume), we start with the area of the ______ base (pi × radius × radius) and multiply it by how tall the tin is (height).",
+     "a": "circular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A cylinder is a ______D solid object with two identical circular bases connected by a smooth, curved surface.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to calculate the volume and total surface area of a cylinder given its radius and height.",
+     "self_check": true
     }
    ]
   }

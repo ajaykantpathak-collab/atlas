@@ -34,6 +34,16 @@
      "q": "Design a thought experiment to test whether the photoelectric effect depends on the *rate* of energy delivery (intensity) or the *energy per photon* (frequency). Describe the setup, what you would vary, what you would measure, and the expected outcome that would confirm Einstein's photon picture over the wave picture.",
      "a": "Setup: Use a monochromatic light source (e.g., laser) with variable intensity (via neutral density filters) and a second source of different frequency. Keep frequency constant, vary intensity over a wide range (e.g., 1 mW/m² to 1000 W/m²). Measure stopping potential \\(V_0\\) and saturation current \\(I_s\\). Then repeat with a different frequency above threshold. Expected outcome: \\(V_0\\) remains constant as intensity changes (confirming \\(K_{\\text{max}}\\) independent of intensity), while \\(I_s \\propto\\) intensity. For the second frequency, \\(V_0\\) shifts according to \\(eV_0 = h\\nu - \\phi_0\\). Wave theory predicts \\(V_0\\) should increase with intensity and no sharp threshold frequency. A good answer explicitly contrasts the two predictions and identifies the instantaneous emission as a third test (wave theory predicts time lag at low intensity).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The light knocks ______ loose from a semiconductor, creating current.",
+     "a": "electrons",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The light knocks electrons loose from a ______, creating current.",
+     "a": "semiconductor",
+     "self_check": true
     }
    ]
   }

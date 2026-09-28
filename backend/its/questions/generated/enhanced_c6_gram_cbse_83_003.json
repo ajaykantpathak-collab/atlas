@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c6_gram_cbse_83_003",
+ "concepts": [
+  {
+   "id": "enh:c6_gram_cbse_83_003",
+   "title": "c6_gram_cbse_83_003",
+   "questions": [
+    {
+     "q": "Join correctly: 'He was tired. He kept working.'",
+     "a": "'He was tired, but he kept working' — contrast logic (expectation vs reality). A wrong answer 'and' misses that keeping-working contradicts the tiredness expectation.",
+     "self_check": true
+    },
+    {
+     "q": "Join: 'She was hungry. She ate two sandwiches.'",
+     "a": "'She was hungry, so she ate two sandwiches' — cause → result. A wrong answer 'because she ate' reverses causality — the sandwiches didn't cause the hunger.",
+     "self_check": true
+    },
+    {
+     "q": "Which is wrong and why: 'I wanted tea, but I drank tea.'",
+     "a": "The 'but' promises contrast that never arrives — should be 'and'. A wrong answer accepting it shows the student hears 'but' as a pause-word, not a contrast-signal.",
+     "self_check": true
+    },
+    {
+     "q": "______ are joining words — and/but/or join equals, because/so joins reason and result.",
+     "a": "Conjunctions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ are joining words — and/but/or join equals, because/so joins reason and result. 'I was tired, SO I slept' — 'so' carries the result.",
+     "a": "Conjunctions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The logic test: read the two ______ — same direction (and), opposite direction (but), choice (or), cause→effect (because/so). 'He studied hard, SO he passed' — cause then result. 'He passed BECAUSE he studied hard' — result then cause.",
+     "a": "halves",
+     "self_check": true
+    },
+    {
+     "q": "What is Conjunctions? State the definition given in this lesson.",
+     "a": "Conjunctions are joining words — and/but/or join equals, because/so joins reason and result. 'I was tired, SO I slept' — 'so' carries the result.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Conjunctions?",
+     "a": "Students default to 'and' for everything, and swap because/so — writing 'He passed, so he studied hard' which reverses cause and effect.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student picks the joiner matching the logic (addition=and, contrast=but, choice=or, reason=because, result=so), combines two sentences with the right conjunction, and spots logic-flips.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The logic test: read the two halves — same direction (and), ______ direction (but), choice (or), cause→effect (because/so). 'He studied hard, SO he passed' — cause then result. 'He passed BECAUSE he studied hard' — result then cause.",
+     "a": "opposite",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

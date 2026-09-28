@@ -34,6 +34,31 @@
      "q": "Construct a demographic profile for a hypothetical fourth country \"Neighbourland\" that would lie between India and China on all six Table 8.1 indicators. Provide plausible numbers for each indicator and justify each choice in one sentence.",
      "a": "Profile: Population 1,000 million (between 240 and 1,411); Growth rate 0.4% (between –0.10% and 0.81%); Density 300 persons/sq.km (between 150 and 473); Sex ratio 915 (between 898 and 930); Fertility rate 1.6 (between 1.2 and 2.0); Urbanisation 50% (between 36% and 65%). Justification: Each value is a plausible midpoint reflecting a country further along the demographic transition than India but not as advanced as China, with moderate policy intervention. A poor answer picks numbers outside the range or copies one country's values, showing inability to interpolate demographic trends.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Demographic indicators are ______ measures that describe the size, structure, growth, and spatial distribution of a population.",
+     "a": "quantitative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine reading a headline: \"India surpasses China as the world's most populous nation in 2023.\" A Class 11 student might wonder: does \"most populous\" mean ______ density?",
+     "a": "highest",
+     "self_check": true
+    },
+    {
+     "q": "What is Demographic indicators? State the definition given in this lesson.",
+     "a": "Demographic indicators are quantitative measures that describe the size, structure, growth, and spatial distribution of a population.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Demographic indicators?",
+     "a": "Students often treat \"population growth rate\" and \"fertility rate\" as interchangeable, thinking a fertility rate of 2.0 means zero population growth.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate and interpret all seven demographic indicators from raw data, compare India, China, and Pakistan on each indicator using Table 8.1 data, and explain how differences in these indicators (e.g., China's negative growth rate vs.",
+     "self_check": true
     }
    ]
   }

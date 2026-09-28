@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a 12 V car bulb (rated 21 W), a variable DC power supply (0–15 V), an ammeter, and a voltmeter to verify that the power dissipated in the filament follows \\(P = VI\\) and that the resistance of the filament changes with temperature. Outline the procedure, measurements, and how you would analyse the data.",
      "a": "Procedure: Connect the bulb in series with the ammeter and power supply; connect the voltmeter across the bulb. Vary the supply voltage from 2 V to 12 V in steps of 1 V. At each step, record \\(V\\) and \\(I\\). Compute \\(P_{\\text{measured}} = VI\\) and \\(R = V/I\\). Plot \\(P\\) vs \\(V\\) and \\(R\\) vs \\(V\\) (or vs \\(I\\)). Analysis: The \\(P\\) vs \\(V\\) curve will be steeper than quadratic because \\(R\\) increases with temperature (higher \\(V\\) → higher \\(I\\) → hotter filament). The \\(R\\) vs \\(V\\) graph will show increasing resistance. A poor answer (e.g., not measuring both \\(V\\) and \\(I\\) simultaneously, assuming constant resistance, or not plotting) reveals lack of understanding of non-ohmic behaviour of filaments and the need to verify \\(P = VI\\) experimentally rather than assuming \\(P = V^2/R\\) with constant \\(R\\).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ energy dissipated in a conductor is the work done by the electric field in moving charge carriers through the conductor, which appears as heat due to collisions with ions.",
+     "a": "Electrical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe an electric kettle heating water: the heating element gets hot because current passes through its ______.",
+     "a": "resistance",
+     "self_check": true
+    },
+    {
+     "q": "What is Electrical energy dissipated in a conductor? State the definition given in this lesson.",
+     "a": "Electrical energy dissipated in a conductor is the work done by the electric field in moving charge carriers through the conductor, which appears as heat due to collisions with ions.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Electrical energy dissipated in a conductor?",
+     "a": "They treat the high transmission voltage as the voltage across the line's own resistance, leading to absurdly large loss estimates.",
+     "self_check": true
     }
    ]
   }

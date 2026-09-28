@@ -34,6 +34,31 @@
      "q": "Construct a realistic three-person barter chain scenario in an Indian village (e.g., a weaver, a dairy farmer, a grain merchant) where double coincidence of wants is resolved through a chain of exchanges, and then explain why this chain method is still inferior to using money as a medium of exchange.",
      "a": "Example chain: Weaver wants milk → gives cloth to dairy farmer → dairy farmer wants grain → gives milk to grain merchant → grain merchant wants cloth → gives grain to weaver. This chain resolves double coincidence but fails because: (1) it requires all three to meet simultaneously and agree on three exchange ratios, (2) if any link breaks (e.g., grain merchant already has cloth), the entire chain collapses, (3) it cannot handle indivisibility or deferred payments. Money allows each bilateral trade independently. A poor answer (e.g., \"chain is too long\") reveals the student cannot identify the systemic fragility and informational burden of multilateral barter chains.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Money as a medium of exchange is an asset that is ______ accepted in an economy to facilitate the buying and selling of goods and services by eliminating the requirement of a double coincidence of wants inherent in the barter system.",
+     "a": "universally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a wheat ______ in Punjab who needs a pair of leather shoes.",
+     "a": "farmer",
+     "self_check": true
+    },
+    {
+     "q": "What is Money as a medium of exchange? State the definition given in this lesson.",
+     "a": "Money as a medium of exchange is an asset that is universally accepted in an economy to facilitate the buying and selling of goods and services by eliminating the requirement of a double coincidence of wants inherent in the barter system.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain, using a concrete Indian market example, why the barter system fails in a modern economy by identifying at least three specific limitations (double coincidence of wants, lack of common measure of value, indivisibility of goods, difficulty in storing wealth) and can demonstrate how money resolves each limitation by.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a wheat farmer in Punjab who needs a pair of leather shoes.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

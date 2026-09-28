@@ -4,15 +4,9 @@
   {
    "id": "am12_003c.1",
    "title": "Order and Degree of Differential Equations",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "transpose the terms and divide by the coefficient",
-     "explain": "transpose the terms and divide by the coefficient: x = (97 - 13) / 7 gives 12",
-     "compute": "x = (97 - 13) / 7"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 7x + 13 = 97.",
@@ -50,6 +44,8 @@
    "id": "am12_003c.2",
    "title": "General and Particular Solutions",
    "converted_to_compute": false,
+   "formula": "value = a * x ** 2 / 2 + c0",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "First principles: for f(x) = x^2 at x = 3 with h = 0.01, compute the difference quotient (f(x+h) - f(x)) / h (two decimal places).",
@@ -86,15 +82,9 @@
   {
    "id": "am12_003c.3",
    "title": "Forming Differential Equations by Eliminating Constants",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "transpose the terms and divide by the coefficient",
-     "explain": "transpose the terms and divide by the coefficient: x = (14 - 12) / 2 gives 1",
-     "compute": "x = (14 - 12) / 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 2x + 12 = 14.",
@@ -131,15 +121,9 @@
   {
    "id": "am12_003c.4",
    "title": "Variable Separable Equations",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute the given values and simplify",
-     "explain": "substitute the given values and simplify: val = 3 * 4 + 5 gives 17",
-     "compute": "val = 3 * 4 + 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 5 when x = 4.",
@@ -176,15 +160,9 @@
   {
    "id": "am12_003c.5",
    "title": "Mathematical Modeling with Differential Equations",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "transpose the terms and divide by the coefficient",
-     "explain": "transpose the terms and divide by the coefficient: x = (14 - 2) / 4 gives 3",
-     "compute": "x = (14 - 2) / 4"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 4x + 2 = 14.",

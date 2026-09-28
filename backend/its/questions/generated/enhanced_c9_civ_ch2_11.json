@@ -34,6 +34,31 @@
      "q": "Design a 3-step \"Voter Verification Protocol\" that a Class 9 student can use when they receive a sensational political claim on social media 48 hours before polling. Each step must use only tools accessible to a student (no specialized software).",
      "a": "**Step 1: Source Trace** — Ask \"Who posted this originally?\" Check if the account is verified, official (ECI, PIB, party handle), or anonymous. **Step 2: Cross-Check** — Search the exact claim + \"fact check\" on Google; check reputable fact-check sites (Alt News, Boom, FactChecker.in) and the ECI's \"Myth vs Reality\" portal. **Step 3: Lateral Read** — Open 3 mainstream news sites (The Hindu, Indian Express, PIB) — if none report it, treat as unverified. **Do not forward until verified.** A poor answer suggesting \"ask parents\" or \"trust the forward count\" reveals reliance on authority/heuristics instead of critical verification habits.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ in elections refers to the deliberate or unintentional spread of false, inaccurate, or misleading information — including fake news, deepfakes, manipulated images, and doctored videos — designed to manipulate voter perceptions, suppress turnout, or discredit candidates.",
+     "a": "Misinformation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive a WhatsApp forward two days before voting claiming your preferred candidate has withdrawn from the race and joined the rival party — the message includes a convincing but ______ screenshot of a news channel.",
+     "a": "fabricated",
+     "self_check": true
+    },
+    {
+     "q": "What is Misinformation in elections? State the definition given in this lesson.",
+     "a": "Misinformation in elections refers to the deliberate or unintentional spread of false, inaccurate, or misleading information — including fake news, deepfakes, manipulated images, and doctored videos — designed to manipulate voter perceptions, suppress turnout, or discredit candidates.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Misinformation in elections?",
+     "a": "Students believe misinformation is only \"fake news articles\" on Facebook/Twitter, ignoring that WhatsApp forwards, manipulated WhatsApp status screenshots, deepfake audio calls mimicking leaders, and edited video clips shared in private groups are the primary vectors in India.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how misinformation distorts the electoral process by giving a specific Indian example, distinguish misinformation from legitimate political campaigning, and identify at least three structural challenges (beyond misinformation) that compromise free and fair elections in India.",
+     "self_check": true
     }
    ]
   }

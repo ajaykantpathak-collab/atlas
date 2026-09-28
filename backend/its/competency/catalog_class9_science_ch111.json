@@ -107,7 +107,16 @@
      "action": "confirm species chromosome constancy",
      "explain": "Check that the zygote chromosome count equals the original diploid somatic count, ensuring the species chromosome number stays constant across generations."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "haploid_chromosomes = diploid_chromosomes / 2",
+     "compute": "haploid_chromosomes = diploid_chromosomes / 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.111.4",
@@ -142,7 +151,16 @@
      "action": "interpret genetic variation result",
      "explain": "State that the large number of combinations explains the genetic diversity among offspring from the same parents."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "combinations = 2 ** num_pairs",
+     "compute": "combinations = 2 ** num_pairs"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.111.5",
@@ -212,7 +230,16 @@
      "action": "interpret the efficiency value",
      "explain": "State whether the low efficiency indicates wind pollination (high pollen waste) or targeted animal pollination (lower pollen waste)."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "pollen_per_seed = total_pollen / seeds_formed",
+     "compute": "pollen_per_seed = total_pollen / seeds_formed"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.111.7",
@@ -316,7 +343,16 @@
      "action": "verify cycle regularity",
      "explain": "Confirm the predicted next period date falls one full cycle length after the last, ensuring the cycle is regular and the calculation is consistent."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "next_period_day = last_period_day + cycle_length",
+     "compute": "next_period_day = last_period_day + cycle_length"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.111.10",

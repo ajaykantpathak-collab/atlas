@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a battery, a variable resistor (rheostat), an ammeter, a calorimeter with water, and a thermometer to verify that heat produced is proportional to the square of the current (H ∝ I²). List the steps and the graph you would plot.",
      "a": "Steps: (1) Set up a circuit with battery, rheostat, ammeter, and a heating coil immersed in a known mass of water in a calorimeter. (2) Adjust rheostat to get a current I₁, close circuit for fixed time t, measure temperature rise Δθ₁. Calculate H₁ = mcΔθ₁. (3) Repeat for at least 4 different currents I₂, I₃... keeping time and water mass constant. (4) Plot H (y-axis) vs I² (x-axis). A straight line through origin verifies H ∝ I². A poor answer that plots H vs I (getting a curve) or does not control time/mass reveals the student cannot isolate variables or translate a proportionality into a graphical test.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The heat energy produced when an electric current passes through a resistor is given by Joule's law of heating: H = I²Rt, where H is the heat energy in joules (J), I is the current in amperes (A), R is the ______ in ohms (Ω), and t is the time in seconds (s).",
+     "a": "resistance",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe an electric room heater or a geyser in an Indian ______: the element glows red and the room warms up.",
+     "a": "household",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the heat produced in a resistor given any three of the four quantities (H, I, R, t) and can predict qualitatively how the heat changes if one factor is altered while others are kept constant, using the correct proportionality relationships.",
+     "self_check": true
     }
    ]
   }

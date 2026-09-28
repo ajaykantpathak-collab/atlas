@@ -34,6 +34,31 @@
      "q": "Design a ledger account for \"Rent Expense\" with at least 4 transactions (mix of cash and outstanding) such that the account has a debit balance at year-end. Show full balancing with \"Balance c/d\" and \"Balance b/d\". Then create a *different* scenario for the same account where it would have a *credit* balance (prepaid rent) and show its balancing.",
      "a": "**Scenario 1 (Debit Balance - Normal):** Dr side: Cash ₹10,000, Outstanding ₹2,000 (Total ₹12,000). Cr side: nil. Balance c/d ₹12,000 on Cr side. Balance b/d ₹12,000 on Dr side. **Scenario 2 (Credit Balance - Prepaid):** Dr side: Cash ₹10,000. Cr side: Prepaid adjustment ₹2,000 (or opening prepaid). If Cr > Dr, Balance c/d on Dr side, Balance b/d on Cr side. A poor answer uses identical transactions for both or puts Balance b/d on the wrong side, showing inability to visualise how the same account type can have opposite balances under different circumstances.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Balancing of a ledger account is the process of ______ the net difference between the total of the debit side and the total of the credit side of that account at the end of an accounting period, and recording that difference on the shorter side as \"Balance c/d\" so that the two sides become equal, which is then brought down as \"Balance b/d\" on the opposite side for the next period.",
+     "a": "determining",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: At month-end, your \"Cash ______\" has 15 entries on the debit side (receipts) and 10 entries on the credit side (payments).",
+     "a": "Account",
+     "self_check": true
+    },
+    {
+     "q": "What is Balancing of a ledger account? State the definition given in this lesson.",
+     "a": "Balancing of a ledger account is the process of determining the net difference between the total of the debit side and the total of the credit side of that account at the end of an accounting period, and recording that difference on the shorter side as \"Balance c/d\" so that the two sides become equal, which is then brought down as.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Balancing of a ledger account?",
+     "a": "Students mechanically write \"Balance c/d\" on the *debit* side for *all* accounts because they see it done for Cash and Bank (assets) most often.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently balance any ledger account (asset, liability, capital, revenue, or expense) by correctly totaling both sides, calculating the difference, writing \"Balance c/d\" on the shorter side with the correct date and narration, and bringing down the \"Balance b/d\" on the opposite side for the next period.",
+     "self_check": true
     }
    ]
   }

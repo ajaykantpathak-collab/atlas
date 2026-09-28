@@ -34,6 +34,31 @@
      "q": "Create a real-world problem (Indian context) where you know the mean of a group, then one person leaves or joins, and you need to find the new mean. Write the problem and solve it using the deviation method.",
      "a": "Example: \"In a cricket team of 11 players, the average runs scored is 45. The captain scored 60 runs and is replaced by a new player who scored 30 runs. Find the new average.\" Solution: Old mean 45, count 11. Remove 60 (deviation +15), shift = −15/11 ≈ −1.36, intermediate mean = 43.64. Add 30 (deviation −13.64), shift = −13.64/11 ≈ −1.24, new mean ≈ 42.40. A poor answer would just recalculate total runs without using deviation, showing they cannot apply the method creatively.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When a new value is added to a data set, the new mean equals the old mean plus the ______ of the new value from the old mean divided by the new number of values.",
+     "a": "deviation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your class of 30 students has an ______ height of 150 cm.",
+     "a": "average",
+     "self_check": true
+    },
+    {
+     "q": "What is When a new value? State the definition given in this lesson.",
+     "a": "When a new value is added to a data set, the new mean equals the old mean plus the deviation of the new value from the old mean divided by the new number of values.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about When a new value?",
+     "a": "Students often divide the deviation by the old number of values instead of the new number of values.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute the new mean after adding or removing a value using the deviation method in at most three steps, and can explain why the mean shifts toward the added value or away from the removed value.",
+     "self_check": true
     }
    ]
   }

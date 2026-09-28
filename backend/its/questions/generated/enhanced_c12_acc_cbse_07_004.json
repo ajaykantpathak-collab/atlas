@@ -34,6 +34,31 @@
      "q": "Create a realistic scenario where a company has BOTH Calls in Arrears and Calls in Advance simultaneously. Design a Balance Sheet extract (Share Capital note and Current Liabilities) showing correct presentation with imaginary but plausible figures. Include interest accrued on both as on Balance Sheet date.",
      "a": "Scenario: Y Ltd. issued 1,00,000 shares of ₹10 each (₹3 application, ₹3 allotment, ₹2 first call, ₹2 final call). Final call made 1 Oct 2023. Balance Sheet 31 Mar 2024.\n- 1,000 shares: final call unpaid → Calls in Arrears ₹2,000\n- 500 shares: final call paid with first call → Calls in Advance ₹1,000\n- Interest on Arrears @10% p.a. for 6 months = ₹100 (Income, shown under 'Other Income' in P&L, receivable shown under 'Other Current Assets')\n- Interest on Advance @12% p.a. for 6 months = ₹60 (Expense, shown under 'Finance Costs' in P&L, payable shown under 'Other Current Liabilities')\n\nBalance Sheet Extract:\n**Shareholders' Funds**\nShare Capital:\nAuthorised: 1,50,000 shares of ₹10 = ₹15,00,000\nIssued: 1,00,000 shares of ₹10 = ₹10,00,000\nSubscribed & Called-up: 1,00,000 shares of ₹10 = ₹10,00,000\nLess: Calls in Arrears (1,000 shares × ₹2) = (₹2,000)\nPaid-up Capital = ₹9,98,000\n\n**Current Liabilities**\nOther Current Liabilities:\nCalls in Advance (500 shares × ₹2) = ₹1,000\nInterest Accrued on Calls in Advance = ₹60\n\n**Current Assets**\nOther Current Assets:\nInterest Accrued on Calls in Arrears = ₹100\n\nA poor answer (e.g., netting arrears and advance, showing interest on arrears as liability, or omitting interest accruals) reveals inability to integrate multiple concepts: Schedule III presentation, interest computation, accrual accounting, and P&L classification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Calls in Arrears refers to the amount of call money not paid by ______ by the due date, shown as a deduction from Subscribed Capital in the Balance Sheet.",
+     "a": "shareholders",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a company issues 10,000 shares of ₹100 each, payable as ₹30 on ______, ₹30 on allotment, ₹20 on first call, and ₹20 on final call.",
+     "a": "application",
+     "self_check": true
+    },
+    {
+     "q": "What is Calls in Arrears? State the definition given in this lesson.",
+     "a": "Calls in Arrears refers to the amount of call money not paid by shareholders by the due date, shown as a deduction from Subscribed Capital in the Balance Sheet.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Calls in Arrears?",
+     "a": "Students often treat Calls in Arrears as a Current Asset (like a receivable) because \"the company will collect it later.\" They also net off Calls in Arrears against Calls in Advance, showing a single net figure in Shareholders' Funds.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Calculate Calls in Arrears and Calls in Advance from given share issue data with multiple call stages, (2) Prepare the Share Capital note in Balance Sheet as per Schedule III showing correct presentation of both items, (3) Compute interest on Calls in Arrears (income) and Calls in Advance (expense) at.",
+     "self_check": true
     }
    ]
   }

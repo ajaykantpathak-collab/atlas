@@ -34,6 +34,21 @@
      "q": "Design a conceptual experiment using temperature-sensitive yeast mutants to identify a gene required for Golgi-mediated glycosylation of a cell-surface receptor. Outline the key steps, the phenotype you would screen for, and how you would confirm the defect is in the Golgi.",
      "a": "Key steps: (1) Mutagenize yeast; (2) Screen for temperature-sensitive mutants that fail to bind a fluorescent lectin (e.g., ConA) at restrictive temperature, indicating defective glycosylation; (3) Verify the receptor protein is synthesized (Western blot) but shows faster mobility on SDS-PAGE (loss of sugar chains); (4) Use immunofluorescence to show the mutant receptor accumulates in the ER or early Golgi (colocalization with ER/Golgi markers) instead of reaching the plasma membrane; (5) Sequence the mutated gene to identify a Golgi-resident glycosyltransferase. A poor answer that only says \"check if receptor works\" without linking glycosylation status, subcellular localization, and genetic complementation shows inability to integrate cell biology, genetics, and biochemistry.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Golgi apparatus is a membrane-bound eukaryotic organelle composed of a stack of flattened, disc-shaped cisternae with distinct cis (forming) and trans (maturing) faces that receives, modifies, sorts, and packages proteins and lipids from the ______ reticulum for secretion or delivery to other organelles.",
+     "a": "endoplasmic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a busy post office where parcels (proteins) arrive from a factory (rough ER), get sorted, labeled with ______ tags (sugar chains), repackaged, and dispatched to the correct addresses (plasma membrane, lysosomes, or outside the cell).",
+     "a": "destination",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can accurately label the cis and trans faces on a diagram, trace the secretory pathway from rough ER through Golgi to final destination, and explain how specific post-translational modifications (e.g., glycosylation) in the Golgi determine a protein's final localization.",
+     "self_check": true
     }
    ]
   }

@@ -31,8 +31,33 @@
      "self_check": true
     },
     {
-     "q": "Design a simple experiment using a model organism (e.g., Drosophila or Neurospora) to demonstrate that crossing over produces recombinant phenotypes in offspring. Outline the cross, the marker genes needed, and the expected phenotypic ratios.",
-     "a": "Use Drosophila: cross a homozygous wild-type fly (vg⁺ vg⁺; b⁺ b⁺) with a double recessive (vg vg; b b) where vg = vestigial wings, b = black body. F1 heterozygotes (vg⁺ vg; b⁺ b) are test-crossed to double recessive. Parental phenotypes: wild-type and vestigial-black. Recombinant phenotypes: vestigial-normal body and wild-type-black. Recombination frequency = (recombinants/total) × 100%. A poor design (e.g., using unlinked genes or no test cross) reveals ignorance of linkage mapping principles and the need for a test cross to reveal gamete genotypes.",
+     "q": "Give the correct order of steps in a Drosophila test-cross that measures recombination between vestigial wings and black body.",
+     "a": "The cross runs: (1) Cross a homozygous wild-type fly with a double recessive vestigial black fly (2) Test-cross the heterozygous F1 to the double recessive (3) Score progeny as parental wild-type, vestigial black or recombinant classes (4) Compute the recombination frequency as recombinants over total times 100. A wrong answer that uses unlinked genes or omits the test-cross shows the student has missed that measurable recombination needs heterozygous alleles revealed against a homozygous recessive parent.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Meiosis is a ______ reductional cell division in diploid germ cells that produces four genetically unique haploid gametes through two sequential divisions (Meiosis I and II) following a single DNA replication, thereby halving the chromosome number and generating genetic variation via crossing over and independent assortment.",
+     "a": "specialized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a family photograph: siblings share parents but look different — different eye colour, height, hair texture.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What is Meiosis? State the definition given in this lesson.",
+     "a": "Meiosis is a specialized reductional cell division in diploid germ cells that produces four genetically unique haploid gametes through two sequential divisions (Meiosis I and II) following a single DNA replication, thereby halving the chromosome number and generating genetic variation via crossing over and independent assortment.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Meiosis?",
+     "a": "Students often think crossing over occurs between sister chromatids because they look identical, or that independent assortment happens in metaphase II because chromatids separate then.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain how crossing over at chiasmata during pachytene and random orientation of bivalents at metaphase I create recombinant chromosomes and independent assortment, and can calculate the number of possible gamete combinations (2ⁿ) for a given haploid number n.",
      "self_check": true
     }
    ]

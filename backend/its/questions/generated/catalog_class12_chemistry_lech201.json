@@ -1,0 +1,240 @@
+{
+ "catalog": "catalog_class12_chemistry_lech201.json",
+ "concepts": [
+  {
+   "id": "lech201.6.2.1",
+   "title": "IUPAC Naming of Haloalkanes and Haloarenes",
+   "converted_to_compute": true,
+   "formula": "name = halogen_prefix + locants + parent_hydrocarbon",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "name = halogen_prefix + locants + parent_hydrocarbon",
+     "compute": "name = halogen_prefix + locants + parent_hydrocarbon"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For IUPAC Naming of Haloalkanes and Haloarenes: given halogen_prefix = 14.8, locants = 98, parent_hydrocarbon = 67, find name.",
+     "a": "179.8",
+     "self_check": false
+    },
+    {
+     "q": "For IUPAC Naming of Haloalkanes and Haloarenes: given halogen_prefix = 19.3, locants = 20, parent_hydrocarbon = 76, find name.",
+     "a": "115.3",
+     "self_check": false
+    },
+    {
+     "q": "For IUPAC Naming of Haloalkanes and Haloarenes: given halogen_prefix = 2.4, locants = 32, parent_hydrocarbon = 113, find name.",
+     "a": "147.4",
+     "self_check": false
+    },
+    {
+     "q": "For IUPAC Naming of Haloalkanes and Haloarenes: given halogen_prefix = 11.3, locants = 56, parent_hydrocarbon = 106, find name.",
+     "a": "173.3",
+     "self_check": false
+    },
+    {
+     "q": "For IUPAC Naming of Haloalkanes and Haloarenes: given halogen_prefix = 2.3, locants = 85, parent_hydrocarbon = 23, find name.",
+     "a": "110.3",
+     "self_check": false
+    },
+    {
+     "q": "For IUPAC Naming of Haloalkanes and Haloarenes: given halogen_prefix = 7.8, locants = 97, parent_hydrocarbon = 108, find name.",
+     "a": "212.8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech201.6.7.1.1",
+   "title": "SN2 Kinetics: Bimolecular Substitution Rate",
+   "converted_to_compute": true,
+   "formula": "rate_sn_2 = k_sn_2 * conc_halide * conc_nuc",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rate_sn_2 = k_sn_2 * conc_halide * conc_nuc",
+     "compute": "rate_sn_2 = k_sn_2 * conc_halide * conc_nuc"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For SN2 Kinetics: Bimolecular Substitution Rate: given k_sn_2 = 13.9, conc_halide = 94, conc_nuc = 8.1, find rate sn 2.",
+     "a": "10583.5",
+     "self_check": false
+    },
+    {
+     "q": "For SN2 Kinetics: Bimolecular Substitution Rate: given k_sn_2 = 4.9, conc_halide = 65, conc_nuc = 19.1, find rate sn 2.",
+     "a": "6083.35",
+     "self_check": false
+    },
+    {
+     "q": "For SN2 Kinetics: Bimolecular Substitution Rate: given k_sn_2 = 0.5, conc_halide = 35, conc_nuc = 9.6, find rate sn 2.",
+     "a": "168",
+     "self_check": false
+    },
+    {
+     "q": "For SN2 Kinetics: Bimolecular Substitution Rate: given k_sn_2 = 1.2, conc_halide = 10.8, conc_nuc = 10.2, find rate sn 2.",
+     "a": "132.192",
+     "self_check": false
+    },
+    {
+     "q": "For SN2 Kinetics: Bimolecular Substitution Rate: given k_sn_2 = 11.2, conc_halide = 61, conc_nuc = 13.8, find rate sn 2.",
+     "a": "9428.16",
+     "self_check": false
+    },
+    {
+     "q": "For SN2 Kinetics: Bimolecular Substitution Rate: given k_sn_2 = 0.6, conc_halide = 96, conc_nuc = 8.8, find rate sn 2.",
+     "a": "506.88",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech201.6.7.1.2",
+   "title": "SN1 Kinetics: Unimolecular Substitution Rate",
+   "converted_to_compute": true,
+   "formula": "rate_sn_1 = k_sn_1 * conc_halide",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rate_sn_1 = k_sn_1 * conc_halide",
+     "compute": "rate_sn_1 = k_sn_1 * conc_halide"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For SN1 Kinetics: Unimolecular Substitution Rate: given k_sn_1 = 7.3, conc_halide = 79, find rate sn 1.",
+     "a": "576.7",
+     "self_check": false
+    },
+    {
+     "q": "For SN1 Kinetics: Unimolecular Substitution Rate: given k_sn_1 = 5.9, conc_halide = 87, find rate sn 1.",
+     "a": "513.3",
+     "self_check": false
+    },
+    {
+     "q": "For SN1 Kinetics: Unimolecular Substitution Rate: given k_sn_1 = 5.3, conc_halide = 30, find rate sn 1.",
+     "a": "159",
+     "self_check": false
+    },
+    {
+     "q": "For SN1 Kinetics: Unimolecular Substitution Rate: given k_sn_1 = 17.5, conc_halide = 51, find rate sn 1.",
+     "a": "892.5",
+     "self_check": false
+    },
+    {
+     "q": "For SN1 Kinetics: Unimolecular Substitution Rate: given k_sn_1 = 10.7, conc_halide = 39, find rate sn 1.",
+     "a": "417.3",
+     "self_check": false
+    },
+    {
+     "q": "For SN1 Kinetics: Unimolecular Substitution Rate: given k_sn_1 = 7.8, conc_halide = 74, find rate sn 1.",
+     "a": "577.2",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech201.6.7.1.3",
+   "title": "Optical Activity and Specific Rotation",
+   "converted_to_compute": true,
+   "formula": "spec_rot = obs_angle / (tube_dm * conc)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "spec_rot = obs_angle / (tube_dm * conc)",
+     "compute": "spec_rot = obs_angle / (tube_dm * conc)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Optical Activity and Specific Rotation: given obs_angle = 155, tube_dm = 70, conc = 93, find spec rot.",
+     "a": "0.0238095",
+     "self_check": false
+    },
+    {
+     "q": "For Optical Activity and Specific Rotation: given obs_angle = 40, tube_dm = 73, conc = 56, find spec rot.",
+     "a": "0.00978474",
+     "self_check": false
+    },
+    {
+     "q": "For Optical Activity and Specific Rotation: given obs_angle = 170, tube_dm = 67, conc = 84, find spec rot.",
+     "a": "0.0302061",
+     "self_check": false
+    },
+    {
+     "q": "For Optical Activity and Specific Rotation: given obs_angle = 116, tube_dm = 8.7, conc = 41, find spec rot.",
+     "a": "0.325203",
+     "self_check": false
+    },
+    {
+     "q": "For Optical Activity and Specific Rotation: given obs_angle = 7.2, tube_dm = 63, conc = 18.1, find spec rot.",
+     "a": "0.00631413",
+     "self_check": false
+    },
+    {
+     "q": "For Optical Activity and Specific Rotation: given obs_angle = 103, tube_dm = 35, conc = 53, find spec rot.",
+     "a": "0.0555256",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech201.6.7.1.4",
+   "title": "Racemic Mixtures and Enantiomeric Excess",
+   "converted_to_compute": true,
+   "formula": "ee_percent = (obs_rot / pure_rot) * 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ee_percent = (obs_rot / pure_rot) * 100",
+     "compute": "ee_percent = (obs_rot / pure_rot) * 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Racemic Mixtures and Enantiomeric Excess: given obs_rot = 47, pure_rot = 1.7, find ee percent.",
+     "a": "2764.71",
+     "self_check": false
+    },
+    {
+     "q": "For Racemic Mixtures and Enantiomeric Excess: given obs_rot = 83, pure_rot = 55, find ee percent.",
+     "a": "150.909",
+     "self_check": false
+    },
+    {
+     "q": "For Racemic Mixtures and Enantiomeric Excess: given obs_rot = 26, pure_rot = 38, find ee percent.",
+     "a": "68.4211",
+     "self_check": false
+    },
+    {
+     "q": "For Racemic Mixtures and Enantiomeric Excess: given obs_rot = 49, pure_rot = 21, find ee percent.",
+     "a": "233.333",
+     "self_check": false
+    },
+    {
+     "q": "For Racemic Mixtures and Enantiomeric Excess: given obs_rot = 55, pure_rot = 87, find ee percent.",
+     "a": "63.2184",
+     "self_check": false
+    },
+    {
+     "q": "For Racemic Mixtures and Enantiomeric Excess: given obs_rot = 33, pure_rot = 1.8, find ee percent.",
+     "a": "1833.33",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

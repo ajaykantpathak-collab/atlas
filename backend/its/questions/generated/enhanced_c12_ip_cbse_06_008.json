@@ -34,6 +34,21 @@
      "q": "Design a 3-page portfolio site structure (HTML + CSS files) showing exactly where inline, internal, and external CSS each live. Annotate each choice with a one-line justification.",
      "a": "Expected structure:\n- `index.html`, `projects.html`, `contact.html` each link `<link rel=\"stylesheet\" href=\"global.css\">` (external — shared layout, typography, colors)\n- `projects.html` has `<style>` block for project-grid animations (internal — page-specific interactive behavior)\n- `contact.html` has `<button style=\"background: #ff6b6b;\">` on the submit button (inline — one-off emphasis color not reused)\nA poor answer puts everything in one file or uses inline for repeated patterns, showing no grasp of scope-based separation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: CSS can be applied to HTML documents in three ways: inline CSS uses the style attribute directly on an element for one-off styling; internal CSS places style rules inside a <style> element within the document's <head> for page-specific designs; external CSS links a separate .css file via <link rel=\"stylesheet\" href=\"...\"> for site-wide consistency and ______.",
+     "a": "maintainability",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're building a school website: the home page needs a unique hero banner, the \"About Us\" page shares the same ______ and footer, and the timetable page requires a one-off highlight for today's class.",
+     "a": "navigation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can examine a web project scenario (single page, multi-page site, email template, component library) and justify the optimal CSS inclusion method by weighing specificity needs, reusability, caching benefits, and maintenance overhead.",
+     "self_check": true
     }
    ]
   }

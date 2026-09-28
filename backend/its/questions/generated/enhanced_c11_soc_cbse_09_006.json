@@ -26,13 +26,38 @@
      "self_check": true
     },
     {
-     "q": "Critique the following claim using Durkheim's methodology: 'Since Japan has a high suicide rate, Japanese culture must be inherently suicidal.' Your critique must address (a) the ecological fallacy, (b) the distinction between rate and case, and (c) the need for comparative analysis of social structure.",
-     "a": "(a) **Ecological fallacy**: A high *national* rate does not imply every Japanese individual or subgroup has high risk; rates vary by region, age, gender, and integration level. (b) **Rate vs case**: The rate is a social fact (collective, constraining); attributing it to 'culture' as a monolithic essence reifies a statistical pattern into a cultural stereotype, ignoring structural variables (e.g., labour market precarity, family isolation, mental health stigma). (c) **Comparative method**: Durkheim would demand comparison *within* Japan (e.g., urban vs rural, employed vs unemployed, married vs single) and *across* societies with similar cultural traits but different rates (e.g., South Korea vs Japan) to isolate structural determinants. A weak critique that merely says 'culture is complex' fails to deploy Durkheim's specific methodological tools: social facts require structural, not essentialist, explanation.",
+     "q": "Give the correct order of points in the Durkheimian critique of calling a whole culture inherently suicidal.",
+     "a": "The critique runs: (1) Separate the social fact of a national rate from any individual case (2) Apply integration and regulation theory to ask which groups inside the country carry the rate (3) Refuse the ecological fallacy of reading a statistical aggregate as a cultural essence (4) Demand comparative analysis of structural variables before naming any culture at all. A wrong answer that treats the rate as proof of national character shows the student has missed Durkheim's rule that social facts must be explained by other social facts.",
      "self_check": true
     },
     {
      "q": "Design a mini-research proposal (200 words) to test Durkheim's hypothesis that 'suicide varies inversely with the degree of integration of the social groups of which the individual forms a part' using contemporary Indian data. Specify: (i) the social groups to compare, (ii) the integration indicators, (iii) the data sources, and (iv) the expected pattern if Durkheim holds.",
      "a": "**Proposal**: Compare suicide rates (NCRB data) across Indian states stratified by (i) **religious minority concentration** (Muslims, Christians, Sikhs as distinct groups with varying communal integration), (ii) **household structure** (joint vs nuclear family prevalence from Census), (iii) **caste-based occupational segregation** (SC/ST workforce participation in traditional vs modern sectors). **Integration indicators**: (a) participation in collective rituals (survey data), (b) density of community organisations per capita, (c) inter-caste marriage rates (proxy for boundary permeability). **Data sources**: NCRB Accidental Deaths & Suicides in India (annual), Census 2011/2021, India Human Development Survey (IHDS), National Family Health Survey (NFHS). **Expected pattern**: States/districts with higher ritual participation, denser community organisations, and lower inter-caste marriage (stronger group boundaries) will show *lower* suicide rates *within* those groups, controlling for economic variables. A poor proposal uses only state-level aggregates without group-level disaggregation, committing the ecological fallacy Durkheim warned against.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Social facts are patterns of behaviour, beliefs, and ______ that exist externally to individuals, exert coercive constraint on individual actions, and emerge from collective association rather than individual psychology; they are the proper subject matter of sociology because they can be studied empirically through aggregated behavioural patterns such as suicide rates, marriage rates, or crime statistics.",
+     "a": "institutions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a Class 11 student reads a news report about a farmer's suicide in Vidarbha and thinks, \"This is a personal tragedy caused by debt and ______ — how can sociology explain an individual's private despair?\" This is exactly the starting point Durkheim challenges.",
+     "a": "depression",
+     "self_check": true
+    },
+    {
+     "q": "What is Social facts? State the definition given in this lesson.",
+     "a": "Social facts are patterns of behaviour, beliefs, and institutions that exist externally to individuals, exert coercive constraint on individual actions, and emerge from collective association rather than individual psychology; they are the proper subject matter of sociology because they can be studied empirically through aggregated.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Social facts?",
+     "a": "Students frequently equate 'social fact' with 'social norm' or 'custom', treating them as interchangeable.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) state the three defining characteristics of a social fact (externality, constraint, collectivity) with precise terminology, (2) explain why Durkheim treated suicide rates — not individual suicides — as social facts, and (3) distinguish a sociological explanation of suicide from a psychological or.",
      "self_check": true
     }
    ]

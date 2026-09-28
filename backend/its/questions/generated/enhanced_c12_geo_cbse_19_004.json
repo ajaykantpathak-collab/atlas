@@ -34,6 +34,36 @@
      "q": "Design a small geographical investigation for your district: choose one variable (e.g., temperature, crop yield, population density), decide whether to collect ungrouped or grouped data, and justify which measure of central tendency (mean, median, or mode) would be most appropriate for your research question. Outline the steps you would take to compute it.",
      "a": "**Example investigation:** \"Modal soil type in my district for crop suitability mapping.\"  \n**Variable:** Soil type (categorical: alluvial, black, red, laterite, etc.) — grouped by category, not numerical classes.  \n**Measure:** **Mode** — because soil type is nominal data; mean and median are meaningless for categories. The mode identifies the most widespread soil, guiding crop recommendations.  \n**Steps:** (1) Obtain soil survey map of district. (2) Count frequency of each soil type across grid cells or villages. (3) Identify the type with highest frequency. (4) Map its spatial extent. (5) Cross-reference with crop suitability charts.  \nA poor answer (e.g., choosing mean for soil type, or mode for continuous temperature data without binning) reveals inability to match data type and research question to the appropriate measure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Measures of central tendency are statistical techniques that identify a single ______ value around which geographical data (such as rainfall, temperature, population density, or crop yield) tend to cluster.",
+     "a": "representative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing the annual ______ (in mm) recorded at seven rain-gauge stations across the Malwa Plateau: 979, 1083, 833, 896, 891, 825, 977.",
+     "a": "rainfall",
+     "self_check": true
+    },
+    {
+     "q": "What is Measures of central tendency? State the definition given in this lesson.",
+     "a": "Measures of central tendency are statistical techniques that identify a single representative value around which geographical data (such as rainfall, temperature, population density, or crop yield) tend to cluster.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If you were studying the most common soil type in a region (e.g., \"black cotton soil\" appearing in ______% of samples), that's the mode.",
+     "a": "60",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Measures of central tendency?",
+     "a": "Students often believe \"mean is always the best average\" and mechanically apply the direct method formula (Σx/N) even for grouped data without using midpoints, or they use the median formula for ungrouped data on grouped data without identifying the median class and cumulative frequencies.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) compute mean, median, and mode for both ungrouped and grouped geographical datasets using direct and indirect (assumed mean) methods, (2) interpret which measure best represents a given distribution (symmetrical vs. skewed), and (3) explain the geographical significance of each measure using real Indian examples.",
+     "self_check": true
     }
    ]
   }

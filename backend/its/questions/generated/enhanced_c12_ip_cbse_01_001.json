@@ -34,6 +34,31 @@
      "q": "Design a minimal schema for a `library_fines` table that tracks: member_id (references members table), book_isbn (13-digit ISBN-13), fine_amount (rupees, two decimals, max 9999.99), fine_date (date only), paid_flag (yes/no). Choose types that prevent invalid data at the database level without triggers. Write the CREATE TABLE.",
      "a": "```sql\nCREATE TABLE library_fines (\n  member_id INT UNSIGNED NOT NULL,\n  book_isbn CHAR(13) NOT NULL,\n  fine_amount DECIMAL(6,2) NOT NULL CHECK (fine_amount >= 0 AND fine_amount <= 9999.99),\n  fine_date DATE NOT NULL,\n  paid_flag ENUM('Y','N') NOT NULL DEFAULT 'N',\n  PRIMARY KEY (member_id, book_isbn, fine_date),\n  FOREIGN KEY (member_id) REFERENCES members(member_id)\n);\n```\nReasons: book_isbn CHAR(13) preserves leading zeros (ISBN-13 can start with 978/979). DECIMAL(6,2) enforces exact precision and range via CHECK. ENUM('Y','N') restricts to valid flags at storage level (1 byte). Composite PK prevents duplicate fines for same member/book/date. A poor answer uses VARCHAR for ISBN, FLOAT for amount, or VARCHAR for flag, showing inability to leverage constraints for data integrity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: MySQL data types define the kind of value a column can store, ______ its storage size, range of permissible values, and the operations allowed on it.",
+     "a": "determining",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ for a school canteen's prepaid card system.",
+     "a": "database",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You need to store a student's balance (rupees and paise), the date of last recharge, and their ______-digit mobile number.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly choose the most appropriate MySQL data type for a given real-world attribute (e.g., price, birth date, phone number), justify the choice based on range, precision, storage, and performance, and write a CREATE TABLE statement with correct type declarations including precision/scale for NUMERIC and length for.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a database for a school canteen's prepaid card system.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

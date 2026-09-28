@@ -34,6 +34,16 @@
      "q": "Construct a binomial expansion \\((a+b)^n\\) with \\(a,b > 0\\) such that there are exactly two equal greatest terms. Specify \\(a, b, n\\) and the term indices.",
      "a": "Two equal greatest terms occur when the critical ratio equals 1 exactly for some integer \\(r\\). That is, \\(\\frac{n-r+1}{r} \\cdot \\frac{b}{a} = 1\\). Example: choose \\(n=5, a=2, b=3\\). Then \\(\\frac{5-r+1}{r} \\cdot \\frac{3}{2} = 1 \\Rightarrow \\frac{6-r}{r} = \\frac{2}{3} \\Rightarrow 18-3r = 2r \\Rightarrow r = 3.6\\) (not integer). To get integer, set \\(\\frac{n-r+1}{r} = \\frac{a}{b}\\). Let \\(a=3, b=2, n=7\\). For \\(r=4\\): \\(\\frac{7-4+1}{4} = 1 = \\frac{3}{2}\\)? No. Let \\(a=2, b=1, n=5\\). For \\(r=2\\): \\(\\frac{5-2+1}{2} = 2 = \\frac{a}{b}=2\\). Works! So \\((2+1)^5\\) has equal greatest terms at \\(r=2\\) and \\(r=3\\) i.e., \\(T_3\\) and \\(T_4\\). A poor answer (e.g., random guess) shows the student cannot reverse-engineer the condition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To decide which yields more, you need to know the largest contributing term in each ______.",
+     "a": "expansion",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To decide which yields more, you need to know the largest ______ term in each expansion.",
+     "a": "contributing",
+     "self_check": true
     }
    ]
   }

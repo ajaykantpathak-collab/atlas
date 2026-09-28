@@ -34,6 +34,26 @@
      "q": "Design a simple classroom experiment using a ramp, a toy car, and a measuring tape to show that kinetic energy is proportional to \\( v^2 \\), not \\( v \\).",
      "a": "Release the car from different heights \\( h \\) on the ramp. Measure speed \\( v \\) at bottom (using time over fixed distance). Plot \\( KE \\) (calculated from \\( mgh \\)) vs \\( v \\) and vs \\( v^2 \\). The \\( KE \\) vs \\( v^2 \\) graph will be linear through origin. A poor answer suggests measuring only one height or plotting \\( KE \\) vs \\( v \\) and claiming linearity — shows lack of experimental design understanding.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It is a scalar quantity that depends only on mass and speed, not ______.",
+     "a": "direction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ ball bowled at high speed — it can knock down stumps, but the same ball placed gently does nothing.",
+     "a": "cricket",
+     "self_check": true
+    },
+    {
+     "q": "What is Kinetic energy? State the definition given in this lesson.",
+     "a": "It is a scalar quantity that depends only on mass and speed, not direction.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a cricket ball bowled at high speed — it can knock down stumps, but the same ball placed gently does nothing.",
+     "a": "Observe",
+     "self_check": true
     }
    ]
   }

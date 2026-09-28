@@ -34,6 +34,31 @@
      "q": "Design a simple analogy (different from a kitchen) that maps ALU, CU, registers, and RAM to real-world roles. Explain how your analogy handles a conditional branch instruction (e.g., \"if x>0 then do A else do B\").",
      "a": "Example analogy: Orchestra. CU = Conductor (reads score, cues sections). ALU = Soloist (performs complex passages). Registers = Music stands on stage (immediate access to current bars). RAM = Sheet music library (larger, slower to fetch). For a conditional branch: Conductor evaluates a cue (condition), then either cues the soloist for passage A or signals a different section for passage B. A poor analogy fails to show *conditional control flow* or misplaces the decision-making (e.g., letting the soloist choose the music).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Central Processing Unit (CPU) is the primary electronic circuitry of a computer that executes program ______ by performing arithmetic, logical, control, and input/output operations.",
+     "a": "instructions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you type \"2+3\" in a calculator app and ______ Enter.",
+     "a": "press",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The computer must fetch that instruction, decode what \"addition\" means, calculate the result, and show \"______\".",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can accurately describe the distinct roles of ALU, CU, and registers, and explain how they collaborate during the fetch-decode-execute cycle to process a simple instruction like ADD or LOAD.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you type \"2+3\" in a ______ app and press Enter.",
+     "a": "calculator",
+     "self_check": true
     }
    ]
   }

@@ -22,15 +22,33 @@
     "the sine function is not one-one on R so how can sin inverse be defined",
     "which condition on domain and range ensures the inverse of a function exists"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "show the failure on the natural domain",
-     "explain": "Repeating values mean two inputs share an output, so the map is not one-one."},
-    {"step": 2, "action": "choose a restricting interval",
-     "explain": "Pick an interval on which the function attains every range value exactly once."},
-    {"step": 3, "action": "define the inverse on that interval",
-     "explain": "On the restricted domain the map is one-one and onto, so the inverse function exists."}
-   ]
+    {
+     "step": 1,
+     "action": "show the failure on the natural domain",
+     "explain": "Repeating values mean two inputs share an output, so the map is not one-one."
+    },
+    {
+     "step": 2,
+     "action": "choose a restricting interval",
+     "explain": "Pick an interval on which the function attains every range value exactly once."
+    },
+    {
+     "step": 3,
+     "action": "define the inverse on that interval",
+     "explain": "On the restricted domain the map is one-one and onto, so the inverse function exists."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 4 gives 4",
+     "compute": "count = 4"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lemh.102.2.2",
@@ -48,15 +66,33 @@
     "determine whether sin inverse of 2 is defined and give a reason",
     "identify the branch interval used for the principal values of inverse sine"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "check the input against the domain",
-     "explain": "Inverse sine accepts only inputs from [-1, 1]."},
-    {"step": 2, "action": "solve the matching sine equation",
-     "explain": "Rewrite y = sin^-1 x as sin y = x."},
-    {"step": 3, "action": "read the value inside the branch",
-     "explain": "Choose the angle y that lies in [-pi/2, pi/2]; that angle is the principal value."}
-   ]
+    {
+     "step": 1,
+     "action": "check the input against the domain",
+     "explain": "Inverse sine accepts only inputs from [-1, 1]."
+    },
+    {
+     "step": 2,
+     "action": "solve the matching sine equation",
+     "explain": "Rewrite y = sin^-1 x as sin y = x."
+    },
+    {
+     "step": 3,
+     "action": "read the value inside the branch",
+     "explain": "Choose the angle y that lies in [-pi/2, pi/2]; that angle is the principal value."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 4 / 2 gives 2",
+     "compute": "t1 = 4 / 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lemh.102.2.3",
@@ -74,15 +110,33 @@
     "determine whether cos inverse of minus 3 is defined",
     "compare the branch intervals of inverse sine and inverse cosine"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "check the input against the domain",
-     "explain": "Inverse cosine accepts only inputs from [-1, 1]."},
-    {"step": 2, "action": "solve the matching cosine equation",
-     "explain": "Rewrite y = cos^-1 x as cos y = x."},
-    {"step": 3, "action": "read the value inside the branch",
-     "explain": "Pick the angle y in [0, pi]; that angle is the principal value of the inverse cosine."}
-   ]
+    {
+     "step": 1,
+     "action": "check the input against the domain",
+     "explain": "Inverse cosine accepts only inputs from [-1, 1]."
+    },
+    {
+     "step": 2,
+     "action": "solve the matching cosine equation",
+     "explain": "Rewrite y = cos^-1 x as cos y = x."
+    },
+    {
+     "step": 3,
+     "action": "read the value inside the branch",
+     "explain": "Pick the angle y in [0, pi]; that angle is the principal value of the inverse cosine."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 16 / 8 gives 2",
+     "compute": "t1 = 16 / 8"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lemh.102.2.4",
@@ -100,15 +154,33 @@
     "compare the principal branches of inverse tangent and inverse cotangent",
     "determine the domain of the tan inverse and cot inverse functions"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "confirm the input is real",
-     "explain": "Both inverse tangent and inverse cotangent accept every real number."},
-    {"step": 2, "action": "solve the matching equation",
-     "explain": "Rewrite y = tan^-1 x as tan y = x, or y = cot^-1 x as cot y = x."},
-    {"step": 3, "action": "read the value inside the branch",
-     "explain": "Choose the angle inside (-pi/2, pi/2) for tangent, or inside (0, pi) for cotangent."}
-   ]
+    {
+     "step": 1,
+     "action": "confirm the input is real",
+     "explain": "Both inverse tangent and inverse cotangent accept every real number."
+    },
+    {
+     "step": 2,
+     "action": "solve the matching equation",
+     "explain": "Rewrite y = tan^-1 x as tan y = x, or y = cot^-1 x as cot y = x."
+    },
+    {
+     "step": 3,
+     "action": "read the value inside the branch",
+     "explain": "Choose the angle inside (-pi/2, pi/2) for tangent, or inside (0, pi) for cotangent."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 18 / 6 gives 3",
+     "compute": "t1 = 18 / 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lemh.102.2.5",
@@ -126,15 +198,33 @@
     "determine the range of cosec inverse in its principal value branch",
     "compare the domains of inverse secant and inverse cosecant"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "check the input against the domain",
-     "explain": "Both inverses need inputs outside the open interval (-1, 1)."},
-    {"step": 2, "action": "solve the matching equation",
-     "explain": "Rewrite y = sec^-1 x as sec y = x, or y = cosec^-1 x as cosec y = x."},
-    {"step": 3, "action": "read the value inside the trimmed branch",
-     "explain": "For secant pick the angle in [0, pi] away from pi/2; for cosecant pick the angle in [-pi/2, pi/2] away from 0."}
-   ]
+    {
+     "step": 1,
+     "action": "check the input against the domain",
+     "explain": "Both inverses need inputs outside the open interval (-1, 1)."
+    },
+    {
+     "step": 2,
+     "action": "solve the matching equation",
+     "explain": "Rewrite y = sec^-1 x as sec y = x, or y = cosec^-1 x as cosec y = x."
+    },
+    {
+     "step": 3,
+     "action": "read the value inside the trimmed branch",
+     "explain": "For secant pick the angle in [0, pi] away from pi/2; for cosecant pick the angle in [-pi/2, pi/2] away from 0."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 9 / 3 gives 3",
+     "compute": "t1 = 9 / 3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lemh.102.2.6",
@@ -152,17 +242,38 @@
     "find the principal value of cos inverse of minus one half",
     "why must the answer to a principal value question lie inside the branch interval"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "name the unknown angle",
-     "explain": "Set the inverse expression equal to y."},
-    {"step": 2, "action": "convert to a ratio equation",
-     "explain": "For example cot^-1 of a value becomes cot y equal to that value."},
-    {"step": 3, "action": "match a familiar angle",
-     "explain": "Recognise the standard angle with the required ratio."},
-    {"step": 4, "action": "verify the branch condition",
-     "explain": "Keep the angle only if it lies in the principal value branch, adjusting with identities when needed."}
-   ]
+    {
+     "step": 1,
+     "action": "name the unknown angle",
+     "explain": "Set the inverse expression equal to y."
+    },
+    {
+     "step": 2,
+     "action": "convert to a ratio equation",
+     "explain": "For example cot^-1 of a value becomes cot y equal to that value."
+    },
+    {
+     "step": 3,
+     "action": "match a familiar angle",
+     "explain": "Recognise the standard angle with the required ratio."
+    },
+    {
+     "step": 4,
+     "action": "verify the branch condition",
+     "explain": "Keep the angle only if it lies in the principal value branch, adjusting with identities when needed."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "take the ratio of the relevant sides",
+     "explain": "take the ratio of the relevant sides: s = 12 / 20 gives 0.6",
+     "compute": "s = 12 / 20"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lemh.102.3.1",
@@ -180,15 +291,33 @@
     "compute sin inverse of sin of minus pi by four",
     "find the value of cos of cos inverse x for x in the interval minus one to one"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "check which side of the cancellation is used",
-     "explain": "Function-then-inverse needs x in [-1, 1]; inverse-then-function needs the angle inside the branch."},
-    {"step": 2, "action": "test the branch condition",
-     "explain": "For sin^-1(sin x), confirm whether x lies in [-pi/2, pi/2]."},
-    {"step": 3, "action": "cancel or adjust",
-     "explain": "If the condition holds the pair cancels to the input; otherwise reduce the angle first."}
-   ]
+    {
+     "step": 1,
+     "action": "check which side of the cancellation is used",
+     "explain": "Function-then-inverse needs x in [-1, 1]; inverse-then-function needs the angle inside the branch."
+    },
+    {
+     "step": 2,
+     "action": "test the branch condition",
+     "explain": "For sin^-1(sin x), confirm whether x lies in [-pi/2, pi/2]."
+    },
+    {
+     "step": 3,
+     "action": "cancel or adjust",
+     "explain": "If the condition holds the pair cancels to the input; otherwise reduce the angle first."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 6 / 2 gives 3",
+     "compute": "t1 = 6 / 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lemh.102.3.2",
@@ -206,15 +335,33 @@
     "state the correct meaning of the notation cosec inverse x",
     "does cos inverse x mean one over cos x give a reason"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "read the notation",
-     "explain": "sin^-1 x denotes the inverse function with angles as outputs."},
-    {"step": 2, "action": "contrast with the reciprocal",
-     "explain": "1 / sin x is the quotient value, already written as cosec x."},
-    {"step": 3, "action": "state the distinction",
-     "explain": "Inverse function and reciprocal are different operations, so the two expressions rarely agree."}
-   ]
+    {
+     "step": 1,
+     "action": "read the notation",
+     "explain": "sin^-1 x denotes the inverse function with angles as outputs."
+    },
+    {
+     "step": 2,
+     "action": "contrast with the reciprocal",
+     "explain": "1 / sin x is the quotient value, already written as cosec x."
+    },
+    {
+     "step": 3,
+     "action": "state the distinction",
+     "explain": "Inverse function and reciprocal are different operations, so the two expressions rarely agree."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 10 / 10 gives 1",
+     "compute": "t1 = 10 / 10"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lemh.102.3.3",
@@ -234,12 +381,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "choose the substitution",
-     "explain": "Match the radical to an identity, for example x = sin theta makes root of one minus x squared equal cos theta."},
-    {"step": 2, "action": "apply the identity",
-     "explain": "Rewrite the inner expression as a single trig function of a multiple or combination of theta."},
-    {"step": 3, "action": "cancel and convert back",
-     "explain": "Cancel the inverse with its function, then translate theta back to the original variable."}
+    {
+     "step": 1,
+     "action": "choose the substitution",
+     "explain": "Match the radical to an identity, for example x = sin theta makes root of one minus x squared equal cos theta."
+    },
+    {
+     "step": 2,
+     "action": "apply the identity",
+     "explain": "Rewrite the inner expression as a single trig function of a multiple or combination of theta."
+    },
+    {
+     "step": 3,
+     "action": "cancel and convert back",
+     "explain": "Cancel the inverse with its function, then translate theta back to the original variable."
+    }
    ]
   },
   {
@@ -258,15 +414,33 @@
     "use the identity sin of pi minus x equals sin x to bring an angle into the principal branch",
     "compute tan inverse of tan of seven pi by six"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "locate the angle against the branch",
-     "explain": "Check whether the given angle lies inside the principal value branch."},
-    {"step": 2, "action": "rewrite with an identity",
-     "explain": "Use facts like sin(pi - x) = sin x or cos(2pi - x) = cos x to produce an in-branch angle."},
-    {"step": 3, "action": "cancel inside the branch",
-     "explain": "Now the inverse undoes the function, giving the reduced angle as the answer."}
-   ]
+    {
+     "step": 1,
+     "action": "locate the angle against the branch",
+     "explain": "Check whether the given angle lies inside the principal value branch."
+    },
+    {
+     "step": 2,
+     "action": "rewrite with an identity",
+     "explain": "Use facts like sin(pi - x) = sin x or cos(2pi - x) = cos x to produce an in-branch angle."
+    },
+    {
+     "step": 3,
+     "action": "cancel inside the branch",
+     "explain": "Now the inverse undoes the function, giving the reduced angle as the answer."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 38 gives 52",
+     "compute": "other = 90 - 38"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -278,12 +452,21 @@
    "question_pattern": "Find the principal value of sin inverse of one by two.",
    "extracted_variables": {},
    "solution_template": [
-    {"step": 1, "action": "name the unknown angle",
-     "explain": "Let sin^-1(1/2) = y, so sin y = 1/2."},
-    {"step": 2, "action": "match the familiar angle",
-     "explain": "sin of pi by four equals one over root two; the angle with sine one half is pi by six."},
-    {"step": 3, "action": "verify the branch",
-     "explain": "pi by six lies in [-pi/2, pi/2], hence it is the principal value."}
+    {
+     "step": 1,
+     "action": "name the unknown angle",
+     "explain": "Let sin^-1(1/2) = y, so sin y = 1/2."
+    },
+    {
+     "step": 2,
+     "action": "match the familiar angle",
+     "explain": "sin of pi by four equals one over root two; the angle with sine one half is pi by six."
+    },
+    {
+     "step": 3,
+     "action": "verify the branch",
+     "explain": "pi by six lies in [-pi/2, pi/2], hence it is the principal value."
+    }
    ]
   },
   {
@@ -294,12 +477,21 @@
    "question_pattern": "Evaluate sin inverse of sin of three pi by five.",
    "extracted_variables": {},
    "solution_template": [
-    {"step": 1, "action": "check the branch",
-     "explain": "Three pi by five is not in [-pi/2, pi/2], so direct cancellation is invalid."},
-    {"step": 2, "action": "rewrite with the supplementary identity",
-     "explain": "sin of three pi by five equals sin of two pi by five."},
-    {"step": 3, "action": "cancel inside the branch",
-     "explain": "Two pi by five lies in the principal branch, so the value is two pi by five."}
+    {
+     "step": 1,
+     "action": "check the branch",
+     "explain": "Three pi by five is not in [-pi/2, pi/2], so direct cancellation is invalid."
+    },
+    {
+     "step": 2,
+     "action": "rewrite with the supplementary identity",
+     "explain": "sin of three pi by five equals sin of two pi by five."
+    },
+    {
+     "step": 3,
+     "action": "cancel inside the branch",
+     "explain": "Two pi by five lies in the principal branch, so the value is two pi by five."
+    }
    ]
   },
   {
@@ -310,12 +502,21 @@
    "question_pattern": "Write cot inverse of one over root of x squared minus one in the simplest form for x greater than one.",
    "extracted_variables": {},
    "solution_template": [
-    {"step": 1, "action": "substitute a secant parameter",
-     "explain": "Let x = sec theta with theta in the suitable interval."},
-    {"step": 2, "action": "collapse the radical",
-     "explain": "Root of x squared minus one becomes tan theta, so the argument becomes cot theta."},
-    {"step": 3, "action": "cancel and convert back",
-     "explain": "cot inverse of cot theta is theta, and theta equals sec inverse x."}
+    {
+     "step": 1,
+     "action": "substitute a secant parameter",
+     "explain": "Let x = sec theta with theta in the suitable interval."
+    },
+    {
+     "step": 2,
+     "action": "collapse the radical",
+     "explain": "Root of x squared minus one becomes tan theta, so the argument becomes cot theta."
+    },
+    {
+     "step": 3,
+     "action": "cancel and convert back",
+     "explain": "cot inverse of cot theta is theta, and theta equals sec inverse x."
+    }
    ]
   }
  ],

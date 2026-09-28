@@ -34,6 +34,36 @@
      "q": "Create a real-world scenario where a frequency distribution with unequal class intervals is appropriate. Define 5 classes with inclusive limits, convert them to class boundaries, and compute class marks. Explain why unequal intervals are better than equal intervals for your data.",
      "a": "Example: Monthly household income (₹) in a village with wide disparity: 0–4999, 5000–9999, 10000–19999, 20000–49999, 50000–99999. Gap = 1, adjustment = 0.5. Boundaries: -0.5–4999.5, 4999.5–9999.5, 9999.5–19999.5, 19999.5–49999.5, 49999.5–99999.5. Class marks: 2499.5, 7499.5, 14999.5, 34999.5, 74999.5. Unequal intervals are better because income distribution is highly skewed; equal intervals would either create too many empty classes at the high end or lose detail at the low end. A poor answer uses equal intervals or fails to justify the choice, showing inability to link data nature to class construction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Class limits are the ______ and largest values that can belong to a class; the lower class limit (LCL) is the minimum value and the upper class limit (UCL) is the maximum value.",
+     "a": "smallest",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing the monthly ______ bills (in rupees) of 50 households in your neighbourhood.",
+     "a": "electricity",
+     "self_check": true
+    },
+    {
+     "q": "What is Class limits? State the definition given in this lesson.",
+     "a": "Class limits are the smallest and largest values that can belong to a class; the lower class limit (LCL) is the minimum value and the upper class limit (UCL) is the maximum value.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing the monthly electricity bills (in rupees) of ______ households in your neighbourhood.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Class limits?",
+     "a": "Students often believe that class boundaries are only needed when the problem explicitly asks for \"exclusive form\" or \"true class limits\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly convert inclusive class intervals into exclusive form by calculating the adjustment factor, compute class marks for both exclusive and inclusive series, and explain why class boundaries are necessary for continuous variables when data is presented in inclusive form.",
+     "self_check": true
     }
    ]
   }

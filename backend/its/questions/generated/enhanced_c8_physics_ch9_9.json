@@ -34,6 +34,31 @@
      "q": "Design a simple survey to compare the diversity of plants in your school campus versus a nearby vacant lot. List the steps, tools needed, and how you would record data (use a table format).",
      "a": "Steps: 1) Define two 10m x 10m plots (school garden, vacant lot). 2) Use quadrat sampling (1m x 1m) at 5 random points in each. 3) Identify and count each plant species (use local names/field guide). 4) Record in table: Species name, Count in Plot A, Count in Plot B. 5) Calculate species richness (number of species) and Shannon index if possible. Tools: quadrat frame, notebook, field guide, camera. A poor answer that just says 'count plants' lacks systematic sampling and recording.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Biodiversity refers to the variety of life forms on Earth, including plants, animals, and ______, and the ecosystems they form.",
+     "a": "microorganisms",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You see trees, grasses, ______, birds, and maybe a pond with algae.",
+     "a": "insects",
+     "self_check": true
+    },
+    {
+     "q": "What is Biodiversity? State the definition given in this lesson.",
+     "a": "Biodiversity refers to the variety of life forms on Earth, including plants, animals, and microorganisms, and the ecosystems they form.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Biodiversity?",
+     "a": "Students often think 'diversity' only means number of species (species richness) and ignore genetic diversity within a species and ecosystem diversity.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify given organisms into major groups (plants, animals, microorganisms) based on observable characteristics and explain how biodiversity contributes to ecosystem stability.",
+     "self_check": true
     }
    ]
   }

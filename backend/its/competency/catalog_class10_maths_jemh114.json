@@ -24,12 +24,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "count the favourable outcomes",
+    {
+     "step": 1,
+     "action": "count the favourable outcomes",
      "explain": "List the outcomes that match the event.",
-     "compute": "favourable = favourable_count"},
-    {"step": 2, "action": "divide by the total outcomes",
+     "compute": "favourable = favourable_count"
+    },
+    {
+     "step": 2,
+     "action": "divide by the total outcomes",
      "explain": "All equally likely outcomes form the denominator.",
-     "compute": "probability = favourable / total"}
+     "compute": "probability = favourable / total"
+    }
    ]
   },
   {
@@ -48,15 +54,33 @@
     "why must a coin or die be unbiased for theoretical probability",
     "which outcomes favour the given event - list them"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "list the sample space",
-     "explain": "Write every possible outcome of the experiment."},
-    {"step": 2, "action": "check equal likelihood",
-     "explain": "Confirm the experiment gives no outcome any special advantage."},
-    {"step": 3, "action": "mark the favourable set",
-     "explain": "Pick the outcomes that satisfy the event."}
-   ]
+    {
+     "step": 1,
+     "action": "list the sample space",
+     "explain": "Write every possible outcome of the experiment."
+    },
+    {
+     "step": 2,
+     "action": "check equal likelihood",
+     "explain": "Confirm the experiment gives no outcome any special advantage."
+    },
+    {
+     "step": 3,
+     "action": "mark the favourable set",
+     "explain": "Pick the outcomes that satisfy the event."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "divide favourable outcomes by total outcomes",
+     "explain": "divide favourable outcomes by total outcomes: p = 2 / 6 gives 0.333333",
+     "compute": "p = 2 / 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.114.14.3",
@@ -76,9 +100,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "subtract from one",
+    {
+     "step": 1,
+     "action": "subtract from one",
      "explain": "The complement takes the remaining probability.",
-     "compute": "complement = 1 - probability"}
+     "compute": "complement = 1 - probability"
+    }
    ]
   }
  ],
@@ -94,9 +121,12 @@
     "total": "total equally likely outcomes"
    },
    "solution_template": [
-    {"step": 1, "action": "divide favourable by total",
+    {
+     "step": 1,
+     "action": "divide favourable by total",
      "explain": "The theoretical probability is the ratio.",
-     "compute": "probability = favourable_count / total"}
+     "compute": "probability = favourable_count / total"
+    }
    ]
   },
   {
@@ -110,9 +140,12 @@
     "total": "faces of the die"
    },
    "solution_template": [
-    {"step": 1, "action": "divide favourable by total",
+    {
+     "step": 1,
+     "action": "divide favourable by total",
      "explain": "Favourable over total gives the probability.",
-     "compute": "probability = favourable_count / total"}
+     "compute": "probability = favourable_count / total"
+    }
    ]
   },
   {
@@ -125,9 +158,12 @@
     "probability": "probability of the event E"
    },
    "solution_template": [
-    {"step": 1, "action": "subtract from one",
+    {
+     "step": 1,
+     "action": "subtract from one",
      "explain": "P(not E) equals 1 minus P(E).",
-     "compute": "complement = 1 - probability"}
+     "compute": "complement = 1 - probability"
+    }
    ]
   },
   {
@@ -140,9 +176,12 @@
     "probability": "probability of winning"
    },
    "solution_template": [
-    {"step": 1, "action": "subtract from one",
+    {
+     "step": 1,
+     "action": "subtract from one",
      "explain": "Losing is the complement of winning.",
-     "compute": "complement = 1 - probability"}
+     "compute": "complement = 1 - probability"
+    }
    ]
   }
  ],
@@ -151,9 +190,9 @@
    "id": "ex14.1",
    "source_ref": "jemh114.txt EXERCISE 14.1",
    "questions": [
-     "Complete the statements about probability of sure and impossible events.",
-     "Find the probability of the given events with dice, coins and cards.",
-     "It is given that the probability of winning is a fraction - find the probability of losing."
+    "Complete the statements about probability of sure and impossible events.",
+    "Find the probability of the given events with dice, coins and cards.",
+    "It is given that the probability of winning is a fraction - find the probability of losing."
    ]
   }
  ]

@@ -32,7 +32,32 @@
     },
     {
      "q": "Design a real-world scenario (Indian context) where you would need to traverse a dictionary and safely modify it by both updating existing values and adding new keys. Write the complete Python code for it.",
-     "a": "Scenario: A mobile recharge shop maintains a dictionary `balance = {'9876543210': 500, '9123456789': 1200}` storing phone numbers and wallet balances. At day-end, they add ₹50 bonus to each existing customer and register a new customer `'9988776655'` with ₹300. Correct code:\n```python\nbalance = {'9876543210': 500, '9123456789': 1200}",
+     "a": "Scenario: A mobile recharge shop maintains a dictionary `balance = {'9876543210': 500, '9123456789': 1200}` storing phone numbers and wallet balances. At day-end, they add ₹50 bonus to each existing customer and register a new customer `'9988776655'` with ₹300. Correct code:\n```python\nbalance = {'9876543210': 500, '9123456789': 1200}\n# Update existing balances\nfor phone in list(balance.keys()):   # iterate over static list of keys\n    balance[phone] += 50\n# Add new customer after loop\nbalance['9988776655'] = 300\n```\nA poor answer might attempt to add the new key inside the loop (causing RuntimeError) or use `for phone in balance:` and then add. This shows the student cannot create a safe modification strategy combining update and insertion.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Traversing a dictionary using loops means ______ visiting each key-value pair (item) in the dictionary exactly once, typically using a for loop over the dictionary itself (which yields keys) or over dict.items() (which yields key-value tuples).",
+     "a": "systematically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a ______ storing the prices of fruits in a grocery store: {'apple': 120, 'banana': 40, 'mango': 80}.",
+     "a": "dictionary",
+     "self_check": true
+    },
+    {
+     "q": "What is Traversing a dictionary using loops? State the definition given in this lesson.",
+     "a": "Traversing a dictionary using loops means systematically visiting each key-value pair (item) in the dictionary exactly once, typically using a for loop over the dictionary itself (which yields keys) or over dict.items() (which yields key-value tuples).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Traversing a dictionary using loops?",
+     "a": "Students often believe that for key in dict: allows them to freely add or delete keys inside the loop because \"the loop just goes through the dictionary.\" They write code like for k in d: if condition: del d[k] and are surprised by RuntimeError.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write a Python program that correctly traverses a dictionary using both for key in dict and for key, value in dict.items(), safely updates values based on conditions, and creates a new filtered dictionary without raising a RuntimeError due to size change during iteration.",
      "self_check": true
     }
    ]

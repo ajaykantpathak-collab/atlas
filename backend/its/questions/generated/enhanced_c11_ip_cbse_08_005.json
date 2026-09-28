@@ -34,6 +34,21 @@
      "q": "Design a real-world scenario where a scatter plot would be misleading if created without proper scaling or context. Provide the variable names, sample data characteristics, and explain the specific misinterpretation risk.",
      "a": "Scenario: Plotting `advertising_spend_lakhs` (range 1-100) vs `sales_crores` (range 10-1000) for 20 companies. Without scaling, points compress horizontally, making the relationship appear weaker than it is. A third variable `company_size` (small/medium/large) could create clusters mistaken for outliers. Risk: concluding \"advertising has little impact\" when actually large companies dominate both spend and sales. Poor answer (generic \"scaling issues\") reveals lack of domain-specific critical thinking about visualisation pitfalls.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A scatter plot is a data ______ technique that uses Cartesian coordinates to display values for two variables as a collection of points, where each point represents an observation with its position determined by the values of the two variables.",
+     "a": "visualisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing the ______ between hours studied and marks obtained by Class 11 students in your school.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently write Python code using plt.scatter(x, y) with appropriate parameters to visualise bivariate data, interpret the resulting plot for correlation direction and strength, identify outliers, and customise markers, colors, and sizes to represent a third variable.",
+     "self_check": true
     }
    ]
   }

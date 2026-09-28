@@ -34,6 +34,31 @@
      "q": "Design a simple experiment to measure g in a school lab using a simple pendulum. List the measurements needed, the formula to use, and one major source of error.",
      "a": "Measure length L of pendulum and time period T for small oscillations. Use T = 2π√(L/g) → g = 4π²L/T². Major error: finite amplitude (small angle approximation) or air resistance. A poor answer uses free fall with a stopwatch (human reaction time too large) or forgets to square T.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The acceleration due to gravity (g) at the Earth's surface is the uniform acceleration experienced by any freely falling body near the Earth's surface, directed towards the Earth's centre, with magnitude g = GM_E/R_E^2, where G is the universal ______ constant, M_E is the mass of the Earth, and R_E is the radius of the Earth.",
+     "a": "gravitational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a feather and a coin ______ simultaneously in a vacuum tube (or watch a video of Apollo 15 hammer-feather drop on the Moon).",
+     "a": "dropped",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The acceleration due to gravity (g) at the Earth's surface is the uniform acceleration experienced by any freely falling body near the Earth's surface, directed towards the Earth's centre, with magnitude g = GM_E/R_E^______, where G is the universal gravitational constant, M_E is the mass of the Earth, and R_E is the radius of the Earth.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive g = GM_E/R_E^2 from Newton's law of universal gravitation and Newton's second law, explain why g is independent of the mass of the falling body, and calculate g given M_E and R_E with correct units.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a feather and a coin dropped ______ in a vacuum tube (or watch a video of Apollo 15 hammer-feather drop on the Moon).",
+     "a": "simultaneously",
+     "self_check": true
     }
    ]
   }

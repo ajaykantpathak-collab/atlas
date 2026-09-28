@@ -34,6 +34,26 @@
      "q": "Create your own real-life problem (Indian context) that requires the Pythagoras theorem to solve. It must involve a right triangle that is NOT a ladder against a wall. Write the problem, draw a labelled diagram, and solve it completely.",
      "a": "Example: \"A 20 m high mobile tower is supported by a wire tied from its top to a point on the ground 15 m from its base. Find the wire length.\" Diagram: vertical tower (20 m), horizontal ground (15 m), wire (hypotenuse). Solution: \\(w^2 = 20^2 + 15^2 = 400 + 225 = 625\\) → \\(w = 25\\) m. A poor answer uses a non-right triangle scenario (e.g., \"distance between two cities\") or forgets the square root, showing inability to recognise right triangles in new contexts.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ theorem states that in a right-angled triangle, the square of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the other two sides.",
+     "a": "Pythagoras",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to rescue a cat stuck on a 3.6 metre high wall using a 5 metre long ______.",
+     "a": "ladder",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can independently identify right triangles in word problems, correctly assign known and unknown sides to the Pythagorean equation, solve for the missing length including taking the square root, and express the final answer with appropriate units (metres, centimetres, kilometres).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you need to rescue a cat stuck on a 3.6 metre high wall using a 5 metre long ladder.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

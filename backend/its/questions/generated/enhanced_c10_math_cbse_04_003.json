@@ -34,6 +34,16 @@
      "q": "Create a quadratic equation with integer coefficients that has roots \\(x = -\\frac{3}{4}\\) and \\(x = 5\\). Show how you would construct it using the reverse of the splitting method.",
      "a": "Roots are \\(-\\frac{3}{4}\\) and \\(5\\). Factors: \\((x + \\frac{3}{4})(x - 5) = 0\\). Multiply by 4 to clear denominator: \\((4x + 3)(x - 5) = 0\\). Expand: \\(4x^2 - 20x + 3x - 15 = 4x^2 - 17x - 15 = 0\\). To construct via reverse splitting: we want sum \\(-17\\), product \\(4 \\times (-15) = -60\\). Numbers are \\(-20\\) and \\(3\\). Equation: \\(4x^2 - 20x + 3x - 15 = 0\\). A poor answer like \\(x^2 - \\frac{17}{4}x - \\frac{15}{4} = 0\\) shows the student doesn't know board exams require integer coefficients, or cannot work backwards from roots to the splitting condition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ garden whose length is 3 metres more than its breadth, and its area is 180 square metres.",
+     "a": "rectangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can also verify the roots by substitution and identify when factorisation is not possible over integers.",
+     "self_check": true
     }
    ]
   }

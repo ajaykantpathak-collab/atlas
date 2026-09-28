@@ -34,6 +34,31 @@
      "q": "Create a hypothetical Common Size Balance Sheet (only percentages) for a startup technology company that is asset-light, funded primarily by equity, and holds minimal inventory. Provide percentages for at least 5 major line items (Share Capital, Reserves, Long-term Borrowings, Fixed Assets, Cash, Trade Receivables) that sum to 100% on each side. Justify your numbers in one sentence.",
      "a": "**Liabilities & Equity Side:** Share Capital 50%, Reserves & Surplus 30%, Long-term Borrowings 5%, Trade Payables 10%, Short-term Provisions 5% (Total 100%).\n**Assets Side:** Fixed Assets 15%, Cash & Cash Equivalents 40%, Trade Receivables 25%, Short-term Loans & Advances 10%, Other Current Assets 10% (Total 100%).\n**Justification:** High equity (80%) and cash (40%) with low fixed assets (15%) and zero inventory reflect an asset-light, low-debt, cash-rich tech startup model. A poor answer would include high inventory, high debt, or percentages not summing to 100%, showing lack of understanding of both the format and the business model implications.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Common Size Balance Sheet expresses each item of the Balance Sheet (assets, liabilities, and equity) as a percentage of the total assets (or total liabilities and equity), enabling vertical analysis and inter-firm or intra-firm comparison ______ of the absolute size of the enterprises.",
+     "a": "irrespective",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are comparing the ______ structure of a small family-owned retail shop (total assets ₹50 lakh) and a large listed company (total assets ₹5,000 crore).",
+     "a": "financial",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For every line item — from Share Capital to Cash in Hand — divide the item amount by total assets and multiply by ______.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently prepare a Common Size Balance Sheet from a given Balance Sheet by calculating the percentage of each item relative to total assets (or total liabilities and equity), present it in the standard format with two columns (absolute amounts and percentages), and interpret the structural changes in the financial.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ the financial structure of a small family-owned retail shop (total assets ₹50 lakh) and a large listed company (total assets ₹5,000 crore).",
+     "a": "comparing",
+     "self_check": true
     }
    ]
   }

@@ -20,7 +20,7 @@
     "how does division of labour increase functional efficiency in living organisms",
     "how does division of labour and cellular hierarchy in tissues work"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,16 @@
      "action": "connect tissues to organs and organ systems",
      "explain": "Multiple tissues combine to form organs, and organs coordinate into organ systems, achieving the hierarchical organization that enables complex multicellular life."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "organism = tissues + organs + organ_systems",
+     "compute": "organism = tissues + organs + organ_systems"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.103.2",
@@ -54,7 +63,7 @@
     "how do plants regenerate after grazing or trimming",
     "justify why plant meristematic tissues matters"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -71,7 +80,16 @@
      "action": "locate intercalary meristem",
      "explain": "Situated at leaf bases and internodes, intercalary meristem facilitates branch formation and regrowth."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_growth = apical_growth + lateral_growth + intercalary_growth",
+     "compute": "total_growth = apical_growth + lateral_growth + intercalary_growth"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.103.3",
@@ -122,7 +140,7 @@
     "how do nutrients and water move through plant vascular bundles",
     "short note on complex permanent tissues and vascular systems"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -139,7 +157,16 @@
      "action": "compare directional flow of xylem and phloem",
      "explain": "Xylem transports water and minerals unidirectionally from roots to aerial parts, while phloem conducts prepared food bidirectionally from source (leaves) to sink (roots, fruits, growing regions)."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "vascular_system = xylem + phloem",
+     "compute": "vascular_system = xylem + phloem"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.103.5",
@@ -156,7 +183,7 @@
     "how does epithelial structure facilitate rapid diffusion",
     "short note on epithelial tissues in animals"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -173,7 +200,16 @@
      "action": "classify epithelial types by cell shape",
      "explain": "Squamous epithelium (flat cells) facilitates diffusion, cuboidal epithelium (cube-shaped cells) aids secretion and absorption in ducts, and columnar epithelium (tall cells) lines the intestine for secretion and absorption."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "epithelial_function = protection + secretion + absorption",
+     "compute": "epithelial_function = protection + secretion + absorption"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.103.6",
@@ -190,7 +226,7 @@
     "compare the extracellular matrix of bone and cartilage",
     "state two key points about connective tissues in animals"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -207,7 +243,16 @@
      "action": "relate matrix composition to tissue function",
      "explain": "The fluid matrix of blood enables transport of gases and nutrients, the calcified matrix of bone provides rigid structural support, and the flexible matrix of cartilage cushions joints and absorbs shock."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "connective_tissue = matrix + cellular_components",
+     "compute": "connective_tissue = matrix + cellular_components"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.103.7",
@@ -224,7 +269,7 @@
     "differentiate muscle types based on control and cellular structure",
     "how does muscular tissues - skeletal, smooth, and cardiac work"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -241,7 +286,16 @@
      "action": "describe cardiac muscle",
      "explain": "Cylindrical, branched, uninucleate cells with faint striations that contract continuously without fatigue."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "muscle_types = skeletal + smooth + cardiac",
+     "compute": "muscle_types = skeletal + smooth + cardiac"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.103.8",
@@ -258,7 +312,7 @@
     "what are the functions of dendrites and axons",
     "give one everyday example of structure and function of nervous tissue and neurons"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -275,7 +329,16 @@
      "action": "identify axon and terminals",
      "explain": "A long elongated projection transmitting nerve impulses away to axon terminals and adjacent cells."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "neuron_structure = cell_body + dendrites + axon + axon_terminals",
+     "compute": "neuron_structure = cell_body + dendrites + axon + axon_terminals"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.103.9",
@@ -326,7 +389,7 @@
     "determine tree age from stem concentric rings",
     "state two key points about estimation of tree age from annual growth rings"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -343,7 +406,16 @@
      "action": "cross-validate ring count for accuracy",
      "explain": "Ensure the rings are continuous and concentric across the stem cross-section, as false or discontinuous rings caused by environmental stress can lead to overestimation of tree age."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "tree_age = annual_rings_count",
+     "compute": "tree_age = annual_rings_count"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

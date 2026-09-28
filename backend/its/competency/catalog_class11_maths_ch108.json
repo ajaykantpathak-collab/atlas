@@ -265,7 +265,7 @@
     "is the arithmetic mean always larger than the geometric mean",
     "Explain the method of Relationship Between A.M. and G.M."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -282,7 +282,16 @@
      "action": "compare the two means",
      "explain": "Verify that the arithmetic mean is greater than or equal to the geometric mean."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the AP/GP term or sum formula",
+     "explain": "apply the AP/GP term or sum formula: an = 1 + (4 - 1) * 4 gives 13",
+     "compute": "an = 1 + (4 - 1) * 4"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh108.SECTION.8.4.4",

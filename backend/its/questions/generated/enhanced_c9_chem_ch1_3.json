@@ -34,6 +34,36 @@
      "q": "Design a simple experiment to demonstrate that the solubility of a gas in water decreases with temperature. List materials, procedure, observations, and the conclusion a Class 9 student would write in their lab record.",
      "a": "Materials: Two identical transparent bottles, cold water, hot water, effervescent tablets (or soda water), balloons. Procedure: Fill one bottle with cold water, one with hot water. Add one tablet to each, quickly fit balloons. Observe balloon inflation. Expected: Cold water balloon inflates more (more CO₂ stays dissolved → less gas evolves? Wait, correction: Actually, cold water holds more gas, so less CO₂ escapes → balloon inflates LESS. Hot water holds less gas, so more CO₂ escapes → balloon inflates MORE). Conclusion: Gas solubility decreases as temperature increases. A poor design (e.g., no control, qualitative only) shows inability to translate concept into controlled experiment – a skill tested in practical exams.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Solubility is the maximum amount of solute (in grams) that can dissolve in 100 grams of solvent at a specific ______ to form a saturated solution.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are making lemonade on a hot summer day: you notice sugar ______ much faster and in greater quantity in warm water than in cold water.",
+     "a": "dissolves",
+     "self_check": true
+    },
+    {
+     "q": "What is Solubility? State the definition given in this lesson.",
+     "a": "Solubility is the maximum amount of solute (in grams) that can dissolve in 100 grams of solvent at a specific temperature to form a saturated solution.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Solubility is the maximum amount of solute (in grams) that can dissolve in ______ grams of solvent at a specific temperature to form a saturated solution.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Solubility?",
+     "a": "Students often confuse 'rate of dissolving' with 'solubility'.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can predict the direction of solubility change for a given solute-solvent pair when temperature or pressure is altered, and can explain the particle-level reason for the trend using solute-solvent interaction concepts.",
+     "self_check": true
     }
    ]
   }

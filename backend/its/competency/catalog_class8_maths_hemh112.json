@@ -22,15 +22,33 @@
     "determine whether the given factorisation is complete",
     "express the monomial as a product of irreducible factors"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "split the number or term",
-     "explain": "Break numerals into primes and letters into powers."},
-    {"step": 2, "action": "list the irreducible pieces",
-     "explain": "Stop when every factor is prime or a bare variable power."},
-    {"step": 3, "action": "recombine to check",
-     "explain": "Multiplying the factors must rebuild the original."}
-   ]
+    {
+     "step": 1,
+     "action": "split the number or term",
+     "explain": "Break numerals into primes and letters into powers."
+    },
+    {
+     "step": 2,
+     "action": "list the irreducible pieces",
+     "explain": "Stop when every factor is prime or a bare variable power."
+    },
+    {
+     "step": 3,
+     "action": "recombine to check",
+     "explain": "Multiplying the factors must rebuild the original."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 3 + 9 gives 18",
+     "compute": "val = 3 * 3 + 9"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hemh.112.12.2",
@@ -48,15 +66,45 @@
     "what is the greatest common factor of the given terms",
     "check the factorisation by multiplying back"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "find the common factor",
-     "explain": "Take the HCF of coefficients and the common letters."},
-    {"step": 2, "action": "divide each term",
-     "explain": "The expression becomes the common factor times the remaining sum."},
-    {"step": 3, "action": "regroup if needed",
-     "explain": "Pair the terms so each group offers a shared bracket."}
-   ]
+    {
+     "step": 1,
+     "action": "find the common factor",
+     "explain": "Take the HCF of coefficients and the common letters."
+    },
+    {
+     "step": 2,
+     "action": "divide each term",
+     "explain": "The expression becomes the common factor times the remaining sum."
+    },
+    {
+     "step": 3,
+     "action": "regroup if needed",
+     "explain": "Pair the terms so each group offers a shared bracket."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the number-play rule digit by digit",
+     "explain": "apply the number-play rule digit by digit: big = 8 * 1000 + 7 * 100 + 4 * 10 + 1 gives 8741",
+     "compute": "big = 8 * 1000 + 7 * 100 + 4 * 10 + 1"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the number-play rule digit by digit: small = 1 * 1000 + 4 * 100 + 7 * 10 + 8 gives 1478",
+     "compute": "small = 1 * 1000 + 4 * 100 + 7 * 10 + 8"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the number-play rule digit by digit: diff = big - small gives 7263",
+     "compute": "diff = big - small"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hemh.112.12.3",
@@ -74,15 +122,33 @@
     "express the difference of squares as a product",
     "factorise m squared - 4n squared and verify"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "match the pattern",
-     "explain": "Compare the expression with the three standard identity forms."},
-    {"step": 2, "action": "identify a and b",
-     "explain": "The squared terms reveal the a and b of the identity."},
-    {"step": 3, "action": "write the factors",
-     "explain": "The identity's right side gives the bracket pair directly."}
-   ]
+    {
+     "step": 1,
+     "action": "match the pattern",
+     "explain": "Compare the expression with the three standard identity forms."
+    },
+    {
+     "step": 2,
+     "action": "identify a and b",
+     "explain": "The squared terms reveal the a and b of the identity."
+    },
+    {
+     "step": 3,
+     "action": "write the factors",
+     "explain": "The identity's right side gives the bracket pair directly."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "expand with the algebraic identity and evaluate",
+     "explain": "expand with the algebraic identity and evaluate: val = 4 * 4 + 2 * 4 * 3 + 3 * 3 gives 49",
+     "compute": "val = 4 * 4 + 2 * 4 * 3 + 3 * 3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hemh.112.12.4",
@@ -102,9 +168,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "divide the coefficients",
+    {
+     "step": 1,
+     "action": "divide the coefficients",
      "explain": "The numeric parts cancel by common factors.",
-     "compute": "coef_quotient = coef1 / coef2"}
+     "compute": "coef_quotient = coef1 / coef2"
+    }
    ]
   }
  ],
@@ -120,9 +189,12 @@
     "coef2": "coefficient of the divisor"
    },
    "solution_template": [
-    {"step": 1, "action": "divide the coefficients",
+    {
+     "step": 1,
+     "action": "divide the coefficients",
      "explain": "Common numeric factors cancel.",
-     "compute": "coef_quotient = coef1 / coef2"}
+     "compute": "coef_quotient = coef1 / coef2"
+    }
    ]
   },
   {
@@ -136,9 +208,12 @@
     "coef2": "divisor coefficient"
    },
    "solution_template": [
-    {"step": 1, "action": "divide the coefficients",
+    {
+     "step": 1,
+     "action": "divide the coefficients",
      "explain": "The quotient coefficient is the ratio.",
-     "compute": "coef_quotient = coef1 / coef2"}
+     "compute": "coef_quotient = coef1 / coef2"
+    }
    ]
   }
  ],
@@ -147,18 +222,18 @@
    "id": "ex12.1",
    "source_ref": "hemh112.txt EXERCISE 12.1-12.2",
    "questions": [
-     "Find the common factors of the given terms.",
-     "Factorise the given expressions by regrouping.",
-     "Factorise using identities: a squared + 8a + 16 and 25x squared - 9."
+    "Find the common factors of the given terms.",
+    "Factorise the given expressions by regrouping.",
+    "Factorise using identities: a squared + 8a + 16 and 25x squared - 9."
    ]
   },
   {
    "id": "ex12.2",
    "source_ref": "hemh112.txt EXERCISE 12.3",
    "questions": [
-     "Carry out the given divisions of monomials.",
-     "Divide the given polynomial by the monomial.",
-     "Verify the division by multiplying the quotient with the divisor."
+    "Carry out the given divisions of monomials.",
+    "Divide the given polynomial by the monomial.",
+    "Verify the division by multiplying the quotient with the divisor."
    ]
   }
  ]

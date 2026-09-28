@@ -34,6 +34,26 @@
      "q": "Design a 10-digit coding structure for a company with: 5 divisions (max), 50 departments per division (max), 200 cost centres per department (max), and 500 ledger accounts per cost centre (max). Show the digit allocation and explain how the hierarchy supports auto-generation of division-wise P&L.",
      "a": "Division (1 digit: 1–5), Department (2 digits: 01–50), Cost Centre (3 digits: 001–200), Ledger Account (3 digits: 001–500) → Total 9 digits; reserve 1 digit for future expansion (e.g., sub-ledger). Example: 3 12 045 210 = Division 3, Dept 12, Cost Centre 045, Account 210. Sorting by code auto-groups all Division 3 accounts together. A poor answer (e.g., equal digits for all levels) shows inability to **map digit capacity to maximum values** — a practical skill tested in board skill-review exercises.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Computerised Accounting System (CAS) is an integrated system that processes accounting transactions through computer hardware and accounting software to generate accounting records (journals, ledgers) and financial reports (trial balance, profit and loss statement, balance sheet) ______, replacing manual bookkeeping with digital data processing.",
+     "a": "automatically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small retail shop with 200 daily ______.",
+     "a": "transactions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small retail shop with ______ daily transactions.",
+     "a": "200",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the five components of CAS (Procedure, Data, People, Hardware, Software) and trace how a business transaction flows through the system to become a financial report, while distinguishing CAS from manual accounting in terms of speed, accuracy, and control.",
+     "self_check": true
     }
    ]
   }

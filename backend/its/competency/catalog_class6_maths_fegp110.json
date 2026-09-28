@@ -22,7 +22,7 @@
     "what does -4 degrees temperature mean",
     "why is zero neither positive nor negative"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -39,7 +39,16 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "evaluate the polynomial or use the root relations",
+     "explain": "evaluate the polynomial or use the root relations: val = 2 * 5 * 5 + 5 * 5 + 3 gives 78",
+     "compute": "val = 2 * 5 * 5 + 5 * 5 + 3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.10.2",
@@ -121,7 +130,7 @@
     "write a chain of moves that ends back at zero",
     "why are opposite moves called inverses"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -138,7 +147,16 @@
      "action": "check the answer",
      "explain": "Verify by reversing or re-counting, then conclude."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the integer operation sign rules",
+     "explain": "apply the integer operation sign rules: total = 14 + (16) gives 30",
+     "compute": "total = 14 + (16)"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_14_002",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_14_002",
+   "title": "c12_eco_cbse_14_002",
+   "questions": [
+    {
+     "q": "What is meant by the term \"marketable surplus\" in the context of the Green Revolution?",
+     "a": "**Model Answer**: Marketable surplus refers to the portion of agricultural produce which is sold in the market by the farmers after keeping a sufficient amount for their own family consumption. (Marketable Surplus = Total Agricultural Output - Self Consumption).\n\n**Wrong Answer Diagnosis**: If a student defines it as \"the total crop harvested by the farmer\" or \"the excess crop that rots in godowns,\" they fail to understand that it represents only the *sold* portion of the crop, which is crucial for feeding the non-agricultural sectors of the economy.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the implementation of land ceiling legislation face significant resistance and loopholes in most Indian states, and which states were the exceptions where it succeeded?",
+     "a": "**Model Answer**: Big landlords challenged the land ceiling legislation in courts, delaying its implementation to register their surplus land in the names of close relatives to escape the law. They also evicted tenants to claim they were cultivating the land personally. It was successfully implemented only in Kerala and West Bengal because of the strong political commitment of their state governments.\n\n**Wrong Answer Diagnosis**: If the student states that land ceilings failed because \"farmers did not want free land\" or \"there was no law passed,\" they miss the critical NCERT point regarding legal loopholes, delays, tenant evictions, and the role of political will in specific states (Kerala and West Bengal).",
+     "self_check": true
+    },
+    {
+     "q": "Suppose a farmer produces 100 quintals of wheat. The family's annual consumption requirement is 15 quintals, and they keep 5 quintals as seeds for the next season. Calculate the marketable surplus. If the market price of wheat is ₹2,000 per quintal, calculate the cash income earned by the farmer from this surplus.",
+     "a": "**Model Answer**:\n- Step 1: Identify the total production = 100 quintals.\n- Step 2: Identify the self-consumption and retention requirements = 15 quintals (consumption) + 5 quintals (seeds) = 20 quintals.\n- Step 3: Calculate Marketable Surplus = Total Production - Self-Consumption/Retention = 100 - 20 = 80 quintals.\n- Step 4: Calculate Cash Income = Marketable Surplus × Market Price = 80 quintals × ₹2,000/quintal = ₹1,60,000.\n\n**Wrong Answer Diagnosis**: If the student calculates the surplus as 100 quintals (ignoring self-consumption) or subtracts only the seed requirement, they do not understand that marketable surplus must exclude all domestic/on-farm retentions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the two distinct phases of the Green Revolution implemented in India. (3 Marks)",
+     "a": "**Model Answer**:\nThe Green Revolution was implemented in two distinct phases:\n1. **Phase I (Mid-1960s to Mid-1970s)**: During this phase, the use of HYV seeds was highly restricted to relatively affluent states such as Punjab, Andhra Pradesh, and Tamil Nadu. Additionally, the benefit of HYV seeds primarily accrued only to the wheat-growing regions. [1.5 Marks]\n2. **Phase II (Mid-1970s to Mid-1980s)**: During this phase, the HYV technology spread to a larger number of states across the country and benefited a wider variety of crops, including rice and others. [1.5 Marks]",
+     "self_check": true
+    },
+    {
+     "q": "Distinguish between the \"technical reforms\" and \"institutional reforms\" introduced in Indian agriculture between 1950 and 1990, giving one key example of each.",
+     "a": "**Model Answer**:\n* **Institutional Reforms (Land Reforms)**: These refer to reforms aimed at changing the land tenure system and ownership patterns to ensure equity. Example: Abolition of intermediaries (Zamindari system) or imposition of land ceilings.\n* **Technical Reforms (Green Revolution)**: These refer to reforms aimed at upgrading agricultural technology to increase crop productivity. Example: Introduction of High Yielding Variety (HYV) seeds, chemical fertilizers, and modern irrigation techniques.\n\n**Wrong Answer Diagnosis**: If a student mixes these up (e.g., calling HYV seeds an institutional reform or land ceiling a technical reform), they do not understand the difference between restructuring human ownership relations (institutions) and upgrading physical inputs (technology).",
+     "self_check": true
+    },
+    {
+     "q": "How did the success of the Green Revolution help India achieve the national planning objective of \"Self-Reliance\" as outlined in the Five-Year Plans?",
+     "a": "**Model Answer**:\nBefore the Green Revolution, India was dependent on food grain imports, particularly from the USA, which compromised its political sovereignty. The dramatic increase in food grain production during the Green Revolution allowed India to produce enough food to feed its entire population and build a substantial buffer stock managed by the government. This eliminated the need for food imports, thereby directly fulfilling the planning objective of \"Self-Reliance\" (avoiding foreign dependence for essential goods).\n\n**Wrong Answer Diagnosis**: If the student only mentions \"farmers became rich\" without linking it to the reduction of imports or the specific planning objective of \"Self-Reliance,\" they fail to synthesize agricultural policy with the overarching goals of India's Five-Year Plans.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The maximum size of agricultural landholding that an individual or family can own is called ________.",
+     "a": "land ceiling",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The spectacular increase in food grain production in India, driven by HYV seeds, is known as the ________.",
+     "a": "Green Revolution",
+     "self_check": true
+    },
+    {
+     "q": "What is Agriculture — Land Reforms and the Green Revolution? State the definition given in this lesson.",
+     "a": "Land Reforms refer to institutional changes aimed at changing the ownership of landholdings, specifically through the abolition of intermediaries, tenancy reforms, and the imposition of land ceilings to achieve equity in agriculture. The Green Revolution refers to the spectacular increase in the production of food grains (especially wheat and rice) during the mid-1960s to mid-1980s, resulting from the use of High Yielding Variety (HYV) seeds, chemical fertilizers, pesticides, and regular irrigation.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Agriculture — Land Reforms and the Green Revolution?",
+     "a": "Students often think the Green Revolution was just about planting more trees or organic farming, but it was actually a highly chemical- and technology-heavy program to maximize food grain yields.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "To master this topic, a student must be able to:\n1. Explain the dual objectives of equity (via land reforms) and growth/self-reliance (via the Green Revolution) in Indian agriculture between 1950 and 1990.\n2. Identify the three main components of land reforms (abolition of intermediaries, tenancy reforms, land ceilings) and analyze the reasons for their uneven implementation across states.\n3. Contrast Phase I and Phase II of the Green Revolution in terms of crop coverage and geographical spread.\n4. Analyze the economic impacts of the Green Revolution, including marketable surplus, buffer stocks, income disparities, and the role of government subsidies in mitigating risks.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

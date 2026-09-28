@@ -34,6 +34,31 @@
      "q": "Create a realistic business scenario (3-4 sentences) where all three branches of accounting are simultaneously active. Label which action belongs to which branch.",
      "a": "**Scenario**: \"Apex Textiles Ltd. closes its financial year on 31st March. The Financial Accountant prepares the Balance Sheet and P&L for shareholders and bankers. The Cost Accountant calculates the per-metre cost of cotton fabric to set the selling price for the new summer collection. The Management Accountant prepares a 6-month cash budget and a make-or-buy analysis for dyeing machinery.\"  \n**Labels**: Financial Accounting → preparing Balance Sheet/P&L for external users; Cost Accounting → per-metre cost calculation for pricing; Management Accounting → cash budget & make-or-buy analysis for internal decisions.  \nA poor answer (e.g., only describing one branch's activity or mislabeling the cash budget as Cost Accounting) shows inability to visualise how the three branches operate concurrently on the same business data.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Accounting has evolved into three ______ branches—Financial Accounting, Cost Accounting, and Management Accounting—each serving distinct user groups and decision-making purposes.",
+     "a": "specialised",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're the owner of a growing furniture manufacturing ______ in Delhi.",
+     "a": "business",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You need to know: (______) How much profit did we make last year for tax filing and bank loans?",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently classify a given accounting scenario into the correct branch (Financial, Cost, or Management), justify the classification by linking the scenario's purpose, user, time orientation, and data type to the branch's defining characteristics, and explain how the three branches interrelate in a real business.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're the owner of a growing furniture ______ business in Delhi.",
+     "a": "manufacturing",
+     "self_check": true
     }
    ]
   }

@@ -21,7 +21,7 @@
      "self_check": true
     },
     {
-     "q": "Compare the behaviour of these two functions when called as `func()` with no arguments:\n```python",
+     "q": "Compare the behaviour of these two functions when called as `func()` with no arguments:\n```python\n# Function A\ndef func_a(items=[]):\n    items.append(1)\n    return items\n\n# Function B\ndef func_b(items=None):\n    if items is None:\n        items = []\n    items.append(1)\n    return items\n```\nAfter three consecutive calls `func_a()`, `func_a()`, `func_a()`, what does each return? Why is Function B safer?",
      "a": "Function A returns `[1]`, then `[1, 1]`, then `[1, 1, 1]` because the default list `[]` is created once at definition time and shared across all calls (mutable default argument trap). Function B returns `[1]` every time because `None` is immutable and a new list is created inside the function for each call. A student who says both behave identically has not grasped that default argument values are evaluated at function definition, not at call time — a critical senior-secondary distinction.",
      "self_check": true
     },
@@ -32,7 +32,32 @@
     },
     {
      "q": "Design a function `calculate_bill` for a restaurant that takes: (1) a list of item prices (required), (2) a tax rate with default 0.18 (18% GST), (3) a service charge with default 0.05 (5%), and (4) a boolean `apply_discount` with default False. The function should return the total bill. Write the function definition and show two distinct valid calls: one using all defaults, one overriding only tax and service charge using keyword arguments.",
-     "a": "```python\ndef calculate_bill(prices, tax_rate=0.18, service_charge=0.05, apply_discount=False):\n    subtotal = sum(prices)\n    total = subtotal * (1 + tax_rate + service_charge)\n    if apply_discount:\n        total *= 0.9\n    return round(total, 2)",
+     "a": "```python\ndef calculate_bill(prices, tax_rate=0.18, service_charge=0.05, apply_discount=False):\n    subtotal = sum(prices)\n    total = subtotal * (1 + tax_rate + service_charge)\n    if apply_discount:\n        total *= 0.9\n    return round(total, 2)\n\n# Call 1 (all defaults)\ncalculate_bill([120, 80, 50])  # returns 294.5\n\n# Call 2 (override tax and service)\ncalculate_bill([120, 80, 50], tax_rate=0.12, service_charge=0.10)  # returns 286.0\n```\nA poor answer might swap parameter order, forget `sum()`, or use positional arguments for the overrides (which would require specifying `apply_discount` too). This reveals inability to combine positional and keyword arguments correctly while respecting the \"non-defaults first\" rule.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Parameters are variables declared in a function definition that act as ______ for input values; arguments are the actual values passed during a function call.",
+     "a": "placeholders",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a function to ______ the total cost of a mobile recharge plan.",
+     "a": "calculate",
+     "self_check": true
+    },
+    {
+     "q": "What is Parameters? State the definition given in this lesson.",
+     "a": "Parameters are variables declared in a function definition that act as placeholders for input values; arguments are the actual values passed during a function call.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Parameters?",
+     "a": "Students believe default argument values are re-evaluated fresh on every function call.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write a function definition that correctly combines positional and default parameters (with non-default parameters first), call it using positional, keyword, and mixed argument styles, and trace the exact binding of arguments to parameters for each call without runtime errors.",
      "self_check": true
     }
    ]

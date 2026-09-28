@@ -1,0 +1,137 @@
+{
+ "catalog": "catalog_class6_science_fecu110.json",
+ "concepts": [
+  {
+   "id": "fecu.10.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "seed = 26",
+      "air = 62",
+      "water = 3.5",
+      "warmth = 80",
+      "germination = seed + air + water + warmth"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "seed = 20",
+      "air = 73",
+      "water = 62",
+      "warmth = 26",
+      "germination = seed + air + water + warmth"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "seed = 77",
+      "air = 40",
+      "water = 80",
+      "warmth = 91",
+      "germination = seed + air + water + warmth"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "seed = 29",
+      "air = 76",
+      "water = 52",
+      "warmth = 58",
+      "germination = seed + air + water + warmth"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "seed = 98",
+      "air = 4.3",
+      "water = 60",
+      "warmth = 42",
+      "germination = seed + air + water + warmth"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "seed = 90",
+      "air = 91",
+      "water = 56",
+      "warmth = 99",
+      "germination = seed + air + water + warmth"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "germination = seed + air + water + warmth"
+   ]
+  },
+  {
+   "id": "fecu.10.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "birth = 61",
+      "growth = 40",
+      "reproduction = 14.8",
+      "cycle = birth + growth + reproduction"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "birth = 81",
+      "growth = 77",
+      "reproduction = 27",
+      "cycle = birth + growth + reproduction"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "birth = 14.2",
+      "growth = 75",
+      "reproduction = 8.7",
+      "cycle = birth + growth + reproduction"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "birth = 22",
+      "growth = 75",
+      "reproduction = 11.2",
+      "cycle = birth + growth + reproduction"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "birth = 57",
+      "growth = 17.2",
+      "reproduction = 90",
+      "cycle = birth + growth + reproduction"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "birth = 12.9",
+      "growth = 54",
+      "reproduction = 21",
+      "cycle = birth + growth + reproduction"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "cycle = birth + growth + reproduction"
+   ]
+  }
+ ]
+}

@@ -30,7 +30,16 @@
      "explain": "paraxial reflection puts the focus exactly halfway from the pole to the centre of curvature",
      "compute": "focal_len = radius_curv / 2"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "focal_len = radius_curv / 2",
+     "compute": "focal_len = radius_curv / 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph201.9.2.3.1",
@@ -100,7 +109,16 @@
      "explain": "the signed magnification is minus v over u, so erect images get positive values",
      "compute": "mag = -1 * img_dist / obj_dist"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "m = -v / u",
+     "compute": "m = -v / u"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph201.9.3.1",
@@ -126,7 +144,16 @@
      "explain": "the refractive index is exactly the factor by which the medium slows light",
      "compute": "refr_index = speed_vacuum / speed_medium"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "refr_index = speed_vacuum / speed_medium",
+     "compute": "refr_index = speed_vacuum / speed_medium"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph201.9.3.2",
@@ -152,7 +179,16 @@
      "explain": "refraction bends rays at the surface so the bottom appears raised toward the viewer",
      "compute": "app_depth = real_depth / refr_index"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "app_depth = real_depth / refr_index",
+     "compute": "app_depth = real_depth / refr_index"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph201.9.4.1",
@@ -178,7 +214,16 @@
      "explain": "Snell's law with a 90 degree refraction angle gives sin(ic) = 1/n for the denser medium against air",
      "compute": "sine_crit = 1 / refr_index"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "sine_crit = 1 / refr_index",
+     "compute": "sine_crit = 1 / refr_index"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph201.9.5.1.1",
@@ -330,7 +375,16 @@
      "explain": "power in dioptres equals one over the focal length expressed in metres",
      "compute": "lens_power = 1 / focal_len"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "P = 1 / f",
+     "compute": "P = 1 / f"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph201.9.5.4.1",
@@ -388,14 +442,23 @@
      "explain": "the thin-prism limit multiplies (n - 1) by the small refracting angle",
      "compute": "dev_angle = (n_rel - 1) * prism_angle"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "dev_angle = (n_rel - 1) * prism_angle",
+     "compute": "dev_angle = (n_rel - 1) * prism_angle"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph201.9.6.2",
    "title": "Minimum Deviation Through a Prism",
    "section": "9.6",
    "definition": "At minimum deviation the ray inside the prism runs parallel to the base, incidence and emergence angles match, and the material index follows from the prism angle A with the minimum deviation Dm.",
-   "formula": "n21 = sin((A + Dm)/2) / sin(A/2)",
+   "formula": "n_2_1 = sin((A + Dm)/2) / sin(A/2)",
    "key_idea": "Measuring A and Dm on the bench pins down the prism material's refractive index.",
    "textbook_ref": "leph201.txt section 9.6 (Eqs. 9.34-9.38 and Exercise 9.6)",
    "question_patterns": [
@@ -406,7 +469,7 @@
     "why does the deviation-versus-incidence curve dip to a single minimum",
     "derive that each refraction angle equals half the prism angle at minimum deviation"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -423,7 +486,16 @@
      "action": "substitute into Snell's law",
      "explain": "sin i over sin r becomes sin((A + Dm)/2) over sin(A/2), which yields the index"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "n_2_1 = sin((A + Dm)/2) / sin(A/2)",
+     "compute": "n_2_1 = sin((A + Dm)/2) / sin(A/2)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph201.9.7.1.1",
@@ -455,7 +527,16 @@
      "explain": "the near-point image adds the unity factor to the ratio",
      "compute": "mag_power = 1 + mag_ratio"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "m = 1 + D/f",
+     "compute": "m = 1 + D/f"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph201.9.7.1.2",
@@ -493,7 +574,16 @@
      "explain": "the total magnifying power is the product of the stage magnifications",
      "compute": "mag_total = mag_objective * mag_eyepiece"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "m = (L/fo) * (D/fe)",
+     "compute": "m = (L/fo) * (D/fe)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph201.9.7.2.1",
@@ -519,7 +609,16 @@
      "explain": "normal adjustment puts the final image at infinity, giving the angular ratio fo/fe",
      "compute": "mag_power = focal_objective / focal_eyepiece"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "m = fo / fe",
+     "compute": "m = fo / fe"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -529,13 +628,41 @@
    "concept": "leph201.9.2.3.1",
    "question_type": "mirror_image_distance_and_magnification",
    "question_pattern": "An object is placed {u} cm in front of a concave mirror whose focal length is {f} cm. Where does the image form, and what magnification results?",
-   "extracted_variables": {"u": -10, "f": -7.5},
+   "extracted_variables": {
+    "u": -10,
+    "f": -7.5
+   },
    "solution_template": [
-    {"step": 1, "action": "invert the object distance", "explain": "reciprocal of the signed u", "compute": "inv_u = 1 / u"},
-    {"step": 2, "action": "invert the focal length", "explain": "reciprocal of the signed f", "compute": "inv_f = 1 / f"},
-    {"step": 3, "action": "subtract to get 1/v", "explain": "mirror equation rearranged", "compute": "inv_v = inv_f - inv_u"},
-    {"step": 4, "action": "invert for v", "explain": "signed image distance", "compute": "img_dist = 1 / inv_v"},
-    {"step": 5, "action": "divide by u with a sign flip", "explain": "magnification is -v/u", "compute": "mag = -1 * img_dist / u"}
+    {
+     "step": 1,
+     "action": "invert the object distance",
+     "explain": "reciprocal of the signed u",
+     "compute": "inv_u = 1 / u"
+    },
+    {
+     "step": 2,
+     "action": "invert the focal length",
+     "explain": "reciprocal of the signed f",
+     "compute": "inv_f = 1 / f"
+    },
+    {
+     "step": 3,
+     "action": "subtract to get 1/v",
+     "explain": "mirror equation rearranged",
+     "compute": "inv_v = inv_f - inv_u"
+    },
+    {
+     "step": 4,
+     "action": "invert for v",
+     "explain": "signed image distance",
+     "compute": "img_dist = 1 / inv_v"
+    },
+    {
+     "step": 5,
+     "action": "divide by u with a sign flip",
+     "explain": "magnification is -v/u",
+     "compute": "mag = -1 * img_dist / u"
+    }
    ]
   },
   {
@@ -544,13 +671,42 @@
    "concept": "leph201.9.5.2.2",
    "question_type": "lens_makers_focal_length",
    "question_pattern": "A double convex lens made of glass of refractive index {n_lens} has faces of radii {r1} cm and {r2} cm. What focal length does it have in air?",
-   "extracted_variables": {"n_lens": 1.5, "r1": 10, "r2": -15},
+   "extracted_variables": {
+    "n_lens": 1.5,
+    "r1": 10,
+    "r2": -15
+   },
    "solution_template": [
-    {"step": 1, "action": "take air as the surround", "explain": "the surrounding medium is air", "compute": "n_medium = 1.0"},
-    {"step": 2, "action": "form the relative index", "explain": "lens index over surround index", "compute": "n_rel = n_lens / n_medium"},
-    {"step": 3, "action": "combine the curvatures", "explain": "1/R1 minus 1/R2 with signs", "compute": "shape_term = 1 / r1 - 1 / r2"},
-    {"step": 4, "action": "multiply the factors", "explain": "index gap times shape factor", "compute": "inv_f = (n_rel - 1) * shape_term"},
-    {"step": 5, "action": "invert for f", "explain": "focal length in cm", "compute": "focal_len = 1 / inv_f"}
+    {
+     "step": 1,
+     "action": "take air as the surround",
+     "explain": "the surrounding medium is air",
+     "compute": "n_medium = 1.0"
+    },
+    {
+     "step": 2,
+     "action": "form the relative index",
+     "explain": "lens index over surround index",
+     "compute": "n_rel = n_lens / n_medium"
+    },
+    {
+     "step": 3,
+     "action": "combine the curvatures",
+     "explain": "1/R1 minus 1/R2 with signs",
+     "compute": "shape_term = 1 / r1 - 1 / r2"
+    },
+    {
+     "step": 4,
+     "action": "multiply the factors",
+     "explain": "index gap times shape factor",
+     "compute": "inv_f = (n_rel - 1) * shape_term"
+    },
+    {
+     "step": 5,
+     "action": "invert for f",
+     "explain": "focal length in cm",
+     "compute": "focal_len = 1 / inv_f"
+    }
    ]
   },
   {
@@ -559,12 +715,35 @@
    "concept": "leph201.9.5.2.1",
    "question_type": "thin_lens_image_distance",
    "question_pattern": "An object stands {u} cm from a concave lens of focal length {f} cm. Locate the image.",
-   "extracted_variables": {"u": -14, "f": -21},
+   "extracted_variables": {
+    "u": -14,
+    "f": -21
+   },
    "solution_template": [
-    {"step": 1, "action": "invert the focal length", "explain": "reciprocal of f", "compute": "inv_f = 1 / f"},
-    {"step": 2, "action": "invert the object distance", "explain": "reciprocal of u", "compute": "inv_u = 1 / u"},
-    {"step": 3, "action": "add the reciprocals", "explain": "1/v = 1/f + 1/u", "compute": "inv_v = inv_f + inv_u"},
-    {"step": 4, "action": "invert for v", "explain": "signed image distance", "compute": "img_dist = 1 / inv_v"}
+    {
+     "step": 1,
+     "action": "invert the focal length",
+     "explain": "reciprocal of f",
+     "compute": "inv_f = 1 / f"
+    },
+    {
+     "step": 2,
+     "action": "invert the object distance",
+     "explain": "reciprocal of u",
+     "compute": "inv_u = 1 / u"
+    },
+    {
+     "step": 3,
+     "action": "add the reciprocals",
+     "explain": "1/v = 1/f + 1/u",
+     "compute": "inv_v = inv_f + inv_u"
+    },
+    {
+     "step": 4,
+     "action": "invert for v",
+     "explain": "signed image distance",
+     "compute": "img_dist = 1 / inv_v"
+    }
    ]
   },
   {
@@ -573,9 +752,17 @@
    "concept": "leph201.9.7.2.1",
    "question_type": "telescope_magnifying_power",
    "question_pattern": "A small telescope has an objective of focal length {fo} cm and an eyepiece of focal length {fe} cm. Find its magnifying power for normal adjustment.",
-   "extracted_variables": {"fo": 144, "fe": 6},
+   "extracted_variables": {
+    "fo": 144,
+    "fe": 6
+   },
    "solution_template": [
-    {"step": 1, "action": "divide the focal lengths", "explain": "power equals fo over fe", "compute": "mag_power = fo / fe"}
+    {
+     "step": 1,
+     "action": "divide the focal lengths",
+     "explain": "power equals fo over fe",
+     "compute": "mag_power = fo / fe"
+    }
    ]
   },
   {
@@ -584,11 +771,31 @@
    "concept": "leph201.9.7.1.2",
    "question_type": "compound_microscope_magnification",
    "question_pattern": "A compound microscope has an objective of focal length {fo} cm, an eyepiece of focal length {fe} cm and a tube length of {tube_len} cm. What is its magnifying power for the final image at infinity (near point 25 cm)?",
-   "extracted_variables": {"fo": 1, "fe": 2, "tube_len": 20, "near_point": 25},
+   "extracted_variables": {
+    "fo": 1,
+    "fe": 2,
+    "tube_len": 20,
+    "near_point": 25
+   },
    "solution_template": [
-    {"step": 1, "action": "objective magnification", "explain": "L/fo", "compute": "mag_objective = tube_len / fo"},
-    {"step": 2, "action": "eyepiece magnification", "explain": "D/fe with D = 25 cm", "compute": "mag_eyepiece = near_point / fe"},
-    {"step": 3, "action": "multiply the stages", "explain": "total magnifying power", "compute": "mag_total = mag_objective * mag_eyepiece"}
+    {
+     "step": 1,
+     "action": "objective magnification",
+     "explain": "L/fo",
+     "compute": "mag_objective = tube_len / fo"
+    },
+    {
+     "step": 2,
+     "action": "eyepiece magnification",
+     "explain": "D/fe with D = 25 cm",
+     "compute": "mag_eyepiece = near_point / fe"
+    },
+    {
+     "step": 3,
+     "action": "multiply the stages",
+     "explain": "total magnifying power",
+     "compute": "mag_total = mag_objective * mag_eyepiece"
+    }
    ]
   },
   {
@@ -597,10 +804,23 @@
    "concept": "leph201.9.7.1.1",
    "question_type": "simple_microscope_magnification",
    "question_pattern": "What magnifying power does a simple microscope of focal length {f} cm deliver with the image at the near point of {near_point} cm?",
-   "extracted_variables": {"f": 5, "near_point": 25},
+   "extracted_variables": {
+    "f": 5,
+    "near_point": 25
+   },
    "solution_template": [
-    {"step": 1, "action": "divide the near point by f", "explain": "ratio D/f", "compute": "mag_ratio = near_point / f"},
-    {"step": 2, "action": "add one", "explain": "near-point magnifying power", "compute": "mag_power = 1 + mag_ratio"}
+    {
+     "step": 1,
+     "action": "divide the near point by f",
+     "explain": "ratio D/f",
+     "compute": "mag_ratio = near_point / f"
+    },
+    {
+     "step": 2,
+     "action": "add one",
+     "explain": "near-point magnifying power",
+     "compute": "mag_power = 1 + mag_ratio"
+    }
    ]
   }
  ],

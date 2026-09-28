@@ -34,6 +34,31 @@
      "q": "Design a simple classroom demonstration using a rotating turntable, water, and dye to model cyclone formation. Explain how each component represents a real cyclone ingredient.",
      "a": "Good answer: Rotating turntable = Earth's rotation (Coriolis). Warm water in center = warm ocean fuel. Dye dropped at center = moisture/convection. As turntable spins, dye spirals inward showing cyclonic rotation. Student must link: rotation → deflection, warm water → convection/latent heat, spiral → pressure gradient + Coriolis balance. Poor answer: Uses ice water (wrong energy source), doesn't rotate turntable (missing Coriolis), or expects a visible \"eye\" (scale mismatch — requires specific rotation rate/tank geometry). Reveals if student understands which factors are essential vs. incidental.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A cyclone is a large-scale low-pressure weather system characterized by spiraling inward winds that rotate ______ in the Northern Hemisphere and clockwise in the Southern Hemisphere due to the Coriolis effect, forming over warm tropical oceans (typically >26.5°C) with a distinct calm eye, intense eyewall, and outer rainbands.",
+     "a": "counterclockwise",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine watching a news report about a cyclone approaching the Odisha coast: you see ______ images of a giant spinning cloud with a clear center.",
+     "a": "satellite",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A cyclone is a large-scale low-pressure weather system characterized by spiraling inward winds that rotate counterclockwise in the Northern Hemisphere and clockwise in the Southern Hemisphere due to the Coriolis effect, forming over warm tropical oceans (typically >______°C) with a distinct calm eye, intense eyewall, and outer rainbands.",
+     "a": "26.5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the three necessary conditions for cyclone formation (warm ocean, low wind shear, Coriolis effect), describe the three-part structure (eye, eyewall, rainbands) with associated weather, and predict the general movement direction of a cyclone in the Bay of Bengal using steering winds and Coriolis deflection.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine watching a news report about a cyclone ______ the Odisha coast: you see satellite images of a giant spinning cloud with a clear center.",
+     "a": "approaching",
+     "self_check": true
     }
    ]
   }

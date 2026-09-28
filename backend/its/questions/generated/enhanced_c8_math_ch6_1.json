@@ -34,6 +34,16 @@
      "q": "Create a real-life word problem (Indian context: rupees, metres, litres) that requires using the distributive property \\(a(b + c) = ab + ac\\) to solve efficiently. The problem must involve a decimal or fraction multiplier.",
      "a": "Example: \"Riya buys 2.5 kg of apples at ₹120/kg and 2.5 kg of oranges at ₹80/kg. Use the distributive property to find the total cost.\"  \nSolution: \\(2.5 \\times (120 + 80) = 2.5 \\times 200 = 500\\) or \\(2.5 \\times 120 + 2.5 \\times 80 = 300 + 200 = 500\\).  \nA poor problem would use only whole numbers (already mastered in Class 7) or would not naturally suggest grouping the sum first (e.g., asking for cost of each separately). A good problem shows the student recognizes when distributing *or* summing first is easier.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If there are 5 students, you can ______ the total cost in two ways.",
+     "a": "calculate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If there are ______ students, you can calculate the total cost in two ways.",
+     "a": "5",
+     "self_check": true
     }
    ]
   }

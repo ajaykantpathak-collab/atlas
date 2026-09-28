@@ -34,6 +34,36 @@
      "q": "Design a scenario where a company *must* create a Specific Reserve by law, and another where management *chooses* to create a General Reserve. Specify the accounts debited/credited in each case.",
      "a": "**Mandatory (Legal):** Debenture Redemption Reserve (DRR) under Companies Act — Debit: P&L Appropriation A/c; Credit: DRR A/c.  \n**Discretionary:** General Reserve for future expansion — Debit: P&L Appropriation A/c; Credit: General Reserve A/c.  \nA poor answer (e.g., same accounts for both, or debiting P&L Account) reveals the student misses that *both* use Appropriation Account, but the *compulsion* differs — law vs management discretion.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Reserves are ______ of profit retained in the business to strengthen its financial position, meet future contingencies, or fund specific purposes such as expansion or redemption of liabilities; they are not charges against profit and are shown under \"Reserves and Surplus\" on the liabilities side of the Balance Sheet after Capital.",
+     "a": "appropriations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family saves ₹50,000 from this year's surplus income in a ______ \"Future Education Fund\" — this is not an expense for the current year, but a deliberate decision to keep profits inside the household for a future need.",
+     "a": "separate",
+     "self_check": true
+    },
+    {
+     "q": "What is Reserves? State the definition given in this lesson.",
+     "a": "Reserves are appropriations of profit retained in the business to strengthen its financial position, meet future contingencies, or fund specific purposes such as expansion or redemption of liabilities; they are not charges against profit and are shown under \"Reserves and Surplus\" on the liabilities side of the Balance Sheet after Capital.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"If a company earns ₹______ lakh profit, why doesn't it distribute all to owners?\" Guide students to see that reserves are *decisions* by management (appropriations), not *obligations* like provisions.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Reserves?",
+     "a": "Students treat \"Reserve Fund\" (e.g., Workmen Compensation Fund) as a separate *asset* (cash/set-aside money) rather than an *appropriation entry* — they think ₹2,00,000 is physically moved to a bank account labelled \"Fund\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify any given reserve as General/Specific and Revenue/Capital with justification, explain why reserves are appropriations (not charges), and prepare the journal entries for creation and utilisation of reserves from Profit & Loss Appropriation Account.",
+     "self_check": true
     }
    ]
   }

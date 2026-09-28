@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a spring balance, a beaker of water, and a small stone to verify Archimedes' principle quantitatively. Specify: (a) measurements to take, (b) calculations to perform, (c) how to account for the buoyant force on the string/hook, and (d) expected sources of error.",
      "a": "(a) Measure: weight of stone in air (W_air), weight of stone fully submerged in water (W_app), volume of stone (by water displacement in a measuring cylinder). (b) Calculate buoyant force F_b = W_air - W_app. Calculate theoretical F_b = ρ_water V_stone g. Compare. (c) Use a thin thread instead of a thick hook; measure weight of thread submerged separately and subtract, or ensure only the stone is submerged. (d) Errors: water adhesion on stone adds mass, string buoyancy, parallax in reading spring balance, water density variation with temperature, incomplete submersion. A poor answer omits error analysis or suggests measuring volume by formula (assuming perfect geometry) rather than displacement, missing the experimental verification aspect.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Archimedes' principle states that when a body is partially or fully immersed in a fluid at rest, it ______ an upward buoyant force equal in magnitude to the weight of the fluid displaced by the immersed portion of the body.",
+     "a": "experiences",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a familiar observation: when you push an empty ______ mug into a bucket of water, you feel a strong upward push resisting your hand.",
+     "a": "plastic",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Calculate the buoyant force on any object (fully or partially submerged) given fluid density and displaced volume, (2) Determine whether an object floats, sinks, or remains neutrally buoyant by comparing its weight to the maximum buoyant force, and (3) Solve equilibrium problems for floating bodies by.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a familiar ______: when you push an empty plastic mug into a bucket of water, you feel a strong upward push resisting your hand.",
+     "a": "observation",
+     "self_check": true
     }
    ]
   }

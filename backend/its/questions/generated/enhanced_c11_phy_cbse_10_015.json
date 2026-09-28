@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using household items to verify Newton's Law of Cooling. Specify what you would measure, how you would process the data, and what graph would confirm the law.",
      "a": "Heat water in a steel tumbler to 80°C, place in a room at known Ts. Measure temperature every 2 minutes using a lab thermometer while stirring gently. Plot ln(T - Ts) vs time. A straight line with negative slope confirms the law. Poor answer: \"Use a thermometer and stopwatch\" without specifying stirring, fixed intervals, or the logarithmic plot, shows procedural gaps.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Newton's Law of Cooling states that the rate of heat loss from a body is directly ______ to the temperature difference between the body and its surroundings, provided the temperature difference is small (typically less than 30°C).",
+     "a": "proportional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Place a cup of hot chai on your study table and notice how it cools faster initially when steaming hot, but slows down as it approaches room ______.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Newton's Law of Cooling states that the rate of heat loss from a body is directly proportional to the temperature difference between the body and its surroundings, provided the temperature difference is small (typically less than ______°C).",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the integrated form of Newton's Law of Cooling from the differential equation, use it to calculate cooling time for a given temperature range, and verify the law experimentally by plotting ln(T - Ts) versus time to obtain a straight line with negative slope.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using only a smartphone flashlight, a red filter (e.g., red cellophane), and a dark room to demonstrate the Purkinje shift and the differential spectral sensitivity of rods vs cones. Describe the procedure, predicted observations, and the underlying photopigment mechanism.",
      "a": "Good answer criteria: Procedure: Dark-adapt 20 min. View a colored object (e.g., blue and red flowers) under dim white light → note relative brightness. Switch to red-filtered light (transmits >600 nm) → observe blue appears darker than red. Mechanism: Rods (λmax 498 nm) are more sensitive to blue; cones (L-cone λmax 564 nm) more sensitive to red. In mesopic conditions, rod vision dominates → blue appears brighter (Purkinje shift). Red filter eliminates short wavelengths → only cones stimulated → red appears brighter. A poor answer that cannot explain why red light preserves dark adaptation (rods insensitive to >600 nm) or confuses the shift direction reveals lack of understanding of spectral sensitivity curves.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The human eye is a specialized photoreceptive sensory organ that transduces light energy (______ radiation of 380–750 nm wavelength) into electrochemical nerve impulses via photopigment isomerization in retinal rods and cones, which are then transmitted via the optic nerve (CN II) to the visual cortex for image perception.",
+     "a": "electromagnetic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe what happens when you walk from bright Indian ______ into a dimly lit temple corridor: initially you see nothing, but within seconds shapes emerge.",
+     "a": "sunlight",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) label all histological layers of the eyeball wall (fibrous, vascular, nervous) and internal chambers on a sagittal diagram, (2) explain the molecular mechanism of phototransduction in rods vs cones including the role of retinal, opsin, transducin, and cGMP-gated Na⁺ channels, (3) trace the neural pathway.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe what happens when you walk from bright Indian sunlight into a dimly lit temple corridor: ______ you see nothing, but within seconds shapes emerge.",
+     "a": "initially",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_07_001",
+   "title": "c12_leg_cbse_07_001",
+   "questions": [
+    {
+     "q": "What is the constitutional source of the \"right to clean environment\" in India, and which case first recognized it as part of Article 21?",
+     "a": "The right to clean environment is not explicitly in the Constitution but was read into Article 21 (Right to Life) by the Supreme Court in Subhash Kumar v. State of Bihar (1991). A wrong answer citing Article 48A or 51A(g) shows confusion between fundamental rights (enforceable) and directive principles/duties (non-enforceable directly). Citing M.C. Mehta v. Union of India (Oleum Gas Leak) instead reveals confusion between the *origin* of the right (Subhash Kumar) and the *liability principle* for violations (M.C. Mehta).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Environment Protection Act, 1986 is called an \"umbrella legislation\" and which constitutional article empowered Parliament to enact it.",
+     "a": "EPA 1986 is an \"umbrella legislation\" because it provides a framework for the Central Government to coordinate activities of various central and state authorities established under previous laws like the Water Act (1974) and Air Act (1981), filling gaps in the regulatory regime. It was enacted under Article 253 (legislation for giving effect to international agreements) to implement the Stockholm Declaration (1972). A wrong answer citing Article 246 (legislative competence) or Article 48A (directive principle) shows misunderstanding of the constitutional basis for central environmental law — Article 253 allows Parliament to legislate on state subjects to fulfill international obligations.",
+     "self_check": true
+    },
+    {
+     "q": "A chemical plant in Maharashtra stores 500 tonnes of hazardous waste. Due to a flood (act of God), the waste leaks into a river, poisoning water for 20 villages. The plant claims \"act of God\" defence. Can they escape liability under Indian law? Apply the correct legal principle.",
+     "a": "No, they cannot escape liability. Under the *absolute liability* principle from M.C. Mehta v. Union of India (Oleum Gas Leak case), enterprises engaged in hazardous activities are *absolutely liable* for harm — no defences of \"act of God\", \"act of stranger\", or \"due care\" are available. This differs from Rylands v. Fletcher's *strict liability* (which allows these defences). A wrong answer allowing the defence shows the student is applying the old English strict liability rule instead of India's stricter absolute liability doctrine. The key distinction: absolute liability = no exceptions; strict liability = exceptions exist.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the jurisdiction and composition of the National Green Tribunal (NGT) with a traditional civil court. Why was NGT created as a specialized body?",
+     "a": "NGT (established under NGT Act, 2010) has *specialized jurisdiction* over \"substantial questions relating to environment\" (Schedule I laws) and comprises *judicial members* (ex-judges) + *expert members* (environmental/technical experts). Civil courts have general jurisdiction, no technical experts, and follow CPC/Evidence Act strictly. NGT follows *summary procedure*, is *not bound by CPC/Evidence Act*, and applies principles of natural justice. It was created because civil courts were too slow, lacked technical expertise, and environmental cases needed speedy, expert resolution. A wrong answer saying \"NGT is just a fast-track court\" misses the *expert member* composition and *specialized subject-matter jurisdiction* — the core innovation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"The Polluter Pays Principle is fully implemented in India through the Environment Protection Act, 1986 and the absolute liability doctrine.\" Support your judgment with two strengths and one gap.",
+     "a": "Judgment: *Partially true*. Strengths: (1) Absolute liability (M.C. Mehta) makes polluters pay *exemplary damages* based on financial capacity, not just actual loss — stronger than \"polluter pays\". (2) NGT can impose *heavy penalties* and order *restoration* (e.g., Ganga pollution case: 50,000+ industries regulated). Gap: *Enforcement deficit* — CPCB/SPCBs are understaffed, underfunded, and often fail to monitor compliance; penalties are rarely collected fully; \"consent to operate\" is routinely renewed despite violations. A wrong answer saying \"fully implemented\" ignores the implementation gap; saying \"not implemented\" ignores the strong legal framework. The nuance is the *law-practice gap*.",
+     "self_check": true
+    },
+    {
+     "q": "Design a legal strategy for a tribal community whose forest land is being diverted for a mining project without their consent, violating the Forest Rights Act, 2006 and PESA, 1996. Use at least three legal avenues (constitutional, statutory, institutional).",
+     "a": "A strong answer would combine: (1) *Constitutional*: Writ petition under Article 226 (High Court) or 32 (Supreme Court) for violation of Article 21 (right to livelihood/environment) and Article 244/5th Schedule (tribal autonomy); (2) *Statutory*: Appeal to NGT under Section 14 (NGT Act) for environmental clearance violations + complaint under Forest Rights Act Section 4(5) (no diversion without Gram Sabha consent); (3) *Institutional*: Approach National Commission for Scheduled Tribes (Art 338A) for investigation + State Pollution Control Board for withdrawal of \"consent to operate\". Weak answers use only one avenue or cite wrong forums (e.g., consumer court). The test is *multi-forum strategic thinking*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

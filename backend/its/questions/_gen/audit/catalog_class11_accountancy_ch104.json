@@ -1,0 +1,531 @@
+{
+ "catalog": "catalog_class11_accountancy_ch104.json",
+ "concepts": [
+  {
+   "id": "keac.4.1.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "opening_cash = 57",
+      "total_cash_receipts = 70",
+      "total_cash_payments = 19.1",
+      "closing_cash = opening_cash + total_cash_receipts - total_cash_payments"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "opening_cash = 44",
+      "total_cash_receipts = 91",
+      "total_cash_payments = 89",
+      "closing_cash = opening_cash + total_cash_receipts - total_cash_payments"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "opening_cash = 84",
+      "total_cash_receipts = 56",
+      "total_cash_payments = 28",
+      "closing_cash = opening_cash + total_cash_receipts - total_cash_payments"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "opening_cash = 70",
+      "total_cash_receipts = 37",
+      "total_cash_payments = 96",
+      "closing_cash = opening_cash + total_cash_receipts - total_cash_payments"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "opening_cash = 42",
+      "total_cash_receipts = 42",
+      "total_cash_payments = 16",
+      "closing_cash = opening_cash + total_cash_receipts - total_cash_payments"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "opening_cash = 94",
+      "total_cash_receipts = 31",
+      "total_cash_payments = 50",
+      "closing_cash = opening_cash + total_cash_receipts - total_cash_payments"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "closing_cash = opening_cash + total_cash_receipts - total_cash_payments"
+   ]
+  },
+  {
+   "id": "keac.4.1.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "opening_bank = 32",
+      "total_bank_deposits = 30",
+      "total_bank_withdrawals = 34",
+      "closing_bank = opening_bank + total_bank_deposits - total_bank_withdrawals"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "opening_bank = 81",
+      "total_bank_deposits = 81",
+      "total_bank_withdrawals = 59",
+      "closing_bank = opening_bank + total_bank_deposits - total_bank_withdrawals"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "opening_bank = 19.1",
+      "total_bank_deposits = 17.6",
+      "total_bank_withdrawals = 73",
+      "closing_bank = opening_bank + total_bank_deposits - total_bank_withdrawals"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "opening_bank = 2.2",
+      "total_bank_deposits = 6.3",
+      "total_bank_withdrawals = 58",
+      "closing_bank = opening_bank + total_bank_deposits - total_bank_withdrawals"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "opening_bank = 22",
+      "total_bank_deposits = 58",
+      "total_bank_withdrawals = 44",
+      "closing_bank = opening_bank + total_bank_deposits - total_bank_withdrawals"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "opening_bank = 54",
+      "total_bank_deposits = 6.6",
+      "total_bank_withdrawals = 85",
+      "closing_bank = opening_bank + total_bank_deposits - total_bank_withdrawals"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "closing_bank = opening_bank + total_bank_deposits - total_bank_withdrawals"
+   ]
+  },
+  {
+   "id": "keac.4.1.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total_petty_expenses = 86",
+      "imprest_amount = 29",
+      "reimbursement_amount = total_petty_expenses",
+      "closing_petty_balance = imprest_amount - total_petty_expenses"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total_petty_expenses = 32",
+      "imprest_amount = 112",
+      "reimbursement_amount = total_petty_expenses",
+      "closing_petty_balance = imprest_amount - total_petty_expenses"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_petty_expenses = 74",
+      "imprest_amount = 64",
+      "reimbursement_amount = total_petty_expenses",
+      "closing_petty_balance = imprest_amount - total_petty_expenses"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total_petty_expenses = 79",
+      "imprest_amount = 5.5",
+      "reimbursement_amount = total_petty_expenses",
+      "closing_petty_balance = imprest_amount - total_petty_expenses"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "total_petty_expenses = 52",
+      "imprest_amount = 40",
+      "reimbursement_amount = total_petty_expenses",
+      "closing_petty_balance = imprest_amount - total_petty_expenses"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total_petty_expenses = 23",
+      "imprest_amount = 78",
+      "reimbursement_amount = total_petty_expenses",
+      "closing_petty_balance = imprest_amount - total_petty_expenses"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "reimbursement_amount = total_petty_expenses",
+    "closing_petty_balance = imprest_amount - total_petty_expenses"
+   ]
+  },
+  {
+   "id": "keac.4.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "gross_amount = 23",
+      "trade_discount_rate = 14.3",
+      "net_purchases = gross_amount - (gross_amount * trade_discount_rate / 100)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "gross_amount = 84",
+      "trade_discount_rate = 61",
+      "net_purchases = gross_amount - (gross_amount * trade_discount_rate / 100)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gross_amount = 17.4",
+      "trade_discount_rate = 67",
+      "net_purchases = gross_amount - (gross_amount * trade_discount_rate / 100)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "gross_amount = 55",
+      "trade_discount_rate = 98",
+      "net_purchases = gross_amount - (gross_amount * trade_discount_rate / 100)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "gross_amount = 50",
+      "trade_discount_rate = 84",
+      "net_purchases = gross_amount - (gross_amount * trade_discount_rate / 100)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "gross_amount = 29",
+      "trade_discount_rate = 100",
+      "net_purchases = gross_amount - (gross_amount * trade_discount_rate / 100)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "net_purchases = gross_amount - (gross_amount * trade_discount_rate / 100)"
+   ]
+  },
+  {
+   "id": "keac.4.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "gross_return_amount = 12.3",
+      "trade_discount_rate = 31",
+      "net_return_amount = gross_return_amount - (gross_return_amount * trade_discount_rate / 100)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "gross_return_amount = 3.7",
+      "trade_discount_rate = 48",
+      "net_return_amount = gross_return_amount - (gross_return_amount * trade_discount_rate / 100)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gross_return_amount = 7.1",
+      "trade_discount_rate = 36",
+      "net_return_amount = gross_return_amount - (gross_return_amount * trade_discount_rate / 100)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "gross_return_amount = 6.2",
+      "trade_discount_rate = 35",
+      "net_return_amount = gross_return_amount - (gross_return_amount * trade_discount_rate / 100)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "gross_return_amount = 7.6",
+      "trade_discount_rate = 111",
+      "net_return_amount = gross_return_amount - (gross_return_amount * trade_discount_rate / 100)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "gross_return_amount = 16.4",
+      "trade_discount_rate = 95",
+      "net_return_amount = gross_return_amount - (gross_return_amount * trade_discount_rate / 100)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "net_return_amount = gross_return_amount - (gross_return_amount * trade_discount_rate / 100)"
+   ]
+  },
+  {
+   "id": "keac.4.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "gross_sales_amount = 37",
+      "trade_discount_rate = 80",
+      "net_sales = gross_sales_amount - (gross_sales_amount * trade_discount_rate / 100)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "gross_sales_amount = 93",
+      "trade_discount_rate = 48",
+      "net_sales = gross_sales_amount - (gross_sales_amount * trade_discount_rate / 100)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gross_sales_amount = 2.2",
+      "trade_discount_rate = 45",
+      "net_sales = gross_sales_amount - (gross_sales_amount * trade_discount_rate / 100)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "gross_sales_amount = 63",
+      "trade_discount_rate = 107",
+      "net_sales = gross_sales_amount - (gross_sales_amount * trade_discount_rate / 100)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "gross_sales_amount = 5.5",
+      "trade_discount_rate = 8.5",
+      "net_sales = gross_sales_amount - (gross_sales_amount * trade_discount_rate / 100)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "gross_sales_amount = 73",
+      "trade_discount_rate = 43",
+      "net_sales = gross_sales_amount - (gross_sales_amount * trade_discount_rate / 100)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "net_sales = gross_sales_amount - (gross_sales_amount * trade_discount_rate / 100)"
+   ]
+  },
+  {
+   "id": "keac.4.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "gross_sales_return = 37",
+      "trade_discount_rate = 95",
+      "net_sales_return = gross_sales_return - (gross_sales_return * trade_discount_rate / 100)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "gross_sales_return = 41",
+      "trade_discount_rate = 76",
+      "net_sales_return = gross_sales_return - (gross_sales_return * trade_discount_rate / 100)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gross_sales_return = 53",
+      "trade_discount_rate = 47",
+      "net_sales_return = gross_sales_return - (gross_sales_return * trade_discount_rate / 100)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "gross_sales_return = 6.3",
+      "trade_discount_rate = 33",
+      "net_sales_return = gross_sales_return - (gross_sales_return * trade_discount_rate / 100)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "gross_sales_return = 76",
+      "trade_discount_rate = 115",
+      "net_sales_return = gross_sales_return - (gross_sales_return * trade_discount_rate / 100)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "gross_sales_return = 84",
+      "trade_discount_rate = 42",
+      "net_sales_return = gross_sales_return - (gross_sales_return * trade_discount_rate / 100)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "net_sales_return = gross_sales_return - (gross_sales_return * trade_discount_rate / 100)"
+   ]
+  },
+  {
+   "id": "keac.4.6",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total_journal_credit = 55",
+      "total_journal_debit = total_journal_credit"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total_journal_credit = 22",
+      "total_journal_debit = total_journal_credit"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_journal_credit = 94",
+      "total_journal_debit = total_journal_credit"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total_journal_credit = 50",
+      "total_journal_debit = total_journal_credit"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "total_journal_credit = 78",
+      "total_journal_debit = total_journal_credit"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total_journal_credit = 21",
+      "total_journal_debit = total_journal_credit"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_journal_debit = total_journal_credit"
+   ]
+  },
+  {
+   "id": "keac.4.7",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total_debit = 73",
+      "total_credit = 77",
+      "account_balance = abs(total_debit - total_credit)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total_debit = 31",
+      "total_credit = 56",
+      "account_balance = abs(total_debit - total_credit)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_debit = 70",
+      "total_credit = 40",
+      "account_balance = abs(total_debit - total_credit)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total_debit = 15.6",
+      "total_credit = 47",
+      "account_balance = abs(total_debit - total_credit)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "total_debit = 41",
+      "total_credit = 37",
+      "account_balance = abs(total_debit - total_credit)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total_debit = 89",
+      "total_credit = 78",
+      "account_balance = abs(total_debit - total_credit)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "account_balance = abs(total_debit - total_credit)"
+   ]
+  }
+ ]
+}

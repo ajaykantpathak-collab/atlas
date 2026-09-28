@@ -34,6 +34,16 @@
      "q": "Construct a \\(3 \\times 3\\) determinant with integer entries such that: (a) expanding along Row 1 requires computing three non-zero \\(2 \\times 2\\) minors, (b) expanding along Column 3 requires only one non-zero minor, and (c) the determinant value is 12. Provide the matrix and verify both expansions.",
      "a": "One example: \\(A = \\begin{vmatrix} 1 & 2 & 0 \\\\ 3 & 4 & 0 \\\\ 5 & 6 & 3 \\end{vmatrix}\\).\nRow 1 expansion: \\(M_{11} = \\begin{vmatrix} 4 & 0 \\\\ 6 & 3 \\end{vmatrix} = 12\\), \\(A_{11}=12\\); \\(M_{12} = \\begin{vmatrix} 3 & 0 \\\\ 5 & 3 \\end{vmatrix} = 9\\), \\(A_{12}=-9\\); \\(M_{13} = \\begin{vmatrix} 3 & 4 \\\\ 5 & 6 \\end{vmatrix} = -2\\), \\(A_{13}=-2\\). \\(\\Delta = 1(12) + 2(-9) + 0(-2) = 12 - 18 = -6\\) — not 12. Need to adjust.\nBetter: \\(A = \\begin{vmatrix} 2 & 1 & 0 \\\\ 0 & 3 & 0 \\\\ 1 & 1 & 2 \\end{vmatrix}\\).\nColumn 3: only \\(a_{33}=2\\) non-zero. \\(M_{33} = \\begin{vmatrix} 2 & 1 \\\\ 0 & 3 \\end{vmatrix} = 6\\), \\(A_{33}=6\\). \\(\\Delta = 2(6)=12\\).\nRow 1: \\(M_{11}=6, A_{11}=6\\); \\(M_{12}=0, A_{12}=0\\); \\(M_{13}=0, A_{13}=0\\). \\(\\Delta = 2(6)+1(0)+0(0)=12\\).\nRow 1 actually has two zero minors here. To satisfy (a) strictly: \\(A = \\begin{vmatrix} 1 & 2 & 1 \\\\ 3 & 1 & 1 \\\\ 2 & 3 & 4 \\end{vmatrix}\\) (no zeros, but Col 3 expansion still has three non-zero minors). The point is to test if student understands strategic choice of row/column. A good answer shows any matrix meeting criteria and verifies both expansions yield 12.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a triangular garden plot in your backyard with vertices at ______ (2,3), (5,7), and (1,6).",
+     "a": "coordinates",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can also explain why multiplying elements of one row with cofactors of a different row gives zero.",
+     "self_check": true
     }
    ]
   }

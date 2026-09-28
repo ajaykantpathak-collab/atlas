@@ -34,6 +34,36 @@
      "q": "Design a 2×2 policy matrix for a district collector addressing environmental degradation. Rows: Poverty-driven vs Affluence-driven causes. Columns: Supply-side interventions (enhance regeneration) vs Demand-side interventions (reduce extraction). Fill each cell with one specific, measurable action.",
      "a": "| | Supply-side (Regeneration) | Demand-side (Extraction Reduction) |\n|---|---|---|\n| Poverty-driven | Community-managed afforestation of 500 ha degraded land with native species; target 80% survival at 3 years | Provide 10,000 Ujjwala LPG connections to BPL households; target 60% sustained usage at 1 year |\n| Affluence-driven | Mandate rooftop solar on all new commercial buildings >500 m²; target 20 MW added capacity in 2 years | Implement congestion pricing in city centre; target 15% reduction in peak-hour private vehicle km |\n\nA poor answer lists generic schemes without measurable targets or misclassifies LPG as supply-side (it substitutes demand, doesn't enhance forest regeneration).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Environmental degradation refers to the ______ of environmental quality through the depletion of natural resources (land, water, air, biodiversity) and the accumulation of waste beyond the environment's assimilative capacity, driven by three interacting forces: population growth increasing aggregate resource demand, poverty forcing resource-dependent communities to over-extract subsistence resources (fuelwood, fodder, marginal lands), and affluence generating high per-capita consumption and industrial pollution that exceeds regenerative thresholds.",
+     "a": "deterioration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small ______ village where 50 families collect fuelwood from the surrounding forest.",
+     "a": "Himalayan",
+     "self_check": true
+    },
+    {
+     "q": "What is Environmental degradation? State the definition given in this lesson.",
+     "a": "Environmental degradation refers to the deterioration of environmental quality through the depletion of natural resources (land, water, air, biodiversity) and the accumulation of waste beyond the environment's assimilative capacity, driven by three interacting forces: population growth increasing aggregate resource demand, poverty.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small Himalayan village where ______ families collect fuelwood from the surrounding forest.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Environmental degradation?",
+     "a": "Students believe \"poverty is the main cause of environmental degradation in India\" because they see visible rural resource extraction (fuelwood, grazing).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the IPAT identity (Impact = Population × Affluence × Technology) with Indian data, distinguish between poverty-driven degradation (e.g., fuelwood collection in Himalayan foothills) and affluence-driven degradation (e.g., vehicular emissions in Delhi), and evaluate why supply-demand reversal for environmental resources.",
+     "self_check": true
     }
    ]
   }

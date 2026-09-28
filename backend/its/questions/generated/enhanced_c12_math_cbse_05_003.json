@@ -34,6 +34,26 @@
      "q": "Construct a function \\(k(x)\\) that is continuous everywhere except at exactly three points, using only polynomials, absolute value, and rational operations. Explain your construction.",
      "a": "Expected answer: Example: \\(k(x) = \\frac{|x-1|}{x-1} + \\frac{|x-2|}{x-2} + \\frac{|x-3|}{x-3}\\). Each term is a rational function of \\(|x-a|\\) and \\((x-a)\\), continuous everywhere except at \\(x=a\\) (where denominator zero). Sum of three such terms is continuous except at \\(x=1,2,3\\). A poor answer might use piecewise definitions without leveraging the algebra theorems, showing the student cannot synthesize the algebraic properties to build functions with prescribed discontinuities.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This follows directly from the ______ limit laws.",
+     "a": "corresponding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a fare calculator for a Delhi Metro ride: the base fare is a ______ function of distance, a surcharge is a rational function of peak hours, and a discount is an absolute-value function of a smart-card balance.",
+     "a": "polynomial",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state and apply the four algebraic operations and the composition theorem for continuous functions to determine continuity of combined functions (polynomials, rationals, trigonometric, absolute value, etc.) without recomputing limits from first principles.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a fare ______ for a Delhi Metro ride: the base fare is a polynomial function of distance, a surcharge is a rational function of peak hours, and a discount is an absolute-value function of a smart-card balance.",
+     "a": "calculator",
+     "self_check": true
     }
    ]
   }

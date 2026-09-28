@@ -34,6 +34,16 @@
      "q": "Design an experiment to determine the van der Waals constants \\(a\\) and \\(b\\) for an unknown gas using only P-V-T measurements at constant temperature. Outline the graphical method and the calculations needed.",
      "a": "**Procedure:** Measure pressure \\(P\\) at several volumes \\(V\\) for a fixed amount \\(n\\) of gas at constant \\(T\\). **Graphical method:** Rearrange van der Waals equation to \\(PV_m = RT + \\left(b - \\frac{a}{RT}\\right)P + \\cdots\\) (virial expansion) or better: plot \\(PV_m\\) vs \\(P\\). At low pressures, \\(PV_m = RT + \\left(b - \\frac{a}{RT}\\right)P\\). The intercept gives \\(RT\\), slope gives \\(\\left(b - \\frac{a}{RT}\\right)\\). Repeat at 2-3 temperatures to get two equations for \\(a\\) and \\(b\\). Alternatively, use the critical constants method if critical point data is available: \\(a = \\frac{27R^2T_c^2}{64P_c}\\), \\(b = \\frac{RT_c}{8P_c}\\). **Criteria for good answer:** Recognizes need for multiple isotherms, uses virial expansion or critical constants, identifies that single isotherm cannot uniquely determine both constants. A poor answer suggests using only one P-V curve or ignores temperature dependence.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: when you pump air into a bicycle tyre, the ______ gauge reading deviates from what the ideal gas law predicts, especially on a cold winter morning in Delhi.",
+     "a": "pressure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world ______: when you pump air into a bicycle tyre, the pressure gauge reading deviates from what the ideal gas law predicts, especially on a cold winter morning in Delhi.",
+     "a": "observation",
+     "self_check": true
     }
    ]
   }

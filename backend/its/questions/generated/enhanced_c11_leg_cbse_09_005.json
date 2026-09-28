@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_09_005",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_09_005",
+   "title": "c11_leg_cbse_09_005",
+   "questions": [
+    {
+     "q": "What is the primary constitutional basis for the establishment of Law Commissions in India, and which was the first Law Commission of independent India?",
+     "a": "The primary constitutional basis is **Article 39A** (Directive Principles of State Policy), which directs the State to ensure equal justice and free legal aid — Law Commissions operationalize this by recommending reforms. The **First Law Commission of independent India** was constituted in **1955** under the chairmanship of **M.C. Setalvad** (then Attorney General). A wrong answer (e.g., citing Article 32 or the 1834 Macaulay Commission) reveals confusion between *pre-independence* law reform bodies (established by British Charter Acts) and *post-independence* commissions (established by executive resolution under the Union Government's mandate to reform laws).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the RTI Act, 2005 is considered a \"demand-driven\" law reform, unlike the Hindu Code Bills of the 1950s which were \"supply-driven.\"",
+     "a": "The **RTI Act, 2005** emerged from a **bottom-up movement** (MKSS's *jan sunwais* in Rajasthan, 1990s → National Campaign for People's Right to Information → pressure on Parliament), making it **demand-driven** — citizens forced the State to legislate. The **Hindu Code Bills (1955–56)** were **supply-driven**: the Nehru government *pushed* codification of Hindu personal law (marriage, succession, guardianship, adoption) as a modernizing project, despite conservative opposition. A wrong answer (e.g., saying both were demand-driven) misses the **agency distinction**: who initiated the reform — the governed or the government? This is critical for evaluating legitimacy and implementation gaps.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"The Consumer Protection Act, 2019 is just an amendment — it didn't change the fundamental structure of consumer courts.\" Apply the concept of 'structural reform' to evaluate this claim.",
+     "a": "**Steps to evaluate:**\n1. **Identify structural changes**: The 2019 Act *replaced* the 1986 Act (not merely amended), creating the **Central Consumer Protection Authority (CCPA)** — a *new regulatory body* with *suo motu* powers to investigate, recall goods, and impose penalties.\n2. **Jurisdictional shift**: Pecuniary limits revised — District Commission: up to ₹1 crore (was ₹20 lakh); State Commission: ₹1–10 crore (was ₹20 lakh–1 crore); National Commission: above ₹10 crore (was >₹1 crore).\n3. **New remedies**: Introduced **product liability** (manufacturer/service provider liable for harm), **class action suits**, **e-filing**, **video conferencing**, **mediation cells**.\n4. **Penalties**: Celebrity endorsers now liable for misleading ads (up to ₹10 lakh + ban).\n**Conclusion**: This is **structural reform** — it altered institutional architecture, remedy framework, and enforcement teeth. The student's claim is **false**. A wrong answer focusing only on \"consumer courts still exist\" misses *institutional innovation* (CCPA) and *procedural modernization* (e-filing, mediation).",
+     "self_check": true
+    },
+    {
+     "q": "Analyze how the Supreme Court's *Shreya Singhal v. Union of India (2015)* judgment triggered law reform in cyber law, and why the subsequent reform (or lack thereof) reveals a gap in the law reform cycle.",
+     "a": "**Analysis:**\n- **Trigger**: SC struck down **Section 66A, IT Act, 2000** as *vague, overbroad, and violative of Article 19(1)(a)* — a **judicial invalidation** forcing legislative response.\n- **Reform gap**: Despite the 2015 verdict, **no replacement provision** was enacted for 8+ years. The **IT (Amendment) Bill, 2018** (proposing narrower \"offensive communication\" clauses) lapsed. The **Digital Personal Data Protection Act, 2023** addresses *data privacy*, not *speech regulation*.\n- **Cycle failure**: The reform loop broke at **legislative action** — executive didn't prioritize a new speech-specific provision; Parliament didn't pass one. Meanwhile, **Section 66A continues to be misused** (PUCL data: 1,300+ cases filed *post-2015*), exposing the **enforcement-monitoring gap**.\n- **Insight**: Law reform requires *all three legs* — judicial trigger → legislative fix → executive enforcement. *Shreya Singhal* proves judicial review alone cannot sustain reform without political will.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Muslim Women (Protection of Rights on Marriage) Act, 2019 is a textbook example of law reform driven by judicial precedent.\" Defend or critique with evidence.",
+     "a": "**Critique — it's only *partially* true.**\n- **Judicial trigger**: **Shayara Bano v. Union of India (2017)** — SC declared *talaq-e-biddat* (instant triple talaq) **unconstitutional** (3:2), violating Articles 14, 15, 21. This created the *imperative* for reform.\n- **But the reform went *beyond* the judgment**: The Act **criminalized** triple talaq (cognizable, non-bailable, up to 3 years jail) — while SC only *invalidated* the practice (civil consequence). The Court *did not* ask for penal provisions.\n- **Legislative choice**: Parliament added **subsistence allowance, custody rights, compounding** — addressing *gender justice gaps* SC highlighted but didn't prescribe remedies for.\n- **Verdict**: Judicial precedent *catalyzed* reform, but the **Act is a legislative innovation**, not a mere codification of *Shayara Bano*. Calling it \"textbook judicial-driven reform\" **oversimplifies** the separation of powers: courts declare rights; legislature designs remedies. A \"defend\" answer ignoring criminalization misses the **policy overreach debate**.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-step law reform pathway for regulating \"deepfake-based revenge porn\" in India, identifying the specific institutional actor responsible at each step and the evidence they must produce.",
+     "a": "**Expected pathway (criteria for a good answer):**\n1. **Problem identification** → **Law Commission of India / Parliamentary Standing Committee on IT** → *Evidence*: Empirical data on deepfake cases (NCRB, cyber cells), victim impact studies, gap analysis of IT Act, 2000 (Sections 66E, 67, 67A) and DPDP Act, 2023.\n2. **Drafting & consultation** → **Ministry of Electronics & IT (MeitY) + Law Commission** → *Evidence*: Comparative law review (UK's Online Safety Act, US DEEPFAKES Accountability Act), stakeholder submissions (tech platforms, women's groups, free speech orgs), draft Bill with *narrow definitions* (avoiding *Shreya Singhal* vagueness trap).\n3. **Legislative enactment** → **Parliament (Lok Sabha → Rajya Sabha → President)** → *Evidence*: Committee reports, debate records, voting record — ensuring **proportionality test** (K.S. Puttaswamy) met: legitimate aim, suitability, necessity, balancing.\n4. **Implementation & review** → **MeitY + CCPA + Judiciary** → *Evidence*: Rules notified, FIR registration trends, conviction rates, *annual parliamentary review* (like RTI Act's Section 25 monitoring).\n**Poor answer reveals**: Listing only \"government should make a law\" — misses *institutional specialization*, *evidence hierarchy*, and *post-enactment accountability*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

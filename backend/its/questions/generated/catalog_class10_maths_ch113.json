@@ -5,6 +5,8 @@
    "id": "jemh.13.1",
    "title": "Mean of Grouped Data - Direct Method",
    "converted_to_compute": false,
+   "formula": "mean = sum(f_i * x_i) / sum(f_i), where x_i is the class mark and f_i is the frequency of the i-th class.",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 9, 5, 16, 15, 26.",
@@ -42,6 +44,8 @@
    "id": "jemh.13.2",
    "title": "Mean of Grouped Data - Assumed Mean Method",
    "converted_to_compute": false,
+   "formula": "mean = a + sum(f_i * d_i) / sum(f_i), where a is the assumed mean and d_i = x_i - a.",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 19, 6, 16, 2, 34.",
@@ -79,6 +83,8 @@
    "id": "jemh.13.3",
    "title": "Mean of Grouped Data - Step Deviation Method",
    "converted_to_compute": false,
+   "formula": "mean = a + h * sum(f_i * u_i) / sum(f_i), where u_i = (x_i - a) / h and h is the class width.",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 15, 12, 8, 7, 34.",
@@ -116,6 +122,8 @@
    "id": "jemh.13.4",
    "title": "Mode of Grouped Data",
    "converted_to_compute": false,
+   "formula": "mode = l + ((f1 - f0) / (2*f1 - f0 - f2)) * h, where l is the lower limit of the modal class, f1 is the frequency of the modal class, f0 is the frequency of the class preceding the modal class, f2 is the frequency of the class succeeding the modal class, and h is the class width.",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 18, 10, 26, 33, 16.",
@@ -153,6 +161,8 @@
    "id": "jemh.13.5",
    "title": "Median of Grouped Data",
    "converted_to_compute": false,
+   "formula": "median = l + ((N/2 - cf) / f) * h, where l is the lower limit of the median class, N is the total frequency, cf is the cumulative frequency of the class preceding the median class, f is the frequency of the median class, and h is the class width.",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 8, 22, 5, 24, 15.",
@@ -189,15 +199,9 @@
   {
    "id": "jemh.13.6",
    "title": "Cumulative Frequency Curve (Ogive)",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the calculus rule and evaluate at the point",
-     "explain": "apply the calculus rule and evaluate at the point: val = 2 * 4 * 4 + 3 * 4 + 6 gives 50",
-     "compute": "val = 2 * 4 * 4 + 3 * 4 + 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "Less than ogive: plot points (upper limit, cumulative frequency). More than ogive: plot points (lower limit, cumulative frequency). Median = x-coordinate of intersection of the two ogives.",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate the limit of 2x^2 + 3x + 6 as x approaches 4 (direct substitution).",
@@ -235,6 +239,8 @@
    "id": "jemh.13.7",
    "title": "Relation Between Mean, Median, and Mode",
    "converted_to_compute": false,
+   "formula": "3 * median = mode + 2 * mean, equivalently mode = 3 * median - 2 * mean, or mean = (3 * median - mode) / 2.",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 35, 24, 10, 39, 27.",

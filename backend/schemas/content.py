@@ -142,6 +142,7 @@ class EnrichmentSummarySchema(BaseModel):
     subject: str
     class_level: int
     chapter: Optional[str] = None
+    chapter_title: Optional[str] = None
     cognitive_level: Optional[str] = None
     difficulty: str = "medium"
     has_definition: bool = False

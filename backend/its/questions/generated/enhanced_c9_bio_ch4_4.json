@@ -34,6 +34,36 @@
      "q": "Design a simple dichotomous key using *only* the five fundamental classification criteria to separate these four organisms: *E. coli* (bacterium), *Amoeba* (protozoan), *Mushroom* (fungus), *Mango tree* (plant). Write the key as paired statements.",
      "a": "A good key (one possible version):\n1a. Cell type: Prokaryotic (no true nucleus, no membrane-bound organelles) ............ *E. coli* (Kingdom Monera)\n1b. Cell type: Eukaryotic (true nucleus, membrane-bound organelles) ............ Go to 2\n2a. Cellular organization: Unicellular ............ *Amoeba* (Kingdom Protista)\n2b. Cellular organization: Multicellular ............ Go to 3\n3a. Mode of nutrition: Absorptive heterotroph (external digestion + absorption), cell wall of chitin ............ *Mushroom* (Kingdom Fungi)\n3b. Mode of nutrition: Autotrophic (photosynthetic), cell wall of cellulose ............ *Mango tree* (Kingdom Plantae)\n\nCriteria for a good answer: Uses each criterion *once* in a logical hierarchy (cell type → organization → nutrition/cell wall). A poor key uses habitat (\"grows on soil\" vs \"lives in water\") or superficial traits (\"has cap\" vs \"has leaves\"), showing the student cannot operationalize the fundamental criteria for practical identification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Classification criteria are the fundamental, heritable ______ — such as cell type (prokaryotic/eukaryotic), cellular organization (unicellular/multicellular), mode of nutrition (autotrophic/heterotrophic), and body plan complexity — used to group organisms into taxonomic categories that reflect their evolutionary relationships.",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You don't sort by colour alone because masoor dal and red rice look similar; you sort by *______ nature* — grain vs stone vs plant part.",
+     "a": "fundamental",
+     "self_check": true
+    },
+    {
+     "q": "What is Classification criteria? State the definition given in this lesson.",
+     "a": "Classification criteria are the fundamental, heritable characteristics — such as cell type (prokaryotic/eukaryotic), cellular organization (unicellular/multicellular), mode of nutrition (autotrophic/heterotrophic), and body plan complexity — used to group organisms into taxonomic categories that reflect their evolutionary relationships.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Step ______: Observe that all living things are made of cells — so cell structure (prokaryotic vs eukaryotic) is the deepest divider.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Classification criteria?",
+     "a": "Students believe that visible, external morphological similarities (like wings, fins, green colour, or habitat) are the primary basis for classification.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can list the five major criteria used in modern classification, explain why each criterion is more fundamental than superficial traits (like colour or size), and apply these criteria to justify the placement of a given organism (e.g., a mushroom or a bacterium) into its correct kingdom.",
+     "self_check": true
     }
    ]
   }

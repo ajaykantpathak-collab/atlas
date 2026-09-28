@@ -34,6 +34,31 @@
      "q": "Create a Venn diagram showing the relationship between natural numbers (ℕ), whole numbers (𝕎), integers (ℤ), rational numbers (ℚ), irrational numbers (𝕀), and real numbers (ℝ). Then give one specific example of a number that lies in each region of your diagram (including the region outside ℚ but inside ℝ).",
      "a": "The Venn diagram should show ℕ ⊂ 𝕎 ⊂ ℤ ⊂ ℚ ⊂ ℝ, and 𝕀 ⊂ ℝ with ℚ ∩ 𝕀 = ∅. Examples: ℕ: 5; 𝕎\\ℕ: 0; ℤ\\𝕎: -3; ℚ\\ℤ: 1/2; 𝕀: √2. A poor answer (e.g., overlapping ℚ and 𝕀, or missing the 𝕀 region entirely) reveals the student does not understand the hierarchical inclusion and the disjoint nature of rational and irrational numbers.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The set of real numbers, denoted by ℝ, is the union of the set of rational numbers (ℚ) and the set of ______ numbers (𝕀).",
+     "a": "irrational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are measuring the length of a ______ of a square tile of side 1 metre in your kitchen.",
+     "a": "diagonal",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are measuring the length of a diagonal of a square tile of side ______ metre in your kitchen.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify any given number as rational or irrational and justify why it belongs to the set of real numbers, and can explain why the union of these two disjoint sets forms the complete set of real numbers.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ the length of a diagonal of a square tile of side 1 metre in your kitchen.",
+     "a": "measuring",
+     "self_check": true
     }
    ]
   }

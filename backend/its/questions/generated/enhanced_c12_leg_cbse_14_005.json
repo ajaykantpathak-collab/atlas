@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_14_005",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_14_005",
+   "title": "c12_leg_cbse_14_005",
+   "questions": [
+    {
+     "q": "List the seven categories of persons entitled to free legal services under Section 12 of the Legal Services Authorities Act, 1987.",
+     "a": "The seven categories under Section 12 are: (a) member of SC/ST, (b) victim of trafficking/begar (Art. 23), (c) woman or child, (d) person with disability (PWD Act, 1995), (e) victim of mass disaster/ethnic violence/caste atrocity/flood/drought/earthquake/industrial disaster, (f) industrial workman, (g) person in custody (protective home, juvenile home, psychiatric hospital), (h) person with annual income < ₹9,000 (non-SC cases) or < ₹12,000 (SC cases). A wrong answer that omits \"industrial workman\" or \"income threshold\" reveals the student is relying on general awareness rather than statutory text — they likely confuse eligibility with \"poor people\" broadly, missing that specific categories like \"industrial workman\" qualify regardless of income.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between a regular Lok Adalat and a Permanent Lok Adalat in terms of jurisdiction, stage of dispute, and binding nature of award.",
+     "a": "Regular Lok Adalat: settles any pending court case or pre-litigation dispute (civil/compoundable criminal), award is binding and deemed a civil court decree, but parties can withdraw consent anytime before award. Permanent Lok Adalat: only for public utility services (transport, postal, power, water, hospital, insurance, etc.) at pre-litigation stage; if conciliation fails, it decides on merits and its award is final and binding (no appeal). A wrong answer that says \"both are same\" or \"Permanent Lok Adalat handles all disputes\" reveals confusion between the general ADR forum (Lok Adalat) and the specialized mandatory pre-litigation forum for essential services (Permanent Lok Adalat) created by the 2002 Amendment.",
+     "self_check": true
+    },
+    {
+     "q": "A 35-year-old male taxi driver in Mumbai (annual income ₹1.2 lakh) is denied insurance claim by a private insurer after his vehicle is damaged in a flood. He approaches the District Legal Services Authority. Is he eligible for free legal aid? Justify using Section 12 and the 2002 Amendment.",
+     "a": "Yes, he is eligible on two grounds: (1) He is a victim of flood (mass disaster) under Section 12(e) — income limit does not apply for this category. (2) The dispute concerns insurance service, which is a \"public utility service\" under Section 22A (inserted by 2002 Amendment), so he can approach the Permanent Lok Adalat for pre-litigation conciliation. A wrong answer that says \"no, income exceeds ₹9,000\" reveals the student treats the income threshold as universal, not realizing Section 12 categories (a)–(g) are income-agnostic — only category (h) has an income test.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze why the 2002 Amendment introduced Permanent Lok Adalats specifically for \"public utility services\" rather than extending regular Lok Adalats. What gap in the original 1987 Act did this address?",
+     "a": "The 1987 Act's Lok Adalats were voluntary and required both parties' consent — ineffective for essential services (power, water, transport) where one party (often a government monopoly) refuses to participate, leaving citizens without remedy. Permanent Lok Adalats made pre-litigation conciliation mandatory for public utilities, and if conciliation fails, the Adalat can decide on merits with a final, binding award (no appeal). This addressed the \"access to justice\" gap for everyday essential services where delay causes irreparable harm (e.g., no electricity/water). A wrong answer focusing only on \"speed\" misses the structural shift: from voluntary/consensual to mandatory/adjudicative for a defined sector.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the NALSA Regulations, 2010 provision that panel lawyers must have \"three years' experience at the Bar\" and \"competence, integrity, suitability.\" Is this sufficient to ensure quality legal aid? Argue with one strength and one limitation.",
+     "a": "Strength: The experience threshold filters out fresh graduates who may lack courtroom skills, and the subjective criteria (integrity, suitability) allow rejection of lawyers with disciplinary history. Limitation: \"Three years\" is arbitrary — a lawyer with 3 years of routine conveyancing may be less competent than one with 1 year of intense litigation; also, no mandatory training in legal aid ethics or vulnerable-client communication is prescribed. A poor answer that says \"yes it's sufficient\" ignores the documented problem of panel lawyers treating legal aid cases as low-priority due to low honorarium, which the Regulations don't fix.",
+     "self_check": true
+    },
+    {
+     "q": "Design a pre-litigation legal awareness campaign for migrant workers in a metropolitan city, using the Legal Services Authorities Act framework. Specify: (a) which Authority organizes it, (b) two Section 12 categories covered, (c) one public utility service relevant to them, and (d) how the campaign connects to Permanent Lok Adalat.",
+     "a": "(a) District Legal Services Authority (DLSA) organizes it under NALSA guidelines. (b) Categories: \"industrial workman\" (Section 12(f)) and \"victim of mass disaster/ethnic violence\" (Section 12(e) — covers displacement). (c) Public utility: transport service (buses/metro) — disputes over fares, safety, denial of service. (d) Campaign teaches workers to approach Permanent Lok Adalat for transport/housing/water disputes before filing cases; DLSA distributes simplified complaint forms in regional languages. A poor answer that suggests \"Supreme Court Legal Services Committee\" reveals confusion about the three-tier structure — DLSA is the frontline for grassroots outreach.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,36 @@
      "q": "Create a real-world problem (using an Indian context like a bag of marbles, a deck of cards, or a game) where using the complement rule is much easier than direct counting. Write the problem, solve it using the complement rule, and explain why the complement method is efficient here.",
      "a": "Example problem: \"A box contains 100 bulbs, of which 5 are defective. If 3 bulbs are picked at random, find the probability that at least one is defective.\" (Note: This is actually a harder problem for Class 9 without replacement, but we can simplify: \"A bulb is picked at random. Find the probability it is not defective.\") Better: \"A bag has 20 red, 30 blue, and 50 green marbles. One marble is drawn. Find the probability it is not blue.\" Solution: P(blue) = 30/100 = 0.3, so P(not blue) = 1 - 0.3 = 0.7. Direct counting would require adding 20+50=70 and dividing by 100. The complement method is efficient when the event has many favorable outcomes but its complement has few, or when the problem asks for \"at least one\" in multiple trials. A poor answer would give a problem where direct counting is equally easy (e.g., a coin toss) and not justify the efficiency.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Two events are ______ if one event occurs exactly when the other does not occur, and together they cover all possible outcomes of the experiment.",
+     "a": "complementary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are playing a game with a standard deck of 52 cards and you want to find the ______ of *not* drawing a king.",
+     "a": "probability",
+     "self_check": true
+    },
+    {
+     "q": "What is Two events? State the definition given in this lesson.",
+     "a": "Two events are complementary if one event occurs exactly when the other does not occur, and together they cover all possible outcomes of the experiment.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are playing a game with a standard deck of ______ cards and you want to find the probability of *not* drawing a king.",
+     "a": "52",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Two events?",
+     "a": "Students often think that any two mutually exclusive events are complementary.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify complementary events in a given experiment, correctly apply the formula P(not E) = 1 - P(E) to compute probabilities, and explain why using the complement is sometimes more efficient than direct counting of favorable outcomes.",
+     "self_check": true
     }
    ]
   }

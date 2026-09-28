@@ -34,6 +34,26 @@
      "q": "Design a dichotomous key using only Whittaker's five criteria (cell type, cell wall, nuclear membrane, body organization, nutrition) that distinguishes all five kingdoms in four steps.",
      "a": "Step 1: Cell type → Prokaryotic (no nuclear membrane) → Kingdom Monera. Eukaryotic (nuclear membrane present) → go to Step 2.  \nStep 2: Body organization → Unicellular/colonial (cellular level) → go to Step 3. Multicellular with tissue/organ/organ-system level → go to Step 4.  \nStep 3: Mode of nutrition → Autotrophic (photosynthetic) ± heterotrophic, cell wall present in some → Kingdom Protista. (Note: This step separates Protista from Monera already done).  \nStep 4: Cell wall composition & nutrition → Cell wall of cellulose, autotrophic (photosynthetic) → Kingdom Plantae. Cell wall of chitin, heterotrophic (saprophytic/parasitic) → Kingdom Fungi. No cell wall, heterotrophic (holozoic) → Kingdom Animalia.  \nA poor answer that uses \"habitat\" or \"motility\" as key steps shows the student cannot restrict themselves to Whittaker's defined criteria.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Whittaker's Five Kingdom ______ (1969) is a phylogenetic system that categorizes all living organisms into five kingdoms—Monera, Protista, Fungi, Plantae, and Animalia—based on three primary criteria: cellular structure (prokaryotic vs eukaryotic), body organization (unicellular vs multicellular vs tissue/organ level), and mode of nutrition (autotrophic vs heterotrophic vs saprophytic/parasitic), with phylogenetic relationships as the overarching principle.",
+     "a": "Classification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a drop of pond water under a microscope: you see tiny moving dots (bacteria), green oval cells (______), and larger shape-shifting blobs (Amoeba).",
+     "a": "Chlamydomonas",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Whittaker's Five Kingdom Classification (______) is a phylogenetic system that categorizes all living organisms into five kingdoms—Monera, Protista, Fungi, Plantae, and Animalia—based on three primary criteria: cellular structure (prokaryotic vs eukaryotic), body organization (unicellular vs multicellular vs tissue/organ level), and mode of nutrition (autotrophic vs heterotrophic vs saprophytic/parasitic), with phylogenetic relationships as the overarching principle.",
+     "a": "1969",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can reconstruct Whittaker's classification table from memory, justify the placement of any given organism (e.g., cyanobacteria, Euglena, slime moulds) into its kingdom using all three criteria, and explain why the two-kingdom system failed for viruses, prokaryotes, and fungi.",
+     "self_check": true
     }
    ]
   }

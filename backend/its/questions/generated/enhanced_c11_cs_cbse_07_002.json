@@ -34,6 +34,26 @@
      "q": "Design a tuple to store a student's record: (roll_no, name, [marks_list]). Why is the marks list inside a tuple problematic? Create a 3-element tuple where the third element is immutable.",
      "a": "The tuple is immutable, but the **list inside is mutable** — `record[2].append(95)` works, violating the expectation that the entire record is fixed. Better: `record = (101, \"Amit\", (90, 85, 88))` using a nested tuple for marks. A poor answer (e.g., saying it's fine because tuple is immutable) misses that immutability is shallow — only the top-level references are fixed, not nested mutable objects.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A tuple in Python is an ordered, immutable sequence of ______ elements enclosed in parentheses () or created using the tuple() constructor, where individual elements are accessed via zero-based positive or negative integer indices using square bracket notation tuple[index].",
+     "a": "heterogeneous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're storing the RGB ______ code for \"Indian Saffron\" as (255, 153, 51) — three values that must stay together in fixed order.",
+     "a": "color",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to create tuples using three different syntaxes (parentheses, tuple() constructor, packing) and correctly access any element or slice using both positive and negative indexing, explaining the output for edge cases like empty tuples and single-element tuples.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're storing the RGB color code for \"Indian Saffron\" as (255, 153, 51) — three values that must stay ______ in fixed order.",
+     "a": "together",
+     "self_check": true
     }
    ]
   }

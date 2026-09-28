@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_09_003",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_09_003",
+   "title": "c12_app_cbse_09_003",
+   "questions": [
+    {
+     "q": "What is the formula for the present value of an ordinary perpetuity (payments at the end of each period) with periodic payment $R$ and interest rate per period $i$? State the formula and the condition for its validity.",
+     "a": "The formula is $P = \\frac{R}{i}$, valid only when $|1+i| > 1$ (i.e., $i > 0$), ensuring the infinite geometric series converges. A wrong answer like $P = R \\times i$ or $P = \\frac{R}{1+i}$ reveals the student has memorized the formula without understanding the GP derivation or the convergence condition. They may also confuse it with the present value of an annuity due or a finite annuity.",
+     "self_check": true
+    },
+    {
+     "q": "A perpetuity pays ₹1,000 at the end of every 6 months. The annual nominal interest rate is 8% compounded semi-annually. A student calculates the present value as $P = \\frac{1000}{0.08} = 12,500$. Is this correct? Explain why or why not.",
+     "a": "The student's answer is **incorrect**. The payment is semi-annual, so the interest rate per period must be the semi-annual rate: $i = \\frac{8\\%}{2} = 4\\% = 0.04$. The correct present value is $P = \\frac{1000}{0.04} = 25,000$. Using the annual rate 0.08 instead of the periodic rate 0.04 is the most frequent error in board exams. It reveals the student does not consistently match the compounding period to the payment period — a critical skill for JEE/NEET financial mathematics.",
+     "self_check": true
+    },
+    {
+     "q": "Find the present value of a perpetuity of ₹2,000 payable at the **beginning** of each year, if money is worth 6% per annum compounded annually.",
+     "a": "This is a **Perpetuity Due**. The first payment of ₹2,000 is made immediately (present value = ₹2,000), followed by an ordinary perpetuity of ₹2,000 at the end of each year.\n$P = R + \\frac{R}{i} = 2000 + \\frac{2000}{0.06} = 2000 + 33,333.33 = \\textbf{₹35,333.33}$.\nA wrong answer of ₹33,333.33 (using $P = R/i$) shows the student treats it as an ordinary perpetuity, ignoring the \"beginning of period\" wording. This distinction is explicitly tested in CBSE board papers (e.g., Exercise 7.1, Q4).",
+     "self_check": true
+    },
+    {
+     "q": "The present value of a perpetuity immediate (payments at end of period) is ₹50,000. The periodic payment is ₹2,500. The student claims the interest rate per period is 20% because $50,000 \\times 0.20 = 10,000 \\neq 2,500$. Analyze the student's error and find the correct rate.",
+     "a": "The student incorrectly multiplied $P \\times i$ instead of using the relationship $R = P \\times i$ (rearranged from $P = R/i$). The correct formula gives $i = \\frac{R}{P} = \\frac{2500}{50000} = 0.05 = \\textbf{5\\%}$. The error reveals a fundamental algebraic manipulation weakness: the student cannot rearrange $P = R/i$ to solve for $i$. In competitive exams, this appears as \"Find the yield rate\" questions (NCERT Example 3, Exercise 7.1 Q3). Mastery requires fluency in solving for any of the three variables ($P, R, i$).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The future value (amount) of a perpetuity can be calculated using the formula $A = P(1+i)^n$ by letting $n \\to \\infty$.\" Justify your answer.",
+     "a": "The statement is **false**. As $n \\to \\infty$, $(1+i)^n \\to \\infty$ for any $i > 0$, so the future value grows without bound (is undefined/infinite). The NCERT explicitly states: \"Amount of a perpetuity is undefined since it increases beyond all bounds as time goes on.\" A student who agrees with the statement confuses the *limit of a formula* with a *meaningful financial quantity*. This misconception leads to attempting to calculate \"maturity value\" of perpetuities in exams — a guaranteed zero-mark error.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where a Perpetuity Due (payments at beginning of period) is more appropriate than an Ordinary Perpetuity. Define all variables ($R, i, P$) and compute $P$.",
+     "a": "**Scenario**: A trust wants to fund an annual poetry festival. The first festival happens **today** (inauguration), and subsequent festivals occur at the start of every year forever. Each festival costs ₹1,00,000. The trust earns 7% p.a. on its corpus.\n- $R = 1,00,000$ (payment at beginning of each year)\n- $i = 0.07$ (annual effective rate)\n- $P = R + \\frac{R}{i} = 1,00,000 + \\frac{1,00,000}{0.07} = 1,00,000 + 14,28,571.43 = \\textbf{₹15,28,571.43}$\nA poor answer uses $P = R/i$ (ordinary perpetuity), giving ₹14,28,571.43, which would fall short by ₹1,00,000 for the immediate first festival. This tests whether the student can *model* the timing of cash flows, not just plug into a formula.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

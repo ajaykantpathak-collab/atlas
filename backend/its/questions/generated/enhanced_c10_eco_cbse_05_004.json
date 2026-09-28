@@ -34,6 +34,31 @@
      "q": "Design a flowchart that a consumer can use to decide which forum to approach, starting from \"Calculate total claim value\" and ending at \"File complaint in appropriate forum\". Include the three forums and their pecuniary limits.",
      "a": "A good flowchart: Start → Calculate total claim (price + compensation) → Is claim ≤ ₹1 crore? → Yes → District Commission → End. No → Is claim ≤ ₹10 crore? → Yes → State Commission → End. No → National Commission → End. A poor flowchart misses the \"total claim\" concept, uses old limits, or omits the appeal path. This tests if the student can synthesise the jurisdiction rules into a decision tool.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Consumer Disputes Redressal Forums are a three-tier quasi-judicial machinery ______ under the Consumer Protection Act, 2019 to provide speedy and inexpensive justice to consumers.",
+     "a": "established",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you ______ a new refrigerator for ₹65,000 but it stopped cooling within a week.",
+     "a": "bought",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Consumer Disputes Redressal Forums are a three-tier quasi-judicial machinery established under the Consumer Protection Act, ______ to provide speedy and inexpensive justice to consumers.",
+     "a": "2019",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the appropriate forum for a given complaint based on the monetary value of the claim, explain the composition and appeal hierarchy of the three tiers, and describe the reliefs each forum can grant.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you bought a new ______ for ₹65,000 but it stopped cooling within a week.",
+     "a": "refrigerator",
+     "self_check": true
     }
    ]
   }

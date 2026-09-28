@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a battery, a switch, a copper wire, a horseshoe magnet, and a lightweight aluminium foil strip to demonstrate that a current-carrying conductor experiences a force in a magnetic field. Describe how you would show the direction of the force reverses when either the current direction or the magnetic field direction is reversed.",
      "a": "Suspend the aluminium foil strip vertically between the poles of the horseshoe magnet. Connect the strip in series with the battery and switch. Close the switch: the strip deflects sideways, showing a force. Use Fleming's left-hand rule to predict the direction. Then reverse the battery terminals (current reverses) and observe the strip deflects in the opposite direction. Next, reverse the magnet poles (field reverses) and again observe opposite deflection. A poor answer (e.g., not mentioning reversal tests, or using a heavy wire that doesn't move) indicates the student cannot translate the principle into a testable setup or understand the vector nature of the force.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The direction of the force is ______ to both the current and the magnetic field, determined by Fleming's left-hand rule.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan in your classroom: when switched on, the motor rotates because current-carrying coils ______ a force in the magnetic field of the permanent magnets.",
+     "a": "experience",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "They can also apply Fleming's left-hand rule to find the force direction in a given physical setup.",
+     "self_check": true
     }
    ]
   }

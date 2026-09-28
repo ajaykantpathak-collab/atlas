@@ -32,7 +32,32 @@
     },
     {
      "q": "Design a minimal set of tRNA anticodons (using standard bases A, U, G, C and inosine I) that can translate all six leucine codons (UUA, UUG, CUU, CUC, CUA, CUG). Explain how wobble reduces the number of tRNAs needed compared to a strict Watson-Crick pairing model.",
-     "a": "Leucine codons: UUA, UUG (both UUR), CUU, CUC, CUA, CUG (all CUN). With wobble: one tRNA with anticodon 5'-UAA-3' (reads UUA, UUG via U-A and U-G wobble at third base? Actually anticodon 5'-UAA-3' pairs with 3'-AUU-5' (UUA) and 3'-AUC-5' (UUG)? Wait, standard: tRNA^Leu with anticodon UAA reads UUA and UUG? Let's use known biology: tRNA^Leu with anticodon 5'-UAA-3' (modified) reads UUA and UUG. For CUN family: one tRNA with anticodon 5'-IAG-3' reads CUU, CUC, CUA (I pairs with U,C,A). Another tRNA with anticodon 5'-CAG-3' reads CUG (C pairs with G). So minimal set = 3 tRNAs. Without wobble (strict Watson-Crick), each codon needs a unique anticodon → 6 tRNAs. Wobble reduces 6 → 3. A poor answer that lists 6 anticodons or doesn't use inosine shows failure to apply wobble rules for economy.",
+     "a": "(1) For the UUA and UUG pair — one leucine tRNA with a modified UAA anticodon reads both codons through wobble at the third base, (2) For the CUN family — a tRNA carrying the inosine-containing IAG anticodon reads CUU, CUC and CUA, since inosine pairs with U, C or A, (3) For CUG — a separate tRNA with the CAG anticodon pairs by standard base pairing, (4) The economy — the minimal set is therefore three tRNAs instead of the six demanded by strict Watson-Crick pairing, which is exactly what the wobble hypothesis predicts. A poor answer that lists six anticodons or never uses inosine shows failure to apply the wobble rules for economy.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The genetic code is the set of rules by which ______ encoded in mRNA sequences (codons, three-nucleotide units) is translated into amino acid sequences during protein synthesis; the wobble hypothesis explains how a single tRNA anticodon can recognize multiple codons due to flexible base pairing at the third (5') position of the anticodon.",
+     "a": "information",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive a WhatsApp message written in a language where every word is exactly three letters long, there are no spaces, and the same word can mean slightly different things ______ on context — that is essentially what the ribosome reads on mRNA.",
+     "a": "depending",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The genetic code is the set of rules by which information encoded in mRNA sequences (codons, three-nucleotide units) is translated into amino acid sequences during protein synthesis; the wobble hypothesis explains how a single tRNA anticodon can recognize multiple codons due to flexible base pairing at the third (______') position of the anticodon.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) decode any given mRNA sequence into its corresponding amino acid sequence using the standard genetic code table, (2) explain the three key properties of the genetic code (universal, degenerate, non-overlapping, comma-less) with examples, and (3) apply the wobble rules to predict which codons a given tRNA anticodon can.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive a WhatsApp message written in a language where every word is exactly three letters long, there are no spaces, and the same word can mean slightly different things depending on context — that is ______ what the ribosome reads on mRNA.",
+     "a": "essentially",
      "self_check": true
     }
    ]

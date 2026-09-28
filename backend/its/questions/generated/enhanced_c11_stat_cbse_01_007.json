@@ -34,6 +34,36 @@
      "q": "Design a **hypothetical** sample survey to estimate the average daily screen time (in hours) of Class 11 students in *your* city. Specify: (a) Target population definition (include inclusion/exclusion criteria), (b) Sampling frame source, (c) Sample size justification (one sentence), (d) One major potential non-sampling error and how to mitigate it. Write as a structured plan.",
      "a": "(a) Population: All students enrolled in Class 11 (academic year 2024-25) in schools affiliated to CBSE/ICSE/State Board within the municipal corporation limits of [City Name], aged 15-17 years. Excludes: open schooling, dropout, special needs schools. (b) Frame: Consolidated list of Class 11 section-wise enrolment from District Education Office (UDEE+) + school principals' verification. (c) Sample size: 1,200 students (approx. 5% of estimated 24,000), stratified by board type and school category (govt/aided/private), to achieve ±0.5 hour precision at 95% confidence based on pilot SD=2.1 hrs. (d) Non-sampling error: **Recall bias / social desirability bias** — students under-report gaming/social media time. Mitigation: Use automated screen-time tracking apps (with consent) for a sub-sample of 200 to calibrate self-reported data. A poor answer gives vague population (\"all students\"), no frame source, arbitrary sample size, or generic \"non-response\" without context-specific mitigation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In statistics, a population (or universe) is the complete collection of all items, individuals, or units that share at least one common ______ and are the subject of a particular statistical investigation.",
+     "a": "characteristic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine the Government of India wants to estimate the average monthly household ______ in rural Uttar Pradesh for the year 2024.",
+     "a": "expenditure",
+     "self_check": true
+    },
+    {
+     "q": "What is In statistics, a population (or universe)? State the definition given in this lesson.",
+     "a": "In statistics, a population (or universe) is the complete collection of all items, individuals, or units that share at least one common characteristic and are the subject of a particular statistical investigation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine the Government of India wants to estimate the average monthly household expenditure in rural Uttar Pradesh for the year ______.",
+     "a": "2024",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about In statistics, a population (or universe)?",
+     "a": "Students often believe \"Population means the entire country's people\" and \"Sample means a small number\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish between population and sample in any given real-world economic scenario, identifying the target population, sampling frame, and sample units; (2) Justify why sampling is necessary (cost, time, destructive testing) and explain the concept of sampling error vs non-sampling error; (3) Classify a.",
+     "self_check": true
     }
    ]
   }

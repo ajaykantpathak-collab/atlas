@@ -34,6 +34,31 @@
      "q": "Create a challenge: If you were given a number line with only the marks 0 and 1, how would you precisely locate 1/8?",
      "a": "The student should describe halving the distance to get 1/2, halving again to get 1/4, and halving once more to get 1/8. A poor answer (like \"just guess\") shows a lack of systematic spatial reasoning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Fractions on the number line represent a specific length or position between whole numbers, where the distance between two ______ integers (like 0 and 1) is divided into equal segments based on the denominator.",
+     "a": "consecutive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are walking along a straight path where the ______ from your house to the grocery store is exactly 1 kilometre.",
+     "a": "distance",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are walking along a straight path where the distance from your house to the grocery store is exactly ______ kilometre.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to correctly identify, mark, and order fractions on a number line by dividing the unit interval into the number of parts specified by the denominator.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are walking along a straight path where the distance from your house to the grocery store is exactly 1 ______.",
+     "a": "kilometre",
+     "self_check": true
     }
    ]
   }

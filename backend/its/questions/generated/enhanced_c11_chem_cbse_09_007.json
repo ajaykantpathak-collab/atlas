@@ -34,6 +34,26 @@
      "q": "Design a simple school-lab experiment to demonstrate that water has a higher specific heat capacity than common organic liquids (e.g., ethanol, kerosene). List materials, procedure, measurements, and the calculation needed.",
      "a": "Materials: two identical calorimeters, thermometers, 100 g water, 100 g ethanol, 100 W immersion heater, stopwatch. Procedure: heat each liquid for 2 min, record ΔT. Calculation: c = (P × t) / (m × ΔT). Water shows smaller ΔT → larger c. Poor designs omit insulation, use unequal masses, or forget to account for calorimeter heat capacity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Water (H₂O) is a bent covalent molecule with sp³ hybridised oxygen (bond angle 104.5°) that exhibits extensive hydrogen bonding, giving it anomalous physical properties (high boiling point, density maximum at 4°C, high specific heat) and amphoteric chemical behaviour (______ Kw = 1.0 × 10⁻¹⁴ at 298 K, pH = 7).",
+     "a": "autoionisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a steel tumbler of ice water on a hot Indian afternoon: ice ______, the tumbler sweats, and the water stays cool for hours.",
+     "a": "floats",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) draw the water molecule with correct bond angle and lone pairs, explain hydrogen bonding network, and link it to density anomaly and high boiling point; (2) write autoionisation equilibrium, use Kw to calculate [H⁺], [OH⁻], pH, pOH at 298 K; (3) predict products of water's reaction with Na, Cl₂, N₂O₅, CaO and classify.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a steel tumbler of ice water on a hot Indian ______: ice floats, the tumbler sweats, and the water stays cool for hours.",
+     "a": "afternoon",
+     "self_check": true
     }
    ]
   }

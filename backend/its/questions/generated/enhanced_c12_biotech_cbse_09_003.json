@@ -34,6 +34,31 @@
      "q": "Design a hypothetical stem cell-based therapy for a patient with Type 1 diabetes (loss of pancreatic β-cells, endoderm lineage). Specify: (a) which potency category of stem cell you would start with, (b) the differentiation steps needed, and (c) one major safety check you would perform before transplantation.",
      "a": "(a) Start with pluripotent stem cells (ESCs or iPSCs) because they can generate endoderm lineage (pancreas). (b) Differentiation steps: Pluripotent stem cell → definitive endoderm (via Activin A) → pancreatic progenitor (via retinoic acid, FGF) → endocrine progenitor → β-like cell (via Notch inhibition, thyroid hormone). (c) Safety check: Karyotype analysis + teratoma assay in immunodeficient mice to ensure no residual pluripotent cells remain. A poor answer suggests using multipotent HSCs (wrong germ layer) or skips the teratoma check.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Pluripotency is the ability of a stem cell to differentiate into all cell types of the three embryonic germ layers (ectoderm, mesoderm, endoderm) but not extra-embryonic tissues like placenta; multipotency is the ability to differentiate into a closely related family of cells within a specific lineage (e.g., ______ stem cells giving rise to all blood cell types); unipotency is the ability to self-renew and produce only one specialised cell type (e.g., epidermal stem cells producing keratinocytes).",
+     "a": "hematopoietic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a doctor trying to choose the right stem cell source for a patient who needs new ______ (mesoderm lineage) versus a patient who needs retinal cells (ectoderm lineage).",
+     "a": "cartilage",
+     "self_check": true
+    },
+    {
+     "q": "What is Pluripotency? State the definition given in this lesson.",
+     "a": "Pluripotency is the ability of a stem cell to differentiate into all cell types of the three embryonic germ layers (ectoderm, mesoderm, endoderm) but not extra-embryonic tissues like placenta; multipotency is the ability to differentiate into a closely related family of cells within a specific lineage (e.g., hematopoietic stem cells.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Pluripotency?",
+     "a": "Students often think \"multipotent = can become many cell types = almost pluripotent\" and use the terms interchangeably.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify a given stem cell example (e.g., zygote, inner cell mass, HSC, epidermal stem cell) into the correct potency category (totipotent, pluripotent, multipotent, unipotent) and justify the classification by stating the range of cell types it can produce and whether it can form extra-embryonic tissues.",
+     "self_check": true
     }
    ]
   }

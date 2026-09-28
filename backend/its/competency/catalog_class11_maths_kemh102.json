@@ -21,7 +21,7 @@
     "state the cartesian product of a set with the empty set",
     "draw the cartesian product on number lines"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -38,7 +38,16 @@
      "action": "state the conclusion",
      "explain": "Summarise the answer with the key terms of the chapter."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 2 gives 2",
+     "compute": "count = 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.102.2.1",
@@ -49,7 +58,7 @@
    "key_idea": "total_relations = 2 ** (m * n)",
    "textbook_ref": "Every subset of A cross B defines a relation, so a small set pair can carry many relations.",
    "question_patterns": "kemh102.txt relations section",
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -66,7 +75,16 @@
      "action": "state the conclusion",
      "explain": "Summarise the answer with the key terms of the chapter."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 3 gives 3",
+     "compute": "count = 3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.102.3.1",
@@ -84,7 +102,7 @@
     "when does a relation qualify as a function",
     "evaluate the value of a function at a given point"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -101,7 +119,16 @@
      "action": "state the conclusion",
      "explain": "Summarise the answer with the key terms of the chapter."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 6 gives 6",
+     "compute": "count = 6"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [],

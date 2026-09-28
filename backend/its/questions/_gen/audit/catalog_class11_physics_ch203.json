@@ -1,0 +1,599 @@
+{
+ "catalog": "catalog_class11_physics_ch203.json",
+ "concepts": [
+  {
+   "id": "keph.203.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "t_C = 84",
+      "t_F = (9/5) * t_C + 32"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "t_C = 83",
+      "t_F = (9/5) * t_C + 32"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "t_C = 119",
+      "t_F = (9/5) * t_C + 32"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "t_C = 65",
+      "t_F = (9/5) * t_C + 32"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "t_C = 39",
+      "t_F = (9/5) * t_C + 32"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "t_C = 64",
+      "t_F = (9/5) * t_C + 32"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "t_F = (9/5) * t_C + 32"
+   ]
+  },
+  {
+   "id": "keph.203.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "t_C = 42",
+      "T = t_C + 273.15"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "t_C = 34",
+      "T = t_C + 273.15"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "t_C = 25",
+      "T = t_C + 273.15"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "t_C = 119",
+      "T = t_C + 273.15"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "t_C = 92",
+      "T = t_C + 273.15"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "t_C = 49",
+      "T = t_C + 273.15"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "T = t_C + 273.15"
+   ]
+  },
+  {
+   "id": "keph.203.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "alpha_l = 25",
+      "l = 3.1",
+      "delta_T = 101",
+      "delta_l = alpha_l * l * delta_T"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "alpha_l = 34",
+      "l = 36",
+      "delta_T = 66",
+      "delta_l = alpha_l * l * delta_T"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "alpha_l = 41",
+      "l = 19.5",
+      "delta_T = 104",
+      "delta_l = alpha_l * l * delta_T"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "alpha_l = 8.4",
+      "l = 92",
+      "delta_T = 104",
+      "delta_l = alpha_l * l * delta_T"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "alpha_l = 22",
+      "l = 17.4",
+      "delta_T = 116",
+      "delta_l = alpha_l * l * delta_T"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "alpha_l = 82",
+      "l = 33",
+      "delta_T = 36",
+      "delta_l = alpha_l * l * delta_T"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "delta_l = alpha_l * l * delta_T"
+   ]
+  },
+  {
+   "id": "keph.203.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "alpha_v = 117",
+      "V = 26",
+      "delta_T = 50",
+      "delta_V = alpha_v * V * delta_T"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "alpha_v = 76",
+      "V = 38",
+      "delta_T = 97",
+      "delta_V = alpha_v * V * delta_T"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "alpha_v = 96",
+      "V = 23",
+      "delta_T = 22",
+      "delta_V = alpha_v * V * delta_T"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "alpha_v = 43",
+      "V = 93",
+      "delta_T = 69",
+      "delta_V = alpha_v * V * delta_T"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "alpha_v = 93",
+      "V = 92",
+      "delta_T = 41",
+      "delta_V = alpha_v * V * delta_T"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "alpha_v = 12.2",
+      "V = 60",
+      "delta_T = 50",
+      "delta_V = alpha_v * V * delta_T"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "delta_V = alpha_v * V * delta_T"
+   ]
+  },
+  {
+   "id": "keph.203.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "Y = 44",
+      "alpha_l = 98",
+      "delta_T = 41",
+      "thermal_stress = Y * alpha_l * delta_T"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "Y = 72",
+      "alpha_l = 39",
+      "delta_T = 47",
+      "thermal_stress = Y * alpha_l * delta_T"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "Y = 2",
+      "alpha_l = 87",
+      "delta_T = 22",
+      "thermal_stress = Y * alpha_l * delta_T"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "Y = 37",
+      "alpha_l = 86",
+      "delta_T = 120",
+      "thermal_stress = Y * alpha_l * delta_T"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "Y = 59",
+      "alpha_l = 71",
+      "delta_T = 76",
+      "thermal_stress = Y * alpha_l * delta_T"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "Y = 25",
+      "alpha_l = 49",
+      "delta_T = 62",
+      "thermal_stress = Y * alpha_l * delta_T"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "thermal_stress = Y * alpha_l * delta_T"
+   ]
+  },
+  {
+   "id": "keph.203.6",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "m = 11.9",
+      "s = 72",
+      "delta_T = 54",
+      "Q = m * s * delta_T"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "m = 60",
+      "s = 43",
+      "delta_T = 80",
+      "Q = m * s * delta_T"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "m = 62",
+      "s = 33",
+      "delta_T = 53",
+      "Q = m * s * delta_T"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "m = 33",
+      "s = 61",
+      "delta_T = 85",
+      "Q = m * s * delta_T"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "m = 70",
+      "s = 92",
+      "delta_T = 50",
+      "Q = m * s * delta_T"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "m = 49",
+      "s = 26",
+      "delta_T = 20",
+      "Q = m * s * delta_T"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "Q = m * s * delta_T"
+   ]
+  },
+  {
+   "id": "keph.203.7",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "heat_gained = 85",
+      "heat_lost = heat_gained"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "heat_gained = 47",
+      "heat_lost = heat_gained"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "heat_gained = 56",
+      "heat_lost = heat_gained"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "heat_gained = 65",
+      "heat_lost = heat_gained"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "heat_gained = 90",
+      "heat_lost = heat_gained"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "heat_gained = 82",
+      "heat_lost = heat_gained"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "heat_lost = heat_gained"
+   ]
+  },
+  {
+   "id": "keph.203.8",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "m = 83",
+      "L = 43",
+      "Q = m * L"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "m = 47",
+      "L = 73",
+      "Q = m * L"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "m = 69",
+      "L = 7",
+      "Q = m * L"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "m = 33",
+      "L = 45",
+      "Q = m * L"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "m = 59",
+      "L = 10.7",
+      "Q = m * L"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "m = 7.7",
+      "L = 12.8",
+      "Q = m * L"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "Q = m * L"
+   ]
+  },
+  {
+   "id": "keph.203.9",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "K = 18.1",
+      "A = 10.1",
+      "delta_T = 85",
+      "L = 50",
+      "H = K * A * delta_T / L"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "K = 69",
+      "A = 96",
+      "delta_T = 96",
+      "L = 49",
+      "H = K * A * delta_T / L"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "K = 71",
+      "A = 70",
+      "delta_T = 108",
+      "L = 18.3",
+      "H = K * A * delta_T / L"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "K = 76",
+      "A = 66",
+      "delta_T = 53",
+      "L = 13.6",
+      "H = K * A * delta_T / L"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "K = 97",
+      "A = 32",
+      "delta_T = 57",
+      "L = 29",
+      "H = K * A * delta_T / L"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "K = 59",
+      "A = 12.2",
+      "delta_T = 33",
+      "L = 13.7",
+      "H = K * A * delta_T / L"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "H = K * A * delta_T / L"
+   ]
+  },
+  {
+   "id": "keph.203.11",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "emissivity = 9.3",
+      "A = 61",
+      "T = 61",
+      "H = emissivity * 5.67e-8 * A * T**4"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "emissivity = 78",
+      "A = 20",
+      "T = 59",
+      "H = emissivity * 5.67e-8 * A * T**4"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "emissivity = 56",
+      "A = 60",
+      "T = 81",
+      "H = emissivity * 5.67e-8 * A * T**4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "emissivity = 48",
+      "A = 51",
+      "T = 31",
+      "H = emissivity * 5.67e-8 * A * T**4"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "emissivity = 38",
+      "A = 39",
+      "T = 45",
+      "H = emissivity * 5.67e-8 * A * T**4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "emissivity = 71",
+      "A = 4.2",
+      "T = 76",
+      "H = emissivity * 5.67e-8 * A * T**4"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "H = emissivity * 5.67e-8 * A * T**4"
+   ]
+  }
+ ]
+}

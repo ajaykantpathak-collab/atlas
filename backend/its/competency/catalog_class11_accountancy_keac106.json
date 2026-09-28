@@ -29,7 +29,16 @@
      "explain": "Deduct the credit total from the debit total of the trial balance to find the difference",
      "compute": "difference = debit_total - credit_total"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "difference = debit_total - credit_total",
+     "compute": "difference = debit_total - credit_total"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.106.2.1",
@@ -117,7 +126,7 @@
     "when does the suspense account stand closed",
     "distinguish one-sided errors from two-sided errors"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -134,7 +143,16 @@
      "action": "verify closure",
      "explain": "Confirm the suspense account closes once all errors are rectified."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "suspense_balance = difference",
+     "compute": "suspense_balance = difference"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.106.5.1",
@@ -160,7 +178,16 @@
      "explain": "Subtract the excess amount from the wrong total to get the corrected total",
      "compute": "corrected_total = wrong_total - excess_amount"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "corrected_total = wrong_total - excess_amount",
+     "compute": "corrected_total = wrong_total - excess_amount"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

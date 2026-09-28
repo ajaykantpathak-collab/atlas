@@ -31,8 +31,33 @@
      "self_check": true
     },
     {
-     "q": "Design a labelled cross-sectional diagram showing the internal structure of a fold mountain belt (like the Himalayas) from the foreland basin to the hinterland. Include: foredeep, thrust faults, anticlines, synclines, nappes, and the suture zone. Annotate the direction of plate movement and the relative age of rocks in each unit.",
-     "a": "**Expected Answer Criteria:**  \n- Diagram shows a **foreland basin (foredeep)** on the Indian Plate side filled with young sediments (Siwaliks).  \n- **Main Boundary Thrust (MBT)** and **Main Central Thrust (MCT)** shown as low-angle thrust faults dipping north.  \n- **Lesser Himalaya** (older Proterozoic rocks) thrust over Sub-Himalaya.  \n- **Greater Himalaya** (high-grade metamorphics) thrust over Lesser Himalaya along MCT.  \n- **Tethyan Himalaya** (fossiliferous sedimentary rocks) at the top, often in synclines.  \n- **Indus-Tsangpo Suture Zone** (ophiolites, melange) marking the collision line.  \n- Arrows showing Indian Plate moving north, Eurasian Plate relatively stationary.  \n- Age progression: Youngest (Siwaliks) in south → Oldest (Tethyan) in north, but structurally stacked upside down due to thrusting.  \n**Poor Answer Reveals:** Missing thrust faults or showing normal faults → confusion with extensional tectonics. No suture zone → doesn't understand the collision boundary. Age order wrong → hasn't grasped structural inversion by nappes.",
+     "q": "Give the correct order of structural units in a fold mountain belt from the Indian foreland to the Tethyan zone.",
+     "a": "The belt crosses in order: (1) The foredeep of the foreland basin fills with young Siwalik sediments (2) The Main Boundary Thrust lifts the older Lesser Himalaya over the Sub-Himalaya (3) The Main Central Thrust stacks the high-grade Greater Himalaya above the Lesser (4) The fossil-bearing Tethyan Himalaya caps the suture side. A wrong answer that places the youngest rocks on the thrusted upper sheets shows the student has missed that compression stacks progressively older, deeper rocks over younger foreland sediments.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Fold mountains are elevated landforms created when two ______ tectonic plates converge, causing the sedimentary rock layers accumulated at the plate margins to crumple, buckle, and fold upwards into a series of parallel ridges (anticlines) and valleys (synclines) over millions of years.",
+     "a": "continental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking students to observe a physical map of India and trace the ______ arc from Jammu & Kashmir to Arunachal Pradesh.",
+     "a": "Himalayan",
+     "self_check": true
+    },
+    {
+     "q": "What is Fold mountains? State the definition given in this lesson.",
+     "a": "Fold mountains are elevated landforms created when two continental tectonic plates converge, causing the sedimentary rock layers accumulated at the plate margins to crumple, buckle, and fold upwards into a series of parallel ridges (anticlines) and valleys (synclines) over millions of years.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Fold mountains?",
+     "a": "Students often believe that all high mountain ranges are fold mountains formed by the same process.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the step-by-step geological process of fold mountain formation at a convergent continental-continental boundary, identify the resulting structural features (anticlines, synclines, nappes), and distinguish fold mountains from volcanic mountains and block mountains using Indian and global examples.",
      "self_check": true
     }
    ]

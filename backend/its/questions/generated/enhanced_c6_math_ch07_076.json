@@ -34,6 +34,26 @@
      "q": "Draw a circle and mark a point A on the edge and point B on the edge. Draw a chord AB and an arc AB. How do they differ?",
      "a": "The chord AB is a straight line segment, while the arc AB is the curved path along the edge of the circle. A poor answer would fail to distinguish between the straight distance and the curved boundary.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A circle is a closed plane figure where every point on the edge is at an equal distance from a fixed center point; the line segments ______ this shape include the radius (center to edge), diameter (edge to edge through center), and chord (any two points on the edge).",
+     "a": "describing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever looked at a bicycle wheel or a round dinner plate and wondered how we ______ its parts?",
+     "a": "describe",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to draw, label, and distinguish between a radius, diameter, chord, and arc on a given circle and calculate the diameter when the radius is provided.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever looked at a bicycle wheel or a round dinner plate and ______ how we describe its parts?",
+     "a": "wondered",
+     "self_check": true
     }
    ]
   }

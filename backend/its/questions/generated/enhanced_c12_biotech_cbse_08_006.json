@@ -34,6 +34,36 @@
      "q": "Create a hypothetical scenario where a researcher wants to produce a recombinant protein from an anchorage-dependent cell line at 10,000 L scale. Propose a strategy that addresses both anchorage dependence and contact inhibition limitations.",
      "a": "Use microcarrier beads (e.g., Cytodex) in a stirred-tank bioreactor: beads provide high surface-area-to-volume for attachment (solving anchorage), and cells grow as monolayers on beads until contact inhibition halts proliferation. To extend production, use a perfusion system to remove waste/add nutrients while retaining cells/beads, or engineer the line to express a temperature-sensitive SV40 T-antigen to conditionally bypass contact inhibition at production phase. A poor answer suggests \"just use a bigger flask\" (ignores scale) or \"switch to suspension culture\" (ignores anchorage dependence of the line).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Anchorage dependence is the requirement of most normal animal cells to attach to a solid or semi-solid substrate via ______ matrix (ECM) proteins (e.g., fibronectin, collagen) and integrin receptors to survive, spread, and proliferate; contact inhibition is the phenomenon where normal cells cease division upon forming a confluent monolayer due to cell-cell contact signaling that arrests the cell cycle at G1, a property lost in transformed/continuous cell lines.",
+     "a": "extracellular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are seeding ______ from a mouse embryo into a T-25 flask with serum-containing medium.",
+     "a": "fibroblasts",
+     "self_check": true
+    },
+    {
+     "q": "What is Anchorage dependence? State the definition given in this lesson.",
+     "a": "Anchorage dependence is the requirement of most normal animal cells to attach to a solid or semi-solid substrate via extracellular matrix (ECM) proteins (e.g., fibronectin, collagen) and integrin receptors to survive, spread, and proliferate; contact inhibition is the phenomenon where normal cells cease division upon forming a confluent.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Anchorage dependence is the requirement of most normal animal cells to attach to a solid or semi-solid substrate via extracellular matrix (ECM) proteins (e.g., fibronectin, collagen) and integrin receptors to survive, spread, and proliferate; contact inhibition is the phenomenon where normal cells cease division upon forming a confluent monolayer due to cell-cell contact signaling that arrests the cell cycle at G______, a property lost in transformed/continuous cell lines.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Anchorage dependence?",
+     "a": "Students often think \"contact inhibition\" means cells physically cannot divide because there is no space — a passive crowding effect.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) distinguish anchorage-dependent vs anchorage-independent cells with examples, (2) explain the molecular basis of contact inhibition (density-dependent inhibition of growth), and (3) predict culture behavior (monolayer formation, need for passaging, loss of contact inhibition in cancer cells) for a given cell type.",
+     "self_check": true
     }
    ]
   }

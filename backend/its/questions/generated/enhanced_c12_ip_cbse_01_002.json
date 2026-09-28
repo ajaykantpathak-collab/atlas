@@ -34,6 +34,31 @@
      "q": "Design a database schema for a \"Gym Membership System\" with these requirements:\n- Members have MemberID, Name, Email (unique), Phone, JoinDate, MembershipType ('Monthly', 'Quarterly', 'Annual'), Status ('Active', 'Expired').\n- Trainers have TrainerID, Name, Specialization, HireDate, Salary.\n- Each member is assigned **one** trainer (but a trainer can have many members).\n- Members can book **multiple** sessions; each session has SessionID, MemberID, TrainerID, SessionDate, DurationMinutes, Fee.\n- A session must have a valid Member and Trainer. If a trainer is deleted, their sessions should keep the TrainerID but set it to NULL (for history). If a member is deleted, their sessions should be deleted too.\nWrite the complete CREATE TABLE statements for all three tables with all constraints. Then write an ALTER TABLE to add a `Rating` column (TINYINT, 1-5) to SESSION with a CHECK constraint.",
      "a": "```sql\nCREATE TABLE TRAINER (\n    TrainerID INT PRIMARY KEY,\n    Name VARCHAR(50) NOT NULL,\n    Specialization VARCHAR(50),\n    HireDate DATE NOT NULL,\n    Salary DECIMAL(10,2) NOT NULL CHECK (Salary > 0)\n);\n\nCREATE TABLE MEMBER (\n    MemberID INT PRIMARY KEY,\n    Name VARCHAR(50) NOT NULL,\n    Email VARCHAR(100) UNIQUE NOT NULL,\n    Phone CHAR(10),\n    JoinDate DATE NOT NULL DEFAULT (CURRENT_DATE),\n    MembershipType ENUM('Monthly','Quarterly','Annual') NOT NULL,\n    Status ENUM('Active','Expired') NOT NULL DEFAULT 'Active',\n    TrainerID INT,\n    CONSTRAINT fk_member_trainer FOREIGN KEY (TrainerID) \n        REFERENCES TRAINER(TrainerID) ON DELETE SET NULL\n);\n\nCREATE TABLE SESSION (\n    SessionID INT PRIMARY KEY,\n    MemberID INT NOT NULL,\n    TrainerID INT,\n    SessionDate DATE NOT NULL,\n    DurationMinutes INT NOT NULL CHECK (DurationMinutes > 0),\n    Fee DECIMAL(8,2) NOT NULL CHECK (Fee >= 0),\n    CONSTRAINT fk_session_member FOREIGN KEY (MemberID) \n        REFERENCES MEMBER(MemberID) ON DELETE CASCADE,\n    CONSTRAINT fk_session_trainer FOREIGN KEY (TrainerID) \n        REFERENCES TRAINER(TrainerID) ON DELETE SET NULL\n);\n\nALTER TABLE SESSION ADD Rating TINYINT CHECK (Rating BETWEEN 1 AND 5);\n```\nA poor answer reveals: missing ON DELETE actions, using wrong referential action (e.g., CASCADE on Trainer), forgetting NOT NULL on FK where required, not using ENUM for fixed-value columns, or placing CHECK without CONSTRAINT name. This tests synthesis of all constraint types and referential integrity decisions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: CREATE TABLE is a DDL command that defines a new relation (table) by specifying column names, data types, and integrity ______ (PRIMARY KEY, FOREIGN KEY, NOT NULL, UNIQUE, CHECK, DEFAULT).",
+     "a": "constraints",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ for a school's \"Library Management System\" where you need to track Books, Members, and Book_Issues.",
+     "a": "database",
+     "self_check": true
+    },
+    {
+     "q": "What is CREATE TABLE? State the definition given in this lesson.",
+     "a": "CREATE TABLE is a DDL command that defines a new relation (table) by specifying column names, data types, and integrity constraints (PRIMARY KEY, FOREIGN KEY, NOT NULL, UNIQUE, CHECK, DEFAULT).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about CREATE TABLE?",
+     "a": "MODIFY COLUMN can safely change a column's data type in any direction (e.g., VARCHAR(20) → VARCHAR(10), DECIMAL(10,2) → INT).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write a complete CREATE TABLE statement for a given real-world scenario including appropriate data types, a composite primary key, a foreign key with ON DELETE CASCADE, a CHECK constraint for business rules, and a DEFAULT value; and can write ALTER TABLE statements to add a column with a default, modify a column's data.",
+     "self_check": true
     }
    ]
   }

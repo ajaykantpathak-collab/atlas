@@ -34,6 +34,36 @@
      "q": "Design a thought experiment using speed of sound measurements in two different gases to distinguish whether a gas is monoatomic or diatomic at room temperature. Specify what you would measure and how you would interpret the result.",
      "a": "Measure the speed of sound v = √(γRT/M) in each gas at known T. Since M (molar mass) can be found independently, calculate γ = v²M/(RT). If γ ≈ 1.67, the gas is monoatomic (f=3); if γ ≈ 1.40, it is rigid diatomic (f=5). A good answer recognises that γ directly reflects degrees of freedom. A poor answer suggests measuring specific heat directly (circular) or ignores the molar mass dependence.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Specific heat capacity of a gas is the amount of heat required to raise the ______ of one mole of the gas by one kelvin, measured under specified conditions of constant volume (Cv) or constant pressure (Cp).",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a pressure cooker whistle: steam (______) escapes violently while the metal body (solid) heats slowly.",
+     "a": "polyatomic",
+     "self_check": true
+    },
+    {
+     "q": "What is Specific heat capacity of a gas? State the definition given in this lesson.",
+     "a": "Specific heat capacity of a gas is the amount of heat required to raise the temperature of one mole of the gas by one kelvin, measured under specified conditions of constant volume (Cv) or constant pressure (Cp).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ratio γ = Cp/Cv = (f+______)/f characterises the gas's thermodynamic behaviour.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Specific heat capacity of a gas?",
+     "a": "Students believe each vibrational mode contributes only ONE degree of freedom (like translation or rotation), leading them to calculate f = 6 for a vibrating diatomic (3 trans + 2 rot + 1 vib) instead of the correct f = 7.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive Cv, Cp, and γ for monoatomic, rigid diatomic, and vibrating diatomic gases by correctly identifying active degrees of freedom (translational, rotational, vibrational) and applying the equipartition theorem.",
+     "self_check": true
     }
    ]
   }

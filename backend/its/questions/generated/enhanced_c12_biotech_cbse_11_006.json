@@ -34,6 +34,36 @@
      "q": "Design a hypothetical transgene cassette for a crop resistant to a new herbicide that inhibits acetolactate synthase (ALS). Specify promoter, targeting sequence, coding sequence, and terminator, and justify each choice based on ALS subcellular localisation and herbicide mode of action.",
      "a": "Cassette: CaMV 35S promoter → chloroplast transit peptide (e.g., rbcS) → mutated ALS coding sequence (e.g., Ala122Thr or Trp574Leu) → NOS terminator. Justification: ALS operates in chloroplasts for branched-chain amino acid synthesis; a transit peptide ensures enzyme delivery; a mutated ALS with reduced herbicide binding provides target-site resistance; constitutive promoter guarantees expression in all meristems. A poor answer omits the transit peptide or uses a cytosolic enzyme, showing failure to integrate pathway localisation with transgene engineering.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Herbicide-resistant crops are ______ modified plants engineered to survive the application of specific broad-spectrum herbicides (e.g., glyphosate, glufosinate) that would normally kill them, achieved by introducing a transgene encoding either a modified target enzyme insensitive to the herbicide or a detoxifying enzyme that degrades the herbicide.",
+     "a": "genetically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer spraying a field with ______ (Roundup) — every plant dies except the crop.",
+     "a": "glyphosate",
+     "self_check": true
+    },
+    {
+     "q": "What is Herbicide-resistant crops? State the definition given in this lesson.",
+     "a": "Herbicide-resistant crops are genetically modified plants engineered to survive the application of specific broad-spectrum herbicides (e.g., glyphosate, glufosinate) that would normally kill them, achieved by introducing a transgene encoding either a modified target enzyme insensitive to the herbicide or a detoxifying enzyme that.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The breakthrough came when scientists discovered a bacterial EPSPS (from *Agrobacterium* sp. strain CP______) that glyphosate cannot bind effectively.",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Herbicide-resistant crops?",
+     "a": "Students believe \"herbicide resistance means the plant breaks down the herbicide\" for ALL herbicide-resistant crops.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) explain the biochemical mechanism of action for glyphosate and glufosinate, (2) describe two distinct genetic strategies for engineering resistance (target-site modification vs. metabolic detoxification), and (3) evaluate the agronomic and ecological implications of herbicide-resistant crop deployment.",
+     "self_check": true
     }
    ]
   }

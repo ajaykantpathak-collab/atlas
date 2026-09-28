@@ -34,6 +34,21 @@
      "q": "Design a simple tessellation on a piece of grid paper using two different colors to show the repeating unit. What happens if you rotate every second tile?",
      "a": "The expected response describes how the pattern shifts or changes orientation while maintaining the \"no gap\" rule. A poor answer fails to acknowledge that the \"no gap\" rule must be preserved regardless of rotation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ is a pattern created by repeating one or more geometric shapes to cover a flat surface completely, leaving no gaps and having no overlaps.",
+     "a": "tessellation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever looked at a brick wall or a tiled floor and wondered why they look so neat and ______ fitted?",
+     "a": "perfectly",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify whether a given shape can tessellate by physically arranging cut-outs or drawing them, and explain why shapes like regular pentagons fail to form a tessellation.",
+     "self_check": true
     }
    ]
   }

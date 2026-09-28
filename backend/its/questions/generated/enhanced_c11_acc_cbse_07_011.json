@@ -34,6 +34,21 @@
      "q": "Create a scenario where a company might be tempted to classify a reserve as a provision (or vice versa) to manipulate financial statements. Explain how the distinction prevents this manipulation.",
      "a": "Scenario: A company wants to reduce taxable profit and creates a \"Provision for Future Expansion\" of ₹10 lakh, though no specific liability exists. This is actually a reserve (appropriation) mislabelled as a provision to get tax deduction. The distinction prevents this because provisions require a known present obligation from past events (AS-29), while reserves are voluntary. If a student cannot articulate the \"present obligation\" criterion, they lack the conceptual boundary needed for audit and compliance.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A provision is a charge against profit created for a known liability or expense of the current accounting period whose amount is uncertain, whereas a reserve is an ______ of profit set aside to strengthen the financial position of the business or for a specific future purpose.",
+     "a": "appropriation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing the balance sheet of a company and see two items on the ______ side: \"Provision for Taxation ₹50,000\" and \"General Reserve ₹2,00,000\".",
+     "a": "liabilities",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly list and explain at least five points of distinction between provisions and reserves (basic nature, purpose, balance sheet presentation, effect on taxable profit, compulsion, dividend usage) using precise terminology, and can classify any given item as a provision or reserve with justification.",
+     "self_check": true
     }
    ]
   }

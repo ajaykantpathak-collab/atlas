@@ -34,6 +34,36 @@
      "q": "Design a 5-event timeline (with years) that captures the evolution from “cells survive briefly” to “industrial-scale biopharmaceutical production”. For each event, name the scientist(s) and the specific capability gained.",
      "a": "Example timeline: 1907 Harrison — nerve fibre growth proves survival; 1912 Carrel — aseptic technique enables long-term culture; 1951 Gey — HeLa line provides immortal, standardized cells; 1954 Enders — poliovirus growth in human cells launches vaccine production; 1975 Köhler & Milstein — hybridoma technology enables monoclonal antibody production. A poor answer lists events without linking each to a new capability (e.g., “1951 HeLa discovered” without saying “immortal human cell line”).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Animal cell culture is the in vitro maintenance and ______ of animal cells under controlled physico-chemical conditions (temperature, pH, osmolality, gas exchange) using a defined nutrient medium, enabling cells to survive and divide outside the living organism.",
+     "a": "proliferation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ in 1950 trying to produce enough polio vaccine for millions of children.",
+     "a": "scientist",
+     "self_check": true
+    },
+    {
+     "q": "What is Animal cell culture? State the definition given in this lesson.",
+     "a": "Animal cell culture is the in vitro maintenance and proliferation of animal cells under controlled physico-chemical conditions (temperature, pH, osmolality, gas exchange) using a defined nutrient medium, enabling cells to survive and divide outside the living organism.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a scientist in ______ trying to produce enough polio vaccine for millions of children.",
+     "a": "1950",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Animal cell culture?",
+     "a": "Students often believe that because animal cell culture uses “the same cells” as in the body, the cells behave identically in a dish as they do in the organism.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) sequence the key historical milestones that transformed animal cell culture from a curiosity into a routine laboratory technique, and (2) justify why animal cell culture is preferred over whole organisms for specific research, vaccine production, and biopharmaceutical applications by citing at least three.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a one-day vegetarian menu for a 15-year-old boy (moderate activity) that meets the minimum servings of the Food Guide Pyramid. Present it as a table with columns: Meal, Food Items, Food Group, Servings. Ensure at least one dark green leafy vegetable and one fortified food are included.",
      "a": "Expected answer: A table with 5-6 meals (breakfast, mid-morning, lunch, evening snack, dinner, bedtime) showing items like: Breakfast — 2 whole wheat chapatis (cereal, 2), 1 cup sambar with vegetables (pulse 1, vegetable 1), 1 cup curd (milk 1); Mid-morning — 1 banana (fruit 1), 10 almonds (pulse/nut 0.5); Lunch — 1 cup brown rice (cereal 2), 1 cup rajma (pulse 1), ½ cup palak paneer (vegetable 1, milk 0.5), salad (vegetable 0.5); Evening — 1 glass fortified soy milk (milk 1, fortified), 1 roasted chana (pulse 0.5); Dinner — 2 chapatis (cereal 2), 1 cup lauki chana dal (pulse 1, vegetable 1), ½ cup methi leaves (dark green leafy, vegetable 0.5). Totals: Cereal 6, Pulse 4, Milk 2.5, Vegetable 4, Fruit 1 (add 1 more fruit). A poor answer misses group mapping, omits dark greens/fortified food, or exceeds fat/sugar.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Food Guide Pyramid for Indians is a visual dietary guide that translates the five basic food groups into recommended daily servings, ______ the principles of variety, moderation, and proportion for a balanced diet; the Vegetarian Food Guide adapts this pyramid by substituting animal protein sources with plant-based alternatives (legumes, nuts, seeds, soy products) and emphasizing fortified foods to meet nutrient needs such as vitamin B12, calcium, iron, and vitamin D.",
+     "a": "illustrating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your younger cousin plan a tiffin box for school that follows the Food Guide Pyramid — they are ______ and you need to ensure they get enough protein and iron without meat.",
+     "a": "vegetarian",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Food Guide Pyramid for Indians is a visual dietary guide that translates the five basic food groups into recommended daily servings, illustrating the principles of variety, moderation, and proportion for a balanced diet; the Vegetarian Food Guide adapts this pyramid by substituting animal protein sources with plant-based alternatives (legumes, nuts, seeds, soy products) and emphasizing fortified foods to meet nutrient needs such as vitamin B______, calcium, iron, and vitamin D.",
+     "a": "12",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can accurately interpret the Food Guide Pyramid for Indians to plan a day's menu meeting the recommended servings from each food group, and can modify the plan for a vegetarian diet by selecting appropriate plant-based substitutes while justifying how nutrient adequacy (especially protein, iron, calcium, vitamin B12) is.",
+     "self_check": true
     }
    ]
   }

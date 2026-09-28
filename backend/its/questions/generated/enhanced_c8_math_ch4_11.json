@@ -34,6 +34,26 @@
      "q": "Design a kite-shaped garden patch where the two long sides are 6 m each, the two short sides are 4 m each, and the angle between the long sides is 120°. Calculate the length of the diagonal that joins the long sides. (Hint: Use cosine rule or split into two triangles.)",
      "a": "The diagonal joining the long sides splits the 120° angle into two 60° angles? Wait: In a kite, the diagonal between equal sides bisects the angles. So the 120° is at the vertex where the two 6 m sides meet. That diagonal bisects it, creating two triangles with sides 6, 6, and included angle 60°? Actually, the diagonal is opposite the 120° angle in each of the two congruent triangles formed? Let's think: Kite ABCD with AB=AD=6 (long sides), CB=CD=4 (short sides). ∠BAD = 120°. Diagonal AC joins the equal sides. By symmetry, AC bisects ∠BAD, so ∠BAC = 60°. In ΔABC, AB=6, BC=4, ∠ABC is unknown. Better: Use the two triangles ΔABC and ΔADC. They are congruent. AC is common. We know AB=AD=6, CB=CD=4. We don't know angles directly. But we can use the fact that the diagonal BD is perpendicular to AC? No, the diagonal between equal sides (AC) is the axis of symmetry and is perpendicular to BD. But we need AC. We can use the law of cosines in ΔABD? Wait, ΔABD has sides AB=6, AD=6, ∠BAD=120°. So BD² = 6²+6²-2·6·6·cos120° = 72 - 72·(-1/2) = 72+36=108, BD=√108=6√3. Then since diagonals are perpendicular and AC bisects BD, BO=OD=3√3. In right ΔAOB, AB=6, BO=3√3, so AO=√(36-27)=3. Similarly, in right ΔCOB, CB=4, BO=3√3, so CO=√(16-27) imaginary! Contradiction. So such a kite cannot exist with those dimensions. A good answer recognizes the triangle inequality violation or impossibility. A poor answer computes mechanically without checking feasibility.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A kite is a ______ with two distinct pairs of adjacent sides that are equal in length.",
+     "a": "quadrilateral",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The frame has two long sticks and two short sticks tied together — ______ sides are equal in pairs.",
+     "a": "adjacent",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify a kite among quadrilaterals, state and apply its five key properties (adjacent equal sides, equal opposite angles, perpendicular diagonals, one diagonal bisects the other, symmetry), and solve problems finding unknown angles or side lengths using these properties with triangle congruence reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The frame has two long sticks and two short sticks tied ______ — adjacent sides are equal in pairs.",
+     "a": "together",
+     "self_check": true
     }
    ]
   }

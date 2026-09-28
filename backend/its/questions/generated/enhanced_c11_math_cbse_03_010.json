@@ -34,6 +34,16 @@
      "q": "Construct a trigonometric identity involving \\(\\sin 2x\\), \\(\\cos 2x\\), and \\(\\tan x\\) that simplifies to a constant. Verify it for \\(x = 30^\\circ\\).",
      "a": "One example: \\(\\frac{\\sin 2x}{1 + \\cos 2x} = \\tan x\\). This simplifies to \\(\\tan x\\), not a constant. To get a constant, try \\(\\sin^2 2x + \\cos^2 2x = 1\\) (trivial). A non-trivial constant identity: \\(\\frac{1 - \\cos 2x}{1 + \\cos 2x} = \\tan^2 x\\) (not constant). Actually, \\(\\frac{\\sin 2x}{\\tan x} = 2\\cos^2 x\\) (not constant). A valid constant identity: \\(\\frac{\\sin 2x}{2\\tan x} + \\frac{\\cos 2x + 1}{2} = 1\\). Check: LHS = \\(\\frac{2\\sin x \\cos x}{2\\tan x} + \\frac{2\\cos^2 x}{2} = \\cos^2 x + \\cos^2 x = 2\\cos^2 x\\)? Wait, that's not 1. Let's use \\(\\sin^2 2x + \\cos^2 2x = 1\\). For a creative answer, any identity that reduces to a constant like \\(1\\) or \\(0\\) using double angle formulas is acceptable. Verification at \\(x=30^\\circ\\): \\(\\sin 60^\\circ = \\frac{\\sqrt{3}}{2}\\), \\(\\cos 60^\\circ = \\frac{1}{2}\\), \\(\\tan 30^\\circ = \\frac{1}{\\sqrt{3}}\\). A poor answer (e.g., an expression that doesn't simplify to a constant) reveals the student cannot combine double angle formulas with Pythagorean identities to eliminate the variable.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a skateboard ramp for your school's sports fest.",
+     "a": "designing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ ramp for your school's sports fest.",
+     "a": "skateboard",
+     "self_check": true
     }
    ]
   }

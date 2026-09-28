@@ -34,6 +34,31 @@
      "q": "Design a simple domestic test using two identical steel spoons—one placed inside a hot bowl of dal and another left on the kitchen counter—to demonstrate the difference between heat transfer and temperature.",
      "a": "Criteria for a good answer: The student should describe placing one spoon in hot dal where heat transfers into it, raising its temperature, and leaving the other at room temperature, explaining that touching both shows a difference in temperature caused by heat transfer from the environment or food. A poor answer fails to connect touching the spoons to thermal energy movement or temperature sensation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Heat is a form of energy that ______ from a region of higher temperature to a region of lower temperature, measured in joules (J), while temperature is a measure of the average kinetic energy of the particles within a substance, measured in degrees Celsius (°C) or Kelvin (K).",
+     "a": "transfers",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how a large ______ of warm bathwater feels warm, just like a small cup of hot tea, even though the cup feels more intense to the touch.",
+     "a": "bucket",
+     "self_check": true
+    },
+    {
+     "q": "What is Heat? State the definition given in this lesson.",
+     "a": "Heat is a form of energy that transfers from a region of higher temperature to a region of lower temperature, measured in joules (J), while temperature is a measure of the average kinetic energy of the particles within a substance, measured in degrees Celsius (°C) or Kelvin (K).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Heat?",
+     "a": "Students often think that a larger object always has a higher temperature than a smaller object if both are exposed to the same sun, or they believe that \"temperature\" and \"heat\" are the exact same physical quantity.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can clearly distinguish between heat (total thermal energy transferred) and temperature (degree of hotness or average molecular motion) using concrete examples, and can explain why two objects at the same temperature can contain different amounts of thermal energy.",
+     "self_check": true
     }
    ]
   }

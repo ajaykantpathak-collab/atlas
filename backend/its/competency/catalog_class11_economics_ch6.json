@@ -284,14 +284,23 @@
      "question": "TC at output 0 is 80 and at output 3 is 260. Find TFC and TVC at output 3.",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "TC = TFC + TVC",
+     "compute": "TC = TFC + TVC"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c11eco.6.6",
    "title": "Short Run Average Costs: AFC, AVC and AC",
    "section": "6.3",
    "definition": "Average fixed cost (AFC) is fixed cost per unit of output. Average variable cost (AVC) is variable cost per unit. Average cost (AC) is total cost per unit, equal to AFC + AVC.",
-   "formula": "AFC = TFC / Q; AVC = TVC / Q; AC = TC / Q = AFC + AVC",
+   "formula": "AFC = TFC / Q; AVC = TVC / Q",
    "key_idea": "AFC falls continuously as output rises; AVC and AC are typically U-shaped.",
    "textbook_ref": "",
    "question_patterns": [
@@ -341,7 +350,22 @@
      "question": "TC at output 6 is 480 and TFC is 120. Find AFC, AVC and AC.",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "AFC = TFC / Q",
+     "compute": "AFC = TFC / Q"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "AVC = TVC / Q",
+     "compute": "AVC = TVC / Q"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c11eco.6.8",
@@ -405,7 +429,7 @@
    "title": "Producer's Equilibrium",
    "section": "6.5",
    "definition": "A producer is in equilibrium when producing the output at which the difference between total revenue and total cost is maximum, or where marginal cost equals marginal revenue and MC is rising.",
-   "formula": "MC = MR, and MC rises after equilibrium (MC curve cuts MR from below)",
+   "formula": "MC = MR",
    "key_idea": "Profit is maximized where MR = MC and the MC curve is rising (cuts MR from below).",
    "textbook_ref": "",
    "question_patterns": [
@@ -415,7 +439,7 @@
     "determine equilibrium output from TR and TC data",
     "check whether MC is rising at the equilibrium output"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -454,7 +478,16 @@
      "question": "TR for output 1-3 is 15, 28, 39. TC is 10, 20, 30. Find profit at each output and the equilibrium.",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "MC = MR",
+     "compute": "MC = MR"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c11eco.6.10",

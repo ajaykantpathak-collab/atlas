@@ -34,6 +34,31 @@
      "q": "Design a simple laboratory experiment to demonstrate the catalytic effect of Cu²⁺ ions on the reaction between sodium thiosulphate and iodine (I₂ + 2S₂O₃²⁻ → 2I⁻ + S₄O₆²⁻). Specify what you would measure, the control, and how you would confirm catalysis.",
      "a": "Measure the time for the iodine colour to disappear with and without added Cu²⁺ (same concentrations, temperature). Control: reaction without Cu²⁺. Catalysis confirmed if time decreases significantly and Cu²⁺ concentration remains unchanged (test by adding excess NH₃ to form deep blue [Cu(NH₃)₄]²⁺ after reaction). A poor answer that only says \"observe faster decolorization\" without a control or regeneration check shows lack of experimental design understanding.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Catalytic activity of transition metals refers to their ability to accelerate chemical reactions by providing an alternative reaction pathway with lower activation energy, utilizing their variable oxidation states, capacity to form ______ complexes, and surface adsorption properties (using (n-1)d and ns electrons for bonding with reactants).",
+     "a": "intermediate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a real-world Indian context: the Contact Process for sulfuric acid production uses V₂O₅, the Haber Process for ammonia uses finely divided iron, and ______ of vegetable oils to make vanaspati ghee uses nickel.",
+     "a": "hydrogenation",
+     "self_check": true
+    },
+    {
+     "q": "What is Catalytic activity of transition metals? State the definition given in this lesson.",
+     "a": "Catalytic activity of transition metals refers to their ability to accelerate chemical reactions by providing an alternative reaction pathway with lower activation energy, utilizing their variable oxidation states, capacity to form intermediate complexes, and surface adsorption properties (using (n-1)d and ns electrons for bonding with.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Catalytic activity of transition metals refers to their ability to accelerate chemical reactions by providing an alternative reaction pathway with lower activation energy, utilizing their variable oxidation states, capacity to form intermediate complexes, and surface adsorption properties (using (n-______)d and ns electrons for bonding with reactants).",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the three fundamental reasons why transition metals act as catalysts (variable oxidation states, complex formation, surface adsorption), write the catalytic cycle for at least two industrial processes (e.g., Contact Process, Haber Process, hydrogenation, iodide-persulphate reaction), and predict whether a given.",
+     "self_check": true
     }
    ]
   }

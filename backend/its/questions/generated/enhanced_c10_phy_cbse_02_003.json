@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a battery, a variable resistor, a circular coil of known turns and radius, and a compass to verify that the magnetic field at the centre of a coil is directly proportional to the current. List the steps, the measurements you would take, and how you would analyse the data.",
      "a": "Expected answer:  \n1. Set up the coil in a vertical plane (East-West) so that the Earth's magnetic field is perpendicular to the coil's axis.  \n2. Place a compass at the centre of the coil.  \n3. Connect the coil in series with a battery, a variable resistor (rheostat), and an ammeter.  \n4. Vary the current using the rheostat and record the current \\( I \\) and the corresponding compass deflection \\( \\theta \\) (angle between needle and Earth's field direction).  \n5. For small angles, \\( \\tan \\theta \\propto B_{\\text{coil}} \\). Plot \\( \\tan \\theta \\) vs \\( I \\); a straight line through origin confirms \\( B \\propto I \\).  \nA poor answer (e.g., just \"measure current and deflection\") reveals lack of understanding of how to isolate the coil's field from Earth's field and how to linearise the relationship.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The direction is ______ by the right-hand thumb rule: if the fingers of the right hand curl in the direction of current, the extended thumb points in the direction of the magnetic field inside the loop.",
+     "a": "determined",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: take a circular copper wire loop (like a bangle) ______ to a battery through a switch, and place a compass needle at its centre.",
+     "a": "connected",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) draw the magnetic field lines around a circular loop for a given current direction, (2) correctly apply the right-hand thumb rule to state the direction of the magnetic field at the centre and along the axis, and (3) calculate the magnitude of the magnetic field at the centre of a single-loop or multi-turn coil using.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world ______: take a circular copper wire loop (like a bangle) connected to a battery through a switch, and place a compass needle at its centre.",
+     "a": "observation",
+     "self_check": true
     }
    ]
   }

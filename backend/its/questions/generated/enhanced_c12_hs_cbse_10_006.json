@@ -34,6 +34,26 @@
      "q": "Design a one-day menu for a lactating mother (2 months postpartum, 55 kg, moderate activity) that meets ICMR 2020 RDAs for energy, protein, iron, calcium, and includes at least two traditional galactagogues. Provide gram quantities and verify totals for each nutrient.",
      "a": "Expected answer criteria: (1) Energy: ~2580 kcal (2130 + 600 + 150 for moderate activity). (2) Protein: ~78 g (55×0.83=46 + 19 + 13 for activity). (3) Iron: 30 mg. (4) Calcium: 1200 mg. (5) Menu includes 6-7 meals, uses exchange lists, specifies gram weights. (6) Galactagogues: e.g., methi seeds (fenugreek) in dal, garden cress seeds (halim) in laddoo, shatavari powder in milk, garlic in cooking. (7) Verification table showing each meal's contribution. Poor answer: uses cups/bowls not grams; omits verification; includes only one galactagogue; exceeds energy by >15%; misses iron enhancers; no snack for night feeding hunger.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Meal planning for pregnant and lactating women is the systematic design of daily diets that meet the ______ increased nutrient demands (energy, protein, iron, folic acid, calcium, iodine) of gestation and lactation while accommodating physiological changes (nausea, reduced gastric capacity, altered taste) and preventing complications (anaemia, gestational diabetes, pre-eclampsia, low birth weight).",
+     "a": "significantly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your cousin in her 28th week of ______ complains of constant heartburn, avoids milk due to bloating, and her Hb is 9.8 g/dL — how would you redesign her daily meals to deliver 35 mg iron and 1200 mg calcium without triggering reflux?",
+     "a": "pregnancy",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate trimester-specific and lactation-stage-specific nutrient requirements for a given woman's pre-pregnancy weight/activity level, translate them into a 7-day cyclic menu using ICMR food groups and exchange lists, and justify each modification (e.g., iron absorption enhancers, galactagogue inclusion, nausea.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your cousin in her 28th week of pregnancy complains of constant heartburn, avoids milk due to bloating, and her Hb is 9.8 g/dL — how would you redesign her daily meals to deliver 35 mg iron and 1200 mg calcium without ______ reflux?",
+     "a": "triggering",
+     "self_check": true
     }
    ]
   }

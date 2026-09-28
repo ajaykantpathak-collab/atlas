@@ -4,15 +4,9 @@
   {
    "id": "hemh.105.5.1",
    "title": "Properties of Square Numbers",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "square the given number using the stated square rule",
-     "explain": "square the given number using the stated square rule: sq = 37 ** 2 gives 1369",
-     "compute": "sq = 37 ** 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 37.",
@@ -50,6 +44,8 @@
    "id": "hemh.105.5.2",
    "title": "Pythagorean Triplets",
    "converted_to_compute": false,
+   "formula": "leg = (m * m - 1) / 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 37.",
@@ -87,6 +83,8 @@
    "id": "hemh.105.5.3",
    "title": "Squares as Sum of Successive Odd Numbers",
    "converted_to_compute": false,
+   "formula": "next_odd = 2 * n - 1",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 23.",
@@ -124,6 +122,8 @@
    "id": "hemh.105.5.4",
    "title": "Finding the Square of a Number",
    "converted_to_compute": false,
+   "formula": "value = a * a + 2 * a * b + b * b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 27.",
@@ -161,6 +161,8 @@
    "id": "hemh.105.5.5",
    "title": "Square Roots",
    "converted_to_compute": false,
+   "formula": "root = sqrt(number)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square root of 169.",

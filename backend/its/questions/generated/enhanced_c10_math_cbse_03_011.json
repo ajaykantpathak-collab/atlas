@@ -34,6 +34,21 @@
      "q": "Create a word problem on a two-digit number that satisfies these criteria: (a) The tens digit is twice the units digit. (b) The difference between the number and its reverse is 36. (c) The problem must have a unique valid solution with digits 0–9. Write the problem statement and solve it.",
      "a": "Problem: \"A two-digit number has its tens digit twice the units digit. The difference between the number and the number formed by reversing its digits is 36. Find the number.\" Solution: Let units = \\(x\\), tens = \\(2x\\). Number = \\(10(2x)+x = 21x\\). Reverse = \\(10x+2x = 12x\\). Difference = \\(21x - 12x = 9x = 36 \\Rightarrow x=4\\). Tens = 8, units = 4. Number = 84. Check: reverse = 48, difference = 36 ✓. A poor answer (e.g., giving a problem with no solution or multiple solutions) reveals the student cannot reverse-engineer the constraints — they lack the synthesis skill to design problems with valid digit constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Word problems on fractions and two-digit numbers are real-life situations that translate into a pair of linear equations in two variables, where the unknowns represent either the numerator and ______ of a fraction or the tens and units digits of a two-digit number.",
+     "a": "denominator",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If I add 2 to the numerator and subtract 1 from the ______, the fraction becomes 1.",
+     "a": "denominator",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently translate a word problem involving a fraction (with conditions on numerator/denominator) or a two-digit number (with conditions on digits, reversal, or sum) into a correct pair of linear equations, solve the system using any algebraic method (substitution, elimination, or cross-multiplication), and interpret.",
+     "self_check": true
     }
    ]
   }

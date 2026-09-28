@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_12_004",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_12_004",
+   "title": "c12_soc_cbse_12_004",
+   "questions": [
+    {
+     "q": "According to the NCERT, what percentage of India's workforce was employed in the primary sector (agriculture and mining) in 2018–19, and what does this imply about the sectoral distribution of the working class?",
+     "a": "In 2018–19, 42.5% of India's workforce was employed in agriculture and mining (primary sector). This implies that despite industrialisation, the largest segment of the working class remains in low-income, precarious agricultural labour rather than factory or service jobs. A wrong answer (e.g., \"majority in services\") reveals the student has not internalised the structural difference between India's employment pattern and the developed-country model where services dominate.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the contractor (mistri) system in Kanpur textile mills gave the mistri power over workers, yet also tied the mistri to community pressures. How does this dual role differ from a modern HR department?",
+     "a": "The mistri came from the same region/community as workers, so he could enforce community norms (e.g., kinship obligations) while also wielding the owner's authority to hire/fire. A modern HR department operates through impersonal, rule-based procedures and lacks this community-embedded coercion. A wrong answer that says \"mistri was just a supervisor\" misses the sociological point: pre-industrial social relations (caste, kinship) were directly mobilised for labour control, unlike bureaucratic control in formal organisations.",
+     "self_check": true
+    },
+    {
+     "q": "A software engineer in Bengaluru works 11-hour days, often stays overnight for US-client calls, and gets \"flexi-time\" that effectively means no fixed hours. Using Harry Braverman's deskilling thesis and the NCERT's description of Taylorist labour processes, analyze whether this engineer's work is \"skilled\" or \"deskilled\" compared to a traditional craftsman.",
+     "a": "Braverman argues machinery/software deskills by separating conception (planning) from execution (coding). The engineer may have high formal education, but the labour process — mandated deadlines, micromanaged \"mandays,\" peer-pressure overtime — subjects them to Taylorist control, reducing autonomy. A wrong answer equating \"high education\" with \"skilled work\" ignores the sociological definition of skill as control over the labour process, not just credential.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the working conditions of a permanent worker in a large coal mine (covered by Mines Act 1952) with a sub-contracted worker in a small quarry. Identify three specific legal protections the permanent worker has that the sub-contracted worker typically lacks, and explain why sub-contracting allows employers to evade responsibility.",
+     "a": "1) Permanent worker: guaranteed maximum weekly hours, overtime pay, safety regulations enforcement. 2) Sub-contracted worker: no maintained registers, no accident compensation, no overtime. 3) Employer evades responsibility because the contractor — not the mine owner — is legally the employer, and many contractors are unregistered/fly-by-night. A wrong answer listing only \"low wages\" misses the legal-structural mechanism: sub-contracting fragments the employment relationship to bypass labour law.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Bombay Textile Strike of 1982 failed because workers lacked solidarity.\" Use evidence from the NCERT (duration, outcome, employer response) to support or refute this claim.",
+     "a": "The strike lasted nearly two years, involved 250,000 workers, and ended only when workers were \"desperate\" — not due to lack of solidarity but due to economic survival. Employers refused to negotiate, used substitute labour, and later sold mill land for real estate. The failure reflects power asymmetry (capital mobility vs. worker immobility), not worker disunity. A wrong answer blaming workers ignores the structural imbalance the NCERT highlights: mill owners had alternative investments; workers had N/A.",
+     "self_check": true
+    },
+    {
+     "q": "Create a fictional but realistic profile of a home-based agarbatti roller in Tamil Nadu. Include: caste, gender, age, wage calculation (piece-rate), daily hours, health hazard, and one way her condition differs from a factory-based roller. Write it as a sociological vignette (4–5 sentences).",
+     "a": "A good vignette: \"Lakshmi, 38, Dalit, rolls 1,200 agarbattis/day at ₹0.50 per 100 sticks, earning ₹6/day. She works 10 hours bent over a low table in a smoke-filled room, developing chronic bronchitis. Unlike a factory roller, she has no ESI coverage, no fixed break, and the contractor deducts 'wastage' from her count.\" A poor answer omits caste/gender, uses vague wages, or fails to contrast with factory conditions — showing inability to apply the composition/wages/conditions framework.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The growth of the working class refers to the historical and sociological process through which a distinct class of wage labourers emerges, ______ by their dependence on selling labour power, and shaped by specific social composition (caste, gender, age, region), wage structures (piece-rate, time-rate, contract), and working conditions (hours, safety, job security) across formal and informal industrial sectors in India.",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 14-year-old girl rolling bidis in a ______ village in Madhya Pradesh and a 35-year-old male technician on the Maruti assembly line in Gurugram — both are \"workers\" but their daily realities are worlds apart.",
+     "a": "forested",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how caste, gender, and regional background intersect to determine a worker's position in the labour market, and can analyze how liberalisation has altered wage patterns, job security, and working conditions for different segments of the Indian working class.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 14-year-old girl rolling bidis in a forested village in Madhya Pradesh and a 35-year-old male ______ on the Maruti assembly line in Gurugram — both are \"workers\" but their daily realities are worlds apart.",
+     "a": "technician",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

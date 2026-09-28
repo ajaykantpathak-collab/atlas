@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using only trichloroacetic acid extraction, filtration, and molecular weight estimation (e.g., gel filtration) to determine whether an unknown compound X from a bacterial extract is a primary metabolite micromolecule, a primary metabolite macromolecule, or a secondary metabolite. Outline the decision logic at each step.",
      "a": "Step 1: Extract bacteria in TCA, filter. If X is in filtrate → acid-soluble (likely micromolecule, MW <1000 Da). If in pellet → acid-insoluble (likely macromolecule, MW >10,000 Da, or lipid/membrane-associated). Step 2: Estimate MW of X from its fraction. If filtrate and MW <1000 Da → candidate primary metabolite micromolecule (verify by checking if it's a known universal metabolite: amino acid, nucleotide, sugar, etc.). If pellet and MW >10,000 Da → candidate primary metabolite macromolecule (protein/nucleic acid/polysaccharide). If filtrate but MW >1000 Da OR pellet but not protein/nucleic acid/polysaccharide → candidate secondary metabolite. Step 3: Confirm by taxonomic distribution — if found only in specific taxa (e.g., antibiotics in actinomycetes, rubber in Hevea), it's secondary. A poor design misses the orthogonal nature of the two classifications or omits MW verification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ are high molecular weight (>10,000 Da) organic polymers (proteins, nucleic acids, polysaccharides) that precipitate in the acid-insoluble fraction during trichloroacetic acid extraction, while micromolecules are low molecular weight (<1000 Da) monomeric or small organic compounds (amino acids, monosaccharides, fatty acids, nucleotides) that remain in the acid-soluble filtrate; lipids, despite low molecular weight (~800 Da), co-precipitate with macromolecules due to their structural association with insoluble membrane vesicles formed during tissue homogenization.",
+     "a": "Biomacromolecules",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine grinding a fresh spinach leaf in ______ acid — you get a green slurry that separates into a clear green filtrate and a fibrous residue.",
+     "a": "trichloroacetic",
+     "self_check": true
+    },
+    {
+     "q": "What is Biomacromolecules? State the definition given in this lesson.",
+     "a": "Biomacromolecules are high molecular weight (>10,000 Da) organic polymers (proteins, nucleic acids, polysaccharides) that precipitate in the acid-insoluble fraction during trichloroacetic acid extraction, while micromolecules are low molecular weight (<1000 Da) monomeric or small organic compounds (amino acids, monosaccharides, fatty.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now ask: why do lipids, which are small (~______ Da), end up in the residue?",
+     "a": "800",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Biomacromolecules?",
+     "a": "Students believe \"macromolecule = polymer\" and \"micromolecule = monomer\" as absolute definitions.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can classify any given biomolecule as macromolecule or micromolecule based on molecular weight, solubility behavior, and polymeric nature; can explain why lipids are an exception to the molecular weight criterion; and can distinguish primary metabolites (universal, known physiological roles) from secondary metabolites.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a syringe and pressure sensor to verify the Kp–Kc relationship for the dimerisation of NO₂ at room temperature. Outline the measurements needed and the calculation steps.",
      "a": "Fill a gas syringe with NO₂, allow it to reach equilibrium (2NO₂ ⇌ N₂O₄) at constant T. Measure total pressure P_total and volume V. From the degree of dissociation α (found via colorimetry or density), calculate partial pressures and Kp. Independently, find concentrations from n/V and compute Kc. Plot ln(Kp) vs ln(Kc) or verify Kp/Kc = (RT)^(Δn_g) with Δn_g = –1. A poor answer omits constant temperature control, uses total pressure instead of partial pressures, or forgets that Δn_g = –1 for this reaction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The relationship between Kp (equilibrium constant in terms of partial pressures) and Kc (equilibrium constant in terms of molar ______) for a gaseous reaction at a given temperature is given by Kp = Kc(RT)^(Δn_g), where Δn_g is the difference between the total stoichiometric coefficients of gaseous products and gaseous reactants, R is the universal gas constant, and T is the absolute temperature.",
+     "a": "concentrations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine the Haber ______ in an Indian fertilizer plant: N₂(g) + 3H₂(g) ⇌ 2NH₃(g).",
+     "a": "process",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key observation is that when Δn_g = ______ (equal moles of gas on both sides), Kp = Kc regardless of temperature.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to derive the Kp–Kc relationship from the ideal gas law, calculate Kp from Kc (or vice versa) for any gaseous equilibrium, and correctly determine Δn_g by counting only gaseous species in the balanced chemical equation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine the Haber process in an Indian ______ plant: N₂(g) + 3H₂(g) ⇌ 2NH₃(g).",
+     "a": "fertilizer",
+     "self_check": true
     }
    ]
   }

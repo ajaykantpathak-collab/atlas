@@ -34,6 +34,31 @@
      "q": "Design a simple laboratory experiment to demonstrate that D₂O slows the rate of an acid-base reaction compared to H₂O, using the kinetic isotope effect. Specify the reaction, measurable quantity, and expected observation.",
      "a": "Reaction: hydrolysis of an ester (e.g., ethyl acetate) catalysed by DCl vs HCl in D₂O vs H₂O. Measure initial rate by titration of acetic acid produced. Expected: k_H/k_D ≈ 2–3 (primary KIE) because O–D bond cleavage in the transition state is slower than O–H. A poor design uses a reaction without proton transfer in the rate-determining step (e.g., SN2), showing no isotope effect, revealing the student does not link KIE to bond-breaking at the isotopic site.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Heavy water (D₂O) is the oxide of deuterium (²H or D), an isotope of hydrogen ______ one proton and one neutron in its nucleus, resulting in a molecular mass of approximately 20 g mol⁻¹ compared to 18 g mol⁻¹ for ordinary water (H₂O).",
+     "a": "containing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a glass of tap water — it looks ______, but hidden within is a rare \"heavy\" version.",
+     "a": "ordinary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It occurs naturally in ordinary water at an abundance of about ______% and exhibits distinct physical properties due to the isotope effect while retaining nearly identical chemical reactivity.",
+     "a": "0.0156",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) explain the structural difference between H₂O and D₂O and its impact on physical properties (density, boiling point, freezing point), (2) describe the industrial preparation of heavy water by fractional distillation/electrolysis of water and the role of the separation factor, (3) list and justify the uses of heavy.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Heavy water (D₂O) is the oxide of deuterium (²H or D), an isotope of hydrogen containing one proton and one neutron in its nucleus, resulting in a molecular mass of ______ 20 g mol⁻¹ compared to 18 g mol⁻¹ for ordinary water (H₂O).",
+     "a": "approximately",
+     "self_check": true
     }
    ]
   }

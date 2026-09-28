@@ -1,0 +1,119 @@
+{
+ "catalog": "catalog_class12_economics_ch8.json",
+ "concepts": [
+  {
+   "id": "c12eco.8.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "gdp_t_1 = 62",
+      "gdp_t_0 = 70",
+      "gdp_growth_rate = ((gdp_t_1 - gdp_t_0) / gdp_t_0) * 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "gdp_t_1 = 46",
+      "gdp_t_0 = 23",
+      "gdp_growth_rate = ((gdp_t_1 - gdp_t_0) / gdp_t_0) * 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gdp_t_1 = 10.6",
+      "gdp_t_0 = 60",
+      "gdp_growth_rate = ((gdp_t_1 - gdp_t_0) / gdp_t_0) * 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "gdp_t_1 = 60",
+      "gdp_t_0 = 67",
+      "gdp_growth_rate = ((gdp_t_1 - gdp_t_0) / gdp_t_0) * 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "gdp_t_1 = 61",
+      "gdp_t_0 = 2.4",
+      "gdp_growth_rate = ((gdp_t_1 - gdp_t_0) / gdp_t_0) * 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "gdp_t_1 = 61",
+      "gdp_t_0 = 15.7",
+      "gdp_growth_rate = ((gdp_t_1 - gdp_t_0) / gdp_t_0) * 100"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "gdp_growth_rate = ((gdp_t_1 - gdp_t_0) / gdp_t_0) * 100"
+   ]
+  },
+  {
+   "id": "c12eco.8.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "sector_output = 65",
+      "total_gdp = 70",
+      "sector_share = (sector_output / total_gdp) * 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "sector_output = 81",
+      "total_gdp = 13.4",
+      "sector_share = (sector_output / total_gdp) * 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "sector_output = 38",
+      "total_gdp = 0.5",
+      "sector_share = (sector_output / total_gdp) * 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "sector_output = 28",
+      "total_gdp = 77",
+      "sector_share = (sector_output / total_gdp) * 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "sector_output = 55",
+      "total_gdp = 76",
+      "sector_share = (sector_output / total_gdp) * 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "sector_output = 62",
+      "total_gdp = 78",
+      "sector_share = (sector_output / total_gdp) * 100"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "sector_share = (sector_output / total_gdp) * 100"
+   ]
+  }
+ ]
+}

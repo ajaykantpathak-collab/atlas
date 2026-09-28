@@ -34,6 +34,26 @@
      "q": "Create a new Boolean expression with three variables that demonstrates both the Commutative and Associative laws simultaneously. Show the step-by-step transformation from the original to the final form, labeling each step with the law used.",
      "a": "Example: Start with (A + B) + C. Step 1 (Associative): A + (B + C). Step 2 (Commutative on inner OR): A + (C + B). Step 3 (Associative): (A + C) + B. Step 4 (Commutative on outer OR): (C + A) + B. A poor answer either uses only one law, mixes AND and OR incorrectly, or fails to label steps, indicating the student cannot distinguish or chain the two laws.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ Law states that the order of Boolean variables does not affect the result of AND or OR operations: A + B = B + A and A · B = B · A.",
+     "a": "Commutative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are wiring a hallway light with two switches at either end – you want the light to turn on regardless of which switch you flip first (______) and regardless of whether you think of the switches as a pair or individually (associative).",
+     "a": "commutative",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to state both laws for AND and OR operations, apply them to rearrange and regroup terms in a Boolean expression without changing its logical value, and identify when these laws are used in simplifying logic circuits or expressions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are wiring a hallway light with two switches at either end – you want the light to turn on regardless of which switch you flip first (commutative) and regardless of whether you think of the switches as a pair or ______ (associative).",
+     "a": "individually",
+     "self_check": true
     }
    ]
   }

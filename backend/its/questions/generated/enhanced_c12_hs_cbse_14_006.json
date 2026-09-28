@@ -34,6 +34,31 @@
      "q": "Design a simple home experiment to demonstrate the critical micelle concentration (CMC) of a liquid detergent using only household items (no lab equipment). Describe the procedure, observations, and how you would estimate CMC from the data.",
      "a": "Procedure: Take 5 identical transparent glasses with 100 mL distilled water each. Add 0, 1, 2, 4, 8 drops of liquid detergent (same brand). Stir gently 10 seconds. Shine a phone torch through each glass sideways; photograph against a dark background.  \nObservations: Glass 0 — clear, no scattering. Glass 1–2 — clear (below CMC). Glass 4 — faint bluish Tyndall scattering (micelles forming). Glass 8 — strong scattering, possible foam.  \nEstimation: The lowest concentration showing visible Tyndall effect approximates CMC. Convert drops to g/L using detergent density (~1 g/mL) and drop volume (~0.05 mL). Plot scattering intensity (qualitative) vs. concentration; inflection point = CMC.  \nA poor answer that uses \"foam height\" as proxy for CMC confuses *surface tension reduction* (foam) with *micellisation* (bulk property) — a common conceptual error.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Soaps are sodium or potassium salts of long-chain fatty acids produced by the ______ of triglycerides (fats/oils) with alkali; detergents are synthetic surfactants, typically alkylbenzene sulfonates or alcohol ethoxylates, designed to mimic soap's cleaning action while remaining effective in hard water and acidic conditions.",
+     "a": "saponification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your mother choose a ______ product for a mixed load: a white cotton kurta stained with cooking oil, a coloured wool sweater with sweat marks, and a silk dupatta with food stains.",
+     "a": "laundry",
+     "self_check": true
+    },
+    {
+     "q": "What is Soaps? State the definition given in this lesson.",
+     "a": "Soaps are sodium or potassium salts of long-chain fatty acids produced by the saponification of triglycerides (fats/oils) with alkali; detergents are synthetic surfactants, typically alkylbenzene sulfonates or alcohol ethoxylates, designed to mimic soap's cleaning action while remaining effective in hard water and acidic conditions.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Soaps?",
+     "a": "Students often believe \"detergent is just synthetic soap\" and that the only difference is hard-water tolerance.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) draw the general structure of a soap and a detergent molecule labeling hydrophobic tail and hydrophilic head, (2) explain micelle formation and emulsification of oily dirt, (3) compare the behaviour of soaps and detergents in hard water, soft water, and acidic media, and (4) select the appropriate cleansing agent for.",
+     "self_check": true
     }
    ]
   }

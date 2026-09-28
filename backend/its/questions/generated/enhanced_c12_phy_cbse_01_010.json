@@ -34,6 +34,26 @@
      "q": "Design a thought experiment to verify that the electric field of an infinite plane sheet is independent of distance, using only a small test charge, a force sensor, and the ability to move the test charge perpendicular to the sheet. Describe the procedure, the expected graph of force vs. distance, and what deviation would imply the sheet is not truly infinite.",
      "a": "Procedure: Place the test charge at various distances x from the sheet (e.g., 1 cm, 2 cm, 5 cm, 10 cm) along a perpendicular line. Measure the electrostatic force F at each distance using the force sensor. Plot F vs. x. For an infinite sheet, the graph should be a horizontal line (constant force). If the sheet is finite, the force will decrease as x becomes comparable to the sheet's dimensions (edge effects). A deviation from constant force at large x indicates the sheet is not infinite. A poor answer that suggests measuring field at different angles, or expects a 1/x² graph, reveals confusion with point charge or wire fields.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The electric field due to an infinitely large, uniformly charged plane sheet with surface charge density σ is uniform in magnitude and direction at all points in space, ______ of distance from the sheet.",
+     "a": "independent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a large metal plate on a laboratory table that has been given a ______ static charge by rubbing.",
+     "a": "uniform",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) choose an appropriate Gaussian surface (rectangular parallelepiped or cylinder) for an infinite plane sheet and justify the choice using symmetry arguments; (2) correctly compute the electric flux through each face of the Gaussian surface, identifying which faces contribute zero flux and why; (3) apply.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a large metal plate on a ______ table that has been given a uniform static charge by rubbing.",
+     "a": "laboratory",
+     "self_check": true
     }
    ]
   }

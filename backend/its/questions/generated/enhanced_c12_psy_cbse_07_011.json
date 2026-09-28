@@ -1,0 +1,71 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_07_011",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_07_011",
+   "title": "c12_psy_cbse_07_011",
+   "questions": [
+    {
+     "q": "Define group polarisation in one sentence and state whether it always leads to riskier decisions.",
+     "a": "Group polarisation is the strengthening of a group's initial position through discussion, making the final decision more extreme than the average pre-discussion opinion. It does NOT always lead to riskier decisions; the shift can be toward caution (cautious shift) if the initial leaning is conservative. A wrong answer that equates polarisation with \"risky shift\" reveals the student confuses the historical term with the broader phenomenon.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Group polarisation happens because people want to be liked, so they conform to the majority.\" Identify which of the three NCERT-explained mechanisms this describes and what is missing.",
+     "a": "The statement describes the social comparison / bandwagon mechanism (\"you feel that this view is validated by the public\"). It misses the persuasive arguments mechanism (hearing novel arguments) and the self-categorisation mechanism (identifying with ingroup and conforming to its prototype). A wrong answer that says \"this is the only reason\" shows the student has not differentiated the three distinct processes.",
+     "self_check": true
+    },
+    {
+     "q": "A jury initially leans 7-5 toward \"not guilty.\" After deliberation, the vote becomes 11-1 for \"not guilty.\" Using the persuasive arguments theory, explain why the shift occurred even though no new evidence was introduced.",
+     "a": "During deliberation, the majority members generated novel arguments supporting \"not guilty\" that the minority had not considered. Because arguments are pooled, the total argument set becomes skewed toward the initial majority position, shifting each member's attitude. A wrong answer that attributes the shift solely to \"pressure to conform\" ignores the informational influence central to persuasive arguments theory.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast group polarisation and groupthink on: (a) role of cohesiveness, (b) quality of decision outcome, (c) presence of dissent.",
+     "a": "(a) Both require cohesiveness, but groupthink needs high cohesiveness + isolation + directive leadership; polarisation can occur in any cohesive group discussing a relevant attitude. (b) Groupthink produces defective decisions (ignoring warnings); polarisation produces extreme decisions that may be better or worse than individual judgments. (c) Groupthink suppresses dissent; polarisation may allow dissent but the majority arguments overwhelm it. A wrong answer that says \"both suppress dissent\" misses that polarisation can occur with open discussion.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Group polarisation can be prevented by ensuring the group has diverse initial opinions.\"",
+     "a": "The claim is partially true but insufficient. Diverse initial opinions (bimodal distribution) can reduce polarisation because there is no single dominant tendency to amplify. However, if subgroups form and discuss separately (e.g., pro- and anti-capital punishment groups in Activity 7.3), each subgroup polarises internally. True prevention requires structured debate formats (devil's advocate, dialectical inquiry) that force consideration of counter-arguments. A wrong answer that says \"diversity always prevents polarisation\" ignores subgroup polarisation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 10-minute classroom activity that demonstrates group polarisation without using attitude scales. Specify the topic, grouping method, and how you will measure the shift.",
+     "a": "Topic: \"Should homework be banned?\" (relevant to students). Method: (1) Private ballot: each student rates 1-7 (1=strongly keep, 7=strongly ban). (2) Form two groups based on median split (pro-ban vs. pro-keep). (3) Each group discusses for 7 minutes. (4) Private re-ballot. Measure shift: compare pre- and post-discussion means for each group. Polarisation is shown if pro-ban group mean increases and pro-keep group mean decreases. A poor answer that uses a single mixed group and only one ballot cannot detect polarisation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Group ______ is the tendency for group discussion to strengthen the group's initial position, shifting individual attitudes toward a more extreme version of the pre-discussion consensus, rather than moving toward a moderate middle ground.",
+     "a": "polarisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your class WhatsApp group ______ whether the school should cancel the upcoming exam.",
+     "a": "discussing",
+     "self_check": true
+    },
+    {
+     "q": "What is Group polarisation? State the definition given in this lesson.",
+     "a": "Group polarisation is the tendency for group discussion to strengthen the group's initial position, shifting individual attitudes toward a more extreme version of the pre-discussion consensus, rather than moving toward a moderate middle ground.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: After ______ minutes of back-and-forth messages, the group unanimously demands cancellation and threatens to boycott.",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Group polarisation?",
+     "a": "Students often confuse group polarisation with groupthink because both involve groups making extreme/poor decisions.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) distinguish group polarisation from groupthink and social loafing using the direction of attitude shift and decision extremity, and (2) apply the three explanatory mechanisms (persuasive arguments, social comparison, self-categorisation) to predict whether a given group discussion will polarise or.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

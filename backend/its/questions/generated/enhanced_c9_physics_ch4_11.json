@@ -34,6 +34,31 @@
      "q": "A student claims: \"If no work is done on an object, its kinetic energy is zero.\" Evaluate this statement.",
      "a": "The statement is incorrect. The Work-Energy Theorem says W_net = delta_KE (change in kinetic energy), not W_net = KE (kinetic energy itself). If no work is done (W_net = 0), then delta_KE = 0, meaning the kinetic energy does not change — the object continues at the same velocity. An object moving at constant velocity has non-zero kinetic energy but zero change in kinetic energy, so zero net work. A wrong evaluation (agreeing with the student) confuses \"change in KE\" with \"KE itself.\"",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Work-Energy ______ states that the net work done by all forces acting on a body equals the change in its kinetic energy: W_net = delta_KE = (1/2)mv^2 - (1/2)mu^2, where m is mass, v is final velocity, and u is initial velocity.",
+     "a": "Theorem",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You did work on the box — you applied a force over a ______.",
+     "a": "distance",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine pushing a box from rest until it reaches ______ m/s.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can state the Work-Energy Theorem, calculate net work from force and displacement, calculate change in kinetic energy from initial and final velocities, and apply the theorem to solve problems.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ pushing a box from rest until it reaches 5 m/s.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

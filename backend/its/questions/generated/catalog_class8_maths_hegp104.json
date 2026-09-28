@@ -4,15 +4,9 @@
   {
    "id": "hegp.104.4.1",
    "title": "Rectangle and Its Diagonals",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the quadrilateral property to compute the value",
-     "explain": "use the quadrilateral property to compute the value: adj = 180 - 50 gives 130",
-     "compute": "adj = 180 - 50"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "rectangle: all angles 90 degrees, opposite sides equal, diagonals equal and bisecting",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a parallelogram one angle is 50 degrees. Find the adjacent angle.",
@@ -41,7 +35,7 @@
     },
     {
      "q": "A kite has one pair of equal angles. If the angle between the unequal sides is 40 degrees and the kite is symmetric, the sum of the two equal opposite angles is 360 - 40 - the other given angle of 80 degrees. Find the sum of the two equal angles.",
-     "a": "240",
+     "a": "280",
      "self_check": false
     }
    ]
@@ -50,6 +44,8 @@
    "id": "hegp.104.4.2",
    "title": "Angle Sum of a Quadrilateral",
    "converted_to_compute": false,
+   "formula": "fourth_angle = 360 - angle_a - angle_b - angle_c",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 43 degrees, find the other.",
@@ -86,15 +82,9 @@
   {
    "id": "hegp.104.4.3",
    "title": "Parallelogram",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 43 gives 47",
-     "compute": "other = 90 - 43"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "parallelogram: opposite sides parallel and equal, opposite angles equal",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 43 degrees, find the other.",
@@ -132,6 +122,8 @@
    "id": "hegp.104.4.4",
    "title": "Rhombus and Its Angles",
    "converted_to_compute": false,
+   "formula": "half_angle = (180 - given_angle) / 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 31 degrees, find the other.",
@@ -168,15 +160,9 @@
   {
    "id": "hegp.104.4.5",
    "title": "Kite",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the quadrilateral property to compute the value",
-     "explain": "use the quadrilateral property to compute the value: adj = 180 - 120 gives 60",
-     "compute": "adj = 180 - 120"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "kite: AB = BC and CD = DA (adjacent equal pairs)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a parallelogram one angle is 120 degrees. Find the adjacent angle.",
@@ -205,7 +191,7 @@
     },
     {
      "q": "A kite has one pair of equal angles. If the angle between the unequal sides is 60 degrees and the kite is symmetric, the sum of the two equal opposite angles is 360 - 60 - the other given angle of 80 degrees. Find the sum of the two equal angles.",
-     "a": "220",
+     "a": "240",
      "self_check": false
     }
    ]
@@ -214,6 +200,8 @@
    "id": "hegp.104.4.6",
    "title": "Trapezium and Co-interior Angles",
    "converted_to_compute": false,
+   "formula": "co_angle = 180 - given_angle",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 22 degrees, find the other.",

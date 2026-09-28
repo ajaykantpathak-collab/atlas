@@ -34,6 +34,26 @@
      "q": "Design a 3-column table for a Class 12 presentation: Column A = Manual Accounting Pain Point, Column B = NCERT CAS Advantage that solves it, Column C = Underlying Security/Feature (from Section 1.5 or 1.3) enabling that advantage. Fill 5 rows — one per advantage.",
      "a": "Expected table (row order matches NCERT 1.6 sequence):\n| Manual Pain Point | CAS Advantage (Sec 1.6) | Enabling Feature (Sec 1.3/1.5) |\n|---|---|---|\n| Month-end reports take weeks | Timely generation of reports | Pre-defined templates (1.3.3) + integrated modules (1.3.1) |\n| Physical ledgers lost/damaged | Efficient record keeping | Digital storage + Data Vault encryption (1.5) |\n| Unauthorised edits undetected | Effective control | Data Audit trail (1.5) + Password Security (1.5) |\n| High clerk cost per transaction | Economy in processing | Scalability (1.3.4) + single-operator workflow |\n| Competitor sees profit margins | Confidentiality of data | Role-based Password + Encryption (1.5) |\nA poor answer lists generic features (“software”, “computer”) in Column C without tying to specific Section 1.3/1.5 mechanisms — indicating rote memorisation without structural mapping.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Advantages of Computerised Accounting System (CAS) refer to the five core benefits — timely reporting, efficient record-keeping, effective control, processing economy, and data ______ — that arise from processing accounting transactions through integrated hardware and software, replacing manual book-keeping with automated, secure, and scalable digital workflows.",
+     "a": "confidentiality",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small Delhi-based wholesale garment ______.",
+     "a": "business",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) list all five NCERT-stated advantages of CAS with one-line practical illustrations for each, and (2) explain how any two advantages directly address specific limitations of manual accounting (e.g., human error, delayed reports, physical file vulnerability).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small Delhi-based ______ garment business.",
+     "a": "wholesale",
+     "self_check": true
     }
    ]
   }

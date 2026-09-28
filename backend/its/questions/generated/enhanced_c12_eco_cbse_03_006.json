@@ -34,6 +34,21 @@
      "q": "Construct a numerical example (table with Q=1 to 6) where AC falls for first 3 units, is minimum at Q=4, and rises thereafter. Show corresponding TC and MC values that satisfy the AC-MC relationship at every step.",
      "a": "Example: Q=1: TC=50, AC=50, MC=50; Q=2: TC=90, AC=45, MC=40 (MC<AC, AC falls); Q=3: TC=120, AC=40, MC=30 (MC<AC, AC falls); Q=4: TC=160, AC=40, MC=40 (MC=AC, minimum AC); Q=5: TC=210, AC=42, MC=50 (MC>AC, AC rises); Q=6: TC=270, AC=45, MC=60 (MC>AC, AC rises). A poor answer (e.g., MC not matching ΔTC/ΔQ, or MC>AC while AC falls) shows inability to maintain consistency between total, average, and marginal concepts.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ between Average Cost (AC) and Marginal Cost (MC) curves states that when MC is less than AC, AC falls; when MC is greater than AC, AC rises; and MC intersects AC at the minimum point of AC.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Your ______ cost per thali is ₹80 when you serve 50 thalis daily.",
+     "a": "average",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) draw correctly shaped AC and MC curves showing the intersection at AC's minimum, (2) explain why MC must cross AC at its minimum using the \"average-marginal\" principle, and (3) predict the direction of AC given MC's position relative to it for any output level.",
+     "self_check": true
     }
    ]
   }

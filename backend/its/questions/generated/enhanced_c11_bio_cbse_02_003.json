@@ -34,6 +34,36 @@
      "q": "A microbiologist observes that a population of E. coli has acquired antibiotic resistance without prior exposure to the antibiotic. Propose two mechanisms that could explain this, and design an experiment to distinguish between them.",
      "a": "Mechanism 1: Conjugation — a resistant donor cell transferred the resistance gene (on a plasmid, e.g., R-factor) to the recipient via a pilus. Mechanism 2: Transformation — the recipient took up free DNA containing the resistance gene from lysed resistant cells in the environment. Experiment: (a) Plate recipient cells alone with lysed donor extract (tests transformation). (b) Mix live donor and recipient cells with a filter preventing direct contact (tests transformation only). (c) Mix live donor and recipient cells without a filter (tests conjugation + transformation). If resistance appears only in (c), it is conjugation. If it appears in (a) and (b), it is transformation. If only in (c), it is conjugation. A wrong answer that only proposes \"mutation\" reveals the student is not thinking about horizontal gene transfer.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Bacteria are prokaryotic, unicellular ______ lacking a true nucleus and membrane-bound organelles, characterised by a cell wall made of peptidoglycan, a nucleoid region containing circular DNA, plasmids, and reproduction primarily through binary fission under favourable conditions.",
+     "a": "microorganisms",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now ask: what ______ does a bacterium actually have?",
+     "a": "structures",
+     "self_check": true
+    },
+    {
+     "q": "What is Bacteria? State the definition given in this lesson.",
+     "a": "Bacteria are prokaryotic, unicellular microorganisms lacking a true nucleus and membrane-bound organelles, characterised by a cell wall made of peptidoglycan, a nucleoid region containing circular DNA, plasmids, and reproduction primarily through binary fission under favourable conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Under electron microscopy, identify: cell wall (peptidoglycan), plasma membrane, nucleoid (circular DNA), ______S ribosomes, plasmids (small DNA loops), mesosomes (infolded membrane), flagella (motility), and pili (conjugation).",
+     "a": "70",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Bacteria?",
+     "a": "Students believe endospore formation is a form of reproduction because \"a new structure forms from the cell.\" The error is conflating survival structures with reproductive output.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can diagram and label the structural components of a bacterial cell (cell wall, plasma membrane, cytoplasm, nucleoid, ribosomes, plasmids, mesosomes, flagella, pili), explain the function of each structure, and describe the three modes of bacterial reproduction (binary fission, endospore formation, and genetic recombination.",
+     "self_check": true
     }
    ]
   }

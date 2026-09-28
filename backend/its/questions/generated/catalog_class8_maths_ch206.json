@@ -5,6 +5,8 @@
    "id": "hegp.6.2.1",
    "title": "Date Trick Decoding",
    "converted_to_compute": false,
+   "formula": "code = answer - 165, month = code // 100, day = code % 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "For the digits 9, 7, 2, 7 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
@@ -42,6 +44,8 @@
    "id": "hegp.6.3.1",
    "title": "Three-Row Number Pyramid Top Value",
    "converted_to_compute": false,
+   "formula": "top = a + 2*b + c",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "For the digits 2, 9, 6, 3 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
@@ -79,6 +83,8 @@
    "id": "hegp.6.3.2",
    "title": "Four-Row Number Pyramid Top Value",
    "converted_to_compute": false,
+   "formula": "top = a + 3*b + 3*c + d",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "For the digits 6, 6, 1, 1 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
@@ -116,6 +122,8 @@
    "id": "hegp.6.4.1",
    "title": "Calendar 2x2 Grid Analysis",
    "converted_to_compute": false,
+   "formula": "top_left = (grid_sum - 16) / 4",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "For the digits 4, 4, 6, 8 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
@@ -153,6 +161,8 @@
    "id": "hegp.6.5.1",
    "title": "Maximizing Product of 2-Digit by 1-Digit Number",
    "converted_to_compute": false,
+   "formula": "max_product = (10 * q + p) * r",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "The digits of the 2-digit number 91 are swapped to make 19. Find the difference between the two numbers using 9 x |a - b|.",
@@ -190,6 +200,8 @@
    "id": "hegp.6.6.1",
    "title": "Difference of Reversed Two-Digit Numbers",
    "converted_to_compute": false,
+   "formula": "diff = 9 * abs(b - a), quotient = abs(b - a)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "The digits of the 2-digit number 23 are swapped to make 32. Find the difference between the two numbers using 9 x |a - b|.",
@@ -227,6 +239,8 @@
    "id": "hegp.6.6.2",
    "title": "Sum of Reversed Two-Digit Numbers",
    "converted_to_compute": false,
+   "formula": "sum_val = 11 * (a + b)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "The digits of the 2-digit number 38 are swapped to make 83. Find the difference between the two numbers using 9 x |a - b|.",
@@ -264,6 +278,8 @@
    "id": "hegp.6.6.3",
    "title": "Cyclic Sum of Three-Digit Numbers",
    "converted_to_compute": false,
+   "formula": "cyclic_sum = 111 * (a + b + c)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "The digits of the 2-digit number 95 are swapped to make 59. Find the difference between the two numbers using 9 x |a - b|.",

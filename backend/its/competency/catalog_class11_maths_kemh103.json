@@ -14,7 +14,7 @@
    "key_idea": "radians = degrees * pi / 180",
    "textbook_ref": "Radian measure makes arc length equal to radius times the angle, which simplifies formulas of trigonometry and calculus.",
    "question_patterns": "kemh103.txt angles and radian measure sections",
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -31,7 +31,16 @@
      "action": "state the conclusion",
      "explain": "Summarise the answer with the key terms of the chapter."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 52 gives 38",
+     "compute": "other = 90 - 52"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.103.2.1",
@@ -49,7 +58,7 @@
     "write the values of trigonometric functions at standard angles",
     "state complementary angle identities of trigonometry"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -66,7 +75,16 @@
      "action": "state the conclusion",
      "explain": "Summarise the answer with the key terms of the chapter."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute into the identity and simplify",
+     "explain": "substitute into the identity and simplify: val = (12 / 20) ** 2 + (16 / 20) ** 2 gives 1",
+     "compute": "val = (12 / 20) ** 2 + (16 / 20) ** 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.103.3.1",
@@ -84,7 +102,7 @@
     "find the value of sin fifteen degrees using formulas",
     "explain the general solution of sin x equals zero"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -101,7 +119,16 @@
      "action": "state the conclusion",
      "explain": "Summarise the answer with the key terms of the chapter."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the simple or compound interest formula",
+     "explain": "apply the simple or compound interest formula: si = 8000 * 8 * 4 / 100 gives 2560",
+     "compute": "si = 8000 * 8 * 4 / 100"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [],

@@ -34,6 +34,26 @@
      "q": "**CREATE:** Design a one‑page “Apgar Quick‑Reference Card” for a delivery‑room nurse that includes (a) the five criteria with 0/1/2 descriptors, (b) the clinical action triggered by each total score range (0‑3, 4‑6, 7‑10), and (c) a reminder that the score is **not** a predictor of long‑term outcome.",
      "a": "**Expected answer:** A clear table with columns: Criterion | Score 0 | Score 1 | Score 2. Below it, three coloured boxes: **Red (0‑3) → Full resuscitation (PPV, chest compressions, epinephrine)**, **Yellow (4‑6) → Stimulation, O₂, reposition**, **Green (7‑10) → Routine care (dry, warm, skin‑to‑skin)**. A bold footer: “Apgar = communication tool, not prognosis.”  \n**What a poor answer reveals:** Missing the action boxes shows the student doesn’t connect score to **clinical decision‑making**. Omitting the “not a prognosis” reminder perpetuates the misconception addressed in Q5.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The birth process is the sequence of ______ events — labor (dilation, expulsion, placental delivery) — that transitions the fetus to extrauterine life.",
+     "a": "physiological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a student nurse in a ______ room: a baby is born, the clock starts, and you have 60 seconds to tell the team whether this newborn is “pink and crying” or “blue and limp.” That urgency is exactly why Virginia Apgar created her score.",
+     "a": "delivery",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a student nurse in a delivery room: a baby is born, the clock starts, and you have ______ seconds to tell the team whether this newborn is “pink and crying” or “blue and limp.” That urgency is exactly why Virginia Apgar created her score.",
+     "a": "60",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) describe the three stages of labor with key physiological events, (2) list the five Apgar criteria and the exact observations for scores 0, 1, 2 for each, (3) calculate the total Apgar score from a clinical vignette, and (4) interpret the score to decide whether the newborn requires routine care.",
+     "self_check": true
     }
    ]
   }

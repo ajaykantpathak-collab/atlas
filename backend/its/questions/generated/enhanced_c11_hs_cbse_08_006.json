@@ -34,6 +34,36 @@
      "q": "Design a new low-cost complementary food formulation for a tribal community in Odisha where the staple cereals are ragi and rice, the pulse is horse gram (kulthi), the oilseed is niger seed (ramtil), and jaggery is available. Specify the ratio (in simplest whole-number form), name your formulation, and write a 3-sentence nutritional justification referencing energy density, protein quality, and iron/calcium content.",
      "a": "Formulation name: \"Shakti Mix\". Ratio: Ragi : Rice : Horse gram : Niger seed : Jaggery = 3 : 2 : 2 : 1 : 2 (total 10 parts). Justification: Ragi (328 kcal, 7.3g protein, 344mg Ca, 3.9mg Fe/100g) and rice provide carbohydrate base; horse gram (22g protein, 6.8mg Fe) and niger seed (24g protein, 57mg Ca, 8.5mg Fe) create mutual amino acid supplementation (cereal lysine-limitation corrected by pulse; pulse methionine-limitation corrected by cereal/oilseed); the combination delivers ~380 kcal and 13g protein/100g with exceptional iron (>6mg) and calcium (>200mg) density – addressing the high anaemia and rickets prevalence in tribal preschoolers. A poor answer would use generic ratios (e.g., 1:1:1:1:1) without justifying how the specific local ingredients solve the community's documented nutrient gaps.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Low-cost ______ foods are nutrient-dense, home-prepared mixtures made from locally available cereals, pulses, oilseeds, and jaggery/sugar in specific ratios, designed to meet the energy and protein requirements of infants (6-12 months) when breast milk alone becomes insufficient, while being affordable and culturally acceptable for low-income families.",
+     "a": "complementary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a community health worker visiting a village where mothers cannot afford ______ baby cereals like Cerelac.",
+     "a": "commercial",
+     "self_check": true
+    },
+    {
+     "q": "What is Low-cost complementary foods? State the definition given in this lesson.",
+     "a": "Low-cost complementary foods are nutrient-dense, home-prepared mixtures made from locally available cereals, pulses, oilseeds, and jaggery/sugar in specific ratios, designed to meet the energy and protein requirements of infants (6-12 months) when breast milk alone becomes insufficient, while being affordable and culturally acceptable.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A mother asks: \"What can I make at home from my kitchen grains that will help my ______-month-old grow well?\" You begin by identifying the staple cereal in that region (wheat, rice, ragi, or bajra), then select a pulse (bengal gram, green gram) and an oilseed (groundnut, sesame) available locally.",
+     "a": "8",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Low-cost complementary foods?",
+     "a": "Students believe \"low-cost complementary food\" means simply mixing any available grains and pulses in equal proportions (e.g., \"1 cup rice + 1 cup dal + 1 cup groundnut\").",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate ingredient proportions for any two standard low-cost complementary food formulations (e.g., Balahar, Win food) given a target batch size, and justify the nutritional rationale for each ingredient's inclusion based on ICMR infant RDAs.",
+     "self_check": true
     }
    ]
   }

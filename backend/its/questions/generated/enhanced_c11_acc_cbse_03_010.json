@@ -34,6 +34,31 @@
      "q": "Design a compound journal entry (minimum 3 accounts) for a transaction where a business purchases a delivery van for ₹8,00,000, paying ₹2,00,000 by cheque and the balance on credit. Then write the exact ledger posting for the Delivery Van Account and the Creditor's Account.",
      "a": "Journal: Delivery Van A/c Dr. 8,00,000 To Bank A/c 2,00,000 To Creditor (Supplier) A/c 6,00,000.  \nDelivery Van Account (Dr.): Date | Particulars: \"Bank\" (₹2,00,000), \"Creditor\" (₹6,00,000) | J.F. | Amounts.  \nCreditor Account (Cr.): Date | Particulars: \"Delivery Van\" | J.F. | Amount: ₹6,00,000.  \nA poor answer writes \"Cash\" instead of \"Bank\", or puts \"Delivery Van\" in its own Particulars, or omits the split particulars on the debit side.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Posting is the systematic process of ______ journal entries to their respective ledger accounts, ensuring each transaction's dual effect is recorded in the appropriate debit and credit sides of the affected accounts to maintain the accounting equation's balance.",
+     "a": "transferring",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you've just ______ a week's transactions in your journal — now your manager asks, \"How much does M/s Gulmohar Fashion House owe us?\" You cannot answer from the journal because transactions are scattered chronologically.",
+     "a": "recorded",
+     "self_check": true
+    },
+    {
+     "q": "What is Posting? State the definition given in this lesson.",
+     "a": "Posting is the systematic process of transferring journal entries to their respective ledger accounts, ensuring each transaction's dual effect is recorded in the appropriate debit and credit sides of the affected accounts to maintain the accounting equation's balance.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Posting?",
+     "a": "Students believe the Particulars column in a ledger account should repeat the account's own name (e.g., writing \"Furniture\" in Furniture Account).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must independently post a compound journal entry involving at least three accounts to the correct ledger accounts, including proper date, particulars (naming the corresponding account), journal folio (J.F.), and amount, while maintaining the debit-credit equality across all posted accounts.",
+     "self_check": true
     }
    ]
   }

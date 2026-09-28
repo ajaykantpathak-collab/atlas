@@ -23,7 +23,7 @@
     "which expression is not linear",
     "what is the highest power of the variable in a linear equation"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -40,7 +40,16 @@
      "action": "check the equality sign",
      "explain": "Equations use the equality sign; expressions without = are not equations"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the exponent law to the given powers",
+     "explain": "apply the exponent law to the given powers: val = 5 ** (3 + 2) gives 3125",
+     "compute": "val = 5 ** (3 + 2)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c8m2.1.2",
@@ -178,7 +187,7 @@
     "solve by multiplying both sides by the LCM",
     "clear the fractions and solve for x"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -200,7 +209,16 @@
      "action": "solve the linear equation",
      "explain": "Transpose and divide by the coefficient of x"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
+     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 2 * 1 gives 2",
+     "compute": "hcf = 2 * 1"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c8m2.3.2",
@@ -219,7 +237,7 @@
     "solve equation with brackets",
     "open the brackets and solve for x"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -241,7 +259,16 @@
      "action": "divide by the coefficient of x",
      "explain": "x = constant / x coefficient"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 6 + 7 gives 25",
+     "compute": "val = 3 * 6 + 7"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

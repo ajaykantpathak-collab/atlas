@@ -34,6 +34,26 @@
      "q": "Create a short dialogue (4-6 lines) between two different animals (e.g., an owl and a squirrel) discussing an approaching human, ensuring their dialogue reflects distinct speech patterns and concerns unique to their species.",
      "a": "The expected answer should feature two animals using species-specific concerns (e.g., the owl mentioning flight paths and night vision, the squirrel chattering about hidden acorns and tree canopy routes) with distinct punctuation and rhythm indicating their \"language.\" A poor answer simply puts human words into an animal's mouth without reflecting any unique species behavior or linguistic traits.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The literary concept that non-human animals possess their own structured systems of ______—comprising distinct vocalizations, body postures, and scent signals—which function as fully realized languages unique to their species.",
+     "a": "communication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever watched your pet dog or cat make completely different ______ when a stranger knocks at the door versus when you open a packet of biscuits?",
+     "a": "sounds",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Students must be able to analyze how characters in a literary text recognize, interpret, and validate animal communication, distinguishing between mere animal noise and systematic language with rules, syntax, and meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever watched your pet dog or cat make ______ different sounds when a stranger knocks at the door versus when you open a packet of biscuits?",
+     "a": "completely",
+     "self_check": true
     }
    ]
   }

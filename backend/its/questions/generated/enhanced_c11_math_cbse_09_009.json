@@ -34,6 +34,21 @@
      "q": "Create a real-world problem (with numbers) that can be solved using the AM-GM inequality for two numbers. Provide the problem statement and a brief solution outline.",
      "a": "Example problem: \"A rectangular garden has a fixed perimeter of 40 m. Find the dimensions that maximise the area.\"  \nSolution: Let sides be \\(x\\) and \\(y\\). Perimeter \\(2(x+y)=40 \\Rightarrow x+y=20\\). Area \\(A=xy\\). By AM-GM, \\(\\frac{x+y}{2} \\ge \\sqrt{xy} \\Rightarrow 10 \\ge \\sqrt{A} \\Rightarrow A \\le 100\\). Equality when \\(x=y=10\\). So maximum area 100 m² for a square of side 10 m.  \nA poor answer (e.g., a problem that doesn't fit AM-GM, or incorrect application) reveals the student cannot construct a scenario where a sum is fixed and product is to be maximised (or vice versa).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer has 100 metres of fencing wire and wants to make a ______ enclosure with the maximum possible area.",
+     "a": "rectangular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer has ______ metres of fencing wire and wants to make a rectangular enclosure with the maximum possible area.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state and prove the AM-GM inequality for two positive numbers, apply it to solve optimization problems (e.g., find minimum value of a sum given a constant product, or maximum product given a constant sum), and extend the reasoning to n numbers using the given statement.",
+     "self_check": true
     }
    ]
   }

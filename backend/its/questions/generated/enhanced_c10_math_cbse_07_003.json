@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (Indian context: rupees, metres, school scenario) where finding distance between two points on the same axis is essential to solve it. The problem must require at least 3 steps and combine this concept with either section formula or area of triangle.",
      "a": "Example: \"A school ground is rectangular with corners at O(0,0), A(60,0), B(60,40), C(0,40) in metres. A flag pole is at F(20,0) on the x-axis. A water tank is at T(50,0) on the x-axis. A first-aid post is to be built at the midpoint of FT. Find: (i) distance FT, (ii) coordinates of first-aid post, (iii) distance from first-aid post to corner B.\" Steps: (i) FT = |50−20| = 30 m, (ii) midpoint = (35, 0), (iii) distance to B(60,40) = √[(60−35)² + (40−0)²] = √[625+1600] = √2225 = 5√89 m. A poor problem would only ask for FT without combining concepts, or would place points off axes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The distance between two points lying on the same axis (x-axis or y-axis) is the absolute difference of their non-zero ______.",
+     "a": "coordinates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ at the school gate (0, 0) and your friend is at the canteen located 50 metres east on the same road (x-axis).",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight: on an axis, distance reduces to ______D measurement along that axis.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly compute distances between points on the x-axis or y-axis using absolute difference, identify when this simplified method applies versus the full distance formula, and solve board-exam problems involving points on axes combined with section formula or area of triangle concepts.",
+     "self_check": true
     }
    ]
   }

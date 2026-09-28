@@ -34,6 +34,26 @@
      "q": "Design a simple classroom model using a table lamp, a small globe, and a sticker to demonstrate to a younger student how time zones work between India and the USA during the rotation of the Earth.",
      "a": "Criteria for a good answer: Place the lamp on a table to represent the Sun, stick one label on India and one on the USA on the globe, and slowly rotate the globe counter-clockwise (west to east). Show that when India faces the lamp (day), the USA is facing away (night), demonstrating that different longitudes experience different local times as the Earth rotates. A poor answer fails to show the west-to-east direction of rotation or incorrectly places both countries on the same illuminated side.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The rotation of the Earth is the spinning of the Earth on its imaginary axis from west to east, completing one full rotation in ______ 24 hours, which causes the cycle of day and night.",
+     "a": "approximately",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how a ceiling fan spins around a fixed central metal rod in your ______.",
+     "a": "classroom",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The rotation of the Earth is the spinning of the Earth on its imaginary axis from west to east, completing one full rotation in approximately ______ hours, which causes the cycle of day and night.",
+     "a": "24",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can explain how the Earth's rotation on its axis creates day and night by demonstrating which side faces the Sun and which side faces away from the Sun using a model.",
+     "self_check": true
     }
    ]
   }

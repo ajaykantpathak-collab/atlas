@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a rubber stopper, string, and hanging masses to verify the relationship \\(F_c \\propto v^2\\) for uniform circular motion. List the independent, dependent, and controlled variables, and describe how you would measure the speed.",
      "a": "Independent variable: hanging mass (provides \\(F_c = mg\\)). Dependent variable: orbital speed \\(v\\) (or period \\(T\\)). Controlled variables: radius \\(r\\) (fixed by string length below tube), mass of stopper. Procedure: Whirl the stopper horizontally so the hanging mass stays stationary; measure time for 20 revolutions to find \\(T\\); compute \\(v = \\frac{2\\pi r}{T}\\). Repeat for different hanging masses. Plot \\(F_c\\) vs \\(v^2\\) — a straight line through origin verifies \\(F_c \\propto v^2\\). A poor answer (e.g., varying radius instead of mass, or measuring speed incorrectly) reveals inability to identify variables and connect force to measurable quantities.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Uniform circular motion is the motion of an object ______ at a constant speed along a circular path.",
+     "a": "traveling",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan in your classroom: the blades move in a circle at steady speed, yet they ______ a force pulling them inward toward the motor.",
+     "a": "experience",
+     "self_check": true
+    },
+    {
+     "q": "What is Uniform circular motion? State the definition given in this lesson.",
+     "a": "Uniform circular motion is the motion of an object traveling at a constant speed along a circular path.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Uniform circular motion?",
+     "a": "Students believe a real \"centrifugal force\" pushes the object outward during circular motion.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate centripetal acceleration and force for an object in uniform circular motion given radius and speed or period, explain why velocity changes despite constant speed, and distinguish between centripetal and centrifugal effects in a rotating reference frame.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,46 @@
+{
+ "catalog": "enhanced_c6_gram_cbse_80_002",
+ "concepts": [
+  {
+   "id": "enh:c6_gram_cbse_80_002",
+   "title": "c6_gram_cbse_80_002",
+   "questions": [
+    {
+     "q": "Classify: 'What a beautiful painting this is!'",
+     "a": "Exclamatory — it exclaims admiration, it does not ask. A wrong answer 'interrogative' reveals the student reads 'what' as question-automatic — the exclamation mark and the admiring tone are the real signals.",
+     "self_check": true
+    },
+    {
+     "q": "Convert to interrogative: 'She finished the puzzle.'",
+     "a": "'Did she finish the puzzle?' A wrong answer 'She finished the puzzle?' relies on intonation alone — boards want the proper inverted form.",
+     "self_check": true
+    },
+    {
+     "q": "Which is imperative: 'The window is open' / 'Is the window open?' / 'Open the window' / 'How open the window is!'",
+     "a": "'Open the window' — it gives a command; the subject 'you' is understood. A wrong answer picking the exclamatory shows the student matches keywords, not jobs.",
+     "self_check": true
+    },
+    {
+     "q": "Sentences do four jobs and each job has a name: declarative (states), ______ (asks), imperative (commands/requests), exclamatory (exclaims).",
+     "a": "interrogative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sentences do four jobs and each job has a name: declarative (states), ______ (asks), imperative (commands/requests), exclamatory (exclaims).",
+     "a": "interrogative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Line up four ______ about one event: 'You scored a goal.' / 'Did you score a goal?' / 'Score a goal!' / 'What a goal!' Same event, four jobs.",
+     "a": "sentences",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student names the type of any sentence from its job and punctuation, converts one type into another, and punctuates each correctly (. ? !).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

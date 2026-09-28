@@ -34,6 +34,26 @@
      "q": "Design a simple thought experiment or diagram to show why Thomson's model predicts *no large-angle scattering* of alpha particles, unlike what Rutherford observed.",
      "a": "A good answer: Draw a diffuse positive sphere (Thomson) and a concentrated nucleus (Rutherford). In Thomson's model, the positive charge is spread over ~10⁻¹⁰ m; an alpha particle passing through experiences weak, distributed repulsion — maximum deflection is small (<1°). In Rutherford's model, the positive charge is concentrated in ~10⁻¹⁵ m; a close encounter gives huge repulsion → large angles. Criteria: Must contrast *charge distribution* and *resulting electric field strength*. A poor answer (e.g., \"alpha particles bounce off electrons\") shows misunderstanding that electrons are too light to deflect massive alpha particles significantly.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Thomson's Plum Pudding Model proposes that an atom is a uniform sphere of positive charge with negatively charged electrons embedded throughout, like plums in a pudding or seeds in a watermelon, making the atom ______ neutral overall.",
+     "a": "electrically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a glowing tube in a physics lab — a cathode ray tube — where invisible rays travel from the ______ electrode (cathode) to the positive electrode (anode).",
+     "a": "negative",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how Thomson's model accounts for atomic neutrality and the existence of electrons, and can identify at least two specific experimental observations (e.g., cathode rays, Goldstein's canal rays) that the model could NOT explain, leading to its rejection.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a glowing tube in a physics lab — a cathode ray tube — where ______ rays travel from the negative electrode (cathode) to the positive electrode (anode).",
+     "a": "invisible",
+     "self_check": true
     }
    ]
   }

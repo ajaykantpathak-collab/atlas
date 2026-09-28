@@ -34,6 +34,26 @@
      "q": "Create a new problem: A firm has 3 partners sharing 3:2:1. The partner with 1/6 share dies on 15th January. Last year's profit ₹7,20,000. The deed says \"use average of last 2 years\". Previous year profit ₹6,00,000. Design the full calculation and journal entry.",
      "a": "Expected answer: (1) Average profit = (₹7,20,000 + ₹6,00,000)/2 = ₹6,60,000. (2) Period = 10 months (Apr–Jan; 15th Jan counts as full month in CBSE convention). (3) Share = ₹6,60,000 × (10/12) × (1/6) = ₹91,667. (4) Journal: P&L Suspense A/c Dr. ₹91,667 To Deceased Partner's Capital A/c ₹91,667. A poor answer uses 9.5 months (daily) or forgets the average clause — reveals inability to synthesize deed terms with time apportionment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The deceased partner's share of profit up to the date of death is the portion of the firm's profit earned from the beginning of the ______ year to the date of death, allocated to the deceased partner based on their profit-sharing ratio.",
+     "a": "accounting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ firm where a partner dies on 15th August.",
+     "a": "partnership",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a partnership firm where a partner dies on ______th August.",
+     "a": "15",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Identify the correct profit base (last year's profit or average profit) and the deceased partner's profit-sharing ratio from the partnership deed; (2) Calculate the time period from the start of the accounting year to the date of death in months/days; (3) Compute the profit share using the formula and.",
+     "self_check": true
     }
    ]
   }

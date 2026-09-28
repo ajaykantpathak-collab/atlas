@@ -34,6 +34,21 @@
      "q": "Create a two-sentence prose summary that translates the core message of a poetic stanza about a soldier's undying spirit guarding the nation.",
      "a": "A good response captures both the literal duty of border defense and the enduring spirit of patriotism without using poetic stanzas. A poor answer simply rewrites the poem line-for-line in rhyme or leaves out the core theme of sacrifice entirely.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Comparing poetry and prose on soldiers involves analyzing how different literary forms—rhythmic verse with ______ language versus structured paragraph-based narrative—convey the same theme of military sacrifice and patriotism.",
+     "a": "figurative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you read a moving news report about Indian ______ guarding the icy peaks of Siachen, and then you read a lyrical poem about the same brave guards standing like statues against the snow.",
+     "a": "soldiers",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Students must be able to identify at least two thematic or emotional similarities and two formal differences (such as structure, imagery, and rhythm) between a poem and a prose text about soldiers.",
+     "self_check": true
     }
    ]
   }

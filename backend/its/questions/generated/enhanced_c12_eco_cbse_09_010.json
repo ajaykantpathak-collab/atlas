@@ -34,6 +34,31 @@
      "q": "Construct a numerical example where the money multiplier is exactly 5. Choose plausible values for c and r, then compute H required to support a money supply of ₹1,00,000 crore. Show all steps.",
      "a": "We need m = 5 = (1+c)/(c+r). Choose c = 0.2 (20% currency). Then 5 = 1.2/(0.2+r) → 0.2+r = 1.2/5 = 0.24 → r = 0.04. So c=0.2, r=0.04 gives m=5. For M = ₹1,00,000 cr, H = M/m = 1,00,000/5 = ₹20,000 crore. Check: D = M/(1+c) = 1,00,000/1.2 = ₹83,333.33 cr. C = cD = 0.2×83,333.33 = ₹16,666.67 cr. R = rD = 0.04×83,333.33 = ₹3,333.33 cr. H = C+R = 20,000 cr. A poor answer that picks c=0, r=0.2 (m=5) is unrealistic because currency drain is never zero in India.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: High-powered money (H), also called the monetary base, is the total liability of the central bank (RBI) ______ of currency held by the public (C) and cash reserves held by commercial banks (R), i.e., H = C + R.",
+     "a": "consisting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The bank keeps a fraction as ______ (say 10% = ₹100) and lends out ₹900.",
+     "a": "reserves",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The money multiplier (m) is the ratio of the total money supply (M) to high-powered money (H), derived as m = (______ + c) / (c + r) where c = C/D (currency-deposit ratio) and r = R/D (reserve-deposit ratio), showing how many times the banking system can expand deposits for each unit of high-powered money.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can derive the money multiplier formula from the definitions of high-powered money and money supply, calculate the money multiplier and money supply given c, r, and H, and explain how changes in c or r affect the multiplier and thereby the money supply.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The bank keeps a ______ as reserves (say 10% = ₹100) and lends out ₹900.",
+     "a": "fraction",
+     "self_check": true
     }
    ]
   }

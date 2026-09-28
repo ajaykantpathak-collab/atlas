@@ -34,6 +34,21 @@
      "q": "Design a step-by-step washing procedure for a mixed load containing: (a) white cotton socks, (b) coloured polyester T-shirts, (c) a woolen cardigan. Specify the method for each item, the sequence if done manually, and how you would adapt if only a semi-automatic top-load machine is available.",
      "a": "Manual sequence: 1) Woolen cardigan first — knead-and-squeeze in lukewarm water with mild detergent, rinse, roll in towel. 2) Coloured polyester T-shirts — hand friction wash in warm water, rinse. 3) White cotton socks — heavy hand friction/brush with hot water and bleach, rinse. Semi-automatic adaptation: Run woolen cardigan separately on \"delicate\" (if available) or hand-wash only; wash polyester T-shirts on \"normal\" cycle; wash cotton socks on \"heavy\" cycle with hot water. A poor answer that puts all in one machine load reveals failure to apply sorting principles (node c12_hs_cbse_14_004) and fibre-specific needs.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Washing methods refer to the ______ techniques used to remove dirt and stains from fabrics through the combined action of water, detergent, and physical agitation; the three main categories are friction washing (hand rubbing, brush, beating), machine washing (agitator, tumble, pulsator), and special techniques (kneading, squeezing, suction washing) for delicate fabrics.",
+     "a": "mechanical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have three ______: a heavily soiled cotton kurta, a delicate silk saree, and a woolen sweater.",
+     "a": "garments",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) classify a given fabric into the correct washing method category with justification, (2) explain the working principle of at least two types of washing machines, and (3) demonstrate the steps of a special technique like kneading-and-squeezing for a woolen garment.",
+     "self_check": true
     }
    ]
   }

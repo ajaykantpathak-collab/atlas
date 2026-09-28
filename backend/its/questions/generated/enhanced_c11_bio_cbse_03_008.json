@@ -34,6 +34,31 @@
      "q": "Design a simple microscopic investigation using permanent slides to distinguish between a haplontic alga (e.g., *Chlamydomonas*), a haplodiplontic bryophyte (e.g., *Marchantia* thallus vs. sporophyte), and a diplontic gymnosperm (e.g., *Pinus* ovule). List the slides you would request, the key observation for each, and the conclusion you would draw about the dominant phase ploidy.",
      "a": "Slides: 1) *Chlamydomonas* vegetative cell (shows single nucleus, no pairing). 2) *Marchantia* gemma cup (haploid) and *Marchantia* sporophyte capsule (diploid spore mother cells). 3) *Pinus* ovule LS showing megaspore mother cell (diploid) and mature embryo sac (haploid). Observations: *Chlamydomonas* shows only haploid vegetative cells; *Marchantia* shows large haploid thallus and small diploid sporophyte; *Pinus* shows massive diploid ovule tissue with microscopic haploid embryo sac. Conclusion: Dominant phase is haploid in *Chlamydomonas*, haploid in *Marchantia*, diploid in *Pinus*. A poor answer requests only whole-mount slides without specifying the critical cellular details (ploidy indicators like chromosome number or meiotic stage).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Plant life cycles are classified into three patterns based on the ploidy of the dominant, free-living phase and the stage at which meiosis occurs: Haplontic (dominant haploid gametophyte, zygotic meiosis), Diplontic (dominant diploid sporophyte, gametic meiosis), and ______ (both haploid gametophyte and diploid sporophyte are free-living, sporic meiosis).",
+     "a": "Haplodiplontic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a green pond scum (______), a moss cushion on a brick wall, and a mango tree in your neighbourhood.",
+     "a": "Spirogyra",
+     "self_check": true
+    },
+    {
+     "q": "What is Plant life cycles? State the definition given in this lesson.",
+     "a": "Plant life cycles are classified into three patterns based on the ploidy of the dominant, free-living phase and the stage at which meiosis occurs: Haplontic (dominant haploid gametophyte, zygotic meiosis), Diplontic (dominant diploid sporophyte, gametic meiosis), and Haplodiplontic (both haploid gametophyte and diploid sporophyte are.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Plant life cycles?",
+     "a": "Students often believe \"haplodiplontic\" means the haploid and diploid phases are isomorphic (similar in morphology and size) in all groups.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify any given plant group (algae, bryophyte, pteridophyte, gymnosperm, angiosperm) into haplontic, diplontic, or haplodiplontic categories, justify the classification by stating the dominant phase and the stage of meiosis, and predict the ploidy of specific structures (e.g., protonema, prothallus, pollen.",
+     "self_check": true
     }
    ]
   }

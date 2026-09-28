@@ -4,15 +4,9 @@
   {
    "id": "c8m3.1.1",
    "title": "Polygons: Convex and Concave",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "recall the count for the shape",
-     "explain": "recall the count for the shape: lines = 2 gives 2",
-     "compute": "lines = 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "polygon = simple closed curve made up of only line segments",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a rectangle have?",
@@ -49,15 +43,9 @@
   {
    "id": "c8m3.1.2",
    "title": "Regular and Irregular Polygons",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 62 gives 28",
-     "compute": "other = 90 - 62"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "regular polygon = equiangular AND equilateral",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 62 degrees, find the other.",
@@ -95,6 +83,8 @@
    "id": "c8m3.2.1",
    "title": "Sum of Exterior Angles of a Polygon",
    "converted_to_compute": false,
+   "formula": "sum of exterior angles = 360 degrees; each exterior angle of regular polygon = 360 / n",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 29 degrees, find the other.",
@@ -132,6 +122,8 @@
    "id": "c8m3.2.2",
    "title": "Number of Sides from an Exterior or Interior Angle",
    "converted_to_compute": false,
+   "formula": "number of sides = 360 / exterior_angle; exterior_angle = 180 - interior_angle",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 16 degrees, find the other.",
@@ -168,15 +160,9 @@
   {
    "id": "c8m3.3.1",
    "title": "Trapezium",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the quadrilateral property to compute the value",
-     "explain": "use the quadrilateral property to compute the value: adj = 180 - 60 gives 120",
-     "compute": "adj = 180 - 60"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "trapezium = quadrilateral with exactly one pair of parallel sides",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a parallelogram one angle is 60 degrees. Find the adjacent angle.",
@@ -213,15 +199,9 @@
   {
    "id": "c8m3.3.2",
    "title": "Kite",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the quadrilateral property to compute the value",
-     "explain": "use the quadrilateral property to compute the value: adj = 180 - 130 gives 50",
-     "compute": "adj = 180 - 130"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "kite = quadrilateral with exactly two distinct consecutive pairs of equal sides",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a parallelogram one angle is 130 degrees. Find the adjacent angle.",
@@ -259,6 +239,8 @@
    "id": "c8m3.3.3",
    "title": "Parallelogram and its Side Properties",
    "converted_to_compute": false,
+   "formula": "opposite sides parallel and equal; perimeter = 2 x (side1 + side2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A rectangular park is 32 m long and 33 m wide. Find its perimeter.",
@@ -296,6 +278,8 @@
    "id": "c8m3.3.4",
    "title": "Angles of a Parallelogram",
    "converted_to_compute": false,
+   "formula": "opposite angles equal; adjacent angles supplementary: angle + adjacent_angle = 180",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 22 degrees, find the other.",
@@ -333,6 +317,8 @@
    "id": "c8m3.3.5",
    "title": "Diagonals of a Parallelogram",
    "converted_to_compute": false,
+   "formula": "each half diagonal = diagonal / 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a parallelogram one angle is 130 degrees. Find the adjacent angle.",
@@ -369,15 +355,9 @@
   {
    "id": "c8m3.4.1",
    "title": "Rhombus",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the circle formula with pi = 22/7",
-     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 84 gives 528",
-     "compute": "circ = 2 * 22 / 7 * 84"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "all sides equal; diagonals are perpendicular bisectors of one another",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 84 cm (take pi = 22/7).",
@@ -414,15 +394,9 @@
   {
    "id": "c8m3.4.2",
    "title": "Rectangle",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 64 gives 26",
-     "compute": "other = 90 - 64"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "each angle = 90 degrees; diagonals equal and bisect each other",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 64 degrees, find the other.",
@@ -459,15 +433,9 @@
   {
    "id": "c8m3.4.3",
    "title": "Square",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "square the given number using the stated square rule",
-     "explain": "square the given number using the stated square rule: sq = 29 ** 2 gives 841",
-     "compute": "sq = 29 ** 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "all sides equal, all angles 90; diagonals equal, bisect each other, perpendicular",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 29.",

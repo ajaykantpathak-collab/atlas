@@ -34,6 +34,31 @@
      "q": "Create a quadratic equation in standard form where a = -3, b = 0, c = 5. Then create a different quadratic equation that has the same solutions but different coefficients.",
      "a": "First equation: -3x² + 0x + 5 = 0 or -3x² + 5 = 0. Multiply by -1: 3x² - 5 = 0 has the same solutions (x = ±√(5/3)). Any non-zero multiple k(-3x² + 5) = 0 works. A poor answer giving -3x² + 5 = 0 and -6x² + 10 = 0 but unable to explain *why* they have same solutions reveals lack of understanding that multiplying an equation by a non-zero constant doesn't change its roots.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ equation in one variable x is an equation of the form ax² + bx + c = 0, where a, b, c are real numbers and a ≠ 0.",
+     "a": "quadratic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your younger sibling with their Class 6 homework where they solve ______ like \"Find a number which when added to 5 gives 12\" — this is a linear equation x + 5 = 12.",
+     "a": "problems",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now consider a problem: \"The area of a rectangular garden is ______ m².",
+     "a": "300",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify whether a given equation is quadratic by rewriting it in standard form ax² + bx + c = 0 and verifying that the coefficient of x² is non-zero.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your younger sibling with their Class 6 ______ where they solve problems like \"Find a number which when added to 5 gives 12\" — this is a linear equation x + 5 = 12.",
+     "a": "homework",
+     "self_check": true
     }
    ]
   }

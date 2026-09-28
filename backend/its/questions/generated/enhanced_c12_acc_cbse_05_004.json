@@ -27,12 +27,42 @@
     },
     {
      "q": "A company issued 2,00,000 shares of ₹10 each at par. Applications received for 3,00,000 shares. The board decides to: reject applications for 50,000 shares; make pro-rata allotment to remaining applicants. Application money: ₹3 per share. Allotment: ₹4 per share. Call: ₹3 per share. Evaluate if this decision complies with SEBI minimum subscription. Calculate the pro-rata ratio for the accepted applicants and the amount of application money refunded vs adjusted.",
-     "a": "Total applications = 3,00,000 shares. Rejected = 50,000 shares. Remaining applicants = 2,50,000 shares applied for 2,00,000 shares issued. Minimum subscription check: 2,00,000 shares issued × ₹10 = ₹20,00,000. 90% = ₹18,00,000. Application money received from all 3,00,000 applicants = 3,00,000 × ₹3 = ₹9,00,000. But rejected applicants' money (50,000 × ₹3 = ₹1,50,000) is refunded. Net from accepted = ₹7,50,000. This is LESS than ₹18,00,000 minimum subscription — DECISION VIOLATES SEBI RULE. Pro-rata ratio for accepted = 2,00,000 : 2,50,000 = 4:5. Refunded = ₹1,50,000. Adjusted = (2,50,000 × ₹3) - (2,00,000 × ₹3) = ₹7,50,000 - ₹6,00,000 = ₹1,50,000. A student who misses the minimum subscription check fails the evaluation competency.",
+     "a": "(1) Minimum subscription test — the issue of 200000 shares at 10 rupees raises only application money of 3 rupees per share at this stage, and the SEBI threshold of 90 percent of 2000000 rupees, that is 1800000 rupees, is not met, (2) Refund — application money on the 50000 rejected shares, 50000 times 3 rupees = 150000 rupees, goes back to those applicants, (3) Pro-rata ratio — 250000 applied shares against 200000 issued shares simplify to 4 is to 5, so each accepted applicant receives 4 shares for every 5 applied, (4) Adjustment — accepted applicants paid 750000 rupees on application while 600000 rupees is due on 200000 shares, so the excess 150000 rupees adjusts against the allotment money due, (5) Verdict — the decision violates the SEBI minimum subscription rule. A student who skips the minimum subscription check fails the evaluation competency.",
      "self_check": true
     },
     {
      "q": "Create a new over-subscription problem where: (a) shares are issued at a discount; (b) application money exceeds the nominal value of shares issued; (c) the pro-rata adjustment results in zero allotment money due from applicants. Provide the complete journal entries for application, allotment, and first call.",
      "a": "Example: Issue 50,000 shares of ₹10 each at 10% discount (issue price ₹9). Payable: ₹4 application, ₹3 allotment, ₹2 call. Applications for 1,00,000 shares. Pro-rata 1:2. Application received = 1,00,000 × ₹4 = ₹4,00,000. Required for 50,000 shares = 50,000 × ₹4 = ₹2,00,000. Excess = ₹2,00,000. Allotment due = 50,000 × ₹3 = ₹1,50,000. Excess covers allotment fully (₹1,50,000) with ₹50,000 carried to call. Call due = 50,000 × ₹2 = ₹1,00,000. Less excess = ₹50,000. Net call due = ₹50,000. Journal: Bank Dr. 4,00,000 → Share Application 4,00,000; Share Application Dr. 4,00,000 → Share Capital 2,00,000, Share Allotment 1,50,000, Share Call 50,000; Share Allotment Dr. 1,50,000 → Share Capital 1,50,000; Bank Dr. 0 → Share Allotment 1,50,000 (no cash received); Share Call Dr. 1,00,000 → Share Capital 1,00,000; Bank Dr. 50,000 → Share Call 50,000. A poor answer would miss the discount on share capital or misallocate excess between allotment and call.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Minimum Subscription is the SEBI-mandated threshold (90% of issued capital) that a company must receive in cash before making any allotment of shares; Over-subscription occurs when ______ for shares exceed the number offered; Pro-rata Allotment is the proportional distribution of shares among applicants when over-subscription happens, where each applicant receives shares in proportion to their application.",
+     "a": "applications",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a popular IPO like Zomato or Paytm where millions of ______ apply but the company only offered 10 crore shares.",
+     "a": "investors",
+     "self_check": true
+    },
+    {
+     "q": "What is Minimum Subscription? State the definition given in this lesson.",
+     "a": "Minimum Subscription is the SEBI-mandated threshold (90% of issued capital) that a company must receive in cash before making any allotment of shares; Over-subscription occurs when applications for shares exceed the number offered; Pro-rata Allotment is the proportional distribution of shares among applicants when over-subscription.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Minimum Subscription is the SEBI-mandated threshold (______% of issued capital) that a company must receive in cash before making any allotment of shares; Over-subscription occurs when applications for shares exceed the number offered; Pro-rata Allotment is the proportional distribution of shares among applicants when over-subscription happens, where each applicant receives shares in proportion to their application.",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Minimum Subscription?",
+     "a": "Students believe that in pro-rata allotment, the excess application money is automatically refunded to applicants.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently: (1) calculate minimum subscription amount for any given issue size and determine if allotment can proceed; (2) compute pro-rata allotment ratios and adjust excess application money towards allotment/calls/refund for any over-subscription scenario; (3) pass complete journal entries for over-subscription with.",
      "self_check": true
     }
    ]

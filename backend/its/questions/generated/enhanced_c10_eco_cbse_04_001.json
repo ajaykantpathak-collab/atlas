@@ -34,6 +34,21 @@
      "q": "Design a simple global production chain for a wooden toy. Specify the country for each stage (design, raw material sourcing, component making, assembly, packaging) and justify each choice based on factor endowments (land, labour, capital).",
      "a": "Example: Design in Germany (skilled labour, R&D capital), raw wood from Brazil (abundant forest land), component cutting in China (cheap labour + machinery), assembly in India (low-cost labour), packaging in Mexico (proximity to US market). A good answer matches each stage to a factor advantage. A poor answer that puts all stages in one country or gives random countries without factor justification reveals the student hasn't grasped the core idea: production follows factor endowments.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ Corporation (MNC) is a company that owns or controls production of goods or services in at least one country other than its home country.",
+     "a": "Multinational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Its ______ was designed in the USA, the memory chips come from South Korea, the screen from China, and the final assembly happens in a factory in Tamil Nadu.",
+     "a": "processor",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how MNCs organize production across countries by giving a real-world example (e.g., a smartphone or car) that identifies at least three stages of production and the countries where they occur, and can state the economic reason (cost minimization, access to markets, factor endowments) for each location choice.",
+     "self_check": true
     }
    ]
   }

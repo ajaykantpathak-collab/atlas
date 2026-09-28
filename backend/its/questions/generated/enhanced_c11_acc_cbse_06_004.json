@@ -34,6 +34,26 @@
      "q": "Create your own original example of an Error of Principle involving a revenue receipt incorrectly treated as a capital receipt. Write the wrong entry, correct entry, and rectification entry. Explain why this error would mislead a banker analyzing the company's loan application.",
      "a": "**Example:** Company receives ₹5,00,000 as rental income (revenue receipt) but credits it to \"Loan from Bank\" (capital receipt/liability).\n**Wrong Entry:** Bank A/c Dr. 5,00,000 → Loan from Bank A/c Cr. 5,00,000\n**Correct Entry:** Bank A/c Dr. 5,00,000 → Rental Income A/c Cr. 5,00,000\n**Rectification Entry:** Loan from Bank A/c Dr. 5,00,000 → Rental Income A/c Cr. 5,00,000\n**Misleading effect:** Banker sees higher liabilities (loan ₹5L extra) and lower revenue (rental income missing), making debt-equity ratio worse and profitability lower — may reject loan or charge higher interest. A poor answer (e.g., using capital expenditure example, or wrong rectification) shows inability to apply the concept to receipts side and understand stakeholder impact.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An Error of Principle occurs when a transaction is recorded in violation of fundamental accounting principles, specifically the incorrect ______ of expenditure or receipt between capital and revenue nature.",
+     "a": "classification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small bakery and spend ₹50,000 to ______ a new storage room.",
+     "a": "build",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish Errors of Principle from Errors of Commission and Omission by identifying the violation of capital/revenue classification; (2) Explain why Errors of Principle do not affect trial balance agreement; (3) Write correct rectification journal entries for at least three different scenarios of Errors.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you run a small bakery and spend ₹50,000 to build a new storage room.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

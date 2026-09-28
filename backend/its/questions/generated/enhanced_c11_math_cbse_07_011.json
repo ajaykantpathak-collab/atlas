@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (Indian context: rupees, people, objects) that requires BOTH permutation and combination in its solution, with at least two cases. State the problem clearly and outline the solution structure (do not compute final number).",
      "a": "**Sample problem:** \"A school has 8 teachers (5 male, 3 female). A committee of 5 must be formed with a Chairperson, Secretary, and 3 ordinary members. The committee must have at least 2 female teachers. In how many ways can this be done?\"  \n**Solution structure:**  \nCase 1: Exactly 2 females. Choose 2 females from 3: C(3,2). Choose 3 males from 5: C(5,3). From these 5 chosen people, assign Chairperson and Secretary (ordered): P(5,2). The remaining 3 are ordinary members (no further arrangement).  \nCase 2: Exactly 3 females. Choose 3 females from 3: C(3,3). Choose 2 males from 5: C(5,2). Assign Chairperson and Secretary from the 5: P(5,2).  \nTotal = [C(3,2)C(5,3) + C(3,3)C(5,2)] × P(5,2).  \n**Poor answer reveals:** If the student creates a problem with only one case, or uses only C or only P, or has no \"at least\" constraint, they haven't synthesised the mixed nature of the topic.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mixed problems in ______ and combinations require identifying whether a situation involves arrangement (order matters → use permutation P(n,r) = n!/(n-r)!) or selection (order does not matter → use combination C(n,r) = n!/[r!(n-r)!]), and often demand both within the same problem: first selecting a subset, then arranging it, or arranging with constraints that require case-wise selection.",
+     "a": "permutations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a 5-member student council from 12 candidates (7 boys, 5 girls) where the council must have a President, Vice-President, and 3 general members, with at least 2 girls.",
+     "a": "forming",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify each sub-task in a multi-part problem as permutation or combination, construct the correct product/sum of P and C expressions, handle constraints like \"at least/at most/exactly\" through case analysis, and justify why order matters or does not matter in each step.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are forming a 5-member student council from 12 ______ (7 boys, 5 girls) where the council must have a President, Vice-President, and 3 general members, with at least 2 girls.",
+     "a": "candidates",
+     "self_check": true
     }
    ]
   }

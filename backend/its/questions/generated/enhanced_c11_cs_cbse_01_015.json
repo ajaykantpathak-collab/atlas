@@ -34,6 +34,26 @@
      "q": "Design a new logic gate symbol and truth table for a three-input \"majority\" gate (output 1 if at least two inputs are 1). Then show how to build it using only two-input AND and OR gates.",
      "a": "Majority gate truth table (A,B,C): 000→0, 001→0, 010→0, 011→1, 100→0, 101→1, 110→1, 111→1. Boolean expression: Y = AB + BC + AC. Circuit: three AND gates (AB, BC, AC) feeding a three-input OR gate (or two two-input OR gates cascaded). A poor answer might draw a single gate with three inputs and no internal structure, or write Y = A+B+C, showing inability to decompose a multi-input function into two-input primitives.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A logic gate is an ______ electronic circuit that implements a Boolean function, performing a logical operation on one or more binary inputs (0/1, LOW/HIGH) to produce a single binary output.",
+     "a": "elementary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing the automatic lighting system for a staircase: the light should turn ON if someone presses the switch at the bottom (A) OR the switch at the top (B), but NOT if both are pressed simultaneously (to avoid a fault ______).",
+     "a": "condition",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) draw the standard logic symbol and truth table for each of the six gates, (2) derive the Boolean expression for a given combinational circuit containing up to three gates, and (3) design a minimal gate circuit from a verbal description of a real-world control condition (e.g., \"alarm sounds if sensor A is.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing the automatic lighting system for a staircase: the light should turn ON if someone presses the switch at the bottom (A) OR the switch at the top (B), but NOT if both are pressed ______ (to avoid a fault condition).",
+     "a": "simultaneously",
+     "self_check": true
     }
    ]
   }

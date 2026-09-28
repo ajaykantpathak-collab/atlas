@@ -34,6 +34,31 @@
      "q": "Design a BPO engagement model for an Indian ed-tech company (like BYJU'S or Unacademy) that wants to outsource its *student doubt-resolution* process (students post questions, experts provide video/text solutions within 30 minutes). Specify: (a) Horizontal or vertical classification with justification, (b) Captive vs third-party recommendation with 2 reasons, (c) Two key SLAs (Service Level Agreements) you would include in the contract.",
      "a": "(a) **Vertical BPO** — Requires deep domain expertise (JEE/NEET syllabus mastery, pedagogical skill to explain concepts), not generic process skill. Unlike horizontal customer support, the 'product' here is *educational content quality*, directly impacting learning outcomes and brand reputation. (b) **Third-party recommended** — (i) Demand is highly seasonal (peaks during exam prep months); third-party provides elastic capacity without fixed cost burden. (ii) Access to distributed network of verified subject-matter experts (IITians, doctors, PhDs) is a vendor's core asset, hard to replicate in-house. (c) **Key SLAs**: (1) *First Response Time*: ≤ 15 minutes for 90% of doubts during peak hours (6–10 PM); (2) *Solution Accuracy Rate*: ≥ 98% verified by random audit of 5% sample by client's academic team. A poor answer classifying this as horizontal misses that the *output quality* is the educational product itself, not a support function.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Business Process Outsourcing (BPO) is the practice of contracting specific non-core business processes or operations (such as customer support, payroll, data entry, or technical support) to an external third-party service provider, often located in a different country, to achieve cost efficiency, access specialised expertise, and enable the client firm to focus on its core ______.",
+     "a": "competencies",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a fast-______ Indian startup selling handmade organic skincare products online.",
+     "a": "growing",
+     "self_check": true
+    },
+    {
+     "q": "What is Business Process Outsourcing (BPO)? State the definition given in this lesson.",
+     "a": "Business Process Outsourcing (BPO) is the practice of contracting specific non-core business processes or operations (such as customer support, payroll, data entry, or technical support) to an external third-party service provider, often located in a different country, to achieve cost efficiency, access specialised expertise, and enable.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Business Process Outsourcing (BPO)?",
+     "a": "Students often equate BPO with \"call centres\" or \"low-skill data entry jobs\" and assume all BPO is horizontal (generic).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to distinguish between horizontal and vertical BPO services with Indian industry examples, explain the difference between captive and third-party BPO models, and articulate why firms outsource non-core processes using the concept of core competency and cost arbitrage.",
+     "self_check": true
     }
    ]
   }

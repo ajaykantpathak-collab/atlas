@@ -34,6 +34,26 @@
      "q": "Design a geographical inquiry project for your city/town that maps the population-environment-development linkages for one local issue (e.g., solid waste, water scarcity, air quality). Specify: (i) the spatial data layers you would overlay, (ii) the population/development indicators you would correlate, (iii) one policy question your map could answer.",
      "a": "Expected answer: (i) Layers: ward-level population density (Census), landfill locations, waste collection routes, air quality monitoring stations, industrial zones, slum settlements, water bodies. (ii) Indicators: per-capita waste generation, % households with door-to-door collection, PM2.5 levels, groundwater depth, % workforce in informal sector. (iii) Policy question: “Do wards with high informal-sector employment and low waste collection coverage correspond to illegal dumping hotspots and higher respiratory illness rates?” A poor answer that suggests only “make a map of garbage dumps” shows inability to conceptualize the *linkages* — it treats waste as an isolated environmental problem rather than a product of population distribution, economic activity, and governance gaps.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Population-Environment-Development Linkages refer to the complex, bidirectional interactions among human population dynamics (size, growth rate, density, migration, composition), environmental conditions (natural resource availability, pollution levels, carrying capacity, ecosystem health), and development processes (economic growth, technological change, ______ expansion, policy choices) that together shape geographical patterns of sustainability or degradation in a region.",
+     "a": "infrastructure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: stand on a Delhi metro bridge at rush hour — you see high-density housing, vehicles emitting exhaust, a polluted Yamuna, and slums ______ luxury apartments.",
+     "a": "alongside",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the reciprocal cause-effect relationships between population, environment, and development using specific Indian case studies (e.g., Delhi’s air pollution, Jhabua’s watershed management, Dharavi’s slum economy), and evaluate whether a given development trajectory is environmentally sustainable and socially equitable.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world ______: stand on a Delhi metro bridge at rush hour — you see high-density housing, vehicles emitting exhaust, a polluted Yamuna, and slums alongside luxury apartments.",
+     "a": "observation",
+     "self_check": true
     }
    ]
   }

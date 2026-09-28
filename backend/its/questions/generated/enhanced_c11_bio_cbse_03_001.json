@@ -34,6 +34,21 @@
      "q": "Design a dichotomous key using only four couplets (paired contrasting statements) that can distinguish all five major plant groups: Algae, Bryophytes, Pteridophytes, Gymnosperms, Angiosperms. Each couplet must use a single, clear, observable morphological or reproductive character.",
      "a": "1a. Seeds present → go to 2; 1b. Seeds absent → go to 3. 2a. Seeds enclosed in ovary/fruit → Angiosperms; 2b. Seeds naked on cones → Gymnosperms. 3a. Plant body thalloid, no true roots/stem/leaves, mostly aquatic → Algae; 3b. Plant body differentiated into root-like, stem-like, leaf-like structures → go to 4. 4a. No vascular tissue, dominant gametophyte, needs water for fertilization → Bryophytes; 4b. Vascular tissue present, dominant sporophyte → Pteridophytes. A poor key (e.g., using \"flower\" in first couplet) fails because it cannot separate gymnosperms from angiosperms early enough or misplaces pteridophytes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cryptogamae and Phanerogamae represent the two major sub-divisions of Kingdom Plantae based on the presence or absence of seeds and flowers; Cryptogamae (hidden reproduction) include non-seed-bearing, non-flowering plants such as algae, bryophytes, and ______ that reproduce via spores, while Phanerogamae (visible reproduction) include seed-bearing plants divided into gymnosperms (naked seeds) and angiosperms (seeds enclosed in fruits).",
+     "a": "pteridophytes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are walking through a forest in the Western Ghats during monsoon: you see green slippery patches on rocks (algae), soft carpet-like mosses on tree trunks (bryophytes), elegant ferns unfurling in the shade (______), tall pine trees with cones (gymnosperms), and flowering mango trees with fruits (angiosperms).",
+     "a": "pteridophytes",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify any given plant example into Cryptogamae or Phanerogamae and further into their respective subgroups (algae, bryophytes, pteridophytes, gymnosperms, angiosperms) by identifying the presence/absence of seeds, flowers, vascular tissue, and dominant life cycle phase, justifying each classification with at least two.",
+     "self_check": true
     }
    ]
   }

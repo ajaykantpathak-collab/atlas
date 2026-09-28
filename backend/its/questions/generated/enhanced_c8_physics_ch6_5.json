@@ -34,6 +34,31 @@
      "q": "Design a simple activity using a concave mirror (like a shaving mirror or a spoon), a candle, and a white screen (paper/cardboard) to demonstrate the transition of the image from real to virtual as the object moves from beyond C to between F and P. Describe the procedure and what you would observe at each stage.",
      "a": "**Procedure:** Fix the concave mirror on a stand. Place a lit candle (object) at a distance > 2f (beyond C). Hold a white screen on the same side and move it until a sharp inverted image forms. Record object and image distances. Gradually move the candle towards the mirror: at 2f (C), at between 2f and f (C and F), at f (F), and finally between f and P. At each position, try to catch the image on the screen.\n**Observations:** Beyond C → sharp, inverted, diminished real image on screen. At C → same size, inverted real image. Between C and F → magnified, inverted real image (screen must move farther). At F → no image on screen (rays parallel, image at infinity). Between F and P → no real image on screen; looking *into* the mirror shows a magnified, erect virtual image behind the mirror. A poor answer that says \"the image disappears at F\" without explaining it goes to infinity, or claims a virtual image can be caught on a screen, shows confusion between real and virtual image formation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Image formation by a concave mirror is the process of locating the position, nature (real or virtual), size, and ______ of an image by tracing the paths of at least two specific incident rays after they reflect off the mirror's inner curved surface, using the laws of reflection at each point of incidence.",
+     "a": "orientation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you hold a shiny metal spoon close to your face—the inner curved side acts like a ______ mirror.",
+     "a": "concave",
+     "self_check": true
+    },
+    {
+     "q": "What is Image formation by a concave mirror? State the definition given in this lesson.",
+     "a": "Image formation by a concave mirror is the process of locating the position, nature (real or virtual), size, and orientation of an image by tracing the paths of at least two specific incident rays after they reflect off the mirror's inner curved surface, using the laws of reflection at each point of incidence.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Image formation by a concave mirror?",
+     "a": "Students often believe that a concave mirror *always* forms a real, inverted image because they associate \"concave\" with \"converging\" and think convergence always means a real image on a screen.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can accurately construct ray diagrams for a concave mirror using the two principal rays for all five standard object positions (beyond C, at C, between C and F, at F, between F and P), correctly label the image position, and state the image characteristics (real/virtual, inverted/erect, magnified/diminished/same size) with.",
+     "self_check": true
     }
    ]
   }

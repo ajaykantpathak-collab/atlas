@@ -34,6 +34,31 @@
      "q": "Design a two-step synthesis starting from 2-methylbutane to obtain 3-methylbut-1-ene as the major product. Specify reagents and conditions for each step, and explain why your route favors the Hofmann product.",
      "a": "Step 1: Free radical bromination of 2-methylbutane with Br₂/hv → major product is 2-bromo-2-methylbutane (tertiary bromide) due to stable tertiary radical. Step 2: Treat with bulky base (t-BuOK in t-BuOH, heat) → E2 elimination gives 3-methylbut-1-ene (Hofmann product) because the bulky base abstracts the less hindered primary β-hydrogen (from the –CH₃ group) rather than the more hindered secondary β-hydrogen. Alternative: Step 1 could be NBS/allylic bromination if starting from an alkene, but here we start from alkane. A poor answer might use alcoholic KOH in step 2, which would give the Zaitsev product (2-methylbut-2-ene), or might not recognize that free radical bromination of 2-methylbutane gives a mixture and the tertiary bromide must be separated.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ reactions in haloalkanes involve the removal of a hydrogen atom from the β-carbon and a halogen atom from the α-carbon, resulting in the formation of a carbon-carbon double bond (alkene).",
+     "a": "Elimination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe what happens when you heat 2-______ with alcoholic KOH in a school laboratory — a colourless gas (butene) evolves, and the bromine test decolourises, confirming unsaturation.",
+     "a": "bromobutane",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe what happens when you heat ______-bromobutane with alcoholic KOH in a school laboratory — a colourless gas (butene) evolves, and the bromine test decolourises, confirming unsaturation.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish E1 and E2 mechanisms by analyzing substrate structure, base strength, solvent polarity, and leaving group ability; (2) predict the major alkene product using Zaitsev's rule and identify when the Hofmann product dominates; (3) draw the complete stepwise mechanism for both E1 and E2 including stereochemical.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe what happens when you heat 2-bromobutane with alcoholic KOH in a school laboratory — a colourless gas (butene) evolves, and the bromine test ______, confirming unsaturation.",
+     "a": "decolourises",
+     "self_check": true
     }
    ]
   }

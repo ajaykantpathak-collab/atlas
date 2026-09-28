@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using only household items (sugar, salt, water, glasses, spoon, refrigerator, stove) to demonstrate that a saturated solution at room temperature becomes unsaturated when heated, and becomes supersaturated (with crystals forming) when cooled. Write the steps clearly.",
      "a": "A good answer includes: (1) Make saturated sugar solution at room temp by adding sugar until no more dissolves. (2) Divide into two glasses. (3) Heat one glass gently — observe no crystals, solution becomes unsaturated (can add more sugar). (4) Cool the other glass in refrigerator — observe sugar crystals forming (supersaturation then crystallisation). (5) Explain each observation using solubility-temperature relationship. A poor answer (e.g., just \"heat and cool\") reveals the student cannot translate the concept into a testable procedure or identify the control variables.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A saturated solution is one in which no more solute can dissolve at a given ______ and pressure; any additional solute added will remain undissolved as a solid.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine adding spoonfuls of sugar to a glass of cold water while stirring — at first the sugar disappears ______, but after several spoons you see granules settling at the bottom no matter how much you stir.",
+     "a": "completely",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between saturated and unsaturated solutions by observing whether added solute dissolves or settles, and can explain how temperature changes affect the saturation state of a solution.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine adding spoonfuls of sugar to a glass of cold water while stirring — at first the sugar ______ completely, but after several spoons you see granules settling at the bottom no matter how much you stir.",
+     "a": "disappears",
+     "self_check": true
     }
    ]
   }

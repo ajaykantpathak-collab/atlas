@@ -34,6 +34,26 @@
      "q": "Create a small real-world scenario (Indian context) where you would need all three operations — Union, Intersection, and Cartesian Product — on two relations. Define the relations, their schemas, sample tuples, and the business question each operation answers.",
      "a": "Scenario: A library has two relations: **Members** (MemberID, Name, City) and **Authors** (AuthorID, Name, City).  \n- Union: \"List all distinct names and cities of people who are either members or authors (or both).\" Requires union-compatible projection on (Name, City).  \n- Intersection: \"Find names and cities of people who are both members and authors.\"  \n- Cartesian Product: \"Generate all possible member-author pairs for a 'Meet the Author' event invitation list.\"  \nA good answer shows correct schema alignment for Union/Intersection (project to same attributes) and acknowledges Cartesian Product's size (|Members| × |Authors|). A poor answer uses the original schemas directly for Union/Intersection without projection, violating compatibility.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In relational algebra, Union (∪) combines tuples from two union-compatible relations (same number of attributes with ______ domains) into a single relation with no duplicate tuples; Intersection (∩) returns only those tuples that appear in both union-compatible relations; Cartesian Product (×) pairs every tuple of the first relation with every tuple of the second relation, producing a new relation whose degree is the sum of the degrees of the two input relations and whose cardinality is the product of their cardinalities.",
+     "a": "corresponding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are managing a school ______: one table lists students who play cricket, another lists students who play football.",
+     "a": "database",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) state the union-compatibility conditions for Union and Intersection, (2) compute the result of Union, Intersection, and Cartesian Product given two sample relations, and (3) explain why duplicate elimination is necessary for Union and Intersection but not for Cartesian Product.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a school database: one table lists students who play cricket, another lists students who play football.",
+     "a": "managing",
+     "self_check": true
     }
    ]
   }

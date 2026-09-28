@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_15_001",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_15_001",
+   "title": "c12_eco_cbse_15_001",
+   "questions": [
+    {
+     "q": "What are the two broad classifications of the measures introduced under the New Economic Policy (NEP) of 1991? Define each.",
+     "a": "The two classifications are:\n1. **Stabilisation Measures**: Short-term measures aimed at correcting weaknesses in the Balance of Payments (BOP) and controlling inflation (by bringing down prices).\n2. **Structural Reform Measures**: Long-term measures aimed at improving the efficiency of the economy and increasing international competitiveness by removing rigidities in various sectors (LPG).\n\n*Wrong answer diagnosis*: If a student lists \"Liberalisation, Privatisation, and Globalisation\" as the two broad classifications, they are confusing the specific pillars of structural reform with the overarching dual-classification framework (Stabilisation vs. Structural).",
+     "self_check": true
+    },
+    {
+     "q": "Why did India have to approach the IMF and World Bank in 1991, and what were the conditions attached to the loan?",
+     "a": "India approached the IMF and World Bank (IBRD) because its foreign exchange reserves had depleted to a level insufficient to finance imports for even two weeks, and it faced a severe Balance of Payments crisis alongside a high risk of defaulting on external debt. \n\nThe institutions granted a $7 billion loan on the condition that India would:\n1. Liberalize the economy by removing restrictions on the private sector.\n2. Reduce the role of the government in many areas.\n3. Remove trade restrictions between India and other countries.\n\n*Wrong answer diagnosis*: If the student states that India borrowed money with no strings attached or simply to \"fund developmental projects,\" they fail to understand the conditional nature of the structural adjustment loan that triggered the NEP.",
+     "self_check": true
+    },
+    {
+     "q": "Suppose Country X has a fiscal deficit of 8% of GDP, foreign exchange reserves of $1.2 billion (equivalent to 10 days of imports), and double-digit inflation. Based on India's 1991 experience, identify the type of economic crisis Country X is facing, and state the immediate short-term policy action required to stabilize its currency and reserves.",
+     "a": "Country X is facing a Balance of Payments (BOP) and fiscal crisis, highly analogous to India's 1991 crisis.\n\n**Steps to resolve**:\n1. *Identify the crisis indicators*: Depleted forex reserves (less than 14 days/2 weeks of imports), high fiscal deficit, and high inflation.\n2. *Determine the immediate action*: Country X must implement **Stabilisation Measures** (short-term).\n3. *Specific actions*: Secure emergency balance-of-payments support from international lenders (like the IMF), restrict non-essential imports, and implement tight monetary/fiscal policies to curb inflation and conserve foreign exchange.\n\n*Wrong-answer diagnosis*: If the student suggests long-term structural reforms (like privatizing public enterprises or changing labor laws) as the *immediate* fix, they fail to recognize that structural reforms take years to show results, whereas immediate stabilization is required to prevent default when reserves are down to 10 days.",
+     "self_check": true
+    },
+    {
+     "q": "State any three main causes that led to the economic crisis of 1991 in India.",
+     "a": "The three main causes of the 1991 economic crisis were:\n1. **Persistent Fiscal Deficit / Inefficient Management**: Government expenditure far exceeded its revenue from taxation and public enterprises, leading to heavy borrowing.\n2. **Balance of Payments (BOP) Crisis**: Imports grew much faster than exports, and foreign exchange reserves fell to a critical level (insufficient for even two weeks of imports).\n3. **High Inflationary Pressures**: The prices of essential goods rose sharply due to a shortage of supplies and excessive money supply growth.\n\n**Marking Scheme**:\n- 1 Mark for explaining the Fiscal Deficit/Inefficient management.\n- 1 Mark for explaining the BOP crisis and critical depletion of forex reserves.\n- 1 Mark for mentioning high inflation/rise in prices of essential commodities.",
+     "self_check": true
+    },
+    {
+     "q": "Distinguish between the World Bank (IBRD) and the International Monetary Fund (IMF) in terms of their primary roles during India's 1991 crisis.",
+     "a": "While both institutions jointly provided the $7 billion loan, their primary roles differ:\n- The **IMF** primarily focuses on maintaining international monetary stability and providing short-to-medium-term loans to resolve Balance of Payments (BOP) crises.\n- The **World Bank (IBRD)** focuses on long-term economic development, structural reconstruction, and policy reforms to improve productivity.\n\n*Wrong-answer diagnosis*: Students often treat IMF and World Bank as completely interchangeable entities, failing to realize that the IMF is the specialized body for BOP/forex stabilization, while the World Bank drives long-term structural change.",
+     "self_check": true
+    },
+    {
+     "q": "How did the short-term stabilization goal of restoring foreign exchange reserves directly lead to the long-term structural reform of \"Devaluation of the Rupee\"?",
+     "a": "To quickly address the BOP crisis (stabilization), India needed to increase foreign exchange inflows and boost exports. This led directly to the policy of devaluing the Indian Rupee against foreign currencies in July 1991. Devaluation made Indian exports cheaper abroad and imports more expensive at home, encouraging an inflow of foreign exchange and helping to correct the BOP deficit.\n\n*Wrong-answer diagnosis*: If the student fails to connect the immediate need for forex (stabilization) with the policy mechanism of exchange rate adjustment (structural reform), they do not understand how stabilization and structural reforms are integrated.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In 1991, India's foreign exchange reserves fell to a level that was insufficient to sustain imports for even ________ weeks.",
+     "a": "two",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The short-term measures of the New Economic Policy aimed at controlling inflation and correcting the BOP deficit are called ________ measures.",
+     "a": "stabilisation",
+     "self_check": true
+    },
+    {
+     "q": "What is The 1991 Crisis and the New Economic Policy? State the definition given in this lesson.",
+     "a": "The 1991 Economic Crisis refers to a severe macroeconomic crisis in India characterized by a Balance of Payments (BOP) deficit, high fiscal deficit, double-digit inflation, and foreign exchange reserves falling to a level insufficient to finance even two weeks of imports. The New Economic Policy (NEP) refers to the set of economic reforms introduced by the Indian government in July 1991, consisting of short-term Stabilisation Measures (to correct BOP and control inflation) and long-term Structural Reform Measures (to improve economic efficiency and international competitiveness through Liberalisation, Privatisation, and Globalisation).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about The 1991 Crisis and the New Economic Policy?",
+     "a": "The lesson flags the common mix-up where students confuse short-term Stabilisation measures (aimed at immediate crisis control like fixing BOP and inflation) with long-term Structural reform measures (aimed at structural changes like LPG).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "To master this topic, a student must be able to: \n1. Identify and explain the key causes of the 1991 economic crisis (BOP crisis, high fiscal deficit, double-digit inflation, and depletion of foreign exchange reserves). \n2. Distinguish clearly between short-term stabilization measures and long-term structural reform measures. \n3. Explain the role of international financial institutions (IMF and World Bank/IBRD) and their conditionalities in initiating the NEP.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

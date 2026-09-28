@@ -34,6 +34,31 @@
      "q": "Design a statistical table template (empty structure with all seven parts labelled) for presenting \"Quarterly GDP Growth Rate (%) of India, 2020–21 to 2023–24\". The table should allow comparison across quarters and years. Draw the template with placeholders.",
      "a": "**Table 2: Quarterly GDP Growth Rate (%) of India, 2020–21 to 2023–24**\n\n| Year / Quarter | Q1 (Apr–Jun) | Q2 (Jul–Sep) | Q3 (Oct–Dec) | Q4 (Jan–Mar) | Annual Average |\n|----------------|--------------|--------------|--------------|--------------|----------------|\n| 2020–21        |              |              |              |              |                |\n| 2021–22        |              |              |              |              |                |\n| 2022–23        |              |              |              |              |                |\n| 2023–24        |              |              |              |              |                |\n\n**Footnotes:** Growth rates are year-on-year (YoY) at constant (2011–12) prices.  \n**Source:** National Statistical Office (NSO), Ministry of Statistics and Programme Implementation, Government of India, Quarterly GDP Estimates, various press releases.\n\nA poor answer (missing stub header \"Year / Quarter\", no unit in caption row, no footnote on YoY/constant prices, no specific source) reveals the student cannot anticipate the metadata needs of a two-way table (time × quarter) and treats the template as just a grid.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ table is a systematic arrangement of classified data in rows and columns with distinct parts: table number, title, captions (column heads), stubs (row heads), body (cells), footnotes, and source note.",
+     "a": "statistical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class monitor and your teacher hands you a messy spreadsheet of 50 students' marks in Math, Science, and English with no labels, no title, and no ______ of what the numbers mean.",
+     "a": "indication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class monitor and your teacher hands you a messy spreadsheet of ______ students' marks in Math, Science, and English with no labels, no title, and no indication of what the numbers mean.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Identify and label all seven parts of a statistical table from a given table image or description; (2) Construct a complete statistical table from raw data by correctly placing each part; (3) Explain the purpose of each part and why omitting any part reduces the table's reliability.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class monitor and your teacher hands you a messy ______ of 50 students' marks in Math, Science, and English with no labels, no title, and no indication of what the numbers mean.",
+     "a": "spreadsheet",
+     "self_check": true
     }
    ]
   }

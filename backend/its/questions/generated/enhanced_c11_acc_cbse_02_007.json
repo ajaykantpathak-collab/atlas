@@ -34,6 +34,36 @@
      "q": "Create a realistic business scenario involving at least three transactions where both Revenue Recognition and Matching Concepts must be applied simultaneously. Describe the transactions and state how each concept affects the recording.",
      "a": "Example scenario: (1) A consultancy firm completes a project on 25th March 2024, bills ₹2,00,000, receives payment on 10th April 2024. (2) It pays ₹30,000 on 1st April 2023 for annual software licence (1st April 2023 to 31st March 2024). (3) It incurs ₹15,000 electricity expense for March 2024, paid on 5th April 2024. Revenue Recognition: (1) revenue in 2023-24 (service rendered). Matching: (2) software licence expense spread over 12 months, ₹30,000 fully in 2023-24; (3) electricity expense in 2023-24 (accrued). A poor answer would miss the accrual for electricity or treat the licence as expense only in the month paid, showing inability to integrate both concepts across multiple transactions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Revenue ______ Concept states that revenue is recognised when a legal right to receive it arises, i.e., when goods are sold or services are rendered, regardless of when cash is received.",
+     "a": "Recognition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: He sold a sofa set on 28th March 2024 for ₹50,000 on credit, but the ______ pays on 15th April 2024.",
+     "a": "customer",
+     "self_check": true
+    },
+    {
+     "q": "What is Revenue Recognition Concept states that revenue? State the definition given in this lesson.",
+     "a": "Revenue Recognition Concept states that revenue is recognised when a legal right to receive it arises, i.e., when goods are sold or services are rendered, regardless of when cash is received.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ask yourself: In which financial year (ending ______st March) should the sale and rent be recorded?",
+     "a": "31",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Revenue Recognition Concept states that revenue?",
+     "a": "Students often believe revenue is recognised only when cash is received and expenses only when cash is paid (cash basis).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly determine the accounting period in which revenue and expenses should be recorded for a given set of transactions, and explain how this affects the calculation of profit or loss under the accrual basis.",
+     "self_check": true
     }
    ]
   }

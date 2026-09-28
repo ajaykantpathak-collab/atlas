@@ -34,6 +34,26 @@
      "q": "Design a minimal network scenario for a home with three devices (laptop, smart TV, phone) that need to share a single internet connection and stream videos from the laptop to the TV. Draw a labeled diagram and list the required network elements (hardware, software, protocols).",
      "a": "Diagram: ISP modem → wireless router (AP + switch) → laptop (Wi-Fi), smart TV (Wi-Fi), phone (Wi-Fi). Elements: modem (WAN interface), router (NAT, DHCP, firewall), Wi-Fi (802.11), TCP/IP stack on all devices, DLNA/miracast for streaming. A poor answer showing only a router and devices without protocols (DHCP, NAT, TCP/IP) or streaming protocol reveals a hardware-only mental model, missing the layered protocol architecture that makes sharing work.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A computer network is a collection of ______ computing devices (such as computers, servers, printers, and smartphones) linked by communication channels (wired or wireless) that enables them to share resources (hardware, software, data) and exchange information following defined protocols.",
+     "a": "interconnected",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school has 50 computers in the lab, but only one high-speed printer and one internet ______.",
+     "a": "connection",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school has ______ computers in the lab, but only one high-speed printer and one internet connection.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can define a computer network using precise terminology (nodes, links, protocols, resource sharing), explain at least three distinct purposes with real-world examples, and differentiate a computer network from a standalone computer or a simple cable connection between two devices.",
+     "self_check": true
     }
    ]
   }

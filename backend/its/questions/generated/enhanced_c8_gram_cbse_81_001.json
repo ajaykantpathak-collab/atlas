@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c8_gram_cbse_81_001",
+ "concepts": [
+  {
+   "id": "enh:c8_gram_cbse_81_001",
+   "title": "c8_gram_cbse_81_001",
+   "questions": [
+    {
+     "q": "Passive: 'The students clean the classroom every day.'",
+     "a": "'The classroom is cleaned by the students every day.' A wrong answer 'is clean' or 'was cleaned' shows tense drift — 'be' must keep the original present tense.",
+     "self_check": true
+    },
+    {
+     "q": "Passive: 'Someone has broken the window.'",
+     "a": "'The window has been broken' — vague agent 'someone' deletes, not 'by someone'. A wrong answer keeping 'by someone' shows the junk-agent error.",
+     "self_check": true
+    },
+    {
+     "q": "Active: 'The novel was written by Premchand.'",
+     "a": "'Premchand wrote the novel.' A wrong answer 'Premchand was written' reverses the surgery — object and subject swapped wrongly.",
+     "self_check": true
+    },
+    {
+     "q": "Passive voice flips the spotlight: the object becomes the subject, the verb becomes be + V3, and the doer moves to 'by…' or ______.",
+     "a": "disappears",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Passive voice flips the spotlight: the object becomes the subject, the verb becomes be + V3, and the doer moves to 'by…' or ______. 'The gardener planted the roses' → 'The roses were planted by the gardener.' The 'be' helper carries the tense.",
+     "a": "disappears",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The surgery in three cuts: (1) object walks to subject position; (2) verb → be + V3 where 'be' carries BOTH the ______ tense AND the new subject's number; (3) old subject → 'by' phrase, or delete it when it is vague ('someone stole' → 'was stolen', not 'by someone').",
+     "a": "original",
+     "self_check": true
+    },
+    {
+     "q": "What is Passive voice flips the spotlight? State the definition given in this lesson.",
+     "a": "Passive voice flips the spotlight: the object becomes the subject, the verb becomes be + V3, and the doer moves to 'by…' or disappears. 'The gardener planted the roses' → 'The roses were planted by the gardener.' The 'be' helper carries the tense.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Passive voice flips the spotlight: the object becomes the subject, the verb becomes be + V______, and the doer moves to 'by…' or disappears. 'The gardener planted the roses' → 'The roses were planted by the gardener.' The 'be' helper carries the tense.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Passive voice flips the spotlight?",
+     "a": "Students convert the participle but forget 'be' ('the letter written'), let the tense drift ('was stolen' becomes 'is stolen'), or keep junk agents ('by someone').",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student converts active↔passive in all four basic tenses, keeps tense inside the be-auxiliary, and drops vague agents (someone, people) instead of keeping them.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The surgery in three cuts: (1) object walks to subject ______; (2) verb → be + V3 where 'be' carries BOTH the original tense AND the new subject's number; (3) old subject → 'by' phrase, or delete it when it is vague ('someone stole' → 'was stolen', not 'by someone').",
+     "a": "position",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

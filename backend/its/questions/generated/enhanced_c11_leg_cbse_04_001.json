@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_04_001",
+   "title": "c11_leg_cbse_04_001",
+   "questions": [
+    {
+     "q": "What is the precise legal definition of \"State\" under Article 12 of the Constitution of India, and why is it placed in Part III (Fundamental Rights) rather than Part I (Union and its Territory)?",
+     "a": "Article 12 defines \"State\" as: (i) Government and Parliament of India; (ii) Government and Legislature of each State; (iii) All local/other authorities within India; (iv) All local/other authorities under Government of India's control. It is in Part III because it defines the *bearer of obligation* for Fundamental Rights (Articles 14–35) — only the \"State\" can violate FRs, so the definition must precede the rights. A wrong answer (e.g., \"State means only the central government\") reveals confusion between the political science concept of State (4 elements) and the constitutional definition for rights enforcement.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Supreme Court in *Kesavananda Bharati* (1973) held that the Preamble is part of the Constitution and embodies its \"Basic Structure,\" despite earlier *Berubari* (1960) saying it was not.",
+     "a": "*Berubari* treated Preamble as a mere preface with no legal effect. *Kesavananda Bharati* overruled this by holding: (1) Preamble was adopted by the Constituent Assembly like other provisions; (2) It declares the source (\"We the People\"), nature (Sovereign Socialist Secular Democratic Republic), and objectives (Justice, Liberty, Equality, Fraternity); (3) Amending power under Article 368 cannot destroy these core features — they are the \"Basic Structure.\" A wrong answer (e.g., \"Preamble is just introductory\") shows failure to grasp that the Preamble is the *interpretive key* and *limit on amendment power*, not decorative text.",
+     "self_check": true
+    },
+    {
+     "q": "A government-funded university denies admission to a student based on caste. The student files a writ petition under Article 32. The university argues it is not \"State\" under Article 12 because it is an autonomous body registered as a society. Apply the *Ajay Hasia* / *Pradeep Kumar Biswas* test to decide.",
+     "a": "Step 1: Identify the test — \"instrumentality of State\" (*Ajay Hasia v. Khalid Mujib*, 1981; refined in *Pradeep Kumar Biswas v. Indian Institute of Chemical Biology*, 2002). Step 2: Check factors — (a) Government share capital/financial control; (b) Deep and pervasive state control; (c) Public importance of functions; (d) Government-appointed majority on governing body. Step 3: Apply — Government funding + public function (education) + government nominees on board = instrumentality of State. Step 4: Conclusion — University is \"State\" under Article 12; caste-based denial violates Article 14/15; writ lies. A wrong answer (e.g., \"Autonomous body ≠ State\") ignores the functional test and treats legal form as decisive.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the writ jurisdiction of the Supreme Court (Article 32) and High Courts (Article 226) on three dimensions: (a) Purpose, (b) Discretion to refuse, (c) Territorial reach. Why did the Constituent Assembly make Article 32 a Fundamental Right but not Article 226?",
+     "a": "(a) Purpose: Article 32 — *only* for FR enforcement; Article 226 — FRs + *any other legal right* (statutory, contractual, etc.). (b) Discretion: Article 32 — SC *cannot refuse* (it is itself a FR); Article 226 — HC *may refuse* (discretionary). (c) Reach: Article 32 — entire India; Article 226 — only within HC's territorial jurisdiction. Article 32 is a FR because Dr. Ambedkar called it the \"heart and soul\" — without guaranteed access to the apex court, FRs would be illusory. A wrong answer (e.g., \"Both are same\") conflates the *constitutional guarantee* of remedy (Art 32) with the *general supervisory* jurisdiction (Art 226).",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The distinction between Fundamental Rights (Part III) and Directive Principles (Part IV) is artificial because courts have read DPSPs into Article 21, making them *de facto* justiciable.\" Support with *Unni Krishnan* (1993), *Olga Tellis* (1985), and *MC Mehta* (1997).",
+     "a": "The distinction remains *doctrinally* valid but *functionally* eroded. *Unni Krishnan*: Right to education (Art 41, 45) read into Art 21 → made FR via 86th Amendment. *Olga Tellis*: Right to livelihood (Art 39, 41) read into Art 21 → pavement dwellers protected from eviction without rehabilitation. *MC Mehta*: Right to clean environment (Art 48A, 51A(g)) read into Art 21 → absolute liability for hazardous industries. However, DPSPs still cannot be *directly* enforced (no writ for Art 38 alone); they enter only as *interpretive aids* to expand FRs. The \"artificial\" claim is half-true: the *textual* divide persists, but *judicial creativity* has bridged it for socio-economic rights. A wrong answer (e.g., \"DPSPs are now fully justiciable\") ignores that courts still refuse direct enforcement of DPSPs (e.g., *State of Tamil Nadu v. L. Abu Kavur Bai*, 1984).",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical constitutional amendment that would *violate* the Basic Structure doctrine per *Kesavananda Bharati* and *IR Coelho* (2007). Explain which Basic Structure feature it attacks and why it would be struck down even if passed by special majority under Article 368 and ratified by states.",
+     "a": "Proposed Amendment: \"Article 32 (Right to Constitutional Remedies) is deleted. No court shall issue writs for Fundamental Rights enforcement. Parliament may enact a law creating a 'Rights Tribunal' appointed by the Executive, whose decisions are final and non-appealable.\" Attacks: (1) Judicial Review (Basic Structure per *Kesavananda*, *L. Chandra Kumar*); (2) Independent Judiciary; (3) Rule of Law; (4) Federal Balance (removes HC Art 226 indirectly). *IR Coelho*: Laws in 9th Schedule after 1973 are subject to Basic Structure test — this amendment would be struck down because it destroys the *enforcement architecture* of FRs, rendering them \"parchment barriers.\" A poor answer (e.g., \"Amendment changing Preamble\") misses that *some* Preamble words were added (42nd Amendment) — the test is *destruction of core identity*, not mere change.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

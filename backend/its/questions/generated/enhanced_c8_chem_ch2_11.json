@@ -34,6 +34,31 @@
      "q": "Design a simple domestic experiment using an electric kettle, a metal plate, and ice cubes to demonstrate both vaporization (boiling) and condensation in a single setup, explaining the particle behavior in each stage.",
      "a": "A valid design involves heating water in an electric kettle until it boils (vaporization, where liquid particles gain energy and escape as gas/steam), and then holding a cold metal plate in the path of the rising steam. The steam particles touch the cold plate, lose thermal energy, slow down, and condense into liquid water droplets. A poor answer fails to include both phase changes or incorrectly describes steam as a different chemical substance rather than water vapor.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Changes of state are physical processes in which matter transitions between solid, liquid, and gas phases due to the absorption or release of thermal energy, which alters the kinetic energy and ______ spacing of constituent particles without changing their chemical identity.",
+     "a": "intermolecular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you take ice cubes ______ out of the freezer and leave them in a steel tumbler on a warm summer afternoon in Delhi, you notice they turn into water, and soon tiny water droplets appear on the outside of the tumbler.",
+     "a": "straight",
+     "self_check": true
+    },
+    {
+     "q": "What is Changes of state? State the definition given in this lesson.",
+     "a": "Changes of state are physical processes in which matter transitions between solid, liquid, and gas phases due to the absorption or release of thermal energy, which alters the kinetic energy and intermolecular spacing of constituent particles without changing their chemical identity.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain phase transitions at the particle level by describing changes in kinetic energy, intermolecular spacing, and attractive forces, and can predict whether thermal energy is absorbed or released during melting, freezing, boiling, and condensation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you take ice cubes straight out of the freezer and leave them in a steel tumbler on a warm summer ______ in Delhi, you notice they turn into water, and soon tiny water droplets appear on the outside of the tumbler.",
+     "a": "afternoon",
+     "self_check": true
     }
    ]
   }

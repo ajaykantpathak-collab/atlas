@@ -31,8 +31,33 @@
      "self_check": true
     },
     {
-     "q": "Design a prior art search strategy for a patent application claiming a novel CRISPR-Cas9 guide RNA sequence targeting a specific mutation in the *HBB* gene for sickle cell therapy. List the databases, search strings, and classification codes you would use, and explain how you would assess novelty of the guide RNA sequence itself versus the method of use.",
-     "a": "Strategy: (1) Databases—Indian Patent Office (IPO), WIPO Patentscope, USPTO, EPO Espacenet, Google Patents, NCBI Gene/PubMed for literature. (2) Search strings—\"CRISPR AND HBB AND sickle\", \"guide RNA AND beta-globin\", \"Cas9 AND HbS mutation\", \"gRNA AND HBB exon 1\". (3) IPC/CPC codes—C12N 15/11 (gene therapy), C12N 9/22 (CRISPR), A61K 48/00 (medicinal preparations). (4) Novelty assessment: The *guide RNA sequence per se* (as a nucleic acid molecule) is assessed against prior art sequences—if the exact 20-nt spacer sequence is disclosed, it lacks novelty. The *method of use* (treating sickle cell with this gRNA) is a separate claim category; even if the sequence is known, a new therapeutic use may be patentable as a second medical use (Swiss-type claim) if not previously disclosed for that indication. A poor answer using only keyword search without classification codes or failing to distinguish product vs. use claims reveals inadequate understanding of biotech claim drafting and search methodology.",
+     "q": "Give the correct order of stages in a prior art search for a patent claim on a novel guide RNA sequence.",
+     "a": "The search runs: (1) Classify the invention by its patent codes such as those covering CRISPR systems and gene therapy (2) Sweep the patent databases and scientific literature with targeted search strings (3) Shortlist documents claiming guide RNA sequences for the same gene or mutation (4) Compare claim elements against each hit to judge novelty and inventive step before drafting. A wrong answer that drafts claims before searching shows the student has missed that the roadmap runs from identifying the invention through patentability checks to filing.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Intellectual Property Rights (IPR) in biotechnology are legal rights that protect creations of the mind—such as inventions, designs, and biological materials—granting the creator exclusive control over their use and ______ for a defined period.",
+     "a": "commercialization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you've ______ a novel *Bacillus* strain that degrades plastic waste 10x faster than existing strains—your lab wants to commercialize it.",
+     "a": "engineered",
+     "self_check": true
+    },
+    {
+     "q": "What is Intellectual Property Rights (IPR) in biotechnology? State the definition given in this lesson.",
+     "a": "Intellectual Property Rights (IPR) in biotechnology are legal rights that protect creations of the mind—such as inventions, designs, and biological materials—granting the creator exclusive control over their use and commercialization for a defined period.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A patent is a specific IPR instrument that gives the inventor a ______-year monopoly to make, use, sell, or import a novel biotechnological invention (e.g., a recombinant microorganism, gene sequence, or bioprocess) that satisfies novelty, inventive step, and industrial applicability criteria.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between patentable and non-patentable subject matter in Indian biotechnology law, explain the three patentability criteria with biotech-specific examples, and describe the complete patent filing pathway from provisional specification to grant in India.",
      "self_check": true
     }
    ]

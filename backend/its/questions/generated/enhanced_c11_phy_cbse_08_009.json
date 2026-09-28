@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a metre scale, two supports, and known weights to verify that the depression δ of a beam scales as 1/d³ (where d is depth). List the variables you would keep constant, the measurements you would take, and how you would plot the data to confirm the cubic relationship.",
      "a": "Keep constant: length l, breadth b, material (Young's modulus Y), load W, support positions. Vary depth d by using different wooden/plastic strips of same breadth but different thicknesses. Measure δ for each d. Plot δ vs 1/d³; a straight line through origin confirms δ ∝ 1/d³. A poor answer would vary multiple parameters at once or plot δ vs d expecting a straight line.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of elastic behaviour involve using the elastic moduli (Young's modulus, shear modulus, bulk modulus) and strength limits (yield strength, ultimate tensile strength) to design load-bearing structures such as beams, columns, ropes, and pillars.",
+     "a": "Applications",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a construction site where steel ropes lift cement bags and I-beams form the skeleton of a ______.",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key principle is designing dimensions so that maximum operational stress is well below yield strength (safety factor ~______) while minimizing material.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to calculate the minimum cross-sectional area of a crane rope given load and yield strength with a safety factor, compute the depression of a centrally loaded beam using the beam formula, and explain why I-shaped cross-sections are preferred over solid rectangular beams for load-bearing applications.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ site where steel ropes lift cement bags and I-beams form the skeleton of a building.",
+     "a": "construction",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_06_007",
+   "title": "c12_psy_cbse_06_007",
+   "questions": [
+    {
+     "q": "State the two steps in S.M. Mohsin's Two-Step Concept of Attitude Change and name the role of each participant (target/source) in each step.",
+     "a": "**Correct answer:** Step 1 (Identification): The **target** (person whose attitude is to change) identifies with the **source** (influencer) — develops liking/regard, puts themselves in the source's place. Step 2 (Imitation): The **source** demonstrates a changed attitude/behaviour toward the attitude object; the **target** observes and imitates this change.  \n**What a wrong answer reveals:** If the student reverses roles (e.g., \"source identifies with target\"), they confuse the direction of influence. If they merge steps into \"target imitates source,\" they miss the prerequisite mutual regard — identification is not the same as imitation; it's the *condition* that makes imitation possible.",
+     "self_check": true
+    },
+    {
+     "q": "Preeti admires a sportsperson who endorses a soft drink. The sportsperson later switches to endorsing a health drink and stops consuming the soft drink. Preeti also stops consuming the soft drink. Using Mohsin's model, explain why Preeti's attitude changed. A classmate says: \"Preeti changed because the sportsperson is credible.\" Why is this explanation incomplete according to Mohsin?",
+     "a": "**Correct answer:** Preeti changed because (Step 1) she **identified** with the sportsperson (liking, regard, psychological closeness) — this created the *readiness* to be influenced. (Step 2) The sportsperson **demonstrated actual behaviour change** (switching drinks), which Preeti **imitated**. The classmate's \"credibility\" explanation is incomplete because Mohsin's model requires **mutual positive regard and identification**, not just source credibility. Credibility is a source characteristic (covered in next node); Mohsin emphasizes the *relational bond* (target's identification + source's regard for target) as the engine of change.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher wants students to develop a positive attitude toward reading classic literature. The teacher is well-liked but rarely reads classics themselves. A popular senior student starts a \"Classic Book Club\" and actively discusses novels. Using Mohsin's two-step concept, predict which source (teacher or senior) is more likely to change students' attitudes and explain why.",
+     "a": "**Correct answer:** The **senior student** is more likely to succeed. Step 1: Students likely **identify more strongly** with a peer (similar age, shared context) than a teacher — mutual regard is easier horizontally. Step 2: The senior **demonstrates the behaviour** (reading, discussing), providing a live model to imitate. The teacher fails Step 2 (no behaviour change shown) and possibly Step 1 (vertical relationship may limit identification). Mohsin's model predicts change only when **both** steps occur: identification *plus* observable source behaviour change.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Mohsin's Two-Step Concept with (a) Heider's Balance Theory and (b) Festinger's Cognitive Dissonance. Identify **one fundamental difference** in the *mechanism* of attitude change for each comparison.",
+     "a": "**Correct answer:**  \n(a) **vs. Balance Theory:** Balance Theory is **intrapsychic/cognitive** — change driven by *logical inconsistency* in the P-O-X triangle (e.g., two positives + one negative = imbalance). Mohsin is **interpersonal/relational** — change driven by *identification and imitation* between two people; no cognitive inconsistency required.  \n(b) **vs. Cognitive Dissonance:** Dissonance is **intrapsychic** — change driven by *discomfort from conflicting cognitions within the same person* (e.g., \"I smoke\" vs. \"Smoking kills\"). Mohsin is **social-observational** — change occurs via *watching another person's behaviour change* after identifying with them; the target need not hold dissonant cognitions initially.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this claim: \"Mohsin's Two-Step Concept is just Bandura's Observational Learning applied to attitudes.\" Defend or refute using specific elements of Mohsin's model.",
+     "a": "**Correct answer:** **Refute — it's an incomplete overlap.** Bandura's observational learning (attention, retention, reproduction, motivation) explains *how* imitation works generally. Mohsin **adds a necessary precursor**: **mutual identification** (target's regard for source + source's positive attitude toward target). In Bandura, a child can imitate a filmed model with no relationship. In Mohsin, **without Step 1 (identification), Step 2 (imitation) fails** — the source's behaviour change won't transfer if the target doesn't identify with them. Mohsin specifies the *relational condition* for attitude-specific imitation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world intervention to reduce plastic-bag use among shoppers in a local market using Mohsin's Two-Step Concept. Specify: (i) who the source(s) should be, (ii) how to establish Step 1 (identification), (iii) what behaviour change the source must demonstrate in Step 2, and (iv) why this would work better than a poster campaign.",
+     "a": "**Expected answer criteria:**  \n(i) Source: **Respected local vendors / community elders / popular shopkeepers** (not outsiders).  \n(ii) Step 1: Build identification via **shared identity** (\"We're all from this market\"), **public appreciation** of shoppers, **source expresses care** for shoppers' health/future — creating mutual regard.  \n(iii) Step 2: Sources **visibly switch to cloth/jute bags**, refuse plastic, display alternatives — *behaviour change modelled live*.  \n(iv) Better than posters because: Posters lack **identification** (no source-target bond) and **live modelling** (static message vs. dynamic behaviour). Mohsin predicts change only when *both* relational bond and observable change coexist.  \n**Poor answer reveals:** Listing generic \"celebrities\" as sources (weak identification), skipping Step 1, or treating Step 2 as \"telling people to change\" instead of *showing* change.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mohsin's Two-Step Concept of Attitude Change proposes that attitude change occurs through a sequential process: (1) Identification — the target person develops liking and regard for the source, ______ putting themselves in the source's place, and (2) Imitation — the source demonstrates a changed attitude/behaviour toward the attitude object, which the target then observes and replicates through observational learning.",
+     "a": "psychologically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your favourite cricket star suddenly switches from ______ a sugary cola to promoting a millet-based health drink.",
+     "a": "endorsing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now you watch them actually drink the health drink in interviews, post workout videos with it — that's Step ______: Imitation, where their behaviour change becomes your behaviour change.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (a) correctly sequence and explain both steps with the roles of 'target' and 'source', (b) distinguish this two-step process from Heider's Balance Theory and Festinger's Cognitive Dissonance by identifying the unique mechanism (identification + imitation vs. cognitive consistency), and (c) apply the model to a novel.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your ______ cricket star suddenly switches from endorsing a sugary cola to promoting a millet-based health drink.",
+     "a": "favourite",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

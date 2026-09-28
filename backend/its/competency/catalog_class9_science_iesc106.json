@@ -24,12 +24,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "list the forces",
-     "explain": "Identify every push or pull with its direction."},
-    {"step": 2, "action": "add them vectorially",
-     "explain": "Opposite forces subtract; same-side forces add."},
-    {"step": 3, "action": "read the result",
-     "explain": "Zero net force keeps motion unchanged; nonzero net force changes it."}
+    {
+     "step": 1,
+     "action": "list the forces",
+     "explain": "Identify every push or pull with its direction."
+    },
+    {
+     "step": 2,
+     "action": "add them vectorially",
+     "explain": "Opposite forces subtract; same-side forces add."
+    },
+    {
+     "step": 3,
+     "action": "read the result",
+     "explain": "Zero net force keeps motion unchanged; nonzero net force changes it."
+    }
    ]
   },
   {
@@ -50,10 +59,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "multiply mass by acceleration",
+    {
+     "step": 1,
+     "action": "multiply mass by acceleration",
      "explain": "The net force is the product of mass and acceleration.",
-     "compute": "force = mass * acceleration"}
-   ]
+     "compute": "force = mass * acceleration"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "force = mass * acceleration",
+     "compute": "force = mass * acceleration"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.106.6.3",
@@ -73,12 +94,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "identify the pair",
-     "explain": "Name the two bodies exchanging the action-reaction forces."},
-    {"step": 2, "action": "apply conservation",
-     "explain": "Total momentum before equals total momentum after."},
-    {"step": 3, "action": "explain the effect",
-     "explain": "The recoil, rocket or swimmer moves as momentum balances."}
+    {
+     "step": 1,
+     "action": "identify the pair",
+     "explain": "Name the two bodies exchanging the action-reaction forces."
+    },
+    {
+     "step": 2,
+     "action": "apply conservation",
+     "explain": "Total momentum before equals total momentum after."
+    },
+    {
+     "step": 3,
+     "action": "explain the effect",
+     "explain": "The recoil, rocket or swimmer moves as momentum balances."
+    }
    ]
   }
  ],
@@ -94,9 +124,12 @@
     "acceleration": "acceleration in m/s squared"
    },
    "solution_template": [
-    {"step": 1, "action": "multiply mass by acceleration",
+    {
+     "step": 1,
+     "action": "multiply mass by acceleration",
      "explain": "Force equals mass times acceleration.",
-     "compute": "force = mass * acceleration"}
+     "compute": "force = mass * acceleration"
+    }
    ]
   },
   {
@@ -110,9 +143,12 @@
     "acceleration": "acceleration in m/s squared"
    },
    "solution_template": [
-    {"step": 1, "action": "multiply mass by acceleration",
+    {
+     "step": 1,
+     "action": "multiply mass by acceleration",
      "explain": "Newton's second law gives the net force.",
-     "compute": "force = mass * acceleration"}
+     "compute": "force = mass * acceleration"
+    }
    ]
   }
  ],
@@ -121,9 +157,9 @@
    "id": "ex6.1",
    "source_ref": "iesc106.txt exercises",
    "questions": [
-     "Find the net force in the given situations.",
-     "State and explain Newton's laws with examples.",
-     "Solve the given force-acceleration numericals."
+    "Find the net force in the given situations.",
+    "State and explain Newton's laws with examples.",
+    "Solve the given force-acceleration numericals."
    ]
   }
  ]

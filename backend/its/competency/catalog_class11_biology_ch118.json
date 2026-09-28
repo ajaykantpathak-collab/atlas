@@ -20,7 +20,7 @@
     "Classify the major divisions of the human nervous system",
     "state two key points about organization of the human neural system"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,16 @@
      "action": "confirm autonomic subdivisions",
      "explain": "Check that the autonomic division further splits into sympathetic and parasympathetic branches controlling involuntary visceral activity."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "PNS = somatic_division + autonomic_division",
+     "compute": "PNS = somatic_division + autonomic_division"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.18.2.2",
@@ -54,7 +63,7 @@
     "Which nerve fibres convey regulatory signals from the central neural system?",
     "give one everyday example of afferent and efferent nerve fibres"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -71,7 +80,16 @@
      "action": "verify functional reciprocity",
      "explain": "Confirm that afferent and efferent fibres form paired reflex arcs, ensuring sensory input and motor output are coordinated through the CNS."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_pathways = afferent_pathways + efferent_pathways",
+     "compute": "total_pathways = afferent_pathways + efferent_pathways"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.18.3.1",
@@ -88,7 +106,7 @@
     "Where are unipolar, bipolar, and multipolar neurons located in the body?",
     "state two key points about neuron morphology and classification"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -105,7 +123,16 @@
      "action": "distinguish myelination status",
      "explain": "Verify that myelinated fibres conduct impulses via saltatory conduction at nodes of Ranvier while non-myelinated fibres conduct continuously."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "neuron_processes = dendrite_count + axon_count",
+     "compute": "neuron_processes = dendrite_count + axon_count"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.18.3.2",
@@ -122,7 +149,7 @@
     "What role does the sodium-potassium pump play in resting potential?",
     "short note on resting membrane potential and polarization"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -139,7 +166,16 @@
      "action": "confirm resting voltage value",
      "explain": "Verify that the combined ionic gradients and selective permeability establish a resting membrane potential of approximately minus seventy millivolts."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_cation_export_rate = (3 * Na_out) - (2 * K_in)",
+     "compute": "net_cation_export_rate = (3 * Na_out) - (2 * K_in)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.18.3.3",
@@ -176,7 +212,16 @@
      "explain": "Subtract imported positive charges from extruded positive charges",
      "compute": "net_charge = na_out - k_in"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_charge = cycles * (3 - 2)",
+     "compute": "net_charge = cycles * (3 - 2)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.18.3.4",
@@ -193,7 +238,7 @@
     "What causes the reversal of membrane polarity during a nerve impulse?",
     "how does action potential generation and impulse propagation work"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -210,7 +255,16 @@
      "action": "track repolarisation efflux",
      "explain": "Confirm sodium permeability drops rapidly while potassium efflux restores the baseline resting potential."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "action_potential = depolarisation_phase + repolarisation_phase",
+     "compute": "action_potential = depolarisation_phase + repolarisation_phase"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.18.3.5",
@@ -227,7 +281,7 @@
     "Explain the role of synaptic vesicles and receptor channels at the synapse",
     "why is synaptic impulse transmission important"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -244,7 +298,16 @@
      "action": "compare electrical and chemical synapse modes",
      "explain": "Confirm that electrical synapses allow direct ion flow through gap junctions for rapid transmission while chemical synapses rely on neurotransmitter diffusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "synaptic_transmission = vesicle_fusion + neurotransmitter_binding",
+     "compute": "synaptic_transmission = vesicle_fusion + neurotransmitter_binding"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.18.4.1",
@@ -261,7 +324,7 @@
     "Describe the anatomical protection of the central nervous system",
     "list the main features of cranial meninges and structural envelopes of the brain"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -278,7 +341,16 @@
      "action": "distinguish arachnoid and pia mater functions",
      "explain": "Confirm the arachnoid encloses the subarachnoid space containing cerebrospinal fluid while the vascular pia mater closely invests every contour of the brain surface."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "cranial_meninges = dura_mater + arachnoid_mater + pia_mater",
+     "compute": "cranial_meninges = dura_mater + arachnoid_mater + pia_mater"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.18.4.2",
@@ -295,7 +367,7 @@
     "What structures constitute the limbic system and what are their functions?",
     "describe forebrain anatomy and functional centers with an example"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -312,7 +384,16 @@
      "action": "map cortical functional areas",
      "explain": "Verify that the cerebral cortex contains distinct sensory, motor, and association areas including the motor cortex in the frontal lobe and the sensory cortex in the parietal lobe."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "forebrain = cerebrum + thalamus + hypothalamus",
+     "compute": "forebrain = cerebrum + thalamus + hypothalamus"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.18.4.3",
@@ -329,7 +410,7 @@
     "Describe the anatomical position and parts of the midbrain",
     "list the main features of midbrain and brainstem architecture"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -346,7 +427,16 @@
      "action": "verify corpora quadrigemina function",
      "explain": "Confirm the four dorsal swellings of the corpora quadrigemina comprise superior colliculi for visual reflexes and inferior colliculi for auditory relay."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "brain_stem = midbrain + pons + medulla_oblongata",
+     "compute": "brain_stem = midbrain + pons + medulla_oblongata"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.18.4.4",
@@ -363,7 +453,7 @@
     "How does cerebellar surface convolution support high neuronal density?",
     "list the main features of hindbrain organization and autonomous reflex centers"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -380,7 +470,16 @@
      "action": "verify pons connectivity role",
      "explain": "Confirm the pons serves as a relay bridge interconnecting different parts of the brain through transverse fibre tracts."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "hindbrain = pons + cerebellum + medulla_oblongata",
+     "compute": "hindbrain = pons + cerebellum + medulla_oblongata"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

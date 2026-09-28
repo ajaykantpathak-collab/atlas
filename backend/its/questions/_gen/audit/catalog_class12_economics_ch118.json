@@ -1,0 +1,410 @@
+{
+ "catalog": "catalog_class12_economics_ch118.json",
+ "concepts": [
+  {
+   "id": "lekl.118.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "meaning = 65",
+      "sound = 52",
+      "rhythm = 57",
+      "impact = meaning + sound + rhythm"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "meaning = 7.3",
+      "sound = 63",
+      "rhythm = 11",
+      "impact = meaning + sound + rhythm"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "meaning = 83",
+      "sound = 39",
+      "rhythm = 89",
+      "impact = meaning + sound + rhythm"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "meaning = 69",
+      "sound = 41",
+      "rhythm = 93",
+      "impact = meaning + sound + rhythm"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "meaning = 4.9",
+      "sound = 53",
+      "rhythm = 84",
+      "impact = meaning + sound + rhythm"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "meaning = 88",
+      "sound = 10.3",
+      "rhythm = 55",
+      "impact = meaning + sound + rhythm"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "impact = meaning + sound + rhythm"
+   ]
+  },
+  {
+   "id": "lekl.118.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "intellect = 87",
+      "startling_imagery = 25",
+      "metaphysical_effect = intellect + startling_imagery"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "intellect = 65",
+      "startling_imagery = 62",
+      "metaphysical_effect = intellect + startling_imagery"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "intellect = 80",
+      "startling_imagery = 73",
+      "metaphysical_effect = intellect + startling_imagery"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "intellect = 85",
+      "startling_imagery = 67",
+      "metaphysical_effect = intellect + startling_imagery"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "intellect = 15.3",
+      "startling_imagery = 83",
+      "metaphysical_effect = intellect + startling_imagery"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "intellect = 22",
+      "startling_imagery = 44",
+      "metaphysical_effect = intellect + startling_imagery"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "metaphysical_effect = intellect + startling_imagery"
+   ]
+  },
+  {
+   "id": "lekl.118.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "origin = 96",
+      "derivation = 85",
+      "usage_period = 50",
+      "word_history = origin + derivation + usage_period"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "origin = 2.7",
+      "derivation = 5.4",
+      "usage_period = 4.1",
+      "word_history = origin + derivation + usage_period"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "origin = 15.6",
+      "derivation = 9.1",
+      "usage_period = 50",
+      "word_history = origin + derivation + usage_period"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "origin = 18.3",
+      "derivation = 10.8",
+      "usage_period = 39",
+      "word_history = origin + derivation + usage_period"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "origin = 56",
+      "derivation = 74",
+      "usage_period = 47",
+      "word_history = origin + derivation + usage_period"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "origin = 27",
+      "derivation = 72",
+      "usage_period = 29",
+      "word_history = origin + derivation + usage_period"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "word_history = origin + derivation + usage_period"
+   ]
+  },
+  {
+   "id": "lekl.118.6",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "innocence = 2.9",
+      "experience = 35",
+      "human_condition = innocence + experience"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "innocence = 73",
+      "experience = 66",
+      "human_condition = innocence + experience"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "innocence = 18.6",
+      "experience = 97",
+      "human_condition = innocence + experience"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "innocence = 0.8",
+      "experience = 22",
+      "human_condition = innocence + experience"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "innocence = 40",
+      "experience = 1.1",
+      "human_condition = innocence + experience"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "innocence = 33",
+      "experience = 52",
+      "human_condition = innocence + experience"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "human_condition = innocence + experience"
+   ]
+  },
+  {
+   "id": "lekl.118.7",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "feet = 59",
+      "total_syllables = feet * 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "feet = 10.4",
+      "total_syllables = feet * 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "feet = 33",
+      "total_syllables = feet * 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "feet = 29",
+      "total_syllables = feet * 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "feet = 27",
+      "total_syllables = feet * 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "feet = 7.7",
+      "total_syllables = feet * 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_syllables = feet * 2"
+   ]
+  },
+  {
+   "id": "lekl.118.9",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "human_aging = 0.9",
+      "swan_constancy = 0.5",
+      "contrast = human_aging / swan_constancy"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "human_aging = 14.4",
+      "swan_constancy = 4.3",
+      "contrast = human_aging / swan_constancy"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "human_aging = 12.4",
+      "swan_constancy = 15.7",
+      "contrast = human_aging / swan_constancy"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "human_aging = 2.1",
+      "swan_constancy = 4.5",
+      "contrast = human_aging / swan_constancy"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "human_aging = 0.2",
+      "swan_constancy = 12.7",
+      "contrast = human_aging / swan_constancy"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "human_aging = 6.6",
+      "swan_constancy = 5.2",
+      "contrast = human_aging / swan_constancy"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "contrast = human_aging / swan_constancy"
+   ]
+  },
+  {
+   "id": "lekl.118.10",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "clock_discrepancy = 5.5",
+      "communal_feuds = 99",
+      "urban_discord = clock_discrepancy + communal_feuds"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "clock_discrepancy = 3.9",
+      "communal_feuds = 42",
+      "urban_discord = clock_discrepancy + communal_feuds"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "clock_discrepancy = 12",
+      "communal_feuds = 12",
+      "urban_discord = clock_discrepancy + communal_feuds"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "clock_discrepancy = 98",
+      "communal_feuds = 15.1",
+      "urban_discord = clock_discrepancy + communal_feuds"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "clock_discrepancy = 53",
+      "communal_feuds = 10.1",
+      "urban_discord = clock_discrepancy + communal_feuds"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "clock_discrepancy = 70",
+      "communal_feuds = 62",
+      "urban_discord = clock_discrepancy + communal_feuds"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "urban_discord = clock_discrepancy + communal_feuds"
+   ]
+  }
+ ]
+}

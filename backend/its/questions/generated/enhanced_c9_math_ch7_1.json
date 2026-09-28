@@ -34,6 +34,36 @@
      "q": "Create a real-life situation (different from coin toss, die roll, or drawing balls) that involves a random experiment with exactly 4 equally likely outcomes. Describe the experiment and list the outcomes.",
      "a": "Example: Spinning a fair spinner divided into 4 equal sectors coloured Red, Blue, Green, Yellow. Outcomes: {Red, Blue, Green, Yellow} – equally likely because sectors are equal. Another: Randomly selecting a day from {Monday, Tuesday, Wednesday, Thursday} (assuming equal chance). A poor answer would be an experiment with outcomes that are not equally likely (e.g., \"weather: sunny, cloudy, rainy, stormy\") or with more/less than 4 outcomes. This reveals the student cannot design a valid random experiment with specified properties, indicating a lack of deep understanding of equally likely outcomes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Probability is the mathematical study of uncertainty that quantifies the likelihood of an event occurring, expressed as a number between 0 and 1 where 0 indicates ______ and 1 indicates certainty.",
+     "a": "impossibility",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are watching a cricket match and the commentator says \"There's a 70% ______ of rain interrupting play.\" How did they get that number?",
+     "a": "chance",
+     "self_check": true
+    },
+    {
+     "q": "What is Probability? State the definition given in this lesson.",
+     "a": "Probability is the mathematical study of uncertainty that quantifies the likelihood of an event occurring, expressed as a number between 0 and 1 where 0 indicates impossibility and 1 indicates certainty.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"What happens if you toss a ₹______ coin?",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Probability?",
+     "a": "Students often believe that \"random\" means \"completely unpredictable with no pattern whatsoever.\" They think if an experiment is random, then any outcome is possible at any time, and there is no long-term regularity.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between deterministic and random experiments, list all possible outcomes of simple random experiments (coin toss, die roll, drawing a card), and explain why probability is used to model real-life uncertainty instead of exact prediction.",
+     "self_check": true
     }
    ]
   }

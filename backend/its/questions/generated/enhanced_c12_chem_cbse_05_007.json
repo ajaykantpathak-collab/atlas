@@ -34,6 +34,31 @@
      "q": "Design a thought experiment: You have two unknown octahedral Co³⁺ (d⁶) complexes, one with ligand X, one with ligand Y. Complex 1 is diamagnetic; Complex 2 has μ = 4.9 BM. Using only magnetic data and the spectrochemical series, deduce which ligand is stronger field and propose identities for X and Y from common ligands.",
      "a": "Complex 1 diamagnetic → low-spin d⁶ (t2g⁶) → Δo > P → strong field ligand. Complex 2 μ = 4.9 BM ≈ 4 unpaired e⁻ → high-spin d⁶ (t2g⁴ eg²) → Δo < P → weak field ligand. Thus X (strong field) could be CN⁻, CO, NH₃, en; Y (weak field) could be F⁻, Cl⁻, H₂O. A poor answer assigns ligands randomly without linking magnetic moment to spin state to Δo magnitude, showing they cannot reverse-engineer the Δo vs P decision from experimental data.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ series is an experimentally determined ordering of ligands based on their crystal field splitting strength (Δo) in octahedral complexes, ranging from weak field ligands (small Δo, e.g., I⁻, Br⁻) to strong field ligands (large Δo, e.g., CN⁻, CO).",
+     "a": "spectrochemical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with the striking colour change when ethane-1,2-diamine (en) is added ______ to green [Ni(H₂O)₆]²⁺: pale blue → blue/purple → violet (NCERT Fig.",
+     "a": "stepwise",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The series determines whether a d⁴–d⁷ metal ion forms a high-spin complex (Δo < P, electrons occupy eg before pairing) or a low-spin complex (Δo > P, electrons pair in t______g first), directly governing magnetic properties and colour.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Rank any given set of ligands in the spectrochemical series and justify the order using σ-donor/π-acceptor arguments; (2) Predict high-spin vs low-spin configuration for octahedral d⁴–d⁷ ions given the ligand and metal oxidation state; (3) Calculate crystal field stabilisation energy (CFSE) in terms of Δo and pairing.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with the ______ colour change when ethane-1,2-diamine (en) is added stepwise to green [Ni(H₂O)₆]²⁺: pale blue → blue/purple → violet (NCERT Fig.",
+     "a": "striking",
+     "self_check": true
     }
    ]
   }

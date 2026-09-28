@@ -34,6 +34,31 @@
      "q": "Create a new flowchart symbol (draw and describe) for \"Wait for sensor input\" in an IoT device algorithm. Explain its shape, internal label, number of entry/exit points, and why existing symbols are insufficient.",
      "a": "A good answer proposes a distinct shape (e.g., a hexagon) labeled \"WAIT\", with one entry and one exit, explaining that a parallelogram implies active I/O by the CPU, while \"wait\" is a passive blocking state. A poor answer just renames a parallelogram, showing inability to analyze the *semantic difference* between active read and passive wait – a key distinction in embedded systems (link to IoT in Chapter 3.4).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Flowchart symbols are standardized geometric shapes used to visually represent the sequence of steps, decisions, and data flow in an algorithm, where each symbol has a specific meaning: oval for start/end, ______ for input/output, rectangle for process, diamond for decision, and arrows for flow direction.",
+     "a": "parallelogram",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You would use landmarks (turn left at the big banyan tree), ______ points (if the gate is closed, call me), and clear start/end points.",
+     "a": "decision",
+     "self_check": true
+    },
+    {
+     "q": "What is Flowchart symbols? State the definition given in this lesson.",
+     "a": "Flowchart symbols are standardized geometric shapes used to visually represent the sequence of steps, decisions, and data flow in an algorithm, where each symbol has a specific meaning: oval for start/end, parallelogram for input/output, rectangle for process, diamond for decision, and arrows for flow direction.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Flowchart symbols?",
+     "a": "Students believe the diamond decision symbol can have more than two outgoing arrows for multi-way choices (e.g., menu: 1, 2, 3, 4).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to correctly identify and draw all standard flowchart symbols (terminal, input/output, process, decision, connector, flow lines) and construct a complete, syntactically correct flowchart for a given algorithm involving sequence, selection, and iteration.",
+     "self_check": true
     }
    ]
   }

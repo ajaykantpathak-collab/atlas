@@ -20,7 +20,7 @@
     "differentiate between root hairs and trichomes",
     "how does epidermal tissue system work"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,16 @@
      "action": "Verify the protective and regulatory function",
      "explain": "Confirm that the epidermis acts as a barrier against pathogens and water loss, while guard cells regulate transpiration and gas exchange through stomatal opening and closing."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "stomatal_apparatus = stomatal_aperture + guard_cells + subsidiary_cells",
+     "compute": "stomatal_apparatus = stomatal_aperture + guard_cells + subsidiary_cells"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.6.1.3",
@@ -54,7 +63,7 @@
     "why are monocot bundles called closed",
     "short note on vascular tissue system"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -71,7 +80,16 @@
      "action": "Confirm the vascular bundle type",
      "explain": "Combine cambium presence and arrangement to classify the bundle as open conjoint, closed conjoint, or radial, confirming whether secondary growth is possible."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "open_bundle = phloem + cambium + xylem",
+     "compute": "open_bundle = phloem + cambium + xylem"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.6.2.1",
@@ -107,7 +125,16 @@
      "action": "Interpret the anatomical result",
      "explain": "Combine xylem bundle count and secondary growth potential to confirm the root type: monocot roots are polyarch with a large pith and no secondary growth, while dicot roots have fewer xylem bundles and show secondary growth."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "xylem_count = (is_monocot * 7) + (is_dicot * 3)",
+     "compute": "xylem_count = (is_monocot * 7) + (is_dicot * 3)"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

@@ -34,6 +34,21 @@
      "q": "Design a thought experiment to prove that the photoelectric effect is instantaneous (no time lag) even for extremely low intensity light, and explain what this implies about the energy transfer mechanism.",
      "a": "Place a freshly cleaned potassium plate (ν₀ = 5.0×10¹⁴ Hz) in vacuum. Illuminate with yellow light (ν = 5.2×10¹⁴ Hz) of intensity 10⁻¹⁰ W/m² (extremely dim). Use a fast detector to measure time between first photon arrival and first photoelectron detection. Result: time lag < 10⁻⁹ s even at this intensity. Implication: energy is NOT accumulated over time (wave model prediction) but transferred in a single photon-electron collision. A poor answer (e.g., \"measure current after 1 hour\") reveals the student confuses \"eventually some electrons appear\" with \"instantaneous per photon.\"",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The photoelectric effect is the phenomenon where electrons are ejected from a metal surface when ______ radiation of sufficient frequency (above a metal-specific threshold frequency ν₀) strikes it.",
+     "a": "electromagnetic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a solar-powered calculator or automatic street light — both use ______ sensors.",
+     "a": "photoelectric",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) state Einstein's photoelectric equation with all variables and units, (2) calculate threshold frequency, work function, or maximum kinetic energy given any two of the three quantities, (3) explain why intensity affects photocurrent but not stopping potential, and (4) predict whether photoelectric emission occurs for.",
+     "self_check": true
     }
    ]
   }

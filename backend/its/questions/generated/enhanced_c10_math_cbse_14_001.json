@@ -34,6 +34,26 @@
      "q": "A die is rolled. What is the probability of getting a number less than 7?",
      "a": "All outcomes {1, 2, 3, 4, 5, 6} are less than 7, so m = 6, n = 6. P(number < 7) = 6/6 = 1 (certain event). A wrong answer (e.g., 5/6) shows the student did not count all favourable outcomes correctly.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The classical ______ of probability states that if an experiment has n equally likely outcomes and m of them are favourable to an event E, then the probability of event E is P(E) = m/n, where 0 ≤ P(E) ≤ 1.",
+     "a": "definition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: There are two ______ outcomes: Heads (H) and Tails (T).",
+     "a": "possible",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If event E is \"getting Heads\", the favourable outcomes m = ______.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can define probability using the classical formula P(E) = m/n, identify equally likely outcomes in a given experiment, calculate the probability of simple events (coin toss, die roll, card draw, ball selection), and verify that the probability lies between 0 and 1 inclusive.",
+     "self_check": true
     }
    ]
   }

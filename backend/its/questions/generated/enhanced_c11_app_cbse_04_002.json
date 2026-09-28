@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_04_002",
+   "title": "c11_app_cbse_04_002",
+   "questions": [
+    {
+     "q": "State the formal definition of equality for two ordered pairs `(a, b)` and `(c, d)`.",
+     "a": "Two ordered pairs `(a, b)` and `(c, d)` are equal **if and only if** `a = c` **and** `b = d`. If a student writes \"if `a = c` or `b = d`\", they confuse the logical conjunction (AND) with disjunction (OR) — a critical error because both components must match simultaneously. If they say \"the sets are equal\", they are treating the ordered pair as an unordered set `{a, b}`, ignoring the significance of position.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the ordered pairs `(3, 5)` and `(5, 3)` are not equal, and give a real-life scenario where swapping the order changes the meaning completely.",
+     "a": "`(3, 5)` has first component 3 and second 5, while `(5, 3)` has first 5 and second 3; since `3 ≠ 5`, the equality condition fails at the first component itself. A correct real-life example: `(Roll Number, Name)` — `(15, \"Rohan\")` identifies a specific student, but `(\"Rohan\", 15)` would imply the roll number is \"Rohan\" and the name is 15, which is nonsensical. If a student says \"they contain the same numbers\", they are thinking of sets, not ordered pairs. If they cannot give a real-life example, they haven't internalized that *order encodes a relationship* (first → second).",
+     "self_check": true
+    },
+    {
+     "q": "If `(x² - 4, y + 2) = (0, 5)`, find the values of `x` and `y`.",
+     "a": "**Step 1:** Apply equality condition: `x² - 4 = 0` AND `y + 2 = 5`.  \n**Step 2:** Solve first equation: `x² = 4` → `x = 2` or `x = -2`.  \n**Step 3:** Solve second equation: `y = 3`.  \n**Answer:** `x = 2, -2` and `y = 3`.  \nIf a student writes only `x = 2`, they missed the negative root (common algebraic oversight). If they write `x = 2, y = 3` and `x = -2, y = 3` as two separate *ordered pairs* `(2, 3)` and `(-2, 3)`, they misunderstand that the question asks for *values of variables*, not the resulting pairs. If they set `x² - 4 = 5` and `y + 2 = 0`, they incorrectly cross-matched components.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: (a) The ordered pair `(a, b)` vs the set `{a, b}`. (b) The ordered pair `(a, b)` vs the open interval `(a, b)` in real numbers. List two differences for each.",
+     "a": "**(a) Ordered pair vs Set:**  \n1. Order matters in `(a, b)` but not in `{a, b}` (so `(a, b) ≠ (b, a)` usually, but `{a, b} = {b, a}`).  \n2. `(a, b)` can have `a = b` giving `(a, a)`, while `{a, a}` simplifies to `{a}` (a singleton).  \n**(b) Ordered pair vs Interval:**  \n1. `(a, b)` as a pair denotes exactly two specific elements; `(a, b)` as an interval denotes *infinitely many* real numbers between `a` and `b`.  \n2. In a pair, `a` and `b` can be any objects (numbers, letters, fruits); in an interval, `a` and `b` must be real numbers with `a < b`.  \nIf a student confuses notation `(a, b)` for all three, they lack notational discrimination — a major source of errors in Class 11 where context determines meaning.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since `(2, 3) = (2, 3)` is true, the statement `(x, y) = (y, x)` is true for all real numbers `x` and `y`.\" Evaluate this claim and provide a counterexample if false.",
+     "a": "The claim is **false**. The equality `(x, y) = (y, x)` holds **only if** `x = y` (by definition: first components equal ⇒ `x = y`; second components equal ⇒ `y = x`). Counterexample: Take `x = 1, y = 2`. Then `(1, 2)` has first component 1, second 2; `(2, 1)` has first 2, second 1. Since `1 ≠ 2`, the pairs are not equal. If the student thinks it's always true, they are generalizing from the reflexive property of equality (`A = A`) to a symmetric swap, ignoring that the *positions* are fixed labels. This reveals a failure to distinguish between *equality of a pair with itself* vs *equality after swapping components*.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own real-world scenario (Indian context) that requires an ordered triple `(a, b, c)` where changing the order changes the outcome. Define what each position represents and give two distinct ordered triples from your scenario.",
+     "a": "**Scenario:** A train ticket booking: `(Train Number, Date of Journey, Class of Travel)`.  \n- Position 1: Train Number (e.g., 12951 Rajdhani Express)  \n- Position 2: Date (e.g., 15-Nov-2024)  \n- Position 3: Class (e.g., 3AC)  \n**Triple 1:** `(12951, 15-Nov-2024, 3AC)` — valid booking for Rajdhani on 15th Nov in 3AC.  \n**Triple 2:** `(15-Nov-2024, 12951, 3AC)` — meaningless: \"Date\" cannot be a train number.  \nA good answer shows three *distinct categories* where order is semantically fixed. A poor answer uses three numbers like `(1, 2, 3)` vs `(3, 2, 1)` without context, showing they treat it as abstract symbols rather than a structured record. If they give a scenario where order doesn't matter (e.g., `(ingredient1, ingredient2, ingredient3)` for a salad), they haven't grasped that ordered tuples model *asymmetric relationships*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_01_003",
+   "title": "c11_app_cbse_01_003",
+   "questions": [
+    {
+     "q": "State the exact mathematical condition that the enciphering key *e* must satisfy relative to *φ(n)* in the RSA cryptosystem, and explain why this condition is necessary for the existence of the deciphering key *d*.",
+     "a": "The enciphering key *e* must satisfy **gcd(*e*, *φ(n)*) = 1** with 1 < *e* < *φ(n)*. This coprimality condition is necessary because *d* is defined as the modular multiplicative inverse of *e* modulo *φ(n)*, i.e., *ed* ≡ 1 (mod *φ(n)*). A modular inverse exists **if and only if** *e* and *φ(n)* are coprime (Bézout's identity). If gcd(*e*, *φ(n)*) > 1, no integer *d* satisfies the congruence, and decryption becomes impossible. A wrong answer (e.g., \"*e* must be prime\" or \"*e* < *n*\") reveals confusion between the *range* of *e* and the *number-theoretic requirement* for invertibility.",
+     "self_check": true
+    },
+    {
+     "q": "In the textbook example, *p* = 71, *q* = 101, *n* = 7171, *φ(n)* = 7000, *e* = 37, *d* = 3973. A student claims: \"Since *ed* = 37 × 3973 = 147,001 and 147,001 mod 7171 = 1, the keys are correct.\" Identify the error in the student's verification method and state the correct modulus that should be used.",
+     "a": "The student incorrectly used the modulus **n = 7171** instead of **φ(n) = 7000**. The defining relation for RSA keys is *ed* ≡ 1 (mod *φ(n)*), not mod *n*. Indeed, 37 × 3973 = 147,001 = 1 + 21 × 7000, so *ed* ≡ 1 (mod 7000) holds. The student's computation 147,001 mod 7171 = 1 is a coincidence (or arithmetic error — actual remainder is 147,001 - 20×7171 = 147,001 - 143,420 = 3,581 ≠ 1). This misconception stems from confusing the *encryption modulus* (*n*) with the *key-generation modulus* (*φ(n)*). Always verify *ed* mod *φ(n)* = 1.",
+     "self_check": true
+    },
+    {
+     "q": "Alice chooses primes *p* = 17, *q* = 23. She computes *n* = 391 and *φ(n)* = 352. She wants to use *e* = 11 as her public exponent. Determine whether *e* = 11 is a valid choice. If valid, compute the corresponding private exponent *d* (1 < *d* < *φ(n)*). If invalid, explain why and suggest the smallest valid *e* > 1.",
+     "a": "**Step 1:** Check gcd(*e*, *φ(n)*) = gcd(11, 352). Since 352 = 11 × 32, gcd = 11 ≠ 1.\n**Step 2:** *e* = 11 is **invalid** because it shares a factor with *φ(n)*; no modular inverse *d* exists.\n**Step 3:** Find smallest *e* > 1 with gcd(*e*, 352) = 1. *φ(n)* = 352 = 2⁵ × 11. Test *e* = 2 (gcd=2), *e* = 3 (gcd=1). **Smallest valid *e* = 3.**\n**Step 4:** Compute *d* ≡ 3⁻¹ (mod 352). Extended Euclidean: 352 = 3×117 + 1 → 1 = 352 - 3×117 → *d* ≡ -117 ≡ 235 (mod 352).\nA wrong answer (e.g., proceeding to compute *d* for *e*=11) shows the student treats the coprimality check as optional rather than mandatory.",
+     "self_check": true
+    },
+    {
+     "q": "Bob wants to send message *M* = 88 to Alice using her public key (*n* = 391, *e* = 3) from the previous question. Compute the ciphertext *C*. Then, suppose an eavesdropper Eve intercepts *C* and knows *n* = 391 but not *p*, *q*, or *d*. Explain why Eve cannot easily recover *M* from *C* and *n* alone, referencing the specific computational problem she would need to solve.",
+     "a": "**Encryption:** *C* ≡ *M^e* (mod *n*) = 88³ mod 391.\n88² = 7744. 7744 mod 391: 391×19 = 7429, remainder 315.\n88³ ≡ 88 × 315 = 27,720. 27,720 mod 391: 391×70 = 27,370, remainder **350**.\nSo *C* = **350**.\n\n**Eve's problem:** To decrypt without *d*, Eve must either:\n(a) Factor *n* = 391 to find *p*, *q* → compute *φ(n)* → compute *d* ≡ *e⁻¹* (mod *φ(n)*), OR\n(b) Compute the *e*-th root of *C* modulo *n* directly (the RSA problem).\nBoth are believed to be computationally hard for large *n*. For this small *n*, Eve could factor 391 = 17×23 easily, but with 2048-bit *n* (≈617 digits), the **Integer Factorization Problem** has no known polynomial-time algorithm on classical computers. A wrong answer citing \"Eve doesn't know the algorithm\" misses the point: the algorithm is public; the secret is the factorization of *n*.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 11 student argues: \"RSA is insecure because if I encrypt the same message *M* twice with the same public key (*n*, *e*), I get the same ciphertext *C*. An attacker can build a dictionary of likely messages (like 'YES', 'NO', 'ATTACK') and their ciphertexts, then just look up intercepted ciphertexts.\" Evaluate this claim. Is it a valid vulnerability of textbook RSA? If yes, what standard mitigation is used in practice (name only)?",
+     "a": "**Yes, the claim is valid.** Textbook RSA is **deterministic**: *C* ≡ *M^e* (mod *n*) has no randomness, so identical plaintexts always yield identical ciphertexts. This enables **chosen-plaintext attacks** and **dictionary attacks** exactly as described. The standard mitigation is **padding** — specifically **OAEP (Optimal Asymmetric Encryption Padding)** — which introduces randomness before exponentiation, ensuring the same *M* encrypts to different *C* each time. A wrong answer (\"RSA is secure because *e* is secret\" or \"use a larger *n*\") confuses *key secrecy* with *semantic security*; padding is mandatory in real protocols (TLS, PGP).",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-RSA system for a classroom activity where students can encrypt/decrypt 2-letter codes (A=01, B=02, ..., Z=26) using primes small enough to compute by hand but large enough to demonstrate the mechanics. Specify: (1) your chosen *p*, *q*, (2) *n*, *φ(n)*, (3) a valid *e*, (4) the corresponding *d*, (5) encryption of \"HI\" (0809), and (6) decryption verification. Show all steps.",
+     "a": "**Design choices (many valid answers; one example):**\n(1) *p* = 5, *q* = 11 (both prime, product > 2609 for 2-letter codes).\n(2) *n* = 55, *φ(n)* = (5-1)(11-1) = 40.\n(3) Choose *e* = 3 (gcd(3,40)=1, 1<3<40). Valid.\n(4) *d* ≡ 3⁻¹ (mod 40). 3×27 = 81 ≡ 1 (mod 40) → *d* = 27.\n(5) Message \"HI\" → *M* = 0809. But *M* must be < *n* = 55! **Flaw:** 0809 > 55.\n**Fix:** Use *p*=11, *q*=13 → *n*=143, *φ*=120. *e*=7 (gcd=1). *d*≡7⁻¹(mod120)=103 (7×103=721=1+6×120).\n\"HI\" = 0809 → still too big. **Realization:** 2-letter codes need *n* > 2609.\nChoose *p*=53, *q*=59 → *n*=3127, *φ*=52×58=3016. *e*=3 (gcd=1). *d*=3⁻¹ mod 3016 = 2011 (3×2011=6033=1+2×3016).\nEncrypt *M*=0809: *C* = 809³ mod 3127. (Compute via square-and-multiply: 809²=654481≡1523; 809³≡809×1523=1,232,107≡**1027**).\nDecrypt: *M* = 1027²⁰¹¹ mod 3127 → should recover 809.\nA good answer demonstrates *n* > max message, valid *e/d*, and correct modular exponentiation. A poor answer picks *n* < message value, revealing misunderstanding that *M* must be in ℤₙ.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

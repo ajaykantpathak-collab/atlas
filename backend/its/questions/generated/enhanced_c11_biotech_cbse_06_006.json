@@ -34,6 +34,21 @@
      "q": "Design a genetic counseling scenario for a couple where both parents are heterozygous for ABO (father: I<sup>A</sup>i, mother: I<sup>B</sup>i). Create a complete probability table for their children's blood groups and explain how this information guides blood donation planning for a future sibling with thalassemia requiring regular transfusions.",
      "a": "Cross: I<sup>A</sup>i × I<sup>B</sup>i → 25% each: Type A (I<sup>A</sup>i), Type B (I<sup>B</sup>i), Type AB (I<sup>A</sup>I<sup>B</sup>), Type O (ii). For thalassemia sibling needing transfusions: Type O is universal donor (no A/B antigens) – safest for recipient with unknown antibodies; Type AB is universal plasma donor. Parents should bank cord blood or identify Type O siblings. Poor answer (e.g., only lists ratios without transfusion logic) shows inability to apply genetics to clinical decision-making.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Multiple alleles refer to the existence of more than two ______ forms of a gene in a population, though any individual diploid organism can possess only two alleles.",
+     "a": "alternative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're at a blood ______ camp in Delhi and the nurse asks your blood group.",
+     "a": "donation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) predict all possible genotypes and phenotypes from any ABO cross using Punnett squares, (2) determine blood transfusion compatibility and explain the immunological basis, and (3) solve paternity exclusion problems by identifying impossible genotype combinations.",
+     "self_check": true
     }
    ]
   }

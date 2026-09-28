@@ -34,6 +34,21 @@
      "q": "Design a policy alternative to a price ceiling for making essential drugs affordable that avoids shortages and black markets. Your proposal must address: (i) targeting the needy, (ii) preserving producer incentives, (iii) fiscal feasibility.",
      "a": "**Proposal:** Targeted **demand-side subsidy** (e.g., direct benefit transfer or voucher) for identified low-income patients to buy drugs at market price.\n**Mechanism:** Government pays the difference between market price and affordable price *only* to eligible beneficiaries (via Aadhaar-linked DBT). Drugs sell at market equilibrium P* — no ceiling, no shortage, no black market. Producers receive P*, maintaining supply incentives. Fiscal cost = (P* - P_affordable) × Q_targeted, which is lower than universal price control's hidden costs (shortage welfare loss + enforcement + quality decay).\n**Why it works:** (i) Targeting via income/health cards ensures only needy get subsidy; (ii) Producers face full market price → no supply distortion; (iii) Transparent budgetary cost vs opaque losses from ceilings. A poor answer (e.g., \"subsidise producers\") fails targeting — rich also benefit from lower prices, and fiscal cost balloons.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A price ceiling is a government-imposed maximum legal price that sellers can charge for a good or service, set below the market ______ price to make essential goods affordable for consumers.",
+     "a": "equilibrium",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you go to a fair-price shop in Delhi to buy wheat at the ______-fixed rate of ₹22/kg, but the open market price is ₹30/kg.",
+     "a": "government",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Identify whether a price ceiling is binding or non-binding from a graph or data; (2) Calculate the shortage magnitude (Qd - Qs) at the ceiling price using linear demand/supply equations; (3) Explain the chain of effects — shortage → black market → rationing → quality deterioration — with economic reasoning; (4).",
+     "self_check": true
     }
    ]
   }

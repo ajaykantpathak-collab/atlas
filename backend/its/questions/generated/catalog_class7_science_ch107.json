@@ -4,22 +4,194 @@
   {
    "id": "gesc.107.1",
    "title": "Components of Blood",
-   "solution_type": "verify_property",
+   "converted_to_compute": true,
+   "formula": "blood = plasma + red_blood_cells + white_blood_cells + platelets",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "blood = plasma + red_blood_cells + white_blood_cells + platelets",
+     "compute": "blood = plasma + red_blood_cells + white_blood_cells + platelets"
+    }
+   ],
    "questions": [
     {
-     "q": "Name the components of blood.",
-     "a": "Plasma, red blood cells, white blood cells and platelets.",
-     "self_check": true
+     "q": "For Components of Blood: given plasma = 26, red_blood_cells = 96, white_blood_cells = 89, platelets = 46, find blood.",
+     "a": "257",
+     "self_check": false
     },
     {
-     "q": "What do platelets do?",
-     "a": "They help blood clot at wounds, stopping bleeding.",
-     "self_check": true
+     "q": "For Components of Blood: given plasma = 39, red_blood_cells = 90, white_blood_cells = 42, platelets = 46, find blood.",
+     "a": "217",
+     "self_check": false
     },
     {
-     "q": "Why is blood red?",
-     "a": "Haemoglobin, the red pigment in RBCs, carries oxygen and gives blood its colour.",
-     "self_check": true
+     "q": "For Components of Blood: given plasma = 48, red_blood_cells = 1.3, white_blood_cells = 5.5, platelets = 91, find blood.",
+     "a": "145.8",
+     "self_check": false
+    },
+    {
+     "q": "For Components of Blood: given plasma = 75, red_blood_cells = 31, white_blood_cells = 59, platelets = 80, find blood.",
+     "a": "245",
+     "self_check": false
+    },
+    {
+     "q": "For Components of Blood: given plasma = 76, red_blood_cells = 32, white_blood_cells = 49, platelets = 64, find blood.",
+     "a": "221",
+     "self_check": false
+    },
+    {
+     "q": "For Components of Blood: given plasma = 10, red_blood_cells = 74, white_blood_cells = 29, platelets = 65, find blood.",
+     "a": "178",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gesc.107.4",
+   "title": "Structure and Function of Human Heart",
+   "converted_to_compute": true,
+   "formula": "heart_chambers = left_atrium + right_atrium + left_ventricle + right_ventricle",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "heart_chambers = left_atrium + right_atrium + left_ventricle + right_ventricle",
+     "compute": "heart_chambers = left_atrium + right_atrium + left_ventricle + right_ventricle"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Structure and Function of Human Heart: given left_atrium = 98, right_atrium = 53, left_ventricle = 66, right_ventricle = 120, find heart chambers.",
+     "a": "337",
+     "self_check": false
+    },
+    {
+     "q": "For Structure and Function of Human Heart: given left_atrium = 104, right_atrium = 80, left_ventricle = 24, right_ventricle = 31, find heart chambers.",
+     "a": "239",
+     "self_check": false
+    },
+    {
+     "q": "For Structure and Function of Human Heart: given left_atrium = 89, right_atrium = 18.8, left_ventricle = 2.8, right_ventricle = 39, find heart chambers.",
+     "a": "149.6",
+     "self_check": false
+    },
+    {
+     "q": "For Structure and Function of Human Heart: given left_atrium = 22, right_atrium = 118, left_ventricle = 79, right_ventricle = 65, find heart chambers.",
+     "a": "284",
+     "self_check": false
+    },
+    {
+     "q": "For Structure and Function of Human Heart: given left_atrium = 27, right_atrium = 116, left_ventricle = 116, right_ventricle = 70, find heart chambers.",
+     "a": "329",
+     "self_check": false
+    },
+    {
+     "q": "For Structure and Function of Human Heart: given left_atrium = 47, right_atrium = 53, left_ventricle = 34, right_ventricle = 51, find heart chambers.",
+     "a": "185",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gesc.107.5",
+   "title": "Heartbeat and Cardiac Monitoring",
+   "converted_to_compute": true,
+   "formula": "heartbeats_per_min = pulse_rate",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "heartbeats_per_min = pulse_rate",
+     "compute": "heartbeats_per_min = pulse_rate"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Heartbeat and Cardiac Monitoring: given pulse_rate = 96, find heartbeats per min.",
+     "a": "96",
+     "self_check": false
+    },
+    {
+     "q": "For Heartbeat and Cardiac Monitoring: given pulse_rate = 87, find heartbeats per min.",
+     "a": "87",
+     "self_check": false
+    },
+    {
+     "q": "For Heartbeat and Cardiac Monitoring: given pulse_rate = 15.1, find heartbeats per min.",
+     "a": "15.1",
+     "self_check": false
+    },
+    {
+     "q": "For Heartbeat and Cardiac Monitoring: given pulse_rate = 72, find heartbeats per min.",
+     "a": "72",
+     "self_check": false
+    },
+    {
+     "q": "For Heartbeat and Cardiac Monitoring: given pulse_rate = 25, find heartbeats per min.",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "For Heartbeat and Cardiac Monitoring: given pulse_rate = 99, find heartbeats per min.",
+     "a": "99",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gesc.107.6",
+   "title": "Human Excretory System and Urine Composition",
+   "converted_to_compute": true,
+   "formula": "urea_amount = total_urine * 0.025",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "urea_amount = total_urine * 0.025",
+     "compute": "urea_amount = total_urine * 0.025"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "gesc.107.6",
+     "question_pattern": "calculate the amount of urea present in {total_urine} liters of human urine"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Human Excretory System and Urine Composition: given total_urine = 49, find urea amount.",
+     "a": "1.225",
+     "self_check": false
+    },
+    {
+     "q": "calculate the amount of urea present in 49 liters of human urine?",
+     "a": "1.225",
+     "self_check": false
+    },
+    {
+     "q": "For Human Excretory System and Urine Composition: given total_urine = 38, find urea amount.",
+     "a": "0.95",
+     "self_check": false
+    },
+    {
+     "q": "calculate the amount of urea present in 38 liters of human urine?",
+     "a": "0.95",
+     "self_check": false
+    },
+    {
+     "q": "For Human Excretory System and Urine Composition: given total_urine = 85, find urea amount.",
+     "a": "2.125",
+     "self_check": false
+    },
+    {
+     "q": "calculate the amount of urea present in 85 liters of human urine?",
+     "a": "2.125",
+     "self_check": false
     }
    ]
   },
@@ -124,127 +296,6 @@
      "q": "What is double circulation?",
      "a": "Blood passes twice through the heart in one full trip - once to the lungs, once to the body.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "gesc.107.4",
-   "title": "Structure and Function of Human Heart",
-   "solution_type": "verify_property",
-   "questions": [
-    {
-     "q": "Name the four chambers of the human heart.",
-     "a": "Left and right atria (upper) and left and right ventricles (lower).",
-     "self_check": true
-    },
-    {
-     "q": "Which side of the heart pumps blood to the lungs?",
-     "a": "The right side - right atrium receives, right ventricle pumps to the lungs.",
-     "self_check": true
-    },
-    {
-     "q": "Why are valves needed in the heart?",
-     "a": "They stop blood flowing backwards and keep it moving in one direction.",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "gesc.107.5",
-   "title": "Heartbeat and Cardiac Monitoring",
-   "solution_type": "verify_property",
-   "questions": [
-    {
-     "q": "What is a heartbeat?",
-     "a": "One complete contraction and relaxation of the heart that pushes blood into the vessels.",
-     "self_check": true
-    },
-    {
-     "q": "How is the heartbeat related to the pulse?",
-     "a": "Each heartbeat sends a pressure wave along arteries, so the pulse rate at the wrist equals the heartbeats per minute.",
-     "self_check": true
-    },
-    {
-     "q": "Which instrument records the heartbeat?",
-     "a": "A stethoscope (to hear it) and an ECG machine (to record its electrical pattern).",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "gesc.107.6",
-   "title": "Human Excretory System and Urine Composition",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "urea_amount",
-     "expr": "total_urine * 0.025",
-     "explain": "urine is about 2.5% urea by weight"
-    },
-    {
-     "step": 2,
-     "name": "half_urine_urea",
-     "expr": "(total_urine / 2) * 0.025",
-     "explain": "urea in half the urine"
-    },
-    {
-     "step": 3,
-     "name": "water_amount",
-     "expr": "total_urine - urea_amount",
-     "explain": "the rest is mostly water"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A person passes 1.2 L of urine in a day. How much urea does it carry, and how much water?",
-     "vals": {
-      "total_urine": 1.2
-     },
-     "unit": "L",
-     "steps": null,
-     "a": "1.17 L",
-     "self_check": false
-    },
-    {
-     "q": "Daily urine output is 1.5 L. Calculate the urea in it and the water share.",
-     "vals": {
-      "total_urine": 1.5
-     },
-     "unit": "L",
-     "steps": null,
-     "a": "1.4625 L",
-     "self_check": false
-    },
-    {
-     "q": "Find the urea content of 0.8 L of urine and the water it holds.",
-     "vals": {
-      "total_urine": 0.8
-     },
-     "unit": "L",
-     "steps": null,
-     "a": "0.78 L",
-     "self_check": false
-    },
-    {
-     "q": "A patient excretes 2 L of urine. What mass/volume of urea does that represent, and how much water?",
-     "vals": {
-      "total_urine": 2
-     },
-     "unit": "L",
-     "steps": null,
-     "a": "1.95 L",
-     "self_check": false
-    },
-    {
-     "q": "With 1.1 L of urine passed, compute its urea and water parts.",
-     "vals": {
-      "total_urine": 1.1
-     },
-     "unit": "L",
-     "steps": null,
-     "a": "1.0725 L",
-     "self_check": false
     }
    ]
   },

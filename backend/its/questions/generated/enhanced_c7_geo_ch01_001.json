@@ -34,6 +34,21 @@
      "q": "Design a hypothetical country layout that spans 40 degrees of longitude and explain how many standard time zones it would ideally require to keep local sun time within one hour of official time.",
      "a": "A good response proposes dividing the 40-degree span by 15 degrees per time zone (since 15 degrees equals one hour of Earth's rotation), resulting in 2 or 3 distinct time zones to ensure local solar time matches clock time reasonably well. A poor response suggests a single time zone for a massive longitudinal span without considering the extreme solar time discrepancies it would cause for citizens living on opposite ends.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: India's location, latitude, longitude, and extent refer to its precise ______ coordinates on the globe, spanning roughly 8°4'N to 37°6'North latitudes and 68°7'E to 97°25'East longitudes, which shape its vast mainland area, tropical-to-temperate climatic range, and time zones.",
+     "a": "geographical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you look at a globe or a world map of India, you might wonder why the southern part feels tropical with warm weather year-round while the northern mountains ______ cold winters.",
+     "a": "experience",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can locate India's extreme latitude and longitude points on a world map, calculate the approximate longitudinal and latitudinal extent, and explain how this spatial positioning influences its climate and time zone.",
+     "self_check": true
     }
    ]
   }

@@ -1,6 +1,53 @@
 {
- "catalog": "catalog_class12_biology_lebo103",
+ "catalog": "catalog_class12_biology_lebo103.json",
  "concepts": [
+  {
+   "id": "lebo103.3.2.1",
+   "title": "Population Explosion and Growth-Rate Projection",
+   "converted_to_compute": true,
+   "formula": "projected_population = current_population * (1 + annual_growth) ** years",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "projected_population = current_population * (1 + annual_growth) ** years",
+     "compute": "projected_population = current_population * (1 + annual_growth) ** years"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Population Explosion and Growth-Rate Projection: given current_population = 75, annual_growth = 7.4, years = 11.7, find projected population.",
+     "a": "4887974260714.689453",
+     "self_check": false
+    },
+    {
+     "q": "For Population Explosion and Growth-Rate Projection: given current_population = 24, annual_growth = 10.9, years = 1, find projected population.",
+     "a": "285.6",
+     "self_check": false
+    },
+    {
+     "q": "For Population Explosion and Growth-Rate Projection: given current_population = 70, annual_growth = 1, years = 25, find projected population.",
+     "a": "2348810240",
+     "self_check": false
+    },
+    {
+     "q": "For Population Explosion and Growth-Rate Projection: given current_population = 75, annual_growth = 74, years = 2, find projected population.",
+     "a": "421875",
+     "self_check": false
+    },
+    {
+     "q": "For Population Explosion and Growth-Rate Projection: given current_population = 56, annual_growth = 0.5, years = 50, find projected population.",
+     "a": "35706804011.986778",
+     "self_check": false
+    },
+    {
+     "q": "For Population Explosion and Growth-Rate Projection: given current_population = 91, annual_growth = 83, years = 6.1, find projected population.",
+     "a": "49790333737435.125",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "lebo103.3.1.1",
    "title": "Reproductive Health, RCH Programmes and Awareness",
@@ -18,27 +65,6 @@
     {
      "q": "Under which section is 'Reproductive Health, RCH Programmes and Awareness' taught, and from which source text?",
      "a": "3.1 (source: lebo103.txt lines 1-101 (reproductive health problems and strategies section))",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebo103.3.2.1",
-   "title": "Population Explosion and Growth-Rate Projection",
-   "questions": [
-    {
-     "q": "Explain in your own words what 'Population Explosion and Growth-Rate Projection' refers to.",
-     "a": "Better health services cut death rates, maternal mortality and infant mortality so sharply that world numbers swelled from about 2 billion in 1900 to 7.2 billion by 2011; at an annual growth rate of r, a population of size P grows to P times (1 plus r) raised to the number of years.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Population Explosion and Growth-Rate Projection'.",
-     "a": "Smaller-family motivation, raised marriage ages and contraceptive access are the counter-measures to growth that scarcity of food, shelter and clothing cannot absorb.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Population Explosion and Growth-Rate Projection', in plain ASCII form.",
-     "a": "projected_population = current_population * (1 + annual_growth) ** years",
      "self_check": true
     }
    ]

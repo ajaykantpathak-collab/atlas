@@ -34,6 +34,31 @@
      "q": "Design a bispecific antibody format for redirecting T-cells to a tumor antigen (e.g., CD19 on B-cell malignancies). Specify: (a) the two binding specificities, (b) the structural format (e.g., BiTE, IgG-scFv, etc.), and (c) the mechanism of T-cell activation independent of MHC.",
      "a": "Expected answer: (a) One arm: anti-CD3ε (T-cell receptor complex); other arm: anti-CD19 (tumor antigen). (b) BiTE (Bispecific T-cell Engager) format: two scFvs linked by a flexible peptide linker (~55 kDa, small, renal clearance). (c) Simultaneous binding cross-links CD3 and CD19 → forms immunological synapse → T-cell activation, proliferation, perforin/granzyme release → tumor lysis, WITHOUT MHC restriction. A poor answer omits the MHC-independence or proposes full IgG format (too large for solid tumor penetration).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Monoclonal antibodies (mAbs) are identical ______ molecules produced by a single clone of B-lymphocytes (hybridoma cells) that bind specifically to a single epitope on an antigen; in targeted therapy, these engineered antibodies are used as precision drugs to selectively target diseased cells (e.g., cancer cells expressing specific surface markers) while sparing healthy tissues, leveraging mechanisms such as antibody-dependent cellular cytotoxicity (ADCC), complement-dependent cytotoxicity (CDC), receptor blockade, or targeted drug/radioisotope delivery.",
+     "a": "immunoglobulin",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a patient with HER2-positive breast cancer — her tumor cells overexpress the HER2 ______, driving aggressive growth.",
+     "a": "receptor",
+     "self_check": true
+    },
+    {
+     "q": "What is Monoclonal antibodies (mAbs)? State the definition given in this lesson.",
+     "a": "Monoclonal antibodies (mAbs) are identical immunoglobulin molecules produced by a single clone of B-lymphocytes (hybridoma cells) that bind specifically to a single epitope on an antigen; in targeted therapy, these engineered antibodies are used as precision drugs to selectively target diseased cells (e.g., cancer cells expressing.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Monoclonal antibodies (mAbs)?",
+     "a": "Students often believe: \"Monoclonal antibodies are 'magic bullets' that directly kill cancer cells upon binding.\" The reality: most naked mAbs (rituximab, trastuzumab, cetuximab) require immune effector functions (ADCC, CDC) or signal blockade for efficacy — they are NOT directly cytotoxic like chemotherapy.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) explain the hybridoma technology workflow for mAb production with all critical steps and selection principles, (2) distinguish murine, chimeric, humanized, and fully human mAbs by their naming nomenclature (-omab, -ximab, -zumab, -umab) and immunogenicity profiles, and (3) analyze a given clinical.",
+     "self_check": true
     }
    ]
   }

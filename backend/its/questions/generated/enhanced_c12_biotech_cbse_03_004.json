@@ -34,6 +34,26 @@
      "q": "Design a two-library strategy to isolate the *full-length genomic sequence* (including introns and promoter) of a novel heat-shock gene in *Arabidopsis*, given only its partial cDNA sequence from a heat-stressed leaf cDNA library.",
      "a": "Step 1: Use the partial cDNA as a *probe* to screen a *genomic* library — this isolates the genomic clone containing the full gene (introns, promoter, flanking regions). Step 2: Sequence the genomic clone to define exon-intron boundaries and promoter. Step 3: *Validate* by comparing genomic sequence to full-length cDNA (obtain via 5'/3' RACE on the same mRNA). A poor answer uses only one library or ignores the need for genomic DNA to get introns/promoter. This tests synthesis: cDNA finds the gene, genomic reveals its architecture.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A genomic library is a collection of cloned DNA fragments representing the entire genome of an organism, including coding sequences, introns, regulatory regions, and non-coding DNA; a cDNA library is a collection of cloned ______ DNA fragments synthesized from mRNA of a specific tissue, representing only the expressed genes (exons) under a given physiological condition, lacking introns and most regulatory sequences.",
+     "a": "complementary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a researcher trying to produce human insulin in ______ for diabetic patients.",
+     "a": "bacteria",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) construct a detailed comparison table distinguishing genomic and cDNA libraries across at least 7 parameters (source, content, introns, regulatory sequences, tissue specificity, construction method, applications), and (2) justify the choice of library type for a given research objective (e.g., isolating a.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ trying to produce human insulin in bacteria for diabetic patients.",
+     "a": "researcher",
+     "self_check": true
     }
    ]
   }

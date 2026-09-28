@@ -34,6 +34,31 @@
      "q": "Design a simple field study to map lichen diversity as an indicator of air quality across an urban-rural gradient in your district. Specify sampling method, metrics, and how you would correlate with pollution data.",
      "a": "Select 5-7 sites along a transect from city center (high traffic/industry) to rural area. At each site, use a 50 cm × 50 cm quadrat on 10 randomly chosen trees (same species, similar bark pH) at 1.5 m height. Record: (1) lichen species richness, (2) % cover of crustose/foliose/fruticose forms, (3) presence/absence of indicator species (e.g., Lecanora conizaeoides = SO2-tolerant; Usnea spp. = sensitive). Obtain SO2/NOx/PM2.5 data from nearest pollution monitoring stations. Calculate Lichen Diversity Index (LDI) and correlate with pollutant concentrations using Spearman's rank correlation. A poor design (e.g., no replication, ignoring bark pH, using only presence/absence) reveals lack of understanding of confounding variables in bioindicator studies.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Prions are infectious proteinaceous particles devoid of nucleic acid that propagate by inducing misfolding of normal cellular prion protein (PrP^C) into the pathogenic isoform (PrP^Sc), causing transmissible spongiform ______.",
+     "a": "encephalopathies",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a crusty gray-green patch on a tree bark or rock during a morning walk in your neighborhood — that is a lichen, a living partnership between a fungus and an alga.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What is Prions? State the definition given in this lesson.",
+     "a": "Prions are infectious proteinaceous particles devoid of nucleic acid that propagate by inducing misfolding of normal cellular prion protein (PrP^C) into the pathogenic isoform (PrP^Sc), causing transmissible spongiform encephalopathies.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Prions?",
+     "a": "Students often think prions are \"living microorganisms\" like bacteria or viruses because they cause disease and replicate.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can distinguish prions from viruses and viroids based on chemical composition and replication mechanism, explain the protein-only hypothesis of prion propagation, and describe the lichen symbiosis including the roles of mycobiont and phycobiont, thallus morphology types, and ecological significance as bioindicators.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_hist_ch4_2",
+ "concepts": [
+  {
+   "id": "enh:c9_hist_ch4_2",
+   "title": "c9_hist_ch4_2",
+   "questions": [
+    {
+     "q": "Name the five dynasties of the Delhi Sultanate in correct chronological order.",
+     "a": "Mamluk (Slave) → Khalji → Tughlaq → Sayyid → Lodi. A wrong sequence (e.g., placing Khalji before Mamluk) reveals the student memorised names without grasping the political transition from Turkish slave-generals to Afghan rulers, missing how each dynasty arose from the previous one’s collapse.",
+     "self_check": true
+    },
+    {
+     "q": "Why did Iltutmish introduce the iqta system instead of simply paying his nobles fixed salaries from the treasury?",
+     "a": "The iqta assigned revenue from specific territories to nobles in lieu of salary, linking their income to local resource extraction and military service. This solved the Sultan’s cash shortage and incentivised nobles to develop their assignments. A wrong answer focusing only on \"feudalism\" misses the strategic intent: it was a centralising tool to control a mobile Turkish aristocracy in a land-poor, cash-scarce conquest state.",
+     "self_check": true
+    },
+    {
+     "q": "Alauddin Khalji fixed grain prices in Delhi markets and banned hoarding. If you were a village headman (muqaddam) in the Doab, how would this policy affect your ability to pay land revenue (kharaj) to the state?",
+     "a": "Fixed low grain prices reduced the muqaddam’s cash income from surplus sales, while the state demanded revenue in cash at high assessed rates — squeezing the peasantry and intermediaries alike. A student who says \"prices were low so peasants benefited\" ignores the revenue side: the state extracted more in real terms, leading to widespread agrarian distress and rebellion, which Alauddin countered with harsh repression.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the military reforms of Alauddin Khalji (standing army, cash salaries, dagh system) with those of Muhammad bin Tughlaq (massive army for Khurasan expedition, token currency to pay soldiers). What does the contrast reveal about the changing fiscal capacity of the Sultanate?",
+     "a": "Alauddin’s reforms were funded by surplus from a tightly controlled agrarian system (high land tax, price controls), showing a state extracting efficiently. Tughlaq’s token currency and failed expeditions reflect fiscal exhaustion — the revenue base could not sustain imperial ambitions. A student who lists reforms without linking them to revenue outcomes misses the core analytical point: military capacity depended on agrarian surplus, not just organisational brilliance.",
+     "self_check": true
+    },
+    {
+     "q": "Some historians argue the Delhi Sultanate was \"a military occupation, not an empire.\" Evaluate this claim using evidence from the Mamluk and Khalji periods.",
+     "a": "The claim holds for the early Mamluk phase (Qutbuddin Aibak ruled as a Ghurid governor, coins bore no sovereign title), but weakens under Iltutmish (sovereign coinage, Caliphal recognition, iqta administration) and collapses under Alauddin (centralised revenue, standing army, market regulation, Deccan campaigns). A one-sided answer ignoring the Caliphal investiture or the iqta’s administrative depth fails to weigh evidence across the consolidation arc.",
+     "self_check": true
+    },
+    {
+     "q": "Create a three-column timeline (Dynasty | Key Consolidation Measure | Limitation/Outcome) for the Mamluk, Khalji, and Tughlaq dynasties. Use it to argue whether consolidation was cumulative or cyclical.",
+     "a": "A strong answer shows: Mamluk — iqta + Caliphal legitimacy → noble factionalism; Khalji — dagh + price control + Deccan plunder → over-centralisation, alienation; Tughlaq — land measurement + token currency + capital shift → fiscal collapse, rebellion. The pattern is cyclical: each dynasty centralised further but triggered new fragmentation. A weak answer lists facts without the analytical column, missing the historical argument.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

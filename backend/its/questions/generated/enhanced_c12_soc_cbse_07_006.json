@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_07_006",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_07_006",
+   "title": "c12_soc_cbse_07_006",
+   "questions": [
+    {
+     "q": "Define 'rapport' in the context of sociological fieldwork and explain why it is considered a prerequisite for valid qualitative data rather than merely a courtesy.",
+     "a": "Rapport is a relationship of mutual trust, respect, and understanding established between the researcher and participants that enables open, honest communication and sustained access to the field setting. It is a prerequisite for valid data because without it, participants may give socially desirable responses, withhold sensitive information, deny access to critical settings, or withdraw from the study entirely — compromising both the depth and authenticity of the data. A wrong answer (e.g., \"rapport is just being polite\") reveals a misunderstanding of rapport as a methodological instrument that directly determines data quality, not just a social nicety.",
+     "self_check": true
+    },
+    {
+     "q": "A student researcher says: \"I am studying my own village, so I am a complete insider. This means I don't need to build rapport or worry about ethics because everyone knows me.\" Identify the flaw in this reasoning using the concepts of 'insider-outsider problem' and 'ethical obligation'.",
+     "a": "The student conflates social familiarity with methodological rapport and ignores that ethical obligations are universal, not waived by insider status. Being an insider creates unique biases (over-familiarity, taken-for-granted assumptions, difficulty asking 'naive' questions) and ethical dilemmas (coercion risk due to power dynamics, breach of confidentiality within dense networks). Rapport must still be actively built for the *research role*, distinct from the *social role*. Ethics (informed consent, right to withdraw) are mandatory regardless of prior relationships. A wrong answer reveals the misconception that insider status simplifies fieldwork; in reality, it complicates both rapport and ethics.",
+     "self_check": true
+    },
+    {
+     "q": "You are conducting fieldwork on \"Experiences of migrant construction workers in a labour camp.\" The contractor (gatekeeper) allows you entry only if you share worker names and complaints with him. Apply the ethical principles of informed consent, confidentiality, and non-maleficence to decide your course of action. Justify each step.",
+     "a": "Step 1: Refuse the condition — sharing identifiable data with the contractor violates confidentiality and exposes workers to retaliation (harm/non-maleficence). Step 2: Negotiate alternative access — seek entry through a trusted NGO, union representative, or by visiting workers during off-hours in public spaces. Step 3: If no ethical access is possible, change the research site or question — ethical integrity supersedes data collection. Step 4: Document the ethical dilemma in your reflexivity journal. A wrong answer (e.g., \"agree to share data to get access\") reveals a failure to prioritize participant safety over research goals, a critical error in board and competitive exam ethics questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 'insider advantage' (shared culture, language, trust) and 'outsider advantage' (critical distance, ability to ask naive questions, theoretical objectivity) in a study of \"Caste-based seating arrangements in a village school.\" Which position would you choose and why? Support with two specific methodological trade-offs.",
+     "a": "An insider (e.g., a village student) gains easy access and understands subtle caste codes but may normalize discrimination, fail to question 'obvious' practices, and face social pressure to conform. An outsider (e.g., a city-based student) must build rapport from scratch but can ask \"Why do you sit separately?\" without fear, document taken-for-granted rituals, and apply theoretical frameworks (e.g., purity-pollution) more visibly. Trade-off 1: Depth of cultural nuance (insider) vs. analytical visibility of norms (outsider). Trade-off 2: Risk of collusion with power structures (insider) vs. risk of misinterpretation due to cultural ignorance (outsider). A good answer chooses a position *with reflexive mitigation strategies* (e.g., outsider collaborating with insider informant). A wrong answer picks a side without acknowledging trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Informed consent is a one-time event — getting a signature on a form before the interview starts.\" Use the concepts of 'process consent', 'power asymmetry', and 'vulnerable populations' in your critique.",
+     "a": "The statement is flawed. Informed consent is a *continuous process*, not a one-time event. In fieldwork, power asymmetry (researcher as educated outsider, participant as marginalized insider) means participants may feel coerced to sign initially but cannot truly withdraw later without social cost. For vulnerable populations (e.g., children, migrants, lower-caste groups), consent must be renegotiated at each stage: before observation, before recording, before using quotes. Process consent involves verbal re-confirmation, checking comprehension, and ensuring ongoing voluntariness. A wrong answer treats consent as a bureaucratic checkbox, missing its ethical core as a safeguard against exploitation — a distinction examiners explicitly test.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 'Reflexivity Statement' (150 words) for a Class 12 student from an urban, English-medium, upper-middle-class background studying \"Menstrual taboos among adolescent girls in a rural government school.\" Explicitly address your insider/outsider position on *three* axes (class, gender, urban/rural) and one concrete strategy to mitigate each bias.",
+     "a": "A strong statement: \"As an urban, upper-middle-class female student, I am an *insider* on gender (shared menstrual experience) but an *outsider* on class (privileged access to hygiene products), urban/rural location (no lived experience of village infrastructure), and educational capital (English-medium vs. vernacular). My gender insider status risks over-identification — I may project my urban menstrual narrative onto girls managing taboos without pads or toilets. Mitigation: Use 'naive questioning' (\"Tell me how you manage...\") rather than assuming shared experience. My class/urban outsider status risks exoticizing poverty — I may frame taboos as 'backward' rather than structural. Mitigation: Co-analyze with a local ASHA worker (insider collaborator) to ground interpretation. My educational capital creates power asymmetry — girls may say what they think I want. Mitigation: Conduct interviews in Hindi/local dialect, allow written/drawn responses, and share transcripts for member-checking.\" A poor answer lists identities without methodological mitigation strategies.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Conducting fieldwork in sociology involves the systematic immersion of the researcher in a natural social setting to collect qualitative data through participant observation, in-depth interviews, and informal interactions, while actively managing three interdependent challenges: building rapport (establishing trust and access with participants), adhering to research ethics (informed consent, ______, non-maleficence, and reflexivity), and navigating the insider-outsider problem (the epistemological tension between the researcher's social position relative to the studied community and its impact on data validity).",
+     "a": "confidentiality",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a Class 12 student planning to study \"Changing gender roles in ______ work in middle-class households in your neighbourhood.\" You have your questionnaire ready, but when you approach the first house, the auntie at the door asks, \"Beta, why do you need to know who cooks?",
+     "a": "domestic",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to design a fieldwork protocol for a specific Class 12 project topic that includes: (1) a step-by-step rapport-building strategy identifying gatekeepers and entry techniques, (2) an ethics checklist addressing informed consent, anonymity, and risk mitigation for vulnerable participants, and (3) a written.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a Class 12 student planning to study \"Changing gender roles in domestic work in middle-class households in your ______.\" You have your questionnaire ready, but when you approach the first house, the auntie at the door asks, \"Beta, why do you need to know who cooks?",
+     "a": "neighbourhood",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

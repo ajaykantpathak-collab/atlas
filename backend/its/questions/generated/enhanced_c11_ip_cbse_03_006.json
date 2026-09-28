@@ -21,7 +21,7 @@
      "self_check": true
     },
     {
-     "q": "Compare the two snippets below. Are they functionally identical? Justify.\n```python",
+     "q": "Compare the two snippets below. Are they functionally identical? Justify.\n```python\n# A\nif score >= 40:\n    grade = \"Pass\"\nelse:\n    grade = \"Fail\"\n\n# B\ngrade = \"Pass\" if score >= 40 else \"Fail\"\n```",
      "a": "Yes, they are functionally identical for this simple assignment. Both evaluate `score >= 40` once and assign exactly one string to `grade`. The difference: A is a *statement* (cannot be used inside another expression), B is an *expression* (can be nested, passed to functions, used in comprehensions). A student who says \"B is faster\" or \"A allows multiple statements\" is correct about capabilities but misses that *for this specific task* they are equivalent.",
      "self_check": true
     },
@@ -33,6 +33,21 @@
     {
      "q": "Design a single-line expression using the ternary operator that takes an integer `n` and returns \"Positive\", \"Negative\", or \"Zero\" without using `if-elif-else` statements. Test it mentally for n = -5, 0, 7.",
      "a": "`\"Positive\" if n > 0 else \"Negative\" if n < 0 else \"Zero\"`. Evaluation: n=-5 → first condition False → second condition True → \"Negative\". n=0 → both False → \"Zero\". n=7 → first True → \"Positive\". A poor answer uses multiple separate ternaries with `and`/`or` or tries to force a tuple index, showing inability to nest ternaries correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ expression (ternary operator) in Python is a single-line expression that evaluates a boolean condition and returns one of two values: value_if_true if condition else value_if_false.",
+     "a": "conditional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You need to set a ______ discount to 10% if the student is a senior (age >= 60) else 0%.",
+     "a": "variable",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly write a ternary expression to assign a value based on a condition, trace the evaluation order of nested ternary operators, and explain why a ternary expression cannot contain statements (like print or assignment) in its branches.",
      "self_check": true
     }
    ]

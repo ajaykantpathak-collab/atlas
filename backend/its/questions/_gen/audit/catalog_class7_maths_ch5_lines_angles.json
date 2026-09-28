@@ -42,9 +42,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lines = 5"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c7m5.2.1",
@@ -173,9 +171,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "other = 90 - 30"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c7m5.2.4",
@@ -218,9 +214,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "other = 90 - 22"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c7m5.3.1",
@@ -263,9 +257,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lines = 3"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c7m5.3.2",
@@ -308,9 +300,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "other = 90 - 68"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c7m5.3.3",
@@ -353,9 +343,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "other = 90 - 47"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c7m5.3.4",
@@ -441,9 +429,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "other = 90 - 14"
-   ]
+   "steps_chain": []
   }
  ]
 }

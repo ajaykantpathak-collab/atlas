@@ -34,6 +34,31 @@
      "q": "Design a thought experiment using Born-Haber cycle concepts to estimate the lattice energy of NaCl if the electron gain enthalpy of chlorine were hypothetically +200 kJ mol⁻¹ (endothermic) instead of -349 kJ mol⁻¹. What does this reveal about the role of ΔegH in ionic bond formation?",
      "a": "In the Born-Haber cycle for NaCl: ΔHf = ΔHsub(Na) + ΔiH(Na) + ½ΔHdiss(Cl₂) + ΔegH(Cl) + U(lattice). If ΔegH(Cl) = +200 kJ mol⁻¹, the cycle would require a much more exothermic lattice energy (U) to compensate and still yield the observed ΔHf(NaCl) = -411 kJ mol⁻¹. This reveals that highly negative ΔegH of halogens is essential for spontaneous ionic compound formation with alkali metals; without it, lattice energy alone might not offset the endothermic steps. A student unable to trace the cycle shows weak integration of thermodynamics and periodicity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Electron Gain Enthalpy (ΔegH) is the enthalpy change when one mole of electrons is added to one mole of isolated gaseous atoms in their ground state to form one mole of gaseous anions under standard ______ (298 K, 1 bar).",
+     "a": "conditions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a sodium vapour lamp glowing yellow-orange — that light comes from excited Na atoms losing energy, not gaining ______.",
+     "a": "electrons",
+     "self_check": true
+    },
+    {
+     "q": "What is Electron Gain Enthalpy (ΔegH)? State the definition given in this lesson.",
+     "a": "Electron Gain Enthalpy (ΔegH) is the enthalpy change when one mole of electrons is added to one mole of isolated gaseous atoms in their ground state to form one mole of gaseous anions under standard conditions (298 K, 1 bar).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Electron Gain Enthalpy (ΔegH)?",
+     "a": "Students believe \"more negative electron gain enthalpy always means higher electronegativity\" and use the terms interchangeably.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can predict and justify the relative electron gain enthalpies of any two main-group elements using nuclear charge, atomic radius, shielding, and electron-electron repulsion arguments, and can explain anomalies (O vs S, F vs Cl) with orbital-level reasoning.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design an experiment to demonstrate Le Chatelier's principle for temperature effect using the equilibrium [Co(H₂O)₆]²⁺(aq) + 4Cl⁻(aq) ⇌ [CoCl₄]²⁻(aq) + 6H₂O(l), where the pink Co²⁺ complex turns blue on heating. Specify observations, measurements, and how to quantitatively determine ΔH from the data.",
      "a": "Prepare 0.1 M CoCl₂ in water (pink). Divide into three test tubes. Tube A: ice bath (0°C), Tube B: room temp (25°C), Tube C: hot water bath (80°C). Observe colour change: A=pink, B=purple, C=blue. Measure absorbance at 620 nm (pink) and 690 nm (blue) using colorimeter. Calculate [CoCl₄²⁻]/[Co(H₂O)₆²⁺] ratio from Beer-Lambert law. Plot ln(K) vs 1/T (Van't Hoff plot). Slope = -ΔH/R. Expected ΔH ≈ +50 kJ/mol (endothermic forward). GOOD answer includes spectral measurement details and Van't Hoff analysis. POOR answer only describes qualitative colour change without quantitative plan.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Le Chatelier's Principle states that when a system at equilibrium is subjected to a change in temperature, pressure, or ______, the system shifts its equilibrium position to counteract the imposed change.",
+     "a": "concentration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a pressure cooker whistle: as steam builds up, pressure ______ and the boiling point of water rises - this is Le Chatelier's principle in action where increased pressure favours the condensed phase (liquid) over gas.",
+     "a": "increases",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can quantitatively predict the direction of equilibrium shift for any gaseous reaction given ΔH and Δn_g values, calculate the new equilibrium composition after a temperature or pressure change using the Van't Hoff equation and Kp expressions, and justify why pressure changes do not affect Kp while temperature changes do.",
+     "self_check": true
     }
    ]
   }

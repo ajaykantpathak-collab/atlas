@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c7_gram_cbse_82_001",
+ "concepts": [
+  {
+   "id": "enh:c7_gram_cbse_82_001",
+   "title": "c7_gram_cbse_82_001",
+   "questions": [
+    {
+     "q": "'There isn't ___ milk left' vs 'Would you like ___ tea?'",
+     "a": "any / some — negation takes 'any', polite offer takes 'some' even in a question. A wrong answer 'some' in the first shows the polarity rule missing.",
+     "self_check": true
+    },
+    {
+     "q": "'___ money do you have?' much or many — and why?",
+     "a": "'much' — money is uncountable. A wrong answer 'many' reveals the count/mass partition isn't built yet.",
+     "self_check": true
+    },
+    {
+     "q": "Point correctly: '___ shoes here are mine, but ___ over there are yours.'",
+     "a": "'these' (near + plural) and 'those' (far + plural). A wrong answer 'this/them' mixes the distance and number axes.",
+     "self_check": true
+    },
+    {
+     "q": "Beyond a/an/the sits the ______ family: this/that/these/those (pointing), my/your/our (possession), some/any/many/much/few/little (quantity).",
+     "a": "determiner",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Beyond a/an/the sits the ______ family: this/that/these/those (pointing), my/your/our (possession), some/any/many/much/few/little (quantity).",
+     "a": "determiner",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Axis 1 — ______: this/these = near (singular/plural), that/those = far.",
+     "a": "pointing",
+     "self_check": true
+    },
+    {
+     "q": "What is Beyond a/an/the sits the determiner family? State the definition given in this lesson.",
+     "a": "Beyond a/an/the sits the determiner family: this/that/these/those (pointing), my/your/our (possession), some/any/many/much/few/little (quantity).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Axis ______ — pointing: this/these = near (singular/plural), that/those = far.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Beyond a/an/the sits the determiner family?",
+     "a": "Students use 'much' with countables ('much students'), 'some' in negatives ('I don't have some money'), and mix this/these by number.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student selects the right determiner family member — demonstrative by distance/number, quantifier by countability and sentence polarity (some+ / any−?).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

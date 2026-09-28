@@ -32,7 +32,32 @@
     },
     {
      "q": "Design a 3-minute classroom activity for Class 12 students to experience how \"lack of capability limits choice\" — the core Mahbub ul Haq insight. The activity must use only pen, paper, and peer interaction; no internet or external data. Specify the capability deprived, the choice blocked, and the debrief question linking to the three key areas.",
-     "a": "Activity: \"The Unread Notice.\" Distribute a handout with a fictional government scholarship notice written in a script none of the students know (e.g., modified Devanagari with invented characters). Give 2 minutes to \"apply.\" Debrief: \"Which capability was blocked? (Education/literacy) Which choice was denied? (Accessing higher education funding) Which key area does this map to?\" Expected insight: Literacy capability → education area → choice to pursue studies. A poor activity (e.g., \"simulate poverty by skipping lunch\") confuses *resource deprivation* with *capability deprivation* — the NCERT distinguishes: poverty limits resource *access*, illiteracy limits the *capability to use* information.",
+     "a": "Activity: \"The Unread Notice.\" Distribute a handout with a fictional government scholarship notice written in a script N/A of the students know (e.g., modified Devanagari with invented characters). Give 2 minutes to \"apply.\" Debrief: \"Which capability was blocked? (Education/literacy) Which choice was denied? (Accessing higher education funding) Which key area does this map to?\" Expected insight: Literacy capability → education area → choice to pursue studies. A poor activity (e.g., \"simulate poverty by skipping lunch\") confuses *resource deprivation* with *capability deprivation* — the NCERT distinguishes: poverty limits resource *access*, illiteracy limits the *capability to use* information.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Human development is a qualitative, value-positive process of enlarging people's freedoms and ______ to lead lives they value, introduced by Dr.",
+     "a": "capabilities",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at your own neighbourhood: a new mall opens (growth in commercial space) but the nearby ______ school still lacks clean toilets and qualified teachers.",
+     "a": "government",
+     "self_check": true
+    },
+    {
+     "q": "What is Human development? State the definition given in this lesson.",
+     "a": "Human development is a qualitative, value-positive process of enlarging people's freedoms and capabilities to lead lives they value, introduced by Dr.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Human development?",
+     "a": "Students equate \"human development\" with \"human development index (HDI)\" — they think the *concept* is the *measure*.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can distinguish growth from development using the NCERT criteria (quantitative vs qualitative, value-neutral vs value-positive), articulate Mahbub ul Haq's definition of human development as \"enlarging people's choices,\" and identify the three foundational capabilities (health, education, access to resources) that enable.",
      "self_check": true
     }
    ]

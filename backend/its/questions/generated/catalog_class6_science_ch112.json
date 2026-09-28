@@ -4,44 +4,94 @@
   {
    "id": "fesc.12.1.1",
    "title": "Electric Cell Terminals",
-   "solution_type": "verify_property",
+   "converted_to_compute": true,
+   "formula": "terminals = positive_metal_cap + negative_metal_disc",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "terminals = positive_metal_cap + negative_metal_disc",
+     "compute": "terminals = positive_metal_cap + negative_metal_disc"
+    }
+   ],
    "questions": [
     {
-     "q": "Name the two terminals of an electric cell.",
-     "a": "Positive terminal (metal cap) and negative terminal (metal disc).",
-     "self_check": true
+     "q": "For Electric Cell Terminals: given positive_metal_cap = 29, negative_metal_disc = 48, find terminals.",
+     "a": "77",
+     "self_check": false
     },
     {
-     "q": "Where does current flow from and to in a cell?",
-     "a": "Conventionally from the positive terminal through the circuit back to the negative terminal.",
-     "self_check": true
+     "q": "For Electric Cell Terminals: given positive_metal_cap = 56, negative_metal_disc = 39, find terminals.",
+     "a": "95",
+     "self_check": false
     },
     {
-     "q": "Why does a cell stop working after long use?",
-     "a": "The chemicals inside get used up and can no longer push current.",
-     "self_check": true
+     "q": "For Electric Cell Terminals: given positive_metal_cap = 88, negative_metal_disc = 22, find terminals.",
+     "a": "110",
+     "self_check": false
+    },
+    {
+     "q": "For Electric Cell Terminals: given positive_metal_cap = 82, negative_metal_disc = 20, find terminals.",
+     "a": "102",
+     "self_check": false
+    },
+    {
+     "q": "For Electric Cell Terminals: given positive_metal_cap = 22, negative_metal_disc = 43, find terminals.",
+     "a": "65",
+     "self_check": false
+    },
+    {
+     "q": "For Electric Cell Terminals: given positive_metal_cap = 44, negative_metal_disc = 83, find terminals.",
+     "a": "127",
+     "self_check": false
     }
    ]
   },
   {
    "id": "fesc.12.2.1",
    "title": "Bulb Structure and Filament",
-   "solution_type": "verify_property",
+   "converted_to_compute": true,
+   "formula": "bulb_terminals = metal_case_base + metal_tip_center",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "bulb_terminals = metal_case_base + metal_tip_center",
+     "compute": "bulb_terminals = metal_case_base + metal_tip_center"
+    }
+   ],
    "questions": [
     {
-     "q": "Name the parts of an electric bulb.",
-     "a": "Glass bulb, thin filament, and two terminals (metal case at the side and metal tip at the base).",
-     "self_check": true
+     "q": "For Bulb Structure and Filament: given metal_case_base = 88, metal_tip_center = 65, find bulb terminals.",
+     "a": "153",
+     "self_check": false
     },
     {
-     "q": "What is the filament of a bulb?",
-     "a": "A very thin wire (usually of tungsten) that glows when current passes through it.",
-     "self_check": true
+     "q": "For Bulb Structure and Filament: given metal_case_base = 42, metal_tip_center = 35, find bulb terminals.",
+     "a": "77",
+     "self_check": false
     },
     {
-     "q": "Why does a bulb fuse?",
-     "a": "The filament burns out (breaks) after long use or too much current, stopping the circuit.",
-     "self_check": true
+     "q": "For Bulb Structure and Filament: given metal_case_base = 97, metal_tip_center = 21, find bulb terminals.",
+     "a": "118",
+     "self_check": false
+    },
+    {
+     "q": "For Bulb Structure and Filament: given metal_case_base = 10.7, metal_tip_center = 11.5, find bulb terminals.",
+     "a": "22.2",
+     "self_check": false
+    },
+    {
+     "q": "For Bulb Structure and Filament: given metal_case_base = 14.9, metal_tip_center = 32, find bulb terminals.",
+     "a": "46.9",
+     "self_check": false
+    },
+    {
+     "q": "For Bulb Structure and Filament: given metal_case_base = 29, metal_tip_center = 68, find bulb terminals.",
+     "a": "97",
+     "self_check": false
     }
    ]
   },

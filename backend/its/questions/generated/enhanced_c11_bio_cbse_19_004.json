@@ -34,6 +34,21 @@
      "q": "Design a simple clinical protocol to differentiate primary hyperaldosteronism (Conn's syndrome) from secondary hyperaldosteronism due to renal artery stenosis, using only plasma renin activity (PRA) and plasma aldosterone concentration (PAC) measurements.",
      "a": "Measure PAC and PRA simultaneously. Primary hyperaldosteronism: autonomous aldosterone secretion → high PAC, suppressed PRA (PAC:PRA ratio >30). Secondary hyperaldosteronism (renal artery stenosis): reduced renal perfusion → high renin → high angiotensin II → high aldosterone → high PAC, high PRA (ratio normal). A protocol that omits simultaneous measurement or ignores the ratio shows the student cannot apply feedback physiology to diagnostic reasoning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The adrenal glands are a pair of endocrine glands situated superior to each kidney, each composed of an outer adrenal cortex (derived from mesoderm) that synthesizes steroid hormones organized into three distinct zones—zona glomerulosa (______), zona fasciculata (glucocorticoids), and zona reticularis (androgenic steroids)—and an inner adrenal medulla (derived from neural crest) that secretes catecholamines (epinephrine and norepinephrine) in response to sympathetic stimulation.",
+     "a": "mineralocorticoids",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing at the crease in a cricket match, facing a fast bowler—the sudden surge of alertness, racing heart, and sweaty palms is your adrenal medulla releasing ______ within seconds.",
+     "a": "catecholamines",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can differentiate the embryonic origin, histological zonation, hormone classification, and physiological actions of adrenal cortex versus medulla; trace the regulatory pathways (ACTH for cortex, sympathetic splanchnic nerves for medulla); and predict the clinical manifestations of hyper- and hyposecretion disorders (Cushing's.",
+     "self_check": true
     }
    ]
   }

@@ -311,8 +311,14 @@ def parse_question_bank_file(filepath: str) -> dict:
     elif subq_start:
         body = header_content[subq_start.start():]
 
-    # Parse questions from body
-    questions = _parse_qb_questions(body)
+    # Parse questions from body — rich inline formats first (they carry
+    # options/answers/node tags), then legacy formats
+    questions = _parse_inline_questions(header_content)
+    if not questions:
+        questions = _parse_diag_questions(header_content)
+
+    if not questions:
+        questions = _parse_qb_questions(body)
 
     # If no questions found with main parser, try drill bank format
     if not questions:
@@ -479,3 +485,210 @@ def _safe_int(value: str) -> int:
         return int(str(value).strip())
     except (ValueError, TypeError):
         return 0
+
+
+# ---------------------------------------------------------------------------
+# Rich one-line formats (carry answers/options inline)
+# ---------------------------------------------------------------------------
+
+# "Question: Q001, c11_acc_001, 1, MCQ, "text", OPTIONS: ..., CORRECT_ANSWER: ...,
+#  MARKING_SCHEME: ..., MODEL_ANSWER: ..."
+INLINE_Q_RE = re.compile(
+    r'^Question:\s*Q(\d+)\s*,\s*([A-Za-z0-9_]+)\s*,\s*(\d+)\s*,\s*([A-Za-z_]+)\s*,\s*'
+    r'(.*?)(?=^Question:|\n===|\Z)',
+    re.MULTILINE | re.DOTALL,
+)
+# "Diag Question: DQ_C11_ACC_001, c11_acc_001, question, correct, wrong1, wrong2,
+#  REMEDIATION: ..."
+DIAG_Q_RE = re.compile(
+    r'^Diag\s+Question:\s*([A-Za-z0-9_]+)\s*,\s*([A-Za-z0-9_]+)\s*,\s*'
+    r'(.*?)(?=^Diag\s+Question:|\n===|\Z)',
+    re.MULTILINE | re.DOTALL,
+)
+_QTAG_RE = re.compile(r'^(.*?),?\s*REMEDIATION:\s*(.*)$', re.DOTALL)
+_OPTION_RE = re.compile(r'\(([A-E])\)\s*([^()]+?)(?=\s*\([A-E]\)|,?\s*$)')
+
+
+def _split_top_commas(text: str) -> list[str]:
+    """Split on ', ' (comma+space) not inside quotes/parens.
+
+    Comma+space is the field separator in diag markers; bare commas inside
+    numbers like Rs.8,00,000 are preserved.
+    """
+    parts, depth, cur, in_q, i = [], 0, [], False, 0
+    n = len(text)
+    while i < n:
+        ch = text[i]
+        if ch == '"':
+            in_q = not in_q
+        elif not in_q:
+            if ch == '(':
+                depth += 1
+            elif ch == ')':
+                depth = max(0, depth - 1)
+            elif ch == ',' and depth == 0 and i + 1 < n and text[i + 1] == ' ':
+                parts.append(''.join(cur).strip())
+                cur = []
+                i += 2
+                continue
+        cur.append(ch)
+        i += 1
+    parts.append(''.join(cur).strip())
+    return [p for p in parts if p]
+
+
+def _field(body: str, name: str) -> str:
+    m = re.search(rf'{name}:\s*(.*?)(?=,\s*[A-Z_]+:|$)', body, re.DOTALL)
+    return m.group(1).strip().strip('"') if m else ""
+
+
+def _parse_inline_questions(body: str) -> list[dict]:
+    """Parse 'Question: Q001, node, marks, TYPE, "text", OPTIONS:...' format."""
+    questions: list[dict] = []
+    current_section = ""
+    for qm in INLINE_Q_RE.finditer(body):
+        q_num, node_id, marks, q_type, rest = (
+            int(qm.group(1)), qm.group(2), int(qm.group(3)),
+            qm.group(4).upper(), qm.group(5),
+        )
+        preceding = body[:qm.start()]
+        sec = list(QB_SECTION_RE.finditer(preceding))
+        if sec:
+            current_section = sec[-1].group(1).strip()
+
+        qtext = rest.strip()
+        for tag in ("OPTIONS:", "CORRECT_ANSWER:", "MARKING_SCHEME:", "MODEL_ANSWER:"):
+            idx = qtext.find(", " + tag)
+            if idx != -1:
+                qtext = qtext[:idx]
+        qtext = qtext.strip().strip('"').strip()
+
+        options = []
+        opt_field = _field(rest, "OPTIONS")
+        if opt_field:
+            options = [
+                {"letter": m.group(1), "text": m.group(2).strip()}
+                for m in _OPTION_RE.finditer(opt_field)
+            ]
+
+        if not qtext:
+            continue
+        questions.append({
+            "number": q_num,
+            "node_id": node_id,
+            "question": qtext,
+            "q_type": q_type.lower(),
+            "options": options,
+            "answer": _field(rest, "CORRECT_ANSWER"),
+            "marking_scheme": _field(rest, "MARKING_SCHEME"),
+            "model_answer": _field(rest, "MODEL_ANSWER"),
+            "marks": marks,
+            "section": current_section,
+        })
+    return questions
+
+
+def _parse_diag_questions(body: str) -> list[dict]:
+    """Parse 'Diag Question: DQ_ID, node, q, correct, wrong1, wrong2, REMEDIATION:...'"""
+    questions: list[dict] = []
+    for qm in DIAG_Q_RE.finditer(body):
+        q_id, node_id, rest = qm.group(1), qm.group(2), qm.group(3)
+        rtag = _QTAG_RE.match(rest)
+        fields_part, remediation = (rtag.group(1), rtag.group(2).strip()) if rtag else (rest, "")
+        fields = _split_top_commas(fields_part)
+        if len(fields) < 2:
+            continue
+        # The question may itself contain ', ' — it ends at the first field
+        # containing a question mark; answers follow.
+        q_end = next((i for i, f in enumerate(fields) if '?' in f), 0)
+        qtext = ', '.join(fields[:q_end + 1]).strip()
+        ans_fields = fields[q_end + 1:]
+        if len(ans_fields) >= 3:
+            correct = ', '.join(ans_fields[:-2]).strip()
+            wrongs = [f.strip() for f in ans_fields[-2:]]
+        elif ans_fields:
+            correct = ', '.join(ans_fields).strip()
+            wrongs = []
+        else:
+            correct = ""
+            wrongs = []
+        options = [{"letter": "A", "text": correct}] + [
+            {"letter": chr(ord('B') + i), "text": w} for i, w in enumerate(wrongs) if w
+        ]
+        questions.append({
+            "number": 0,
+            "q_id": q_id,
+            "node_id": node_id,
+            "question": qtext,
+            "q_type": "mcq",
+            "options": options,
+            "answer": correct,
+            "marking_scheme": "",
+            "model_answer": remediation,
+            "marks": 1,
+            "section": "diagnostic",
+        })
+    return questions
+
+
+def parse_model_answers_file(filepath: str) -> list[dict]:
+    """Parse a model_answers marker into blocks keyed by node ids.
+
+    Format: MODEL ANSWER N / QUESTION_REFERENCE: c11_x_001 / Q. text [marks]
+    / FULL_MODEL_ANSWER / MARKING_SCHEME / EXAMINER_COMMENT / ALTERNATIVE_ANSWERS
+    """
+    with open(filepath, "r", encoding="utf-8") as f:
+        content = f.read()
+    blocks: list[dict] = []
+    for bm in re.finditer(
+        r'MODEL\s+ANSWER\s+\d+\s*(.*?)(?=\n-+\s*\n?MODEL\s+ANSWER\s+\d+|\Z)',
+        content, re.DOTALL,
+    ):
+        body = bm.group(1)
+        ref = re.search(r'QUESTION_REFERENCE:\s*([A-Za-z0-9_/\s,]+)', body)
+        nodes = re.findall(r'c\d+_\w+?_\d+', ref.group(1)) if ref else []
+        qm = re.search(r'Q\.\s*(.*?)(?:\[\d+\s*marks?\])?\s*\n', body)
+        blocks.append({
+            "node_ids": nodes,
+            "question": qm.group(1).strip() if qm else "",
+            "model_answer": _field(body, "FULL_MODEL_ANSWER"),
+            "marking_scheme": _field(body, "MARKING_SCHEME"),
+            "examiner_note": _field(body, "EXAMINER_COMMENT"),
+            "alternatives": _field(body, "ALTERNATIVE_ANSWERS"),
+        })
+    return [b for b in blocks if b["model_answer"]]
+
+
+def _norm_text(t: str) -> str:
+    return re.sub(r'[^a-z0-9 ]', '', t.lower())
+
+
+def text_overlap(a: str, b: str) -> float:
+    """Fraction of shorter string's word-tokens present in the longer one."""
+    sa, sb = set(_norm_text(a).split()), set(_norm_text(b).split())
+    if not sa or not sb:
+        return 0.0
+    small, big = (sa, sb) if len(sa) <= len(sb) else (sb, sa)
+    return len(small & big) / len(small)
+
+
+def parse_answer_key_file(filepath: str) -> dict[int, dict]:
+    """Parse a *_answers marker into {q_number: {model_answer, marking_scheme,
+    examiner_note, node_id}}."""
+    with open(filepath, "r", encoding="utf-8") as f:
+        content = f.read()
+    answers: dict[int, dict] = {}
+    blocks = re.finditer(
+        r'Answer:\s*Q(\d+)\s*(.*?)(?=\nAnswer:\s*Q\d+|\n={3,}|\Z)',
+        content, re.DOTALL,
+    )
+    for bm in blocks:
+        q_num, body = int(bm.group(1)), bm.group(2)
+        node = re.search(r'TOPIC:\s*([A-Za-z0-9_]+)', body)
+        answers[q_num] = {
+            "node_id": node.group(1) if node else "",
+            "model_answer": _field(body, "MODEL_ANSWER"),
+            "marking_scheme": _field(body, "MARKING_SCHEME"),
+            "examiner_note": _field(body, "EXAMINER_NOTE"),
+        }
+    return answers

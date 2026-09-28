@@ -34,6 +34,36 @@
      "q": "Design a simple network‑troubleshooting checklist for a student who cannot access a specific HTTPS site while other HTTPS sites work. Include at least four distinct checks that involve protocol‑level reasoning.",
      "a": "A good checklist: 1) Verify the site’s certificate is valid and not expired (TLS handshake). 2) Check if port 443 is blocked by a local firewall or proxy (TCP connection). 3) Confirm DNS resolves to the correct IP (DNS → IP layer). 4) Test with `curl -v https://site` to see TLS handshake errors or HTTP status codes. A poor answer that only says \"restart the router\" shows the student cannot apply protocol knowledge to isolate the failure layer.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Network protocols are standardized sets of rules that define how devices format, transmit, and receive data across a network; HTTP governs unencrypted web ______, HTTPS adds TLS/SSL encryption for secure web transactions, FTP manages file transfers using separate control and data connections, and TCP/IP provides the foundational transport (TCP) and internetwork (IP) layers for reliable end-to-end delivery.",
+     "a": "communication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you open a ______ and type \"https://www.cbse.gov.in\" – what actually happens before the page appears?",
+     "a": "browser",
+     "self_check": true
+    },
+    {
+     "q": "What is Network protocols? State the definition given in this lesson.",
+     "a": "Network protocols are standardized sets of rules that define how devices format, transmit, and receive data across a network; HTTP governs unencrypted web communication, HTTPS adds TLS/SSL encryption for secure web transactions, FTP manages file transfers using separate control and data connections, and TCP/IP provides the foundational.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then, a TCP three-way handshake (SYN, SYN-ACK, ACK) establishes a reliable connection on port ______.",
+     "a": "443",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Network protocols?",
+     "a": "Students often believe that HTTPS is a completely different protocol from HTTP, rather than HTTP layered over TLS/SSL.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the purpose, key characteristics (ports, encryption, connection type), and typical use cases of HTTP, HTTPS, FTP, TCP, and IP, and can correctly identify which protocol operates at which layer of the TCP/IP model when given a real-world scenario.",
+     "self_check": true
     }
    ]
   }

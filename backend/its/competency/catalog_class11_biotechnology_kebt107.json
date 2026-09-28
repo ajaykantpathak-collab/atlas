@@ -130,7 +130,16 @@
      "q": "How many bases make one kilobase?",
      "a": "1000"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "kb_value = bp_total / 1000",
+     "compute": "kb_value = bp_total / 1000"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt107.4",
@@ -209,7 +218,16 @@
      "q": "How many minutes does E. coli need to divide: twenty or sixty?",
      "a": "twenty"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "generations = elapsed_min / 20",
+     "compute": "generations = elapsed_min / 20"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt107.6",
@@ -253,7 +271,16 @@
      "q": "How many codons does the genetic code hold in total?",
      "a": "64"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "codons_total = 4 ** bases_per_codon",
+     "compute": "codons_total = 4 ** bases_per_codon"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt107.7",
@@ -340,7 +367,16 @@
      "q": "A purine-for-purine substitution is called a what: transition or transversion?",
      "a": "transition"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "excised_length = upstream_cut + downstream_cut",
+     "compute": "excised_length = upstream_cut + downstream_cut"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

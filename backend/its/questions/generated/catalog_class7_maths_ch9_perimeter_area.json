@@ -5,6 +5,8 @@
    "id": "c7m9.1.1",
    "title": "Area of a Parallelogram",
    "converted_to_compute": false,
+   "formula": "area = base x height = b x h",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a parallelogram with base 11 cm and height 19 cm.",
@@ -42,6 +44,8 @@
    "id": "c7m9.2.1",
    "title": "Area of a Triangle",
    "converted_to_compute": false,
+   "formula": "area = (1/2) x base x height",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 22 cm by 14 cm.",
@@ -79,6 +83,8 @@
    "id": "c7m9.3.1",
    "title": "Circumference of a Circle",
    "converted_to_compute": false,
+   "formula": "c = pi x d = 2 x pi x r; pi = 22/7 or 3.14",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 35 cm (take pi = 22/7).",
@@ -116,6 +122,8 @@
    "id": "c7m9.3.2",
    "title": "Area of a Circle",
    "converted_to_compute": false,
+   "formula": "area = pi x r^2; pi = 22/7 or 3.14",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 5 cm by 16 cm.",
@@ -153,6 +161,8 @@
    "id": "c7m9.3.3",
    "title": "Applications of Perimeter and Area",
    "converted_to_compute": false,
+   "formula": "cost = rate x area or rate x perimeter",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A rectangular park is 39 m long and 4 m wide. Find its perimeter.",

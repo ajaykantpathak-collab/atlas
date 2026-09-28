@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_10_002",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_10_002",
+   "title": "c11_leg_cbse_10_002",
+   "questions": [
+    {
+     "q": "What are the four categories of entities included in the definition of \"State\" under Article 12 of the Constitution of India?",
+     "a": "The four categories are: (1) Government and Parliament of India (Union Executive and Legislature); (2) Government and Legislature of each State (State Executive and Legislature); (3) All local authorities within the territory of India (e.g., Municipal Corporations, Panchayats); (4) All other authorities within the territory of India or under the control of the Government of India (e.g., ONGC, LIC, universities, statutory corporations). A wrong answer — e.g., listing only \"Government\" or omitting \"other authorities\" — reveals the student has memorized a partial definition and misses the expansive judicial interpretation that brings autonomous bodies under fundamental rights scrutiny.",
+     "self_check": true
+    },
+    {
+     "q": "A private engineering college receives 90% of its funding from the State Government, its governing body is nominated by the Government, and it performs the public function of higher education. Is it \"State\" under Article 12? Explain using the instrumentality test.",
+     "a": "Yes, it is \"State\" under Article 12. Applying the *Ajay Hasia* / *Pradeep Kumar Biswas* instrumentality test: (i) deep and pervasive state control (government nominates governing body); (ii) substantial public funding (90%); (iii) performance of a public function (higher education); (iv) monopoly or near-monopoly in the region. All factors point to it being an instrumentality/agency of the State. A wrong answer (\"No, it's private\") reveals the student equates \"State\" only with *government departments* and ignores the functional/control-based expansion of \"other authorities\" — a classic Class 11 error.",
+     "self_check": true
+    },
+    {
+     "q": "The Board of Control for Cricket in India (BCCI) is a registered society, not created by statute, but it controls cricket in India, selects the national team, and enjoys de facto monopoly. The Government does not fund it or control its management. Is BCCI \"State\" under Article 12? Justify.",
+     "a": "No, BCCI is *not* \"State\" under Article 12 (per *Zee Telefilms v. Union of India*, 2005). The instrumentality test requires *state control* (financial, functional, administrative) — not just public function or monopoly. BCCI lacks government funding, statutory creation, and government nominees on its board. Its autonomy distinguishes it from bodies like ONGC or universities. A wrong answer (\"Yes, because it performs public function\") shows the student over-extends the \"public function\" limb and ignores the *control* requirement — a frequent error when students confuse \"public duty\" with \"state instrumentality.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: Why is the judiciary (Supreme Court, High Courts) *excluded* from the definition of \"State\" in Article 12, yet still *bound* by Fundamental Rights?",
+     "a": "Article 12 defines \"State\" for *enforcement* of Fundamental Rights (vertical application: citizen vs. state). The judiciary is excluded because: (a) it is not an \"authority\" in the executive/legislative sense; (b) including it would make it both judge and party in writ petitions; (c) judicial independence requires insulation from Article 12's control-based definition. *However*, the judiciary *cannot* make rules or issue orders violating Fundamental Rights (per *Rupa Ashok Hurra* and *Naresh Shridhar Mirajkar* — non-judicial functions may be challenged). A wrong answer (\"Judiciary is not bound by FRs\") reveals confusion between *definition of State for enforcement* and *substantive obligation to respect rights* — a critical conceptual distinction at senior secondary level.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If a body is not 'State' under Article 12, Fundamental Rights are completely inapplicable to it.\" Defend or critique with two constitutional mechanisms.",
+     "a": "Critique. The statement is *false*. Even if a body is not \"State\" under Article 12: (1) **Horizontal application via specific Articles**: Article 15(2) (access to shops, public restaurants, wells, tanks — applies to *any* person), Article 17 (abolition of untouchability — enforceable against private individuals), Article 23 (prohibition of forced labour — binds private employers), Article 24 (child labour — binds private actors). (2) **Statutory embodiment**: Many Fundamental Rights are given statutory teeth (e.g., Protection of Civil Rights Act, 1955 for Art. 17; Bonded Labour System (Abolition) Act, 1976 for Art. 23) binding private parties. A wrong answer (\"True\") shows the student sees Article 12 as the *only* gateway to Fundamental Rights, ignoring the Constitution's direct horizontal provisions — a major gap in board-level analytical writing.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new, original scenario (not from textbooks) where a body *appears* private but qualifies as \"State\" under Article 12. Apply the *Pradeep Kumar Biswas* (2002) \"functional + structural\" test step-by-step.",
+     "a": "**Scenario**: \"Metro Rail Corporation (MRC)\" — a company registered under Companies Act, 2013, operating a city metro. Government holds 74% equity, appoints 8 of 12 directors, fixes fares by notification, and MRC has statutory monopoly over urban rail.  \n**Step-by-step application of *Pradeep Kumar Biswas* test**:  \n1. **Statutory origin?** No (Companies Act) — *but not decisive*.  \n2. **Deep pervasive control?** Yes — 74% equity + majority board nominees = control over policy.  \n3. **Public function?** Yes — urban mass transit is a sovereign-like public service.  \n4. **Monopoly?** Yes — exclusive statutory right to operate metro.  \n5. **Government funding?** Substantial (equity + viability gap funding).  \n**Conclusion**: MRC is \"State\" under Article 12.  \nA poor answer (e.g., \"It's a private company, so no\") reveals the student relies on *formal incorporation* rather than the *substantive control/function* test — the core examinable skill for Class 11 board questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

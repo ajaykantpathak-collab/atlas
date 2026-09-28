@@ -34,6 +34,31 @@
      "q": "Design a hypothetical steroid derivative that could act as a membrane anchor for a protein in a thermophilic archaeon living at 80°C. Specify the modifications you would make to the cholesterol structure (ring substitutions, side chain, polar groups) and justify each choice for high-temperature stability.",
      "a": "A strong answer proposes: (1) Saturation of all rings (no double bonds) to prevent oxidative cleavage; (2) Replacement of the C-3 β-OH with a polar head group (e.g., phosphate or sugar) that can form hydrogen bonds with the protein; (3) Branched, saturated isoprenoid side chain at C-17 (like archaeal lipids) for tighter packing; (4) Possible cyclization of ring A/B junction to 5α-configuration for planar rigidity. A poor answer merely says \"add more cholesterol\" or \"make it more hydrophobic,\" showing inability to integrate membrane biophysics with steroid chemistry.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Steroids are lipids ______ by a fused four-ring carbon skeleton (three cyclohexane rings and one cyclopentane ring) that are hydrophobic and function as membrane components (e.g., cholesterol) and hormone precursors; waxes are esters formed from a long-chain fatty acid and a long-chain monohydric alcohol, serving as water-repellent protective coatings on plant surfaces (cuticle) and animal structures (e.g., beeswax, earwax).",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a plant biologist studying the waxy coating on a mango leaf that ______ water loss in the Indian summer heat.",
+     "a": "prevents",
+     "self_check": true
+    },
+    {
+     "q": "What is Steroids? State the definition given in this lesson.",
+     "a": "Steroids are lipids characterized by a fused four-ring carbon skeleton (three cyclohexane rings and one cyclopentane ring) that are hydrophobic and function as membrane components (e.g., cholesterol) and hormone precursors; waxes are esters formed from a long-chain fatty acid and a long-chain monohydric alcohol, serving as.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Steroids?",
+     "a": "Students often believe that all steroids are hormones because they hear \"steroid hormones\" frequently.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) draw and label the steroid nucleus (cyclopentanoperhydrophenanthrene) and identify the functional groups that distinguish cholesterol, testosterone, and estradiol; (2) write the general esterification reaction for wax formation and explain how the chain lengths of both the fatty acid and alcohol.",
+     "self_check": true
     }
    ]
   }

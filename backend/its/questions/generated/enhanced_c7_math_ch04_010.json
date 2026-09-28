@@ -34,6 +34,16 @@
      "q": "Design an algebraic expression for the total perimeter of a train of $n$ identical regular pentagons placed side by side in a straight line, where each shared side reduces the outer perimeter. Explain how you constructed your expression.",
      "a": "The expected expression is $3n + 2$. Explanation: A single regular pentagon has 5 sides. When $n$ pentagons are joined in a line, $(n - 1)$ sides are shared (counted twice in isolation). Thus, the perimeter is $5n - 2(n - 1) = 5n - 2n + 2 = 3n + 2$. A poor answer merely guesses a linear formula like $5n$ without accounting for the overlapping sides between adjacent pentagons.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are arranging square tiles on the floor of your school assembly hall to form a growing ______ of L-shapes, where each new step adds the same number of tiles along the arms.",
+     "a": "sequence",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ square tiles on the floor of your school assembly hall to form a growing sequence of L-shapes, where each new step adds the same number of tiles along the arms.",
+     "a": "arranging",
+     "self_check": true
     }
    ]
   }

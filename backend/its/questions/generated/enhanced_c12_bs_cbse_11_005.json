@@ -34,6 +34,26 @@
      "q": "Create a new product concept for the Indian market: a subscription-based service delivering customized vitamin packs. Classify it (consumer/industrial, sub-type), propose a brand name with rationale, describe the packaging system (levels), and list 5 mandatory label declarations.",
      "a": "Classification: Consumer product → Shopping product (high involvement, comparison on quality/customization). Brand name: \"VitaScript\" — combines \"vita\" (life) and \"script\" (personalized prescription), suggesting scientific customization. Packaging: Primary — individual daily sachets (foil, nitrogen-flushed); Secondary — weekly dispenser box (branded, child-resistant); Transportation — insulated corrugated mailer with cold pack for heat-sensitive vitamins. Mandatory labels: (1) Product name + \"Dietary Supplement\"; (2) Net quantity (e.g., \"30 sachets × 2g\"); (3) FSSAI license number & logo; (4) Nutritional information per serving (vitamins/minerals % RDA); (5) \"Best before\" date, batch number, manufacturer address, consumer helpline. A poor answer would misclassify as convenience product, ignore cold-chain needs, or omit FSSAI-specific declarations.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Product ______ categorizes goods into consumer products (convenience, shopping, specialty, unsought) and industrial products (materials and parts, capital items, supplies and services) based on buyer behavior and usage.",
+     "a": "classification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are launching a new ______ honey brand in India.",
+     "a": "organic",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Classify a given product into the correct consumer or industrial category with justification based on buying behavior and usage; (2) Explain the functions of branding, packaging, and labelling and how they interrelate in the marketing mix; (3) Analyze a real-world product's packaging and labelling for.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a new organic honey brand in India.",
+     "a": "launching",
+     "self_check": true
     }
    ]
   }

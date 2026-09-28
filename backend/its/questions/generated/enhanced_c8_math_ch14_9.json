@@ -34,6 +34,21 @@
      "q": "Create a real-world problem (Indian context) that requires finding the area of a compound shape by *both* adding and subtracting at least two different basic shapes. Provide a sketch description and all necessary dimensions.",
      "a": "Example problem: \"A rectangular courtyard 12 m × 10 m has a square fountain 3 m × 3 m in the centre and a semicircular flower bed (radius 2 m) along one of the 12 m sides, outside the courtyard but attached. Find the total area covered by the courtyard, fountain, and flower bed together.\" Wait, that adds courtyard + fountain? The fountain is inside. Better: \"A rectangular plot 20 m × 15 m has a rectangular house 12 m × 8 m built on it. In the remaining land, a circular well of radius 1.5 m is dug. Find the area of the open land left.\" This uses subtraction only. For both add and subtract: \"A rectangular garden 10 m × 6 m has a triangular pond (base 4 m, height 3 m) in one corner. The owner adds a rectangular patio 2 m × 5 m attached to the outside of the garden along the 10 m side. Find the total area of garden plus patio excluding the pond.\" This requires: Garden area (add) + Patio area (add) − Pond area (subtract). A good answer includes clear description, dimensions, and specifies which operations. A poor answer gives a problem that only adds or only subtracts, or uses shapes not yet learned (e.g., ellipse).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The area of a compound shape is found by decomposing it into simpler, non-overlapping shapes (rectangles, triangles, ______, trapeziums, circles) whose areas we can calculate, then adding those areas together; if the shape has a \"cut-out\" or hole, we subtract the area of the removed part from the area of the enclosing shape.",
+     "a": "parallelograms",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your family design a new ______ garden (10 m × 8 m) but want a circular pond (radius 2 m) in the middle and a triangular flower bed (base 4 m, height 3 m) in one corner.",
+     "a": "rectangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently decompose any compound shape into familiar basic shapes, correctly identify which dimensions belong to which part, choose whether to add or subtract areas, and compute the total area with correct units.",
+     "self_check": true
     }
    ]
   }

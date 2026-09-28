@@ -34,6 +34,21 @@
      "q": "Design a capacitor network using only 10 μF capacitors to achieve an equivalent capacitance of exactly 15 μF. Draw the circuit diagram and show the step-by-step calculation.",
      "a": "Use three 10 μF capacitors: connect two in series (giving 5 μF), then connect this series combination in parallel with the third 10 μF capacitor. C_series = 10/2 = 5 μF; C_eq = 5 + 10 = 15 μF. A poor answer uses four or more capacitors unnecessarily, or cannot achieve exactly 15 μF. This tests creativity and mastery of combination rules — a skill needed for JEE Advanced circuit design problems.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ capacitance of a combination of capacitors is the single capacitance that would store the same total charge as the combination when connected to the same potential difference.",
+     "a": "equivalent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan capacitor (typically 2-3 μF) — it's a single component but inside it may have multiple foil layers connected in parallel to increase ______.",
+     "a": "capacitance",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (a) identify series and parallel connections in a mixed network from a circuit diagram, (b) compute equivalent capacitance step-by-step for networks of 3-5 capacitors, (c) determine charge and voltage distribution across each capacitor in a mixed network when connected to a battery, and (d) explain why series combination.",
+     "self_check": true
     }
    ]
   }

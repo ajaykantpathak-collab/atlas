@@ -103,7 +103,16 @@
      "solution": "Step 1: sum sector outputs. Working: agri_output + ind_output + service_output.",
      "answer": "The method of gross domestic product and economic growth leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "gdp = agri_output + ind_output + service_output",
+     "compute": "gdp = agri_output + ind_output + service_output"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keec.102.4",
@@ -140,7 +149,16 @@
      "solution": "Step 1: compute sector percentage share. Working: (sector_output / gdp) * 100.",
      "answer": "The method of structural composition of gdp leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "sector_share = (sector_output / gdp) * 100",
+     "compute": "sector_share = (sector_output / gdp) * 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keec.102.5",
@@ -240,7 +258,16 @@
      "solution": "Step 1: calculate marketed surplus. Working: total_production - farm_consumption.",
      "answer": "The method of green revolution and marketed surplus leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "marketed_surplus = total_production - farm_consumption",
+     "compute": "marketed_surplus = total_production - farm_consumption"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keec.102.8",

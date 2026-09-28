@@ -34,6 +34,31 @@
      "q": "Design a simple classroom demonstration using a ball on a string or a toy car on a circular track to show that centripetal force does zero work. List the measurements you would take and how you would prove the speed remains constant.",
      "a": "Use a conical pendulum (ball on string) or a toy car on a frictionless circular track. Measure time for 10 revolutions and radius to calculate speed v = 2πr/T. Repeat for different radii by changing string length. If speed is constant (within measurement error), kinetic energy is constant, proving zero work by tension/normal force. A poor answer that measures only radius or time without connecting to speed constancy, or suggests measuring force, reveals the student doesn't link zero work to constant kinetic energy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Work done by a force is zero when the force applied on an object is ______ to the displacement of that object, because the component of force along the direction of displacement is zero.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a satellite orbiting Earth or a stone tied to a string being whirled in a horizontal circle — the force (gravity or tension) always points toward the centre while displacement is along the tangent, ______ at every instant.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "What is Work done by a force? State the definition given in this lesson.",
+     "a": "Work done by a force is zero when the force applied on an object is perpendicular to the displacement of that object, because the component of force along the direction of displacement is zero.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Work done by a force?",
+     "a": "Students believe that \"a force is applied, so work must be done\" — they treat work as a scalar count of force application rather than a dot product.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify from a physical description or diagram whether work done is zero, positive, or negative by analyzing the angle between force and displacement vectors, and can explain why centripetal force in uniform circular motion does zero work despite causing acceleration.",
+     "self_check": true
     }
    ]
   }

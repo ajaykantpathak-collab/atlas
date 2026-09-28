@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using two tuning forks of slightly different frequencies (e.g., 512 Hz and 516 Hz) and a resonance column to demonstrate superposition leading to beats. Describe what you would observe and how it relates to the superposition principle.",
      "a": "Strike both forks simultaneously and hold them near the open end of a resonance column. Observe the sound intensity: it will wax and wane periodically (beats). The beat frequency = |516 - 512| = 4 Hz. This occurs because superposition of two waves of slightly different frequencies produces a resultant with time-varying amplitude: y = 2a cos(2π×2×t) sin(2π×514×t). The amplitude modulation at 4 Hz is heard as beats. A poor answer would just say \"beats are heard\" without linking to superposition of two waves with different ω, or would confuse with interference of same-frequency waves.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The principle of superposition of waves states that when two or more waves travel ______ through the same region of a medium, the net displacement of any particle of the medium at any instant is the algebraic sum of the displacements produced by each wave individually.",
+     "a": "simultaneously",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine dropping two pebbles ______ into a still pond at slightly different points.",
+     "a": "simultaneously",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) mathematically express the resultant displacement when given two or more wave functions, (2) determine the resultant amplitude and phase for two harmonic waves of same frequency but different phases, and (3) predict whether interference is constructive or destructive at a given point based on phase.",
+     "self_check": true
     }
    ]
   }

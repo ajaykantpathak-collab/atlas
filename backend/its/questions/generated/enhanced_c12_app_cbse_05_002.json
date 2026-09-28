@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_05_002",
+   "title": "c12_app_cbse_05_002",
+   "questions": [
+    {
+     "q": "Which of the following is a differential equation? (i) \\( x^2 + 3x - 5 = 0 \\) (ii) \\( \\frac{dy}{dx} + 2y = \\sin x \\) (iii) \\( y = e^x \\) (iv) \\( \\frac{d^2y}{dx^2} + y\\frac{dy}{dx} = 0 \\)",
+     "a": "Correct: (ii) and (iv) are differential equations because they contain derivatives of the dependent variable \\( y \\) with respect to \\( x \\). (i) is an algebraic equation; (iii) is a function, not an equation involving derivatives. A wrong answer reveals the student cannot distinguish between an equation that *defines* a function and one that *relates a function to its derivatives* — a fundamental categorical error.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"\\( \\frac{dy}{dx} = 3x^2 \\) is not a differential equation because it can be solved by direct integration.\" Explain why this reasoning is incorrect.",
+     "a": "The equation \\( \\frac{dy}{dx} = 3x^2 \\) **is** a differential equation — it relates the derivative of \\( y \\) to \\( x \\). Solvability by integration does not change its classification; many differential equations are solved by integration. A student who says it's not a differential equation confuses *solution method* with *definition*. This reveals a misconception that only \"hard\" or \"unsolvable directly\" equations count as differential equations.",
+     "self_check": true
+    },
+    {
+     "q": "The temperature \\( T \\) (in °C) of a cooling cup of chai in a room at 25°C changes at a rate proportional to the difference between \\( T \\) and 25. Write the differential equation modeling this situation. Use \\( k \\) as the proportionality constant.",
+     "a": "\\( \\frac{dT}{dt} = -k(T - 25) \\), where \\( k > 0 \\). The negative sign indicates cooling (temperature decreases when \\( T > 25 \\)). A wrong answer (e.g., missing the minus sign, writing \\( \\frac{dT}{dt} = kT \\), or using \\( T - 25 \\) without proportionality) shows the student cannot translate a verbal rate-of-change statement into a differential equation — the core modeling skill.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the two equations: \\( \\frac{dy}{dx} = x + y \\) and \\( \\frac{\\partial u}{\\partial x} + \\frac{\\partial u}{\\partial y} = 0 \\). What is the fundamental difference in what they describe? Give a real-world example for each.",
+     "a": "The first is an **ordinary differential equation (ODE)** — one independent variable (\\( x \\)), describing how \\( y \\) changes along a single dimension (e.g., population growth over time). The second is a **partial differential equation (PDE)** — two independent variables (\\( x, y \\)), describing how \\( u \\) changes across a surface (e.g., steady-state temperature distribution on a metal plate). A student who cannot distinguish ODE vs PDE misses the dimensionality of the system being modeled.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 12 student claims: \"Every equation containing \\( \\frac{dy}{dx} \\) is an ordinary differential equation.\" Evaluate this statement. Is it always true? Provide a counterexample if false.",
+     "a": "The statement is **false**. An equation containing \\( \\frac{dy}{dx} \\) could be a PDE if other partial derivatives are also present, e.g., \\( \\frac{\\partial u}{\\partial t} = \\frac{\\partial^2 u}{\\partial x^2} \\) (heat equation) contains \\( \\frac{\\partial u}{\\partial t} \\) but is a PDE because \\( u = u(x,t) \\) has two independent variables. The claim oversimplifies by ignoring the number of independent variables. A student who agrees reveals a rote-memory definition without conceptual understanding of \"ordinary\" vs \"partial\".",
+     "self_check": true
+    },
+    {
+     "q": "Create your own real-world scenario (Indian context) that can be modeled by a first-order ordinary differential equation. Define the variables clearly and write the differential equation. Explain why it is ordinary and first-order.",
+     "a": "Example: \"The amount of money \\( A \\) (in ₹) in a savings account grows at a rate proportional to the current balance, with an annual interest rate of 5% compounded continuously.\" Let \\( t \\) = time in years. Then \\( \\frac{dA}{dt} = 0.05A \\). It is **ordinary** because only one independent variable (\\( t \\)); **first-order** because the highest derivative is \\( \\frac{dA}{dt} \\). A poor answer uses multiple independent variables, higher derivatives without justification, or fails to define variables — showing inability to construct a valid model.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

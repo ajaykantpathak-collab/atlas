@@ -34,6 +34,26 @@
      "q": "Construct a 3×3 matrix A with integer entries such that |A| = 5, and the expansion along the second row requires computing only one non-zero 2×2 determinant. Write the matrix and show the expansion.",
      "a": "One such matrix: A = \n| 1  0  2 |\n| 0  1  0 |\n| 3  0  5 |.\nExpanding along R₂ (which has zeros in columns 1 and 3):  \n|A| = −0·(...) + 1·(1·5 − 2·3) − 0·(...) = 1·(5 − 6) = −1. (Oops, gives −1.)  \nTo get |A| = 5, adjust: A = \n| 1  0  2 |\n| 0  1  0 |\n| 3  0  7 |.\nThen |A| = 1·(1·7 − 2·3) = 1·(7 − 6) = 1. Still not 5.  \nBetter: A = \n| 1  0  0 |\n| 0  5  0 |\n| 0  0  1 | gives |A| = 5 (diagonal matrix). Expansion along R₂: −0 + 5·(1·1 − 0·0) − 0 = 5.  \nOr non-diagonal: A = \n| 2  1  3 |\n| 0  5  0 |\n| 1  2  4 |. R₂ expansion: 5·(2·4 − 3·1) = 5·(8−3) = 25. Scale: divide first row by 5? Not integer.  \nCorrect integer example: A = \n| 1  2  3 |\n| 0  5  0 |\n| 4  5  6 |. R₂: 5·(1·6 − 3·4) = 5·(6−12) = −30.  \nLet’s use: A = \n| 1  0  0 |\n| 0  1  0 |\n| 0  0  5 | → |A| = 5. Expansion along R₂: 1·(1·5 − 0·0) = 5. ✓  \nA good answer provides any 3×3 matrix with |A| = 5 where the chosen row/column has two zeros. A poor answer (e.g., a matrix with no zeros, or wrong determinant) reveals the student doesn't understand how zeros simplify expansion or cannot control the determinant value via triangular/diagonal structure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ is a scalar value (real or complex) associated uniquely with every square matrix A = [aᵢⱼ] of order n, denoted by |A|, det A, or Δ.",
+     "a": "determinant",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are running a small stationery shop and need to find the individual prices of pens and ______.",
+     "a": "notebooks",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) identify whether a given matrix has a determinant (i.e., check if it is square), (2) write the correct notation for the determinant of a given square matrix, (3) compute the determinant of matrices of order 1 and 2 using the definition, and (4) explain why the determinant of a 2×2 matrix A = [[a, b], [c, d]] is ad −.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are running a small ______ shop and need to find the individual prices of pens and notebooks.",
+     "a": "stationery",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a word problem requiring ALL these steps: (a) calculate molarity from mass/volume, (b) use dilution formula M₁V₁ = M₂V₂, (c) stoichiometry with limiting reagent, (d) calculate percentage yield. Provide the problem statement and solution outline.",
      "a": "Sample problem: \"A student prepares 250 mL of 0.2 M Na₂CO₃ by dissolving Na₂CO₃·10H₂O (M = 286 g/mol). They take 25 mL and dilute to 100 mL. This is mixed with 50 mL of 0.15 M CaCl₂. The CaCO₃ precipitate weighs 0.45 g after drying. Calculate: (i) mass of hydrate used, (ii) molarity after dilution, (iii) theoretical yield of CaCO₃, (iv) percentage yield.\" Solution: (i) Moles Na₂CO₃ = 0.25×0.2 = 0.05 mol → mass = 0.05×286 = 14.3 g. (ii) M₁V₁ = M₂V₂ → 0.2×25 = M₂×100 → M₂ = 0.05 M. (iii) Moles CaCO₃ from limiting reagent (CaCl₂: 0.05×0.15 = 0.0075 mol; Na₂CO₃: 0.025×0.05 = 0.00125 mol → Na₂CO₃ limiting). Theoretical yield = 0.00125×100 = 0.125 g. (iv) % yield = 0.45/0.125×100 = 360% → impossible, indicating impure product or measurement error. A poor answer reveals compartmentalized learning - inability to chain concepts sequentially.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ word problems require translating a real-world chemical scenario into a balanced equation, identifying given/unknown quantities, converting between mass, moles, volume, and concentration using molar mass, Avogadro's number, molarity, molality, mole fraction, and gas molar volume, then applying limiting reagent logic to determine theoretical yield, percentage yield, and excess reagent quantities.",
+     "a": "Stoichiometric",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Consider a common kitchen observation: When you add baking soda (NaHCO₃) to ______ (CH₃COOH) for cleaning, vigorous fizzing occurs due to CO₂ evolution.",
+     "a": "vinegar",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently solve multi-step stoichiometry word problems involving: (1) mass-mass, mass-volume, volume-volume conversions using balanced equations, (2) limiting reagent identification with non-stoichiometric reactant amounts, (3) concentration calculations (molarity, molality, mole fraction) for reactants/products in.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Consider a common kitchen ______: When you add baking soda (NaHCO₃) to vinegar (CH₃COOH) for cleaning, vigorous fizzing occurs due to CO₂ evolution.",
+     "a": "observation",
+     "self_check": true
     }
    ]
   }

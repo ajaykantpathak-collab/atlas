@@ -297,7 +297,7 @@
     "From the given ogive, find the median and verify it using the formula.",
     "Construct a more than ogive for the following distribution and use it to find the median."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -336,7 +336,16 @@
      "question": "Draw both less than and more than ogives for: Class 5-10 (f=4), 10-15 (f=10), 15-20 (f=18), 20-25 (f=9), 25-30 (f=6) and find the median from their intersection.",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 2 * 4 * 4 + 3 * 4 + 6 gives 50",
+     "compute": "val = 2 * 4 * 4 + 3 * 4 + 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.13.7",

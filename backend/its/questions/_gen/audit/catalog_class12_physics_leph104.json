@@ -1,0 +1,1124 @@
+{
+ "catalog": "catalog_class12_physics_leph104.json",
+ "concepts": [
+  {
+   "id": "leph104.4.2.2.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "charge = 11.9",
+      "speed = 34",
+      "mag_field = 2",
+      "sin_tilt = 13",
+      "mag_force = charge * speed * mag_field * sin_tilt"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "charge = 1.1",
+      "speed = 81",
+      "mag_field = 11.3",
+      "sin_tilt = 56",
+      "mag_force = charge * speed * mag_field * sin_tilt"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "charge = 10.3",
+      "speed = 22",
+      "mag_field = 39",
+      "sin_tilt = 112",
+      "mag_force = charge * speed * mag_field * sin_tilt"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "charge = 15.4",
+      "speed = 51",
+      "mag_field = 92",
+      "sin_tilt = 51",
+      "mag_force = charge * speed * mag_field * sin_tilt"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "charge = 4.1",
+      "speed = 66",
+      "mag_field = 83",
+      "sin_tilt = 75",
+      "mag_force = charge * speed * mag_field * sin_tilt"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "charge = 11.1",
+      "speed = 36",
+      "mag_field = 34",
+      "sin_tilt = 92",
+      "mag_force = charge * speed * mag_field * sin_tilt"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "mag_force = charge * speed * mag_field * sin_tilt"
+   ]
+  },
+  {
+   "id": "leph104.4.2.3.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "current = 9",
+      "length = 182",
+      "mag_field = 71",
+      "sin_tilt = 15.3",
+      "wire_force = current * length * mag_field * sin_tilt"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "current = 4.2",
+      "length = 369",
+      "mag_field = 80",
+      "sin_tilt = 82",
+      "wire_force = current * length * mag_field * sin_tilt"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "current = 6",
+      "length = 215",
+      "mag_field = 67",
+      "sin_tilt = 10.6",
+      "wire_force = current * length * mag_field * sin_tilt"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "current = 1.2",
+      "length = 254",
+      "mag_field = 42",
+      "sin_tilt = 98",
+      "wire_force = current * length * mag_field * sin_tilt"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "current = 25",
+      "length = 264",
+      "mag_field = 68",
+      "sin_tilt = 96",
+      "wire_force = current * length * mag_field * sin_tilt"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "current = 4.9",
+      "length = 390",
+      "mag_field = 87",
+      "sin_tilt = 116",
+      "wire_force = current * length * mag_field * sin_tilt"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "wire_force = current * length * mag_field * sin_tilt"
+   ]
+  },
+  {
+   "id": "leph104.4.2.3.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mass = 42",
+      "gravity_acc = 88",
+      "current = 1.6",
+      "length = 303",
+      "mag_field = mass * gravity_acc / (current * length)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mass = 35",
+      "gravity_acc = 100",
+      "current = 6.4",
+      "length = 50",
+      "mag_field = mass * gravity_acc / (current * length)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mass = 83",
+      "gravity_acc = 62",
+      "current = 27",
+      "length = 319",
+      "mag_field = mass * gravity_acc / (current * length)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mass = 127",
+      "gravity_acc = 96",
+      "current = 23",
+      "length = 204",
+      "mag_field = mass * gravity_acc / (current * length)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mass = 80",
+      "gravity_acc = 75",
+      "current = 13.9",
+      "length = 71",
+      "mag_field = mass * gravity_acc / (current * length)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mass = 64",
+      "gravity_acc = 3.8",
+      "current = 9.7",
+      "length = 184",
+      "mag_field = mass * gravity_acc / (current * length)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "mag_field = mass * gravity_acc / (current * length)"
+   ]
+  },
+  {
+   "id": "leph104.4.3.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mass = 135",
+      "speed = 41",
+      "charge = 16",
+      "mag_field = 82",
+      "orbit_radius = mass * speed / (charge * mag_field)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mass = 178",
+      "speed = 25",
+      "charge = 9.4",
+      "mag_field = 80",
+      "orbit_radius = mass * speed / (charge * mag_field)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mass = 23",
+      "speed = 16.5",
+      "charge = 29",
+      "mag_field = 81",
+      "orbit_radius = mass * speed / (charge * mag_field)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mass = 110",
+      "speed = 12.5",
+      "charge = 11.5",
+      "mag_field = 0.7",
+      "orbit_radius = mass * speed / (charge * mag_field)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mass = 60",
+      "speed = 86",
+      "charge = 24",
+      "mag_field = 7.6",
+      "orbit_radius = mass * speed / (charge * mag_field)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mass = 173",
+      "speed = 77",
+      "charge = 1.8",
+      "mag_field = 19.2",
+      "orbit_radius = mass * speed / (charge * mag_field)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "orbit_radius = mass * speed / (charge * mag_field)"
+   ]
+  },
+  {
+   "id": "leph104.4.3.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "charge = 24",
+      "mag_field = 79",
+      "mass = 73",
+      "cyclotron_freq = charge * mag_field / (2 * pi * mass)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "charge = 6.2",
+      "mag_field = 46",
+      "mass = 179",
+      "cyclotron_freq = charge * mag_field / (2 * pi * mass)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "charge = 4.4",
+      "mag_field = 15.3",
+      "mass = 43",
+      "cyclotron_freq = charge * mag_field / (2 * pi * mass)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "charge = 15.5",
+      "mag_field = 88",
+      "mass = 89",
+      "cyclotron_freq = charge * mag_field / (2 * pi * mass)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "charge = 8.8",
+      "mag_field = 18.5",
+      "mass = 89",
+      "cyclotron_freq = charge * mag_field / (2 * pi * mass)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "charge = 15.3",
+      "mag_field = 88",
+      "mass = 135",
+      "cyclotron_freq = charge * mag_field / (2 * pi * mass)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "cyclotron_freq = charge * mag_field / (2 * pi * mass)"
+   ]
+  },
+  {
+   "id": "leph104.4.3.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "gyro_period = 67",
+      "speed_parallel = 77",
+      "pitch = gyro_period * speed_parallel"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "gyro_period = 53",
+      "speed_parallel = 28",
+      "pitch = gyro_period * speed_parallel"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gyro_period = 31",
+      "speed_parallel = 81",
+      "pitch = gyro_period * speed_parallel"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "gyro_period = 25",
+      "speed_parallel = 33",
+      "pitch = gyro_period * speed_parallel"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "gyro_period = 50",
+      "speed_parallel = 43",
+      "pitch = gyro_period * speed_parallel"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "gyro_period = 66",
+      "speed_parallel = 104",
+      "pitch = gyro_period * speed_parallel"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "pitch = gyro_period * speed_parallel"
+   ]
+  },
+  {
+   "id": "leph104.4.4.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "prefactor = 67",
+      "current = 21",
+      "element_len = 14.7",
+      "sin_tilt = 102",
+      "distance = 324",
+      "element_field = prefactor * current * element_len * sin_tilt / distance ** 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "prefactor = 60",
+      "current = 4.1",
+      "element_len = 104",
+      "sin_tilt = 27",
+      "distance = 378",
+      "element_field = prefactor * current * element_len * sin_tilt / distance ** 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "prefactor = 58",
+      "current = 20",
+      "element_len = 1.9",
+      "sin_tilt = 60",
+      "distance = 152",
+      "element_field = prefactor * current * element_len * sin_tilt / distance ** 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "prefactor = 74",
+      "current = 3.6",
+      "element_len = 27",
+      "sin_tilt = 44",
+      "distance = 29",
+      "element_field = prefactor * current * element_len * sin_tilt / distance ** 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "prefactor = 15.7",
+      "current = 23",
+      "element_len = 77",
+      "sin_tilt = 96",
+      "distance = 466",
+      "element_field = prefactor * current * element_len * sin_tilt / distance ** 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "prefactor = 81",
+      "current = 24",
+      "element_len = 9.7",
+      "sin_tilt = 66",
+      "distance = 150",
+      "element_field = prefactor * current * element_len * sin_tilt / distance ** 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "element_field = prefactor * current * element_len * sin_tilt / distance ** 2"
+   ]
+  },
+  {
+   "id": "leph104.4.5.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mu_0 = 12.4",
+      "turns = 152",
+      "current = 4.3",
+      "radius = 34",
+      "centre_field = mu_0 * turns * current / (2 * radius)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mu_0 = 52",
+      "turns = 454",
+      "current = 1.7",
+      "radius = 2.6",
+      "centre_field = mu_0 * turns * current / (2 * radius)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mu_0 = 80",
+      "turns = 295",
+      "current = 15.4",
+      "radius = 45",
+      "centre_field = mu_0 * turns * current / (2 * radius)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mu_0 = 56",
+      "turns = 353",
+      "current = 6.8",
+      "radius = 21",
+      "centre_field = mu_0 * turns * current / (2 * radius)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mu_0 = 63",
+      "turns = 201",
+      "current = 27",
+      "radius = 48",
+      "centre_field = mu_0 * turns * current / (2 * radius)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mu_0 = 47",
+      "turns = 35",
+      "current = 0.7",
+      "radius = 48",
+      "centre_field = mu_0 * turns * current / (2 * radius)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "centre_field = mu_0 * turns * current / (2 * radius)"
+   ]
+  },
+  {
+   "id": "leph104.4.5.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mu_0 = 52",
+      "current = 19.3",
+      "radius = 6.5",
+      "axial_dist = 11.8",
+      "axial_field = mu_0 * current * radius ** 2 / (2 * (axial_dist ** 2 + radius ** 2) ** 1.5)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mu_0 = 45",
+      "current = 21",
+      "radius = 0.6",
+      "axial_dist = 57",
+      "axial_field = mu_0 * current * radius ** 2 / (2 * (axial_dist ** 2 + radius ** 2) ** 1.5)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mu_0 = 72",
+      "current = 1.3",
+      "radius = 11.2",
+      "axial_dist = 26",
+      "axial_field = mu_0 * current * radius ** 2 / (2 * (axial_dist ** 2 + radius ** 2) ** 1.5)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mu_0 = 45",
+      "current = 10.5",
+      "radius = 19.2",
+      "axial_dist = 71",
+      "axial_field = mu_0 * current * radius ** 2 / (2 * (axial_dist ** 2 + radius ** 2) ** 1.5)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mu_0 = 96",
+      "current = 7.8",
+      "radius = 38",
+      "axial_dist = 21",
+      "axial_field = mu_0 * current * radius ** 2 / (2 * (axial_dist ** 2 + radius ** 2) ** 1.5)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mu_0 = 28",
+      "current = 20",
+      "radius = 32",
+      "axial_dist = 10",
+      "axial_field = mu_0 * current * radius ** 2 / (2 * (axial_dist ** 2 + radius ** 2) ** 1.5)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "axial_field = mu_0 * current * radius ** 2 / (2 * (axial_dist ** 2 + radius ** 2) ** 1.5)"
+   ]
+  },
+  {
+   "id": "leph104.4.6.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mu_0 = 44",
+      "enclosed_current = 28",
+      "enclosed_term = mu_0 * enclosed_current"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mu_0 = 59",
+      "enclosed_current = 18.5",
+      "enclosed_term = mu_0 * enclosed_current"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mu_0 = 28",
+      "enclosed_current = 1.3",
+      "enclosed_term = mu_0 * enclosed_current"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mu_0 = 41",
+      "enclosed_current = 2.5",
+      "enclosed_term = mu_0 * enclosed_current"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mu_0 = 36",
+      "enclosed_current = 3.7",
+      "enclosed_term = mu_0 * enclosed_current"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mu_0 = 97",
+      "enclosed_current = 7.3",
+      "enclosed_term = mu_0 * enclosed_current"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "enclosed_term = mu_0 * enclosed_current"
+   ]
+  },
+  {
+   "id": "leph104.4.6.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mu_0 = 35",
+      "current = 7.7",
+      "distance = 58",
+      "wire_field = mu_0 * current / (2 * pi * distance)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mu_0 = 73",
+      "current = 15.2",
+      "distance = 246",
+      "wire_field = mu_0 * current / (2 * pi * distance)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mu_0 = 2.9",
+      "current = 12.9",
+      "distance = 34",
+      "wire_field = mu_0 * current / (2 * pi * distance)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mu_0 = 57",
+      "current = 24",
+      "distance = 251",
+      "wire_field = mu_0 * current / (2 * pi * distance)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mu_0 = 53",
+      "current = 3.2",
+      "distance = 384",
+      "wire_field = mu_0 * current / (2 * pi * distance)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mu_0 = 36",
+      "current = 29",
+      "distance = 12.3",
+      "wire_field = mu_0 * current / (2 * pi * distance)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "wire_field = mu_0 * current / (2 * pi * distance)"
+   ]
+  },
+  {
+   "id": "leph104.4.7.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mu_0 = 98",
+      "turns_per_len = 227",
+      "current = 13.4",
+      "sol_field = mu_0 * turns_per_len * current"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mu_0 = 99",
+      "turns_per_len = 445",
+      "current = 19.4",
+      "sol_field = mu_0 * turns_per_len * current"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mu_0 = 82",
+      "turns_per_len = 431",
+      "current = 22",
+      "sol_field = mu_0 * turns_per_len * current"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mu_0 = 64",
+      "turns_per_len = 268",
+      "current = 20",
+      "sol_field = mu_0 * turns_per_len * current"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mu_0 = 35",
+      "turns_per_len = 177",
+      "current = 4.6",
+      "sol_field = mu_0 * turns_per_len * current"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mu_0 = 84",
+      "turns_per_len = 361",
+      "current = 18.8",
+      "sol_field = mu_0 * turns_per_len * current"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "sol_field = mu_0 * turns_per_len * current"
+   ]
+  },
+  {
+   "id": "leph104.4.8.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mu_0 = 75",
+      "current_a = 98",
+      "current_b = 36",
+      "separation = 87",
+      "force_per_len = mu_0 * current_a * current_b / (2 * pi * separation)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mu_0 = 15.3",
+      "current_a = 101",
+      "current_b = 41",
+      "separation = 17.1",
+      "force_per_len = mu_0 * current_a * current_b / (2 * pi * separation)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mu_0 = 7.6",
+      "current_a = 101",
+      "current_b = 26",
+      "separation = 18.8",
+      "force_per_len = mu_0 * current_a * current_b / (2 * pi * separation)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mu_0 = 58",
+      "current_a = 8.3",
+      "current_b = 33",
+      "separation = 81",
+      "force_per_len = mu_0 * current_a * current_b / (2 * pi * separation)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mu_0 = 84",
+      "current_a = 79",
+      "current_b = 47",
+      "separation = 44",
+      "force_per_len = mu_0 * current_a * current_b / (2 * pi * separation)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mu_0 = 5.4",
+      "current_a = 70",
+      "current_b = 23",
+      "separation = 59",
+      "force_per_len = mu_0 * current_a * current_b / (2 * pi * separation)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "force_per_len = mu_0 * current_a * current_b / (2 * pi * separation)"
+   ]
+  },
+  {
+   "id": "leph104.4.9.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "turns = 265",
+      "current = 14.9",
+      "area = 45",
+      "mag_moment = turns * current * area"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "turns = 457",
+      "current = 8.5",
+      "area = 84",
+      "mag_moment = turns * current * area"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "turns = 299",
+      "current = 13.6",
+      "area = 2.1",
+      "mag_moment = turns * current * area"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "turns = 37",
+      "current = 1.8",
+      "area = 47",
+      "mag_moment = turns * current * area"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "turns = 204",
+      "current = 21",
+      "area = 40",
+      "mag_moment = turns * current * area"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "turns = 15",
+      "current = 13",
+      "area = 66",
+      "mag_moment = turns * current * area"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "mag_moment = turns * current * area"
+   ]
+  },
+  {
+   "id": "leph104.4.9.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mag_moment = 26",
+      "mag_field = 78",
+      "sin_tilt = 83",
+      "loop_torque = mag_moment * mag_field * sin_tilt"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mag_moment = 37",
+      "mag_field = 61",
+      "sin_tilt = 108",
+      "loop_torque = mag_moment * mag_field * sin_tilt"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mag_moment = 65",
+      "mag_field = 70",
+      "sin_tilt = 96",
+      "loop_torque = mag_moment * mag_field * sin_tilt"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mag_moment = 27",
+      "mag_field = 59",
+      "sin_tilt = 16.9",
+      "loop_torque = mag_moment * mag_field * sin_tilt"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mag_moment = 48",
+      "mag_field = 46",
+      "sin_tilt = 15",
+      "loop_torque = mag_moment * mag_field * sin_tilt"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mag_moment = 7.2",
+      "mag_field = 99",
+      "sin_tilt = 19",
+      "loop_torque = mag_moment * mag_field * sin_tilt"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "loop_torque = mag_moment * mag_field * sin_tilt"
+   ]
+  },
+  {
+   "id": "leph104.4.10.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "turns = 280",
+      "area = 55",
+      "mag_field = 24",
+      "current = 5.1",
+      "spring_const = 62",
+      "deflection = turns * area * mag_field * current / spring_const"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "turns = 154",
+      "area = 35",
+      "mag_field = 20",
+      "current = 23",
+      "spring_const = 41",
+      "deflection = turns * area * mag_field * current / spring_const"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "turns = 491",
+      "area = 50",
+      "mag_field = 5.6",
+      "current = 16.2",
+      "spring_const = 94",
+      "deflection = turns * area * mag_field * current / spring_const"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "turns = 162",
+      "area = 84",
+      "mag_field = 81",
+      "current = 17.9",
+      "spring_const = 12.6",
+      "deflection = turns * area * mag_field * current / spring_const"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "turns = 325",
+      "area = 65",
+      "mag_field = 37",
+      "current = 28",
+      "spring_const = 68",
+      "deflection = turns * area * mag_field * current / spring_const"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "turns = 251",
+      "area = 12.5",
+      "mag_field = 69",
+      "current = 3.2",
+      "spring_const = 45",
+      "deflection = turns * area * mag_field * current / spring_const"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "deflection = turns * area * mag_field * current / spring_const"
+   ]
+  },
+  {
+   "id": "leph104.4.10.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "coil_resist = 26",
+      "shunt_resist = 107",
+      "shunt_equiv = coil_resist * shunt_resist / (coil_resist + shunt_resist)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "coil_resist = 40",
+      "shunt_resist = 43",
+      "shunt_equiv = coil_resist * shunt_resist / (coil_resist + shunt_resist)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "coil_resist = 69",
+      "shunt_resist = 66",
+      "shunt_equiv = coil_resist * shunt_resist / (coil_resist + shunt_resist)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "coil_resist = 70",
+      "shunt_resist = 9.2",
+      "shunt_equiv = coil_resist * shunt_resist / (coil_resist + shunt_resist)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "coil_resist = 97",
+      "shunt_resist = 108",
+      "shunt_equiv = coil_resist * shunt_resist / (coil_resist + shunt_resist)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "coil_resist = 36",
+      "shunt_resist = 78",
+      "shunt_equiv = coil_resist * shunt_resist / (coil_resist + shunt_resist)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "shunt_equiv = coil_resist * shunt_resist / (coil_resist + shunt_resist)"
+   ]
+  }
+ ]
+}

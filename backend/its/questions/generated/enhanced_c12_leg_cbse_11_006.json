@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_11_006",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_11_006",
+   "title": "c12_leg_cbse_11_006",
+   "questions": [
+    {
+     "q": "What is the statutory time limit for filing a complaint before the National Human Rights Commission (NHRC) under the Protection of Human Rights Act, 1993?",
+     "a": "The complaint must be filed within **one year** from the date on which the act constituting the human rights violation is alleged to have been committed (Section 36, PHRA / NHRC Guidelines, Clause 6). A wrong answer (e.g., \"no time limit\" or \"3 years\") reveals the student has not memorised the specific limitation period — a critical procedural bar that leads to outright rejection (Guideline Clause 6(v)).",
+     "self_check": true
+    },
+    {
+     "q": "A complaint is filed before the NHRC alleging that a private hospital denied emergency treatment to a poor patient, resulting in death. The hospital is not a government body. Will the NHRC entertain this complaint? Explain why or why not.",
+     "a": "**No, the NHRC will not entertain it.** The PHRA, 1993 (Section 2(d) and 12) restricts the NHRC's jurisdiction to violations by a **public servant** or negligence in prevention by a public servant. A private hospital is not a \"public servant\" under the Act. The NHRC Guidelines (Clause 10(vi)) explicitly bar complaints where \"allegation is not against any public servant.\" A wrong answer (\"Yes, because right to life is violated\") shows the student confuses *substantive rights* with *institutional jurisdiction* — a classic Board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A woman files a complaint with the National Commission for Women (NCW) about domestic violence by her husband, a private businessman. The NCW takes *suo motu* cognisance and summons the husband. He challenges the summons, arguing NCW has no power over private individuals. Decide the validity of his challenge.",
+     "a": "The husband's challenge is **valid**. The NCW Act, 1990 (Section 10) and NCW's powers (mirroring a civil court under CPC) apply to violations of safeguards for women under the **Constitution and other laws** — which primarily bind the **State** (Article 12). While the NCW can *investigate* and *recommend* action against private persons in specific contexts (e.g., workplace harassment under POSH Act), it cannot *compel attendance* of a private individual in a purely domestic dispute as if it were a court. The NCW's civil court powers (summoning, documents) are for *inquiries into failures of public authorities*. A wrong answer (\"NCW can summon anyone\") reveals confusion between *statutory inquiry powers* and *judicial coercive power* — a distinction tested in CUET/CLAT.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the composition of the NHRC Chairperson and the NCW Chairperson. Why does the difference matter for the independence and credibility of each body?",
+     "a": "**NHRC Chairperson:** Must be a **former Chief Justice of India** (SC) — appointed by President on recommendation of a high-powered committee (PM, Speaker, LoP, CJI consultation). **NCW Chairperson:** Nominated by **Central Government** from persons of \"ability, integrity, standing\" with experience in law, trade unionism, women's orgs, etc. — **no judicial qualification required**. The difference matters: NHRC's judicial head ensures *institutional independence* from executive influence (critical for investigating state excesses), while NCW's political appointment makes it vulnerable to *executive control* — a frequent criticism in PILs. A student missing this distinction fails to analyse *structural safeguards* — a key \"analyze\" level skill.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The NHRC is a toothless tiger because its orders are only recommendatory and not binding.\" Support your answer with at least two constitutional/legal provisions and one landmark case.",
+     "a": "**Evaluation: Partially true but incomplete.**  \n**Provisions:** (1) Section 18, PHRA — NHRC can only *recommend* compensation/prosecution; (2) Section 19 — NHRC can approach SC/HC for directions (judicial enforcement route).  \n**Case:** *NHRC v. State of Gujarat* (2009) — SC held NHRC recommendations are not binding *per se*, but the State must *consider* them seriously; non-compliance can be challenged via writ petition.  \n**Nuance:** NHRC's \"teeth\" lie in **moral authority, media pressure, and the judicial enforcement pathway** — not direct coercion. Calling it \"toothless\" ignores its role in *custodial death guidelines, encounter killings, and manual scavenging* where its reports triggered SC action. A weak answer (\"Yes, it has no power\") shows inability to *evaluate* institutional design — a JEE/NEET/CUET competency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical complaint format for the National Commission for Protection of Child Rights (NCPCR) for a case where a 14-year-old child is employed in a hazardous bangle factory in Firozabad, violating Article 24 and the Child Labour Act. Include all mandatory fields as per the CPCR Act, 2005 and NCPCR guidelines.",
+     "a": "**Expected fields (based on NCPCR complaint portal & CPCR Act Sec 13):**  \n1. Complainant details (name, address, contact, relation to child)  \n2. Child victim details (name, age, gender, caste, disability status, address, school status)  \n3. Incident: date, place (factory name/address), nature of work (hazardous process), employer details  \n4. Specific rights violated: Article 24, Child Labour (Prohibition & Regulation) Act 1986 Sec 3, Rule 2 (hazardous occupations list)  \n5. Whether complaint filed elsewhere (police, labour dept, CWC) — *NCPCR bars parallel proceedings*  \n6. Prayer: rescue, rehabilitation, compensation, prosecution of employer  \n7. Supporting documents: age proof, photos, FIR copy, medical report  \n**Poor answer** omits *age proof*, *hazardous process specification*, or *parallel proceedings disclosure* — revealing ignorance of **procedural rigour** required for admissibility (NCPCR Guidelines: \"clear, legible, not vague... not pending before any other commission\").",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

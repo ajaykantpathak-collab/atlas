@@ -1,0 +1,188 @@
+{
+ "catalog": "catalog_class12_economics_ch101.json",
+ "concepts": [
+  {
+   "id": "leec.101.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "unemployed_looking = 19.1",
+      "employed = 82",
+      "unemployment_rate = unemployed_looking / (employed + unemployed_looking)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "unemployed_looking = 21",
+      "employed = 47",
+      "unemployment_rate = unemployed_looking / (employed + unemployed_looking)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "unemployed_looking = 86",
+      "employed = 74",
+      "unemployment_rate = unemployed_looking / (employed + unemployed_looking)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "unemployed_looking = 82",
+      "employed = 96",
+      "unemployment_rate = unemployed_looking / (employed + unemployed_looking)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "unemployed_looking = 6.5",
+      "employed = 5.1",
+      "unemployment_rate = unemployed_looking / (employed + unemployed_looking)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "unemployed_looking = 74",
+      "employed = 36",
+      "unemployment_rate = unemployed_looking / (employed + unemployed_looking)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "unemployment_rate = unemployed_looking / (employed + unemployed_looking)"
+   ]
+  },
+  {
+   "id": "leec.101.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "revenue = 43",
+      "rent = 9.7",
+      "interest = 71",
+      "wages = 39",
+      "profit = revenue - rent - interest - wages"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "revenue = 25",
+      "rent = 50",
+      "interest = 25",
+      "wages = 29",
+      "profit = revenue - rent - interest - wages"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "revenue = 18.6",
+      "rent = 76",
+      "interest = 53",
+      "wages = 95",
+      "profit = revenue - rent - interest - wages"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "revenue = 42",
+      "rent = 64",
+      "interest = 31",
+      "wages = 26",
+      "profit = revenue - rent - interest - wages"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "revenue = 97",
+      "rent = 31",
+      "interest = 65",
+      "wages = 48",
+      "profit = revenue - rent - interest - wages"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "revenue = 52",
+      "rent = 88",
+      "interest = 28",
+      "wages = 78",
+      "profit = revenue - rent - interest - wages"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "profit = revenue - rent - interest - wages"
+   ]
+  },
+  {
+   "id": "leec.101.7",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "exports = 84",
+      "imports = 84",
+      "net_exports = exports - imports"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "exports = 47",
+      "imports = 75",
+      "net_exports = exports - imports"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "exports = 89",
+      "imports = 44",
+      "net_exports = exports - imports"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "exports = 41",
+      "imports = 62",
+      "net_exports = exports - imports"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "exports = 33",
+      "imports = 69",
+      "net_exports = exports - imports"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "exports = 21",
+      "imports = 79",
+      "net_exports = exports - imports"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "net_exports = exports - imports"
+   ]
+  }
+ ]
+}

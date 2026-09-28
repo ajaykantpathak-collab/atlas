@@ -34,6 +34,31 @@
      "q": "Create a novel 3-step micropropagation protocol for a hypothetical endangered medicinal plant (assume it is a dicot shrub) using only auxin and cytokinin manipulations. Specify hormone types, concentrations (mg/L), and the developmental goal of each step. Justify each choice in one sentence.",
      "a": "Step 1 (shoot initiation): MS + 0.1 mg/L NAA + 2 mg/L BAP — high cytokinin breaks apical dominance and induces multiple axillary shoots. Step 2 (shoot multiplication): MS + 0.05 mg/L IAA + 1.5 mg/L kinetin — moderate cytokinin maintains proliferation while low auxin prevents hyperhydricity. Step 3 (rooting): ½ MS + 1 mg/L IBA (no cytokinin) — high auxin:zero cytokinin ratio induces adventitious roots for acclimatization. A weak protocol uses the same hormones throughout or omits the rooting step, showing inability to map hormone ratios to sequential developmental transitions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Auxins and cytokinins are the two primary classes of plant growth regulators used in plant tissue culture; auxins (e.g., IAA, NAA, 2,4-D) ______ promote root formation, callus induction, and apical dominance, while cytokinins (e.g., kinetin, BAP, zeatin) stimulate shoot proliferation, cell division, and delay senescence — their relative concentration ratio (auxin:cytokinin) determines the developmental fate of explants in vitro according to the Skoog-Miller hypothesis.",
+     "a": "predominantly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a small piece of ______ leaf (explant) on MS medium — it just sits there, green but unresponsive.",
+     "a": "tobacco",
+     "self_check": true
+    },
+    {
+     "q": "What is Auxins and cytokinins? State the definition given in this lesson.",
+     "a": "Auxins and cytokinins are the two primary classes of plant growth regulators used in plant tissue culture; auxins (e.g., IAA, NAA, 2,4-D) predominantly promote root formation, callus induction, and apical dominance, while cytokinins (e.g., kinetin, BAP, zeatin) stimulate shoot proliferation, cell division, and delay senescence — their.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) predict the morphogenic outcome (roots, shoots, or callus) given specific auxin and cytokinin concentrations in a culture medium, and (2) design a hormone supplementation strategy for a desired organogenesis pathway (e.g., shoot induction from leaf explant) with justification based on the auxin:cytokinin.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a small piece of tobacco leaf (explant) on MS medium — it just sits there, green but ______.",
+     "a": "unresponsive",
+     "self_check": true
     }
    ]
   }

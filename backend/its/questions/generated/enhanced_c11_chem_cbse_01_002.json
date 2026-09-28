@@ -34,6 +34,26 @@
      "q": "Design a school-laboratory experiment to verify the Law of Conservation of Mass for the reaction between barium chloride solution and sodium sulphate solution, producing barium sulphate precipitate. Specify apparatus, procedure to ensure isolation, measurements, and how you would handle the \"apparent mass loss\" if any precipitate adheres to the stirring rod.",
      "a": "Apparatus: Two small stoppered test tubes (one for BaCl₂, one for Na₂SO₄), a conical flask with rubber stopper, analytical balance (±0.001 g), stirring rod. Procedure: 1) Weigh flask + stopper empty. 2) Add 10 mL BaCl₂ solution to flask, 10 mL Na₂SO₄ to test tube; weigh both assemblies separately. 3) Invert test tube into flask, stopper flask, weigh combined system (initial mass). 4) Mix by shaking; BaSO₄ precipitates. 5) Weigh final system. 6) Open, rinse stirring rod into flask, re-weigh. Conservation holds if initial = final within ±0.005 g. Handling adherent precipitate: rinse rod with distilled water into flask before final weighing — this recovers \"lost\" mass. A design omitting the rinse step or using open beakers shows failure to enforce isolation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Law of ______ of Mass states that in any isolated physical or chemical process, the total mass of reactants equals the total mass of products; mass is neither created nor destroyed, only transformed.",
+     "a": "Conservation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a candle burning in a closed glass jar on a digital balance — the mass reading stays ______ even as wax disappears and the flame extinguishes.",
+     "a": "constant",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can quantitatively verify mass conservation in balanced chemical equations involving gases, solids, and aqueous solutions; can identify experimental conditions where apparent mass loss occurs (gas evolution in open systems) and correct for it; can apply the law to determine unknown masses in multi-step reaction sequences.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a candle burning in a closed glass jar on a digital balance — the mass reading stays constant even as wax disappears and the flame ______.",
+     "a": "extinguishes",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Create a 3-row table showing a hypothetical transaction in Primary Market, Secondary Market, and Money Market. Columns: Instrument, Maturity, Funds Flow To, Purpose.",
      "a": "| Market | Instrument | Maturity | Funds Flow To | Purpose |\n|--------|------------|----------|---------------|---------|\n| Primary | IPO of Equity Shares | Perpetual | Issuing Company | Capital formation (new plant) |\n| Secondary | Sale of TCS shares on NSE | Perpetual | Selling Investor | Liquidity / portfolio rebalancing |\n| Money Market | 91-day Treasury Bill | < 1 year | Government (borrower) | Short-term liquidity management |\n\nA weak answer puts \"Company\" in the secondary market funds-flow column — the classic error. Another error: writing \"1 year\" for equity shares (they have no maturity). This tests whether the student can simultaneously apply three chapter concepts (Capital Market components + Money Market distinction).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Capital Market refers to the ______ arrangement for borrowing and lending long-term funds (typically above one year) through financial instruments like equity shares, preference shares, debentures, and bonds.",
+     "a": "institutional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a fast-growing Indian EV ______ needs ₹500 crore to build a new battery plant — it cannot borrow this entire amount from a bank (money market deals only in short-term funds).",
+     "a": "startup",
+     "self_check": true
+    },
+    {
+     "q": "What is Capital Market? State the definition given in this lesson.",
+     "a": "Capital Market refers to the institutional arrangement for borrowing and lending long-term funds (typically above one year) through financial instruments like equity shares, preference shares, debentures, and bonds.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a fast-growing Indian EV startup needs ₹______ crore to build a new battery plant — it cannot borrow this entire amount from a bank (money market deals only in short-term funds).",
+     "a": "500",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Capital Market?",
+     "a": "Misconception: \"Secondary market transactions increase the company's share capital.\" Why students make this error: They see the company's name on the ticker (e.g., \"RELIANCE\") and assume the company is the counterparty.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) define capital market using the exact NCERT phrasing — \"market for long-term funds\" — (2) name its two components (Primary and Secondary Market) and state the one-sentence function of each, and (3) explain why a transaction in the secondary market does not increase the company's capital base.",
+     "self_check": true
     }
    ]
   }

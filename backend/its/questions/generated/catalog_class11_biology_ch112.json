@@ -1,6 +1,147 @@
 {
- "catalog": "catalog_class11_biology_ch112",
+ "catalog": "catalog_class11_biology_ch112.json",
  "concepts": [
+  {
+   "id": "kebo.12.2",
+   "title": "Glycolysis (EMP Pathway)",
+   "converted_to_compute": true,
+   "formula": "net_atp = formed_atp - used_atp",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_atp = formed_atp - used_atp",
+     "compute": "net_atp = formed_atp - used_atp"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Glycolysis (EMP Pathway): given formed_atp = 42, used_atp = 8.9, find net atp.",
+     "a": "33.1",
+     "self_check": false
+    },
+    {
+     "q": "For Glycolysis (EMP Pathway): given formed_atp = 95, used_atp = 84, find net atp.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "For Glycolysis (EMP Pathway): given formed_atp = 38, used_atp = 32, find net atp.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "For Glycolysis (EMP Pathway): given formed_atp = 15.1, used_atp = 58, find net atp.",
+     "a": "-42.9",
+     "self_check": false
+    },
+    {
+     "q": "For Glycolysis (EMP Pathway): given formed_atp = 92, used_atp = 7.8, find net atp.",
+     "a": "84.2",
+     "self_check": false
+    },
+    {
+     "q": "For Glycolysis (EMP Pathway): given formed_atp = 79, used_atp = 4.6, find net atp.",
+     "a": "74.4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebo.12.6",
+   "title": "Respiratory Balance Sheet and ATP Calculation",
+   "converted_to_compute": true,
+   "formula": "total_atp = (nadh * 3) + (fadh_2 * 2) + direct_atp",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_atp = (nadh * 3) + (fadh_2 * 2) + direct_atp",
+     "compute": "total_atp = (nadh * 3) + (fadh_2 * 2) + direct_atp"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Respiratory Balance Sheet and ATP Calculation: given nadh = 8.8, fadh_2 = 39, direct_atp = 66, find total atp.",
+     "a": "170.4",
+     "self_check": false
+    },
+    {
+     "q": "For Respiratory Balance Sheet and ATP Calculation: given nadh = 69, fadh_2 = 86, direct_atp = 105, find total atp.",
+     "a": "484",
+     "self_check": false
+    },
+    {
+     "q": "For Respiratory Balance Sheet and ATP Calculation: given nadh = 36, fadh_2 = 98, direct_atp = 18.1, find total atp.",
+     "a": "322.1",
+     "self_check": false
+    },
+    {
+     "q": "For Respiratory Balance Sheet and ATP Calculation: given nadh = 52, fadh_2 = 15.5, direct_atp = 40, find total atp.",
+     "a": "227",
+     "self_check": false
+    },
+    {
+     "q": "For Respiratory Balance Sheet and ATP Calculation: given nadh = 38, fadh_2 = 60, direct_atp = 64, find total atp.",
+     "a": "298",
+     "self_check": false
+    },
+    {
+     "q": "For Respiratory Balance Sheet and ATP Calculation: given nadh = 76, fadh_2 = 29, direct_atp = 114, find total atp.",
+     "a": "400",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebo.12.8",
+   "title": "Respiratory Quotient (RQ)",
+   "converted_to_compute": true,
+   "formula": "rq = volume_co_2 / volume_o_2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rq = volume_co_2 / volume_o_2",
+     "compute": "rq = volume_co_2 / volume_o_2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Respiratory Quotient (RQ): given volume_co_2 = 40, volume_o_2 = 13.5, find rq.",
+     "a": "2.96296",
+     "self_check": false
+    },
+    {
+     "q": "For Respiratory Quotient (RQ): given volume_co_2 = 60, volume_o_2 = 6.8, find rq.",
+     "a": "8.82353",
+     "self_check": false
+    },
+    {
+     "q": "For Respiratory Quotient (RQ): given volume_co_2 = 74, volume_o_2 = 48, find rq.",
+     "a": "1.54167",
+     "self_check": false
+    },
+    {
+     "q": "For Respiratory Quotient (RQ): given volume_co_2 = 34, volume_o_2 = 39, find rq.",
+     "a": "0.871795",
+     "self_check": false
+    },
+    {
+     "q": "For Respiratory Quotient (RQ): given volume_co_2 = 84, volume_o_2 = 21, find rq.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "For Respiratory Quotient (RQ): given volume_co_2 = 58, volume_o_2 = 32, find rq.",
+     "a": "1.8125",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "kebo.12.1",
    "title": "Cellular Respiration and Substrates",
@@ -18,37 +159,6 @@
     {
      "q": "Write the standard relation used for 'Cellular Respiration and Substrates', in plain ASCII form.",
      "a": "C6H12O6 + 6O2 -> 6CO2 + 6H2O + energy",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebo.12.2",
-   "title": "Glycolysis (EMP Pathway)",
-   "questions": [
-    {
-     "q": "Calculate net ATP formed directly during glycolysis. Use the method 'Glycolysis (EMP Pathway)'. Work with: formed_atp = 100, glucose_molecules = 30, used_atp = 60. Carry the chain through step by step and give the final value of nadh_yield.",
-     "a": "60 units",
-     "self_check": false
-    },
-    {
-     "q": "Find the direct ATP yield in glycolytic breakdown. Use the method 'Glycolysis (EMP Pathway)'. Work with: formed_atp = 6, glucose_molecules = 400, used_atp = 18. Carry the chain through step by step and give the final value of nadh_yield.",
-     "a": "800 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Glycolysis (EMP Pathway)' refers to.",
-     "a": "A ten-step anaerobic cytoplasmic pathway where one molecule of glucose is partially oxidised into two molecules of pyruvic acid.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Glycolysis (EMP Pathway)'.",
-     "a": "Glucose splits into two pyruvic acid molecules in the cytoplasm without consuming molecular oxygen.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Glycolysis (EMP Pathway)', in plain ASCII form.",
-     "a": "net_atp = formed_atp - used_atp",
      "self_check": true
     }
    ]
@@ -117,37 +227,6 @@
    ]
   },
   {
-   "id": "kebo.12.6",
-   "title": "Respiratory Balance Sheet and ATP Calculation",
-   "questions": [
-    {
-     "q": "Calculate total ATP generated given counts of NADH FADH2 and direct ATP. Use the method 'Respiratory Balance Sheet and ATP Calculation'. Work with: direct_atp = 20, fadh2 = 50, nadh = 6. Carry the chain through step by step and give the final value of total_atp.",
-     "a": "138 units",
-     "self_check": false
-    },
-    {
-     "q": "Compute the net theoretical ATP yield from full oxidation of glucose. Use the method 'Respiratory Balance Sheet and ATP Calculation'. Work with: direct_atp = 360, fadh2 = 18, nadh = 3. Carry the chain through step by step and give the final value of total_atp.",
-     "a": "405 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Respiratory Balance Sheet and ATP Calculation' refers to.",
-     "a": "A quantitative accounting of total theoretical ATP produced from complete oxidation of one glucose molecule.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Respiratory Balance Sheet and ATP Calculation'.",
-     "a": "Total theoretical yield is determined by summing direct ATP both synthesis and ATP generated from coenzyme oxidation.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Respiratory Balance Sheet and ATP Calculation', in plain ASCII form.",
-     "a": "total_atp = (nadh * 3) + (fadh2 * 2) + direct_atp",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "kebo.12.7",
    "title": "Amphibolic Pathway",
    "questions": [
@@ -164,37 +243,6 @@
     {
      "q": "Write the standard relation used for 'Amphibolic Pathway', in plain ASCII form.",
      "a": "concept method; no single closed formula",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebo.12.8",
-   "title": "Respiratory Quotient (RQ)",
-   "questions": [
-    {
-     "q": "Calculate the respiratory quotient given evolved carbon dioxide and consumed oxygen. Use the method 'Respiratory Quotient (RQ)'. Work with: volume_co2 = 360, volume_o2 = 300. Carry the chain through step by step and give the final value of rq.",
-     "a": "1.2 units",
-     "self_check": false
-    },
-    {
-     "q": "Find the RQ value when given volumes of CO2 evolved and O2 consumed. Use the method 'Respiratory Quotient (RQ)'. Work with: volume_co2 = 50, volume_o2 = 120. Carry the chain through step by step and give the final value of rq.",
-     "a": "0.4167 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Respiratory Quotient (RQ)' refers to.",
-     "a": "The numerical ratio of the volume of carbon dioxide given out to the volume of oxygen taken in during respiration.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Respiratory Quotient (RQ)'.",
-     "a": "The ratio of CO2 produced to O2 consumed depends directly on the chemical nature of the respired substrate.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Respiratory Quotient (RQ)', in plain ASCII form.",
-     "a": "rq = volume_co2 / volume_o2",
      "self_check": true
     }
    ]

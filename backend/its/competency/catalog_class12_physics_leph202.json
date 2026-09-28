@@ -65,7 +65,16 @@
      "explain": "n is defined as c over v, so v is the vacuum speed split by n",
      "compute": "speed_medium = speed_light / refr_index"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "speed_medium = speed_light / refr_index",
+     "compute": "speed_medium = speed_light / refr_index"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph202.10.3.1.2",
@@ -91,7 +100,16 @@
      "explain": "equal travel times mean the wavelengths follow the speeds, lambda1/lambda2 = v1/v2",
      "compute": "lambda_two = lambda_one * speed_two / speed_one"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "lambda_two = lambda_one * speed_two / speed_one",
+     "compute": "lambda_two = lambda_one * speed_two / speed_one"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph202.10.3.2.1",
@@ -117,14 +135,23 @@
      "explain": "Snell's law with a 90 degree refraction angle leaves sin(ic) = n2/n1",
      "compute": "sine_crit = n_two / n_one"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "sine_crit = n_two / n_one",
+     "compute": "sine_crit = n_two / n_one"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph202.10.4.1",
    "title": "Coherent and Incoherent Addition of Waves",
    "section": "10.4",
    "definition": "Two beams interfere visibly only when they hold a steady phase difference; then amplitudes add and the intensity oscillates between dark and bright, while phase-jittering beams just stack their intensities.",
-   "formula": "I = 4 * I0 * cos(phi/2) ** 2",
+   "formula": "I = 4 * I_0 * cos(phi/2) ** 2",
    "key_idea": "Coherence locks maxima and minima in place; incoherent sources wash the pattern into a flat 2 I0 average.",
    "textbook_ref": "leph202.txt section 10.4 (Eqs. 10.9-10.12, constructive and destructive conditions)",
    "question_patterns": [
@@ -135,7 +162,7 @@
     "when does superposition of two waves give zero intensity at a point",
     "how does a changing phase difference destroy a stable fringe pattern"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -152,7 +179,16 @@
      "action": "average away the fringes for incoherent beams",
      "explain": "a phase difference that flips faster than the eye can follow leaves intensities simply adding"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "I = 4 * I_0 * cos(phi/2) ** 2",
+     "compute": "I = 4 * I_0 * cos(phi/2) ** 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph202.10.5.1",
@@ -184,7 +220,16 @@
      "explain": "spacing between neighbouring bright bands is lambda D over d",
      "compute": "fringe_width = scale_term / slit_sep"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "fringe_width = wavelength * screen_dist / slit_sep",
+     "compute": "fringe_width = wavelength * screen_dist / slit_sep"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph202.10.5.2",
@@ -216,7 +261,16 @@
      "explain": "lambda equals the fringe displacement times d divided by n D",
      "compute": "wavelength = fringe_gap * slit_sep / order_screen"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "wavelength = fringe_gap * slit_sep / (order_n * screen_dist)",
+     "compute": "wavelength = fringe_gap * slit_sep / (order_n * screen_dist)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph202.10.6.1",
@@ -248,7 +302,16 @@
      "explain": "for small angles theta in radians equals n lambda over a",
      "compute": "diff_angle = path_term / slit_width"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "diff_angle = order_n * wavelength / slit_width",
+     "compute": "diff_angle = order_n * wavelength / slit_width"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph202.10.7.1",
@@ -280,7 +343,16 @@
      "explain": "Malus law multiplies the polarized intensity by the squared cosine",
      "compute": "transmitted = intensity_in * axis_factor"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "transmitted = intensity_in * cos_axis ** 2",
+     "compute": "transmitted = intensity_in * cos_axis ** 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph202.10.7.2",
@@ -298,7 +370,7 @@
     "state how a polaroid converts natural light into plane polarised light",
     "where do polaroids find use in everyday devices"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -315,7 +387,16 @@
      "action": "test with a crossed analyzer",
      "explain": "rotating a second polaroid from dark to bright confirms the first sheet polarised the beam"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "pass_axis_field = field_in * cos(tilt)",
+     "compute": "pass_axis_field = field_in * cos(tilt)"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -325,9 +406,17 @@
    "concept": "leph202.10.3.1.1",
    "question_type": "light_speed_in_medium",
    "question_pattern": "Glass has refractive index {n}. How fast does light move through it if the vacuum speed is {c} m/s?",
-   "extracted_variables": {"n": 1.5, "c": 3.0e+08},
+   "extracted_variables": {
+    "n": 1.5,
+    "c": 300000000.0
+   },
    "solution_template": [
-    {"step": 1, "action": "divide c by n", "explain": "v = c/n", "compute": "v_out = c / n"}
+    {
+     "step": 1,
+     "action": "divide c by n",
+     "explain": "v = c/n",
+     "compute": "v_out = c / n"
+    }
    ]
   },
   {
@@ -336,10 +425,24 @@
    "concept": "leph202.10.3.1.2",
    "question_type": "wavelength_in_medium",
    "question_pattern": "Light of wavelength {lambda_one} m in air enters water of refractive index {n}. The vacuum speed is {c} m/s; find the refracted wavelength in metres.",
-   "extracted_variables": {"lambda_one": 5.89e-07, "n": 1.33, "c": 3.0e+08},
+   "extracted_variables": {
+    "lambda_one": 5.89e-07,
+    "n": 1.33,
+    "c": 300000000.0
+   },
    "solution_template": [
-    {"step": 1, "action": "speed inside water", "explain": "v2 = c/n", "compute": "speed_two = c / n"},
-    {"step": 2, "action": "scale the wavelength by the speed ratio", "explain": "lambda2 = lambda1 times v2 over c", "compute": "lambda_two = lambda_one * speed_two / c"}
+    {
+     "step": 1,
+     "action": "speed inside water",
+     "explain": "v2 = c/n",
+     "compute": "speed_two = c / n"
+    },
+    {
+     "step": 2,
+     "action": "scale the wavelength by the speed ratio",
+     "explain": "lambda2 = lambda1 times v2 over c",
+     "compute": "lambda_two = lambda_one * speed_two / c"
+    }
    ]
   },
   {
@@ -348,10 +451,25 @@
    "concept": "leph202.10.5.2",
    "question_type": "wavelength_from_fringes",
    "question_pattern": "In a double slit run the slits sit {d} m apart and the screen {D} m away. The {n}th bright fringe lies {x} m from the centre. What is the wavelength?",
-   "extracted_variables": {"d": 0.00028, "D": 1.4, "n": 4, "x": 0.012},
+   "extracted_variables": {
+    "d": 0.00028,
+    "D": 1.4,
+    "n": 4,
+    "x": 0.012
+   },
    "solution_template": [
-    {"step": 1, "action": "multiply order by screen distance", "explain": "n D appears in the denominator", "compute": "order_screen = n * D"},
-    {"step": 2, "action": "rearrange for lambda", "explain": "lambda = x d over n D", "compute": "wavelength = x * d / order_screen"}
+    {
+     "step": 1,
+     "action": "multiply order by screen distance",
+     "explain": "n D appears in the denominator",
+     "compute": "order_screen = n * D"
+    },
+    {
+     "step": 2,
+     "action": "rearrange for lambda",
+     "explain": "lambda = x d over n D",
+     "compute": "wavelength = x * d / order_screen"
+    }
    ]
   },
   {
@@ -360,10 +478,24 @@
    "concept": "leph202.10.6.1",
    "question_type": "diffraction_minimum_angle",
    "question_pattern": "Light of wavelength {lam} m passes a slit of width {a} m. At what angle in radians does the {n}th minimum appear?",
-   "extracted_variables": {"lam": 5e-07, "a": 0.0002, "n": 2},
+   "extracted_variables": {
+    "lam": 5e-07,
+    "a": 0.0002,
+    "n": 2
+   },
    "solution_template": [
-    {"step": 1, "action": "multiply order by wavelength", "explain": "a sin(theta) = n lambda", "compute": "path_term = n * lam"},
-    {"step": 2, "action": "divide by slit width", "explain": "small-angle radians", "compute": "theta_min = path_term / a"}
+    {
+     "step": 1,
+     "action": "multiply order by wavelength",
+     "explain": "a sin(theta) = n lambda",
+     "compute": "path_term = n * lam"
+    },
+    {
+     "step": 2,
+     "action": "divide by slit width",
+     "explain": "small-angle radians",
+     "compute": "theta_min = path_term / a"
+    }
    ]
   },
   {
@@ -372,10 +504,23 @@
    "concept": "leph202.10.7.1",
    "question_type": "malus_transmission",
    "question_pattern": "A polarized beam of intensity {i0} units reaches an analyzer whose axis tilt has cosine {c}. What intensity leaves the analyzer?",
-   "extracted_variables": {"i0": 8, "c": 0.5},
+   "extracted_variables": {
+    "i0": 8,
+    "c": 0.5
+   },
    "solution_template": [
-    {"step": 1, "action": "square the cosine", "explain": "Malus law factor", "compute": "axis_factor = c ** 2"},
-    {"step": 2, "action": "scale the intensity", "explain": "transmitted = i0 times the factor", "compute": "i_out = i0 * axis_factor"}
+    {
+     "step": 1,
+     "action": "square the cosine",
+     "explain": "Malus law factor",
+     "compute": "axis_factor = c ** 2"
+    },
+    {
+     "step": 2,
+     "action": "scale the intensity",
+     "explain": "transmitted = i0 times the factor",
+     "compute": "i_out = i0 * axis_factor"
+    }
    ]
   }
  ],

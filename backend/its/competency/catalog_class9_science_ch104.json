@@ -39,7 +39,16 @@
      "action": "verify the result is positive and reasonable",
      "explain": "average speed must be non-negative and should not exceed plausible physical limits for the object in question"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "avg_speed = total_distance / time_interval",
+     "compute": "avg_speed = total_distance / time_interval"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.104.2",
@@ -74,7 +83,16 @@
      "action": "verify magnitude does not exceed average speed",
      "explain": "since displacement magnitude is at most equal to total distance, the magnitude of average velocity cannot exceed the average speed"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "avg_velocity = displacement / time_interval",
+     "compute": "avg_velocity = displacement / time_interval"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.104.3",
@@ -110,7 +128,16 @@
      "action": "verify sign and reasonableness of acceleration",
      "explain": "a positive acceleration means the object is speeding up along the chosen axis, while a negative value means it is slowing down or accelerating in the opposite direction"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "avg_acceleration = (final_velocity - initial_velocity) / time_interval",
+     "compute": "avg_acceleration = (final_velocity - initial_velocity) / time_interval"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.104.4",
@@ -146,7 +173,16 @@
      "action": "verify final velocity is physically consistent",
      "explain": "check that the computed final velocity has the correct sign and magnitude consistent with the direction of acceleration and the initial velocity"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "v = u + a * t",
+     "compute": "v = u + a * t"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.104.5",
@@ -183,7 +219,16 @@
      "explain": "total displacement is the sum of both parts",
      "compute": "s = term1 + term2"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "s = u * t + 0.5 * a * t**2",
+     "compute": "s = u * t + 0.5 * a * t**2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.104.6",

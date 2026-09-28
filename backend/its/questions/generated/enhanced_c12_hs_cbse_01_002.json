@@ -34,6 +34,21 @@
      "q": "Design a **community-based survey tool** (5 questions maximum) to map the **distribution of work types** among adult women in a low-income urban neighbourhood. Your tool must capture: (a) paid/unpaid status, (b) formal/informal status, (c) overlap of multiple work roles, and (d) access to any social protection. Provide the exact questions and explain how you would code responses into the 2×2 matrix.",
      "a": "**Survey Tool (5 Questions):**  \n1. \"In the last 7 days, did you do any activity for which you received **cash or in-kind payment**? (Yes/No) If yes, describe the activity.\" → Codes **Paid** status.  \n2. \"For that paid activity: Do you have a **written contract / appointment letter**? Are you covered by **EPF / ESI / pension / paid leave**? (Yes/No/Don't know)\" → Codes **Formal** if ≥2 benefits present.  \n3. \"In the last 7 days, did you spend time on **unpaid household work** (cooking, cleaning, fetching water, childcare, eldercare, etc.)? (Yes/No) Approximate hours/day.\" → Codes **Unpaid** work intensity.  \n4. \"Do you simultaneously hold **more than one work role** (e.g., paid home-based work + unpaid care)? Describe.\" → Captures **overlap**.  \n5. \"Do you currently receive any **government social protection benefit** (pension, health insurance, maternity benefit, scholarship for children, etc.) linked to your work status? Specify.\" → Measures **protection access**.  \n\n**Coding into 2×2 matrix:**  \n- Each respondent gets a **primary classification** based on the paid activity with most hours (if any): Paid+Formal / Paid+Informal.  \n- If no paid activity → **Unpaid+Informal** (default, as unpaid work is almost never formalised).  \n- A secondary flag marks **multiple-role holders** (e.g., Paid+Informal *and* Unpaid+Informal).  \n- Cross-tabulate with Q5 to show protection gaps by cell.  \n\nA poor answer would ask only \"Are you employed?\" (binary) or miss the unpaid/formal overlap. This reveals inability to **operationalise conceptual categories** into measurable indicators — a key competency for Home Science fieldwork and CUET/NEET case-study questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Work can be classified into four interrelated categories based on remuneration and regulatory status: Paid work involves a contractual exchange of labour for monetary compensation (wages/salary); Unpaid work consists of productive activities (e.g., household chores, caregiving, volunteerism) that generate economic/social value but receive no direct pay; Formal work occurs within legally recognised enterprises, offering statutory protections (social security, labour laws, written contracts); Informal work lacks legal registration, social protection, and formal contracts, often ______ by irregular income and precarious conditions.",
+     "a": "characterised",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your neighbour, Meena, who works 10 hours a day as a domestic helper in three different ______, earns ₹8,000/month in cash, has no written contract, no paid leave, and no pension — but she also spends 4 hours daily cooking, cleaning, and caring for her own elderly mother-in-law at home without any payment.",
+     "a": "apartments",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) correctly classify any given real-world work scenario into the paid/unpaid and formal/informal matrix with justification, and (2) explain how the intersection of these categories affects a worker's access to social protection, income security, and dignity of labour, using at least two distinct Indian examples.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Construct a real-world scenario involving an Indian agricultural commodity where the price elasticity of supply changes from 0.4 (short run) to 1.8 (long run). Specify the commodity, the price change, the quantity responses in both periods, and explain *which determinants* cause this shift.",
      "a": "**Good answer example:** Commodity: Sugarcane in Uttar Pradesh. Price rises from ₹320 to ₹350 per quintal. Short run (same crop cycle): Qs rises from 100 to 104 million tonnes (Es = 0.4) — land fixed, planting cycle fixed. Long run (2-3 years): farmers switch from wheat to sugarcane, invest in irrigation, new mills open; Qs rises to 130 million tonnes (Es = 1.8). Determinants shifting: time for land-use change, capital investment in irrigation, entry of new firms (mills), factor mobility (labour moves to cane harvesting).  \n**Poor answer reveals:** If the student picks a non-agricultural good or doesn't specify *why* elasticity changes (just says \"time passes\"), they haven't linked determinants to the specific commodity. If they use the same quantity response for both periods, they don't understand the concept of short vs. long run elasticity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Price elasticity of supply (Es) measures the ______ of quantity supplied of a good to a change in its own price, calculated as the percentage change in quantity supplied divided by the percentage change in price, holding all other determinants of supply constant (ceteris paribus).",
+     "a": "responsiveness",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a wheat farmer in Punjab who harvests 1,000 ______ at ₹2,200 per quintal (MSP).",
+     "a": "quintals",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate price elasticity of supply using both percentage and geometric methods, interpret the numerical value (elastic, inelastic, unitary, perfectly elastic, perfectly inelastic), and explain how time period, nature of the good, production technology, and factor mobility determine its magnitude.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a wheat farmer in Punjab who ______ 1,000 quintals at ₹2,200 per quintal (MSP).",
+     "a": "harvests",
+     "self_check": true
     }
    ]
   }

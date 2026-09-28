@@ -34,6 +34,21 @@
      "q": "Create one literal and one inferential question based on this excerpt from the story's end: *\"Only, as soon as Khan Azam Khan's back was turned he muttered to the peasants seated nearby: 'My father was a Sultan.' And they laughed to see the Khan give a special twist to his moustache as he walked away maintaining the valiant uprightness to the symbol of his ancient and noble family, though he had become a pauper.\"*",
      "a": "**Good Literal Question:** \"What does Ramanand mutter to the peasants after Khan Azam Khan leaves?\" (Answer: \"My father was a Sultan.\")\n**Good Inferential Question:** \"Why do the peasants laugh at Khan Azam Khan's 'valiant uprightness' despite his poverty?\" (Answer: They laugh at the tragic irony — he retains only the *symbol* (moustache twist) of nobility while losing the *substance* (wealth/land), exposing the absurdity of class pride.)\n**Poor Answer Indicator:** An inferential question like \"Is Ramanand lying about his father?\" is unanswerable from text (speculation). This reveals the student doesn't grasp that inferences must be *textually constrained*.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal ______ questions require retrieving explicitly stated information from the text (facts, events, dialogue).",
+     "a": "comprehension",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in the exam hall staring at a question: \"Why does Khan Azam Khan sell his ancestral necklace?\" You panic because the text never explicitly says \"he sold it because of poverty.\" This is the classic literal vs. ______ trap.",
+     "a": "inferential",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently classify any comprehension question as literal or inferential, locate precise textual evidence for both types, and construct a structured answer using the Point-Evidence-Explanation-Link (PEEL) method for inferential questions that meets CBSE board exam marking criteria.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a simple bedside maneuver (using only a stethoscope and blood pressure cuff) to distinguish whether a patient's murmur occurs during systole or diastole, and explain the physiological basis.",
      "a": "Inflate the BP cuff above systolic pressure, then slowly deflate while auscultating the brachial artery. The first Korotkoff sound coincides with S1 (systole onset) and the last sound coincides with S2 (systole end). Any murmur heard between the first and last Korotkoff sounds is systolic; any murmur heard after the last Korotkoff sound (when cuff pressure < diastolic) is diastolic. Basis: Korotkoff sounds are produced by turbulent flow during ventricular ejection (systole); their disappearance marks the end of systole. A poor answer (e.g., \"listen for loudness\") shows no understanding of the cardiac cycle's pressure events or the physics of Korotkoff sounds.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The cardiac cycle is the complete sequence of mechanical events occurring in the heart during one heartbeat, comprising the systole (contraction) and diastole (relaxation) of both atria and ventricles, resulting in the ejection of blood into the pulmonary and systemic circulations and the production of two ______ heart sounds (lub-dub) due to valve closures.",
+     "a": "characteristic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ your hand on the left side of your chest just below the nipple — you feel a rhythmic \"thump-thump\" pause \"thump-thump\".",
+     "a": "Place",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: We will break this ______ seconds into seven precise phases and connect each to pressure changes you can plot on a graph.",
+     "a": "0.8",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly sequence the seven phases of the cardiac cycle on a Wiggers diagram, explain the pressure-volume changes in each chamber during each phase, and correlate the first and second heart sounds with the specific valve closures that produce them.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Place your hand on the left side of your chest just below the nipple — you feel a ______ \"thump-thump\" pause \"thump-thump\".",
+     "a": "rhythmic",
+     "self_check": true
     }
    ]
   }

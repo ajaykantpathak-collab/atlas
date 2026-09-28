@@ -34,6 +34,26 @@
      "q": "Design a one-page \"Cybercrime Quick-Reference Card\" for your school's computer lab that lists 6 categories, the primary IT Act section for each, and one prevention tip per category. Use a table format.",
      "a": "A good answer includes: (1) Hacking — Sec 66 — keep systems patched; (2) Malware/Virus — Sec 43/66 — use updated antivirus; (3) Phishing — Sec 66D — verify sender, don't click unsolicited links; (4) Identity Theft — Sec 66C — enable 2FA, monitor credit reports; (5) Ransomware — Sec 66/66F — offline backups, don't pay ransom; (6) Cyberstalking — Sec 67A/354D IPC — block/report, preserve evidence. A poor answer mixes categories (e.g., lists \"virus\" and \"trojan\" separately) or cites wrong sections (e.g., Sec 65 for phishing) — reveals rote memorisation without understanding the legal mapping.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ refers to any illegal activity that uses a computer, computer network, or networked device as a tool, target, or both.",
+     "a": "Cybercrime",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive a WhatsApp message claiming your bank KYC has expired and asking you to click a link to update details — this is a classic phishing attempt, a category of ______.",
+     "a": "cybercrime",
+     "self_check": true
+    },
+    {
+     "q": "What is Cybercrime? State the definition given in this lesson.",
+     "a": "Cybercrime refers to any illegal activity that uses a computer, computer network, or networked device as a tool, target, or both.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) define cybercrime precisely using the tool/target/both framework, (2) classify a given scenario into at least four major categories (e.g., hacking, malware, financial fraud, identity theft, cyberstalking, DoS/DDoS, ransomware), and (3) explain the distinguishing features of each category with a real-world.",
+     "self_check": true
     }
    ]
   }

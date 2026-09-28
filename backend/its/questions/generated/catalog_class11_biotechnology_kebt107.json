@@ -1,6 +1,194 @@
 {
- "catalog": "catalog_class11_biotechnology_kebt107",
+ "catalog": "catalog_class11_biotechnology_kebt107.json",
  "concepts": [
+  {
+   "id": "kebt107.3",
+   "title": "Genome Size Units and the Coding Fraction",
+   "converted_to_compute": true,
+   "formula": "kb_value = bp_total / 1000",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "kb_value = bp_total / 1000",
+     "compute": "kb_value = bp_total / 1000"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Genome Size Units and the Coding Fraction: given bp_total = 99, find kb value.",
+     "a": "0.099",
+     "self_check": false
+    },
+    {
+     "q": "For Genome Size Units and the Coding Fraction: given bp_total = 31, find kb value.",
+     "a": "0.031",
+     "self_check": false
+    },
+    {
+     "q": "For Genome Size Units and the Coding Fraction: given bp_total = 27, find kb value.",
+     "a": "0.027",
+     "self_check": false
+    },
+    {
+     "q": "For Genome Size Units and the Coding Fraction: given bp_total = 39, find kb value.",
+     "a": "0.039",
+     "self_check": false
+    },
+    {
+     "q": "For Genome Size Units and the Coding Fraction: given bp_total = 63, find kb value.",
+     "a": "0.063",
+     "self_check": false
+    },
+    {
+     "q": "For Genome Size Units and the Coding Fraction: given bp_total = 90, find kb value.",
+     "a": "0.09",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebt107.5",
+   "title": "Bacterial Division Timing and Culture Growth",
+   "converted_to_compute": true,
+   "formula": "generations = elapsed_min / 20",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "generations = elapsed_min / 20",
+     "compute": "generations = elapsed_min / 20"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Bacterial Division Timing and Culture Growth: given elapsed_min = 7.3, find generations.",
+     "a": "0.365",
+     "self_check": false
+    },
+    {
+     "q": "For Bacterial Division Timing and Culture Growth: given elapsed_min = 62, find generations.",
+     "a": "3.1",
+     "self_check": false
+    },
+    {
+     "q": "For Bacterial Division Timing and Culture Growth: given elapsed_min = 89, find generations.",
+     "a": "4.45",
+     "self_check": false
+    },
+    {
+     "q": "For Bacterial Division Timing and Culture Growth: given elapsed_min = 19, find generations.",
+     "a": "0.95",
+     "self_check": false
+    },
+    {
+     "q": "For Bacterial Division Timing and Culture Growth: given elapsed_min = 27, find generations.",
+     "a": "1.35",
+     "self_check": false
+    },
+    {
+     "q": "For Bacterial Division Timing and Culture Growth: given elapsed_min = 77, find generations.",
+     "a": "3.85",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebt107.6",
+   "title": "Genetic Code Triplet Arithmetic",
+   "converted_to_compute": true,
+   "formula": "codons_total = 4 ** bases_per_codon",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "codons_total = 4 ** bases_per_codon",
+     "compute": "codons_total = 4 ** bases_per_codon"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Genetic Code Triplet Arithmetic: given bases_per_codon = 2, find codons total.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "For Genetic Code Triplet Arithmetic: given bases_per_codon = 14.4, find codons total.",
+     "a": "467373274.858904",
+     "self_check": false
+    },
+    {
+     "q": "For Genetic Code Triplet Arithmetic: given bases_per_codon = 6.4, find codons total.",
+     "a": "7131.55",
+     "self_check": false
+    },
+    {
+     "q": "For Genetic Code Triplet Arithmetic: given bases_per_codon = 7.4, find codons total.",
+     "a": "28526.2",
+     "self_check": false
+    },
+    {
+     "q": "For Genetic Code Triplet Arithmetic: given bases_per_codon = 21, find codons total.",
+     "a": "4398046511104",
+     "self_check": false
+    },
+    {
+     "q": "For Genetic Code Triplet Arithmetic: given bases_per_codon = 27, find codons total.",
+     "a": "18014398509481984",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebt107.8",
+   "title": "Gene Mutation and DNA Repair Arithmetic",
+   "converted_to_compute": true,
+   "formula": "excised_length = upstream_cut + downstream_cut",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "excised_length = upstream_cut + downstream_cut",
+     "compute": "excised_length = upstream_cut + downstream_cut"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Gene Mutation and DNA Repair Arithmetic: given upstream_cut = 67, downstream_cut = 86, find excised length.",
+     "a": "153",
+     "self_check": false
+    },
+    {
+     "q": "For Gene Mutation and DNA Repair Arithmetic: given upstream_cut = 63, downstream_cut = 41, find excised length.",
+     "a": "104",
+     "self_check": false
+    },
+    {
+     "q": "For Gene Mutation and DNA Repair Arithmetic: given upstream_cut = 54, downstream_cut = 49, find excised length.",
+     "a": "103",
+     "self_check": false
+    },
+    {
+     "q": "For Gene Mutation and DNA Repair Arithmetic: given upstream_cut = 8.3, downstream_cut = 11.6, find excised length.",
+     "a": "19.9",
+     "self_check": false
+    },
+    {
+     "q": "For Gene Mutation and DNA Repair Arithmetic: given upstream_cut = 3.7, downstream_cut = 20, find excised length.",
+     "a": "23.7",
+     "self_check": false
+    },
+    {
+     "q": "For Gene Mutation and DNA Repair Arithmetic: given upstream_cut = 57, downstream_cut = 91, find excised length.",
+     "a": "148",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "kebt107.1",
    "title": "DNA as the Genetic Material",
@@ -44,37 +232,6 @@
    ]
   },
   {
-   "id": "kebt107.3",
-   "title": "Genome Size Units and the Coding Fraction",
-   "questions": [
-    {
-     "q": "Using the method 'Genome Size Units and the Coding Fraction', work with: bp_total = 150. Carry the chain through step by step and give the final value of coding_share.",
-     "a": "0 as a fraction",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Genome Size Units and the Coding Fraction' and work with: bp_total = 24. Carry the chain through step by step and give the final value of coding_share.",
-     "a": "0 as a fraction",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Genome Size Units and the Coding Fraction' refers to.",
-     "a": "Genome sizes run from a few thousand bases in viruses to billions in mammals, and the reading convention chains them - a thousand base pairs make one kilobase and a thousand kilobases one megabase; the three-billion-base human genome carries over twenty thousand protein-coding genes that fill only about two percent of it, the rest being repetitive and other non-coding DNA.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Genome Size Units and the Coding Fraction'.",
-     "a": "Divide bases by a thousand for kilobases and again for megabases; multiply the megabase total by the coding percent to size the gene share.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Genome Size Units and the Coding Fraction', in plain ASCII form.",
-     "a": "kb_value = bp_total / 1000",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "kebt107.4",
    "title": "Semi-Conservative Replication Machinery",
    "questions": [
@@ -96,68 +253,6 @@
    ]
   },
   {
-   "id": "kebt107.5",
-   "title": "Bacterial Division Timing and Culture Growth",
-   "questions": [
-    {
-     "q": "Using the method 'Bacterial Division Timing and Culture Growth', work with: elapsed_min = 300, starter_cells = 300. Carry the chain through step by step and give the final value of cells_after.",
-     "a": "9830400 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Bacterial Division Timing and Culture Growth' and work with: elapsed_min = 75, starter_cells = 75. Carry the chain through step by step and give the final value of cells_after.",
-     "a": "1009.0757 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Bacterial Division Timing and Culture Growth' refers to.",
-     "a": "E. coli doubles every twenty minutes, so the generation count of an experiment is simply the elapsed minutes divided by twenty, and the culture size follows a doubling ladder from the starting cells.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Bacterial Division Timing and Culture Growth'.",
-     "a": "Divide the minutes by twenty for generations, then double the starter culture once per generation.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Bacterial Division Timing and Culture Growth', in plain ASCII form.",
-     "a": "generations = elapsed_min / 20",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebt107.6",
-   "title": "Genetic Code Triplet Arithmetic",
-   "questions": [
-    {
-     "q": "Using the method 'Genetic Code Triplet Arithmetic', work with: amino_acids = 100, bases_per_codon = 5, stop_codons = 25. Carry the chain through step by step and give the final value of with_stop.",
-     "a": "303 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Genetic Code Triplet Arithmetic' and work with: amino_acids = 150, bases_per_codon = 20, stop_codons = 400. Carry the chain through step by step and give the final value of with_stop.",
-     "a": "453 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Genetic Code Triplet Arithmetic' refers to.",
-     "a": "Gamow's counting settled the code's design: one base gives only four options and a pair sixteen - too few for twenty amino acids - but a three-base code offers sixty-four codons; sixty-one of them specify amino acids, the remaining three are stops, AUG doubles as the start signal, and Nirenberg's poly-U decoded the first word, UUU for phenylalanine.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Genetic Code Triplet Arithmetic'.",
-     "a": "Four raised to the codon length counts the code; subtract the three stops for the sense codons.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Genetic Code Triplet Arithmetic', in plain ASCII form.",
-     "a": "codons_total = 4 ** bases_per_codon",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "kebt107.7",
    "title": "Transcription, mRNA Processing and Translation",
    "questions": [
@@ -174,37 +269,6 @@
     {
      "q": "Under which section is 'Transcription, mRNA Processing and Translation' taught, and from which source text?",
      "a": "7.4-7.6 (source: kebt107.txt sections 7.4.1-7.6, Figs. 7.20-7.32)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebt107.8",
-   "title": "Gene Mutation and DNA Repair Arithmetic",
-   "questions": [
-    {
-     "q": "Using the method 'Gene Mutation and DNA Repair Arithmetic', work with: cut_downstream = 24, cut_upstream = 60. Carry the chain through step by step and give the final value of excised_length.",
-     "a": "84 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Gene Mutation and DNA Repair Arithmetic' and work with: cut_downstream = 15, cut_upstream = 12. Carry the chain through step by step and give the final value of excised_length.",
-     "a": "27 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Gene Mutation and DNA Repair Arithmetic' refers to.",
-     "a": "Mutations come as additions, deletions and substitutions - purine-for-purine changes are transitions while purine-for-pyrimidine swaps are transversions, and tautomeric shifts or base analogs like 5-bromouracil sneak such swaps past replication; cells answer with base excision repair through glycosylase-made AP sites, nucleotide excision repair that cuts out UV-induced T-T dimers by clipping upstream and downstream, and mismatch repair led by Mut proteins.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Gene Mutation and DNA Repair Arithmetic'.",
-     "a": "Add the two cut distances around a lesion to size the patch that excision repair must refill.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Gene Mutation and DNA Repair Arithmetic', in plain ASCII form.",
-     "a": "excised_length = upstream_cut + downstream_cut",
      "self_check": true
     }
    ]

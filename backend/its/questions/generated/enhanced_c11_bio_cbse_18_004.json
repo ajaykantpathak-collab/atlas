@@ -34,6 +34,31 @@
      "q": "Design a simple classroom demonstration (using only a diagram and coloured pens) to show how the corpus callosum enables inter-hemispheric transfer of sensory information, and predict what a split-brain patient would experience if an object is placed in their left hand (out of sight).",
      "a": "Draw a sagittal brain diagram. Colour the left visual field pathway to right occipital cortex, and the right somatosensory pathway (left hand) to right parietal cortex. Show the corpus callosum connecting right parietal to left frontal (speech area). In a split-brain patient, the left hand feels the object → right parietal cortex perceives it → but without corpus callosum, information cannot reach left-hemisphere speech areas → patient cannot name the object but can select it with the left hand. A poor answer that doesn't trace the crossed pathways or predict the dissociation reveals inability to apply anatomical connectivity to functional consequences.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The human brain is the central information processing organ of the body, protected by the cranium and three meningeal layers (dura mater, arachnoid, pia mater), and ______ divided into forebrain (cerebrum, thalamus, hypothalamus, limbic system), midbrain (corpora quadrigemina, cerebral aqueduct), and hindbrain (pons, cerebellum, medulla oblongata); it integrates sensory input, coordinates voluntary and involuntary motor output, regulates homeostasis (temperature, hunger, thirst, circadian rhythms), and serves as the seat of memory, emotion, intelligence, and endocrine control via the hypothalamus.",
+     "a": "structurally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are riding a bicycle on a busy Indian street: you see a pothole (visual input), instantly steer away (motor output), feel your heart race (______ response), and later remember the scare (memory).",
+     "a": "autonomic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by examining a ______D brain model or a clear sagittal diagram; first locate the three major swellings — forebrain, midbrain, hindbrain.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly label all major brain divisions and sub-structures (cerebral hemispheres, corpus callosum, thalamus, hypothalamus, limbic system, corpora quadrigemina, pons, cerebellum, medulla) on a sagittal diagram, explain the specific functions of each region, and trace the flow of sensory information from a receptor.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are riding a bicycle on a busy Indian street: you see a pothole (visual input), ______ steer away (motor output), feel your heart race (autonomic response), and later remember the scare (memory).",
+     "a": "instantly",
+     "self_check": true
     }
    ]
   }

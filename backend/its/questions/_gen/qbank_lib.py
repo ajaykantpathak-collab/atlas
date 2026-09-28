@@ -36,7 +36,7 @@ def run_chain(chain, extra_env=None):
     """Execute 'name = expr' / bare-expr steps sequentially via safe_eval.
 
     Returns (env, final_value).  Raises _EvalError on any bad step."""
-    env = {"pi": math.pi}
+    env = {"pi": math.pi, "e": math.e, "g": 9.8, "c": 3e8}
     if extra_env:
         env.update(extra_env)
     value = None
@@ -131,15 +131,17 @@ def make_q(text, chain, disp):
     return {"q": text, "chain": list(chain), "disp": disp}
 
 
-def collect_questions(fam_fn, concept_id, seed):
+def collect_questions(fam_fn, concept_id, seed, concept=None):
     """Call a family (retrying with fresh seeds) until at least 6 unique,
     valid questions exist.  Returns (questions, raw_items)."""
+    import inspect
+    wants_concept = len(inspect.signature(fam_fn).parameters) >= 2
     raw = []
     seen = set()
     for attempt in range(12):
         rng = random.Random(seed + attempt * 7919)
         try:
-            items = fam_fn(rng)
+            items = fam_fn(rng, concept) if wants_concept else fam_fn(rng)
         except Exception:
             continue
         for it in items:

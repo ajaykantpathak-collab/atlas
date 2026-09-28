@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_01_003",
+   "title": "c12_leg_cbse_01_003",
+   "questions": [
+    {
+     "q": "What is the binding value of the Supreme Court's advisory opinion under Article 143, as clarified in *In re Kerala Education Bill* (1958) versus *In re Special Court Bill* (1979)?",
+     "a": "Correct: In *Kerala Education Bill*, the Court held its advisory opinion is **not binding** (not \"law\" under Art. 141). In *Special Court Bill*, it held advisory opinions **are binding on all courts**. The latter prevails as a larger bench (7-judge) decision. A wrong answer (e.g., \"always binding\" or \"never binding\") reveals the student hasn't grasped that the Court's own view on its advisory jurisdiction evolved — and that bench strength determines precedent hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why *Hussainara Khatoon v. State of Bihar* (1979) is considered the \"first PIL\" in India, even though the writ petition was filed under Article 32 for habeas corpus.",
+     "a": "Correct: It pioneered **relaxed locus standi** — a lawyer (Pushpa Kapila Hingorani) filed on behalf of 17 undertrial prisoners who couldn't approach Court themselves. The Court treated a letter as a PIL, ordered mass release, and mandated free legal aid. A wrong answer (e.g., \"it was about prison conditions\") misses the procedural revolution: the case *created* the PIL mechanism by allowing third-party representation for marginalized groups, linking Art. 21 (speedy trial) + Art. 39A (free legal aid).",
+     "self_check": true
+    },
+    {
+     "q": "A state government passes a law nationalizing all private hospitals. Doctors challenge it under Article 19(1)(g) (freedom of profession). The state claims immunity under Article 31C (laws implementing Directive Principles). Apply the *Minerva Mills* (1980) principle to decide if judicial review is available.",
+     "a": "Correct: **Yes, judicial review is available.** *Minerva Mills* struck down Art. 31C's \"blanket immunity\" for DPSP-implementing laws, holding that **judicial review is basic structure** and the balance between Fundamental Rights (Part III) and DPSP (Part IV) is itself basic structure. The Court can test if the law *actually* implements DPSP or destroys FRs. A wrong answer (e.g., \"Art. 31C bars review\") shows the student confuses the pre-*Minerva* position (42nd Amendment) with the restored constitutional balance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the *Rylands v. Fletcher* (Strict Liability) and *M.C. Mehta v. Union of India* (Oleum Gas Leak, Absolute Liability) principles on: (a) escape requirement, (b) exceptions available, (c) measure of damages.",
+     "a": "Correct: (a) Strict liability requires **escape** from defendant's land; Absolute liability does **not** (liability arises even within premises). (b) Strict liability has **5 exceptions** (plaintiff's fault, Act of God, consent, stranger's act, statutory authority); Absolute liability has **zero exceptions**. (c) Strict liability = **compensatory** (actual loss); Absolute liability = **exemplary/deterrent** (based on enterprise's magnitude/financial capacity). A wrong answer conflating them shows failure to see how *M.C. Mehta* deliberately overrode *Rylands* for hazardous industries in India.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The Collegium system for judicial appointments is unconstitutional because Article 124 only mentions 'consultation' with CJI, not 'concurrence'.\"",
+     "a": "Correct critique: The statement ignores **constitutional morality and structural interpretation**. *Second Judges Case* (1993) read \"consultation\" as \"concurrence\" to protect judicial independence (basic structure). The 1998 Presidential Reference confirmed the **integrated participatory consultative process**. Striking down Collegium would require a constitutional amendment (like the struck-down NJAC Act, 2014). A wrong answer accepting the statement reveals a literalist reading that misses how the Court derives implied limitations from the Constitution's architecture.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical PIL scenario where the Supreme Court would **refuse** to entertain it under its 1998 PIL Guidelines, and explain which exclusion category applies.",
+     "a": "Good answer example: \"A tenant files a PIL against his landlord for unfair eviction, claiming it affects 'thousands of tenants'.\" **Exclusion category**: Landlord-tenant matters (Guideline Exclusion List #1). The Court would refuse because it's a **private civil dispute**, not a public interest issue affecting marginalized groups. A poor answer (e.g., \"a PIL against pollution\") shows the student doesn't know the negative list: service matters, pension, admission to colleges, landlord-tenant, etc., are explicitly barred.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,36 @@
      "q": "Design a rectangle that has an area of 20 cm². What are the possible dimensions?",
      "a": "Possible answers include 4 cm × 5 cm, 2 cm × 10 cm, or 1 cm × 20 cm. An answer that doesn't multiply to 20 shows a failure to grasp the relationship between dimensions and total area.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Area is the measure of the total surface region covered by a closed two-______ shape.",
+     "a": "dimensional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are asked to cover the floor of your bedroom with ______ tiles.",
+     "a": "square",
+     "self_check": true
+    },
+    {
+     "q": "What is Area? State the definition given in this lesson.",
+     "a": "Area is the measure of the total surface region covered by a closed two-dimensional shape.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If you place a grid of ______ cm squares over a shape, you are counting how much \"flat space\" it takes up.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Area?",
+     "a": "Students often confuse Perimeter (the distance around) with Area (the space inside).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to calculate the area of any given rectangle or square when dimensions are provided and explain why area is measured in square units.",
+     "self_check": true
     }
    ]
   }

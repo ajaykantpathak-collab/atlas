@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a battery, insulated wire, an iron nail, and a switch to demonstrate the working principle of a lifting magnet. Your design must show how to **quantify** the lifting capacity (e.g., number of paper clips lifted) and test the effect of **one variable** (number of turns or current). Write the procedure in 4 steps.",
      "a": "**Good answer criteria:**  \n1. Wind 50 turns of wire on nail, connect to battery via switch.  \n2. Close switch, dip nail tip into a tray of identical paper clips, count how many cling. Open switch, count how many fall (should be all). Record.  \n3. Repeat with 100 turns (same battery, same nail) – keep current variable constant by using same battery.  \n4. Compare counts; plot turns vs. clips lifted.  \n**Poor answer reveals:** If the student changes both turns *and* battery (e.g., uses 2 cells for 100 turns), they fail to isolate variables. If they don't include the \"switch off and count fallen clips\" step, they miss the core concept of temporary magnetism.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Applications of ______ utilize the temporary magnetism produced by electric current to perform mechanical work.",
+     "a": "electromagnets",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by showing a video or image of a large crane in an Indian ______ (like Mayapuri, Delhi) lifting a heap of iron nails and sheets without any hooks – ask students how the crane \"holds\" the iron without clamping it.",
+     "a": "scrapyard",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the working of an electric bell using the make-and-break mechanism and describe why a lifting magnet is preferred over a permanent magnet in a scrapyard.",
+     "self_check": true
     }
    ]
   }

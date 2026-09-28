@@ -34,6 +34,31 @@
      "q": "Design a simple three-row market schedule (Price, Quantity Demanded, Quantity Supplied) for umbrellas in a rainy month where the equilibrium price is established at ₹200.",
      "a": "A correct schedule will show three price points (e.g., ₹150, ₹200, ₹250). At ₹200, Demand and Supply must be equal (e.g., both at 150 units). At ₹150, Demand must exceed Supply (shortage). At ₹250, Supply must exceed Demand (surplus). A poor answer shows random numbers where demand and supply never intersect or move in the wrong direction relative to price changes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Price ______ is the economic process by which the price of a good or service is set in a market through the interaction of consumer demand and producer supply.",
+     "a": "determination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine visiting a local weekly vegetable market in your town where farmers have brought fresh ______.",
+     "a": "tomatoes",
+     "self_check": true
+    },
+    {
+     "q": "What is Price determination? State the definition given in this lesson.",
+     "a": "Price determination is the economic process by which the price of a good or service is set in a market through the interaction of consumer demand and producer supply.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Price determination?",
+     "a": "Students often believe that prices are set purely by what sellers want to charge, completely ignoring the role of consumer demand and competition.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can analyze a market schedule or table of supply and demand quantities at various prices to identify the equilibrium price, and explain how shortages or surpluses cause prices to rise or fall.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a simple laboratory investigation using frog intestinal tissue to demonstrate the presence and action of disaccharidases (maltase, sucrase, lactase). Specify the control, variable, and how you would detect products.",
      "a": "Good answer: Homogenise fresh frog intestinal mucosa (source of brush border enzymes). Incubate separate tubes with maltose, sucrose, lactose (substrates) at 25°C (frog body temp). Control: boiled homogenate + each substrate. Variable: substrate type. Detect glucose/fructose/galactose using Benedict's test (reducing sugars) or glucose oxidase strips at timed intervals. Expect: maltose → glucose; sucrose → glucose+fructose; lactose → glucose+galactose (if lactase present; many adult vertebrates lack it). Poor answer: using whole frog, no control, testing only starch (amylase not disaccharidase), or suggesting iodine test (for starch, not products) — reveals confusion between enzyme classes, experimental design, and detection methods.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The frog digestive system is a carnivore-adapted organ system comprising a short alimentary canal (buccal cavity, pharynx, oesophagus, stomach, intestine, rectum, cloaca) and associated digestive glands (liver, pancreas) that perform ingestion, mechanical and chemical digestion, absorption, and egestion, with the cloaca serving as a common exit for digestive, urinary, and ______ wastes.",
+     "a": "reproductive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are watching a frog near a pond at dusk — it flicks its sticky, ______ tongue and snatches a flying insect in milliseconds.",
+     "a": "bilobed",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can label all parts of the frog digestive system on a diagram, trace the path of food from mouth to cloaca with enzymes involved at each stage, explain why the intestine is short relative to body length, and compare the frog's digestive adaptations with the human digestive system studied in Class 10.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are watching a frog near a pond at dusk — it flicks its sticky, bilobed tongue and snatches a flying insect in ______.",
+     "a": "milliseconds",
+     "self_check": true
     }
    ]
   }

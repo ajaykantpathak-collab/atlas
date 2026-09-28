@@ -34,6 +34,31 @@
      "q": "Design a thought experiment to verify that the potential due to a point charge depends only on the distance r and not on the path taken from infinity. What would you measure, and how would you confirm the 1/r dependence?",
      "a": "Place a fixed charge Q at the origin. Use a small test charge q attached to a sensitive force sensor. Move q from infinity to a point P at distance r along two different paths: (1) radial straight line, (2) a curved path (e.g., spiral). Measure the work done by the external agent in each case (W = ∫ F_ext·dl). If the electrostatic force is conservative, W₁ = W₂ = kQq/r. Vary r and plot W/q vs 1/r; a straight line through origin confirms V ∝ 1/r. A poor answer (e.g., \"measure voltage with a voltmeter\") reveals lack of understanding of the operational definition of potential and the role of path independence in conservative fields.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ potential at a point due to a point charge Q is the work done per unit positive test charge by an external agent in bringing it from infinity to that point without acceleration.",
+     "a": "electrostatic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small positive test charge ______ near a charged metal sphere in your school physics lab — you feel it gets repelled if the sphere is positively charged.",
+     "a": "placed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The force varies as ______/r² (Coulomb's law), so we must integrate the work done along a radial path from ∞ to r.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the expression V = kQ/r from the definition of potential as work done per unit charge, correctly handling the sign of Q and the integration limits.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small positive test charge placed near a charged metal sphere in your school physics lab — you feel it gets repelled if the sphere is ______ charged.",
+     "a": "positively",
+     "self_check": true
     }
    ]
   }

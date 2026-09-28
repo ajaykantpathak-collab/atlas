@@ -34,6 +34,26 @@
      "q": "Design a scenario where a company issues shares to its promoters for services rendered during incorporation. The promoters are allotted 5,000 shares of ₹10 each at a premium of ₹5 per share. Write the journal entries and explain why \"Securities Premium Reserve\" is credited even though no asset is purchased.",
      "a": "**Answer:**  \n**Scenario:** Promoters' services valued at ₹75,000 settled by 5,000 shares @ ₹15 (₹10 face + ₹5 premium).  \n**Entries:**  \n1. Incorporation Expenses/Goodwill A/c Dr. ₹75,000 → To Promoters ₹75,000  \n2. Promoters Dr. ₹75,000 → To Share Capital ₹50,000 → To Securities Premium Reserve ₹25,000  \n**Reason:** The premium reflects the fair value of services exceeding nominal capital. Securities Premium is credited because the company receives value (services) worth more than the face value of shares issued. It is a capital receipt, not revenue.  \n**Why poor answers reveal misunderstanding:** Debiting \"Promoters Expense\" to P&L treats it as revenue expenditure. Crediting only Share Capital ignores the premium component. Not recording the service value at all violates the cost concept.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Issue of shares for ______ other than cash refers to the allotment of shares by a company to vendors, promoters, or other parties in exchange for assets (like land, building, machinery), business purchases, or services rendered, instead of receiving cash.",
+     "a": "consideration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a startup, \"______ Ltd.\", wants to buy a factory building worth ₹50 lakh from \"BuildCo\" but lacks cash.",
+     "a": "GreenTech",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a startup, \"GreenTech Ltd.\", wants to buy a factory building worth ₹______ lakh from \"BuildCo\" but lacks cash.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Calculate the number of shares to be issued given the purchase consideration and issue price per share; (2) Pass correct journal entries for shares issued at par, premium, and discount for non-cash consideration; (3) Determine goodwill or capital reserve when a business is purchased and shares are issued.",
+     "self_check": true
     }
    ]
   }

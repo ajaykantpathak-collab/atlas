@@ -34,6 +34,26 @@
      "q": "Design a 5-step field verification protocol that a District Census Officer could use during the revisional round (1–5 March) to detect and correct: (i) missed households in a newly constructed informal settlement, (ii) double-counting of a migrant household enumerated at both native village and city workplace, and (iii) enumerator fabrication of \"ghost households\" to meet targets. Your protocol must use only resources available at the district level (no central server access).",
      "a": "**5-Step District-Level Field Verification Protocol:**  \n1. **Cross-match EB Layout Maps with Satellite Imagery (Bhuvan/Google Earth)**: Overlay the enumerator's hand-drawn layout map on recent high-res imagery to spot unplotted roof-clusters (missed settlements) — mark discrepancies for revisit.  \n2. **Abridged House-list vs. Population Schedule Consistency Check**: For each EB, tally the number of households in the Abridged House-list (Phase 1) against filled Population Schedules (Phase 2). A >5% mismatch triggers supervisor re-visit.  \n3. **Migrant Verification via \"Usual Residence\" Probe**: For households reporting members \"away for work\", ask: \"Where did this person spend Census night?\" If *city*, they should NOT appear in village schedule. Verify with neighbor/landlord. Flag duplicates by matching name+age+father's name across EBs (manual sort on paper).  \n4. **Random 10% Spot-Check with \"Call-back\" Card**: Supervisor independently revisits 10% households using a 3-question card (Household head name, number of members, Census night presence). Mismatch >2 items → full re-enumeration of that EB.  \n5. **Enumerator Workload Audit**: Plot daily household count per enumerator. Sudden spikes (e.g., 80 households/day vs avg 25) + identical handwriting across schedules → suspect fabrication. Trigger surprise re-visit.  \nA poor answer that relies on \"central database matching\" or \"Aadhaar linkage\" fails the district-resource constraint and ignores that Census 2021 will still have significant paper-based fallback — the protocol must work offline.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Census of India is a decennial (every 10 years) nationwide enumeration of population, housing, and demographic ______ conducted by the Office of the Registrar General and Census Commissioner under the Ministry of Home Affairs.",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a Census enumerator standing at a household door in a remote village of Rajasthan during the 2011 Census — you hold a 29-question schedule, a map of your ______ block, and a handheld GPS device.",
+     "a": "enumeration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Census of India is a decennial (every ______ years) nationwide enumeration of population, housing, and demographic characteristics conducted by the Office of the Registrar General and Census Commissioner under the Ministry of Home Affairs.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the organisational hierarchy of the Census of India from the Registrar General down to enumerators, describe the two-phase data collection process (House-listing and Population Enumeration), and distinguish between the de facto and de jure enumeration methods with their implications for data quality.",
+     "self_check": true
     }
    ]
   }

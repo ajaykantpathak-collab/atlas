@@ -34,6 +34,26 @@
      "q": "Design a real-world scenario (different from CARSHOWROOM) that requires a WHERE clause with at least four conditions combined using AND, OR, NOT, and parentheses, involving a string pattern, a date range, a numeric comparison, and a NULL check. Write the complete CREATE TABLE and SELECT statements.",
      "a": "Scenario: A library database `BOOKS(BookId, Title, Author, Genre, Price, PublishDate, LastBorrowed)`. Find books of Genre 'Fiction' OR 'Mystery' published after 2010-01-01, priced below ₹500, that have never been borrowed (LastBorrowed IS NULL), but exclude titles containing 'Harry Potter'. \n```sql\nCREATE TABLE BOOKS (\n  BookId INT PRIMARY KEY,\n  Title VARCHAR(100),\n  Author VARCHAR(50),\n  Genre VARCHAR(20),\n  Price DECIMAL(8,2),\n  PublishDate DATE,\n  LastBorrowed DATE\n);\nSELECT * FROM BOOKS\nWHERE (Genre = 'Fiction' OR Genre = 'Mystery')\n  AND PublishDate > '2010-01-01'\n  AND Price < 500\n  AND LastBorrowed IS NULL\n  AND Title NOT LIKE '%Harry Potter%';\n```\nA poor answer omits parentheses, uses `= NULL`, or misplaces NOT, showing inability to synthesize multiple WHERE features.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The WHERE clause in SQL filters rows from a table by ______ a boolean expression (predicate) for each row; only rows where the predicate evaluates to TRUE are included in the result set.",
+     "a": "evaluating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the sales manager at the CARSHOWROOM and you need to pull a list of all petrol cars ______ in 2018 or later that cost less than ₹6,00,000, but you must exclude any car whose model name contains \"VXI\".",
+     "a": "manufactured",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You start by writing SELECT * FROM INVENTORY — but that gives all ______ rows.",
+     "a": "8",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write a SELECT statement with a WHERE clause that correctly combines at least three conditions using AND/OR/NOT, uses parentheses to override default precedence, handles string pattern matching with LIKE and wildcards (%, _), and correctly filters NULL values using IS NULL/IS NOT NULL — producing the exact row set.",
+     "self_check": true
     }
    ]
   }

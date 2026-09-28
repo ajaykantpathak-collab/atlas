@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using only household items (battery, wire, nails, paper clips, switch) to prove that the magnetic field of an electromagnet disappears when the current stops. Describe your procedure, what you will observe, and what conclusion you will draw.",
      "a": "Procedure: Wind 50 turns of insulated wire around an iron nail. Connect to a 1.5V cell through a switch. Place paper clips near the nail. Close switch → observe clips attracted. Open switch → observe clips fall off. Repeat 3 times. Conclusion: Magnetism is present ONLY when circuit is complete (current flows). A good answer includes: control (same nail, same clips), clear ON/OFF observation, and conclusion linking current to magnetism. A poor answer says \"use a compass\" (doesn't test core magnetization) or doesn't specify the switch operation clearly.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An ______ is a temporary magnet created by passing an electric current through a coil of insulated copper wire wound around a soft iron core; it exhibits magnetic properties only while current flows and loses magnetism immediately when the current is switched off.",
+     "a": "electromagnet",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how a doorbell works — when you press the button, a metal striker hits the bell, but there is no ______ magnet inside.",
+     "a": "permanent",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain why a soft iron core is used instead of steel, predict the polarity of an electromagnet's ends using the right-hand grip rule, and describe what happens to the magnetic field when the circuit is opened or closed.",
+     "self_check": true
     }
    ]
   }

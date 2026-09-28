@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a 9 V battery, three resistors (100 Ω, 220 Ω, 470 Ω), a multimeter, and connecting wires to verify the equivalent resistance formulas for series and parallel combinations. Describe the steps and the measurements you would take.",
      "a": "Steps: (1) Measure each resistor individually with multimeter in ohmmeter mode (power off). (2) Connect them in series, measure total resistance between ends — should equal sum. (3) Connect them in parallel (all three leads joined at two common nodes), measure total resistance — should equal reciprocal of sum of reciprocals. (4) Optionally, connect battery, measure voltage across combination and total current with multimeter in ammeter mode, compute \\(R = V/I\\) and compare. A poor answer (e.g., \"measure current only\" or \"connect battery while measuring resistance\") shows lack of practical skill: ohmmeter requires no external voltage, and ammeter must be in series.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of resistors refers to connecting two or more resistors in an electrical circuit such that they can be replaced by a single equivalent resistor.",
+     "a": "Combination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the decorative LED string lights used during Diwali: when one bulb fuses, the entire string goes off — this is a series ______.",
+     "a": "connection",
+     "self_check": true
+    },
+    {
+     "q": "What is Combination of resistors? State the definition given in this lesson.",
+     "a": "Combination of resistors refers to connecting two or more resistors in an electrical circuit such that they can be replaced by a single equivalent resistor.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Combination of resistors?",
+     "a": "Students often think that in a parallel circuit, the current is the same through each branch because \"current is constant in a circuit.\" They apply the series rule (same current) to parallel branches, leading to incorrect current division.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) correctly identify series and parallel connections in a given circuit diagram, (2) compute the equivalent resistance for pure series, pure parallel, and mixed series-parallel networks using the appropriate formulas, and (3) apply Ohm's law to find the total current, branch currents, and voltage drops across each.",
+     "self_check": true
     }
    ]
   }

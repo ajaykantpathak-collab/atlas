@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_07_002",
+   "title": "c12_app_cbse_07_002",
+   "questions": [
+    {
+     "q": "In a study to estimate the average monthly expenditure on online food delivery by college students in Mumbai, a researcher surveys 400 students. Identify the population, sample, parameter, and statistic in this scenario.",
+     "a": "**Population:** All college students in Mumbai. **Sample:** The 400 surveyed students. **Parameter:** The true average monthly expenditure of *all* college students in Mumbai (unknown, denoted by μ). **Statistic:** The average monthly expenditure calculated from the 400 surveyed students (known, denoted by x̄).  \nA wrong answer (e.g., calling the 400 students the \"population\") reveals the student confuses the *target group* with the *data actually collected* — a fundamental category error that makes all later inference meaningless.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the Central Limit Theorem (CLT) is the \"bridge\" that allows us to use a sample statistic to make probabilistic statements about a population parameter.",
+     "a": "The CLT states that for sufficiently large sample sizes (n ≥ 30), the **sampling distribution of the sample mean** will be approximately normal *regardless of the population's shape*. This normality lets us use z-scores or t-scores to calculate probabilities (e.g., \"there's a 95% chance the true mean lies in this interval\"). Without CLT, we couldn't quantify uncertainty unless the population itself was normal — which we rarely know.  \nA wrong answer (e.g., \"CLT makes the sample data normal\") reveals the student confuses the **distribution of sample data** with the **sampling distribution of the statistic** — a classic conceptual trap.",
+     "self_check": true
+    },
+    {
+     "q": "A pharmaceutical company claims their new drug reduces systolic blood pressure by at least 10 mmHg on average. A researcher tests this on a sample of 50 patients and finds a mean reduction of 8.5 mmHg with a standard deviation of 4 mmHg. Write the null and alternative hypotheses using the correct symbols (μ, ≥, <, etc.), and identify whether this is a one-tailed or two-tailed test.",
+     "a": "**H₀: μ ≥ 10** (the claim is true or better)  \n**H₁: μ < 10** (the claim is false; reduction is less than 10)  \nThis is a **left-tailed (one-tailed) test** because the alternative hypothesis tests for \"less than\" only.  \nA wrong answer (e.g., H₀: μ = 10, H₁: μ ≠ 10) reveals the student defaults to two-tailed \"not equal\" without reading the directional claim (\"at least\"). In competitive exams, this costs full marks because the critical region and p-value calculation change entirely.",
+     "self_check": true
+    },
+    {
+     "q": "Two researchers study the same population. Researcher A uses a sample of size 30; Researcher B uses a sample of size 300. Both compute 95% confidence intervals for the population mean. Compare the **width** of their confidence intervals and explain **why** using the concept of Standard Error.",
+     "a": "Researcher B's interval will be **narrower**. Standard Error (SE) = σ/√n (or s/√n). Since SE ∝ 1/√n, increasing n from 30 to 300 reduces SE by a factor of √10 ≈ 3.16. Margin of Error = critical value × SE, so a smaller SE gives a smaller margin of error → narrower interval.  \nA wrong answer (e.g., \"wider because more data\") reveals the student doesn't grasp that **larger samples reduce sampling variability**, making estimates more precise. This is a direct application of SEM = σ/√N from the textbook.",
+     "self_check": true
+    },
+    {
+     "q": "A student reads: \"The 95% confidence interval for the mean height of Indian men is (165 cm, 175 cm).\" They conclude: \"There is a 95% probability that the true mean height is between 165 and 175 cm.\" Critique this statement. Is it correct? Why or why not?",
+     "a": "**Incorrect interpretation.** The true population mean (μ) is a **fixed, unknown constant** — not a random variable. It either is or isn't in the interval; probability doesn't apply to it. The correct interpretation: *\"If we repeated this sampling process many times, 95% of the resulting confidence intervals would contain the true mean.\"* The 95% refers to the **long-run success rate of the method**, not the probability for this specific interval.  \nA wrong answer (agreeing with the student) reveals the **Bayesian vs. Frequentist confusion** — a deep conceptual error that persists even among professionals. Board exams penalize this phrasing.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where a **Type I error** would be far more costly than a **Type II error**. Define H₀ and H₁, and explain why you'd choose a very low α (e.g., 0.01 instead of 0.05).",
+     "a": "**Scenario:** A new diabetes drug is tested for approval. H₀: Drug is **not effective** (μ ≤ 0); H₁: Drug **is effective** (μ > 0).  \n**Type I error:** Approving an ineffective drug → patients take it, suffer side effects, delay real treatment → public health crisis, lawsuits.  \n**Type II error:** Rejecting an effective drug → missed opportunity, but no direct harm.  \n**Choose α = 0.01** to minimize Type I error risk, accepting higher Type II error.  \nA poor answer (e.g., generic \"medicine example\" without asymmetric consequences) reveals the student memorizes definitions but cannot **evaluate error costs in context** — a key competency for case-based board questions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

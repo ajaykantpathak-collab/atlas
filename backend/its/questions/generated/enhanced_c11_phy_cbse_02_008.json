@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using only a smartphone, a ruler, and a small heavy object (like a metal nut) to measure the value of \\( g \\) to within 5% accuracy. Describe the procedure, measurements needed, and the calculation. Identify the main source of error.",
      "a": "Procedure: Use the smartphone's slow-motion video (e.g., 240 fps) to record the nut falling from a known height \\( h \\) (measured with ruler). Count frames \\( n \\) from release to impact. Time \\( t = n / \\text{fps} \\). Calculate \\( g = 2h/t^2 \\). Repeat 5 times and average. Main error: air resistance (minimal for heavy nut) and frame-counting uncertainty. A poor answer (e.g., \"use stopwatch by hand\") reveals inability to design a precise measurement using available tools and ignorance of human reaction time error (~0.2 s).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a feather and a coin dropped ______ in a vacuum tube (or watch a video of Apollo 15 hammer-feather drop on the Moon) – they hit the ground together, proving acceleration is independent of mass.",
+     "a": "simultaneously",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a feather and a coin dropped simultaneously in a vacuum tube (or watch a video of Apollo ______ hammer-feather drop on the Moon) – they hit the ground together, proving acceleration is independent of mass.",
+     "a": "15",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently set up and solve free-fall problems by choosing a sign convention, identifying known/unknown variables, selecting the appropriate kinematic equation, and interpreting the physical meaning of negative signs in displacement, velocity, and acceleration.",
+     "self_check": true
     }
    ]
   }

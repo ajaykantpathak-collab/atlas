@@ -39,7 +39,16 @@
      "action": "substitute known values and compute result",
      "explain": "using adult_bones = 206, the number of fused bones equals 305 - 206 = 99"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "fused_bones = infant_bones - adult_bones",
+     "compute": "fused_bones = infant_bones - adult_bones"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fesc.8.1.2",
@@ -90,7 +99,7 @@
     "which joint allows turning the head left and right",
     "how does pivotal joint work"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -107,7 +116,16 @@
      "action": "locate the joint in the body",
      "explain": "the pivotal joint sits where the neck meets the head, allowing the head to nod and turn sideways."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "movement = rotational_axial",
+     "compute": "movement = rotational_axial"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fesc.8.1.4",
@@ -211,7 +229,16 @@
      "action": "substitute known values and compute result",
      "explain": "using ribs_per_side = 12, the total rib count equals 12 * 2 = 24 ribs forming the cage"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_ribs = ribs_per_side * 2",
+     "compute": "total_ribs = ribs_per_side * 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fesc.8.1.7",
@@ -262,7 +289,7 @@
     "can a muscle push a bone back to original position",
     "justify why antagonistic muscle pair action matters"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -279,7 +306,16 @@
      "action": "apply the pair to a real movement",
      "explain": "when bending the elbow, the biceps contract to pull the forearm up while the triceps relax; straightening reverses the roles."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "movement_force = contraction_pull_only",
+     "compute": "movement_force = contraction_pull_only"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fesc.8.2.1",
@@ -296,7 +332,7 @@
     "explain how body contractions push earthworm through soil",
     "explain earthworm locomotion in your own words"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -313,7 +349,16 @@
      "action": "repeat the cycle for continuous travel",
      "explain": "alternating extension and shortening waves pass along the body, letting the earthworm crawl steadily through soil without bones."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "locomotion = segment_extension + bristle_anchor + segment_shortening",
+     "compute": "locomotion = segment_extension + bristle_anchor + segment_shortening"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fesc.8.2.2",
@@ -330,7 +375,7 @@
     "describe movement of snail using its muscular foot",
     "give one everyday example of snail locomotion"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -347,7 +392,16 @@
      "action": "note the role of mucus",
      "explain": "slimy mucus lubricates the path, reducing friction so the heavy shell can glide smoothly across rough surfaces."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "locomotion = muscular_foot_wave + slimy_lubrication",
+     "compute": "locomotion = muscular_foot_wave + slimy_lubrication"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fesc.8.2.3",

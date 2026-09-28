@@ -160,7 +160,7 @@ _COMPETENCY_TEMPLATES = {
         ],
         "short_answer": "Justify whether R is an equivalence relation by checking all three properties.",
         "long_answer": (
-            "In a Kendriya Vidyalaya in Mumbai, consider the set A = {{students}}. "
+            "In a Kendriya Vidyalaya in Mumbai, consider the set A = {students}. "
             "Define R on A as: aRb if student a and student b scored the same marks in Mathematics. "
             "Verify whether R is (i) reflexive, (ii) symmetric, (iii) transitive. "
             "Hence state whether R is an equivalence relation. "
@@ -172,7 +172,7 @@ _COMPETENCY_TEMPLATES = {
         "difficulty": "Medium",
         "context": (
             "During the annual sports day at a school in Delhi, each student is assigned a jersey number "
-            "from the set A = {{nums}}. The coach defines a relation R on A: two students a and b are "
+            "from the set A = {nums}. The coach defines a relation R on A: two students a and b are "
             "related if their jersey numbers leave the same remainder when divided by {k}. "
             "This groups students by jersey-number congruence."
         ),
@@ -242,7 +242,7 @@ _COMPETENCY_TEMPLATES = {
         "difficulty": "Medium",
         "context": (
             "On a 12-hour clock face used in a school assembly in Jaipur, the relation R on the set "
-            "A = {{nums}} is defined as: aRb if a and b show the same time on a 12-hour clock "
+            "A = {nums} is defined as: aRb if a and b show the same time on a 12-hour clock "
             "(i.e., a ≡ b mod 12)."
         ),
         "mcq_stems": [
@@ -255,7 +255,7 @@ _COMPETENCY_TEMPLATES = {
             "A clock shows hours from 1 to 12. On the set Z of all integers, "
             "define R: aRb iff a ≡ b (mod 12). "
             "Prove R is an equivalence relation. "
-            "How many distinct equivalence classes are there on the set {{nums}}? "
+            "How many distinct equivalence classes are there on the set {nums}? "
             "Find all members of the equivalence class of 3."
         ),
     },

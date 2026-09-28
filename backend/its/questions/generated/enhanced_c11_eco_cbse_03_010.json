@@ -34,6 +34,31 @@
      "q": "Construct a 3-indicator dashboard (choose from: sectoral growth rates, FDI, forex reserves, employment share, public investment in agriculture) to monitor whether growth is becoming more inclusive. Justify each indicator.",
      "a": "Indicator 1: Agriculture GVA growth rate (directly tracks livelihood of 42% workforce). Indicator 2: Employment elasticity of services vs manufacturing (measures job creation per unit growth). Indicator 3: Ratio of public investment in agriculture to GDP (tracks policy priority). Good answer links each to inclusivity. Poor answer picks only FDI/forex reserves — revealing \"external sector myopia\" (confusing capital flows with domestic welfare).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The assessment of LPG reforms evaluates the impact of ______, Privatisation, and Globalisation policies (post-1991) on India's economic growth (measured by GDP and sectoral performance) and inequality (measured by inter-sectoral disparities, income distribution, and regional imbalances), using quantitative indicators like sectoral growth rates, FDI inflows, foreign exchange reserves, and employment elasticity.",
+     "a": "Liberalisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine reading two headlines on the same day: \"India's GDP grows at 9.4% - fastest among major economies\" and \"Farmer protests continue as ______ growth stagnates at 4.8%.\" This apparent contradiction is the core of LPG assessment.",
+     "a": "agriculture",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The assessment of LPG reforms evaluates the impact of Liberalisation, Privatisation, and Globalisation policies (post-______) on India's economic growth (measured by GDP and sectoral performance) and inequality (measured by inter-sectoral disparities, income distribution, and regional imbalances), using quantitative indicators like sectoral growth rates, FDI inflows, foreign exchange reserves, and employment elasticity.",
+     "a": "1991",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can interpret sectoral GDP growth data from Table 3.1 to explain why services-led growth creates inequality, calculate percentage changes in FDI and forex reserves to assess external sector performance, and evaluate the trade-off between higher aggregate growth and widening inter-sectoral disparities using evidence from the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine reading two headlines on the same day: \"India's GDP grows at 9.4% - fastest among major economies\" and \"Farmer protests continue as agriculture growth stagnates at 4.8%.\" This apparent ______ is the core of LPG assessment.",
+     "a": "contradiction",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a thought experiment: If you could selectively inhibit cytokinesis but not karyokinesis in a plant root meristem, what would happen to chromosome number, cell size, and root growth over time?",
      "a": "Cells would become multinucleate (multiple 2n nuclei in shared cytoplasm), cell size would increase, but root elongation would stall because new cell walls (cell plates) are not formed to partition cytoplasm and push the root cap forward. A poor answer focuses only on \"big cells\" without linking cytokinesis failure to the physical mechanism of plant growth (cell plate formation from c11_biotech_cbse_05_003) and the need for discrete cells to generate turgor-driven elongation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mitosis is the equational division of a eukaryotic somatic cell that produces two ______ identical daughter cells, each with the same chromosome number (2n) and DNA content (2C) as the parent cell, enabling organismal growth through cell number increase and tissue repair via replacement of damaged or dead cells.",
+     "a": "genetically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a deep cut on your ______ — within days, the skin knits back together seamlessly.",
+     "a": "finger",
+     "self_check": true
+    },
+    {
+     "q": "What is Mitosis? State the definition given in this lesson.",
+     "a": "Mitosis is the equational division of a eukaryotic somatic cell that produces two genetically identical daughter cells, each with the same chromosome number (2n) and DNA content (2C) as the parent cell, enabling organismal growth through cell number increase and tissue repair via replacement of damaged or dead cells.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Mitosis?",
+     "a": "Students often think \"growth by mitosis\" means cells just get bigger (hypertrophy) or that repair uses a special \"repair mitosis\" different from normal mitosis.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain how mitosis maintains genetic constancy while increasing cell number, and distinguish its role in growth (hyperplasia/hypertrophy balance) and repair (stem cell activation, blastema formation) with specific examples from plant meristems and animal epithelial/blood lineages.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_12_002",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_12_002",
+   "title": "c12_leg_cbse_12_002",
+   "questions": [
+    {
+     "q": "What is the primary difference between public international law and private international law in terms of the parties they govern?",
+     "a": "Public international law governs relations between states and international organisations, while private international law (conflict of laws) governs disputes between private parties (individuals or companies) across different jurisdictions. A wrong answer suggests the student confuses the subjects of the two branches — e.g., thinking public international law applies to a cross-border contract dispute between two companies.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why Article 38(1) of the ICJ Statute is considered the most authoritative statement of the sources of international law, even though it technically binds only the ICJ.",
+     "a": "Article 38(1) lists treaties, custom, general principles, and judicial decisions/teachings as sources, and is widely accepted as reflecting general international law because all UN members are parties to the ICJ Statute ipso facto, and the ICJ's function is to decide disputes in accordance with international law. A wrong answer reveals the student does not understand the link between the ICJ's constitutive role and the general acceptance of its statute as a source enumeration.",
+     "self_check": true
+    },
+    {
+     "q": "India ratifies the Convention on the Elimination of All Forms of Discrimination Against Women (CEDAW). A woman faces sexual harassment at her workplace, but no domestic law specifically addresses it. Can she directly invoke CEDAW in an Indian court to claim her rights? Explain the legal position.",
+     "a": "No, she cannot directly invoke CEDAW because India follows a dualist system — ratified treaties do not automatically become part of domestic law unless implemented by legislation under Article 253. However, in Vishaka v. State of Rajasthan, the Supreme Court used CEDAW to interpret Article 21 and create binding guidelines because no contrary domestic law existed. A wrong answer shows the student either thinks treaties are self-executing in India or does not know the Vishaka precedent.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the doctrines of transformation and incorporation in the context of applying international law in domestic legal systems, with reference to the UK and India.",
+     "a": "The UK follows the doctrine of transformation — treaties must be enacted into domestic law by Parliament before they have legal effect. India also follows a dualist approach requiring legislative implementation under Article 253, but courts may use unincorporated treaties as interpretive aids when domestic law is silent or ambiguous (as in Vishaka). A wrong answer indicates confusion between monist and dualist systems or inability to distinguish transformation from judicial incorporation as an interpretive tool.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: \"The International Court of Justice (ICJ) is the supreme court of the world.\" Support your answer with reference to its jurisdiction and enforcement mechanism.",
+     "a": "The statement is incorrect. The ICJ has no compulsory jurisdiction — it only hears cases where states consent. Its judgments are binding only on parties to a specific case (Article 59, ICJ Statute) and it has no enforcement power; enforcement depends on the UN Security Council, where permanent members can veto action. A wrong answer reveals the student overestimates the ICJ's authority and misunderstands the consent-based, decentralised nature of international adjudication.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario involving a cross-border commercial dispute between an Indian company and a French company where private international law would apply. Identify the two key questions private international law must resolve in this dispute.",
+     "a": "Scenario: An Indian textile manufacturer contracts with a French retailer for supply of goods; a dispute arises over defective quality. Private international law must determine: (1) which country's courts have jurisdiction to hear the case, and (2) which country's substantive law governs the contract. A poor answer fails to distinguish jurisdiction from choice of law or applies public international law concepts like state responsibility.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

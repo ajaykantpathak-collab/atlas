@@ -34,6 +34,31 @@
      "q": "Create a real-world scenario (Indian context) where plotting three points with specific coordinates helps solve a problem. Give the coordinates and explain what each point represents.",
      "a": "Example: A farmer in Punjab has a rectangular field. He marks the southwest corner as origin (0, 0). The northeast corner is at (120, 80) metres. A borewell is at (40, 60) and a storage shed at (100, 20). Plotting these helps plan irrigation pipes. A poor answer gives vague coordinates like \"some points\" or uses only positive integers without decimals/negatives, revealing the student cannot connect coordinates to measurable real-world quantities or understand scaling.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Plotting a point on the Cartesian plane means locating its exact position using an ordered pair of coordinates (x, y), where x is the signed perpendicular distance from the y-axis (abscissa) and y is the signed perpendicular distance from the x-axis (ordinate), with the origin (0, 0) as the reference ______ of the two perpendicular number lines.",
+     "a": "intersection",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping a delivery ______ in Mumbai navigate using a grid map where each block is 100 metres.",
+     "a": "driver",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping a delivery driver in Mumbai navigate using a grid map where each block is ______ metres.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can accurately plot any point given its coordinates (including negative integers, zero, and decimals) on a scaled Cartesian plane, identify the coordinates of a plotted point, and explain how the signs of coordinates determine the quadrant or axis location.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping a ______ driver in Mumbai navigate using a grid map where each block is 100 metres.",
+     "a": "delivery",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_03_006",
+   "title": "c12_app_cbse_03_006",
+   "questions": [
+    {
+     "q": "State the exact condition on a function $y = f(x)$ that makes logarithmic differentiation necessary (as opposed to standard power rule or exponential rule).",
+     "a": "Logarithmic differentiation is necessary when the function is of the form $y = [u(x)]^{v(x)}$ where **both the base $u(x)$ and the exponent $v(x)$ are non-constant functions of $x$**. A wrong answer (e.g., \"when there is an $x$ in the exponent\") reveals the student confuses $a^x$ (exponential, use $a^x \\ln a$) with $x^x$ or $f(x)^{g(x)}$; they haven't grasped that the *variability of the base* is the critical factor.",
+     "self_check": true
+    },
+    {
+     "q": "A student differentiates $y = x^x$ as follows: $\\ln y = x \\ln x \\implies \\frac{1}{y} \\frac{dy}{dx} = \\ln x + 1 \\implies \\frac{dy}{dx} = \\ln x + 1$. Identify the error and explain why it is mathematically incorrect.",
+     "a": "The error is in the final step: the student forgot to multiply by $y$ (i.e., $x^x$). The correct derivative is $\\frac{dy}{dx} = y(\\ln x + 1) = x^x(\\ln x + 1)$. A wrong answer here reveals the student treats implicit differentiation as \"differentiate both sides and stop\" without isolating $dy/dx$; they miss that $\\frac{d}{dx}(\\ln y) = \\frac{1}{y} \\frac{dy}{dx}$ by chain rule, so $dy/dx$ must be multiplied by $y$ to clear the denominator.",
+     "self_check": true
+    },
+    {
+     "q": "Differentiate $y = (x^2 + 1)^{x^3}$ with respect to $x$ using logarithmic differentiation. Show all steps.",
+     "a": "**Step 1:** Take $\\ln$ both sides: $\\ln y = x^3 \\ln(x^2 + 1)$.\n**Step 2:** Differentiate implicitly w.r.t $x$:\n$\\frac{1}{y} \\frac{dy}{dx} = 3x^2 \\ln(x^2 + 1) + x^3 \\cdot \\frac{1}{x^2 + 1} \\cdot 2x$ (product rule + chain rule).\n**Step 3:** Simplify RHS: $\\frac{dy}{dx} \\cdot \\frac{1}{y} = 3x^2 \\ln(x^2 + 1) + \\frac{2x^4}{x^2 + 1}$.\n**Step 4:** Multiply by $y = (x^2 + 1)^{x^3}$:\n$\\frac{dy}{dx} = (x^2 + 1)^{x^3} \\left[ 3x^2 \\ln(x^2 + 1) + \\frac{2x^4}{x^2 + 1} \\right]$.\nA wrong answer (e.g., missing the chain rule factor $2x$ in the second term, or forgetting to multiply by $y$) reveals gaps in product/chain rule application or the final substitution step.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the derivatives of $y_1 = x^5$, $y_2 = 5^x$, and $y_3 = x^x$. Explain why $y_3$ requires logarithmic differentiation while $y_1$ and $y_2$ do not. What structural property of $y_3$ makes the standard rules inapplicable?",
+     "a": "$y_1 = x^5$ has constant exponent $\\to$ power rule: $5x^4$. $y_2 = 5^x$ has constant base $\\to$ exponential rule: $5^x \\ln 5$. $y_3 = x^x$ has **both base and exponent as variable functions of $x$** — neither rule applies because each rule assumes the other part is constant. The structural property is **simultaneous variability of base and exponent**. A wrong answer (e.g., \"all three need log diff\") reveals the student doesn't understand the *assumptions* behind standard formulas.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Logarithmic differentiation can be used to differentiate *any* positive function $y = f(x)$.\" Is this true? Justify with a counterexample or proof, and discuss when it is *practically advantageous* vs. *unnecessary*.",
+     "a": "The claim is **mathematically true but practically misleading**. Any positive $f(x)$ can be written as $e^{\\ln f(x)}$, and differentiating gives $f'(x) = f(x) \\cdot \\frac{d}{dx}[\\ln f(x)]$ — this is logarithmic differentiation in essence. However, it is **advantageous only when $\\ln f(x)$ simplifies significantly** (e.g., $f(x) = x^x \\to \\ln f = x\\ln x$; $f(x) = \\frac{(x+1)^3}{(x-2)^2} \\to \\ln f = 3\\ln(x+1) - 2\\ln(x-2)$). For $f(x) = x^2 + 3x$, $\\ln f$ does not simplify — standard rules are faster. A wrong answer (e.g., \"always use it\" or \"never use it for polynomials\") reveals the student lacks strategic judgment about *when* the method adds value.",
+     "self_check": true
+    },
+    {
+     "q": "Create a function $y = f(x)$ that **requires** logarithmic differentiation (i.e., cannot be easily done with standard rules alone), has at least 3 factors in a product/quotient, and involves a variable exponent. Differentiate it completely.",
+     "a": "Example: $y = \\frac{x^{x^2} \\cdot (x+1)^{\\sin x}}{(x^2+1)^{e^x}}$.\n**Step 1:** $\\ln y = x^2 \\ln x + \\sin x \\ln(x+1) - e^x \\ln(x^2+1)$.\n**Step 2:** Differentiate:\n$\\frac{1}{y} y' = (2x \\ln x + x^2 \\cdot \\frac{1}{x}) + (\\cos x \\ln(x+1) + \\sin x \\cdot \\frac{1}{x+1}) - (e^x \\ln(x^2+1) + e^x \\cdot \\frac{2x}{x^2+1})$.\n**Step 3:** Simplify: $y' = y \\left[ 2x \\ln x + x + \\cos x \\ln(x+1) + \\frac{\\sin x}{x+1} - e^x \\ln(x^2+1) - \\frac{2x e^x}{x^2+1} \\right]$.\n**Step 4:** Substitute $y$. A poor answer (e.g., missing a product rule term, wrong chain rule on $e^x$, or not substituting $y$ back) reveals the student cannot manage multi-layered implicit differentiation with multiple rules simultaneously.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

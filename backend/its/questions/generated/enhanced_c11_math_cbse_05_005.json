@@ -34,6 +34,16 @@
      "q": "Create a word problem involving division of complex numbers that models a real situation in electrical engineering (impedance) or signal processing, using Indian context (e.g., voltage in a circuit with resistance and reactance). Define all variables.",
      "a": "Example: \"In an AC circuit, voltage \\(V = (120 + 80i)\\) volts and impedance \\(Z = (6 + 8i)\\) ohms. Find the current \\(I = V/Z\\) in \\(a+ib\\) form.\" Solution: \\(I = \\frac{120+80i}{6+8i} = \\frac{(120+80i)(6-8i)}{100} = \\frac{720 -960i +480i -640i^2}{100} = \\frac{1360 -480i}{100} = 13.6 - 4.8i\\) A. A poor answer uses unrealistic numbers, omits units, or doesn't require conjugate method (e.g., purely real impedance). This tests ability to contextualise abstract division.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have ₹(3+4i) and want to ______ it equally among (1+2i) friends — how much does each friend get?",
+     "a": "split",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you have ₹(3+4i) and want to split it equally among (1+2i) friends — how much does each friend get?",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

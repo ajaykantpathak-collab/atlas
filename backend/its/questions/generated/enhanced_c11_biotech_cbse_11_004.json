@@ -34,6 +34,31 @@
      "q": "Design a Perl regex pattern (with explanation) to find all potential N-linked glycosylation sites (consensus: Asn-X-Ser/Thr, where X ≠ Pro) in a protein sequence string. The pattern must use a negative lookahead or character class exclusion to enforce X ≠ Pro.",
      "a": "Pattern: `/N[^P][ST]/` — Explanation: `N` matches Asn; `[^P]` is a negated character class matching any amino acid except Pro; `[ST]` matches Ser or Thr. This correctly enforces the biological constraint. Alternative using negative lookahead: `/N(?!P)[ST]/` (but this only checks next char is not P, then matches any char for X — incorrect). A poor answer (e.g., `/N.[ST]/` or `/N(?!P).../`) reveals the student cannot translate \"X ≠ Pro\" into the correct regex construct (negated character class `[^P]` vs. lookahead) and does not understand that `.` matches Pro, violating the biological rule.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Perl regular expressions (regex) are a powerful pattern-matching syntax used to search, extract, and manipulate biological sequence data by defining search patterns using ______, quantifiers, and character classes that match specific nucleotide or amino acid motifs in DNA, RNA, or protein sequences.",
+     "a": "metacharacters",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a 5000-base-pair DNA sequence from a patient sample and need to find all ______ of the EcoRI restriction site (GAATTC) to design a cloning strategy.",
+     "a": "occurrences",
+     "self_check": true
+    },
+    {
+     "q": "What is Perl regular expressions (regex)? State the definition given in this lesson.",
+     "a": "Perl regular expressions (regex) are a powerful pattern-matching syntax used to search, extract, and manipulate biological sequence data by defining search patterns using metacharacters, quantifiers, and character classes that match specific nucleotide or amino acid motifs in DNA, RNA, or protein sequences.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Perl regular expressions (regex)?",
+     "a": "Students believe the dot . metacharacter in regex matches \"any character including newline\" by default, and write patterns like /ATG.*?TAA/s assuming it works across multi-line FASTA sequences.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write Perl regex patterns to identify biological motifs (e.g., restriction enzyme sites, start codons, promoter elements) in a given FASTA sequence and explain the function of each metacharacter used in the pattern.",
+     "self_check": true
     }
    ]
   }

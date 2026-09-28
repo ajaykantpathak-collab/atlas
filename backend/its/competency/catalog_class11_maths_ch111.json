@@ -20,7 +20,7 @@
     "determine the octant for given coordinates",
     "Explain the method of Octants and Coordinate Planes in 3D Space."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,28 @@
      "action": "name the octant based on the matched sign combination",
      "explain": "State the octant name corresponding to the identified sign pattern, confirming the point's region in 3D space."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the coordinate-geometry formula",
+     "explain": "apply the coordinate-geometry formula: dx = 2 - -5 gives 7",
+     "compute": "dx = 2 - -5"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the coordinate-geometry formula: dy = 21 - -3 gives 24",
+     "compute": "dy = 21 - -3"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 25",
+     "compute": "dist = sqrt(dx * dx + dy * dy)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.11.3.1",
@@ -54,7 +75,7 @@
     "determine coordinates of projection on coordinate planes",
     "Explain the method of Coordinates on Axes and Coordinate Planes."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -71,7 +92,28 @@
      "action": "state the remaining non-zero coordinates",
      "explain": "Report the coordinates that are free to vary along the identified axis or within the identified plane."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the coordinate-geometry formula",
+     "explain": "apply the coordinate-geometry formula: dx = 8 - 0 gives 8",
+     "compute": "dx = 8 - 0"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the coordinate-geometry formula: dy = 20 - 5 gives 15",
+     "compute": "dy = 20 - 5"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 17",
+     "compute": "dist = sqrt(dx * dx + dy * dy)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.11.4.1",
@@ -198,7 +240,7 @@
     "Explain the method of Collinearity of Three Points in 3D Space.",
     "Describe the approach of Collinearity of Three Points in 3D Space."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -215,7 +257,28 @@
      "action": "conclude collinearity if the equality holds",
      "explain": "If AB + BC = AC (or equivalent), the three points lie on a single straight line; otherwise they are non-collinear."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the coordinate-geometry formula",
+     "explain": "apply the coordinate-geometry formula: dx = 11 - -1 gives 12",
+     "compute": "dx = 11 - -1"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the coordinate-geometry formula: dy = 17 - 1 gives 16",
+     "compute": "dy = 17 - 1"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 20",
+     "compute": "dist = sqrt(dx * dx + dy * dy)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.11.4.4",
@@ -232,7 +295,7 @@
     "check geometric shape formed by given 3D vertices",
     "Explain the method of Geometric Classification of Triangles and Polygons."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -249,7 +312,16 @@
      "action": "classify the shape based on the verified properties",
      "explain": "Conclude whether the vertices form an isosceles triangle, right triangle, parallelogram, rectangle, or other polygon from the satisfied conditions."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 10 gives 80",
+     "compute": "other = 90 - 10"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.11.4.5",
@@ -266,7 +338,7 @@
     "Explain the method of Locus Equation satisfying Distance Conditions.",
     "Describe the approach of Locus Equation satisfying Distance Conditions."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -283,7 +355,16 @@
      "action": "state the final locus equation in standard form",
      "explain": "Present the simplified equation as the locus describing all points P(x, y, z) satisfying the given distance condition."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (106 - 7) / 9 gives 11",
+     "compute": "x = (106 - 7) / 9"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.11.M.1",

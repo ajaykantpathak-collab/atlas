@@ -4,15 +4,9 @@
   {
    "id": "hegp.205.5.1.1",
    "title": "Balance Point Property of Mean",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "recall the count for the shape",
-     "explain": "recall the count for the shape: lines = 1 gives 1",
-     "compute": "lines = 1"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "sum_left_distances = sum_right_distances",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a kite have?",
@@ -50,6 +44,8 @@
    "id": "hegp.205.5.1.2",
    "title": "Mean Transformation by Addition or Subtraction",
    "converted_to_compute": false,
+   "formula": "new_mean = old_mean + shift",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 7, 4, 10, 8, 17.",
@@ -87,6 +83,8 @@
    "id": "hegp.205.5.1.3",
    "title": "Mean Transformation by Multiplication",
    "converted_to_compute": false,
+   "formula": "new_mean = old_mean * factor",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 13, 12, 8, 13, 3.",
@@ -124,6 +122,8 @@
    "id": "hegp.205.5.1.4",
    "title": "Finding a Missing Value from the Mean",
    "converted_to_compute": false,
+   "formula": "missing_value = (mean * count) - known_sum",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 37, 5, 4, 6, 37.",
@@ -161,6 +161,8 @@
    "id": "hegp.205.5.1.5",
    "title": "Correcting Mean for Erroneous Data Entries",
    "converted_to_compute": false,
+   "formula": "correct_mean = (initial_mean * count - excess_error) / count",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 17, 39, 9, 3, 30.",
@@ -198,6 +200,8 @@
    "id": "hegp.205.5.1.6",
    "title": "Mean of Frequency Distribution Data",
    "converted_to_compute": false,
+   "formula": "mean = total_product_sum / total_frequency",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 5, 8, 18, 2, 8.",
@@ -234,21 +238,9 @@
   {
    "id": "hegp.205.5.1.7",
    "title": "Median of Frequency Distribution Data",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the mean/median/mode definition",
-     "explain": "apply the mean/median/mode definition: total = sum((39, 34, 28, 5, 20)) gives 126",
-     "compute": "total = sum((39, 34, 28, 5, 20))"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 25.2",
-     "compute": "mean = total / 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "median = central_observation_value",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 39, 34, 28, 5, 20.",
@@ -285,21 +277,9 @@
   {
    "id": "hegp.205.5.1.8",
    "title": "Spreadsheet Formulas SUM and AVERAGE",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the mean/median/mode definition",
-     "explain": "apply the mean/median/mode definition: total = sum((38, 9, 16, 4, 14)) gives 81",
-     "compute": "total = sum((38, 9, 16, 4, 14))"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 16.2",
-     "compute": "mean = total / 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "formula = SUM(start_cell:end_cell)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 38, 9, 16, 4, 14.",
@@ -336,15 +316,9 @@
   {
    "id": "hegp.205.5.2.1",
    "title": "Line Graph Interpretation and Trend Analysis",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "read the table or chart with its key",
-     "explain": "read the table or chart with its key: total = 3 + 2 + 8 gives 13",
-     "compute": "total = 3 + 2 + 8"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "trend = line_segment_steepness",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a frequency table the rows have frequencies 3, 2 and 8. Find the total frequency.",
@@ -381,15 +355,9 @@
   {
    "id": "hegp.205.5.2.2",
    "title": "Infographics and Activity Time Strips",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "read the table or chart with its key",
-     "explain": "read the table or chart with its key: total = 2 + 2 + 4 gives 8",
-     "compute": "total = 2 + 2 + 4"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "duration = block_count * time_per_block",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a frequency table the rows have frequencies 2, 2 and 4. Find the total frequency.",

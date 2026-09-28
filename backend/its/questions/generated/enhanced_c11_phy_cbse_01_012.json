@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using only a metre scale, a stopwatch, and a known mass (e.g., a 100 g standard weight) to estimate the mass of an unknown object without using a balance. Describe the procedure, the physics principle, and the formula you would use.",
      "a": "Use a uniform metre scale as a lever (balance) with the fulcrum at the 50 cm mark. Place the known mass (100 g) at a fixed distance (e.g., 20 cm from fulcrum). Place the unknown mass on the other side and adjust its distance until the scale balances horizontally. Measure the distance d_unknown from fulcrum. By principle of moments: m_known × d_known = m_unknown × d_unknown → m_unknown = m_known × d_known / d_unknown. This uses the principle of moments (rotational equilibrium) and converts mass measurement into length measurement. A poor answer (e.g., \"drop both objects and time their fall\") reveals inability to apply prior knowledge of levers and moments (Class 9/10) to solve a measurement problem creatively.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mass is the measure of the quantity of matter in a body, with the SI unit kilogram (kg) defined by fixing the ______ value of the Planck constant h to be 6.62607015×10⁻³⁴ J·s.",
+     "a": "numerical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a vegetable vendor using a beam balance with standard weights to measure 1 kg of onions, and a student using a digital ______ to time a 100 m race at the school sports day.",
+     "a": "stopwatch",
+     "self_check": true
+    },
+    {
+     "q": "What is Mass? State the definition given in this lesson.",
+     "a": "Mass is the measure of the quantity of matter in a body, with the SI unit kilogram (kg) defined by fixing the numerical value of the Planck constant h to be 6.62607015×10⁻³⁴ J·s.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Both measurements rely on comparing an unknown quantity with a standard: the vendor compares the onions with a ______ kg standard weight, while the stopwatch counts oscillations of a quartz crystal calibrated against the caesium atomic clock.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Mass?",
+     "a": "Students often believe that \"mass is measured in kg and weight in newtons, so they are completely different and unrelated.\" They fail to see that weight W = mg is the operational way we *measure* mass in a gravitational field using a spring balance, and that the beam balance works *because* weight is proportional to mass.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state the modern SI definitions of kilogram and second in terms of fundamental constants, identify appropriate instruments for measuring mass (beam balance, electronic balance) and time (atomic clock, stopwatch) for a given range, and correctly apply unit conversions and significant figures in numerical problems involving.",
+     "self_check": true
     }
    ]
   }

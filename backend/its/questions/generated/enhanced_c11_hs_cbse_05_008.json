@@ -34,6 +34,31 @@
      "q": "Design a blended yarn recipe (fibre %, staple length, fineness) for a \"cool-touch summer shirting\" that combines cotton's moisture management with polyester's wrinkle resistance. Specify the processing route modifications needed at drawing and roving to handle the fibre-diameter differential.",
      "a": "Recipe: 60% cotton (28 mm, 4.5 µg/inch) + 40% polyester (38 mm, 1.5 dpf) cut to 32 mm. Processing mods: 1) Drawing—use double-apron drafting with higher back-roller pressure to control polyester's lower cohesion; add a third drawing passage for blend homogeneity. 2) Roving—reduce roving hank (coarser) to accommodate polyester's higher draft limit; lower flyer speed to limit false twist on slick polyester. 3) Spinning—optimise twist multiplier (≈3.4) for blend; use traveller profile reducing balloon tension. A poor answer lists only percentages without staple-length matching or drafting adjustments, revealing ignorance of how fibre physics dictates machine settings.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Yarn processing is the systematic sequence of mechanical operations—cleaning, carding, combing, drawing, roving, and spinning—that converts disordered staple fibres into a continuous, twisted strand (yarn) with specific fineness, strength, and uniformity suitable for fabric ______.",
+     "a": "construction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine holding a ______ boll—fluffy, seed-laden, and chaotic.",
+     "a": "cotton",
+     "self_check": true
+    },
+    {
+     "q": "What is Yarn processing? State the definition given in this lesson.",
+     "a": "Yarn processing is the systematic sequence of mechanical operations—cleaning, carding, combing, drawing, roving, and spinning—that converts disordered staple fibres into a continuous, twisted strand (yarn) with specific fineness, strength, and uniformity suitable for fabric construction.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Yarn processing?",
+     "a": "Students believe \"spinning\" is the only real process and earlier stages (carding, drawing) are just preparatory cleaning.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can sequentially explain all six stages of cotton yarn processing with technical terminology (lap, sliver, roving, twist per inch), differentiate carded vs. combed yarn characteristics, and justify why each stage is necessary for converting staple fibres into a coherent yarn.",
+     "self_check": true
     }
    ]
   }

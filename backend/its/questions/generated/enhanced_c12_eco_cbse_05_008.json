@@ -34,6 +34,36 @@
      "q": "Design a government intervention for the market for LPG cylinders (cooking gas) in India that balances affordability for poor households with fiscal sustainability. Specify the policy instrument (price ceiling, subsidy, targeted transfer), the target group, and illustrate with a demand-supply diagram the intended outcome and potential unintended consequences.",
      "a": "A good answer proposes a targeted direct benefit transfer (DBT) to poor households (e.g., PMUY scheme) rather than a universal price ceiling or subsidy. The diagram shows a downward-sloping demand, upward-sloping supply, and the market equilibrium. A universal price ceiling would create shortage and black markets. A universal subsidy would be fiscally costly and leak to non-poor. DBT shifts the demand curve of poor households rightward (increasing their effective purchasing power) without distorting the market price, minimizing DWL and targeting benefits. A poor answer suggests a blanket price ceiling or subsidy without addressing targeting or fiscal cost, showing lack of synthesis of welfare economics and practical policy design.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Government ______ in prices refers to policies such as price ceilings (maximum legal price), price floors (minimum legal price), per-unit taxes, and per-unit subsidies that alter the free-market equilibrium price and quantity, leading to changes in consumer surplus, producer surplus, total surplus, and potential deadweight loss.",
+     "a": "intervention",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine the government imposes a price ceiling of ₹30/kg on onions when the market ______ is ₹40/kg.",
+     "a": "equilibrium",
+     "self_check": true
+    },
+    {
+     "q": "What is Government intervention in prices? State the definition given in this lesson.",
+     "a": "Government intervention in prices refers to policies such as price ceilings (maximum legal price), price floors (minimum legal price), per-unit taxes, and per-unit subsidies that alter the free-market equilibrium price and quantity, leading to changes in consumer surplus, producer surplus, total surplus, and potential deadweight loss.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: First, recall how to find the free-market equilibrium from Node ______ (demand-supply intersection).",
+     "a": "001",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Government intervention in prices?",
+     "a": "Students often believe that a price floor set above equilibrium \"helps all producers\" and a price ceiling set below equilibrium \"helps all consumers\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) graphically and algebraically determine the new equilibrium after a price ceiling, price floor, tax, or subsidy; (2) calculate the resulting shortage/surplus, tax incidence, subsidy cost, and deadweight loss; (3) explain the welfare implications for consumers, producers, and government; and (4) evaluate the.",
+     "self_check": true
     }
    ]
   }

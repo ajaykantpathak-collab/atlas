@@ -19,6 +19,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import qbank_lib as L  # noqa
 import fam_basic, fam_comm, fam_meas, fam_alg, fam_stat, fam_adv  # noqa
 import fam_primary, fam_small  # noqa
+import fam_stem  # noqa
 import router  # noqa
 
 COMP_DIR = "D:/platform/backend/its/competency"
@@ -28,6 +29,7 @@ AUDIT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "audit")
 # one-line method description per family, used as the first solution
 # step action of a converted verify_property concept
 STEPS_DESC = {
+    "formula_eval": "substitute the given values into the formula",
     "num_patterns": "apply the pattern rule",
     "odd_sum_square": "add the first n odd numbers, whose total is n x n",
     "updown_sum": "add up to the peak and back; the total is peak x peak",
@@ -86,9 +88,22 @@ STEPS_DESC = {
 
 
 def catalog_list():
-    return sorted(set(
+    paths = set(
         glob.glob(os.path.join(COMP_DIR, "catalog_class*_maths_*.json"))
-        + glob.glob(os.path.join(COMP_DIR, "catalog_class*_applied_maths_*.json"))))
+        + glob.glob(os.path.join(COMP_DIR, "catalog_class*_applied_maths_*.json"))
+        + glob.glob(os.path.join(COMP_DIR, "catalog_class*_physics_*.json"))
+        + glob.glob(os.path.join(COMP_DIR, "catalog_class*_chemistry_*.json"))
+        + glob.glob(os.path.join(COMP_DIR, "catalog_class*_science_*.json"))
+        + glob.glob(os.path.join(COMP_DIR, "catalog_class*_biology_*.json"))
+        + glob.glob(os.path.join(COMP_DIR, "catalog_class*_biotechnology_*.json"))
+        + glob.glob(os.path.join(COMP_DIR, "catalog_class*_accountancy_*.json"))
+        + glob.glob(os.path.join(COMP_DIR, "catalog_class*_economics_*.json")))
+    # 'science' glob also catches social/political/computer/home
+    # science -- descriptive subjects, not compute catalogs
+    _NONSTEM = ("social_science", "political_science",
+                "computer_science", "home_science")
+    return sorted(p for p in paths
+                  if not any(s in p for s in _NONSTEM))
 
 
 def report_only():
@@ -145,18 +160,42 @@ def build():
         audit_concepts = []
         for c in data.get("concepts", []):
             fam, params = router.route(stem, c)
+            if fam == router.SKIP:
+                continue
             if fam == router.FALLBACK:
                 fam = router.EXPR_FAMILY
             fam_fn = L.FAMILIES.get(fam)
             if fam_fn is None:
                 raise KeyError("unknown family %r for %s %s" % (fam, stem, c["id"]))
             seed = L.stable_seed(stem + "::" + c["id"])
-            questions, raws = L.collect_questions(fam_fn, c["id"], seed)
+            try:
+                questions, raws = L.collect_questions(fam_fn, c["id"], seed,
+                                                      concept=c)
+            except AssertionError as exc:
+                print("  skip %s (%s): %s" % (stem, c["id"], exc))
+                continue
             converted = False
             steps = None
             convertible = fam not in router.NON_NUMERIC_FAMILIES or (
                 fam == "authored" and params and params.get("convert"))
-            if c.get("solution_type") == "verify_property" and \
+            if fam == "formula_eval" and raws:
+                # STEM: publish SYMBOLIC steps ('lhs = rhs' -- no baked
+                # literals, so the executor's alien-literal guard passes
+                # and the step chain binds the question's own numbers
+                # via slots).  Multi-equation formulas become sequential
+                # compute steps -- real multi-step chains.
+                eqs = raws[0].get("eqs") or []
+                if not eqs:
+                    eqs = [(raws[0].get("lhs") or "",
+                            raws[0].get("rhs") or "")]
+                steps = [{"step": i + 1,
+                          "action": "substitute the given values into "
+                                    "the formula",
+                          "explain": "%s = %s" % (l.strip(), r.strip()),
+                          "compute": "%s = %s" % (l.strip(), r.strip())}
+                         for i, (l, r) in enumerate(eqs)]
+                converted = True
+            elif c.get("solution_type") == "verify_property" and \
                     convertible and raws:
                 steps = make_steps(fam, raws[0]["chain"])
                 L.run_chain(steps_chain(steps))  # raises if broken
@@ -166,8 +205,32 @@ def build():
                 "title": c.get("title", ""),
                 "converted_to_compute": converted,
             }
+            if fam == "formula_eval" and raws:
+                # publish the normalizer-safe renamed formula so formula,
+                # steps and question labels all use the same varnames
+                eqs = raws[0].get("eqs") or []
+                if eqs:
+                    entry["formula"] = "; ".join(
+                        "%s = %s" % (l, r) for l, r in eqs)
+                else:
+                    entry["formula"] = str(c.get("formula") or "")
+            elif c.get("formula"):
+                entry["formula"] = c["formula"]
+            if c.get("solution_type"):
+                entry["solution_type"] = c["solution_type"]
+            if fam == "formula_eval":
+                entry["solution_type"] = "compute"
             if converted:
                 entry["solution_steps"] = steps
+            if fam == "formula_eval" and raws:
+                # {var}-placeholder pattern -> strict template regex
+                # binds natural-phrased questions to named roles
+                tpl = next((it.get("tpl") for it in raws
+                            if it.get("tpl")), None)
+                if tpl:
+                    entry["worked_examples"] = [{
+                        "concept": c["id"],
+                        "question_pattern": tpl}]
             entry["questions"] = questions
             entries.append(entry)
             audit_concepts.append({
@@ -180,8 +243,36 @@ def build():
             totals["concepts"] += 1
             totals["converted"] += 1 if converted else 0
             totals["questions"] += len(questions)
+        # merge with any existing generated file: authored/self-check
+        # concepts and text questions from earlier generators are kept --
+        # this builder only ADDS compute concepts, never deletes content
+        out_path = os.path.join(OUT_DIR, fname)
+        if os.path.exists(out_path):
+            try:
+                old = json.load(io.open(out_path, encoding="utf-8"))
+                old_by_id = {c.get("id"): c for c in old.get("concepts", [])}
+            except Exception:
+                old_by_id = {}
+            new_ids = {e["id"] for e in entries}
+            for e in entries:
+                # regenerated compute concepts replace wholly -- stale
+                # question variants (old constants/phrasing) must not
+                # survive into the bank
+                if e.get("converted_to_compute") and e.get("formula"):
+                    continue
+                old_c = old_by_id.get(e["id"])
+                if old_c:
+                    seen_q = {q.get("q") for q in e.get("questions", [])}
+                    for oq in (old_c.get("questions") or []):
+                        if oq.get("q") not in seen_q:
+                            e["questions"].append(oq)
+                    if not e.get("questions") and old_c.get("questions"):
+                        e["questions"] = old_c["questions"]
+            for oid, oc in old_by_id.items():
+                if oid not in new_ids:
+                    entries.append(oc)
         bank = {"catalog": fname, "concepts": entries}
-        with io.open(os.path.join(OUT_DIR, fname), "w", encoding="utf-8") as fh:
+        with io.open(out_path, "w", encoding="utf-8") as fh:
             json.dump(bank, fh, indent=1, ensure_ascii=False)
         with io.open(os.path.join(AUDIT_DIR, fname), "w", encoding="utf-8") as fh:
             json.dump({"catalog": fname, "concepts": audit_concepts}, fh,

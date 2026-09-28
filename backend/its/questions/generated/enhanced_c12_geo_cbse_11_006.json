@@ -34,6 +34,36 @@
      "q": "Design a two-season cropping plan for a 10-ha farm in eastern Uttar Pradesh (alluvial soil, 100 cm rainfall, canal irrigation available) that maximises foodgrain output while maintaining soil fertility. Specify crops, varieties, and key management practices.",
      "a": "Expected answer: Kharif — HYV rice (e.g., Samba Mahsuri) with System of Rice Intensification (SRI) to save water; Rabi — HYV wheat (e.g., HD 2967) with zero-till drilling after rice harvest, plus a legume catch crop (green gram) in zaid if moisture permits. Key practices: laser land leveling, balanced NPK + Zn, residue incorporation, integrated pest management. A poor answer that simply repeats \"rice-wheat\" without variety names, water-saving methods, or soil health measures shows lack of applied geographical thinking.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Rice and wheat are India's two dominant foodgrain crops: rice is a kharif crop requiring high ______ (20–35°C), abundant rainfall (100–200 cm) or assured irrigation, and clayey alluvial soils; wheat is a rabi crop needing cool winters (10–25°C), moderate rainfall (50–75 cm) or irrigation, and well-drained loamy soils.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by observing your daily meal: a ______ of rice (common in the south/east) and wheat roti (common in the north).",
+     "a": "plate",
+     "self_check": true
+    },
+    {
+     "q": "What is Rice and wheat? State the definition given in this lesson.",
+     "a": "Rice and wheat are India's two dominant foodgrain crops: rice is a kharif crop requiring high temperature (20–35°C), abundant rainfall (100–200 cm) or assured irrigation, and clayey alluvial soils; wheat is a rabi crop needing cool winters (10–25°C), moderate rainfall (50–75 cm) or irrigation, and well-drained loamy soils.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Together they occupy ~______% of India's total cropped area and underpin national food security.",
+     "a": "40",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Rice and wheat?",
+     "a": "Students often think rice *only* grows in high-rainfall areas (like West Bengal) and wheat *only* in low-rainfall areas (like Punjab).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) locate the major rice- and wheat-growing regions on an outline map of India, (2) explain how temperature, rainfall, soil, and irrigation determine their distribution, and (3) compare the impact of the Green Revolution on yield and regional shifts for both crops.",
+     "self_check": true
     }
    ]
   }

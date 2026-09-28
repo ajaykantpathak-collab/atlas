@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (Indian context: rupees, metres, kg) that leads to a linear inequality requiring division by a negative number to solve. Write the inequality, solve it, and interpret the answer in context.",
      "a": "Example: A Delhi Metro train has capacity 300 passengers. At a station, x passengers board and 40 alight. The train must not exceed capacity. If 280 passengers were on board before the station, find maximum x. Inequality: 280 + x - 40 ≤ 300 → x ≤ 60. This does NOT require negative division. To force negative division: \"A cold storage at -5°C warms at 2°C per hour after power failure. Vaccines spoil above 8°C. How many hours until spoilage?\" Inequality: -5 + 2t ≤ 8 → 2t ≤ 13 → t ≤ 6.5. Still positive. Better: \"A submarine at -200m ascends at 15m/min. It must stay below -50m to avoid detection. For how long can it ascend?\" Inequality: -200 + 15t < -50 → 15t < 150 → t < 10. Still positive. To require negative division, the variable must have negative coefficient: \"A company's profit P = 5000 - 200x where x is defective units. Profit must exceed ₹1000. Find max defective units.\" 5000 - 200x > 1000 → -200x > -4000 → x < 20. Correct interpretation: fewer than 20 defective units. A poor answer creates a problem solvable without sign reversal, showing the student doesn't recognize when the rule is actually needed.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The rules for solving linear ______ are algebraic properties that preserve the solution set when transforming an inequality into an equivalent simpler form: (1) Adding or subtracting the same real number to both sides does not change the inequality direction.",
+     "a": "inequalities",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have ₹500 and want to buy ______ costing ₹45 each, but you must keep at least ₹50 for bus fare.",
+     "a": "notebooks",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The rules for solving linear inequalities are algebraic properties that preserve the solution set when transforming an inequality into an equivalent simpler form: (______) Adding or subtracting the same real number to both sides does not change the inequality direction.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly apply all three transformation rules to simplify linear inequalities, explicitly justify when and why the inequality sign reverses, and solve multi-step inequalities involving fractions, decimals, and negative coefficients without sign errors.",
+     "self_check": true
     }
    ]
   }

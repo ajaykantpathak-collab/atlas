@@ -34,6 +34,31 @@
      "q": "Create a data set of 6 numbers where the median is 10.",
      "a": "Any set where the average of the 3rd and 4th values (when sorted) is 10 will work (e.g., 2, 5, 9, 11, 15, 20). A poor answer would show a lack of understanding that the median is determined by the center values, not the total count or range.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The median is the middle value of a data set that has been arranged in order from smallest to largest (______ order).",
+     "a": "ascending",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To find the \"middle\" person, you naturally ______ yourselves from shortest to tallest.",
+     "a": "arrange",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If you have an even number, you don't have one middle person, so you take the two people in the center and find their average (add them and divide by ______) to find the \"middle\" ground.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to arrange a given set of numbers in ascending order and correctly identify the middle value (or calculate the average of two middle values) to determine the median.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To find the \"middle\" person, you naturally arrange ______ from shortest to tallest.",
+     "a": "yourselves",
+     "self_check": true
     }
    ]
   }

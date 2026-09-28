@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a smartphone's accelerometer and a toy car on a ramp to verify that the area under a velocity-time graph equals displacement. List the steps and what you would plot.",
      "a": "Steps: (1) Place phone on toy car, start accelerometer recording. (2) Release car from rest on ramp, let it roll to stop. (3) Export acceleration vs. time data. (4) Integrate acceleration to get velocity vs. time (or use velocity directly if sensor provides). (5) Plot velocity-time graph. (6) Calculate area under graph numerically (e.g., trapezoidal rule). (7) Measure actual displacement with metre scale. Compare. A poor answer that only measures final speed and multiplies by time reveals misunderstanding of non-uniform acceleration and the need for integration.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A velocity-time graph plots velocity (m/s) on the vertical axis against time (s) on the horizontal axis; its slope at any point gives the ______ acceleration (m/s²), and the area between the graph and the time axis over a given interval gives the displacement (m) during that interval.",
+     "a": "instantaneous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are sitting on a bicycle and start pedaling from rest, gradually ______ up, then coast at constant speed, and finally apply brakes to stop.",
+     "a": "speeding",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can determine acceleration and displacement from any velocity-time graph (including piecewise linear and curved segments), explain the physical meaning of positive/negative/zero slope and area above/below the time axis, and convert between v-t, a-t, and s-t graphs for the same motion.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are sitting on a bicycle and start pedaling from rest, ______ speeding up, then coast at constant speed, and finally apply brakes to stop.",
+     "a": "gradually",
+     "self_check": true
     }
    ]
   }

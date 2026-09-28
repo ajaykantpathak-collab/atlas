@@ -34,6 +34,21 @@
      "q": "Create a mini-case: Design an admission scenario with 3 old partners (ratio 4:3:2), 1 new partner, where: (a) Revaluation shows profit, (b) Existing goodwill written off, (c) New goodwill premium brought, (d) General Reserve distributed, (e) Capitals made proportionate. Provide the pre-admission Balance Sheet and admission terms. Then write the Revaluation Account, all Capital Accounts, and post-admission Balance Sheet. Your case must require at least 5 journal entries from node 02_009.",
      "a": "Expected: A complete worked case with Balance Sheet (assets/liabilities), admission terms (new ratio, goodwill value, revaluation items, reserve amount, capital proportion terms), Revaluation Account with 3+ items, 4 Capital Accounts (3 old + 1 new) with all adjustments, and Balance Sheet with correct totals. Good answer shows: proper T-account format, correct distribution ratios (old for revaluation/reserve/existing goodwill, sacrificing for new goodwill), capital proportion adjustment with cash bring/withdraw, and Balance Sheet balancing. POOR ANSWER REVEALS: If student omits existing goodwill write-off, they miss node 02_005/02_009. If they use new ratio for reserve distribution, they confuse pre-admission vs post-admission events. If Balance Sheet doesn't balance, they have arithmetic errors or missed postings.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Preparation of Revaluation Account, Partners' Capital Accounts, and Balance Sheet after Admission is the systematic process of recording the effects of asset/liability revaluation, goodwill adjustment, accumulated profit/loss distribution, and capital ______ in ledger accounts to reflect the reconstituted partnership's financial position immediately after a new partner is admitted.",
+     "a": "restructuring",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're the accountant for a ______ firm where a new partner is joining tomorrow.",
+     "a": "partnership",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently prepare a complete Revaluation Account, Partners' Capital Accounts (old and new partners), and the post-admission Balance Sheet from a given pre-admission Balance Sheet and admission terms, showing all adjustments in correct format with proper narration.",
+     "self_check": true
     }
    ]
   }

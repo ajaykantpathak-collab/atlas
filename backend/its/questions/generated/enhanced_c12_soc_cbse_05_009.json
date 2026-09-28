@@ -1,0 +1,56 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_05_009",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_05_009",
+   "title": "c12_soc_cbse_05_009",
+   "questions": [
+    {
+     "q": "Define the medical model of disability in one sentence. What is its primary location of the \"problem\"?",
+     "a": "The medical model defines disability as a biological/medical impairment within the individual that needs cure or rehabilitation; the problem is located in the person's body/mind. A wrong answer (e.g., \"disability is caused by society's barriers\") shows confusion with the social model and inability to recall the model's core individualistic assumption.",
+     "self_check": true
+    },
+    {
+     "q": "A teacher says, \"We cannot admit a blind child because our school has no Braille books and our teachers aren't trained.\" Using the social model, explain why this statement reflects a societal failure, not the child's limitation.",
+     "a": "The social model argues that the child's blindness is an impairment, but the *disability* (exclusion from education) arises because the school lacks Braille materials and trained teachers — these are removable societal barriers. A wrong answer that focuses on the child's blindness as the cause of exclusion reveals a medical-model mindset that naturalizes barriers as inevitable consequences of impairment.",
+     "self_check": true
+    },
+    {
+     "q": "Apply both models to this situation: A company refuses to hire a qualified deaf candidate, saying \"communication will be too difficult.\" List two specific barriers from the social-model perspective and two \"justifications\" the medical model would offer.",
+     "a": "Social model barriers: (1) absence of sign-language interpreters or assistive tech in interviews/meetings, (2) workplace culture that equates spoken communication with competence. Medical model justifications: (1) the candidate's hearing loss prevents effective communication, (2) accommodating them would require \"special\" effort beyond normal standards. A wrong answer that merges the two (e.g., \"the company is right because deafness causes communication problems\") fails to separate impairment from socially created barriers.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the relationship between disability and poverty described in the NCERT text. Why does the social model predict a two-way causal link, while the medical model sees only a one-way link?",
+     "a": "The social model predicts a cycle: poverty → malnutrition/poor healthcare → higher impairment rates (first link), AND impairment → exclusion from education/employment → deeper poverty (second link). The medical model only sees impairment → poverty (due to individual inability to work) and ignores how poverty creates impairment and how social exclusion deepens poverty. A wrong answer that states \"disability causes poverty because disabled people can't work\" reflects a purely medical, individualistic causality.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Census 2011 expansion from 5 to 8 disability categories was a step toward the social model.\" Use evidence from the NCERT's description of the Census approach to support your judgment.",
+     "a": "The statement is partially true but limited. Expanding categories (e.g., adding mental illness, learning disabilities) acknowledges diversity of impairments — a medical-model improvement. However, the Census still counts individuals by impairment type without measuring environmental barriers (inaccessible schools, workplaces, transport), which is the social model's core metric. A strong evaluation notes that counting impairments better is necessary but insufficient for a social-model shift; we need data on participation restrictions. A wrong answer that calls it a full adoption of the social model misses the distinction between counting bodies and measuring barriers.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 3-panel comic-strip concept (describe each panel in words) that teaches a Class 8 student the difference between the medical and social models using an Indian school setting. Panel 1: the problem; Panel 2: medical-model \"solution\"; Panel 3: social-model solution.",
+     "a": "Panel 1: A girl with crutches stares at a staircase to her classroom; caption: \"Priya cannot reach her class.\" Panel 2: A doctor gives her leg braces; caption: \"Medical model: fix Priya's legs so she can climb stairs.\" Panel 3: A ramp is built; Priya enters with friends; caption: \"Social model: fix the staircase so everyone can enter.\" A poor answer shows only medical interventions (surgery, therapy) in all panels, revealing inability to conceptualize environmental modification as the social-model response.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The medical model of disability views disability as an individual's biological impairment or deficit that requires medical treatment, cure, or ______ to \"fix\" the person.",
+     "a": "rehabilitation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a Class 12 student, Rohan, who uses a ______.",
+     "a": "wheelchair",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) clearly distinguish the medical and social models using their core assumptions, (2) apply both models to a real-life Indian scenario (e.g., inaccessible school, workplace discrimination) and identify which barriers are social vs. biological, and (3) evaluate why the social model is essential for rights-based policies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

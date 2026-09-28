@@ -34,6 +34,26 @@
      "q": "Design a minimal Python function `update_record(filename, record_index, new_data, record_size)` that updates the `record_index`-th fixed-length record in a binary file *in-place* without reading the entire file into memory. Assume `len(new_data) == record_size`.",
      "a": "```python\ndef update_record(filename, record_index, new_data, record_size):\n    with open(filename, 'rb+') as f:\n        f.seek(record_index * record_size, 0)\n        f.write(new_data)\n```\nA good answer uses `rb+` (read+write, no truncation), computes byte offset as `record_index * record_size`, seeks from start (`whence=0`), and writes exactly `record_size` bytes. A poor answer opens in `'wb'` (truncates file), uses text mode, forgets to multiply by `record_size`, or reads the whole file first — showing inability to apply random-access concepts to a realistic update scenario.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The file pointer is an invisible cursor ______ by Python that tracks the current byte/character position for the next read or write operation in an open file; tell() returns this current position as an integer, and seek(offset, whence) moves the pointer to a new position where offset is the number of bytes/characters to move and whence defines the reference point (0 = start of file, 1 = current position, 2 = end of file).",
+     "a": "maintained",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a 500 MB log file and need to read only the last 10 lines — ______ the whole file into memory would crash your program.",
+     "a": "reading",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) predict the exact file pointer position after a sequence of read/write/seek/tell operations on both text and binary files, and (2) write a Python program that uses seek() and tell() to implement random-access record update in a binary file without rewriting the entire file.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you have a 500 MB log file and need to read only the last 10 lines — reading the whole file into memory would crash your program.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

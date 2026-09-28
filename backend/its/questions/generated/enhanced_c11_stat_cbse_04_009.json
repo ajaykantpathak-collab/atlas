@@ -34,6 +34,26 @@
      "q": "Design a time series data set (minimum 8 time points) for two related economic variables (e.g., production and inventory) such that when plotted on the same arithmetic line graph, the lines cross exactly twice. Explain what economic story the two crossings tell.",
      "a": "Example: Quarterly data (₹ crore): Q1: Prod=100, Inv=120; Q2: Prod=130, Inv=110 (cross 1: production overtakes inventory); Q3: Prod=140, Inv=100; Q4: Prod=135, Inv=115; Q5: Prod=120, Inv=130 (cross 2: inventory overtakes production); Q6: Prod=110, Inv=140; Q7: Prod=125, Inv=120; Q8: Prod=140, Inv=110. Crossings indicate regime shifts: first crossing = production surge clears backlog; second = demand drop causes inventory pile-up. A poor answer (e.g., random numbers without crossing logic) reveals inability to connect graphical patterns to economic mechanisms — exactly what competency questions test.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An arithmetic line graph (time series graph) is a diagrammatic ______ where time (years, months, quarters, etc.) is plotted on the horizontal axis (x-axis) and the corresponding values of a variable are plotted on the vertical axis (y-axis), with consecutive points joined by straight line segments to reveal trends, cycles, and seasonal patterns in the data over time.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ India's trade data for a school project: \"How has the gap between India's exports and imports changed over 20 years?\" You have a table with yearly values of exports and imports in ₹ crores.",
+     "a": "analysing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing India's trade data for a school project: \"How has the gap between India's exports and imports changed over ______ years?\" You have a table with yearly values of exports and imports in ₹ crores.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) construct an accurate arithmetic line graph from raw time series data by choosing appropriate scales, plotting points correctly, and joining them with straight lines; (2) interpret the graph to identify long-term trends, cyclical fluctuations, and seasonal variations; (3) compare two or more variables on.",
+     "self_check": true
     }
    ]
   }

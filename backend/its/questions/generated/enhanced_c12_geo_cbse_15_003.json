@@ -34,6 +34,26 @@
      "q": "Design a map annotation exercise for a Class 12 board practical: mark the Golden Quadrilateral, North-South Corridor, and East-West Corridor on an outline map of India. Include (a) terminal cities, (b) two major intermediate cities per corridor, (c) one major port connected by each corridor, and (d) the approximate latitude/longitude of the GQ's geometric centre. Provide the expected answer key.",
      "a": "Expected annotation: (a) GQ terminals: Delhi (28.6°N, 77.2°E), Mumbai (19.1°N, 72.9°E), Chennai (13.1°N, 80.3°E), Kolkata (22.6°N, 88.4°E). NS Corridor: Srinagar (34.1°N, 74.8°E) to Kanniyakumari (8.1°N, 77.5°E) + Kochi (9.9°N, 76.3°E)–Salem (11.7°N, 78.1°E) spur. EW Corridor: Silchar (24.8°N, 92.8°E) to Porbandar (21.6°N, 69.6°E). (b) GQ intermediates: Jaipur, Pune, Bengaluru, Varanasi. NS: Nagpur, Hyderabad. EW: Guwahati, Raipur. (c) Ports: GQ → Mumbai (JNPT), Chennai, Kolkata (Haldia); NS → Kochi; EW → Porbandar, Kandla (nearby). (d) GQ geometric centre ≈ 20.5°N, 78.5°E (near Nagpur). A poor answer that places terminals incorrectly (e.g., Kolkata on west coast) or omits the Kochi-Salem spur shows the student cannot visualise the corridors as a connected network — a core map skill for board practicals.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Golden Quadrilateral (GQ) is a 5,846 km long 4/6-lane high-density national highway corridor connecting India's four ______ cities — Delhi, Mumbai, Chennai, and Kolkata — forming a quadrilateral that links major industrial, agricultural, and cultural centres.",
+     "a": "metropolitan",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: ask the student to recall a long-______ truck journey they have seen on NH-48 (Delhi–Mumbai arm) or NH-19 (Delhi–Kolkata arm) — notice the 4/6-lane divided carriageway, grade-separated interchanges, and toll plazas.",
+     "a": "distance",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) locate all four arms of the Golden Quadrilateral and both corridors on an outline map of India with correct terminal cities and major intermediate nodes, (2) explain how the corridors reduce logistics cost through distance minimisation and lane upgradation using the concept of generalised transport cost, and (3).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: ask the student to recall a long-distance truck journey they have seen on NH-48 (Delhi–Mumbai arm) or NH-19 (Delhi–Kolkata arm) — notice the 4/6-lane divided carriageway, grade-separated ______, and toll plazas.",
+     "a": "interchanges",
+     "self_check": true
     }
    ]
   }

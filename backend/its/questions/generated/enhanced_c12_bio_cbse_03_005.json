@@ -34,6 +34,26 @@
      "q": "Design a simple calendar-based method to identify the fertile window for a woman with regular 30-day cycles. Explain the biological basis for each step.",
      "a": "For a 30-day cycle, ovulation likely occurs around day 16 (30 - 14). The fertile window spans ~5 days before ovulation (sperm survival) to 1 day after (ovum viability), i.e., days 11-17. Steps: 1) Record cycle length for 6 months to confirm regularity. 2) Subtract 14 days from average cycle length to estimate ovulation day. 3) Mark 5 days before and 1 day after as fertile window. A poor answer (e.g., \"fertile window is days 1-5\" or \"ovulation always day 14\") shows ignorance of cycle-length variability, fixed luteal phase duration, or gamete survival times.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The menstrual cycle is a recurring ______ process in human females, averaging 28 days, characterized by cyclic changes in the ovary (follicular development, ovulation, corpus luteum formation) and uterus (endometrial proliferation, secretion, and shedding) driven by coordinated hormonal fluctuations of GnRH, FSH, LH, estrogen, and progesterone.",
+     "a": "physiological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking the student to recall the monthly bleeding they observe or hear about — this is the visible sign of the ______ phase.",
+     "a": "menstrual",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The menstrual cycle is a recurring physiological process in human females, averaging ______ days, characterized by cyclic changes in the ovary (follicular development, ovulation, corpus luteum formation) and uterus (endometrial proliferation, secretion, and shedding) driven by coordinated hormonal fluctuations of GnRH, FSH, LH, estrogen, and progesterone.",
+     "a": "28",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can sequentially describe the ovarian and uterine events of each phase (menstrual, follicular, ovulatory, luteal), name the dominant hormones and their sources for each phase, and explain the positive and negative feedback loops that regulate the cycle.",
+     "self_check": true
     }
    ]
   }

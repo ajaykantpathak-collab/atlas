@@ -34,6 +34,21 @@
      "q": "Design a logic circuit for a \"majority vote\" system with three inputs (A, B, C) where output Y = 1 if at least two inputs are 1. Write the Boolean expression first, then draw the circuit. Can you implement it using only two-input gates?",
      "a": "Expression: Y = (A·B) + (B·C) + (A·C). Circuit: three two-input AND gates (A·B, B·C, A·C) feeding a three-input OR gate. Using only two-input gates: replace three-input OR with two two-input OR gates — first OR combines (A·B) and (B·C), second OR combines that result with (A·C). Total: 3 AND + 2 OR = 5 two-input gates. A poor answer using a three-input OR gate directly violates the \"only two-input gates\" constraint; one missing the (A·C) term fails the majority condition for A=1,B=0,C=1.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Boolean expression is a logical statement composed of Boolean variables (0/1), constants (0/1), and Boolean operators (AND, OR, NOT) that evaluates to a single Boolean value; a logic circuit is the physical or diagrammatic ______ of a Boolean expression using logic gates (AND, OR, NOT) where each gate corresponds to an operator and signal flow follows operator precedence.",
+     "a": "implementation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're designing a security system for a school lab: the alarm should trigger only when (motion sensor AND door sensor) OR (window sensor AND NOT _______mode).",
+     "a": "maintenance",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) convert any given Boolean expression into its equivalent logic circuit diagram using correct gate symbols and signal flow, and (2) derive the Boolean expression from a given logic circuit diagram by tracing signal paths and applying operator precedence, with zero errors in gate representation or.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a random experiment that has exactly 12 equally likely outcomes. Describe the experiment and list its sample space.",
      "a": "Example: Roll a standard die (6 outcomes) and toss a coin (2 outcomes) → 6×2=12 outcomes. Sample space: {(1,H), (1,T), ..., (6,T)}. A poor answer like \"toss a coin 12 times\" shows misunderstanding of \"equally likely outcomes\" (that would have 2^12 outcomes). An answer like \"draw a card from a 12-card deck\" is valid but less creative. The key is the student can construct a compound experiment with a product of 12.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The sample space (denoted by S) of a random experiment is the set of all ______ outcomes of that experiment.",
+     "a": "possible",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are playing a board game where you must roll a ______ die and toss a coin to determine your move.",
+     "a": "standard",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can systematically list all possible outcomes for simple and compound random experiments (up to two stages) using set notation, tree diagrams, and tables, and can explain why each method ensures no outcome is missed or duplicated.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are playing a board game where you must roll a standard die and toss a coin to ______ your move.",
+     "a": "determine",
+     "self_check": true
     }
    ]
   }

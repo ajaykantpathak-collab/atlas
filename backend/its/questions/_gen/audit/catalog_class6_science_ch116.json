@@ -1,0 +1,188 @@
+{
+ "catalog": "catalog_class6_science_ch116.json",
+ "concepts": [
+  {
+   "id": "fesc.16.2.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "worm_weight = 95",
+      "worm_count = 220",
+      "daily_food = worm_weight * worm_count"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "worm_weight = 30",
+      "worm_count = 133",
+      "daily_food = worm_weight * worm_count"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "worm_weight = 14.8",
+      "worm_count = 493",
+      "daily_food = worm_weight * worm_count"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "worm_weight = 1.3",
+      "worm_count = 88",
+      "daily_food = worm_weight * worm_count"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "worm_weight = 178",
+      "worm_count = 446",
+      "daily_food = worm_weight * worm_count"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "worm_weight = 161",
+      "worm_count = 107",
+      "daily_food = worm_weight * worm_count"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "daily_food = worm_weight * worm_count"
+   ]
+  },
+  {
+   "id": "fesc.16.2.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "initial_worms = 45",
+      "months = 16.1",
+      "final_worms = initial_worms * (2 ** months)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "initial_worms = 65",
+      "months = 31",
+      "final_worms = initial_worms * (2 ** months)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "initial_worms = 71",
+      "months = 43",
+      "final_worms = initial_worms * (2 ** months)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "initial_worms = 21",
+      "months = 29",
+      "final_worms = initial_worms * (2 ** months)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "initial_worms = 33",
+      "months = 43",
+      "final_worms = initial_worms * (2 ** months)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "initial_worms = 11.5",
+      "months = 7.3",
+      "final_worms = initial_worms * (2 ** months)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "final_worms = initial_worms * (2 ** months)"
+   ]
+  },
+  {
+   "id": "fesc.16.3.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "buckets = 99",
+      "days = 58",
+      "members = 41",
+      "city_population = 4.7",
+      "total_city_waste = (buckets / (days * members)) * city_population"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "buckets = 11.7",
+      "days = 3.4",
+      "members = 53",
+      "city_population = 90",
+      "total_city_waste = (buckets / (days * members)) * city_population"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "buckets = 23",
+      "days = 72",
+      "members = 10.2",
+      "city_population = 52",
+      "total_city_waste = (buckets / (days * members)) * city_population"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "buckets = 15.5",
+      "days = 79",
+      "members = 88",
+      "city_population = 48",
+      "total_city_waste = (buckets / (days * members)) * city_population"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "buckets = 19.3",
+      "days = 87",
+      "members = 10.6",
+      "city_population = 53",
+      "total_city_waste = (buckets / (days * members)) * city_population"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "buckets = 51",
+      "days = 6.9",
+      "members = 7.1",
+      "city_population = 21",
+      "total_city_waste = (buckets / (days * members)) * city_population"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_city_waste = (buckets / (days * members)) * city_population"
+   ]
+  }
+ ]
+}

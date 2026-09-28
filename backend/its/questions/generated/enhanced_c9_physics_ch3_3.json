@@ -34,6 +34,26 @@
      "q": "Design a simple classroom experiment using only a toy car, a ramp, a spring balance, and a data logger (or stopwatch and meter scale) to demonstrate that an object in uniform motion experiences zero net force. Describe the procedure, measurements, and how you would conclude zero net force.",
      "a": "**Procedure:** 1) Set up a low-friction ramp (adjust angle until car moves at constant speed after a gentle push). 2) Attach spring balance to car parallel to ramp; pull gently to maintain constant velocity (verified by data logger: equal distances in equal time intervals). 3) Record spring balance reading (applied force F_app). 4) Repeat with different constant speeds.  \n**Conclusion:** At constant velocity, F_app balances friction/drag; net force = 0. If F_app is non-zero but velocity constant, net force is still zero because friction adjusts. A poor answer uses a horizontal surface with no friction compensation, or measures acceleration instead of constant velocity, failing to isolate the zero-net-force condition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Newton's First Law of Motion states that an object remains at rest or in uniform motion in a straight line unless acted upon by a net external force; this inherent property of matter to resist changes in its state of motion is called inertia, and it is ______ measured by the object's mass (SI unit: kilogram).",
+     "a": "quantitatively",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan continuing to rotate for several ______ after you switch it off — it doesn't stop instantly because of inertia.",
+     "a": "seconds",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why a passenger lurches forward when a bus brakes suddenly using the concept of inertia, and can identify the net force acting on an object moving at constant velocity in a real-world scenario (e.g., a car on a highway) as zero, justifying each force pair.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan ______ to rotate for several seconds after you switch it off — it doesn't stop instantly because of inertia.",
+     "a": "continuing",
+     "self_check": true
     }
    ]
   }

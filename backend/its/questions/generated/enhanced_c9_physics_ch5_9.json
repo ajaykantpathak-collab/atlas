@@ -34,6 +34,36 @@
      "q": "A student says: \"Ultrasound is dangerous because it is high-frequency.\" Evaluate this statement.",
      "a": "The statement is incorrect. Ultrasound is safe for medical use because it is a mechanical wave (sound), not ionizing radiation. High frequency alone does not make it dangerous — the energy depends on amplitude (intensity), not just frequency. Medical ultrasound uses controlled, low-intensity ultrasound that is safe for imaging, including pregnant women. Very high-intensity ultrasound can be used therapeutically (to break kidney stones) but is carefully controlled. The danger of sound depends on intensity (energy), not frequency alone. A wrong evaluation (agreeing with the student) confuses frequency with energy — high frequency does not mean high energy or danger.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ultrasound applications are the ______ and medical uses of sound waves with frequencies above 20,000 Hz (the human audible upper limit), including medical imaging (sonography, using 2-15 MHz frequencies to visualize internal organs and fetuses), industrial testing (flaw detection in metals), cleaning (removing dirt from delicate objects), and animal navigation (echolocation by bats and dolphins).",
+     "a": "technological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: They emit ______ (high-frequency sound, above 20,000 Hz) from their mouths or noses.",
+     "a": "ultrasound",
+     "self_check": true
+    },
+    {
+     "q": "What is Ultrasound applications? State the definition given in this lesson.",
+     "a": "Ultrasound applications are the technological and medical uses of sound waves with frequencies above 20,000 Hz (the human audible upper limit), including medical imaging (sonography, using 2-15 MHz frequencies to visualize internal organs and fetuses), industrial testing (flaw detection in metals), cleaning (removing dirt from delicate.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Other applications: (______) Industrial cleaning — ultrasound removes dirt from jewelry and delicate machine parts by creating tiny bubbles (cavitation) that scrub surfaces.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Ultrasound applications?",
+     "a": "Students think ultrasound is dangerous because it is \"high-frequency\" or \"radiation.\" The exact error: they conflate ultrasound (mechanical sound wave, safe) with X-rays (electromagnetic radiation, potentially harmful).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can define ultrasound, list four applications (medical imaging, industrial testing, cleaning, echolocation), explain how medical ultrasound imaging works (reflection of high-frequency sound off tissue boundaries), and describe one advantage of ultrasound over X-rays.",
+     "self_check": true
     }
    ]
   }

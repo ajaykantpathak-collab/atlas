@@ -34,6 +34,21 @@
      "q": "Create a scenario where a Trial Balance tallies perfectly but the financial statements prepared from it would be materially misstated. Describe the error and explain why the Trial Balance failed to catch it.",
      "a": "Scenario: A company purchases a delivery van for ₹8,00,000 but debits it to Vehicle Running Expenses (a revenue expense) instead of Vehicles Account (a fixed asset). Effect: Trial Balance tallies (both are debit entries). Consequence: Profit is understated by ₹8,00,000 (expense inflated), and Fixed Assets are understated by ₹8,00,000. The Trial Balance failed because it only checks *equality of totals*, not *correct classification* – this is an Error of Principle.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Trial Balance is a statement prepared at a specific date that lists the closing debit and credit balances of all ledger accounts to verify the ______ accuracy of posting under the double-entry system.",
+     "a": "arithmetical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just finished posting hundreds of ______ into ledger accounts for your family's small retail shop.",
+     "a": "transactions",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the three objectives of a Trial Balance in their own words, distinguish between a Trial Balance and a Balance Sheet, and identify whether a given account balance should appear in the debit or credit column based on its nature (asset/expense/receivable vs liability/income/payable).",
+     "self_check": true
     }
    ]
   }

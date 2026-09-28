@@ -34,6 +34,31 @@
      "q": "Design a locational decision matrix for a new cement plant in Madhya Pradesh. Choose four criteria, assign weights, and score two hypothetical sites: Site A (limestone mine adjacent, 50 km from railhead, coal 200 km away) and Site B (limestone 30 km away, on railway line, coal 100 km away). Justify your weights.",
      "a": "Expected answer: Criteria & weights – Limestone proximity 40%, Rail connectivity 25%, Coal access 20%, Water/land 15%. Site A scores high on limestone (9/10) but low on rail (4/10) and coal (5/10) → weighted 6.65. Site B scores moderate on limestone (7/10), high on rail (9/10), coal (7/10) → weighted 7.6. Site B wins. A poor answer uses equal weights or ignores that limestone transport cost dominates (highest weight).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Aluminium smelting is the ______ extraction of aluminium from alumina (derived from bauxite) requiring large amounts of cheap electricity, while the cement industry produces cement by calcining limestone with clay and gypsum, relying on bulky raw materials and coal for energy; both are mineral-based, weight-losing industries whose location is governed by raw material deposits, power availability, and transport connectivity.",
+     "a": "electrolytic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by showing a picture of a bauxite mine in Odisha and an ______ smelter in Koraput — ask why they are not at the same site.",
+     "a": "aluminium",
+     "self_check": true
+    },
+    {
+     "q": "What is Aluminium smelting? State the definition given in this lesson.",
+     "a": "Aluminium smelting is the electrolytic extraction of aluminium from alumina (derived from bauxite) requiring large amounts of cheap electricity, while the cement industry produces cement by calcining limestone with clay and gypsum, relying on bulky raw materials and coal for energy; both are mineral-based, weight-losing industries whose.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Aluminium smelting?",
+     "a": "Students think aluminium smelters are located near bauxite mines because \"raw material orientation\" is the universal rule for weight-losing industries.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) explain why aluminium smelters are located near hydroelectric/thermal power sources rather than bauxite mines, (2) list the three essential raw materials for cement and why the industry clusters around limestone belts, and (3) interpret a map of India to identify major aluminium and cement centres and justify their.",
+     "self_check": true
     }
    ]
   }

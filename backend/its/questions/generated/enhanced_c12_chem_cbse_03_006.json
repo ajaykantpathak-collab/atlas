@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using readily available materials (e.g., H₂O₂ solution, KI catalyst, gas syringe) to verify that the decomposition of H₂O₂ is first order. Outline the data you would collect, the graph you would plot, and how you would confirm first-order behaviour.",
      "a": "Collect volume of O₂ gas evolved at regular time intervals. Convert volume to [H₂O₂] remaining (using stoichiometry: 2H₂O₂ → 2H₂O + O₂). Plot ln[H₂O₂] vs *t*. If the plot is linear with a good correlation coefficient (R² ≈ 1), the reaction is first order. A poor answer (e.g., plotting volume directly vs time and expecting a straight line) shows misunderstanding of the concentration–time relationship for first-order kinetics.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The integrated rate equation for a first-order reaction relates the concentration of a reactant at any time *t* to its initial concentration and the rate constant *k*, derived by integrating the ______ rate law −d[R]/dt = k[R].",
+     "a": "differential",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bottle of hydrogen peroxide (H₂O₂) slowly decomposing at room temperature — the bubbles of O₂ appear gradually, and the reaction slows down as the H₂O₂ ______ drops.",
+     "a": "concentration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It is expressed as ln[R] = −kt + ln[R]₀ or equivalently k = (______/t) log([R]₀/[R]), where [R]₀ is the initial concentration and [R] is the concentration at time *t*.",
+     "a": "2.303",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) derive the integrated rate equation for a first-order reaction starting from the differential rate law, (2) use the logarithmic and exponential forms to calculate *k*, [R] at time *t*, or *t* for a given concentration change, (3) construct and interpret ln[R] vs *t* and log([R]₀/[R]) vs *t* graphs, and (4) apply the.",
+     "self_check": true
     }
    ]
   }

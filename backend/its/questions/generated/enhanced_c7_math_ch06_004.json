@@ -29,6 +29,21 @@
      "q": "Design a number pattern using a $3 \\times 3$ grid of numbers where each row and column adds up to 15, and write down the algebraic rule for the center number if the top-left corner is $x$.",
      "a": "The center number in a standard $3 \\times 3$ magic square with sum 15 is always 5, regardless of the top-left corner $x$, because the center is one-third of the magic constant (45 / 3 = 15 total across lines, center is average). A poor answer treats the grid as random without recognizing the invariant properties of magic squares.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Explorations in grids and arrays involves discovering numerical patterns and algebraic ______ by arranging numbers, dots, or objects in rows and columns.",
+     "a": "relationships",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ chairs in the school assembly hall for the annual sports day, placing them in rows and columns to form a neat rectangle.",
+     "a": "arranging",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can construct number patterns from 2D arrays, write algebraic expressions for the total number of items based on row and column dimensions, and predict values for larger grid sizes without drawing them completely.",
+     "self_check": true
     }
    ]
   }

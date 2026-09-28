@@ -34,6 +34,31 @@
      "q": "Design a simple laboratory activity (using only school-lab equipment: test tubes, Bunsen burner, conductivity tester, spatula, water, ethanol) to distinguish between an unknown ionic solid and an unknown covalent solid. List the steps, observations, and conclusions.",
      "a": "Expected answer: (1) Test solubility in water and ethanol – ionic dissolves in water, not ethanol; covalent may dissolve in ethanol, not water. (2) Heat small amount – ionic does not melt (high MP), covalent melts/burns easily. (3) Test conductivity of aqueous solution – ionic conducts, covalent does not. Conclusion: combine results to classify. A poor answer (e.g., only one test, or confusing melting with burning) reveals the student cannot design a multi-property investigation and relies on a single property.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ionic compounds are crystalline solids formed by ______ attraction between cations and anions, exhibiting high melting points, solubility in polar solvents, and electrical conductivity in molten or aqueous states.",
+     "a": "electrostatic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world ______: ask students why common salt (NaCl) dissolves in water and conducts electricity when dissolved, while sugar (C₁₂H₂₂O₁₁) dissolves but does not conduct, and why wax (covalent) melts on a warm spoon but salt does not.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "What is Ionic compounds? State the definition given in this lesson.",
+     "a": "Ionic compounds are crystalline solids formed by electrostatic attraction between cations and anions, exhibiting high melting points, solubility in polar solvents, and electrical conductivity in molten or aqueous states.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Ionic compounds?",
+     "a": "Students often think that because HCl is a gas and dissolves in water to conduct electricity, it is an ionic compound.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can predict the physical state, solubility, melting point, and electrical conductivity of an unknown compound given its bonding type (ionic or covalent), and justify each prediction by linking the macroscopic property to the microscopic structure (lattice vs discrete molecules, presence/absence of mobile ions).",
+     "self_check": true
     }
    ]
   }

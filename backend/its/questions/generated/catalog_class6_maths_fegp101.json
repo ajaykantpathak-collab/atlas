@@ -4,15 +4,8 @@
   {
    "id": "fegp.1.1",
    "title": "What is Mathematics: The Search for Patterns",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the circle formula with pi = 22/7",
-     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 28 gives 176",
-     "compute": "circ = 2 * 22 / 7 * 28"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 28 cm (take pi = 22/7).",
@@ -50,6 +43,8 @@
    "id": "fegp.1.2",
    "title": "Square Numbers from Odd Numbers",
    "converted_to_compute": false,
+   "formula": "square = n * n",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 27.",
@@ -87,6 +82,8 @@
    "id": "fegp.1.3",
    "title": "Triangular Number Rule",
    "converted_to_compute": false,
+   "formula": "tri_num = n * (n + 1) / 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "What is the 9th triangular number?",
@@ -123,15 +120,8 @@
   {
    "id": "fegp.1.4",
    "title": "Patterns in Shapes and Their Number Relations",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 5 gives 5",
-     "compute": "count = 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 5 elements. How many elements are in its identity relation (a, a) for every element?",

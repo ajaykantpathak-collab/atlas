@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using household items to demonstrate the transition from laminar to turbulent flow in a pipe. Specify what you would measure, how you would vary the control parameter, and how you would identify the transition point visually.",
      "a": "Use a transparent plastic tube (∼1 m long, ∼5 mm inner diameter) connected to a water tap. Add a few drops of ink or food coloring at the inlet using a syringe. Measure flow rate by collecting water in a measuring cylinder for 10 seconds at different tap openings. Vary the control parameter: flow velocity (by adjusting tap). Observe the dye streak: laminar = thin, straight line; transitional = wavy; turbulent = rapid mixing, dye disperses. Transition identified when dye streak first becomes wavy/broken. Measure corresponding flow rate, calculate Re. A poor answer lacks quantitative measurement, confuses control parameter, or cannot visually distinguish regimes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Reynolds number (Re) is a ______ quantity that predicts the flow regime of a fluid by comparing inertial forces to viscous forces, defined as Re = ρvD/η where ρ is fluid density (kg/m³), v is characteristic flow velocity (m/s), D is characteristic linear dimension such as pipe diameter (m), and η is dynamic viscosity (Pa·s); for pipe flow, laminar flow occurs when Re < 2000, transitional flow when 2000 < Re < 4000, and turbulent flow when Re > 4000.",
+     "a": "dimensionless",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Open a tap slowly and observe the smooth, glassy water stream — this is laminar flow where fluid particles move in ______ layers.",
+     "a": "parallel",
+     "self_check": true
+    },
+    {
+     "q": "What is Reynolds number (Re)? State the definition given in this lesson.",
+     "a": "Reynolds number (Re) is a dimensionless quantity that predicts the flow regime of a fluid by comparing inertial forces to viscous forces, defined as Re = ρvD/η where ρ is fluid density (kg/m³), v is characteristic flow velocity (m/s), D is characteristic linear dimension such as pipe diameter (m), and η is dynamic viscosity (Pa·s); for.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Reynolds number (Re)?",
+     "a": "Students believe that \"turbulent flow means fast flow\" and \"laminar flow means slow flow\" in absolute terms.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate Reynolds number for a given flow situation with correct unit analysis, determine the flow regime (laminar/transitional/turbulent), and explain physically why the transition occurs in terms of the competition between inertial and viscous effects.",
+     "self_check": true
     }
    ]
   }

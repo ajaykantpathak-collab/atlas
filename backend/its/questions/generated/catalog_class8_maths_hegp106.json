@@ -4,15 +4,9 @@
   {
    "id": "hegp.106.6.1",
    "title": "Distributive Property of Multiplication over Addition",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the integer operation sign rules",
-     "explain": "apply the integer operation sign rules: total = -2 + (-6) gives -8",
-     "compute": "total = -2 + (-6)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "a * (b + c) = a * b + a * c",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers -2 and -6.",
@@ -50,6 +44,8 @@
    "id": "hegp.106.6.2",
    "title": "How Products Increase When Factors Grow",
    "converted_to_compute": false,
+   "formula": "increase = a * n + b * m + m * n",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 4 when x = 8.",
@@ -87,6 +83,8 @@
    "id": "hegp.106.6.3",
    "title": "Square of a Sum (Identity 1A)",
    "converted_to_compute": false,
+   "formula": "value = a * a + 2 * a * b + b * b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 20.",
@@ -124,6 +122,8 @@
    "id": "hegp.106.6.4",
    "title": "Square of a Difference (Identity 1B)",
    "converted_to_compute": false,
+   "formula": "value = a * a - 2 * a * b + b * b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 14.",
@@ -161,6 +161,8 @@
    "id": "hegp.106.6.5",
    "title": "Sum Times Difference (Identity 1C)",
    "converted_to_compute": false,
+   "formula": "value = a * a - b * b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Use the identity (a + b)^2 = a^2 + 2ab + b^2 to find the square of 2 more than 12; report the value.",
@@ -197,15 +199,9 @@
   {
    "id": "hegp.106.6.6",
    "title": "Twice the Sum of Squares Pattern",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "square the given number using the stated square rule",
-     "explain": "square the given number using the stated square rule: sq = 32 ** 2 gives 1024",
-     "compute": "sq = 32 ** 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "2 * (a * a + b * b) = (a + b) * (a + b) + (a - b) * (a - b)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 32.",

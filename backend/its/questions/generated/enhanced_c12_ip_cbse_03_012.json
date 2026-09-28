@@ -34,6 +34,36 @@
      "q": "Design a minimal network security architecture for a school lab with 30 student PCs, one teacher PC, and a local file server. Specify: (a) firewall placement and rule set, (b) encryption requirements for file transfers, (c) one compensating control if the firewall fails open. Justify each choice.",
      "a": "(a) Firewall at lab gateway (router): default-deny inbound; allow outbound TCP 443, 22 (SFTP), 53 (DNS); allow teacher PC → student PCs on TCP 3389 (RDP) for monitoring. (b) Enforce SFTP (SSH) or HTTPS for file transfers — TLS 1.2+ with AES-GCM; disable plaintext FTP/SMBv1. (c) Compensating control: host-based firewall on each PC blocking all inbound except teacher IP on 3389. Justification: defense-in-depth; firewall failure open still leaves host firewall and encryption protecting data. A poor answer omits host-based control or suggests \"just use antivirus\" — showing lack of layered security thinking.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Network security basics encompass firewalls — hardware/software systems that monitor and control incoming/outgoing network traffic based on predetermined security rules — and encryption — the process of converting plaintext data into ciphertext using cryptographic algorithms and keys to ensure ______, integrity, and authenticity during transmission or storage.",
+     "a": "confidentiality",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're sending a ______ email from your school computer to a teacher — how does the network ensure no one reads or tampers with it en route?",
+     "a": "confidential",
+     "self_check": true
+    },
+    {
+     "q": "What is Network security basics encompass firewalls? State the definition given in this lesson.",
+     "a": "Network security basics encompass firewalls — hardware/software systems that monitor and control incoming/outgoing network traffic based on predetermined security rules — and encryption — the process of converting plaintext data into ciphertext using cryptographic algorithms and keys to ensure confidentiality, integrity, and authenticity.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then trace a HTTPS request: firewall permits TCP ______ → TLS handshake uses asymmetric crypto for key exchange → symmetric AES encrypts HTTP payload.",
+     "a": "443",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Network security basics encompass firewalls?",
+     "a": "Students believe \"firewall encrypts data\" or \"encryption blocks hackers.\" They confuse *access control* (firewall decides *whether* traffic passes) with *data protection* (encryption decides *what* the traffic reveals).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain how a stateful inspection firewall differs from a packet-filtering firewall, describe the roles of symmetric vs asymmetric encryption in a TLS handshake, and identify which layer of the OSI model each security mechanism operates at.",
+     "self_check": true
     }
    ]
   }

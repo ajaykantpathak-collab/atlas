@@ -54,7 +54,7 @@
     "why are skeletal muscles called voluntary",
     "justify why classification of muscle tissues matters"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -71,7 +71,16 @@
      "action": "verify muscle classification by location and regulation",
      "explain": "Confirm that skeletal muscles attach to bones for locomotion, visceral muscles line hollow organs for peristalsis, and cardiac muscles form the heart wall, validating the three-way classification by striation and control."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "body_muscle_mass = 0.45 * total_body_weight",
+     "compute": "body_muscle_mass = 0.45 * total_body_weight"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.117.3",
@@ -88,7 +97,7 @@
     "describe the arrangement of A and I bands",
     "what do you understand by structure of the sarcomere"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -105,7 +114,16 @@
      "action": "verify the sarcomere shortens during contraction",
      "explain": "Confirm that during contraction the I-band and H-zone narrow while the A-band stays constant, validating the sliding filament model where actin filaments slide over myosin toward the sarcomere center."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "sarcomere = I_half + A_band + I_half",
+     "compute": "sarcomere = I_half + A_band + I_half"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.117.4",
@@ -213,7 +231,16 @@
      "explain": "Perform the addition to confirm the vertebral column comprises 26 bones, validating the regional specialization along the body's main axis.",
      "compute": "total_v = 7 + 12 + 5 + 1 + 1"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_v = cervical + thoracic + lumbar + sacral + coccygeal",
+     "compute": "total_v = cervical + thoracic + lumbar + sacral + coccygeal"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.117.7",
@@ -256,7 +283,16 @@
      "explain": "Total ribs is the sum of all three types.",
      "compute": "total_ribs = true_ribs + false_ribs + floating_ribs"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_ribs = true_pairs * 2 + false_pairs * 2 + floating_pairs * 2",
+     "compute": "total_ribs = true_pairs * 2 + false_pairs * 2 + floating_pairs * 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.117.8",

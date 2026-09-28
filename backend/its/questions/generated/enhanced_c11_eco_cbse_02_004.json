@@ -34,6 +34,31 @@
      "q": "Design a land reform policy for a hypothetical state with 40% tenant cultivation, 15% landless laborers, and Gini coefficient of land ownership at 0.72. Specify: (a) ceiling limit formula, (b) tenancy registration mechanism, (c) one institutional innovation to prevent Benami transfers.",
      "a": "(a) Ceiling = 2×(average family holding) adjusted for irrigation: 10 hectares irrigated / 20 hectares rainfed. (b) Digital tenancy registry with Aadhaar-linked biometric verification, mandatory renewal every 3 years, dispute resolution in 60 days via gram nyayalayas. (c) Family-unit ceiling with joint liability: if Benami detected, entire family holding reverts to state. A poor answer proposes only \"strict laws\" without addressing enforcement incentives or digital infrastructure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Land reforms refer to deliberate policy measures to change the ownership, tenancy, and management patterns of agricultural land to eliminate exploitative ______, impose ceilings on landholdings, and confer ownership rights on actual tillers, thereby aligning incentives for productivity with equity objectives in a mixed economy framework.",
+     "a": "intermediaries",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you inherit a 50-acre farm in 1950s Uttar ______.",
+     "a": "Pradesh",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You don't till it yourself—you rent it to five tenant families who pay ______% of produce as rent.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the three components of land reforms (abolition of intermediaries, tenancy reforms, land ceiling), trace the causal chain from ownership structure to productivity incentives using the principal-agent framework, and evaluate why implementation failed in most states despite legislative intent, citing specific.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you inherit a 50-acre farm in 1950s Uttar Pradesh.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a text file content (show the exact characters including newlines as `\\n`) that would produce the same word count but different line counts when processed by `splitlines()` vs `readlines()`. Explain the discrepancy.",
      "a": "Content: `\"Line 1\\nLine 2\\n\"` (ends with newline).\n- `content.splitlines()` → `['Line 1', 'Line 2']` → 2 lines\n- `content.readlines()` → `['Line 1\\n', 'Line 2\\n']` → 2 lines (same here)\nBut for `\"Line 1\\nLine 2\"` (no trailing newline):\n- `splitlines()` → `['Line 1', 'Line 2']` → 2 lines\n- `readlines()` → `['Line 1\\n', 'Line 2']` → 2 lines (still same)\nActually, `splitlines()` and `readlines()` give same line count for all cases. The discrepancy arises with `split('\\n')`: `\"Line 1\\nLine 2\\n\".split('\\n')` → `['Line 1', 'Line 2', '']` → 3 lines (extra empty string). A good answer would demonstrate this confusion between `splitlines()` and `split('\\n')`. If a student cannot produce such an example, they don't grasp the subtle differences in line-splitting methods.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Practical file operations for counting words, lines, and characters involve reading a text file ______ and applying string processing techniques to compute three metrics: line count (number of newline-separated segments), word count (number of whitespace-delimited tokens), and character count (total number of characters including spaces and newlines or excluding them based on requirement).",
+     "a": "sequentially",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are given a text file diary.txt containing your daily journal entries and you want to know how many lines you wrote, how many words you used, and the total ______ count including spaces.",
+     "a": "character",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write a complete Python program that opens a text file using the with statement, reads its content appropriately, and correctly computes and prints the number of lines, words, and characters while handling edge cases like empty files, multiple spaces, and trailing newlines.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are given a text file diary.txt ______ your daily journal entries and you want to know how many lines you wrote, how many words you used, and the total character count including spaces.",
+     "a": "containing",
+     "self_check": true
     }
    ]
   }

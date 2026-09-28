@@ -34,6 +34,31 @@
      "q": "Design a simple security system using only 2-input logic gates that activates an alarm (output 1) when either a window sensor (W) OR a door sensor (D) is triggered, but NOT when both are triggered simultaneously (to avoid false alarms during testing). Draw the logic circuit diagram using standard gate symbols and write the Boolean expression.",
      "a": "The required behavior is XOR: Alarm = W ⊕ D = W'D + WD'. Circuit: two NOT gates, two AND gates, one OR gate (or a single XOR gate symbol). A poor answer (e.g., using OR gate only) shows the student didn't analyze the \"but NOT both\" condition, which is the defining characteristic of XOR.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A logic gate is an elementary building block of a digital circuit that performs a basic Boolean operation (AND, OR, NOT) on one or more binary inputs to produce a single binary output, represented by a distinct ______ symbol (ANSI/IEEE).",
+     "a": "standardized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"How does a computer decide ______ to turn on a pixel on your screen?",
+     "a": "whether",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have students trace the truth table for a ______-input AND gate by enumerating all four input combinations.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify and draw the standard symbols for all seven basic logic gates (AND, OR, NOT, NAND, NOR, XOR, XNOR), construct their truth tables, and explain the logical operation each gate performs.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"How does a ______ decide whether to turn on a pixel on your screen?",
+     "a": "computer",
+     "self_check": true
     }
    ]
   }

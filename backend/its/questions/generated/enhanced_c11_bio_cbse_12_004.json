@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using isolated mitochondria and a Clark-type oxygen electrode to demonstrate that pyruvate oxidation is coupled to NAD⁺ reduction and oxygen consumption. Specify the substrates, inhibitors, and expected traces.",
      "a": "Add isolated mitochondria to buffer with ADP, Pi, and pyruvate + malate (to generate NADH). Record O₂ consumption (steep slope). Then add rotenone (Complex I inhibitor): O₂ consumption stops, showing NADH oxidation drives respiration. Control: without pyruvate, no respiration. A poor design omits malate (needed for oxaloacetate to keep cycle turning) or fails to use an inhibitor to prove coupling.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Pyruvate oxidation (link reaction) is the mitochondrial matrix process where each 3-carbon pyruvate molecule from glycolysis undergoes oxidative ______ catalyzed by the pyruvate dehydrogenase complex, producing one 2-carbon acetyl-CoA, one CO₂, and one NADH + H⁺, thereby linking glycolysis to the citric acid cycle under aerobic conditions.",
+     "a": "decarboxylation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are watching a glucose molecule being broken down in a plant cell: after ______ in the cytoplasm, two pyruvate molecules are produced.",
+     "a": "glycolysis",
+     "self_check": true
+    },
+    {
+     "q": "What is Pyruvate oxidation (link reaction)? State the definition given in this lesson.",
+     "a": "Pyruvate oxidation (link reaction) is the mitochondrial matrix process where each 3-carbon pyruvate molecule from glycolysis undergoes oxidative decarboxylation catalyzed by the pyruvate dehydrogenase complex, producing one 2-carbon acetyl-CoA, one CO₂, and one NADH + H⁺, thereby linking glycolysis to the citric acid cycle under aerobic.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Pyruvate oxidation (link reaction)?",
+     "a": "Students often think pyruvate oxidation occurs in the cytoplasm because glycolysis does, or they confuse the pyruvate dehydrogenase complex (mitochondrial, aerobic, produces NADH + acetyl-CoA) with pyruvate decarboxylase (cytosolic, anaerobic, produces acetaldehyde + CO₂ in yeast).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the stepwise conversion of pyruvate to acetyl-CoA including the enzyme complex, cofactors, energy carriers produced, and the fate of carbon atoms, and can calculate the per-glucose yield of NADH and acetyl-CoA from this step.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Design a minimal network diagram for a school with three labs (each 25 PCs), an admin block (10 PCs), and a single 100 Mbps fiber internet connection. Label every device (hub/switch/router/repeater/gateway/modem) and justify each placement. Assume max cable run 100 m; labs are 80 m from the central rack.",
      "a": "**Expected answer criteria:**  \n- One **modem/ONT** at fiber termination (Layer 1).  \n- One **router** (Layer 3) connecting to modem, performing NAT/DHCP for the whole school.  \n- One **gateway** (Layer 4‑7) only if protocol translation is needed (e.g., legacy admin software); otherwise router suffices.  \n- A **core switch** (Layer 2) in the central rack uplinked to router.  \n- One **access switch per lab** (Layer 2) connected to core switch via 80 m runs (no repeater needed).  \n- Admin block similarly on an access switch.  \n- **No hubs** (obsolete, single collision domain).  \n- **Repeater** only if any run >100 m.  \nA poor answer uses hubs, omits the router, places repeater unnecessarily, or confuses gateway with router. This tests synthesis of all six devices in a realistic topology — a CUET/IPMAT case‑based pattern.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Network devices are hardware components that facilitate ______ and data transfer between computers and other devices in a computer network.",
+     "a": "communication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school computer lab has 30 PCs ______ to a single internet line.",
+     "a": "connected",
+     "self_check": true
+    },
+    {
+     "q": "What is Network devices? State the definition given in this lesson.",
+     "a": "Network devices are hardware components that facilitate communication and data transfer between computers and other devices in a computer network.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school computer lab has ______ PCs connected to a single internet line.",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Network devices?",
+     "a": "Students often write “switch forwards data based on IP address” or “router works on MAC address” — swapping the Layer 2/3 forwarding criteria.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) identify each device by its OSI layer and primary function, (2) differentiate between hub and switch, router and gateway, and modem vs. router in a given network scenario, and (3) select the appropriate device to solve a connectivity requirement (e.g., extend a LAN segment, connect two LANs, connect LAN to.",
+     "self_check": true
     }
    ]
   }

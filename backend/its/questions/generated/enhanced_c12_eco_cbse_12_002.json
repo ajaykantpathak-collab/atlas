@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_12_002",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_12_002",
+   "title": "c12_eco_cbse_12_002",
+   "questions": [
+    {
+     "q": "Define \"flexible exchange rate\" and state the two curves whose intersection determines it in the foreign exchange market.",
+     "a": "A flexible exchange rate is determined by market forces of demand and supply without central bank intervention. It is determined at the intersection of the **demand curve for foreign exchange** (downward sloping) and the **supply curve of foreign exchange** (upward sloping). A wrong answer (e.g., \"fixed by RBI\" or \"demand and supply of goods\") reveals confusion between exchange rate regimes or between goods market and forex market.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the demand curve for foreign exchange slopes downward. Use the example of an Indian importer buying US machinery.",
+     "a": "When the exchange rate (₹/$) rises, each dollar costs more rupees. The US machinery becomes more expensive in rupee terms, so Indian importers buy less of it → quantity of dollars demanded falls. This inverse relationship makes the demand curve downward sloping. A wrong answer (e.g., \"higher rate increases demand\") confuses the cost of foreign currency with the benefit — it ignores that a higher ₹/$ means **dearer** foreign goods, not cheaper.",
+     "self_check": true
+    },
+    {
+     "q": "Given: Demand for dollars: Qd = 100 – 2e; Supply of dollars: Qs = 20 + 3e, where e = ₹/$. Calculate the equilibrium exchange rate and equilibrium quantity of dollars traded.",
+     "a": "Set Qd = Qs: 100 – 2e = 20 + 3e → 80 = 5e → e* = ₹16/$. Substitute: Q* = 100 – 2(16) = 68 (or 20 + 3(16) = 68). Equilibrium: **₹16/$, 68 million dollars**. A wrong answer (e.g., e = 40) usually comes from sign errors: 100 – 2e = 20 + 3e → 100 – 20 = 3e – 2e → 80 = e. The student subtracted 2e incorrectly instead of adding 2e to both sides.",
+     "self_check": true
+    },
+    {
+     "q": "The RBI governor announces: \"We will let the rupee float freely.\" Next month, US interest rates rise sharply while Indian rates stay unchanged. Trace the effect on the ₹/$ exchange rate using demand-supply analysis. Show the direction of curve shifts and the new equilibrium.",
+     "a": "Higher US rates → Indian investors find US bonds more attractive → **demand for dollars increases** (D shifts right). Simultaneously, US investors find Indian bonds less attractive → **supply of dollars decreases** (S shifts left). Both shifts raise the equilibrium ₹/$ rate → **rupee depreciates**. A wrong answer (e.g., \"supply increases\") misses that foreign investors **reduce** purchases of Indian assets when home rates rise, so they supply fewer dollars.",
+     "self_check": true
+    },
+    {
+     "q": "\"Depreciation of the rupee always improves India's trade balance.\" Evaluate this statement. Under what condition might it fail?",
+     "a": "False. Depreciation makes exports cheaper and imports dearer, but the trade balance improves **only if the sum of price elasticities of demand for exports and imports exceeds 1** (Marshall-Lerner condition). If demand is inelastic (e.g., India imports oil, exports generic pharma), higher import prices in rupees may raise import spending more than export revenue rises → trade balance worsens initially (J-curve effect). A wrong answer ignores elasticity and assumes quantity responses are always large enough.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a numerical example where a rise in Indian income (Y) causes the rupee to depreciate, assuming a flexible exchange rate and no change in foreign income or interest rates. Specify the import function, initial equilibrium, and new equilibrium.",
+     "a": "Let initial: M = 20 + 0.1Y, X = 50 (autonomous), e = ₹/$. Forex market: Qd = M = 20 + 0.1Y; Qs = X = 50. Initial Y = 300 → Qd = 50 → e* clears at Qd=Qs=50. Now Y rises to 400 → Qd = 20 + 40 = 60 > Qs=50. Excess demand for dollars → e rises until Qd falls (via higher import cost) or Qs rises (via depreciation boosting exports). New equilibrium at higher e. A poor answer treats Y as shifting supply instead of demand, or assumes exports automatically rise with domestic income.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,31 @@
      "q": "Design a cosmid vector for cloning 40 kb inserts. Specify: (a) vector backbone size target, (b) essential elements to include, (c) one modification to reduce vector self-ligation during library construction.",
      "a": "(a) Target backbone ≤ 12 kb (since 52 – 40 = 12 kb max backbone). (b) Essential elements: **cos site**, **plasmid ori** (e.g., pMB1/ColE1), **selectable marker** (e.g., *ampR* or *kanR*), **multiple cloning site (MCS)** flanked by rare-cutting sites (e.g., *NotI*), and **origin of transfer (oriT)** if conjugation is needed. (c) **Dephosphorylate vector** with alkaline phosphatase after restriction digest, or use **two different restriction enzymes** for directional cloning. A poor design (e.g., backbone 15 kb, no dephosphorylation) reveals the student does not work backward from packaging limits or ignores practical ligation efficiency.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cosmids are hybrid cloning vectors that combine the cos (cohesive end) site from ______ λ for in vitro packaging into phage heads with a plasmid origin of replication (ori) and selectable marker for propagation as a plasmid in *E. coli*, enabling cloning of large DNA inserts (35–45 kb).",
+     "a": "bacteriophage",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to clone a human gene that is 40 kb long — too large for a ______ plasmid (max ~10 kb) but too small to justify a BAC.",
+     "a": "standard",
+     "self_check": true
+    },
+    {
+     "q": "What is Cosmids? State the definition given in this lesson.",
+     "a": "Cosmids are hybrid cloning vectors that combine the cos (cohesive end) site from bacteriophage λ for in vitro packaging into phage heads with a plasmid origin of replication (ori) and selectable marker for propagation as a plasmid in *E. coli*, enabling cloning of large DNA inserts (35–45 kb).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Cosmids?",
+     "a": "Students often think cosmids are a type of bacteriophage because they use λ packaging.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) diagram a cosmid vector labeling cos site, plasmid ori, selectable marker, and multiple cloning site, and (2) calculate the maximum insert size given the packaging constraints of λ phage heads (37–52 kb total) and vector backbone size.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_01_001",
+   "title": "c11_leg_cbse_01_001",
+   "questions": [
+    {
+     "q": "Define 'State' in the political science sense and list its four essential elements.",
+     "a": "A State is a politically organized community with four essential elements: (1) Population — a permanent community of persons; (2) Territory — a defined geographical area; (3) Government — an organized political machinery; (4) Sovereignty — supreme internal authority and external independence. A wrong answer that omits sovereignty or conflates government with State reveals the student hasn't grasped that sovereignty is the distinguishing hallmark — without it, you have an autonomous region, not a State.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a government can change without the State ceasing to exist, using the distinction between State and Government.",
+     "a": "The State is the permanent political entity possessing sovereignty; Government is merely one of its four elements — the agency that exercises State power. When a government falls (e.g., election, coup), the State's population, territory, and sovereignty persist. A wrong answer claiming the State changes with the government confuses the agent (government) with the principal (State) and misses that sovereignty belongs to the State, not the government.",
+     "self_check": true
+    },
+    {
+     "q": "A territory 'Patria' has population (1 million), defined territory, and a government (Col. George), but no international recognition. Using the four elements, explain why Patria fails to qualify as a State under international law.",
+     "a": "Patria lacks external sovereignty — the freedom from external control and recognition by other States. International law treats recognition as evidence of external sovereignty; without it, Patria cannot enter treaties, join the UN, or claim equality with other States. A wrong answer focusing only on the three present elements ignores that sovereignty has two faces: internal (obedience within) and external (independence without). Both are essential.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Hobbes, Locke, and Rousseau on: (a) the state of nature, (b) the purpose of the social contract, and (c) the right to revolt.",
+     "a": "Hobbes: state of nature = war of all against all; contract creates absolute sovereign; no right to revolt (except self-preservation). Locke: state of nature = peace but inconvenience; contract creates limited government to protect life, liberty, property; right to revolt if trust breached. Rousseau: state of nature = bliss; contract creates general will; no revolt needed as sovereignty stays with people. A wrong answer merging them into 'social contract = democracy' misses Hobbes' authoritarian outcome and Locke's conditional government — critical for understanding modern constitutionalism.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: 'Article 12 of the Indian Constitution is not a Fundamental Right but defines the 'State' for Fundamental Rights.' Why did the framers include judiciary-exclusive functions (like judicial decisions) outside 'State' while including 'other authorities' like ONGC and LIC?",
+     "a": "Article 12 defines 'State' horizontally — the entities against whom Fundamental Rights can be enforced. Judiciary is excluded from 'State' in its judicial capacity to preserve independence (a court cannot violate Fundamental Rights by merely deciding a case), but included in administrative acts. 'Other authorities' (ONGC, LIC, BCCI) are included because they perform public functions with State backing. A wrong answer saying 'judiciary is not State at all' ignores the Rupa Ashok Hurra distinction: judicial acts ≠ State, administrative acts = State.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario where a body satisfies the political science definition of State but fails Article 12's test, and vice versa. Explain the divergence.",
+     "a": "Scenario A: Taiwan — has population, territory, government, sovereignty (political science State) but not part of Indian Union → not 'State' under Article 12. Scenario B: Delhi Metro Rail Corporation — no sovereignty, not a political community → not a political science State, but 'other authority' under Article 12 (public function, State control, public funding). Divergence: Political science defines State for international personality; Article 12 defines 'State' for vertical rights enforcement against public power. A poor answer treats both definitions as interchangeable, missing the purposive interpretation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

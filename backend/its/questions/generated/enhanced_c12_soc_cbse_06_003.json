@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_06_003",
+   "title": "c12_soc_cbse_06_003",
+   "questions": [
+    {
+     "q": "Define \"ascriptive identity\" and give two examples from the Indian context. Explain why ascriptive identities evoke stronger emotional attachment than achieved identities (like profession).",
+     "a": "Ascriptive identities are those assigned at birth without individual choice — e.g., caste, religion, language, region, kinship. Examples: being born into a Tamil-speaking family in Tamil Nadu; being born into a Dalit caste in Uttar Pradesh. They evoke stronger attachment because membership is unconditional, universal (everyone has them), and inescapable — even if one disowns them, society continues to identify one by these markers. Achieved identities (doctor, engineer) require demonstrated competence, are conditional, and can be lost; ascriptive identities are \"given\" and total, making perceived threats feel existential.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"India is a nation-state because it has one nation (Indian) and one state (Government of India). Pakistan failed because it had two nations (East/West) but one state.\" Identify the conceptual error in this statement using the sociological definitions of nation, state, and nation-state from the textbook.",
+     "a": "The error is treating \"nation\" as a singular cultural entity. Sociologically, a nation is a \"community of communities\" — India contains multiple nations (linguistic, religious, tribal) within one state. The \"one nation, one state\" model is a recent European ideal, not a universal reality. Pakistan's 1971 split occurred because the Punjabi/Urdu-speaking West Pakistani elite imposed a singular national identity (Urdu, Islam) on Bengali-speaking East Pakistan, denying their distinct linguistic nationhood. India avoided this by recognising linguistic nations (Tamil, Bengali, Marathi, etc.) as federal units within a single state — a \"state-nation\" not a classic nation-state.",
+     "self_check": true
+    },
+    {
+     "q": "The States Reorganisation Commission (1956) recommended linguistic states. Prime Minister Nehru initially opposed this, fearing \"further subdivision of India.\" Using the concept of \"state-nation\" (Box 6.2) and the Sri Lanka/Pakistan counter-examples (Box 6.3), explain why linguistic states strengthened Indian unity instead of weakening it.",
+     "a": "Linguistic states strengthened unity because they allowed cultural identities (language) to find political expression within the federal framework, preventing secessionist demands. The \"state-nation\" model (Box 6.2) enables citizens to identify as both Kannadiga AND Indian, Bengali AND Indian — multiple complementary identities. In Sri Lanka, imposing Sinhala as sole official language (1956) denied Tamil linguistic identity, triggering civil war (\"One language, two nations\"). In Pakistan, denying Bengali linguistic rights led to 1971 breakup. India's linguistic reorganisation proved \"Two languages, one nation\" — accommodation builds loyalty; suppression breeds alienation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare \"assimilationist\" and \"integrationist\" state policies toward cultural diversity (Box 6.1). Then evaluate: Does the Indian Constitution follow either model? Justify using Articles 29 and 30 and the secularism debate.",
+     "a": "Assimilationist policies force minorities to adopt the dominant group's culture (language, law, symbols) in public and private spheres. Integrationist policies allow minority cultures only in the private sphere, imposing a common national culture in public. India follows NEITHER. Articles 29(1) and 30(1) explicitly guarantee minorities the right to conserve their language/script/culture AND establish/administer educational institutions — in the PUBLIC sphere. The Indian state declares holidays for all religions, permits minority educational institutions, and recognises linguistic states. This is the \"state-nation\" model: multiple identities in public life, not relegated to private sphere. Secularism as \"principled distance\" (not strict separation) allows state engagement with all religions equally.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the argument: \"Special constitutional protections for minorities (Articles 29, 30) violate secularism because they give preferential treatment based on religion. True secularism requires identical treatment for all citizens regardless of community.\" Use Ambedkar's Constituent Assembly speech (Box 6.6) and the sociological definition of minority (disadvantage + collectivity) in your evaluation.",
+     "a": "The argument confuses formal equality (identical treatment) with substantive equality (addressing structural disadvantage). Ambedkar warned that minorities are an \"explosive force\" — denial of rights leads to state fragmentation (Europe's history, Ireland partition). Sociologically, a minority is not just numerically small but disadvantaged and forming a collectivity with group solidarity born of prejudice. Identical treatment in a Hindu-majority polity would effectively impose majority norms (e.g., Hindu personal law, Hindi language) on minorities. Articles 29-30 provide \"principled distance\" — special protection to level the playing field, not privilege. Without them, secularism becomes majoritarianism. Ambedkar: \"No minority in India has said 'Damn your safeguards, we don't want to be ruled by you'\" — minorities trusted the majority; safeguards honour that trust.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical federal arrangement for a diverse country (not India) with three major linguistic groups (A: 50%, B: 30%, C: 20%) and two religious minorities (X: 15%, Y: 5%) cutting across linguistic lines. Specify: (a) state boundaries, (b) language policy, (c) minority educational rights, (d) one civil society mechanism to hold the state accountable. Justify each choice using concepts from this chapter.",
+     "a": "(a) State boundaries: Three linguistic states (A, B, C) following the SRC principle — language as primary basis for federal units, allowing each group political autonomy. (b) Language policy: Each state uses its language for administration/education; a neutral link language (e.g., English) for inter-state/central communication — avoiding \"one language, one nation\" imposition (Sri Lanka lesson). (c) Minority rights: Articles 29-30 style protections — X and Y can establish schools teaching their language/religion in any state; state funds cannot discriminate against minority institutions. (d) Civil society mechanism: Independent RTI-type body + mandatory social audits for all development projects affecting minority areas, with representation from X and Y — ensures state accountability (Box 6.9) and prevents authoritarian drift (Section 6.4). Justification: Accommodation builds \"we-feeling\" (Box 6.2); suppression triggers \"explosive force\" (Ambedkar).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The nation-state is a political entity where a nation (a community of communities bound by shared political aspirations) coincides with a state (a set of political-legal ______ claiming monopoly over legitimate force in a territory).",
+     "a": "institutions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a policymaker in 1950s India: the country has just been partitioned on religious lines, and now ______ groups (Telugu, Marathi, Kannada) are demanding their own states — some even fasting unto death.",
+     "a": "linguistic",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish between nation, state, and nation-state using sociological criteria, and explain why the \"one nation, one state\" model is historically recent and not universal.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ in 1950s India: the country has just been partitioned on religious lines, and now linguistic groups (Telugu, Marathi, Kannada) are demanding their own states — some even fasting unto death.",
+     "a": "policymaker",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a policymaker in ______s India: the country has just been partitioned on religious lines, and now linguistic groups (Telugu, Marathi, Kannada) are demanding their own states — some even fasting unto death.",
+     "a": "1950",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

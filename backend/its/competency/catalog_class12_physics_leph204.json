@@ -243,7 +243,16 @@
      "explain": "the gap to the ground state is the target energy plus 13.6 eV",
      "compute": "excite_energy = final_energy + 13.6"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "excite_energy = E_n - E_1",
+     "compute": "excite_energy = E_n - E_1"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph204.12.4.4",
@@ -469,11 +478,29 @@
    "concept": "leph204.12.2.2.1",
    "question_type": "distance_of_closest_approach",
    "question_pattern": "An alpha particle of energy {alpha_energy_mev} MeV runs head-on at a gold nucleus of atomic number {atomic_z}. Find its distance of closest approach in metres.",
-   "extracted_variables": {"alpha_energy_mev": 7.7, "atomic_z": 79},
+   "extracted_variables": {
+    "alpha_energy_mev": 7.7,
+    "atomic_z": 79
+   },
    "solution_template": [
-    {"step": 1, "action": "convert MeV to joules", "explain": "one MeV is 1.6e-13 J", "compute": "alpha_energy_joule = alpha_energy_mev * 1.6e-13"},
-    {"step": 2, "action": "form the Coulomb numerator", "explain": "nine billion, factor two for the alpha, e squared, times Z", "compute": "coulomb_top = 9.0e9 * 2.0 * (1.6e-19 ** 2) * atomic_z"},
-    {"step": 3, "action": "divide by the kinetic energy", "explain": "the turning point of the head-on run", "compute": "closest_dist = coulomb_top / alpha_energy_joule"}
+    {
+     "step": 1,
+     "action": "convert MeV to joules",
+     "explain": "one MeV is 1.6e-13 J",
+     "compute": "alpha_energy_joule = alpha_energy_mev * 1.6e-13"
+    },
+    {
+     "step": 2,
+     "action": "form the Coulomb numerator",
+     "explain": "nine billion, factor two for the alpha, e squared, times Z",
+     "compute": "coulomb_top = 9.0e9 * 2.0 * (1.6e-19 ** 2) * atomic_z"
+    },
+    {
+     "step": 3,
+     "action": "divide by the kinetic energy",
+     "explain": "the turning point of the head-on run",
+     "compute": "closest_dist = coulomb_top / alpha_energy_joule"
+    }
    ]
   },
   {
@@ -482,10 +509,22 @@
    "concept": "leph204.12.4.2",
    "question_type": "bohr_level_energy",
    "question_pattern": "What energy does the hydrogen electron hold in the Bohr orbit with n = {level_n}?",
-   "extracted_variables": {"level_n": 2},
+   "extracted_variables": {
+    "level_n": 2
+   },
    "solution_template": [
-    {"step": 1, "action": "square the level", "explain": "n squared enters the denominator", "compute": "level_sq = level_n ** 2"},
-    {"step": 2, "action": "scale the ground depth", "explain": "E_n = -13.6 over n squared eV", "compute": "level_energy = -13.6 / level_sq"}
+    {
+     "step": 1,
+     "action": "square the level",
+     "explain": "n squared enters the denominator",
+     "compute": "level_sq = level_n ** 2"
+    },
+    {
+     "step": 2,
+     "action": "scale the ground depth",
+     "explain": "E_n = -13.6 over n squared eV",
+     "compute": "level_energy = -13.6 / level_sq"
+    }
    ]
   },
   {
@@ -494,10 +533,22 @@
    "concept": "leph204.12.4.4",
    "question_type": "bohr_orbit_radius",
    "question_pattern": "The innermost hydrogen orbit measures 5.3e-11 m. What is the orbit radius for level {level_n}?",
-   "extracted_variables": {"level_n": 2},
+   "extracted_variables": {
+    "level_n": 2
+   },
    "solution_template": [
-    {"step": 1, "action": "square the level", "explain": "radii grow as n squared", "compute": "level_sq = level_n ** 2"},
-    {"step": 2, "action": "scale the Bohr radius", "explain": "5.3e-11 m times n squared", "compute": "orbit_radius = 5.3e-11 * level_sq"}
+    {
+     "step": 1,
+     "action": "square the level",
+     "explain": "radii grow as n squared",
+     "compute": "level_sq = level_n ** 2"
+    },
+    {
+     "step": 2,
+     "action": "scale the Bohr radius",
+     "explain": "5.3e-11 m times n squared",
+     "compute": "orbit_radius = 5.3e-11 * level_sq"
+    }
    ]
   },
   {
@@ -506,13 +557,41 @@
    "concept": "leph204.12.5.2",
    "question_type": "transition_frequency",
    "question_pattern": "Hydrogen drops from level {level_hi} straight to the ground state (level {level_lo}). What is the frequency of the emitted photon?",
-   "extracted_variables": {"level_hi": 4, "level_lo": 1},
+   "extracted_variables": {
+    "level_hi": 4,
+    "level_lo": 1
+   },
    "solution_template": [
-    {"step": 1, "action": "energy of the upper level", "explain": "-13.6 over n i squared", "compute": "energy_upper = -13.6 / (level_hi ** 2)"},
-    {"step": 2, "action": "energy of the lower level", "explain": "-13.6 over n f squared", "compute": "energy_lower = -13.6 / (level_lo ** 2)"},
-    {"step": 3, "action": "gap in joules", "explain": "difference times 1.6e-19", "compute": "gap_joule = (energy_upper - energy_lower) * 1.6e-19"},
-    {"step": 4, "action": "fix Planck's constant", "explain": "h = 6.63e-34 joule second", "compute": "planck_h = 6.63e-34"},
-    {"step": 5, "action": "divide by h", "explain": "frequency = gap over Planck's constant", "compute": "photon_freq = gap_joule / planck_h"}
+    {
+     "step": 1,
+     "action": "energy of the upper level",
+     "explain": "-13.6 over n i squared",
+     "compute": "energy_upper = -13.6 / (level_hi ** 2)"
+    },
+    {
+     "step": 2,
+     "action": "energy of the lower level",
+     "explain": "-13.6 over n f squared",
+     "compute": "energy_lower = -13.6 / (level_lo ** 2)"
+    },
+    {
+     "step": 3,
+     "action": "gap in joules",
+     "explain": "difference times 1.6e-19",
+     "compute": "gap_joule = (energy_upper - energy_lower) * 1.6e-19"
+    },
+    {
+     "step": 4,
+     "action": "fix Planck's constant",
+     "explain": "h = 6.63e-34 joule second",
+     "compute": "planck_h = 6.63e-34"
+    },
+    {
+     "step": 5,
+     "action": "divide by h",
+     "explain": "frequency = gap over Planck's constant",
+     "compute": "photon_freq = gap_joule / planck_h"
+    }
    ]
   },
   {
@@ -521,11 +600,27 @@
    "concept": "leph204.12.4.6",
    "question_type": "macroscopic_quantum_number",
    "question_pattern": "Treat the earth as an orbiting mass of {mass} kg moving at {orbital_speed} m/s around a circle of radius {orbit_radius} m. What Bohr quantum number fits this orbit?",
-   "extracted_variables": {"mass": 6.0e+24, "orbital_speed": 3.0e+04, "orbit_radius": 1.5e+11},
+   "extracted_variables": {
+    "mass": 6e+24,
+    "orbital_speed": 30000.0,
+    "orbit_radius": 150000000000.0
+   },
    "solution_template": [
-    {"step": 1, "action": "orbital angular momentum", "explain": "for a circle the angular momentum is mass times speed times radius: 6e24 * 3e4 * 1.5e11 = 2.7e40 J s"},
-    {"step": 2, "action": "divide by the ladder step", "explain": "h over two pi is 1.05e-34 J s, so n = 2.7e40 / 1.05e-34"},
-    {"step": 3, "action": "read the astronomical size", "explain": "n lands near 2.6e74, so adjacent levels are indistinguishable and the orbit looks classical"}
+    {
+     "step": 1,
+     "action": "orbital angular momentum",
+     "explain": "for a circle the angular momentum is mass times speed times radius: 6e24 * 3e4 * 1.5e11 = 2.7e40 J s"
+    },
+    {
+     "step": 2,
+     "action": "divide by the ladder step",
+     "explain": "h over two pi is 1.05e-34 J s, so n = 2.7e40 / 1.05e-34"
+    },
+    {
+     "step": 3,
+     "action": "read the astronomical size",
+     "explain": "n lands near 2.6e74, so adjacent levels are indistinguishable and the orbit looks classical"
+    }
    ]
   }
  ],

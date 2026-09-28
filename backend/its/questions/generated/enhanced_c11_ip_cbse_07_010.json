@@ -34,6 +34,26 @@
      "q": "Design a real-world scenario (Indian context) requiring a WHERE clause that uses at least four different operator types (e.g., comparison, logical, BETWEEN, LIKE, IS NULL). Write the complete query and explain each condition's purpose.",
      "a": "Scenario: School library database BOOKS(B_ID, TITLE, AUTHOR, PRICE, CATEGORY, ISSUED_DATE). Find books priced between 200-500, category starting with 'Sci', not issued yet (ISSUED_DATE IS NULL), and author not 'Unknown'.\n```sql\nSELECT * FROM BOOKS \nWHERE PRICE BETWEEN 200 AND 500 \n  AND CATEGORY LIKE 'Sci%' \n  AND ISSUED_DATE IS NULL \n  AND AUTHOR != 'Unknown';\n```\nUses BETWEEN, LIKE, IS NULL, !=, AND. A poor answer uses only one operator type or fails to justify each condition, indicating inability to synthesize operators for realistic filtering — a key competency for board case-study questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The WHERE clause in SQL SELECT ______ filters rows from a table based on specified conditions using comparison operators (=, !=, <, >, <=, >=), logical operators (AND, OR, NOT), and special operators (BETWEEN, IN, LIKE, IS NULL) to retrieve only those tuples that satisfy the given predicate.",
+     "a": "statements",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class monitor and need to find all students who scored above 80 in ______ AND have attendance greater than 75% to recommend them for a scholarship.",
+     "a": "Mathematics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You have a spreadsheet with ______ rows — you cannot check manually.",
+     "a": "500",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write a SELECT query with a WHERE clause that correctly combines at least two different operator types (e.g., comparison and logical, or BETWEEN and LIKE) to extract a specific subset of rows from a given table schema, and explain the evaluation order of conditions.",
+     "self_check": true
     }
    ]
   }

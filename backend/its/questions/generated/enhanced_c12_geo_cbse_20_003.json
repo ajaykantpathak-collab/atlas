@@ -34,6 +34,31 @@
      "q": "Design a divided rectangular diagram to represent the following data for two years. Explain how you will choose the rectangle's total area, the scale, and the subdivision method to enable visual comparison of change over time.\n\n| Land Use Category | 1950-51 (% of total area) | 2018-19 (% of total area) |\n|-------------------|---------------------------|---------------------------|\n| Net Sown Area | 42 | 46 |\n| Forest | 14 | 22 |\n| Not available for cultivation | 17 | 14 |\n| Fallow Land | 10 | 8 |\n| Pasture & Tree | 9 | 5 |\n| Culturable Waste | 8 | 5 |",
      "a": "**Design:** Draw two rectangles of **equal total area** (e.g., 10 cm × 10 cm = 100 cm² each) side-by-side, one for each year. Since percentages sum to 100, 1 cm² = 1%. Subdivide each rectangle vertically into segments whose heights = percentage values (e.g., Net Sown 1950: 42 cm height, 2018: 46 cm height). Use identical colour/shading for same category across both rectangles. **Why this works:** Equal total area forces visual comparison of *proportional change* (forest 14→22 cm², net sown 42→46 cm²) without absolute magnitude distortion. A poor answer uses different total areas or stacks segments horizontally, making cross-year comparison impossible — a common error in board practical files.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Two-dimensional diagrams represent statistical data using geometric shapes where area (length × breadth) is ______ to the data magnitude.",
+     "a": "proportional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine opening a newspaper and seeing a colourful circle split into slices ______ \"Asia 56%\", \"Europe 20%\", \"America 15%\" — that's a pie diagram showing India's export destinations.",
+     "a": "labelled",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For pies, convert percentages to angles using ______° per percent.",
+     "a": "3.6",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently construct a rectangular diagram and a pie diagram from raw data, correctly calculate sector angles using the 3.6° constant for percentages, choose appropriate scales for rectangle areas, and interpret both diagrams to compare relative magnitudes and identify dominant categories.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine opening a newspaper and seeing a colourful circle split into slices labelled \"Asia 56%\", \"Europe 20%\", \"America 15%\" — that's a pie diagram showing India's export ______.",
+     "a": "destinations",
+     "self_check": true
     }
    ]
   }

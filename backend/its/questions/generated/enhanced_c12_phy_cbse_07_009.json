@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a low-voltage AC source (e.g., 6 V from a lab transformer), two coils of different turns, and a multimeter to verify the turns-ratio voltage relationship. List the steps, measurements, and how you would account for non-idealities.",
      "a": "Steps: (1) Wind two coils on a common iron rod (e.g., Np = 200, Ns = 100). (2) Connect primary to 6 V AC (measure Vp with multimeter). (3) Measure open-circuit secondary voltage Vs. (4) Compute Vs/Vp and compare with Ns/Np. (5) Repeat with a resistive load on secondary; measure loaded Vs and Is, compute efficiency. Non-idealities: voltage drop due to winding resistance and leakage flux causes loaded Vs to be lower than predicted; account by measuring primary current and estimating I²R loss. A poor answer omits load test or does not mention measuring primary current to check power balance.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A transformer is a static electrical device that transfers alternating current (AC) energy between two circuits through ______ induction, changing the voltage level while (ideally) conserving power.",
+     "a": "electromagnetic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a phone charger: it plugs into 230 V ______ but outputs 5 V for the battery.",
+     "a": "mains",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Efficiency = output power / input power × ______%.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) derive the voltage and current transformation ratios from Faraday's law of mutual induction, (2) calculate primary/secondary voltages, currents, and turns ratios for step-up and step-down transformers, (3) explain the four main energy losses (flux leakage, winding resistance, eddy currents, hysteresis) and how each is.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a phone charger: it plugs into 230 V mains but outputs 5 V for the battery.",
+     "a": "Observe",
+     "self_check": true
     }
    ]
   }

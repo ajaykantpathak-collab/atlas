@@ -1,0 +1,51 @@
+{
+ "catalog": "enhanced_c9_gram_cbse_84_001",
+ "concepts": [
+  {
+   "id": "enh:c9_gram_cbse_84_001",
+   "title": "c9_gram_cbse_84_001",
+   "questions": [
+    {
+     "q": "'___ European union' — a or an, and why?",
+     "a": "'a' — 'European' starts with a yoo- consonant SOUND. A wrong answer 'an' reveals letter-matching instead of sound-matching.",
+     "self_check": true
+    },
+    {
+     "q": "'He has ___ friends, so he feels lonely.' few or a few?",
+     "a": "'few' — 'lonely' signals the negative reading (almost none). A wrong answer 'a few' misses that the 'a' flips scarcity to sufficiency — attitude, not style.",
+     "self_check": true
+    },
+    {
+     "q": "Fix: 'Less students attended the match today.'",
+     "a": "'Fewer students' — countables take fewer; 'less' is for mass nouns. A wrong answer accepting 'less' shows the count/mass partition isn't built.",
+     "self_check": true
+    },
+    {
+     "q": "The board determiner set: a/an/the/zero by the specificity algorithm; a-vs-an by SOUND; the few/little attitude pair (few=almost none, a few=some); count-mass pairing (few/many vs little/much, fewer vs less); and fixed patterns (the+superlative, zero article for ______).",
+     "a": "school-as-purpose",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The board determiner set: a/an/the/zero by the ______ algorithm; a-vs-an by SOUND; the few/little attitude pair (few=almost none, a few=some); count-mass pairing (few/many vs little/much, fewer vs less); and fixed patterns (the+superlative, zero article for school-as-purpose).",
+     "a": "specificity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______: (1) specific/shared → the; (2) new + singular countable → a/an by sound; (3) general/plural/uncountable → zero.",
+     "a": "algorithm",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student runs the specificity algorithm, selects quantifiers by countability and attitude, and corrects the board-favourite errors (an university, less students, the honesty).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The algorithm: (1) specific/shared → the; (2) new + singular countable → a/an by sound; (3) general/plural/______ → zero.",
+     "a": "uncountable",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

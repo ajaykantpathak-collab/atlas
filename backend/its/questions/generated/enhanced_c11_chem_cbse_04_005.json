@@ -34,6 +34,21 @@
      "q": "Design a VSEPR-based argument to predict whether the hypothetical ion ICl₄⁻ would be square planar or tetrahedral. Justify your prediction with electron-domain counting and lone-pair placement.",
      "a": "Valence electrons: I(7) + 4×Cl(7) + 1(charge) = 36 e⁻. Lewis structure: I central, four I–Cl bonds, two lone pairs on I → 6 electron domains (steric number 6). Electron geometry = octahedral. Two lone pairs occupy opposite (axial) positions to minimize lp–lp repulsion (180° apart). Molecular geometry = square planar. A poor answer (e.g., \"tetrahedral because four bonds\") reveals failure to count lone pairs on the central atom or to apply octahedral lone-pair placement rule.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: VSEPR (Valence Shell Electron Pair Repulsion) theory predicts the three-______ geometry of molecules by assuming that electron pairs (bonding and lone pairs) around a central atom arrange themselves to minimize repulsion, with the order of repulsion being lone pair–lone pair > lone pair–bond pair > bond pair–bond pair.",
+     "a": "dimensional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Notice how a water ______ (H₂O) is bent while carbon dioxide (CO₂) is linear—both have three atoms but different shapes.",
+     "a": "molecule",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can determine the steric number, electron-pair geometry, molecular geometry, and approximate bond angles for any given molecule or ion (including expanded octet species) by systematically counting valence electrons, drawing the Lewis structure, identifying lone pairs, and applying VSEPR repulsion hierarchy to predict distortions.",
+     "self_check": true
     }
    ]
   }

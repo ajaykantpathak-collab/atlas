@@ -34,6 +34,31 @@
      "q": "Design a multimodal transport corridor for moving iron ore from Bellary (Karnataka) to a steel plant in Jamshedpur (Jharkhand) and then finished steel to Kolkata port for export. Justify mode choice at each leg.",
      "a": "Leg 1 (Bellary to Chennai/Krishnapatnam port): Rail — high-volume bulk over 400 km on broad gauge (South Western Railway). Leg 2 (Coastal shipping Chennai to Paradip/Haldia): Coastal vessel — cheapest for 1,000+ km bulk movement along east coast. Leg 3 (Paradip/Haldia to Jamshedpur): Rail — dedicated freight corridor link for 300 km inland haul. Leg 4 (Jamshedpur to Kolkata port): Rail/road combo — short 250 km, rail for bulk, road for flexible last-mile to docks. A poor answer uses only one mode (e.g., all rail) ignoring cost optimization: coastal shipping saves 60% cost over rail for long coastal hauls, and multimodal reduces congestion on saturated rail routes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Transport in India refers to the system of moving people, goods, and services across the country's diverse ______ regions using five primary modes — road, rail, water, air, and pipeline — each shaped by terrain, economic activity, and historical development, and collectively determining the spatial integration of markets, resources, and populations.",
+     "a": "physiographic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by observing a daily scene: a milk tanker from a village in Punjab reaches a processing plant in Delhi via highway, while coal from ______ moves to a thermal plant in Uttar Pradesh by rail, and petroleum from Assam travels through a pipeline to Barauni.",
+     "a": "Jharkhand",
+     "self_check": true
+    },
+    {
+     "q": "What is Transport in India? State the definition given in this lesson.",
+     "a": "Transport in India refers to the system of moving people, goods, and services across the country's diverse physiographic regions using five primary modes — road, rail, water, air, and pipeline — each shaped by terrain, economic activity, and historical development, and collectively determining the spatial integration of markets.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Transport in India?",
+     "a": "Students believe \"railways are the backbone of India's transport\" and therefore carry the majority of both passengers and freight.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why specific transport modes dominate in particular Indian regions (e.g., railways in the Northern Plains, pipelines in western India, air transport in the Northeast) by linking physiography, resource distribution, and economic needs, and can evaluate the relative share of each mode in freight and passenger.",
+     "self_check": true
     }
    ]
   }

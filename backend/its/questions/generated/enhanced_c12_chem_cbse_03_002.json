@@ -34,6 +34,11 @@
      "q": "Design a simple experiment using the initial-rates method to determine the rate law for the reaction between sodium thiosulfate (\\(\\text{Na}_2\\text{S}_2\\text{O}_3\\)) and hydrochloric acid (\\(\\text{HCl}\\)) which produces a sulfur precipitate. Outline the steps, what you would measure, and how you would analyze the data.",
      "a": "Steps: (1) Prepare several reaction mixtures with varying initial \\([\\text{Na}_2\\text{S}_2\\text{O}_3]\\) while keeping \\([\\text{HCl}]\\) constant, and vice versa. (2) Start each reaction by mixing, and simultaneously start a timer. (3) Measure the time \\(t\\) for the precipitate to obscure a marked cross beneath the flask (a proxy for a fixed amount of product formed). (4) Initial rate \\(\\propto 1/t\\). (5) Plot \\(\\log(\\text{rate})\\) vs \\(\\log[\\text{reactant}]\\); slope gives order. A poor answer omits controlling one reactant's concentration or uses only one trial per condition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how a pressure cooker whistles faster when you increase the flame — the rate of steam formation depends on ______ and the amount of water.",
+     "a": "temperature",
+     "self_check": true
     }
    ]
   }

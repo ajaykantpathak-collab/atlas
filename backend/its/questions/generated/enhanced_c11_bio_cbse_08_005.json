@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a fluorescent protein tag to demonstrate that the Golgi apparatus modifies proteins received from the ER. Describe the expected observations at 0, 15, and 60 minutes after synthesis.",
      "a": "Express a fluorescently tagged secretory protein (e.g., GFP-tagged albumin) in cultured cells. At 0 min: fluorescence concentrated in ER (reticular network). At 15 min: fluorescence appears in Golgi (perinuclear stacked structures) as vesicles arrive. At 60 min: fluorescence moves to cell periphery (secretory vesicles) and eventually outside the cell. If Golgi modification is blocked (e.g., by brefeldin A), fluorescence remains in ER. A poor design lacks a time course or control for ER-to-Golgi transport.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The endomembrane system is a coordinated network of membrane-bound organelles—endoplasmic reticulum (ER), Golgi apparatus, lysosomes, and vacuoles—that work together to synthesize, modify, package, and transport lipids and proteins, and to degrade ______ and waste.",
+     "a": "macromolecules",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you eat a spoonful of sugar: your pancreatic beta cells must rapidly produce and secrete insulin, a protein hormone, into your ______.",
+     "a": "bloodstream",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Connect this to the fluid mosaic model (node ______): all these organelles share a common membrane architecture.",
+     "a": "003",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can trace the complete pathway of a secretory protein from synthesis on RER ribosomes through Golgi modification to secretion, explain the functional differences between RER and SER, and describe how lysosomal enzymes are targeted to lysosomes via the Golgi.",
+     "self_check": true
     }
    ]
   }

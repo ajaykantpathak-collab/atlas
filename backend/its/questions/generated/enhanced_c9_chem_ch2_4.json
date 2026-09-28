@@ -34,6 +34,21 @@
      "q": "Design a thought experiment using Bohr's postulates to explain why a gas discharge tube emits discrete lines, not a continuous rainbow.",
      "a": "Electrons in gas atoms get excited to higher levels by electric current (energy absorption). They return to lower levels in specific jumps (n=3→2, 4→2, etc.). Each jump emits one photon of fixed energy → one color. Continuous rainbow would require electrons to lose energy in any amount, violating stationary orbit postulate. A poor answer describes prism splitting light; says \"electrons vibrate\"; or ignores the quantization of energy jumps.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Bohr's model proposes that electrons revolve around the nucleus in fixed circular paths called energy levels or shells (______ K, L, M, N or n=1,2,3,4...), where each level has a definite energy and electrons do not radiate energy while in these stationary orbits.",
+     "a": "designated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a neon tube light glowing in a dark room – ask why it emits ______ colors instead of white light.",
+     "a": "specific",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain Bohr's three postulates, correlate energy levels with principal quantum numbers (n), describe electron transitions between levels with energy absorption/emission, and justify why this model solved Rutherford's stability problem but fails for multi-electron atoms.",
+     "self_check": true
     }
    ]
   }

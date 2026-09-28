@@ -42,9 +42,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lines = 3"
-   ]
+   "steps_chain": []
   },
   {
    "id": "fegp.2.2",
@@ -87,9 +85,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "other = 90 - 71"
-   ]
+   "steps_chain": []
   },
   {
    "id": "fegp.2.3",
@@ -175,9 +171,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "circ = 2 * 22 / 7 * 35"
-   ]
+   "steps_chain": []
   }
  ]
 }

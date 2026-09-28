@@ -34,6 +34,31 @@
      "q": "Design a locational decision matrix for a new integrated steel plant of 5 MTPA capacity in India. Choose four criteria (with weights), three candidate sites (one inland, one coastal, one near a port with slurry pipeline access), and justify the optimal choice using current freight equalization policy and carbon emission norms.",
      "a": "Criteria & weights: (1) Raw material assembly cost (30%), (2) Product distribution cost to major markets (25%), (3) Carbon intensity per tonne steel (20%), (4) Infrastructure readiness (water, power, rail/port) (25%). Candidate sites: (A) Sundargarh, Odisha (inland, near iron ore & coal), (B) Kakinada, Andhra Pradesh (coastal, port, imported coal), (C) Paradip, Odisha (port + slurry pipeline from Bailadila). Optimal: Paradip scores high on (1) via pipeline (lowest tonne-km for ore), (2) via coastal shipping to east/south markets, (3) potential for hydrogen-based DRI using renewable power, (4) existing port and industrial infrastructure. A poor answer assigns equal weights or ignores carbon norms, failing to integrate policy (National Steel Policy 2017, PAT scheme) and technology trends — a gap that costs marks in competency-based board questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mineral-based industries are ______ sectors that use mineral ores and fossil fuels as primary raw materials; the iron and steel industry converts iron ore, coking coal, and limestone into pig iron and steel through blast furnace and basic oxygen furnace processes, while the petrochemical industry cracks crude oil and natural gas fractions to produce ethylene, propylene, benzene, and downstream polymers, synthetic fibers, plastics, and fertilizers.",
+     "a": "manufacturing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a freight train loaded with iron ore from Odisha moving toward a steel plant in ______ — this visible movement illustrates the core geographical principle: mineral-based industries locate where the cost of assembling heavy, weight-losing raw materials is minimized.",
+     "a": "Chhattisgarh",
+     "self_check": true
+    },
+    {
+     "q": "What is Mineral-based industries? State the definition given in this lesson.",
+     "a": "Mineral-based industries are manufacturing sectors that use mineral ores and fossil fuels as primary raw materials; the iron and steel industry converts iron ore, coking coal, and limestone into pig iron and steel through blast furnace and basic oxygen furnace processes, while the petrochemical industry cracks crude oil and natural gas.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Mineral-based industries?",
+     "a": "Students often believe that the iron and steel industry locates solely at the iron ore source because 'iron ore is the main raw material'.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the locational factors for iron and steel and petrochemical plants using specific Indian examples, compare the raw material-to-product weight loss ratios, and evaluate how transport infrastructure and policy changes (e.g., freight equalization, deregulation) have shifted industrial geography.",
+     "self_check": true
     }
    ]
   }

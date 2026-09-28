@@ -34,6 +34,26 @@
      "q": "Draft a one-paragraph proposal for a reformed judicial appointment system that balances independence with accountability. Your proposal must specify: (a) composition of the appointing body, (b) decision-making rule (consensus/majority/veto), (c) one transparency mechanism, and (d) one accountability check.",
      "a": "A strong answer: \"A 7-member Judicial Appointments Commission: CJI (chair), 2 senior SC judges, Law Minister, Leader of Opposition, and 2 eminent jurists nominated by a bipartisan panel. Decisions by 5:2 majority including at least 2 judges. All meetings minuted and published after 30 days. Annual report to Parliament on appointments made, criteria used, and diversity metrics.\" A poor answer copies the NJAC exactly or omits a transparency/accountability mechanism, showing inability to synthesize competing principles.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Collegium system is a judge-appointing-judge mechanism where the Chief Justice of India (CJI) and the four senior-most Supreme Court judges ______ recommend appointments and transfers of judges to the Supreme Court and High Courts, evolved through the Three Judges Cases (1981, 1993, 1998) interpreting Articles 124(2) and 217(1) of the Constitution, replacing the earlier executive-dominated appointment process to safeguard judicial independence.",
+     "a": "collectively",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you read a news headline: \"Supreme Court Collegium ______ 5 new judges; government sits on files for months.\" You wonder: who really decides who becomes a judge?",
+     "a": "recommends",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you read a news headline: \"Supreme Court Collegium recommends ______ new judges; government sits on files for months.\" You wonder: who really decides who becomes a judge?",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the constitutional evolution from executive appointment to the Collegium system through the Three Judges Cases, distinguish between the roles of the executive and judiciary in appointments, and evaluate the criticisms of opacity and lack of accountability against the principle of judicial independence.",
+     "self_check": true
     }
    ]
   }

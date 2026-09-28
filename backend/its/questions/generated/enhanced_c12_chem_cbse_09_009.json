@@ -34,6 +34,31 @@
      "q": "Design a three-step synthesis starting from aniline to prepare 1,3,5-tribromobenzene. Write the reagents and conditions for each step. Explain why direct bromination of aniline does not give this product.",
      "a": "Step 1: Diazotise aniline (NaNO₂/HCl, 273–278 K) → benzenediazonium chloride. Step 2: Replace –N₂⁺ with –H using H₃PO₂ (or ethanol) → benzene. Step 3: Brominate benzene with Br₂/FeBr₃ (or Br₂/UV) → 1,3,5-tribromobenzene (requires excess Br₂ and catalyst). Direct bromination of aniline gives 2,4,6-tribromoaniline because –NH₂ is strongly activating; the diazonium route removes the activating group first. A wrong sequence (e.g., brominating first) shows inability to plan synthesis using diazonium chemistry as a protecting-group-like strategy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ salts are a class of organic compounds with the general formula Ar–N₂⁺X⁻ (where Ar is an aryl group and X⁻ is an anion such as Cl⁻, Br⁻, HSO₄⁻, BF₄⁻).",
+     "a": "Diazonium",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bottle of aniline in the laboratory — it is a colourless liquid that turns brown on exposure to air due to ______.",
+     "a": "oxidation",
+     "self_check": true
+    },
+    {
+     "q": "What is Diazonium salts? State the definition given in this lesson.",
+     "a": "Diazonium salts are a class of organic compounds with the general formula Ar–N₂⁺X⁻ (where Ar is an aryl group and X⁻ is an anion such as Cl⁻, Br⁻, HSO₄⁻, BF₄⁻).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Diazonium salts?",
+     "a": "Students often think that the diazonium group (–N₂⁺) can be directly replaced by –NO₂ by simply adding NaNO₂/Cu (like Sandmeyer).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) write the balanced chemical equation for the preparation of benzenediazonium chloride from aniline, including the role of NaNO₂/HCl and temperature control; (2) predict the product(s) of a given diazonium salt reaction (Sandmeyer, Gattermann, replacement by I⁻, F⁻, H, OH, NO₂, or coupling) and write the.",
+     "self_check": true
     }
    ]
   }

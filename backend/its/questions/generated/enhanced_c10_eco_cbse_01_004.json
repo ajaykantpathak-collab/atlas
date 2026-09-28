@@ -34,6 +34,21 @@
      "q": "Design a 3-step method for a student to compare the economic development of any two Indian states using only government-published data (NSO, RBI, Census). Specify the exact data points needed and the calculation.",
      "a": "Step 1: Obtain latest NSDP (at current prices) for both states from RBI's \"State-wise GDP\" tables.\nStep 2: Obtain latest population estimates for both states from Census/NSO projections.\nStep 3: Calculate PCI = NSDP / Population for each; rank states by PCI. Also note year of data for comparability.\nA poor answer (vague steps, missing data sources, or using GDP instead of NSDP) shows the student cannot operationalise the concept with real Indian data sources — a skill CBSE expects in competency questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Per Capita Income (PCI) of a state is the average income earned per person in that state during a given year, ______ by dividing the state's Net State Domestic Product (NSDP) by its total population.",
+     "a": "calculated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are comparing two states: ______ (large economy, large population) and Goa (small economy, small population).",
+     "a": "Maharashtra",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate Per Capita Income from given NSDP and population data, rank states by PCI, and explain why a state with higher total income may have lower PCI than another state, using correct units (rupees per annum).",
+     "self_check": true
     }
    ]
   }

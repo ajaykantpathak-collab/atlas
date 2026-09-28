@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_06_009",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_06_009",
+   "title": "c12_soc_cbse_06_009",
+   "questions": [
+    {
+     "q": "Define \"minority\" in the sociological sense used in the NCERT textbook. How does it differ from a purely numerical definition?",
+     "a": "A sociological minority is a relatively small, disadvantaged group with a strong sense of collective solidarity (collectivity) formed through shared experience of prejudice/discrimination. A purely numerical minority (e.g., left-handed people) lacks this collectivity and disadvantage. **Wrong answer reveals:** Student conflates statistical minority with sociological minority, missing the crucial link between disadvantage and group consciousness that justifies special constitutional protection.",
+     "self_check": true
+    },
+    {
+     "q": "Article 29(1) guarantees the right to \"conserve\" language, script, or culture. A student argues this means a minority community can *compel* the state to fund its cultural institutions. Is this correct? Explain using the text of Article 29(1) and 30(2).",
+     "a": "No. Article 29(1) is a *negative* right (non-interference by the state), not a positive entitlement to state funding. Article 30(2) explicitly prohibits discrimination *in granting aid* but does not mandate aid. **Wrong answer reveals:** Student misreads \"right to conserve\" as a positive claim on state resources, confusing non-interference (Article 29) with non-discriminatory access to state aid (Article 30(2)).",
+     "self_check": true
+    },
+    {
+     "q": "A linguistic minority group in State X wants to establish a school teaching entirely in their mother tongue. The state government denies permission, arguing the medium of instruction must be the state's official language. Which constitutional articles are violated, and what is the legal remedy?",
+     "a": "Violates Article 30(1) (right to establish/administer educational institutions of choice) and Article 29(1) (right to conserve language/script). Remedy: Writ petition under Article 32 (Supreme Court) or Article 226 (High Court) for mandamus directing permission. **Wrong answer reveals:** Student cites only Article 29(2) (non-discrimination in admission) or Article 14 (equality), missing the specific institutional autonomy guarantee of Article 30(1) that is the core of minority educational rights.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"assimilationist\" and \"integrationist\" state strategies described in Box 6.1 with India's constitutional approach. Why does the NCERT argue India fits *neither* model perfectly?",
+     "a": "Assimilationist: forces uniform culture of dominant group. Integrationist: confines non-dominant cultures to private sphere. India's Constitution *explicitly recognises* minority religions/languages in public sphere (Articles 29, 30, 8th Schedule) and declares secularism as equal respect, not separation. Yet, implementation gaps and majoritarian pressures create an \"integrationist\" drift in practice. **Wrong answer reveals:** Student claims India is \"secular like France\" (strict separation) or \"assimilationist like Pakistan,\" missing the unique *state-nation* model where multiple complementary identities coexist in public institutions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the argument: \"Minority rights violate secularism because they give special privileges based on religion.\" Use the Indian concept of secularism (principled distance) and Ambedkar's Constituent Assembly speech (Box 6.6).",
+     "a": "The argument confuses Western \"wall of separation\" secularism with Indian \"principled distance\" secularism. Indian secularism permits *differential treatment* to achieve substantive equality: minorities need protection *because* the majority's culture dominates the public sphere by default. Ambedkar warned minorities are an \"explosive force\" if unprotected — protection prevents fragmentation, it doesn't constitute appeasement. **Wrong answer reveals:** Student applies a Western liberal-individualist framework (uniform treatment = justice) to a context where the Constitution itself recognises group-differentiated rights as essential for national unity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical scenario where a religious minority's cultural practice conflicts with a fundamental right of an individual member (e.g., gender equality). How should the \"state-nation\" framework resolve this? Justify using the tension between Articles 25-28 and Articles 29-30.",
+     "a": "Scenario: A minority religious school (Art. 30) enforces a dress code that bars female students from wearing hijab, citing institutional autonomy. A student claims Art. 25 (freedom of conscience) and Art. 15 (non-discrimination). Resolution: The \"state-nation\" framework requires *internal reform* via dialogue, not state imposition of majority norms. Courts balance institutional autonomy (Art. 30) with individual rights (Art. 25/15) by asking: Is the practice *essential* to the minority's identity? If yes, state should facilitate dialogue; if no, individual rights prevail. **Poor answer reveals:** Student either gives absolute priority to minority institution (ignoring internal dissent) or to individual right (ignoring collective cultural survival), missing the *dialogic, context-sensitive* balance the state-nation model demands.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Minority rights refer to the ______ safeguards (Articles 29 and 30) that protect the cultural, linguistic, and educational autonomy of numerically smaller and sociologically disadvantaged groups, ensuring they can conserve their distinct identity and establish/administer institutions of their choice without state discrimination.",
+     "a": "constitutional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a Parsi student in Mumbai who wants to attend a Zoroastrian-run school that teaches Avesta scriptures alongside the state ______, while a Muslim student in Kerala seeks admission to a government college but fears rejection due to her community's minority status.",
+     "a": "curriculum",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking: \"Why does the Constitution give *special* rights to minorities if it already guarantees equality (Article ______)?\" This puzzle reveals that formal equality can perpetuate substantive inequality when a dominant group's culture becomes the default \"national\" culture.",
+     "a": "14",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can distinguish between the sociological and numerical definitions of minority, explain how Articles 29 and 30 operationalize cultural/educational rights, and analyze the tension between uniform civil code debates and minority protection using the Indian state-nation framework.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a Parsi student in Mumbai who wants to attend a ______-run school that teaches Avesta scriptures alongside the state curriculum, while a Muslim student in Kerala seeks admission to a government college but fears rejection due to her community's minority status.",
+     "a": "Zoroastrian",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

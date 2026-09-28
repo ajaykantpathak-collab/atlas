@@ -34,6 +34,31 @@
      "q": "Design a 10-minute classroom activity for Class 9 students to discover why base-60 is better than base-10 for dividing hours, circles, and grain measures. Include a hands-on component and a reflection question.",
      "a": "Activity: Give each group 60 beads. Task 1: Divide into 2,3,4,5,6,10,12,15,20,30 equal piles – all work perfectly. Task 2: Try dividing 100 beads the same way – 3,6,12,15,30 fail. Task 3: Use a protractor (360°) and clock face to show 60-based divisions. Reflection: \"Why did Mesopotamians choose 60 when they counted on 10 fingers?\" (Answer: they used finger *segments* – 3 per finger × 4 fingers = 12 per hand, 5 repetitions = 60). A poor activity only lectures; a good one makes the divisibility tangible.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ sexagesimal (base-60) number system, developed c.",
+     "a": "Mesopotamian",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever wondered why an hour has 60 ______ instead of 100, or why a circle has 360 degrees?",
+     "a": "minutes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Mesopotamian sexagesimal (base-______) number system, developed c.",
+     "a": "60",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the structure and advantages of the sexagesimal system, convert simple numbers between sexagesimal and decimal notation, solve a practical problem using base-60 arithmetic, and trace the system's transmission to modern timekeeping and astronomy through Hellenistic, Roman, and Islamic intermediaries.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever ______ why an hour has 60 minutes instead of 100, or why a circle has 360 degrees?",
+     "a": "wondered",
+     "self_check": true
     }
    ]
   }

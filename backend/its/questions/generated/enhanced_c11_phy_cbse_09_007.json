@@ -34,6 +34,26 @@
      "q": "Design a simple classroom experiment using household items to demonstrate Bernoulli's principle. List materials, procedure, observation, and the physical explanation linking observation to P + ½ρv² + ρgh = constant.",
      "a": "Materials: Two empty light cans (or paper cups), drinking straw, thread, tape. Procedure: Suspend two cans vertically ~3 cm apart using threads taped to a ruler. Blow air through the straw between the cans. Observation: Cans move toward each other. Explanation: Air speed between cans increases ⇒ ½ρv² increases ⇒ by Bernoulli, P decreases between cans. Atmospheric pressure on outer sides pushes cans together. A poor answer (e.g., \"blow on paper and it lifts\" without explaining pressure difference) reveals inability to isolate variables (height constant, density constant) and connect observation to the specific energy terms in Bernoulli's equation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Bernoulli's principle states that for a steady, ______, non-viscous fluid flow along a streamline, the sum of pressure energy per unit volume (P), kinetic energy per unit volume (½ρv²), and potential energy per unit volume (ρgh) remains constant.",
+     "a": "incompressible",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe water ______ from a garden hose: when you partially cover the opening with your thumb, the water jets out faster and travels farther.",
+     "a": "flowing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive Bernoulli's equation from the work-energy theorem for a fluid element moving between two points in a pipe of varying cross-section and height, apply it to solve numerical problems involving unknown pressure, velocity, or height at different points, and explain the physical significance of each term in the context.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe water flowing from a garden hose: when you ______ cover the opening with your thumb, the water jets out faster and travels farther.",
+     "a": "partially",
+     "self_check": true
     }
    ]
   }

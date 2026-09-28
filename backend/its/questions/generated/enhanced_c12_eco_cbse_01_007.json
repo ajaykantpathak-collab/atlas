@@ -34,6 +34,31 @@
      "q": "Construct two statements about India's Public Distribution System (PDS): one positive, one normative. Ensure the positive statement uses a measurable variable (e.g., leakage rate, coverage) and the normative statement uses a value term (e.g., \"fair,\" \"adequate,\" \"must\").",
      "a": "**Sample positive:** \"PDS grain leakage in 2022-23 was estimated at 28% of total allocation.\" (Verifiable from NSSO/CAG reports.)  \n**Sample normative:** \"The government must universalise PDS to ensure food security as a fundamental right.\" (Uses \"must\" and \"fundamental right\" — untestable value commitments.)  \n**Poor answer reveals:** If the positive statement says \"PDS is inefficient\" (vague, unmeasurable) or the normative says \"PDS leakage is 28% so it should be reformed\" (mixes positive fact with normative conclusion without separation), the student hasn't mastered clean classification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Positive economics deals with objective, testable statements about how the economy works — describing \"what is\" or \"what will be\" based on cause-effect ______ that can be verified with data.",
+     "a": "relationships",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're reading a news headline: \"RBI raises repo rate to 6.5% to control inflation.\" A classmate says, \"That's good — high interest rates hurt poor borrowers.\" The first ______ is a factual claim about RBI's action and its stated goal; we can check RBI's website and inflation data to verify it.",
+     "a": "statement",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) classify any given economic statement as positive or normative with justification, (2) explain why a statement like \"India's unemployment rate is 7%\" is positive while \"The government *should* reduce unemployment\" is normative, and (3) identify when a policy debate mixes both types and separate the factual claims from.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're reading a news headline: \"RBI raises repo rate to 6.5% to control inflation.\" A ______ says, \"That's good — high interest rates hurt poor borrowers.\" The first statement is a factual claim about RBI's action and its stated goal; we can check RBI's website and inflation data to verify it.",
+     "a": "classmate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're reading a news headline: \"RBI raises repo rate to ______% to control inflation.\" A classmate says, \"That's good — high interest rates hurt poor borrowers.\" The first statement is a factual claim about RBI's action and its stated goal; we can check RBI's website and inflation data to verify it.",
+     "a": "6.5",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a minimal synthetic niche for maintaining human mesenchymal stem cells (MSCs) in vitro for 20 passages without spontaneous differentiation. List three components (one cellular, one ECM, one soluble factor) with specific concentrations or ratios, and explain how each mimics the in vivo perivascular niche.",
      "a": "Cellular: Co-culture with human umbilical vein endothelial cells (HUVECs) at 1:5 MSC:HUVEC ratio (mimics perivascular contact and paracrine SDF-1/CXCL12). ECM: Fibronectin-coated surface (10 μg/mL) + 1 kPa polyacrylamide gel (mimics vascular basement membrane stiffness). Soluble: FGF2 (10 ng/mL) + PDGF-BB (5 ng/mL) (mimics endothelial-derived mitogens). A poor answer lists generic \"growth factors\" without concentrations or mechanical cues, showing failure to integrate biophysical and biochemical niche dimensions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A stem cell niche is a specialized, dynamic ______ composed of cellular (supportive stromal cells, immune cells, endothelial cells) and non-cellular components (extracellular matrix, soluble signaling factors, physical cues like oxygen tension and mechanical forces) that precisely regulates stem cell fate — maintaining quiescence, enabling self-renewal, or triggering differentiation — through integrated signaling pathways (e.g., Notch, Wnt, BMP, Hedgehog) and metabolic constraints.",
+     "a": "microenvironment",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a stem cell sitting in your \"home\" — the bone ______.",
+     "a": "marrow",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) diagram a canonical stem cell niche (e.g., hematopoietic or intestinal) labeling at least four cellular and three non-cellular components, and (2) explain how altering one niche signal (e.g., Wnt inhibition) shifts the balance between self-renewal and differentiation in a specific stem cell type.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are a stem cell sitting in your \"home\" — the bone marrow.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

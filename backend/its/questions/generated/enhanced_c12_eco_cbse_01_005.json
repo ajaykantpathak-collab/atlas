@@ -34,6 +34,31 @@
      "q": "Construct a hypothetical PPF schedule for an economy producing smartphones and solar panels where the MRT is constant for the first 20 units of smartphones, then increases. Draw the PPF and label the kink point. Explain what the kink represents in terms of resource specificity.",
      "a": "Example schedule: (Smartphones, Solar Panels)\n(0, 100), (10, 90), (20, 80) — MRT = 1 constant (resources perfectly substitutable up to 20 smartphones).\nThen (30, 65), (40, 45), (50, 20) — MRT = 1.5, 2, 2.5 increasing.\nThe PPF has a straight segment from 0–20 smartphones, then bends concave. The kink at 20 smartphones marks the exhaustion of general-purpose resources (e.g., unskilled labour, generic factories) and the start of using specialized resources (e.g., clean rooms for semiconductors, rare-earth miners for panels). A student who draws a smooth curve throughout misses the kink that signals a change in resource homogeneity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Marginal Rate of ______ (MRT) is the rate at which one good must be sacrificed to produce one additional unit of another good, given fixed resources and technology.",
+     "a": "Transformation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ in Punjab who has 10 hectares of land and must decide how much wheat and rice to grow.",
+     "a": "farmer",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer in Punjab who has ______ hectares of land and must decide how much wheat and rice to grow.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate MRT from a given PPF schedule or graph, explain why the PPF is concave to the origin using the concept of increasing opportunity cost, and distinguish between constant, increasing, and decreasing MRT scenarios with economic reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer in Punjab who has 10 ______ of land and must decide how much wheat and rice to grow.",
+     "a": "hectares",
+     "self_check": true
     }
    ]
   }

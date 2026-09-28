@@ -4,15 +4,8 @@
   {
    "id": "gegp.5.1",
    "title": "Parallel Lines: Same Direction, Never Meeting",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 61 gives 29",
-     "compute": "other = 90 - 61"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 61 degrees, find the other.",
@@ -50,6 +43,8 @@
    "id": "gegp.5.2",
    "title": "Intersecting Lines and the Angles They Make",
    "converted_to_compute": false,
+   "formula": "x = 180 - known",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 78 degrees, find the other.",
@@ -86,15 +81,8 @@
   {
    "id": "gegp.5.3",
    "title": "Perpendicular Lines: The Right-Angle Crossing",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 67 gives 23",
-     "compute": "other = 90 - 67"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 67 degrees, find the other.",
@@ -131,15 +119,8 @@
   {
    "id": "gegp.5.4",
    "title": "Lines Across a Line: Transversals",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 78 gives 12",
-     "compute": "other = 90 - 78"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 78 degrees, find the other.",

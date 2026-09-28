@@ -57,7 +57,7 @@
     "what do we do after an experiment fails",
     "how does an activity settle a question"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -74,7 +74,16 @@
      "action": "sum up",
      "explain": "Give the overall picture in one sentence."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "method = observe + question + guess + test + conclude",
+     "compute": "method = observe + question + guess + test + conclude"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fecu.1.3",

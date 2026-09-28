@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using potassium permanganate (KMnO₄) and manganese(II) sulfate (MnSO₄) to demonstrate comproportionation in acidic medium. Predict the product and color change.",
      "a": "Mix acidified KMnO₄ (purple, Mn +7) with MnSO₄ (pale pink, Mn +2) in a test tube. They comproportionate to MnO₂ (brown precipitate, Mn +4) or Mn(III) species depending on conditions. Expected: 2MnO₄⁻ + 3Mn²⁺ + 2H₂O → 5MnO₂↓ + 4H⁺. Color changes from purple + pale pink → brown suspension. A poor answer (e.g., no reaction predicted) shows lack of knowledge of manganese redox chemistry.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is a redox reaction in which a single element in one oxidation state simultaneously undergoes oxidation and reduction to form two different products with higher and lower oxidation states respectively.",
+     "a": "Disproportionation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe ______ gas bubbled through cold dilute NaOH solution: it forms a mixture of NaCl and NaClO (bleach).",
+     "a": "chlorine",
+     "self_check": true
+    },
+    {
+     "q": "What is Disproportionation? State the definition given in this lesson.",
+     "a": "Disproportionation is a redox reaction in which a single element in one oxidation state simultaneously undergoes oxidation and reduction to form two different products with higher and lower oxidation states respectively.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: End with the balanced equation: Cl₂ + ______OH⁻ → Cl⁻ + ClO⁻ + H₂O.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Disproportionation?",
+     "a": "Students often think any reaction where the same element appears in reactants and products with different oxidation states is disproportionation.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can identify disproportionation/comproportionation reactions by analyzing oxidation state changes, write balanced equations for such reactions in acidic/basic media using half-reaction method, and predict whether a given species will disproportionate based on Latimer/Frost diagrams or standard electrode potentials.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a reusable function `safe_write(filename, data_lines)` that writes a list of strings to a file, guarantees closure on success or failure, and returns `True` if all lines were written and closed successfully, `False` otherwise. Do not use `with`.",
      "a": "```python\ndef safe_write(filename, data_lines):\n    f = None\n    try:\n        f = open(filename, \"w\")\n        for line in data_lines:\n            f.write(line + \"\\n\")\n        return True\n    except OSError:\n        return False\n    finally:\n        if f is not None:\n            try:\n                f.close()\n            except OSError:\n                pass  # Close failed, but we already returned False\n```\nA poor answer that returns inside `try` without `finally`, or closes before returning, reveals the student doesn't understand that `return` exits the function immediately — they treat `finally` as optional decoration rather than the *only* construct that executes after `return`. This is the exact pattern needed for board exam \"write a function to safely handle files\" questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The close() method terminates the ______ between a Python file object and the underlying operating system file, flushing any unwritten data from internal buffers to disk and releasing system resources (file descriptors, locks, and memory buffers) back to the OS.",
+     "a": "association",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you borrow a library book (open a file), read or write notes in it (read/write ______), but forget to return it (close).",
+     "a": "operations",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly invoke file_object.close() after every file operation sequence, explain the consequences of omitting it (data loss, resource leaks, file locking), and distinguish between explicit closure and automatic closure via context managers.",
+     "self_check": true
     }
    ]
   }

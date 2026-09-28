@@ -34,6 +34,31 @@
      "q": "Design a public health awareness poster for a rural Indian community that explains the link between three modifiable lifestyle factors and kidney stone prevention, using only local language concepts (no medical jargon).",
      "a": "A good poster would depict: (1) \"Drink 8-10 glasses of water daily\" (prevents concentrated urine), (2) \"Limit salt and pickles\" (reduces calcium excretion), (3) \"Eat seasonal vegetables, not just spinach/tomatoes daily\" (dietary oxalate variety). A poor answer uses terms like \"hypercalciuria\" or \"citrate supplementation\" which are inaccessible to the target audience.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Kidney stones (renal calculi) are hard, crystalline mineral deposits (commonly calcium oxalate or phosphate) that form within the renal pelvis or calyces due to ______ of urine, while kidney failure (renal failure) is the partial or complete loss of glomerular filtration function, leading to dangerous accumulation of nitrogenous wastes (uremia), electrolyte imbalance, and acid-base disturbances.",
+     "a": "supersaturation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking students if they have seen someone in their family or neighborhood who avoids drinking water during long bus journeys to avoid using ______ toilets.",
+     "a": "public",
+     "self_check": true
+    },
+    {
+     "q": "What is Kidney stones (renal calculi)? State the definition given in this lesson.",
+     "a": "Kidney stones (renal calculi) are hard, crystalline mineral deposits (commonly calcium oxalate or phosphate) that form within the renal pelvis or calyces due to supersaturation of urine, while kidney failure (renal failure) is the partial or complete loss of glomerular filtration function, leading to dangerous accumulation of nitrogenous.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Kidney stones (renal calculi)?",
+     "a": "Students believe hemodialysis \"cleans the blood completely\" like a filter, not realizing it only removes small solutes by diffusion down concentration gradients — it cannot remove protein-bound toxins, does not replicate tubular reabsorption/secretion, and fails to replace endocrine functions (EPO, vitamin D activation).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the pathophysiological mechanism of stone formation linking urine concentration and solubility product, describe the principle of hemodialysis using diffusion across a semipermeable membrane, and differentiate between acute and chronic renal failure based on reversibility and treatment options.",
+     "self_check": true
     }
    ]
   }

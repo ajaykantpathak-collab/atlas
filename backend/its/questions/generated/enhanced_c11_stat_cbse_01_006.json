@@ -34,6 +34,31 @@
      "q": "Create a hypothetical scenario where BOTH primary and secondary data are needed for the same research question. Define the question, specify which part uses which source, and explain why the combination strengthens the study.",
      "a": "Research question: \"Assess the effectiveness of the PM-KISAN scheme in doubling farmer income in Punjab.\" Use secondary data (agricultural census, scheme disbursement records) to establish baseline income trends and coverage. Use primary data (field survey of beneficiary farmers) to capture ground-level implementation gaps, leakages, and subjective well-being. The combination allows triangulation: secondary data provides scale and trend, primary data provides depth and context. A poor answer that uses both sources for the same variable (e.g., both for income) without complementarity shows misunderstanding of mixed-methods design.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Primary data refers to original data collected ______ by the investigator for a specific research purpose, while secondary data refers to data that has already been collected, processed, and published by some other agency for a different purpose and is being reused by the investigator.",
+     "a": "firsthand",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a Class 11 student tasked with finding out the average ______ pocket money of students in your school.",
+     "a": "monthly",
+     "self_check": true
+    },
+    {
+     "q": "What is Primary data? State the definition given in this lesson.",
+     "a": "Primary data refers to original data collected firsthand by the investigator for a specific research purpose, while secondary data refers to data that has already been collected, processed, and published by some other agency for a different purpose and is being reused by the investigator.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Primary data?",
+     "a": "Students often believe that primary data is inherently \"better\" or \"more accurate\" than secondary data, leading them to always prefer primary collection even when high-quality secondary data (like NSSO rounds or RBI statistics) would be more reliable, cost-effective, and timely.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify any given data source as primary or secondary, justify the choice of source for a specific economic investigation, and list at least two methods of collecting primary data and two sources of secondary data with their respective precautions.",
+     "self_check": true
     }
    ]
   }

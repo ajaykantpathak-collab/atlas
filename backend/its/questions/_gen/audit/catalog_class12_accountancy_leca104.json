@@ -1,0 +1,206 @@
+{
+ "catalog": "catalog_class12_accountancy_leca104.json",
+ "concepts": [
+  {
+   "id": "leca104.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "qtr_1_sales = 38",
+      "qtr_2_sales = 80",
+      "qtr_3_sales = 44",
+      "qtr_4_sales = 49",
+      "annual_total = qtr_1_sales + qtr_2_sales + qtr_3_sales + qtr_4_sales"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "qtr_1_sales = 82",
+      "qtr_2_sales = 49",
+      "qtr_3_sales = 87",
+      "qtr_4_sales = 72",
+      "annual_total = qtr_1_sales + qtr_2_sales + qtr_3_sales + qtr_4_sales"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "qtr_1_sales = 89",
+      "qtr_2_sales = 98",
+      "qtr_3_sales = 5.8",
+      "qtr_4_sales = 2.8",
+      "annual_total = qtr_1_sales + qtr_2_sales + qtr_3_sales + qtr_4_sales"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "qtr_1_sales = 82",
+      "qtr_2_sales = 19.5",
+      "qtr_3_sales = 89",
+      "qtr_4_sales = 33",
+      "annual_total = qtr_1_sales + qtr_2_sales + qtr_3_sales + qtr_4_sales"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "qtr_1_sales = 39",
+      "qtr_2_sales = 26",
+      "qtr_3_sales = 86",
+      "qtr_4_sales = 3.6",
+      "annual_total = qtr_1_sales + qtr_2_sales + qtr_3_sales + qtr_4_sales"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "qtr_1_sales = 32",
+      "qtr_2_sales = 21",
+      "qtr_3_sales = 23",
+      "qtr_4_sales = 69",
+      "annual_total = qtr_1_sales + qtr_2_sales + qtr_3_sales + qtr_4_sales"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "annual_total = qtr_1_sales + qtr_2_sales + qtr_3_sales + qtr_4_sales"
+   ]
+  },
+  {
+   "id": "leca104.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "slice_value = 115",
+      "whole_total = 21",
+      "slice_pct = slice_value / whole_total * 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "slice_value = 15.3",
+      "whole_total = 38",
+      "slice_pct = slice_value / whole_total * 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "slice_value = 96",
+      "whole_total = 57",
+      "slice_pct = slice_value / whole_total * 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "slice_value = 74",
+      "whole_total = 82",
+      "slice_pct = slice_value / whole_total * 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "slice_value = 7.4",
+      "whole_total = 85",
+      "slice_pct = slice_value / whole_total * 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "slice_value = 59",
+      "whole_total = 96",
+      "slice_pct = slice_value / whole_total * 100"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "slice_pct = slice_value / whole_total * 100"
+   ]
+  },
+  {
+   "id": "leca104.6",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "band_1_count = 4",
+      "band_2_count = 313",
+      "band_3_count = 299",
+      "band_4_count = 299",
+      "band_5_count = 395",
+      "students_total = band_1_count + band_2_count + band_3_count + band_4_count + band_5_count"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "band_1_count = 208",
+      "band_2_count = 48",
+      "band_3_count = 187",
+      "band_4_count = 332",
+      "band_5_count = 375",
+      "students_total = band_1_count + band_2_count + band_3_count + band_4_count + band_5_count"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "band_1_count = 216",
+      "band_2_count = 292",
+      "band_3_count = 233",
+      "band_4_count = 398",
+      "band_5_count = 469",
+      "students_total = band_1_count + band_2_count + band_3_count + band_4_count + band_5_count"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "band_1_count = 391",
+      "band_2_count = 452",
+      "band_3_count = 128",
+      "band_4_count = 492",
+      "band_5_count = 308",
+      "students_total = band_1_count + band_2_count + band_3_count + band_4_count + band_5_count"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "band_1_count = 231",
+      "band_2_count = 241",
+      "band_3_count = 267",
+      "band_4_count = 52",
+      "band_5_count = 320",
+      "students_total = band_1_count + band_2_count + band_3_count + band_4_count + band_5_count"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "band_1_count = 358",
+      "band_2_count = 20",
+      "band_3_count = 28",
+      "band_4_count = 254",
+      "band_5_count = 71",
+      "students_total = band_1_count + band_2_count + band_3_count + band_4_count + band_5_count"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "students_total = band_1_count + band_2_count + band_3_count + band_4_count + band_5_count"
+   ]
+  }
+ ]
+}

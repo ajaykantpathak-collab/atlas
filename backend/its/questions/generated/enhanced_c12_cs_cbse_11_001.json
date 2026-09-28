@@ -22,7 +22,7 @@
     },
     {
      "q": "Compare the results of `list1 = [1, 2]; list2 = [3, 4]; result = list1 + list2` versus `list1.extend(list2)`. What is the value of `list1` in each case after the operation?",
-     "a": "Correct answer: With `+`, `list1` remains [1, 2] because `+` creates a **new list** assigned to `result`. With `extend()`, `list1` becomes [1, 2, 3, 4] because `extend` mutates the original list in place and returns None. A student who says `list1` changes in both cases confuses concatenation (new object) with in-place mutation. This is a critical distinction for memory and aliasing questions in board exams.",
+     "a": "Correct answer: With `+`, `list1` remains [1, 2] because `+` creates a **new list** assigned to `result`. With `extend()`, `list1` becomes [1, 2, 3, 4] because `extend` mutates the original list in place and returns N/A. A student who says `list1` changes in both cases confuses concatenation (new object) with in-place mutation. This is a critical distinction for memory and aliasing questions in board exams.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Design a list creation expression using `list()` constructor that produces the list [0, 2, 4, 6, 8] without writing any literal numbers except 0 and 5. Explain your reasoning.",
      "a": "Expected answer: `list(range(0, 10, 2))` or `list(range(0, 5*2, 2))`. The `range(start, stop, step)` generates 0, 2, 4, 6, 8 (stop=10 excluded). Using `5*2` satisfies the \"only 0 and 5 as literals\" constraint. A poor answer like `list([0,2,4,6,8])` violates the constraint; `list(range(5))` gives [0,1,2,3,4] showing misunderstanding of step parameter. This tests ability to combine constructor, range, and arithmetic creatively.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A list in Python is an ordered, mutable sequence of ______ elements enclosed in square brackets, where each element is accessed by its zero-based index and the list can dynamically grow or shrink during program execution.",
+     "a": "heterogeneous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a contact manager app for your phone — you need to store names in a ______ where you can add, remove, or reorder contacts anytime.",
+     "a": "sequence",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight: lists are mutable — contacts[______] = \"Kabir\" actually changes the original list, unlike strings which are immutable.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) create lists using literal syntax and the list() constructor from various iterables, (2) correctly access and modify elements using positive and negative indices, (3) perform slicing with start, stop, and step parameters, and (4) predict the output of concatenation, repetition, and membership operations on.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a contact manager app for your phone — you need to store names in a sequence where you can add, remove, or reorder contacts anytime.",
+     "a": "building",
      "self_check": true
     }
    ]

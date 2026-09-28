@@ -34,6 +34,21 @@
      "q": "Design a mini-database scenario (two tables, 3-4 columns each, with a clear primary-foreign key relationship) where an INNER JOIN would return zero rows even though both tables have data. Write the CREATE TABLE statements, sample INSERTs, and the JOIN query. Explain why the result is empty.",
      "a": "Scenario: `LIBRARY_BOOK(BookID, Title)` and `ISSUE_RECORD(IssueID, BookID, StudentName)`. Insert two books (B1, B2) into LIBRARY_BOOK. Insert two issue records for BookID 'B3' and 'B4' (which don't exist in LIBRARY_BOOK) into ISSUE_RECORD. Query: `SELECT * FROM LIBRARY_BOOK JOIN ISSUE_RECORD ON LIBRARY_BOOK.BookID = ISSUE_RECORD.BookID;` Result: empty. Reason: No `BookID` value exists in both tables simultaneously. This tests understanding that INNER JOIN requires *actual value overlap* in the key columns, not just structural compatibility. A poor answer might create matching keys but forget to make them non-matching, or confuse with OUTER JOIN behavior.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An INNER JOIN combines rows from two tables by matching values in a common column (______ a primary key in one table and a foreign key in the other), returning only the rows where the join condition is satisfied in both tables.",
+     "a": "typically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a car showroom and have two separate lists: one list of all cars in ______ (with CarId, Model, Price) and another list of all sales made (with InvoiceNo, CarId, SalePrice).",
+     "a": "inventory",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write a correct INNER JOIN query using the explicit JOIN ...",
+     "self_check": true
     }
    ]
   }

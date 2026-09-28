@@ -34,6 +34,31 @@
      "q": "Create a realistic scenario where a business fulfills its legal responsibility but violates its ethical responsibility towards consumers. Identify the specific law complied with and the ethical principle breached.",
      "a": "Scenario: A food company labels a product \"Natural Fruit Juice\" legally because it contains 5% fruit pulp (meeting FSSAI minimum for the term \"fruit juice\"), but the dominant ingredient is sugar water with artificial flavours. Law complied: FSSAI labelling regulations. Ethical principle breached: Truthfulness in advertising / consumer right to information (not misleading). A poor answer gives a scenario where the law is actually violated, or cites a vague ethical principle without linking to consumer rights, showing inability to distinguish legal minimums from ethical expectations.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Social responsibility is a firm's voluntary obligation to act in ways that benefit society beyond what is legally mandated, while legal responsibility is the compulsory compliance with statutory laws and ______ enforced by the state.",
+     "a": "regulations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a factory legally discharging treated wastewater within ______ pollution limits, yet nearby villagers complain of health issues.",
+     "a": "permitted",
+     "self_check": true
+    },
+    {
+     "q": "What is Social responsibility? State the definition given in this lesson.",
+     "a": "Social responsibility is a firm's voluntary obligation to act in ways that benefit society beyond what is legally mandated, while legal responsibility is the compulsory compliance with statutory laws and regulations enforced by the state.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Social responsibility?",
+     "a": "Students equate \"legal responsibility\" with \"social responsibility\" because both involve \"doing the right thing.\" They think if a company follows all laws (pollution norms, labour laws, tax laws), it has automatically fulfilled its social responsibility.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify a given business action as legal responsibility, social responsibility, or both, and justify the classification by referencing enforceability, scope relative to law, and stakeholder impact.",
+     "self_check": true
     }
    ]
   }

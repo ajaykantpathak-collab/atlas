@@ -34,6 +34,26 @@
      "q": "Design a mini research study to test whether a new cognitive training program improves g-factor (Spearman) or specific primary mental abilities (Thurstone). Specify: (1) test battery, (2) factor analytic strategy, (3) criteria for deciding which theory the results support.",
      "a": "(1) **Test battery**: 12 tests — 2 each for Verbal Comprehension, Numerical Ability, Spatial Relations, Perceptual Speed, Word Fluency, Memory, Inductive Reasoning (covering all 7 Thurstone abilities). (2) **Factor analytic strategy**: Pre- and post-training, run exploratory factor analysis (EFA) with oblique rotation to extract primary abilities, then higher-order factor analysis on primary ability correlations to extract g. (3) **Decision criteria**: If training gains load predominantly on *one* higher-order factor (g increases across all tests), Spearman is supported. If gains are *selective* to trained primary abilities (e.g., only Spatial Relations improves), Thurstone is supported. A poor answer uses only one test per ability or ignores higher-order analysis, failing to test both theories simultaneously.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ theories of intelligence use statistical methods (especially factor analysis) to identify the underlying structure of cognitive abilities.",
+     "a": "Psychometric",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and your friend both score 85% on a test battery covering math, ______, and spatial puzzles.",
+     "a": "vocabulary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and your friend both score ______% on a test battery covering math, vocabulary, and spatial puzzles.",
+     "a": "85",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) explain Spearman's g-factor and s-factors with the role of factor analysis, (2) list and describe Thurstone's seven primary mental abilities, and (3) compare the two theories by identifying at least two key similarities and two key differences in their conceptualization of intelligence structure.",
+     "self_check": true
     }
    ]
   }

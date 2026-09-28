@@ -34,6 +34,26 @@
      "q": "Design a dictionary to store the menu of a small café where each item (key) has a price (value). The menu has: \"Masala Dosa\" (₹60), \"Idli Sambar\" (₹40), \"Filter Coffee\" (₹25). Write code to create this dictionary using the `dict()` constructor with keyword arguments, then write a loop that prints each item and price in the format \"Item: ₹Price\".",
      "a": "```python\nmenu = dict(Masala_Dosa=60, Idli_Sambar=40, Filter_Coffee=25)\nfor item, price in menu.items():\n    print(f\"{item.replace('_', ' ')}: ₹{price}\")\n```\nNote: Keyword arguments require valid identifiers (no spaces), so underscores are used and replaced during printing. A poor answer uses a list of tuples with `dict()` instead of keyword arguments, or fails to handle the space-in-key limitation, showing inability to adapt the constructor to real-world naming constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ in Python is an unordered, mutable collection of key-value pairs where each key is unique and immutable (string, number, or tuple), and each key maps to exactly one value.",
+     "a": "dictionary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a ______ list for your phone where each friend's name maps to their phone number.",
+     "a": "contact",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can create dictionaries using three different methods (literal, dict() constructor, fromkeys()), access values using both bracket notation and .get(), explain the difference in error handling between the two access methods, and trace the output of code snippets involving nested dictionary access.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a contact list for your phone where each friend's name maps to their phone number.",
+     "a": "building",
+     "self_check": true
     }
    ]
   }

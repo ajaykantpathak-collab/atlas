@@ -34,6 +34,31 @@
      "q": "Construct a hypothetical example of two countries with identical Real GDP per Capita but vastly different standards of living. Specify the values and explain the divergence using at least two limitations.",
      "a": "Country P: Real GDP = ₹100 lakh crore, Population = 10 crore → Per Capita = ₹1,00,000. High inequality (Gini 0.60), severe air pollution, low female labor participation (unpaid care work uncounted). Country Q: Real GDP = ₹100 lakh crore, Population = 10 crore → Per Capita = ₹1,00,000. Low inequality (Gini 0.25), clean environment, universal public healthcare/education. Same per capita GDP, but Q's citizens enjoy higher true welfare. A poor answer that cannot construct such a pair or cites vague \"differences\" fails to demonstrate the conceptual distinction between the metric and the reality it imperfectly proxies.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Real GDP per Capita is the inflation-adjusted total value of all final goods and services produced within a country's domestic territory in a given year, divided by the mid-year ______.",
+     "a": "population",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a policy analyst ______ the average citizen's material life in India in 2014 versus 2024.",
+     "a": "comparing",
+     "self_check": true
+    },
+    {
+     "q": "What is Real GDP per Capita? State the definition given in this lesson.",
+     "a": "Real GDP per Capita is the inflation-adjusted total value of all final goods and services produced within a country's domestic territory in a given year, divided by the mid-year population.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Real GDP per Capita?",
+     "a": "Students often believe Real GDP per Capita is a direct measure of \"standard of living\" or \"happiness.\" They write in exams: \"Higher Real GDP per Capita means people are better off.\" This is wrong because: (1) It ignores distribution — a billionaire and a pauper average to a middle-income figure.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate Real GDP per Capita from given Real GDP and population data, interpret changes in the indicator as signals of improving or worsening average material welfare, and critically evaluate at least three specific limitations (inequality, non-market activities, environmental costs) that make it an imperfect measure of.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,16 @@
      "q": "Construct a complex number \\(z\\) whose modulus is 5 and whose principal argument is \\(\\frac{2\\pi}{3}\\). Write it in both Cartesian and polar forms. Then create a different complex number with the same modulus but an argument that is not co-terminal with \\(\\frac{2\\pi}{3}\\).",
      "a": "Polar form: \\(z = 5(\\cos \\frac{2\\pi}{3} + i \\sin \\frac{2\\pi}{3})\\). Cartesian: \\(x = 5\\cos \\frac{2\\pi}{3} = 5(-\\frac{1}{2}) = -2.5\\), \\(y = 5\\sin \\frac{2\\pi}{3} = 5(\\frac{\\sqrt{3}}{2}) = \\frac{5\\sqrt{3}}{2}\\), so \\(z = -2.5 + i\\frac{5\\sqrt{3}}{2}\\). A different number with same modulus: \\(w = 5(\\cos \\frac{5\\pi}{3} + i \\sin \\frac{5\\pi}{3}) = 2.5 - i\\frac{5\\sqrt{3}}{2}\\) (argument \\(\\frac{5\\pi}{3}\\) is not co-terminal with \\(\\frac{2\\pi}{3}\\) because difference is not a multiple of \\(2\\pi\\)). A poor answer might give an argument differing by \\(2\\pi\\) (e.g., \\(\\frac{8\\pi}{3}\\)) which is co-terminal, showing misunderstanding of \"co-terminal\".",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are navigating a treasure map in your school courtyard: you start at the ______ (origin), walk 3 meters east and 4 meters north to reach the treasure.",
+     "a": "flagpole",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a treasure map in your school courtyard: you start at the flagpole (origin), walk 3 meters east and 4 meters north to reach the treasure.",
+     "a": "navigating",
+     "self_check": true
     }
    ]
   }

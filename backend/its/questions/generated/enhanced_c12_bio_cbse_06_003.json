@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using fluorescent microscopy to demonstrate that nucleosomes are dynamic and can be repositioned on DNA in living cells.",
      "a": "A strong answer: Tag histone H2B with GFP (green fluorescent protein) and express in cultured human cells. Photobleach a small nuclear region (FRAP — Fluorescence Recovery After Photobleaching). If nucleosomes were static, fluorescence would not recover. Recovery occurs because unbleached H2B-GFP from neighboring nucleosomes exchanges into the bleached region, or entire nucleosomes slide — proving dynamics. Alternatively, use a LacO/LacI system: integrate LacO repeats at a specific locus, express LacI-GFP, and track locus movement before/after inducing chromatin remodelers. A poor answer (e.g., \"just stain DNA with DAPI and watch\") fails to distinguish nucleosome dynamics from whole-chromosome movement and lacks a specific molecular probe — revealing inability to design a targeted cell biology experiment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: DNA packaging in eukaryotes is the hierarchical coiling of double-stranded DNA around histone protein octamers to form nucleosomes (the fundamental repeating units of chromatin), which further organize into 10 nm \"beads-on-a-string\" fibers, 30 nm solenoid fibers, looped domains anchored to a protein scaffold, and finally condensed metaphase chromosomes — enabling ~2 meters of DNA to fit inside a ~10 µm nucleus while remaining accessible for replication and ______.",
+     "a": "transcription",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Hold a 2-meter string and a 1-cm bead — this is the ______ problem: human cells pack 2 meters of DNA into a nucleus 1/100th of a millimeter wide.",
+     "a": "packaging",
+     "self_check": true
+    },
+    {
+     "q": "What is DNA packaging in eukaryotes? State the definition given in this lesson.",
+     "a": "DNA packaging in eukaryotes is the hierarchical coiling of double-stranded DNA around histone protein octamers to form nucleosomes (the fundamental repeating units of chromatin), which further organize into 10 nm \"beads-on-a-string\" fibers, 30 nm solenoid fibers, looped domains anchored to a protein scaffold, and finally condensed.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then add linker histone H______ to seal the entry/exit points.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about DNA packaging in eukaryotes?",
+     "a": "Students believe nucleosomes are fixed \"beads\" permanently glued to specific DNA sequences.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) draw and label the hierarchical levels of DNA packaging from nucleosome to chromosome, (2) explain how histone charge and DNA-histone interactions enable compaction, and (3) distinguish euchromatin from heterochromatin in terms of packaging density and transcriptional activity.",
+     "self_check": true
     }
    ]
   }

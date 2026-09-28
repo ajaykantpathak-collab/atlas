@@ -1,0 +1,46 @@
+{
+ "catalog": "enhanced_c11_gram_cbse_82_001",
+ "concepts": [
+  {
+   "id": "enh:c11_gram_cbse_82_001",
+   "title": "c11_gram_cbse_82_001",
+   "questions": [
+    {
+     "q": "'If I ___ the lottery, I would travel the world.' win/won/would win?",
+     "a": "'won' — Type 2 (unreal present): if + past, would + base. A wrong answer 'would win' puts 'would' inside the if-clause — the classic half-mix error.",
+     "self_check": true
+    },
+    {
+     "q": "'If she had studied, she ___ passed.' would have / will have?",
+     "a": "'would have passed' — Type 3 halves go together: had + V3, would have + V3. A wrong answer 'will have' mixes a Type-1 result into a Type-3 frame.",
+     "self_check": true
+    },
+    {
+     "q": "Rewrite without 'if': 'If I had known, I would have helped.'",
+     "a": "'Had I known, I would have helped.' — formal inversion fronts the auxiliary and drops 'if'. A wrong answer keeping 'if' plus inversion shows the construction isn't understood as a replacement.",
+     "self_check": true
+    },
+    {
+     "q": "The three conditionals encode ______: Type 1 (if + present, will) = real possibility; Type 2 (if + past, would) = present unreal; Type 3 (if + past perfect, would have + V3) = past unreal, gone forever.",
+     "a": "reality-distance",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The three ______ encode reality-distance: Type 1 (if + present, will) = real possibility; Type 2 (if + past, would) = present unreal; Type 3 (if + past perfect, would have + V3) = past unreal, gone forever. 'Were' serves all persons in Type 2 — 'If I were you'.",
+     "a": "conditionals",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ ladder: 'If it rains, I will stay' — could happen. 'If it rained, I would stay' — it is not raining now. 'If it had rained, I would have stayed' — it did not rain; the chance is gone.",
+     "a": "reality",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student selects the correct conditional type by reality-status, forms all three including Type 3 regrets, and uses inversion forms (Had I known, Were I you).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

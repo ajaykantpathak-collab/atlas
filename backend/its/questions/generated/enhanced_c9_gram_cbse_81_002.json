@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c9_gram_cbse_81_002",
+ "concepts": [
+  {
+   "id": "enh:c9_gram_cbse_81_002",
+   "title": "c9_gram_cbse_81_002",
+   "questions": [
+    {
+     "q": "'You failed — you ___ have studied harder.'",
+     "a": "'should' — reproach about an unkept duty. A wrong answer 'must' turns the sentence into a weird deduction — 'you must have studied' means the speaker concludes you DID study.",
+     "self_check": true
+    },
+    {
+     "q": "'The door is open — someone ___ have forgotten to lock it.'",
+     "a": "'must' — confident deduction from present evidence. A wrong answer 'should' confuses the two stances: evidence→must, duty→should.",
+     "self_check": true
+    },
+    {
+     "q": "Fix: 'He could had won the match.'",
+     "a": "'could have won' — modal perfects are modal + have + V3, never 'modal + had'. A wrong answer 'could won' drops the needed 'have' for past reference.",
+     "self_check": true
+    },
+    {
+     "q": "Modal perfects — should have, must have, could have, might have + V3 — talk about a past that is judged, deduced, or ______: 'should have studied' = reproach, 'must have left' = confident deduction, 'could have won' = lost chance.",
+     "a": "unrealized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Modal perfects — should have, must have, could have, might have + V3 — talk about a past that is judged, deduced, or ______: 'should have studied' = reproach, 'must have left' = confident deduction, 'could have won' = lost chance.",
+     "a": "unrealized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The stance map: evidence about the past → 'must have' (______: 'the ground is wet — it must have rained'); unkept duty → 'should have' (reproach: 'you should have called'); lost opportunity → 'could have' ('he could have won'); weak guess → 'might have'.",
+     "a": "deduction",
+     "self_check": true
+    },
+    {
+     "q": "What is Modal perfects? State the definition given in this lesson.",
+     "a": "Modal perfects — should have, must have, could have, might have + V3 — talk about a past that is judged, deduced, or unrealized: 'should have studied' = reproach, 'must have left' = confident deduction, 'could have won' = lost chance.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Modal perfects — should have, must have, could have, might have + V______ — talk about a past that is judged, deduced, or unrealized: 'should have studied' = reproach, 'must have left' = confident deduction, 'could have won' = lost chance.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Modal perfects?",
+     "a": "Students write 'should had' (double-past), confuse deduction-must with obligation-must, and use 'would have' without an if-condition.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student deploys the four modal perfects by speaker stance (reproach/deduction/unrealized-chance/weak-guess) and never writes 'modal + had'.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The stance map: evidence about the past → 'must have' (deduction: 'the ground is wet — it must have rained'); unkept duty → 'should have' (reproach: 'you should have called'); lost ______ → 'could have' ('he could have won'); weak guess → 'might have'.",
+     "a": "opportunity",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

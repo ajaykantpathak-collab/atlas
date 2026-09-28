@@ -34,6 +34,26 @@
      "q": "Create a number between 20 and 50 that has exactly two different representations as sums of consecutive natural numbers. Explain how you chose it.",
      "a": "Example: 25. Representations: 12+13 (k=2), 3+4+5+6+7 (k=5), 25=5^2 has odd divisors 5,25 → 2N=50 has odd divisors 5,25. k=2: a=12; k=5: a=3; k=10: a negative; k=25: a negative; k=50: a negative. So exactly two representations. A good answer shows the student understands the link between odd divisors of 2N and the number of valid k, and can construct an example. A poor answer guesses randomly without using the divisor criterion.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A natural number N can be expressed as a sum of two or more ______ natural numbers if there exist integers k ≥ 2 (number of terms) and a ≥ 1 (first term) such that N = a + (a+1) + ... + (a+k-1) = k·a + k(k-1)/2.",
+     "a": "consecutive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have ₹50 and want to give it to a group of ______ such that each child gets ₹1 more than the previous child, and every child gets at least ₹1.",
+     "a": "children",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This is exactly writing ______ as a sum of consecutive numbers.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can systematically find all ways to write a given number (up to 100) as a sum of consecutive natural numbers by testing possible lengths k, and can explain why powers of 2 cannot be represented in this way.",
+     "self_check": true
     }
    ]
   }

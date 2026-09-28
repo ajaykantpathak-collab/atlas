@@ -34,6 +34,21 @@
      "q": "Create a real-world word problem (Indian context) that requires using the circumference formula to find the number of revolutions a wheel makes. Specify all given values clearly. The problem should involve a vehicle wheel and distance travelled in kilometres.",
      "a": "Example problem: \"The wheel of a tractor has radius 42 cm. How many complete revolutions does it make in covering 1.32 km? (Use \\(\\pi = \\frac{22}{7}\\))\". A good answer shows: \\(C = 2 \\times \\frac{22}{7} \\times 42 = 264\\,\\text{cm}\\). Distance = \\(1.32\\,\\text{km} = 1,32,000\\,\\text{cm}\\). Revolutions = \\(\\frac{1,32,000}{264} = 500\\). A poor problem (e.g., missing units, unrealistic numbers, or not solvable with \\(\\frac{22}{7}\\)) reveals the student does not understand the relationship between circumference, distance, and revolutions, or cannot design problems with \"nice\" numbers for CBSE exams.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The formula holds for all circles regardless of size, as the ratio of ______ to diameter is constant for every circle.",
+     "a": "circumference",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How far does the bicycle travel when the wheel completes exactly 100 ______?",
+     "a": "revolutions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How far does the bicycle travel when the wheel completes exactly ______ revolutions?",
+     "a": "100",
+     "self_check": true
     }
    ]
   }

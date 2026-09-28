@@ -1,0 +1,62 @@
+{
+ "catalog": "catalog_class11_chemistry_kech104.json",
+ "concepts": [
+  {
+   "id": "kech.104.4.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "bonding_electrons = 1.7",
+      "antibonding_electrons = 16.1",
+      "bond_order = (bonding_electrons - antibonding_electrons) / 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "bonding_electrons = 96",
+      "antibonding_electrons = 64",
+      "bond_order = (bonding_electrons - antibonding_electrons) / 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "bonding_electrons = 11.5",
+      "antibonding_electrons = 44",
+      "bond_order = (bonding_electrons - antibonding_electrons) / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "bonding_electrons = 2.4",
+      "antibonding_electrons = 67",
+      "bond_order = (bonding_electrons - antibonding_electrons) / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "bonding_electrons = 37",
+      "antibonding_electrons = 60",
+      "bond_order = (bonding_electrons - antibonding_electrons) / 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "bonding_electrons = 38",
+      "antibonding_electrons = 37",
+      "bond_order = (bonding_electrons - antibonding_electrons) / 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "bond_order = (bonding_electrons - antibonding_electrons) / 2"
+   ]
+  }
+ ]
+}

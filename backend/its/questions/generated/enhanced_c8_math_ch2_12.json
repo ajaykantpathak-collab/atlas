@@ -34,6 +34,16 @@
      "q": "Create a real-world problem involving repeated halving (or doubling) where the zero exponent naturally appears as the starting quantity. Write the problem and solve it.",
      "a": "Example: \"A ball is dropped from a height of 10 metres. Each bounce reaches half the previous height. Write an expression for the height after \\(n\\) bounces. What is the height after 0 bounces?\" Solution: height \\(= 10 \\times \\left(\\frac{1}{2}\\right)^n\\). For \\(n=0\\), height \\(= 10 \\times \\left(\\frac{1}{2}\\right)^0 = 10 \\times 1 = 10\\) metres. A poor answer might not connect zero exponent to the initial condition or might use an incorrect base.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How many times the ______ amount do you have at the start (0 hours)?",
+     "a": "original",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How many times the original amount do you have at the start (______ hours)?",
+     "a": "0",
+     "self_check": true
     }
    ]
   }

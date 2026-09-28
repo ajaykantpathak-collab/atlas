@@ -34,6 +34,16 @@
      "q": "Construct a function \\( f(x) \\) that is strictly increasing on \\( (-\\infty, 0) \\) and strictly decreasing on \\( (0, \\infty) \\), and has a maximum value of 5 at \\( x=0 \\). Write its derivative and verify the monotonicity.",
      "a": "**Example answer:** \\( f(x) = -x^2 + 5 \\).  \n\\( f'(x) = -2x \\).  \n- For \\( x < 0 \\), \\( f'(x) = -2x > 0 \\) ⇒ increasing.  \n- For \\( x > 0 \\), \\( f'(x) = -2x < 0 \\) ⇒ decreasing.  \n\\( f(0)=5 \\) is the maximum.  \n**What a poor answer reveals:** If a student gives a piecewise function like \\( f(x) = x \\) for \\( x<0 \\) and \\( f(x) = -x \\) for \\( x>0 \\), it’s not differentiable at 0, so the derivative test doesn’t apply smoothly. A good answer uses a simple polynomial whose derivative changes sign exactly once.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small business owner in Delhi tracking daily profit (in ₹) as the number of items sold ______.",
+     "a": "increases",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute the derivative of a given function (polynomial, trigonometric, exponential, or rational), find its critical points, determine the sign of the derivative on each sub‑interval, and correctly state the intervals of strict increase and strict decrease.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a simple experiment (using a frog sciatic nerve-gastrocnemius muscle preparation) to demonstrate that synaptic transmission at the neuromuscular junction is chemical and not electrical. Specify the key observation that would support chemical transmission.",
      "a": "Stimulate the motor nerve electrically and record muscle contraction. Then apply a solution containing a competitive antagonist of the acetylcholine receptor (e.g., curare) to the neuromuscular junction. Observation: Muscle contraction stops despite the nerve action potential arriving normally (verified by recording from the nerve). Wash out curare → contraction returns. This shows transmission depends on a diffusible chemical (ACh) that can be blocked competitively, not on direct electrical coupling. A poor design (e.g., \"measure voltage across the junction\") fails to isolate the chemical step or uses an inappropriate preparation, indicating the student cannot translate the concept into a testable hypothesis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A synapse is a specialized junction between a pre-synaptic neuron and a post-synaptic neuron (or effector cell) where nerve impulses are transmitted either directly via electrical current flow (electrical synapse) or indirectly via chemical ______ released into a fluid-filled synaptic cleft (chemical synapse).",
+     "a": "neurotransmitters",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you accidentally touch a hot tawa (griddle) while ______ rotis – your hand jerks back before you even feel the pain.",
+     "a": "making",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can sequence the events of chemical synaptic transmission from action potential arrival to postsynaptic potential generation, differentiate electrical and chemical synapses on speed and mechanism, and predict the effect of blocking specific steps (e.g., calcium channels, vesicle fusion, receptor binding) on signal.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you ______ touch a hot tawa (griddle) while making rotis – your hand jerks back before you even feel the pain.",
+     "a": "accidentally",
+     "self_check": true
     }
    ]
   }

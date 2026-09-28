@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_08_008",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_08_008",
+   "title": "c11_app_cbse_08_008",
+   "questions": [
+    {
+     "q": "What is the mathematical definition of the derivative of a function f(x) at x = a using the first principle?",
+     "a": "The derivative f'(a) = limₕ→₀ [f(a+h) - f(a)]/h, provided the limit exists. A wrong answer (e.g., writing f'(x) = limₓ→ₐ [f(x)-f(a)]/(x-a) without recognizing it's equivalent, or confusing it with the average rate of change formula [f(b)-f(a)]/(b-a)) reveals the student hasn't internalized the limit definition and is likely memorizing formulas without understanding the limiting process.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The derivative of f(x) = x² at x = 3 is 6 because the slope of the line joining (2,4) and (4,16) is (16-4)/(4-2) = 6.\" Explain why this reasoning is flawed, even though the numerical answer is accidentally correct.",
+     "a": "The student computed the average rate of change (slope of secant line) between x=2 and x=4, not the instantaneous rate of change at x=3. The derivative requires the limit as h→0 of [f(3+h)-f(3)]/h = limₕ→₀ [(9+6h+h²)-9]/h = limₕ→₀ (6+h) = 6. The flaw: confusing secant slope (average) with tangent slope (instantaneous). A wrong explanation reveals the student doesn't grasp the conceptual distinction between average and instantaneous rates.",
+     "self_check": true
+    },
+    {
+     "q": "The volume of a spherical balloon being inflated is given by V(r) = (4/3)πr³, where r is the radius in cm. Use the first principle to find the instantaneous rate of change of volume with respect to radius when r = 5 cm. Show all steps.",
+     "a": "Step 1: f(r) = (4/3)πr³. Step 2: f'(5) = limₕ→₀ [f(5+h) - f(5)]/h = limₕ→₀ [(4/3)π(5+h)³ - (4/3)π(125)]/h. Step 3: Expand (5+h)³ = 125 + 75h + 15h² + h³. Step 4: Numerator = (4/3)π(75h + 15h² + h³). Step 5: Cancel h: (4/3)π(75 + 15h + h²). Step 6: Limit as h→0 = (4/3)π(75) = 100π cm³/cm. A wrong answer (e.g., skipping expansion, mishandling π, or forgetting the limit) reveals algebraic manipulation gaps or not treating constants correctly in limits.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the derivative of f(x) = x² at x = 2 and x = -2. Are they equal? Explain using both the algebraic definition and the geometric interpretation.",
+     "a": "Algebraically: f'(2) = limₕ→₀ [(2+h)²-4]/h = limₕ→₀ (4+4h+h²-4)/h = 4. f'(-2) = limₕ→₀ [(-2+h)²-4]/h = limₕ→₀ (4-4h+h²-4)/h = -4. They are NOT equal (4 vs -4). Geometrically: the tangent slope at (2,4) is positive (curve rising), at (-2,4) is negative (curve falling). A wrong answer claiming they are equal reveals the student thinks derivative depends only on y-value (4) not x-value, missing that derivative is a local property of the graph's shape.",
+     "self_check": true
+    },
+    {
+     "q": "A Class 11 student argues: \"If a function is continuous at x = a, it must be differentiable at x = a. After all, continuity means no breaks, so the graph must have a tangent.\" Evaluate this claim. Is it true or false? Justify with a counterexample if false.",
+     "a": "The claim is FALSE. Continuity is necessary but not sufficient for differentiability. Counterexample: f(x) = |x| at x = 0. It is continuous (limₓ→₀ |x| = 0 = f(0)), but not differentiable because left-hand derivative = -1, right-hand derivative = +1, so the limit does not exist. The graph has a sharp corner (cusp) — no unique tangent. A wrong evaluation reveals the student confuses \"smoothness\" (differentiability) with \"connectedness\" (continuity).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where the instantaneous rate of change of a quantity is more useful than the average rate of change. Define the function, the variable, and the specific instant. Explain why the instantaneous value matters for decision-making.",
+     "a": "Example: A Delhi Metro train's distance from Kashmere Gate station is s(t) = 2t³ - 15t² + 36t km, where t is in hours after 6 AM. At t = 2 hours (8 AM), the instantaneous velocity s'(2) = 6(4) - 30(2) + 36 = 0 km/h — the train momentarily stops at a station. Average velocity from 6-8 AM is [s(2)-s(0)]/2 = 12/2 = 6 km/h, which hides the stop. For scheduling/platform allocation, the instantaneous stop matters; the average is misleading. A poor answer uses a scenario where average suffices (e.g., \"average speed for a road trip\") or fails to define a proper function.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

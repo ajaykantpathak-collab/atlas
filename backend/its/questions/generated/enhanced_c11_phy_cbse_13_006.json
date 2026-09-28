@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a spring, a set of known masses, and a stopwatch to determine the spring constant k of the spring. Describe the procedure, measurements, and the graph you would plot to find k.",
      "a": "Hang the spring vertically, attach a mass, measure the period T for 20 oscillations, repeat for 5 different masses. Plot T² vs m; the slope = 4π²/k, so k = 4π²/slope. A good answer includes: (1) measure time for multiple oscillations to reduce error, (2) use small amplitudes to ensure SHM, (3) plot T² on y-axis, m on x-axis. A poor answer measures only one mass, uses large amplitudes, or plots T vs m (non-linear), showing lack of understanding of linearization and error reduction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The time period of a spring-mass system is the time taken for the mass to complete one full ______ about its equilibrium position.",
+     "a": "oscillation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a loaded spring balance in a vegetable market: when the vendor adds tomatoes, the pan ______ up and down before settling.",
+     "a": "oscillates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For an ideal massless spring of spring constant k (N/m) attached to a block of mass m (kg) on a frictionless horizontal surface, or for a vertical spring-mass system where gravity only shifts the equilibrium position, the period is given by T = ______π√(m/k) seconds.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the time period formula from Newton's second law and Hooke's law, calculate the period for given m and k with correct units, and predict how the period changes when springs are combined in series or parallel or when the mass is altered.",
+     "self_check": true
     }
    ]
   }

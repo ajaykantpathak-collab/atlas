@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a water hose and a measuring tape to verify that the maximum range of a water jet occurs at 45° projection angle. What measurements would you take, and how would you account for the height of the hose nozzle above ground?",
      "a": "Good answer: Fix water pressure constant. Measure horizontal distance where water hits ground for angles 15°, 30°, 45°, 60°, 75°. Plot range vs angle; peak should be near 45°. Account for nozzle height h by using R = (u cosθ/g)[u sinθ + √(u²sin²θ + 2gh)] instead of level-ground formula. Poor answer ignores nozzle height or assumes speed is same at all angles without verifying constant pressure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The maximum height (H) of a projectile is the highest vertical position reached above the launch point, given by H = (u² sin²θ)/(2g), where u is the initial speed, θ is the projection angle with horizontal, and g is ______ due to gravity.",
+     "a": "acceleration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a cricket ball thrown during a match — it rises to a peak height before falling back to the ground at some ______ from the bowler.",
+     "a": "distance",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The maximum height (H) of a projectile is the highest vertical position reached above the launch point, given by H = (u² sin²θ)/(______g), where u is the initial speed, θ is the projection angle with horizontal, and g is acceleration due to gravity.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the formulas for maximum height and range from the trajectory equation or kinematic equations, calculate these quantities for given launch parameters, and explain why complementary angles yield the same range.",
+     "self_check": true
     }
    ]
   }

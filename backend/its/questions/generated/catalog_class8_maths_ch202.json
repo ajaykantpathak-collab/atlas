@@ -5,6 +5,8 @@
    "id": "hegp.2.1",
    "title": "Doubling and Halving Area of a Square",
    "converted_to_compute": false,
+   "formula": "area_doubled = 2 * side ** 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 19.",
@@ -42,6 +44,8 @@
    "id": "hegp.2.3.1",
    "title": "Hypotenuse of an Isosceles Right Triangle",
    "converted_to_compute": false,
+   "formula": "hypotenuse = sqrt(2 * leg ** 2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 61 degrees, find the other.",
@@ -79,6 +83,8 @@
    "id": "hegp.2.3.2",
    "title": "Leg Length of an Isosceles Right Triangle from Hypotenuse",
    "converted_to_compute": false,
+   "formula": "leg = sqrt(hypotenuse ** 2 / 2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 50 degrees, find the other.",
@@ -116,6 +122,8 @@
    "id": "hegp.2.4.1",
    "title": "Baudhayana-Pythagoras Theorem: Finding the Hypotenuse",
    "converted_to_compute": false,
+   "formula": "hypotenuse = sqrt(side_a ** 2 + side_b ** 2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a parallelogram one angle is 70 degrees. Find the adjacent angle.",
@@ -153,6 +161,8 @@
    "id": "hegp.2.4.2",
    "title": "Baudhayana-Pythagoras Theorem: Finding a Missing Leg",
    "converted_to_compute": false,
+   "formula": "side_a = sqrt(hypotenuse ** 2 - side_b ** 2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a parallelogram one angle is 130 degrees. Find the adjacent angle.",
@@ -181,7 +191,7 @@
     },
     {
      "q": "A kite has one pair of equal angles. If the angle between the unequal sides is 60 degrees and the kite is symmetric, the sum of the two equal opposite angles is 360 - 60 - the other given angle of 80 degrees. Find the sum of the two equal angles.",
-     "a": "220",
+     "a": "240",
      "self_check": false
     }
    ]
@@ -190,6 +200,8 @@
    "id": "hegp.2.5.1",
    "title": "Baudhayana Triples and Scaling",
    "converted_to_compute": false,
+   "formula": "scaled_c = scale_k * hypotenuse",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 24 : 88 in its simplest form and give the first term of the simplest form.",
@@ -227,6 +239,8 @@
    "id": "hegp.2.5.2",
    "title": "Generating Baudhayana Triples from Odd Squares",
    "converted_to_compute": false,
+   "formula": "hypotenuse = (odd_square + 1) / 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 26.",
@@ -263,26 +277,14 @@
   {
    "id": "hegp.2.6.1",
    "title": "Fermat's Last Theorem",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "verify the number-theory claim numerically",
-     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
-     "compute": "lhs = 3 ** 3 + 4 ** 3"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
-     "compute": "diff = 5 ** 3 - lhs"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "x**n + y**n != z**n (for n > 2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
      "a": "34",
-     "self_check": false
+     "self_check": true
     },
     {
      "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
@@ -301,7 +303,7 @@
     },
     {
      "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
-     "a": "0",
+     "a": "18",
      "self_check": false
     },
     {
@@ -315,6 +317,8 @@
    "id": "hegp.2.7.1",
    "title": "Lotus Problem: Finding Water Depth",
    "converted_to_compute": false,
+   "formula": "depth = (horizontal_dist ** 2 - stem_above ** 2) / (2 * stem_above)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a parallelogram one angle is 80 degrees. Find the adjacent angle.",
@@ -343,7 +347,7 @@
     },
     {
      "q": "A kite has one pair of equal angles. If the angle between the unequal sides is 40 degrees and the kite is symmetric, the sum of the two equal opposite angles is 360 - 40 - the other given angle of 80 degrees. Find the sum of the two equal angles.",
-     "a": "240",
+     "a": "280",
      "self_check": false
     }
    ]
@@ -352,6 +356,8 @@
    "id": "hegp.2.7.2",
    "title": "Side Length of a Rhombus from Diagonals",
    "converted_to_compute": false,
+   "formula": "side = sqrt((diag1 / 2) ** 2 + (diag2 / 2) ** 2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a parallelogram one angle is 50 degrees. Find the adjacent angle.",
@@ -380,7 +386,7 @@
     },
     {
      "q": "A kite has one pair of equal angles. If the angle between the unequal sides is 40 degrees and the kite is symmetric, the sum of the two equal opposite angles is 360 - 40 - the other given angle of 80 degrees. Find the sum of the two equal angles.",
-     "a": "240",
+     "a": "280",
      "self_check": false
     }
    ]
@@ -389,6 +395,8 @@
    "id": "hegp.2.7.3",
    "title": "Area of an Equilateral Triangle via Pythagoras Theorem",
    "converted_to_compute": false,
+   "formula": "area = (1 / 2) * side * sqrt(side ** 2 - (side / 2) ** 2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 25 cm by 20 cm.",

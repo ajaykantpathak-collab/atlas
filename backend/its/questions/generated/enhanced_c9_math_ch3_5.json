@@ -34,6 +34,26 @@
      "q": "Create two irrational numbers between \\( \\sqrt{2} \\) and \\( \\sqrt{3} \\). Explain how you know they are irrational and lie in that interval.",
      "a": "\\( \\sqrt{2}\\approx1.414 \\), \\( \\sqrt{3}\\approx1.732 \\). Examples:  \n1. \\( 1.505005000500005\\ldots \\) (non-terminating, non-recurring, between 1.414 and 1.732)  \n2. \\( \\frac{\\sqrt{2}+\\sqrt{3}}{2} \\) (average of two irrationals; if it were rational, \\( \\sqrt{3}=2r-\\sqrt{2} \\) would be rational — contradiction)  \nA poor answer gives terminating decimals (e.g., 1.5) or recurring decimals, showing the student doesn't grasp that *infinitely many* irrationals exist between any two distinct reals.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______, its decimal expansion is non-terminating and non-recurring (non-repeating).",
+     "a": "Equivalently",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a ______ plot of land with each side exactly 1 metre.",
+     "a": "square",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a square plot of land with each side exactly ______ metre.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you have a square plot of land with each side exactly 1 metre.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

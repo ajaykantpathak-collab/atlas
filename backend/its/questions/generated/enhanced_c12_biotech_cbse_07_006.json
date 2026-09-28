@@ -34,6 +34,21 @@
      "q": "Create a flowchart decision-tree for a breeder deciding between anther culture and isolated microspore culture for a new Brassica napus (rapeseed) breeding program. Include decision nodes for: genotype responsiveness, facility/expertise availability, somaclonal variation tolerance, and throughput needs.",
      "a": "Expected flowchart: START → Is genotype responsive to anther culture? (YES → Anther culture: lower cost, simpler, but higher somatic callus risk from anther wall; NO → Try isolated microspore culture) → Is high-throughput needed? (YES → Isolated microspore preferred for automation; NO → Anther culture acceptable) → Is somaclonal variation unacceptable? (YES → Isolated microspore with direct embryogenesis media; NO → Either) → Facility check: Has laminar flow, inverted microscope, micromanipulator? (YES → Isolated microspore; NO → Anther culture). A poor answer lists steps without decision logic, showing inability to integrate technical constraints with biological principles — a key competency for CUET/NEET case-based questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Haploid production through anther and pollen culture (______) is a plant tissue culture technique where haploid plants (containing a single set of chromosomes, n) are regenerated from immature male gametophytes (microspores/pollen) or the anther wall tissue, enabling rapid development of completely homozygous doubled haploid lines after chromosome doubling for crop breeding programs.",
+     "a": "androgenesis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a plant breeder trying to develop a new wheat variety with disease ______ and high yield.",
+     "a": "resistance",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the stepwise protocol for anther culture and isolated microspore culture, justify the critical factors (donor plant genotype, microspore developmental stage, pretreatment, media composition) affecting androgenic response, and describe how colchicine-induced chromosome doubling converts sterile haploids into fertile.",
+     "self_check": true
     }
    ]
   }

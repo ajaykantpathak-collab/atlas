@@ -34,6 +34,31 @@
      "q": "Create an algebraic expression to represent the total weight of a school bag containing 2 kg of books and 'b' number of notebooks, each weighing 250 grams (0.25 kg).",
      "a": "The expression is 2 + 0.25b. A good answer includes the variable for the unknown number of notebooks and constants for the fixed weight. Poor answers confuse the constant (2 kg) with the variable part.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A variable is a letter or symbol used to ______ a number that can change or is currently unknown, while a constant is a fixed numerical value that does not change.",
+     "a": "represent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a fruit shop where the price of one apple is fixed at ₹10, but the total bill ______ on how many apples you buy.",
+     "a": "depends",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a fruit shop where the price of one apple is fixed at ₹______, but the total bill depends on how many apples you buy.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify variables and constants within a simple algebraic expression and explain why a letter represents a changing value while a number remains fixed.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are at a fruit shop where the price of one apple is fixed at ₹10, but the total bill depends on how many apples you buy.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

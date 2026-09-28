@@ -56,7 +56,7 @@
     "Where does the centre sit for an acute triangle? And for an obtuse one?",
     "Draw a triangle and verify that its three corners sit at one gap from the centre."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -73,7 +73,16 @@
      "action": "Draw the circumcircle",
      "explain": "With O as centre and the common gap as radius, the round curve through A, B and C is the unique circumcircle."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 63 gives 396",
+     "compute": "circ = 2 * 22 / 7 * 63"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.105.3",
@@ -90,7 +99,7 @@
     "Draw two equal chords and measure the angles they make at the centre.",
     "Justify the matching-angle claim using congruent triangles."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -107,7 +116,16 @@
      "action": "Conclude equal central angles",
      "explain": "Corresponding parts of congruent triangles are equal, so the central angles subtended by equal chords are equal, and the converse holds by the same argument."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 63 gives 396",
+     "compute": "circ = 2 * 22 / 7 * 63"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.105.4",
@@ -231,7 +249,7 @@
     "Find the angle ACB when AB is a width and C sits on the curve.",
     "Justify the right-angle claim with the centre-to-curve rule."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -248,7 +266,16 @@
      "action": "Confirm the right angle for any on-curve spot",
      "explain": "Since the diameter is a straight angle at the centre, every point on the curve sees it as a 90 degree angle, giving a right-angled triangle regardless of where the point sits."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 28 gives 176",
+     "compute": "circ = 2 * 22 / 7 * 28"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.105.8",
@@ -265,7 +292,7 @@
     "Draw the case and check the matching-corner condition.",
     "Explain why the side of the base matters in the claim."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -282,7 +309,16 @@
      "action": "Conclude concyclicity",
      "explain": "Since all four spots satisfy the equal-angle condition over the same base on the same side, they must lie on one common round curve, proving the four spots are concyclic."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 7 gives 44",
+     "compute": "circ = 2 * 22 / 7 * 7"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.105.9",

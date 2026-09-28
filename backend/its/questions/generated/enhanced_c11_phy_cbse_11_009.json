@@ -34,6 +34,21 @@
      "q": "Design a thought experiment (using only a hot reservoir, a cold reservoir, and hypothetical devices) to demonstrate that if a perfect refrigerator (Clausius violator) existed, one could build a perfect heat engine (Kelvin-Planck violator). Describe the setup and the net effect.",
      "a": "Setup:\n1. Assume a perfect refrigerator R_C exists: it transfers heat Q from cold reservoir T₂ to hot reservoir T₁ with *zero* work input (W = 0).\n2. Take a normal heat engine E (allowed by both laws) that absorbs Q₁ from T₁, does work W, and rejects Q₂ to T₂.\n3. Choose E such that its rejected heat Q₂ exactly equals the heat Q that R_C transfers from T₂ to T₁.\n4. Couple them: R_C puts Q back into T₁, which E then re-absorbs. The cold reservoir T₂ experiences *zero net heat exchange* (loses Q to E, gains Q from R_C).\n5. Net effect of combined system: Heat Q₁ is absorbed from T₁ and *completely converted* into work W with no other change. This is a Kelvin-Planck violator. A poor answer that cannot specify the heat matching condition (Q₂ = Q) reveals the student does not grasp the quantitative nature of the equivalence proof.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Second Law of ______ introduces a fundamental directionality to natural processes that the First Law (energy conservation) alone cannot explain.",
+     "a": "Thermodynamics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a hot cup of chai left on a table in a Delhi winter: it ______ cools down, transferring heat to the cooler air.",
+     "a": "spontaneously",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can verbally state both the Kelvin-Planck and Clausius statements precisely, explain why a hypothetical \"perfect engine\" (η = 1) or \"perfect refrigerator\" (α = ∞) violates the Second Law, and demonstrate the logical equivalence of the two statements by showing how violation of one implies violation of the other.",
+     "self_check": true
     }
    ]
   }

@@ -17,7 +17,7 @@
     },
     {
      "q": "Classify the following transactions into Current Account or Capital Account, and indicate credit (+) or debit (−):\n(a) India imports crude oil worth $5 billion.\n(b) An NRI deposits ₹2 crore in an NRE account in an Indian bank.\n(c) Government of India receives a grant of $100 million from the World Bank.\n(d) An Indian firm buys a factory in Germany for €50 million.",
-     "a": "(a) Import of goods → Current Account, Debit (−). (b) NRI deposit = foreign liability increase → Capital Account, Credit (+). (c) Grant = current transfer → Current Account, Credit (+). (d) Outward FDI = acquisition of foreign asset → Capital Account, Debit (−). A wrong classification (e.g., treating NRI deposit as current account) shows confusion between financial flows and income/transfers. Wrong signs indicate failure to apply the \"inflow = credit, outflow = debit\" rule consistently.",
+     "a": "(1) The crude oil import — current account and a debit, because trade in goods records real resources, (2) The NRI deposit in an NRE account — capital account and a credit, because it raises India's financial liabilities to the rest of the world, (3) The World Bank grant — current account and a credit, because a grant is a current transfer, (4) The German factory purchase — capital account and a debit, because outward FDI acquires a foreign asset. A wrong classification such as treating the NRI deposit as a current-account item confuses financial flows with income and transfers, and wrong signs break the rule that inflow means credit and outflow means debit.",
      "self_check": true
     },
     {
@@ -33,6 +33,26 @@
     {
      "q": "Construct a mini BoP table for a hypothetical country \"X\" with the following data (in ₹ crore):\nExports of goods: 200; Imports of goods: 300; Exports of services: 150; Imports of services: 100; Net primary income: -50; Net secondary income: 80; FDI inflow: 120; Portfolio outflow: 40; Loans received: 60; Reserve assets increase: 30.\nCalculate Current Account balance, Capital Account balance, and verify BoP identity.",
      "a": "Current Account = (200-300) + (150-100) + (-50) + 80 = -100 + 50 - 50 + 80 = -20 crore (deficit).\nCapital Account = FDI inflow (120) + Portfolio outflow (-40) + Loans (60) + Reserve increase (-30) = 120 - 40 + 60 - 30 = 110 crore (surplus).\nBoP = -20 + 110 = 90 ≠ 0 → discrepancy indicates missing item (e.g., errors & omissions = -90). A good answer identifies the imbalance and suggests \"Net Errors & Omissions\" to balance. A poor answer forces balance without noting the missing entry, showing mechanical application without understanding double-entry.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Balance of Payments (BoP) is a systematic, double-entry record of all economic ______ between residents of a country and the rest of the world during a given period (usually a year).",
+     "a": "transactions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine an Indian ______ firm exports a ₹50 lakh service to a US client, and simultaneously an Indian student pays ₹20 lakh tuition to a UK university.",
+     "a": "software",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify a given international transaction (e.g., export of software services, remittance from abroad, purchase of foreign bonds, IMF loan) into the appropriate BoP sub-account (current vs capital, credit vs debit) and explain why the overall BoP always balances in an accounting sense.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine an Indian software firm exports a ₹50 lakh service to a US client, and ______ an Indian student pays ₹20 lakh tuition to a UK university.",
+     "a": "simultaneously",
      "self_check": true
     }
    ]

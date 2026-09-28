@@ -31,8 +31,33 @@
      "self_check": true
     },
     {
-     "q": "Construct a real-world problem (using Indian context: rupees, metres, kilograms) where the solution requires recognising that zero is the additive identity AND that multiplication by zero gives zero. The problem must have at least two steps.",
-     "a": "Example: \"Rohan has ₹200. He buys 0 kg of apples at ₹50/kg and 0 metres of cloth at ₹120/m. He then receives ₹0 as a gift. How much money does he have now?\" Solution: Cost of apples = 0 × 50 = 0 (multiplicative annihilation). Cost of cloth = 0 × 120 = 0. Total spent = 0 + 0 = 0 (additive identity). Money left = 200 - 0 = 200 (additive identity in subtraction). A poor answer that ignores the zero quantities or adds them as non-zero shows the student cannot translate \"zero quantity\" into mathematical operations.",
+     "q": "Give the correct order of steps to find the money Rohan keeps when he buys 0 kg of apples at 50 rupees per kg and receives 0 rupees as a gift, starting with 200 rupees.",
+     "a": "The evaluation runs: (1) Multiplying 0 by 50 gives 0 by the annihilation property (2) Adding the zero costs changes nothing by the additive identity (3) The gift of 0 rupees adds nothing again (4) Subtracting 0 from 200 leaves 200 rupees. A wrong answer that treats the zero quantities as real spending shows the student cannot apply a x 0 = 0 and a + 0 = a together, which is exactly the dual role of zero in the whole number system.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Natural numbers (denoted by ℕ) are the set of counting numbers {1, 2, 3, ...} used for ordering and ______ discrete objects.",
+     "a": "quantifying",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a Class 9 teacher asks: \"If you have ₹50 and spend exactly ₹50, how much money do you have left?\" You answer \"zero rupees.\" But is \"zero\" a number you can add, ______, or multiply like 1, 2, 3?",
+     "a": "subtract",
+     "self_check": true
+    },
+    {
+     "q": "What is Natural numbers (denoted by ℕ)? State the definition given in this lesson.",
+     "a": "Natural numbers (denoted by ℕ) are the set of counting numbers {1, 2, 3, ...} used for ordering and quantifying discrete objects.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Natural numbers (denoted by ℕ)?",
+     "a": "Students treat zero as \"nothing\" rather than a number with specific algebraic properties.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can precisely define ℕ and W, explain why zero is not a natural number but is a whole number, prove that zero is the additive identity using the properties of whole numbers, and apply the closure, commutative, and associative properties of addition/multiplication on W to simplify expressions and solve word problems.",
      "self_check": true
     }
    ]

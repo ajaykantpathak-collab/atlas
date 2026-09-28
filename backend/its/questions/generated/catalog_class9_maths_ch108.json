@@ -5,6 +5,8 @@
    "id": "iemh.108.1",
    "title": "Explicit Rule for a Sequence",
    "converted_to_compute": false,
+   "formula": "t_n = linear_coeff * n + constant_term",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 14th term of the AP with first term 5 and common difference 6.",
@@ -42,6 +44,8 @@
    "id": "iemh.108.2",
    "title": "Term Position from a Linear Rule",
    "converted_to_compute": false,
+   "formula": "n = (term_value - constant_term) / linear_coeff",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 6x + 3 = 63.",
@@ -79,6 +83,8 @@
    "id": "iemh.108.3",
    "title": "Next Term from a Recurrence",
    "converted_to_compute": false,
+   "formula": "t_n = multiplier * t_{n-1} + addend",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 7th term of the AP with first term 8 and common difference 2.",
@@ -116,6 +122,8 @@
    "id": "iemh.108.4",
    "title": "nth Term of an Arithmetic Progression",
    "converted_to_compute": false,
+   "formula": "t_n = a + (n - 1) * d",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 4th term of the AP with first term 4 and common difference 6.",
@@ -153,6 +161,8 @@
    "id": "iemh.108.5",
    "title": "Finding Common Difference and First Term of an AP",
    "converted_to_compute": false,
+   "formula": "d = t_2 - t_1",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 12th term of the AP with first term 9 and common difference 9.",
@@ -190,6 +200,8 @@
    "id": "iemh.108.6",
    "title": "Term Position in an Arithmetic Progression",
    "converted_to_compute": false,
+   "formula": "n = (t_n - a) / d + 1",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 8th term of the AP with first term 5 and common difference 7.",
@@ -227,6 +239,8 @@
    "id": "iemh.108.7",
    "title": "Sum of First n Natural Numbers",
    "converted_to_compute": false,
+   "formula": "S_n = n * (n + 1) / 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 14th term of the AP with first term 10 and common difference 7.",
@@ -264,6 +278,8 @@
    "id": "iemh.108.8",
    "title": "Sum of Natural Numbers in a Range",
    "converted_to_compute": false,
+   "formula": "sum = end_num * (end_num + 1) / 2 - (start_num - 1) * start_num / 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean deviation about the mean of 4, 11, 9 (two decimal places).",
@@ -301,6 +317,8 @@
    "id": "iemh.108.9",
    "title": "nth Term of a Geometric Progression",
    "converted_to_compute": false,
+   "formula": "t_n = a * (r ** (n - 1))",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 11th term of the AP with first term 3 and common difference 8.",
@@ -338,6 +356,8 @@
    "id": "iemh.108.10",
    "title": "Common Ratio of a Geometric Progression",
    "converted_to_compute": false,
+   "formula": "r = t_2 / t_1",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 10th term of the AP with first term 3 and common difference 2.",
@@ -375,6 +395,8 @@
    "id": "iemh.108.11",
    "title": "Bounce Height Sequences",
    "converted_to_compute": false,
+   "formula": "height_n = initial_height * (fraction ** n)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 10th term of the AP with first term 7 and common difference 5.",
@@ -412,6 +434,8 @@
    "id": "iemh.108.12",
    "title": "Geometric Progression in Fractal Patterns",
    "converted_to_compute": false,
+   "formula": "count_n = base_count ** n",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 10th term of the AP with first term 1 and common difference 7.",

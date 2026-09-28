@@ -34,6 +34,36 @@
      "q": "Design a cropping calendar for a 2-ha farm in western Uttar Pradesh (irrigated, alluvial soil) that maximizes annual income while maintaining soil health. Specify crops for Kharif, Rabi, Zaid, and justify each choice with moisture, temperature, and market factors.",
      "a": "Kharif: Basmati rice (Jun–Oct) — high value, export demand, uses monsoon + supplemental irrigation.  \nRabi: Wheat (Nov–Apr) + Mustard (intercrop) — wheat ensures food security, mustard adds oil income, both use winter irrigation efficiently.  \nZaid: Moong (Apr–Jun) — 60-day legume, fixes N, low water, fits before next Kharif; or fodder sorghum for dairy income.  \nAvoid Zaid rice — depletes water table. A poor answer lists crops without linking to thermal windows, water budget, or crop rotation benefits.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cropping seasons in India are distinct agricultural cycles determined by the interplay of monsoon onset, ______ regimes, and photoperiod, dividing the agricultural year into Kharif (Southwest Monsoon, June–October), Rabi (Winter, October–April), and Zaid (Summer, April–June) seasons, each supporting specific crop assemblages adapted to prevailing moisture and thermal conditions.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the fields around your village or town in three different months: July (standing water, rice seedlings), January (golden wheat, mustard flowers), and May (______ vines on irrigated beds).",
+     "a": "watermelon",
+     "self_check": true
+    },
+    {
+     "q": "What is Cropping seasons in India? State the definition given in this lesson.",
+     "a": "Cropping seasons in India are distinct agricultural cycles determined by the interplay of monsoon onset, temperature regimes, and photoperiod, dividing the agricultural year into Kharif (Southwest Monsoon, June–October), Rabi (Winter, October–April), and Zaid (Summer, April–June) seasons, each supporting specific crop assemblages adapted.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with the Southwest Monsoon arrival — it delivers ______% of annual rainfall and defines the Kharif window.",
+     "a": "75",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Cropping seasons in India?",
+     "a": "Students believe \"Zaid is a minor, optional season everywhere.\" In reality, Zaid is critical in the northwestern plains (Punjab, Haryana, western UP) where assured irrigation (canals/tubewells) and high summer temperatures allow a third crop, contributing 10–15% of annual gross cropped area.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) map the spatial distribution of each cropping season across India's physiographic regions, explaining why the Kharif–Rabi–Zaid triad exists in the north but breaks down in the south, and (2) calculate cropping intensity from net sown area and gross cropped area data, interpreting its implications for land-use.",
+     "self_check": true
     }
    ]
   }

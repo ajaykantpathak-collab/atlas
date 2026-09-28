@@ -7,7 +7,7 @@
    "questions": [
     {
      "q": "Name any three ancient civilisations that developed early accounting systems and state the primary economic purpose (taxation, trade, or treasury management) that drove each civilisation's accounting innovation.",
-     "a": "Correct answer: Babylonia (trade/fraud detection), Egypt (treasury management/tax collection), Greece (public revenue apportionment), Rome (public finance/memorandum recording), China (government accounting), India (state administration per Arthashastra). A wrong answer revealing confusion would be listing only one civilisation, confusing the purpose (e.g., saying Egypt used accounting for trade rather than treasury), or naming modern countries instead of ancient civilisations — this shows the student hasn't grasped the geographical and functional diversity of early accounting origins.",
+     "a": "(1) Babylonia recorded trade and detected fraud on clay tablets, (2) Egypt kept treasury records and collected taxes for the state, (3) Greece apportioned public revenue, (4) Rome posted daybooks to monthly ledgers for public finance, (5) China ran sophisticated government accounting, (6) India prescribed detailed state administration in Kautilya's Arthashastra. A wrong answer pairing Egypt with trade-driven recording, listing only one civilisation, or naming modern countries instead of these six shows the student has not grasped the geographic and functional diversity of early accounting origins.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Create a timeline diagram (described in words) showing five milestones in accounting evolution from 4000 B.C. to 1494 A.D., where each milestone includes: (a) civilisation/period, (b) key innovation, (c) economic driver. Ensure the timeline demonstrates increasing sophistication in handling credit transactions.",
      "a": "Expected answer: 1) 4000 B.C. Babylonia/Egypt — clay tablet wage/tax records — state treasury needs; 2) 700 B.C.–400 A.D. Rome — daybook to ledger posting (monthly) — expanding public finance; 3) 2000 B.C. China — sophisticated government accounting — bureaucratic administration; 4) 3rd century B.C. India (Arthashastra) — detailed audit procedures, classification — imperial revenue management; 5) 1494 Venice (Pacioli) — codified double-entry with Debit/Credit — complex long-distance credit trade. A poor answer lists milestones without economic drivers, omits the credit transaction progression, or places Pacioli before ancient civilisations — revealing inability to synthesise chronological and functional development.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The evolution of accounting refers to the chronological development of accounting practices from primitive record-keeping in ancient civilisations (Babylonia, Egypt, Greece, Rome, China, India) to the formalisation of double-entry bookkeeping by Luca Pacioli in 1494, driven by the growing complexity of trade, taxation, and ______ governance needs.",
+     "a": "organisational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a merchant in 15th century Venice managing multiple ships, goods, and creditors across the Mediterranean — how would you know if you made a profit or loss without a systematic way to track every ______?",
+     "a": "transaction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The evolution of accounting refers to the chronological development of accounting practices from primitive record-keeping in ancient civilisations (Babylonia, Egypt, Greece, Rome, China, India) to the formalisation of double-entry bookkeeping by Luca Pacioli in ______, driven by the growing complexity of trade, taxation, and organisational governance needs.",
+     "a": "1494",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to trace the developmental trajectory of accounting from ancient stewardship recording to Pacioli's double-entry system, explaining how each civilisation's economic activities (taxation, trade, treasury management) necessitated specific accounting innovations, and justify why double-entry bookkeeping represented.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a merchant in 15th century Venice managing multiple ships, goods, and creditors across the ______ — how would you know if you made a profit or loss without a systematic way to track every transaction?",
+     "a": "Mediterranean",
      "self_check": true
     }
    ]

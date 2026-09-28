@@ -1,0 +1,51 @@
+{
+ "catalog": "enhanced_c9_comp_cbse_86_001",
+ "concepts": [
+  {
+   "id": "enh:c9_comp_cbse_86_001",
+   "title": "c9_comp_cbse_86_001",
+   "questions": [
+    {
+     "q": "Order: salutation, subject, receiver's address, sender's address, date.",
+     "a": "sender's → date → receiver's → subject → salutation. A wrong answer putting subject first shows the student knows pieces, not positions — format marks are positional.",
+     "self_check": true
+    },
+    {
+     "q": "A letter opens 'Dear Madam' and closes 'Yours sincerely' — what's wrong?",
+     "a": "The pairing — 'Dear Madam' (name unknown) locks to 'Yours faithfully'. A wrong answer 'nothing' shows the pairing contract isn't learned.",
+     "self_check": true
+    },
+    {
+     "q": "Write the subject line for: inquiry about computer courses at an institute.",
+     "a": "Something like 'Inquiry regarding computer courses offered' — noun-phrase, one line. A wrong answer writing a full sentence ('I want to know about…') makes the subject a sentence, not a headline.",
+     "self_check": true
+    },
+    {
+     "q": "The formal letter skeleton carries dedicated format marks: sender's address → date → receiver's address → subject → salutation → ______ body (purpose → details → request) → subscription → name.",
+     "a": "three-paragraph",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The formal letter skeleton carries dedicated format marks: sender's address → date → receiver's address → subject → salutation → three-paragraph body (purpose → details → request) → ______ → name. 'Dear Sir/Madam' pairs with 'Yours faithfully'; named recipients pair with 'Yours sincerely'.",
+     "a": "subscription",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Think like the receiver: who is ______ (sender) → when (date) → who am I (receiver) → what about (subject, one line, noun-phrase) → greeting → body → sign-off matching the greeting.",
+     "a": "writing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student produces the 8-element skeleton in legal order for complaints/inquiries/letters-to-editor, pairs salutation↔subscription correctly, and audits defective letters for missing blocks.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Think like the receiver: who is writing (sender) → when (date) → who am I (receiver) → what about (subject, one line, noun-phrase) → greeting → body → sign-off ______ the greeting.",
+     "a": "matching",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,26 @@
      "q": "Create a retirement scenario with 4 partners where two partners retire simultaneously. Design the old ratio, gaining arrangement for the remaining two partners, and compute the new ratio and gaining ratio. Explain why simultaneous retirement requires a different approach than sequential retirement.",
      "a": "**Sample Answer:**  \nOld ratio: W:X:Y:Z = 4:3:2:1 (total 10). Y and Z retire together. Remaining W and X acquire Y's share (2/10) in ratio 3:2 and Z's share (1/10) in ratio 1:1.  \nW's gain = (3/5)×(2/10) + (1/2)×(1/10) = 6/50 + 1/20 = 12/100 + 5/100 = 17/100.  \nX's gain = (2/5)×(2/10) + (1/2)×(1/10) = 4/50 + 1/20 = 8/100 + 5/100 = 13/100.  \nW's new share = 4/10 + 17/100 = 57/100. X's new share = 3/10 + 13/100 = 43/100.  \nNew ratio = 57:43. Gaining ratio = 17:13.  \n**Why different:** In sequential retirement, the first retirement changes the ratio before the second. In simultaneous, both retiring shares are acquired from the *original* old ratio. A poor answer would treat them sequentially, leading to different new ratios.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When a partner retires from a ______ firm, the continuing partners acquire the retiring partner's share of profit in a specific ratio.",
+     "a": "partnership",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine three friends — Aryan, Bhavya, and Chirag — run a café ______ profits 3:2:1.",
+     "a": "sharing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Calculate the new profit sharing ratio and gaining ratio when a partner retires, given the old ratio and the proportion in which continuing partners acquire the retiring partner's share; (2) Distinguish between gaining ratio (retirement) and sacrificing ratio (admission) and explain why the distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ three friends — Aryan, Bhavya, and Chirag — run a café sharing profits 3:2:1.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

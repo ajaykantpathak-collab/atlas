@@ -4,15 +4,9 @@
   {
    "id": "am11_003.1",
    "title": "Roster and Set-Builder Representation",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 5 gives 5",
-     "compute": "count = 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "A = {x : x satisfies the property p}",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 5 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -50,6 +44,8 @@
    "id": "am11_003.2",
    "title": "Types of Sets and Cardinal Number",
    "converted_to_compute": false,
+   "formula": "count = b - a - 1",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 6 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -87,6 +83,8 @@
    "id": "am11_003.3",
    "title": "Subsets and Counting Subsets",
    "converted_to_compute": false,
+   "formula": "subsets = 2**n",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A canteen offers 6 drinks and 5 snacks. How many drink-snack combos are possible (rule of product)?",
@@ -124,6 +122,8 @@
    "id": "am11_003.4",
    "title": "Power Set and Iterated Power Set",
    "converted_to_compute": false,
+   "formula": "outer = 2**inner",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 3^4 x 3^4.",
@@ -161,6 +161,8 @@
    "id": "am11_003.5",
    "title": "Intervals on the Real Line and Their Length",
    "converted_to_compute": false,
+   "formula": "length = b - a",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 2 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -197,15 +199,9 @@
   {
    "id": "am11_003.6",
    "title": "Union, Intersection, Difference and Complement",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 6 gives 6",
-     "compute": "count = 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "n_complement = n_universal - n_a",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 6 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -243,6 +239,8 @@
    "id": "am11_003.7",
    "title": "Two-Set Counting and the Union Formula",
    "converted_to_compute": false,
+   "formula": "n_union = n_a + n_b - n_both",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A canteen offers 9 drinks and 5 snacks. How many drink-snack combos are possible (rule of product)?",
@@ -280,6 +278,8 @@
    "id": "am11_003.8",
    "title": "Least Possible Overlap of Two Sets",
    "converted_to_compute": false,
+   "formula": "least_both = n_a + n_b - n_population",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the simple interest on Rs 4000 at 12% per annum for 5 years.",
@@ -317,6 +317,8 @@
    "id": "am11_003.9",
    "title": "Three-Set Venn Region Counting",
    "converted_to_compute": false,
+   "formula": "n_union3 = n_a + n_b + n_c - n_ab - n_ac - n_bc + n_abc",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A canteen offers 9 drinks and 3 snacks. How many drink-snack combos are possible (rule of product)?",

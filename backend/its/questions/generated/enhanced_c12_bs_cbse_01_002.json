@@ -34,6 +34,36 @@
      "q": "CREATE: Design a 3-column table: \"Science Features → Management Evidence → Verdict (Fully/Partially/Not Met)\". Fill it for all three science features. Then write a 2-sentence synthesis: \"Management is a science because ______, but an inexact science because ______.\"",
      "a": "| Science Feature | Management Evidence | Verdict |\n|---|---|---|\n| Systematised knowledge | Own theory/principles (Taylor, Fayol) + draws from Economics, Psychology, Sociology | Fully Met |\n| Experimentation | Principles evolved through observation in organisations over time | Partially Met (human element limits controlled experiments) |\n| Universal validity | Principles need modification per situation; not universally applicable | Not Met |\n\nSynthesis: Management is a science because it has a systematised body of knowledge derived from experimentation, but an inexact science because its principles lack universal validity due to the unpredictability of human behaviour. A poor answer blurs \"partially met\" and \"not met\" or omits the human-behaviour justification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Management as a science refers to its systematised body of knowledge based on cause-effect relationships derived through observation and ______; as an art, it is the skillful, personalised application of this knowledge to achieve desired results through practice and creativity; as a profession, it exhibits features like a defined knowledge base and professional associations but lacks restricted entry and statutory regulation, making it an emerging profession rather than a full-fledged one.",
+     "a": "experimentation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're Smita from Namchi Designer Candles — you've learned ______ principles from books (science), but when a sudden Diwali order doubles and your supplier fails, you improvise a new wax blend and motivate your team uniquely (art).",
+     "a": "management",
+     "self_check": true
+    },
+    {
+     "q": "What is Management as a science? State the definition given in this lesson.",
+     "a": "Management as a science refers to its systematised body of knowledge based on cause-effect relationships derived through observation and experimentation; as an art, it is the skillful, personalised application of this knowledge to achieve desired results through practice and creativity; as a profession, it exhibits features like a.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by listing the ______ features of science from NCERT (systematised knowledge, experimentation, universal validity).",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Management as a science?",
+     "a": "Students equate \"management is a profession\" with \"managers are professionals\" — they think because managers act professionally (punctual, skilled, ethical), management qualifies as a profession.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish the features of science, art, and profession and map each to management with specific NCERT-sourced justifications; (2) Explain why management is considered an \"inexact science\" and a \"developing profession\" using the criteria of universal validity, restricted entry, and ethical code.",
+     "self_check": true
     }
    ]
   }

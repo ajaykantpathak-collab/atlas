@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a 6 V battery, a variable resistor (rheostat), an ammeter, a voltmeter, and a small immersion heater coil (known resistance) to verify the relationship H = I²Rt. Specify the measurements to take, the graph to plot, and how to calculate the heat produced independently (e.g., using water calorimetry).",
      "a": "A good answer: Set up a series circuit with battery, rheostat, ammeter, and heater coil immersed in a known mass of water in a calorimeter. Connect voltmeter across the coil. For 5-6 different rheostat settings, record steady current I, voltage V across coil, and time t (e.g., 5 min). Measure initial and final water temperature ΔT. Calculate heat absorbed by water H_cal = mcΔT. Plot H_cal vs I²t (since R is constant, slope = R). If the graph is a straight line through origin with slope matching the coil's known resistance, H = I²Rt is verified. A poor answer (e.g., \"measure current and time, calculate I²Rt\") misses the independent calorimetry measurement, the need to vary current, and the graphical verification — showing the student treats the formula as a definition rather than an experimentally verifiable law.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Word problems combining Ohm's Law, electric power, and heating effect require the ______ application of V = IR, P = VI = I²R = V²/R, and H = I²Rt = VIt = Pt to solve for unknown electrical quantities in real-world circuits, where the heat energy produced (in joules) or power rating (in watts) of appliances is linked to the current, voltage, resistance, and time of operation.",
+     "a": "simultaneous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you switch on a 2000 W electric geyser connected to a 230 V household supply in an Indian bathroom — you notice the water heats up in minutes, but have you wondered how much current it draws, what the ______ of its heating coil is, or how much it costs to run for half an hour at ₹6 per unit?",
+     "a": "resistance",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can solve multi-step numerical problems that require selecting and combining two or more of the formulas V=IR, P=VI, P=I²R, P=V²/R, H=I²Rt, H=Pt from given data (such as voltage, power rating, time, resistance, cost of electricity) to find an unknown quantity, while correctly tracking SI units at every step and interpreting.",
+     "self_check": true
     }
    ]
   }

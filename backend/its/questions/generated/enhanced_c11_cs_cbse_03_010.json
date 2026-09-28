@@ -34,6 +34,21 @@
      "q": "Design an algorithm (in pseudocode) that reads integers until a negative number is entered, then prints the count of positive numbers, count of zeros, and sum of positive numbers. Create a trace table for input sequence: 5, 0, 3, 0, 7, -1. Show all steps.",
      "a": "**Algorithm:**\n```\nPOS_COUNT = 0\nZERO_COUNT = 0\nPOS_SUM = 0\nREAD NUM\nWHILE NUM >= 0\n    IF NUM > 0 THEN\n        POS_COUNT = POS_COUNT + 1\n        POS_SUM = POS_SUM + NUM\n    ELSE\n        ZERO_COUNT = ZERO_COUNT + 1\n    END IF\n    READ NUM\nEND WHILE\nPRINT POS_COUNT, ZERO_COUNT, POS_SUM\n```\n\n**Trace Table:**\n| Step | Line | NUM | POS_COUNT | ZERO_COUNT | POS_SUM | Condition NUM>=0 | Action |\n|------|------|-----|-----------|------------|---------|------------------|--------|\n| 1 | 1-4 | ? | 0 | 0 | 0 | - | Initialise |\n| 2 | 5 | 5 | 0 | 0 | 0 | - | READ 5 |\n| 3 | 6 | 5 | 0 | 0 | 0 | TRUE (5>=0) | Enter loop |\n| 4 | 7 | 5 | 0 | 0 | 0 | TRUE (5>0) | Enter IF |\n| 5 | 8 | 5 | 1 | 0 | 0 | - | POS_COUNT=1 |\n| 6 | 9 | 5 | 1 | 0 | 5 | - | POS_SUM=5 |\n| 7 | 13 | 5 | 1 | 0 | 5 | - | READ 0 |\n| 8 | 6 | 0 | 1 | 0 | 5 | TRUE (0>=0) | Loop again |\n| 9 | 7 | 0 | 1 | 0 | 5 | FALSE (0>0) | Enter ELSE |\n| 10 | 11 | 0 | 1 | 1 | 5 | - | ZERO_COUNT=1 |\n| 11 | 13 | 0 | 1 | 1 | 5 | - | READ 3 |\n| 12 | 6 | 3 | 1 | 1 | 5 | TRUE | Loop |\n| 13 | 7 | 3 | 1 | 1 | 5 | TRUE | IF |\n| 14 | 8 | 3 | 2 | 1 | 5 | - | POS_COUNT=2 |\n| 15 | 9 | 3 | 2 | 1 | 8 | - | POS_SUM=8 |\n| 16 | 13 | 3 | 2 | 1 | 8 | - | READ 0 |\n| 17 | 6 | 0 | 2 | 1 | 8 | TRUE | Loop |\n| 18 | 7 | 0 | 2 | 1 | 8 | FALSE | ELSE |\n| 19 | 11 | 0 | 2 | 2 | 8 | - | ZERO_COUNT=2 |\n| 20 | 13 | 0 | 2 | 2 | 8 | - | READ 7 |\n| 21 | 6 | 7 | 2 | 2 | 8 | TRUE | Loop |\n| 22 | 7 | 7 | 2 | 2 | 8 | TRUE | IF |\n| 23 | 8 | 7 | 3 | 2 | 8 | - | POS_COUNT=3 |\n| 24 | 9 | 7 | 3 | 2 | 15 | - | POS_SUM=15 |\n| 25 | 13 | 7 | 3 | 2 | 15 | - | READ -1 |\n| 26 | 6 | -1 | 3 | 2 | 15 | FALSE (-1>=0) | Exit loop |\n| 27 | 15 | -1 | 3 | 2 | 15 | - | PRINT 3, 2, 15 |\n\n**Output: 3, 2, 15**\nA poor answer missing the READ inside the loop (infinite loop) or not tracing the ELSE branch for zeros reveals inability to trace sentinel-controlled loops with multiple counters.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A dry run is the systematic manual simulation of an algorithm's execution using specific input values, where the tracer records the value of every variable at each step in a trace table to verify logical correctness and predict the exact output before ______.",
+     "a": "implementation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you wrote a recipe for \"Perfect Masala Chai\" with steps like \"boil water, add tea leaves, simmer for 2 minutes, add milk, boil once more.\" Before serving it to guests, you'd mentally walk through each step with specific ______ — 200ml water, 1 tsp tea, 50ml milk — checking if the sequence makes sense.",
+     "a": "quantities",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently construct a complete trace table for any algorithm containing sequence, selection (if-else), and iteration (while/for loops) with nested constructs, correctly update all variable values at each step, identify logical errors such as off-by-one loops or incorrect condition evaluation, and state the final.",
+     "self_check": true
     }
    ]
   }

@@ -31,8 +31,33 @@
      "self_check": true
     },
     {
-     "q": "Design a simple classification activity for Class 6 students using 10 common kitchen items (e.g., turmeric, cumin, rice, wheat, salt, sugar, tea leaves, coffee beans, chili powder, mustard seeds). Create a two-level hierarchy (Group → Subgroup) based on *biological origin* (plant part + plant family), not culinary use. Show your scheme and explain why this mimics scientific classification.",
-     "a": "Good answer example:\n**Group 1: Seeds/Fruits** → Subgroup A: Cereal grains (rice, wheat — Poaceae family) | Subgroup B: Spice seeds (cumin, mustard — Apiaceae & Brassicaceae)\n**Group 2: Underground parts** → Subgroup A: Rhizome (turmeric — Zingiberaceae) | Subgroup B: Not applicable\n**Group 3: Leaves/Buds** → Subgroup A: Tea leaves (Camellia sinensis — Theaceae)\n**Group 4: Non-plant** → Salt (mineral)\n**Group 5: Processed/Composite** → Coffee beans (roasted seeds, Rubiaceae), Chili powder (ground fruit, Solanaceae), Sugar (extracted sucrose)\n*Why it mimics science:* Groups reflect evolutionary origin (plant family) and homologous structures (seed vs rhizome), not superficial traits (color, taste). It's hierarchical, predictive (all Poaceae share grain structure), and uses universal criteria. A poor answer grouping by \"spices vs grains\" or \"powder vs whole\" uses *analogous* (culinary) criteria — exactly what scientific classification avoids.",
+     "q": "Give the correct order of levels when building a two-level classification of kitchen items by biological origin.",
+     "a": "The hierarchy builds: (1) Sort items into broad groups by shared biological origin (2) Split each group into subgroups by plant part or family (3) Name every level after its single shared characteristic (4) Place each item in exactly one subgroup, leaving non-plant items like salt in their own group. A wrong answer that mixes culinary use with biological origin, or lets an item sit in two subgroups, shows the student has not grasped that classification imposes a single consistent hierarchy that supports identification, communication and the study of relationships among organisms.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Classification is the scientific process of grouping living organisms into hierarchical categories based on shared ______ and evolutionary relationships, enabling systematic study, identification, and communication about the vast diversity of life.",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine walking into a massive library in Delhi where millions of books are piled randomly on the floor with no shelves, no labels, and no catalog — finding a specific book on Indian ______ plants would take months.",
+     "a": "medicinal",
+     "self_check": true
+    },
+    {
+     "q": "What is Classification? State the definition given in this lesson.",
+     "a": "Classification is the scientific process of grouping living organisms into hierarchical categories based on shared characteristics and evolutionary relationships, enabling systematic study, identification, and communication about the vast diversity of life.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Classification?",
+     "a": "Students often believe classification is primarily about \"naming things\" or \"putting labels on organisms\" — a static filing system.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain at least three distinct reasons why classification is necessary (e.g., organization, identification, evolutionary insight) using specific examples, and can predict the practical problems scientists would face without a standardized classification system.",
      "self_check": true
     }
    ]

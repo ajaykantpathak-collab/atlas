@@ -34,6 +34,31 @@
      "q": "Design a thought experiment to determine whether an unknown diatomic gas X₂ is paramagnetic or diamagnetic using only a strong magnet and a sensitive balance. Describe the procedure, expected observations for each case, and how you would interpret the results.",
      "a": "Procedure: Place a sealed quartz tube containing gaseous X₂ on one pan of a sensitive analytical balance. Bring a strong neodymium magnet close to the tube (without touching) and record mass change. Repeat with magnet removed. \nExpected: If paramagnetic (e.g., O₂), the gas is attracted to the magnet → apparent mass increases (or pan moves down). If diamagnetic (e.g., N₂), the gas is weakly repelled → apparent mass decreases (or pan moves up). \nInterpretation: Mass increase → unpaired electrons → paramagnetic. Mass decrease → all electrons paired → diamagnetic. \nA poor answer (e.g., \"heat the gas and see if it glows\" or \"bubble through water\") reveals inability to connect magnetic properties to measurable force, or confusion between chemical reactivity and magnetic response.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Bond order is defined as half the difference between the number of electrons in bonding molecular orbitals (Nb) and ______ molecular orbitals (Na): Bond Order = ½(Nb – Na).",
+     "a": "antibonding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you bring a strong magnet near liquid oxygen (which can be condensed from air using liquid nitrogen in a school lab), the liquid oxygen is visibly attracted and clings to the magnet poles — a dramatic demonstration of ______.",
+     "a": "paramagnetism",
+     "self_check": true
+    },
+    {
+     "q": "What is Bond order? State the definition given in this lesson.",
+     "a": "Bond order is defined as half the difference between the number of electrons in bonding molecular orbitals (Nb) and antibonding molecular orbitals (Na): Bond Order = ½(Nb – Na).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Bond order?",
+     "a": "Students often write the MO configuration for O₂⁺ as σ1s² σ*1s² σ2s² σ*2s² σ2pz² π2px² π2py² π*2px¹ (removing electron from π*) instead of correctly removing from σ2pz (the HOMO for O₂/F₂ ordering).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate bond order for any homonuclear diatomic molecule (H₂ to Ne₂) and heteronuclear diatomic molecules (CO, NO, CN⁻) from molecular orbital electronic configuration, predict magnetic behaviour (paramagnetic/diamagnetic), and correlate bond order with bond length and bond dissociation energy trends.",
+     "self_check": true
     }
    ]
   }

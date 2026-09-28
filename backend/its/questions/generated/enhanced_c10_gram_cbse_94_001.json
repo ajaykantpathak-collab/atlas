@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c10_gram_cbse_94_001",
+ "concepts": [
+  {
+   "id": "enh:c10_gram_cbse_94_001",
+   "title": "c10_gram_cbse_94_001",
+   "questions": [
+    {
+     "q": "'___ honesty is the best policy.' Which article, and why?",
+     "a": "Zero — abstract uncountable used generically. A wrong answer 'the honesty' reveals the student marks every noun as needing an article — the over-specification error, from Hindi where abstract nouns can take determiners differently.",
+     "self_check": true
+    },
+    {
+     "q": "Choose: '___ European' / '___ honest man'.",
+     "a": "'a European' (yoo- consonant sound) and 'an honest man' (silent h → vowel sound). A wrong answer 'an European' proves the student applies the rule to spelling, not pronunciation — the single most-tested determiner trap.",
+     "self_check": true
+    },
+    {
+     "q": "'She goes to ___ school by bus' vs 'The parents met at ___ school.'",
+     "a": "First: zero article (school-as-purpose: to study). Second: 'the school' (the building, a place). A wrong answer putting 'the' in the first reveals the student doesn't know institutions drop 'the' when used for their purpose — go to school/hospital/church/bed.",
+     "self_check": true
+    },
+    {
+     "q": "Article choice follows a ______ algorithm: (1) Is the noun specific/known to both speaker and listener?",
+     "a": "two-question",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Article choice follows a two-question ______: (1) Is the noun specific/known to both speaker and listener? → 'the'.",
+     "a": "algorithm",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The dog was huge.' First ______ = 'a' (new information), second = 'the' (now we both know which dog).",
+     "a": "mention",
+     "self_check": true
+    },
+    {
+     "q": "What is Article choice follows a two-question algorithm? State the definition given in this lesson.",
+     "a": "Article choice follows a two-question algorithm: (1) Is the noun specific/known to both speaker and listener? → 'the'.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Article choice follows a two-question algorithm: (______) Is the noun specific/known to both speaker and listener? → 'the'.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Article choice follows a two-question algorithm?",
+     "a": "Students choose 'an' by spelling (writing 'an university'), use 'the' for general categories ('the dogs are faithful animals' — generic plural takes zero), and omit 'the' before unique objects.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student runs the specificity algorithm on any noun phrase — including uncountables, plurals, and proper nouns — and explains each choice by shared-knowledge vs first-mention, plus the vowel-sound rule for an (an hour, a university).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The dog was huge.' First mention = 'a' (new ______), second = 'the' (now we both know which dog).",
+     "a": "information",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

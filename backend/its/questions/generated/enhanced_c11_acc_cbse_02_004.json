@@ -34,6 +34,21 @@
      "q": "Create a realistic business scenario (Indian context, 3-4 sentences) where the going concern concept would be questionable. Include specific financial indicators and management actions. Then write the exact note disclosure that should appear in the financial statements.",
      "a": "Scenario: \"XYZ Textiles Ltd. (Mumbai) has accumulated losses of ₹45 crore exceeding its net worth of ₹10 crore. Current liabilities (₹30 crore) exceed current assets (₹12 crore). The bank has recalled a ₹15 crore term loan. However, the promoter has committed ₹20 crore fresh equity and negotiated a one-year moratorium with the bank.\" Disclosure: \"Note X: Material Uncertainty Related to Going Concern - The Company has incurred losses of ₹45 crore... [details]. Management believes going concern basis is appropriate based on promoter infusion and bank moratorium. If unable to continue, assets may realize at values lower than carrying amounts.\" A poor answer reveals inability to distinguish between technical insolvency and going concern doubt, or omission of management's mitigation plans.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Going Concern Concept assumes that a business entity will continue its operations indefinitely for the foreseeable future and has no intention or necessity to liquidate or ______ curtail its operations.",
+     "a": "significantly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you buy a ______ van for ₹8,00,000 for your online grocery business.",
+     "a": "delivery",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain why the going concern assumption is necessary for depreciation accounting, identify situations where the assumption may be inappropriate, and correctly apply it to determine asset valuation and expense recognition in given scenarios.",
+     "self_check": true
     }
    ]
   }

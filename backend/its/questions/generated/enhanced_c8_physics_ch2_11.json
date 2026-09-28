@@ -34,6 +34,21 @@
      "q": "Design a simple classroom experiment to demonstrate that a lead–acid cell (like a 6 V lantern battery) can be recharged, while a zinc–carbon cell cannot. List materials, procedure, and the observation that proves reversibility.",
      "a": "**Materials:** 6 V lead–acid battery, zinc–carbon AA cell, DC power supply (0–12 V), multimeter, connecting wires, 6 V bulb as load.  \n**Procedure:** 1) Discharge both cells through the bulb until voltage drops below 4 V (lead–acid) and 0.8 V (zinc–carbon). 2) Connect the power supply to the lead–acid cell at 7.2 V (2.4 V per cell) for 2 hours. 3) Measure open-circuit voltage of both cells. 4) Reconnect the bulb to each.  \n**Observation:** Lead–acid voltage rises to ~6.3 V and lights the bulb; zinc–carbon voltage remains near 0.8 V and bulb stays dark.  \nA poor answer uses only voltage measurement without a load test, missing that surface charge can mislead.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A rechargeable cell (secondary cell) uses a reversible chemical reaction that allows electrical energy to be restored by passing a current through it in the opposite direction, whereas a non-rechargeable cell (primary cell) uses an ______ chemical reaction that cannot be practically reversed, making it a single-use energy source.",
+     "a": "irreversible",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a TV remote (uses AA ______ cells that you throw away) and a mobile phone (uses a Li-ion battery you recharge daily).",
+     "a": "alkaline",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compare rechargeable and non-rechargeable cells across at least four parameters (reversibility, cost per use, environmental impact, self-discharge rate, and typical applications) and justify the choice of cell type for a given real-world device such as a TV remote, a smartphone, or a solar lantern.",
+     "self_check": true
     }
    ]
   }

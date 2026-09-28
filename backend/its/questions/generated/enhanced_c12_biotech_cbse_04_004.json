@@ -34,6 +34,31 @@
      "q": "Design a modern alternative strategy to produce human insulin in *E. coli* that avoids the use of cyanogen bromide and separate chain expression. Briefly outline the vector design, host strain, and purification tags you would use, and explain how you would ensure correct disulfide bond formation.",
      "a": "A modern strategy: clone a single gene encoding proinsulin (B-chain–C-peptide–A-chain) into a pET vector with an N-terminal His₆-tag and a TEV protease site. Express in *E. coli* SHuffle® strain (trxB⁻ gor⁻, cytoplasmic disulfide bond isomerase DsbC) to promote oxidative folding in the cytoplasm. Purify via Ni-NTA, cleave the His-tag with TEV protease, then use trypsin and carboxypeptidase B to remove the C-peptide at the engineered Lys-Arg sites, yielding mature insulin. This avoids CNBr (toxic), separate chains, and in vitro refolding. A poor answer would propose secretion to periplasm without addressing *E. coli*'s limited capacity for complex disulfide-bonded proteins.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Human insulin production via rDNA technology is the process of ______ biologically active human insulin in a recombinant host (typically *E. coli*) by separately expressing the A-chain (21 amino acids) and B-chain (30 amino acids) as fusion proteins, cleaving the fusion partners, and chemically reforming the two inter-chain and one intra-chain disulfide bonds to yield a product identical to native human insulin (Humulin®).",
+     "a": "synthesizing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ patient in 1980 who develops an allergic rash after every porcine insulin injection.",
+     "a": "diabetic",
+     "self_check": true
+    },
+    {
+     "q": "What is Human insulin production via rDNA technology? State the definition given in this lesson.",
+     "a": "Human insulin production via rDNA technology is the process of synthesizing biologically active human insulin in a recombinant host (typically *E. coli*) by separately expressing the A-chain (21 amino acids) and B-chain (30 amino acids) as fusion proteins, cleaving the fusion partners, and chemically reforming the two inter-chain and one.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Human insulin production via rDNA technology?",
+     "a": "Students often believe that the human insulin gene (coding for preproinsulin) can be directly inserted into *E. coli* and the bacteria will produce mature insulin.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) diagram the complete workflow from human insulin gene to purified Humulin® including vector design, host selection, fusion strategy, cleavage, and disulfide bond formation, and (2) explain why separate expression of A and B chains is necessary in *E. coli* and how the disulfide bonds are correctly.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a targeted intervention plan to raise the HDI of a hypothetical low-performing state (State Z: HDI 0.55, high infant mortality, female literacy 52%, per capita income $3,200 PPP) by 0.05 points in 5 years. Specify which HDI component you would prioritize, the specific schemes to converge, and the monitoring indicators.",
      "a": "Prioritize health (infant mortality) and female education — they have multiplicative effects on all three dimensions. Converge: (1) NHM + ICDS for home-based newborn care and nutrition (target: IMR <30), (2) Samagra Shiksha + Beti Bachao Beti Padhao for residential girls' schools and conditional cash transfers for secondary completion (target: female literacy >70%), (3) MGNREGS + PM-KISAN for income support to women-headed households. Monitor quarterly: IMR, neonatal mortality rate, female secondary GER, women's workforce participation. A poor answer proposes generic \"build more hospitals/schools\" without targeting the *binding constraint* (female agency) or using convergence — showing inability to translate HDI components into operational geography.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Human Development in India refers to the national and sub-national (state/UT) variations in the Human Development Index (HDI), which measures ______ in three dimensions: a long and healthy life (life expectancy at birth), access to knowledge (mean and expected years of schooling), and a decent standard of living (GNI per capita in PPP $).",
+     "a": "achievements",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the stark contrast in your own city: a well-equipped private hospital and an English-medium school in one neighbourhood, versus a ______ dispensary with no doctor and a primary school with a single teacher in another.",
+     "a": "government",
+     "self_check": true
+    },
+    {
+     "q": "What is Human Development in India? State the definition given in this lesson.",
+     "a": "Human Development in India refers to the national and sub-national (state/UT) variations in the Human Development Index (HDI), which measures achievements in three dimensions: a long and healthy life (life expectancy at birth), access to knowledge (mean and expected years of schooling), and a decent standard of living (GNI per capita in.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Human Development in India?",
+     "a": "Students think \"high per capita income = high HDI\" for Indian states.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) interpret India's national HDI trend and global rank from the latest Human Development Report, (2) identify and explain the top and bottom performing states using HDI components, and (3) analyze the structural causes of inter-state disparities (e.g., historical investment, social discrimination, governance) and link.",
+     "self_check": true
     }
    ]
   }

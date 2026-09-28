@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_02_003",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_02_003",
+   "title": "c12_leg_cbse_02_003",
+   "questions": [
+    {
+     "q": "What is the key statutory provision that empowers courts to refer pending cases to ADR mechanisms like arbitration, mediation, or Lok Adalat?",
+     "a": "Section 89 of the Code of Civil Procedure, 1908 (inserted by the 2002 Amendment) empowers courts to formulate settlement terms and refer disputes to arbitration, conciliation, judicial settlement (including Lok Adalat), or mediation. A wrong answer (e.g., \"Arbitration Act, 1996\" or \"Legal Services Authorities Act\") reveals the student confuses the ADR governing statutes with the court's referral power — Section 89 is the procedural gateway, while the Arbitration Act governs the arbitration process itself.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Supreme Court in BALCO v. Kaiser (2012) held that Part I of the Arbitration and Conciliation Act, 1996 does not apply to foreign-seated arbitrations, and how the 2015 Amendment changed this for interim relief.",
+     "a": "BALCO held that Part I applies only to arbitrations with their \"seat\" in India — the seat determines the supervisory jurisdiction (lex arbitri). Since the arbitration agreement designated London as the seat, Indian courts had no power under Section 9 (interim relief) or Section 34 (setting aside). The 2015 Amendment added a proviso to Section 2(2) making Section 9 applicable even to foreign-seated arbitrations, allowing Indian courts to grant interim relief regardless of seat. A wrong answer reveals confusion between \"governing law of contract\", \"procedural law of arbitration\", and \"seat\" — the three distinct legal layers in international arbitration.",
+     "self_check": true
+    },
+    {
+     "q": "A husband and wife have a matrimonial dispute. They want a process where a neutral third party helps them communicate and reach their own agreement, but the outcome is not imposed on them. Which ADR mechanism fits best, and why is it NOT arbitration?",
+     "a": "Mediation fits best — the mediator facilitates dialogue without imposing a solution; the parties control the outcome. Arbitration is wrong because the arbitrator renders a binding award (like a judgment) based on evidence and law, which the parties must accept. A wrong answer (e.g., \"conciliation\" or \"Lok Adalat\") shows the student cannot distinguish the *facilitative* role of a mediator from the *evaluative/interventionist* role of a conciliator or the *adjudicative* role of an arbitrator/Lok Adalat.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the enforceability of a Lok Adalat award, a mediation settlement agreement, and an arbitral award. Which has the highest precedential value for future disputes?",
+     "a": "All three are enforceable as court decrees: Lok Adalat award (Section 21, Legal Services Authorities Act), arbitral award (Section 36, Arbitration Act), and mediation settlement (if incorporated into a contract or consent decree). However, only the arbitral award *lacks* precedential value (stare decisis) — arbitrators are not bound by prior awards. Lok Adalat awards also have no precedential value. A wrong answer claiming arbitral awards set precedent reveals a fundamental misunderstanding: arbitration is a private, case-specific adjudication, not a source of law.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The Banking Ombudsman Scheme is more effective than a civil court for a consumer complaining about unauthorized UPI transactions.\" Support your evaluation with two specific advantages and one limitation of the Ombudsman mechanism.",
+     "a": "Advantages: (1) No court fee, no lawyer needed, faster resolution (typically 30–60 days); (2) Binding on the bank if the customer accepts the award (up to ₹20 lakh). Limitation: (1) No appeal on merits — only revision by RBI Governor; (2) Cannot handle disputes > ₹20 lakh or complex legal issues like fraud liability interpretation. A weak evaluation lists generic \"cheap/fast\" without citing the Scheme's jurisdictional limits or the binding-only-if-accepted nature, missing the nuance that it is *not* a court substitute for high-value or legally complex disputes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical dispute scenario where *both* conciliation and Lok Adalat could apply, but the choice between them changes the outcome. Explain the decisive factor.",
+     "a": "Scenario: A long-standing boundary dispute between two farming families in rural Maharashtra — they want to preserve their relationship and need a quick, low-cost resolution. Conciliation (under Arbitration Act, Part III) allows the conciliator to *propose* settlement terms, which if accepted become binding as an arbitral award (Section 73). Lok Adalat (under LSA Act) involves a judicial officer + lawyer + social worker; its award is final, non-appealable, but *only if both parties agree*. Decisive factor: If one party is reluctant, Lok Adalat fails (requires mutual consent at the end), but conciliation can proceed with the conciliator actively shaping a proposal. A poor answer treats them as interchangeable, ignoring that Lok Adalat is a *consensual* forum at the final stage, while conciliation is *process-driven* with an interventionist neutral.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

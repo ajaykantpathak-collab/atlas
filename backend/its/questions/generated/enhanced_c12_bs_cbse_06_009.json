@@ -34,6 +34,36 @@
      "q": "Design a blended off-the-job training program for 30 newly hired marketing executives in an FMCG company. The program must cover: product knowledge (50 SKUs), sales negotiation skills, and market data analysis using Excel. Use at least THREE different off-the-job methods. Specify: method for each topic, duration, sequence, and integration logic.",
      "a": "**Program Design:**\n1. **Product Knowledge (50 SKUs)** → Programmed Instruction (2 days): Self-paced modules with spaced repetition, immediate feedback, mastery checks. Efficient for large factual base; trainees progress at own speed.\n2. **Sales Negotiation Skills** → Case Study + Films (3 days): Day 1 — Film showing model negotiations (good/poor), followed by facilitated debrief. Days 2-3 — Case studies of real FMCG negotiation scenarios (shelf space, pricing, promotions), small-group analysis, role-play, facilitator feedback.\n3. **Market Data Analysis (Excel)** → Vestibule Training (2 days): Computer lab with actual sales datasets, guided exercises on pivot tables, forecasting, dashboard creation. Hands-on practice with real tools and data.\n**Sequence Logic:** Knowledge first (Programmed Instruction) → Application/Analysis (Case Study) → Technical Skill (Vestibule). Integration: Case studies reference product knowledge from Module 1; Excel exercises use negotiation outcome data from Module 2.\nA poor answer lists methods without sequence logic or integration — revealing the student sees methods as isolated tools, not components of a learning architecture.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Off-the-Job Training refers to training methods where employees learn away from the actual workplace, using simulated or classroom ______ to acquire knowledge and skills before applying them on the job.",
+     "a": "environments",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're the HR Manager at a nuclear power plant hiring 50 new ______.",
+     "a": "technicians",
+     "self_check": true
+    },
+    {
+     "q": "What is Off-the-Job Training? State the definition given in this lesson.",
+     "a": "Off-the-Job Training refers to training methods where employees learn away from the actual workplace, using simulated or classroom environments to acquire knowledge and skills before applying them on the job.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're the HR Manager at a nuclear power plant hiring ______ new technicians.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Off-the-Job Training?",
+     "a": "Students believe \"Off-the-job training = Classroom lectures only\" and treat all six methods as variations of passive listening.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish each off-the-job method by its defining features, typical use cases, and limitations, and (2) Recommend the most appropriate off-the-job method for a given organisational scenario with justification referencing cost, risk, skill type, and learning outcomes.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a GIS data model choice table for a **state-level watershed management project** that must handle: (a) daily rainfall grids from IMD, (b) cadastral parcel boundaries, (c) stream network with flow direction, (d) soil texture classes from lab samples. Create a 4-row table with columns: Data Theme, Phenomenon Type (Discrete/Continuous), Recommended Model, Key Justification (one NCERT advantage/disadvantage).",
      "a": "| Data Theme | Phenomenon Type | Recommended Model | Key Justification (NCERT) |\n|------------|-----------------|-------------------|---------------------------|\n| Daily rainfall grids | Continuous field | **Raster** | \"Compatible with satellite imagery\" + \"High spatial variability efficiently represented\" |\n| Cadastral parcel boundaries | Discrete objects | **Vector** | \"Accurate map output\" + \"Compact data structure\" for complex boundaries |\n| Stream network with flow direction | Discrete network | **Vector** | \"Efficient for network analysis\" (flow tracing, upstream/downstream) |\n| Soil texture classes (point samples) | Continuous field (interpolated) | **Raster** (after interpolation) | \"Simple data structure\" + \"Easy and efficient overlaying\" with rainfall/DEM for runoff modelling |\n\nA poor answer assigns vector to rainfall or raster to cadastral parcels, showing the student cannot match phenomenon behaviour to model structure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Vector and Raster are the two ______ spatial data models used in GIS to represent geographic features.",
+     "a": "fundamental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are looking at a ______ image of your city on a phone map app — the smooth shading of green for parks, blue for water bodies, and grey for built-up areas.",
+     "a": "satellite",
+     "self_check": true
+    },
+    {
+     "q": "What is Vector and Raster? State the definition given in this lesson.",
+     "a": "Vector and Raster are the two fundamental spatial data models used in GIS to represent geographic features.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the structural difference between vector and raster data models, identify which model is appropriate for a given geographic phenomenon (discrete vs continuous), and justify the choice based on storage efficiency, analytical requirements, and compatibility with data sources like satellite imagery.",
+     "self_check": true
     }
    ]
   }

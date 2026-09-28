@@ -46,7 +46,7 @@
    "title": "Solenoid Picture of a Bar Magnet",
    "section": "5.2.2",
    "definition": "A magnetised bar behaves like a tightly wound coil of circulating currents: slicing it yields two weaker magnets just as cutting a solenoid yields two shorter ones, and its moment equals that of the matching coil.",
-   "formula": "far_field = mu0 * mag_moment / (4 * pi * dist ** 3)",
+   "formula": "far_field = mu_0 * mag_moment / (4 * pi * dist ** 3)",
    "key_idea": "Far along the axis, solenoid and bar magnet produce the same 1 over distance cubed field, so the two are interchangeable as dipoles.",
    "textbook_ref": "leph105.txt section 5.2.2 (Eq. 5.1, finite solenoid axial field, Example 5.1)",
    "question_patterns": [
@@ -57,7 +57,7 @@
     "how would you decide which of two identical bars is the magnetised one using only the bars",
     "does every magnetic setup need a distinct north and south face"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -74,7 +74,16 @@
      "action": "match the far field",
      "explain": "the 1 over distance cubed axial decay agrees for coil and bar, fixing the equivalent moment"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "far_field = mu_0 * mag_moment / (4 * pi * dist ** 3)",
+     "compute": "far_field = mu_0 * mag_moment / (4 * pi * dist ** 3)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph105.5.2.3.1",
@@ -106,7 +115,16 @@
      "explain": "the twist magnitude is mB sin(theta)",
      "compute": "dipole_torque = moment_b * sin_tilt"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "dipole_torque = mag_moment * mag_field * sin_tilt",
+     "compute": "dipole_torque = mag_moment * mag_field * sin_tilt"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph105.5.2.3.2",
@@ -138,7 +156,16 @@
      "explain": "U = -mB cos(theta) with zero at 90 degrees",
      "compute": "dipole_energy = -moment_b * cos_tilt"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "dipole_energy = -mag_moment * mag_field * cos_tilt",
+     "compute": "dipole_energy = -mag_moment * mag_field * cos_tilt"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph105.5.2.3.3",
@@ -176,14 +203,23 @@
      "explain": "the applied work equals U2 minus U1",
      "compute": "work_turn = energy_final - energy_start"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "work_turn = mag_moment * mag_field * (cos_start - cos_final)",
+     "compute": "work_turn = mag_moment * mag_field * (cos_start - cos_final)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph105.5.2.4.1",
    "title": "Axial Field of a Short Bar Magnet",
    "section": "5.2.4",
    "definition": "On the magnet's axis, far compared with its length, the field is twice the dipole benchmark: mu0 times 2m over 4 pi r cubed, pointing along the moment.",
-   "formula": "axial_field = 2 * mu0 * mag_moment / (4 * pi * dist ** 3)",
+   "formula": "axial_field = 2 * mu_0 * mag_moment / (4 * pi * dist ** 3)",
    "key_idea": "The axial point gets double weight because the two pole contributions add along the axis instead of partly cancelling.",
    "textbook_ref": "leph105.txt section 5.2.4 (Eq. 5.5, Table 5.1 axial row, Example 5.7 data)",
    "question_patterns": [
@@ -208,14 +244,23 @@
      "explain": "B axial equals 2 times the base term",
      "compute": "axial_field = 2 * base_field"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "axial_field = 2 * mu_0 * mag_moment / (4 * pi * dist ** 3)",
+     "compute": "axial_field = 2 * mu_0 * mag_moment / (4 * pi * dist ** 3)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph105.5.2.4.2",
    "title": "Equatorial Field of a Short Bar Magnet",
    "section": "5.2.4",
    "definition": "On the magnet's perpendicular bisector, again far out, the field is the single dipole benchmark mu0 m over 4 pi r cubed, aimed opposite the moment direction.",
-   "formula": "equat_field = mu0 * mag_moment / (4 * pi * dist ** 3)",
+   "formula": "equat_field = mu_0 * mag_moment / (4 * pi * dist ** 3)",
    "key_idea": "Equator to axis strength runs 1 to 2 for the same distance, mirroring the electric dipole pattern with mu0 standing in for 1 over epsilon0.",
    "textbook_ref": "leph105.txt section 5.2.4 (Eq. 5.4, Table 5.1 equatorial row)",
    "question_patterns": [
@@ -234,7 +279,16 @@
      "explain": "the equatorial result is exactly mu0 m over 4 pi r cubed",
      "compute": "equat_field = mu0 * mag_moment / (4 * pi * dist ** 3)"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "equat_field = mu_0 * mag_moment / (4 * pi * dist ** 3)",
+     "compute": "equat_field = mu_0 * mag_moment / (4 * pi * dist ** 3)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph105.5.3.1",
@@ -295,7 +349,16 @@
      "explain": "M is defined as net dipole moment over sample volume",
      "compute": "magnetisation = net_moment / volume"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "magnetisation = net_moment / volume",
+     "compute": "magnetisation = net_moment / volume"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph105.5.4.2",
@@ -321,14 +384,23 @@
      "explain": "for a solenoid the intensity is simply H = nI",
      "compute": "intensity_field = turns_per_len * current"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "intensity_field = turns_per_len * current",
+     "compute": "intensity_field = turns_per_len * current"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph105.5.4.3",
    "title": "Field Inside a Material Core",
    "section": "5.4",
    "definition": "Filling a solenoid with matter of relative permeability mur multiplies the vacuum field: B = mu0 mur H, so a mur of 400 boosts the interior field four-hundredfold over the empty coil.",
-   "formula": "core_field = mu0 * perm_rel * intensity_field",
+   "formula": "core_field = mu_0 * perm_rel * intensity_field",
    "key_idea": "The material's aligned moments add their own field Bm = mu0 M on top of the driving field, which is how iron cores strengthen electromagnets.",
    "textbook_ref": "leph105.txt section 5.4 (Eqs. 5.9-5.10, 5.14-5.15, Example 5.5 parts b-d)",
    "question_patterns": [
@@ -353,7 +425,16 @@
      "explain": "B = mu0 mur H multiplies the vacuum response by mur",
      "compute": "core_field = mu0 * perm_rel * intensity_field"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "core_field = mu_0 * perm_rel * intensity_field",
+     "compute": "core_field = mu_0 * perm_rel * intensity_field"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph105.5.4.4",
@@ -371,7 +452,7 @@
     "why is only one of chi, mur and mu independent",
     "relate M to H for a linear magnetic material"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -388,7 +469,16 @@
      "action": "fold into mu0",
      "explain": "the absolute permeability mu = mu0 mur carries the same units as mu0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "perm_rel = 1 + chi",
+     "compute": "perm_rel = 1 + chi"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph105.5.5.1",
@@ -503,10 +593,24 @@
    "concept": "leph105.5.2.3.1",
    "question_type": "moment_from_torque",
    "question_pattern": "A short bar magnet tilted {tilt_deg} degrees from a {mag_field} T field feels a twist of {dipole_torque} J. What is its magnetic moment?",
-   "extracted_variables": {"mag_field": 0.25, "sin_tilt": 0.5, "dipole_torque": 0.045},
+   "extracted_variables": {
+    "mag_field": 0.25,
+    "sin_tilt": 0.5,
+    "dipole_torque": 0.045
+   },
    "solution_template": [
-    {"step": 1, "action": "field times tilt factor", "explain": "the torque reads mB sin(theta)", "compute": "denom_term = mag_field * sin_tilt"},
-    {"step": 2, "action": "solve for the moment", "explain": "divide the torque by B sin(theta)", "compute": "mag_moment = dipole_torque / denom_term"}
+    {
+     "step": 1,
+     "action": "field times tilt factor",
+     "explain": "the torque reads mB sin(theta)",
+     "compute": "denom_term = mag_field * sin_tilt"
+    },
+    {
+     "step": 2,
+     "action": "solve for the moment",
+     "explain": "divide the torque by B sin(theta)",
+     "compute": "mag_moment = dipole_torque / denom_term"
+    }
    ]
   },
   {
@@ -515,10 +619,24 @@
    "concept": "leph105.5.2.3.2",
    "question_type": "dipole_energy_extremes",
    "question_pattern": "A magnet of moment {mag_moment} J/T sits in a {mag_field} T field. Give its potential energy when aligned and when flipped against the field.",
-   "extracted_variables": {"mag_moment": 0.32, "mag_field": 0.15, "cos_tilt": -1.0},
+   "extracted_variables": {
+    "mag_moment": 0.32,
+    "mag_field": 0.15,
+    "cos_tilt": -1.0
+   },
    "solution_template": [
-    {"step": 1, "action": "mB scale", "explain": "energies swing between plus and minus mB", "compute": "moment_b = mag_moment * mag_field"},
-    {"step": 2, "action": "energy at the flipped tilt", "explain": "cos is -1 there, giving plus mB; aligned gives minus mB", "compute": "dipole_energy = -moment_b * cos_tilt"}
+    {
+     "step": 1,
+     "action": "mB scale",
+     "explain": "energies swing between plus and minus mB",
+     "compute": "moment_b = mag_moment * mag_field"
+    },
+    {
+     "step": 2,
+     "action": "energy at the flipped tilt",
+     "explain": "cos is -1 there, giving plus mB; aligned gives minus mB",
+     "compute": "dipole_energy = -moment_b * cos_tilt"
+    }
    ]
   },
   {
@@ -527,9 +645,18 @@
    "concept": "leph105.5.2.2.1",
    "question_type": "solenoid_moment",
    "question_pattern": "A tightly wound solenoid of {turns} turns and cross-section {area} m2 carries {current} A. What dipole moment does it present as a bar magnet?",
-   "extracted_variables": {"turns": 800.0, "area": 2.5e-04, "current": 3.0},
+   "extracted_variables": {
+    "turns": 800.0,
+    "area": 0.00025,
+    "current": 3.0
+   },
    "solution_template": [
-    {"step": 1, "action": "multiply turns, current, area", "explain": "m = N I A for the equivalent dipole", "compute": "mag_moment = turns * current * area"}
+    {
+     "step": 1,
+     "action": "multiply turns, current, area",
+     "explain": "m = N I A for the equivalent dipole",
+     "compute": "mag_moment = turns * current * area"
+    }
    ]
   },
   {
@@ -538,11 +665,31 @@
    "concept": "leph105.5.2.3.3",
    "question_type": "work_to_rotate_magnet",
    "question_pattern": "A {mag_moment} J/T magnet lies along a {mag_field} T field. How much work turns it (i) normal and (ii) opposite to the field?",
-   "extracted_variables": {"mag_moment": 1.5, "mag_field": 0.22, "cos_start": 1.0, "cos_final": 0.0},
+   "extracted_variables": {
+    "mag_moment": 1.5,
+    "mag_field": 0.22,
+    "cos_start": 1.0,
+    "cos_final": 0.0
+   },
    "solution_template": [
-    {"step": 1, "action": "start energy", "explain": "aligned means cos 1, U = -mB", "compute": "energy_start = -mag_moment * mag_field * cos_start"},
-    {"step": 2, "action": "final energy", "explain": "normal means cos 0, U = 0; opposite gives +mB", "compute": "energy_final = -mag_moment * mag_field * cos_final"},
-    {"step": 3, "action": "work applied", "explain": "W = U2 minus U1", "compute": "work_turn = energy_final - energy_start"}
+    {
+     "step": 1,
+     "action": "start energy",
+     "explain": "aligned means cos 1, U = -mB",
+     "compute": "energy_start = -mag_moment * mag_field * cos_start"
+    },
+    {
+     "step": 2,
+     "action": "final energy",
+     "explain": "normal means cos 0, U = 0; opposite gives +mB",
+     "compute": "energy_final = -mag_moment * mag_field * cos_final"
+    },
+    {
+     "step": 3,
+     "action": "work applied",
+     "explain": "W = U2 minus U1",
+     "compute": "work_turn = energy_final - energy_start"
+    }
    ]
   },
   {
@@ -551,10 +698,25 @@
    "concept": "leph105.5.4.3",
    "question_type": "core_field_and_intensity",
    "question_pattern": "A solenoid wound at {turns_per_len} turns/m carries {current} A around a core of relative permeability {perm_rel}. Find H and B inside.",
-   "extracted_variables": {"turns_per_len": 1000.0, "current": 2.0, "perm_rel": 400.0, "mu0": 1.2566e-06},
+   "extracted_variables": {
+    "turns_per_len": 1000.0,
+    "current": 2.0,
+    "perm_rel": 400.0,
+    "mu0": 1.2566e-06
+   },
    "solution_template": [
-    {"step": 1, "action": "intensity", "explain": "H = nI ignores the core", "compute": "intensity_field = turns_per_len * current"},
-    {"step": 2, "action": "core field", "explain": "B = mu0 mur H", "compute": "core_field = mu0 * perm_rel * intensity_field"}
+    {
+     "step": 1,
+     "action": "intensity",
+     "explain": "H = nI ignores the core",
+     "compute": "intensity_field = turns_per_len * current"
+    },
+    {
+     "step": 2,
+     "action": "core field",
+     "explain": "B = mu0 mur H",
+     "compute": "core_field = mu0 * perm_rel * intensity_field"
+    }
    ]
   }
  ],

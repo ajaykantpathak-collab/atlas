@@ -34,6 +34,26 @@
      "q": "Design a thought experiment: You have the equilibrium H₂(g) + I₂(g) ⇌ 2HI(g) at 448°C with Kc = 50.0. Starting with ONLY HI at 1.0 M in a 1 L vessel, predict whether the reaction proceeds forward or reverse to reach equilibrium. Justify without calculating Q (since Q is next topic). What would be the equilibrium concentration of HI?",
      "a": "Starting with only product (HI), the reaction MUST proceed in reverse (toward reactants) to reach equilibrium because initially [H₂] = [I₂] = 0, so the product/reactant ratio is effectively infinite, far exceeding Kc = 50. At equilibrium, let x = [H₂] = [I₂], then [HI] = 1.0 - 2x. Kc = (1.0 - 2x)²/x² = 50. Solving: (1.0 - 2x)/x = √50 ≈ 7.07 → 1.0 - 2x = 7.07x → 1.0 = 9.07x → x ≈ 0.11 M. [HI]_eq = 1.0 - 0.22 = 0.78 M. A student who says \"forward because Kc > 1\" confuses Kc magnitude with reaction direction. A student who cannot set up the ICE table needs practice with stoichiometric relationships.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Law of Chemical Equilibrium states that for a reversible reaction at constant ______, the ratio of the product of equilibrium concentrations of products raised to their stoichiometric coefficients to the product of equilibrium concentrations of reactants raised to their stoichiometric coefficients is a constant, denoted as Kc.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're in a chemistry lab watching the Haber ______: N₂(g) + 3H₂(g) ⇌ 2NH₃(g).",
+     "a": "process",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write the correct Kc expression for any homogeneous or heterogeneous equilibrium, calculate Kc from given equilibrium concentrations with proper units, and explain why pure solids and liquids are excluded from the Kc expression.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're in a ______ lab watching the Haber process: N₂(g) + 3H₂(g) ⇌ 2NH₃(g).",
+     "a": "chemistry",
+     "self_check": true
     }
    ]
   }

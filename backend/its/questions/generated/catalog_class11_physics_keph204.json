@@ -1,0 +1,99 @@
+{
+ "catalog": "catalog_class11_physics_keph204.json",
+ "concepts": [
+  {
+   "id": "keph204.11.5.1",
+   "title": "First Law of Thermodynamics",
+   "converted_to_compute": true,
+   "formula": "delta_u = heat_added - work_by",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "delta_u = heat_added - work_by",
+     "compute": "delta_u = heat_added - work_by"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For First Law of Thermodynamics: given heat_added = 58, work_by = 1514, find delta u.",
+     "a": "-1456",
+     "self_check": false
+    },
+    {
+     "q": "For First Law of Thermodynamics: given heat_added = 118, work_by = 4845, find delta u.",
+     "a": "-4727",
+     "self_check": false
+    },
+    {
+     "q": "For First Law of Thermodynamics: given heat_added = 96, work_by = 9619, find delta u.",
+     "a": "-9523",
+     "self_check": false
+    },
+    {
+     "q": "For First Law of Thermodynamics: given heat_added = 73, work_by = 4173, find delta u.",
+     "a": "-4100",
+     "self_check": false
+    },
+    {
+     "q": "For First Law of Thermodynamics: given heat_added = 93, work_by = 1483, find delta u.",
+     "a": "-1390",
+     "self_check": false
+    },
+    {
+     "q": "For First Law of Thermodynamics: given heat_added = 41, work_by = 7720, find delta u.",
+     "a": "-7679",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph204.11.11.1",
+   "title": "Heat Engines, Carnot Efficiency and the Second Law",
+   "converted_to_compute": true,
+   "formula": "carnot_eff = 1 - cold_temp / hot_temp",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "carnot_eff = 1 - cold_temp / hot_temp",
+     "compute": "carnot_eff = 1 - cold_temp / hot_temp"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Heat Engines, Carnot Efficiency and the Second Law: given cold_temp = 3.5, hot_temp = 79, find carnot eff.",
+     "a": "0.955696",
+     "self_check": false
+    },
+    {
+     "q": "For Heat Engines, Carnot Efficiency and the Second Law: given cold_temp = 77, hot_temp = 29, find carnot eff.",
+     "a": "-1.65517",
+     "self_check": false
+    },
+    {
+     "q": "For Heat Engines, Carnot Efficiency and the Second Law: given cold_temp = 63, hot_temp = 88, find carnot eff.",
+     "a": "0.284091",
+     "self_check": false
+    },
+    {
+     "q": "For Heat Engines, Carnot Efficiency and the Second Law: given cold_temp = 42, hot_temp = 91, find carnot eff.",
+     "a": "0.538462",
+     "self_check": false
+    },
+    {
+     "q": "For Heat Engines, Carnot Efficiency and the Second Law: given cold_temp = 70, hot_temp = 76, find carnot eff.",
+     "a": "0.0789474",
+     "self_check": false
+    },
+    {
+     "q": "For Heat Engines, Carnot Efficiency and the Second Law: given cold_temp = 118, hot_temp = 117, find carnot eff.",
+     "a": "-0.00854701",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

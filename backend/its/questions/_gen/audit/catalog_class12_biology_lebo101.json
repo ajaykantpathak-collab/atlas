@@ -1,0 +1,56 @@
+{
+ "catalog": "catalog_class12_biology_lebo101.json",
+ "concepts": [
+  {
+   "id": "lebo101.1.2.1.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "pmc_count = 421",
+      "microspores = pmc_count * 4"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pmc_count = 83",
+      "microspores = pmc_count * 4"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "pmc_count = 45",
+      "microspores = pmc_count * 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "pmc_count = 80",
+      "microspores = pmc_count * 4"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "pmc_count = 425",
+      "microspores = pmc_count * 4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "pmc_count = 249",
+      "microspores = pmc_count * 4"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "microspores = pmc_count * 4"
+   ]
+  }
+ ]
+}

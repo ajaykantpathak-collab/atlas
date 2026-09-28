@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_03_007",
+   "title": "c12_app_cbse_03_007",
+   "questions": [
+    {
+     "q": "What is the notation for the third order derivative of \\(y = f(x)\\) and how is it obtained from the second order derivative?",
+     "a": "The third order derivative is denoted by \\(\\frac{d^3y}{dx^3}\\) or \\(f'''(x)\\) or \\(y_3\\). It is obtained by differentiating the second order derivative \\(\\frac{d^2y}{dx^2}\\) once more with respect to \\(x\\): \\(\\frac{d^3y}{dx^3} = \\frac{d}{dx}\\left(\\frac{d^2y}{dx^2}\\right)\\). A wrong answer (e.g., \"differentiate \\(f(x)\\) three times at once\" or confusing notation like \\(\\frac{d^3y}{dx}\\)) reveals the student treats higher derivatives as a single-step operation rather than iterative, and doesn't grasp the recursive definition \\(f^{(n)} = (f^{(n-1)})'\\).",
+     "self_check": true
+    },
+    {
+     "q": "A student computes \\(\\frac{d^2}{dx^2}(\\log x)\\) as \\(\\frac{1}{x^2}\\). Identify the error and explain why the sign matters for concavity interpretation.",
+     "a": "The correct second derivative is \\(-\\frac{1}{x^2}\\). The student forgot the negative sign from differentiating \\(x^{-1}\\): \\(\\frac{d}{dx}(x^{-1}) = -x^{-2}\\). The sign determines concavity: \\(f''(x) < 0\\) for \\(x>0\\) means \\(\\log x\\) is concave down (graph lies below tangents). A missing negative leads to wrongly concluding the graph is concave up, which flips the interpretation of local maxima/minima in optimisation problems.",
+     "self_check": true
+    },
+    {
+     "q": "If \\(x = a\\cos^3\\theta\\), \\(y = a\\sin^3\\theta\\), find \\(\\frac{d^2y}{dx^2}\\) at \\(\\theta = \\frac{\\pi}{4}\\).",
+     "a": "First, \\(\\frac{dx}{d\\theta} = -3a\\cos^2\\theta\\sin\\theta\\), \\(\\frac{dy}{d\\theta} = 3a\\sin^2\\theta\\cos\\theta\\). Then \\(\\frac{dy}{dx} = \\frac{dy/d\\theta}{dx/d\\theta} = -\\tan\\theta\\). Differentiate w.r.t. \\(\\theta\\): \\(\\frac{d}{d\\theta}(-\\tan\\theta) = -\\sec^2\\theta\\). Now \\(\\frac{d^2y}{dx^2} = \\frac{d}{dx}\\left(\\frac{dy}{dx}\\right) = \\frac{d/d\\theta(dy/dx)}{dx/d\\theta} = \\frac{-\\sec^2\\theta}{-3a\\cos^2\\theta\\sin\\theta} = \\frac{\\sec^2\\theta}{3a\\cos^2\\theta\\sin\\theta} = \\frac{1}{3a\\cos^4\\theta\\sin\\theta}\\). At \\(\\theta = \\pi/4\\): \\(\\cos\\theta = \\sin\\theta = 1/\\sqrt{2}\\), so \\(\\frac{d^2y}{dx^2} = \\frac{1}{3a(1/4)(1/\\sqrt{2})} = \\frac{4\\sqrt{2}}{3a}\\). A wrong answer typically arises from forgetting the chain rule step \\(\\frac{d}{dx} = \\frac{d/d\\theta}{dx/d\\theta}\\) for the second derivative, or sign errors in \\(\\frac{dx}{d\\theta}\\).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the information given by \\(f'(c)=0\\) and \\(f''(c)>0\\) versus \\(f'(c)=0\\) and \\(f''(c)<0\\). Why does the second derivative test fail when \\(f''(c)=0\\)?",
+     "a": "\\(f'(c)=0\\) and \\(f''(c)>0\\) ⇒ local minimum (slope changes from negative to positive, concave up). \\(f'(c)=0\\) and \\(f''(c)<0\\) ⇒ local maximum (slope changes from positive to negative, concave down). When \\(f''(c)=0\\), the test fails because the concavity doesn't tell us if the slope changes sign — it could be an inflection point (e.g., \\(f(x)=x^3\\) at \\(x=0\\)) or still an extremum (e.g., \\(f(x)=x^4\\) at \\(x=0\\)). The student must then revert to the first derivative test (sign chart of \\(f'\\)). A wrong answer that says \"\\(f''(c)=0\\) means inflection point\" reveals confusion between necessary and sufficient conditions.",
+     "self_check": true
+    },
+    {
+     "q": "A company's marginal cost function is \\(MC(x) = 3x^2 - 24x + 50\\). The manager claims \"Marginal cost is minimised at \\(x=4\\) because \\(MC'(4)=0\\).\" Evaluate this claim using the second derivative.",
+     "a": "\\(MC'(x) = 6x - 24\\), so \\(MC'(4) = 0\\) — correct, \\(x=4\\) is a critical point. \\(MC''(x) = 6 > 0\\) for all \\(x\\), so \\(MC''(4) = 6 > 0\\). By the second derivative test, \\(MC\\) has a local minimum at \\(x=4\\). The claim is **correct and fully justified**. A student who only checks \\(MC'(4)=0\\) but omits \\(MC''(4)>0\\) gives an incomplete justification — they haven't verified it's a minimum, not a maximum or inflection. In board exams, both conditions must be stated for full marks.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where the third derivative (jerk) matters, and explain what \\(f'''(x) > 0\\) would mean in that scenario.",
+     "a": "Scenario: A metro train's position \\(s(t)\\) along a track. \\(s'(t)\\) = velocity, \\(s''(t)\\) = acceleration, \\(s'''(t)\\) = jerk (rate of change of acceleration). If \\(s'''(t) > 0\\), acceleration is increasing — the train is \"jerking\" forward more sharply, causing passenger discomfort. Good design minimises jerk. A poor answer gives a generic \"rate of change of acceleration\" without a concrete scenario or confuses jerk with acceleration. This tests if the student can extend the \"rate of change of rate of change\" concept to the next level and interpret its physical meaning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

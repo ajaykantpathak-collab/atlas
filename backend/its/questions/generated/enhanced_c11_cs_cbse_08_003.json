@@ -34,6 +34,21 @@
      "q": "Design a function `is_even(n)` that returns `True` if `n` is even, `False` otherwise. Then write a program that reads an integer from the user, calls `is_even`, and prints \"Even\" or \"Odd\" based on the returned boolean value. Provide the complete code.",
      "a": "```python\ndef is_even(n):\n    return n % 2 == 0\n\nnum = int(input(\"Enter an integer: \"))\nif is_even(num):\n    print(\"Even\")\nelse:\n    print(\"Odd\")\n```\nA good answer uses `return` with a boolean expression and uses the function call directly in the `if` condition. A poor answer might print inside `is_even` and then try to use the return value, or use `print` instead of `return`, showing inability to design a predicate function that returns a value for decision-making.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Calling a function executes the code block defined by that function, ______ control to it with optional arguments; the function may optionally send back a value to the caller using the return statement, which terminates the function and replaces the function call expression with the returned value.",
+     "a": "transferring",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a recipe card (function ______) for \"make_chai\" that lists steps but doesn't actually make tea until you follow it.",
+     "a": "definition",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write code that correctly calls a user-defined function with appropriate arguments, captures the returned value in a variable or uses it directly in an expression, and explains what happens when a function lacks a return statement or returns None.",
+     "self_check": true
     }
    ]
   }

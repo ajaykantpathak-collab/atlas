@@ -4,15 +4,9 @@
   {
    "id": "hemh.108.8.1",
    "title": "Monomials, Binomials, Trinomials and Polynomials",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute the given values and simplify",
-     "explain": "substitute the given values and simplify: val = 3 * 6 + 6 gives 24",
-     "compute": "val = 3 * 6 + 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "sum = coef_a + coef_b for like terms",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 6 when x = 6.",
@@ -50,6 +44,8 @@
    "id": "hemh.108.8.2",
    "title": "Multiplying Monomials",
    "converted_to_compute": false,
+   "formula": "product = coef1 * coef2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 4 when x = 9.",
@@ -86,15 +82,9 @@
   {
    "id": "hemh.108.8.3",
    "title": "Multiplying a Monomial by a Binomial",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute the given values and simplify",
-     "explain": "substitute the given values and simplify: val = 3 * 4 + 2 gives 14",
-     "compute": "val = 3 * 4 + 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 2 when x = 4.",
@@ -131,15 +121,9 @@
   {
    "id": "hemh.108.8.4",
    "title": "Multiplying Two Binomials",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute the given values and simplify",
-     "explain": "substitute the given values and simplify: val = 3 * 9 + 6 gives 33",
-     "compute": "val = 3 * 9 + 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 6 when x = 9.",
@@ -177,6 +161,8 @@
    "id": "hemh.108.8.5",
    "title": "Standard Identities",
    "converted_to_compute": false,
+   "formula": "value = a * a + 2 * a * b + b * b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Use the identity (a + b)^2 = a^2 + 2ab + b^2 to find the square of 5 more than 3; report the value.",

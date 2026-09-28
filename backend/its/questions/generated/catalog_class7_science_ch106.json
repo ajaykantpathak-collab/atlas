@@ -2,6 +2,194 @@
  "catalog": "catalog_class7_science_ch106.json",
  "concepts": [
   {
+   "id": "gesc.6.2.1",
+   "title": "Breathing Rate Calculation",
+   "converted_to_compute": true,
+   "formula": "breathing_rate = total_breaths / time_minutes",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "breathing_rate = total_breaths / time_minutes",
+     "compute": "breathing_rate = total_breaths / time_minutes"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Breathing Rate Calculation: given total_breaths = 44, time_minutes = 31, find breathing rate.",
+     "a": "1.41935",
+     "self_check": false
+    },
+    {
+     "q": "For Breathing Rate Calculation: given total_breaths = 94, time_minutes = 60, find breathing rate.",
+     "a": "1.56667",
+     "self_check": false
+    },
+    {
+     "q": "For Breathing Rate Calculation: given total_breaths = 19.1, time_minutes = 2.8, find breathing rate.",
+     "a": "6.82143",
+     "self_check": false
+    },
+    {
+     "q": "For Breathing Rate Calculation: given total_breaths = 70, time_minutes = 56, find breathing rate.",
+     "a": "1.25",
+     "self_check": false
+    },
+    {
+     "q": "For Breathing Rate Calculation: given total_breaths = 51, time_minutes = 35, find breathing rate.",
+     "a": "1.45714",
+     "self_check": false
+    },
+    {
+     "q": "For Breathing Rate Calculation: given total_breaths = 10.1, time_minutes = 46, find breathing rate.",
+     "a": "0.219565",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gesc.6.3.1",
+   "title": "Mechanism of Human Breathing",
+   "converted_to_compute": true,
+   "formula": "tidal_movement = chest_cavity_expansion - chest_cavity_contraction",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "tidal_movement = chest_cavity_expansion - chest_cavity_contraction",
+     "compute": "tidal_movement = chest_cavity_expansion - chest_cavity_contraction"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Mechanism of Human Breathing: given chest_cavity_expansion = 50, chest_cavity_contraction = 70, find tidal movement.",
+     "a": "-20",
+     "self_check": false
+    },
+    {
+     "q": "For Mechanism of Human Breathing: given chest_cavity_expansion = 109, chest_cavity_contraction = 77, find tidal movement.",
+     "a": "32",
+     "self_check": false
+    },
+    {
+     "q": "For Mechanism of Human Breathing: given chest_cavity_expansion = 81, chest_cavity_contraction = 66, find tidal movement.",
+     "a": "15",
+     "self_check": false
+    },
+    {
+     "q": "For Mechanism of Human Breathing: given chest_cavity_expansion = 91, chest_cavity_contraction = 67, find tidal movement.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "For Mechanism of Human Breathing: given chest_cavity_expansion = 58, chest_cavity_contraction = 86, find tidal movement.",
+     "a": "-28",
+     "self_check": false
+    },
+    {
+     "q": "For Mechanism of Human Breathing: given chest_cavity_expansion = 78, chest_cavity_contraction = 109, find tidal movement.",
+     "a": "-31",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gesc.6.3.2",
+   "title": "Chest Expansion Measurement",
+   "converted_to_compute": true,
+   "formula": "chest_expansion = chest_inhalation - chest_exhalation",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "chest_expansion = chest_inhalation - chest_exhalation",
+     "compute": "chest_expansion = chest_inhalation - chest_exhalation"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Chest Expansion Measurement: given chest_inhalation = 99, chest_exhalation = 40, find chest expansion.",
+     "a": "59",
+     "self_check": false
+    },
+    {
+     "q": "For Chest Expansion Measurement: given chest_inhalation = 12.2, chest_exhalation = 60, find chest expansion.",
+     "a": "-47.8",
+     "self_check": false
+    },
+    {
+     "q": "For Chest Expansion Measurement: given chest_inhalation = 7.4, chest_exhalation = 113, find chest expansion.",
+     "a": "-105.6",
+     "self_check": false
+    },
+    {
+     "q": "For Chest Expansion Measurement: given chest_inhalation = 91, chest_exhalation = 48, find chest expansion.",
+     "a": "43",
+     "self_check": false
+    },
+    {
+     "q": "For Chest Expansion Measurement: given chest_inhalation = 12.8, chest_exhalation = 52, find chest expansion.",
+     "a": "-39.2",
+     "self_check": false
+    },
+    {
+     "q": "For Chest Expansion Measurement: given chest_inhalation = 53, chest_exhalation = 37, find chest expansion.",
+     "a": "16",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gesc.6.4.1",
+   "title": "Composition of Inhaled and Exhaled Air",
+   "converted_to_compute": true,
+   "formula": "oxygen_consumed_pct = inhaled_o_2_pct - exhaled_o_2_pct",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "oxygen_consumed_pct = inhaled_o_2_pct - exhaled_o_2_pct",
+     "compute": "oxygen_consumed_pct = inhaled_o_2_pct - exhaled_o_2_pct"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Composition of Inhaled and Exhaled Air: given inhaled_o_2_pct = 63, exhaled_o_2_pct = 29, find oxygen consumed pct.",
+     "a": "34",
+     "self_check": false
+    },
+    {
+     "q": "For Composition of Inhaled and Exhaled Air: given inhaled_o_2_pct = 97, exhaled_o_2_pct = 17.1, find oxygen consumed pct.",
+     "a": "79.9",
+     "self_check": false
+    },
+    {
+     "q": "For Composition of Inhaled and Exhaled Air: given inhaled_o_2_pct = 20, exhaled_o_2_pct = 94, find oxygen consumed pct.",
+     "a": "-74",
+     "self_check": false
+    },
+    {
+     "q": "For Composition of Inhaled and Exhaled Air: given inhaled_o_2_pct = 37, exhaled_o_2_pct = 7, find oxygen consumed pct.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "For Composition of Inhaled and Exhaled Air: given inhaled_o_2_pct = 86, exhaled_o_2_pct = 63, find oxygen consumed pct.",
+     "a": "23",
+     "self_check": false
+    },
+    {
+     "q": "For Composition of Inhaled and Exhaled Air: given inhaled_o_2_pct = 97, exhaled_o_2_pct = 21, find oxygen consumed pct.",
+     "a": "76",
+     "self_check": false
+    }
+   ]
+  },
+  {
    "id": "gesc.6.1.1",
    "title": "Aerobic Cellular Respiration",
    "solution_type": "verify_property",
@@ -64,274 +252,6 @@
      "q": "How is the cramp relieved?",
      "a": "Rest and a hot water bath improve blood flow, washing lactic acid away.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "gesc.6.2.1",
-   "title": "Breathing Rate Calculation",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "breathing_rate",
-     "expr": "total_breaths / time_minutes",
-     "explain": "count breaths per minute"
-    },
-    {
-     "step": 2,
-     "name": "breaths_10min",
-     "expr": "(total_breaths / time_minutes) * 10",
-     "explain": "breaths in ten minutes at this rate"
-    },
-    {
-     "step": 3,
-     "name": "breaths_per_hour",
-     "expr": "breathing_rate * 60",
-     "explain": "the same rate per hour"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A person takes 66 breaths in 3 minutes at rest. Find the breathing rate per minute and per hour.",
-     "vals": {
-      "total_breaths": 66,
-      "time_minutes": 3
-     },
-     "unit": "breaths/min",
-     "steps": null,
-     "a": "1320 breaths/min",
-     "self_check": false
-    },
-    {
-     "q": "After exercise a runner breathes 120 times in 2 minutes. Calculate the breathing rate.",
-     "vals": {
-      "total_breaths": 120,
-      "time_minutes": 2
-     },
-     "unit": "breaths/min",
-     "steps": null,
-     "a": "3600 breaths/min",
-     "self_check": false
-    },
-    {
-     "q": "A child breathes 100 times in 4 minutes. What is the rate per minute, and per hour?",
-     "vals": {
-      "total_breaths": 100,
-      "time_minutes": 4
-     },
-     "unit": "breaths/min",
-     "steps": null,
-     "a": "1500 breaths/min",
-     "self_check": false
-    },
-    {
-     "q": "During sleep 72 breaths occur in 3 minutes. Find the breathing rate.",
-     "vals": {
-      "total_breaths": 72,
-      "time_minutes": 3
-     },
-     "unit": "breaths/min",
-     "steps": null,
-     "a": "1440 breaths/min",
-     "self_check": false
-    },
-    {
-     "q": "A swimmer holds practice breathing of 90 breaths in 1.5 minutes. Compute the rate.",
-     "vals": {
-      "total_breaths": 90,
-      "time_minutes": 1.5
-     },
-     "unit": "breaths/min",
-     "steps": null,
-     "a": "3600 breaths/min",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "gesc.6.3.1",
-   "title": "Mechanism of Human Breathing",
-   "solution_type": "verify_property",
-   "questions": [
-    {
-     "q": "What happens when we breathe in?",
-     "a": "The diaphragm flattens and ribs rise; chest space grows, pressure falls and air rushes into the lungs.",
-     "self_check": true
-    },
-    {
-     "q": "Which muscle plays the main role in breathing?",
-     "a": "The diaphragm, a sheet below the lungs that moves down and up.",
-     "self_check": true
-    },
-    {
-     "q": "Why is the breathing rate faster during exercise?",
-     "a": "Muscles need more oxygen and must release more CO2, so breathing speeds up.",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "gesc.6.3.2",
-   "title": "Chest Expansion Measurement",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "average_girth",
-     "expr": "(chest_inhalation + chest_exhalation) / 2",
-     "explain": "average chest girth"
-    },
-    {
-     "step": 2,
-     "name": "per_side_expansion",
-     "expr": "(chest_inhalation - chest_exhalation) / 2",
-     "explain": "expansion shared on each side"
-    },
-    {
-     "step": 3,
-     "name": "chest_expansion",
-     "expr": "chest_inhalation - chest_exhalation",
-     "explain": "total expansion on deep inhalation"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A student's chest measures 30 inches after normal exhale and 33 inches after deep inhale. Find the chest expansion.",
-     "vals": {
-      "chest_inhalation": 33,
-      "chest_exhalation": 30
-     },
-     "unit": "inches",
-     "steps": null,
-     "a": "3 inches",
-     "self_check": false
-    },
-    {
-     "q": "Chest reading is 28 inches exhaled and 31 inches inhaled. Calculate the expansion.",
-     "vals": {
-      "chest_inhalation": 31,
-      "chest_exhalation": 28
-     },
-     "unit": "inches",
-     "steps": null,
-     "a": "3 inches",
-     "self_check": false
-    },
-    {
-     "q": "An athlete's chest goes from 34 to 38 inches between exhale and inhale. What is the expansion?",
-     "vals": {
-      "chest_inhalation": 38,
-      "chest_exhalation": 34
-     },
-     "unit": "inches",
-     "steps": null,
-     "a": "4 inches",
-     "self_check": false
-    },
-    {
-     "q": "Measurements of 26 and 28.5 inches give what chest expansion?",
-     "vals": {
-      "chest_inhalation": 28.5,
-      "chest_exhalation": 26
-     },
-     "unit": "inches",
-     "steps": null,
-     "a": "2.5 inches",
-     "self_check": false
-    },
-    {
-     "q": "A person exhales at 32 inches and inhales at 35.5 inches. Find the expansion.",
-     "vals": {
-      "chest_inhalation": 35.5,
-      "chest_exhalation": 32
-     },
-     "unit": "inches",
-     "steps": null,
-     "a": "3.5 inches",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "gesc.6.4.1",
-   "title": "Composition of Inhaled and Exhaled Air",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "exhaled_fraction",
-     "expr": "exhaled_o2_pct / inhaled_o2_pct",
-     "explain": "fraction of oxygen still exhaled"
-    },
-    {
-     "step": 2,
-     "name": "used_fraction",
-     "expr": "1 - (exhaled_o2_pct / inhaled_o2_pct)",
-     "explain": "fraction of oxygen the body used"
-    },
-    {
-     "step": 3,
-     "name": "oxygen_consumed_pct",
-     "expr": "(1 - (exhaled_o2_pct / inhaled_o2_pct)) * inhaled_o2_pct",
-     "explain": "oxygen consumed per breath"
-    }
-   ],
-   "questions": [
-    {
-     "q": "Inhaled air has 21% oxygen and exhaled air about 16%. What per cent of oxygen is consumed by the body?",
-     "vals": {
-      "inhaled_o2_pct": 21,
-      "exhaled_o2_pct": 16
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "5 %",
-     "self_check": false
-    },
-    {
-     "q": "If exhaled air holds 17% oxygen while inhaled has 21%, what percentage is used up?",
-     "vals": {
-      "inhaled_o2_pct": 21,
-      "exhaled_o2_pct": 17
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "4 %",
-     "self_check": false
-    },
-    {
-     "q": "A sample of exhaled air shows 15.5% oxygen. With inhaled at 21%, compute the consumption.",
-     "vals": {
-      "inhaled_o2_pct": 21,
-      "exhaled_o2_pct": 15.5
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "5.5 %",
-     "self_check": false
-    },
-    {
-     "q": "In an experiment inhaled oxygen is 20.9% and exhaled 16.4%. Find the oxygen taken by the body.",
-     "vals": {
-      "inhaled_o2_pct": 20.9,
-      "exhaled_o2_pct": 16.4
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "4.5 %",
-     "self_check": false
-    },
-    {
-     "q": "Fish-like efficiency aside, a diver's tank air has 21% O2 and exhaled bubbles show 18%. What was consumed?",
-     "vals": {
-      "inhaled_o2_pct": 21,
-      "exhaled_o2_pct": 18
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "3 %",
-     "self_check": false
     }
    ]
   },

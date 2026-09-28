@@ -1,0 +1,278 @@
+{
+ "catalog": "catalog_class9_science_ch110.json",
+ "concepts": [
+  {
+   "id": "iesc.10.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "periodic_oscillations = 36",
+      "vibrations = periodic_oscillations"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "periodic_oscillations = 23",
+      "vibrations = periodic_oscillations"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "periodic_oscillations = 59",
+      "vibrations = periodic_oscillations"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "periodic_oscillations = 16",
+      "vibrations = periodic_oscillations"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "periodic_oscillations = 65",
+      "vibrations = periodic_oscillations"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "periodic_oscillations = 83",
+      "vibrations = periodic_oscillations"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "vibrations = periodic_oscillations"
+   ]
+  },
+  {
+   "id": "iesc.10.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "time_period = 33",
+      "frequency = 1 / time_period"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "time_period = 33",
+      "frequency = 1 / time_period"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "time_period = 31",
+      "frequency = 1 / time_period"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "time_period = 31",
+      "frequency = 1 / time_period"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "time_period = 15.3",
+      "frequency = 1 / time_period"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "time_period = 15.3",
+      "frequency = 1 / time_period"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "frequency = 1 / time_period"
+   ]
+  },
+  {
+   "id": "iesc.10.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "wavelength = 90",
+      "frequency = 706",
+      "speed = wavelength * frequency"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "wavelength = 90",
+      "frequency = 706",
+      "speed = wavelength * frequency"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "wavelength = 316",
+      "frequency = 342",
+      "speed = wavelength * frequency"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "wavelength = 316",
+      "frequency = 342",
+      "speed = wavelength * frequency"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "wavelength = 141",
+      "frequency = 780",
+      "speed = wavelength * frequency"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "wavelength = 141",
+      "frequency = 780",
+      "speed = wavelength * frequency"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "speed = wavelength * frequency"
+   ]
+  },
+  {
+   "id": "iesc.10.7",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "speed = 92",
+      "time = 71",
+      "distance = (speed * time) / 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "speed = 18.5",
+      "time = 81",
+      "distance = (speed * time) / 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "speed = 71",
+      "time = 75",
+      "distance = (speed * time) / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "speed = 7",
+      "time = 101",
+      "distance = (speed * time) / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "speed = 29",
+      "time = 20",
+      "distance = (speed * time) / 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "speed = 116",
+      "time = 112",
+      "distance = (speed * time) / 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "distance = (speed * time) / 2"
+   ]
+  },
+  {
+   "id": "iesc.10.8",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "speed = 23",
+      "time = 68",
+      "depth = (speed * time) / 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "speed = 102",
+      "time = 18.6",
+      "depth = (speed * time) / 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "speed = 112",
+      "time = 58",
+      "depth = (speed * time) / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "speed = 68",
+      "time = 117",
+      "depth = (speed * time) / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "speed = 65",
+      "time = 11.4",
+      "depth = (speed * time) / 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "speed = 54",
+      "time = 46",
+      "depth = (speed * time) / 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "depth = (speed * time) / 2"
+   ]
+  }
+ ]
+}

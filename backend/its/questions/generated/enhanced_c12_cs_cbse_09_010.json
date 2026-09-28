@@ -34,6 +34,21 @@
      "q": "Design a small Python project structure for a \"Student Grade Calculator\" that uses at least two user-defined modules. Describe the files, their responsibilities, and how they import each other. Include a `main.py` that uses the modules.",
      "a": "Example structure:\n- `grade_calculator.py`: contains `calculate_average(marks_list)`, `assign_grade(average)`.\n- `data_utils.py`: contains `read_marks_from_csv(filename)`, `write_report_to_txt(student, grade)`.\n- `main.py`: imports both: `import grade_calculator, data_utils`. Uses `data_utils.read_marks_from_csv`, passes data to `grade_calculator.calculate_average`, then `grade_calculator.assign_grade`, finally `data_utils.write_report_to_txt`.\nA good answer shows clear separation of concerns (calculation vs I/O), correct import syntax, and no circular imports. A poor answer puts everything in one file or creates circular dependencies, indicating the student hasn't grasped modular design.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A user-defined module in Python is a .py file containing Python definitions (functions, classes, variables) that can be imported into other Python scripts using the import statement, enabling code reuse and modular ______.",
+     "a": "organization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a school library ______ system.",
+     "a": "management",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can create a Python module file with multiple functions, save it correctly, import it in another script using both import module and from module import function syntax, call the imported functions with appropriate arguments, and explain the purpose of the if __name__ == \"__main__\": guard.",
+     "self_check": true
     }
    ]
   }

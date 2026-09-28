@@ -34,6 +34,36 @@
      "q": "Design a qualitative analysis scheme to separate and identify Ni²⁺, Co²⁺, and Fe³⁺ in a mixture using selective complexation/precipitation. Specify reagents, conditions (pH, concentration), and the coordination chemistry principle (stability constant, geometry, redox) exploited at each step.",
      "a": "Good answer: (1) Add NH₄Cl/NH₃ buffer (pH 10) + (NH₄)₂S → Fe³⁺ precipitates as Fe₂S₃ (hydrolyzes to Fe(OH)₃), while Ni²⁺/Co²⁺ stay as [Ni(NH₃)₆]²⁺/[Co(NH₃)₆]²⁺ (high Kf with NH₃). Filter. (2) Filtrate: Add DMG in slightly acidic NH₄Cl medium → Ni²⁺ precipitates as red [Ni(DMG)₂] (square planar, very high Kf, chelate effect). Co²⁺ remains as [Co(NH₃)₆]²⁺ (DMG doesn't precipitate Co²⁺). Filter. (3) Filtrate: Oxidize Co²⁺ to Co³⁺ with H₂O₂/heat in NH₃ → forms stable [Co(NH₃)₆]³⁺ (low-spin d⁶, high CFSE). Confirm by color/stability. Poor answer uses only group reagents (H₂S in acid/alkali) without justifying *why* coordination chemistry (Kf, geometry, oxidation state) enables separation — missing the \"application\" depth.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Coordination compounds are complex entities where a central metal atom/ion is bonded to surrounding ligands via coordinate bonds, exhibiting unique properties (color, magnetism, stability) that enable their critical roles in biological systems (oxygen transport, photosynthesis), medicine (chelation therapy, anticancer drugs), analytical chemistry (EDTA titrations, indicators), metallurgy (______ extraction, purification), and industry (catalysis, electroplating).",
+     "a": "hydrometallurgical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real-world observation: When you get a blood test, the red color comes from hemoglobin — an iron ______ complex that carries O₂.",
+     "a": "coordination",
+     "self_check": true
+    },
+    {
+     "q": "What is Coordination compounds? State the definition given in this lesson.",
+     "a": "Coordination compounds are complex entities where a central metal atom/ion is bonded to surrounding ligands via coordinate bonds, exhibiting unique properties (color, magnetism, stability) that enable their critical roles in biological systems (oxygen transport, photosynthesis), medicine (chelation therapy, anticancer drugs), analytical.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Connect to prior nodes: The stability of [Ni(DMG)₂] (node ______: magnetic properties → square planar diamagnetic) explains its selective precipitation.",
+     "a": "008",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Coordination compounds?",
+     "a": "Students think \"chelate effect\" only means \"multidentate ligands form more stable complexes\" and write it as a blanket statement.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Explain the role of coordination compounds in at least three distinct real-world domains (biological, medicinal, analytical, metallurgical, industrial) with specific examples and chemical equations; (2) Predict the outcome of a qualitative/quantitative analysis based on complex formation (e.g., EDTA titration for water.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Construct a problem where you are given three points A(0,0), B(4,0), C(2,3) and asked to find a fourth point D such that A, B, C, D are concyclic. Provide the coordinates of D and justify your answer using the angle condition.",
      "a": "One possible D is (2, -1). The circle through A, B, C has center (2, 1.25) and radius √(2² + 1.25²) ≈ 2.358. Point D(2, -1) lies on this circle. To justify using angle condition: In quadrilateral ABCD, ∠ACB is the angle subtended by chord AB at C. For D to be concyclic, ∠ADB must equal ∠ACB. Compute slopes: AC slope = 3/2, BC slope = -3/2 → ∠ACB ≈ 90° (since product = -9/4 ≠ -1, not exactly 90°). Actually, easier: The perpendicular bisectors of AB and AC intersect at circumcenter. Any point on that circle works. A poor answer picking D arbitrarily without checking the angle condition or circle equation reveals the student cannot apply the concyclic condition to coordinate geometry.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Concyclic points are a set of points that all lie on the ______ of the same circle.",
+     "a": "circumference",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a circular garden in your school courtyard and you have four trees at the corners of a ______ plot.",
+     "a": "quadrilateral",
+     "self_check": true
+    },
+    {
+     "q": "What is Concyclic points? State the definition given in this lesson.",
+     "a": "Concyclic points are a set of points that all lie on the circumference of the same circle.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For four or more points to be concyclic, a necessary and sufficient condition is that the opposite angles of the quadrilateral formed by them sum to ______° (supplementary), or equivalently, the angle subtended by a chord at the circumference is equal for all points on the same segment.",
+     "a": "180",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Concyclic points?",
+     "a": "Students often think that if a quadrilateral has one pair of opposite angles supplementary, it is automatically cyclic.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state the definition of concyclic points, identify when three or four points are concyclic using the angle condition, and prove that a given set of four points is concyclic by showing opposite angles are supplementary or angles in the same segment are equal.",
+     "self_check": true
     }
    ]
   }

@@ -1,315 +1,324 @@
 {
-  "class": 11,
-  "subject": "applied_maths",
-  "chapter": 13,
-  "chapter_title": "Practical and Project Work",
-  "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am11_013_practical_project.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "concepts": [
+ "class": 11,
+ "subject": "applied_maths",
+ "chapter": 13,
+ "chapter_title": "Practical and Project Work",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am11_013_practical_project.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "am11_013.1",
+   "title": "Internal Assessment Mark Structure",
+   "section": "13 assessment structure",
+   "definition": "The internal assessment carries 20 marks split evenly between project work and practical work, and each of those halves again splits into a record-plus-performance component and a year-end presentation-or-test component, five marks at each of the four corners.",
+   "formula": "total = project + practical",
+   "key_idea": "Four boxes of five marks: project record, project viva, practical performance, practical test.",
+   "textbook_ref": "am11_013_practical_project.txt, assessment structure: 20 marks, 5 + 5 project, 5 + 5 practical",
+   "question_patterns": [
+    "how are the 20 marks of internal assessment divided between project and practical work",
+    "a student scores 4 for the project record, 3 for the viva, 5 for practical performance and 4 for the practical test; find the internal assessment total",
+    "how many marks does the year end presentation and viva of the project carry",
+    "what is the maximum mark for the performance of the practical and its record",
+    "add up the four internal assessment components and state the total out of",
+    "a student earns 4, 3, 5 and 4 in the four components; find the total out of 20"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "am11_013.1",
-      "title": "Internal Assessment Mark Structure",
-      "section": "13 assessment structure",
-      "definition": "The internal assessment carries 20 marks split evenly between project work and practical work, and each of those halves again splits into a record-plus-performance component and a year-end presentation-or-test component, five marks at each of the four corners.",
-      "formula": "total = project + practical",
-      "key_idea": "Four boxes of five marks: project record, project viva, practical performance, practical test.",
-      "textbook_ref": "am11_013_practical_project.txt, assessment structure: 20 marks, 5 + 5 project, 5 + 5 practical",
-      "question_patterns": [
-        "how are the 20 marks of internal assessment divided between project and practical work",
-        "a student scores 4 for the project record, 3 for the viva, 5 for practical performance and 4 for the practical test; find the internal assessment total",
-        "how many marks does the year end presentation and viva of the project carry",
-        "what is the maximum mark for the performance of the practical and its record",
-        "add up the four internal assessment components and state the total out of",
-        "a student earns 4, 3, 5 and 4 in the four components; find the total out of 20"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "add the two project components",
-          "explain": "project record plus the year end presentation and viva",
-          "compute": "project = record + viva"
-        },
-        {
-          "step": 2,
-          "action": "add the two practical components",
-          "explain": "performance of the practical plus the year end test of one practical",
-          "compute": "practical = perf + test"
-        },
-        {
-          "step": 3,
-          "action": "combine the two halves",
-          "explain": "the full internal assessment score",
-          "compute": "total = project + practical"
-        }
-      ]
+     "step": 1,
+     "action": "add the two project components",
+     "explain": "project record plus the year end presentation and viva",
+     "compute": "project = record + viva"
     },
     {
-      "id": "am11_013.2",
-      "title": "Spreadsheet Average of a Data Range",
-      "section": "13 practical: use of spreadsheet",
-      "definition": "The spreadsheet AVERAGE cell formula computes the mean of a highlighted data range: it adds every cell in the range and divides by the number of entries, exactly the hand arithmetic of an average.",
-      "formula": "avg = total / count",
-      "key_idea": "AVERAGE is just sum of the range divided by how many cells it holds.",
-      "textbook_ref": "am11_013_practical_project.txt, spreadsheet practicals: AVERAGE for the mean of a data range, compute the average of given data",
-      "question_patterns": [
-        "use the spreadsheet AVERAGE idea to find the mean of the range whose entries add to 230 over 5 cells",
-        "compute the average of the survey data entered in column B with total 96 over 8 responses",
-        "what does the AVERAGE formula return for a range holding 12, 15, 9, 20 and 14",
-        "a teacher enters 25 marks with a sum of 140; what mean does the spreadsheet show",
-        "find the average of the given data and state the cell formula behind it",
-        "find the average the sheet shows for 5 cells whose entries add to 165"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "add up every entry in the range",
-          "explain": "the spreadsheet does this inside the AVERAGE formula; here the total is the sum of the column",
-          "compute": "total = entry1 + entry2 + entry3 + entry4"
-        },
-        {
-          "step": 2,
-          "action": "divide by the number of entries",
-          "explain": "the mean shown in the result cell",
-          "compute": "avg = total / count"
-        }
-      ]
+     "step": 2,
+     "action": "add the two practical components",
+     "explain": "performance of the practical plus the year end test of one practical",
+     "compute": "practical = perf + test"
     },
     {
-      "id": "am11_013.3",
-      "title": "Spreadsheet Practical: Simple Interest Cell",
-      "section": "13 practical: use of spreadsheet",
-      "definition": "The listed spreadsheet practical computes simple interest at given rates for given periods: principal, rate and years sit in labelled cells and the interest cell multiplies them with the percent conversion.",
-      "formula": "si = p * r * t / 100",
-      "key_idea": "One cell formula reproduces the whole simple interest table row.",
-      "textbook_ref": "am11_013_practical_project.txt, suggested practicals: compute simple and compound interest at given rates for given periods",
-      "question_patterns": [
-        "in the interest practical the sheet holds 4000 at 5 percent for 3 years; compute the simple interest cell",
-        "fill the interest cell of the practical sheet for a principal of 12000 at 6 percent over 2 years",
-        "a practical sheet holds p 2500, r 8 and t 4 in its cells; what interest does the formula cell show",
-        "in the spreadsheet rows compare the interest cell at 4 percent and 9 percent for the same principal and period",
-        "how does the interest cell change if the period column doubles from 2 years to 4",
-        "record simple interest at the given rates for the given periods in the practical record"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "multiply principal, rate and period with the percent conversion",
-          "explain": "the fixed fraction of the principal per year times the years",
-          "compute": "si = p * r * t / 100"
-        }
-      ]
-    },
-    {
-      "id": "am11_013.4",
-      "title": "Compound Interest Growth Across Rows",
-      "section": "13 practical: use of spreadsheet",
-      "definition": "The compound interest practical fills one spreadsheet row per period: each row multiplies the previous balance by one plus the rate, so the balance column grows geometrically and the final cell holds the accumulated amount.",
-      "formula": "amount = p * growth",
-      "key_idea": "Each row applies the same multiplier to the row above; the factor is one plus the rate raised to the row count.",
-      "textbook_ref": "am11_013_practical_project.txt, spreadsheet practicals: compound-interest growth across rows, simple and compound interest practicals",
-      "question_patterns": [
-        "build the compound interest rows for 5000 at 10 percent for 3 years and read the final balance",
-        "what amount does the sheet show after 2 years on 8000 at 5 percent",
-        "each row multiplies the previous balance by 1.06; what is the balance after 4 rows starting from 2000",
-        "compare the final compound balance with the simple interest total on the same cells",
-        "compute the maturity cell of the compound interest practical for p 10000, r 8, years 2",
-        "why does each spreadsheet row need the previous balance rather than the original principal"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "form the yearly multiplier",
-          "explain": "one plus the rate as a fraction",
-          "compute": "mult = 1 + r / 100"
-        },
-        {
-          "step": 2,
-          "action": "apply it once per row",
-          "explain": "years counts the filled rows",
-          "compute": "growth = mult ** years"
-        },
-        {
-          "step": 3,
-          "action": "scale the opening balance",
-          "explain": "the final balance cell",
-          "compute": "amount = p * growth"
-        }
-      ]
-    },
-    {
-      "id": "am11_013.5",
-      "title": "Pictograph Symbol Counts",
-      "section": "13 practical: charts",
-      "definition": "A pictograph shows data by repeating a picture symbol, each standing for a fixed number of items. The number of symbols needed for an amount is the amount divided by the value of one symbol.",
-      "formula": "symbols = amount / each",
-      "key_idea": "Divide the quantity by what one picture stands for; draw that many symbols.",
-      "textbook_ref": "am11_013_practical_project.txt, spreadsheet practicals: create pictographs, chart insertion for pictographs",
-      "question_patterns": [
-        "a pictograph uses one book symbol for 10 books; how many symbols show 60 books",
-        "how many stick figures are needed for 45 students if each figure stands for 5 students",
-        "the pictograph row for cricket shows 7 balls and each ball is 4 votes; how many votes is that",
-        "draw the pictograph for the survey where each cup equals 8 cups of sales and the total is 40",
-        "what does half a symbol mean in a pictograph and when would you need it",
-        "how many sun symbols are drawn for 72 sunny days if each sun stands for 6 days"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "divide the quantity by the value of one symbol",
-          "explain": "the count of picture symbols the row must display",
-          "compute": "symbols = amount / each"
-        }
-      ]
-    },
-    {
-      "id": "am11_013.6",
-      "title": "Pie Chart Sector Angles",
-      "section": "13 practical: charts",
-      "definition": "A pie chart spends the full 360 degrees of a circle among the categories, giving each a sector angle equal to its share of the total times 360.",
-      "formula": "angle = frac * 360",
-      "key_idea": "Share of the whole times 360 degrees is the slice to draw.",
-      "textbook_ref": "am11_013_practical_project.txt, spreadsheet practicals: draw pie charts for survey data, project presentation pie chart",
-      "question_patterns": [
-        "in a survey of 40 students, 10 prefer cricket; find the cricket sector angle of the pie chart",
-        "calculate the central angle for a category holding 15 of 60 responses",
-        "the family budget splits as rent 12, food 8 and savings 4; give each pie chart angle",
-        "why must all sector angles of a pie chart add to 360 degrees",
-        "a sector of 90 degrees is drawn; what share of the data does it represent",
-        "draw the pie chart for the school event budget cost splits"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "measure the category's fraction of the whole",
-          "explain": "the share is the category count over the grand total",
-          "compute": "frac = share / total"
-        },
-        {
-          "step": 2,
-          "action": "convert the share into circle degrees",
-          "explain": "a full circle is 360 degrees",
-          "compute": "angle = frac * 360"
-        }
-      ]
-    },
-    {
-      "id": "am11_013.7",
-      "title": "Choosing Between Pie and Bar Charts",
-      "section": "13 practical: charts",
-      "definition": "Each chart answers a different question: a pie chart shows how one whole splits into shares, a bar graph lines categories up for comparison by height, and a pictograph keeps counts concrete with repeated symbols. Picking the chart is matching the question to the display.",
-      "formula": "display = f(question, data)",
-      "key_idea": "Shares of one whole go to the pie; category against category goes to the bars.",
-      "textbook_ref": "am11_013_practical_project.txt, spreadsheet practicals: pictographs, pie charts and bar graphs for survey data",
-      "question_patterns": [
-        "which chart suits showing how the class survey splits into favourite sports",
-        "should monthly rainfall of different cities be compared on a pie chart or a bar graph",
-        "the project must present budget cost splits; which chart and why",
-        "when would a pictograph communicate better than a bar graph",
-        "the teacher asks for shares of a whole at a glance; name the chart",
-        "match each display to its purpose: pictograph, pie chart, bar graph"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "ask what the presentation must show: shares of a whole, category comparison, or concrete counts",
-          "explain": "the question selects the display"
-        },
-        {
-          "step": 2,
-          "action": "match it to the chart whose geometry carries that message",
-          "explain": "circle shares, bar heights, or repeated symbols"
-        },
-        {
-          "step": 3,
-          "action": "check the chosen chart uses all the data exactly once",
-          "explain": "pie shares must exhaust the total; bars compare independent categories"
-        }
-      ]
+     "step": 3,
+     "action": "combine the two halves",
+     "explain": "the full internal assessment score",
+     "compute": "total = project + practical"
     }
-  ],
-  "worked_examples": [
+   ]
+  },
+  {
+   "id": "am11_013.2",
+   "title": "Spreadsheet Average of a Data Range",
+   "section": "13 practical: use of spreadsheet",
+   "definition": "The spreadsheet AVERAGE cell formula computes the mean of a highlighted data range: it adds every cell in the range and divides by the number of entries, exactly the hand arithmetic of an average.",
+   "formula": "avg = total / count",
+   "key_idea": "AVERAGE is just sum of the range divided by how many cells it holds.",
+   "textbook_ref": "am11_013_practical_project.txt, spreadsheet practicals: AVERAGE for the mean of a data range, compute the average of given data",
+   "question_patterns": [
+    "use the spreadsheet AVERAGE idea to find the mean of the range whose entries add to 230 over 5 cells",
+    "compute the average of the survey data entered in column B with total 96 over 8 responses",
+    "what does the AVERAGE formula return for a range holding 12, 15, 9, 20 and 14",
+    "a teacher enters 25 marks with a sum of 140; what mean does the spreadsheet show",
+    "find the average of the given data and state the cell formula behind it",
+    "find the average the sheet shows for 5 cells whose entries add to 165"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "am11_013.we1",
-      "source_ref": "am11_013 spreadsheet practical: AVERAGE of a range of 5 entries with sum 230",
-      "concept": "am11_013.2",
-      "question_type": "compute",
-      "question_pattern": "the spreadsheet range holds 5 entries adding to 230; what does AVERAGE return",
-      "extracted_variables": {
-        "entry1": 40,
-        "entry2": 50,
-        "entry3": 60,
-        "entry4": 80,
-        "total": 230,
-        "count": 5
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "sum the range",
-          "compute": "total = entry1 + entry2 + entry3 + entry4"
-        },
-        {
-          "step": 2,
-          "action": "divide by the entry count",
-          "compute": "avg = total / count"
-        }
-      ]
+     "step": 1,
+     "action": "add up every entry in the range",
+     "explain": "the spreadsheet does this inside the AVERAGE formula; here the total is the sum of the column",
+     "compute": "total = entry1 + entry2 + entry3 + entry4"
     },
     {
-      "id": "am11_013.we2",
-      "source_ref": "am11_013 project idea: class survey of 40 students, 10 prefer cricket, present as pie chart",
-      "concept": "am11_013.6",
-      "question_type": "compute",
-      "question_pattern": "in a survey of 40 students, 10 prefer cricket; find the cricket sector angle of the pie chart",
-      "extracted_variables": {
-        "share": 10,
-        "total": 40
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "fraction preferring cricket",
-          "compute": "frac = share / total"
-        },
-        {
-          "step": 2,
-          "action": "sector angle",
-          "compute": "angle = frac * 360"
-        }
-      ]
+     "step": 2,
+     "action": "divide by the number of entries",
+     "explain": "the mean shown in the result cell",
+     "compute": "avg = total / count"
     }
-  ],
-  "exercises": [
+   ]
+  },
+  {
+   "id": "am11_013.3",
+   "title": "Spreadsheet Practical: Simple Interest Cell",
+   "section": "13 practical: use of spreadsheet",
+   "definition": "The listed spreadsheet practical computes simple interest at given rates for given periods: principal, rate and years sit in labelled cells and the interest cell multiplies them with the percent conversion.",
+   "formula": "si = p * r * t / 100",
+   "key_idea": "One cell formula reproduces the whole simple interest table row.",
+   "textbook_ref": "am11_013_practical_project.txt, suggested practicals: compute simple and compound interest at given rates for given periods",
+   "question_patterns": [
+    "in the interest practical the sheet holds 4000 at 5 percent for 3 years; compute the simple interest cell",
+    "fill the interest cell of the practical sheet for a principal of 12000 at 6 percent over 2 years",
+    "a practical sheet holds p 2500, r 8 and t 4 in its cells; what interest does the formula cell show",
+    "in the spreadsheet rows compare the interest cell at 4 percent and 9 percent for the same principal and period",
+    "how does the interest cell change if the period column doubles from 2 years to 4",
+    "record simple interest at the given rates for the given periods in the practical record"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "am11_013.ex1",
-      "source_ref": "am11_013 suggested practicals",
-      "questions": [
-        "Enter the marks 12, 15, 9, 20, 14 in a spreadsheet and use the average formula to find the mean.",
-        "Compute simple interest at 5 percent and compound interest at 5 percent for 4000 over 2 years, and state which is larger.",
-        "A pictograph uses one tree symbol for 15 saplings; how many symbols show 90 saplings?",
-        "Draw the pie chart for a survey of 60 students in which 15 choose football, 25 choose cricket and 20 choose hockey; give all three sector angles.",
-        "Draw a bar graph for the data of the previous question and say which display shows shares better.",
-        "A student scores 5, 4, 4, 5 in the four internal assessment components; find the total out of 20."
-      ]
+     "step": 1,
+     "action": "multiply principal, rate and period with the percent conversion",
+     "explain": "the fixed fraction of the principal per year times the years",
+     "compute": "si = p * r * t / 100"
+    }
+   ]
+  },
+  {
+   "id": "am11_013.4",
+   "title": "Compound Interest Growth Across Rows",
+   "section": "13 practical: use of spreadsheet",
+   "definition": "The compound interest practical fills one spreadsheet row per period: each row multiplies the previous balance by one plus the rate, so the balance column grows geometrically and the final cell holds the accumulated amount.",
+   "formula": "amount = p * growth",
+   "key_idea": "Each row applies the same multiplier to the row above; the factor is one plus the rate raised to the row count.",
+   "textbook_ref": "am11_013_practical_project.txt, spreadsheet practicals: compound-interest growth across rows, simple and compound interest practicals",
+   "question_patterns": [
+    "build the compound interest rows for 5000 at 10 percent for 3 years and read the final balance",
+    "what amount does the sheet show after 2 years on 8000 at 5 percent",
+    "each row multiplies the previous balance by 1.06; what is the balance after 4 rows starting from 2000",
+    "compare the final compound balance with the simple interest total on the same cells",
+    "compute the maturity cell of the compound interest practical for p 10000, r 8, years 2",
+    "why does each spreadsheet row need the previous balance rather than the original principal"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "form the yearly multiplier",
+     "explain": "one plus the rate as a fraction",
+     "compute": "mult = 1 + r / 100"
     },
     {
-      "id": "am11_013.ex2",
-      "source_ref": "am11_013 project ideas and expectations",
-      "questions": [
-        "Plan a class survey project: state the question, collect the data, tabulate it and choose the chart for the final presentation with reasons.",
-        "Compare two mobile plans using simple and compound interest arithmetic on the upfront cost treated as a principal for one year.",
-        "Maintain a family utility-bill register for one month, split the electricity units into slabs and present the cost shares as a pie chart.",
-        "Draft a school event budget with cost splits for venue, food and decoration, and give the pie chart angle of the food share if it is 6000 of 24000.",
-        "Write the four components of the internal assessment with their marks and compute a sample total.",
-        "Explain what the year end practical test checks about spreadsheet formulas and interpretation of results."
-      ]
+     "step": 2,
+     "action": "apply it once per row",
+     "explain": "years counts the filled rows",
+     "compute": "growth = mult ** years"
+    },
+    {
+     "step": 3,
+     "action": "scale the opening balance",
+     "explain": "the final balance cell",
+     "compute": "amount = p * growth"
     }
-  ]
+   ]
+  },
+  {
+   "id": "am11_013.5",
+   "title": "Pictograph Symbol Counts",
+   "section": "13 practical: charts",
+   "definition": "A pictograph shows data by repeating a picture symbol, each standing for a fixed number of items. The number of symbols needed for an amount is the amount divided by the value of one symbol.",
+   "formula": "symbols = amount / each",
+   "key_idea": "Divide the quantity by what one picture stands for; draw that many symbols.",
+   "textbook_ref": "am11_013_practical_project.txt, spreadsheet practicals: create pictographs, chart insertion for pictographs",
+   "question_patterns": [
+    "a pictograph uses one book symbol for 10 books; how many symbols show 60 books",
+    "how many stick figures are needed for 45 students if each figure stands for 5 students",
+    "the pictograph row for cricket shows 7 balls and each ball is 4 votes; how many votes is that",
+    "draw the pictograph for the survey where each cup equals 8 cups of sales and the total is 40",
+    "what does half a symbol mean in a pictograph and when would you need it",
+    "how many sun symbols are drawn for 72 sunny days if each sun stands for 6 days"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide the quantity by the value of one symbol",
+     "explain": "the count of picture symbols the row must display",
+     "compute": "symbols = amount / each"
+    }
+   ]
+  },
+  {
+   "id": "am11_013.6",
+   "title": "Pie Chart Sector Angles",
+   "section": "13 practical: charts",
+   "definition": "A pie chart spends the full 360 degrees of a circle among the categories, giving each a sector angle equal to its share of the total times 360.",
+   "formula": "angle = frac * 360",
+   "key_idea": "Share of the whole times 360 degrees is the slice to draw.",
+   "textbook_ref": "am11_013_practical_project.txt, spreadsheet practicals: draw pie charts for survey data, project presentation pie chart",
+   "question_patterns": [
+    "in a survey of 40 students, 10 prefer cricket; find the cricket sector angle of the pie chart",
+    "calculate the central angle for a category holding 15 of 60 responses",
+    "the family budget splits as rent 12, food 8 and savings 4; give each pie chart angle",
+    "why must all sector angles of a pie chart add to 360 degrees",
+    "a sector of 90 degrees is drawn; what share of the data does it represent",
+    "draw the pie chart for the school event budget cost splits"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "measure the category's fraction of the whole",
+     "explain": "the share is the category count over the grand total",
+     "compute": "frac = share / total"
+    },
+    {
+     "step": 2,
+     "action": "convert the share into circle degrees",
+     "explain": "a full circle is 360 degrees",
+     "compute": "angle = frac * 360"
+    }
+   ]
+  },
+  {
+   "id": "am11_013.7",
+   "title": "Choosing Between Pie and Bar Charts",
+   "section": "13 practical: charts",
+   "definition": "Each chart answers a different question: a pie chart shows how one whole splits into shares, a bar graph lines categories up for comparison by height, and a pictograph keeps counts concrete with repeated symbols. Picking the chart is matching the question to the display.",
+   "formula": "display = f(question, data)",
+   "key_idea": "Shares of one whole go to the pie; category against category goes to the bars.",
+   "textbook_ref": "am11_013_practical_project.txt, spreadsheet practicals: pictographs, pie charts and bar graphs for survey data",
+   "question_patterns": [
+    "which chart suits showing how the class survey splits into favourite sports",
+    "should monthly rainfall of different cities be compared on a pie chart or a bar graph",
+    "the project must present budget cost splits; which chart and why",
+    "when would a pictograph communicate better than a bar graph",
+    "the teacher asks for shares of a whole at a glance; name the chart",
+    "match each display to its purpose: pictograph, pie chart, bar graph"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "ask what the presentation must show: shares of a whole, category comparison, or concrete counts",
+     "explain": "the question selects the display"
+    },
+    {
+     "step": 2,
+     "action": "match it to the chart whose geometry carries that message",
+     "explain": "circle shares, bar heights, or repeated symbols"
+    },
+    {
+     "step": 3,
+     "action": "check the chosen chart uses all the data exactly once",
+     "explain": "pie shares must exhaust the total; bars compare independent categories"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 7 + 2 + 2 gives 11",
+     "compute": "total = 7 + 2 + 2"
+    }
+   ],
+   "converted_to_compute": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "am11_013.we1",
+   "source_ref": "am11_013 spreadsheet practical: AVERAGE of a range of 5 entries with sum 230",
+   "concept": "am11_013.2",
+   "question_type": "compute",
+   "question_pattern": "the spreadsheet range holds 5 entries adding to 230; what does AVERAGE return",
+   "extracted_variables": {
+    "entry1": 40,
+    "entry2": 50,
+    "entry3": 60,
+    "entry4": 80,
+    "total": 230,
+    "count": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "sum the range",
+     "compute": "total = entry1 + entry2 + entry3 + entry4"
+    },
+    {
+     "step": 2,
+     "action": "divide by the entry count",
+     "compute": "avg = total / count"
+    }
+   ]
+  },
+  {
+   "id": "am11_013.we2",
+   "source_ref": "am11_013 project idea: class survey of 40 students, 10 prefer cricket, present as pie chart",
+   "concept": "am11_013.6",
+   "question_type": "compute",
+   "question_pattern": "in a survey of 40 students, 10 prefer cricket; find the cricket sector angle of the pie chart",
+   "extracted_variables": {
+    "share": 10,
+    "total": 40
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "fraction preferring cricket",
+     "compute": "frac = share / total"
+    },
+    {
+     "step": 2,
+     "action": "sector angle",
+     "compute": "angle = frac * 360"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "am11_013.ex1",
+   "source_ref": "am11_013 suggested practicals",
+   "questions": [
+    "Enter the marks 12, 15, 9, 20, 14 in a spreadsheet and use the average formula to find the mean.",
+    "Compute simple interest at 5 percent and compound interest at 5 percent for 4000 over 2 years, and state which is larger.",
+    "A pictograph uses one tree symbol for 15 saplings; how many symbols show 90 saplings?",
+    "Draw the pie chart for a survey of 60 students in which 15 choose football, 25 choose cricket and 20 choose hockey; give all three sector angles.",
+    "Draw a bar graph for the data of the previous question and say which display shows shares better.",
+    "A student scores 5, 4, 4, 5 in the four internal assessment components; find the total out of 20."
+   ]
+  },
+  {
+   "id": "am11_013.ex2",
+   "source_ref": "am11_013 project ideas and expectations",
+   "questions": [
+    "Plan a class survey project: state the question, collect the data, tabulate it and choose the chart for the final presentation with reasons.",
+    "Compare two mobile plans using simple and compound interest arithmetic on the upfront cost treated as a principal for one year.",
+    "Maintain a family utility-bill register for one month, split the electricity units into slabs and present the cost shares as a pie chart.",
+    "Draft a school event budget with cost splits for venue, food and decoration, and give the pie chart angle of the food share if it is 6000 of 24000.",
+    "Write the four components of the internal assessment with their marks and compute a sample total.",
+    "Explain what the year end practical test checks about spreadsheet formulas and interpretation of results."
+   ]
+  }
+ ]
 }

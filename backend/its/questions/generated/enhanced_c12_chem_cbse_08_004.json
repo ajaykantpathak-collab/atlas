@@ -34,6 +34,26 @@
      "q": "Design a simple laboratory test to distinguish between butanal (soluble in water) and pentanal (sparingly soluble) using only water and test tubes. Explain the chemical principle behind the test.",
      "a": "Take 1 mL of each liquid in separate test tubes, add 5 mL of water, shake vigorously. Butanal (C4) will form a homogeneous solution (miscible); pentanal (C5) will form two layers (limited solubility). The principle: solubility in water depends on the balance between the hydrophilic carbonyl group (which can H-bond with water) and the hydrophobic alkyl chain. At C4 the carbonyl dominates; at C5 the hydrocarbon chain dominates. A poor answer would suggest using Tollens' test (which tests chemical reactivity, not physical property) or smell test (subjective and unsafe).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Physical properties of aldehydes and ketones refer to their observable ______ such as state (gas, liquid, solid), boiling points, solubility in water and organic solvents, and odor, which arise from the polar carbonyl group (C=O) and the resulting dipole-dipole interactions, as well as the ability of lower members to form hydrogen bonds with water.",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe that formalin (aqueous methanal) is a liquid used to preserve biological specimens in school labs, while acetone (propanone) is a common nail polish remover that ______ quickly.",
+     "a": "evaporates",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) predict the relative boiling points of aldehydes/ketones compared to hydrocarbons, ethers, and alcohols of comparable molecular mass and explain the trend using dipole-dipole interactions and hydrogen bonding, and (2) explain the solubility trend of aldehydes/ketones in water based on the length of the alkyl chain and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe that formalin (aqueous methanal) is a liquid used to preserve ______ specimens in school labs, while acetone (propanone) is a common nail polish remover that evaporates quickly.",
+     "a": "biological",
+     "self_check": true
     }
    ]
   }

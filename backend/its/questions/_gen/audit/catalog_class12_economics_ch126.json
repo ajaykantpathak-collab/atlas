@@ -1,0 +1,81 @@
+{
+ "catalog": "catalog_class12_economics_ch126.json",
+ "concepts": [
+  {
+   "id": "lekl.126.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "anthropomorphic_deities = 82",
+      "magical_formulas = 3.3",
+      "unswervable_laws = 61",
+      "empirical_understanding = 12.9",
+      "prescientific_view = anthropomorphic_deities + magical_formulas",
+      "scientific_view = unswervable_laws + empirical_understanding"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "anthropomorphic_deities = 86",
+      "magical_formulas = 47",
+      "unswervable_laws = 51",
+      "empirical_understanding = 83",
+      "prescientific_view = anthropomorphic_deities + magical_formulas",
+      "scientific_view = unswervable_laws + empirical_understanding"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "anthropomorphic_deities = 79",
+      "magical_formulas = 53",
+      "unswervable_laws = 43",
+      "empirical_understanding = 72",
+      "prescientific_view = anthropomorphic_deities + magical_formulas",
+      "scientific_view = unswervable_laws + empirical_understanding"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "anthropomorphic_deities = 51",
+      "magical_formulas = 66",
+      "unswervable_laws = 45",
+      "empirical_understanding = 12.9",
+      "prescientific_view = anthropomorphic_deities + magical_formulas",
+      "scientific_view = unswervable_laws + empirical_understanding"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "anthropomorphic_deities = 24",
+      "magical_formulas = 4.2",
+      "unswervable_laws = 66",
+      "empirical_understanding = 71",
+      "prescientific_view = anthropomorphic_deities + magical_formulas",
+      "scientific_view = unswervable_laws + empirical_understanding"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "anthropomorphic_deities = 45",
+      "magical_formulas = 75",
+      "unswervable_laws = 43",
+      "empirical_understanding = 12.8",
+      "prescientific_view = anthropomorphic_deities + magical_formulas",
+      "scientific_view = unswervable_laws + empirical_understanding"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "prescientific_view = anthropomorphic_deities + magical_formulas",
+    "scientific_view = unswervable_laws + empirical_understanding"
+   ]
+  }
+ ]
+}

@@ -34,6 +34,26 @@
      "q": "Create a quadratic expression that requires exactly 1 \\(x^2\\) tile, 5 \\(x\\) tiles, and 6 unit tiles to model. Factorise it using tiles, and then write a different quadratic that uses the same number of \\(x^2\\) and \\(x\\) tiles but a different number of unit tiles that CANNOT be factored into a rectangle with integer sides.",
      "a": "Expression: \\(x^2+5x+6\\). Factors: \\((x+2)(x+3)\\) (since \\(2+3=5\\), \\(2\\times3=6\\)). A non-factorable example with same \\(x^2\\) and \\(x\\) tiles: \\(x^2+5x+7\\). No integer pair sums to 5 and multiplies to 7. A poor answer might give \\(x^2+5x+4\\) (which factors) or not explain why 7 fails, showing they don't connect the tile count to the sum/product relationship.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: They model algebraic expressions as areas, allowing students to perform operations like expansion and ______ by physically arranging tiles into rectangles, where the area represents the product and the side lengths represent the factors.",
+     "a": "factorisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You need to find the ______ length and breadth (factors) to build the fence.",
+     "a": "possible",
+     "self_check": true
+    },
+    {
+     "q": "What is Algebra tiles? State the definition given in this lesson.",
+     "a": "They model algebraic expressions as areas, allowing students to perform operations like expansion and factorisation by physically arranging tiles into rectangles, where the area represents the product and the side lengths represent the factors.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "They can also explain how the geometric arrangement corresponds to the algebraic steps.",
+     "self_check": true
     }
    ]
   }

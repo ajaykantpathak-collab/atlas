@@ -34,6 +34,31 @@
      "q": "Create an expression that has three terms, including one constant term, one term with a coefficient of 5, and one term with a coefficient of -2.",
      "a": "A correct example is 5a - 2b + 10. A poor answer (like 5a - 2b + 10c) indicates the student forgot to include a constant term (a number without a variable).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An algebraic expression is a ______ phrase containing variables (letters representing unknown numbers), constants (fixed numbers), and operations (like addition or subtraction).",
+     "a": "mathematical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a fruit stall where an apple costs ₹10 and a ______ costs ₹5.",
+     "a": "banana",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The number ______ is the coefficient because it tells us how many apples we have, and 'x' is the variable because the number of apples could change.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to decompose a given expression into its individual terms, identify the coefficient and variable part for each term, and classify a term as a constant or variable term.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are at a fruit stall where an apple costs ₹10 and a banana costs ₹5.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

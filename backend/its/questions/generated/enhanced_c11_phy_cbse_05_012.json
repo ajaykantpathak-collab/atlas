@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a spring balance, a trolley, and a stopwatch to estimate the average power you exert while pulling the trolley horizontally at constant speed over a distance of 5 m. List the measurements needed and the formula you would use.",
      "a": "Measure the constant pulling force F (spring balance reading in N), the time t taken to cover 5 m (stopwatch), and verify constant speed. Average power = Work/time = (F × 5 m) / t. A good answer includes checking that the force is horizontal and speed is constant (so net force zero, applied force equals friction). A poor answer omits the need for constant speed or forgets to multiply force by distance.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Average power is the total work done divided by the total time interval over which the work is performed, while instantaneous power is the limiting value of average power as the time interval ______ zero, equal to the dot product of the net force acting on a body and its instantaneous velocity (P = F·v).",
+     "a": "approaches",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan starting from rest: ______ it takes large force to overcome inertia, but once at constant speed, the motor only balances friction.",
+     "a": "initially",
+     "self_check": true
+    },
+    {
+     "q": "What is Average power? State the definition given in this lesson.",
+     "a": "Average power is the total work done divided by the total time interval over which the work is performed, while instantaneous power is the limiting value of average power as the time interval approaches zero, equal to the dot product of the net force acting on a body and its instantaneous velocity (P = F·v).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ask: \"What if the force or velocity changes during the motion?\" Introduce the limit Δt → ______ to define instantaneous power.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Average power?",
+     "a": "Students often think instantaneous power is just \"average power over a very small time\" and try to compute it by dividing work done in a small Δt by that Δt without taking the limit.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to distinguish between average and instantaneous power in a given physical situation, calculate instantaneous power using P = F·v for a force and velocity at a specific instant, and compute average power from work-energy data over a finite interval.",
+     "self_check": true
     }
    ]
   }

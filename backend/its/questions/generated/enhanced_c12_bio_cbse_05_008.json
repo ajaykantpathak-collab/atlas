@@ -34,6 +34,36 @@
      "q": "Design a pedigree analysis problem involving three generations where an X-linked recessive trait (haemophilia) appears in a male in generation I, skips generation II (only carrier females), and reappears in generation III males. Provide the genotypes for all individuals and explain how you deduced them.",
      "a": "Generation I: Affected male (XᴴY) × normal female (XᴴXᴴ) → Generation II: all daughters carriers (XᴴXᴴ), all sons normal (XᴴY).\nGeneration II: One carrier daughter (XᴴXᴴ) marries normal male (XᴴY) → Generation III: 50% sons affected (XᴴY), 50% sons normal (XᴴY); 50% daughters carriers (XᴴXᴴ), 50% daughters normal (XᴴXᴴ).\nDeduction: Affected male in Gen I forces all daughters to be carriers. Carrier females in Gen II show no phenotype. Affected males in Gen III inherit Xᴴ from carrier mother. A poor answer fails to assign genotypes consistently or misses that Gen II males are normal because they get Y from affected grandfather.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sex-linked inheritance refers to the ______ of traits governed by genes located on the sex chromosomes (X or Y).",
+     "a": "transmission",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: in any Indian classroom, colour ______ is far more common in boys than girls — ask students why their male cousins might struggle with traffic lights while female cousins rarely do.",
+     "a": "blindness",
+     "self_check": true
+    },
+    {
+     "q": "What is Sex-linked inheritance? State the definition given in this lesson.",
+     "a": "Sex-linked inheritance refers to the transmission of traits governed by genes located on the sex chromosomes (X or Y).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The characteristic criss-cross pattern of inheritance occurs when an affected male passes the allele to all daughters (who become carriers) and a carrier female passes it to ______% of her sons.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Sex-linked inheritance?",
+     "a": "Students often believe that a carrier female (heterozygous for X-linked recessive allele) can never show any symptoms.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) draw and interpret Punnett squares for X-linked recessive crosses involving colour blindness and haemophilia, (2) calculate the probability of affected offspring given parental genotypes, (3) explain the criss-cross inheritance pattern using the XX/XY sex determination system, and (4) distinguish between carrier.",
+     "self_check": true
     }
    ]
   }

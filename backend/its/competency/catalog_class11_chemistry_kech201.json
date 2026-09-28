@@ -64,7 +64,16 @@
      "explain": "Subtract the sum of known oxidation numbers from the total charge and divide by the number of unknown atoms",
      "compute": "unknown_ox = (charge_total - known_sum) / n_atoms"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "unknown_ox = (charge_total - known_sum) / n_atoms",
+     "compute": "unknown_ox = (charge_total - known_sum) / n_atoms"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kech.201.3.1",

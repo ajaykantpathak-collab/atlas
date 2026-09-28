@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a prism, a white screen, and a narrow slit to demonstrate that the angle of minimum deviation Dm is the same for two symmetric incident angles i and e. Describe the procedure, measurements needed, and how you would verify the symmetry condition i = e from your data.",
      "a": "Procedure: (1) Fix a narrow slit illuminated by white light. (2) Place prism on a rotatable table (or rotate the prism manually on a sheet of paper). (3) For each orientation, trace the incident and emergent rays on paper. (4) Measure i (angle between incident ray and normal to first face) and e (angle between emergent ray and normal to second face). (5) Calculate δ = i + e - A. (6) Plot δ vs i. The graph is a U-shaped curve. The minimum point gives Dm. (7) Read the two i values corresponding to a δ slightly above Dm — they should be symmetric about the i at Dm. At Dm, i = e. Verification: At the minimum point, measure i and e directly — they will be equal within experimental error. A poor answer (e.g., \"measure Dm with a spectrometer\") misses the hands-on geometry verification and the symmetry concept.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A prism is a ______ optical medium bounded by two plane refracting surfaces inclined at an angle A (called the refracting angle or angle of prism).",
+     "a": "transparent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ glass prism on a sunny windowsill — you see a rainbow spectrum projected on the floor.",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Derive the relation δ = i + e - A and r1 + r2 = A from geometry of the prism, (2) Calculate the angle of minimum deviation Dm and refractive index n for a given prism using experimental data, (3) Solve numerical problems involving total internal reflection inside a prism (e.g., finding the range of.",
+     "self_check": true
     }
    ]
   }

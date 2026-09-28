@@ -34,6 +34,21 @@
      "q": "Design an experiment to test whether the gate control theory of pain explains why rubbing a bumped elbow reduces pain. Specify: hypothesis, independent/dependent variables, control condition, neural mechanism being tested, and predicted outcome.",
      "a": "Hypothesis: Non-noxious mechanical stimulation (rubbing) activates A-beta fibres that inhibit nociceptive transmission in substantia gelatinosa (lamina II) of dorsal horn, reducing pain perception. IV: Stimulation type (rubbing vs. no rubbing vs. vibration at 250 Hz vs. cold pack). DV: Pain intensity rating (0-10 VAS) at 10s, 30s, 60s post-impact. Control: No-stimulation condition after standardised elbow impact. Neural mechanism: A-beta → inhibitory interneurons (GABA/glycine) → presynaptic inhibition of A-delta/C-fibre terminals in lamina II. Predicted: Rubbing and vibration (A-beta activation) reduce pain ratings vs. control; cold (A-delta activation) may not. Poor answers omitting lamina II inhibition or using only subjective ratings without timing reveal confusion between gate control (spinal) and descending modulation (supraspinal). Failing to include vibration control confounds tactile vs. thermal mechanisms.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The cutaneous senses (skin), chemical senses (olfaction and gustation), and kinesthetic/vestibular senses are specialised sensory modalities that detect mechanical, thermal, chemical, and ______ stimuli through distinct receptor types and neural pathways, enabling perception of touch, temperature, pain, smell, taste, body position, movement, and balance.",
+     "a": "proprioceptive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're eating a hot samosa: you feel its crisp texture (touch), sense the steam's warmth (______), taste the spicy filling (gustation), smell the cumin aroma (olfaction), know exactly where your hand is without looking (kinesthetic), and maintain upright posture while chewing (vestibular).",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) identify the four cutaneous modalities and their specific receptor types with adequate stimulus, (2) trace the neural pathway for olfactory and gustatory signals to the brain including the unique direct cortical access of olfaction, (3) distinguish kinesthetic from vestibular sense in terms of stimuli.",
+     "self_check": true
     }
    ]
   }

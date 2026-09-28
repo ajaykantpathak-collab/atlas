@@ -34,6 +34,26 @@
      "q": "Design a navigation menu for a portfolio site with these requirements:  \n- \"Home\" links to `index.html` (root)  \n- \"Projects\" links to `projects/index.html` (subfolder)  \n- \"Contact\" opens `mailto:me@example.com`  \n- \"Resume\" opens `assets/resume.pdf` in a new tab  \n- \"Top\" jumps to `<main id=\"top\">`  \nWrite the complete `<nav>` HTML with semantic structure. Justify each `href` and `target` choice.",
      "a": "```html\n<nav>\n  <ul>\n    <li><a href=\"index.html\">Home</a></li>\n    <li><a href=\"projects/index.html\">Projects</a></li>\n    <li><a href=\"mailto:me@example.com\">Contact</a></li>\n    <li><a href=\"assets/resume.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Resume</a></li>\n    <li><a href=\"#top\">Top</a></li>\n  </ul>\n</nav>\n```\nJustification:  \n- `index.html` and `projects/index.html` are relative paths from current file (assumed in root).  \n- `mailto:` launches default email client.  \n- PDF in new tab (`_blank`) lets user keep portfolio open; `rel` prevents tabnabbing.  \n- `#top` is a fragment identifier for in-page scroll.  \nA poor answer uses absolute URLs for internal links, omits `rel` on PDF, or uses `target=\"_self\"` on the fragment link (harmless but redundant).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An HTML anchor element (<a>) creates a hyperlink to another web resource using the href attribute (Hypertext Reference) which specifies the ______ URL (absolute, relative, or fragment identifier), while the target attribute defines the browsing context where the linked resource opens (e.g., _self same tab, _blank new tab, _parent parent frame, _top topmost frame, or a named iframe).",
+     "a": "destination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a school website and need to link the \"Contact Us\" page from the home page, open the school's Wikipedia page in a new tab, and create a \"Back to Top\" button that jumps to the header.",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write correct anchor tags with href (absolute, relative, fragment, mailto, tel) and target attributes, explain the security implication of target=\"_blank\" without rel=\"noopener noreferrer\", and debug broken links caused by incorrect path resolution or missing protocols.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a school website and need to link the \"Contact Us\" page from the home page, open the school's ______ page in a new tab, and create a \"Back to Top\" button that jumps to the header.",
+     "a": "Wikipedia",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Design a choropleth map classification scheme (5 classes) for representing state-wise forest cover percentage in India. Justify your class intervals using the actual data range (from ~3% to ~80%).",
      "a": "A good scheme: 0-10%, 10-20%, 20-40%, 40-60%, 60-80%. Justification: The data is skewed; many states cluster in low percentages (Rajasthan, Gujarat, Punjab, Haryana <10%), a large group in 10-40% (Madhya Pradesh, Chhattisgarh, Odisha, etc.), and few in high percentages (Northeast states >60%). Equal intervals would leave many classes empty. A poor scheme uses equal intervals (e.g., 0-16, 16-32,...) which fails to show the concentration of states in the lower range.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Forest cover in India refers to all lands more than one hectare in area with a tree canopy density of more than 10%, ______ of ownership and legal status.",
+     "a": "irrespective",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by ______ a map of India's forest cover (from ISFR).",
+     "a": "showing",
+     "self_check": true
+    },
+    {
+     "q": "What is Forest cover in India? State the definition given in this lesson.",
+     "a": "Forest cover in India refers to all lands more than one hectare in area with a tree canopy density of more than 10%, irrespective of ownership and legal status.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Forest cover in India refers to all lands more than one hectare in area with a tree canopy density of more than ______%, irrespective of ownership and legal status.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Forest cover in India?",
+     "a": "Students often confuse 'forest cover' (satellite-based canopy density >10%) with 'recorded forest area' (legally notified forest land).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can interpret the India State of Forest Report (ISFR) data to identify states with highest/lowest forest cover, explain the physical and human factors causing the pattern, and correlate forest cover with forest types studied earlier.",
+     "self_check": true
     }
    ]
   }

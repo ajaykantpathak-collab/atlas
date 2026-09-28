@@ -34,6 +34,36 @@
      "q": "Create a labeled cross-section diagram of Earth's interior to scale (1 cm = 1,000 km) showing all layers with their thicknesses, compositions, and physical states. Include a key explaining how seismic wave paths prove the liquid outer core.",
      "a": "A good answer: Diagram with crust (0.005-0.07 cm), mantle (2.9 cm), outer core (2.2 cm), inner core (1.2 cm radius). Labels: Crust (granite/basalt, solid), Mantle (peridotite, solid but ductile), Outer Core (Fe-Ni, liquid), Inner Core (Fe-Ni, solid). Key shows S-wave shadow zone (103°-143°) and P-wave refraction at core-mantle boundary. A poor answer draws equal-thickness layers or labels mantle as \"magma\" — reveals lack of scale sense and the liquid mantle misconception.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Earth's interior is divided into three concentric layers based on chemical ______ and physical properties: the crust (thin, solid outer shell of silicate rocks, 5-70 km thick), the mantle (thick, mostly solid silicate layer rich in magnesium and iron, extending to 2,900 km), and the core (central metallic sphere of iron-nickel alloy, divided into liquid outer core and solid inner core, radius ~3,470 km).",
+     "a": "composition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine ______ on the Deccan Plateau basalt rocks — the solid ground you feel is just the top few kilometres of a 6,371 km radius planet.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What is Earth's interior? State the definition given in this lesson.",
+     "a": "Earth's interior is divided into three concentric layers based on chemical composition and physical properties: the crust (thin, solid outer shell of silicate rocks, 5-70 km thick), the mantle (thick, mostly solid silicate layer rich in magnesium and iron, extending to 2,900 km), and the core (central metallic sphere of iron-nickel.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: We cannot drill deeper than ______ km (Kola Superdeep Borehole), so we use earthquake waves like a planetary X-ray.",
+     "a": "12",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Earth's interior?",
+     "a": "Students believe the mantle is molten liquid (magma) because volcanoes erupt molten rock.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can describe the composition, thickness, temperature range, and physical state of each layer, and explain how seismic wave behavior (P-wave refraction, S-wave shadow zone) provides evidence for this layered structure.",
+     "self_check": true
     }
    ]
   }

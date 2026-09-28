@@ -1,756 +1,873 @@
 {
-  "class": 12,
-  "subject": "chemistry",
-  "chapter": 1,
-  "chapter_title": "Solutions",
-  "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lech101.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "concepts": [
+ "class": 12,
+ "subject": "chemistry",
+ "chapter": 1,
+ "chapter_title": "Solutions",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lech101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lech.01.1.1.1",
+   "title": "Types of Solutions",
+   "section": "1.1",
+   "definition": "A uniform blend in which one or more solutes are dispersed through a bulk component called the solvent; since each side can be a solid, a liquid or a gas, nine state pairings cover every case.",
+   "formula": "solution class = (state of solute) in (state of solvent)",
+   "key_idea": "The component present in the largest amount is the solvent and it fixes the physical state of the whole mixture, so classify any solution by the two states involved.",
+   "textbook_ref": "lech101.txt, Unit 1 opening and Table 1.1 (Types of Solutions)",
+   "question_patterns": [
+    "classify a mixture of camphor in nitrogen gas as a type of solution",
+    "give one example each of a gas in liquid and a solid in solid solution",
+    "name the category of solution formed when hydrogen gas sits in palladium metal",
+    "identify the solute and solvent in an alloy of copper dissolved in gold",
+    "list all nine solvent and solute state combinations possible for solutions",
+    "which type of solution does a liquid solute spread through a gaseous solvent form"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
     {
-      "id": "lech.01.1.1.1",
-      "title": "Types of Solutions",
-      "section": "1.1",
-      "definition": "A uniform blend in which one or more solutes are dispersed through a bulk component called the solvent; since each side can be a solid, a liquid or a gas, nine state pairings cover every case.",
-      "formula": "solution class = (state of solute) in (state of solvent)",
-      "key_idea": "The component present in the largest amount is the solvent and it fixes the physical state of the whole mixture, so classify any solution by the two states involved.",
-      "textbook_ref": "lech101.txt, Unit 1 opening and Table 1.1 (Types of Solutions)",
-      "question_patterns": [
-        "classify a mixture of camphor in nitrogen gas as a type of solution",
-        "give one example each of a gas in liquid and a solid in solid solution",
-        "name the category of solution formed when hydrogen gas sits in palladium metal",
-        "identify the solute and solvent in an alloy of copper dissolved in gold",
-        "list all nine solvent and solute state combinations possible for solutions",
-        "which type of solution does a liquid solute spread through a gaseous solvent form"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Spot the solute and note whether it is solid, liquid or gas",
-          "explain": "The solute is the lesser component, for example camphor in nitrogen gas."
-        },
-        {
-          "step": 2,
-          "action": "Spot the solvent and note its state",
-          "explain": "The solvent is the component present in the largest amount and sets the mixture's state."
-        },
-        {
-          "step": 3,
-          "action": "State the solution type as solute state in solvent state",
-          "explain": "Nine pairings exist: gas, liquid or solid solute each in gas, liquid or solid solvent, as tabulated in the chapter."
-        }
-      ]
+     "step": 1,
+     "action": "Spot the solute and note whether it is solid, liquid or gas",
+     "explain": "The solute is the lesser component, for example camphor in nitrogen gas."
     },
     {
-      "id": "lech.01.1.2.1",
-      "title": "Mass Percentage of a Component",
-      "section": "1.2",
-      "definition": "A way of quoting strength as the mass of one component carried in every 100 units of total solution mass; industry reports mixtures such as bleaching liquor this way.",
-      "formula": "mass_pct = 100 * mass_solute / total_mass_solution",
-      "key_idea": "Taking 100 g of solution as the basis makes the figure read directly as grams of that component per 100 g of finished solution, and it never drifts with temperature.",
-      "textbook_ref": "lech101.txt, Section 1.2 item (i), equation 1.1",
-      "question_patterns": [
-        "calculate the mass percentage of benzene in a benzene and carbon tetrachloride mixture",
-        "find the percent by mass of aspirin dissolved in acetonitrile",
-        "determine the w/w strength of a solution prepared from 10 g of glucose in 90 g of water",
-        "what is the mass percent of solute for 22 g dissolved in 122 g of solvent",
-        "compute the component mass as a percentage of the whole solution",
-        "express the make-up of a brine with a stated solute and solvent mass as a mass percentage"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Add the component masses to get the total solution mass",
-          "explain": "A 10 percent glucose solution is 10 g glucose plus 90 g water, 100 g in all.",
-          "compute": "total_mass_solution = mass_solute + mass_solvent"
-        },
-        {
-          "step": 2,
-          "action": "Scale the component share to 100",
-          "explain": "Divide the component mass by the total and multiply by 100.",
-          "compute": "mass_pct = 100 * mass_solute / total_mass_solution"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Mass Percentage of a Component, compute the result for mass_solute = 3, mass_solvent = 3.",
-          "solution": "Step 1: Add the component masses to get the total solution mass: total_mass_solution = mass_solute + mass_solvent = 6.0 Step 2: Scale the component share to 100: mass_pct = 100 * mass_solute / total_mass_solution = 50.0 Final result: 50.0",
-          "answer": "50.0"
-        },
-        {
-          "question": "Using Mass Percentage of a Component, compute the result for mass_solute = 4, mass_solvent = 4.",
-          "solution": "Step 1: Add the component masses to get the total solution mass: total_mass_solution = mass_solute + mass_solvent = 8.0 Step 2: Scale the component share to 100: mass_pct = 100 * mass_solute / total_mass_solution = 50.0 Final result: 50.0",
-          "answer": "50.0"
-        }
-      ]
+     "step": 2,
+     "action": "Spot the solvent and note its state",
+     "explain": "The solvent is the component present in the largest amount and sets the mixture's state."
     },
     {
-      "id": "lech.01.1.2.2",
-      "title": "Mole Fraction of a Component",
-      "section": "1.2",
-      "definition": "The share of all moles in a mixture that belong to one component; each share lies between 0 and 1 and the whole set always adds to one.",
-      "formula": "x_solute = moles_solute / (moles_solute + moles_solvent)",
-      "key_idea": "Convert masses to moles first; the partner fraction then follows as 1 minus x, and mole fractions feed directly into vapour pressure and gas mixture sums.",
-      "textbook_ref": "lech101.txt, Section 1.2 item (v), equations 1.4-1.7 and Example 1.1",
-      "question_patterns": [
-        "calculate the mole fraction of ethylene glycol in a 20 percent by mass aqueous solution",
-        "find x for component A in a binary liquid mixture from the given masses and molar masses",
-        "determine the mole fraction of benzene in a solution that is 30 percent benzene by mass",
-        "what is the mole fraction of the solvent when the solute fraction is known",
-        "work out the mole fraction of KI in its aqueous solution of stated strength",
-        "compute both mole fractions for a mixture made from known moles of two liquids"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Convert each mass to moles using its molar mass",
-          "explain": "Divide the mass of each component by its molar mass, for example 20 g glycol over 62 gives 0.322 mol.",
-          "compute": "moles_solute = mass_solute / molar_mass_solute"
-        },
-        {
-          "step": 2,
-          "action": "Convert the solvent mass to moles as well",
-          "explain": "80 g water over 18 gives about 4.444 mol.",
-          "compute": "moles_solvent = mass_solvent / molar_mass_solvent"
-        },
-        {
-          "step": 3,
-          "action": "Divide one component's moles by the total moles",
-          "explain": "The result is that component's mole fraction; the rest of the mixture carries 1 minus this value.",
-          "compute": "x_solute = moles_solute / (moles_solute + moles_solvent)"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Mole Fraction of a Component, compute the result for mass_solute = 3, molar_mass_solute = 3, mass_solvent = 3, molar_mass_solvent = 2.",
-          "solution": "Step 1: Convert each mass to moles using its molar mass: moles_solute = mass_solute / molar_mass_solute = 1.0 Step 2: Convert the solvent mass to moles as well: moles_solvent = mass_solvent / molar_mass_solvent = 1.5 Step 3: Divide one component's moles by the total moles: x_solute = moles_solute / (moles_solute + moles_solvent) = 0.4 Final result: 0.4",
-          "answer": "0.4"
-        },
-        {
-          "question": "Using Mole Fraction of a Component, compute the result for mass_solute = 4, molar_mass_solute = 4, mass_solvent = 4, molar_mass_solvent = 3.",
-          "solution": "Step 1: Convert each mass to moles using its molar mass: moles_solute = mass_solute / molar_mass_solute = 1.0 Step 2: Convert the solvent mass to moles as well: moles_solvent = mass_solvent / molar_mass_solvent = 1.333333 Step 3: Divide one component's moles by the total moles: x_solute = moles_solute / (moles_solute + moles_solvent) = 0.428571 Final result: 0.428571",
-          "answer": "0.428571"
-        }
-      ]
-    },
-    {
-      "id": "lech.01.1.2.3",
-      "title": "Molarity of a Solution",
-      "section": "1.2",
-      "definition": "Moles of solute held in one litre of finished solution, the everyday laboratory unit for reagent strength.",
-      "formula": "molarity = 1000 * moles_solute / volume_solution_ml",
-      "key_idea": "It is volume based, so it shifts with temperature; when the volume arrives in millilitres, multiply the moles by 1000 before dividing.",
-      "textbook_ref": "lech101.txt, Section 1.2 item (vi), equation 1.8 and Example 1.2",
-      "question_patterns": [
-        "calculate the molarity of a solution containing 5 g of NaOH in 450 mL of solution",
-        "find the molar concentration when 30 g of cobalt nitrate is made up to 4.3 litres of solution",
-        "determine the molarity after diluting 30 mL of 0.5 M acid up to 500 mL",
-        "what is the molarity of 68 percent nitric acid whose density is 1.504 g per mL",
-        "compute the moles of solute present in one litre of the given solution",
-        "convert a stated mass of solute in a stated solution volume into mol per litre"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Convert the solute mass to moles",
-          "explain": "Divide by the molar mass, for instance 5 g NaOH over 40 gives 0.125 mol.",
-          "compute": "moles_solute = mass_solute / molar_mass_solute"
-        },
-        {
-          "step": 2,
-          "action": "Scale the moles to a one litre basis",
-          "explain": "Molarity counts moles per litre of solution, so a 450 mL volume needs the 1000 factor.",
-          "compute": "molarity = 1000 * moles_solute / volume_solution_ml"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Molarity of a Solution, compute the result for mass_solute = 3, molar_mass_solute = 3, volume_solution_ml = 3.",
-          "solution": "Step 1: Convert the solute mass to moles: moles_solute = mass_solute / molar_mass_solute = 1.0 Step 2: Scale the moles to a one litre basis: molarity = 1000 * moles_solute / volume_solution_ml = 333.333333 Final result: 333.333333",
-          "answer": "333.333333"
-        },
-        {
-          "question": "Using Molarity of a Solution, compute the result for mass_solute = 4, molar_mass_solute = 4, volume_solution_ml = 4.",
-          "solution": "Step 1: Convert the solute mass to moles: moles_solute = mass_solute / molar_mass_solute = 1.0 Step 2: Scale the moles to a one litre basis: molarity = 1000 * moles_solute / volume_solution_ml = 250.0 Final result: 250.0",
-          "answer": "250.0"
-        }
-      ]
-    },
-    {
-      "id": "lech.01.1.2.4",
-      "title": "Molality of a Solution",
-      "section": "1.2",
-      "definition": "Moles of solute dissolved per kilogram of solvent itself, not of the whole solution; the concentration unit preferred when temperature changes are in play.",
-      "formula": "molality = 1000 * moles_solute / mass_solvent_g",
-      "key_idea": "Solvent mass in kg sits in the denominator, so thermal expansion cannot touch the number, unlike molarity.",
-      "textbook_ref": "lech101.txt, Section 1.2 item (vii), equation 1.9 and Example 1.3",
-      "question_patterns": [
-        "calculate the molality of 2.5 g of ethanoic acid dissolved in 75 g of benzene",
-        "find the molality of an antifreeze made from 222.6 g of ethylene glycol and 200 g of water",
-        "determine the moles of urea required per kilogram of water for a 0.25 molal solution",
-        "what is the molal strength given the solute mass, its molar mass and the solvent mass",
-        "work out the molality when 0.15 mol of solute is dissolved in 200 g of solvent",
-        "compute moles of solute per kilogram of solvent for the stated recipe"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Convert the solute mass to moles",
-          "explain": "For example 2.5 g ethanoic acid over 60 gives about 0.0417 mol.",
-          "compute": "moles_solute = mass_solute / molar_mass_solute"
-        },
-        {
-          "step": 2,
-          "action": "Scale to one kilogram of solvent",
-          "explain": "The solvent mass arrives in grams, so multiply the mole count by 1000 and divide by it.",
-          "compute": "molality = 1000 * moles_solute / mass_solvent_g"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Molality of a Solution, compute the result for mass_solute = 3, molar_mass_solute = 3, mass_solvent_g = 3.",
-          "solution": "Step 1: Convert the solute mass to moles: moles_solute = mass_solute / molar_mass_solute = 1.0 Step 2: Scale to one kilogram of solvent: molality = 1000 * moles_solute / mass_solvent_g = 333.333333 Final result: 333.333333",
-          "answer": "333.333333"
-        },
-        {
-          "question": "Using Molality of a Solution, compute the result for mass_solute = 4, molar_mass_solute = 4, mass_solvent_g = 4.",
-          "solution": "Step 1: Convert the solute mass to moles: moles_solute = mass_solute / molar_mass_solute = 1.0 Step 2: Scale to one kilogram of solvent: molality = 1000 * moles_solute / mass_solvent_g = 250.0 Final result: 250.0",
-          "answer": "250.0"
-        }
-      ]
-    },
-    {
-      "id": "lech.01.1.2.5",
-      "title": "Parts per Million (ppm)",
-      "section": "1.2",
-      "definition": "A trace level scale counting how many parts of one component sit among a million parts of the whole; suited to pollutants, fluoride in water and dissolved gases.",
-      "formula": "ppm = 1000000 * mass_component / total_mass_sample",
-      "key_idea": "Same ratio logic as percentage but a million fold wider scale, so percent by mass times 10000 converts straight to ppm.",
-      "textbook_ref": "lech101.txt, Section 1.2 item (iv), equation 1.3 and sea water example",
-      "question_patterns": [
-        "calculate the concentration in parts per million when a trace of oxygen sits in 1030 g of sea water",
-        "find the ppm of fluoride ions in a water sample from the measured mass of fluoride",
-        "express a contaminant level in ppm given its mass in a large sample of the medium",
-        "determine the parts per million strength of a pollutant in air or water",
-        "convert the measured mass of a dissolved impurity into a ppm figure for the whole sample",
-        "report a trace solute level as millionths of the total sample mass"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Add up the masses of all components for the sample total",
-          "explain": "One litre of sea water weighs about 1030 g including the tiny dissolved oxygen.",
-          "compute": "total_mass_sample = mass_component + mass_medium"
-        },
-        {
-          "step": 2,
-          "action": "Scale the component share up to a million",
-          "explain": "Multiply the ratio by 10 to the power 6; 0.006 g in 1030 g gives about 5.8 ppm.",
-          "compute": "ppm = 1000000 * mass_component / total_mass_sample"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Parts per Million (ppm), compute the result for mass_component = 3, mass_medium = 3.",
-          "solution": "Step 1: Add up the masses of all components for the sample total: total_mass_sample = mass_component + mass_medium = 6.0 Step 2: Scale the component share up to a million: ppm = 1000000 * mass_component / total_mass_sample = 500000.0 Final result: 500000.0",
-          "answer": "500000.0"
-        },
-        {
-          "question": "Using Parts per Million (ppm), compute the result for mass_component = 4, mass_medium = 4.",
-          "solution": "Step 1: Add up the masses of all components for the sample total: total_mass_sample = mass_component + mass_medium = 8.0 Step 2: Scale the component share up to a million: ppm = 1000000 * mass_component / total_mass_sample = 500000.0 Final result: 500000.0",
-          "answer": "500000.0"
-        }
-      ]
-    },
-    {
-      "id": "lech.01.1.3.1",
-      "title": "Henry's Law Solubility of a Gas",
-      "section": "1.3.2",
-      "definition": "At fixed temperature the mole fraction of a gas held in a liquid climbs in step with the pressure of that gas above the liquid, and the proportionality constant is peculiar to each gas.",
-      "formula": "x_gas = partial_pressure / henry_constant",
-      "key_idea": "A larger Henry constant signals a less soluble gas, and since dissolving a gas releases heat, gas solubility falls as temperature rises, which is why cold water holds more oxygen.",
-      "textbook_ref": "lech101.txt, Section 1.3.2, equation 1.11 and Example 1.4",
-      "question_patterns": [
-        "calculate the millimoles of nitrogen gas that dissolve in one litre of water under a stated partial pressure",
-        "find the mole fraction of carbon dioxide in soda water packed under a given pressure using its Henry constant",
-        "determine the solubility of methane in benzene at 760 mm from the tabulated KH",
-        "apply Henry law to get the quantity of gas taken up by water at the stated pressure",
-        "how many millimoles of a gas dissolve in water when its partial pressure and Henry constant are given",
-        "estimate the dissolved gas content of water from the pressure of the gas above it"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Divide the gas pressure by its Henry constant",
-          "explain": "For nitrogen at 293 K, 0.987 bar over 76480 bar gives about 1.29e-5 as the mole fraction.",
-          "compute": "mole_frac_gas = partial_pressure / henry_constant_bar"
-        },
-        {
-          "step": 2,
-          "action": "Spread that fraction over the solvent moles in one litre",
-          "explain": "One litre of water carries about 55.5 mol, and the dissolved gas moles are a tiny addition to this.",
-          "compute": "moles_gas = mole_frac_gas * moles_water_per_litre"
-        },
-        {
-          "step": 3,
-          "action": "Report the uptake in millimoles",
-          "explain": "Multiply moles by 1000; the nitrogen case lands near 0.716 mmol.",
-          "compute": "millimoles_gas = 1000 * moles_gas"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Henry's Law Solubility of a Gas, compute the result for partial_pressure = 3, henry_constant_bar = 3, moles_water_per_litre = 3.",
-          "solution": "Step 1: Divide the gas pressure by its Henry constant: mole_frac_gas = partial_pressure / henry_constant_bar = 1.0 Step 2: Spread that fraction over the solvent moles in one litre: moles_gas = mole_frac_gas * moles_water_per_litre = 3.0 Step 3: Report the uptake in millimoles: millimoles_gas = 1000 * moles_gas = 3000.0 Final result: 3000.0",
-          "answer": "3000.0"
-        },
-        {
-          "question": "Using Henry's Law Solubility of a Gas, compute the result for partial_pressure = 4, henry_constant_bar = 4, moles_water_per_litre = 4.",
-          "solution": "Step 1: Divide the gas pressure by its Henry constant: mole_frac_gas = partial_pressure / henry_constant_bar = 1.0 Step 2: Spread that fraction over the solvent moles in one litre: moles_gas = mole_frac_gas * moles_water_per_litre = 4.0 Step 3: Report the uptake in millimoles: millimoles_gas = 1000 * moles_gas = 4000.0 Final result: 4000.0",
-          "answer": "4000.0"
-        }
-      ]
-    },
-    {
-      "id": "lech.01.1.4.1",
-      "title": "Total Vapour Pressure of an Ideal Liquid Pair",
-      "section": "1.4.1",
-      "definition": "Each volatile component of an ideal mixture contributes a partial pressure equal to its own pure vapour pressure scaled by its mole fraction, and the mixture's vapour pressure is the sum of the two contributions.",
-      "formula": "p_total = p_a_pure + (p_b_pure - p_a_pure) * x_b",
-      "key_idea": "The total pressure slides linearly between the two pure liquid pressures as composition changes, and the vapour phase ends up richer in whichever liquid is more volatile.",
-      "textbook_ref": "lech101.txt, Section 1.4.1, equations 1.12-1.16 and Example 1.5",
-      "question_patterns": [
-        "calculate the total vapour pressure of a mixture of 25.5 g of chloroform and 40 g of dichloromethane at 298 K",
-        "find p total for an ideal binary liquid solution from the pure vapour pressures and the component masses",
-        "determine the vapour pressure over a heptane and octane mixture at 373 K",
-        "what is the vapour pressure when two volatile liquids are mixed, worked out with Raoult law",
-        "compute ptotal from the mole fraction and pure vapour pressures of both components",
-        "use Raoult law to obtain the equilibrium vapour pressure of a pair of volatile liquids"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Convert each liquid mass to moles",
-          "explain": "Divide by molar mass, for example 25.5 g chloroform over 119.5 gives 0.213 mol.",
-          "compute": "moles_a = mass_a / molar_mass_a"
-        },
-        {
-          "step": 2,
-          "action": "Convert the second liquid to moles",
-          "explain": "40 g dichloromethane over 85 gives 0.47 mol.",
-          "compute": "moles_b = mass_b / molar_mass_b"
-        },
-        {
-          "step": 3,
-          "action": "Take the mole fraction of component b",
-          "explain": "0.47 over 0.683 total gives about 0.688.",
-          "compute": "x_b = moles_b / (moles_a + moles_b)"
-        },
-        {
-          "step": 4,
-          "action": "Slide between the two pure pressures",
-          "explain": "p_total = 200 + (415 - 200) times 0.688 gives about 347.9 mm Hg.",
-          "compute": "p_total = p_a_pure + (p_b_pure - p_a_pure) * x_b"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Total Vapour Pressure of an Ideal Liquid Pair, compute the result for mass_a = 3, molar_mass_a = 3, mass_b = 3, molar_mass_b = 2, p_a_pure = 2, p_b_pure = 2.",
-          "solution": "Step 1: Convert each liquid mass to moles: moles_a = mass_a / molar_mass_a = 1.0 Step 2: Convert the second liquid to moles: moles_b = mass_b / molar_mass_b = 1.5 Step 3: Take the mole fraction of component b: x_b = moles_b / (moles_a + moles_b) = 0.6 Step 4: Slide between the two pure pressures: p_total = p_a_pure + (p_b_pure - p_a_pure) * x_b = 2.0 Final result: 2.0",
-          "answer": "2.0"
-        },
-        {
-          "question": "Using Total Vapour Pressure of an Ideal Liquid Pair, compute the result for mass_a = 4, molar_mass_a = 4, mass_b = 4, molar_mass_b = 3, p_a_pure = 3, p_b_pure = 3.",
-          "solution": "Step 1: Convert each liquid mass to moles: moles_a = mass_a / molar_mass_a = 1.0 Step 2: Convert the second liquid to moles: moles_b = mass_b / molar_mass_b = 1.333333 Step 3: Take the mole fraction of component b: x_b = moles_b / (moles_a + moles_b) = 0.571429 Step 4: Slide between the two pure pressures: p_total = p_a_pure + (p_b_pure - p_a_pure) * x_b = 3.0 Final result: 3.0",
-          "answer": "3.0"
-        }
-      ]
-    },
-    {
-      "id": "lech.01.1.5.1",
-      "title": "Ideal Solutions, Deviations and Azeotropes",
-      "section": "1.5",
-      "definition": "Mixtures that follow Raoult's law at every composition mix with no heat and no volume change; when unlike attractions are weaker than like ones the vapour pressure overshoots (positive deviation), and when they are stronger it undershoots (negative deviation), with extreme cases locking into constant boiling azeotropes.",
-      "formula": "deviation sign = sign(p_observed - p_raoult)",
-      "key_idea": "Positive deviation pairs such as ethanol with acetone give minimum boiling azeotropes, negative ones such as chloroform with acetone or nitric acid with water give maximum boiling types, and at azeotrope composition fractional distillation cannot separate the pair.",
-      "textbook_ref": "lech101.txt, Sections 1.5.1, 1.5.2 and azeotrope discussion",
-      "question_patterns": [
-        "explain why ethanol and acetone show positive deviation from Raoult law",
-        "state whether a chloroform and acetone mixture deviates positively or negatively and why",
-        "identify the sign of the enthalpy of mixing for a solution that obeys Raoult law at all compositions",
-        "which kind of azeotrope does a large positive deviation produce, minimum or maximum boiling",
-        "compare the ideal behaviour of benzene and toluene with the behaviour of phenol and aniline",
-        "classify a solution with zero enthalpy of mixing and zero volume change as ideal or non ideal"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Compare unlike attractions with like attractions",
-          "explain": "Weaker A-B interactions let molecules escape more easily and push vapour pressure above the Raoult line."
-        },
-        {
-          "step": 2,
-          "action": "Decide the deviation sign from the observed vapour pressure",
-          "explain": "Above the Raoult prediction is positive deviation, below it is negative deviation."
-        },
-        {
-          "step": 3,
-          "action": "Name the azeotrope type when the deviation is large",
-          "explain": "Large positive deviation gives a minimum boiling azeotrope, large negative gives maximum boiling."
-        }
-      ]
-    },
-    {
-      "id": "lech.01.1.6.1",
-      "title": "Relative Lowering of Vapour Pressure and Solute Molar Mass",
-      "section": "1.6.1",
-      "definition": "A non volatile solute cuts the solvent vapour pressure by a fractional amount equal to the solute mole fraction, which opens a route to the solute's molar mass from pressure readings alone.",
-      "formula": "mm_solute = mass_solute * molar_mass_solvent / (relative_lowering * mass_solvent)",
-      "key_idea": "The fractional drop is (p pure minus p solution) over p pure, and for dilute solutions it reduces to moles of solute over moles of solvent.",
-      "textbook_ref": "lech101.txt, Section 1.6.1, equations 1.22-1.28 and Example 1.6",
-      "question_patterns": [
-        "calculate the molar mass of a non volatile solid from the relative lowering of vapour pressure of benzene",
-        "determine the molar mass of a solute whose addition to 39 g of benzene drops the vapour pressure from 0.850 to 0.845 bar",
-        "find M2 of a non electrolyte from relative lowering of vapour pressure data",
-        "what is the molecular mass of a dissolved solid if the solvent vapour pressure falls by a stated fraction",
-        "use the relative lowering relation to work out the molar mass of the dissolved substance",
-        "compute the molar mass of a solute from the drop it causes in the solvent vapour pressure"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Take the fractional drop in vapour pressure",
-          "explain": "0.850 minus 0.845 over 0.850 gives about 0.00588.",
-          "compute": "relative_lowering = (p_pure_solvent - p_solution) / p_pure_solvent"
-        },
-        {
-          "step": 2,
-          "action": "Solve the lowering relation for the solute molar mass",
-          "explain": "Multiply solute mass by solvent molar mass, then divide by the lowering times solvent mass; the benzene case yields 170 g per mol.",
-          "compute": "mm_solute = mass_solute * molar_mass_solvent / (relative_lowering * mass_solvent)"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Relative Lowering of Vapour Pressure and Solute Molar Mass, compute the result for p_pure_solvent = 3, p_solution = 2, mass_solute = 1, molar_mass_solvent = 0.5, mass_solvent = 0.25.",
-          "solution": "Step 1: Take the fractional drop in vapour pressure: relative_lowering = (p_pure_solvent - p_solution) / p_pure_solvent = 0.333333 Step 2: Solve the lowering relation for the solute molar mass: mm_solute = mass_solute * molar_mass_solvent / (relative_lowering * mass_solvent) = 6.0 Final result: 6.0",
-          "answer": "6.0"
-        },
-        {
-          "question": "Using Relative Lowering of Vapour Pressure and Solute Molar Mass, compute the result for p_pure_solvent = 0.5, p_solution = 0.25, mass_solute = 2, molar_mass_solvent = 3, mass_solvent = 4.",
-          "solution": "Step 1: Take the fractional drop in vapour pressure: relative_lowering = (p_pure_solvent - p_solution) / p_pure_solvent = 0.5 Step 2: Solve the lowering relation for the solute molar mass: mm_solute = mass_solute * molar_mass_solvent / (relative_lowering * mass_solvent) = 3.0 Final result: 3.0",
-          "answer": "3.0"
-        }
-      ]
-    },
-    {
-      "id": "lech.01.1.6.2",
-      "title": "Elevation of Boiling Point",
-      "section": "1.6.2",
-      "definition": "Because a non volatile solute suppresses vapour pressure, the solution must be heated past the pure solvent's boiling point before it can boil, and the rise tracks the molal concentration.",
-      "formula": "delta_tb = kb_constant * molality",
-      "key_idea": "Kb depends only on the solvent (water 0.52 K kg per mol), and the solution boiling point equals the pure solvent boiling point plus the rise.",
-      "textbook_ref": "lech101.txt, Section 1.6.2, equations 1.29-1.33 and Example 1.7",
-      "question_patterns": [
-        "calculate the boiling point of a solution when 18 g of glucose is dissolved in 1 kg of water",
-        "find the temperature at which an aqueous solution of a known solute boils at 1.013 bar",
-        "determine the rise in boiling point produced by a solute of stated molality",
-        "at what temperature will the solution boil if its molality and Kb are given",
-        "compute the new boiling point of benzene after adding 1.8 g of a solute of molar mass 58",
-        "estimate the boiling point elevation for a dilute solution from its molal concentration"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Convert the solute mass to moles",
-          "explain": "18 g glucose over 180 gives 0.1 mol.",
-          "compute": "moles_solute = mass_solute / molar_mass_solute"
-        },
-        {
-          "step": 2,
-          "action": "Form the molality on a 1 kg solvent basis",
-          "explain": "0.1 mol in 1000 g water gives 0.1 mol per kg.",
-          "compute": "molality = 1000 * moles_solute / mass_solvent_g"
-        },
-        {
-          "step": 3,
-          "action": "Multiply by the ebullioscopic constant",
-          "explain": "0.52 times 0.1 gives a 0.052 K rise for water.",
-          "compute": "delta_tb = kb_constant * molality"
-        },
-        {
-          "step": 4,
-          "action": "Add the rise to the pure solvent boiling point",
-          "explain": "373.15 plus 0.052 puts the solution boiling point at 373.202 K.",
-          "compute": "bp_solution = bp_pure_solvent + delta_tb"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Elevation of Boiling Point, compute the result for mass_solute = 3, molar_mass_solute = 3, mass_solvent_g = 3, kb_constant = 2, bp_pure_solvent = 2.",
-          "solution": "Step 1: Convert the solute mass to moles: moles_solute = mass_solute / molar_mass_solute = 1.0 Step 2: Form the molality on a 1 kg solvent basis: molality = 1000 * moles_solute / mass_solvent_g = 333.333333 Step 3: Multiply by the ebullioscopic constant: delta_tb = kb_constant * molality = 666.666667 Step 4: Add the rise to the pure solvent boiling point: bp_solution = bp_pure_solvent + delta_tb = 668.666667 Final result: 668.666667",
-          "answer": "668.666667"
-        },
-        {
-          "question": "Using Elevation of Boiling Point, compute the result for mass_solute = 4, molar_mass_solute = 4, mass_solvent_g = 4, kb_constant = 3, bp_pure_solvent = 3.",
-          "solution": "Step 1: Convert the solute mass to moles: moles_solute = mass_solute / molar_mass_solute = 1.0 Step 2: Form the molality on a 1 kg solvent basis: molality = 1000 * moles_solute / mass_solvent_g = 250.0 Step 3: Multiply by the ebullioscopic constant: delta_tb = kb_constant * molality = 750.0 Step 4: Add the rise to the pure solvent boiling point: bp_solution = bp_pure_solvent + delta_tb = 753.0 Final result: 753.0",
-          "answer": "753.0"
-        }
-      ]
-    },
-    {
-      "id": "lech.01.1.6.3.1",
-      "title": "Depression of Freezing Point",
-      "section": "1.6.3",
-      "definition": "Dissolved solute drags the freezing temperature below the pure solvent's value because the lowered vapour pressure curve meets the solid curve earlier, and the drop grows with molality.",
-      "formula": "delta_tf = kf_constant * molality",
-      "key_idea": "Kf is solvent specific (water 1.86 K kg per mol), and the solution freezing point equals the pure solvent freezing point minus the drop, the principle behind road antifreeze.",
-      "textbook_ref": "lech101.txt, Section 1.6.3, equations 1.34-1.36 and Example 1.9",
-      "question_patterns": [
-        "calculate the freezing point of a solution containing 45 g of ethylene glycol in 600 g of water",
-        "find the temperature at which the antifreeze solution freezes",
-        "determine the fall in freezing point when 1.0 g of a non electrolyte is dissolved in 50 g of benzene",
-        "what is the new freezing point of water after a stated mass of glucose is stirred in",
-        "compute how far the freezing temperature drops for a given molal concentration using Kf",
-        "will the mixture freeze below 273 K, work out its freezing temperature"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Convert the solute mass to moles",
-          "explain": "45 g ethylene glycol over 62 gives about 0.73 mol.",
-          "compute": "moles_solute = mass_solute / molar_mass_solute"
-        },
-        {
-          "step": 2,
-          "action": "Form the molality of the solution",
-          "explain": "0.73 mol in 0.6 kg water gives about 1.2 mol per kg.",
-          "compute": "molality = 1000 * moles_solute / mass_solvent_g"
-        },
-        {
-          "step": 3,
-          "action": "Multiply by the cryoscopic constant",
-          "explain": "1.86 times 1.2 gives about a 2.2 K drop.",
-          "compute": "delta_tf = kf_constant * molality"
-        },
-        {
-          "step": 4,
-          "action": "Subtract the drop from the pure solvent freezing point",
-          "explain": "273.15 minus 2.2 puts the solution freezing point near 270.95 K.",
-          "compute": "fp_solution = fp_pure_solvent - delta_tf"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Depression of Freezing Point, compute the result for mass_solute = 3, molar_mass_solute = 3, mass_solvent_g = 3, kf_constant = 2, fp_pure_solvent = 2.",
-          "solution": "Step 1: Convert the solute mass to moles: moles_solute = mass_solute / molar_mass_solute = 1.0 Step 2: Form the molality of the solution: molality = 1000 * moles_solute / mass_solvent_g = 333.333333 Step 3: Multiply by the cryoscopic constant: delta_tf = kf_constant * molality = 666.666667 Step 4: Subtract the drop from the pure solvent freezing point: fp_solution = fp_pure_solvent - delta_tf = -664.666667 Final result: -664.666667",
-          "answer": "-664.666667"
-        },
-        {
-          "question": "Using Depression of Freezing Point, compute the result for mass_solute = 4, molar_mass_solute = 4, mass_solvent_g = 4, kf_constant = 3, fp_pure_solvent = 3.",
-          "solution": "Step 1: Convert the solute mass to moles: moles_solute = mass_solute / molar_mass_solute = 1.0 Step 2: Form the molality of the solution: molality = 1000 * moles_solute / mass_solvent_g = 250.0 Step 3: Multiply by the cryoscopic constant: delta_tf = kf_constant * molality = 750.0 Step 4: Subtract the drop from the pure solvent freezing point: fp_solution = fp_pure_solvent - delta_tf = -747.0 Final result: -747.0",
-          "answer": "-747.0"
-        }
-      ]
-    },
-    {
-      "id": "lech.01.1.6.3.2",
-      "title": "Molar Mass of a Solute from Freezing Point Depression",
-      "section": "1.6.3",
-      "definition": "Rearranging the depression relation turns a measured temperature drop plus the solution make up into the molar mass of the dissolved substance, the classic cryoscopic determination for unknowns.",
-      "formula": "mm_solute = 1000 * kf_constant * mass_solute / (delta_tf * mass_solvent)",
-      "key_idea": "The very same rearrangement with Kb and the boiling point rise reads off a molar mass from elevation data instead.",
-      "textbook_ref": "lech101.txt, Section 1.6.3, equation 1.36 and Example 1.10",
-      "question_patterns": [
-        "calculate the molar mass of a solute whose 1.0 g in 50 g of benzene lowers the freezing point by 0.40 K",
-        "determine the molar mass of a non electrolyte from the depression it causes in the freezing point of benzene",
-        "what is the molecular weight of a solute given Kf, the solvent mass, the solute mass and the measured depression",
-        "use the freezing point depression equation to work out the molar mass of an unknown solid",
-        "an unknown compound lowers the freezing point of a known mass of solvent; find its molar mass",
-        "compute M2 from cryoscopic data with the depression constant of the solvent"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Scale the depression constant to the solution recipe",
-          "explain": "1000 times 5.12 times 1.0 over 50 builds the numerator from the benzene data.",
-          "compute": "scaled_kf = 1000 * kf_constant * mass_solute / mass_solvent"
-        },
-        {
-          "step": 2,
-          "action": "Divide by the measured depression",
-          "explain": "The scaled constant over 0.40 K gives 256 g per mol for the unknown.",
-          "compute": "mm_solute = scaled_kf / delta_tf"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Molar Mass of a Solute from Freezing Point Depression, compute the result for kf_constant = 3, mass_solute = 3, mass_solvent = 3, delta_tf = 2.",
-          "solution": "Step 1: Scale the depression constant to the solution recipe: scaled_kf = 1000 * kf_constant * mass_solute / mass_solvent = 3000.0 Step 2: Divide by the measured depression: mm_solute = scaled_kf / delta_tf = 1500.0 Final result: 1500.0",
-          "answer": "1500.0"
-        },
-        {
-          "question": "Using Molar Mass of a Solute from Freezing Point Depression, compute the result for kf_constant = 4, mass_solute = 4, mass_solvent = 4, delta_tf = 3.",
-          "solution": "Step 1: Scale the depression constant to the solution recipe: scaled_kf = 1000 * kf_constant * mass_solute / mass_solvent = 4000.0 Step 2: Divide by the measured depression: mm_solute = scaled_kf / delta_tf = 1333.333333 Final result: 1333.333333",
-          "answer": "1333.333333"
-        }
-      ]
-    },
-    {
-      "id": "lech.01.1.6.4.1",
-      "title": "Osmotic Pressure of a Solution",
-      "section": "1.6.4",
-      "definition": "The surplus pressure that must be applied to a solution to stop solvent creeping in through a semipermeable membrane; it grows with the solute molarity and the absolute temperature.",
-      "formula": "osmotic = (moles_solute / volume_litres) * gas_constant * kelvin_temp",
-      "key_idea": "Solute moles over solution volume times R times T; this probe suits proteins and polymers because it runs near room temperature and stays sizeable even for very dilute solutions, and fluids sharing the same value are isotonic.",
-      "textbook_ref": "lech101.txt, Section 1.6.4, equations 1.39-1.42 and Example 1.11",
-      "question_patterns": [
-        "calculate the osmotic pressure in pascals for 1 g of a polymer of molar mass 185000 dissolved in 450 mL of water at 37 degrees C",
-        "find the osmotic pressure of a glucose solution containing 36 g per litre at 300 K",
-        "determine the pressure that must be applied to stop osmosis for a solution of known molarity and temperature",
-        "compute the osmotic pressure of a dilute solution from its molarity using the gas constant",
-        "what pressure just prevents solvent flow into the solution across a semipermeable membrane",
-        "estimate the osmotic pressure of a protein solution at room temperature"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Convert the solute mass to moles",
-          "explain": "Divide by the molar mass, for example a protein mass over its large molar mass.",
-          "compute": "moles_solute = mass_solute / molar_mass_solute"
-        },
-        {
-          "step": 2,
-          "action": "Express the concentration as molarity",
-          "explain": "200 mL of solution holds the moles in a 0.2 L volume.",
-          "compute": "molarity_c = moles_solute / volume_litres"
-        },
-        {
-          "step": 3,
-          "action": "Multiply by R and the kelvin temperature",
-          "explain": "With R = 0.083 L bar per mol per K, the protein case at 300 K gives about 2.57e-3 bar for 61,022 g per mol solute.",
-          "compute": "osmotic = molarity_c * gas_constant * kelvin_temp"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Osmotic Pressure of a Solution, compute the result for mass_solute = 3, molar_mass_solute = 3, volume_litres = 3, gas_constant = 2, kelvin_temp = 2.",
-          "solution": "Step 1: Convert the solute mass to moles: moles_solute = mass_solute / molar_mass_solute = 1.0 Step 2: Express the concentration as molarity: molarity_c = moles_solute / volume_litres = 0.333333 Step 3: Multiply by R and the kelvin temperature: osmotic = molarity_c * gas_constant * kelvin_temp = 1.333333 Final result: 1.333333",
-          "answer": "1.333333"
-        },
-        {
-          "question": "Using Osmotic Pressure of a Solution, compute the result for mass_solute = 4, molar_mass_solute = 4, volume_litres = 4, gas_constant = 3, kelvin_temp = 3.",
-          "solution": "Step 1: Convert the solute mass to moles: moles_solute = mass_solute / molar_mass_solute = 1.0 Step 2: Express the concentration as molarity: molarity_c = moles_solute / volume_litres = 0.25 Step 3: Multiply by R and the kelvin temperature: osmotic = molarity_c * gas_constant * kelvin_temp = 2.25 Final result: 2.25",
-          "answer": "2.25"
-        }
-      ]
-    },
-    {
-      "id": "lech.01.1.7.1",
-      "title": "van't Hoff Factor",
-      "section": "1.7",
-      "definition": "A correction factor counting the particles one formula unit really produces in solution: above one for salts that split into ions, below one for molecules that pair up, and it multiplies every colligative relation.",
-      "formula": "vant_hoff = normal_molar_mass / abnormal_molar_mass",
-      "key_idea": "KCl approaches 2 and K2SO4 approaches 3 on full dissociation, while dimerised ethanoic acid in benzene sits near 0.5; observed colligative values divided by calculated ones give the same factor.",
-      "textbook_ref": "lech101.txt, Section 1.7, van't Hoff factor definitions and Table 1.4",
-      "question_patterns": [
-        "calculate the van't Hoff factor for KCl in water given its normal and abnormal molar masses",
-        "find i for a solute whose association doubles the molar mass seen in the experiment",
-        "determine the ratio of observed to calculated colligative property for a dissociating electrolyte",
-        "what is the van't Hoff factor when the experimental molar mass differs from the normal value",
-        "compute the factor i for magnesium sulfate in dilute solution from its molar mass data",
-        "state the van't Hoff factor expected when a solute of stated normal molar mass shows a stated abnormal molar mass"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Divide the normal molar mass by the experimentally seen molar mass",
-          "explain": "For ethanoic acid dimerising in benzene the observed value rises, so the ratio dips below one; for dissociating KCl it climbs above one.",
-          "compute": "vant_hoff = normal_molar_mass / abnormal_molar_mass"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using van't Hoff Factor, compute the result for normal_molar_mass = 3, abnormal_molar_mass = 3.",
-          "solution": "Step 1: Divide the normal molar mass by the experimentally seen molar mass: vant_hoff = normal_molar_mass / abnormal_molar_mass = 1.0 Final result: 1.0",
-          "answer": "1.0"
-        },
-        {
-          "question": "Using van't Hoff Factor, compute the result for normal_molar_mass = 4, abnormal_molar_mass = 4.",
-          "solution": "Step 1: Divide the normal molar mass by the experimentally seen molar mass: vant_hoff = normal_molar_mass / abnormal_molar_mass = 1.0 Final result: 1.0",
-          "answer": "1.0"
-        }
-      ]
+     "step": 3,
+     "action": "State the solution type as solute state in solvent state",
+     "explain": "Nine pairings exist: gas, liquid or solid solute each in gas, liquid or solid solvent, as tabulated in the chapter."
     }
-  ],
-  "worked_examples": [
+   ]
+  },
+  {
+   "id": "lech.01.1.2.1",
+   "title": "Mass Percentage of a Component",
+   "section": "1.2",
+   "definition": "A way of quoting strength as the mass of one component carried in every 100 units of total solution mass; industry reports mixtures such as bleaching liquor this way.",
+   "formula": "mass_pct = 100 * mass_solute / total_mass_solution",
+   "key_idea": "Taking 100 g of solution as the basis makes the figure read directly as grams of that component per 100 g of finished solution, and it never drifts with temperature.",
+   "textbook_ref": "lech101.txt, Section 1.2 item (i), equation 1.1",
+   "question_patterns": [
+    "calculate the mass percentage of benzene in a benzene and carbon tetrachloride mixture",
+    "find the percent by mass of aspirin dissolved in acetonitrile",
+    "determine the w/w strength of a solution prepared from 10 g of glucose in 90 g of water",
+    "what is the mass percent of solute for 22 g dissolved in 122 g of solvent",
+    "compute the component mass as a percentage of the whole solution",
+    "express the make-up of a brine with a stated solute and solvent mass as a mass percentage"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "question": "A solution holds 20 percent ethylene glycol by mass. What is the mole fraction of the glycol?",
-      "solution": "Basis 100 g: 20 g glycol is 20/62 = 0.322 mol and 80 g water is 80/18 = 4.444 mol. The glycol fraction is 0.322 over 4.766.",
-      "answer": "0.068 (and the water fraction is 0.932)"
+     "step": 1,
+     "action": "Add the component masses to get the total solution mass",
+     "explain": "A 10 percent glucose solution is 10 g glucose plus 90 g water, 100 g in all.",
+     "compute": "total_mass_solution = mass_solute + mass_solvent"
     },
     {
-      "question": "5 g of NaOH is dissolved in 450 mL of solution. Find the molarity.",
-      "solution": "5 g over 40 g per mol gives 0.125 mol; scaling to a litre basis gives 0.125 times 1000 over 450.",
-      "answer": "0.278 M (0.278 mol per litre)"
-    },
-    {
-      "question": "45 g of ethylene glycol is mixed into 600 g of water. Where does the solution freeze?",
-      "solution": "Moles of glycol = 45/62 = 0.73; molality = 0.73/0.6 = 1.2 mol per kg; drop = 1.86 times 1.2 = 2.2 K.",
-      "answer": "273.15 - 2.2 = about 270.95 K"
-    },
-    {
-      "question": "A 1.0 g sample of a non electrolyte in 50 g of benzene lowers the freezing point by 0.40 K. Kf for benzene is 5.12 K kg per mol. Find the molar mass.",
-      "solution": "mm = 1000 times 5.12 times 1.0 divided by (0.40 times 50).",
-      "answer": "256 g per mol"
+     "step": 2,
+     "action": "Scale the component share to 100",
+     "explain": "Divide the component mass by the total and multiply by 100.",
+     "compute": "mass_pct = 100 * mass_solute / total_mass_solution"
     }
-  ],
-  "exercises": [
+   ],
+   "worked_examples": [
     {
-      "id": "lech101_ex1",
-      "source_ref": "lech101.txt Exercises 1.1-1.3",
-      "questions": [
-        "Define the term solution and describe its types with one example of each.",
-        "Give an example of a solid solution in which the solute is a gas.",
-        "Define mole fraction, molality, molarity and mass percentage."
-      ]
+     "question": "Using Mass Percentage of a Component, compute the result for mass_solute = 3, mass_solvent = 3.",
+     "solution": "Step 1: Add the component masses to get the total solution mass: total_mass_solution = mass_solute + mass_solvent = 6.0 Step 2: Scale the component share to 100: mass_pct = 100 * mass_solute / total_mass_solution = 50.0 Final result: 50.0",
+     "answer": "50.0"
     },
     {
-      "id": "lech101_ex2",
-      "source_ref": "lech101.txt Exercise 1.4",
-      "questions": [
-        "Concentrated nitric acid is 68 percent by mass and its density is 1.504 g per mL. Calculate the molarity of this sample."
-      ]
-    },
-    {
-      "id": "lech101_ex3",
-      "source_ref": "lech101.txt Exercises 1.5 and 1.9",
-      "questions": [
-        "A glucose solution labelled 10 percent w/w has density 1.2 g per mL. Find its molality, mole fractions and molarity.",
-        "Drinking water carries 15 ppm by mass of chloroform. Express this as percent by mass and find the molality of chloroform in the water."
-      ]
-    },
-    {
-      "id": "lech101_ex4",
-      "source_ref": "lech101.txt Exercises 1.11 and 1.40",
-      "questions": [
-        "How much ascorbic acid should be dissolved in 75 g of acetic acid to drop its melting point by 1.5 degrees C, given Kf = 3.9 K kg per mol?",
-        "How much CaCl2 with van't Hoff factor 2.47 must be dissolved in 2.5 litres of water so the osmotic pressure reaches 0.75 atm at 27 degrees C?"
-      ]
+     "question": "Using Mass Percentage of a Component, compute the result for mass_solute = 4, mass_solvent = 4.",
+     "solution": "Step 1: Add the component masses to get the total solution mass: total_mass_solution = mass_solute + mass_solvent = 8.0 Step 2: Scale the component share to 100: mass_pct = 100 * mass_solute / total_mass_solution = 50.0 Final result: 50.0",
+     "answer": "50.0"
     }
-  ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mass_pct = 100 * mass_solute / total_mass_solution",
+     "compute": "mass_pct = 100 * mass_solute / total_mass_solution"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.01.1.2.2",
+   "title": "Mole Fraction of a Component",
+   "section": "1.2",
+   "definition": "The share of all moles in a mixture that belong to one component; each share lies between 0 and 1 and the whole set always adds to one.",
+   "formula": "x_solute = moles_solute / (moles_solute + moles_solvent)",
+   "key_idea": "Convert masses to moles first; the partner fraction then follows as 1 minus x, and mole fractions feed directly into vapour pressure and gas mixture sums.",
+   "textbook_ref": "lech101.txt, Section 1.2 item (v), equations 1.4-1.7 and Example 1.1",
+   "question_patterns": [
+    "calculate the mole fraction of ethylene glycol in a 20 percent by mass aqueous solution",
+    "find x for component A in a binary liquid mixture from the given masses and molar masses",
+    "determine the mole fraction of benzene in a solution that is 30 percent benzene by mass",
+    "what is the mole fraction of the solvent when the solute fraction is known",
+    "work out the mole fraction of KI in its aqueous solution of stated strength",
+    "compute both mole fractions for a mixture made from known moles of two liquids"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Convert each mass to moles using its molar mass",
+     "explain": "Divide the mass of each component by its molar mass, for example 20 g glycol over 62 gives 0.322 mol.",
+     "compute": "moles_solute = mass_solute / molar_mass_solute"
+    },
+    {
+     "step": 2,
+     "action": "Convert the solvent mass to moles as well",
+     "explain": "80 g water over 18 gives about 4.444 mol.",
+     "compute": "moles_solvent = mass_solvent / molar_mass_solvent"
+    },
+    {
+     "step": 3,
+     "action": "Divide one component's moles by the total moles",
+     "explain": "The result is that component's mole fraction; the rest of the mixture carries 1 minus this value.",
+     "compute": "x_solute = moles_solute / (moles_solute + moles_solvent)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Mole Fraction of a Component, compute the result for mass_solute = 3, molar_mass_solute = 3, mass_solvent = 3, molar_mass_solvent = 2.",
+     "solution": "Step 1: Convert each mass to moles using its molar mass: moles_solute = mass_solute / molar_mass_solute = 1.0 Step 2: Convert the solvent mass to moles as well: moles_solvent = mass_solvent / molar_mass_solvent = 1.5 Step 3: Divide one component's moles by the total moles: x_solute = moles_solute / (moles_solute + moles_solvent) = 0.4 Final result: 0.4",
+     "answer": "0.4"
+    },
+    {
+     "question": "Using Mole Fraction of a Component, compute the result for mass_solute = 4, molar_mass_solute = 4, mass_solvent = 4, molar_mass_solvent = 3.",
+     "solution": "Step 1: Convert each mass to moles using its molar mass: moles_solute = mass_solute / molar_mass_solute = 1.0 Step 2: Convert the solvent mass to moles as well: moles_solvent = mass_solvent / molar_mass_solvent = 1.333333 Step 3: Divide one component's moles by the total moles: x_solute = moles_solute / (moles_solute + moles_solvent) = 0.428571 Final result: 0.428571",
+     "answer": "0.428571"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "x_solute = moles_solute / (moles_solute + moles_solvent)",
+     "compute": "x_solute = moles_solute / (moles_solute + moles_solvent)"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.01.1.2.3",
+   "title": "Molarity of a Solution",
+   "section": "1.2",
+   "definition": "Moles of solute held in one litre of finished solution, the everyday laboratory unit for reagent strength.",
+   "formula": "molarity = 1000 * moles_solute / volume_solution_ml",
+   "key_idea": "It is volume based, so it shifts with temperature; when the volume arrives in millilitres, multiply the moles by 1000 before dividing.",
+   "textbook_ref": "lech101.txt, Section 1.2 item (vi), equation 1.8 and Example 1.2",
+   "question_patterns": [
+    "calculate the molarity of a solution containing 5 g of NaOH in 450 mL of solution",
+    "find the molar concentration when 30 g of cobalt nitrate is made up to 4.3 litres of solution",
+    "determine the molarity after diluting 30 mL of 0.5 M acid up to 500 mL",
+    "what is the molarity of 68 percent nitric acid whose density is 1.504 g per mL",
+    "compute the moles of solute present in one litre of the given solution",
+    "convert a stated mass of solute in a stated solution volume into mol per litre"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Convert the solute mass to moles",
+     "explain": "Divide by the molar mass, for instance 5 g NaOH over 40 gives 0.125 mol.",
+     "compute": "moles_solute = mass_solute / molar_mass_solute"
+    },
+    {
+     "step": 2,
+     "action": "Scale the moles to a one litre basis",
+     "explain": "Molarity counts moles per litre of solution, so a 450 mL volume needs the 1000 factor.",
+     "compute": "molarity = 1000 * moles_solute / volume_solution_ml"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Molarity of a Solution, compute the result for mass_solute = 3, molar_mass_solute = 3, volume_solution_ml = 3.",
+     "solution": "Step 1: Convert the solute mass to moles: moles_solute = mass_solute / molar_mass_solute = 1.0 Step 2: Scale the moles to a one litre basis: molarity = 1000 * moles_solute / volume_solution_ml = 333.333333 Final result: 333.333333",
+     "answer": "333.333333"
+    },
+    {
+     "question": "Using Molarity of a Solution, compute the result for mass_solute = 4, molar_mass_solute = 4, volume_solution_ml = 4.",
+     "solution": "Step 1: Convert the solute mass to moles: moles_solute = mass_solute / molar_mass_solute = 1.0 Step 2: Scale the moles to a one litre basis: molarity = 1000 * moles_solute / volume_solution_ml = 250.0 Final result: 250.0",
+     "answer": "250.0"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "molarity = 1000 * moles_solute / volume_solution_ml",
+     "compute": "molarity = 1000 * moles_solute / volume_solution_ml"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.01.1.2.4",
+   "title": "Molality of a Solution",
+   "section": "1.2",
+   "definition": "Moles of solute dissolved per kilogram of solvent itself, not of the whole solution; the concentration unit preferred when temperature changes are in play.",
+   "formula": "molality = 1000 * moles_solute / mass_solvent_g",
+   "key_idea": "Solvent mass in kg sits in the denominator, so thermal expansion cannot touch the number, unlike molarity.",
+   "textbook_ref": "lech101.txt, Section 1.2 item (vii), equation 1.9 and Example 1.3",
+   "question_patterns": [
+    "calculate the molality of 2.5 g of ethanoic acid dissolved in 75 g of benzene",
+    "find the molality of an antifreeze made from 222.6 g of ethylene glycol and 200 g of water",
+    "determine the moles of urea required per kilogram of water for a 0.25 molal solution",
+    "what is the molal strength given the solute mass, its molar mass and the solvent mass",
+    "work out the molality when 0.15 mol of solute is dissolved in 200 g of solvent",
+    "compute moles of solute per kilogram of solvent for the stated recipe"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Convert the solute mass to moles",
+     "explain": "For example 2.5 g ethanoic acid over 60 gives about 0.0417 mol.",
+     "compute": "moles_solute = mass_solute / molar_mass_solute"
+    },
+    {
+     "step": 2,
+     "action": "Scale to one kilogram of solvent",
+     "explain": "The solvent mass arrives in grams, so multiply the mole count by 1000 and divide by it.",
+     "compute": "molality = 1000 * moles_solute / mass_solvent_g"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Molality of a Solution, compute the result for mass_solute = 3, molar_mass_solute = 3, mass_solvent_g = 3.",
+     "solution": "Step 1: Convert the solute mass to moles: moles_solute = mass_solute / molar_mass_solute = 1.0 Step 2: Scale to one kilogram of solvent: molality = 1000 * moles_solute / mass_solvent_g = 333.333333 Final result: 333.333333",
+     "answer": "333.333333"
+    },
+    {
+     "question": "Using Molality of a Solution, compute the result for mass_solute = 4, molar_mass_solute = 4, mass_solvent_g = 4.",
+     "solution": "Step 1: Convert the solute mass to moles: moles_solute = mass_solute / molar_mass_solute = 1.0 Step 2: Scale to one kilogram of solvent: molality = 1000 * moles_solute / mass_solvent_g = 250.0 Final result: 250.0",
+     "answer": "250.0"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "molality = 1000 * moles_solute / mass_solvent_g",
+     "compute": "molality = 1000 * moles_solute / mass_solvent_g"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.01.1.2.5",
+   "title": "Parts per Million (ppm)",
+   "section": "1.2",
+   "definition": "A trace level scale counting how many parts of one component sit among a million parts of the whole; suited to pollutants, fluoride in water and dissolved gases.",
+   "formula": "ppm = 1000000 * mass_component / total_mass_sample",
+   "key_idea": "Same ratio logic as percentage but a million fold wider scale, so percent by mass times 10000 converts straight to ppm.",
+   "textbook_ref": "lech101.txt, Section 1.2 item (iv), equation 1.3 and sea water example",
+   "question_patterns": [
+    "calculate the concentration in parts per million when a trace of oxygen sits in 1030 g of sea water",
+    "find the ppm of fluoride ions in a water sample from the measured mass of fluoride",
+    "express a contaminant level in ppm given its mass in a large sample of the medium",
+    "determine the parts per million strength of a pollutant in air or water",
+    "convert the measured mass of a dissolved impurity into a ppm figure for the whole sample",
+    "report a trace solute level as millionths of the total sample mass"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Add up the masses of all components for the sample total",
+     "explain": "One litre of sea water weighs about 1030 g including the tiny dissolved oxygen.",
+     "compute": "total_mass_sample = mass_component + mass_medium"
+    },
+    {
+     "step": 2,
+     "action": "Scale the component share up to a million",
+     "explain": "Multiply the ratio by 10 to the power 6; 0.006 g in 1030 g gives about 5.8 ppm.",
+     "compute": "ppm = 1000000 * mass_component / total_mass_sample"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Parts per Million (ppm), compute the result for mass_component = 3, mass_medium = 3.",
+     "solution": "Step 1: Add up the masses of all components for the sample total: total_mass_sample = mass_component + mass_medium = 6.0 Step 2: Scale the component share up to a million: ppm = 1000000 * mass_component / total_mass_sample = 500000.0 Final result: 500000.0",
+     "answer": "500000.0"
+    },
+    {
+     "question": "Using Parts per Million (ppm), compute the result for mass_component = 4, mass_medium = 4.",
+     "solution": "Step 1: Add up the masses of all components for the sample total: total_mass_sample = mass_component + mass_medium = 8.0 Step 2: Scale the component share up to a million: ppm = 1000000 * mass_component / total_mass_sample = 500000.0 Final result: 500000.0",
+     "answer": "500000.0"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ppm = 1000000 * mass_component / total_mass_sample",
+     "compute": "ppm = 1000000 * mass_component / total_mass_sample"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.01.1.3.1",
+   "title": "Henry's Law Solubility of a Gas",
+   "section": "1.3.2",
+   "definition": "At fixed temperature the mole fraction of a gas held in a liquid climbs in step with the pressure of that gas above the liquid, and the proportionality constant is peculiar to each gas.",
+   "formula": "x_gas = partial_pressure / henry_constant",
+   "key_idea": "A larger Henry constant signals a less soluble gas, and since dissolving a gas releases heat, gas solubility falls as temperature rises, which is why cold water holds more oxygen.",
+   "textbook_ref": "lech101.txt, Section 1.3.2, equation 1.11 and Example 1.4",
+   "question_patterns": [
+    "calculate the millimoles of nitrogen gas that dissolve in one litre of water under a stated partial pressure",
+    "find the mole fraction of carbon dioxide in soda water packed under a given pressure using its Henry constant",
+    "determine the solubility of methane in benzene at 760 mm from the tabulated KH",
+    "apply Henry law to get the quantity of gas taken up by water at the stated pressure",
+    "how many millimoles of a gas dissolve in water when its partial pressure and Henry constant are given",
+    "estimate the dissolved gas content of water from the pressure of the gas above it"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide the gas pressure by its Henry constant",
+     "explain": "For nitrogen at 293 K, 0.987 bar over 76480 bar gives about 1.29e-5 as the mole fraction.",
+     "compute": "mole_frac_gas = partial_pressure / henry_constant_bar"
+    },
+    {
+     "step": 2,
+     "action": "Spread that fraction over the solvent moles in one litre",
+     "explain": "One litre of water carries about 55.5 mol, and the dissolved gas moles are a tiny addition to this.",
+     "compute": "moles_gas = mole_frac_gas * moles_water_per_litre"
+    },
+    {
+     "step": 3,
+     "action": "Report the uptake in millimoles",
+     "explain": "Multiply moles by 1000; the nitrogen case lands near 0.716 mmol.",
+     "compute": "millimoles_gas = 1000 * moles_gas"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Henry's Law Solubility of a Gas, compute the result for partial_pressure = 3, henry_constant_bar = 3, moles_water_per_litre = 3.",
+     "solution": "Step 1: Divide the gas pressure by its Henry constant: mole_frac_gas = partial_pressure / henry_constant_bar = 1.0 Step 2: Spread that fraction over the solvent moles in one litre: moles_gas = mole_frac_gas * moles_water_per_litre = 3.0 Step 3: Report the uptake in millimoles: millimoles_gas = 1000 * moles_gas = 3000.0 Final result: 3000.0",
+     "answer": "3000.0"
+    },
+    {
+     "question": "Using Henry's Law Solubility of a Gas, compute the result for partial_pressure = 4, henry_constant_bar = 4, moles_water_per_litre = 4.",
+     "solution": "Step 1: Divide the gas pressure by its Henry constant: mole_frac_gas = partial_pressure / henry_constant_bar = 1.0 Step 2: Spread that fraction over the solvent moles in one litre: moles_gas = mole_frac_gas * moles_water_per_litre = 4.0 Step 3: Report the uptake in millimoles: millimoles_gas = 1000 * moles_gas = 4000.0 Final result: 4000.0",
+     "answer": "4000.0"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "x_gas = partial_pressure / henry_constant",
+     "compute": "x_gas = partial_pressure / henry_constant"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.01.1.4.1",
+   "title": "Total Vapour Pressure of an Ideal Liquid Pair",
+   "section": "1.4.1",
+   "definition": "Each volatile component of an ideal mixture contributes a partial pressure equal to its own pure vapour pressure scaled by its mole fraction, and the mixture's vapour pressure is the sum of the two contributions.",
+   "formula": "p_total = p_a_pure + (p_b_pure - p_a_pure) * x_b",
+   "key_idea": "The total pressure slides linearly between the two pure liquid pressures as composition changes, and the vapour phase ends up richer in whichever liquid is more volatile.",
+   "textbook_ref": "lech101.txt, Section 1.4.1, equations 1.12-1.16 and Example 1.5",
+   "question_patterns": [
+    "calculate the total vapour pressure of a mixture of 25.5 g of chloroform and 40 g of dichloromethane at 298 K",
+    "find p total for an ideal binary liquid solution from the pure vapour pressures and the component masses",
+    "determine the vapour pressure over a heptane and octane mixture at 373 K",
+    "what is the vapour pressure when two volatile liquids are mixed, worked out with Raoult law",
+    "compute ptotal from the mole fraction and pure vapour pressures of both components",
+    "use Raoult law to obtain the equilibrium vapour pressure of a pair of volatile liquids"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Convert each liquid mass to moles",
+     "explain": "Divide by molar mass, for example 25.5 g chloroform over 119.5 gives 0.213 mol.",
+     "compute": "moles_a = mass_a / molar_mass_a"
+    },
+    {
+     "step": 2,
+     "action": "Convert the second liquid to moles",
+     "explain": "40 g dichloromethane over 85 gives 0.47 mol.",
+     "compute": "moles_b = mass_b / molar_mass_b"
+    },
+    {
+     "step": 3,
+     "action": "Take the mole fraction of component b",
+     "explain": "0.47 over 0.683 total gives about 0.688.",
+     "compute": "x_b = moles_b / (moles_a + moles_b)"
+    },
+    {
+     "step": 4,
+     "action": "Slide between the two pure pressures",
+     "explain": "p_total = 200 + (415 - 200) times 0.688 gives about 347.9 mm Hg.",
+     "compute": "p_total = p_a_pure + (p_b_pure - p_a_pure) * x_b"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Total Vapour Pressure of an Ideal Liquid Pair, compute the result for mass_a = 3, molar_mass_a = 3, mass_b = 3, molar_mass_b = 2, p_a_pure = 2, p_b_pure = 2.",
+     "solution": "Step 1: Convert each liquid mass to moles: moles_a = mass_a / molar_mass_a = 1.0 Step 2: Convert the second liquid to moles: moles_b = mass_b / molar_mass_b = 1.5 Step 3: Take the mole fraction of component b: x_b = moles_b / (moles_a + moles_b) = 0.6 Step 4: Slide between the two pure pressures: p_total = p_a_pure + (p_b_pure - p_a_pure) * x_b = 2.0 Final result: 2.0",
+     "answer": "2.0"
+    },
+    {
+     "question": "Using Total Vapour Pressure of an Ideal Liquid Pair, compute the result for mass_a = 4, molar_mass_a = 4, mass_b = 4, molar_mass_b = 3, p_a_pure = 3, p_b_pure = 3.",
+     "solution": "Step 1: Convert each liquid mass to moles: moles_a = mass_a / molar_mass_a = 1.0 Step 2: Convert the second liquid to moles: moles_b = mass_b / molar_mass_b = 1.333333 Step 3: Take the mole fraction of component b: x_b = moles_b / (moles_a + moles_b) = 0.571429 Step 4: Slide between the two pure pressures: p_total = p_a_pure + (p_b_pure - p_a_pure) * x_b = 3.0 Final result: 3.0",
+     "answer": "3.0"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "p_total = p_a_pure + (p_b_pure - p_a_pure) * x_b",
+     "compute": "p_total = p_a_pure + (p_b_pure - p_a_pure) * x_b"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.01.1.5.1",
+   "title": "Ideal Solutions, Deviations and Azeotropes",
+   "section": "1.5",
+   "definition": "Mixtures that follow Raoult's law at every composition mix with no heat and no volume change; when unlike attractions are weaker than like ones the vapour pressure overshoots (positive deviation), and when they are stronger it undershoots (negative deviation), with extreme cases locking into constant boiling azeotropes.",
+   "formula": "deviation sign = sign(p_observed - p_raoult)",
+   "key_idea": "Positive deviation pairs such as ethanol with acetone give minimum boiling azeotropes, negative ones such as chloroform with acetone or nitric acid with water give maximum boiling types, and at azeotrope composition fractional distillation cannot separate the pair.",
+   "textbook_ref": "lech101.txt, Sections 1.5.1, 1.5.2 and azeotrope discussion",
+   "question_patterns": [
+    "explain why ethanol and acetone show positive deviation from Raoult law",
+    "state whether a chloroform and acetone mixture deviates positively or negatively and why",
+    "identify the sign of the enthalpy of mixing for a solution that obeys Raoult law at all compositions",
+    "which kind of azeotrope does a large positive deviation produce, minimum or maximum boiling",
+    "compare the ideal behaviour of benzene and toluene with the behaviour of phenol and aniline",
+    "classify a solution with zero enthalpy of mixing and zero volume change as ideal or non ideal"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compare unlike attractions with like attractions",
+     "explain": "Weaker A-B interactions let molecules escape more easily and push vapour pressure above the Raoult line."
+    },
+    {
+     "step": 2,
+     "action": "Decide the deviation sign from the observed vapour pressure",
+     "explain": "Above the Raoult prediction is positive deviation, below it is negative deviation."
+    },
+    {
+     "step": 3,
+     "action": "Name the azeotrope type when the deviation is large",
+     "explain": "Large positive deviation gives a minimum boiling azeotrope, large negative gives maximum boiling."
+    }
+   ]
+  },
+  {
+   "id": "lech.01.1.6.1",
+   "title": "Relative Lowering of Vapour Pressure and Solute Molar Mass",
+   "section": "1.6.1",
+   "definition": "A non volatile solute cuts the solvent vapour pressure by a fractional amount equal to the solute mole fraction, which opens a route to the solute's molar mass from pressure readings alone.",
+   "formula": "mm_solute = mass_solute * molar_mass_solvent / (relative_lowering * mass_solvent)",
+   "key_idea": "The fractional drop is (p pure minus p solution) over p pure, and for dilute solutions it reduces to moles of solute over moles of solvent.",
+   "textbook_ref": "lech101.txt, Section 1.6.1, equations 1.22-1.28 and Example 1.6",
+   "question_patterns": [
+    "calculate the molar mass of a non volatile solid from the relative lowering of vapour pressure of benzene",
+    "determine the molar mass of a solute whose addition to 39 g of benzene drops the vapour pressure from 0.850 to 0.845 bar",
+    "find M2 of a non electrolyte from relative lowering of vapour pressure data",
+    "what is the molecular mass of a dissolved solid if the solvent vapour pressure falls by a stated fraction",
+    "use the relative lowering relation to work out the molar mass of the dissolved substance",
+    "compute the molar mass of a solute from the drop it causes in the solvent vapour pressure"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Take the fractional drop in vapour pressure",
+     "explain": "0.850 minus 0.845 over 0.850 gives about 0.00588.",
+     "compute": "relative_lowering = (p_pure_solvent - p_solution) / p_pure_solvent"
+    },
+    {
+     "step": 2,
+     "action": "Solve the lowering relation for the solute molar mass",
+     "explain": "Multiply solute mass by solvent molar mass, then divide by the lowering times solvent mass; the benzene case yields 170 g per mol.",
+     "compute": "mm_solute = mass_solute * molar_mass_solvent / (relative_lowering * mass_solvent)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Relative Lowering of Vapour Pressure and Solute Molar Mass, compute the result for p_pure_solvent = 3, p_solution = 2, mass_solute = 1, molar_mass_solvent = 0.5, mass_solvent = 0.25.",
+     "solution": "Step 1: Take the fractional drop in vapour pressure: relative_lowering = (p_pure_solvent - p_solution) / p_pure_solvent = 0.333333 Step 2: Solve the lowering relation for the solute molar mass: mm_solute = mass_solute * molar_mass_solvent / (relative_lowering * mass_solvent) = 6.0 Final result: 6.0",
+     "answer": "6.0"
+    },
+    {
+     "question": "Using Relative Lowering of Vapour Pressure and Solute Molar Mass, compute the result for p_pure_solvent = 0.5, p_solution = 0.25, mass_solute = 2, molar_mass_solvent = 3, mass_solvent = 4.",
+     "solution": "Step 1: Take the fractional drop in vapour pressure: relative_lowering = (p_pure_solvent - p_solution) / p_pure_solvent = 0.5 Step 2: Solve the lowering relation for the solute molar mass: mm_solute = mass_solute * molar_mass_solvent / (relative_lowering * mass_solvent) = 3.0 Final result: 3.0",
+     "answer": "3.0"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mm_solute = mass_solute * molar_mass_solvent / (relative_lowering * mass_solvent)",
+     "compute": "mm_solute = mass_solute * molar_mass_solvent / (relative_lowering * mass_solvent)"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.01.1.6.2",
+   "title": "Elevation of Boiling Point",
+   "section": "1.6.2",
+   "definition": "Because a non volatile solute suppresses vapour pressure, the solution must be heated past the pure solvent's boiling point before it can boil, and the rise tracks the molal concentration.",
+   "formula": "delta_tb = kb_constant * molality",
+   "key_idea": "Kb depends only on the solvent (water 0.52 K kg per mol), and the solution boiling point equals the pure solvent boiling point plus the rise.",
+   "textbook_ref": "lech101.txt, Section 1.6.2, equations 1.29-1.33 and Example 1.7",
+   "question_patterns": [
+    "calculate the boiling point of a solution when 18 g of glucose is dissolved in 1 kg of water",
+    "find the temperature at which an aqueous solution of a known solute boils at 1.013 bar",
+    "determine the rise in boiling point produced by a solute of stated molality",
+    "at what temperature will the solution boil if its molality and Kb are given",
+    "compute the new boiling point of benzene after adding 1.8 g of a solute of molar mass 58",
+    "estimate the boiling point elevation for a dilute solution from its molal concentration"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Convert the solute mass to moles",
+     "explain": "18 g glucose over 180 gives 0.1 mol.",
+     "compute": "moles_solute = mass_solute / molar_mass_solute"
+    },
+    {
+     "step": 2,
+     "action": "Form the molality on a 1 kg solvent basis",
+     "explain": "0.1 mol in 1000 g water gives 0.1 mol per kg.",
+     "compute": "molality = 1000 * moles_solute / mass_solvent_g"
+    },
+    {
+     "step": 3,
+     "action": "Multiply by the ebullioscopic constant",
+     "explain": "0.52 times 0.1 gives a 0.052 K rise for water.",
+     "compute": "delta_tb = kb_constant * molality"
+    },
+    {
+     "step": 4,
+     "action": "Add the rise to the pure solvent boiling point",
+     "explain": "373.15 plus 0.052 puts the solution boiling point at 373.202 K.",
+     "compute": "bp_solution = bp_pure_solvent + delta_tb"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Elevation of Boiling Point, compute the result for mass_solute = 3, molar_mass_solute = 3, mass_solvent_g = 3, kb_constant = 2, bp_pure_solvent = 2.",
+     "solution": "Step 1: Convert the solute mass to moles: moles_solute = mass_solute / molar_mass_solute = 1.0 Step 2: Form the molality on a 1 kg solvent basis: molality = 1000 * moles_solute / mass_solvent_g = 333.333333 Step 3: Multiply by the ebullioscopic constant: delta_tb = kb_constant * molality = 666.666667 Step 4: Add the rise to the pure solvent boiling point: bp_solution = bp_pure_solvent + delta_tb = 668.666667 Final result: 668.666667",
+     "answer": "668.666667"
+    },
+    {
+     "question": "Using Elevation of Boiling Point, compute the result for mass_solute = 4, molar_mass_solute = 4, mass_solvent_g = 4, kb_constant = 3, bp_pure_solvent = 3.",
+     "solution": "Step 1: Convert the solute mass to moles: moles_solute = mass_solute / molar_mass_solute = 1.0 Step 2: Form the molality on a 1 kg solvent basis: molality = 1000 * moles_solute / mass_solvent_g = 250.0 Step 3: Multiply by the ebullioscopic constant: delta_tb = kb_constant * molality = 750.0 Step 4: Add the rise to the pure solvent boiling point: bp_solution = bp_pure_solvent + delta_tb = 753.0 Final result: 753.0",
+     "answer": "753.0"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "delta_tb = kb_constant * molality",
+     "compute": "delta_tb = kb_constant * molality"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.01.1.6.3.1",
+   "title": "Depression of Freezing Point",
+   "section": "1.6.3",
+   "definition": "Dissolved solute drags the freezing temperature below the pure solvent's value because the lowered vapour pressure curve meets the solid curve earlier, and the drop grows with molality.",
+   "formula": "delta_tf = kf_constant * molality",
+   "key_idea": "Kf is solvent specific (water 1.86 K kg per mol), and the solution freezing point equals the pure solvent freezing point minus the drop, the principle behind road antifreeze.",
+   "textbook_ref": "lech101.txt, Section 1.6.3, equations 1.34-1.36 and Example 1.9",
+   "question_patterns": [
+    "calculate the freezing point of a solution containing 45 g of ethylene glycol in 600 g of water",
+    "find the temperature at which the antifreeze solution freezes",
+    "determine the fall in freezing point when 1.0 g of a non electrolyte is dissolved in 50 g of benzene",
+    "what is the new freezing point of water after a stated mass of glucose is stirred in",
+    "compute how far the freezing temperature drops for a given molal concentration using Kf",
+    "will the mixture freeze below 273 K, work out its freezing temperature"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Convert the solute mass to moles",
+     "explain": "45 g ethylene glycol over 62 gives about 0.73 mol.",
+     "compute": "moles_solute = mass_solute / molar_mass_solute"
+    },
+    {
+     "step": 2,
+     "action": "Form the molality of the solution",
+     "explain": "0.73 mol in 0.6 kg water gives about 1.2 mol per kg.",
+     "compute": "molality = 1000 * moles_solute / mass_solvent_g"
+    },
+    {
+     "step": 3,
+     "action": "Multiply by the cryoscopic constant",
+     "explain": "1.86 times 1.2 gives about a 2.2 K drop.",
+     "compute": "delta_tf = kf_constant * molality"
+    },
+    {
+     "step": 4,
+     "action": "Subtract the drop from the pure solvent freezing point",
+     "explain": "273.15 minus 2.2 puts the solution freezing point near 270.95 K.",
+     "compute": "fp_solution = fp_pure_solvent - delta_tf"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Depression of Freezing Point, compute the result for mass_solute = 3, molar_mass_solute = 3, mass_solvent_g = 3, kf_constant = 2, fp_pure_solvent = 2.",
+     "solution": "Step 1: Convert the solute mass to moles: moles_solute = mass_solute / molar_mass_solute = 1.0 Step 2: Form the molality of the solution: molality = 1000 * moles_solute / mass_solvent_g = 333.333333 Step 3: Multiply by the cryoscopic constant: delta_tf = kf_constant * molality = 666.666667 Step 4: Subtract the drop from the pure solvent freezing point: fp_solution = fp_pure_solvent - delta_tf = -664.666667 Final result: -664.666667",
+     "answer": "-664.666667"
+    },
+    {
+     "question": "Using Depression of Freezing Point, compute the result for mass_solute = 4, molar_mass_solute = 4, mass_solvent_g = 4, kf_constant = 3, fp_pure_solvent = 3.",
+     "solution": "Step 1: Convert the solute mass to moles: moles_solute = mass_solute / molar_mass_solute = 1.0 Step 2: Form the molality of the solution: molality = 1000 * moles_solute / mass_solvent_g = 250.0 Step 3: Multiply by the cryoscopic constant: delta_tf = kf_constant * molality = 750.0 Step 4: Subtract the drop from the pure solvent freezing point: fp_solution = fp_pure_solvent - delta_tf = -747.0 Final result: -747.0",
+     "answer": "-747.0"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "delta_tf = kf_constant * molality",
+     "compute": "delta_tf = kf_constant * molality"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.01.1.6.3.2",
+   "title": "Molar Mass of a Solute from Freezing Point Depression",
+   "section": "1.6.3",
+   "definition": "Rearranging the depression relation turns a measured temperature drop plus the solution make up into the molar mass of the dissolved substance, the classic cryoscopic determination for unknowns.",
+   "formula": "mm_solute = 1000 * kf_constant * mass_solute / (delta_tf * mass_solvent)",
+   "key_idea": "The very same rearrangement with Kb and the boiling point rise reads off a molar mass from elevation data instead.",
+   "textbook_ref": "lech101.txt, Section 1.6.3, equation 1.36 and Example 1.10",
+   "question_patterns": [
+    "calculate the molar mass of a solute whose 1.0 g in 50 g of benzene lowers the freezing point by 0.40 K",
+    "determine the molar mass of a non electrolyte from the depression it causes in the freezing point of benzene",
+    "what is the molecular weight of a solute given Kf, the solvent mass, the solute mass and the measured depression",
+    "use the freezing point depression equation to work out the molar mass of an unknown solid",
+    "an unknown compound lowers the freezing point of a known mass of solvent; find its molar mass",
+    "compute M2 from cryoscopic data with the depression constant of the solvent"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Scale the depression constant to the solution recipe",
+     "explain": "1000 times 5.12 times 1.0 over 50 builds the numerator from the benzene data.",
+     "compute": "scaled_kf = 1000 * kf_constant * mass_solute / mass_solvent"
+    },
+    {
+     "step": 2,
+     "action": "Divide by the measured depression",
+     "explain": "The scaled constant over 0.40 K gives 256 g per mol for the unknown.",
+     "compute": "mm_solute = scaled_kf / delta_tf"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Molar Mass of a Solute from Freezing Point Depression, compute the result for kf_constant = 3, mass_solute = 3, mass_solvent = 3, delta_tf = 2.",
+     "solution": "Step 1: Scale the depression constant to the solution recipe: scaled_kf = 1000 * kf_constant * mass_solute / mass_solvent = 3000.0 Step 2: Divide by the measured depression: mm_solute = scaled_kf / delta_tf = 1500.0 Final result: 1500.0",
+     "answer": "1500.0"
+    },
+    {
+     "question": "Using Molar Mass of a Solute from Freezing Point Depression, compute the result for kf_constant = 4, mass_solute = 4, mass_solvent = 4, delta_tf = 3.",
+     "solution": "Step 1: Scale the depression constant to the solution recipe: scaled_kf = 1000 * kf_constant * mass_solute / mass_solvent = 4000.0 Step 2: Divide by the measured depression: mm_solute = scaled_kf / delta_tf = 1333.333333 Final result: 1333.333333",
+     "answer": "1333.333333"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mm_solute = 1000 * kf_constant * mass_solute / (delta_tf * mass_solvent)",
+     "compute": "mm_solute = 1000 * kf_constant * mass_solute / (delta_tf * mass_solvent)"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.01.1.6.4.1",
+   "title": "Osmotic Pressure of a Solution",
+   "section": "1.6.4",
+   "definition": "The surplus pressure that must be applied to a solution to stop solvent creeping in through a semipermeable membrane; it grows with the solute molarity and the absolute temperature.",
+   "formula": "osmotic = (moles_solute / volume_litres) * gas_constant * kelvin_temp",
+   "key_idea": "Solute moles over solution volume times R times T; this probe suits proteins and polymers because it runs near room temperature and stays sizeable even for very dilute solutions, and fluids sharing the same value are isotonic.",
+   "textbook_ref": "lech101.txt, Section 1.6.4, equations 1.39-1.42 and Example 1.11",
+   "question_patterns": [
+    "calculate the osmotic pressure in pascals for 1 g of a polymer of molar mass 185000 dissolved in 450 mL of water at 37 degrees C",
+    "find the osmotic pressure of a glucose solution containing 36 g per litre at 300 K",
+    "determine the pressure that must be applied to stop osmosis for a solution of known molarity and temperature",
+    "compute the osmotic pressure of a dilute solution from its molarity using the gas constant",
+    "what pressure just prevents solvent flow into the solution across a semipermeable membrane",
+    "estimate the osmotic pressure of a protein solution at room temperature"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Convert the solute mass to moles",
+     "explain": "Divide by the molar mass, for example a protein mass over its large molar mass.",
+     "compute": "moles_solute = mass_solute / molar_mass_solute"
+    },
+    {
+     "step": 2,
+     "action": "Express the concentration as molarity",
+     "explain": "200 mL of solution holds the moles in a 0.2 L volume.",
+     "compute": "molarity_c = moles_solute / volume_litres"
+    },
+    {
+     "step": 3,
+     "action": "Multiply by R and the kelvin temperature",
+     "explain": "With R = 0.083 L bar per mol per K, the protein case at 300 K gives about 2.57e-3 bar for 61,022 g per mol solute.",
+     "compute": "osmotic = molarity_c * gas_constant * kelvin_temp"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Osmotic Pressure of a Solution, compute the result for mass_solute = 3, molar_mass_solute = 3, volume_litres = 3, gas_constant = 2, kelvin_temp = 2.",
+     "solution": "Step 1: Convert the solute mass to moles: moles_solute = mass_solute / molar_mass_solute = 1.0 Step 2: Express the concentration as molarity: molarity_c = moles_solute / volume_litres = 0.333333 Step 3: Multiply by R and the kelvin temperature: osmotic = molarity_c * gas_constant * kelvin_temp = 1.333333 Final result: 1.333333",
+     "answer": "1.333333"
+    },
+    {
+     "question": "Using Osmotic Pressure of a Solution, compute the result for mass_solute = 4, molar_mass_solute = 4, volume_litres = 4, gas_constant = 3, kelvin_temp = 3.",
+     "solution": "Step 1: Convert the solute mass to moles: moles_solute = mass_solute / molar_mass_solute = 1.0 Step 2: Express the concentration as molarity: molarity_c = moles_solute / volume_litres = 0.25 Step 3: Multiply by R and the kelvin temperature: osmotic = molarity_c * gas_constant * kelvin_temp = 2.25 Final result: 2.25",
+     "answer": "2.25"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "osmotic = (moles_solute / volume_litres) * gas_constant * kelvin_temp",
+     "compute": "osmotic = (moles_solute / volume_litres) * gas_constant * kelvin_temp"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.01.1.7.1",
+   "title": "van't Hoff Factor",
+   "section": "1.7",
+   "definition": "A correction factor counting the particles one formula unit really produces in solution: above one for salts that split into ions, below one for molecules that pair up, and it multiplies every colligative relation.",
+   "formula": "vant_hoff = normal_molar_mass / abnormal_molar_mass",
+   "key_idea": "KCl approaches 2 and K2SO4 approaches 3 on full dissociation, while dimerised ethanoic acid in benzene sits near 0.5; observed colligative values divided by calculated ones give the same factor.",
+   "textbook_ref": "lech101.txt, Section 1.7, van't Hoff factor definitions and Table 1.4",
+   "question_patterns": [
+    "calculate the van't Hoff factor for KCl in water given its normal and abnormal molar masses",
+    "find i for a solute whose association doubles the molar mass seen in the experiment",
+    "determine the ratio of observed to calculated colligative property for a dissociating electrolyte",
+    "what is the van't Hoff factor when the experimental molar mass differs from the normal value",
+    "compute the factor i for magnesium sulfate in dilute solution from its molar mass data",
+    "state the van't Hoff factor expected when a solute of stated normal molar mass shows a stated abnormal molar mass"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Divide the normal molar mass by the experimentally seen molar mass",
+     "explain": "For ethanoic acid dimerising in benzene the observed value rises, so the ratio dips below one; for dissociating KCl it climbs above one.",
+     "compute": "vant_hoff = normal_molar_mass / abnormal_molar_mass"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using van't Hoff Factor, compute the result for normal_molar_mass = 3, abnormal_molar_mass = 3.",
+     "solution": "Step 1: Divide the normal molar mass by the experimentally seen molar mass: vant_hoff = normal_molar_mass / abnormal_molar_mass = 1.0 Final result: 1.0",
+     "answer": "1.0"
+    },
+    {
+     "question": "Using van't Hoff Factor, compute the result for normal_molar_mass = 4, abnormal_molar_mass = 4.",
+     "solution": "Step 1: Divide the normal molar mass by the experimentally seen molar mass: vant_hoff = normal_molar_mass / abnormal_molar_mass = 1.0 Final result: 1.0",
+     "answer": "1.0"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "vant_hoff = normal_molar_mass / abnormal_molar_mass",
+     "compute": "vant_hoff = normal_molar_mass / abnormal_molar_mass"
+    }
+   ],
+   "converted_to_compute": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "question": "A solution holds 20 percent ethylene glycol by mass. What is the mole fraction of the glycol?",
+   "solution": "Basis 100 g: 20 g glycol is 20/62 = 0.322 mol and 80 g water is 80/18 = 4.444 mol. The glycol fraction is 0.322 over 4.766.",
+   "answer": "0.068 (and the water fraction is 0.932)"
+  },
+  {
+   "question": "5 g of NaOH is dissolved in 450 mL of solution. Find the molarity.",
+   "solution": "5 g over 40 g per mol gives 0.125 mol; scaling to a litre basis gives 0.125 times 1000 over 450.",
+   "answer": "0.278 M (0.278 mol per litre)"
+  },
+  {
+   "question": "45 g of ethylene glycol is mixed into 600 g of water. Where does the solution freeze?",
+   "solution": "Moles of glycol = 45/62 = 0.73; molality = 0.73/0.6 = 1.2 mol per kg; drop = 1.86 times 1.2 = 2.2 K.",
+   "answer": "273.15 - 2.2 = about 270.95 K"
+  },
+  {
+   "question": "A 1.0 g sample of a non electrolyte in 50 g of benzene lowers the freezing point by 0.40 K. Kf for benzene is 5.12 K kg per mol. Find the molar mass.",
+   "solution": "mm = 1000 times 5.12 times 1.0 divided by (0.40 times 50).",
+   "answer": "256 g per mol"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lech101_ex1",
+   "source_ref": "lech101.txt Exercises 1.1-1.3",
+   "questions": [
+    "Define the term solution and describe its types with one example of each.",
+    "Give an example of a solid solution in which the solute is a gas.",
+    "Define mole fraction, molality, molarity and mass percentage."
+   ]
+  },
+  {
+   "id": "lech101_ex2",
+   "source_ref": "lech101.txt Exercise 1.4",
+   "questions": [
+    "Concentrated nitric acid is 68 percent by mass and its density is 1.504 g per mL. Calculate the molarity of this sample."
+   ]
+  },
+  {
+   "id": "lech101_ex3",
+   "source_ref": "lech101.txt Exercises 1.5 and 1.9",
+   "questions": [
+    "A glucose solution labelled 10 percent w/w has density 1.2 g per mL. Find its molality, mole fractions and molarity.",
+    "Drinking water carries 15 ppm by mass of chloroform. Express this as percent by mass and find the molality of chloroform in the water."
+   ]
+  },
+  {
+   "id": "lech101_ex4",
+   "source_ref": "lech101.txt Exercises 1.11 and 1.40",
+   "questions": [
+    "How much ascorbic acid should be dissolved in 75 g of acetic acid to drop its melting point by 1.5 degrees C, given Kf = 3.9 K kg per mol?",
+    "How much CaCl2 with van't Hoff factor 2.47 must be dissolved in 2.5 litres of water so the osmotic pressure reaches 0.75 atm at 27 degrees C?"
+   ]
+  }
+ ]
 }

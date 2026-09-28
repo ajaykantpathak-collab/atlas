@@ -34,6 +34,26 @@
      "q": "Create a real-life word problem involving simple interest where the time is given in days (not months or years), and solve it. Use an Indian context (rupees, bank loan, or savings).",
      "a": "Example problem: \"Priya borrows ₹50,000 from a friend at 12% simple interest per annum. She repays the loan after 90 days. How much interest does she pay?\" Solution: Time in years = 90/365 (or 90/360 if using banker's year). Using 365: \\(SI = \\frac{50000 \\times 12 \\times 90}{100 \\times 365} = \\frac{54000000}{36500} ≈ ₹1,479.45\\). A good answer includes correct conversion of days to years, proper formula use, and a realistic context. A poor answer uses T=90 directly, ignores the day-to-year conversion, or creates an unrealistic scenario (e.g., negative interest).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In Class 8, this extends to finding any missing variable (P, R, T, or SI) when the other three are known, handling time periods expressed in months or days, and comparing different ______ or loan options.",
+     "a": "investment",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: They plan to borrow the rest from a relative at 8% simple ______ per year and repay in 18 months.",
+     "a": "interest",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently solve multi-step word problems involving simple interest by identifying given values, converting time units correctly (months to years, days to years), selecting the appropriate formula rearrangement, and interpreting the final amount or interest in the context of loans, savings, or investments.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: They plan to borrow the rest from a ______ at 8% simple interest per year and repay in 18 months.",
+     "a": "relative",
+     "self_check": true
     }
    ]
   }

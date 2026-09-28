@@ -34,6 +34,31 @@
      "q": "Design a thought experiment (using only physiological principles, no modern tech) to demonstrate that the *collecting duct* is the site where final urine concentration is determined by ADH. Describe: (1) the experimental groups, (2) the manipulated variable, (3) the measured outcome, and (4) the expected result that would prove the collecting duct's role.",
      "a": "**Experiment:** Isolate perfused kidney tubules (conceptually).\n1. **Groups:** (A) Collecting duct perfused with artificial tubular fluid (300 mOsm/L) + ADH in peritubular bath; (B) Same but *no ADH* in bath.\n2. **Manipulated variable:** Presence/absence of ADH (vasopressin) on the *basolateral* side of collecting duct epithelium.\n3. **Measured outcome:** Osmolarity of fluid *exiting* the collecting duct (final urine) and water flux (volume change).\n4. **Expected result:** Group A (ADH) → high water reabsorption → low volume, high osmolarity urine (~1200 mOsm/L). Group B (no ADH) → minimal water reabsorption → high volume, low osmolarity urine (~100 mOsm/L). *Crucially*, if ADH is added to the *luminal* side only, no effect occurs — proving ADH acts via basolateral receptors (V2) triggering aquaporin-2 insertion.\nA poor design (e.g., measuring only GFR, or adding ADH to glomerular side) shows the student doesn't understand *segment-specific hormonal action* or the *final common pathway* concept for water regulation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A nephron is the microscopic structural and functional unit of the kidney, composed of a renal corpuscle (glomerulus enclosed by Bowman's capsule) and a renal tubule (proximal convoluted tubule, loop of Henle, distal convoluted tubule, and collecting duct), which ______ perform glomerular filtration, tubular reabsorption, and tubular secretion to form urine while maintaining homeostasis of blood volume, pressure, osmolarity, and pH.",
+     "a": "collectively",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you drink a large glass of nimbu pani on a hot Delhi afternoon.",
+     "a": "Imagine",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Within ______ minutes, you feel the urge to urinate — but your urine is pale and dilute.",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) accurately label all parts of a nephron on a diagram including blood vessels (afferent/efferent arterioles, peritubular capillaries, vasa recta) and identify the histological epithelium type in each tubular segment; (2) explain the functional significance of structural features (e.g., brush border in PCT.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you drink a large glass of nimbu pani on a hot Delhi ______.",
+     "a": "afternoon",
+     "self_check": true
     }
    ]
   }

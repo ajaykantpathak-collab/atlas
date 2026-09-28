@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a 9 V battery, nichrome wire of different lengths, and a small LED to demonstrate that a fuse wire must be thin and of appropriate material. List the steps, observations, and conclusion.",
      "a": "Steps: (1) Connect a 30 cm nichrome wire in series with LED and 9 V battery — LED glows dimly (wire resistance limits current). (2) Replace with 5 cm nichrome wire — LED glows brighter (lower resistance, more current). (3) Replace with a thick copper wire of same length — LED glows very bright (very low resistance, high current). (4) Now short the battery with a very thin strand of steel wool (simulating fuse) — it melts instantly.\nObservation: Thin, high-resistivity wire heats up and melts at lower current than thick copper wire.\nConclusion: Fuse wire must be thin (high resistance per unit length) and made of low-melting-point alloy so it melts at the rated current. A poor answer (using only copper wires of different thicknesses) fails to show the material dependence (resistivity and melting point) which is crucial for fuse design.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The heating effect of electric current is utilized in appliances where electrical energy is ______ converted into heat energy (electric heater, electric iron, geyser) or into both heat and light energy (incandescent bulb).",
+     "a": "deliberately",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the ______ heater in your home during winter: when you switch it on, the coil becomes red-hot and warms the room.",
+     "a": "electric",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the required resistance or power rating of a heating element given voltage and desired heat output, explain why a fuse wire must have high resistivity and low melting point, and compare the efficiency of an incandescent bulb versus an LED bulb in terms of energy conversion.",
+     "self_check": true
     }
    ]
   }

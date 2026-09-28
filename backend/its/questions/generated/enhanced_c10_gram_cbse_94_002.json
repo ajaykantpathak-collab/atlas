@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c10_gram_cbse_94_002",
+ "concepts": [
+  {
+   "id": "enh:c10_gram_cbse_94_002",
+   "title": "c10_gram_cbse_94_002",
+   "questions": [
+    {
+     "q": "'He has ___ friends, so he is always lonely.' few or a few?",
+     "a": "'few' — the loneliness clue signals the negative reading (almost none). A wrong answer 'a few' reveals the student reads few/a few as interchangeable spellings — missing the entire attitudinal payload the 'a' carries.",
+     "self_check": true
+    },
+    {
+     "q": "Correct: 'There were less students today.'",
+     "a": "'fewer students' — students are countable. A wrong answer accepting 'less' shows the student doesn't partition English nouns into count/mass — the prerequisite for half the determiner system.",
+     "self_check": true
+    },
+    {
+     "q": "'___ knowledge he had saved him.' the few / a little / the little?",
+     "a": "'the little' — the small amount of knowledge that existed was sufficient; 'the little' = all of a scarce supply. A wrong answer 'a little' misses that 'the' + little/few collects the whole scarce set — a distinction boards test precisely because it looks trivial.",
+     "self_check": true
+    },
+    {
+     "q": "______ governs the family: few/fewer/many for countables, little/less/much for uncountables, and 'the few/the little' means 'the small amount that exists'.",
+     "a": "Countability",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ encode attitude: 'few' = almost none (negative), 'a few' = some (positive); 'little' = almost none, 'a little' = some.",
+     "a": "Quantifiers",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Two glasses on the desk: 'There is little water' — bad news, nearly empty. 'There is a little water' — good news, ______ for a sip.",
+     "a": "enough",
+     "self_check": true
+    },
+    {
+     "q": "What is Quantifiers encode attitude? State the definition given in this lesson.",
+     "a": "Quantifiers encode attitude: 'few' = almost none (negative), 'a few' = some (positive); 'little' = almost none, 'a little' = some.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Quantifiers encode attitude?",
+     "a": "Students think few/a few differ only in style, not attitude — missing that 'few' is pessimistic.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student selects few/a few/little/a little by intended attitude and countability, uses fewer/less correctly, and distinguishes 'the few' (all of the scarce group) from 'a few'.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Two ______ on the desk: 'There is little water' — bad news, nearly empty. 'There is a little water' — good news, enough for a sip.",
+     "a": "glasses",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_12_001",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_12_001",
+   "title": "c12_leg_cbse_12_001",
+   "questions": [
+    {
+     "q": "Define International Law and state the two vital elements omitted in Bentham's classic definition that are included in the modern definition.",
+     "a": "International Law is a framework of rules and principles binding relations between states, governing their conduct among themselves and with other international entities legally recognized, and between citizens of other nations. Bentham's 1780 definition omitted **individuals** and **international organizations** — both now recognized as subjects of international law (e.g., individuals can be prosecuted at the ICC; the UN has legal personality). A wrong answer that only mentions 'states' reveals the student is using an outdated 18th-century definition and misses the post-WWII expansion of legal personality.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between Public International Law and Private International Law using one concrete example of a dispute that would fall under each.",
+     "a": "Public International Law governs interstate relations (e.g., a boundary dispute between India and China over Arunachal Pradesh). Private International Law (Conflict of Laws) governs cross-border private disputes (e.g., an Indian citizen marries a French citizen in Paris, they live in Delhi, and file for divorce — which country's law applies?). A wrong answer that conflates the two (e.g., saying both deal with 'countries') shows the student hasn't grasped that Private International Law is essentially a branch of *domestic* law determining which jurisdiction's law applies to private transactions with foreign elements.",
+     "self_check": true
+    },
+    {
+     "q": "India ratifies the UN Convention on the Rights of Persons with Disabilities (UNCRPD). Under Article 253 of the Constitution, Parliament enacts the Rights of Persons with Disabilities Act, 2016. A state government refuses to implement a provision, arguing it is a 'state subject' under the Seventh Schedule. Apply the principle from *Magan Bhai Patel v. Union of India* to resolve this.",
+     "a": "Under *Magan Bhai Patel*, if a treaty **restricts rights of citizens or modifies state laws**, Parliament **must** legislate under Article 253 — and such legislation prevails over state legislative competence. The UNCRPD imposes positive obligations on states; the 2016 Act was validly enacted under Article 253 read with Entry 13 of the Union List (treaties). The state government's objection fails because once Parliament legislates to implement a treaty obligation, the law operates notwithstanding the federal division of powers. A wrong answer citing 'state subject' immunity reveals confusion between *ordinary* federal distribution and *treaty-implementing* legislation under Article 253.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the jurisdiction of the International Court of Justice (ICJ) and the International Criminal Court (ICC). Why can the ICC prosecute an individual for genocide committed in a non-member state if the UN Security Council refers the situation?",
+     "a": "The ICJ has **state-to-state** jurisdiction only (contentious cases require consent of both states; advisory opinions for UN organs). The ICC has **individual criminal** jurisdiction over four crimes (genocide, crimes against humanity, war crimes, aggression) under the Rome Statute. Normally, ICC jurisdiction requires the state of territory or nationality to be a party. However, under **Article 13(b) of the Rome Statute**, the UN Security Council (acting under Chapter VII of the UN Charter) can refer a situation to the ICC — binding even non-member states because UN Charter obligations prevail under Article 103. A wrong answer saying 'ICC has universal jurisdiction always' confuses Security Council referrals (which are exceptional) with the ICC's default treaty-based jurisdiction.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: \"International Law is not true law because it lacks a legislature, executive, and judiciary with enforcement power.\" Reference Austin's and Oppenheim's views and the role of reciprocity.",
+     "a": "Austin (positivist) argues law requires a sovereign command backed by sanctions — so international law is merely 'positive morality'. Oppenheim counters that law exists if the community of states *treats* rules as binding — which they do, evidenced by compliance driven by **reciprocity**, reputation, and long-term self-interest (e.g., violating a trade treaty invites retaliation). Modern practice (UN Charter, ICJ, ICC, WTO dispute settlement) shows institutionalization beyond Austin's model. A weak answer merely repeats 'no world police' without engaging the *theoretical debate* or the *empirical reality* of high compliance rates in trade, diplomacy, and human rights treaty bodies.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario where a rule of Customary International Law (CIL) is formed. Explicitly identify the **two elements** (State Practice + Opinio Juris) and explain why the *North Sea Continental Shelf* cases require both.",
+     "a": "Scenario: For 30 years, all coastal states consistently claim a 200-nautical-mile Exclusive Economic Zone (EEZ), patrol it, license fishing, and protest violations — **State Practice** (widespread, consistent, representative). They do so *because they believe it is legally required* (not just courtesy) — **Opinio Juris** (evidenced by UNCLOS III negotiations, domestic laws, diplomatic protests citing 'legal right'). *North Sea Continental Shelf* held that practice *alone* (even if long) is insufficient — without opinio juris, it's mere usage/habit. A poor answer omits opinio juris or treats duration as decisive (the ICJ explicitly rejected duration as essential).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

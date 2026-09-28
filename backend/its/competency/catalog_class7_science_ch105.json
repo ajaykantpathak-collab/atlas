@@ -20,7 +20,7 @@
     "classify the following as physical change",
     "what do you understand by physical change"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,16 @@
      "action": "Evaluate reversibility",
      "explain": "Most physical changes like melting or freezing can be reversed."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "initial_substance = final_substance",
+     "compute": "initial_substance = final_substance"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gesc.5.2",
@@ -224,7 +233,7 @@
     "how does painting prevent rusting",
     "how does prevention of rusting work"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -241,7 +250,16 @@
      "action": "Verify the barrier is complete",
      "explain": "A continuous, unbroken coating ensures neither air nor moisture can reach the iron, preventing rust."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "protection = coating_layer",
+     "compute": "protection = coating_layer"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gesc.5.8",

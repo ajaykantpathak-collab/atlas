@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using household materials to demonstrate that intermolecular forces affect evaporation rate. Specify the liquids to compare, the measurable quantity, and the expected outcome linked to force strength.",
      "a": "Compare evaporation of water (hydrogen bonding), acetone (dipole-dipole), and hexane (London only) by placing equal drops (e.g., 0.1 mL) on a clean glass plate at room temperature and timing complete evaporation. Expected order: hexane (fastest) > acetone > water (slowest). A poor answer using only water and oil (immiscible, not comparable) or measuring temperature instead of time fails to isolate intermolecular force effects.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Van der Waals forces are the collective term for weak, short-range ______ attractive forces between neutral atoms or molecules, arising from transient or permanent dipoles; they include London dispersion forces, dipole-dipole interactions, and dipole-induced dipole interactions, and govern the condensation of gases and the physical properties of molecular solids and liquids.",
+     "a": "electrostatic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how a gecko climbs a vertical glass wall in your home — its feet exploit van der Waals forces between microscopic setae and the ______.",
+     "a": "surface",
+     "self_check": true
+    },
+    {
+     "q": "What is Van der Waals forces? State the definition given in this lesson.",
+     "a": "Van der Waals forces are the collective term for weak, short-range electrostatic attractive forces between neutral atoms or molecules, arising from transient or permanent dipoles; they include London dispersion forces, dipole-dipole interactions, and dipole-induced dipole interactions, and govern the condensation of gases and the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now ask: what causes attraction between *neutral* helium atoms that allows helium to liquefy at ______ K?",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Van der Waals forces?",
+     "a": "Students often treat \"van der Waals forces\" as synonymous with \"London dispersion forces\" only, ignoring dipole-dipole and dipole-induced dipole components.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between the three types of van der Waals forces, predict their relative strengths for given substances using molecular polarity and polarizability, and explain how these forces determine trends in boiling points, enthalpies of vaporization, and deviations from ideal gas behaviour.",
+     "self_check": true
     }
    ]
   }

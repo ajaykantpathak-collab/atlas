@@ -34,6 +34,31 @@
      "q": "Design a pie diagram to represent the percentage distribution of India's population by religion (hypothetical data: Hindu 79.8%, Muslim 14.2%, Christian 2.3%, Sikh 1.7%, Buddhist 0.7%, Jain 0.4%, Others 0.9%). Specify the radius, the order of sectors, the shading pattern, and the legend format you would use for a board-exam answer sheet.",
      "a": "Radius: 4 cm (fits A4 sheet). Angles: Hindu 287°, Muslim 51°, Christian 8°, Sikh 6°, Buddhist 2.5°, Jain 1.4°, Others 3.2° (rounded). Order ascending: Jain (1.4°), Buddhist (2.5°), Others (3.2°), Christian (8°), Sikh (6°), Muslim (51°), Hindu (287°). Wait — ascending order means Jain (1.4°), Buddhist (2.5°), Others (3.2°), Christian (8°), Sikh (6°)? Actually 6° < 8°, so Sikh before Christian. Correct ascending: Jain (1.4°), Buddhist (2.5°), Others (3.2°), Sikh (6°), Christian (8°), Muslim (51°), Hindu (287°). Shading: distinct patterns (horizontal, vertical, diagonal, dots, cross-hatch, solid, blank). Legend: bottom-right, each pattern with religion name and percentage. A poor answer would omit the ascending order, use radius 10 cm (too large), or forget the legend.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A pie diagram (or divided circle diagram) is a two-dimensional graphical ______ where a circle is divided into sectors whose central angles are proportional to the magnitudes of the data categories they represent, such that the entire circle corresponds to the total value (100% or the sum of all values) and each sector's angle = (category value / total value) × 360°.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are looking at the \"Direction of Indian ______ 2010–11\" in a newspaper: a colourful circle split into slices labelled Europe 20%, Asia 56%, etc.",
+     "a": "Exports",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Take the export percentages, multiply each by ______ to get the angle, then arrange the angles from smallest to largest.",
+     "a": "3.6",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently construct a pie diagram from raw data: calculate percentages, derive sector angles using the 3.6 multiplier, draw the circle with an appropriate radius, plot sectors in ascending order of angle clockwise using a protractor, and add a complete legend with distinct shading.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are looking at the \"______ of Indian Exports 2010–11\" in a newspaper: a colourful circle split into slices labelled Europe 20%, Asia 56%, etc.",
+     "a": "Direction",
+     "self_check": true
     }
    ]
   }

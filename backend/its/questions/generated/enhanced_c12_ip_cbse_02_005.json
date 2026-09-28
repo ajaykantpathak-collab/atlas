@@ -34,6 +34,26 @@
      "q": "Create a scenario where `df.shape` returns `(0, 5)` and explain what this means about the DataFrame. Write the code to create such a DataFrame.",
      "a": "Scenario: A CSV with a header row but zero data rows. Code: `df = pd.DataFrame(columns=['A','B','C','D','E'])`. `shape` = `(0, 5)` means 0 rows, 5 columns. This tests whether the student understands that columns can exist without data — a boundary condition often missed.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The head(n), tail(n), and shape attributes/methods in Pandas provide quick structural inspection of a DataFrame: head(n) returns the first n rows (default 5), tail(n) returns the last n rows (default 5), and shape returns a tuple (rows, columns) representing the DataFrame's ______.",
+     "a": "dimensionality",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Before cleaning or analyzing, you need to know: how many rows and ______?",
+     "a": "columns",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly use df.head(), df.tail(), and df.shape on any DataFrame, interpret the output to answer questions about data size and preview, and explain the difference between viewing a sample (head/tail) and knowing exact dimensions (shape).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Before cleaning or ______, you need to know: how many rows and columns?",
+     "a": "analyzing",
+     "self_check": true
     }
    ]
   }

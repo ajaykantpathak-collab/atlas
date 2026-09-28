@@ -34,6 +34,21 @@
      "q": "Design a minimal register set (name, width, purpose) for a hypothetical 8-bit CPU that can execute: load immediate, load/store direct, add, subtract, conditional branch, and halt. Explain why each register is necessary and which one(s) can be omitted if the instruction set only supports implied addressing (accumulator-only).",
      "a": "Minimal set for general-register 8-bit CPU:  \n1. **PC (16-bit)** — program counter, holds next instruction address (needed for sequential flow and branches).  \n2. **IR (8-bit)** — instruction register, holds current opcode/operand for decode.  \n3. **MAR (16-bit)** — memory address register, drives address bus for memory access.  \n4. **MDR (8-bit)** — memory data register, buffers data to/from memory bus.  \n5. **R0–R3 (4 × 8-bit)** — general-purpose registers for operands/results (4 allows (A+B)×(C+D) without spill).  \n6. **FLAGS (8-bit)** — status flags (Z, C, N, V) for conditional branch.  \n\nIf implied addressing only (accumulator machine): **R0–R3 can be omitted**; only ACC (8-bit) needed as implicit source/destination for ALU ops. PC, IR, MAR, MDR, FLAGS remain essential. A poor answer omits MAR/MDR (not understanding bus interface) or FLAGS (not realising conditional branch needs state), or keeps redundant registers.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Central Processing Unit (CPU) is the primary electronic circuitry of a computer that executes program instructions by performing arithmetic, logical, control, and input/output operations; it consists of the Arithmetic Logic Unit (ALU) for ______, the Control Unit (CU) for instruction sequencing and data flow management, and a set of registers for high-speed temporary storage of data, instructions, and addresses during processing.",
+     "a": "computation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the manager of a busy restaurant kitchen: orders (______) come in, ingredients (data) are fetched from the pantry (memory), the prep station (ALU) chops and cooks, the head chef (CU) directs the sequence, and the pass counter (registers) holds dishes momentarily before serving.",
+     "a": "instructions",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to trace the fetch-decode-execute cycle for a given machine instruction, identifying which component (ALU, CU, or specific register) performs each step, and explain how the result is stored back to memory or a register.",
+     "self_check": true
     }
    ]
   }

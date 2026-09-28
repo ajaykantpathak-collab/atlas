@@ -34,6 +34,31 @@
      "q": "Design a real-world scenario (Indian context) where you would use all three operations (concatenation, repetition, membership) together in a single program. Write pseudocode.",
      "a": "Scenario: A canteen menu system. `week_menu = (mon_fri * 5) + weekend_special` uses repetition for weekly cycle and concatenation to add weekend items. `if 'paneer' in week_menu:` checks availability. Good answer shows clear variable names and correct operator usage. Poor answer uses only one operation or confuses repetition with loop.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: List operations in Python include ______ (+) which joins two lists into a new list, repetition (*) which replicates a list a specified number of times into a new list, and membership (in, not in) which checks for the presence of an element in a list and returns a Boolean value.",
+     "a": "concatenation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are organizing a school event and have two separate lists: one for morning volunteers and one for ______ volunteers.",
+     "a": "afternoon",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now suppose you need to create a duty roster for ______ days with the same daily task list — repetition (*) solves this.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write Python code that correctly uses +, *, in, and not in with lists, predict the output of expressions involving these operators, and explain why concatenation requires both operands to be lists while repetition requires a list and an integer.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a school event and have two separate lists: one for morning volunteers and one for afternoon volunteers.",
+     "a": "organizing",
+     "self_check": true
     }
    ]
   }

@@ -4,15 +4,9 @@
   {
    "id": "am12_003b.1",
    "title": "Indefinite Integral as Antiderivative",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the calculus rule and evaluate at the point",
-     "explain": "apply the calculus rule and evaluate at the point: val = 3 * 2 * 2 + 4 * 2 + 2 gives 22",
-     "compute": "val = 3 * 2 * 2 + 4 * 2 + 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate the limit of 3x^2 + 4x + 2 as x approaches 2 (direct substitution).",
@@ -49,15 +43,9 @@
   {
    "id": "am12_003b.2",
    "title": "Integration by Substitution and by Parts",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the calculus rule and evaluate at the point",
-     "explain": "apply the calculus rule and evaluate at the point: val = 3 * 2 * 2 + 4 * 2 + 6 gives 26",
-     "compute": "val = 3 * 2 * 2 + 4 * 2 + 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate the limit of 3x^2 + 4x + 6 as x approaches 2 (direct substitution).",
@@ -94,15 +82,9 @@
   {
    "id": "am12_003b.3",
    "title": "Definite Integral as Bounded Area",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the area formula base times height",
-     "explain": "apply the area formula base times height: area = 27 * 10 gives 270",
-     "compute": "area = 27 * 10"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 27 cm by 10 cm.",
@@ -139,15 +121,9 @@
   {
    "id": "am12_003b.4",
    "title": "Consumer Surplus and Producer Surplus",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the calculus rule and evaluate at the point",
-     "explain": "apply the calculus rule and evaluate at the point: val = 1 * 4 * 4 + 7 * 4 + 3 gives 47",
-     "compute": "val = 1 * 4 * 4 + 7 * 4 + 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate the limit of 1x^2 + 7x + 3 as x approaches 4 (direct substitution).",
@@ -184,15 +160,9 @@
   {
    "id": "am12_003b.5",
    "title": "Total from Marginal by Integration",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the calculus rule and evaluate at the point",
-     "explain": "apply the calculus rule and evaluate at the point: val = 4 * 4 * 4 + 1 * 4 + 4 gives 72",
-     "compute": "val = 4 * 4 * 4 + 1 * 4 + 4"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate the limit of 4x^2 + 1x + 4 as x approaches 4 (direct substitution).",

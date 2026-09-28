@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a smartphone and a cardboard tube to verify the temperature dependence of the speed of sound in air. Specify the measurements, the graph to plot, and how to extract γ from the slope.",
      "a": "Use a frequency generator app (fixed f = 1 kHz) and a microphone app to detect resonance lengths in a tube closed at one end (water column). Measure l₁ at 5 temperatures (e.g., 10°C, 20°C, 30°C, 40°C, 50°C). Compute v = 4f(l₁ + 0.3d) where d = tube diameter (end correction). Plot v² vs T (Kelvin). Slope = 4f² × (γR/M). From slope, calculate γ = slope × M / (4f²R). A poor answer uses only one temperature, ignores end correction, or plots v vs T instead of v² vs T, showing lack of understanding of the quadratic relationship.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The speed of sound in air is the rate at which ______ pressure disturbances (compressions and rarefactions) propagate through the medium.",
+     "a": "longitudinal",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ near a railway track and listen to an approaching train's whistle — the sound reaches you through air, not by air flowing from the train to you.",
+     "a": "Stand",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Newton's formula assumes isothermal compression/rarefaction giving v = √(P/ρ), while Laplace's correction accounts for adiabatic conditions giving v = √(γP/ρ), where P is the equilibrium pressure (Pa), ρ is the density of air (kg/m³), and γ = Cp/Cv is the ratio of specific heats (dimensionless, ______ for diatomic gases like air).",
+     "a": "1.4",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Derive both Newton's and Laplace's formulas using bulk modulus definitions for isothermal and adiabatic processes, (2) Calculate the speed of sound at given temperature and pressure using Laplace's formula, (3) Explain why Newton's formula underestimates the experimental value by ~15%, and (4) Apply the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stand near a railway track and listen to an ______ train's whistle — the sound reaches you through air, not by air flowing from the train to you.",
+     "a": "approaching",
+     "self_check": true
     }
    ]
   }

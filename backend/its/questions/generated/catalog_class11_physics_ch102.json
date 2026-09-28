@@ -1,0 +1,381 @@
+{
+ "catalog": "catalog_class11_physics_ch102.json",
+ "concepts": [
+  {
+   "id": "keph.2.2.1",
+   "title": "Instantaneous Velocity",
+   "converted_to_compute": true,
+   "formula": "velocity = dx / dt",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "velocity = dx / dt",
+     "compute": "velocity = dx / dt"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Instantaneous Velocity: given dx = 94, dt = 14.7, find velocity.",
+     "a": "6.39456",
+     "self_check": false
+    },
+    {
+     "q": "For Instantaneous Velocity: given dx = 81, dt = 14.8, find velocity.",
+     "a": "5.47297",
+     "self_check": false
+    },
+    {
+     "q": "For Instantaneous Velocity: given dx = 92, dt = 0.8, find velocity.",
+     "a": "115",
+     "self_check": false
+    },
+    {
+     "q": "For Instantaneous Velocity: given dx = 28, dt = 36, find velocity.",
+     "a": "0.777778",
+     "self_check": false
+    },
+    {
+     "q": "For Instantaneous Velocity: given dx = 48, dt = 49, find velocity.",
+     "a": "0.979592",
+     "self_check": false
+    },
+    {
+     "q": "For Instantaneous Velocity: given dx = 2.5, dt = 47, find velocity.",
+     "a": "0.0531915",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.2.3.1",
+   "title": "Average Acceleration",
+   "converted_to_compute": true,
+   "formula": "avg_accel = (v_final - v_initial) / (t_final - t_initial)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "avg_accel = (v_final - v_initial) / (t_final - t_initial)",
+     "compute": "avg_accel = (v_final - v_initial) / (t_final - t_initial)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Average Acceleration: given v_final = 53, v_initial = 48, t_final = 113, t_initial = 15.7, find avg accel.",
+     "a": "0.0513875",
+     "self_check": false
+    },
+    {
+     "q": "For Average Acceleration: given v_final = 71, v_initial = 109, t_final = 116, t_initial = 112, find avg accel.",
+     "a": "-9.5",
+     "self_check": false
+    },
+    {
+     "q": "For Average Acceleration: given v_final = 86, v_initial = 7, t_final = 53, t_initial = 96, find avg accel.",
+     "a": "-1.83721",
+     "self_check": false
+    },
+    {
+     "q": "For Average Acceleration: given v_final = 23, v_initial = 61, t_final = 87, t_initial = 10.9, find avg accel.",
+     "a": "-0.499343",
+     "self_check": false
+    },
+    {
+     "q": "For Average Acceleration: given v_final = 111, v_initial = 67, t_final = 94, t_initial = 67, find avg accel.",
+     "a": "1.62963",
+     "self_check": false
+    },
+    {
+     "q": "For Average Acceleration: given v_final = 54, v_initial = 62, t_final = 14.5, t_initial = 51, find avg accel.",
+     "a": "0.219178",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.2.4.1",
+   "title": "First Equation of Motion",
+   "converted_to_compute": true,
+   "formula": "final_velocity = initial_velocity + (acceleration * time)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "final_velocity = initial_velocity + (acceleration * time)",
+     "compute": "final_velocity = initial_velocity + (acceleration * time)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For First Equation of Motion: given initial_velocity = 49, acceleration = 12.4, time = 108, find final velocity.",
+     "a": "1388.2",
+     "self_check": false
+    },
+    {
+     "q": "For First Equation of Motion: given initial_velocity = 120, acceleration = 15.8, time = 69, find final velocity.",
+     "a": "1210.2",
+     "self_check": false
+    },
+    {
+     "q": "For First Equation of Motion: given initial_velocity = 53, acceleration = 24, time = 78, find final velocity.",
+     "a": "1925",
+     "self_check": false
+    },
+    {
+     "q": "For First Equation of Motion: given initial_velocity = 111, acceleration = 13.2, time = 120, find final velocity.",
+     "a": "1695",
+     "self_check": false
+    },
+    {
+     "q": "For First Equation of Motion: given initial_velocity = 43, acceleration = 4.7, time = 109, find final velocity.",
+     "a": "555.3",
+     "self_check": false
+    },
+    {
+     "q": "For First Equation of Motion: given initial_velocity = 102, acceleration = 23, time = 42, find final velocity.",
+     "a": "1068",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.2.4.2",
+   "title": "Second Equation of Motion",
+   "converted_to_compute": true,
+   "formula": "displacement = (initial_velocity * time) + (0.5 * acceleration * time**2)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "displacement = (initial_velocity * time) + (0.5 * acceleration * time**2)",
+     "compute": "displacement = (initial_velocity * time) + (0.5 * acceleration * time**2)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Second Equation of Motion: given initial_velocity = 65, time = 30, acceleration = 24, find displacement.",
+     "a": "12750",
+     "self_check": false
+    },
+    {
+     "q": "For Second Equation of Motion: given initial_velocity = 87, time = 75, acceleration = 16.5, find displacement.",
+     "a": "52931.2",
+     "self_check": false
+    },
+    {
+     "q": "For Second Equation of Motion: given initial_velocity = 84, time = 6.3, acceleration = 5.7, find displacement.",
+     "a": "642.316",
+     "self_check": false
+    },
+    {
+     "q": "For Second Equation of Motion: given initial_velocity = 28, time = 73, acceleration = 10.6, find displacement.",
+     "a": "30287.7",
+     "self_check": false
+    },
+    {
+     "q": "For Second Equation of Motion: given initial_velocity = 21, time = 105, acceleration = 0.2, find displacement.",
+     "a": "3307.5",
+     "self_check": false
+    },
+    {
+     "q": "For Second Equation of Motion: given initial_velocity = 76, time = 61, acceleration = 17.6, find displacement.",
+     "a": "37380.8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.2.4.4",
+   "title": "Displacement from Velocity-Time Graph",
+   "converted_to_compute": true,
+   "formula": "displacement = area_under_curve",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "displacement = area_under_curve",
+     "compute": "displacement = area_under_curve"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Displacement from Velocity-Time Graph: given area_under_curve = 57, find displacement.",
+     "a": "57",
+     "self_check": false
+    },
+    {
+     "q": "For Displacement from Velocity-Time Graph: given area_under_curve = 70, find displacement.",
+     "a": "70",
+     "self_check": false
+    },
+    {
+     "q": "For Displacement from Velocity-Time Graph: given area_under_curve = 49, find displacement.",
+     "a": "49",
+     "self_check": false
+    },
+    {
+     "q": "For Displacement from Velocity-Time Graph: given area_under_curve = 78, find displacement.",
+     "a": "78",
+     "self_check": false
+    },
+    {
+     "q": "For Displacement from Velocity-Time Graph: given area_under_curve = 83, find displacement.",
+     "a": "83",
+     "self_check": false
+    },
+    {
+     "q": "For Displacement from Velocity-Time Graph: given area_under_curve = 44, find displacement.",
+     "a": "44",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.2.4.6",
+   "title": "Stopping Distance",
+   "converted_to_compute": true,
+   "formula": "stopping_distance = (initial_velocity**2) / (2 * deceleration)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "stopping_distance = (initial_velocity**2) / (2 * deceleration)",
+     "compute": "stopping_distance = (initial_velocity**2) / (2 * deceleration)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Stopping Distance: given initial_velocity = 102, deceleration = 13.6, find stopping distance.",
+     "a": "382.5",
+     "self_check": false
+    },
+    {
+     "q": "For Stopping Distance: given initial_velocity = 68, deceleration = 24, find stopping distance.",
+     "a": "96.3333",
+     "self_check": false
+    },
+    {
+     "q": "For Stopping Distance: given initial_velocity = 89, deceleration = 23, find stopping distance.",
+     "a": "172.196",
+     "self_check": false
+    },
+    {
+     "q": "For Stopping Distance: given initial_velocity = 65, deceleration = 3, find stopping distance.",
+     "a": "704.167",
+     "self_check": false
+    },
+    {
+     "q": "For Stopping Distance: given initial_velocity = 72, deceleration = 13.1, find stopping distance.",
+     "a": "197.863",
+     "self_check": false
+    },
+    {
+     "q": "For Stopping Distance: given initial_velocity = 104, deceleration = 1.3, find stopping distance.",
+     "a": "4160",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.2.4.7",
+   "title": "Reaction Time",
+   "converted_to_compute": true,
+   "formula": "reaction_time = sqrt(2 * fall_distance / 9.8)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "reaction_time = sqrt(2 * fall_distance / 9.8)",
+     "compute": "reaction_time = sqrt(2 * fall_distance / 9.8)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Reaction Time: given fall_distance = 421, find reaction time.",
+     "a": "9.26922",
+     "self_check": false
+    },
+    {
+     "q": "For Reaction Time: given fall_distance = 429, find reaction time.",
+     "a": "9.35687",
+     "self_check": false
+    },
+    {
+     "q": "For Reaction Time: given fall_distance = 293, find reaction time.",
+     "a": "7.73278",
+     "self_check": false
+    },
+    {
+     "q": "For Reaction Time: given fall_distance = 106, find reaction time.",
+     "a": "4.65109",
+     "self_check": false
+    },
+    {
+     "q": "For Reaction Time: given fall_distance = 412, find reaction time.",
+     "a": "9.1696",
+     "self_check": false
+    },
+    {
+     "q": "For Reaction Time: given fall_distance = 391, find reaction time.",
+     "a": "8.93286",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.2.5.1",
+   "title": "Relative Velocity",
+   "converted_to_compute": true,
+   "formula": "v_ab = v_a - v_b",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "v_ab = v_a - v_b",
+     "compute": "v_ab = v_a - v_b"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Relative Velocity: given v_a = 52, v_b = 117, find v ab.",
+     "a": "-65",
+     "self_check": false
+    },
+    {
+     "q": "For Relative Velocity: given v_a = 59, v_b = 15.3, find v ab.",
+     "a": "43.7",
+     "self_check": false
+    },
+    {
+     "q": "For Relative Velocity: given v_a = 104, v_b = 52, find v ab.",
+     "a": "52",
+     "self_check": false
+    },
+    {
+     "q": "For Relative Velocity: given v_a = 24, v_b = 119, find v ab.",
+     "a": "-95",
+     "self_check": false
+    },
+    {
+     "q": "For Relative Velocity: given v_a = 119, v_b = 12.3, find v ab.",
+     "a": "106.7",
+     "self_check": false
+    },
+    {
+     "q": "For Relative Velocity: given v_a = 88, v_b = 6.8, find v ab.",
+     "a": "81.2",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

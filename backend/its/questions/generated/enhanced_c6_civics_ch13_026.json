@@ -34,6 +34,21 @@
      "q": "Design a simple budget for a small town: Imagine they earn ₹1000 from local taxes. Create a plan for a \"Surplus\" budget and explain where the extra money goes.",
      "a": "A good answer would be: Income = ₹1000, Expenditure = ₹800. The surplus is ₹200, which is placed in a \"reserve fund.\" A poor answer would show expenditure higher than ₹1000, showing a failure to understand the definition of surplus.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A government budget is a financial plan that shows the ______ between money earned (income) and money spent (expenditure).",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Think about your monthly pocket money: if you spend exactly what you receive, your budget is ______.",
+     "a": "balanced",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify a budget scenario as surplus, deficit, or balanced by comparing given income and expenditure values.",
+     "self_check": true
     }
    ]
   }

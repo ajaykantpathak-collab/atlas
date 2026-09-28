@@ -34,6 +34,26 @@
      "q": "Create a real-world problem involving angle of depression that requires the solver to first recognise that the angle of depression equals the angle of elevation, then use the tangent ratio to find an unknown height. The problem must be set in an Indian context (e.g., a temple, a tree, a water tank) and include a diagram description. Provide the complete solution with all steps.",
      "a": "Sample problem: \"From the top of a 30 m high water tank in a village, the angle of depression of a temple gate is 45°. Find the horizontal distance between the tank and the gate.\" Solution: (1) Draw vertical tank AB = 30 m. (2) Draw horizontal through A. (3) Draw line of sight AC to gate C. (4) Mark ∠(horizontal, AC) = 45° at A (depression). (5) Draw horizontal through C parallel to horizontal through A. (6) ∠AC(horizontal) = 45° at C (elevation, alternate interior). (7) In right triangle ABC, right angle at B, tan 45° = AB/BC = 30/BC. (8) 1 = 30/BC → BC = 30 m. A poor answer uses the wrong angle vertex, omits the parallel line justification, or sets up tan 45° = BC/30.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The angle of ______ is the angle formed between the horizontal line through the observer's eye and the line of sight when the observer looks downward at an object below the horizontal level.",
+     "a": "depression",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing on the roof of your school ______ (about 10 metres high) looking down at your friend standing near the gate.",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing on the roof of your school building (about ______ metres high) looking down at your friend standing near the gate.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify and label the angle of depression in a given diagram, explain why it equals the corresponding angle of elevation using parallel line properties, and construct accurate diagrams for word problems involving height and distance scenarios.",
+     "self_check": true
     }
    ]
   }

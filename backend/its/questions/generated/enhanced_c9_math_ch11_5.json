@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch11_5",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch11_5",
+   "title": "c9_math_ch11_5",
+   "questions": [
+    {
+     "q": "State the RHS congruence rule for right triangles in your own words, specifying exactly which parts must be equal.",
+     "a": "The RHS rule states: Two right triangles are congruent if the hypotenuse and one side of one triangle are respectively equal to the hypotenuse and the corresponding side of the other triangle. A wrong answer (e.g., \"two sides and an angle\" or \"two sides are equal\") reveals the student confuses RHS with SAS or SSS, or does not recognise that the right angle is a given condition, not a matched part.",
+     "self_check": true
+    },
+    {
+     "q": "In ΔABC and ΔDEF, ∠B = ∠E = 90°, AC = DF = 10 cm, and AB = DE = 6 cm. A student claims ΔABC ≅ ΔDEF by SAS. Why is this reasoning incorrect, and which rule should be used?",
+     "a": "SAS requires the angle to be *included* between the two sides. Here, the 90° angle is between AB and BC in ΔABC, but we are given AB and AC (hypotenuse) — the angle is NOT between the given sides. The correct rule is RHS because both triangles are right-angled, hypotenuses AC and DF are equal, and one pair of legs (AB and DE) are equal. A wrong answer reveals the student treats the right angle as an included angle for the given sides, misunderstanding the configuration of sides in SAS vs RHS.",
+     "self_check": true
+    },
+    {
+     "q": "In right triangle PQR, right-angled at Q, PQ = 8 cm, QR = 6 cm. In right triangle XYZ, right-angled at Y, XZ = 10 cm, XY = 8 cm. Are ΔPQR and ΔXYZ congruent? If yes, write the congruence statement in correct order.",
+     "a": "First, find the missing side in ΔPQR using Pythagoras: PR² = PQ² + QR² = 8² + 6² = 64 + 36 = 100 → PR = 10 cm. Now compare: ΔPQR has hypotenuse PR = 10 cm, leg PQ = 8 cm. ΔXYZ has hypotenuse XZ = 10 cm, leg XY = 8 cm. Both are right-angled (at Q and Y). Hypotenuse and one leg match → ΔPQR ≅ ΔXYZ by RHS. The correct congruence statement is ΔPQR ≅ ΔXYZ (P↔X, Q↔Y, R↔Z). A wrong answer (e.g., saying not congruent or wrong order) reveals the student either forgot to compute the hypotenuse of the first triangle or cannot map corresponding vertices correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Two right triangles have equal hypotenuses. One triangle has legs 5 cm and 12 cm. The other has one leg 13 cm. Can the triangles be congruent? Explain why or why not using the RHS rule and Pythagoras theorem.",
+     "a": "First triangle: legs 5, 12 → hypotenuse = √(5²+12²) = √169 = 13 cm. Second triangle: hypotenuse = 13 cm (equal), one leg = 13 cm. But in a right triangle, the hypotenuse is the *longest* side — a leg cannot equal the hypotenuse unless the other leg is 0, which is impossible. Thus, such a triangle cannot exist. The triangles cannot be congruent because the second triangle is not a valid right triangle. A wrong answer (e.g., \"yes, by RHS\") reveals the student applies RHS mechanically without checking triangle validity or the hypotenuse-leg size relationship.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"In ΔABC and ΔDEF, ∠A = ∠D = 90°, BC = EF, and AB = DE. Therefore, ΔABC ≅ ΔDEF by RHS.\" Identify the error in the student's statement and correct it.",
+     "a": "The error: RHS requires the *hypotenuse* and one side to be equal. Here, BC and EF are given equal, but BC is the hypotenuse only if the right angle is at A — which it is (∠A = 90°), so BC is indeed the hypotenuse. AB and DE are legs. The statement is actually **correct** if BC and EF are the hypotenuses. However, the student must explicitly state that BC and EF are the hypotenuses (opposite the right angles). A wrong answer (saying it's wrong) reveals the student does not recognise which side is the hypotenuse relative to the right angle. The corrected statement: \"Since ∠A = ∠D = 90°, BC and EF are hypotenuses. Given BC = EF and AB = DE, ΔABC ≅ ΔDEF by RHS.\"",
+     "self_check": true
+    },
+    {
+     "q": "Construct a geometry problem where the RHS rule is used to prove that the altitude from the right angle of an isosceles right triangle bisects the hypotenuse. Provide the given, to prove, and a proof outline with 4 steps.",
+     "a": "**Given:** Isosceles right triangle ABC, right-angled at B, with AB = BC. BD is the altitude from B to hypotenuse AC.  \n**To prove:** AD = DC (BD bisects AC).  \n**Proof outline:**  \n1. In ΔABD and ΔCBD: ∠ADB = ∠CDB = 90° (BD ⊥ AC).  \n2. AB = BC (given, legs of isosceles right triangle).  \n3. BD = BD (common side).  \n4. ΔABD ≅ ΔCBD by RHS → AD = DC (CPCT).  \nA poor answer (e.g., using SAS or not identifying hypotenuses) reveals the student cannot recognise the two right triangles formed by the altitude or map the hypotenuse-leg pairs correctly.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

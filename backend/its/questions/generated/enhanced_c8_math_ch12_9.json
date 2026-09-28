@@ -34,6 +34,26 @@
      "q": "Create a real-world scenario (Indian context) where mode is the MOST appropriate measure of central tendency, and another where mode would be MISLEADING. Explain your reasoning for both.",
      "a": "Appropriate: A shirt manufacturer wants to know the most popular size to produce more of - mode (e.g., size M) directly answers this. Misleading: A company reports \"average salary\" using mode when most employees earn ₹15,000 but the CEO earns ₹2,00,000 - the mode (₹15,000) hides the huge disparity; mean or median would be better. Good answers show understanding that mode suits categorical/most-common decisions, while misleading when distribution is skewed or when \"typical\" value matters more than \"most frequent.\"",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The mode is the value that appears most ______ in a data set; a data set can have one mode (unimodal), two modes (bimodal), more than two modes (multimodal), or no mode if all values occur with equal frequency.",
+     "a": "frequently",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're the class monitor and your ______ asks: \"What is the most common shoe size in Class 8 so we can order the right number of each size for the sports day?\" You collect shoe sizes from 30 students: 5, 6, 7, 6, 8, 7, 6, 5, 7, 6, 8, 6, 7, 5, 6, 7, 6, 8, 7, 6, 5, 6, 7, 6, 8, 7, 6, 5, 7, 6.",
+     "a": "teacher",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify the mode from raw data, frequency tables, and grouped data; can determine when a data set is bimodal or multimodal; can explain why mode is the appropriate measure of central tendency for categorical data or skewed distributions with outliers.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you're the class monitor and your teacher asks: \"What is the most common shoe size in Class 8 so we can order the right number of each size for the sports day?\" You collect shoe sizes from 30 students: 5, 6, 7, 6, 8, 7, 6, 5, 7, 6, 8, 6, 7, 5, 6, 7, 6, 8, 7, 6, 5, 6, 7, 6, 8, 7, 6, 5, 7, 6.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

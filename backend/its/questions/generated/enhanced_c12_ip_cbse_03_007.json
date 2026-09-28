@@ -34,6 +34,21 @@
      "q": "Design a real-world analogy (different from the postal example) that explains the relationship between MAC address, IP address, and ARP. Your analogy must include: a permanent identifier, a changeable routing identifier, and a lookup mechanism. Write it as a 3-4 sentence scenario.",
      "a": "Example: In a corporate office, every employee has a permanent employee ID badge (MAC) that never changes. The company assigns temporary desk numbers (IP) that change when employees hot-desk. When you want to deliver a memo to \"Desk 42,\" you first check the directory (ARP) to find which employee ID sits at Desk 42 today, then hand the memo to the internal mail cart (Layer 2) addressed to that employee's badge. A poor analogy that omits the lookup step (ARP) or makes both identifiers permanent shows the student hasn't internalized the dynamic mapping between logical and physical addresses.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A MAC (Media Access Control) address is a 48-bit hardware identifier permanently assigned to a network interface controller (NIC) by its ______, operating at the Data Link Layer (Layer 2) for local network delivery.",
+     "a": "manufacturer",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The postal system needs two kinds of ______: your permanent home address (like a MAC address — fixed to your physical house) and a routing code (like an IP address — assigned by the post office for sorting across cities).",
+     "a": "addresses",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) distinguish physical vs logical addressing by layer, scope, assignment method, and mutability; (2) explain why both addresses are necessary for packet delivery using the analogy of a permanent house address (MAC) vs a postal routing code (IP); (3) given a scenario, identify whether MAC or IP address is.",
+     "self_check": true
     }
    ]
   }

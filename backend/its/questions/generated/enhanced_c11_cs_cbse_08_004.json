@@ -32,7 +32,32 @@
     },
     {
      "q": "Design a function `calculate_discount(price, discount_percent)` that returns the discounted price. Then create two different valid calls that both produce a final price of ₹900, but with different original prices and discount percentages. Show the calls and explain why both are valid positional calls.",
-     "a": "```python\ndef calculate_discount(price, discount_percent):\n    return price * (100 - discount_percent) / 100",
+     "a": "```python\ndef calculate_discount(price, discount_percent):\n    return price * (100 - discount_percent) / 100\n\n# Call 1: original price 1000, discount 10%\nprint(calculate_discount(1000, 10))   # 900.0\n\n# Call 2: original price 1200, discount 25%\nprint(calculate_discount(1200, 25))   # 900.0\n```\nBoth calls are valid because they supply two numeric arguments in the correct order (price first, discount_percent second). The function does not enforce any relationship between the two numbers; it simply applies the formula. A poor answer might use keyword arguments or produce only one call, indicating the student cannot generate multiple valid positional argument combinations.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ arguments are values passed to a function during a call that are matched to the function's parameters strictly based on their order: the first argument binds to the first parameter, the second to the second, and so on.",
+     "a": "Positional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a program for a school canteen to ______ the total price of a snack order.",
+     "a": "calculate",
+     "self_check": true
+    },
+    {
+     "q": "What is Positional arguments? State the definition given in this lesson.",
+     "a": "Positional arguments are values passed to a function during a call that are matched to the function's parameters strictly based on their order: the first argument binds to the first parameter, the second to the second, and so on.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Positional arguments?",
+     "a": "Students often believe that parameter names create an automatic link to argument values regardless of position.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write a function definition with multiple parameters, call it with positional arguments in the correct order, and trace the execution showing how each argument value is assigned to the corresponding parameter variable.",
      "self_check": true
     }
    ]

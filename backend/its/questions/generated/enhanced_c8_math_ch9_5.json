@@ -34,6 +34,16 @@
      "q": "Create a real-world problem (Indian context) that requires using the Baudhayana-Pythagoras Theorem to find a missing length. Write the problem, draw a labelled diagram, and solve it completely.",
      "a": "Example problem: A 13 m long bamboo pole leans against a vertical wall. The foot of the pole is 5 m away from the wall. How high up the wall does the pole reach?  \nDiagram: Right triangle with hypotenuse 13 m (pole), base 5 m (distance from wall), height \\(h\\) (on wall).  \nSolution: \\(h^2 + 5^2 = 13^2 \\Rightarrow h^2 = 169 - 25 = 144 \\Rightarrow h = 12\\) m.  \nA poor answer (e.g., problem not right-angled, missing steps, wrong operation) reveals the student cannot translate a physical situation into the geometric model or execute the algebraic steps.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______-Pythagoras Theorem states that in a right-angled triangle, the area of the square constructed on the hypotenuse (the side opposite the right angle) is equal to the sum of the areas of the squares constructed on the other two sides (the legs).",
+     "a": "Baudhayana",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your father lay a ______ carpet in a room that is 6 metres long and 8 metres wide.",
+     "a": "rectangular",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using household materials to demonstrate that hydrogen bonding affects surface tension. Describe procedure, observation, and explanation.",
      "a": "Good answer: Float a clean steel needle on water in a bowl (surface tension supports it). Add a drop of detergent (disrupts H-bonding at surface). Needle sinks. Explanation: Water's high surface tension (72 mN m⁻¹) arises from strong cohesive H-bonding pulling surface molecules inward. Detergent molecules insert between water molecules, breaking H-bonds and lowering surface tension. Poor answer (e.g., \"mix oil and water\") shows confusion between surface tension and immiscibility, or inability to link molecular H-bonding to macroscopic property.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Hydrogen bonding is a special type of dipole-dipole ______ that occurs between a hydrogen atom covalently bonded to a highly electronegative atom (N, O, or F) and another electronegative atom bearing a lone pair of electrons.",
+     "a": "interaction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a familiar ______: why does water boil at 100°C while H₂S (heavier molecule) boils at –60°C?",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "What is Hydrogen bonding? State the definition given in this lesson.",
+     "a": "Hydrogen bonding is a special type of dipole-dipole interaction that occurs between a hydrogen atom covalently bonded to a highly electronegative atom (N, O, or F) and another electronegative atom bearing a lone pair of electrons.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: End with the key generalization: H-bonding creates a ______D network in water, explaining its high boiling point, density anomaly (ice floats), and high surface tension.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Hydrogen bonding?",
+     "a": "Students believe any molecule with H and an electronegative atom (like Cl, S) forms hydrogen bonds.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify molecules capable of hydrogen bonding, distinguish between intermolecular and intramolecular hydrogen bonding, and explain anomalous physical properties (boiling point, density, viscosity) of substances like H₂O, HF, and NH₃ using hydrogen bonding concepts.",
+     "self_check": true
     }
    ]
   }

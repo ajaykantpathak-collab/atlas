@@ -34,6 +34,26 @@
      "q": "Create a short case (3-4 sentences) where a violation of BOTH Full Disclosure and Consistency occurs simultaneously. Describe the misleading impression created and the correct treatment.",
      "a": "Expected answer: Case: \"Alpha Ltd. has used Straight-Line Method (SLM) for depreciation for 10 years. In Year 11, to show higher profit, it switches to Written-Down Value (WDV) method without any note disclosure. It also fails to disclose a ₹50 lakh bank guarantee given for a subsidiary's loan.\" Misleading impression: Profit appears higher due to lower depreciation charge (WDV front-loads expense), and the contingent liability is hidden, overstating financial health. Correct treatment: Disclose the change in depreciation method, reason, and its effect on profit (e.g., \"Profit would have been ₹X lower under SLM\"). Disclose the bank guarantee as a contingent liability in notes.\nPoor answer reveals: If the student cannot craft a scenario combining a policy change without disclosure AND a hidden contingent item, they cannot synthesise the two concepts in practice. They may treat them as isolated definitions rather than interlocking safeguards.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Full Disclosure Concept requires that all material and relevant financial information must be completely and ______ disclosed in the financial statements and accompanying notes so that users can make informed decisions.",
+     "a": "transparently",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a bank manager reviewing a loan application from a ______.",
+     "a": "company",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Explain why full disclosure is necessary for external users (investors, creditors) and identify items requiring note disclosure vs. face-of-statement presentation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a bank manager reviewing a loan ______ from a company.",
+     "a": "application",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design an output system for a visually impaired student who needs to read digital textbooks, navigate the OS, and listen to audio explanations. Specify the exact devices (including model-type features), connection interfaces, and justify each choice based on accessibility standards.",
      "a": "Good answer includes: (1) Braille display (e.g., 40-cell refreshable, USB/Bluetooth) for tactile text output — essential for silent reading and code syntax. (2) Screen reader software (NVDA/JAWS) routed to high-clarity speakers or bone-conduction headphones (leaves ears open for environment) — frequency response 100 Hz–10 kHz optimised for speech. (3) Large-print high-contrast monitor (27\", 4K, 200% scaling) for residual vision — HDMI/DisplayPort. (4) Tactile graphics printer (e.g., PIAF) for diagrams. Justification references WCAG 2.1 AA and Indian RPwD Act 2016. A poor answer lists only \"speaker and braille keyboard\" (keyboard is input) or omits connection standards, showing lack of systems-thinking and accessibility awareness.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An output device is a peripheral hardware component that receives processed digital data from a computer system and converts it into a human-______ form such as visual display (monitor), physical hard copy (printer), or audible sound (speaker).",
+     "a": "perceivable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are setting up a ______ for a freelance graphic designer who also prints client proofs and edits short video clips with background music.",
+     "a": "workstation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Classify any given output device as soft-copy or hard-copy and justify the classification with the underlying transduction principle, and (2) Select the most appropriate output device for a specified real-world scenario by comparing at least three technical specifications (e.g., resolution, refresh rate.",
+     "self_check": true
     }
    ]
   }

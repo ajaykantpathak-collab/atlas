@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a smartphone's accelerometer and a toy car on a ramp to verify the calculus-derived equation \\( v^2 = u^2 + 2as \\) for constant acceleration. Outline the measurements needed and how you would process the data.",
      "a": "Place the smartphone on the toy car to record acceleration \\( a(t) \\). Verify \\( a \\) is constant. Use the phone's GPS or video analysis to measure displacement \\( s \\) and final velocity \\( v \\) (or compute \\( v \\) by integrating \\( a \\) over time). Plot \\( v^2 \\) vs \\( s \\); the slope should be \\( 2a \\) and intercept \\( u^2 \\). A poor answer (e.g., \"measure speed with a speedometer\") shows lack of understanding of how to obtain instantaneous velocity and displacement from raw acceleration data.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ball rolling down an ______ plane in the school lab: its speed increases steadily.",
+     "a": "inclined",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive all three kinematic equations step-by-step from the differential definitions of velocity and acceleration, correctly handle integration constants using initial conditions, and explain why this method extends to non-uniform acceleration while the algebraic method does not.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ball rolling down an inclined plane in the school lab: its speed ______ steadily.",
+     "a": "increases",
+     "self_check": true
     }
    ]
   }

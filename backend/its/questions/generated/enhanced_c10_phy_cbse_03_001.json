@@ -34,6 +34,31 @@
      "q": "Design a simple experiment to compare the calorific values of two solid fuels (e.g., coal and wood) using a school laboratory setup. List the apparatus, measurements, and calculation steps.",
      "a": "Apparatus: calorimeter (copper can), thermometer, stirrer, stand, known masses of fuels, water, ignition source.  \nProcedure: (1) Measure mass of water (m_w) and initial temperature (T_i). (2) Burn a known mass of fuel (m_f) under the calorimeter. (3) Record final temperature (T_f). (4) Calculate heat absorbed by water: Q = m_w × c_w × (T_f - T_i), where c_w = 4.18 J/g°C. (5) Calorific value = Q / m_f. Repeat for the other fuel.  \nA poor answer omits controlling heat losses, uses incorrect specific heat, or forgets to measure fuel mass, revealing weak experimental design skills.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Fossil fuels are non-renewable energy sources formed from the ______ remains of ancient plants and animals buried under sediment over millions of years, primarily coal and petroleum, which store chemical energy that is released as heat upon combustion.",
+     "a": "decomposed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: when you see a coal-fired stove in a roadside tea stall or a petrol pump on a highway, you are witnessing the end-use of energy stored ______ of years ago.",
+     "a": "millions",
+     "self_check": true
+    },
+    {
+     "q": "What is Fossil fuels? State the definition given in this lesson.",
+     "a": "Fossil fuels are non-renewable energy sources formed from the decomposed remains of ancient plants and animals buried under sediment over millions of years, primarily coal and petroleum, which store chemical energy that is released as heat upon combustion.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Fossil fuels?",
+     "a": "Students often think \"fossil fuels are just old plants/animals that turned into fuel\" without understanding the specific geological conditions (anaerobic, high pressure, millions of years) and the chemical transformation (carbonization for coal, diagenesis/catagenesis for petroleum).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the geological formation of coal and petroleum, compare their calorific values and typical uses, describe the environmental consequences of their combustion (CO₂, SO₂, particulates), and calculate the mass of fuel required to produce a given amount of heat energy using calorific value.",
+     "self_check": true
     }
    ]
   }

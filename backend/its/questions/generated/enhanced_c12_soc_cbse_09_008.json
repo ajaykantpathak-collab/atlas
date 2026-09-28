@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_09_008",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_09_008",
+   "title": "c12_soc_cbse_09_008",
+   "questions": [
+    {
+     "q": "Identify the two intellectual traditions that 19th-century Indian social reformers combined to challenge practices like sati and widow remarriage bans, and name one reformer who explicitly used both.",
+     "a": "The two traditions are: (1) Indigenous textual traditions (Hindu shastras, Islamic Quran/Hadith, navya-nyaya logic) — the Orientalist resource; and (2) Western liberal Enlightenment ideas (natural rights, humanitarianism, scientific rationality) — the Anglicist resource. Raja Ram Mohun Roy explicitly used both: he cited Hindu shastras to show sati lacked scriptural sanction *and* appealed to natural rights doctrines. A wrong answer that names only \"Western education\" or only \"tradition\" reveals the student sees reform as one-sided imitation or revival, missing the strategic synthesis that defines colonial Indian modernity.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Dharma Sabha petitioned the British against the abolition of sati, despite being orthodox Hindus who typically resisted colonial interference. What does this reveal about the Orientalist position under colonial rule?",
+     "a": "The Dharma Sabha petitioned the British because they recognised colonial state power as the ultimate arbiter of law — even over religious practice. By appealing to the British to *protect* sati as \"Hindu religion,\" they inadvertently legitimised the colonial state's authority to define what counts as authentic tradition. This reveals the Orientalist paradox: claiming to defend indigenous tradition *through* the colonial legal system transformed living custom into a codified, state-enforced \"Hindu law,\" freezing fluid practices into rigid categories. A student who says \"they wanted to preserve tradition\" misses how colonial courts *created* the very tradition they claimed to defend.",
+     "self_check": true
+    },
+    {
+     "q": "Sir Syed Ahmed Khan argued for the compatibility of Quranic revelation with modern science and promoted *ijtihad* (free enquiry). Apply the Orientalist-Anglicist framework to analyse whether his approach was more Orientalist, more Anglicist, or a distinct synthesis. Justify with two specific examples from his work.",
+     "a": "Sir Syed's approach is a distinct synthesis, not a simple blend. Orientalist element: He grounded reform in Islamic theology — *ijtihad* is a classical Islamic juridical principle, and he used Quranic exegesis to argue science reveals God's laws. Anglicist element: He adopted Western scientific rationality as the standard for truth, established the Muhammadan Anglo-Oriental College (later AMU) with English curriculum, and urged Muslims to acquire modern education for government service. Crucially, he *reinterpreted* tradition using modern categories (e.g., \"laws of nature\" as divine law), rather than reviving tradition unchanged or adopting Western secularism wholesale. A student calling him \"pro-British\" or \"traditionalist\" fails to see his strategic reworking of both frameworks to create a Muslim modern identity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Jotiba Phule's use of the \"pre-Aryan\" past with Bal Gangadhar Tilak's invocation of the \"Aryan period.\" How do both reformers use Orientalist resources (indigenous history/texts) to advance opposing social visions? What does this tell you about the plasticity of the \"tradition\" category in colonial India?",
+     "a": "Phule valorised the pre-Aryan, pre-caste past (Baliraja's golden age) to delegitimise Brahminical caste hierarchy as an Aryan imposition — using Orientalist philology/history to attack caste. Tilak glorified the Aryan/Vedic period to assert Hindu cultural superiority and resist colonial modernity — using the same Orientalist archive to defend orthodoxy. Both treat \"tradition\" as a constructed, selectable resource rather than a fixed inheritance. This plasticity means Orientalism was not a monolithic \"pro-tradition\" stance; it was a contested terrain where different groups mined the same texts/histories for opposed political ends. A student who says \"Phule was modern, Tilak was traditional\" misses that *both* used historicist Orientalist scholarship to make their case.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Orientalist-Anglicist debate was resolved in favour of Anglicism after Macaulay's Minute (1835), so Indian social reformers after 1835 simply adopted Western ideas.\" Use evidence from at least two reformers post-1835 to support your judgment.",
+     "a": "The claim is false. Post-1835 reformers *intensified* their use of Orientalist resources precisely because Anglicist education created a new audience fluent in both worlds. Examples: (1) Ishwar Chandra Vidyasagar (1850s) — used *navya-nyaya* logic and shastric exegesis to prove widow remarriage had Vedic sanction, publishing *Vedic Authorities for Widow Marriage*; his modern education enabled him to navigate colonial courts, but his *argument* was textual. (2) Dayanand Saraswati (1870s) — founded Arya Samaj claiming to return to \"pure\" Vedic religion, rejecting Puranic Hinduism *and* Christianity; he used Western organisational forms (samaj, printing press) but his authority was entirely Vedic. (3) Pandita Ramabai — mastered Sanskrit to expose anti-women passages, then converted to Christianity, showing the *failure* of both traditions to fully accommodate gender justice. The debate did not end; it migrated into civil society.",
+     "self_check": true
+    },
+    {
+     "q": "Create a contemporary analogy: Identify a current Indian public debate (e.g., uniform civil code, temple entry, hijab in schools) where advocates on *both* sides invoke \"tradition\" and \"modernity/constitutional rights\" simultaneously. Map the Orientalist and Anglicist resources each side uses, and explain why this mirrors the 19th-century reformers' strategy.",
+     "a": "Example: Sabarimala temple entry (2018). Pro-entry side: Uses Anglicist resource — constitutional morality (Article 14, 25), gender equality, Supreme Court verdict. Uses Orientalist resource — cites *Smriti* texts allowing women's entry, argues \"tradition\" is not monolithic, invokes Bhakti saints who rejected caste/gender barriers. Anti-entry side: Uses Orientalist resource — claims \"centuries-old custom\" (achara), tantric ritual purity, deity's celibacy (naishtika brahmachari) as scriptural. Uses Anglicist resource — frames custom as \"religious denomination right\" under Article 26, uses legal language of \"essential religious practice test,\" petitions Supreme Court. Mirror: Just as Roy used shastras *and* natural rights, both sides now use constitutional law *and* textual tradition. The colonial-era synthesis persists because the postcolonial state still mediates tradition through law.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Orientalist-Anglicist debate refers to the 19th-century colonial policy conflict over whether British rule in India should promote ______ classical learning (Orientalist: Sanskrit, Persian, Arabic texts) or Western education in English (Anglicist: modern science, liberal arts, English medium).",
+     "a": "indigenous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are Raja Ram Mohun Roy in 1818, witnessing a sati ______.",
+     "a": "ritual",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Orientalist-Anglicist debate refers to the ______th-century colonial policy conflict over whether British rule in India should promote indigenous classical learning (Orientalist: Sanskrit, Persian, Arabic texts) or Western education in English (Anglicist: modern science, liberal arts, English medium).",
+     "a": "19",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how specific reformers (e.g., Raja Ram Mohun Roy, Sir Syed Ahmed Khan, Jotiba Phule) strategically used Orientalist and Anglicist resources to justify reforms, and evaluate whether their synthesis created a distinct Indian modernity or reproduced colonial hierarchies.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are Raja Ram Mohun Roy in 1818, ______ a sati ritual.",
+     "a": "witnessing",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

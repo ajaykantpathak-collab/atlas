@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_12_005",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_12_005",
+   "title": "c11_leg_cbse_12_005",
+   "questions": [
+    {
+     "q": "Under the Hindu Marriage Act, 1955, if a man marries a second wife while his first wife is alive and the first marriage has not been dissolved, what is the legal status of the second marriage?",
+     "a": "The second marriage is **void** under Section 11 of the Hindu Marriage Act, 1955, because bigamy is a ground for void marriage. A void marriage is *void ab initio* — it never legally existed. A wrong answer (e.g., \"voidable\") reveals the student confuses void (no marriage from start) with voidable (valid until annulled by court), missing that bigamy strikes at the root of marital capacity under monogamy.",
+     "self_check": true
+    },
+    {
+     "q": "A Muslim man pronounces \"talaq\" three times in one sitting via WhatsApp. His wife challenges this. Under current law, what is the legal effect of this pronouncement?",
+     "a": "The pronouncement is **illegal and void** under the Muslim Women (Protection of Rights on Marriage) Act, 2019, which criminalises *talaq-e-biddat* (instant triple talaq) in any form — oral, written, or electronic — with up to three years imprisonment. A wrong answer (e.g., \"valid divorce\" or \"voidable\") reveals the student hasn't updated their knowledge post-2019 Act and still relies on pre-2017 Supreme Court *Shayara Bano* judgment without knowing the legislative override.",
+     "self_check": true
+    },
+    {
+     "q": "A Hindu wife files for divorce under Section 13(1)(ia) of the Hindu Marriage Act, 1955, alleging \"cruelty.\" The husband argues she voluntarily left the matrimonial home. The wife claims she left due to mental harassment. How should the court analyse \"cruelty\" in this scenario?",
+     "a": "The court must apply the **subjective-objective test** from *V. Bhagat v. D. Bhagat* (1994): (1) Whether the conduct complained of is of such a nature that the petitioner cannot reasonably be expected to live with the respondent (objective); (2) Whether the petitioner *actually* finds it impossible to live with the respondent (subjective). Mere quarrelling or incompatibility is not cruelty. A wrong answer (e.g., \"physical violence required\" or \"desertion by wife bars cruelty claim\") reveals the student misunderstands cruelty as a *course of conduct* — not a single act — and that the wife's departure *due to* cruelty is not desertion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the grounds for voidable marriage under the Hindu Marriage Act, 1955 (Section 12) and the Indian Divorce Act, 1869 (Section 18). What is the key structural difference in how these statutes treat \"voidable\" marriages?",
+     "a": "The Hindu Marriage Act **explicitly lists four distinct grounds** for voidable marriage (impotency, force/fraud, pre-marriage pregnancy, unsoundness of mind) under Section 12. The Indian Divorce Act **does not distinguish between void and voidable** — Section 18 simply states marriage \"may be declared null and void\" on grounds including impotency, consanguinity, existing spouse, or unsoundness of mind. A wrong answer (e.g., \"both have same grounds\") reveals the student misses the legislative design: Hindu law creates a separate category of voidable marriages; Christian law merges nullity grounds without the void/voidable distinction.",
+     "self_check": true
+    },
+    {
+     "q": "\"Maintenance pendente lite and permanent alimony under the Hindu Marriage Act, 1955 are gender-neutral — either spouse can claim.\" Evaluate this statement with reference to Sections 24 and 25.",
+     "a": "**True.** Section 24 (pendente lite) and Section 25 (permanent alimony) use the phrase \"either party to the marriage\" — making them gender-neutral. However, the Hindu Adoption and Maintenance Act, 1956 (Section 18) gives the *wife alone* an absolute right to maintenance during subsistence of marriage. A wrong answer (e.g., \"only wife can claim under HMA\") reveals the student conflates the *substantive* maintenance right under HAMA (wife-only) with the *procedural* alimony provisions under HMA (gender-neutral) — a critical distinction in matrimonial litigation.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-paragraph legal opinion for a 17-year-old Hindu girl whose parents are forcing her to marry a 25-year-old man next month. Cite the Prohibition of Child Marriage Act, 2006, and explain her remedies.",
+     "a": "The marriage would be **voidable at her option** under Section 3 of the Prohibition of Child Marriage Act, 2006 (girl < 18 years). She can file a petition for annulment within two years of attaining majority (Section 3(3)). She can also seek an injunction under Section 13 to prevent solemnisation, and the Child Marriage Prohibition Officer can intervene. Offenders (parents, groom) face rigorous imprisonment up to 2 years or fine up to ₹1 lakh (Section 9). A poor answer (e.g., \"marriage is void\") reveals confusion: child marriage is *voidable*, not void — it remains valid until annulled by the child party.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

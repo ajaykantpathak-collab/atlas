@@ -34,6 +34,31 @@
      "q": "Design a simple experiment to test whether seed coat impermeability or embryo dormancy causes failure of germination in a wild legume species.",
      "a": "Scarify half the seeds (mechanical abrasion of seed coat) and leave half intact; place both on moist filter paper at 25°C. If scarified seeds germinate but intact ones do not, the cause is exogenous (seed coat) dormancy. If neither germinates, the cause is endogenous (embryo) dormancy. A poor design (e.g., only testing intact seeds) reveals inability to isolate variables — a key competency for investigative biology.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Seed development is the process by which a fertilized ovule matures into a seed, involving coordinated growth of the embryo (from zygote), endosperm (from primary endosperm nucleus), and seed coat (from integuments), while seed dormancy is a ______ state where a viable seed fails to germinate under favorable conditions due to internal constraints such as immature embryos, impermeable seed coats, or hormonal inhibition (high ABA:GA ratio).",
+     "a": "physiological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: a farmer stores wheat grains for months but they sprout only after the monsoon rains — why don't they germinate ______ after harvest?",
+     "a": "immediately",
+     "self_check": true
+    },
+    {
+     "q": "What is Seed development? State the definition given in this lesson.",
+     "a": "Seed development is the process by which a fertilized ovule matures into a seed, involving coordinated growth of the embryo (from zygote), endosperm (from primary endosperm nucleus), and seed coat (from integuments), while seed dormancy is a physiological state where a viable seed fails to germinate under favorable conditions due to.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Seed development?",
+     "a": "Students believe \"dormant seeds are dead or inactive\" and that \"breaking dormancy means activating the seed.\" In reality, dormant seeds are metabolically active (respiring, sensing environment) and breaking dormancy means removing an active suppression (ABA-mediated) rather than switching on a passive state.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can trace the step-by-step transformation of a fertilized ovule into a mature seed (embryo, endosperm, seed coat), explain the physiological basis of seed dormancy using hormone ratios and structural factors, and predict how specific treatments (scarification, stratification, GA application) break dormancy in named examples.",
+     "self_check": true
     }
    ]
   }

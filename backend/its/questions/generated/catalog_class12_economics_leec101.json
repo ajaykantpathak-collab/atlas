@@ -1,6 +1,53 @@
 {
- "catalog": "catalog_class12_economics_leec101",
+ "catalog": "catalog_class12_economics_leec101.json",
  "concepts": [
+  {
+   "id": "leec.101.2",
+   "title": "Unemployment During the Great Depression",
+   "converted_to_compute": true,
+   "formula": "unemployment_rise = peak_rate - trough_rate",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "unemployment_rise = peak_rate - trough_rate",
+     "compute": "unemployment_rise = peak_rate - trough_rate"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Unemployment During the Great Depression: given peak_rate = 18.7, trough_rate = 97, find unemployment rise.",
+     "a": "-78.3",
+     "self_check": false
+    },
+    {
+     "q": "For Unemployment During the Great Depression: given peak_rate = 35, trough_rate = 53, find unemployment rise.",
+     "a": "-18",
+     "self_check": false
+    },
+    {
+     "q": "For Unemployment During the Great Depression: given peak_rate = 29, trough_rate = 7.6, find unemployment rise.",
+     "a": "21.4",
+     "self_check": false
+    },
+    {
+     "q": "For Unemployment During the Great Depression: given peak_rate = 47, trough_rate = 98, find unemployment rise.",
+     "a": "-51",
+     "self_check": false
+    },
+    {
+     "q": "For Unemployment During the Great Depression: given peak_rate = 95, trough_rate = 79, find unemployment rise.",
+     "a": "16",
+     "self_check": false
+    },
+    {
+     "q": "For Unemployment During the Great Depression: given peak_rate = 55, trough_rate = 32, find unemployment rise.",
+     "a": "23",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "leec.101.1",
    "title": "Emergence of Macroeconomics",
@@ -18,37 +65,6 @@
     {
      "q": "Under which section is 'Emergence of Macroeconomics' taught, and from which source text?",
      "a": "Emergence of Macroeconomics (source: leec101.txt Great Depression narrative and Keynes references)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leec.101.2",
-   "title": "Unemployment During the Great Depression",
-   "questions": [
-    {
-     "q": "Using the method 'Unemployment During the Great Depression', work with: peak_rate = 8, trough_rate = 3. Carry the chain through step by step and give the final value of unemployment_rise.",
-     "a": "5 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Unemployment During the Great Depression' and work with: peak_rate = 18, trough_rate = 3. Carry the chain through step by step and give the final value of unemployment_rise.",
-     "a": "15 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Unemployment During the Great Depression' refers to.",
-     "a": "In the USA, from 1929 to 1933, the unemployment rate rose from 3 per cent to 25 per cent as workers were thrown out of jobs, illustrating how an economy-wide collapse differs from a market-level disequilibrium.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Unemployment During the Great Depression'.",
-     "a": "The rise in the unemployment rate is the difference between the peak rate in 1933 and the trough rate in 1929.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Unemployment During the Great Depression', in plain ASCII form.",
-     "a": "unemployment_rise = peak_rate - trough_rate",
      "self_check": true
     }
    ]

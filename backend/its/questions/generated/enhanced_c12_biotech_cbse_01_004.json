@@ -34,6 +34,26 @@
      "q": "Design a baculovirus transfer vector for expressing a secreted human growth factor in Sf9 cells. Specify: (a) promoter, (b) signal sequence, (c) affinity tag position, (d) selection marker for recombinant virus screening in insect cells, and (e) one safety feature to prevent replication-competent virus generation.",
      "a": "(a) polyhedrin promoter (polh) or p10 promoter (both strong late promoters). (b) Native human signal peptide or baculovirus gp67 signal sequence for efficient secretion into culture medium. (c) C-terminal 6×His or Strep-tag (after the protein coding sequence, before stop codon) to allow purification from supernatant without interfering with N-terminal signal peptide cleavage. (d) lacZ α-complementation (blue/white screening on X-gal) or fluorescent marker (e.g., GFP) under a separate promoter — but note: in insect cells, loss of polyhedrin (occlusion-negative phenotype) is the classic screen; modern systems use antibiotic resistance (e.g., puromycin) in insect cells or bacmid-based selection in E. coli. (e) Deletion of essential viral gene (e.g., orf1629) in the bacmid backbone complemented only in packaging cell line, or use of suicide plasmid with conditional replication origin. A poor answer that omits signal sequence for secretion, places tag N-terminally blocking signal peptide, or ignores safety features shows incomplete vector design thinking.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Baculovirus-Insect Cell Expression System is a eukaryotic recombinant protein production platform that uses baculoviruses (primarily Autographa californica multiple ______, AcMNPV) as vectors to deliver and express foreign genes in insect cell lines (e.g., Sf9, Sf21, High Five), enabling high-yield synthesis of properly folded, post-translationally modified proteins.",
+     "a": "nucleopolyhedrovirus",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to produce a human glycoprotein therapeutic (e.g., ______) that requires complex N-linked glycosylation for activity — E. coli cannot glycosylate, yeast adds hypermannose structures, but insect cells produce pauci-mannose glycans closer to human patterns.",
+     "a": "erythropoietin",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight: we replace the non-essential polyhedrin gene with our gene of interest via homologous recombination in insect cells, generating a recombinant virus that expresses our protein at up to ______% of total cellular protein.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the key components (baculovirus genome, polyhedrin promoter, transfer vector, insect host cells), describe the stepwise recombination process (co-transfection or homologous recombination in insect cells), and justify why this system is preferred over prokaryotic hosts for complex eukaryotic proteins requiring.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using only a stethoscope, stopwatch, and a volunteer to demonstrate the relative contributions of neural vs. hormonal regulation to heart rate recovery after exercise.",
      "a": "Protocol: (1) Record resting HR for 1 min. (2) Volunteer does 2 min of step-ups (standardised). (3) Immediately post-exercise, record HR every 15 sec for 3 min. (4) Plot HR recovery curve. Interpretation: The rapid drop in first 30–60 sec (fast phase) reflects parasympathetic reactivation (vagal tone restoration); the slower exponential decay over 2–3 min reflects sympathetic withdrawal and adrenaline clearance from blood. To isolate hormonal component, repeat after 24 hr with oral β-blocker (propranolol) under medical supervision — the slow phase will be attenuated. A poor design (e.g., measuring only at 1 min post-exercise) misses the biphasic recovery kinetics and cannot distinguish neural vs. hormonal contributions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Regulation of cardiac activity refers to the physiological mechanisms by which the heart's intrinsic myogenic rhythm (initiated by the sino-atrial node) is modulated by the autonomic nervous system (sympathetic and ______ divisions) and hormonal signals (primarily adrenaline and noradrenaline from the adrenal medulla) to alter heart rate, contractility, and cardiac output in response to the body's changing metabolic demands.",
+     "a": "parasympathetic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Notice how your heart races when you sprint to catch a bus or before an exam — this is not the heart deciding on its own, but your brain and ______ overriding its natural rhythm.",
+     "a": "hormones",
+     "self_check": true
+    },
+    {
+     "q": "What is Regulation of cardiac activity? State the definition given in this lesson.",
+     "a": "Regulation of cardiac activity refers to the physiological mechanisms by which the heart's intrinsic myogenic rhythm (initiated by the sino-atrial node) is modulated by the autonomic nervous system (sympathetic and parasympathetic divisions) and hormonal signals (primarily adrenaline and noradrenaline from the adrenal medulla) to alter.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by recalling that the SA node sets a baseline rhythm of ~______ beats/min (myogenic property).",
+     "a": "72",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Regulation of cardiac activity?",
+     "a": "Students believe that the sympathetic and parasympathetic systems always act in a simple \"on/off\" or \"push-pull\" manner where one is active while the other is completely silent.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how sympathetic and parasympathetic stimulation differentially affect heart rate and contractility, trace the neural pathway from medullary cardiovascular centres to the SA node, and predict the combined effect of neural and hormonal regulation on cardiac output during exercise or stress.",
+     "self_check": true
     }
    ]
   }

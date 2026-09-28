@@ -34,6 +34,11 @@
      "q": "Create a real-world problem (involving area, cost, or distance) where the side or total quantity is a trinomial, and the question requires finding the square of that trinomial. Provide the trinomial and the context.",
      "a": "Example: \"A square field has side length \\((3x + 4y + 5)\\) metres. Write an expression for its area in expanded form.\" A good answer provides a context where a quantity is naturally a sum of three distinct parts (e.g., length, width, height summed for some reason, or three segments of a side) and asks for the square. A poor answer gives a trinomial but asks for something else (like perimeter) or gives a binomial, showing they don't recognise when the three-term square identity is the appropriate tool.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight is that every term in the trinomial ______ with every other term exactly once, giving three square terms and three distinct cross-product terms, each appearing twice.",
+     "a": "multiplies",
+     "self_check": true
     }
    ]
   }

@@ -11,17 +11,17 @@
      "self_check": true
     },
     {
-     "q": "Explain in your own words why the following two code snippets produce different results, even though they appear to do the same thing:\n```python",
+     "q": "Explain in your own words why the following two code snippets produce different results, even though they appear to do the same thing:\n```python\n# Snippet A\nresult = [x * 2 for x in range(5) if x % 2 == 0]\n\n# Snippet B\nresult = [x * 2 for x in range(5)]\nresult = [y for y in result if y % 2 == 0]\n```",
      "a": "Snippet A filters **before** transformation: it selects only even numbers from `range(5)` (i.e., 0, 2, 4), then doubles them, yielding `[0, 4, 8]`. Snippet B transforms **first** (doubling all numbers 0–4 to get `[0, 2, 4, 6, 8]`), then filters the **transformed** values for evenness — but all doubled integers are even, so nothing is removed, yielding `[0, 2, 4, 6, 8]`. A wrong answer claiming they are equivalent reveals the misconception that the `if` clause in a comprehension filters the output values; actually it filters the **input** items before the expression is applied.",
      "self_check": true
     },
     {
      "q": "Given a list `prices = [120, 45, 200, 80, 350, 60]` representing item prices in rupees, write a single list comprehension that produces a new list containing the discounted prices (10% off) only for items originally priced above ₹100. Show the output.",
-     "a": "```python\nprices = [120, 45, 200, 80, 350, 60]\ndiscounted = [price * 0.9 for price in prices if price > 100]",
+     "a": "```python\nprices = [120, 45, 200, 80, 350, 60]\ndiscounted = [price * 0.9 for price in prices if price > 100]\n# Output: [108.0, 180.0, 315.0]\n```\nSteps: (1) Iterate over each `price` in `prices`. (2) Keep only those where `price > 100` (120, 200, 350). (3) Apply expression `price * 0.9` to each kept value. (4) Collect results into new list. A wrong answer like `[price * 0.9 if price > 100 for price in prices]` (syntax error) or `[price * 0.9 for price in prices if price * 0.9 > 100]` (filters on discounted price) reveals confusion about where the filter applies and the correct clause ordering.",
      "self_check": true
     },
     {
-     "q": "Compare the memory and time efficiency of these two approaches for creating a list of squares of first 10,000 natural numbers. Which is preferred and why?\n```python",
+     "q": "Compare the memory and time efficiency of these two approaches for creating a list of squares of first 10,000 natural numbers. Which is preferred and why?\n```python\n# Approach 1\nsquares = []\nfor i in range(1, 10001):\n    squares.append(i * i)\n\n# Approach 2\nsquares = [i * i for i in range(1, 10001)]\n```",
      "a": "Both approaches have **O(n)** time complexity and produce identical lists. However, Approach 2 (list comprehension) is preferred because: (1) It avoids repeated method lookup and call overhead of `append()` in each iteration. (2) The list size is known in advance, so Python can pre-allocate the exact memory needed, whereas `append()` may trigger multiple reallocations. (3) It executes as a single bytecode operation (`LIST_APPEND` in a tight loop vs. `CALL_METHOD` + `LIST_APPEND`). A wrong answer claiming \"for-loops are faster because they're more explicit\" reveals misunderstanding of Python's implementation; comprehensions are optimised at the interpreter level for this exact pattern.",
      "self_check": true
     },
@@ -33,6 +33,21 @@
     {
      "q": "Design a real-world scenario (Indian context) where a list comprehension with a filter is the natural solution. Write the problem statement, the input data structure, and the comprehension that solves it.",
      "a": "**Scenario**: A grocery store in Mumbai has a list of customer purchase amounts (in ₹). The manager wants a list of amounts eligible for a \"₹50 cashback\" offer — only purchases ≥ ₹500 qualify, and the cashback amount is 10% of the purchase (capped at ₹200).  \n**Input**: `purchases = [1200, 350, 4800, 450, 2100, 950, 300]`  \n**Comprehension**: `cashbacks = [min(amt * 0.1, 200) for amt in purchases if amt >= 500]`  \n**Output**: `[120.0, 200.0, 200.0, 95.0]`  \nA poor answer that omits the `min()` cap or uses a for-loop with append misses the point: the comprehension naturally expresses \"transform each qualifying purchase to its cashback amount\" in one declarative line.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A list ______ in Python is a concise syntactic construct that creates a new list by applying an expression to each element of an iterable, optionally filtering elements with a conditional clause.",
+     "a": "comprehension",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a list of 50 students' marks in ______ and you need to create a new list containing only the marks of students who scored above 75, but increased by 5 bonus marks.",
+     "a": "Mathematics",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write list comprehensions to transform and filter data from existing sequences, convert equivalent for-loop-with-append code to list comprehension syntax, and explain when list comprehensions are preferred over traditional loops for readability and performance.",
      "self_check": true
     }
    ]

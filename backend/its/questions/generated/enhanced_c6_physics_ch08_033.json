@@ -34,6 +34,26 @@
      "q": "Design a simple experiment to prove that a pendulum's period is independent of the push given to it (for small swings).",
      "a": "The student should describe setting the pendulum in motion with a small pull, timing 10 swings with a stopwatch, then repeating the process with a slightly larger pull and comparing the average time per swing. A poor answer would suggest observing just one swing, which is too prone to human error to prove the consistency of the period.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A simple pendulum is a device ______ of a small weight (bob) suspended from a fixed point by a thread, which repeats its to-and-fro motion in equal intervals of time.",
+     "a": "consisting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever noticed how a swing in a park moves ______ and backward repeatedly?",
+     "a": "forward",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify a pendulum as an oscillator and explain that the time taken for one complete to-and-fro swing (the period) remains constant regardless of the swing's width for small movements.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever noticed how a swing in a park moves forward and backward ______?",
+     "a": "repeatedly",
+     "self_check": true
     }
    ]
   }

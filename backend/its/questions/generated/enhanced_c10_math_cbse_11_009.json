@@ -34,6 +34,31 @@
      "q": "Create a word problem involving a clock where the minute hand and hour hand both sweep sectors in the same time interval, and ask for the difference in areas swept. Provide the solution.",
      "a": "Example problem: \"The minute hand of a clock is 12 cm long and the hour hand is 8 cm long. Find the difference between the areas swept by the two hands between 2:00 PM and 2:30 PM.\" Solution: Time = 30 min. Minute hand angle = 30×6 = 180°. Hour hand angle = 30×0.5 = 15°. Area_min = (180/360)×π×12² = 72π cm². Area_hr = (15/360)×π×8² = (1/24)×64π = 8π/3 cm². Difference = 72π - 8π/3 = (216π - 8π)/3 = 208π/3 cm² ≈ 217.87 cm² (using π=22/7). A poor problem would use same radius for both hands or ask for sum instead of difference, showing lack of understanding of the distinct roles of the hands.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Word problems on clocks and wheels apply the formulas for arc length and sector area to real-life circular motion: clock hands sweep out sectors as they rotate, and wheels roll along the ground covering distances equal to the arc length (______) per rotation.",
+     "a": "circumference",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are watching the ______ hand of your classroom wall clock — it is 14 cm long.",
+     "a": "minute",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are watching the minute hand of your classroom wall clock — it is ______ cm long.",
+     "a": "14",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently solve multi-step word problems involving: (1) area swept by clock hands in a given time interval, (2) distance covered by a wheel in a given number of rotations or time at a given speed, and (3) number of rotations required to cover a given distance, using the correct arc length and sector area formulas with.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are watching the minute hand of your ______ wall clock — it is 14 cm long.",
+     "a": "classroom",
+     "self_check": true
     }
    ]
   }

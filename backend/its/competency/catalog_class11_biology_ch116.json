@@ -176,7 +176,16 @@
      "explain": "Perform the multiplication and express the result in liters per day to quantify the total glomerular filtrate produced by the kidneys.",
      "compute": "daily_filtrate = gfr_per_minute * 1.44"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "daily_filtrate = gfr_per_minute * 1.44",
+     "compute": "daily_filtrate = gfr_per_minute * 1.44"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.16.6",
@@ -213,7 +222,16 @@
      "explain": "Perform the division and multiplication to express the result as a percentage, confirming that nearly 99% of the filtrate is reabsorbed by the renal tubules.",
      "compute": "reabsorption_percent = (reabsorbed_volume / filtrate_volume) * 100"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "reabsorption_percent = ((filtrate_volume - urine_volume) / filtrate_volume) * 100",
+     "compute": "reabsorption_percent = ((filtrate_volume - urine_volume) / filtrate_volume) * 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.16.7",
@@ -284,7 +302,16 @@
      "explain": "Perform the division to express how many times the kidneys can concentrate the initial filtrate, confirming the counter-current mechanism's efficiency.",
      "compute": "concentration_factor = medullary_osmolarity / cortical_osmolarity"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "concentration_factor = medullary_osmolarity / cortical_osmolarity",
+     "compute": "concentration_factor = medullary_osmolarity / cortical_osmolarity"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.16.9",
@@ -359,7 +386,7 @@
    "title": "Lungs, Liver, and Skin in Excretion",
    "section": "16.7",
    "definition": "The contribution of accessory organs to the elimination of metabolic wastes like carbon dioxide, bile pigments, and sweat.",
-   "formula": "daily_co2_elimination = co2_rate_per_minute * 1.44",
+   "formula": "daily_co_2_elimination = co_2_rate_per_minute * 1.44",
    "key_idea": "Non-renal organs assist in homeostatic waste removal, including significant daily carbon dioxide and water loss.",
    "textbook_ref": "kebo116.txt lines 361-385",
    "question_patterns": [
@@ -389,7 +416,16 @@
      "explain": "Perform the multiplication and express the result in liters per day to quantify the lungs' contribution to metabolic waste removal.",
      "compute": "daily_co2_elimination = co2_rate_per_minute * 1.44"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "daily_co_2_elimination = co_2_rate_per_minute * 1.44",
+     "compute": "daily_co_2_elimination = co_2_rate_per_minute * 1.44"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.16.12",

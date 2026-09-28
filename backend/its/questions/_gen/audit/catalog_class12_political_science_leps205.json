@@ -1,0 +1,378 @@
+{
+ "catalog": "catalog_class12_political_science_leps205.json",
+ "concepts": [
+  {
+   "id": "leps.205.1.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "party_consensus_on_shastri = 1.8",
+      "secret_ballot_for_indira = 61",
+      "democratic_succession = party_consensus_on_shastri + secret_ballot_for_indira"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "party_consensus_on_shastri = 9",
+      "secret_ballot_for_indira = 101",
+      "democratic_succession = party_consensus_on_shastri + secret_ballot_for_indira"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "party_consensus_on_shastri = 18",
+      "secret_ballot_for_indira = 120",
+      "democratic_succession = party_consensus_on_shastri + secret_ballot_for_indira"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "party_consensus_on_shastri = 1",
+      "secret_ballot_for_indira = 79",
+      "democratic_succession = party_consensus_on_shastri + secret_ballot_for_indira"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "party_consensus_on_shastri = 1.5",
+      "secret_ballot_for_indira = 14",
+      "democratic_succession = party_consensus_on_shastri + secret_ballot_for_indira"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "party_consensus_on_shastri = 13.7",
+      "secret_ballot_for_indira = 82",
+      "democratic_succession = party_consensus_on_shastri + secret_ballot_for_indira"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "party_consensus_on_shastri = 1.8",
+    "secret_ballot_for_indira = 61",
+    "democratic_succession = party_consensus_on_shastri + secret_ballot_for_indira"
+   ]
+  },
+  {
+   "id": "leps.205.2.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "rate_after = 95",
+      "rate_before = 60",
+      "devaluation_percent = (rate_after - rate_before) / rate_before * 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "rate_after = 34",
+      "rate_before = 54",
+      "devaluation_percent = (rate_after - rate_before) / rate_before * 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "rate_after = 25",
+      "rate_before = 72",
+      "devaluation_percent = (rate_after - rate_before) / rate_before * 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rate_after = 31",
+      "rate_before = 39",
+      "devaluation_percent = (rate_after - rate_before) / rate_before * 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "rate_after = 18.5",
+      "rate_before = 25",
+      "devaluation_percent = (rate_after - rate_before) / rate_before * 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "rate_after = 11.3",
+      "rate_before = 19.7",
+      "devaluation_percent = (rate_after - rate_before) / rate_before * 100"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "devaluation_percent = (rate_after - rate_before) / rate_before * 100"
+   ]
+  },
+  {
+   "id": "leps.205.3.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "anti_congress_fronts = 22",
+      "electoral_seat_adjustments = 73",
+      "svd_coalitions = 95",
+      "non_congressism = anti_congress_fronts + electoral_seat_adjustments + svd_coalitions"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "anti_congress_fronts = 51",
+      "electoral_seat_adjustments = 10.3",
+      "svd_coalitions = 72",
+      "non_congressism = anti_congress_fronts + electoral_seat_adjustments + svd_coalitions"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "anti_congress_fronts = 23",
+      "electoral_seat_adjustments = 49",
+      "svd_coalitions = 73",
+      "non_congressism = anti_congress_fronts + electoral_seat_adjustments + svd_coalitions"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "anti_congress_fronts = 63",
+      "electoral_seat_adjustments = 39",
+      "svd_coalitions = 55",
+      "non_congressism = anti_congress_fronts + electoral_seat_adjustments + svd_coalitions"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "anti_congress_fronts = 69",
+      "electoral_seat_adjustments = 107",
+      "svd_coalitions = 47",
+      "non_congressism = anti_congress_fronts + electoral_seat_adjustments + svd_coalitions"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "anti_congress_fronts = 31",
+      "electoral_seat_adjustments = 9.5",
+      "svd_coalitions = 88",
+      "non_congressism = anti_congress_fronts + electoral_seat_adjustments + svd_coalitions"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "anti_congress_fronts = 22",
+    "electoral_seat_adjustments = 73",
+    "svd_coalitions = 95",
+    "non_congressism = anti_congress_fronts + electoral_seat_adjustments + svd_coalitions"
+   ]
+  },
+  {
+   "id": "leps.205.4.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "frequent_floor_crossing = 44",
+      "constant_realignments = 62",
+      "government_instability = frequent_floor_crossing + constant_realignments"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "frequent_floor_crossing = 116",
+      "constant_realignments = 111",
+      "government_instability = frequent_floor_crossing + constant_realignments"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "frequent_floor_crossing = 92",
+      "constant_realignments = 5.5",
+      "government_instability = frequent_floor_crossing + constant_realignments"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "frequent_floor_crossing = 55",
+      "constant_realignments = 43",
+      "government_instability = frequent_floor_crossing + constant_realignments"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "frequent_floor_crossing = 97",
+      "constant_realignments = 120",
+      "government_instability = frequent_floor_crossing + constant_realignments"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "frequent_floor_crossing = 55",
+      "constant_realignments = 11.4",
+      "government_instability = frequent_floor_crossing + constant_realignments"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "frequent_floor_crossing = 44",
+    "constant_realignments = 62",
+    "government_instability = frequent_floor_crossing + constant_realignments"
+   ]
+  },
+  {
+   "id": "leps.205.5.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "syndicate_control = 25",
+      "indira_left_programme = 28",
+      "giri_conscience_vote = 18.6",
+      "congress_split_1969 = syndicate_control + indira_left_programme + giri_conscience_vote"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "syndicate_control = 0.5",
+      "indira_left_programme = 99",
+      "giri_conscience_vote = 76",
+      "congress_split_1969 = syndicate_control + indira_left_programme + giri_conscience_vote"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "syndicate_control = 40",
+      "indira_left_programme = 110",
+      "giri_conscience_vote = 16.7",
+      "congress_split_1969 = syndicate_control + indira_left_programme + giri_conscience_vote"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "syndicate_control = 91",
+      "indira_left_programme = 98",
+      "giri_conscience_vote = 90",
+      "congress_split_1969 = syndicate_control + indira_left_programme + giri_conscience_vote"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "syndicate_control = 76",
+      "indira_left_programme = 21",
+      "giri_conscience_vote = 39",
+      "congress_split_1969 = syndicate_control + indira_left_programme + giri_conscience_vote"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "syndicate_control = 70",
+      "indira_left_programme = 25",
+      "giri_conscience_vote = 48",
+      "congress_split_1969 = syndicate_control + indira_left_programme + giri_conscience_vote"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "syndicate_control = 25",
+    "indira_left_programme = 28",
+    "giri_conscience_vote = 18.6",
+    "congress_split_1969 = syndicate_control + indira_left_programme + giri_conscience_vote"
+   ]
+  },
+  {
+   "id": "leps.205.6.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "positive_slogan = 53",
+      "pro_poor_programme = 98",
+      "cpi_alliance = 27",
+      "garibi_hatao_victory = positive_slogan + pro_poor_programme + cpi_alliance"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "positive_slogan = 34",
+      "pro_poor_programme = 19.2",
+      "cpi_alliance = 99",
+      "garibi_hatao_victory = positive_slogan + pro_poor_programme + cpi_alliance"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "positive_slogan = 70",
+      "pro_poor_programme = 89",
+      "cpi_alliance = 46",
+      "garibi_hatao_victory = positive_slogan + pro_poor_programme + cpi_alliance"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "positive_slogan = 94",
+      "pro_poor_programme = 59",
+      "cpi_alliance = 40",
+      "garibi_hatao_victory = positive_slogan + pro_poor_programme + cpi_alliance"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "positive_slogan = 2.1",
+      "pro_poor_programme = 24",
+      "cpi_alliance = 50",
+      "garibi_hatao_victory = positive_slogan + pro_poor_programme + cpi_alliance"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "positive_slogan = 65",
+      "pro_poor_programme = 6.9",
+      "cpi_alliance = 6.8",
+      "garibi_hatao_victory = positive_slogan + pro_poor_programme + cpi_alliance"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "positive_slogan = 53",
+    "pro_poor_programme = 98",
+    "cpi_alliance = 27",
+    "garibi_hatao_victory = positive_slogan + pro_poor_programme + cpi_alliance"
+   ]
+  }
+ ]
+}

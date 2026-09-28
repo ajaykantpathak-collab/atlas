@@ -1,0 +1,334 @@
+{
+ "catalog": "catalog_class12_economics_ch118.json",
+ "concepts": [
+  {
+   "id": "lekl.118.1",
+   "title": "Nature of Verse and Poetry",
+   "converted_to_compute": true,
+   "formula": "impact = meaning + sound + rhythm",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "impact = meaning + sound + rhythm",
+     "compute": "impact = meaning + sound + rhythm"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Nature of Verse and Poetry: given meaning = 65, sound = 52, rhythm = 57, find impact.",
+     "a": "174",
+     "self_check": false
+    },
+    {
+     "q": "For Nature of Verse and Poetry: given meaning = 7.3, sound = 63, rhythm = 11, find impact.",
+     "a": "81.3",
+     "self_check": false
+    },
+    {
+     "q": "For Nature of Verse and Poetry: given meaning = 83, sound = 39, rhythm = 89, find impact.",
+     "a": "211",
+     "self_check": false
+    },
+    {
+     "q": "For Nature of Verse and Poetry: given meaning = 69, sound = 41, rhythm = 93, find impact.",
+     "a": "203",
+     "self_check": false
+    },
+    {
+     "q": "For Nature of Verse and Poetry: given meaning = 4.9, sound = 53, rhythm = 84, find impact.",
+     "a": "141.9",
+     "self_check": false
+    },
+    {
+     "q": "For Nature of Verse and Poetry: given meaning = 88, sound = 10.3, rhythm = 55, find impact.",
+     "a": "153.3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lekl.118.2",
+   "title": "Metaphysical Poetry Characteristics",
+   "converted_to_compute": true,
+   "formula": "metaphysical_effect = intellect + startling_imagery",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "metaphysical_effect = intellect + startling_imagery",
+     "compute": "metaphysical_effect = intellect + startling_imagery"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Metaphysical Poetry Characteristics: given intellect = 87, startling_imagery = 25, find metaphysical effect.",
+     "a": "112",
+     "self_check": false
+    },
+    {
+     "q": "For Metaphysical Poetry Characteristics: given intellect = 65, startling_imagery = 62, find metaphysical effect.",
+     "a": "127",
+     "self_check": false
+    },
+    {
+     "q": "For Metaphysical Poetry Characteristics: given intellect = 80, startling_imagery = 73, find metaphysical effect.",
+     "a": "153",
+     "self_check": false
+    },
+    {
+     "q": "For Metaphysical Poetry Characteristics: given intellect = 85, startling_imagery = 67, find metaphysical effect.",
+     "a": "152",
+     "self_check": false
+    },
+    {
+     "q": "For Metaphysical Poetry Characteristics: given intellect = 15.3, startling_imagery = 83, find metaphysical effect.",
+     "a": "98.3",
+     "self_check": false
+    },
+    {
+     "q": "For Metaphysical Poetry Characteristics: given intellect = 22, startling_imagery = 44, find metaphysical effect.",
+     "a": "66",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lekl.118.5",
+   "title": "Etymological Analysis",
+   "converted_to_compute": true,
+   "formula": "word_history = origin + derivation + usage_period",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "word_history = origin + derivation + usage_period",
+     "compute": "word_history = origin + derivation + usage_period"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Etymological Analysis: given origin = 96, derivation = 85, usage_period = 50, find word history.",
+     "a": "231",
+     "self_check": false
+    },
+    {
+     "q": "For Etymological Analysis: given origin = 2.7, derivation = 5.4, usage_period = 4.1, find word history.",
+     "a": "12.2",
+     "self_check": false
+    },
+    {
+     "q": "For Etymological Analysis: given origin = 15.6, derivation = 9.1, usage_period = 50, find word history.",
+     "a": "74.7",
+     "self_check": false
+    },
+    {
+     "q": "For Etymological Analysis: given origin = 18.3, derivation = 10.8, usage_period = 39, find word history.",
+     "a": "68.1",
+     "self_check": false
+    },
+    {
+     "q": "For Etymological Analysis: given origin = 56, derivation = 74, usage_period = 47, find word history.",
+     "a": "177",
+     "self_check": false
+    },
+    {
+     "q": "For Etymological Analysis: given origin = 27, derivation = 72, usage_period = 29, find word history.",
+     "a": "128",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lekl.118.6",
+   "title": "Contrary States of the Human Soul",
+   "converted_to_compute": true,
+   "formula": "human_condition = innocence + experience",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "human_condition = innocence + experience",
+     "compute": "human_condition = innocence + experience"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Contrary States of the Human Soul: given innocence = 2.9, experience = 35, find human condition.",
+     "a": "37.9",
+     "self_check": false
+    },
+    {
+     "q": "For Contrary States of the Human Soul: given innocence = 73, experience = 66, find human condition.",
+     "a": "139",
+     "self_check": false
+    },
+    {
+     "q": "For Contrary States of the Human Soul: given innocence = 18.6, experience = 97, find human condition.",
+     "a": "115.6",
+     "self_check": false
+    },
+    {
+     "q": "For Contrary States of the Human Soul: given innocence = 0.8, experience = 22, find human condition.",
+     "a": "22.8",
+     "self_check": false
+    },
+    {
+     "q": "For Contrary States of the Human Soul: given innocence = 40, experience = 1.1, find human condition.",
+     "a": "41.1",
+     "self_check": false
+    },
+    {
+     "q": "For Contrary States of the Human Soul: given innocence = 33, experience = 52, find human condition.",
+     "a": "85",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lekl.118.7",
+   "title": "Poetic Metre and Syllable Count",
+   "converted_to_compute": true,
+   "formula": "total_syllables = feet * 2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_syllables = feet * 2",
+     "compute": "total_syllables = feet * 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Poetic Metre and Syllable Count: given feet = 59, find total syllables.",
+     "a": "118",
+     "self_check": false
+    },
+    {
+     "q": "For Poetic Metre and Syllable Count: given feet = 10.4, find total syllables.",
+     "a": "20.8",
+     "self_check": false
+    },
+    {
+     "q": "For Poetic Metre and Syllable Count: given feet = 33, find total syllables.",
+     "a": "66",
+     "self_check": false
+    },
+    {
+     "q": "For Poetic Metre and Syllable Count: given feet = 29, find total syllables.",
+     "a": "58",
+     "self_check": false
+    },
+    {
+     "q": "For Poetic Metre and Syllable Count: given feet = 27, find total syllables.",
+     "a": "54",
+     "self_check": false
+    },
+    {
+     "q": "For Poetic Metre and Syllable Count: given feet = 7.7, find total syllables.",
+     "a": "15.4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lekl.118.9",
+   "title": "Symbolism of Permanence vs. Change",
+   "converted_to_compute": true,
+   "formula": "contrast = human_aging / swan_constancy",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "contrast = human_aging / swan_constancy",
+     "compute": "contrast = human_aging / swan_constancy"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Symbolism of Permanence vs. Change: given human_aging = 0.9, swan_constancy = 0.5, find contrast.",
+     "a": "1.8",
+     "self_check": false
+    },
+    {
+     "q": "For Symbolism of Permanence vs. Change: given human_aging = 14.4, swan_constancy = 4.3, find contrast.",
+     "a": "3.34884",
+     "self_check": false
+    },
+    {
+     "q": "For Symbolism of Permanence vs. Change: given human_aging = 12.4, swan_constancy = 15.7, find contrast.",
+     "a": "0.789809",
+     "self_check": false
+    },
+    {
+     "q": "For Symbolism of Permanence vs. Change: given human_aging = 2.1, swan_constancy = 4.5, find contrast.",
+     "a": "0.466667",
+     "self_check": false
+    },
+    {
+     "q": "For Symbolism of Permanence vs. Change: given human_aging = 0.2, swan_constancy = 12.7, find contrast.",
+     "a": "0.015748",
+     "self_check": false
+    },
+    {
+     "q": "For Symbolism of Permanence vs. Change: given human_aging = 6.6, swan_constancy = 5.2, find contrast.",
+     "a": "1.26923",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lekl.118.10",
+   "title": "Communal Harmony and Urban Time",
+   "converted_to_compute": true,
+   "formula": "urban_discord = clock_discrepancy + communal_feuds",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "urban_discord = clock_discrepancy + communal_feuds",
+     "compute": "urban_discord = clock_discrepancy + communal_feuds"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Communal Harmony and Urban Time: given clock_discrepancy = 5.5, communal_feuds = 99, find urban discord.",
+     "a": "104.5",
+     "self_check": false
+    },
+    {
+     "q": "For Communal Harmony and Urban Time: given clock_discrepancy = 3.9, communal_feuds = 42, find urban discord.",
+     "a": "45.9",
+     "self_check": false
+    },
+    {
+     "q": "For Communal Harmony and Urban Time: given clock_discrepancy = 12, communal_feuds = 12, find urban discord.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "For Communal Harmony and Urban Time: given clock_discrepancy = 98, communal_feuds = 15.1, find urban discord.",
+     "a": "113.1",
+     "self_check": false
+    },
+    {
+     "q": "For Communal Harmony and Urban Time: given clock_discrepancy = 53, communal_feuds = 10.1, find urban discord.",
+     "a": "63.1",
+     "self_check": false
+    },
+    {
+     "q": "For Communal Harmony and Urban Time: given clock_discrepancy = 70, communal_feuds = 62, find urban discord.",
+     "a": "132",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

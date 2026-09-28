@@ -22,7 +22,7 @@
     "examples of solid shapes",
     "classify as 2-D or 3-D"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -39,7 +39,16 @@
      "action": "verify with examples",
      "explain": "Match against known examples: circle/square/rectangle = 2-D, cube/cuboid/sphere/cylinder = 3-D"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the features or use Euler's relation",
+     "explain": "count the features or use Euler's relation: edges = 12 gives 12",
+     "compute": "edges = 12"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m13.2.1",
@@ -59,7 +68,7 @@
     "faces of pyramid",
     "faces of cube"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -76,7 +85,16 @@
      "action": "count corners",
      "explain": "Each corner is a vertex"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the solid's surface area or volume formula",
+     "explain": "apply the solid's surface area or volume formula: vol = 5 * 9 * 8 gives 360",
+     "compute": "vol = 5 * 9 * 8"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m13.3.1",
@@ -97,7 +115,7 @@
     "two correct nets for tetrahedron",
     "dice nets opposite faces total 7"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -119,7 +137,16 @@
      "action": "for dice",
      "explain": "Opposite faces must sum to 7"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the features or use Euler's relation",
+     "explain": "count the features or use Euler's relation: edges = 18 gives 18",
+     "compute": "edges = 18"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m13.4.1",
@@ -136,7 +163,7 @@
     "oblique sketch of cube",
     "draw solid on paper"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -158,7 +185,16 @@
      "action": "show hidden edges",
      "explain": "Use dotted lines for hidden edges"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 4 / 2 gives 2",
+     "compute": "t1 = 4 / 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m13.4.2",
@@ -176,7 +212,7 @@
     "use isometric dot paper",
     "draw three different isometric sketches"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -198,7 +234,16 @@
      "action": "connect",
      "explain": "Connect matching corners to complete"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 12 / 3 gives 4",
+     "compute": "t1 = 12 / 3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m13.4.3",
@@ -251,7 +296,7 @@
     "cross-section of ice cream cone",
     "cross-section of die"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -268,7 +313,16 @@
      "action": "verify with known cases",
      "explain": "Vertical cut of brick = rectangle, horizontal cut of apple = circle, cut of circular pipe = circle"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the features or use Euler's relation",
+     "explain": "count the features or use Euler's relation: edges = 18 gives 18",
+     "compute": "edges = 18"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m13.5.2",
@@ -288,7 +342,7 @@
     "can cube cast rectangle shadow",
     "can cube cast hexagon shadow"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -305,7 +359,16 @@
      "action": "consider positions",
      "explain": "Different positions of light give different shadows"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the features or use Euler's relation",
+     "explain": "count the features or use Euler's relation: edges = 8 gives 8",
+     "compute": "edges = 8"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m13.5.3",
@@ -324,7 +387,7 @@
     "view from direction indicated by arrow",
     "different views of solid"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -341,7 +404,16 @@
      "action": "look from above",
      "explain": "Look from top to get top view"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the features or use Euler's relation",
+     "explain": "count the features or use Euler's relation: edges = 18 gives 18",
+     "compute": "edges = 18"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

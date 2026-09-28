@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_06_004",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_06_004",
+   "title": "c11_leg_cbse_06_004",
+   "questions": [
+    {
+     "q": "What is the constitutional distinction between a 'Bill' and an 'Act' in the Indian legislative process, and at which specific stage does the President's assent become mandatory?",
+     "a": "A Bill is a draft statute; it becomes an Act only after passage by both Houses of Parliament (or one House for Money Bills) **and** assent by the President under Article 111. The President's assent is mandatory *after* legislative passage but *before* it becomes law. A wrong answer (e.g., \"Bill becomes Act after Lok Sabha passes it\") reveals confusion between legislative passage and constitutional enactment — a critical procedural distinction for understanding when a law is enforceable.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Supreme Court struck down Section 66A of the IT Act, 2000 in *Shreya Singhal v. Union of India* (2015), linking the procedural defect in the *legislative drafting* to the violation of a *fundamental right*.",
+     "a": "The Court struck it down because terms like \"grossly offensive\" and \"menacing information\" were **undefined in the statute** (legislative drafting defect), granting unguided discretion to the executive (police), which led to arbitrary arrests violating Article 19(1)(a). The procedural flaw — vague legislation — enabled executive overreach, which the judiciary checked via judicial review. A wrong answer focusing only on \"free speech\" without linking to *undefined legislative language* misses the procedural jurisprudence: **how a law is written determines how it is enforced.**",
+     "self_check": true
+    },
+    {
+     "q": "A new law empowers the Central Government to make rules for \"regulating online content.\" The Government issues a rule requiring all social media platforms to remove \"anti-national content\" within 24 hours, without defining the term. A platform challenges this rule. Trace the *exact procedural path* this challenge would take through the judicial process, naming the specific writ, court, and constitutional article.",
+     "a": "The platform would file a **writ petition under Article 226** before the **High Court** (or Article 32 before Supreme Court) seeking **certiorari** (to quash the rule) and **mandamus** (to restrain enforcement). The challenge is based on **delegated legislation exceeding parent Act** (ultra vires) and **violation of Article 14 (arbitrariness) and 19(1)(a)**. Steps: (1) Identify the rule as subordinate legislation under Sec 87 IT Act; (2) Check if \"anti-national content\" is defined in parent Act — it is not; (3) Conclude rule is vague → arbitrary → ultra vires; (4) Invoke writ jurisdiction. A wrong answer citing \"appeal\" or \"district court\" reveals confusion between *original writ jurisdiction* (constitutional remedy) and *appellate jurisdiction* (statutory remedy).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the legislative process for an **Ordinary Bill** vs a **Money Bill** in India. Why does the Constitution impose stricter procedural constraints on Money Bills (Art 109-110)? Analyze the democratic principle underlying this asymmetry.",
+     "a": "**Ordinary Bill**: Can originate in either House; Rajya Sabha can amend/reject; deadlock resolved by joint sitting (Art 108). **Money Bill**: Only in Lok Sabha; Rajya Sabha *only recommends* (cannot amend/reject); Lok Sabha may accept/reject recommendations; no joint sitting; President *must* assent (cannot return). The asymmetry exists because **taxation/expenditure directly affects citizens' pockets** — the directly elected House (Lok Sabha) must control the purse. This embodies the principle: **\"No taxation without representation\"** — procedural design ensures financial accountability to the people's representatives. A wrong answer listing steps without the *principle* misses the jurisprudential rationale.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Judicial precedent in India is a source of law *only* because the Constitution says so.\" Use the hierarchy of courts, the doctrine of *stare decisis*, and the distinction between *ratio decidendi* and *obiter dicta* to justify your position.",
+     "a": "**False.** Judicial precedent is a source of law due to **common law tradition** (British legacy), *recognized and structured* by the Constitution (Art 141: SC law binding on all courts; Art 227: HC supervisory power). The Constitution did not *create* precedent — it *constitutionalized* the existing common law hierarchy. *Ratio decidendi* (binding principle) creates law; *obiter dicta* (persuasive only) does not. The Supreme Court is *not bound by its own decisions* (unlike rigid stare decisis), allowing evolution. A wrong answer claiming \"Constitution creates precedent\" confuses *source* with *framework* — a jurisprudential category error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a **flowchart** (describe in text) showing the complete lifecycle of a **delegated legislation** (e.g., IT Rules, 2021) from enabling Act to judicial review, including: parliamentary oversight, executive drafting, publication, laying before Parliament, and grounds for challenge. Label each stage with the *constitutional/provisional authority*.",
+     "a": "**Flowchart (text):**\n1. **Parent Act passed** (e.g., IT Act, 2000, Sec 87) — *Art 245-246, Schedule VII* (Legislative competence)\n2. **Executive drafts Rules** — *Delegated legislative power* (Sec 87)\n3. **Rules published in Official Gazette** — *General Clauses Act, Sec 23* (Commencement)\n4. **Laid before each House of Parliament** — *Art 13(3)(a), Sec 87(2) IT Act* (Parliamentary control: 30 sitting days)\n5. **Parliament may modify/annul** — *Art 13(3)(a)* (Negative control)\n6. **Rule in force** — *Unless annulled/modified*\n7. **Challenge in High Court (Art 226) / SC (Art 32)** — *Grounds: Ultra vires parent Act, violation of fundamental rights, excessive delegation, non-compliance with laying procedure*\nA poor answer omits **laying before Parliament** or **grounds for challenge** — revealing ignorance of the *procedural safeguards* that legitimize delegated legislation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

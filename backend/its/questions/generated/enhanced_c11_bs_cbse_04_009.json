@@ -34,6 +34,36 @@
      "q": "Design a multi-modal transport plan for exporting 20 tonnes of Alphonso mangoes from Ratnagiri (Maharashtra) to London (UK). The mangoes have a shelf life of 10 days from harvest. Specify the mode for each leg, the transfer points, and the critical supporting services required at each transfer. Justify why a single mode cannot work.",
      "a": "Leg 1: Ratnagiri to Mumbai (JNPT) — refrigerated road truck (flexibility, door-to-port, short distance). Leg 2: Mumbai to London — air freight (speed essential for 10-day shelf life; sea takes 20+ days). Transfer at JNPT requires cold storage, customs clearance, phytosanitary certification, and palletization. Single mode fails: road cannot cross ocean; sea is too slow; air cannot pick up from farm. A good answer identifies the interdependence of modes and the role of auxiliary services (cold chain, documentation).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ in business refers to the physical movement of goods and passengers from one location to another using various modes such as rail, road, air, and sea, along with supporting services like loading, unloading, and documentation, to overcome the hindrance of place and enable exchange in the market.",
+     "a": "Transportation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small ______ in Delhi selling Kashmiri apples.",
+     "a": "business",
+     "self_check": true
+    },
+    {
+     "q": "What is Transportation in business? State the definition given in this lesson.",
+     "a": "Transportation in business refers to the physical movement of goods and passengers from one location to another using various modes such as rail, road, air, and sea, along with supporting services like loading, unloading, and documentation, to overcome the hindrance of place and enable exchange in the market.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The apples are harvested in Srinagar and must reach your Delhi store within ______ hours to stay fresh.",
+     "a": "48",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Transportation in business?",
+     "a": "Students often believe that \"fastest mode is always best\" or \"cheapest mode is always best.\" They treat modal choice as a single-factor decision (speed OR cost) rather than a multi-criteria optimization involving nature of goods (perishability, fragility, value, volume), distance, urgency, infrastructure availability, and reliability.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) classify the four primary modes of transport with their specific characteristics, (2) evaluate the suitability of each mode for a given business scenario based on cost, speed, capacity, and nature of goods, and (3) explain how transportation removes the hindrance of place and integrates with warehousing.",
+     "self_check": true
     }
    ]
   }

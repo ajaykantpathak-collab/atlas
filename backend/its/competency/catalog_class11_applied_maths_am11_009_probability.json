@@ -1,223 +1,378 @@
 {
-  "class": 11,
-  "subject": "applied_maths",
-  "chapter": 9,
-  "chapter_title": "Probability",
-  "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am11_009_probability.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "concepts": [
+ "class": 11,
+ "subject": "applied_maths",
+ "chapter": 9,
+ "chapter_title": "Probability",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am11_009_probability.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "am11_009.1",
+   "title": "Random Experiments and Sample Spaces",
+   "section": "9.2",
+   "definition": "A random experiment produces one of several outcomes that cannot be foretold in advance, and the sample space gathers every possible outcome; the same experiment can carry different sample spaces depending on what the observer chooses to record.",
+   "formula": "outcomes = 2**tosses",
+   "key_idea": "List the sample space once; every event is a subset of it.",
+   "textbook_ref": "am11_009_probability.txt, section 9.2, coin toss S = {head, tail}, three-coin sample space of 8 triples",
+   "question_patterns": [
+    "write the sample space for tossing a coin three times recording the order of heads and tails",
+    "a girl draws two coins one after another from a one rupee, two rupee and five rupee coin; specify the sample space",
+    "three bulbs are tested and each is defective or non defective; write the sample space",
+    "a coin is tossed and a head sends you to a bag of 7 balls while a tail sends you to a die; describe the sample space",
+    "how many outcomes does the experiment of tossing four coins have",
+    "give a practical experiment whose sample space is 0, 1, 2, 3 and so on"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "am11_009.1",
-      "title": "Random Experiments and Sample Spaces",
-      "section": "9.2",
-      "definition": "A random experiment produces one of several outcomes that cannot be foretold in advance, and the sample space gathers every possible outcome; the same experiment can carry different sample spaces depending on what the observer chooses to record.",
-      "formula": "outcomes = 2**tosses",
-      "key_idea": "List the sample space once; every event is a subset of it.",
-      "textbook_ref": "am11_009_probability.txt, section 9.2, coin toss S = {head, tail}, three-coin sample space of 8 triples",
-      "question_patterns": [
-        "write the sample space for tossing a coin three times recording the order of heads and tails",
-        "a girl draws two coins one after another from a one rupee, two rupee and five rupee coin; specify the sample space",
-        "three bulbs are tested and each is defective or non defective; write the sample space",
-        "a coin is tossed and a head sends you to a bag of 7 balls while a tail sends you to a die; describe the sample space",
-        "how many outcomes does the experiment of tossing four coins have",
-        "give a practical experiment whose sample space is 0, 1, 2, 3 and so on"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "identify what is recorded as one outcome", "explain": "a sequence, a count or a single label"},
-        {"step": 2, "action": "list every possible outcome once", "explain": "the collection is the sample space"},
-        {"step": 3, "action": "check nothing outside the list can occur", "explain": "the sample space is the universal set of the experiment"}
-      ]
+     "step": 1,
+     "action": "identify what is recorded as one outcome",
+     "explain": "a sequence, a count or a single label"
     },
     {
-      "id": "am11_009.2",
-      "title": "Probability of an Event and Its Complement",
-      "section": "9.3",
-      "definition": "For equally likely outcomes, the probability of an event divides the number of favourable outcomes by the total number of outcomes, and the probability of the negated event is one minus that value.",
-      "formula": "p_not = 1 - p_event",
-      "key_idea": "Favourable over total; whatever is missing from the event carries the complement.",
-      "textbook_ref": "am11_009_probability.txt, section 9.3, cards numbered 1 to 10 with A = {2, 4, 6, 8}, P(A) = 2/5",
-      "question_patterns": [
-        "a card drawn from ten cards numbered 1 to 10; find the probability it shows an even number",
-        "find the probability that the card drawn from 1 to 10 does not show an even number",
-        "a die is rolled once; what is the probability of getting a number greater than 4",
-        "a seed picked from a packet of 30 with 12 red, 8 yellow and 10 blue; find the probability of a red flower",
-        "an application is picked from 18 business, 15 debt consolidation and 17 economic opportunity loans; find the probability it is a business loan",
-        "state the formula for the probability of an event with equally likely outcomes"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "divide favourable outcomes by all outcomes", "explain": "equally likely assumption", "compute": "p_event = fav / total"},
-        {"step": 2, "action": "subtract from one for the complement", "explain": "event and its negation split the whole probability", "compute": "p_not = 1 - p_event"}
-      ]
+     "step": 2,
+     "action": "list every possible outcome once",
+     "explain": "the collection is the sample space"
     },
     {
-      "id": "am11_009.3",
-      "title": "Types of Events",
-      "section": "9.3",
-      "definition": "Events get named by how they relate: mutually exclusive events cannot share an outcome, exhaustive events cover the whole sample space together, independent events leave each other's probabilities unchanged, and events of probability zero or one are impossible or sure.",
-      "formula": "exhaustive = union equals sample space",
-      "key_idea": "Check the intersection for exclusivity, the union for exhaustiveness, and influence for independence.",
-      "textbook_ref": "am11_009_probability.txt, section 9.3, radar screens independent, seed colours mutually exclusive, covid status exhaustive",
-      "question_patterns": [
-        "are the events of a seed producing a red flower and a yellow flower mutually exclusive",
-        "give a real life example of two independent events and two dependent events",
-        "the events a person is covid positive and a person is not covid positive are what type",
-        "a student scoring 92 percent against a cutoff of 95 percent faces which kind of event for admission",
-        "when are two events called mutually exclusive and exhaustive",
-        "can two mutually exclusive events fail to be complements of each other"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "inspect the shared outcomes", "explain": "an empty intersection marks mutually exclusive events"},
-        {"step": 2, "action": "inspect the union", "explain": "covering the sample space marks exhaustive events"},
-        {"step": 3, "action": "ask whether one probability moves the other", "explain": "no influence means independence"},
-        {"step": 4, "action": "check the probability value itself", "explain": "zero is impossible, one is sure"}
-      ]
-    },
-    {
-      "id": "am11_009.4",
-      "title": "Conditional Probability",
-      "section": "9.4",
-      "definition": "Knowing that one event has occurred shrinks the sample space, and the probability of a second event inside that shrunken space equals the count favouring both events over the count favouring the given event.",
-      "formula": "p_cond = joint / p_given",
-      "key_idea": "Rescale within the given event; divide the overlap by the condition.",
-      "textbook_ref": "am11_009_probability.txt, section 9.4, three coins P(E|F) = 1/4, two children P(E|F) = 1/3, car buyers 0.5",
-      "question_patterns": [
-        "of 100 car buyers, 40 bought alarms, 30 bought bucket seats and 20 bought both; find the probability of bucket seats given an alarm purchase",
-        "a family has two children; find the probability both are boys given at least one is a boy",
-        "three fair coins are tossed; find the probability of at least two heads given the first coin shows a tail",
-        "state the formula for the conditional probability of E given F",
-        "41 percent of people own pets, 86 percent are male pet related data gives 0.41 and 0.86; find the probability a pet owner is male",
-        "when does the conditional probability formula P(E|F) become invalid"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "restrict to the outcomes of the given event", "explain": "the condition becomes the new sample space", "compute": "kept = total_cases - dropped"},
-        {"step": 2, "action": "divide the overlap by the restricted total", "explain": "conditional probability inside the shrunken space", "compute": "p_cond = fav / kept"}
-      ]
-    },
-    {
-      "id": "am11_009.5",
-      "title": "Independent Events and Combined Occurrence",
-      "section": "9.3-9.4",
-      "definition": "When two events do not influence each other, the chance of both occurring multiplies the separate chances; the chance that at least one occurs comes from one minus the chance that neither does.",
-      "formula": "p_at_least_one = 1 - p_none",
-      "key_idea": "Independent means multiply; at least one is the complement of none.",
-      "textbook_ref": "am11_009_probability.txt, section 9.3 radar screens with detection probabilities 0.9 and 0.85",
-      "question_patterns": [
-        "two radar screens detect a missile with probabilities 0.9 and 0.85; find the probability both detect it",
-        "for the two radar screens find the probability that at least one screen detects the missile",
-        "state the multiplication rule for independent events",
-        "two coins are tossed; find the probability of two heads",
-        "if neither screen spots the missile with probability 0.015, what is the probability of at least one detection"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "multiply the failure chances", "explain": "independence lets none-occurrence multiply", "compute": "p_none = (1 - p_e) * (1 - p_f)"},
-        {"step": 2, "action": "subtract from one", "explain": "at least one is the complement of none", "compute": "p_at_least_one = 1 - p_none"},
-        {"step": 3, "action": "multiply for joint occurrence", "explain": "both occurring uses the direct product", "compute": "p_both = p_e * p_f"}
-      ]
-    },
-    {
-      "id": "am11_009.6",
-      "title": "Theorem of Total Probability",
-      "section": "9.5",
-      "definition": "When disjoint scenario events partition the sample space, the probability of any outcome totals the scenario probabilities weighted by the outcome's conditional chance in each scenario.",
-      "formula": "p_total = p_a1 * p_b_a1 + p_a2 * p_b_a2",
-      "key_idea": "Split by scenarios, weight each branch, then add the branches.",
-      "textbook_ref": "am11_009_probability.txt, section 9.5, construction job with strike probability 0.65 giving P(A) = 0.488",
-      "question_patterns": [
-        "a construction job has strike probability 0.65, completion 0.32 with strike and 0.80 without; find the probability of on time completion",
-        "80 percent see a doctor regularly and 35 percent of them stay healthy; of the rest only 5 percent stay healthy; find the probability of a healthy year",
-        "a courier sends 30 percent by air, 50 percent by bus and 20 percent by train with late rates 2, 7 and 5 percent; find the probability of a late delivery",
-        "state the theorem of total probability for a partition of the sample space",
-        "battery 0.4, no petrol 0.3, flooded 0.1, other 0.2 with start probabilities 0.3, 0, 0.8, 0.5; find the probability the car starts",
-        "what is a partition of a sample space"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "weight the first scenario", "explain": "scenario probability times conditional chance", "compute": "branch1 = p_a1 * p_b_a1"},
-        {"step": 2, "action": "weight the second scenario", "explain": "complementary scenario contributes its branch", "compute": "branch2 = p_a2 * p_b_a2"},
-        {"step": 3, "action": "add the weighted branches", "explain": "the branches are disjoint, so their weights add", "compute": "p_total = branch1 + branch2"}
-      ]
-    },
-    {
-      "id": "am11_009.7",
-      "title": "Bayes Theorem and Posterior Probability",
-      "section": "9.6",
-      "definition": "Bayes theorem reverses the conditioning: after evidence is observed, each hypothesis is re-weighed by multiplying its prior probability with the likelihood of the evidence, divided by the overall probability of the evidence.",
-      "formula": "posterior = prior * likelihood / evidence",
-      "key_idea": "Prior times likelihood over total evidence turns a prior into a posterior.",
-      "textbook_ref": "am11_009_probability.txt, section 9.6, liver disease example 0.14, bulb units 28/69, car repair battery 0.4",
-      "question_patterns": [
-        "units A, B, C make 25, 35 and 40 percent of bulbs with defect rates 5, 4 and 2 percent; a bulb is defective, find the probability it came from unit B",
-        "10 percent of patients have liver disease, 5 percent are alcoholics and 7 percent of the diseased are alcoholics; find the probability of disease given alcoholism",
-        "a bank reviews a defaulted loan drawn from personal, education, housing and car loans; find the probability it was a car loan",
-        "a car that started after instructions was diagnosed; find the probability the trouble was the battery",
-        "a blood test detects disease 99 percent of the time with 0.5 percent false positives and 0.2 percent prevalence; find the probability of disease given a positive test",
-        "distinguish prior probability from posterior probability"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "weight each hypothesis by its likelihood of the evidence", "explain": "prior times conditional chance per unit", "compute": "w1 = p_b1 * p_e_b1"},
-        {"step": 2, "action": "weight the remaining hypotheses", "explain": "the other units contribute their own weights", "compute": "w23 = p_b2 * p_e_b2 + p_b3 * p_e_b3"},
-        {"step": 3, "action": "total the evidence probability", "explain": "sum of all weighted branches", "compute": "evidence = w1 + w23"},
-        {"step": 4, "action": "divide the target weight by the evidence", "explain": "posterior probability of the target hypothesis", "compute": "posterior = w2 / evidence"}
-      ]
+     "step": 3,
+     "action": "check nothing outside the list can occur",
+     "explain": "the sample space is the universal set of the experiment"
     }
-  ],
-  "worked_examples": [
+   ],
+   "compute_steps": [
     {
-      "id": "am11_009.we1",
-      "source_ref": "am11_009 section 9.5 construction job illustration",
-      "concept": "am11_009.6",
-      "question_type": "compute",
-      "question_pattern": "with strike probability 0.65 and completion chances 0.32 with strike and 0.80 without, find the probability the job finishes on time",
-      "extracted_variables": {"p_b": 0.65, "p_a_b": 0.32, "p_a_nb": 0.80},
-      "solution_template": [
-        {"step": 1, "action": "complement the strike chance", "compute": "p_nb = 1 - p_b"},
-        {"step": 2, "action": "weight both scenarios", "compute": "branch1 = p_b * p_a_b"},
-        {"step": 3, "action": "add the no strike branch", "compute": "p_total = branch1 + p_nb * p_a_nb"}
-      ]
+     "step": 1,
+     "action": "divide favourable outcomes by total outcomes",
+     "explain": "divide favourable outcomes by total outcomes: p = 2 / 6 gives 0.333333",
+     "compute": "p = 2 / 6"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "am11_009.2",
+   "title": "Probability of an Event and Its Complement",
+   "section": "9.3",
+   "definition": "For equally likely outcomes, the probability of an event divides the number of favourable outcomes by the total number of outcomes, and the probability of the negated event is one minus that value.",
+   "formula": "p_not = 1 - p_event",
+   "key_idea": "Favourable over total; whatever is missing from the event carries the complement.",
+   "textbook_ref": "am11_009_probability.txt, section 9.3, cards numbered 1 to 10 with A = {2, 4, 6, 8}, P(A) = 2/5",
+   "question_patterns": [
+    "a card drawn from ten cards numbered 1 to 10; find the probability it shows an even number",
+    "find the probability that the card drawn from 1 to 10 does not show an even number",
+    "a die is rolled once; what is the probability of getting a number greater than 4",
+    "a seed picked from a packet of 30 with 12 red, 8 yellow and 10 blue; find the probability of a red flower",
+    "an application is picked from 18 business, 15 debt consolidation and 17 economic opportunity loans; find the probability it is a business loan",
+    "state the formula for the probability of an event with equally likely outcomes"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide favourable outcomes by all outcomes",
+     "explain": "equally likely assumption",
+     "compute": "p_event = fav / total"
     },
     {
-      "id": "am11_009.we2",
-      "source_ref": "am11_009 check your progress 5 question 2, bulb factory",
-      "concept": "am11_009.7",
-      "question_type": "compute",
-      "question_pattern": "units A, B, C produce 25, 35, 40 percent of bulbs with defect rates 5, 4, 2 percent; a drawn bulb is defective, find the probability it came from B",
-      "extracted_variables": {"p_b1": 0.25, "p_b2": 0.35, "p_b3": 0.40, "p_e_b1": 0.05, "p_e_b2": 0.04, "p_e_b3": 0.02},
-      "solution_template": [
-        {"step": 1, "action": "weight each unit", "compute": "w1 = p_b1 * p_e_b1"},
-        {"step": 2, "action": "weight unit B", "compute": "w2 = p_b2 * p_e_b2"},
-        {"step": 3, "action": "weight unit C and total the evidence", "compute": "evidence = w1 + w2 + p_b3 * p_e_b3"},
-        {"step": 4, "action": "divide the B weight by the evidence", "compute": "posterior = w2 / evidence"}
-      ]
+     "step": 2,
+     "action": "subtract from one for the complement",
+     "explain": "event and its negation split the whole probability",
+     "compute": "p_not = 1 - p_event"
     }
-  ],
-  "exercises": [
+   ]
+  },
+  {
+   "id": "am11_009.3",
+   "title": "Types of Events",
+   "section": "9.3",
+   "definition": "Events get named by how they relate: mutually exclusive events cannot share an outcome, exhaustive events cover the whole sample space together, independent events leave each other's probabilities unchanged, and events of probability zero or one are impossible or sure.",
+   "formula": "exhaustive = union equals sample space",
+   "key_idea": "Check the intersection for exclusivity, the union for exhaustiveness, and influence for independence.",
+   "textbook_ref": "am11_009_probability.txt, section 9.3, radar screens independent, seed colours mutually exclusive, covid status exhaustive",
+   "question_patterns": [
+    "are the events of a seed producing a red flower and a yellow flower mutually exclusive",
+    "give a real life example of two independent events and two dependent events",
+    "the events a person is covid positive and a person is not covid positive are what type",
+    "a student scoring 92 percent against a cutoff of 95 percent faces which kind of event for admission",
+    "when are two events called mutually exclusive and exhaustive",
+    "can two mutually exclusive events fail to be complements of each other"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "am11_009.ex1",
-      "source_ref": "am11_009 exercise on Bayes theorem",
-      "questions": [
-        "A courier sends 30 percent by air, 50 percent by bus and 20 percent by train with late rates 2, 7 and 5 percent; find the probability of a late delivery and the probability the order went by train given it is late.",
-        "A blood test is 99 percent effective with 0.5 percent false positives and 0.2 percent prevalence; find the probability of disease given a positive test.",
-        "Two cards from a pack are lost and a card from the rest is a spade; find the probability both lost cards were spades.",
-        "Scooter, car and bus drivers are insured in ratio 4:5:3 with accident rates 0.7, 0.4 and 1.2 percent; find the probability an accident victim is a scooter driver.",
-        "A machine set up correctly 80 percent of the time makes 90 percent acceptable items, otherwise 50 percent; the first item is acceptable and the second unacceptable; find the probability the setup was wrong."
-      ]
+     "step": 1,
+     "action": "inspect the shared outcomes",
+     "explain": "an empty intersection marks mutually exclusive events"
     },
     {
-      "id": "am11_009.ex2",
-      "source_ref": "am11_009 check your progress 3 and 5",
-      "questions": [
-        "Of 100 car buyers, 40 took alarms, 30 took bucket seats and 20 took both; find the probability of bucket seats given an alarm purchase.",
-        "In the car repair diagnosis, find the probability the car starts when the manager's instructions are followed.",
-        "If the car started after the instructions, find the probability the trouble was the battery.",
-        "Write the sample space when three bulbs are classified defective or non defective.",
-        "Give one example each of impossible, sure, exhaustive and mutually exclusive events."
-      ]
+     "step": 2,
+     "action": "inspect the union",
+     "explain": "covering the sample space marks exhaustive events"
+    },
+    {
+     "step": 3,
+     "action": "ask whether one probability moves the other",
+     "explain": "no influence means independence"
+    },
+    {
+     "step": 4,
+     "action": "check the probability value itself",
+     "explain": "zero is impossible, one is sure"
     }
-  ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "divide favourable outcomes by total outcomes",
+     "explain": "divide favourable outcomes by total outcomes: p = 4 / 6 gives 0.666667",
+     "compute": "p = 4 / 6"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "am11_009.4",
+   "title": "Conditional Probability",
+   "section": "9.4",
+   "definition": "Knowing that one event has occurred shrinks the sample space, and the probability of a second event inside that shrunken space equals the count favouring both events over the count favouring the given event.",
+   "formula": "p_cond = joint / p_given",
+   "key_idea": "Rescale within the given event; divide the overlap by the condition.",
+   "textbook_ref": "am11_009_probability.txt, section 9.4, three coins P(E|F) = 1/4, two children P(E|F) = 1/3, car buyers 0.5",
+   "question_patterns": [
+    "of 100 car buyers, 40 bought alarms, 30 bought bucket seats and 20 bought both; find the probability of bucket seats given an alarm purchase",
+    "a family has two children; find the probability both are boys given at least one is a boy",
+    "three fair coins are tossed; find the probability of at least two heads given the first coin shows a tail",
+    "state the formula for the conditional probability of E given F",
+    "41 percent of people own pets, 86 percent are male pet related data gives 0.41 and 0.86; find the probability a pet owner is male",
+    "when does the conditional probability formula P(E|F) become invalid"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "restrict to the outcomes of the given event",
+     "explain": "the condition becomes the new sample space",
+     "compute": "kept = total_cases - dropped"
+    },
+    {
+     "step": 2,
+     "action": "divide the overlap by the restricted total",
+     "explain": "conditional probability inside the shrunken space",
+     "compute": "p_cond = fav / kept"
+    }
+   ]
+  },
+  {
+   "id": "am11_009.5",
+   "title": "Independent Events and Combined Occurrence",
+   "section": "9.3-9.4",
+   "definition": "When two events do not influence each other, the chance of both occurring multiplies the separate chances; the chance that at least one occurs comes from one minus the chance that neither does.",
+   "formula": "p_at_least_one = 1 - p_none",
+   "key_idea": "Independent means multiply; at least one is the complement of none.",
+   "textbook_ref": "am11_009_probability.txt, section 9.3 radar screens with detection probabilities 0.9 and 0.85",
+   "question_patterns": [
+    "two radar screens detect a missile with probabilities 0.9 and 0.85; find the probability both detect it",
+    "for the two radar screens find the probability that at least one screen detects the missile",
+    "state the multiplication rule for independent events",
+    "two coins are tossed; find the probability of two heads",
+    "if neither screen spots the missile with probability 0.015, what is the probability of at least one detection"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the failure chances",
+     "explain": "independence lets none-occurrence multiply",
+     "compute": "p_none = (1 - p_e) * (1 - p_f)"
+    },
+    {
+     "step": 2,
+     "action": "subtract from one",
+     "explain": "at least one is the complement of none",
+     "compute": "p_at_least_one = 1 - p_none"
+    },
+    {
+     "step": 3,
+     "action": "multiply for joint occurrence",
+     "explain": "both occurring uses the direct product",
+     "compute": "p_both = p_e * p_f"
+    }
+   ]
+  },
+  {
+   "id": "am11_009.6",
+   "title": "Theorem of Total Probability",
+   "section": "9.5",
+   "definition": "When disjoint scenario events partition the sample space, the probability of any outcome totals the scenario probabilities weighted by the outcome's conditional chance in each scenario.",
+   "formula": "p_total = p_a1 * p_b_a1 + p_a2 * p_b_a2",
+   "key_idea": "Split by scenarios, weight each branch, then add the branches.",
+   "textbook_ref": "am11_009_probability.txt, section 9.5, construction job with strike probability 0.65 giving P(A) = 0.488",
+   "question_patterns": [
+    "a construction job has strike probability 0.65, completion 0.32 with strike and 0.80 without; find the probability of on time completion",
+    "80 percent see a doctor regularly and 35 percent of them stay healthy; of the rest only 5 percent stay healthy; find the probability of a healthy year",
+    "a courier sends 30 percent by air, 50 percent by bus and 20 percent by train with late rates 2, 7 and 5 percent; find the probability of a late delivery",
+    "state the theorem of total probability for a partition of the sample space",
+    "battery 0.4, no petrol 0.3, flooded 0.1, other 0.2 with start probabilities 0.3, 0, 0.8, 0.5; find the probability the car starts",
+    "what is a partition of a sample space"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "weight the first scenario",
+     "explain": "scenario probability times conditional chance",
+     "compute": "branch1 = p_a1 * p_b_a1"
+    },
+    {
+     "step": 2,
+     "action": "weight the second scenario",
+     "explain": "complementary scenario contributes its branch",
+     "compute": "branch2 = p_a2 * p_b_a2"
+    },
+    {
+     "step": 3,
+     "action": "add the weighted branches",
+     "explain": "the branches are disjoint, so their weights add",
+     "compute": "p_total = branch1 + branch2"
+    }
+   ]
+  },
+  {
+   "id": "am11_009.7",
+   "title": "Bayes Theorem and Posterior Probability",
+   "section": "9.6",
+   "definition": "Bayes theorem reverses the conditioning: after evidence is observed, each hypothesis is re-weighed by multiplying its prior probability with the likelihood of the evidence, divided by the overall probability of the evidence.",
+   "formula": "posterior = prior * likelihood / evidence",
+   "key_idea": "Prior times likelihood over total evidence turns a prior into a posterior.",
+   "textbook_ref": "am11_009_probability.txt, section 9.6, liver disease example 0.14, bulb units 28/69, car repair battery 0.4",
+   "question_patterns": [
+    "units A, B, C make 25, 35 and 40 percent of bulbs with defect rates 5, 4 and 2 percent; a bulb is defective, find the probability it came from unit B",
+    "10 percent of patients have liver disease, 5 percent are alcoholics and 7 percent of the diseased are alcoholics; find the probability of disease given alcoholism",
+    "a bank reviews a defaulted loan drawn from personal, education, housing and car loans; find the probability it was a car loan",
+    "a car that started after instructions was diagnosed; find the probability the trouble was the battery",
+    "a blood test detects disease 99 percent of the time with 0.5 percent false positives and 0.2 percent prevalence; find the probability of disease given a positive test",
+    "distinguish prior probability from posterior probability"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "weight each hypothesis by its likelihood of the evidence",
+     "explain": "prior times conditional chance per unit",
+     "compute": "w1 = p_b1 * p_e_b1"
+    },
+    {
+     "step": 2,
+     "action": "weight the remaining hypotheses",
+     "explain": "the other units contribute their own weights",
+     "compute": "w23 = p_b2 * p_e_b2 + p_b3 * p_e_b3"
+    },
+    {
+     "step": 3,
+     "action": "total the evidence probability",
+     "explain": "sum of all weighted branches",
+     "compute": "evidence = w1 + w23"
+    },
+    {
+     "step": 4,
+     "action": "divide the target weight by the evidence",
+     "explain": "posterior probability of the target hypothesis",
+     "compute": "posterior = w2 / evidence"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "am11_009.we1",
+   "source_ref": "am11_009 section 9.5 construction job illustration",
+   "concept": "am11_009.6",
+   "question_type": "compute",
+   "question_pattern": "with strike probability 0.65 and completion chances 0.32 with strike and 0.80 without, find the probability the job finishes on time",
+   "extracted_variables": {
+    "p_b": 0.65,
+    "p_a_b": 0.32,
+    "p_a_nb": 0.8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "complement the strike chance",
+     "compute": "p_nb = 1 - p_b"
+    },
+    {
+     "step": 2,
+     "action": "weight both scenarios",
+     "compute": "branch1 = p_b * p_a_b"
+    },
+    {
+     "step": 3,
+     "action": "add the no strike branch",
+     "compute": "p_total = branch1 + p_nb * p_a_nb"
+    }
+   ]
+  },
+  {
+   "id": "am11_009.we2",
+   "source_ref": "am11_009 check your progress 5 question 2, bulb factory",
+   "concept": "am11_009.7",
+   "question_type": "compute",
+   "question_pattern": "units A, B, C produce 25, 35, 40 percent of bulbs with defect rates 5, 4, 2 percent; a drawn bulb is defective, find the probability it came from B",
+   "extracted_variables": {
+    "p_b1": 0.25,
+    "p_b2": 0.35,
+    "p_b3": 0.4,
+    "p_e_b1": 0.05,
+    "p_e_b2": 0.04,
+    "p_e_b3": 0.02
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "weight each unit",
+     "compute": "w1 = p_b1 * p_e_b1"
+    },
+    {
+     "step": 2,
+     "action": "weight unit B",
+     "compute": "w2 = p_b2 * p_e_b2"
+    },
+    {
+     "step": 3,
+     "action": "weight unit C and total the evidence",
+     "compute": "evidence = w1 + w2 + p_b3 * p_e_b3"
+    },
+    {
+     "step": 4,
+     "action": "divide the B weight by the evidence",
+     "compute": "posterior = w2 / evidence"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "am11_009.ex1",
+   "source_ref": "am11_009 exercise on Bayes theorem",
+   "questions": [
+    "A courier sends 30 percent by air, 50 percent by bus and 20 percent by train with late rates 2, 7 and 5 percent; find the probability of a late delivery and the probability the order went by train given it is late.",
+    "A blood test is 99 percent effective with 0.5 percent false positives and 0.2 percent prevalence; find the probability of disease given a positive test.",
+    "Two cards from a pack are lost and a card from the rest is a spade; find the probability both lost cards were spades.",
+    "Scooter, car and bus drivers are insured in ratio 4:5:3 with accident rates 0.7, 0.4 and 1.2 percent; find the probability an accident victim is a scooter driver.",
+    "A machine set up correctly 80 percent of the time makes 90 percent acceptable items, otherwise 50 percent; the first item is acceptable and the second unacceptable; find the probability the setup was wrong."
+   ]
+  },
+  {
+   "id": "am11_009.ex2",
+   "source_ref": "am11_009 check your progress 3 and 5",
+   "questions": [
+    "Of 100 car buyers, 40 took alarms, 30 took bucket seats and 20 took both; find the probability of bucket seats given an alarm purchase.",
+    "In the car repair diagnosis, find the probability the car starts when the manager's instructions are followed.",
+    "If the car started after the instructions, find the probability the trouble was the battery.",
+    "Write the sample space when three bulbs are classified defective or non defective.",
+    "Give one example each of impossible, sure, exhaustive and mutually exclusive events."
+   ]
+  }
+ ]
 }

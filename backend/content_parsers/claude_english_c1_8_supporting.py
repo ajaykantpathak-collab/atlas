@@ -1,3 +1,4 @@
+import os
 """
 Generate supporting English files for CISCE Classes 1-8.
 
@@ -26,8 +27,8 @@ from collections import defaultdict
 
 # ─── Config (same keys as cbse_prereqs_pipeline_v2.py) ───
 API_KEYS = [
-    "sk-ant-co-QsK1rhxdfRWZ65OJ5cVxaAZ5ISNUY0lK",   # key 0 — 5 workers
-    "sk-ant-co-gIEUzRWw_mtUpxKk668B1lzJe3XntCna",    # key 1 — 10 workers
+    os.environ.get('ANTHROPIC_API_KEY') or '',   # key 0 — 5 workers
+    os.environ.get('ANTHROPIC_API_KEY') or '',    # key 1 — 10 workers
 ]
 API_URL = "https://api.claudeopus.pro/v1/messages"
 MODEL = "claude-opus-5"

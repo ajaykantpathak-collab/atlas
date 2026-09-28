@@ -21,7 +21,7 @@
      "self_check": true
     },
     {
-     "q": "Compare the following two snippets and state which is more appropriate and why:\n```python",
+     "q": "Compare the following two snippets and state which is more appropriate and why:\n```python\n# Snippet A\ndef square(x):\n    return x * x\nresult = list(map(square, range(5)))\n\n# Snippet B\nresult = list(map(lambda x: x * x, range(5)))\n```",
      "a": "Snippet B is more appropriate for a simple, one‑off transformation because it avoids polluting the namespace with a named function. Snippet A is better if the function is reused, needs documentation, or contains complex logic. A student who insists Snippet A is always better misses the purpose of lambdas as lightweight, inline functions.",
      "self_check": true
     },
@@ -33,6 +33,26 @@
     {
      "q": "Design a lambda function that, given a string, returns the string reversed and converted to uppercase. Then show how to apply it to a list of strings using `map`.",
      "a": "`lambda s: s[::-1].upper()`  \nApplication: `list(map(lambda s: s[::-1].upper(), ['hello', 'world']))` produces `['OLLEH', 'DLROW']`. A poor answer might try to use a loop inside the lambda or forget that string slicing returns a new string, revealing misunderstanding of expression‑only limitation and string methods.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A lambda function in Python is an anonymous, single-______ function defined using the lambda keyword.",
+     "a": "expression",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to sort a list of student dictionaries by their marks in ______ order for a class leaderboard.",
+     "a": "descending",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) write a lambda function to perform a simple computation, (2) correctly use lambda with built‑in higher‑order functions like map, filter, sorted, and reduce, and (3) explain why a lambda cannot contain statements such as assignments, loops, or multiple expressions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to sort a list of student ______ by their marks in descending order for a class leaderboard.",
+     "a": "dictionaries",
      "self_check": true
     }
    ]

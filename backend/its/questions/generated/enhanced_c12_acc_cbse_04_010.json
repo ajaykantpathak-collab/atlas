@@ -34,6 +34,26 @@
      "q": "Create a mini case: A firm with partners X, Y, Z (profit ratio 3:2:1) dissolves. Realisation profit ₹30,000. X's capital ₹1,00,000, Y ₹60,000, Z ₹40,000 (dr.). Z is insolvent (can pay ₹10,000). Write the journal entry to distribute the realisation profit and the entry for Z's deficiency under Garner v Murray. Show the final capital balances.",
      "a": "Step 1: Distribute profit 3:2:1 → X ₹15,000, Y ₹10,000, Z ₹5,000. Entry: Realisation A/c Dr. 30,000 → To X's Capital 15,000, Y's Capital 10,000, Z's Capital 5,000. Step 2: Z's capital after profit = ₹45,000 (dr. 40,000 + 5,000 cr. = 35,000 dr.? Wait: Z had debit balance 40,000, gets credit 5,000 → net debit 35,000). Z pays 10,000 → Bank Dr. 10,000 → To Z's Capital 10,000. Deficiency = 25,000. Borne by X & Y in capital ratio 1,00,000:60,000 = 5:3. X bears 25,000×5/8=15,625; Y bears 9,375. Entry: X's Capital Dr. 15,625, Y's Capital Dr. 9,375 → To Z's Capital 25,000. Final: X = 1,00,000+15,000-15,625=99,375; Y=60,000+10,000-9,375=60,625; Z=0. A poor answer misses the capital ratio step or uses profit ratio.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Journal entries for dissolution of a partnership firm are the systematic accounting records that capture the closure of the firm's books by ______ all assets and liabilities to a Realisation Account, recording the sale of assets, settlement of liabilities, payment of realisation expenses, and final distribution of cash among partners in their profit-sharing ratio after adjusting capital balances.",
+     "a": "transferring",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family's ______ firm \"Sharma & Sons\" has decided to dissolve after 20 years.",
+     "a": "partnership",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family's partnership firm \"Sharma & Sons\" has decided to dissolve after ______ years.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently pass correct journal entries for every stage of dissolution (transfer to Realisation Account, realisation of assets, payment of liabilities, expense treatment, partner loan settlement, and capital account closure) without referring to notes, and prepare the corresponding Realisation Account.",
+     "self_check": true
     }
    ]
   }

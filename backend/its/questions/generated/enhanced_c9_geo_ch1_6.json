@@ -34,6 +34,26 @@
      "q": "Design a community-level earthquake preparedness plan for a village in the Indo-Gangetic plain (high liquefaction potential, Zone IV). Include: (a) one structural measure, (b) one non-structural measure, (c) one early warning action, and (d) one post-earthquake response step — each justified with a geographical reason.",
      "a": "(a) Structural: Build on reinforced concrete raft foundations with sand compaction piles — because thick alluvial soils amplify shaking and liquefy, spreading load reduces differential settlement. (b) Non-structural: Secure heavy furniture, store water at ground level — because unsecured objects become projectiles during prolonged shaking in soft soils. (c) Early warning: Install community siren linked to Indian Earthquake Early Warning System (IEEWS) — because P-wave detection gives 20-30 seconds lead time for drop-cover-hold in this region. (d) Post-earthquake: Pre-identify open spaces on high ground away from riverbanks for evacuation — because liquefaction causes lateral spreading toward rivers, and aftershocks can collapse weakened structures. A poor answer (generic \"make strong houses, run outside\") reveals lack of site-specific geographical reasoning about alluvial plain hazards.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An earthquake is a sudden release of ______ strain energy in the Earth's crust that generates seismic waves, causing ground shaking; it originates at a point called the focus (hypocenter) inside the Earth, with the point directly above on the surface called the epicenter, and is measured using the Richter scale (magnitude) and Mercalli scale (intensity).",
+     "a": "accumulated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by observing that the ______ starts at a point underground (focus) and spreads outward as waves, just like ripples from a stone thrown in a pond.",
+     "a": "shaking",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the mechanism of earthquake generation at different plate boundaries, calculate the relative energy release between two magnitudes using the logarithmic nature of the Richter scale, and differentiate between magnitude and intensity by interpreting isoseismal maps for Indian earthquakes.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by observing that the shaking starts at a point ______ (focus) and spreads outward as waves, just like ripples from a stone thrown in a pond.",
+     "a": "underground",
+     "self_check": true
     }
    ]
   }

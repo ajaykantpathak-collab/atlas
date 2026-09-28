@@ -34,6 +34,26 @@
      "q": "A CREATE level question: Invent a counting method for a community that lives in tree houses and has no flat surfaces, no stones, and no wood to spare for tally sticks. They have only long vines and shells. Describe your method in 4 steps and explain how it solves the \"how many?\" problem for up to 100 items.",
      "a": "Good answer example: (1) Tie a knot in the vine for each item (one-to-one). (2) Group knots in tens using a shell as a marker every 10 knots (early base-10 grouping). (3) Hang the vine at the tree-house entrance as a permanent record. (4) To check, run fingers along knots, feeling shells as decade markers. This shows creativity within constraints and grasp of grouping — a precursor to place value. A poor answer (e.g., \"just remember\") ignores the need for external, shareable, scalable representation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The origin of counting refers to the historical and cognitive process by which early human societies developed the concept of number to quantify, compare, and manage discrete objects (like animals, tools, or people) and continuous quantities (like grain, land, or time), moving from concrete one-to-one matching to abstract symbolic ______.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are a farmer in ancient Punjab, 5000 years ago, with a herd of goats.",
+     "a": "Imagine",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain at least three distinct survival needs that drove early humans to invent counting (e.g., tracking livestock, measuring harvest, dividing resources) and can contrast the limitations of pre-numeric methods (like tally sticks) with the power of a symbolic number system.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a farmer in ancient Punjab, ______ years ago, with a herd of goats.",
+     "a": "5000",
+     "self_check": true
     }
    ]
   }

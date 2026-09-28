@@ -34,6 +34,21 @@
      "q": "Design a conceptual model (flowchart or annotated diagram description) showing the sequence of events from April heating to monsoon onset over Kerala, incorporating: Tibetan heating, ITCZ migration, STWJ withdrawal, Mascarene High intensification, Somali Jet formation, and TEJ establishment. Label each step with approximate timing (month/week).",
      "a": "Expected model: (1) April: Intense insolation on Tibetan Plateau → surface heating → thermal low deepens. (2) Early May: ITCZ moves to 10°N; STWJ still south of Himalayas. (3) Mid-May: Mascarene High strengthens (winter hemisphere cooling); cross-equatorial flow begins. (4) Late May: STWJ jumps north of Himalayas (key trigger); ITCZ jumps to 20°N. (5) June 1: Somali Jet (Findlater Jet) peaks at 850 hPa; moisture surge hits Kerala → onset. (6) Mid-June: Deep convection over NE India → latent heating → Tibetan High forms → TEJ establishes at 150 hPa. A poor model misses the STWJ jump as the gatekeeper, or shows ITCZ moving gradually rather than jumping, or omits the Mascarene High's role in the low-level jet.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Indian monsoon is a seasonal reversal of wind systems driven by differential heating of the Indian subcontinent and surrounding oceans, where the northward shift of the Inter-Tropical Convergence Zone (ITCZ) over the Gangetic plains and the Tibetan Plateau's thermal low interact with the subtropical westerly jet stream's withdrawal and the tropical easterly jet stream's ______ to trigger the southwest monsoon onset.",
+     "a": "establishment",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by observing the daily weather map in a newspaper during June — notice how the \"low pressure area\" over northwest India deepens while the \"high pressure\" over the southern Indian Ocean ______.",
+     "a": "strengthens",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the step-by-step mechanism of monsoon onset using ITCZ migration, jet stream dynamics, and pressure gradient changes, and can predict onset timing for a given region using upper-air circulation maps.",
+     "self_check": true
     }
    ]
   }

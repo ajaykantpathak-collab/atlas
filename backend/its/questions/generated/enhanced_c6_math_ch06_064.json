@@ -34,6 +34,26 @@
      "q": "Create a real-world problem that can be solved using the unitary method and provide the first step of the solution.",
      "a": "A good answer would be: \"If 2 buses carry 100 passengers, how many do 5 buses carry?\" The first step is: \"1 bus carries 100 ÷ 2 = 50 passengers.\" An answer failing to isolate a single unit shows a lack of understanding of the core concept.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The unitary method is a problem-solving ______ where you first find the value of a single unit of an item, and then use that value to calculate the total for any number of units.",
+     "a": "technique",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you go to the market to buy mangoes and the shopkeeper says 5 mangoes cost 75 ______.",
+     "a": "rupees",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify the given relationship, calculate the value of one unit through division, and then scale that value up through multiplication to solve for the target quantity.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you go to the market to buy mangoes and the ______ says 5 mangoes cost 75 rupees.",
+     "a": "shopkeeper",
+     "self_check": true
     }
    ]
   }

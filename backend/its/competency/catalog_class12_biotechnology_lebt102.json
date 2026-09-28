@@ -84,7 +84,16 @@
      "q": "Relaxed high-copy plasmids reach how many copies per cell: ten to thirty, or one?",
      "a": "ten to thirty"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "deleted_bp = old_size_bp - new_size_bp",
+     "compute": "deleted_bp = old_size_bp - new_size_bp"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebt102.3",
@@ -122,7 +131,16 @@
      "q": "How many base pairs long is lambda's linear genome: 48,490 or 4,849?",
      "a": "48490"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "circular_bp = linear_bp + cos_pairs",
+     "compute": "circular_bp = linear_bp + cos_pairs"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebt102.4",
@@ -242,7 +260,16 @@
      "q": "YACs carry inserts of 200 to how many kilobases: 500 or 50?",
      "a": "500"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "yac_range = yac_max - yac_min",
+     "compute": "yac_range = yac_max - yac_min"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebt102.7",

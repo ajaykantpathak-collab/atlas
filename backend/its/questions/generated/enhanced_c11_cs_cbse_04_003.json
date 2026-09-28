@@ -34,6 +34,36 @@
      "q": "Design a short Python activity (3-4 lines) that demonstrates a clear advantage of script mode over interactive mode, and explain why your example works better as a script.",
      "a": "Example: A script that reads a file, processes each line, and writes results to another file. In interactive mode, file handles and loops spanning multiple lines are awkward and error-prone; in script mode, the entire flow is saved, editable, and rerunnable. A poor answer might give a single arithmetic expression, which offers no advantage in script mode.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Python provides two distinct execution modes: ______ Mode (REPL - Read-Eval-Print Loop) where statements are typed one at a time at the >>> prompt and executed immediately, and Script Mode where a sequence of statements is saved in a .py file and executed as a complete program by the interpreter.",
+     "a": "Interactive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to quickly check the value of 2 10 — you open IDLE, type the ______ at the >>> prompt, and get the answer instantly.",
+     "a": "expression",
+     "self_check": true
+    },
+    {
+     "q": "What is Python provides two distinct execution modes? State the definition given in this lesson.",
+     "a": "Python provides two distinct execution modes: Interactive Mode (REPL - Read-Eval-Print Loop) where statements are typed one at a time at the >>> prompt and executed immediately, and Script Mode where a sequence of statements is saved in a .py file and executed as a complete program by the interpreter.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: We will first explore the IDLE shell window (interactive), then create a new file window (script), save it with a .py extension, and run it with F______.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Python provides two distinct execution modes?",
+     "a": "Students often think that code typed in the IDLE Shell (interactive mode) is automatically saved like a document.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between interactive and script mode, launch both environments in IDLE, write and execute a multi-line program in script mode, and explain why script mode is preferred for reusable programs while interactive mode suits quick experiments.",
+     "self_check": true
     }
    ]
   }

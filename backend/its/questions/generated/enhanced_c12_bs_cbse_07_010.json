@@ -34,6 +34,31 @@
      "q": "Design a 3-column table: Column A = 5 distinct workplace situations (e.g., \"CEO announces new 5-year sustainability vision\"), Column B = whether it primarily reflects leadership, management, or both, Column C = the specific dimension from Diagnostic Q4 that justifies your classification. Ensure at least one situation is \"both\" and justify why.",
      "a": "Example answer (student may create different situations):\n| Situation | Classification | Justifying Dimension |\n|---|---|---|\n| CEO announces 5-year sustainability vision | Leadership | Primary focus (vision/change) |\n| Supervisor approves overtime pay for weekend work | Management | Source of power (formal authority) |\n| Team lead stays late to help junior debug code, inspiring others | Leadership | Relationship (voluntary followership/trust) |\n| HR designs new performance appraisal system | Management | Time horizon (system/process design) |\n| Plant manager rallies workers during a safety crisis, then restructures shifts | Both | Approach to risk (crisis leadership) + Primary focus (stability restoration via management) |\n\nA poor answer uses vague justifications (\"it feels like leadership\") or misclassifies routine authority as leadership. This reveals inability to operationalise abstract dimensions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Leadership is the process of influencing people to strive willingly and ______ towards the achievement of group goals, focusing on inspiration, vision, and voluntary follower commitment.",
+     "a": "enthusiastically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the captain of a school cricket team (______ role) and also the class monitor responsible for maintaining the attendance register and submitting homework (management role).",
+     "a": "leadership",
+     "self_check": true
+    },
+    {
+     "q": "What is Leadership? State the definition given in this lesson.",
+     "a": "Leadership is the process of influencing people to strive willingly and enthusiastically towards the achievement of group goals, focusing on inspiration, vision, and voluntary follower commitment.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Leadership?",
+     "a": "Students believe leadership and management are mutually exclusive roles performed by different people: \"Managers manage, leaders lead.\" They write in exams: \"A manager cannot be a leader\" or \"Leadership is better than management.\" This error stems from textbook boxes that list differences without emphasising *integration*.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can articulate at least five distinct differences between leadership and management across dimensions (source of influence, focus, risk approach, people orientation, time horizon) and correctly classify five given workplace scenarios as demonstrating leadership behaviour, management behaviour, or both.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using only a strong bar magnet, a sensitive spring balance, and samples of bismuth, aluminium, and iron to distinguish their magnetic classes. Describe the procedure, expected observations, and how you would quantify the relative susceptibility.",
      "a": "Procedure: Hang each sample from the spring balance. Bring the bar magnet close from below and observe the change in apparent weight. Iron: strong attraction (large apparent weight increase). Aluminium: weak attraction (small increase). Bismuth: weak repulsion (small decrease). Quantify: ΔF = (χ/μ₀) V B (dB/dz) for small χ. Measure ΔF for each sample at same position; ratio of ΔF gives ratio of χ. Iron's ΔF will be ~10³× larger than Al's. A poor answer (e.g., \"all attract\" or \"use a compass\") reveals lack of understanding of force on magnetised materials in non-uniform fields and the sign of force for diamagnets.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Magnetic ______ (χ) is a dimensionless measure of how much a material becomes magnetised in response to an applied magnetic field H, defined as χ = M/H where M is the magnetisation (magnetic moment per unit volume, A/m).",
+     "a": "susceptibility",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bar magnet attracting iron nails but not copper wire — this everyday ______ reveals that materials respond differently to magnetic fields.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "What is Magnetic susceptibility (χ)? State the definition given in this lesson.",
+     "a": "Magnetic susceptibility (χ) is a dimensionless measure of how much a material becomes magnetised in response to an applied magnetic field H, defined as χ = M/H where M is the magnetisation (magnetic moment per unit volume, A/m).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Define χ = M/H as the material's \"magnetic responsiveness.\" Derive B = μ₀(H+M) = μ₀(______+χ)H to show how χ modifies the field inside the material.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Magnetic susceptibility (χ)?",
+     "a": "Students often think \"diamagnetic materials are non-magnetic\" or \"have zero magnetic response.\" In reality, diamagnetism is universal — ALL materials have a diamagnetic contribution from Lenz's law acting on orbital electrons.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Classify a given material as diamagnetic, paramagnetic, or ferromagnetic based on its susceptibility value and temperature dependence; (2) Calculate magnetisation M, magnetic field B, and relative permeability μᵣ for a material placed in a solenoid given n, I, and χ; (3) Explain the microscopic origin of each magnetic.",
+     "self_check": true
     }
    ]
   }

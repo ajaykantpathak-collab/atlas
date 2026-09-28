@@ -34,6 +34,21 @@
      "q": "Create a real-world problem (using metres, rupees, or kilograms) that requires drawing an area model for a product of two binomials with at least one negative term. Write the problem, draw the model, and give the algebraic expression.",
      "a": "Example: A rectangular field's length is (x - 2) metres and breadth is (x + 10) metres. Find the area in terms of x. The model shows a large x by x square, a 10x rectangle, a removed 2x rectangle, and a removed 20 square. Expression: x² + 8x - 20. A poor answer uses only positive terms or ignores the context, showing the student cannot connect negative terms to real-world subtraction (e.g., reducing a dimension).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ property states that multiplying a sum by a number gives the same result as multiplying each addend separately and then adding the products.",
+     "a": "distributive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ garden plot for your school.",
+     "a": "rectangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can draw an area model for any binomial product (including those with subtraction), label all sub-rectangles correctly, write the corresponding algebraic expansion, and explain how the geometric partition demonstrates the distributive property.",
+     "self_check": true
     }
    ]
   }

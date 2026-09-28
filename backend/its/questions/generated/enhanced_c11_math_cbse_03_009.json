@@ -34,6 +34,31 @@
      "q": "Construct a trigonometric identity of the form sin(x+y)cos(x-y) = ? that simplifies to an expression containing only sin 2x and sin 2y. Prove your identity using sum/difference and double-angle formulas.",
      "a": "sin(x+y)cos(x-y) = ½[sin(2x) + sin(2y)]. Proof: sin(x+y)cos(x-y) = ½[sin((x+y)+(x-y)) + sin((x+y)-(x-y))] using 2 sin A cos B = sin(A+B) + sin(A-B) with A=x+y, B=x-y. This gives ½[sin(2x) + sin(2y)]. Alternatively, expand both: (sin x cos y + cos x sin y)(cos x cos y + sin x sin y) = sin x cos x cos²y + sin²x sin y cos y + cos²x sin y cos y + sin x cos x sin²y = sin x cos x(cos²y+sin²y) + sin y cos y(sin²x+cos²x) = sin x cos x + sin y cos y = ½ sin 2x + ½ sin 2y. A poor answer shows inability to combine product-to-sum (node 012) with sum/difference formulas—revealing lack of forward linkage awareness.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The sum and difference formulas for trigonometric functions express the sine, cosine, tangent, and cotangent of the sum or difference of two angles (x ± y) in terms of the trigonometric functions of the ______ angles x and y.",
+     "a": "individual",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ramp for a wheelchair-______ entrance at your school.",
+     "a": "accessible",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: These identities hold for all real values of x and y where both sides are defined, with the tangent and cotangent formulas requiring that x, y, and x ± y are not odd multiples of π/______ and multiples of π respectively.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive all six sum/difference identities from the cosine difference formula using cofunction identities and algebraic manipulation, apply them to evaluate trigonometric expressions for non-standard angles (e.g., sin 15°, tan 75°), and use them to prove identities involving multiple angles or simplify complex trigonometric.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ramp for a ______-accessible entrance at your school.",
+     "a": "wheelchair",
+     "self_check": true
     }
    ]
   }

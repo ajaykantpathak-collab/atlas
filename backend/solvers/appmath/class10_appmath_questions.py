@@ -521,12 +521,23 @@ def _gen_fill_blank_connectives(seed, idx):
     rng = random.Random(seed + idx * 1000 + 4)
     conn_symbols = [("AND", "∧"), ("OR", "∨"), ("NOT", "~"), ("IMPLIES", "→"), ("BICONDITIONAL", "↔")]
     name, sym = rng.choice(conn_symbols)
+    # The answer MUST be one of this question's own option strings. The old
+    # chained conditional fell through to name.lower() for OR/NOT/IMPLIES,
+    # yielding answers ("or"/"not"/"implies") that match no option, so no
+    # selectable choice could ever grade correct.
+    answer = {
+        "AND": "conjunction",
+        "OR": "disjunction",
+        "NOT": "negation",
+        "IMPLIES": "implication",
+        "BICONDITIONAL": "biconditional",
+    }[name]
     return {
         "id": _make_id(seed, idx, "fill"),
         "type": "fill_blank",
         "question": f"The symbol '{sym}' represents the _____ connective. (conjunction / disjunction / negation / implication / biconditional)",
         "options": ["conjunction", "disjunction", "negation", "implication", "biconditional"],
-        "answer": name.lower() if name != "AND" else "conjunction" if name == "AND" else "disjunction" if name == "OR" else name.lower(),
+        "answer": answer,
         "explanation": f"'{sym}' is the standard symbol for {name} connective.",
         "difficulty": "easy",
         "topic": "connectives",

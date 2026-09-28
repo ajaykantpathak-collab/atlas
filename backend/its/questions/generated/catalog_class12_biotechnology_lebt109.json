@@ -1,6 +1,53 @@
 {
- "catalog": "catalog_class12_biotechnology_lebt109",
+ "catalog": "catalog_class12_biotechnology_lebt109.json",
  "concepts": [
+  {
+   "id": "lebt109.6",
+   "title": "Human ESC Timeline Milestones",
+   "converted_to_compute": true,
+   "formula": "gap_years = ipsc_year - hesc_year",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "gap_years = ipsc_year - hesc_year",
+     "compute": "gap_years = ipsc_year - hesc_year"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Human ESC Timeline Milestones: given ipsc_year = 87, hesc_year = 43, find gap years.",
+     "a": "44",
+     "self_check": false
+    },
+    {
+     "q": "For Human ESC Timeline Milestones: given ipsc_year = 74, hesc_year = 94, find gap years.",
+     "a": "-20",
+     "self_check": false
+    },
+    {
+     "q": "For Human ESC Timeline Milestones: given ipsc_year = 93, hesc_year = 48, find gap years.",
+     "a": "45",
+     "self_check": false
+    },
+    {
+     "q": "For Human ESC Timeline Milestones: given ipsc_year = 8, hesc_year = 35, find gap years.",
+     "a": "-27",
+     "self_check": false
+    },
+    {
+     "q": "For Human ESC Timeline Milestones: given ipsc_year = 37, hesc_year = 19.2, find gap years.",
+     "a": "17.8",
+     "self_check": false
+    },
+    {
+     "q": "For Human ESC Timeline Milestones: given ipsc_year = 76, hesc_year = 37, find gap years.",
+     "a": "39",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "lebt109.1",
    "title": "Stem Cell Sources and Self-Renewal",
@@ -112,37 +159,6 @@
     {
      "q": "Under which section is 'Challenges of Stem Cell Research' taught, and from which source text?",
      "a": "9.1.3 (source: lebt109.txt section 9.1.3 (Stem Cell Research Challenges))",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebt109.6",
-   "title": "Human ESC Timeline Milestones",
-   "questions": [
-    {
-     "q": "How many years passed between derivation of human embryonic stem cells in 1998 and generation of human iPSCs in 2006? Use the method 'Human ESC Timeline Milestones'. Work with: hesc_year = 1000, ipsc_year = 25, nobel_year = 2600. Carry the chain through step by step and give the final value of nobel_lag.",
-     "a": "2575 units",
-     "self_check": false
-    },
-    {
-     "q": "How many years after the 2006 reprogramming discovery did Yamanaka and Gurdon receive the Nobel Prize? Use the method 'Human ESC Timeline Milestones'. Work with: hesc_year = 25, ipsc_year = 100, nobel_year = 500. Carry the chain through step by step and give the final value of nobel_lag.",
-     "a": "400 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Human ESC Timeline Milestones' refers to.",
-     "a": "Human embryonic stem cell science marched in dated steps: derivation in 1998, germ-cell potential in 2004, human induced pluripotent cells in 2006, the 2009 Nobel for Yamanaka and Gurdon's reprogramming, first iPSC clinical trials in 2010, therapeutic-cloning SCNT lines in 2013, naive-state lines in 2014, CRISPR editing by 2015 and organoids by 2017, with xeno-free culture freeing the field of animal products in 2007.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Human ESC Timeline Milestones'.",
-     "a": "Subtract milestone years to measure how quickly reprogramming and editing followed the first human lines.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Human ESC Timeline Milestones', in plain ASCII form.",
-     "a": "gap_years = ipsc_year - hesc_year",
      "self_check": true
     }
    ]

@@ -34,6 +34,26 @@
      "q": "Create a real-world scenario (Indian context) where comparing two datasets using Coefficient of Variation is necessary, and explain why absolute measures would fail.",
      "a": "Example: Comparing price volatility of rice (mean ₹40/kg, SD ₹5) and wheat (mean ₹20/kg, SD ₹3) in a mandi. Absolute SD suggests rice is more volatile (5 > 3), but CV_rice = 12.5%, CV_wheat = 15% → wheat prices are relatively more volatile. A poor answer would use a scenario with same units and similar means (e.g., heights of two groups in cm) where SD comparison suffices, missing the need for CV.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Coefficient of Variation (CV) is a relative measure of dispersion defined as the ratio of the standard deviation to the arithmetic mean, expressed as a percentage: CV = (σ / x̄) × 100, where σ is the standard deviation and x̄ is the mean of the ______.",
+     "a": "distribution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are comparing the ______ of two cricket batsmen: Batsman A scores an average of 50 runs with a standard deviation of 15 runs, while Batsman B scores an average of 30 runs with a standard deviation of 10 runs.",
+     "a": "consistency",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Coefficient of Variation (CV) is a relative measure of dispersion defined as the ratio of the standard deviation to the arithmetic mean, expressed as a percentage: CV = (σ / x̄) × ______, where σ is the standard deviation and x̄ is the mean of the distribution.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to compute the Coefficient of Variation for ungrouped and grouped data (discrete and continuous series) using the correct formula, interpret the result in context (e.g., \"Dataset A is more consistent than Dataset B because its CV is lower\"), and explain why CV is preferred over absolute measures like standard.",
+     "self_check": true
     }
    ]
   }

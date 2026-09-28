@@ -5,6 +5,8 @@
    "id": "am12_006.1",
    "title": "Index Number Meaning and Uses",
    "converted_to_compute": false,
+   "formula": "idx = cur / base * 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 34, 2, 21, 10, 6.",
@@ -42,6 +44,8 @@
    "id": "am12_006.2",
    "title": "Simple Aggregative Price Index",
    "converted_to_compute": false,
+   "formula": "index = sum_cur / sum_base * 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A price index uses base year value 100. If the current value is 143, find the index number.",
@@ -79,6 +83,8 @@
    "id": "am12_006.3",
    "title": "Laspeyres Price Index",
    "converted_to_compute": false,
+   "formula": "l = sc / sb * 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A price index uses base year value 100. If the current value is 159, find the index number.",
@@ -116,6 +122,8 @@
    "id": "am12_006.4",
    "title": "Paasche Price Index",
    "converted_to_compute": false,
+   "formula": "pidx = sc / sb * 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two triangles are congruent. In triangle one the angles are 76 and 43 degrees; the third angle is what? (The third angles must match.)",
@@ -153,6 +161,8 @@
    "id": "am12_006.5",
    "title": "Tests of Adequacy Unit and Time Reversal",
    "converted_to_compute": false,
+   "formula": "tr = l * pidx / 10000",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A price index uses base year value 100. If the current value is 148, find the index number.",
@@ -190,6 +200,8 @@
    "id": "am12_006.6",
    "title": "Time Series and Linear Trend",
    "converted_to_compute": false,
+   "formula": "y = a + b * x",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 5th term of the AP with first term 5 and common difference 9.",

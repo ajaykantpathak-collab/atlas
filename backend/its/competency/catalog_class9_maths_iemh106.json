@@ -24,9 +24,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "take twice pi times radius",
+    {
+     "step": 1,
+     "action": "take twice pi times radius",
      "explain": "The circumference of a circle is 2 pi r.",
-     "compute": "circumference = 2 * pi * radius"}
+     "compute": "circumference = 2 * pi * radius"
+    }
    ]
   },
   {
@@ -47,12 +50,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "take the angle fraction",
+    {
+     "step": 1,
+     "action": "take the angle fraction",
      "explain": "Divide the central angle by 360.",
-     "compute": "fraction = angle / 360"},
-    {"step": 2, "action": "scale the circumference",
+     "compute": "fraction = angle / 360"
+    },
+    {
+     "step": 2,
+     "action": "scale the circumference",
      "explain": "Multiply by 2 pi r for the arc length.",
-     "compute": "arc = fraction * 2 * pi * radius"}
+     "compute": "arc = fraction * 2 * pi * radius"
+    }
    ]
   },
   {
@@ -73,12 +82,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "multiply base by height",
+    {
+     "step": 1,
+     "action": "multiply base by height",
      "explain": "This is the parallelogram area on the same base.",
-     "compute": "para_area = base * height"},
-    {"step": 2, "action": "take half",
+     "compute": "para_area = base * height"
+    },
+    {
+     "step": 2,
+     "action": "take half",
      "explain": "The triangle is half of the parallelogram.",
-     "compute": "area = para_area / 2"}
+     "compute": "area = para_area / 2"
+    }
    ]
   },
   {
@@ -97,15 +112,33 @@
     "why does a circle enclose maximum area for a given perimeter",
     "separate the perimeter data and the area data of the given shapes"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "compute both measures",
-     "explain": "Find the perimeter and the area of each shape separately."},
-    {"step": 2, "action": "compare carefully",
-     "explain": "Match perimeters, then areas - the rankings need not agree."},
-    {"step": 3, "action": "state the lesson",
-     "explain": "Perimeter and area answer different questions."}
-   ]
+    {
+     "step": 1,
+     "action": "compute both measures",
+     "explain": "Find the perimeter and the area of each shape separately."
+    },
+    {
+     "step": 2,
+     "action": "compare carefully",
+     "explain": "Match perimeters, then areas - the rankings need not agree."
+    },
+    {
+     "step": 3,
+     "action": "state the lesson",
+     "explain": "Perimeter and area answer different questions."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "add the sides with the perimeter formula",
+     "explain": "add the sides with the perimeter formula: perim = 2 * (24 + 18) gives 84",
+     "compute": "perim = 2 * (24 + 18)"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -119,9 +152,12 @@
     "radius": "radius of the circle in cm"
    },
    "solution_template": [
-    {"step": 1, "action": "take 2 pi r",
+    {
+     "step": 1,
+     "action": "take 2 pi r",
      "explain": "Circumference equals 2 pi times radius.",
-     "compute": "circumference = 2 * pi * radius"}
+     "compute": "circumference = 2 * pi * radius"
+    }
    ]
   },
   {
@@ -134,9 +170,12 @@
     "radius": "radius of the ring in cm"
    },
    "solution_template": [
-    {"step": 1, "action": "take 2 pi r",
+    {
+     "step": 1,
+     "action": "take 2 pi r",
      "explain": "The ribbon length equals the circumference.",
-     "compute": "circumference = 2 * pi * radius"}
+     "compute": "circumference = 2 * pi * radius"
+    }
    ]
   },
   {
@@ -150,12 +189,18 @@
     "radius": "radius in cm"
    },
    "solution_template": [
-    {"step": 1, "action": "take the angle fraction",
+    {
+     "step": 1,
+     "action": "take the angle fraction",
      "explain": "Angle over 360.",
-     "compute": "fraction = angle / 360"},
-    {"step": 2, "action": "scale the circumference",
+     "compute": "fraction = angle / 360"
+    },
+    {
+     "step": 2,
+     "action": "scale the circumference",
      "explain": "Multiply by 2 pi r.",
-     "compute": "arc = fraction * 2 * pi * radius"}
+     "compute": "arc = fraction * 2 * pi * radius"
+    }
    ]
   },
   {
@@ -169,12 +214,18 @@
     "radius": "radius in cm"
    },
    "solution_template": [
-    {"step": 1, "action": "take the angle fraction",
+    {
+     "step": 1,
+     "action": "take the angle fraction",
      "explain": "Fraction of the full turn.",
-     "compute": "fraction = angle / 360"},
-    {"step": 2, "action": "scale the circumference",
+     "compute": "fraction = angle / 360"
+    },
+    {
+     "step": 2,
+     "action": "scale the circumference",
      "explain": "The arc is that part of 2 pi r.",
-     "compute": "arc = fraction * 2 * pi * radius"}
+     "compute": "arc = fraction * 2 * pi * radius"
+    }
    ]
   },
   {
@@ -188,12 +239,18 @@
     "height": "height of the triangle in cm"
    },
    "solution_template": [
-    {"step": 1, "action": "multiply base by height",
+    {
+     "step": 1,
+     "action": "multiply base by height",
      "explain": "The parallelogram area on the same base.",
-     "compute": "para_area = base * height"},
-    {"step": 2, "action": "take half",
+     "compute": "para_area = base * height"
+    },
+    {
+     "step": 2,
+     "action": "take half",
      "explain": "The triangle is half of it.",
-     "compute": "area = para_area / 2"}
+     "compute": "area = para_area / 2"
+    }
    ]
   },
   {
@@ -207,12 +264,18 @@
     "height": "flag height in cm"
    },
    "solution_template": [
-    {"step": 1, "action": "multiply base by height",
+    {
+     "step": 1,
+     "action": "multiply base by height",
      "explain": "Half base times height is the area.",
-     "compute": "para_area = base * height"},
-    {"step": 2, "action": "take half",
+     "compute": "para_area = base * height"
+    },
+    {
+     "step": 2,
+     "action": "take half",
      "explain": "The half gives the triangular area.",
-     "compute": "area = para_area / 2"}
+     "compute": "area = para_area / 2"
+    }
    ]
   }
  ],
@@ -221,18 +284,18 @@
    "id": "ex6.1",
    "source_ref": "iemh106.txt perimeter exercises",
    "questions": [
-     "Find the perimeters of the given shapes.",
-     "Find the circumference of the given circles.",
-     "Find the radius when the circumference is given."
+    "Find the perimeters of the given shapes.",
+    "Find the circumference of the given circles.",
+    "Find the radius when the circumference is given."
    ]
   },
   {
    "id": "ex6.2",
    "source_ref": "iemh106.txt arc and area exercises",
    "questions": [
-     "Find the lengths of the given arcs.",
-     "Find the areas of the given parallelograms and triangles.",
-     "Solve the perimeter-area paradox puzzles."
+    "Find the lengths of the given arcs.",
+    "Find the areas of the given parallelograms and triangles.",
+    "Solve the perimeter-area paradox puzzles."
    ]
   }
  ]

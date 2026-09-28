@@ -34,6 +34,31 @@
      "q": "Design a thought experiment to estimate the covalent radius of hydrogen using only the H-H bond distance in H₂ molecule (74 pm) and the covalent radius of fluorine (64 pm) from the H-F bond distance (92 pm). Show your reasoning.",
      "a": "In H₂, bond distance = 2 × r_cov(H) → r_cov(H) = 74/2 = 37 pm. In HF, bond distance = r_cov(H) + r_cov(F) = 92 pm. Using r_cov(F) = 64 pm gives r_cov(H) = 92 - 64 = 28 pm. The discrepancy (37 vs 28 pm) arises because covalent radii aren't perfectly additive due to electronegativity difference (polar covalent bond shortens distance). A good answer notes this limitation. A poor answer (just averaging) reveals the student treats covalent radii as strictly additive constants, ignoring bond polarity effects - a nuance needed for higher studies.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Atomic radius is the distance from the nucleus to the outermost electron cloud boundary of an isolated atom in its ground state, measured as half the ______ distance between two identical atoms bonded by a single covalent bond (covalent radius) or in a metallic crystal lattice (metallic radius).",
+     "a": "internuclear",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at a ______ table poster in your lab - notice how lithium (Li) sits at top left while fluorine (F) is top right.",
+     "a": "periodic",
+     "self_check": true
+    },
+    {
+     "q": "What is Atomic radius? State the definition given in this lesson.",
+     "a": "Atomic radius is the distance from the nucleus to the outermost electron cloud boundary of an isolated atom in its ground state, measured as half the internuclear distance between two identical atoms bonded by a single covalent bond (covalent radius) or in a metallic crystal lattice (metallic radius).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Atomic radius?",
+     "a": "Students often think \"more electrons = larger atom\" and predict atomic size increases across a period because electron count rises.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the trend in atomic radius across a period and down a group using effective nuclear charge and shielding concepts, predict relative sizes of elements in the same period/group, and justify anomalies like the larger size of noble gases compared to halogens.",
+     "self_check": true
     }
    ]
   }

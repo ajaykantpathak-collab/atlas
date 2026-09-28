@@ -34,6 +34,21 @@
      "q": "Design a decision flowchart (text-based) that a first-time internationalizing firm could use to select an entry mode. Use only the five modes and criteria from the textbook (investment capacity, risk tolerance, control need, market knowledge, IP sensitivity). The flowchart must have at least 4 decision nodes and lead to all five modes.",
      "a": "Sample flowchart logic:\n1. **Start**: Does the firm have *high capital* (₹100+ cr) and *willing to bear full risk*? → YES → **Wholly Owned Subsidiary** (Greenfield or Acquisition). NO → Go to 2.\n2. Does the firm want *shared risk/capital* AND *local market knowledge*? → YES → **Joint Venture**. NO → Go to 3.\n3. Does the firm possess *strong IP/brand* but *low capital/operational capacity*? → YES → **Licensing/Franchising**. NO → Go to 4.\n4. Does the firm want *production control without factory investment*? → YES → **Contract Manufacturing**. NO → **Exporting/Importing** (default low-commitment entry).\nA poor answer creates a flowchart that doesn't differentiate Joint Venture vs. Wholly Owned (both high capital) or misses that Exporting is the residual \"low everything\" option. The student must operationalize textbook criteria into mutually exclusive decision rules.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Modes of entry into ______ business refer to the various strategic pathways a firm can choose to start operating in foreign markets, ranging from low-commitment options like exporting to high-commitment options like wholly owned subsidiaries, each differing in risk, control, resource requirement, and speed of market access.",
+     "a": "international",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ from the textbook case: he makes auto parts in Gurgaon and wants to sell in Southeast Asia.",
+     "a": "Manchanda",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) List all five major modes of entry (Exporting/Importing, Contract Manufacturing, Licensing/Franchising, Joint Ventures, Wholly Owned Subsidiaries) with one defining characteristic of each, and (2) Given a business scenario describing a firm's size, risk appetite, and control needs, correctly identify the.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,377 @@
+{
+ "catalog": "catalog_class12_economics_leec102.json",
+ "concepts": [
+  {
+   "id": "leec.102.1.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "gross_investment = 61",
+      "depreciation_charge = 1.3",
+      "net_investment = gross_investment - depreciation_charge"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "gross_investment = 31",
+      "depreciation_charge = 14.7",
+      "net_investment = gross_investment - depreciation_charge"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gross_investment = 0.7",
+      "depreciation_charge = 21",
+      "net_investment = gross_investment - depreciation_charge"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "gross_investment = 33",
+      "depreciation_charge = 29",
+      "net_investment = gross_investment - depreciation_charge"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "gross_investment = 11.3",
+      "depreciation_charge = 23",
+      "net_investment = gross_investment - depreciation_charge"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "gross_investment = 2.9",
+      "depreciation_charge = 1.1",
+      "net_investment = gross_investment - depreciation_charge"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "net_investment = gross_investment - depreciation_charge"
+   ]
+  },
+  {
+   "id": "leec.102.2.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "consumption = 47",
+      "investment = 39",
+      "government_spending = 49",
+      "exports = 76",
+      "imports = 14.3",
+      "gdp_expenditure_method = consumption + investment + government_spending + exports - imports"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "consumption = 56",
+      "investment = 99",
+      "government_spending = 39",
+      "exports = 36",
+      "imports = 24",
+      "gdp_expenditure_method = consumption + investment + government_spending + exports - imports"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "consumption = 39",
+      "investment = 61",
+      "government_spending = 95",
+      "exports = 84",
+      "imports = 65",
+      "gdp_expenditure_method = consumption + investment + government_spending + exports - imports"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "consumption = 71",
+      "investment = 13.9",
+      "government_spending = 7.1",
+      "exports = 38",
+      "imports = 96",
+      "gdp_expenditure_method = consumption + investment + government_spending + exports - imports"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "consumption = 30",
+      "investment = 62",
+      "government_spending = 100",
+      "exports = 69",
+      "imports = 11.1",
+      "gdp_expenditure_method = consumption + investment + government_spending + exports - imports"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "consumption = 92",
+      "investment = 82",
+      "government_spending = 36",
+      "exports = 86",
+      "imports = 96",
+      "gdp_expenditure_method = consumption + investment + government_spending + exports - imports"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "gdp_expenditure_method = consumption + investment + government_spending + exports - imports"
+   ]
+  },
+  {
+   "id": "leec.102.2.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "wages = 75",
+      "gross_profits = 8.6",
+      "interest_payments = 107",
+      "rents = 39",
+      "gdp_income_method = wages + gross_profits + interest_payments + rents"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "wages = 97",
+      "gross_profits = 78",
+      "interest_payments = 28",
+      "rents = 70",
+      "gdp_income_method = wages + gross_profits + interest_payments + rents"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "wages = 63",
+      "gross_profits = 42",
+      "interest_payments = 89",
+      "rents = 31",
+      "gdp_income_method = wages + gross_profits + interest_payments + rents"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "wages = 59",
+      "gross_profits = 43",
+      "interest_payments = 83",
+      "rents = 63",
+      "gdp_income_method = wages + gross_profits + interest_payments + rents"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "wages = 33",
+      "gross_profits = 67",
+      "interest_payments = 108",
+      "rents = 71",
+      "gdp_income_method = wages + gross_profits + interest_payments + rents"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "wages = 96",
+      "gross_profits = 15.2",
+      "interest_payments = 80",
+      "rents = 16.3",
+      "gdp_income_method = wages + gross_profits + interest_payments + rents"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "gdp_income_method = wages + gross_profits + interest_payments + rents"
+   ]
+  },
+  {
+   "id": "leec.102.2.6",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "gva_basic_prices = 7.8",
+      "net_product_taxes = 30",
+      "gdp_market_prices = gva_basic_prices + net_product_taxes"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "gva_basic_prices = 81",
+      "net_product_taxes = 10.5",
+      "gdp_market_prices = gva_basic_prices + net_product_taxes"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gva_basic_prices = 47",
+      "net_product_taxes = 20",
+      "gdp_market_prices = gva_basic_prices + net_product_taxes"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "gva_basic_prices = 49",
+      "net_product_taxes = 83",
+      "gdp_market_prices = gva_basic_prices + net_product_taxes"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "gva_basic_prices = 64",
+      "net_product_taxes = 62",
+      "gdp_market_prices = gva_basic_prices + net_product_taxes"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "gva_basic_prices = 35",
+      "net_product_taxes = 31",
+      "gdp_market_prices = gva_basic_prices + net_product_taxes"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "gdp_market_prices = gva_basic_prices + net_product_taxes"
+   ]
+  },
+  {
+   "id": "leec.102.4.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "nominal_gdp = 62",
+      "real_gdp = 84",
+      "gdp_deflator = 100 * nominal_gdp / real_gdp"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "nominal_gdp = 55",
+      "real_gdp = 84",
+      "gdp_deflator = 100 * nominal_gdp / real_gdp"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "nominal_gdp = 43",
+      "real_gdp = 79",
+      "gdp_deflator = 100 * nominal_gdp / real_gdp"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "nominal_gdp = 3.3",
+      "real_gdp = 43",
+      "gdp_deflator = 100 * nominal_gdp / real_gdp"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "nominal_gdp = 94",
+      "real_gdp = 90",
+      "gdp_deflator = 100 * nominal_gdp / real_gdp"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "nominal_gdp = 31",
+      "real_gdp = 84",
+      "gdp_deflator = 100 * nominal_gdp / real_gdp"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "gdp_deflator = 100 * nominal_gdp / real_gdp"
+   ]
+  },
+  {
+   "id": "leec.102.4.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "current_basket_cost = 78",
+      "base_basket_cost = 2.1",
+      "consumer_price_index = 100 * current_basket_cost / base_basket_cost"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "current_basket_cost = 117",
+      "base_basket_cost = 40",
+      "consumer_price_index = 100 * current_basket_cost / base_basket_cost"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "current_basket_cost = 84",
+      "base_basket_cost = 87",
+      "consumer_price_index = 100 * current_basket_cost / base_basket_cost"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "current_basket_cost = 90",
+      "base_basket_cost = 92",
+      "consumer_price_index = 100 * current_basket_cost / base_basket_cost"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "current_basket_cost = 68",
+      "base_basket_cost = 44",
+      "consumer_price_index = 100 * current_basket_cost / base_basket_cost"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "current_basket_cost = 17.4",
+      "base_basket_cost = 62",
+      "consumer_price_index = 100 * current_basket_cost / base_basket_cost"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "consumer_price_index = 100 * current_basket_cost / base_basket_cost"
+   ]
+  }
+ ]
+}

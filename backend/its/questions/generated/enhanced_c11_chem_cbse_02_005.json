@@ -34,6 +34,31 @@
      "q": "Design a method to separate ²³⁵U and ²³⁸U isotopes for nuclear fuel enrichment. Explain why chemical separation fails and what physical property you would exploit.",
      "a": "Chemical separation fails because isotopes have identical electron configurations. Exploit mass difference (3 u) via gaseous diffusion or gas centrifugation of UF₆ - lighter ²³⁵UF₆ diffuses/centrifuges slightly faster. A poor answer suggesting fractional distillation or precipitation shows ignorance of identical chemical behaviour and the tiny mass difference requiring specialized physical methods.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Isotopes are atoms of the same element having ______ atomic number (Z) but different mass numbers (A) due to varying numbers of neutrons in the nucleus; isobars are atoms of different elements having the same mass number (A) but different atomic numbers (Z).",
+     "a": "identical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a chlorine gas cylinder label showing \"Cl = 35.5 u\" - how can an element have a ______ atomic mass?",
+     "a": "fractional",
+     "self_check": true
+    },
+    {
+     "q": "What is Isotopes? State the definition given in this lesson.",
+     "a": "Isotopes are atoms of the same element having identical atomic number (Z) but different mass numbers (A) due to varying numbers of neutrons in the nucleus; isobars are atoms of different elements having the same mass number (A) but different atomic numbers (Z).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Isotopes?",
+     "a": "Students write isotopic notation as ¹⁷₃⁵Cl (swapping superscript/subscript) and calculate neutrons as Z - A instead of A - Z.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can calculate protons, neutrons, and electrons for any given isotope/isobar notation (e.g., ³⁵₁₇Cl, ³⁷₁₇Cl, ⁴⁰₁₈Ar, ⁴⁰₂₀Ca), explain why isotopes show identical chemical properties but different physical properties, and apply the (n + l) rule to predict relative stability of isotopes in nuclear chemistry contexts.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a short construction plan for a civil engineer who needs to divide a 12 cm long land boundary into four equal segments using only a compass and straightedge, without calculating division arithmetic.",
      "a": "The expected response involves constructing the perpendicular bisector of the 12 cm segment to divide it into two 6 cm halves, and then constructing the perpendicular bisectors of each resulting 6 cm segment to divide them again, yielding four equal 3 cm sections. A poor response would rely on measuring with a 30 cm ruler and marking every 3 cm, which defeats the purpose of geometric construction and logical verification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Applications of geometric constructions involve using fundamental ruler and compass techniques—such as bisecting angles, constructing ______, and drawing parallel lines—to solve practical, real-world problems like dividing land plots, designing architectural patterns, or engineering mechanical parts accurately.",
+     "a": "perpendiculars",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a school carpenter tasked with dividing a ______ wooden board into equal sections or marking a central dividing line for a classroom art project without a measuring tape.",
+     "a": "rectangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can solve multi-step geometric problems by translating real-world constraints into precise ruler-and-compass construction sequences, and can justify each step using geometric properties.",
+     "self_check": true
     }
    ]
   }

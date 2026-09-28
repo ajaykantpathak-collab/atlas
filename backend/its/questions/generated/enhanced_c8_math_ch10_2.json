@@ -34,6 +34,31 @@
      "q": "Create a real-world problem where a person needs to choose between two maps with different RFs for a specific purpose (e.g., hiking, city navigation, long-distance driving). State the RFs, the purpose, and explain which map they should choose and why.",
      "a": "Good answer example: \"Riya is hiking in the Western Ghats. Map A has RF 1:50,000; Map B has RF 1:250,000. She should choose Map A (1:50,000) because it shows more detail — trails, small streams, contour lines — which she needs for safe hiking. Map B covers a larger area but lacks detail for navigation on foot.\" A poor answer chooses the wrong map or gives no justification, revealing the student cannot apply the inverse relationship between scale denominator and detail level to a practical decision.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ Fraction (RF) is a unitless ratio expressing map scale as the relationship between a distance on the map and the corresponding actual distance on the ground, written as 1:n or 1/n where both distances are measured in the same units.",
+     "a": "Representative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a map of your district where the ______ says \"1 cm = 2 km\".",
+     "a": "scale",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It means ______ unit on the map represents n units in reality.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can convert between statement scales (e.g., \"1 cm = 5 km\") and representative fractions, simplify RFs to the form 1:n, and explain why the same units are essential for both map and ground distances.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a map of your ______ where the scale says \"1 cm = 2 km\".",
+     "a": "district",
+     "self_check": true
     }
    ]
   }

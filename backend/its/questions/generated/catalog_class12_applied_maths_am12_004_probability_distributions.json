@@ -4,15 +4,9 @@
   {
    "id": "am12_004.1",
    "title": "Random Variables Discrete and Continuous",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "divide favourable outcomes by total outcomes",
-     "explain": "divide favourable outcomes by total outcomes: p = 3 / 6 gives 0.5",
-     "compute": "p = 3 / 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A die is rolled once. What is the probability of getting a number greater than 3? (give the fraction)",
@@ -50,6 +44,8 @@
    "id": "am12_004.2",
    "title": "Probability Distribution of Discrete Random Variable",
    "converted_to_compute": false,
+   "formula": "k = 1 - p1 - p2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A die is rolled once. What is the probability of getting a number greater than 1? (give the fraction)",
@@ -87,6 +83,8 @@
    "id": "am12_004.3",
    "title": "Mean of Random Variable Expectation",
    "converted_to_compute": false,
+   "formula": "mean = x1 * p1 + x2 * p2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A die is rolled once. What is the probability of getting a number greater than 3? (give the fraction)",
@@ -124,6 +122,8 @@
    "id": "am12_004.4",
    "title": "Variance and Standard Deviation of Distribution",
    "converted_to_compute": false,
+   "formula": "var = e2 - mean ** 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean deviation about the mean of 4, 15, 11 (two decimal places).",
@@ -161,6 +161,8 @@
    "id": "am12_004.5",
    "title": "Bernoulli Trials and Binomial Distribution",
    "converted_to_compute": false,
+   "formula": "p_r = c * p ** r * q ** nr",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers 7 and 2.",
@@ -197,15 +199,9 @@
   {
    "id": "am12_004.6",
    "title": "Poisson Distribution Rare Events",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the integer operation sign rules",
-     "explain": "apply the integer operation sign rules: total = 10 + (5) gives 15",
-     "compute": "total = 10 + (5)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers 10 and 5.",
@@ -243,6 +239,8 @@
    "id": "am12_004.7",
    "title": "Normal Distribution and Z Score",
    "converted_to_compute": false,
+   "formula": "z = (x - mean) / sd",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers -25 and -10.",

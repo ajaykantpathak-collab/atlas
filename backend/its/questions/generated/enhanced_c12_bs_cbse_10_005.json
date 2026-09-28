@@ -34,6 +34,31 @@
      "q": "Design a hypothetical scenario where a stock exchange's \"listing requirements\" (minimum public float, financial track record, governance norms) prevent a specific type of market failure. Explain the failure and how the requirement addresses it.",
      "a": "Good answer example: A promoter wants to list a shell company with no operations, ₹10 crore paid-up capital, 95% promoter holding, to raise ₹500 crore from public via IPO. Failure: adverse selection — uninformed investors buy worthless shares. Listing requirement \"minimum 25% public float\" and \"3 years profitability\" forces promoter to dilute and prove viability, reducing information asymmetry. Poor answer: vague \"prevents fraud\" without naming the specific market failure (adverse selection / moral hazard / information asymmetry) and linking the requirement to the mechanism. This tests ability to apply institutional economics concepts — a CUET/IPMAT style question.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The secondary market is a financial market where previously issued securities (shares, debentures, bonds) are bought and sold among investors without ______ of the issuing company.",
+     "a": "involvement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you bought 100 shares of ______ Industries in an IPO two years ago.",
+     "a": "Reliance",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you bought ______ shares of Reliance Industries in an IPO two years ago.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish primary vs secondary market using the \"issuer involvement\" criterion, (2) list and explain at least five functions of a stock exchange with real-world examples, and (3) describe how a stock exchange facilitates capital formation indirectly despite not raising fresh capital for companies.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you bought 100 shares of Reliance ______ in an IPO two years ago.",
+     "a": "Industries",
+     "self_check": true
     }
    ]
   }

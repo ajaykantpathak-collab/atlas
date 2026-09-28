@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using only a battery, insulated copper wire, an iron nail, and a compass to demonstrate the difference between a permanent magnet and an electromagnet. Describe the steps and expected observations.",
      "a": "Steps: (1) Wind wire around nail to make a solenoid. (2) Connect to battery → compass needle deflects strongly (electromagnet ON). (3) Disconnect battery → compass needle returns to north-south (electromagnet OFF). (4) Stroke the nail with a permanent magnet to magnetise it permanently. (5) Place compass near the nail without any battery → needle deflects (permanent magnet). (6) Heat the nail strongly → magnetism disappears.  \nA poor answer might not show the ON/OFF contrast or might think the nail stays magnetised after step 3 without step 4, revealing confusion between temporary induced magnetism and permanent magnetisation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A permanent magnet is a ferromagnetic material that retains its magnetisation for a long time after the magnetising field is removed, characterised by high retentivity (residual magnetism) and high coercivity (resistance to ______).",
+     "a": "demagnetisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a refrigerator magnet holding a timetable (permanent magnet) and a crane lifting scrap iron in a junkyard (______).",
+     "a": "electromagnet",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) explain why Alnico is used for permanent magnets while soft iron is used for electromagnets by comparing their retentivity and coercivity, and (2) predict the behaviour of a given ferromagnetic material in a hysteresis loop diagram to classify it as suitable for permanent magnets or electromagnets.",
+     "self_check": true
     }
    ]
   }

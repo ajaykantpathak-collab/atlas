@@ -34,6 +34,26 @@
      "q": "Create a \"Curiosity Journal\" entry for a common household object (like a spoon). What is one question you have about its design?",
      "a": "A good answer asks about the shape, material, or weight of the spoon (e.g., \"Why is the handle curved?\"). A poor answer describes how the spoon is used without questioning its design or purpose.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The spirit of ______ is the drive to question, experiment, and persist despite failure.",
+     "a": "innovation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ to build a paper plane that flies across the entire classroom, but it crashes into the floor every time.",
+     "a": "trying",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify an example of a \"failed\" attempt that leads to a new discovery and explain how a questioning attitude contributes to solving real-world problems.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are trying to build a paper plane that flies across the entire ______, but it crashes into the floor every time.",
+     "a": "classroom",
+     "self_check": true
     }
    ]
   }

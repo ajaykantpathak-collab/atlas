@@ -34,6 +34,36 @@
      "q": "Design a small-scale lab experiment to confirm that the product of nitrobenzene reduction with Sn/HCl is aniline. List reagents, observations, and one confirmatory test.",
      "a": "Reagents: nitrobenzene, Sn granules, conc. HCl, NaOH, ice. Procedure: Heat nitrobenzene with Sn/HCl under reflux, cool, add NaOH to liberate free amine, steam distill to collect aniline. Observations: reaction mixture becomes warm, Sn dissolves, aniline distills as a colorless liquid with characteristic odor. Confirmatory test: Add bromine water – white precipitate of 2,4,6-tribromoaniline forms instantly. A poor answer omits the liberation of free base with NaOH or the confirmatory test.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Reduction of nitro compounds is a key laboratory and industrial method for preparing amines, where the nitro group (–NO₂) is converted to an amino group (–NH₂) using either catalytic ______ (H₂ with Ni, Pd, or Pt) or metal-acid reduction (Sn/HCl, Fe/HCl, Zn/HCl).",
+     "a": "hydrogenation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in a pharmaceutical plant where aniline (a starting material for paracetamol) is made from ______.",
+     "a": "nitrobenzene",
+     "self_check": true
+    },
+    {
+     "q": "What is Reduction of nitro compounds? State the definition given in this lesson.",
+     "a": "Reduction of nitro compounds is a key laboratory and industrial method for preparing amines, where the nitro group (–NO₂) is converted to an amino group (–NH₂) using either catalytic hydrogenation (H₂ with Ni, Pd, or Pt) or metal-acid reduction (Sn/HCl, Fe/HCl, Zn/HCl).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The reaction proceeds through a ______-electron reduction, and for aromatic nitro compounds it yields primary aromatic amines, while aliphatic nitro compounds give primary aliphatic amines.",
+     "a": "6",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Reduction of nitro compounds?",
+     "a": "Students often think that reduction of nitro compounds with H₂/Pd gives a secondary or tertiary amine because \"hydrogen adds across the double bond\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write balanced chemical equations for reduction of nitrobenzene to aniline using both catalytic hydrogenation and Sn/HCl, explain why Fe/HCl is preferred industrially, and calculate the stoichiometric amount of reducing agent needed for a given mass of nitro compound.",
+     "self_check": true
     }
    ]
   }

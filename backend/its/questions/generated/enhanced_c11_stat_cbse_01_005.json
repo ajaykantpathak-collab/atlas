@@ -34,6 +34,31 @@
      "q": "Create a new real-world scenario (different from textbook examples) where an economic decision requires: (a) qualitative data, (b) quantitative data, (c) establishing a relationship between two variables, and (d) forecasting. Specify the exact data types and the statistical purpose at each step.",
      "a": "Expected answer criteria: A coherent scenario (e.g., municipal corporation deciding on electric bus fleet size) with: (a) qualitative — commuter satisfaction surveys (Likert scale: very dissatisfied to very satisfied), purpose: understand non-price barriers; (b) quantitative — daily ridership counts, current diesel bus km, electricity tariff per kWh, purpose: cost-benefit inputs; (c) relationship — regression of ridership on fare, frequency, and travel time using past data, purpose: demand elasticity estimation; (d) forecasting — time-series projection of ridership for 2028 using population growth and urbanisation trends, purpose: fleet procurement planning. A poor answer mixing up data types (e.g., calling satisfaction scores \"quantitative\" without coding) or omitting the statistical purpose reveals inability to map the statistical functions (collection, condensation, relationship, prediction) to an economic decision cycle.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Statistics and Economics are ______ disciplines where Economics provides the theoretical framework and real-world problems (scarcity, choice, allocation), while Statistics supplies the quantitative tools (data collection, analysis, interpretation) to measure economic variables, test hypotheses, establish relationships, and formulate evidence-based policies.",
+     "a": "interdependent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine the government announces a new policy: \"Free ______ up to 200 units for all households.\" As a student of economics, you ask: How did they decide on 200 units?",
+     "a": "electricity",
+     "self_check": true
+    },
+    {
+     "q": "What is Statistics and Economics? State the definition given in this lesson.",
+     "a": "Statistics and Economics are interdependent disciplines where Economics provides the theoretical framework and real-world problems (scarcity, choice, allocation), while Statistics supplies the quantitative tools (data collection, analysis, interpretation) to measure economic variables, test hypotheses, establish relationships, and.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Statistics and Economics?",
+     "a": "Students believe \"Statistics proves Economic theories\" — they think running a regression or calculating a correlation coefficient confirms a causal economic relationship (e.g., \"price rise causes demand fall because correlation is negative\").",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain with a concrete example how a specific economic problem (e.g., unemployment, price rise) requires statistical data at each stage: problem identification, cause analysis, policy formulation, and impact evaluation, and can distinguish between the roles of economic theory and statistical method.",
+     "self_check": true
     }
    ]
   }

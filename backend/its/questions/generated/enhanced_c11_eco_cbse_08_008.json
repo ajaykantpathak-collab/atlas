@@ -34,6 +34,26 @@
      "q": "Design a 3-indicator \"Human Development Progress Scorecard\" for India (2015-2025) that would reveal whether the country is on track to close the HDI gap with China by 2030. Specify the indicators, target values, and the data sources you would use.",
      "a": "A strong scorecard: (1) Mean years of schooling (target: 8.5 by 2030 from 6.9 in 2023) – source: PLFS/NFHS; (2) Under-5 mortality rate (target: 15 from 32 in 2023) – source: SRS/NFHS; (3) Multidimensional poverty headcount (target: <5% from 14.9% in 2019-21) – source: NITI Aayog MPI. Each indicator must be disaggregated by state, gender, and wealth quintile. A poor answer lists only aggregate national targets or uses GDP growth as a proxy, missing that HDI convergence requires distribution-sensitive, capability-focused metrics—not income proxies.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Human development indicators—literacy rate, life expectancy at birth, and health metrics (infant mortality rate, maternal mortality rate, access to sanitation and drinking water)—are composite measures of a population's capability to lead a long, healthy, and knowledgeable life; they reflect the effectiveness of public investment in social ______ (education, healthcare, nutrition) and serve as critical benchmarks for comparing developmental outcomes across countries beyond per capita income alone.",
+     "a": "infrastructure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a policy analyst at NITI Aayog comparing why a child born in Kerala lives 12 years longer than one in Madhya Pradesh, and why China's life ______ (78) exceeds India's (72) despite similar per capita incomes in 1980.",
+     "a": "expectancy",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by opening Table ______ from your textbook: observe that China leads on every indicator except urbanisation rate.",
+     "a": "8.5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can interpret HDI component data tables to rank India, China, and Pakistan on each indicator, calculate percentage gaps between countries, and explain how pre-reform social infrastructure investments (China's commune-era health network) create path dependence that persists post-reform, while identifying why India's.",
+     "self_check": true
     }
    ]
   }

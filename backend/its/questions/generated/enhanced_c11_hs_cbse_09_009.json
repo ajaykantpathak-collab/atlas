@@ -34,6 +34,26 @@
      "q": "Design a \"preschool clothing checklist\" for a low-income rural family in Rajasthan (hot summers, cold winters, limited water for laundry, hand-me-downs common). The checklist must have 8 items, each linked to one of the six core needs, and be usable by a non-literate caregiver (visual/pictorial cues suggested).",
      "a": "Sample checklist (need → item → visual cue):\n1. Comfort → Soft cotton fabric, no stiff starch → 👕 with ✓ / 🌵 with ✗\n2. Safety → No loose drawstrings, secure buttons → 🔗 with ✗ / 🔘 with ✓\n3. Self-help → Front opening, large buttons, clear front/back → 👚➡️👶 / 🔙➡️🚫\n4. Appearance → Bright colour, small-scale print → 🌈 / 🐘 (large print ✗)\n5. Growth allowance → Adjustable shoulder straps, hem cuffs → ↔️👕 / 📏\n6. Easy care → No lace/trim, flat seams, dries fast → ☀️👕 / 💧⏱️\n7. Durability (Easy care + Growth) → Reinforced knees/elbows → 🏃🛡️\n8. Climate adaptability → Light cotton layers for summer, cotton-wool blend for winter → ☀️🧥 / ❄️🧥\nA poor answer lists generic items (\"good fabric\") without linking to *specific needs* or *contextual constraints* (water scarcity → fast-dry; hand-me-downs → growth features essential).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Clothing requirements for preschool children (2–6 years) refer to the specific garment features, fabric choices, and design elements that address the rapid physical growth, high activity levels, developing self-help skills, emerging personality preferences, and social awareness ______ of this developmental stage, ensuring comfort, safety, durability, ease of care, and autonomy.",
+     "a": "characteristic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping a parent choose a wardrobe for their 4-year-old daughter starting ______ in Delhi in July.",
+     "a": "preschool",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping a parent choose a wardrobe for their ______-year-old daughter starting preschool in Delhi in July.",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can evaluate a given preschool garment design against all six core criteria (comfort, safety, self-help, appearance, growth allowance, easy care) and justify fabric and feature selections for a specific Indian preschool context (e.g., climate, socio-economic setting, cultural norms).",
+     "self_check": true
     }
    ]
   }

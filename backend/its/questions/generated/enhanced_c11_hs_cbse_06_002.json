@@ -34,6 +34,31 @@
      "q": "Design a communication strategy for a new government nutrition scheme targeting rural mothers. Specify which components use one-way media (radio, posters) and which use two-way methods (SHG meetings, IVRS helpline), and explain the *transition logic* between them.",
      "a": "Good answer: Phase 1 (Awareness) — One-way: Radio jingles, wall paintings (high reach, low cost, simple message). Phase 2 (Understanding) — Two-way: Anganwadi worker home visits, SHG discussions (clarify doubts, address myths). Phase 3 (Adoption support) — Two-way: IVRS helpline for dosage timing, peer groups for sustained practice. Transition logic: One-way creates *common knowledge*; two-way builds *shared understanding* and *behavioural capacity*. Poor answer uses only one mode or sequences randomly, showing inability to match communication type to stage of adoption curve.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: One-way communication is a linear process where the sender transmits information to the receiver without provision for immediate feedback or reciprocal exchange, resulting in ______ flow (e.g., lecture, radio broadcast).",
+     "a": "unidirectional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are watching a recorded video lecture on YouTube about ______.",
+     "a": "nutrition",
+     "self_check": true
+    },
+    {
+     "q": "What is One-way communication? State the definition given in this lesson.",
+     "a": "One-way communication is a linear process where the sender transmits information to the receiver without provision for immediate feedback or reciprocal exchange, resulting in unidirectional flow (e.g., lecture, radio broadcast).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about One-way communication?",
+     "a": "Students believe \"digital/interactive technology automatically makes communication two-way.\" Example: They classify a YouTube live stream with chat as two-way because comments exist.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify any given real-life communication scenario as one-way or two-way by identifying the presence/absence of a feedback loop, directionality of flow, and reciprocity, and justify the classification using the SMCRE model elements (Source, Message, Channel, Receiver, Effect).",
+     "self_check": true
     }
    ]
   }

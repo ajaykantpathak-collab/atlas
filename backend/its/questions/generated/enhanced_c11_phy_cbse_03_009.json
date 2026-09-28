@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a metre scale, a thread, and a few pins on a cardboard to demonstrate that displacement magnitude is always less than or equal to path length. Describe the procedure and what measurements you would take.",
      "a": "Fix pins at points A and B on cardboard. Stretch a thread from A to B along a curved path (e.g., via pin C) and measure its length L_path. Then stretch the thread straight from A to B and measure L_displacement. Observe L_displacement ≤ L_path, with equality only when the path is straight. A poor answer might just say \"measure distance\" without specifying the two different measurements (curved vs straight) or without identifying which corresponds to path length and which to displacement. This reveals lack of operational understanding of the definitions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A position vector r of a particle P in a plane is the vector drawn from a chosen origin O to the particle's location, ______ as r = xî + yĵ where x, y are Cartesian coordinates (SI unit: metre, m).",
+     "a": "represented",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a ceiling fan: the tip of a blade moves in a ______.",
+     "a": "circle",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) write the position vector of a point given its coordinates and identify the coordinates from a position vector expression; (2) calculate the displacement vector between two points in component form and find its magnitude and direction; (3) explain why displacement magnitude is always less than or equal to path length.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a ______ fan: the tip of a blade moves in a circle.",
+     "a": "ceiling",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a simple classification activity using only a disarticulated human skeleton model (no labels) that would allow a Class 9 student to sort all 206 bones into axial and appendicular piles. List the step-by-step decision rules they would use.",
      "a": "Step 1: Identify the skull, vertebral column, sternum, ribs — place in \"Axial\" pile. Step 2: Identify the two clavicles and two scapulae — place in \"Appendicular\" (pectoral girdle). Step 3: Identify all upper limb bones (humerus, radius, ulna, carpals, metacarpals, phalanges) — place in \"Appendicular\". Step 4: Identify the two hip bones (each fused ilium+ischium+pubis) — place in \"Appendicular\" (pelvic girdle). Step 5: Identify all lower limb bones (femur, patella, tibia, fibula, tarsals, metatarsals, phalanges) — place in \"Appendicular\". Step 6: Verify counts: Axial ~80, Appendicular ~126. A poor answer (e.g., \"sort by size\") reveals the student lacks a systematic anatomical decision framework and relies on superficial features rather than structural/functional criteria.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The human skeleton is divided into two major parts: the axial skeleton (80 bones) forming the central axis including the skull, vertebral column, sternum, and ribs; and the ______ skeleton (126 bones) comprising the limbs and their connecting girdles (pectoral and pelvic) that attach to the axial skeleton.",
+     "a": "appendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stand up and gently twist your torso side-to-side while keeping your hips still — you feel your rib cage and spine (axial ______) rotating.",
+     "a": "skeleton",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify any named human bone as axial or appendicular, explain the functional difference between the two divisions, and identify the specific bones that form the pectoral and pelvic girdles linking the limbs to the axial skeleton.",
+     "self_check": true
     }
    ]
   }

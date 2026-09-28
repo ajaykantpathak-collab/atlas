@@ -16,8 +16,8 @@
      "self_check": true
     },
     {
-     "q": "Solid iodine (I₂) is placed in a sealed evacuated flask at 25°C. Purple vapour appears and gradually darkens until its colour intensity becomes constant. Write the equilibrium equation, identify the constant intensive property, and calculate the vapour pressure of iodine at 25°C if the density of the vapour is 0.012 g/L (Molar mass I₂ = 254 g/mol, R = 0.0821 L·atm·mol⁻¹·K⁻¹).",
-     "a": "**Equation:** I₂(s) ⇌ I₂(g)  \n**Constant property:** Vapour pressure of iodine at 25°C  \n**Calculation:**  \nPV = nRT → P = (density/M) × RT = (0.012 g/L ÷ 254 g/mol) × 0.0821 L·atm·mol⁻¹·K⁻¹ × 298 K = 1.16 × 10⁻³ atm  \nA wrong calculation (e.g., using M = 127 g/mol for I atom) reveals confusion between atomic and molecular molar mass. Forgetting to write the equilibrium equation with phases shows inability to represent physical equilibrium formally.",
+     "q": "Solid iodine in a sealed flask at 25 degree Celsius develops a vapour density of 0.012 g per litre. Calculate its vapour pressure in atm.",
+     "a": "Using P = (density / M) x R x T with molar mass 254 g per mol: P = (0.012 / 254) x 0.0821 x 298 = 0.00116 atm. A wrong answer that uses 127 g per mol for atomic iodine shows the student has confused the molecule with the atom.",
      "self_check": true
     },
     {
@@ -33,6 +33,36 @@
     {
      "q": "Design a simple experiment using household items (pressure cooker, water, thermometer, stopwatch) to demonstrate that the boiling point of water increases with pressure. Describe the procedure, what you would measure, and how you would relate it to liquid-vapour equilibrium and Le Chatelier's principle.",
      "a": "**Procedure:** (1) Heat 200 mL water in an open pan — record temperature when vigorous boiling starts (T₁ ≈ 100°C at 1 atm). (2) Heat 200 mL water in a pressure cooker *without* the weight/whistle — record temperature when steady steam escapes the vent (T₂ > 100°C, pressure > 1 atm). (3) Repeat with weight on, noting higher temperature (T₃ > T₂).  \n**Measurements:** Boiling temperature at different pressures.  \n**Relation:** Liquid-vapour equilibrium H₂O(l) ⇌ H₂O(g) has ΔV > 0. Increasing pressure (by restricting vapour escape) shifts equilibrium toward liquid (Le Chatelier), requiring higher temperature to re-establish equilibrium (higher vapour pressure). A poor design (e.g., not measuring temperature at steady steam, or using open pan for all trials) shows inability to control variables and connect macroscopic observation to molecular equilibrium shift.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Equilibrium in physical processes is a dynamic state in a closed system where opposing physical changes (such as melting/freezing, evaporation/condensation, or sublimation/deposition) occur at equal rates, resulting in no net change in the macroscopic properties (temperature, pressure, ______) of the system over time.",
+     "a": "concentration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a sealed bottle of carbonated drink (like Thums Up or Limca) at room ______ — you see no bubbles rising, yet when you open it, CO₂ fizzes out violently.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "What is Equilibrium in physical processes? State the definition given in this lesson.",
+     "a": "Equilibrium in physical processes is a dynamic state in a closed system where opposing physical changes (such as melting/freezing, evaporation/condensation, or sublimation/deposition) occur at equal rates, resulting in no net change in the macroscopic properties (temperature, pressure, concentration) of the system over time.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now place an ice cube in a insulated flask at ______°C — it neither melts completely nor grows; solid and liquid water coexist at constant temperature.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Equilibrium in physical processes?",
+     "a": "Students believe that at physical equilibrium, all molecular motion stops — they write \"evaporation stops\" or \"no molecules cross the interface\" instead of \"rate of evaporation = rate of condensation\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) identify the type of physical equilibrium in a given scenario (solid-liquid, liquid-vapour, solid-vapour, gas-solution) and state the constant intensive property that defines it; (2) explain why physical equilibrium is dynamic at the molecular level but static at the macroscopic level; (3) predict the.",
      "self_check": true
     }
    ]

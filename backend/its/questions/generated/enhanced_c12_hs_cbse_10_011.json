@@ -34,6 +34,21 @@
      "q": "Create a one-day vegetarian menu for a 50-year-old woman with both Type 2 diabetes (1600 kcal, 55% carb) and hypertension (DASH, <2300mg Na). Use ICMR food exchanges. Show: meal timing, food items with exchange counts, and one key modification for EACH meal that addresses BOTH conditions simultaneously.",
      "a": "Expected criteria: (1) Total ~1600 kcal, ~14.5 carb exchanges (55%); (2) Sodium <2300mg (use low-sodium cooking, no added salt); (3) High potassium foods (vegetables, fruits, dairy); (4) Fiber >25g; (5) Carb distribution: ~4-4-3-3.5; (6) Each meal shows dual modification (e.g., breakfast: oats porridge with milk + chia seeds — modification: oats instead of refined cereal for fiber + chia for omega-3/BP; lunch: brown rice + dal + spinach sabzi + curd — modification: brown rice for low GI + spinach for potassium + no salt in cooking).\nA poor answer gives a generic \"healthy\" menu without exchange counts, sodium awareness, or dual-condition modifications. This tests synthesis — the highest board competency level.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Therapeutic meal planning for diabetes and hypertension involves designing ______ diets that modify macronutrient distribution, micronutrient intake, meal timing, and food selection to manage blood glucose levels (diabetes) and blood pressure (hypertension) while meeting overall nutritional requirements for health maintenance.",
+     "a": "individualized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your 55-year-old uncle has just been diagnosed with both Type 2 diabetes (HbA1c 8.2%) and Stage 1 ______ (BP 145/92).",
+     "a": "hypertension",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Calculate carbohydrate exchanges and distribute them across meals for a diabetic patient using ICMR food exchange lists; (2) Design a one-day DASH-compliant menu for a hypertensive patient showing sodium <2300 mg, potassium >4700 mg, and appropriate macronutrient distribution.",
+     "self_check": true
     }
    ]
   }

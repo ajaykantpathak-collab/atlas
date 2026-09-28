@@ -34,6 +34,31 @@
      "q": "Create a linear polynomial in \\(x\\) that represents this situation: \"A taxi charges ₹15 per kilometre plus a fixed boarding charge of ₹25.\" Identify its degree, leading coefficient, and constant term. Then write a different linear polynomial where the per-km rate is higher but the boarding charge is lower.",
      "a": "First polynomial: \\(15x + 25\\). Degree = 1, leading coefficient = 15, constant term = 25. Second example: \\(20x + 10\\) (or any \\(ax + b\\) with \\(a > 15\\) and \\(b < 25\\)). A poor answer (e.g., \\(x + 40\\) or \\(15x^2 + 25\\)) reveals the student cannot translate rates to coefficients, or confuses linear with quadratic.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The degree of a linear ______ is the highest power of the variable, which is always 1.",
+     "a": "polynomial",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are comparing two mobile recharge ______: Plan A charges ₹5 per minute with no fixed fee, while Plan B charges ₹3 per minute plus a fixed ₹20 monthly fee.",
+     "a": "plans",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The degree of a linear polynomial is the highest power of the variable, which is always ______.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify the degree and coefficients (leading coefficient and constant term) of any linear polynomial written in standard or non-standard form, and explain why the degree must be exactly 1 for a polynomial to be classified as linear.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ two mobile recharge plans: Plan A charges ₹5 per minute with no fixed fee, while Plan B charges ₹3 per minute plus a fixed ₹20 monthly fee.",
+     "a": "comparing",
+     "self_check": true
     }
    ]
   }

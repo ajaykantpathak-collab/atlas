@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a carrom board, striker, and coins to verify that two equal masses in a 2D elastic collision move at right angles after impact. List the measurements you would take, the procedure to minimize friction effects, and how you would analyze the data to confirm the 90° prediction.",
      "a": "**Procedure:** (1) Level the carrom board and sprinkle fine boric powder to reduce friction. (2) Place a target coin at the centre. (3) Shoot the striker from a fixed position with consistent force (use a spring launcher for repeatability). (4) Record the trajectories using a smartphone camera at 60 fps from directly above. (5) Repeat for 10+ trials with varying impact parameters (off-center hits). **Measurements:** Track centroid positions frame-by-frame to get velocity vectors before and after collision for both striker and coin. **Analysis:** For each trial, compute angle between final velocity vectors \\( \\theta_1 \\) and \\( \\theta_2 \\); plot histogram of \\( \\theta_1 + \\theta_2 \\). Expect peak at 90° with spread due to friction, rotation, and measurement error. **Confirmation:** If mean \\( \\theta_1 + \\theta_2 \\approx 90^\\circ \\) and energy loss < 10%, prediction verified. A poor answer (e.g., \"just look at it\") reveals lack of quantitative experimental design skill.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A collision in two dimensions occurs when two bodies interact such that their initial and final velocities lie in a plane, requiring vector momentum conservation in two ______ directions (typically x and y axes).",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Obstitute a carrom striker hitting a ______ coin at an angle — the coin moves off at one angle and the striker deflects at another, both in the plane of the board.",
+     "a": "stationary",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently set up and solve the two momentum component equations and the energy equation (for elastic collisions) for a two-dimensional collision where one body is initially at rest, correctly identifying the number of unknowns and the need for an additional measured quantity (e.g., one scattering angle) to obtain a.",
+     "self_check": true
     }
    ]
   }

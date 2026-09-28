@@ -34,6 +34,31 @@
      "q": "Create a real-life word problem (Indian context) where using the complement rule P(not E) = 1 - P(E) is much easier than directly counting favourable outcomes for E. Provide the problem statement and solve it.",
      "a": "Example problem: \"A bag contains 100 lottery tickets numbered 1 to 100. One ticket is drawn at random. Find the probability that the ticket number is NOT a multiple of 7.\"\nSolution: Multiples of 7 up to 100 are 7,14,...,98 → 14 multiples. P(multiple of 7) = 14/100 = 7/50. P(not multiple of 7) = 1 - 7/50 = 43/50.\nDirect counting of non-multiples would require listing 86 numbers. A poor answer creates a problem where direct counting is equally easy (e.g., \"not a 6 on a die\"), showing the student doesn't recognise when the complement rule is strategically useful.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For any event E in a random experiment with equally likely outcomes, the ______ event 'not E' (denoted as E' or Ē) consists of all outcomes in the sample space that are not in E.",
+     "a": "complementary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Instead of calculating the probability of getting a 6 ______, think: what is the probability of NOT getting a 6?",
+     "a": "directly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Use the fact that E and not E together make the whole sample space, so their probabilities add to ______.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly apply P(E) + P(not E) = 1 to find the probability of a complement when direct counting of favourable outcomes is cumbersome, and can justify why the formula holds using the partition of the sample space into E and not E.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Instead of ______ the probability of getting a 6 directly, think: what is the probability of NOT getting a 6?",
+     "a": "calculating",
+     "self_check": true
     }
    ]
   }

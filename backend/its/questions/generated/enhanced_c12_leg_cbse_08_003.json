@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_08_003",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_08_003",
+   "title": "c12_leg_cbse_08_003",
+   "questions": [
+    {
+     "q": "What is the minimum and maximum number of members allowed in a Private Limited Company under the Companies Act, 2013?",
+     "a": "A Private Limited Company requires a minimum of 2 members and a maximum of 200 members (excluding employees and ex-employees holding shares). A wrong answer (e.g., \"1 member\" or \"unlimited\") reveals confusion with OPC (min 1, max 1) or Public Limited Company (min 7, no max). This is a direct recall test of statutory limits — misremembering these numbers leads to incorrect entity selection in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a Partnership firm does NOT have a separate legal entity, but an LLP does — even though both are formed by agreement between partners.",
+     "a": "A Partnership firm is not a legal person distinct from its partners — it is merely a collective name for the partners acting together. The firm cannot own property, sue, or be sued in its own name; all rights and liabilities vest in the partners personally. An LLP, under the LLP Act, 2008, is explicitly created as a \"body corporate\" with perpetual succession — it can own assets, enter contracts, and sue/be sued in its own name. A wrong answer that says \"both are created by agreement, so both are separate entities\" shows a fundamental misunderstanding of legal personality — confusing *formation method* with *legal consequence*.",
+     "self_check": true
+    },
+    {
+     "q": "A group of 50 artisans in a village want to form a legal entity to sell their handicrafts online. They need limited liability, want to raise funds from impact investors later, and want the entity to continue even if some members leave. They also want low compliance costs. Which entity form is most suitable? Justify by comparing at least three alternatives.",
+     "a": "A **Private Limited Company** is most suitable.  \nStep 1: Identify needs — limited liability (rules out Sole Proprietorship and Partnership), perpetual succession (rules out Partnership), investor fundraising via equity (rules out LLP — investors prefer shares in a company), and 50 members (within Private Ltd max of 200).  \nStep 2: Compare alternatives —  \n- LLP: Offers limited liability and low compliance, but cannot issue shares; investors typically avoid LLPs due to no shareholding structure.  \n- Public Limited Company: Allows public fundraising but has 7+ members minimum, strict disclosure norms, and high compliance — overkill for 50 artisans.  \n- Partnership: No limited liability, no perpetual succession, no separate legal entity.  \nStep 3: Private Limited Company balances all needs — limited liability, share-based investment, perpetual succession, 2–200 members, and manageable compliance for a growing venture.  \nA wrong choice of LLP reveals ignorance of investor preference for equity shares; choosing Public Ltd shows failure to match scale to regulatory burden.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the liability of a partner in a Partnership firm vs. a partner in an LLP when another partner commits a fraud in the course of business without their knowledge.",
+     "a": "In a **Partnership**, partners are **jointly and severally liable** — each partner is an agent of the firm, so the fraud of one binds all. The innocent partner’s personal assets can be attached to pay the firm’s debts.  \nIn an **LLP**, under Section 27 of the LLP Act, 2008, a partner is **not liable** for the independent or unauthorized actions of another partner. Liability is limited to their agreed contribution. Only the fraudulent partner is personally liable.  \nA wrong answer claiming \"both have limited liability\" or \"LLP partners are also jointly liable\" confuses LLP with Partnership or misreads the statutory shield. This distinction is critical — it’s the core reason professionals (lawyers, CAs) prefer LLPs.",
+     "self_check": true
+    },
+    {
+     "q": "\"An OPC is just a Sole Proprietorship with a fancy name and a nominee.\" Evaluate this statement. Is it true, false, or partially true? Defend your position with three legal differences.",
+     "a": "**False.** The statement is a dangerous oversimplification. Three legal differences:  \n1. **Separate Legal Entity**: OPC is a distinct legal person under the Companies Act, 2013 — it can own property, sue, and be sued in its own name. A Sole Proprietorship has no separate existence; the owner *is* the business.  \n2. **Limited Liability**: In OPC, the member’s liability is limited to unpaid share capital. In Sole Proprietorship, liability is **unlimited** — personal assets are at risk for business debts.  \n3. **Perpetual Succession**: OPC continues after the member’s death via the nominee. Sole Proprietorship ends on death, insanity, or bankruptcy of the proprietor.  \nA student who calls this \"partially true\" fails to grasp that limited liability and separate legal entity are not cosmetic — they fundamentally alter risk, creditworthiness, and business continuity.",
+     "self_check": true
+    },
+    {
+     "q": "Design a new hybrid business entity for India that combines the low compliance of a Partnership with the limited liability of a Company, but allows unlimited members and public fundraising. Name it, define its 4 key features, and explain which existing law would need amendment to enable it.",
+     "a": "**Entity Name**: **Flexible Capital Partnership (FCP)**  \n**Key Features**:  \n1. **Separate Legal Entity** — like a company, can own property, sue, be sued.  \n2. **Limited Liability** — partners liable only up to agreed contribution.  \n3. **Unlimited Members + Public Fundraising** — can issue \"partnership units\" to public via a simplified prospectus (like shares but with partnership tax pass-through).  \n4. **Low Compliance** — no mandatory audit unless turnover > ₹10 cr; no board meetings; governed by a Partnership Agreement, not Articles of Association.  \n**Law to Amend**: The **Indian Partnership Act, 1932** (to grant separate legal entity status) AND the **Companies Act, 2013** (to create a new class of \"Partnership Company\" with simplified governance). Alternatively, a new standalone statute.  \nA poor answer would copy LLP features without addressing public fundraising or unlimited members — showing inability to synthesize gaps in current forms.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

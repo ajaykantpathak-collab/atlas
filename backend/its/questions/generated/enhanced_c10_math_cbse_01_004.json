@@ -34,6 +34,26 @@
      "q": "Create a new problem of the form \"Prove that a^n cannot end with digit d\" where a is a two-digit composite number and d is a digit from 0-9. Choose a and d such that the proof requires checking the absence of a specific prime factor. State the problem and outline the proof strategy.",
      "a": "Example problem: \"Prove that 14^n cannot end with the digit 5 for any natural number n.\"\nProof strategy: (1) 14 = 2 × 7, so 14^n = 2^n × 7^n. (2) A number ending in 5 must be divisible by 5, so its prime factorisation must contain 5. (3) 14^n has only primes 2 and 7 — no factor 5. (4) By Fundamental Theorem of Arithmetic, 5 cannot appear. (5) Therefore 14^n cannot end in 5. A poor answer chooses a trivial case (e.g., 10^n cannot end in 3) or fails to identify the correct missing prime factor for the target digit.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A natural number ends with digit zero if and only if it is divisible by 10, which requires both prime factors 2 and 5 in its prime ______.",
+     "a": "factorisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ whether 12^5 ends with zero — you could multiply it out, but what about 12^100?",
+     "a": "checking",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Therefore, by the Fundamental Theorem of Arithmetic (unique prime factorisation), ______^n cannot end with the digit zero for any n ∈ ℕ.",
+     "a": "12",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can prove that any power of a given integer cannot end with a specific digit by analysing its prime factorisation and applying the Fundamental Theorem of Arithmetic, and can generalise this method to similar problems (e.g., prove 6^n cannot end with 0, or 15^n cannot end with 2).",
+     "self_check": true
     }
    ]
   }

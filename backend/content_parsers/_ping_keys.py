@@ -1,3 +1,4 @@
+import os
 """Ping both Claude API keys and check rate limit status."""
 import json
 import urllib.request
@@ -8,8 +9,8 @@ CTX.check_hostname = False
 CTX.verify_mode = ssl.CERT_NONE
 
 KEYS = {
-    "key0": "sk-ant-co-QsK1rhxdfRWZ65OJ5cVxaAZ5ISNUY0lK",
-    "key1": "sk-ant-co-gIEUzRWw_mtUpxKk668B1lzJe3XntCna",
+    "key0": os.environ.get('ANTHROPIC_API_KEY') or '',
+    "key1": os.environ.get('ANTHROPIC_API_KEY') or '',
 }
 
 API_URL = "https://api.claudeopus.pro/v1/messages"

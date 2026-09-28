@@ -34,6 +34,21 @@
      "q": "Create a real-world scenario (Indian context) where you would deliberately choose UNEQUAL class intervals for a frequency distribution. Specify the variable, the likely data pattern, and how you would set the class limits.",
      "a": "Scenario: Monthly household income in a village (₹). Most households earn ₹3,000–10,000 (dense cluster), a few earn ₹10,000–50,000, and 1–2 earn ₹1,00,000+. Use narrow intervals (₹500 width) for ₹3,000–10,000, wider (₹5,000) for ₹10,000–50,000, and one open-ended class \"₹50,000 and above\". This matches NCERT's income example (Section \"Should we have equal or unequal sized class intervals?\"). A poor answer (equal intervals everywhere, or no justification) shows the student treats class interval choice as a mechanical rule rather than a decision driven by data shape — the analytical thinking board exams reward.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A frequency distribution is a systematic arrangement of raw data into classes (groups) showing the number of observations (frequency) falling in each class, thereby summarising large datasets into a ______ format for statistical analysis.",
+     "a": "comprehensible",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class ______ and your teacher hands you a sheet with the mathematics marks of all 60 students in your class — completely jumbled, no order, just 60 numbers.",
+     "a": "representative",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently construct a frequency distribution table from raw data by determining appropriate class intervals, class limits, and tallying frequencies correctly, and can explain why the class mark replaces individual observations in further calculations.",
+     "self_check": true
     }
    ]
   }

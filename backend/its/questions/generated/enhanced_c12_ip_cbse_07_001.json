@@ -34,6 +34,31 @@
      "q": "Create a personal cyber safety checklist for a Class 12 student preparing for board exams and competitive entrances (JEE/NEET/CUET), covering five distinct threat categories relevant to their specific context (online mock tests, coaching portals, admit card downloads, scholarship applications, peer collaboration). Format as a table with columns: Threat Category, Specific Scenario, Preventive Action, Legal Recourse (IT Act section).",
      "a": "A strong answer produces a table like:\n| Threat Category | Specific Scenario | Preventive Action | Legal Recourse |\n|---|---|---|---|\n| Phishing | Fake JEE mock test link sent via WhatsApp asking for login | Verify domain (jeeadv.ac.in only), use bookmarked URLs, enable 2FA on coaching portal | Sec 66C (identity theft), Sec 66D (cheating by personation) |\n| Credential Stuffing | Reused password from coaching site leaked, used on scholarship portal | Unique passphrase per site via password manager, check haveibeenpwned.com | Sec 43 (unauthorized access), Sec 66 (computer-related offence) |\n| Malware | Pirated \"previous year papers\" PDF with embedded trojan | Download only from official sites (ncert.nic.in, jeeadv.ac.in), scan with updated antivirus | Sec 43(c) (introducing virus), Sec 66F (cyber terrorism if critical infra) |\n| Privacy Violation | Coaching app requests excessive permissions (contacts, SMS, location) | Review permissions, use web version, deny non-essential access | IT Rules 2021 Rule 4(2) (data minimization), Sec 43A (negligent data handling) |\n| Social Engineering | \"Senior\" on Telegram offers \"leaked paper\" for UPI payment | Recognize advance-fee fraud, never pay for illegal material, report to cybercrime.gov.in | Sec 66D (cheating), Sec 420 IPC (cheating) |\n\nA poor answer lists generic tips (strong password, antivirus) without mapping to the student's specific high-stakes context, showing inability to contextualize — a competency gap for CUET/board case studies.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cyber safety refers to the practice of protecting oneself and one's digital assets — including personal data, devices, online accounts, and digital identity — from ______ access, theft, damage, or misuse while using internet-connected technologies.",
+     "a": "unauthorized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive a ______ message claiming your bank KYC has expired and asking you to click a link to update it — the link looks almost identical to your bank's website.",
+     "a": "WhatsApp",
+     "self_check": true
+    },
+    {
+     "q": "What is Cyber safety? State the definition given in this lesson.",
+     "a": "Cyber safety refers to the practice of protecting oneself and one's digital assets — including personal data, devices, online accounts, and digital identity — from unauthorized access, theft, damage, or misuse while using internet-connected technologies.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Cyber safety?",
+     "a": "Students believe \"cyber safety = installing antivirus + not clicking unknown links.\" This is dangerously incomplete because: (1) Modern threats (fileless malware, living-off-the-land binaries) bypass signature-based antivirus entirely.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain cyber safety in their own words with at least three concrete examples of personal digital risks, articulate why each risk matters for an individual (not just organizations), and correctly identify which Class 12 chapter nodes address each risk category.",
+     "self_check": true
     }
    ]
   }

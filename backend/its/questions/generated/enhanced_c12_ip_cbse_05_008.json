@@ -34,6 +34,31 @@
      "q": "Design a simplified ranking formula for a search engine that combines (a) keyword match score, (b) page authority score, and (c) freshness score. Define each component, assign weights, and explain how you would handle a query where the user explicitly wants the latest information (e.g., \"COVID-19 guidelines 2024\").",
      "a": "**Example formula**: `Score = 0.5 × KeywordMatch + 0.3 × Authority + 0.2 × Freshness`.  \n- `KeywordMatch`: TF-IDF cosine similarity between query and page (0–1).  \n- `Authority`: Normalized PageRank or trust score (0–1).  \n- `Freshness`: Exponential decay based on page age (1 for today, near 0 for years old).  \nFor \"latest information\" queries, dynamically increase the freshness weight (e.g., 0.5) and reduce authority weight, because recency outweighs established authority.  \n**Poor answer analysis**: A formula that ignores freshness or uses fixed weights for all queries shows inability to adapt ranking to query intent — a key competency in modern IR systems.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A search engine is a software system that discovers, organizes, and retrieves web content in response to user queries through three core processes: crawling (automated bots follow links to fetch web pages), indexing (storing and ______ fetched content for fast lookup), and ranking (ordering results by relevance using algorithms that weigh factors like keywords, link authority, and user context).",
+     "a": "structuring",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you search for \"best street food in Delhi\" and get millions of results in 0.5 seconds.",
+     "a": "Imagine",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you search for \"best street food in Delhi\" and get millions of results in ______ seconds.",
+     "a": "0.5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the end-to-end flow from a user query to a ranked results page, describe the role of crawlers, indexers, and ranking algorithms, and identify how each stage affects search quality and speed.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you search for \"best street food in Delhi\" and get ______ of results in 0.5 seconds.",
+     "a": "millions",
+     "self_check": true
     }
    ]
   }

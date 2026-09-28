@@ -4,15 +4,9 @@
   {
    "id": "jemh.110.10.1",
    "title": "Tangents to a Circle",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the circle formula with pi = 22/7",
-     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 42 gives 264",
-     "compute": "circ = 2 * 22 / 7 * 42"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 42 cm (take pi = 22/7).",
@@ -49,15 +43,9 @@
   {
    "id": "jemh.110.10.2",
    "title": "Tangent Perpendicular to Radius",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the circle formula with pi = 22/7",
-     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 42 gives 264",
-     "compute": "circ = 2 * 22 / 7 * 42"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 42 cm (take pi = 22/7).",
@@ -95,6 +83,8 @@
    "id": "jemh.110.10.3",
    "title": "Length of a Tangent from an External Point",
    "converted_to_compute": false,
+   "formula": "tangent = sqrt(d * d - r * r)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 49 cm (take pi = 22/7).",

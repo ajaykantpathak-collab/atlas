@@ -2,6 +2,53 @@
  "catalog": "catalog_class8_science_ch105.json",
  "concepts": [
   {
+   "id": "hesc.105.10",
+   "title": "Paper Recycling and Tree Preservation",
+   "converted_to_compute": true,
+   "formula": "trees_saved = 17 * paper_tonnes",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "trees_saved = 17 * paper_tonnes",
+     "compute": "trees_saved = 17 * paper_tonnes"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Paper Recycling and Tree Preservation: given paper_tonnes = 81, find trees saved.",
+     "a": "1377",
+     "self_check": false
+    },
+    {
+     "q": "For Paper Recycling and Tree Preservation: given paper_tonnes = 21, find trees saved.",
+     "a": "357",
+     "self_check": false
+    },
+    {
+     "q": "For Paper Recycling and Tree Preservation: given paper_tonnes = 112, find trees saved.",
+     "a": "1904",
+     "self_check": false
+    },
+    {
+     "q": "For Paper Recycling and Tree Preservation: given paper_tonnes = 58, find trees saved.",
+     "a": "986",
+     "self_check": false
+    },
+    {
+     "q": "For Paper Recycling and Tree Preservation: given paper_tonnes = 73, find trees saved.",
+     "a": "1241",
+     "self_check": false
+    },
+    {
+     "q": "For Paper Recycling and Tree Preservation: given paper_tonnes = 10.2, find trees saved.",
+     "a": "173.4",
+     "self_check": false
+    }
+   ]
+  },
+  {
    "id": "hesc.105.1",
    "title": "Deforestation and Its Causes",
    "solution_type": "verify_property",
@@ -196,88 +243,6 @@
      "q": "How do migratory birds find their way?",
      "a": "They follow landmarks, the sun and stars, and the earth's magnetic field.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "hesc.105.10",
-   "title": "Paper Recycling and Tree Preservation",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "trees_saved",
-     "expr": "17 * paper_tonnes",
-     "explain": "each tonne of recycled paper spares about seventeen trees"
-    },
-    {
-     "step": 2,
-     "name": "tonnes_per_tree",
-     "expr": "paper_tonnes / 17",
-     "explain": "tonnes recycled per tree saved"
-    },
-    {
-     "step": 3,
-     "name": "trees_per_person",
-     "expr": "trees_saved / people_recycling",
-     "explain": "trees saved for each household that recycles"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A colony recycles 5 tonnes of paper. How many trees are saved, and how many per family if 25 families recycle equally?",
-     "vals": {
-      "paper_tonnes": 5,
-      "people_recycling": 25
-     },
-     "unit": "trees",
-     "steps": null,
-     "a": "3.4 trees",
-     "self_check": false
-    },
-    {
-     "q": "A school collects 2 tonnes of paper for recycling. Calculate the trees saved.",
-     "vals": {
-      "paper_tonnes": 2,
-      "people_recycling": 1
-     },
-     "unit": "trees",
-     "steps": null,
-     "a": "34 trees",
-     "self_check": false
-    },
-    {
-     "q": "A city recycles 40 tonnes of paper yearly. How many trees does this spare, and per ward if 8 wards share it?",
-     "vals": {
-      "paper_tonnes": 40,
-      "people_recycling": 8
-     },
-     "unit": "trees",
-     "steps": null,
-     "a": "85 trees",
-     "self_check": false
-    },
-    {
-     "q": "An office recycles half a tonne (0.5 t) of paper each month. How many trees are saved in a year's worth of such effort?",
-     "vals": {
-      "paper_tonnes": 0.5,
-      "people_recycling": 1
-     },
-     "unit": "trees",
-     "steps": null,
-     "a": "8.5 trees",
-     "self_check": false
-    },
-    {
-     "q": "A district recycles 12 tonnes of paper; 60 villages share the credit. Find trees saved and per village.",
-     "vals": {
-      "paper_tonnes": 12,
-      "people_recycling": 60
-     },
-     "unit": "trees",
-     "steps": null,
-     "a": "3.4 trees",
-     "self_check": false
     }
    ]
   },

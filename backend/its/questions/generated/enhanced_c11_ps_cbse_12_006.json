@@ -34,6 +34,26 @@
      "q": "Design a hybrid electoral system for a hypothetical Indian state with 100 assembly seats that retains FPTP's constituency accountability but improves proportionality for smaller parties. Specify the seat allocation formula and justify each component with reference to Indian constitutional principles.",
      "a": "A strong answer proposes a Mixed Member Proportional (MMP) model: e.g., 70 FPTP constituency seats + 30 compensatory list seats allocated to match state-wide vote shares, with a 5% threshold. Justification: retains Article 81-style territorial representation; compensatory seats address vote wastage; threshold prevents excessive fragmentation (unlike pure PR). A poor answer copies a foreign model without adapting to India's federal structure, reservation requirements (Article 330/332), or anti-defection law implications.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: India adopted the First Past the Post (FPTP) electoral system for Lok Sabha and State Legislative Assembly elections because it ensures stable single-party governments, maintains a direct constituency link between voters and ______, and suits India's vast social diversity and federal structure.",
+     "a": "representatives",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a voter in a diverse ______ like Malkajgiri (Telangana) with 31 lakh voters — you want your MP to know your local water crisis, not just represent a party list.",
+     "a": "constituency",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a voter in a diverse constituency like Malkajgiri (Telangana) with ______ lakh voters — you want your MP to know your local water crisis, not just represent a party list.",
+     "a": "31",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain at least three distinct reasons why the Constituent Assembly preferred FPTP over Proportional Representation, citing specific constitutional articles and historical debates, and can evaluate how this choice shapes India's party system and government stability.",
+     "self_check": true
     }
    ]
   }

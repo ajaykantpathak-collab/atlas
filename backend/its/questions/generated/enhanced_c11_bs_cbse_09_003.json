@@ -34,6 +34,31 @@
      "q": "Design a 3-column table for a hypothetical MSME case study. Column 1: Each of the 7 MSME problems. Column 2: A specific, measurable symptom the owner would observe (e.g., \"Current ratio < 1.2 for 3 consecutive quarters\"). Column 3: The root cause that is NOT simply \"lack of money\" (e.g., for finance: \"Inability to provide collateral acceptable to scheduled banks due to informal property titles\"). Create the complete table with all 7 rows filled.",
      "a": "Expected table structure (sample row for Finance):\n| Problem | Measurable Symptom | Root Cause (Non-Financial) |\n|---------|-------------------|---------------------------|\n| Finance | Current ratio < 1.2 for 3+ quarters; >60 days receivables | Informal property titles prevent collateralisation; no credit history for formal scoring |\n| Raw Material | >15% production stoppages due to stockouts; input cost 20% above market | No warehousing → cannot bulk purchase; small lots → no negotiating power |\n| Managerial | Owner works 70+ hrs/week; zero strategic planning days in 6 months | Cannot afford professional managers; no succession planning; technical skill ≠ management skill |\n| Marketing | >80% sales through 2 middlemen; avg payment delay 90 days | No distribution network; no brand visibility; no market research capability |\n| Quality | >5% rejection rate; no ISO/BIS certification; customer complaints rising | No testing lab access; outdated machinery cannot hold tolerances; no R&D budget |\n| Capacity Utilisation | Operating at <50% installed capacity for 2+ years | Erratic orders due to marketing weakness; raw material stockouts; machine breakdowns |\n| Global Competition | Export orders lost to Vietnam/Bangladesh quotes 30% lower | No scale economies; higher per-unit compliance cost; no trade fair participation |\n\nA poor answer uses \"lack of funds\" as root cause for all rows, showing inability to distinguish structural from financial constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Problems Faced by MSMEs in India refer to the structural, operational, and environmental constraints that systematically limit the growth, competitiveness, and sustainability of Micro, Small, and Medium Enterprises, including inadequate access to finance, raw material procurement challenges, managerial skill gaps, marketing weaknesses, quality control deficiencies, ______ of capacity, and vulnerability to global competition.",
+     "a": "underutilisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small ______ manufacturer in Jodhpur who employs 15 artisans and uses locally sourced sheesham wood.",
+     "a": "furniture",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small furniture manufacturer in Jodhpur who employs ______ artisans and uses locally sourced sheesham wood.",
+     "a": "15",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to categorise a given real-world MSME case study into the seven major problem areas (finance, raw materials, managerial skills, marketing, quality, capacity utilisation, global competition), explain the interlinkages between at least three problems, and justify which government scheme from the next node would.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small furniture ______ in Jodhpur who employs 15 artisans and uses locally sourced sheesham wood.",
+     "a": "manufacturer",
+     "self_check": true
     }
    ]
   }

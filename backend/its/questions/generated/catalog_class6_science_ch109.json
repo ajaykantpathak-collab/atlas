@@ -4,66 +4,141 @@
   {
    "id": "fesc.9.2.1",
    "title": "Adaptation",
-   "solution_type": "verify_property",
+   "converted_to_compute": true,
+   "formula": "survival = adaptation + environment",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "survival = adaptation + environment",
+     "compute": "survival = adaptation + environment"
+    }
+   ],
    "questions": [
     {
-     "q": "What is adaptation?",
-     "a": "Special body features or habits that help an organism survive in its surroundings.",
-     "self_check": true
+     "q": "For Adaptation: given adaptation = 75, environment = 81, find survival.",
+     "a": "156",
+     "self_check": false
     },
     {
-     "q": "Give one adaptation of a camel.",
-     "a": "Stores fat in its hump, drinks and stores much water, and has wide padded feet for sand.",
-     "self_check": true
+     "q": "For Adaptation: given adaptation = 95, environment = 7.6, find survival.",
+     "a": "102.6",
+     "self_check": false
     },
     {
-     "q": "Give one adaptation of a fish.",
-     "a": "Streamlined body and gills to breathe dissolved oxygen in water.",
-     "self_check": true
+     "q": "For Adaptation: given adaptation = 68, environment = 85, find survival.",
+     "a": "153",
+     "self_check": false
+    },
+    {
+     "q": "For Adaptation: given adaptation = 10, environment = 30, find survival.",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "For Adaptation: given adaptation = 22, environment = 68, find survival.",
+     "a": "90",
+     "self_check": false
+    },
+    {
+     "q": "For Adaptation: given adaptation = 78, environment = 76, find survival.",
+     "a": "154",
+     "self_check": false
     }
    ]
   },
   {
    "id": "fesc.9.2.2",
    "title": "Habitat Classification",
-   "solution_type": "verify_property",
+   "converted_to_compute": true,
+   "formula": "habitat = terrestrial + aquatic",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "habitat = terrestrial + aquatic",
+     "compute": "habitat = terrestrial + aquatic"
+    }
+   ],
    "questions": [
     {
-     "q": "Name the two broad habitat types.",
-     "a": "Terrestrial habitats (land - forests, deserts, mountains) and aquatic habitats (water - ponds, oceans).",
-     "self_check": true
+     "q": "For Habitat Classification: given terrestrial = 81, aquatic = 23, find habitat.",
+     "a": "104",
+     "self_check": false
     },
     {
-     "q": "What is a habitat?",
-     "a": "The place with air, water, food and shelter where an organism lives.",
-     "self_check": true
+     "q": "For Habitat Classification: given terrestrial = 27, aquatic = 52, find habitat.",
+     "a": "79",
+     "self_check": false
     },
     {
-     "q": "Give one example of an organism and its habitat.",
-     "a": "Camel - desert; lotus - pond.",
-     "self_check": true
+     "q": "For Habitat Classification: given terrestrial = 29, aquatic = 53, find habitat.",
+     "a": "82",
+     "self_check": false
+    },
+    {
+     "q": "For Habitat Classification: given terrestrial = 31, aquatic = 39, find habitat.",
+     "a": "70",
+     "self_check": false
+    },
+    {
+     "q": "For Habitat Classification: given terrestrial = 83, aquatic = 60, find habitat.",
+     "a": "143",
+     "self_check": false
+    },
+    {
+     "q": "For Habitat Classification: given terrestrial = 19.9, aquatic = 24, find habitat.",
+     "a": "43.9",
+     "self_check": false
     }
    ]
   },
   {
    "id": "fesc.9.2.3",
    "title": "Biotic and Abiotic Components",
-   "solution_type": "verify_property",
+   "converted_to_compute": true,
+   "formula": "ecosystem = biotic_components + abiotic_components",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ecosystem = biotic_components + abiotic_components",
+     "compute": "ecosystem = biotic_components + abiotic_components"
+    }
+   ],
    "questions": [
     {
-     "q": "What are biotic components of a habitat?",
-     "a": "The living parts - plants, animals, microbes around an organism.",
-     "self_check": true
+     "q": "For Biotic and Abiotic Components: given biotic_components = 23, abiotic_components = 23, find ecosystem.",
+     "a": "46",
+     "self_check": false
     },
     {
-     "q": "What are abiotic components?",
-     "a": "Non-living surroundings - air, water, soil, temperature, light.",
-     "self_check": true
+     "q": "For Biotic and Abiotic Components: given biotic_components = 6.4, abiotic_components = 87, find ecosystem.",
+     "a": "93.4",
+     "self_check": false
     },
     {
-     "q": "Give one biotic and one abiotic part of a pond.",
-     "a": "Biotic: fish, algae. Abiotic: water, sunlight, mud.",
-     "self_check": true
+     "q": "For Biotic and Abiotic Components: given biotic_components = 5.8, abiotic_components = 67, find ecosystem.",
+     "a": "72.8",
+     "self_check": false
+    },
+    {
+     "q": "For Biotic and Abiotic Components: given biotic_components = 69, abiotic_components = 23, find ecosystem.",
+     "a": "92",
+     "self_check": false
+    },
+    {
+     "q": "For Biotic and Abiotic Components: given biotic_components = 53, abiotic_components = 52, find ecosystem.",
+     "a": "105",
+     "self_check": false
+    },
+    {
+     "q": "For Biotic and Abiotic Components: given biotic_components = 83, abiotic_components = 86, find ecosystem.",
+     "a": "169",
+     "self_check": false
     }
    ]
   },

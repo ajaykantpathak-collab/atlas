@@ -34,6 +34,31 @@
      "q": "Design a soil survey transect across the Ganga floodplain from the active channel to the upland terrace to map the Bangar-Khadar transition. Specify sampling intervals, depth, and three key parameters to measure at each point.",
      "a": "Transect: Perpendicular to river, 5 km total length. Sampling: Every 500 m (11 points). Depth: 0-15 cm (topsoil), 15-50 cm (subsoil), 50-100 cm (substratum). Parameters: (1) Texture (sand-silt-clay %) by hydrometer — expects fining toward channel; (2) Calcium carbonate (%) by HCl effusion — expects kankar peak in Bangar zone (2-4 km from channel); (3) Organic carbon (%) by Walkley-Black — expects higher in Khadar topsoil. Good answer includes spatial reasoning; poor answer samples randomly or omits depth-wise sampling missing the kankar horizon.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Alluvial soils are ______ soils formed by the accumulation of sediments (silt, clay, sand, gravel) transported and deposited by rivers and streams in floodplains, deltas, and river valleys.",
+     "a": "depositional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the wheat field near your ______ in Punjab or the rice paddies in West Bengal — both thrive on soils that look different but share a river-borne origin.",
+     "a": "village",
+     "self_check": true
+    },
+    {
+     "q": "What is Alluvial soils? State the definition given in this lesson.",
+     "a": "Alluvial soils are depositional soils formed by the accumulation of sediments (silt, clay, sand, gravel) transported and deposited by rivers and streams in floodplains, deltas, and river valleys.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Alluvial soils?",
+     "a": "Students believe all alluvial soil is uniformly fertile and annually renewed by floods.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can differentiate Bangar and Khadar soils using texture, fertility, location, and agricultural suitability criteria, explain their distribution pattern along the Northern Plains and coastal deltas, and justify why Khadar supports intensive cultivation while Bangar requires irrigation and fertiliser inputs.",
+     "self_check": true
     }
    ]
   }

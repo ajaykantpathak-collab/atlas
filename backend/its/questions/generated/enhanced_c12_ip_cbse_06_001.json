@@ -34,6 +34,21 @@
      "q": "Design a new metadata tag (not in HTML5 standard) that could help a browser automatically detect the primary language of a page's visible text content. Write its syntax and explain how it would differ from the existing `lang` attribute on `<html>`.",
      "a": "Proposed tag: `<meta name=\"primary-language\" content=\"hi\">` placed in `<head>`. Unlike `lang=\"hi\"` on `<html>` (which declares the document's default language for inheritance), this meta tag would explicitly signal the dominant language of the *rendered text* for translation tools or screen readers, even if the document contains mixed languages. A poor answer merely replicates `lang` or suggests a `<script>` solution, showing inability to innovate within metadata constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An HTML document is ______ with a root <html> element containing two mandatory children: <head> for metadata (document title, character encoding, viewport settings, linked resources) and <body> for all visible content.",
+     "a": "structured",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a webpage for your Class 12 project showcase.",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write a complete, valid HTML5 document skeleton from memory, correctly place essential metadata tags (charset, viewport, title, description) inside <head>, put visible content inside <body>, and explain the purpose of each metadata tag in 1-2 sentences.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,16 @@
      "q": "Create an integral problem that requires **both** \\(\\int e^x\\,dx\\) and \\(\\int \\frac{1}{x}\\,dx\\) in its solution, and solve it completely. The integrand should be a single rational expression that you simplify by splitting into two terms.",
      "a": "Example problem: Evaluate \\(\\int \\frac{x e^x + 1}{x}\\,dx\\).  \nSolution:  \n\\(\\int \\frac{x e^x + 1}{x}\\,dx = \\int \\left(e^x + \\frac{1}{x}\\right)\\,dx = \\int e^x\\,dx + \\int \\frac{1}{x}\\,dx = e^x + \\ln|x| + C\\).  \n\nA good answer shows the algebraic split \\(\\frac{x e^x + 1}{x} = e^x + \\frac{1}{x}\\) and then applies both standard integrals. A poor answer either fails to split the fraction, tries to use substitution unnecessarily, or writes \\(\\ln x\\) without absolute value. This tests whether the student can recognise the standard forms hidden inside a combined expression.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a pharmacist calculating the total amount of a drug ______ into the bloodstream.",
+     "a": "absorbed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a pharmacist ______ the total amount of a drug absorbed into the bloodstream.",
+     "a": "calculating",
+     "self_check": true
     }
    ]
   }

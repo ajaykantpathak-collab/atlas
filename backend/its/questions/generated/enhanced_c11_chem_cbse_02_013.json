@@ -34,6 +34,31 @@
      "q": "Design a thought experiment using the Stern-Gerlach apparatus to demonstrate that electrons have only two possible spin states. Explain how the results would differ if electrons had three spin states (mₛ = -1, 0, +1) instead of two.",
      "a": "Stern-Gerlach experiment: Pass a beam of neutral silver atoms (single unpaired electron) through an inhomogeneous magnetic field. Observation: Beam splits into exactly TWO components, corresponding to mₛ = +½ (spin up) and mₛ = -½ (spin down). If three spin states existed, the beam would split into THREE components (mₛ = -1, 0, +1). The two-beam result proves only two spin orientations exist. A poor answer (e.g., describing continuous splitting) shows the student cannot connect quantum number quantization to experimental evidence, missing the bridge between abstract numbers and measurable physics.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Quantum numbers are a set of four numerical values (n, l, mₗ, mₛ) that uniquely specify the quantum state of an electron in an atom, defining its energy, orbital shape, spatial ______, and intrinsic spin.",
+     "a": "orientation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a familiar ______: when you pass electricity through a gas discharge tube (like a neon sign), you see distinct colored lines, not a rainbow.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "What is Quantum numbers? State the definition given in this lesson.",
+     "a": "Quantum numbers are a set of four numerical values (n, l, mₗ, mₛ) that uniquely specify the quantum state of an electron in an atom, defining its energy, orbital shape, spatial orientation, and intrinsic spin.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Quantum numbers?",
+     "a": "Students treat magnetic quantum number mₗ values (-1, 0, +1 for p orbitals) as fixed labels for specific spatial axes (pₓ, pᵧ, p_z).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly assign all four quantum numbers for any electron in any orbital, determine the number of orbitals and maximum electrons for given quantum number combinations, and explain how quantum numbers govern electron filling order, orbital degeneracy, and spectral transitions.",
+     "self_check": true
     }
    ]
   }

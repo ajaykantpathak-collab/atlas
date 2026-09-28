@@ -34,6 +34,21 @@
      "q": "Construct a problem where a point P in 3D space has integer coordinates, its distance from the origin is an integer, and its direction cosines are all distinct non-zero rational numbers. Provide the coordinates of P, its distance from origin, and its direction cosines. Explain your construction method.",
      "a": "Example: P(2, 3, 6). Distance \\(r = \\sqrt{4+9+36} = \\sqrt{49} = 7\\). Direction cosines: \\(\\frac{2}{7}, \\frac{3}{7}, \\frac{6}{7}\\) — all distinct, non-zero, rational. Construction method: Find a Pythagorean quadruple \\(x^2+y^2+z^2 = r^2\\) with integer x,y,z,r and x,y,z all distinct and non-zero. (2,3,6,7) is the smallest such quadruple. Another: P(1, 4, 8), r=9, direction cosines \\(\\frac{1}{9}, \\frac{4}{9}, \\frac{8}{9}\\). A poor answer would give coordinates like (3, 4, 12) — correct but not showing the \"construction method\" reasoning. A student who cannot produce this lacks the number-sense connection between 3D distance and Pythagorean quadruples, which appears in JEE Advanced integer-answer questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a drone delivering a package from a ______ at the origin O(0,0,0) to a building at point P(3, 4, 12) in a 3D city grid where each unit is 100 metres.",
+     "a": "warehouse",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "They can also find the coordinates of a point given its distance from origin and direction cosines.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a drone ______ a package from a warehouse at the origin O(0,0,0) to a building at point P(3, 4, 12) in a 3D city grid where each unit is 100 metres.",
+     "a": "delivering",
+     "self_check": true
     }
    ]
   }

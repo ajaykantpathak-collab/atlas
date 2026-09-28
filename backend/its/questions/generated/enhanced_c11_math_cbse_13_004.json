@@ -34,6 +34,11 @@
      "q": "Create a rational function \\(f(x) = \\frac{p(x)}{q(x)}\\) where \\(p(x)\\) and \\(q(x)\\) are polynomials of degree 2, such that \\(\\lim_{x \\to 2} f(x) = 5\\) but \\(f(2)\\) is undefined.",
      "a": "Example: \\(f(x) = \\frac{(x-2)(x+3)}{x-2} = \\frac{x^2 + x - 6}{x - 2}\\). For \\(x \\neq 2\\), \\(f(x) = x+3\\), so \\(\\lim_{x \\to 2} f(x) = 5\\), but \\(f(2)\\) is undefined (division by zero). A poor answer (e.g., \\(\\frac{x^2 - 4}{x - 2}\\) giving limit 4) reveals the student cannot reverse-engineer the limit value to construct the numerator, showing they don't fully grasp the relationship between the cancelled factor and the resulting limit.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You need the limit of the average velocity as the time interval shrinks to zero — this leads to a rational function where direct ______ gives 0/0.",
+     "a": "substitution",
+     "self_check": true
     }
    ]
   }

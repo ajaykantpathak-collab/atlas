@@ -34,6 +34,26 @@
      "q": "Create a real-world word problem (Indian context) that requires setting up a proportion with the unknown in the DENOMINATOR, then solve it using cross-multiplication. Example context: fuel efficiency, recipe scaling, or map distance.",
      "a": "Example problem: \"A car travels 180 km on 12 litres of petrol. How many litres are needed to travel 270 km?\" Proportion: 180/12 = 270/x (unknown in denominator). Cross-multiply: 180x = 12 × 270 = 3240 → x = 3240/180 = 18 litres. A good answer has correct setup, correct cross-multiplication, correct arithmetic, and correct unit (litres). A poor answer puts the unknown in the numerator (x/12 = 270/180) which works but doesn't meet the \"unknown in denominator\" requirement, or sets up the proportion inverted (12/180 = x/270) and solves correctly but shows they don't control the structure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The cross-______ method states that if two ratios are equal (a proportion), the product of the extremes equals the product of the means.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You might think \"find cost of 1 notebook first\" (unitary method), but there is a faster ______ way.",
+     "a": "algebraic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You might think \"find cost of ______ notebook first\" (unitary method), but there is a faster algebraic way.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly set up a proportion from a word problem, apply cross-multiplication to form a linear equation, solve for the unknown using inverse operations, and verify the answer by substituting back into the original proportion.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Create a real-life problem involving a ladder leaning against a wall where the complementary angle relations are necessary to find the height reached, given the angle the ladder makes with the ground is 30° and the ladder length is 10 m. Write the problem and solve it using complementary angles.",
      "a": "Problem: A 10 m long ladder leans against a vertical wall. The ladder makes an angle of 30° with the ground. Find the height at which the ladder touches the wall using the complementary angle relation between the angle with the ground and the angle with the wall.\nSolution: Angle with ground = 30°, so angle with wall = 60° (complementary). Height = side opposite 30° = side adjacent to 60°. Using complementary relation: sin 30° = cos 60°. Height = 10 × sin 30° = 10 × 1/2 = 5 m. Or height = 10 × cos 60° = 10 × 1/2 = 5 m. A poor answer would just use sin 30° directly without invoking the complementary relation, or would use Pythagoras theorem without trigonometry, missing the point of the exercise. The problem must explicitly require using the complementary angle (60°) and the relation sin 30° = cos 60°.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In a right-angled triangle, the two acute angles are ______ (sum to 90°).",
+     "a": "complementary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a carpenter in Jaipur building a triangular roof support with a ______ angle.",
+     "a": "right",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In a right-angled triangle, the two acute angles are complementary (sum to ______°).",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state all six complementary angle relations from memory, explain their geometric derivation using a right triangle, apply them to evaluate trigonometric expressions without a calculator, and use them to simplify expressions involving complementary angles in multi-step problems typical of CBSE board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a carpenter in Jaipur building a ______ roof support with a right angle.",
+     "a": "triangular",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a hypothetical enzyme classification challenge: Create a new enzyme (give it a systematic name and EC number) that catalyzes a reaction not fitting neatly into the existing 7 classes. Describe the reaction, justify why it requires a new class or subclass, and propose how the IUB nomenclature committee should handle it.",
      "a": "Example: \"ATP-dependent macromolecular translocase\" (EC 7.6.1.x) – catalyzes directional movement of a folded protein across a membrane using ATP hydrolysis, distinct from Class 7 (translocase) which moves ions/small molecules. Justification: The substrate is a macromolecule with complex tertiary structure requiring unfolding/refolding, involving mechanical work beyond simple ion translocation. Proposal: Create subclass 7.6 \"Macromolecule translocases\" under Class 7. A poor answer would force it into Class 3 (hydrolase) because ATP is hydrolyzed, missing that the primary reaction is mechanical translocation, not bond cleavage of the substrate.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Enzymes are biological ______, predominantly globular proteins (with the exception of catalytic RNA molecules called ribozymes), that function as highly specific biocatalysts to accelerate biochemical reactions by lowering the activation energy without being consumed or altering the reaction equilibrium.",
+     "a": "macromolecules",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a forensic biotechnologist ______ a crime scene sample.",
+     "a": "analyzing",
+     "self_check": true
+    },
+    {
+     "q": "What is Enzymes? State the definition given in this lesson.",
+     "a": "Enzymes are biological macromolecules, predominantly globular proteins (with the exception of catalytic RNA molecules called ribozymes), that function as highly specific biocatalysts to accelerate biochemical reactions by lowering the activation energy without being consumed or altering the reaction equilibrium.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Enzymes?",
+     "a": "Students frequently believe that \"enzyme classification is based on the substrate name\" (e.g., \"kinase\" = transferase, \"dehydrogenase\" = oxidoreductase).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Classify any given enzyme into its correct IUB class (1-7) based on the reaction type it catalyzes, justifying the classification with the specific bond change or group transfer involved.",
+     "self_check": true
     }
    ]
   }

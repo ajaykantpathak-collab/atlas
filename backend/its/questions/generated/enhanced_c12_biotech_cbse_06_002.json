@@ -34,6 +34,31 @@
      "q": "Design a 5-milestone \"critical path\" timeline showing the minimum sequence of discoveries required to achieve the first Agrobacterium-mediated transgenic plant (1983). Justify each inclusion.",
      "a": "1. Haberlandt 1902 (totipotency concept) → 2. Gautheret/Nobecourt 1939 (callus culture) → 3. Skoog & Miller 1957 (hormone-controlled organogenesis) → 4. Murashige & Skoog 1962 (standardized MS medium) → 5. Horsch et al. 1983 (Agrobacterium transformation + regeneration). Each step was necessary: without totipotency concept, no rationale; without callus, no mass propagation; without hormone control, no regeneration; without MS medium, no reproducibility; without all four, transgenic shoots couldn't be recovered. A poor answer lists milestones randomly or omits the regeneration bottleneck (Skoog & Miller/MS medium).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The history and milestones of plant tissue culture trace the chronological development of in vitro plant cultivation from Gottlieb Haberlandt's 1902 concept of cellular totipotency through key breakthroughs in nutrient media, growth regulators, organogenesis, somatic embryogenesis, and genetic ______ that established modern plant biotechnology.",
+     "a": "transformation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a plant breeder in 1900 trying to propagate a rare ______ plant that produces seeds only once every 10 years.",
+     "a": "medicinal",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The history and milestones of plant tissue culture trace the chronological development of in vitro plant cultivation from Gottlieb Haberlandt's ______ concept of cellular totipotency through key breakthroughs in nutrient media, growth regulators, organogenesis, somatic embryogenesis, and genetic transformation that established modern plant biotechnology.",
+     "a": "1902",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to sequence at least 8 major milestones in plant tissue culture history with correct years and scientists, explain the scientific significance of each milestone, and describe how each discovery enabled subsequent advances in the field.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a plant breeder in 1900 trying to ______ a rare medicinal plant that produces seeds only once every 10 years.",
+     "a": "propagate",
+     "self_check": true
     }
    ]
   }

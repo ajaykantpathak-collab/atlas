@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_05_010",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_05_010",
+   "title": "c11_app_cbse_05_010",
+   "questions": [
+    {
+     "q": "Write the general term formula for a GP with first term 5 and common ratio -2. State the 4th term using this formula.",
+     "a": "The general term is `aₙ = 5 × (-2)ⁿ⁻¹`. For n=4: `a₄ = 5 × (-2)³ = 5 × (-8) = -40`. A wrong answer like `aₙ = 5 + (n-1)(-2)` reveals the student is confusing GP with AP (additive vs multiplicative). An answer `a₄ = 5 × (-2)⁴ = 80` reveals the exponent error: using `n` instead of `n-1`.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the exponent in the GP nth term formula is `n-1` and not `n`. Use the sequence 3, 6, 12, 24,... as an example.",
+     "a": "The first term (n=1) is just `a` with zero multiplications by `r`. So `a₁ = a × r⁰ = a`. For n=2, we multiply once: `a₂ = ar¹`. The pattern is: term number `n` has `n-1` multiplications. In 3, 6, 12, 24... (a=3, r=2), the 1st term is 3 = 3×2⁰, 2nd is 6 = 3×2¹, 3rd is 12 = 3×2². A wrong explanation like \"because the formula says so\" or \"n-1 makes it work\" shows lack of conceptual understanding of the multiplicative process.",
+     "self_check": true
+    },
+    {
+     "q": "The 5th term of a GP is 162 and the 8th term is 4374. Find the first term `a` and common ratio `r`.",
+     "a": "Given: `a₅ = ar⁴ = 162` and `a₈ = ar⁷ = 4374`. Divide: `a₈/a₅ = r³ = 4374/162 = 27` → `r = 3`. Substitute: `a(3⁴) = 162` → `81a = 162` → `a = 2`. A wrong answer like `r = 9` (taking square root instead of cube root) reveals confusion between term index difference (8-5=3) and exponent difference. Forgetting to divide the equations and trying to solve simultaneously shows inability to eliminate `a` efficiently.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the growth of the 10th term in two GPs: GP-A: a=2, r=3 and GP-B: a=10, r=1.5. Which is larger? By what factor? What does this reveal about the long-term impact of `r` vs `a`?",
+     "a": "GP-A: `a₁₀ = 2 × 3⁹ = 2 × 19683 = 39366`. GP-B: `a₁₀ = 10 × (1.5)⁹ ≈ 10 × 38.44 = 384.4`. GP-A's 10th term is larger by a factor of ≈102.4. Despite GP-B starting 5× larger (a=10 vs 2), GP-A overtakes because `r=3` compounds faster than `r=1.5`. A wrong conclusion that GP-B stays larger because \"it started bigger\" reveals a linear/additive mindset, not understanding exponential dominance of the base `r` over the coefficient `a` for large `n`.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In any GP, if you know the 3rd term and the 6th term, you can always find the first term and common ratio uniquely.\" Is this claim always true? Justify your answer with a counterexample or proof.",
+     "a": "The claim is **false**. Counterexample: Consider a GP where `a₃ = 4` and `a₆ = 32`. Then `a₆/a₃ = r³ = 8` → `r = 2` (real cube root). But if we allow complex numbers, `r` could also be `2ω` or `2ω²` (where `ω` is a complex cube root of unity). Even restricting to real numbers, if `a₃ = 4` and `a₆ = -32`, then `r³ = -8` → `r = -2` (unique real). However, if `a₃ = 0`, the GP definition (non-zero terms) is violated. A student saying \"always true\" ignores the possibility of multiple real roots when the index difference is even (e.g., `a₂` and `a₄` gives `r² = k` → `r = ±√k`). This reveals a lack of awareness about the number of real roots for `rᵏ = constant`.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) that generates a GP with a fractional common ratio (0 < r < 1). Write the general term and find the term number when the value first drops below 1% of the first term.",
+     "a": "Scenario: \"A car purchased for ₹10,00,000 depreciates by 20% each year. Value forms a GP: a=10,00,000, r=0.8. General term: `Vₙ = 10,00,000 × (0.8)ⁿ⁻¹`. Find n when `Vₙ < 0.01 × 10,00,000 = 10,000`. Solve `(0.8)ⁿ⁻¹ < 0.01` → `(n-1) log(0.8) < log(0.01)` → `n-1 > 20.63` → `n = 22`. A poor answer uses `r=1.2` (appreciation) or solves `(0.8)ⁿ < 0.01` (exponent error) or gives n=21 (rounding down instead of up). This reveals inability to translate \"drops below\" into strict inequality and handle log inequality direction with negative log(0.8).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

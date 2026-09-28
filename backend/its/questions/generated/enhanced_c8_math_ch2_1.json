@@ -34,6 +34,31 @@
      "q": "Create a real-world situation (other than paper folding) that follows the same doubling pattern. Describe the situation and write the first 5 terms of the sequence.",
      "a": "Example: A single bacterium divides into two every 20 minutes. Starting with 1 bacterium, the population after each 20-minute interval: 1, 2, 4, 8, 16. A good answer identifies a process where each step multiplies the quantity by 2. A poor answer gives an additive situation (e.g., \"saving ₹2 every day\") or a multiplicative situation with a different factor (e.g., tripling).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The doubling pattern in paper folding is a ______ growth process where each fold doubles the number of layers: after n folds, the number of layers equals 2^n.",
+     "a": "multiplicative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a square sheet of paper (like an A4 sheet) and you fold it in half once – how many ______ do you have?",
+     "a": "layers",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The doubling pattern in paper folding is a multiplicative growth process where each fold doubles the number of layers: after n folds, the number of layers equals ______^n.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why paper folding produces a doubling pattern, predict the number of layers after any given number of folds using the rule \"multiply by 2 each time\", and distinguish this multiplicative growth from linear growth by comparing the two patterns side-by-side.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you have a square sheet of paper (like an A4 sheet) and you fold it in half once – how many layers do you have?",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

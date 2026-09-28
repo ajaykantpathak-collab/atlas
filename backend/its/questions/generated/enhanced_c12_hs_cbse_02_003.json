@@ -34,6 +34,31 @@
      "q": "Design a 1-day vegetarian meal plan for a 45-year-old male with pre-diabetes (RDA: 2300 kcal, CHO 55%, free sugars <5%, dietary fibre ≥30g) using *only* traditional Indian foods (no oats, quinoa, supplements). List foods with raw weights, calculate total available CHO (g), % energy from CHO, free sugars (g), and total dietary fibre (g). Use ICMR food composition: whole wheat flour 65% CHO, 12% fibre; brown rice 72% CHO, 3% fibre; bajra 67% CHO, 11% fibre; chana dal 60% CHO, 15% fibre; methi leaves 4% CHO, 4% fibre; guava 14% CHO, 5% fibre; curd 4% CHO, 0% fibre.",
      "a": "Sample plan: Breakfast — Bajra roti (60g) + Methi sabzi (100g) + Curd (150g); Lunch — Brown rice (80g) + Chana dal (50g) + Methi sabzi (50g); Snack — Guava (150g); Dinner — Whole wheat roti (90g) + Chana dal (30g). Calculations: CHO = (60×0.67)+(100×0.04)+(150×0.04)+(80×0.72)+(50×0.60)+(50×0.04)+(150×0.14)+(90×0.65)+(30×0.60) = 40.2+4+6+57.6+30+2+21+58.5+18 = 237.3g. Energy from CHO = 237.3×4 = 949.2 kcal. %CHO = (949.2/2300)×100 = 41.3% — *below* 55%, needs adjustment (increase cereal portions). Free sugars = 0g (no added sugar, intrinsic only). Fibre = (60×0.11)+(100×0.04)+(80×0.03)+(50×0.15)+(50×0.04)+(150×0.05)+(90×0.12)+(30×0.15) = 6.6+4+2.4+7.5+2+7.5+10.8+4.5 = 45.3g — meets ≥30g. A good answer shows iterative adjustment (e.g., increase brown rice to 120g, add 1 more roti) to hit 55% CHO while keeping free sugars 0 and fibre >30g. A poor answer misses the %CHO shortfall or ignores the \"traditional Indian foods only\" constraint — revealing inability to integrate multiple constraints in diet design.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Carbohydrates are organic compounds composed of carbon, hydrogen, and oxygen (typically in a 1:2:1 ratio) that serve as the primary energy source for the human body, classified nutritionally into simple sugars (______, disaccharides) and complex carbohydrates (polysaccharides including starch, glycogen, and dietary fibre) based on their chemical structure and physiological role.",
+     "a": "monosaccharides",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are planning a day's meals for a 16-year-old athlete who needs 2800 kcal/day — where do you start with ______?",
+     "a": "carbohydrates",
+     "self_check": true
+    },
+    {
+     "q": "What is Carbohydrates? State the definition given in this lesson.",
+     "a": "Carbohydrates are organic compounds composed of carbon, hydrogen, and oxygen (typically in a 1:2:1 ratio) that serve as the primary energy source for the human body, classified nutritionally into simple sugars (monosaccharides, disaccharides) and complex carbohydrates (polysaccharides including starch, glycogen, and dietary fibre) based.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: First, distinguish between *available* carbohydrates (digested and absorbed — sugars, starch) that yield ______ kcal/g, and *unavailable* carbohydrates (dietary fibre) that yield minimal energy but critical health benefits.",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify any given carbohydrate food source into its nutritional category (simple vs complex, available vs unavailable), explain its specific metabolic function(s) in the body, and calculate the carbohydrate contribution to total energy intake for a given meal plan using ICMR guidelines.",
+     "self_check": true
     }
    ]
   }

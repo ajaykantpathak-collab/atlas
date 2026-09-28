@@ -34,6 +34,31 @@
      "q": "A student says: \"Higher amplitude means higher pitch.\" Evaluate this statement and correct it.",
      "a": "The statement is incorrect. Amplitude determines loudness, not pitch. Frequency determines pitch. A high-amplitude, low-frequency sound (loud drum) is low-pitched but loud. A low-amplitude, high-frequency sound (quiet whistle) is high-pitched but quiet. The correct statement: \"Higher amplitude means louder sound; higher frequency means higher pitch.\" A wrong evaluation (agreeing with the student) confuses amplitude (loudness) with frequency (pitch).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of sound waves are the measurable properties that describe a sound wave: frequency (number of oscillations per second, measured in hertz, determines pitch), amplitude (maximum displacement from rest position, determines loudness), wavelength (distance between consecutive compressions or rarefactions, measured in meters), time period (time for one complete oscillation, measured in seconds), and speed (distance traveled per unit time, v = f * lambda, measured in m/s).",
+     "a": "Characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Listen to two sounds: a high-pitched ______ and a low-pitched drum.",
+     "a": "whistle",
+     "self_check": true
+    },
+    {
+     "q": "What is Characteristics of sound waves? State the definition given in this lesson.",
+     "a": "Characteristics of sound waves are the measurable properties that describe a sound wave: frequency (number of oscillations per second, measured in hertz, determines pitch), amplitude (maximum displacement from rest position, determines loudness), wavelength (distance between consecutive compressions or rarefactions, measured in meters).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Characteristics of sound waves?",
+     "a": "Students confuse amplitude (loudness) with frequency (pitch).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can define frequency, amplitude, wavelength, time period, and speed, state the relationship v = f * lambda, explain how frequency affects pitch and amplitude affects loudness, and calculate one characteristic given the others.",
+     "self_check": true
     }
    ]
   }

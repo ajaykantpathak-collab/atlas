@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch10_6",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch10_6",
+   "title": "c9_math_ch10_6",
+   "questions": [
+    {
+     "q": "In the diagram where line $l \\parallel m$ and transversal $t$ cuts them, $\\angle 1$ and $\\angle 5$ are a pair of corresponding angles. If $\\angle 1 = 70^\\circ$, what is the measure of $\\angle 5$? State the axiom used.",
+     "a": "$\\angle 5 = 70^\\circ$. The Corresponding Angles Axiom states that if a transversal intersects two parallel lines, each pair of corresponding angles is equal. A wrong answer (e.g., $110^\\circ$ or $290^\\circ$) reveals the student is confusing corresponding angles with linear pairs (supplementary) or vertically opposite angles, or does not recall the axiom that corresponding angles are *equal*, not supplementary.",
+     "self_check": true
+    },
+    {
+     "q": "Two lines $AB$ and $CD$ are cut by a transversal $EF$. A student claims $\\angle AEF$ and $\\angle CFE$ are corresponding angles. Is the student correct? Explain why or why not using the definition of corresponding angles.",
+     "a": "The student is **incorrect**. $\\angle AEF$ and $\\angle CFE$ lie on *opposite* sides of the transversal $EF$ (one on the left/upper side, one on the right/lower side) and are *alternate interior angles*, not corresponding angles. Corresponding angles must be on the **same side of the transversal** (e.g., $\\angle AEF$ and $\\angle EFD$). A wrong answer reveals the student identifies angles by \"position\" (both look like top-left) without checking the **same-side-of-transversal** condition.",
+     "self_check": true
+    },
+    {
+     "q": "In the figure, $PQ \\parallel RS$. Transversal $TU$ intersects $PQ$ at $A$ and $RS$ at $B$. $\\angle TAQ = (3x + 10)^\\circ$ and $\\angle TBR = (5x - 30)^\\circ$. These are corresponding angles. Find the value of $x$ and the measure of each angle.",
+     "a": "**Step 1:** Identify that $\\angle TAQ$ and $\\angle TBR$ are corresponding angles $\\Rightarrow$ they are equal.  \n**Step 2:** Set up equation: $3x + 10 = 5x - 30$.  \n**Step 3:** Solve: $10 + 30 = 5x - 3x \\Rightarrow 40 = 2x \\Rightarrow x = 20$.  \n**Step 4:** Substitute: $\\angle TAQ = 3(20) + 10 = 70^\\circ$; $\\angle TBR = 5(20) - 30 = 70^\\circ$.  \n**Answer:** $x = 20$, both angles $= 70^\\circ$.  \nA wrong answer (e.g., $x=10$ or angles $=40^\\circ$) usually comes from incorrectly setting the sum to $180^\\circ$ (treating them as a linear pair or interior angles on same side) instead of equating them.",
+     "self_check": true
+    },
+    {
+     "q": "In the diagram, line $l \\parallel m$ and transversal $t$ intersects them. $\\angle 1 = 110^\\circ$. Without measuring, determine the measures of $\\angle 3$, $\\angle 5$, and $\\angle 7$. Explain the relationship used for each.",
+     "a": "$\\angle 3 = 70^\\circ$ (linear pair with $\\angle 1$), $\\angle 5 = 110^\\circ$ (corresponding to $\\angle 1$), $\\angle 7 = 70^\\circ$ (vertically opposite to $\\angle 5$ or corresponding to $\\angle 3$).  \nA wrong answer (e.g., $\\angle 5 = 70^\\circ$) reveals the student cannot chain multiple angle relationships (linear pair $\\rightarrow$ corresponding $\\rightarrow$ vertically opposite) and treats each angle in isolation rather than as a network of deductions.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves the problem: \"In the figure, $AB \\parallel CD$, $\\angle AEF = 65^\\circ$. Find $\\angle EFD$.\" Their working: $\\angle EFD = 180^\\circ - 65^\\circ = 115^\\circ$ because \"corresponding angles sum to 180°.\" Evaluate the student's solution. Is it correct? If not, identify the exact error and give the correct answer.",
+     "a": "The solution is **incorrect**. The error: The student applied the property of **interior angles on the same side of the transversal** (which are supplementary) to **corresponding angles** (which are equal). $\\angle AEF$ and $\\angle EFD$ are *alternate interior angles*, not corresponding angles. Since $AB \\parallel CD$, alternate interior angles are equal $\\Rightarrow \\angle EFD = 65^\\circ$. A wrong evaluation (saying the student is correct) reveals the student cannot distinguish between angle pairs formed by a transversal.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own real-world problem involving parallel lines and a transversal where finding a corresponding angle is necessary to solve it. Draw the diagram, label the known angle, and write the question. The context must be Indian (e.g., railway tracks, road lanes, window grills, floor tiles).",
+     "a": "A good answer includes: (1) A clear diagram with two parallel lines and a transversal, (2) An Indian context (e.g., \"A metro rail track has two parallel rails. A crossing signal pole casts a shadow along a transversal...\"), (3) One known angle marked (e.g., $55^\\circ$), (4) A question asking for the corresponding angle (e.g., \"What is the angle between the shadow and the second rail?\"), (5) Correct solution using the axiom. A poor answer (e.g., no parallel lines, wrong angle pair identified, or context not Indian) reveals the student cannot *construct* the geometric situation, only recognize it.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

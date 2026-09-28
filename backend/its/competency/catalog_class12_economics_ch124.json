@@ -20,7 +20,7 @@
     "what marks animate things from inanimate objects in the essay",
     "analyze the author's critique of spiritual and scientific views of humanity"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,16 @@
      "action": "conclude literary significance",
      "explain": "The complete living individual is greater than any individual constituent part."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "man_alive = physical_body + consciousness + vital_spirit",
+     "compute": "man_alive = physical_body + consciousness + vital_spirit"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lekl.124.2",
@@ -83,7 +92,7 @@
     "describe the interaction between a book's message and 'man alive'",
     "analyze how book tremulations differ between novels and philosophical texts"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -95,7 +104,16 @@
      "action": "relate to human consciousness",
      "explain": "These vibrations take on real life only when received by a living reader who quivers into fresh awareness."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "vital_literary_effect = ether_vibration * living_response",
+     "compute": "vital_literary_effect = ether_vibration * living_response"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lekl.124.4",
@@ -112,7 +130,7 @@
     "discuss the relationship between dynamic change and emotional vitality",
     "analyze why right and wrong are instincts of the whole consciousness"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -124,7 +142,16 @@
      "action": "contrast dynamic integrity with rigid consistency",
      "explain": "Fixing oneself to a rigid ideal turns a person into an unliving object, whereas responding fluidly preserves vital integrity."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "integrity = dynamic_change + authentic_consciousness",
+     "compute": "integrity = dynamic_change + authentic_consciousness"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lekl.124.5",
@@ -170,7 +197,7 @@
     "explain the linking role of copular verbs like be, become, and seem",
     "find examples of copulas with adjective phrase complements in the text"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -182,7 +209,16 @@
      "action": "categorize the complement",
      "explain": "Determine if the following phrase is an Adjective Phrase (AP) or Noun Phrase (NP)."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "copula_clause = subject + copula + predicate_complement",
+     "compute": "copula_clause = subject + copula + predicate_complement"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lekl.124.7",

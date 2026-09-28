@@ -34,6 +34,36 @@
      "q": "Design a 10-piece monsoon capsule wardrobe for a male college student in Kolkata (budget ₹6,000) using ONLY quick-dry fabrics. Specify each item with fabric, colour, approximate cost, and justify how it creates ≥25 distinct outfits. Include a \"stress test\" scenario (sudden formal event) and show how the capsule adapts.",
      "a": "Good answer example: 1) Navy quick-dry polo ₹600, 2) Grey quick-dry polo ₹600, 3) Olive quick-dry tee ₹500, 4) Black quick-dry tee ₹500, 5) Khaki quick-dry chinos ₹900, 6) Navy quick-dry shorts ₹700, 7) Grey quick-dry joggers ₹800, 8) Packable rain jacket ₹1,200, 9) Quick-dry towel-shirt (dual use) ₹600, 10) Waterproof sneakers ₹1,600 = ₹8,000 (over budget — must adjust: remove joggers, use shorts+chinos only = ₹7,200 still over; final: drop rain jacket, use poncho ₹200 = ₹6,200). Combinatorics: 4 tops × 2 bottoms = 8 base; + towel-shirt as layer = 8×2 = 16; + rain jacket/poncho as outer = 16×2 = 32 outfits. Stress test: Formal event — wear navy polo + khaki chinos + rain jacket (structured) = business casual. Poor answer lists cotton items (slow dry) or ignores budget — shows failure to integrate material science with planning constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Wardrobe planning is a systematic process of assessing clothing needs, evaluating existing garments, and ______ selecting new items to create a functional, versatile, and aesthetically cohesive collection that meets an individual's lifestyle, budget, figure type, and climatic requirements.",
+     "a": "strategically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're packing for a 3-month ______ in another city with only one suitcase — what do you take?",
+     "a": "internship",
+     "self_check": true
+    },
+    {
+     "q": "What is Wardrobe planning? State the definition given in this lesson.",
+     "a": "Wardrobe planning is a systematic process of assessing clothing needs, evaluating existing garments, and strategically selecting new items to create a functional, versatile, and aesthetically cohesive collection that meets an individual's lifestyle, budget, figure type, and climatic requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're packing for a ______-month internship in another city with only one suitcase — what do you take?",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Wardrobe planning?",
+     "a": "Students believe \"wardrobe planning = making a shopping list\" and \"capsule wardrobe = owning 30 items.\" The exact error: They skip the audit and needs analysis steps, then randomly select 30 favourite clothes without verifying interchangeability.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Conduct a complete wardrobe audit for a given case study, categorizing items by condition, fit, and frequency of use, and (2) Design a 12-piece capsule wardrobe for a specific persona (e.g., college student, working professional) with justification for each item's inclusion based on versatility, colour.",
+     "self_check": true
     }
    ]
   }

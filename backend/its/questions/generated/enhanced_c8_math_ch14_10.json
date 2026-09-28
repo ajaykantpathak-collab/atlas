@@ -34,6 +34,21 @@
      "q": "Design an irregular pentagon-shaped garden plot with integer side lengths (in metres) that can be decomposed into exactly one rectangle and one triangle. Provide a labelled sketch with all dimensions, show the decomposition, and calculate the total area.",
      "a": "A valid response might show a rectangle 10 m × 6 m attached to a triangle with base 10 m (shared side) and height 4 m. Total area = (10×6) + (½×10×4) = 60 + 20 = 80 m². A poor answer would have mismatched shared sides (e.g., rectangle width 6 m but triangle base 8 m), non-integer dimensions, or a decomposition that creates a trapezoid instead of a triangle, indicating the student cannot visualize how geometric pieces fit together.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The area of any polygon can be determined by ______ it into a set of non-overlapping triangles and rectangles, calculating the area of each component using standard formulas, and summing these areas to obtain the total area of the polygon.",
+     "a": "partitioning",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer owns a ______ field and needs to calculate its area to buy the correct amount of fertilizer.",
+     "a": "pentagonal",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently decompose any given polygon (regular or irregular) into triangles and rectangles by drawing appropriate diagonals or perpendiculars, determine all necessary dimensions (including missing heights or bases using geometric properties), compute the area of each component, and sum them to find the total area.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_07_002",
+   "title": "c12_leg_cbse_07_002",
+   "questions": [
+    {
+     "q": "Which constitutional article was inserted by the 42nd Amendment Act, 1976 and explicitly directs the State to \"protect and improve the environment and to safeguard the forests and wild life of the country\"?",
+     "a": "Article 48A. A wrong answer (e.g., Article 21, Article 51A(g), Article 38) reveals the student cannot distinguish between fundamental rights (Part III), directive principles (Part IV), and fundamental duties (Part IVA) — a critical classification error for board exams where questions often ask \"Under which Part of the Constitution does this provision fall?\"",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between \"Protectionist Policy\" and \"Improvinistic Policy\" under Article 48A with one concrete example of each from Indian environmental governance.",
+     "a": "Protectionist Policy imposes bans/restrictions on environmentally harmful activities (e.g., ban on leaded petrol, ban on single-use plastics under Plastic Waste Management Rules 2016). Improvinistic Policy promotes alternatives that improve environmental quality (e.g., mandating CNG for public transport in Delhi, promoting solar energy through subsidies, tree plantation in industrial zones). A wrong answer that conflates the two or gives generic examples shows the student memorized the terms but cannot apply them to actual governance measures — a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A cement factory in Rajasthan discharges untreated effluent into a seasonal river. The State Pollution Control Board (SPCB) issues a closure direction under Section 33A of the Water Act, 1974. The factory appeals to the National Green Tribunal (NGT). Trace the complete legal pathway: Which constitutional article empowers the SPCB? Which statutory provision gives NGT jurisdiction? What is the standard of review NGT applies?",
+     "a": "Constitutional empowerment: Article 48A (State duty) read with Article 21 (Right to Life) — courts have held pollution control is a facet of Article 21. Statutory jurisdiction: NGT Act 2010, Section 14 (original jurisdiction over substantial questions relating to environment) and Section 15 (appellate jurisdiction over orders under Water Act, Air Act, EPA). Standard of review: NGT applies \"substantial question of environment\" test — not mere procedural review but merits-based adjudication applying principles of sustainable development, precautionary principle, and polluter pays. A wrong answer citing only the Water Act without constitutional anchoring or confusing NGT's jurisdiction with High Court writ jurisdiction shows gaps in understanding the institutional hierarchy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the composition and powers of the Central Pollution Control Board (CPCB) and State Pollution Control Boards (SPCBs). Why did the Water Act, 1974 establish a two-tier structure instead of a single national body?",
+     "a": "CPCB (constituted under Water Act 1974, Section 3): Chairman + 5 officials + 5 non-officials + experts; advises Central Govt, coordinates SPCBs, sets national standards, conducts research. SPCBs (Section 4): Chairman + officials + non-officials + local body reps; issue NOCs, grant consent under Air/Water Acts, monitor local pollution, enforce standards. Two-tier rationale: Environmental pollution is local in manifestation (river stretch, airshed) but requires national standards and coordination — federalism demands State-level implementation with Central oversight. A wrong answer focusing only on composition without explaining the federalism-environmental governance link misses the constitutional design logic tested in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "\"Economic development and environmental protection are inherently contradictory — you cannot have both.\" Evaluate this statement using the Brundtland definition, the SDG framework, and at least two Indian Supreme Court judgments.",
+     "a": "The statement is false. Brundtland (1987): \"development that meets the needs of the present without compromising the ability of future generations to meet their own needs\" — explicitly integrates both. SDGs: 17 interlinked goals (e.g., Goal 8: Decent Work + Goal 13: Climate Action) require simultaneous pursuit. Indian jurisprudence: Vellore Citizens Welfare Forum v. Union of India (1996) — \"Sustainable development is the answer\" balancing development and ecology; Narmada Bachao Andolan v. Union of India (2000) — \"Development cannot be at the cost of environment\" but also \"environment cannot be at the cost of development.\" A wrong answer taking a one-sided view ignores the core jurisprudential principle that sustainable development is a constitutional mandate of reconciliation, not rejection.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a Public Interest Litigation (PIL) notice under Article 32 for a community affected by illegal sand mining in a riverbed. Specify: (a) the constitutional provisions invoked, (b) the statutory violations alleged, (c) the interim relief sought, and (d) why locus standi is satisfied despite the petitioner not being a direct victim.",
+     "a": "(a) Articles 21 (right to clean water, livelihood), 48A (State duty), 51A(g) (citizen duty). (b) EPA 1986 Section 3 (environmental clearance violation), Mines and Minerals Act 1957 (illegal extraction), State Minor Mineral Concession Rules (breach of conditions). (c) Interim: Stay on mining operations, constitution of joint inspection committee, direction to restore riverbed morphology. (d) Locus standi: PIL relaxes traditional locus — \"representative standing\" allows public-spirited citizens to enforce rights of marginalized communities (Hussainara Khatoon precedent); environmental harm affects collective rights (clean water, ecology) — petitioner as community member has sufficient interest. A poor answer omits the jurisprudential basis for relaxed locus or fails to link statutory violations to constitutional rights.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

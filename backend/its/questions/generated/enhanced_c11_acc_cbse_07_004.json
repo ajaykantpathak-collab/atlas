@@ -34,6 +34,26 @@
      "q": "Create a new problem: A company buys a specialized packaging machine on 1st January 2024 for ₹8,00,000 (including ₹50,000 installation). Expected life 6 years, scrap ₹80,000. The company follows calendar year. On 1st July 2025, they spend ₹1,20,000 on a major modification that extends useful life by 2 years (total remaining life becomes 5 years from July 2025). Calculate depreciation for 2024, 2025, 2026. Show your work.",
      "a": "**2024 (Jan-Dec)**: Cost = ₹8,00,000. Depreciable = 8,00,000 - 80,000 = 7,20,000. Annual = 7,20,000/6 = ₹1,20,000. Full year = ₹1,20,000.\n**2025 (Jan-Jun)**: Same rate, 6 months = ₹60,000. WDV on 1st July = 8,00,000 - 1,20,000 - 60,000 = ₹6,20,000.\n**Modification**: Capitalised ₹1,20,000. New book value = 6,20,000 + 1,20,000 = ₹7,40,000. Remaining life = 5 years. Scrap still ₹80,000. New depreciable = 7,40,000 - 80,000 = 6,60,000. New annual = 6,60,000/5 = ₹1,32,000.\n**2025 (Jul-Dec)**: 6 months × 1,32,000 = ₹66,000.\n**2026 (full year)**: ₹1,32,000.\nA poor answer reveals inability to handle mid-year capitalisation with life extension: forgetting to recalculate depreciable base using new WDV + addition, not adjusting remaining life, or continuing old rate.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Straight Line Method (SLM) of depreciation allocates an equal amount of depreciation expense to each accounting period over the asset's estimated useful life by charging a fixed percentage on the original cost (or ______ cost) of the asset, reducing its book value uniformly from acquisition cost to estimated net residual value.",
+     "a": "depreciable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your father's small printing press buys a second-hand offset printing ______ for ₹4,50,000 on 1st October 2023, spends ₹50,000 on overhauling, and expects to use it for 8 years before selling it for ₹40,000 scrap.",
+     "a": "machine",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Calculate annual depreciation amount and rate given cost, scrap value, and useful life; (2) Prepare Machine/Asset Account and Depreciation/Provision for Depreciation Account for multiple years including part-year depreciation for assets purchased mid-year; (3) Journalize transactions for asset purchase.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your father's small printing press buys a second-hand offset printing machine for ₹4,50,000 on 1st October 2023, spends ₹50,000 on ______, and expects to use it for 8 years before selling it for ₹40,000 scrap.",
+     "a": "overhauling",
+     "self_check": true
     }
    ]
   }

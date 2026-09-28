@@ -34,6 +34,31 @@
      "q": "Design a simple kitchen experiment using baking soda (NaHCO₃) and vinegar (CH₃COOH) to demonstrate the concept of limiting reagent. Write the balanced equation and explain how you would identify which reactant is limiting.",
      "a": "Equation: NaHCO₃(s) + CH₃COOH(aq) → CH₃COONa(aq) + H₂O(l) + CO₂(g).\nProcedure: Take fixed vinegar volume (e.g., 50 mL of 1 M CH₃COOH = 0.05 mol). Add increasing amounts of NaHCO₃ (2 g, 4 g, 6 g, 8 g). Measure CO₂ volume (balloon displacement or gas syringe). CO₂ volume increases until NaHCO₃ exceeds 0.05 mol (4.2 g), then plateaus. The plateau identifies CH₃COOH as limiting. A poor answer uses only one mass of NaHCO₃ (no variation), showing inability to design a controlled variable experiment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stoichiometry is the quantitative study of reactants and products in a chemical reaction based on a balanced chemical equation, where ______ coefficients represent the molar ratios in which substances react and are formed, enabling conversion between moles, masses, volumes (for gases at same temperature and pressure), and number of particles.",
+     "a": "stoichiometric",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a pressure cooker whistle in an Indian kitchen – the steam (H₂O gas) escapes because water decomposes at high ______, but more importantly, the food cooks due to reactions like starch hydrolysis.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "What is Stoichiometry? State the definition given in this lesson.",
+     "a": "Stoichiometry is the quantitative study of reactants and products in a chemical reaction based on a balanced chemical equation, where stoichiometric coefficients represent the molar ratios in which substances react and are formed, enabling conversion between moles, masses, volumes (for gases at same temperature and pressure), and number.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Stoichiometry?",
+     "a": "Students treat stoichiometric coefficients as mass ratios instead of mole ratios.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can balance any chemical equation using the hit-and-trial or algebraic method, interpret stoichiometric coefficients as mole/molecule/volume ratios, perform mole-to-mole, mass-to-mass, and volume-to-volume conversions using the balanced equation, and identify the limiting reagent when reactant amounts are given in.",
+     "self_check": true
     }
    ]
   }

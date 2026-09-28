@@ -34,6 +34,31 @@
      "q": "Design a 3-step water accounting framework for a 500-ha canal command area in Maharashtra that tracks: (1) surface water delivery, (2) groundwater extraction, (3) crop water consumption. Specify the data sources, frequency, and one indicator to flag unsustainable use.",
      "a": "Step 1: Surface delivery — from Irrigation Department's daily gauge readings at canal outlet (cusec-days/ha). Step 2: Groundwater extraction — from energised pumpset census × hours run × discharge rate (monthly). Step 3: Crop consumption — from remote sensing (evapotranspiration) × crop coefficient (fortnightly). Unsustainability indicator: Stage of Groundwater Extraction > 100% (extraction > recharge) for two consecutive years. A poor answer lists only \"meter readings\" without distinguishing surface/groundwater sources or omits the sustainability threshold used by Central Ground Water Board.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Water resources in the Indian economic context refer to the stock and flow of freshwater (surface water in rivers, lakes, reservoirs and groundwater in aquifers) that serve as productive inputs for agriculture, industry, and domestic use; water pollution is the degradation of water quality beyond permissible standards (BOD > 3 mg/L, DO < 4 mg/L for bathing) due to ______ discharge of organic, inorganic, and toxic pollutants, reducing the resource's assimilative capacity and imposing negative externalities on downstream users.",
+     "a": "anthropogenic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you live in a ______ on the banks of the Yamuna in Haryana.",
+     "a": "village",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the transition from water as a free good (zero price, abundant supply) to an economic good (positive price, scarce supply) — the core concept from Section ______.",
+     "a": "7.2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) interpret Central Pollution Control Board (CPCB) water quality data (BOD, DO, coliform counts) to classify river stretches as polluted/non-polluted, (2) calculate the rate of groundwater depletion using stage of extraction formula, and (3) explain the opportunity cost of water pollution in terms of foregone.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you live in a village on the banks of the Yamuna in Haryana.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Create a real-life situation (Indian context) where the inclusive \"or\" and exclusive \"or\" give DIFFERENT practical outcomes. Write both compound statements symbolically and explain the difference.",
      "a": "Good answer: \"You can pay by UPI or card\" at a shop. Inclusive: p ∨ q (accepts UPI, card, or both split payment). Exclusive: (p ∨ q) ∧ ¬(p ∧ q) (must choose exactly one). Difference: split payment allowed in inclusive, forbidden in exclusive. Poor answer: vague scenario without clear p, q definition or confusion between logical and practical exclusivity. Reveals student can't distinguish mathematical \"or\" (inclusive by default) from everyday \"or\" (often exclusive).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A compound statement is formed by combining two or more simple statements using logical ______.",
+     "a": "connectives",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In the first case, you get both dishes; in the second, you get at ______ one (possibly both).",
+     "a": "least",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Build the truth table systematically: list all combinations of T/F for p and q (______ rows), then compute p ∧ q and p ∨ q for each row.",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly construct truth tables for compound statements with \"and\" and \"or\", determine truth values of compound statements given truth values of components, and translate between natural language statements and symbolic logical forms.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In the first case, you get both dishes; in the second, you get at least one (______ both).",
+     "a": "possibly",
+     "self_check": true
     }
    ]
   }

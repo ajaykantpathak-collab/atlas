@@ -31,8 +31,23 @@
      "self_check": true
     },
     {
-     "q": "Design a simple experiment using a toy car, a metre scale, and a stopwatch to collect data for plotting a distance-time graph of non-uniform motion. Describe how you would ensure the motion is non-uniform and what shape you expect the graph to have.",
-     "a": "Place the toy car on an inclined ramp (e.g., a wooden plank raised at one end) so it accelerates down. Mark positions at 0 cm, 20 cm, 40 cm, 60 cm, 80 cm, 100 cm. Release from rest and measure time to reach each mark. Plot distance vs time. The graph will curve upward with increasing slope (getting steeper) because the car speeds up. A poor answer using a flat surface with constant push reveals the student does not know how to produce measurable non-uniform motion.",
+     "q": "Give the correct order of steps to collect distance-time data for a toy car speeding down an inclined ramp.",
+     "a": "The data collection runs: (1) Raise one end of a wooden plank to make an incline (2) Mark the ramp at equal intervals up to 100 cm (3) Release the car from rest and time its arrival at each mark (4) Plot distance against time and expect a curve that grows steeper as the car speeds up. A wrong answer that pushes the car at constant effort on a flat track shows the student has not arranged genuinely non-uniform motion, which only a steepening graph can reveal.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A distance-time graph is a graphical ______ plotting distance travelled (on the y-axis) against time elapsed (on the x-axis) for an object moving along a straight line.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ at a railway crossing in Delhi and watch a train pass by.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can interpret any distance-time graph to determine whether motion is uniform or non-uniform, calculate instantaneous and average speeds from slopes, compare speeds of multiple objects on the same graph, and explain why a distance-time graph cannot represent direction of motion.",
      "self_check": true
     }
    ]

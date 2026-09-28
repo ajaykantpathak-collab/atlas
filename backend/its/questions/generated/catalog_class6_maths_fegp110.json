@@ -4,15 +4,8 @@
   {
    "id": "fegp.10.1",
    "title": "The Other Side of Zero: Negative Numbers",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "evaluate the polynomial or use the root relations",
-     "explain": "evaluate the polynomial or use the root relations: val = 2 * 5 * 5 + 5 * 5 + 3 gives 78",
-     "compute": "val = 2 * 5 * 5 + 5 * 5 + 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the value of the polynomial 2x^2 + 5x + 3 at x = 5.",
@@ -50,6 +43,8 @@
    "id": "fegp.10.2",
    "title": "Moves on the Number Line: Adding Integers",
    "converted_to_compute": false,
+   "formula": "total = start + move",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers 25 and 16.",
@@ -87,6 +82,8 @@
    "id": "fegp.10.3",
    "title": "Adding Positive and Negative Numbers",
    "converted_to_compute": false,
+   "formula": "result = pos + neg",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers -17 and -20.",
@@ -123,15 +120,8 @@
   {
    "id": "fegp.10.4",
    "title": "Back and Forth: Subtraction and Undoing",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the integer operation sign rules",
-     "explain": "apply the integer operation sign rules: total = 14 + (16) gives 30",
-     "compute": "total = 14 + (16)"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers 14 and 16.",

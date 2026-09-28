@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_09_001",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_09_001",
+   "title": "c11_leg_cbse_09_001",
+   "questions": [
+    {
+     "q": "What is the primary constitutional basis that empowers the Law Commission of India to recommend law reforms, and how does it differ from the legislative power of Parliament under Article 246?",
+     "a": "The Law Commission of India is an executive body constituted by a government resolution (not a constitutional body), so it has no independent constitutional basis — its recommendations are advisory. Parliament's legislative power under Article 246 (read with Seventh Schedule) is plenary and binding. A wrong answer would confuse the Law Commission's advisory role with legislative authority, or cite Article 39A (equal justice/free legal aid) as its source — that article mandates legal aid, not law reform.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the first Law Commission (1834) under Macaulay focused on codifying penal and criminal procedure law, whereas the first post-independence Law Commission (1955) under M.C. Setalvad prioritized reviewing colonial laws in light of Fundamental Rights.",
+     "a": "The 1834 Commission served a colonial state needing uniform criminal law to consolidate control (IPC 1860, CrPC 1861), while the 1955 Commission served a constitutional democracy where colonial laws (e.g., sedition, preventive detention) clashed with Part III Fundamental Rights. A wrong answer would treat both commissions as having identical mandates, ignoring the shift from \"order maintenance\" to \"rights protection\" as the state's core purpose.",
+     "self_check": true
+    },
+    {
+     "q": "A new technology (e.g., AI-generated deepfakes) creates harms not covered by existing defamation or IT Act provisions. Trace the step-by-step institutional pathway a law reform would likely follow from problem identification to enactment, identifying which body does what at each stage.",
+     "a": "Step 1: Law Commission (or Ministry) identifies gap via suo motu study or reference → Step 2: Commission publishes consultation paper, holds stakeholder consultations → Step 3: Commission submits report with draft Bill to Ministry → Step 4: Ministry drafts Bill, inter-ministerial consultation → Step 5: Cabinet approval → Step 6: Bill introduced in Parliament (Lok Sabha/Rajya Sabha) → Step 7: Parliamentary Standing Committee scrutiny → Step 8: Passage by both Houses → Step 9: Presidential assent → Step 10: Notification in Gazette. A wrong answer would skip the Law Commission's evidence-based study role or assume the executive can enact law via ordinance permanently (ordinances lapse in 6 weeks per Article 123).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the law reform pathways of the Right to Information Act 2005 and the striking down of Section 66A IT Act 2000. Analyze how each pathway reflects a different theory of democratic legitimacy — legislative vs. judicial.",
+     "a": "RTI Act 2005: Grassroots movement (MKSS) → Law Commission/Pressure groups → Legislative enactment (Parliament) → legitimacy from popular sovereignty and representative democracy. Section 66A strike-down: PIL (Shreya Singhal) → Supreme Court judicial review (Article 32) → declared unconstitutional (Article 19(1)(a)) → legitimacy from constitutional supremacy and counter-majoritarian protection of minority rights. A wrong answer would conflate them as both \"government actions\" without distinguishing the democratic theory: one is majoritarian law-making, the other is rights-based judicial veto.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Consumer Protection Act 2019 is a better example of law reform than the Muslim Women (Protection of Rights on Marriage) Act 2019 because it followed Law Commission recommendations, whereas the latter was a reactive legislative overreaction to a Supreme Court judgment.\" Defend or critique using criteria of institutional legitimacy, stakeholder consultation, and constitutional fidelity.",
+     "a": "Critique: Both are valid reform pathways. CPA 2019 followed Law Commission 264th Report (2017) — extensive consultation, addressed e-commerce gaps, procedural modernization. Muslim Women Act 2019 followed Shayara Bano (2017) striking down triple talaq — legislative codification of judicial declaration, ensuring enforceability (criminal penalty) where civil remedy was insufficient. Neither is \"superior\"; CPA exemplifies proactive expert-led reform, Muslim Women Act exemplifies responsive rights-vindication reform. A wrong answer would privilege one pathway (e.g., \"only Law Commission route is legitimate\") ignoring that Article 141 makes SC judgments binding law, and Parliament can codify them.",
+     "self_check": true
+    },
+    {
+     "q": "Design a law reform proposal for a hypothetical gap: \"Gig workers (delivery, ride-hail) lack social security coverage under existing labour laws.\" Specify: (a) which Law Commission report or committee would initiate it, (b) whether it should be a new Code or amendment to Code on Social Security 2020, (c) one constitutional provision (Part III/IV) to anchor it, (d) one stakeholder consultation method beyond written submissions.",
+     "a": "(a) Law Commission or National Commission for Enterprises in Unorganised Sector (NCEUS) — both have studied gig economy. (b) Amendment to Code on Social Security 2020 (Section 2(35) \"platform worker\" definition exists but benefits are discretionary) — faster than new Code. (c) Article 41 (Directive Principle: right to work, public assistance) read with Article 21 (right to life with dignity) — Supreme Court in PUDR v. Union (1982) linked Art 21 to livelihood security. (d) Participatory public hearings in 5 cities with gig workers, platform reps, labour unions — not just written submissions. A poor answer would suggest a standalone Act ignoring the 2020 Code's existing framework, or cite only Article 19(1)(g) (trade freedom) without addressing social security.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

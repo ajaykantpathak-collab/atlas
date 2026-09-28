@@ -34,6 +34,31 @@
      "q": "Design a single HTML snippet that uses all three list types (`<ul>`, `<ol>`, `<dl>`) in a nested structure to represent: a course curriculum with modules (ordered), each module's topics (unordered), and a glossary of terms (definition). The snippet must be valid and semantically correct.",
      "a": "```html\n<ol>\n  <li>Module 1: HTML Basics\n    <ul>\n      <li>Tags and Elements</li>\n      <li>Attributes</li>\n    </ul>\n  </li>\n  <li>Module 2: CSS Basics\n    <ul>\n      <li>Selectors</li>\n      <li>Box Model</li>\n    </ul>\n  </li>\n</ol>\n<dl>\n  <dt>HTML</dt>\n  <dd>HyperText Markup Language</dd>\n  <dt>CSS</dt>\n  <dd>Cascading Style Sheets</dd>\n</dl>\n```\nA poor answer (e.g., mixing list types incorrectly, missing closing tags, or putting `<dl>` inside `<li>` without reason) shows inability to compose semantic structures for hierarchical content.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: HTML lists are semantic container elements that group related items in a specific order (ordered list <ol>), without implied sequence (unordered list <ul>), or as term-______ pairs (definition list <dl>).",
+     "a": "description",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a webpage for a school magazine.",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "What is HTML lists? State the definition given in this lesson.",
+     "a": "HTML lists are semantic container elements that group related items in a specific order (ordered list <ol>), without implied sequence (unordered list <ul>), or as term-description pairs (definition list <dl>).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about HTML lists?",
+     "a": "Students often think the type attribute on <ol> changes only the visual style (like CSS) and that start works with any type.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write valid HTML5 code for all three list types, correctly nest lists up to two levels, apply the type, start, and reversed attributes on ordered lists, and explain when to choose each list type based on content semantics.",
+     "self_check": true
     }
    ]
   }

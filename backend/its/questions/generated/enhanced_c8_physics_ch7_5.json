@@ -34,6 +34,26 @@
      "q": "Design a simple observation project for your class to measure the lunar month duration without using a calendar. Describe the procedure, data to record, and how you would calculate the result.",
      "a": "Procedure: Observe and sketch the Moon's shape every clear evening at the same time for 2 months. Record date and phase name (e.g., waxing crescent, first quarter). Identify two identical phases (e.g., two Full Moons). Calculate days between them. A poor answer (e.g., \"watch the Moon for a week\") reveals the student doesn't understand the need for a full cycle between identical phases and the importance of consistent observation timing.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A lunar month (synodic month) is the average time interval between two successive occurrences of the same Moon phase (e.g., New Moon to New Moon), ______ 29.5 days, caused by the Moon completing one full cycle of phases relative to the Sun as seen from Earth.",
+     "a": "approximately",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ at home or school that marks \"Amavasya\" (New Moon) and \"Purnima\" (Full Moon) dates — notice they are roughly 15 days apart and the pattern repeats every month.",
+     "a": "calendar",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A lunar month (synodic month) is the average time interval between two successive occurrences of the same Moon phase (e.g., New Moon to New Moon), approximately ______ days, caused by the Moon completing one full cycle of phases relative to the Sun as seen from Earth.",
+     "a": "29.5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why the lunar month (29.5 days) is longer than the Moon's orbital period around Earth (27.3 days) and can calculate the approximate phase of the Moon on a given future date using the 29.5-day cycle.",
+     "self_check": true
     }
    ]
   }

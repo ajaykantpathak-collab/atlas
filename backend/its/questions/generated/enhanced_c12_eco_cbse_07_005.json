@@ -34,6 +34,21 @@
      "q": "**CREATE:** Construct a mini \"stock-flow consistency\" table for a hypothetical Indian household for FY 2023-24. Include at least 3 stock variables (with opening/closing values) and 3 flow variables that link them. Ensure the identity: Closing Stock = Opening Stock + Inflows – Outflows holds for each.",
      "a": "**Good answer example:**  \n| Stock Variable | Opening (1 Apr 23) | Inflows (Flow) | Outflows (Flow) | Closing (31 Mar 24) |  \n|---|---|---|---|---|  \n| Bank Deposits | ₹5,00,000 | Salary ₹12,00,000 | Expenses ₹9,00,000 | ₹8,00,000 |  \n| Gold Holdings | ₹3,00,000 | Purchase ₹50,000 | Sale ₹0 | ₹3,50,000 |  \n| Loan Outstanding | ₹10,00,000 | Fresh loan ₹0 | Repayment ₹2,00,000 | ₹8,00,000 |  \n**Poor answer reveals:** Student lists unrelated stocks and flows (e.g., \"Income\" as stock, \"Wealth\" as flow) or fails to balance the identity. They don't grasp that every stock change must be explained by flows.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A stock variable is an economic quantity measured at a specific point in time (e.g., capital stock, money supply, wealth on 31st March), while a flow variable is measured over a period of time (e.g., income, investment, ______ during 2023-24).",
+     "a": "consumption",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you check your bank balance on 31st March — that ₹50,000 is a stock (______).",
+     "a": "snapshot",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify any given macroeconomic variable (e.g., government debt, fiscal deficit, capital formation, exports) as a stock or a flow, explain the conceptual difference using the \"water tank\" analogy, and identify the stock-flow relationship (e.g., change in stock = net flow over the period) in national income.",
+     "self_check": true
     }
    ]
   }

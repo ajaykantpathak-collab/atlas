@@ -34,6 +34,21 @@
      "q": "Design a Python program that simulates a lucky draw: there are 100 participants numbered 1 to 100. The program should pick 3 distinct winners and print their numbers. Use only `randint`, `random`, and `choice` (no `sample` or `shuffle`). Explain your logic.",
      "a": "One approach: create a list of numbers 1..100, then use `random.choice` to pick one, remove it, repeat three times. Or use `randint` to generate indices and pop. The answer must ensure distinct winners. A poor answer might pick with replacement, allowing duplicates, showing lack of attention to \"distinct\".",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The random module in Python provides ______ to generate pseudo-random numbers.",
+     "a": "functions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are creating a simple game where a player rolls a die, picks a random card from a deck, or generates a random discount ______ for a shopping app.",
+     "a": "percentage",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write Python code that imports the random module and correctly uses randint, random, and choice to solve problems requiring randomness, such as simulating dice rolls, generating random passwords, or selecting a random item from a list.",
+     "self_check": true
     }
    ]
   }

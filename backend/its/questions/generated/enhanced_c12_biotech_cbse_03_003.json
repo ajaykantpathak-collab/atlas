@@ -34,6 +34,26 @@
      "q": "Design a strategy to construct a cDNA library that is enriched for full-length cDNAs (containing the complete 5' end of the mRNA). Specify the key modification to standard oligo-dT priming and the enzyme property required.",
      "a": "Use a modified oligo-dT primer with an adapter sequence at its 5' end, combined with a reverse transcriptase that has terminal transferase activity (e.g., Moloney murine leukemia virus RT with added template-switching capability). When RT reaches the 5' cap of the mRNA, it adds a few non-templated nucleotides (usually dC) to the 3' end of the cDNA. A \"template-switching oligo\" (TSO) with a complementary rG stretch at its 3' end anneals to this tail, allowing RT to continue copying the TSO sequence. This incorporates a known adapter at the 5' end of the first-strand cDNA, enabling PCR amplification of only full-length cDNAs. A poor answer (e.g., \"use longer oligo-dT\") shows ignorance of the 5' cap barrier and RT's terminal transferase activity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A cDNA library is a collection of cloned ______ DNA (cDNA) fragments inserted into a host-vector system, representing only the expressed genes (mRNA) of a specific cell type or tissue at a given physiological state.",
+     "a": "complementary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to study the insulin gene — but only in ______ beta cells where it's actually expressed.",
+     "a": "pancreatic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If you sequence the whole human genome, you'll drown in ______ billion base pairs of mostly non-coding DNA.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) list the sequential enzymatic steps from mRNA isolation to library amplification with correct enzyme names and their functions, and (2) explain why a cDNA library lacks introns, promoters, and non-coding sequences, contrasting it with a genomic library.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a domain name structure for a multinational company \"GlobalTech\" that has offices in India (globaltech.in), USA (globaltech.us), and UK (globaltech.uk). Each office runs its own web server (www), mail server (mail), and internal database server (db). Show the fully qualified domain names (FQDNs) for all nine servers and specify which DNS record types you would create for each.",
      "a": "Example structure (using subdomains for offices):\n- India web: `www.india.globaltech.in` → A record (IPv4) + AAAA record (IPv6)\n- India mail: `mail.india.globaltech.in` → A/AAAA + MX record pointing to this host\n- India db: `db.india.globaltech.in` → A/AAAA (internal only)\n- USA web: `www.usa.globaltech.us` → A/AAAA\n- USA mail: `mail.usa.globaltech.us` → A/AAAA + MX\n- USA db: `db.usa.globaltech.us` → A/AAAA\n- UK web: `www.uk.globaltech.uk` → A/AAAA\n- UK mail: `mail.uk.globaltech.uk` → A/AAAA + MX\n- UK db: `db.uk.globaltech.uk` → A/AAAA\nAdditionally, NS records at `globaltech.in`, `globaltech.us`, `globaltech.uk` delegate to each office's authoritative nameservers. A poor answer uses flat names like `www-india.globaltech.com` (not leveraging hierarchy) or omits MX records for mail, showing inability to map services to appropriate record types.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Domain Name System (DNS) is a hierarchical, ______ naming system that translates human-readable domain names (e.g., www.example.com) into numerical IP addresses (e.g., 192.0.2.1) required for locating and identifying computer services and devices on a network.",
+     "a": "decentralized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you type \"https://www.cbse.gov.in/exam/______.pdf\" in your browser and press Enter.",
+     "a": "schedule",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) trace the step-by-step DNS resolution process from a browser request to the final IP address, distinguishing between recursive and iterative queries, and (2) decompose any given URL into its six standard components and explain the purpose of each component.",
+     "self_check": true
     }
    ]
   }

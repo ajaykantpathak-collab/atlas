@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a syringe, a water bath, and a pressure sensor to verify the work done formula for an isothermal process. Describe the procedure, measurements needed, and how you would calculate work from the data.",
      "a": "Procedure: (1) Trap a known amount of air (μ moles) in a syringe at room temperature. (2) Immerse syringe in a large water bath at constant temperature T. (3) Connect pressure sensor to syringe. (4) Slowly push/pull plunger to change volume quasi-statically, recording P and V at each step. (5) Plot P vs V; it should follow PV = constant. (6) Calculate work by numerical integration of P dV (area under curve) or use W = μRT ln(V_f/V_i) using initial and final volumes. Compare the two values. A poor answer (e.g., not immersing in water bath, or moving plunger quickly) reveals misunderstanding of the need for thermal equilibrium with a reservoir to maintain constant temperature and the quasi-static requirement for the formula to apply.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Work done in an isothermal process is the energy ______ by an ideal gas as work when it expands or compresses at constant temperature, calculated by integrating pressure with respect to volume under the condition that the product of pressure and volume remains constant (Boyle's law).",
+     "a": "transferred",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a bicycle pump with its nozzle blocked, placed in a bucket of water at room ______.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "What is Work done in an isothermal process? State the definition given in this lesson.",
+     "a": "Work done in an isothermal process is the energy transferred by an ideal gas as work when it expands or compresses at constant temperature, calculated by integrating pressure with respect to volume under the condition that the product of pressure and volume remains constant (Boyle's law).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For an ideal gas undergoing a quasi-static isothermal change from volume V₁ to V₂ at temperature T, the work done by the gas is W = μRT ln(V₂/V₁), where μ is the number of moles and R is the universal gas constant (______ J mol⁻¹ K⁻¹).",
+     "a": "8.31",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Work done in an isothermal process?",
+     "a": "Students often think that because temperature is constant in an isothermal process, no heat is transferred (Q = 0).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the work done by an ideal gas in an isothermal process given initial and final volumes (or pressures), number of moles, and temperature; can determine the direction of heat flow using the first law (ΔU = 0 for ideal gas isothermal process, so Q = W); and can distinguish between work done by the gas (positive for.",
+     "self_check": true
     }
    ]
   }

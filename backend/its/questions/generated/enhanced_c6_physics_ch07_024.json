@@ -34,6 +34,36 @@
      "q": "Imagine you are designing a new temperature scale. What is the most important thing you need to define to make your scale useful for other people?",
      "a": "You must define fixed reference points (like the freezing and boiling points of water) and the number of divisions between them. A poor answer would just mention a name or a color, showing a lack of understanding that a scale requires a standard, reproducible reference.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Heat is a form of energy related to the total motion of molecules in a substance, while ______ is a measurement indicating how hot or cold an object is based on the average kinetic energy of its molecules.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever wondered why a small cup of tea feels hot enough to burn your tongue, but a giant swimming pool of warm water feels comfortable, even ______ the pool has much more \"energy\" in it?",
+     "a": "though",
+     "self_check": true
+    },
+    {
+     "q": "What is Heat? State the definition given in this lesson.",
+     "a": "Heat is a form of energy related to the total motion of molecules in a substance, while temperature is a measurement indicating how hot or cold an object is based on the average kinetic energy of its molecules.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If you have two beakers of water, one small and one large, and both are at ______°C, the large one contains more heat because there are many more molecules moving.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Heat?",
+     "a": "Students often confuse temperature with heat because they assume \"higher temperature\" always equals \"more heat.\" They fail to realize that heat depends on the quantity of matter (the number of molecules), whereas temperature is just the average energy per molecule.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain why a large object with a lower temperature can contain more heat than a small object with a higher temperature, and correctly identify the purpose of a thermometer.",
+     "self_check": true
     }
    ]
   }

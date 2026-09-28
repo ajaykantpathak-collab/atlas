@@ -34,6 +34,31 @@
      "q": "Design a thematic map annotation exercise for a Class 12 student: Show how you would represent the three mineral belts, major coal fields, and petroleum basins on a single outline map of India using standard cartographic symbols. Explain your symbol choices.",
      "a": "Good answer criteria: (1) Three belt boundaries shown as distinct shaded polygons (hachured patterns: NE = diagonal, SW = horizontal, NW = vertical) with labels; (2) Coal fields as black diamond symbols at Jharia, Raniganj, Bokaro, Singrauli, Korba, Talcher, Singareni; (3) Petroleum basins as oil derrick symbols at Digboi, Ankaleshwar, Mumbai High, KG Basin, Kaveri Basin; (4) Legend with geological age (Gondwana vs Tertiary); (5) Inset showing Himalayan belt (copper-lead-zinc). Symbol choice justification: Diamonds for coal (solid mineral), derricks for petroleum (fluid extraction), hachures for belts (areal extent). A poor answer using random colours without geological grouping or missing the belt concept shows inability to synthesise spatial patterns.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mineral resources in India are naturally occurring inorganic substances with definite chemical composition and physical properties, ______ in specific geological formations across the peninsular plateau, sedimentary basins, and Himalayan belt, forming three major mineral belts: North-Eastern Plateau (Chhotanagpur-Odisha), South-Western Plateau (Karnataka-Goa), and North-Western Region (Aravalli-Rajasthan-Gujarat), with over 97% of coal in Damodar-Sone-Mahanadi-Godavari valleys and petroleum in Assam-Gujarat-Mumbai High sedimentary basins.",
+     "a": "concentrated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a physical map of India — notice how the ______ plateau (Jharkhand-Odisha) glints with industrial activity while the Gangetic plain remains agriculturally rich but mineral-poor.",
+     "a": "Chhotanagpur",
+     "self_check": true
+    },
+    {
+     "q": "What is Mineral resources in India? State the definition given in this lesson.",
+     "a": "Mineral resources in India are naturally occurring inorganic substances with definite chemical composition and physical properties, concentrated in specific geological formations across the peninsular plateau, sedimentary basins, and Himalayan belt, forming three major mineral belts: North-Eastern Plateau (Chhotanagpur-Odisha).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mineral resources in India are naturally occurring inorganic substances with definite chemical composition and physical properties, concentrated in specific geological formations across the peninsular plateau, sedimentary basins, and Himalayan belt, forming three major mineral belts: North-Eastern Plateau (Chhotanagpur-Odisha), South-Western Plateau (Karnataka-Goa), and North-Western Region (Aravalli-Rajasthan-Gujarat), with over ______% of coal in Damodar-Sone-Mahanadi-Godavari valleys and petroleum in Assam-Gujarat-Mumbai High sedimentary basins.",
+     "a": "97",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can identify the three major mineral belts of India on an outline map, explain the geological reason for mineral concentration in peninsular India versus absence in northern plains, and relate specific mineral types (ferrous, non-ferrous, non-metallic, energy) to their mode of occurrence (igneous/metamorphic rocks, sedimentary.",
+     "self_check": true
     }
    ]
   }

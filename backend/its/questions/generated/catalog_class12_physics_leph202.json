@@ -1,0 +1,428 @@
+{
+ "catalog": "catalog_class12_physics_leph202.json",
+ "concepts": [
+  {
+   "id": "leph202.10.3.1.1",
+   "title": "Speed of Light in a Medium",
+   "converted_to_compute": true,
+   "formula": "speed_medium = speed_light / refr_index",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "speed_medium = speed_light / refr_index",
+     "compute": "speed_medium = speed_light / refr_index"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Speed of Light in a Medium: given speed_light = 66, refr_index = 52, find speed medium.",
+     "a": "1.26923",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of Light in a Medium: given speed_light = 98, refr_index = 76, find speed medium.",
+     "a": "1.28947",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of Light in a Medium: given speed_light = 15.1, refr_index = 32, find speed medium.",
+     "a": "0.471875",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of Light in a Medium: given speed_light = 39, refr_index = 31, find speed medium.",
+     "a": "1.25806",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of Light in a Medium: given speed_light = 15.8, refr_index = 18.8, find speed medium.",
+     "a": "0.840426",
+     "self_check": false
+    },
+    {
+     "q": "For Speed of Light in a Medium: given speed_light = 4.1, refr_index = 43, find speed medium.",
+     "a": "0.0953488",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph202.10.3.1.2",
+   "title": "Wavelength Change on Refraction",
+   "converted_to_compute": true,
+   "formula": "lambda_two = lambda_one * speed_two / speed_one",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "lambda_two = lambda_one * speed_two / speed_one",
+     "compute": "lambda_two = lambda_one * speed_two / speed_one"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Wavelength Change on Refraction: given lambda_one = 22, speed_two = 36, speed_one = 105, find lambda two.",
+     "a": "7.54286",
+     "self_check": false
+    },
+    {
+     "q": "For Wavelength Change on Refraction: given lambda_one = 47, speed_two = 85, speed_one = 74, find lambda two.",
+     "a": "53.9865",
+     "self_check": false
+    },
+    {
+     "q": "For Wavelength Change on Refraction: given lambda_one = 95, speed_two = 89, speed_one = 18.7, find lambda two.",
+     "a": "452.139",
+     "self_check": false
+    },
+    {
+     "q": "For Wavelength Change on Refraction: given lambda_one = 16.7, speed_two = 83, speed_one = 79, find lambda two.",
+     "a": "17.5456",
+     "self_check": false
+    },
+    {
+     "q": "For Wavelength Change on Refraction: given lambda_one = 27, speed_two = 71, speed_one = 45, find lambda two.",
+     "a": "42.6",
+     "self_check": false
+    },
+    {
+     "q": "For Wavelength Change on Refraction: given lambda_one = 8.5, speed_two = 100, speed_one = 24, find lambda two.",
+     "a": "35.4167",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph202.10.3.2.1",
+   "title": "Critical Angle Between Two Media",
+   "converted_to_compute": true,
+   "formula": "sine_crit = n_two / n_one",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "sine_crit = n_two / n_one",
+     "compute": "sine_crit = n_two / n_one"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Critical Angle Between Two Media: given n_two = 10.9, n_one = 14.7, find sine crit.",
+     "a": "0.741497",
+     "self_check": false
+    },
+    {
+     "q": "For Critical Angle Between Two Media: given n_two = 30, n_one = 15.4, find sine crit.",
+     "a": "1.94805",
+     "self_check": false
+    },
+    {
+     "q": "For Critical Angle Between Two Media: given n_two = 105, n_one = 9.9, find sine crit.",
+     "a": "10.6061",
+     "self_check": false
+    },
+    {
+     "q": "For Critical Angle Between Two Media: given n_two = 13.5, n_one = 12.9, find sine crit.",
+     "a": "1.04651",
+     "self_check": false
+    },
+    {
+     "q": "For Critical Angle Between Two Media: given n_two = 60, n_one = 13.5, find sine crit.",
+     "a": "4.44444",
+     "self_check": false
+    },
+    {
+     "q": "For Critical Angle Between Two Media: given n_two = 70, n_one = 1.2, find sine crit.",
+     "a": "58.3333",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph202.10.4.1",
+   "title": "Coherent and Incoherent Addition of Waves",
+   "converted_to_compute": true,
+   "formula": "I = 4 * I_0 * cos(phi/2) ** 2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "I = 4 * I_0 * cos(phi/2) ** 2",
+     "compute": "I = 4 * I_0 * cos(phi/2) ** 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Coherent and Incoherent Addition of Waves: given I_0 = 74, phi = 11.3, find I.",
+     "a": "192.362",
+     "self_check": false
+    },
+    {
+     "q": "For Coherent and Incoherent Addition of Waves: given I_0 = 21, phi = 31, find I.",
+     "a": "80.4192",
+     "self_check": false
+    },
+    {
+     "q": "For Coherent and Incoherent Addition of Waves: given I_0 = 86, phi = 36, find I.",
+     "a": "149.99",
+     "self_check": false
+    },
+    {
+     "q": "For Coherent and Incoherent Addition of Waves: given I_0 = 42, phi = 50, find I.",
+     "a": "165.057",
+     "self_check": false
+    },
+    {
+     "q": "For Coherent and Incoherent Addition of Waves: given I_0 = 59, phi = 36, find I.",
+     "a": "102.9",
+     "self_check": false
+    },
+    {
+     "q": "For Coherent and Incoherent Addition of Waves: given I_0 = 72, phi = 29, find I.",
+     "a": "36.2797",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph202.10.5.1",
+   "title": "Fringe Spacing in Young's Double Slit",
+   "converted_to_compute": true,
+   "formula": "fringe_width = wavelength * screen_dist / slit_sep",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "fringe_width = wavelength * screen_dist / slit_sep",
+     "compute": "fringe_width = wavelength * screen_dist / slit_sep"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Fringe Spacing in Young's Double Slit: given wavelength = 33, screen_dist = 16.6, slit_sep = 20, find fringe width.",
+     "a": "27.39",
+     "self_check": false
+    },
+    {
+     "q": "For Fringe Spacing in Young's Double Slit: given wavelength = 465, screen_dist = 15.9, slit_sep = 23, find fringe width.",
+     "a": "321.457",
+     "self_check": false
+    },
+    {
+     "q": "For Fringe Spacing in Young's Double Slit: given wavelength = 122, screen_dist = 9.9, slit_sep = 87, find fringe width.",
+     "a": "13.8828",
+     "self_check": false
+    },
+    {
+     "q": "For Fringe Spacing in Young's Double Slit: given wavelength = 316, screen_dist = 15.9, slit_sep = 23, find fringe width.",
+     "a": "218.452",
+     "self_check": false
+    },
+    {
+     "q": "For Fringe Spacing in Young's Double Slit: given wavelength = 111, screen_dist = 14.4, slit_sep = 99, find fringe width.",
+     "a": "16.1455",
+     "self_check": false
+    },
+    {
+     "q": "For Fringe Spacing in Young's Double Slit: given wavelength = 457, screen_dist = 18.1, slit_sep = 5.2, find fringe width.",
+     "a": "1590.71",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph202.10.5.2",
+   "title": "Wavelength From Fringe Measurements",
+   "converted_to_compute": true,
+   "formula": "wavelength = fringe_gap * slit_sep / (order_n * screen_dist)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "wavelength = fringe_gap * slit_sep / (order_n * screen_dist)",
+     "compute": "wavelength = fringe_gap * slit_sep / (order_n * screen_dist)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Wavelength From Fringe Measurements: given fringe_gap = 4, slit_sep = 74, order_n = 12.1, screen_dist = 14.8, find wavelength.",
+     "a": "1.65289",
+     "self_check": false
+    },
+    {
+     "q": "For Wavelength From Fringe Measurements: given fringe_gap = 81, slit_sep = 89, order_n = 17.6, screen_dist = 18.8, find wavelength.",
+     "a": "21.7874",
+     "self_check": false
+    },
+    {
+     "q": "For Wavelength From Fringe Measurements: given fringe_gap = 23, slit_sep = 42, order_n = 17.1, screen_dist = 6.7, find wavelength.",
+     "a": "8.43153",
+     "self_check": false
+    },
+    {
+     "q": "For Wavelength From Fringe Measurements: given fringe_gap = 16.7, slit_sep = 75, order_n = 16, screen_dist = 14.1, find wavelength.",
+     "a": "5.55186",
+     "self_check": false
+    },
+    {
+     "q": "For Wavelength From Fringe Measurements: given fringe_gap = 45, slit_sep = 36, order_n = 19.2, screen_dist = 1.5, find wavelength.",
+     "a": "56.25",
+     "self_check": false
+    },
+    {
+     "q": "For Wavelength From Fringe Measurements: given fringe_gap = 2.6, slit_sep = 34, order_n = 8.2, screen_dist = 8.5, find wavelength.",
+     "a": "1.26829",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph202.10.6.1",
+   "title": "Single-Slit Diffraction Minima",
+   "converted_to_compute": true,
+   "formula": "diff_angle = order_n * wavelength / slit_width",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "diff_angle = order_n * wavelength / slit_width",
+     "compute": "diff_angle = order_n * wavelength / slit_width"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Single-Slit Diffraction Minima: given order_n = 10.2, wavelength = 278, slit_width = 15.8, find diff angle.",
+     "a": "179.468",
+     "self_check": false
+    },
+    {
+     "q": "For Single-Slit Diffraction Minima: given order_n = 16.4, wavelength = 38, slit_width = 93, find diff angle.",
+     "a": "6.70108",
+     "self_check": false
+    },
+    {
+     "q": "For Single-Slit Diffraction Minima: given order_n = 11.2, wavelength = 280, slit_width = 85, find diff angle.",
+     "a": "36.8941",
+     "self_check": false
+    },
+    {
+     "q": "For Single-Slit Diffraction Minima: given order_n = 3.1, wavelength = 368, slit_width = 30, find diff angle.",
+     "a": "38.0267",
+     "self_check": false
+    },
+    {
+     "q": "For Single-Slit Diffraction Minima: given order_n = 9.5, wavelength = 464, slit_width = 120, find diff angle.",
+     "a": "36.7333",
+     "self_check": false
+    },
+    {
+     "q": "For Single-Slit Diffraction Minima: given order_n = 12.1, wavelength = 450, slit_width = 118, find diff angle.",
+     "a": "46.1441",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph202.10.7.1",
+   "title": "Malus Law Transmission",
+   "converted_to_compute": true,
+   "formula": "transmitted = intensity_in * cos_axis ** 2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "transmitted = intensity_in * cos_axis ** 2",
+     "compute": "transmitted = intensity_in * cos_axis ** 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Malus Law Transmission: given intensity_in = 21, cos_axis = 0.2, find transmitted.",
+     "a": "0.84",
+     "self_check": false
+    },
+    {
+     "q": "For Malus Law Transmission: given intensity_in = 68, cos_axis = 0.7, find transmitted.",
+     "a": "33.32",
+     "self_check": false
+    },
+    {
+     "q": "For Malus Law Transmission: given intensity_in = 56, cos_axis = 0.2, find transmitted.",
+     "a": "2.24",
+     "self_check": false
+    },
+    {
+     "q": "For Malus Law Transmission: given intensity_in = 73, cos_axis = 0.7, find transmitted.",
+     "a": "35.77",
+     "self_check": false
+    },
+    {
+     "q": "For Malus Law Transmission: given intensity_in = 59, cos_axis = 0.9, find transmitted.",
+     "a": "47.79",
+     "self_check": false
+    },
+    {
+     "q": "For Malus Law Transmission: given intensity_in = 8.8, cos_axis = 0.2, find transmitted.",
+     "a": "0.352",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph202.10.7.2",
+   "title": "Polarisation and the Polaroid",
+   "converted_to_compute": true,
+   "formula": "pass_axis_field = field_in * cos(tilt)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "pass_axis_field = field_in * cos(tilt)",
+     "compute": "pass_axis_field = field_in * cos(tilt)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Polarisation and the Polaroid: given field_in = 0.8, tilt = 52, find pass axis field.",
+     "a": "-0.130393",
+     "self_check": false
+    },
+    {
+     "q": "For Polarisation and the Polaroid: given field_in = 12.5, tilt = 22, find pass axis field.",
+     "a": "-12.4995",
+     "self_check": false
+    },
+    {
+     "q": "For Polarisation and the Polaroid: given field_in = 30, tilt = 53, find pass axis field.",
+     "a": "-27.5485",
+     "self_check": false
+    },
+    {
+     "q": "For Polarisation and the Polaroid: given field_in = 98, tilt = 1.6, find pass axis field.",
+     "a": "-2.86155",
+     "self_check": false
+    },
+    {
+     "q": "For Polarisation and the Polaroid: given field_in = 6.4, tilt = 44, find pass axis field.",
+     "a": "6.399",
+     "self_check": false
+    },
+    {
+     "q": "For Polarisation and the Polaroid: given field_in = 17.9, tilt = 44, find pass axis field.",
+     "a": "17.8972",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

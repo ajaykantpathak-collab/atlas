@@ -1,0 +1,890 @@
+{
+ "catalog": "catalog_class11_physics_ch106.json",
+ "concepts": [
+  {
+   "id": "keph.106.6.3.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "f_ext = 97",
+      "total_mass = 8.1",
+      "a_cm = f_ext / total_mass"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "f_ext = 0.5",
+      "total_mass = 193",
+      "a_cm = f_ext / total_mass"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "f_ext = 86",
+      "total_mass = 57",
+      "a_cm = f_ext / total_mass"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "f_ext = 1.4",
+      "total_mass = 171",
+      "a_cm = f_ext / total_mass"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "f_ext = 78",
+      "total_mass = 62",
+      "a_cm = f_ext / total_mass"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "f_ext = 13.6",
+      "total_mass = 125",
+      "a_cm = f_ext / total_mass"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "a_cm = f_ext / total_mass"
+   ]
+  },
+  {
+   "id": "keph.106.6.4.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total_mass = 127",
+      "v_cm = 2.9",
+      "p_total = total_mass * v_cm"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total_mass = 53",
+      "v_cm = 113",
+      "p_total = total_mass * v_cm"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_mass = 95",
+      "v_cm = 71",
+      "p_total = total_mass * v_cm"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total_mass = 161",
+      "v_cm = 92",
+      "p_total = total_mass * v_cm"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "total_mass = 83",
+      "v_cm = 87",
+      "p_total = total_mass * v_cm"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total_mass = 5.6",
+      "v_cm = 100",
+      "p_total = total_mass * v_cm"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "p_total = total_mass * v_cm"
+   ]
+  },
+  {
+   "id": "keph.106.6.5.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "a = 32",
+      "b = 85",
+      "theta = 9.1",
+      "c = a * b * sin(theta)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "a = 97",
+      "b = 78",
+      "theta = 103",
+      "c = a * b * sin(theta)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "a = 80",
+      "b = 92",
+      "theta = 33",
+      "c = a * b * sin(theta)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "a = 50",
+      "b = 18",
+      "theta = 147",
+      "c = a * b * sin(theta)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "a = 44",
+      "b = 32",
+      "theta = 117",
+      "c = a * b * sin(theta)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "a = 77",
+      "b = 88",
+      "theta = 167",
+      "c = a * b * sin(theta)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "c = a * b * sin(theta)"
+   ]
+  },
+  {
+   "id": "keph.106.6.6.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "omega = 58",
+      "r = 20",
+      "v = omega * r"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "omega = 27",
+      "r = 36",
+      "v = omega * r"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "omega = 47",
+      "r = 43",
+      "v = omega * r"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "omega = 9.3",
+      "r = 86",
+      "v = omega * r"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "omega = 28",
+      "r = 64",
+      "v = omega * r"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "omega = 90",
+      "r = 86",
+      "v = omega * r"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "v = omega * r"
+   ]
+  },
+  {
+   "id": "keph.106.6.7.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "force = 866",
+      "arm_length = 174",
+      "tau = force * arm_length"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "force = 168",
+      "arm_length = 302",
+      "tau = force * arm_length"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "force = 964",
+      "arm_length = 377",
+      "tau = force * arm_length"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "force = 961",
+      "arm_length = 152",
+      "tau = force * arm_length"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "force = 242",
+      "arm_length = 487",
+      "tau = force * arm_length"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "force = 381",
+      "arm_length = 401",
+      "tau = force * arm_length"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "tau = force * arm_length"
+   ]
+  },
+  {
+   "id": "keph.106.6.7.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mass = 104",
+      "velocity = 98",
+      "r_perp = 25",
+      "L = mass * velocity * r_perp"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mass = 28",
+      "velocity = 2.9",
+      "r_perp = 61",
+      "L = mass * velocity * r_perp"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mass = 179",
+      "velocity = 86",
+      "r_perp = 55",
+      "L = mass * velocity * r_perp"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mass = 129",
+      "velocity = 61",
+      "r_perp = 98",
+      "L = mass * velocity * r_perp"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mass = 160",
+      "velocity = 18.9",
+      "r_perp = 79",
+      "L = mass * velocity * r_perp"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mass = 192",
+      "velocity = 120",
+      "r_perp = 66",
+      "L = mass * velocity * r_perp"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "L = mass * velocity * r_perp"
+   ]
+  },
+  {
+   "id": "keph.106.6.8.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "load = 686",
+      "load_arm = 432",
+      "effort_arm = 101",
+      "effort = (load * load_arm) / effort_arm"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "load = 161",
+      "load_arm = 475",
+      "effort_arm = 93",
+      "effort = (load * load_arm) / effort_arm"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "load = 469",
+      "load_arm = 437",
+      "effort_arm = 110",
+      "effort = (load * load_arm) / effort_arm"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "load = 612",
+      "load_arm = 298",
+      "effort_arm = 23",
+      "effort = (load * load_arm) / effort_arm"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "load = 546",
+      "load_arm = 849",
+      "effort_arm = 113",
+      "effort = (load * load_arm) / effort_arm"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "load = 635",
+      "load_arm = 70",
+      "effort_arm = 17.5",
+      "effort = (load * load_arm) / effort_arm"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "effort = (load * load_arm) / effort_arm"
+   ]
+  },
+  {
+   "id": "keph.106.6.9.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mass = 157",
+      "radius_gyration = 16.4",
+      "I = mass * (radius_gyration ** 2)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mass = 96",
+      "radius_gyration = 7",
+      "I = mass * (radius_gyration ** 2)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mass = 135",
+      "radius_gyration = 2.2",
+      "I = mass * (radius_gyration ** 2)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mass = 48",
+      "radius_gyration = 45",
+      "I = mass * (radius_gyration ** 2)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mass = 59",
+      "radius_gyration = 29",
+      "I = mass * (radius_gyration ** 2)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mass = 39",
+      "radius_gyration = 34",
+      "I = mass * (radius_gyration ** 2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "I = mass * (radius_gyration ** 2)"
+   ]
+  },
+  {
+   "id": "keph.106.6.10.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "omega_0 = 81",
+      "alpha = 86",
+      "t = 88",
+      "omega = omega_0 + alpha * t"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "omega_0 = 82",
+      "alpha = 27",
+      "t = 49",
+      "omega = omega_0 + alpha * t"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "omega_0 = 35",
+      "alpha = 35",
+      "t = 47",
+      "omega = omega_0 + alpha * t"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "omega_0 = 86",
+      "alpha = 36",
+      "t = 15.4",
+      "omega = omega_0 + alpha * t"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "omega_0 = 54",
+      "alpha = 22",
+      "t = 66",
+      "omega = omega_0 + alpha * t"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "omega_0 = 94",
+      "alpha = 93",
+      "t = 85",
+      "omega = omega_0 + alpha * t"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "omega = omega_0 + alpha * t"
+   ]
+  },
+  {
+   "id": "keph.106.6.11.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "tau = 32",
+      "I = 9.3",
+      "alpha = tau / I"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "tau = 16.4",
+      "I = 73",
+      "alpha = tau / I"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "tau = 34",
+      "I = 53",
+      "alpha = tau / I"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "tau = 26",
+      "I = 27",
+      "alpha = tau / I"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "tau = 81",
+      "I = 71",
+      "alpha = tau / I"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "tau = 58",
+      "I = 78",
+      "alpha = tau / I"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "alpha = tau / I"
+   ]
+  },
+  {
+   "id": "keph.106.6.11.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "I = 33",
+      "omega = 82",
+      "ke_rot = 0.5 * I * (omega ** 2)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "I = 65",
+      "omega = 98",
+      "ke_rot = 0.5 * I * (omega ** 2)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "I = 76",
+      "omega = 83",
+      "ke_rot = 0.5 * I * (omega ** 2)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "I = 95",
+      "omega = 49",
+      "ke_rot = 0.5 * I * (omega ** 2)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "I = 19.9",
+      "omega = 67",
+      "ke_rot = 0.5 * I * (omega ** 2)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "I = 50",
+      "omega = 22",
+      "ke_rot = 0.5 * I * (omega ** 2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "ke_rot = 0.5 * I * (omega ** 2)"
+   ]
+  },
+  {
+   "id": "keph.106.12.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "I = 66",
+      "omega = 96",
+      "L = I * omega"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "I = 93",
+      "omega = 95",
+      "L = I * omega"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "I = 61",
+      "omega = 84",
+      "L = I * omega"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "I = 26",
+      "omega = 55",
+      "L = I * omega"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "I = 76",
+      "omega = 98",
+      "L = I * omega"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "I = 31",
+      "omega = 56",
+      "L = I * omega"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "L = I * omega"
+   ]
+  },
+  {
+   "id": "keph.106.12.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "I = 87",
+      "alpha = 94",
+      "torque = I * alpha"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "I = 44",
+      "alpha = 28",
+      "torque = I * alpha"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "I = 85",
+      "alpha = 73",
+      "torque = I * alpha"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "I = 62",
+      "alpha = 33",
+      "torque = I * alpha"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "I = 89",
+      "alpha = 86",
+      "torque = I * alpha"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "I = 39",
+      "alpha = 21",
+      "torque = I * alpha"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "torque = I * alpha"
+   ]
+  },
+  {
+   "id": "keph.106.12.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "I_1 = 13.5",
+      "omega_1 = 57",
+      "I_2 = 74",
+      "omega_2 = (I_1 * omega_1) / I_2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "I_1 = 11.1",
+      "omega_1 = 32",
+      "I_2 = 59",
+      "omega_2 = (I_1 * omega_1) / I_2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "I_1 = 44",
+      "omega_1 = 11.4",
+      "I_2 = 66",
+      "omega_2 = (I_1 * omega_1) / I_2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "I_1 = 11.7",
+      "omega_1 = 14.5",
+      "I_2 = 96",
+      "omega_2 = (I_1 * omega_1) / I_2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "I_1 = 23",
+      "omega_1 = 14.7",
+      "I_2 = 47",
+      "omega_2 = (I_1 * omega_1) / I_2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "I_1 = 23",
+      "omega_1 = 83",
+      "I_2 = 64",
+      "omega_2 = (I_1 * omega_1) / I_2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "omega_2 = (I_1 * omega_1) / I_2"
+   ]
+  },
+  {
+   "id": "keph.106.12.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "torque = 15.2",
+      "omega = 13.4",
+      "power = torque * omega"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "torque = 80",
+      "omega = 2.7",
+      "power = torque * omega"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "torque = 2.6",
+      "omega = 36",
+      "power = torque * omega"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "torque = 8.4",
+      "omega = 30",
+      "power = torque * omega"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "torque = 63",
+      "omega = 97",
+      "power = torque * omega"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "torque = 84",
+      "omega = 38",
+      "power = torque * omega"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "power = torque * omega"
+   ]
+  }
+ ]
+}

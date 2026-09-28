@@ -34,6 +34,36 @@
      "q": "Design a mini \"shopping cart\" script (5-8 lines) that:\n- Declares `const` arrays for `items` (names) and `prices` (numbers)\n- Uses a loop to compute total using `reduce()` or `for` loop\n- Applies 18% GST using arithmetic operators\n- Displays formatted output: `\"Total: ₹X.XX (incl. 18% GST)\"` using template literals\n- Handles empty cart gracefully",
      "a": "```javascript\nconst items = [\"Notebook\", \"Pen\"];\nconst prices = [50, 10];\nconst subtotal = prices.reduce((sum, p) => sum + p, 0);\nconst gst = subtotal * 0.18;\nconst total = subtotal + gst;\nconsole.log(`Items: ${items.join(\", \")}`);\nconsole.log(`Subtotal: ₹${subtotal.toFixed(2)}`);\nconsole.log(`Total: ₹${total.toFixed(2)} (incl. 18% GST)`);\n```\nIf arrays empty: `subtotal = 0`, output shows `₹0.00`. Key concepts tested: `const` for arrays (mutation allowed), `reduce()` for aggregation, arithmetic precedence (`*` before `+`), template literals with `${}`, `toFixed(2)` for currency formatting. A poor answer uses `var`, manual loop with index errors, string concatenation with `+`, or forgets `toFixed` — revealing gaps in modern JS practices expected in board practicals.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ variables are named containers for storing data values that can be changed during program execution, declared using var, let, or const keywords with let and const being block-scoped (ES6+).",
+     "a": "JavaScript",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're ______ a simple calculator web page where a user enters the price of a book (₹450) and quantity (3), and you need to compute the total.",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "What is JavaScript variables? State the definition given in this lesson.",
+     "a": "JavaScript variables are named containers for storing data values that can be changed during program execution, declared using var, let, or const keywords with let and const being block-scoped (ES6+).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: JavaScript variables are named containers for storing data values that can be changed during program execution, declared using var, let, or const keywords with let and const being block-scoped (ES______+).",
+     "a": "6",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about JavaScript variables?",
+     "a": "Students believe const makes the value immutable (like final in Java).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can declare variables using appropriate keywords (let/const), identify and explain the 7 primitive types and object type, predict the output of expressions involving type coercion (e.g., \"5\" + 3 vs \"5\" - 3), correctly choose between == and === in conditional logic, and write a 5-line script that reads two numbers from prompt.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a step-by-step construction guide for a craftsman who needs to weld a metal rod at an angle of 135° using only a straightedge and compass. (Hint: 135° is 90° + 45°).",
      "a": "The student should outline: 1. Draw a baseline ray. 2. Construct a 90° angle at the vertex. 3. Construct a 90° angle adjacent to it (or extend the line to form 180° and bisect the remaining 90° section to get 45°). 4. Combine 90° + 45° = 135°. A poor answer simply states \"use a protractor to draw 135°\", which fails the geometric construction constraint.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ angles of given measures involves using a ruler, compass, and protractor (or standard compass arcs for special angles like 60°, 90°, 45°) to draw an angle that has an exact specified degree measurement from a given ray.",
+     "a": "Constructing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a builder at a ______ site in Jaipur, and you need to weld two metal beams together at an exact angle of 60 degrees to support a decorative arch.",
+     "a": "construction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a builder at a construction site in Jaipur, and you need to weld two metal beams together at an exact angle of ______ degrees to support a decorative arch.",
+     "a": "60",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can construct standard angles (such as 60°, 120°, 90°, 45°, 30°) using only a ruler and compass, and construct any arbitrary angle measure (such as 35° or 72°) accurately using a protractor and ruler.",
+     "self_check": true
     }
    ]
   }

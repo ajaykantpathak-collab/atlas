@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_11_005",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_11_005",
+   "title": "c11_leg_cbse_11_005",
+   "questions": [
+    {
+     "q": "What are the three constitutional jurisdictions of the Supreme Court of India, and under which Articles are they conferred?",
+     "a": "The three jurisdictions are: (1) Original Jurisdiction (Article 131) — disputes between Centre and States or between States; (2) Appellate Jurisdiction (Articles 132, 133, 134, 136) — appeals from High Courts in constitutional, civil, criminal matters, and Special Leave Petitions; (3) Advisory Jurisdiction (Article 143) — President may refer questions of law/fact of public importance. A wrong answer (e.g., listing \"writ jurisdiction\" as a separate head) reveals confusion between *original* jurisdiction (Article 32 for fundamental rights) and the *types* of constitutional jurisdiction — Article 32 is part of original jurisdiction, not a fourth category.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a High Court can refuse to issue a writ under Article 226, but the Supreme Court *cannot* refuse under Article 32.",
+     "a": "Article 32 is itself a Fundamental Right (\"right to constitutional remedies\") — the Supreme Court *must* entertain a petition for enforcement of Fundamental Rights; refusal would violate the right. Article 226 is a *power* conferred on High Courts, not a right of the citizen — High Courts have discretion to refuse on grounds like alternative remedy available, delay, or factual disputes. A wrong answer (e.g., \"both are discretionary\") reveals misunderstanding of the textual distinction: Article 32 says \"The Supreme Court *shall* have power...\" (mandatory), while Article 226 says \"High Courts *may* issue writs...\" (discretionary).",
+     "self_check": true
+    },
+    {
+     "q": "A Sessions Judge convicts an accused of murder and sentences him to life imprisonment. The accused appeals to the High Court, which affirms. Can the accused now appeal to the Supreme Court *as of right*? If not, what is the remedy?",
+     "a": "No, there is no appeal *as of right* in criminal cases after High Court affirms conviction (except if High Court reversed acquittal and awarded death penalty — Article 134). The remedy is a Special Leave Petition (SLP) under Article 136, which is *discretionary* — the Supreme Court may grant or refuse leave. A wrong answer (e.g., \"yes, under Article 134\") reveals confusion between the two limbs of Article 134: (a) appeals *without* certificate (only in death penalty cases where HC reversed acquittal or withdrew trial), and (b) appeals *with* certificate (HC certifies substantial question of law). Life imprisonment affirmed by HC falls in neither.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the doctrine of *res judicata* (Section 11 CPC) and *res sub judice* (Section 10 CPC). Give one scenario where each applies.",
+     "a": "*Res judicata* bars a *subsequent* suit on the *same cause of action* between *same parties* after a *final decision* by a competent court — e.g., X sues Y for breach of contract, loses, then sues again for damages for same breach → barred. *Res sub judice* stays a *subsequent* suit where the *same matter* is *already pending* in a competent court between same parties — e.g., X files suit for specific performance against Y; while pending, X files another suit for damages for same breach → second suit stayed. A wrong answer (swapping the two) reveals failure to grasp the temporal distinction: *res judicata* = matter *decided*; *res sub judice* = matter *pending*.",
+     "self_check": true
+    },
+    {
+     "q": "\"Judicial review is the most powerful tool of the Supreme Court.\" Evaluate this statement with reference to the *basic structure doctrine* and *Kesavananda Bharati*.",
+     "a": "The statement is *partially true but incomplete*. Judicial review (Articles 32, 136, 141, 226) allows the Court to strike down laws/executive actions violating Fundamental Rights or constitutional distribution of powers. However, *Kesavananda Bharati* (1973) held that even Parliament's amending power under Article 368 cannot destroy the \"basic structure\" (supremacy of Constitution, republican/democratic form, secularism, separation of powers, judicial review itself, federalism, rule of law). Thus, judicial review is *subject to* the basic structure — the Court *cannot* use judicial review to amend the basic structure. A wrong answer (e.g., \"judicial review is unlimited\") reveals ignorance of the *self-limiting* nature of the doctrine: the Court itself declared that *its own power* of judicial review is part of the basic structure and thus beyond its own reach to alter.",
+     "self_check": true
+    },
+    {
+     "q": "Design a flowchart showing the exact hierarchy of criminal courts in a metropolitan area (e.g., Delhi), from the court of first instance to the Supreme Court, labeling each level's maximum sentencing power.",
+     "a": "Expected flowchart (top-down):\n1. **Supreme Court** (Article 136 SLP; Articles 132, 134 appeals) — any sentence, death penalty requires confirmation.\n2. **High Court** (Article 226 writs; Sections 374, 377 CrPC appeals/revision) — any sentence, death penalty confirmation.\n3. **Sessions Court / Additional Sessions Court** (Sections 28, 29 CrPC) — any sentence; death penalty subject to HC confirmation.\n4. **Chief Metropolitan Magistrate (CMM)** — up to 7 years imprisonment + fine.\n5. **Additional Chief Metropolitan Magistrate (ACMM)** — up to 7 years imprisonment + fine.\n6. **Metropolitan Magistrate (MM)** — up to 3 years imprisonment + fine up to ₹10,000 (Section 29 CrPC).\nA poor answer (missing CMM/ACMM distinction, or showing Judicial Magistrate instead of Metropolitan Magistrate) reveals confusion between *district* (non-metropolitan) and *metropolitan* criminal hierarchies — CrPC creates separate streams (Sections 16–18 for metropolitan areas).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

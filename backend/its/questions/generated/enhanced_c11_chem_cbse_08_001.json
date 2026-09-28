@@ -34,6 +34,31 @@
      "q": "Design a simple laboratory experiment using common chemicals (available in a school lab) to demonstrate a redox reaction where the classical oxygen-transfer definition applies, and another where it fails but hydrogen-transfer works. List chemicals, procedure, and observations.",
      "a": "Oxygen-transfer: Heat CuO with H2 gas (or carbon). Observation: Black CuO turns reddish-brown (Cu), water forms. Hydrogen-transfer: Pass Cl2 gas into KI solution. Observation: Colourless solution turns brown (I2 formed). 2KI + Cl2 → 2KCl + I2. Here I– loses hydrogen? No hydrogen involved — classical H-transfer fails, but electronegative-element-transfer works (I– loses electropositive character? Actually I– is oxidized by losing electrons). A poor answer uses the same reaction for both or chooses non-redox reactions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Classical oxidation is defined as a chemical process involving addition of oxygen or an ______ element, removal of hydrogen or an electropositive element, or loss of electrons.",
+     "a": "electronegative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe an iron nail left in monsoon rain — it develops a ______-brown flaky coating (rust).",
+     "a": "reddish",
+     "self_check": true
+    },
+    {
+     "q": "What is Classical oxidation? State the definition given in this lesson.",
+     "a": "Classical oxidation is defined as a chemical process involving addition of oxygen or an electronegative element, removal of hydrogen or an electropositive element, or loss of electrons.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Classical oxidation?",
+     "a": "Students often think oxidation always requires oxygen gas (O2) as a reactant.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can identify oxidation and reduction half-processes in a given reaction using classical definitions (O/H transfer, electronegative/electropositive element transfer) and explain why the classical definition fails for reactions like 2Mg + O2 → 2MgO where both oxidation and reduction occur without oxygen transfer to a different.",
+     "self_check": true
     }
    ]
   }

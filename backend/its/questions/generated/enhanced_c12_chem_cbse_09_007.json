@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using only litmus paper, water, and solid samples of methylamine hydrochloride (CH₃NH₃⁺Cl⁻) and aniline hydrochloride (C₆H₅NH₃⁺Cl⁻) to demonstrate the relative basicity of the parent amines. Explain the expected observations and the chemical reasoning.",
      "a": "Dissolve equal molar amounts of each salt in separate beakers of water. Test each solution with red litmus paper. The methylamine hydrochloride solution will be acidic (salt of strong acid + weak base → acidic hydrolysis: CH₃NH₃⁺ + H₂O ⇌ CH₃NH₂ + H₃O⁺), turning blue litmus red. The aniline hydrochloride solution will be more acidic (aniline is a weaker base, so its conjugate acid is stronger), also turning blue litmus red, but the pH will be lower (more acidic) for aniline hydrochloride. To compare basicity of the free amines, add NaOH to each solution to liberate the free amine, then test with red litmus: methylamine solution turns red litmus blue strongly; aniline solution shows very weak or no colour change. A student who expects both free amine solutions to turn litmus blue equally misses the huge basicity difference.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Basicity of amines refers to their ability to act as Lewis bases by donating the lone pair of ______ on the nitrogen atom to accept a proton (H⁺) from an acid, forming an ammonium salt (R-NH₃⁺ X⁻).",
+     "a": "electrons",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how a few drops of ______ solution turn red litmus blue instantly, while aniline solution barely changes the colour — both are amines, yet their basicity differs dramatically.",
+     "a": "methylamine",
+     "self_check": true
+    },
+    {
+     "q": "What is Basicity of amines? State the definition given in this lesson.",
+     "a": "Basicity of amines refers to their ability to act as Lewis bases by donating the lone pair of electrons on the nitrogen atom to accept a proton (H⁺) from an acid, forming an ammonium salt (R-NH₃⁺ X⁻).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by recalling that ammonia (NH₃) is a weak base (pKb = ______) because nitrogen has a lone pair.",
+     "a": "4.75",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Basicity of amines?",
+     "a": "Students often memorize the aqueous basicity order for methylamines as \"secondary > primary > tertiary\" and for ethylamines as \"secondary > tertiary > primary\" without understanding *why* the tertiary amine drops below primary for methyl but not for ethyl.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) predict and explain the relative basicity order of aliphatic amines (primary, secondary, tertiary) in aqueous vs. gaseous phase using inductive, solvation, and steric arguments; (2) explain why aromatic amines are weaker bases than ammonia using resonance delocalisation of the nitrogen lone pair; (3) calculate Kb/pKb.",
+     "self_check": true
     }
    ]
   }

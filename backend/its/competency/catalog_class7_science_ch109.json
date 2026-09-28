@@ -72,7 +72,16 @@
      "action": "Express the result with proper units",
      "explain": "Attach the correct unit (m/s or km/h) to the computed value and verify it is reasonable for the given scenario."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "speed = distance / time",
+     "compute": "speed = distance / time"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gesc.109.3",
@@ -141,7 +150,16 @@
      "action": "Express the time period with units",
      "explain": "State the result in seconds (s) per oscillation and confirm it is consistent with the definition of one full back-and-forth swing."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "time_period = total_time / oscillations",
+     "compute": "time_period = total_time / oscillations"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gesc.109.5",
@@ -176,7 +194,16 @@
      "action": "Express the distance with proper units",
      "explain": "State the result in the appropriate distance unit (meters or kilometers) and verify it matches the units used for speed and time."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "distance = speed * time",
+     "compute": "distance = speed * time"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gesc.109.6",
@@ -211,7 +238,16 @@
      "action": "Express the time with proper units",
      "explain": "State the result in the appropriate time unit (seconds, minutes, or hours) and verify it is consistent with the units of distance and speed."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "time = distance / speed",
+     "compute": "time = distance / speed"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gesc.109.7",
@@ -246,7 +282,16 @@
      "action": "Simplify and express the result",
      "explain": "Simplify the fraction (equivalent to multiplying by 5/18) and state the final speed in m/s, confirming the conversion is correct."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "speed_ms = speed_kmh * 1000 / 3600",
+     "compute": "speed_ms = speed_kmh * 1000 / 3600"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gesc.109.8",
@@ -282,7 +327,16 @@
      "action": "Express the speed with proper units",
      "explain": "State the speed in the appropriate unit (km/min or km/h) based on the time unit used, and verify the result is reasonable for a vehicle trip."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "distance = final_reading - initial_reading",
+     "compute": "distance = final_reading - initial_reading"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

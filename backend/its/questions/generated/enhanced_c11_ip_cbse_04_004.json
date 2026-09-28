@@ -34,6 +34,26 @@
      "q": "Design a real-world scenario (Indian context) where you **must** use `insert()`, `remove()`, and `pop()` **in that order** on a list of strings. Write the initial list, the three calls with arguments, and the final list. Explain why `insert` before `remove` before `pop` is logically necessary for your scenario.",
      "a": "**Scenario:** A queue of patients at a clinic: `queue = [\"Aarav\", \"Diya\", \"Rohan\"]`.  \n1. `queue.insert(1, \"Emergency\")` → VIP patient jumps to front → `[\"Aarav\", \"Emergency\", \"Diya\", \"Rohan\"]`  \n2. `queue.remove(\"Diya\")` → Diya cancels → `[\"Aarav\", \"Emergency\", \"Rohan\"]`  \n3. `next_patient = queue.pop(0)` → doctor calls first → `next_patient = \"Aarav\"`, queue = `[\"Emergency\", \"Rohan\"]`  \nOrder matters: insert first to prioritize, then remove a specific name, then pop the *current* first. A poor answer uses arbitrary values without justifying the sequence, showing lack of **algorithmic thinking**.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: List methods append(), insert(), remove(), pop(), sort(), and reverse() are built-in mutator functions that modify a list *in-place* (returning None except pop() which returns the removed element). append(x) adds x as a single element at the end; insert(i, x) inserts x at index i, shifting ______ elements right; remove(x) deletes the *first occurrence* of value x (raises ValueError if absent); pop([i]) removes and returns the element at index i (default last); sort(key=None, reverse=False) arranges elements in ascending order by default using Timsort; reverse() flips the list order in-place.",
+     "a": "subsequent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then they want \"Milk\" at the *top* of the list → cart.______(0, \"Milk\").",
+     "a": "insert",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then they want \"Milk\" at the *top* of the list → cart.insert(______, \"Milk\").",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Given a list and a sequence of 3–5 method calls (including edge cases like index out of range, duplicate values, empty list), the student must trace the exact state of the list after each call, predict returned values, and identify which methods mutate the original list versus which raise exceptions.",
+     "self_check": true
     }
    ]
   }

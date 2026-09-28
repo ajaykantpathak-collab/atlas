@@ -34,6 +34,31 @@
      "q": "Design a simple investigation using a light microscope and Wright's stain to differentiate the five types of WBCs in a peripheral blood smear. What morphological features would you use to identify each type, and how would you calculate the differential leukocyte count?",
      "a": "Prepare a thin blood smear, fix with methanol, stain with Wright's stain. Under oil immersion (1000x), identify: (1) Neutrophil — multi-lobed nucleus (3-5 lobes), fine lilac granules; (2) Eosinophil — bi-lobed nucleus, large red-orange granules; (3) Basophil — S-shaped nucleus obscured by large dark purple granules; (4) Lymphocyte — large round nucleus, scant blue cytoplasm; (5) Monocyte — large kidney-shaped nucleus, abundant pale cytoplasm. Count 100 consecutive WBCs in a zigzag pattern, tally each type → percentage = differential count. A poor design (e.g., no staining details, counting <100 cells, not describing nuclear morphology) reveals lack of practical laboratory reasoning and quantitative skills.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Blood is a specialized connective tissue composed of a fluid matrix called plasma (55% by volume) and cellular components called formed elements (45% by volume) including ______ (RBCs), leucocytes (WBCs), and platelets (thrombocytes), functioning in transport, defense, and hemostasis.",
+     "a": "erythrocytes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you get a small cut on your finger while chopping vegetables, you notice the ______ stops within minutes — this everyday observation reveals blood's remarkable ability to clot.",
+     "a": "bleeding",
+     "self_check": true
+    },
+    {
+     "q": "What is Blood? State the definition given in this lesson.",
+     "a": "Blood is a specialized connective tissue composed of a fluid matrix called plasma (55% by volume) and cellular components called formed elements (45% by volume) including erythrocytes (RBCs), leucocytes (WBCs), and platelets (thrombocytes), functioning in transport, defense, and hemostasis.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Blood?",
+     "a": "Students often believe that all WBCs are phagocytic and that lymphocytes directly engulf bacteria like neutrophils do.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the composition and functional significance of each blood component, classify WBCs into granulocytes and agranulocytes with their relative percentages and roles, and describe the structural adaptations of RBCs for gas transport.",
+     "self_check": true
     }
    ]
   }

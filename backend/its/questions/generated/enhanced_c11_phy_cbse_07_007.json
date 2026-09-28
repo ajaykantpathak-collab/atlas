@@ -34,6 +34,16 @@
      "q": "Design a simple classroom demonstration using a rotating turntable, a small spring balance, and a mass to show that the apparent weight of an object decreases when the system rotates. Explain how the turntable models Earth's rotation and what the spring balance measures.",
      "a": "Place the spring balance with a hanging mass at the centre of a rotating turntable (models pole: no centrifugal effect, reading = \\(mg\\)). Then move the balance to the edge of the turntable (models equator: maximum centrifugal effect). As the turntable rotates, the spring balance reading decreases because the mass requires a centripetal force provided partly by the spring tension. The reduction in tension equals \\(m\\omega^2 r\\). A poor answer describes only a qualitative idea without linking the turntable's centre/edge to poles/equator or the spring tension to apparent weight.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe that a spring balance shows a ______ smaller reading for the same mass at the equator than at the poles — a real effect used in calibrating precision instruments.",
+     "a": "slightly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe that a spring balance shows a slightly smaller reading for the same mass at the equator than at the poles — a real effect used in ______ precision instruments.",
+     "a": "calibrating",
+     "self_check": true
     }
    ]
   }

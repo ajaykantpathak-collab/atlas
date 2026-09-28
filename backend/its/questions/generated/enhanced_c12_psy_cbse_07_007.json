@@ -1,0 +1,71 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_07_007",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_07_007",
+   "title": "c12_psy_cbse_07_007",
+   "questions": [
+    {
+     "q": "A student says: \"My family is a primary group because we live together, and my classroom is a secondary group because we study together.\" Is this reasoning correct? Explain why or why not using NCERT criteria.",
+     "a": "The reasoning is partially correct but incomplete. Family is primary because it is pre-existing (not chosen), involves face-to-face interaction, close physical proximity, and warm emotional bonds — not merely because members live together. Classroom is secondary because membership is based on choice/assignment for a specific goal (education), relationships are more impersonal and goal-oriented, and boundaries are permeable (students can leave/join) — not merely because they study together. A wrong answer reveals the student is confusing physical proximity or shared activity with the defining criteria (pre-existing vs chosen, emotional intimacy vs instrumentality, permeability of boundaries).",
+     "self_check": true
+    },
+    {
+     "q": "\"All formal groups are secondary groups, and all informal groups are primary groups.\" Evaluate this statement with one supporting example and one counterexample for each claim.",
+     "a": "The statement is false. Formal groups have explicitly stated functions, roles, and rules (e.g., a university, army). Informal groups lack formal structure and emerge spontaneously (e.g., friendship clique). A university is formal AND secondary (chosen, goal-oriented). A family is primary BUT can have formal elements (e.g., family business with defined roles). A friendship group is informal AND primary (chosen, intimate). A jury is formal (legal mandate, defined roles) but temporary — not necessarily secondary in the classic sense. A wrong answer reveals the student conflates the two independent dimensions (structure vs intimacy/choice) instead of treating them as orthogonal classifications.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul joins a new coding club at school. The club has a constitution, elected office-bearers, and weekly agendas. Members interact mostly during meetings. After 3 months, a smaller subset starts meeting informally at a café to discuss personal projects. Classify both the coding club and the café subset along all three dimensions (primary/secondary, formal/informal, ingroup/outgroup for Rahul). Justify each classification.",
+     "a": "Coding club: Secondary (chosen membership, goal-oriented), Formal (constitution, elected roles, explicit rules), Ingroup for Rahul (he identifies as member, uses \"we\"). Café subset: Primary (emergent, face-to-face, emotional bonds, self-disclosure), Informal (no rules, spontaneous), Ingroup for Rahul (stronger \"we\" feeling). A wrong answer reveals inability to apply all three independent dimensions simultaneously, or confusing the café group as \"secondary\" because it originated from the club, missing that primary/secondary is about quality of interaction, not origin.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how \"ingroup bias\" (favouring one's own group) would manifest differently in a primary group (family) versus a secondary group (professional association) during a resource allocation task. Use Tajfel's minimal group paradigm logic.",
+     "a": "In a primary group (family), ingroup bias is amplified by deep emotional bonds, shared history, and perceived irreplaceability — members allocate resources based on need and loyalty, often sacrificing personal gain. In a secondary group (professional association), bias is more calculative: members favour ingroup to maintain professional reputation, reciprocity norms, and future collaboration — allocation follows merit/equity rules but with subtle ingroup preference. Tajfel's paradigm shows even arbitrary categorisation triggers bias; in real groups, the bias strength scales with group centrality to identity. A wrong answer treats both groups identically, missing that primary groups trigger identity-based bias while secondary groups trigger strategic/norm-based bias.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the NCERT claim: \"In the primary group, boundaries are less permeable, i.e. members do not have the option to choose its membership as compared to secondary groups where it is easy to leave and join another group.\" Provide a modern counterexample where primary group boundaries have become permeable, and a secondary group with low permeability.",
+     "a": "The claim reflects traditional sociology but needs qualification. Counterexample 1 (primary with permeable boundaries): Adoptive families, blended families, or chosen families in LGBTQ+ communities — membership is negotiated, not solely ascribed. Counterexample 2 (secondary with low permeability): Medical licence boards, military units, or tenured faculty positions — exit requires formal procedures, high switching costs, and social identity loss. Modern mobility, digital communities, and legal frameworks have blurred the permeability distinction. A wrong answer either accepts the claim uncritically or gives trivial examples (e.g., \"changing schools\") without analysing structural barriers to exit/entry.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 2x2 matrix study to test whether \"formal vs informal structure\" and \"primary vs secondary intimacy\" independently affect social loafing. Specify: (a) the four group types, (b) the task, (c) the dependent measure, (d) the predicted interaction pattern based on NCERT concepts.",
+     "a": "(a) Four groups: Formal-Primary (family business with roles), Formal-Secondary (corporate project team), Informal-Primary (close friend circle), Informal-Secondary (casual gym buddies). (b) Task: Collective brainstorming for a social cause (output pooled, individual contribution unidentifiable). (c) DV: Number of unique ideas per person (individual output inferred from group total divided by size). (d) Prediction: Social loafing highest in Formal-Secondary (low identifiability, low cohesion, instrumental ties); lowest in Informal-Primary (high identifiability via mutual monitoring, high cohesion, emotional investment). Formal-Primary and Informal-Secondary intermediate. Main effect of intimacy > main effect of formality. A poor answer fails to operationalise \"social loafing\" or misses that identifiability and cohesiveness (from NCERT) are the mediators, not structure/intimacy directly.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Groups are organised systems of two or more interacting and ______ individuals with common motives, defined role relationships, and shared norms; they are classified into primary/secondary (based on intimacy and choice), formal/informal (based on explicit structure and rules), and ingroup/outgroup (based on psychological membership and social categorisation).",
+     "a": "interdependent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the captain of your school cricket team (formal, ______, ingroup for you) playing against a rival school (outgroup).",
+     "a": "secondary",
+     "self_check": true
+    },
+    {
+     "q": "What is Groups? State the definition given in this lesson.",
+     "a": "Groups are organised systems of two or more interacting and interdependent individuals with common motives, defined role relationships, and shared norms; they are classified into primary/secondary (based on intimacy and choice), formal/informal (based on explicit structure and rules), and ingroup/outgroup (based on psychological.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by listing ______ groups you belong to, then classify each along all three dimensions using the NCERT criteria: pre-existing vs chosen, explicit rules vs emergent norms, and psychological \"we\" vs \"they\".",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Groups?",
+     "a": "Students believe \"primary group = small group\" and \"secondary group = large group\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly classify any given real-life group into primary/secondary, formal/informal, and ingroup/outgroup categories with justification, and explain how each classification affects member behaviour, identity, and intergroup dynamics using NCERT terminology.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

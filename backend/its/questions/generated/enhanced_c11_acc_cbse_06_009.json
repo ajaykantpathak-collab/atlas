@@ -34,6 +34,31 @@
      "q": "Create a realistic business scenario involving three distinct errors: one error of principle, one error of commission (one-sided), and one error of complete omission. Write the rectification entries assuming the trial balance has already been prepared and a Suspense Account exists with a credit balance of ₹8,000.",
      "a": "Scenario: (1) Furniture purchased ₹20,000 debited to Purchases Account (error of principle). (2) Sales Book overcast by ₹3,000 (one-sided commission). (3) Credit sales to Meena ₹7,000 completely omitted (complete omission).\nRectification entries:\n(1) Furniture A/c Dr. ₹20,000 To Purchases A/c ₹20,000 (no Suspense).\n(2) Suspense A/c Dr. ₹3,000 To Sales A/c ₹3,000 (one-sided).\n(3) Meena's A/c Dr. ₹7,000 To Sales A/c ₹7,000 (two-sided).\nA poor answer would incorrectly route the principle error or omission through Suspense Account, or miscalculate the one-sided error amount.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of errors is the systematic process of correcting accounting mistakes by passing appropriate journal entries to nullify the wrong effect and restore the correct effect, with the method differing based on whether the trial balance has been prepared (using Suspense Account for one-sided errors) or not (direct two-sided journal entries).",
+     "a": "Rectification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an ______ for a Delhi-based wholesale business.",
+     "a": "accountant",
+     "self_check": true
+    },
+    {
+     "q": "What is Rectification of errors? State the definition given in this lesson.",
+     "a": "Rectification of errors is the systematic process of correcting accounting mistakes by passing appropriate journal entries to nullify the wrong effect and restore the correct effect, with the method differing based on whether the trial balance has been prepared (using Suspense Account for one-sided errors) or not (direct two-sided.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Rectification of errors?",
+     "a": "Students believe that every error correction after trial balance preparation must involve the Suspense Account.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently analyze any given error, classify it as one-sided (affecting trial balance) or two-sided (not affecting trial balance), determine the wrong and correct effects on accounts, and construct the precise rectification journal entry with or without Suspense Account as required.",
+     "self_check": true
     }
    ]
   }

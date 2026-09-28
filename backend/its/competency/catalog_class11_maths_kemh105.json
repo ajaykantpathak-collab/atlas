@@ -21,7 +21,7 @@
     "express the square root of a negative number as a complex number",
     "verify the algebraic identities for complex numbers"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -38,7 +38,16 @@
      "action": "state the conclusion",
      "explain": "Summarise the answer with the key terms of the chapter."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "expand the determinant or matrix product entry",
+     "explain": "expand the determinant or matrix product entry: det = -2 * 8 - 6 * 6 gives -52",
+     "compute": "det = -2 * 8 - 6 * 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.105.2.1",
@@ -82,7 +91,7 @@
     "apply the quadratic formula with complex numbers",
     "express the roots in the form a plus i b"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -99,7 +108,16 @@
      "action": "state the conclusion",
      "explain": "Summarise the answer with the key terms of the chapter."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "expand the determinant or matrix product entry",
+     "explain": "expand the determinant or matrix product entry: det = 8 * -1 - 6 * -2 gives 4",
+     "compute": "det = 8 * -1 - 6 * -2"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

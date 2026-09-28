@@ -34,6 +34,31 @@
      "q": "Design a flowchart that a consumer can follow to decide which commission to approach for a complaint about a defective laptop worth ₹75,000, including the appeal path if dissatisfied at each stage. Label all timelines and pre-deposit requirements.",
      "a": "Flowchart: Start → Value ≤ ₹1 crore? Yes → File in District Commission → If dissatisfied, appeal to State Commission within 45 days with 50% pre-deposit (max ₹25,000) → If dissatisfied, appeal to National Commission within 30 days with 50% pre-deposit (max ₹35,000) → If dissatisfied, appeal to Supreme Court within 30 days. A poor flowchart (missing value check, wrong forum, missing timelines/deposits) reveals the student cannot synthesize the procedural pathway into a usable decision tool.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Consumer Disputes Redressal ______ are a three-tier quasi-judicial mechanism established under the Consumer Protection Act, 2019 (replacing the 1986 Act) for speedy and inexpensive resolution of consumer disputes.",
+     "a": "Commissions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you bought a premium smart TV for ₹1.2 lakh that developed a manufacturing defect within a week, and the seller refuses ______ citing \"physical damage\" you didn't cause.",
+     "a": "replacement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you bought a premium smart TV for ₹______ lakh that developed a manufacturing defect within a week, and the seller refuses replacement citing \"physical damage\" you didn't cause.",
+     "a": "1.2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) correctly identify which commission has jurisdiction for a given complaint value and type, (2) explain the composition and appointment process for each tier, (3) trace the appeal pathway from District to National Commission to Supreme Court within statutory time limits, and (4) distinguish between.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you bought a premium smart TV for ₹1.2 lakh that developed a ______ defect within a week, and the seller refuses replacement citing \"physical damage\" you didn't cause.",
+     "a": "manufacturing",
+     "self_check": true
     }
    ]
   }

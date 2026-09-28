@@ -34,6 +34,26 @@
      "q": "Design a simple histological experiment to distinguish between myelinated and non-myelinated nerve fibers in a mixed peripheral nerve sample, using only light microscopy and standard stains (no electron microscopy). Specify the stain, expected observations, and the structural basis for the difference.",
      "a": "Use **osmium tetroxide** (stains lipid-rich myelin black) or **luxol fast blue** (myelin-specific blue stain). Myelinated fibers appear as dark rings (myelin sheath) around unstained axons with periodic gaps (nodes of Ranvier); non-myelinated fibers show only thin Schwann cell nuclei on the surface of axon bundles without dark rings. Structural basis: myelin is 70-80% lipid, retaining lipid stains; non-myelinated axons lack concentric lipid layers. A poor design (e.g., using H&E only) fails because both fiber types appear similar pink/blue without lipid-specific staining, revealing ignorance of myelin's biochemical composition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A neuron is the structural and functional unit of the neural system, specialized for detecting, receiving, and transmitting electrochemical signals via distinct regions: the cell body (soma) containing Nissl's granules, short branched dendrites that conduct impulses toward the soma, and a single long axon that conducts impulses away from the soma to synaptic knobs containing ______ vesicles.",
+     "a": "neurotransmitter",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your hand pulling back instantly when touching a hot cup of chai - this rapid response relies on neurons ______ signals at speeds up to 120 m/s.",
+     "a": "transmitting",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can accurately draw and label a multipolar neuron identifying all components (soma, dendrites, axon, myelin sheath, nodes of Ranvier, synaptic knobs), classify neurons as multipolar, bipolar, or unipolar based on process count and location, and explain how structural features (e.g., myelin sheath, Nissl's granules) relate to.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your hand pulling back instantly when touching a hot cup of chai - this rapid response relies on neurons transmitting signals at speeds up to ______ m/s.",
+     "a": "120",
+     "self_check": true
     }
    ]
   }

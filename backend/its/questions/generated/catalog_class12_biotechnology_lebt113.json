@@ -1,6 +1,100 @@
 {
- "catalog": "catalog_class12_biotechnology_lebt113",
+ "catalog": "catalog_class12_biotechnology_lebt113.json",
  "concepts": [
+  {
+   "id": "lebt113.2",
+   "title": "Startup Recognition Eligibility Criteria",
+   "converted_to_compute": true,
+   "formula": "startup_age = check_year - incorporation_year",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "startup_age = check_year - incorporation_year",
+     "compute": "startup_age = check_year - incorporation_year"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Startup Recognition Eligibility Criteria: given check_year = 40, incorporation_year = 2.9, find startup age.",
+     "a": "37.1",
+     "self_check": false
+    },
+    {
+     "q": "For Startup Recognition Eligibility Criteria: given check_year = 25, incorporation_year = 1, find startup age.",
+     "a": "24",
+     "self_check": false
+    },
+    {
+     "q": "For Startup Recognition Eligibility Criteria: given check_year = 96, incorporation_year = 14.1, find startup age.",
+     "a": "81.9",
+     "self_check": false
+    },
+    {
+     "q": "For Startup Recognition Eligibility Criteria: given check_year = 35, incorporation_year = 7.8, find startup age.",
+     "a": "27.2",
+     "self_check": false
+    },
+    {
+     "q": "For Startup Recognition Eligibility Criteria: given check_year = 60, incorporation_year = 9.4, find startup age.",
+     "a": "50.6",
+     "self_check": false
+    },
+    {
+     "q": "For Startup Recognition Eligibility Criteria: given check_year = 67, incorporation_year = 10.9, find startup age.",
+     "a": "56.1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lebt113.7",
+   "title": "Plant Breeder Rights Protection Years",
+   "converted_to_compute": true,
+   "formula": "mid_years = (min_years + max_years) / 2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mid_years = (min_years + max_years) / 2",
+     "compute": "mid_years = (min_years + max_years) / 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Plant Breeder Rights Protection Years: given min_years = 11.8, max_years = 52, find mid years.",
+     "a": "31.9",
+     "self_check": false
+    },
+    {
+     "q": "For Plant Breeder Rights Protection Years: given min_years = 19.2, max_years = 41, find mid years.",
+     "a": "30.1",
+     "self_check": false
+    },
+    {
+     "q": "For Plant Breeder Rights Protection Years: given min_years = 3.5, max_years = 44, find mid years.",
+     "a": "23.75",
+     "self_check": false
+    },
+    {
+     "q": "For Plant Breeder Rights Protection Years: given min_years = 3.3, max_years = 45, find mid years.",
+     "a": "24.15",
+     "self_check": false
+    },
+    {
+     "q": "For Plant Breeder Rights Protection Years: given min_years = 2.1, max_years = 54, find mid years.",
+     "a": "28.05",
+     "self_check": false
+    },
+    {
+     "q": "For Plant Breeder Rights Protection Years: given min_years = 7.2, max_years = 77, find mid years.",
+     "a": "42.1",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "lebt113.1",
    "title": "Entrepreneur Roles and Qualities",
@@ -18,37 +112,6 @@
     {
      "q": "Under which section is 'Entrepreneur Roles and Qualities' taught, and from which source text?",
      "a": "13.1 (source: lebt113.txt sections 13.1-13.1.3, Boxes 1-2)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebt113.2",
-   "title": "Startup Recognition Eligibility Criteria",
-   "questions": [
-    {
-     "q": "Using the method 'Startup Recognition Eligibility Criteria', work with: check_year = 50, incorporation_year = 50. Carry the chain through step by step and give the final value of years_left.",
-     "a": "10 years",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Startup Recognition Eligibility Criteria' and work with: check_year = 25, incorporation_year = 500. Carry the chain through step by step and give the final value of years_left.",
-     "a": "485 years",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Startup Recognition Eligibility Criteria' refers to.",
-     "a": "Startup India recognises a venture only while it is young and small: incorporated as a private limited company, partnership or LLP, turnover below one hundred crore rupees in any previous financial year, and no older than ten years from incorporation, working on innovation or improvement rather than being a split-off of an old business.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Startup Recognition Eligibility Criteria'.",
-     "a": "Subtract the incorporation year from the check year - past ten years or past a hundred crore turnover, the startup tag lapses.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Startup Recognition Eligibility Criteria', in plain ASCII form.",
-     "a": "startup_age = check_year - incorporation_year",
      "self_check": true
     }
    ]
@@ -143,37 +206,6 @@
     {
      "q": "Under which section is 'IPR and Patent Criteria in Biotechnology' taught, and from which source text?",
      "a": "13.4 (source: lebt113.txt sections 13.4-13.4.1)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebt113.7",
-   "title": "Plant Breeder Rights Protection Years",
-   "questions": [
-    {
-     "q": "Using the method 'Plant Breeder Rights Protection Years', work with: granted_years = 1500, max_years = 10, min_years = 150, years_elapsed = 100. Carry the chain through step by step and give the final value of years_remaining.",
-     "a": "1400 years",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Plant Breeder Rights Protection Years' and work with: granted_years = 200, max_years = 2600, min_years = 10, years_elapsed = 150. Carry the chain through step by step and give the final value of years_remaining.",
-     "a": "50 years",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Plant Breeder Rights Protection Years' refers to.",
-     "a": "Plant breeder's rights hand a new variety's exclusive commercial market for roughly twenty to twenty-five years - provided the variety is novel, distinct, uniform and stable - blocking unauthorised growing or selling of the variety or its reproductive material while sparing research use and the farmer's saved seed.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Plant Breeder Rights Protection Years'.",
-     "a": "Average the protection window's ends for a typical term, then subtract elapsed years to see what remains.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Plant Breeder Rights Protection Years', in plain ASCII form.",
-     "a": "mid_years = (min_years + max_years) / 2",
      "self_check": true
     }
    ]

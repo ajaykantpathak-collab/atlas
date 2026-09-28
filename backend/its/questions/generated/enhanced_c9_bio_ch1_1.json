@@ -34,6 +34,26 @@
      "q": "Design a simple investigation using only a compound microscope (school lab), onion peel, and pond water to demonstrate the complementary nature of Hooke's and Leeuwenhoek's discoveries. Specify what to observe, stain, and compare.",
      "a": "**Investigation:** 1) Mount stained onion peel (iodine) → observe fixed, walled compartments (Hooke-like structural view). 2) Mount fresh pond water (unstained) → observe motile, diverse shapes (Leeuwenhoek-like functional view). 3) Compare: onion cells have rigid walls, defined shape, no independent movement; pond microbes move, change shape, lack rigid walls. **Good answer** explicitly links onion to Hooke's \"cell walls\" and pond water to Leeuwenhoek's \"animalcules.\" A poor answer (e.g., just \"look at both\") fails to design a comparative framework that mirrors the historical complementarity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The discovery of the cell refers to the foundational observations by Robert Hooke (1665), who first coined the term \"cell\" after viewing dead cork tissue under a compound microscope, and Antonie van Leeuwenhoek (1670s), who observed living ______ (\"animalcules\") using high-quality single-lens microscopes, establishing the existence of microscopic life.",
+     "a": "microorganisms",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine placing a thin slice of onion peel on a slide in your school lab: you see tiny, brick-like ______.",
+     "a": "compartments",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Hooke saw a similar pattern in cork in ______ but thought they were empty, non-living \"cells\" (like monk's rooms).",
+     "a": "1665",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the distinct contributions of Hooke and Leeuwenhoek, describe the limitations of their respective microscopes and specimens, and articulate how their observations collectively necessitated the formulation of Cell Theory.",
+     "self_check": true
     }
    ]
   }

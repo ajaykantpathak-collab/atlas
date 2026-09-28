@@ -20,7 +20,7 @@
     "how much DNA remains after M phase",
     "calculate dna content dynamics in cell cycle for the given values"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -39,7 +39,16 @@
      "action": "Validate DNA content returns to original level",
      "explain": "After one complete cycle of S-phase replication and M-phase division, the final DNA content per daughter cell should equal the initial G1 content."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "final_dna = initial_dna * (2 ** replication_cycles) / (2 ** division_cycles)",
+     "compute": "final_dna = initial_dna * (2 ** replication_cycles) / (2 ** division_cycles)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.10.2.1",
@@ -56,7 +65,7 @@
     "what is the result of mitotic division",
     "what do you understand by mitosis characteristics"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -73,7 +82,16 @@
      "action": "Describe the stages of mitosis",
      "explain": "Prophase, metaphase, anaphase, and telophase sequentially segregate duplicated chromosomes, followed by cytokinesis to form two identical daughter cells."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "daughter_chromosomes = parent_chromosomes",
+     "compute": "daughter_chromosomes = parent_chromosomes"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.10.4.1",
@@ -90,7 +108,7 @@
     "find the ploidy of daughter cells",
     "find the required value in a meiosis reduction problem"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -115,7 +133,16 @@
      "explain": "Meiosis I separates homologous chromosomes to halve ploidy, while Meiosis II separates sister chromatids equationaly, yielding four haploid gametes.",
      "compute": "ploidy = daughter_chromosomes"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "daughter_chromosomes = parent_chromosomes / 2",
+     "compute": "daughter_chromosomes = parent_chromosomes / 2"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

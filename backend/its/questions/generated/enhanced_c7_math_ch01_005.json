@@ -34,6 +34,26 @@
      "q": "Create a set of three 8-digit numbers using the digits 4, 5, 6, 7, 8, 9, 0, 1 (using each digit at least once per number or repetition allowed as long as length is 8 digits) and arrange them in descending order, explaining your rule.",
      "a": "An acceptable student response will provide three distinct 8-digit numbers (e.g., 8,76,54,109; 7,86,54,109; 6,87,54,109) arranged largest to smallest with a clear rule: \"Compare highest place values (crores) first; if equal, move to ten-lakhs, and so on.\" A poor answer lists arbitrary numbers without checking digit counts or fails to order them correctly, showing no grasp of place value hierarchy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Comparing and ordering large numbers involves ______ whether a large number is greater than, less than, or equal to another, and arranging sets of large numbers in ascending or descending order by analyzing their digits from left to right using place value.",
+     "a": "determining",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two large Indian cities: City A has a ______ of 4,32,15,670 people and City B has 4,32,18,900 people.",
+     "a": "population",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Connecting back to our prior practice with ______-digit numbers, we compare digits starting from the leftmost side (the highest place value) and move rightward.",
+     "a": "6",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can compare two or more 7-digit or 8-digit numbers by digit-by-digit place value analysis and accurately arrange them in ascending and descending order.",
+     "self_check": true
     }
    ]
   }

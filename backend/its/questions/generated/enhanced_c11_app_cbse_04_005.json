@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_04_005",
+   "title": "c11_app_cbse_04_005",
+   "questions": [
+    {
+     "q": "State the precise condition for a relation R on a set A to be transitive. Use quantifiers and logical implication.",
+     "a": "**Correct answer:** A relation R on set A is transitive if for all a, b, c ∈ A, whenever (a, b) ∈ R and (b, c) ∈ R, then (a, c) ∈ R. Symbolically: ∀ a,b,c ∈ A, [(a,b) ∈ R ∧ (b,c) ∈ R] ⇒ (a,c) ∈ R.  \n**Wrong answer reveals:** If a student writes \"if (a,b) and (b,c) are in R then (a,c) is in R\" without \"for all a,b,c ∈ A\", they miss the universal quantification — a critical error in board exams. If they confuse it with symmetry (writing (b,a) ∈ R), they conflate the two properties.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the relation R = {(1,1), (2,2), (3,3), (1,2), (2,1)} on set A = {1,2,3}. Is R symmetric? Justify your answer by explicitly checking the condition.",
+     "a": "**Correct answer:** Yes, R is symmetric. We check all pairs in R: (1,1) ⇒ (1,1) ∈ R ✓; (2,2) ⇒ (2,2) ∈ R ✓; (3,3) ⇒ (3,3) ∈ R ✓; (1,2) ⇒ (2,1) ∈ R ✓; (2,1) ⇒ (1,2) ∈ R ✓. Every (a,b) ∈ R has its reverse (b,a) also in R.  \n**Wrong answer reveals:** If a student says \"No, because (1,3) is not in R\", they misunderstand symmetry — it does NOT require (a,b) to be in R for all a,b; it only requires that *if* (a,b) is in R, then (b,a) must be in R. This is the most common Class 11 error: confusing \"for all pairs\" with \"for all pairs that are in the relation\".",
+     "self_check": true
+    },
+    {
+     "q": "Let A = {1, 2, 3}. Define a relation R on A that is reflexive and symmetric but NOT transitive. Write R in roster form and prove each property.",
+     "a": "**Correct answer:** R = {(1,1), (2,2), (3,3), (1,2), (2,1), (2,3), (3,2)}.  \n- Reflexive: (1,1), (2,2), (3,3) ∈ R ✓  \n- Symmetric: (1,2)⇒(2,1), (2,1)⇒(1,2), (2,3)⇒(3,2), (3,2)⇒(2,3) ✓  \n- Not transitive: (1,2) ∈ R and (2,3) ∈ R but (1,3) ∉ R ✗  \n**Wrong answer reveals:** If a student includes (1,3) and (3,1) to \"fix\" transitivity, they make it transitive — missing the point. If they omit (1,1), (2,2), or (3,3), it's not reflexive. This tests whether they can independently control each property.",
+     "self_check": true
+    },
+    {
+     "q": "Let R be a relation on the set of integers Z defined by R = {(a, b) : a − b is divisible by 3}. Prove that R is an equivalence relation. Then, explain why the relation S = {(a, b) : a − b is divisible by 2} is also an equivalence relation, but R ≠ S.",
+     "a": "**Correct answer:**  \n**R is equivalence:**  \n- Reflexive: a − a = 0 = 3×0 ⇒ 3|0 ⇒ (a,a) ∈ R ∀a ∈ Z  \n- Symmetric: if 3|(a−b) then a−b=3k ⇒ b−a=−3k=3(−k) ⇒ 3|(b−a) ⇒ (b,a) ∈ R  \n- Transitive: if 3|(a−b) and 3|(b−c), then a−b=3k, b−c=3m ⇒ a−c=3(k+m) ⇒ 3|(a−c) ⇒ (a,c) ∈ R  \n**S is equivalence** by identical logic with 2 instead of 3.  \n**R ≠ S** because (1,4) ∈ R (1−4=−3 divisible by 3) but (1,4) ∉ S (1−4=−3 not divisible by 2).  \n**Wrong answer reveals:** If a student proves R is equivalence but says \"R = S because both are equivalence relations\", they confuse *property* with *set equality*. If they skip the transitive step (e.g., don't show a−c = (a−b)+(b−c)), they miss the algebraic structure.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If a relation is symmetric and transitive, it must be reflexive.\" Evaluate this claim. If true, prove it. If false, give a counterexample on a non-empty set and explain why the student's reasoning fails.",
+     "a": "**Correct answer:** The claim is **false**. Counterexample: Let A = {1, 2} and R = ∅ (empty relation). R is symmetric (vacuously true: no (a,b) ∈ R to violate it) and transitive (vacuously true), but not reflexive because (1,1) ∉ R and (2,2) ∉ R.  \n**Why reasoning fails:** The student likely thinks: \"For any a, pick b such that (a,b) ∈ R. Then by symmetry (b,a) ∈ R, then by transitivity (a,a) ∈ R.\" But this assumes ∃ b with (a,b) ∈ R — which may not exist. Reflexivity requires (a,a) ∈ R for *every* a, but symmetry+transitivity only force (a,a) ∈ R for those a that are related to *something*.  \n**Wrong answer reveals:** If a student says \"True\" and gives a flawed proof, they miss the existential quantifier gap — a classic senior-secondary logical error. If they give a non-empty counterexample like R = {(1,1)} on {1,2}, it's not symmetric (no (2,2) needed but (1,1) is fine — wait, this *is* symmetric and transitive but not reflexive on {1,2} because (2,2) ∉ R — actually this works too! But empty relation is cleaner).",
+     "self_check": true
+    },
+    {
+     "q": "Create a relation R on the set A = {Delhi, Mumbai, Chennai, Kolkata} that represents \"has a direct flight to\" (assume bidirectional flights). Is this relation reflexive? Symmetric? Transitive? An equivalence relation? Justify each. Then modify the real-world scenario to make it an equivalence relation.",
+     "a": "**Correct answer:**  \nLet R = {(Delhi,Mumbai), (Mumbai,Delhi), (Delhi,Chennai), (Chennai,Delhi), (Mumbai,Chennai), (Chennai,Mumbai), (Kolkata,Delhi), (Delhi,Kolkata), ...} — all bidirectional direct flight pairs.  \n- Not reflexive: No city has a direct flight to itself (no (Delhi,Delhi) etc.) ✗  \n- Symmetric: If Delhi→Mumbai direct, then Mumbai→Delhi direct ✓ (by assumption)  \n- Not transitive: Delhi→Mumbai and Mumbai→Chennai direct, but Delhi→Chennai may not be direct ✗  \n- Not equivalence (fails reflexive and transitive)  \n**Modification:** Define R' = \"is in the same connected component of the flight network\" (i.e., there exists a path of direct flights). Then R' is reflexive (trivial path), symmetric (reverse path), transitive (concatenate paths) — an equivalence relation partitioning cities into connected regions.  \n**Wrong answer reveals:** If a student says \"reflexive because a city is connected to itself\", they confuse \"direct flight\" with \"connectivity\". If they say transitive holds because \"you can fly via Mumbai\", they confuse direct flight with multi-stop — missing the precise definition of the relation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

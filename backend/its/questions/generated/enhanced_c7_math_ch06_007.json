@@ -34,6 +34,31 @@
      "q": "Design a puzzle involving 6 cards labeled 1 to 6 in a row, where a legal move consists of flipping any 3 adjacent cards. State whether it is possible to transition from all cards face-down to all cards face-up, and provide the parity proof.",
      "a": "Expected Answer: A puzzle where 6 cards in a row start all face-down (0, 0, 0, 0, 0, 0). Legal move: flip 3 adjacent cards. Target: all face-up (1, 1, 1, 1, 1, 1). Parity Proof: Flipping 3 adjacent cards changes the sum of face-up cards by either +3, +1, -1, or -3. Every move changes the sum by an odd amount. Starting sum is 0 (even). Target sum is 6 (even). Since each move changes parity (even to odd, odd to even), an even target sum (6) requires an even number of moves. Since an even number of moves is possible, the puzzle is solvable. A poor answer fails to define the invariant state change or incorrectly calculates the sum parity of the target configuration.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A parity argument is a problem-solving strategy that uses the properties of even and odd numbers to prove whether certain ______, games, or tasks are possible or impossible.",
+     "a": "configurations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are playing a game with 15 coins placed on a table, all ______ heads up.",
+     "a": "showing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are playing a game with ______ coins placed on a table, all showing heads up.",
+     "a": "15",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can analyze a multi-step movement, grid puzzle, or coin-flipping scenario by assigning parity (even or odd) to the states, and can mathematically justify why a target configuration is impossible or possible based on invariant parity conservation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are playing a game with 15 coins placed on a table, all showing heads up.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

@@ -5,6 +5,8 @@
    "id": "gegp.8.1",
    "title": "Multiplication of Fractions",
    "converted_to_compute": false,
+   "formula": "result = whole * fnum / fden",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 4 x 1/4.",
@@ -41,15 +43,8 @@
   {
    "id": "gegp.8.2",
    "title": "Fraction of a Fraction",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "combine the fractions with the fraction operation rules",
-     "explain": "combine the fractions with the fraction operation rules: prod = 11 * 7 / 3 gives 25.6667",
-     "compute": "prod = 11 * 7 / 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 11 x 7/3.",
@@ -86,15 +81,8 @@
   {
    "id": "gegp.8.3",
    "title": "Division with Fractions",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "combine the fractions with the fraction operation rules",
-     "explain": "combine the fractions with the fraction operation rules: prod = 6 * 3 / 7 gives 2.57143",
-     "compute": "prod = 6 * 3 / 7"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 6 x 3/7.",
@@ -131,15 +119,8 @@
   {
    "id": "gegp.8.4",
    "title": "Word Problems with Fractions",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "combine the fractions with the fraction operation rules",
-     "explain": "combine the fractions with the fraction operation rules: prod = 6 * 3 / 4 gives 4.5",
-     "compute": "prod = 6 * 3 / 4"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 6 x 3/4.",

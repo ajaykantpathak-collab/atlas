@@ -34,6 +34,31 @@
      "q": "Design a pseudocode convention for a new keyword `REPEAT n TIMES` that executes a block exactly n times. Show how you would write the block structure and explain how it differs from a FOR loop.",
      "a": "```\nREPEAT 5 TIMES\n    OUTPUT \"Hello\"\nEND REPEAT\n```\nDifference: `REPEAT n TIMES` doesn't expose a loop counter variable, so it's used when the iteration count is fixed and the index isn't needed inside the block. A FOR loop (`FOR i FROM 1 TO 5`) provides the counter `i` for use in the body. A poor answer would not distinguish the scoping of the counter or would use indentation inconsistently.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Pseudocode is a structured, high-level ______ of an algorithm that uses natural language mixed with programming-like constructs (keywords, indentation, control structures) to express logic precisely without adhering to the syntax rules of any specific programming language.",
+     "a": "description",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are explaining to a friend how to ______ the total cost of items in a shopping cart including GST, but your friend doesn't know Python or C++.",
+     "a": "calculate",
+     "self_check": true
+    },
+    {
+     "q": "What is Pseudocode? State the definition given in this lesson.",
+     "a": "Pseudocode is a structured, high-level description of an algorithm that uses natural language mixed with programming-like constructs (keywords, indentation, control structures) to express logic precisely without adhering to the syntax rules of any specific programming language.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Pseudocode?",
+     "a": "Students often write pseudocode that is essentially Python code with missing colons and parentheses (e.g., if x > 0: print(x)).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently write clear, correctly indented pseudocode for a given problem using standard keywords (INPUT, OUTPUT, IF-ELSE, WHILE, FOR) and proper conventions for assignment, conditionals, and loops, such that another student could implement it in any programming language.",
+     "self_check": true
     }
    ]
   }

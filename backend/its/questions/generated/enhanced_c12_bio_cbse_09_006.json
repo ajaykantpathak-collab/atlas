@@ -34,6 +34,21 @@
      "q": "Create a low-cost integrated farming model for a 2-ha smallholder farm in Bihar combining fish culture, livestock, and agriculture. Specify species, waste-recycling flows, and one measurable sustainability indicator.",
      "a": "Good answer: Fish-poultry-vegetable integration. Pond (1 ha): IMC + exotic carps (5000/ha). Poultry house (200 birds) built over pond — droppings (N,P) fertilize pond → plankton → fish feed. Pond silt (nutrient-rich) used as fertilizer for vegetable beds (0.5 ha) on bunds. Vegetable waste → poultry feed. Sustainability indicator: \"External feed/fertilizer input reduced by >60% compared to monoculture\" or \"Net profit/ha/year > ₹3 lakh\".  \nPoor answer reveals: Student lists components but misses *recycling flows* (e.g., \"chicken manure to pond\" but not \"pond silt to crops\"). They treat integration as coexistence, not nutrient cycling. This tests systems thinking — a NEET 2023 case-study style question.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Fisheries refer to the scientific management, capture, processing, and marketing of fish and other ______ valuable aquatic organisms (crustaceans, molluscs) from natural water bodies (capture fisheries) or through controlled cultivation in confined water bodies (culture fisheries/aquaculture).",
+     "a": "commercially",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a visit to your local fish market (machli bazaar) early morning — observe the variety: rohu, catla, mrigal (______), pomfret, surmai, prawns (marine).",
+     "a": "freshwater",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) differentiate between capture and culture fisheries with Indian examples, (2) explain the principle of composite fish culture using feeding niche partitioning, (3) describe the steps of induced breeding (hypophysation) in Indian major carps, and (4) evaluate the ecological and economic trade-offs of intensive.",
+     "self_check": true
     }
    ]
   }

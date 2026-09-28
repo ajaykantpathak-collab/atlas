@@ -34,6 +34,36 @@
      "q": "Design a two-step sequence to convert cyclohexanol to cyclohexanone oxime. Specify reagents for each step.",
      "a": "**Answer:**  \nStep 1: Oxidation of secondary alcohol to ketone.  \nReagent: K₂Cr₂O₇/H₂SO₄ (heat) **or** Cu/573 K (dehydrogenation).  \nProduct: Cyclohexanone.  \nStep 2: Nucleophilic addition of hydroxylamine to carbonyl.  \nReagent: NH₂OH·HCl + base (NaOAc/pyridine).  \nProduct: Cyclohexanone oxime.  \n**Why poor answers reveal misunderstanding:** Students may try to use PCC (unnecessary for secondary alcohol), or suggest direct conversion of alcohol to oxime (no such reagent). They might forget the acid-base workup for hydroxylamine hydrochloride. This tests forward synthesis planning — a key competency for JEE Advanced.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Aldehydes are prepared by ______ oxidation or dehydrogenation of primary alcohols, while ketones are prepared by oxidation or dehydrogenation of secondary alcohols; tertiary alcohols do not yield carbonyl compounds under these conditions because they lack α-hydrogens.",
+     "a": "controlled",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bottle of hand sanitizer — it smells sharp because it contains ethanol that has partially oxidised to ______.",
+     "a": "acetaldehyde",
+     "self_check": true
+    },
+    {
+     "q": "What is Aldehydes? State the definition given in this lesson.",
+     "a": "Aldehydes are prepared by controlled oxidation or dehydrogenation of primary alcohols, while ketones are prepared by oxidation or dehydrogenation of secondary alcohols; tertiary alcohols do not yield carbonyl compounds under these conditions because they lack α-hydrogens.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For primary alcohols, use PCC in CH₂Cl₂ (stops at aldehyde) or Cu at ______ K (dehydrogenation); strong oxidants like KMnO₄ give carboxylic acids.",
+     "a": "573",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Aldehydes?",
+     "a": "Misconception: \"Primary alcohols always give aldehydes on oxidation; secondary always give ketones; tertiary give nothing.\" Why it's wrong: The reagent and conditions decide the product for primary alcohols.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) identify whether a given alcohol is primary, secondary, or tertiary; (2) select the correct reagent (PCC, Cu/573 K, K₂Cr₂O₇/H₂SO₄, etc.) to obtain the desired aldehyde or ketone without over-oxidation; (3) write balanced chemical equations for both oxidation and dehydrogenation pathways; and (4) explain why tertiary.",
+     "self_check": true
     }
    ]
   }

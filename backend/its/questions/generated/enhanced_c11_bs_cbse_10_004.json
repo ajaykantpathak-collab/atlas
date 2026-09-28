@@ -34,6 +34,31 @@
      "q": "Design a decision framework (flowchart or decision rules) that a municipal corporation could use to classify any retailer in their jurisdiction as either itinerant or fixed shop, and then further sub-classify into the correct specific type (8 types total). Your framework must use only observable, verifiable criteria - no subjective judgments.",
      "a": "**Decision Framework:**\n**Level 1 - Mobility Test:** Does the retailer operate from the *same physical location* for ≥6 months continuously? YES → Fixed Shop; NO → Itinerant.\n**Level 2A - If Itinerant:**\n- Carries goods on person/vehicle, moves continuously daily → Peddler/Hawker\n- Sets up temporary stall on fixed periodic days (weekly/fortnightly) → Market Trader\n- Fixed spot in high-footfall public area (station, market entrance), semi-permanent display → Street Trader\n- Temporary shop structure in business area, relocates occasionally (months/years), offers repair services → Cheap Jack\n**Level 2B - If Fixed Shop:**\n- Residential area, broad daily-needs assortment, credit to locals → General Store\n- Central/commercial area, single product line with depth, destination shopping → Speciality Shop\n- Street crossing/high traffic, limited space, cheap variety goods (hosiery, toys) → Street Stall Holder\n- Deals primarily in used/pre-owned goods, variable quality, negotiable pricing → Second-hand Goods Shop\n**Verification criteria:** Business license address, electricity meter reading history, GST registration premises, neighbour testimony, inventory audit. A poor answer uses vague criteria like \"looks permanent\" or \"seems small\" instead of measurable thresholds (time, location consistency, product category concentration ratios).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Small-scale retailers are retail business enterprises operating with limited capital investment, small inventory, and localised customer base, classified into itinerant retailers (no fixed business premises, mobile traders like hawkers, market traders, street vendors, cheap jacks) and fixed shop small retailers (permanent ______ like general stores, speciality shops, street stalls, second-hand goods shops) who sell directly to ultimate consumers in small quantities.",
+     "a": "establishments",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're walking through a busy Indian market street - you see a ______ vendor pushing a cart calling out prices, a weekly bazaar setting up on Saturdays, a pavement seller displaying sunglasses near the metro station, and a small kirana store at the corner.",
+     "a": "vegetable",
+     "self_check": true
+    },
+    {
+     "q": "What is Small-scale retailers? State the definition given in this lesson.",
+     "a": "Small-scale retailers are retail business enterprises operating with limited capital investment, small inventory, and localised customer base, classified into itinerant retailers (no fixed business premises, mobile traders like hawkers, market traders, street vendors, cheap jacks) and fixed shop small retailers (permanent establishments.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) classify any given retailer as itinerant or fixed shop with justification based on mobility, capital, and location permanence; (2) distinguish between the four types of itinerant retailers and four types of fixed shop small retailers using specific characteristics; (3) explain why itinerant retailers.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're walking through a busy Indian market street - you see a vegetable vendor pushing a cart calling out prices, a weekly bazaar setting up on Saturdays, a pavement seller ______ sunglasses near the metro station, and a small kirana store at the corner.",
+     "a": "displaying",
+     "self_check": true
     }
    ]
   }

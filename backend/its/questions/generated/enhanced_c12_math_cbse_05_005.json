@@ -34,6 +34,21 @@
      "q": "Construct a piecewise function \\( f(x) \\) defined on \\( \\mathbb{R} \\) that is continuous everywhere but not differentiable at exactly two points: \\( x = -1 \\) and \\( x = 2 \\). Define the function explicitly and verify your claims.",
      "a": "Example: \\( f(x) = |x+1| + |x-2| \\). This is continuous everywhere (sum of continuous functions). At \\( x=-1 \\), the term \\( |x+1| \\) has a corner, while \\( |x-2| \\) is differentiable. LHD = -1 + (-1) = -2? Wait, compute properly:  \nFor \\( x<-1 \\): \\( f(x) = -(x+1) + -(x-2) = -2x+1 \\), slope -2.  \nFor \\( -1<x<2 \\): \\( f(x) = (x+1) + -(x-2) = 3 \\), slope 0.  \nSo LHD at -1 = -2, RHD = 0 → not differentiable.  \nAt \\( x=2 \\): for \\( -1<x<2 \\), slope 0; for \\( x>2 \\), \\( f(x) = (x+1)+(x-2)=2x-1 \\), slope 2. LHD=0, RHD=2 → not differentiable.  \nAny function with corners at exactly those two points works. A poor answer might give a function with more non-differentiable points, or a discontinuous function, or fail to verify.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a roller-______ track for an amusement park in Mumbai.",
+     "a": "coaster",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly compute left-hand and right-hand derivatives for piecewise-defined functions, determine differentiability at a point by comparing LHD and RHD, and justify why a function fails to be differentiable (corner, cusp, vertical tangent, discontinuity).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a roller-coaster track for an amusement park in Mumbai.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

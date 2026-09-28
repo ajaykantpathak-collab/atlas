@@ -34,6 +34,31 @@
      "q": "Design a simple laboratory experiment to distinguish between an unknown ionic hydride (e.g., NaH) and an unknown covalent hydride (e.g., SiH₄) using only water, litmus paper, and a gas collection setup. Write the expected observations.",
      "a": "Add small amounts of each solid/liquid hydride to separate test tubes with water. For ionic hydride (NaH): vigorous reaction, H₂ gas evolves (collect over water, test with pop sound), solution turns red litmus blue (basic, NaOH formed). For covalent hydride (SiH₄): spontaneous ignition in air (pyrophoric), but with water: SiH₄ + 2H₂O → SiO₂ + 4H₂; H₂ evolves, solution remains neutral (SiO₂ insoluble) or slightly acidic if silicic acid forms - blue litmus stays blue/turns slightly red. Key distinction: ionic hydride gives strongly basic solution; covalent hydride gives neutral/acidic solution. A poor answer (e.g., \"both give H₂ so cannot distinguish\") reveals failure to recognize that hydrolysis products (metal hydroxide vs non-metal oxide/acid) determine solution pH, which is the diagnostic test.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Hydrides are binary compounds of hydrogen with other elements (except noble gases), classified into three types based on bonding nature: ionic hydrides formed with highly ______ s-block metals (Group 1, 2 except Be) where hydrogen exists as H⁻ hydride ion; covalent hydrides formed with p-block elements where hydrogen shares electrons; and metallic (interstitial) hydrides formed with d- and f-block transition metals where hydrogen occupies interstitial sites in the metal lattice.",
+     "a": "electropositive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how sodium reacts violently with hydrogen gas at 673 K to form a white crystalline solid (NaH), while carbon forms methane (CH₄) - a gas at room ______.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "What is Hydrides? State the definition given in this lesson.",
+     "a": "Hydrides are binary compounds of hydrogen with other elements (except noble gases), classified into three types based on bonding nature: ionic hydrides formed with highly electropositive s-block metals (Group 1, 2 except Be) where hydrogen exists as H⁻ hydride ion; covalent hydrides formed with p-block elements where hydrogen shares.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Hydrides?",
+     "a": "Students often think \"metallic hydrides are alloys\" and write reactions like Ti + H₂ → TiH₂ (as a fixed compound).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can classify a given hydride as ionic, covalent, or metallic based on the periodic position of the element, predict its physical properties (state, conductivity, thermal stability) and chemical behavior (reaction with water, reducing/oxidizing nature), and explain the structural differences using bonding concepts.",
+     "self_check": true
     }
    ]
   }

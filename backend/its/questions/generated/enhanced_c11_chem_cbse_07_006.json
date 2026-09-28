@@ -34,6 +34,26 @@
      "q": "Design a simple laboratory experiment using the equilibrium Co(H₂O)₆²⁺(aq) + 4Cl⁻(aq) ⇌ CoCl₄²⁻(aq) + 6H₂O(l) (pink ⇌ blue) to demonstrate Le Chatelier's Principle for concentration changes. Specify: (a) the observable change, (b) how you would disturb equilibrium by changing [Cl⁻], (c) how you would reverse the shift, and (d) why temperature must be controlled.",
      "a": "(a) Observable: Pink solution (Co(H₂O)₆²⁺) turns blue (CoCl₄²⁻) as [Cl⁻] increases. (b) Add concentrated HCl (source of Cl⁻) to pink solution → shifts right, turns blue. (c) Dilute with water (decreases [Cl⁻]) → shifts left, turns pink again. (d) Temperature control is essential because this equilibrium is exothermic in the forward direction (pink → blue); heating would shift it left (pink), confounding the concentration effect. A poor answer (e.g., using temperature change to shift, or not explaining reversibility) reveals inability to design a controlled experiment isolating concentration as the only variable — a key practical skill for board practical exams.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Le Chatelier's Principle states that when a system at equilibrium is subjected to a change in concentration of any reactant or product, the system shifts its equilibrium position to counteract the imposed change: increasing the concentration of a reactant shifts the equilibrium toward products (forward direction), while increasing the concentration of a product shifts it toward reactants (reverse direction), until the reaction quotient Q again equals the equilibrium constant Kc at constant ______.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're in a chemistry lab watching the Haber ______: N₂(g) + 3H₂(g) ⇌ 2NH₃(g).",
+     "a": "process",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Predict the direction of equilibrium shift when concentration of any species is changed in a given reversible reaction, (2) Calculate the new equilibrium concentrations using ICE tables after a concentration disturbance, and (3) Explain why the equilibrium constant Kc remains unchanged while the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're in a ______ lab watching the Haber process: N₂(g) + 3H₂(g) ⇌ 2NH₃(g).",
+     "a": "chemistry",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a one-hectare integrated farming system for a small farmer in Tamil Nadu combining: paddy (kharif), pulses (rabi), 2 crossbred cows, 50 layer poultry birds, and a farm pond for fisheries. Specify the resource flows (fodder, manure, water, labor) between components and estimate the number of person-days of employment generated annually for family labor.",
      "a": "A good answer maps: Paddy straw → cattle fodder; Cattle dung → biogas + compost for paddy/pulses; Poultry litter → fish feed in pond; Pond silt → fertilizer for crops; Family labor: paddy (60 days), pulses (30 days), dairy (365 days × 1 hr = 45 days), poultry (365 days × 0.5 hr = 23 days), fishery (50 days) = ~208 person-days/year. A poor answer lists components without showing circular flows or treats labor as additive without recognizing peak-season bottlenecks, missing the systems perspective central to diversification economics.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Animal husbandry is the systematic branch of agriculture concerned with the breeding, feeding, management, and healthcare of ______ livestock (cattle, buffaloes, sheep, goats, pigs, poultry) for the production of food (milk, meat, eggs), fiber (wool, hair), labor (draught power), and manure, functioning as a critical allied activity that provides continuous income streams and risk mitigation for rural households engaged in mixed crop-livestock farming systems.",
+     "a": "domesticated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ farmer in western Uttar Pradesh with 1.5 hectares of rainfed land.",
+     "a": "marginal",
+     "self_check": true
+    },
+    {
+     "q": "What is Animal husbandry? State the definition given in this lesson.",
+     "a": "Animal husbandry is the systematic branch of agriculture concerned with the breeding, feeding, management, and healthcare of domesticated livestock (cattle, buffaloes, sheep, goats, pigs, poultry) for the production of food (milk, meat, eggs), fiber (wool, hair), labor (draught power), and manure, functioning as a critical allied.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then examine the data: poultry constitutes ______% of livestock numbers but what share of value?",
+     "a": "61",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) calculate the livestock sector's contribution to agricultural GVA using sectoral output data, (2) explain how the mixed crop-livestock system creates complementary resource flows (fodder from crop residues, manure for soil fertility, draught power for cultivation), and (3) evaluate policy interventions like Operation.",
+     "self_check": true
     }
    ]
   }

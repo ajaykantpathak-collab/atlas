@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_01_002",
+   "title": "c12_leg_cbse_01_002",
+   "questions": [
+    {
+     "q": "What is the constitutional basis for the Supreme Court's original jurisdiction in disputes between the Government of India and one or more States?",
+     "a": "Article 131 of the Constitution grants the Supreme Court exclusive original jurisdiction in disputes between the Government of India and one or more States, or between States, involving a question of law or fact on which a legal right depends. A wrong answer (e.g., citing Article 32 or 136) reveals confusion between original jurisdiction (first instance) and writ/appellate jurisdiction. Students often mix up Article 131 (inter-state/federal disputes) with Article 32 (fundamental rights enforcement).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the salaries of Supreme Court judges are \"charged on the Consolidated Fund of India\" and cannot be voted upon by Parliament.",
+     "a": "This ensures financial independence of the judiciary: judges' emoluments are not subject to annual legislative approval, preventing executive/legislative pressure through budget threats. A wrong answer (e.g., \"it's just a tradition\" or \"to save time\") shows the student misses the constitutional design principle — separation of powers requires judges to be immune from financial coercion. The phrase \"charged on\" means the payment is automatic, not voted.",
+     "self_check": true
+    },
+    {
+     "q": "A High Court judge wants to practice in the Supreme Court after retirement. Is this permitted? What about practicing in the same High Court?",
+     "a": "Yes, a retired High Court judge *can* practice in the Supreme Court (or any other High Court), but *cannot* practice in the same High Court or any other High Court (Art. 220). This prevents influence over former colleagues. A wrong answer (e.g., \"cannot practice anywhere\" or \"can practice in the same High Court\") reveals misunderstanding of the post-retirement restriction's purpose: avoiding \"uncle judge\" syndrome while allowing expertise to serve higher courts.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the grounds and procedure for removal of a Supreme Court judge vs. a District Judge. Why is the former so stringent?",
+     "a": "Supreme Court/High Court judges: removed only by impeachment (Art. 124(4)/218) — requires motion by 100 LS/50 RS members, inquiry committee (SC judge + HC CJ + jurist), 2/3 majority of *total membership* and *present & voting* in both Houses, then Presidential order. District Judges: removed by State Government in consultation with High Court (Art. 235). Stringency for higher judiciary protects independence from political whims; lower judiciary accountability is administrative. A wrong answer conflating the two procedures shows failure to grasp the hierarchy of constitutional safeguards.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"The collegium system for judicial appointments is an extra-constitutional innovation that undermines democratic accountability.\" Defend or critique using constitutional text and evolution (Three Judges Cases).",
+     "a": "Critique: The collegium *is* judicial interpretation of \"consultation\" (Art. 124/217) evolved through *SP Gupta* (1981) → *Supreme Court Advocates-on-Record* (1993) → *Presidential Reference* (1998). It fills a constitutional vacuum — the text says \"consultation\" but doesn't define it. However, valid criticism: opacity, lack of criteria, no executive role. A balanced answer must cite the *Second Judges Case* (primacy of CJI) and *Third Judges Case* (collegium of 4+1 for SC, 2+1 for HC). A one-sided answer (\"it's unconstitutional\" or \"it's perfect\") reveals ideological bias over constitutional analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Design a flow-chart showing how a service dispute of a central government employee moves from the Central Administrative Tribunal (CAT) to the Supreme Court, including all appeal/revision stages and constitutional articles.",
+     "a": "A good flow-chart: CAT (Art. 323A + Admin Tribunals Act, 1985) → Appeal to Division Bench of concerned High Court (Art. 226/227) → Special Leave Petition to Supreme Court (Art. 136). Must show: CAT is *not* a constitutional court; its decisions are subject to High Court *judicial review* (L. Chandra Kumar, 1997); Art. 136 is discretionary. A poor answer skipping the High Court stage or treating CAT appeal as direct to SC reveals ignorance of the *L. Chandra Kumar* principle: tribunals supplement, not supplant, High Courts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

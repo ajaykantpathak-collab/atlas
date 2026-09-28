@@ -34,6 +34,26 @@
      "q": "Design a modified MSP policy for a water-scarce region (e.g., Punjab) that: (a) maintains farmer income support, (b) reduces groundwater depletion, (c) limits fiscal cost. Specify the instruments and explain how each addresses the three goals.",
      "a": "**Proposed policy mix:**  \n1. **Decoupled direct income support** (e.g., ₹/hectare payment independent of crop) → maintains income (a) without incentivising paddy (b), cheaper than procurement (c).  \n2. **MSP only for less water-intensive crops** (maize, pulses, oilseeds) at a premium over paddy MSP → shifts cropping pattern (b), limited procurement keeps fiscal cost low (c).  \n3. **Deficiency payment scheme**: pay farmer the difference between MSP and market price *only for registered area* under alternative crops → caps fiscal exposure (c), no physical procurement/storage needed.  \nA poor answer suggests \"lower MSP for paddy\" alone — which hurts income (a) without alternative support, or \"stop procurement\" — which abandons food security. The key is **decoupling income support from output of a specific water-guzzling crop**.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A price floor is a government-mandated minimum price set above the market ______ price to protect producers from prices deemed too low.",
+     "a": "equilibrium",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a wheat farmer in Punjab who, after a bumper ______, sees the mandi price crash to ₹1,600/quintal — far below his cost of ₹2,000/quintal.",
+     "a": "harvest",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) draw a correctly labelled supply-demand diagram showing a binding price floor, identify the equilibrium price/quantity, the floor price, the quantity demanded, quantity supplied, and the resulting surplus; (2) calculate the numerical surplus given linear supply/demand equations and a floor price; (3) explain the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a wheat farmer in Punjab who, after a bumper harvest, sees the mandi price crash to ₹1,600/quintal — far below his cost of ₹2,000/quintal.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

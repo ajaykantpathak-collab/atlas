@@ -34,6 +34,31 @@
      "q": "Create a real-world problem (Indian context) where the total cost involves Σk², and the answer is exactly 2870. Specify the cost per unit and the number of terms.",
      "a": "Example: \"A contractor builds a step pyramid where the kth layer uses k² bricks. If each brick costs ₹2 and there are 20 layers, find the total cost.\" Σₖ₌₁²⁰ k² = 20×21×41/6 = 2870. Total cost = 2 × 2870 = ₹5740. Wait — the problem asks for answer 2870, so either cost per brick is ₹1 or the sum itself is the answer. Better: \"Find the total number of bricks in a 20-layer square pyramid where layer k has k² bricks.\" A poor answer gives n=10 (Σk²=385) or n=15 (Σk²=1240), showing inability to solve n(n+1)(2n+1)/6 = 2870 for n.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The sum of special series refers to closed-form formulas for the ______ of the first n natural numbers (Σk), their squares (Σk²), and their cubes (Σk³), where k ranges from 1 to n.",
+     "a": "summation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ auditorium where chairs are arranged in rows: the first row has 1 chair, second has 2, third has 3, and so on up to the 20th row.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The sum of special series refers to closed-form formulas for the summation of the first n natural numbers (Σk), their squares (Σk²), and their cubes (Σk³), where k ranges from ______ to n.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can derive each formula using telescoping sums or mathematical induction, apply them to evaluate sums of polynomial sequences like Σ(2k²+3k-1), and solve word problems involving total distance, total cost, or stacked objects where the nth term follows k, k², or k³ patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a school ______ where chairs are arranged in rows: the first row has 1 chair, second has 2, third has 3, and so on up to the 20th row.",
+     "a": "auditorium",
+     "self_check": true
     }
    ]
   }

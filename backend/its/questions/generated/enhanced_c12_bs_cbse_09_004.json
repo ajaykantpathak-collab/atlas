@@ -34,6 +34,36 @@
      "q": "Design a hypothetical scenario (with numbers) where a company with ROI of 15% and cost of debt of 12% should still NOT increase its debt beyond 30% of capital structure. Specify at least three factors from the NCERT list that justify this restraint.",
      "a": "Example: TechGrow Ltd., ROI 15%, cost of debt 12%, tax rate 30%. Despite favourable trading on equity (ROI > cost of debt), it caps debt at 30% because: (1) High business risk (volatile tech sector earnings) — low Interest Coverage Ratio in downturns; (2) Control considerations — promoters hold 35% equity, further dilution risk from equity issue is low but debt covenants may restrict operations; (3) Flexibility — preserve borrowing capacity for future R&D investments; (4) Floatation costs — equity issue via private placement cheaper than public debt issue for this size. A poor answer lists generic factors without linking to the specific scenario or ignores that favourable ROI alone doesn't dictate maximum debt.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Financing decision refers to the process of ______ the optimal mix of long-term funds to be raised from owners' funds (equity share capital, preference share capital, retained earnings) and borrowed funds (debentures, long-term loans, public deposits) to minimize the overall cost of capital while controlling financial risk.",
+     "a": "determining",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the CFO of a growing Indian ______ company planning a ₹500 crore expansion.",
+     "a": "manufacturing",
+     "self_check": true
+    },
+    {
+     "q": "What is Financing decision? State the definition given in this lesson.",
+     "a": "Financing decision refers to the process of determining the optimal mix of long-term funds to be raised from owners' funds (equity share capital, preference share capital, retained earnings) and borrowed funds (debentures, long-term loans, public deposits) to minimize the overall cost of capital while controlling financial risk.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You have two broad choices: issue equity shares (diluting ownership but no fixed repayment) or borrow via debentures at ______% interest (fixed obligation but tax-deductible).",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Financing decision?",
+     "a": "Students believe \"Trading on Equity\" simply means \"using debt to increase EPS\" and therefore always recommend maximum possible debt when ROI > cost of debt.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Calculate and interpret debt-equity ratio and debt-to-total-capital ratio for a given capital structure; (2) Perform EBIT-EPS analysis to determine whether trading on equity is favourable or unfavourable for a specific ROI and cost of debt; (3) Evaluate the impact of each factor (cost, risk, control, cash.",
+     "self_check": true
     }
    ]
   }

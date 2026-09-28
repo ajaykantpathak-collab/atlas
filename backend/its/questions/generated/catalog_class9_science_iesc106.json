@@ -2,6 +2,53 @@
  "catalog": "catalog_class9_science_iesc106.json",
  "concepts": [
   {
+   "id": "iesc.106.6.2",
+   "title": "Newton's Laws of Motion and Inertia",
+   "converted_to_compute": true,
+   "formula": "force = mass * acceleration",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "force = mass * acceleration",
+     "compute": "force = mass * acceleration"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Newton's Laws of Motion and Inertia: given mass = 50, acceleration = 1.5, find force.",
+     "a": "75",
+     "self_check": false
+    },
+    {
+     "q": "For Newton's Laws of Motion and Inertia: given mass = 144, acceleration = 22, find force.",
+     "a": "3168",
+     "self_check": false
+    },
+    {
+     "q": "For Newton's Laws of Motion and Inertia: given mass = 180, acceleration = 7.8, find force.",
+     "a": "1404",
+     "self_check": false
+    },
+    {
+     "q": "For Newton's Laws of Motion and Inertia: given mass = 41, acceleration = 5.8, find force.",
+     "a": "237.8",
+     "self_check": false
+    },
+    {
+     "q": "For Newton's Laws of Motion and Inertia: given mass = 83, acceleration = 18.3, find force.",
+     "a": "1518.9",
+     "self_check": false
+    },
+    {
+     "q": "For Newton's Laws of Motion and Inertia: given mass = 16.9, acceleration = 21, find force.",
+     "a": "354.9",
+     "self_check": false
+    }
+   ]
+  },
+  {
    "id": "iesc.106.6.1",
    "title": "Balanced and Unbalanced Forces",
    "solution_type": "verify_property",
@@ -20,88 +67,6 @@
      "q": "A book rests on a table. Name the balanced forces on it.",
      "a": "Its weight downward and the table's normal reaction upward.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "iesc.106.6.2",
-   "title": "Newton's Laws of Motion and Inertia",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "double_mass_force",
-     "expr": "(mass * 2) * acceleration",
-     "explain": "force for double the mass"
-    },
-    {
-     "step": 2,
-     "name": "half_mass_force",
-     "expr": "(mass / 2) * acceleration",
-     "explain": "force for half the mass"
-    },
-    {
-     "step": 3,
-     "name": "force",
-     "expr": "mass * acceleration",
-     "explain": "newton's second law: F = ma"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A 4 kg block accelerates at 3 m/s2. Find the applied force.",
-     "vals": {
-      "mass": 4,
-      "acceleration": 3
-     },
-     "unit": "N",
-     "steps": null,
-     "a": "12 N",
-     "self_check": false
-    },
-    {
-     "q": "A 0.2 kg ball accelerates at 50 m/s2. Calculate the force.",
-     "vals": {
-      "mass": 0.2,
-      "acceleration": 50
-     },
-     "unit": "N",
-     "steps": null,
-     "a": "10 N",
-     "self_check": false
-    },
-    {
-     "q": "What force accelerates a 2500 kg truck at 0.4 m/s2?",
-     "vals": {
-      "mass": 2500,
-      "acceleration": 0.4
-     },
-     "unit": "N",
-     "steps": null,
-     "a": "1000 N",
-     "self_check": false
-    },
-    {
-     "q": "Find the force that gives a 12 kg cart an acceleration of 5 m/s2.",
-     "vals": {
-      "mass": 12,
-      "acceleration": 5
-     },
-     "unit": "N",
-     "steps": null,
-     "a": "60 N",
-     "self_check": false
-    },
-    {
-     "q": "A 1.5 kg book is pushed so that it speeds up at 4 m/s2. Compute the force.",
-     "vals": {
-      "mass": 1.5,
-      "acceleration": 4
-     },
-     "unit": "N",
-     "steps": null,
-     "a": "6 N",
-     "self_check": false
     }
    ]
   },

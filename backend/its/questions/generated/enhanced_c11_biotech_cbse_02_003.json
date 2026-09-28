@@ -34,6 +34,26 @@
      "q": "Design a hypothetical antifungal antibiotic that selectively targets fungal cell walls. Specify the molecular target, biochemical rationale, and one likely resistance mechanism.",
      "a": "Target: chitin synthase (polymerizes UDP-N-acetylglucosamine into chitin). Rationale: humans lack chitin, so inhibition selectively weakens fungal walls. Resistance mechanism: point mutations in chitin synthase reducing drug binding, or compensatory upregulation of β-1,3-glucan synthesis to maintain wall integrity. A poor answer targets a conserved eukaryotic enzyme (e.g., β-glucan synthase) or ignores evolutionary resistance pressure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The cell wall is a rigid, dynamic extracellular matrix surrounding the plasma membrane of bacteria, algae, fungi, and plant cells, composed primarily of structural ______ (peptidoglycan in bacteria, cellulose in plants, chitin in fungi) that provides mechanical strength, determines cell shape, prevents osmotic lysis, and mediates cell–cell adhesion and signaling.",
+     "a": "polysaccharides",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ cell in a rain-soaked field – water floods into your cytoplasm by osmosis.",
+     "a": "plant",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Compare and contrast the chemical composition, layered architecture, and Gram-staining correlates of bacterial (Gram-positive vs Gram-negative), fungal, and plant cell walls.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a plant cell in a rain-soaked field – water floods into your ______ by osmosis.",
+     "a": "cytoplasm",
+     "self_check": true
     }
    ]
   }

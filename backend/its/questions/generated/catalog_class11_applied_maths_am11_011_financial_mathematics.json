@@ -5,6 +5,8 @@
    "id": "am11_011.1",
    "title": "Simple Interest on the Principal",
    "converted_to_compute": false,
+   "formula": "si = p * r * t / 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the simple interest on Rs 6000 at 8% per annum for 4 years.",
@@ -42,6 +44,8 @@
    "id": "am11_011.2",
    "title": "Maturity Amount at Simple Interest",
    "converted_to_compute": false,
+   "formula": "total = p + si",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the simple interest on Rs 5000 at 4% per annum for 4 years.",
@@ -79,6 +83,8 @@
    "id": "am11_011.3",
    "title": "Compound Interest Earned",
    "converted_to_compute": false,
+   "formula": "ci = amount - p",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the simple interest on Rs 8000 at 10% per annum for 4 years.",
@@ -116,6 +122,8 @@
    "id": "am11_011.4",
    "title": "Accumulated Amount under Compound Interest",
    "converted_to_compute": false,
+   "formula": "amount = p * growth",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the simple interest on Rs 8000 at 8% per annum for 5 years.",
@@ -153,6 +161,8 @@
    "id": "am11_011.5",
    "title": "Annual Equivalent and Effective Rate",
    "converted_to_compute": false,
+   "formula": "pct = aer * 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A price index uses base year value 100. If the current value is 155, find the index number.",
@@ -190,6 +200,8 @@
    "id": "am11_011.6",
    "title": "Present Value by Discounting",
    "converted_to_compute": false,
+   "formula": "pv = amount / base",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A trader buys an article for Rs 500 and sells it for Rs 575. Find the profit.",
@@ -227,6 +239,8 @@
    "id": "am11_011.7",
    "title": "Net Present Value of a Cash Flow",
    "converted_to_compute": false,
+   "formula": "npv = pv_in - cost",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "For a triangular prism, find the number of edges.",
@@ -264,6 +278,8 @@
    "id": "am11_011.8",
    "title": "Future Value of an Annuity",
    "converted_to_compute": false,
+   "formula": "fv = pay * growth / i",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the simple interest on Rs 1000 at 6% per annum for 4 years.",
@@ -301,6 +317,8 @@
    "id": "am11_011.9",
    "title": "Present Value of an Annuity",
    "converted_to_compute": false,
+   "formula": "pv_a = pay * disc / i",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A price index uses base year value 100. If the current value is 143, find the index number.",
@@ -338,6 +356,8 @@
    "id": "am11_011.10",
    "title": "Sinking Fund Deposits",
    "converted_to_compute": false,
+   "formula": "deposit = target * i / growth",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the simple interest on Rs 2000 at 5% per annum for 5 years.",
@@ -375,6 +395,8 @@
    "id": "am11_011.11",
    "title": "Electricity Bill Slabs",
    "converted_to_compute": false,
+   "formula": "bill = fixed + first + extra",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A trader buys an article for Rs 250 and sells it for Rs 350. Find the profit.",

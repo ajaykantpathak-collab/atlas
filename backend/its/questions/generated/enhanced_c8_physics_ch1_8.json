@@ -34,6 +34,31 @@
      "q": "Create a new investigation question about a common Indian household phenomenon (e.g., pressure cooker whistle, milk boiling over, fan speed settings) that requires BOTH careful observation AND creative thinking. Write the question, then list 2 careful observation steps and 2 creative thinking steps for investigating it.",
      "a": "Example question: \"Why does milk boil over but water doesn't, and can we predict the moment it will spill?\" Careful observation steps: (1) Record temperature every 10 seconds with a thermometer for both milk and water until boiling; (2) Video-record the surface behavior (bubbles, foam height) frame-by-frame. Creative thinking steps: (1) Hypothesize that milk proteins form a stable foam layer trapping steam — test by adding a drop of oil (breaks foam) to see if it prevents boil-over; (2) Design a simple \"boil-over predictor\" using a temperature probe and foam-height sensor made from a ruler and light sensor. A poor answer gives a trivial question or lists only observation steps, showing the student cannot generate creative scientific questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Balancing careful observation with creative thinking is the scientific practice of systematically gathering accurate, unbiased data through detailed observation while simultaneously generating imaginative hypotheses, experimental designs, and ______ that go beyond the obvious to explain phenomena or solve problems.",
+     "a": "interpretations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a ______ cooker on a stove: steam escapes rhythmically from the whistle, the lid rattles, and water droplets form on the underside of the lid.",
+     "a": "pressure",
+     "self_check": true
+    },
+    {
+     "q": "What is Balancing careful observation with creative thinking? State the definition given in this lesson.",
+     "a": "Balancing careful observation with creative thinking is the scientific practice of systematically gathering accurate, unbiased data through detailed observation while simultaneously generating imaginative hypotheses, experimental designs, and interpretations that go beyond the obvious to explain phenomena or solve problems.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Balancing careful observation with creative thinking?",
+     "a": "Students believe careful observation and creative thinking are separate phases — first observe, then think creatively.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can design an investigation that includes both a detailed observation protocol (what to measure, how to record, controlling bias) and a creative element (novel hypothesis, unexpected variable to test, or innovative method), and explain why both are necessary for scientific progress.",
+     "self_check": true
     }
    ]
   }

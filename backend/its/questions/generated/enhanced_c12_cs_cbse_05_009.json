@@ -34,6 +34,31 @@
      "q": "Design a query on a table `exams(student_id, subject, score)` that lists subjects where the maximum score is at least 90 and the minimum score is at most 40, but only for exams conducted in 2024 (assume a column `exam_year`). Use both WHERE and HAVING appropriately.",
      "a": "```sql\nSELECT subject, MAX(score) AS max_score, MIN(score) AS min_score\nFROM exams\nWHERE exam_year = 2024\nGROUP BY subject\nHAVING MAX(score) >= 90 AND MIN(score) <= 40;\n```\nA good answer correctly places the year filter in WHERE and the aggregate conditions in HAVING. A poor answer puts aggregate conditions in WHERE or the year filter in HAVING, indicating the student cannot map conditions to the correct clause.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The WHERE clause filters ______ rows before any grouping occurs, while the HAVING clause filters groups after the GROUP BY clause has aggregated rows; WHERE cannot use aggregate functions, but HAVING can.",
+     "a": "individual",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing sales data for a ______ canteen: you want to find items that sold more than 50 units in total.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing sales data for a school canteen: you want to find items that sold more than ______ units in total.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly choose between WHERE and HAVING in a query involving GROUP BY, explain why a given query fails when aggregate functions are used in WHERE, and write a query that uses both clauses appropriately.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ sales data for a school canteen: you want to find items that sold more than 50 units in total.",
+     "a": "analysing",
+     "self_check": true
     }
    ]
   }

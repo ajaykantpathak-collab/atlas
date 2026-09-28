@@ -34,6 +34,26 @@
      "q": "Create a real-life problem where simplifying a ratio to its simplest form is necessary for making a decision. Provide the problem and the solution.",
      "a": "Example: \"A recipe uses 150 g flour and 250 g sugar. The cook wants to halve the recipe but keep proportions. Simplify the ratio to decide the new amounts.\" Solution: 150:250 = 3:5, so half recipe uses 3 parts flour to 5 parts sugar. A poor answer gives a trivial ratio like 2:4 without context, showing inability to connect simplification to proportional reasoning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ratio a:b is in its ______ form when the two terms a and b have no common factor other than 1 (i.e., their highest common factor, HCF, is 1).",
+     "a": "simplest",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: She wants to express the ratio of red to blue marbles in the ______ way possible.",
+     "a": "simplest",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight is that the simplest form is reached when the HCF of the two terms becomes ______.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can reduce any given ratio (with whole numbers, decimals, or fractions) to its simplest form by correctly identifying and dividing by the HCF, and can explain why the resulting ratio is equivalent to the original.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a CSS rule for a card component that must be exactly 300px wide including a 2px border and 15px padding on all sides, with 20px margin outside. Write the CSS using border-box and calculate the content width.",
      "a": "CSS: .card { box-sizing: border-box; width: 300px; padding: 15px; border: 2px solid #000; margin: 20px; } Content width = 300 - 2*15 - 2*2 = 300 - 30 - 4 = 266px. A poor answer may omit box-sizing or miscalculate.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The CSS box model describes how HTML elements are rendered as ______ boxes, consisting of four nested layers: content (where text/images appear), padding (space between content and border), border (edge surrounding padding), and margin (space outside the border separating the element from others).",
+     "a": "rectangular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a webpage and want a button to have exactly 200px width including its border and padding.",
+     "a": "designing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a webpage and want a button to have exactly ______px width including its border and padding.",
+     "a": "200",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to calculate the total rendered dimensions of an element given its content width/height, padding, border, and margin values, and explain how the box-sizing property alters this calculation.",
+     "self_check": true
     }
    ]
   }

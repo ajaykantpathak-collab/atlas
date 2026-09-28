@@ -34,6 +34,31 @@
      "q": "Design a multiple bar diagram to compare the decadal growth rate of population (in %) for four Indian states (Kerala, Bihar, Uttar Pradesh, Tamil Nadu) across three census decades (1991, 2001, 2011). Specify: (a) X-axis categories, (b) number of bars per category, (c) legend entries, (d) a suitable scale if max growth is 25%, and (e) one geographical insight this diagram would reveal.",
      "a": "(a) X-axis: three categories — 1991, 2001, 2011. (b) Four bars per category (one per state). (c) Legend: Kerala, Bihar, Uttar Pradesh, Tamil Nadu. (d) Scale: 1 cm = 2.5% (so 25% → 10 cm, fits well). (e) Insight: The diagram would visually reveal whether high-growth states (Bihar, UP) are slowing down while low-growth states (Kerala, TN) are stabilizing, highlighting the demographic transition disparity across India. A poor design (e.g., states on X-axis, decades as bars) would obscure the temporal trend — a common error when students confuse variable roles in multiple bar diagrams.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Bar diagrams are one-dimensional graphical ______ where rectangular bars of equal width are drawn with lengths proportional to the values they represent, allowing visual comparison of discrete categories or time-series data; simple bar diagrams show a single variable, multiple bar diagrams juxtapose two or more variables for direct comparison across categories, and component (compound) bar diagrams subdivide each bar into segments representing component parts of a total.",
+     "a": "representations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ the monthly rainfall of your city with the state average — a simple bar diagram would show each month's rainfall as a separate column, while a multiple bar diagram would place your city's bar next to the state average for each month, and a component bar diagram could split each month's bar into rainy-day and non-rainy-day contributions.",
+     "a": "comparing",
+     "self_check": true
+    },
+    {
+     "q": "What is Bar diagrams? State the definition given in this lesson.",
+     "a": "Bar diagrams are one-dimensional graphical representations where rectangular bars of equal width are drawn with lengths proportional to the values they represent, allowing visual comparison of discrete categories or time-series data; simple bar diagrams show a single variable, multiple bar diagrams juxtapose two or more variables for.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Bar diagrams?",
+     "a": "Students often think that in a component (compound) bar diagram, the segments can be arranged in any order within the bar.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently construct correctly scaled simple, multiple, and component bar diagrams from raw geographical data (e.g., crop production, literacy rates, electricity generation), label all elements (title, axes, legend, scale), and interpret the diagrams to answer comparative questions such as \"which state has the highest.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,62 @@
+{
+ "catalog": "catalog_class12_biology_ch109.json",
+ "concepts": [
+  {
+   "id": "lebo.109.8",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "initial_copies = 4.5",
+      "cycles = 33",
+      "final_copies = initial_copies * (2 ** cycles)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "initial_copies = 4.5",
+      "cycles = 33",
+      "final_copies = initial_copies * (2 ** cycles)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "initial_copies = 8.1",
+      "cycles = 33",
+      "final_copies = initial_copies * (2 ** cycles)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "initial_copies = 8.1",
+      "cycles = 33",
+      "final_copies = initial_copies * (2 ** cycles)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "initial_copies = 30",
+      "cycles = 38",
+      "final_copies = initial_copies * (2 ** cycles)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "initial_copies = 30",
+      "cycles = 38",
+      "final_copies = initial_copies * (2 ** cycles)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "final_copies = initial_copies * (2 ** cycles)"
+   ]
+  }
+ ]
+}

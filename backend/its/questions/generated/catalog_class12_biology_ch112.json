@@ -1,6 +1,100 @@
 {
- "catalog": "catalog_class12_biology_ch112",
+ "catalog": "catalog_class12_biology_ch112.json",
  "concepts": [
+  {
+   "id": "jebh.14.2",
+   "title": "Productivity: Primary, Secondary, Gross, and Net",
+   "converted_to_compute": true,
+   "formula": "NPP = GPP - R",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "NPP = GPP - R",
+     "compute": "NPP = GPP - R"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Productivity: Primary, Secondary, Gross, and Net: given GPP = 74, R = 19.1, find NPP.",
+     "a": "54.9",
+     "self_check": false
+    },
+    {
+     "q": "For Productivity: Primary, Secondary, Gross, and Net: given GPP = 66, R = 21, find NPP.",
+     "a": "45",
+     "self_check": false
+    },
+    {
+     "q": "For Productivity: Primary, Secondary, Gross, and Net: given GPP = 28, R = 89, find NPP.",
+     "a": "-61",
+     "self_check": false
+    },
+    {
+     "q": "For Productivity: Primary, Secondary, Gross, and Net: given GPP = 64, R = 50, find NPP.",
+     "a": "14",
+     "self_check": false
+    },
+    {
+     "q": "For Productivity: Primary, Secondary, Gross, and Net: given GPP = 96, R = 73, find NPP.",
+     "a": "23",
+     "self_check": false
+    },
+    {
+     "q": "For Productivity: Primary, Secondary, Gross, and Net: given GPP = 42, R = 65, find NPP.",
+     "a": "-23",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jebh.14.4",
+   "title": "Energy Flow: Food Chain, Food Web, and Trophic Levels",
+   "converted_to_compute": true,
+   "formula": "E_next = E_current * 0.10",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "E_next = E_current * 0.10",
+     "compute": "E_next = E_current * 0.10"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Energy Flow: Food Chain, Food Web, and Trophic Levels: given E_current = 23, find E next.",
+     "a": "2.3",
+     "self_check": false
+    },
+    {
+     "q": "For Energy Flow: Food Chain, Food Web, and Trophic Levels: given E_current = 8.7, find E next.",
+     "a": "0.87",
+     "self_check": false
+    },
+    {
+     "q": "For Energy Flow: Food Chain, Food Web, and Trophic Levels: given E_current = 29, find E next.",
+     "a": "2.9",
+     "self_check": false
+    },
+    {
+     "q": "For Energy Flow: Food Chain, Food Web, and Trophic Levels: given E_current = 8.6, find E next.",
+     "a": "0.86",
+     "self_check": false
+    },
+    {
+     "q": "For Energy Flow: Food Chain, Food Web, and Trophic Levels: given E_current = 5.2, find E next.",
+     "a": "0.52",
+     "self_check": false
+    },
+    {
+     "q": "For Energy Flow: Food Chain, Food Web, and Trophic Levels: given E_current = 7.4, find E next.",
+     "a": "0.74",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "jebh.14.1",
    "title": "Ecosystem Structure: Biotic and Abiotic Components",
@@ -23,37 +117,6 @@
    ]
   },
   {
-   "id": "jebh.14.2",
-   "title": "Productivity: Primary, Secondary, Gross, and Net",
-   "questions": [
-    {
-     "q": "Calculate NPP given GPP and respiration values.. Use the method 'Productivity: Primary, Secondary, Gross, and Net'. Work with: gpp = 400, r = 50. Carry the chain through step by step and give the final value of result.",
-     "a": "350 units",
-     "self_check": false
-    },
-    {
-     "q": "Calculate GPP given NPP and respiration values.. Use the method 'Productivity: Primary, Secondary, Gross, and Net'. Work with: gpp = 80, r = 24. Carry the chain through step by step and give the final value of result.",
-     "a": "56 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Productivity: Primary, Secondary, Gross, and Net' refers to.",
-     "a": "Productivity is the rate of biomass production per unit area over a time period. Gross Primary Productivity (GPP) is the total rate of photosynthesis; Net Primary Productivity (NPP) = GPP - R (respiration losses). Secondary productivity is the rate of biomass formation by consumers.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Productivity: Primary, Secondary, Gross, and Net'.",
-     "a": "Primary productivity measures the rate at which producers capture solar energy as biomass; net primary productivity is what remains after accounting for respiration, and it supports all consumer biomass (secondary productivity).",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Productivity: Primary, Secondary, Gross, and Net', in plain ASCII form.",
-     "a": "NPP = GPP - R",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "jebh.14.3",
    "title": "Decomposition",
    "questions": [
@@ -70,37 +133,6 @@
     {
      "q": "Under which section is 'Decomposition' taught, and from which source text?",
      "a": "Decomposition",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "jebh.14.4",
-   "title": "Energy Flow: Food Chain, Food Web, and Trophic Levels",
-   "questions": [
-    {
-     "q": "Calculate the energy available at a given trophic level using the 10% law.. Use the method 'Energy Flow: Food Chain, Food Web, and Trophic Levels'. Work with: producer_energy = 10. Carry the chain through step by step and give the final value of level_3_energy.",
-     "a": "0.1 units",
-     "self_check": false
-    },
-    {
-     "q": "Determine the number of trophic levels possible given energy at the producer level.. Use the method 'Energy Flow: Food Chain, Food Web, and Trophic Levels'. Work with: producer_energy = 45. Carry the chain through step by step and give the final value of level_3_energy.",
-     "a": "0.45 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Energy Flow: Food Chain, Food Web, and Trophic Levels' refers to.",
-     "a": "Energy flow in an ecosystem is unidirectional, passing through trophic levels via food chains and food webs. Only about 10% of energy at one trophic level is transferred to the next (Ten Percent Law), with the rest lost as heat during respiration.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Energy Flow: Food Chain, Food Web, and Trophic Levels'.",
-     "a": "Energy captured by producers flows through consumers along food chains and webs. The unidirectional flow follows the 10% law, meaning higher trophic levels have progressively less energy available, limiting the number of trophic levels.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Energy Flow: Food Chain, Food Web, and Trophic Levels', in plain ASCII form.",
-     "a": "E_next = E_current * 0.10",
      "self_check": true
     }
    ]

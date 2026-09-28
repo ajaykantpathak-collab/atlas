@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_06_002",
+   "title": "c11_leg_cbse_06_002",
+   "questions": [
+    {
+     "q": "What are the four categories of authorities included in the definition of \"State\" under Article 12 of the Constitution of India?",
+     "a": "The four categories are: (1) Government and Parliament of India (Union Executive and Legislature); (2) Government and Legislature of each State (State Executive and Legislature); (3) All local authorities within the territory of India (e.g., Municipal Corporations, Panchayats); (4) All other authorities under the control of the Government of India (e.g., LIC, ONGC, government-funded universities). A wrong answer — such as omitting \"local authorities\" or \"other authorities\" — reveals the student has memorised an incomplete definition and cannot identify all entities against whom fundamental rights can be enforced.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the judiciary (Supreme Court, High Courts, lower courts) is not explicitly included in the definition of \"State\" under Article 12, yet cannot make rules violating fundamental rights.",
+     "a": "The judiciary is excluded because Article 12 defines \"State\" for Part III (Fundamental Rights) in the context of executive and legislative action — the judiciary's primary role is adjudication, not law-making or policy execution. However, in *Rupa Ashok Hurra v. Ashok Hurra* (2002), the Supreme Court held that while judicial decisions are not \"State action\" under Article 12, the judiciary cannot make rules (e.g., procedural rules) that violate fundamental rights. A wrong answer claiming \"judiciary is part of State\" confuses institutional separation of powers with the Article 12 definition; a wrong answer claiming \"judiciary can violate fundamental rights\" misses the constitutional limitation on rule-making power.",
+     "self_check": true
+    },
+    {
+     "q": "A private engineering college receives 90% of its funding from the State Government, its governing body is appointed by the government, and it performs a public function (technical education). Using the *Ajay Hasia* and *Pradeep Kumar Biswas* tests, determine whether this college is an \"other authority\" under Article 12. Show your reasoning step by step.",
+     "a": "Step 1: Identify the test — *Ajay Hasia v. Khalid Mujib* (1981) laid down six factors (government financial control, functional control, government appointment of board, monopoly status, public importance, and deep pervasive control). Step 2: Apply *Pradeep Kumar Biswas v. Indian Institute of Chemical Biology* (2002) refinement — \"other authority\" must be functionally, structurally, and financially dominated by government. Step 3: Evaluate facts — 90% funding = deep financial control; government-appointed board = structural control; public education function = functional control. Step 4: Conclusion — all three limbs satisfied; college is an \"other authority\" under Article 12. A wrong answer focusing only on \"private status\" or \"no statute\" reveals misunderstanding that legal form doesn't matter — control and function do.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the scope of \"State\" under Article 12 with the scope of \"State\" under Article 36 (Directive Principles). Why did the Constituent Assembly use the same term but different definitions?",
+     "a": "Article 12 defines \"State\" broadly for enforceable fundamental rights (Part III) — includes all four categories to maximise rights protection. Article 36 defines \"State\" for Directive Principles (Part IV) as \"the same as in Part III unless context otherwise requires\" — but since DPSPs are non-justiciable (Article 37), the definition operates as a moral/political directive to all governance institutions, not a legal gateway for litigation. The Constituent Assembly used the same term for textual harmony but intended different operational scopes: justiciability vs. aspiration. A wrong answer claiming \"identical scope\" ignores the justiciability distinction; a wrong answer claiming \"no relation\" misses the deliberate cross-referencing in Article 36.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The expansion of 'other authorities' under Article 12 to include government-controlled corporations and universities has diluted the separation of powers by subjecting quasi-commercial entities to writ jurisdiction.\" Defend or critique with constitutional reasoning.",
+     "a": "Critique: The expansion *strengthens* constitutional accountability, not dilutes separation of powers. Separation of powers (Article 50, basic structure) prevents concentration of *legislative, executive, judicial* functions — it does not shield executive agencies from fundamental rights scrutiny. Entities performing public functions with public funds (e.g., ONGC, AIIMS) wield state-like power over citizens (employment, services, regulation). Subjecting them to Article 12 ensures the \"State\" cannot evade Part III by corporatising its functions. *Pradeep Kumar Biswas* safeguards against overreach by requiring *deep, pervasive control* — not mere regulation. A wrong answer agreeing with the statement confuses \"separation of powers\" with \"executive accountability\" and ignores the functional test's limiting principle.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new hypothetical scenario involving a body that *might* be \"State\" under Article 12. The scenario must test the boundary of the *Pradeep Kumar Biswas* test (functional + structural + financial control). Describe the body, its funding, governance, and function — then explain how a court would apply the three-limb test.",
+     "a": "Scenario: \"GreenEnergy Ltd.\" — a company incorporated under Companies Act, 2013. (1) 51% equity held by Central Government; (2) Board: 5 government nominees, 4 independent directors; (3) Mandate: build solar plants on government land, sell power to discoms at regulated tariffs; (4) No monopoly — private competitors exist. Application: Financial control? Yes (majority stake). Structural control? Partial (majority board, but independent directors). Functional control? Yes (public function on public land, regulated pricing). Court would likely hold it *is* \"other authority\" — *Biswas* requires \"dominant\" not \"total\" control; public function + financial dominance suffices. A poor answer would say \"it's a private company, so no\" — missing that legal form is irrelevant under *Ajay Hasia*/*Biswas*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

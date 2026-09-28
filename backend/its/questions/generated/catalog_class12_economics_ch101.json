@@ -1,6 +1,147 @@
 {
- "catalog": "catalog_class12_economics_ch101",
+ "catalog": "catalog_class12_economics_ch101.json",
  "concepts": [
+  {
+   "id": "leec.101.3",
+   "title": "Unemployment Rate",
+   "converted_to_compute": true,
+   "formula": "unemployment_rate = unemployed_looking / (employed + unemployed_looking)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "unemployment_rate = unemployed_looking / (employed + unemployed_looking)",
+     "compute": "unemployment_rate = unemployed_looking / (employed + unemployed_looking)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Unemployment Rate: given unemployed_looking = 19.1, employed = 82, find unemployment rate.",
+     "a": "0.188922",
+     "self_check": false
+    },
+    {
+     "q": "For Unemployment Rate: given unemployed_looking = 21, employed = 47, find unemployment rate.",
+     "a": "0.308824",
+     "self_check": false
+    },
+    {
+     "q": "For Unemployment Rate: given unemployed_looking = 86, employed = 74, find unemployment rate.",
+     "a": "0.5375",
+     "self_check": false
+    },
+    {
+     "q": "For Unemployment Rate: given unemployed_looking = 82, employed = 96, find unemployment rate.",
+     "a": "0.460674",
+     "self_check": false
+    },
+    {
+     "q": "For Unemployment Rate: given unemployed_looking = 6.5, employed = 5.1, find unemployment rate.",
+     "a": "0.560345",
+     "self_check": false
+    },
+    {
+     "q": "For Unemployment Rate: given unemployed_looking = 74, employed = 36, find unemployment rate.",
+     "a": "0.672727",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leec.101.5",
+   "title": "Profit of a Capitalist Firm",
+   "converted_to_compute": true,
+   "formula": "profit = revenue - rent - interest - wages",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "profit = revenue - rent - interest - wages",
+     "compute": "profit = revenue - rent - interest - wages"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Profit of a Capitalist Firm: given revenue = 43, rent = 9.7, interest = 71, wages = 39, find profit.",
+     "a": "-76.7",
+     "self_check": false
+    },
+    {
+     "q": "For Profit of a Capitalist Firm: given revenue = 25, rent = 50, interest = 25, wages = 29, find profit.",
+     "a": "-79",
+     "self_check": false
+    },
+    {
+     "q": "For Profit of a Capitalist Firm: given revenue = 18.6, rent = 76, interest = 53, wages = 95, find profit.",
+     "a": "-205.4",
+     "self_check": false
+    },
+    {
+     "q": "For Profit of a Capitalist Firm: given revenue = 42, rent = 64, interest = 31, wages = 26, find profit.",
+     "a": "-79",
+     "self_check": false
+    },
+    {
+     "q": "For Profit of a Capitalist Firm: given revenue = 97, rent = 31, interest = 65, wages = 48, find profit.",
+     "a": "-47",
+     "self_check": false
+    },
+    {
+     "q": "For Profit of a Capitalist Firm: given revenue = 52, rent = 88, interest = 28, wages = 78, find profit.",
+     "a": "-142",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leec.101.7",
+   "title": "Net Exports",
+   "converted_to_compute": true,
+   "formula": "net_exports = exports - imports",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_exports = exports - imports",
+     "compute": "net_exports = exports - imports"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Net Exports: given exports = 84, imports = 84, find net exports.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Net Exports: given exports = 47, imports = 75, find net exports.",
+     "a": "-28",
+     "self_check": false
+    },
+    {
+     "q": "For Net Exports: given exports = 89, imports = 44, find net exports.",
+     "a": "45",
+     "self_check": false
+    },
+    {
+     "q": "For Net Exports: given exports = 41, imports = 62, find net exports.",
+     "a": "-21",
+     "self_check": false
+    },
+    {
+     "q": "For Net Exports: given exports = 33, imports = 69, find net exports.",
+     "a": "-36",
+     "self_check": false
+    },
+    {
+     "q": "For Net Exports: given exports = 21, imports = 79, find net exports.",
+     "a": "-58",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "leec.101.1",
    "title": "Microeconomics vs Macroeconomics",
@@ -44,37 +185,6 @@
    ]
   },
   {
-   "id": "leec.101.3",
-   "title": "Unemployment Rate",
-   "questions": [
-    {
-     "q": "Calculate the unemployment rate given the number of employed and unemployed people.. Use the method 'Unemployment Rate'. Work with: employed = 360, unemployed_looking = 5. Carry the chain through step by step and give the final value of unemployment_rate.",
-     "a": "0.0137 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Find the rate of unemployment when some are working and others are looking for jobs.. Use the method 'Unemployment Rate'. Work with: employed = 8, unemployed_looking = 3. Carry the chain through step by step and give the final value of unemployment_rate.",
-     "a": "0.2727 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Unemployment Rate' refers to.",
-     "a": "The proportion of the active labor force that is currently without work but actively seeking employment.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Unemployment Rate'.",
-     "a": "Measures the share of the labor force that is jobless and looking for work.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Unemployment Rate', in plain ASCII form.",
-     "a": "unemployment_rate = unemployed_looking / (employed + unemployed_looking)",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "leec.101.4",
    "title": "Characteristics of a Capitalist Economy",
    "questions": [
@@ -96,37 +206,6 @@
    ]
   },
   {
-   "id": "leec.101.5",
-   "title": "Profit of a Capitalist Firm",
-   "questions": [
-    {
-     "q": "Calculate the profit of a firm given its revenue, rent, interest, and wages.. Use the method 'Profit of a Capitalist Firm'. Work with: interest = 18, rent = 80, revenue = 20000, wages = 500. Carry the chain through step by step and give the final value of profit.",
-     "a": "19402 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the entrepreneur's profit when revenue, rent, interest, and wages are known.. Use the method 'Profit of a Capitalist Firm'. Work with: interest = 18, rent = 120, revenue = 80000, wages = 1000. Carry the chain through step by step and give the final value of profit.",
-     "a": "78862 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Profit of a Capitalist Firm' refers to.",
-     "a": "The residual revenue retained by an entrepreneur after paying rent for land, interest for capital, and wages for labor.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Profit of a Capitalist Firm'.",
-     "a": "Profit is the remaining revenue after all factor payments are deducted.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Profit of a Capitalist Firm', in plain ASCII form.",
-     "a": "profit = revenue - rent - interest - wages",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "leec.101.6",
    "title": "Four Sectors of the Economy",
    "questions": [
@@ -143,37 +222,6 @@
     {
      "q": "Under which section is 'Four Sectors of the Economy' taught, and from which source text?",
      "a": "1.2 (source: leec101.txt lines 295-350)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leec.101.7",
-   "title": "Net Exports",
-   "questions": [
-    {
-     "q": "Calculate the net exports of an economy.. Use the method 'Net Exports'. Work with: exports = 30, imports = 80. Carry the chain through step by step and give the final value of net_exports.",
-     "a": "-50 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the trade balance given exports and imports.. Use the method 'Net Exports'. Work with: exports = 80, imports = 300. Carry the chain through step by step and give the final value of net_exports.",
-     "a": "-220 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Net Exports' refers to.",
-     "a": "The difference between the value of goods and services sold to foreign countries and those purchased from them.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Net Exports'.",
-     "a": "Net balance of trade with the external sector.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Net Exports', in plain ASCII form.",
-     "a": "net_exports = exports - imports",
      "self_check": true
     }
    ]

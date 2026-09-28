@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_12_002",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_12_002",
+   "title": "c11_leg_cbse_12_002",
+   "questions": [
+    {
+     "q": "What is the minimum age of marriage for girls under the Hindu Marriage Act, 1955, the Parsi Marriage and Divorce Act, 1936, and the Christian Marriage Act, 1872?",
+     "a": "18 years for girls under all three Acts. A wrong answer (e.g., 21 for girls, or different ages across Acts) reveals the student hasn't memorized the uniform statutory age for non-Muslim communities and may be confusing it with the boy's age (21) or Muslim law's puberty rule (15 years).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a marriage between a Hindu man and his maternal uncle's daughter is void under the Hindu Marriage Act, 1955, but a marriage between a Muslim man and his maternal uncle's daughter may be valid under Muslim law.",
+     "a": "Hindu law prohibits sapinda relationships (3 generations maternal, 5 paternal) — maternal uncle's daughter falls within 3 generations maternal line. Muslim law prohibits consanguinity but defines it differently; maternal uncle's daughter is not explicitly prohibited in the Quranic list. A wrong answer shows the student thinks prohibited relationships are identical across religions or doesn't understand the structural difference between codified Hindu law and uncodified Muslim law based on religious texts.",
+     "self_check": true
+    },
+    {
+     "q": "A Hindu couple married in 2020. The wife discovers the husband had a living wife from a 2015 marriage (not divorced). She files for annulment in 2023. Is the second marriage void or voidable? What remedy is available? Apply the Hindu Marriage Act, 1955.",
+     "a": "Void marriage under Section 11 (bigamy during lifetime of spouse). No annulment petition needed — it's void ab initio. She can seek a declaration of nullity. A wrong answer (calling it voidable, or saying she must file for annulment within time limit) reveals confusion between void (no marriage exists) and voidable (valid until annulled) and misunderstanding that void marriages need no court decree to be invalid, only declaration.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"fault theory\" and \"irretrievable breakdown theory\" of divorce. Why did the Supreme Court in Naveen Kohli v. Neelu Kohli (2006) recommend adding irretrievable breakdown as a ground under the Hindu Marriage Act?",
+     "a": "Fault theory requires a guilty party (adultery, cruelty, desertion); breakdown theory dissolves marriage without assigning blame when the relationship is beyond repair. The Court recommended it because fault theory fails when both parties are innocent but marriage is dead — mutual consent requires both to agree, but one party can block it. A wrong answer (saying they're the same, or that breakdown theory punishes the guilty) shows inability to distinguish the philosophical shift from \"punishing fault\" to \"recognizing reality.\"",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The Family Courts Act, 1984 prioritizes 'preservation of family' over 'gender justice.' Women's groups argue this forces reconciliation even in abusive marriages.\" Support your view with two specific provisions or practices from the Act.",
+     "a": "Valid criticism. (1) Mandatory conciliation before trial (Section 9) pressures women to reconcile; counselors often lack gender-sensitivity training and treat domestic violence as \"adjustment issues.\" (2) Restriction on lawyers (Section 13) disadvantages women in complex legal proceedings where power imbalance exists. A weak answer (just saying \"it's good/bad\" without citing provisions) shows inability to link statutory design to gendered outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Universal Marriage Validity Checklist\" that a Family Court counselor could use to quickly assess if a marriage is valid, void, or voidable — regardless of the parties' religion (Hindu, Muslim, Christian, Parsi, or Special Marriage Act). Include 5 key questions covering the most common invalidity grounds.",
+     "a": "Good checklist: (1) Age: Are both parties above statutory minimum (18F/21M for non-Muslims; puberty ~15 for Muslims)? (2) Monogamy: Is either party already married (living spouse, undissolved)? (3) Prohibited relationship: Are parties within banned blood/marriage/fosterage ties per their personal law? (4) Consent: Was consent free (no force/fraud) and parties of sound mind? (5) Ceremonies: Were mandatory rites performed (Saptapadi, Nikah, Ashirwad, Priest certificate, Anand Karaj)? A poor checklist misses religion-specific nuances (e.g., Muslim law allows polygyny, no ceremony required) or conflates void/voidable grounds.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

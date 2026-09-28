@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_05_001",
+   "title": "c11_app_cbse_05_001",
+   "questions": [
+    {
+     "q": "**REMEMBER:** Define a finite sequence and give an example different from the textbook. How does it differ from an infinite sequence?",
+     "a": "A finite sequence has a countable number of terms (e.g., marks of 5 students: 85, 90, 78, 92, 88). An infinite sequence has uncountable terms (e.g., 1, 1/2, 1/3, 1/4, ...). A wrong answer (e.g., \"finite sequence stops at 100\") reveals the student confuses *value* of terms with *count* of terms — they think the sequence ends because terms become small, not because the index $n$ stops.",
+     "self_check": true
+    },
+    {
+     "q": "**UNDERSTAND:** The $n^{th}$ term of a sequence is given by $a_n = n^2 - 1$. Write the first 4 terms and the associated series up to 4 terms. Is this sequence an AP? Justify.",
+     "a": "Terms: $a_1=0, a_2=3, a_3=8, a_4=15$. Series: $S_4 = 0 + 3 + 8 + 15 = 26$. Differences: $3-0=3, 8-3=5, 15-8=7$ — not constant, so **not an AP**. A wrong answer (e.g., \"it is AP because formula has $n^2$\") reveals the student thinks any algebraic formula makes an AP, missing that AP requires *linear* expression in $n$ ($An+B$), not quadratic.",
+     "self_check": true
+    },
+    {
+     "q": "**APPLY:** A bacteria culture doubles every hour. If initial count is 500, write the sequence for the first 5 hours. Express the total bacteria count after 5 hours as a series (do not evaluate). Identify $a$ and $r$ if this is a GP.",
+     "a": "Sequence: $500, 1000, 2000, 4000, 8000$. Series: $S_5 = 500 + 1000 + 2000 + 4000 + 8000 = \\sum_{k=1}^{5} 500(2)^{k-1}$. Here $a=500, r=2$. A wrong answer (e.g., writing $500, 1000, 1500...$ or $r=500$) reveals the student confuses \"doubling\" (multiplicative) with \"increasing by 500\" (additive) — a classic AP vs GP confusion.",
+     "self_check": true
+    },
+    {
+     "q": "**ANALYZE:** Compare the sequences: (i) $2, 4, 6, 8, ...$ (ii) $2, 4, 8, 16, ...$ (iii) $1, -1, 1, -1, ...$. For each, state if it is an AP, GP, both, or neither. Explain the condition for a sequence to be both AP and GP.",
+     "a": "(i) AP only ($d=2, r \\neq \\text{const}$). (ii) GP only ($r=2, d \\neq \\text{const}$). (iii) **Both AP and GP** ($d=0, r=-1$). Condition: A sequence is both AP and GP iff it is a **constant sequence** ($a, a, a, ...$) OR alternating constant ($a, -a, a, -a...$ with $r=-1, d=-2a$). Actually, only constant sequence satisfies both definitions strictly ($d=0, r=1$). The alternating case has $d=-2a$ (not constant if $a \\neq 0$? Wait: $a, -a, a, -a$: differences are $-2a, 2a, -2a$ — not constant! So **only constant sequences** are both AP and GP. A wrong answer (e.g., \"alternating is both\") reveals the student doesn't verify *constant difference* for AP — they only check ratio.",
+     "self_check": true
+    },
+    {
+     "q": "**EVALUATE:** A student claims: \"The series $1 + 2 + 4 + 8 + ...$ to infinity has a finite sum because terms grow slowly.\" Critique this statement using the concept of convergent/divergent infinite series.",
+     "a": "The statement is **false**. The series is a GP with $a=1, r=2$. Since $|r| = 2 > 1$, the series **diverges** — the sum grows without bound ($S_n = 2^n - 1 \\to \\infty$). A finite sum for infinite GP exists **only if $|r| < 1$**. A wrong answer (e.g., \"sum is -1 using formula $\\frac{a}{1-r}$\") reveals the student blindly applies the infinite sum formula without checking the condition $|r|<1$ — a critical board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "**CREATE:** Design a real-life scenario (Indian context) that generates a sequence which is **neither AP nor GP**. Write the first 5 terms, the $n^{th}$ term rule, and the series up to $n=5$. Explain why it fits neither progression.",
+     "a": "**Scenario:** Daily temperature (in °C) in Delhi for a week: $22, 25, 21, 24, 20, ...$ (fluctuating). Rule: $a_n = 23 + (-1)^n \\cdot 2 + \\text{random variation}$ (no fixed algebraic rule). Series $S_5 = 22+25+21+24+20 = 112$. It is neither AP (differences: $3, -4, 3, -4$ not constant) nor GP (ratios not constant). A poor answer (e.g., \"prime numbers: 2,3,5,7,11\") might still have a pattern — the student must create a *genuinely irregular* sequence to show understanding that sequences need not follow progressions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

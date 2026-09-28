@@ -34,6 +34,31 @@
      "q": "Design a scenario where a manufacturing firm needs to create a 'Provision for Repairs and Renewals'. Outline the journal entries for the first two years, assuming the provision is based on a fixed percentage of the asset's original cost.",
      "a": "Scenario: A firm owns machinery worth ₹10,00,000. It estimates annual repairs at 3% of cost. Year 1: Actual repairs ₹20,000. Year 2: Actual repairs ₹35,000.\nEntries:\nYear 1: (a) Provision for Repairs A/c Dr. ₹30,000 → P&L A/c ₹30,000 (creation). (b) Repairs A/c Dr. ₹20,000 → Bank A/c ₹20,000 (actual). (c) Provision for Repairs A/c Dr. ₹20,000 → Repairs A/c ₹20,000 (utilisation).\nYear 2: Repeat creation ₹30,000, actual ₹35,000, utilisation ₹35,000 (balance carried forward).\nA poor answer (missing utilisation entry or not carrying forward balance) shows lack of understanding that the provision account accumulates and is used to smooth repair expenses.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A provision is an amount set aside out of current profits to meet a known liability or expense ______ to the current accounting period, the amount of which is uncertain.",
+     "a": "pertaining",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a shopkeeper who sells goods on credit to 100 ______.",
+     "a": "customers",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Experience tells her that about ______% of these customers will not pay.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to define provision, distinguish it from reserve, list at least five types of provisions (bad debts, depreciation, taxation, discount on debtors, repairs and renewals), explain the accounting treatment for provision for doubtful debts, and show its presentation in the Balance Sheet.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ who sells goods on credit to 100 customers.",
+     "a": "shopkeeper",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,125 @@
+{
+ "catalog": "catalog_class9_science_ch113.json",
+ "concepts": [
+  {
+   "id": "iesc.113.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "intensity = 59",
+      "area = 6.9",
+      "time = 83",
+      "energy = intensity * area * time"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "intensity = 59",
+      "area = 6.9",
+      "time = 83",
+      "energy = intensity * area * time"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "intensity = 21",
+      "area = 64",
+      "time = 110",
+      "energy = intensity * area * time"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "intensity = 21",
+      "area = 64",
+      "time = 110",
+      "energy = intensity * area * time"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "intensity = 68",
+      "area = 73",
+      "time = 98",
+      "energy = intensity * area * time"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "intensity = 68",
+      "area = 73",
+      "time = 98",
+      "energy = intensity * area * time"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "energy = intensity * area * time"
+   ]
+  },
+  {
+   "id": "iesc.113.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "incoming = 13.2",
+      "albedo = 84",
+      "reflected = incoming * albedo"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "incoming = 34",
+      "albedo = 11.9",
+      "reflected = incoming * albedo"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "incoming = 64",
+      "albedo = 99",
+      "reflected = incoming * albedo"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "incoming = 78",
+      "albedo = 55",
+      "reflected = incoming * albedo"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "incoming = 34",
+      "albedo = 62",
+      "reflected = incoming * albedo"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "incoming = 52",
+      "albedo = 86",
+      "reflected = incoming * albedo"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "reflected = incoming * albedo"
+   ]
+  }
+ ]
+}

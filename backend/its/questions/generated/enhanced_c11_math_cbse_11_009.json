@@ -34,6 +34,21 @@
      "q": "Create a real-world problem involving a hyperbolic mirror (like in a telescope) where the eccentricity and asymptote slope determine the mirror's shape. Specify what is given and what needs to be found.",
      "a": "Example: \"A hyperbolic mirror for a Cassegrain telescope has its cross-section modeled by \\(\\frac{x^2}{a^2} - \\frac{y^2}{b^2} = 1\\). The mirror's edge must follow an asymptote with slope \\(0.75\\) to direct light properly. If the distance from center to vertex is 20 cm, find the eccentricity and the focus position where the detector should be placed.\" Good answer: slope = \\(b/a = 0.75\\), \\(a = 20\\) so \\(b = 15\\). \\(e = \\sqrt{1 + (0.75)^2} = 1.25\\). Focus at \\((\\pm ae, 0) = (\\pm 25, 0)\\). A poor answer would not connect slope to \\(b/a\\), or would use ellipse formula, or would not convert slope to \\(b/a\\) ratio.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a cooling tower for a power plant in Gujarat – its cross-section is a ______.",
+     "a": "hyperbola",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "They can also solve problems where eccentricity and asymptote slopes are given to find the hyperbola equation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a cooling tower for a power plant in Gujarat – its cross-section is a hyperbola.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

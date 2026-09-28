@@ -34,6 +34,31 @@
      "q": "Create a real-world scenario (Indian context) where the same software package could be considered system software in one context and application software in another. Explain the reasoning for each classification.",
      "a": "Scenario: \"Android OS on a smartphone\" vs \"Android OS running as a virtual machine on a Windows laptop for app testing.\" On the smartphone, Android is system software — it directly manages hardware (cellular radio, touchscreen, sensors) and provides the platform for all apps. On the Windows laptop, the Android VM is an application software — it runs as a user-level process on top of Windows, performing the user task \"test mobile apps\" without managing the laptop's physical hardware. The classification depends on whether the software directly controls physical hardware (system) or runs as a user task on another OS (application). A poor answer (e.g., \"it's always system software\") reveals rigid categorization without understanding the relational nature of the classification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: System software is a collection of programs that directly manages and controls computer hardware resources (CPU, memory, devices) and provides a platform for running other software, while application software is designed to perform specific user-oriented tasks (document creation, ______, media playback) by utilizing the services provided by system software.",
+     "a": "calculations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you press the power button on your laptop — the screen shows a logo, then a login screen ______, and only after you log in can you open Chrome or MS Word.",
+     "a": "appears",
+     "self_check": true
+    },
+    {
+     "q": "What is System software? State the definition given in this lesson.",
+     "a": "System software is a collection of programs that directly manages and controls computer hardware resources (CPU, memory, devices) and provides a platform for running other software, while application software is designed to perform specific user-oriented tasks (document creation, calculations, media playback) by utilizing the services.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about System software?",
+     "a": "Students believe \"System Software = Operating System only\" and forget system utilities (disk cleanup, antivirus, backup tools) and device drivers (printer, graphics, USB drivers).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can classify any given software as system software, application software, or programming tool with justification, explain the dependency relationship (system software must load before application software), and provide three distinct examples of each category with their specific functions in a computer system.",
+     "self_check": true
     }
    ]
   }

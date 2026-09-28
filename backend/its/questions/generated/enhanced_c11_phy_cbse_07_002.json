@@ -34,6 +34,26 @@
      "q": "Design a thought experiment to demonstrate that the gravitational force between two ordinary objects (e.g., two cricket balls) is non-zero but too small to measure with a spring balance. Specify the masses, distance, expected force magnitude, and why a spring balance fails.",
      "a": "**Setup:** Two cricket balls, mass \\(m = 0.16 \\, \\text{kg}\\) each, placed with centres \\(r = 0.1 \\, \\text{m}\\) apart (touching).\n**Calculation:** \\(F = G \\frac{m^2}{r^2} = (6.67 \\times 10^{-11}) \\frac{(0.16)^2}{(0.1)^2} \\approx 1.7 \\times 10^{-10} \\, \\text{N}\\).\n**Reason for failure:** A typical spring balance has a least count of \\(0.01 \\, \\text{N}\\) (or \\(1 \\, \\text{gf} \\approx 0.01 \\, \\text{N}\\)). The gravitational force is \\(10^8\\) times smaller than the least count. Also, friction, air currents, and electrostatic forces would completely swamp this tiny force. A poor answer would suggest using a more sensitive spring balance without addressing the signal-to-noise ratio from environmental disturbances, or would claim the force is zero because \"gravity only works for planets\".",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Newton's Law of Universal ______ states that every particle in the universe attracts every other particle with a force that is directly proportional to the product of their masses and inversely proportional to the square of the distance between their centres.",
+     "a": "Gravitation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe an ______ falling from a tree in your school courtyard and the Moon rising in the evening sky.",
+     "a": "apple",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the gravitational force between two point masses using the formula, apply the superposition principle to find the net force on a mass due to multiple other masses, and correctly use the vector form to determine the direction of the force.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe an apple falling from a tree in your school ______ and the Moon rising in the evening sky.",
+     "a": "courtyard",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a simple classroom activity using publicly available satellite imagery (e.g., ISRO's Bhuvan portal, NASA Worldview, or Google Earth) to demonstrate the concept of **spectral signatures**. Describe the steps, the specific bands you would compare, and the expected observation that proves different surfaces reflect radiation differently.",
      "a": "**Activity: \"Spectral Detective\" using Bhuvan/Google Earth.**\n**Steps:**\n1. Open Bhuvan 2D/3D or Google Earth. Locate your school.\n2. Identify three distinct adjacent patches: (a) dense tree canopy, (b) concrete roof/road, (c) bare soil/playground.\n3. Use the \"False Colour\" or \"NDVI\" layer if available (Bhuvan has NRSC WMS layers). Alternatively, in Google Earth Pro, use \"Historical Imagery\" slider to compare dry vs. wet season.\n4. **Better:** Use **Sentinel Hub Playground (free)** or **NASA Worldview**. Load a recent Sentinel-2 image of your area. Select band combination: **B8 (NIR), B4 (Red), B3 (Green)** → False Colour.\n5. **Observe & Record:** Note the colour of each patch. Vegetation → Bright Red. Concrete/Roof → Cyan/Bluish-grey. Bare Soil → Brown/Tan. Water → Dark Blue/Black.\n6. **Switch to True Colour (B4, B3, B2):** Vegetation → Green, Concrete → Grey, Soil → Brown.\n**Expected Proof:** The *same* vegetation patch changes from Green (True) to Bright Red (False) because the False Colour map assigns the high NIR reflectance (invisible to eye) to the Red display channel. Concrete stays greyish in both because it reflects similarly across visible and NIR. This visual change *proves* the spectral signature differs.\nA poor answer (e.g., \"just look at photos\") misses the need to *compare specific spectral band combinations* to reveal the invisible NIR signature.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Satellite images are digital ______ of Earth's surface and atmosphere captured by sensors onboard artificial satellites orbiting Earth, which detect reflected sunlight or emitted thermal radiation across visible, infrared, and microwave wavelengths to create data used for mapping, monitoring, and scientific analysis.",
+     "a": "representations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at a ______ forecast on your phone or TV – the moving clouds you see over India are not drawn by an artist; they are real pictures taken by a camera in space.",
+     "a": "weather",
+     "self_check": true
+    },
+    {
+     "q": "What is Satellite images? State the definition given in this lesson.",
+     "a": "Satellite images are digital representations of Earth's surface and atmosphere captured by sensors onboard artificial satellites orbiting Earth, which detect reflected sunlight or emitted thermal radiation across visible, infrared, and microwave wavelengths to create data used for mapping, monitoring, and scientific analysis.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Satellite images?",
+     "a": "Students often believe that a satellite \"takes a photograph\" exactly like a smartphone camera – capturing a single snapshot of the whole Earth in natural colour at high resolution.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how a satellite sensor captures an image using electromagnetic radiation, distinguish between geostationary and polar-orbiting satellites based on their coverage and revisit time, and interpret a false-colour satellite image to identify at least three features (e.g., vegetation, water bodies, urban areas, clouds).",
+     "self_check": true
     }
    ]
   }

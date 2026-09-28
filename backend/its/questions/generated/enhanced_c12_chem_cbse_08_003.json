@@ -34,6 +34,36 @@
      "q": "Design a two-step synthesis of 4-methylpentan-2-one (CH₃COCH₂CH(CH₃)₂) starting from an acyl chloride and a suitable organometallic reagent. Specify all reagents and conditions.",
      "a": "Target ketone: CH₃COCH₂CH(CH₃)₂. Disconnect at the carbonyl: acyl chloride = CH₃COCl (ethanoyl chloride); organometallic = (CH₂CH(CH₃)₂)₂Cd (di(3-methylbutyl)cadmium). Step 1: Prepare Grignard: (CH₃)₂CHCH₂MgBr from (CH₃)₂CHCH₂Br + Mg/ether. Step 2: 2 (CH₃)₂CHCH₂MgBr + CdCl₂ → ((CH₃)₂CHCH₂)₂Cd + 2 MgBrCl. Step 3: CH₃COCl + ((CH₃)₂CHCH₂)₂Cd → CH₃COCH₂CH(CH₃)₂ + CdCl₂. A poor answer (wrong carbon count, wrong reagent) reveals inability to perform retrosynthetic disconnection at the carbonyl.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ketones are prepared from acyl chlorides by reaction with ______ (R₂Cd) to avoid over-addition, and from nitriles by nucleophilic addition of a Grignard reagent (RMgX) followed by acidic hydrolysis of the resulting imine intermediate.",
+     "a": "dialkylcadmium",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bottle of acetophenone (a fragrant ketone used in perfumes) in a chemistry lab — it can be made from benzoyl chloride or ______.",
+     "a": "benzonitrile",
+     "self_check": true
+    },
+    {
+     "q": "What is Ketones? State the definition given in this lesson.",
+     "a": "Ketones are prepared from acyl chlorides by reaction with dialkylcadmium (R₂Cd) to avoid over-addition, and from nitriles by nucleophilic addition of a Grignard reagent (RMgX) followed by acidic hydrolysis of the resulting imine intermediate.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To stop at the ketone, we use a less reactive organometallic: dialkylcadmium, prepared in situ from CdCl₂ and ______ RMgX.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Ketones?",
+     "a": "Students often write the reaction of acyl chloride with Grignard reagent as stopping at the ketone (RCOCl + RMgX → RCOR), ignoring that the ketone product immediately undergoes a second nucleophilic addition to give a tertiary alkoxide.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write balanced chemical equations for both methods, explain why dialkylcadmium is used instead of Grignard reagent for acyl chlorides, predict the ketone product from a given nitrile or acyl chloride, and identify the hydrolysis step as critical for the nitrile route.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a `FEE_RECEIPT` table for a school that records each fee payment. Requirements:\n- Each receipt has a unique auto-generated number (use `AUTO_INCREMENT`).\n- Student's admission number (foreign key to `STUDENT.AdminNo`).\n- Payment date (defaults to today if not supplied).\n- Amount paid (rupees and paise, max 6 digits total, 2 decimals, must be > 0).\n- Payment mode: only 'CASH', 'CARD', 'UPI', 'CHEQUE' allowed.\n- Academic session (e.g., '2024-25') — a fixed 7-char string, not null.\nWrite the complete CREATE TABLE statement using only features covered in this node (no ENUM, no triggers). Explain how you enforce the payment mode restriction without ENUM.",
      "a": "```sql\nCREATE TABLE FEE_RECEIPT (\n    ReceiptNo INT AUTO_INCREMENT PRIMARY KEY,\n    AdminNo INT NOT NULL,\n    PayDate DATE DEFAULT (CURRENT_DATE),\n    Amount DECIMAL(6,2) NOT NULL CHECK (Amount > 0),\n    PayMode VARCHAR(6) NOT NULL CHECK (PayMode IN ('CASH','CARD','UPI','CHEQUE')),\n    Session CHAR(7) NOT NULL,\n    FOREIGN KEY (AdminNo) REFERENCES STUDENT(AdminNo)\n);\n```\n**Explanation of PayMode enforcement:** Since `ENUM` is not in scope, we use `VARCHAR(6)` (longest value 'CHEQUE' = 6 chars) with a `CHECK` constraint listing the four allowed literals. MySQL 8.0.16+ enforces `CHECK` constraints, so any insert with `PayMode = 'ONLINE'` will be rejected.\n**Criteria for a good answer:** Correct use of `AUTO_INCREMENT` on PK, `DEFAULT (CURRENT_DATE)` for date, `DECIMAL(6,2)` with `CHECK (Amount > 0)`, `CHAR(7)` for fixed-length session, `NOT NULL` on all mandatory columns, and a `CHECK ... IN (...)` for the discrete set. A poor answer uses `VARCHAR(20)` for PayMode without CHECK, or `INT` for Amount (losing paise), or forgets the FK — showing inability to synthesize multiple constraints into a coherent schema.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The CREATE TABLE command is a Data Definition Language (DDL) statement used to define a new relation (table) in a relational database by specifying its name, a comma-separated list of column ______ (each with a column name, data type, and optional constraints), and optional table-level constraints such as PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, and NOT NULL.",
+     "a": "definitions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the database designer for your school's new \"Club ______ System\".",
+     "a": "Management",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Given a real-world scenario describing entities and their attributes (e.g., a school library system), the student can write a syntactically correct CREATE TABLE statement for at least two related tables, choosing appropriate MySQL data types (including size/precision for VARCHAR, DECIMAL, CHAR), applying column-level constraints (NOT.",
+     "self_check": true
     }
    ]
   }

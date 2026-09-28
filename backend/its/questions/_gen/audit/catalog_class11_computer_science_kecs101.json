@@ -1,0 +1,278 @@
+{
+ "catalog": "catalog_class11_computer_science_kecs101.json",
+ "concepts": [
+  {
+   "id": "kecs101.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mb = 14.4",
+      "bits = mb * 1024 * 1024 * 8"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mb = 56",
+      "bits = mb * 1024 * 1024 * 8"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mb = 60",
+      "bits = mb * 1024 * 1024 * 8"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mb = 74",
+      "bits = mb * 1024 * 1024 * 8"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mb = 87",
+      "bits = mb * 1024 * 1024 * 8"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mb = 57",
+      "bits = mb * 1024 * 1024 * 8"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "bits = mb * 1024 * 1024 * 8"
+   ]
+  },
+  {
+   "id": "kecs101.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "word_bits = 26",
+      "byte_count = word_bits // 8"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "word_bits = 71",
+      "byte_count = word_bits // 8"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "word_bits = 36",
+      "byte_count = word_bits // 8"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "word_bits = 25",
+      "byte_count = word_bits // 8"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "word_bits = 96",
+      "byte_count = word_bits // 8"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "word_bits = 70",
+      "byte_count = word_bits // 8"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "byte_count = word_bits // 8"
+   ]
+  },
+  {
+   "id": "kecs101.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mbit = 78",
+      "bus_rate_mbps = 32",
+      "time_s = mbit / bus_rate_mbps"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mbit = 49",
+      "bus_rate_mbps = 29",
+      "time_s = mbit / bus_rate_mbps"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mbit = 91",
+      "bus_rate_mbps = 12.4",
+      "time_s = mbit / bus_rate_mbps"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mbit = 52",
+      "bus_rate_mbps = 39",
+      "time_s = mbit / bus_rate_mbps"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mbit = 64",
+      "bus_rate_mbps = 8.7",
+      "time_s = mbit / bus_rate_mbps"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mbit = 56",
+      "bus_rate_mbps = 52",
+      "time_s = mbit / bus_rate_mbps"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "time_s = mbit / bus_rate_mbps"
+   ]
+  },
+  {
+   "id": "kecs101.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "clock_ghz = 19.4",
+      "cycles_per_instr = 18",
+      "instr_per_sec = clock_ghz * 1000000000 / cycles_per_instr"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "clock_ghz = 46",
+      "cycles_per_instr = 47",
+      "instr_per_sec = clock_ghz * 1000000000 / cycles_per_instr"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "clock_ghz = 24",
+      "cycles_per_instr = 78",
+      "instr_per_sec = clock_ghz * 1000000000 / cycles_per_instr"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "clock_ghz = 39",
+      "cycles_per_instr = 65",
+      "instr_per_sec = clock_ghz * 1000000000 / cycles_per_instr"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "clock_ghz = 8.9",
+      "cycles_per_instr = 85",
+      "instr_per_sec = clock_ghz * 1000000000 / cycles_per_instr"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "clock_ghz = 82",
+      "cycles_per_instr = 19.6",
+      "instr_per_sec = clock_ghz * 1000000000 / cycles_per_instr"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "instr_per_sec = clock_ghz * 1000000000 / cycles_per_instr"
+   ]
+  },
+  {
+   "id": "kecs101.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "base_count = 391",
+      "years = 76",
+      "transistors = base_count * 2 ** (years // 2)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "base_count = 396",
+      "years = 10.1",
+      "transistors = base_count * 2 ** (years // 2)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "base_count = 20",
+      "years = 93",
+      "transistors = base_count * 2 ** (years // 2)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "base_count = 232",
+      "years = 73",
+      "transistors = base_count * 2 ** (years // 2)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "base_count = 148",
+      "years = 12.4",
+      "transistors = base_count * 2 ** (years // 2)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "base_count = 28",
+      "years = 26",
+      "transistors = base_count * 2 ** (years // 2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "transistors = base_count * 2 ** (years // 2)"
+   ]
+  }
+ ]
+}

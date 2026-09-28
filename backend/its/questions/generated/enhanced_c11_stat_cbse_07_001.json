@@ -34,6 +34,31 @@
      "q": "Design a simple observational study to check if there is a correlation between \"daily screen time (hours)\" and \"hours of sleep\" among Class 11 students. Specify: (a) the two variables, (b) how you would collect data, (c) what pattern in the data would suggest negative correlation, and (d) one reason why even a strong correlation would NOT prove screen time *reduces* sleep.",
      "a": "(a) Variables: X = daily screen time (hours), Y = hours of sleep per night.  \n(b) Collect data via anonymous survey of 50+ Class 11 students, asking for average daily screen time (phone/TV/computer) and average sleep duration over the past week.  \n(c) Negative correlation: as screen time increases, sleep hours tend to decrease — scatter plot points slope downward.  \n(d) **Confounding variable**: stress or academic workload may cause *both* high screen time (procrastination, relaxation) and low sleep (studying late). Correlation cannot isolate screen time as the cause. A poor answer omits (d) or gives a causal claim like \"blue light reduces melatonin\" — that's a mechanism, not a reason correlation ≠ causation. Missing (b) or (c) shows inability to operationalize variables or visualize correlation direction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Correlation is a statistical measure that quantifies the direction and strength of the linear ______ between two variables, indicating how they tend to change together without implying that one causes the other.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you read a news ______: \"Students who eat breakfast score higher on exams!\" You wonder: does eating breakfast *cause* better scores, or do students who eat breakfast also have other habits (regular sleep, supportive parents) that help?",
+     "a": "headline",
+     "self_check": true
+    },
+    {
+     "q": "What is Correlation? State the definition given in this lesson.",
+     "a": "Correlation is a statistical measure that quantifies the direction and strength of the linear relationship between two variables, indicating how they tend to change together without implying that one causes the other.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Correlation?",
+     "a": "Students believe correlation implies causation — if two variables are correlated, one must cause the other.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can define correlation in their own words, distinguish it from causation using a concrete example, and identify whether a given real-world scenario involves a positive, negative, or zero correlation.",
+     "self_check": true
     }
    ]
   }

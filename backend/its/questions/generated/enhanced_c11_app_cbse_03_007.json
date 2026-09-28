@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_03_007",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_03_007",
+   "title": "c11_app_cbse_03_007",
+   "questions": [
+    {
+     "q": "State the definition of a Universal Set and its standard notation. Give one example where the Universal Set is finite and one where it is infinite.",
+     "a": "A Universal Set (U) is the set containing all elements under consideration in a specific context; all other sets in that context are subsets of U. Finite example: For sets of vowels and consonants in English, U = {a, b, c, ..., z} (26 elements). Infinite example: For sets of even and odd natural numbers, U = N (natural numbers). A wrong answer (e.g., \"U is always R\" or \"U is always infinite\") reveals the student thinks Universal Set is a single fixed mathematical object rather than a context-dependent choice.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the Universal Set for the sets A = {2, 4, 6} and B = {1, 3, 5} could be {1, 2, 3, 4, 5, 6} but could also be N (the set of natural numbers). Why is it **not** uniquely determined by A and B alone?",
+     "a": "The Universal Set must contain every element of A and B, so any superset of A ∪ B = {1, 2, 3, 4, 5, 6} works. Both {1,2,3,4,5,6} and N satisfy this. It is not unique because the problem context decides U — if the problem says \"numbers on a die,\" U = {1,...,6}; if it says \"natural numbers,\" U = N. A wrong answer (e.g., \"U must be the smallest possible set\") shows the student confuses the Universal Set with the union of the given sets.",
+     "self_check": true
+    },
+    {
+     "q": "Let A = {x : x is a prime number less than 10} and B = {x : x is an even number less than 10}. Propose **two different** valid Universal Sets for A and B. For each, write it in roster form and explain why it qualifies.",
+     "a": "A = {2, 3, 5, 7}, B = {2, 4, 6, 8}, so A ∪ B = {2, 3, 4, 5, 6, 7, 8}. Valid U₁ = {1, 2, 3, 4, 5, 6, 7, 8, 9} (natural numbers < 10) — contains all elements of A and B. Valid U₂ = N (all natural numbers) — also contains all elements. Both are supersets of A ∪ B. A wrong answer (e.g., proposing U = {2, 3, 4, 5, 6, 7, 8}) reveals the student thinks U must equal the union, missing that U can be larger.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the statement: \"For any two sets A and B, there exists a unique Universal Set U.\" Analyze this statement. Is it true or false? Justify your answer by comparing the roles of **context** and **superset property**.",
+     "a": "False. The superset property only requires U ⊇ A ∪ B, which infinitely many sets satisfy (e.g., A ∪ B, A ∪ B ∪ {0}, N, Z, R). Uniqueness comes **only** when the problem context explicitly defines U (e.g., \"U is the set of integers from 1 to 20\"). Without context, U is not unique. A wrong answer (e.g., \"True, because U must contain all elements\") shows the student conflates \"containing all elements\" with \"being the only set that contains all elements.\"",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If U = {1, 2, 3, 4, 5} is the Universal Set, then the set of all even integers is a subset of U.\" Evaluate this claim. Is the student correct? Explain why or why not, referencing the definition of subset and the nature of the Universal Set.",
+     "a": "The student is incorrect. The set of all even integers is {..., -4, -2, 0, 2, 4, 6, ...}. Since 6 ∉ U (and -2 ∉ U, etc.), the even integers set is **not** a subset of U. A subset of U can only contain elements from U. The Universal Set **bounds** the universe of discourse — no set in that context can have elements outside U. A wrong answer (e.g., \"Yes, because 2 and 4 are in U\") reveals the student checks only a few elements and ignores the definition of subset (∀x, x ∈ A ⇒ x ∈ U).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life scenario (Indian context) involving **three distinct subsets** where the choice of Universal Set **changes the answer** to the question: \"How many elements are in the complement of subset A?\" Describe the scenario, define the three subsets, give two different Universal Sets, and show how the complement size changes.",
+     "a": "Scenario: A school surveys 100 students about languages. Subsets: A = {students who know Hindi}, B = {students who know English}, C = {students who know Tamil}. Let |A| = 60. U₁ = \"All 100 surveyed students\" → A' = 40 students. U₂ = \"All students in the school (1000 total)\" → A' = 940 students. The complement size changes because U changed. A poor answer (e.g., same complement size for both U) shows the student doesn't grasp that complement is **relative to U**, not absolute.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

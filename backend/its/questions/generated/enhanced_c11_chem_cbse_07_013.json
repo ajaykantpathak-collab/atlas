@@ -34,6 +34,26 @@
      "q": "Design a buffer of pH 5.0 using acetic acid (pKₐ = 4.74) and sodium acetate. Specify the required [CH₃COONa]/[CH₃COOH] ratio. If you have 500 mL of 0.2 M CH₃COOH, what mass of CH₃COONa·3H₂O (molar mass 136 g/mol) must be added? Assume volume change negligible.",
      "a": "pH = pKₐ + log([salt]/[acid]) → 5.0 = 4.74 + log(ratio) → log(ratio) = 0.26 → ratio = 10^0.26 = 1.82. [salt] = 1.82 × 0.2 = 0.364 M. Moles needed = 0.364 × 0.5 = 0.182 mol. Mass = 0.182 × 136 = 24.75 g. A poor answer (e.g., ratio = 0.55 or mass calculation error) reveals inability to invert log, handle stoichiometry, or apply molar mass of hydrate.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A buffer ______ is a system that resists changes in pH upon addition of small amounts of strong acid or strong base, or upon dilution.",
+     "a": "solution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe that adding a drop of lemon juice (acid) to pure water changes its pH drastically, but adding the same drop to a ______ of vinegar and sodium acetate barely changes the pH.",
+     "a": "mixture",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the pH of a buffer solution using the Henderson-Hasselbalch equation, predict the direction of pH change when acid/base is added, and design a buffer of a target pH by selecting an appropriate conjugate acid-base pair and ratio.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe that adding a drop of lemon juice (acid) to pure water changes its pH ______, but adding the same drop to a mixture of vinegar and sodium acetate barely changes the pH.",
+     "a": "drastically",
+     "self_check": true
     }
    ]
   }

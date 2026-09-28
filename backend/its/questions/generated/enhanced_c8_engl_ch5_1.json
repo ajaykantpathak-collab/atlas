@@ -34,6 +34,31 @@
      "q": "Create a brief descriptive passage (4-5 sentences) of a crew member looking out of the space station's observation window. Your description must highlight at least one sensory detail of the station's interior and contrast it with the view of space outside.",
      "a": "**Expected response criteria:**\n1. Mentions an interior sensory detail (e.g., the hum of air recyclers, metallic walls, floating strap-handles).\n2. Contrasts it with the external view of space (e.g., the silent, infinite darkness, the glowing curve of the Earth).\n3. Demonstrates an understanding of the station's artificial nature versus natural space.\n\n*Example of a high-quality response:* \n\"Leaning against the cold metal frame of the observation portal, Ravi held onto a nylon strap to keep his boots from drifting off the floor plates. Inside, the quiet, rhythmic hum of the oxygen recyclers was the only sound reminding him of survival. Outside the thick glass, however, there was only absolute, breathtaking silence. The brilliant blue curve of the Earth hung suspended in a sea of ink-black space, looking so close yet entirely unreachable.\"\n\n*What a poor answer reveals:* If the passage reads like a standard Earth window view (e.g., \"he looked out and saw stars while sitting on a chair\"), it shows the student is not successfully generating a creative description aligned with the physical constraints of a space station.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In science fiction, the setting is the specific time and place (often futuristic or ______ advanced) where the story occurs.",
+     "a": "technologically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine waking up in a metal room where you ______ open a window to let in a fresh breeze because doing so would instantly pull you into a cold, airless vacuum.",
+     "a": "cannot",
+     "self_check": true
+    },
+    {
+     "q": "What is In science fiction, the setting? State the definition given in this lesson.",
+     "a": "In science fiction, the setting is the specific time and place (often futuristic or technologically advanced) where the story occurs.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about In science fiction, the setting?",
+     "a": "Students often treat a science fiction setting as a \"decorative background\" or a cool visual stage that has no real impact on the characters' choices or the plot.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify sensory and mechanical details of the orbital space station setting and analyze how these environmental constraints directly drive the characters' behaviors, the physical limitations of the plot, and the thematic conflict of human survival in space.",
+     "self_check": true
     }
    ]
   }

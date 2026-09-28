@@ -34,6 +34,26 @@
      "q": "Create a real-world scenario (from sports, architecture, or nature) that involves each of the four non-degenerate conic sections, and explain why that conic appears in that scenario.",
      "a": "Example: (1) Circle – a circular running track; (2) Ellipse – planetary orbit (Kepler's first law); (3) Parabola – trajectory of a cricket ball thrown in a vacuum (neglecting air resistance); (4) Hyperbola – the shape of a cooling tower of a power plant. A poor answer that only lists shapes without linking the geometric property (e.g., focus-directrix, reflection property) to the scenario shows lack of deeper understanding.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A conic section is a curve obtained by intersecting a plane with a double-napped right circular cone; the four distinct non-______ curves formed are the circle, ellipse, parabola, and hyperbola, depending on the angle between the intersecting plane and the axis of the cone.",
+     "a": "degenerate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ dish for a communications tower in Bengaluru: the dish must reflect signals to a single focal point, so its cross-section must be a parabola.",
+     "a": "satellite",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can precisely define a conic section as the intersection of a plane and a double-napped cone, name the four standard conics (circle, ellipse, parabola, hyperbola), and explain how the angle of the cutting plane relative to the cone's axis determines which conic is produced.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a satellite dish for a ______ tower in Bengaluru: the dish must reflect signals to a single focal point, so its cross-section must be a parabola.",
+     "a": "communications",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a simple experiment to prove that a stick's shadow changes over time. What would you need to observe?",
      "a": "The student should suggest placing a stick in open ground and marking the shadow's tip with a pebble every hour. A poor answer fails to define the observation interval (time) or the reference object (stick).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A sundial is an ancient device that measures time by using the position of a shadow cast by a ______ object (a gnomon) onto a marked surface, tracking the sun's apparent movement across the sky.",
+     "a": "stationary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever noticed how your own shadow changes length and ______ during a sunny day?",
+     "a": "direction",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain why a sundial's shadow changes position throughout the day and identify the fundamental limitation of solar-based timekeeping.",
+     "self_check": true
     }
    ]
   }

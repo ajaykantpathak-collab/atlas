@@ -4,15 +4,9 @@
   {
    "id": "am12_005.1",
    "title": "Population and Sample",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the simple or compound interest formula",
-     "explain": "apply the simple or compound interest formula: si = 6000 * 5 * 3 / 100 gives 900",
-     "compute": "si = 6000 * 5 * 3 / 100"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the simple interest on Rs 6000 at 5% per annum for 3 years.",
@@ -50,6 +44,8 @@
    "id": "am12_005.2",
    "title": "Parameter and Statistic",
    "converted_to_compute": false,
+   "formula": "err = xbar - mu",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean deviation about the mean of 9, 7, 9 (two decimal places).",
@@ -87,6 +83,8 @@
    "id": "am12_005.3",
    "title": "Sampling Distribution and Standard Error",
    "converted_to_compute": false,
+   "formula": "se = sd / sqrt(n)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers 13 and 22.",
@@ -123,21 +121,9 @@
   {
    "id": "am12_005.4",
    "title": "Hypothesis Null and Alternative",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the dispersion formula to the data",
-     "explain": "apply the dispersion formula to the data: mean = (7 + 9 + 13) / 3 gives 9.66667",
-     "compute": "mean = (7 + 9 + 13) / 3"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "apply the dispersion formula to the data: md = (abs(7 - mean) + abs(9 - mean) + abs(13 - mean)) / 3 gives 2.22222",
-     "compute": "md = (abs(7 - mean) + abs(9 - mean) + abs(13 - mean)) / 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean deviation about the mean of 7, 9, 13 (two decimal places).",
@@ -175,6 +161,8 @@
    "id": "am12_005.5",
    "title": "One Sample t Test",
    "converted_to_compute": false,
+   "formula": "t = (xbar - mu) / (s / sqrt(n))",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean deviation about the mean of 7, 10, 2 (two decimal places).",
@@ -211,21 +199,9 @@
   {
    "id": "am12_005.6",
    "title": "Statistical Significance",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the dispersion formula to the data",
-     "explain": "apply the dispersion formula to the data: mean = (7 + 12 + 5) / 3 gives 8",
-     "compute": "mean = (7 + 12 + 5) / 3"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "apply the dispersion formula to the data: md = (abs(7 - mean) + abs(12 - mean) + abs(5 - mean)) / 3 gives 2.66667",
-     "compute": "md = (abs(7 - mean) + abs(12 - mean) + abs(5 - mean)) / 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean deviation about the mean of 7, 12, 5 (two decimal places).",

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_11_003",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_11_003",
+   "title": "c12_leg_cbse_11_003",
+   "questions": [
+    {
+     "q": "What is the statutory limitation period for filing a complaint before the National Human Rights Commission (NHRC) under the Protection of Human Rights Act, 1993?",
+     "a": "The complaint must be filed within **one year** from the date on which the act constituting the human rights violation is alleged to have been committed. A wrong answer (e.g., \"3 years\" or \"no limitation\") reveals the student confuses NHRC with civil/criminal limitation periods (e.g., Limitation Act, 1963) and misses the specific statutory bar in the NHRC guidelines (Guideline 9(v)).",
+     "self_check": true
+    },
+    {
+     "q": "A complaint is filed before the NHRC alleging that a private company’s security guard assaulted a worker. The NHRC rejects it. Explain the precise legal ground for rejection based on the NHRC guidelines.",
+     "a": "The NHRC rejects complaints where **\"allegations are not against any public servant\"** (Guideline 9(vi)). The Protection of Human Rights Act, 1993 defines \"human rights violation\" as violation by a *public servant* (Section 2(d)). A private security guard is not a public servant. A wrong answer (e.g., \"it's a civil dispute\" or \"police should handle it\") shows the student does not grasp the *jurisdictional filter* — NHRC only covers State action/inaction, not private actors (unless State failed to prevent it).",
+     "self_check": true
+    },
+    {
+     "q": "A victim of custodial torture files a complaint with the NHRC. The Commission summons the jail superintendent, records evidence on affidavit, and recommends ₹5 lakh compensation and prosecution of the officer. The State government ignores the recommendation. What is the *next legal step* the NHRC can take to enforce its recommendation?",
+     "a": "The NHRC can **approach the Supreme Court or High Court for directions/orders** (Section 18, Protection of Human Rights Act). The Commission’s recommendations are not self-executing; they require judicial enforcement. A wrong answer (e.g., \"NHRC can impose fine\" or \"NHRC can arrest the officer\") reveals the student thinks quasi-judicial bodies have *executive enforcement powers* — they do not. They have civil court powers *for inquiry only* (summon, documents, affidavits), not for execution.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the complaint rejection grounds of the National Commission for Minorities (NCM) and the National Commission for Protection of Child Rights (NCPCR). Identify *one ground common to both* and *one ground unique to NCPCR*.",
+     "a": "**Common ground**: Both reject complaints that are **sub judice** (pending before a court/tribunal) or **vague/anonymous/frivolous**. **Unique to NCPCR**: It explicitly rejects complaints **\"not related to civil disputes such as property rights, contractual obligations\"** — NCM guidelines do not list this specific exclusion (though NCM also excludes service/labour matters). A wrong answer (e.g., \"both reject complaints >1 year\") misses that NCPCR guidelines *do not mention a 1-year bar* (unlike NHRC/NCM), showing the student conflates limitation periods across commissions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"The National Commission for Women (NCW) can order the arrest of a police officer accused of custodial rape because it has powers of a civil court.\"",
+     "a": "**The statement is false.** NCW has powers of a civil court *only for inquiry* (summoning, documents, affidavits, commissions) under Section 10 of the NCW Act. It **cannot order arrest, prosecution, or detention** — those are executive/judicial functions. It can only *recommend* prosecution to the State or approach courts. A student agreeing with the statement confuses *inquisitorial inquiry powers* with *adjudicatory/executive powers*. This is a critical distinction: quasi-judicial ≠ judicial.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical complaint scenario that would be **admissible** before the National Commission for Scheduled Castes (NCSC) but **inadmissible** before the NHRC. Specify the victim, violation, perpetrator, and the legal reason for the differential admissibility.",
+     "a": "**Scenario**: A Scheduled Caste government clerk is denied promotion for 5 years despite eligibility; the Department (public servant) cites \"administrative reasons\" but no written order exists. **Admissible in NCSC**: NCSC has *constitutional mandate* (Art. 338) to investigate *deprivation of safeguards* for SCs (including service safeguards like reservation in promotion under Art. 16(4A)). **Inadmissible in NHRC**: NHRC guidelines exclude **\"service matters\"** (Guideline 9(viii)). **Reason**: NCSC’s jurisdiction covers *constitutional safeguards for SCs/STs in service*; NHRC’s jurisdiction excludes service disputes *unless* they involve a human rights violation *beyond* service law (e.g., caste-based harassment amounting to atrocity). A poor answer fails to cite the specific exclusion (NHRC Guideline 9(viii)) or NCSC’s Art. 338 mandate.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

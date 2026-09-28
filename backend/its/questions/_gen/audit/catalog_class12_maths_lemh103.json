@@ -88,9 +88,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = 6 + 7 + 6"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.103.3.1",
@@ -134,9 +132,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "sq = 24 ** 2"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.103.3.2",
@@ -179,9 +175,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "adj = 180 - 50"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.103.3.3",
@@ -225,10 +219,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = sum((38, 16, 24, 13, 34))",
-    "mean = total / 5"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.103.4.1",
@@ -366,9 +357,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "det = 2 * 6 - -1 * 5"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.103.4.4",
@@ -457,9 +446,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = -8 + (-11)"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.103.5.1",
@@ -502,9 +489,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "x = (101 - 2) / 9"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.103.6.1",
@@ -550,9 +535,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "det = 6 * -1 - -4 * 3"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.103.7.1",
@@ -595,9 +578,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "count = 3"
-   ]
+   "steps_chain": []
   }
  ]
 }

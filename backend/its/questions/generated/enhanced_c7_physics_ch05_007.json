@@ -34,6 +34,26 @@
      "q": "Design a simple setup using a plane mirror, a graph paper, and a small pin to experimentally prove that the image distance equals the object distance. Describe your steps and expected observations.",
      "a": "Expected criteria for a good answer: Place a transparent sheet or graph paper on a table, fix a vertical plane mirror on a line, place a pin at a known grid intersection in front of the mirror (e.g., 5 cm away), look from the front and place two sighting pins to trace reflected rays, remove the mirror and trace lines backward to find the image position on the grid, and verify that the image grid coordinate matches the object grid coordinate. A poor answer just says \"look in the mirror and guess the distance\" without quantitative measurement or experimental controls.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The image formed by a plane mirror is virtual, erect, of the exact same size as the object, located as far behind the mirror as the object is in front of it, and ______ inverted.",
+     "a": "laterally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stand in front of the large ______ in your dressing room or look into your bathroom glass while brushing your teeth in the morning.",
+     "a": "mirror",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can predict the characteristics (size, orientation, lateral inversion, and distance) of an image formed by a plane mirror given the position and nature of an object, and can explain why the image is classified as virtual.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stand in front of the large mirror in your ______ room or look into your bathroom glass while brushing your teeth in the morning.",
+     "a": "dressing",
+     "self_check": true
     }
    ]
   }

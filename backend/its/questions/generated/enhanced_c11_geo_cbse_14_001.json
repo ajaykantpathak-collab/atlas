@@ -34,6 +34,31 @@
      "q": "Design a climatic criteria table (columns: Forest Type, Annual Rainfall Range, Dry Season Length, Mean Annual Temperature Range) for the five major natural vegetation types of India. Use it to predict the vegetation type for a hypothetical location at 28°N, 2000 m altitude, 180 cm rainfall, 3-month dry season.",
      "a": "A good table lists: Tropical Evergreen (>200 cm, <1 month dry, >22°C), Tropical Moist Deciduous (100-200 cm, 3-4 months, >22°C), Tropical Dry Deciduous (75-100 cm, 5-6 months, >22°C), Tropical Thorn (<75 cm, >6 months, >22°C), Montane (variable rain, temperature-driven zones). For the given location: altitude 2000 m at 28°N → MAT ~10°C (lapse rate), rainfall 180 cm, dry season 3 months → falls in Montane Wet Temperate zone (150-250 cm, 10-15°C). A poor answer forces it into Tropical Moist Deciduous ignoring the temperature drop with altitude, showing failure to apply altitudinal zonation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Natural vegetation refers to plant communities that have grown naturally without human ______ and have been left undisturbed by humans for a long time, adapting fully to the local climate, soil, and topographic conditions.",
+     "a": "intervention",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by observing the view from your classroom window or a nearby park: notice how the trees change from the ______ banyan to the scrubby bushes on the nearby hill.",
+     "a": "roadside",
+     "self_check": true
+    },
+    {
+     "q": "What is Natural vegetation? State the definition given in this lesson.",
+     "a": "Natural vegetation refers to plant communities that have grown naturally without human intervention and have been left undisturbed by humans for a long time, adapting fully to the local climate, soil, and topographic conditions.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Natural vegetation?",
+     "a": "Students often believe that \"natural vegetation\" includes any green cover they see, such as roadside plantations, orchards, or city parks.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can define natural vegetation precisely using the criteria of climate-soil-relief interaction, list the five major forest types of India with their defining climatic thresholds (rainfall range, temperature range), and explain why the same forest type does not occur uniformly across regions with similar rainfall but different.",
+     "self_check": true
     }
    ]
   }

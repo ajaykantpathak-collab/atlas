@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using isolated muscle fibres to demonstrate that ATP is required for both contraction and relaxation.",
      "a": "Use three sets of isolated frog skeletal muscle fibres in physiological saline: (1) normal ATP (control), (2) ATP depleted by metabolic inhibitors (e.g., iodoacetate + N₂), (3) ATP depleted but supplied with non-hydrolyzable ATP analog (e.g., AMP-PNP). Stimulate electrically. Set 1 contracts and relaxes. Set 2 fails to contract (no ATP for cross-bridge cycling). Set 3 forms rigid cross-bridges (rigor) because analog binds but cannot be hydrolyzed for detachment. A poor design (e.g., only testing contraction) misses the dual role of ATP.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The sliding filament theory explains skeletal muscle ______ as the process where thin (actin) filaments slide over thick (myosin) filaments within a sarcomere, shortening the sarcomere length while filament lengths remain constant, driven by cyclic cross-bridge formation powered by ATP hydrolysis.",
+     "a": "contraction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you flex your arm to lift a bucket of water, your biceps muscle ______ visibly.",
+     "a": "shortens",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can label all sarcomere components (Z-line, A-band, I-band, H-zone, M-line) on a diagram, explain the sequence of events from neural signal to cross-bridge cycling, and predict how changes in Ca²⁺ or ATP availability alter contraction dynamics.",
+     "self_check": true
     }
    ]
   }

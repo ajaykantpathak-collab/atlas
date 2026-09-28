@@ -10,7 +10,7 @@
    "title": "Stoichiometry of Hydrocarbon Combustion",
    "section": "9.2.3",
    "definition": "Complete burning of any open-chain or cyclic hydrocarbon in excess oxygen releases carbon dioxide, water, and thermal energy according to fixed stoichiometric ratios.",
-   "formula": "O2_moles = carbon_count + (hydrogen_count / 4)",
+   "formula": "O_2_moles = carbon_count + (hydrogen_count / 4)",
    "key_idea": "Every mole of carbon produces one mole of CO2 while four hydrogens demand one mole of O2 to form two moles of H2O.",
    "textbook_ref": "kech203.txt lines 380-410",
    "question_patterns": [
@@ -51,7 +51,16 @@
      "solution": "Step 1: identify carbon and hydrogen atom counts. Step 2: calculate oxygen requirement per mole of fuel. Step 3: write the balanced combustion equation and verify atom counts. Working: c_atoms, carbon_count + (h_atoms / 4).",
      "answer": "The method of stoichiometry of hydrocarbon combustion leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "O_2_moles = carbon_count + (hydrogen_count / 4)",
+     "compute": "O_2_moles = carbon_count + (hydrogen_count / 4)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kech.9.2.2",
@@ -148,7 +157,16 @@
      "solution": "Step 1: subtract 2 from total delocalized pi electrons. Step 2: divide the difference by four to determine Hückel index. Step 3: verify the ring is cyclic, planar, and fully conjugated before confirming aromaticity. Working: pi_electrons - 2, diff / 4.",
      "answer": "The method of hückel rule of aromaticity leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "n = (pi_electrons - 2) / 4",
+     "compute": "n = (pi_electrons - 2) / 4"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kech.9.2.4",
@@ -165,7 +183,7 @@
     "distinguish between chain and position isomers",
     "describe chain and position isomerism of alkanes and alkenes with an example"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -182,7 +200,16 @@
      "action": "eliminate duplicate structures by checking for molecular symmetry",
      "explain": "compare each generated structure for equivalence by rotation or reflection; only count genuinely distinct constitutional isomers with unique IUPAC names."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "constitutional_isomers = chain_isomers + position_isomers",
+     "compute": "constitutional_isomers = chain_isomers + position_isomers"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kech.9.2.5",

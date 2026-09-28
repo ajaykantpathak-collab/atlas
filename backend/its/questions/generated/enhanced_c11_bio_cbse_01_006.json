@@ -34,6 +34,31 @@
      "q": "Design a protocol for a college biology department to establish a teaching herbarium of 50 local medicinal plant species, ensuring each specimen meets international standards for citation in a revisionary taxonomic paper.",
      "a": "A good protocol includes: (1) field collection with GPS-tagged vouchers, (2) pressing in a standard plant press (45×30 cm) with daily newspaper changes, (3) drying at 45–50°C for 48 hours, (4) poisoning with mercuric chloride or deep-freezing, (5) mounting on acid-free herbarium sheets (42×29 cm) with archival adhesive, (6) labeling with all mandatory fields (family, genus, species, author, collector, number, date, locality, habitat, habit, phenology), (7) deposition in a recognized herbarium (acronym registered in Index Herbariorum), and (8) digitization at 600 dpi with barcode. A poor answer omits poisoning, uses non-archival paper, or skips Index Herbariorum registration—making specimens unusable for formal taxonomy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Taxonomic aids are standardized tools and repositories—specifically herbaria (collections of pressed, dried, and ______ arranged plant specimens), botanical gardens (living collections of plants cultivated for reference and conservation), and museums (preserved animal and plant specimens in jars, as skeletons, or as stuffed models)—that provide the physical reference material essential for the identification, classification, and nomenclature of organisms.",
+     "a": "systematically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you find an unusual ______ shrub during a trek in the Western Ghats.",
+     "a": "flowering",
+     "self_check": true
+    },
+    {
+     "q": "What is Taxonomic aids? State the definition given in this lesson.",
+     "a": "Taxonomic aids are standardized tools and repositories—specifically herbaria (collections of pressed, dried, and systematically arranged plant specimens), botanical gardens (living collections of plants cultivated for reference and conservation), and museums (preserved animal and plant specimens in jars, as skeletons, or as stuffed.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Taxonomic aids?",
+     "a": "Students often think a botanical garden is merely a public park for recreation and that any planted tree qualifies as a taxonomic accession.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) describe the step-by-step procedure for preparing a herbarium specimen including pressing, drying, poisoning, mounting, and labeling, (2) explain how botanical gardens and museums serve as distinct taxonomic aids with specific functions, and (3) differentiate the role of each aid in the taxonomic workflow from field.",
+     "self_check": true
     }
    ]
   }

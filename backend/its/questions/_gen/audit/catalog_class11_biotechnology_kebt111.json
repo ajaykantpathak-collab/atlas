@@ -1,0 +1,62 @@
+{
+ "catalog": "catalog_class11_biotechnology_kebt111.json",
+ "concepts": [
+  {
+   "id": "kebt111.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "cell_model_year = 84",
+      "axon_model_year = 7",
+      "model_span = cell_model_year - axon_model_year"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "cell_model_year = 61",
+      "axon_model_year = 2.5",
+      "model_span = cell_model_year - axon_model_year"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "cell_model_year = 45",
+      "axon_model_year = 15.4",
+      "model_span = cell_model_year - axon_model_year"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "cell_model_year = 93",
+      "axon_model_year = 11.5",
+      "model_span = cell_model_year - axon_model_year"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "cell_model_year = 8.5",
+      "axon_model_year = 11.9",
+      "model_span = cell_model_year - axon_model_year"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "cell_model_year = 26",
+      "axon_model_year = 17.6",
+      "model_span = cell_model_year - axon_model_year"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "model_span = cell_model_year - axon_model_year"
+   ]
+  }
+ ]
+}

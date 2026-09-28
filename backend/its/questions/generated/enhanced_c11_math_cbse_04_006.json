@@ -34,6 +34,31 @@
      "q": "Construct an inequality of the form aⁿ > p(n) where a > 1 is a constant and p(n) is a polynomial, such that the induction proof requires a base case of n ≥ 10. Provide the inequality and explain why n=10 is the minimal base case.",
      "a": "Example: 1.5ⁿ > n³ for n ≥ 10.\nCheck: 1.5⁹ ≈ 38.4, 9³ = 729 (false). 1.5¹⁰ ≈ 57.7, 10³ = 1000 (false - wait, need better example).\nBetter: 2ⁿ > n³ for n ≥ 10.\n2⁹ = 512, 9³ = 729 (512 < 729). 2¹⁰ = 1024, 10³ = 1000 (1024 > 1000).\nInductive step: Assume 2ᵏ > k³ for k ≥ 10. Then 2ᵏ⁺¹ = 2·2ᵏ > 2k³. Need 2k³ ≥ (k+1)³ = k³ + 3k² + 3k + 1 ⇔ k³ - 3k² - 3k - 1 ≥ 0. For k=10: 1000 - 300 - 30 - 1 = 669 > 0. Derivative 3k² - 6k - 3 > 0 for k ≥ 10, so holds for all k ≥ 10.\nA poor answer would give an inequality where base case works but inductive step fails, or not verify the algebraic condition for the inductive step.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Proving inequalities by mathematical induction involves establishing that an inequality statement P(n) holds for all natural numbers n ≥ n₀ by: (1) verifying the base case P(n₀) is true, (2) assuming P(k) is true for some arbitrary k ≥ n₀ (inductive hypothesis), and (3) proving P(k+1) follows from P(k) using valid inequality ______ (adding/multiplying by positive quantities, transitivity, etc.).",
+     "a": "manipulations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're comparing two investment schemes: Scheme A doubles your money every year (2ⁿ), while Scheme B grows as the ______ of years (n²).",
+     "a": "square",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The inductive step often requires strategic algebraic manipulation to connect the k-case to the (k+______)-case.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently structure a complete induction proof for inequalities including: identifying the correct base case (which may not be n=1), writing a precise inductive hypothesis, manipulating algebraic expressions to bridge P(k) to P(k+1) using valid inequality operations, and stating the conclusion with proper mathematical.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're comparing two ______ schemes: Scheme A doubles your money every year (2ⁿ), while Scheme B grows as the square of years (n²).",
+     "a": "investment",
+     "self_check": true
     }
    ]
   }

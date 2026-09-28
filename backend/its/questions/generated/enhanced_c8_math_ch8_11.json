@@ -34,6 +34,36 @@
      "q": "Create a real-life word problem where a customer buys two different items with different marked prices and different discount percentages, but the discount amount (in rupees) is the same for both items. Provide the marked prices, discount percentages, and show the discount amount is equal.",
      "a": "Example: Item 1: Marked Price = ₹1,000, Discount = 20% → Discount Amount = ₹200. Item 2: Marked Price = ₹500, Discount = 40% → Discount Amount = ₹200. A poor answer would use the same marked price or same discount percentage, showing the student doesn't understand the inverse relationship between marked price and discount percentage for a fixed discount amount.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Discount is a reduction offered on the marked price (list price) of an item, expressed as a ______ of the marked price.",
+     "a": "percentage",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you go to a ______ during a \"Back to School\" sale.",
+     "a": "bookstore",
+     "self_check": true
+    },
+    {
+     "q": "What is Discount? State the definition given in this lesson.",
+     "a": "Discount is a reduction offered on the marked price (list price) of an item, expressed as a percentage of the marked price.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The discount amount is calculated as (Discount Percentage × Marked Price) ÷ ______, and the selling price equals Marked Price minus Discount Amount.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Discount?",
+     "a": "Students calculate discount percentage on the selling price instead of the marked price.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can calculate any one of marked price, selling price, discount amount, or discount percentage when given the other three, and can solve multi-step problems comparing two discount offers on the same item.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,16 @@
      "q": "Design a thought experiment to measure the variation of \\(g\\) with depth using a simple pendulum. What would you measure, and how would you isolate the effect of depth from other factors like temperature or air buoyancy?",
      "a": "Take a seconds pendulum (period \\(T = 2\\) s at surface) down a vertical mine shaft. At each depth \\(d\\), measure the period \\(T(d)\\) using a precise stopwatch or electronic timer. Since \\(T = 2\\pi\\sqrt{L/g}\\), we get \\(g(d) = 4\\pi^2 L / T(d)^2\\). To isolate depth effects: (1) Use a vacuum chamber to eliminate air buoyancy and damping; (2) Use a low-expansion material (e.g., invar) for the rod to minimize temperature-induced length changes; (3) Control temperature or correct for thermal expansion. Plot \\(g(d)\\) vs. \\(d\\) and verify linearity. A poor answer (e.g., \"just measure time\" without addressing confounding factors) shows lack of experimental design awareness.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing at the bottom of a deep mine shaft, say the Kolar Gold Fields in ______, which go down several kilometres.",
+     "a": "Karnataka",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing at the bottom of a deep mine shaft, say the Kolar Gold Fields in Karnataka, which go down several ______.",
+     "a": "kilometres",
+     "self_check": true
     }
    ]
   }

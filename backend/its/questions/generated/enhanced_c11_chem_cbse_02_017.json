@@ -31,8 +31,33 @@
      "self_check": true
     },
     {
-     "q": "Design a simple experiment using a strong magnet and aqueous solutions of FeSO₄, CuSO₄, and ZnSO₄ to demonstrate the concept of unpaired electrons predicted by Hund's rule. Explain your observations and link them to the d-electron configurations of Fe²⁺, Cu²⁺, and Zn²⁺.",
-     "a": "Expected answer: FeSO₄ (Fe²⁺: [Ar]3d⁶ → 4 unpaired electrons) and CuSO₄ (Cu²⁺: [Ar]3d⁹ → 1 unpaired electron) show paramagnetic attraction to the magnet. ZnSO₄ (Zn²⁺: [Ar]3d¹⁰ → 0 unpaired electrons) shows no attraction (diamagnetic). The student must correctly apply Hund's rule to d⁶ (↑↓ ↑ ↑ ↑ ↑), d⁹ (↑↓ ↑↓ ↑↓ ↑↓ ↑), and d¹⁰ (↑↓ ×5) to predict unpaired counts. A poor answer confuses the configurations (e.g., thinks Zn²⁺ has unpaired electrons) or doesn't link magnetism to unpaired spins from Hund's rule.",
+     "q": "Give the correct order of steps for the magnet experiment that reveals unpaired d-electrons in three salt solutions.",
+     "a": "The procedure runs: (1) Fill identical tubes with FeSO4, CuSO4 and ZnSO4 solutions (2) Hang each from a strong magnet in turn and note attraction or not (3) Explain Fe2+ with d6 as four unpaired and Cu2+ with d9 as one unpaired (4) Confirm Zn2+ with d10 has no unpaired electrons and shows no pull. A wrong answer that expects zinc to be magnetic shows the student has misapplied Hund's rule, which fills d orbitals singly first and pairs only after each orbital has one electron.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Hund's Rule of Maximum ______ states that when electrons occupy degenerate orbitals (orbitals of equal energy within the same subshell), they occupy separate orbitals singly with parallel spins before any pairing occurs.",
+     "a": "Multiplicity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a magnetic stirrer in the chemistry lab: the stir bar (iron) is strongly ______ to the rotating magnet beneath the beaker, while a ceramic stir bar is not.",
+     "a": "attracted",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How do four electrons arrange in three degenerate ______p orbitals?",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Draw correct orbital diagrams for any p, d, or f subshell applying Hund's rule, showing parallel spins for unpaired electrons; (2) Predict the number of unpaired electrons in atoms/ions and determine magnetic behavior (paramagnetic/diamagnetic); (3) Explain the extra stability of half-filled and fully-filled subshells.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a magnetic stirrer in the ______ lab: the stir bar (iron) is strongly attracted to the rotating magnet beneath the beaker, while a ceramic stir bar is not.",
+     "a": "chemistry",
      "self_check": true
     }
    ]

@@ -34,6 +34,21 @@
      "q": "Imagine you have a torch (Sun), a small ball (Moon), and a globe (Earth). How would you arrange them to show a lunar eclipse?",
      "a": "The order must be Torch -> Globe -> Ball. The student must demonstrate that the Earth (globe) is in the middle, intercepting the light from the torch. A poor answer would place the ball in the middle, which would represent a solar eclipse.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An eclipse is an ______ event where one celestial body passes into the shadow of another, or blocks the light reaching an observer from another, due to their alignment in space.",
+     "a": "astronomical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever noticed your own shadow on the ground when ______ in front of a bright bulb?",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify the correct alignment of the Sun, Earth, and Moon for both solar and lunar eclipses and explain why light is blocked in each case.",
+     "self_check": true
     }
    ]
   }

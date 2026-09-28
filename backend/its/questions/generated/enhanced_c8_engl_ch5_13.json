@@ -34,6 +34,31 @@
      "q": "Create a 2-sentence \"elevator pitch\" for the bird poem that combines its summary and central idea, as if recommending it to a Class 7 student.",
      "a": "Strong answer: \"A canary named Claribel learns to fly in zero gravity on a space station, her cheerful song becoming a lifeline of home for lonely astronauts — showing that companionship transcends gravity and technology.\" Weak answers will either omit the space setting, the mutual need, or the song's significance. This tests if the student can *synthesize* (Bloom's Create) the two distinct skills (summary + central idea) into one coherent articulation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A poem's summary is a concise ______ of its content, capturing the sequence of images, events, or thoughts across stanzas, while the central idea is the underlying message or universal truth the poet conveys through those details.",
+     "a": "restatement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are telling a friend about a beautiful song you heard on the radio, but you only have 30 seconds before the signal fades — you would share the tune's journey (verse, chorus, bridge) and the feeling it left you with.",
+     "a": "Imagine",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In the margin, write one phrase per stanza capturing the literal action (e.g., \"Stanza ______: Bird floats, disoriented\").",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write a structured, stanza-aware summary of the bird poem (4-5 sentences) and state the central idea in one clear sentence, supporting both with specific textual evidence (e.g., \"In stanza 2, the description of... shows...\").",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are telling a friend about a ______ song you heard on the radio, but you only have 30 seconds before the signal fades — you would share the tune's journey (verse, chorus, bridge) and the feeling it left you with.",
+     "a": "beautiful",
+     "self_check": true
     }
    ]
   }

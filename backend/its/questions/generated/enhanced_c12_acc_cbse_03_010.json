@@ -34,6 +34,26 @@
      "q": "Create a new retirement scenario (different from textbook examples) where: (i) Goodwill is NOT in books, (ii) Revaluation shows a LOSS, (iii) General Reserve exists, (iv) Continuing partners bring in cash to adjust their capitals to the new profit sharing ratio, and (v) Retiring partner is paid 50% immediately and balance transferred to Loan Account. Write the **complete sequence of journal entries** (no narration needed, just debit/credit accounts with amounts as variables).",
      "a": "**Scenario:** X, Y, Z share 3:2:1. Y retires. New ratio X:Z = 2:1. Goodwill valued ₹90,000 (not in books). Revaluation Loss ₹30,000. General Reserve ₹60,000. Capitals after all adjustments: X ₹1,20,000, Z ₹80,000. New total capital desired ₹3,00,000 in 2:1 ratio → X ₹2,00,000, Z ₹1,00,000. Deficit: X ₹80,000, Z ₹20,000 brought in cash. Y's final capital ₹1,50,000 — 50% paid (₹75,000), balance ₹75,000 to Loan.\n**Entries:**\n1. `X's Capital Dr. 45,000; Z's Capital Dr. 15,000; To Y's Capital 60,000` (Goodwill adjustment in gaining ratio 3:1)\n2. `X's Capital Dr. 15,000; Y's Capital Dr. 10,000; Z's Capital Dr. 5,000; To Revaluation 30,000` (Revaluation loss in old ratio 3:2:1)\n3. `General Reserve Dr. 60,000; To X's Capital 30,000; Y's Capital 20,000; Z's Capital 10,000` (Reserve in old ratio)\n4. `Bank Dr. 1,00,000; To X's Capital 80,000; Z's Capital 20,000` (Cash brought for capital adjustment)\n5. `Y's Capital Dr. 75,000; To Bank 75,000` (50% paid)\n6. `Y's Capital Dr. 75,000; To Y's Executor's Loan 75,000` (Balance to Loan)\nA poor answer (missing entries, wrong ratios, wrong sequence) reveals the student cannot **integrate multiple adjustments into a coherent flow** — they treat each adjustment in isolation. Board \"comprehensive problem\" (8-10 marks) tests exactly this integration skill.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Journal entries for retirement and death of a partner are the systematic accounting records passed in the books of a partnership firm to give effect to the ______ of the firm when a partner retires or dies, including adjustments for goodwill, revaluation of assets and liabilities, accumulated profits/reserves, settlement of the outgoing partner's capital account, and adjustment of continuing partners' capitals.",
+     "a": "reconstitution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family runs a ______ firm and your uncle (a partner) decides to retire.",
+     "a": "partnership",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by listing every adjustment needed: (______) Goodwill — is it in books?",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently pass all journal entries for retirement and death of a partner scenarios (including goodwill treatment, revaluation, reserve distribution, capital account settlement, and JLP adjustments) and prepare the ledger accounts (Realisation/Revaluation, Partners' Capital, Bank) to close the books.",
+     "self_check": true
     }
    ]
   }

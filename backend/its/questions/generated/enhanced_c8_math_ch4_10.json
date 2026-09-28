@@ -34,6 +34,26 @@
      "q": "Create a real-life problem (using metres or rupees) where the diagonal bisection property of a parallelogram is used to find an unknown length. Write the problem and solve it.",
      "a": "Example: A parallelogram-shaped plot has diagonals crossing at a well. One diagonal is 40 m long. The distance from the well to one corner along the other diagonal is 15 m. Find the full length of the second diagonal. Solution: The well is the midpoint, so half of second diagonal = 15 m → full length = 30 m. A poor answer (problem doesn't use bisection or uses wrong property) shows inability to transfer the concept to a contextual situation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In a ______, the two diagonals intersect at a point that divides each diagonal into two equal segments.",
+     "a": "parallelogram",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a rectangular garden bed with a ______-path from corner to corner.",
+     "a": "cross",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can prove that the diagonals of a parallelogram bisect each other using triangle congruence (ASA or SAS), and can apply this property to find unknown segment lengths in geometric problems involving parallelograms.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ garden bed with a cross-path from corner to corner.",
+     "a": "rectangular",
+     "self_check": true
     }
    ]
   }

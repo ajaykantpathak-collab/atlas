@@ -34,6 +34,31 @@
      "q": "Create a problem where you have to calculate the \"leftover\" area of a garden after placing a swimming pool inside it. What information would you need?",
      "a": "To solve this, I need the dimensions of the garden and the dimensions of the pool. A good answer includes a plan to subtract the pool's area from the total garden area; a poor answer ignores the need for both sets of dimensions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Area is the total measure of the flat surface or region enclosed inside the boundary of a closed ______ figure.",
+     "a": "geometric",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are asked to cover your study desk with paper ______.",
+     "a": "sheets",
+     "self_check": true
+    },
+    {
+     "q": "What is Area? State the definition given in this lesson.",
+     "a": "Area is the total measure of the flat surface or region enclosed inside the boundary of a closed geometric figure.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Area?",
+     "a": "Students often confuse the formula for perimeter (2 × (l + w)) with the formula for area (l × w).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the area of rectangles and squares using dimensions and can distinguish between the concepts of \"boundary length\" (perimeter) and \"inner space\" (area).",
+     "self_check": true
     }
    ]
   }

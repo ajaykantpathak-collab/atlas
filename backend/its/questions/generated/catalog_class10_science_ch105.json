@@ -2,6 +2,106 @@
  "catalog": "catalog_class10_science_ch105.json",
  "concepts": [
   {
+   "id": "jesc.5.5.1",
+   "title": "Energy Yield from ATP Hydrolysis",
+   "converted_to_compute": true,
+   "formula": "energy = moles * 30.5",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "energy = moles * 30.5",
+     "compute": "energy = moles * 30.5"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Energy Yield from ATP Hydrolysis: given moles = 10.3, find energy.",
+     "a": "314.15",
+     "self_check": false
+    },
+    {
+     "q": "For Energy Yield from ATP Hydrolysis: given moles = 9.2, find energy.",
+     "a": "280.6",
+     "self_check": false
+    },
+    {
+     "q": "For Energy Yield from ATP Hydrolysis: given moles = 11.4, find energy.",
+     "a": "347.7",
+     "self_check": false
+    },
+    {
+     "q": "For Energy Yield from ATP Hydrolysis: given moles = 10.8, find energy.",
+     "a": "329.4",
+     "self_check": false
+    },
+    {
+     "q": "For Energy Yield from ATP Hydrolysis: given moles = 0.4, find energy.",
+     "a": "12.2",
+     "self_check": false
+    },
+    {
+     "q": "For Energy Yield from ATP Hydrolysis: given moles = 1.1, find energy.",
+     "a": "33.55",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.5.9.1",
+   "title": "Kidney Filtration and Reabsorption Volume",
+   "converted_to_compute": true,
+   "formula": "reabsorbed_volume = initial_filtrate - excreted_volume",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "reabsorbed_volume = initial_filtrate - excreted_volume",
+     "compute": "reabsorbed_volume = initial_filtrate - excreted_volume"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "jesc.5.9.1",
+     "question_pattern": "If the initial filtrate is {initial_filtrate} and the excreted urine is {excreted_volume}, find the reabsorbed volume"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Kidney Filtration and Reabsorption Volume: given initial_filtrate = 23, excreted_volume = 47, find reabsorbed volume.",
+     "a": "-24",
+     "self_check": false
+    },
+    {
+     "q": "If the initial filtrate is 23 and the excreted urine is 47, find the reabsorbed volume?",
+     "a": "-24",
+     "self_check": false
+    },
+    {
+     "q": "For Kidney Filtration and Reabsorption Volume: given initial_filtrate = 15.7, excreted_volume = 7.2, find reabsorbed volume.",
+     "a": "8.5",
+     "self_check": false
+    },
+    {
+     "q": "If the initial filtrate is 15.7 and the excreted urine is 7.2, find the reabsorbed volume?",
+     "a": "8.5",
+     "self_check": false
+    },
+    {
+     "q": "For Kidney Filtration and Reabsorption Volume: given initial_filtrate = 85, excreted_volume = 68, find reabsorbed volume.",
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "If the initial filtrate is 85 and the excreted urine is 68, find the reabsorbed volume?",
+     "a": "17",
+     "self_check": false
+    }
+   ]
+  },
+  {
    "id": "jesc.5.1",
    "title": "Life Processes and Diffusion Limitations",
    "solution_type": "verify_property",
@@ -112,83 +212,6 @@
    ]
   },
   {
-   "id": "jesc.5.5.1",
-   "title": "Energy Yield from ATP Hydrolysis",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "energy_kj",
-     "expr": "moles * 30.5",
-     "explain": "1 mol of ATP on hydrolysis releases about 30.5 kJ"
-    },
-    {
-     "step": 2,
-     "name": "energy_j",
-     "expr": "energy_kj * 1000",
-     "explain": "convert kilojoules to joules"
-    },
-    {
-     "step": 3,
-     "name": "energy_kcal",
-     "expr": "energy_j / 4184",
-     "explain": "1 food calorie (kcal) equals 4184 J"
-    }
-   ],
-   "questions": [
-    {
-     "q": "Muscle work hydrolyses 2 mol of ATP. How much energy is released in kJ, in J, and in kcal?",
-     "vals": {
-      "moles": 2
-     },
-     "unit": "kcal",
-     "steps": null,
-     "a": "14.5793 kcal",
-     "self_check": false
-    },
-    {
-     "q": "An active cell uses 0.5 mol of ATP. Express the energy set free in kJ, J and kcal.",
-     "vals": {
-      "moles": 0.5
-     },
-     "unit": "kcal",
-     "steps": null,
-     "a": "3.64484 kcal",
-     "self_check": false
-    },
-    {
-     "q": "During a race the leg muscles spend 4 mol of ATP. Give the energy in kJ, J and kcal.",
-     "vals": {
-      "moles": 4
-     },
-     "unit": "kcal",
-     "steps": null,
-     "a": "29.1587 kcal",
-     "self_check": false
-    },
-    {
-     "q": "A bird's flight consumes 1.5 mol of ATP. Convert the released energy into kJ, J and kcal.",
-     "vals": {
-      "moles": 1.5
-     },
-     "unit": "kcal",
-     "steps": null,
-     "a": "10.9345 kcal",
-     "self_check": false
-    },
-    {
-     "q": "A seedling spends 3 mol of ATP for growth in a day. Report the energy as kJ, J and kcal.",
-     "vals": {
-      "moles": 3
-     },
-     "unit": "kcal",
-     "steps": null,
-     "a": "21.869 kcal",
-     "self_check": false
-    }
-   ]
-  },
-  {
    "id": "jesc.5.6",
    "title": "Human Respiratory System and Gas Exchange",
    "solution_type": "verify_property",
@@ -273,88 +296,6 @@
      "q": "Why do we pass only 1-2 L of urine a day though 180 L is filtered?",
      "a": "Nearly 99% of the filtrate is reabsorbed; only the concentrated wastes leave as urine.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "jesc.5.9.1",
-   "title": "Kidney Filtration and Reabsorption Volume",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "filtrate_per_hour",
-     "expr": "initial_filtrate / 24",
-     "explain": "the kidneys filter about 180 L of blood daily, so divide by 24"
-    },
-    {
-     "step": 2,
-     "name": "reabsorbed_volume",
-     "expr": "initial_filtrate - excreted_volume",
-     "explain": "almost all the filtrate is reabsorbed; only urine is excreted"
-    },
-    {
-     "step": 3,
-     "name": "reabsorbed_percent",
-     "expr": "(reabsorbed_volume / initial_filtrate) * 100",
-     "explain": "express reabsorption as a percentage"
-    }
-   ],
-   "questions": [
-    {
-     "q": "The kidneys form 180 L of filtrate per day and excrete 1.4 L of urine. How much is reabsorbed, and what per cent of the filtrate is that?",
-     "vals": {
-      "initial_filtrate": 180,
-      "excreted_volume": 1.4
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "99.2222 %",
-     "self_check": false
-    },
-    {
-     "q": "A patient's kidneys filter 180 L daily and pass 1.5 L of urine. Find the reabsorbed volume and its percentage.",
-     "vals": {
-      "initial_filtrate": 180,
-      "excreted_volume": 1.5
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "99.1667 %",
-     "self_check": false
-    },
-    {
-     "q": "If 180 L of filtrate leads to only 1.2 L of urine, how many litres are reabsorbed and what per cent is reabsorbed?",
-     "vals": {
-      "initial_filtrate": 180,
-      "excreted_volume": 1.2
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "99.3333 %",
-     "self_check": false
-    },
-    {
-     "q": "Daily filtrate is 180 L and urine output is exactly 1 L. Compute reabsorption in litres and in per cent.",
-     "vals": {
-      "initial_filtrate": 180,
-      "excreted_volume": 1.0
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "99.4444 %",
-     "self_check": false
-    },
-    {
-     "q": "With 180 L filtrate and 2 L urine in a day, what volume is reabsorbed and what per cent does that represent?",
-     "vals": {
-      "initial_filtrate": 180,
-      "excreted_volume": 2.0
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "98.8889 %",
-     "self_check": false
     }
    ]
   },

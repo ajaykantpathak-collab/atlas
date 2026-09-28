@@ -34,6 +34,36 @@
      "q": "Design a guided‑media selection guide (flowchart or decision table) for a network installer choosing between UTP, Coaxial, and Fiber for a new installation. Include at least four decision criteria.",
      "a": "A good guide uses criteria: (1) Required distance (≤100 m → UTP; ≤500 m → MMF; >500 m → SMF); (2) Bandwidth need (≤10 Gbps short → UTP; >10 Gbps or future‑proof → Fiber); (3) EMI environment (high EMI → Fiber or STP); (4) Budget/installer skill (low budget/existing coax plant → Coax/RG‑6; fiber needs fusion splicer). A poor guide omits distance limits or treats fiber as always superior regardless of cost/termination complexity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Guided ______ media are physical cables that provide a conduit for electromagnetic signals to travel from sender to receiver; the three main types are Twisted Pair (copper wires twisted in pairs to cancel electromagnetic interference), Coaxial Cable (a central copper conductor surrounded by insulation, a braided metal shield, and an outer jacket), and Optical Fiber (a glass or plastic core that guides light pulses via total internal reflection, offering the highest bandwidth and immunity to electrical noise).",
+     "a": "transmission",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are setting up a gaming LAN party in a hostel: you have a 100 m run from the ______ to your room.",
+     "a": "switch",
+     "self_check": true
+    },
+    {
+     "q": "What is Guided transmission media? State the definition given in this lesson.",
+     "a": "Guided transmission media are physical cables that provide a conduit for electromagnetic signals to travel from sender to receiver; the three main types are Twisted Pair (copper wires twisted in pairs to cancel electromagnetic interference), Coaxial Cable (a central copper conductor surrounded by insulation, a braided metal shield, and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are setting up a gaming LAN party in a hostel: you have a ______ m run from the switch to your room.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Guided transmission media?",
+     "a": "Students often believe \"Fiber is always faster than copper\" and therefore select fiber for a 20 m desktop connection in a board exam case study.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) label a cross‑section diagram of each medium identifying core, cladding, shield, insulation, and jacket; (2) compare the three media on bandwidth, attenuation, immunity to EMI, cost, and typical use‑cases (LAN backbone, last‑mile, data center); (3) explain why twisting reduces crosstalk and how total internal.",
+     "self_check": true
     }
    ]
   }

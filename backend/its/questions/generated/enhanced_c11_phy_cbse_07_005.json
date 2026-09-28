@@ -34,6 +34,16 @@
      "q": "Design a thought experiment to measure the variation of \\(g\\) with altitude using a simple pendulum and a stopwatch. Describe how you would isolate the effect of altitude from other factors (e.g., temperature, air buoyancy, Earth's rotation). What is the minimum height difference needed to detect a 0.1% change in \\(g\\) with a pendulum of length 1 m measured to 0.1 s precision over 20 oscillations?",
      "a": "Use \\(T = 2\\pi\\sqrt{L/g}\\) → \\(g = 4\\pi^2 L / T^2\\). Measure period at two altitudes. To isolate altitude: use same pendulum, same location (latitude), same temperature, vacuum chamber to remove buoyancy, and correct for Earth's rotation (small at mid-latitudes). For 0.1% change in \\(g\\), \\(\\Delta g/g = 0.001\\). From \\(g_h \\approx g(1 - 2h/R_E)\\), \\(\\Delta g/g \\approx 2\\Delta h/R_E\\). So \\(\\Delta h = 0.001 \\times R_E / 2 = 0.001 \\times 6.37 \\times 10^6 / 2 \\approx 3.2 \\text{ km}\\). A poor answer (e.g., \"measure at sea level and mountain top\" without controlling variables) reveals lack of experimental design skills and misunderstanding of error sources.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ on the terrace of a tall building like the Qutub Minar (73 m) and then on the roof of the Burj Khalifa (828 m).",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Use a spring balance to measure the weight of a ______ kg mass at ground level and at the top of a tall building — the reading decreases slightly.",
+     "a": "1",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a modern classroom experiment that mimics Mendel's choice-of-organism reasoning. Choose a readily available organism (plant or animal), list the criteria you would use to evaluate its suitability, and create a decision table scoring it against each criterion. Explain which organism you would select and why.",
      "a": "Expected answer: The student should propose an organism (e.g., *Arabidopsis thaliana*, fruit fly *Drosophila melanogaster*, or fast-cycling brassica), define 4–5 criteria (generation time, ease of culture, distinct heritable traits, fecundity, ability to control mating), score each criterion (e.g., 1–5 scale), and justify the final choice. A strong answer will explicitly link each criterion to a limitation in Mendel's pea system (e.g., *Arabidopsis* has a 6-week generation time vs. pea's 1 year; *Drosophila* allows easy crosses but requires handling tiny flies). A poor answer picks an organism without a decision table, uses vague criteria (\"cool to watch\"), or fails to connect the criteria to the *logic* of isolating single-trait inheritance — indicating they treat the topic as trivia rather than experimental design reasoning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mendel selected garden pea (*Pisum sativum*) as his model organism because it is an annual plant with perfect bisexual flowers, naturally self-pollinating, and exhibits several distinct, easily observable contrasting traits; his method involved developing pure lines through repeated selfing, performing controlled artificial cross-pollination, and ______ analyzing large progeny populations over multiple generations to deduce inheritance patterns.",
+     "a": "quantitatively",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a plant breeder in 1850 trying to discover the rules of ______ — you cannot see genes, DNA, or chromosomes.",
+     "a": "inheritance",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can list at least four specific biological features of *Pisum sativum* that made it suitable for Mendel's experiments and explain how each feature contributed to the reliability of his data, and can describe the three key methodological steps (pure line development, controlled crosses, statistical analysis) with the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a plant breeder in ______ trying to discover the rules of inheritance — you cannot see genes, DNA, or chromosomes.",
+     "a": "1850",
+     "self_check": true
     }
    ]
   }

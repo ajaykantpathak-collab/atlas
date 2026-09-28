@@ -34,6 +34,31 @@
      "q": "Create a decision-flowchart (text-based) that a parent could use to select clothing for any child aged 0–18 in India. The flowchart must have at least 6 decision nodes, each labelled with the factor (Age/Climate/Occasion) it addresses, and lead to a specific garment recommendation.",
      "a": "START → Node1 (Age ≤ 1 yr? → Infant: front-open cotton/wool-cotton undershirt + soft diaper) → Node2 (Climate = Cold? → Add knitted cap, booties, light blanket) → Node3 (Occasion = Ceremony? → Substitute soft silk-cotton blend ceremonial set, retain front opening) → Node4 (Age 1–5 yr? → Preschool: cotton knit romper/pullover, raglan sleeves, elastic waist) → Node5 (Climate = Monsoon? → Quick-dry polyester blend rain jacket, gumboots) → Node6 (Occasion = School? → Uniform per code; add labelled inner vest for hygiene) → END. A flowchart missing climate branching or using age bands not in NCERT (e.g., \"teenager\" without 11–18 split) shows inability to operationalise the three factors into a usable tool.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Factors affecting clothing selection refer to the interrelated variables—primarily age, climate/season, and occasion—that determine the ______ of fabric, garment style, colour, and accessories for an individual, ensuring comfort, safety, social conformity, and functional suitability.",
+     "a": "appropriateness",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ for your 10-year-old cousin visiting Delhi in December for a wedding.",
+     "a": "packing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are packing for your ______-year-old cousin visiting Delhi in December for a wedding.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to evaluate a given real-life scenario (specifying age, geographic location, season, and event type) and justify the selection of fabric, garment design, colour, and accessories by explicitly linking each choice to the relevant factor (age, climate, occasion) with correct terminology from the NCERT framework.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are packing for your 10-year-old cousin ______ Delhi in December for a wedding.",
+     "a": "visiting",
+     "self_check": true
     }
    ]
   }

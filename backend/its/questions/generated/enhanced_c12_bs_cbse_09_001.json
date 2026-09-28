@@ -34,6 +34,36 @@
      "q": "Create a realistic mini-case (3-4 sentences) involving a manufacturing company where the CFO must make a decision that simultaneously involves investment, financing, and dividend choices. Identify each decision and state the wealth maximization criterion for each.",
      "a": "Example case: \"AutoParts Ltd. has ₹50 crore cash surplus. The CFO considers: (i) buying a robotic assembly line for ₹40 crore (investment), (ii) funding it partly by a ₹20 crore bank loan at 9% and partly from surplus (financing), (iii) reducing dividend from ₹5 to ₹2 per share to retain funds (dividend).\" \nWealth maximization criteria: \n- Investment: Accept if project IRR > WACC. \n- Financing: Choose mix that minimizes WACC without excessive financial risk (DSCR > 2). \n- Dividend: Cut dividend only if retained earnings earn > cost of equity (ROE > Ke). \nA poor answer lists decisions without linking to wealth maximization. A good answer shows the interdependence: the financing mix affects WACC which affects investment viability; dividend cut frees cash for investment but may signal negative prospects to market.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Financial Management is the process of planning, organizing, directing, and controlling the procurement and utilization of funds to maximize ______' wealth through optimal investment, financing, and dividend decisions.",
+     "a": "shareholders",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the CFO of a startup that just raised ₹50 lakh from ______.",
+     "a": "investors",
+     "self_check": true
+    },
+    {
+     "q": "What is Financial Management? State the definition given in this lesson.",
+     "a": "Financial Management is the process of planning, organizing, directing, and controlling the procurement and utilization of funds to maximize shareholders' wealth through optimal investment, financing, and dividend decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the CFO of a startup that just raised ₹______ lakh from investors.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Financial Management?",
+     "a": "Students believe \"wealth maximization = profit maximization\" and use them interchangeably.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish business finance from financial management using a real-world scenario, (2) explain why wealth maximization is superior to profit maximization as the primary objective, and (3) identify whether a given business situation represents an investment, financing, or dividend decision and justify the.",
+     "self_check": true
     }
    ]
   }

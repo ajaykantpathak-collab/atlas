@@ -1,6 +1,53 @@
 {
- "catalog": "catalog_class11_economics_ch109",
+ "catalog": "catalog_class11_economics_ch109.json",
  "concepts": [
+  {
+   "id": "keks.109.8",
+   "title": "Panchakosha (Five Sheaths of Existence)",
+   "converted_to_compute": true,
+   "formula": "Existence = Annamaya + Pranamaya + Manomaya + Vijnanamaya + Anandamaya",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "Existence = Annamaya + Pranamaya + Manomaya + Vijnanamaya + Anandamaya",
+     "compute": "Existence = Annamaya + Pranamaya + Manomaya + Vijnanamaya + Anandamaya"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Panchakosha (Five Sheaths of Existence): given Annamaya = 90, Pranamaya = 28, Manomaya = 94, Vijnanamaya = 17.5, Anandamaya = 9, find Existence.",
+     "a": "238.5",
+     "self_check": false
+    },
+    {
+     "q": "For Panchakosha (Five Sheaths of Existence): given Annamaya = 57, Pranamaya = 62, Manomaya = 95, Vijnanamaya = 65, Anandamaya = 44, find Existence.",
+     "a": "323",
+     "self_check": false
+    },
+    {
+     "q": "For Panchakosha (Five Sheaths of Existence): given Annamaya = 85, Pranamaya = 6.4, Manomaya = 100, Vijnanamaya = 75, Anandamaya = 76, find Existence.",
+     "a": "342.4",
+     "self_check": false
+    },
+    {
+     "q": "For Panchakosha (Five Sheaths of Existence): given Annamaya = 41, Pranamaya = 37, Manomaya = 93, Vijnanamaya = 85, Anandamaya = 91, find Existence.",
+     "a": "347",
+     "self_check": false
+    },
+    {
+     "q": "For Panchakosha (Five Sheaths of Existence): given Annamaya = 14.2, Pranamaya = 58, Manomaya = 66, Vijnanamaya = 71, Anandamaya = 46, find Existence.",
+     "a": "255.2",
+     "self_check": false
+    },
+    {
+     "q": "For Panchakosha (Five Sheaths of Existence): given Annamaya = 30, Pranamaya = 85, Manomaya = 17.7, Vijnanamaya = 64, Anandamaya = 5.6, find Existence.",
+     "a": "202.3",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "keks.109.1",
    "title": "Etymology and Concept of Yoga",
@@ -144,27 +191,6 @@
     {
      "q": "Write the standard relation used for 'Navadha Bhakti (Ninefold Devotion)', in plain ASCII form.",
      "a": "Navadha Bhakti = 9 Devotional Practices",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keks.109.8",
-   "title": "Panchakosha (Five Sheaths of Existence)",
-   "questions": [
-    {
-     "q": "Explain in your own words what 'Panchakosha (Five Sheaths of Existence)' refers to.",
-     "a": "The Taittiriya Upanishad model describing human existence across five concentric sheaths from outer physical matter to inner bliss.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Panchakosha (Five Sheaths of Existence)'.",
-     "a": "Multi-layered framework connecting physical structure, energetic force, mental thoughts, higher wisdom, and pure bliss.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Panchakosha (Five Sheaths of Existence)', in plain ASCII form.",
-     "a": "Existence = Annamaya + Pranamaya + Manomaya + Vijnanamaya + Anandamaya",
      "self_check": true
     }
    ]

@@ -34,6 +34,36 @@
      "q": "Design a choropleth map legend (4 classes) to show the state-wise number of million-plus cities from Census 2011. Specify class intervals, colors, and justify why you chose those breaks.",
      "a": "Data range: 0 to 7 (Uttar Pradesh has 7). Classes: 0 (white), 1-2 (light yellow), 3-4 (orange), 5-7 (dark red). Breaks at 0, 1, 3, 5 reflect natural clustering: many states have 0 or 1, a few have 3-4 (Maharashtra, Tamil Nadu, Gujarat), only UP has 7. Colors follow sequential scheme for count data. A poor legend uses equal intervals (0-1, 2-3, 4-5, 6-7) which puts UP alone in top class and wastes colors on empty classes — showing lack of data-aware classification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Million-plus cities (or metropolitan cities) are urban ______ with a population of one million (10 lakh) or more as per the Census of India.",
+     "a": "agglomerations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking students to list all Indian cities they think have over 10 lakh people — most will name only Delhi, Mumbai, Kolkata, Chennai, ______, Hyderabad.",
+     "a": "Bengaluru",
+     "self_check": true
+    },
+    {
+     "q": "What is Million-plus cities (or metropolitan cities)? State the definition given in this lesson.",
+     "a": "Million-plus cities (or metropolitan cities) are urban agglomerations with a population of one million (10 lakh) or more as per the Census of India.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Million-plus cities (or metropolitan cities) are urban agglomerations with a population of one million (______ lakh) or more as per the Census of India.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Million-plus cities (or metropolitan cities)?",
+     "a": "Students think \"million-plus city\" means the municipal corporation area has ≥10 lakh people.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Identify all million-plus cities on an outline map of India and group them by state/region, (2) Calculate decadal growth rates using census data and interpret whether growth is due to migration or natural increase, (3) Explain the spatial pattern linking million-plus cities to river basins, mineral belts, transport.",
+     "self_check": true
     }
    ]
   }

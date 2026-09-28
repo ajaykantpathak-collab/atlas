@@ -34,6 +34,21 @@
      "q": "Design a simple classroom experiment (using a cathode-ray tube or a simulation) to demonstrate that the magnetic force on a moving charge is always perpendicular to its velocity. Describe the setup, what you would observe, and how it proves the perpendicular nature.",
      "a": "**Expected answer:**  \n**Setup:** Use a cathode-ray tube (CRT) with a fluorescent screen. Apply a uniform magnetic field perpendicular to the electron beam (e.g., using a pair of Helmholtz coils or a strong bar magnet placed suitably).  \n**Observation:** The electron beam (visible as a glowing spot/line on the screen) deflects into a **circular arc** on the screen. The deflection is in a plane perpendicular to the magnetic field. If the magnetic field is parallel to the beam, no deflection occurs (spot stays centered).  \n**Proof:** Circular motion requires a centripetal force **perpendicular to velocity** at every instant. Since the magnetic force provides this centripetal force (\\(F = qvB = mv^2/r\\)), it must be perpendicular to \\(\\vec{v}\\). The radius \\(r = mv/(qB)\\) is constant, confirming constant speed (no work done).  \n**Why a poor answer reveals misunderstanding:** If the student describes the beam speeding up or slowing down, they think magnetic force does work. If they say the beam deflects along the field lines, they confuse magnetic with electric force. If they cannot explain why the path is circular, they haven't connected force direction to centripetal acceleration.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The magnetic force does no work because it is always ______ to the velocity.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe an old cathode-ray tube (CRT) television or a laboratory cathode-ray tube demonstration: a beam of electrons travels in a straight line until a bar magnet is brought near it — the beam deflects ______ to both the magnet's field and the beam's velocity.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe an old cathode-ray tube (CRT) television or a laboratory cathode-ray tube ______: a beam of electrons travels in a straight line until a bar magnet is brought near it — the beam deflects perpendicular to both the magnet's field and the beam's velocity.",
+     "a": "demonstration",
+     "self_check": true
     }
    ]
   }

@@ -31,8 +31,28 @@
      "self_check": true
     },
     {
-     "q": "Design a simple homemade switch using everyday classroom materials (such as a wooden ice cream stick, two drawing pins, and a paper clip) and explain how its physical manipulation opens and closes a torchlight circuit.",
-     "a": "A good design places two drawing pins through a wooden stick spaced slightly apart, connected to wires in the circuit. A metal paper clip is pivoted under one pin so it can swing to touch or move away from the second pin. When the paper clip touches both pins, it bridges the gap (closed switch); when swung away, air separates them (open switch). A poor answer fails to explain how the physical movement makes and breaks contact between conducting parts.",
+     "q": "Give the correct order of assembly for a homemade paper-clip switch that opens and closes a torchlight circuit.",
+     "a": "Assembly proceeds: (1) Fix two drawing pins on a wooden stick a small gap apart (2) Pivot a metal paper clip under one pin so its free end can swing (3) Wire the two pins into the torchlight circuit gap (4) Swing the clip onto both pins to close and away to open. A wrong answer that lets the clip rest on only one pin shows the student does not understand that a switch works by making and breaking metal-to-metal contact between conducting parts of the circuit.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An electric switch is a simple mechanical or electronic device used to open or close an electric circuit safely, thereby ______ the flow of electric current without needing to disconnect wires manually.",
+     "a": "controlling",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you walk into your classroom and press the wall ______ to turn on the ceiling fan, you hear a click and the fan starts spinning.",
+     "a": "switch",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Students can identify whether a switch in a circuit diagram is open or closed, predict whether a bulb will glow, and explain how the movement of metal contacts makes or breaks the unbroken conducting loop.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you walk into your ______ and press the wall switch to turn on the ceiling fan, you hear a click and the fan starts spinning.",
+     "a": "classroom",
      "self_check": true
     }
    ]

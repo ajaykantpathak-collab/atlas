@@ -34,6 +34,31 @@
      "q": "Construct a hypothetical Union Budget receipt snapshot (5 line items with amounts) where revenue receipts = ₹20 lakh crore and capital receipts = ₹10 lakh crore. Ensure at least two tax revenue, one non-tax revenue, one debt capital, and one non-debt capital item. Label each item with its correct sub-category.",
      "a": "Example (amounts in ₹ crore):\n1. Corporation Tax (Tax Revenue): 6,00,000\n2. GST (Tax Revenue): 8,00,000\n3. Interest Receipts (Non-Tax Revenue): 50,000\n4. Market Borrowings (Debt Capital Receipt): 9,00,000\n5. Disinvestment Proceeds (Non-Debt Capital Receipt): 1,00,000\nTotal Revenue = 14,50,000? Wait, need 20 lakh. Adjust: Corporation Tax 7,00,000; GST 9,00,000; Interest 50,000; Dividends 50,000; Other Non-Tax 50,000 = 17,50,000? Let me recalculate properly.\nBetter: Corporation Tax 7,00,000; Income Tax 5,00,000; GST 6,00,000; Customs 1,50,000; Interest 30,000; Dividends 20,000 = Revenue 20,00,000. Capital: Market Borrowings 8,00,000; External Loans 50,000; Disinvestment 1,00,000; Recovery of Loans 50,000 = 10,00,000.\nA poor answer mixes categories (e.g., puts disinvestment under revenue) or omits sub-category labels, showing inability to apply the classification framework.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Revenue receipts are ______ inflows that neither create a liability nor reduce assets — they are recurring and non-redeemable, comprising tax revenue (direct and indirect taxes) and non-tax revenue (interest, dividends, fees).",
+     "a": "government",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ the Union Budget 2024-25 presented in Parliament.",
+     "a": "analysing",
+     "self_check": true
+    },
+    {
+     "q": "What is Revenue receipts? State the definition given in this lesson.",
+     "a": "Revenue receipts are government inflows that neither create a liability nor reduce assets — they are recurring and non-redeemable, comprising tax revenue (direct and indirect taxes) and non-tax revenue (interest, dividends, fees).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Revenue receipts?",
+     "a": "Students believe \"revenue receipts are recurring and capital receipts are non-recurring\" is the definition.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify any given government receipt into revenue or capital category with justification referencing the liability/asset criterion, compute revenue receipts and capital receipts totals from a budget document, and explain how the distinction impacts fiscal deficit measurement and fiscal policy analysis.",
+     "self_check": true
     }
    ]
   }

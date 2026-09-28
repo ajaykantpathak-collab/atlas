@@ -42,7 +42,16 @@
      "q": "One percent recombination defines what map unit: the centimorgan or the metre?",
      "a": "the centimorgan"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rec_pct = recombinants * 100 / offspring_total",
+     "compute": "rec_pct = recombinants * 100 / offspring_total"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebt105.2",
@@ -80,7 +89,16 @@
      "q": "Two cuts in a circular DNA yield how many fragments?",
      "a": "2"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "linear_frags = cuts + 1",
+     "compute": "linear_frags = cuts + 1"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebt105.3",
@@ -118,7 +136,16 @@
      "q": "A capillary run reports about how many bases: 800-1000 or 8?",
      "a": "800"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "machine_output = read_len * capillaries",
+     "compute": "machine_output = read_len * capillaries"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebt105.4",
@@ -156,7 +183,16 @@
      "q": "Which platform threads single strands through a protein pore: nanopore or Illumina?",
      "a": "nanopore"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "length_fold = nanopore_len / illumina_len",
+     "compute": "length_fold = nanopore_len / illumina_len"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebt105.5",

@@ -34,6 +34,36 @@
      "q": "Design a cloning strategy to insert a 1.8 kb PCR product (flanked by EcoRI and HindIII sites added via primers) into a 4.5 kb plasmid vector that has a multiple cloning site (MCS) with EcoRI and HindIII sites 50 bp apart. The vector has no other EcoRI or HindIII sites. The insert must be in a specific orientation for expression. Specify: (a) digest conditions for vector and insert, (b) how to prevent vector self-ligation, (c) how to verify orientation, (d) one potential pitfall if the insert contains an internal EcoRI site.",
      "a": "(a) Double digest vector and PCR product with EcoRI + HindIII in compatible buffer (e.g., CutSmart) at 37°C, 1 hr. Heat-inactivate (65°C, 20 min) or gel-purify. (b) Dephosphorylate vector with alkaline phosphatase (CIP/SAP) after digestion to remove 5' phosphates, preventing self-ligation. (c) Orientation check: colony PCR with one vector-specific primer (e.g., T7 forward) and one insert-specific primer (e.g., reverse primer in insert) — product size confirms orientation. Or restriction digest of miniprep with an enzyme that cuts asymmetrically in insert + vector. (d) If insert has internal EcoRI site, double digest will fragment the insert. Solution: use different flanking sites (e.g., BamHI + XhoI) or use a partial digest / directional TOPO cloning. A poor answer omits dephosphorylation, suggests blue-white screening alone for orientation (doesn't work for orientation), or fails to address internal site problem.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Restriction enzymes (restriction endonucleases) are bacterial enzymes that recognize specific short palindromic DNA sequences (recognition sites) and cleave the ______ backbone at or near these sites, producing either blunt ends or sticky (cohesive) ends with 5' or 3' overhangs.",
+     "a": "phosphodiester",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a plasmid vector and a human insulin gene — both are ______ DNA molecules.",
+     "a": "circular",
+     "self_check": true
+    },
+    {
+     "q": "What is Restriction enzymes (restriction endonucleases)? State the definition given in this lesson.",
+     "a": "Restriction enzymes (restriction endonucleases) are bacterial enzymes that recognize specific short palindromic DNA sequences (recognition sites) and cleave the phosphodiester backbone at or near these sites, producing either blunt ends or sticky (cohesive) ends with 5' or 3' overhangs.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This is exactly what restriction enzymes do: they act as molecular scissors that recognize specific DNA \"zip codes.\" Start by memorizing the nomenclature (first letter of genus, first two letters of species, strain, order of discovery — e.g., EcoRI from *E. coli* RY______, first enzyme).",
+     "a": "13",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Restriction enzymes (restriction endonucleases)?",
+     "a": "Students believe that \"sticky ends from different enzymes can ligate if they are both 5' overhangs.\" For example, they think EcoRI (5'-AATT-3' overhang) and MfeI (5'-AATT-3' overhang) produce compatible ends because both are 5' overhangs of 4 bases.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) classify a given restriction enzyme as Type I, II, or III based on its recognition site, cleavage position, and cofactor requirements; (2) predict the cleavage products (blunt vs sticky ends, overhang direction) for a given DNA sequence and enzyme; (3) design a restriction digest strategy to generate.",
+     "self_check": true
     }
    ]
   }

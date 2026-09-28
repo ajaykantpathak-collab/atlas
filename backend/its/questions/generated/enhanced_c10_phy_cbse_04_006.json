@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a rectangular glass slab, pins, and a protractor to verify that the emergent ray is parallel to the incident ray but laterally displaced. List the steps, measurements needed, and how you would conclude parallelism.",
      "a": "Expected answer: (1) Fix white paper on board, place glass slab, mark outline. (2) Draw normal at point O on one face. Draw incident ray at angle i (e.g., 30°). Fix two pins P₁, P₂ on this ray. (3) View from opposite face, fix two pins P₃, P₄ such that all four pins appear in straight line. (4) Remove slab, join P₃P₄ to meet slab at O', join OO'. (5) Extend incident ray forward and emergent ray backward; they are parallel. Measure perpendicular distance between them = lateral displacement. Repeat for different i. A poor answer (e.g., \"measure angles only\" or \"use a laser pointer without pins\") reveals the student doesn't understand the pin method for ray tracing or confuses verification of Snell's law with verification of emergent ray parallelism.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Refraction of light is the bending of a light ray when it passes obliquely from one ______ medium into another due to a change in its speed.",
+     "a": "transparent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: ______ a coin at the bottom of an empty steel bowl and ask a student to step back until the coin just disappears from view.",
+     "a": "place",
+     "self_check": true
+    },
+    {
+     "q": "What is Refraction of light? State the definition given in this lesson.",
+     "a": "Refraction of light is the bending of a light ray when it passes obliquely from one transparent medium into another due to a change in its speed.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The laws of refraction (Snell's Law) state: (______) The incident ray, the refracted ray, and the normal at the point of incidence all lie in the same plane.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Refraction of light?",
+     "a": "Students believe that the angle of refraction is measured between the refracted ray and the surface of the interface (like angle of incidence is sometimes mistakenly measured from the surface).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly draw ray diagrams showing refraction at a plane surface, identify angles i and r with respect to the normal, apply Snell's law (n₁ sin i = n₂ sin r) to calculate unknown angles or refractive indices, and predict the direction of bending (towards/away from normal) based on relative optical densities.",
+     "self_check": true
     }
    ]
   }

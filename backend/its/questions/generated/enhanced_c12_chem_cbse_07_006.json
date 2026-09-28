@@ -34,6 +34,26 @@
      "q": "Design a simple lab test to distinguish between methanol, ethanol, and tert-butanol using only sodium metal and observation of reaction rate. Explain the expected observations.",
      "a": "Add a small piece of Na to each alcohol in separate dry test tubes. Methanol and ethanol (primary) react steadily with H₂ evolution; tert-butanol (tertiary) reacts very slowly due to steric hindrance around the O–H bond. Rate order: methanol ≈ ethanol > tert-butanol. A poor answer that says \"all react at same rate\" ignores steric effects on acidity and accessibility of the O–H proton.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Alcohols react with active metals (Na, K, Al) to form alkoxides and hydrogen gas, ______ their acidic character (Brønsted acid behavior).",
+     "a": "demonstrating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe sodium metal dropped into ethanol: it fizzes, producing ______ gas and sodium ethoxide — a classic lab demonstration of alcohol acidity.",
+     "a": "hydrogen",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write balanced equations for reactions of alcohols with Na/Al and with carboxylic acids/acid derivatives, explain the role of conc.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe sodium metal dropped into ethanol: it fizzes, producing hydrogen gas and sodium ethoxide — a classic lab ______ of alcohol acidity.",
+     "a": "demonstration",
+     "self_check": true
     }
    ]
   }

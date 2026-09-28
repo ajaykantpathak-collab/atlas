@@ -2,6 +2,106 @@
  "catalog": "catalog_class10_science_ch104.json",
  "concepts": [
   {
+   "id": "jesc.4.2.2",
+   "title": "Molecular Formula and Mass of Saturated Hydrocarbons (Alkanes)",
+   "converted_to_compute": true,
+   "formula": "hydrogen_count = 2 * n + 2; molecular_mass = 12 * n + 1 * (2 * n + 2)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "hydrogen_count = 2 * n + 2",
+     "compute": "hydrogen_count = 2 * n + 2"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "molecular_mass = 12 * n + 1 * (2 * n + 2)",
+     "compute": "molecular_mass = 12 * n + 1 * (2 * n + 2)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Molecular Formula and Mass of Saturated Hydrocarbons (Alkanes): given n = 93, find molecular mass.",
+     "a": "1304",
+     "self_check": false
+    },
+    {
+     "q": "For Molecular Formula and Mass of Saturated Hydrocarbons (Alkanes): given n = 25, find molecular mass.",
+     "a": "352",
+     "self_check": false
+    },
+    {
+     "q": "For Molecular Formula and Mass of Saturated Hydrocarbons (Alkanes): given n = 39, find molecular mass.",
+     "a": "548",
+     "self_check": false
+    },
+    {
+     "q": "For Molecular Formula and Mass of Saturated Hydrocarbons (Alkanes): given n = 70, find molecular mass.",
+     "a": "982",
+     "self_check": false
+    },
+    {
+     "q": "For Molecular Formula and Mass of Saturated Hydrocarbons (Alkanes): given n = 76, find molecular mass.",
+     "a": "1066",
+     "self_check": false
+    },
+    {
+     "q": "For Molecular Formula and Mass of Saturated Hydrocarbons (Alkanes): given n = 80, find molecular mass.",
+     "a": "1122",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.4.2.5",
+   "title": "Homologous Series and Molecular Mass Gradation",
+   "converted_to_compute": true,
+   "formula": "mass_diff = delta_n * 14",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mass_diff = delta_n * 14",
+     "compute": "mass_diff = delta_n * 14"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Homologous Series and Molecular Mass Gradation: given delta_n = 4.8, find mass diff.",
+     "a": "67.2",
+     "self_check": false
+    },
+    {
+     "q": "For Homologous Series and Molecular Mass Gradation: given delta_n = 10.8, find mass diff.",
+     "a": "151.2",
+     "self_check": false
+    },
+    {
+     "q": "For Homologous Series and Molecular Mass Gradation: given delta_n = 13.1, find mass diff.",
+     "a": "183.4",
+     "self_check": false
+    },
+    {
+     "q": "For Homologous Series and Molecular Mass Gradation: given delta_n = 15.4, find mass diff.",
+     "a": "215.6",
+     "self_check": false
+    },
+    {
+     "q": "For Homologous Series and Molecular Mass Gradation: given delta_n = 12.6, find mass diff.",
+     "a": "176.4",
+     "self_check": false
+    },
+    {
+     "q": "For Homologous Series and Molecular Mass Gradation: given delta_n = 4.2, find mass diff.",
+     "a": "58.8",
+     "self_check": false
+    }
+   ]
+  },
+  {
    "id": "jesc.4.1.1",
    "title": "Covalent Bonding and Tetravalency of Carbon",
    "solution_type": "verify_property",
@@ -64,88 +164,6 @@
      "q": "Do silicon and sulphur show catenation like carbon?",
      "a": "Only weakly - their self-links are much weaker, which is why carbon alone builds millions of compounds.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "jesc.4.2.2",
-   "title": "Molecular Formula and Mass of Saturated Hydrocarbons (Alkanes)",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "hydrogen_count",
-     "expr": "2 * n + 2",
-     "explain": "an alkane CnH2n+2 carries 2n+2 hydrogens"
-    },
-    {
-     "step": 2,
-     "name": "molecular_mass",
-     "expr": "12 * n + 1 * hydrogen_count",
-     "explain": "12 u per carbon plus 1 u per hydrogen"
-    },
-    {
-     "step": 3,
-     "name": "sample_mass",
-     "expr": "moles * molecular_mass",
-     "explain": "mass of the given number of moles"
-    }
-   ],
-   "questions": [
-    {
-     "q": "For the alkane with n = 1 (methane), find its molecular mass and the mass of 0.5 mol of the gas.",
-     "vals": {
-      "n": 1,
-      "moles": 0.5
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "8 g",
-     "self_check": false
-    },
-    {
-     "q": "Ethane has n = 2. Compute its molecular mass and the mass of 2 mol of ethane.",
-     "vals": {
-      "n": 2,
-      "moles": 2
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "60 g",
-     "self_check": false
-    },
-    {
-     "q": "Propane has n = 3. What is its molecular mass, and what does 0.25 mol of it weigh?",
-     "vals": {
-      "n": 3,
-      "moles": 0.25
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "11 g",
-     "self_check": false
-    },
-    {
-     "q": "Butane has n = 4. Find its molecular mass and the mass of a 0.5 mol cylinder fill.",
-     "vals": {
-      "n": 4,
-      "moles": 0.5
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "29 g",
-     "self_check": false
-    },
-    {
-     "q": "Pentane has n = 5. Calculate its molecular mass and the mass of exactly 1 mol.",
-     "vals": {
-      "n": 5,
-      "moles": 1
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "72 g",
-     "self_check": false
     }
    ]
   },
@@ -245,88 +263,6 @@
      "q": "Do isomers have identical properties?",
      "a": "Their molecular formula is the same but physical and some chemical properties differ because of the different structure.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "jesc.4.2.5",
-   "title": "Homologous Series and Molecular Mass Gradation",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "mass_a",
-     "expr": "14 * n_a + 2",
-     "explain": "alkane mass = 12n + (2n+2) = 14n + 2"
-    },
-    {
-     "step": 2,
-     "name": "mass_b",
-     "expr": "14 * n_b + 2",
-     "explain": "mass of the higher alkane"
-    },
-    {
-     "step": 3,
-     "name": "mass_diff",
-     "expr": "mass_b - mass_a",
-     "explain": "successive members differ by CH2 = 14 u per step"
-    }
-   ],
-   "questions": [
-    {
-     "q": "Methane (n = 1) and ethane (n = 2) are neighbouring alkanes. Compute both molecular masses and their difference.",
-     "vals": {
-      "n_a": 1,
-      "n_b": 2
-     },
-     "unit": "u",
-     "steps": null,
-     "a": "14 u",
-     "self_check": false
-    },
-    {
-     "q": "Compare propane (n = 3) with methane (n = 1): find both masses and by how much they differ.",
-     "vals": {
-      "n_a": 1,
-      "n_b": 3
-     },
-     "unit": "u",
-     "steps": null,
-     "a": "28 u",
-     "self_check": false
-    },
-    {
-     "q": "Ethane (n = 2) and pentane (n = 5): what is each molecular mass and the gap between them?",
-     "vals": {
-      "n_a": 2,
-      "n_b": 5
-     },
-     "unit": "u",
-     "steps": null,
-     "a": "42 u",
-     "self_check": false
-    },
-    {
-     "q": "Propane (n = 3) and hexane (n = 6): calculate both molecular masses and their difference.",
-     "vals": {
-      "n_a": 3,
-      "n_b": 6
-     },
-     "unit": "u",
-     "steps": null,
-     "a": "42 u",
-     "self_check": false
-    },
-    {
-     "q": "Butane (n = 4) and hexane (n = 6): find each mass and how much heavier the second one is.",
-     "vals": {
-      "n_a": 4,
-      "n_b": 6
-     },
-     "unit": "u",
-     "steps": null,
-     "a": "28 u",
-     "self_check": false
     }
    ]
   },

@@ -21,7 +21,7 @@
      "self_check": true
     },
     {
-     "q": "Compare the final value of `count` in these two snippets. Explain the difference.\n```python",
+     "q": "Compare the final value of `count` in these two snippets. Explain the difference.\n```python\n# Snippet A\ncount = 0\nfor i in range(5):\n    if i == 2:\n        break\n    count += 1\n\n# Snippet B\ncount = 0\nfor i in range(5):\n    if i == 2:\n        continue\n    count += 1\n```",
      "a": "Snippet A: `count = 2` (iterations for i=0,1 execute fully; i=2 triggers break, loop ends). Snippet B: `count = 4` (iterations for i=0,1,3,4 execute fully; i=2 triggers continue, skips `count += 1` but loop continues). A wrong answer (e.g., both give 2 or both give 4) reveals the student cannot trace how `break` stops the loop entirely while `continue` only skips one iteration's remaining body — they treat both as \"skip\" without distinguishing loop termination vs iteration skip.",
      "self_check": true
     },
@@ -33,6 +33,31 @@
     {
      "q": "Design a real-world scenario (Indian context) where a `while` loop with both `break` and `continue` is appropriate. Write the pseudocode and explain the role of each statement.",
      "a": "Scenario: An ATM dispenses cash in ₹100 and ₹500 notes. User requests ₹2300. Machine has limited notes: 3×₹500, 10×₹100. Loop tries to give max ₹500 notes first.\nPseudocode:\n```\namount = 2300\nnotes_500 = 3; notes_100 = 10\nwhile amount > 0:\n    if notes_500 > 0 and amount >= 500:\n        dispense 500; amount -= 500; notes_500 -= 1\n        continue  # skip 100-note logic, try another 500\n    if notes_100 > 0 and amount >= 100:\n        dispense 100; amount -= 100; notes_100 -= 1\n        continue  # skip rest, try another 100\n    break  # no suitable notes left, exit loop\n```\n`continue` skips lower-denomination logic when higher is used; `break` exits when neither note fits. A poor answer (e.g., only `break`, or no condition for `continue`) reveals inability to map \"skip current step but keep looping\" vs \"stop entirely\" to a concrete process.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The break statement immediately terminates the innermost loop it is placed in, ______ control to the first statement after the loop; the continue statement skips the remaining statements in the current iteration of the innermost loop and proceeds directly to the next iteration's condition check.",
+     "a": "transferring",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are scanning a shelf of 50 books to find the first one authored by \"R.K.",
+     "a": "Imagine",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are scanning a shelf of ______ books to find the first one authored by \"R.K.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly predict the output of for and while loops containing break and continue statements, including nested loops, and can write loops that use these statements to implement search-termination and iteration-skipping logic for given problems.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a shelf of 50 books to find the first one authored by \"R.K.",
+     "a": "scanning",
      "self_check": true
     }
    ]

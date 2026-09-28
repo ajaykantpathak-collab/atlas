@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_12_004",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_12_004",
+   "title": "c11_app_cbse_12_004",
+   "questions": [
+    {
+     "q": "Write the equation of the line parallel to the y-axis and passing through the point $(-4, 5)$.",
+     "a": "The equation is $x = -4$. A line parallel to the y-axis has an undefined slope and constant x-coordinate for all points. Since it passes through $(-4, 5)$, the x-coordinate is always $-4$. A wrong answer like $y = 5$ or $x = 4$ reveals the student confuses \"parallel to y-axis\" (vertical line, equation $x = \\text{constant}$) with \"parallel to x-axis\" (horizontal line, equation $y = \\text{constant}$) or ignores the sign of the coordinate.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the equation of a line with x-intercept $-3$ and y-intercept $4$ as $\\frac{x}{3} + \\frac{y}{4} = 1$. Explain why this is incorrect and write the correct equation.",
+     "a": "The correct equation is $\\frac{x}{-3} + \\frac{y}{4} = 1$ or $4x - 3y = -12$. The intercept form is $\\frac{x}{a} + \\frac{y}{b} = 1$ where $a$ and $b$ are the **signed** intercepts (coordinates of cutting points $(a,0)$ and $(0,b)$). The student used $a=3$ instead of $a=-3$, confusing the *length* of the intercept (always positive) with the *coordinate* of the intercept (can be negative). This reveals a misunderstanding that intercepts in the formula are directed distances from the origin, not just lengths.",
+     "self_check": true
+    },
+    {
+     "q": "Find the equation of the line passing through the intersection of the lines $2x + y = 5$ and $x - 3y = 4$ and having a slope of $2$.",
+     "a": "**Step 1:** Find intersection point by solving the system. From $2x+y=5 \\Rightarrow y=5-2x$. Substitute in $x-3(5-2x)=4 \\Rightarrow x-15+6x=4 \\Rightarrow 7x=19 \\Rightarrow x=19/7$. Then $y=5-38/7 = -3/7$. Point is $(19/7, -3/7)$. **Step 2:** Use Point-Slope form with $m=2$: $y - (-3/7) = 2(x - 19/7)$. **Step 3:** Simplify: $y + 3/7 = 2x - 38/7 \\Rightarrow 7y + 3 = 14x - 38 \\Rightarrow 14x - 7y - 41 = 0$. A wrong answer often stems from arithmetic errors in solving the system or forgetting to use the *intersection point* as $(x_1, y_1)$ in the point-slope formula, instead using a random point from one line.",
+     "self_check": true
+    },
+    {
+     "q": "The line $3x - 4y + 12 = 0$ is converted to normal form $x \\cos \\alpha + y \\sin \\alpha = p$. A student gets $\\cos \\alpha = 3/5, \\sin \\alpha = -4/5, p = 12/5$. Is this correct? Justify your answer by analyzing the signs.",
+     "a": "The student's answer is **incorrect**. **Step 1:** Rewrite equation with constant positive: $3x - 4y + 12 = 0 \\Rightarrow -3x + 4y = 12$. **Step 2:** Divide by $\\sqrt{(-3)^2 + 4^2} = 5$: $\\frac{-3}{5}x + \\frac{4}{5}y = \\frac{12}{5}$. **Step 3:** Identify $\\cos \\alpha = -3/5, \\sin \\alpha = 4/5, p = 12/5$. The student forgot the rule: the constant term on RHS ($p$) must be **positive** (perpendicular distance). To achieve this, if $C > 0$ in $Ax+By+C=0$, we must multiply by $-1$ before normalizing. The student normalized $3x-4y=-12$ directly, yielding $p=-12/5$ (negative), then likely dropped the negative sign on $p$ but kept the signs of $\\cos \\alpha, \\sin \\alpha$ from the original coefficients, breaking the identity $\\cos^2\\alpha + \\sin^2\\alpha = 1$ with the correct quadrant signs.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The equation $\\frac{x}{a} + \\frac{y}{b} = 1$ represents a line for all non-zero real values of $a$ and $b$.\" Is this always true? Provide a counterexample if false, or a proof if true.",
+     "a": "The statement is **TRUE** for all non-zero real $a, b$. **Justification:** The equation $\\frac{x}{a} + \\frac{y}{b} = 1 \\implies bx + ay = ab \\implies bx + ay - ab = 0$. This is of the form $Ax+By+C=0$ with $A=b, B=a, C=-ab$. Since $a \\neq 0$ and $b \\neq 0$, $A$ and $B$ are not simultaneously zero ($A^2+B^2 = a^2+b^2 > 0$). By the theorem in NCERT (Section 12.4), $Ax+By+C=0$ always represents a line if $A^2+B^2 \\neq 0$. A student answering \"False\" might incorrectly think $a,b$ must be positive (confusing intercepts with lengths) or that the line cannot pass through the origin (it doesn't, since $ab \\neq 0$, but that doesn't stop it from being a line).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where you would *need* to use the **Normal Form** $x \\cos \\alpha + y \\sin \\alpha = p$ to model a situation, rather than Slope-Intercept or Intercept form. Define the variables $p$ and $\\alpha$ in your scenario.",
+     "a": "**Scenario:** A Coast Guard radar station at the origin $(0,0)$ detects a ship. The radar shows the ship is on a straight course such that the **shortest distance** from the radar to the ship's path is $10$ km, and the **direction of this shortest perpendicular line** makes an angle of $30^\\circ$ with the positive x-axis (East). **Model:** The ship's path is the line. $p = 10$ km (perpendicular distance from origin to line). $\\alpha = 30^\\circ$ (angle of perpendicular from positive x-axis). Equation: $x \\cos 30^\\circ + y \\sin 30^\\circ = 10 \\implies \\frac{\\sqrt{3}}{2}x + \\frac{1}{2}y = 10 \\implies \\sqrt{3}x + y = 20$. **Why Normal Form?** Radar naturally measures range (distance $p$) and bearing (angle $\\alpha$). Slope-intercept requires calculating slope ($-\\cot \\alpha$) and intercept ($p \\csc \\alpha$), adding unnecessary computation. A poor answer uses a scenario better suited for intercepts (e.g., \"a wire tied between two poles\") or fails to define $\\alpha$ as the angle of the *perpendicular from origin*, not the line itself.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

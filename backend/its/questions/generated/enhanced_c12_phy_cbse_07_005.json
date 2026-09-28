@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a series LCR circuit (with a variable capacitor) to demonstrate resonance. List the apparatus, the procedure, and the observation that confirms resonance.",
      "a": "Apparatus: AC signal generator (variable frequency or fixed frequency with variable C), series LCR board (R ≈ 10–100 Ω, L ≈ 10–100 mH, C variable 0.01–1 μF), AC voltmeter/ammeter. Procedure: (1) Set generator to fixed frequency (e.g., 1 kHz). (2) Vary C and measure rms current I. (3) Plot I vs C. Observation: I shows a sharp maximum at a particular C. At that C, measure V_L and V_C — they are large and nearly equal; V_R ≈ source voltage. This confirms resonance when X_L = X_C. A poor answer would only say \"measure current\" without varying a parameter or checking voltage magnification, missing the key signature of resonance: maximum current at the condition X_L = X_C.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In a series LCR circuit connected to an AC source, impedance (Z) is the total effective ______ to current flow, combining resistance (R), inductive reactance (Xₗ = ωL), and capacitive reactance (X꜀ = 1/ωC) as a phasor sum: Z = √[R² + (Xₗ - X꜀)²].",
+     "a": "opposition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine tuning an old radio: you turn a knob (varying ______) until a station comes in clearly — that's resonance in an LCR circuit.",
+     "a": "capacitance",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In a series LCR circuit connected to an AC source, impedance (Z) is the total effective opposition to current flow, combining resistance (R), inductive reactance (Xₗ = ωL), and capacitive reactance (X꜀ = ______/ωC) as a phasor sum: Z = √[R² + (Xₗ - X꜀)²].",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) derive the impedance formula using phasor addition for a series LCR circuit, (2) calculate the resonant frequency and the impedance at resonance for given component values, (3) determine the phase angle φ = tan⁻¹((Xₗ - X꜀)/R) and state whether the current leads or lags the voltage, and (4) explain why the voltage.",
+     "self_check": true
     }
    ]
   }

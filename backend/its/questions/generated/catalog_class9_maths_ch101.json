@@ -4,15 +4,9 @@
   {
    "id": "iemh.101.1",
    "title": "The Cartesian Coordinate System",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 5 gives 5",
-     "compute": "count = 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "Axes: x and y",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 5 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -49,27 +43,9 @@
   {
    "id": "iemh.101.2",
    "title": "The Origin",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the coordinate-geometry formula",
-     "explain": "apply the coordinate-geometry formula: dx = 10 - 1 gives 9",
-     "compute": "dx = 10 - 1"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the coordinate-geometry formula: dy = 14 - 2 gives 12",
-     "compute": "dy = 14 - 2"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 15",
-     "compute": "dist = sqrt(dx * dx + dy * dy)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "O = (0, 0)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (1, 2) and (10, 14).",
@@ -106,15 +82,9 @@
   {
    "id": "iemh.101.3",
    "title": "Coordinates of a Point",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "recall the count for the shape",
-     "explain": "recall the count for the shape: lines = 2 gives 2",
-     "compute": "lines = 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "P = (x, y); x = gap from y-axis, y = gap from x-axis",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a rectangle have?",
@@ -151,27 +121,9 @@
   {
    "id": "iemh.101.4",
    "title": "Quadrants of the Plane",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the coordinate-geometry formula",
-     "explain": "apply the coordinate-geometry formula: dx = 16 - 7 gives 9",
-     "compute": "dx = 16 - 7"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the coordinate-geometry formula: dy = 4 - -8 gives 12",
-     "compute": "dy = 4 - -8"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 15",
-     "compute": "dist = sqrt(dx * dx + dy * dy)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "Q1:(+,+), Q2:(-,+), Q3:(-,-), Q4:(+,-)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (7, -8) and (16, 4).",
@@ -208,27 +160,9 @@
   {
    "id": "iemh.101.5",
    "title": "Points on the Axes",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the coordinate-geometry formula",
-     "explain": "apply the coordinate-geometry formula: dx = 24 - 4 gives 20",
-     "compute": "dx = 24 - 4"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the coordinate-geometry formula: dy = 13 - -8 gives 21",
-     "compute": "dy = 13 - -8"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 29",
-     "compute": "dist = sqrt(dx * dx + dy * dy)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "x-axis: (x, 0); y-axis: (0, y)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (4, -8) and (24, 13).",
@@ -266,6 +200,8 @@
    "id": "iemh.101.6",
    "title": "Distance Between Two Points",
    "converted_to_compute": false,
+   "formula": "distance = sqrt((x2 - x1)**2 + (y2 - y1)**2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (6, 3) and (12, 11).",
@@ -302,27 +238,9 @@
   {
    "id": "iemh.101.7",
    "title": "Midpoint of a Segment",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the coordinate-geometry formula",
-     "explain": "apply the coordinate-geometry formula: dx = -2 - -7 gives 5",
-     "compute": "dx = -2 - -7"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the coordinate-geometry formula: dy = 18 - 6 gives 12",
-     "compute": "dy = 18 - 6"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 13",
-     "compute": "dist = sqrt(dx * dx + dy * dy)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "M = ((x1 + x2)/2, (y1 + y2)/2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (-7, 6) and (-2, 18).",
@@ -360,6 +278,8 @@
    "id": "iemh.101.8",
    "title": "Distance between points on a line parallel to axes",
    "converted_to_compute": false,
+   "formula": "same y: dist = abs(x2 - x1); same x: dist = abs(y2 - y1)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (-8, -4) and (0, 11).",

@@ -34,6 +34,26 @@
      "q": "Design a simple flowchart showing how an initial deposit of ₹10,000 moves through the banking system with CRR = 10% and zero SLR, assuming all loans are re-deposited in the same banking system. Show the first three rounds of lending and deposits, and calculate the total deposits created after these three rounds.",
      "a": "Round 1: Initial deposit ₹10,000 → Reserves ₹1,000 (10%) → Loan ₹9,000 → New deposit ₹9,000.\nRound 2: Deposit ₹9,000 → Reserves ₹900 → Loan ₹8,100 → New deposit ₹8,100.\nRound 3: Deposit ₹8,100 → Reserves ₹810 → Loan ₹7,290 → New deposit ₹7,290.\nTotal deposits after 3 rounds = ₹10,000 + ₹9,000 + ₹8,100 + ₹7,290 = ₹34,390.\nA poor answer that stops at one round or adds incorrectly shows the student cannot trace the iterative credit creation process, a key board exam skill for case-based questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Loan activities of banks refer to the process where banks accept deposits from the public (savings, current, fixed deposits) and lend a major portion of these funds as loans to borrowers (______, businesses, farmers) at a higher interest rate, keeping a fraction as reserves (Cash Reserve Ratio and Statutory Liquidity Ratio) as mandated by the RBI.",
+     "a": "individuals",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you deposit ₹10,000 from your summer internship ______ into a savings account at a local bank branch.",
+     "a": "earnings",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the deposit-lending cycle, calculate the credit creation potential using the money multiplier formula (1/CRR), and distinguish between the bank's role as a financial intermediary and the central bank's regulatory function.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you deposit ₹10,000 from your summer ______ earnings into a savings account at a local bank branch.",
+     "a": "internship",
+     "self_check": true
     }
    ]
   }

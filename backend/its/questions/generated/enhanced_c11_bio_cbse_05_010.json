@@ -34,6 +34,26 @@
      "q": "Design a floral formula for a hypothetical flower with these characteristics: zygomorphic, bisexual, bracteate, calyx of 5 united sepals (valvate), corolla of 5 petals united into a bilabiate tube, androecium of 4 didynamous stamens (epipetalous), gynoecium of 2 united carpels with superior ovary and axile placentation. Justify each symbol choice.",
      "a": "Formula: % ⚥ Br K(5) C(5) A(4) G(2) with line above G for superior ovary, and line connecting A to C for epipetalous adhesion. Justification: % = zygomorphic (bilateral symmetry); ⚥ = bisexual; Br = bracteate; K(5) = 5 united sepals (brackets = cohesion); C(5) = 5 united petals (brackets = cohesion, bilabiate implied by zygomorphy); A(4) = 4 stamens united in two pairs (didynamous = 2 long + 2 short, brackets show cohesion); line above A-C = epipetalous adhesion; G(2) = 2 fused carpels (syncarpous); line above G = superior ovary. A poor answer (e.g., using ⊕, missing adhesion line, writing A2+2 without brackets) reveals inability to translate morphological details into symbolic notation – the reverse skill of interpretation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A semi-technical description is a standardized, systematic method of describing a flowering plant using precise botanical terminology in a defined sequence: habit → vegetative characters (root, stem, leaf) → floral characters (inflorescence, flower parts) → floral diagram → floral formula, enabling accurate ______, comparison, and classification of angiosperms.",
+     "a": "identification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're a ______ examining a tomato plant (Solanum lycopersicum) in your kitchen garden.",
+     "a": "botanist",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write a complete semi-technical description of any given flowering plant (e.g., Solanaceae, Fabaceae, Liliaceae) including correct floral formula with proper symbols for cohesion, adhesion, symmetry, and ovary position, and can interpret a given floral formula to reconstruct the flower's morphology and taxonomic affinity.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're a botanist examining a tomato plant (Solanum ______) in your kitchen garden.",
+     "a": "lycopersicum",
+     "self_check": true
     }
    ]
   }

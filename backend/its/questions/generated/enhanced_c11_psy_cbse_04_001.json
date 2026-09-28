@@ -34,6 +34,36 @@
      "q": "Design a simple classroom demonstration (using only a whiteboard and marker) that allows Class 11 students to experience the distinction between sensation and perception in under two minutes. Describe the procedure, the expected sensation, the expected perception, and the top-down factor you are manipulating.",
      "a": "Procedure: Draw \"13\" in ambiguous style (vertical strokes identical). Phase 1: Surround with \"12 13 14\" → students perceive \"13\" (top-down: numerical context). Phase 2: Replace with \"A 13 C\" → students perceive \"B\" (top-down: alphabetical context). Sensation (retinal image of middle figure) is identical; perception flips. Top-down factor: perceptual set/expectancy. Poor demonstrations confuse attention shifts with perceptual change or use stimuli where sensation actually differs.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sensation is the initial, bottom-up process by which sensory receptors detect and encode raw physical energy (light, sound, pressure) into neural signals, yielding elementary experiences such as \"red,\" \"loud,\" or \"rough.\" Perception is the subsequent, top-down process that organizes, interprets, and assigns meaning to these sensory inputs using prior knowledge, ______, motivation, and cultural context, constructing a coherent representation of the world.",
+     "a": "expectations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are sitting in your Class 11 ______ and suddenly smell something burning.",
+     "a": "classroom",
+     "self_check": true
+    },
+    {
+     "q": "What is Sensation? State the definition given in this lesson.",
+     "a": "Sensation is the initial, bottom-up process by which sensory receptors detect and encode raw physical energy (light, sound, pressure) into neural signals, yielding elementary experiences such as \"red,\" \"loud,\" or \"rough.\" Perception is the subsequent, top-down process that organizes, interprets, and assigns meaning to these sensory.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Sensation?",
+     "a": "Students believe sensation and perception occur in strict temporal sequence — first all sensation finishes, then perception begins — like two separate assembly-line stages.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently analyse a real-life scenario (e.g., hearing a siren while studying) to identify the specific sensory modalities activated, the raw sensory attributes registered (pitch, loudness), and the perceptual interpretation constructed (emergency vehicle approaching, need to move aside), explicitly naming the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sensation is the initial, bottom-up process by which sensory receptors detect and encode raw physical energy (light, sound, pressure) into neural signals, yielding elementary experiences such as \"red,\" \"loud,\" or \"rough.\" Perception is the subsequent, top-down process that organizes, interprets, and assigns meaning to these sensory inputs using prior knowledge, expectations, motivation, and cultural context, constructing a coherent ______ of the world.",
+     "a": "representation",
+     "self_check": true
     }
    ]
   }

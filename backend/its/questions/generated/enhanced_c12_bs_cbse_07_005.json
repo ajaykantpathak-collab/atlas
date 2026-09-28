@@ -34,6 +34,36 @@
      "q": "Create a mini-case (4-5 sentences) involving a cross-functional team in an Indian startup where at least THREE different barrier categories operate simultaneously. Label each barrier in your case.",
      "a": "Example: \"At a Bengaluru fintech startup, the CTO (technical) tells the marketing lead: 'The API latency is 200ms, we need to optimize the query pipeline.' [Semantic: technical jargon] The marketing lead, stressed about an investor pitch, hears only 'latency' and assumes the product is slow. [Psychological: lack of attention/premature evaluation] The company's flat structure has no formal review meetings, so the CTO never follows up. [Organizational: lack of facilities for smooth communication] The marketing lead doesn't ask for clarification, fearing it will make her look incompetent. [Personal: unwillingness to communicate].\" A poor answer lists barriers without a coherent scenario or mislabels them (e.g., calling jargon a psychological barrier).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Barriers to communication are obstacles that prevent the accurate transmission and reception of messages between sender and receiver, categorized into semantic (language/meaning), psychological (mental/emotional), ______ (structure/policy), and personal (individual attitude) barriers.",
+     "a": "organizational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a factory supervisor sends a WhatsApp message to a shift worker: \"Handle the pressing issue on Line 3 ______.\" The worker, unfamiliar with technical jargon, thinks \"pressing\" means ironing and goes to the pressing department instead of the production line.",
+     "a": "immediately",
+     "self_check": true
+    },
+    {
+     "q": "What is Barriers to communication? State the definition given in this lesson.",
+     "a": "Barriers to communication are obstacles that prevent the accurate transmission and reception of messages between sender and receiver, categorized into semantic (language/meaning), psychological (mental/emotional), organizational (structure/policy), and personal (individual attitude) barriers.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a factory supervisor sends a WhatsApp message to a shift worker: \"Handle the pressing issue on Line ______ immediately.\" The worker, unfamiliar with technical jargon, thinks \"pressing\" means ironing and goes to the pressing department instead of the production line.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Barriers to communication?",
+     "a": "Students believe \"semantic barriers\" only mean \"language differences\" (e.g., Hindi vs.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify a given real-world communication failure into the correct barrier category (semantic, psychological, organizational, personal) and prescribe at least three specific corrective measures from the NCERT list with justification for each.",
+     "self_check": true
     }
    ]
   }

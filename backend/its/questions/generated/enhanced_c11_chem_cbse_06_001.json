@@ -34,6 +34,31 @@
      "q": "Design a simple home experiment using only a steel tumbler, a plastic bottle, a thermometer, and hot water to demonstrate the difference between a closed and an isolated system. Describe what you would measure, how you would vary the setup, and what conclusion about heat exchange you would draw.",
      "a": "**Experiment**: Pour 100 mL hot water (≈80°C) into (i) a steel tumbler (open top) and (ii) a sealed plastic bottle. Measure temperature every 2 minutes for 10 minutes. **Variation**: For the tumbler, cover with a lid in a second trial. **Expected**: Steel tumbler (open) cools fastest — matter (steam) and heat escape. Steel tumbler with lid cools slower — only heat escapes (closed). Sealed plastic bottle (insulated) cools slowest — minimal heat exchange (approximates isolated). **Conclusion**: Rate of cooling reveals the system type. A poor answer would just say \"measure temperature\" without linking the cooling rate to matter/energy exchange across the boundary.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In ______, a system is the specific portion of the universe (e.g., reactants in a beaker, gas in a piston) chosen for study; the surroundings comprise everything else that can exchange energy or matter with the system; the state of a system is defined by its macroscopic properties (pressure P, volume V, temperature T, amount n) at a given instant, and a state function (e.g., internal energy U, enthalpy H) depends only on the initial and final states, not the path taken.",
+     "a": "thermodynamics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a pressure cooker whistling on a gas stove — the steam inside is the system, the metal pot and kitchen air are the ______, and the rubber gasket is the boundary.",
+     "a": "surroundings",
+     "self_check": true
+    },
+    {
+     "q": "What is In thermodynamics, a system? State the definition given in this lesson.",
+     "a": "In thermodynamics, a system is the specific portion of the universe (e.g., reactants in a beaker, gas in a piston) chosen for study; the surroundings comprise everything else that can exchange energy or matter with the system; the state of a system is defined by its macroscopic properties (pressure P, volume V, temperature T, amount n).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about In thermodynamics, a system?",
+     "a": "Students often think a closed system cannot exchange heat — they equate \"closed\" with \"thermally insulated\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify a given real-world scenario (e.g., hot tea in a steel flask, ice melting in an open bowl) as open/closed/isolated system, identify the boundary, list the state variables needed to define the state, and explain why heat (q) and work (w) are path functions while internal energy is a state function.",
+     "self_check": true
     }
    ]
   }

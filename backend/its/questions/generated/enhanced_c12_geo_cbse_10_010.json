@@ -34,6 +34,31 @@
      "q": "Design a Pan-City smart solution for a Tier-2 city (pop. 8 lakh, 150 km²) facing: (a) 40% non-revenue water, (b) 60% bus fleet >10 years old, (c) no real-time air quality monitoring. Specify: (i) 3 integrated sensors/data streams, (ii) 1 citizen-facing app feature, (iii) 1 governance reform needed. Justify each choice geographically.",
      "a": "Good answer: (i) Sensors: (a) Bulk flow meters at DMA inlets (water), (b) GPS+ETM on buses (mobility), (c) Low-cost PM2.5 nodes at 50 intersections (air). Integration: Common IoT platform → ICCC. (ii) App: \"MyCityPulse\" — real-time bus arrival + water supply schedule + AQI alert + grievance redressal (single window). (iii) Governance reform: **Unified Metropolitan Transport Authority (UMTA)** merging RTO, bus operator, traffic police, ULB — because fragmented jurisdiction prevents coordinated action. Justification: Geography demands *spatial integration* of networks (water pipes, bus routes, airshed) and *institutional integration* to act on data. Poor answer lists disjoint tech (SCADA, e-ticketing, AQI app) without integration or governance — missing the \"smart\" = *systemic* principle.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Smart Cities Mission (launched 2015) is a Government of India urban renewal program that selects 100 cities through a competitive challenge to develop core ______ (water, electricity, sanitation, mobility, housing, IT connectivity, governance, safety, health, education) using \"smart solutions\" — technology-driven, data-integrated, and citizen-centric interventions — within defined compact areas (Area-Based Development) to create replicable, sustainable, and inclusive urban models that improve quality of life while reducing resource consumption and disaster vulnerability.",
+     "a": "infrastructure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your nearest city: traffic choking at a junction, water supply for 2 hours/day, garbage piled at a corner, no footpaths — these are \"urban ______\" you experience daily.",
+     "a": "stresses",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your nearest city: traffic choking at a junction, water supply for ______ hours/day, garbage piled at a corner, no footpaths — these are \"urban stresses\" you experience daily.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Explain the four pillars of Smart Cities Mission (physical, institutional, social, economic infrastructure) and the two development models (Area-Based Development vs Pan-City).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your nearest city: traffic choking at a junction, water supply for 2 hours/day, garbage piled at a corner, no footpaths — these are \"urban stresses\" you ______ daily.",
+     "a": "experience",
+     "self_check": true
     }
    ]
   }

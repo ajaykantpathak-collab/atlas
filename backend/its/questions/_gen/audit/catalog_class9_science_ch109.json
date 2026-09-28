@@ -1,0 +1,119 @@
+{
+ "catalog": "catalog_class9_science_ch109.json",
+ "concepts": [
+  {
+   "id": "iesc.9.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mass_products = 83",
+      "mass_reactants = mass_products"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mass_products = 191",
+      "mass_reactants = mass_products"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mass_products = 136",
+      "mass_reactants = mass_products"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mass_products = 65",
+      "mass_reactants = mass_products"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mass_products = 5.7",
+      "mass_reactants = mass_products"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mass_products = 128",
+      "mass_reactants = mass_products"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "mass_reactants = mass_products"
+   ]
+  },
+  {
+   "id": "iesc.9.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "ratio_b = 76",
+      "ratio_a = 21",
+      "mass_a = 54",
+      "mass_b = (ratio_b / ratio_a) * mass_a"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "ratio_b = 10.9",
+      "ratio_a = 73",
+      "mass_a = 156",
+      "mass_b = (ratio_b / ratio_a) * mass_a"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "ratio_b = 59",
+      "ratio_a = 92",
+      "mass_a = 9",
+      "mass_b = (ratio_b / ratio_a) * mass_a"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "ratio_b = 42",
+      "ratio_a = 80",
+      "mass_a = 135",
+      "mass_b = (ratio_b / ratio_a) * mass_a"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ratio_b = 94",
+      "ratio_a = 41",
+      "mass_a = 116",
+      "mass_b = (ratio_b / ratio_a) * mass_a"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ratio_b = 82",
+      "ratio_a = 88",
+      "mass_a = 134",
+      "mass_b = (ratio_b / ratio_a) * mass_a"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "mass_b = (ratio_b / ratio_a) * mass_a"
+   ]
+  }
+ ]
+}

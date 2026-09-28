@@ -36,7 +36,16 @@
      "explain": "only the velocity part across the field counts, giving qvB sin(theta)",
      "compute": "mag_force = vb_term * sin_tilt"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mag_force = charge * speed * mag_field * sin_tilt",
+     "compute": "mag_force = charge * speed * mag_field * sin_tilt"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph104.4.2.3.1",
@@ -68,7 +77,16 @@
      "explain": "magnitude is IlB sin(theta) with theta between wire and field",
      "compute": "wire_force = il_term * mag_field * sin_tilt"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "wire_force = current * length * mag_field * sin_tilt",
+     "compute": "wire_force = current * length * mag_field * sin_tilt"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph104.4.2.3.2",
@@ -100,7 +118,16 @@
      "explain": "setting IlB equal to the weight gives B = mg over Il",
      "compute": "mag_field = weight / (current * length)"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mag_field = mass * gravity_acc / (current * length)",
+     "compute": "mag_field = mass * gravity_acc / (current * length)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph104.4.3.1",
@@ -132,7 +159,16 @@
      "explain": "qvB supplies the centripetal force, so r = mv over qB",
      "compute": "orbit_radius = momentum / (charge * mag_field)"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "orbit_radius = mass * speed / (charge * mag_field)",
+     "compute": "orbit_radius = mass * speed / (charge * mag_field)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph104.4.3.2",
@@ -164,7 +200,16 @@
      "explain": "the ordinary frequency is qB over 2 pi m",
      "compute": "cyclotron_freq = qb_term / (2 * pi * mass)"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "cyclotron_freq = charge * mag_field / (2 * pi * mass)",
+     "compute": "cyclotron_freq = charge * mag_field / (2 * pi * mass)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph104.4.3.3",
@@ -202,7 +247,16 @@
      "explain": "during one turn the axial component carries the particle a distance p = v_parallel T",
      "compute": "pitch = gyro_period * speed_parallel"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "pitch = gyro_period * speed_parallel",
+     "compute": "pitch = gyro_period * speed_parallel"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph104.4.4.1",
@@ -234,14 +288,23 @@
      "explain": "dB = prefactor times I dl sin(theta) over r squared",
      "compute": "element_field = prefactor * current * element_len * sin_tilt / distance ** 2"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "element_field = prefactor * current * element_len * sin_tilt / distance ** 2",
+     "compute": "element_field = prefactor * current * element_len * sin_tilt / distance ** 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph104.4.5.1",
    "title": "Field at the Centre of a Circular Coil",
    "section": "4.5",
    "definition": "Adding the Biot-Savart slices around a circular loop of radius R gives a centre field mu0 I over 2R, and an N-turn coil multiplies that by N because the same current loops N times.",
-   "formula": "centre_field = mu0 * turns * current / (2 * radius)",
+   "formula": "centre_field = mu_0 * turns * current / (2 * radius)",
    "key_idea": "Every element contributes in the same direction at the centre, so the whole circumference sums cleanly; more turns stack the field linearly.",
    "textbook_ref": "leph104.txt section 4.5 (Eq. 4.12, Examples 4.5-4.6, semicircular arc half-value)",
    "question_patterns": [
@@ -266,14 +329,23 @@
      "explain": "the centre result is mu0 N I over 2R",
      "compute": "centre_field = numerator / (2 * radius)"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "centre_field = mu_0 * turns * current / (2 * radius)",
+     "compute": "centre_field = mu_0 * turns * current / (2 * radius)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph104.4.5.2",
    "title": "Axial Field of a Circular Current Loop",
    "section": "4.5",
    "definition": "Along the symmetry axis a distance x from the loop centre, only the axial components of the element fields survive because the sideways parts cancel in pairs, leaving B = mu0 I R squared over 2 (x squared plus R squared) to the power 3/2.",
-   "formula": "axial_field = mu0 * current * radius ** 2 / (2 * (axial_dist ** 2 + radius ** 2) ** 1.5)",
+   "formula": "axial_field = mu_0 * current * radius ** 2 / (2 * (axial_dist ** 2 + radius ** 2) ** 1.5)",
    "key_idea": "At the centre x = 0 this collapses to mu0 I over 2R, and far away it fades like 1 over x cubed.",
    "textbook_ref": "leph104.txt section 4.5 (Eqs. 4.9-4.11, cancellation of perpendicular components)",
    "question_patterns": [
@@ -298,14 +370,23 @@
      "explain": "B = mu0 I R squared over 2 times that denominator",
      "compute": "axial_field = mu0 * current * radius ** 2 / (2 * denom)"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "axial_field = mu_0 * current * radius ** 2 / (2 * (axial_dist ** 2 + radius ** 2) ** 1.5)",
+     "compute": "axial_field = mu_0 * current * radius ** 2 / (2 * (axial_dist ** 2 + radius ** 2) ** 1.5)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph104.4.6.1",
    "title": "Ampere's Circuital Law",
    "section": "4.6",
    "definition": "Around any closed loop that bounds a surface pierced by current, adding up B dot dl segment by segment gives mu0 times the enclosed current; with the right-hand sign convention the curled fingers set the positive current sense.",
-   "formula": "enclosed_term = mu0 * enclosed_current",
+   "formula": "enclosed_term = mu_0 * enclosed_current",
    "key_idea": "The law always holds, but it solves for B by hand only when symmetry makes B constant along part of the loop and zero or sideways elsewhere, reducing it to B L = mu0 Ie.",
    "textbook_ref": "leph104.txt section 4.6 (Eqs. 4.13a-4.13b, comparison with Gauss law)",
    "question_patterns": [
@@ -316,7 +397,7 @@
     "explain the amperian loop choice for a symmetric current setup",
     "why can Ampere's law not directly give the centre field of a single circular loop"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -333,14 +414,23 @@
      "action": "equate to mu0 times enclosed current",
      "explain": "BL = mu0 Ie then solves for the field magnitude"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "enclosed_term = mu_0 * enclosed_current",
+     "compute": "enclosed_term = mu_0 * enclosed_current"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph104.4.6.2",
    "title": "Field of a Long Straight Current",
    "section": "4.6",
    "definition": "A circular amperian loop around an infinitely long wire has constant tangential B, so the field at distance r outside is mu0 I over 2 pi r, circling the wire; inside a thick wire of radius a it grows linearly as mu0 I r over 2 pi a squared.",
-   "formula": "wire_field = mu0 * current / (2 * pi * distance)",
+   "formula": "wire_field = mu_0 * current / (2 * pi * distance)",
    "key_idea": "The field lines are closed circles around the wire, magnitude set only by r, and the right-hand grip rule gives the sense.",
    "textbook_ref": "leph104.txt section 4.6 (Eq. 4.14, 4.15a-4.15b, Example 4.7, Exercises 4.2-4.4)",
    "question_patterns": [
@@ -365,14 +455,23 @@
      "explain": "so B = mu0 I over 2 pi r outside the wire",
      "compute": "wire_field = enclosed_term / (2 * pi * distance)"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "wire_field = mu_0 * current / (2 * pi * distance)",
+     "compute": "wire_field = mu_0 * current / (2 * pi * distance)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph104.4.7.1",
    "title": "Field Inside a Long Solenoid",
    "section": "4.7",
    "definition": "Inside a solenoid much longer than its radius the field is nearly uniform and axial; a rectangular amperian loop threading n turns per unit length gives B = mu0 n I, while the outside field is taken as negligible.",
-   "formula": "sol_field = mu0 * turns_per_len * current",
+   "formula": "sol_field = mu_0 * turns_per_len * current",
    "key_idea": "Turn density, not total turns, controls the field: B = mu0 n I with n = total turns over length.",
    "textbook_ref": "leph104.txt section 4.7 (Eq. 4.16, Example 4.8 solenoid field 6.28e-3 T)",
    "question_patterns": [
@@ -397,14 +496,23 @@
      "explain": "the interior field is mu0 n I",
      "compute": "sol_field = mu0 * turns_per_len * current"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "sol_field = mu_0 * turns_per_len * current",
+     "compute": "sol_field = mu_0 * turns_per_len * current"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph104.4.8.1",
    "title": "Force Between Parallel Currents",
    "section": "4.8",
    "definition": "Two long parallel conductors a distance d apart exchange a force per unit length mu0 Ia Ib over 2 pi d: same-direction currents attract, opposite ones repel, and this relation fixes the SI ampere via the 2e-7 N/m benchmark.",
-   "formula": "force_per_len = mu0 * current_a * current_b / (2 * pi * separation)",
+   "formula": "force_per_len = mu_0 * current_a * current_b / (2 * pi * separation)",
    "key_idea": "One wire's field pushes the other through the Il x B force; mutual forces stay equal and opposite, and attraction for like currents is the reverse of charges.",
    "textbook_ref": "leph104.txt section 4.8 (Eqs. 4.17-4.19, ampere definition, Example 4.9, Exercise 4.7)",
    "question_patterns": [
@@ -435,7 +543,16 @@
      "explain": "multiply the per-length force by the segment length",
      "compute": "segment_force = force_per_len * seg_len"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "force_per_len = mu_0 * current_a * current_b / (2 * pi * separation)",
+     "compute": "force_per_len = mu_0 * current_a * current_b / (2 * pi * separation)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph104.4.9.1",
@@ -467,7 +584,16 @@
      "explain": "m = N I A is the dipole moment of the loop",
      "compute": "mag_moment = turns * current * area"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mag_moment = turns * current * area",
+     "compute": "mag_moment = turns * current * area"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph104.4.9.2",
@@ -499,7 +625,16 @@
      "explain": "torque magnitude is m B sin(theta) with theta between m and B",
      "compute": "loop_torque = mag_moment * mag_field * sin_tilt"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "loop_torque = mag_moment * mag_field * sin_tilt",
+     "compute": "loop_torque = mag_moment * mag_field * sin_tilt"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph104.4.10.1",
@@ -531,7 +666,16 @@
      "explain": "setting k phi equal to NIAB yields the deflection",
      "compute": "deflection = mag_torque / spring_const"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "deflection = turns * area * mag_field * current / spring_const",
+     "compute": "deflection = turns * area * mag_field * current / spring_const"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph104.4.10.2",
@@ -563,7 +707,16 @@
      "explain": "parallel combination is product over sum, close to the shunt when it is tiny",
      "compute": "shunt_equiv = resist_product / (coil_resist + shunt_resist)"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "shunt_equiv = coil_resist * shunt_resist / (coil_resist + shunt_resist)",
+     "compute": "shunt_equiv = coil_resist * shunt_resist / (coil_resist + shunt_resist)"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -573,10 +726,25 @@
    "concept": "leph104.4.2.3.2",
    "question_type": "levitation_field_balance",
    "question_pattern": "A straight wire of mass {mass} kg and length {length} m carries {current} A and hangs in mid-air inside a horizontal field. What B keeps it suspended?",
-   "extracted_variables": {"mass": 0.2, "gravity_acc": 9.8, "current": 2.0, "length": 1.5},
+   "extracted_variables": {
+    "mass": 0.2,
+    "gravity_acc": 9.8,
+    "current": 2.0,
+    "length": 1.5
+   },
    "solution_template": [
-    {"step": 1, "action": "weight of the wire", "explain": "mg pulls down", "compute": "weight = mass * gravity_acc"},
-    {"step": 2, "action": "balance against IlB", "explain": "B = mg over Il", "compute": "mag_field = weight / (current * length)"}
+    {
+     "step": 1,
+     "action": "weight of the wire",
+     "explain": "mg pulls down",
+     "compute": "weight = mass * gravity_acc"
+    },
+    {
+     "step": 2,
+     "action": "balance against IlB",
+     "explain": "B = mg over Il",
+     "compute": "mag_field = weight / (current * length)"
+    }
    ]
   },
   {
@@ -585,11 +753,31 @@
    "concept": "leph104.4.3.1",
    "question_type": "orbit_radius_and_frequency",
    "question_pattern": "An electron of mass {mass} kg and charge {charge} C moves at {speed} m/s across a {mag_field} T field. Find its circle radius and revolution frequency.",
-   "extracted_variables": {"mass": 9.0e-31, "speed": 3.0e+07, "charge": 1.6e-19, "mag_field": 6.0e-04},
+   "extracted_variables": {
+    "mass": 9e-31,
+    "speed": 30000000.0,
+    "charge": 1.6e-19,
+    "mag_field": 0.0006
+   },
    "solution_template": [
-    {"step": 1, "action": "momentum", "explain": "p = mv", "compute": "momentum = mass * speed"},
-    {"step": 2, "action": "radius", "explain": "r = mv over qB", "compute": "orbit_radius = momentum / (charge * mag_field)"},
-    {"step": 3, "action": "revolution frequency", "explain": "nu = qB over 2 pi m", "compute": "cyclotron_freq = charge * mag_field / (2 * pi * mass)"}
+    {
+     "step": 1,
+     "action": "momentum",
+     "explain": "p = mv",
+     "compute": "momentum = mass * speed"
+    },
+    {
+     "step": 2,
+     "action": "radius",
+     "explain": "r = mv over qB",
+     "compute": "orbit_radius = momentum / (charge * mag_field)"
+    },
+    {
+     "step": 3,
+     "action": "revolution frequency",
+     "explain": "nu = qB over 2 pi m",
+     "compute": "cyclotron_freq = charge * mag_field / (2 * pi * mass)"
+    }
    ]
   },
   {
@@ -598,10 +786,25 @@
    "concept": "leph104.4.7.1",
    "question_type": "solenoid_field",
    "question_pattern": "A solenoid {solenoid_len} m long has {total_turns} turns and carries {current} A. What is the field inside near its centre?",
-   "extracted_variables": {"total_turns": 500.0, "solenoid_len": 0.5, "current": 5.0, "mu0": 1.2566e-06},
+   "extracted_variables": {
+    "total_turns": 500.0,
+    "solenoid_len": 0.5,
+    "current": 5.0,
+    "mu0": 1.2566e-06
+   },
    "solution_template": [
-    {"step": 1, "action": "turn density", "explain": "n = N over L", "compute": "turns_per_len = total_turns / solenoid_len"},
-    {"step": 2, "action": "interior field", "explain": "B = mu0 n I", "compute": "sol_field = mu0 * turns_per_len * current"}
+    {
+     "step": 1,
+     "action": "turn density",
+     "explain": "n = N over L",
+     "compute": "turns_per_len = total_turns / solenoid_len"
+    },
+    {
+     "step": 2,
+     "action": "interior field",
+     "explain": "B = mu0 n I",
+     "compute": "sol_field = mu0 * turns_per_len * current"
+    }
    ]
   },
   {
@@ -610,11 +813,32 @@
    "concept": "leph104.4.8.1",
    "question_type": "parallel_wire_force",
    "question_pattern": "Two long parallel wires {separation} m apart carry {current_a} A and {current_b} A in the same direction. What force acts on a {seg_len} m section of one wire?",
-   "extracted_variables": {"current_a": 8.0, "current_b": 5.0, "separation": 0.04, "seg_len": 0.1, "mu0": 1.2566e-06},
+   "extracted_variables": {
+    "current_a": 8.0,
+    "current_b": 5.0,
+    "separation": 0.04,
+    "seg_len": 0.1,
+    "mu0": 1.2566e-06
+   },
    "solution_template": [
-    {"step": 1, "action": "current product", "explain": "Ia times Ib", "compute": "current_product = current_a * current_b"},
-    {"step": 2, "action": "per-length force", "explain": "mu0 Ia Ib over 2 pi d", "compute": "force_per_len = mu0 * current_product / (2 * pi * separation)"},
-    {"step": 3, "action": "segment force", "explain": "multiply by the section length", "compute": "segment_force = force_per_len * seg_len"}
+    {
+     "step": 1,
+     "action": "current product",
+     "explain": "Ia times Ib",
+     "compute": "current_product = current_a * current_b"
+    },
+    {
+     "step": 2,
+     "action": "per-length force",
+     "explain": "mu0 Ia Ib over 2 pi d",
+     "compute": "force_per_len = mu0 * current_product / (2 * pi * separation)"
+    },
+    {
+     "step": 3,
+     "action": "segment force",
+     "explain": "multiply by the section length",
+     "compute": "segment_force = force_per_len * seg_len"
+    }
    ]
   },
   {
@@ -623,11 +847,32 @@
    "concept": "leph104.4.9.2",
    "question_type": "coil_torque",
    "question_pattern": "A square coil of side {side_len} m with {turns} turns carries {current} A; its normal makes an angle with sine {sin_tilt} to a {mag_field} T field. Find the torque.",
-   "extracted_variables": {"side_len": 0.1, "turns": 20.0, "current": 12.0, "mag_field": 0.8, "sin_tilt": 0.5},
+   "extracted_variables": {
+    "side_len": 0.1,
+    "turns": 20.0,
+    "current": 12.0,
+    "mag_field": 0.8,
+    "sin_tilt": 0.5
+   },
    "solution_template": [
-    {"step": 1, "action": "coil area", "explain": "square area is side squared", "compute": "area = side_len ** 2"},
-    {"step": 2, "action": "magnetic moment", "explain": "m = N I A", "compute": "mag_moment = turns * current * area"},
-    {"step": 3, "action": "torque with tilt", "explain": "tau = m B sin(theta)", "compute": "loop_torque = mag_moment * mag_field * sin_tilt"}
+    {
+     "step": 1,
+     "action": "coil area",
+     "explain": "square area is side squared",
+     "compute": "area = side_len ** 2"
+    },
+    {
+     "step": 2,
+     "action": "magnetic moment",
+     "explain": "m = N I A",
+     "compute": "mag_moment = turns * current * area"
+    },
+    {
+     "step": 3,
+     "action": "torque with tilt",
+     "explain": "tau = m B sin(theta)",
+     "compute": "loop_torque = mag_moment * mag_field * sin_tilt"
+    }
    ]
   }
  ],

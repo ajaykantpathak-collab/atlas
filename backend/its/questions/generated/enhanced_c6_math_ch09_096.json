@@ -34,6 +34,36 @@
      "q": "If you were asked to record the eye color of every student in your school, how would you design a data collection sheet to make organizing it later easier?",
      "a": "A good design lists the possible eye colors as column headers or row labels so that you only need to add a tally mark as you walk through the school. A poor answer (like just \"I would write them in a notebook\") fails to recognize that pre-organizing the labels makes the actual data collection much faster and less error-prone.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Data handling is the process of collecting, organizing, and ______ raw information (data) into a structured format like a table or graph so that we can easily understand patterns and draw conclusions.",
+     "a": "summarizing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to find out the ______ fruit of everyone in your class.",
+     "a": "favorite",
+     "self_check": true
+    },
+    {
+     "q": "What is Data handling? State the definition given in this lesson.",
+     "a": "Data handling is the process of collecting, organizing, and summarizing raw information (data) into a structured format like a table or graph so that we can easily understand patterns and draw conclusions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You ask ______ friends, and they shout out different answers: \"Mango,\" \"Apple,\" \"Mango,\" \"Banana,\" etc.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Data handling?",
+     "a": "Students often \"skip\" the diagonal line for the fifth tally, simply drawing five vertical lines (|||||).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to convert a raw, unordered list of items into a frequency table using tally marks and interpret the resulting data to answer questions about the most or least frequent occurrences.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a **school-level e-waste collection campaign** that complies with the 2016 Rules and maximizes diversion from the informal sector. Your plan must specify: (a) collection categories (Schedule I codes), (b) authorized partner selection criteria, (c) data tracking method, and (d) one awareness activity that addresses a specific behavioral barrier.",
      "a": "**Sample Plan:**  \n(a) **Categories**: ITEW1 (PCs/laptops), ITEW2 (mobile phones), ITEW3 (chargers/cables), CEEW5 (TVs/monitors) — only Schedule I items.  \n(b) **Partner**: Must hold valid SPCB Authorization (Form 1(a)), provide GPS-tracked vehicle for pickup, issue Form 6 certificates per batch, and show downstream vendor list for CRT glass/batteries.  \n(c) **Tracking**: Digital log (Google Form/Excel) with fields: Date, Item Code, Weight (kg), Serial No. (if any), Collector ID, Form 6 Ref. No. — uploaded to school website monthly.  \n(d) **Awareness Activity**: \"Exchange Week\" — students deposit old chargers/earphones (ITEW3) and receive a **repaired/refurbished accessory** (collected from previous drives, tested by IT club). Addresses barrier: *\"My old charger works fine, why give it away?\"* by demonstrating **reuse > recycle** and giving immediate tangible value.  \nPoor answers list generic \"posters\" or \"talks\" without linking to a specific behavioral barrier or Rules-compliant documentation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: E-Waste (Electronic Waste) refers to discarded electrical or electronic devices such as computers, mobile phones, televisions, and ______ that have reached the end of their useful life.",
+     "a": "refrigerators",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family just upgraded from a 5-year-old CRT ______ to a new smart TV.",
+     "a": "television",
+     "self_check": true
+    },
+    {
+     "q": "What is E-Waste (Electronic Waste)? State the definition given in this lesson.",
+     "a": "E-Waste (Electronic Waste) refers to discarded electrical or electronic devices such as computers, mobile phones, televisions, and refrigerators that have reached the end of their useful life.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family just upgraded from a ______-year-old CRT television to a new smart TV.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Classify a given electronic item as e-waste or non-e-waste and justify the classification based on its components and end-of-life status.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a pedigree scenario (describe in words, 3 generations minimum) where an autosomal dominant disorder appears to \"skip a generation\" due to incomplete penetrance. Explain how you would distinguish this from autosomal recessive inheritance using additional data.",
      "a": "Scenario: Grandfather affected (Aa), his daughter unaffected but genotypically Aa (non-penetrant), her son affected (Aa). Appears to skip generation. Distinction: In recessive, the \"skipped\" individual would be a carrier (Aa) by necessity; in dominant with incomplete penetrance, the \"skipped\" individual has the mutant allele but no phenotype. Molecular testing (genotyping) of the unaffected daughter would reveal the mutant allele in dominant case; in recessive, she would be a carrier only if both her parents were carriers. A poor answer fails to propose a definitive test (genotyping) or confuses non-penetrance with variable expressivity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Autosomal recessive disorders require homozygous recessive genotype (two mutant alleles) for phenotypic expression, with ______ being asymptomatic carriers; autosomal dominant disorders manifest in heterozygous condition (one mutant allele), where homozygous dominant is often lethal.",
+     "a": "heterozygotes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a young couple in Maharashtra consulting a genetic ______ because the husband's sister has sickle cell anaemia, but neither parent shows symptoms.",
+     "a": "counsellor",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If he is a carrier and wife is not, risk is zero; if both carriers, ______% risk per pregnancy.",
+     "a": "25",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently: (1) interpret multi-generation pedigree charts to determine mode of inheritance (autosomal recessive vs dominant), (2) assign genotypes to all individuals using allele symbols, (3) calculate recurrence probabilities for future offspring given specific parental genotypes, and (4) distinguish carrier status from.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a young couple in ______ consulting a genetic counsellor because the husband's sister has sickle cell anaemia, but neither parent shows symptoms.",
+     "a": "Maharashtra",
+     "self_check": true
     }
    ]
   }

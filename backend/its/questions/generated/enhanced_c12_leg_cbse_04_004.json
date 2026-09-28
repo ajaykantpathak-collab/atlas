@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_04_004",
+   "title": "c12_leg_cbse_04_004",
+   "questions": [
+    {
+     "q": "What is the period of limitation for filing a suit for damages in tort (e.g., negligence, nuisance) under the Limitation Act, 1963, and from when does it start running?",
+     "a": "The limitation period is **3 years** from the date when the cause of action accrues (i.e., when the injury occurs or is discovered). A wrong answer (e.g., \"12 years\" or \"from date of knowledge only\") reveals confusion with contract limitation (3 years for written contracts but different start point) or the \"discovery rule\" misapplication — in tort, cause of action usually starts at injury, not knowledge, except for latent injuries (e.g., medical negligence with delayed diagnosis).",
+     "self_check": true
+    },
+    {
+     "q": "A plaintiff files a tort suit in a District Court for ₹15 lakh damages. The defendant objects, claiming the suit should be in the High Court. Is the objection valid? Explain the pecuniary jurisdiction rule.",
+     "a": "The objection is **invalid** if the District Court's pecuniary limit (set by the State Government) is ₹15 lakh or higher. Pecuniary jurisdiction is determined by the **value of the claim** in the plaint, not the defendant's preference. A wrong answer (e.g., \"High Court has original jurisdiction over all tort suits\") reveals confusion between original jurisdiction of High Courts (which varies by state — e.g., Delhi HC: ₹2 crore+, Bombay HC: ₹1 crore+) and the general rule that District Courts are courts of first instance for most civil suits.",
+     "self_check": true
+    },
+    {
+     "q": "In a nuisance suit, the plaintiff fears the defendant will demolish the disputed structure before judgment. Which CPC provision allows the court to restrain the defendant, and what two conditions must the plaintiff satisfy?",
+     "a": "**Order XXXIX Rule 1 & 2 CPC** (temporary injunction). The plaintiff must show: (1) **prima facie case** (serious question to be tried), (2) **irreparable injury** if injunction denied, and (3) **balance of convenience** in their favour. A wrong answer citing \"Section 9 CPC\" or \"Article 226\" reveals confusion between inherent jurisdiction of civil courts, writ jurisdiction (HC only), and the specific statutory power for interim relief in a pending suit.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the appellate route for a tort decree from a District Court in Delhi vs. a tort decree from a District Court in a state without a High Court bench. How does the forum affect the first appeal?",
+     "a": "In Delhi, the first appeal lies to the **Delhi High Court** (original + appellate). In a state without a High Court bench (e.g., earlier in Telangana before 2019), the first appeal still lies to the **High Court having territorial jurisdiction** (e.g., Andhra Pradesh HC for Telangana districts pre-2019). The forum doesn't change the appellate hierarchy — **High Court is always the first appellate court for District Court decrees** under Section 96 CPC. A wrong answer suggesting \"appeal to Supreme Court directly\" or \"no appeal if no local HC bench\" reveals ignorance of the integrated judiciary structure.",
+     "self_check": true
+    },
+    {
+     "q": "A tort decree awards ₹10 lakh. The judgment debtor owns a car (₹8 lakh) and a bank FD (₹5 lakh). The decree holder files execution petition. Which asset should be attached first for maximum efficiency, and why? Cite the relevant CPC principle.",
+     "a": "Attach the **bank FD first** — it is **liquid, easily realizable, and requires no valuation/sale process** (Order XXI Rule 46 CPC: attachment of debts). Attaching the car requires seizure, valuation, auction (Rules 54-57), causing delay and depreciation. A wrong answer choosing the car reveals misunderstanding of **execution efficiency** — the goal is fastest recovery, not just any attachment. This tests practical procedural strategy.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-step procedural checklist for a law intern assisting a senior advocate in a defamation suit (plaintiff side) from filing to interim relief. Include specific CPC orders/rules.",
+     "a": "1. **Verify limitation** (1 year for libel/slander — Article 75 Limitation Act) and **jurisdiction** (place of publication + plaintiff's residence — Section 19 CPC).  \n2. **Draft plaint** with cause title, facts (exact words, date, mode), imputations, special damages (if any), and reliefs (injunction + damages + costs) — Order VII Rules 1, 3, 7.  \n3. **File plaint**, pay **ad valorem court fee** (Schedule I, Court Fees Act), serve **summons** via court — Order V.  \n4. **File IA under Order XXXIX Rule 1 & 2** for **ad interim ex parte injunction** to restrain further publication — support with affidavit, prima facie case, irreparable harm to reputation.  \n5. **Monitor compliance**: if defendant publishes again, file **contempt petition** (Order XXXIX Rule 2A).  \nA poor answer omits defamation-specific steps (special damages, 1-year limitation, ex parte injunction urgency) or cites generic steps — revealing **lack of tort-procedure integration**.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

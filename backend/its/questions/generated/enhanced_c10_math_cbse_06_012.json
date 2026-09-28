@@ -34,6 +34,26 @@
      "q": "Construct a geometry problem where you need to prove that a line segment divides two sides of a triangle in the ratio 3:4, using either BPT or similarity criteria. Provide the given information, a diagram description, and the proof outline.",
      "a": "Example: In ΔXYZ, line PQ is drawn parallel to YZ with P on XY, Q on XZ. Given XP = 6 cm, PY = 8 cm, prove that XQ/QZ = 3/4. Proof: By BPT, XP/PY = XQ/QZ = 6/8 = 3/4. A poor answer reveals inability to design a problem with appropriate given data, or confusion between BPT and similarity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Proving ratios using BPT and similarity criteria involves establishing the equality of ratios of corresponding sides or segments in triangles by applying the Basic ______ Theorem (if a line is drawn parallel to one side of a triangle, it divides the other two sides proportionally) or by proving triangles similar using AAA, AA, SSS, or SAS criteria and then using the property that corresponding sides of similar triangles are proportional.",
+     "a": "Proportionality",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a triangular garden bed and need to place a straight pathway ______ to one side.",
+     "a": "parallel",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently identify the appropriate theorem (BPT, Converse of BPT, or similarity criteria) to prove a given ratio equality in a geometric figure, construct a step-by-step proof with proper justifications, and solve problems requiring multiple applications of these theorems.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ garden bed and need to place a straight pathway parallel to one side.",
+     "a": "triangular",
+     "self_check": true
     }
    ]
   }

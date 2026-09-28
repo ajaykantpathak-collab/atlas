@@ -34,6 +34,21 @@
      "q": "Design a classroom activity using only a world map, scissors, and fossil locality data (provided as latitude/longitude coordinates for *Mesosaurus*, *Glossopteris*, *Lystrosaurus*, *Cynognathus*) that demonstrates continental drift to a Class 9 student. Specify the steps and the \"aha!\" moment.",
      "a": "Steps: (1) Plot each fossil genus as coloured dots on a modern world map. (2) Cut out the continental shapes along the *continental shelf edge* (not coastline). (3) Reassemble continents to minimise fossil separation — *Mesosaurus* dots from Brazil and South Africa should touch; *Glossopteris* dots should form a continuous band. (4) Observe that the fit aligns *all four* fossil distributions simultaneously. The \"aha!\" moment: no single land bridge can explain all four distributions at once — only a unified Gondwana does. A poor activity (e.g., using coastlines instead of shelf edges, or plotting only one fossil) misses the multi-evidence convergence that makes the case incontrovertible.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Fossil and rock age evidence for continental drift refers to the correlation of identical fossil species (e.g., *Mesosaurus*, *______*, *Lystrosaurus*, *Cynognathus*) and matching geological formations of the same age (e.g., Gondwana tillites, Appalachian-Caledonian mountain belts) found on now-separated continents, indicating these landmasses were once joined as Pangaea.",
+     "a": "Glossopteris",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine finding the same distinctive *______* leaf fossil in a coal mine in Jharkhand, India, and then seeing an identical fossil in a museum display from Antarctica — 7,000 km away across the Indian Ocean.",
+     "a": "Glossopteris",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify four key fossil genera and their distribution across southern continents, explain how the Gondwana rock sequence correlates across South America, Africa, India, Australia, and Antarctica, and justify why this distribution cannot be explained by land bridges or independent evolution.",
+     "self_check": true
     }
    ]
   }

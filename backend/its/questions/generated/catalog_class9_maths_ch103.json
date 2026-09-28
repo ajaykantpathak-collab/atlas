@@ -4,26 +4,14 @@
   {
    "id": "iemh.3.1.1",
    "title": "Natural Numbers",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "verify the number-theory claim numerically",
-     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
-     "compute": "lhs = 3 ** 3 + 4 ** 3"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
-     "compute": "diff = 5 ** 3 - lhs"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "N = 1, 2, 3, ...",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
      "a": "34",
-     "self_check": false
+     "self_check": true
     },
     {
      "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
@@ -42,7 +30,7 @@
     },
     {
      "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
-     "a": "0",
+     "a": "18",
      "self_check": false
     },
     {
@@ -56,6 +44,8 @@
    "id": "iemh.3.2.2",
    "title": "Multiplying by Zero: Brahmagupta's Rule",
    "converted_to_compute": false,
+   "formula": "product = a * 0",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers 3 and -12.",
@@ -93,6 +83,8 @@
    "id": "iemh.3.3.1",
    "title": "Arithmetic of Integers",
    "converted_to_compute": false,
+   "formula": "product sign: like signs give plus, unlike signs give minus",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers -9 and -24.",
@@ -129,27 +121,9 @@
   {
    "id": "iemh.3.4.1",
    "title": "Definition of Rational Numbers",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the rational-number operation rules",
-     "explain": "apply the rational-number operation rules: num = 7 * 8 + 2 * 5 gives 66",
-     "compute": "num = 7 * 8 + 2 * 5"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the rational-number operation rules: den = 5 * 8 gives 40",
-     "compute": "den = 5 * 8"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the rational-number operation rules: val = num / den gives 1.65",
-     "compute": "val = num / den"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "rational = p / q with integer p, integer q and q not zero",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the rational numbers 7/5 and 2/8.",
@@ -187,6 +161,8 @@
    "id": "iemh.3.4.2",
    "title": "Multiplying Rational Numbers",
    "converted_to_compute": false,
+   "formula": "product = (a * c) / (b * d)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the rational numbers 2/4 and 1/9.",
@@ -224,6 +200,8 @@
    "id": "iemh.3.4.5",
    "title": "Adding Rational Numbers",
    "converted_to_compute": false,
+   "formula": "sum = (a * d + c * b) / (b * d)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the rational numbers 4/6 and 1/7.",
@@ -261,6 +239,8 @@
    "id": "iemh.3.4.3",
    "title": "Density of Rational Numbers",
    "converted_to_compute": false,
+   "formula": "middle_rational = (num_a + num_b) / 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the rational numbers 1/4 and 4/7.",
@@ -297,27 +277,9 @@
   {
    "id": "iemh.3.4.6",
    "title": "Representing Rationals on the Number Line",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the rational-number operation rules",
-     "explain": "apply the rational-number operation rules: num = 2 * 8 + 5 * 4 gives 36",
-     "compute": "num = 2 * 8 + 5 * 4"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the rational-number operation rules: den = 4 * 8 gives 32",
-     "compute": "den = 4 * 8"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the rational-number operation rules: val = num / den gives 1.125",
-     "compute": "val = num / den"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "denominator cuts, numerator steps, sign picks the side",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the rational numbers 2/4 and 5/8.",
@@ -355,6 +317,8 @@
    "id": "iemh.3.4.7",
    "title": "Distance Between Two Rationals",
    "converted_to_compute": false,
+   "formula": "distance = abs(a - b)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the rational numbers 7/6 and 3/7.",
@@ -391,26 +355,14 @@
   {
    "id": "iemh.3.5.1",
    "title": "Irrational Numbers",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "verify the number-theory claim numerically",
-     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
-     "compute": "lhs = 3 ** 3 + 4 ** 3"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
-     "compute": "diff = 5 ** 3 - lhs"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "diagonal of unit square = sqrt(2), which has no fraction form",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
      "a": "34",
-     "self_check": false
+     "self_check": true
     },
     {
      "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
@@ -429,7 +381,7 @@
     },
     {
      "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
-     "a": "0",
+     "a": "18",
      "self_check": false
     },
     {
@@ -442,15 +394,9 @@
   {
    "id": "iemh.3.5.2",
    "title": "Constructing Square-Root Lengths",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "square the given number using the stated square rule",
-     "explain": "square the given number using the stated square rule: sq = 36 ** 2 gives 1296",
-     "compute": "sq = 36 ** 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "OA = 1, AB = 1 gives OB = sqrt(2); arcs copy lengths",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 36.",
@@ -487,26 +433,14 @@
   {
    "id": "iemh.3.5.3",
    "title": "The Story of Pi",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "verify the number-theory claim numerically",
-     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
-     "compute": "lhs = 3 ** 3 + 4 ** 3"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
-     "compute": "diff = 5 ** 3 - lhs"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "pi/4 = 1 - 1/3 + 1/5 - 1/7 + ...",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
      "a": "34",
-     "self_check": false
+     "self_check": true
     },
     {
      "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
@@ -525,7 +459,7 @@
     },
     {
      "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
-     "a": "0",
+     "a": "18",
      "self_check": false
     },
     {
@@ -538,26 +472,14 @@
   {
    "id": "iemh.3.6.1",
    "title": "Predicting Decimal Expansion Type",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "verify the number-theory claim numerically",
-     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
-     "compute": "lhs = 3 ** 3 + 4 ** 3"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
-     "compute": "diff = 5 ** 3 - lhs"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "stop condition: bottom's primes are 2s and 5s only",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
      "a": "34",
-     "self_check": false
+     "self_check": true
     },
     {
      "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
@@ -576,7 +498,7 @@
     },
     {
      "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
-     "a": "0",
+     "a": "18",
      "self_check": false
     },
     {
@@ -589,26 +511,14 @@
   {
    "id": "iemh.3.6.2",
    "title": "Terminating Decimals to Fractions",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "verify the number-theory claim numerically",
-     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
-     "compute": "lhs = 3 ** 3 + 4 ** 3"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
-     "compute": "diff = 5 ** 3 - lhs"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "places after the point become zeros downstairs",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
      "a": "34",
-     "self_check": false
+     "self_check": true
     },
     {
      "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
@@ -627,7 +537,7 @@
     },
     {
      "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
-     "a": "0",
+     "a": "18",
      "self_check": false
     },
     {
@@ -640,26 +550,14 @@
   {
    "id": "iemh.3.6.3",
    "title": "Pure Repeating Decimals to Fractions",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "verify the number-theory claim numerically",
-     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
-     "compute": "lhs = 3 ** 3 + 4 ** 3"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
-     "compute": "diff = 5 ** 3 - lhs"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "one nine downstairs per looping digit",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
      "a": "34",
-     "self_check": false
+     "self_check": true
     },
     {
      "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
@@ -678,7 +576,7 @@
     },
     {
      "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
-     "a": "0",
+     "a": "18",
      "self_check": false
     },
     {
@@ -691,26 +589,14 @@
   {
    "id": "iemh.3.6.4",
    "title": "General Repeating Decimals to Fractions",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "verify the number-theory claim numerically",
-     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
-     "compute": "lhs = 3 ** 3 + 4 ** 3"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
-     "compute": "diff = 5 ** 3 - lhs"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "leftover bottom mixes 9s (looping) and 0s (plain) digits",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
      "a": "34",
-     "self_check": false
+     "self_check": true
     },
     {
      "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
@@ -729,7 +615,7 @@
     },
     {
      "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
-     "a": "0",
+     "a": "18",
      "self_check": false
     },
     {
@@ -742,26 +628,14 @@
   {
    "id": "iemh.3.6.5",
    "title": "Cyclic Numbers",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "verify the number-theory claim numerically",
-     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
-     "compute": "lhs = 3 ** 3 + 4 ** 3"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
-     "compute": "diff = 5 ** 3 - lhs"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "1/7 = 0.142857 with the block repeating",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
      "a": "34",
-     "self_check": false
+     "self_check": true
     },
     {
      "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
@@ -780,7 +654,7 @@
     },
     {
      "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
-     "a": "0",
+     "a": "18",
      "self_check": false
     },
     {

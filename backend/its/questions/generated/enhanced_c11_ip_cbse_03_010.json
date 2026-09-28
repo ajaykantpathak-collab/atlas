@@ -34,6 +34,31 @@
      "q": "Design a nested loop program that prints a hollow square of stars (only border) for side length n=5. The output should be:\n```\n* * * * *\n*       *\n*       *\n*       *\n* * * * *\n```\nWrite the condition inside the inner loop that decides whether to print star or space.",
      "a": "```python\nn = 5\nfor i in range(n):\n    for j in range(n):\n        if i == 0 or i == n-1 or j == 0 or j == n-1:\n            print(\"*\", end=\" \")\n        else:\n            print(\" \", end=\" \")\n    print()\n```\nA poor answer using multiple separate loops for each border reveals inability to unify border logic into a single condition using loop indices, missing the analytical skill of mapping 2D grid coordinates to geometric boundaries.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A nested loop is a programming construct where one loop (the inner loop) is placed entirely inside the body of another loop (the outer loop), causing the inner loop to execute completely for each single iteration of the outer loop, enabling the generation of two-dimensional patterns, ______ tables, and complex number series by combining iterative logic across two or more control variables.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a seating chart for a school auditorium with 10 rows and 8 seats per row — you need to print a grid ______ seat numbers like \"Row 1 Seat 1, Row 1 Seat 2...\".",
+     "a": "showing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight is that the inner loop finishes all its iterations before the outer loop moves to the next value, creating a complete row each time — this is the essence of nested iteration for ______D data generation.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently write Python programs using nested for loops with range() to generate a specified rectangular star pattern (e.g., 5 rows, 4 columns) and a number series pattern (e.g., Floyd's triangle up to n rows), correctly managing loop variables, indentation, and print formatting without syntax or logical errors.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a seating chart for a school ______ with 10 rows and 8 seats per row — you need to print a grid showing seat numbers like \"Row 1 Seat 1, Row 1 Seat 2...\".",
+     "a": "auditorium",
+     "self_check": true
     }
    ]
   }

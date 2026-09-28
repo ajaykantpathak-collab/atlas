@@ -20,7 +20,7 @@
     "identify the first and second elements of the ordered pair",
     "Explain the method of Ordered Pairs."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -59,7 +59,16 @@
      "question": "Find x if (x, 7) = (9, 7).",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 4 gives 4",
+     "compute": "count = 4"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.2.2",
@@ -76,7 +85,7 @@
     "list the Cartesian product of the given sets",
     "Explain the method of Cartesian Product of Sets."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -115,7 +124,16 @@
      "question": "If P = {m, n} and Q = {p, q, r}, write P x Q.",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 6 gives 6",
+     "compute": "count = 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.2.3",
@@ -248,7 +266,7 @@
     "write the relation shown by the arrows",
     "Explain the method of Pictorial Diagrams of Relations."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -287,7 +305,16 @@
      "question": "Write the relation represented by arrows p->3, q->5.",
      "type": "verify_property"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 6 gives 6",
+     "compute": "count = 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.2.6",
@@ -304,7 +331,7 @@
     "identify which relation represents a function",
     "Explain the method of Function as Special Type of Relation."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -343,7 +370,16 @@
      "question": "Is R = {(a, 1), (b, 2)} a function from A = {a,b,c} to B = {1,2,3}?",
      "type": "verify_property"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 6 gives 6",
+     "compute": "count = 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.2.7",
@@ -479,7 +515,7 @@
     "describe the shape of the graph of f",
     "Explain the method of Graphs of Functions."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -518,7 +554,16 @@
      "question": "Identify the function whose graph is a V-shape with vertex at the origin.",
      "type": "verify_property"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 6 gives 6",
+     "compute": "count = 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.2.10",

@@ -34,6 +34,31 @@
      "q": "Create a trigonometric equation involving a product of sine and cosine that can be solved by first applying a product-to-sum formula, then solving the resulting simple equation. Provide the equation and its general solution.",
      "a": "Example: 2 sin 2x cos x = sin 3x. Apply 2 sin x cos y = sin(x+y) + sin(x-y): sin 3x + sin x = sin 3x → sin x = 0 → x = nπ, n∈Z. A poor answer creates an equation that doesn't simplify (e.g., 2 sin x cos x = 1, which uses double-angle instead) or gives an equation with no clear path, showing inability to design problems that exploit the formula's structure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Product-to-Sum ______ Formulae convert products of trigonometric functions into sums or differences, enabling simplification of integrals, solutions of equations, and analysis of wave interference.",
+     "a": "Transformation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a physics student analysing two sound waves of slightly different ______ interfering in a concert hall – the resulting \"beats\" phenomenon is mathematically described by a product of cosines that must be transformed into a sum to find the beat frequency.",
+     "a": "frequencies",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Add them to eliminate the sine terms, yielding ______ cos A cos B = cos(A+B) + cos(A-B).",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify when to apply product-to-sum formulas in trigonometric simplification, integration, and equation-solving contexts; can derive each formula from sum/difference identities; and can solve board-level problems requiring strategic selection among the four formulas to reduce product expressions to sums.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a physics student analysing two sound waves of slightly different frequencies interfering in a concert hall – the resulting \"beats\" phenomenon is ______ described by a product of cosines that must be transformed into a sum to find the beat frequency.",
+     "a": "mathematically",
+     "self_check": true
     }
    ]
   }

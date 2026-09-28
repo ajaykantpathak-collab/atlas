@@ -1,0 +1,71 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_06_010",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_06_010",
+   "title": "c12_soc_cbse_06_010",
+   "questions": [
+    {
+     "q": "Define 'principled distance' in the context of Indian secularism as given by Rajeev Bhargava. How does it differ from 'strict separation'?",
+     "a": "**Correct answer:** Principled distance means the state may *engage with* or *disengage from* religion depending on which action promotes liberty, equality, and minority rights — it is context-sensitive, not a fixed wall. Strict separation (Western model) forbids *any* state support or interference in religion (e.g., no public funding for religious schools, no religious symbols in public institutions).  \n**Wrong answer reveals:** Student conflates Indian secularism with the Western 'wall of separation' model, missing that the Indian Constitution *explicitly* permits state aid to minority educational institutions (Art. 30) and state regulation of religious institutions (Art. 25(2)(a)). This is the single most common board-exam error — writing 'separation of religion and state' as the definition of Indian secularism.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"Article 30 gives minorities the right to establish educational institutions — that's special privilege, so India isn't truly secular.\" Using the NCERT distinction between 'secularism as equal respect' and 'secularism as separation', explain why this argument confuses the two models.",
+     "a": "**Correct answer:** The argument applies the *Western separation* model (state must be blind to religion) to the *Indian equal-respect* model (state must actively protect minorities from majority dominance). In the Indian model, secularism *requires* differential treatment to achieve substantive equality — just as affirmative action is not 'anti-equality' but a means to it. Article 30 is a safeguard against cultural majoritarianism, not favouritism.  \n**Wrong answer reveals:** Student thinks secularism = uniform treatment in all circumstances. They miss the NCERT's explicit statement: \"protection of minorities requires that they be given special consideration... But providing such protection immediately invites the accusation of favouritism or 'appeasement'.\" This confusion costs marks in 4-6 mark 'explain' questions.",
+     "self_check": true
+    },
+    {
+     "q": "The Supreme Court in *S.R. Bommai v. Union of India* (1994) held that secularism is part of the Basic Structure. A state government dismisses a ministry claiming it promoted 'Hindutva' as state policy. Using the Indian model of secularism, evaluate whether the dismissal is constitutionally valid. Give two reasons grounded in Articles 25-28.",
+     "a": "**Correct answer:** Yes, dismissal is valid. (1) Article 25 guarantees freedom of *conscience* and *profession, practice, propagation* of religion — not the imposition of one religion's ideology as state policy. (2) Article 27 prohibits compelling anyone to pay taxes for promotion of *any particular* religion; a 'Hindutva' state policy would violate this by using public resources for one faith. The Indian model permits state action to *prevent* religious majoritarianism — that is principled distance, not hostility to religion.  \n**Wrong answer reveals:** Student either says 'state cannot interfere in religion at all' (Western model misapplied) or 'Hindutva is cultural nationalism, not religion' (political rhetoric, not constitutional reasoning). They fail to cite specific Articles linking state neutrality to individual freedom (Art. 25) and fiscal neutrality (Art. 27).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Shah Bano case (1985) and the Triple Talaq verdict (2017) in terms of: (a) which Articles were invoked by the Court, (b) whether the state's subsequent legislative response (1986 Act vs 2019 Act) aligned with 'principled distance' or 'vote-bank politics'. Use the NCERT's tension between secularism and minority rights.",
+     "a": "**Correct answer:**  \n(a) Shah Bano: Court invoked Art. 125 CrPC (maintenance) and Art. 21 (right to life/dignity), *not* Art. 25 — it treated Muslim women as *citizens* first. Triple Talaq: Court invoked Art. 14 (equality), Art. 21, and Art. 25(1) — held instant talaq not 'essential religious practice'.  \n(b) 1986 Act (overturning Shah Bano) = 'appeasement' charge: state *disengaged* from reform to placate conservative clergy — **not** principled distance (which would require protecting vulnerable women). 2019 Act (criminalising triple talaq) = state *engaged* to enforce gender justice — **is** principled distance (intervening for equality).  \n**Wrong answer reveals:** Student treats both legislative responses as identical 'minority appeasement' or 'majoritarian imposition' without distinguishing *direction* of state action: 1986 Act *removed* protection; 2019 Act *added* protection. They miss NCERT's core point: principled distance = context-sensitive engagement *for* constitutional values.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Indian secularism has failed because communal riots still happen.\" Your answer must distinguish between *secularism as a state principle* and *communalism as a political ideology*, using the NCERT definition of communalism (Box 6.8).",
+     "a": "**Correct answer:** The statement commits a category error. Secularism is a *constitutional constraint on state power* (state shall not favour any religion); communalism is a *political ideology* that mobilises religious identity for power. Riots reflect failure of *law enforcement, political will, and civil society* — not the secular principle itself. NCERT: \"communalism is about politics, not about religion... communalists cultivate an aggressive political identity.\" A secular state can *fail to prevent* riots (implementation gap) without the *principle* being invalid. Blaming secularism for communalism is like blaming the Constitution for corruption.  \n**Wrong answer reveals:** Student conflates *state doctrine* with *social outcome*. They write \"secularism failed to stop riots\" — a common 2-mark answer that gets 0 because it doesn't define either term. Board marking scheme requires: (i) definition of secularism as state neutrality, (ii) definition of communalism as political mobilisation of religion, (iii) distinction between principle and practice.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-question survey to test whether a respondent understands 'principled distance' vs 'strict separation'. Each question must have two answer options that map to the two models. Explain what pattern of answers would indicate the respondent holds the Western model while living under the Indian Constitution.",
+     "a": "**Correct answer (sample survey):**  \nQ1: Should the government fund *all* religious schools equally or *N/A*? (All equally = Indian; N/A = Western)  \nQ2: Should the state ban a religious practice that discriminates against women (e.g., bar on entry)? (Yes, for equality = Indian; No, religion is private = Western)  \nQ3: Should public schools teach *comparative religion* or *no religion*? (Comparative = Indian; N/A = Western)  \n**Pattern indicating Western model:** Answers \"N/A / No / N/A\". This respondent expects the Indian state to behave like the US/French state — a fundamental mismatch with Articles 25-30.  \n**Poor answer reveals:** Student cannot operationalise the abstract distinction into concrete policy choices. They give vague questions like \"Do you support secularism?\" — unscorable. This tests *application* of the concept, not recall.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Indian secularism is a ______ principle where the state maintains principled distance from all religions — neither strictly separating religion from politics (as in the Western 'wall of separation' model) nor favouring any single religion — while actively protecting minority religious rights and allowing state intervention in religious affairs to promote social reform and equality (e.g., abolition of untouchability, regulation of religious institutions).",
+     "a": "constitutional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're reading a news headline: \"Supreme Court allows women of all ages into Sabarimala temple\" — one group calls it a victory for secularism, another calls it state ______ in religion.",
+     "a": "interference",
+     "self_check": true
+    },
+    {
+     "q": "What is Indian secularism? State the definition given in this lesson.",
+     "a": "Indian secularism is a constitutional principle where the state maintains principled distance from all religions — neither strictly separating religion from politics (as in the Western 'wall of separation' model) nor favouring any single religion — while actively protecting minority religious rights and allowing state intervention in.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then read NCERT's Box ______: the Indian Constitution *does not* ban religion from public life; it declares holidays for *all* faiths, funds minority schools, and lets the state reform Hindu personal law.",
+     "a": "6.8",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Indian secularism?",
+     "a": "The phrase 'secular state' in the Preamble (added 1976) reinforces the Western association.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Contrast the Indian model of 'principled distance' with the Western 'strict separation' model using at least three concrete constitutional provisions (Articles 25-28, 29-30); (2) Explain why the Indian state grants religious minorities special educational/cultural rights (Article 30) without violating secularism; (3).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

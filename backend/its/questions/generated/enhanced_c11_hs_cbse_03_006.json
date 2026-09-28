@@ -34,6 +34,21 @@
      "q": "Design a one-day balanced vegetarian menu for a 15-year-old adolescent girl (heavy activity) that explicitly satisfies all six characteristics of a balanced diet. Annotate each meal with the food groups included and the specific characteristic(s) it addresses.",
      "a": "A good answer provides a menu (e.g., Breakfast: Milk + Besan chilla + Orange; Lunch: Rice + Rajma + Spinach sabzi + Curd + Salad; Snack: Roasted chana + Guava; Dinner: Chapati + Soy nugget curry + Carrot-beans + Curd) with annotations like: \"Breakfast: Groups I, II, III, IV → Variety, Adequacy (protein/calcium), Proportion (cereal <75%). Lunch: Groups I, II, III, IV → RDA compliance (iron/folate from rajma+spinach), Safety margin (multiple nutrient sources).\" A poor answer lists foods without mapping to the six characteristics or misses Group IV (fruits) in main meals, showing inability to operationalise the definition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A balanced diet is a dietary pattern that incorporates a diverse variety of foods in adequate quantities and correct proportions to fulfill the Recommended Dietary Allowances (RDAs) for all essential nutrients (______, proteins, fats, vitamins, minerals, water, and fibre) for a specific individual, while providing a safety margin to withstand short-term nutrient deprivation and promote optimal health and body weight maintenance.",
+     "a": "carbohydrates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are packing a tiffin for your younger sibling who has sports ______ after school.",
+     "a": "practice",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently evaluate a given day's meal plan against the six criteria of a balanced diet (variety, adequacy, proportion, RDA compliance, safety margin, health promotion) and identify specific food group deficiencies or excesses with corrective modifications using the Five Food Group system.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Design a simple 30-year climate normals table for your school's nearest city using only temperature and rainfall. List the columns you would include and explain why each column is necessary for a farmer planning crops.",
      "a": "Columns: Month, Mean Max Temp, Mean Min Temp, Mean Rainfall, Highest Recorded Temp, Lowest Recorded Temp, Highest 24-hr Rainfall. Means guide planting/harvesting windows; extremes guide risk management (frost, heat stress, floods). A poor answer omits extremes or includes irrelevant elements (e.g., wind speed), showing the student cannot link climatic data to agricultural decision-making.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Weather is the short-term state of the atmosphere at a specific place and time, described by measurable elements like temperature, pressure, humidity, wind, and ______; climate is the long-term average (typically 30+ years) of these same elements over a region, including their variability and extremes.",
+     "a": "precipitation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world ______: ask students to check the weather app on their phone for today's temperature in Delhi and compare it with the \"normal\" temperature for this date shown in the app.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "What is Weather? State the definition given in this lesson.",
+     "a": "Weather is the short-term state of the atmosphere at a specific place and time, described by measurable elements like temperature, pressure, humidity, wind, and precipitation; climate is the long-term average (typically 30+ years) of these same elements over a region, including their variability and extremes.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Weather is the short-term state of the atmosphere at a specific place and time, described by measurable elements like temperature, pressure, humidity, wind, and precipitation; climate is the long-term average (typically ______+ years) of these same elements over a region, including their variability and extremes.",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Weather?",
+     "a": "Students think \"climate is just weather averaged over many years\" and therefore believe that if they average a few years of weather data they get climate.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish weather from climate using the elements of the atmosphere, interpret a 30-year climatological table to identify climatic patterns, and explain why a single extreme weather event does not define climate change.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Create your own matchstick pattern rule for a sequence of connected letter 'H' shapes where 1 'H' uses 7 matchsticks, 2 connected 'H's use 12 matchsticks, and 3 connected 'H's use 17 matchsticks. Write the algebraic expression for $n$ shapes.",
      "a": "The expected expression is $5n + 2$. Verification: for $n = 1$, $5(1) + 2 = 7$; for $n = 2$, $5(2) + 2 = 12$; for $n = 3$, $5(3) + 2 = 17$. A poor answer would be $7n$ or an expression where the coefficient does not match the common difference of 5 between consecutive terms.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Matchstick patterns and ______ involve observing visual geometric arrangements made of matchsticks, counting the items in each step to discover a numerical pattern, and expressing that relationship using an algebraic expression with a variable.",
+     "a": "generalisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are decorating a classroom bulletin board with triangular banners made of ______, where each triangle shares a side with the next one.",
+     "a": "matchsticks",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How many matchsticks would you need if your teacher asks you to make ______ triangles in a row?",
+     "a": "50",
+     "self_check": true
     }
    ]
   }

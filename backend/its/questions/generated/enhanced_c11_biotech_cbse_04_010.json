@@ -34,6 +34,31 @@
      "q": "Design a minimal in vitro experiment to confirm that a newly discovered catalytic activity in a crude cell extract is due to a ribozyme and not a protein enzyme. Specify controls and expected outcomes.",
      "a": "**Experiment:** Split extract into three aliquots: (1) untreated control; (2) treated with RNase A (10 µg/mL, 37°C, 30 min) then heat-inactivate RNase; (3) treated with proteinase K (100 µg/mL, 37°C, 30 min) then heat-inactivate protease. Assay catalytic activity in all three. **Controls:** Include a known protein enzyme (e.g., amylase) and known ribozyme (e.g., in vitro transcribed hammerhead) as parallel controls for nuclease/protease efficacy. **Expected outcome for ribozyme:** Activity lost in (2), retained in (3). **Expected outcome for protein enzyme:** Activity lost in (3), retained in (2). A poor answer omits protease/nuclease inactivation steps (carryover digestion during assay) or lacks proper positive/negative controls, revealing gaps in experimental design rigor.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ribozymes are RNA molecules that possess catalytic activity, capable of accelerating specific biochemical reactions without being consumed, representing a functional exception to the ______ that all enzymes are proteins.",
+     "a": "generalization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you discover an ancient recipe book where all instructions are written in a language that can also *perform* the cooking itself — that's the revolutionary idea of ______.",
+     "a": "ribozymes",
+     "self_check": true
+    },
+    {
+     "q": "What is Ribozymes? State the definition given in this lesson.",
+     "a": "Ribozymes are RNA molecules that possess catalytic activity, capable of accelerating specific biochemical reactions without being consumed, representing a functional exception to the generalization that all enzymes are proteins.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Ribozymes?",
+     "a": "Students often believe ribozymes are \"primitive\" or \"less efficient\" versions of protein enzymes that were replaced during evolution.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) distinguish ribozymes from protein enzymes based on chemical nature, catalytic mechanism, and biological roles; (2) explain the significance of ribozymes in supporting the RNA world hypothesis with specific examples like RNase P and self-splicing introns.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a signal generator, a diode (1N4007), a resistor (1 kΩ), and an oscilloscope to verify the working of a half-wave rectifier. Describe the connections, expected waveforms, and how you would measure the peak voltage and compare with the theoretical V_dc.",
      "a": "Connect the signal generator output to the diode's anode, diode's cathode to the resistor, and the other end of the resistor to ground (signal generator ground). Connect oscilloscope Channel 1 across the signal generator output (input AC) and Channel 2 across the resistor (output). Set signal generator to 50 Hz sine wave, 10 V peak. Observe Channel 1: full sine wave. Channel 2: only positive half-cycles (negative half-cycles clipped at zero). Measure peak voltage on Channel 2 (should be ~9.3 V due to diode drop). Use oscilloscope's mean measurement to get V_dc (should be ~V_m/π ≈ 3.18 V for 10 V peak, minus diode drop). Compare with theoretical V_dc = V_m/π. A poor answer would omit the diode's forward voltage drop, connect the oscilloscope incorrectly, or not know how to measure mean voltage on the oscilloscope.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A half-wave rectifier is a circuit that converts ______ current (AC) into pulsating direct current (DC) by allowing only one half-cycle (either positive or negative) of the AC input to pass through a single p-n junction diode, while blocking the other half-cycle.",
+     "a": "alternating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real-world observation: a mobile phone charger ______ 230 V AC from the wall socket into 5 V DC for charging.",
+     "a": "converts",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can draw the circuit diagram of a half-wave rectifier, explain its working during positive and negative half-cycles of AC input, sketch the input and output voltage waveforms, and calculate the average DC voltage, RMS voltage, ripple factor, and rectification efficiency for a given peak input voltage.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real-world ______: a mobile phone charger converts 230 V AC from the wall socket into 5 V DC for charging.",
+     "a": "observation",
+     "self_check": true
     }
    ]
   }

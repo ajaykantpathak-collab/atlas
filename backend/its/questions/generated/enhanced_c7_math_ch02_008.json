@@ -34,6 +34,31 @@
      "q": "Construct a multi-step arithmetic expression using at least two different types of brackets (parentheses and square brackets) and all four fundamental operations (+, -, $\\times$, $\\div$) whose final simplified value equals exactly $25$.",
      "a": "An example of a correct construction is: $100 \\div [5 + (3 \\times 5)]$. \nStep 1 (Parentheses): $3 \\times 5 = 15$. \nStep 2 (Square brackets): $5 + 15 = 20$. \nStep 3 (Division): $100 \\div 20 = 5$. (Wait, we need 25). Let's adjust: $75 - [10 + (2 \\times 5)] \\div 2 = 75 - [10 + 10] \\div 2 = 75 - 20 \\div 2 = 75 - 10 = 65$. Let's try: $30 + [50 - (10 \\times 2)] \\div 2 = 30 + [50 - 20] \\div 2 = 30 + 30 \\div 2 = 30 + 15 = 45$. Let's try: $20 + [25 - (5 \\times 2)] = 20 + [25 - 10] = 20 + 15 = 35$. Let's try: $50 - [10 + (2 \\times 5)] = 50 - [10 + 10] = 50 - 20 = 30$. Let's use: $15 + [40 \\div (8 - 4) \\times 2]$ -> $15 + [40 \\div 4 \\times 2] = 15 + [10 \\times 2] = 15 + 20 = 35$. Let's make it equal 25: $50 - [15 + (4 \\times 5)] = 50 - [15 + 20] = 50 - 35 = 15$. Let's try: $10 + [30 \\div (6 - 3) \\times 5]$ no. How about: $5 \\times [10 - (2 + 1)] = 5 \\times [10 - 3] = 5 \\times 7 = 35$. Let's try: $100 \\div [2 + (3 \\times 2)] = 100 \\div 8$. Let's use: $10 + [40 - (5 \\times 3)] = 10 + [40 - 15] = 10 + 25 = 35$. Let's try: $40 - [20 - (3 \\times 5)] = 40 - [20 - 15] = 40 - 5 = 35$. Let's try: $35 + [10 - (2 \\times 3)] \\times 0 = 35$. Let's try: $20 + [5 \\times (3 - 1)] = 20 + [5 \\times 2] = 20 + 10 = 30$. Let's try: $5 + [20 - (4 \\times 2)] \\times 2 = 5 + [20 - 8] \\times 2 = 5 + 12 \\times 2 = 5 + 24 = 29$. Let's try: $25 - 0 = 25$, e.g., $30 - [10 - (2 \\times 2)] = 30 - [10 - 4] = 30 - 6 = 24$. Let's try: $20 + [30 \\div (3 + 2)] = 20 + [30 \\div 5] = 20 + 6 = 26$. Let's try: $25 + [(2 - 2) \\times 10] = 25 + [0 \\times 10] = 25$. A poor answer would show a lack of bracket nesting or failure to check calculations using BODMAS.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ arithmetic expressions step by step is the process of applying the correct order of operations (BODMAS/PEMDAS) to reduce a complex combination of numbers, grouping symbols, and operations into a single simplified numerical value.",
+     "a": "Simplifying",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a ______ stationery shop in India buying 3 notebooks for ₹40 each and 2 pens for ₹15 each, but you have a discount coupon of ₹20 applicable to the total bill, plus a delivery fee of ₹10.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What is Simplifying arithmetic expressions step by step? State the definition given in this lesson.",
+     "a": "Simplifying arithmetic expressions step by step is the process of applying the correct order of operations (BODMAS/PEMDAS) to reduce a complex combination of numbers, grouping symbols, and operations into a single simplified numerical value.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Simplifying arithmetic expressions step by step?",
+     "a": "Students frequently perform addition and subtraction before multiplication and division when scanning from left to right, or they evaluate multiplication before division purely because 'M' comes before 'D' in BODMAS.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can evaluate complex multi-step arithmetic expressions containing brackets, negative integers, and fractions by strictly adhering to the order of operations, showing clear sequential intermediate steps, and arriving at the correct final numerical result.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a real-world scenario (Indian context) where you need GROUP BY on three columns, HAVING with two aggregate conditions, and ORDER BY on a computed column not in the SELECT list. Write the full query.",
      "a": "Scenario: A grocery chain `STOCK(StoreID, Category, Product, Qty, UnitPrice)` wants: \"For each store-category-product, show total stock value (Qty*UnitPrice) only where total quantity > 100 AND total value > ₹50,000, sorted by total value descending.\"\n```sql\nSELECT StoreID, Category, Product, SUM(Qty*UnitPrice) AS TotalValue\nFROM STOCK\nGROUP BY StoreID, Category, Product\nHAVING SUM(Qty) > 100 AND SUM(Qty*UnitPrice) > 50000\nORDER BY TotalValue DESC;\n```\nA poor answer uses only one GROUP BY column, puts HAVING conditions in WHERE, or orders by a column not in SELECT without realizing MySQL allows it (but standard SQL does not). This tests synthesis of all clause interactions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ORDER BY clause sorts the result set of a query in ascending (ASC) or ______ (DESC) order based on one or more columns.",
+     "a": "descending",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the data analyst for a ______'s annual sports day.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write a single SQL query that uses GROUP BY with multiple columns, applies HAVING to filter groups, and orders the final grouped result using ORDER BY, while correctly distinguishing between WHERE (row filter) and HAVING (group filter) in a scenario involving at least two joined tables.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are the data analyst for a school's annual sports day.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

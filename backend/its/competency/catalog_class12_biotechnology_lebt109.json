@@ -245,7 +245,16 @@
      "q": "In which year were human embryonic stem cells first derived: 1998 or 2010?",
      "a": "1998"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "gap_years = ipsc_year - hesc_year",
+     "compute": "gap_years = ipsc_year - hesc_year"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebt109.7",

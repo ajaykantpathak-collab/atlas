@@ -34,6 +34,21 @@
      "q": "Design a scenario for a line graph tracking water usage in a school of 500 students across a typical school day (8 AM to 2 PM), specifying two distinct times when the graph should show a steep rise and explain what activity causes each rise.",
      "a": "A good response will specify times like 9:30 AM (recess/drinking water refill time) and 12:30 PM (lunch break/washroom usage), resulting in steep upward slopes on the graph due to sudden high volume consumption. A poor response will draw random squiggles without tying the peaks to logical school activities or time increments.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Interpreting graphs involves reading visual data ______ (such as line graphs and bar graphs) to extract specific information, identify trends, make comparisons, and draw logical conclusions about real-world situations.",
+     "a": "representations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you open your school diary and see a line graph showing the daily maximum ______ of your city over a week.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can read values from horizontal and vertical axes, calculate changes between data points, identify increasing or decreasing trends, and answer analytical questions based on a given graph.",
+     "self_check": true
     }
    ]
   }

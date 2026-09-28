@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_08_001",
+   "title": "c11_app_cbse_08_001",
+   "questions": [
+    {
+     "q": "State the definition of a function in your own words, and explain why the vertical line test works to identify functions from graphs.",
+     "a": "A function is a rule that assigns exactly one output to each allowed input. The vertical line test works because a vertical line represents a single input value (x = constant); if it cuts the graph more than once, that single input has multiple outputs, violating the definition. A wrong answer (e.g., \"a function is just an equation with x and y\") reveals the student memorised notation without grasping the *uniqueness of output* — the core of the function concept.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT text says: \"Study of changes tend to be simpler if we study it by considering changes over tiny interval of time (instantaneous) rather than studying changes over a period of time.\" Explain *why* this is true, using the example of a car accelerating from 0 to 60 km/h in 10 seconds.",
+     "a": "Over the 10-second period, the car's speed changes continuously — average acceleration (6 km/h per second) hides the fact that acceleration might be high initially then drop. By studying tiny intervals (e.g., 0.1-second slices), we see how acceleration *actually varies moment to moment*. A wrong answer (e.g., \"tiny intervals are more accurate\") misses the conceptual point: **instantaneous analysis reveals the *pattern* of change, not just a better average**. This misunderstanding leads to treating limits as mere approximation tools rather than a new way to define \"rate at an instant.\"",
+     "self_check": true
+    },
+    {
+     "q": "A bacterial culture doubles every hour. At t = 3 hours, population = 8000. Write the population as a function of time, P(t). Then explain why finding \"how fast the population is growing *at exactly t = 3 hours*\" requires the concept of a limit, not just P(4) - P(3).",
+     "a": "P(t) = 1000 × 2^t (since 1000 × 2^3 = 8000). P(4) - P(3) = 8000 gives the *total growth over the 4th hour*, not the instantaneous rate at t = 3. To get the rate *at an instant*, we need lim_{h→0} [P(3+h) - P(3)]/h — the limit captures the *exact moment*, not an interval. A wrong answer using P(4)-P(3) shows the student confuses *average rate over an interval* with *instantaneous rate* — the exact gap Calculus was invented to bridge.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: \"limit of f(x) as x → a\" vs \"value of f(x) at x = a\". Give an example where they are different, and explain why this distinction is the *entire reason* continuity needs a separate definition.",
+     "a": "The limit describes behaviour *near* a (inputs approaching a), while f(a) is the *actual output at* a. Example: f(x) = (x²-1)/(x-1) has limit 2 as x→1, but f(1) is undefined. They differ because a function can have a \"hole\" at a point while behaving predictably around it. Continuity *requires* them to be equal (limit = value) — if they didn't differ, every function would be continuous automatically. A student who says \"they're basically the same\" fails to see that **limits exist independently of function values**, which is why we can define derivatives for functions with removable discontinuities.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this student claim: \"The derivative of f(x) = |x| at x = 0 is 0 because the graph has a sharp corner there and the slope looks flat.\" Is the reasoning valid? If not, what is the correct derivative (or non-existence) and why?",
+     "a": "The claim is invalid. f(x) = |x| has a sharp corner at x = 0 — the left-hand derivative is -1, right-hand derivative is +1. Since they differ, the limit defining f'(0) does not exist. The student incorrectly assumed \"looks flat\" implies zero slope, confusing visual symmetry with the *limit of the difference quotient*. A correct evaluation requires checking *both one-sided limits*. This misconception (equating visual appearance with analytical derivative) is exactly why the formal limit definition of derivative is necessary.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where a quantity changes non-linearly, and explain how you would use the *conceptual framework* of this chapter (functions → limits → continuity → derivative) to model and analyse it. Do not compute — just describe the steps.",
+     "a": "Scenario: Delhi's AQI (Air Quality Index) varies through a winter day — low at noon, peaking at 8 PM due to temperature inversion and traffic. Steps: (1) Define AQI as a function of time, f(t), using hourly data. (2) Check if f is continuous (no sudden sensor jumps). (3) To find \"rate of AQI change at 6 PM\", compute limit of [f(6+h)-f(6)]/h as h→0 — this is f'(6). (4) f'(6) > 0 means AQI rising; f'(6) < 0 means falling. (5) Use derivative to find when AQI peaks (f'(t)=0). A poor answer just says \"plot a graph and find slope\" — it misses the *sequential dependency*: you need a function first, then continuity to ensure the limit exists, then the limit *defines* the derivative. This reveals whether the student sees Calculus as a connected framework or a bag of tricks.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,125 @@
+{
+ "catalog": "catalog_class6_science_ch101.json",
+ "concepts": [
+  {
+   "id": "fesc.101.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "plant_sources = 92",
+      "animal_sources = 32",
+      "total_sources = plant_sources + animal_sources"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "plant_sources = 108",
+      "animal_sources = 94",
+      "total_sources = plant_sources + animal_sources"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "plant_sources = 13.3",
+      "animal_sources = 29",
+      "total_sources = plant_sources + animal_sources"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "plant_sources = 62",
+      "animal_sources = 27",
+      "total_sources = plant_sources + animal_sources"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "plant_sources = 56",
+      "animal_sources = 58",
+      "total_sources = plant_sources + animal_sources"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "plant_sources = 114",
+      "animal_sources = 15.7",
+      "total_sources = plant_sources + animal_sources"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_sources = plant_sources + animal_sources"
+   ]
+  },
+  {
+   "id": "fesc.101.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "initial_seed = 50",
+      "water = 53",
+      "time = 77",
+      "sprout_growth = initial_seed + water + time"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "initial_seed = 86",
+      "water = 89",
+      "time = 103",
+      "sprout_growth = initial_seed + water + time"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "initial_seed = 99",
+      "water = 87",
+      "time = 108",
+      "sprout_growth = initial_seed + water + time"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "initial_seed = 70",
+      "water = 18.6",
+      "time = 115",
+      "sprout_growth = initial_seed + water + time"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "initial_seed = 89",
+      "water = 27",
+      "time = 16",
+      "sprout_growth = initial_seed + water + time"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "initial_seed = 74",
+      "water = 24",
+      "time = 31",
+      "sprout_growth = initial_seed + water + time"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "sprout_growth = initial_seed + water + time"
+   ]
+  }
+ ]
+}

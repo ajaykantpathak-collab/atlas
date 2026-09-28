@@ -34,6 +34,31 @@
      "q": "Design a 6-month field study to monitor the migration rate of a barchan dune threatening a highway in Barmer district. Specify instruments, measurement intervals, data to collect, and how you would calculate the migration rate.",
      "a": "A good plan includes: (1) Install 3–4 GPS-marked reference stakes on the dune crest and horns. (2) Use a theodolite or differential GPS to measure stake positions monthly. (3) Record wind speed/direction from a nearby AWS (Automatic Weather Station). (4) Measure dune height, width, and slip face angle each visit. (5) Calculate migration rate = horizontal displacement of crest / time (m/month). (6) Correlate with wind events (threshold velocity > 6 m/s). Poor plans omit fixed reference points, ignore wind data, or use only visual estimates, revealing inability to design quantitative geomorphological monitoring.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Aeolian landforms are erosional and ______ features shaped by wind action in arid and semi-arid regions where vegetation is sparse and loose sediment is abundant.",
+     "a": "depositional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine standing on a sand dune near Sam, ______ at sunrise: you feel sand grains stinging your ankles (saltation) and see ripples aligned perpendicular to the wind.",
+     "a": "Jaisalmer",
+     "self_check": true
+    },
+    {
+     "q": "What is Aeolian landforms? State the definition given in this lesson.",
+     "a": "Aeolian landforms are erosional and depositional features shaped by wind action in arid and semi-arid regions where vegetation is sparse and loose sediment is abundant.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Aeolian landforms?",
+     "a": "Students often think all sand dunes are purely depositional features, ignoring that dune shape is sculpted by simultaneous erosion on the windward side and deposition on the leeward side.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can explain the formation sequence of barchan dunes, seif dunes, loess plains, and mushroom rocks with labeled cross-sectional diagrams showing wind direction, erosion zones, and deposition zones.",
+     "self_check": true
     }
    ]
   }

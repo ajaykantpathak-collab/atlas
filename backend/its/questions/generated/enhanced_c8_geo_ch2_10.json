@@ -34,6 +34,21 @@
      "q": "Design an annotated map layout plan that categorizes the Nile, Amazon, Ganga, and Mississippi based on two criteria: Primary Source Region (Glacial/Mountain vs Lake/Plateau) and Flow Direction (North, South, East, West).",
      "a": "A correct design should map:\n1. Ganga: Glacial/Mountain (Gangotri Glacier, Himalayas) -> Flows East/Southeast.\n2. Mississippi: Lake/Plateau (Lake Itasca) -> Flows South.\n3. Nile: Lake/Plateau (Lake Victoria / Ethiopian Highlands) -> Flows North.\n4. Amazon: Glacial/Mountain (Andes Mountains) -> Flows East.\nA poor answer that misplaces flow directions or miscategorizes sources indicates an inability to synthesize physical geography facts into a structured classification system.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Major world river systems—such as the Nile, Amazon, Ganga, and Mississippi—are natural flowing ______ that drain vast continental basins, shaping physical topography, climatic micro-environments, and human civilization patterns across different continents.",
+     "a": "watercourses",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you look at a map of India, you notice how cities like Varanasi and Kolkata developed along the banks of the Ganga River because of fertile soil and water ______.",
+     "a": "availability",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Students can identify, locate, and compare the key physical and geographical characteristics (origin, drainage basin, volume, length, outlet, and socio-economic role) of the Nile, Amazon, Ganga, and Mississippi rivers on a world map.",
+     "self_check": true
     }
    ]
   }

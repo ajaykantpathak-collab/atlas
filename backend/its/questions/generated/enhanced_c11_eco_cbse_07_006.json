@@ -34,6 +34,36 @@
      "q": "Design a village-level monitoring framework using three measurable indicators that would allow a Gram Sabha to detect early signs of forest degradation *before* canopy cover drops below 40%. Specify the indicator, measurement method, frequency, and the threshold that triggers intervention.",
      "a": "**Indicator 1: Regeneration density** — Count of saplings (1-10 cm DBH) per hectare in 10 random 10m×10m plots. *Method*: Quadrat sampling by village youth trained by forest guard. *Frequency*: Post-monsoon (Oct) annually. *Threshold*: <500 saplings/ha (indicates grazing pressure/fire preventing recruitment).  \n**Indicator 2: Non-timber forest produce (NTFP) yield per collector** — Total kg of mahua, tendu, amla collected divided by number of collector-days. *Method*: SHG records. *Frequency*: Seasonal (quarterly). *Threshold*: >20% decline from 5-year moving average (indicates resource depletion).  \n**Indicator 3: Stream flow duration** — Number of days/year the village stream flows perennially. *Method*: Community water calendar. *Frequency*: Monthly recording. *Threshold*: <270 days/year (indicates watershed degradation).  \nA poor answer listing only \"tree count\" or \"satellite imagery\" reveals the student cannot design *participatory, leading indicators* that capture *functional* degradation before structural collapse.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Deforestation is the permanent conversion of forest land to non-forest uses (agriculture, infrastructure, mining, settlements) resulting in a reduction of forest cover below the ecological threshold of 33% of geographical area, while biodiversity loss refers to the decline in the variety and variability of living organisms (genetic, species, and ecosystem diversity) caused by habitat fragmentation, ______, and ecosystem degradation, leading to irreversible loss of ecosystem services valued at ₹1.4 lakh crore annually in India (as per TEEB estimates).",
+     "a": "overexploitation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a policy analyst in Madhya Pradesh where a mining company seeks clearance to divert 500 hectares of dense forest for bauxite ______.",
+     "a": "extraction",
+     "self_check": true
+    },
+    {
+     "q": "What is Deforestation? State the definition given in this lesson.",
+     "a": "Deforestation is the permanent conversion of forest land to non-forest uses (agriculture, infrastructure, mining, settlements) resulting in a reduction of forest cover below the ecological threshold of 33% of geographical area, while biodiversity loss refers to the decline in the variety and variability of living organisms (genetic.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a policy analyst in Madhya Pradesh where a mining company seeks clearance to divert ______ hectares of dense forest for bauxite extraction.",
+     "a": "500",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Deforestation?",
+     "a": "Students believe deforestation and biodiversity loss are primarily driven by \"poor people cutting trees for survival\" (poverty-environment hypothesis).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Calculate the annual rate of forest cover loss using Forest Survey of India data and interpret whether it exceeds the regenerative capacity, (2) Explain the causal chain linking deforestation to biodiversity loss, soil erosion, and reduced carbon sequestration using the concept of carrying capacity, (3) Evaluate the.",
+     "self_check": true
     }
    ]
   }

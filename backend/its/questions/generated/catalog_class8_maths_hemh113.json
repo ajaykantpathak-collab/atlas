@@ -4,15 +4,9 @@
   {
    "id": "hemh.113.13.1",
    "title": "Linear Graphs and Their Uses",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "transpose the terms and divide by the coefficient",
-     "explain": "transpose the terms and divide by the coefficient: x = (42 - 14) / 4 gives 7",
-     "compute": "x = (42 - 14) / 4"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 4x + 14 = 42.",
@@ -49,27 +43,9 @@
   {
    "id": "hemh.113.13.2",
    "title": "Coordinates and Locating Points",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the coordinate-geometry formula",
-     "explain": "apply the coordinate-geometry formula: dx = 6 - -6 gives 12",
-     "compute": "dx = 6 - -6"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the coordinate-geometry formula: dy = 11 - -5 gives 16",
-     "compute": "dy = 11 - -5"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 20",
-     "compute": "dist = sqrt(dx * dx + dy * dy)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (-6, -5) and (6, 11).",
@@ -107,6 +83,8 @@
    "id": "hemh.113.13.3",
    "title": "Distance-Time Graphs",
    "converted_to_compute": false,
+   "formula": "speed = distance / time",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a frequency table the rows have frequencies 5, 5 and 8. Find the total frequency.",

@@ -34,6 +34,31 @@
      "q": "Design a complete *E. coli* expression construct for a novel human cytokine that requires two disulfide bonds for activity. Specify: (a) vector backbone, (b) promoter, (c) fusion tag and cleavage site, (d) host strain, (e) induction conditions, and (f) refolding strategy. Justify each choice.",
      "a": "A good answer: (a) pET-28a(+) (Kan^R, T7 promoter, N-terminal His-tag, thrombin site); (b) T7 promoter for high yield; (c) His-tag for IMAC purification, thrombin cleavage to remove tag; (d) BL21(DE3) pLysS (reduces basal T7 RNAP); (e) 0.5 mM IPTG at 18°C overnight to slow translation and favor folding; (f) solubilize inclusion bodies in 8 M urea, refold by rapid dilution into redox buffer (2 mM reduced/0.2 mM oxidized glutathione) at 4°C. A poor answer omits justification (e.g., “use pUC and lac promoter”) or ignores disulfide bond formation requirements.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Recombinant protein production in *E. coli* expression systems involves cloning a target gene into a bacterial expression vector, transforming *E. coli* host cells, inducing ______/translation to synthesize the protein (often as a fusion partner), and subsequently purifying and refolding the protein to obtain biologically active product.",
+     "a": "transcription",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a biotechnologist at an Indian pharma company tasked with producing human ______ in *E. coli* for diabetic patients.",
+     "a": "insulin",
+     "self_check": true
+    },
+    {
+     "q": "What is Recombinant protein production in *E? State the definition given in this lesson.",
+     "a": "Recombinant protein production in *E. coli* expression systems involves cloning a target gene into a bacterial expression vector, transforming *E. coli* host cells, inducing transcription/translation to synthesize the protein (often as a fusion partner), and subsequently purifying and refolding the protein to obtain biologically active.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Recombinant protein production in *E?",
+     "a": "Students often believe that *E. coli* can secrete recombinant human proteins into the culture medium like mammalian cells do.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can design a complete *E. coli* expression strategy for a human protein (e.g., insulin) including vector selection, promoter choice, fusion tag, cleavage method, and refolding plan, and can explain why *E. coli* cannot natively process eukaryotic secretory proteins.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_10_005",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_10_005",
+   "title": "c12_app_cbse_10_005",
+   "questions": [
+    {
+     "q": "In the standard LPP formulation, what are the three essential components, and what does the condition x ≥ 0, y ≥ 0 represent?",
+     "a": "The three components are: (1) Decision variables (quantities to decide), (2) Objective function (linear function to optimize), (3) Constraints (linear inequalities/equations including non-negativity). The conditions x ≥ 0, y ≥ 0 are **non-negativity restrictions** — they represent that decision variables (like number of items produced) cannot be negative in real life. A wrong answer (e.g., calling them \"trivial constraints\" without explaining their meaning, or omitting them entirely) reveals the student memorizes labels but doesn't understand why negative production is impossible.",
+     "self_check": true
+    },
+    {
+     "q": "A problem states: \"A factory has 100 hours of machine time available. Product A requires 2 hours per unit; Product B requires 3 hours per unit.\" A student writes the constraint as 2x + 3y = 100. Is this correct? Explain why or why not, and give the correct constraint.",
+     "a": "**Incorrect.** The phrase \"has 100 hours available\" means the factory *can use up to* 100 hours, not that it *must use exactly* 100 hours. The correct constraint is **2x + 3y ≤ 100**. Writing \"=\" forces the solution to use all 100 hours, which might not be optimal (e.g., if profit per unit of A is very low, optimal solution might use only 80 hours). A student who writes \"=\" confuses \"availability/capacity\" (upper bound → ≤) with \"requirement/demand\" (exact or lower bound → = or ≥). This is the #1 sign-error in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Formulate the LPP for: \"A dietician wants to mix two foods X and Y. Food X contains 3 units of vitamin A and 2 units of vitamin B per kg. Food Y contains 1 unit of vitamin A and 4 units of vitamin B per kg. The diet requires at least 12 units of vitamin A and at least 16 units of vitamin B. Food X costs ₹60/kg; Food Y costs ₹80/kg. Minimize cost.\" Write the complete formulation.",
+     "a": "**Formulation:**\nLet x = kg of food X, y = kg of food Y.\n**Minimize** Z = 60x + 80y (total cost)\n**Subject to:**\n3x + y ≥ 12 (vitamin A requirement: \"at least\" → ≥)\n2x + 4y ≥ 16 (vitamin B requirement: \"at least\" → ≥)\nx ≥ 0, y ≥ 0 (non-negativity)\n**Common error:** Writing constraints as ≤ because \"cost minimization\" feels like \"less is better\" — but nutrient requirements are *minimum* needs, so ≥. Wrong sign here makes the feasible region empty or unbounded in wrong direction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the constraint structures of a **Manufacturing Problem** vs. a **Diet Problem**. In which type are constraints typically \"≤\" (resource limits) and in which are they typically \"≥\" (minimum requirements)? Give one real-world reason for this difference.",
+     "a": "**Manufacturing problems** typically have **≤ constraints** (machine hours, raw material, labor — limited resources you cannot exceed). **Diet problems** typically have **≥ constraints** (minimum nutrients, calories — requirements you must meet or exceed). Reason: Manufacturing is about *not exceeding* capacity (you have 100 hrs, you use ≤ 100); Diet is about *meeting* minimum standards (body needs ≥ 12 units vitamin A). A student who says \"both use ≤\" fails to distinguish resource *availability* from nutrient *requirement* — a critical conceptual gap for competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "A transportation problem has two factories (supply 8 and 6 units) and three depots (demand 5, 5, 4). A student formulates it with 6 decision variables (x₁₁, x₁₂, x₁₃, x₂₁, x₂₂, x₂₃) and writes supply constraints as equalities (x₁₁ + x₁₂ + x₁₃ = 8) and demand constraints as equalities (x₁₁ + x₂₁ = 5, etc.). Is this formulation valid? Justify your answer.",
+     "a": "**Yes, valid — but only because total supply (14) = total demand (14).** In balanced transportation problems, supply and demand constraints are correctly written as **equalities** because every unit produced must be shipped and every unit demanded must be received — no slack allowed. If total supply > total demand, supply constraints would be ≤ (some supply unused) and demand constraints = (all demand met). A student who always writes ≤ for supply confuses transportation with manufacturing; transportation is about *exact allocation*, not *capacity limits*.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own original LPP word problem (2-3 sentences) of the **Assignment Problem** type. It must involve: (a) two types of workers with different hourly rates and efficiencies, (b) a minimum total output requirement, and (c) a maximum hours limit per worker type. Formulate it completely as an LPP.",
+     "a": "**Example problem:** \"A workshop has 5 senior artisans (₹200/hr, 10 units/hr) and 8 junior artisans (₹120/hr, 6 units/hr). At least 500 units must be produced in an 8-hour shift. No artisan works more than 8 hours. Minimize daily wage cost.\"\n**Formulation:**\nLet x = hours each senior works, y = hours each junior works.\nMinimize Z = 5×200x + 8×120y = 1000x + 960y\nSubject to:\n5×10x + 8×6y ≥ 500 → 50x + 48y ≥ 500 (output requirement)\nx ≤ 8, y ≤ 8 (max hours per artisan)\nx ≥ 0, y ≥ 0\n**Poor answer reveals:** Student cannot distinguish \"per worker\" rates from \"total\" constraints, or writes output constraint as ≤ (thinking \"maximum production\" instead of \"minimum requirement\").",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

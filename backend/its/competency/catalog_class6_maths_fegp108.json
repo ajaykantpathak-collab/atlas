@@ -22,7 +22,7 @@
     "draw a segment of 5 cm and name it AB",
     "what makes construction different from rough drawing"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -39,7 +39,16 @@
      "action": "check the answer",
      "explain": "Verify by reversing or re-counting, then conclude."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 3 gives 3",
+     "compute": "lines = 3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.8.2",
@@ -57,7 +66,7 @@
     "what is the difference between a square and a rectangle",
     "why must opposite sides be checked while constructing a rectangle"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -74,7 +83,16 @@
      "action": "check the answer",
      "explain": "Verify by reversing or re-counting, then conclude."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "square the given number using the stated square rule",
+     "explain": "square the given number using the stated square rule: sq = 27 ** 2 gives 729",
+     "compute": "sq = 27 ** 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.8.3",
@@ -92,7 +110,7 @@
     "why are right angles needed to construct a square",
     "fold a paper twice to show a right angle"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -109,7 +127,16 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 20 gives 70",
+     "compute": "other = 90 - 20"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.8.4",
@@ -127,7 +154,7 @@
     "design your own figure with 8 line segments",
     "why must joints meet exactly at endpoints"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -144,7 +171,16 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 1 gives 1",
+     "compute": "lines = 1"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

@@ -34,6 +34,31 @@
      "q": "Design a single-sheet budget template (column headings only) for a retired couple living in a tier-2 Indian city. Their income sources are pension and fixed deposit interest; expense heads must reflect their likely spending pattern. List at least 8 expense categories.",
      "a": "Columns: Category | Sub-category | Amount Allocated (₹) | Amount Spent (₹) | Total Spent (₹) | Variance (₹).\nSample 8+ categories: 1. Food (groceries, milk, fruits/veg, eating out), 2. Housing (property tax, maintenance, repairs), 3. Healthcare (medicines, check-ups, insurance premium), 4. Utilities (electricity, water, gas, phone/internet), 5. Transport (fuel, auto/taxi, bus pass), 6. Personal Care (toiletries, barber, wellness), 7. Family Support (gifts to grandchildren, festival contributions), 8. Emergency/Contingency Fund, 9. Charity/Religious, 10. Savings Reinvestment (FD renewal top-up). A poor answer with generic heads like \"Miscellaneous\" or missing Healthcare/Emergency shows the student cannot tailor categories to the *specific family's life stage* — a core budgeting skill.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A family budget is a systematic, written plan that estimates expected income and allocates it across ______ expenditure heads for a specific period (typically monthly or annually), following a five-step process: (1) listing and grouping needed commodities/services, (2) estimating costs per category, (3) estimating assured vs. possible income, (4) balancing income and expenditure, and (5) verifying the plan meets needs, allows emergencies, ensures solvency, considers external conditions, and aligns with long-term goals.",
+     "a": "categorized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your ______ wants to celebrate Diwali next month but also needs to pay school fees and save for your sister's college admission next year.",
+     "a": "family",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking: \"What does our family *need* to spend on in the next ______ days?\" Write every item — groceries, electricity, transport, festival clothes, gifts — then group them under heads like Food, Housing, Education, Festival.",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) list the five steps of budget-making in correct sequence with one-line purpose of each step, and (2) construct a single-sheet family budget for a given scenario (with income sources, expense categories, allocated vs. actual amounts) that balances and includes provision for savings and emergencies.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family wants to ______ Diwali next month but also needs to pay school fees and save for your sister's college admission next year.",
+     "a": "celebrate",
+     "self_check": true
     }
    ]
   }

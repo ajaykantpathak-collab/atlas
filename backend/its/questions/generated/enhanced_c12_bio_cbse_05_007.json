@@ -34,6 +34,31 @@
      "q": "Design a Drosophila cross to determine whether two new mutations — curled wings (cu) and ebony body (e) — are linked or on different chromosomes. Specify the parental genotypes, the cross scheme, and the phenotypic ratios you would expect in the test-cross progeny for both linkage and independent assortment.",
      "a": "Parental cross: homozygous wild-type (cu⁺ e⁺ / cu⁺ e⁺) × homozygous double mutant (cu e / cu e). F1 females are heterozygous (cu⁺ e⁺ / cu e) in coupling phase. Test cross: F1 female × double mutant male (cu e / cu e). If linked with RF = 20%, expect ∼40% parental (wild-type, curled-ebony) and ∼10% each recombinant (curled, ebony). If unlinked (independent assortment), expect 1:1:1:1 ratio (25% each). A poor design omits the test cross, uses males for recombination detection, or fails to specify coupling/repulsion phase.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Linkage is the tendency of genes located on the same chromosome to be inherited together during meiosis because they do not assort ______; recombination is the production of new allele combinations through crossing over between homologous chromosomes, and its frequency is used to map gene positions.",
+     "a": "independently",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a familiar observation: in a dihybrid cross of ______ (e.g., grey body × black body and normal wings × vestigial wings), the F2 phenotypic ratio is not 9:3:3:1 but shows excess parental types.",
+     "a": "Drosophila",
+     "self_check": true
+    },
+    {
+     "q": "What is Linkage? State the definition given in this lesson.",
+     "a": "Linkage is the tendency of genes located on the same chromosome to be inherited together during meiosis because they do not assort independently; recombination is the production of new allele combinations through crossing over between homologous chromosomes, and its frequency is used to map gene positions.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Linkage?",
+     "a": "Students often think \"linkage means genes are always inherited together and never separate.\" In reality, linked genes can separate through crossing over; the closer they are, the less frequently they recombine.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) explain why linked genes deviate from Mendel's law of independent assortment using chromosome behavior in meiosis, (2) calculate recombination frequency from a test-cross dataset and convert it to map distance in centiMorgans, and (3) distinguish between complete linkage (no crossing over) and incomplete linkage (with.",
+     "self_check": true
     }
    ]
   }

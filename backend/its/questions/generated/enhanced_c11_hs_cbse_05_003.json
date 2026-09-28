@@ -34,6 +34,26 @@
      "q": "Design a hypothetical fibre property profile (specify numerical ranges for length, tenacity, moisture regain, elastic recovery, and surface friction) for a next-generation fibre intended for high-performance athletic base layers that must simultaneously manage sweat, retain warmth when wet, resist odour, and survive 200+ wash cycles. Explain how each chosen value addresses a specific performance requirement.",
      "a": "Target profile: Length 38–45 mm (staple for ring spinning, long enough for low hairiness); Tenacity 4.0–5.0 g/denier (wet & dry) for seam strength and abrasion in pack straps; Moisture regain 12–15% (hydrophilic amorphous regions) for sweat absorption + heat of sorption warmth when wet; Elastic recovery >90% at 3% strain for stretch-fit and shape retention after movement; Surface friction coefficient 0.25–0.35 (controlled micro-roughness) for yarn cohesion without pilling; Thermal conductivity <0.04 W/m·K for insulation; Inherent antimicrobial (e.g., chitosan graft) for odour resistance. Each value maps to a requirement: length/tenacity → manufacturing + durability; moisture regain/thermal conductivity → thermophysiological comfort; elastic recovery → fit; surface friction → yarn integrity + anti-pill; antimicrobial → hygiene. A poor answer that copies cotton or polyester values without justifying trade-offs reveals the student cannot synthesise a multi-objective property specification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Fibre properties for spinnability refer to the intrinsic ______—specifically fibre length, tensile strength, flexibility, and surface friction/cohesion—that enable fibres to be mechanically twisted into a continuous, cohesive yarn.",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a school ______ for a North Indian summer: it must survive daily washing, stay cool, resist fading, and look crisp after hours of sitting.",
+     "a": "uniform",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) explain how each spinnability property (length, strength, flexibility, cohesion) contributes to yarn formation and why a deficiency in any one property prevents successful spinning, and (2) evaluate a given fibre's suitability for a specified end-use (e.g., summer shirt, winter blanket, industrial rope) by mapping its.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a school uniform for a North Indian summer: it must survive daily washing, stay cool, resist fading, and look crisp after hours of sitting.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

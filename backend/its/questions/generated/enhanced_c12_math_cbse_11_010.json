@@ -34,6 +34,31 @@
      "q": "Construct a problem where a line is given in vector form and a plane in Cartesian form, such that the angle between them is \\(30^\\circ\\). Provide the line and plane equations and verify the angle.",
      "a": "Example: Line \\(\\vec{r} = \\hat{i} + 2\\hat{j} + 3\\hat{k} + \\lambda(2\\hat{i} + \\hat{j} + 2\\hat{k})\\). Plane \\(x - y + z = 5\\).\n\\(\\vec{b} = (2,1,2)\\), \\(\\vec{n} = (1,-1,1)\\).\n\\(\\vec{b}\\cdot\\vec{n} = 2 -1 + 2 = 3\\). \\(|\\vec{b}| = 3\\), \\(|\\vec{n}| = \\sqrt{3}\\).\n\\(\\sin\\theta = \\frac{3}{3\\sqrt{3}} = \\frac{1}{\\sqrt{3}} \\approx 0.577\\), \\(\\theta = \\sin^{-1}(1/\\sqrt{3}) \\approx 35.3^\\circ\\) (not 30).\nTo get exactly 30°, need \\(\\sin30^\\circ = 1/2\\). Choose \\(\\vec{b} = (1,0,0)\\), \\(\\vec{n} = (0,1,1)\\)? Then \\(\\vec{b}\\cdot\\vec{n}=0\\) gives 0°.\nBetter: \\(\\vec{b} = (2,1,0)\\), \\(\\vec{n} = (1,2,2)\\). \\(|\\vec{b}|=\\sqrt{5}\\), \\(|\\vec{n}|=3\\), dot=4. \\(\\sin\\theta=4/(3\\sqrt{5})\\approx 0.596\\).\nA good answer will show a valid construction with \\(\\sin\\theta = 1/2\\). A poor answer gives equations that don't satisfy the condition, showing the student cannot reverse-engineer the formula.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The angle between a line and a plane is defined as the ______ of the angle between the line and the normal to the plane.",
+     "a": "complement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a kite flying at the end of a ______ tied to a point on the ground.",
+     "a": "string",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The string represents a line in ______D space, and the ground represents a plane.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute the angle between a given line and a plane in both vector and Cartesian forms, identify when the line is parallel or perpendicular to the plane, and solve multi-step problems combining this concept with distance from a point to a plane or intersection of line and plane.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a kite flying at the end of a string tied to a point on the ground.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

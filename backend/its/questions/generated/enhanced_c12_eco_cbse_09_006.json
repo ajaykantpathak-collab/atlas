@@ -34,6 +34,31 @@
      "q": "Design a hypothetical scenario where the RBI keeps CRR constant but raises SLR by 2 percentage points to manage a sudden surge in capital inflows. Explain the mechanism, the expected impact on the rupee exchange rate, and one unintended consequence for the corporate bond market.",
      "a": "Scenario: Large FII inflows appreciate the rupee, hurting exports. RBI raises SLR from 18% to 20%, forcing banks to buy more government bonds. This absorbs rupee liquidity, easing appreciation pressure. Impact: Rupee depreciates/stabilizes as liquidity tightens. Unintended consequence: Banks sell corporate bonds to meet higher SLR, pushing up corporate bond yields and raising borrowing costs for firms — a \"crowding out\" effect within the private sector. A poor answer misses the portfolio rebalancing channel or assumes SLR only affects government bonds.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cash Reserve Ratio (CRR) is the fraction of a commercial bank's net demand and time ______ (NDTL) that must be maintained as interest-free reserves with the Reserve Bank of India (RBI).",
+     "a": "liabilities",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you deposit ₹10,000 in your savings account at a ______ bank.",
+     "a": "commercial",
+     "self_check": true
+    },
+    {
+     "q": "What is Cash Reserve Ratio (CRR)? State the definition given in this lesson.",
+     "a": "Cash Reserve Ratio (CRR) is the fraction of a commercial bank's net demand and time liabilities (NDTL) that must be maintained as interest-free reserves with the Reserve Bank of India (RBI).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Cash Reserve Ratio (CRR)?",
+     "a": "Students often believe that CRR and SLR reserves are \"idle money\" that banks cannot use at all.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish CRR and SLR in terms of custodian, form of reserves, interest earnings, and policy purpose; (2) calculate the impact of a change in CRR/SLR on the money multiplier and credit creation capacity of the banking system using the formula ΔM = (1/rr) × ΔR; and (3) explain how simultaneous changes in CRR and SLR.",
+     "self_check": true
     }
    ]
   }

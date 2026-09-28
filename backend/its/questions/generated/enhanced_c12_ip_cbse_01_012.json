@@ -34,6 +34,26 @@
      "q": "Design a query for a library database (BOOKS table: BookID, Title, Author, PubDate, Price) that lists each book's Title, Author, years since publication (as of today), and a \"Category\" column: 'Classic' if published before 2000, 'Modern' if 2000-2010, 'Contemporary' if after 2010 — using only single-row functions and CASE expression.",
      "a": "SELECT Title, Author, YEAR(NOW()) - YEAR(PubDate) AS YearsSincePub, CASE WHEN YEAR(PubDate) < 2000 THEN 'Classic' WHEN YEAR(PubDate) <= 2010 THEN 'Modern' ELSE 'Contemporary' END AS Category FROM BOOKS; A poor answer uses multiple SELECTs or application-code logic instead of SQL's CASE, or forgets YEAR(NOW()) for current year — showing they can't compose date arithmetic with conditional logic in a single query, a key skill for board case-study questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: SQL single-row functions (also called scalar functions) operate on a single value from each row and return exactly one result per row, categorized into math functions (POWER, ROUND, MOD), string functions (UCASE/LCASE, MID/SUBSTRING, LENGTH, LEFT, RIGHT, INSTR, LTRIM/RTRIM/TRIM), and date/time functions (NOW, DATE, MONTH, MONTHNAME, YEAR, DAY, DAYNAME) that transform, extract, or compute values from numeric, character, or temporal data ______.",
+     "a": "respectively",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're building a customer dashboard for an Indian e-commerce startup: you need to display user names in proper case, extract the domain from email addresses for analytics, calculate EMI amounts rounded to ______, and show how many days since each user's last login.",
+     "a": "thousands",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write correct MySQL queries using math, string, and date/time single-row functions in SELECT, WHERE, and ORDER BY clauses to solve real-world data extraction problems, and can explain the output of nested function calls (e.g., LEFT(email, INSTR(email,'@')-1)) step by step.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're building a customer ______ for an Indian e-commerce startup: you need to display user names in proper case, extract the domain from email addresses for analytics, calculate EMI amounts rounded to thousands, and show how many days since each user's last login.",
+     "a": "dashboard",
+     "self_check": true
     }
    ]
   }

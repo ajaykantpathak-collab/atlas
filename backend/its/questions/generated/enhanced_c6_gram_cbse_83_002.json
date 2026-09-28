@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c6_gram_cbse_83_002",
+ "concepts": [
+  {
+   "id": "enh:c6_gram_cbse_83_002",
+   "title": "c6_gram_cbse_83_002",
+   "questions": [
+    {
+     "q": "Fill: 'The meeting is ___ Monday ___ 3 o'clock ___ July.'",
+     "a": "on Monday, at 3 o'clock, in July — the calendar rule end to end. Wrong answers mixing the three show the rule isn't internalized as a set.",
+     "self_check": true
+    },
+    {
+     "q": "'She travels ___ bus daily.' in or on — and why?",
+     "a": "'on' — public transport takes 'on' (on the bus/train/plane); 'in' is for cars and taxis. A wrong answer 'in' reveals Hindi-inside translation instead of the English convention.",
+     "self_check": true
+    },
+    {
+     "q": "Between or among: 'The secret is ___ you and me' / 'She stood ___ the crowd.'",
+     "a": "between you and me (two), among the crowd (many). A wrong answer swapping them shows the two-vs-many split isn't yet clear.",
+     "self_check": true
+    },
+    {
+     "q": "______ are position words — they place things in space (in, on, under, behind, between), in time (at, on, in, since, for), and in direction (to, into, towards).",
+     "a": "Prepositions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ are position words — they place things in space (in, on, under, behind, between), in time (at, on, in, since, for), and in direction (to, into, towards). 'The cat is ON the mat' — change the preposition and the whole picture changes.",
+     "a": "Prepositions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ rule is the anchor: at = exact point (at 5 o'clock), on = day/date (on Monday, on 15 August), in = longer stretches (in July, in 2024, in the morning).",
+     "a": "calendar",
+     "self_check": true
+    },
+    {
+     "q": "What is Prepositions? State the definition given in this lesson.",
+     "a": "Prepositions are position words — they place things in space (in, on, under, behind, between), in time (at, on, in, since, for), and in direction (to, into, towards). 'The cat is ON the mat' — change the preposition and the whole picture changes.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Prepositions?",
+     "a": "Students translate from Hindi — 'in the bus' feels like 'inside' so they write 'in the bus' where English says 'on the bus' (public transport takes 'on').",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student uses space prepositions correctly (in/on/under/between/among/behind), time prepositions by the calendar rule (at+clock, on+day/date, in+month/year), and between-vs-among.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The calendar rule is the anchor: at = exact point (at 5 o'clock), on = day/date (on Monday, on 15 August), in = longer ______ (in July, in 2024, in the morning).",
+     "a": "stretches",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

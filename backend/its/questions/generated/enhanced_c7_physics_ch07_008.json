@@ -34,6 +34,26 @@
      "q": "Design a simple home experiment using kitchen items to classify three unknown liquids (A, B, and C) as acidic, basic, or neutral, and state what safety precautions you would take.",
      "a": "A good answer will propose using a natural indicator like turmeric solution or red cabbage juice. It will describe adding a few drops of the indicator to each liquid, observing the color change (e.g., turmeric turns reddish-brown in bases and stays yellow in acids/neutrals), and list safety rules like wearing safety goggles and avoiding tasting unknown chemicals. A poor answer lacks safety precautions or fails to link color changes to specific chemical classifications.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Acids and bases play a crucial role in our everyday lives, ______ the chemical nature of substances we consume, use for cleaning, and encounter in nature.",
+     "a": "determining",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you taste a lemon or use soap to wash your hands, you are interacting ______ with acids and bases in your daily routine.",
+     "a": "directly",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can classify common household substances as acidic, basic, or neutral based on their everyday behavior and explain their practical applications.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you taste a lemon or use soap to wash your hands, you are ______ directly with acids and bases in your daily routine.",
+     "a": "interacting",
+     "self_check": true
     }
    ]
   }

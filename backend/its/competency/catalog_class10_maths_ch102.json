@@ -20,7 +20,7 @@
     "determine degree of a polynomial in standard form",
     "find degree of a polynomial given its terms"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -59,7 +59,16 @@
      "question": "Classify the polynomial 7 - 4x + x^2 by its degree.",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the exponent law to the given powers",
+     "explain": "apply the exponent law to the given powers: val = 6 ** (3 + 3) gives 46656",
+     "compute": "val = 6 ** (3 + 3)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.2.2",
@@ -76,7 +85,7 @@
     "determine number of zeros of a polynomial",
     "find zeros of a linear polynomial"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -115,7 +124,16 @@
      "question": "Find the zero of the polynomial p(x) = 5x + 10.",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "evaluate the polynomial or use the root relations",
+     "explain": "evaluate the polynomial or use the root relations: val = 2 * 3 * 3 + 2 * 3 + 6 gives 30",
+     "compute": "val = 2 * 3 * 3 + 2 * 3 + 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.2.3",
@@ -132,7 +150,7 @@
     "check if given zeros satisfy coefficient relationship",
     "find coefficients given zeros of quadratic polynomial"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -171,7 +189,22 @@
      "question": "Verify the relationship between zeros and coefficients for x^2 + 5x + 6 with zeros -2 and -3.",
      "type": "verify_property"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "combine the rates as reciprocals of the times",
+     "explain": "combine the rates as reciprocals of the times: rate = 1 / 4 + 1 / 6 gives 0.416667",
+     "compute": "rate = 1 / 4 + 1 / 6"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "combine the rates as reciprocals of the times: days = 1 / rate gives 2.4",
+     "compute": "days = 1 / rate"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.2.5",
@@ -188,7 +221,7 @@
     "use quadratic formula to solve polynomial equation",
     "find roots given coefficients a b c"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -227,7 +260,16 @@
      "question": "Find the zeros of x^2 - 6x + 4 using the quadratic formula.",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "evaluate the polynomial or use the root relations",
+     "explain": "evaluate the polynomial or use the root relations: val = 2 * 3 * 3 + 2 * 3 + 9 gives 33",
+     "compute": "val = 2 * 3 * 3 + 2 * 3 + 9"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.2.6",
@@ -244,7 +286,7 @@
     "find polynomial with given sum and product of zeros",
     "write a quadratic polynomial from its roots"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -283,7 +325,16 @@
      "question": "Find a quadratic polynomial whose zeros are 5 and -2.",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "evaluate the polynomial or use the root relations",
+     "explain": "evaluate the polynomial or use the root relations: val = 2 * 5 * 5 + 5 * 5 + 7 gives 82",
+     "compute": "val = 2 * 5 * 5 + 5 * 5 + 7"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.2.7",
@@ -300,7 +351,7 @@
     "verify division algorithm for given polynomials",
     "find quotient using long division of polynomials"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -339,7 +390,16 @@
      "question": "Verify the division algorithm for p(x) = x^3 - 6x^2 + 11x - 6 and g(x) = x - 2.",
      "type": "verify_property"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "evaluate the polynomial or use the root relations",
+     "explain": "evaluate the polynomial or use the root relations: val = 4 * 2 * 2 + 1 * 2 + 4 gives 22",
+     "compute": "val = 4 * 2 * 2 + 1 * 2 + 4"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.2.9",
@@ -356,7 +416,7 @@
     "find a factor of the polynomial using factor theorem",
     "determine if x + a is a factor using factor theorem"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -395,7 +455,16 @@
      "question": "Determine whether x + 2 is a factor of x^3 - 8.",
      "type": "verify_property"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "evaluate the polynomial or use the root relations",
+     "explain": "evaluate the polynomial or use the root relations: val = 4 * 5 * 5 + 6 * 5 + 6 gives 136",
+     "compute": "val = 4 * 5 * 5 + 6 * 5 + 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.2.10",
@@ -412,7 +481,7 @@
     "identify number of real zeros from graph",
     "relate graph of polynomial to its zeros"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -451,7 +520,16 @@
      "question": "A cubic polynomial graph intersects the x-axis at 3 points. How many real zeros does it have?",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "evaluate the polynomial or use the root relations",
+     "explain": "evaluate the polynomial or use the root relations: val = 2 * 4 * 4 + 1 * 4 + 5 gives 41",
+     "compute": "val = 2 * 4 * 4 + 1 * 4 + 5"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [],

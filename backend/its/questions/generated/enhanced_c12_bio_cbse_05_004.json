@@ -34,6 +34,31 @@
      "q": "Design a simple cross experiment using snapdragons to prove that the pink flower color is due to incomplete dominance and not a separate genetic factor. Describe the crosses, expected outcomes, and how you would interpret the results.",
      "a": "Cross 1: True-breeding red (RR) × true-breeding white (rr) → all pink F₁. Cross 2: Self-pollinate F₁ pink (Rr) × pink (Rr) → F₂ ratio 1 red : 2 pink : 1 white. If pink were a separate factor, F₁ would not be uniform pink, and F₂ would not show the 1:2:1 ratio with reappearance of parental phenotypes. The reappearance of pure red and pure white in F₂ confirms the alleles segregate and the heterozygote is intermediate. A poor answer that only does one cross or ignores the reappearance of parental types shows lack of experimental design thinking.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Incomplete dominance is a genetic inheritance pattern where neither allele is completely dominant over the other, resulting in a ______ phenotype that is a distinct intermediate blend of the two homozygous phenotypes.",
+     "a": "heterozygous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a garden with red, white, and pink ______ flowers growing side by side.",
+     "a": "snapdragon",
+     "self_check": true
+    },
+    {
+     "q": "What is Incomplete dominance? State the definition given in this lesson.",
+     "a": "Incomplete dominance is a genetic inheritance pattern where neither allele is completely dominant over the other, resulting in a heterozygous phenotype that is a distinct intermediate blend of the two homozygous phenotypes.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Incomplete dominance?",
+     "a": "Students often think \"incomplete dominance = blending inheritance\" in the outdated sense that the genetic material itself blends and cannot be separated.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) distinguish incomplete dominance from codominance by explaining the molecular basis of each (e.g., quantitative vs. qualitative expression), (2) predict phenotypic and genotypic ratios for monohybrid crosses involving these patterns, and (3) identify real-world examples (e.g., snapdragon flower color, human ABO blood.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a hybrid account feature for a bank that combines the high interest of a Fixed Deposit with the withdrawal flexibility of a Savings Account, without violating RBI regulations on savings account interest rates. Describe the mechanism in 3–4 sentences.",
      "a": "A **Multi-Option Deposit (MOD)** / Sweep-in facility: The bank sets a threshold (e.g., ₹25,000) in the Savings Account. Any balance above this threshold is automatically converted into a Fixed Deposit (in multiples of ₹1,000) earning FD rates. When the savings balance falls below the threshold, the bank breaks the FD (in LIFO order) to fund withdrawals, charging no penalty. This gives FD-like returns on surplus funds while retaining full liquidity. A poor answer that simply says \"give higher interest on savings account\" violates RBI's cap on savings account interest rates.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A bank account is a financial record maintained by a banking ______ that tracks the deposits, withdrawals, and interest earnings of a customer.",
+     "a": "institution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive your first salary of ₹25,000 and want to keep it safe while earning some ______, but you also need to pay rent and bills regularly.",
+     "a": "interest",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly match a given customer profile (e.g., a salaried employee, a trader, a senior citizen) to the most suitable account type and justify the choice by comparing features like withdrawal limits, interest rates, tenure flexibility, and overdraft availability.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive your first salary of ₹25,000 and want to keep it safe while earning some interest, but you also need to pay rent and bills ______.",
+     "a": "regularly",
+     "self_check": true
     }
    ]
   }

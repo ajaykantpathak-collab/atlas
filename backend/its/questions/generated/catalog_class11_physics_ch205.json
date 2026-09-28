@@ -1,0 +1,146 @@
+{
+ "catalog": "catalog_class11_physics_ch205.json",
+ "concepts": [
+  {
+   "id": "keph.12.5.1",
+   "title": "Law of Equipartition of Energy",
+   "converted_to_compute": true,
+   "formula": "E_mode = (1/2) * k_B * T",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "E_mode = (1/2) * k_B * T",
+     "compute": "E_mode = (1/2) * k_B * T"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Law of Equipartition of Energy: given k_B = 35, T = 30, find E mode.",
+     "a": "525",
+     "self_check": false
+    },
+    {
+     "q": "For Law of Equipartition of Energy: given k_B = 46, T = 27, find E mode.",
+     "a": "621",
+     "self_check": false
+    },
+    {
+     "q": "For Law of Equipartition of Energy: given k_B = 18.9, T = 16.8, find E mode.",
+     "a": "158.76",
+     "self_check": false
+    },
+    {
+     "q": "For Law of Equipartition of Energy: given k_B = 100, T = 14.6, find E mode.",
+     "a": "730",
+     "self_check": false
+    },
+    {
+     "q": "For Law of Equipartition of Energy: given k_B = 86, T = 44, find E mode.",
+     "a": "1892",
+     "self_check": false
+    },
+    {
+     "q": "For Law of Equipartition of Energy: given k_B = 88, T = 18.8, find E mode.",
+     "a": "827.2",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.12.6.3",
+   "title": "Specific Heat Capacity of Solids",
+   "converted_to_compute": true,
+   "formula": "C = 3 * R",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "C = 3 * R",
+     "compute": "C = 3 * R"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Specific Heat Capacity of Solids: given R = 32, find C.",
+     "a": "96",
+     "self_check": false
+    },
+    {
+     "q": "For Specific Heat Capacity of Solids: given R = 85, find C.",
+     "a": "255",
+     "self_check": false
+    },
+    {
+     "q": "For Specific Heat Capacity of Solids: given R = 59, find C.",
+     "a": "177",
+     "self_check": false
+    },
+    {
+     "q": "For Specific Heat Capacity of Solids: given R = 67, find C.",
+     "a": "201",
+     "self_check": false
+    },
+    {
+     "q": "For Specific Heat Capacity of Solids: given R = 83, find C.",
+     "a": "249",
+     "self_check": false
+    },
+    {
+     "q": "For Specific Heat Capacity of Solids: given R = 30, find C.",
+     "a": "90",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.12.7.1",
+   "title": "Mean Free Path of Gas Molecules",
+   "converted_to_compute": true,
+   "formula": "lambda = 1 / (sqrt(2) * n * pi * d**2)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "lambda = 1 / (sqrt(2) * n * pi * d**2)",
+     "compute": "lambda = 1 / (sqrt(2) * n * pi * d**2)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Mean Free Path of Gas Molecules: given n = 87, d = 91, find lambda.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Mean Free Path of Gas Molecules: given n = 46, d = 1.9, find lambda.",
+     "a": "0.00135541",
+     "self_check": false
+    },
+    {
+     "q": "For Mean Free Path of Gas Molecules: given n = 64, d = 48, find lambda.",
+     "a": "0.000002",
+     "self_check": false
+    },
+    {
+     "q": "For Mean Free Path of Gas Molecules: given n = 30, d = 68, find lambda.",
+     "a": "0.000002",
+     "self_check": false
+    },
+    {
+     "q": "For Mean Free Path of Gas Molecules: given n = 26, d = 76, find lambda.",
+     "a": "0.000001",
+     "self_check": false
+    },
+    {
+     "q": "For Mean Free Path of Gas Molecules: given n = 69, d = 7, find lambda.",
+     "a": "0.000067",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

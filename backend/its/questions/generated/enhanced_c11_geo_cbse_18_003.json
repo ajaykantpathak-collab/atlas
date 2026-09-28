@@ -34,6 +34,31 @@
      "q": "Design a 3-indicator dashboard for a District Collector to monitor agricultural distress in real time. Justify each indicator's selection and data source.",
      "a": "Indicator 1: **Real-time mandi arrival vs. MSP procurement gap** (source: AGMARKNET + FCI daily reports) — captures price distress.\nIndicator 2: **Kisan Credit Card (KCC) overdue ratio** (source: SLBC bank returns) — captures credit stress.\nIndicator 3: **MGNREGA person-days demand surge** (source: MIS portal) — captures rural wage employment distress.\nTogether they cover price, credit, and employment dimensions. A poor answer listing only \"crop yield\" or \"rainfall\" misses the human distress aspect and real-time actionability.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Agriculture in the Indian economy refers to the primary sector activity encompassing crop cultivation, livestock rearing, forestry, and fisheries that contributes to Gross Value Added (GVA), provides employment to nearly 43% of the workforce (PLFS 2022-23), ensures food security for 1.4 billion people, and supplies raw materials to agro-based industries, while its declining share in GVA (from 35% in 1990-91 to 18.3% in 2022-23) signals structural ______ toward services and industry.",
+     "a": "transformation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your local mandi (wholesale market) during harvest season — trucks loaded with wheat, paddy, or cotton queue for ______; farmers discuss MSP, input costs, and loan waivers.",
+     "a": "procurement",
+     "self_check": true
+    },
+    {
+     "q": "What is Agriculture in the Indian economy? State the definition given in this lesson.",
+     "a": "Agriculture in the Indian economy refers to the primary sector activity encompassing crop cultivation, livestock rearing, forestry, and fisheries that contributes to Gross Value Added (GVA), provides employment to nearly 43% of the workforce (PLFS 2022-23), ensures food security for 1.4 billion people, and supplies raw materials to.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Agriculture in the Indian economy?",
+     "a": "Students believe \"agriculture's declining GVA share means it is becoming unimportant\" — they confuse *relative share* with *absolute criticality*.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can interpret time-series data of agriculture's share in GVA and employment to explain the \"jobless growth\" paradox in Indian agriculture, and can evaluate regional disparities in agricultural productivity using state-level data on yield, irrigation coverage, and cropping intensity.",
+     "self_check": true
     }
    ]
   }

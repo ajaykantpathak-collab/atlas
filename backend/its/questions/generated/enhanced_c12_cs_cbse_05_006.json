@@ -34,6 +34,31 @@
      "q": "Design a real-world scenario (Indian context) where using SUM on a VARCHAR column would cause an error, but the user intended to sum numeric values stored as text. Propose the fix.",
      "a": "Scenario: A 'FEES' column defined as VARCHAR(10) stores values '5000', '6000', '7000' (as strings). SELECT SUM(FEES) fails with data type mismatch. Fix: Use CAST: SELECT SUM(CAST(FEES AS DECIMAL(10,2))) FROM STUDENTS. A good answer identifies implicit conversion failure and demonstrates CAST/CONVERT. A poor answer suggests changing table schema (not always allowed) or using application-level sum.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Aggregate functions in SQL perform ______ on a set of values from a column and return a single summary value.",
+     "a": "calculations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class teacher with a marksheet of 40 students in a spreadsheet — you need the class average, highest score, lowest score, total marks awarded, and how many students ______ appeared for the exam.",
+     "a": "actually",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class teacher with a marksheet of ______ students in a spreadsheet — you need the class average, highest score, lowest score, total marks awarded, and how many students actually appeared for the exam.",
+     "a": "40",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write correct SELECT queries using aggregate functions with and without GROUP BY, explain how each function handles NULL values, and calculate query results manually from a given table instance.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class teacher with a marksheet of 40 students in a ______ — you need the class average, highest score, lowest score, total marks awarded, and how many students actually appeared for the exam.",
+     "a": "spreadsheet",
+     "self_check": true
     }
    ]
   }

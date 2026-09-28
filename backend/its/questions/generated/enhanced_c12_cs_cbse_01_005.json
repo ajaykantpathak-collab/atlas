@@ -34,6 +34,26 @@
      "q": "Design a wireless connectivity plan for a disaster relief camp in a remote valley (no cellular, no fiber). You have: HF radio (10 MHz), VHF radio (150 MHz), microwave (5 GHz), and a portable VSAT (Ku-band). Specify which technology for: (a) camp-to-HQ 500 km, (b) intra-camp 200 m, (c) camp-to-nearby-village 15 km (LOS blocked by ridge). Justify each choice.",
      "a": "(a) HF radio (10 MHz) — sky wave via ionosphere reaches 500 km beyond horizon; low bandwidth but works without infrastructure. (b) VHF (150 MHz) or Wi-Fi (2.4/5 GHz) — short range, LOS not needed at 200 m, easy deployment. (c) VSAT (Ku-band) — satellite bypasses ridge; microwave blocked by ridge (no LOS), VHF/HF unreliable for data at 15 km in valley. A poor answer uses microwave for (c) ignoring ridge blockage, or VSAT for (b) wasting cost/latency.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Unguided transmission media (wireless media) transmit ______ signals through air, vacuum, or water without a physical conductor, using radio waves (30 Hz–300 GHz), microwaves (300 MHz–300 GHz), and infrared/satellite links, where propagation occurs via ground wave, sky wave, line-of-sight, or space wave modes depending on frequency and antenna configuration.",
+     "a": "electromagnetic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're streaming a live cricket match from Mumbai to a village in Ladakh — the signal travels from the stadium camera to a ______ 36,000 km above the equator, then down to a dish antenna on a rooftop in Leh.",
+     "a": "satellite",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Classify unguided media by frequency band and propagation mode with correct frequency ranges; (2) Explain why microwave links require line-of-sight and repeaters every 30–50 km; (3) Calculate satellite link latency for GEO vs LEO orbits and identify applications suited to each; (4) Compare bandwidth, attenuation, and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're ______ a live cricket match from Mumbai to a village in Ladakh — the signal travels from the stadium camera to a satellite 36,000 km above the equator, then down to a dish antenna on a rooftop in Leh.",
+     "a": "streaming",
+     "self_check": true
     }
    ]
   }

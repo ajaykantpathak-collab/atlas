@@ -27,12 +27,37 @@
     },
     {
      "q": "Evaluate this statement: \"Since external users only have access to published financial statements, their analysis is always less reliable than internal analysis.\" Defend or refute with two specific arguments.",
-     "a": "Correct answer: **Refute**. Argument 1: External analysis uses *audited* financial statements verified by independent Chartered Accountants, which adds credibility; internal analysis may use unaudited management accounts subject to bias or window-dressing. Argument 2: External users (especially institutional investors, rating agencies) apply *standardised, comparable frameworks* (Ind AS/IFRS, industry benchmarks) enabling cross-firm comparison; internal analysis is often firm-specific and non-comparable. A wrong answer that agrees with the statement reveals the student equates \"more data access\" with \"more reliable conclusion,\" ignoring the *quality assurance* (audit) and *comparability* (standards) that strengthen external analysis.",
+     "a": "(1) Stance — refute the statement, because access to more data does not decide reliability, (2) Argument one — external analysis rests on audited statements verified by independent chartered accountants, while internal ones may be unaudited and open to window-dressing, (3) Argument two — external users apply standard Ind AS frameworks and industry benchmarks, while internal analysis stays firm-specific and non-comparable. A wrong answer agreeing with the statement equates more data access with more reliable conclusions, ignoring the quality assurance of audit and the comparability of standards.",
      "self_check": true
     },
     {
      "q": "Create a realistic scenario involving a listed Indian company where an internal user and an external user would reach *opposite conclusions* about the same financial metric (e.g., a sudden increase in Inventory Turnover Ratio). Describe the scenario, the metric, and the opposing interpretations.",
      "a": "Expected answer: **Scenario**: XYZ Ltd (FMCG) shows Inventory Turnover Ratio jumping from 4× to 8× in FY2024. **Internal User (Supply Chain Head)**: Knows the increase came from *aggressive destocking* — they cleared slow-moving stock at heavy discounts (reducing margins) to free warehouse space for a new product launch. Interpretation: **Negative** — profitability sacrificed, not sustainable. **External User (Equity Analyst)**: Sees only the published ratio improvement. Interpretation: **Positive** — better working capital efficiency, faster cash conversion. **Why opposite**: Internal user sees the *cause* (discount-driven clearance); external user sees only the *effect* (ratio number). A poor answer that gives identical interpretations or uses a metric where interpretations cannot diverge (e.g., \"both see higher profit as good\") shows the student hasn't grasped how *information asymmetry* drives divergent analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Internal analysis is the ______ of financial statements by persons who have access to the detailed accounting records of the enterprise (e.g., management, employees, internal auditors), while external analysis is conducted by parties who rely solely on published financial statements (e.g., investors, creditors, government agencies, credit rating agencies).",
+     "a": "examination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the CFO of a large Indian ______ company preparing the annual report.",
+     "a": "manufacturing",
+     "self_check": true
+    },
+    {
+     "q": "What is Internal analysis? State the definition given in this lesson.",
+     "a": "Internal analysis is the examination of financial statements by persons who have access to the detailed accounting records of the enterprise (e.g., management, employees, internal auditors), while external analysis is conducted by parties who rely solely on published financial statements (e.g., investors, creditors, government agencies.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Internal analysis?",
+     "a": "Students often believe \"Internal Analysis = done by employees, External Analysis = done by outsiders\" and stop there.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify any given user of financial statements as internal or external, explain the difference in information access and analytical objectives between the two groups, and justify why a specific analytical technique (e.g., ratio analysis vs. detailed variance analysis) is more suitable for one group over the.",
      "self_check": true
     }
    ]

@@ -34,6 +34,31 @@
      "q": "Design a real-world scenario (Indian context) where you would need to use all five data types (`int`, `float`, `str`, `bool`, `None`) in a single program. Write variable assignments for each with appropriate literal values.",
      "a": "Scenario: A railway ticket booking system.\n```python\npnr_number = 1234567890          # int (unique identifier)\nticket_price = 550.75            # float (price in rupees)\npassenger_name = \"Priya Sharma\"  # str (name)\nis_confirmed = True              # bool (booking status)\nseat_number = None               # None (not assigned until chart preparation)\n```\nA poor answer uses the same type for multiple fields (e.g., storing price as string) or omits `None`, showing inability to map real-world attributes to appropriate data types.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In Python, data types classify the kind of value a variable holds, determining the operations allowed and the memory ______.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a program to calculate the total cost of items in a shopping cart.",
+     "a": "writing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight is that the data type determines what operations are valid — you can multiply price by quantity, but you cannot multiply \"Notebook\" by ______.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the data type of any given literal or variable using type(), explain the range and behavior of each type (e.g., int has no fixed limit, float has precision limits), and predict the result of basic operations (arithmetic, concatenation, logical) on these types without running code.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a program to ______ the total cost of items in a shopping cart.",
+     "a": "calculate",
+     "self_check": true
     }
    ]
   }

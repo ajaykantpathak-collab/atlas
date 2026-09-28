@@ -34,6 +34,36 @@
      "q": "Design a functional classification flowchart for a new settlement with population 12,000 where workforce is: 40% agriculture, 30% textile manufacturing, 20% retail trade, 10% government services. Determine if it qualifies as urban and its functional class.",
      "a": "Step 1: Check urban criteria - population 12,000 (>5,000), non-agricultural male workers = 60% (30+20+10) <75% → fails Census town criteria. If statutory notification exists, it's urban; else rural. Step 2: If urban, dominant non-agri sector is manufacturing (30%) → industrial town. Flowchart: Population ≥5,000? → Density ≥400? → Non-agri male workers ≥75? → If all yes, Census town. Then largest non-agri sector → functional class. Poor answer misses the 75% threshold check or misidentifies dominant sector as retail (20%) instead of manufacturing (30%).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Urban settlements are ______ human habitations with a minimum population of 5,000, at least 75% of male main workers engaged in non-agricultural activities, and a population density of at least 400 persons per sq km (Census of India criteria).",
+     "a": "concentrated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at your own city or nearest town - is it a Class I city (1 lakh+ ______) like Jaipur, or a Class IV town (10,000-19,999) like a tehsil headquarters?",
+     "a": "population",
+     "self_check": true
+    },
+    {
+     "q": "What is Urban settlements? State the definition given in this lesson.",
+     "a": "Urban settlements are concentrated human habitations with a minimum population of 5,000, at least 75% of male main workers engaged in non-agricultural activities, and a population density of at least 400 persons per sq km (Census of India criteria).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: First, check the Census ______ population data for that settlement.",
+     "a": "2011",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Urban settlements?",
+     "a": "Students think \"Class I city\" means \"metropolitan city\" (million-plus).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can classify any given Indian urban settlement into its correct size class (I-VI) using Census population thresholds and identify its dominant functional category by analyzing workforce data, then explain how size and function interact to shape urban morphology and regional influence.",
+     "self_check": true
     }
    ]
   }

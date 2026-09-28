@@ -34,6 +34,31 @@
      "q": "Design a simple simulation for your class to experience the difference between price-based allocation and quota-based allocation. Describe the rules, roles, and what economic concept each version demonstrates.",
      "a": "Simulation: 30 students, 10 identical notebooks. Version A (Market): Each student gets ₹50 play money; notebooks auctioned - highest bidders get them. Version B (Planned): Teacher allocates 1 notebook per 3 students by roll number; no trading allowed. Debrief: Version A demonstrates how prices reveal willingness to pay and allocate to highest-valued uses; Version B shows how non-price rationing ignores intensity of need (a student needing notebook for exam vs. doodling gets same chance). Good answer includes: clear rules, measurable outcomes (who got notebooks, satisfaction), and explicit link to allocative efficiency vs. administrative fairness. A poor answer (e.g., just \"auction vs. lottery\" without economic reasoning) shows the student cannot translate abstract concepts into operational demonstrations.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A planned economy is an economic system where a central authority (government) makes all key decisions regarding what, how, and for whom to produce, while a market economy relies on the price mechanism driven by supply and demand to allocate resources and coordinate production decisions through ______ interactions of households and firms.",
+     "a": "decentralized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you walk into a vegetable market in Delhi: prices change every hour based on what farmers brought, what buyers want, and the weather - no one tells the vendor what price to charge.",
+     "a": "Imagine",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now imagine a government office in ______s India deciding exactly how many tonnes of steel each factory must produce, what wage each worker gets, and which family receives how much rice - that was the licence-permit raj.",
+     "a": "1980",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compare how planned and market economies answer the three fundamental economic questions, explain the role of prices in each system, and evaluate the trade-offs between efficiency, equity, and innovation using real-world examples from India's economic history.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you walk into a ______ market in Delhi: prices change every hour based on what farmers brought, what buyers want, and the weather - no one tells the vendor what price to charge.",
+     "a": "vegetable",
+     "self_check": true
     }
    ]
   }

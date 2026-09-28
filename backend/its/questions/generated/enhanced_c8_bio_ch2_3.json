@@ -34,6 +34,31 @@
      "q": "Design a simple community sorting chart with three columns—Condition, Disease Type (Infectious/Non-Infectious), and Primary Cause—using Common Cold, Asthma, and Iron-deficiency Anemia. Explain how you would categorize each.",
      "a": "A complete answer should categorize: 1) Common Cold as Infectious (caused by rhinovirus, spread via droplets), 2) Asthma as Non-Infectious (caused by genetic/environmental triggers causing airway inflammation, non-contagious), and 3) Iron-deficiency Anemia as Non-Infectious (caused by poor dietary iron intake, non-contagious). A poor answer mixes up environmental triggers with contagious pathogens or mislabels nutritional deficiencies as infectious.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Disease is any ______ that disturbs the normal working of the body or mind.",
+     "a": "condition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When a student notices they catch a cold after sitting next to a sneezing classmate, but their grandparent's diabetes does not spread to anyone in the family, they are observing the ______ difference between disease types.",
+     "a": "fundamental",
+     "self_check": true
+    },
+    {
+     "q": "What is Disease? State the definition given in this lesson.",
+     "a": "Disease is any condition that disturbs the normal working of the body or mind.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Disease?",
+     "a": "Students often assume that any illness that makes a person look weak or feel sick is \"catching\" or infectious, leading them to believe that conditions like cancer, scurvy, or heart attacks can be transmitted from a patient to a family member by touch or sharing utensils.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify various human ailments as either infectious or non-infectious based on their origin and transmission mechanism, and explain the fundamental causative agents for each type.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using household items to demonstrate the principle of impedance matching in the middle ear. List materials, procedure, and the specific observation that proves the concept.",
      "a": "Materials: Two tuning forks (same frequency), bowl of water, plastic wrap, rubber band. Procedure: 1) Strike fork, hold in air – faint sound. 2) Strike fork, touch base to plastic wrap stretched over bowl (simulates air-to-fluid interface) – sound remains faint. 3) Strike fork, touch base to water directly – louder. 4) Place a small lever (spoon handle) between fork and plastic wrap – sound increases. Observation: Direct coupling to fluid (step 3) and lever coupling (step 4) both increase energy transfer vs. air-to-fluid (step 2), mimicking area ratio and lever action. A poor design omits the lever or area ratio comparison.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The human ear is a paired sensory organ that performs two distinct functions: hearing (audition) and ______ (balance).",
+     "a": "equilibrium",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Think of the last time you stood near a temple bell during a festival – you felt the ______ in your chest and heard the sound clearly.",
+     "a": "vibration",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can trace the complete pathway of a sound wave from pinna to auditory cortex naming all structures, explain how frequency and amplitude are coded by the cochlea, and describe the mechanism of static and dynamic balance with correct terminology (endolymph, cupula, otoliths).",
+     "self_check": true
     }
    ]
   }

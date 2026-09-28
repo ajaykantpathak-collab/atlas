@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (Indian context) where finding the shortest distance between two parallel lines in 3D is necessary. Define the lines with specific coordinates and ask for the distance. The problem must involve a practical scenario like construction, piping, or cable laying.",
      "a": "Expected answer: A problem like: \"Two parallel water pipelines run through a building. Pipeline A passes through points (2, 1, 0) and (5, 4, 6) in metres. Pipeline B passes through (0, 3, 2) and has the same direction as Pipeline A. Find the minimum length of a connecting pipe perpendicular to both pipelines.\" \nGood answer criteria: (1) Correctly extracts direction ratios from given points. (2) Writes vector/Cartesian equations. (3) Identifies a₁, a₂, b correctly. (4) Applies formula. (5) Gives answer in metres. A poor answer uses 2D distance formula, ignores z-coordinates, or assumes the connecting pipe joins the given points directly without perpendicularity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The shortest distance between two parallel lines in three-dimensional space is the length of the ______ segment drawn from any point on one line to the other line.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two railway tracks running ______ in 3D space — one at ground level, another on an elevated bridge.",
+     "a": "parallel",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two railway tracks running parallel in ______D space — one at ground level, another on an elevated bridge.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Identify parallel lines from their direction ratios and confirm they are parallel.",
+     "self_check": true
     }
    ]
   }

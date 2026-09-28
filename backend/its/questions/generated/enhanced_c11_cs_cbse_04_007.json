@@ -32,7 +32,32 @@
     },
     {
      "q": "Design a real-world scenario (Indian context) where a student would need to use chained assignment, multiple assignment, and reassignment with type change in a single program. Write the pseudocode and explain why each assignment pattern is appropriate for that situation.",
-     "a": "Scenario: Railway ticket booking system. Pseudocode:\n```",
+     "a": "Scenario: Railway ticket booking system. Pseudocode:\n```\n# Chained assignment: initialize counters\nconfirmed = waiting = rac = 0\n\n# Multiple assignment: store passenger details\nname, age, gender = input(\"Enter name, age, gender: \").split()\nage = int(age)  # Reassignment with type change: string to int\n\n# Reassignment with type change: status starts as string, becomes boolean\nstatus = \"pending\"\nif age >= 60:\n    status = True  # Senior citizen quota confirmed\nelse:\n    status = False\n```\nChained assignment initializes multiple counters to same starting value efficiently. Multiple assignment unpacks structured input. Reassignment with type change models real-world state transitions (string status → boolean confirmation). A poor answer uses only one pattern throughout, missing the semantic fit of each pattern to the problem structure.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A variable in Python is a named reference to a memory location that stores a value of a specific data type, created through an ______ statement (variable_name = expression) which evaluates the right-hand side expression and binds the resulting object to the name on the left-hand side.",
+     "a": "assignment",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're building a ______ calculator app for a kirana store owner who needs to track daily sales.",
+     "a": "simple",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You start by storing the first customer's bill amount: bill = ______.",
+     "a": "250",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to trace the execution of a sequence of assignment statements showing how values change, explain the difference between the variable name (reference) and the object (value), and predict the output of code involving multiple assignments, chained assignments, and reassignment of variables to different data types.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're building a simple ______ app for a kirana store owner who needs to track daily sales.",
+     "a": "calculator",
      "self_check": true
     }
    ]

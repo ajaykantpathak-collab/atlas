@@ -17,7 +17,7 @@
     },
     {
      "q": "A Class 12 student receives this WhatsApp message from an unknown number: \"Hi, I'm from your school's alumni association. We need your Aadhaar and PAN for a scholarship database. Reply with photos of both cards.\" Apply the \"SLAM\" verification method (Sender, Link, Attachment, Message) to decide if this is phishing. Show your evaluation for each component.",
-     "a": "SLAM evaluation: Sender — unknown number, not official school landline/email (fail); Link — none, but request for direct data reply (equivalent to malicious link); Attachment — request to send sensitive document photos (high risk); Message — unsolicited request for Aadhaar/PAN violates data minimization principle (fail). Verdict: Phishing. A student who only checks \"no suspicious link\" misses that phishing evolves — modern attacks harvest data via direct replies, not just links. This reveals over-reliance on link-checking as the sole phishing indicator.",
+     "a": "SLAM evaluation: Sender — unknown number, not official school landline/email (fail); Link — N/A, but request for direct data reply (equivalent to malicious link); Attachment — request to send sensitive document photos (high risk); Message — unsolicited request for Aadhaar/PAN violates data minimization principle (fail). Verdict: Phishing. A student who only checks \"no suspicious link\" misses that phishing evolves — modern attacks harvest data via direct replies, not just links. This reveals over-reliance on link-checking as the sole phishing indicator.",
      "self_check": true
     },
     {
@@ -33,6 +33,36 @@
     {
      "q": "Create a realistic phishing scenario targeting Class 12 students during board exam season. Your scenario must include: (1) a plausible sender identity, (2) a context-specific urgency trigger, (3) a technical deception technique (domain spoofing, link masking, or QR code), and (4) a requested action that leads to credential theft. Write the full message text and annotate each deceptive element.",
      "a": "Example scenario:  \n**Sender**: \"CBSE Grievance Cell <grievance@cbse.gov.in.helpdesk.xyz>\"  \n**Subject**: \"URGENT: Discrepancy in Your Class 12 Roll Number - Action Required Today\"  \n**Body**: \"Dear Student, Our system detects a mismatch in your roll number for the upcoming Computer Science paper. To prevent admit card cancellation, verify your details immediately: [Verify Now](http://cbse.gov.in.verification.portal.xyz/student/login). Use your DigiLocker credentials. Deadline: 5 PM today. - CBSE Grievance Team\"  \n**Annotations**: (1) Sender: Subdomain spoofing — \"gov.in.helpdesk.xyz\" mimics hierarchy but \"xyz\" is attacker-controlled. (2) Urgency: \"Deadline 5 PM\", \"admit card cancellation\" — exploits exam anxiety. (3) Technical deception: Link text \"Verify Now\" masks malicious domain \"portal.xyz\"; DigiLocker credential request escalates value of stolen data. (4) Action: Clicking leads to fake DigiLocker login harvesting Aadhaar-linked credentials. A good answer demonstrates understanding of *context-aware* social engineering — not generic \"bank update\" templates.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Phishing is a cyber attack where attackers ______ legitimate entities via deceptive emails, messages, or websites to trick users into revealing sensitive information like passwords, OTPs, or financial details.",
+     "a": "impersonate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you ______ an SMS: \"Your SBI account will be closed in 2 hours.",
+     "a": "receive",
+     "self_check": true
+    },
+    {
+     "q": "What is Phishing? State the definition given in this lesson.",
+     "a": "Phishing is a cyber attack where attackers impersonate legitimate entities via deceptive emails, messages, or websites to trick users into revealing sensitive information like passwords, OTPs, or financial details.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive an SMS: \"Your SBI account will be closed in ______ hours.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Phishing?",
+     "a": "Students believe phishing only happens via email with obvious errors (bad grammar, generic \"Dear Customer\").",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) identify phishing indicators in a given email/SMS/URL (mismatched sender domain, urgency language, generic greetings, suspicious links), (2) explain the step-by-step mechanism of how stolen data leads to identity theft (data breach → credential stuffing → financial fraud), and (3) distinguish cyberbullying.",
      "self_check": true
     }
    ]

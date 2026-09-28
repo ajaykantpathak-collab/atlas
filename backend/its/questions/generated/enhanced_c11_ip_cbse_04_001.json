@@ -34,6 +34,21 @@
      "q": "Design a list structure to represent a weekly timetable for a student. Each day has a list of periods, each period is a list containing [subject, teacher, room]. Create the list for Monday with 3 periods: Physics (Dr. Rao, Lab1), Chemistry (Ms. Singh, Room20), Mathematics (Mr. Das, Room15). Write the Python code.",
      "a": "`monday = [['Physics', 'Dr. Rao', 'Lab1'], ['Chemistry', 'Ms. Singh', 'Room20'], ['Mathematics', 'Mr. Das', 'Room15']]`. A good answer uses three nested lists inside an outer list. A poor answer uses a flat list `['Physics', 'Dr. Rao', 'Lab1', 'Chemistry', ...]` losing the period grouping, or uses dictionaries (not yet taught), showing inability to map real-world hierarchy to nested lists.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A list in Python is an ordered, mutable sequence of elements enclosed in square brackets [] and separated by commas, where each element can be of any data type (integer, float, string, list, tuple, etc.) allowing ______ collections.",
+     "a": "heterogeneous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to store a student's complete record: name (string), roll number (integer), marks in five subjects (list of integers), and overall ______ (float).",
+     "a": "percentage",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently create lists with homogeneous and heterogeneous elements, create nested lists, explain the significance of mutability and ordering, and distinguish list syntax from strings and tuples using correct terminology.",
+     "self_check": true
     }
    ]
   }

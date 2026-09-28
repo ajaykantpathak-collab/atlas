@@ -34,6 +34,26 @@
      "q": "Design a bar chart to compare the number of gold medals won by India in the last 4 Olympic Games (2012: 0, 2016: 0, 2020: 1, 2024: 1). Write the complete Python code. Should the years be strings or integers? Justify your choice.",
      "a": "```python\nimport matplotlib.pyplot as plt\nyears = ['2012', '2016', '2020', '2024']  # strings\ngold = [0, 0, 1, 1]\nplt.bar(years, gold, color='gold')\nplt.xlabel('Olympic Year')\nplt.ylabel('Gold Medals')\nplt.title('India Gold Medals in Last 4 Olympics')\nplt.show()\n```\nYears should be strings because Olympics are discrete events (categories), not continuous time. Using integers would imply numerical continuity and might show intermediate years on axis. A poor answer uses integers without justification, revealing confusion between categorical and continuous axes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A bar chart is a categorical data ______ that represents discrete categories on one axis and their corresponding numerical values as rectangular bars on the other axis, where the length/height of each bar is proportional to the value it represents.",
+     "a": "visualization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you conducted a survey in your class asking \"Which is your ______ fruit?\" and got responses: Apple (12), Banana (8), Mango (15), Orange (5).",
+     "a": "favorite",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently write a complete Python program that reads categorical data from a list or CSV, creates a vertical bar chart using plt.bar() with properly labeled axes, a descriptive title, and displays it using plt.show(), while explaining why bar charts are appropriate for categorical comparison rather than continuous trends.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you ______ a survey in your class asking \"Which is your favorite fruit?\" and got responses: Apple (12), Banana (8), Mango (15), Orange (5).",
+     "a": "conducted",
+     "self_check": true
     }
    ]
   }

@@ -22,17 +22,37 @@
     },
     {
      "q": "A runner's stopwatch was not reset properly and started from 02:00 minutes before timing a 50-meter race. The final display showed 02:08 seconds when the runner crossed the finish line. Evaluate the student's claim that the race took 8 seconds.",
-     "a": "[Answer needed]",
+     "a": "The claim is correct: the stopwatch already showed 2 minutes (120 seconds) at the start and 2:08 (128 seconds) at the finish, so the actual race time is $128\\text{ s} - 120\\text{ s} = 8\\text{ s}$. Reporting 2 minutes 8 seconds means forgetting to subtract the starting offset.",
      "self_check": true
     },
     {
      "q": "The student's claim is correct because the initial starting offset was 2 minutes (120 seconds), and the final reading was 2 minutes and 8 seconds, meaning the elapsed interval between start and stop was exactly $128\\text{ seconds} - 120\\text{ seconds} = 8\\text{ seconds}$. A student who claims it took 2 minutes and 8 seconds failed to subtract the initial error offset present on the stopwatch display before starting the measurement.",
-     "a": "[Answer needed]",
+     "a": "Right — the elapsed time is the difference between the two readings, $128\\text{ s} - 120\\text{ s} = 8\\text{ s}$; a student who reports the full display reading has ignored the offset already on the watch before the race began.",
      "self_check": true
     },
     {
      "q": "Design a quick experiment using a digital stopwatch and a household ceiling fan to estimate how many rotations the fan blades complete in one minute.",
      "a": "To perform this experiment, start the stopwatch at the exact moment a specific fan blade passes a fixed point on the ceiling. Let the stopwatch run while counting the number of complete rotations until 60 seconds (1 minute) is reached on the digital display, then record the total count. A poor answer would suggest staring at the fan without syncing a start-stop time interval using the stopwatch, leading to arbitrary counting errors.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Modern timekeeping devices, such as quartz clocks, digital watches, and electronic stopwatches, are instruments that measure intervals of time with high precision by using periodic electronic ______ powered by electric cells.",
+     "a": "oscillations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine holding a digital ______ in your school sports ground to time a 100-meter sprint run by your classmate.",
+     "a": "stopwatch",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine holding a digital stopwatch in your school sports ground to time a ______-meter sprint run by your classmate.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify the working principles of modern clocks and stopwatches, distinguish between mechanical and electronic timekeeping, and use a stopwatch to measure time intervals accurately to fractions of a second during motion experiments.",
      "self_check": true
     }
    ]

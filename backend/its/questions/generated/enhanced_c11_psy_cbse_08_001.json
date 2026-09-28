@@ -34,6 +34,26 @@
      "q": "Design a original 6-panel comic strip (describe each panel in 1-2 sentences) that illustrates the complete motivational cycle for a *novel* motive not discussed in the textbook (e.g., need for digital detox, need to learn a coding language). Ensure each panel maps to one specific stage.",
      "a": "Example for \"need to learn Python\":\nPanel 1 (Need): Priya sees a job requiring Python; she realises she lacks this skill.\nPanel 2 (Drive): She feels a gnawing anxiety about career stagnation.\nPanel 3 (Arousal): Her heart rate increases; she obsessively researches courses at 11 PM.\nPanel 4 (Goal-directed behaviour): She enrolls in a 30-day bootcamp, codes 2 hrs daily.\nPanel 5 (Achievement): She builds her first working script; the error log shows \"Success\".\nPanel 6 (Reduction of arousal): Anxiety vanishes; she sleeps peacefully, feeling competent.\nA poor answer would skip stages, merge panels, or use a textbook example (hunger/thirst), showing inability to generalise the abstract cycle to new domains.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The motivational cycle is a sequential process where a ______ or psychological deficit (need) creates a state of tension (drive) that energises the organism, leading to heightened alertness (arousal), which directs goal-oriented actions (goal-directed behaviour) until the goal is attained (achievement), finally restoring equilibrium by reducing the tension (reduction of arousal).",
+     "a": "physiological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are preparing for your Class 12 board exams and suddenly realise you haven't eaten since breakfast – your stomach growls, you feel ______, you pause studying to make a sandwich, eat it, and instantly feel calm enough to refocus.",
+     "a": "restless",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) correctly label and sequence all six stages of the motivational cycle using a novel real-life scenario, and (2) explain why the process is cyclical rather than linear by describing the feedback loop between drive reduction and the re-emergence of needs.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ for your Class 12 board exams and suddenly realise you haven't eaten since breakfast – your stomach growls, you feel restless, you pause studying to make a sandwich, eat it, and instantly feel calm enough to refocus.",
+     "a": "preparing",
+     "self_check": true
     }
    ]
   }

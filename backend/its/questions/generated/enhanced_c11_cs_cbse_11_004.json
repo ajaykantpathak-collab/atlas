@@ -34,6 +34,36 @@
      "q": "Design a network diagram for a school that has three computer labs (each with 20 computers), a library with 10 computers, and an administrative office with 5 computers. All need internet access. The school gets a single fiber optic connection. List the devices you would use, their quantities, and where you would place them. Justify each choice.",
      "a": "Expected: One fiber modem (ONU) at entry, one core router, one distribution switch (or router with multiple interfaces), four access switches (one per lab/library/office), and appropriate cabling. Justification: Modem for fiber-to-Ethernet conversion; router for internet routing and NAT; access switches for local MAC-based forwarding in each room. A poor answer might omit the router, use hubs, or not separate access switches per room, showing lack of hierarchical design understanding.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Network devices are hardware components that facilitate ______ and data transfer between computers and other devices in a network.",
+     "a": "communication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are setting up a computer lab in your school with 30 ______ that need to share files and access the internet.",
+     "a": "computers",
+     "self_check": true
+    },
+    {
+     "q": "What is Network devices? State the definition given in this lesson.",
+     "a": "Network devices are hardware components that facilitate communication and data transfer between computers and other devices in a network.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are setting up a computer lab in your school with ______ computers that need to share files and access the internet.",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Network devices?",
+     "a": "Students often think a router and a modem are the same device because home \"routers\" provided by ISPs are actually combo devices (modem+router+switch+WiFi).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the function, OSI layer, and typical use case for each device (hub, switch, router, modem, gateway), and given a network scenario, select the appropriate device and justify the choice based on addressing method (MAC vs IP), broadcast domain, and protocol translation needs.",
+     "self_check": true
     }
    ]
   }

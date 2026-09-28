@@ -34,6 +34,21 @@
      "q": "Design a troubleshooting procedure for a simple circuit kit where a bulb fails to light up, listing at least three specific components you would check and why.",
      "a": "To troubleshoot, one should check: 1) The battery terminals and orientation to ensure proper contact and correct polarity, 2) The connecting wire fastenings to ensure no loose or broken connections create an open circuit, and 3) The bulb filament to verify it is not fused. A poor answer would suggest randomly shaking the components without a systematic check, showing a lack of understanding of circuit continuity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A simple electric circuit is a ______, unbroken loop containing an energy source (like an electric cell), a load device (like a small torch bulb), and conducting wires that allow electric current to flow through all components.",
+     "a": "continuous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you flick the switch on a study lamp at your study desk in the evening, the bulb lights up instantly because you have completed an ______ pathway.",
+     "a": "electrical",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify whether a proposed circuit diagram or physical setup will light a bulb, can correctly trace the complete loop from positive to negative terminal, and can troubleshoot missing or broken connections in a simple circuit.",
+     "self_check": true
     }
    ]
   }

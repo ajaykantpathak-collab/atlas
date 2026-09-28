@@ -34,6 +34,31 @@
      "q": "Design a service location plan for a new district (population 2 lakh, mixed income) that currently has no professional services. Specify: (a) which professional service to prioritize, (b) threshold calculation, (c) site within district, (d) one risk if threshold is miscalculated.",
      "a": "(a) Primary health clinic (doctor + diagnostics) — highest universal demand. (b) Threshold: 1 doctor per 10,000 people (WHO norm) → 20 doctors needed. With 30% utilization rate, 60,000 catchment per doctor → 2 lakh population supports 3-4 clinics. (c) Site: Near bus stand/main road intersection for maximum accessibility (range minimization). (d) Risk: If threshold overestimated → clinic fails financially; if underestimated → underserved population travels to city, increasing time-cost. A poor answer picks \"law firm\" (low demand) or ignores catchment calculation, showing inability to match service order to population size.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______, business, and personal services are specialized tertiary activities that provide intangible outputs requiring varying levels of skill, capital, and human interaction.",
+     "a": "Professional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your neighborhood: a chartered accountant's office in a commercial complex, a bank branch on the main road, and a tailor's shop in a ______ lane.",
+     "a": "residential",
+     "self_check": true
+    },
+    {
+     "q": "What is Professional, business, and personal services? State the definition given in this lesson.",
+     "a": "Professional, business, and personal services are specialized tertiary activities that provide intangible outputs requiring varying levels of skill, capital, and human interaction.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Professional, business, and personal services?",
+     "a": "Students think \"business services = services provided by businesses\" and classify *all* private-sector services (including salons, gyms, tutoring) as business services.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can classify a given service example into professional, business, or personal category with justification based on skill requirement, client type, and capital intensity.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Create a decision flowchart (describe in text) that a student should follow before using any digital resource (image, code, text, video) in their IP project. The flowchart must distinguish between legal requirements (copyright) and ethical requirements (plagiarism), and include at least four decision nodes.",
      "a": "A good flowchart: START → Is the work in public domain (copyright expired)? → YES: Use freely, but cite to avoid plagiarism. NO → Is there a license (Creative Commons, GPL, etc.)? → YES: Check license terms (attribution? non-commercial? share-alike?). Comply fully. NO → Is your use covered by fair dealing (Section 52)? → YES: Use within limits, cite source. NO → Seek permission from copyright holder. → If granted: Use per terms, cite. If denied: Do not use. → At every use: Provide proper citation (author, title, source, date, URL) to avoid plagiarism. A poor flowchart that omits the license check or conflates legal/ethical steps reveals inability to separate the two frameworks.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ Property Rights (IPR) are legal rights granted to creators and inventors to protect their original works, inventions, designs, and symbols for a specific period.",
+     "a": "Intellectual",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you find a perfect Python script for your Class 11 IP ______ on GitHub.",
+     "a": "project",
+     "self_check": true
+    },
+    {
+     "q": "What is Intellectual Property Rights (IPR)? State the definition given in this lesson.",
+     "a": "Intellectual Property Rights (IPR) are legal rights granted to creators and inventors to protect their original works, inventions, designs, and symbols for a specific period.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Intellectual Property Rights (IPR)?",
+     "a": "Students often believe: \"If I change a few words / rewrite the code in my own style, it's not plagiarism.\" This is mosaic plagiarism — paraphrasing without citation is still plagiarism because the *ideas and structure* are borrowed.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish between IPR, copyright, and plagiarism with precise definitions; (2) Identify whether a given real-world scenario constitutes copyright infringement, plagiarism, or fair use; (3) Explain the legal consequences of copyright violation and academic consequences of plagiarism in the Indian context.",
+     "self_check": true
     }
    ]
   }

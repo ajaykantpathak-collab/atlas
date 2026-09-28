@@ -34,6 +34,36 @@
      "q": "Design a hybrid electoral system for a hypothetical Indian state with 40 Assembly seats that retains geographic accountability but adds proportionality. Specify: (a) number of FPTP seats, (b) number of PR list seats, (c) threshold for list eligibility, (d) formula for seat allocation (e.g., MMP with compensatory seats). Justify each choice in one line.",
      "a": "(a) 28 FPTP seats (70% - preserves strong constituency link); (b) 12 PR list seats (30% - enough to correct disproportionality); (c) 5% vote threshold (excludes fringe parties, mirrors German model); (d) MMP: parties get list seats to make total seats proportional to state-wide vote share (compensatory). Justification: balances Art. 170 territorial mandate with proportional fairness; threshold prevents fragmentation seen in Israeli Knesset; compensatory formula is simpler than parallel voting. A poor answer copies German MMP without adapting to India's federal/territorial constraints or ignores the threshold's exclusionary effect on small but regionally significant parties.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Proportional ______ (PR) is an electoral system where seats in a legislature are allocated to political parties in proportion to the number of votes each party receives, typically using multi-member constituencies and quota-based formulas (e.g., Hare quota, Droop quota) or party lists; it contrasts with FPTP's winner-takes-all single-member constituency logic.",
+     "a": "Representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are watching the Rajya Sabha elections on TV: MLAs from each state rank ______ 1, 2, 3... and a candidate needs a specific quota of first-preference votes to win.",
+     "a": "candidates",
+     "self_check": true
+    },
+    {
+     "q": "What is Proportional Representation (PR)? State the definition given in this lesson.",
+     "a": "Proportional Representation (PR) is an electoral system where seats in a legislature are allocated to political parties in proportion to the number of votes each party receives, typically using multi-member constituencies and quota-based formulas (e.g., Hare quota, Droop quota) or party lists; it contrasts with FPTP's winner-takes-all.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______), while FPTP governs direct elections to the Lok Sabha and State Legislative Assemblies.",
+     "a": "171",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Proportional Representation (PR)?",
+     "a": "Students equate \"Proportional Representation\" exclusively with \"Party List PR\" (vote for party symbol, seats by percentage) and assume India uses FPTP for *all* elections.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish PR from FPTP across five dimensions (constituency size, vote-to-seat translation, party system effects, representation of minorities, and government stability), explain how STV works in Indian indirect elections with a quota calculation example, and evaluate why the Constituent Assembly adopted different.",
+     "self_check": true
     }
    ]
   }

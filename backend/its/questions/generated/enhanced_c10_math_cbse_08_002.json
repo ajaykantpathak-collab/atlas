@@ -34,6 +34,26 @@
      "q": "Create a real-life problem (with Indian context) where a surveyor needs to use cot θ to find the height of a tower, given the distance from the tower and the angle of elevation. Provide the problem statement, a labelled diagram description, and the formula the surveyor would use.",
      "a": "Example: A surveyor stands 20 m from the base of a tower in Delhi. The angle of elevation to the top is 30°. Find the tower height. Diagram: right triangle with base 20 m (adjacent to 30°), height h (opposite). Formula: cot 30° = Adjacent/Opposite = 20/h ⇒ h = 20/cot 30° = 20 tan 30°. A poor answer uses tan directly without showing cot relationship, or uses sin/cos incorrectly, or gives a non-Indian context (e.g., feet, yards). This tests ability to model a real situation with the appropriate reciprocal ratio.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In a right-angled triangle, for an acute angle θ, the reciprocal ______ ratios are defined as: cosec θ = 1/sin θ = Hypotenuse/Opposite, sec θ = 1/cos θ = Hypotenuse/Adjacent, cot θ = 1/tan θ = Adjacent/Opposite.",
+     "a": "trigonometric",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a carpenter in Jaipur building a triangular roof support: he knows the sine of the roof angle is 3/5 but needs the ratio of the ______ to the opposite side to cut the beam correctly.",
+     "a": "hypotenuse",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify and compute cosec, sec, cot for given angles in a right triangle, derive them from sin, cos, tan, and apply reciprocal relationships to simplify trigonometric expressions in board-style problems.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a carpenter in Jaipur building a ______ roof support: he knows the sine of the roof angle is 3/5 but needs the ratio of the hypotenuse to the opposite side to cut the beam correctly.",
+     "a": "triangular",
+     "self_check": true
     }
    ]
   }

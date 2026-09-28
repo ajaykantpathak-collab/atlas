@@ -34,6 +34,21 @@
      "q": "Design a combined line‑and‑bar diagram (climate graph) for a station that receives most of its rainfall in June–September and has a temperature peak in May. Specify the scales you would use for the two Y‑axes, the order of plotting, and how you would label the diagram to avoid confusion.",
      "a": "A good answer: (1) X‑axis: 12 months equally spaced. (2) Left Y‑axis: rainfall, scale 1 cm = 10 cm (max ~300 cm → 30 cm on paper). (3) Right Y‑axis: temperature, scale 1 cm = 5°C (range 10–40°C → 6 cm on paper). (4) Plot rainfall as vertical bars first, then temperature as a line with dots. (5) Title: “Monthly Temperature and Rainfall, Station X, Year Y”. Legend: blue bars = rainfall, red line = temperature. A poor answer uses a single scale for both, plots temperature as bars, or omits the legend — indicating the student cannot handle dual‑variable diagrams.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A line graph is a one-dimensional diagram that represents time series data by plotting the values of a variable (such as temperature, rainfall, or population growth rate) on the Y-axis against time (years, months) on the X-axis, then connecting consecutive data points with straight line segments to reveal trends, ______, and turning points over the period.",
+     "a": "fluctuations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you open a newspaper and see a graph showing the average monthly ______ in Delhi for the last year — the line goes up sharply from January to May, dips slightly in July–August, then falls steadily to December.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently construct a line graph (including polygraph) from raw time series data by selecting appropriate scales, labelling axes, plotting points accurately, and drawing smooth connecting lines; and can interpret a given line graph to identify the overall trend, calculate the average rate of change between two points.",
+     "self_check": true
     }
    ]
   }

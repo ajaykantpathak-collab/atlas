@@ -34,6 +34,26 @@
      "q": "Create a real-life problem where you need to find an equivalent ratio by DIVIDING both terms (not multiplying). The problem must involve a situation where scaling DOWN makes sense. Write the problem, show the ratio, and solve it.",
      "a": "Example: \"A school bus uses 40 litres of diesel to travel 400 km. How many litres does it use for 100 km?\" Ratio: 40:400 = x:100. Divide both terms by 4 → 10:100. Answer: 10 litres. A poor answer might create a multiplication problem instead, or divide only one term, showing they don't recognize when scaling down (division) is the natural operation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Two ratios a:b and c:d are ______ if there exists a non-zero number k such that c = a × k and d = b × k, or c = a ÷ k and d = b ÷ k.",
+     "a": "equivalent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're helping your mother adjust a ______ for 4 people to serve 10 guests at a Diwali party.",
+     "a": "recipe",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can generate equivalent ratios by scaling both terms up or down using multiplication or division, verify equivalence by checking if cross-products are equal, and apply this to find missing terms in proportional situations like scaling recipes or maps.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you're helping your mother adjust a recipe for 4 people to serve 10 guests at a Diwali party.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

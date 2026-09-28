@@ -34,6 +34,31 @@
      "q": "Design a backup strategy for a wedding photographer who shoots 100 GB of RAW images per event, needs to cull/edit within 24 hours, and must protect against: (a) laptop theft, (b) ransomware, (c) corrupted SD card. Specify media, schedule, backup types, RPO/RTO, and how it meets 3-2-1.",
      "a": "Good answer: (1) On-site: ingest to laptop → immediate copy to rugged external SSD (media 1) + verify. (2) Before editing: copy SSD to second external SSD kept offline (air-gapped, media 2) — protects against ransomware. (3) After culling (24h): upload final selects to cloud (Backblaze B2/Wasabi) (media 3, offsite). (4) Weekly: full backup of entire archive to cloud. RPO: 0 hours for selected images (cloud upload after cull), 24h for raw archive. RTO: minutes from local SSD, hours from cloud. Meets 3-2-1: 3 copies (laptop, SSD1, SSD2 offline, cloud), 3 media types (internal SSD, external SSD, cloud), 2 offsite (cloud + offline SSD stored at studio). Poor answer missing air-gapped copy or relying only on cloud sync shows inability to synthesize threat-specific controls.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Data backup is the process of creating and ______ copies of data to protect against loss from hardware failure, malware, human error, or disasters; data recovery is the process of restoring data from those copies.",
+     "a": "maintaining",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your laptop with all your Class 12 project files, photos, and college applications gets hit by ______ overnight — everything encrypted, a ransom note demanding ₹50,000.",
+     "a": "ransomware",
+     "self_check": true
+    },
+    {
+     "q": "What is Data backup? State the definition given in this lesson.",
+     "a": "Data backup is the process of creating and maintaining copies of data to protect against loss from hardware failure, malware, human error, or disasters; data recovery is the process of restoring data from those copies.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Data backup?",
+     "a": "Students equate \"cloud sync\" (Google Drive, OneDrive, Dropbox) with \"backup.\" They believe automatic sync protects against all data loss.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can design a backup plan for a given scenario specifying backup type, frequency, storage media, retention, and recovery objectives (RTO/RPO), and explain how it satisfies the 3-2-1 rule and addresses specific threat scenarios (ransomware, hardware failure, accidental deletion).",
+     "self_check": true
     }
    ]
   }

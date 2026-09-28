@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_09_004",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_09_004",
+   "title": "c12_leg_cbse_09_004",
+   "questions": [
+    {
+     "q": "Define 'actus reus' and 'mens rea' and state the Latin maxim that encapsulates their relationship. Why is mens rea not required for all offences under the IPC?",
+     "a": "Actus reus is the prohibited act or illegal omission (physical element); mens rea is the guilty mind or intention (mental element). The maxim is \"actus non facit reum nisi mens sit rea\" — an act does not make one guilty unless the mind is also blameworthy. Mens rea can be excluded by express statutory language or necessary implication where the legislature intends strict liability (e.g., public welfare offences like food adulteration, traffic violations). A wrong answer that says \"mens rea is always required\" reveals the student has not grasped the State of Maharashtra v. Mayer Hans George principle that statutes can expressly or impliedly exclude mens rea for regulatory offences.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between 'intention' and 'motive' in criminal law. Why does the law generally ignore motive when fixing criminal liability?",
+     "a": "Intention is the conscious decision to bring about a prohibited consequence (the mens rea); motive is the ulterior reason or driving force behind the intention (e.g., stealing bread to feed a starving child). The law ignores motive because criminal liability attaches to the voluntary commission of a prohibited act, not the moral quality of the reason. A wrong answer that equates motive with intention or says \"good motive excuses the crime\" reveals the student confuses moral justification with legal excuse — the Nathuni Yadav principle that motive is irrelevant to culpability, though relevant to sentencing.",
+     "self_check": true
+    },
+    {
+     "q": "A person buys poison, mixes it in food, and places it on the victim's table. The victim does not eat it. At which stage of crime is the accused? Is this preparation or attempt? Justify using the 'proximity rule' and 'locus poenitentiae'.",
+     "a": "This is **attempt**, not mere preparation. Steps: (1) Buying poison = preparation (locus poenitentiae still open). (2) Mixing in food = preparation. (3) Placing on victim's table = attempt — the act is proximate to commission, the accused has crossed the 'threshold of no return' (proximity rule: R. v. Eagleton / Abhayanand Mishra v. State of Bihar). The accused has done everything in their power to complete the crime; only the victim's independent act (not eating) prevented commission. A wrong answer calling this \"preparation\" reveals the student cannot distinguish the 'thin line' where preparation ends and attempt begins — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare 'admission' (S. 17) and 'confession' (S. 24–30) under the Evidence Act. Can a confession made to a police officer be proved? What about a confession made to a fellow prisoner?",
+     "a": "Admission (S. 17) is a voluntary acknowledgment of a fact in civil or criminal proceedings; confession (S. 24–30) is a species of admission made by an accused in a criminal case admitting guilt. Confession to a police officer is **inadmissible** under S. 25 (policy against police coercion). Confession to a fellow prisoner is **extra-judicial** and admissible **only if voluntary and credible** (Sahoo v. State of U.P. — overheard self-talk is confession). A wrong answer saying \"confession to police is admissible if voluntary\" reveals the student misses the absolute bar of S. 25 — a frequent board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"A dying declaration can be the sole basis for conviction without any corroboration.\" Is this statement correct? Under what conditions?",
+     "a": "**Yes, conditionally correct.** Per R. Mani v. State of T.N. (2006) and K.R. Reddy v. Public Prosecutor, a dying declaration can sustain conviction alone if: (1) it is voluntary, truthful, and made in a fit state of mind; (2) the declarant had clear opportunity to observe/identify the assailant; (3) it is coherent, consistent, and trustworthy; (4) preferably recorded by a magistrate in Q&A form. If these safeguards are met, no corroboration is legally required. A wrong answer saying \"dying declaration always needs corroboration\" or \"never needs corroboration\" reveals the student has not internalized the judicial scrutiny test — they treat it as a rigid rule rather than a case-by-case evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical fact scenario (3–4 sentences) where: (a) an actus reus exists but mens rea is absent due to a statutory exception, and (b) a statement qualifies as a dying declaration but is inadmissible due to tutoring. Explain both outcomes.",
+     "a": "**Scenario:** (a) A food vendor sells adulterated milk unaware of the adulteration. Under the Food Safety and Standards Act (strict liability), mens rea is excluded — actus reus (selling adulterated food) alone suffices for conviction. (b) A burn victim tells the magistrate: \"My husband poured kerosene and lit the match\" — but investigation reveals the victim's mother coached her to say this. The dying declaration is inadmissible due to tutoring (K.R. Reddy: court must guard against prompting). A poor answer that fails to cite a strict-liability statute or misses the \"tutoring\" flaw shows the student cannot synthesize statutory exclusion of mens rea with evidentiary safeguards for dying declarations.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

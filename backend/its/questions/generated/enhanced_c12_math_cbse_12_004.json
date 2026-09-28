@@ -34,6 +34,26 @@
      "q": "Construct a linear programming problem (objective function and constraints) such that:\n- The feasible region is unbounded.\n- The objective function has a finite maximum but no minimum.\nProvide the constraints, objective function, and a brief justification.",
      "a": "Example: Maximize/Minimize Z = -x + y subject to x ≥ 1, y ≥ 0, x + y ≥ 2.\nFeasible region: x ≥ 1 (vertical strip right of x=1), y ≥ 0 (upper half-plane), x+y ≥ 2 (above line through (2,0) and (0,2)). Intersection is unbounded, extending infinitely upward and rightward.\nCorner points: intersection of x=1 and x+y=2 → (1,1); intersection of x=1 and y=0 → (1,0) but x+y=1 ≥2? No, (1,0) gives 1≥2 false. So (1,0) not feasible. Intersection of y=0 and x+y=2 → (2,0). So corners: (1,1) and (2,0).\nZ at (1,1) = -1+1=0; at (2,0) = -2+0=-2.\nCheck maximum: candidate M=0 at (1,1). Half-plane -x+y > 0 → y > x. Does this intersect feasible region? Feasible region has x ≥ 1, y ≥ 0, y ≥ 2-x. For y > x, need x < y. But y ≥ 2-x and x ≥ 1. If y > x, then y ≥ x+1 (since integers? continuous). At x=1, y>1, say y=2: 1+2=3≥2 ✓. So (1,2) is feasible and gives Z=1 > 0. Thus half-plane intersects → maximum does not exist? Wait, we need a finite maximum. Let's adjust: Make objective Z = -x - y (so it decreases as x,y increase). Then at (1,1) Z=-2; at (2,0) Z=-2. But region extends to infinity, Z → -∞, so no minimum. Maximum? Z is negative and becomes more negative, so maximum is at corners? Check half-plane -x-y > -2 → x+y < 2. Feasible region requires x+y ≥ 2. So intersection is empty → maximum is -2. Minimum? Half-plane -x-y < -2 → x+y > 2. This intersects feasible region (e.g., (1,2): 3>2). So no minimum. Perfect.\nFinal answer: Minimize Z = -x - y subject to x ≥ 1, y ≥ 0, x + y ≥ 2. Feasible region unbounded. Maximum = -2 at (1,1) and (2,0) (and entire segment). No minimum. Justification: Half-plane for max (x+y<2) has no feasible points; half-plane for min (x+y>2) has feasible points (e.g., (1,2)).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A feasible region in a linear ______ problem is bounded if it can be enclosed within a circle of finite radius (i.e., it does not extend infinitely in any direction); otherwise, it is unbounded.",
+     "a": "programming",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a startup founder has ₹10 lakh to produce two ______, A and B.",
+     "a": "products",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For a bounded feasible region, the objective function Z = ax + by attains both a maximum and a minimum value at corner points (Theorem ______).",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) graph a system of linear inequalities and correctly classify the feasible region as bounded or unbounded, (2) state Theorem 1 and Theorem 2 with precise conditions, (3) apply the Corner Point Method's Step 3(ii) to verify existence of optimal values in unbounded regions, and (4) explain why an unbounded region does.",
+     "self_check": true
     }
    ]
   }

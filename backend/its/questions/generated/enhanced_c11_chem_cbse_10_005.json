@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_10_005",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_10_005",
+   "title": "c11_chem_cbse_10_005",
+   "questions": [
+    {
+     "q": "A student isolates a solid organic compound that decomposes at its boiling point but sublimes easily on heating. The impurity is non-volatile. Which purification technique should they choose and why?",
+     "a": "**Correct answer:** Sublimation. The compound transitions directly from solid to vapour without passing through the liquid phase (decomposes at BP), while the non-volatile impurity remains behind. On cooling, pure vapours deposit as solid.\n**Misconception check:** If the student says \"distillation\", they confuse *boiling point* with *sublimation point* and miss that the compound *decomposes* on boiling — distillation would destroy it. If they say \"crystallisation\", they overlook that the compound may not have a suitable solubility profile in any solvent.",
+     "self_check": true
+    },
+    {
+     "q": "In Lassaigne's test for nitrogen, the sodium fusion extract is boiled with FeSO₄ and acidified with conc. H₂SO₄. A Prussian blue precipitate forms. Write the balanced chemical equation for the formation of Prussian blue and explain why FeSO₄ is used *before* acidification.",
+     "a": "**Equation:** 6NaCN + FeSO₄ + 4H₂SO₄ → Fe₄[Fe(CN)₆]₃ (Prussian blue) + 3Na₂SO₄ + 6HCN (simplified: 6CN⁻ + Fe²⁺ + 3Fe³⁺ → Fe₄[Fe(CN)₆]₃). FeSO₄ provides Fe²⁺; conc. H₂SO₄ oxidises some Fe²⁺ to Fe³⁺ *in situ*. Both Fe²⁺ and Fe³⁺ are needed for the mixed-valence Prussian blue complex.\n**Misconception check:** If the student writes Fe³⁺ directly (e.g., FeCl₃) without FeSO₄, they miss that *in situ* generation of Fe³⁺ from Fe²⁺ oxidation by hot conc. H₂SO₄ is the classic procedure — using pre-made Fe³⁺ gives a different (less reliable) colour. If they omit acidification, they don't realise H⁺ is needed for oxidation and to prevent Fe(OH)₂ precipitation.",
+     "self_check": true
+    },
+    {
+     "q": "0.246 g of an organic compound on complete combustion gives 0.198 g CO₂ and 0.1014 g H₂O. Calculate the percentage composition of carbon and hydrogen. (Atomic masses: C=12, H=1, O=16)",
+     "a": "**Steps:**\n1. Molar mass CO₂ = 44 g/mol → moles CO₂ = 0.198/44 = 0.0045 mol → moles C = 0.0045 mol → mass C = 0.0045 × 12 = 0.054 g\n2. Molar mass H₂O = 18 g/mol → moles H₂O = 0.1014/18 = 0.005633 mol → moles H = 2 × 0.005633 = 0.011266 mol → mass H = 0.011266 × 1 = 0.011266 g\n3. %C = (0.054/0.246) × 100 = **21.95%**\n4. %H = (0.011266/0.246) × 100 = **4.58%**\n**Misconception check:** If the student uses 44 for CO₂ but forgets the 2:1 H:H₂O ratio, they get %H = 2.29% (half the correct value). If they use mass of CO₂ directly as mass of C, they get 80.5% — a classic \"forgot molar mass conversion\" error.",
+     "self_check": true
+    },
+    {
+     "q": "Two liquids A (b.p. 80°C) and B (b.p. 120°C) form a mixture. Simple distillation gives a distillate that is not pure A. The boiling point of the distillate rises gradually. Explain why simple distillation fails and what technique should be used instead.",
+     "a": "**Reason:** The boiling point difference (40°C) is *insufficient* for simple distillation to give clean separation. Vapours of both A and B co-distil over a temperature range (Raoult's law for non-ideal mixtures). The rising BP of distillate proves changing vapour composition.\n**Correct technique:** **Fractional distillation** using a fractionating column. The column provides repeated condensation-vaporisation cycles (theoretical plates), enriching vapour in the more volatile component (A) at each stage.\n**Misconception check:** If the student says \"steam distillation\", they confuse it with separating *immiscible* liquids (one being water). If they say \"distillation under reduced pressure\", that's for *high-boiling/decomposing* liquids, not for close-boiling mixtures.",
+     "self_check": true
+    },
+    {
+     "q": "A student performs Carius estimation of halogen in an organic compound. They obtain 0.188 g AgBr from 0.150 g compound. They calculate % Br as (80/188) × (0.188/0.150) × 100 = 53.2%. Is this correct? If not, identify the error and recalculate.",
+     "a": "**Error:** The student used atomic mass of Br (80) but **molar mass of AgBr is 188 g/mol (Ag=108, Br=80)** — the calculation *looks* numerically correct by coincidence, but the *formula* is wrong. Correct formula: %X = (Atomic mass of X / Molar mass of AgX) × (Mass of AgX / Mass of compound) × 100.\n**Correct calculation:** %Br = (80 / 188) × (0.188 / 0.150) × 100 = **53.2%** — same number, but the *reasoning* must use molar mass of AgBr, not \"188\" as a magic number.\n**Misconception check:** If the student writes %Br = (Mass of AgBr / Mass of compound) × 100 = 125%, they forgot the stoichiometric factor entirely. If they use atomic mass of Ag (108) instead of Br, they get 71.9% — confusing the cation with the analyte.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step procedure to separate a mixture of **benzoic acid** (solid, acidic), **aniline** (liquid, basic), and **naphthalene** (solid, neutral) using differential extraction. Specify the reagents, pH conditions, and the sequence of extractions. How would you recover each pure compound?",
+     "a": "**Expected procedure:**\n1. Dissolve mixture in ether (organic solvent immiscible with water).\n2. **Extract aniline (base):** Shake with dilute HCl → aniline forms water-soluble anilinium chloride (C₆H₅NH₃⁺Cl⁻) in aqueous layer. Separate aqueous layer. Add NaOH to free aniline → extract back into ether → evaporate ether → pure aniline.\n3. **Extract benzoic acid (acid):** To remaining ether layer, add NaHCO₃ → benzoic acid forms water-soluble sodium benzoate (C₆H₅COONa) in aqueous layer. Separate. Acidify with HCl → precipitate benzoic acid → filter → pure benzoic acid.\n4. **Naphthalene (neutral):** Remains in ether layer throughout. Evaporate ether → pure naphthalene.\n**Criteria for good answer:** Correct acid/base chemistry, immiscible solvent pair, sequence (base first or acid first both work if pH controlled), recovery by reversing the salt formation. Poor answer: using NaOH for benzoic acid extraction (works but NaHCO₃ is selective — won't extract phenols), or forgetting to reverse the salt formation to recover the neutral organic compound.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

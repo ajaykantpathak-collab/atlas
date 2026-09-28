@@ -1,6 +1,53 @@
 {
- "catalog": "catalog_class11_economics_ch3",
+ "catalog": "catalog_class11_economics_ch3.json",
  "concepts": [
+  {
+   "id": "c11eco.3.10",
+   "title": "Inflation and Uses of Index Numbers",
+   "converted_to_compute": true,
+   "formula": "inflation_rate = ((CPI_current - CPI_base) / CPI_base) * 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "inflation_rate = ((CPI_current - CPI_base) / CPI_base) * 100",
+     "compute": "inflation_rate = ((CPI_current - CPI_base) / CPI_base) * 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Inflation and Uses of Index Numbers: given CPI_current = 12.7, CPI_base = 12.8, find inflation rate.",
+     "a": "-0.78125",
+     "self_check": false
+    },
+    {
+     "q": "For Inflation and Uses of Index Numbers: given CPI_current = 9.7, CPI_base = 49, find inflation rate.",
+     "a": "-80.2041",
+     "self_check": false
+    },
+    {
+     "q": "For Inflation and Uses of Index Numbers: given CPI_current = 0.7, CPI_base = 13.2, find inflation rate.",
+     "a": "-94.697",
+     "self_check": false
+    },
+    {
+     "q": "For Inflation and Uses of Index Numbers: given CPI_current = 3.2, CPI_base = 67, find inflation rate.",
+     "a": "-95.2239",
+     "self_check": false
+    },
+    {
+     "q": "For Inflation and Uses of Index Numbers: given CPI_current = 4.5, CPI_base = 30, find inflation rate.",
+     "a": "-85",
+     "self_check": false
+    },
+    {
+     "q": "For Inflation and Uses of Index Numbers: given CPI_current = 17.1, CPI_base = 42, find inflation rate.",
+     "a": "-59.2857",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "c11eco.3.1",
    "title": "Arithmetic Mean (Ungrouped Data)",
@@ -194,37 +241,6 @@
     {
      "q": "Write the standard relation used for 'Index Numbers: Introduction, WPI and CPI', in plain ASCII form.",
      "a": "index_number = (value in current period / value in base period) * 100; CPI = (sum of current retail prices / sum of base retail prices) * 100",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "c11eco.3.10",
-   "title": "Inflation and Uses of Index Numbers",
-   "questions": [
-    {
-     "q": "Using the method 'Inflation and Uses of Index Numbers', work with: difference = 120, index_current = 25, index_previous = 15. Carry the chain through step by step and give the final value of the result.",
-     "a": "800 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Inflation and Uses of Index Numbers' and work with: difference = 45, index_current = 75, index_previous = 75. Carry the chain through step by step and give the final value of the result.",
-     "a": "60 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Inflation and Uses of Index Numbers' refers to.",
-     "a": "Inflation is the sustained rise in the general price level over time, measured as the percentage rate of change in a price index such as the CPI or WPI; index numbers are widely used to measure this change, determine purchasing power, deflate monetary values, and guide economic policy and wage adjustments.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Inflation and Uses of Index Numbers'.",
-     "a": "Index numbers are essential for measuring inflation, which erodes purchasing power; they also help compare economic variables over time, adjust incomes for inflation, and formulate government fiscal and monetary policies.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Inflation and Uses of Index Numbers', in plain ASCII form.",
-     "a": "inflation_rate = ((CPI_current - CPI_base) / CPI_base) * 100",
      "self_check": true
     }
    ]

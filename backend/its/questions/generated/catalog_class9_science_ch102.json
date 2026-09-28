@@ -4,81 +4,46 @@
   {
    "id": "iesc.102.1",
    "title": "Cell Size Estimation",
+   "converted_to_compute": true,
+   "formula": "cell_size = field_diameter_um / cell_count",
    "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
-     "name": "cell_size",
-     "expr": "field_diameter_um / cell_count",
-     "explain": "divide the field width among the cells seen across it"
-    },
-    {
-     "step": 2,
-     "name": "cell_nm",
-     "expr": "cell_size * 1000",
-     "explain": "cell size in nanometres"
-    },
-    {
-     "step": 3,
-     "name": "cell_size_mm",
-     "expr": "cell_size / 1000",
-     "explain": "convert micrometres to millimetres"
+     "action": "substitute the given values into the formula",
+     "explain": "cell_size = field_diameter_um / cell_count",
+     "compute": "cell_size = field_diameter_um / cell_count"
     }
    ],
    "questions": [
     {
-     "q": "Under a microscope 20 cells fit across a field of 200 micrometre. Estimate the size of one cell in mm.",
-     "vals": {
-      "field_diameter_um": 200,
-      "cell_count": 20
-     },
-     "unit": "mm",
-     "steps": null,
-     "a": "0.01 mm",
+     "q": "For Cell Size Estimation: given field_diameter_um = 3.6, cell_count = 129, find cell size.",
+     "a": "0.027907",
      "self_check": false
     },
     {
-     "q": "If 8 cells stretch across a 400 micrometre field, what is each cell's size in mm?",
-     "vals": {
-      "field_diameter_um": 400,
-      "cell_count": 8
-     },
-     "unit": "mm",
-     "steps": null,
-     "a": "0.05 mm",
+     "q": "For Cell Size Estimation: given field_diameter_um = 19, cell_count = 154, find cell size.",
+     "a": "0.123377",
      "self_check": false
     },
     {
-     "q": "50 tiny bacteria fit across a 100 micrometre field. Estimate one bacterium's length in mm.",
-     "vals": {
-      "field_diameter_um": 100,
-      "cell_count": 50
-     },
-     "unit": "mm",
-     "steps": null,
-     "a": "0.002 mm",
+     "q": "For Cell Size Estimation: given field_diameter_um = 14.4, cell_count = 428, find cell size.",
+     "a": "0.0336449",
      "self_check": false
     },
     {
-     "q": "5 onion cells span a field of 250 micrometre. Find the size of one cell in mm.",
-     "vals": {
-      "field_diameter_um": 250,
-      "cell_count": 5
-     },
-     "unit": "mm",
-     "steps": null,
-     "a": "0.05 mm",
+     "q": "For Cell Size Estimation: given field_diameter_um = 35, cell_count = 207, find cell size.",
+     "a": "0.169082",
      "self_check": false
     },
     {
-     "q": "25 cells lie across a 125 micrometre field. What is the estimated cell size in mm?",
-     "vals": {
-      "field_diameter_um": 125,
-      "cell_count": 25
-     },
-     "unit": "mm",
-     "steps": null,
-     "a": "0.005 mm",
+     "q": "For Cell Size Estimation: given field_diameter_um = 19.8, cell_count = 321, find cell size.",
+     "a": "0.0616822",
+     "self_check": false
+    },
+    {
+     "q": "For Cell Size Estimation: given field_diameter_um = 30, cell_count = 271, find cell size.",
+     "a": "0.110701",
      "self_check": false
     }
    ]
@@ -86,86 +51,99 @@
   {
    "id": "iesc.102.2",
    "title": "Microscope Magnification",
+   "converted_to_compute": true,
+   "formula": "total_magnification = eyepiece_power * objective_power",
    "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
-     "name": "total_magnification",
-     "expr": "eyepiece_power * objective_power",
-     "explain": "multiply the eyepiece and objective magnifications"
-    },
-    {
-     "step": 2,
-     "name": "image_cm",
-     "expr": "(real_size_mm * total_magnification) / 10",
-     "explain": "apparent size in centimetres"
-    },
-    {
-     "step": 3,
-     "name": "apparent_size_mm",
-     "expr": "real_size_mm * total_magnification",
-     "explain": "multiply the real size by the magnification"
+     "action": "substitute the given values into the formula",
+     "explain": "total_magnification = eyepiece_power * objective_power",
+     "compute": "total_magnification = eyepiece_power * objective_power"
     }
    ],
    "questions": [
     {
-     "q": "A microscope has 10x eyepiece and 40x objective. What is the total magnification, and how large does a 0.05 mm cell appear?",
-     "vals": {
-      "eyepiece_power": 10,
-      "objective_power": 40,
-      "real_size_mm": 0.05
-     },
-     "unit": "mm",
-     "steps": null,
-     "a": "20 mm",
+     "q": "For Microscope Magnification: given eyepiece_power = 1883, objective_power = 4867, find total magnification.",
+     "a": "9164561",
      "self_check": false
     },
     {
-     "q": "With 5x eyepiece and 10x objective, find the magnification and the apparent size of a 0.2 mm object.",
-     "vals": {
-      "eyepiece_power": 5,
-      "objective_power": 10,
-      "real_size_mm": 0.2
-     },
-     "unit": "mm",
-     "steps": null,
-     "a": "10 mm",
+     "q": "For Microscope Magnification: given eyepiece_power = 1412, objective_power = 3293, find total magnification.",
+     "a": "4649716",
      "self_check": false
     },
     {
-     "q": "A 15x eyepiece with 60x objective is used on a 0.01 mm bacterium. Give magnification and apparent size.",
-     "vals": {
-      "eyepiece_power": 15,
-      "objective_power": 60,
-      "real_size_mm": 0.01
-     },
-     "unit": "mm",
-     "steps": null,
-     "a": "9 mm",
+     "q": "For Microscope Magnification: given eyepiece_power = 3109, objective_power = 3962, find total magnification.",
+     "a": "12317858",
      "self_check": false
     },
     {
-     "q": "Using 10x eyepiece and 4x objective, what is the magnification and the image size of a 0.5 mm grain?",
-     "vals": {
-      "eyepiece_power": 10,
-      "objective_power": 4,
-      "real_size_mm": 0.5
-     },
-     "unit": "mm",
-     "steps": null,
-     "a": "20 mm",
+     "q": "For Microscope Magnification: given eyepiece_power = 1073, objective_power = 878, find total magnification.",
+     "a": "942094",
      "self_check": false
     },
     {
-     "q": "With 10x eyepiece and 100x objective, how magnified is a 0.002 mm sample and how big does it look?",
-     "vals": {
-      "eyepiece_power": 10,
-      "objective_power": 100,
-      "real_size_mm": 0.002
-     },
-     "unit": "mm",
-     "steps": null,
-     "a": "2 mm",
+     "q": "For Microscope Magnification: given eyepiece_power = 3679, objective_power = 1966, find total magnification.",
+     "a": "7232914",
+     "self_check": false
+    },
+    {
+     "q": "For Microscope Magnification: given eyepiece_power = 2618, objective_power = 707, find total magnification.",
+     "a": "1850926",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.102.4",
+   "title": "Cell Division Types",
+   "converted_to_compute": true,
+   "formula": "mitosis_output = 2 * parent_ploidy; meiosis_output = 4 * (parent_ploidy / 2)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mitosis_output = 2 * parent_ploidy",
+     "compute": "mitosis_output = 2 * parent_ploidy"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "meiosis_output = 4 * (parent_ploidy / 2)",
+     "compute": "meiosis_output = 4 * (parent_ploidy / 2)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Cell Division Types: given parent_ploidy = 35, find meiosis output.",
+     "a": "70",
+     "self_check": false
+    },
+    {
+     "q": "For Cell Division Types: given parent_ploidy = 115, find meiosis output.",
+     "a": "230",
+     "self_check": false
+    },
+    {
+     "q": "For Cell Division Types: given parent_ploidy = 84, find meiosis output.",
+     "a": "168",
+     "self_check": false
+    },
+    {
+     "q": "For Cell Division Types: given parent_ploidy = 106, find meiosis output.",
+     "a": "212",
+     "self_check": false
+    },
+    {
+     "q": "For Cell Division Types: given parent_ploidy = 32, find meiosis output.",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "For Cell Division Types: given parent_ploidy = 15.3, find meiosis output.",
+     "a": "30.6",
      "self_check": false
     }
    ]
@@ -188,28 +166,6 @@
     {
      "q": "How does osmosis differ from diffusion?",
      "a": "Osmosis is specifically the movement of water through a semipermeable membrane from lower to higher solute concentration.",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "iesc.102.4",
-   "title": "Cell Division Types",
-   "solution_type": "verify_property",
-   "questions": [
-    {
-     "q": "How do mitosis and meiosis differ in the number of daughter cells?",
-     "a": "Mitosis makes 2 identical daughter cells; meiosis makes 4 cells with half the chromosome number.",
-     "self_check": true
-    },
-    {
-     "q": "Which type of cell division keeps chromosome number constant?",
-     "a": "Mitosis - daughter cells have the same chromosome number as the parent cell.",
-     "self_check": true
-    },
-    {
-     "q": "Where in the human body does meiosis occur?",
-     "a": "In the reproductive organs - testes and ovaries - to make gametes (sperms and eggs).",
      "self_check": true
     }
    ]

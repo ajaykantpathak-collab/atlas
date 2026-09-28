@@ -34,6 +34,16 @@
      "q": "Construct a combinatorial problem whose answer is \\( \\binom{n}{r} + \\binom{n}{r-1} \\), then show how it leads to Pascal's identity \\( \\binom{n+1}{r} \\).",
      "a": "Problem: \"From a group of \\( n \\) boys and 1 girl, choose a committee of \\( r \\) members.\" Case 1: Girl not chosen — choose \\( r \\) from \\( n \\) boys: \\( \\binom{n}{r} \\). Case 2: Girl chosen — choose remaining \\( r-1 \\) from \\( n \\) boys: \\( \\binom{n}{r-1} \\). Total ways = \\( \\binom{n}{r} + \\binom{n}{r-1} \\). But directly, we choose \\( r \\) from \\( n+1 \\) people: \\( \\binom{n+1}{r} \\). Hence \\( \\binom{n}{r} + \\binom{n}{r-1} = \\binom{n+1}{r} \\). A poor answer that just states the algebraic proof without a word problem shows the student cannot connect algebraic identities to counting principles, which is the essence of combinatorial reasoning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your younger sibling count the number of ways to ______ a cricket team of 11 players from a squad of 15.",
+     "a": "choose",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are helping your younger sibling count the number of ways to choose a cricket team of 11 players from a squad of 15.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

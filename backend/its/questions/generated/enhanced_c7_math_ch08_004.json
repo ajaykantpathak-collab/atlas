@@ -34,6 +34,21 @@
      "q": "Create a division problem involving two different mixed fractions whose final quotient simplifies to exactly $3$. Show the complete working to prove your answer.",
      "a": "A valid student response will construct an expression such as $4\\frac{1}{2} \\div 1\\frac{1}{2}$. Working proof: Convert to improper fractions $\\frac{9}{2} \\div \\frac{3}{2}$. Multiply by the reciprocal: $\\frac{9}{2} \\times \\frac{2}{3} = \\frac{18}{6} = 3$. A poor response provides random numbers that do not divide evenly to 3, or fails to show the conversion and reciprocal steps.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The division of fractions using the reciprocal method is a rule where dividing any fraction by a non-zero fraction is performed by multiplying the first dividend fraction by the ______ inverse (reciprocal) of the second divisor fraction.",
+     "a": "multiplicative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In Class 6, you learned how to multiply fractions by flipping factors and multiplying numerators and ______, as well as visualizing fraction division as finding how many groups fit inside a total.",
+     "a": "denominators",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can convert any division expression involving proper, improper, or mixed fractions into an equivalent multiplication expression using reciprocals, simplify the resulting product, and interpret the result in real-world contexts.",
+     "self_check": true
     }
    ]
   }

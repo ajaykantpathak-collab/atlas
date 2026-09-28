@@ -34,6 +34,36 @@
      "q": "Design a screening strategy to isolate a gene from a genomic library when: (a) you know the protein sequence but not the DNA sequence, (b) the gene contains multiple introns, and (c) you have an antibody against the protein. Explain why colony hybridization alone cannot work in this scenario and how you would combine methods.",
      "a": "Colony hybridization requires a nucleic acid probe. With only protein sequence, you must deduce possible DNA sequences (degenerate oligonucleotides) — but introns break coding sequence continuity, so genomic library screening with cDNA-derived probes fails. Strategy: (1) Use antibody to screen an *expression library* (λgt11) via Western blot (immunoscreening) to get a cDNA clone; (2) Use that cDNA as probe to screen the genomic library for the full gene with introns. A poor answer tries to use degenerate oligos directly on genomic library, ignoring intron interruption.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Colony ______ is a nucleic acid screening technique where bacterial colonies (or plaques) are replicated onto a membrane, lysed, and hybridized with a labeled probe to identify clones containing a specific DNA sequence.",
+     "a": "hybridization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have ______ a genomic library of 100,000 bacterial colonies, each carrying a different fragment of human DNA.",
+     "a": "constructed",
+     "self_check": true
+    },
+    {
+     "q": "What is Colony hybridization? State the definition given in this lesson.",
+     "a": "Colony hybridization is a nucleic acid screening technique where bacterial colonies (or plaques) are replicated onto a membrane, lysed, and hybridized with a labeled probe to identify clones containing a specific DNA sequence.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This walkthrough connects the selection methods you learned in node ______ (markers) to the screening methods here — markers tell you *if* an insert is present; hybridization tells you *which* insert is present.",
+     "a": "007",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Colony hybridization?",
+     "a": "Students think colony hybridization and blue-white screening are interchangeable — both \"screen for recombinants.\" In reality, blue-white screening (insertional inactivation of lacZ) only tells you *that* an insert is present in the MCS; it gives zero information about the *identity* of that insert.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Design a colony hybridization experiment to isolate a specific gene from a genomic library, including probe selection, membrane choice, and hybridization conditions; (2) Differentiate between Southern, Northern, and Western blotting in terms of target molecule, separation method, probe type, and detection.",
+     "self_check": true
     }
    ]
   }

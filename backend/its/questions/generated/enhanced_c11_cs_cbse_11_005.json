@@ -34,6 +34,26 @@
      "q": "Design a transmission media plan for a new 3-story school building with: 40 classrooms (25 computers each), 5 labs (40 computers each), admin block (30 computers), and a server room in the basement. Specify media type for each segment (horizontal cabling, backbone, inter-building if campus expands), justify each choice with distance, bandwidth, and cost reasoning, and draw a simple topology diagram description.",
      "a": "A strong answer specifies: Horizontal (workstation to floor switch): Cat6a UTP (10 Gbps at 100m, ₹25/m, PoE+ for APs/cameras) - 125 runs × 3 floors = 375 drops. Backbone (floor switches to core in basement): OM4 multimode fiber (100 Gbps at 100m, ₹80/m) - 3 runs, future-proof for 40/100G upgrade. Inter-building (if campus expands): Single-mode fiber (10+ km, 100 Gbps) on aerial/duct. Topology: Star-wired hierarchical - each floor has 2×48-port PoE+ switches (access layer) uplinked via 10G SFP+ to core switch (distribution) in basement. Server room connects to core via 10G/25G DAC or fiber. A poor answer uses same media everywhere, ignores PoE needs, omits backbone vs horizontal distinction, or suggests wireless for stationary desktops.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ media refers to the physical pathway or channel through which data signals travel from sender to receiver in a computer network.",
+     "a": "Transmission",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're setting up a network for your school's new ______ lab - should you use Ethernet cables, Wi-Fi, or fiber optics?",
+     "a": "computer",
+     "self_check": true
+    },
+    {
+     "q": "What is Transmission media? State the definition given in this lesson.",
+     "a": "Transmission media refers to the physical pathway or channel through which data signals travel from sender to receiver in a computer network.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify any given transmission medium as guided or unguided, explain the working principle of each type with its specific advantages and limitations, and justify the selection of appropriate media for a given network scenario (distance, bandwidth, cost, environment) using correct technical terminology.",
+     "self_check": true
     }
    ]
   }

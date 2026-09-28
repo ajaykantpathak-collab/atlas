@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_03_010",
+   "title": "c12_app_cbse_03_010",
+   "questions": [
+    {
+     "q": "A spherical balloon is being inflated. The volume $V$ and radius $r$ are related by $V = \\frac{4}{3}\\pi r^3$. If the radius is increasing at $2$ cm/s, write the correct expression for $\\frac{dV}{dt}$ in terms of $r$ and $\\frac{dr}{dt}$. Do not substitute values yet.",
+     "a": "Correct answer: $\\frac{dV}{dt} = 4\\pi r^2 \\frac{dr}{dt}$.\nA wrong answer like $\\frac{dV}{dt} = 4\\pi r^2$ (missing $\\frac{dr}{dt}$) reveals the student treats $r$ as the independent variable instead of a function of $t$, forgetting the Chain Rule link $\\frac{dV}{dt} = \\frac{dV}{dr} \\cdot \\frac{dr}{dt}$. Writing $\\frac{dV}{dr} = 4\\pi r^2$ is correct for $dV/dr$, but the question asks for $dV/dt$.",
+     "self_check": true
+    },
+    {
+     "q": "In a related rates problem involving a right triangle where the hypotenuse is fixed at 10 cm and the base $x$ increases at 3 cm/s, a student writes: $x^2 + y^2 = 100 \\implies 2x + 2y = 0 \\implies dy/dt = -x/y$. Identify the exact error in the differentiation step and explain why it is mathematically incorrect.",
+     "a": "The student differentiated with respect to $x$ (or treated $x, y$ as constants), not $t$. The correct implicit differentiation w.r.t $t$ is $2x \\frac{dx}{dt} + 2y \\frac{dy}{dt} = 0$. The error reveals a fundamental misunderstanding: **every variable ($x, y$) is a function of time $t$**, so the Chain Rule *must* produce $\\frac{dx}{dt}$ and $\\frac{dy}{dt}$ terms. Writing $2x + 2y = 0$ implies $\\frac{d}{dt}(x^2) = 2x$, which is false; $\\frac{d}{dt}(x^2) = 2x \\frac{dx}{dt}$.",
+     "self_check": true
+    },
+    {
+     "q": "A conical tank (vertex down) has height 12 m and top radius 4 m. Water is poured in at $10 \\text{ m}^3/\\text{min}$. Find the rate at which the water level rises when the water is 3 m deep. (Volume of cone $V = \\frac{1}{3}\\pi r^2 h$).",
+     "a": "**Steps:**\n1. Relate $r$ and $h$ using similar triangles: $r/h = 4/12 = 1/3 \\implies r = h/3$.\n2. Substitute into Volume: $V = \\frac{1}{3}\\pi (h/3)^2 h = \\frac{\\pi}{27} h^3$.\n3. Differentiate w.r.t $t$: $\\frac{dV}{dt} = \\frac{\\pi}{9} h^2 \\frac{dh}{dt}$.\n4. Substitute knowns: $10 = \\frac{\\pi}{9} (3)^2 \\frac{dh}{dt} \\implies 10 = \\pi \\frac{dh}{dt}$.\n5. Solve: $\\frac{dh}{dt} = \\frac{10}{\\pi} \\text{ m/min}$.\nA wrong answer using $r=4$ (constant) reveals the student treated the *tank's* top radius as the *water's* radius, ignoring similar triangles. Plugging $h=3$ *before* differentiating yields $dV/dt = 0$, a classic \"constants vanish\" error.",
+     "self_check": true
+    },
+    {
+     "q": "Two cars start from the same point. Car A travels North at 60 km/h. Car B travels East at 80 km/h. At what rate is the distance between them changing after 2 hours? Compare this rate to the rate after 1 hour. Explain the relationship without recalculating fully.",
+     "a": "Let $x$ = distance East, $y$ = distance North, $z$ = distance between. $z^2 = x^2 + y^2$.\nDifferentiate: $2z \\frac{dz}{dt} = 2x \\frac{dx}{dt} + 2y \\frac{dy}{dt}$.\nAt $t=2$: $x=160, y=120, z=200$. $\\frac{dz}{dt} = \\frac{160(80) + 120(60)}{200} = \\frac{12800+7200}{200} = 100 \\text{ km/h}$.\nAt $t=1$: $x=80, y=60, z=100$. $\\frac{dz}{dt} = \\frac{80(80) + 60(60)}{100} = 100 \\text{ km/h}$.\n**Insight:** The rate is constant ($100$ km/h) because the velocity vectors are constant and perpendicular; the relative speed is the magnitude of the vector sum $\\sqrt{60^2+80^2}=100$. A student claiming the rate changes with time fails to recognize the linear relationship $x=80t, y=60t \\implies z=100t \\implies dz/dt = 100$ constant.",
+     "self_check": true
+    },
+    {
+     "q": "A company's cost function is $C(x) = 0.01x^3 - 0.5x^2 + 20x + 1000$ (Rupees), where $x$ is daily production. Production is increasing at $10$ units/day when $x=50$. The manager claims: \"Marginal Cost is $C'(50)$, so the rate of change of cost with time is just $C'(50) \\times 10$.\" Evaluate this claim. Is the logic mathematically sound? Justify.",
+     "a": "**The claim is mathematically sound.**\nReasoning: Marginal Cost $MC = \\frac{dC}{dx}$. Rate of change of cost w.r.t time is $\\frac{dC}{dt} = \\frac{dC}{dx} \\cdot \\frac{dx}{dt} = MC \\cdot \\frac{dx}{dt}$.\nAt $x=50$: $C'(x) = 0.03x^2 - x + 20 \\implies C'(50) = 0.03(2500) - 50 + 20 = 75 - 30 = 45$ Rs/unit.\n$\\frac{dC}{dt} = 45 \\times 10 = 450$ Rs/day.\nA student who says \"No, because MC changes with x\" misunderstands the *instantaneous* nature of derivatives. The Chain Rule gives the *instantaneous* rate exactly at that instant. The logic is the direct application of $\\frac{dy}{dt} = \\frac{dy}{dx} \\frac{dx}{dt}$.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel related rates problem set in an Indian context (e.g., a festival, agriculture, or local transport) involving **at least three changing quantities** linked by **two constraint equations**. Define all variables, state the given rates, and state the target unknown rate. Do not solve it.",
+     "a": "**Example Problem:** During Diwali, a cylindrical *diya* (lamp) with radius 3 cm is being filled with ghee at $2 \\text{ cm}^3/\\text{s}$. Simultaneously, the wick burns ghee at a rate proportional to the exposed surface area of the ghee ($k \\times \\pi r^2$, $k=0.01 \\text{ cm/s}$). The flame height $H$ is proportional to the square root of the ghee volume ($H = c\\sqrt{V}$, $c=2 \\text{ cm}^{-1/2}$).\n**Variables:** $V$ = volume of ghee, $h$ = height of ghee, $H$ = flame height.\n**Constraints:** (1) $V = \\pi r^2 h = 9\\pi h$ (Geometry). (2) $H = 2\\sqrt{V}$ (Physics).\n**Given:** $\\frac{dV}{dt}_{\\text{in}} = 2$, $\\frac{dV}{dt}_{\\text{out}} = -0.01 \\times 9\\pi = -0.09\\pi$. Net $\\frac{dV}{dt} = 2 - 0.09\\pi$.\n**Find:** $\\frac{dH}{dt}$ when $h = 4$ cm.\nA poor answer uses only one constraint (e.g., ignores burning rate or flame relation) or defines variables inconsistently, showing inability to model multi-process systems.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

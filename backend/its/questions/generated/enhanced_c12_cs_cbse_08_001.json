@@ -34,6 +34,21 @@
      "q": "Create a real-world scenario (not from the textbook) that requires a **queue** data structure. Describe the entities, the operations performed, and why FIFO is essential.",
      "a": "Example: A hospital emergency room triage system. Patients (entities) are enqueued upon arrival with a priority tag (but within same priority, FIFO). Operations: `enqueue` (new patient arrives), `dequeue` (doctor calls next patient), `peek` (view next patient without removing). FIFO is essential because medical ethics and fairness demand that patients with the same urgency are treated in order of arrival. A poor answer would describe a stack-like scenario (e.g., \"undo button\") or a scenario where priority alone decides (ignoring FIFO within priority).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A data structure is a ______ format for organizing, processing, retrieving, and storing data in a computer's memory so that it can be accessed and modified efficiently.",
+     "a": "specialized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a contact list app for your phone.",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify any given data structure as linear or non-linear, primitive or non-primitive, static or dynamic, and justify the classification with examples.",
+     "self_check": true
     }
    ]
   }

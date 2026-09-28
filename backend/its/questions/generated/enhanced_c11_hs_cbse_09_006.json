@@ -34,6 +34,31 @@
      "q": "Design a \"care-label decision matrix\" for a parent buying clothes for a 2-year-old. The matrix must have four fabric-type rows (cotton, cotton-polyester blend, wool, acrylic) and three criterion columns (wash method, ironing need, skin safety). Fill each cell with the NCERT-based recommendation.",
      "a": "| Fabric | Wash Method | Ironing Need | Skin Safety |\n|--------|-------------|--------------|-------------|\n| Cotton | Machine wash, hot water OK | Medium (wrinkles) | Excellent (soft, absorbent) |\n| Cotton-poly blend | Machine wash, warm water | Low (wrinkle resistant) | Good (absorbent + durable) |\n| Wool | Hand wash / dry clean only | Low (resilient) | Poor next to skin (irritating) |\n| Acrylic | Machine wash, cool water | Very low | Good (soft, non-irritating) |\nA poor answer leaves cells blank or gives generic advice, showing inability to synthesize the scattered textbook statements into a usable decision tool.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Easy care in children's clothing refers to garments that require minimal maintenance—machine washable, quick-drying, little or no ironing, and resistant to wrinkling and soiling—while fabric selection involves choosing soft, firmly woven or knitted materials (like cotton, cotton-polyester blends, acrylic) that are absorbent, non-irritating to sensitive skin, durable under frequent laundering, and free from hazardous finishes or dry-clean-only ______.",
+     "a": "requirements",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping a parent choose between two identical-looking kurta sets for a 4-year-old: one is 100% cotton with plain seams and tiny buttons, the other is a cotton-polyester blend with flat-felled seams, ______ knees, and large snap fasteners.",
+     "a": "reinforced",
+     "self_check": true
+    },
+    {
+     "q": "What is Easy care in children's clothing? State the definition given in this lesson.",
+     "a": "Easy care in children's clothing refers to garments that require minimal maintenance—machine washable, quick-drying, little or no ironing, and resistant to wrinkling and soiling—while fabric selection involves choosing soft, firmly woven or knitted materials (like cotton, cotton-polyester blends, acrylic) that are absorbent.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Easy care in children's clothing?",
+     "a": "Students often think \"easy care\" means only \"machine washable\" or \"no ironing,\" ignoring that the NCERT defines it as a system: fabric choice (wrinkle-resistant, soil-release), seam construction (flat seams for durability), strategic reinforcement (knees, elbows, pockets), and fastener design (large buttons, snaps for self-help).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can evaluate a given garment's fabric composition and construction features (seams, reinforcements, closures) to determine its suitability for a specific child's age, activity level, and care environment, justifying the choice with at least three fabric properties and two design features from the NCERT criteria.",
+     "self_check": true
     }
    ]
   }

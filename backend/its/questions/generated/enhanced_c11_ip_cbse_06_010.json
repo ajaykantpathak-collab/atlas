@@ -34,6 +34,31 @@
      "q": "Design a CSV file scenario (describe columns and 3 sample rows) where using `csv.reader` with index-based access is MORE appropriate than `csv.DictReader`. Explain why, considering header stability, column order, and processing simplicity.",
      "a": "Scenario: A legacy system exports `sensor_log.csv` with NO headers, fixed column order: `Timestamp, SensorID, Value, Status`. Rows:\n```\n2024-01-15 10:00:00, S1, 23.5, OK\n2024-01-15 10:00:01, S2, 45.1, WARN\n2024-01-15 10:00:02, S1, 24.0, OK\n```\n`csv.reader` is better because: (1) No headers exist — `DictReader` would misinterpret first row as keys unless `fieldnames` is manually provided; (2) Column order is guaranteed by hardware firmware; (3) Processing is simple numerical extraction (e.g., `float(row[2])`) without dictionary overhead. A poor answer (e.g., \"DictReader is always better\") reveals dogmatic thinking — the student hasn't learned to match tool to data structure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The csv.reader object returns an iterator that yields each row of a CSV file as a list of strings, while csv.DictReader returns an iterator yielding each row as an OrderedDict (or dict) where keys are column headers from the first row and values are ______ cell data, enabling both positional and named-field access to structured tabular data.",
+     "a": "corresponding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a CSV file students.csv containing roll numbers, names, and marks for 500 students from your ______'s annual exam.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a CSV file students.csv containing roll numbers, names, and marks for ______ students from your school's annual exam.",
+     "a": "500",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write Python code to open a CSV file using with statement, create appropriate reader objects (csv.reader for list-based access, csv.DictReader for header-based access), iterate through rows, handle missing/extra fields, skip headers when needed, and extract specific columns by index or name for data processing tasks.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a CSV file students.csv ______ roll numbers, names, and marks for 500 students from your school's annual exam.",
+     "a": "containing",
+     "self_check": true
     }
    ]
   }

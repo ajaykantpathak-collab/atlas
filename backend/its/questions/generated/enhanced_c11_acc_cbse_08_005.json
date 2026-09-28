@@ -34,6 +34,31 @@
      "q": "Create a mini-case: A bakery has Gross Profit ₹1,20,000. It pays ₹30,000 rent, ₹25,000 salaries, ₹5,000 electricity, ₹2,000 advertising. It earns ₹8,000 interest on FD and ₹3,000 rent from subletting part of premises. It also had a loss of ₹10,000 due to fire (uninsured). Prepare the Profit & Loss Account and compute Net Profit and Operating Profit.",
      "a": "**P&L Account:** Dr: Rent ₹30,000 + Salaries ₹25,000 + Electricity ₹5,000 + Advertising ₹2,000 + Loss by Fire ₹10,000 = ₹72,000. Cr: Gross Profit ₹1,20,000 + Interest ₹8,000 + Rent Received ₹3,000 = ₹1,31,000. Net Profit = ₹59,000. Operating Profit = ₹59,000 + ₹10,000 (non-op expense) – ₹11,000 (non-op incomes) = ₹58,000. A poor answer misses the fire loss classification (non-operating) or misclassifies sublet rent as operating income.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Net Profit is the excess of total revenues (including gross profit and other incomes) over total expenses (including indirect expenses and losses) for an ______ period, calculated as: Net Profit = Gross Profit + Other Incomes – Indirect Expenses.",
+     "a": "accounting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You've already ______ your Gross Profit of ₹50,000 from the Trading Account (sales minus cost of goods sold).",
+     "a": "calculated",
+     "self_check": true
+    },
+    {
+     "q": "What is Net Profit? State the definition given in this lesson.",
+     "a": "Net Profit is the excess of total revenues (including gross profit and other incomes) over total expenses (including indirect expenses and losses) for an accounting period, calculated as: Net Profit = Gross Profit + Other Incomes – Indirect Expenses.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Net Profit?",
+     "a": "Students often treat all expenses in the Trial Balance as indirect expenses for the P&L Account, forgetting that direct expenses (wages, carriage inwards, factory rent) have *already been used* in the Trading Account to compute Gross Profit.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to prepare a complete Profit and Loss Account from a given Trial Balance and additional information, correctly classifying items as direct/indirect expenses and operating/non-operating incomes, and compute Net Profit (or Net Loss) with proper journal entries for transfer to Capital Account.",
+     "self_check": true
     }
    ]
   }

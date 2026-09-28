@@ -32,7 +32,37 @@
     },
     {
      "q": "Design a CSS-only tooltip that appears when hovering over a `<span class=\"tooltip\">Hover me</span>`. The tooltip text should be in a `::after` pseudo-element, initially hidden, and positioned absolutely above the span. Write the complete CSS rule set.",
-     "a": "```css\n.tooltip {\n  position: relative;\n  display: inline-block;\n}\n.tooltip::after {\n  content: attr(data-tip);\n  position: absolute;\n  bottom: 100%;\n  left: 50%;\n  transform: translateX(-50%);\n  background: #333;\n  color: white;\n  padding: 4px 8px;\n  border-radius: 4px;\n  white-space: nowrap;\n  opacity: 0;\n  pointer-events: none;\n  transition: opacity 0.2s;\n}\n.tooltip:hover::after {\n  opacity: 1;\n}\n```\nA poor answer (e.g., missing `position: relative` on the parent, using `display: none` instead of opacity, or forgetting `content`) reveals the student cannot synthesize positioning, pseudo-elements, and hover state — a hallmark of moving from copying CSS to engineering it.",
+     "a": "```css\n.tooltip {\n  position: relative;\n  display: inline-block;\n}\n.tooltip::after {\n  content: attr(data-tip);\n  position: absolute;\n  bottom: 100%;\n  left: 50%;\n  transform: translateX(-50%);\n  background: #333;\n  color: white;\n  padding: 4px 8px;\n  border-radius: 4px;\n  white-space: nowrap;\n  opacity: 0;\n  pointer-events: N/A;\n  transition: opacity 0.2s;\n}\n.tooltip:hover::after {\n  opacity: 1;\n}\n```\nA poor answer (e.g., missing `position: relative` on the parent, using `display: N/A` instead of opacity, or forgetting `content`) reveals the student cannot synthesize positioning, pseudo-elements, and hover state — a hallmark of moving from copying CSS to engineering it.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: CSS Selectors are patterns used to target specific HTML elements for styling, while CSS ______ are the style attributes (such as color, font-size, margin) that define how the selected elements should appear.",
+     "a": "Properties",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a school website and the principal asks: \"Make all main headings dark blue, give the current page link in the ______ a yellow background, and make buttons turn green when the mouse hovers over them.\" How do you tell the browser exactly which elements get which styles?",
+     "a": "navigation",
+     "self_check": true
+    },
+    {
+     "q": "What is CSS Selectors? State the definition given in this lesson.",
+     "a": "CSS Selectors are patterns used to target specific HTML elements for styling, while CSS Properties are the style attributes (such as color, font-size, margin) that define how the selected elements should appear.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: First, you identify the HTML structure: headings are <h______>, navigation links are <a> inside a <nav>, and buttons are <button> elements.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about CSS Selectors?",
+     "a": "Students often believe that the universal selector * has zero specificity and can be overridden by any other selector.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently write CSS rules using element, class, ID, attribute, and pseudo-class selectors; combine them with combinators (descendant, child, adjacent sibling); and apply common properties (color, background, font, text, box model, display) to reproduce a given visual design.",
      "self_check": true
     }
    ]

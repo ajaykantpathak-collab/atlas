@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_09_003",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_09_003",
+   "title": "c11_app_cbse_09_003",
+   "questions": [
+    {
+     "q": "In the experiment of tossing two fair coins simultaneously, a student writes the sample space as S = {HH, HT, TH, TT} and defines event E = \"at least one head\". The student then claims P(E) = 3/4 because n(E)=3 and n(S)=4. Is this reasoning valid? Justify in one sentence.",
+     "a": "Yes, the reasoning is valid because the four outcomes in S are equally likely (fair coins, independent tosses), so the classical definition P(E) = n(E)/n(S) applies directly. A wrong answer (e.g., saying it's invalid because order doesn't matter) reveals the student confuses *sample space definition* with *equally likely condition* — they may think HT and TH are the \"same\" outcome, not realizing the sample space must list distinct elementary outcomes to preserve equal likelihood.",
+     "self_check": true
+    },
+    {
+     "q": "A bag contains 3 red and 2 blue balls. Two balls are drawn at random without replacement. A student defines the sample space as S = {RR, RB, BR, BB} and claims each outcome has probability 1/4. Explain why this sample space definition leads to incorrect probabilities.",
+     "a": "The outcomes in S = {RR, RB, BR, BB} are **not equally likely**: P(RR) = (3/5)(2/4) = 3/10, P(RB) = (3/5)(2/4) = 3/10, P(BR) = (2/5)(3/4) = 3/10, but P(BB) = (2/5)(1/4) = 1/10. Assuming equal probability (1/4 each) ignores the changing composition after the first draw. A student who misses this thinks \"four outcomes → each 1/4\", confusing *number of outcomes* with *equal likelihood* — a classic Class 11 error when moving from coins/dice to without-replacement problems.",
+     "self_check": true
+    },
+    {
+     "q": "An urn contains 5 tickets numbered 1 to 5. Two tickets are drawn at random **with replacement**. Define the sample space S as ordered pairs. Let event A = \"sum of numbers is 6\" and event B = \"first ticket shows an even number\". Compute P(A), P(B), and P(A ∩ B). Are A and B independent? Show your work.",
+     "a": "S has 25 equally likely ordered pairs. A = {(1,5),(2,4),(3,3),(4,2),(5,1)} → n(A)=5 → P(A)=5/25=1/5. B = {(2,1),(2,2),(2,3),(2,4),(2,5),(4,1),(4,2),(4,3),(4,4),(4,5)} → n(B)=10 → P(B)=10/25=2/5. A ∩ B = {(2,4),(4,2)} → n=2 → P(A∩B)=2/25. Check independence: P(A)P(B) = (1/5)(2/5)=2/25 = P(A∩B) → **Yes, independent**. A wrong answer (e.g., P(A)=1/5 but P(B)=1/2 by ignoring order) reveals the student doesn't systematically list the sample space or misapplies \"with replacement\" as unordered.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the experiment: \"A family has two children. The sample space is S = {BB, BG, GB, GG} (ordered by birth), assumed equally likely.\" Event E = \"at least one boy\", Event F = \"the elder child is a boy\". \n(a) Find P(E|F). \n(b) A student argues: \"Since F has occurred, the sample space reduces to {BB, BG}. In this reduced space, E = {BB, BG} so P(E|F) = 2/2 = 1.\" \nIdentify the flaw in the student's reasoning and give the correct P(E|F).",
+     "a": "The student incorrectly redefines E in the reduced space. E = \"at least one boy\" = {BB, BG, GB} in the original space. Given F = {BB, BG}, E ∩ F = {BB, BG} → n(E∩F)=2, n(F)=2 → P(E|F)=1. Wait — the student got the right answer (1) but for the wrong reason? Actually, E ∩ F = {BB, BG} so P(E|F)=1 is correct. The flaw is subtle: the student said \"E = {BB, BG} in the reduced space\" — but E is **not** redefined; it's the intersection E∩F that matters. The correct reasoning: P(E|F) = P(E∩F)/P(F) = (2/4)/(2/4) = 1. A student who says \"E becomes {BB,BG}\" confuses *event redefinition* with *conditioning* — a dangerous habit for conditional probability (next node).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If two events A and B are mutually exclusive, then P(A ∪ B) = P(A) + P(B) always holds, even if outcomes are not equally likely.\" Is this true or false? Defend your answer using the axioms of probability.",
+     "a": "**True.** Mutual exclusivity means A ∩ B = ∅. By the third axiom of probability (countable additivity for disjoint events), P(A ∪ B) = P(A) + P(B) **for any probability measure**, regardless of whether outcomes are equally likely. The classical formula n(A∪B)/n(S) = n(A)/n(S) + n(B)/n(S) only works under equal likelihood, but the axiomatic additivity is universal. A student who says \"false, only for equally likely\" confuses the *classical computation method* with the *axiomatic property* — a critical distinction for higher probability.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) involving a random experiment with a **finite but non-equally likely** sample space. Define the sample space S, assign plausible probabilities to each outcome (summing to 1), define an event E of practical interest, and compute P(E) using the axiomatic definition (sum of outcome probabilities). Explain why the classical formula n(E)/n(S) would give a wrong answer.",
+     "a": "**Scenario:** A Zomato delivery partner in Bengaluru has 3 pending orders: Order A (high tip, 50% chance of being assigned next), Order B (medium tip, 30%), Order C (low tip, 20%). S = {A, B, C} with P(A)=0.5, P(B)=0.3, P(C)=0.2. Event E = \"assigned order has tip ≥ medium\" = {A, B}. P(E) = P(A) + P(B) = 0.5 + 0.3 = 0.8. Classical n(E)/n(S) = 2/3 ≈ 0.667 — wrong because orders are not equally likely (algorithm prioritizes high-tip orders). A poor answer uses coins/dice (equally likely) or assigns equal probabilities, missing the core idea: **probability is a measure, not a count.**",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,31 @@
      "q": "Design a simple visual timeline (with 4-5 stages) showing the evolution of the digit '7' from Brahmi to modern form. Label each stage with the script name and approximate century.",
      "a": "**Expected answer criteria:** A good timeline includes:  \n1. **Brahmi (3rd century BCE):** Two horizontal lines with a descending diagonal from the left of the top line.  \n2. **Gupta (4th century CE):** Top horizontal and diagonal more connected, written in one stroke.  \n3. **Nagari (7th century CE):** Top horizontal extends right, diagonal curves slightly downward.  \n4. **Arabic (9th century CE):** Western Arabic (ghubar) form adds a crossbar on the diagonal; eastern Arabic keeps simple form.  \n5. **European print (15th century CE):** Modern '7' with horizontal top, straight diagonal, sometimes with crossbar.  \nA poor answer misses stages, mislabels scripts, or shows no understanding of the progressive cursivization.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The evolution of digit shapes 0-9 traces the historical transformation of numeral symbols from ancient Brahmi numerals in India (3rd century BCE) through Gupta, Nagari, and Arabic adaptations to the modern Hindu-Arabic numerals used worldwide today, where each digit's shape evolved through cursive writing practices, regional script variations, and printing ______.",
+     "a": "standardization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever wondered why the digit '2' looks like a swan's neck or why '0' is a perfect ______?",
+     "a": "circle",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight: the shapes we use today are largely from ______th-century European printing of Arabic manuscripts, which themselves came from Indian Nagari script.",
+     "a": "15",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can describe the key stages in the evolution of digit shapes (Brahmi → Gupta → Nagari → Arabic → European print) and explain how the concepts of place value and zero influenced the shapes.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever ______ why the digit '2' looks like a swan's neck or why '0' is a perfect circle?",
+     "a": "wondered",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Construct a hypothetical example of an enterprise that transitions from formal to informal sector due to outsourcing. Specify initial worker count, ownership change, and new hiring structure. Explain how this contributes to informalisation statistics.",
      "a": "Example: A garment factory (private, 50 workers) closes its in-house stitching unit and outsources to 10 home-based contractors each hiring 3 workers. Initially: 1 formal enterprise (50 workers). After: 10 informal enterprises (30 workers total, each <10 hired). Formal employment falls by 50; informal rises by 30; 20 jobs lost. This mirrors post-reform outsourcing in textiles/IT. A poor answer would omit the 10-worker threshold or fail to show net formal job loss.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The formal sector comprises all public sector establishments and private sector establishments employing 10 or more hired workers, where workers enjoy legal ______, social security benefits (provident fund, gratuity, pension, maternity leave), and regulated working conditions.",
+     "a": "protection",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two workers in your neighbourhood: Rekha, a cashier at a nationalised bank with a monthly salary, PF, and paid leave; and Ramesh, a cycle-rickshaw puller who earns daily cash, has no ______, and stops earning if he falls ill.",
+     "a": "contract",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The formal sector comprises all public sector establishments and private sector establishments employing ______ or more hired workers, where workers enjoy legal protection, social security benefits (provident fund, gratuity, pension, maternity leave), and regulated working conditions.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) classify any given enterprise or worker into formal/informal sector using the 10-hired-worker threshold and ownership criteria; (2) calculate formal/informal sector workforce percentages from aggregate data; (3) explain how casualisation and informalisation interact to deteriorate employment quality using sectoral and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two workers in your ______: Rekha, a cashier at a nationalised bank with a monthly salary, PF, and paid leave; and Ramesh, a cycle-rickshaw puller who earns daily cash, has no contract, and stops earning if he falls ill.",
+     "a": "neighbourhood",
+     "self_check": true
     }
    ]
   }

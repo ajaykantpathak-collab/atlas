@@ -34,6 +34,31 @@
      "q": "Design a 5-minute classroom activity that forces semantic encoding of the term \"cognitive dissonance\" for Class 11 students. Specify the task, the processing level targeted, and how you would verify depth.",
      "a": "Task: \"Write a real-life dilemma where you experienced cognitive dissonance, explain the conflicting cognitions, and describe how you resolved it.\" Target: Semantic (personal meaning, elaboration). Verification: Collect responses; check for accurate use of \"conflicting beliefs/behaviours\" and \"resolution strategy\" – not just dictionary definition. A poor activity would be \"memorise the definition\" (shallow) or \"list synonyms\" (phonemic/structural).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Levels of Processing Theory (Craik & Lockhart, 1972) proposes that memory retention depends on the depth of cognitive processing during encoding: structural (shallow, physical features), phonemic (______, sound), and semantic (deep, meaning), with deeper semantic processing producing more durable memory traces.",
+     "a": "intermediate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are trying to ______ a new classmate's name: \"Aarav\".",
+     "a": "remember",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Levels of Processing Theory (Craik & Lockhart, ______) proposes that memory retention depends on the depth of cognitive processing during encoding: structural (shallow, physical features), phonemic (intermediate, sound), and semantic (deep, meaning), with deeper semantic processing producing more durable memory traces.",
+     "a": "1972",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish the three processing levels using novel stimuli, (2) predict relative recall performance for tasks requiring structural vs. phonemic vs. semantic encoding, and (3) explain why elaborative rehearsal (semantic) outperforms maintenance rehearsal (structural/phonemic) using the concept of depth.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are trying to remember a new ______'s name: \"Aarav\".",
+     "a": "classmate",
+     "self_check": true
     }
    ]
   }

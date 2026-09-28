@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_07_003",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_07_003",
+   "title": "c12_soc_cbse_07_003",
+   "questions": [
+    {
+     "q": "Define 'research question' and 'hypothesis' in the context of a Class 12 sociology project. How are they different from a broad topic?",
+     "a": "A research question is a specific, focused, and empirically answerable query derived from a broad topic (e.g., \"How does metro access affect women's commuting time?\" vs. the broad topic \"public transport\"). A hypothesis is a testable predictive statement about the relationship between variables (e.g., \"Proximity to metro reduces women's commuting time by 20%\"). A wrong answer would treat the broad topic itself as the research question (e.g., \"I will study public transport\") or write a hypothesis that is not testable (e.g., \"Public transport is good for society\"), revealing confusion between scope, specificity, and testability.",
+     "self_check": true
+    },
+    {
+     "q": "A student wants to study \"Changing aspirations of school children.\" They write the research question: \"Do children's aspirations change as they grow older?\" and hypothesis: \"Yes, aspirations change with age.\" Explain why this research question and hypothesis are inadequate for a sociological project.",
+     "a": "The research question is too vague — it does not specify which age groups, what kind of aspirations (career, education, marriage), or the social context (urban/rural, gender, class). The hypothesis is not a predictive statement about a relationship between variables; it merely restates the question as a yes/no answer. A correct version would be: \"How do career aspirations of Class 5 vs Class 11 students differ across government and private schools in Mumbai?\" with hypothesis: \"Class 11 students in private schools aspire more to professional careers than Class 5 students, while government school students show less variation.\" A wrong answer indicates the student cannot operationalise abstract concepts into measurable variables.",
+     "self_check": true
+    },
+    {
+     "q": "You are given the theme \"Household appliances and domestic work.\" Formulate a specific research question and a testable hypothesis suitable for a survey method. Identify the independent and dependent variables.",
+     "a": "Research question: \"Does ownership of a washing machine reduce the time women spend on laundry in middle-class households in Bengaluru?\" Hypothesis: \"Women in households with washing machines spend at least 5 fewer hours per week on laundry than women in households without washing machines.\" Independent variable: ownership of washing machine (yes/no). Dependent variable: hours per week spent on laundry by women. A wrong answer would miss variable identification or propose a hypothesis like \"Washing machines make life easier,\" which is not measurable.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the following two research questions for the theme \"Use of public space\":\nA) \"How do people use the park in my neighbourhood?\"\nB) \"How do elderly women and teenage boys differently use the seating areas of Nehru Park, Delhi, on weekday mornings vs evenings?\"\nAnalyse which question is more sociologically productive and why.",
+     "a": "Question B is more productive because it specifies: (1) a defined population (elderly women, teenage boys), (2) a specific location (Nehru Park, Delhi), (3) a specific behaviour (use of seating areas), and (4) a comparative time frame (weekday mornings vs evenings). This allows for focused observation, clear sampling, and detection of patterns by gender, age, and time. Question A is too broad — \"people\" and \"park\" are undefined, making systematic data collection impossible. A student choosing A reveals inability to operationalise concepts and design a feasible study.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this hypothesis for a project on \"Role of communication media in social life\": \"Teenagers who use Instagram more than 3 hours daily have lower self-esteem than those who use it less.\" Consider testability, ethical feasibility, and sociological relevance.",
+     "a": "The hypothesis is testable (measurable variables: Instagram usage hours, self-esteem scale score) and sociologically relevant (links media consumption to psychological outcome). However, ethical feasibility is questionable: measuring self-esteem in minors requires parental consent, validated psychological scales, and confidentiality safeguards — beyond a typical school project. A better hypothesis would be: \"Teenagers who report >3 hours daily Instagram use describe their online interactions more negatively in interviews than those reporting <1 hour.\" This shifts to qualitative, self-reported data, reducing ethical risk. A student missing the ethical dimension shows lack of reflexivity about research on vulnerable groups.",
+     "self_check": true
+    },
+    {
+     "q": "Create a research question and hypothesis for a project on \"The biography of a commodity\" (e.g., a smartphone). Your question must allow use of at least two methods from the NCERT table (observation, survey, interview, archival). State the methods and justify each.",
+     "a": "Research question: \"What are the social relations and economic circuits through which a smartphone moves from factory to consumer in India, and how do young buyers perceive its symbolic value?\" Hypothesis: \"Young buyers associate smartphones more with social status and identity expression than with functional utility, and this perception is shaped by advertising narratives traced over the last decade.\" Methods: (1) Archival analysis of smartphone advertisements (2014–2024) to trace changing symbolic narratives; (2) Semi-structured interviews with 15 buyers aged 18–25 to explore perceived value. Archival method captures historical discourse; interviews capture lived meanings. A poor answer would propose only one method or mismatch method to question (e.g., survey for historical advertising analysis).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A research question is a clear, focused, and answerable query that narrows a broad topic into a specific ______ problem, while a hypothesis is a testable, tentative statement predicting the relationship between variables that can be empirically verified or falsified through systematic data collection.",
+     "a": "sociological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ at a busy Delhi Metro station during rush hour, noticing that women commuters seem to board the women-only coach faster than men board the general coach.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently transform a broad theme (e.g., \"public transport\") into a specific research question (e.g., \"How does access to metro rail affect the daily commuting time of women in Delhi?\") and formulate a corresponding testable hypothesis (e.g., \"Women living within 1 km of a metro station report 20% less commuting time.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing at a busy Delhi Metro station during rush hour, noticing that women ______ seem to board the women-only coach faster than men board the general coach.",
+     "a": "commuters",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -44,11 +44,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "num = 3 * 7 + 6 * 6",
-    "den = 6 * 7",
-    "val = num / den"
-   ]
+   "steps_chain": []
   },
   {
    "id": "hemh.101.1.2",

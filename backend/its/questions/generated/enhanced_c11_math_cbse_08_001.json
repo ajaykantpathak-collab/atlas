@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (Indian context) where the Binomial Theorem is the most efficient method to solve it, and the answer must be an integer. The problem should involve at least 3 terms in the expansion and require calculating a specific term's value, not the full expansion.",
      "a": "Example: \"A bank offers a compound interest scheme where ₹10,000 is deposited at 5% per annum compounded annually. After 6 years, the bank announces a bonus equal to the coefficient of the x^3 term in the expansion of (100 + 5)^6 when expressed in powers of 5. Find the bonus amount.\" Solution: (100+5)^6 = Σ ^6C_k 100^{6-k} 5^k. The x^3 term corresponds to k=3: ^6C_3 100^3 5^3 = 20 × 1,000,000 × 125 = ₹2,500,000,000. A good answer shows understanding of term selection (not full expansion), correct binomial coefficient calculation, and realistic context. A poor answer expands fully or misidentifies the term index, revealing inability to connect the general term concept (next node) to the theorem statement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Binomial Theorem for a positive integer index n states that for any real numbers a and b, the expansion of (a + b)^n is given by (a + b)^n = Σ_{k=0}^{n} ^nC_k a^{n-k} b^k, where ^nC_k = n!/(k!(n-k)!) are the binomial ______.",
+     "a": "coefficients",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to ______ (102)^5 for a compound interest problem where principal is ₹100 and rate is 2%.",
+     "a": "calculate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Binomial Theorem for a positive integer index n states that for any real numbers a and b, the expansion of (a + b)^n is given by (a + b)^n = Σ_{k=______}^{n} ^nC_k a^{n-k} b^k, where ^nC_k = n!/(k!(n-k)!) are the binomial coefficients.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state the Binomial Theorem precisely with summation notation, identify binomial coefficients using factorial notation, prove the theorem using mathematical induction, and apply it to expand binomials of the form (x + y)^n for any positive integer n.",
+     "self_check": true
     }
    ]
   }

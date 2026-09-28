@@ -34,6 +34,26 @@
      "q": "Create a real-world scenario involving three sets where finding the intersection of all three is meaningful. Define the universal set and all three sets clearly, then describe what the triple intersection represents in your context.",
      "a": "Example: U = all Class 11 students in a school. A = students taking Mathematics, B = students taking Physics, C = students taking Chemistry. A ∩ B ∩ C = students taking all three subjects (PCM combination). This is meaningful for scheduling, lab allocation, or career counseling. A poor answer would use vague sets like \"students who like math\" without well-defined membership criteria, or would create sets where triple intersection is empty by design without explaining why that's still meaningful.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The intersection of two sets A and B, denoted by A ∩ B, is the set of all elements that belong to both A and B ______.",
+     "a": "simultaneously",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are selecting students for a ______ debate team (Set A) and a quiz team (Set B).",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly compute intersections of sets given in roster form, set-builder form, or described verbally; can prove and apply the five properties of intersection (commutative, associative, identity, idempotent, distributive); can identify disjoint sets; and can solve multi-step problems combining intersection with union.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ students for a school debate team (Set A) and a quiz team (Set B).",
+     "a": "selecting",
+     "self_check": true
     }
    ]
   }

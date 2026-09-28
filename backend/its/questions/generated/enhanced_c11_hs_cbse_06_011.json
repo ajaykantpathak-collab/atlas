@@ -34,6 +34,21 @@
      "q": "Design a communication technology plan for a mobile health van serving 20 tribal hamlets in a forested district (no grid power, no cellular coverage, 50 km from nearest town). Specify: (a) primary backbone technology, (b) last-mile access technology, (c) power strategy, (d) one fallback method. Justify each choice in one sentence.",
      "a": "(a) Primary backbone: VSAT (satellite) terminal on van roof — works anywhere with sky view, no ground infrastructure. (b) Last-mile: Wi-Fi hotspot (2.4 GHz) from van to hamlet community centre — connects villagers' basic phones/tablets without SIM cards. (c) Power: 500 W solar panels + 2 kWh lithium battery on van — silent, renewable, survives cloudy days. (d) Fallback: Store-and-forward — van downloads/uploads batches when it reaches town with 4G coverage. A poor answer picks \"optical fibre\" or \"4G dongle\" ignoring the *no coverage/no power* constraints; the task tests whether the student can *synthesise* a fit-for-context stack from the building blocks.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cable-based communication technologies transmit signals through physical conductors (twisted pair, coaxial cable, optical fibre) while wireless communication technologies propagate ______ waves through air/space without physical conductors; both enable information exchange but differ fundamentally in infrastructure, bandwidth, latency, mobility, and susceptibility to interference.",
+     "a": "electromagnetic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are setting up a community health helpline in a remote Himalayan village: there are no telephone lines, ______ is erratic, but most homes have basic smartphones.",
+     "a": "electricity",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can classify any given communication technology as cable-based or wireless, explain the physical principle of signal propagation for each category, and justify the choice of technology for a specific real-world scenario (e.g., rural telemedicine, urban broadband, disaster relief) by comparing bandwidth, cost, mobility, and.",
+     "self_check": true
     }
    ]
   }

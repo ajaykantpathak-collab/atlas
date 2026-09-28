@@ -24,7 +24,7 @@
     "Describe, step by step and in your own words, the way produced works.",
     "Make your own labelled sketch of appropriate and mark its parts."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -41,7 +41,16 @@
      "action": "answer the comparison",
      "explain": "State the maximum, minimum, trend or difference asked for"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 24 / 4 gives 6",
+     "compute": "t1 = 24 / 4"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c8m4.2.1",
@@ -171,7 +180,7 @@
     "list the outcomes of spinning the wheel",
     "when two coins are tossed together what are the outcomes"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -188,7 +197,16 @@
      "action": "conclude whether outcomes are equally likely",
      "explain": "If every outcome has the same chance, the outcomes are equally likely; otherwise they are not"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "divide favourable outcomes by total outcomes",
+     "explain": "divide favourable outcomes by total outcomes: p = 3 / 6 gives 0.5",
+     "compute": "p = 3 / 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c8m4.3.2",

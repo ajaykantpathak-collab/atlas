@@ -34,6 +34,26 @@
      "q": "Construct a real-world problem (Indian context) involving locus of a point that requires using both distance formula and section formula. Provide the geometric condition and ask for the equation of the locus.",
      "a": "Problem: \"A cellular tower is to be erected on a straight road (x-axis) such that it is equidistant from two villages located at A(2, 5) and B(8, 1). The tower must also be exactly 5 km from a highway checkpoint at C(5, 0). Find the possible coordinates of the tower.\"\nCondition: Tower T lies on x-axis (y=0), TA = TB, and TC = 5.\nFrom TA = TB: T is on perpendicular bisector of AB. Midpoint of AB is (5, 3), slope AB = -2/3, so perpendicular slope = 3/2. Equation: y - 3 = (3/2)(x - 5). Since T is on x-axis (y=0): -3 = (3/2)(x - 5) → x = 3. So T(3, 0).\nCheck TC = 5: Distance from (3,0) to (5,0) = 2 ≠ 5. No solution exists.\nA good answer identifies the conflict and explains why no such tower position exists. A poor answer just solves TA=TB ignoring the x-axis constraint or the TC=5 condition, showing inability to synthesize multiple constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The locus of a point is the set of all points in a plane that satisfy a given geometric condition or a set of ______.",
+     "a": "conditions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a drone flying over a rectangular field such that it is always ______ from two boundary poles located at (2, 3) and (8, 7).",
+     "a": "equidistant",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the equation of a locus from a verbal geometric description, identify the geometric shape represented by a given locus equation, and solve problems involving locus combined with distance formula, section formula, and line equations.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a drone flying over a ______ field such that it is always equidistant from two boundary poles located at (2, 3) and (8, 7).",
+     "a": "rectangular",
+     "self_check": true
     }
    ]
   }

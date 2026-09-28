@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_01_009",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_01_009",
+   "title": "c12_app_cbse_01_009",
+   "questions": [
+    {
+     "q": "If an inlet pipe can fill a cistern in 10 hours, what fraction of the cistern does it fill in 1 hour? If an outlet pipe can empty the same cistern in 15 hours, what fraction does it empty in 1 hour?",
+     "a": "Inlet fills \\( \\frac{1}{10} \\) of the cistern in 1 hour; outlet empties \\( \\frac{1}{15} \\) (or fills \\( -\\frac{1}{15} \\)) in 1 hour. A wrong answer like \"inlet fills 10 parts, outlet empties 15 parts\" reveals the student is confusing **time** with **rate** — they think \"10 hours\" means \"10 tanks per hour\" instead of \"1/10 tank per hour\". This is the foundational error that cascades into all subsequent mistakes.",
+     "self_check": true
+    },
+    {
+     "q": "Two pipes A and B can fill a tank in 12 hours and 18 hours respectively. A student calculates the combined time as \\( 12 + 18 = 30 \\) hours. Explain why this is wrong and state the correct approach in one sentence.",
+     "a": "Times never add directly — rates add. The correct approach: combined rate = \\( \\frac{1}{12} + \\frac{1}{18} = \\frac{5}{36} \\) tank/hr, so combined time = \\( \\frac{36}{5} = 7.2 \\) hours. If a student says \"30 hours\", they are treating time as additive work (like distances), not understanding that **faster pipes reduce total time**, not increase it. This misconception comes from misapplying \"time = distance/speed\" intuition without converting to rates.",
+     "self_check": true
+    },
+    {
+     "q": "Pipe A fills a tank in 8 hours, Pipe B fills it in 12 hours, and Pipe C (outlet) empties it in 24 hours. All three are opened together. After how many hours will the tank be full?",
+     "a": "Net rate = \\( \\frac{1}{8} + \\frac{1}{12} - \\frac{1}{24} = \\frac{3+2-1}{24} = \\frac{4}{24} = \\frac{1}{6} \\) tank/hr → Time = 6 hours. A wrong answer of 4 hours (from \\( \\frac{1}{8}+\\frac{1}{12}+\\frac{1}{24} = \\frac{1}{4} \\)) reveals the student **added the outlet rate instead of subtracting** — they treated the emptying pipe as a filling pipe. This is the #1 error in pipes & cisterns: sign convention for outlets.",
+     "self_check": true
+    },
+    {
+     "q": "A tank has a leak that would empty it in 20 hours. An inlet pipe is opened which fills at 5 litres/minute, and the tank now empties in 30 hours. Find the capacity of the tank in litres.",
+     "a": "Let capacity = \\( V \\) litres. Leak rate = \\( -\\frac{V}{20} \\) litres/hr. Inlet rate = \\( 5 \\times 60 = 300 \\) litres/hr. Net rate with both = \\( 300 - \\frac{V}{20} \\) litres/hr. This net rate empties the tank in 30 hrs → \\( \\left(300 - \\frac{V}{20}\\right) \\times 30 = -V \\) (negative because tank empties). Solve: \\( 9000 - \\frac{3V}{2} = -V \\) → \\( 9000 = \\frac{V}{2} \\) → \\( V = 18,000 \\) litres. A student who sets up \\( 300 - \\frac{V}{20} = \\frac{V}{30} \\) (positive) misses that the tank is **emptying**, so net rate must be negative — they confuse \"time to empty\" with \"filling rate\".",
+     "self_check": true
+    },
+    {
+     "q": "Two pipes A and B can fill a cistern in 24 min and 32 min respectively. Both are opened together, but after some time B is closed so that the tank is full in exactly 18 minutes. Evaluate this student's claim: \"Since total time is 18 min and A alone takes 24 min, B must have worked for \\( 24 - 18 = 6 \\) minutes.\" Is the claim correct? Justify.",
+     "a": "The claim is **incorrect**. Times don't subtract like that. Correct method: Let B work for \\( t \\) minutes. Work done = \\( t\\left(\\frac{1}{24}+\\frac{1}{32}\\right) + (18-t)\\frac{1}{24} = 1 \\). Solve: \\( t\\left(\\frac{7}{96}\\right) + \\frac{18-t}{24} = 1 \\) → \\( \\frac{7t}{96} + \\frac{72-4t}{96} = 1 \\) → \\( 3t + 72 = 96 \\) → \\( t = 8 \\) minutes. The student's error: they assumed \"A's unused time = B's working time\", which only holds if rates are equal. This reveals a **proportional reasoning gap** — they don't grasp that work contribution depends on rate × time, not just time.",
+     "self_check": true
+    },
+    {
+     "q": "Design a pipes-and-cisterns problem where: (a) there are 3 pipes (2 inlets, 1 outlet), (b) pipes are opened at different times, (c) the answer is a non-integer number of minutes, and (d) the problem statement fits in 3 sentences. Write the problem and solve it.",
+     "a": "**Problem:** \"Pipe A fills a tank in 20 min, Pipe B in 30 min, and outlet C empties it in 15 min. A and B are opened together; after 5 minutes C is also opened. How many total minutes from start until the tank is full?\"  \n**Solution:** Rate A = \\( \\frac{1}{20} \\), B = \\( \\frac{1}{30} \\), C = \\( -\\frac{1}{15} \\). First 5 min: \\( 5\\left(\\frac{1}{20}+\\frac{1}{30}\\right) = 5 \\times \\frac{5}{60} = \\frac{25}{60} = \\frac{5}{12} \\) filled. Remaining = \\( \\frac{7}{12} \\). Net rate with all three = \\( \\frac{1}{20}+\\frac{1}{30}-\\frac{1}{15} = \\frac{3+2-4}{60} = \\frac{1}{60} \\). Time for remaining = \\( \\frac{7/12}{1/60} = 35 \\) min. Total = 40 min. (Adjust numbers to get non-integer: e.g., A=18, B=24, C=16, first 4 min → total = \\( 4 + \\frac{11/18}{1/144} = 4 + 88 = 92 \\) min — still integer. To force non-integer, use prime denominators: A=7, B=11, C=13, first 2 min → remaining work = \\( 1 - 2\\left(\\frac{1}{7}+\\frac{1}{11}\\right) = 1 - \\frac{36}{77} = \\frac{41}{77} \\), net rate = \\( \\frac{1}{7}+\\frac{1}{11}-\\frac{1}{13} = \\frac{143+91-77}{1001} = \\frac{157}{1001} \\), time = \\( \\frac{41}{77} \\times \\frac{1001}{157} = \\frac{41 \\times 13}{157} = \\frac{533}{157} \\approx 3.395 \\) min, total ≈ 5.395 min.) A poor answer that gives an integer or ignores staggered timing shows the student cannot **construct** a multi-stage rate problem — they only solve template-based ones.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

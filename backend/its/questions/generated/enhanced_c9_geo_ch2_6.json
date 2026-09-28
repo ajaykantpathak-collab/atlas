@@ -34,6 +34,36 @@
      "q": "Design a simple observation experiment a Class 9 student can do at home over 6 months to prove Earth's axial tilt causes seasons. Specify what to measure, when, and how to interpret the data.",
      "a": "Measure the length of a vertical stick's shadow at local solar noon on the 21st of each month for 6 months. Record shadow length and direction. In the Northern Hemisphere, shadow will be shortest on June 21 (Sun highest) and longest on December 21 (Sun lowest), with equal lengths on March 21 and September 21. Plotting shadow length vs. date shows a sinusoidal pattern proving the Sun's changing altitude. A poor answer measures at random times (not solar noon) or only measures once, failing to capture the systematic change.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Seasons are the periodic changes in weather patterns caused by Earth's revolution around the Sun combined with its fixed axial tilt of 23.5°, which alters the Sun's apparent position (______) and the duration of daylight at different latitudes throughout the year.",
+     "a": "declination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how the shadow of your school flagpole changes length and ______ from June to December — it is shortest in June and longest in December.",
+     "a": "direction",
+     "self_check": true
+    },
+    {
+     "q": "What is Seasons? State the definition given in this lesson.",
+     "a": "Seasons are the periodic changes in weather patterns caused by Earth's revolution around the Sun combined with its fixed axial tilt of 23.5°, which alters the Sun's apparent position (declination) and the duration of daylight at different latitudes throughout the year.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Seasons are the periodic changes in weather patterns caused by Earth's revolution around the Sun combined with its fixed axial tilt of ______°, which alters the Sun's apparent position (declination) and the duration of daylight at different latitudes throughout the year.",
+     "a": "23.5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Seasons?",
+     "a": "Students believe Earth is closer to the Sun in summer and farther in winter, causing seasons.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how Earth's axial tilt and revolution cause the Sun's direct rays to shift between the Tropics, and can identify the dates of solstices and equinoxes with their corresponding seasonal effects in both hemispheres.",
+     "self_check": true
     }
    ]
   }

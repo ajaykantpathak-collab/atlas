@@ -34,6 +34,26 @@
      "q": "Construct an arithmetic expression that has exactly four terms, involves addition, subtraction, and multiplication, and evaluates to a total value of 50.",
      "a": "A valid constructed expression is $10 + 20 + 3 \\times 5 + 5$. Checking the terms: $10$, $20$, $3 \\times 5$ (which is $15$), and $5$. Their sum is $10 + 20 + 15 + 5 = 50$. A poor answer creates an expression where terms are incorrectly bounded or whose evaluation does not equal 50.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An arithmetic expression is a ______ of numbers and operational symbols (+, -, ×, ÷) that represents a single numerical value, where individual parts separated by addition or subtraction signs are called terms.",
+     "a": "combination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you go to a stationery shop in your neighborhood and buy 3 ______ for ₹25 each and 2 pens for ₹10 each.",
+     "a": "notebooks",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify individual terms within an arithmetic expression, distinguish between operators and numbers, and calculate the overall value of multi-term expressions accurately.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you go to a stationery shop in your ______ and buy 3 notebooks for ₹25 each and 2 pens for ₹10 each.",
+     "a": "neighborhood",
+     "self_check": true
     }
    ]
   }

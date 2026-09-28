@@ -32,7 +32,27 @@
     },
     {
      "q": "Design a simple experiment using a school laboratory setup (trolley, light gate, masses, runway) to verify that kinetic energy is proportional to the square of velocity. Outline the procedure, measurements, and how you would analyze the data.",
-     "a": "Procedure: Place trolley on friction-compensated runway. Attach a card of known length. Use a light gate to measure time \\( t \\) for card to pass → velocity \\( v = \\text{length}/t \\). Vary starting height to change \\( v \\). Measure \\( v \\) and compute \\( K = \\frac{1}{2}mv^2 \\). Plot \\( K \\) vs \\( v \\) (curved) and \\( K \\) vs \\( v^2 \\) (straight line through origin). Slope = \\( \\frac{1}{2}m \\). A poor answer (e.g., \"measure speed and energy directly\" or no graph analysis) reveals lack of experimental design skills and misunderstanding of how to test a quadratic relationship.",
+     "a": "(1) Place the trolley on a friction-compensated runway and attach a card of known length, (2) Use a light gate to time the card and get the velocity v as length over t for several different starting heights, (3) Compute K as half m v squared for each run, (4) Plot K against v, which curves, and K against v squared, which gives a straight line through the origin, (5) Read the slope as half the mass, confirming K is proportional to v squared. A poor answer measures speed and energy directly with no graph analysis, revealing weak experimental design for testing a quadratic relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a cricket ball and a tennis ball ______ at the same speed — the cricket ball hurts more because it has more mass.",
+     "a": "thrown",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Kinetic energy?",
+     "a": "Students often treat kinetic energy as a vector because it depends on velocity, which is a vector.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate kinetic energy from given mass and speed, correctly handle unit conversions (e.g., km/h to m/s), and explain why kinetic energy is a scalar while momentum is a vector.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a cricket ball and a tennis ball thrown at the same speed — the cricket ball hurts more because it has more mass.",
+     "a": "Observe",
      "self_check": true
     }
    ]

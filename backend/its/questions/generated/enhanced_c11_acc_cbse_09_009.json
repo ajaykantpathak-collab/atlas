@@ -27,12 +27,37 @@
     },
     {
      "q": "A company sends goods on approval frequently. At year-end, 20 such transactions are pending approval. The accountant proposes: \"Instead of reversing each sale individually, let's just reduce Sales by total invoice price and increase Closing Stock by total cost.\" Evaluate this proposal.",
-     "a": "**Correct Answer:**  \nThe proposal is **correct in effect but incomplete in procedure**. The net impact on Trading Account and Balance Sheet is identical: Sales reduced by total invoice price, Closing Stock increased by total cost. However, proper accounting requires individual journal entries (or a combined entry with narration) to maintain audit trail, allow customer-wise tracking (for follow-up), and ensure the Debtors control account agrees with the subsidiary ledger. Skipping individual reversals makes it impossible to identify which specific customers still need to approve/return goods.\n\n**Why wrong answers reveal misunderstanding:**  \nIf the student says \"It's wrong because we must reverse each sale separately,\" they prioritize form over substance and don't understand that combined entries are acceptable if supported by a schedule. If they say \"It's perfectly fine, no need for journal entries,\" they neglect internal control and reconciliation requirements. If they suggest reducing Debtors by cost instead of invoice price, they confuse the two accounts affected.",
+     "a": "(1) In effect correct — the net impact on the Trading Account and Balance Sheet is identical whether reversals are item-wise or combined, (2) In procedure incomplete — proper accounting still needs individual entries, or a combined entry supported by a schedule, to preserve the audit trail, (3) Customer-wise tracking suffers — without item-wise reversal the firm cannot identify which specific customers still owe approval or return, (4) Reconciliation breaks — the Debtors control account may fail to agree with the subsidiary ledger if sales are reversed only in total. A wrong answer insisting the proposal is flatly wrong because every sale must be reversed separately prioritises form over substance, while calling it perfectly fine with no entries neglects internal control and reconciliation.",
      "self_check": true
     },
     {
      "q": "Create a new adjustment problem (with numbers) involving goods sent on approval where: (a) some goods are approved before year-end, (b) some are returned after year-end, and (c) some are still pending. Provide the additional information note as it would appear in a board exam question.",
-     "a": "**Expected Answer (example):**  \n*Additional Information:*  \n1. Goods costing ₹25,000 were sent on approval at ₹30,000 on March 15 and recorded as sales. Of these:  \n   - Goods costing ₹10,000 (invoice ₹12,000) were approved by the customer on March 28.  \n   - Goods costing ₹5,000 (invoice ₹6,000) were returned by the customer on April 5.  \n   - The remaining goods are still with the customer awaiting approval.  \n\n**Criteria for good answer:**  \n- Clearly states cost and invoice price for each category.  \n- Specifies dates showing approval/return before/after year-end.  \n- Only the \"awaiting approval\" portion requires adjustment.  \n- The returned goods (after year-end) do NOT require adjustment at year-end (they were still unapproved on March 31).  \n\n**Why poor answers reveal misunderstanding:**  \nIf the student includes the returned goods in the adjustment, they confuse subsequent events with year-end status. If they exclude the approved goods correctly but forget to mention them, the problem is incomplete. If they set all goods at same cost/invoice ratio, they oversimplify and miss the need to calculate cost per transaction.",
+     "a": "(1) Goods approved before year-end need no adjustment because the sale stands confirmed, (2) Goods returned after the year-end also need no adjustment because they were still unapproved on the reporting date, (3) Goods still awaiting approval must have the sale reversed at invoice price and the goods added back to closing stock at cost, (4) The note should state cost and invoice price separately for each category with the relevant dates. A wrong answer that pulls the post-year-end return into the year-end adjustment confuses subsequent events with year-end status.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Goods sent on approval basis (or sale on approval) refers to a transaction where goods are delivered to a customer with the ______ that the sale is complete only when the customer approves/accepts them; until approval, ownership remains with the seller and the transaction is not a sale.",
+     "a": "understanding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a boutique and send a ______ worth ₹15,000 (cost ₹10,000) to a bride-to-be on \"try before you buy\" terms on March 28.",
+     "a": "lehenga",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: On March ______ (year-end), the bride hasn't decided.",
+     "a": "31",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently identify goods-on-approval transactions from a trial balance and additional information, calculate the cost price of unapproved goods, pass the two required adjustment journal entries, and correctly show the effects in the Trading Account (reduced sales, increased closing stock) and Balance Sheet (debtors.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a ______ and send a lehenga worth ₹15,000 (cost ₹10,000) to a bride-to-be on \"try before you buy\" terms on March 28.",
+     "a": "boutique",
      "self_check": true
     }
    ]

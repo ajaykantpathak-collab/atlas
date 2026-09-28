@@ -26,13 +26,33 @@
      "self_check": true
     },
     {
-     "q": "A student calculates the area of a triangle with sides 5 cm, 6 cm, and 12 cm as follows: s = (5+6+12)/2 = 11.5, Area = √[11.5 × 6.5 × 5.5 × (-0.5)] = √(-205.9375). They say \"the area is imaginary, so the triangle doesn't exist.\" Evaluate this solution.",
-     "a": "The student's conclusion is correct (the triangle doesn't exist) but their reasoning has a flaw: they computed Heron's Formula without first checking the triangle inequality. The correct approach: Check triangle inequality FIRST: 5+6 = 11 < 12, so these sides cannot form a triangle. The negative value under the square root (s-c = -0.5) is a CONSEQUENCE of the triangle inequality violation, not the primary reason. A student who only notices the negative radicand and says \"imaginary area\" without explicitly stating \"5+6<12 violates triangle inequality\" shows they treat Heron's Formula as a black box rather than understanding it requires a valid triangle as a precondition.",
+     "q": "Give the correct order of checks to apply before trusting a Heron's Formula area for sides 5 cm, 6 cm, and 12 cm.",
+     "a": "The checks run: (1) Test the triangle inequality on the three sides (2) Observe that 5 plus 6 equals 11, which is less than 12 (3) Conclude the sides form no triangle at all (4) Reject the area before computing any square root, whose negative radicand was only a symptom. A wrong answer that trusts the algebra and reports an imaginary area shows the student has missed that the triangle inequality must be checked first, before any formula is applied.",
      "self_check": true
     },
     {
      "q": "Create a real-world problem involving a triangular plot of land where Heron's Formula is the ONLY practical method to find the area (not base-height). Provide the side lengths in metres and ask for the area in square metres. Then solve your own problem.",
      "a": "Good problem: \"A triangular garden has sides 13 m, 14 m, and 15 m. The ground is uneven so measuring height is impossible. Find the area to buy grass seed.\" Solution: s = 21, Area = √[21×8×7×6] = √7056 = 84 m². A poor problem would use a right triangle (e.g., 3-4-5 scaled) where base-height is easier, showing the student doesn't understand WHEN Heron's Formula is practically useful. A problem with sides that violate triangle inequality shows they don't grasp the validity condition.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Heron's Formula ______ the area of a triangle when the lengths of all three sides (a, b, c) are known, without requiring the height.",
+     "a": "calculates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer in Punjab has a ______ field with sides measuring 50 m, 60 m, and 70 m.",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: First, we find the semi-perimeter s by adding all three sides and dividing by ______.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly compute the area of any triangle given its three side lengths using Heron's Formula, including verifying the triangle inequality first, and can solve multi-step problems where Heron's Formula is combined with perimeter calculations or composite figures.",
      "self_check": true
     }
    ]

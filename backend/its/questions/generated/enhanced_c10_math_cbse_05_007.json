@@ -34,6 +34,16 @@
      "q": "Create a real-life problem (in Indian context) that can be solved by finding the sum of the first \\(n\\) terms of an AP. Your problem must require the use of the formula \\(S_n = \\frac{n}{2}(a+l)\\) (i.e., the last term is easier to find or given). State the problem clearly and solve it.",
      "a": "Example problem: A construction company penalises ₹4000 for the first day of delay, ₹5000 for the second day, ₹6000 for the third day, and so on, increasing by ₹1000 each day. If the project is delayed by 10 days, find the total penalty.\nSolution: \\(a = 4000, d = 1000, n = 10\\). Last term \\(l = a + (n-1)d = 4000 + 9 \\times 1000 = 13000\\). Sum \\(S_{10} = \\frac{10}{2}(4000 + 13000) = 5 \\times 17000 = ₹85,000\\).\nA poor answer would be a problem that doesn't form an AP, or uses the wrong formula, or has inconsistent numbers. It shows the student cannot model a real situation as an AP or choose the convenient formula.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a student saves ₹10 on the first day, ₹15 on the second day, ₹20 on the third day, and so on, ______ the saving by ₹5 each day.",
+     "a": "increasing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can also derive the formula using the pairing method and explain why the two forms are equivalent.",
+     "self_check": true
     }
    ]
   }

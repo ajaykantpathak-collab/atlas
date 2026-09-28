@@ -1,172 +1,226 @@
 {
-  "class": 12,
-  "subject": "applied_maths",
-  "chapter": 3,
-  "chapter_title": "Differentiation and Its Applications",
-  "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am12_003a_differentiation_applications.txt",
-  "concepts": [
+ "class": 12,
+ "subject": "applied_maths",
+ "chapter": 3,
+ "chapter_title": "Differentiation and Its Applications",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am12_003a_differentiation_applications.txt",
+ "concepts": [
+  {
+   "id": "am12_003a.1",
+   "title": "Marginal Cost and Marginal Revenue",
+   "definition": "Marginal cost is the rate of change of total cost with respect to output, and marginal revenue is the rate of change of total revenue with respect to output. From successive totals they are the differences between consecutive values, and marginal profit is marginal revenue minus marginal cost.",
+   "formula": "mp = mr - mc",
+   "key_idea": "Producing one more unit adds the marginal cost and brings in the marginal revenue, so the unit is worth making exactly when the revenue change beats the cost change.",
+   "question_patterns": [
+    "The total cost rises from {tc1} to {tc2} when output increases by one unit. Find the marginal cost.",
+    "Total revenue increases from {tr1} to {tr2} on selling one more item. Find the marginal revenue.",
+    "If the marginal revenue is {mr} and the marginal cost is {mc}, find the marginal profit.",
+    "What does the marginal cost of a product represent?",
+    "Given C(q) and R(q), how do you obtain the marginal cost and marginal revenue functions?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "am12_003a.1",
-      "title": "Marginal Cost and Marginal Revenue",
-      "definition": "Marginal cost is the rate of change of total cost with respect to output, and marginal revenue is the rate of change of total revenue with respect to output. From successive totals they are the differences between consecutive values, and marginal profit is marginal revenue minus marginal cost.",
-      "formula": "mp = mr - mc",
-      "key_idea": "Producing one more unit adds the marginal cost and brings in the marginal revenue, so the unit is worth making exactly when the revenue change beats the cost change.",
-      "question_patterns": [
-        "The total cost rises from {tc1} to {tc2} when output increases by one unit. Find the marginal cost.",
-        "Total revenue increases from {tr1} to {tr2} on selling one more item. Find the marginal revenue.",
-        "If the marginal revenue is {mr} and the marginal cost is {mc}, find the marginal profit.",
-        "What does the marginal cost of a product represent?",
-        "Given C(q) and R(q), how do you obtain the marginal cost and marginal revenue functions?"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"compute": "mc = tc2 - tc1"},
-        {"compute": "mr = tr2 - tr1"},
-        {"compute": "mp = mr - mc"}
-      ]
+     "compute": "mc = tc2 - tc1"
     },
     {
-      "id": "am12_003a.2",
-      "title": "Related Rates of Change",
-      "definition": "When two quantities are linked by a formula, their rates of change are linked too. Differentiating the relation with respect to time connects them: for a circle of radius r the area is pi r squared, so the area grows at 2 pi r times the rate at which the radius grows.",
-      "formula": "da = 2 * pi * r * dr",
-      "key_idea": "Related-rate problems always follow the same routine: write the geometric or economic relation, differentiate it with respect to time, then substitute the known values and rates.",
-      "question_patterns": [
-        "The radius of a circle increases at {dr} cm/s. At what rate does the area increase when r = {r} cm?",
-        "If the side of a square grows at {dr} cm/s, how fast is its area changing when the side is {r} cm?",
-        "A balloon is being inflated; relate the rate of change of volume to the rate of change of radius.",
-        "State the relation between dA/dt and dr/dt for a circle of radius {r}."
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"compute": "da = 2 * pi * r * dr"},
-        {"compute": "dside_area = 2 * r * dr"}
-      ]
+     "compute": "mr = tr2 - tr1"
     },
     {
-      "id": "am12_003a.3",
-      "title": "Slope of Tangent and Normal",
-      "definition": "The slope of the tangent to a curve at a point is the value of the derivative there, and the slope of the normal is the negative reciprocal of that slope. For the parabola y = ax^2 + bx + c the tangent slope at x is 2ax + b.",
-      "formula": "normal = -1 / (2 * a * x + b)",
-      "key_idea": "Tangent and normal are perpendicular, so their slopes multiply to -1. The equation of the tangent at (x1, y1) is y - y1 = m (x - x1) with m the derivative value at x1.",
-      "question_patterns": [
-        "Find the slope of the tangent to y = {a}x^2 + {b}x + {c} at x = {x}.",
-        "Find the slope of the normal to the curve y = {a}x^2 + {b}x at the point where x = {x}.",
-        "Write the equation of the tangent line to the curve at the given point.",
-        "How is the slope of the normal related to the slope of the tangent?",
-        "At what point on y = {a}x^2 is the tangent horizontal?"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"compute": "slope = 2 * a * x + b"},
-        {"compute": "normal = -1 / slope"}
-      ]
-    },
-    {
-      "id": "am12_003a.4",
-      "title": "Profit from Cost and Revenue Functions",
-      "definition": "Profit equals total revenue minus total cost: P(q) = R(q) - C(q). Average cost is total cost divided by output, and it falls while marginal cost stays below it and rises once marginal cost exceeds it.",
-      "formula": "profit = revenue - cost",
-      "key_idea": "Maximum profit occurs where marginal revenue equals marginal cost, with the second derivative of profit negative there. Break-even happens where revenue equals cost, giving zero profit.",
-      "question_patterns": [
-        "The total revenue is {revenue} and the total cost is {cost}; find the profit.",
-        "For C(q) = {c}q + {f} and R(q) = {p}q, find the break-even quantity.",
-        "Find the average cost when the total cost is {cost} for an output of {q} units.",
-        "At what output level is profit maximised in terms of marginal revenue and marginal cost?",
-        "A firm sells {q} items at {p} each with fixed cost {f} and variable cost {v} per item; find the profit."
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"compute": "profit = revenue - cost"},
-        {"compute": "avg_cost = cost / q"}
-      ]
-    },
-    {
-      "id": "am12_003a.5",
-      "title": "Maxima and Minima Second Derivative Test",
-      "definition": "At an interior point where the first derivative is zero, the function has a local maximum if the second derivative is negative there and a local minimum if the second derivative is positive. If the second derivative is also zero the test is inconclusive and higher derivatives or sign inspection decide.",
-      "formula": "-",
-      "key_idea": "The routine: solve f'(x) = 0 for critical points, evaluate f'' at each, and read the sign. Absolute extrema on a closed interval are compared among critical values and the two endpoints.",
-      "question_patterns": [
-        "Find the local maximum and local minimum values of f(x) = {a}x^2 + {b}x + {c}.",
-        "Use the second derivative test to classify the critical point of the given function.",
-        "Find the maximum profit if the profit function is P(q) = -{a}q^2 + {b}q.",
-        "State the conditions for a point to be a point of inflection.",
-        "Find the absolute maximum and minimum of f on the closed interval [0, {x}]."
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": []
-    },
-    {
-      "id": "am12_003a.6",
-      "title": "Monotonic Functions by Derivative Sign",
-      "definition": "A function is increasing on an interval where its derivative is positive and decreasing where the derivative is negative. A function that only increases or only decreases on the whole interval is called monotonic on it.",
-      "formula": "-",
-      "key_idea": "Derivative conditions for monotonicity: f'(x) > 0 gives strictly increasing, f'(x) < 0 gives strictly decreasing. Intervals of increase and decrease are separated by the critical points where f'(x) = 0.",
-      "question_patterns": [
-        "Determine the intervals in which f(x) = {a}x^2 + {b}x + {c} is increasing.",
-        "Show that the given function is decreasing on the stated interval.",
-        "What is a monotonic function?",
-        "Find the intervals where the derivative of f(x) = {a}x^3 - {b}x is positive.",
-        "For which values of x is the function f(x) = {a}x^2 + {b}x strictly decreasing?"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": []
-    },
-    {
-      "id": "am12_003a.7",
-      "title": "Implicit Parametric and Logarithmic Differentiation",
-      "definition": "Implicit differentiation differentiates both sides of an equation in x and y, treating y as a function of x and multiplying dy/dx terms through. Parametric curves x = f(t), y = g(t) differentiate as dy/dx = (dy/dt) / (dx/dt). Logarithmic differentiation takes logs of both sides before differentiating products, quotients and powers like x to the power x.",
-      "formula": "-",
-      "key_idea": "Choose the tool by the form of the function: an equation mixing x and y calls for implicit differentiation, a shared parameter t calls for the parametric ratio, and variable bases with variable exponents call for logarithmic differentiation.",
-      "question_patterns": [
-        "Find dy/dx if x^2 + y^2 = {a}.",
-        "If x = {a}t^2 and y = {b}t, find dy/dx.",
-        "Differentiate x^x with respect to x.",
-        "Find dy/dx when x and y are connected by the equation xy = {a}.",
-        "Why is logarithmic differentiation useful for functions like (sin x) raised to x?"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": []
-    },
-    {
-      "id": "am12_003a.8",
-      "title": "Higher Order Derivatives",
-      "definition": "Differentiating a derivative again gives higher order derivatives: the second derivative d2y/dx2 describes how the slope itself changes, which is why its sign decides concavity and the maxima-minima test.",
-      "formula": "-",
-      "key_idea": "For a polynomial of degree n the (n+1)-th derivative is zero. Velocity is the first derivative of position and acceleration is the second, the classic higher-order application.",
-      "question_patterns": [
-        "Find the second derivative of f(x) = {a}x^3 + {b}x^2.",
-        "If s(t) = {a}t^2 + {b}t gives position, find the acceleration.",
-        "What does the second derivative of a function tell about its concavity?",
-        "How many times must you differentiate a polynomial of degree {a} to get the zero function?",
-        "Find d2y/dx2 when y = {a}x^2 + {b}x + 1."
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": []
+     "compute": "mp = mr - mc"
     }
-  ],
-  "worked_examples": [
+   ]
+  },
+  {
+   "id": "am12_003a.2",
+   "title": "Related Rates of Change",
+   "definition": "When two quantities are linked by a formula, their rates of change are linked too. Differentiating the relation with respect to time connects them: for a circle of radius r the area is pi r squared, so the area grows at 2 pi r times the rate at which the radius grows.",
+   "formula": "da = 2 * pi * r * dr",
+   "key_idea": "Related-rate problems always follow the same routine: write the geometric or economic relation, differentiate it with respect to time, then substitute the known values and rates.",
+   "question_patterns": [
+    "The radius of a circle increases at {dr} cm/s. At what rate does the area increase when r = {r} cm?",
+    "If the side of a square grows at {dr} cm/s, how fast is its area changing when the side is {r} cm?",
+    "A balloon is being inflated; relate the rate of change of volume to the rate of change of radius.",
+    "State the relation between dA/dt and dr/dt for a circle of radius {r}."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "q": "Total cost rises from 950 to 972 when output rises from 40 to 41 units, and total revenue rises from 1200 to 1219. Find the marginal profit of the 41st unit.",
-      "a": "Marginal cost = 972 - 950 = 22. Marginal revenue = 1219 - 1200 = 19. Marginal profit = 19 - 22 = -3. The 41st unit loses 3, so it should not be produced if the objective is profit."
+     "compute": "da = 2 * pi * r * dr"
     },
     {
-      "q": "Find the slopes of the tangent and the normal to y = x^2 - 3x + 2 at x = 2.",
-      "a": "Slope of tangent = 2x - 3 at x = 2 gives 2(2) - 3 = 1. Slope of normal = -1 / 1 = -1. The two slopes multiply to -1, confirming perpendicularity."
+     "compute": "dside_area = 2 * r * dr"
     }
-  ],
-  "exercises": [
+   ]
+  },
+  {
+   "id": "am12_003a.3",
+   "title": "Slope of Tangent and Normal",
+   "definition": "The slope of the tangent to a curve at a point is the value of the derivative there, and the slope of the normal is the negative reciprocal of that slope. For the parabola y = ax^2 + bx + c the tangent slope at x is 2ax + b.",
+   "formula": "normal = -1 / (2 * a * x + b)",
+   "key_idea": "Tangent and normal are perpendicular, so their slopes multiply to -1. The equation of the tangent at (x1, y1) is y - y1 = m (x - x1) with m the derivative value at x1.",
+   "question_patterns": [
+    "Find the slope of the tangent to y = {a}x^2 + {b}x + {c} at x = {x}.",
+    "Find the slope of the normal to the curve y = {a}x^2 + {b}x at the point where x = {x}.",
+    "Write the equation of the tangent line to the curve at the given point.",
+    "How is the slope of the normal related to the slope of the tangent?",
+    "At what point on y = {a}x^2 is the tangent horizontal?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "group": "drill",
-      "items": [
-        "The cost function is C(q) = 5q + 300 and the revenue function is R(q) = 12q. Find the break-even quantity and the profit at q = 60.",
-        "Find the intervals where f(x) = x^3 - 6x^2 + 9x is increasing and decreasing.",
-        "A spherical balloon's radius grows at 0.5 cm/s; find the rate of increase of its surface area when r = 10 (surface area 4 pi r^2).",
-        "Find dy/dx if x^2 + xy = 6.",
-        "Find the second derivative of P(q) = -2q^2 + 80q and use its sign to confirm the profit maximum at q = 20.",
-        "Differentiate x^(1/x) using logarithmic differentiation."
-      ]
+     "compute": "slope = 2 * a * x + b"
+    },
+    {
+     "compute": "normal = -1 / slope"
     }
-  ]
+   ]
+  },
+  {
+   "id": "am12_003a.4",
+   "title": "Profit from Cost and Revenue Functions",
+   "definition": "Profit equals total revenue minus total cost: P(q) = R(q) - C(q). Average cost is total cost divided by output, and it falls while marginal cost stays below it and rises once marginal cost exceeds it.",
+   "formula": "profit = revenue - cost",
+   "key_idea": "Maximum profit occurs where marginal revenue equals marginal cost, with the second derivative of profit negative there. Break-even happens where revenue equals cost, giving zero profit.",
+   "question_patterns": [
+    "The total revenue is {revenue} and the total cost is {cost}; find the profit.",
+    "For C(q) = {c}q + {f} and R(q) = {p}q, find the break-even quantity.",
+    "Find the average cost when the total cost is {cost} for an output of {q} units.",
+    "At what output level is profit maximised in terms of marginal revenue and marginal cost?",
+    "A firm sells {q} items at {p} each with fixed cost {f} and variable cost {v} per item; find the profit."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "compute": "profit = revenue - cost"
+    },
+    {
+     "compute": "avg_cost = cost / q"
+    }
+   ]
+  },
+  {
+   "id": "am12_003a.5",
+   "title": "Maxima and Minima Second Derivative Test",
+   "definition": "At an interior point where the first derivative is zero, the function has a local maximum if the second derivative is negative there and a local minimum if the second derivative is positive. If the second derivative is also zero the test is inconclusive and higher derivatives or sign inspection decide.",
+   "formula": "-",
+   "key_idea": "The routine: solve f'(x) = 0 for critical points, evaluate f'' at each, and read the sign. Absolute extrema on a closed interval are compared among critical values and the two endpoints.",
+   "question_patterns": [
+    "Find the local maximum and local minimum values of f(x) = {a}x^2 + {b}x + {c}.",
+    "Use the second derivative test to classify the critical point of the given function.",
+    "Find the maximum profit if the profit function is P(q) = -{a}q^2 + {b}q.",
+    "State the conditions for a point to be a point of inflection.",
+    "Find the absolute maximum and minimum of f on the closed interval [0, {x}]."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 3 * 2 * 2 + 8 * 2 + 8 gives 36",
+     "compute": "val = 3 * 2 * 2 + 8 * 2 + 8"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "am12_003a.6",
+   "title": "Monotonic Functions by Derivative Sign",
+   "definition": "A function is increasing on an interval where its derivative is positive and decreasing where the derivative is negative. A function that only increases or only decreases on the whole interval is called monotonic on it.",
+   "formula": "-",
+   "key_idea": "Derivative conditions for monotonicity: f'(x) > 0 gives strictly increasing, f'(x) < 0 gives strictly decreasing. Intervals of increase and decrease are separated by the critical points where f'(x) = 0.",
+   "question_patterns": [
+    "Determine the intervals in which f(x) = {a}x^2 + {b}x + {c} is increasing.",
+    "Show that the given function is decreasing on the stated interval.",
+    "What is a monotonic function?",
+    "Find the intervals where the derivative of f(x) = {a}x^3 - {b}x is positive.",
+    "For which values of x is the function f(x) = {a}x^2 + {b}x strictly decreasing?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 3 * 3 * 3 + 3 * 3 + 8 gives 44",
+     "compute": "val = 3 * 3 * 3 + 3 * 3 + 8"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "am12_003a.7",
+   "title": "Implicit Parametric and Logarithmic Differentiation",
+   "definition": "Implicit differentiation differentiates both sides of an equation in x and y, treating y as a function of x and multiplying dy/dx terms through. Parametric curves x = f(t), y = g(t) differentiate as dy/dx = (dy/dt) / (dx/dt). Logarithmic differentiation takes logs of both sides before differentiating products, quotients and powers like x to the power x.",
+   "formula": "-",
+   "key_idea": "Choose the tool by the form of the function: an equation mixing x and y calls for implicit differentiation, a shared parameter t calls for the parametric ratio, and variable bases with variable exponents call for logarithmic differentiation.",
+   "question_patterns": [
+    "Find dy/dx if x^2 + y^2 = {a}.",
+    "If x = {a}t^2 and y = {b}t, find dy/dx.",
+    "Differentiate x^x with respect to x.",
+    "Find dy/dx when x and y are connected by the equation xy = {a}.",
+    "Why is logarithmic differentiation useful for functions like (sin x) raised to x?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 3 * 1 * 1 + 5 * 1 + 6 gives 14",
+     "compute": "val = 3 * 1 * 1 + 5 * 1 + 6"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "am12_003a.8",
+   "title": "Higher Order Derivatives",
+   "definition": "Differentiating a derivative again gives higher order derivatives: the second derivative d2y/dx2 describes how the slope itself changes, which is why its sign decides concavity and the maxima-minima test.",
+   "formula": "-",
+   "key_idea": "For a polynomial of degree n the (n+1)-th derivative is zero. Velocity is the first derivative of position and acceleration is the second, the classic higher-order application.",
+   "question_patterns": [
+    "Find the second derivative of f(x) = {a}x^3 + {b}x^2.",
+    "If s(t) = {a}t^2 + {b}t gives position, find the acceleration.",
+    "What does the second derivative of a function tell about its concavity?",
+    "How many times must you differentiate a polynomial of degree {a} to get the zero function?",
+    "Find d2y/dx2 when y = {a}x^2 + {b}x + 1."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 4 * 5 * 5 + 4 * 5 + 4 gives 124",
+     "compute": "val = 4 * 5 * 5 + 4 * 5 + 4"
+    }
+   ],
+   "converted_to_compute": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "q": "Total cost rises from 950 to 972 when output rises from 40 to 41 units, and total revenue rises from 1200 to 1219. Find the marginal profit of the 41st unit.",
+   "a": "Marginal cost = 972 - 950 = 22. Marginal revenue = 1219 - 1200 = 19. Marginal profit = 19 - 22 = -3. The 41st unit loses 3, so it should not be produced if the objective is profit."
+  },
+  {
+   "q": "Find the slopes of the tangent and the normal to y = x^2 - 3x + 2 at x = 2.",
+   "a": "Slope of tangent = 2x - 3 at x = 2 gives 2(2) - 3 = 1. Slope of normal = -1 / 1 = -1. The two slopes multiply to -1, confirming perpendicularity."
+  }
+ ],
+ "exercises": [
+  {
+   "group": "drill",
+   "items": [
+    "The cost function is C(q) = 5q + 300 and the revenue function is R(q) = 12q. Find the break-even quantity and the profit at q = 60.",
+    "Find the intervals where f(x) = x^3 - 6x^2 + 9x is increasing and decreasing.",
+    "A spherical balloon's radius grows at 0.5 cm/s; find the rate of increase of its surface area when r = 10 (surface area 4 pi r^2).",
+    "Find dy/dx if x^2 + xy = 6.",
+    "Find the second derivative of P(q) = -2q^2 + 80q and use its sign to confirm the profit maximum at q = 20.",
+    "Differentiate x^(1/x) using logarithmic differentiation."
+   ]
+  }
+ ]
 }

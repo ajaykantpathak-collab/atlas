@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_09_006",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_09_006",
+   "title": "c12_leg_cbse_09_006",
+   "questions": [
+    {
+     "q": "State the Latin maxim that encapsulates the principle of concurrence of actus reus and mens rea, and translate its meaning.",
+     "a": "The maxim is **\"actus non facit reum nisi mens sit rea\"** — \"An act does not make a person guilty unless the mind is also guilty.\" A wrong answer (e.g., \"ignorantia juris non excusat\" or \"actus reus non facit reum\") reveals the student has memorised maxims without understanding which principle each governs. This is a classic board exam trap: confusing the *concurrence maxim* with the *ignorance of law maxim*.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why 'motive' is irrelevant for fixing criminal liability, but 'intention' is essential. Use the distinction between *ulterior objective* and *foreknowledge of consequences*.",
+     "a": "Motive is the *ulterior objective* (e.g., stealing bread to feed a starving child) — the \"why\" behind the act. Intention is the *foreknowledge and desire* for the prohibited consequence (e.g., knowingly taking another's property without consent). Criminal law punishes the *choice* to commit the actus reus with a guilty mind, not the social or emotional driver. A wrong answer conflating the two (e.g., \"good motive negates intention\") shows the student cannot separate the *psychological cause* (motive) from the *legal mental element* (mens rea). This error costs marks in both board \"distinguish\" questions and CUET caselets.",
+     "self_check": true
+    },
+    {
+     "q": "A person buys poison, mixes it in a glass of water, and places it on the victim's table. The victim does not drink it. Has the person committed 'attempt'? Apply the 'proximity rule' and 'locus poenitentiae' test.",
+     "a": "**No, this is still 'preparation', not 'attempt'.** Steps: (1) Identify the stage: buying poison + mixing + placing = arranging means. (2) Apply proximity rule: The act is not *sufficiently proximate* to the commission; the victim must consume the poison for the chain of causation to become irreversible. (3) Apply locus poenitentiae: The accused could still voluntarily abandon the plan (e.g., remove the glass) before the victim drinks — a \"time for repentance\" exists. (4) Conclusion: Since the act has not crossed the \"point of no return,\" it remains preparation. A wrong answer calling this \"attempt\" reveals the student fails to distinguish *preparatory acts* from *direct movement toward commission* — a frequent error in JEE-style legal reasoning questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the evidentiary value of a **judicial confession** (recorded under Section 164 CrPC) and a **dying declaration** (under Section 32(1) Evidence Act). Which requires corroboration as a rule of prudence, and why?",
+     "a": "A judicial confession, if voluntary and true, can *alone* sustain a conviction (though courts often seek corroboration as prudence). A dying declaration, though admissible without oath and cross-examination, **must pass the \"strictest scrutiny\"** — the court must be satisfied the declarant was in a fit state of mind, had opportunity to observe, and was free from tutoring. *Corroboration is not legally mandatory for either, but for dying declarations, the \"rule of prudence\" demands the court apply a higher threshold of reliability because the maker is unavailable for cross-examination.* A wrong answer stating \"dying declaration always needs corroboration\" or \"judicial confession is weak evidence\" shows confusion between *legal requirement* and *judicial caution*.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"In strict liability offences under Special and Local Laws (e.g., NDPS Act, POCSO Act), mens rea is completely irrelevant and the prosecution never needs to prove any mental element.\"",
+     "a": "**The statement is partially correct but dangerously oversimplified.** While statutes like NDPS Act (Section 35) and POCSO Act (Section 29) create a *presumption of culpable mental state* (shifting burden to the accused to prove absence of mens rea), they do not *eliminate* mens rea as a concept. The Supreme Court in *State of Maharashtra v. Mayer Hans George* (AIR 1965 SC 722) held mens rea can be excluded *only if the statute expressly or by necessary implication does so*. Even in strict liability, the prosecution must prove the *actus reus* (e.g., possession of contraband) and the *statutory presumption* operates — but the accused *can* rebut it by proving lack of knowledge/intent. A wrong answer treating strict liability as \"no mens rea ever\" ignores the rebuttable presumption mechanism and the constitutional requirement of fairness (Article 21). This is a high-level trap in CUET/CLAT legal reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a hypothetical scenario where an **extra-judicial confession** made to a doctor (not a police officer) becomes the *sole basis* for conviction, and explain the judicial safeguards the court must apply before accepting it.",
+     "a": "**Scenario:** A, injured in a road accident, is admitted to a hospital. Believing he is dying, he tells the attending doctor: \"B pushed me off the balcony — it wasn't an accident.\" A dies two hours later. The doctor testifies to this statement. **Safeguards the court must apply:** (1) **Voluntariness**: Was A speaking freely, without inducement, threat, or promise? (2) **Fit state of mind**: Was A conscious, oriented, and rational? Medical records must confirm. (3) **Corroboration (rule of prudence)**: Is there independent evidence (e.g., balcony railing fingerprints, witness seeing B near balcony) supporting the confession? (4) **No tutoring**: Was the statement spontaneous, not prompted by leading questions? (5) **Consistency**: Does the confession align with medical evidence (injuries consistent with push, not fall)? A poor answer omits the \"fit state of mind\" or \"corroboration\" requirements, showing the student treats extra-judicial confessions as automatically reliable — a misconception that leads to wrongful convictions in mock trials.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

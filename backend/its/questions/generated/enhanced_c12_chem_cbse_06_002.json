@@ -34,6 +34,31 @@
      "q": "Design a set of three structural isomers with formula C₅H₁₁Cl, name each by IUPAC, and classify each as primary, secondary, or tertiary. Explain your reasoning for the parent chain selection in each.",
      "a": "1. CH₃CH₂CH₂CH₂CH₂Cl → 1-chloropentane (1°). Parent = pentane (5C straight chain). Cl on terminal C.\n2. CH₃CH₂CH₂CH(Cl)CH₃ → 2-chloropentane (2°). Parent = pentane. Cl on C-2 (attached to 2 carbons).\n3. (CH₃)₃CCH₂Cl → 1-chloro-2,2-dimethylpropane (1°). Parent = propane (longest chain = 3C). Cl on primary CH₂.\nOther valid isomers: 3-chloropentane (2°), 1-chloro-3-methylbutane (1°), 2-chloro-3-methylbutane (2°), 2-chloro-2-methylbutane (3°). A poor answer misses isomers, misclassifies, or picks wrong parent chain (e.g., calling isomer 3 \"neopentyl chloride\" without IUPAC).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of haloalkanes and haloarenes is the systematic IUPAC naming of organic compounds where one or more hydrogen atoms of aliphatic or aromatic hydrocarbons are replaced by halogen atoms (F, Cl, Br, I), following the \"haloalkane\" (alkyl halide) and \"haloarene\" (aryl halide) naming conventions with locants for halogen position and substituents.",
+     "a": "Nomenclature",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at a medicine strip — many drugs like chloramphenicol (antibiotic) or halothane (anaesthetic) contain halogen atoms ______ to carbon chains or rings.",
+     "a": "attached",
+     "self_check": true
+    },
+    {
+     "q": "What is Nomenclature of haloalkanes and haloarenes? State the definition given in this lesson.",
+     "a": "Nomenclature of haloalkanes and haloarenes is the systematic IUPAC naming of organic compounds where one or more hydrogen atoms of aliphatic or aromatic hydrocarbons are replaced by halogen atoms (F, Cl, Br, I), following the \"haloalkane\" (alkyl halide) and \"haloarene\" (aryl halide) naming conventions with locants for halogen position.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Nomenclature of haloalkanes and haloarenes?",
+     "a": "Students frequently choose the parent chain based on total carbon count rather than the longest continuous chain.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly write the IUPAC name from a given structure and draw the structure from a given IUPAC name for mono-, di-, and polyhalogenated alkanes, alkenes, alkynes, cycloalkanes, and arenes, including correct use of prefixes (fluoro, chloro, bromo, iodo), locants, and stereochemical descriptors where applicable.",
+     "self_check": true
     }
    ]
   }

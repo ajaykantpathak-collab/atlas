@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using two convex lenses of known focal lengths (e.g., 10 cm and 15 cm) to verify that the power of the combination equals the sum of individual powers. List the apparatus, procedure, and how you would calculate the experimental power of the combination.",
      "a": "Apparatus: Two convex lenses (f₁=10 cm, f₂=15 cm), lens holders, white screen, metre scale, distant object (e.g., tree). Procedure: (1) Find focal length of each lens separately by focusing a distant object on the screen. (2) Place lenses in contact (touching) and repeat to find combined focal length F. (3) Calculate P₁=1/f₁, P₂=1/f₂, P_comb=1/F. Verify P_comb ≈ P₁+P₂. A poor answer would omit measuring the combined focal length or forget to convert cm to m before taking reciprocal.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The power of a lens is a measure of its ability to converge or diverge light rays, defined as the ______ of its focal length measured in meters.",
+     "a": "reciprocal",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you visit an optician for spectacles, the ______ reads numbers like -1.5 D or +2.0 D — these are lens powers, not focal lengths.",
+     "a": "prescription",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the power of a single lens from its focal length (with correct sign and unit), compute the net power of thin lenses in contact, and determine the focal length of the combination.",
+     "self_check": true
     }
    ]
   }

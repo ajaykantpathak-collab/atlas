@@ -27,12 +27,27 @@
     },
     {
      "q": "A student writes the name of K₂[PdCl₄] as *potassium tetrachloridopalladium(II)*. Evaluate this name and correct it if wrong.",
-     "a": "**Incorrect**. The complex anion is [PdCl₄]²⁻ → metal must take –ate suffix: **palladate(II)**. Correct name: **potassium tetrachloridopalladate(II)**. The student's error: using elemental metal name for an anionic complex. This is a classic board-exam trap — the –ate suffix is mandatory for anionic coordination entities (except for a few metals with Latin-based names like ferrate, cuprate, argentate).",
+     "a": "(1) Verdict — the student's name is incorrect, (2) The rule — when the coordination sphere is an anion, the metal name must take the -ate suffix, (3) Correct name — potassium tetrachloridopalladate(II), (4) The trap — using the elemental metal name for an anionic coordination entity is the classic board-exam error, with only a few metals keeping Latin-based names such as ferrate, cuprate and argentate. A student who writes palladium(II) for the anionic complex has not applied the anion -ate rule.",
      "self_check": true
     },
     {
      "q": "Design a mononuclear coordination compound that contains Cr(III), two bidentate ethane-1,2-diamine (en) ligands, and two chloride ligands, with one chloride as counter ion. Write its formula and IUPAC name. Predict its isomerism.",
      "a": "**Formula**: [CrCl₂(en)₂]Cl. **Name**: dichloridobis(ethane-1,2-diamine)chromium(III) chloride. **Isomerism**: Shows geometrical (cis/trans) and optical isomerism (cis is chiral). A poor answer (e.g., missing \"bis\", wrong oxidation state, or missing counter ion) reveals inability to handle polydentate ligand prefixes (bis/tris) and charge balance — a multi-concept failure.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: IUPAC nomenclature of coordination compounds provides a systematic set of rules to name mononuclear coordination entities by identifying the central metal, its oxidation state (Roman numeral), the ligands (listed ______ with appropriate prefixes), and the counter ions, ensuring an unambiguous name-to-structure correspondence.",
+     "a": "alphabetically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a blister pack of the anticancer drug cisplatin — its generic name is *cis-______(II)*, yet the trans isomer *transplatin* is inactive.",
+     "a": "diamminedichloridoplatinum",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) write the correct IUPAC name for any mononuclear coordination compound given its formula, and (2) write the correct formula for a compound given its IUPAC name, applying alphabetical ligand ordering, oxidation state assignment, and cationic/anionic metal name conventions without error.",
      "self_check": true
     }
    ]

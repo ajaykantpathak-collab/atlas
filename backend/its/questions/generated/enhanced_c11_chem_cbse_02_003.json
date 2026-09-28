@@ -34,6 +34,26 @@
      "q": "Design a thought experiment: If you could vary the atomic number Z of the foil material while keeping foil thickness constant (in atoms per unit area), how would the fraction of alpha particles scattered at >90° change? Sketch the expected relationship and explain the physics.",
      "a": "**Expected answer:** Fraction scattered at >90° ∝ Z². Sketch: parabolic curve starting at origin, rising steeply. Physics: Rutherford scattering cross-section for angle θ is dσ/dΩ = (kZe·2e / 4KE)² · csc⁴(θ/2). For fixed θ > 90°, the Z² dependence comes from (Ze)² in numerator — Coulomb force scales with nuclear charge. Doubling Z quadruples large-angle scattering. A poor answer (linear or no Z-dependence) reveals the student hasn't connected Coulomb's law (F ∝ q₁q₂) to scattering probability, or doesn't realize the alpha particle charge is fixed at +2e while target charge varies with Z.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Rutherford's nuclear model of atom proposes that an atom consists of a tiny, dense, positively charged nucleus containing nearly all the mass, with electrons revolving around it in circular orbits at high speeds, held by ______ attraction, while most of the atomic volume is empty space.",
+     "a": "electrostatic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're in a dark room shooting a beam of tiny ______ charged particles (alpha particles) at a sheet of gold foil thinner than a human hair.",
+     "a": "positively",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This is exactly what Geiger and Marsden observed under Rutherford's guidance in ______.",
+     "a": "1909",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the alpha-scattering experiment observations, derive the three conclusions about atomic structure, state the nuclear model postulates, and articulate why the model fails to explain atomic stability and electron distribution using classical electromagnetic theory.",
+     "self_check": true
     }
    ]
   }

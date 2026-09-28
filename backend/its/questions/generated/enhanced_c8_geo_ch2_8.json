@@ -34,6 +34,31 @@
      "q": "Design a summary key for a world physical atlas that categorizes the four major mountain ranges (Himalayas, Andes, Rockies, Alps) based on two criteria: Continent and Primary Alignment Trend (North-South or East-West).",
      "a": "A complete answer must organize the four ranges accurately:\n1. Himalayas: Asia | East-West alignment\n2. Alps: Europe | East-West alignment\n3. Andes: South America | North-South alignment\n4. Rockies: North America | North-South alignment\nA poor answer will misplace continents (e.g., swapping Andes and Rockies) or confuse vertical versus horizontal alignment on the world map.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mountain ranges are major ______ chains of mountains formed primarily through tectonic activity, spanning vast stretches of land across continents.",
+     "a": "continuous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you look at photos of snow-covered peaks like Kanchenjunga or Mount Everest, you are looking at the ______, India's northern mountain wall.",
+     "a": "Himalayas",
+     "self_check": true
+    },
+    {
+     "q": "What is Mountain ranges? State the definition given in this lesson.",
+     "a": "Mountain ranges are major continuous chains of mountains formed primarily through tectonic activity, spanning vast stretches of land across continents.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Mountain ranges?",
+     "a": "Students frequently confuse the Andes and the Rockies regarding which continent each belongs to, and mistakenly assume that the Himalayas are the longest mountain range in the world because they contain Mount Everest (the highest peak).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Students can identify, locate, and differentiate the Himalayas, Andes, Rockies, and Alps on a world physical map, state their respective continents and spatial orientations (east-west vs north-south), and compare their relative length and elevation characteristics.",
+     "self_check": true
     }
    ]
   }

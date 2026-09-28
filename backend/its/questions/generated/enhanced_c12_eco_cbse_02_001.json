@@ -34,6 +34,36 @@
      "q": "Construct a hypothetical TU schedule for a good (at least 7 units) where MU diminishes but remains positive throughout, and TU never reaches a maximum within the given range. Explain whether this violates the Law of Diminishing Marginal Utility.",
      "a": "Example: TU = 10, 19, 27, 34, 40, 45, 49 → MU = 10, 9, 8, 7, 6, 5, 4 (all positive, diminishing). TU is still rising at Q=7, so maximum is not reached. This does *not* violate the Law of Diminishing MU, which only requires MU to decline; it does not require MU to become zero or negative within the observed range. A student who claims it violates the law misunderstands the law's scope.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Total Utility (TU) is the aggregate ______ satisfaction a consumer derives from consuming a given quantity of a good or service within a specific time period.",
+     "a": "psychological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a street-food stall in Delhi ______ golgappas.",
+     "a": "eating",
+     "self_check": true
+    },
+    {
+     "q": "What is Total Utility (TU)? State the definition given in this lesson.",
+     "a": "Total Utility (TU) is the aggregate psychological satisfaction a consumer derives from consuming a given quantity of a good or service within a specific time period.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The first one gives immense satisfaction (high MU), the second adds less, and by the sixth you feel full (MU ≈ ______); a seventh would cause discomfort (negative MU).",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Total Utility (TU)?",
+     "a": "Students often believe that \"Total Utility is maximum when Marginal Utility is maximum.\" In reality, TU is maximum when MU = 0, not when MU is at its peak.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) compute TU and MU from a consumption schedule, (2) explain the mathematical relationship TUₙ = Σᵢ₌₁ⁿ MUᵢ and MUₙ = TUₙ – TUₙ₋₁, (3) identify the consumption level where TU is maximised (MU = 0) and where TU declines (MU < 0), and (4) articulate why rational consumers stop consuming before MU becomes negative when the.",
+     "self_check": true
     }
    ]
   }

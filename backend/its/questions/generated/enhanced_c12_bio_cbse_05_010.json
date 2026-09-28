@@ -34,6 +34,21 @@
      "q": "Design a short mRNA sequence (at least 5 codons) that would produce a functional protein if a single nucleotide insertion occurs at the 4th position, but a non-functional protein if a single nucleotide deletion occurs at the same position. Explain your reasoning.",
      "a": "It is impossible to design such a sequence because both a single nucleotide insertion and a single nucleotide deletion at the same position shift the reading frame (neither is a multiple of three). Both mutations will alter all downstream codons and likely introduce a premature stop codon, producing a non-functional protein. A good answer recognizes that any indel not a multiple of three universally disrupts the reading frame. A poor answer attempts to give a specific sequence without acknowledging this fundamental principle.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A gene mutation is a permanent alteration in the DNA sequence of a gene, involving changes in single base pairs (point mutations) or insertion/deletion of ______ that shift the reading frame (frameshift mutations), potentially altering the amino acid sequence of the encoded protein.",
+     "a": "nucleotides",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking students to observe a simple ______: \"THE CAT ATE THE RAT\".",
+     "a": "sentence",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify a given DNA sequence change as a point mutation (silent, missense, nonsense) or frameshift mutation, predict its effect on the resulting protein, and explain why frameshift mutations are generally more deleterious than point mutations.",
+     "self_check": true
     }
    ]
   }

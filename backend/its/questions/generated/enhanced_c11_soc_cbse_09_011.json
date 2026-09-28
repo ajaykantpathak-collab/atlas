@@ -31,8 +31,33 @@
      "self_check": true
     },
     {
-     "q": "Design a hypothetical \"ideal-typical\" bureaucratic procedure for issuing a domicile certificate in an Indian district collectorate, specifying how each of Weber's five features would be instantiated. Then, introduce one deliberate deviation in each feature that reflects a common Indian administrative reality (e.g., political interference, digital gaps, discretionary powers), and explain which type of authority (traditional/charismatic) each deviation reintroduces.",
-     "a": "Ideal-typical procedure: (i) Functioning: Clerk has fixed jurisdiction — only accepts applications with specified documents; (ii) Hierarchy: Application → Clerk → Superintendent → ADM → Collector (appeal at each level); (iii) Written Documents: Digital file with timestamped notes, no oral instructions; (iv) Office Management: Trained staff, standardised SOPs; (v) Conduct: Clerk follows service conduct rules, no private meetings with applicants. Deviations: (i) Clerk demands \"extra\" documents not in rules → traditional authority (customary practice); (ii) Applicant approaches MLA who calls Collector → charismatic/traditional authority (personal patronage); (iii) File moves physically, not digitally, causing delays → traditional authority (paper-based custom); (iv) Clerk appointed on compassionate ground, untrained → traditional authority (kinship-based recruitment); (v) Clerk meets applicant at tea stall to \"expedite\" → charismatic authority (personal rapport replaces rule). A poor answer that lists deviations without linking each to a specific authority type shows inability to use Weber's typology as a diagnostic lens — the core competency this node builds.",
+     "q": "Give the correct order of stations a domicile certificate application passes through in an ideal-typical collectorate.",
+     "a": "The procedure runs: (1) The clerk with fixed jurisdiction accepts only the specified documents (2) The file moves up the graded hierarchy from superintendent to the collector's office (3) Every action is recorded in written documents preserved as the file (4) Trained staff applying conduct rules hand over the certificate, keeping the office separate from the person. A wrong answer that lets personal contacts replace any station shows the student has missed that each Weberian feature is designed to make authority calculable rather than arbitrary.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Bureaucracy, in Weber's formulation, is the institutional embodiment of rational-legal authority where legitimate domination rests on a belief in the legality of enacted rules and the right of those elevated to authority under such rules to issue commands; it operates through a hierarchical organisation of offices with fixed jurisdictions, governed by written rules, staffed by appointed officials selected on technical ______, and separates the office from the person holding it.",
+     "a": "qualifications",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you visit a ______ office to get a caste certificate: you take a token, wait for your number, submit documents to a clerk who checks them against a checklist, the clerk forwards the file to a supervisor who signs it, and you collect the signed certificate days later.",
+     "a": "government",
+     "self_check": true
+    },
+    {
+     "q": "What is Bureaucracy, in Weber's formulation? State the definition given in this lesson.",
+     "a": "Bureaucracy, in Weber's formulation, is the institutional embodiment of rational-legal authority where legitimate domination rests on a belief in the legality of enacted rules and the right of those elevated to authority under such rules to issue commands; it operates through a hierarchical organisation of offices with fixed.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Bureaucracy, in Weber's formulation?",
+     "a": "Students conflate \"bureaucracy\" with \"government office\" and assume any hierarchical, rule-based organisation is bureaucratic in Weber's sense.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) identify all five defining features of Weberian bureaucracy in a given organisational description and explain how each feature operationalises rational-legal authority; (2) distinguish bureaucratic authority from traditional and charismatic authority using concrete examples; (3) evaluate whether a.",
      "self_check": true
     }
    ]

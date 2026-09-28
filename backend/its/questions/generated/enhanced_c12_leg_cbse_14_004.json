@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_14_004",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_14_004",
+   "title": "c12_leg_cbse_14_004",
+   "questions": [
+    {
+     "q": "What are the two income ceilings specified in Section 12(h) of the Legal Services Authorities Act, 1987 for eligibility for free legal aid, and which forum does each apply to?",
+     "a": "Correct answer: ₹9,000 per annum for cases before courts other than the Supreme Court (State Government may prescribe higher); ₹12,000 per annum for cases before the Supreme Court (Central Government may prescribe higher). A wrong answer (e.g., \"₹12,000 for all courts\" or \"₹50,000\") reveals the student has not distinguished between the two-tier income threshold — a frequent board exam trap where they quote only one figure or confuse it with the outdated ₹18,000/₹1,20,000 figures from the Supreme Court Legal Aid Committee rules mentioned in the textbook's Unit 1 (Judiciary) section, which are different from the statutory Section 12(h) thresholds.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the Legal Services Authorities (Amendment) Act, 2002 introduced Permanent Lok Adalats for public utility services, and how this differs from regular Lok Adalats.",
+     "a": "Correct answer: Regular Lok Adalats settle disputes already pending in courts or at pre-litigation stage by conciliation, but their awards are binding only if parties agree. The 2002 Amendment created Permanent Lok Adalats for public utility services (transport, postal, power, water, sanitation, hospital, insurance) with a critical difference: if parties fail to settle, the Permanent Lok Adalat can *decide the dispute on merits* and pass a binding award (deemed a civil court decree), without being bound by CPC or Evidence Act. A wrong answer (e.g., \"Permanent Lok Adalats are just regular Lok Adalats that meet more often\") reveals the student misses the adjudicatory power — the shift from *conciliation-only* to *conciliation-then-adjudication* — which is the core innovation of the 2002 Amendment for reducing court backlog in essential services.",
+     "self_check": true
+    },
+    {
+     "q": "A 65-year-old widow in Mumbai, earning ₹8,000/month from a small pension, is denied water supply by the municipal corporation for 3 months. She wants free legal aid. Determine her eligibility under Section 12 and identify the most appropriate forum for her dispute.",
+     "a": "Correct answer: Eligible under Section 12(c) (woman) AND 12(h) (annual income ₹96,000 > ₹9,000 ceiling for non-SC courts — BUT wait: Section 12(h) says \"less than rupees nine thousand... if the case is before a court other than the Supreme Court\". Her income exceeds this. However, she may still qualify under 12(e) as \"victim of... industrial disaster\" — no, water denial isn't listed. Best path: She is a senior citizen; many states (including Maharashtra) have rules extending free legal aid to senior citizens regardless of income. Most appropriate forum: Permanent Lok Adalat for public utility service (water supply), as it's a pre-litigation dispute with a public utility. A wrong answer (e.g., \"Not eligible due to income\" or \"Go to regular Lok Adalat\") reveals the student applies the income ceiling mechanically without checking state rules for senior citizens or recognizing the Permanent Lok Adalat's specific jurisdiction for public utility disputes — a classic competitive exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the composition and appointment process of NALSA (National Legal Services Authority) vs SLSA (State Legal Services Authority) as per the Legal Services Authorities Act, 1987.",
+     "a": "Correct answer: NALSA: Patron-in-Chief = Chief Justice of India; Executive Chairman = sitting/retired Supreme Court judge nominated by CJI; Members = nominated by Central Government in consultation with CJI. SLSA: Patron-in-Chief = Chief Justice of High Court; Executive Chairman = sitting/retired High Court judge nominated by HC CJ; Members = nominated by State Government in consultation with HC CJ. Both have Member Secretaries (district judge level for SLSA). A wrong answer (e.g., \"Both headed by CJI\" or \"State Government appoints SLSA Chairman directly\") reveals confusion between the *constitutional* hierarchy (CJI at apex) and the *statutory* appointment process where High Court Chief Justice controls SLSA — a distinction tested in CUET/CLAT legal reasoning passages.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"The NALSA Regulations, 2010 ensure quality legal aid by mandating 3 years' experience for panel lawyers and allowing Senior Advocates only in cases of 'great public importance'.\" Is this sufficient to guarantee competent representation?",
+     "a": "Correct critique: The Regulations set a *minimum* threshold (3 years' experience, integrity, competence) but do not mandate specialization matching (e.g., a family law dispute assigned to a corporate lawyer), ongoing training, or performance audits beyond \"non-performance\" removal. The Senior Advocate restriction (only for \"great public importance\" or \"serious threat to life/liberty\") may *deny* elite expertise in complex but routine cases (e.g., land acquisition for tribals). A poor answer (e.g., \"Yes, 3 years is enough\" or \"No, should be 10 years\") reveals binary thinking — the student fails to evaluate *systemic adequacy* vs *formal compliance*, a key competency for policy analysis questions in board exams and CLAT.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step flowchart (text-based) for a law student volunteering at a DLSA legal aid clinic to handle a walk-in client who says: \"My landlord locked my shop and took my goods — I sell vegetables, earn ₹6,000/month, I'm from a Scheduled Caste.\" Include eligibility check, service type, forum selection, and documentation.",
+     "a": "Expected answer criteria: Flowchart must include: (1) Eligibility check: SC (Section 12(a)) + income < ₹9,000 (12(h)) → eligible; (2) Service type: Post-litigation (dispute already occurred) → lawyer assignment, court fee payment, certified copies; (3) Forum: Civil court (rent control/tenancy) OR Permanent Lok Adalat if framed as public utility (electricity/water to shop) — but tenancy is not listed public utility; (4) Documents: caste certificate, income affidavit, rent agreement/photos of lockout, police complaint (if any); (5) DLSA action: assign panel lawyer, file suit for injunction/recovery, track via NALSA portal. A poor answer misses the SC category override (income irrelevant), suggests criminal forum, or omits the police complaint step for illegal lockout — revealing gaps in procedural integration.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

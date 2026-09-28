@@ -34,6 +34,26 @@
      "q": "Design a redox reaction where the oxidation half-reaction involves 3 electrons lost per formula unit and the reduction half-reaction involves 2 electrons gained per formula unit. Write the balanced overall equation in acidic medium using hypothetical or real species.",
      "a": "Example: Oxidation: 2X → X₂ + 2e⁻ (but need 3e⁻). Better: Use real species: Oxidation: 2Cr³⁺ + 7H₂O → Cr₂O₇²⁻ + 14H⁺ + 6e⁻ (6e⁻ lost for 2 Cr, so 3e⁻ per Cr). Reduction: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O (5e⁻ gained). LCM=30. Multiply oxidation by 5, reduction by 6. A good answer shows correct LCM application and proper balancing of each half-reaction. A poor answer uses non-integer coefficients or fails to balance atoms/charge in half-reactions, revealing procedural gaps.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The half-reaction method (ion-electron method) balances redox reactions by ______ the overall reaction into two half-reactions: oxidation (loss of electrons) and reduction (gain of electrons).",
+     "a": "separating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a rusting iron nail (Fe → Fe₂O₃) or the purple colour of KMnO₄ fading when added to oxalic acid solution – both are redox processes where ______ transfer but the equations aren't obviously balanced.",
+     "a": "electrons",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently balance any redox reaction in acidic or basic medium using the half-reaction method, showing all steps: splitting into half-reactions, balancing atoms and charge, equalizing electrons, and combining with correct stoichiometric coefficients and phases.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a rusting iron nail (Fe → Fe₂O₃) or the purple colour of KMnO₄ fading when added to oxalic acid solution – both are redox ______ where electrons transfer but the equations aren't obviously balanced.",
+     "a": "processes",
+     "self_check": true
     }
    ]
   }

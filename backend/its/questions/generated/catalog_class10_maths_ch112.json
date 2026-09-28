@@ -5,6 +5,8 @@
    "id": "jemh.12.1",
    "title": "Surface Area of Combination of Solids",
    "converted_to_compute": false,
+   "formula": "TSA(combination) = sum of CSA of visible parts",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 22 cm by 30 cm.",
@@ -42,6 +44,8 @@
    "id": "jemh.12.2",
    "title": "Volume of Combination of Solids",
    "converted_to_compute": false,
+   "formula": "V(combination) = V1 + V2 + ... + Vn",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the volume of a cuboid 8 cm x 3 cm x 9 cm.",
@@ -78,15 +82,9 @@
   {
    "id": "jemh.12.3",
    "title": "Conversion of Solid from One Shape to Another",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the round solid's formula with pi = 22/7",
-     "explain": "apply the round solid's formula with pi = 22/7: vol = 22 / 7 * 28 * 28 * 21 / 3 gives 17248",
-     "compute": "vol = 22 / 7 * 28 * 28 * 21 / 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "V(original) = V(new shape)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the volume of a cone of radius 28 cm and height 21 cm (pi = 22/7).",
@@ -95,7 +93,7 @@
     },
     {
      "q": "Find the volume of a sphere of radius 35 cm (pi = 22/7).",
-     "a": "179667",
+     "a": "179666.67",
      "self_check": false
     },
     {
@@ -124,6 +122,8 @@
    "id": "jemh.12.4",
    "title": "Surface Area of Frustum of a Cone",
    "converted_to_compute": false,
+   "formula": "TSA = pi*(r1+r2)*l + pi*r1^2 + pi*r2^2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 27 cm by 17 cm.",
@@ -161,6 +161,8 @@
    "id": "jemh.12.5",
    "title": "Volume of Frustum of a Cone",
    "converted_to_compute": false,
+   "formula": "V = (1/3)*pi*h*(r1^2 + r2^2 + r1*r2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the volume of a cuboid 8 cm x 11 cm x 11 cm.",
@@ -198,6 +200,8 @@
    "id": "jemh.12.6",
    "title": "Slant Height of Frustum of a Cone",
    "converted_to_compute": false,
+   "formula": "l = sqrt(h^2 + (r1 - r2)^2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the volume of a cuboid 8 cm x 2 cm x 12 cm.",
@@ -234,15 +238,9 @@
   {
    "id": "jemh.12.10",
    "title": "Word Problems on Volume Conversion",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the solid's surface area or volume formula",
-     "explain": "apply the solid's surface area or volume formula: vol = 2 * 8 * 9 gives 144",
-     "compute": "vol = 2 * 8 * 9"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "V(original solid) = V(new solid)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the volume of a cuboid 2 cm x 8 cm x 9 cm.",
@@ -280,6 +278,8 @@
    "id": "jemh.12.7a",
    "title": "Curved Surface Area of a Hemisphere",
    "converted_to_compute": false,
+   "formula": "csa = 2 * pi * r ** 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 24 cm by 20 cm.",
@@ -317,6 +317,8 @@
    "id": "jemh.12.7b",
    "title": "Total Surface Area of a Hemisphere",
    "converted_to_compute": false,
+   "formula": "tsa = 3 * pi * r ** 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 28 cm by 21 cm.",
@@ -354,6 +356,8 @@
    "id": "jemh.12.7c",
    "title": "Volume of a Hemisphere",
    "converted_to_compute": false,
+   "formula": "v = (2 / 3) * pi * r ** 3",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the volume of a cuboid 7 cm x 2 cm x 12 cm.",
@@ -391,6 +395,8 @@
    "id": "jemh.12.8a",
    "title": "Slant Height of a Cone",
    "converted_to_compute": false,
+   "formula": "l = sqrt(r ** 2 + h ** 2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the volume of a cuboid 6 cm x 5 cm x 10 cm.",
@@ -428,6 +434,8 @@
    "id": "jemh.12.8b",
    "title": "Curved Surface Area of a Cone",
    "converted_to_compute": false,
+   "formula": "csa = pi * r * l",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 26 cm by 28 cm.",
@@ -465,6 +473,8 @@
    "id": "jemh.12.8c",
    "title": "Total Surface Area of a Cone",
    "converted_to_compute": false,
+   "formula": "tsa = pi * r * (l + r)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 14 cm by 29 cm.",
@@ -502,6 +512,8 @@
    "id": "jemh.12.8d",
    "title": "Volume of a Cone",
    "converted_to_compute": false,
+   "formula": "v = (1 / 3) * pi * r ** 2 * h",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the volume of a cuboid 8 cm x 2 cm x 7 cm.",
@@ -539,6 +551,8 @@
    "id": "jemh.12.9a",
    "title": "Curved Surface Area of a Cylinder",
    "converted_to_compute": false,
+   "formula": "csa = 2 * pi * r * h",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 3 cm by 27 cm.",
@@ -576,6 +590,8 @@
    "id": "jemh.12.9b",
    "title": "Total Surface Area of a Cylinder",
    "converted_to_compute": false,
+   "formula": "tsa = 2 * pi * r * (r + h)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 15 cm by 26 cm.",
@@ -613,6 +629,8 @@
    "id": "jemh.12.9c",
    "title": "Volume of a Cylinder",
    "converted_to_compute": false,
+   "formula": "v = pi * r ** 2 * h",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the volume of a cuboid 11 cm x 7 cm x 9 cm.",

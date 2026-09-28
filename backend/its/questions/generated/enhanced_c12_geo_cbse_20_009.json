@@ -34,6 +34,21 @@
      "q": "Design a frequency polygon to compare the literacy rates (in %) of five Indian states grouped into classes: 60–65, 65–70, 70–75, 75–80, 80–85. The number of states in each class is: 2, 5, 8, 3, 2. Explain how you would modify the construction if the class intervals were unequal (e.g., 60–65, 65–75, 75–80, 80–85, 85–90).",
      "a": "**Equal intervals**: Mid-points = 62.5, 67.5, 72.5, 77.5, 82.5. Plot (mid-point, frequency) points, add preceding (57.5,0) and succeeding (87.5,0), join with straight lines. **Unequal intervals**: Cannot use raw frequencies; must calculate **frequency density** = frequency / class width. For 65–75 (width 10), density = 5/10 = 0.5; for 60–65 (width 5), density = 2/5 = 0.4. Plot mid-points against frequency density, then construct polygon. A student who plots raw frequencies for unequal intervals produces a distorted visual comparison, revealing they do not grasp the area principle (area ∝ frequency) which underpins all histogram/polygon constructions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A frequency polygon is a line graph constructed by plotting the frequencies of a grouped frequency ______ against the mid-points of the class intervals and joining the points with straight line segments.",
+     "a": "distribution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now, instead of bars, imagine marking a dot exactly at the centre-top of each bar (the mid-point of the class interval at the height of its frequency) and ______ these dots with straight lines: that is a frequency polygon.",
+     "a": "connecting",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently construct a frequency polygon and frequency curve from a given grouped frequency distribution table (with equal class intervals) on graph paper, correctly calculate class mid-points, choose appropriate scales, plot points, join them with straight lines for the polygon, draw a smooth curve for the frequency.",
+     "self_check": true
     }
    ]
   }

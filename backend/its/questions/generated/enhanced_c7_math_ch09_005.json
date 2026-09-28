@@ -34,6 +34,26 @@
      "q": "Create a word problem set in an Indian school context (using courtyard measurements in metres) where two triangular garden beds are built with identical side lengths, and explain how a gardener uses SSS congruence to verify they are identical.",
      "a": "Expected Answer: A gardener builds two triangular flower beds in a school courtyard. Bed 1 has side lengths 3 m, 4 m, and 5 m. Bed 2 has side lengths 3 m, 4 m, and 5 m. By measuring all three boundary lengths of both beds and confirming they are equal ($3 = 3$, $4 = 4$, $5 = 5$), the gardener applies the SSS criterion to conclude both beds have identical areas and corner angles, ensuring symmetrical landscaping. A poor answer fails to connect the physical measurement of three sides to the mathematical proof of congruence.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Two triangles are congruent by the Side-Side-Side (SSS) congruence criterion if all three sides of one triangle are respectively equal to the three ______ sides of another triangle.",
+     "a": "corresponding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and your friend are building wooden ______ roof trusses for a model house in your craft class.",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "What is Two triangles? State the definition given in this lesson.",
+     "a": "Two triangles are congruent by the Side-Side-Side (SSS) congruence criterion if all three sides of one triangle are respectively equal to the three corresponding sides of another triangle.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify corresponding sides of two triangles, verify equality of all three side lengths, write a correct congruence statement with proper vertex correspondence, and use SSS congruence to prove equality of corresponding angles in geometric problems.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "**CREATE level**: Design a **multimodal logistics corridor** for exporting fresh mangoes from Ratnagiri (Konkan coast) to Dubai within 48 hours of harvest, maintaining cold chain at 10-12°C. Specify: (a) pre-cooling facility location, (b) transport modes and sequence, (c) communication/IoT requirements for real-time temperature tracking, (d) port/airport choice with justification, (e) one policy bottleneck and a solution.",
      "a": "**Expected answer criteria**:  \n(a) Pre-cooling at *collection centre* within 10 km of orchards (e.g., Ratnagiri MIDC) — not at port — to remove field heat immediately.  \n(b) Sequence: Reefer truck (Ratnagiri → Mumbai, 6 hrs) → Direct air freight (Mumbai → Dubai, 3.5 hrs flight + 4 hrs handling) = ~14 hrs total. *Alternative*: Reefer rail (if Konkan railway gets refrigerated wagons) → JNPT → Reefer ship (5 days — *too slow for premium fresh*). Air is mandatory for 48-hr window.  \n(c) IoT: GPS + BLE temperature loggers in each pallet, transmitting via cellular (4G/5G) to cloud dashboard; blockchain-based immutable record for phytosanitary certificate.  \n(d) Airport: **Mumbai (CSMIA)** — only airport with sufficient wide-body freighter capacity, dedicated perishable cargo terminal, and direct Dubai flights. JNPT by sea fails the time constraint.  \n(e) Bottleneck: **Phytosanitary certification delay** (manual inspection at pack-house). Solution: Digital pre-clearance via integrated pack-house portal linked to APEDA and Dubai Municipality — a *communication* fix for a *physical* trade barrier.  \n**Poor answer reveals**: If a student chooses sea freight (\"cheaper\") or ignores pre-cooling location or IoT, they treat logistics as a *transport-only* problem, missing the *communication-enabled cold chain* that makes high-value perishable trade possible.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Transport and ______ systems act as the circulatory and nervous systems of globalisation by reducing the friction of distance, enabling the rapid, reliable, and cost-effective movement of goods, services, capital, information, and people across national borders, thereby integrating dispersed production networks and markets into a single global economic space.",
+     "a": "communication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ in your hand: its components were designed in California, fabricated in Taiwan, assembled in China using rare earths from Australia and cobalt from Congo, shipped via Singapore and JNPT (Navi Mumbai), and the final software update was pushed from a server in Bengaluru over fibre-optic cables landing at Mumbai and Chennai.",
+     "a": "smartphone",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how specific transport modes (container shipping, air freight, pipelines, fibre-optic cables) and communication technologies (internet, satellite, GPS) reduce transaction costs and time-space convergence, and can evaluate their differential impact on core vs. periphery countries using Indian examples (e.g., JNPT.",
+     "self_check": true
     }
    ]
   }

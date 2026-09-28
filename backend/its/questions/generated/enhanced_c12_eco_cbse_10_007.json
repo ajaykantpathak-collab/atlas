@@ -34,6 +34,31 @@
      "q": "Construct a numerical example (consumption function and autonomous investment) where the equilibrium income is 2000 crores and the MPC is 0.6. Show the AD equation and verify equilibrium.",
      "a": "With MPC = 0.6, multiplier = 1/(1-0.6) = 2.5. To get Y = 2000, autonomous spending (A) must be Y/multiplier = 2000/2.5 = 800. Let autonomous consumption = 300, autonomous investment = 500. Then C = 300 + 0.6Y, I = 500. AD = 800 + 0.6Y. Set Y = 800 + 0.6Y → 0.4Y = 800 → Y = 2000. A poor answer might not verify or use an incorrect multiplier (e.g., 1/MPC).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ level of income in the AD-AS approach is the level of national income where aggregate demand (AD) equals aggregate supply (AS), meaning planned expenditure equals total output produced.",
+     "a": "equilibrium",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small textile firm in Surat produces 1,000 shirts but buyers only plan to purchase 800 at ______ prices.",
+     "a": "current",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The unsold ______ shirts become unplanned inventory accumulation.",
+     "a": "200",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Derive the equilibrium condition Y = C + I from the AD-AS framework; (2) Explain the adjustment process when AD ≠ AS using unplanned inventory changes; (3) Solve algebraically for equilibrium income given a consumption function and autonomous investment; (4) Illustrate equilibrium graphically using a 45-degree line.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small textile firm in Surat ______ 1,000 shirts but buyers only plan to purchase 800 at current prices.",
+     "a": "produces",
+     "self_check": true
     }
    ]
   }

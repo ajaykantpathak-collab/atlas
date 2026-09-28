@@ -1,0 +1,56 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_10_004",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_10_004",
+   "title": "c12_soc_cbse_10_004",
+   "questions": [
+    {
+     "q": "What is the constitutional significance of the 73rd Amendment Act, 1992, for Panchayati Raj Institutions?",
+     "a": "The 73rd Amendment moved Panchayati Raj from a non-justiciable Directive Principle (Article 40) to a justiciable constitutional mandate under Part IX (Articles 243–243O), making regular elections, reservations, and devolution of powers legally enforceable. A wrong answer (e.g., \"it created Panchayats for the first time\") reveals confusion between pre-1992 state-level Panchayat Acts (which existed but lacked constitutional protection) and the 1992 national constitutional framework that standardized and entrenched them.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Gram Sabha is described as the \"foundation\" of the three-tier Panchayati Raj structure, and how its composition differs from the Gram Panchayat.",
+     "a": "The Gram Sabha comprises all registered voters in a village (direct democracy), while the Gram Panchayat is an elected executive body (representative democracy). The Gram Sabha elects the Panchayat, approves plans, and monitors accountability — making it the legitimising base. A wrong answer conflating the two (e.g., \"Gram Sabha is the elected council\") reveals a fundamental misunderstanding of the direct vs. representative distinction central to the Amendment's participatory design.",
+     "self_check": true
+    },
+    {
+     "q": "A state with a population of 15 lakhs argues it should be exempt from the three-tier requirement. Apply the 73rd Amendment's population threshold to evaluate this claim.",
+     "a": "The 73rd Amendment mandates a three-tier system only for states with population over 20 lakhs (Article 243B). A state with 15 lakhs may opt for a two-tier structure (village and district). The claim is valid under the constitutional provision. A wrong answer insisting on three tiers regardless of population reveals ignorance of the Amendment's graded applicability — a common error when students memorise \"three-tier\" without the population condition.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the reservation provisions for women in the 73rd Amendment with the pre-amendment situation. Why is the \"rotation of reserved seats\" a critical design feature, and what unintended consequence might it produce?",
+     "a": "Pre-1992, women's representation was negligible and voluntary. The Amendment mandates 33% reservation (including SC/ST women within that quota) and rotation of reserved seats every election. Rotation prevents entrenchment of proxy candidates (e.g., husbands controlling \"women's seats\") but may discourage long-term leadership development as incumbents cannot re-contest the same reserved seat. A weak answer missing the proxy/rotation trade-off shows superficial engagement with the gender-and-governance literature (e.g., studies by Jayal, Buch).",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The 73rd Amendment has successfully democratised rural India because elections are held regularly and women occupy 33% of seats.\"",
+     "a": "The statement confuses procedural democracy with substantive democratisation. Regular elections and descriptive representation (numbers) are necessary but insufficient. Empirical evidence shows: (a) elite capture by dominant castes/landlords persists via control over Gram Sabha agendas and resources; (b) women representatives often function as proxies for male relatives (sarpanch-pati); (c) devolution of funds, functions, and functionaries (3Fs) remains incomplete in most states. A good critique uses the \"funds, functions, functionaries\" framework and cites the gap between constitutional form and social reality. A weak answer treats the Amendment as a magic bullet, ignoring structural inequalities (caste, patriarchy, class) that mediate institutional outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a Gram Sabha agenda for a village with high SC/ST population and women's self-help groups (SHGs) that ensures meaningful participation beyond token attendance. Justify each agenda item using 73rd Amendment provisions.",
+     "a": "A strong agenda includes: (1) Social audit of MGNREGA works (mandatory under Amendment's transparency provisions); (2) Review of SC/ST sub-plan allocation (Article 243G read with Directive Principles); (3) Women SHG proposals for livelihood projects (leveraging 33% reservation and economic development mandate); (4) Selection of beneficiaries for housing/sanitation schemes (Gram Sabha's power to identify beneficiaries); (5) Discussion of Nyaya Panchayat cases on domestic violence (linking justice to gender justice). Each item must cite the specific constitutional clause (e.g., Art. 243A for Gram Sabha powers, Art. 243G for devolution). A poor agenda lists generic \"development works\" without linking to constitutional mandates or addressing inclusion mechanisms (quorum for women/SC/ST, prior notice, facilitation).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The 73rd Constitutional Amendment Act (1992) granted constitutional status to Panchayati Raj Institutions (PRIs), mandating a three-tier structure (Gram Panchayat, Panchayat Samiti, Zilla Parishad) for states with population over 20 lakhs, regular five-year elections, reservations for SCs/STs and women (33%), and devolution of powers for economic development and social justice, with the Gram Sabha as the foundational unit of ______ democracy.",
+     "a": "participatory",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a village where the ______ is always from the dominant caste, women never speak in meetings, and the Gram Sabha hasn't met in years.",
+     "a": "Sarpanch",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how the 73rd Amendment transformed PRIs from directive principles into justiciable constitutional bodies, analyze the three-tier structure's functional differentiation, and evaluate the tension between constitutional mandates (reservations, Gram Sabha) and persistent social inequalities (caste, gender, class) that.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

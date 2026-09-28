@@ -20,7 +20,7 @@
     "how does an animal utilize food",
     "justify why stages of animal nutrition matters"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,16 @@
      "action": "verify the sequence",
      "explain": "Confirm that ingestion begins the process and egestion ends it, with absorption and assimilation occurring in between"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "nutrition_process = ingestion + digestion + absorption + assimilation + egestion",
+     "compute": "nutrition_process = ingestion + digestion + absorption + assimilation + egestion"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gesc.102.2",
@@ -74,7 +83,16 @@
      "explain": "Compare total_absorption with the base_area absorption to confirm villi increase nutrient uptake",
      "compute": "absorption_gain = total_absorption - (base_area * absorption_rate)"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "absorption_capacity = surface_area * efficiency_factor",
+     "compute": "absorption_capacity = surface_area * efficiency_factor"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gesc.102.3",
@@ -91,7 +109,7 @@
     "how do grass-eating animals digest cellulose",
     "state two key points about rumination process"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -108,7 +126,16 @@
      "action": "verify the cycle",
      "explain": "Confirm the food cycles between rumen storage and mouth re-chewing to break down tough cellulose"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rumination = (ingestion + storage) + (regurgitation + re_chewing)",
+     "compute": "rumination = (ingestion + storage) + (regurgitation + re_chewing)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gesc.102.4",
@@ -125,7 +152,7 @@
     "describe the feeding process of amoeba",
     "why is amoeba feeding mechanism important"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -142,7 +169,16 @@
      "action": "verify digestion in vacuole",
      "explain": "Digestive juices act on the food inside the vacuole, breaking it down for absorption"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ingestion = pseudopodia_extension + engulfment",
+     "compute": "ingestion = pseudopodia_extension + engulfment"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

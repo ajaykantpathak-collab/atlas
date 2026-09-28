@@ -27,12 +27,27 @@
     },
     {
      "q": "A Pivot Table shows 'Sum of Quantity' by 'Product' (Rows) and 'Month' (Columns). The user wants to see '% of Column Total' for each product within each month to analyze monthly product mix. They right-click a value → Show Values As → % of Column Total. The report now shows 100% for each month's total but individual product percentages seem off (e.g., a product with 0 quantity shows 5%). Evaluate the likely cause and solution.",
-     "a": "The cause: the source data contains **blank or text entries in the Quantity column** for some records. Pivot Table's 'Sum' ignores text/blanks, but '% of Column Total' divides each product's sum by the column grand total **which includes those ignored records' implicit zeros** — or worse, the grand total is calculated on a different base. A wrong answer (e.g., \"change to % of Row Total\" or \"refresh Pivot Table\") reveals the student doesn't trace calculation logic to source data integrity. Solution: Clean source Quantity column (replace text/blanks with 0), refresh Pivot Table, verify grand total matches manual sum, then reapply % of Column Total.",
+     "a": "(1) The likely cause — the source Quantity column carries blank or text entries in some records, which the Sum ignores while the percentage base still spans the whole column, (2) The first fix — clean the source column by replacing text and blanks with zeros, then refresh the Pivot Table, (3) The verification — check that the pivot grand total matches a manual sum of the cleaned column before reapplying the percentage view, (4) The principle — trace every calculation anomaly back to source-data integrity rather than to the pivot display. A wrong answer such as switching to percent of row total, or merely refreshing without cleaning the source, shows the student did not trace the calculation logic to the data.",
      "self_check": true
     },
     {
      "q": "Design a Pivot Table report for a school principal analyzing 1,200 student records (Class, Section, Gender, Subject, Marks). The principal wants to: (a) compare average marks by Subject across Classes, (b) filter by Gender, (c) see top 3 Subjects per Class. Specify the exact field placement and any additional settings needed.",
      "a": "Field placement: Rows = Class, Columns = Subject, Values = Marks (set to Average via Value Field Settings), Filters = Gender. For (c): Right-click any Class row → Filter → Top 10 → Top 3 Items by Average of Marks. A poor answer (e.g., putting Subject in Rows, Class in Columns, or using Sum instead of Average) reveals the student cannot map analytical requirements to Pivot Table areas. The key insight: **Rows define the primary grouping for comparison, Columns define the cross-section, Values define the metric and its aggregation, Filters define the slice**. Top-N filtering works on the Row Labels' aggregated Values.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Pivot Table is an interactive data ______ tool that dynamically reorganizes and aggregates large datasets from a source list (database) into cross-tabulated reports by dragging fields into Row Labels, Column Labels, Values, and Report Filter areas, enabling multi-dimensional analysis without altering the original data.",
+     "a": "summarization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the sales manager of \"M/s Home Maker Ltd.\" with 500 rows of daily sales data across 7 products, 4 cities, and 3 ______ for January.",
+     "a": "salespersons",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) create a Pivot Table from a given dataset by correctly assigning fields to all four areas (Filters, Columns, Rows, Values), (2) modify the summary calculation (Sum, Count, Average) in the Values area, (3) use Report Filter to view subsets of data, and (4) interpret the resulting cross-tabulated report to.",
      "self_check": true
     }
    ]

@@ -34,6 +34,26 @@
      "q": "Design a 3-crop rotation plan for a farm in the Krishna-Godavari delta (Andhra Pradesh) that includes cotton and jute. Specify the season (Kharif/Rabi/Zaid) for each crop and explain the soil moisture logic.",
      "a": "**Good answer criteria:**  \n- **Kharif (June–Oct):** Jute — uses Southwest Monsoon rain + floodwater for growth and retting (needs standing water).  \n- **Rabi (Nov–Mar):** Cotton — sown after jute harvest; uses **residual soil moisture** from monsoon + **black soil's high moisture retention**; needs cool, dry weather for boll maturation (no rain during picking).  \n- **Zaid (Apr–Jun):** Short-duration pulse (e.g., moong) or fallow — uses pre-monsoon showers; fixes nitrogen for next cycle.  \n**Soil moisture logic:** Jute **consumes** floodwater; cotton **exploits** stored moisture in vertisols; pulse **replenishes** N without heavy water demand.  \n**Poor answer reveals:** Putting cotton in Kharif (rain damages bolls), jute in Rabi (no water for retting), or ignoring soil type (delta has alluvial, not black soil — cotton would need irrigation). Shows no grasp of **season-soil-crop coupling**.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This node covers the specific ______ conditions (temperature, rainfall, soil type, and season) required for the cultivation of rubber, cotton, and jute in India, along with their major state-wise distribution patterns.",
+     "a": "geographical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are travelling from Kerala’s misty hills (where rubber trees bleed latex into coconut shells) to Gujarat’s black cotton soil plains (where white bolls stretch to the horizon) to West Bengal’s flooded delta fields (where jute stalks rot in ______ water to release golden fibre).",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) state the precise temperature, rainfall, and soil requirements for each of the three crops; (2) locate and name the top 3 producing states for rubber, cotton, and jute on an outline map of India; (3) explain the geographical reason for each crop's concentration (e.g., why jute needs stagnant water for retting, why.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ from Kerala’s misty hills (where rubber trees bleed latex into coconut shells) to Gujarat’s black cotton soil plains (where white bolls stretch to the horizon) to West Bengal’s flooded delta fields (where jute stalks rot in standing water to release golden fibre).",
+     "a": "travelling",
+     "self_check": true
     }
    ]
   }

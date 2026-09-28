@@ -32,7 +32,27 @@
     },
     {
      "q": "Design a simple home experiment to demonstrate that air is a gaseous solution (gas in gas). List materials, procedure, and how you would prove homogeneity.",
-     "a": "Expected answer: Materials: incense stick, matchbox, room with still air. Procedure: Light incense stick in one corner; observe fragrance spreading uniformly throughout the room within minutes. Homogeneity proof: Fragrance (solute gas) mixes uniformly with air (solvent gas) without separation, showing single-phase homogeneous mixture. A poor answer (e.g., \"mix two gases in a jar\") lacks a practical demonstration of homogeneity and does not use observable diffusion.",
+     "a": "(1) Materials — an incense stick, a matchbox and a room with still air, (2) Procedure — light the incense stick in one corner and let the fragrance spread through the room, (3) Observation — the fragrance, the solute gas, mixes uniformly with the air, the solvent gas, within minutes and shows no separation, (4) Homogeneity proof — the uniform single-phase spread of the solute gas through the solvent gas is observable diffusion, exactly what defines a gaseous solution. A poor answer such as mixing two gases in a jar lacks a practical demonstration of homogeneity and does not use observable diffusion.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A solution is a ______ mixture of two or more chemically non-reacting substances whose composition can be varied within certain limits.",
+     "a": "homogeneous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look around your kitchen: air (gas in gas), soda water (gas in liquid), brass utensil (solid in solid), dental ______ (liquid in solid).",
+     "a": "amalgam",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) classify any given binary solution into one of the nine types in Table 1.1, (2) correctly identify the solute and solvent in each case, and (3) explain why the solvent determines the physical state of the solution.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look around your ______: air (gas in gas), soda water (gas in liquid), brass utensil (solid in solid), dental amalgam (liquid in solid).",
+     "a": "kitchen",
      "self_check": true
     }
    ]

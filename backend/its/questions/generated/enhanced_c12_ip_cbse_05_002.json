@@ -34,6 +34,26 @@
      "q": "Design a simple simulation (pseudocode or flowchart) for a router's forwarding logic: receive packet → check destination IP → lookup routing table → if MTU < packet size and DF=0 → fragment → forward each fragment out appropriate interface. Include handling for TTL decrement and checksum recalculation.",
      "a": "A good answer includes: (1) decrement TTL, if 0 drop and send ICMP Time Exceeded; (2) recalculate header checksum; (3) longest-prefix match in routing table; (4) if outgoing MTU < packet length and DF=0, fragment into pieces with MF flag and fragment offset; (5) forward each fragment. A poor answer misses TTL/checksum, uses exact-match instead of longest-prefix, or forgets to copy headers to fragments.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Internet operates as a global packet-switched network where data is divided into small, fixed-size units called packets at the source, each packet is ______ routed through a series of routers (which make forwarding decisions based on destination IP addresses and routing tables), and the packets traverse multiple ISP networks (local → regional → national → backbone) before being reassembled at the destination.",
+     "a": "independently",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you send a WhatsApp ______ from your phone in Delhi to a friend in Mumbai.",
+     "a": "message",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to trace the complete journey of a data packet from a home computer to a remote server, explaining the roles of packetization, router forwarding decisions (including fragmentation), and the hierarchical ISP structure (local ISP → regional ISP → Tier-1 backbone), and describe how acknowledgments and reassembly.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you send a ______ message from your phone in Delhi to a friend in Mumbai.",
+     "a": "WhatsApp",
+     "self_check": true
     }
    ]
   }

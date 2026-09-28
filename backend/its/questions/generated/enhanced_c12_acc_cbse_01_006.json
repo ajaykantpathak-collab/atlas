@@ -34,6 +34,36 @@
      "q": "Create a scenario where a partner's capital changes three times during the year (opening balance, additional capital introduced, part withdrawal). Design a problem requiring product method calculation, and specify the profit amount that makes the \"insufficient profit\" condition apply. Provide the complete solution with journal entries.",
      "a": "Scenario: Partner M capital ₹4,00,000 (1 Apr). Adds ₹1,00,000 (1 Jul). Withdraws ₹50,000 (1 Oct). Rate 10% p.a. Profit ₹35,000.\nProducts: (4,00,000×3) + (5,00,000×3) + (4,50,000×6) = 12,00,000 + 15,00,000 + 27,00,000 = 54,00,000.\nInterest = 54,00,000 × 10/100 × 1/12 = ₹45,000. Profit ₹35,000 < ₹45,000.\nDistribute ₹35,000 in ratio of products (12:15:27 = 4:5:9) → M gets ₹35,000 × 4/18 = ₹7,778 (for first period), etc. Actually simpler: distribute total ₹35,000 in ratio of total interest entitlements if multiple partners, but here single partner — M gets entire ₹35,000 as interest. Journal: P&L Appropriation Dr. 35,000 → To M's Capital/Current 35,000. A good answer shows correct product calculation and recognises single partner gets all available profit as interest.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Interest on Capital is the return paid to partners for the capital they have invested in the partnership firm, ______ at an agreed rate per annum as per the Partnership Deed.",
+     "a": "calculated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and two friends start a bakery ______.",
+     "a": "partnership",
+     "self_check": true
+    },
+    {
+     "q": "What is Interest on Capital? State the definition given in this lesson.",
+     "a": "Interest on Capital is the return paid to partners for the capital they have invested in the partnership firm, calculated at an agreed rate per annum as per the Partnership Deed.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Partnership Deed says ______% p.a. interest on capital.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Interest on Capital?",
+     "a": "Students often treat interest on capital as a \"charge against profit\" (like rent or employee salary) that must be paid even if the firm makes a loss.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Compute interest on capital for each partner under fixed and fluctuating capital methods, considering additional capital introduced or drawings made during the year using the product method; (2) Pass correct journal entries for interest on capital appropriation and transfer to capital accounts; (3) Handle.",
+     "self_check": true
     }
    ]
   }

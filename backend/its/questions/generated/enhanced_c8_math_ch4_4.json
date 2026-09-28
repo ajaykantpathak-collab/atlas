@@ -34,6 +34,21 @@
      "q": "Create a real-world problem (Indian context) where a carpenter uses the fact that diagonals of a rectangle bisect each other to check if a wooden frame is perfectly rectangular. Describe the steps and measurements.",
      "a": "A carpenter builds a rectangular frame for a window (say 120 cm × 80 cm). He measures both diagonals: they must be equal (√(120²+80²) ≈ 144.22 cm). Then he marks the midpoint of each diagonal by measuring half (72.11 cm) from each corner along the diagonal. If the two midpoints coincide exactly, the frame is rectangular. If they don't, the frame is a parallelogram but not a rectangle. A poor answer that only checks diagonal equality misses the bisecting check; a poor answer that doesn't specify measuring from corners along diagonals shows lack of practical application.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In a ______, the two diagonals intersect at a point that divides each diagonal into two equal segments.",
+     "a": "rectangle",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ garden bed with corners marked by stakes.",
+     "a": "rectangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can prove that the diagonals of a rectangle bisect each other using triangle congruence criteria (ASA or SAS) and can apply this property to find unknown segment lengths in rectangle problems.",
+     "self_check": true
     }
    ]
   }

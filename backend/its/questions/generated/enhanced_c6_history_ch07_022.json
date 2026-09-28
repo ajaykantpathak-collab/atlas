@@ -34,6 +34,26 @@
      "q": "Create a mnemonic or a short story to help remember the names of the five dynasties in order: Mamluk, Khalji, Tughlaq, Sayyid, Lodi.",
      "a": "A good response uses a memory trick like \"My Kite Takes Some Light\" (M-K-T-S-L). A poor answer simply lists the names without any structural memory aid, indicating difficulty in retention.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Delhi Sultanate refers to the period between 1206 and 1526 CE when five ______ dynasties ruled parts of India from their capital, Delhi.",
+     "a": "successive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a tower made of five different colored blocks, where each block ______ a different ruling family.",
+     "a": "represents",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: By memorizing the order of these five families, you gain a map of ______ years of Delhi's history.",
+     "a": "300",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to name the five dynasties in chronological order and identify one major ruler associated with the Mamluk and Khalji dynasties.",
+     "self_check": true
     }
    ]
   }

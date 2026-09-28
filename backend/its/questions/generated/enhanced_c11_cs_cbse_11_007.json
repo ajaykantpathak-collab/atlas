@@ -34,6 +34,26 @@
      "q": "Design a DNS zone file snippet for a fictional startup `techstart.in` that: (a) points the apex domain to IPv4 198.51.100.5 and IPv6 2001:db8::5, (b) creates `www` as an alias for the apex, (c) delegates `blog` to a separate nameserver `ns1.bloghost.net`, and (d) sets up email via Google Workspace (ASPMX.L.GOOGLE.COM priority 1). Write the zone entries in standard BIND format.",
      "a": "```\n$ORIGIN techstart.in.\n@   IN  A       198.51.100.5\n@   IN  AAAA    2001:db8::5\n@   IN  MX  1   ASPMX.L.GOOGLE.COM.\nwww IN  CNAME   @\nblog IN NS      ns1.bloghost.net.\n```\nA poor answer (missing trailing dots on FQDNs, wrong MX priority syntax, or using CNAME at apex) reveals misunderstanding of zone file syntax rules: apex cannot have CNAME, FQDNs must end with dot, and NS delegation requires glue records if in-bailiwick.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Domain Name System (DNS) is a ______, distributed naming system that translates human-readable domain names (e.g., www.example.com) into machine-readable IP addresses (e.g., 192.0.2.1) to locate and identify computer services and devices on the Internet.",
+     "a": "hierarchical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you type \"www.cbse.gov.in\" in your ______ and press Enter — within milliseconds, the correct webpage appears.",
+     "a": "browser",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to trace a complete DNS resolution process from a URL entry to IP address retrieval, identifying each server type (recursive resolver, root, TLD, authoritative) and the record types involved, and must be able to deconstruct any given URL into its six standard components with correct terminology.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you type \"www.cbse.gov.in\" in your browser and press Enter — within ______, the correct webpage appears.",
+     "a": "milliseconds",
+     "self_check": true
     }
    ]
   }

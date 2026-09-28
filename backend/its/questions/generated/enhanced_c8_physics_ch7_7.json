@@ -34,6 +34,31 @@
      "q": "Design a simple lunar calendar for a fictional planet where the moon orbits every 20 Earth-days and the planet's year is 300 Earth-days. How many months in a year? What intercalation rule would you propose to keep the calendar aligned with seasons over a 10-year period?",
      "a": "300 ÷ 20 = 15 months exactly — no intercalation needed if the ratio is integer. But if the moon's period were 20.2 days, then 300 ÷ 20.2 ≈ 14.85 months/year. Over 10 years: 148.5 months → need 148 or 149 months. A good rule: add 1 extra month every 2 years (7 times in 10 years) to get 149 months. A poor answer ignores the fractional remainder or proposes random intercalation without a repeating cycle.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A lunar calendar measures time by tracking the cyclic pattern of Moon phases, where one month equals one complete lunar cycle (synodic month) of ______ 29.5 days from New Moon to the next New Moon.",
+     "a": "approximately",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at a ______ hanging in your kitchen — notice how months have 30 or 31 days but the Moon's phases don't match those dates perfectly.",
+     "a": "calendar",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A lunar calendar measures time by tracking the cyclic pattern of Moon phases, where one month equals one complete lunar cycle (synodic month) of approximately ______ days from New Moon to the next New Moon.",
+     "a": "29.5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why a 12-month lunar calendar (354 days) drifts relative to the solar year (365.25 days) and describe how ancient societies added intercalary months to keep festivals aligned with seasons.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at a calendar hanging in your kitchen — notice how months have 30 or 31 days but the Moon's phases don't match those dates ______.",
+     "a": "perfectly",
+     "self_check": true
     }
    ]
   }

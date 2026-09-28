@@ -34,6 +34,31 @@
      "q": "A CREATE level question: Design a one-day snack plan (two snacks) for a 2-year-old that uses only traditional Indian ingredients, provides at least 200 Kcal and 5g protein per snack, and includes at least three food groups from Table 5 per snack. List ingredients with approximate quantities.",
      "a": "Expected criteria: Each snack must combine ≥3 food groups (e.g., cereal + pulse + milk/fruit/veg). Example: Snack 1 - Ragi porridge (30g ragi + 100ml milk + 10g jaggery) ≈ 220 Kcal, 6g protein (groups: cereals, milk, sugar). Snack 2 - Moong dal chilla (20g moong dal + 10g rice flour + 20g grated carrot + 5g oil) ≈ 210 Kcal, 5.5g protein (groups: pulses, cereals, vegetables, fats). A poor answer that gives only biscuits and milk shows the student cannot create multi-group combinations using traditional foods.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Nutritional requirements of preschool children (1-6 years) refer to the specific quantities of energy, ______ (protein, fat, carbohydrates) and micronutrients (vitamins, minerals) recommended by ICMR (2010) to support rapid physical growth, cognitive development, high activity levels, and immune function during this critical developmental window, with distinct allowances for ages 1-3 years and 4-6 years.",
+     "a": "macronutrients",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your neighbour plan a day's ______ for their 4-year-old who is a picky eater and often skips lunch.",
+     "a": "meals",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your neighbour plan a day's meals for their ______-year-old who is a picky eater and often skips lunch.",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Recall the ICMR 2010 RDA values for energy, protein, fat, calcium, iron, and key vitamins for both 1-3 and 4-6 year age groups; (2) Explain the three dietary planning principles (variety, balance, moderation) and the rationale for including snacks; (3) Evaluate a given day's menu against the balanced diet food group.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your ______ plan a day's meals for their 4-year-old who is a picky eater and often skips lunch.",
+     "a": "neighbour",
+     "self_check": true
     }
    ]
   }

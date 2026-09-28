@@ -34,6 +34,36 @@
      "q": "Create a real-world word problem about money or shopping that results in the linear equation $3x + 50 = 200$, and state what $x$ represents in your scenario.",
      "a": "A good response will clearly define $x$ as an unknown cost per item or quantity and construct a coherent scenario. For example: \"A customer buys 3 identical chocolate bars and pays a delivery charge of ₹50. If the total bill is ₹200, find the cost of one chocolate bar where $x$ is the cost of one bar.\" A poor response fails to link the coefficients and constants to a logical real-world context.",
      "self_check": true
+    },
+    {
+     "q": "State the correct sequence of steps to solve the stationery-shop word problem that leads to the equation 50 + 3x = 200.",
+     "a": "Solving proceeds: (1) Identify the unknown and name it x (2) Translate the situation into an equation (3) Undo the addition on both sides (4) Undo the multiplication to isolate x. A wrong answer that adds before subtracting, or divides only the total by the quantity, shows the student has not understood that inverse operations must undo the equation in reverse order while keeping both sides balanced.",
+     "self_check": true
+    },
+    {
+     "q": "You carry 200 rupees to a stationery shop, buy a notebook for 50 rupees, and spend the rest on 3 identical pens. What is the cost of one pen, and which equation models the situation?",
+     "a": "The remaining money is 200 - 50 = 150 rupees, so the balance statement is 50 + 3x = 200 with each pen costing 50 rupees. A wrong answer that divides 200 by 3, or subtracts before writing the balance equation, shows the student cannot translate the word problem into a balanced algebraic statement before applying inverse operations.",
+     "self_check": true
+    },
+    {
+     "q": "Why does solving an equation by applying the same operation to both sides preserve its balance?",
+     "a": "An equation is a balanced scale: performing the same inverse operation on both sides keeps the two sides equal while stripping away one layer, moving the unknown closer to isolation. A wrong answer that changes only one side shows the student treats the equals sign as a command to write an answer rather than a statement of balance between two expressions.",
+     "self_check": true
+    },
+    {
+     "q": "State the correct sequence of steps to solve the stationery-shop word problem that leads to the equation 50 + 3x = 200.",
+     "a": "Solving proceeds: (1) Identify the unknown and name it x (2) Translate the situation into an equation (3) Undo the addition on both sides (4) Undo the multiplication to isolate x. A wrong answer that adds before subtracting, or divides only the total by the quantity, shows the student has not understood that inverse operations must undo the equation in reverse order while keeping both sides balanced.",
+     "self_check": true
+    },
+    {
+     "q": "You carry 200 rupees to a stationery shop, buy a notebook for 50 rupees, and spend the rest on 3 identical pens. What is the cost of one pen, and which equation models the situation?",
+     "a": "The remaining money is 200 - 50 = 150 rupees, so the balance statement is 50 + 3x = 200 with each pen costing 50 rupees. A wrong answer that divides 200 by 3, or subtracts before writing the balance equation, shows the student cannot translate the word problem into a balanced algebraic statement before applying inverse operations.",
+     "self_check": true
+    },
+    {
+     "q": "Why does solving an equation by applying the same operation to both sides preserve its balance?",
+     "a": "An equation is a balanced scale: performing the same inverse operation on both sides keeps the two sides equal while stripping away one layer, moving the unknown closer to isolation. A wrong answer that changes only one side shows the student treats the equals sign as a command to write an answer rather than a statement of balance between two expressions.",
+     "self_check": true
     }
    ]
   }

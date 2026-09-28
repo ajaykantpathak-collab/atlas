@@ -34,6 +34,16 @@
      "q": "Create a real-life problem (Indian context) where you need to find the nth term of an AP, but the unknown is the term number \\( n \\), not the term value. Write the problem and solve it.",
      "a": "Example: \"A child puts ₹5 in a piggy bank on day 1 and increases the amount by ₹2 each day. On which day will she put ₹25?\" Solution: \\( a=5, d=2, a_n=25 \\). \\( 25 = 5 + (n-1)2 \\Rightarrow 20 = 2(n-1) \\Rightarrow n-1=10 \\Rightarrow n=11 \\). On the 11th day. A poor answer gives a problem where \\( n \\) is given and term value is asked, or fails to set up the equation correctly, showing they only practise forward substitution.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This formula allows direct ______ of any term without listing all preceding terms.",
+     "a": "calculation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you save ₹50 in the first week and ______ your savings by ₹10 each week.",
+     "a": "increase",
+     "self_check": true
     }
    ]
   }

@@ -16,8 +16,8 @@
      "self_check": true
     },
     {
-     "q": "Given sequences SEQ1 = \"GATTACA\" and SEQ2 = \"GCATGCU\", a match score of +2, mismatch of -1, and linear gap penalty of -2, compute the score in cell (3,3) of the Needleman-Wunsch matrix (1-indexed, assuming row 0 and column 0 are initialized). Show the three candidate values and the chosen maximum.",
-     "a": "First, write sequences with indices: SEQ1[1..3] = G A T, SEQ2[1..3] = G C A. We need S(3,3). The three candidates:\n1. Diagonal: S(2,2) + s(T,A). Need S(2,2). Compute matrix stepwise:\nInitialize S(0,0)=0; S(i,0)= -2i; S(0,j)= -2j.\nFill row1 col1: S(1,1): diag S(0,0)+s(G,G)=0+2=2; up S(0,1)-2=-2-2=-4; left S(1,0)-2=-2-2=-4 → max=2.\nS(1,2): diag S(0,1)+s(G,C)= -2 + (-1) = -3; up S(0,2)-2= -4-2=-6; left S(1,1)-2=2-2=0 → max=0.\nS(1,3): diag S(0,2)+s(G,A)= -4 + (-1) = -5; up S(0,3)-2= -6-2=-8; left S(1,2)-2=0-2=-2 → max=-2.\nS(2,1): diag S(1,0)+s(A,G)= -2 + (-1) = -3; up S(1,1)-2=2-2=0; left S(2,0)-2= -4-2=-6 → max=0.\nS(2,2): diag S(1,1)+s(A,C)= 2 + (-1) = 1; up S(1,2)-2=0-2=-2; left S(2,1)-2=0-2=-2 → max=1.\nNow S(3,3): diag S(2,2)+s(T,A)= 1 + (-1) = 0; up S(2,3)-2 (need S(2,3)): compute S(2,3): diag S(1,2)+s(A,A)=0+2=2; up S(1,3)-2=-2-2=-4; left S(2,2)-2=1-2=-1 → max=2. So up candidate = S(2,3)-2 = 2-2=0; left candidate = S(3,2)-2 (need S(3,2)): compute S(3,2): diag S(2,1)+s(T,C)=0+(-1)=-1; up S(2,2)-2=1-2=-1; left S(3,1)-2 (S(3,1): diag S(2,0)+s(T,G)=-4-1=-5; up S(2,1)-2=0-2=-2; left S(3,0)-2=-6-2=-8 → max=-2) so left = -2-2=-4. Thus three candidates: 0, 0, -4 → max = 0. So S(3,3)=0. A wrong answer often results from not computing dependencies (S(2,2), S(2,3), S(3,2)) correctly, showing the student cannot trace the recurrence dependencies.",
+     "q": "Calculate the score in cell (3,3) of the Needleman-Wunsch matrix for SEQ1 = GATTACA and SEQ2 = GCATGCU with match +2, mismatch -1 and gap -2.",
+     "a": "Filling the matrix row by row gives S(2,2) = 1 and S(2,3) = 2, so the candidates at (3,3) are diagonal 1 - 1 = 0, up 2 - 2 = 0 and left -1 - 2 = -3, and the maximum: S(3,3) = 0. A wrong answer of 2 or -3 shows the student took a single neighbour instead of the maximum of all three recurrence choices.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Design a scoring scheme (match, mismatch, gap) for aligning two protein sequences where you want to prioritize finding conserved functional domains (local similarity) over aligning the entire sequences. Explain your choices and write the Smith-Waterman recurrence with your scheme.",
      "a": "A good answer: Use a substitution matrix like BLOSUM62 (positive scores for conservative substitutions, negative for non-conservative), set match scores high for identical residues, and use a moderate gap penalty (e.g., -5) to allow gaps within domains but not excessive gaps. The recurrence: H(i,j) = max[0, H(i-1,j-1) + s(a_i,b_j), H(i-1,j) + g, H(i,j-1) + g]. The zero ensures local alignment. A poor answer uses a simple +1/-1 scheme and does not mention substitution matrices or the zero lower bound, indicating the student cannot adapt the algorithm to biological context.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Dynamic ______ for sequence alignment is an algorithmic technique that guarantees finding the optimal pairwise alignment (global or local) by breaking the problem into smaller subproblems, storing their solutions in a scoring matrix, and using a recurrence relation that considers match/mismatch scores and gap penalties to build the optimal alignment score step by step.",
+     "a": "programming",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have two short DNA sequences from different strains of *Mycobacterium tuberculosis* isolated in India, and you want to find the exact regions of ______ to track a mutation.",
+     "a": "similarity",
+     "self_check": true
+    },
+    {
+     "q": "What is Dynamic programming for sequence alignment? State the definition given in this lesson.",
+     "a": "Dynamic programming for sequence alignment is an algorithmic technique that guarantees finding the optimal pairwise alignment (global or local) by breaking the problem into smaller subproblems, storing their solutions in a scoring matrix, and using a recurrence relation that considers match/mismatch scores and gap penalties to build the.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Dynamic programming for sequence alignment?",
+     "a": "Students often believe that the traceback path in Needleman-Wunsch can start at any cell with a high score, similar to Smith-Waterman.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently construct the scoring matrix for Needleman-Wunsch (global) and Smith-Waterman (local) alignment given two sequences, a substitution matrix, and gap penalties; perform traceback to retrieve the optimal alignment(s); and explain why dynamic programming guarantees optimality while heuristic methods like BLAST.",
      "self_check": true
     }
    ]

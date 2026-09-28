@@ -34,6 +34,31 @@
      "q": "Design a hypothetical SEBI regulatory response to a new market innovation: \"Social Trading Platforms\" where retail investors auto-copy trades of \"star traders\" in real-time. Specify: (a) Which objective(s) are primarily at risk? (b) One regulatory, one developmental, and one protective measure SEBI should introduce.",
      "a": "(a) Primary risks: Investor protection (blind copying without suitability assessment), Market regulation (undisclosed conflicts of interest, front-running by star traders), Market development (if unchecked, erodes trust in innovation). (b) Regulatory: Require platforms to register as \"Investment Advisers\" or new category, with mandatory risk-profiling of followers and disclosure of star trader's track record, fees, and conflicts. Developmental: Create a \"Social Trading Framework\" with standardised performance metrics, API standards for integration, and investor education modules on copying risks. Protective: Mandate segregation of follower funds, cap on auto-copy exposure per follower (e.g., 10% of portfolio), and a dedicated SCORES category for social trading grievances. A weak answer lists generic measures (\"strict rules\") without mapping to the three-function framework or addressing the *specific* risks of algorithmic social copying (herding, latency arbitrage, unverified track records).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: SEBI (Securities and Exchange Board of India) is the statutory regulatory body ______ under the SEBI Act, 1992, entrusted with the twin mandate of protecting investor interests in securities and promoting the development and regulation of the securities market in India.",
+     "a": "established",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you invested ₹50,000 in a company's IPO based on its ______ claiming \"guaranteed 30% returns in 6 months.\" Six months later, the company vanishes — no returns, no communication, no listing.",
+     "a": "prospectus",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: SEBI (Securities and Exchange Board of India) is the statutory regulatory body established under the SEBI Act, ______, entrusted with the twin mandate of protecting investor interests in securities and promoting the development and regulation of the securities market in India.",
+     "a": "1992",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) State the three core objectives of SEBI (investor protection, market development, market regulation) and explain how they interrelate; (2) Classify SEBI's functions into regulatory, developmental, and protective categories with at least two specific examples per category; (3) Apply this framework to.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you invested ₹50,000 in a company's IPO based on its prospectus claiming \"guaranteed 30% returns in 6 months.\" Six months later, the company vanishes — no returns, no ______, no listing.",
+     "a": "communication",
+     "self_check": true
     }
    ]
   }

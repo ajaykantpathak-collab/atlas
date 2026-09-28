@@ -22,7 +22,7 @@
     },
     {
      "q": "Compare and contrast the signal transduction pathways of epinephrine (via β-adrenergic receptor) and insulin (via RTK) in a hepatocyte. Create a table with columns: Receptor Type, G-protein Involved, Second Messenger, Key Kinase Activated, Metabolic Effect on Glycogen. Explain why both hormones can increase blood glucose but through opposite effects on glycogen.",
-     "a": "| Feature | Epinephrine (β-AR) | Insulin (RTK) |\n|---|---|---|\n| Receptor Type | GPCR (7TM) | Receptor Tyrosine Kinase (RTK) |\n| G-protein | Gₛ (stimulatory) | None (direct tyrosine phosphorylation) |\n| Second Messenger | cAMP | None (phosphoprotein cascade) |\n| Key Kinase | PKA (cAMP-dependent) | Akt/PKB (via PI3K) |\n| Glycogen Effect | Phosphorylates & activates glycogen phosphorylase kinase → glycogenolysis ↑ | Activates glycogen synthase (dephosphorylation) → glycogenesis ↑; inhibits phosphorylase |\n| Blood Glucose | Increases (glycogen breakdown) | Decreases (glycogen synthesis + uptake) |\n\nBoth raise blood glucose? NO — epinephrine raises, insulin lowers. The question contains a trap: \"why both can increase blood glucose\" is FALSE. Epinephrine increases; insulin decreases. They are antagonistic. WRONG ANSWER REVEALS: Student accepts the false premise and invents a mechanism where insulin also raises glucose. Shows lack of critical evaluation and confusion between catabolic (epinephrine, glucagon, cortisol) vs anabolic (insulin) hormones.",
+     "a": "| Feature | Epinephrine (β-AR) | Insulin (RTK) |\n|---|---|---|\n| Receptor Type | GPCR (7TM) | Receptor Tyrosine Kinase (RTK) |\n| G-protein | Gₛ (stimulatory) | N/A (direct tyrosine phosphorylation) |\n| Second Messenger | cAMP | N/A (phosphoprotein cascade) |\n| Key Kinase | PKA (cAMP-dependent) | Akt/PKB (via PI3K) |\n| Glycogen Effect | Phosphorylates & activates glycogen phosphorylase kinase → glycogenolysis ↑ | Activates glycogen synthase (dephosphorylation) → glycogenesis ↑; inhibits phosphorylase |\n| Blood Glucose | Increases (glycogen breakdown) | Decreases (glycogen synthesis + uptake) |\n\nBoth raise blood glucose? NO — epinephrine raises, insulin lowers. The question contains a trap: \"why both can increase blood glucose\" is FALSE. Epinephrine increases; insulin decreases. They are antagonistic. WRONG ANSWER REVEALS: Student accepts the false premise and invents a mechanism where insulin also raises glucose. Shows lack of critical evaluation and confusion between catabolic (epinephrine, glucagon, cortisol) vs anabolic (insulin) hormones.",
      "self_check": true
     },
     {
@@ -33,6 +33,36 @@
     {
      "q": "Design a thought experiment: You have three unknown hormone samples (A, B, C). Sample A is a small hydrophobic molecule that crosses artificial lipid bilayers rapidly. Sample B is a large hydrophilic molecule that binds a receptor on the outer surface of intact cells but not on lysed cells. Sample C is a small molecule that enters cells but its receptor is only found in the nucleus. Propose the chemical class and one likely identity for each. Justify using structure-transport-receptor location logic.",
      "a": "Sample A: Steroid hormone (e.g., cortisol, estradiol, testosterone). Reason: Small (MW 300-500), hydrophobic (cyclopentanoperhydrophenanthrene core) → passive diffusion through lipid bilayer → binds cytoplasmic/nuclear receptor. Sample B: Polypeptide/protein hormone (e.g., insulin, growth hormone, glucagon). Reason: Large (MW >3000), hydrophilic (many polar residues) → cannot cross membrane → receptor must be transmembrane with extracellular ligand-binding domain (RTK or GPCR) → binding lost on lysis because receptor conformation disrupted or internalized. Sample C: Thyroid hormone (thyroxine T₄ or triiodothyronine T₃). Reason: Small (MW ~650-777), moderately lipophilic (iodinated aromatic rings) → diffuses through membrane → receptor is nuclear (thyroid hormone receptor, TR) which is constitutively nuclear, not cytoplasmic — binds DNA as TR/RXR heterodimer on thyroid response elements (TREs). WRONG ANSWER REVEALS: Student assigns Sample C to \"steroid\" because it enters cells — misses that thyroid hormone receptors are nuclear, not cytoplasmic. Or assigns Sample B to \"amino acid derivative\" — misses size/hydrophilicity distinction. Shows inability to integrate structure, transport, and receptor localization.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Hormones are low-molecular-weight chemical messengers secreted by endocrine (ductless) glands directly into the bloodstream, which transports them to target cells or organs where they bind to specific receptors and regulate ______ processes such as metabolism, growth, development, and homeostasis.",
+     "a": "physiological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a relatable observation: a student feeling sudden \"______ rush\" before a board exam — heart racing, palms sweating, mind sharpening.",
+     "a": "adrenaline",
+     "self_check": true
+    },
+    {
+     "q": "What is Hormones? State the definition given in this lesson.",
+     "a": "Hormones are low-molecular-weight chemical messengers secreted by endocrine (ductless) glands directly into the bloodstream, which transports them to target cells or organs where they bind to specific receptors and regulate physiological processes such as metabolism, growth, development, and homeostasis.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Contrast with insulin (polypeptide, ______ amino acids) which cannot cross membranes and uses tyrosine kinase receptors.",
+     "a": "51",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Hormones?",
+     "a": "Students believe: \"Insulin and glucagon are both peptides, so they work the same way.\" WRONG.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) classify any given hormone into its correct chemical category (steroid, polypeptide, amino acid derivative) with structural justification; (2) explain the mechanism of action for at least two hormones (e.g., insulin-glucose regulation, epinephrine fight-or-flight) including receptor type and second messenger; (3).",
      "self_check": true
     }
    ]

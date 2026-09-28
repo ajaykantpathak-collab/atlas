@@ -76,7 +76,7 @@
     "verify the law of multiple proportions for two oxides of an element",
     "explain the laws of chemical combination"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -115,7 +115,16 @@
      "question": "5.0 g of CaCO3 on heating gives 2.8 g of CaO and 2.2 g of CO2. Show that the data illustrates the law of conservation of mass.",
      "type": "verify_property"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mass_reactants = mass_products",
+     "compute": "mass_reactants = mass_products"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jech.1.3",
@@ -295,7 +304,22 @@
      "question": "Find the number of atoms in 0.2 mol of zinc.",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "moles = mass / molar_mass",
+     "compute": "moles = mass / molar_mass"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "number = moles * N_A",
+     "compute": "number = moles * N_A"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jech.1.6",
@@ -469,7 +493,16 @@
      "question": "How much CaO is obtained by heating 25 g of CaCO3? (CaCO3 -> CaO + CO2)",
      "type": "compute"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "moles_product = moles_reactant * (coeff_product / coeff_reactant)",
+     "compute": "moles_product = moles_reactant * (coeff_product / coeff_reactant)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jech.1.9",

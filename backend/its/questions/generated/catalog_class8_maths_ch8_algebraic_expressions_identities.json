@@ -5,6 +5,8 @@
    "id": "c8m8.1.1",
    "title": "Adding Algebraic Expressions",
    "converted_to_compute": false,
+   "formula": "sum like terms: m x + n x = (m + n) x",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 2 when x = 7.",
@@ -42,6 +44,8 @@
    "id": "c8m8.1.2",
    "title": "Subtracting Algebraic Expressions",
    "converted_to_compute": false,
+   "formula": "m x - n x = (m - n) x",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 7 when x = 3.",
@@ -78,15 +82,9 @@
   {
    "id": "c8m8.2.1",
    "title": "Monomials, Binomials, Polynomials and Like Terms",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute the given values and simplify",
-     "explain": "substitute the given values and simplify: val = 3 * 4 + 3 gives 15",
-     "compute": "val = 3 * 4 + 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "1 term = monomial; 2 terms = binomial; 3 terms = trinomial",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 3 when x = 4.",
@@ -124,6 +122,8 @@
    "id": "c8m8.3.1",
    "title": "Multiplying Two Monomials",
    "converted_to_compute": false,
+   "formula": "(a x^m) x (b x^n) = (a x b) x^(m+n)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 5 when x = 6.",
@@ -161,6 +161,8 @@
    "id": "c8m8.3.2",
    "title": "Multiplying Three or More Monomials",
    "converted_to_compute": false,
+   "formula": "(a) x (b) x (c) = ((a x b) x c)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 3 when x = 5.",
@@ -197,15 +199,9 @@
   {
    "id": "c8m8.4.1",
    "title": "Multiplying a Monomial by a Binomial or Trinomial",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute the given values and simplify",
-     "explain": "substitute the given values and simplify: val = 3 * 2 + 8 gives 14",
-     "compute": "val = 3 * 2 + 8"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "a x (b + c) = a x b + a x c",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 8 when x = 2.",
@@ -242,15 +238,9 @@
   {
    "id": "c8m8.5.1",
    "title": "Multiplying a Binomial by a Binomial",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute the given values and simplify",
-     "explain": "substitute the given values and simplify: val = 3 * 9 + 7 gives 34",
-     "compute": "val = 3 * 9 + 7"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "(a + b) x (c + d) = a x c + a x d + b x c + b x d",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 7 when x = 9.",
@@ -287,15 +277,9 @@
   {
    "id": "c8m8.5.2",
    "title": "Multiplying a Binomial by a Trinomial",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute the given values and simplify",
-     "explain": "substitute the given values and simplify: val = 3 * 7 + 7 gives 28",
-     "compute": "val = 3 * 7 + 7"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "(a + b) x (c + d + e) = a x c + a x d + a x e + b x c + b x d + b x e",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 7 when x = 7.",

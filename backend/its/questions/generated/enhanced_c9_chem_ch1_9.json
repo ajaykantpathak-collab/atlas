@@ -34,6 +34,31 @@
      "q": "Design an experiment to separate the components of a mixture containing salt, sand, and starch using only water, filter paper, a beaker, and a heat source. Explain the order of separation.",
      "a": "Step 1: Add water to the mixture and stir. Salt dissolves (true solution), sand remains as suspension, starch forms a colloid. Step 2: Filter through filter paper. Sand (suspension, >1000 nm) is trapped as residue. Salt solution and starch colloid pass through as filtrate. Step 3: Heat the filtrate to evaporate water. Salt crystallises out (solid residue). Starch remains as a residue if heated to dryness. Order: sand first (filtration), then salt (evaporation), starch last (remaining solid). A poor design (e.g., filtering first without adding water) reveals inability to exploit solubility differences for sequential separation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A suspension is a ______ mixture in which solid particles (size >1000 nm) are dispersed in a liquid or gas but are large enough to settle out on standing, can be separated by filtration using filter paper, and may exhibit a weak Tyndall effect due to particle size exceeding the wavelength of visible light.",
+     "a": "heterogeneous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stir it vigorously — the water turns cloudy and you can see individual sand ______ swirling.",
+     "a": "particles",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A suspension is a heterogeneous mixture in which solid particles (size >______ nm) are dispersed in a liquid or gas but are large enough to settle out on standing, can be separated by filtration using filter paper, and may exhibit a weak Tyndall effect due to particle size exceeding the wavelength of visible light.",
+     "a": "1000",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can identify a suspension from given examples by checking three properties (particle size >1000 nm, settles on standing, separable by filtration), distinguish it from true solutions and colloids, and explain why suspensions are unstable using particle size and gravity arguments.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stir it ______ — the water turns cloudy and you can see individual sand particles swirling.",
+     "a": "vigorously",
+     "self_check": true
     }
    ]
   }

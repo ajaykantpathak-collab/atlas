@@ -20,7 +20,7 @@
     "Tell an identity apart from an ordinary equation.",
     "Check the identity (a - b)^2 for two different pairs of values."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,16 @@
      "action": "Conclude identity or equation",
      "explain": "If both sides agree for every tested value, the statement is an identity; if they agree only at special values, it is an equation."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the congruence condition and angle sums",
+     "explain": "use the congruence condition and angle sums: third = 180 - 74 - 56 gives 50",
+     "compute": "third = 180 - 74 - 56"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.4.2",
@@ -331,7 +340,7 @@
     "Expand (x + y)(x^2 - xy + y^2).",
     "Which sign sits in the middle factor for a sum of two cubes?"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -348,7 +357,16 @@
      "action": "Write the three-piece factor",
      "explain": "Squares of both terms with the cross product: minus for a sum, plus for a gap."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "expand with the algebraic identity and evaluate",
+     "explain": "expand with the algebraic identity and evaluate: val = 6 * 6 + 2 * 6 * 2 + 2 * 2 gives 64",
+     "compute": "val = 6 * 6 + 2 * 6 * 2 + 2 * 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.4.10",
@@ -402,7 +420,7 @@
     "Cancel common factors in an algebraic fraction safely.",
     "Why must the cancelled factor never be zero?"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -419,7 +437,28 @@
      "action": "Cancel and note the condition",
      "explain": "Remove the shared factor and state that it was non-zero."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the rational-number operation rules",
+     "explain": "apply the rational-number operation rules: num = 1 * 7 + 3 * 2 gives 13",
+     "compute": "num = 1 * 7 + 3 * 2"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the rational-number operation rules: den = 2 * 7 gives 14",
+     "compute": "den = 2 * 7"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the rational-number operation rules: val = num / den gives 0.928571",
+     "compute": "val = num / den"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

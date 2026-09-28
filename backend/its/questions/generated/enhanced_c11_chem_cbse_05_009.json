@@ -34,6 +34,21 @@
      "q": "Design a thought experiment to measure the root mean square speed of nitrogen molecules at 300 K using only a pressure gauge, a thermometer, a known volume container, and the ideal gas equation. Write the step-by-step procedure and the final formula you would use.",
      "a": "Procedure: (1) Fill rigid container of known volume V with N₂ gas. (2) Measure pressure P at temperature T using gauge and thermometer. (3) Calculate density ρ = PM/RT from ideal gas equation (M = 0.028 kg/mol for N₂). (4) Use kinetic gas equation P = ⅓ ρ u²_rms → u_rms = √(3P/ρ) = √(3RT/M). (5) Plug in R=8.314, T=300, M=0.028 → u_rms = 517 m/s. A poor answer suggesting \"track a single molecule\" or \"use speed camera\" reveals inability to connect macroscopic measurable quantities (P, V, T) to microscopic properties — the central bridge KMT provides. This also tests if the student recognizes that u_rms is derivable without direct speed measurement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Kinetic Molecular Theory (KMT) of gases is a microscopic model that explains the macroscopic behavior of ideal gases by assuming gas particles are point masses in constant, random, straight-line motion, undergoing perfectly elastic collisions with each other and container walls, with no ______ forces except during collisions, and where the average kinetic energy of particles is directly proportional to the absolute temperature of the gas.",
+     "a": "intermolecular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a ______ cooker whistle: steam escapes at high speed, rattling the weight.",
+     "a": "pressure",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the pressure equation P = (1/3)ρu²_rms from momentum change during wall collisions, calculate root mean square/average/most probable speeds for a given gas at a given temperature, and explain the Maxwell-Boltzmann distribution shifts with temperature and molar mass changes using the area-under-curve probability.",
+     "self_check": true
     }
    ]
   }

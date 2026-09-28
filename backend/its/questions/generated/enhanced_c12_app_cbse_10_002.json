@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_10_002",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_10_002",
+   "title": "c12_app_cbse_10_002",
+   "questions": [
+    {
+     "q": "State the four basic assumptions of a Linear Programming Problem and explain in one sentence what each assumption means for the decision variables.",
+     "a": "The four assumptions are: (1) Certainty — all parameters (resource availability, profit/cost per unit, resource consumption per unit) are known and fixed; (2) Divisibility — decision variables can take fractional values (continuous); (3) Proportionality — contribution of each variable to objective function and constraints is directly proportional to its value; (4) Additivity — total objective value and total resource usage equal the sum of individual contributions. A wrong answer (e.g., listing \"linearity\" or \"non-negativity\" as assumptions) reveals confusion between assumptions and structural components of an LPP.",
+     "self_check": true
+    },
+    {
+     "q": "A student formulates an LPP as: Maximize Z = 3x + 5y subject to x + y ≤ 10, x ≥ 0, y ≥ 0. They claim the optimal solution is x = 10, y = 0 giving Z = 30. Without solving graphically, explain why this reasoning is flawed and what the correct maximum is.",
+     "a": "The student evaluated only one corner point (10,0) but ignored other corners (0,0), (0,10). For Maximize Z = 3x + 5y, the objective increases faster with y (coefficient 5 > 3), so the maximum occurs at (0,10) giving Z = 50. A wrong answer reveals the misconception that \"any feasible point\" or \"the intercept on x-axis\" is optimal — students must check ALL corner points of the feasible region per Theorem 1.",
+     "self_check": true
+    },
+    {
+     "q": "Formulate the following as an LPP: A factory makes two products P and Q. P requires 2 hours on Machine A and 3 hours on Machine B. Q requires 4 hours on Machine A and 1 hour on Machine B. Machine A is available 100 hours/week, Machine B 80 hours/week. Profit per unit: P = ₹60, Q = ₹50. The factory wants to maximize weekly profit.",
+     "a": "Decision variables: x = units of P, y = units of Q.\nObjective: Maximize Z = 60x + 50y\nConstraints: 2x + 4y ≤ 100 (Machine A), 3x + y ≤ 80 (Machine B), x ≥ 0, y ≥ 0.\nA wrong answer (e.g., writing 2x+3y ≤ 100 for Machine A) reveals confusion in mapping \"hours per product\" to \"total hours constraint\" — students must multiply variable by its coefficient and sum across products for each resource.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the Corner-Point Method and Iso-Profit/Iso-Cost Method for solving a two-variable LPP graphically. Under what condition would you prefer one over the other?",
+     "a": "Corner-Point Method: finds all corner coordinates, evaluates Z at each, picks optimum — systematic, works for both max/min, guaranteed to find optimum if it exists. Iso-Profit Method: draws one objective line, slides parallel lines toward/away from origin — faster visually, intuitive for maximization (farthest line) or minimization (nearest line), but risky for unbounded regions (must verify no-common-point condition). Prefer Corner-Point for exams (step-wise marks, works for unbounded cases with verification); prefer Iso-Profit for quick visualization when region is clearly bounded. A wrong answer (e.g., \"Iso-Profit is always faster\") misses the verification step for unbounded regions.",
+     "self_check": true
+    },
+    {
+     "q": "An LPP has an unbounded feasible region. The objective is to Minimize Z = 4x + 3y. A student draws the line 4x + 3y = 12, finds it touches the feasible region at a corner, and declares Z_min = 12. Critique this approach. What additional step is mandatory?",
+     "a": "The student's approach is incomplete. For an unbounded region with minimization, drawing Z = 12 and seeing it touch a corner is necessary but NOT sufficient. Mandatory step: Draw the open half-plane 4x + 3y < 12 and check if it has NO point in common with the feasible region. If it has no common point, 12 is the true minimum; if it has common points, the minimum does not exist (Z can decrease indefinitely). A wrong answer reveals ignorance of Theorem 2(ii) verification — students often skip the \"open half-plane test\" and lose marks in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context, 2 decision variables, 3 non-trivial constraints) where the LPP has MULTIPLE optimal solutions. Write the full formulation and explain geometrically why multiple optima occur.",
+     "a": "Scenario: A farmer has 5 acres land, 1000 kg fertilizer, 800 L water. Crop A (₹2000 profit/acre) needs 200 kg fertilizer + 100 L water/acre. Crop B (₹3000 profit/acre) needs 100 kg fertilizer + 200 L water/acre. Maximize profit.\nFormulation: Max Z = 2000x + 3000y; s.t. x + y ≤ 5, 200x + 100y ≤ 1000, 100x + 200y ≤ 800, x,y ≥ 0.\nSimplify: x + y ≤ 5, 2x + y ≤ 10, x + 2y ≤ 8.\nMultiple optima occur when the objective function line is PARALLEL to a boundary line of the feasible region — here, Z = 2000x + 3000y has slope -2/3, same as 2x + y = 10 (slope -2). The entire edge between two corners gives the same maximum Z. A poor answer creates a scenario where the objective is not parallel to any constraint, yielding a unique optimum.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

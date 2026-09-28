@@ -1,6 +1,147 @@
 {
- "catalog": "catalog_class12_biotechnology_lebt103",
+ "catalog": "catalog_class12_biotechnology_lebt103.json",
  "concepts": [
+  {
+   "id": "lebt103.2",
+   "title": "Restriction Enzymes Types and Cleavage Distances",
+   "converted_to_compute": true,
+   "formula": "distance_ratio = type_1_distance / type_3_distance",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "distance_ratio = type_1_distance / type_3_distance",
+     "compute": "distance_ratio = type_1_distance / type_3_distance"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Restriction Enzymes Types and Cleavage Distances: given type_1_distance = 473, type_3_distance = 356, find distance ratio.",
+     "a": "1.32865",
+     "self_check": false
+    },
+    {
+     "q": "For Restriction Enzymes Types and Cleavage Distances: given type_1_distance = 236, type_3_distance = 462, find distance ratio.",
+     "a": "0.510823",
+     "self_check": false
+    },
+    {
+     "q": "For Restriction Enzymes Types and Cleavage Distances: given type_1_distance = 149, type_3_distance = 31, find distance ratio.",
+     "a": "4.80645",
+     "self_check": false
+    },
+    {
+     "q": "For Restriction Enzymes Types and Cleavage Distances: given type_1_distance = 198, type_3_distance = 58, find distance ratio.",
+     "a": "3.41379",
+     "self_check": false
+    },
+    {
+     "q": "For Restriction Enzymes Types and Cleavage Distances: given type_1_distance = 263, type_3_distance = 243, find distance ratio.",
+     "a": "1.0823",
+     "self_check": false
+    },
+    {
+     "q": "For Restriction Enzymes Types and Cleavage Distances: given type_1_distance = 235, type_3_distance = 341, find distance ratio.",
+     "a": "0.68915",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lebt103.7",
+   "title": "PCR Amplification Arithmetic",
+   "converted_to_compute": true,
+   "formula": "copies = template_count * 2 ** cycles",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "copies = template_count * 2 ** cycles",
+     "compute": "copies = template_count * 2 ** cycles"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For PCR Amplification Arithmetic: given template_count = 239, cycles = 31, find copies.",
+     "a": "513248591872",
+     "self_check": false
+    },
+    {
+     "q": "For PCR Amplification Arithmetic: given template_count = 306, cycles = 48, find copies.",
+     "a": "86131342873460736",
+     "self_check": false
+    },
+    {
+     "q": "For PCR Amplification Arithmetic: given template_count = 202, cycles = 11.6, find copies.",
+     "a": "627046",
+     "self_check": false
+    },
+    {
+     "q": "For PCR Amplification Arithmetic: given template_count = 393, cycles = 27, find copies.",
+     "a": "52747567104",
+     "self_check": false
+    },
+    {
+     "q": "For PCR Amplification Arithmetic: given template_count = 325, cycles = 42, find copies.",
+     "a": "1429365116108800",
+     "self_check": false
+    },
+    {
+     "q": "For PCR Amplification Arithmetic: given template_count = 291, cycles = 7.5, find copies.",
+     "a": "52676.6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lebt103.8",
+   "title": "Candidate Genes and DNA Libraries",
+   "converted_to_compute": true,
+   "formula": "genome_fold = genome_bp / gene_bp",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "genome_fold = genome_bp / gene_bp",
+     "compute": "genome_fold = genome_bp / gene_bp"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Candidate Genes and DNA Libraries: given genome_bp = 12.4, gene_bp = 24, find genome fold.",
+     "a": "0.516667",
+     "self_check": false
+    },
+    {
+     "q": "For Candidate Genes and DNA Libraries: given genome_bp = 65, gene_bp = 68, find genome fold.",
+     "a": "0.955882",
+     "self_check": false
+    },
+    {
+     "q": "For Candidate Genes and DNA Libraries: given genome_bp = 66, gene_bp = 47, find genome fold.",
+     "a": "1.40426",
+     "self_check": false
+    },
+    {
+     "q": "For Candidate Genes and DNA Libraries: given genome_bp = 85, gene_bp = 55, find genome fold.",
+     "a": "1.54545",
+     "self_check": false
+    },
+    {
+     "q": "For Candidate Genes and DNA Libraries: given genome_bp = 73, gene_bp = 65, find genome fold.",
+     "a": "1.12308",
+     "self_check": false
+    },
+    {
+     "q": "For Candidate Genes and DNA Libraries: given genome_bp = 45, gene_bp = 16.2, find genome fold.",
+     "a": "2.77778",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "lebt103.1",
    "title": "Isolation of Nucleic Acids from Cells",
@@ -18,37 +159,6 @@
     {
      "q": "Under which section is 'Isolation of Nucleic Acids from Cells' taught, and from which source text?",
      "a": "3.2 (source: lebt103.txt section 3.2, Figs. 3.1-3.2, Box 1)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebt103.2",
-   "title": "Restriction Enzymes Types and Cleavage Distances",
-   "questions": [
-    {
-     "q": "Using the method 'Restriction Enzymes Types and Cleavage Distances', work with: end_site = 10, start_site = 6, type1_distance = 12, type3_distance = 120. Carry the chain through step by step and give the final value of site_span.",
-     "a": "4 years",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Restriction Enzymes Types and Cleavage Distances' and work with: end_site = 400, start_site = 4, type1_distance = 60, type3_distance = 100. Carry the chain through step by step and give the final value of site_span.",
-     "a": "396 years",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Restriction Enzymes Types and Cleavage Distances' refers to.",
-     "a": "Restriction endonucleases cut DNA at specific 4-8 bp recognition sites, mostly palindromic, and fall into three classes: Type I cleaves randomly around a thousand bases away with SAM, magnesium and ATP, Type II cuts precisely within the site needing only magnesium - hence its starring role in cloning - and Type III cuts some twenty-four to twenty-six bases away; names encode the source microbe, genus, species, strain and discovery order as in EcoRI or HindIII.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Restriction Enzymes Types and Cleavage Distances'.",
-     "a": "Only Type II cuts inside its recognition site; compare the cut distances of Types I and III to see how far off-target they work.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Restriction Enzymes Types and Cleavage Distances', in plain ASCII form.",
-     "a": "distance_ratio = type1_distance / type3_distance",
      "self_check": true
     }
    ]
@@ -133,68 +243,6 @@
     {
      "q": "Under which section is 'Blotting Techniques Southern Northern Western' taught, and from which source text?",
      "a": "3.6 (source: lebt103.txt section 3.6, Figs. 3.15-3.17, Box 3)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebt103.7",
-   "title": "PCR Amplification Arithmetic",
-   "questions": [
-    {
-     "q": "Using the method 'PCR Amplification Arithmetic', work with: cycles = 15, template_count = 6. Carry the chain through step by step and give the final value of net_new.",
-     "a": "196602 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'PCR Amplification Arithmetic' and work with: cycles = 10, template_count = 300. Carry the chain through step by step and give the final value of net_new.",
-     "a": "306900 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'PCR Amplification Arithmetic' refers to.",
-     "a": "Kary Mullis's polymerase chain reaction photocopies DNA exponentially through thermal cycling - strands separate near 95 degrees Celsius, primers anneal around 50-55, and Taq polymerase from Thermus aquaticus extends at 72 - so the copy count doubles every cycle toward two raised to the cycle number, with real-time qPCR trading gels for SYBR-green fluorescence and Ct values that fall as template rises.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'PCR Amplification Arithmetic'.",
-     "a": "Multiply the starting molecules by two raised to the cycle number; a low Ct betrays abundant template.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'PCR Amplification Arithmetic', in plain ASCII form.",
-     "a": "copies = template_count * 2 ** cycles",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebt103.8",
-   "title": "Candidate Genes and DNA Libraries",
-   "questions": [
-    {
-     "q": "Using the method 'Candidate Genes and DNA Libraries', work with: gene_bp = 75, genome_bp = 8, haploid_bp = 100. Carry the chain through step by step and give the final value of diploid_bp.",
-     "a": "200 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Candidate Genes and DNA Libraries' and work with: gene_bp = 24, genome_bp = 80, haploid_bp = 360. Carry the chain through step by step and give the final value of diploid_bp.",
-     "a": "720 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Candidate Genes and DNA Libraries' refers to.",
-     "a": "Finding one 3000-3500 bp gene inside a 3.2 billion base haploid genome is a needle-in-haystack problem, solved by hunting candidate genes tied to disease or agronomic traits and by banking clones: a genomic library houses every fragment of the genome, while a cDNA library made through reverse transcriptase stores only the intron-free transcripts active in a chosen tissue, ready as probes or expression templates.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Candidate Genes and DNA Libraries'.",
-     "a": "Divide genome size by gene size to measure the search problem, then let genomic or cDNA libraries shrink it to a shelf.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Candidate Genes and DNA Libraries', in plain ASCII form.",
-     "a": "genome_fold = genome_bp / gene_bp",
      "self_check": true
     }
    ]

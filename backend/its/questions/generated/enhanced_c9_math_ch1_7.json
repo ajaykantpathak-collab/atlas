@@ -34,6 +34,21 @@
      "q": "Create a real-life problem (using Indian context like distances between cities, or a school playground) that requires using the section formula for internal division. Provide the solution.",
      "a": "Problem: Two schools, School A at (3, 4) and School B at (11, 10), are connected by a straight road. A bus stop is to be built on this road such that it divides the distance in the ratio 2:3 from School A. Find the coordinates of the bus stop.\nSolution: x = (2×11 + 3×3)/(2+3) = (22+9)/5 = 31/5 = 6.2; y = (2×10 + 3×4)/5 = (20+12)/5 = 32/5 = 6.4. Bus stop at (6.2, 6.4).\nA poor answer would give a problem that doesn't require internal division (e.g., midpoint only) or uses external division, or solves incorrectly by swapping ratio weights.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The section formula for internal division states that if a point P(x, y) divides the line segment joining two points A(x₁, y₁) and B(x₂, y₂) internally in the ratio m:n (where m and n are positive real numbers), then the ______ of P are given by x = (mx₂ + nx₁)/(m + n) and y = (my₂ + ny₁)/(m + n).",
+     "a": "coordinates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two friends, Riya and Aman, live at ______ (2, 3) and (8, 7) on a city map.",
+     "a": "coordinates",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly apply the section formula to find the coordinates of a point dividing a line segment internally in a given ratio, can determine the ratio when coordinates of the dividing point are given, and can solve word problems involving internal division such as finding points of trisection or verifying collinearity.",
+     "self_check": true
     }
    ]
   }

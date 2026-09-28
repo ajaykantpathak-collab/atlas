@@ -34,6 +34,31 @@
      "q": "Create a real-world analogy for displacement current using a water flow model. Explain how your analogy captures (a) the continuity of \"current\" through a gap, and (b) the role of the time-varying field.",
      "a": "Analogy: Water flows through a pipe (wire) into a flexible rubber balloon (capacitor gap). The balloon stretches — water doesn't cross the rubber, but the stretching membrane (electric field) transmits the \"flow\" to the other side. The rate of volume increase inside the balloon is \\( dV/dt \\), analogous to \\( d\\Phi_E/dt \\). The \"displacement current\" is the effective flow through the gap. A poor analogy (e.g., water jumping the gap) fails to capture that no medium crosses the gap, yet the effect is continuous. This tests whether the student understands displacement current as a field-mediated continuity, not charge transport.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It has the same physical effect as ______ current — producing a magnetic field — but arises from a time-varying electric field rather than moving charges.",
+     "a": "conduction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a mobile phone charging via a USB-C cable — current flows through the wires, but between the ______ plates inside the charging circuit, no actual charges move across the gap.",
+     "a": "capacitor",
+     "self_check": true
+    },
+    {
+     "q": "What is Displacement current? State the definition given in this lesson.",
+     "a": "It has the same physical effect as conduction current — producing a magnetic field — but arises from a time-varying electric field rather than moving charges.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Displacement current?",
+     "a": "The error stems from equating \"current\" exclusively with \"moving charges\" rather than \"source of magnetic field in Ampere's law.\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) identify the inconsistency in Ampere's original law when applied to a charging capacitor, (2) derive the displacement current expression using Gauss's law and the continuity of current, (3) state the Ampere-Maxwell law in integral form, and (4) distinguish regions where conduction current, displacement current, or.",
+     "self_check": true
     }
    ]
   }

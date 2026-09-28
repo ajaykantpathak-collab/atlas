@@ -911,8 +911,8 @@ class AuthService:
         result = await self.db.execute(
             select(
                 UserModel.id,
-                UserModel.full_name,
-                UserModel.grade,
+                UserModel.name,
+                UserModel.class_level,
                 UserModel.board,
                 UserModel.school_name,
                 ParentStudentLinkModel.relation,
@@ -927,8 +927,12 @@ class AuthService:
         return [
             {
                 "student_id": str(r.id),
-                "full_name": r.full_name,
-                "grade": r.grade,
+                # API contract keeps `full_name`/`grade`; the users table stores
+                # them as `name`/`class_level` (see _create_user field_map).
+                # Selecting UserModel.full_name / UserModel.grade raised
+                # AttributeError — neither attribute exists on the model.
+                "full_name": r.name,
+                "grade": str(r.class_level) if r.class_level is not None else None,
                 "board": r.board,
                 "school_name": r.school_name,
                 "relation": r.relation,
@@ -1156,6 +1160,22 @@ class AuthService:
         )
         db.add(user)
         await db.flush()
+
+        # Provision the dashboard-side student row (students.id mirrors
+        # users.id): signup used to create ONLY the users row, so
+        # GET /api/dashboard/student/{uid} 404ed on first run.
+        if (payload.role or "student") == "student":
+            try:
+                from database import Student
+                db.add(Student(
+                    id=user.id,
+                    name=payload.name,
+                    student_class=(str(payload.class_level)
+                                   if payload.class_level else None),
+                ))
+                await db.flush()
+            except Exception:
+                pass  # dashboard store unavailable — signup still succeeds
 
         token = AuthService(db)._create_access_token(str(user.id), user.role)
         return user, token

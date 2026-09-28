@@ -293,7 +293,7 @@
    "title": "Consumer Equilibrium - Indifference Curve Approach",
    "section": "5.5",
    "definition": "A consumer is in equilibrium at the point where the budget line is tangent to the highest attainable indifference curve. At this point, MRS equals the price ratio.",
-   "formula": "MRS_xy = P_x / P_y, subject to P_x*X + P_y*Y = M",
+   "formula": "MRS_xy = P_x / P_y",
    "key_idea": "Equilibrium is where the slope of the indifference curve equals the slope of the budget line and income is fully spent.",
    "textbook_ref": "",
    "question_patterns": [
@@ -344,7 +344,16 @@
      "question": "Explain why the consumer is not in equilibrium if MRS > P_x/P_y.",
      "type": "verify_property"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "MRS_xy = P_x / P_y",
+     "compute": "MRS_xy = P_x / P_y"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c11eco.5.8",

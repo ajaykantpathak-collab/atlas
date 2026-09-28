@@ -21,7 +21,7 @@
      "self_check": true
     },
     {
-     "q": "Compare the memory lifetime of `temp` in these two snippets. Which `temp` exists longer and why?\n```python",
+     "q": "Compare the memory lifetime of `temp` in these two snippets. Which `temp` exists longer and why?\n```python\n# Snippet A\ndef func_a():\n    temp = 100\n    return temp\n\n# Snippet B\ntemp = 200\ndef func_b():\n    return temp\n```",
      "a": "In Snippet A, `temp` is local: created when `func_a` is called, destroyed when it returns. In Snippet B, `temp` is global: created at module load, destroyed when program ends. Global `temp` lives longer. A student who says \"both live the same time\" confuses scope with lifetime, not realizing local variables are allocated on the call stack per invocation.",
      "self_check": true
     },
@@ -33,6 +33,21 @@
     {
      "q": "Create a short program that demonstrates a local variable shadowing a global variable with the same name. Print both values from inside the function and from the global scope to prove they are distinct.",
      "a": "```python\nscore = 90  # global\ndef update_score():\n    score = 75  # local shadows global\n    print(\"Inside:\", score)  # prints 75\nupdate_score()\nprint(\"Outside:\", score)  # prints 90\n```\nA poor answer might not show both prints or might use `global` keyword, indicating the student cannot construct an example that isolates the shadowing behavior.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The scope of a variable defines the region of a program where that variable is accessible; a local variable is created inside a function and exists only during that function's execution, while a global variable is defined outside all functions and is accessible ______ the entire module.",
+     "a": "throughout",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you write a diary (global ______) that everyone in the house can read.",
+     "a": "variable",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly predict the output of code snippets involving both local and global variables, explain why a NameError occurs when accessing a local variable outside its function, and write a function that reads a global variable without modifying it.",
      "self_check": true
     }
    ]

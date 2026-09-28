@@ -89,11 +89,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "num = 4 * 7 + 1 * 6",
-    "den = 6 * 7",
-    "val = num / den"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c8m1.2.3",
@@ -138,11 +134,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "num = 1 * 8 + 4 * 3",
-    "den = 3 * 8",
-    "val = num / den"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c8m1.2.4",
@@ -271,9 +263,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = -2 + (-16)"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c8m1.2.7",

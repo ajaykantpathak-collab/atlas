@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch10_3",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch10_3",
+   "title": "c9_math_ch10_3",
+   "questions": [
+    {
+     "q": "State the exact sum condition that defines a pair of complementary angles and a pair of supplementary angles. No calculation needed.",
+     "a": "Complementary angles sum to 90°; supplementary angles sum to 180°. A wrong answer (e.g., \"complementary = 180°\") reveals the student has swapped the two benchmarks — a very common confusion because both involve \"pairs summing to a special angle.\" This is a pure recall error, not a reasoning error.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why two angles measuring 40° and 50° are complementary, but two angles measuring 40° and 140° are NOT supplementary — even though 40° appears in both pairs.",
+     "a": "40° + 50° = 90° → complementary. 40° + 140° = 180° → actually supplementary! The question contains a trap: the second pair *is* supplementary. A student who says \"not supplementary\" likely thinks supplementary requires one acute and one obtuse angle, or that 40° \"already used\" in the first pair cannot be reused. This reveals a misconception that angle measures are \"used up\" or that complementary/supplementary are exclusive categories for a given angle.",
+     "self_check": true
+    },
+    {
+     "q": "The measure of an angle is 5 times the measure of its complement. Find the measures of both angles.",
+     "a": "Let the angle be $x$. Its complement is $90^\\circ - x$. Given: $x = 5(90^\\circ - x)$  \nStep 1: $x = 450^\\circ - 5x$  \nStep 2: $x + 5x = 450^\\circ$ → $6x = 450^\\circ$  \nStep 3: $x = 75^\\circ$  \nStep 4: Complement = $90^\\circ - 75^\\circ = 15^\\circ$  \nCheck: $75^\\circ + 15^\\circ = 90^\\circ$ and $75^\\circ = 5 \\times 15^\\circ$ ✓  \nA wrong answer like $x = 90^\\circ$ (from $x = 5x$) reveals the student forgot to subtract $x$ from 90° — they set up $x = 5x$ instead of $x = 5(90 - x)$. This is the classic \"missing the complement expression\" algebraic error.",
+     "self_check": true
+    },
+    {
+     "q": "Two angles are supplementary. The larger angle is 44° more than the smaller angle. Without solving fully, explain how the difference (44°) relates to the sum (180°) to help find the angles mentally.",
+     "a": "If two numbers sum to 180 and differ by 44, the smaller is $(180 - 44)/2 = 68^\\circ$, the larger is $68^\\circ + 44^\\circ = 112^\\circ$. The logic: subtracting the difference from the sum gives twice the smaller number. A student who cannot articulate this relationship is relying only on algebra ($x + (x+44) = 180$) without seeing the arithmetic structure. This reveals a lack of number sense about how sum and difference constrain two numbers — a key analytical skill for board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Angle A = 60°, Angle B = 120°. They are complementary because they add up to 180°.\" Evaluate this statement and correct the error.",
+     "a": "The statement is incorrect. 60° + 120° = 180°, so the angles are **supplementary**, not complementary. The student confused the two definitions. A wrong evaluation (e.g., \"correct because they add to 180°\") reveals the student does not distinguish between the two benchmark sums — they treat \"complementary\" and \"supplementary\" as synonyms for \"angle pairs that add to something.\" This is a definitional precision error critical for board answer writing.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context: carpentry, architecture, sports, etc.) where finding a complementary angle is necessary. Write the problem and solve it.",
+     "a": "Example: A carpenter in Jaipur is making a right-angled triangular support for a bookshelf. One acute angle of the triangle must be 28° to fit the corner. What should the other acute angle be?  \nSolution: In a right triangle, the two acute angles are complementary (sum = 90°). So the other angle = $90^\\circ - 28^\\circ = 62^\\circ$.  \nA poor answer uses a non-right-triangle context (e.g., \"two walls meeting at 120°\") or asks for supplementary instead. This reveals the student cannot transfer the concept to a new situation — they only solve template problems.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

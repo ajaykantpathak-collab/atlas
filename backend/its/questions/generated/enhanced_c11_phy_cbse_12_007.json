@@ -32,7 +32,32 @@
     },
     {
      "q": "Design a thought experiment to estimate the diameter of an air molecule using only macroscopic measurements of mean free path (e.g., by measuring viscosity or diffusion). Outline the steps and the formula you would use.",
-     "a": "Measure the viscosity \\(\\eta\\) of air at known \\(T\\) and \\(P\\). From kinetic theory, \\(\\eta = \\frac{1}{3} n m \\langle v \\rangle \\lambda\\). Measure \\(\\eta\\) experimentally. Calculate \\(n = P/(k_B T)\\), \\(m = M/N_A\\), \\(\\langle v \\rangle = \\sqrt{8 k_B T/(\\pi m)}\\). Solve for \\(\\lambda = 3\\eta/(n m \\langle v \\rangle)\\). Then use \\(\\lambda = 1/(\\sqrt{2} \\pi d^2 n)\\) to find \\(d\\). A poor answer would omit the connection between viscosity and mean free path, or fail to identify all measurable quantities needed.",
+     "a": "(1) Measure the viscosity of air at a known temperature and pressure, (2) Use the kinetic-theory relation eta equals one-third n m v-bar lambda to obtain the mean free path from the measured viscosity, (3) Calculate n as P over k T, m as M over N A, and v-bar as the square root of eight k T over pi m, (4) Solve lambda equals one over root-two pi d squared n for the molecular diameter d. A poor answer omits the connection between viscosity and mean free path, or fails to identify all the measurable quantities needed.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mean free path is the average distance traveled by a gas molecule between two ______ collisions with other molecules.",
+     "a": "successive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe that when a gas cylinder leaks in a kitchen, the smell takes minutes to reach the other corner even though ______ move at ~500 m/s.",
+     "a": "molecules",
+     "self_check": true
+    },
+    {
+     "q": "What is Mean free path? State the definition given in this lesson.",
+     "a": "Mean free path is the average distance traveled by a gas molecule between two successive collisions with other molecules.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe that when a gas cylinder leaks in a kitchen, the smell takes minutes to reach the other corner even though molecules move at ~______ m/s.",
+     "a": "500",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the mean free path formula from collision geometry, calculate it for a given gas using number density and molecular diameter, and explain why it is much larger than the intermolecular distance in gases.",
      "self_check": true
     }
    ]

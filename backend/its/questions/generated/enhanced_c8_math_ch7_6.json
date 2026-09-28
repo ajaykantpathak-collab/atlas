@@ -34,6 +34,26 @@
      "q": "Create a real-life problem from your daily routine (shopping, travel, cooking) that requires the unitary method with at least one decimal quantity. Write the problem and solve it step by step.",
      "a": "Example problem: \"My scooter gives 45.5 km per litre of petrol. If I have ₹200 and petrol costs ₹95 per litre, how many kilometres can I travel?\"\nSolution: Litres I can buy = 200 ÷ 95 = 2.105... litres. Distance = 45.5 × 2.105... ≈ 95.8 km.\nA good answer shows a realistic scenario, correct unitary steps (find litres per rupee or km per rupee), and handles decimals appropriately. A poor answer uses only whole numbers or skips the unit-finding step, indicating the student cannot transfer the method to self-generated contexts.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The unitary method is a technique for solving ______ problems by first finding the value of a single unit from the given value of multiple units, then scaling that unit value to find the value of any desired number of units.",
+     "a": "proportional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To find the cost of 1 kg, you must ______ the total cost by the total weight.",
+     "a": "divide",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To find the cost of ______ kg, you must divide the total cost by the total weight.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently solve multi-step word problems involving direct proportion by first calculating the value of one unit (which may involve division of decimals or fractions) and then multiplying to find the required quantity, while explaining why the method works using the constant ratio concept.",
+     "self_check": true
     }
    ]
   }

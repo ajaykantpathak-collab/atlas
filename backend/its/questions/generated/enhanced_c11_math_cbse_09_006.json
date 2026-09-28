@@ -34,6 +34,16 @@
      "q": "Create a real-life problem involving a GP where the sum of the first n terms needs to be found, and the common ratio is a fraction between 0 and 1. Provide the problem statement and solve it.",
      "a": "Problem: \"A ball is dropped from a height of 10 metres. Each time it bounces, it rebounds to 3/4 of its previous height. Find the total vertical distance travelled by the ball until it hits the ground for the 5th time.\" Solution: Downward distances: 10, 10(3/4), 10(3/4)², 10(3/4)³, 10(3/4)⁴. Upward distances (after 1st to 4th bounce): 10(3/4), 10(3/4)², 10(3/4)³, 10(3/4)⁴. Total = 10 + 2×10[3/4 + (3/4)² + (3/4)³ + (3/4)⁴] = 10 + 20 × \\(\\frac{3/4(1-(3/4)^4)}{1-3/4}\\) = 10 + 20 × 3 × (1 - 81/256) = 10 + 60 × 175/256 = 10 + 41.0156 = 51.0156 m. A poor answer uses only downward distances or treats it as infinite GP.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you deposit ₹5000 in a bank that offers 10% ______ interest annually.",
+     "a": "compound",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If you want the total amount accumulated over ______ years including all yearly interests, you need the sum of this GP.",
+     "a": "5",
+     "self_check": true
     }
    ]
   }

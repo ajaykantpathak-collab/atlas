@@ -21,18 +21,48 @@
      "self_check": true
     },
     {
-     "q": "Compare and contrast the role of \"intrinsic/host factors\" versus \"extrinsic/environmental factors\" (Table 2, NCERT) in causing a diarrhoeal outbreak in a flood-affected village. Specifically analyse why environmental hygiene interventions (safe water, excreta disposal) are more immediately impactful than host-factor interventions (nutrition, immunity) during the acute phase.",
-     "a": "Intrinsic factors (age, malnutrition, low immunity) determine individual susceptibility and severity—malnourished children die faster from dehydration. Extrinsic factors (contaminated floodwater, open defecation, disrupted drainage, vector proliferation) determine exposure dose and transmission intensity. During acute floods, the pathogen load in the environment (extrinsic) overwhelms even healthy hosts; the attack rate depends on contamination level, not just host immunity. Environmental interventions cut the transmission pathway at source: chlorinated water removes the vehicle, trench latrines stop faecal contamination of floodwater, larviciding reduces vector density. These reduce the *force of infection* for the entire population simultaneously. Host-factor interventions (nutritional rehabilitation, vaccination) take weeks to months to alter susceptibility and only protect individuals. A wrong answer that equates the two or suggests treating malnourished children first reveals confusion between clinical management (individual) and outbreak control (population-level), and misses the textbook's emphasis on \"safe environment\" as a foundational factor for nutritional well-being.",
+     "q": "Trace the correct sequence from flood contamination to outbreak, showing why environmental fixes act fastest.",
+     "a": "The chain runs: (1) Floodwater mixes with excreta and spreads pathogens across the village (2) Exposure dose overwhelms even well-nourished hosts (3) Attack rate follows the level of environmental contamination rather than personal constitution (4) Restoring safe water and excreta disposal cuts transmission at once, faster than nutrition support can rebuild host resistance. A wrong answer that focuses on feeding alone during the outbreak shows the student has missed that extrinsic factors set the dose while intrinsic factors set severity.",
      "self_check": true
     },
     {
-     "q": "Critique the following statement from a municipal health report: \"Our city has achieved 95% toilet coverage under Swachh Bharat Mission, so environmental sanitation is no longer a priority for diarrhoea reduction.\" Use the distinction between *access* and *safe management* across the full sanitation chain (containment, emptying, transport, treatment, disposal/reuse) and the concept of \"safe environment\" from the four factors of nutritional well-being.",
-     "a": "The statement confuses *access to a toilet* (containment) with *safely managed sanitation* (full chain). 95% coverage may still leave: (i) toilets discharging into open drains (no treatment), (ii) septic tanks never emptied (overflow in monsoon), (iii) faecal sludge dumped in rivers/fields (pathogen return to environment), (iv) manual scavenging persisting (occupational hazard). The \"safe environment\" factor requires *all* components of Figure 4—water quality, vector control, solid waste, *and* excreta management—to function together. A toilet that contaminates groundwater negates safe water supply; untreated sludge breeds vectors; open dumping attracts flies/rodents. Diarrhoea reduction requires interrupting *every* transmission pathway, not just providing hardware. A weak answer that accepts the 95% figure at face value or suggests only \"behaviour change\" is needed shows inability to apply systems thinking to environmental health and misses the textbook's holistic framing of sanitation as interconnected components.",
+     "q": "Give the correct order of points that test whether toilet coverage alone means safely managed sanitation.",
+     "a": "The assessment runs: (1) Note that coverage measures containment access only (2) Check whether pits and tanks are actually emptied and transported safely (3) Ask where the faecal sludge is treated or dumped (4) Conclude that discharge into open drains returns pathogens despite the 95 percent figure. A wrong answer that equates toilets built with sanitation achieved shows the student has missed that the full chain from containment to treatment must be safe.",
      "self_check": true
     },
     {
-     "q": "Create a novel \"food safety superhero\" character for a Class 6 comic book that teaches the five keys to safer food (WHO) *through* the environmental hygiene lens of your Class 11 textbook. Sketch the character's three special gadgets, each mapping to one environmental hygiene component (Figure 4) and one food hygiene principle (textbook bullet points). Write a 60-word origin story showing how the character prevents a specific food-borne outbreak.",
-     "a": "Character: **Captain Codex Alimentarius** (code name: \"Tempest\"). Gadgets: (1) **Aqua-Shield Gauntlet** → Water Supply component + \"Use safe water and raw materials\" key. Projects holographic chlorine residual test strips; purifies 500L/min. (2) **Vector-Vaporiser Drone** → Vector Control component + \"Keep food at safe temperatures\" key (prevents flies landing on cooling food). Emits species-specific pheromone disruptors; carries IR thermometer scanning food surfaces. (3) **Cross-Containment Portal** → Food Sanitation component + \"Separate raw and cooked\" key. Walk-through arch that UV-sterilises hands/utensils, colour-codes zones (red raw / green ready-to-eat), logs handler hygiene compliance. Origin: During a wedding feast, *Salmonella* from raw chicken contaminates salad via a shared knife. Captain Codex detects the cross-contamination portal breach, deploys Aqua-Shield to purify salad wash water, Vector-Vaporiser eliminates flies on exposed food, and Cross-Containment Portal re-routes all prep to safe zones—zero cases among 300 guests. A poor answer that creates a generic \"cleanliness hero\" without mapping gadgets to specific textbook components/keys shows the student cannot synthesise the two frameworks (WHO 5 keys + NCERT 8 components) into an integrated mental model.",
+     "q": "Give the correct order of gadget assignments for a food-safety character mapping WHO keys to hygiene components.",
+     "a": "The mapping runs: (1) Assign the water gadget to safe water in raw materials with its chlorine test strips (2) Assign the vector drone to keeping food at safe temperatures by keeping flies off cooling food (3) Tie each gadget to the environmental component it protects (4) Check that every WHO key is covered by at least one gadget before finalising the comic. A wrong answer that invents gadgets with no component link shows the student has missed that each gadget must map to one hygiene component and one food key.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ hygiene refers to the comprehensive set of practices and conditions in the external surroundings—including safe water supply, sanitary disposal of human excreta and liquid/solid wastes, vector control, housing quality, and food sanitation—that prevent disease transmission and promote community health.",
+     "a": "Environmental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you visit a relative's home in a peri-urban area where the municipal water supply runs only two hours daily, so families store water in open drums; the kitchen drain empties into an open ditch behind the house where ______ breed; and the cook prepares salad on the same board used for raw chicken without washing it.",
+     "a": "mosquitoes",
+     "self_check": true
+    },
+    {
+     "q": "What is Environmental hygiene? State the definition given in this lesson.",
+     "a": "Environmental hygiene refers to the comprehensive set of practices and conditions in the external surroundings—including safe water supply, sanitary disposal of human excreta and liquid/solid wastes, vector control, housing quality, and food sanitation—that prevent disease transmission and promote community health.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by mapping each observation to the environmental hygiene components from Figure ______ in your textbook: water storage → water supply safety; open ditch → liquid waste disposal and vector control; cutting board practice → cross-contamination in food hygiene.",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Environmental hygiene?",
+     "a": "Students believe \"environmental hygiene\" and \"personal hygiene\" are interchangeable or that environmental hygiene only means \"keeping surroundings clean\" (litter pickup).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can analyse a given household or community scenario to identify at least five environmental hygiene gaps (across water, waste, vectors, housing, food handling), explain the specific disease transmission pathway for each gap, and propose context-appropriate corrective measures aligned with the four factors of nutritional.",
      "self_check": true
     }
    ]

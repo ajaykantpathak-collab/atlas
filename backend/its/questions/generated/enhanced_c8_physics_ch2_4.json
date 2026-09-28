@@ -34,6 +34,21 @@
      "q": "Design a fair experiment to test whether the thickness of the wire (keeping length, core, and voltage constant) affects the strength of an electromagnet. List the independent, dependent, and controlled variables, and predict the outcome with reasoning.",
      "a": "Independent variable: wire thickness (e.g., SWG 24 vs SWG 30). Dependent variable: number of paper clips lifted. Controlled: core (same soft iron nail), voltage (same battery), number of turns (same, so wire length differs), coil winding tightness. Prediction: Thicker wire has lower resistance, so more current flows at same voltage → stronger electromagnet. A poor answer that keeps wire length constant instead of turns, or forgets to control voltage, shows inability to design a controlled experiment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The strength of an ______ is the magnetic force it exerts, measured by the number of ferromagnetic objects (like iron nails or paper clips) it can attract or the weight it can lift.",
+     "a": "electromagnet",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a crane in a scrapyard lifting heavy iron pieces with a large circular magnet — that is an industrial ______.",
+     "a": "electromagnet",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can predict how changing the number of turns, current, or core material will affect the electromagnet's strength and can design a fair test to compare two electromagnets by controlling one variable at a time.",
+     "self_check": true
     }
    ]
   }

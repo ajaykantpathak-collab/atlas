@@ -34,6 +34,26 @@
      "q": "Create a lambda function that takes a string and returns `True` if the string is a palindrome (reads the same forwards and backwards, ignoring case), otherwise `False`. Test it with the strings `\"Radar\"` and `\"Python\"`.",
      "a": "Expected answer: `is_pal = lambda s: s.lower() == s.lower()[::-1]`. Test: `is_pal(\"Radar\")` returns `True`; `is_pal(\"Python\")` returns `False`. A poor answer might try to use a loop or multiple statements inside the lambda, or forget to handle case insensitivity. This reveals the student cannot compose string operations (slicing, method calls) into a single expression.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A lambda function (anonymous function) in Python is a function defined without a name using the lambda keyword, which can accept any number of arguments but contains only a single ______ that is evaluated and implicitly returned.",
+     "a": "expression",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a list of item prices in rupees and you quickly want to add GST (18%) to each price without writing a full named ______.",
+     "a": "function",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write a lambda function for a given simple operation, explain its syntax restrictions, and correctly use it as an argument to higher-order functions like map, filter, sorted, and max.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a list of item prices in rupees and you quickly want to add GST (______%) to each price without writing a full named function.",
+     "a": "18",
+     "self_check": true
     }
    ]
   }

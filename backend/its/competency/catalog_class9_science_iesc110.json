@@ -24,12 +24,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "trace the vibration",
-     "explain": "The source vibrates and pushes the neighbouring particles."},
-    {"step": 2, "action": "follow the wave",
-     "explain": "Compressions and rarefactions travel onward through the medium."},
-    {"step": 3, "action": "end at the ear",
-     "explain": "The eardrum vibrates with the arriving wave and we hear."}
+    {
+     "step": 1,
+     "action": "trace the vibration",
+     "explain": "The source vibrates and pushes the neighbouring particles."
+    },
+    {
+     "step": 2,
+     "action": "follow the wave",
+     "explain": "Compressions and rarefactions travel onward through the medium."
+    },
+    {
+     "step": 3,
+     "action": "end at the ear",
+     "explain": "The eardrum vibrates with the arriving wave and we hear."
+    }
    ]
   },
   {
@@ -50,10 +59,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "multiply frequency by wavelength",
+    {
+     "step": 1,
+     "action": "multiply frequency by wavelength",
      "explain": "The wave equation gives the speed of sound.",
-     "compute": "speed = frequency * wavelength"}
-   ]
+     "compute": "speed = frequency * wavelength"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "speed = frequency * wavelength",
+     "compute": "speed = frequency * wavelength"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.110.10.3",
@@ -73,12 +94,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "reflect the sound",
-     "explain": "A hard distant surface returns the wave."},
-    {"step": 2, "action": "check the gap",
-     "explain": "The echo must arrive at least 0.1 s later, needing about 17.2 m in air."},
-    {"step": 3, "action": "apply to design",
-     "explain": "Concert halls absorb extra reflections; SONAR and bats exploit them."}
+    {
+     "step": 1,
+     "action": "reflect the sound",
+     "explain": "A hard distant surface returns the wave."
+    },
+    {
+     "step": 2,
+     "action": "check the gap",
+     "explain": "The echo must arrive at least 0.1 s later, needing about 17.2 m in air."
+    },
+    {
+     "step": 3,
+     "action": "apply to design",
+     "explain": "Concert halls absorb extra reflections; SONAR and bats exploit them."
+    }
    ]
   },
   {
@@ -99,12 +129,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "mark the hearing band",
-     "explain": "20 Hz to 20000 Hz is audible; outside lie infra and ultrasound."},
-    {"step": 2, "action": "use the short wavelengths",
-     "explain": "High frequencies travel as narrow beams that reflect cleanly."},
-    {"step": 3, "action": "list the applications",
-     "explain": "Cleaning, welding, medical imaging and SONAR exploit these reflections."}
+    {
+     "step": 1,
+     "action": "mark the hearing band",
+     "explain": "20 Hz to 20000 Hz is audible; outside lie infra and ultrasound."
+    },
+    {
+     "step": 2,
+     "action": "use the short wavelengths",
+     "explain": "High frequencies travel as narrow beams that reflect cleanly."
+    },
+    {
+     "step": 3,
+     "action": "list the applications",
+     "explain": "Cleaning, welding, medical imaging and SONAR exploit these reflections."
+    }
    ]
   }
  ],
@@ -120,9 +159,12 @@
     "wavelength": "wavelength in metres"
    },
    "solution_template": [
-    {"step": 1, "action": "multiply frequency by wavelength",
+    {
+     "step": 1,
+     "action": "multiply frequency by wavelength",
      "explain": "The wave equation gives the speed.",
-     "compute": "speed = frequency * wavelength"}
+     "compute": "speed = frequency * wavelength"
+    }
    ]
   },
   {
@@ -136,9 +178,12 @@
     "wavelength": "wavelength in m"
    },
    "solution_template": [
-    {"step": 1, "action": "multiply frequency by wavelength",
+    {
+     "step": 1,
+     "action": "multiply frequency by wavelength",
      "explain": "Speed equals frequency times wavelength.",
-     "compute": "speed = frequency * wavelength"}
+     "compute": "speed = frequency * wavelength"
+    }
    ]
   }
  ],
@@ -147,9 +192,9 @@
    "id": "ex10.1",
    "source_ref": "iesc110.txt exercises",
    "questions": [
-     "Solve the given wave-equation numericals.",
-     "Explain echo and reverberation with applications.",
-     "Describe the working of SONAR."
+    "Solve the given wave-equation numericals.",
+    "Explain echo and reverberation with applications.",
+    "Describe the working of SONAR."
    ]
   }
  ]

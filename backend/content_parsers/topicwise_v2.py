@@ -1,3 +1,4 @@
+import os
 """
 Topic-wise Supporting Files Generator v2
   - CISCE English C6-8 (C9-12 already done in english_supporting_files/)
@@ -21,7 +22,7 @@ from collections import defaultdict
 
 # ─── Config ───
 API_KEYS = [
-    "sk-ant-co-QsK1rhxdfRWZ65OJ5cVxaAZ5ISNUY0lK",   # key 0 — 5 workers
+    os.environ.get('ANTHROPIC_API_KEY') or '',   # key 0 — 5 workers
 ]
 API_URL = "https://api.claudeopus.pro/v1/messages"
 MODEL = "claude-opus-5"

@@ -34,6 +34,26 @@
      "q": "Design a word problem for a Class 8 student that requires finding the area of a rectangle where one side is a fraction and the other is a decimal. Provide the problem statement and the solution.",
      "a": "Example problem: \"A rectangular cloth is \\( \\frac{3}{4} \\) m wide and 2.5 m long. Find its area in m².\" Solution: Convert \\( \\frac{3}{4} = 0.75 \\). Area = \\( 0.75 \\times 2.5 = 1.875 \\) m². A poor problem (e.g., both sides whole numbers, or no unit conversion needed) reveals the student cannot synthesise fraction-decimal conversion with area calculation, indicating a gap in connecting prior number skills to geometry.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The area of a rectangle is the measure of the two-dimensional space enclosed within its four sides, calculated by multiplying its length (the longer side) by its width (the shorter side), provided both ______ are in the same unit.",
+     "a": "measurements",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your family tile the kitchen ______.",
+     "a": "floor",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly compute the area of a rectangle when side lengths are given as whole numbers, decimals, fractions, or algebraic expressions, can convert between units (e.g., cm to m) before calculating, and can solve inverse problems (find missing side given area and the other side) with full working shown.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are helping your family tile the kitchen floor.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

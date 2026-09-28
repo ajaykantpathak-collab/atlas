@@ -34,6 +34,26 @@
      "q": "Design a simple classroom demonstration using household items (balloons, plastic bottle, straw, clay) to model the mechanism of human inhalation and exhalation. Explain which parts represent the diaphragm, thoracic cavity, lungs, and trachea, and state one limitation of this model.",
      "a": "Model: Cut the bottom off a plastic bottle. Insert a balloon (lung) through the neck, securing it around a straw (trachea) with clay. Stretch a second balloon (diaphragm) over the cut bottom. Pull the bottom balloon down → volume increases → pressure decreases → top balloon inflates (inhalation). Push bottom balloon up → volume decreases → pressure increases → top balloon deflates (exhalation). Limitation: The model shows volume-pressure changes but does not replicate the active role of intercostal muscles, the branching of bronchi/bronchioles, or the diffusion of gases across the alveolar membrane. A poor answer describes a model that doesn't show pressure change (e.g., blowing into a balloon) or misses the limitation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The human ______ system is a series of organs (nostrils, nasal cavity, pharynx, larynx, trachea, bronchi, bronchioles, and alveoli) that facilitates the exchange of gases between atmospheric air and blood.",
+     "a": "respiratory",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your own ______: place one hand on your chest and the other on your abdomen.",
+     "a": "breathing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key principle: gases move down their partial pressure gradients across the respiratory membrane, which is only ______ μm thick, allowing rapid exchange to meet the oxygen demand of cellular respiration.",
+     "a": "0.5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can label all parts of the human respiratory system in a diagram, explain the mechanism of inhalation and exhalation using pressure-volume changes, and describe the stepwise diffusion of O₂ and CO₂ across the alveolar-capillary membrane with reference to partial pressure gradients and the role of haemoglobin.",
+     "self_check": true
     }
    ]
   }

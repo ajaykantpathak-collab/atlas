@@ -34,6 +34,16 @@
      "q": "Design a simple thought experiment to demonstrate that the binding energy of a nucleus must be included in its total mass. Use a system of two protons and two neutrons combining to form \\(^4_2\\text{He}\\). Specify initial and final masses, and the energy released.",
      "a": "Initial: 2 free protons (2 × 1.00727 u) + 2 free neutrons (2 × 1.00866 u) = 4.03186 u. Final: \\(^4_2\\text{He}\\) nucleus (atomic mass 4.002603 u minus 2 electron masses 2×0.000548 u = 4.001507 u). Mass defect = 0.030353 u. Energy released = 0.030353 × 931.5 MeV = 28.27 MeV. The helium nucleus is lighter by exactly this mass equivalent. A poor answer omits electron mass subtraction or uses atomic masses directly without adjustment, showing confusion between atomic and nuclear masses.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This means mass is a concentrated form of energy, and any change in the total energy of a closed system results in a ______ change in its mass.",
+     "a": "corresponding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a nuclear reactor or the Sun: both release ______ energy from tiny amounts of matter.",
+     "a": "enormous",
+     "self_check": true
     }
    ]
   }

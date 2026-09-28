@@ -34,6 +34,21 @@
      "q": "Construct a word problem scenario from a real-life playground measurement task where proving two triangular flower beds are identical requires using the ASA criterion.",
      "a": "A good answer should describe measuring a baseline path of 5 meters between two garden posts, measuring the angle each post makes with a border string, and showing that a second garden bed built with the same baseline and corner angles must be identical. A poor answer just states numbers without a real-world context or geometric justification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ASA (Angle-Side-Angle) ______ Criterion states that if two angles and the included side of one triangle are equal to two angles and the included side of another triangle, then the two triangles are congruent.",
+     "a": "Congruence",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a surveyor mapping a ______ plot of land in your village schoolyard, and you need to build an identical structure on the other side of the campus without measuring all three sides.",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify the included side between two given angles in a triangle, verify ASA congruence conditions, and write formal congruence proofs with corresponding parts (CPCTC).",
+     "self_check": true
     }
    ]
   }

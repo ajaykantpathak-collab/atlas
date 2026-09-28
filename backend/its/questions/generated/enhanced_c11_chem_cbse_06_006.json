@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a spirit burner and water calorimetry to estimate the bond enthalpy of the O–H bond in methanol combustion, given the other bond enthalpies. Outline the steps and the calculation.",
      "a": "Burn a known mass of methanol (CH₃OH) in a spirit burner under a copper calorimeter with a known mass of water. Measure temperature rise. Calculate heat released: q = m_water × c_water × ΔT. Convert to ΔH per mole of methanol. Write balanced equation: 2CH₃OH(g) + 3O₂(g) → 2CO₂(g) + 4H₂O(g). Use known bond enthalpies (C–H, C–O, C=O, O=O) and the experimental ΔH to solve for the O–H bond enthalpy algebraically. A poor answer omits the need for gaseous methanol (vaporization enthalpy) or forgets to multiply by stoichiometric coefficients.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Bond enthalpy (or bond ______ enthalpy) is the average energy required to break one mole of a specific covalent bond in gaseous molecules under standard conditions (298 K, 1 bar) to form gaseous atoms or radicals.",
+     "a": "dissociation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a LPG stove burning butane (C₄H₁₀) – the blue flame ______ heat because the total energy released in forming new bonds (C=O in CO₂, O–H in H₂O) exceeds the energy absorbed to break bonds in butane (C–C, C–H) and oxygen (O=O).",
+     "a": "releases",
+     "self_check": true
+    },
+    {
+     "q": "What is Bond enthalpy (or bond dissociation enthalpy)? State the definition given in this lesson.",
+     "a": "Bond enthalpy (or bond dissociation enthalpy) is the average energy required to break one mole of a specific covalent bond in gaseous molecules under standard conditions (298 K, 1 bar) to form gaseous atoms or radicals.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Bond enthalpy (or bond dissociation enthalpy)?",
+     "a": "Students often treat bond enthalpy as the exact energy for a specific bond in a specific molecule (e.g., \"C–H bond energy in methane is 413 kJ mol⁻¹\") rather than an average over many compounds.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the standard enthalpy change of a gaseous reaction using given average bond enthalpy values, correctly identify all bonds broken and formed from Lewis structures, and explain why the calculated value may differ from experimental ΔH° (due to average nature of bond enthalpies and phase limitations).",
+     "self_check": true
     }
    ]
   }

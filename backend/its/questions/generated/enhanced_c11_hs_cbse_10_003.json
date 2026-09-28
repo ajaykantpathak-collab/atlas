@@ -34,6 +34,31 @@
      "q": "Create a novel classification scheme for a family's monthly inflows that integrates Money Income, Real Income (Direct/Indirect), and Psychic Income into a single \"Family Well-Being Dashboard\" with 5 measurable indicators. Explain how each indicator captures a different aspect of the income-satisfaction chain.",
      "a": "Example dashboard: (1) Money Income Coverage Ratio = (Assured Money Income / Total Essential Expenditure) — measures financial security baseline. (2) Direct Real Income Share = (Imputed value of Direct Real Income / Total Real Income consumed) — measures self-reliance and skill utilisation. (3) Skill-Enhanced Indirect Ratio = (Value of Indirect Real Income where family skill improved quality/cost / Total Indirect Real Income) — captures competence in converting money to value. (4) Psychic Income Proxy = Weighted satisfaction score (1-5) across 5 domains (nutrition, housing, relationships, autonomy, security) from family self-assessment — operationalises the unquantifiable. (5) Conversion Efficiency Index = Psychic Income Proxy / (Money Income + Imputed Direct Real Income) — measures well-being per total resource unit. A poor answer lists generic \"happiness metrics\" without anchoring each indicator to the specific Money→Real→Psychic transformation chain defined in the textbook.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Family income is the aggregate monetary and non-monetary inflow available to a household over a defined period (typically a financial year April 1–March 31), comprising three distinct but ______ streams: Money Income (quantifiable purchasing power in legal tender received as wages, salary, profits, rent, interest, dividends, pensions, bonuses, royalties, gifts, subsidies), Real Income (the actual flow of goods and services accessible for want-satisfaction, subdivided into Direct Income — goods/services obtained without monetary exchange such as household labour, home-grown produce, owned housing, community facilities — and Indirect Income — goods/services acquired through monetary exchange but enhanced by family skills like judicious purchasing, quality selection, repair abilities), and Psychic Income (the subjective, intangible satisfaction derived from the ownership and utilisation of real income, representing the ultimate quality-of-life metric that cannot be quantified in rupees but determines perceived well-being).",
+     "a": "interrelated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sharma earns ₹60,000/month as a teacher (Money Income), grows ______ on her terrace (Direct Real Income), stitches her family's clothes using her skill (Direct Real Income), and feels deep contentment when her family eats home-cooked meals together (Psychic Income).",
+     "a": "vegetables",
+     "self_check": true
+    },
+    {
+     "q": "What is Family income? State the definition given in this lesson.",
+     "a": "Family income is the aggregate monetary and non-monetary inflow available to a household over a defined period (typically a financial year April 1–March 31), comprising three distinct but interrelated streams: Money Income (quantifiable purchasing power in legal tender received as wages, salary, profits, rent, interest, dividends.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Family income?",
+     "a": "Students consistently confuse Home Science \"Real Income\" with the Economics definition (nominal income adjusted for inflation / purchasing power parity).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify any given household resource inflow into the correct income type (Money/Real/Psychic) with justification, differentiate between Direct and Indirect Real Income using concrete examples, and explain why Psychic Income — despite being non-quantifiable — is considered the supreme determinant of quality of.",
+     "self_check": true
     }
    ]
   }

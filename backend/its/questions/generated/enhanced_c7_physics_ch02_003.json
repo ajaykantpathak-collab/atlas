@@ -34,6 +34,21 @@
      "q": "Design a simple mental model or physical analogy to explain how an electric cell pushes electric current through a closed circuit wire.",
      "a": "A good response should use an analogy like a water pump in a closed loop of pipes, where the pump (cell) lifts or pushes water (charge) around the track. A poor answer merely repeats textbook definitions without illustrating the pumping mechanism or energy transfer, showing a lack of deep conceptual grasp.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An electric cell is a device that converts chemical energy stored within it into ______ energy, serving as a portable source of electric current for various circuits.",
+     "a": "electrical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you look at the TV remote control or a wall clock at home, it stops working when the ______ run out, and inserting new cells brings it back to life.",
+     "a": "batteries",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify the positive and negative terminals of a dry cell, explain how chemical energy transforms into electrical energy inside it, and predict the correct orientation of cells needed to power a simple device like a torchlight.",
+     "self_check": true
     }
    ]
   }

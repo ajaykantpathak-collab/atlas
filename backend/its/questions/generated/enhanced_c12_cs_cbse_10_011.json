@@ -17,7 +17,7 @@
     },
     {
      "q": "Write a complete Python snippet that pickles a list of dictionaries `students = [{'name': 'Asha', 'marks': 92}, {'name': 'Rohan', 'marks': 85}]` to a file `students.dat` and then loads it back into a variable `loaded_students`. Include proper file handling and exception handling.",
-     "a": "```python\nimport pickle\n\nstudents = [{'name': 'Asha', 'marks': 92}, {'name': 'Rohan', 'marks': 85}]",
+     "a": "```python\nimport pickle\n\nstudents = [{'name': 'Asha', 'marks': 92}, {'name': 'Rohan', 'marks': 85}]\n\n# Pickling\ntry:\n    with open('students.dat', 'wb') as f:\n        pickle.dump(students, f)\nexcept (IOError, pickle.PickleError) as e:\n    print(f\"Error while pickling: {e}\")\n\n# Unpickling\nloaded_students = N/A\ntry:\n    with open('students.dat', 'rb') as f:\n        loaded_students = pickle.load(f)\nexcept (IOError, pickle.UnpicklingError, EOFError) as e:\n    print(f\"Error while unpickling: {e}\")\n\nprint(loaded_students)\n```\nA wrong answer that omits `'wb'`/`'rb'`, forgets `with`, or catches only generic `Exception` reveals gaps in binary file modes, resource management, or specific exception awareness.",
      "self_check": true
     },
     {
@@ -33,6 +33,26 @@
     {
      "q": "Design a minimal class structure for a \"Student Record System\" that stores a list of `Student` objects (each with `roll_no`, `name`, `marks_dict`) in a binary file using `pickle`. Provide the class definitions and the two functions `save_records(records, filename)` and `load_records(filename)` with proper error handling.",
      "a": "```python\nimport pickle\n\nclass Student:\n    def __init__(self, roll_no, name, marks_dict):\n        self.roll_no = roll_no\n        self.name = name\n        self.marks_dict = marks_dict  # e.g., {'Math': 90, 'CS': 95}\n\n    def __repr__(self):\n        return f\"Student({self.roll_no}, {self.name}, {self.marks_dict})\"\n\ndef save_records(records, filename):\n    try:\n        with open(filename, 'wb') as f:\n            pickle.dump(records, f)\n        print(\"Records saved successfully.\")\n    except (IOError, pickle.PickleError) as e:\n        print(f\"Save failed: {e}\")\n\ndef load_records(filename):\n    try:\n        with open(filename, 'rb') as f:\n            return pickle.load(f)\n    except (IOError, pickle.UnpicklingError, EOFError) as e:\n        print(f\"Load failed: {e}\")\n        return []\n```\nA poor answer that uses text mode, omits `try‑except`, or defines `Student` without `__init__` shows incomplete grasp of binary file handling, exception safety, or class design.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The pickle module in Python provides a way to serialize (pickle) and deserialize (unpickle) Python objects into a binary byte stream, allowing complex data structures like lists, dictionaries, and custom class instances to be saved to disk and later ______ exactly as they were.",
+     "a": "reconstructed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a text‑based RPG and want to save the player’s progress — current health, ______ list, position coordinates, and completed quests — so they can continue tomorrow.",
+     "a": "inventory",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write complete Python programs that use pickle.dump()/pickle.load() to store and retrieve multiple objects (including custom class instances) to/from binary files, correctly handle EOFError and PickleError exceptions, and explain why binary mode ('wb'/'rb') is mandatory.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a text‑based RPG and want to save the player’s progress — current health, inventory list, position ______, and completed quests — so they can continue tomorrow.",
+     "a": "coordinates",
      "self_check": true
     }
    ]

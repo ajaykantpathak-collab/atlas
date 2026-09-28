@@ -101,7 +101,16 @@
      "solution": "Step 1: Calculate wave speed. Step 2: Calculate the time period of the wave. Step 3: Verify wave speed using wavelength and period. Working: wavelength * frequency, 1 / frequency, wavelength / period.",
      "answer": "The method of speed of a travelling wave leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "v = wavelength * frequency",
+     "compute": "v = wavelength * frequency"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.14.4.2",
@@ -149,7 +158,16 @@
      "solution": "Step 1: Calculate linear mass density. Step 2: Calculate wave speed. Step 3: Verify the wave speed dependence on tension and linear mass density. Working: mass / length, sqrt(tension / mu).",
      "answer": "The method of speed of a transverse wave on a stretched string leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "v = sqrt(T / mu)",
+     "compute": "v = sqrt(T / mu)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.14.4.3",
@@ -245,7 +263,16 @@
      "solution": "Step 1: Calculate speed of sound in gas. Step 2: Compute the ratio of specific heats for the gas. Step 3: Verify the speed of sound using the ideal gas relation. Working: sqrt(gamma * pressure / density), cp / cv, sqrt(gamma * r_const * temp / molar_mass).",
      "answer": "The method of speed of sound in an ideal gas leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "v = sqrt(gamma * P / rho)",
+     "compute": "v = sqrt(gamma * P / rho)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.14.5.1",
@@ -262,7 +289,7 @@
     "explain constructive and destructive interference of waves",
     "short note on superposition and interference of waves"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -279,7 +306,16 @@
      "action": "Calculate the resultant amplitude using the superposition formula",
      "explain": "the resultant amplitude equals 2 * a * cos(phi / 2), where a is the amplitude of each wave and phi is the phase difference"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "amplitude_resultant = 2 * a * cos(phi / 2)",
+     "compute": "amplitude_resultant = 2 * a * cos(phi / 2)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.14.6.1",
@@ -327,7 +363,16 @@
      "solution": "Step 1: Calculate resonant frequency. Step 2: Calculate the fundamental frequency for the first harmonic. Step 3: Verify that the nth harmonic is an integer multiple of the fundamental. Working: n * speed / (2 * length), speed / (2 * length).",
      "answer": "The method of standing waves on a stretched string leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "frequency = n * v / (2 * L)",
+     "compute": "frequency = n * v / (2 * L)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.14.6.2",
@@ -375,7 +420,16 @@
      "solution": "Step 1: Calculate resonant frequency of closed pipe. Step 2: Calculate the fundamental frequency of the closed pipe. Step 3: Verify that only odd harmonics are allowed in the closed pipe. Working: (2 * n + 1) * speed / (4 * length), speed / (4 * length).",
      "answer": "The method of standing waves in a closed organ pipe leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "frequency = (2 * n + 1) * v / (4 * L)",
+     "compute": "frequency = (2 * n + 1) * v / (4 * L)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.14.6.3",
@@ -423,7 +477,16 @@
      "solution": "Step 1: Calculate resonant frequency of open pipe. Step 2: Calculate the fundamental frequency of the open pipe. Step 3: Verify that all integer harmonics are allowed in the open pipe. Working: n * speed / (2 * length), speed / (2 * length).",
      "answer": "The method of standing waves in an open organ pipe leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "frequency = n * v / (2 * L)",
+     "compute": "frequency = n * v / (2 * L)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.14.7.1",
@@ -471,7 +534,16 @@
      "solution": "Step 1: Calculate beat frequency. Step 2: Calculate the beat period from the beat frequency. Step 3: Verify that beat frequency is non-negative and equals the absolute difference. Working: abs(frequency_1 - frequency_2), 1 / beat_frequency.",
      "answer": "The method of beat frequency leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "beat_frequency = abs(frequency_1 - frequency_2)",
+     "compute": "beat_frequency = abs(frequency_1 - frequency_2)"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

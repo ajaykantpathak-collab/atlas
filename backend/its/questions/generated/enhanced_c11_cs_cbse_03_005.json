@@ -34,6 +34,26 @@
      "q": "Create a new real-life problem (Indian context, using rupees/kilograms/litres) that can be solved by a **sequential flowchart** (no decisions, no loops). Write the algorithm in 4-5 steps, then describe the flowchart symbols you would use for each step.",
      "a": "**Problem**: \"A milk vendor buys 15 litres of milk at ₹48 per litre and sells it at ₹55 per litre. Calculate his total profit.\"  \n**Algorithm**:  \n1. Start  \n2. Input cost price per litre (48) and selling price per litre (55) and quantity (15)  \n3. Compute total cost = cost price × quantity  \n4. Compute total revenue = selling price × quantity  \n5. Compute profit = total revenue - total cost  \n6. Output profit  \n7. End  \n**Flowchart symbols**: Start/End (ovals), Input (parallelogram for three values), three Process rectangles (for the three computations), Output (parallelogram). A poor answer would use a decision diamond for \"Is profit positive?\" — revealing the student cannot distinguish sequential from conditional logic.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A flowchart is a diagrammatic ______ of an algorithm that uses standardized geometric symbols (ovals, parallelograms, rectangles, diamonds, arrows) to depict the sequence of steps, decision points, and flow of control from start to end, enabling visual understanding of the logic without writing code.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are giving directions to a friend to reach your house from the ______ gate.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently draw a correct flowchart for a given simple sequential algorithm (e.g., calculating simple interest, converting Celsius to Fahrenheit) using appropriate symbols for start/end, input, process, output, and flow lines, with proper directional arrows and no logical gaps.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are giving ______ to a friend to reach your house from the school gate.",
+     "a": "directions",
+     "self_check": true
     }
    ]
   }

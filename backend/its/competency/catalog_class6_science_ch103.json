@@ -20,7 +20,7 @@
     "identify the components of a piece of cloth",
     "explain the hierarchy of fabric construction"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -28,7 +28,16 @@
      "explain": "fibres are the basic units that combine to form yarns, which are then woven or knitted into fabrics.",
      "compute": "0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "fabric = yarns_arranged_together",
+     "compute": "fabric = yarns_arranged_together"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fesc.3.2.1",
@@ -45,7 +54,7 @@
     "how do we distinguish between plant and animal fibres",
     "categorize wool and polyester correctly"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -53,7 +62,16 @@
      "explain": "if the fibre originates from a plant or animal, it is natural; otherwise, it is synthetic.",
      "compute": "0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_fibres = natural_fibres + synthetic_fibres",
+     "compute": "total_fibres = natural_fibres + synthetic_fibres"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fesc.3.4.1",
@@ -78,7 +96,16 @@
      "explain": "the total length of the yarn depends on the amount of raw fibre and the efficiency of the twisting process.",
      "compute": "yarn_length = fibres_twisted * twist_factor"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "yarn_length = fibres_twisted * twist_factor",
+     "compute": "yarn_length = fibres_twisted * twist_factor"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fesc.3.5.1",
@@ -103,7 +130,16 @@
      "explain": "the area of a rectangular fabric is the product of its length and width.",
      "compute": "fabric_area = length * width"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "fabric_area = length * width",
+     "compute": "fabric_area = length * width"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

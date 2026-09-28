@@ -34,6 +34,36 @@
      "q": "Design a three-generation pedigree for a family with an autosomal recessive disorder where: (a) the proband is a female in Generation III, (b) her parents are unaffected, (c) she has one affected brother and one unaffected sister, (d) her paternal grandparents are unaffected but have an affected son (the proband's father's brother), and (e) no one on the maternal side is affected. Label all genotypes.",
      "a": "Generation I: Paternal grandparents (both Aa, unshaded). Maternal grandparents (both AA, unshaded). Generation II: Paternal side — Father (Aa, unshaded), Uncle (aa, shaded). Maternal side — Mother (AA, unshaded). Generation III: Proband female (aa, shaded), Brother (aa, shaded), Sister (AA or Aa, unshaded). Key: Father and Mother must both be carriers (Aa × AA? No — mother must be Aa to have affected children. But condition (e) says no one on maternal side affected — so maternal grandparents could be AA and Aa, making mother Aa. Genotypes: Paternal GM: Aa, GF: Aa; Maternal GM: AA, GF: Aa; Father: Aa, Mother: Aa; Children: aa, aa, A_. A poor answer (e.g., making mother AA) reveals inability to deduce that two unaffected parents of affected children must both be heterozygous carriers, regardless of family history on that side.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Pedigree analysis is a systematic method of recording and interpreting the inheritance pattern of a specific trait or disorder across multiple generations of a family using standardized symbols (squares for males, circles for females, shaded for affected individuals) to deduce the mode of inheritance (autosomal dominant, autosomal recessive, X-linked dominant, X-linked recessive, Y-linked, or ______) and predict recurrence risks.",
+     "a": "mitochondrial",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a genetic counsellor in a Delhi hospital meeting a couple where the husband's father and paternal ______ had a rare bleeding disorder, but his mother and sister are unaffected.",
+     "a": "grandmother",
+     "self_check": true
+    },
+    {
+     "q": "What is Pedigree analysis? State the definition given in this lesson.",
+     "a": "Pedigree analysis is a systematic method of recording and interpreting the inheritance pattern of a specific trait or disorder across multiple generations of a family using standardized symbols (squares for males, circles for females, shaded for affected individuals) to deduce the mode of inheritance (autosomal dominant, autosomal.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now apply logic: if the disorder were autosomal dominant, the father would have a ______% chance of passing it to each child — but the sister is unaffected, which is possible.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Pedigree analysis?",
+     "a": "Students believe that \"if a trait skips a generation, it must be recessive\" and \"if it appears in every generation, it must be dominant.\" This is false because: (1) Autosomal recessive traits can appear in consecutive generations if carriers mate with affected individuals (e.g., aa × Aa → 50% affected).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) draw a complete pedigree chart using standard symbols for a given family history spanning at least three generations, and (2) analyze a provided pedigree to determine the mode of inheritance with justification, including identification of carrier status and calculation of probability for a specific.",
+     "self_check": true
     }
    ]
   }

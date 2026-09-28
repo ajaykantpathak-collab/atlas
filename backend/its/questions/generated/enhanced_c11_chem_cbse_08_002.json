@@ -34,6 +34,36 @@
      "q": "Design a set of rules (in your own words) that a Class 10 student could use to assign oxidation numbers without memorizing exceptions. Test your rules on: OF₂, H₂S₂O₈ (peroxydisulfuric acid), and Fe₃O₄.",
      "a": "Good rules: (1) Identify the most electronegative element (gets negative ON equal to its typical charge). (2) Assign ON to other elements using charge balance. (3) For same-element bonds, split electrons equally. Test: OF₂ → F = -1 (most EN), so O = +2. H₂S₂O₈ → O in -O-O- = -1, other O = -2, H = +1, solve for S = +6 each. Fe₃O₄ → treat as FeO·Fe₂O₃ → one Fe²⁺ (+2), two Fe³⁺ (+3). A student who just memorizes \"oxygen = -2\" will fail all three. This tests if they understand the underlying principle (electronegativity hierarchy) vs rote rules.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Oxidation number (oxidation state) is a signed integer assigned to an atom in a chemical species that represents the hypothetical charge it would have if all bonds to atoms of different elements were 100% ionic, with electrons assigned to the more ______ atom.",
+     "a": "electronegative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a rusting iron nail (Fe → Fe₂O₃) and a copper wire in silver ______ solution (Cu + 2Ag⁺ → Cu²⁺ + 2Ag).",
+     "a": "nitrate",
+     "self_check": true
+    },
+    {
+     "q": "What is Oxidation number (oxidation state)? State the definition given in this lesson.",
+     "a": "Oxidation number (oxidation state) is a signed integer assigned to an atom in a chemical species that represents the hypothetical charge it would have if all bonds to atoms of different elements were 100% ionic, with electrons assigned to the more electronegative atom.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Oxidation number (oxidation state) is a signed integer assigned to an atom in a chemical species that represents the hypothetical charge it would have if all bonds to atoms of different elements were ______% ionic, with electrons assigned to the more electronegative atom.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Oxidation number (oxidation state)?",
+     "a": "Students treat oxidation number as the actual ionic charge on an atom in a covalent compound.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly assign oxidation numbers to all atoms in any given neutral compound, polyatomic ion, or coordination complex using the standard rules, and can identify which elements undergo oxidation/reduction by comparing oxidation number changes in a reaction.",
+     "self_check": true
     }
    ]
   }

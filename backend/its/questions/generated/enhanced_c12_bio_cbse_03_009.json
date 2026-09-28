@@ -34,6 +34,31 @@
      "q": "Design a simple observational study to test whether the duration of the second stage of labour correlates with the intensity of the foetal ejection reflex in primigravida women. Specify the measurable variables, the expected relationship based on the oxytocin positive feedback loop, and one confounding factor you would control.",
      "a": "Variables: (1) Duration of second stage (time from full cervical dilation to delivery) — dependent; (2) Intensity of foetal ejection reflex — measured by frequency/amplitude of uterine contractions via tocodynamometer before oxytocin augmentation — independent. Expected: Stronger initial reflex → faster oxytocin surge → shorter second stage (inverse correlation). Confounder: Epidural analgesia (blunts reflex and prolongs labour). A poor design would omit objective contraction measurement or fail to control for analgesia, revealing inability to translate the physiological feedback loop into a testable hypothesis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Parturition is the ______-driven process of expelling the fully developed foetus from the uterus through the birth canal, initiated by foetal signals and mediated by a positive feedback loop between uterine contractions and oxytocin release.",
+     "a": "neuroendocrine",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a pregnant woman at 40 weeks gestation experiencing regular uterine ______ that grow stronger and closer together — this is the onset of labour, a process driven by the baby itself.",
+     "a": "contractions",
+     "self_check": true
+    },
+    {
+     "q": "What is Parturition? State the definition given in this lesson.",
+     "a": "Parturition is the neuroendocrine-driven process of expelling the fully developed foetus from the uterus through the birth canal, initiated by foetal signals and mediated by a positive feedback loop between uterine contractions and oxytocin release.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Parturition?",
+     "a": "Students often think that oxytocin is released *only* during labour and that its role ends at delivery.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the step-by-step neuroendocrine mechanism of parturition including the foetal ejection reflex and oxytocin positive feedback loop, and describe the hormonal control of lactogenesis and milk let-down reflex with the role of suckling.",
+     "self_check": true
     }
    ]
   }

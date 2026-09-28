@@ -1,0 +1,56 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_03_008",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_03_008",
+   "title": "c12_soc_cbse_03_008",
+   "questions": [
+    {
+     "q": "Define 'nuclear family' and 'joint family' as used in Indian sociology. Give one example of a situation where a household appears joint structurally but functions nuclearly.",
+     "a": "A nuclear family consists of one set of parents and their children. A joint (extended) family includes more than one couple and often more than two generations living together (e.g., parents, their married sons, grandchildren). Example: A household where parents and married son co-reside (structural jointness) but the son's family maintains a separate kitchen, budget, and decision-making (functional nuclearity). A wrong answer (e.g., \"joint family means all relatives living together\") reveals confusion between structural co-residence and functional unity, and ignores I.P. Desai's point that 'joint family' is not a native category.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The Nairs of Kerala and Khasis of Meghalaya are matriarchal societies because women inherit property.\" Explain why this claim is sociologically incorrect, using the distinction between matriliny and matriarchy.",
+     "a": "Matriliny refers to descent and inheritance traced through the female line (mother to daughter); matriarchy implies women exercise dominant authority in public, political, and economic spheres. Among Nairs and Khasis, property passes matrilineally, but decision-making in public affairs often rests with maternal uncles or male councils — women do not hold societal dominance. The claim confuses inheritance rules with power structures. A wrong answer reveals the common error of equating matriliny with matriarchy, ignoring the textbook's explicit statement: \"matriarchy... has been a theoretical rather than an empirical concept.\"",
+     "self_check": true
+    },
+    {
+     "q": "A family in a Himalayan village has the father working in a Gulf country for 10 months a year. The mother, grandmother, and two children live in the ancestral home. The father sends remittances and makes major financial decisions via phone. Classify this family by structure (nuclear/joint), residence (patrilocal/matrilocal), and authority (patriarchal/other). Justify each classification.",
+     "a": "Structure: Joint (three generations co-residing — grandmother, mother, children). Residence: Patrilocal (wife lives with husband's kin). Authority: Patriarchal (father retains major decision-making power despite physical absence). The classification requires separating physical co-residence from authority patterns. A wrong answer (e.g., \"nuclear because father is away\" or \"matriarchal because mother manages daily affairs\") shows inability to distinguish structural, residential, and authority dimensions — a key analytical skill for this topic.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of male out-migration on family structure in two contexts: (a) Uttarakhand hill villages, (b) Kerala Gulf-migrant households. How does the same macro-force (male migration) produce different family forms? Use the concepts of 'female-headed household' and 'de jure vs de facto headship'.",
+     "a": "In Uttarakhand, prolonged male out-migration creates de facto female-headed households where women manage agriculture, finances, and kinship obligations — but de jure headship (legal/social recognition) often remains with the absent husband or his patrilineal kin. In Kerala, Gulf migration often leads to nuclearisation: the wife and children may live separately from the husband's natal family, with the wife as de facto head but with greater autonomy due to remittances and weaker patrilineal control. The difference stems from pre-existing kinship intensity (stronger jointness in Uttarakhand) and women's property rights (better in Kerala). A wrong answer treating both as identical 'female-headed families' misses the interaction between migration and local kinship structures.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The term 'joint family' is an English imposition that obscures the diversity of Indian family forms.\" Support your evaluation with two pieces of evidence from the textbook and one from your own reasoning.",
+     "a": "The statement is largely valid. Evidence 1: I.P. Desai (cited in NCERT) notes \"the expression 'joint family' is not the translation of any Indian word... words used... are equivalents of translations of the English word.\" Evidence 2: The textbook lists diverse forms — matrilocal, patrilocal, matrilineal, patrilineal — which the single label 'joint family' flattens. Own reasoning: The term imposes a structural ideal (co-residence of multiple conjugal units) that many Indian households never meet, yet they are kinship-functional units. A wrong answer (e.g., \"joint family is a traditional Indian concept\") shows uncritical acceptance of colonial-era categorisation and failure to engage with the textbook's historiographical critique.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-question survey module to distinguish between 'structural jointness' (co-residence) and 'functional jointness' (shared resources, collective decision-making, mutual obligation) in an urban Indian neighbourhood. For each question, state what dimension it captures and why a simple 'do you live in a joint family?' question is inadequate.",
+     "a": "Q1: \"Who contributes to and decides the monthly household budget?\" (Captures economic pooling vs separate purses). Q2: \"When a major decision arises (e.g., child's education, medical treatment), who is consulted?\" (Captures decision-making collectivity). Q3: \"If a household member faces a crisis (job loss, illness), who provides support?\" (Captures mutual obligation). A single 'joint family' question conflates co-residence with these functional dimensions — many urban households co-reside for housing costs but maintain nuclear budgets and decisions. A poor answer proposes only demographic questions (e.g., \"how many generations live together?\"), missing the functional core of jointness.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The family in India is a social institution ______ by diverse structural forms — primarily nuclear (parents and children) and joint/extended (multiple generations and/or siblings with families co-residing) — organised around descent rules (patrilineal/matrilineal), residence patterns (patrilocal/matrilocal), and authority structures (patriarchal, where men hold decision-making power; matriarchy, a theoretical concept with no empirical evidence of women exercising societal dominance, distinct from matriliny where women inherit property but do not necessarily control public authority).",
+     "a": "characterised",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a Class 12 student from Delhi visiting their cousin in Shillong, ______.",
+     "a": "Meghalaya",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish between nuclear and joint family structures with Indian examples, explaining how residence, descent, and authority rules intersect; (2) Explain why matriarchy is a theoretical construct while matriliny is an empirical reality, citing specific Indian communities (e.g., Khasi, Nair); (3) Analyse.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

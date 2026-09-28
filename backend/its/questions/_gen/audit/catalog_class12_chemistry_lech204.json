@@ -1,0 +1,227 @@
+{
+ "catalog": "catalog_class12_chemistry_lech204.json",
+ "concepts": [
+  {
+   "id": "lech204.9.1.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "primary_rnh_2 = 75",
+      "secondary_rrnh = 76",
+      "tertiary_r_3n = 86",
+      "amine_classes = primary_rnh_2 + secondary_rrnh + tertiary_r_3n"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "primary_rnh_2 = 19.7",
+      "secondary_rrnh = 52",
+      "tertiary_r_3n = 27",
+      "amine_classes = primary_rnh_2 + secondary_rrnh + tertiary_r_3n"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "primary_rnh_2 = 1.4",
+      "secondary_rrnh = 68",
+      "tertiary_r_3n = 77",
+      "amine_classes = primary_rnh_2 + secondary_rrnh + tertiary_r_3n"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "primary_rnh_2 = 11.8",
+      "secondary_rrnh = 62",
+      "tertiary_r_3n = 46",
+      "amine_classes = primary_rnh_2 + secondary_rrnh + tertiary_r_3n"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "primary_rnh_2 = 45",
+      "secondary_rrnh = 32",
+      "tertiary_r_3n = 12.7",
+      "amine_classes = primary_rnh_2 + secondary_rrnh + tertiary_r_3n"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "primary_rnh_2 = 91",
+      "secondary_rrnh = 85",
+      "tertiary_r_3n = 95",
+      "amine_classes = primary_rnh_2 + secondary_rrnh + tertiary_r_3n"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "amine_classes = primary_rnh_2 + secondary_rrnh + tertiary_r_3n"
+   ]
+  },
+  {
+   "id": "lech204.9.4.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "amide_carbons = 79",
+      "amine_carbons = amide_carbons - 1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "amide_carbons = 97",
+      "amine_carbons = amide_carbons - 1"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "amide_carbons = 42",
+      "amine_carbons = amide_carbons - 1"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "amide_carbons = 87",
+      "amine_carbons = amide_carbons - 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "amide_carbons = 37",
+      "amine_carbons = amide_carbons - 1"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "amide_carbons = 62",
+      "amine_carbons = amide_carbons - 1"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "amine_carbons = amide_carbons - 1"
+   ]
+  },
+  {
+   "id": "lech204.9.6.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "pkb_b = 23",
+      "pkb_a = 70",
+      "strength_ratio = 10 ** (pkb_b - pkb_a)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pkb_b = 27",
+      "pkb_a = 81",
+      "strength_ratio = 10 ** (pkb_b - pkb_a)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "pkb_b = 71",
+      "pkb_a = 96",
+      "strength_ratio = 10 ** (pkb_b - pkb_a)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "pkb_b = 68",
+      "pkb_a = 60",
+      "strength_ratio = 10 ** (pkb_b - pkb_a)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "pkb_b = 6.4",
+      "pkb_a = 71",
+      "strength_ratio = 10 ** (pkb_b - pkb_a)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "pkb_b = 7.6",
+      "pkb_a = 46",
+      "strength_ratio = 10 ** (pkb_b - pkb_a)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "strength_ratio = 10 ** (pkb_b - pkb_a)"
+   ]
+  },
+  {
+   "id": "lech204.9.6.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "primary_amine_only = 23",
+      "carbylamine_positive = primary_amine_only"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "primary_amine_only = 46",
+      "carbylamine_positive = primary_amine_only"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "primary_amine_only = 16.8",
+      "carbylamine_positive = primary_amine_only"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "primary_amine_only = 16.6",
+      "carbylamine_positive = primary_amine_only"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "primary_amine_only = 69",
+      "carbylamine_positive = primary_amine_only"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "primary_amine_only = 14.4",
+      "carbylamine_positive = primary_amine_only"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "carbylamine_positive = primary_amine_only"
+   ]
+  }
+ ]
+}

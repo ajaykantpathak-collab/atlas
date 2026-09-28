@@ -34,6 +34,21 @@
      "q": "Write a brief literal question and an inferential question that could be asked about the episode where Neruda and Frau Frieda dream about each other. Provide the expected answer for each.",
      "a": "Expected literal question: \"What did Neruda dream about Frau Frieda?\" Expected answer: \"He dreamed she was dreaming about him.\" Expected inferential question: \"What does the mutual dreaming episode suggest about the relationship between poetry and prophecy in the story?\" Expected answer: \"It blurs the line between poetic imagination and clairvoyance, showing that both Neruda and Frau Frieda access a shared intuitive realm, yet Neruda dismisses it as 'right out of Borges' — highlighting the story's theme of art vs. superstition.\" A poor answer that makes both questions factual or both speculative shows the student hasn't internalized the distinction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal comprehension involves retrieving explicitly stated information from the text (facts, details, sequences), while inferential comprehension requires drawing logical conclusions by ______ implicit clues, context, and reasoning to uncover meanings not directly stated.",
+     "a": "synthesizing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a detective examining a case file: some facts are written in black and white (literal), but to solve the mystery you must read between the lines (______).",
+     "a": "inferential",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can accurately answer literal questions by locating and quoting explicit textual evidence, and answer inferential questions by constructing justified interpretations that connect textual clues to implied character motivations, thematic concerns, or narrative techniques.",
+     "self_check": true
     }
    ]
   }

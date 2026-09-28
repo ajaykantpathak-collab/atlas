@@ -34,6 +34,31 @@
      "q": "Design a scenario where you would use CREATE TABLE, then ALTER TABLE twice (once to add a constraint, once to modify a column), and finally DROP TABLE. Write the sequence of four SQL statements for your scenario.",
      "a": "Scenario: Create a 'Product' table, add a UNIQUE constraint on 'ProductCode', increase 'Price' precision, then drop the table.\n1. CREATE TABLE Product (PID INT, ProductCode VARCHAR(20), Price DECIMAL(8,2));\n2. ALTER TABLE Product ADD CONSTRAINT uc_code UNIQUE (ProductCode);\n3. ALTER TABLE Product MODIFY COLUMN Price DECIMAL(10,2);\n4. DROP TABLE Product;\nA poor answer might omit CONSTRAINT keyword, use wrong syntax for MODIFY, or forget that DROP TABLE removes everything. This tests synthesis of all three DDL commands with constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: DDL (Data ______ Language) commands are SQL statements used to define, modify, and remove the structure of database objects such as tables, indexes, and schemas.",
+     "a": "Definition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ for your school's library system.",
+     "a": "database",
+     "self_check": true
+    },
+    {
+     "q": "What is DDL (Data Definition Language) commands? State the definition given in this lesson.",
+     "a": "DDL (Data Definition Language) commands are SQL statements used to define, modify, and remove the structure of database objects such as tables, indexes, and schemas.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about DDL (Data Definition Language) commands?",
+     "a": "In MySQL, MODIFY only changes data type/size/constraints; to rename, you must use CHANGE COLUMN old_name new_name definition.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write syntactically correct CREATE TABLE statements with appropriate data types and constraints, apply ALTER TABLE to add/drop/modify columns and constraints, and use DROP TABLE to remove tables, while explaining the structural impact of each operation on the database schema.",
+     "self_check": true
     }
    ]
   }

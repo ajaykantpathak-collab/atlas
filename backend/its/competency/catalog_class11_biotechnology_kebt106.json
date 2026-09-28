@@ -42,14 +42,23 @@
      "q": "What phenotypic ratio does the F2 of a monohybrid cross show: 3:1 or 9:3:3:1?",
      "a": "3:1"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "tall_share = offspring_total * 3 / 4",
+     "compute": "tall_share = offspring_total * 3 / 4"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt106.2",
    "title": "Incomplete Dominance and Codominance in Flowers",
    "section": "6.1.1",
    "definition": "Not every allele pair obeys boss-and-hidden rules: in the four-o'clock plant red crossed with white gives pink F1 hybrids and a one-two-one red-pink-white F2, because each allele is only partly expressed, while in cattle coats and the MN blood group both alleles speak at once - roan animals and MN red cells - which is codominance.",
-   "formula": "pink_count = f2_total / 2",
+   "formula": "pink_count = f_2_total / 2",
    "key_idea": "Half of the F2 is the blend class under incomplete dominance, and half of that is the pure recessive class.",
    "textbook_ref": "kebt106.txt section 6.1.1, Figs. 6.5-6.6",
    "question_patterns": [
@@ -80,14 +89,23 @@
      "q": "Red crossed with white in the four-o'clock plant gives what colour F1: pink or red?",
      "a": "pink"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "pink_count = f_2_total / 2",
+     "compute": "pink_count = f_2_total / 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt106.3",
    "title": "Dihybrid Cross and Independent Assortment",
    "section": "6.1.1",
    "definition": "Following two traits at once - round versus wrinkled seeds, yellow versus green - Mendel saw all round-yellow F1 plants and, on selfing, a nine-three-three-one F2 spread across sixteen genotypic squares, with fresh trait pairings appearing; this independence of allele pairs became his law of independent assortment.",
-   "formula": "round_yellow = f2_total * 9 / 16",
+   "formula": "round_yellow = f_2_total * 9 / 16",
    "key_idea": "Nine sixteenths carry both dominants, three sixteenths carry exactly one, and one sixteenth carries both recessives.",
    "textbook_ref": "kebt106.txt section 6.1.1, Fig. 6.7",
    "question_patterns": [
@@ -118,7 +136,16 @@
      "q": "What F2 ratio does a dihybrid cross give: 9:3:3:1 or 3:1?",
      "a": "9:3:3:1"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "round_yellow = f_2_total * 9 / 16",
+     "compute": "round_yellow = f_2_total * 9 / 16"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt106.4",
@@ -156,7 +183,16 @@
      "q": "One percent of recombinants marks what map distance: one centimorgan or one metre?",
      "a": "one centimorgan"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "recombinant_pct = 100 - parental_pct",
+     "compute": "recombinant_pct = 100 - parental_pct"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt106.5",
@@ -194,7 +230,16 @@
      "q": "Morgan's stray white-eyed fly was which sex: male or female?",
      "a": "male"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "affected_sons = sons_total / 2",
+     "compute": "affected_sons = sons_total / 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt106.6",
@@ -273,7 +318,16 @@
      "q": "Bread wheat carries how many sets of chromosomes: six or sixty?",
      "a": "six"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_chromosomes = base_number * ploidy_level",
+     "compute": "total_chromosomes = base_number * ploidy_level"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt106.8",

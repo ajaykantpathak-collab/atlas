@@ -34,6 +34,26 @@
      "q": "Design a simple classroom activity using only a rubber band, a toy car, and a spring balance to demonstrate that force has both magnitude and direction. Describe the steps and what students should observe.",
      "a": "Attach the rubber band to the toy car. Pull the car horizontally with the spring balance reading 2 N — car accelerates forward. Then pull at the same 2 N but at an upward angle — car moves forward and lifts slightly. Students observe: same magnitude (2 N), different direction → different motion effects. A poor answer that only pulls horizontally or ignores the spring balance reading shows the student cannot design an experiment isolating magnitude vs direction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Force is a push or pull acting on an object that can change its state of motion (speed or direction) or its shape and size; it is a vector quantity having both ______ and direction, measured in newtons (N) where 1 N = 1 kg·m/s².",
+     "a": "magnitude",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan starting up: the blades are at rest, then they begin to rotate — ______ must have pushed or pulled them.",
+     "a": "something",
+     "self_check": true
+    },
+    {
+     "q": "What is Force? State the definition given in this lesson.",
+     "a": "Force is a push or pull acting on an object that can change its state of motion (speed or direction) or its shape and size; it is a vector quantity having both magnitude and direction, measured in newtons (N) where 1 N = 1 kg·m/s².",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify forces in everyday situations as pushes or pulls, indicate the direction of each force with arrows, and explain whether the force changes speed, direction, or shape of the object involved.",
+     "self_check": true
     }
    ]
   }

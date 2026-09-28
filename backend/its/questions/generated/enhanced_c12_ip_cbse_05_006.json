@@ -32,7 +32,22 @@
     },
     {
      "q": "Design a minimal example showing how the *same* visual page (a greeting \"Hello, [Name]!\") can be implemented as (a) a static page with client-side JavaScript and (b) a dynamic page with server-side Python (Flask). Write the key code snippets for both and explain where the name \"Aarav\" comes from in each case.",
-     "a": "**(a) Static + Client-side JS:**\n```html\n<!-- greeting.html (served identically to all) -->\n<h1 id=\"greeting\"></h1>\n<script>\n  const name = new URLSearchParams(window.location.search).get('name') || 'Guest';\n  document.getElementById('greeting').textContent = `Hello, ${name}!`;\n</script>\n```\nName \"Aarav\" comes from **URL query parameter** `?name=Aarav` read by browser JS.\n\n**(b) Dynamic (Flask):**\n```python",
+     "a": "**(a) Static + Client-side JS:**\n```html\n<!-- greeting.html (served identically to all) -->\n<h1 id=\"greeting\"></h1>\n<script>\n  const name = new URLSearchParams(window.location.search).get('name') || 'Guest';\n  document.getElementById('greeting').textContent = `Hello, ${name}!`;\n</script>\n```\nName \"Aarav\" comes from **URL query parameter** `?name=Aarav` read by browser JS.\n\n**(b) Dynamic (Flask):**\n```python\n# app.py\n@app.route('/greet')\ndef greet():\n    name = request.args.get('name', 'Guest')  # from query string\n    return f'<h1>Hello, {name}!</h1>'  # HTML generated on server\n```\nName \"Aarav\" comes from **server-side request parsing** before HTML is sent.\n\n**Key difference:** In (a), the server sends *code* that the browser executes; in (b), the server sends *already-computed HTML*. Poor answers conflate the two or fail to identify the execution environment.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A static web page delivers identical pre-written HTML/CSS/JS content to every user without server-side ______, while a dynamic web page generates customised content per request by executing server-side code (PHP, Python, JavaScript, etc.) that may query databases, process user input, or compute real-time data before sending the HTML response.",
+     "a": "processing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you visit your school's website: the \"About Us\" page shows the same history and mission ______ to every visitor — that's a static page.",
+     "a": "statement",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish static vs dynamic pages by analysing a URL, page behaviour, or source code snippet, and (2) explain the complete request-response flow for each type including the role of the web server, application logic, and database.",
      "self_check": true
     }
    ]

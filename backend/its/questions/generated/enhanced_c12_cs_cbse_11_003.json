@@ -34,6 +34,36 @@
      "q": "Design a list comprehension that, given a list of words `words = [\"apple\", \"banana\", \"cherry\", \"date\"]`, produces a list of tuples `(word, length)` only for words longer than 5 characters. Show the output.",
      "a": "`[(w, len(w)) for w in words if len(w) > 5]` → `[('banana', 6), ('cherry', 6)]`. A good answer shows the tuple construction in the expression part and the filter in the `if` clause. A poor answer like `[w, len(w) for w in words if len(w)>5]` (missing parentheses for tuple) or `[(w, len(w)) for w in words if w > 5]` (comparing string to integer) reveals confusion about tuple syntax or filter condition semantics.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: List ______ is a concise syntactic construct in Python for creating new lists by applying an expression to each element of an iterable, optionally filtering elements with a condition.",
+     "a": "comprehension",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to create a list of squares of even numbers from 1 to 20 for a physics ______ of projectile motion at discrete time steps.",
+     "a": "simulation",
+     "self_check": true
+    },
+    {
+     "q": "What is List comprehension? State the definition given in this lesson.",
+     "a": "List comprehension is a concise syntactic construct in Python for creating new lists by applying an expression to each element of an iterable, optionally filtering elements with a condition.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Slicing then helps you extract every second value for a coarser simulation: squares[::______].",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about List comprehension?",
+     "a": "Students often believe that slicing with a negative step, e.g., lst[5:2:-1], includes the element at the stop index (2) because they think \"stop means the last index to include\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write correct list comprehensions with filtering and nested loops, predict the output of slicing expressions with negative indices and non-unit steps, and explain how slicing creates a new list object rather than a view.",
+     "self_check": true
     }
    ]
   }

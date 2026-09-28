@@ -1,710 +1,945 @@
 {
-  "class": 12,
-  "subject": "maths",
-  "chapter": 5,
-  "chapter_title": "Continuity and Differentiability",
-  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lemh105.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "provenance": "drafter agent author-first draft; gate-validated; review pending",
-  "concepts": [
+ "class": 12,
+ "subject": "maths",
+ "chapter": 5,
+ "chapter_title": "Continuity and Differentiability",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lemh105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "drafter agent author-first draft; gate-validated; review pending",
+ "concepts": [
+  {
+   "id": "lemh.105.5.2.1",
+   "title": "Continuity at a Point",
+   "section": "5.2",
+   "definition": "A function is continuous at an input c of its domain when the limit it approaches at c matches the value it actually takes there; if the left approach, right approach and the value all agree, the graph can be traced through c in one stroke.",
+   "formula": "limit of f at c equals f(c) for continuity at c",
+   "key_idea": "Limit equals value at the point; any mismatch marks a break.",
+   "textbook_ref": "lemh105.txt section 5.2 definition 1 with examples 1-3 (lines ~92-237)",
+   "question_patterns": [
+    "check the continuity of the function at the given point",
+    "is the function continuous at x equals the given value",
+    "show that the given function is continuous at the stated point",
+    "examine whether f is continuous at the indicated input",
+    "test continuity of a linear or quadratic function at a point",
+    "explain what must match for a function to be continuous at c"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "lemh.105.5.2.1",
-      "title": "Continuity at a Point",
-      "section": "5.2",
-      "definition": "A function is continuous at an input c of its domain when the limit it approaches at c matches the value it actually takes there; if the left approach, right approach and the value all agree, the graph can be traced through c in one stroke.",
-      "formula": "limit of f at c equals f(c) for continuity at c",
-      "key_idea": "Limit equals value at the point; any mismatch marks a break.",
-      "textbook_ref": "lemh105.txt section 5.2 definition 1 with examples 1-3 (lines ~92-237)",
-      "question_patterns": [
-        "check the continuity of the function at the given point",
-        "is the function continuous at x equals the given value",
-        "show that the given function is continuous at the stated point",
-        "examine whether f is continuous at the indicated input",
-        "test continuity of a linear or quadratic function at a point",
-        "explain what must match for a function to be continuous at c"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Evaluate the function at the point",
-          "explain": "Confirm the point lies in the domain and record f(c)."
-        },
-        {
-          "step": 2,
-          "action": "Take the limit of the function at the point",
-          "explain": "Approach c from both sides to get the common limit."
-        },
-        {
-          "step": 3,
-          "action": "Compare limit with value",
-          "explain": "Equality proves continuity at c; a mismatch proves discontinuity there."
-        }
-      ]
+     "step": 1,
+     "action": "Evaluate the function at the point",
+     "explain": "Confirm the point lies in the domain and record f(c)."
     },
     {
-      "id": "lemh.105.5.2.2",
-      "title": "Discontinuity Points of a Piecewise Function",
-      "section": "5.2",
-      "definition": "For a function defined by different rules on adjoining intervals, the only suspects are the join points: continuity survives there exactly when the left approach and the right approach deliver the same number.",
-      "formula": "continuity at a join needs the left limit to equal the right limit",
-      "key_idea": "Compare one-sided limits at each branch boundary to locate breaks.",
-      "textbook_ref": "lemh105.txt examples 10-11 and 15 (lines ~587-757, 914-956)",
-      "question_patterns": [
-        "find all the points of discontinuity of the piecewise function",
-        "discuss the continuity of the function defined by different rules on intervals",
-        "locate the break points of the given piecewise defined function",
-        "where is the greatest integer function discontinuous",
-        "determine whether the branches meet smoothly at the join",
-        "identify every point where the function fails to be continuous"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "List the branch boundaries",
-          "explain": "Points where the defining rule switches are the only discontinuity candidates."
-        },
-        {
-          "step": 2,
-          "action": "Compute the left and right limits at each boundary",
-          "explain": "Substitute into the left rule and the right rule respectively."
-        },
-        {
-          "step": 3,
-          "action": "Compare with the assigned value",
-          "explain": "Matching one-sided limits (and value) give continuity; otherwise the boundary is a discontinuity point."
-        }
-      ]
+     "step": 2,
+     "action": "Take the limit of the function at the point",
+     "explain": "Approach c from both sides to get the common limit."
     },
     {
-      "id": "lemh.105.5.2.3",
-      "title": "Algebra and Composition of Continuous Functions",
-      "section": "5.2.1",
-      "definition": "Sums, differences, products and quotients (denominator non-zero) of functions that are continuous at a point stay continuous there, and chaining two continuous functions keeps continuity through the composition.",
-      "formula": "f plus g, f times g and f of g are continuous wherever f and g are",
-      "key_idea": "Continuity survives arithmetic and composition.",
-      "textbook_ref": "lemh105.txt theorems 1-2 with examples 16-20 (lines ~962-1158)",
-      "question_patterns": [
-        "explain why the sum of two continuous functions stays continuous",
-        "discuss the continuity of the sine plus cosine function",
-        "show that a rational function is continuous on its domain",
-        "is the composition of two continuous functions continuous",
-        "prove the tangent function is continuous wherever it is defined",
-        "justify continuity of a function built from products and quotients"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Split the function into known continuous pieces",
-          "explain": "Polynomials, sine, cosine and their quotients are standard building blocks."
-        },
-        {
-          "step": 2,
-          "action": "Apply the arithmetic rules",
-          "explain": "Sums, products and quotients with non-zero denominator preserve continuity."
-        },
-        {
-          "step": 3,
-          "action": "Handle nesting by composition",
-          "explain": "If the inner and outer functions are continuous, so is the composite."
-        }
-      ]
-    },
-    {
-      "id": "lemh.105.5.3.1",
-      "title": "Differentiability and One-Sided Derivatives",
-      "section": "5.3",
-      "definition": "A function is differentiable at c when the difference quotient limit exists finitely, which means the left and right difference quotients agree; every differentiable function is automatically continuous, yet continuity alone is not enough, as the modulus function shows at the origin.",
-      "formula": "f_prime(c) = limit of (f(c + h) - f(c)) / h as h tends to 0",
-      "key_idea": "Equal finite one-sided difference quotients are the differentiability test; corners break it.",
-      "textbook_ref": "lemh105.txt section 5.3, theorem 3, modulus example (lines ~1710-2030)",
-      "question_patterns": [
-        "is the modulus function differentiable at the origin",
-        "prove that the given function is not differentiable at the stated point",
-        "define differentiability using left and right hand derivatives",
-        "does differentiability force continuity at the point",
-        "give an example of a function continuous everywhere but not differentiable somewhere",
-        "compute the one-sided difference quotients at a corner point"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Form the difference quotient from the left",
-          "explain": "Take the limit of (f(c + h) - f(c)) / h with h negative."
-        },
-        {
-          "step": 2,
-          "action": "Form the difference quotient from the right",
-          "explain": "Repeat with h positive."
-        },
-        {
-          "step": 3,
-          "action": "Compare the two one-sided values",
-          "explain": "Equal finite values give differentiability; unequal values (as for |x| at 0) refuse it."
-        },
-        {
-          "step": 4,
-          "action": "Note the continuity link",
-          "explain": "Differentiability at c guarantees continuity at c, never the reverse."
-        }
-      ]
-    },
-    {
-      "id": "lemh.105.5.3.2",
-      "title": "Chain Rule for Composite Functions",
-      "section": "5.3.1",
-      "definition": "To differentiate a function nested inside another, multiply the outer derivative (evaluated at the inner expression) by the inner derivative; with deeper nesting the products keep stacking.",
-      "formula": "df/dx = dv/dt times dt/dx where t is the inner function",
-      "key_idea": "Differentiate outside first, then inside, and multiply the rates.",
-      "textbook_ref": "lemh105.txt theorem 4 with example 21 (lines ~2085-2160)",
-      "question_patterns": [
-        "differentiate the sine of a squared expression using the chain rule",
-        "find the derivative of a composite function",
-        "how do you differentiate a function of a function",
-        "apply the chain rule to sec of tan of the square root of x",
-        "compute the derivative of cos of sine of x",
-        "differentiate sin of ax plus b with respect to x"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Name the inner function",
-          "explain": "Write t for the inside expression so f becomes an outer function of t."
-        },
-        {
-          "step": 2,
-          "action": "Differentiate the outer function at t",
-          "explain": "This gives dv/dt."
-        },
-        {
-          "step": 3,
-          "action": "Differentiate the inner function",
-          "explain": "This gives dt/dx."
-        },
-        {
-          "step": 4,
-          "action": "Multiply and substitute back",
-          "explain": "df/dx = dv/dt times dt/dx, then replace t by the inner expression."
-        }
-      ]
-    },
-    {
-      "id": "lemh.105.5.3.3",
-      "title": "Differentiating Implicit Functions",
-      "section": "5.3.2",
-      "definition": "When x and y are tied by an equation that cannot be solved for y, differentiate the whole relation with respect to x and treat y as an inner function, then solve the resulting equation for dy by dx.",
-      "formula": "dy/dx found by differentiating the relation and isolating dy/dx",
-      "key_idea": "Every y term carries an extra dy/dx factor through the chain rule.",
-      "textbook_ref": "lemh105.txt section 5.3.2 with examples 22-23 (lines ~2201-2294)",
-      "question_patterns": [
-        "find dy by dx when x and y are related implicitly",
-        "differentiate the implicit equation with respect to x",
-        "obtain the slope from a relation that cannot be solved for y",
-        "find the derivative of y plus sine of y equals cosine of x",
-        "how do you handle y terms when differentiating an equation",
-        "compute dy/dx for the given implicit relation"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Differentiate both sides with respect to x",
-          "explain": "Treat each y term as a composite, multiplying its derivative by dy/dx."
-        },
-        {
-          "step": 2,
-          "action": "Collect the dy/dx terms",
-          "explain": "Gather every term containing dy/dx on one side."
-        },
-        {
-          "step": 3,
-          "action": "Solve for dy/dx",
-          "explain": "Factor out dy/dx and divide by the remaining coefficient."
-        }
-      ]
-    },
-    {
-      "id": "lemh.105.5.3.4",
-      "title": "Derivatives of Inverse Trigonometric Functions",
-      "section": "5.3.3",
-      "definition": "Each inverse trigonometric function has a standard derivative on its principal branch: arcsine and arccosine give plus or minus one over the square root of one minus x squared, while arctangent and arccotangent give plus or minus one over one plus x squared.",
-      "formula": "d/dx of sin inverse x equals 1 / sqrt(1 - x**2) on (-1, 1)",
-      "key_idea": "Memorise the four standard inverse trig derivatives with their domains.",
-      "textbook_ref": "lemh105.txt section 5.3.3 with example 24 and summary table (lines ~2298-2376, 5264-5306)",
-      "question_patterns": [
-        "state the derivative of the inverse sine function",
-        "what is the derivative of cos inverse x and where does it hold",
-        "write the standard derivatives of the inverse trigonometric functions",
-        "differentiate tan inverse x with respect to x",
-        "which inverse trig derivative carries the minus sign",
-        "recall the domain on which the arcsine derivative is defined"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Identify the inverse function involved",
-          "explain": "Arcsine, arccosine, arctangent or arccotangent."
-        },
-        {
-          "step": 2,
-          "action": "Apply the matching standard formula",
-          "explain": "1/sqrt(1 - x squared) for sine and cosine (minus for cosine); 1/(1 + x squared) for tangent and cotangent (minus for cotangent)."
-        },
-        {
-          "step": 3,
-          "action": "Respect the domain",
-          "explain": "The square root forms need x strictly between -1 and 1."
-        }
-      ]
-    },
-    {
-      "id": "lemh.105.5.3.5",
-      "title": "Slope of the Arcsine Curve",
-      "section": "5.3.3",
-      "definition": "The rate of change of inverse sine at an input inside its open interval is one divided by the square root of one minus the squared input, so plugging a permitted x gives the curve's slope there.",
-      "formula": "inv_sin_slope = 1 / sqrt(1 - x ** 2)",
-      "key_idea": "Evaluate 1 over root of one minus x squared at the given x.",
-      "textbook_ref": "lemh105.txt example 24 (lines ~2301-2375)",
-      "question_patterns": [
-        "find the derivative of sin inverse x at the given value of x",
-        "evaluate the slope of the arcsine curve at the given point",
-        "what is the value of one over root of one minus x squared at the given x",
-        "calculate the rate of change of the inverse sine function at the given input",
-        "determine the arcsine derivative for the supplied number",
-        "how steep is the inverse sine graph at the given coordinate"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Square the input and subtract from one",
-          "explain": "This forms the radicand 1 - x squared.",
-          "compute": "radicand = 1 - x ** 2"
-        },
-        {
-          "step": 2,
-          "action": "Take the square root and invert",
-          "explain": "The reciprocal of the root is the arcsine slope at x.",
-          "compute": "inv_sin_slope = 1 / sqrt(radicand)"
-        }
-      ]
-    },
-    {
-      "id": "lemh.105.5.3.6",
-      "title": "Slope of the Arctangent Curve",
-      "section": "5.3.3",
-      "definition": "Inverse tangent changes at the rate of one over one plus the squared input, a formula valid for every real input, so any given x immediately fixes the slope there.",
-      "formula": "arctan_slope = 1 / (1 + x ** 2)",
-      "key_idea": "One over one plus x squared works for all real x.",
-      "textbook_ref": "lemh105.txt summary table of standard derivatives (lines ~5264-5306)",
-      "question_patterns": [
-        "find the derivative of tan inverse x at the given value",
-        "evaluate the slope of the arctangent curve at the given point",
-        "what is one over one plus x squared worth at the supplied x",
-        "calculate the rate of change of inverse tangent at the given input",
-        "determine the arctan derivative for the supplied number",
-        "how fast does inverse tangent change at the given coordinate"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Square the input and add one",
-          "explain": "This forms the denominator 1 + x squared.",
-          "compute": "denominator = 1 + x ** 2"
-        },
-        {
-          "step": 2,
-          "action": "Invert the denominator",
-          "explain": "The reciprocal is the arctangent slope at x.",
-          "compute": "arctan_slope = 1 / denominator"
-        }
-      ]
-    },
-    {
-      "id": "lemh.105.5.4.1",
-      "title": "Exponential and Logarithmic Functions",
-      "section": "5.4",
-      "definition": "Raising a base bigger than one to a variable power gives the exponential function, defined on all reals with positive outputs; its inverse, the logarithm, answers the question of which exponent the base needs to produce a given positive number.",
-      "formula": "log base b of a equals x exactly when b raised to x equals a",
-      "key_idea": "Exponential and logarithm undo each other; e is the natural base.",
-      "textbook_ref": "lemh105.txt section 5.4 definitions 3-4 with log properties (lines ~2555-2730)",
-      "question_patterns": [
-        "define the logarithm of a number to the given base",
-        "convert the exponential statement into a logarithmic one",
-        "what are the domain and range of the exponential function",
-        "explain why the logarithm of a non-positive number is undefined",
-        "state the change of base rule for logarithms",
-        "combine log of p times q using logarithm properties"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Recall the defining equivalence",
-          "explain": "b to the x equals a mirrors log base b of a equals x."
-        },
-        {
-          "step": 2,
-          "action": "Check the domain conditions",
-          "explain": "Exponentials accept every real exponent; logarithms need a positive argument."
-        },
-        {
-          "step": 3,
-          "action": "Apply log laws when simplifying",
-          "explain": "Products add logs, quotients subtract them, and powers pull out front."
-        }
-      ]
-    },
-    {
-      "id": "lemh.105.5.4.2",
-      "title": "Derivatives of Exponential and Logarithmic Functions",
-      "section": "5.4",
-      "definition": "The natural exponential is its own derivative, the natural logarithm differentiates to one over x, and a general base b contributes an extra factor of the natural log of the base.",
-      "formula": "d/dx of a^x equals a^x times log a for positive a",
-      "key_idea": "e to the x reproduces itself; log x gives one over x; other bases tack on log a.",
-      "textbook_ref": "lemh105.txt theorem 5 and example 28 (lines ~2734-2742, 3086-3129)",
-      "question_patterns": [
-        "differentiate e to the power x with respect to x",
-        "what is the derivative of the natural logarithm of x",
-        "find the derivative of a constant raised to the power x",
-        "differentiate e to the minus x using the chain rule",
-        "state the derivative of the common exponential with base ten",
-        "which function equals its own derivative"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Match the function to its standard derivative",
-          "explain": "e to the x gives e to the x; log x gives one over x."
-        },
-        {
-          "step": 2,
-          "action": "Adjust for a general base",
-          "explain": "a to the x differentiates to itself times log a."
-        },
-        {
-          "step": 3,
-          "action": "Combine with the chain rule for inner expressions",
-          "explain": "Multiply by the derivative of the exponent or argument as needed."
-        }
-      ]
-    },
-    {
-      "id": "lemh.105.5.5.1",
-      "title": "Logarithmic Differentiation",
-      "section": "5.5",
-      "definition": "For a function raised to another function, take the natural log of both sides to pull the exponent down, differentiate the resulting product, then multiply through by the original function to recover the derivative.",
-      "formula": "log y equals v(x) times log of u(x) before differentiating",
-      "key_idea": "Logs turn variable exponents into products; both parts must stay positive.",
-      "textbook_ref": "lemh105.txt section 5.5 with examples 27 and 29 (lines ~2871-3215)",
-      "question_patterns": [
-        "differentiate x raised to the sine of x using logarithms",
-        "find the derivative of a function raised to another function",
-        "use logarithmic differentiation on the given power expression",
-        "how do you handle a variable base and a variable exponent together",
-        "differentiate the product of many linear factors by taking logs",
-        "find dy by dx for x to the power x"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Take natural logs of both sides",
-          "explain": "The exponent slides down as a multiplier."
-        },
-        {
-          "step": 2,
-          "action": "Differentiate the log equation",
-          "explain": "The left side contributes (1/y) dy/dx; the right side is a product."
-        },
-        {
-          "step": 3,
-          "action": "Multiply back by y",
-          "explain": "Replace y by the original expression to isolate dy/dx."
-        }
-      ]
-    },
-    {
-      "id": "lemh.105.5.6.1",
-      "title": "Parametric Differentiation",
-      "section": "5.6",
-      "definition": "When x and y are each given in terms of a third variable t, their relative rate follows by dividing the y rate by the x rate, provided the x rate is not zero.",
-      "formula": "dy/dx equals (dy/dt) divided by (dx/dt)",
-      "key_idea": "Differentiate both parametric equations, then take the ratio.",
-      "textbook_ref": "lemh105.txt section 5.6 with examples 31-32 (lines ~3572-3684)",
-      "question_patterns": [
-        "find dy by dx for parametric equations without eliminating the parameter",
-        "differentiate a curve given as x of t and y of t",
-        "compute the slope of a parametrically defined curve at the parameter value",
-        "how do you get dy/dx when both variables depend on t",
-        "find the derivative for x equals a cosine theta and y equals a sine theta",
-        "divide the parametric rates to get the curve slope"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Differentiate x with respect to the parameter",
-          "explain": "This gives dx/dt."
-        },
-        {
-          "step": 2,
-          "action": "Differentiate y with respect to the parameter",
-          "explain": "This gives dy/dt."
-        },
-        {
-          "step": 3,
-          "action": "Divide the two rates",
-          "explain": "dy/dx = (dy/dt) / (dx/dt), valid when dx/dt is not zero."
-        }
-      ]
-    },
-    {
-      "id": "lemh.105.5.7.1",
-      "title": "Second Order Derivative of a Cubic",
-      "section": "5.7",
-      "definition": "Differentiating twice carries y = x cubed first to three x squared and then to six x, so evaluating at an input gives the second order rate of change there; the notation d squared y by dx squared marks this repeat differentiation.",
-      "formula": "second_slope = 6 * x for y = x ** 3",
-      "key_idea": "Differentiate once, then differentiate the result again.",
-      "textbook_ref": "lemh105.txt section 5.7 with example 35 (lines ~3893-3948)",
-      "question_patterns": [
-        "find the second order derivative of x cubed at the given point",
-        "evaluate d squared y by dx squared for the cubic at the given x",
-        "differentiate the cube function twice and give the value at the supplied input",
-        "what is the second derivative of x to the third power at the given value",
-        "compute the double derivative of the cubic monomial at the given coordinate",
-        "determine the concavity rate of y equals x cubed at the given input"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Differentiate the cubic once",
-          "explain": "The power rule sends x cubed to three x squared.",
-          "compute": "first_slope = 3 * x ** 2"
-        },
-        {
-          "step": 2,
-          "action": "Differentiate the result again",
-          "explain": "Three x squared differentiates to six x, the second order rate.",
-          "compute": "second_slope = 6 * x"
-        }
-      ]
+     "step": 3,
+     "action": "Compare limit with value",
+     "explain": "Equality proves continuity at c; a mismatch proves discontinuity there."
     }
-  ],
-  "worked_examples": [
+   ],
+   "compute_steps": [
     {
-      "id": "ex1",
-      "source_ref": "lemh105.txt example 1 (lines ~115-150)",
-      "concept": "lemh.105.5.2.1",
-      "question_type": "continuity at a point",
-      "question_pattern": "Check the continuity of f(x) = 2x + 3 at x = {c}.",
-      "extracted_variables": {"c": 1},
-      "solution_template": [
-        {"step": 1, "action": "Evaluate f at the point", "explain": "f(1) = 5."},
-        {"step": 2, "action": "Take the limit at the point", "explain": "The limit of 2x + 3 at 1 is also 5."},
-        {"step": 3, "action": "Compare", "explain": "Limit equals value, so f is continuous at x = 1."}
-      ]
-    },
-    {
-      "id": "ex2",
-      "source_ref": "lemh105.txt example 10 (lines ~587-684)",
-      "concept": "lemh.105.5.2.2",
-      "question_type": "discontinuity of piecewise function",
-      "question_pattern": "Discuss the continuity of the piecewise function that equals {left_rule} for x below {join} and {right_rule} for x above {join}.",
-      "extracted_variables": {"left_rule": 0, "right_rule": 0, "join": 1},
-      "solution_template": [
-        {"step": 1, "action": "Take the left limit at the join", "explain": "x + 2 approaches 3 as x rises to 1."},
-        {"step": 2, "action": "Take the right limit at the join", "explain": "x - 2 approaches -1 as x falls to 1."},
-        {"step": 3, "action": "Compare one-sided limits", "explain": "3 differs from -1, so x = 1 is the only discontinuity."}
-      ]
-    },
-    {
-      "id": "ex3",
-      "source_ref": "lemh105.txt example 21 (lines ~2117-2160)",
-      "concept": "lemh.105.5.3.2",
-      "question_type": "chain rule",
-      "question_pattern": "Differentiate sin of the square of x with respect to x using the chain rule.",
-      "extracted_variables": {"x": 0},
-      "solution_template": [
-        {"step": 1, "action": "Name the inner function", "explain": "Let t = x squared."},
-        {"step": 2, "action": "Differentiate the outer at t", "explain": "The derivative of sine is cosine, so dv/dt = cos t."},
-        {"step": 3, "action": "Differentiate the inner", "explain": "dt/dx = 2x."},
-        {"step": 4, "action": "Multiply and substitute", "explain": "df/dx = 2x cos of x squared."}
-      ]
-    },
-    {
-      "id": "ex4",
-      "source_ref": "lemh105.txt example 23 (lines ~2257-2294)",
-      "concept": "lemh.105.5.3.3",
-      "question_type": "implicit differentiation",
-      "question_pattern": "Find dy by dx if y plus sine of y equals cosine of x.",
-      "extracted_variables": {"x": 0},
-      "solution_template": [
-        {"step": 1, "action": "Differentiate both sides with respect to x", "explain": "The y terms pick up dy/dx through the chain rule."},
-        {"step": 2, "action": "Collect dy/dx terms", "explain": "(1 + cos y) dy/dx = -sin x."},
-        {"step": 3, "action": "Solve for dy/dx", "explain": "dy/dx = -sin x / (1 + cos y)."}
-      ]
-    },
-    {
-      "id": "ex5",
-      "source_ref": "lemh105.txt example 24 with x = 3/5 (lines ~2301-2375)",
-      "concept": "lemh.105.5.3.5",
-      "question_type": "arcsine slope",
-      "question_pattern": "Find the derivative of sin inverse x at x = {x}.",
-      "extracted_variables": {"x": 0.6},
-      "solution_template": [
-        {"step": 1, "action": "Square the input and subtract from one", "explain": "1 - 0.36 = 0.64.", "compute": "radicand = 1 - x ** 2"},
-        {"step": 2, "action": "Invert the square root", "explain": "1 over 0.8 gives 1.25.", "compute": "inv_sin_slope = 1 / sqrt(radicand)"}
-      ]
-    },
-    {
-      "id": "ex6",
-      "source_ref": "lemh105.txt example 24 at the origin (lines ~2301-2375)",
-      "concept": "lemh.105.5.3.5",
-      "question_type": "arcsine slope",
-      "question_pattern": "Evaluate the slope of the inverse sine curve at x = {x}.",
-      "extracted_variables": {"x": 0},
-      "solution_template": [
-        {"step": 1, "action": "Square the input and subtract from one", "explain": "1 - 0 = 1.", "compute": "radicand = 1 - x ** 2"},
-        {"step": 2, "action": "Invert the square root", "explain": "1 over 1 gives 1.", "compute": "inv_sin_slope = 1 / sqrt(radicand)"}
-      ]
-    },
-    {
-      "id": "ex7",
-      "source_ref": "lemh105.txt summary table with x = 2 (lines ~5264-5306)",
-      "concept": "lemh.105.5.3.6",
-      "question_type": "arctangent slope",
-      "question_pattern": "Find the derivative of tan inverse x at x = {x}.",
-      "extracted_variables": {"x": 2},
-      "solution_template": [
-        {"step": 1, "action": "Square the input and add one", "explain": "1 + 4 = 5.", "compute": "denominator = 1 + x ** 2"},
-        {"step": 2, "action": "Invert the denominator", "explain": "1 over 5 gives 0.2.", "compute": "arctan_slope = 1 / denominator"}
-      ]
-    },
-    {
-      "id": "ex8",
-      "source_ref": "lemh105.txt example 35 (lines ~3922-3948)",
-      "concept": "lemh.105.5.7.1",
-      "question_type": "second order derivative",
-      "question_pattern": "Find the second order derivative of x cubed at x = {x}.",
-      "extracted_variables": {"x": 2},
-      "solution_template": [
-        {"step": 1, "action": "Differentiate once", "explain": "3 times 4 = 12.", "compute": "first_slope = 3 * x ** 2"},
-        {"step": 2, "action": "Differentiate again", "explain": "6 times 2 = 12.", "compute": "second_slope = 6 * x"}
-      ]
-    },
-    {
-      "id": "ex9",
-      "source_ref": "lemh105.txt example 35 at x = -1 (lines ~3922-3948)",
-      "concept": "lemh.105.5.7.1",
-      "question_type": "second order derivative",
-      "question_pattern": "Evaluate d squared y by dx squared for y = x cubed at x = {x}.",
-      "extracted_variables": {"x": -1},
-      "solution_template": [
-        {"step": 1, "action": "Differentiate once", "explain": "3 times 1 = 3.", "compute": "first_slope = 3 * x ** 2"},
-        {"step": 2, "action": "Differentiate again", "explain": "6 times -1 = -6.", "compute": "second_slope = 6 * x"}
-      ]
-    },
-    {
-      "id": "ex10",
-      "source_ref": "lemh105.txt example 29 (lines ~3134-3215)",
-      "concept": "lemh.105.5.5.1",
-      "question_type": "logarithmic differentiation",
-      "question_pattern": "Differentiate x raised to the power sine of x with respect to x using logarithmic differentiation.",
-      "extracted_variables": {"x": 0},
-      "solution_template": [
-        {"step": 1, "action": "Take logs of both sides", "explain": "log y = sin x times log x."},
-        {"step": 2, "action": "Differentiate the log equation", "explain": "(1/y) dy/dx = cos x log x + sin x over x."},
-        {"step": 3, "action": "Multiply back by y", "explain": "dy/dx = x to the sine x times (cos x log x + sin x over x)."}
-      ]
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 4 * 2 * 2 + 4 * 2 + 3 gives 27",
+     "compute": "val = 4 * 2 * 2 + 4 * 2 + 3"
     }
-  ],
-  "exercises": [
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lemh.105.5.2.2",
+   "title": "Discontinuity Points of a Piecewise Function",
+   "section": "5.2",
+   "definition": "For a function defined by different rules on adjoining intervals, the only suspects are the join points: continuity survives there exactly when the left approach and the right approach deliver the same number.",
+   "formula": "continuity at a join needs the left limit to equal the right limit",
+   "key_idea": "Compare one-sided limits at each branch boundary to locate breaks.",
+   "textbook_ref": "lemh105.txt examples 10-11 and 15 (lines ~587-757, 914-956)",
+   "question_patterns": [
+    "find all the points of discontinuity of the piecewise function",
+    "discuss the continuity of the function defined by different rules on intervals",
+    "locate the break points of the given piecewise defined function",
+    "where is the greatest integer function discontinuous",
+    "determine whether the branches meet smoothly at the join",
+    "identify every point where the function fails to be continuous"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "ex5.1",
-      "source_ref": "lemh105.txt exercise 5.1 (lines ~1163-1709)",
-      "questions": [
-        "Prove continuity of given linear and quadratic functions at specified points.",
-        "Examine continuity of several simple functions at all points.",
-        "Check continuity of piecewise defined functions at the branch points.",
-        "Find the relationship between constants so a piecewise function becomes continuous.",
-        "Discuss the continuity of trigonometric combinations such as sine plus cosine.",
-        "Find k values making a function continuous at the indicated point."
-      ]
+     "step": 1,
+     "action": "List the branch boundaries",
+     "explain": "Points where the defining rule switches are the only discontinuity candidates."
     },
     {
-      "id": "ex5.2",
-      "source_ref": "lemh105.txt exercise 5.2 (lines ~2162-2200)",
-      "questions": [
-        "Differentiate composites such as sine of a quadratic expression.",
-        "Differentiate cos of sine of x and sec of tan of root x.",
-        "Prove the modulus shifted function is not differentiable at a point.",
-        "Prove the greatest integer function is not differentiable at interior integers."
-      ]
+     "step": 2,
+     "action": "Compute the left and right limits at each boundary",
+     "explain": "Substitute into the left rule and the right rule respectively."
     },
     {
-      "id": "ex5.3",
-      "source_ref": "lemh105.txt exercise 5.3 (lines ~2380-2554)",
-      "questions": [
-        "Find dy/dx for implicit relations mixing polynomials, sines and cosines.",
-        "Differentiate inverse sine and inverse tangent expressions with nested arguments.",
-        "Find dy/dx for inverse cosine forms with rational inner expressions."
-      ]
-    },
-    {
-      "id": "ex5.4",
-      "source_ref": "lemh105.txt exercise 5.4 (lines ~2824-2870)",
-      "questions": [
-        "Differentiate exponentials with trigonometric exponents.",
-        "Differentiate logs of logs and logs of trigonometric functions.",
-        "Differentiate combinations such as cosine of log x plus e to the x."
-      ]
-    },
-    {
-      "id": "ex5.5",
-      "source_ref": "lemh105.txt exercise 5.5 (lines ~3465-3571)",
-      "questions": [
-        "Apply logarithmic differentiation to products of linear factors.",
-        "Differentiate functions with variable bases and variable exponents.",
-        "Find dy/dx for implicit relations mixing x to the y and y to the x.",
-        "Differentiate a product in three different ways and compare results."
-      ]
-    },
-    {
-      "id": "ex5.6",
-      "source_ref": "lemh105.txt exercise 5.6 (lines ~3820-3892)",
-      "questions": [
-        "Find dy/dx for ten parametric pairs without eliminating the parameter.",
-        "Prove a derivative relation for a parametric pair with inverse sine terms."
-      ]
-    },
-    {
-      "id": "ex5.7",
-      "source_ref": "lemh105.txt exercise 5.7 (lines ~4167-4250)",
-      "questions": [
-        "Find second order derivatives of ten functions including products, logs and exponentials.",
-        "Prove differential relations satisfied by sine-cosine and exponential combinations.",
-        "Express the second derivative of an inverse trigonometric function in terms of y."
-      ]
-    },
-    {
-      "id": "ex5.misc",
-      "source_ref": "lemh105.txt miscellaneous exercise on chapter 5 (lines ~4983-5224)",
-      "questions": [
-        "Differentiate powers, trigonometric combinations and inverse trigonometric expressions.",
-        "Differentiate variable-base powers such as x to the x plus a to the x.",
-        "Find dy/dx for parametric pairs and inverse sine sums.",
-        "Prove derivative identities for implicitly related variables.",
-        "Discuss existence of functions continuous everywhere but differentiable at exactly two points."
-      ]
+     "step": 3,
+     "action": "Compare with the assigned value",
+     "explain": "Matching one-sided limits (and value) give continuity; otherwise the boundary is a discontinuity point."
     }
-  ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 3 * 3 * 3 + 8 * 3 + 3 gives 54",
+     "compute": "val = 3 * 3 * 3 + 8 * 3 + 3"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lemh.105.5.2.3",
+   "title": "Algebra and Composition of Continuous Functions",
+   "section": "5.2.1",
+   "definition": "Sums, differences, products and quotients (denominator non-zero) of functions that are continuous at a point stay continuous there, and chaining two continuous functions keeps continuity through the composition.",
+   "formula": "f plus g, f times g and f of g are continuous wherever f and g are",
+   "key_idea": "Continuity survives arithmetic and composition.",
+   "textbook_ref": "lemh105.txt theorems 1-2 with examples 16-20 (lines ~962-1158)",
+   "question_patterns": [
+    "explain why the sum of two continuous functions stays continuous",
+    "discuss the continuity of the sine plus cosine function",
+    "show that a rational function is continuous on its domain",
+    "is the composition of two continuous functions continuous",
+    "prove the tangent function is continuous wherever it is defined",
+    "justify continuity of a function built from products and quotients"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Split the function into known continuous pieces",
+     "explain": "Polynomials, sine, cosine and their quotients are standard building blocks."
+    },
+    {
+     "step": 2,
+     "action": "Apply the arithmetic rules",
+     "explain": "Sums, products and quotients with non-zero denominator preserve continuity."
+    },
+    {
+     "step": 3,
+     "action": "Handle nesting by composition",
+     "explain": "If the inner and outer functions are continuous, so is the composite."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 2 gives 2",
+     "compute": "count = 2"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lemh.105.5.3.1",
+   "title": "Differentiability and One-Sided Derivatives",
+   "section": "5.3",
+   "definition": "A function is differentiable at c when the difference quotient limit exists finitely, which means the left and right difference quotients agree; every differentiable function is automatically continuous, yet continuity alone is not enough, as the modulus function shows at the origin.",
+   "formula": "f_prime(c) = limit of (f(c + h) - f(c)) / h as h tends to 0",
+   "key_idea": "Equal finite one-sided difference quotients are the differentiability test; corners break it.",
+   "textbook_ref": "lemh105.txt section 5.3, theorem 3, modulus example (lines ~1710-2030)",
+   "question_patterns": [
+    "is the modulus function differentiable at the origin",
+    "prove that the given function is not differentiable at the stated point",
+    "define differentiability using left and right hand derivatives",
+    "does differentiability force continuity at the point",
+    "give an example of a function continuous everywhere but not differentiable somewhere",
+    "compute the one-sided difference quotients at a corner point"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Form the difference quotient from the left",
+     "explain": "Take the limit of (f(c + h) - f(c)) / h with h negative."
+    },
+    {
+     "step": 2,
+     "action": "Form the difference quotient from the right",
+     "explain": "Repeat with h positive."
+    },
+    {
+     "step": 3,
+     "action": "Compare the two one-sided values",
+     "explain": "Equal finite values give differentiability; unequal values (as for |x| at 0) refuse it."
+    },
+    {
+     "step": 4,
+     "action": "Note the continuity link",
+     "explain": "Differentiability at c guarantees continuity at c, never the reverse."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 3 * 5 * 5 + 8 * 5 + 7 gives 122",
+     "compute": "val = 3 * 5 * 5 + 8 * 5 + 7"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lemh.105.5.3.2",
+   "title": "Chain Rule for Composite Functions",
+   "section": "5.3.1",
+   "definition": "To differentiate a function nested inside another, multiply the outer derivative (evaluated at the inner expression) by the inner derivative; with deeper nesting the products keep stacking.",
+   "formula": "df/dx = dv/dt times dt/dx where t is the inner function",
+   "key_idea": "Differentiate outside first, then inside, and multiply the rates.",
+   "textbook_ref": "lemh105.txt theorem 4 with example 21 (lines ~2085-2160)",
+   "question_patterns": [
+    "differentiate the sine of a squared expression using the chain rule",
+    "find the derivative of a composite function",
+    "how do you differentiate a function of a function",
+    "apply the chain rule to sec of tan of the square root of x",
+    "compute the derivative of cos of sine of x",
+    "differentiate sin of ax plus b with respect to x"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Name the inner function",
+     "explain": "Write t for the inside expression so f becomes an outer function of t."
+    },
+    {
+     "step": 2,
+     "action": "Differentiate the outer function at t",
+     "explain": "This gives dv/dt."
+    },
+    {
+     "step": 3,
+     "action": "Differentiate the inner function",
+     "explain": "This gives dt/dx."
+    },
+    {
+     "step": 4,
+     "action": "Multiply and substitute back",
+     "explain": "df/dx = dv/dt times dt/dx, then replace t by the inner expression."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
+     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 2 * 1 gives 2",
+     "compute": "hcf = 2 * 1"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lemh.105.5.3.3",
+   "title": "Differentiating Implicit Functions",
+   "section": "5.3.2",
+   "definition": "When x and y are tied by an equation that cannot be solved for y, differentiate the whole relation with respect to x and treat y as an inner function, then solve the resulting equation for dy by dx.",
+   "formula": "dy/dx found by differentiating the relation and isolating dy/dx",
+   "key_idea": "Every y term carries an extra dy/dx factor through the chain rule.",
+   "textbook_ref": "lemh105.txt section 5.3.2 with examples 22-23 (lines ~2201-2294)",
+   "question_patterns": [
+    "find dy by dx when x and y are related implicitly",
+    "differentiate the implicit equation with respect to x",
+    "obtain the slope from a relation that cannot be solved for y",
+    "find the derivative of y plus sine of y equals cosine of x",
+    "how do you handle y terms when differentiating an equation",
+    "compute dy/dx for the given implicit relation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Differentiate both sides with respect to x",
+     "explain": "Treat each y term as a composite, multiplying its derivative by dy/dx."
+    },
+    {
+     "step": 2,
+     "action": "Collect the dy/dx terms",
+     "explain": "Gather every term containing dy/dx on one side."
+    },
+    {
+     "step": 3,
+     "action": "Solve for dy/dx",
+     "explain": "Factor out dy/dx and divide by the remaining coefficient."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 4 * 1 * 1 + 2 * 1 + 3 gives 9",
+     "compute": "val = 4 * 1 * 1 + 2 * 1 + 3"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lemh.105.5.3.4",
+   "title": "Derivatives of Inverse Trigonometric Functions",
+   "section": "5.3.3",
+   "definition": "Each inverse trigonometric function has a standard derivative on its principal branch: arcsine and arccosine give plus or minus one over the square root of one minus x squared, while arctangent and arccotangent give plus or minus one over one plus x squared.",
+   "formula": "d/dx of sin inverse x equals 1 / sqrt(1 - x**2) on (-1, 1)",
+   "key_idea": "Memorise the four standard inverse trig derivatives with their domains.",
+   "textbook_ref": "lemh105.txt section 5.3.3 with example 24 and summary table (lines ~2298-2376, 5264-5306)",
+   "question_patterns": [
+    "state the derivative of the inverse sine function",
+    "what is the derivative of cos inverse x and where does it hold",
+    "write the standard derivatives of the inverse trigonometric functions",
+    "differentiate tan inverse x with respect to x",
+    "which inverse trig derivative carries the minus sign",
+    "recall the domain on which the arcsine derivative is defined"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Identify the inverse function involved",
+     "explain": "Arcsine, arccosine, arctangent or arccotangent."
+    },
+    {
+     "step": 2,
+     "action": "Apply the matching standard formula",
+     "explain": "1/sqrt(1 - x squared) for sine and cosine (minus for cosine); 1/(1 + x squared) for tangent and cotangent (minus for cotangent)."
+    },
+    {
+     "step": 3,
+     "action": "Respect the domain",
+     "explain": "The square root forms need x strictly between -1 and 1."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 4 * 1 * 1 + 1 * 1 + 8 gives 13",
+     "compute": "val = 4 * 1 * 1 + 1 * 1 + 8"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lemh.105.5.3.5",
+   "title": "Slope of the Arcsine Curve",
+   "section": "5.3.3",
+   "definition": "The rate of change of inverse sine at an input inside its open interval is one divided by the square root of one minus the squared input, so plugging a permitted x gives the curve's slope there.",
+   "formula": "inv_sin_slope = 1 / sqrt(1 - x ** 2)",
+   "key_idea": "Evaluate 1 over root of one minus x squared at the given x.",
+   "textbook_ref": "lemh105.txt example 24 (lines ~2301-2375)",
+   "question_patterns": [
+    "find the derivative of sin inverse x at the given value of x",
+    "evaluate the slope of the arcsine curve at the given point",
+    "what is the value of one over root of one minus x squared at the given x",
+    "calculate the rate of change of the inverse sine function at the given input",
+    "determine the arcsine derivative for the supplied number",
+    "how steep is the inverse sine graph at the given coordinate"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Square the input and subtract from one",
+     "explain": "This forms the radicand 1 - x squared.",
+     "compute": "radicand = 1 - x ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Take the square root and invert",
+     "explain": "The reciprocal of the root is the arcsine slope at x.",
+     "compute": "inv_sin_slope = 1 / sqrt(radicand)"
+    }
+   ]
+  },
+  {
+   "id": "lemh.105.5.3.6",
+   "title": "Slope of the Arctangent Curve",
+   "section": "5.3.3",
+   "definition": "Inverse tangent changes at the rate of one over one plus the squared input, a formula valid for every real input, so any given x immediately fixes the slope there.",
+   "formula": "arctan_slope = 1 / (1 + x ** 2)",
+   "key_idea": "One over one plus x squared works for all real x.",
+   "textbook_ref": "lemh105.txt summary table of standard derivatives (lines ~5264-5306)",
+   "question_patterns": [
+    "find the derivative of tan inverse x at the given value",
+    "evaluate the slope of the arctangent curve at the given point",
+    "what is one over one plus x squared worth at the supplied x",
+    "calculate the rate of change of inverse tangent at the given input",
+    "determine the arctan derivative for the supplied number",
+    "how fast does inverse tangent change at the given coordinate"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Square the input and add one",
+     "explain": "This forms the denominator 1 + x squared.",
+     "compute": "denominator = 1 + x ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Invert the denominator",
+     "explain": "The reciprocal is the arctangent slope at x.",
+     "compute": "arctan_slope = 1 / denominator"
+    }
+   ]
+  },
+  {
+   "id": "lemh.105.5.4.1",
+   "title": "Exponential and Logarithmic Functions",
+   "section": "5.4",
+   "definition": "Raising a base bigger than one to a variable power gives the exponential function, defined on all reals with positive outputs; its inverse, the logarithm, answers the question of which exponent the base needs to produce a given positive number.",
+   "formula": "log base b of a equals x exactly when b raised to x equals a",
+   "key_idea": "Exponential and logarithm undo each other; e is the natural base.",
+   "textbook_ref": "lemh105.txt section 5.4 definitions 3-4 with log properties (lines ~2555-2730)",
+   "question_patterns": [
+    "define the logarithm of a number to the given base",
+    "convert the exponential statement into a logarithmic one",
+    "what are the domain and range of the exponential function",
+    "explain why the logarithm of a non-positive number is undefined",
+    "state the change of base rule for logarithms",
+    "combine log of p times q using logarithm properties"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Recall the defining equivalence",
+     "explain": "b to the x equals a mirrors log base b of a equals x."
+    },
+    {
+     "step": 2,
+     "action": "Check the domain conditions",
+     "explain": "Exponentials accept every real exponent; logarithms need a positive argument."
+    },
+    {
+     "step": 3,
+     "action": "Apply log laws when simplifying",
+     "explain": "Products add logs, quotients subtract them, and powers pull out front."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the exponent law to the given powers",
+     "explain": "apply the exponent law to the given powers: val = 3 ** (3 + 2) gives 243",
+     "compute": "val = 3 ** (3 + 2)"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lemh.105.5.4.2",
+   "title": "Derivatives of Exponential and Logarithmic Functions",
+   "section": "5.4",
+   "definition": "The natural exponential is its own derivative, the natural logarithm differentiates to one over x, and a general base b contributes an extra factor of the natural log of the base.",
+   "formula": "d/dx of a^x equals a^x times log a for positive a",
+   "key_idea": "e to the x reproduces itself; log x gives one over x; other bases tack on log a.",
+   "textbook_ref": "lemh105.txt theorem 5 and example 28 (lines ~2734-2742, 3086-3129)",
+   "question_patterns": [
+    "differentiate e to the power x with respect to x",
+    "what is the derivative of the natural logarithm of x",
+    "find the derivative of a constant raised to the power x",
+    "differentiate e to the minus x using the chain rule",
+    "state the derivative of the common exponential with base ten",
+    "which function equals its own derivative"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Match the function to its standard derivative",
+     "explain": "e to the x gives e to the x; log x gives one over x."
+    },
+    {
+     "step": 2,
+     "action": "Adjust for a general base",
+     "explain": "a to the x differentiates to itself times log a."
+    },
+    {
+     "step": 3,
+     "action": "Combine with the chain rule for inner expressions",
+     "explain": "Multiply by the derivative of the exponent or argument as needed."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 5 * 3 * 3 + 3 * 3 + 1 gives 55",
+     "compute": "val = 5 * 3 * 3 + 3 * 3 + 1"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lemh.105.5.5.1",
+   "title": "Logarithmic Differentiation",
+   "section": "5.5",
+   "definition": "For a function raised to another function, take the natural log of both sides to pull the exponent down, differentiate the resulting product, then multiply through by the original function to recover the derivative.",
+   "formula": "log y equals v(x) times log of u(x) before differentiating",
+   "key_idea": "Logs turn variable exponents into products; both parts must stay positive.",
+   "textbook_ref": "lemh105.txt section 5.5 with examples 27 and 29 (lines ~2871-3215)",
+   "question_patterns": [
+    "differentiate x raised to the sine of x using logarithms",
+    "find the derivative of a function raised to another function",
+    "use logarithmic differentiation on the given power expression",
+    "how do you handle a variable base and a variable exponent together",
+    "differentiate the product of many linear factors by taking logs",
+    "find dy by dx for x to the power x"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Take natural logs of both sides",
+     "explain": "The exponent slides down as a multiplier."
+    },
+    {
+     "step": 2,
+     "action": "Differentiate the log equation",
+     "explain": "The left side contributes (1/y) dy/dx; the right side is a product."
+    },
+    {
+     "step": 3,
+     "action": "Multiply back by y",
+     "explain": "Replace y by the original expression to isolate dy/dx."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 3 * 2 * 2 + 5 * 2 + 7 gives 29",
+     "compute": "val = 3 * 2 * 2 + 5 * 2 + 7"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lemh.105.5.6.1",
+   "title": "Parametric Differentiation",
+   "section": "5.6",
+   "definition": "When x and y are each given in terms of a third variable t, their relative rate follows by dividing the y rate by the x rate, provided the x rate is not zero.",
+   "formula": "dy/dx equals (dy/dt) divided by (dx/dt)",
+   "key_idea": "Differentiate both parametric equations, then take the ratio.",
+   "textbook_ref": "lemh105.txt section 5.6 with examples 31-32 (lines ~3572-3684)",
+   "question_patterns": [
+    "find dy by dx for parametric equations without eliminating the parameter",
+    "differentiate a curve given as x of t and y of t",
+    "compute the slope of a parametrically defined curve at the parameter value",
+    "how do you get dy/dx when both variables depend on t",
+    "find the derivative for x equals a cosine theta and y equals a sine theta",
+    "divide the parametric rates to get the curve slope"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Differentiate x with respect to the parameter",
+     "explain": "This gives dx/dt."
+    },
+    {
+     "step": 2,
+     "action": "Differentiate y with respect to the parameter",
+     "explain": "This gives dy/dt."
+    },
+    {
+     "step": 3,
+     "action": "Divide the two rates",
+     "explain": "dy/dx = (dy/dt) / (dx/dt), valid when dx/dt is not zero."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 5 * 1 * 1 + 2 * 1 + 3 gives 10",
+     "compute": "val = 5 * 1 * 1 + 2 * 1 + 3"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lemh.105.5.7.1",
+   "title": "Second Order Derivative of a Cubic",
+   "section": "5.7",
+   "definition": "Differentiating twice carries y = x cubed first to three x squared and then to six x, so evaluating at an input gives the second order rate of change there; the notation d squared y by dx squared marks this repeat differentiation.",
+   "formula": "second_slope = 6 * x for y = x ** 3",
+   "key_idea": "Differentiate once, then differentiate the result again.",
+   "textbook_ref": "lemh105.txt section 5.7 with example 35 (lines ~3893-3948)",
+   "question_patterns": [
+    "find the second order derivative of x cubed at the given point",
+    "evaluate d squared y by dx squared for the cubic at the given x",
+    "differentiate the cube function twice and give the value at the supplied input",
+    "what is the second derivative of x to the third power at the given value",
+    "compute the double derivative of the cubic monomial at the given coordinate",
+    "determine the concavity rate of y equals x cubed at the given input"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Differentiate the cubic once",
+     "explain": "The power rule sends x cubed to three x squared.",
+     "compute": "first_slope = 3 * x ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Differentiate the result again",
+     "explain": "Three x squared differentiates to six x, the second order rate.",
+     "compute": "second_slope = 6 * x"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "ex1",
+   "source_ref": "lemh105.txt example 1 (lines ~115-150)",
+   "concept": "lemh.105.5.2.1",
+   "question_type": "continuity at a point",
+   "question_pattern": "Check the continuity of f(x) = 2x + 3 at x = {c}.",
+   "extracted_variables": {
+    "c": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Evaluate f at the point",
+     "explain": "f(1) = 5."
+    },
+    {
+     "step": 2,
+     "action": "Take the limit at the point",
+     "explain": "The limit of 2x + 3 at 1 is also 5."
+    },
+    {
+     "step": 3,
+     "action": "Compare",
+     "explain": "Limit equals value, so f is continuous at x = 1."
+    }
+   ]
+  },
+  {
+   "id": "ex2",
+   "source_ref": "lemh105.txt example 10 (lines ~587-684)",
+   "concept": "lemh.105.5.2.2",
+   "question_type": "discontinuity of piecewise function",
+   "question_pattern": "Discuss the continuity of the piecewise function that equals {left_rule} for x below {join} and {right_rule} for x above {join}.",
+   "extracted_variables": {
+    "left_rule": 0,
+    "right_rule": 0,
+    "join": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Take the left limit at the join",
+     "explain": "x + 2 approaches 3 as x rises to 1."
+    },
+    {
+     "step": 2,
+     "action": "Take the right limit at the join",
+     "explain": "x - 2 approaches -1 as x falls to 1."
+    },
+    {
+     "step": 3,
+     "action": "Compare one-sided limits",
+     "explain": "3 differs from -1, so x = 1 is the only discontinuity."
+    }
+   ]
+  },
+  {
+   "id": "ex3",
+   "source_ref": "lemh105.txt example 21 (lines ~2117-2160)",
+   "concept": "lemh.105.5.3.2",
+   "question_type": "chain rule",
+   "question_pattern": "Differentiate sin of the square of x with respect to x using the chain rule.",
+   "extracted_variables": {
+    "x": 0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Name the inner function",
+     "explain": "Let t = x squared."
+    },
+    {
+     "step": 2,
+     "action": "Differentiate the outer at t",
+     "explain": "The derivative of sine is cosine, so dv/dt = cos t."
+    },
+    {
+     "step": 3,
+     "action": "Differentiate the inner",
+     "explain": "dt/dx = 2x."
+    },
+    {
+     "step": 4,
+     "action": "Multiply and substitute",
+     "explain": "df/dx = 2x cos of x squared."
+    }
+   ]
+  },
+  {
+   "id": "ex4",
+   "source_ref": "lemh105.txt example 23 (lines ~2257-2294)",
+   "concept": "lemh.105.5.3.3",
+   "question_type": "implicit differentiation",
+   "question_pattern": "Find dy by dx if y plus sine of y equals cosine of x.",
+   "extracted_variables": {
+    "x": 0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Differentiate both sides with respect to x",
+     "explain": "The y terms pick up dy/dx through the chain rule."
+    },
+    {
+     "step": 2,
+     "action": "Collect dy/dx terms",
+     "explain": "(1 + cos y) dy/dx = -sin x."
+    },
+    {
+     "step": 3,
+     "action": "Solve for dy/dx",
+     "explain": "dy/dx = -sin x / (1 + cos y)."
+    }
+   ]
+  },
+  {
+   "id": "ex5",
+   "source_ref": "lemh105.txt example 24 with x = 3/5 (lines ~2301-2375)",
+   "concept": "lemh.105.5.3.5",
+   "question_type": "arcsine slope",
+   "question_pattern": "Find the derivative of sin inverse x at x = {x}.",
+   "extracted_variables": {
+    "x": 0.6
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Square the input and subtract from one",
+     "explain": "1 - 0.36 = 0.64.",
+     "compute": "radicand = 1 - x ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Invert the square root",
+     "explain": "1 over 0.8 gives 1.25.",
+     "compute": "inv_sin_slope = 1 / sqrt(radicand)"
+    }
+   ]
+  },
+  {
+   "id": "ex6",
+   "source_ref": "lemh105.txt example 24 at the origin (lines ~2301-2375)",
+   "concept": "lemh.105.5.3.5",
+   "question_type": "arcsine slope",
+   "question_pattern": "Evaluate the slope of the inverse sine curve at x = {x}.",
+   "extracted_variables": {
+    "x": 0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Square the input and subtract from one",
+     "explain": "1 - 0 = 1.",
+     "compute": "radicand = 1 - x ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Invert the square root",
+     "explain": "1 over 1 gives 1.",
+     "compute": "inv_sin_slope = 1 / sqrt(radicand)"
+    }
+   ]
+  },
+  {
+   "id": "ex7",
+   "source_ref": "lemh105.txt summary table with x = 2 (lines ~5264-5306)",
+   "concept": "lemh.105.5.3.6",
+   "question_type": "arctangent slope",
+   "question_pattern": "Find the derivative of tan inverse x at x = {x}.",
+   "extracted_variables": {
+    "x": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Square the input and add one",
+     "explain": "1 + 4 = 5.",
+     "compute": "denominator = 1 + x ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Invert the denominator",
+     "explain": "1 over 5 gives 0.2.",
+     "compute": "arctan_slope = 1 / denominator"
+    }
+   ]
+  },
+  {
+   "id": "ex8",
+   "source_ref": "lemh105.txt example 35 (lines ~3922-3948)",
+   "concept": "lemh.105.5.7.1",
+   "question_type": "second order derivative",
+   "question_pattern": "Find the second order derivative of x cubed at x = {x}.",
+   "extracted_variables": {
+    "x": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Differentiate once",
+     "explain": "3 times 4 = 12.",
+     "compute": "first_slope = 3 * x ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Differentiate again",
+     "explain": "6 times 2 = 12.",
+     "compute": "second_slope = 6 * x"
+    }
+   ]
+  },
+  {
+   "id": "ex9",
+   "source_ref": "lemh105.txt example 35 at x = -1 (lines ~3922-3948)",
+   "concept": "lemh.105.5.7.1",
+   "question_type": "second order derivative",
+   "question_pattern": "Evaluate d squared y by dx squared for y = x cubed at x = {x}.",
+   "extracted_variables": {
+    "x": -1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Differentiate once",
+     "explain": "3 times 1 = 3.",
+     "compute": "first_slope = 3 * x ** 2"
+    },
+    {
+     "step": 2,
+     "action": "Differentiate again",
+     "explain": "6 times -1 = -6.",
+     "compute": "second_slope = 6 * x"
+    }
+   ]
+  },
+  {
+   "id": "ex10",
+   "source_ref": "lemh105.txt example 29 (lines ~3134-3215)",
+   "concept": "lemh.105.5.5.1",
+   "question_type": "logarithmic differentiation",
+   "question_pattern": "Differentiate x raised to the power sine of x with respect to x using logarithmic differentiation.",
+   "extracted_variables": {
+    "x": 0
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Take logs of both sides",
+     "explain": "log y = sin x times log x."
+    },
+    {
+     "step": 2,
+     "action": "Differentiate the log equation",
+     "explain": "(1/y) dy/dx = cos x log x + sin x over x."
+    },
+    {
+     "step": 3,
+     "action": "Multiply back by y",
+     "explain": "dy/dx = x to the sine x times (cos x log x + sin x over x)."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex5.1",
+   "source_ref": "lemh105.txt exercise 5.1 (lines ~1163-1709)",
+   "questions": [
+    "Prove continuity of given linear and quadratic functions at specified points.",
+    "Examine continuity of several simple functions at all points.",
+    "Check continuity of piecewise defined functions at the branch points.",
+    "Find the relationship between constants so a piecewise function becomes continuous.",
+    "Discuss the continuity of trigonometric combinations such as sine plus cosine.",
+    "Find k values making a function continuous at the indicated point."
+   ]
+  },
+  {
+   "id": "ex5.2",
+   "source_ref": "lemh105.txt exercise 5.2 (lines ~2162-2200)",
+   "questions": [
+    "Differentiate composites such as sine of a quadratic expression.",
+    "Differentiate cos of sine of x and sec of tan of root x.",
+    "Prove the modulus shifted function is not differentiable at a point.",
+    "Prove the greatest integer function is not differentiable at interior integers."
+   ]
+  },
+  {
+   "id": "ex5.3",
+   "source_ref": "lemh105.txt exercise 5.3 (lines ~2380-2554)",
+   "questions": [
+    "Find dy/dx for implicit relations mixing polynomials, sines and cosines.",
+    "Differentiate inverse sine and inverse tangent expressions with nested arguments.",
+    "Find dy/dx for inverse cosine forms with rational inner expressions."
+   ]
+  },
+  {
+   "id": "ex5.4",
+   "source_ref": "lemh105.txt exercise 5.4 (lines ~2824-2870)",
+   "questions": [
+    "Differentiate exponentials with trigonometric exponents.",
+    "Differentiate logs of logs and logs of trigonometric functions.",
+    "Differentiate combinations such as cosine of log x plus e to the x."
+   ]
+  },
+  {
+   "id": "ex5.5",
+   "source_ref": "lemh105.txt exercise 5.5 (lines ~3465-3571)",
+   "questions": [
+    "Apply logarithmic differentiation to products of linear factors.",
+    "Differentiate functions with variable bases and variable exponents.",
+    "Find dy/dx for implicit relations mixing x to the y and y to the x.",
+    "Differentiate a product in three different ways and compare results."
+   ]
+  },
+  {
+   "id": "ex5.6",
+   "source_ref": "lemh105.txt exercise 5.6 (lines ~3820-3892)",
+   "questions": [
+    "Find dy/dx for ten parametric pairs without eliminating the parameter.",
+    "Prove a derivative relation for a parametric pair with inverse sine terms."
+   ]
+  },
+  {
+   "id": "ex5.7",
+   "source_ref": "lemh105.txt exercise 5.7 (lines ~4167-4250)",
+   "questions": [
+    "Find second order derivatives of ten functions including products, logs and exponentials.",
+    "Prove differential relations satisfied by sine-cosine and exponential combinations.",
+    "Express the second derivative of an inverse trigonometric function in terms of y."
+   ]
+  },
+  {
+   "id": "ex5.misc",
+   "source_ref": "lemh105.txt miscellaneous exercise on chapter 5 (lines ~4983-5224)",
+   "questions": [
+    "Differentiate powers, trigonometric combinations and inverse trigonometric expressions.",
+    "Differentiate variable-base powers such as x to the x plus a to the x.",
+    "Find dy/dx for parametric pairs and inverse sine sums.",
+    "Prove derivative identities for implicitly related variables.",
+    "Discuss existence of functions continuous everywhere but differentiable at exactly two points."
+   ]
+  }
+ ]
 }

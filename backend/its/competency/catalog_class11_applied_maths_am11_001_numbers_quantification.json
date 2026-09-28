@@ -103,7 +103,7 @@
     "find the greatest common divisor of 15708 and 4680 without factoring them",
     "run the division algorithm on 324 and 48 and state the hcf"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -140,7 +140,16 @@
      "action": "declare the last nonzero remainder as the gcd",
      "explain": "stop once a remainder of zero would follow"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
+     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 3 * 1 gives 3",
+     "compute": "hcf = 3 * 1"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "am11_001.4",
@@ -274,7 +283,7 @@
     "find the binary expansion of 23456 and count its trailing zeros",
     "write the base 2 numeral equal to 682"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -296,7 +305,16 @@
      "action": "read the remainders from bottom to top",
      "explain": "the highest bit is found last"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "line up and combine the decimal values",
+     "explain": "line up and combine the decimal values: val = 9 + 3 / 10 + 4 / 100 gives 9.34",
+     "compute": "val = 9 + 3 / 10 + 4 / 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "am11_001.8",

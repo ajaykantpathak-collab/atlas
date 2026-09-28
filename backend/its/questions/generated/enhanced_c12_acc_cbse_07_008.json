@@ -34,6 +34,36 @@
      "q": "Create a scenario where a company with ₹10 crore Section 198 net profit wants to pay maximum permissible remuneration to: (a) one Managing Director, (b) two Whole-time Directors, and (c) three Non-executive Directors (as commission). Specify the exact amount each category can receive and the total.",
      "a": "Scenario: Net profit (Sec 198) = ₹10 cr. (a) MD max = 5% = ₹50L. (b) Each WTD max = 5% = ₹50L each → total ₹1Cr for two WTDs. (c) Non-executive directors: commission max = 1% of net profit = ₹10L total (if no MD/WTD) or 3% = ₹30L total (if MD/WTD exist). Since MD/WTD exist, non-exec max = 3% = ₹30L total. Overall cap = 11% = ₹1.1Cr. Allocation: MD ₹50L + 2 WTDs ₹1Cr = ₹1.5Cr → EXCEEDS overall cap. Must reduce proportionally. Valid allocation: MD ₹50L + WTDs ₹30L (₹15L each) + Non-exec ₹30L = ₹1.1Cr (11%). A poor answer gives fixed amounts without checking overall cap, showing inability to integrate multiple constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Managerial ______ refers to the total compensation (salary, commission, perquisites, allowances, and other benefits) payable to directors, managing directors, whole-time directors, and key managerial personnel of a company as per the provisions of Sections 197 and 198 of the Companies Act, 2013.",
+     "a": "remuneration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the accountant of \"TechNova Pvt Ltd\" — the company earned ₹5 crore profit before tax, and the board wants to pay the Managing Director a 5% ______ on profits.",
+     "a": "commission",
+     "self_check": true
+    },
+    {
+     "q": "What is Managerial remuneration? State the definition given in this lesson.",
+     "a": "Managerial remuneration refers to the total compensation (salary, commission, perquisites, allowances, and other benefits) payable to directors, managing directors, whole-time directors, and key managerial personnel of a company as per the provisions of Sections 197 and 198 of the Companies Act, 2013.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by identifying the components of remuneration, then learn the Section ______ adjustments, apply the percentage caps, and finally record the expense in the correct line item with proper disclosure.",
+     "a": "198",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Managerial remuneration?",
+     "a": "Students believe \"Managerial Remuneration\" is a separate line item on the face of the Statement of Profit and Loss (like \"Finance Costs\" or \"Depreciation\").",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) calculate the maximum permissible managerial remuneration given net profit before tax and relevant adjustments under Section 198, and (2) correctly present managerial remuneration in the Statement of Profit and Loss and Notes to Accounts as per Schedule III format.",
+     "self_check": true
     }
    ]
   }

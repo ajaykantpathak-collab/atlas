@@ -34,6 +34,21 @@
      "q": "A running track consists of a rectangle 100 m × 60 m with semicircles on both shorter sides. Find the total area of the track.",
      "a": "The two semicircles (on the 60 m sides) together form a full circle of diameter 60 m, radius 30 m. Area of rectangle = 100 × 60 = 6000 m². Area of circle = π × 900 = 900π m². Total area = 6000 + 900π ≈ 6000 + 2827 = 8827 m². A wrong answer (e.g., adding two separate semicircle areas without combining) shows the student does not recognise that two semicircles on opposite sides make a full circle.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The area of a ______ of plane figures (such as a circle and a polygon) is found by adding or subtracting the areas of the individual component shapes.",
+     "a": "combination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ park with a square fountain built inside it.",
+     "a": "circular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can decompose a composite figure involving circles and polygons into its component shapes, identify which areas to add and which to subtract, compute each area using the appropriate formula, and combine them to find the total or shaded area.",
+     "self_check": true
     }
    ]
   }

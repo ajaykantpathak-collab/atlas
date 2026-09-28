@@ -34,6 +34,26 @@
      "q": "Design a Class C network addressing scheme for a small office with 4 departments, each needing up to 30 hosts. You may only use ONE Class C network address. Show how you would divide the address space using subnet masks (conceptually — no need for full subnetting math) and explain why classful addressing alone cannot solve this requirement.",
      "a": "A single Class C network (e.g., 192.168.1.0/24) has only 254 usable hosts total. To give each of 4 departments ~30 hosts, you need 4 subnets of at least 32 addresses each (30 usable + network + broadcast) → 128 addresses minimum, which fits within 254. However, classful addressing only allows ONE network mask per Class C (/24); you cannot create multiple subnets without borrowing host bits — which is exactly what subnetting (VLSM) does, a topic beyond classful addressing. A student who says \"just use 4 Class C networks\" misses the constraint \"only ONE Class C address\"; one who says \"change mask to /27 for each\" has jumped ahead to subnetting without recognizing it breaks classful rules.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An IPv4 address is a 32-bit logical identifier assigned to each device on a network, expressed in dotted-decimal notation as four octets (each 0–255) separated by periods; the address space is divided into five classes (A–E) based on the leading bits, where Classes A, B, and C define network/host boundaries for unicast addressing, Class D is reserved for multicast, and Class E for ______ use.",
+     "a": "experimental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are setting up a Wi-Fi router at home and it assigns your phone an ______ like 192.168.1.15 — why those four numbers, and why does 192.168.x.x feel familiar?",
+     "a": "address",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Given any IPv4 address in dotted-decimal form, the student must correctly: (1) identify its class by examining the first octet, (2) state the default subnet mask and the number of network/host bits, (3) compute the network address and broadcast address for that network, and (4) determine whether the address is public, private, loopback.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are setting up a Wi-Fi router at home and it assigns your phone an address like 192.168.1.15 — why those four numbers, and why does 192.168.x.x feel ______?",
+     "a": "familiar",
+     "self_check": true
     }
    ]
   }

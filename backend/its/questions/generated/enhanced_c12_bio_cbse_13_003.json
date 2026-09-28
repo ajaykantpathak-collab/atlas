@@ -34,6 +34,26 @@
      "q": "Design a simple field observation to test whether the \"sunken stomata\" trait in a local xerophytic shrub (e.g., *Calotropis procera*) is a morphological adaptation reducing transpiration. Specify: (i) what you measure, (ii) control, (iii) expected outcome if adaptive.",
      "a": "(i) Transpiration rate (e.g., cobalt chloride paper color change time or potometer) on leaves with intact sunken stomata vs. leaves where stomata are artificially exposed (e.g., by removing epidermal layer). (ii) Same plant, same microclimate, same leaf age. (iii) Intact sunken stomata show significantly lower transpiration. A poor design (e.g., comparing different species) fails to isolate the trait. This tests experimental reasoning linking structure to function.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An adaptation is a heritable trait — ______, physiological, or behavioral — that enhances an organism's ability to survive and reproduce in its specific environment, shaped by natural selection over evolutionary time.",
+     "a": "morphological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a cactus in the Thar Desert: its leaves are reduced to spines, stem is green and fleshy, roots are widespread.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) classify any given adaptation as morphological, physiological, or behavioral with justification, (2) explain how the adaptation improves fitness in a specific abiotic/biotic context, and (3) distinguish adaptation (genetic, evolutionary) from acclimatization (phenotypic plasticity, non-heritable).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a cactus in the Thar Desert: its leaves are reduced to spines, stem is green and fleshy, roots are ______.",
+     "a": "widespread",
+     "self_check": true
     }
    ]
   }

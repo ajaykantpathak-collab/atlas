@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using only a 1.5 V cell, a switch, insulated copper wire, a compass, and cardboard to demonstrate that the magnetic field around a current-carrying wire forms concentric circles. Describe your setup, procedure, and what observation would confirm circular field lines.",
      "a": "Place the cardboard horizontally. Pass the wire vertically through a hole in the cardboard so it stands upright. Connect the wire to the cell and switch. Place the compass at various positions on the cardboard around the wire. Close the switch and mark the needle direction at each position. The needle will align tangentially to circles centered on the wire, confirming circular field lines. A poor answer (e.g., \"move compass along wire\" or \"use iron filings\") shows inability to translate the concept of field lines into a practical investigation using available materials.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When an electric current flows through a ______ wire, it produces a magnetic field around it.",
+     "a": "conducting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real-world ______: when you bring a magnetic compass near a wire connected to a battery and switch, the needle moves when the switch is pressed.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can predict the direction of compass needle deflection when given the direction of current in a straight wire, and can explain why the deflection occurs using the concept of magnetic fields produced by electric current.",
+     "self_check": true
     }
    ]
   }

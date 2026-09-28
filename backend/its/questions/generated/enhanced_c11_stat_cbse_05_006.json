@@ -34,6 +34,36 @@
      "q": "Create a real-world scenario (Indian context) where using P₁₀ and P₉₀ together gives more actionable insight than just the median or quartiles. Specify the variable, the population, and the decision it informs.",
      "a": "Scenario: A state government analyzes monthly per-capita expenditure (MPCE) of 5000 rural households to design a targeted subsidy. P₁₀ = ₹1,200 identifies the poorest 10% for direct cash transfer. P₉₀ = ₹4,500 identifies the relatively well-off 10% who can be excluded. The median (P₅₀ = ₹2,300) alone would miss both tails. Quartiles (Q₁, Q₃) give broader bands (bottom 25%, top 25%) but lack the precision to target the *extreme* poor. A poor answer would use income instead of expenditure, or suggest using mean/median only, missing the policy need for tail-specific targeting.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Quartiles, deciles, and percentiles are positional measures that divide an ordered data set into 4, 10, and 100 equal parts ______.",
+     "a": "respectively",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analyzing the ______ salaries of 50 employees in a startup.",
+     "a": "monthly",
+     "self_check": true
+    },
+    {
+     "q": "What is Quartiles, deciles, and percentiles? State the definition given in this lesson.",
+     "a": "Quartiles, deciles, and percentiles are positional measures that divide an ordered data set into 4, 10, and 100 equal parts respectively.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analyzing the monthly salaries of ______ employees in a startup.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Quartiles, deciles, and percentiles?",
+     "a": "Students treat the formulas for ungrouped and grouped data as interchangeable, using (N+1)/4 for grouped data or N/4 for ungrouped data.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to calculate Q₁, Q₃, D₁, D₉, P₁₀, P₉₀ for individual, discrete, and continuous series using the correct positional formulas, and interpret what these values reveal about the distribution's spread and concentration.",
+     "self_check": true
     }
    ]
   }

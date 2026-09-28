@@ -34,6 +34,21 @@
      "q": "Construct a general solution with exactly two essential arbitrary constants that yields the differential equation \\(y'' + 4y = 0\\). Explain your reasoning.",
      "a": "The characteristic equation is \\(r^2 + 4 = 0 \\Rightarrow r = \\pm 2i\\). The general solution is \\(y = A \\cos 2x + B \\sin 2x\\). Any linear combination of \\(\\cos 2x\\) and \\(\\sin 2x\\) with two independent constants works. A poor answer like \\(y = A \\cos 2x\\) (one constant) or \\(y = A \\cos 2x + B \\sin 2x + C\\) (three constants) shows the student doesn't connect the order of the DE to the number of essential constants in the general solution.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A differential equation is formed from a given general solution by ______ the general solution repeatedly with respect to the independent variable as many times as the number of essential arbitrary constants present, and then eliminating those arbitrary constants from the resulting equations.",
+     "a": "differentiating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To find the universal structural rule (______ equation) that every arch in this family obeys, you start by writing the general equation.",
+     "a": "differential",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can form the differential equation for any given general solution containing up to three essential arbitrary constants by correctly differentiating the required number of times and eliminating the constants algebraically, and can verify that the order of the obtained differential equation matches the number of constants.",
+     "self_check": true
     }
    ]
   }

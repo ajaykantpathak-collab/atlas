@@ -34,6 +34,31 @@
      "q": "Create a word problem set in an Indian school context (such as school corridor paths or rangoli designs) that involves two intersecting lines and asks someone to identify the point of intersection and the number of angles formed.",
      "a": "A good response should describe a specific scenario, such as two straight corridor paths in a school building crossing each other, label the crossing point as $X$, and state that 4 angles are created where students turn. A poor response just gives abstract numbers without a real-world context or misidentifies parallel corridors.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ lines are two or more straight lines in a plane that meet or cross each other at a single common point called the point of intersection, forming four angles at that junction.",
+     "a": "Intersecting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine walking down a street in your neighborhood where two ______ roads cross each other at a junction.",
+     "a": "straight",
+     "self_check": true
+    },
+    {
+     "q": "What is Intersecting lines? State the definition given in this lesson.",
+     "a": "Intersecting lines are two or more straight lines in a plane that meet or cross each other at a single common point called the point of intersection, forming four angles at that junction.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Intersecting lines?",
+     "a": "Students often confuse the \"point of intersection\" with the endpoints of line segments or think that intersecting lines can have multiple crossing points without curving.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify the point of intersection from a diagram or linear equations, state the number of angles formed, and determine angle relationships at the intersection.",
+     "self_check": true
     }
    ]
   }

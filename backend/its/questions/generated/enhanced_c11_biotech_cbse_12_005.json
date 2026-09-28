@@ -34,6 +34,36 @@
      "q": "Design a PCR strategy to distinguish between a wild-type allele (sequence: 5'-ATG**C**GTA-3') and a disease-associated SNP variant (5'-ATG**T**GTA-3') in a heterozygous patient. Specify primer design, expected products, and how you would interpret results on a gel. Be creative but biochemically sound.",
      "a": "**Strategy: Allele-Specific PCR (AS-PCR) with intentional mismatch.** Design two forward primers: Primer-WT (3' end = **G** complementary to wild-type C) and Primer-SNP (3' end = **A** complementary to variant T). Use a common reverse primer. Set up two separate reactions: Reaction A (Primer-WT + common reverse), Reaction B (Primer-SNP + common reverse). Include deliberate penultimate mismatch in each primer to enhance specificity. **Expected gel:** Heterozygous patient shows bands in BOTH reactions (two alleles present). Homozygous WT shows band only in Reaction A. Homozygous SNP shows band only in Reaction B. **Interpretation:** Band in Reaction A = WT allele present; Band in Reaction B = SNP allele present. A poor answer using restriction digest (RFLP) instead of AS-PCR shows the student knows only one method and cannot adapt PCR design to solve a genotyping problem directly.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Polymerase Chain Reaction (PCR) is an in vitro enzymatic technique that exponentially amplifies a specific target DNA sequence through repeated cycles of denaturation, primer annealing, and DNA polymerase-mediated extension, using a thermostable DNA polymerase and sequence-specific ______ primers.",
+     "a": "oligonucleotide",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you found a single strand of hair at a crime scene — too little DNA for ______.",
+     "a": "analysis",
+     "self_check": true
+    },
+    {
+     "q": "What is Polymerase Chain Reaction (PCR)? State the definition given in this lesson.",
+     "a": "Polymerase Chain Reaction (PCR) is an in vitro enzymatic technique that exponentially amplifies a specific target DNA sequence through repeated cycles of denaturation, primer annealing, and DNA polymerase-mediated extension, using a thermostable DNA polymerase and sequence-specific oligonucleotide primers.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: At ______°C, the double-stranded DNA melts into single strands (denaturation).",
+     "a": "95",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Polymerase Chain Reaction (PCR)?",
+     "a": "Misconception: \"PCR amplifies the entire genome / all DNA in the tube.\" Students believe that because Taq polymerase replicates DNA, it copies everything present.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Explain the three-step PCR cycle with precise temperatures and molecular events at each step, and (2) Calculate the theoretical yield of amplicons after 'n' cycles given initial template copies, justifying why actual yield deviates from theoretical.",
+     "self_check": true
     }
    ]
   }

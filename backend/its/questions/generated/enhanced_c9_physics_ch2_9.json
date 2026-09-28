@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a smartphone and a toy car on a ramp to verify the equation s = ut + ½at². List the measurements needed, the procedure, and how you would analyze the data.",
      "a": "Measurements: ramp angle (for a = g sinθ), initial velocity u (release from rest so u=0), time t to travel known distance s. Procedure: Use phone's slow-motion video to record car release; track position vs time using video analysis app (e.g., Tracker). Plot s vs t²; slope should be ½a. A poor answer (e.g., \"measure speed with speedometer\") reveals the student cannot translate the algebraic equation into measurable quantities and doesn't understand that u=0 simplifies the equation to s ∝ t².",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Equations of Motion ______ involve using the three kinematic equations (v = u + at, s = ut + ½at², v² = u² + 2as) to solve for unknown quantities in uniformly accelerated rectilinear motion, where u = initial velocity (m/s), v = final velocity (m/s), a = constant acceleration (m/s²), t = time (s), and s = displacement (m).",
+     "a": "Applications",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a metro train starting from rest at a station: it ______ uniformly, reaches a maximum speed, then decelerates to stop at the next station.",
+     "a": "accelerates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Equations of Motion Applications involve using the three kinematic equations (v = u + at, s = ut + ½at², v² = u² + ______as) to solve for unknown quantities in uniformly accelerated rectilinear motion, where u = initial velocity (m/s), v = final velocity (m/s), a = constant acceleration (m/s²), t = time (s), and s = displacement (m).",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently identify known/unknown variables from a word problem, select the appropriate equation of motion without trial-and-error, perform unit conversions (km/h to m/s), apply sign conventions for direction, and compute the answer with correct SI units and physical reasonableness check.",
+     "self_check": true
     }
    ]
   }

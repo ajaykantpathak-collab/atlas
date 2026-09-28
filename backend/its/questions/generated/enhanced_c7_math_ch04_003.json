@@ -34,6 +34,26 @@
      "q": "Create an arithmetic expression with a variable $y$ representing the total cost of buying 4 notebooks priced at ₹$y$ each and a school bag priced at ₹250, after receiving a ₹20 discount on the total.",
      "a": "The expected answer is $4y + 250 - 20$, which simplifies to $4y + 230$. A poor answer might incorrectly place the discount inside the variable term (like $(4-20)y$) or omit the constant subtraction, showing confusion between quantities of items and monetary discounts.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Revisiting arithmetic expressions with variables bridges the gap between purely numerical expressions and algebraic expressions by showing how known operations (addition, subtraction, ______, division) behave when applied to numbers and letters combined.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How do you write the total cost if you buy 3 ______?",
+     "a": "notebooks",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How do you write the total cost if you buy ______ notebooks?",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can translate arithmetic expressions involving variables into simplified forms using standard order of operations and properties of numbers, and evaluate them for given variable values.",
+     "self_check": true
     }
    ]
   }

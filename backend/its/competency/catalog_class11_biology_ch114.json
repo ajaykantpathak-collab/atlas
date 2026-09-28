@@ -88,7 +88,7 @@
     "describe the pressure changes during pulmonary ventilation",
     "justify why mechanism of breathing matters"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -105,7 +105,16 @@
      "action": "Relate the volume change to pressure changes and the direction of airflow",
      "explain": "An increase in volume lowers intra-pulmonary pressure below atmospheric pressure, drawing air in. A decrease in volume raises pressure, forcing air out."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "pressure_gradient = atmospheric_pressure - intrapulmonary_pressure",
+     "compute": "pressure_gradient = atmospheric_pressure - intrapulmonary_pressure"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.14.4.1",
@@ -140,6 +149,21 @@
      "step": 3,
      "action": "Verify result against expected physiological range",
      "explain": "A healthy adult typically has a minute ventilation of about 6000-8000 mL, confirming the computed value is within normal limits."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "minute_volume = tidal_volume * breathing_rate",
+     "compute": "minute_volume = tidal_volume * breathing_rate"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "kebo.14.4.1",
+     "question_pattern": "calculate the minute volume of a healthy man with a tidal volume of {tidal_volume} mL and breathing rate of {breathing_rate} breaths per minute"
     }
    ]
   },
@@ -176,6 +200,21 @@
      "action": "Compare result to expected range",
      "explain": "A typical inspiratory capacity for a healthy adult is about 3000-3500 mL, confirming the computed value is physiologically reasonable."
     }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "inspiratory_capacity = tidal_volume + irv",
+     "compute": "inspiratory_capacity = tidal_volume + irv"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "kebo.14.4.2",
+     "question_pattern": "calculate the inspiratory capacity given tidal volume of {tidal_volume} mL and IRV of {irv} mL"
+    }
    ]
   },
   {
@@ -210,6 +249,21 @@
      "step": 3,
      "action": "Compare result to expected range",
      "explain": "A typical expiratory capacity for a healthy adult is about 1500-2000 mL, confirming the computed value is physiologically reasonable."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "expiratory_capacity = tidal_volume + erv",
+     "compute": "expiratory_capacity = tidal_volume + erv"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "kebo.14.4.3",
+     "question_pattern": "calculate the expiratory capacity given tidal volume of {tidal_volume} mL and ERV of {erv} mL"
     }
    ]
   },
@@ -281,6 +335,21 @@
      "action": "Compare result to expected range",
      "explain": "A typical vital capacity for a healthy adult is about 4000-5000 mL, confirming the computed value is physiologically reasonable."
     }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "vital_capacity = erv + tidal_volume + irv",
+     "compute": "vital_capacity = erv + tidal_volume + irv"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "kebo.14.4.5",
+     "question_pattern": "calculate the vital capacity given ERV of {erv} mL, TV of {tidal_volume} mL, and IRV of {irv} mL"
+    }
    ]
   },
   {
@@ -316,6 +385,21 @@
      "step": 3,
      "action": "Compare result to expected range",
      "explain": "A typical total lung capacity for a healthy adult is about 5000-6000 mL, confirming the computed value is physiologically reasonable."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_lung_capacity = vital_capacity + residual_volume",
+     "compute": "total_lung_capacity = vital_capacity + residual_volume"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "kebo.14.4.6",
+     "question_pattern": "calculate the total lung capacity given vital capacity of {vital_capacity} mL and residual volume of {residual_volume} mL"
     }
    ]
   },

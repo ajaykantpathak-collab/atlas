@@ -34,6 +34,21 @@
      "q": "Design a hybrid architecture for a news website: the homepage and article pages must be SEO-friendly and load instantly; the \"My Feed\" page shows personalized recommendations. Specify which pages are static, which are dynamic, and how they share a common header/footer without duplicating code.",
      "a": "Homepage and article pages: pre-rendered static HTML (generated at build time or via incremental static regeneration). \"My Feed\": dynamic, server-rendered per request with user session. Shared header/footer: use a templating engine (e.g., Jinja2, Nunjucks) at build time for static pages, and the same template partials at request time for the dynamic page — or use a headless CMS with a component library that outputs HTML fragments for both contexts. A poor answer (e.g., \"make everything dynamic for consistency\") misses the performance/SEO benefits of static rendering for public content.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Static web pages deliver fixed content stored as HTML files on the server, displayed identically to every user; dynamic web pages generate content on-the-fly using server-side scripts (PHP, Python, Node.js) and databases, allowing ______, interactive experiences based on user input, session state, or real-time data.",
+     "a": "personalized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you visit a school notice board (static) versus logging into your student portal to see your ______ timetable and grades (dynamic).",
+     "a": "personalized",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the technical difference in content delivery (pre-rendered HTML vs server-generated HTML), identify whether a given website feature requires static or dynamic implementation, and justify the choice with respect to performance, scalability, and maintenance trade-offs.",
+     "self_check": true
     }
    ]
   }

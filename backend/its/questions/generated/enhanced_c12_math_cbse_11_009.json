@@ -27,12 +27,32 @@
     },
     {
      "q": "A student solves: \"Find the angle between planes \\( x + 2y - 2z = 3 \\) and \\( 2x - y + z = 4 \\).\" Their working:\n\\( \\cos \\theta = \\frac{|1(2) + 2(-1) + (-2)(1)|}{\\sqrt{1+4+4}\\sqrt{4+1+1}} = \\frac{|2 -2 -2|}{\\sqrt{9}\\sqrt{6}} = \\frac{2}{3\\sqrt{6}} \\), so \\( \\theta = \\cos^{-1}\\left(\\frac{2}{3\\sqrt{6}}\\right) \\).\nIdentify the error in the denominator and correct it.",
-     "a": "The error is in the denominator: \\( \\sqrt{1^2+2^2+(-2)^2} = \\sqrt{1+4+4} = \\sqrt{9} = 3 \\) is correct, but \\( \\sqrt{2^2+(-1)^2+1^2} = \\sqrt{4+1+1} = \\sqrt{6} \\) is correct. Wait — the student wrote \\( \\sqrt{4+1+1} = \\sqrt{6} \\), that is correct. Actually the student's working is fully correct! The numerator: \\( |2 -2 -2| = 2 \\). So \\( \\cos \\theta = \\frac{2}{3\\sqrt{6}} \\). This is a trick question: the student's solution is correct. A student who claims there is an error might mistakenly think \\( \\sqrt{1+4+4} = \\sqrt{9} = 3 \\) is wrong because they expect \\( \\sqrt{1+2+2} \\) or they mis-copy coefficients. The diagnostic tests whether the student can verify a solution without redoing it blindly. If a student \"finds\" an error where none exists, it reveals a lack of confidence in algebraic manipulation or a habit of second-guessing correct steps.",
+     "a": "The error is in the denominator: \\( \\sqrt{1^2+2^2+(-2)^2} = \\sqrt{1+4+4} = \\sqrt{9} = 3 \\) is correct, but \\( \\sqrt{2^2+(-1)^2+1^2} = \\sqrt{4+1+1} = \\sqrt{6} \\) is correct. Wait — the student wrote \\( \\sqrt{4+1+1} = \\sqrt{6} \\), that is correct. Actually the student's working is fully correct! The numerator: \\( |2 -2 -2| = 2 \\). So \\( \\cos \\theta = \\frac{2}{3\\sqrt{6}} \\). This is a trick question: the student's solution is correct. A student who claims there is an error might mistakenly think \\( \\sqrt{1+4+4} = \\sqrt{9} = 3 \\) is wrong because they expect \\( \\sqrt{1+2+2} \\) or they mis-copy coefficients. The diagnostic tests whether the student can verify a solution without redoing it blindly. If a student \"finds\" an error where N/A exists, it reveals a lack of confidence in algebraic manipulation or a habit of second-guessing correct steps.",
      "self_check": true
     },
     {
      "q": "Construct a problem where two planes are perpendicular, and one plane passes through the points \\( (1,2,3), (4,0,1), (2,-1,5) \\). Give the equation of the second plane in Cartesian form with integer coefficients, and verify the perpendicular condition.",
      "a": "Step 1: Find normal of first plane \\( P_1 \\) through given points.\nVectors: \\( \\vec{AB} = (3,-2,-2) \\), \\( \\vec{AC} = (1,-3,2) \\).\n\\( \\vec{n}_1 = \\vec{AB} \\times \\vec{AC} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 3 & -2 & -2 \\\\ 1 & -3 & 2 \\end{vmatrix} = \\hat{i}(-4-6) - \\hat{j}(6+2) + \\hat{k}(-9+2) = -10\\hat{i} - 8\\hat{j} - 7\\hat{k} \\).\nSo \\( \\vec{n}_1 = (-10, -8, -7) \\) (or \\( (10,8,7) \\)).\nStep 2: Choose any normal \\( \\vec{n}_2 = (a,b,c) \\) such that \\( \\vec{n}_1 \\cdot \\vec{n}_2 = 0 \\). Pick simple integers: \\( 10a + 8b + 7c = 0 \\). Let \\( a=1, b=1 \\), then \\( 10+8+7c=0 \\Rightarrow c = -18/7 \\) not integer. Let \\( a=7, b=-10 \\), then \\( 70 -80 +7c=0 \\Rightarrow c = 10/7 \\). Let \\( a=1, b=-2 \\), then \\( 10 -16 +7c=0 \\Rightarrow c = 6/7 \\). Let \\( a=8, b=-10 \\), then \\( 80 -80 +7c=0 \\Rightarrow c=0 \\). So \\( \\vec{n}_2 = (8,-10,0) \\) works.\nStep 3: Plane \\( P_2 \\) with normal \\( (8,-10,0) \\) passing through, say, origin: \\( 8x -10y = 0 \\) or \\( 4x -5y = 0 \\).\nVerification: \\( (10)(8) + (8)(-10) + (7)(0) = 80 -80 = 0 \\). Perpendicular.\nA poor answer gives a plane with normal not satisfying dot product zero, or uses the same normal (parallel planes), or forgets that any point can be chosen for the second plane since only the angle is constrained.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The angle between two planes is ______ as the acute angle between their normal vectors.",
+     "a": "defined",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an architect designing a roof where two sloping ______ meet along a ridge.",
+     "a": "surfaces",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute the angle between two planes given in vector or Cartesian form, determine whether planes are perpendicular or parallel using the normal vectors, and solve problems that combine angle between planes with distance of a point from a plane or equation of a plane through the line of intersection.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an ______ designing a roof where two sloping surfaces meet along a ridge.",
+     "a": "architect",
      "self_check": true
     }
    ]

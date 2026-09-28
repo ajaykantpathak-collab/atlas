@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_04_001",
+   "title": "c12_soc_cbse_04_001",
+   "questions": [
+    {
+     "q": "Define 'market as a social institution' in one sentence, contrasting it with the economic definition of a market.",
+     "a": "A market as a social institution is a culturally specific, socially embedded arena where exchange is shaped by social relations, norms, and power, unlike the economic definition that sees markets as abstract, self-regulating systems driven solely by supply and demand. A wrong answer that only mentions 'buying and selling' or 'place where goods are exchanged' reveals the student is stuck at the everyday/common-sense level and has not grasped the sociological reinterpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what sociologists mean when they say 'economies are socially embedded'. Use the Nakarattar banking system as an illustration.",
+     "a": "'Economies are socially embedded' means economic activities (like banking, trade) are not autonomous but are structured by social relations — caste, kinship, community trust. In the Nakarattar case, creditworthiness and banking confidence came from shared caste reputation, marriage ties, and communal institutions, not from a central bank or legal contracts. A wrong answer that describes embedding merely as 'social factors influence economy' without specifying the mechanism (caste networks replacing formal institutions) shows superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A new online platform allows people to rent out their spare rooms to tourists (like Airbnb). Using the concept of commodification, explain how this transforms a previously non-market social practice into a market transaction. Identify the new social relations created.",
+     "a": "Commodification occurs when something previously outside market exchange (hospitality, staying with kin/friends) becomes a paid service. The platform turns spare rooms into commodities, creating new social relations: host-guest becomes a contractual, rated transaction; trust is mediated by algorithms and reviews instead of personal ties; and housing shifts from use-value to exchange-value. A wrong answer that only says 'people earn money from rooms' misses the transformation of social relations and the symbolic shift from hospitality to commercial service.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the weekly tribal haat in Dhorai (Bastar) with a modern urban supermarket. Analyse how each reflects different forms of social embeddedness and power relations.",
+     "a": "The Dhorai haat is embedded in caste/kinship, ritual, and face-to-face relations: adivasis sell forest produce to Hindu traders, forest officials pay wages, marriages are arranged — economic exchange is inseparable from social life. The supermarket is embedded in corporate bureaucracy, standardized contracts, impersonal pricing, and global supply chains — power lies with retail chains and brands, not local kin. A wrong answer that only lists physical differences (open vs. air-conditioned) fails to analyse the underlying social structures and power asymmetries.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: 'Liberalisation has made Indian markets more efficient and fair by removing government controls.' Use sociological concepts (embeddedness, commodification, status symbols) to support your judgment.",
+     "a": "Liberalisation increased market integration and consumer choice (e.g., foreign brands, software exports) but also deepened inequalities: small farmers lost subsidies and faced global competition; organised sector jobs shrank; caste-based monopolies persisted in new forms; and consumption became a status marker (Weber). Efficiency gains are real but socially uneven — markets remain embedded in power structures. A wrong answer that uncritically praises liberalisation or rejects it entirely without sociological nuance shows inability to evaluate using embeddedness/commodification lenses.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new example of commodification in contemporary India that is NOT mentioned in the textbook. Describe the good/service, the social practice it replaces, and the new social relations it creates.",
+     "a": "Example: Professional 'elderly care companionship' services in urban India. Previously, caring for aging parents was a family duty (filial piety, co-residence). Now, agencies provide paid companions for medical visits, conversation, tech help. New relations: care becomes a contracted service; emotional labour is commodified; family obligation shifts to financial transaction; trust is verified by agency background checks. A poor answer would replicate textbook examples (bottled water, marriage bureaus) or describe mere commercialisation without identifying the replaced social practice and new relations.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A market as a social institution is a culturally specific, socially embedded arena of exchange where economic transactions are shaped by and ______ shape social relations, norms, power structures, and identities — unlike the economic definition that treats markets as abstract, self-regulating mechanisms governed solely by supply and demand.",
+     "a": "simultaneously",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you walk into a bustling weekly market in a tribal village: you see not just buying and selling, but kin meeting, ______ being arranged, forest officials paying labourers, and traders from outside dominating the exchange.",
+     "a": "marriages",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain, with at least two concrete Indian examples (e.g., tribal haat, Nakarattar banking), how markets are socially embedded and differ from the economist's 'invisible hand' model, and can identify one instance of commodification in contemporary India.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you walk into a bustling weekly market in a tribal village: you see not just buying and selling, but kin meeting, marriages being arranged, forest officials paying labourers, and traders from outside ______ the exchange.",
+     "a": "dominating",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

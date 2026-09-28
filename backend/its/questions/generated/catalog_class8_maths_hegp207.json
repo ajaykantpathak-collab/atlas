@@ -4,15 +4,9 @@
   {
    "id": "hegp.207.7.1",
    "title": "Equal-Area Division of a Square",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "square the given number using the stated square rule",
-     "explain": "square the given number using the stated square rule: sq = 12 ** 2 gives 144",
-     "compute": "sq = 12 ** 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 12.",
@@ -50,6 +44,8 @@
    "id": "hegp.207.7.2",
    "title": "Area of a Rectangle by Unit Squares",
    "converted_to_compute": false,
+   "formula": "area = length * breadth",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 15.",
@@ -87,6 +83,8 @@
    "id": "hegp.207.7.3",
    "title": "Area of a Triangle",
    "converted_to_compute": false,
+   "formula": "area = base * height / 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 14 cm by 23 cm.",
@@ -124,6 +122,8 @@
    "id": "hegp.207.7.4",
    "title": "Area of a Parallelogram",
    "converted_to_compute": false,
+   "formula": "area = base * height",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a parallelogram with base 12 cm and height 23 cm.",
@@ -161,6 +161,8 @@
    "id": "hegp.207.7.5",
    "title": "Finding a Missing Side from the Area",
    "converted_to_compute": false,
+   "formula": "height = area / base",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 14 cm by 5 cm.",
@@ -198,6 +200,8 @@
    "id": "hegp.207.7.6",
    "title": "Unit Conversions of Length and Area",
    "converted_to_compute": false,
+   "formula": "area_in2 = area_cm2 / 6.4516",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 30 cm by 14 cm.",

@@ -34,6 +34,36 @@
      "q": "Design a Ratio Analysis Control Dashboard for a manufacturing company. Select exactly five ratios (one from each category: liquidity, solvency, activity, profitability, and ROI), specify the standard/benchmark for each, and explain what deviation would trigger \"Management by Exception\" reporting to top management.",
      "a": "**Dashboard Design:**\n1. **Liquidity:** Current Ratio — Standard: 2:1 — Trigger: Falls below 1.5:1 (inability to meet short-term obligations).\n2. **Solvency:** Debt-Equity Ratio — Standard: 1:1 — Trigger: Exceeds 1.5:1 (excessive leverage risk).\n3. **Activity:** Inventory Turnover — Standard: Industry average (e.g., 8 times) — Trigger: Falls below 6 times (overstocking/obsolescence risk).\n4. **Profitability:** Net Profit Margin — Standard: 10% — Trigger: Falls below 7% (cost overruns/pricing pressure).\n5. **ROI:** Return on Investment — Standard: 15% (cost of capital + risk premium) — Trigger: Falls below 12% (destroying shareholder value).\n**Management by Exception:** Only ratios crossing triggers are reported upward. This focuses CEO attention on *critical deviations* (e.g., if Current Ratio = 1.4 and ROI = 11%, both flagged; if all others are within range, they are not reported). A poor answer lists ratios without *quantitative triggers* or *actionable thresholds*, showing the student views ratios as academic exercises rather than control instruments — the exact gap NCERT highlights between \"knowing formulas\" and \"using ratios for controlling.\"",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ratio Analysis is a ______ technique of managerial control that evaluates an organisation's financial performance and position by calculating and interpreting key financial ratios derived from financial statements.",
+     "a": "quantitative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the CEO of a mid-sized textile ______ company in Surat.",
+     "a": "manufacturing",
+     "self_check": true
+    },
+    {
+     "q": "What is Ratio Analysis? State the definition given in this lesson.",
+     "a": "Ratio Analysis is a quantitative technique of managerial control that evaluates an organisation's financial performance and position by calculating and interpreting key financial ratios derived from financial statements.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Your sales have grown ______% this year, but your bank has just rejected your loan application for new machinery, citing \"weak financial health.\" You stare at your Balance Sheet and P&L statement — revenue is up, but something is wrong.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Ratio Analysis?",
+     "a": "Students memorise ratio formulas but treat all ratios as standalone indicators.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to calculate at least four categories of financial ratios (liquidity, solvency, activity, profitability) from a given Balance Sheet and Statement of Profit & Loss, interpret what each ratio indicates about organisational performance, compute ROI using both the basic formula (Net Profit/Capital Employed × 100) and.",
+     "self_check": true
     }
    ]
   }

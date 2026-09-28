@@ -34,6 +34,31 @@
      "q": "Create a function f(x) (not a polynomial) for which the derivative at x = 2 can be found using first principles, but the derivative at x = 0 does not exist. Explain why the derivative fails to exist at x = 0.",
      "a": "Example: f(x) = √x. At x = 2: f'(2) = lim_{h→0} [√(2+h) - √2]/h = 1/(2√2) after rationalization — exists.\nAt x = 0: f'(0) = lim_{h→0} [√h - 0]/h = lim_{h→0} 1/√h = ∞ — limit is infinite, so derivative does not exist (function has vertical tangent).\nA poor answer (e.g., choosing a polynomial, or not explaining the infinite limit) reveals the student doesn't understand that first principles can fail when the limit is infinite or when the function isn't defined on both sides of the point.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ of a function f(x) at a point x = a using first principles is defined as the limit of the difference quotient as the increment h approaches zero: f'(a) = lim_{h→0} [f(a+h) - f(a)]/h, provided this limit exists finitely.",
+     "a": "derivative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're tracking a car's speedometer reading at an exact instant — not average speed over an ______, but the precise speed right now.",
+     "a": "interval",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The derivative of a function f(x) at a point x = a using first principles is defined as the limit of the difference quotient as the increment h approaches zero: f'(a) = lim_{h→______} [f(a+h) - f(a)]/h, provided this limit exists finitely.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly compute derivatives of polynomial, rational, trigonometric, exponential, and logarithmic functions using the first principle definition, showing all algebraic simplification steps and limit evaluations.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're tracking a car's ______ reading at an exact instant — not average speed over an interval, but the precise speed right now.",
+     "a": "speedometer",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch11_6",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch11_6",
+   "title": "c9_math_ch11_6",
+   "questions": [
+    {
+     "q": "State the base angles theorem for an isosceles triangle and its converse. Use precise mathematical language.",
+     "a": "**Correct answer:** In an isosceles triangle, angles opposite equal sides are equal (base angles theorem). Conversely, if two angles of a triangle are equal, the sides opposite them are equal (converse).  \n**Wrong answer reveals:** If a student states \"equal sides have equal angles\" without specifying \"opposite,\" they confuse adjacency with opposition — a critical error in geometric reasoning. If they omit the converse, they cannot use angle equality to deduce side equality, which is essential for identifying isosceles triangles in complex figures.",
+     "self_check": true
+    },
+    {
+     "q": "In ΔPQR, PQ = PR. A student draws the altitude PS from P to QR and claims ΔPQS ≅ ΔPRS by RHS. Is this correct? Explain why or why not, referencing the conditions for RHS congruence.",
+     "a": "**Correct answer:** Yes, it is correct. RHS requires: (1) right angle (∠PSQ = ∠PSR = 90° by definition of altitude), (2) hypotenuse PQ = PR (given), (3) side PS = PS (common). All three conditions satisfied.  \n**Wrong answer reveals:** If the student says \"no, because we don't know QS = RS,\" they misunderstand RHS — it uses *hypotenuse and one side*, not two sides. If they say \"yes, by SAS,\" they correctly identify congruence but use the wrong criterion (SAS would need ∠PQS = ∠PRS, which is what we're trying to prove!). This exposes circular reasoning — a major board exam pitfall.",
+     "self_check": true
+    },
+    {
+     "q": "In isosceles ΔABC with AB = AC, the vertex angle ∠A = 50°. Find the base angles ∠B and ∠C. Then, if the altitude from A to BC is 6 cm, find the length of BC given AB = 10 cm. (Use Pythagoras theorem where needed.)",
+     "a": "**Correct answer with steps:**  \nStep 1: ∠B = ∠C (base angles theorem). ∠A + ∠B + ∠C = 180° → 50° + 2∠B = 180° → 2∠B = 130° → ∠B = ∠C = 65°.  \nStep 2: Altitude AD bisects BC (by congruence ΔABD ≅ ΔACD, RHS). So BD = DC.  \nStep 3: In right ΔABD, AB² = AD² + BD² → 10² = 6² + BD² → 100 = 36 + BD² → BD² = 64 → BD = 8 cm.  \nStep 4: BC = 2 × BD = 16 cm.  \n**Answer:** ∠B = ∠C = 65°; BC = 16 cm.  \n**Wrong answer reveals:** If a student gets ∠B = 65° but then uses AB as the base in Pythagoras (10² = 6² + BC²), they confuse which side is the hypotenuse. If they forget to double BD, they miss that the altitude bisects the base — a property proven via congruence.",
+     "self_check": true
+    },
+    {
+     "q": "Two isosceles triangles share the same base BC but have different apexes A and D on opposite sides of BC (so ABC and DBC are isosceles with AB = AC, DB = DC). Prove that AD is the perpendicular bisector of BC. Identify which congruence criteria you use at each step.",
+     "a": "**Correct answer:**  \nStep 1: In ΔABD and ΔACD: AB = AC (given), DB = DC (given), AD = AD (common) → ΔABD ≅ ΔACD (SSS).  \nStep 2: By CPCT, ∠BAD = ∠CAD and ∠BDA = ∠CDA. Also BD = CD (already known).  \nStep 3: In ΔABE and ΔACE (E = intersection of AD and BC): AB = AC, AE = AE (common), ∠BAE = ∠CAE (from Step 2) → ΔABE ≅ ΔACE (SAS).  \nStep 4: By CPCT, BE = CE and ∠AEB = ∠AEC. Since they are a linear pair, each = 90°. Hence AD ⊥ BC and bisects it.  \n**Wrong answer reveals:** If a student jumps straight to ΔABE ≅ ΔACE using SAS with ∠BAE = ∠CAE *assumed*, they skip proving the apex angles are equal first. If they use RHS in Step 3, they assume AD ⊥ BC prematurely. This tests whether they understand the *logical sequence* of congruence proofs.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves this problem: \"In ΔXYZ, XY = XZ. ∠Y = 40°. Find ∠X.\" Their working: \"∠Y = ∠Z = 40° (base angles). ∠X = 180° - 40° - 40° = 100°.\" Is this fully correct? If not, identify the error and give the correct answer.",
+     "a": "**Correct answer:** The working is **incorrect**. Given XY = XZ, the equal sides are XY and XZ, so the angles *opposite* them are ∠Z and ∠Y respectively. Thus ∠Y = ∠Z = 40° is correct. But the student wrote \"∠Y = ∠Z = 40° (base angles)\" — this is fine. The error is subtle: they didn't *state* which sides are equal, so the reasoning \"base angles\" is ambiguous. In an isosceles triangle, the base is the *unequal* side. Here, base is YZ, so base angles are ∠Y and ∠Z. The answer ∠X = 100° is numerically correct, but the justification \"base angles\" without identifying the base is incomplete for board exams.  \n**Better justification:** \"Since XY = XZ, ∠Z = ∠Y = 40° (angles opposite equal sides). ∠X = 180° - 80° = 100°.\"  \n**Wrong answer reveals:** If a student says \"it's correct, answer is 100°,\" they miss the precision required in proof writing. Board exams deduct marks for imprecise reasoning like \"base angles\" without specifying which side is the base.",
+     "self_check": true
+    },
+    {
+     "q": "Create a geometry problem where a student must use *both* the base angles theorem and its converse in a single proof. The problem should involve a quadrilateral divided into two triangles by a diagonal. Provide the problem statement and a full solution.",
+     "a": "**Problem:** In quadrilateral PQRS, diagonal PR bisects ∠P and ∠R. Prove that PQ = PS and QR = RS (i.e., PQRS is a kite).  \n**Solution:**  \nStep 1: In ΔPQR and ΔPSR: ∠QPR = ∠SPR (PR bisects ∠P), ∠QRP = ∠SRP (PR bisects ∠R), PR = PR (common) → ΔPQR ≅ ΔPSR (ASA).  \nStep 2: By CPCT, PQ = PS and QR = RS.  \nStep 3: Now in ΔPQS, PQ = PS (proven) → ∠PQS = ∠PSQ (base angles theorem).  \nStep 4: In ΔQRS, QR = RS (proven) → ∠RQS = ∠RSQ (base angles theorem).  \nStep 5: Also, since PQ = PS and QR = RS, by converse of base angles theorem, if we had ∠PQS = ∠PSQ given, we could deduce PQ = PS — but here we used the forward theorem. The converse is implicitly used if we reverse the logic: equal angles imply equal sides.  \n**Why this works:** The problem forces using congruence to get equal sides, then base angles theorem to get more equal angles — a chain of forward and backward reasoning.  \n**Poor answer reveals:** If a student only proves PQ = PS and stops, they miss the full kite property. If they assume PQ = PS without proof, they commit circular reasoning.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

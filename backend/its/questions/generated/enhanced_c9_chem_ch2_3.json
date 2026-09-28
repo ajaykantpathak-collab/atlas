@@ -34,6 +34,26 @@
      "q": "Design a thought experiment: If you could repeat the gold foil experiment using beta particles (high-speed electrons) instead of alpha particles, how would the scattering pattern differ? Justify your prediction using charge and mass considerations.",
      "a": "Beta particles (electrons) have charge -e and mass ~1/7300 of alpha. They would be attracted to the positive nucleus, not repelled. Light mass means large deflection even at larger impact parameters. Scattering would be more frequent and at larger angles on average, but the \"rare large-angle rebound\" signature of a dense nucleus would be absent because electrons can't \"bounce back\" from an attractive center in the same way; they'd be captured or slingshot around. A poor answer predicting similar rebound pattern reveals misunderstanding of charge sign and mass effects on trajectory in Coulomb fields.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Rutherford's nuclear model proposes that an atom consists of a tiny, dense, positively charged nucleus containing nearly all the mass, with electrons revolving around it in the vast empty space, based on the ______ that most alpha particles pass through gold foil undeflected while a few are scattered at large angles.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine firing a stream of tiny, ______ charged particles (alpha particles from radium) at a sheet of gold foil so thin it's nearly transparent like the gold leaf used on Indian sweets.",
+     "a": "positively",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how the gold foil experiment's observations (most alpha particles undeflected, few deflected at large angles, very few rebound) lead to the conclusion of a small, dense, positively charged nucleus, and can contrast this with Thomson's plum pudding model.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine firing a stream of tiny, positively charged particles (alpha particles from radium) at a sheet of gold foil so thin it's nearly ______ like the gold leaf used on Indian sweets.",
+     "a": "transparent",
+     "self_check": true
     }
    ]
   }

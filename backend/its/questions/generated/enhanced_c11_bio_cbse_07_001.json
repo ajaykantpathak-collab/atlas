@@ -34,6 +34,31 @@
      "q": "Design a simple histological test to distinguish between simple cuboidal epithelium of kidney tubules and simple columnar epithelium of intestinal mucosa using only light microscopy and standard stains (H&E).",
      "a": "Measure nuclear height-to-width ratio and cell height in multiple fields: cuboidal cells have height ≈ width (nuclei round, central); columnar cells have height ≥ 2× width (nuclei elongated, basal). Additionally, look for apical brush border (microvilli) — prominent in intestinal columnar epithelium (PCT also has it, but cell height distinguishes). A poor answer (e.g., \"just look at shape\") lacks quantitative criteria and ignores that sectioning angle can distort apparent shape; systematic measurement is required.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Epithelial tissue is a sheet of tightly packed cells with minimal ______ matrix, resting on a basement membrane, that covers body surfaces, lines cavities and ducts, and forms glands; it exhibits polarity with distinct apical (free) and basal surfaces and is avascular but innervated.",
+     "a": "intercellular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Run your tongue along the inside of your cheek — it feels smooth, moist, and intact ______ constant friction from chewing and speaking.",
+     "a": "despite",
+     "self_check": true
+    },
+    {
+     "q": "What is Epithelial tissue? State the definition given in this lesson.",
+     "a": "Epithelial tissue is a sheet of tightly packed cells with minimal intercellular matrix, resting on a basement membrane, that covers body surfaces, lines cavities and ducts, and forms glands; it exhibits polarity with distinct apical (free) and basal surfaces and is avascular but innervated.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Epithelial tissue?",
+     "a": "Students believe \"stratified epithelium means cells are stacked like bricks in a wall, so the top cells have no contact with the basement membrane.\" In reality, stratified epithelium develops from a single basal layer; only the basal cells are mitotically active and attached to the basement membrane via hemidesmosomes.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify any given epithelial type (simple/compound, squamous/cuboidal/columnar) from a microscopic description or diagram, explain how its structural features (cell shape, layers, surface modifications, junctions) adapt it for its specific function (protection, absorption, secretion, filtration), and predict the.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,56 @@
+{
+ "catalog": "enhanced_c8_gram_cbse_80_002",
+ "concepts": [
+  {
+   "id": "enh:c8_gram_cbse_80_002",
+   "title": "c8_gram_cbse_80_002",
+   "questions": [
+    {
+     "q": "'I did not know that she ___ a doctor.' is or was?",
+     "a": "'was' — the main clause is past, so the fact-about-her steps back. A wrong answer 'is' shows the student missed the time-zone rule — though 'is' can defend if she still is one, boards expect 'was'.",
+     "self_check": true
+    },
+    {
+     "q": "'The teacher explained that the sun ___ in the east.' rise/rises/rose?",
+     "a": "'rises' — universal truth exempt from backshift. A wrong answer 'rose' shows mechanical shifting without the exemption — the competent-but-rigid error.",
+     "self_check": true
+    },
+    {
+     "q": "'When I was young, I believed that stars ___ tiny lamps.' are/were?",
+     "a": "'were' — the belief was false, so no truth-exemption applies; the past zone governs. A wrong answer 'are' misapplies the exemption to a mistaken belief.",
+     "self_check": true
+    },
+    {
+     "q": "Sequence of tenses: when a sentence has two clauses, the tense of the second is ______ by the first.",
+     "a": "constrained",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sequence of tenses: when a sentence has two clauses, the tense of the second is ______ by the first.",
+     "a": "constrained",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The anchor rule: the main verb sets the time-zone; ______ verbs must live inside it. 'I think she IS right' / 'I thought she WAS right'.",
+     "a": "subordinate",
+     "self_check": true
+    },
+    {
+     "q": "What is Sequence of tenses? State the definition given in this lesson.",
+     "a": "Sequence of tenses: when a sentence has two clauses, the tense of the second is constrained by the first.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Sequence of tenses?",
+     "a": "Students shift every verb blindly after a past main clause — including facts that are still true — or fail to shift at all, writing 'He said he is busy'.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student aligns subordinate-clause tense with the main-clause tense in object clauses, time clauses, and purpose clauses, including the universal-truth exemption.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

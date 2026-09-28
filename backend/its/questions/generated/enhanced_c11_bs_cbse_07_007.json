@@ -34,6 +34,36 @@
      "q": "Design a compliance checklist for the Board of Directors of a newly incorporated public company planning a ₹200 crore IPO. Include every statutory step from SEBI approval to filing return of allotment, with the specific legal provision or regulation for each step.",
      "a": "A good checklist includes: (1) SEBI approval under ICDR Regulations — file DRHP/RHP; (2) File prospectus with ROC under Section 26; (3) Appoint merchant bankers, registrars, bankers, underwriters (if opted); (4) Open subscription list — keep application money in separate escrow account (Section 40); (5) Verify minimum 90% subscription (SEBI ICDR Reg. 14); (6) Apply for listing on at least one stock exchange (Section 40); (7) If both conditions met, allot shares within prescribed time; (8) File Return of Allotment (Form PAS-3) with ROC within 30 days (Section 39); (9) Issue allotment letters/refund orders. A poor answer misses the escrow account requirement, the 30-day filing deadline, or treats underwriter appointment as mandatory.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Capital subscription is the third stage in the formation of a public company where it raises funds from the public by issuing ______ (shares/debentures) through a prospectus, subject to SEBI approval, achieving minimum subscription (90% of issue size), stock exchange listing, and proper allotment procedures.",
+     "a": "securities",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and your friends have ______ a public company \"GreenEnergy Ltd.\" to manufacture solar panels.",
+     "a": "incorporated",
+     "self_check": true
+    },
+    {
+     "q": "What is Capital subscription? State the definition given in this lesson.",
+     "a": "Capital subscription is the third stage in the formation of a public company where it raises funds from the public by issuing securities (shares/debentures) through a prospectus, subject to SEBI approval, achieving minimum subscription (90% of issue size), stock exchange listing, and proper allotment procedures.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Capital subscription is the third stage in the formation of a public company where it raises funds from the public by issuing securities (shares/debentures) through a prospectus, subject to SEBI approval, achieving minimum subscription (______% of issue size), stock exchange listing, and proper allotment procedures.",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Capital subscription?",
+     "a": "Students often believe that \"minimum subscription achieved = automatic allotment\" and forget the stock exchange listing condition.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to sequence the six statutory steps of capital subscription in correct legal order and explain the consequence if minimum subscription is not achieved, using the 90% SEBI threshold and the refund timeline.",
+     "self_check": true
     }
    ]
   }

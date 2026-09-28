@@ -34,6 +34,31 @@
      "q": "Create an algebraic expression containing at least five terms with two different variables ($x$ and $y$) and at least one constant, such that when it is fully simplified, the result is $4x + 3y - 5$. Show your expression and simplify it to prove your work.",
      "a": "A valid student response should provide an unsimplified expression like $2x + 5y - 2 + 2x - 2y - 3$. \nProof of simplification:\n1. Group like terms: $(2x + 2x) + (5y - 2y) + (-2 - 3)$.\n2. Combine $x$ terms: $2x + 2x = 4x$.\n3. Combine $y$ terms: $5y - 2y = 3y$.\n4. Combine constants: $-2 - 3 = -5$.\n5. Final result: $4x + 3y - 5$. \nA poor answer would feature terms that do not combine cleanly to the target or include uncombined like terms remaining in the final line.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Combining like terms is the algebraic process of simplifying expressions by adding or subtracting terms that contain the exact same variables raised to the exact same powers, using their numerical ______.",
+     "a": "coefficients",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at an stationery shop buying ______ and pens.",
+     "a": "notebooks",
+     "self_check": true
+    },
+    {
+     "q": "What is Combining like terms? State the definition given in this lesson.",
+     "a": "Combining like terms is the algebraic process of simplifying expressions by adding or subtracting terms that contain the exact same variables raised to the exact same powers, using their numerical coefficients.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify, group, and combine like terms in algebraic expressions containing multiple variables and integer coefficients, resulting in a fully simplified expression.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at an ______ shop buying notebooks and pens.",
+     "a": "stationery",
+     "self_check": true
     }
    ]
   }

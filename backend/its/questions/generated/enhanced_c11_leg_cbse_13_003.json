@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_13_003",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_13_003",
+   "title": "c11_leg_cbse_13_003",
+   "questions": [
+    {
+     "q": "Name the Supreme Court case that held Article 24 (prohibition of child labour) is non-derogable even with parental consent, and state the specific industry involved.",
+     "a": "*M.C. Mehta v. State of Tamil Nadu (1996) 6 SCC 756* — the case concerned children employed in **match and fireworks factories in Sivakasi**. A wrong answer (e.g., citing *Bandhua Mukti Morcha* or *Labourers Working on Salal Hydro Project*) reveals the student is confusing bonded labour cases with the specific absolute prohibition on hazardous child labour under Article 24 — they haven't grasped that Article 24 admits no exception, unlike Article 23 which allows \"compulsory service for public purposes.\"",
+     "self_check": true
+    },
+    {
+     "q": "In *Unni Krishnan v. State of Andhra Pradesh (1993)*, the Supreme Court read the right to education into Article 21. Explain *why* the Court used Article 21 instead of directly enforcing the then-Directive Principle Article 45.",
+     "a": "Because Directive Principles (Article 45) were **non-justiciable** — courts could not issue writs to enforce them. By reading education into Article 21 (Right to Life), the Court made it a **justiciable Fundamental Right**, enforceable via Article 32/226 writ petitions. A wrong answer (e.g., \"Article 45 was deleted\" or \"Article 21 is broader\") shows the student doesn't understand the *justiciability* distinction between Part III and Part IV — a core Class 11 conceptual gap.",
+     "self_check": true
+    },
+    {
+     "q": "A 16-year-old is accused of a heinous offence (murder). The Juvenile Justice Board (JJB) must decide whether to try him as an adult. Which landmark case established the *procedure* and *criteria* for this \"preliminary assessment\" under Section 15 of the JJ Act 2015?",
+     "a": "*Dr. Subramanian Swamy v. Raju (2014) 8 SCC 390* — though decided under the JJ Act 2000, it laid down the **psychological and social investigation framework** later codified in Section 15(1) of the 2015 Act. The Court held: assessment must be by experts (psychologist/psychiatrist), consider the child's maturity, circumstances, and offence gravity — *not* merely the offence category. A wrong answer (e.g., *Pratap Singh v. State of Jharkhand* or *Salil Bali v. Union of India*) reveals confusion between *age determination* cases and *waiver/transfer* cases — they are distinct judicial inquiries.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the judicial approach in *Sheela Barse v. Union of India (1986)* and *Sanjay Suri v. Delhi Administration (1988)* regarding children in institutional care. What common constitutional value do both judgments protect?",
+     "a": "Both protect **Article 21 — Right to Life with Human Dignity**. *Sheela Barse* mandated: (1) no child in adult jails, (2) observation homes must be \"congenial,\" (3) free legal aid for juveniles. *Sanjay Suri* exposed sexual abuse of minors in Tihar Jail by adult prisoners, ordered immediate release/parole, and demanded \"humanism in jail administration.\" A weak answer listing only factual differences (e.g., \"one was about observation homes, the other about Tihar\") misses the **unifying constitutional thread** — the Court treating institutional neglect as a violation of the child's dignity, not just procedural lapse.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The Supreme Court in *Bachpan Bachao Andolan v. Union of India (2011)* merely repeated existing law on child trafficking — it created no new obligation.\" Defend or refute with specific directions from the judgment.",
+     "a": "**Refute.** The judgment created **concrete, enforceable structural obligations**: (1) Directed *every district* to appoint a **Child Welfare Committee (CWC)** and **Juvenile Justice Board (JJB)** within 6 weeks — operationalizing Sections 4 & 27 of JJ Act 2000 which states had ignored for years; (2) Mandated **SOP for rescue/repatriation** of trafficked children; (3) Ordered **NCRB to maintain missing children database** linked to CCTNS; (4) Made **police accountable** for FIR registration in missing child cases (no \"preliminary inquiry\" excuse). A \"mere repetition\" answer ignores that the Court converted *discretionary* statutory duties into *mandatory, time-bound* state actions — the essence of judicial activism in child rights.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical Public Interest Litigation (PIL) fact scenario where a 13-year-old domestic worker is denied schooling by her employer, who claims \"she is not an employee, she is like family.\" Identify *three* landmark cases you would cite and the specific legal principle from each.",
+     "a": "**PIL Scenario:** 13-year-old Meera works 14 hours/day in a Delhi household, unpaid, not enrolled in school. Employer claims \"informal kinship care.\"  \n**Three Cases & Principles:**  \n1. *M.C. Mehta v. State of Tamil Nadu (1996)* — **Article 24 is absolute**: \"Child labour in any form\" includes domestic work (later clarified in *CLPRA 2016 Amendment* covering domestic work); poverty/consent no defence.  \n2. *Unni Krishnan v. State of Andhra Pradesh (1993)* / *RTE Act 2009* — **Article 21A**: Free, compulsory education (6-14 years) is a fundamental right; state must ensure access *regardless* of employment status.  \n3. *Bachpan Bachao Andolan v. Union of India (2011)* — **State duty to rescue/rehabilitate**: Police/CWC must intervene *suo motu*; \"family-like\" claim doesn't oust statutory protection.  \nA poor answer cites cases without linking *specific ratios* to the *specific facts* (e.g., citing *Sheela Barse* for domestic work) — shows inability to match precedent to problem.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

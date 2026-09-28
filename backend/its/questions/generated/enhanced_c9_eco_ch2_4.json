@@ -34,6 +34,31 @@
      "q": "Create a scenario involving three goods — Good X, Good Y, and Good Z — where X and Y are substitutes, Y and Z are complements, and X and Z are unrelated. Describe a price change in one good and trace its effect on the demand for the other two goods using correct economic terminology.",
      "a": "Example: X = tea, Y = coffee, Z = sugar. Tea and coffee are substitutes; coffee and sugar are complements; tea and sugar are complements (but assume unrelated for this scenario). If price of coffee rises: demand for tea rises (substitute), demand for sugar falls (complement with coffee). A poor answer fails to distinguish the pairwise relationships or applies the same effect to both.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The demand for a good is affected by the prices of related goods: for substitute goods, a rise in the price of one good increases the demand for the other; for ______ goods, a rise in the price of one good decreases the demand for the other.",
+     "a": "complementary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a tea stall in ______ where a cup of chai costs ₹10 and a samosa costs ₹15.",
+     "a": "Mumbai",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: One day, the price of samosas jumps to ₹______ due to a potato shortage.",
+     "a": "25",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly predict the direction of shift in the demand curve for a good when the price of a substitute or complementary good changes, and can explain the economic reasoning using real-world examples.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are at a tea stall in Mumbai where a cup of chai costs ₹10 and a samosa costs ₹15.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

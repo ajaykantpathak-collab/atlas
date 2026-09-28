@@ -34,6 +34,36 @@
      "q": "Design a thought experiment (different from the gamma-ray microscope) that illustrates the position-momentum uncertainty principle using a single-slit diffraction setup for electrons. Describe how the slit width relates to Δx and the diffraction angle to Δp.",
      "a": "Pass a beam of electrons through a single slit of width a. The slit localises the electron in the transverse direction: Δx ≈ a. After the slit, the electron wave diffracts. The first minimum occurs at angle θ where a sinθ = λ. The transverse momentum spread is Δpₓ ≈ p sinθ ≈ h/λ × λ/a = h/a. Thus Δx Δpₓ ≈ a × (h/a) = h ≈ 2πħ, consistent with Δx Δp ≥ ħ/2 (within a factor of 2π). A good answer connects slit width to Δx, diffraction angle to Δp, and uses de Broglie λ = h/p. A poor answer shows the student cannot translate the abstract principle into a concrete wave-diffraction picture.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Heisenberg's Uncertainty Principle states that it is fundamentally impossible to ______ determine the exact position (x) and exact momentum (p) of a particle.",
+     "a": "simultaneously",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine trying to locate an electron inside a hydrogen atom (size ~ 0.1 nm) using a powerful ______.",
+     "a": "microscope",
+     "self_check": true
+    },
+    {
+     "q": "What is Heisenberg's Uncertainty Principle states that it? State the definition given in this lesson.",
+     "a": "Heisenberg's Uncertainty Principle states that it is fundamentally impossible to simultaneously determine the exact position (x) and exact momentum (p) of a particle.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine trying to locate an electron inside a hydrogen atom (size ~ ______ nm) using a powerful microscope.",
+     "a": "0.1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Heisenberg's Uncertainty Principle states that it?",
+     "a": "Students often believe the uncertainty principle arises because the act of measurement (e.g., hitting an electron with a photon) disturbs the system — the \"observer effect\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) state the principle in words and write the precise mathematical inequality for position-momentum and energy-time, (2) explain why the principle arises from wave-particle duality and wave-packet superposition rather than measurement disturbance, and (3) apply the inequality to estimate minimum uncertainties in.",
+     "self_check": true
     }
    ]
   }

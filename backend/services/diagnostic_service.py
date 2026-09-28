@@ -598,7 +598,8 @@ class DiagnosticService:
 
         # Fresh session – pick Phase-1 question (broad subskill coverage)
         q_payload = await self._select_phase1_question(
-            student_id, session.current_question_index
+            student_id, session.current_question_index,
+            subject=getattr(session, "subject", None),
         )
 
         session.questions_asked_list = session.questions_asked_list + [q_payload.model_dump()]
@@ -774,6 +775,7 @@ class DiagnosticService:
             subskill_mastery=session.subskill_mastery_dict,
             answered_responses=session.responses_list,
             asked_questions=session.questions_asked_list,
+            subject=getattr(session, "subject", None),
         )
 
         session.questions_asked_list = (
@@ -1061,7 +1063,8 @@ class DiagnosticService:
     # ══════════════════════════════════════════════════════════════════════════
 
     async def _select_phase1_question(
-        self, student_id: str, question_number: int
+        self, student_id: str, question_number: int,
+        subject: Optional[str] = None,
     ) -> QuestionPayload:
         """
         Phase 1 (Q 1–3): Broad coverage across distinct subskills at medium
@@ -1076,6 +1079,7 @@ class DiagnosticService:
                 subskill=subskill,
                 exclude_ids=[],
                 target_difficulty=0.0,
+                subject=subject,
             )
         except AttributeError:
             # fallback: use PracticeService directly
@@ -1091,6 +1095,7 @@ class DiagnosticService:
         ability: float,
         subskill_mastery: dict[str, float],
         asked_questions: list[dict],
+        subject: Optional[str] = None,
     ) -> QuestionPayload:
         """
         Phase 2 (Q 4–10): Adaptive targeting.
@@ -1111,7 +1116,7 @@ class DiagnosticService:
             if subskill not in asked_subskills_phase2:
                 target_diff = max(-1.5, min(ability + 0.3, 1.5))
                 q = await self._irt_select(
-                    ability, subskill, target_diff, asked_questions
+                    ability, subskill, target_diff, asked_questions, subject
                 )
                 return self._normalise_question(
                     q, len(asked_questions) + 1, "adaptive", subskill
@@ -1120,7 +1125,7 @@ class DiagnosticService:
         # all subskills hit – pick globally weakest
         target_subskill = ranked[0]
         target_diff = max(-1.5, min(ability + 0.3, 1.5))
-        q = await self._irt_select(ability, target_subskill, target_diff, asked_questions)
+        q = await self._irt_select(ability, target_subskill, target_diff, asked_questions, subject)
         return self._normalise_question(
             q, len(asked_questions) + 1, "adaptive", target_subskill
         )
@@ -1131,6 +1136,7 @@ class DiagnosticService:
         ability: float,
         weak_areas: list[str],
         asked_questions: list[dict],
+        subject: Optional[str] = None,
     ) -> QuestionPayload:
         """
         Phase 3 (Q 11–15): Confirmation.
@@ -1147,7 +1153,7 @@ class DiagnosticService:
 
         target_subskill = targets[len(asked_weak) % len(targets)]
         target_diff = min(ability + 0.6, 1.8)   # harder – confirm weakness
-        q = await self._irt_select(ability, target_subskill, target_diff, asked_questions)
+        q = await self._irt_select(ability, target_subskill, target_diff, asked_questions, subject)
         return self._normalise_question(
             q, len(asked_questions) + 1, "confirmation", target_subskill
         )
@@ -1160,6 +1166,7 @@ class DiagnosticService:
         subskill_mastery: dict[str, float],
         answered_responses: list[dict],
         asked_questions: list[dict],
+        subject: Optional[str] = None,
     ) -> QuestionPayload:
         """
         Dispatch to the correct phase selector.
@@ -1168,17 +1175,17 @@ class DiagnosticService:
         q_number = current_index + 1  # 1-based question number
 
         if q_number <= PHASE1_END:
-            return await self._select_phase1_question(student_id, current_index)
+            return await self._select_phase1_question(student_id, current_index, subject)
 
         if q_number <= PHASE2_END:
             return await self._select_phase2_question(
-                student_id, ability, subskill_mastery, asked_questions
+                student_id, ability, subskill_mastery, asked_questions, subject
             )
 
         # Phase 3 – need to know weak areas from completed Phase 2
         weak = self._identify_weak_areas(subskill_mastery)
         return await self._select_phase3_question(
-            student_id, ability, weak, asked_questions
+            student_id, ability, weak, asked_questions, subject
         )
 
     async def _irt_select(
@@ -1187,6 +1194,7 @@ class DiagnosticService:
         subskill: str,
         target_difficulty: float,
         exclude_questions: list[dict],
+        subject: Optional[str] = None,
     ) -> dict:
         """Wrapper around QuestionSelector with safe fallback."""
         exclude_ids = [q["question_id"] for q in exclude_questions]
@@ -1196,6 +1204,7 @@ class DiagnosticService:
                 subskill=subskill,
                 exclude_ids=exclude_ids,
                 target_difficulty=target_difficulty,
+                subject=subject,
             )
         except (AttributeError, Exception):
             return await self.practice.generate_question(
@@ -1261,6 +1270,50 @@ class DiagnosticService:
         correct_raw = question.get("correct_answer", "")
         is_correct = self._answers_match(answer, correct_raw, subskill)
 
+        # Corpus questions carry paragraph model answers that never
+        # string-match — grade prose via the rubric LLM grader.
+        if not is_correct and len(str(correct_raw)) >= 120 \
+                and len(str(answer).strip()) >= 3:
+            try:
+                from services.llm_grader import LLMGrader
+                scheme = question.get("marking_scheme") or ""
+                rubric = [
+                    {"id": f"c{i+1}", "text": ln.strip()}
+                    for i, ln in enumerate(str(scheme).split("\n"))
+                    if ln.strip() and len(ln.strip()) > 10
+                ][:6] or None
+                res = await LLMGrader.grade(
+                    student_answer=str(answer),
+                    model_answer=str(correct_raw),
+                    rubric=rubric,
+                    max_marks=3,
+                )
+                if res.error is None:
+                    is_correct = res.marks_awarded >= max(
+                        1, res.max_marks // 2)
+            except Exception as e:
+                logger.warning("diagnostic LLM grade failed: %s", e)
+
+        # LLM offline (no Ollama in deploy): embedding cosine catches
+        # correct paraphrases + verbatim answers the string matcher misses
+        # (B02: 352-char verbatim correctAnswer still graded false).
+        if not is_correct and len(str(correct_raw)) >= 40 \
+                and len(str(answer).strip()) >= 3:
+            try:
+                from backend.services.embedding_service import EmbeddingService
+                import asyncio as _aio, math as _m
+                svc = await EmbeddingService.get_instance()
+                ea, eb = await _aio.gather(
+                    svc.encode(str(answer)),
+                    svc.encode(str(correct_raw)))
+                dot = sum(x * y for x, y in zip(ea, eb))
+                sim = dot / ((sum(x * x for x in ea) ** .5 or 1) *
+                             (sum(x * x for x in eb) ** .5 or 1))
+                if sim >= 0.72:
+                    is_correct = True
+            except Exception:
+                pass
+
         if is_correct:
             return {
                 "is_correct": True,
@@ -1275,6 +1328,20 @@ class DiagnosticService:
             misconception = await self._llm_classify_misconception(
                 question, answer, subskill
             )
+
+        if misconception is None:
+            # Corpus hint: enhanced-node diagnostics embed "A wrong answer
+            # reveals the student X" — surface it so the misconception
+            # panel actually populates when heuristics/LLM don't match.
+            hint = str(question.get("misconception_hint") or "").strip()
+            if hint:
+                label = hint.split("reveals the student")[-1].strip(" .")[:80]
+                misconception = {
+                    "label": label or "Concept gap",
+                    "severity": "moderate",
+                    "description": hint,
+                    "remediation_focus": subskill,
+                }
 
         explanation = await self._generate_explanation(
             question, answer, correct_raw, misconception
@@ -1742,6 +1809,13 @@ class DiagnosticService:
         """
         try:
             q = await self.practice.get_question(question_id)
+            if q:
+                return q
+        except (AttributeError, Exception):
+            pass
+        # Corpus-backed questions (corpus:<uuid>) resolve via the selector
+        try:
+            q = await self.selector.get_question(question_id)
             if q:
                 return q
         except (AttributeError, Exception):

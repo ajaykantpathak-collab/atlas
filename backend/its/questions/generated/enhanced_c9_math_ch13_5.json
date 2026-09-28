@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch13_5",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch13_5",
+   "title": "c9_math_ch13_5",
+   "questions": [
+    {
+     "q": "What is the formula for the volume of a cube with edge length 'a'?\n\nWhat is the formula for the volume of a cube with edge length 'a'?",
+     "a": "The formula is V = a³. A wrong answer like V = 3a or V = a² reveals the student confuses volume with edge sum or surface area, indicating a lack of understanding of dimensionality—volume requires three multiplicative factors, not additive or square relations.\n\nThe formula is V = a³. A wrong answer like V = 3a or V = a² reveals the student confuses volume with edge sum or surface area, indicating a lack of understanding of dimensionality—volume requires three multiplicative factors, not additive or square relations.",
+     "self_check": true
+    },
+    {
+     "q": "Why is the volume of a cuboid calculated as length × breadth × height, and not as (length + breadth + height) or some other combination?\n\nWhy is the volume of a cuboid calculated as length × breadth × height, and not as (length + breadth + height) or some other combination?",
+     "a": "Volume represents the number of unit cubes that fit inside. Multiplying length × breadth gives the number of unit squares in the base layer; multiplying by height stacks these layers vertically. Adding dimensions would give a length, not a count of cubes, showing a fundamental confusion between linear, area, and volume measures.\n\nVolume represents the number of unit cubes that fit inside. Multiplying length × breadth gives the number of unit squares in the base layer; multiplying by height stacks these layers vertically. Adding dimensions would give a length, not a count of cubes, showing a fundamental confusion between linear, area, and volume measures.",
+     "self_check": true
+    },
+    {
+     "q": "A rectangular juice carton has a length of 20 cm, breadth of 10 cm, and height of 5 cm. What is its volume in cubic centimetres?\n\nA rectangular juice carton has a length of 20 cm, breadth of 10 cm, and height of 5 cm. What is its volume in cubic centimetres?",
+     "a": "Step 1: Identify given values: l = 20 cm, b = 10 cm, h = 5 cm.  \nStep 2: Write volume formula for cuboid: V = l × b × h.  \nStep 3: Substitute values: V = 20 × 10 × 5.  \nStep 4: Compute: 20 × 10 = 200; 200 × 5 = 1000.  \nStep 5: State answer with units: V = 1000 cm³.  \nA wrong answer like 35 cm (from adding) or 200 cm² (from l×b only) shows confusion between perimeter, area, and volume, or missing a dimension in multiplication.\n\nStep 1: Identify given values: l = 20 cm, b = 10 cm, h = 5 cm.  \nStep 2: Write volume formula for cuboid: V = l × b × h.  \nStep 3: Substitute values: V = 20 × 10 × 5.  \nStep 4: Compute: 20 × 10 = 200; 200 × 5 = 1000.  \nStep 5: State answer with units: V = 1000 cm³.  \nA wrong answer like 35 cm (from adding) or 200 cm² (from l×b only) shows confusion between perimeter, area, and volume, or missing a dimension in multiplication.",
+     "self_check": true
+    },
+    {
+     "q": "Two cubes have edge lengths in the ratio 2:3. What is the ratio of their volumes?\n\nTwo cubes have edge lengths in the ratio 2:3. What is the ratio of their volumes?",
+     "a": "Let edges be 2x and 3x. Volumes: (2x)³ = 8x³ and (3x)³ = 27x³. Ratio = 8x³ : 27x³ = 8:27.  \nA wrong answer like 2:3 or 4:9 shows the student forgot to cube the ratio, confusing linear scaling with volume scaling—volume scales with the cube of the linear factor, not linearly or squared.\n\nLet edges be 2x and 3x. Volumes: (2x)³ = 8x³ and (3x)³ = 27x³. Ratio = 8x³ : 27x³ = 8:27.  \nA wrong answer like 2:3 or 4:9 shows the student forgot to cube the ratio, confusing linear scaling with volume scaling—volume scales with the cube of the linear factor, not linearly or squared.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the volume of a cube as 64 m³ and concludes the edge length is 8 m. Is this correct? Justify your answer.\n\nA student calculates the volume of a cube as 64 m³ and concludes the edge length is 8 m. Is this correct? Justify your answer.",
+     "a": "Yes, it is correct. Since V = a³, then a = ∛V = ∛64 = 4 m. Wait—∛64 is 4, not 8. So the student is wrong.  \nCorrection: a = ∛64 = 4 m, because 4 × 4 × 4 = 64.  \nA wrong justification like \"8 × 8 = 64\" reveals confusion between squaring and cubing—thinking volume relates to square of edge, not cube, indicating a lack of grasp on dimensional exponents.\n\nNo, it is incorrect. Since V = a³, then a = ∛V = ∛64 = 4 m (because 4 × 4 × 4 = 64). The student likely computed √64 = 8 instead of ∛64, confusing square root with cube root. This reveals a failure to recognize that volume involves the third power, so reversing it requires the cube root, not square root.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world problem involving the volume of a cuboid where you are given the volume and two dimensions, and must find the third. Use Indian context and specify units.\n\nDesign a real-world problem involving the volume of a cuboid where you are given the volume and two dimensions, and must find the third. Use Indian context and specify units.",
+     "a": "Example: A concrete slab for a school stage has a volume of 12 m³, length 4 m, and breadth 3 m. Find its height.  \nA good answer shows: h = V/(l×b) = 12/(4×3) = 12/12 = 1 m.  \nA poor answer might multiply instead of divide, or forget to divide by both length and breadth, showing inability to reverse the formula.\n\nExample: A concrete slab for a school stage has a volume of 12 m³, length 4 m, and breadth 3 m. Find its height.  \nA good answer shows: h = V/(l×b) = 12/(4×3) = 12/12 = 1 m.  \nA poor answer might multiply instead of divide, or forget to divide by both length and breadth, showing inability to reverse the formula.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,36 @@
      "q": "Design a field verification procedure to assess the positional accuracy of an orthorectified aerial photograph of a hilly urban area, using ground control points (GCPs) and independent check points (ICPs). Specify the minimum number of points, their distribution strategy, and the statistical test for accuracy assessment.",
      "a": "Minimum 20 GCPs (for bundle adjustment) + 20 ICPs (for independent validation) = 40 points total. Distribution: stratified by elevation zones (valley, mid-slope, ridge), land cover (built-up, vegetation, bare soil), and radial distance from photo center (near, middle, edge) to capture systematic error patterns. Use RMSE (Root Mean Square Error) in X, Y, and radial directions with 95% confidence interval (1.96 × RMSE). Report LE90 (Linear Error at 90% confidence) per ASPRS standards. A poor answer suggesting random point placement or using same points for GCPs and ICPs reveals misunderstanding of bias-variance tradeoff in accuracy assessment and the need for independent validation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Relief ______ is the radial shift of an image point on a vertical aerial photograph from its true planimetric position caused by the elevation of the terrain relative to the datum plane; it increases linearly with radial distance from the principal point and terrain height, and decreases with flying height above datum.",
+     "a": "displacement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're flying a drone over the ______ Ghats at 2000m altitude photographing a tall tea factory chimney and a river at valley floor.",
+     "a": "Western",
+     "self_check": true
+    },
+    {
+     "q": "What is Relief displacement? State the definition given in this lesson.",
+     "a": "Relief displacement is the radial shift of an image point on a vertical aerial photograph from its true planimetric position caused by the elevation of the terrain relative to the datum plane; it increases linearly with radial distance from the principal point and terrain height, and decreases with flying height above datum.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're flying a drone over the Western Ghats at ______m altitude photographing a tall tea factory chimney and a river at valley floor.",
+     "a": "2000",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Relief displacement?",
+     "a": "Students believe relief displacement is caused by the camera lens \"magnifying\" tall objects, making them look bigger and thus shifted.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can derive the relief displacement formula from similar triangles geometry, calculate displacement magnitude for given terrain elevation and photo coordinates, and explain how orthorectification removes this displacement to produce a planimetrically correct orthophoto.",
+     "self_check": true
     }
    ]
   }

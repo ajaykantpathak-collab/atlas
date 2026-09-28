@@ -34,6 +34,26 @@
      "q": "Create your own word problem where the angle of depression is given and the horizontal distance is asked. The problem must involve an observer whose eye level is NOT at the very top of the structure (e.g., a person standing on a tower, or a bird on a wire). Provide the full solution with diagram description.",
      "a": "Example problem: \"A boy 1.6 m tall stands on top of a building 20 m high. He observes a ball on the ground at an angle of depression of 45°. Find the distance of the ball from the foot of the building.\"\nSolution: Total height from eye to ground = 20 + 1.6 = 21.6 m. Angle of depression = 45° → angle of elevation = 45°. tan 45° = 21.6 / d → d = 21.6 m.\nA poor answer would forget to add the boy's height (using 20 m instead of 21.6 m), or would place the angle of depression at the top of the building (not at the boy's eye level). This reveals the student does not understand that the line of sight starts from the observer's eye, not the top of the structure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The angle of ______ is the angle formed between the horizontal line from an observer's eye (at a height) and the line of sight to an object below the horizontal.",
+     "a": "depression",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ on the roof of your school building (height 20 m) and you see a stray dog on the ground.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing on the roof of your school building (height ______ m) and you see a stray dog on the ground.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently draw a correct labelled diagram for any word problem involving angle of depression, identify the right triangle, select the appropriate trigonometric ratio (tan), set up the equation, and solve for the unknown horizontal distance with correct units.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,71 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_01_007",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_01_007",
+   "title": "c12_soc_cbse_01_007",
+   "questions": [
+    {
+     "q": "State the fundamental methodological difference between sociology and history in one sentence, using the terms \"synchronic\" and \"diachronic.\"",
+     "a": "Sociology is primarily synchronic — it analyses social structures and patterns at a given time or across comparable contexts — while history is primarily diachronic — it reconstructs unique, temporally ordered sequences of events. A wrong answer (e.g., \"sociology studies present, history studies past\") reveals the misconception that the distinction is temporal rather than analytical; both disciplines study past and present, but their *analytic focus* differs.",
+     "self_check": true
+    },
+    {
+     "q": "M.N. Srinivas's concept of \"dominant caste\" emerged from his village study of Rampura in the 1940s. Explain why this sociological concept required historical data about land grants, colonial revenue settlements, and pre-colonial power structures to be adequately explained.",
+     "a": "The \"dominant caste\" is a structural position (numerical strength, land ownership, political power) that was historically constituted — colonial land revenue systems (ryotwari, zamindari) froze or created landholding patterns, pre-colonial grants (inam, jagir) shaped local hierarchies, and these historical processes determined which caste could become \"dominant\" in the 1940s. A wrong answer that treats dominant caste as a static, timeless feature reveals the \"ethnographic present\" fallacy — seeing social structure as ahistorical.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"G.S. Ghurye studied caste using historical texts like the Manusmriti, so he was doing history, not sociology.\" Evaluate this claim using the distinction between *using historical sources* and *doing historical analysis*.",
+     "a": "Ghurye used historical texts as *data* to identify the *structural features* of caste (endogamy, hierarchy, occupational linkage, commensality rules) that persist across time — a synchronic, comparative analysis. Doing history would mean tracing how Manusmriti's prescriptions changed in interpretation across dynasties, regions, and commentarial traditions. The student's error conflates *source type* with *disciplinary method*; sociologists routinely use archives, inscriptions, and texts, but their analytic goal is pattern-recognition, not narrative reconstruction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how a historian and a sociologist would approach the study of the \"Non-Cooperation Movement (1920–22).\" Identify two specific questions each would ask, and explain why the sociologist's questions necessarily draw on the historian's narrative.",
+     "a": "Historian: (1) What were the day-to-day events, leadership decisions, and British responses from 1920–22? (2) Why was the movement withdrawn after Chauri Chaura? Sociologist: (1) Which social groups (peasants, merchants, students, women) participated, and what structural grievances (landlord-tenant relations, colonial trade policies, gender norms) motivated them? (2) How did the movement transform social relations — e.g., new political subjectivities, caste alignments, women's public presence? The sociologist needs the historian's event-sequence to situate structural analysis in time; the historian needs the sociologist's structural lens to explain *why* specific groups mobilised. A weak answer lists generic differences without concrete, movement-specific questions.",
+     "self_check": true
+    },
+    {
+     "q": "The Subaltern Studies collective (Guha, Chakraborty, Pandey) explicitly positioned themselves at the intersection of history and sociology. Argue whether their work is better described as \"historical sociology\" or \"sociological history,\" defending your position with reference to their method of reading colonial archives \"against the grain\" to recover peasant consciousness.",
+     "a": "\"Historical sociology\" is more accurate: they use historical archives to build *sociological generalisations* about subaltern autonomy, consciousness, and rebellion as recurrent structural patterns across uprisings (1857, tribal revolts, peasant movements), not merely to narrate unique events. Reading archives \"against the grain\" is a sociological operation — extracting structural regularities (e.g., rumour networks, religious idioms, kinship solidarity) from fragmented, biased sources. Calling it \"sociological history\" would imply the primary output is a better historical narrative; their primary output is a *theory of subaltern politics*. A wrong answer that focuses only on their use of archives misses the theoretical ambition.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research question for a Class 12 sociology project that *requires* both historical and sociological methods to answer, set in your own city/district. Specify: (a) the historical sources you would consult, (b) the sociological fieldwork you would do, and (c) how you would integrate the two.",
+     "a": "Example: \"How did the 1970s land ceiling legislation in [your district] transform caste-land relations over two generations?\" (a) Historical sources: land revenue records (1950–80), legislative debates, court cases, old settlement reports. (b) Sociological fieldwork: interviews with Dalit and OBC families who gained/failed to gain land, focus groups with dominant-caste landlords, observation of current land-use patterns. (c) Integration: use historical data to establish the *legal-structural timeline* (what the law intended, how it was implemented/evaded), use fieldwork to reveal *lived consequences* (social mobility, continuing dependence, new conflicts), then show how the gap between legal intent and social outcome reveals the resilience of caste structure. A poor answer proposes a purely historical topic (e.g., \"history of my town's market\") or purely sociological topic (e.g., \"caste discrimination today\") without integration.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sociology and history are distinct but complementary disciplines: sociology examines recurrent social patterns, structures, and processes (synchronic analysis), while history investigates unique, temporally sequenced events and ______ (diachronic analysis); in the Indian context, their relationship is especially close because colonialism, nationalism, and social reform movements require both structural analysis (sociology) and temporal narrative (history) to be fully understood.",
+     "a": "transformations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are studying the 1857 Revolt: a historian would trace the sequence of events, leadership decisions, and military outcomes day by day; a sociologist would ask — what social groups ______, what structural grievances (land revenue, caste hierarchies, religious identity) made the revolt possible, and how did the revolt reshape social relations afterward?",
+     "a": "participated",
+     "self_check": true
+    },
+    {
+     "q": "What is Sociology and history? State the definition given in this lesson.",
+     "a": "Sociology and history are distinct but complementary disciplines: sociology examines recurrent social patterns, structures, and processes (synchronic analysis), while history investigates unique, temporally sequenced events and transformations (diachronic analysis); in the Indian context, their relationship is especially close because.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are studying the ______ Revolt: a historian would trace the sequence of events, leadership decisions, and military outcomes day by day; a sociologist would ask — what social groups participated, what structural grievances (land revenue, caste hierarchies, religious identity) made the revolt possible, and how did the revolt reshape social relations afterward?",
+     "a": "1857",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Sociology and history?",
+     "a": "Students often think \"sociology studies present, history studies past\" — a temporal distinction.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the methodological differences between sociology and history using Indian examples (e.g., caste, village studies, nationalism), and can articulate why Indian sociologists like Ghurye, Srinivas, and Desai necessarily drew on historical data, distinguishing this from \"historical sociology\" as a subfield.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

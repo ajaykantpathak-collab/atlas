@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a coin, a rigid cardboard sheet, and a protractor to demonstrate the concept of optimum speed on a banked curve. Describe the procedure, measurements, and how you would verify v₀ = √(Rg tan θ).",
      "a": "Procedure: Bend cardboard into a curved track of radius R ≈ 0.5 m. Fix it at angle θ (measure with protractor). Place coin at centre, rotate the whole assembly horizontally at controlled angular speed ω (use a variable-speed motor or hand drill with speed control). Increase ω gradually until coin stays at fixed radius without sliding up or down. Measure ω (revolutions per second). Calculate v = ωR. Compare with v₀ = √(Rg tan θ). Repeat for 3 angles. A poor answer that just says \"tilt the board and spin\" without specifying how to measure ω, control radius, or compare with formula reveals lack of experimental design thinking and confusion between angular speed and linear speed.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Banking of roads is the practice of raising the outer edge of a curved road above the inner edge at an angle θ (angle of banking) so that the horizontal component of the normal reaction provides the necessary ______ force for a vehicle to negotiate the curve safely, reducing or eliminating dependence on friction.",
+     "a": "centripetal",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ flyover curve near your city — the outer edge is visibly higher than the inner edge.",
+     "a": "highway",
+     "self_check": true
+    },
+    {
+     "q": "What is Banking of roads? State the definition given in this lesson.",
+     "a": "Banking of roads is the practice of raising the outer edge of a curved road above the inner edge at an angle θ (angle of banking) so that the horizontal component of the normal reaction provides the necessary centripetal force for a vehicle to negotiate the curve safely, reducing or eliminating dependence on friction.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can derive the expressions for optimum speed and maximum permissible speed on a banked road from a free-body diagram, correctly identify the direction of friction for speeds below and above optimum speed, and solve numerical problems involving simultaneous equations for normal reaction and friction force.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a highway flyover curve near your city — the outer edge is visibly higher than the inner edge.",
+     "a": "Observe",
+     "self_check": true
     }
    ]
   }

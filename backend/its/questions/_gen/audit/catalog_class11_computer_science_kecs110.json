@@ -1,0 +1,182 @@
+{
+ "catalog": "catalog_class11_computer_science_kecs110.json",
+ "concepts": [
+  {
+   "id": "kecs110.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "radius = 25",
+      "circumference = 2 * 3.14 * radius"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "radius = 36",
+      "circumference = 2 * 3.14 * radius"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "radius = 34",
+      "circumference = 2 * 3.14 * radius"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "radius = 22",
+      "circumference = 2 * 3.14 * radius"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "radius = 44",
+      "circumference = 2 * 3.14 * radius"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "radius = 42",
+      "circumference = 2 * 3.14 * radius"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "circumference = 2 * 3.14 * radius"
+   ]
+  },
+  {
+   "id": "kecs110.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "v1 = 11.7",
+      "v2 = 4.3",
+      "v3 = 94",
+      "v4 = 45",
+      "average = (v1 + v2 + v3 + v4) / 4"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "v1 = 92",
+      "v2 = 53",
+      "v3 = 18.7",
+      "v4 = 58",
+      "average = (v1 + v2 + v3 + v4) / 4"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "v1 = 66",
+      "v2 = 48",
+      "v3 = 82",
+      "v4 = 40",
+      "average = (v1 + v2 + v3 + v4) / 4"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "v1 = 92",
+      "v2 = 77",
+      "v3 = 96",
+      "v4 = 79",
+      "average = (v1 + v2 + v3 + v4) / 4"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "v1 = 64",
+      "v2 = 43",
+      "v3 = 86",
+      "v4 = 96",
+      "average = (v1 + v2 + v3 + v4) / 4"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "v1 = 42",
+      "v2 = 10.7",
+      "v3 = 60",
+      "v4 = 48",
+      "average = (v1 + v2 + v3 + v4) / 4"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "average = (v1 + v2 + v3 + v4) / 4"
+   ]
+  },
+  {
+   "id": "kecs110.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total_letters = 17.6",
+      "distinct_letters = 74",
+      "extra_copies = total_letters - distinct_letters"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total_letters = 95",
+      "distinct_letters = 82",
+      "extra_copies = total_letters - distinct_letters"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_letters = 6.7",
+      "distinct_letters = 37",
+      "extra_copies = total_letters - distinct_letters"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total_letters = 20",
+      "distinct_letters = 109",
+      "extra_copies = total_letters - distinct_letters"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "total_letters = 68",
+      "distinct_letters = 53",
+      "extra_copies = total_letters - distinct_letters"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total_letters = 19.7",
+      "distinct_letters = 53",
+      "extra_copies = total_letters - distinct_letters"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "extra_copies = total_letters - distinct_letters"
+   ]
+  }
+ ]
+}

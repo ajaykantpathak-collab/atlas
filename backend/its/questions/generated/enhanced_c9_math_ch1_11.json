@@ -34,6 +34,21 @@
      "q": "Create a real-world problem (using Indian context: a field, a park, a plot of land) where you need to find the area of a triangle given three coordinate points. Provide the coordinates and ask for the area.",
      "a": "Example: A triangular park in Delhi has corners at (100, 200), (300, 500), and (500, 200) in metres. Find its area in square metres. A good answer will set up the formula correctly and compute. A poor answer might use distance formula and Heron's formula, which is valid but shows they are not comfortable with the coordinate area formula.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This formula computes the signed area of the triangle, and the absolute value ensures a non-negative measure ______ of vertex order.",
+     "a": "regardless",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer in Punjab has a triangular plot of land with corners marked by GPS ______: (2, 3), (5, 7), and (8, 3).",
+     "a": "coordinates",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly substitute coordinates into the area formula, simplify the expression step by step, and interpret the result as a positive area in square units.",
+     "self_check": true
     }
    ]
   }

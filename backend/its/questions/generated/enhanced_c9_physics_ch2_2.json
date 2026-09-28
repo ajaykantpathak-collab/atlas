@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using only a stopwatch, a measuring tape, and a bicycle to determine whether your speed is uniform or non-uniform during a 100 m ride. Describe the procedure and the criterion for uniform speed.",
      "a": "Procedure: Mark every 10 m along a 100 m straight path. Ride the bicycle and record the time at each 10 m mark using the stopwatch (lap function). Calculate speed for each 10 m segment (10 m / time interval). If all segment speeds are equal (within measurement error), motion is uniform; if they vary, it is non-uniform. A poor answer (measuring only total time, or not segmenting the distance) reveals the student does not understand that uniform speed requires equal distances in equal time intervals throughout the journey.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Speed is a scalar physical quantity defined as the rate of change of distance ______ by an object with respect to time.",
+     "a": "travelled",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you ride your ______ from home to school along a winding road.",
+     "a": "bicycle",
+     "self_check": true
+    },
+    {
+     "q": "What is Speed? State the definition given in this lesson.",
+     "a": "Speed is a scalar physical quantity defined as the rate of change of distance travelled by an object with respect to time.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Speed?",
+     "a": "Students believe that average speed equals the arithmetic mean of individual speeds (v_avg = (v1 + v2)/2) regardless of time or distance intervals.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate average speed from total distance and total time including unit conversions between km/h and m/s, distinguish between uniform and non-uniform speed from a data table or description, and explain why speed is a scalar quantity while velocity is a vector.",
+     "self_check": true
     }
    ]
   }

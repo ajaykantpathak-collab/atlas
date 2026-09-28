@@ -27,12 +27,32 @@
     },
     {
      "q": "Critique this statement: *\"Any investment with a maturity of less than 3 months automatically qualifies as a Cash Equivalent.\"* Provide a counter-example from the NCERT text and explain which AS-3 criterion it violates.",
-     "a": "Correct Answer: The statement is **false**. Maturity ≤ 3 months is **necessary but not sufficient**. NCERT gives the counter-example: **Investments in shares are excluded unless they are in substance cash equivalents (like preference shares near redemption).** An equity share portfolio held for 2 months violates the **\"insignificant risk of changes in value\"** criterion — its market value can change significantly in 2 months. Similarly, a 2-month corporate bond of a distressed company violates the same criterion due to default risk.  \nA wrong answer (\"True, 3 months is the rule\") shows the student has memorised the maturity rule but missed the **dual criteria** (maturity + risk). This is a classic board exam trap: questions often give a 2-month investment in volatile securities and ask if it's a Cash Equivalent.",
+     "a": "(1) Stance — the statement is false, because a maturity of three months or less is necessary but not sufficient, (2) The missing criterion — the investment must also carry an insignificant risk of changes in value, (3) Counter-example — an equity share portfolio held for two months fails that test, since its market value can swing sharply within two months, (4) Further counter-example — a two-month bond of a distressed company fails on default risk, and share investments stay excluded unless in substance cash equivalents. A wrong answer that calls the three-month rule sufficient has memorised the maturity test but missed the dual criteria of maturity plus risk.",
      "self_check": true
     },
     {
      "q": "Create a realistic scenario for a manufacturing company where an item **appears** to be a Cash Equivalent (short maturity, high liquidity) but **must be excluded** per AS-3. Specify the item, its terms, and the exact AS-3 criterion it fails. Then, write the correct disclosure treatment in the Cash Flow Statement.",
      "a": "Expected Answer (sample):  \n**Scenario:** ABC Manufacturing invests ₹50 lakh in **Commercial Paper (CP) of a NBFC** maturing in 60 days. The CP is rated A1+ (high liquidity). However, the NBFC faces a sudden credit rating downgrade risk due to sectoral stress.  \n**Classification:** **Not a Cash Equivalent.**  \n**Failed Criterion:** \"Insignificant risk of changes in value\" — the downgrade risk means the realisable value may drop significantly before maturity.  \n**Correct Disclosure:** Show the CP under **Investing Activities** (purchase/sale of short-term investments not qualifying as cash equivalents) or as a separate line item \"Current Investments\" in the Balance Sheet. Do **not** include in \"Cash and Cash Equivalents\" opening/closing balances.  \nA poor answer (e.g., \"It's a Cash Equivalent because maturity < 3 months and rated high\") fails to apply the **risk criterion** in a dynamic context. The student must understand that AS-3 requires *judgment* on risk at the reporting date, not just at acquisition.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: As per ______ Standard-3 (AS-3), Cash comprises cash in hand and demand deposits with banks (i.e., balances that can be withdrawn at any time without notice).",
+     "a": "Accounting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Your bank balance shows ₹50 lakh, but you also hold ₹20 lakh in a 6-month Fixed Deposit, ₹10 lakh in ______ Bills maturing in 45 days, and ₹5 lakh in shares of a blue-chip company.",
+     "a": "Treasury",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______-month FD isn't instantly accessible without penalty; the shares fluctuate daily.",
+     "a": "6",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) state the exact AS-3 definition of Cash and Cash Equivalents using NCERT terminology, (2) classify a given list of financial instruments (e.g., bank overdraft, treasury bills, equity shares, fixed deposits > 3 months) as Cash, Cash Equivalent, or Neither with correct justification, and (3) explain why the.",
      "self_check": true
     }
    ]

@@ -34,6 +34,31 @@
      "q": "Design a thought experiment: You have a reaction with ΔG° = +50 kJ mol⁻¹ at 298 K. Initially, only reactants are present at standard state (1 bar each). Describe how ΔG, Q, and the system composition evolve as the reaction proceeds toward equilibrium. Sketch a qualitative graph of ΔG vs. extent of reaction (ξ), labeling ΔG°, ΔG = 0, and the equilibrium point.",
      "a": "Initial state: pure reactants at 1 bar ⇒ Q = 0 ⇒ ln Q = –∞ ⇒ ΔG = ΔG° + RT ln Q = –∞ (large negative). Reaction proceeds forward spontaneously. As products form, Q increases, ln Q becomes less negative, ΔG rises toward zero. At equilibrium: ΔG = 0, Q = K = e^(–ΔG°/RT) = e^(–50,000/2478) = e⁻²⁰·² ≈ 1.6 × 10⁻⁹ (very small). Graph: ΔG starts at –∞ (ξ=0), increases monotonically, crosses zero at ξ_eq (where Q=K), and would go to +∞ if reaction could proceed to pure products. A poor answer shows a straight line or misses that ΔG → –∞ as Q → 0, revealing misunderstanding of the logarithmic dependence.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The standard Gibbs energy change (ΔG°) of a reaction is ______ related to its equilibrium constant (K) by the equation ΔG° = –RT ln K, where R is the universal gas constant (8.314 J mol⁻¹ K⁻¹) and T is the absolute temperature.",
+     "a": "quantitatively",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a hydrogen fuel cell in a spacecraft: H₂ and O₂ react to form water, releasing ______ energy.",
+     "a": "electrical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The standard Gibbs energy change (ΔG°) of a reaction is quantitatively related to its equilibrium constant (K) by the equation ΔG° = –RT ln K, where R is the universal gas constant (______ J mol⁻¹ K⁻¹) and T is the absolute temperature.",
+     "a": "8.314",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive ΔG° = –RT ln K from ΔG = ΔG° + RT ln Q, calculate K from given ΔG° (or vice versa) with correct unit handling, and interpret the sign and magnitude of ΔG° to predict whether products or reactants predominate at equilibrium.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a hydrogen fuel cell in a ______: H₂ and O₂ react to form water, releasing electrical energy.",
+     "a": "spacecraft",
+     "self_check": true
     }
    ]
   }

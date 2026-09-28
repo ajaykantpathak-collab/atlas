@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch13_1",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch13_1",
+   "title": "c9_math_ch13_1",
+   "questions": [
+    {
+     "q": "Write the formula for the total surface area of a cuboid with length $l$, breadth $b$, and height $h$. Also write the formula for the lateral surface area of a cube of side $a$.",
+     "a": "**Correct answer:**  \nTSA of cuboid = $2(lb + bh + hl)$  \nLSA of cube = $4a^2$\n\n**What a wrong answer reveals:**  \nIf a student writes $lb + bh + hl$ (missing the factor 2), they are calculating the area of only three faces (one from each pair) and forgetting the opposite faces. If they write $6a^2$ for LSA of a cube, they are confusing total surface area with lateral surface area — a sign they haven't internalised that LSA excludes the top and bottom faces.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the lateral surface area of a cuboid of dimensions 10 cm × 8 cm × 6 cm as $2 \\times 6 \\times (10 + 8) = 216 \\text{ cm}^2$. Another student says the answer should be $2 \\times (10 \\times 8 + 8 \\times 6 + 6 \\times 10) = 376 \\text{ cm}^2$. Who is correct? Explain why the other formula gives a different value.",
+     "a": "**Correct answer:** The first student is correct. LSA of a cuboid = $2h(l + b) = 2 \\times 6 \\times (10 + 8) = 216 \\text{ cm}^2$. The second student used the TSA formula $2(lb + bh + hl)$, which includes the top and bottom faces ($lb$ and $lb$), so it gives a larger value.\n\n**What a wrong answer reveals:**  \nIf a student picks the second answer, they do not understand the distinction between \"lateral\" (side faces only) and \"total\" (all six faces). They likely memorise formulas without attaching meaning to \"lateral\" vs \"total\". This misconception leads to errors in real problems like painting walls (LSA) vs wrapping a closed box (TSA).",
+     "self_check": true
+    },
+    {
+     "q": "A closed cuboidal box has length 40 cm, breadth 30 cm, and height 20 cm. Find the cost of painting its entire outer surface at the rate of ₹15 per 100 cm².",
+     "a": "**Correct working:**  \nStep 1: Identify given: $l = 40 \\text{ cm}, b = 30 \\text{ cm}, h = 20 \\text{ cm}$, rate = ₹15 per 100 cm².  \nStep 2: Since the box is closed, use TSA = $2(lb + bh + hl)$.  \nStep 3: Substitute: $lb = 40 \\times 30 = 1200$, $bh = 30 \\times 20 = 600$, $hl = 20 \\times 40 = 800$.  \nStep 4: Sum = $1200 + 600 + 800 = 2600$. TSA = $2 \\times 2600 = 5200 \\text{ cm}^2$.  \nStep 5: Cost for 100 cm² = ₹15 → Cost for 1 cm² = ₹0.15. Total cost = $5200 \\times 0.15 = ₹780$.  \n**Answer: ₹780**\n\n**What a wrong answer reveals:**  \nIf a student gets ₹390, they likely forgot the factor 2 in TSA (calculated area of only 3 faces). If they get ₹7800, they may have used rate as ₹15 per cm² instead of per 100 cm² — a unit conversion error. If they used LSA, they misunderstood \"entire outer surface\" as walls only.",
+     "self_check": true
+    },
+    {
+     "q": "A cube and a cuboid have the same total surface area. The cube has side 10 cm. The cuboid has length 12 cm and breadth 8 cm. Find the height of the cuboid. Then compare their lateral surface areas — which is larger and by how much?",
+     "a": "**Correct working:**  \nStep 1: TSA of cube = $6a^2 = 6 \\times 10^2 = 600 \\text{ cm}^2$.  \nStep 2: TSA of cuboid = $2(lb + bh + hl) = 600$. Given $l=12, b=8$.  \nStep 3: $2(12 \\times 8 + 8h + 12h) = 600 \\Rightarrow 2(96 + 20h) = 600 \\Rightarrow 96 + 20h = 300 \\Rightarrow 20h = 204 \\Rightarrow h = 10.2 \\text{ cm}$.  \nStep 4: LSA of cube = $4a^2 = 4 \\times 100 = 400 \\text{ cm}^2$.  \nStep 5: LSA of cuboid = $2h(l+b) = 2 \\times 10.2 \\times (12+8) = 20.4 \\times 20 = 408 \\text{ cm}^2$.  \nStep 6: Cuboid's LSA is larger by $408 - 400 = 8 \\text{ cm}^2$.  \n**Answer: Height = 10.2 cm; Cuboid's LSA is larger by 8 cm².**\n\n**What a wrong answer reveals:**  \nIf a student equates LSA of cube to TSA of cuboid, they confuse the two concepts. If they solve $2(96 + 20h) = 600$ incorrectly (e.g., $96 + 20h = 600$), they mishandle the factor 2. If they compare TSA instead of LSA in the final step, they didn't read \"lateral surface areas\" carefully.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Find the side of a cube whose total surface area is 294 cm².\" Their working:  \n$6a^2 = 294 \\Rightarrow a^2 = 294/6 = 49 \\Rightarrow a = 7 \\text{ cm}$.  \nIs this correct? If yes, explain why dividing by 6 is the right first step. If no, correct it.",
+     "a": "**Correct answer:** Yes, the solution is correct. Dividing by 6 is the right first step because the total surface area of a cube is the sum of 6 identical square faces, each of area $a^2$. So $6a^2 = \\text{TSA} \\Rightarrow a^2 = \\text{TSA}/6$. Taking the square root gives the side length.\n\n**What a wrong answer reveals:**  \nIf a student says \"divide by 6 is wrong, should multiply by 6\", they don't understand that $6a^2$ means 6 times $a^2$, so to isolate $a^2$ you must divide. If they say $a = 49$ (forgetting square root), they confuse $a^2$ with $a$. This shows weak algebraic manipulation of squared terms.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context) that requires finding the lateral surface area of a cuboid, where the height is unknown but the TSA and the other two dimensions are given. Write the full problem statement and solve it.",
+     "a": "**Sample problem:**  \nA rectangular water tank (open at the top) is to be lined with waterproof sheets on its inner sides and bottom. The tank is 2.5 m long and 1.5 m wide. The total area of the sheet used (covering bottom and 4 sides) is 31 m². Find the depth (height) of the tank.\n\n**Solution:**  \nSince tank is open at top, area covered = bottom ($lb$) + 4 sides ($2h(l+b)$) = $lb + 2h(l+b)$.  \nGiven $l=2.5, b=1.5$, total area = 31.  \n$2.5 \\times 1.5 + 2h(2.5+1.5) = 31 \\Rightarrow 3.75 + 2h(4) = 31 \\Rightarrow 3.75 + 8h = 31 \\Rightarrow 8h = 27.25 \\Rightarrow h = 3.40625 \\text{ m}$.  \n**Answer: Depth ≈ 3.41 m**\n\n**What a poor answer reveals:**  \nIf a student writes a problem asking for TSA of a closed box but labels it \"LSA\", they don't grasp the context distinction. If they set up $2(lb+bh+hl) = \\text{given}$ for an open-top tank, they incorrectly include the top face. If they cannot form the equation, they struggle with translating word problems to algebra.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,21 @@
      "q": "Create your own instalment problem: A person borrows ₹50,000 and agrees to repay in 12 monthly instalments forming an AP. The first instalment is ₹3,000. What must the common difference be so that the loan is exactly repaid? Write the problem statement, solve it, then modify it: \"What if the person can only afford to increase by ₹200 monthly? How many months will repayment take?\"",
      "a": "Original problem: S₁₂ = 50000, a=3000, n=12. 50000 = 12/2[6000 + 11d] → 50000 = 6[6000+11d] → 8333.33 = 6000+11d → 11d = 2333.33 → d = ₹212.12 (not a nice integer — good problem design needs integer d!). Better: Let d=200, find n. 50000 = n/2[6000 + (n-1)200] → 100000 = n[6000+200n-200] → 100000 = 200n² + 5800n → n² + 29n - 500 = 0 → (n+50)(n-10)=0 → n=10 months. A poor answer gives non-integer d without noticing, or sets up quadratic incorrectly (e.g., forgetting the n/2 factor). This tests whether the student can reverse-engineer AP parameters and handle the quadratic that arises when n is unknown.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Word problems on instalments and savings in Arithmetic ______ involve real-life financial scenarios where amounts paid or saved at regular intervals form an AP.",
+     "a": "Progressions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to buy a smartphone costing ₹25,000 but can only pay in monthly ______.",
+     "a": "instalments",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently translate a financial word problem (loan repayment, monthly savings, hire purchase) into an AP model, identify the correct formula (sum or nth term), solve for the unknown variable, and interpret the answer in the context of rupees and time periods.",
+     "self_check": true
     }
    ]
   }

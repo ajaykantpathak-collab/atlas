@@ -292,7 +292,7 @@
     "how does heterospory lead to the seed habit",
     "what do you understand by heterospory and seed habit precursor"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -309,7 +309,16 @@
      "action": "Explain the evolutionary significance toward seed habit",
      "explain": "Retention of the female gametophyte on the parent sporophyte is a critical precursor to seed formation, as seen in Selaginella and Salvinia, which represent an evolutionary step toward the seed habit of gymnosperms."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "Heterospory = Megaspores + Microspores",
+     "compute": "Heterospory = Megaspores + Microspores"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.103.10",
@@ -380,7 +389,16 @@
      "explain": "Confirm the computed value matches the expected ploidy: sporophyte stages (zygote, capsule, rhizome) are diploid (2n), while gametophyte stages (protonema, prothallus) are haploid (n).",
      "compute": "final_answer = result"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "sporophyte = 2 * gametophyte",
+     "compute": "sporophyte = 2 * gametophyte"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

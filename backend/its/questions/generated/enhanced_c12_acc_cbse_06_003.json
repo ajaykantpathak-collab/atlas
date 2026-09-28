@@ -34,6 +34,31 @@
      "q": "Create a realistic scenario where a company issues debentures for consideration other than cash at a discount, involving the purchase of a running business (net assets). Specify all values, calculate the number of debentures, and draft the complete journal entry including the calculation of goodwill/capital reserve if applicable.",
      "a": "**Scenario:**  \nGreen Energy Ltd. acquires the business of Solar Power Traders (a proprietary firm) for an agreed purchase consideration of ₹2,00,00,000. The net assets taken over (Assets − Liabilities) are valued at ₹1,80,00,000. Payment is made by issuing 10% debentures of ₹100 each at a discount of 10%.\n\n**Calculations:**  \n1. Issue price per debenture = ₹100 − 10% = ₹90.  \n2. Number of debentures = Purchase consideration ÷ Issue price = ₹2,00,00,000 ÷ ₹90 = 2,22,222 debentures (approx; assume exact division for exam: use ₹1,80,00,000 consideration → 2,00,000 debentures).  \n   *Let's use clean numbers:* Purchase consideration = ₹1,80,00,000; Net assets = ₹1,60,00,000.  \n   Issue price = ₹90. Number of debentures = ₹1,80,00,000 ÷ ₹90 = 2,00,000 debentures.  \n   Nominal value = 2,00,000 × ₹100 = ₹2,00,00,000.  \n   Discount = 2,00,000 × ₹10 = ₹20,00,000.  \n   Goodwill = Purchase consideration − Net assets = ₹1,80,00,000 − ₹1,60,00,000 = ₹20,00,000.\n\n**Journal Entry:**  \nSundry Assets A/c Dr. (individual assets at agreed values)  \nGoodwill A/c Dr. 20,00,000  \nDiscount on Issue of Debentures A/c Dr. 20,00,000  \n To Sundry Liabilities A/c (individual liabilities at agreed values)  \n To 10% Debentures A/c 2,00,00,000  \n To Vendor (Solar Power Traders) A/c — *Wait, vendor is paid via debentures, so no vendor account.*  \n**Correct Entry:**  \nSundry Assets A/c Dr. (total agreed assets)  \nGoodwill A/c Dr. 20,00,000  \nDiscount on Issue of Debentures A/c Dr. 20,00,000  \n To Sundry Liabilities A/c (total agreed liabilities)  \n To 10% Debentures A/c 2,00,00,000  \n\n**Why this tests creation:** The student must synthesize: (a) business purchase accounting (net assets vs consideration → goodwill/capital reserve), (b) debenture issue at discount (discount calculation), (c) non-cash consideration (no bank entry), (d) correct debit/credit structure. A poor answer misses goodwill, miscalculates debentures using face value, or omits discount.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Issue of Debentures for ______ Other than Cash refers to the allotment of debentures by a company to vendors, promoters, or other parties in exchange for assets purchased, business acquired, or services rendered, instead of receiving cash.",
+     "a": "Consideration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family friend runs a manufacturing company, \"______ Tools Ltd.\" They need a new CNC machine worth ₹50 lakh but want to conserve cash.",
+     "a": "Precision",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family friend runs a manufacturing company, \"Precision Tools Ltd.\" They need a new CNC machine worth ₹______ lakh but want to conserve cash.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Pass correct journal entries for issue of debentures for non-cash consideration at par, premium, and discount in all scenarios (purchase of assets, purchase of business, payment to promoters); (2) Calculate the number of debentures to be issued when the issue price differs from face value; (3) Prepare the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family friend runs a ______ company, \"Precision Tools Ltd.\" They need a new CNC machine worth ₹50 lakh but want to conserve cash.",
+     "a": "manufacturing",
+     "self_check": true
     }
    ]
   }

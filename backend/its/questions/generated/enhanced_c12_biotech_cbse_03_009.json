@@ -34,6 +34,26 @@
      "q": "Design a **non-radioactive probe strategy** to detect a low-abundance viral RNA (2 kb) in a Northern blot from 10 µg total RNA. Specify: (i) probe type & synthesis method, (ii) label & detection system, (iii) hybridization buffer key components, (iv) one critical control. Justify each choice.",
      "a": "**Expected answer criteria**:  \n1. **Probe**: **Antisense RNA (riboprobe)** transcribed *in vitro* from linearized plasmid containing viral cDNA insert, using T7/SP6 RNA polymerase with **digoxigenin-UTP (DIG-UTP)** incorporation. *Why*: RNA-RNA hybrids are more stable (higher Tm) than DNA-RNA; DIG allows chemiluminescent detection with anti-DIG-AP + CSPD.  \n2. **Label/Detection**: **DIG-labeled riboprobe + anti-DIG-AP + CDP-Star/CSPD** (chemiluminescence). Sensitivity ~0.1 pg, no radioactivity, probe stable >1 year at -20°C.  \n3. **Hybridization buffer**: **50% formamide, 5× SSC, 0.1% SDS, 50 µg/mL tRNA, 1× Denhardt's, 10% dextran sulfate**. *Why*: Formamide lowers Tm (allows hybridization at 42–50°C, preserving RNA); tRNA/Denhardt's block non-specific binding; dextran sulfate increases effective probe concentration.  \n4. **Critical control**: **Sense-strand riboprobe (same vector, opposite orientation)** processed identically. *Why*: Controls for non-specific binding to RNA or membrane; any signal with sense probe indicates false positive.  \nA poor answer uses DNA probe with biotin (higher background), omits formamide (risk of RNA degradation at 68°C), or forgets sense control — revealing gaps in practical Northern blot design.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A probe is a single-stranded nucleic acid (DNA or RNA) or oligonucleotide sequence that is complementary to a target nucleic acid sequence, allowing specific detection via hybridization; it carries a detectable label (radioactive, fluorescent, ______, or colorimetric) for visualization.",
+     "a": "chemiluminescent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a library of 100,000 bacterial ______, each carrying a different DNA insert, and you need to find the single colony that contains the human insulin gene.",
+     "a": "colonies",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) classify probes by type (genomic DNA, cDNA, oligonucleotide, RNA) and labeling method (radioactive vs. non-radioactive), (2) explain the principle of hybridization-based detection in Southern/Northern blotting and colony hybridization, and (3) design a probe by specifying length, GC content, labeling.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a library of 100,000 ______ colonies, each carrying a different DNA insert, and you need to find the single colony that contains the human insulin gene.",
+     "a": "bacterial",
+     "self_check": true
     }
    ]
   }

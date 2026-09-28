@@ -4,15 +4,8 @@
   {
    "id": "gegp2.2.1",
    "title": "Integers: A Quick Recap",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the integer operation sign rules",
-     "explain": "apply the integer operation sign rules: total = 10 + (-8) gives 2",
-     "compute": "total = 10 + (-8)"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers 10 and -8.",
@@ -50,6 +43,8 @@
    "id": "gegp2.2.2",
    "title": "Adding and Subtracting Integers",
    "converted_to_compute": false,
+   "formula": "result = a + b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers 7 and -1.",
@@ -86,15 +81,9 @@
   {
    "id": "gegp2.2.3",
    "title": "Multiplying Integers: Sign Rules",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the integer operation sign rules",
-     "explain": "apply the integer operation sign rules: total = -23 + (8) gives -15",
-     "compute": "total = -23 + (8)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "same signs positive, different signs negative",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers -23 and 8.",
@@ -132,6 +121,8 @@
    "id": "gegp2.2.4",
    "title": "Division of Integers and Its Sign Law",
    "converted_to_compute": false,
+   "formula": "q = a / b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers -25 and 1.",

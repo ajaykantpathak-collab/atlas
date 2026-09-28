@@ -34,6 +34,31 @@
      "q": "Design a novel illusion figure that would test whether the \"carpentered world hypothesis\" applies to a population living in a circular-architecture culture (e.g., traditional yurt dwellers). Describe the figure, the predicted illusion magnitude, and the theoretical justification.",
      "a": "Create a \"Curved-Line Muller-Lyer\" variant: replace straight fins with curved arcs mimicking yurt roof/wall junctions. Prediction: yurt-dwellers would show stronger illusion for curved-fin version than straight-fin version; urban dwellers would show the reverse. Justification: perceptual learning tunes depth-cue interpretation to local environmental geometry — straight corners for carpentered worlds, curved junctions for yurt worlds. A poor answer that only modifies fin angles without theoretical grounding in ecological optics reveals inability to generate testable hypotheses from perceptual learning theory.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Visual illusions are systematic ______ where the perceptual experience consistently deviates from the physical reality of the stimulus, resulting from the brain's interpretive processes applying organizational principles (e.g., Gestalt laws, depth cues) to ambiguous or conflicting sensory input, leading to a non-veridical perception that is shared across observers under standard viewing conditions.",
+     "a": "misperceptions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are looking at railway tracks stretching into the ______ — they appear to converge, yet you know they are parallel.",
+     "a": "distance",
+     "self_check": true
+    },
+    {
+     "q": "What is Visual illusions? State the definition given in this lesson.",
+     "a": "Visual illusions are systematic misperceptions where the perceptual experience consistently deviates from the physical reality of the stimulus, resulting from the brain's interpretive processes applying organizational principles (e.g., Gestalt laws, depth cues) to ambiguous or conflicting sensory input, leading to a non-veridical.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This is the Ponzo illusion, and it reveals a profound truth: your brain is not a passive camera but an active interpreter that applies depth cues (linear perspective) to a ______D retinal image, misjudging size because it assumes the upper line is farther away.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Classify a given illusion as geometrical, movement, or ambiguous figure type and explain the specific perceptual mechanism (e.g., misapplied size-distance scaling, phi phenomenon, figure-ground reversal) causing it; (2) Distinguish universal illusions from culture-specific illusions and explain the role.",
+     "self_check": true
     }
    ]
   }

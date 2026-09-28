@@ -34,6 +34,31 @@
      "q": "Create a real-world problem (using Indian context: rupees, metres, kilograms, or school scenario) that requires computing 2⁸ to solve. Write the problem and its solution.",
      "a": "Example problem: \"A video is shared on WhatsApp. Each person who receives it forwards to 2 new people. If the chain starts with 1 person at 9 AM, how many people have received it by 9 AM after 8 rounds of forwarding?\" Solution: Round 0: 1 = 2⁰. Round 1: 2 = 2¹. ... Round 8: 2⁸ = 256 people. A good answer shows the doubling pattern clearly. A poor answer might use addition (1+2+4+...) confusing total recipients with new recipients in that round, or might not reach 256, showing they can't compute 2⁸ fluently.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A power of 2 is an expression of the form 2ⁿ where n is a non-negative integer, ______ the product of multiplying 2 by itself n times.",
+     "a": "representing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a ₹1 coin and each day your money ______.",
+     "a": "doubles",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a ₹______ coin and each day your money doubles.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute values of 2ⁿ for n up to 10 mentally or with minimal writing, recognize the doubling pattern to find missing exponents or values, and use powers of 2 to express given numbers (like 64, 128, 256) in exponential form.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you have a ₹1 coin and each day your money doubles.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

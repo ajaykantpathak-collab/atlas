@@ -1,0 +1,788 @@
+{
+ "catalog": "catalog_class12_chemistry_lech101.json",
+ "concepts": [
+  {
+   "id": "lech.01.1.2.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mass_solute = 116",
+      "total_mass_solution = 96",
+      "mass_pct = 100 * mass_solute / total_mass_solution"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mass_solute = 131",
+      "total_mass_solution = 31",
+      "mass_pct = 100 * mass_solute / total_mass_solution"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mass_solute = 147",
+      "total_mass_solution = 57",
+      "mass_pct = 100 * mass_solute / total_mass_solution"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mass_solute = 71",
+      "total_mass_solution = 155",
+      "mass_pct = 100 * mass_solute / total_mass_solution"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mass_solute = 63",
+      "total_mass_solution = 109",
+      "mass_pct = 100 * mass_solute / total_mass_solution"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mass_solute = 130",
+      "total_mass_solution = 164",
+      "mass_pct = 100 * mass_solute / total_mass_solution"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "mass_pct = 100 * mass_solute / total_mass_solution"
+   ]
+  },
+  {
+   "id": "lech.01.1.2.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "moles_solute = 12.1",
+      "moles_solvent = 3.2",
+      "x_solute = moles_solute / (moles_solute + moles_solvent)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "moles_solute = 15.7",
+      "moles_solvent = 11.9",
+      "x_solute = moles_solute / (moles_solute + moles_solvent)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "moles_solute = 1.8",
+      "moles_solvent = 14.1",
+      "x_solute = moles_solute / (moles_solute + moles_solvent)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "moles_solute = 13.1",
+      "moles_solvent = 19.8",
+      "x_solute = moles_solute / (moles_solute + moles_solvent)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "moles_solute = 15.9",
+      "moles_solvent = 0.9",
+      "x_solute = moles_solute / (moles_solute + moles_solvent)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "moles_solute = 13.4",
+      "moles_solvent = 10.7",
+      "x_solute = moles_solute / (moles_solute + moles_solvent)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "x_solute = moles_solute / (moles_solute + moles_solvent)"
+   ]
+  },
+  {
+   "id": "lech.01.1.2.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "moles_solute = 7.9",
+      "volume_solution_ml = 42",
+      "molarity = 1000 * moles_solute / volume_solution_ml"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "moles_solute = 4.5",
+      "volume_solution_ml = 62",
+      "molarity = 1000 * moles_solute / volume_solution_ml"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "moles_solute = 2.2",
+      "volume_solution_ml = 29",
+      "molarity = 1000 * moles_solute / volume_solution_ml"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "moles_solute = 14.6",
+      "volume_solution_ml = 79",
+      "molarity = 1000 * moles_solute / volume_solution_ml"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "moles_solute = 5",
+      "volume_solution_ml = 5.8",
+      "molarity = 1000 * moles_solute / volume_solution_ml"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "moles_solute = 1.9",
+      "volume_solution_ml = 55",
+      "molarity = 1000 * moles_solute / volume_solution_ml"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "molarity = 1000 * moles_solute / volume_solution_ml"
+   ]
+  },
+  {
+   "id": "lech.01.1.2.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "moles_solute = 8",
+      "mass_solvent_g = 69",
+      "molality = 1000 * moles_solute / mass_solvent_g"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "moles_solute = 6.7",
+      "mass_solvent_g = 25",
+      "molality = 1000 * moles_solute / mass_solvent_g"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "moles_solute = 1.3",
+      "mass_solvent_g = 76",
+      "molality = 1000 * moles_solute / mass_solvent_g"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "moles_solute = 10.7",
+      "mass_solvent_g = 72",
+      "molality = 1000 * moles_solute / mass_solvent_g"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "moles_solute = 13.5",
+      "mass_solvent_g = 50",
+      "molality = 1000 * moles_solute / mass_solvent_g"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "moles_solute = 2.8",
+      "mass_solvent_g = 19.9",
+      "molality = 1000 * moles_solute / mass_solvent_g"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "molality = 1000 * moles_solute / mass_solvent_g"
+   ]
+  },
+  {
+   "id": "lech.01.1.2.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mass_component = 158",
+      "total_mass_sample = 148",
+      "ppm = 1000000 * mass_component / total_mass_sample"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mass_component = 190",
+      "total_mass_sample = 74",
+      "ppm = 1000000 * mass_component / total_mass_sample"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mass_component = 74",
+      "total_mass_sample = 164",
+      "ppm = 1000000 * mass_component / total_mass_sample"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mass_component = 29",
+      "total_mass_sample = 143",
+      "ppm = 1000000 * mass_component / total_mass_sample"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mass_component = 177",
+      "total_mass_sample = 136",
+      "ppm = 1000000 * mass_component / total_mass_sample"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mass_component = 101",
+      "total_mass_sample = 2",
+      "ppm = 1000000 * mass_component / total_mass_sample"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "ppm = 1000000 * mass_component / total_mass_sample"
+   ]
+  },
+  {
+   "id": "lech.01.1.3.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "partial_pressure = 97",
+      "henry_constant = 63",
+      "x_gas = partial_pressure / henry_constant"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "partial_pressure = 452",
+      "henry_constant = 65",
+      "x_gas = partial_pressure / henry_constant"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "partial_pressure = 38",
+      "henry_constant = 32",
+      "x_gas = partial_pressure / henry_constant"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "partial_pressure = 440",
+      "henry_constant = 4.6",
+      "x_gas = partial_pressure / henry_constant"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "partial_pressure = 437",
+      "henry_constant = 66",
+      "x_gas = partial_pressure / henry_constant"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "partial_pressure = 316",
+      "henry_constant = 80",
+      "x_gas = partial_pressure / henry_constant"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "x_gas = partial_pressure / henry_constant"
+   ]
+  },
+  {
+   "id": "lech.01.1.4.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "p_a_pure = 23",
+      "p_b_pure = 47",
+      "x_b = 3.8",
+      "p_total = p_a_pure + (p_b_pure - p_a_pure) * x_b"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "p_a_pure = 69",
+      "p_b_pure = 25",
+      "x_b = 33",
+      "p_total = p_a_pure + (p_b_pure - p_a_pure) * x_b"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "p_a_pure = 83",
+      "p_b_pure = 75",
+      "x_b = 12.3",
+      "p_total = p_a_pure + (p_b_pure - p_a_pure) * x_b"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "p_a_pure = 3.2",
+      "p_b_pure = 54",
+      "x_b = 23",
+      "p_total = p_a_pure + (p_b_pure - p_a_pure) * x_b"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "p_a_pure = 18.7",
+      "p_b_pure = 72",
+      "x_b = 83",
+      "p_total = p_a_pure + (p_b_pure - p_a_pure) * x_b"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "p_a_pure = 38",
+      "p_b_pure = 13.4",
+      "x_b = 33",
+      "p_total = p_a_pure + (p_b_pure - p_a_pure) * x_b"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "p_total = p_a_pure + (p_b_pure - p_a_pure) * x_b"
+   ]
+  },
+  {
+   "id": "lech.01.1.6.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mass_solute = 33",
+      "molar_mass_solvent = 95",
+      "relative_lowering = 19.3",
+      "mass_solvent = 115",
+      "mm_solute = mass_solute * molar_mass_solvent / (relative_lowering * mass_solvent)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mass_solute = 175",
+      "molar_mass_solvent = 121",
+      "relative_lowering = 12.6",
+      "mass_solvent = 2.4",
+      "mm_solute = mass_solute * molar_mass_solvent / (relative_lowering * mass_solvent)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mass_solute = 107",
+      "molar_mass_solvent = 175",
+      "relative_lowering = 96",
+      "mass_solvent = 139",
+      "mm_solute = mass_solute * molar_mass_solvent / (relative_lowering * mass_solvent)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mass_solute = 186",
+      "molar_mass_solvent = 104",
+      "relative_lowering = 22",
+      "mass_solvent = 193",
+      "mm_solute = mass_solute * molar_mass_solvent / (relative_lowering * mass_solvent)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mass_solute = 105",
+      "molar_mass_solvent = 85",
+      "relative_lowering = 21",
+      "mass_solvent = 193",
+      "mm_solute = mass_solute * molar_mass_solvent / (relative_lowering * mass_solvent)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mass_solute = 131",
+      "molar_mass_solvent = 128",
+      "relative_lowering = 38",
+      "mass_solvent = 136",
+      "mm_solute = mass_solute * molar_mass_solvent / (relative_lowering * mass_solvent)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "mm_solute = mass_solute * molar_mass_solvent / (relative_lowering * mass_solvent)"
+   ]
+  },
+  {
+   "id": "lech.01.1.6.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "kb_constant = 17.8",
+      "molality = 8.2",
+      "delta_tb = kb_constant * molality"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "kb_constant = 68",
+      "molality = 0.1",
+      "delta_tb = kb_constant * molality"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "kb_constant = 14.1",
+      "molality = 7.7",
+      "delta_tb = kb_constant * molality"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "kb_constant = 92",
+      "molality = 2.1",
+      "delta_tb = kb_constant * molality"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "kb_constant = 64",
+      "molality = 9.8",
+      "delta_tb = kb_constant * molality"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "kb_constant = 38",
+      "molality = 1.5",
+      "delta_tb = kb_constant * molality"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "delta_tb = kb_constant * molality"
+   ]
+  },
+  {
+   "id": "lech.01.1.6.3.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "kf_constant = 39",
+      "molality = 1.8",
+      "delta_tf = kf_constant * molality"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "kf_constant = 89",
+      "molality = 5.5",
+      "delta_tf = kf_constant * molality"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "kf_constant = 77",
+      "molality = 5.7",
+      "delta_tf = kf_constant * molality"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "kf_constant = 90",
+      "molality = 4.8",
+      "delta_tf = kf_constant * molality"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "kf_constant = 84",
+      "molality = 3.6",
+      "delta_tf = kf_constant * molality"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "kf_constant = 69",
+      "molality = 0.1",
+      "delta_tf = kf_constant * molality"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "delta_tf = kf_constant * molality"
+   ]
+  },
+  {
+   "id": "lech.01.1.6.3.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "kf_constant = 56",
+      "mass_solute = 121",
+      "delta_tf = 120",
+      "mass_solvent = 99",
+      "mm_solute = 1000 * kf_constant * mass_solute / (delta_tf * mass_solvent)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "kf_constant = 22",
+      "mass_solute = 146",
+      "delta_tf = 52",
+      "mass_solvent = 189",
+      "mm_solute = 1000 * kf_constant * mass_solute / (delta_tf * mass_solvent)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "kf_constant = 7.3",
+      "mass_solute = 149",
+      "delta_tf = 85",
+      "mass_solvent = 64",
+      "mm_solute = 1000 * kf_constant * mass_solute / (delta_tf * mass_solvent)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "kf_constant = 51",
+      "mass_solute = 173",
+      "delta_tf = 54",
+      "mass_solvent = 139",
+      "mm_solute = 1000 * kf_constant * mass_solute / (delta_tf * mass_solvent)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "kf_constant = 30",
+      "mass_solute = 41",
+      "delta_tf = 53",
+      "mass_solvent = 49",
+      "mm_solute = 1000 * kf_constant * mass_solute / (delta_tf * mass_solvent)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "kf_constant = 74",
+      "mass_solute = 184",
+      "delta_tf = 89",
+      "mass_solvent = 38",
+      "mm_solute = 1000 * kf_constant * mass_solute / (delta_tf * mass_solvent)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "mm_solute = 1000 * kf_constant * mass_solute / (delta_tf * mass_solvent)"
+   ]
+  },
+  {
+   "id": "lech.01.1.6.4.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "moles_solute = 4.1",
+      "volume_litres = 67",
+      "gas_constant = 37",
+      "kelvin_temp = 113",
+      "osmotic = (moles_solute / volume_litres) * gas_constant * kelvin_temp"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "moles_solute = 2.5",
+      "volume_litres = 58",
+      "gas_constant = 63",
+      "kelvin_temp = 43",
+      "osmotic = (moles_solute / volume_litres) * gas_constant * kelvin_temp"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "moles_solute = 11.1",
+      "volume_litres = 92",
+      "gas_constant = 56",
+      "kelvin_temp = 109",
+      "osmotic = (moles_solute / volume_litres) * gas_constant * kelvin_temp"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "moles_solute = 2.1",
+      "volume_litres = 47",
+      "gas_constant = 52",
+      "kelvin_temp = 45",
+      "osmotic = (moles_solute / volume_litres) * gas_constant * kelvin_temp"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "moles_solute = 13.3",
+      "volume_litres = 18.7",
+      "gas_constant = 93",
+      "kelvin_temp = 74",
+      "osmotic = (moles_solute / volume_litres) * gas_constant * kelvin_temp"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "moles_solute = 1",
+      "volume_litres = 58",
+      "gas_constant = 27",
+      "kelvin_temp = 82",
+      "osmotic = (moles_solute / volume_litres) * gas_constant * kelvin_temp"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "osmotic = (moles_solute / volume_litres) * gas_constant * kelvin_temp"
+   ]
+  },
+  {
+   "id": "lech.01.1.7.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "normal_molar_mass = 172",
+      "abnormal_molar_mass = 77",
+      "vant_hoff = normal_molar_mass / abnormal_molar_mass"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "normal_molar_mass = 83",
+      "abnormal_molar_mass = 130",
+      "vant_hoff = normal_molar_mass / abnormal_molar_mass"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "normal_molar_mass = 140",
+      "abnormal_molar_mass = 30",
+      "vant_hoff = normal_molar_mass / abnormal_molar_mass"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "normal_molar_mass = 172",
+      "abnormal_molar_mass = 52",
+      "vant_hoff = normal_molar_mass / abnormal_molar_mass"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "normal_molar_mass = 9.3",
+      "abnormal_molar_mass = 119",
+      "vant_hoff = normal_molar_mass / abnormal_molar_mass"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "normal_molar_mass = 43",
+      "abnormal_molar_mass = 192",
+      "vant_hoff = normal_molar_mass / abnormal_molar_mass"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "vant_hoff = normal_molar_mass / abnormal_molar_mass"
+   ]
+  }
+ ]
+}

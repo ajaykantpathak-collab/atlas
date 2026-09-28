@@ -34,6 +34,36 @@
      "q": "Design a simple local observation chart for a school in Kolkata that tracks all four major weather elements during the onset of the monsoon season.",
      "a": "A successful chart should include columns for date/time, temperature (using a thermometer), wind direction (using a wind vane), humidity feel, and precipitation type/amount, recorded twice daily. A poor answer fails to list the core elements of weather or lacks a systematic tracking method.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Weather is the day-to-day state of the atmosphere at a specific place and time, ______ by changes in elements such as temperature, humidity, wind, and precipitation.",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look out your window on a hot summer morning in Delhi; you might see clear blue skies, but by late ______, sudden dark clouds and a cool gust of wind can bring a brief thunderstorm.",
+     "a": "afternoon",
+     "self_check": true
+    },
+    {
+     "q": "What is Weather? State the definition given in this lesson.",
+     "a": "Weather is the day-to-day state of the atmosphere at a specific place and time, characterized by changes in elements such as temperature, humidity, wind, and precipitation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This connects directly to what you learned in Grade ______ about daily weather diaries and atmospheric changes.",
+     "a": "6",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Weather?",
+     "a": "Students often think that \"weather\" only refers to whether it is raining or sunny, completely ignoring that wind speed, atmospheric pressure, and humidity are equally vital elements that define the daily atmospheric state.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Students can define weather using its core atmospheric elements and differentiate between momentary atmospheric conditions and seasonal trends in a specific Indian geographic region.",
+     "self_check": true
     }
    ]
   }

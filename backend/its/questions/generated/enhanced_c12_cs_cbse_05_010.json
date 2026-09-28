@@ -34,6 +34,26 @@
      "q": "Design a small real-world scenario (Indian context) where an INNER JOIN is the correct choice, and another where it would be incorrect. Write the scenario and the reason.",
      "a": "Correct: A library system linking Books (BookID, Title) and Loans (LoanID, BookID, MemberID) to list only books that have been loaned — INNER JOIN on BookID. Incorrect: Listing all books with loan details if any — then LEFT JOIN is needed because books never loaned should still appear. A poor answer gives vague scenarios or misidentifies the join type, showing lack of practical discrimination.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An INNER JOIN in SQL combines rows from two or more tables based on a matching column value, ______ only the rows where the join condition is satisfied in both tables.",
+     "a": "returning",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are managing a school ______: one table stores student details (StudentID, Name, Class) and another stores their exam marks (StudentID, Subject, Marks).",
+     "a": "database",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write a correct INNER JOIN query for two tables with a single matching column, explain which rows appear in the result and why, and predict the output given sample data.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a school database: one table stores student details (StudentID, Name, Class) and another stores their exam marks (StudentID, Subject, Marks).",
+     "a": "managing",
+     "self_check": true
     }
    ]
   }

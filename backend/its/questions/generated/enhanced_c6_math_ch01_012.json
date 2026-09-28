@@ -34,6 +34,31 @@
      "q": "Create an estimation problem involving rupees where rounding to the nearest hundred would give a helpful answer for a shopper.",
      "a": "\"I have ₹1000. If I buy a shirt for ₹420 and pants for ₹580, do I have enough?\" Answering with a problem like \"Estimate 123 + 456\" is technically correct but lacks the requested real-world context.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Estimation is the process of finding an ______ value that is close enough to the exact answer for a given purpose, achieved by rounding numbers to a specific place value.",
+     "a": "approximate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of adding 287 + 192 exactly, you can round 287 to 300 and 192 to 200.",
+     "a": "Instead",
+     "self_check": true
+    },
+    {
+     "q": "What is Estimation? State the definition given in this lesson.",
+     "a": "Estimation is the process of finding an approximate value that is close enough to the exact answer for a given purpose, achieved by rounding numbers to a specific place value.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Estimation?",
+     "a": "Students often round the wrong digit or \"double round\" (e.g., rounding 4,499 to 5,000 because 4,499 is close to 4,500).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to round 4-digit and 5-digit numbers to the nearest ten, hundred, or thousand and use these rounded values to find an approximate sum, difference, or product.",
+     "self_check": true
     }
    ]
   }

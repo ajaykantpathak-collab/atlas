@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using agar blocks and oat coleoptiles to demonstrate that auxin moves polarly (only basipetally) and not by simple diffusion. State the control and expected results.",
      "a": "Place auxin-containing agar block on *one side* of a decapitated coleoptile stump (asymmetric). If polar: bending *away* from the block (auxin moves down that side, elongates cells). If diffusion: symmetric elongation, no bending. Control: symmetric block placement → no bending. Expected: asymmetric block → curvature away from block, proving directional transport. A poor design (e.g., no control, or measuring only length) fails to isolate polarity from diffusion.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Auxins are a class of plant growth regulators (______) chemically characterized as indole compounds (primarily indole-3-acetic acid, IAA) that are synthesized in shoot and root apices and regulate cell elongation, apical dominance, root initiation, fruit development, and tropic responses through polar basipetal transport.",
+     "a": "phytohormones",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a tea ______ hedge in Assam or Darjeeling - the dense, bushy growth results from regular plucking of shoot tips.",
+     "a": "plantation",
+     "self_check": true
+    },
+    {
+     "q": "What is Auxins? State the definition given in this lesson.",
+     "a": "Auxins are a class of plant growth regulators (phytohormones) chemically characterized as indole compounds (primarily indole-3-acetic acid, IAA) that are synthesized in shoot and root apices and regulate cell elongation, apical dominance, root initiation, fruit development, and tropic responses through polar basipetal transport.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Auxins are a class of plant growth regulators (phytohormones) chemically characterized as indole compounds (primarily indole-______-acetic acid, IAA) that are synthesized in shoot and root apices and regulate cell elongation, apical dominance, root initiation, fruit development, and tropic responses through polar basipetal transport.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Auxins?",
+     "a": "Students believe \"auxin *causes* apical dominance by directly inhibiting lateral bud cells.\" The error: auxin from the apex does NOT enter lateral buds; it acts *indirectly* by depleting nutrients/sugars in the main stem and upregulating strigolactones (beyond NCERT) or maintaining high auxin in the stem that blocks cytokinin action.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the mechanism of auxin-mediated apical dominance with a diagram showing polar transport, predict the outcome of decapitation and auxin paste application experiments, and differentiate between natural (IAA, IBA) and synthetic (NAA, 2,4-D) auxins in agricultural applications.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Create an 8-digit number where the digit in the ten-crores place is impossible in the standard Indian system, explain why, and then write a valid 8-digit number where the digit in the crore place is double the digit in the ten-lakhs place.",
      "a": "An 8-digit number cannot have a digit in the \"ten-crores\" place because a ten-crores number has 9 digits, not 8. For the second part, a valid 8-digit number where the crore digit is double the ten-lakhs place could be $4,20,00,000$ (since 4 in the crore place is double 2 in the ten-lakhs place). A poor answer confuses total digit count with periods or fails to isolate the specific place values requested.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A crore is an 8-digit number in the Indian numbering system equal to 100 lakhs or ten million, ______ the place value immediately following the ten-lakhs place.",
+     "a": "representing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine the ______ of India announces a massive budget of nearly ten crore rupees to build new schools across every district, how would you write that number in digits on a cheque?",
+     "a": "government",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can read, write, compare, and expand 8-digit numbers up to 9,99,99,990 using the Indian place value system, and can solve real-world problems involving large financial or population figures.",
+     "self_check": true
     }
    ]
   }

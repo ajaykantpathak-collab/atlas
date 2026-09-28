@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a bicycle pump, a thermometer, and insulated tubing to demonstrate that work done on a gas increases its internal energy. Specify measurements, controls, and how you would calculate ΔU from your data.",
      "a": "Rapidly compress air in an insulated pump (adiabatic approximation). Measure initial temperature T₁, final temperature T₂ after n strokes. Control: ensure no heat exchange (insulate pump, work quickly). For air (diatomic), C_V ≈ 5R/2 per mole. Estimate moles from initial P, V, T using PV = nRT. ΔU = n C_V (T₂ – T₁). Compare with work estimated from force × distance per stroke. A poor answer (e.g., ignoring insulation, using C_P instead of C_V, or not estimating moles) reveals gaps in connecting macroscopic measurements to microscopic energy change, or confusion between constant-volume and constant-pressure heat capacities.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The First Law of ______ states that the heat energy (ΔQ) supplied to a thermodynamic system equals the sum of the increase in its internal energy (ΔU) and the work done by the system on its surroundings (ΔW), expressed as ΔQ = ΔU + ΔW.",
+     "a": "Thermodynamics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a pressure cooker on a stove: the flame supplies heat (ΔQ), the steam inside pushes the weighted lid upward doing work (ΔW), and the remaining energy raises the ______ and pressure of the steam — that increase is ΔU.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly apply the sign convention (ΔQ > 0 for heat added to system, ΔW > 0 for work done by system) to compute ΔU in multi-step processes, distinguish between state variables (U, P, V, T) and path variables (Q, W), and explain why \"heat content of a gas\" is a meaningless phrase while \"internal energy of a gas\" is.",
+     "self_check": true
     }
    ]
   }

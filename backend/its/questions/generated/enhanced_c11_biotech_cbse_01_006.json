@@ -21,18 +21,43 @@
      "self_check": true
     },
     {
-     "q": "Compare and contrast the *ex vivo* gene therapy approach used for ADA-SCID (Ashanthi De Silva, 1990) with the *in vivo* approach of Neovasculgen (approved in Russia, 2011). Analyze why the former targeted hematopoietic stem cells while the latter used direct plasmid injection.",
-     "a": "**Answer:**  \n| Feature | ADA-SCID (Ex vivo) | Neovasculgen (In vivo) |\n|---------|-------------------|------------------------|\n| **Target cells** | Autologous CD34+ hematopoietic stem/progenitor cells (HSPCs) | Skeletal muscle cells / endothelial cells at injection site |\n| **Vector** | Retroviral vector (MLV-based) integrating into genome | Plasmid DNA (non-integrating) encoding VEGF165 |\n| **Procedure** | Bone marrow harvest → transduction ex vivo → reinfusion | Direct intramuscular injection of plasmid DNA |\n| **Rationale** | HSPCs self-renew and differentiate into all blood lineages, providing permanent correction of lymphocyte ADA deficiency. Requires integration for long-term expression in dividing cells. | Muscle is post-mitotic; plasmid episomes persist long-term without integration risk. VEGF promotes angiogenesis for peripheral artery disease — local, transient expression suffices. |\n| **Risk** | Insertional mutagenesis (LMO2 activation caused leukemia in later SCID-X1 trials) | Low genomic integration risk; transient expression avoids oncogenesis. |\n**Misconception revealed:** Assuming all gene therapies use viral vectors or target stem cells. The choice depends on disease biology (systemic vs. local), cell turnover (dividing vs. non-dividing), and safety profile (integrating vs. non-integrating).",
+     "q": "Trace the correct sequence of steps in the ex vivo gene therapy used for ADA-SCID.",
+     "a": "The therapy runs: (1) Harvest the patient's own bone marrow stem cells (2) Transduce them with a retroviral vector carrying a functional ADA gene (3) Reinfuse the corrected cells into the patient (4) The engrafted cells restore ADA production, unlike in vivo plasmid injection which transfects muscle cells at the site. A wrong answer that injects the vector directly in vivo for ADA-SCID shows the student has missed that the ex vivo approach allows selection and checking of corrected cells before they re-enter the body.",
      "self_check": true
     },
     {
-     "q": "Critique the statement: \"Edible vaccines expressed in transgenic plants (e.g., potato expressing measles antigen) are the ideal solution for global immunization because they eliminate cold chain, needles, and trained personnel.\" Consider immunological, practical, and regulatory dimensions.",
-     "a": "**Answer:** The statement overpromises.  \n**Immunological:** Oral tolerance is a major hurdle — gut immune system defaults to tolerance (Treg induction, IgA) rather than systemic IgG immunity. Antigen degradation by gastric acid/proteases reduces dose precision. No licensed edible vaccine exists after 30+ years of research.  \n**Practical:** Dose standardization impossible (antigen content varies by plant, growing conditions, ripening). Potato requires cooking (denatures antigen); banana/lettuce have short shelf life. Cold chain still needed for seed/plantlet distribution.  \n**Regulatory:** GMO containment, environmental release, gene flow to wild relatives, and defining \"food vs. drug\" regulatory pathway are unresolved.  \n**Superior alternative:** Thermostable subunit/mRNA vaccines (e.g., lyophilized mRNA-LNP, microneedle patches) address needle/cold chain without GMO complexity.  \n**Misconception revealed:** Confusing \"antigen expression in plant\" with \"effective mucosal vaccine.\" Ignores the evolutionary barrier of oral tolerance and the stringent regulatory framework for biologics.",
+     "q": "Give the correct order of objections that weaken the case for edible vaccines as the ideal global immunization tool.",
+     "a": "The critique runs: (1) Gut immunity defaults to oral tolerance rather than systemic antibody response (2) Gastric acid and proteases degrade the antigen and ruin dose precision (3) Cooking or processing can denature the antigen in crops like potato (4) No licensed edible vaccine exists despite decades of work, so practical hurdles remain decisive. A wrong answer that only praises the end of cold chains and needles shows the student has missed that immunological and standardisation barriers must be answered first.",
      "self_check": true
     },
     {
      "q": "Propose a novel recombinant vaccine strategy for a hypothetical intracellular bacterial pathogen (e.g., *Mycobacterium tuberculosis*) that fails to elicit protective immunity with current subunit vaccines. Your design must specify: antigen selection rationale, delivery platform, adjuvant choice, and how it overcomes the Th2 bias of alum-adjuvanted subunit vaccines.",
      "a": "**Answer:**  \n**Antigen:** Fusion protein of ESAT-6 (early secreted antigenic target, 6 kDa) + Ag85B (mycolyl transferase) + RpfB (resuscitation-promoting factor) — covers active infection, latency, and reactivation phases.  \n**Platform:** Self-amplifying mRNA (saRNA) encapsulated in ionizable lipid nanoparticles (LNPs) — enables endogenous antigen expression, MHC-I cross-presentation for CD8+ T cell priming, and dose-sparing.  \n**Adjuvant:** LNP itself acts as adjuvant via TLR4/TRIF pathway; co-encode STING agonist (cGAMP) in saRNA for enhanced Th1/CTL polarization.  \n**Overcoming Th2 bias:** Alum drives Th2 (IL-4, IgG1/IgE) via NLRP3 inflammasome and uric acid release — poor for intracellular pathogens requiring Th1 (IFN-γ, IgG2a) and CTLs. saRNA-LNP+STING activates cytosolic sensors (RIG-I, MDA5, STING) → Type I IFN → IL-12 → Th1/CTL.  \n**Validation:** Prime-boost with BCG prime → saRNA boost in NHP model; measure lung CFU, polyfunctional T cells (IFN-γ+TNF-α+IL-2+), and tissue-resident memory T cells (TRM).  \n**Poor answer reveals:** Suggesting \"live attenuated\" (safety risk), \"viral vector\" (pre-existing immunity), or \"alum-adjuvanted protein\" (wrong Th profile) without mechanistic justification.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Biotechnology in medicine (Red Biotechnology) ______ the application of recombinant DNA technology, molecular biology, and cell culture techniques to develop diagnostic tools, therapeutic proteins (e.g., recombinant insulin, growth hormone), vaccines (recombinant, subunit, mRNA), and gene therapy strategies for treating genetic and acquired diseases.",
+     "a": "encompasses",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a diabetic ______ in rural India who needs daily insulin injections.",
+     "a": "patient",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ask: \"Before ______, this insulin came from pig pancreases — limited supply, allergic reactions, and ethical issues.",
+     "a": "1982",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the stepwise process of producing a recombinant therapeutic protein (like human insulin) in a heterologous host, differentiate between vaccine types (whole organism vs. subunit vs. nucleic acid) with Indian examples, and describe the principle of gene therapy using ADA-SCID as a case study.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a diabetic patient in rural India who needs daily insulin ______.",
+     "a": "injections",
      "self_check": true
     }
    ]

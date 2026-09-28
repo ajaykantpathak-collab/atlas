@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_08_002",
+   "title": "c12_app_cbse_08_002",
+   "questions": [
+    {
+     "q": "What is the index number of the base period by definition, and why is it always expressed as a pure number without units or percentage sign?",
+     "a": "The index number of the base period is **always 100** by definition. It is a pure number because it is a ratio of two quantities with the same units (e.g., price in current year / price in base year), so units cancel out. The ×100 is a scaling factor for readability, not a percentage — writing \"150%\" is incorrect; the index is simply **150**. A wrong answer (e.g., \"0\" or \"100%\") reveals the student confuses index number with percentage change or growth rate, and doesn't grasp that the base period is the reference anchor fixed at 100 for all index series.",
+     "self_check": true
+    },
+    {
+     "q": "A student computes the simple aggregative price index for 4 commodities and gets 125. They argue: \"Since the index is 125, prices rose by 25% on average.\" Is this statement correct? Explain why or why not, referencing the flaw in the simple aggregative method.",
+     "a": "The statement is **incorrect**. The simple aggregative index = (Σpₙ/Σp₀)×100 = 125 does imply a 25% increase in the **sum of prices**, but **not** the average percentage increase across commodities. The method is flawed because it uses absolute prices — a commodity priced at ₹10,000 (e.g., gold) dominates the sum over one at ₹10 (e.g., wheat), even if wheat is consumed in much larger quantities. The \"25% rise\" is a weighted average where weights are **prices themselves**, not quantities or importance. A student who agrees reveals they don't understand that simple aggregative method assigns **implicit weights = base-year prices**, making it unsuitable for heterogeneous baskets. The correct interpretation: \"The aggregate price level rose 25%,\" not \"average price rose 25%.\"",
+     "self_check": true
+    },
+    {
+     "q": "Given the following data for 3 commodities, compute the Laspeyres and Paasche price indices for 2023 with 2020 as base. Then state which index is higher and why, in one sentence.\n\n| Commodity | Price 2020 (p₀) | Price 2023 (pₙ) | Qty 2020 (q₀) | Qty 2023 (qₙ) |\n|-----------|------------------|------------------|----------------|----------------|\n| A         | 20               | 30               | 10             | 8              |\n| B         | 40               | 50               | 5              | 6              |\n| C         | 10               | 15               | 20             | 25             |",
+     "a": "**Laspeyres Index (base-year weights q₀):**  \nΣpₙq₀ = (30×10) + (50×5) + (15×20) = 300 + 250 + 300 = 850  \nΣp₀q₀ = (20×10) + (40×5) + (10×20) = 200 + 200 + 200 = 600  \nI_L = (850/600)×100 = **141.67**\n\n**Paasche Index (current-year weights qₙ):**  \nΣpₙqₙ = (30×8) + (50×6) + (15×25) = 240 + 300 + 375 = 915  \nΣp₀qₙ = (20×8) + (40×6) + (10×25) = 160 + 240 + 250 = 650  \nI_P = (915/650)×100 = **140.77**\n\n**Laspeyres (141.67) > Paasche (140.77)** because consumers reduced consumption of A (price rose 50%) and increased consumption of C (price rose 50% but base price low) — Laspeyres uses old quantities (higher weight on A), overstating cost of living; Paasche uses new quantities (shifted to cheaper C), understating it. A wrong comparison (e.g., \"Paasche higher\") reveals confusion about substitution bias direction.",
+     "self_check": true
+    },
+    {
+     "q": "For the same data in Diagnostic 3, compute Fisher's Ideal Index and verify whether it satisfies the Time Reversal Test. Show the check: I₀₁ × I₁₀ = 1 (or 10,000 if using index form).",
+     "a": "**Fisher's Index I₀₁ = √(I_L × I_P) = √(141.67 × 140.77) = √19943.5 ≈ 141.22**\n\n**Time Reversal Test:** Compute I₁₀ (2020 on base 2023) using Fisher formula with roles reversed.  \nLaspeyres for I₁₀ (weights = qₙ): Σp₀qₙ / Σpₙqₙ = 650/915 → I_L' = (650/915)×100 = 71.04  \nPaasche for I₁₀ (weights = q₀): Σp₀q₀ / Σpₙq₀ = 600/850 → I_P' = (600/850)×100 = 70.59  \nFisher I₁₀ = √(71.04 × 70.59) = √5014.5 ≈ 70.81  \nNow I₀₁ × I₁₀ = 141.22 × 70.81 ≈ 10,000 (since indices are ×100).  \n**Test satisfied** because Fisher uses geometric mean of both weight systems, making it symmetric. A student who computes I₀₁ × I₁₀ ≠ 10,000 likely used arithmetic mean or forgot to reverse weights correctly — revealing they don't grasp that time reversal requires **reciprocal relationship** when base/current swap.",
+     "self_check": true
+    },
+    {
+     "q": "A government uses Laspeyres CPI (base 2015) to adjust pensions. Over 10 years, consumers shift from expensive healthcare to cheaper generic drugs. The CPI shows 60% inflation. Critics say real pension erosion is less. Evaluate this claim using index number theory.",
+     "a": "The claim is **valid**. Laspeyres index uses **base-period quantities (2015)** as weights. If consumers substitute away from goods whose prices rose relatively faster (healthcare) toward cheaper alternatives (generics), the fixed-weight Laspeyres **overstates** the true cost-of-living increase because it doesn't capture substitution. The actual cost of maintaining 2015 utility level is lower than Laspeyres suggests. Paasche (current weights) would understate it. Fisher (geometric mean) is closer to true cost-of-living index (Konüs index). Thus, indexing pensions to Laspeyres CPI **overcompensates** pensioners slightly. A student who disagrees likely thinks Laspeyres is \"accurate\" because it's commonly used — missing the **substitution bias** concept central to index number theory and policy debates.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-index to track \"Student Cost of Living\" in your city for 2024 vs 2020. Choose 4 items, assign realistic weights (quantities), collect hypothetical prices, compute Laspeyres, Paasche, and Fisher indices. Explain which index you'd recommend for a student union negotiating hostel fee hikes and why.",
+     "a": "**Sample answer (criteria for evaluation):**  \nItems: Room rent (weight 50%), Mess food (30%), Transport (15%), Stationery (5%).  \nBase 2020 prices: ₹8000, ₹3000, ₹500, ₹200. Current 2024: ₹12000, ₹4000, ₹700, ₹250.  \nQuantities (weights): Base q₀ = [1, 1, 1, 1] (normalized); Current qₙ = [1, 1.1, 0.9, 1.2] (more food, less travel, more printing).  \nCompute Σp₀q₀, Σpₙq₀, Σp₀qₙ, Σpₙqₙ → Laspeyres, Paasche, Fisher.  \n**Recommendation: Fisher's Ideal Index** — because it balances Laspeyres' upward bias (fixed base weights ignore substitution to cheaper transport) and Paasche's downward bias (current weights reflect already-reduced consumption). For fee negotiation, Fisher is **most defensible** as it satisfies time reversal and factor reversal tests, and is internationally accepted (e.g., IMF, OECD use Fisher-type superlative indices). A poor answer picks Laspeyres \"because it's easier\" or Paasche \"because it's current\" — showing no grasp of **policy relevance of index properties**.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

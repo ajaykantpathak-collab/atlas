@@ -31,8 +31,23 @@
      "self_check": true
     },
     {
-     "q": "Design a composite figure for a garden bed that uses exactly three different basic shapes (choose from rectangle, triangle, circle, sector, segment) and has a total area of exactly 150 m². Provide a labelled sketch (description), all dimensions, and the step-by-step area calculation proving the total is 150 m².",
-     "a": "Example: A rectangle 10 m × 10 m = 100 m². An equilateral triangle of side 10 m attached to one side: area = (√3/4)×100 ≈ 43.3 m². A semicircle of radius 5 m cut out from the rectangle: area = ½×π×25 ≈ 39.25 m². Total = 100 + 43.3 - 39.25 = 104.05 m² (not 150). A correct answer must adjust dimensions to hit exactly 150. A poor answer uses random dimensions without verification or uses only two shapes. This tests synthesis and algebraic adjustment.",
+     "q": "Give the correct order of steps to verify that a composite garden bed of three basic shapes really totals 150 square metres.",
+     "a": "Verification proceeds: (1) Decompose the sketch into its basic shapes with labelled dimensions (2) Compute each part area separately, watching radius versus diameter (3) Add the joined regions and subtract the cut-out regions (4) Check that the combined total equals 150 square metres exactly. A wrong answer that adds every region including cut-outs, or never checks the target total, shows the student has missed that composite areas are algebraic sums where removed material is subtracted.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A composite plane figure is a shape formed by combining two or more basic plane figures (______, triangles, circles, sectors, segments) such that they share boundaries but do not overlap.",
+     "a": "rectangles",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a school is designing a new badge: a rectangular strip 10 cm by 3 cm with a ______ top of diameter 3 cm, and a triangular cut-out at the bottom for a pin.",
+     "a": "semicircular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can decompose any composite figure into non-overlapping basic shapes, correctly identify which areas to add or subtract, select and apply the appropriate area formula for each part (including Heron's formula, sector area, segment area), and compute the final area with correct units.",
      "self_check": true
     }
    ]

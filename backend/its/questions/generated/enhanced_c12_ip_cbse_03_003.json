@@ -34,6 +34,26 @@
      "q": "Design a network topology for a university campus with three buildings (Engineering, Science, Arts) each having 100 nodes. The campus backbone must support 1 Gbps between buildings, and a building’s internal failure must not affect inter-building traffic. Draw a labelled diagram and specify the topology used at each level (building-internal and campus-backbone).",
      "a": "**Expected answer:**  \n- **Building-internal:** Star topology (each floor → floor switch → building core switch). Provides fault isolation per node, easy expansion, and dedicated bandwidth.  \n- **Campus-backbone:** Tree topology with a core router/switch at the center connecting three building core switches (root with three branches). Alternatively, a partial mesh of building cores for redundancy.  \n- **Diagram:** Show three star clusters (one per building) connected via a central root node. Label cables: \"Cat6a 1Gbps\" for building-internal, \"Fiber 1Gbps+\" for backbone.  \n**Poor answer reveals:** Using bus for backbone (no fault isolation), or using a single star for entire campus (single point of failure at central switch). The student fails to apply hierarchical design principles.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Network topology defines the physical or logical ______ of nodes (computers, printers, servers) and the connections (links) between them in a computer network.",
+     "a": "arrangement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the network administrator for a new school ______ with three computer labs (30 PCs each), an admin office (10 PCs), and a library (5 PCs).",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Given a real-world scenario (e.g., school lab, bank branch, small office), the student must select the most appropriate topology, justify the choice by comparing at least three parameters (cost, fault tolerance, scalability, ease of troubleshooting), and identify the single point of failure for the chosen topology.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the network ______ for a new school building with three computer labs (30 PCs each), an admin office (10 PCs), and a library (5 PCs).",
+     "a": "administrator",
+     "self_check": true
     }
    ]
   }

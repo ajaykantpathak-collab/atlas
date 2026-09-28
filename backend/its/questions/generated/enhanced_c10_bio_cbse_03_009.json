@@ -34,6 +34,21 @@
      "q": "Design a simple labeled diagram that a Class 10 student could draw in the board exam to show the path of an ovum from ovary to uterus, including all structures it passes through and the specific region where fertilisation normally occurs. Indicate the direction of movement with arrows.",
      "a": "A good answer will show: (1) Left/right ovary with a follicle releasing an ovum (arrow out). (2) Fimbriae of the fallopian tube sweeping the ovum in (arrow into tube). (3) Fallopian tube labeled with \"Ampulla — site of fertilisation\" (arrow along tube). (4) Uterus with thick endometrial lining (arrow into uterus). (5) Cervix and vagina shown but not on the ovum's path (no arrow through them for ovum). Arrows must be unidirectional: ovary → fimbriae → fallopian tube (ampulla) → uterus. A poor diagram missing fimbriae, mislabeling fertilisation site as uterus, or showing ovum going to vagina reveals gaps in spatial understanding and functional anatomy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The female reproductive system in humans is a coordinated set of organs (ovaries, fallopian tubes, uterus, cervix, vagina, and external genitalia) that produces female gametes (ova), secretes sex hormones (estrogen and progesterone), facilitates ______, and supports embryonic and fetal development until birth.",
+     "a": "fertilisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Show a simple longitudinal diagram of the female reproductive tract and ask: \"If an egg is released from the ovary, what path must it travel to meet a sperm and then develop into a baby?\" Guide them to trace the journey: ovary → fallopian tube (site of ______) → uterus (site of implantation) → cervix → vagina (birth canal).",
+     "a": "fertilisation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can label all major structures of the female reproductive system on a diagram, explain the function of each structure in sequence from ovulation to parturition, and relate hormonal control (FSH, LH, estrogen, progesterone) to the menstrual cycle phases.",
+     "self_check": true
     }
    ]
   }

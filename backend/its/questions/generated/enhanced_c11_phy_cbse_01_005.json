@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a metre scale (least count 1 mm) and a stopwatch (least count 0.1 s) to measure the time period of a simple pendulum of length approximately 1 m. Explain how you would record the raw data, determine the number of significant figures for each measurement, and round the final calculated time period to the correct number of significant figures.",
      "a": "A good answer: Measure length L with metre scale → reading like 0.995 m (3 sig fig, since mm precision gives uncertainty in 3rd decimal). Measure time for 20 oscillations with stopwatch → e.g., 40.2 s (3 sig fig). Time period T = 40.2/20 = 2.01 s. The division by 20 (exact number, infinite sig fig) does not limit precision. T has 3 sig fig from time measurement. Compare with theoretical T = 2π√(L/g): √(0.995/9.8) = 0.3186... × 2π = 2.002... s → rounded to 3 sig fig = 2.00 s. A poor answer would round length to 1.00 m (losing precision), use g = 10 m/s² (reducing sig fig), or report T with 4+ sig fig, showing failure to track measurement precision through the calculation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Rounding off ______ figures is the process of reducing the number of digits in a measured or calculated value to reflect the precision of the measurement, following the convention that the last retained digit is increased by 1 if the first discarded digit is greater than 5, left unchanged if less than 5, and rounded to the nearest even digit when the first discarded digit is exactly 5.",
+     "a": "significant",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you ______ the length of a wooden plank using a metre scale with 1 mm least count and get 1.234 m.",
+     "a": "measure",
+     "self_check": true
+    },
+    {
+     "q": "What is Rounding off significant figures? State the definition given in this lesson.",
+     "a": "Rounding off significant figures is the process of reducing the number of digits in a measured or calculated value to reflect the precision of the measurement, following the convention that the last retained digit is increased by 1 if the first discarded digit is greater than 5, left unchanged if less than 5, and rounded to the nearest.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Rounding off significant figures?",
+     "a": "Students believe that \"rounding up when the digit is 5 or more\" is the universal rule, not knowing the even-odd convention for digit 5.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly round any numerical result to the required number of significant figures using the even-odd rule for digit 5, and can justify why intermediate steps in multi-step calculations must retain one extra digit to prevent rounding error accumulation.",
+     "self_check": true
     }
    ]
   }

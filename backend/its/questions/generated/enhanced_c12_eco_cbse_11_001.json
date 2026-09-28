@@ -34,6 +34,21 @@
      "q": "Construct a mini-budget for a hypothetical state government with the following items (in ₹ crore): GST collection 50,000; Salaries 30,000; Interest payments 15,000; Market borrowings 20,000; Road construction 25,000; Disinvestment 5,000. Present it in the two-component format (Revenue Budget and Capital Budget) and state the revenue surplus/deficit.",
      "a": "Revenue Budget: Receipts = GST 50,000 (Revenue Receipt). Expenditure = Salaries 30,000 + Interest 15,000 = 45,000 (Revenue Expenditure). Revenue Surplus = 5,000. Capital Budget: Receipts = Market borrowings 20,000 + Disinvestment 5,000 = 25,000 (Capital Receipts). Expenditure = Road construction 25,000 (Capital Expenditure). Capital Budget balanced. A student putting borrowings in Revenue Receipts or road construction in Revenue Expenditure fails the capital/revenue distinction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A government budget is an annual financial statement presenting the government's estimated receipts and ______ for a fiscal year (April 1 to March 31 in India), reflecting its fiscal policy priorities and economic objectives.",
+     "a": "expenditures",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a Class 12 student reading the news: \"Finance Minister presents Union Budget 2024-25; capital ______ raised to ₹11.1 lakh crore, fiscal deficit targeted at 5.1% of GDP.\" Start by asking: What exactly is this 'budget' document?",
+     "a": "expenditure",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between revenue and capital components of the budget, explain the three primary objectives (allocation, redistribution, stabilization) with Indian examples, and identify whether a given budget item (e.g., interest payments, disinvestment proceeds, GST collection) belongs to revenue or capital account.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,31 @@
+{
+ "catalog": "enhanced_c12_app_cbse_04_004",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_04_004",
+   "title": "c12_app_cbse_04_004",
+   "questions": [
+    {
+     "q": "State the precise condition for a rational function P(x)/Q(x) to be classified as a \"proper rational function\" and write the general form of the partial fraction decomposition for the expression 1/[(x-3)(x+2)²] with unknown constants.",
+     "a": "**Correct Answer:** A rational function P(x)/Q(x) is proper if degree of P(x) < degree of Q(x). For 1/[(x-3)(x+2)²], the decomposition is A/(x-3) + B/(x+2) + C/(x+2)².\n**Diagnosis:** If a student writes degree of P(x) ≤ degree of Q(x), they confuse \"proper\" with \"improper\" boundary condition. If they write A/(x-3) + B/(x+2)² (missing the B/(x+2) term), they fail to understand that *repeated* linear factors require terms for *every* power from 1 up to the multiplicity. This is the #1 structural error in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A student attempts to integrate ∫ (x³ + 2x² + 5)/(x² + 1) dx by directly writing the partial fraction decomposition as (Ax+B)/(x²+1). Explain why this approach is fundamentally flawed and state the mandatory first step.",
+     "a": "**Correct Answer:** The rational function is **improper** because degree of numerator (3) ≥ degree of denominator (2). Partial fraction decomposition *only applies to proper rational functions*. The mandatory first step is **polynomial long division** to rewrite it as (x + 2) + (-x + 3)/(x² + 1). Only the remainder fraction (-x+3)/(x²+1) is decomposed.\n**Diagnosis:** If the student doesn't recognize the improper fraction, they will attempt to solve for A, B in an identity that has no solution (since x³ term cannot be matched). This wastes 5-10 minutes in an exam and yields zero marks. The trap: NCERT Example 7 explicitly demonstrates this; students who skip reading the \"Improper\" classification step fall here.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the integral: ∫ (2x + 3)/[(x-1)(x+2)] dx. Show all steps: decomposition setup, solving for constants, and final integration.",
+     "a": "**Correct Answer:**\n1. Setup: (2x+3)/[(x-1)(x+2)] = A/(x-1) + B/(x+2)\n2. Clear denominator: 2x+3 = A(x+2) + B(x-1)\n3. Solve: Put x=1 → 5 = 3A → A = 5/3. Put x=-2 → -1 = -3B → B = 1/3.\n4. Integrate: ∫ [5/(3(x-1)) + 1/(3(x+2))] dx = (5/3)log|x-1| + (1/3)log|x+2| + C.\n**Diagnosis:** If a student gets A=1, B=1 (by equating coefficients incorrectly: A+B=2, 2A-B=3 → 3A=5, A=5/3... wait, if they solve 2A-B=3 and A+B=2 correctly they get A=5/3, B=1/3. A common error is sign mistake in constant term: writing 2A+B=3 instead of 2A-B=3). If they forget absolute values in log, they lose 1 mark in board marking scheme. If they write +C only at the very end, it's correct; writing +C after each integral is accepted but redundant.",
+     "self_check": true
+    },
+    {
+     "q": "Create a rational function integration problem that *requires* the student to: (a) Perform long division, (b) Decompose a proper fraction with a repeated linear factor, and (c) Integrate to get a result containing both a polynomial part, a logarithm, and a rational term (negative power). Provide the problem statement only.",
+     "a": "**Problem:** Evaluate ∫ (x³ + 2x² - x + 4) / [x(x-1)²] dx.\n**Criteria for Good Answer:** The problem must have numerator degree (3) ≥ denominator degree (3) → improper. Denominator must have a repeated linear factor (x-1)². The decomposition of the proper remainder must yield terms like A/x + B/(x-1) + C/(x-1)². Integration of C/(x-1)² gives -C/(x-1) (rational term), A/x and B/(x-1) give logs, long division quotient gives polynomial.\n**Diagnosis:** If a student creates a problem with only distinct linear factors, they miss the \"repeated factor → rational term\" connection. If they make denominator irreducible quadratic, they get arctan, not a rational term. This tests if they understand *which structural features produce which output types*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

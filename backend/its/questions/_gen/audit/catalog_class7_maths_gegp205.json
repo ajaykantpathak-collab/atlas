@@ -42,9 +42,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = 3 * 6"
-   ]
+   "steps_chain": []
   },
   {
    "id": "gegp2.5.2",
@@ -132,10 +130,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = sum((38, 19, 16, 15, 9))",
-    "mean = total / 5"
-   ]
+   "steps_chain": []
   },
   {
    "id": "gegp2.5.4",
@@ -181,10 +176,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "mean = (3 + 14 + 2) / 3",
-    "md = (abs(3 - mean) + abs(14 - mean) + abs(2 - mean)) / 3"
-   ]
+   "steps_chain": []
   }
  ]
 }

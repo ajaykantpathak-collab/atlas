@@ -1,0 +1,51 @@
+{
+ "catalog": "enhanced_c9_gram_cbse_80_002",
+ "concepts": [
+  {
+   "id": "enh:c9_gram_cbse_80_002",
+   "title": "c9_gram_cbse_80_002",
+   "questions": [
+    {
+     "q": "Edit: 'He didn't went to the doctor yesterday.'",
+     "a": "'went' → 'go' — after 'didn't' the verb returns to base; 'did' already carries the past. A wrong answer 'didn't goed' creates a new error instead of fixing the old.",
+     "self_check": true
+    },
+    {
+     "q": "Edit: 'She was cooking dinner and eats it quickly.'",
+     "a": "'eats' → 'ate' — tense drift; both actions share the past time-zone. A wrong answer changing 'was cooking' shows the student picks the wrong verb to fix.",
+     "self_check": true
+    },
+    {
+     "q": "Edit: 'Look! The baby crawl towards the door.'",
+     "a": "'crawl' → 'is crawling' — 'Look!' demands present continuous, and it needs the be-auxiliary. A wrong answer 'crawls' misses the marker entirely.",
+     "self_check": true
+    },
+    {
+     "q": "Editing tasks test the same tense sins in disguise: wrong form for the marker, double past ('didn't went'), missing auxiliaries ('she reading'), and tense drift ______ ('She was cooking and eats dinner').",
+     "a": "mid-sentence",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Editing tasks test the same tense sins in disguise: wrong form for the marker, double past ('didn't went'), missing ______ ('she reading'), and tense drift mid-sentence ('She was cooking and eats dinner').",
+     "a": "auxiliaries",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ workflow: read for meaning first, then audit each verb against its markers. 'He didn't went' — the error is 'went'; 'did' already carries the past, so the main verb must return to base. 'She was cooking and eats' — drift: one time-zone, one tense family.",
+     "a": "editing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student locates and corrects tense errors in editing passages — one error per line format — and names the rule each correction applies.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The editing ______: read for meaning first, then audit each verb against its markers. 'He didn't went' — the error is 'went'; 'did' already carries the past, so the main verb must return to base. 'She was cooking and eats' — drift: one time-zone, one tense family.",
+     "a": "workflow",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

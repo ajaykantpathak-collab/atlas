@@ -34,6 +34,26 @@
      "q": "Design a flowchart (text-based) showing the complete lifecycle of a share from physical certificate to electronic holding and back to physical (rematerialisation), labeling the role of each entity: Investor, DP, RTA, Depository, Company.",
      "a": "**Dematerialisation:** Investor → (submits DRF + certificates) → DP → (forwards) → RTA → (verifies & confirms) → Depository → (credits) → Investor's Demat account (via DP).\n**Rematerialisation:** Investor → (submits Remat Request Form) → DP → (forwards) → Depository → (confirms & instructs) → RTA → (prints certificates & updates register) → Company → (dispatches certificates) → Investor.\nA poor answer omits RTA, reverses the direction, or merges DP and Depository, showing lack of clarity on the distinct roles in the two opposing processes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A depository system is an electronic ______ that holds securities (shares, bonds, debentures) in digital form, eliminating physical certificates.",
+     "a": "infrastructure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you inherited physical share ______ of a company from the 1990s — paper documents that can be torn, lost, or forged.",
+     "a": "certificates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight is that the Demat account is the *storage* layer, the trading account is the *execution* layer, and the bank account is the *settlement* layer — all three must be linked for seamless T+______ settlement.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) explain the role of depositories (NSDL/CDSL) and Depository Participants in the Indian securities market, (2) describe the step-by-step process of dematerialisation and rematerialisation, and (3) distinguish between a Demat account, a trading account, and a bank account in the context of the trading.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "You are tasked with designing an introductory world geography textbook for Class 8 students in India. Propose which projection (Mercator or Robinson) you would select for the general world reference map, and explain your design choice based on cartographic priorities.",
      "a": "The Robinson projection should be chosen. A general educational reference map should give students an accurate sense of relative continental sizes and shapes without extreme polar exaggerations that mislead young learners into thinking high-latitude regions are massive compared to tropical nations like India. A poor answer choosing Mercator without recognizing that its high-latitude distortion misleads basic spatial perception reveals an inability to match cartographic properties with educational purposes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A map projection is a ______ method used to transfer the curved, three-dimensional surface of the Earth onto a flat, two-dimensional sheet.",
+     "a": "mathematical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine peeling a round *mosambi* (sweet lime) and trying to press the curved peel ______ flat onto your study table; the peel will tear, wrinkle, and stretch at the edges because a spherical surface cannot lie flat without deforming.",
+     "a": "completely",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between the Mercator and Robinson projections by explaining how each handles polar distortion and identify which projection is appropriate for marine navigation versus general thematic world mapping.",
+     "self_check": true
     }
    ]
   }

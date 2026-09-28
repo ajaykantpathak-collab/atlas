@@ -1,0 +1,56 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_07_002",
+   "title": "c12_soc_cbse_07_002",
+   "questions": [
+    {
+     "q": "What is the defining characteristic of the survey method that distinguishes it from the interview method?",
+     "a": "The survey method uses a fixed set of standardized questions administered to a relatively large number of respondents, whereas the interview method involves flexible, in-depth conversation with a small number of respondents. A wrong answer (e.g., \"surveys are always written and interviews are always oral\") reveals confusion between the mode of administration and the core logic of standardization vs. flexibility.",
+     "self_check": true
+    },
+    {
+     "q": "A student wants to study the unwritten rules of seating arrangement in the school canteen during lunch. Explain why observation is more suitable than a survey for this specific question.",
+     "a": "Observation captures actual behavior (where people sit, who sits with whom) without relying on respondents' memory or awareness of unwritten rules, which they may not articulate in a survey. A wrong answer (e.g., \"observation is easier\") shows the student is choosing based on convenience rather than the fit between method and the nature of the social phenomenon (implicit norms vs. explicit opinions).",
+     "self_check": true
+    },
+    {
+     "q": "You have two weeks, a budget of ₹500, and access to one nearby village. Your research question: \"How has the introduction of piped water changed the daily routines of women in this village?\" Choose the most appropriate single method and outline the first three steps you would take to implement it.",
+     "a": "Method: Interview (in-depth, flexible, small sample). Steps: 1) Identify 8–10 women of different ages/household positions through a key informant. 2) Develop an interview guide with open-ended topics (water collection, cooking, childcare, leisure) but no fixed questionnaire. 3) Conduct interviews in a private, comfortable setting, recording notes/ audio with consent. A wrong choice (survey) would fail because the question requires exploring nuanced, context-specific changes that a fixed questionnaire cannot capture, and the sample size is too small for representativeness.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the case study method and the survey method on the dimensions of generalizability and depth of understanding. Which method would you choose to study the impact of a new government scholarship scheme on a single tribal community, and why?",
+     "a": "Case study provides high depth (rich contextual detail, process tracing) but low generalizability; survey provides high generalizability (if sampled well) but low depth. For a single tribal community, a case study is appropriate because the goal is to understand the complex interplay of culture, bureaucracy, and economy in that specific context, not to generalize to all tribal communities. A wrong answer choosing survey for \"scientific rigor\" ignores the trade-off between breadth and depth and the specific research goal.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following research design: \"To study classroom participation patterns, I will observe two Class 12 sections for one period each and then give a survey to all students in those sections about their participation habits.\" Identify one major strength and one major limitation of this mixed-method approach.",
+     "a": "Strength: Triangulation — observation captures actual behavior (including silent participation) while survey captures self-perceived habits and reasons. Limitation: The observation period (one period per section) is too brief to establish reliable behavioral patterns; participation varies by subject, teacher, and day. A poor critique might focus only on \"small sample\" without recognizing the specific mismatch between observation duration and the variability of the phenomenon.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-project (title, research question, method, and one practical constraint) that uses the case study method to explore a social issue in your neighbourhood. The project must be feasible within 10 days.",
+     "a": "Example: Title: \"The Life of a Street Vendor: Negotiating Space and Livelihood.\" Research Question: \"How does a street vendor navigate municipal regulations, customer relations, and competition in a specific market lane?\" Method: Case study — shadow one vendor for 5 days, conduct 3 in-depth interviews, photograph the stall and surroundings. Constraint: Gaining the vendor's trust and securing permission from local authorities for observation. A weak answer would propose a topic too broad (\"street vendors in Delhi\") or a method mismatch (survey of 50 vendors in 10 days).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A sociological project type refers to the specific research method chosen to ______ investigate a social phenomenon, with the four primary types being Survey (standardized questions to a large sample), Observation (systematic watching and recording of behavior in natural settings), Interview (in-depth, flexible conversation with a small number of respondents), and Case Study (detailed examination of a single instance or small group to uncover deep contextual insights).",
+     "a": "systematically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to study how students in your school feel about the new ______ menu.",
+     "a": "cafeteria",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to match a given research question to the most appropriate method (survey, observation, interview, or case study) and justify the choice by referencing the method's strengths, limitations, and the practical constraints of time, resources, and access.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

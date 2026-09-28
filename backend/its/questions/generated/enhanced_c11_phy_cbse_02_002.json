@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using only a stopwatch, a measuring tape, and a toy car on a straight track to demonstrate that average speed can be non-zero while average velocity is zero. Describe the procedure, measurements, and calculations.",
      "a": "Procedure: Mark start point O. Run car from O to point A (1 m away), immediately reverse and return to O. Measure total time t_total with stopwatch. Measure OA = 1 m with tape. Calculations: displacement = 0 → v_avg = 0. Path length = 2 m → speed_avg = 2/t_total > 0. A good answer includes repetition for reliability and unit conversion to m/s. A poor answer (e.g., only measuring one-way time, or not reversing) shows failure to grasp that zero displacement requires returning to start, and that speed requires total path length.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Average velocity is the ratio of net displacement (Δx) to the time interval (Δt) during which the displacement occurs; it is a vector quantity with SI unit m/s, positive or negative depending on the chosen ______ axis direction.",
+     "a": "coordinate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a Delhi Metro train: it starts at Rajiv Chowk, goes to Kashmere Gate (5 km north), waits 2 ______, then returns to Rajiv Chowk.",
+     "a": "minutes",
+     "self_check": true
+    },
+    {
+     "q": "What is Average velocity? State the definition given in this lesson.",
+     "a": "Average velocity is the ratio of net displacement (Δx) to the time interval (Δt) during which the displacement occurs; it is a vector quantity with SI unit m/s, positive or negative depending on the chosen coordinate axis direction.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Average velocity?",
+     "a": "Students believe average speed is the arithmetic mean of speeds for different segments (e.g., (v₁+v₂)/2) regardless of whether time or distance intervals are equal.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) compute average velocity and average speed from numerical data or x-t graphs for multi-segment 1D motion, (2) correctly identify when the two quantities are equal versus when average speed exceeds the magnitude of average velocity, and (3) explain why average speed is defined as total path length/time rather than.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a laser pointer, a double slit made from two razor blades, and a metre scale to determine the wavelength of the laser. List the measurements you would take and the formula you would use.",
      "a": "Measure D (distance from slits to screen) with the metre scale. Shine the laser through the double slit onto a wall/screen. Measure the distance between 10 bright fringes (e.g., from n=0 to n=10) and divide by 10 to get β. Use λ = βd/D, where d is the known slit separation (can be measured with a micrometer or taken from manufacturer's specification). A poor answer omits averaging over multiple fringes or forgets to convert units consistently (e.g., mm to m).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In Young's double slit experiment, fringe width (β) is the distance between two ______ bright (or dark) fringes on the screen, given by β = λD/d, where λ is the wavelength of light, D is the distance from slits to screen, and d is the separation between the two slits.",
+     "a": "consecutive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a laser ______ shining through two closely spaced slits made on a blackened glass slide in a dark room — you see equally spaced bright and dark bands on the opposite wall.",
+     "a": "pointer",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) calculate fringe width β from given λ, D, d with correct units, (2) derive the intensity at any point on the screen using the phase difference formula, (3) explain why intensity maxima are 4I₀ and minima are zero for equal-amplitude coherent sources, and (4) solve multi-step problems combining fringe width and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a laser pointer shining through two closely spaced slits made on a ______ glass slide in a dark room — you see equally spaced bright and dark bands on the opposite wall.",
+     "a": "blackened",
+     "self_check": true
     }
    ]
   }

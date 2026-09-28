@@ -70,7 +70,16 @@
      "explain": "Add the residual volume to the vital capacity to get the total lung capacity",
      "compute": "total_lung_capacity = vital_capacity + residual_volume"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "vital_capacity = inspiratory_reserve + tidal_volume + expiratory_reserve",
+     "compute": "vital_capacity = inspiratory_reserve + tidal_volume + expiratory_reserve"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.114.3.1",

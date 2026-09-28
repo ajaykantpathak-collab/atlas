@@ -34,6 +34,36 @@
      "q": "Design a step-by-step diagnostic algorithm for a newborn with ambiguous genitalia to distinguish between Turner syndrome, Klinefelter syndrome, and a typical 46,XX or 46,XY karyotype, using Barr body test, karyotyping, and hormone assays.",
      "a": "1. Perform Barr body test on buccal smear: 0 Barr bodies → suspect 45,X (Turner) or 46,XY; 1 Barr body → suspect 47,XXY (Klinefelter) or 46,XX; 2 Barr bodies → 47,XXX, etc. 2. Confirm with karyotyping (gold standard). 3. Measure FSH/LH: elevated in both Turner and Klinefelter due to gonadal failure. 4. Test for SRY gene (if 46,XY but female phenotype → Swyer syndrome). A poor answer omits the confirmatory karyotype or misorders the steps, showing incomplete understanding of diagnostic hierarchy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Turner syndrome is a monosomy X condition (45,X) in females resulting from the absence of one X chromosome, while ______ syndrome is a trisomy condition (47,XXY) in males caused by an extra X chromosome; both arise from non-disjunction during meiosis and present distinct phenotypic features due to altered sex chromosome dosage.",
+     "a": "Klinefelter",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 14-year-old girl who hasn't started menstruation and has a webbed neck, and a tall teenage boy with reduced facial hair and enlarged breasts – both visit a ______ clinic.",
+     "a": "genetics",
+     "self_check": true
+    },
+    {
+     "q": "What is Turner syndrome? State the definition given in this lesson.",
+     "a": "Turner syndrome is a monosomy X condition (45,X) in females resulting from the absence of one X chromosome, while Klinefelter syndrome is a trisomy condition (47,XXY) in males caused by an extra X chromosome; both arise from non-disjunction during meiosis and present distinct phenotypic features due to altered sex chromosome dosage.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______-year-old girl who hasn't started menstruation and has a webbed neck, and a tall teenage boy with reduced facial hair and enlarged breasts – both visit a genetics clinic.",
+     "a": "14",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Turner syndrome?",
+     "a": "Students often believe Turner syndrome is inherited from the mother because the missing X is maternal in origin, and that Klinefelter syndrome is caused by an extra Y chromosome (47,XYY).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can compare the chromosomal basis, meiotic origin, clinical features, diagnostic methods (including Barr body analysis), and management strategies for Turner and Klinefelter syndromes, and explain how non-disjunction in oogenesis or spermatogenesis leads to each condition.",
+     "self_check": true
     }
    ]
   }

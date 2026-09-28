@@ -34,6 +34,31 @@
      "q": "Design a complete laundry protocol for a heavily soiled white cotton tablecloth with: (i) old coffee stains, (ii) candle wax drippings, (iii) general greasy particulate soil, (iv) yellowing from repeated washes. Specify reagent, temperature, mechanical action, and finishing agent for each stage. Present as a numbered 8-step procedure.",
      "a": "1. Stain removal—coffee (vegetable/tannin): Sponge fresh with cold water; old stain—apply glycerine, then borax solution (alkaline), rinse. 2. Stain removal—candle wax (oil/wax): Harden with ice, scrape, sponge with perchloroethylene/petrol (grease solvent), rinse. 3. Preparation: Mend tears, steep in cold water 30 min to remove loose dirt. 4. Washing: Hot water (60–90°C), heavy-duty alkaline detergent, friction washing (scrub board/brush) for 15 min—cotton withstands heat/alkali/friction. 5. Rinse: Multiple warm water rinses until foam-free. 6. Finishing—blueing: Dip in ultramarine blue solution (paste powder first) for 2 min, hydro-extract. 7. Finishing—starching: Cook rice starch to medium consistency, knead damp cloth, squeeze, line dry in sun (UV bleaching). 8. Ironing: Damp iron at 210°C (cotton setting), press along threads, fold. A poor answer omits stage-specific reagents, uses hot water for wax (melts deeper), skips blueing for yellowing, or irons bone-dry cotton (scorching).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Laundry process is the systematic sequence of operations—stain removal, fabric ______, washing with water and surfactants, finishing (blueing/starching), drying, and ironing—performed to remove soil, restore appearance, and maintain the functional properties of textile articles.",
+     "a": "preparation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a white cotton kurta stained with ______ from lunch, a silk dupatta with perfume marks, and a woollen sweater with food spills—all needing cleaning before a festival.",
+     "a": "turmeric",
+     "self_check": true
+    },
+    {
+     "q": "What is Laundry process? State the definition given in this lesson.",
+     "a": "Laundry process is the systematic sequence of operations—stain removal, fabric preparation, washing with water and surfactants, finishing (blueing/starching), drying, and ironing—performed to remove soil, restore appearance, and maintain the functional properties of textile articles.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Laundry process?",
+     "a": "Students believe \"laundry = washing + drying\" and treat stain removal, finishing, and ironing as optional extras.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can sequence the six stages of laundry in correct order, justify why each stage is necessary for a given fabric type (cotton, wool, silk, synthetic), and explain the consequence of omitting or misordering any stage on fabric appearance and longevity.",
+     "self_check": true
     }
    ]
   }

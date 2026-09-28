@@ -34,6 +34,26 @@
      "q": "Design a simple rule or mnemonic that a Class 9 student could use to remember the maximum electrons in the first four shells (K, L, M, N) and the order of filling for elements 1–20. Explain why your mnemonic works chemically.",
      "a": "A good mnemonic: \"K=2, L=8, M=18, N=32\" for capacities, but \"Fill order: 2, 8, 8, 18...\" for elements 1–20. Or a phrase: \"Two Eight Eight Eighteen\" for the filling sequence. It works because it encodes the 2n² values (2,8,18,32) and the octet limitation that modifies the third shell filling to 8 before the fourth shell starts. A poor answer would just list numbers without explaining the octet constraint.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The 2n² rule (Bohr-Bury scheme) states that the maximum number of electrons that can be ______ in a given electron shell (energy level) is 2n², where n is the principal quantum number (shell number = 1, 2, 3, ...).",
+     "a": "accommodated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a neon sign glowing orange-red: the light comes from ______ in neon atoms jumping between energy levels and releasing energy.",
+     "a": "electrons",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To know how many electrons each shell can hold, we use the ______n² rule.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write the correct electronic configuration (using 2,8,8,18... notation) for any element with atomic number 1–20, explain why the outermost shell cannot exceed 8 electrons even if 2n² allows more, and apply the rule to predict valency for the first 20 elements.",
+     "self_check": true
     }
    ]
   }

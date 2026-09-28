@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using onion epidermal cells and two different solutions to demonstrate that the tonoplast is selectively permeable. State the observation that would confirm selective permeability.",
      "a": "Place one onion peel in distilled water and another in 0.5 M sucrose solution with a drop of methylene blue stain. After 10 minutes, observe under microscope. In distilled water: cells become turgid, stain remains outside vacuole (tonoplast blocks large dye molecules). In sucrose: plasmolysis occurs, but if stain enters cytoplasm but not vacuole, it confirms tonoplast restricts solute entry based on size/charge. A poor answer that only describes plasmolysis/turgidity without addressing dye exclusion reveals the student cannot design an experiment that isolates membrane permeability from osmotic effects.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A vacuole is a membrane-bound organelle filled with cell sap (a solution of water, enzymes, ions, sugars, and waste products) bounded by a single membrane called the tonoplast; in mature plant cells, a large central vacuole occupies up to 90% of cell volume and maintains turgor pressure against the cell wall, while animal cells contain smaller, transient vacuoles involved in ______, exocytosis, and lysosomal degradation.",
+     "a": "endocytosis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a fresh spinach leaf and a wilted spinach leaf side by side — the fresh one is crisp and rigid, the wilted one is limp; this visible ______ is caused by water pressure inside plant cells pushing against their rigid cell walls.",
+     "a": "difference",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A vacuole is a membrane-bound organelle filled with cell sap (a solution of water, enzymes, ions, sugars, and waste products) bounded by a single membrane called the tonoplast; in mature plant cells, a large central vacuole occupies up to ______% of cell volume and maintains turgor pressure against the cell wall, while animal cells contain smaller, transient vacuoles involved in endocytosis, exocytosis, and lysosomal degradation.",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how the tonoplast's selective permeability and the composition of cell sap enable the central vacuole to generate turgor pressure in plant cells, and can contrast this with the roles of smaller vacuoles in animal cells regarding waste isolation and vesicle trafficking.",
+     "self_check": true
     }
    ]
   }

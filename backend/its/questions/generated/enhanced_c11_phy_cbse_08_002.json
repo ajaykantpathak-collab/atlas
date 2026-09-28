@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using household items to measure the longitudinal strain in a rubber band when stretched by known masses. List the materials, procedure, measurements needed, and how you would calculate strain. What assumption must you make about the rubber band's behavior for strain to be well-defined?",
      "a": "Materials: Rubber band, ruler (mm scale), known masses (10g, 20g, 50g), stand/clamp. Procedure: (1) Hang rubber band vertically, measure original length L₀. (2) Add mass m, measure new length L. (3) Calculate ΔL = L - L₀. (4) Strain = ΔL/L₀. (5) Repeat for different masses. Assumption: The rubber band deforms uniformly along its length (no necking or non-uniform stretching) so that ΔL/L₀ represents the strain at any cross-section. A poor answer omits the uniformity assumption or suggests measuring only final length without original length. Good answer includes unit conversion (mm to m) and notes that rubber is an elastomer — strain may not be proportional to stress.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Strain is the ______ measure of deformation representing the fractional change in a body's dimension (length, shape, or volume) relative to its original dimension when subjected to a deforming force.",
+     "a": "dimensionless",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a rubber band on your desk — when you pull it gently, its length ______ from 10 cm to 10.5 cm.",
+     "a": "increases",
+     "self_check": true
+    },
+    {
+     "q": "What is Strain? State the definition given in this lesson.",
+     "a": "Strain is the dimensionless measure of deformation representing the fractional change in a body's dimension (length, shape, or volume) relative to its original dimension when subjected to a deforming force.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Strain?",
+     "a": "Students often confuse \"strain\" with \"change in dimension\" (ΔL, Δx, ΔV) and treat strain as having units of length or volume.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify the type of strain (longitudinal, shearing, or volumetric) from a physical description or diagram, write the correct mathematical expression with proper variables, compute strain from given dimensional changes, and explain why strain is dimensionless while stress has units of pressure.",
+     "self_check": true
     }
    ]
   }

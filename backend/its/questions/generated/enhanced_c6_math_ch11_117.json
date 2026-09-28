@@ -34,6 +34,21 @@
      "q": "Design a short set of instructions for a friend who has never used a compass to bisect a 90° angle.",
      "a": "The instructions should include: 1) Place compass on vertex, draw arc cutting both arms. 2) Place compass on one intersection, draw arc inside. 3) Without changing width, place compass on other intersection, draw arc crossing the first. 4) Use ruler to connect vertex to the crossing point. Poor answers lack the \"constant radius\" step, which is critical for accuracy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An angle ______ is a ray that starts at the vertex of an angle and divides it into two smaller angles of exactly equal measure.",
+     "a": "bisector",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a piece of paper shaped like a slice of pizza and you want to share it ______ with a friend; how would you find the exact middle line to cut it?",
+     "a": "perfectly",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to use a compass and ruler to construct an angle bisector for any given angle and verify that the two resulting angles are equal using a protractor.",
+     "self_check": true
     }
    ]
   }

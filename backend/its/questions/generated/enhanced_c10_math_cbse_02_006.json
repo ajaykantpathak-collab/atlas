@@ -34,6 +34,16 @@
      "q": "Construct a cubic polynomial with integer coefficients whose zeros are \\( 2, -1, \\) and \\( \\frac{1}{2} \\). Write the polynomial in standard form.",
      "a": "Zeros: \\( 2, -1, \\frac{1}{2} \\).\nSum = \\( 2 - 1 + 0.5 = 1.5 = \\frac{3}{2} \\).\nPairwise sum = \\( 2(-1) + (-1)(0.5) + (0.5)(2) = -2 -0.5 + 1 = -1.5 = -\\frac{3}{2} \\).\nProduct = \\( 2 \\times (-1) \\times 0.5 = -1 \\).\nTo avoid fractions, multiply by 2: \\( a=2 \\), then \\( b = -a(\\text{sum}) = -3 \\), \\( c = a(\\text{pairwise sum}) = -3 \\), \\( d = -a(\\text{product}) = 2 \\).\nPolynomial: \\( 2x^3 - 3x^2 - 3x + 2 \\).\nA poor answer (e.g., leaving fractions or wrong signs) reveals difficulty in clearing denominators or applying the formulas in reverse with scaling.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You know the tank has three critical ______ (zeros) that satisfy certain sum and product conditions.",
+     "a": "dimensions",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the three relations from the factored form, apply them to find unknown coefficients or zeros given partial information, and verify whether a given set of numbers can be zeros of a cubic polynomial by checking consistency with the coefficients.",
+     "self_check": true
     }
    ]
   }

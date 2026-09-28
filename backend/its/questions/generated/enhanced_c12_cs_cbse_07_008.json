@@ -34,6 +34,21 @@
      "q": "Create a Boolean identity (not from the textbook) that involves at least three variables, both operators, and at least one identity element (0 or 1). Then write its dual. Verify both are true by constructing truth tables for a specific case (choose any values for variables).",
      "a": "Example identity: A + (B · 1) = A + B. (Uses A,B, operators +,·, identity 1).\nDual: A · (B + 0) = A · B.\nVerification: Let A=1, B=0.\nOriginal LHS: 1 + (0·1) = 1+0 = 1. RHS: 1+0 = 1. ✓\nDual LHS: 1 · (0+0) = 1·0 = 0. RHS: 1·0 = 0. ✓\nA poor answer would create an invalid identity (e.g., A + B = A·B) or forget to include 0/1, or complement variables in the dual. The verification step must show both sides match for the chosen values, confirming the dual is also an identity. This tests synthesis: creating a valid starting identity, correctly applying duality, and empirically verifying the principle.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Principle of Duality states that every valid Boolean expression remains valid if we ______ interchange the AND (·) and OR (+) operators and interchange the identity elements 0 and 1, while keeping the variables and their complements unchanged.",
+     "a": "simultaneously",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have proved a theorem in Boolean algebra: \"A + A·B = A\" (______ Law).",
+     "a": "Absorption",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) correctly write the dual of any given Boolean expression by applying the three interchanges (AND↔OR, 0↔1), (2) explain why the dual of a theorem is also a theorem without re-proving it, and (3) distinguish between the dual of an expression and its complement (De Morgan's application).",
+     "self_check": true
     }
    ]
   }

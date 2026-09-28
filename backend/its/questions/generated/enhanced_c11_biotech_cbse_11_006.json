@@ -34,6 +34,31 @@
      "q": "Design a mini-project outline: You have a folder of 50 GenBank files for different bacterial genomes. You want to build a dictionary mapping each genome's accession number to a list of its gene names (from the 'gene' qualifier of CDS features). Describe the key steps, functions, and data structures you would use.",
      "a": "Key steps: 1) Use `os.listdir()` or `glob` to find all `.gbk` files. 2) For each file, parse with `SeqIO.parse(handle, \"genbank\")` (usually one record per file). 3) Extract `record.annotations[\"accession\"]` (or `record.id`). 4) Iterate `record.features`, filter `feature.type == \"CDS\"`. 5) For each CDS, get `feature.qualifiers.get(\"gene\", [\"\"])[0]` (handling missing qualifiers). 6) Append to list for that accession. 7) Store in dictionary `genome_genes[accession] = gene_list`. 8) Optionally serialize with `json` or `pickle`. A poor answer that suggests reading whole files as strings and using regex reveals inability to leverage Biopython's structured parsing and handle missing/qualifier lists properly.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: File handling in ______ refers to the programmatic reading and parsing of standardized biological sequence file formats—specifically FASTA (simple header-sequence pairs) and GenBank (richly annotated records with features, qualifiers, and metadata)—to extract nucleotide or protein sequences, identifiers, descriptions, and functional annotations for downstream computational analysis.",
+     "a": "bioinformatics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just downloaded the *BRCA1* gene sequence from NCBI in two formats: a FASTA file showing only the nucleotide sequence and a GenBank file containing the same sequence plus exon/intron boundaries, protein ______, and publication references.",
+     "a": "translations",
+     "self_check": true
+    },
+    {
+     "q": "What is File handling in bioinformatics? State the definition given in this lesson.",
+     "a": "File handling in bioinformatics refers to the programmatic reading and parsing of standardized biological sequence file formats—specifically FASTA (simple header-sequence pairs) and GenBank (richly annotated records with features, qualifiers, and metadata)—to extract nucleotide or protein sequences, identifiers, descriptions, and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just downloaded the *BRCA______* gene sequence from NCBI in two formats: a FASTA file showing only the nucleotide sequence and a GenBank file containing the same sequence plus exon/intron boundaries, protein translations, and publication references.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write a Python script using Biopython's SeqIO module to parse both FASTA and GenBank files, correctly extract sequence data, record identifiers, descriptions, and feature annotations (e.g., CDS, gene, exon), and explain the structural differences between the two formats that necessitate different parsing strategies.",
+     "self_check": true
     }
    ]
   }

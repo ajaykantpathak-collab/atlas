@@ -1,257 +1,446 @@
 {
-  "class": 12,
-  "subject": "maths",
-  "chapter": 202,
-  "chapter_title": "Application of Integrals",
-  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lemh202.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "provenance": "zcode author-first draft; gate-validated",
-  "concepts": [
+ "class": 12,
+ "subject": "maths",
+ "chapter": 202,
+ "chapter_title": "Application of Integrals",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lemh202.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "provenance": "zcode author-first draft; gate-validated",
+ "concepts": [
+  {
+   "id": "lemh.202.8.2.1",
+   "title": "Area Under a Curve as a Definite Integral",
+   "section": "8.2",
+   "definition": "The region trapped between a curve, the x-axis and two vertical lines is filled with thin rectangles of height y and width dx; adding their areas turns the question into one definite integral of the function between the two vertical lines.",
+   "formula": "area = integral from lower to upper of f(x) dx",
+   "key_idea": "Thin vertical strips convert a planar region into a single definite integral.",
+   "textbook_ref": "lemh202.txt section 8.2 (lines ~24-100)",
+   "question_patterns": [
+    "find the area bounded by the curve and the x axis between two ordinates",
+    "compute the region trapped between the graph, the x axis and the vertical lines",
+    "set up the integral that measures the area under the curve",
+    "evaluate the area of the strip filled region under the graph",
+    "express the bounded region as an integral with lower and upper limits",
+    "determine the definite integral that equals the shaded area"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "lemh.202.8.2.1",
-      "title": "Area Under a Curve as a Definite Integral",
-      "section": "8.2",
-      "definition": "The region trapped between a curve, the x-axis and two vertical lines is filled with thin rectangles of height y and width dx; adding their areas turns the question into one definite integral of the function between the two vertical lines.",
-      "formula": "area = integral from lower to upper of f(x) dx",
-      "key_idea": "Thin vertical strips convert a planar region into a single definite integral.",
-      "textbook_ref": "lemh202.txt section 8.2 (lines ~24-100)",
-      "question_patterns": [
-        "find the area bounded by the curve and the x axis between two ordinates",
-        "compute the region trapped between the graph, the x axis and the vertical lines",
-        "set up the integral that measures the area under the curve",
-        "evaluate the area of the strip filled region under the graph",
-        "express the bounded region as an integral with lower and upper limits",
-        "determine the definite integral that equals the shaded area"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "Read off the bounding curve and the two vertical boundaries", "explain": "The ordinates become the lower and upper limits of integration."},
-        {"step": 2, "action": "Write the strip element of height y and width dx", "explain": "Each thin rectangle contributes y dx, so the total is the integral of y dx."},
-        {"step": 3, "action": "Evaluate the definite integral of the curve between the limits", "explain": "The antiderivative difference gives the geometric area."}
-      ]
+     "step": 1,
+     "action": "Read off the bounding curve and the two vertical boundaries",
+     "explain": "The ordinates become the lower and upper limits of integration."
     },
     {
-      "id": "lemh.202.8.2.2",
-      "title": "Area Using Horizontal Strips with x as a Function of y",
-      "section": "8.2",
-      "definition": "When the boundary is easier to describe sideways, horizontal strips of width dy are used instead: the region against the y-axis between two horizontal lines integrates the x-expression over that y-interval.",
-      "formula": "area = integral from c to d of g(y) dy where the curve is x = g(y)",
-      "key_idea": "Swap the roles of the axes: integrate x over y to sweep horizontal strips.",
-      "textbook_ref": "lemh202.txt section 8.2 horizontal strips (lines ~68-100) and example 1 alternative",
-      "question_patterns": [
-        "find the area bounded by the curve and the y axis between two horizontal lines",
-        "compute the region between the curve and the y axis using horizontal strips",
-        "integrate x with respect to y to obtain the area",
-        "evaluate the area of a region described as x equal to a function of y",
-        "set up a dy integral for the bounded region",
-        "decide whether vertical or horizontal strips suit the given region"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "Rewrite the boundary equation with x alone on one side", "explain": "Solving for x in terms of y gives the strip length g(y)."},
-        {"step": 2, "action": "Identify the y-values of the horizontal boundaries", "explain": "These become the limits c and d of the dy integral."},
-        {"step": 3, "action": "Integrate g(y) dy between the limits", "explain": "The sweep of horizontal rectangles equals the region area."}
-      ]
+     "step": 2,
+     "action": "Write the strip element of height y and width dx",
+     "explain": "Each thin rectangle contributes y dx, so the total is the integral of y dx."
     },
     {
-      "id": "lemh.202.8.2.3",
-      "title": "Area When Parts of the Curve Lie Below the Axis",
-      "section": "8.2",
-      "definition": "A definite integral signed by the axis gives negative contributions where the curve dips under; geometric area is recovered by splitting the interval at every axis crossing and adding the absolute value of each piece.",
-      "formula": "total_area = absolute value of piece1 + absolute value of piece2 over the split intervals",
-      "key_idea": "Split at the zeros of the curve, then add magnitudes instead of signed values.",
-      "textbook_ref": "lemh202.txt section 8.2 remark and example 3 (lines ~84-99, ~480-565)",
-      "question_patterns": [
-        "find the true area when the curve goes below the x axis",
-        "split the interval at the axis crossing before integrating the area",
-        "explain why the raw integral can be negative for an area question",
-        "compute the total area bounded by a line that crosses the x axis between the limits",
-        "add the absolute values of the negative and positive pieces of the region",
-        "evaluate the area bounded by the curve and the axis when the sign changes"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "Locate the zeros of the curve inside the interval", "explain": "Each crossing divides the region into an above-axis and a below-axis part."},
-        {"step": 2, "action": "Integrate separately over each sub-interval", "explain": "Sub-integrals inherit the sign of the curve on that stretch."},
-        {"step": 3, "action": "Add the absolute values of the sub-integrals", "explain": "Geometric area is never negative, so magnitudes are summed."}
-      ]
-    },
-    {
-      "id": "lemh.202.8.2.4",
-      "title": "Area Enclosed by a Circle by Integration",
-      "section": "8.2",
-      "definition": "For the circle of radius r centred at the origin, the upper half has height the square root of r squared minus x squared; symmetry lets one integrate over the first quadrant and multiply by four, which reproduces the familiar pi r squared.",
-      "formula": "area of the circle = pi * radius**2",
-      "key_idea": "Integrate one quadrant of the circle and multiply by four by symmetry.",
-      "textbook_ref": "lemh202.txt example 1 (lines ~103-236)",
-      "question_patterns": [
-        "find the area enclosed by the circle using integration",
-        "compute the area of the region inside a circle of given radius",
-        "verify by integration that the circle area equals pi times radius squared",
-        "evaluate four times the first quadrant integral for the circle",
-        "integrate the square root of radius squared minus x squared over the quadrant",
-        "determine the enclosed area of the curve x squared plus y squared equals r squared"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "Compute one quadrant of the disc", "explain": "Symmetry makes the quadrant exactly a quarter of the full circle.", "compute": "quarter_area = pi * radius**2 / 4"},
-        {"step": 2, "action": "Multiply the quadrant by four", "explain": "The four symmetric quarters assemble the whole circle.", "compute": "circle_area = 4 * quarter_area"}
-      ]
-    },
-    {
-      "id": "lemh.202.8.2.5",
-      "title": "Area Enclosed by an Ellipse by Integration",
-      "section": "8.2",
-      "definition": "For the standard ellipse with semi-axes a and b, the upper branch has height b over a times the square root of a squared minus x squared; integrating one quadrant and multiplying by four yields pi times the product of the semi-axes.",
-      "formula": "area of the ellipse = pi * axis_a * axis_b",
-      "key_idea": "One quadrant of the ellipse integrates to pi times a times b over four.",
-      "textbook_ref": "lemh202.txt example 2 (lines ~237-436)",
-      "question_patterns": [
-        "find the area of the region bounded by the ellipse with given semi axes",
-        "compute the enclosed area of the standard ellipse by integration",
-        "evaluate four times the quadrant integral for the ellipse",
-        "verify that the ellipse area is pi times the product of the semi axes",
-        "integrate the upper branch of the ellipse over the first quadrant",
-        "determine the area inside the curve x squared over a squared plus y squared over b squared equals 1"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "Compute one quadrant of the elliptical region", "explain": "Symmetry gives a quarter of the whole ellipse.", "compute": "quarter_area = pi * axis_a * axis_b / 4"},
-        {"step": 2, "action": "Multiply the quadrant by four", "explain": "Assembling the four quadrants covers the full ellipse.", "compute": "ellipse_area = 4 * quarter_area"}
-      ]
-    },
-    {
-      "id": "lemh.202.8.2.6",
-      "title": "Area Between a Line and the x-axis Between Two Ordinates",
-      "section": "8.2",
-      "definition": "For a straight line sitting wholly above the x-axis on an interval, the swept region is a trapezium whose signed integral equals the antiderivative of the line at the right ordinate minus its value at the left ordinate.",
-      "formula": "area under the line = integral from lower to upper of slope*x + intercept dx",
-      "key_idea": "A line's area is the antiderivative difference across the two ordinates.",
-      "textbook_ref": "lemh202.txt example 3 (lines ~480-565)",
-      "question_patterns": [
-        "find the area bounded by the line and the x axis between two ordinates",
-        "compute the trapezium area under a straight line by integration",
-        "evaluate the region swept under the line from the left ordinate to the right ordinate",
-        "integrate the equation of the line between the given limits to get the area",
-        "determine the area under a line segment above the x axis",
-        "calculate the bounded region between a linear graph and the axis"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "Antiderivative of the line at the right ordinate", "explain": "The primitive of slope*x + intercept is slope*x**2/2 + intercept*x.", "compute": "anti_right = slope * upper**2 / 2 + intercept * upper"},
-        {"step": 2, "action": "Antiderivative of the line at the left ordinate", "explain": "The same primitive is evaluated at the lower limit.", "compute": "anti_left = slope * lower**2 / 2 + intercept * lower"},
-        {"step": 3, "action": "Subtract to sweep out the area", "explain": "The difference of the two values equals the bounded area.", "compute": "line_area = anti_right - anti_left"}
-      ]
-    },
-    {
-      "id": "lemh.202.8.2.7",
-      "title": "Area Under a Power Curve Between Two Limits",
-      "section": "8.2",
-      "definition": "For a power curve y equals a constant times x to the exponent, the region above the axis integrates by the power rule: lift the exponent by one, divide, then subtract the antiderivative values at the two limits.",
-      "formula": "area under the power curve = coef * (upper**(exp1 + 1) - lower**(exp1 + 1)) / (exp1 + 1)",
-      "key_idea": "The power rule plus a limit subtraction measures the region under a power curve.",
-      "textbook_ref": "lemh202.txt miscellaneous exercise 1 (lines ~630-641)",
-      "question_patterns": [
-        "find the area under the curve y equals x squared between two x values",
-        "compute the region under a power curve from the first limit to the second",
-        "evaluate the area trapped between the graph of x to the fourth and the x axis",
-        "integrate the power function between the ordinates to obtain the area",
-        "determine how much area lies beneath the parabola between the limits",
-        "calculate the bounded area under a curve of the form coefficient times x to the exponent"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "Apply the power rule at the upper limit", "explain": "The primitive coef*x**(exp1+1)/(exp1+1) is evaluated at upper.", "compute": "anti_upper = coef * upper**(exp1 + 1) / (exp1 + 1)"},
-        {"step": 2, "action": "Apply the power rule at the lower limit", "explain": "The same primitive is evaluated at lower.", "compute": "anti_lower = coef * lower**(exp1 + 1) / (exp1 + 1)"},
-        {"step": 3, "action": "Subtract the two values", "explain": "Upper minus lower is the area of the region.", "compute": "curve_area = anti_upper - anti_lower"}
-      ]
-    },
-    {
-      "id": "lemh.202.8.2.8",
-      "title": "Symmetry Shortcuts for Standard Curves",
-      "section": "8.2",
-      "definition": "Closed standard curves centred on the axes are symmetric in both directions, so the full enclosed area equals four times the first-quadrant part; this avoids integrating over the whole figure.",
-      "formula": "total enclosed area = 4 * integral from 0 to a of y dx over the first quadrant branch",
-      "key_idea": "Compute one symmetric piece and scale up instead of integrating everywhere.",
-      "textbook_ref": "lemh202.txt examples 1-2 symmetry arguments (lines ~104-115, ~249-275)",
-      "question_patterns": [
-        "use symmetry to compute the enclosed area from one quadrant only",
-        "explain why four times the first quadrant area gives the whole region",
-        "evaluate the total area of a symmetric closed curve from a single part",
-        "reduce the integral for the circle or ellipse to the first quadrant",
-        "decide when symmetry may replace a full sweep of the curve",
-        "compute the quadrant region and multiply by four to get the enclosed area"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "Check the curve for reflection symmetry in both axes", "explain": "Standard centred circles and ellipses mirror across the x and y axes."},
-        {"step": 2, "action": "Set up the integral over the first quadrant branch only", "explain": "The quadrant piece carries positive y throughout."},
-        {"step": 3, "action": "Multiply the quadrant area by four", "explain": "The four mirrored copies tile the whole enclosed region."}
-      ]
+     "step": 3,
+     "action": "Evaluate the definite integral of the curve between the limits",
+     "explain": "The antiderivative difference gives the geometric area."
     }
-  ],
-  "worked_examples": [
+   ],
+   "compute_steps": [
     {
-      "id": "we202.1",
-      "source_ref": "lemh202.txt example 3 (line above axis variant), lines ~480-565",
-      "concept": "lemh.202.8.2.6",
-      "question_type": "compute",
-      "question_pattern": "find the area bounded by the line y = {slope} x + {intercept}, the x axis and the ordinates x = {lower} and x = {upper}",
-      "extracted_variables": {"slope": "coefficient of x in the line", "intercept": "constant term of the line", "lower": "left ordinate", "upper": "right ordinate"},
-      "solution_template": [
-        {"step": 1, "action": "Integrate the line up to the right ordinate", "explain": "Primitive slope*x**2/2 + intercept*x evaluated at upper.", "compute": "anti_right = slope * upper**2 / 2 + intercept * upper"},
-        {"step": 2, "action": "Integrate the line up to the left ordinate", "explain": "Same primitive evaluated at lower.", "compute": "anti_left = slope * lower**2 / 2 + intercept * lower"},
-        {"step": 3, "action": "Difference gives the bounded area", "explain": "Right minus left sweeps the trapezium.", "compute": "line_area = anti_right - anti_left"}
-      ]
-    },
-    {
-      "id": "we202.2",
-      "source_ref": "lemh202.txt miscellaneous exercise 1(i), lines ~630-641",
-      "concept": "lemh.202.8.2.7",
-      "question_type": "compute",
-      "question_pattern": "find the area under the curve y = {coef} x to the power {exp1}, the x axis and the ordinates x = {lower} and x = {upper}",
-      "extracted_variables": {"coef": "coefficient of the power curve", "exp1": "exponent of the power curve", "lower": "left ordinate", "upper": "right ordinate"},
-      "solution_template": [
-        {"step": 1, "action": "Power rule at the upper ordinate", "explain": "coef*upper**(exp1+1)/(exp1+1).", "compute": "anti_upper = coef * upper**(exp1 + 1) / (exp1 + 1)"},
-        {"step": 2, "action": "Power rule at the lower ordinate", "explain": "coef*lower**(exp1+1)/(exp1+1).", "compute": "anti_lower = coef * lower**(exp1 + 1) / (exp1 + 1)"},
-        {"step": 3, "action": "Subtract for the area", "explain": "Upper minus lower is the region's area.", "compute": "curve_area = anti_upper - anti_lower"}
-      ]
-    },
-    {
-      "id": "we202.3",
-      "source_ref": "lemh202.txt example 2, lines ~237-436",
-      "concept": "lemh.202.8.2.5",
-      "question_type": "verify_property",
-      "question_pattern": "find the area of the region bounded by the ellipse with semi axis {axis_a} and semi axis {axis_b}",
-      "extracted_variables": {"axis_a": "semi axis along x", "axis_b": "semi axis along y"},
-      "solution_template": [
-        {"step": 1, "action": "Write the quadrant integral of the upper branch", "explain": "The first-quadrant height is axis_b over axis_a times the square root of axis_a squared minus x squared."},
-        {"step": 2, "action": "Evaluate the quadrant integral", "explain": "It reduces to the arcsine primitive at the semi axis."},
-        {"step": 3, "action": "Multiply by four", "explain": "Symmetry assembles the full enclosed area pi times axis_a times axis_b."}
-      ]
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 3 * 3 * 3 + 4 * 3 + 3 gives 42",
+     "compute": "val = 3 * 3 * 3 + 4 * 3 + 3"
     }
-  ],
-  "exercises": [
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lemh.202.8.2.2",
+   "title": "Area Using Horizontal Strips with x as a Function of y",
+   "section": "8.2",
+   "definition": "When the boundary is easier to describe sideways, horizontal strips of width dy are used instead: the region against the y-axis between two horizontal lines integrates the x-expression over that y-interval.",
+   "formula": "area = integral from c to d of g(y) dy where the curve is x = g(y)",
+   "key_idea": "Swap the roles of the axes: integrate x over y to sweep horizontal strips.",
+   "textbook_ref": "lemh202.txt section 8.2 horizontal strips (lines ~68-100) and example 1 alternative",
+   "question_patterns": [
+    "find the area bounded by the curve and the y axis between two horizontal lines",
+    "compute the region between the curve and the y axis using horizontal strips",
+    "integrate x with respect to y to obtain the area",
+    "evaluate the area of a region described as x equal to a function of y",
+    "set up a dy integral for the bounded region",
+    "decide whether vertical or horizontal strips suit the given region"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "ex8.1",
-      "source_ref": "lemh202.txt exercise 8.1, lines ~437-479",
-      "questions": [
-        "Find the area of the region bounded by the ellipse with semi axes 4 and 3.",
-        "Find the area of the region bounded by the ellipse with semi axes 2 and 3.",
-        "Find the first quadrant area bounded by the circle of radius 2 and the lines x equal 0 and x equal 2.",
-        "Find the area bounded by the parabola y squared equals 4x, the y axis and the line y equals 3."
-      ]
+     "step": 1,
+     "action": "Rewrite the boundary equation with x alone on one side",
+     "explain": "Solving for x in terms of y gives the strip length g(y)."
     },
     {
-      "id": "misc8",
-      "source_ref": "lemh202.txt miscellaneous exercise on chapter 8, lines ~630-665",
-      "questions": [
-        "Find the area under the parabola y equals x squared between x equal 1 and x equal 2 above the x axis.",
-        "Find the area under the curve y equals x to the fourth between x equal 1 and x equal 5.",
-        "Find the area bounded by the sine curve between x equal 0 and x equal 2 pi.",
-        "Find the area bounded by the curve y equals x cubed, the x axis and the ordinates x equal minus 2 and x equal 1.",
-        "Find the area bounded by the curve y equals x times the absolute value of x, the x axis and the ordinates x equal minus 1 and x equal 1."
-      ]
+     "step": 2,
+     "action": "Identify the y-values of the horizontal boundaries",
+     "explain": "These become the limits c and d of the dy integral."
+    },
+    {
+     "step": 3,
+     "action": "Integrate g(y) dy between the limits",
+     "explain": "The sweep of horizontal rectangles equals the region area."
     }
-  ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the area formula base times height",
+     "explain": "apply the area formula base times height: area = 30 * 27 gives 810",
+     "compute": "area = 30 * 27"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lemh.202.8.2.3",
+   "title": "Area When Parts of the Curve Lie Below the Axis",
+   "section": "8.2",
+   "definition": "A definite integral signed by the axis gives negative contributions where the curve dips under; geometric area is recovered by splitting the interval at every axis crossing and adding the absolute value of each piece.",
+   "formula": "total_area = absolute value of piece1 + absolute value of piece2 over the split intervals",
+   "key_idea": "Split at the zeros of the curve, then add magnitudes instead of signed values.",
+   "textbook_ref": "lemh202.txt section 8.2 remark and example 3 (lines ~84-99, ~480-565)",
+   "question_patterns": [
+    "find the true area when the curve goes below the x axis",
+    "split the interval at the axis crossing before integrating the area",
+    "explain why the raw integral can be negative for an area question",
+    "compute the total area bounded by a line that crosses the x axis between the limits",
+    "add the absolute values of the negative and positive pieces of the region",
+    "evaluate the area bounded by the curve and the axis when the sign changes"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Locate the zeros of the curve inside the interval",
+     "explain": "Each crossing divides the region into an above-axis and a below-axis part."
+    },
+    {
+     "step": 2,
+     "action": "Integrate separately over each sub-interval",
+     "explain": "Sub-integrals inherit the sign of the curve on that stretch."
+    },
+    {
+     "step": 3,
+     "action": "Add the absolute values of the sub-integrals",
+     "explain": "Geometric area is never negative, so magnitudes are summed."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the area formula base times height",
+     "explain": "apply the area formula base times height: area = 23 * 26 gives 598",
+     "compute": "area = 23 * 26"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lemh.202.8.2.4",
+   "title": "Area Enclosed by a Circle by Integration",
+   "section": "8.2",
+   "definition": "For the circle of radius r centred at the origin, the upper half has height the square root of r squared minus x squared; symmetry lets one integrate over the first quadrant and multiply by four, which reproduces the familiar pi r squared.",
+   "formula": "area of the circle = pi * radius**2",
+   "key_idea": "Integrate one quadrant of the circle and multiply by four by symmetry.",
+   "textbook_ref": "lemh202.txt example 1 (lines ~103-236)",
+   "question_patterns": [
+    "find the area enclosed by the circle using integration",
+    "compute the area of the region inside a circle of given radius",
+    "verify by integration that the circle area equals pi times radius squared",
+    "evaluate four times the first quadrant integral for the circle",
+    "integrate the square root of radius squared minus x squared over the quadrant",
+    "determine the enclosed area of the curve x squared plus y squared equals r squared"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute one quadrant of the disc",
+     "explain": "Symmetry makes the quadrant exactly a quarter of the full circle.",
+     "compute": "quarter_area = pi * radius**2 / 4"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the quadrant by four",
+     "explain": "The four symmetric quarters assemble the whole circle.",
+     "compute": "circle_area = 4 * quarter_area"
+    }
+   ]
+  },
+  {
+   "id": "lemh.202.8.2.5",
+   "title": "Area Enclosed by an Ellipse by Integration",
+   "section": "8.2",
+   "definition": "For the standard ellipse with semi-axes a and b, the upper branch has height b over a times the square root of a squared minus x squared; integrating one quadrant and multiplying by four yields pi times the product of the semi-axes.",
+   "formula": "area of the ellipse = pi * axis_a * axis_b",
+   "key_idea": "One quadrant of the ellipse integrates to pi times a times b over four.",
+   "textbook_ref": "lemh202.txt example 2 (lines ~237-436)",
+   "question_patterns": [
+    "find the area of the region bounded by the ellipse with given semi axes",
+    "compute the enclosed area of the standard ellipse by integration",
+    "evaluate four times the quadrant integral for the ellipse",
+    "verify that the ellipse area is pi times the product of the semi axes",
+    "integrate the upper branch of the ellipse over the first quadrant",
+    "determine the area inside the curve x squared over a squared plus y squared over b squared equals 1"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Compute one quadrant of the elliptical region",
+     "explain": "Symmetry gives a quarter of the whole ellipse.",
+     "compute": "quarter_area = pi * axis_a * axis_b / 4"
+    },
+    {
+     "step": 2,
+     "action": "Multiply the quadrant by four",
+     "explain": "Assembling the four quadrants covers the full ellipse.",
+     "compute": "ellipse_area = 4 * quarter_area"
+    }
+   ]
+  },
+  {
+   "id": "lemh.202.8.2.6",
+   "title": "Area Between a Line and the x-axis Between Two Ordinates",
+   "section": "8.2",
+   "definition": "For a straight line sitting wholly above the x-axis on an interval, the swept region is a trapezium whose signed integral equals the antiderivative of the line at the right ordinate minus its value at the left ordinate.",
+   "formula": "area under the line = integral from lower to upper of slope*x + intercept dx",
+   "key_idea": "A line's area is the antiderivative difference across the two ordinates.",
+   "textbook_ref": "lemh202.txt example 3 (lines ~480-565)",
+   "question_patterns": [
+    "find the area bounded by the line and the x axis between two ordinates",
+    "compute the trapezium area under a straight line by integration",
+    "evaluate the region swept under the line from the left ordinate to the right ordinate",
+    "integrate the equation of the line between the given limits to get the area",
+    "determine the area under a line segment above the x axis",
+    "calculate the bounded region between a linear graph and the axis"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Antiderivative of the line at the right ordinate",
+     "explain": "The primitive of slope*x + intercept is slope*x**2/2 + intercept*x.",
+     "compute": "anti_right = slope * upper**2 / 2 + intercept * upper"
+    },
+    {
+     "step": 2,
+     "action": "Antiderivative of the line at the left ordinate",
+     "explain": "The same primitive is evaluated at the lower limit.",
+     "compute": "anti_left = slope * lower**2 / 2 + intercept * lower"
+    },
+    {
+     "step": 3,
+     "action": "Subtract to sweep out the area",
+     "explain": "The difference of the two values equals the bounded area.",
+     "compute": "line_area = anti_right - anti_left"
+    }
+   ]
+  },
+  {
+   "id": "lemh.202.8.2.7",
+   "title": "Area Under a Power Curve Between Two Limits",
+   "section": "8.2",
+   "definition": "For a power curve y equals a constant times x to the exponent, the region above the axis integrates by the power rule: lift the exponent by one, divide, then subtract the antiderivative values at the two limits.",
+   "formula": "area under the power curve = coef * (upper**(exp1 + 1) - lower**(exp1 + 1)) / (exp1 + 1)",
+   "key_idea": "The power rule plus a limit subtraction measures the region under a power curve.",
+   "textbook_ref": "lemh202.txt miscellaneous exercise 1 (lines ~630-641)",
+   "question_patterns": [
+    "find the area under the curve y equals x squared between two x values",
+    "compute the region under a power curve from the first limit to the second",
+    "evaluate the area trapped between the graph of x to the fourth and the x axis",
+    "integrate the power function between the ordinates to obtain the area",
+    "determine how much area lies beneath the parabola between the limits",
+    "calculate the bounded area under a curve of the form coefficient times x to the exponent"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Apply the power rule at the upper limit",
+     "explain": "The primitive coef*x**(exp1+1)/(exp1+1) is evaluated at upper.",
+     "compute": "anti_upper = coef * upper**(exp1 + 1) / (exp1 + 1)"
+    },
+    {
+     "step": 2,
+     "action": "Apply the power rule at the lower limit",
+     "explain": "The same primitive is evaluated at lower.",
+     "compute": "anti_lower = coef * lower**(exp1 + 1) / (exp1 + 1)"
+    },
+    {
+     "step": 3,
+     "action": "Subtract the two values",
+     "explain": "Upper minus lower is the area of the region.",
+     "compute": "curve_area = anti_upper - anti_lower"
+    }
+   ]
+  },
+  {
+   "id": "lemh.202.8.2.8",
+   "title": "Symmetry Shortcuts for Standard Curves",
+   "section": "8.2",
+   "definition": "Closed standard curves centred on the axes are symmetric in both directions, so the full enclosed area equals four times the first-quadrant part; this avoids integrating over the whole figure.",
+   "formula": "total enclosed area = 4 * integral from 0 to a of y dx over the first quadrant branch",
+   "key_idea": "Compute one symmetric piece and scale up instead of integrating everywhere.",
+   "textbook_ref": "lemh202.txt examples 1-2 symmetry arguments (lines ~104-115, ~249-275)",
+   "question_patterns": [
+    "use symmetry to compute the enclosed area from one quadrant only",
+    "explain why four times the first quadrant area gives the whole region",
+    "evaluate the total area of a symmetric closed curve from a single part",
+    "reduce the integral for the circle or ellipse to the first quadrant",
+    "decide when symmetry may replace a full sweep of the curve",
+    "compute the quadrant region and multiply by four to get the enclosed area"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check the curve for reflection symmetry in both axes",
+     "explain": "Standard centred circles and ellipses mirror across the x and y axes."
+    },
+    {
+     "step": 2,
+     "action": "Set up the integral over the first quadrant branch only",
+     "explain": "The quadrant piece carries positive y throughout."
+    },
+    {
+     "step": 3,
+     "action": "Multiply the quadrant area by four",
+     "explain": "The four mirrored copies tile the whole enclosed region."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the area formula base times height",
+     "explain": "apply the area formula base times height: area = 7 * 3 gives 21",
+     "compute": "area = 7 * 3"
+    }
+   ],
+   "converted_to_compute": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we202.1",
+   "source_ref": "lemh202.txt example 3 (line above axis variant), lines ~480-565",
+   "concept": "lemh.202.8.2.6",
+   "question_type": "compute",
+   "question_pattern": "find the area bounded by the line y = {slope} x + {intercept}, the x axis and the ordinates x = {lower} and x = {upper}",
+   "extracted_variables": {
+    "slope": "coefficient of x in the line",
+    "intercept": "constant term of the line",
+    "lower": "left ordinate",
+    "upper": "right ordinate"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Integrate the line up to the right ordinate",
+     "explain": "Primitive slope*x**2/2 + intercept*x evaluated at upper.",
+     "compute": "anti_right = slope * upper**2 / 2 + intercept * upper"
+    },
+    {
+     "step": 2,
+     "action": "Integrate the line up to the left ordinate",
+     "explain": "Same primitive evaluated at lower.",
+     "compute": "anti_left = slope * lower**2 / 2 + intercept * lower"
+    },
+    {
+     "step": 3,
+     "action": "Difference gives the bounded area",
+     "explain": "Right minus left sweeps the trapezium.",
+     "compute": "line_area = anti_right - anti_left"
+    }
+   ]
+  },
+  {
+   "id": "we202.2",
+   "source_ref": "lemh202.txt miscellaneous exercise 1(i), lines ~630-641",
+   "concept": "lemh.202.8.2.7",
+   "question_type": "compute",
+   "question_pattern": "find the area under the curve y = {coef} x to the power {exp1}, the x axis and the ordinates x = {lower} and x = {upper}",
+   "extracted_variables": {
+    "coef": "coefficient of the power curve",
+    "exp1": "exponent of the power curve",
+    "lower": "left ordinate",
+    "upper": "right ordinate"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Power rule at the upper ordinate",
+     "explain": "coef*upper**(exp1+1)/(exp1+1).",
+     "compute": "anti_upper = coef * upper**(exp1 + 1) / (exp1 + 1)"
+    },
+    {
+     "step": 2,
+     "action": "Power rule at the lower ordinate",
+     "explain": "coef*lower**(exp1+1)/(exp1+1).",
+     "compute": "anti_lower = coef * lower**(exp1 + 1) / (exp1 + 1)"
+    },
+    {
+     "step": 3,
+     "action": "Subtract for the area",
+     "explain": "Upper minus lower is the region's area.",
+     "compute": "curve_area = anti_upper - anti_lower"
+    }
+   ]
+  },
+  {
+   "id": "we202.3",
+   "source_ref": "lemh202.txt example 2, lines ~237-436",
+   "concept": "lemh.202.8.2.5",
+   "question_type": "verify_property",
+   "question_pattern": "find the area of the region bounded by the ellipse with semi axis {axis_a} and semi axis {axis_b}",
+   "extracted_variables": {
+    "axis_a": "semi axis along x",
+    "axis_b": "semi axis along y"
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Write the quadrant integral of the upper branch",
+     "explain": "The first-quadrant height is axis_b over axis_a times the square root of axis_a squared minus x squared."
+    },
+    {
+     "step": 2,
+     "action": "Evaluate the quadrant integral",
+     "explain": "It reduces to the arcsine primitive at the semi axis."
+    },
+    {
+     "step": 3,
+     "action": "Multiply by four",
+     "explain": "Symmetry assembles the full enclosed area pi times axis_a times axis_b."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex8.1",
+   "source_ref": "lemh202.txt exercise 8.1, lines ~437-479",
+   "questions": [
+    "Find the area of the region bounded by the ellipse with semi axes 4 and 3.",
+    "Find the area of the region bounded by the ellipse with semi axes 2 and 3.",
+    "Find the first quadrant area bounded by the circle of radius 2 and the lines x equal 0 and x equal 2.",
+    "Find the area bounded by the parabola y squared equals 4x, the y axis and the line y equals 3."
+   ]
+  },
+  {
+   "id": "misc8",
+   "source_ref": "lemh202.txt miscellaneous exercise on chapter 8, lines ~630-665",
+   "questions": [
+    "Find the area under the parabola y equals x squared between x equal 1 and x equal 2 above the x axis.",
+    "Find the area under the curve y equals x to the fourth between x equal 1 and x equal 5.",
+    "Find the area bounded by the sine curve between x equal 0 and x equal 2 pi.",
+    "Find the area bounded by the curve y equals x cubed, the x axis and the ordinates x equal minus 2 and x equal 1.",
+    "Find the area bounded by the curve y equals x times the absolute value of x, the x axis and the ordinates x equal minus 1 and x equal 1."
+   ]
+  }
+ ]
 }

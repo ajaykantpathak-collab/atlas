@@ -34,6 +34,21 @@
      "q": "Create a relation instance for \"LibraryBook\" with attributes: `BookID`, `Title`, `Author`, `Genre`, `CopiesAvailable`. Define a valid domain for each attribute. Ensure cardinality = 4 and degree = 5. Show the relation instance as a table.",
      "a": "A valid answer shows a 4-row × 5-column table. Example domains: BookID = {positive integers}, Title = {strings ≤ 100 chars}, Author = {strings ≤ 50 chars}, Genre = {'Fiction', 'Non-Fiction', 'Reference', 'Biography'}, CopiesAvailable = {non-negative integers}. Each cell has a single atomic value. A poor answer uses non-atomic domains (e.g., Genre = \"Fiction, Mystery\"), wrong cardinality (3 or 5 rows), or missing attributes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In the relational data model, a relation is a table with rows and columns where each tuple (row) represents a single entity instance, each attribute (column) represents a property of that entity, each attribute draws its values from a domain (the set of all ______ atomic values for that attribute), and cardinality is the number of tuples in a relation instance.",
+     "a": "permissible",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you open a ______ of your class marks: each row is one student's record, each column is a subject, and every cell holds a single mark like 87 or 92 — never a list.",
+     "a": "spreadsheet",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish between relation schema and relation instance, (2) identify tuples, attributes, domains, and cardinality in a given table, (3) explain why domains must contain atomic values only, and (4) compute the cardinality and degree of any relation instance.",
+     "self_check": true
     }
    ]
   }

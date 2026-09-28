@@ -34,6 +34,31 @@
      "q": "Design a simple experiment to determine the activation energy of the reaction between sodium thiosulfate and hydrochloric acid (which produces a sulfur precipitate that clouds the solution) using only a stopwatch, a thermometer, and basic lab glassware. Outline the procedure, measurements, and how you would calculate Ea from the data.",
      "a": "Procedure: (1) Prepare fixed concentrations of Na₂S₂O₃ and HCl. (2) At 5 different temperatures (e.g., 15°C, 25°C, 35°C, 45°C, 55°C), mix equal volumes in a conical flask, start stopwatch, and measure time t for the cross mark under the flask to disappear (fixed extent of reaction). (3) Since rate ∝ 1/t for fixed conversion, k ∝ 1/t. (4) Plot ln(1/t) vs 1/T (in K). Slope = -Ea/R. (5) Calculate Ea = -slope × R. A poor answer (e.g., \"measure rate at different temperatures\" without specifying how to quantify rate for this reaction, or plotting t vs T instead of ln(1/t) vs 1/T) reveals inability to translate the Arrhenius equation into an experimental protocol — a key competency for board practicals and JEE lab-based questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Arrhenius equation (k = A e^(-Ea/RT)) ______ describes how the rate constant k of a chemical reaction depends on absolute temperature T, where Ea is the activation energy (minimum energy barrier reactants must overcome), A is the pre-exponential factor (frequency of collisions with proper orientation), and R is the universal gas constant.",
+     "a": "quantitatively",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real-world observation: milk kept outside the refrigerator spoils faster in summer than in winter, and pressure cookers cook food faster because water boils at higher ______ under pressure.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Introduce the concept of an energy barrier (activation energy) using the potential energy diagram for H₂ + I₂ → ______HI.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can calculate activation energy from rate constants at two temperatures using the two-point Arrhenius form, determine the pre-exponential factor from the intercept of a ln k vs 1/T plot, and predict the rate constant at a new temperature given Ea and A.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real-world observation: milk kept outside the ______ spoils faster in summer than in winter, and pressure cookers cook food faster because water boils at higher temperature under pressure.",
+     "a": "refrigerator",
+     "self_check": true
     }
    ]
   }

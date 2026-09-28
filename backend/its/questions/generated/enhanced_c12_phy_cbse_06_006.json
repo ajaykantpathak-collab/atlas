@@ -34,6 +34,16 @@
      "q": "Design a simple experiment using a battery, an inductor (e.g., a coil of wire), a resistor, and a switch to demonstrate that energy is stored in the inductor and returned to the circuit when the switch is opened. Explain what you would observe and why.",
      "a": "Connect battery, switch, resistor, and inductor in series. Close switch: current builds up slowly, energy stored in inductor. Open switch suddenly: the inductor tries to maintain current, inducing a large back emf that can cause a spark across the switch contacts (or light a neon lamp connected across the inductor). The spark shows the stored magnetic energy is converted to heat/light. A good answer mentions the spark and explains it via \\( \\varepsilon = -L \\frac{dI}{dt} \\) with large \\( \\frac{dI}{dt} \\) at switch opening. A poor answer omits the spark or says the current stops instantly.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This energy is the work done by the external source against the back emf to ______ the current from zero to its final value, assuming no resistive losses.",
+     "a": "establish",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan starting slowly when switched on — the motor windings act as ______ opposing the sudden current rise.",
+     "a": "inductors",
+     "self_check": true
     }
    ]
   }

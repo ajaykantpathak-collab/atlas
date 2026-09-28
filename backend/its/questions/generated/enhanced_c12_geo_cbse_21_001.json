@@ -34,6 +34,21 @@
      "q": "Design a **one-day field survey plan** to investigate \"Impact of a new highway bypass on agricultural land use and farmer livelihoods in a peri-urban village near Bengaluru.\" Specify: (a) 3 hypotheses to test, (b) 2 primary data methods with justification, (c) 1 secondary data source to integrate, (d) 1 ethical precaution.",
      "a": "**Good answer includes:**\n(a) Hypotheses: (1) Land conversion from agriculture to non-farm uses is higher within 2 km of bypass. (2) Smallholders (<2 ha) are more likely to sell land than large farmers. (3) Non-farm income share has increased for households near bypass.\n(b) Methods: (1) **Structured questionnaire** (stratified random sample by landholding size) — quantifies land sale, income shift, crop change. (2) **Transect walk with GPS mapping** of current land use along perpendicular transects — validates satellite classification, captures informal changes (warehouses, brick kilns).\n(c) Secondary data: **Bhuvan land use layers (2015 vs 2023)** or **village land records (Pahani/RTC)** for ownership change.\n(d) Ethical precaution: **Informed consent in local language (Kannada), anonymize landholding data, share findings with Gram Panchayat.**\nA poor answer uses only one method, ignores stratification, or omits ethics — showing lack of survey design rigor.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A field survey in geography is a systematic primary data collection method where researchers directly observe, measure, and record spatial phenomena (physical features, human activities, environmental conditions) in their real-world settings using instruments, ______, interviews, or visual observation to generate ground-truth data for geographic analysis.",
+     "a": "questionnaires",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking students: \"When Google Maps shows a road but you find a footpath on the ground — which do you trust?\" This real-world mismatch introduces the core need for field surveys: secondary data (maps, satellite images, census) can be outdated, ______, or inaccurate at local scales.",
+     "a": "generalized",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain why field surveys are indispensable for validating secondary data, design a basic field survey plan for a local geographic problem (e.g., water quality in a nearby stream), and justify the choice of survey method (questionnaire vs. observation vs. measurement) based on the research objective.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Create a list of three objects found in your school bag and classify each one as transparent, translucent, or opaque.",
      "a": "Acceptable answers include: Plastic scale (transparent), thin plastic file cover (translucent), notebook (opaque). A poor answer would lack reasoning or misclassify common objects based on their physical properties.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Materials are classified by how much light they allow to pass through them: ______ materials let most light pass so objects are clearly visible, translucent materials let some light pass but scatter it, and opaque materials block light entirely.",
+     "a": "transparent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are looking through your bedroom window; why can you see the street clearly, but when you look through a piece of buttered paper or a frosted glass, ______ looks blurry?",
+     "a": "everything",
+     "self_check": true
+    },
+    {
+     "q": "What is Materials? State the definition given in this lesson.",
+     "a": "Materials are classified by how much light they allow to pass through them: transparent materials let most light pass so objects are clearly visible, translucent materials let some light pass but scatter it, and opaque materials block light entirely.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Materials?",
+     "a": "Students often think that if they can see *any* light through an object, it must be transparent.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to categorize common household objects as transparent, translucent, or opaque and explain their classification based on the visibility of objects seen through them.",
+     "self_check": true
     }
    ]
   }

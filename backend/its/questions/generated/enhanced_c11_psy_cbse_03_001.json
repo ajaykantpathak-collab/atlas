@@ -34,6 +34,31 @@
      "q": "Design a 2×2 matrix with axes \"Individual vs. Species\" (rows) and \"Quantitative vs. Qualitative\" (columns). Place each of the four concepts (growth, development, maturation, evolution) in the correct cell. For each placement, give one concrete example that fits that cell. Explain why \"development\" spans multiple cells.",
      "a": "| | Quantitative | Qualitative |\n|---|---|---|\n| **Individual** | Growth (e.g., height increase 5 cm/year) | Maturation (e.g., emergence of grasping reflex → voluntary reach) |\n| **Species** | (No direct fit — evolution is not primarily quantitative) | Evolution (e.g., emergence of bipedalism, prefrontal cortex expansion) |\n\nDevelopment spans Individual-Quantitative (growth component), Individual-Qualitative (cognitive/socio-emotional restructuring), and implicitly Species-Qualitative (because individual development expresses the evolved species-typical architecture). A poor answer that places evolution in \"Quantitative\" reveals misunderstanding of evolution as primarily structural/qualitative reorganization; placing maturation in \"Species\" reveals confusion between individual unfolding and phylogenetic change; failing to explain why development spans cells reveals lack of synthesis across the chapter's opening definition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the pattern of progressive, orderly, and predictable changes that begin at conception and continue throughout the lifespan, involving both gains and losses across biological, cognitive, and socio-emotional domains.",
+     "a": "Development",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are observing your 6-month-old cousin: she has gained 3 kg since birth (growth), she can now sit without support because her spine and muscles have matured enough (maturation), she smiles selectively at familiar faces showing early attachment (______ — socio-emotional), and her species-typical sequence of sitting before crawling before walking reflects millions of years of primate evolution (evolution).",
+     "a": "development",
+     "self_check": true
+    },
+    {
+     "q": "What is Development? State the definition given in this lesson.",
+     "a": "Development is the pattern of progressive, orderly, and predictable changes that begin at conception and continue throughout the lifespan, involving both gains and losses across biological, cognitive, and socio-emotional domains.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Development?",
+     "a": "Students frequently treat \"maturation\" and \"learning\" as synonyms, or assume maturation means \"becoming mature\" in the colloquial sense (psychological maturity).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish between growth, development, maturation, and evolution using precise terminology and concrete examples for each; (2) Explain how these four processes interrelate (e.g., growth is a subset of development; maturation enables development; evolution provides the species blueprint for maturation).",
+     "self_check": true
     }
    ]
   }

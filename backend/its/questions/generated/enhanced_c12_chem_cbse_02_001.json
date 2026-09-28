@@ -34,6 +34,26 @@
      "q": "Design a simple galvanic cell using household materials (e.g., lemon, copper coin, zinc-coated nail) that can light an LED. List the half-reactions, identify anode and cathode, and explain why the LED might glow dimly.",
      "a": "Use a lemon (citric acid electrolyte), copper coin (cathode), zinc-coated nail (anode). Half-reactions: Anode: Zn → Zn²⁺ + 2e⁻; Cathode: 2H⁺ + 2e⁻ → H₂ (or oxygen reduction if air present). The LED glows dimly because the internal resistance is high (low ion concentration, small electrode area) and the current is small. A poor answer would omit half-reactions, misidentify electrodes, or not explain the dimness (showing lack of understanding of factors affecting cell performance).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An ______ cell is a device that interconverts chemical energy and electrical energy through spontaneous (galvanic cell) or non-spontaneous (electrolytic cell) redox reactions.",
+     "a": "electrochemical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a simple Daniell cell in the lab: a zinc rod in ZnSO₄ solution and a copper rod in CuSO₄ solution connected by a salt bridge; when connected to a ______, it shows ~1.1 V.",
+     "a": "voltmeter",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a simple Daniell cell in the lab: a zinc rod in ZnSO₄ solution and a copper rod in CuSO₄ solution connected by a salt bridge; when connected to a voltmeter, it shows ~______ V.",
+     "a": "1.1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can distinguish between galvanic and electrolytic cells based on spontaneity, electrode polarity, and energy conversion direction; can draw and label a galvanic cell (e.g., Daniell cell) with correct half-reactions, electron flow, ion migration in salt bridge, and IUPAC cell notation; can identify anode and cathode in both cell types and.",
+     "self_check": true
     }
    ]
   }

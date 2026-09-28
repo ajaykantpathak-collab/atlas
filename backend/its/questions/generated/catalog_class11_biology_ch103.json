@@ -1,6 +1,100 @@
 {
- "catalog": "catalog_class11_biology_ch103",
+ "catalog": "catalog_class11_biology_ch103.json",
  "concepts": [
+  {
+   "id": "kebo.103.9",
+   "title": "Heterospory and Seed Habit Precursor",
+   "converted_to_compute": true,
+   "formula": "Heterospory = Megaspores + Microspores",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "Heterospory = Megaspores + Microspores",
+     "compute": "Heterospory = Megaspores + Microspores"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Heterospory and Seed Habit Precursor: given Megaspores = 40, Microspores = 93, find Heterospory.",
+     "a": "133",
+     "self_check": false
+    },
+    {
+     "q": "For Heterospory and Seed Habit Precursor: given Megaspores = 98, Microspores = 13, find Heterospory.",
+     "a": "111",
+     "self_check": false
+    },
+    {
+     "q": "For Heterospory and Seed Habit Precursor: given Megaspores = 58, Microspores = 15.7, find Heterospory.",
+     "a": "73.7",
+     "self_check": false
+    },
+    {
+     "q": "For Heterospory and Seed Habit Precursor: given Megaspores = 83, Microspores = 22, find Heterospory.",
+     "a": "105",
+     "self_check": false
+    },
+    {
+     "q": "For Heterospory and Seed Habit Precursor: given Megaspores = 57, Microspores = 49, find Heterospory.",
+     "a": "106",
+     "self_check": false
+    },
+    {
+     "q": "For Heterospory and Seed Habit Precursor: given Megaspores = 53, Microspores = 46, find Heterospory.",
+     "a": "99",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebo.103.11",
+   "title": "Ploidy Calculation in Plant Cycles",
+   "converted_to_compute": true,
+   "formula": "sporophyte = 2 * gametophyte",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "sporophyte = 2 * gametophyte",
+     "compute": "sporophyte = 2 * gametophyte"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Ploidy Calculation in Plant Cycles: given gametophyte = 77, find sporophyte.",
+     "a": "154",
+     "self_check": false
+    },
+    {
+     "q": "For Ploidy Calculation in Plant Cycles: given gametophyte = 96, find sporophyte.",
+     "a": "192",
+     "self_check": false
+    },
+    {
+     "q": "For Ploidy Calculation in Plant Cycles: given gametophyte = 21, find sporophyte.",
+     "a": "42",
+     "self_check": false
+    },
+    {
+     "q": "For Ploidy Calculation in Plant Cycles: given gametophyte = 26, find sporophyte.",
+     "a": "52",
+     "self_check": false
+    },
+    {
+     "q": "For Ploidy Calculation in Plant Cycles: given gametophyte = 90, find sporophyte.",
+     "a": "180",
+     "self_check": false
+    },
+    {
+     "q": "For Ploidy Calculation in Plant Cycles: given gametophyte = 84, find sporophyte.",
+     "a": "168",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "kebo.103.1",
    "title": "Classification Systems in Botany",
@@ -170,27 +264,6 @@
    ]
   },
   {
-   "id": "kebo.103.9",
-   "title": "Heterospory and Seed Habit Precursor",
-   "questions": [
-    {
-     "q": "Explain in your own words what 'Heterospory and Seed Habit Precursor' refers to.",
-     "a": "The production of two different sizes of spores (macro and micro) which lead to distinct both male and female gametophytes.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Heterospory and Seed Habit Precursor'.",
-     "a": "Retention of the female gametophyte on the parent sporophyte is a critical evolutionary step toward seeds.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Heterospory and Seed Habit Precursor', in plain ASCII form.",
-     "a": "Heterospory = Megaspores + Microspores",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "kebo.103.10",
    "title": "Gymnosperm Seed and Ovule Structure",
    "questions": [
@@ -207,37 +280,6 @@
     {
      "q": "Write the standard relation used for 'Gymnosperm Seed and Ovule Structure', in plain ASCII form.",
      "a": "Gymnosperm = Naked Ovule + No Fruit",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebo.103.11",
-   "title": "Ploidy Calculation in Plant Cycles",
-   "questions": [
-    {
-     "q": "Calculate the ploidy of a zygote given the spore count. Use the method 'Ploidy Calculation in Plant Cycles'. Work with: input_chromosomes = 6. Carry the chain through step by step and give the final value of final_answer.",
-     "a": "12 units",
-     "self_check": false
-    },
-    {
-     "q": "How many chromosomes are in a fern prothallus if the rhizome has 40? Use the method 'Ploidy Calculation in Plant Cycles'. Work with: input_chromosomes = 24. Carry the chain through step by step and give the final value of final_answer.",
-     "a": "48 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Ploidy Calculation in Plant Cycles' refers to.",
-     "a": "Calculating the chromosome count of different life stages based on the alternation of generations.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Ploidy Calculation in Plant Cycles'.",
-     "a": "Meiosis reduces ploidy to haploid (n) in spores, while fertilization restores diploidy (2n) in the zygote.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Ploidy Calculation in Plant Cycles', in plain ASCII form.",
-     "a": "sporophyte = 2 * gametophyte",
      "self_check": true
     }
    ]

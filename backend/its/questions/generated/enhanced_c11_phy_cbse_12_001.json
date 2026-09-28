@@ -34,6 +34,26 @@
      "q": "Design a thought experiment or simulation setup to test whether the assumption \"collision duration is negligible compared to time between collisions\" holds for nitrogen gas at STP. Specify what you would measure, what parameters you would vary, and what result would confirm or refute the assumption.",
      "a": "A good answer: Use molecular dynamics simulation with realistic N₂ potential (Lennard-Jones). Measure mean collision duration τ_c (time during which intermolecular force > 1% of peak) and mean free time τ_f (average time between collisions). At STP, τ_c ≈ 10⁻¹³ s, τ_f ≈ 10⁻¹⁰ s, so τ_c/τ_f ≈ 10⁻³ ≪ 1 — assumption holds. Vary pressure to 1000 atm: τ_f decreases ∝ 1/P, τ_c stays roughly constant, ratio approaches 1 — assumption fails. Alternatively, measure viscosity η ∝ τ_f; if τ_c becomes significant, η would deviate from kinetic theory prediction. A poor answer (e.g., \"measure temperature change\") reveals the student cannot identify the relevant time scales or design a test targeting a specific assumption.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The kinetic theory of gases is a theoretical model based on seven fundamental postulates (assumptions) that describe an ideal gas as a large collection of point-like molecules in continuous, random motion, obeying Newton's laws, with perfectly elastic collisions and negligible ______ forces except during instantaneous collisions.",
+     "a": "intermolecular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you inflate a ______ and squeeze it — you feel a uniform resistance from all sides.",
+     "a": "balloon",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can list all seven assumptions of kinetic theory, explain the physical significance of each assumption, identify which assumption fails under specific non-ideal conditions (high pressure, low temperature), and justify why the model still works for real gases at low pressures and high temperatures.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you inflate a balloon and squeeze it — you feel a uniform ______ from all sides.",
+     "a": "resistance",
+     "self_check": true
     }
    ]
   }

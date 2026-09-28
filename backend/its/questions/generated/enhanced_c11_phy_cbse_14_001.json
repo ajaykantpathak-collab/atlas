@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using household items to demonstrate that a transverse wave cannot propagate in a fluid (water), but a longitudinal wave can. Describe the setup, what you would observe, and the physical reason for the difference.",
      "a": "**Setup:** Fill a long transparent tube (e.g., a plastic pipe) with water. At one end, attach a piston that can move (a) sideways (transverse) and (b) back-forth (longitudinal).  \n**Observation:** (a) Sideways piston motion creates only local turbulence; no sustained wave propagates down the tube. (b) Back-forth piston motion creates clear compression pulses travelling along the water column.  \n**Reason:** Water has **zero shear modulus** — it cannot provide a restoring force for transverse displacement (no shear elasticity). It has **non-zero bulk modulus** — it resists compression, providing a restoring force for longitudinal displacement.  \nA poor answer (e.g., \"water is liquid so no transverse waves\" without mentioning shear modulus) shows rote memorisation without connecting to the *elastic property* that physically enables or prevents wave propagation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A mechanical wave is classified as transverse if the particles of the medium oscillate ______ to the direction of wave propagation, and longitudinal if the particles oscillate parallel to the direction of wave propagation.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a slinky spring on a smooth floor: give one end a sharp sideways jerk — a pulse travels along the slinky while each coil moves left-right (______ to the spring's length).",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) classify a given wave motion as transverse, longitudinal, or a combination by analysing the relative direction of particle oscillation and wave propagation; (2) explain why transverse waves cannot propagate in fluids while longitudinal waves can; (3) identify real-world examples of each type and justify the.",
+     "self_check": true
     }
    ]
   }

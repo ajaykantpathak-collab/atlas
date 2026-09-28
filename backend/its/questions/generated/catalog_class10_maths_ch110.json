@@ -4,15 +4,9 @@
   {
    "id": "jemh.110.1.1",
    "title": "Secant and Tangent Definitions",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the circle formula with pi = 22/7",
-     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 49 gives 308",
-     "compute": "circ = 2 * 22 / 7 * 49"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "number_of_intersection_points = 1 (tangent) or 2 (secant)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 49 cm (take pi = 22/7).",
@@ -49,15 +43,9 @@
   {
    "id": "jemh.110.2.1",
    "title": "Perpendicularity of Radius and Tangent",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the circle formula with pi = 22/7",
-     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 35 gives 220",
-     "compute": "circ = 2 * 22 / 7 * 35"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "angle_between_radius_and_tangent = 90 degrees",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 35 cm (take pi = 22/7).",
@@ -95,6 +83,8 @@
    "id": "jemh.110.2.2",
    "title": "Calculating Tangent Length from External Point",
    "converted_to_compute": false,
+   "formula": "tangent_length = sqrt(distance**2 - radius**2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 70 cm (take pi = 22/7).",
@@ -132,6 +122,8 @@
    "id": "jemh.110.2.3",
    "title": "Calculating Radius from Tangent Length and Distance",
    "converted_to_compute": false,
+   "formula": "radius = sqrt(distance**2 - tangent_length**2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 77 cm (take pi = 22/7).",
@@ -169,6 +161,8 @@
    "id": "jemh.110.2.4",
    "title": "Calculating Distance of External Point from Centre",
    "converted_to_compute": false,
+   "formula": "distance = sqrt(radius**2 + tangent_length**2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 70 cm (take pi = 22/7).",
@@ -205,15 +199,9 @@
   {
    "id": "jemh.110.3.1",
    "title": "Equality of Tangents from External Point",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the circle formula with pi = 22/7",
-     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 77 gives 484",
-     "compute": "circ = 2 * 22 / 7 * 77"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "tangent_1 = tangent_2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 77 cm (take pi = 22/7).",
@@ -251,6 +239,8 @@
    "id": "jemh.110.3.2",
    "title": "Chord of Outer Concentric Circle Touching Inner Circle",
    "converted_to_compute": false,
+   "formula": "chord_length = 2 * sqrt(outer_radius**2 - inner_radius**2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 49 cm (take pi = 22/7).",
@@ -288,6 +278,8 @@
    "id": "jemh.110.3.3",
    "title": "Supplementary Angles Between Tangents and at Centre",
    "converted_to_compute": false,
+   "formula": "angle_at_centre = 180 - angle_between_tangents",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 21 cm (take pi = 22/7).",
@@ -325,6 +317,8 @@
    "id": "jemh.110.3.4",
    "title": "Angle Bisector Property of Centre Line",
    "converted_to_compute": false,
+   "formula": "angle_POA = 90 - (angle_between_tangents / 2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 63 cm (take pi = 22/7).",
@@ -361,15 +355,9 @@
   {
    "id": "jemh.110.3.5",
    "title": "Properties of Circumscribing Quadrilaterals",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the quadrilateral property to compute the value",
-     "explain": "use the quadrilateral property to compute the value: adj = 180 - 70 gives 110",
-     "compute": "adj = 180 - 70"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "AB + CD = AD + BC",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a parallelogram one angle is 70 degrees. Find the adjacent angle.",
@@ -407,6 +395,8 @@
    "id": "jemh.110.3.6",
    "title": "Tangent Length from Chord and Radius using Similar Triangles",
    "converted_to_compute": false,
+   "formula": "tangent_length = (radius * (chord_length / 2)) / sqrt(radius**2 - (chord_length / 2)**2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 28 cm (take pi = 22/7).",

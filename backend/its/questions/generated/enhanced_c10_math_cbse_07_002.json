@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (Indian context) where the distance formula is needed to solve it. The problem must involve finding an unknown coordinate given the distance, and must have two possible solutions. Write the problem statement and solve it completely.",
      "a": "Problem: \"Rahul's house is at H(3, 2) on the colony map (1 unit = 50 m). His school is somewhere on the line y = 8 (same y-coordinate for all points on this road). If the direct distance from his house to school is 500 m, find the possible coordinates of his school.\" Solution: Distance = 500 m = 10 units (since 1 unit = 50 m). School coordinates: (x, 8). Distance formula: 10 = √[(x - 3)² + (8 - 2)²] → 100 = (x - 3)² + 36 → (x - 3)² = 64 → x - 3 = ±8 → x = 11 or x = -5. Possible school locations: (11, 8) or (-5, 8). A poor answer would give only one coordinate (missing the ±), use 500 instead of 10 in the formula (unit conversion error), or set up the equation incorrectly like 10 = (x-3) + 6 (forgetting squares and square root).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The distance formula ______ the straight-line distance between two points P(x₁, y₁) and Q(x₂, y₂) in the Cartesian plane using the formula d = √[(x₂ - x₁)² + (y₂ - y₁)²], derived from the Pythagoras theorem applied to the right triangle formed by the horizontal and vertical distances between the points.",
+     "a": "calculates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're planning a cycling route from your home at point A(2, 3) to your friend's house at point B(8, 7) in your neighbourhood map where each unit ______ 100 metres.",
+     "a": "represents",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly apply the distance formula to find distances between any two points, solve word problems involving distances (including finding unknown coordinates when distance is given), and determine geometric properties like triangle type (equilateral, isosceles, right-angled) or quadrilateral classification using distance.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're planning a cycling route from your home at point A(2, 3) to your friend's house at point B(8, 7) in your ______ map where each unit represents 100 metres.",
+     "a": "neighbourhood",
+     "self_check": true
     }
    ]
   }

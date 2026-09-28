@@ -34,6 +34,11 @@
      "q": "Create a real-life problem (Indian context) that can be modelled by an AP where the general term formula is needed to find a specific term without listing all previous terms. Provide the problem statement and the solution.",
      "a": "Example: \"A construction company penalises a contractor ₹2000 for the first day of delay and increases the penalty by ₹500 for each subsequent day. Find the penalty on the 15th day.\" Solution: \\(a=2000, d=500, n=15 \\Rightarrow a_{15} = 2000 + 14 \\times 500 = 9000\\). A good answer includes a clear AP context (constant increment), correct identification of \\(a\\) and \\(d\\), and correct use of \\(n-1\\). A poor answer might use simple multiplication (2000*15) or forget the initial penalty structure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you start a savings plan in January where you deposit ₹500 in the first month and decide to increase the deposit by ₹100 every ______ month.",
+     "a": "subsequent",
+     "self_check": true
     }
    ]
   }

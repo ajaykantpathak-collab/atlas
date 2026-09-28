@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a smartphone and a plastic bottle to demonstrate that infrasound can diffract around obstacles better than ultrasound.",
      "a": "Use a tone-generator app to play a 10 Hz tone (infrasound) and a 25 kHz tone (ultrasound) through a speaker. Place a large cardboard barrier between the speaker and the phone's microphone. Measure the sound level with a decibel-meter app. The 10 Hz tone will be detected behind the barrier; the 25 kHz tone will be strongly blocked. A poor design (e.g., using frequencies within the audible range) shows the student cannot translate the concept into a testable setup.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ultrasound refers to sound waves with ______ greater than 20 kHz, which are inaudible to humans but can penetrate materials and reflect at boundaries, enabling imaging and detection.",
+     "a": "frequencies",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a doctor using a handheld device on a pregnant woman's abdomen to see the baby — that device uses ______.",
+     "a": "ultrasound",
+     "self_check": true
+    },
+    {
+     "q": "What is Ultrasound? State the definition given in this lesson.",
+     "a": "Ultrasound refers to sound waves with frequencies greater than 20 kHz, which are inaudible to humans but can penetrate materials and reflect at boundaries, enabling imaging and detection.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ultrasound refers to sound waves with frequencies greater than ______ kHz, which are inaudible to humans but can penetrate materials and reflect at boundaries, enabling imaging and detection.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Ultrasound?",
+     "a": "Students often think \"ultrasound\" means \"very loud sound\" and \"infrasound\" means \"very soft sound,\" confusing frequency with amplitude.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the physical principles behind at least three distinct applications of ultrasound (e.g., medical imaging, flaw detection, SONAR) and two applications of infrasound (e.g., earthquake monitoring, animal communication), linking each to the relevant wave property (frequency, wavelength, penetration, attenuation).",
+     "self_check": true
     }
    ]
   }

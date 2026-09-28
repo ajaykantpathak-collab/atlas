@@ -20,7 +20,7 @@
     "Why is a garden or crop-field considered an artificial ecosystem?",
     "what do you understand by ecosystem and its components"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,16 @@
      "action": "Verify interactions between components",
      "explain": "Confirm that biotic and abiotic components interact to form a self-sustaining system where energy flows and nutrients cycle."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ecosystem = biotic_components + abiotic_components",
+     "compute": "ecosystem = biotic_components + abiotic_components"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.113.2",
@@ -54,7 +63,7 @@
     "How do decomposers help in the replenishment of soil nutrients?",
     "describe producers, consumers, and decomposers with an example"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -71,7 +80,16 @@
      "action": "Explain the role of decomposers",
      "explain": "Decomposers break down dead organic matter and return nutrients to the soil, replenishing it for producers."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_organisms = producers + consumers + decomposers",
+     "compute": "total_organisms = producers + consumers + decomposers"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.113.3",
@@ -141,7 +159,16 @@
      "action": "Account for energy loss",
      "explain": "The remaining 90% is lost as heat during metabolic processes, explaining why higher trophic levels have far less energy."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "next_energy = current_energy * 0.10",
+     "compute": "next_energy = current_energy * 0.10"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.113.5",
@@ -177,7 +204,16 @@
      "action": "Compare energy at successive levels",
      "explain": "The sharp drop from solar to producer to consumer energy shows how little energy ultimately supports higher trophic levels."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "producer_energy = solar_energy * 0.01",
+     "compute": "producer_energy = solar_energy * 0.01"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.113.6",
@@ -262,7 +298,7 @@
     "How can we manage the garbage we produce in our daily lives?",
     "describe biodegradable and non-biodegradable wastes with an example"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -279,7 +315,16 @@
      "action": "Assess environmental impact",
      "explain": "Non-biodegradable wastes persist in the environment, causing pollution, while biodegradable wastes can be composted to enrich soil."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_waste = biodegradable_waste + non_biodegradable_waste",
+     "compute": "total_waste = biodegradable_waste + non_biodegradable_waste"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

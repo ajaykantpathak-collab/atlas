@@ -460,6 +460,90 @@ APPLIED_TABLE: List[Tuple[str, Any, Any]] = [
      _c_rate_change),
 ]
 
+# --------------------------------------------------------------------------- #
+# BOOKS2 families (verified in the Applied Maths 11-12 text caches):
+#   am11_005 (sequences/growth)  -> DEPRECIATION
+#   am11_002 (numerical apps)    -> PIPES_CISTERN (inlets/outlets)
+#   am12_004 (distributions)     -> BINOMIAL_MEAN_VARIANCE (np, npq)
+# --------------------------------------------------------------------------- #
+
+
+def _c_depreciation(g, m, text):
+    P, r, t = _num(g["p"]), _num(g["r"]), _num(g["t"])
+    if P <= 0 or not (0 <= r < 100) or t <= 0:
+        return None, [], None, None
+    if t * math.log1p(-r / 100.0) < -700:   # gate: overflow bound
+        return None, [], None, None
+    v = P * math.pow(1.0 - r / 100.0, t)
+    return v, [f"V = P(1 - r/100)^t = {_fmt(P)}(1 - {r:g}/100)^{_fmt(t)}",
+               f"= {_fmt(P)} x {(1 - r / 100.0):g}^{_fmt(t)} = {_fmt(v)}",
+               "value after depreciation"], None, \
+        ["reducing-balance depreciation"]
+
+
+def _c_pipes(g, m, text):
+    a, b = _num(g["a"]), _num(g["b"])
+    empties = bool(re.search(r"empt|drain|outlet", text, re.I))
+    if a <= 0 or b <= 0:
+        return None, [], None, None
+    if empties:
+        net = 1.0 / a - 1.0 / b
+        if net <= 0:                        # gate: outlet >= inlet never fills
+            return None, [], None, None
+        steps = [f"Inlet fills 1/{_fmt(a)} tank per hour; outlet empties "
+                 f"1/{_fmt(b)} tank per hour.",
+                 f"Net rate = 1/{_fmt(a)} - 1/{_fmt(b)} = {_fmt(net)} "
+                 f"tank/hour.",
+                 f"Time to fill = 1/{_fmt(net)} = {_fmt(1.0 / net)} hours."]
+        return 1.0 / net, steps, f"{_fmt(1.0 / net)} hours", \
+            ["net of one inlet and one outlet"]
+    together = a * b / (a + b)
+    steps = [f"Pipe rates: 1/{_fmt(a)} + 1/{_fmt(b)} tank per hour.",
+             f"Together = ({_fmt(a)} x {_fmt(b)})/({_fmt(a)} + {_fmt(b)}) = "
+             f"{_fmt(together)} hours."]
+    return together, steps, f"{_fmt(together)} hours", ["two inlet pipes"]
+
+
+def _c_binom_mean_var(g, m, text):
+    n = int(_num(g["n"]))
+    p = _num(g["p"])
+    if n < 1 or not (0.0 <= p <= 1.0):      # gate: valid n, p in [0, 1]
+        return None, [], None, None
+    mean = n * p
+    var = n * p * (1.0 - p)
+    return (mean,
+            ["For a binomial distribution: mean = np, "
+             "variance = np(1 - p).",
+             f"mean = {n} x {p:g} = {_fmt(mean)}",
+             f"variance = {n} x {p:g} x {1 - p:g} = {_fmt(var)}"],
+            f"mean = {_fmt(mean)}, variance = {_fmt(var)}", None)
+
+
+_APPLIED_BOOKS2 = [
+    ("DEPRECIATION",
+     r"(?:value\s+of\s+(?:a\s+)?(?:machine|vehicle|asset|car|equipment)\s*"
+     r"?|cost\s+)?(?P<p>" + _NUM + r")[^.]{0,60}?depreciat\w*[^.]{0,60}?"
+     r"(?P<r>" + _NUM + r")\s*%.{0,100}?(?:after|in|for)\s+"
+     r"(?P<t>" + _NUM + r")\s*years?",
+     _c_depreciation),
+    ("PIPES_CISTERN",
+     r"fills?\s+(?:a\s+)?tank\s+in\s+(?P<a>" + _NUM + r")\s*"
+     r"(?:hours?|hrs?|h\b)[^.]{0,120}?(?:fill|empt)\w*[^.]{0,40}?"
+     r"(?:in\s+)?(?P<b>" + _NUM + r")\s*(?:hours?|hrs?|h\b)",
+     _c_pipes),
+    ("PIPES_CISTERN",
+     r"fill\s+(?:it|the\s+tank)\s+in\s+(?P<a>" + _NUM + r")\s*"
+     r"(?:hours?|hrs?|h\b)[^.]{0,120}?(?:empt|drain)\w*[^.]{0,40}?"
+     r"(?:in\s+)?(?P<b>" + _NUM + r")\s*(?:hours?|hrs?|h\b)",
+     _c_pipes),
+    ("BINOMIAL_MEAN_VARIANCE",
+     r"binomial\s+distribution[^.]{0,160}?n\s*=\s*(?P<n>\d+)"
+     r"[^.]{0,60}?p\s*=\s*(?P<p>" + _NUM + r")",
+     _c_binom_mean_var),
+]
+
+APPLIED_TABLE = APPLIED_TABLE + _APPLIED_BOOKS2
+
 # precompile triggers once at import (regex errors surface immediately)
 APPLIED_TABLE = [(fid, re.compile(pat, re.I), fn)
                  for fid, pat, fn in APPLIED_TABLE]

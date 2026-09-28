@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_hin_ga_cbse_08_012",
+ "concepts": [
+  {
+   "id": "enh:c9_hin_ga_cbse_08_012",
+   "title": "c9_hin_ga_cbse_08_012",
+   "questions": [
+    {
+     "q": "पाठ 8 में 'वस्तुनिष्ठ प्रश्न' की पहचान करने का सबसे सरल मानदंड (Criterion) क्या है?",
+     "a": "**Correct Answer:** वस्तुनिष्ठ प्रश्न का उत्तर पाठ में **स्पष्ट, शब्दशः (Verbatim) या सीधे तथ्यात्मक रूप में उपस्थित** होता है; उसमें विद्यार्थी को अपने मन से तर्क जोड़ने या निष्कर्ष निकालने की आवश्यकता नहीं होती।\n**Misconception Revealed:** If a student says \"Short answer\" or \"One-word answer,\" they confuse *format* (length) with *nature* (source of answer). A 1-word answer can be inferential (e.g., \"Why did he leave?\" → \"Guilt\"), and a long answer can be objective (e.g., \"Describe the festival preparations\"). This reveals they haven't grasped the 'Text-Dependency vs. Mind-Dependency' distinction.",
+     "self_check": true
+    },
+    {
+     "q": "पाठ 8 के एक प्रसंग में लिखा है: \"रामू ने चुपचाप थाली सरका दी और आँखें नीची कर लीं।\" यदि पूछा जाए: \"रामू की मनःस्थिति क्या थी?\", तो यह किस प्रकार का प्रश्न है और क्यों?",
+     "a": "**Correct Answer:** यह **आशय-सूचक प्रश्न** है। पाठ में \"रामू दुखी/लज्जित/भयभीत था\" स्पष्ट नहीं लिखा; हमें उसके **कर्म (थाली सरकाना, आँखें नीची करना)** को साक्ष्य (Evidence) मानकर, प्रसंग अनुसार **निष्कर्ष (Inference)** निकालना पड़ा।\n**Misconception Revealed:** If a student labels it 'वस्तुनिष्ठ' because \"the actions are written in the text,\" they commit the **'Action = Emotion' fallacy**. They treat physical description as explicit emotional labeling. This shows they cannot distinguish *behavioral evidence* from *stated internal state* — a critical Board-level error.",
+     "self_check": true
+    },
+    {
+     "q": "पाठ 8 से एक वस्तुनिष्ठ प्रश्न और एक आशय-सूचक प्रश्न बनाइए जो **एक ही घटना/प्रसंग** पर आधारित हों। दोनों के उत्तर भी लिखिए।",
+     "a": "**Example (Generic Template for Ch 8):**\n*Event:* Protagonist gives away his prize money to a needy stranger.\n*वस्तुनिष्ठ:* \"नायक ने इनाम की राशि किसे दी?\" → **उत्तर:** \"एक ज़रूरतमंद अजनबी को।\" (Direct fact)\n*आशय-सूचक:* \"नायक के इस कृत्य से उसके चरित्र की कौन-सी विशेषता प्रकट होती है?\" → **उत्तर:** \"उसमें **परोपकारिता और त्याग** की भावना है, क्योंकि उसने अपनी ज़रूरत न देखकर दूसरे की पीड़ा को प्राथमिकता दी।\" (Evidence: giving prize money → Inference: Selflessness → Justification: Prioritizing other's pain).\n**Misconception Revealed:** If the student's inferential answer is just \"He was nice\" (vague trait) or copies the objective fact (\"He gave money\"), they lack the **Trait + Evidence + Justification** structure. They treat inference as a synonym hunt rather than a logical derivation.",
+     "self_check": true
+    },
+    {
+     "q": "पाठ 8 में एक प्रसंग है जहाँ कोई पात्र झूठ बोलता है, लेकिन पाठ में कहीं भी \"उसने झूठ बोला\" वाक्य नहीं आया। बोर्ड परीक्षा में पूछे गए प्रश्न \"पात्र ने झूठ क्यों बोला?\" का उत्तर देते समय विद्यार्थी अक्सर कौन-सी **दो गलतियाँ** करते हैं जो अंक कटवाती हैं?",
+     "a": "**Correct Answer:**\n1.  **साक्ष्य न देना (Missing Evidence):** केवल \"वह डर गया था\" लिख देते हैं, लेकिन पाठ की वे पंक्तियाँ उद्धृत/संकेत नहीं करते जहाँ पात्र का डर प्रकट होता है (जैसे: हाथ काँपना, बात टालना)।\n2.  **प्रसंग से बाहर की कल्पना (External Speculation):** \"शायद उसे घर पर डाँट पड़ती\" जैसी बाहरी कल्पना लिखते हैं जो पाठ द्वारा समर्थित नहीं है।\n**Misconception Revealed:** Students treat 'Inference' as 'Imagination'. They don't realize Board marking schemes for आशय-सूचक questions award marks **only for Text-Anchored Reasoning** (पाठ-आधारित तर्क). This error stems from not practicing the \"Quote/Paraphrase → Interpret → Conclude\" loop.",
+     "self_check": true
+    },
+    {
+     "q": "कथन: \"आशय-सूचक प्रश्नों के उत्तर लिखते समय पाठ की पंक्तियाँ उद्धृत (Quote) करना अनावश्यक है क्योंकि उत्तर तो अपनी समझ से लिखना होता है।\" इस कथन का मूल्यांकन कीजिए। क्या यह बोर्ड परीक्षा की दृष्टि से सही है? तर्क सहित उत्तर दीजिए।",
+     "a": "**Correct Answer:** **कथन गलत है।** बोर्ड परीक्षा (CBSE) में आशय-सूचक प्रश्नों के अंक **'पाठाधारित तर्क' (Text-based reasoning)** पर मिलते हैं। पंक्तियों का सन्दर्भ (Reference/Paraphrase) दिए बिना उत्तर 'व्यक्तिगत राय' माना जाता है, 'पाठ-आधारित निष्कर्ष' नहीं।\n**Example:** \"नायक ने हार स्वीकार कर ली\" (Inference) → **Must support with:** \"पंक्ति: 'उसने मुस्कुराकर ट्रॉफी लौटा दी' (Evidence)\".\n**Misconception Revealed:** Students equate \"Own words\" (अपने शब्दों में) with \"Own opinion\" (अपनी राय). They miss that \"Own words\" means *paraphrasing the text's logic*, not *importing outside logic*. This is the #1 reason for losing 1-2 marks per long answer.",
+     "self_check": true
+    },
+    {
+     "q": "पाठ 8 के शीर्षक/कथानक के आधार पर एक **मूल्य-आधारित आशय-सूचक प्रश्न** (Value-based Inferential Question) बनाइए जिसका उत्तर देते समय विद्यार्थी को पाठ के साक्ष्य + अपनी नैतिक समझ, दोनों का संतुलन बनाना पड़े। प्रश्न और उसके आदर्श उत्तर की रूपरेखा दीजिए।",
+     "a": "**Question:** \"पाठ 8 में नायक द्वारा लिए गए कठिन निर्णय से आप कौन-सा जीवन-मूल्य (Life Value) सीखते हैं? पाठ के किसी एक प्रसंग के साक्ष्य के साथ समझाइए।\"\n**Ideal Answer Outline:**\n1.  **Value Identified:** (e.g., \"सत्यनिष्ठा / कर्तव्यपरायणता\").\n2.  **Text Evidence (Paraphrased):** \"जब नायक ने [Specific Situation] में [Specific Action] किया, भले ही उसे [Personal Loss] हुआ।\"\n3.  **Synthesis (Bridge):** \"यह दर्शाता है कि सच्ची निष्ठा व्यक्तिगत लाभ से ऊपर होती है। मेरे विचार में वास्तविक जीवन में भी...\"\n**Poor Answer Reveals:** Student writes a moral lecture (\"Honesty is best policy\") with **zero text reference**, OR gives only text summary (\"He returned the money\") with **zero value articulation**. They fail the 'Dual Competency' (Literary Analysis + Value Education) required in NEP-aligned Board papers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

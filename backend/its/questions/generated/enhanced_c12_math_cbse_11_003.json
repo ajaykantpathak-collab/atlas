@@ -34,6 +34,16 @@
      "q": "Create a pair of lines in Cartesian form such that the angle between them is exactly \\(60^\\circ\\). Provide the equations and verify your answer.",
      "a": "We need \\(\\cos 60^\\circ = \\frac{1}{2}\\). Choose simple direction ratios: let line 1 have \\((1,0,0)\\) (x-axis). For line 2, we need \\(\\frac{|1\\cdot a_2 + 0 + 0|}{\\sqrt{1}\\sqrt{a_2^2+b_2^2+c_2^2}} = \\frac{1}{2} \\Rightarrow \\frac{|a_2|}{\\sqrt{a_2^2+b_2^2+c_2^2}} = \\frac{1}{2}\\). Choose \\(a_2=1\\), then \\(\\sqrt{1+b_2^2+c_2^2}=2 \\Rightarrow b_2^2+c_2^2=3\\). Pick \\(b_2=\\sqrt{3}, c_2=0\\). So line 2 direction ratios \\((1, \\sqrt{3}, 0)\\). Equations: Line 1: \\(\\frac{x}{1}=\\frac{y}{0}=\\frac{z}{0}\\) (x-axis). Line 2: \\(\\frac{x}{1}=\\frac{y}{\\sqrt{3}}=\\frac{z}{0}\\). Verification: \\(\\cos\\theta = \\frac{|1\\cdot1+0\\cdot\\sqrt{3}+0\\cdot0|}{\\sqrt{1}\\sqrt{1+3}} = \\frac{1}{2} \\Rightarrow \\theta=60^\\circ\\). A good answer shows the design process and verification. A poor answer might give lines that don't satisfy the condition or fail to verify.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The angle between two lines in three-______ space is defined as the acute angle between their direction vectors (or lines parallel to them passing through the origin).",
+     "a": "dimensional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To ______ the joints are cut at the correct angle, you must find the angle between these beams.",
+     "a": "ensure",
+     "self_check": true
     }
    ]
   }

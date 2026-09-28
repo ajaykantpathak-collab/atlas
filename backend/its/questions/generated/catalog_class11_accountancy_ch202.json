@@ -1,282 +1,714 @@
 {
- "catalog": "catalog_class11_accountancy_ch202",
+ "catalog": "catalog_class11_accountancy_ch202.json",
  "concepts": [
   {
    "id": "keac.9.2",
    "title": "Closing Stock Adjustment and Adjusted Purchases",
+   "converted_to_compute": true,
+   "formula": "adjusted_purchases = purchases + opening_stock - closing_stock",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "adjusted_purchases = purchases + opening_stock - closing_stock",
+     "compute": "adjusted_purchases = purchases + opening_stock - closing_stock"
+    }
+   ],
    "questions": [
     {
-     "q": "Calculate adjusted purchases. Use the method 'Closing Stock Adjustment and Adjusted Purchases'. Work with: closing_stock = 300, opening_stock = 24, purchases = 80000. Carry the chain through step by step and give the final value of adjusted_purchases.",
-     "a": "79724 rupees",
+     "q": "For Closing Stock Adjustment and Adjusted Purchases: given purchases = 15.6, opening_stock = 43, closing_stock = 91, find adjusted purchases.",
+     "a": "-32.4",
      "self_check": false
     },
     {
-     "q": "Find adjusted purchases given opening stock, purchases and closing stock. Use the method 'Closing Stock Adjustment and Adjusted Purchases'. Work with: closing_stock = 40, opening_stock = 20, purchases = 12000. Carry the chain through step by step and give the final value of adjusted_purchases.",
-     "a": "11980 rupees",
+     "q": "For Closing Stock Adjustment and Adjusted Purchases: given purchases = 28, opening_stock = 84, closing_stock = 65, find adjusted purchases.",
+     "a": "47",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Closing Stock Adjustment and Adjusted Purchases' refers to.",
-     "a": "Closing stock represents the value of unsold inventory at the end of the financial period, which can either be credited to the trading account or adjusted directly through purchases.",
-     "self_check": true
+     "q": "For Closing Stock Adjustment and Adjusted Purchases: given purchases = 5.1, opening_stock = 56, closing_stock = 39, find adjusted purchases.",
+     "a": "22.1",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Closing Stock Adjustment and Adjusted Purchases'.",
-     "a": "Closing stock is credited to trading account and shown as a current asset, or adjusted via purchases to show adjusted purchases on the debit side.",
-     "self_check": true
+     "q": "For Closing Stock Adjustment and Adjusted Purchases: given purchases = 5.5, opening_stock = 49, closing_stock = 91, find adjusted purchases.",
+     "a": "-36.5",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Closing Stock Adjustment and Adjusted Purchases', in plain ASCII form.",
-     "a": "adjusted_purchases = purchases + opening_stock - closing_stock",
-     "self_check": true
+     "q": "For Closing Stock Adjustment and Adjusted Purchases: given purchases = 67, opening_stock = 81, closing_stock = 42, find adjusted purchases.",
+     "a": "106",
+     "self_check": false
+    },
+    {
+     "q": "For Closing Stock Adjustment and Adjusted Purchases: given purchases = 42, opening_stock = 74, closing_stock = 53, find adjusted purchases.",
+     "a": "63",
+     "self_check": false
     }
    ]
   },
   {
    "id": "keac.9.3",
    "title": "Outstanding Expenses Adjustment",
+   "converted_to_compute": true,
+   "formula": "total_expense = expense_paid + outstanding_expense",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_expense = expense_paid + outstanding_expense",
+     "compute": "total_expense = expense_paid + outstanding_expense"
+    }
+   ],
    "questions": [
     {
-     "q": "Calculate total expense to be debited to profit and loss account including outstanding amount. Use the method 'Outstanding Expenses Adjustment'. Work with: expense_paid = 20000, outstanding_expense = 50000. Carry the chain through step by step and give the final value of total_expense.",
-     "a": "70000 rupees",
+     "q": "For Outstanding Expenses Adjustment: given expense_paid = 50, outstanding_expense = 10.1, find total expense.",
+     "a": "60.1",
      "self_check": false
     },
     {
-     "q": "Find the final expense when unpaid expense is given. Use the method 'Outstanding Expenses Adjustment'. Work with: expense_paid = 8000, outstanding_expense = 8000. Carry the chain through step by step and give the final value of total_expense.",
-     "a": "16000 rupees",
+     "q": "For Outstanding Expenses Adjustment: given expense_paid = 87, outstanding_expense = 12.8, find total expense.",
+     "a": "99.8",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Outstanding Expenses Adjustment' refers to.",
-     "a": "Unpaid expenses incurred during the current financial period are outstanding expenses and must be added to the relevant expense head and recorded as a current liability.",
-     "self_check": true
+     "q": "For Outstanding Expenses Adjustment: given expense_paid = 86, outstanding_expense = 93, find total expense.",
+     "a": "179",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Outstanding Expenses Adjustment'.",
-     "a": "Accrual basis mandates adding unpaid costs to current year expenses and recognizing a corresponding liability.",
-     "self_check": true
+     "q": "For Outstanding Expenses Adjustment: given expense_paid = 33, outstanding_expense = 16.2, find total expense.",
+     "a": "49.2",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Outstanding Expenses Adjustment', in plain ASCII form.",
-     "a": "total_expense = expense_paid + outstanding_expense",
-     "self_check": true
+     "q": "For Outstanding Expenses Adjustment: given expense_paid = 89, outstanding_expense = 60, find total expense.",
+     "a": "149",
+     "self_check": false
+    },
+    {
+     "q": "For Outstanding Expenses Adjustment: given expense_paid = 47, outstanding_expense = 1.2, find total expense.",
+     "a": "48.2",
+     "self_check": false
     }
    ]
   },
   {
    "id": "keac.9.4",
    "title": "Prepaid Expenses Adjustment",
+   "converted_to_compute": true,
+   "formula": "effective_expense = expense_paid - prepaid_expense",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "effective_expense = expense_paid - prepaid_expense",
+     "compute": "effective_expense = expense_paid - prepaid_expense"
+    }
+   ],
    "questions": [
     {
-     "q": "Calculate net expense after deducting prepaid portion. Use the method 'Prepaid Expenses Adjustment'. Work with: expense_paid = 80000, prepaid_expense = 12000. Carry the chain through step by step and give the final value of effective_expense.",
-     "a": "68000 rupees",
+     "q": "For Prepaid Expenses Adjustment: given expense_paid = 24, prepaid_expense = 20, find effective expense.",
+     "a": "4",
      "self_check": false
     },
     {
-     "q": "Find insurance premium to be charged to profit and loss account. Use the method 'Prepaid Expenses Adjustment'. Work with: expense_paid = 5000, prepaid_expense = 500. Carry the chain through step by step and give the final value of effective_expense.",
-     "a": "4500 rupees",
+     "q": "For Prepaid Expenses Adjustment: given expense_paid = 7.6, prepaid_expense = 58, find effective expense.",
+     "a": "-50.4",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Prepaid Expenses Adjustment' refers to.",
-     "a": "Expenses paid in advance whose benefits extend into the subsequent accounting period are deducted from total expenses and presented as current assets.",
-     "self_check": true
+     "q": "For Prepaid Expenses Adjustment: given expense_paid = 63, prepaid_expense = 92, find effective expense.",
+     "a": "-29",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Prepaid Expenses Adjustment'.",
-     "a": "Advance payments for future periods are excluded from current P&L expense and carried forward as assets.",
-     "self_check": true
+     "q": "For Prepaid Expenses Adjustment: given expense_paid = 43, prepaid_expense = 97, find effective expense.",
+     "a": "-54",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Prepaid Expenses Adjustment', in plain ASCII form.",
-     "a": "effective_expense = expense_paid - prepaid_expense",
-     "self_check": true
+     "q": "For Prepaid Expenses Adjustment: given expense_paid = 14.7, prepaid_expense = 92, find effective expense.",
+     "a": "-77.3",
+     "self_check": false
+    },
+    {
+     "q": "For Prepaid Expenses Adjustment: given expense_paid = 70, prepaid_expense = 17.9, find effective expense.",
+     "a": "52.1",
+     "self_check": false
     }
    ]
   },
   {
    "id": "keac.9.5",
    "title": "Accrued Income Adjustment",
+   "converted_to_compute": true,
+   "formula": "total_income = income_received + accrued_income",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_income = income_received + accrued_income",
+     "compute": "total_income = income_received + accrued_income"
+    }
+   ],
    "questions": [
     {
-     "q": "Calculate total income earned including accrued revenue. Use the method 'Accrued Income Adjustment'. Work with: accrued_income = 500, income_received = 50000. Carry the chain through step by step and give the final value of total_income.",
-     "a": "50500 rupees",
+     "q": "For Accrued Income Adjustment: given income_received = 30, accrued_income = 62, find total income.",
+     "a": "92",
      "self_check": false
     },
     {
-     "q": "Find total commission credited to profit and loss account. Use the method 'Accrued Income Adjustment'. Work with: accrued_income = 500, income_received = 2500. Carry the chain through step by step and give the final value of total_income.",
-     "a": "3000 rupees",
+     "q": "For Accrued Income Adjustment: given income_received = 61, accrued_income = 86, find total income.",
+     "a": "147",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Accrued Income Adjustment' refers to.",
-     "a": "Income earned during the current period but not yet received in cash by the end of the year is added to total revenue and listed as a current asset.",
-     "self_check": true
+     "q": "For Accrued Income Adjustment: given income_received = 31, accrued_income = 29, find total income.",
+     "a": "60",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Accrued Income Adjustment'.",
-     "a": "Revenues earned but uncollected are recognized in the profit and loss account and shown under current assets.",
-     "self_check": true
+     "q": "For Accrued Income Adjustment: given income_received = 69, accrued_income = 13.5, find total income.",
+     "a": "82.5",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Accrued Income Adjustment', in plain ASCII form.",
-     "a": "total_income = income_received + accrued_income",
-     "self_check": true
+     "q": "For Accrued Income Adjustment: given income_received = 85, accrued_income = 7.4, find total income.",
+     "a": "92.4",
+     "self_check": false
+    },
+    {
+     "q": "For Accrued Income Adjustment: given income_received = 39, accrued_income = 43, find total income.",
+     "a": "82",
+     "self_check": false
     }
    ]
   },
   {
    "id": "keac.9.6",
    "title": "Income Received in Advance Adjustment",
+   "converted_to_compute": true,
+   "formula": "earned_income = income_received - advance_income",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "earned_income = income_received - advance_income",
+     "compute": "earned_income = income_received - advance_income"
+    }
+   ],
    "questions": [
     {
-     "q": "Calculate net earned income when advance receipt is included. Use the method 'Income Received in Advance Adjustment'. Work with: advance_income = 2500, income_received = 20000. Carry the chain through step by step and give the final value of earned_income.",
-     "a": "17500 rupees",
+     "q": "For Income Received in Advance Adjustment: given income_received = 0.5, advance_income = 81, find earned income.",
+     "a": "-80.5",
      "self_check": false
     },
     {
-     "q": "Find actual rent income for the current financial year. Use the method 'Income Received in Advance Adjustment'. Work with: advance_income = 500, income_received = 500. Carry the chain through step by step and give the final value of earned_income.",
-     "a": "0 rupees",
+     "q": "For Income Received in Advance Adjustment: given income_received = 67, advance_income = 65, find earned income.",
+     "a": "2",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Income Received in Advance Adjustment' refers to.",
-     "a": "Revenue received during the current period that relates to future accounting periods must be deducted from current income and reported as a current liability.",
-     "self_check": true
+     "q": "For Income Received in Advance Adjustment: given income_received = 28, advance_income = 11.4, find earned income.",
+     "a": "16.6",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Income Received in Advance Adjustment'.",
-     "a": "Unearned revenue collected in advance is excluded from current income and treated as a liability.",
-     "self_check": true
+     "q": "For Income Received in Advance Adjustment: given income_received = 2.6, advance_income = 12.9, find earned income.",
+     "a": "-10.3",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Income Received in Advance Adjustment', in plain ASCII form.",
-     "a": "earned_income = income_received - advance_income",
-     "self_check": true
+     "q": "For Income Received in Advance Adjustment: given income_received = 55, advance_income = 44, find earned income.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "For Income Received in Advance Adjustment: given income_received = 0.9, advance_income = 34, find earned income.",
+     "a": "-33.1",
+     "self_check": false
     }
    ]
   },
   {
    "id": "keac.9.7",
    "title": "Depreciation Adjustment",
+   "converted_to_compute": true,
+   "formula": "depreciation = asset_cost * rate / 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "depreciation = asset_cost * rate / 100",
+     "compute": "depreciation = asset_cost * rate / 100"
+    }
+   ],
    "questions": [
     {
-     "q": "Calculate depreciation charge on fixed asset. Use the method 'Depreciation Adjustment'. Work with: asset_cost = 2500, rate = 18. Carry the chain through step by step and give the final value of net_book_value.",
-     "a": "2050 rupees",
+     "q": "For Depreciation Adjustment: given asset_cost = 47, rate = 83, find depreciation.",
+     "a": "39.01",
      "self_check": false
     },
     {
-     "q": "Find net book value of asset after depreciation. Use the method 'Depreciation Adjustment'. Work with: asset_cost = 1200, rate = 20. Carry the chain through step by step and give the final value of net_book_value.",
-     "a": "960 rupees",
+     "q": "For Depreciation Adjustment: given asset_cost = 85, rate = 35, find depreciation.",
+     "a": "29.75",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Depreciation Adjustment' refers to.",
-     "a": "Depreciation is the reduction in book value of fixed assets due to wear, tear, and usage over time, charged as a expense in P&L and deducted from asset cost in Balance Sheet.",
-     "self_check": true
+     "q": "For Depreciation Adjustment: given asset_cost = 3.8, rate = 1, find depreciation.",
+     "a": "0.038",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Depreciation Adjustment'.",
-     "a": "Depreciation allocates fixed asset cost as an expense, reducing net profit and asset book value.",
-     "self_check": true
+     "q": "For Depreciation Adjustment: given asset_cost = 78, rate = 73, find depreciation.",
+     "a": "56.94",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Depreciation Adjustment', in plain ASCII form.",
-     "a": "depreciation = asset_cost * rate / 100",
-     "self_check": true
+     "q": "For Depreciation Adjustment: given asset_cost = 76, rate = 50, find depreciation.",
+     "a": "38",
+     "self_check": false
+    },
+    {
+     "q": "For Depreciation Adjustment: given asset_cost = 103, rate = 50, find depreciation.",
+     "a": "51.5",
+     "self_check": false
     }
    ]
   },
   {
    "id": "keac.9.8",
    "title": "Bad Debts and Further Bad Debts Adjustment",
+   "converted_to_compute": true,
+   "formula": "total_bad_debts = existing_bad_debts + further_bad_debts",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_bad_debts = existing_bad_debts + further_bad_debts",
+     "compute": "total_bad_debts = existing_bad_debts + further_bad_debts"
+    }
+   ],
    "questions": [
     {
-     "q": "Calculate total bad debts expense for profit and loss account. Use the method 'Bad Debts and Further Bad Debts Adjustment'. Work with: existing_bad_debts = 24, further_bad_debts = 20, total_debtors = 60. Carry the chain through step by step and give the final value of net_debtors.",
-     "a": "40 rupees",
+     "q": "For Bad Debts and Further Bad Debts Adjustment: given existing_bad_debts = 86, further_bad_debts = 23, find total bad debts.",
+     "a": "109",
      "self_check": false
     },
     {
-     "q": "Find remaining debtors after writing off further bad debts. Use the method 'Bad Debts and Further Bad Debts Adjustment'. Work with: existing_bad_debts = 15, further_bad_debts = 15, total_debtors = 50. Carry the chain through step by step and give the final value of net_debtors.",
-     "a": "35 rupees",
+     "q": "For Bad Debts and Further Bad Debts Adjustment: given existing_bad_debts = 98, further_bad_debts = 44, find total bad debts.",
+     "a": "142",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Bad Debts and Further Bad Debts Adjustment' refers to.",
-     "a": "Irrecoverable debts written off during the period are recorded as bad debts; additional irrecoverable amounts identified at year-end are further bad debts that reduce debtors balance.",
-     "self_check": true
+     "q": "For Bad Debts and Further Bad Debts Adjustment: given existing_bad_debts = 69, further_bad_debts = 92, find total bad debts.",
+     "a": "161",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Bad Debts and Further Bad Debts Adjustment'.",
-     "a": "Further bad debts increase total bad debt expense in P&L and directly reduce sundry debtors in the balance sheet.",
-     "self_check": true
+     "q": "For Bad Debts and Further Bad Debts Adjustment: given existing_bad_debts = 67, further_bad_debts = 30, find total bad debts.",
+     "a": "97",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Bad Debts and Further Bad Debts Adjustment', in plain ASCII form.",
-     "a": "total_bad_debts = existing_bad_debts + further_bad_debts",
-     "self_check": true
+     "q": "For Bad Debts and Further Bad Debts Adjustment: given existing_bad_debts = 5.6, further_bad_debts = 58, find total bad debts.",
+     "a": "63.6",
+     "self_check": false
+    },
+    {
+     "q": "For Bad Debts and Further Bad Debts Adjustment: given existing_bad_debts = 48, further_bad_debts = 44, find total bad debts.",
+     "a": "92",
+     "self_check": false
     }
    ]
   },
   {
    "id": "keac.9.9",
    "title": "Provision for Bad and Doubtful Debts Adjustment",
+   "converted_to_compute": true,
+   "formula": "new_provision = (debtors - further_bad_debts) * rate / 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "new_provision = (debtors - further_bad_debts) * rate / 100",
+     "compute": "new_provision = (debtors - further_bad_debts) * rate / 100"
+    }
+   ],
    "questions": [
     {
-     "q": "Calculate new provision for doubtful debts. Use the method 'Provision for Bad and Doubtful Debts Adjustment'. Work with: debtors = 3, existing_bad_debts = 20, further_bad_debts = 120, old_provision = 18, rate = 15. Carry the chain through step by step and give the final value of pnl_charge.",
-     "a": "104.45 rupees",
+     "q": "For Provision for Bad and Doubtful Debts Adjustment: given debtors = 9, further_bad_debts = 1.5, rate = 92, find new provision.",
+     "a": "6.9",
      "self_check": false
     },
     {
-     "q": "Find net debit or credit to profit and loss account for bad debts provision. Use the method 'Provision for Bad and Doubtful Debts Adjustment'. Work with: debtors = 15, existing_bad_debts = 18, further_bad_debts = 400, old_provision = 45, rate = 8. Carry the chain through step by step and give the final value of pnl_charge.",
-     "a": "342.2 rupees",
+     "q": "For Provision for Bad and Doubtful Debts Adjustment: given debtors = 78, further_bad_debts = 82, rate = 31, find new provision.",
+     "a": "-1.24",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Provision for Bad and Doubtful Debts Adjustment' refers to.",
-     "a": "An estimated provision set aside from profits to cover potential future losses from doubtful debts, calculated as a percentage of good debtors after deducting further bad debts.",
-     "self_check": true
+     "q": "For Provision for Bad and Doubtful Debts Adjustment: given debtors = 36, further_bad_debts = 59, rate = 47, find new provision.",
+     "a": "-10.81",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Provision for Bad and Doubtful Debts Adjustment'.",
-     "a": "New provision is computed on debtors after deducting further bad debts, and the net charge to P&L accounts for old provision balances.",
-     "self_check": true
+     "q": "For Provision for Bad and Doubtful Debts Adjustment: given debtors = 96, further_bad_debts = 68, rate = 8.8, find new provision.",
+     "a": "2.464",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Provision for Bad and Doubtful Debts Adjustment', in plain ASCII form.",
-     "a": "new_provision = (debtors - further_bad_debts) * rate / 100",
-     "self_check": true
+     "q": "For Provision for Bad and Doubtful Debts Adjustment: given debtors = 47, further_bad_debts = 19, rate = 86, find new provision.",
+     "a": "24.08",
+     "self_check": false
+    },
+    {
+     "q": "For Provision for Bad and Doubtful Debts Adjustment: given debtors = 72, further_bad_debts = 95, rate = 80, find new provision.",
+     "a": "-18.4",
+     "self_check": false
     }
    ]
   },
   {
    "id": "keac.9.10",
    "title": "Provision for Discount on Debtors Adjustment",
+   "converted_to_compute": true,
+   "formula": "discount_provision = (debtors - further_bad_debts - provision_doubtful) * rate / 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "discount_provision = (debtors - further_bad_debts - provision_doubtful) * rate / 100",
+     "compute": "discount_provision = (debtors - further_bad_debts - provision_doubtful) * rate / 100"
+    }
+   ],
    "questions": [
     {
-     "q": "Calculate provision for discount on debtors. Use the method 'Provision for Discount on Debtors Adjustment'. Work with: debtors = 6, further_bad_debts = 40, provision_doubtful = 40, rate = 20. Carry the chain through step by step and give the final value of net_realisable_debtors.",
-     "a": "-59.2 rupees",
+     "q": "For Provision for Discount on Debtors Adjustment: given debtors = 84, further_bad_debts = 40, provision_doubtful = 16.8, rate = 69, find discount provision.",
+     "a": "18.768",
      "self_check": false
     },
     {
-     "q": "Find good debtors balance available for discount provision. Use the method 'Provision for Discount on Debtors Adjustment'. Work with: debtors = 150, further_bad_debts = 10, provision_doubtful = 20, rate = 18. Carry the chain through step by step and give the final value of net_realisable_debtors.",
-     "a": "98.4 rupees",
+     "q": "For Provision for Discount on Debtors Adjustment: given debtors = 93, further_bad_debts = 22, provision_doubtful = 1.4, rate = 51, find discount provision.",
+     "a": "35.496",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Provision for Discount on Debtors Adjustment' refers to.",
-     "a": "A provision created on good debtors (after deducting bad debts and provision for doubtful debts) to estimate discounts to be allowed for prompt payment in the next period.",
-     "self_check": true
+     "q": "For Provision for Discount on Debtors Adjustment: given debtors = 49, further_bad_debts = 97, provision_doubtful = 8.2, rate = 86, find discount provision.",
+     "a": "-48.332",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Provision for Discount on Debtors Adjustment'.",
-     "a": "Discount provision is estimated only on good debtors remaining after all bad debt adjustments.",
-     "self_check": true
+     "q": "For Provision for Discount on Debtors Adjustment: given debtors = 33, further_bad_debts = 56, provision_doubtful = 10.4, rate = 90, find discount provision.",
+     "a": "-30.06",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Provision for Discount on Debtors Adjustment', in plain ASCII form.",
-     "a": "discount_provision = (debtors - further_bad_debts - provision_doubtful) * rate / 100",
-     "self_check": true
+     "q": "For Provision for Discount on Debtors Adjustment: given debtors = 61, further_bad_debts = 97, provision_doubtful = 12.9, rate = 71, find discount provision.",
+     "a": "-34.719",
+     "self_check": false
+    },
+    {
+     "q": "For Provision for Discount on Debtors Adjustment: given debtors = 29, further_bad_debts = 77, provision_doubtful = 13.2, rate = 53, find discount provision.",
+     "a": "-32.436",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.202.2",
+   "title": "Depreciation on Fixed Assets",
+   "converted_to_compute": true,
+   "formula": "depreciation_amount = asset_value * depreciation_rate / 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "depreciation_amount = asset_value * depreciation_rate / 100",
+     "compute": "depreciation_amount = asset_value * depreciation_rate / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keac.202.2",
+     "question_pattern": "what is the depreciation amount for building valued at {asset_value} with rate {depreciation_rate}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Depreciation on Fixed Assets: given asset_value = 68, depreciation_rate = 12.2, find depreciation amount.",
+     "a": "8.296",
+     "self_check": false
+    },
+    {
+     "q": "what is the depreciation amount for building valued at 68 with rate 12.2?",
+     "a": "8.296",
+     "self_check": false
+    },
+    {
+     "q": "For Depreciation on Fixed Assets: given asset_value = 36, depreciation_rate = 2.8, find depreciation amount.",
+     "a": "1.008",
+     "self_check": false
+    },
+    {
+     "q": "what is the depreciation amount for building valued at 36 with rate 2.8?",
+     "a": "1.008",
+     "self_check": false
+    },
+    {
+     "q": "For Depreciation on Fixed Assets: given asset_value = 5, depreciation_rate = 4.6, find depreciation amount.",
+     "a": "0.23",
+     "self_check": false
+    },
+    {
+     "q": "what is the depreciation amount for building valued at 5 with rate 4.6?",
+     "a": "0.23",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.202.3",
+   "title": "Provision for Doubtful Debts Adjustment",
+   "converted_to_compute": true,
+   "formula": "provision_amount = (debtors - further_bad_debts) * provision_rate / 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "provision_amount = (debtors - further_bad_debts) * provision_rate / 100",
+     "compute": "provision_amount = (debtors - further_bad_debts) * provision_rate / 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Provision for Doubtful Debts Adjustment: given debtors = 79, further_bad_debts = 58, provision_rate = 17.9, find provision amount.",
+     "a": "3.759",
+     "self_check": false
+    },
+    {
+     "q": "For Provision for Doubtful Debts Adjustment: given debtors = 59, further_bad_debts = 11.2, provision_rate = 15.8, find provision amount.",
+     "a": "7.5524",
+     "self_check": false
+    },
+    {
+     "q": "For Provision for Doubtful Debts Adjustment: given debtors = 47, further_bad_debts = 67, provision_rate = 12.4, find provision amount.",
+     "a": "-2.48",
+     "self_check": false
+    },
+    {
+     "q": "For Provision for Doubtful Debts Adjustment: given debtors = 4.9, further_bad_debts = 17.8, provision_rate = 12.7, find provision amount.",
+     "a": "-1.6383",
+     "self_check": false
+    },
+    {
+     "q": "For Provision for Doubtful Debts Adjustment: given debtors = 2.4, further_bad_debts = 22, provision_rate = 14.6, find provision amount.",
+     "a": "-2.8616",
+     "self_check": false
+    },
+    {
+     "q": "For Provision for Doubtful Debts Adjustment: given debtors = 59, further_bad_debts = 12.2, provision_rate = 12.3, find provision amount.",
+     "a": "5.7564",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.202.4",
+   "title": "Net Bad Debts Expense in Profit and Loss",
+   "converted_to_compute": true,
+   "formula": "net_bad_debts_expense = bad_debts + further_bad_debts + new_provision - old_provision",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_bad_debts_expense = bad_debts + further_bad_debts + new_provision - old_provision",
+     "compute": "net_bad_debts_expense = bad_debts + further_bad_debts + new_provision - old_provision"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Net Bad Debts Expense in Profit and Loss: given bad_debts = 9.6, further_bad_debts = 98, new_provision = 25, old_provision = 10.9, find net bad debts expense.",
+     "a": "121.7",
+     "self_check": false
+    },
+    {
+     "q": "For Net Bad Debts Expense in Profit and Loss: given bad_debts = 78, further_bad_debts = 72, new_provision = 90, old_provision = 13.4, find net bad debts expense.",
+     "a": "226.6",
+     "self_check": false
+    },
+    {
+     "q": "For Net Bad Debts Expense in Profit and Loss: given bad_debts = 44, further_bad_debts = 20, new_provision = 68, old_provision = 20, find net bad debts expense.",
+     "a": "112",
+     "self_check": false
+    },
+    {
+     "q": "For Net Bad Debts Expense in Profit and Loss: given bad_debts = 6.9, further_bad_debts = 1.8, new_provision = 35, old_provision = 34, find net bad debts expense.",
+     "a": "9.7",
+     "self_check": false
+    },
+    {
+     "q": "For Net Bad Debts Expense in Profit and Loss: given bad_debts = 26, further_bad_debts = 84, new_provision = 68, old_provision = 63, find net bad debts expense.",
+     "a": "115",
+     "self_check": false
+    },
+    {
+     "q": "For Net Bad Debts Expense in Profit and Loss: given bad_debts = 21, further_bad_debts = 91, new_provision = 88, old_provision = 3.7, find net bad debts expense.",
+     "a": "196.3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.202.6",
+   "title": "Prepaid Expenses Adjustment",
+   "converted_to_compute": true,
+   "formula": "net_expense = total_paid - prepaid_amount",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_expense = total_paid - prepaid_amount",
+     "compute": "net_expense = total_paid - prepaid_amount"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Prepaid Expenses Adjustment: given total_paid = 76, prepaid_amount = 92, find net expense.",
+     "a": "-16",
+     "self_check": false
+    },
+    {
+     "q": "For Prepaid Expenses Adjustment: given total_paid = 91, prepaid_amount = 9.7, find net expense.",
+     "a": "81.3",
+     "self_check": false
+    },
+    {
+     "q": "For Prepaid Expenses Adjustment: given total_paid = 60, prepaid_amount = 31, find net expense.",
+     "a": "29",
+     "self_check": false
+    },
+    {
+     "q": "For Prepaid Expenses Adjustment: given total_paid = 46, prepaid_amount = 48, find net expense.",
+     "a": "-2",
+     "self_check": false
+    },
+    {
+     "q": "For Prepaid Expenses Adjustment: given total_paid = 70, prepaid_amount = 11.5, find net expense.",
+     "a": "58.5",
+     "self_check": false
+    },
+    {
+     "q": "For Prepaid Expenses Adjustment: given total_paid = 68, prepaid_amount = 87, find net expense.",
+     "a": "-19",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.202.7",
+   "title": "Outstanding Expenses Adjustment",
+   "converted_to_compute": true,
+   "formula": "total_expense = paid_expense + outstanding_amount",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_expense = paid_expense + outstanding_amount",
+     "compute": "total_expense = paid_expense + outstanding_amount"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Outstanding Expenses Adjustment: given paid_expense = 69, outstanding_amount = 37, find total expense.",
+     "a": "106",
+     "self_check": false
+    },
+    {
+     "q": "For Outstanding Expenses Adjustment: given paid_expense = 61, outstanding_amount = 36, find total expense.",
+     "a": "97",
+     "self_check": false
+    },
+    {
+     "q": "For Outstanding Expenses Adjustment: given paid_expense = 65, outstanding_amount = 85, find total expense.",
+     "a": "150",
+     "self_check": false
+    },
+    {
+     "q": "For Outstanding Expenses Adjustment: given paid_expense = 42, outstanding_amount = 12.7, find total expense.",
+     "a": "54.7",
+     "self_check": false
+    },
+    {
+     "q": "For Outstanding Expenses Adjustment: given paid_expense = 75, outstanding_amount = 39, find total expense.",
+     "a": "114",
+     "self_check": false
+    },
+    {
+     "q": "For Outstanding Expenses Adjustment: given paid_expense = 51, outstanding_amount = 74, find total expense.",
+     "a": "125",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.202.11",
+   "title": "Access Abs Function",
+   "converted_to_compute": true,
+   "formula": "absolute_value = abs(number)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "absolute_value = abs(number)",
+     "compute": "absolute_value = abs(number)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Access Abs Function: given number = 261, find absolute value.",
+     "a": "261",
+     "self_check": false
+    },
+    {
+     "q": "For Access Abs Function: given number = 30, find absolute value.",
+     "a": "30",
+     "self_check": false
+    },
+    {
+     "q": "For Access Abs Function: given number = 213, find absolute value.",
+     "a": "213",
+     "self_check": false
+    },
+    {
+     "q": "For Access Abs Function: given number = 161, find absolute value.",
+     "a": "161",
+     "self_check": false
+    },
+    {
+     "q": "For Access Abs Function: given number = 106, find absolute value.",
+     "a": "106",
+     "self_check": false
+    },
+    {
+     "q": "For Access Abs Function: given number = 265, find absolute value.",
+     "a": "265",
+     "self_check": false
     }
    ]
   },
@@ -374,99 +806,6 @@
    ]
   },
   {
-   "id": "keac.202.2",
-   "title": "Depreciation on Fixed Assets",
-   "questions": [
-    {
-     "q": "Calculate depreciation on machinery at 10%. Use the method 'Depreciation on Fixed Assets'. Work with: asset_value = 8000, depreciation_rate = 12. Carry the chain through step by step and give the final value of depreciation_amount.",
-     "a": "960 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the depreciation on scooter. Use the method 'Depreciation on Fixed Assets'. Work with: asset_value = 5000, depreciation_rate = 10. Carry the chain through step by step and give the final value of depreciation_amount.",
-     "a": "500 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Depreciation on Fixed Assets' refers to.",
-     "a": "The systematic allocation of the cost of a tangible asset over its useful life, recorded as an expense in the Profit and Loss account and deducted from the asset value in the Balance Sheet.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Depreciation on Fixed Assets'.",
-     "a": "Reduces the book value of fixed assets and charges the reduction as an operating expense.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Depreciation on Fixed Assets', in plain ASCII form.",
-     "a": "depreciation_amount = asset_value * depreciation_rate / 100",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.202.3",
-   "title": "Provision for Doubtful Debts Adjustment",
-   "questions": [
-    {
-     "q": "Calculate the provision for doubtful debts at 5% on debtors. Use the method 'Provision for Doubtful Debts Adjustment'. Work with: debtors = 75, further_bad_debts = 120, provision_rate = 18. Carry the chain through step by step and give the final value of provision_amount.",
-     "a": "-8.1 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the provision on debtors. Use the method 'Provision for Doubtful Debts Adjustment'. Work with: debtors = 60, further_bad_debts = 24, provision_rate = 12. Carry the chain through step by step and give the final value of provision_amount.",
-     "a": "4.32 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Provision for Doubtful Debts Adjustment' refers to.",
-     "a": "An estimate of potential losses from credit sales that may become uncollectible, calculated as a percentage of outstanding debtors after deducting further bad debts.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Provision for Doubtful Debts Adjustment'.",
-     "a": "Created to adhere to the conservatism principle, reducing debtors in the balance sheet and charging P&L.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Provision for Doubtful Debts Adjustment', in plain ASCII form.",
-     "a": "provision_amount = (debtors - further_bad_debts) * provision_rate / 100",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.202.4",
-   "title": "Net Bad Debts Expense in Profit and Loss",
-   "questions": [
-    {
-     "q": "Calculate the net bad debts to be debited to profit and loss account. Use the method 'Net Bad Debts Expense in Profit and Loss'. Work with: bad_debts = 8, further_bad_debts = 5, new_provision = 15, old_provision = 100. Carry the chain through step by step and give the final value of net_bad_debts_expense.",
-     "a": "-72 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the debit to Profit and Loss account for bad debts. Use the method 'Net Bad Debts Expense in Profit and Loss'. Work with: bad_debts = 3, further_bad_debts = 45, new_provision = 100, old_provision = 120. Carry the chain through step by step and give the final value of net_bad_debts_expense.",
-     "a": "28 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Net Bad Debts Expense in Profit and Loss' refers to.",
-     "a": "The total bad debts expense transferred to the Profit and Loss account, combining existing bad debts, further bad debts, and the new provision, while deducting the old provision.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Net Bad Debts Expense in Profit and Loss'.",
-     "a": "Combines all bad debt adjustments to find the net impact on the Profit and Loss account.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Net Bad Debts Expense in Profit and Loss', in plain ASCII form.",
-     "a": "net_bad_debts_expense = bad_debts + further_bad_debts + new_provision - old_provision",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "keac.202.5",
    "title": "Interest on Drawings",
    "questions": [
@@ -493,68 +832,6 @@
     {
      "q": "Write the standard relation used for 'Interest on Drawings', in plain ASCII form.",
      "a": "interest_on_drawings = drawings * rate / 100",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.202.6",
-   "title": "Prepaid Expenses Adjustment",
-   "questions": [
-    {
-     "q": "Calculate the net insurance expense after deducting unexpired insurance. Use the method 'Prepaid Expenses Adjustment'. Work with: prepaid_amount = 120000, total_paid = 500. Carry the chain through step by step and give the final value of net_expense.",
-     "a": "-119500 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the net expense after prepaid adjustment. Use the method 'Prepaid Expenses Adjustment'. Work with: prepaid_amount = 20000, total_paid = 50. Carry the chain through step by step and give the final value of net_expense.",
-     "a": "-19950 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Prepaid Expenses Adjustment' refers to.",
-     "a": "Expenses paid in advance during the current accounting period that relate to a future period, which are deducted from the respective expense and shown as a current asset.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Prepaid Expenses Adjustment'.",
-     "a": "Adjusts the expense to reflect only the current period's share.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Prepaid Expenses Adjustment', in plain ASCII form.",
-     "a": "net_expense = total_paid - prepaid_amount",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.202.7",
-   "title": "Outstanding Expenses Adjustment",
-   "questions": [
-    {
-     "q": "Calculate the total wages including outstanding wages. Use the method 'Outstanding Expenses Adjustment'. Work with: outstanding_amount = 1200, paid_expense = 80000. Carry the chain through step by step and give the final value of total_expense.",
-     "a": "81200 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the total expense with outstanding adjustment. Use the method 'Outstanding Expenses Adjustment'. Work with: outstanding_amount = 1200, paid_expense = 5000. Carry the chain through step by step and give the final value of total_expense.",
-     "a": "6200 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Outstanding Expenses Adjustment' refers to.",
-     "a": "Expenses incurred during the current accounting period but not yet paid, which are added to the respective expense in P&L and shown as a current liability.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Outstanding Expenses Adjustment'.",
-     "a": "Ensures complete matching of expenses incurred with revenues earned.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Outstanding Expenses Adjustment', in plain ASCII form.",
-     "a": "total_expense = paid_expense + outstanding_amount",
      "self_check": true
     }
    ]
@@ -618,37 +895,6 @@
     {
      "q": "Write the standard relation used for 'Access IIF Function', in plain ASCII form.",
      "a": "result = IIF(condition, value_if_true, value_if_false)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.202.11",
-   "title": "Access Abs Function",
-   "questions": [
-    {
-     "q": "Find the absolute value of a number. Use the method 'Access Abs Function'. Work with: number = 4096. Carry the chain through step by step and give the final value of absolute_value.",
-     "a": "4096 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Calculate the absolute value using Abs. Use the method 'Access Abs Function'. Work with: number = 2048. Carry the chain through step by step and give the final value of absolute_value.",
-     "a": "2048 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Access Abs Function' refers to.",
-     "a": "A mathematical function that returns the absolute (positive) value of a given numeric expression, ignoring its sign.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Access Abs Function'.",
-     "a": "Converts negative numbers to positive while keeping positive numbers unchanged.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Access Abs Function', in plain ASCII form.",
-     "a": "absolute_value = abs(number)",
      "self_check": true
     }
    ]

@@ -34,6 +34,26 @@
      "q": "Design a simple school-lab experiment to determine the molar specific heat capacity at constant pressure (\\(C_p\\)) of air using a constant-pressure gas thermometer setup (e.g., a flask with a volume-adjustable syringe). Outline the measurements needed and the calculation steps.",
      "a": "Apparatus: Conical flask with a movable piston/syringe (constant pressure), heater, thermometer, balance. Procedure: (1) Measure mass of air in flask (by mass difference after flushing). (2) Convert mass to moles using molar mass of air (~29 g/mol). (3) Supply known heat \\(Q\\) (electrical: \\(VIt\\)). (4) Measure temperature rise \\(\\Delta T\\) at constant pressure (piston moves freely). (5) Calculate \\(C_p = Q / (n \\Delta T)\\). A poor answer omits the constant-pressure condition (fixed piston) or forgets to convert mass to moles.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Molar specific heat capacity is the amount of heat energy required to raise the ______ of one mole of a substance by one kelvin (or one degree Celsius).",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a domestic LPG cylinder: we purchase gas by mass (kg), but chemists and physicists often quantify it in moles for ______ calculations.",
+     "a": "thermodynamic",
+     "self_check": true
+    },
+    {
+     "q": "What is Molar specific heat capacity? State the definition given in this lesson.",
+     "a": "Molar specific heat capacity is the amount of heat energy required to raise the temperature of one mole of a substance by one kelvin (or one degree Celsius).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Molar specific heat capacity?",
+     "a": "Students treat molar specific heat capacity as numerically equal to specific heat capacity, ignoring the molar mass conversion factor.",
+     "self_check": true
     }
    ]
   }

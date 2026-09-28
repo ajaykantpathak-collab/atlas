@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a metre scale, a toy car, and a stopwatch to demonstrate the difference between path length and displacement. Describe the setup, procedure, measurements to take, and how you would calculate both quantities. Your experiment must involve at least one reversal of direction.",
      "a": "Setup: Place a metre scale horizontally on a table. Mark origin at 50 cm. Place toy car at origin. Procedure: (1) Push car to 80 cm mark (forward), record position. (2) Push car back to 30 cm mark (backward), record position. (3) Push car forward to 90 cm mark, record position. Measurements: initial position x_i = 50 cm, intermediate positions 80 cm, 30 cm, final position x_f = 90 cm. Path length = |80−50| + |30−80| + |90−30| = 30 + 50 + 60 = 140 cm. Displacement = 90 − 50 = +40 cm. A poor answer that only measures final position or doesn't include direction reversal fails to show path length > |displacement|.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Position is the location of a point object specified by its ______ (x) on a chosen axis with respect to a fixed origin, where positions to the right of the origin are positive and to the left are negative (SI unit: metre, m).",
+     "a": "coordinate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe an auto-rickshaw moving on a ______ Delhi road from Connaught Place (origin) towards India Gate.",
+     "a": "straight",
+     "self_check": true
+    },
+    {
+     "q": "What is Position? State the definition given in this lesson.",
+     "a": "Position is the location of a point object specified by its coordinate (x) on a chosen axis with respect to a fixed origin, where positions to the right of the origin are positive and to the left are negative (SI unit: metre, m).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Path length is the total distance travelled along the actual path taken by the object, a scalar quantity always ≥ ______ (SI unit: metre, m).",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Position?",
+     "a": "Students treat displacement as \"total distance travelled\" and assign it a positive sign always, because in Class 9 they learned \"distance is scalar, displacement is vector\" but rarely practiced sign conventions with coordinate axes.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) correctly assign positive/negative signs to position and displacement values given a chosen origin and axis direction; (2) calculate path length and displacement for a multi-segment journey described verbally or graphically; (3) explain why path length ≥ |displacement| and identify when equality holds.",
+     "self_check": true
     }
    ]
   }

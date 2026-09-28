@@ -34,6 +34,31 @@
      "q": "Create a real-world story problem that requires calculating 3 ÷ 1/2.",
      "a": "A student should describe having 3 whole items (like 3 rotis) and dividing them into pieces of 1/2 size, resulting in 6 pieces. An answer that fails to show the division context or uses an incorrect operation reveals a lack of connection between the math and physical reality.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Dividing by a fraction is the process of finding how many times one fractional amount fits into another, which is ______ equivalent to multiplying the first fraction by the reciprocal of the second.",
+     "a": "mathematically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have 3/4 of a litre of milk and you want to pour it into ______ glasses that hold 1/8 of a litre each; how many glasses do you need?",
+     "a": "small",
+     "self_check": true
+    },
+    {
+     "q": "What is Dividing by a fraction? State the definition given in this lesson.",
+     "a": "Dividing by a fraction is the process of finding how many times one fractional amount fits into another, which is mathematically equivalent to multiplying the first fraction by the reciprocal of the second.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Dividing by a fraction?",
+     "a": "Students often try to divide the numerators and denominators separately (e.g., 4/5 ÷ 2/3 = 2/1.66) or simply multiply across without flipping the divisor.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to convert any division of fractions problem into a multiplication problem using the reciprocal and correctly simplify the final result to its simplest form.",
+     "self_check": true
     }
    ]
   }

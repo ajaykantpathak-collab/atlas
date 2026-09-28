@@ -1,13 +1,295 @@
 {
- "catalog": "catalog_class11_economics_ch106",
+ "catalog": "catalog_class11_economics_ch106.json",
  "concepts": [
+  {
+   "id": "keec.6.3.1",
+   "title": "Worker-Population Ratio",
+   "converted_to_compute": true,
+   "formula": "worker_population_ratio = (total_workers / total_population) * 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "worker_population_ratio = (total_workers / total_population) * 100",
+     "compute": "worker_population_ratio = (total_workers / total_population) * 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Worker-Population Ratio: given total_workers = 5985, total_population = 2.5, find worker population ratio.",
+     "a": "239400",
+     "self_check": false
+    },
+    {
+     "q": "For Worker-Population Ratio: given total_workers = 7962, total_population = 52, find worker population ratio.",
+     "a": "15311.5",
+     "self_check": false
+    },
+    {
+     "q": "For Worker-Population Ratio: given total_workers = 2721, total_population = 14.5, find worker population ratio.",
+     "a": "18765.5",
+     "self_check": false
+    },
+    {
+     "q": "For Worker-Population Ratio: given total_workers = 4897, total_population = 76, find worker population ratio.",
+     "a": "6443.42",
+     "self_check": false
+    },
+    {
+     "q": "For Worker-Population Ratio: given total_workers = 326, total_population = 94, find worker population ratio.",
+     "a": "346.809",
+     "self_check": false
+    },
+    {
+     "q": "For Worker-Population Ratio: given total_workers = 5828, total_population = 64, find worker population ratio.",
+     "a": "9106.25",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keec.6.3.2",
+   "title": "Estimation of Workforce from Worker-Population Ratio",
+   "converted_to_compute": true,
+   "formula": "workforce = (population * worker_population_ratio) / 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "workforce = (population * worker_population_ratio) / 100",
+     "compute": "workforce = (population * worker_population_ratio) / 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Estimation of Workforce from Worker-Population Ratio: given population = 30, worker_population_ratio = 6742, find workforce.",
+     "a": "2022.6",
+     "self_check": false
+    },
+    {
+     "q": "For Estimation of Workforce from Worker-Population Ratio: given population = 42, worker_population_ratio = 3193, find workforce.",
+     "a": "1341.06",
+     "self_check": false
+    },
+    {
+     "q": "For Estimation of Workforce from Worker-Population Ratio: given population = 43, worker_population_ratio = 9436, find workforce.",
+     "a": "4057.48",
+     "self_check": false
+    },
+    {
+     "q": "For Estimation of Workforce from Worker-Population Ratio: given population = 61, worker_population_ratio = 7754, find workforce.",
+     "a": "4729.94",
+     "self_check": false
+    },
+    {
+     "q": "For Estimation of Workforce from Worker-Population Ratio: given population = 16.8, worker_population_ratio = 1018, find workforce.",
+     "a": "171.024",
+     "self_check": false
+    },
+    {
+     "q": "For Estimation of Workforce from Worker-Population Ratio: given population = 25, worker_population_ratio = 2604, find workforce.",
+     "a": "651",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keec.6.4.1",
+   "title": "Classification of Workers by Employment Status",
+   "converted_to_compute": true,
+   "formula": "total_workforce = self_employed + regular_salaried + casual_wage_labourers",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_workforce = self_employed + regular_salaried + casual_wage_labourers",
+     "compute": "total_workforce = self_employed + regular_salaried + casual_wage_labourers"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Classification of Workers by Employment Status: given self_employed = 32, regular_salaried = 82, casual_wage_labourers = 97, find total workforce.",
+     "a": "211",
+     "self_check": false
+    },
+    {
+     "q": "For Classification of Workers by Employment Status: given self_employed = 39, regular_salaried = 82, casual_wage_labourers = 38, find total workforce.",
+     "a": "159",
+     "self_check": false
+    },
+    {
+     "q": "For Classification of Workers by Employment Status: given self_employed = 57, regular_salaried = 68, casual_wage_labourers = 62, find total workforce.",
+     "a": "187",
+     "self_check": false
+    },
+    {
+     "q": "For Classification of Workers by Employment Status: given self_employed = 54, regular_salaried = 66, casual_wage_labourers = 19.6, find total workforce.",
+     "a": "139.6",
+     "self_check": false
+    },
+    {
+     "q": "For Classification of Workers by Employment Status: given self_employed = 60, regular_salaried = 23, casual_wage_labourers = 28, find total workforce.",
+     "a": "111",
+     "self_check": false
+    },
+    {
+     "q": "For Classification of Workers by Employment Status: given self_employed = 36, regular_salaried = 14.9, casual_wage_labourers = 4.6, find total workforce.",
+     "a": "55.5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keec.6.5.1",
+   "title": "Sectoral Distribution of Workforce",
+   "converted_to_compute": true,
+   "formula": "total_share = primary_share + secondary_share + tertiary_share",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_share = primary_share + secondary_share + tertiary_share",
+     "compute": "total_share = primary_share + secondary_share + tertiary_share"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Sectoral Distribution of Workforce: given primary_share = 98, secondary_share = 89, tertiary_share = 80, find total share.",
+     "a": "267",
+     "self_check": false
+    },
+    {
+     "q": "For Sectoral Distribution of Workforce: given primary_share = 86, secondary_share = 48, tertiary_share = 31, find total share.",
+     "a": "165",
+     "self_check": false
+    },
+    {
+     "q": "For Sectoral Distribution of Workforce: given primary_share = 99, secondary_share = 15.7, tertiary_share = 75, find total share.",
+     "a": "189.7",
+     "self_check": false
+    },
+    {
+     "q": "For Sectoral Distribution of Workforce: given primary_share = 85, secondary_share = 24, tertiary_share = 91, find total share.",
+     "a": "200",
+     "self_check": false
+    },
+    {
+     "q": "For Sectoral Distribution of Workforce: given primary_share = 22, secondary_share = 58, tertiary_share = 84, find total share.",
+     "a": "164",
+     "self_check": false
+    },
+    {
+     "q": "For Sectoral Distribution of Workforce: given primary_share = 62, secondary_share = 71, tertiary_share = 64, find total share.",
+     "a": "197",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keec.6.7.1",
+   "title": "Informalisation of the Workforce",
+   "converted_to_compute": true,
+   "formula": "informal_share_pct = (informal_workers / total_workers) * 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "informal_share_pct = (informal_workers / total_workers) * 100",
+     "compute": "informal_share_pct = (informal_workers / total_workers) * 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Informalisation of the Workforce: given informal_workers = 5256, total_workers = 4183, find informal share pct.",
+     "a": "125.651",
+     "self_check": false
+    },
+    {
+     "q": "For Informalisation of the Workforce: given informal_workers = 8487, total_workers = 3065, find informal share pct.",
+     "a": "276.9",
+     "self_check": false
+    },
+    {
+     "q": "For Informalisation of the Workforce: given informal_workers = 4618, total_workers = 1398, find informal share pct.",
+     "a": "330.329",
+     "self_check": false
+    },
+    {
+     "q": "For Informalisation of the Workforce: given informal_workers = 6530, total_workers = 2268, find informal share pct.",
+     "a": "287.919",
+     "self_check": false
+    },
+    {
+     "q": "For Informalisation of the Workforce: given informal_workers = 1233, total_workers = 5289, find informal share pct.",
+     "a": "23.3125",
+     "self_check": false
+    },
+    {
+     "q": "For Informalisation of the Workforce: given informal_workers = 365, total_workers = 4937, find informal share pct.",
+     "a": "7.39315",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keec.6.8.1",
+   "title": "Forms of Unemployment: Open, Disguised, and Seasonal",
+   "converted_to_compute": true,
+   "formula": "unemployed_count = labour_force - workforce",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "unemployed_count = labour_force - workforce",
+     "compute": "unemployed_count = labour_force - workforce"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Forms of Unemployment: Open, Disguised, and Seasonal: given labour_force = 954, workforce = 181, find unemployed count.",
+     "a": "773",
+     "self_check": false
+    },
+    {
+     "q": "For Forms of Unemployment: Open, Disguised, and Seasonal: given labour_force = 136, workforce = 363, find unemployed count.",
+     "a": "-227",
+     "self_check": false
+    },
+    {
+     "q": "For Forms of Unemployment: Open, Disguised, and Seasonal: given labour_force = 753, workforce = 366, find unemployed count.",
+     "a": "387",
+     "self_check": false
+    },
+    {
+     "q": "For Forms of Unemployment: Open, Disguised, and Seasonal: given labour_force = 993, workforce = 307, find unemployed count.",
+     "a": "686",
+     "self_check": false
+    },
+    {
+     "q": "For Forms of Unemployment: Open, Disguised, and Seasonal: given labour_force = 274, workforce = 719, find unemployed count.",
+     "a": "-445",
+     "self_check": false
+    },
+    {
+     "q": "For Forms of Unemployment: Open, Disguised, and Seasonal: given labour_force = 838, workforce = 193, find unemployed count.",
+     "a": "645",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "keec.6.2.1",
    "title": "Economic Activities and Definition of a Worker",
    "questions": [
     {
      "q": "Explain in your own words what 'Economic Activities and Definition of a Worker' refers to.",
-     "a": "An economic activity encompasses all actions contributing to national product, and any individual engaged in such productive efforts\u2014whether self-employed, hired, or temporarily absent due to illness\u2014is classified as a worker.",
+     "a": "An economic activity encompasses all actions contributing to national product, and any individual engaged in such productive efforts—whether self-employed, hired, or temporarily absent due to illness—is classified as a worker.",
      "self_check": true
     },
     {
@@ -18,130 +300,6 @@
     {
      "q": "Write the standard relation used for 'Economic Activities and Definition of a Worker', in plain ASCII form.",
      "a": "GNP = GDP + net_factor_income_from_abroad",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keec.6.3.1",
-   "title": "Worker-Population Ratio",
-   "questions": [
-    {
-     "q": "Calculate the worker-population ratio. Use the method 'Worker-Population Ratio'. Work with: ratio = 60, total_population = 2500, total_workers = 12000. Carry the chain through step by step and give the final value of the result.",
-     "a": "6000 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Find the worker-population ratio given total workers and population. Use the method 'Worker-Population Ratio'. Work with: ratio = 80, total_population = 48000, total_workers = 48000. Carry the chain through step by step and give the final value of the result.",
-     "a": "8000 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Worker-Population Ratio' refers to.",
-     "a": "The worker-population ratio measures the proportion of a country's total population that actively participates in the production of goods and services.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Worker-Population Ratio'.",
-     "a": "A higher worker-population ratio indicates greater engagement of the population in economic activities.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Worker-Population Ratio', in plain ASCII form.",
-     "a": "worker_population_ratio = (total_workers / total_population) * 100",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keec.6.3.2",
-   "title": "Estimation of Workforce from Worker-Population Ratio",
-   "questions": [
-    {
-     "q": "Find the number of workers given population and WPR. Use the method 'Estimation of Workforce from Worker-Population Ratio'. Work with: population = 5000, total_product = 6, worker_population_ratio = 5000. Carry the chain through step by step and give the final value of the result.",
-     "a": "0.06 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Calculate the estimated number of workers in urban area. Use the method 'Estimation of Workforce from Worker-Population Ratio'. Work with: population = 125000, total_product = 5, worker_population_ratio = 125000. Carry the chain through step by step and give the final value of the result.",
-     "a": "0.05 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Estimation of Workforce from Worker-Population Ratio' refers to.",
-     "a": "The total workforce in a given region or country can be calculated by applying the worker-population ratio to the aggregate population.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Estimation of Workforce from Worker-Population Ratio'.",
-     "a": "Total number of employed persons equals the product of population and participation rate divided by 100.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Estimation of Workforce from Worker-Population Ratio', in plain ASCII form.",
-     "a": "workforce = (population * worker_population_ratio) / 100",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keec.6.4.1",
-   "title": "Classification of Workers by Employment Status",
-   "questions": [
-    {
-     "q": "Using the method 'Classification of Workers by Employment Status', work with: casual_wage_labourers = 1000, regular_salaried = 20, self_employed = 100. Carry the chain through step by step and give the final value of total_workforce.",
-     "a": "1120 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Classification of Workers by Employment Status' and work with: casual_wage_labourers = 1500, regular_salaried = 24, self_employed = 3. Carry the chain through step by step and give the final value of total_workforce.",
-     "a": "1527 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Classification of Workers by Employment Status' refers to.",
-     "a": "Workers are grouped into self-employed individuals who operate their own enterprise, regular salaried employees who receive periodic wages with job continuity, and casual wage labourers hired intermittently without job security.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Classification of Workers by Employment Status'.",
-     "a": "Employment status reflects the nature of contractual arrangement, level of security, and authority over production.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Classification of Workers by Employment Status', in plain ASCII form.",
-     "a": "total_workforce = self_employed + regular_salaried + casual_wage_labourers",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keec.6.5.1",
-   "title": "Sectoral Distribution of Workforce",
-   "questions": [
-    {
-     "q": "Using the method 'Sectoral Distribution of Workforce', work with: primary_share = 0.45, secondary_share = 0.8, tertiary_share = 0.5. Carry the chain through step by step and give the final value of total_share.",
-     "a": "1.75 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Sectoral Distribution of Workforce' and work with: primary_share = 0.2, secondary_share = 0.2, tertiary_share = 0.4. Carry the chain through step by step and give the final value of total_share.",
-     "a": "0.8 as a fraction",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Sectoral Distribution of Workforce' refers to.",
-     "a": "Workforce allocation across primary (agriculture, mining), secondary (manufacturing, construction, utilities), and tertiary (services, trade, transport) sectors reflects economic structural composition.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Sectoral Distribution of Workforce'.",
-     "a": "Economic development traditionally drives structural shifts from primary agriculture to secondary manufacturing and tertiary service sectors.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Sectoral Distribution of Workforce', in plain ASCII form.",
-     "a": "total_share = primary_share + secondary_share + tertiary_share",
      "self_check": true
     }
    ]
@@ -173,68 +331,6 @@
     {
      "q": "Write the standard relation used for 'Jobless Growth and Casualisation of Workforce', in plain ASCII form.",
      "a": "employment_elasticity_of_growth = employment_growth_rate / gdp_growth_rate",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keec.6.7.1",
-   "title": "Informalisation of the Workforce",
-   "questions": [
-    {
-     "q": "Using the method 'Informalisation of the Workforce', work with: fraction = 0.75, informal_workers = 12000, total_workers = 48000. Carry the chain through step by step and give the final value of the result.",
-     "a": "75 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Informalisation of the Workforce' and work with: fraction = 0.6, informal_workers = 2500, total_workers = 1200. Carry the chain through step by step and give the final value of the result.",
-     "a": "60 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Informalisation of the Workforce' refers to.",
-     "a": "Formal sector units comprise public enterprises and private establishments with 10 or more hired workers providing social security, while informal units comprise all remaining small enterprises, self-employed, and casual laborers lacking social protection.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Informalisation of the Workforce'.",
-     "a": "The informal sector lacks labour legislation protections, social security benefits, and trade union representation.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Informalisation of the Workforce', in plain ASCII form.",
-     "a": "informal_share_pct = (informal_workers / total_workers) * 100",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keec.6.8.1",
-   "title": "Forms of Unemployment: Open, Disguised, and Seasonal",
-   "questions": [
-    {
-     "q": "Using the method 'Forms of Unemployment: Open, Disguised, and Seasonal', work with: labour_force = 80, workforce = 18. Carry the chain through step by step and give the final value of unemployed_count.",
-     "a": "62 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Forms of Unemployment: Open, Disguised, and Seasonal' and work with: labour_force = 75, workforce = 25. Carry the chain through step by step and give the final value of unemployed_count.",
-     "a": "50 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Forms of Unemployment: Open, Disguised, and Seasonal' refers to.",
-     "a": "Unemployment occurs when individuals willing and able to work at prevailing wages cannot find work; it manifests as open unemployment, disguised unemployment (marginal productivity of surplus labour is zero), or seasonal unemployment (lack of year-round agricultural work).",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Forms of Unemployment: Open, Disguised, and Seasonal'.",
-     "a": "Disguised unemployment conceals excess labour in farming where removing workers does not diminish total output.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Forms of Unemployment: Open, Disguised, and Seasonal', in plain ASCII form.",
-     "a": "unemployed_count = labour_force - workforce",
      "self_check": true
     }
    ]

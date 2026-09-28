@@ -83,7 +83,16 @@
      "q": "An instability index under what value predicts a stable protein: forty or four?",
      "a": "forty"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "gravy = hydropathy_sum / residues",
+     "compute": "gravy = hydropathy_sum / residues"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt110.3",
@@ -142,7 +151,7 @@
     "name any four popular chemical databases and what each specialises in",
     "which database would you consult for binding affinity of small molecules to protein targets"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -165,7 +174,16 @@
      "q": "Scoring millions of molecules computationally before synthesis is called what screening: virtual or physical?",
      "a": "virtual"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "sequence_share = sequences_million / substances_million",
+     "compute": "sequence_share = sequences_million / substances_million"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt110.5",
@@ -285,7 +303,16 @@
      "q": "Lipinski's rule caps molecular weight below how many daltons: 500 or 5000?",
      "a": "500"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "weight_excess = mol_weight - 500",
+     "compute": "weight_excess = mol_weight - 500"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt110.8",
@@ -323,7 +350,16 @@
      "q": "Discovery alone consumes how many years: seven to eight or just one?",
      "a": "seven to eight"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "journey_total = dev_total + clinical_years",
+     "compute": "journey_total = dev_total + clinical_years"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

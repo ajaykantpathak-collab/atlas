@@ -34,6 +34,31 @@
      "q": "Create a small dataset (3 commodities) where Laspeyre's Price Index = 150, but the simple average of price relatives (unweighted) = 120. Show your data and both calculations.",
      "a": "**Expected Answer (example):**  \n| Commodity | p₀ | p₁ | q₀ |  \n|-----------|----|----|----|  \n| A         | 10 | 20 | 100|  \n| B         | 20 | 22 | 1  |  \n| C         | 30 | 33 | 1  |  \n\n**Laspeyre's:** Σ(p₀q₀)=1000+20+30=1050; Σ(p₁q₀)=2000+22+33=2055; Index=(2055/1050)×100≈**195.7** → adjust quantities to hit 150.  \nBetter: Let A dominate weight.  \n| A | 10 | 20 | 10 |  \n| B | 20 | 24 | 1  |  \n| C | 30 | 36 | 1  |  \nΣ(p₀q₀)=100+20+30=150; Σ(p₁q₀)=200+24+36=260; Index=260/150×100=**173.3** → still high.  \n**Working example for 150:**  \n| A | 10 | 15 | 10 | (price relative 150)  \n| B | 20 | 22 | 1  | (110)  \n| C | 30 | 33 | 1  | (110)  \nΣ(p₀q₀)=100+20+30=150; Σ(p₁q₀)=150+22+33=205; Index=205/150×100=**136.7** → not 150.  \n**Key idea:** Student must understand that heavy weight on high-inflation items pulls Laspeyre's above simple average. A correct constructed example shows this mechanism.  \n**What a poor answer reveals:** If they can't construct it, they don't grasp how weights distort the index relative to unweighted average. If they just guess numbers without checking, they lack computational fluency.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Laspeyre's Price Index Number is a weighted ______ index that measures the change in the price level of a basket of goods and services between a base period and a current period, using the quantities consumed in the base period as fixed weights.",
+     "a": "aggregative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family's monthly grocery bill in 2020 (base year) was ₹5,000 for a fixed ______ of rice, wheat, milk, and vegetables.",
+     "a": "basket",
+     "self_check": true
+    },
+    {
+     "q": "What is Laspeyre's Price Index Number? State the definition given in this lesson.",
+     "a": "Laspeyre's Price Index Number is a weighted aggregative index that measures the change in the price level of a basket of goods and services between a base period and a current period, using the quantities consumed in the base period as fixed weights.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Laspeyre's Price Index Number?",
+     "a": "Specific Error: Students use current-year quantities (q₁) instead of base-year quantities (q₀) in the numerator and denominator, effectively computing Paasche's index but calling it Laspeyre's.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly compute Laspeyre's Price Index from a given data table of base-year and current-year prices and base-year quantities, express the result as a percentage (index number), and interpret whether the price level has risen or fallen relative to the base year.",
+     "self_check": true
     }
    ]
   }

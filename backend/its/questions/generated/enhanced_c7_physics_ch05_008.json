@@ -34,6 +34,26 @@
      "q": "Design a modification to a standard cardboard-tube pinhole camera that allows you to safely observe a partial solar eclipse without looking directly at the sun. Describe the screen setup and expected observation.",
      "a": "The student should describe mounting a tiny pinhole on one end of a long rigid box or tube pointing directly at the sun during the eclipse, with a white sheet of paper or tracing paper fixed inside the other end as a viewing screen. The expected observation is a small, inverted, real projection of the sun showing the crescent shape as the moon blocks part of it. A poor answer would suggest looking through the pinhole with one's eye or using a magnifying glass without a screen, which poses severe eye safety risks.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A pinhole camera is a simple optical device without a lens that forms an inverted (upside-down) real image of a bright object on a screen based on the ______ propagation of light.",
+     "a": "rectilinear",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you stand outside on a sunny afternoon under a leafy peepal tree, you might notice small circular patches of light on the ground, which are ______ pinhole images of the sun formed by spaces between leaves.",
+     "a": "actually",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can construct a basic pinhole camera using two paper tubes, predict how image size changes when the screen-to-hole distance or object-to-hole distance changes, and explain why the image formed is inverted.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you stand outside on a sunny ______ under a leafy peepal tree, you might notice small circular patches of light on the ground, which are actually pinhole images of the sun formed by spaces between leaves.",
+     "a": "afternoon",
+     "self_check": true
     }
    ]
   }

@@ -22,7 +22,7 @@
     },
     {
      "q": "A student performs the glass slab experiment and obtains the following data for sin i and sin r:\n\n| sin i | 0.20 | 0.40 | 0.60 | 0.80 |\n| sin r | 0.13 | 0.26 | 0.39 | 0.52 |\n\nPlot sin i vs sin r mentally. What does the slope represent? If the student accidentally swapped the axes (plotting sin r on y-axis and sin i on x-axis), what would the slope represent then?",
-     "a": "The data shows sin i / sin r = 0.20/0.13 ≈ 1.54 (constant). Plotting sin i (y) vs sin r (x) gives a straight line through origin with slope = n₂₁ = n_glass/n_air ≈ 1.54. If axes are swapped (sin r vs sin i), the slope becomes 1/n₂₁ = n₁₂ ≈ 0.65. A student who says the slope is always n₂₁ regardless of axes does not understand that slope = Δy/Δx. This tests whether they can interpret graphical representation of Snell's law and the reciprocal relationship between relative refractive indices.",
+     "a": "(1) The plotted line — sin i against sin r falls on a straight line through the origin, and its slope is the relative refractive index of glass with respect to air, about 1.54 for this data, (2) The swapped plot — with sin r on the y-axis and sin i on the x-axis the slope becomes the reciprocal, the refractive index of air relative to glass, about 0.65, (3) The principle — slope is change in y over change in x, so swapping the axes inverts the slope. A student who says the slope is always the glass-to-air index regardless of axes does not understand the reciprocal relationship between relative refractive indices.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Design a simple experiment using a laser pointer, a semicircular glass block, and a protractor to verify Snell's law and determine the refractive index of glass. Describe how you would ensure the incident ray passes through the centre of the flat face, and why this geometry avoids refraction at the curved surface.",
      "a": "Place the semicircular block on a protractor with its flat face along the 0°-180° line and its centre at the protractor's centre. Direct the laser at the centre of the flat face at various angles of incidence. The ray enters undeviated at the flat face (normal incidence? No — wait: if the ray hits the flat face at an angle, it refracts. But if we want to measure refraction at the curved surface? Actually, standard method: send ray through curved surface towards centre, so it hits flat face at normal incidence and exits undeviated. Then rotate the block to change angle at curved surface. Better: Place the flat face on the protractor baseline, shine laser at the centre of the flat face at angle i. The ray refracts into glass, travels straight to the curved surface, and exits along the radius (normal to curved surface), so no refraction at exit. Measure the angle of the emergent ray (which equals r inside the glass). Plot sin i vs sin r. The geometry ensures the ray inside the glass is along a radius, so it meets the curved surface normally (angle of incidence = 0) and exits without bending. A poor answer would miss the \"radius-normal\" reasoning or suggest measuring at the curved surface directly.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Refraction is the bending of a light ray when it passes obliquely from one ______ medium into another due to a change in its speed.",
+     "a": "transparent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a pencil partially ______ in a glass of water — it appears bent at the water surface.",
+     "a": "immersed",
+     "self_check": true
+    },
+    {
+     "q": "What is Refraction? State the definition given in this lesson.",
+     "a": "Refraction is the bending of a light ray when it passes obliquely from one transparent medium into another due to a change in its speed.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Refraction?",
+     "a": "Students often believe that \"optically denser\" means \"higher mass density\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) state Snell's law in both forms (n₁ sin i = n₂ sin r and n₂₁ = sin i / sin r), (2) identify the correct angles from a ray diagram, (3) calculate any one of the four quantities (n₁, n₂, i, r) given the other three, (4) predict whether the ray bends towards or away from the normal based on relative optical densities.",
      "self_check": true
     }
    ]

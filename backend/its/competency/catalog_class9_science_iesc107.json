@@ -24,10 +24,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "multiply force by displacement",
+    {
+     "step": 1,
+     "action": "multiply force by displacement",
      "explain": "Work equals force times the distance moved along it.",
-     "compute": "work = force * distance"}
-   ]
+     "compute": "work = force * distance"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "work = force * distance",
+     "compute": "work = force * distance"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.107.7.2",
@@ -47,13 +59,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "square the velocity",
+    {
+     "step": 1,
+     "action": "square the velocity",
      "explain": "Velocity enters the formula squared.",
-     "compute": "v_sq = velocity * velocity"},
-    {"step": 2, "action": "take half the mass times v squared",
+     "compute": "v_sq = velocity * velocity"
+    },
+    {
+     "step": 2,
+     "action": "take half the mass times v squared",
      "explain": "The kinetic energy is mass times v squared over 2.",
-     "compute": "kinetic = mass * v_sq / 2"}
-   ]
+     "compute": "kinetic = mass * v_sq / 2"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "kinetic = mass * velocity * velocity / 2",
+     "compute": "kinetic = mass * velocity * velocity / 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.107.7.3",
@@ -73,12 +100,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "identify the machine and its parts",
-     "explain": "Find the fulcrum, effort arm and load arm of the lever."},
-    {"step": 2, "action": "apply the trade-off",
-     "explain": "Smaller effort must move through a proportionally larger distance."},
-    {"step": 3, "action": "compute the advantage",
-     "explain": "Mechanical advantage is load divided by effort, or effort arm over load arm."}
+    {
+     "step": 1,
+     "action": "identify the machine and its parts",
+     "explain": "Find the fulcrum, effort arm and load arm of the lever."
+    },
+    {
+     "step": 2,
+     "action": "apply the trade-off",
+     "explain": "Smaller effort must move through a proportionally larger distance."
+    },
+    {
+     "step": 3,
+     "action": "compute the advantage",
+     "explain": "Mechanical advantage is load divided by effort, or effort arm over load arm."
+    }
    ]
   }
  ],
@@ -94,9 +130,12 @@
     "distance": "displacement in metres"
    },
    "solution_template": [
-    {"step": 1, "action": "multiply force by displacement",
+    {
+     "step": 1,
+     "action": "multiply force by displacement",
      "explain": "Work equals force times distance.",
-     "compute": "work = force * distance"}
+     "compute": "work = force * distance"
+    }
    ]
   },
   {
@@ -110,9 +149,12 @@
     "distance": "displacement in m"
    },
    "solution_template": [
-    {"step": 1, "action": "multiply force by displacement",
+    {
+     "step": 1,
+     "action": "multiply force by displacement",
      "explain": "The product gives the work in joules.",
-     "compute": "work = force * distance"}
+     "compute": "work = force * distance"
+    }
    ]
   },
   {
@@ -126,12 +168,18 @@
     "velocity": "velocity in m/s"
    },
    "solution_template": [
-    {"step": 1, "action": "square the velocity",
+    {
+     "step": 1,
+     "action": "square the velocity",
      "explain": "v squared enters the formula.",
-     "compute": "v_sq = velocity * velocity"},
-    {"step": 2, "action": "take half the mass times v squared",
+     "compute": "v_sq = velocity * velocity"
+    },
+    {
+     "step": 2,
+     "action": "take half the mass times v squared",
      "explain": "Kinetic energy equals the product over 2.",
-     "compute": "kinetic = mass * v_sq / 2"}
+     "compute": "kinetic = mass * v_sq / 2"
+    }
    ]
   },
   {
@@ -145,12 +193,18 @@
     "velocity": "velocity in m/s"
    },
    "solution_template": [
-    {"step": 1, "action": "square the velocity",
+    {
+     "step": 1,
+     "action": "square the velocity",
      "explain": "Compute v squared.",
-     "compute": "v_sq = velocity * velocity"},
-    {"step": 2, "action": "take half the mass times v squared",
+     "compute": "v_sq = velocity * velocity"
+    },
+    {
+     "step": 2,
+     "action": "take half the mass times v squared",
      "explain": "Half the product is the kinetic energy.",
-     "compute": "kinetic = mass * v_sq / 2"}
+     "compute": "kinetic = mass * v_sq / 2"
+    }
    ]
   }
  ],
@@ -159,9 +213,9 @@
    "id": "ex7.1",
    "source_ref": "iesc107.txt exercises",
    "questions": [
-     "Solve the given work-done numericals.",
-     "Find the kinetic energy for the given masses and velocities.",
-     "Explain the conservation of energy with the given example."
+    "Solve the given work-done numericals.",
+    "Find the kinetic energy for the given masses and velocities.",
+    "Explain the conservation of energy with the given example."
    ]
   }
  ]

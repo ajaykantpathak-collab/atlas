@@ -34,6 +34,31 @@
      "q": "Design a map layout for an airline's polar route network (e.g., Delhi → New York via North Pole). Specify the projection, aspect, and central meridian, and annotate how great circle routes will appear.",
      "a": "**Projection:** Gnomonic zenithal (polar aspect). **Central meridian:** 0° (Greenwich) or chosen to centre the route network. **Annotation:** All great circle routes passing through the North Pole appear as straight lines radiating from the centre; routes not passing through the pole appear as curves. A poor answer (e.g., choosing Mercator) shows inability to apply the unique great-circle-to-straight-line property of gnomonic projections to real-world navigation mapping.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Zenithal (Azimuthal) projections are a class of map projections where the spherical surface of the Earth is projected onto a plane tangent to the globe at a single point (usually a pole or the equator), ______ true directions (azimuths) from the centre point to all other points on the map.",
+     "a": "preserving",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an airline pilot planning the ______ route from New Delhi to San Francisco.",
+     "a": "shortest",
+     "self_check": true
+    },
+    {
+     "q": "What is Zenithal (Azimuthal) projections? State the definition given in this lesson.",
+     "a": "Zenithal (Azimuthal) projections are a class of map projections where the spherical surface of the Earth is projected onto a plane tangent to the globe at a single point (usually a pole or the equator), preserving true directions (azimuths) from the centre point to all other points on the map.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify the geometric construction of a zenithal projection, explain how distortion varies with distance from the centre point, and justify why this projection is uniquely suited for polar regions and air/sea navigation routes.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an airline pilot planning the shortest route from New Delhi to San ______.",
+     "a": "Francisco",
+     "self_check": true
     }
    ]
   }

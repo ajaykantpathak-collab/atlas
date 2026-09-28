@@ -34,6 +34,21 @@
      "q": "Create a real-world problem (using rupees, metres, or litres) where the answer is a number that *requires* a zero placeholder in at least two different place values (e.g., thousands and tens) when written in standard form. Then write that answer in power-of-10 expanded form.",
      "a": "Example problem: \"A school library has 3,005 books. They buy 2,090 more. How many books total?\" Answer: 5,095. Expanded form: \\(5 \\times 10^3 + 0 \\times 10^2 + 9 \\times 10^1 + 5 \\times 10^0\\). A good answer shows the student understands that zero placeholders appear in the *middle* of a number (hundreds and tens here) and must be represented as \\(0 \\times 10^k\\) in a complete expanded form. A poor answer gives a number like 5,000 (only trailing zeros) or writes expanded form without the zero terms, indicating they don't grasp that placeholders are needed for *internal* zeros.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The place value system in base 10 assigns each digit a value equal to the digit multiplied by a power of 10, where the exponent ______ to the digit's position from the right (starting at 0 for the units place).",
+     "a": "corresponds",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You know the digits 4,3,2,5,5,0 but what does each ______ *mean* in terms of tens, hundreds, and paise?",
+     "a": "actually",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can express any whole number or decimal in expanded form using powers of 10 (including negative exponents for decimal places), convert between standard notation and power-of-10 expanded form, and explain why shifting the decimal point corresponds to multiplying or dividing by powers of 10.",
+     "self_check": true
     }
    ]
   }

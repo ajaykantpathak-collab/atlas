@@ -1,0 +1,71 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_13_008",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_13_008",
+   "title": "c12_soc_cbse_13_008",
+   "questions": [
+    {
+     "q": "Define 'post-Fordism' in the context of globalisation and labour markets. How does it differ from Fordism?",
+     "a": "Post-Fordism is a system of flexible, decentralised production where firms use subcontracting, just-in-time inventory, and temporary contracts to respond quickly to market changes, unlike Fordism's standardised mass production at a single large factory with permanent workers. A wrong answer that equates post-Fordism merely with 'automation' or 'technology' misses the core organisational shift: the transfer of risk from employer to worker through informal contracts.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Nike example (production shifting from Japan → South Korea → Thailand/Indonesia → India) illustrates the 'new international division of labour'. What happens to workers in each location when production moves?",
+     "a": "The Nike case shows how TNCs fragment production globally, placing routine, labour-intensive stages in low-wage countries while retaining design, marketing, and finance in the home country. When production moves, workers in the previous location (e.g., South Korea) face sudden job losses without social protection, while new workers in the next location (e.g., Thailand) gain employment but under insecure, low-wage conditions. A wrong answer that says 'workers benefit because they get jobs' ignores the transient, exploitative nature of these jobs and the lack of upward mobility.",
+     "self_check": true
+    },
+    {
+     "q": "A garment factory in Tiruppur supplies to a European brand. The brand demands 15% cost reduction and just-in-time delivery. The factory responds by replacing permanent workers with contract workers hired through a labour contractor. Identify three ways this changes the workers' employment conditions and explain how this reflects 'flexibilisation'.",
+     "a": "1) Workers lose permanent status, becoming easily dismissable; 2) They lose benefits (PF, ESI, paid leave) as the contractor, not the factory, is the legal employer; 3) Work intensity increases due to just-in-time pressure. This reflects flexibilisation because the firm externalises risk (market fluctuations, order volatility) onto workers via contractual layers. A wrong answer focusing only on 'cost cutting' misses the structural shift: flexibilisation is a *strategy* to maintain competitiveness in global value chains, not a one-off decision.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of globalisation on employment for: (a) an urban, English-speaking middle-class youth joining a BPO, and (b) a woman gum collector in Gujarat displaced by cheaper Sudanese gum imports. Use the concepts 'formal sector', 'informal sector', and 'social protection'.",
+     "a": "(a) The BPO worker enters the formal sector with a contract, fixed salary, and some social protection (PF, health insurance), though work is stressful and night shifts disrupt life. (b) The gum collector worked in the informal sector with no social protection; globalisation destroys her livelihood entirely without alternative employment. The contrast shows globalisation *expands* formal jobs for the skilled but *deepens* informalisation and insecurity for the unskilled. A wrong answer that says 'both get jobs' or 'both suffer' fails to capture the *segmentation* of the labour market by skill, gender, and location.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Globalisation has increased employment in India, as seen in the growth of IT, BPO, and retail sectors.\" Use ILO data on 'jobless growth' (Box 6.5) and the distinction between *quantity* and *quality* of jobs.",
+     "a": "The statement is partially true but misleading. While new sectors create jobs, Box 6.5 shows Asia's employment grew only 1.6% (2003-04) despite 7%+ GDP growth — a 'jobless growth' pattern. Moreover, most new jobs are informal, low-paid, and insecure (e.g., contract work in retail, gig economy). The *quality* of employment (security, wages, rights) has declined for the majority. A wrong answer that cites only absolute job numbers ignores the *structural deterioration* in work conditions and the growing 'employment gap'.",
+     "self_check": true
+    },
+    {
+     "q": "Design a small research project to study how globalisation has affected the livelihoods of traditional artisans (e.g., weavers, potters) in your district. Specify: (i) research question, (ii) two methods (one qualitative, one quantitative), (iii) one ethical consideration, and (iv) how you would link micro-level findings to macro globalisation processes.",
+     "a": "(i) Research question: \"How has integration into global markets (via cheap imports, changing consumer tastes, and raw material costs) affected the income, employment status, and social security of handloom weavers in [district] over the last 15 years?\" (ii) Qualitative: in-depth interviews with weavers, cooperative leaders, and middlemen; Quantitative: household survey of 100 weaver families tracking income sources, debt, and migration. (iii) Ethical: informed consent, anonymity, and ensuring participation does not expose artisans to retaliation from contractors. (iv) Link micro-macro by mapping weavers' narratives to specific policy changes (e.g., removal of QR on textiles, WTO Agreement on Textiles and Clothing) and global price trends. A poor answer would treat artisans as isolated victims without connecting their experience to global value chains and state policy.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Globalisation and the Labour Market: Flexibility, ______ and Job Insecurity refers to the restructuring of work under globalisation where firms adopt flexible production strategies (post-Fordism), leading to a rise in informal, contract, and precarious employment, weakening labour protections and increasing worker vulnerability to market fluctuations.",
+     "a": "Informalisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a young graduate in Bengaluru working night shifts at a call centre for a US firm, while a weaver in Sircilla loses ______ because power looms and cheaper imports undercut handloom products.",
+     "a": "livelihood",
+     "self_check": true
+    },
+    {
+     "q": "What is Globalisation and the Labour Market? State the definition given in this lesson.",
+     "a": "Globalisation and the Labour Market: Flexibility, Informalisation and Job Insecurity refers to the restructuring of work under globalisation where firms adopt flexible production strategies (post-Fordism), leading to a rise in informal, contract, and precarious employment, weakening labour protections and increasing worker vulnerability.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Use the Nike example (Box ______) to show how footloose capital searches for cheapest labour, creating a 'race to the bottom'.",
+     "a": "6.4",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Globalisation and the Labour Market?",
+     "a": "Students often think 'informalisation' means only 'unregistered small businesses' and miss that *large global firms actively create informality* through subcontracting chains.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how globalisation drives the shift from Fordist mass production to post-Fordist flexible specialisation, analyse the resulting informalisation of the workforce using Indian examples (e.g., Nike's shifting factories, call centres, contract farming), and evaluate the uneven impact on different social groups.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

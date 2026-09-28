@@ -34,6 +34,26 @@
      "q": "Construct an infinite GP whose sum is 5 and whose first term is 2. Then create a different infinite GP with the same sum but a different first term. Explain how many such GPs exist.",
      "a": "For a = 2, S∞ = 5: 5 = 2/(1−r) ⇒ 1−r = 2/5 ⇒ r = 3/5. GP: 2, 6/5, 18/25, ... For a = 3, S∞ = 5: 5 = 3/(1−r) ⇒ r = 2/5. GP: 3, 6/5, 12/25, ... Infinitely many such GPs exist: for any a with 0 < |a| < 5, choose r = 1 − a/5. Since |r| = |1−a/5| < 1 when 0 < a < 10, all these converge to 5. A poor answer giving only one example or claiming uniqueness reveals lack of understanding that (a, r) pairs satisfying a/(1−r) = 5 form a one-parameter family.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The sum of an infinite geometric ______ (GP) is the limiting value of the sum of its first n terms as n approaches infinity, defined only when the common ratio r satisfies |r| < 1, and given by S∞ = a/(1−r) where a is the first term.",
+     "a": "progression",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ball dropped from a height of 10 metres that ______ to 3/4 of its previous height after each bounce.",
+     "a": "rebounds",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then apply S∞ = a/(______−r) to the up-down pairs.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify whether an infinite GP converges by checking |r| < 1, correctly apply the formula S∞ = a/(1−r) to find the sum, and explain why the sum does not exist when |r| ≥ 1 using the behaviour of rⁿ as n→∞.",
+     "self_check": true
     }
    ]
   }

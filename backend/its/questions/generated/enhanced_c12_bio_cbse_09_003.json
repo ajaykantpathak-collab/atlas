@@ -34,6 +34,36 @@
      "q": "Design a biosecurity protocol for a new 5,000-bird layer farm in a region with history of avian influenza outbreaks. Include structural, operational, and emergency response components.",
      "a": "Expected answer criteria: Structural: Perimeter fence, footbaths at all entries, bird-proof netting, separate clean/dirty zones, dedicated vehicles. Operational: All-in-all-out system, visitor log with shower-in/shower-out, dedicated clothing/boots per shed, rodent/insect control, water sanitization (chlorination), dead bird disposal (incineration/composting). Emergency: Surveillance (daily mortality recording), rapid testing kit access, isolation shed, contact tracing plan, notification to state veterinary authority within 24 hours, vaccination strategy (H5/H7 if permitted). A poor answer listing only \"vaccination and cleaning\" misses the layered defense concept (structural + operational + emergency) and fails to address specific AI transmission routes (wild birds, fomites, aerosols).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Poultry farm management is the scientific practice of raising domesticated birds (primarily chickens, ducks, turkeys, and geese) for meat (broilers) and eggs (layers) through systematic control of breeding, housing, nutrition, health care, and biosecurity to maximize productivity and ______ while ensuring bird welfare and food safety.",
+     "a": "profitability",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a typical Indian backyard poultry setup: birds scavenging for food, exposed to predators and weather, with low egg yield.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What is Poultry farm management? State the definition given in this lesson.",
+     "a": "Poultry farm management is the scientific practice of raising domesticated birds (primarily chickens, ducks, turkeys, and geese) for meat (broilers) and eggs (layers) through systematic control of breeding, housing, nutrition, health care, and biosecurity to maximize productivity and profitability while ensuring bird welfare and food.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Contrast this with a commercial layer farm where birds are in cages, fed balanced rations, vaccinated on schedule, producing ______+ eggs/hen/year.",
+     "a": "300",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Poultry farm management?",
+     "a": "Students believe \"broilers are injected with hormones to grow fast\" — this is biologically impossible and illegal.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can design a comprehensive management plan for a 1,000-bird layer unit including breed selection, housing system, vaccination schedule, feed formulation principles, and disease outbreak response protocol, justifying each decision with biological and economic reasoning.",
+     "self_check": true
     }
    ]
   }

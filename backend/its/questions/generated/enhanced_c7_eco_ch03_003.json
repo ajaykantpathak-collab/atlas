@@ -34,6 +34,31 @@
      "q": "Design a basic daily water and electricity budget for a small rural dairy farm in Punjab that accounts for a scheduled 4-hour daily power cut and limited municipal water supply hours.",
      "a": "A successful answer must allocate milking machine operations and electric water pumping to the hours when grid power is active, utilize storage tanks (ciscuits) for water during non-supply hours, and estimate backup fuel costs for diesel generators if milking must occur during a blackout. A poor answer ignores infrastructure timing constraints and assumes unlimited instant access to utilities.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Utility ______ refers to the large-scale physical networks and systems—such as electric power grids and treated water pipeline networks—that deliver essential daily services to households, farms, and businesses.",
+     "a": "infrastructure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine turning on a kitchen tap in an Indian ______ and getting a steady stream of safe, treated drinking water, or switching on a ceiling fan in a rural workshop to run a sewing machine.",
+     "a": "household",
+     "self_check": true
+    },
+    {
+     "q": "What is Utility infrastructure? State the definition given in this lesson.",
+     "a": "Utility infrastructure refers to the large-scale physical networks and systems—such as electric power grids and treated water pipeline networks—that deliver essential daily services to households, farms, and businesses.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Utility infrastructure?",
+     "a": "Students often believe that utility infrastructure like electricity and water pipelines are free public gifts provided naturally by the government, ignoring the massive economic costs of maintenance, transmission loss, and capital setup.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can analyze how disruptions in electricity and water supply networks impact regional agricultural yields, small business productivity, and household welfare using real-world economic data.",
+     "self_check": true
     }
    ]
   }

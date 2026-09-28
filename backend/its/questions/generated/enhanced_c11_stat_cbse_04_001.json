@@ -34,6 +34,36 @@
      "q": "Write a 3-sentence textual presentation for: \"A village has 120 families. 45 have only a bicycle, 30 have only a motorcycle, 20 have both, and 25 have neither.\" Then create a question a policymaker might ask that would be difficult to answer from your text alone.",
      "a": "Sample text: \"Out of 120 families in the village, 45 own only a bicycle, 30 own only a motorcycle, 20 own both, and 25 own neither vehicle.\" A difficult question: \"What percentage of families owning a bicycle also own a motorcycle?\" This requires cross-classification (20 out of 65 bicycle-owning families) which is buried in the text. A poor answer would ask a question directly readable from the text (e.g., \"How many have neither?\"), showing the student doesn't recognize the limitation of textual data for derived calculations.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Textual ______ of data is a method of describing statistical information entirely through written sentences or paragraphs, where numerical facts are embedded in narrative form.",
+     "a": "presentation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are reading a newspaper report: \"In the recent local election, Party A won 12 wards, Party B won 8 wards, and Party C won 5 wards out of 25 wards total.\" This is textual ______.",
+     "a": "presentation",
+     "self_check": true
+    },
+    {
+     "q": "What is Textual presentation of data? State the definition given in this lesson.",
+     "a": "Textual presentation of data is a method of describing statistical information entirely through written sentences or paragraphs, where numerical facts are embedded in narrative form.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now suppose the report continued with similar details for ______ different cities, plus voter turnout percentages, gender-wise voting patterns, and historical comparisons.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Textual presentation of data?",
+     "a": "Students often believe textual presentation is only for qualitative descriptions (e.g., \"most people liked the product\") and cannot handle quantitative data.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) identify situations where textual presentation is appropriate versus inadequate, (2) articulate at least two distinct advantages and two limitations with concrete examples, and (3) convert a given textual description into a structured table to demonstrate awareness of its limitations for comparison and analysis.",
+     "self_check": true
     }
    ]
   }

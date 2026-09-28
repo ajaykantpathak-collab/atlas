@@ -92,7 +92,16 @@
      "explain": "Add the growth increase to the starting length to find final length.",
      "compute": "final_length = initial_length + added_length"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "L_t = L_0 + (r * t)",
+     "compute": "L_t = L_0 + (r * t)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.13.1.4.2",
@@ -117,7 +126,16 @@
      "explain": "Absolute increase is the difference between final and initial size values.",
      "compute": "absolute_increase = final_size - initial_size"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "absolute_increase = final_size - initial_size",
+     "compute": "absolute_increase = final_size - initial_size"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.13.2.1",

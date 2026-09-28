@@ -1,6 +1,53 @@
 {
- "catalog": "catalog_class11_biotechnology_kebt111",
+ "catalog": "catalog_class11_biotechnology_kebt111.json",
  "concepts": [
+  {
+   "id": "kebt111.2",
+   "title": "Milestones in the Rise of Systems Biology",
+   "converted_to_compute": true,
+   "formula": "model_span = cell_model_year - axon_model_year",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "model_span = cell_model_year - axon_model_year",
+     "compute": "model_span = cell_model_year - axon_model_year"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Milestones in the Rise of Systems Biology: given cell_model_year = 84, axon_model_year = 7, find model span.",
+     "a": "77",
+     "self_check": false
+    },
+    {
+     "q": "For Milestones in the Rise of Systems Biology: given cell_model_year = 61, axon_model_year = 2.5, find model span.",
+     "a": "58.5",
+     "self_check": false
+    },
+    {
+     "q": "For Milestones in the Rise of Systems Biology: given cell_model_year = 45, axon_model_year = 15.4, find model span.",
+     "a": "29.6",
+     "self_check": false
+    },
+    {
+     "q": "For Milestones in the Rise of Systems Biology: given cell_model_year = 93, axon_model_year = 11.5, find model span.",
+     "a": "81.5",
+     "self_check": false
+    },
+    {
+     "q": "For Milestones in the Rise of Systems Biology: given cell_model_year = 8.5, axon_model_year = 11.9, find model span.",
+     "a": "-3.4",
+     "self_check": false
+    },
+    {
+     "q": "For Milestones in the Rise of Systems Biology: given cell_model_year = 26, axon_model_year = 17.6, find model span.",
+     "a": "8.4",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "kebt111.1",
    "title": "Programming Languages for Biologists",
@@ -18,37 +65,6 @@
     {
      "q": "Under which section is 'Programming Languages for Biologists' taught, and from which source text?",
      "a": "11.1 (source: kebt111.txt section 11.1)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebt111.2",
-   "title": "Milestones in the Rise of Systems Biology",
-   "questions": [
-    {
-     "q": "Using the method 'Milestones in the Rise of Systems Biology', work with: axon_model_year = 200, cell_model_year = 2600. Carry the chain through step by step and give the final value of span_decades.",
-     "a": "240 years",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Milestones in the Rise of Systems Biology' and work with: axon_model_year = 100, cell_model_year = 150. Carry the chain through step by step and give the final value of span_decades.",
-     "a": "5 years",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Milestones in the Rise of Systems Biology' refers to.",
-     "a": "The field grew in dated steps - Hodgkin and Huxley modelled the neuronal action potential in 1952, Denis Noble built the first computer model of the heart pacemaker in 1960, Mesarovic launched systems theory and biology in 1966, von Bertalanffy published the first theory in 1968, and the 2012 whole-cell model of Mycoplasma genitalium capped six decades of quantitative modelling.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Milestones in the Rise of Systems Biology'.",
-     "a": "Subtract one milestone year from another to measure the field's growth spans.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Milestones in the Rise of Systems Biology', in plain ASCII form.",
-     "a": "model_span = cell_model_year - axon_model_year",
      "self_check": true
     }
    ]

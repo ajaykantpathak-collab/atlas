@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_12_008",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_12_008",
+   "title": "c12_soc_cbse_12_008",
+   "questions": [
+    {
+     "q": "Define \"disinvestment\" in the context of India's post-1991 liberalisation and state one documented consequence for workers in a privatised public sector unit, citing the NCERT example.",
+     "a": "Disinvestment is the government selling its equity stake in public sector enterprises to private entities. In Modern Foods (first privatised PSU), 60% of workers were forced into early retirement within five years. A wrong answer (e.g., \"disinvestment means closing factories\" or \"workers got better pay\") reveals confusion between disinvestment and closure, or ignorance of the empirical outcome NCERT highlights — job loss and insecurity for regular workers.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the contractor (mistri) system in Kanpur textile mills represented a \"dual control\" over workers, and how this differs from contemporary contract labour in the organised sector.",
+     "a": "The mistri was a worker from the same community who recruited and supervised labour using the owner's authority *and* community pressure (caste/kinship ties), blending personal and formal power. Today's contract labour in organised sectors (e.g., Maruti's outsourced parts suppliers) is mediated by impersonal commercial contracts between firms; the contractor has no community hold, only cost-pressure from the principal employer. A wrong answer that equates the two misses the shift from *personalistic* to *market-mediated* control — a core sociological distinction NCERT draws (p.64-65).",
+     "self_check": true
+    },
+    {
+     "q": "A software engineer in Bengaluru works 11-hour days, stays overnight (\"night out\") twice a week during deadlines, and logs \"flexi-time\" hours that exceed 60/week. Using the NCERT box \"Time Slavery in the IT Sector\" (p.67), identify *two* structural reasons (not personal choice) that produce this outcome.",
+     "a": "(1) Time-zone difference: conference calls align with U.S. business hours, forcing evening/night work in India. (2) Project underestimation: mandays are bid at 8-hour norms but actual work requires 12+ hours; \"flexi-time\" legitimises unpaid overtime. A wrong answer citing \"passion for coding\" or \"high salaries\" individualises a structural condition — the classic error of confusing *agency* with *constraint* that Braverman and Upadhya warn against.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the labour process of a Maruti assembly-line worker (p.66) and a home-based bidi roller (p.68) on: (a) control over work pace, (b) ownership of tools/raw material, (c) social isolation vs. collective presence. What does this comparison reveal about the *varieties* of informalisation under globalisation?",
+     "a": "(a) Maruti worker: pace set by assembly line (2 cars/min), zero autonomy; bidi roller: self-paced but piece-rate pressure creates internalised speed-up. (b) Maruti: tools/machinery owned by firm; bidi: leaves/tobacco supplied by contractor, worker provides labour only. (c) Maruti: works alongside hundreds, potential for collective action (though unions weakened); bidi: isolated at home, no coworkers, unionisation nearly impossible. The comparison shows globalisation produces *multiple* informalisation logics: factory flexibilisation *and* home-based precarisation — both strip security but through different mechanisms. A wrong answer that treats them as \"same informal work\" misses the analytical nuance NCERT builds across sections 5.4 and 5.6.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Liberalisation has expanded employment opportunities for Indian workers.\" Use three distinct pieces of evidence from the NCERT text (employment status data, sectoral shift, job quality) to support or refute.",
+     "a": "The claim is partially true but misleading. Evidence refuting \"expansion\" as *secure* employment: (1) Only 24% in regular salaried work (2018-19), 52% self-employed, 24% casual — regular jobs *declined* (p.62 chart). (2) Organised sector shrank: 90%+ work in unorganised/informal units (p.62). (3) Even in organised sector, permanent jobs replaced by contract/badli workers (Maruti, Modern Foods). Evidence for *numerical* expansion: services/IT grew, creating middle-class jobs — but with \"time slavery\" conditions (p.67). A wrong answer that cites only IT growth ignores the *quality* and *security* dimensions NCERT emphasises — the central sociological critique.",
+     "self_check": true
+    },
+    {
+     "q": "Design a comparative case study of two workers displaced by the same globalisation-driven process (e.g., land acquisition for a Special Economic Zone): one an adivasi farmer, one a mill worker in Mumbai. Specify the research questions, data sources, and the sociological concept (from Marx/Durkheim/Weber) each case would illuminate.",
+     "a": "Case A (Adivasi farmer, Chhattisgarh): Research Q — How does land acquisition for SEZ transform subsistence agriculture into casual urban labour? Data — oral histories, compensation records, migration trails. Concept — Marx's *primitive accumulation* (separation of producer from means of production). Case B (Mill worker, Girangaon): Research Q — How does mill-land sale for luxury housing erase working-class community and union memory? Data — union archives, oral histories, real-estate records. Concept — Durkheim's *anomie* (breakdown of collective norms when industrial community dissolves). A poor answer would use the same concept for both or ignore the *differential* impact of the same policy on distinct social groups — missing NCERT's emphasis on \"competing interests\" (p.64).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The impact of globalisation on industrial labour refers to the structural ______ of employment relations, work organisation, and labour conditions resulting from the liberalisation of the Indian economy post-1991, characterised by increased Foreign Direct Investment (FDI), widespread outsourcing and subcontracting, disinvestment of public sector units, and a shift from permanent employment to flexible, contractual, and informal work arrangements that weaken collective bargaining and labour protections.",
+     "a": "transformation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 28-year-old engineer at a Gurugram auto-______ firm: she works 12-hour shifts, gets no overtime pay because she is a \"fixed-term contract\" worker, and her team must hit just-in-time delivery targets or the entire line stops — her father retired from the same factory as a permanent worker with pension, gratuity, and a union.",
+     "a": "components",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The impact of globalisation on industrial labour refers to the structural transformation of employment relations, work organisation, and labour conditions resulting from the liberalisation of the Indian economy post-______, characterised by increased Foreign Direct Investment (FDI), widespread outsourcing and subcontracting, disinvestment of public sector units, and a shift from permanent employment to flexible, contractual, and informal work arrangements that weaken collective bargaining and labour protections.",
+     "a": "1991",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) trace the causal chain from liberalisation policy → FDI entry → corporate restructuring → outsourcing → casualisation of labour, using specific Indian examples (e.g., Maruti, IT sector, bidi industry); (2) evaluate how these changes alter worker power, unionisation, and social security, contrasting.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

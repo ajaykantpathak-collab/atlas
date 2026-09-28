@@ -31,8 +31,38 @@
      "self_check": true
     },
     {
-     "q": "Design a simple experiment using a toy car, a measuring tape, and a stopwatch to determine whether the car moves with uniform or non-uniform motion on a tilted wooden plank. Describe the procedure, data to collect, and how you will conclude.",
-     "a": "Procedure: Mark positions at 20 cm intervals along the plank. Release the car from rest at the top. Use the stopwatch to record the time when the car passes each mark. Calculate displacement per time interval (e.g., 0-20 cm, 20-40 cm). If displacements per equal time intervals are equal, motion is uniform; if they increase, motion is non-uniform (accelerated). A poor answer (e.g., only measuring total time) reveals inability to design an experiment that tests the definition of uniform motion through equal intervals.",
+     "q": "Give the correct order of steps for the toy-car experiment that tests whether motion on a tilted plank is uniform.",
+     "a": "The procedure runs: (1) Mark positions at 20 cm intervals along the plank (2) Release the car from rest at the top (3) Record the time at which the car passes each mark (4) Compare displacements per equal time interval and conclude uniform motion when they match. A wrong answer that only measures total time shows the student cannot design a test of equal displacements in equal intervals, which is the definition of uniform motion.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Uniform motion is motion in which an object covers equal ______ in equal intervals of time, implying constant velocity (both magnitude and direction remain unchanged).",
+     "a": "displacements",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan rotating at constant speed – the blades cover equal angles in equal time but their direction changes ______.",
+     "a": "continuously",
+     "self_check": true
+    },
+    {
+     "q": "What is Uniform motion? State the definition given in this lesson.",
+     "a": "Uniform motion is motion in which an object covers equal displacements in equal intervals of time, implying constant velocity (both magnitude and direction remain unchanged).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now compare with a bicycle moving on a straight road at a steady ______ km/h.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Uniform motion?",
+     "a": "Students often think \"uniform motion = constant speed\" and classify uniform circular motion as uniform motion.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish uniform from non-uniform motion using displacement-time data, velocity-time data, and graphical representations, and can explain why a body moving at constant speed in a circular path is in non-uniform motion.",
      "self_check": true
     }
    ]

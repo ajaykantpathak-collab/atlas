@@ -130,7 +130,16 @@
      "solution": "Step 1: calculate discount per unit: unit_discount = face_value * discount_rate / 100 = 0.16 Step 2: calculate total discount: total_discount = unit_discount * num_debentures = 0.64 Step 3: calculate net cash received: net_cash = (num_debentures * face_value) - total_discount = 15.36 Final result: 15.36",
      "answer": "15.36"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "issue_price = face_value - discount_amount",
+     "compute": "issue_price = face_value - discount_amount"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.202.4",
@@ -179,7 +188,16 @@
      "solution": "Step 1: calculate premium per unit: unit_premium = face_value * premium_rate / 100 = 0.16 Step 2: calculate total premium: total_premium = unit_premium * num_debentures = 0.64 Step 3: calculate total proceeds: total_proceeds = (num_debentures * face_value) + total_premium = 16.64 Final result: 16.64",
      "answer": "16.64"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "issue_price = face_value + premium_amount",
+     "compute": "issue_price = face_value + premium_amount"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.202.5",
@@ -239,7 +257,7 @@
     "Explain Debentures as Collateral Security with a suitable example.",
     "Write a short note on Debentures as Collateral Security."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -251,7 +269,16 @@
      "action": "verify balance sheet presentation",
      "explain": "Ensure the loan is shown under long-term borrowings with a note about the collateral."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "loan_amount = principal_borrowed",
+     "compute": "loan_amount = principal_borrowed"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.202.7",
@@ -300,7 +327,16 @@
      "solution": "Step 1: calculate gross interest: gross_interest = total_face_value * coupon_rate * months / 1200 = 0.053333 Step 2: calculate tax deduction: tds_amount = gross_interest * tds_rate / 100 = 0.0016 Step 3: calculate net payment: net_interest = gross_interest - tds_amount = 0.051733 Final result: 0.051733",
      "answer": "0.051733"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "interest = face_value * rate * time / 100",
+     "compute": "interest = face_value * rate * time / 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.202.8",
@@ -582,7 +618,16 @@
      "solution": "Step 1: calculate nominal value of maturing debentures: nominal_maturing = num_maturing_debentures * face_value = 16.0 Step 2: compute DRI investment amount: dri_amount = (nominal_maturing * dri_rate) / 100 = 0.64 Final result: 0.64",
      "answer": "0.64"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "dri_amount = nominal_maturing * dri_rate / 100",
+     "compute": "dri_amount = nominal_maturing * dri_rate / 100"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

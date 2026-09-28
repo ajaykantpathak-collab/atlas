@@ -1,614 +1,623 @@
 {
-  "class": 12,
-  "subject": "biology",
-  "chapter": 102,
-  "chapter_title": "Human Reproduction",
-  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lebo102.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "concepts": [
+ "class": 12,
+ "subject": "biology",
+ "chapter": 102,
+ "chapter_title": "Human Reproduction",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lebo102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lebo102.2.1.1",
+   "title": "Male Reproductive System: Testes, Ducts and Glands",
+   "section": "2.1",
+   "definition": "The male system pairs testes held in the scrotal pouch with a duct chain running rete testis, vasa efferentia, the epididymis and then the vas deferens, plus seminal vesicles, prostate and bulbourethral glands whose secretions form the seminal plasma.",
+   "formula": "",
+   "key_idea": "Sperms are built inside seminiferous tubules, fed by Sertoli cells and bathed in androgens from Leydig cells, while the scrotum keeps the testes cooler than the body core.",
+   "textbook_ref": "lebo102.txt lines 17-110 (male reproductive system section)",
+   "question_patterns": [
+    "why are the human testes kept outside the abdominal cavity in the scrotum",
+    "name the accessory ducts that carry sperms from the testis to the urethra",
+    "which cells line a seminiferous tubule and what does each type do",
+    "state the role of Leydig cells in the testis",
+    "which glands contribute secretions to the seminal plasma",
+    "list in order the parts a sperm crosses from seminiferous tubule to urethral meatus"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
     {
-      "id": "lebo102.2.1.1",
-      "title": "Male Reproductive System: Testes, Ducts and Glands",
-      "section": "2.1",
-      "definition": "The male system pairs testes held in the scrotal pouch with a duct chain running rete testis, vasa efferentia, the epididymis and then the vas deferens, plus seminal vesicles, prostate and bulbourethral glands whose secretions form the seminal plasma.",
-      "formula": "",
-      "key_idea": "Sperms are built inside seminiferous tubules, fed by Sertoli cells and bathed in androgens from Leydig cells, while the scrotum keeps the testes cooler than the body core.",
-      "textbook_ref": "lebo102.txt lines 17-110 (male reproductive system section)",
-      "question_patterns": [
-        "why are the human testes kept outside the abdominal cavity in the scrotum",
-        "name the accessory ducts that carry sperms from the testis to the urethra",
-        "which cells line a seminiferous tubule and what does each type do",
-        "state the role of Leydig cells in the testis",
-        "which glands contribute secretions to the seminal plasma",
-        "list in order the parts a sperm crosses from seminiferous tubule to urethral meatus"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Locate the gonads",
-          "explain": "A pair of oval testes sits in the scrotum about two to two and a half degrees below body temperature, the range spermatogenesis needs, and each carries roughly 250 testicular lobules."
-        },
-        {
-          "step": 2,
-          "action": "Describe the sperm factory",
-          "explain": "Each lobule holds one to three coiled seminiferous tubules lined by spermatogonia (male germ cells) and nurse-like Sertoli cells; Leydig cells in the interstitial spaces secrete androgens."
-        },
-        {
-          "step": 3,
-          "action": "Order the duct pathway",
-          "explain": "Tubules open into the rete testis, then vasa efferentia, then the epididymis, and finally the vas deferens, which joins a seminal vesicle duct to form the ejaculatory duct entering the urethra."
-        },
-        {
-          "step": 4,
-          "action": "Add glands and genitalia",
-          "explain": "Paired seminal vesicles, a prostate and paired bulbourethral glands supply fructose-, calcium- and enzyme-rich seminal plasma plus lubrication, and the penis with its glans and foreskin serves as the external organ."
-        }
-      ]
+     "step": 1,
+     "action": "Locate the gonads",
+     "explain": "A pair of oval testes sits in the scrotum about two to two and a half degrees below body temperature, the range spermatogenesis needs, and each carries roughly 250 testicular lobules."
     },
     {
-      "id": "lebo102.2.2.1",
-      "title": "Female Reproductive System and Mammary Glands",
-      "section": "2.2",
-      "definition": "The female system pairs ovaries with oviducts divided into infundibulum, ampulla and isthmus, an inverted-pear uterus in three layers, a cervix and vagina forming the birth canal, external genital folds, and mammary glands built from alveoli, ducts and ampullae.",
-      "formula": "",
-      "key_idea": "Fimbriae sweep the released ovum into the funnel of the fallopian tube, and the glandular endometrium rebuilds itself every cycle to receive an embryo.",
-      "textbook_ref": "lebo102.txt lines 111-181 (female reproductive system and mammary gland sections)",
-      "question_patterns": [
-        "name the three parts of a fallopian tube and the finger-like tips that collect the ovum",
-        "which three tissue layers make up the wall of the uterus and what does each do",
-        "what are the functions of the ovaries in the female body",
-        "describe the path milk takes from alveoli to the nipple",
-        "why is the hymen not treated as proof of virginity",
-        "label infundibulum ampulla isthmus cervix and endometrium on a diagram"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Identify the primary organs",
-          "explain": "Two ovaries in the lower abdomen release ova and steroid hormones; each carries an outer cortex around an inner medulla beneath thin epithelium."
-        },
-        {
-          "step": 2,
-          "action": "Follow the accessory ducts",
-          "explain": "Each oviduct begins in a funnel-shaped infundibulum edged by fimbriae, widens into the ampulla where fertilisation later occurs, and narrows through the isthmus into the uterus; the cervix below opens to the vagina."
-        },
-        {
-          "step": 3,
-          "action": "Layer the uterine wall",
-          "explain": "A thin outer perimetrium, a thick muscular myometrium that contracts at delivery, and an inner glandular endometrium that cycles monthly."
-        },
-        {
-          "step": 4,
-          "action": "Cover external genitalia and breasts",
-          "explain": "Mons pubis, labia majora and minora, hymen and clitoris form the external genitalia, while each breast packs 15-20 lobes of milk-secreting alveoli draining through tubules, ducts and an ampulla to the lactiferous duct."
-        }
-      ]
+     "step": 2,
+     "action": "Describe the sperm factory",
+     "explain": "Each lobule holds one to three coiled seminiferous tubules lined by spermatogonia (male germ cells) and nurse-like Sertoli cells; Leydig cells in the interstitial spaces secrete androgens."
     },
     {
-      "id": "lebo102.2.3.1",
-      "title": "Spermatogenesis Cell Line and Hormonal Control",
-      "section": "2.3",
-      "definition": "Spermatogonia lining the tubule wall multiply mitotically; some grow into primary spermatocytes whose two meiotic rounds produce two secondary spermatocytes and then four haploid spermatids, later reshaped into spermatozoa under GnRH, LH and FSH control.",
-      "formula": "spermatids = primary_spermatocytes * 4",
-      "key_idea": "Meiosis halves the chromosome number from 46 to 23, and each primary spermatocyte ultimately funds four equal spermatids before spermiogenesis and spermiation.",
-      "textbook_ref": "lebo102.txt lines 182-226 (spermatogenesis and hormonal regulation)",
-      "question_patterns": [
-        "how many spermatids come from a given number of primary spermatocytes",
-        "trace the cell stages from spermatogonium to spermatozoan with chromosome counts",
-        "which hormones drive spermatogenesis and where does each act",
-        "differentiate spermiogenesis from spermiation",
-        "why do secondary spermatocytes carry only 23 chromosomes",
-        "at what life stage does sperm production begin and which hormone starts it"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Split each primary spermatocyte in meiosis I",
-          "explain": "The reductional division turns every primary spermatocyte into two equal haploid secondary spermatocytes.",
-          "compute": "secondary_spermatocytes = primary_spermatocytes * 2"
-        },
-        {
-          "step": 2,
-          "action": "Halve again in meiosis II",
-          "explain": "Each secondary spermatocyte divides once more equationally, so the batch now holds four spermatids per starting cell.",
-          "compute": "spermatids = secondary_spermatocytes * 2"
-        },
-        {
-          "step": 3,
-          "action": "Report the spermatid total",
-          "explain": "Four haploid spermatids arise from every primary spermatocyte; each then matures into a spermatozoan.",
-          "compute": "result = spermatids"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Spermatogenesis Cell Line and Hormonal Control, compute the result for primary_spermatocytes = 3.",
-          "solution": "Step 1: Split each primary spermatocyte in meiosis I: secondary_spermatocytes = primary_spermatocytes * 2 = 6.0 Step 2: Halve again in meiosis II: spermatids = secondary_spermatocytes * 2 = 12.0 Step 3: Report the spermatid total: result = spermatids = 12.0 Final result: 12.0",
-          "answer": "12.0"
-        },
-        {
-          "question": "Using Spermatogenesis Cell Line and Hormonal Control, compute the result for primary_spermatocytes = 4.",
-          "solution": "Step 1: Split each primary spermatocyte in meiosis I: secondary_spermatocytes = primary_spermatocytes * 2 = 8.0 Step 2: Halve again in meiosis II: spermatids = secondary_spermatocytes * 2 = 16.0 Step 3: Report the spermatid total: result = spermatids = 16.0 Final result: 16.0",
-          "answer": "16.0"
-        }
-      ]
+     "step": 3,
+     "action": "Order the duct pathway",
+     "explain": "Tubules open into the rete testis, then vasa efferentia, then the epididymis, and finally the vas deferens, which joins a seminal vesicle duct to form the ejaculatory duct entering the urethra."
     },
     {
-      "id": "lebo102.2.3.2",
-      "title": "Human Sperm Structure and Semen Quality Norms",
-      "section": "2.3",
-      "definition": "A sperm is a four-part cell -- enzyme-packed acrosome capping the haploid head, a short neck, a mitochondria-rich middle piece and a whip tail -- and fertile human semen carries 200 to 300 million sperms per ejaculate with at least sixty percent normal in form and forty percent strongly motile.",
-      "formula": "",
-      "key_idea": "Mid-piece mitochondria power the tail's motion, and acrosomal enzymes let the sperm bore through the ovum's investments at fertilisation.",
-      "textbook_ref": "lebo102.txt lines 227-251 (sperm structure, semen norms and accessory secretions)",
-      "question_patterns": [
-        "draw and label the parts of a human sperm and give each part's job",
-        "which part of the sperm supplies energy for its movement and how",
-        "what is the acrosome and which process depends on its enzymes",
-        "how many sperms does a normal human ejaculate contain and what quality thresholds apply",
-        "what makes up the semen besides the sperm cells",
-        "why must a large share of sperms be normally shaped and actively motile for fertility"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Walk the regions head to tail",
-          "explain": "An elongated haploid nucleus sits under the acrosome cap, the neck links on, the middle piece packs mitochondria, and the tail beats for propulsion, all wrapped by a plasma membrane."
-        },
-        {
-          "step": 2,
-          "action": "Tie structure to function",
-          "explain": "Acrosomal enzymes open the route into the ovum, and mitochondrial ATP drives tail motion, making motility possible."
-        },
-        {
-          "step": 3,
-          "action": "Apply the fertility yardsticks",
-          "explain": "A typical ejaculate releases 200-300 million sperms; normal fertility needs at least 60 percent of normal shape and size and at least 40 percent vigorous swimmers, with secretions of epididymis, ducts, seminal vesicle and prostate maturing and moving them."
-        }
-      ]
-    },
-    {
-      "id": "lebo102.2.3.3",
-      "title": "Oogenesis and Follicular Development",
-      "section": "2.3",
-      "definition": "Oogonia multiply only during fetal life, arrest in prophase-I as primary oocytes, and grow wrapped in granulosa cells through primary, secondary, tertiary and Graafian follicle stages, the oocyte finishing meiosis-I unequally so that one large haploid secondary oocyte plus one minute first polar body emerge before ovulation.",
-      "formula": "",
-      "key_idea": "The unequal meiosis-I division parks nearly all cytoplasm in the secondary oocyte, and puberty arrives with each ovary holding only some 60,000-80,000 primary follicles.",
-      "textbook_ref": "lebo102.txt lines 252-293 (oogenesis and follicle stages)",
-      "question_patterns": [
-        "give an account of oogenesis from fetal oogonia to the release of a secondary oocyte",
-        "when does the primary oocyte complete its first meiotic division and what results",
-        "how does a tertiary follicle differ from a secondary follicle",
-        "what marks a Graafian follicle as mature and ready for ovulation",
-        "why is meiosis in oogenesis called an unequal division",
-        "how many primary follicles remain at puberty and why fewer than at birth"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Start in the fetus",
-          "explain": "A couple of million oogonia form in each fetal ovary, enter prophase-I and stall as primary oocytes; no new oogonia appear after birth."
-        },
-        {
-          "step": 2,
-          "action": "Layer the follicle stages",
-          "explain": "Granulosa cells enclose the primary oocyte (primary follicle), more layers plus a theca follow (secondary follicle), then a fluid-filled antrum and theca interna/externa mark the tertiary follicle, which ripens into the Graafian follicle."
-        },
-        {
-          "step": 3,
-          "action": "Run the unequal meiosis-I",
-          "explain": "Inside the tertiary follicle the primary oocyte completes the first meiotic division, keeping the nutrient-rich bulk as a haploid secondary oocyte and pinching off a small first polar body."
-        },
-        {
-          "step": 4,
-          "action": "Prepare for release",
-          "explain": "The secondary oocyte gains a zona pellucida, and rupture of the Graafian follicle at ovulation expels it from the ovary; many follicles simply degenerate along the way."
-        }
-      ]
-    },
-    {
-      "id": "lebo102.2.4.1",
-      "title": "Menstrual Cycle Phases and Hormone Control",
-      "section": "2.4",
-      "definition": "Over an average 28-29 day cycle the uterus passes through a shedding menstrual phase, a rebuilding follicular phase, a mid-cycle ovulation triggered by the LH surge, and a progesterone-rich luteal phase maintained by the corpus luteum.",
-      "formula": "",
-      "key_idea": "The mid-cycle LH peak bursts the Graafian follicle, and whether the corpus luteum persists or decays decides pregnancy or another menstruation.",
-      "textbook_ref": "lebo102.txt lines 300-347 (menstrual cycle section)",
-      "question_patterns": [
-        "list the four phases of the menstrual cycle in order with their events",
-        "which hormone surge causes ovulation and on roughly which day",
-        "what does the corpus luteum secrete and why is that hormone needed",
-        "why does menstruation occur only when the released ovum goes unfertilised",
-        "define menarche and menopause in the context of the cycle",
-        "how do LH and FSH levels change across the follicular phase"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Open with the menstrual phase",
-          "explain": "For three to five days the endometrium and its vessels break down and leave as menstrual flow, which happens only when the ovum was not fertilised."
-        },
-        {
-          "step": 2,
-          "action": "Follow the follicular phase",
-          "explain": "Rising LH and FSH grow a primary follicle into a Graafian follicle while proliferating oestrogen rebuilds the endometrium."
-        },
-        {
-          "step": 3,
-          "action": "Mark the ovulatory spike",
-          "explain": "Around day fourteen the rapid LH maximum, the LH surge, ruptures the follicle and frees the ovum."
-        },
-        {
-          "step": 4,
-          "action": "Close the luteal loop",
-          "explain": "Leftover follicle cells form the corpus luteum pouring out progesterone to hold the endometrium; if fertilisation fails the corpus luteum decays, the lining disintegrates and a new cycle starts, with the whole span bounded by menarche and menopause near age fifty."
-        }
-      ]
-    },
-    {
-      "id": "lebo102.2.5.1",
-      "title": "Fertilisation Site, Acrosome Reaction and Zona Block",
-      "section": "2.5",
-      "definition": "Sperms deposited in the vagina swim through cervix and uterus to the ampullary part of the fallopian tube, where acrosomal enzymes let one sperm pierce the zona pellucida while the membrane changes it triggers shut out every other sperm.",
-      "formula": "",
-      "key_idea": "Contact with the zona pellucida both blocks extra sperms and pushes the secondary oocyte to finish meiosis-II, releasing a second polar body before the nuclei fuse.",
-      "textbook_ref": "lebo102.txt lines 348-373 and 400-407 (fertilisation events)",
-      "question_patterns": [
-        "where in the female body does fertilisation normally occur and why there",
-        "how does the ovum prevent more than one sperm from entering",
-        "what part do acrosomal enzymes play at the moment of fertilisation",
-        "which meiotic division finishes after a sperm enters the ovum",
-        "what is a polar body and how many appear during human fertilisation",
-        "why does conception fail unless sperms and ovum arrive together"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Bring the gametes together",
-          "explain": "After insemination, motile sperms travel cervix, uterus and tube while the ovum is carried to the same ampullary region; timing must coincide."
-        },
-        {
-          "step": 2,
-          "action": "Trigger the zona reaction",
-          "explain": "A sperm touching the zona pellucida induces membrane changes that bar further entries, so only one sperm fertilises the ovum, helped inward by acrosomal secretions."
-        },
-        {
-          "step": 3,
-          "action": "Complete meiosis-II",
-          "explain": "Entry spurs the secondary oocyte's second unequal division, producing the haploid ovum (ootid) plus a second polar body."
-        },
-        {
-          "step": 4,
-          "action": "Fuse the genomes",
-          "explain": "The haploid sperm nucleus and ovum nucleus merge into a diploid zygote of 46 chromosomes."
-        }
-      ]
-    },
-    {
-      "id": "lebo102.2.5.2",
-      "title": "Chromosomal Sex Determination in Humans",
-      "section": "2.5",
-      "definition": "Human females carry XX and males XY, so every ovum donates an X while each sperm carries either an X or a Y in equal measure, making the fertilising sperm -- and hence the father -- the decider of the baby's sex.",
-      "formula": "",
-      "key_idea": "An X-bearing sperm yields an XX zygote that becomes a girl, a Y-bearing sperm yields XY and a boy, with fifty-fifty odds at every conception.",
-      "textbook_ref": "lebo102.txt lines 408-419 (sex determination passage)",
-      "question_patterns": [
-        "why is it scientifically wrong to blame the mother for the sex of her child",
-        "what sex chromosome does a human egg always carry",
-        "explain how an XX zygote differs from an XY zygote in its outcome",
-        "what share of a man's sperms carry the Y chromosome",
-        "at which point in reproduction is the sex of the baby fixed",
-        "describe the chromosomal basis of sex determination in human beings"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Fix the parental genotypes",
-          "explain": "Females are XX and males XY, so ova are uniformly X while sperms split evenly between X and Y."
-        },
-        {
-          "step": 2,
-          "action": "Read the zygote combination",
-          "explain": "The zygote is XX if an X sperm won, XY if a Y sperm did, decided the instant the gametes fuse."
-        },
-        {
-          "step": 3,
-          "action": "Assign the responsibility",
-          "explain": "Because only the father's gamete varies, the sex of the baby is determined by the father, not the mother, and each pregnancy is a fresh fifty-fifty event."
-        }
-      ]
-    },
-    {
-      "id": "lebo102.2.5.3",
-      "title": "Cleavage, Morula, Blastocyst and Implantation",
-      "section": "2.5",
-      "definition": "As the zygote rides the isthmus toward the uterus it divides mitotically into 2, 4, 8 and 16 blastomeres, forms a morula, then hollows into a blastocyst whose trophoblast layer sticks to and sinks into the endometrium in implantation.",
-      "formula": "",
-      "key_idea": "The outer trophoblast handles attachment while the inner cell mass becomes the embryo proper, and embedding in the endometrium marks the start of pregnancy.",
-      "textbook_ref": "lebo102.txt lines 420-436 (cleavage to implantation passage)",
-      "question_patterns": [
-        "what is a morula and how many cells does it contain roughly",
-        "name the two cell groups of a blastocyst and state what each becomes",
-        "define implantation and say where it happens",
-        "which type of division turns the zygote into blastomeres during cleavage",
-        "trace the embryo's journey from the ampulla to its embedding site",
-        "how does the blastocyst differ from the morula in structure"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Count the early cleavages",
-          "explain": "Mitotic divisions during transit through the isthmus yield daughter cells called blastomeres in the series 2, 4, 8, 16."
-        },
-        {
-          "step": 2,
-          "action": "Recognise the morula stage",
-          "explain": "The 8-to-16-cell solid ball travelling toward the uterus is the morula."
-        },
-        {
-          "step": 3,
-          "action": "Transform to a blastocyst",
-          "explain": "Further division and rearrangement produce a blastocyst with an outer trophoblast and an inner cell mass attached to it."
-        },
-        {
-          "step": 4,
-          "action": "Achieve implantation",
-          "explain": "The trophoblast attaches to the endometrium, uterine cells overgrow it, and the blastocyst sinks in, the event that begins pregnancy while the inner cell mass differentiates as the embryo."
-        }
-      ]
-    },
-    {
-      "id": "lebo102.2.6.1",
-      "title": "Placenta: Structure, Functions and Hormones",
-      "section": "2.6",
-      "definition": "Chorionic villi of the trophoblast interlock with uterine tissue to build the placenta, a dual organ that trades oxygen, nutrients, carbon dioxide and wastes between mother and foetus through the umbilical cord while secreting hCG, hPL, oestrogens and progestogens.",
-      "formula": "",
-      "key_idea": "The placenta works as the foetus's gut, lungs and kidney and as an endocrine gland, with hCG, hPL and relaxin appearing only in pregnancy.",
-      "textbook_ref": "lebo102.txt lines 437-466 (placenta and pregnancy hormones)",
-      "question_patterns": [
-        "how is the placenta formed from chorionic villi and uterine tissue",
-        "list the substances the placenta passes between mother and foetus",
-        "name the hormones the placenta secretes and one produced only during pregnancy",
-        "what is the role of the umbilical cord",
-        "why is the placenta called both a structural and a functional unit",
-        "which hormone relaxes pelvic tissues in late pregnancy and where is it made"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Assemble the organ",
-          "explain": "Finger-like chorionic villi sprout from the trophoblast after implantation and interdigitate with maternal uterine tissue and blood."
-        },
-        {
-          "step": 2,
-          "action": "List the exchange duties",
-          "explain": "Oxygen and nutrients cross to the embryo; carbon dioxide and nitrogenous wastes return, all ferried by the umbilical cord."
-        },
-        {
-          "step": 3,
-          "action": "Add the endocrine output",
-          "explain": "The placenta releases hCG, hPL, oestrogens and progestogens, the ovary adds relaxin later, and hCG, hPL and relaxin are exclusive to pregnancy, while maternal oestrogen, cortisol, prolactin and thyroxine also rise severalfold."
-        }
-      ]
-    },
-    {
-      "id": "lebo102.2.6.2",
-      "title": "Germ Layers, Stem Cells and Gestation Milestones",
-      "section": "2.6",
-      "definition": "The implanted inner cell mass sorts into ectoderm, endoderm and then mesoderm -- three layers that build every adult tissue and include potent stem cells -- and the nine-month pregnancy hits signature landmarks such as the heart at one month and major organs by twelve weeks.",
-      "formula": "",
-      "key_idea": "By the end of the first trimester most organ systems exist; hair and first movements show around month five, and fine hair plus separated eyelids mark 24 weeks.",
-      "textbook_ref": "lebo102.txt lines 467-494 (germ layer differentiation and month-wise development)",
-      "question_patterns": [
-        "name the three germ layers in the order they appear and what each yields",
-        "which cells of the embryo can form every tissue and organ",
-        "state one milestone of human development at the end of each month of the first trimester",
-        "when do the first foetal movements and head hair usually appear",
-        "what changes mark the end of the second trimester",
-        "how long does a human pregnancy last and when is the foetus fully ready"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Sort the layers",
-          "explain": "Right after implantation the embryo splits into outer ectoderm and inner endoderm, with mesoderm wedging between; these three generate all adult tissues."
-        },
-        {
-          "step": 2,
-          "action": "Flag the stem cells",
-          "explain": "Within the inner cell mass reside stem cells able to give rise to every tissue and organ of the body."
-        },
-        {
-          "step": 3,
-          "action": "Walk the calendar",
-          "explain": "Heart forms by one month; limbs and digits by two; most organ systems, limbs and external genitalia by twelve weeks; first movements and scalp hair about month five; fine hair, separated eyelids and lashes by 24 weeks; full readiness at nine months."
-        }
-      ]
-    },
-    {
-      "id": "lebo102.2.7.1",
-      "title": "Parturition Reflex and Lactation",
-      "section": "2.7",
-      "definition": "Childbirth opens with the foetal ejection reflex -- signals from the mature foetus and placenta triggering mild uterine contractions -- which drives a self-reinforcing oxytocin loop until the baby and then the placenta are expelled, after which colostrum-then-milk feeding begins.",
-      "formula": "",
-      "key_idea": "Uterine contraction and oxytocin secretion feed each other in a positive spiral, and the first milk, colostrum, hands the newborn a dose of antibodies.",
-      "textbook_ref": "lebo102.txt lines 495-518 (parturition and lactation sections)",
-      "question_patterns": [
-        "explain the neuroendocrine mechanism that induces parturition",
-        "what is the foetal ejection reflex and which hormone answers it",
-        "why do uterine contractions keep growing stronger during labour",
-        "what is colostrum and why is it valuable to the newborn",
-        "define the gestation period of a human pregnancy",
-        "which organ is expelled right after the baby during delivery"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Trace the starting signal",
-          "explain": "Fully developed foetus and placenta send signals that begin mild uterine contractions, the foetal ejection reflex."
-        },
-        {
-          "step": 2,
-          "action": "Run the oxytocin feedback",
-          "explain": "The reflex prompts the maternal pituitary to release oxytocin, which hardens the contractions, which in turn call for more oxytocin -- an escalating loop."
-        },
-        {
-          "step": 3,
-          "action": "Finish delivery and feeding",
-          "explain": "Escalating contractions push the baby out through the birth canal, the placenta follows, and the mammary glands, already differentiated, start milk secretion whose first days' colostrum carries protective antibodies."
-        }
-      ]
+     "step": 4,
+     "action": "Add glands and genitalia",
+     "explain": "Paired seminal vesicles, a prostate and paired bulbourethral glands supply fructose-, calcium- and enzyme-rich seminal plasma plus lubrication, and the penis with its glans and foreskin serves as the external organ."
     }
-  ],
-  "worked_examples": [
+   ]
+  },
+  {
+   "id": "lebo102.2.2.1",
+   "title": "Female Reproductive System and Mammary Glands",
+   "section": "2.2",
+   "definition": "The female system pairs ovaries with oviducts divided into infundibulum, ampulla and isthmus, an inverted-pear uterus in three layers, a cervix and vagina forming the birth canal, external genital folds, and mammary glands built from alveoli, ducts and ampullae.",
+   "formula": "",
+   "key_idea": "Fimbriae sweep the released ovum into the funnel of the fallopian tube, and the glandular endometrium rebuilds itself every cycle to receive an embryo.",
+   "textbook_ref": "lebo102.txt lines 111-181 (female reproductive system and mammary gland sections)",
+   "question_patterns": [
+    "name the three parts of a fallopian tube and the finger-like tips that collect the ovum",
+    "which three tissue layers make up the wall of the uterus and what does each do",
+    "what are the functions of the ovaries in the female body",
+    "describe the path milk takes from alveoli to the nipple",
+    "why is the hymen not treated as proof of virginity",
+    "label infundibulum ampulla isthmus cervix and endometrium on a diagram"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
     {
-      "id": "we_lebo102_1",
-      "source_ref": "lebo102.txt lines 187-204 (spermatogenesis cell stages)",
-      "concept": "lebo102.2.3.1",
-      "question_type": "compute",
-      "question_pattern": "A seminiferous tubule has {primary_spermatocytes} primary spermatocytes entering meiosis. How many haploid spermatids will they finally yield?",
-      "extracted_variables": {
-        "primary_spermatocytes": 50
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "Meiosis-I doubling",
-          "explain": "Each of the 50 primary spermatocytes divides reductionally into 2 secondary spermatocytes, giving 100.",
-          "compute": "secondary_spermatocytes = primary_spermatocytes * 2"
-        },
-        {
-          "step": 2,
-          "action": "Meiosis-II doubling",
-          "explain": "Every secondary spermatocyte splits equationally into 2 spermatids, so 100 * 2 = 200.",
-          "compute": "spermatids = secondary_spermatocytes * 2"
-        },
-        {
-          "step": 3,
-          "action": "State the yield",
-          "explain": "Four spermatids per starting primary spermatocyte: 50 * 4 = 200.",
-          "compute": "result = spermatids"
-        }
-      ]
+     "step": 1,
+     "action": "Identify the primary organs",
+     "explain": "Two ovaries in the lower abdomen release ova and steroid hormones; each carries an outer cortex around an inner medulla beneath thin epithelium."
     },
     {
-      "id": "we_lebo102_2",
-      "source_ref": "lebo102.txt lines 313-344 (cycle phases and LH surge)",
-      "concept": "lebo102.2.4.1",
-      "question_type": "verify_property",
-      "question_pattern": "A woman's hormone profile shows LH peaking sharply around day fourteen. Name the event this surge causes and the structure and secretion that dominate the following phase.",
-      "extracted_variables": {},
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "Read the surge",
-          "explain": "The mid-cycle maximum of LH is the trigger that ruptures the mature Graafian follicle."
-        },
-        {
-          "step": 2,
-          "action": "Name the event",
-          "explain": "Rupture releases the ovum -- ovulation, marking the ovulatory phase about day fourteen."
-        },
-        {
-          "step": 3,
-          "action": "Name the luteal sequel",
-          "explain": "The emptied follicle becomes the corpus luteum, whose heavy progesterone output keeps the endometrium ready for implantation."
-        }
-      ]
+     "step": 2,
+     "action": "Follow the accessory ducts",
+     "explain": "Each oviduct begins in a funnel-shaped infundibulum edged by fimbriae, widens into the ampulla where fertilisation later occurs, and narrows through the isthmus into the uterus; the cervix below opens to the vagina."
     },
     {
-      "id": "we_lebo102_3",
-      "source_ref": "lebo102.txt lines 408-419 (sex determination passage)",
-      "concept": "lebo102.2.5.2",
-      "question_type": "verify_property",
-      "question_pattern": "A couple's newborn is a boy. Using the chromosomal basis of sex determination, show why the father's gamete decided this and not the mother's.",
-      "extracted_variables": {},
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "State the parental contributions",
-          "explain": "The mother's ovum always carries an X; the father's sperms are half X and half Y."
-        },
-        {
-          "step": 2,
-          "action": "Read the winning sperm",
-          "explain": "A boy means a Y-bearing sperm fertilised the X ovum, producing an XY zygote."
-        },
-        {
-          "step": 3,
-          "action": "Draw the conclusion",
-          "explain": "Since the ovum's contribution never varies, the sperm's sex chromosome alone decides, so responsibility lies with the father."
-        }
-      ]
+     "step": 3,
+     "action": "Layer the uterine wall",
+     "explain": "A thin outer perimetrium, a thick muscular myometrium that contracts at delivery, and an inner glandular endometrium that cycles monthly."
     },
     {
-      "id": "we_lebo102_4",
-      "source_ref": "lebo102.txt lines 437-451 (placenta formation and functions)",
-      "concept": "lebo102.2.6.1",
-      "question_type": "verify_property",
-      "question_pattern": "List what crosses the placenta toward the foetus and what returns to the mother, and name one placental hormone unique to pregnancy.",
-      "extracted_variables": {},
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "Sort the outbound freight",
-          "explain": "Oxygen and nutrients travel from maternal blood through the placenta and umbilical cord to the embryo."
-        },
-        {
-          "step": 2,
-          "action": "Sort the returns",
-          "explain": "Carbon dioxide and nitrogenous wastes from the embryo pass back into maternal circulation for disposal."
-        },
-        {
-          "step": 3,
-          "action": "Add the hormonal role",
-          "explain": "Placental tissue also secretes hCG, hPL, oestrogens and progestogens; hCG is produced only during pregnancy."
-        }
-      ]
+     "step": 4,
+     "action": "Cover external genitalia and breasts",
+     "explain": "Mons pubis, labia majora and minora, hymen and clitoris form the external genitalia, while each breast packs 15-20 lobes of milk-secreting alveoli draining through tubules, ducts and an ampulla to the lactiferous duct."
     }
-  ],
-  "exercises": [
+   ]
+  },
+  {
+   "id": "lebo102.2.3.1",
+   "title": "Spermatogenesis Cell Line and Hormonal Control",
+   "section": "2.3",
+   "definition": "Spermatogonia lining the tubule wall multiply mitotically; some grow into primary spermatocytes whose two meiotic rounds produce two secondary spermatocytes and then four haploid spermatids, later reshaped into spermatozoa under GnRH, LH and FSH control.",
+   "formula": "spermatids = primary_spermatocytes * 4",
+   "key_idea": "Meiosis halves the chromosome number from 46 to 23, and each primary spermatocyte ultimately funds four equal spermatids before spermiogenesis and spermiation.",
+   "textbook_ref": "lebo102.txt lines 182-226 (spermatogenesis and hormonal regulation)",
+   "question_patterns": [
+    "how many spermatids come from a given number of primary spermatocytes",
+    "trace the cell stages from spermatogonium to spermatozoan with chromosome counts",
+    "which hormones drive spermatogenesis and where does each act",
+    "differentiate spermiogenesis from spermiation",
+    "why do secondary spermatocytes carry only 23 chromosomes",
+    "at what life stage does sperm production begin and which hormone starts it"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "ex_lebo102_1",
-      "source_ref": "lebo102.txt lines 564-614 (end-of-chapter exercises 1-15, reworded)",
-      "questions": [
-        "Are humans oviparous or viviparous, and is human fertilisation internal or external?",
-        "Give two chief functions each of the testis and the ovary.",
-        "Describe the histology of a cross section of a seminiferous tubule.",
-        "Outline the stages of spermatogenesis and say which divisions are meiotic.",
-        "Which hormones regulate sperm production, and on which cells does each act?",
-        "Define spermiogenesis and spermiation in one line each.",
-        "Sketch and label a mature human sperm.",
-        "What does seminal plasma contain and which glands supply it?",
-        "Give a brief account of oogenesis, noting where the oocyte arrests before puberty.",
-        "State one function each of the corpus luteum, endometrium, acrosome, sperm tail and fimbriae.",
-        "Which hormone triggers the release of the ovum from a ripe follicle?",
-        "Where exactly does fertilisation take place in the female tract?"
-      ]
+     "step": 1,
+     "action": "Split each primary spermatocyte in meiosis I",
+     "explain": "The reductional division turns every primary spermatocyte into two equal haploid secondary spermatocytes.",
+     "compute": "secondary_spermatocytes = primary_spermatocytes * 2"
     },
     {
-      "id": "ex_lebo102_2",
-      "source_ref": "lebo102.txt lines 615-647 (end-of-chapter exercises 16-21, reworded)",
-      "questions": [
-        "Judge each claim and correct the false ones: androgens come from Sertoli cells; Leydig cells occur in the ovary; oogenesis happens in the corpus luteum; menstrual cycles pause during pregnancy.",
-        "What is the menstrual cycle and which hormones steer it?",
-        "Define parturition and name the hormones that bring it on.",
-        "Explain, on chromosomal grounds, why mothers are wrongly blamed for the birth of daughters.",
-        "How many ova leave a human ovary per month, and how many were released if the mother bore identical twins -- would the count differ for fraternal twins?",
-        "A female dog delivered six puppies; estimate how many ova her ovaries released."
-      ]
+     "step": 2,
+     "action": "Halve again in meiosis II",
+     "explain": "Each secondary spermatocyte divides once more equationally, so the batch now holds four spermatids per starting cell.",
+     "compute": "spermatids = secondary_spermatocytes * 2"
+    },
+    {
+     "step": 3,
+     "action": "Report the spermatid total",
+     "explain": "Four haploid spermatids arise from every primary spermatocyte; each then matures into a spermatozoan.",
+     "compute": "result = spermatids"
     }
-  ]
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Spermatogenesis Cell Line and Hormonal Control, compute the result for primary_spermatocytes = 3.",
+     "solution": "Step 1: Split each primary spermatocyte in meiosis I: secondary_spermatocytes = primary_spermatocytes * 2 = 6.0 Step 2: Halve again in meiosis II: spermatids = secondary_spermatocytes * 2 = 12.0 Step 3: Report the spermatid total: result = spermatids = 12.0 Final result: 12.0",
+     "answer": "12.0"
+    },
+    {
+     "question": "Using Spermatogenesis Cell Line and Hormonal Control, compute the result for primary_spermatocytes = 4.",
+     "solution": "Step 1: Split each primary spermatocyte in meiosis I: secondary_spermatocytes = primary_spermatocytes * 2 = 8.0 Step 2: Halve again in meiosis II: spermatids = secondary_spermatocytes * 2 = 16.0 Step 3: Report the spermatid total: result = spermatids = 16.0 Final result: 16.0",
+     "answer": "16.0"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "spermatids = primary_spermatocytes * 4",
+     "compute": "spermatids = primary_spermatocytes * 4"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lebo102.2.3.2",
+   "title": "Human Sperm Structure and Semen Quality Norms",
+   "section": "2.3",
+   "definition": "A sperm is a four-part cell -- enzyme-packed acrosome capping the haploid head, a short neck, a mitochondria-rich middle piece and a whip tail -- and fertile human semen carries 200 to 300 million sperms per ejaculate with at least sixty percent normal in form and forty percent strongly motile.",
+   "formula": "",
+   "key_idea": "Mid-piece mitochondria power the tail's motion, and acrosomal enzymes let the sperm bore through the ovum's investments at fertilisation.",
+   "textbook_ref": "lebo102.txt lines 227-251 (sperm structure, semen norms and accessory secretions)",
+   "question_patterns": [
+    "draw and label the parts of a human sperm and give each part's job",
+    "which part of the sperm supplies energy for its movement and how",
+    "what is the acrosome and which process depends on its enzymes",
+    "how many sperms does a normal human ejaculate contain and what quality thresholds apply",
+    "what makes up the semen besides the sperm cells",
+    "why must a large share of sperms be normally shaped and actively motile for fertility"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Walk the regions head to tail",
+     "explain": "An elongated haploid nucleus sits under the acrosome cap, the neck links on, the middle piece packs mitochondria, and the tail beats for propulsion, all wrapped by a plasma membrane."
+    },
+    {
+     "step": 2,
+     "action": "Tie structure to function",
+     "explain": "Acrosomal enzymes open the route into the ovum, and mitochondrial ATP drives tail motion, making motility possible."
+    },
+    {
+     "step": 3,
+     "action": "Apply the fertility yardsticks",
+     "explain": "A typical ejaculate releases 200-300 million sperms; normal fertility needs at least 60 percent of normal shape and size and at least 40 percent vigorous swimmers, with secretions of epididymis, ducts, seminal vesicle and prostate maturing and moving them."
+    }
+   ]
+  },
+  {
+   "id": "lebo102.2.3.3",
+   "title": "Oogenesis and Follicular Development",
+   "section": "2.3",
+   "definition": "Oogonia multiply only during fetal life, arrest in prophase-I as primary oocytes, and grow wrapped in granulosa cells through primary, secondary, tertiary and Graafian follicle stages, the oocyte finishing meiosis-I unequally so that one large haploid secondary oocyte plus one minute first polar body emerge before ovulation.",
+   "formula": "",
+   "key_idea": "The unequal meiosis-I division parks nearly all cytoplasm in the secondary oocyte, and puberty arrives with each ovary holding only some 60,000-80,000 primary follicles.",
+   "textbook_ref": "lebo102.txt lines 252-293 (oogenesis and follicle stages)",
+   "question_patterns": [
+    "give an account of oogenesis from fetal oogonia to the release of a secondary oocyte",
+    "when does the primary oocyte complete its first meiotic division and what results",
+    "how does a tertiary follicle differ from a secondary follicle",
+    "what marks a Graafian follicle as mature and ready for ovulation",
+    "why is meiosis in oogenesis called an unequal division",
+    "how many primary follicles remain at puberty and why fewer than at birth"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Start in the fetus",
+     "explain": "A couple of million oogonia form in each fetal ovary, enter prophase-I and stall as primary oocytes; no new oogonia appear after birth."
+    },
+    {
+     "step": 2,
+     "action": "Layer the follicle stages",
+     "explain": "Granulosa cells enclose the primary oocyte (primary follicle), more layers plus a theca follow (secondary follicle), then a fluid-filled antrum and theca interna/externa mark the tertiary follicle, which ripens into the Graafian follicle."
+    },
+    {
+     "step": 3,
+     "action": "Run the unequal meiosis-I",
+     "explain": "Inside the tertiary follicle the primary oocyte completes the first meiotic division, keeping the nutrient-rich bulk as a haploid secondary oocyte and pinching off a small first polar body."
+    },
+    {
+     "step": 4,
+     "action": "Prepare for release",
+     "explain": "The secondary oocyte gains a zona pellucida, and rupture of the Graafian follicle at ovulation expels it from the ovary; many follicles simply degenerate along the way."
+    }
+   ]
+  },
+  {
+   "id": "lebo102.2.4.1",
+   "title": "Menstrual Cycle Phases and Hormone Control",
+   "section": "2.4",
+   "definition": "Over an average 28-29 day cycle the uterus passes through a shedding menstrual phase, a rebuilding follicular phase, a mid-cycle ovulation triggered by the LH surge, and a progesterone-rich luteal phase maintained by the corpus luteum.",
+   "formula": "",
+   "key_idea": "The mid-cycle LH peak bursts the Graafian follicle, and whether the corpus luteum persists or decays decides pregnancy or another menstruation.",
+   "textbook_ref": "lebo102.txt lines 300-347 (menstrual cycle section)",
+   "question_patterns": [
+    "list the four phases of the menstrual cycle in order with their events",
+    "which hormone surge causes ovulation and on roughly which day",
+    "what does the corpus luteum secrete and why is that hormone needed",
+    "why does menstruation occur only when the released ovum goes unfertilised",
+    "define menarche and menopause in the context of the cycle",
+    "how do LH and FSH levels change across the follicular phase"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Open with the menstrual phase",
+     "explain": "For three to five days the endometrium and its vessels break down and leave as menstrual flow, which happens only when the ovum was not fertilised."
+    },
+    {
+     "step": 2,
+     "action": "Follow the follicular phase",
+     "explain": "Rising LH and FSH grow a primary follicle into a Graafian follicle while proliferating oestrogen rebuilds the endometrium."
+    },
+    {
+     "step": 3,
+     "action": "Mark the ovulatory spike",
+     "explain": "Around day fourteen the rapid LH maximum, the LH surge, ruptures the follicle and frees the ovum."
+    },
+    {
+     "step": 4,
+     "action": "Close the luteal loop",
+     "explain": "Leftover follicle cells form the corpus luteum pouring out progesterone to hold the endometrium; if fertilisation fails the corpus luteum decays, the lining disintegrates and a new cycle starts, with the whole span bounded by menarche and menopause near age fifty."
+    }
+   ]
+  },
+  {
+   "id": "lebo102.2.5.1",
+   "title": "Fertilisation Site, Acrosome Reaction and Zona Block",
+   "section": "2.5",
+   "definition": "Sperms deposited in the vagina swim through cervix and uterus to the ampullary part of the fallopian tube, where acrosomal enzymes let one sperm pierce the zona pellucida while the membrane changes it triggers shut out every other sperm.",
+   "formula": "",
+   "key_idea": "Contact with the zona pellucida both blocks extra sperms and pushes the secondary oocyte to finish meiosis-II, releasing a second polar body before the nuclei fuse.",
+   "textbook_ref": "lebo102.txt lines 348-373 and 400-407 (fertilisation events)",
+   "question_patterns": [
+    "where in the female body does fertilisation normally occur and why there",
+    "how does the ovum prevent more than one sperm from entering",
+    "what part do acrosomal enzymes play at the moment of fertilisation",
+    "which meiotic division finishes after a sperm enters the ovum",
+    "what is a polar body and how many appear during human fertilisation",
+    "why does conception fail unless sperms and ovum arrive together"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Bring the gametes together",
+     "explain": "After insemination, motile sperms travel cervix, uterus and tube while the ovum is carried to the same ampullary region; timing must coincide."
+    },
+    {
+     "step": 2,
+     "action": "Trigger the zona reaction",
+     "explain": "A sperm touching the zona pellucida induces membrane changes that bar further entries, so only one sperm fertilises the ovum, helped inward by acrosomal secretions."
+    },
+    {
+     "step": 3,
+     "action": "Complete meiosis-II",
+     "explain": "Entry spurs the secondary oocyte's second unequal division, producing the haploid ovum (ootid) plus a second polar body."
+    },
+    {
+     "step": 4,
+     "action": "Fuse the genomes",
+     "explain": "The haploid sperm nucleus and ovum nucleus merge into a diploid zygote of 46 chromosomes."
+    }
+   ]
+  },
+  {
+   "id": "lebo102.2.5.2",
+   "title": "Chromosomal Sex Determination in Humans",
+   "section": "2.5",
+   "definition": "Human females carry XX and males XY, so every ovum donates an X while each sperm carries either an X or a Y in equal measure, making the fertilising sperm -- and hence the father -- the decider of the baby's sex.",
+   "formula": "",
+   "key_idea": "An X-bearing sperm yields an XX zygote that becomes a girl, a Y-bearing sperm yields XY and a boy, with fifty-fifty odds at every conception.",
+   "textbook_ref": "lebo102.txt lines 408-419 (sex determination passage)",
+   "question_patterns": [
+    "why is it scientifically wrong to blame the mother for the sex of her child",
+    "what sex chromosome does a human egg always carry",
+    "explain how an XX zygote differs from an XY zygote in its outcome",
+    "what share of a man's sperms carry the Y chromosome",
+    "at which point in reproduction is the sex of the baby fixed",
+    "describe the chromosomal basis of sex determination in human beings"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Fix the parental genotypes",
+     "explain": "Females are XX and males XY, so ova are uniformly X while sperms split evenly between X and Y."
+    },
+    {
+     "step": 2,
+     "action": "Read the zygote combination",
+     "explain": "The zygote is XX if an X sperm won, XY if a Y sperm did, decided the instant the gametes fuse."
+    },
+    {
+     "step": 3,
+     "action": "Assign the responsibility",
+     "explain": "Because only the father's gamete varies, the sex of the baby is determined by the father, not the mother, and each pregnancy is a fresh fifty-fifty event."
+    }
+   ]
+  },
+  {
+   "id": "lebo102.2.5.3",
+   "title": "Cleavage, Morula, Blastocyst and Implantation",
+   "section": "2.5",
+   "definition": "As the zygote rides the isthmus toward the uterus it divides mitotically into 2, 4, 8 and 16 blastomeres, forms a morula, then hollows into a blastocyst whose trophoblast layer sticks to and sinks into the endometrium in implantation.",
+   "formula": "",
+   "key_idea": "The outer trophoblast handles attachment while the inner cell mass becomes the embryo proper, and embedding in the endometrium marks the start of pregnancy.",
+   "textbook_ref": "lebo102.txt lines 420-436 (cleavage to implantation passage)",
+   "question_patterns": [
+    "what is a morula and how many cells does it contain roughly",
+    "name the two cell groups of a blastocyst and state what each becomes",
+    "define implantation and say where it happens",
+    "which type of division turns the zygote into blastomeres during cleavage",
+    "trace the embryo's journey from the ampulla to its embedding site",
+    "how does the blastocyst differ from the morula in structure"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Count the early cleavages",
+     "explain": "Mitotic divisions during transit through the isthmus yield daughter cells called blastomeres in the series 2, 4, 8, 16."
+    },
+    {
+     "step": 2,
+     "action": "Recognise the morula stage",
+     "explain": "The 8-to-16-cell solid ball travelling toward the uterus is the morula."
+    },
+    {
+     "step": 3,
+     "action": "Transform to a blastocyst",
+     "explain": "Further division and rearrangement produce a blastocyst with an outer trophoblast and an inner cell mass attached to it."
+    },
+    {
+     "step": 4,
+     "action": "Achieve implantation",
+     "explain": "The trophoblast attaches to the endometrium, uterine cells overgrow it, and the blastocyst sinks in, the event that begins pregnancy while the inner cell mass differentiates as the embryo."
+    }
+   ]
+  },
+  {
+   "id": "lebo102.2.6.1",
+   "title": "Placenta: Structure, Functions and Hormones",
+   "section": "2.6",
+   "definition": "Chorionic villi of the trophoblast interlock with uterine tissue to build the placenta, a dual organ that trades oxygen, nutrients, carbon dioxide and wastes between mother and foetus through the umbilical cord while secreting hCG, hPL, oestrogens and progestogens.",
+   "formula": "",
+   "key_idea": "The placenta works as the foetus's gut, lungs and kidney and as an endocrine gland, with hCG, hPL and relaxin appearing only in pregnancy.",
+   "textbook_ref": "lebo102.txt lines 437-466 (placenta and pregnancy hormones)",
+   "question_patterns": [
+    "how is the placenta formed from chorionic villi and uterine tissue",
+    "list the substances the placenta passes between mother and foetus",
+    "name the hormones the placenta secretes and one produced only during pregnancy",
+    "what is the role of the umbilical cord",
+    "why is the placenta called both a structural and a functional unit",
+    "which hormone relaxes pelvic tissues in late pregnancy and where is it made"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Assemble the organ",
+     "explain": "Finger-like chorionic villi sprout from the trophoblast after implantation and interdigitate with maternal uterine tissue and blood."
+    },
+    {
+     "step": 2,
+     "action": "List the exchange duties",
+     "explain": "Oxygen and nutrients cross to the embryo; carbon dioxide and nitrogenous wastes return, all ferried by the umbilical cord."
+    },
+    {
+     "step": 3,
+     "action": "Add the endocrine output",
+     "explain": "The placenta releases hCG, hPL, oestrogens and progestogens, the ovary adds relaxin later, and hCG, hPL and relaxin are exclusive to pregnancy, while maternal oestrogen, cortisol, prolactin and thyroxine also rise severalfold."
+    }
+   ]
+  },
+  {
+   "id": "lebo102.2.6.2",
+   "title": "Germ Layers, Stem Cells and Gestation Milestones",
+   "section": "2.6",
+   "definition": "The implanted inner cell mass sorts into ectoderm, endoderm and then mesoderm -- three layers that build every adult tissue and include potent stem cells -- and the nine-month pregnancy hits signature landmarks such as the heart at one month and major organs by twelve weeks.",
+   "formula": "",
+   "key_idea": "By the end of the first trimester most organ systems exist; hair and first movements show around month five, and fine hair plus separated eyelids mark 24 weeks.",
+   "textbook_ref": "lebo102.txt lines 467-494 (germ layer differentiation and month-wise development)",
+   "question_patterns": [
+    "name the three germ layers in the order they appear and what each yields",
+    "which cells of the embryo can form every tissue and organ",
+    "state one milestone of human development at the end of each month of the first trimester",
+    "when do the first foetal movements and head hair usually appear",
+    "what changes mark the end of the second trimester",
+    "how long does a human pregnancy last and when is the foetus fully ready"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sort the layers",
+     "explain": "Right after implantation the embryo splits into outer ectoderm and inner endoderm, with mesoderm wedging between; these three generate all adult tissues."
+    },
+    {
+     "step": 2,
+     "action": "Flag the stem cells",
+     "explain": "Within the inner cell mass reside stem cells able to give rise to every tissue and organ of the body."
+    },
+    {
+     "step": 3,
+     "action": "Walk the calendar",
+     "explain": "Heart forms by one month; limbs and digits by two; most organ systems, limbs and external genitalia by twelve weeks; first movements and scalp hair about month five; fine hair, separated eyelids and lashes by 24 weeks; full readiness at nine months."
+    }
+   ]
+  },
+  {
+   "id": "lebo102.2.7.1",
+   "title": "Parturition Reflex and Lactation",
+   "section": "2.7",
+   "definition": "Childbirth opens with the foetal ejection reflex -- signals from the mature foetus and placenta triggering mild uterine contractions -- which drives a self-reinforcing oxytocin loop until the baby and then the placenta are expelled, after which colostrum-then-milk feeding begins.",
+   "formula": "",
+   "key_idea": "Uterine contraction and oxytocin secretion feed each other in a positive spiral, and the first milk, colostrum, hands the newborn a dose of antibodies.",
+   "textbook_ref": "lebo102.txt lines 495-518 (parturition and lactation sections)",
+   "question_patterns": [
+    "explain the neuroendocrine mechanism that induces parturition",
+    "what is the foetal ejection reflex and which hormone answers it",
+    "why do uterine contractions keep growing stronger during labour",
+    "what is colostrum and why is it valuable to the newborn",
+    "define the gestation period of a human pregnancy",
+    "which organ is expelled right after the baby during delivery"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Trace the starting signal",
+     "explain": "Fully developed foetus and placenta send signals that begin mild uterine contractions, the foetal ejection reflex."
+    },
+    {
+     "step": 2,
+     "action": "Run the oxytocin feedback",
+     "explain": "The reflex prompts the maternal pituitary to release oxytocin, which hardens the contractions, which in turn call for more oxytocin -- an escalating loop."
+    },
+    {
+     "step": 3,
+     "action": "Finish delivery and feeding",
+     "explain": "Escalating contractions push the baby out through the birth canal, the placenta follows, and the mammary glands, already differentiated, start milk secretion whose first days' colostrum carries protective antibodies."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_lebo102_1",
+   "source_ref": "lebo102.txt lines 187-204 (spermatogenesis cell stages)",
+   "concept": "lebo102.2.3.1",
+   "question_type": "compute",
+   "question_pattern": "A seminiferous tubule has {primary_spermatocytes} primary spermatocytes entering meiosis. How many haploid spermatids will they finally yield?",
+   "extracted_variables": {
+    "primary_spermatocytes": 50
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Meiosis-I doubling",
+     "explain": "Each of the 50 primary spermatocytes divides reductionally into 2 secondary spermatocytes, giving 100.",
+     "compute": "secondary_spermatocytes = primary_spermatocytes * 2"
+    },
+    {
+     "step": 2,
+     "action": "Meiosis-II doubling",
+     "explain": "Every secondary spermatocyte splits equationally into 2 spermatids, so 100 * 2 = 200.",
+     "compute": "spermatids = secondary_spermatocytes * 2"
+    },
+    {
+     "step": 3,
+     "action": "State the yield",
+     "explain": "Four spermatids per starting primary spermatocyte: 50 * 4 = 200.",
+     "compute": "result = spermatids"
+    }
+   ]
+  },
+  {
+   "id": "we_lebo102_2",
+   "source_ref": "lebo102.txt lines 313-344 (cycle phases and LH surge)",
+   "concept": "lebo102.2.4.1",
+   "question_type": "verify_property",
+   "question_pattern": "A woman's hormone profile shows LH peaking sharply around day fourteen. Name the event this surge causes and the structure and secretion that dominate the following phase.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Read the surge",
+     "explain": "The mid-cycle maximum of LH is the trigger that ruptures the mature Graafian follicle."
+    },
+    {
+     "step": 2,
+     "action": "Name the event",
+     "explain": "Rupture releases the ovum -- ovulation, marking the ovulatory phase about day fourteen."
+    },
+    {
+     "step": 3,
+     "action": "Name the luteal sequel",
+     "explain": "The emptied follicle becomes the corpus luteum, whose heavy progesterone output keeps the endometrium ready for implantation."
+    }
+   ]
+  },
+  {
+   "id": "we_lebo102_3",
+   "source_ref": "lebo102.txt lines 408-419 (sex determination passage)",
+   "concept": "lebo102.2.5.2",
+   "question_type": "verify_property",
+   "question_pattern": "A couple's newborn is a boy. Using the chromosomal basis of sex determination, show why the father's gamete decided this and not the mother's.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "State the parental contributions",
+     "explain": "The mother's ovum always carries an X; the father's sperms are half X and half Y."
+    },
+    {
+     "step": 2,
+     "action": "Read the winning sperm",
+     "explain": "A boy means a Y-bearing sperm fertilised the X ovum, producing an XY zygote."
+    },
+    {
+     "step": 3,
+     "action": "Draw the conclusion",
+     "explain": "Since the ovum's contribution never varies, the sperm's sex chromosome alone decides, so responsibility lies with the father."
+    }
+   ]
+  },
+  {
+   "id": "we_lebo102_4",
+   "source_ref": "lebo102.txt lines 437-451 (placenta formation and functions)",
+   "concept": "lebo102.2.6.1",
+   "question_type": "verify_property",
+   "question_pattern": "List what crosses the placenta toward the foetus and what returns to the mother, and name one placental hormone unique to pregnancy.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Sort the outbound freight",
+     "explain": "Oxygen and nutrients travel from maternal blood through the placenta and umbilical cord to the embryo."
+    },
+    {
+     "step": 2,
+     "action": "Sort the returns",
+     "explain": "Carbon dioxide and nitrogenous wastes from the embryo pass back into maternal circulation for disposal."
+    },
+    {
+     "step": 3,
+     "action": "Add the hormonal role",
+     "explain": "Placental tissue also secretes hCG, hPL, oestrogens and progestogens; hCG is produced only during pregnancy."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_lebo102_1",
+   "source_ref": "lebo102.txt lines 564-614 (end-of-chapter exercises 1-15, reworded)",
+   "questions": [
+    "Are humans oviparous or viviparous, and is human fertilisation internal or external?",
+    "Give two chief functions each of the testis and the ovary.",
+    "Describe the histology of a cross section of a seminiferous tubule.",
+    "Outline the stages of spermatogenesis and say which divisions are meiotic.",
+    "Which hormones regulate sperm production, and on which cells does each act?",
+    "Define spermiogenesis and spermiation in one line each.",
+    "Sketch and label a mature human sperm.",
+    "What does seminal plasma contain and which glands supply it?",
+    "Give a brief account of oogenesis, noting where the oocyte arrests before puberty.",
+    "State one function each of the corpus luteum, endometrium, acrosome, sperm tail and fimbriae.",
+    "Which hormone triggers the release of the ovum from a ripe follicle?",
+    "Where exactly does fertilisation take place in the female tract?"
+   ]
+  },
+  {
+   "id": "ex_lebo102_2",
+   "source_ref": "lebo102.txt lines 615-647 (end-of-chapter exercises 16-21, reworded)",
+   "questions": [
+    "Judge each claim and correct the false ones: androgens come from Sertoli cells; Leydig cells occur in the ovary; oogenesis happens in the corpus luteum; menstrual cycles pause during pregnancy.",
+    "What is the menstrual cycle and which hormones steer it?",
+    "Define parturition and name the hormones that bring it on.",
+    "Explain, on chromosomal grounds, why mothers are wrongly blamed for the birth of daughters.",
+    "How many ova leave a human ovary per month, and how many were released if the mother bore identical twins -- would the count differ for fraternal twins?",
+    "A female dog delivered six puppies; estimate how many ova her ovaries released."
+   ]
+  }
+ ]
 }

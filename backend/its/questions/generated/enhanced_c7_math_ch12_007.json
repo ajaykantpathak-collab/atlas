@@ -34,6 +34,21 @@
      "q": "Construct an estimation check for the decimal multiplication problem $79.3 \\times 0.52$. Explain how front-end estimation or rounding helps you predict the magnitude of the answer before computing.\nA) Round 79.3 to 80 and 0.52 to 0.5 (or $1/2$). Then $80 \\times 0.5 = 40$. This predicts the exact answer will be around 40, specifically half of 79.3.\nB) Round both numbers up to 100 and 1, getting 100.\nC) Ignore decimals and multiply $793 \\times 52$.\nD) Add the numbers instead of multiplying.",
      "a": "The correct answer is A. A good response demonstrates rounding 79.3 to 80 and 0.52 to $0.5$ ($1/2$), recognizing that multiplying by $0.5$ is taking half, yielding an estimate of 40. A poor answer ignores decimal scaling or attempts exact calculation without estimation principles.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Estimation and verification in decimal operations involve rounding numbers before ______ to predict an approximate result (estimation) and using reverse operations or alternative methods to check the exactness of the calculated result (verification).",
+     "a": "calculating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying 3.8 ______ of potatoes at ₹24.50 per kg, and the vegetable vendor asks for ₹205.00.",
+     "a": "kilograms",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can estimate decimal sums, differences, products, and quotients by rounding to appropriate place values, perform the exact computation, and verify the reasonableness of the result using inverse operations or order of magnitude checks.",
+     "self_check": true
     }
    ]
   }

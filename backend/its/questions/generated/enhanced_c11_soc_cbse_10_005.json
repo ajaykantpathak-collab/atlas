@@ -34,6 +34,26 @@
      "q": "Design a 5-question survey that a researcher could use in a village to test whether Ghurye's six features are still empirically observable. Each question must target a *specific* feature (name it) and yield measurable data (yes/no, frequency, ranking). Provide the feature name and the exact survey question for each.",
      "a": "1. Segmental division: \"Is your caste membership determined solely by birth, with no possibility of change?\" (Yes/No)\n2. Hierarchical division: \"Rank these five local castes from highest to lowest ritual status.\" (Ordinal ranking)\n3. Restrictions on social interaction: \"In the past year, have you shared a cooked meal in the home of someone from a different caste?\" (Yes/No + frequency)\n4. Differential rights/duties: \"Are there temple rituals or village council decisions in which your caste cannot participate?\" (Yes/No + specify)\n5. Hereditary occupation: \"Is your current occupation the same as your father's/grandfather's traditional caste occupation?\" (Yes/No)\n6. Endogamy/exogamy: \"Was your spouse from the same caste? Were they from the same gotra or village?\" (Same caste: Yes/No; Same gotra/village: Yes/No)\nA poor answer uses vague questions like \"Do you believe in caste?\" which measure attitudes, not structural features — missing Ghurye's insistence on *institutional* observability.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ghurye's definition of caste identifies six structural features: (1) segmental division into closed, birth-ascribed compartments; (2) hierarchical ranking where every caste is strictly superior or inferior to others; (3) restrictions on social interaction governed by purity-pollution rules including food sharing and ______; (4) differential rights and duties across religious and secular domains; (5) hereditary occupation functioning as a rigid division of labour; and (6) endogamy combined with exogamy rules that reproduce caste boundaries through marriage regulation.",
+     "a": "untouchability",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are watching a ______ wedding where the bride's family refuses to serve food to the groom's relatives because they belong to a different caste — even though both families are wealthy landowners.",
+     "a": "village",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can accurately list all six features of Ghurye's caste definition with precise terminology, explain the Risley-Ghurye debate on race and caste including Ghurye's regional qualification (North India vs. rest of India), and apply this framework to analyze a contemporary caste scenario by identifying which features are operating.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are watching a village wedding where the bride's family refuses to serve food to the groom's relatives because they belong to a different caste — even though both families are wealthy ______.",
+     "a": "landowners",
+     "self_check": true
     }
    ]
   }

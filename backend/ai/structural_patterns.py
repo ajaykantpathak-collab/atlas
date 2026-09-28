@@ -667,6 +667,70 @@ class ArithmeticPattern(StructuralPattern):
 # PATTERN 6: SPEED/DISTANCE/TIME
 # ═══════════════════════════════════════════════════════════════════════
 
+# ── Multi-leg journeys ──────────────────────────────────────────────────
+# A journey given in more than one leg ("covers 150 km in 2 hours and
+# 180 km in 2 hours") has exactly ONE average speed over the whole trip.
+# Reading only the first leg answers a different question than the one
+# asked and returns a confidently wrong number (75 instead of 82.5), so
+# the legs are summed and divided once.
+#
+# The lookahead keeps "60 km/h" out of the distance scan: that number is a
+# speed, and treating it as a leg distance is how these questions go wrong.
+# A bare "m" only counts as metres when it is a standalone unit — otherwise
+# it matches the "m" of "90 minutes" and invents a leg that is not there.
+_SPD_DIST_RE = re.compile(
+    r"(\d+(?:\.\d+)?)\s*"
+    r"(?:km|kilometres?|kilometers?|miles?|metres?|meters?|(?<![a-z])m(?![a-z]))"
+    r"(?!\s*/\s*(?:h|hr|hrs|hour|hours|s|sec|secs|second|seconds)\b)",
+    re.IGNORECASE,
+)
+_SPD_TIME_RE = re.compile(
+    r"(\d+(?:\.\d+)?)\s*(hours?|hrs?|h|minutes?|mins?|seconds?|secs?)",
+    re.IGNORECASE,
+)
+_SPD_TIME_SCALE = {
+    "h": 1.0, "hr": 1.0, "hrs": 1.0, "hour": 1.0, "hours": 1.0,
+    "min": 1.0 / 60.0, "mins": 1.0 / 60.0, "minute": 1.0 / 60.0, "minutes": 1.0 / 60.0,
+    "s": 1.0 / 3600.0, "sec": 1.0 / 3600.0, "secs": 1.0 / 3600.0,
+    "second": 1.0 / 3600.0, "seconds": 1.0 / 3600.0,
+}
+
+
+def _speed_legs(text: str):
+    """Pair each distance with the time that follows it.
+
+    Returns [(distance, time_in_hours), ...] only when the text
+    unambiguously describes at least two complete legs. Anything vaguer
+    returns [] so the caller falls through to the single-leg path rather
+    than inventing a total from a partial reading.
+    """
+    dists = list(_SPD_DIST_RE.finditer(text))
+    times = list(_SPD_TIME_RE.finditer(text))
+    if len(dists) < 2 or len(dists) != len(times):
+        return []
+
+    legs = []
+    used = set()
+    for d in dists:
+        # The time belonging to this leg is the next unused one after it.
+        nxt = next(
+            (t for t in times if t.start() > d.end() - 1 and id(t) not in used),
+            None,
+        )
+        if nxt is None:
+            return []  # a distance with no time of its own — not leg data
+        used.add(id(nxt))
+        scale = _SPD_TIME_SCALE.get(nxt.group(2).lower())
+        if scale is None:
+            return []
+        distance = float(d.group(1))
+        hours = float(nxt.group(1)) * scale
+        if distance < 0 or hours <= 0:
+            return []
+        legs.append((distance, hours))
+    return legs
+
+
 class SpeedDistanceTimePattern(StructuralPattern):
     """Match: speed = distance/time, distance = speed×time, time = distance/speed"""
     
@@ -685,7 +749,34 @@ class SpeedDistanceTimePattern(StructuralPattern):
     def extract(self, parsed: ParsedQuestion, question: str) -> PatternResult:
         result = PatternResult(matched=True, concept=self.concept)
         lower = question.lower()
-        
+
+        # ── Multi-leg journey: asked for a speed over the WHOLE trip ──
+        # Must run before the single-leg scan below, which would read only
+        # the first distance and the first time and answer a different
+        # question than the one asked.
+        if "speed" in lower:
+            legs = _speed_legs(lower)
+            if len(legs) >= 2:
+                total_d = sum(d for d, _ in legs)
+                total_t = sum(t for _, t in legs)
+                result.variables["D"] = total_d
+                result.variables["T"] = total_t
+                result.variables["legs"] = len(legs)
+                # D/T stays the formula, so the shared generic evaluator
+                # computes it; the totals are what the answer must reflect.
+                result.formula = "D / T"
+                result.answer_template = (
+                    "Average speed = total distance / total time "
+                    "= {D} / {T} = {result} km/h"
+                )
+                result.steps = [
+                    f"Legs: {len(legs)}",
+                    "Total distance = {D} km",
+                    "Total time = {T} h",
+                    "Average speed = total distance / total time = {result} km/h",
+                ]
+                return result
+
         # Extract distance
         d = None
         for pat in [r'(\d+\.?\d*)\s*km', r'distance\s*(?:of\s+)?(?:is\s+)?(\d+\.?\d*)', r'travels?\s+(\d+\.?\d*)']:
@@ -843,6 +934,67 @@ class StatisticsPattern(StructuralPattern):
 # PATTERN 9: SEQUENCES (AP/GP)
 # ═══════════════════════════════════════════════════════════════════════
 
+# "How many terms ... up to <L>" asks for a COUNT, not for the value of a
+# term. The nth-term formula answers a different question than the one
+# asked, and with no n given it evaluates to the unevaluated shape
+# '8.0*n + 3.0' rather than to a number.
+_SEQ_COUNT_ASK_RE = re.compile(
+    r"\b(?:how\s+many|number\s+of|no\.?\s+of|total\s+number\s+of|count\s+of)\s+"
+    r"(?:the\s+)?terms?\b"
+    r"|\bterms?\s+(?:are\s+there|does\s+it\s+have|in\s+total)\b",
+    re.IGNORECASE,
+)
+# The bound the sequence runs up to: "up to 123", "last term 123", ...
+_SEQ_UPPER_BOUND_RE = re.compile(
+    r"(?:up\s*to|upto|till|until|last\s+term|final\s+term|ends?\s+(?:at|with))\s*"
+    r"(?:is\s+|of\s+|be\s+)?[:=]?\s*\(?\s*(-?\d+(?:\.\d+)?)",
+    re.IGNORECASE,
+)
+
+
+def _sequence_term_count(lower: str, seq_type: str, variables: dict):
+    """Number of terms from a first term and an upper bound, or None.
+
+    AP: a + (n-1)d = L  =>  n = (L - a)/d + 1. The trailing +1 is the whole
+    point — (L - a)/d is the number of STEPS, and dropping it undercounts
+    by one.
+
+    Only an exact whole number is returned. A non-integer n means the
+    bound is not actually a term of this sequence, and a fractional term
+    count is worse than declining.
+    """
+    if not _SEQ_COUNT_ASK_RE.search(lower):
+        return None
+    bound_m = _SEQ_UPPER_BOUND_RE.search(lower)
+    if not bound_m:
+        return None
+    try:
+        limit = float(bound_m.group(1))
+    except (TypeError, ValueError):
+        return None
+    a = variables.get("a")
+    if a is None:
+        return None
+
+    if seq_type == "ap":
+        d = variables.get("d")
+        if not d:
+            return None  # d == 0 is not a progression with a finite end
+        n = (limit - a) / d + 1
+    elif seq_type == "gp":
+        r = variables.get("r")
+        if not r or r <= 0 or a <= 0 or limit <= 0:
+            return None
+        n = math.log(limit / a) / math.log(r) + 1
+    else:
+        return None
+
+    nearest = round(n)
+    if nearest < 1 or abs(n - nearest) > 1e-9:
+        return None
+    return int(nearest)
+
+
 class SequencePattern(StructuralPattern):
     """Match: nth term or sum of AP/GP"""
     
@@ -894,6 +1046,46 @@ class SequencePattern(StructuralPattern):
                 else:
                     result.missing["type"] = "Is this an arithmetic or geometric progression?"
         
+        # ── "How many terms ... up to L" asks for a COUNT ──
+        # Runs before the nth-term and sum branches: both answer a
+        # different question than the one asked, and the nth-term branch
+        # produces an unevaluated 'a + (n-1)*d' shape when no n is given.
+        seq_type = result.variables.get("type", "")
+        count = _sequence_term_count(lower, seq_type, result.variables)
+        if count is not None:
+            a_val = result.variables.get("a")
+            d_val = result.variables.get("d")
+            r_val = result.variables.get("r")
+            bound_m = _SEQ_UPPER_BOUND_RE.search(lower)
+            limit = bound_m.group(1) if bound_m else "?"
+            if seq_type == "ap":
+                result.formula = f"({limit} - {a_val}) / {d_val} + 1"
+                result.answer_template = (
+                    f"n = ({limit} - a)/d + 1 = ({limit} - {a_val})/{d_val} + 1"
+                    " = {result} terms"
+                )
+                result.steps = [
+                    f"Type: AP",
+                    f"First term a = {a_val}",
+                    f"Common difference d = {d_val}",
+                    f"Last term = {limit}",
+                    f"n = ({limit} - {a_val})/{d_val} + 1 = {{result}} terms",
+                ]
+            else:
+                result.formula = f"log({limit} / {a_val}) / log({r_val}) + 1"
+                result.answer_template = (
+                    f"n = log({limit}/a)/log(r) + 1 = log({limit}/{a_val})/log({r_val}) + 1"
+                    " = {result} terms"
+                )
+                result.steps = [
+                    f"Type: GP",
+                    f"First term a = {a_val}",
+                    f"Common ratio r = {r_val}",
+                    f"Last term = {limit}",
+                    f"n = log({limit}/{a_val})/log({r_val}) + 1 = {{result}} terms",
+                ]
+            return result
+
         # Extract n (term number)
         n_match = re.search(r'(\d+)(?:st|nd|rd|th)\s+term', lower)
         if n_match:
@@ -1120,9 +1312,72 @@ class FactorialPattern(StructuralPattern):
 # ═══════════════════════════════════════════════════════════════════════
 
 class HCFLCMPattern(StructuralPattern):
-    """Match: HCF/LCM of [numbers]"""
+    """Match: HCF/LCM of [numbers]
+
+    Decides WHICH quantity was asked for, not merely which word appears in the
+    text. "Find the LCM of 50 and 70 given their HCF is 10" names both, and the
+    answer owed is 350. A word-order test (HCF checked first) answers 10 there:
+    the wrong quantity, and for an LCM ask also the wrong value. That is a
+    confident wrong answer, which is worse than declining.
+    """
     
     concept = "hcf_lcm"
+    
+    # Mirrors pattern_solver._ASKED_RE, with one addition: an optional
+    # intervening determiner/possessive, so "find THEIR lcm" is read as an LCM
+    # ask. Without it that question names both quantities with no bare "the" to
+    # anchor on, and the pattern declines instead of answering 350.
+    #
+    # Duplicated rather than imported because pattern_solver imports this
+    # module, so importing back would be circular. The two must stay in step:
+    # the solver's gate compares its own reading of the question against the
+    # question_type emitted here, and any disagreement makes it throw a
+    # correct answer away.
+    _ASKED_RE = re.compile(
+        r"(?:find|compute|calculate|what\s+is|determine|then\s+find|give\s+me)\s+"
+        r"(?:the\s+|their\s+|its\s+|of\s+them\s+)*"
+        r"(lcm|hcf|gcd|greatest\s+common\s+divisor|least\s+common\s+multiple)\b",
+        re.IGNORECASE,
+    )
+    
+    @staticmethod
+    def _asked_quantity(lower: str):
+        """'hcf' or 'lcm' when the question says which it wants, else None."""
+        m = HCFLCMPattern._ASKED_RE.search(lower or "")
+        if not m:
+            return None
+        target = " ".join(m.group(1).lower().split())
+        return "lcm" if target in ("lcm", "least common multiple") else "hcf"
+    
+    # The operands the HCF/LCM is OF, most specific first. Taking every integer
+    # in the string instead drags in a stated-given ("their HCF is 10") and
+    # unrelated workings ("multipliers 5 and 7"), which is how this once
+    # answered HCF = 1 for two numbers whose HCF is 10.
+    #
+    # The capture is a whole CHAIN of numbers, not a pair, so a genuine
+    # three-number question ("LCM of 12, 18 and 24" = 72) keeps all three. The
+    # surrounding word anchor is what stops the chain at the right place.
+    _CHAIN = r"(\d+(?:\s*(?:,|\band\b)\s*\d+)+)"
+    _OPERAND_RES = (
+        re.compile(r"(?:two\s+)?numbers?\s+" + _CHAIN, re.IGNORECASE),
+        re.compile(
+            r"(?:hcf|lcm|gcd|common\s+(?:factor|multiple|divisor))\s*(?:of\s*)?"
+            + _CHAIN,
+            re.IGNORECASE,
+        ),
+        re.compile(_CHAIN),
+    )
+    
+    @staticmethod
+    def _operands(lower: str):
+        """The integers the HCF/LCM is OF, in order. Empty if not identifiable."""
+        for rx in HCFLCMPattern._OPERAND_RES:
+            m = rx.search(lower or "")
+            if m:
+                nums = [int(x) for x in re.findall(r"\d+", m.group(1))]
+                if len(nums) >= 2 and all(n > 1 for n in nums):
+                    return nums
+        return []
     
     def match(self, parsed: ParsedQuestion) -> bool:
         lower = parsed.raw.lower()
@@ -1135,24 +1390,48 @@ class HCFLCMPattern(StructuralPattern):
         result = PatternResult(matched=True, concept=self.concept)
         lower = question.lower()
         
-        numbers = [int(n) for n in re.findall(r'(\d+)', lower) if int(n) > 1]
-        # Filter to reasonable numbers (not class levels)
-        if len(numbers) >= 2:
-            result.variables["numbers"] = numbers
-        else:
+        nums = self._operands(lower)
+        if not nums:
             result.missing["numbers"] = "Which numbers?"
             return result
+        result.variables["a"] = nums[0]
+        result.variables["b"] = nums[1]
+        result.variables["numbers"] = nums
         
-        if "hcf" in lower or "gcf" in lower or "gcd" in lower or "highest common factor" in lower:
-            result.variables["op"] = "hcf"
+        # WHICH quantity was asked for. The ask verb wins over mere word
+        # presence, so a question that mentions HCF only as a given still gets
+        # its LCM. Only if the question names no target at all do we fall back
+        # to the words present.
+        op = self._asked_quantity(lower)
+        if op is None:
+            has_hcf = ("hcf" in lower or "gcf" in lower or "gcd" in lower
+                       or "highest common factor" in lower)
+            has_lcm = "lcm" in lower or "least common multiple" in lower
+            if has_lcm and not has_hcf:
+                op = "lcm"
+            elif has_hcf and not has_lcm:
+                op = "hcf"
+            else:
+                # Both or neither, and no explicit ask: genuinely ambiguous.
+                # Decline rather than guess a quantity.
+                result.matched = False
+                result.missing["quantity"] = "HCF or LCM?"
+                return result
+        
+        result.variables["op"] = op
+        if op == "hcf":
             result.formula = "math.gcd_reduce(numbers)"
             result.answer_template = "HCF = {result}"
-        elif "lcm" in lower:
-            result.variables["op"] = "lcm"
+        else:
             result.formula = "math.lcm_reduce(numbers)"
             result.answer_template = "LCM = {result}"
         
-        result.steps = [f"Numbers: {numbers}", f"Calculate: {result.variables.get('op', '?')}", "Result = {result}"]
+        label = op.upper()
+        result.steps = [
+            f"Asked for: {label}",
+            f"Numbers: {nums}",
+            f"{label} of {nums} = {{result}}",
+        ]
         return result
 
 
@@ -1342,8 +1621,91 @@ class LinearEquationPattern(StructuralPattern):
 # PATTERN 17: ALGEBRA - QUADRATIC EQUATION
 # ═══════════════════════════════════════════════════════════════════════
 
+# ── Evaluating a polynomial at a point (as opposed to solving it) ───────────
+#
+# "Find the value of the polynomial 2x^2 + 2x + 6 at x = 3" asks for a
+# SUBSTITUTION. It was being handed to the quadratic solver, which looks for
+# ROOTS of the expression and finds none, so a question with a perfectly good
+# answer of 30 declined outright. Substituting is a different question, and it
+# is recognised as its own case here.
+#
+# The expression is validated against a closed character set BEFORE it is
+# evaluated: digits, `x`, brackets and the four arithmetic operators. Nothing in
+# that set can name, call or index anything, so the only variable the expression
+# can reach is the `x` bound for it. The length cap stops 2^99999999 from
+# stalling the solver. Anything that does not evaluate cleanly returns None and
+# the pattern declines, which is the intended outcome: an unanswered question
+# falls through to the next pattern, whereas a confident wrong number is served
+# to a student as if it were the answer.
+_POLY_ALLOWED_RE = re.compile(r'^[0-9x.()^*+\-\s]+$')
+_POLY_MAX_CHARS = 80
+# Mathematics writes multiplication implicitly ("2x", "(x+1)(x+2)"), but Python
+# does not, so those are expanded before evaluation. Both operands are drawn
+# from the allowed set above, which is what makes this expansion safe.
+_POLY_IMPLICIT_RE = re.compile(
+    r'(?<=[\d)])(?=[x(])|(?<=[x)])(?=[\d(])|(?<=x)(?=\()'
+)
+
+# "value of the polynomial ... at x = 3", also "when x = 2" / "for x = -1".
+_POLY_AT_RE = re.compile(
+    r'(?:value|values)\s+of\s+(?:the\s+)?'
+    r'(?:polynomial|expression|function|quadratic)\b'
+    r'([^=]*?)\b(?:at|when|for|if)\s+x\s*=\s*(-?\d+(?:\.\d+)?)',
+    re.IGNORECASE,
+)
+
+
+def _fmt_num(v) -> str:
+    """Render 4.0 as "4" and 6.0 as "6", keeping genuine decimals as they are.
+
+    Power and ratio work is done in exact integers internally, and printing the
+    float they came from as "4.0" makes a correct answer look like a rounded
+    approximation.
+    """
+    f = float(v)
+    return str(int(f)) if f.is_integer() else str(f)
+
+
+def _polynomial_at_point(question: str):
+    """(expression, x_value, value) for an "evaluate at a point" question.
+
+    Returns None when the question is not of that shape, or when the expression
+    is not one of the plain, single-variable polynomials this evaluator
+    understands. It deliberately does not try to cover products of brackets,
+    reciprocals or nested functions -- those belong to the solver, and guessing
+    at them here is how a wrong answer gets served.
+    """
+    m = _POLY_AT_RE.search(question or '')
+    if not m:
+        return None
+    expr = m.group(1).strip().strip('?.').strip()
+    if not expr or len(expr) > _POLY_MAX_CHARS or not _POLY_ALLOWED_RE.match(expr):
+        return None
+    try:
+        x_value = float(m.group(2))
+    except (TypeError, ValueError):
+        return None
+    try:
+        py = _POLY_IMPLICIT_RE.sub('*', expr.replace('^', '**'))
+        value = eval(py, {"__builtins__": {}, "x": x_value}, {})
+    except Exception:
+        return None
+    if isinstance(value, bool) or not isinstance(value, (int, float)):
+        return None
+    if isinstance(value, float):
+        if value != value or value in (float('inf'), float('-inf')):
+            return None
+        if value.is_integer():
+            value = int(value)
+    return expr, x_value, value
+
+
 class QuadraticEquationPattern(StructuralPattern):
-    """Match: solve quadratic ax^2 + bx + c = 0, find roots"""
+    """Match: solve quadratic ax^2 + bx + c = 0, find roots.
+
+    Also covers the neighbouring request "find the value of the polynomial ...
+    at x = n", which is a substitution rather than a solve.
+    """
     
     concept = "quadratic_equation"
     
@@ -1361,10 +1723,33 @@ class QuadraticEquationPattern(StructuralPattern):
         has_eq = "=" in parsed.raw
         has_squared = bool(re.search(r'[a-z]\s*\^\s*2|[a-z]2\s*[+\-]|x\s*\*\*\s*2', parsed.raw.lower()))
         has_solve = "solve" in lower or "find" in lower or "roots" in lower or "what" in lower
-        return has_eq and has_squared and has_solve
+        # "the value of the polynomial ... at x = n" is a substitution. The "="
+        # it contains belongs to "x = n", not to an equation to be solved, so
+        # requiring has_eq alone would let this be answered as a solve.
+        if has_eq and has_squared and has_solve:
+            return True
+        return has_squared and has_solve and _polynomial_at_point(parsed.raw) is not None
     
     def extract(self, parsed: ParsedQuestion, question: str) -> PatternResult:
         result = PatternResult(matched=True, concept=self.concept)
+        
+        # Substitution first: a polynomial evaluated at a point is NOT a solve,
+        # and handing it to the root finder below asks for something the
+        # question never wanted (and finds nothing).
+        evaluated = _polynomial_at_point(question)
+        if evaluated is not None:
+            expr, x_value, value = evaluated
+            result.concept = "polynomial"
+            result.variables["expression"] = expr
+            result.variables["x_value"] = x_value
+            result.variables["_direct_answer"] = value
+            result.answer_template = f"{expr} at x = {_fmt_num(x_value)} = {{result}}"
+            result.steps = [
+                f"Substitute x = {_fmt_num(x_value)} into {expr}",
+                "Evaluate the powers first, then the products",
+                f"Value: {value}",
+            ]
+            return result
         
         # Extract the equation
         eq = question.lower()
@@ -1389,6 +1774,162 @@ class QuadraticEquationPattern(StructuralPattern):
         return result
 
 
+# ── Exact trig-ratio arithmetic ─────────────────────────────────────────────
+#
+# "If cos(A) = 24/26, find sec(A)" and "Given sin(A) = 12/20 and cos(A) = 16/20,
+# find tan(A)" are RATIO questions, not angle questions: the answer is an exact
+# rational and it is rational only when the arithmetic happens to close.
+#
+# Doing that in floating point is how a "give the fraction" question gets
+# answered with 0.7499999999999999, and routing it through a general equation
+# solver is how it gets answered with the SHAPE of a solve. So it is done here
+# in exact rational arithmetic, and it DECLINES (returns None) whenever the
+# value is not rational. Declining is deliberate: an unanswered question falls
+# through to the next pattern, whereas a confident wrong number is served to a
+# student as if it were the answer.
+#
+# Imported here rather than in the module header: this is the only region of the
+# file that needs exact rationals, and header edits collide with other work.
+from fractions import Fraction
+
+_TRIG_FUNC_NAMES = ("sin", "cos", "tan", "sec", "cosec", "csc", "cot")
+# sec/cosec/csc/cot are reciprocals; answering them is answering their base.
+_TRIG_RECIPROCAL_OF = {"sec": "cos", "cosec": "sin", "csc": "sin", "cot": "tan"}
+# "cos(a) = 12/13", "tan A = 3/4", "sec x = 13/12" — a ratio, always over a
+# literal fraction. A decimal coefficient (2 sin a = 1/2) is deliberately NOT
+# matched: reading it as sin a = 1/2 would be wrong by a factor of two, and a
+# dropped factor is worse than a decline.
+_TRIG_RATIO_STMT_RE = re.compile(
+    r"\b(sin|cos|tan|sec|cosec|csc|cot)\s*\(?\s*([a-z])\s*\)?\s*=\s*"
+    r"(-?\d+(?:\.\d+)?)\s*/\s*(-?\d+(?:\.\d+)?)"
+)
+_TRIG_ASK_VERB_RE = re.compile(
+    r"\b(?:find|what\s+is|calculate|evaluate|determine|compute|get)\b", re.I
+)
+
+
+def _exact_sqrt_fraction(value):
+    """sqrt(value) as an exact Fraction, or None when it is irrational."""
+    if value < 0:
+        return None
+    num, den = value.numerator, value.denominator
+    root_num, root_den = math.isqrt(num), math.isqrt(den)
+    if root_num * root_num != num or root_den * root_den != den:
+        return None
+    return Fraction(root_num, root_den)
+
+
+def _trig_known_ratios(text):
+    """{'sin': Fraction(3,5), ...} for every ratio literally stated in `text`."""
+    known = {}
+    for m in _TRIG_RATIO_STMT_RE.finditer(text):
+        func, num, den = m.group(1), m.group(3), m.group(4)
+        try:
+            value = Fraction(num) / Fraction(den)
+        except (ZeroDivisionError, ValueError):
+            continue  # e.g. "= 5/0" — not a ratio, cannot be trusted
+        known[func] = value
+    return known
+
+
+def _trig_completed_ratios(known):
+    """Close the Pythagorean and quotient relations on `known`, exactly.
+
+    Stops as soon as a step is not rational: from sin = 1/2 the cosine is
+    sqrt(3)/2, and half a value is worse than none.
+    """
+    work = dict(known)
+    for _ in range(4):
+        if "sin" in work and "cos" not in work:
+            derived = _exact_sqrt_fraction(1 - work["sin"] ** 2)
+        elif "cos" in work and "sin" not in work:
+            derived = _exact_sqrt_fraction(1 - work["cos"] ** 2)
+        elif "tan" in work and "cos" not in work:
+            hypotenuse = _exact_sqrt_fraction(1 + work["tan"] ** 2)
+            derived = None if not hypotenuse else 1 / hypotenuse
+        else:
+            break
+        if derived is None:
+            break
+        if "cos" in work and "sin" not in work:
+            work["sin"] = work["cos"] * derived
+        elif "cos" not in work and "tan" in work:
+            work["cos"] = derived
+            work["sin"] = work["tan"] * derived
+        else:
+            work["cos"] = derived
+    return work
+
+
+def _trig_asked_functions(text):
+    """The trig function(s) the question asks FOR, in the order it asks them.
+
+    The subtle part is telling an ASK from a GIVEN that is merely repeated
+    after the ask: in "find sec(A) if cos(A) = 24/26" the cosine is a premise,
+    not the request, and answering "sec, cos" is noise.
+    """
+    asked = []
+    for verb in _TRIG_ASK_VERB_RE.finditer(text):
+        tail = text[verb.end():]
+        for name in re.finditer(r"\b(sin|cos|tan|sec|cosec|csc|cot)\b", tail):
+            func = name.group(1)
+            if re.search(rf"\b{func}\s*\(?\s*[a-z]\s*\)?\s*=", tail):
+                continue  # restated premise, not the ask
+            if func not in asked:
+                asked.append(func)
+        if asked:
+            break
+    return asked
+
+
+def _trig_ratio_exact(known, asked):
+    """The exact value of `asked` implied by `known`, or None if not rational."""
+    if asked in known:
+        return known[asked]
+    work = _trig_completed_ratios(known)
+    # sin/cos may only exist here because a step above DERIVED them from each
+    # other, so this lookup is what actually answers "if sin = 3/5, find cos".
+    if asked in work:
+        return work[asked]
+    if asked == "tan":
+        if "tan" in work:
+            return work["tan"]
+        if "sin" in work and "cos" in work and work["cos"] != 0:
+            return work["sin"] / work["cos"]
+        return None
+    base = _TRIG_RECIPROCAL_OF.get(asked)
+    if base is None or base not in work or work[base] == 0:
+        return None
+    return 1 / work[base]
+
+
+def _trig_ratio_answer(text):
+    """(answer, steps) for an exact trig-ratio question, or None to decline."""
+    known = _trig_known_ratios(text)
+    if not known:
+        return None
+    asked = _trig_asked_functions(text)
+    if not asked:
+        return None
+    values = []
+    for func in asked:
+        value = _trig_ratio_exact(known, func)
+        if value is None:
+            return None  # not a rational — decline rather than approximate
+        values.append((func, value))
+    if len(values) == 1:
+        answer = str(values[0][1])
+    else:
+        answer = ", ".join(f"{f} = {v}" for f, v in values)
+    steps = [f"Given: {', '.join(f'{f} = {v}' for f, v in known.items())}"]
+    steps.append(
+        f"{values[0][0]} = {values[0][1]} (exact fraction)"
+        if len(values) == 1
+        else "Compute each requested ratio exactly"
+    )
+    return answer, steps
+
+
 # ═══════════════════════════════════════════════════════════════════════
 # PATTERN 18: SIMULTANEOUS EQUATIONS
 # ═══════════════════════════════════════════════════════════════════════
@@ -1409,7 +1950,20 @@ class SimultaneousEquationPattern(StructuralPattern):
     
     def extract(self, parsed: ParsedQuestion, question: str) -> PatternResult:
         result = PatternResult(matched=True, concept=self.concept)
-        
+
+        # A "system" of trig ratios is not a system of equations. "Given
+        # sin(A) = 12/20 and cos(A) = 16/20, find tan(A)" has two '=' signs, so
+        # it lands here, but sympy_solve on it returns nothing usable: there is
+        # no unknown to solve for, only a ratio to read off. Answer it as the
+        # exact fraction it is, and answer the ratio that was ASKED for.
+        trig = _trig_ratio_answer(question.lower())
+        if trig is not None:
+            answer, steps = trig
+            result.variables["_direct_answer"] = answer
+            result.answer_template = "{result}"
+            result.steps = steps
+            return result
+
         # Extract equations - split by "and" or newline or semicolon
         eq_text = question.lower()
         eq_text = re.sub(r'(solve\s+(?:the\s+)?(?:simultaneous\s+)?equations?|find\s+x\s+and\s+y|solve)', '', eq_text)
@@ -1996,6 +2550,45 @@ class LogarithmPattern(StructuralPattern):
 # PATTERN 30: RATIO AND PROPORTION
 # ═══════════════════════════════════════════════════════════════════════
 
+# ── Which part of a simplified ratio was actually asked for ──────────────────
+#
+# "Write the ratio 8 : 48 in its simplest form and give the first term of the
+# simplest form" is a two-part question, and the part that is graded is the
+# second one. Answering the whole ratio ("Simplified ratio: 1:6") answers the
+# part the student did not need and leaves the asked quantity unanswered, so the
+# pattern needs to know which component is wanted.
+#
+# A ratio is a tuple, so the components are addressed by POSITION. "first",
+# "1st" and "former" mean the same slot, as do "second" and "2nd". Anything
+# else -- "both", a bare "term", an unrecognised phrasing -- returns None, and
+# the caller then answers with the whole ratio exactly as before.
+_RATIO_COMPONENT_TERMS = {
+    "first": 0, "1st": 0, "former": 0,
+    "second": 1, "2nd": 1, "latter": 1,
+}
+_RATIO_COMPONENT_RE = re.compile(
+    r'\b(' + '|'.join(_RATIO_COMPONENT_TERMS) + r')\s+'
+    r'(?:term|number|part|element|value|figure)\b',
+    re.IGNORECASE,
+)
+
+
+def _asked_ratio_component(question: str):
+    """Index of the ratio term the question asks for, or None for "the ratio".
+
+    Deliberately narrow: it only answers when the question names ONE component
+    with an unambiguous position word. It does not attempt to read intent out
+    of "what is 1:6 equivalent to" or "express 8:48 in its lowest terms", and
+    for those it returns None so the ordinary whole-ratio answer is produced.
+    """
+    found = set()
+    for m in _RATIO_COMPONENT_RE.finditer(question or ''):
+        found.add(_RATIO_COMPONENT_TERMS[m.group(1).lower()])
+    if len(found) != 1:
+        return None
+    return found.pop()
+
+
 class RatioProportionPattern(StructuralPattern):
     """Match: ratio, proportion, divide in ratio"""
     
@@ -2037,6 +2630,28 @@ class RatioProportionPattern(StructuralPattern):
                 f"Share 2 = {total} × {b}/{a+b} = {{share_b}}",
             ]
         else:
+            # Simplify in exact integer arithmetic, then answer the component
+            # the question asked for. Both terms are reduced by the same GCD, so
+            # the asked term is just the one in that slot of the reduced pair.
+            ia, ib = int(a), int(b)
+            g = math.gcd(ia, ib)
+            simp = [ia // g, ib // g]
+            which = _asked_ratio_component(question)
+            if which is not None and g > 0:
+                ordinal = ("first", "second")[which]
+                result.variables["_direct_answer"] = simp[which]
+                result.variables["simplified"] = f"{simp[0]}:{simp[1]}"
+                result.answer_template = (
+                    f"Simplest form {simp[0]}:{simp[1]}; "
+                    f"the {ordinal} term is {{result}}"
+                )
+                result.steps = [
+                    f"Ratio: {ia}:{ib}",
+                    f"GCD({ia}, {ib}) = {g}",
+                    f"Divide both terms by {g}: {simp[0]}:{simp[1]}",
+                    f"The {ordinal} term is {simp[which]}",
+                ]
+                return result
             # Just simplify the ratio
             result.formula = "ratio_simplify"
             result.answer_template = "Simplified ratio: {result}"
@@ -2193,8 +2808,84 @@ class SquareRootPattern(StructuralPattern):
 # PATTERN 34: POWER / EXPONENT
 # ═══════════════════════════════════════════════════════════════════════
 
+# ── Compound powers must be evaluated whole ─────────────────────────────────
+#
+# "Evaluate (4^2)^3" is ONE quantity, but the obvious extraction regex,
+# `(\d+)\s*\^\s*(\d+)`, matches the INNER pair "4^2" and stops there. The
+# result is `4.0^2.0 = 16` -- a confidently wrong answer to a question whose
+# answer is 4096, produced by answering a sub-expression the question never
+# asked about on its own.
+#
+# The fix is to find the parenthesised power and apply the outer exponent to
+# it, using (a^m)^n = a^(m*n), rather than to stop at the first pair found.
+# The reduction is repeated so a deeper stack such as ((2^3)^2)^2 collapses
+# the same way, and it is done in exact integer arithmetic: float powers turn
+# 4^6 into 4096.0 and large exponents into silent overflow.
+#
+# If the expression does not reduce to a plain integer power, this returns
+# None and the single-power path below handles it exactly as it did before.
+_POWER_ALLOWED_RE = re.compile(r'^[0-9.()^*+\-\s]+$')
+_POWER_MAX_CHARS = 80
+# One level of "(base^exp)^outer". The outer exponent may carry its own
+# brackets, which is why they are matched as a balanced group rather than with
+# an optional ")" -- an optional bracket happily eats the ")" that closes the
+# NEXT level up, which turns "((2^3)^2)^2" into the corrupt "(2^6^2".
+_POWER_INNER_RE = re.compile(r'\(\s*(\d+)\s*\^\s*(\d+)\s*\)')
+_POWER_OUTER_RE = re.compile(r'\s*\^\s*(?:\(\s*(\d+)\s*\)|(\d+))')
+# A power expression as it appears in the question, with the surrounding prose
+# ("using the power of a power law") excluded by anchoring on the brackets.
+_POWER_EXPR_RE = re.compile(r'[\(\)\d.^*+\-\s]{3,}')
+
+
+def _compound_power_value(expr: str):
+    """Exact integer value of a compound power such as (4^2)^3, else None.
+
+    Returns None -- never a guess -- unless the whole expression reduces to a
+    single integer power. The character whitelist is what makes the final
+    evaluation safe: nothing in the allowed set (digits, brackets and the four
+    arithmetic operators) can name, call or index anything.
+    """
+    if not expr or len(expr) > _POWER_MAX_CHARS:
+        return None
+    s = expr.strip()
+    if not _POWER_ALLOWED_RE.match(s):
+        return None
+    # Collapse (a^m)^n -> a^(m*n) until the expression stops changing, so a
+    # stack of any depth ("((2^3)^2)^2") folds to a single power. The inner and
+    # outer exponent are matched separately, and the substitution is required
+    # to consume the WHOLE string, so a partial read can never be accepted.
+    for _ in range(8):
+        collapsed = False
+        for im in _POWER_INNER_RE.finditer(s):
+            rest = s[im.end():]
+            om = _POWER_OUTER_RE.match(rest)
+            if not om:
+                continue
+            outer = int(om.group(1) or om.group(2))
+            s = s[:im.start()] + f"{im.group(1)}^{int(im.group(2)) * outer}" \
+                + rest[om.end():]
+            collapsed = True
+            break
+        if not collapsed:
+            break
+    # Strip any brackets left around a now-simple power, e.g. "(4^6)".
+    while s.count('(') == s.count(')') == 1 and re.fullmatch(r'\([^()]*\)', s):
+        s = s[1:-1].strip()
+    # What is left must be exactly one integer power, with nothing else in it.
+    m = re.fullmatch(r'\s*(\d+)\s*\^\s*(\d+)\s*', s)
+    if not m:
+        return None
+    base, exp = int(m.group(1)), int(m.group(2))
+    if exp < 0 or exp > 4096:          # exact ints, but not unbounded work
+        return None
+    try:
+        return base ** exp
+    except Exception:
+        return None
+
+
 class PowerPattern(StructuralPattern):
-    """Match: X^Y, X to the power of Y"""
+    """Match: X^Y, X to the power of Y, including nested forms like (X^Y)^Z"""
     
     concept = "power"
     
@@ -2211,11 +2902,70 @@ class PowerPattern(StructuralPattern):
             return False
         has_power = bool(re.search(r'\d+\s*\^\s*\d+|\d+\s*(?:to the power of|raised to)\s*\d+', lower))
         has_simplify = "simplify" in lower or "evaluate" in lower or "what is" in lower or "find" in lower
+        # A nested power like "(4^2)^3" contains two base^exp pairs, which the
+        # count above rejects. It is a single quantity, so it is allowed
+        # through on the strength of the compound expression it contains.
+        if self._compound_expression(parsed.raw) is not None:
+            return has_simplify
         return has_power and has_simplify
+    
+    def _compound_expression(self, raw: str):
+        """The parenthesised power in `raw`, e.g. "(4^2)^3", else None.
+
+        Anchored on the first bracket so trailing prose ("using the power of a
+        power law") is not swept into the expression. Brackets are matched as a
+        BALANCED group rather than by pattern, so a deeper stack such as
+        ((2^3)^2)^2 is read whole instead of being truncated to its innermost
+        pair. Returns None when the brackets do not balance, so a partly-read
+        expression is declined rather than evaluated as a fragment.
+        """
+        raw = raw or ''
+        start = raw.find('(')
+        if start < 0:
+            return None
+        depth = 0
+        end = None
+        for i in range(start, len(raw)):
+            if raw[i] == '(':
+                depth += 1
+            elif raw[i] == ')':
+                depth -= 1
+                if depth == 0:
+                    end = i
+                    break
+        if end is None:
+            return None
+        # The balanced group, plus any outer exponent applied to it.
+        tail = re.match(r'\s*\^\s*\(?\s*\d+\s*\)?', raw[end + 1:])
+        expr = (raw[start:end + 1] + (tail.group(0) if tail else '')).strip()
+        return expr if _POWER_ALLOWED_RE.match(expr) else None
     
     def extract(self, parsed: ParsedQuestion, question: str) -> PatternResult:
         result = PatternResult(matched=True, concept=self.concept)
         lower = question.lower()
+        
+        # A nested power is one quantity, so it is evaluated before anything
+        # looks for a base/exponent PAIR -- that search finds the inner pair and
+        # reports it as the whole answer.
+        compound = self._compound_expression(parsed.raw)
+        if compound is not None:
+            value = _compound_power_value(compound)
+            if value is not None:
+                result.variables["expression"] = compound
+                result.variables["_direct_answer"] = value
+                result.answer_template = f"{compound} = {{result}}"
+                result.steps = [
+                    f"Expression: {compound}",
+                    "Power of a power: (aᵐ)ⁿ = a^(m×n), so the exponents multiply",
+                    f"Evaluate the single power: {value}",
+                ]
+                return result
+            # A nested power was recognised but not fully understood. Declining
+            # here is deliberate: falling through to the base^exp pair below
+            # would answer with the INNER power and present it as the whole,
+            # which is the exact bug this branch exists to fix.
+            result.missing["expression"] = "Could not evaluate the nested power"
+            return result
         
         # Extract base and exponent
         m = re.search(r'(\d+\.?\d*)\s*\^\s*(\d+\.?\d*)', lower)
@@ -2964,8 +3714,18 @@ class TrigEquationPattern(StructuralPattern):
     
     def match(self, parsed: ParsedQuestion) -> bool:
         lower = parsed.raw.lower()
-        # Exclude "if sin(x)=... find cos/tan" — that's trig_from_ratio
-        if lower.startswith("if ") and ("find cos" in lower or "find tan" in lower or "find sin" in lower):
+        # Exclude "given <trig>(A) = <value>, find <ratio>": that asks for a
+        # RATIO VALUE, not for the angle. This pattern solves for the angle, so
+        # it must decline and let trig_from_ratio / TrigExtendedPattern answer.
+        #
+        # The old guard was `lower.startswith("if ") and ("find cos" ... )`,
+        # which missed two cases: it never listed "sec", and it required the
+        # question to begin with "if " so the very common
+        # "Given sin(A)=12/20 and cos(A)=16/20, find tan(A)" form slipped
+        # through. Both then hit sympy's general solution (2n*pi ± acos(...)).
+        _asked = re.search(r'\bfind\b[^.?]{0,24}?\b(sin|cos|tan|cosec|sec|cot)\b', lower)
+        _given = re.search(r'\b(sin|cos|tan|cosec|sec|cot)\s*\(\s*[a-z]\s*\)\s*=\s*[^,.]+', lower)
+        if _asked and _given:
             return False
         has_trig = bool(re.search(r'\b(sin|cos|tan|cosec|sec|cot)\s*\(', lower))
         has_eq = "=" in lower or "solve" in lower
@@ -3440,7 +4200,20 @@ class TrigExtendedPattern(StructuralPattern):
     def extract(self, parsed: ParsedQuestion, question: str) -> PatternResult:
         result = PatternResult(matched=True, concept=self.concept)
         lower = question.lower()
-        
+
+        # A ratio question asked for one SPECIFIC ratio. The trig_from_ratio
+        # branch below answers the two ratios it can derive instead of the one
+        # that was asked for, so "If cos(A) = 24/26, find sec(A)" came back as
+        # "sin = 0.3846, tan = 0.4167" — a rounded, unrequested pair that is not
+        # an answer to the question. Answer the asked ratio, exactly.
+        trig = _trig_ratio_answer(lower)
+        if trig is not None:
+            answer, steps = trig
+            result.variables["_direct_answer"] = answer
+            result.answer_template = "{result}"
+            result.steps = steps
+            return result
+
         # Case 1: mixed values like sin(30) + cos(60) + tan(45)
         mixed_match = re.findall(r'(sin|cos|tan)\s*\(\s*(\d+\.?\d*)\s*\)', lower)
         if mixed_match and ("+" in lower or "-" in lower):
@@ -3470,6 +4243,32 @@ class TrigExtendedPattern(StructuralPattern):
             return result
         
         # Case 2: if sin(x) = 3/5, find cos(x) and tan(x)
+        #
+        # Only reached when the exact path above declined, i.e. the value is
+        # NOT rational. Guard the one case where this branch cannot even name
+        # the requested ratio: it reports sin/cos/tan, so a lone ask for
+        # sec/csc/cot would be answered with an unrequested rounded pair.
+        # Better to decline and let a later pattern try.
+        lone_ask = _trig_asked_functions(lower)
+        if len(lone_ask) == 1 and lone_ask[0] in _TRIG_RECIPROCAL_OF:
+            result.missing["ratio"] = (
+                f"{lone_ask[0]} is not an exact fraction here — "
+                "a rounded value would not be the answer."
+            )
+            return result
+
+        # Same reasoning for an ANGLE ask ("find A in degrees"). No branch here
+        # computes an angle, so emitting a sin/tan pair would answer a question
+        # nobody asked. Decline instead.
+        asks_angle = not lone_ask and re.search(
+            r"\b(?:find|what\s+is|determine|calculate)\b[^?]*"
+            r"\b(?:angle|degrees?|radians?|in\s+deg)\b",
+            lower,
+        )
+        if asks_angle and _trig_known_ratios(lower):
+            result.missing["angle"] = "An exact angle was not derivable here."
+            return result
+
         ratio_match = re.search(r'if\s+(sin|cos|tan)\s*\(?\s*([a-z])\s*\)?\s*=\s*(\d+\.?\d*)/(\d+\.?\d*)', lower)
         if ratio_match:
             func = ratio_match.group(1)
@@ -4352,12 +5151,25 @@ class NumberTheoryPattern(StructuralPattern):
     
     def match(self, parsed: ParsedQuestion) -> bool:
         lower = parsed.raw.lower()
-        has_hcf = "hcf" in lower or "highest common" in lower or "gcd" in lower
+        # "greatest common divisor" / "common divisor" are HCF phrasings. They
+        # were missing here, so "What is the greatest common divisor of 24 and
+        # 36?" matched only via has_divisors and was answered as a divisor
+        # COUNT. Listed before the shorter forms so the intent is unambiguous.
+        has_hcf = ("hcf" in lower or "gcd" in lower or "highest common" in lower
+                   or "greatest common" in lower or "common divisor" in lower)
         has_lcm = "lcm" in lower or "least common" in lower or ("divisible by" in lower and "smallest" in lower)
         has_divisors = "divisor" in lower or ("factor" in lower and "number of" in lower)
         has_leap = "leap year" in lower
         has_last_digit = "last digit" in lower
         has_division = "divided by" in lower and "quotient" in lower and "remainder" in lower
+        # An explicit LCM ask belongs to HCFLCMPattern (~line 1122), which is
+        # registered LATER in ALL_PATTERNS. Because this pattern's matcher is a
+        # plain OR over "does the word appear", a question like "find the LCM of
+        # 50 and 70 given their HCF is 10" was claimed HERE (has_hcf is true),
+        # extract() fell through to the HCF branch, and the student was told 10
+        # instead of 350. Decline so the correct pattern gets its turn.
+        if has_lcm and re.search(r'\b(find|compute|what|determine|calculate)\b[^.?]{0,24}\blcm\b', lower):
+            return False
         return has_hcf or has_lcm or has_divisors or has_leap or has_last_digit or has_division
     
     def extract(self, parsed: ParsedQuestion, question: str) -> PatternResult:
@@ -4388,9 +5200,22 @@ class NumberTheoryPattern(StructuralPattern):
                 result.steps = [f"Is {year} a leap year?"]
                 return result
         
-        # Number of divisors
-        if "divisor" in lower or ("factor" in lower and "number of" in lower):
-            num_match = re.search(r'of\s+(\d+)', lower)
+        # Number of divisors.
+        #
+        # "divisor" also occurs inside "greatest common divisor" / "common
+        # divisor", which are HCF phrasings, not divisor-COUNT questions. The
+        # bare substring test claimed "What is the greatest common divisor of
+        # 24 and 36?" and answered "Number of divisors = 8" — confidently wrong,
+        # and the solver's intent gate then discarded it, so the student got
+        # nothing at all. Strip the HCF/GCD synonyms before testing.
+        hcf_syntax = re.sub(
+            r'\b(?:greatest\s+common\s+(?:divisor|factor)|highest\s+common\s+factor'
+            r'|common\s+(?:divisor|factor)|gcd|hcf|lcm)\b',
+            ' ',
+            lower,
+        )
+        if "divisor" in hcf_syntax or ("factor" in hcf_syntax and "number of" in hcf_syntax):
+            num_match = re.search(r'of\s+(\d+)', hcf_syntax)
             if num_match:
                 n = int(num_match.group(1))
                 result.variables["n"] = n
@@ -4412,28 +5237,22 @@ class NumberTheoryPattern(StructuralPattern):
                 result.steps = ["HCF × LCM = Product of numbers"]
                 return result
         
-        # HCF or LCM of two numbers
-        if "hcf" in lower or "gcd" in lower or "highest common" in lower:
-            nums = re.findall(r'(\d+)', lower)
-            nums = [int(n) for n in nums if n.isdigit() and int(n) > 1]
-            if len(nums) >= 2:
-                result.variables["a"] = nums[0]
-                result.variables["b"] = nums[1]
-                result.formula = "hcf"
-                result.answer_template = "HCF = {result}"
-                result.steps = [f"HCF of {nums[0]} and {nums[1]}"]
-                return result
-        
-        if "lcm" in lower or "least common" in lower:
-            nums = re.findall(r'(\d+)', lower)
-            nums = [int(n) for n in nums if n.isdigit() and int(n) > 1]
-            if len(nums) >= 2:
-                result.variables["a"] = nums[0]
-                result.variables["b"] = nums[1]
-                result.formula = "lcm"
-                result.answer_template = "LCM = {result}"
-                result.steps = [f"LCM of {nums[0]} and {nums[1]}"]
-                return result
+        # HCF or LCM of two numbers.
+        #
+        # The `hcf`/`lcm` formulas below are answered by pattern_solver with
+        # question_type "number_theory", which is NOT "hcf"/"lcm". The solver's
+        # intent gate compares that against what it thinks was asked and throws
+        # the result away, so a correct answer here was being discarded. These
+        # branches therefore reuse HCFLCMPattern, which emits the right
+        # question_type and picks the quantity from the ask verb rather than
+        # from which keyword appears first.
+        if ("hcf" in lower or "gcd" in lower or "highest common" in lower
+                or "greatest common" in lower or "common divisor" in lower
+                or "lcm" in lower or "least common" in lower):
+            hcf_lcm = HCFLCMPattern()
+            hcf_result = hcf_lcm.extract(parsed, question)
+            if hcf_result.matched and hcf_result.formula and not hcf_result.missing:
+                return hcf_result
         
         # Division with remainder: number = divisor * quotient + remainder
         if "divided by" in lower and "quotient" in lower:
@@ -10297,6 +11116,258 @@ class QualityControlPattern(StructuralPattern):
 
 
 # ═══════════════════════════════════════════════════════════════════════
+# RIGHT-TRIANGLE PART RATIOS
+# ═══════════════════════════════════════════════════════════════════════
+#
+# "For a right triangle with legs 20 and 21 and hypotenuse, find the ratio
+#  of the smaller leg to the hypotenuse."  ->  20/29
+#
+# These fall through every structural pattern and into the generic funnel,
+# which has no structure to hold on to: "ratio" and "leg" are not a formula
+# it recognises. But the structure IS exact. A right triangle has exactly
+# three named parts, the Pythagorean theorem relates them exactly, and a
+# ratio of two of them is a rational number that should be printed as one.
+#
+# Two rules keep this safe to register:
+#
+#   1. The ask must name BOTH sides of the ratio as a ROLE ("smaller leg",
+#      "larger leg", "hypotenuse"). A bare "the leg" does not say which leg,
+#      and picking one is the same failure as a wrong answer.
+#   2. Every value is an exact Fraction. If the missing side is not a
+#      perfect-square root there is no exact ratio, so we decline rather
+#      than print a rounded decimal a student would immediately distrust.
+#
+# A stated hypotenuse that disagrees with the stated legs also declines:
+# the sentence is then not describing a right triangle and no ratio in it
+# can be trusted.
+
+_RT_TRIANGLE_RE = re.compile(
+    r"right[\s\-]?angled?\s+triangle"
+    r"|right[\s\-]triangle"
+    r"|triangle\s+with\s+a\s+right\s+angle"
+    r"|triangle\s+is\s+right[\s\-]angled"
+)
+# "For the SAME triangle (legs 12 and 16, hypotenuse 20), find the ratio..."
+# is a right-triangle question that back-references its own statement, so it
+# never says "right" itself. The "hypotenuse" term is the tell: it exists in
+# no other geometry family, and a question that names one plus a leg is
+# describing a right triangle. Requiring the word "triangle" as well stops a
+# lone "hypotenuse" mention from being read as a triangle.
+_RT_TRIANGLE_REF_RE = re.compile(
+    r"\btriangles?\b|\btriangle\b", re.IGNORECASE
+)
+# "legs 20 and 21", "legs of 12 and 16", "sides 5, 12"
+_RT_TWO_LEGS_RE = re.compile(
+    r"\b(?:legs?|sides?)\b\s*(?:of\s+|are\s+|is\s+|with\s+|lengths?\s+|=|:)?\s*"
+    r"(\d+(?:\.\d+)?)\s*(?:and|,|&)\s*(\d+(?:\.\d+)?)",
+    re.IGNORECASE,
+)
+# A single named leg, for "a leg of 5 and hypotenuse 13". The negative
+# lookahead stops "the longer leg" from being read as a length.
+_RT_ONE_LEG_RE = re.compile(
+    r"\b(?:leg|side)\b(?!\s*[-\u2013]\s*(?:leg|side))"
+    r"(?!\s+(?:longer|larger|smaller|shorter|biggest|largest|greatest|hypotenuse)\b)"
+    r"\s*(?:of\s+|is\s+|are\s+|=|:|measures\s+)?\s*(\d+(?:\.\d+)?)",
+    re.IGNORECASE,
+)
+_RT_HYP_RE = re.compile(
+    r"hypotenuse\s*(?:of\s+|is\s+|measures\s+|equals\s+|=|:)?\s*(\d+(?:\.\d+)?)",
+    re.IGNORECASE,
+)
+
+# Roles, most specific first. In a right triangle the hypotenuse is the
+# longest side, so "longest side" means the hypotenuse and is checked before
+# the larger-leg patterns.
+_RT_ROLE_HYP_RE = re.compile(r"hypotenuse|hyp\b|longest\s+side|farthest\s+side")
+_RT_ROLE_LARGE_RE = re.compile(
+    r"(?:larger|longer|largest|greater|bigger|biggest)\s+"
+    r"(?:of\s+(?:the\s+)?two\s+)?(?:legs?|sides?)",
+)
+_RT_ROLE_SMALL_RE = re.compile(
+    r"(?:smaller|shorter|smallest|shortest|smallest\s+of\s+the\s+two)\s+"
+    r"(?:of\s+(?:the\s+)?two\s+)?(?:legs?|sides?)"
+)
+_RT_ROLE_LABEL = {
+    "small_leg": "smaller leg",
+    "large_leg": "larger leg",
+    "hyp": "hypotenuse",
+}
+
+
+def _rt_exact_sqrt(value):
+    """sqrt(value) as an exact Fraction, or None when it is irrational."""
+    if value < 0:
+        return None
+    num, den = value.numerator, value.denominator
+    root_num, root_den = math.isqrt(num), math.isqrt(den)
+    if root_num * root_num != num or root_den * root_den != den:
+        return None
+    return Fraction(root_num, root_den)
+
+
+def _rt_asked_roles(text):
+    """The two roles the question asks the ratio OF, or None to decline.
+
+    Returns ['small_leg', 'hyp'] for "the ratio of the smaller leg to the
+    hypotenuse". Declines when the ask names a value rather than a role
+    ("the ratio of 12 to 20") or leaves a side ambiguous ("the ratio of the
+    leg to the hypotenuse") — in both cases a guess is available and a
+    guess is exactly what must not be served.
+    """
+    for m in re.finditer(
+        r"ratios?\s+of\s+([^?.;]+?)(?=[?.;]|$)", text, re.IGNORECASE
+    ):
+        phrase = m.group(1)
+        if re.search(r"\d", phrase):
+            return None  # the ask is in values, not roles
+        roles = []
+        for chunk in re.split(r"\s+(?:to|over|versus|vs\.?|:)\s+", phrase):
+            chunk = chunk.strip()
+            if _RT_ROLE_HYP_RE.search(chunk):
+                roles.append("hyp")
+            elif _RT_ROLE_LARGE_RE.search(chunk):
+                roles.append("large_leg")
+            elif _RT_ROLE_SMALL_RE.search(chunk):
+                roles.append("small_leg")
+            else:
+                return None  # bare "leg"/"side" — which one is not stated
+        if len(roles) == 2:
+            return roles
+    return None
+
+
+def _rt_sides(text):
+    """(smaller leg, larger leg, hypotenuse) as exact Fractions, or None."""
+    hyp_match = _RT_HYP_RE.search(text)
+    hyp = Fraction(hyp_match.group(1)) if hyp_match else None
+
+    legs = []
+    two = _RT_TWO_LEGS_RE.search(text)
+    if two:
+        legs = [Fraction(two.group(1)), Fraction(two.group(2))]
+    else:
+        one = _RT_ONE_LEG_RE.search(text)
+        if one and hyp is not None:
+            legs = [Fraction(one.group(1))]
+    if not legs:
+        return None
+    legs.sort()
+
+    if hyp is not None:
+        if len(legs) == 2:
+            # A stated hypotenuse must agree with the stated legs, or this is
+            # not a right triangle and no ratio in it can be trusted.
+            if legs[0] ** 2 + legs[1] ** 2 != hyp ** 2:
+                return None
+        else:
+            missing = _rt_exact_sqrt(hyp ** 2 - legs[0] ** 2)
+            if missing is None:
+                return None
+            legs.append(missing)
+            legs.sort()
+    else:
+        hyp = _rt_exact_sqrt(legs[0] ** 2 + legs[1] ** 2)
+        if hyp is None:
+            return None
+
+    if legs[0] <= 0 or legs[0] == legs[1] or hyp <= legs[1]:
+        return None  # no two distinct legs under a hypotenuse
+    return legs[0], legs[1], hyp
+
+class RightTriangleRatioPattern(StructuralPattern):
+    """Match: a right triangle asked for a ratio between two of its sides.
+
+    Concept "right_triangle_ratio". The answer is the SPECIFIC ratio the
+    question asked for, as an exact Fraction (20/29, 3/5) - never a decimal,
+    and never a side length when a ratio was requested.
+
+    Registers last in ALL_PATTERNS on purpose: this is a coverage gap that no
+    other pattern claims, so it must not be able to take a question away from
+    a pattern that was already answering it correctly.
+
+    Every path that cannot identify both sides of the ask, or that needs an
+    irrational side, returns matched=False so the next pattern gets a turn.
+    A decline is strictly better than a plausible wrong fraction.
+    """
+
+    concept = "right_triangle_ratio"
+
+    def match(self, parsed: ParsedQuestion) -> bool:
+        lower = parsed.raw.lower()
+        # Either it says "right(-angled) triangle" outright, or it names a
+        # hypotenuse inside a triangle statement ("the same triangle ...
+        # hypotenuse 20") and is therefore still describing one.
+        if not (
+            _RT_TRIANGLE_RE.search(lower)
+            or (
+                _RT_TRIANGLE_REF_RE.search(lower)
+                and _RT_ROLE_HYP_RE.search(lower)
+            )
+        ):
+            return False
+        # A bare "find the hypotenuse" is PythagorasPattern's job, not ours.
+        if not re.search(r"\bratios?\s+of\b", lower):
+            return False
+        # A triangle measured in degrees/radians with an angle is a different
+        # question (trig), and "ratio of areas/sides" is a similarity question.
+        if re.search(r"\b(similar|perimeter|area|angles?)\b", lower):
+            return False
+        return _rt_asked_roles(lower) is not None
+
+    def extract(self, parsed: ParsedQuestion, question: str) -> PatternResult:
+        result = PatternResult(matched=True, concept=self.concept)
+        lower = question.lower()
+
+        roles = _rt_asked_roles(lower)
+        if roles is None:
+            result.matched = False
+            return result
+
+        sides = _rt_sides(lower)
+        if sides is None:
+            result.matched = False
+            return result
+
+        small_leg, large_leg, hyp = sides
+        parts = {
+            "small_leg": small_leg,
+            "large_leg": large_leg,
+            "hyp": hyp,
+        }
+        numerator, denominator = parts[roles[0]], parts[roles[1]]
+        if denominator == 0:
+            result.matched = False
+            return result
+
+        ratio = numerator / denominator  # Fraction / Fraction -> exact
+
+        result.variables["smaller_leg"] = str(small_leg)
+        result.variables["larger_leg"] = str(large_leg)
+        result.variables["hypotenuse"] = str(hyp)
+        result.variables["_direct_answer"] = str(ratio)
+        result.answer_template = "{result}"
+        result.formula = "auto"
+        result.justification = (
+            f"In a right triangle the three sides are the two legs and the "
+            f"hypotenuse, related by a^2 + b^2 = c^2. Here the legs are "
+            f"{small_leg} and {large_leg} and the hypotenuse is {hyp}, so "
+            f"{_RT_ROLE_LABEL[roles[0]]} / {_RT_ROLE_LABEL[roles[1]]} = "
+            f"{numerator}/{denominator} = {ratio}, which is exact."
+        )
+        result.steps = [
+            f"Legs = {small_leg} and {large_leg}, hypotenuse = {hyp}",
+            f"Check: {small_leg}^2 + {large_leg}^2 = "
+            f"{small_leg ** 2} + {large_leg ** 2} = {hyp ** 2} = {hyp}^2",
+            f"Ratio asked = {_RT_ROLE_LABEL[roles[0]]} : "
+            f"{_RT_ROLE_LABEL[roles[1]]}",
+            f"= {numerator} / {denominator} = {ratio}  (exact fraction)",
+        ]
+        return result
+
+
+
+
+# ═══════════════════════════════════════════════════════════════════════
 # REGISTER ALL PATTERNS
 # ═══════════════════════════════════════════════════════════════════════
 # ═══════════════════════════════════════════════════════════════════════
@@ -10516,4 +11587,9 @@ ALL_PATTERNS = [
     PowerPattern(),
     BinomialPattern(),
     LimitPattern(),
+    # ── COVERAGE GAP (new): right-triangle part ratios, e.g. 20/29, 3/5 ──
+    # Registered LAST deliberately. It only fires on a right triangle whose
+    # ask is an explicit ratio of two NAMED sides, so it cannot take a
+    # question away from any pattern already answering it correctly.
+    RightTriangleRatioPattern(),
 ]

@@ -1,0 +1,398 @@
+{
+ "catalog": "catalog_class8_science_ch111.json",
+ "concepts": [
+  {
+   "id": "hesc.11.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "current_flow = 42",
+      "resistance_potential = 71",
+      "conductivity = current_flow / resistance_potential"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "current_flow = 106",
+      "resistance_potential = 160",
+      "conductivity = current_flow / resistance_potential"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "current_flow = 82",
+      "resistance_potential = 31",
+      "conductivity = current_flow / resistance_potential"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "current_flow = 50",
+      "resistance_potential = 115",
+      "conductivity = current_flow / resistance_potential"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "current_flow = 60",
+      "resistance_potential = 269",
+      "conductivity = current_flow / resistance_potential"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "current_flow = 42",
+      "resistance_potential = 399",
+      "conductivity = current_flow / resistance_potential"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "conductivity = current_flow / resistance_potential"
+   ]
+  },
+  {
+   "id": "hesc.11.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "long_lead = 39",
+      "short_lead = 89",
+      "total_leads = long_lead + short_lead"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "long_lead = 96",
+      "short_lead = 102",
+      "total_leads = long_lead + short_lead"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "long_lead = 35",
+      "short_lead = 51",
+      "total_leads = long_lead + short_lead"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "long_lead = 76",
+      "short_lead = 110",
+      "total_leads = long_lead + short_lead"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "long_lead = 13.1",
+      "short_lead = 100",
+      "total_leads = long_lead + short_lead"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "long_lead = 70",
+      "short_lead = 93",
+      "total_leads = long_lead + short_lead"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_leads = long_lead + short_lead"
+   ]
+  },
+  {
+   "id": "hesc.11.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "magnetic_field_strength = 13.1",
+      "deflection = magnetic_field_strength"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "magnetic_field_strength = 77",
+      "deflection = magnetic_field_strength"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "magnetic_field_strength = 10.2",
+      "deflection = magnetic_field_strength"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "magnetic_field_strength = 16.6",
+      "deflection = magnetic_field_strength"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "magnetic_field_strength = 78",
+      "deflection = magnetic_field_strength"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "magnetic_field_strength = 20",
+      "deflection = magnetic_field_strength"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "deflection = magnetic_field_strength"
+   ]
+  },
+  {
+   "id": "hesc.11.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "pure_water = 85",
+      "dissolved_salts = 79",
+      "conductivity_level = pure_water + dissolved_salts"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pure_water = 99",
+      "dissolved_salts = 15.5",
+      "conductivity_level = pure_water + dissolved_salts"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "pure_water = 29",
+      "dissolved_salts = 36",
+      "conductivity_level = pure_water + dissolved_salts"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "pure_water = 41",
+      "dissolved_salts = 22",
+      "conductivity_level = pure_water + dissolved_salts"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "pure_water = 52",
+      "dissolved_salts = 0.9",
+      "conductivity_level = pure_water + dissolved_salts"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "pure_water = 80",
+      "dissolved_salts = 27",
+      "conductivity_level = pure_water + dissolved_salts"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "conductivity_level = pure_water + dissolved_salts"
+   ]
+  },
+  {
+   "id": "hesc.11.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "current = 26",
+      "electrolyte = 52",
+      "chemical_change = current + electrolyte"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "current = 7.9",
+      "electrolyte = 52",
+      "chemical_change = current + electrolyte"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "current = 6.5",
+      "electrolyte = 65",
+      "chemical_change = current + electrolyte"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "current = 14",
+      "electrolyte = 7.9",
+      "chemical_change = current + electrolyte"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "current = 26",
+      "electrolyte = 93",
+      "chemical_change = current + electrolyte"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "current = 17.1",
+      "electrolyte = 51",
+      "chemical_change = current + electrolyte"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "chemical_change = current + electrolyte"
+   ]
+  },
+  {
+   "id": "hesc.11.7",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "rate = 28",
+      "time = 34",
+      "deposited_mass = rate * time"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "rate = 29",
+      "time = 117",
+      "deposited_mass = rate * time"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "rate = 80",
+      "time = 67",
+      "deposited_mass = rate * time"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "rate = 84",
+      "time = 16.1",
+      "deposited_mass = rate * time"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "rate = 75",
+      "time = 76",
+      "deposited_mass = rate * time"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "rate = 16.9",
+      "time = 4.2",
+      "deposited_mass = rate * time"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "deposited_mass = rate * time"
+   ]
+  },
+  {
+   "id": "hesc.11.9",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "solute_tsp = 70",
+      "solvent_ml = 92",
+      "concentration = solute_tsp / solvent_ml"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "solute_tsp = 65",
+      "solvent_ml = 39",
+      "concentration = solute_tsp / solvent_ml"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "solute_tsp = 54",
+      "solvent_ml = 31",
+      "concentration = solute_tsp / solvent_ml"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "solute_tsp = 34",
+      "solvent_ml = 64",
+      "concentration = solute_tsp / solvent_ml"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "solute_tsp = 82",
+      "solvent_ml = 40",
+      "concentration = solute_tsp / solvent_ml"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "solute_tsp = 118",
+      "solvent_ml = 116",
+      "concentration = solute_tsp / solvent_ml"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "concentration = solute_tsp / solvent_ml"
+   ]
+  }
+ ]
+}

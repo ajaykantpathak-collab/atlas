@@ -34,6 +34,36 @@
      "q": "Create a problem where a line in 3D space has direction cosines (1/2, 1/2, 1/√2). Find its direction ratios and the angles it makes with each axis. Then write a real-world scenario where this line could represent a physical direction.",
      "a": "Direction ratios can be (1, 1, √2) or any multiple. Angles: 60°, 60°, 45°. Scenario: A staircase in a building goes up at 45° to the horizontal (z-axis) while making 60° angles with the east (x) and north (y) walls. A poor answer would give incorrect angles (e.g., 30° instead of 60°) or fail to provide a coherent 3D scenario, showing inability to interpret direction cosines geometrically.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Direction cosines of a line are the cosines of the angles made by the line with the positive ______ of the coordinate axes.",
+     "a": "directions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ flying from your school roof (point A) to a park fountain (point B) in a 3D city map.",
+     "a": "drone",
+     "self_check": true
+    },
+    {
+     "q": "What is Direction cosines of a line? State the definition given in this lesson.",
+     "a": "Direction cosines of a line are the cosines of the angles made by the line with the positive directions of the coordinate axes.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If a line makes angles α, β, γ with the x, y, z axes respectively, then its direction cosines are l = cos α, m = cos β, n = cos γ, satisfying l² + m² + n² = ______.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Direction cosines of a line?",
+     "a": "Students often confuse direction ratios with direction cosines.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can compute direction cosines from given direction angles or direction ratios, find direction cosines of a line joining two points, verify the relation l²+m²+n²=1, and determine if two lines are parallel or perpendicular using direction ratios.",
+     "self_check": true
     }
    ]
   }

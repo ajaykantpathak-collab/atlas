@@ -34,6 +34,31 @@
      "q": "Design a simple classroom demonstration (using household materials) to show how the placental barrier allows selective exchange while preventing blood mixing. List materials, procedure, and what each component represents.",
      "a": "Expected answer criteria:  \nMaterials: Two beakers, a semi-permeable membrane (dialysis tubing or egg membrane), water, food colour (red for maternal blood, blue for foetal blood), glucose solution, starch solution, iodine test.  \nProcedure: Fill one beaker with red water + glucose (maternal blood with nutrients). Fill dialysis tubing with blue water (foetal blood), tie ends, submerge in beaker. After 30 min, test tubing fluid for glucose (Benedict's test) and beaker fluid for blue colour.  \nRepresentation: Beaker = maternal lacunae; tubing = chorionic villi capillary wall; glucose diffusion = nutrient transfer; no blue dye in beaker = no foetal blood mixing; iodine-starch test can show size-selective barrier.  \nA poor answer (e.g., \"mix red and blue water\") reveals the student cannot model a barrier system and still thinks mixing occurs — this indicates a need for concrete visualisation before abstract diagrams.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Fertilisation in humans is the fusion of a haploid sperm nucleus with a haploid ovum nucleus in the ampulla of the fallopian tube, forming a diploid zygote; ______ is the attachment and embedding of the blastocyst (6–7 days post-fertilisation) into the endometrium of the uterus; the placenta is a transient fetomaternal organ formed from the chorionic villi and uterine endometrium that mediates nutrient, gas, and waste exchange, and secretes hormones (hCG, progesterone, estrogen) to maintain pregnancy.",
+     "a": "implantation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe that ______ cannot occur in the vagina or uterus because the acidic environment and cervical mucus block sperm; the fallopian tube provides the right pH, ciliary movement, and secretions.",
+     "a": "fertilisation",
+     "self_check": true
+    },
+    {
+     "q": "What is Fertilisation in humans? State the definition given in this lesson.",
+     "a": "Fertilisation in humans is the fusion of a haploid sperm nucleus with a haploid ovum nucleus in the ampulla of the fallopian tube, forming a diploid zygote; implantation is the attachment and embedding of the blastocyst (6–7 days post-fertilisation) into the endometrium of the uterus; the placenta is a transient fetomaternal organ formed.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Fertilisation in humans?",
+     "a": "Students believe that fertilisation occurs in the uterus because \"that's where the baby grows,\" and they think the placenta is a single membrane where maternal and foetal blood mix directly like two liquids poured into the same cup.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can sequence the events from copulation to implantation in correct order with anatomical sites, explain the structural basis of placental exchange (chorionic villi + maternal blood sinuses) without stating that maternal and foetal blood mix, and write the functions of placenta using CBSE terminology: nutrition, respiration.",
+     "self_check": true
     }
    ]
   }

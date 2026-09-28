@@ -4,15 +4,9 @@
   {
    "id": "iemh.101.1.1",
    "title": "The Coordinate Plane and Ordered Pairs",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "recall the count for the shape",
-     "explain": "recall the count for the shape: lines = 3 gives 3",
-     "compute": "lines = 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "point = (x, y)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a equilateral triangle have?",
@@ -49,27 +43,9 @@
   {
    "id": "iemh.101.1.2",
    "title": "Quadrants and Signs of Coordinates",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the coordinate-geometry formula",
-     "explain": "apply the coordinate-geometry formula: dx = 5 - -1 gives 6",
-     "compute": "dx = 5 - -1"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the coordinate-geometry formula: dy = 3 - -5 gives 8",
-     "compute": "dy = 3 - -5"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 10",
-     "compute": "dist = sqrt(dx * dx + dy * dy)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (-1, -5) and (5, 3).",
@@ -107,6 +83,8 @@
    "id": "iemh.101.1.3",
    "title": "Distance Between Two Points",
    "converted_to_compute": false,
+   "formula": "distance = sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (-5, -2) and (5, 22).",

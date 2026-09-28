@@ -34,6 +34,16 @@
      "q": "Create a problem where the distance between two points is given as 13 units, one point is (5, 7), and the other point lies on the x-axis. Find the possible coordinates of the second point. Explain why there are two solutions.",
      "a": "Let the second point be \\((x, 0)\\). Distance formula: \\(\\sqrt{(x-5)^2 + (0-7)^2} = 13\\). Squaring: \\((x-5)^2 + 49 = 169 \\Rightarrow (x-5)^2 = 120 \\Rightarrow x-5 = \\pm\\sqrt{120} = \\pm 2\\sqrt{30}\\). So \\(x = 5 \\pm 2\\sqrt{30}\\). Two solutions because the circle of radius 13 centred at (5,7) intersects the x-axis at two symmetric points. A poor answer gives only one coordinate or writes \\((x-5)^2 = 120 \\Rightarrow x-5 = \\sqrt{120}\\) (missing \\(\\pm\\)), showing the student forgets that square root yields both positive and negative roots.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ at your school gate (point A) and your friend is at the park entrance (point B).",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the distance formula step-by-step using Pythagoras theorem on a right triangle formed by horizontal and vertical projections, and can apply the formula to compute distances between any two points in all four quadrants, justifying why squaring removes sign dependence.",
+     "self_check": true
     }
    ]
   }

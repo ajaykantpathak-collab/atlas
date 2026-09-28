@@ -7,7 +7,7 @@
    "questions": [
     {
      "q": "Identify whether the following question is literal or inferential: \"According to Shaw, what fraction of our lifetime do we spend sleeping?\"",
-     "a": "Literal. The answer (\"one third\") is explicitly stated in the opening paragraph of Shaw's essay. A wrong answer (e.g., \"inferential\") reveals the student cannot distinguish between directly retrievable facts and conclusions requiring reasoning. This confusion leads to wasting time searching for \"hidden meaning\" where none exists, or worse, missing explicit answers in exams.",
+     "a": "Literal. The answer (\"one third\") is explicitly stated in the opening paragraph of Shaw's essay. A wrong answer (e.g., \"inferential\") reveals the student cannot distinguish between directly retrievable facts and conclusions requiring reasoning. This confusion leads to wasting time searching for \"hidden meaning\" where N/A exists, or worse, missing explicit answers in exams.",
      "self_check": true
     },
     {
@@ -33,6 +33,21 @@
     {
      "q": "Create an inferential question about Krishnamurti's text that requires synthesizing his views on tradition, fear, and intelligence. Provide the question and a model answer outline with three evidence points.",
      "a": "Question: \"How does Krishnamurti link the acceptance of tradition to the destruction of intelligence, and what role does fear play in this process?\" Model outline: (1) Tradition provides ready-made values → acceptance = conformity → \"thoughtless entity\" (para 4). (2) Fear of parents/teachers/tradition → \"gradually destroys sensitivity\" (para 7) → mind enclosed in self-concern. (3) Intelligence requires \"freedom to question, free to think out and discover\" (para 5) — impossible within tradition's walls. A weak created question would be literal (\"What does Krishnamurti say about fear?\") or unanswerable from the text.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal comprehension involves retrieving explicitly stated information from the text (who, what, when, where, how), while inferential comprehension requires drawing logical conclusions by combining textual evidence with reasoning to understand implied meanings, author's intent, or unstated ______.",
+     "a": "relationships",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're reading Shaw's essay and a question asks: \"How many hours does Shaw say we spend ______?\" — that's literal, the answer is right there.",
+     "a": "sleeping",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently distinguish between literal and inferential questions, locate exact textual evidence for literal answers, and construct logically supported inferences with at least two pieces of textual evidence per inference, using the PEEL structure (Point, Evidence, Explanation, Link) for written responses.",
      "self_check": true
     }
    ]

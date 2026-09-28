@@ -34,6 +34,31 @@
      "q": "Design a loan agreement for a self-help group (SHG) member who wants to borrow ₹20,000 for a small tailoring business. Specify all four terms of credit such that the loan is affordable and the repayment is manageable. Justify each term.",
      "a": "A good answer would specify: (1) Interest rate: 12% p.a. (lower than moneylender, slightly higher than bank to cover SHG admin costs), (2) Collateral: Group guarantee / social collateral (no physical asset needed), (3) Documentation: Simple application, identity proof, business plan (less paperwork than bank), (4) Mode of repayment: Monthly installments of ₹1,800 for 12 months (aligned with monthly income from tailoring). Justification: Each term balances affordability, risk-sharing, and administrative simplicity. A poor answer would copy bank terms exactly or ignore the SHG context, showing inability to adapt terms to the borrower's situation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Terms of credit refer to the specific conditions agreed upon between a lender and a borrower for a loan, including the interest rate, collateral (asset pledged as security), ______ requirements (legal papers proving identity, income, and ownership of collateral), and the mode of repayment (schedule and method of returning the principal and interest).",
+     "a": "documentation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small ______, Ramesh, in Maharashtra who needs ₹50,000 to buy seeds and fertilizer before the kharif season.",
+     "a": "farmer",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The bank offers ______% per annum interest, requires land papers as collateral, asks for income proof and identity documents, and allows repayment in two half-yearly installments after harvest.",
+     "a": "9",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how each term of credit (interest rate, collateral, documentation, repayment mode) affects the cost and accessibility of a loan, and can compare formal vs informal credit terms using a real-life borrowing scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small farmer, Ramesh, in ______ who needs ₹50,000 to buy seeds and fertilizer before the kharif season.",
+     "a": "Maharashtra",
+     "self_check": true
     }
    ]
   }

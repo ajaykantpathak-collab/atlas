@@ -12,7 +12,7 @@
     },
     {
      "q": "Why does the tangent line approximation work for √26.3 near x=25 but would fail badly if we tried to approximate √100 using the tangent at x=25? Explain using the concept of local linearity.",
-     "a": "The tangent line approximates the curve well only in a small neighbourhood of the point of tangency because f(x) is locally linear — the curve and its tangent become indistinguishable as Δx → 0. For √26.3, Δx = 1.3 is small relative to x=25 (5.2% change), so the linear approximation is accurate. For √100 from x=25, Δx = 75 is huge (300% change); the curvature of √x accumulates significant error over this interval, making the tangent line a terrible approximation. A student who says \"it works for any Δx\" fails to understand that the approximation error grows with (Δx)² and higher-order terms — a classic JEE trap where they apply the formula blindly without checking if Δx is \"small enough.\"",
+     "a": "(1) Why it works — the tangent line approximates a curve only in a small neighbourhood, because the function is locally linear and the curve and its tangent become indistinguishable as the step shrinks, (2) The good case — for the square root near twenty-five, a step of one point three is about a five percent change, so the linear estimate stays accurate, (3) The bad case — approximating the square root of one hundred from twenty-five means a step of seventy-five, a three-hundred-percent change, and the curvature accumulates large error, (4) The rule — approximation error grows with the square of the step and higher-order terms, so the step must be small enough. A student who says the formula works for any step size applies it blindly, which is the classic trap.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Design a real-world problem where a manufacturing engineer must use differentials to estimate the maximum allowable error in measuring the radius of a cylindrical pipe so that the cross-sectional area error stays within 1%. Specify all given values and what needs to be found. Solve your own problem.",
      "a": "**Problem:** A cylindrical pipe's cross-sectional area A = πr² must be manufactured with area error ≤ 1%. If the nominal radius is r = 5 cm, find the maximum allowable measurement error Δr in the radius.\n**Solution:** dA = A'(r) dr = 2πr dr. Relative error: |dA|/A = |2πr dr| / (πr²) = 2|dr|/r. Set 2|dr|/r ≤ 0.01 → |dr| ≤ 0.01r/2 = 0.01(5)/2 = 0.025 cm. Maximum allowable error = ±0.025 cm.\nA good answer shows: (1) correct formula for area, (2) differential relationship, (3) relative error derivation, (4) algebraic solution for dr, (5) units. A poor answer might use absolute error instead of relative, forget the factor of 2, or confuse radius with diameter — revealing they don't understand how relative errors propagate through power functions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The differential of a function y = f(x) is defined as dy = f'(x) dx, where dx = Δx is a small change in the independent variable x, and dy approximates the ______ change Δy in the dependent variable y.",
+     "a": "corresponding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to find √26.3 instantly during a ______ lab without a calculator.",
+     "a": "physics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to find √______ instantly during a physics lab without a calculator.",
+     "a": "26.3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute approximate values of algebraic, trigonometric, exponential, and root functions using differentials, estimate absolute/relative/percentage errors in measurements, and solve JEE-style problems combining approximation with maxima/minima or rate of change concepts.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to find √26.3 instantly during a physics lab without a ______.",
+     "a": "calculator",
      "self_check": true
     }
    ]

@@ -1,6 +1,288 @@
 {
- "catalog": "catalog_class12_accountancy_leca102",
+ "catalog": "catalog_class12_accountancy_leca102.json",
  "concepts": [
+  {
+   "id": "leca102.2",
+   "title": "Worksheet Capacity Arithmetic",
+   "converted_to_compute": true,
+   "formula": "cells_total = sheet_rows * sheet_columns",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "cells_total = sheet_rows * sheet_columns",
+     "compute": "cells_total = sheet_rows * sheet_columns"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Worksheet Capacity Arithmetic: given sheet_rows = 46, sheet_columns = 105, find cells total.",
+     "a": "4830",
+     "self_check": false
+    },
+    {
+     "q": "For Worksheet Capacity Arithmetic: given sheet_rows = 48, sheet_columns = 14.7, find cells total.",
+     "a": "705.6",
+     "self_check": false
+    },
+    {
+     "q": "For Worksheet Capacity Arithmetic: given sheet_rows = 20, sheet_columns = 24, find cells total.",
+     "a": "480",
+     "self_check": false
+    },
+    {
+     "q": "For Worksheet Capacity Arithmetic: given sheet_rows = 25, sheet_columns = 97, find cells total.",
+     "a": "2425",
+     "self_check": false
+    },
+    {
+     "q": "For Worksheet Capacity Arithmetic: given sheet_rows = 116, sheet_columns = 77, find cells total.",
+     "a": "8932",
+     "self_check": false
+    },
+    {
+     "q": "For Worksheet Capacity Arithmetic: given sheet_rows = 94, sheet_columns = 116, find cells total.",
+     "a": "10904",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leca102.3",
+   "title": "Basic and Derived Values",
+   "converted_to_compute": true,
+   "formula": "item_value = quantity_bought * unit_price",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "item_value = quantity_bought * unit_price",
+     "compute": "item_value = quantity_bought * unit_price"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Basic and Derived Values: given quantity_bought = 28, unit_price = 12.1, find item value.",
+     "a": "338.8",
+     "self_check": false
+    },
+    {
+     "q": "For Basic and Derived Values: given quantity_bought = 99, unit_price = 110, find item value.",
+     "a": "10890",
+     "self_check": false
+    },
+    {
+     "q": "For Basic and Derived Values: given quantity_bought = 99, unit_price = 115, find item value.",
+     "a": "11385",
+     "self_check": false
+    },
+    {
+     "q": "For Basic and Derived Values: given quantity_bought = 27, unit_price = 87, find item value.",
+     "a": "2349",
+     "self_check": false
+    },
+    {
+     "q": "For Basic and Derived Values: given quantity_bought = 85, unit_price = 41, find item value.",
+     "a": "3485",
+     "self_check": false
+    },
+    {
+     "q": "For Basic and Derived Values: given quantity_bought = 90, unit_price = 30, find item value.",
+     "a": "2700",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leca102.7",
+   "title": "Aggregate Functions SUM and AVERAGE with Named Ranges",
+   "converted_to_compute": true,
+   "formula": "day_avg = week_total / 7",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "day_avg = week_total / 7",
+     "compute": "day_avg = week_total / 7"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Aggregate Functions SUM and AVERAGE with Named Ranges: given week_total = 72, find day avg.",
+     "a": "10.2857",
+     "self_check": false
+    },
+    {
+     "q": "For Aggregate Functions SUM and AVERAGE with Named Ranges: given week_total = 100, find day avg.",
+     "a": "14.2857",
+     "self_check": false
+    },
+    {
+     "q": "For Aggregate Functions SUM and AVERAGE with Named Ranges: given week_total = 39, find day avg.",
+     "a": "5.57143",
+     "self_check": false
+    },
+    {
+     "q": "For Aggregate Functions SUM and AVERAGE with Named Ranges: given week_total = 94, find day avg.",
+     "a": "13.4286",
+     "self_check": false
+    },
+    {
+     "q": "For Aggregate Functions SUM and AVERAGE with Named Ranges: given week_total = 95, find day avg.",
+     "a": "13.5714",
+     "self_check": false
+    },
+    {
+     "q": "For Aggregate Functions SUM and AVERAGE with Named Ranges: given week_total = 116, find day avg.",
+     "a": "16.5714",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leca102.9",
+   "title": "Date Functions and Age from Serial Numbers",
+   "converted_to_compute": true,
+   "formula": "age_years = days_gap / 365.25",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "age_years = days_gap / 365.25",
+     "compute": "age_years = days_gap / 365.25"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Date Functions and Age from Serial Numbers: given days_gap = 16.4, find age years.",
+     "a": "0.0449008",
+     "self_check": false
+    },
+    {
+     "q": "For Date Functions and Age from Serial Numbers: given days_gap = 32, find age years.",
+     "a": "0.0876112",
+     "self_check": false
+    },
+    {
+     "q": "For Date Functions and Age from Serial Numbers: given days_gap = 9.5, find age years.",
+     "a": "0.0260096",
+     "self_check": false
+    },
+    {
+     "q": "For Date Functions and Age from Serial Numbers: given days_gap = 80, find age years.",
+     "a": "0.219028",
+     "self_check": false
+    },
+    {
+     "q": "For Date Functions and Age from Serial Numbers: given days_gap = 25, find age years.",
+     "a": "0.0684463",
+     "self_check": false
+    },
+    {
+     "q": "For Date Functions and Age from Serial Numbers: given days_gap = 96, find age years.",
+     "a": "0.262834",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leca102.12",
+   "title": "VLOOKUP Pricing: Markup and Discount",
+   "converted_to_compute": true,
+   "formula": "net_price = item_cost * (1 + markup_pct / 100) * (1 - discount_pct / 100)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_price = item_cost * (1 + markup_pct / 100) * (1 - discount_pct / 100)",
+     "compute": "net_price = item_cost * (1 + markup_pct / 100) * (1 - discount_pct / 100)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For VLOOKUP Pricing: Markup and Discount: given item_cost = 75, markup_pct = 39, discount_pct = 6.1, find net price.",
+     "a": "97.8908",
+     "self_check": false
+    },
+    {
+     "q": "For VLOOKUP Pricing: Markup and Discount: given item_cost = 62, markup_pct = 24, discount_pct = 72, find net price.",
+     "a": "21.5264",
+     "self_check": false
+    },
+    {
+     "q": "For VLOOKUP Pricing: Markup and Discount: given item_cost = 6.1, markup_pct = 79, discount_pct = 7.5, find net price.",
+     "a": "10.1001",
+     "self_check": false
+    },
+    {
+     "q": "For VLOOKUP Pricing: Markup and Discount: given item_cost = 48, markup_pct = 34, discount_pct = 44, find net price.",
+     "a": "36.0192",
+     "self_check": false
+    },
+    {
+     "q": "For VLOOKUP Pricing: Markup and Discount: given item_cost = 25, markup_pct = 6.8, discount_pct = 13.5, find net price.",
+     "a": "23.0955",
+     "self_check": false
+    },
+    {
+     "q": "For VLOOKUP Pricing: Markup and Discount: given item_cost = 65, markup_pct = 23, discount_pct = 67, find net price.",
+     "a": "26.3835",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leca102.13",
+   "title": "Loan Instalment with the PMT Function",
+   "converted_to_compute": true,
+   "formula": "loan_emi = loan_amt * rate_per * ((1 + rate_per) ** periods) / ((1 + rate_per) ** periods - 1)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "loan_emi = loan_amt * rate_per * ((1 + rate_per) ** periods) / ((1 + rate_per) ** periods - 1)",
+     "compute": "loan_emi = loan_amt * rate_per * ((1 + rate_per) ** periods) / ((1 + rate_per) ** periods - 1)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Loan Instalment with the PMT Function: given loan_amt = 6.2, rate_per = 33, periods = 66, find loan emi.",
+     "a": "204.6",
+     "self_check": false
+    },
+    {
+     "q": "For Loan Instalment with the PMT Function: given loan_amt = 5.3, rate_per = 43, periods = 27, find loan emi.",
+     "a": "227.9",
+     "self_check": false
+    },
+    {
+     "q": "For Loan Instalment with the PMT Function: given loan_amt = 19.3, rate_per = 79, periods = 4.2, find loan emi.",
+     "a": "1524.7",
+     "self_check": false
+    },
+    {
+     "q": "For Loan Instalment with the PMT Function: given loan_amt = 2.4, rate_per = 49, periods = 26, find loan emi.",
+     "a": "117.6",
+     "self_check": false
+    },
+    {
+     "q": "For Loan Instalment with the PMT Function: given loan_amt = 4.3, rate_per = 29, periods = 11.9, find loan emi.",
+     "a": "124.7",
+     "self_check": false
+    },
+    {
+     "q": "For Loan Instalment with the PMT Function: given loan_amt = 12.1, rate_per = 91, periods = 64, find loan emi.",
+     "a": "1101.1",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "leca102.1",
    "title": "Workbook, Worksheet and Active Sheet",
@@ -18,68 +300,6 @@
     {
      "q": "Write the standard relation used for 'Workbook, Worksheet and Active Sheet', in plain ASCII form.",
      "a": "workbook = collection of worksheets holding rows and columns",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leca102.2",
-   "title": "Worksheet Capacity Arithmetic",
-   "questions": [
-    {
-     "q": "Calculate the total cell grid of a worksheet with 65536 rows and 256 columns. Use the method 'Worksheet Capacity Arithmetic'. Work with: sheet_columns = 25, sheet_rows = 120. Carry the chain through step by step and give the final value of cells_total.",
-     "a": "3000 units",
-     "self_check": false
-    },
-    {
-     "q": "Compute the work area in cells when rows numbered 1 to 65536 cross 256 lettered columns. Use the method 'Worksheet Capacity Arithmetic'. Work with: sheet_columns = 200, sheet_rows = 200. Carry the chain through step by step and give the final value of cells_total.",
-     "a": "40000 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Worksheet Capacity Arithmetic' refers to.",
-     "a": "Excel 2007 lays out 65536 rows numbered top to bottom and 256 columns lettered left to right, so the grid of one sheet holds row-count times column-count cells in all -- a work area large enough for any application.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Worksheet Capacity Arithmetic'.",
-     "a": "Multiply the row count by the column count to size the full cell grid of one sheet.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Worksheet Capacity Arithmetic', in plain ASCII form.",
-     "a": "cells_total = sheet_rows * sheet_columns",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leca102.3",
-   "title": "Basic and Derived Values",
-   "questions": [
-    {
-     "q": "Using the method 'Basic and Derived Values', work with: quantity_bought = 45, unit_price = 2500. Carry the chain through step by step and give the final value of item_value.",
-     "a": "112500 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Basic and Derived Values' and work with: quantity_bought = 40, unit_price = 500. Carry the chain through step by step and give the final value of item_value.",
-     "a": "20000 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Basic and Derived Values' refers to.",
-     "a": "A cell value is either basic -- typed in independently -- or derived, produced by an arithmetic expression over other cells. When quantity Q of an item is bought at price P, the item's value V is derived by multiplying the two basic values; change either basic value and the derived value revises itself, which is what powers what-if study of alternatives.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Basic and Derived Values'.",
-     "a": "Typed-in numbers are basic values; results of expressions over them are derived values.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Basic and Derived Values', in plain ASCII form.",
-     "a": "item_value = quantity_bought * unit_price",
      "self_check": true
     }
    ]
@@ -148,37 +368,6 @@
    ]
   },
   {
-   "id": "leca102.7",
-   "title": "Aggregate Functions SUM and AVERAGE with Named Ranges",
-   "questions": [
-    {
-     "q": "Using the method 'Aggregate Functions SUM and AVERAGE with Named Ranges', work with: sale_fri = 500, sale_mon = 25, sale_sat = 10, sale_sun = 25, sale_thu = 3, sale_tue = 300, sale_wed = 20. Carry the chain through step by step and give the final value of day_avg.",
-     "a": "126.1429 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Aggregate Functions SUM and AVERAGE with Named Ranges' and work with: sale_fri = 25, sale_mon = 100, sale_sat = 12, sale_sun = 40, sale_thu = 75, sale_tue = 4, sale_wed = 500. Carry the chain through step by step and give the final value of day_avg.",
-     "a": "108 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Aggregate Functions SUM and AVERAGE with Named Ranges' refers to.",
-     "a": "A function is a built-in formula written as =FunctionName(arguments). SUM adds the numbers in a range -- the AutoSum button does it in one click -- and AVERAGE returns their mean; COUNT tallies numeric entries. A range can be given a descriptive name, so =SUM(Monthly_Totals) reads better than =SUM(B2:B5), and the name may feed later formulas and other functions alike.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Aggregate Functions SUM and AVERAGE with Named Ranges'.",
-     "a": "SUM totals a named range and AVERAGE divides the total by the number of entries.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Aggregate Functions SUM and AVERAGE with Named Ranges', in plain ASCII form.",
-     "a": "day_avg = week_total / 7",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "leca102.8",
    "title": "SUMIF, ROUND Family, TEXT and CONCATENATE",
    "questions": [
@@ -195,37 +384,6 @@
     {
      "q": "Write the standard relation used for 'SUMIF, ROUND Family, TEXT and CONCATENATE', in plain ASCII form.",
      "a": "rounding_family = round plus roundup plus rounddown by digit count",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leca102.9",
-   "title": "Date Functions and Age from Serial Numbers",
-   "questions": [
-    {
-     "q": "Using the method 'Date Functions and Age from Serial Numbers', work with: days_gap = 500. Carry the chain through step by step and give the final value of age_years.",
-     "a": "1.3689 years",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Date Functions and Age from Serial Numbers' and work with: days_gap = 150. Carry the chain through step by step and give the final value of age_years.",
-     "a": "0.4107 years",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Date Functions and Age from Serial Numbers' refers to.",
-     "a": "Excel stores each date as a serial number counted from January 1, 1900 as day 1, so dates subtract and compare like numbers. TODAY returns the current date's serial, NOW adds the time, DAY, MONTH and YEAR pull the parts of a date, and DATEVALUE turns typed text into a serial. An employee's age in years is the difference of the two serial numbers divided by 365.25, the fractional count that allows for leap years.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Date Functions and Age from Serial Numbers'.",
-     "a": "Dates are serial numbers, so age in years is the day difference divided by 365.25.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Date Functions and Age from Serial Numbers', in plain ASCII form.",
-     "a": "age_years = days_gap / 365.25",
      "self_check": true
     }
    ]
@@ -268,68 +426,6 @@
     {
      "q": "Write the standard relation used for 'Lookup Functions: LOOKUP, VLOOKUP and HLOOKUP', in plain ASCII form.",
      "a": "lookup_family = lookup plus vlookup plus hlookup over table arrays",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leca102.12",
-   "title": "VLOOKUP Pricing: Markup and Discount",
-   "questions": [
-    {
-     "q": "Compute the final price of goods costing Rs 50 with markup 30 per cent and discount 10 per cent. Use the method 'VLOOKUP Pricing: Markup and Discount'. Work with: discount_pct = 18, item_cost = 500, markup_pct = 80. Carry the chain through step by step and give the final value of net_price.",
-     "a": "738 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Calculate the sale price when the lookup returns cost Rs 100, markup 20 per cent and discount 5 per cent. Use the method 'VLOOKUP Pricing: Markup and Discount'. Work with: discount_pct = 20, item_cost = 1200, markup_pct = 60. Carry the chain through step by step and give the final value of net_price.",
-     "a": "1536 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'VLOOKUP Pricing: Markup and Discount' refers to.",
-     "a": "Business prices chain two lookups: the cost of an item is fetched by its item code, raised by its markup percentage to give the retail price, and a customer buying on a discount day pays the retail price cut by the discount percentage. The worksheet multiplies each stage out, so the same formula reprices every item when cost, markup or discount cells change.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'VLOOKUP Pricing: Markup and Discount'.",
-     "a": "Add the markup, then subtract the discount -- two multipliers chained on the item cost.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'VLOOKUP Pricing: Markup and Discount', in plain ASCII form.",
-     "a": "net_price = item_cost * (1 + markup_pct / 100) * (1 - discount_pct / 100)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leca102.13",
-   "title": "Loan Instalment with the PMT Function",
-   "questions": [
-    {
-     "q": "Using the method 'Loan Instalment with the PMT Function', work with: loan_amt = 12, periods = 10, rate_per = 25. Carry the chain through step by step and give the final value of loan_emi.",
-     "a": "300 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Loan Instalment with the PMT Function' and work with: loan_amt = 6, periods = 10, rate_per = 5. Carry the chain through step by step and give the final value of loan_emi.",
-     "a": "30 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Loan Instalment with the PMT Function' refers to.",
-     "a": "PMT calculates the equal periodic payment of an annuity such as a fixed-rate loan, written as PMT(rate, nper, pv, fv, type): rate is the interest per period, nper the number of periods, pv the loan amount, fv usually zero and type 0 for end-of-period payment. Underlying the function, the loan amount times the periodic rate, scaled by the growth of one plus the periodic rate over the term, divides out to the constant instalment.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Loan Instalment with the PMT Function'.",
-     "a": "A constant instalment repays principal plus interest -- principal times periodic rate scaled by compound growth over the term.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Loan Instalment with the PMT Function', in plain ASCII form.",
-     "a": "loan_emi = loan_amt * rate_per * ((1 + rate_per) ** periods) / ((1 + rate_per) ** periods - 1)",
      "self_check": true
     }
    ]

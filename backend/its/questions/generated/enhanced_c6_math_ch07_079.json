@@ -34,6 +34,26 @@
      "q": "Design a quadrilateral where all four angles are equal. What is the measure of each angle?",
      "a": "Each angle must be 90° because 360 / 4 = 90. If the student picks random numbers, they fail to apply the \"sum of 360\" rule to a division problem.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A triangle is a closed shape with three sides where the interior angles always add up to 180 degrees, while a ______ is a closed shape with four sides where the interior angles always add up to 360 degrees.",
+     "a": "quadrilateral",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a paper kite (______) and a triangular flag.",
+     "a": "quadrilateral",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by thinking of the total \"budget\" of degrees: ______° for a triangle.",
+     "a": "180",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to calculate the missing interior angle of a triangle given two angles, and a quadrilateral given three angles, by using the sum properties.",
+     "self_check": true
     }
    ]
   }

@@ -21,7 +21,7 @@
      "self_check": true
     },
     {
-     "q": "Compare the two code snippets below. Will they produce the same output for all inputs? Justify your answer.\n```python",
+     "q": "Compare the two code snippets below. Will they produce the same output for all inputs? Justify your answer.\n```python\n# Snippet A\nif age >= 18:\n    print(\"Adult\")\nprint(\"Next\")\n\n# Snippet B\nif age >= 18:\n    print(\"Adult\")\n    print(\"Next\")\n```",
      "a": "No, they differ when `age < 18`. In Snippet A, `print(\"Next\")` is unindented, so it always executes. In Snippet B, `print(\"Next\")` is indented, so it executes only when `age >= 18`. A wrong answer (claiming they are the same) indicates the student does not grasp that indentation determines block membership, not just line order.",
      "self_check": true
     },
@@ -33,6 +33,21 @@
     {
      "q": "Create a new real-world scenario (different from voting age or pass marks) where a simple `if` statement is appropriate. Write the Python code for it, including input, condition, and indented action. Explain why an `if` (without `else`) is sufficient here.",
      "a": "Example: A coffee machine dispenses a free cookie only when the customer buys a large coffee.\n```python\nsize = input(\"Enter coffee size (small/medium/large): \")\nif size == \"large\":\n    print(\"Free cookie added!\")\n```\nAn `if` alone is sufficient because no action is needed for other sizes — the program simply continues. A poor answer (using `if-else` unnecessarily, or choosing a scenario requiring two distinct actions) reveals the student cannot distinguish between one-way and two-way decisions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The if statement in Python is a ______ control structure that executes a block of indented statements only when the specified boolean condition evaluates to True; if the condition evaluates to False, the block is skipped entirely and execution continues with the next statement at the same indentation level as the if.",
+     "a": "conditional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a program for a school library that should print \"Book issued\" only when a student's ______ is active.",
+     "a": "membership",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write syntactically correct if statements with proper indentation, predict the exact output for given input values by tracing the condition evaluation, and explain why a specific block of code did or did not execute based on the boolean result of the condition.",
      "self_check": true
     }
    ]

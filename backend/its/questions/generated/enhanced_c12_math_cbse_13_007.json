@@ -34,6 +34,26 @@
      "q": "Create a real-life experiment (different from coins, dice, or cards) that yields a discrete random variable with at least 4 possible values. Define the random variable, describe the sample space, and write its probability distribution. Ensure the probabilities sum to 1.",
      "a": "Example: A box contains 10 pens: 4 red, 3 blue, 3 green. Two pens are drawn without replacement. Let \\(X\\) = number of red pens drawn.  \nSample space: all unordered pairs of pens (or ordered, but easier with combinations).  \n\\(X\\) can be 0, 1, 2.  \n\\(P(X=0) = \\frac{\\binom{6}{2}}{\\binom{10}{2}} = \\frac{15}{45} = \\frac{1}{3}\\).  \n\\(P(X=2) = \\frac{\\binom{4}{2}}{\\binom{10}{2}} = \\frac{6}{45} = \\frac{2}{15}\\).  \n\\(P(X=1) = \\frac{\\binom{4}{1}\\binom{6}{1}}{\\binom{10}{2}} = \\frac{24}{45} = \\frac{8}{15}\\).  \nSum = \\(\\frac{15+24+6}{45}=1\\).  \nA poor answer (e.g., only 3 values, probabilities not summing to 1, or not a well-defined random experiment) reveals the student cannot construct a valid probabilistic model from a real situation or fails to verify the distribution conditions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A random variable is a real-valued function whose domain is the sample space of a random ______.",
+     "a": "experiment",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a Diwali mela playing a game: you draw two cards without ______ from a well-shuffled deck of 52 cards.",
+     "a": "replacement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a Diwali mela playing a game: you draw two cards without replacement from a well-shuffled deck of ______ cards.",
+     "a": "52",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to define a random variable for a given experiment, list its possible values, construct its probability distribution by computing probabilities for each value, and verify that the distribution satisfies the two conditions (non-negativity and sum to 1).",
+     "self_check": true
     }
    ]
   }

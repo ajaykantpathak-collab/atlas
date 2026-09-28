@@ -34,6 +34,36 @@
      "q": "Design a location decision matrix for a hypothetical agro-based food processing unit (tomato ketchup) in Maharashtra. List five factors, assign weights (total 100), and justify the top-weighted factor.",
      "a": "Matrix: (1) Raw material proximity (tomato farms) — 30% — perishable, weight-losing, daily supply needed. (2) Transport (NH/rail) — 20% — for distribution to urban markets. (3) Power/water — 15% — continuous processing requires stable supply. (4) Labour — 15% — semi-skilled, locally available. (5) Government incentives (food park scheme) — 10% — reduces capital cost. Top factor: raw material proximity — tomato loses 15-20% weight in processing and spoils in 48 hrs; any distance adds refrigeration cost. A poor answer assigning highest weight to \"market\" or \"policy\" without addressing perishability shows failure to apply the *material index* concept to agro-processing.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Manufacturing is the process of ______ raw materials into finished goods on a large scale using machinery, labour, and capital; industrial location factors are the geographical and economic determinants (raw material, labour, power, market, transport, capital, government policy) that influence where a manufacturing unit is established to minimise production cost and maximise profit.",
+     "a": "transforming",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a factory near your city — perhaps a sugar mill in Uttar Pradesh or a textile unit in Tamil Nadu — and ask: \"Why is it HERE and not 50 km away?\" Start by listing what the factory needs daily: sugarcane or cotton (raw material), workers (labour), ______ (power), trucks/railways to send goods (transport), buyers (market), and loans (capital).",
+     "a": "electricity",
+     "self_check": true
+    },
+    {
+     "q": "What is Manufacturing? State the definition given in this lesson.",
+     "a": "Manufacturing is the process of transforming raw materials into finished goods on a large scale using machinery, labour, and capital; industrial location factors are the geographical and economic determinants (raw material, labour, power, market, transport, capital, government policy) that influence where a manufacturing unit is.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a factory near your city — perhaps a sugar mill in Uttar Pradesh or a textile unit in Tamil Nadu — and ask: \"Why is it HERE and not ______ km away?\" Start by listing what the factory needs daily: sugarcane or cotton (raw material), workers (labour), electricity (power), trucks/railways to send goods (transport), buyers (market), and loans (capital).",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Manufacturing?",
+     "a": "Students believe \"industries locate where raw materials are found\" as a universal rule.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the role of manufacturing in India's national economy (GDP contribution, employment generation, agricultural modernisation, trade balance) and can analyse a given industrial scenario to identify and justify the dominant location factors using specific Indian examples (e.g., why the cotton textile industry.",
+     "self_check": true
     }
    ]
   }

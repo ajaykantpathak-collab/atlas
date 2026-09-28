@@ -34,6 +34,26 @@
      "q": "Design a map annotation exercise for a Class 11 student to demonstrate India's hemispheric location, including the Equator, Tropic of Cancer, Prime Meridian, and Standard Meridian, with labels explaining their significance for India's climate and time.",
      "a": "A good answer includes: a sketch map of India with latitudinal/longitudinal lines, marked Equator (0°) south of India, Tropic of Cancer (23°30'N) crossing central India, Prime Meridian (0°) west of India, Standard Meridian (82°30'E) through Mirzapur. Annotations: \"Tropic of Cancer divides India into tropical and subtropical zones\", \"Standard Meridian defines IST (UTC+5:30)\". Poor answer misses the Tropic of Cancer or misplaces the Standard Meridian, indicating inability to synthesize locational concepts.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: India lies entirely in the Northern Hemisphere (between 8°4'N and 37°6'N latitudes) and the Eastern Hemisphere (between 68°7'E and 97°25'E ______), placing it in the north-eastern quadrant of the globe.",
+     "a": "longitudes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real-world observation: A student in ______ Pradesh sees sunrise two hours earlier than a student in Gujarat, yet both follow the same clock time (IST).",
+     "a": "Arunachal",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain how India's hemispheric position influences its climate zones, seasonal patterns, and time zone relative to GMT, and can correlate latitudinal extent with variation in day length and solar insolation across the country.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real-world ______: A student in Arunachal Pradesh sees sunrise two hours earlier than a student in Gujarat, yet both follow the same clock time (IST).",
+     "a": "observation",
+     "self_check": true
     }
    ]
   }

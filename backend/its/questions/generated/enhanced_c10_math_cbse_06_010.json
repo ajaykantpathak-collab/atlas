@@ -34,6 +34,26 @@
      "q": "Create a real-life problem (Indian context) where a person uses the converse of Pythagoras theorem to verify a right angle. Include three side lengths that are NOT a standard Pythagorean triple but still satisfy the condition. Provide the full solution.",
      "a": "Example problem: A mason laying a rectangular foundation for a room measures three sides of a corner triangle as 1.5 m, 2 m, and 2.5 m. He wants to confirm the corner is 90°.\nSolution: Longest side = 2.5 m. (2.5)² = 6.25. 1.5² + 2² = 2.25 + 4 = 6.25. Since equal, corner is right angle.\nA poor answer uses only standard triples like 3-4-5 or 5-12-13, showing lack of flexibility with decimals/non-integer sides. Board exams often use non-integer lengths (e.g., 1.5, 2, 2.5) to test if students can compute squares of decimals correctly.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In any ______, if the square of the length of one side is equal to the sum of the squares of the lengths of the other two sides, then the angle opposite the first side is a right angle.",
+     "a": "triangle",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a carpenter building a ______ shelf: he cuts four pieces of wood and wants to check if the corners are perfect 90° angles without a protractor.",
+     "a": "rectangular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a carpenter building a rectangular shelf: he cuts four pieces of wood and wants to check if the corners are perfect ______° angles without a protractor.",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the longest side as the potential hypotenuse, compute squares of all three sides, and conclude whether the triangle is right-angled by checking the equality condition.",
+     "self_check": true
     }
    ]
   }

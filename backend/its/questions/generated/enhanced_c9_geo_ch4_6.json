@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_geo_ch4_6",
+ "concepts": [
+  {
+   "id": "enh:c9_geo_ch4_6",
+   "title": "c9_geo_ch4_6",
+   "questions": [
+    {
+     "q": "What are the three types of forest rights recognised under the Forest Rights Act, 2006?",
+     "a": "The three types are: (1) Individual Forest Rights (IFR) — right to hold and live on forest land for habitation or self-cultivation; (2) Community Forest Rights (CFR) — rights over nistar, grazing, fishing, water bodies, traditional seasonal access; (3) Community Forest Resource Rights (CFRR) — right to protect, regenerate, conserve, or manage community forest resources. A wrong answer (e.g., listing \"right to education\" or \"right to jobs\") reveals the student confuses FRA with welfare schemes rather than a tenure-rights law.",
+     "self_check": true
+    },
+    {
+     "q": "Why does the Forest Rights Act, 2006 require the Gram Sabha to initiate the verification of forest rights claims instead of the Forest Department?",
+     "a": "Because the Gram Sabha — consisting of all adult voters in the village — is the body that knows local history, customary boundaries, and oral evidence of three-generational residence (75 years), which the Forest Department lacks. The Act deliberately places the *initiation* and *recommendation* power with the community to correct the historical injustice of the 1878 Indian Forest Act that vested all power in the state. A wrong answer (e.g., \"Gram Sabha is faster\" or \"Forest Department is corrupt\") shows the student misses the constitutional design: **decentralised evidence-gathering** as a check on state monopoly over forests.",
+     "self_check": true
+    },
+    {
+     "q": "A village in a Fifth Schedule Area of Chhattisgarh wants to stop a bauxite mining lease on its community forest land. Under which specific provision of PESA, 1996 can the Gram Sabha exercise this power, and what is the mandatory step before the state government can acquire the land?",
+     "a": "Under Section 4(i) of PESA, the Gram Sabha has ownership of minor forest produce and must be consulted before land acquisition; under Section 4(k), the Gram Sabha's **prior informed consent (FPIC)** is mandatory for acquisition of land in Scheduled Areas for development projects. The mandatory step: the state government must obtain a resolution from the Gram Sabha giving free, prior, and informed consent before proceeding. A wrong answer (e.g., \"Gram Panchayat approves\" or \"Collector decides\") reveals confusion between Gram Sabha (all voters) and Gram Panchayat (elected body), and ignorance of FPIC as a legal veto, not just consultation.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"cut-off date\" for eligibility under FRA 2006 with the \"cut-off date\" for citizenship under the Assam Accord. What geographical-historical logic explains the difference?",
+     "a": "FRA 2006 uses **13 December 2005** (75 years before enactment = three generations) as cut-off for \"Other Traditional Forest Dwellers\" (STs have no cut-off). The Assam Accord uses **24 March 1971** as cut-off for detecting \"foreigners.\" The difference: FRA recognises *continuous, pre-colonial customary use* of forest land (hence three generations ≈ pre-1878 Indian Forest Act), while the Assam Accord addresses *post-Partition migration*. A wrong answer (e.g., \"both are 1971\" or \"FRA uses 1947\") shows the student cannot link legal cut-offs to distinct historical processes: **colonial forest law vs. Partition migration**.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"The Forest Rights Act, 2006 weakens tiger conservation because it gives forest land to people inside tiger reserves.\" Support your answer with two specific provisions of the Act.",
+     "a": "The statement is **incorrect**. FRA Section 4(2) allows modification/resettlement of rights **only** if: (a) it is necessary for wildlife conservation, (b) no alternative exists, (c) free informed consent of Gram Sabha is obtained, and (d) a secure livelihood package is provided. Section 3(1)(i) recognises **Community Forest Resource Rights** — enabling communities to *conserve* forests (e.g., BRT Tiger Reserve, Soliga tribe). Evidence shows community-managed forests often have better biodiversity than state-managed ones. A wrong answer (agreeing without citing provisions) reveals the student equates \"rights recognition\" with \"unrestricted exploitation\" and ignores the Act's built-in conservation safeguards.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step process for a Gram Sabha in a Fifth Schedule Area of Jharkhand to legally reject a proposed stone quarry on its community forest land, citing specific sections of PESA and FRA.",
+     "a": "Good answer criteria: (1) Gram Sabha convenes with quorum (PESA S.4); (2) Receives project details from District Collector (PESA S.4(k)); (3) Verifies if land has CFRR title under FRA S.3(1)(i); (4) Records minutes of discussion reflecting **free, prior, informed consent (FPIC)** — including environmental, cultural, livelihood impacts; (5) Passes resolution **rejecting** the proposal (PESA S.4(k) + FRA S.5); (6) Sends resolution to Sub-Divisional Level Committee and District Collector; (7) If ignored, files complaint under FRA S.6 (appeal to DLF) or approaches High Court. A poor answer (e.g., \"write to CM\" or \"protest\") shows the student does not know the **statutory procedural pathway** that converts community will into legal veto.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

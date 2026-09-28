@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a dip circle to determine the angle of dip at your school laboratory. List the apparatus, procedure, and how you would calculate δ from observations. What precaution ensures the plane of rotation is the magnetic meridian?",
      "a": "Apparatus: Dip circle (magnetic needle free to rotate in vertical plane), spirit level. Procedure: (1) Level the dip circle base using spirit level. (2) Rotate the horizontal box until the needle shows 0°-0° reading (needle horizontal) — this aligns the plane of rotation with magnetic meridian. (3) Release the needle in vertical plane; it dips to angle δ. (4) Take readings on both ends of needle, average to remove index error. Calculation: δ = average of two readings. Precaution: The horizontal circle must be rotated until the needle rests horizontally (0°) — this ensures the vertical plane contains the magnetic meridian. A poor answer (using compass instead of dip circle, or not leveling) reveals confusion between declination measurement (horizontal plane) and dip measurement (vertical plane in magnetic meridian).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Earth's magnetic field at any location is completely described by three ______ elements: (1) Magnetic Declination (D) — the angle between the geographic meridian and the magnetic meridian, measured in degrees east or west; (2) Angle of Dip or Inclination (δ) — the angle made by the total Earth's magnetic field vector with the horizontal plane in the magnetic meridian, positive downward in the northern hemisphere; (3) Horizontal Component (H_E) — the component of Earth's total magnetic field along the horizontal direction in the magnetic meridian, measured in tesla (T) or gauss (1 G = 10⁻⁴ T).",
+     "a": "independent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a magnetic compass on your study table — the needle points roughly north-south but not exactly toward the ______ North Pole shown on maps.",
+     "a": "geographic",
+     "self_check": true
+    },
+    {
+     "q": "What is Earth's magnetic field at any location? State the definition given in this lesson.",
+     "a": "Earth's magnetic field at any location is completely described by three independent elements: (1) Magnetic Declination (D) — the angle between the geographic meridian and the magnetic meridian, measured in degrees east or west; (2) Angle of Dip or Inclination (δ) — the angle made by the total Earth's magnetic field vector with the.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Identify and define all three elements of Earth's magnetic field from a description or diagram; (2) Calculate any one element given the other two using trigonometric relationships; (3) Distinguish between geographic and magnetic meridians and explain how declination affects compass navigation; (4) Solve numerical.",
+     "self_check": true
     }
    ]
   }

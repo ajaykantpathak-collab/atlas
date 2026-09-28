@@ -4,15 +4,9 @@
   {
    "id": "hemh.103.3.1",
    "title": "Classification of Polygons",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 55 gives 35",
-     "compute": "other = 90 - 55"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 55 degrees, find the other.",
@@ -50,6 +44,8 @@
    "id": "hemh.103.3.2",
    "title": "Sum of the Measures of Exterior Angles of a Polygon",
    "converted_to_compute": false,
+   "formula": "exterior_angle = 360 / n_sides",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 37 degrees, find the other.",
@@ -87,6 +83,8 @@
    "id": "hemh.103.3.3",
    "title": "Sum of Interior Angles of a Polygon",
    "converted_to_compute": false,
+   "formula": "angle_sum = (n_sides - 2) * 180",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 74 degrees, find the other.",
@@ -123,15 +121,9 @@
   {
    "id": "hemh.103.3.4",
    "title": "Parallelogram Properties",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the quadrilateral property to compute the value",
-     "explain": "use the quadrilateral property to compute the value: adj = 180 - 120 gives 60",
-     "compute": "adj = 180 - 120"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a parallelogram one angle is 120 degrees. Find the adjacent angle.",
@@ -160,7 +152,7 @@
     },
     {
      "q": "A kite has one pair of equal angles. If the angle between the unequal sides is 60 degrees and the kite is symmetric, the sum of the two equal opposite angles is 360 - 60 - the other given angle of 80 degrees. Find the sum of the two equal angles.",
-     "a": "220",
+     "a": "240",
      "self_check": false
     }
    ]

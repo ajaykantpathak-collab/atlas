@@ -34,6 +34,26 @@
      "q": "Design a labeled cross-section diagram of Earth's core showing: (a) depth scale, (b) P-wave and S-wave paths through the core, (c) the S-wave shadow zone, (d) the inner core boundary (Lehmann discontinuity), and (e) convection cells in the outer core with Coriolis deflection arrows. Annotate each feature with the physical principle it demonstrates.",
      "a": "**Expected diagram elements:**  \n- Concentric circles: crust, mantle, outer core (liquid), inner core (solid).  \n- Depth labels: 0, 2,900 km (Gutenberg), 5,100 km (Lehmann), 6,371 km (center).  \n- P-wave paths: refracted at Gutenberg (Snell's law), some reflect; S-waves stop at Gutenberg.  \n- S-wave shadow zone: 103°–180° marked with \"No S-waves — liquid outer core\".  \n- Convection cells: helical columns aligned with rotation axis, arrows showing upwelling/downwelling deflected right (N. hemisphere) by Coriolis.  \n- Annotations: \"P-wave refraction → density jump\", \"S-wave absence → zero rigidity\", \"Helical convection + rotation → geodynamo\".  \nA poor diagram shows straight convection cells (ignoring Coriolis), missing shadow zone, or mislabels Lehmann as Gutenberg — revealing inability to synthesize seismic, thermal, and rotational physics into one coherent model.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Earth's core is the ______ layer, divided into a liquid outer core (2,900–5,100 km depth) composed primarily of molten iron-nickel alloy with lighter elements (sulfur, oxygen), and a solid inner core (5,100–6,371 km depth) of nearly pure iron-nickel alloy.",
+     "a": "innermost",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Hold a compass and ______ the needle pointing north — this invisible force originates 2,900 km beneath your feet.",
+     "a": "observe",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain why the outer core is liquid while the inner core is solid despite higher temperatures, describe how S-wave shadow zones prove the outer core's liquid state, and articulate the geodynamo mechanism linking outer core convection to Earth's magnetic field.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Hold a compass and observe the needle pointing north — this invisible force ______ 2,900 km beneath your feet.",
+     "a": "originates",
+     "self_check": true
     }
    ]
   }

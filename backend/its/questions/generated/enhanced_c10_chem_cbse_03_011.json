@@ -34,6 +34,31 @@
      "q": "Design a simple experiment to demonstrate that anode mud from electrolytic refining of copper contains gold and silver. List materials, procedure, and the chemical test to confirm their presence.",
      "a": "Materials: Impure copper anode (with Ag/Au), pure Cu cathode, CuSO₄ electrolyte, beaker, battery, wires, aqua regia, test tubes. Procedure: Run electrolysis for 30 min. Collect brownish anode mud. Add aqua regia (conc. HCl + conc. HNO₃ 3:1) to mud — Au and Ag dissolve. For Ag: add NaCl → white precipitate AgCl. For Au: add SnCl₂ → purple precipitate (Au colloid). A poor answer (e.g., \"heat the mud\" or \"use HCl only\") reveals lack of knowledge about noble metal chemistry and the need for aqua regia to dissolve Au/Pt.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Electrolytic refining is the process of ______ impure metal by using it as the anode in an electrolytic cell where the same metal in pure form deposits on the cathode, while more reactive impurities remain in solution and less reactive impurities fall as anode mud.",
+     "a": "purifying",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the electrical wiring in your home — the copper wires are shiny, reddish-brown, and conduct ______ perfectly.",
+     "a": "electricity",
+     "self_check": true
+    },
+    {
+     "q": "What is Electrolytic refining? State the definition given in this lesson.",
+     "a": "Electrolytic refining is the process of purifying impure metal by using it as the anode in an electrolytic cell where the same metal in pure form deposits on the cathode, while more reactive impurities remain in solution and less reactive impurities fall as anode mud.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Electrolytic refining?",
+     "a": "Students think that during electrolytic refining, ALL impurities fall as anode mud.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can draw a labelled diagram of the electrolytic cell for copper refining, write balanced half-reactions at both electrodes, explain why impurities like iron and zinc remain in solution while gold and platinum fall as anode mud, and predict the products when a different metal (e.g., silver) is refined using the same principle.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a dichotomous key with four couplets to distinguish the four amniote classes (Reptilia, Aves, Mammalia) plus Amphibia as the outgroup, using only skin covering, heart chambers, fertilization type, and limb modification.",
      "a": "1a. Skin moist, no scales; fertilization external → Amphibia\n1b. Skin dry with scales/feathers/hair; fertilization internal → 2\n2a. Skin with feathers; forelimbs modified as wings; four-chambered heart → Aves\n2b. Skin with scales or hair; forelimbs not wings (usually) → 3\n3a. Skin with epidermal scales/scutes; heart usually three-chambered (four in crocodiles) → Reptilia\n3b. Skin with hair; mammary glands present; four-chambered heart → Mammalia\nA poor key using non-diagnostic traits (e.g., \"lays eggs\" which applies to all except some mammals) reveals inability to select phylogenetically informative characters.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The subphylum Vertebrata is divided into seven classes based on progressive evolutionary ______ of the endoskeleton (cartilaginous vs. bony), respiratory structures (gills vs. lungs), locomotory appendages (fins vs. limbs), skin coverings (scales, feathers, hair), heart chambers (two to four), and reproductive strategies (oviparity vs. viviparity).",
+     "a": "modifications",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a zoo in Delhi observing a shark, a rohu fish, a frog, a ______ lizard, a pigeon, and a monkey.",
+     "a": "garden",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can classify any given vertebrate specimen into its correct class using a dichotomous key based on NCERT distinguishing features (skeleton type, jaw presence, operculum, limb modification, skin covering, heart chambers, thermoregulation) and justify the classification with at least three defining characteristics.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a zoo in Delhi ______ a shark, a rohu fish, a frog, a garden lizard, a pigeon, and a monkey.",
+     "a": "observing",
+     "self_check": true
     }
    ]
   }

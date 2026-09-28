@@ -34,6 +34,26 @@
      "q": "Design a scenario where a transaction must include a SELECT statement (e.g., checking balance before update) and explain why that SELECT should be inside the same transaction as the UPDATE, using the concept of isolation.",
      "a": "Scenario: Transfer funds only if sender balance ≥ amount. The SELECT to check balance and the subsequent UPDATE must be in the same transaction to prevent a race condition where another transaction modifies the balance between the SELECT and UPDATE (lost update / dirty read). Without transaction isolation (e.g., REPEATABLE READ), the balance could change after SELECT but before UPDATE, leading to overdraft. A poor answer that says \"SELECT doesn't change data so it doesn't need a transaction\" misses the consistency requirement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A transaction in database ______ is a logical unit of work consisting of one or more SQL statements that must be executed atomically — either all succeed and are made permanent with commit(), or any failure triggers a rollback() that undoes all changes since the last commit, ensuring data consistency and integrity.",
+     "a": "connectivity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a banking app where transferring money ______ two updates: deduct from sender and credit to receiver.",
+     "a": "requires",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write Python code using mysql.connector that explicitly controls transactions: disable autocommit, execute multiple DML statements (INSERT/UPDATE/DELETE), handle exceptions, and correctly call connection.commit() on success or connection.rollback() on failure, explaining why each step is necessary for data.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a banking app where ______ money requires two updates: deduct from sender and credit to receiver.",
+     "a": "transferring",
+     "self_check": true
     }
    ]
   }

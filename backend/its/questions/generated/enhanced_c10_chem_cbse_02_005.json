@@ -34,6 +34,21 @@
      "q": "Design a simple laboratory experiment to distinguish between solid samples of sodium carbonate and sodium hydrogencarbonate using only dilute HCl and lime water. Write the procedure, expected observations, and the chemical reasoning.",
      "a": "Procedure: (1) Take two test tubes, add 1 g each solid. (2) Add 5 mL dilute HCl to both. (3) Pass gas from each through separate lime water tubes. Observations: Both produce CO₂ (lime water turns milky). Na₂CO₃ reacts vigorously with 2HCl; NaHCO₃ reacts moderately with 1HCl per mole. To distinguish: measure gas volume — same mass of NaHCO₃ gives ~1.26× more CO₂ (see Q4). Or add acid dropwise: Na₂CO₃ needs 2× more drops for complete reaction. Reasoning: Different H⁺ stoichiometry (CO₃²⁻ vs HCO₃⁻). A poor answer that only says \"both fizz\" without quantitative distinction reveals inability to apply mole concept for identification — a common board practical question.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When an acid reacts with a metal carbonate (CO₃²⁻) or metal ______ (HCO₃⁻), it produces a salt, water, and carbon dioxide gas.",
+     "a": "hydrogencarbonate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe what happens when you drop a few drops of vinegar (acetic acid) on baking soda (sodium ______) in your kitchen — vigorous fizzing occurs due to CO₂ gas.",
+     "a": "hydrogencarbonate",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write balanced chemical equations for any acid-carbonate/hydrogencarbonate reaction, identify all three products correctly, and describe the lime water test for CO₂ with the correct observation and equation.",
+     "self_check": true
     }
    ]
   }

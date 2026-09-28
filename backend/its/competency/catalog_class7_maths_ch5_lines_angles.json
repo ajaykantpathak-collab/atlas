@@ -21,7 +21,7 @@
     "identify line segment line and ray",
     "how many endpoints does a line have"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -38,7 +38,16 @@
      "action": "verify classification",
      "explain": "Confirm: segment has 2 endpoints, line has 0 endpoints, ray has 1 endpoint"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 5 gives 5",
+     "compute": "lines = 5"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m5.2.1",
@@ -131,7 +140,7 @@
     "adjacent angles that do not form linear pair",
     "name the pairs of angles"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -153,7 +162,16 @@
      "action": "check linear pair",
      "explain": "If sum = 180, they form a linear pair"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 30 gives 60",
+     "compute": "other = 90 - 30"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m5.2.4",
@@ -176,7 +194,7 @@
     "what do you understand by vertically opposite angles",
     "list the main points about vertically opposite angles"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -193,7 +211,16 @@
      "action": "state equality",
      "explain": "Vertically opposite angles are equal"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 22 gives 68",
+     "compute": "other = 90 - 22"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m5.3.1",
@@ -210,7 +237,7 @@
     "can two lines intersect at more than one point",
     "find intersecting line segments"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -227,7 +254,16 @@
      "action": "verify uniqueness",
      "explain": "Two distinct lines can intersect at exactly one point"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 3 gives 3",
+     "compute": "lines = 3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m5.3.2",
@@ -250,7 +286,7 @@
     "what do you understand by transversal",
     "list the main points about transversal"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -267,7 +303,16 @@
      "action": "confirm transversal",
      "explain": "If the line cuts two or more lines at distinct points, it is a transversal"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 68 gives 22",
+     "compute": "other = 90 - 68"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m5.3.3",
@@ -285,7 +330,7 @@
     "name the pairs of angles",
     "interior and exterior angles"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -302,7 +347,16 @@
      "action": "classify pairs",
      "explain": "Corresponding: same position. Alternate: opposite sides, between lines. Same-side: same side, between lines."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 47 gives 43",
+     "compute": "other = 90 - 47"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m5.3.4",
@@ -355,7 +409,7 @@
     "are the lines parallel",
     "how to check parallel lines"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -377,7 +431,16 @@
      "action": "conclude",
      "explain": "If any condition holds, lines are parallel"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 14 gives 76",
+     "compute": "other = 90 - 14"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

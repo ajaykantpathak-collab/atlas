@@ -34,6 +34,31 @@
      "q": "Create a word problem on melting and recasting that combines TWO different original solids (e.g., a cylinder and a cone melted together) into ONE new solid (e.g., a sphere). Specify all dimensions such that the answer is a neat integer. Provide the problem statement only.",
      "a": "Example problem: \"A solid iron cylinder of radius 6 cm and height 8 cm, and a solid iron cone of radius 6 cm and height 24 cm, are melted together and recast into a solid sphere. Find the radius of the sphere.\"\nCheck: Cylinder volume = π×6²×8 = 288π. Cone volume = (1/3)π×6²×24 = 288π. Total = 576π.\nSphere: (4/3)πR³ = 576π → R³ = 432 → R = ∛432 = not integer.\nBetter: Cylinder r=3, h=4 → 36π. Cone r=3, h=12 → 36π. Total=72π. Sphere: (4/3)πR³=72π → R³=54 → not integer.\nGood problem: Cylinder r=4, h=9 → 144π. Cone r=4, h=27 → 144π. Total=288π. Sphere: R³=216 → R=6 cm. Integer!\nA poor problem (e.g., dimensions not yielding integer, or missing units) reveals the student doesn't understand the reverse-engineering needed to create valid board-style questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When a solid is melted and recast into a different shape (or ______ shapes), the volume of the material remains constant provided there is no wastage or addition of material.",
+     "a": "multiple",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a goldsmith in Jaipur melting a spherical gold ornament of radius 3 cm to make a solid ______ wire of radius 0.1 cm.",
+     "a": "cylindrical",
+     "self_check": true
+    },
+    {
+     "q": "What is When a solid? State the definition given in this lesson.",
+     "a": "When a solid is melted and recast into a different shape (or multiple shapes), the volume of the material remains constant provided there is no wastage or addition of material.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about When a solid?",
+     "a": "Students equate SURFACE AREAS instead of volumes when a solid is melted and recast.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can solve multi-step problems where a solid (or combination of solids) is melted and recast into a new solid (or combination), by equating volumes, solving for an unknown dimension (radius, height, side), and verifying the answer satisfies physical constraints (positive dimensions, correct units).",
+     "self_check": true
     }
    ]
   }

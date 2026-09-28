@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch14_3",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch14_3",
+   "title": "c9_math_ch14_3",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between a bar graph and a histogram in terms of the data they represent and the spacing between bars?",
+     "a": "A bar graph represents categorical or discrete data with gaps between bars; a histogram represents continuous grouped data with no gaps (bars touch). A wrong answer (e.g., \"both have gaps\" or \"histogram is just a prettier bar graph\") reveals the student confuses discrete vs. continuous data types and doesn't understand that touching bars signify continuity of the underlying variable.",
+     "self_check": true
+    },
+    {
+     "q": "In a histogram with unequal class widths, why can't we simply use frequency as the height of the rectangles? What must we use instead?",
+     "a": "If class widths are unequal, using frequency as height misrepresents the data because a wider class would naturally have more observations even if density is the same. We must use **frequency density = frequency / class width** as the height, so that area = frequency density × class width = frequency. A wrong answer (e.g., \"use relative frequency\" or \"make all classes equal width\") reveals the student doesn't grasp that area, not height, must represent frequency in a histogram.",
+     "self_check": true
+    },
+    {
+     "q": "The following grouped frequency table shows the weights (in kg) of 40 students. Construct a histogram and frequency polygon on the same axes.\n\n| Weight (kg) | 30-35 | 35-40 | 40-45 | 45-50 | 50-55 | 55-60 |\n|-------------|-------|-------|-------|-------|-------|-------|\n| Frequency   | 3     | 7     | 12    | 10    | 5     | 3     |",
+     "a": "**Steps:**  \n1. Class intervals are continuous and equal width (5 kg), so frequency can be used directly as height.  \n2. Draw x-axis: weight (kg) from 30 to 60; y-axis: frequency from 0 to 12.  \n3. Draw rectangles for each class: base = class interval, height = frequency. Bars touch.  \n4. For frequency polygon: find class marks (mid-points): 32.5, 37.5, 42.5, 47.5, 52.5, 57.5.  \n5. Add imagined classes: 25-30 (mark 27.5, freq 0) and 60-65 (mark 62.5, freq 0).  \n6. Plot points: (27.5,0), (32.5,3), (37.5,7), (42.5,12), (47.5,10), (52.5,5), (57.5,3), (62.5,0). Join with straight lines.  \n**Wrong answer** (e.g., gaps in histogram, missing imagined classes, plotting at class boundaries instead of mid-points) reveals confusion between bar graph/histogram rules or misunderstanding of frequency polygon construction.",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a histogram for the data: Class 0-10 (freq 5), 10-20 (freq 8), 20-30 (freq 12), 30-50 (freq 10), 50-70 (freq 5). They make all rectangles the same width on graph paper. Is this correct? Explain why or why not.",
+     "a": "No, it is incorrect. The class widths are 10, 10, 10, 20, 20 — not equal. Making rectangles equal width on graph paper distorts the representation because the last two classes are twice as wide. The correct method: use frequency density (freq/class width) for height: 5/10=0.5, 8/10=0.8, 12/10=1.2, 10/20=0.5, 5/20=0.25. Then area of each rectangle = frequency. A wrong answer (e.g., \"it's fine if it looks neat\") reveals the student thinks visual neatness matters more than mathematical accuracy of area ∝ frequency.",
+     "self_check": true
+    },
+    {
+     "q": "Two students argue about a histogram showing daily wages of workers. Student A says: \"The tallest bar shows the most common wage.\" Student B says: \"The tallest bar shows the wage range with the most workers.\" Who is correct? Justify.",
+     "a": "Student B is correct. A histogram shows grouped data — each bar represents a *range* of wages (class interval), not a single wage value. The height (or area) represents the *number of workers* in that range. Student A incorrectly interprets the bar as representing a single exact wage (like a bar graph for discrete data). This confusion reveals the student doesn't distinguish between raw data values and class intervals in grouped continuous data.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where a frequency polygon would be more useful than a histogram for decision-making. Describe the data, the grouped frequency table (with at least 5 classes), and explain why the polygon's shape helps.",
+     "a": "**Scenario:** A school principal wants to compare the distribution of Math scores in two sections (9A and 9B) to decide if they need different teaching strategies.  \n**Data (9A):** 0-10:2, 10-20:5, 20-30:10, 30-40:15, 40-50:12, 50-60:6  \n**Data (9B):** 0-10:1, 10-20:3, 20-30:8, 30-40:20, 40-50:15, 50-60:3  \n**Why polygon:** Two frequency polygons on the same axes (using class marks) allow easy visual comparison of shapes — 9A is more spread, 9B peaks sharply at 30-40. Histograms would overlap and be messy. A poor answer (e.g., \"polygon looks nicer\") shows the student doesn't understand the analytical advantage of polygons for comparing distributions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

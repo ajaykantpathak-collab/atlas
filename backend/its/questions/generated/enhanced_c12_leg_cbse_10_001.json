@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_10_001",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_10_001",
+   "title": "c12_leg_cbse_10_001",
+   "questions": [
+    {
+     "q": "What is the core difference between human rights and fundamental rights in terms of their scope and enforceability?",
+     "a": "Human rights are universal (apply to all humans globally) and derive from international law (UDHR, treaties), while fundamental rights are country-specific (e.g., only in India under Part III) and enforceable in domestic courts. A wrong answer confusing them as identical reveals the student hasn't grasped that human rights are *moral/legal claims on all states*, whereas fundamental rights are *constitutional guarantees by a specific state*.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the \"Golden Triangle\" (Articles 14, 19, 21) is called so, using the *Maneka Gandhi* case as illustration.",
+     "a": "The Golden Triangle means Articles 14 (equality), 19 (freedoms), and 21 (life/liberty) are interdependent — a law depriving liberty (Art. 21) must also satisfy equality (Art. 14) and reasonableness under freedoms (Art. 19). In *Maneka Gandhi*, passport impoundment violated Art. 21, but the Court held it must also meet Art. 14 (non-arbitrariness) and Art. 19 (freedom of movement). A wrong answer treating them as isolated rights shows failure to understand the *integrated due process* standard established post-1978.",
+     "self_check": true
+    },
+    {
+     "q": "A foreign tourist in India is denied entry to a public park based on nationality. Which rights are violated — human rights, fundamental rights, or both? Justify.",
+     "a": "Both. Human rights (UDHR Art. 2: non-discrimination) are violated because they apply to *all humans*. Fundamental rights (Art. 15: prohibition of discrimination on grounds including place of birth) are also violated — though Art. 15 says \"citizen,\" Art. 14 (\"any person\") and Art. 21 (\"no person\") extend protection to non-citizens for equality and life/liberty. A wrong answer saying \"only human rights\" misses that the Indian Constitution protects *persons*, not just citizens, for core rights.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the enforceability of Directive Principles (Part IV) vs. Fundamental Rights (Part III) in Indian courts, and explain how the Supreme Court bridged this gap using Article 21.",
+     "a": "Fundamental Rights are justiciable (enforceable in courts); Directive Principles are non-justiciable (Art. 37). The Court bridged this by reading Directive Principles (e.g., Art. 39A — free legal aid, Art. 41 — right to work) *into* Article 21 (right to life), making them enforceable. Example: *Olga Tellis* read \"right to livelihood\" (Directive Principle) into Art. 21. A wrong answer stating Directive Principles are \"never enforceable\" ignores this judicial innovation.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The Universal Declaration of Human Rights (UDHR) is legally binding on all UN member states, including India.\"",
+     "a": "The statement is false. UDHR is a General Assembly *resolution* (soft law), not a treaty — it creates moral/political obligations, not legal bindingness. Binding obligations come from *ratified treaties* like ICCPR and ICESCR (which India ratified in 1979). A wrong answer calling UDHR \"binding\" confuses aspirational declarations with treaty law — a critical distinction in international law.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical scenario where a state law violates the \"basic structure\" doctrine by undermining human rights, and explain which component of basic structure it attacks.",
+     "a": "Scenario: A law removes judicial review of detention orders under preventive detention, allowing executive to detain indefinitely without court scrutiny. This attacks \"judicial review\" and \"rule of law\" — both basic structure components (*Kesavananda Bharati*, *Minerva Mills*). A good answer identifies the specific basic structure feature (not just \"fundamental rights\") and explains *why* its removal destroys constitutional identity. A poor answer vaguely says \"it violates rights\" without naming the structural pillar.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

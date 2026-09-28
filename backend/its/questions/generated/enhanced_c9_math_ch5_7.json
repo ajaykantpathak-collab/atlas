@@ -34,6 +34,31 @@
      "q": "Construct a problem where a student must use the arc-angle theorem twice in succession (e.g., involving two different arcs sharing a common chord) to find an unknown angle. Provide the problem statement and a full solution.",
      "a": "Problem: In a circle with centre O, chords AB and BC are drawn. ∠AOB = 100° and ∠BOC = 120°. Find ∠BAC. Solution: 1) Arc AB subtends ∠AOB=100° at centre → ∠ACB = 50° (on remaining arc). 2) Arc BC subtends ∠BOC=120° at centre → ∠BAC = 60° (on remaining arc). Answer: ∠BAC = 60°. A poor answer (e.g., only using one arc or misidentifying which angle corresponds to which arc) reveals the student cannot chain the theorem across multiple arcs or track which angle stands on which arc.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The angle subtended by an arc at the centre of a circle is twice the angle subtended by the same arc at any point on the ______ part of the circle.",
+     "a": "remaining",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a circular garden with a central ______.",
+     "a": "fountain",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Equivalently, if an arc AB subtends ∠AOB at the centre O and ∠APB at any point P on the alternate segment, then ∠AOB = ______∠APB.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state and prove the theorem, apply it to find unknown angles in multi-step circle geometry problems, and explain why angles in the same segment are equal using the centre-angle relationship.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a circular garden with a central fountain.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

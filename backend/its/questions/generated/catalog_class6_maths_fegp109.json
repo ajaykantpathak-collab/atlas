@@ -4,15 +4,8 @@
   {
    "id": "fegp.9.1",
    "title": "Line Symmetry and Lines of Symmetry",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "recall the count for the shape",
-     "explain": "recall the count for the shape: lines = 1 gives 1",
-     "compute": "lines = 1"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a kite have?",
@@ -49,15 +42,8 @@
   {
    "id": "fegp.9.2",
    "title": "Rotational Symmetry",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "recall the count for the shape",
-     "explain": "recall the count for the shape: lines = 2 gives 2",
-     "compute": "lines = 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a rectangle have?",
@@ -94,15 +80,8 @@
   {
    "id": "fegp.9.3",
    "title": "Symmetric Figures in Nature and Art",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "recall the count for the shape",
-     "explain": "recall the count for the shape: lines = 5 gives 5",
-     "compute": "lines = 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a regular pentagon have?",
@@ -139,15 +118,8 @@
   {
    "id": "fegp.9.4",
    "title": "Completing Symmetric Figures",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "recall the count for the shape",
-     "explain": "recall the count for the shape: lines = 5 gives 5",
-     "compute": "lines = 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a regular pentagon have?",

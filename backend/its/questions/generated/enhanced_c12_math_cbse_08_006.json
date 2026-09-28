@@ -34,6 +34,26 @@
      "q": "Create a word problem that requires finding the area between a parabola and a line, where the parabola opens sideways (i.e., \\( x = y^2 \\) or similar) and the line is vertical. Provide the problem statement and the steps to solve it.",
      "a": "**Problem:** A swimming pool has a cross‑section shaped like the region bounded by the parabola \\( x = y^2 \\) and the vertical line \\( x = 4 \\). Find the area of the cross‑section.  \n**Steps:** 1. Sketch: parabola opens right, line \\( x = 4 \\) is vertical. Intersection: \\( y^2 = 4 \\Rightarrow y = \\pm 2 \\). 2. Use horizontal strips because for a given \\( y \\), the right boundary is \\( x = 4 \\) and left boundary is \\( x = y^2 \\). 3. Limits: \\( y = -2 \\) to \\( 2 \\). 4. Area = \\( \\int_{-2}^{2} (4 - y^2) \\, dy = \\left[ 4y - \\frac{y^3}{3} \\right]_{-2}^{2} = \\frac{32}{3} \\) square units.  \nA poor answer would use vertical strips (which would require splitting at \\( x = 0 \\) and using \\( y = \\pm \\sqrt{x} \\)), making the integral more complicated, or would forget the symmetry and integrate from 0 to 2 without doubling.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Word problems on area ______ involve translating real-world scenarios (such as land area, cross‑sectional area, or region bounded by curves and lines) into a definite integral setup, evaluating it to find the required area, and interpreting the result in the original context.",
+     "a": "applications",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: He needs to buy ______ priced at ₹50 per square metre.",
+     "a": "fertilizer",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: He needs to buy fertilizer priced at ₹______ per square metre.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) read a word problem, sketch the region, identify the bounding curves/lines and their intersections, (2) decide whether to use vertical or horizontal strips, (3) set up the correct definite integral(s) with proper limits, (4) evaluate the integral(s) correctly, and (5) give the final answer with appropriate units.",
+     "self_check": true
     }
    ]
   }

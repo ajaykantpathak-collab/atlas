@@ -90,9 +90,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 1 * 1 * 1 + 6 * 1 + 1"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.106.6.2.3",
@@ -221,9 +219,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "hcf = 7 * 1"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.106.6.4.1",
@@ -266,9 +262,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "hcf = 10 * 1"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.106.6.4.2",
@@ -313,9 +307,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 4 * 4 * 4 + 1 * 4 + 6"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.106.6.4.3",
@@ -360,9 +352,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 1 * 1 * 1 + 1 * 1 + 6"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.106.6.4.4",
@@ -405,9 +395,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "circ = 2 * 22 / 7 * 49"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.106.6.4.5",
@@ -450,9 +438,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "hcf = 10 * 1"
-   ]
+   "steps_chain": []
   }
  ]
 }

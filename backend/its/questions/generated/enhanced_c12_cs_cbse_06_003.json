@@ -17,7 +17,7 @@
     },
     {
      "q": "Write a Python code snippet that attempts to connect to a MySQL server at `localhost` with user `root`, password `admin123`, and database `school_db`. Include exception handling that prints a custom message for \"Access denied\" (wrong password) and \"Can't connect to MySQL server\" (host/port unreachable), and finally closes the connection if it was opened.",
-     "a": "```python\nimport mysql.connector\nfrom mysql.connector import Error\n\nconn = None\ntry:\n    conn = mysql.connector.connect(\n        host='localhost',\n        user='root',\n        password='admin123',\n        database='school_db'\n    )\n    if conn.is_connected():\n        print(\"Connected successfully\")\nexcept Error as e:\n    if e.errno == 1045:      # ER_ACCESS_DENIED_ERROR\n        print(\"Access denied: check username/password\")\n    elif e.errno == 2003:    # CR_CONN_HOST_ERROR\n        print(\"Can't connect to MySQL server: check host/port\")\n    else:\n        print(f\"Error: {e}\")\nfinally:\n    if conn and conn.is_connected():\n        conn.close()\n        print(\"Connection closed\")\n```\nA wrong answer that catches generic `Exception` instead of `mysql.connector.Error`, or checks `e.msg` string instead of `e.errno`, reveals the student doesn't know the specific error codes MySQL returns — a competitive-exam trap where JEE/NEET-style questions ask \"which errno corresponds to wrong password?\".",
+     "a": "```python\nimport mysql.connector\nfrom mysql.connector import Error\n\nconn = N/A\ntry:\n    conn = mysql.connector.connect(\n        host='localhost',\n        user='root',\n        password='admin123',\n        database='school_db'\n    )\n    if conn.is_connected():\n        print(\"Connected successfully\")\nexcept Error as e:\n    if e.errno == 1045:      # ER_ACCESS_DENIED_ERROR\n        print(\"Access denied: check username/password\")\n    elif e.errno == 2003:    # CR_CONN_HOST_ERROR\n        print(\"Can't connect to MySQL server: check host/port\")\n    else:\n        print(f\"Error: {e}\")\nfinally:\n    if conn and conn.is_connected():\n        conn.close()\n        print(\"Connection closed\")\n```\nA wrong answer that catches generic `Exception` instead of `mysql.connector.Error`, or checks `e.msg` string instead of `e.errno`, reveals the student doesn't know the specific error codes MySQL returns — a competitive-exam trap where JEE/NEET-style questions ask \"which errno corresponds to wrong password?\".",
      "self_check": true
     },
     {
@@ -26,13 +26,38 @@
      "self_check": true
     },
     {
-     "q": "A student writes the following code and claims it \"always closes the connection safely\". Evaluate this claim and identify the flaw.\n```python\nimport mysql.connector\nconn = mysql.connector.connect(host='localhost', user='root', password='pwd', database='test')",
-     "a": "The claim is false. If `mysql.connector.connect()` raises an exception (e.g., wrong password), the `conn` variable is never assigned, so the subsequent `conn.close()` will raise a `NameError` (or `AttributeError` if `conn` was set to `None` earlier). The connection object must be closed inside a `finally` block or via a context manager (`with` statement) to guarantee cleanup. A student who misses this shows they don't understand exception flow — a common board practical mistake where marks are deducted for unclosed connections.",
+     "q": "A student writes the following code and claims it \"always closes the connection safely\". Evaluate this claim and identify the flaw.\n```python\nimport mysql.connector\nconn = mysql.connector.connect(host='localhost', user='root', password='pwd', database='test')\n# ... some database operations ...\nconn.close()\n```",
+     "a": "The claim is false. If `mysql.connector.connect()` raises an exception (e.g., wrong password), the `conn` variable is never assigned, so the subsequent `conn.close()` will raise a `NameError` (or `AttributeError` if `conn` was set to `N/A` earlier). The connection object must be closed inside a `finally` block or via a context manager (`with` statement) to guarantee cleanup. A student who misses this shows they don't understand exception flow — a common board practical mistake where marks are deducted for unclosed connections.",
      "self_check": true
     },
     {
      "q": "Design a reusable Python function `get_connection(config_dict)` that accepts a dictionary with keys `host`, `user`, `password`, `database` (optional), `port` (optional, default 3306), and returns a live `MySQLConnection` object. The function should validate that mandatory keys are present, set default port if missing, and raise a descriptive `ValueError` if validation fails. Show how a caller would use this function with a `try-except-finally` block.",
-     "a": "```python\nimport mysql.connector\nfrom mysql.connector import Error\n\ndef get_connection(config: dict):\n    required = {'host', 'user', 'password'}\n    missing = required - config.keys()\n    if missing:\n        raise ValueError(f\"Missing required config keys: {missing}\")\n    # set default port\n    config.setdefault('port', 3306)\n    # connect\n    return mysql.connector.connect(**config)",
+     "a": "```python\nimport mysql.connector\nfrom mysql.connector import Error\n\ndef get_connection(config: dict):\n    required = {'host', 'user', 'password'}\n    missing = required - config.keys()\n    if missing:\n        raise ValueError(f\"Missing required config keys: {missing}\")\n    # set default port\n    config.setdefault('port', 3306)\n    # connect\n    return mysql.connector.connect(**config)\n\n# Caller usage\ncfg = {'host': 'localhost', 'user': 'root', 'password': 'secret', 'database': 'mydb'}\nconn = N/A\ntry:\n    conn = get_connection(cfg)\n    print(\"Connected!\")\nexcept ValueError as ve:\n    print(f\"Config error: {ve}\")\nexcept Error as e:\n    print(f\"DB error [{e.errno}]: {e.msg}\")\nfinally:\n    if conn and conn.is_connected():\n        conn.close()\n```\nA poor answer that doesn't validate keys, doesn't set default port, or catches only generic `Exception` reveals the student cannot design reusable, defensive database utilities — a skill expected in competency-based board questions and CUET practical tasks.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Connecting to MySQL using mysql.connector is the process of establishing a communication channel between a Python program and a MySQL database server by invoking the mysql.connector.connect() method with required credentials (host, user, password) and optional parameters (database, port, charset), which returns a ______ object if authentication succeeds or raises a mysql.connector.Error exception if it fails.",
+     "a": "MySQLConnection",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a Python app for your school library that needs to read book records from a MySQL ______ running on the lab server.",
+     "a": "database",
+     "self_check": true
+    },
+    {
+     "q": "What is Connecting to MySQL using mysql.connector? State the definition given in this lesson.",
+     "a": "Connecting to MySQL using mysql.connector is the process of establishing a communication channel between a Python program and a MySQL database server by invoking the mysql.connector.connect() method with required credentials (host, user, password) and optional parameters (database, port, charset), which returns a MySQLConnection object.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Connecting to MySQL using mysql.connector?",
+     "a": "Students often believe that mysql.connector.connect() automatically selects the database named in the database parameter and that all subsequent queries will run on it without further action.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write a complete Python script that imports mysql.connector, establishes a connection to a local or remote MySQL server using appropriate credentials, verifies the connection is alive using is_connected(), and gracefully closes it, while handling common exceptions such as wrong password, unreachable host, or missing.",
      "self_check": true
     }
    ]

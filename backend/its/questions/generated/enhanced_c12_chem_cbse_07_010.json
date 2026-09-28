@@ -34,6 +34,36 @@
      "q": "Propose a two-step synthesis of phenetole (ethoxybenzene, C₆H₅–O–CH₂CH₃) starting from benzene. You may use any inorganic reagents. Write all reactions with conditions.",
      "a": "**Expected answer (one valid route):**  \n**Step 1: Nitration of benzene**  \nC₆H₆ + conc. HNO₃ + conc. H₂SO₄ (50–60°C) → C₆H₅NO₂ (nitrobenzene) + H₂O  \n\n**Step 2: Reduction of nitrobenzene to aniline**  \nC₆H₅NO₂ + 3H₂ (Ni/Pt, heat) or Sn/HCl → C₆H₅NH₂ (aniline) + 2H₂O  \n\n**Step 3: Diazotisation**  \nC₆H₅NH₂ + NaNO₂ + 2HCl (273–278 K) → C₆H₅N₂⁺Cl⁻ (benzenediazonium chloride) + 2H₂O  \n\n**Step 4: Hydrolysis to phenol**  \nC₆H₅N₂⁺Cl⁻ + H₂O (warm) → C₆H₅OH (phenol) + N₂↑ + HCl  \n\n**Step 5: Williamson synthesis**  \nC₆H₅OH + NaOH → C₆H₅O⁻Na⁺ + H₂O  \nC₆H₅O⁻Na⁺ + CH₃CH₂Br → C₆H₅–O–CH₂CH₃ (phenetole) + NaBr  \n\n**Alternative shorter route (if cumene process allowed):**  \nBenzene + propene (H₃PO₄, heat) → cumene → (air, then dil. H₂SO₄) → phenol + acetone → then Williamson with EtBr.\n\n**Criteria for good answer:** Must show phenol formation (via diazonium or cumene) followed by phenoxide + ethyl halide. Must not use direct ethylation of benzene (Friedel-Crafts gives ethylbenzene, not ether). Must use primary alkyl halide (EtBr/EtI).\n\n**What a poor answer reveals:** Direct Friedel-Crafts alkylation of benzene with EtCl/AlCl₃ → ethylbenzene (wrong product). Using phenol + ethanol/H₂SO₄ (dehydration conditions fail for phenols — they give polymerisation/tar). Using ethyl bromide + benzene/AlCl₃ (gives ethylbenzene). Not recognising phenols need conversion to phenoxide for Williamson.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Williamson synthesis is a ______ substitution (SN2) reaction where an alkoxide ion (RO⁻) or phenoxide ion (ArO⁻) attacks a primary alkyl halide (R'–X) to form an ether (R–O–R') and a halide salt (NaX).",
+     "a": "nucleophilic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bottle of ______ ether (ethoxyethane) in the organic chemistry lab — it has a sweet, volatile smell and was once used as surgical anaesthesia.",
+     "a": "diethyl",
+     "self_check": true
+    },
+    {
+     "q": "What is Williamson synthesis? State the definition given in this lesson.",
+     "a": "Williamson synthesis is a nucleophilic substitution (SN2) reaction where an alkoxide ion (RO⁻) or phenoxide ion (ArO⁻) attacks a primary alkyl halide (R'–X) to form an ether (R–O–R') and a halide salt (NaX).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Williamson synthesis is a nucleophilic substitution (SN______) reaction where an alkoxide ion (RO⁻) or phenoxide ion (ArO⁻) attacks a primary alkyl halide (R'–X) to form an ether (R–O–R') and a halide salt (NaX).",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Williamson synthesis?",
+     "a": "Misconception: \"Williamson synthesis works for all alkyl halides — you just mix alkoxide and alkyl halide.\" Reality: Williamson synthesis fails with secondary and tertiary alkyl halides because alkoxides (RO⁻) are strong bases.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) write the balanced equation for Williamson synthesis given any alcohol/phenol and alkyl halide, (2) predict whether a given alkyl halide will undergo substitution or elimination with alkoxide, (3) explain why tertiary alkyl halides fail, and (4) design a synthesis route for a target symmetrical or unsymmetrical ether.",
+     "self_check": true
     }
    ]
   }

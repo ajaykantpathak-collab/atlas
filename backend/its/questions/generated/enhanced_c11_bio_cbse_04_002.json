@@ -34,6 +34,21 @@
      "q": "Design a comparative table that would allow a Class 11 student to distinguish between the four levels of organisation using ONLY these criteria: (a) cell arrangement pattern, (b) presence/absence of true tissues, (c) presence/absence of true organs, (d) presence/absence of integrated organ systems, (e) example phylum, (f) digestive system type. Include one row per level.",
      "a": "Expected table structure with correct entries:\n| Level | Cell Arrangement | True Tissues | True Organs | Organ Systems | Example Phylum | Digestive System |\n|-------|------------------|--------------|-------------|---------------|----------------|------------------|\n| Cellular | Loose aggregates | Absent | Absent | Absent | Porifera | Absent (intracellular) |\n| Tissue | Tissue layers (ecto/endo) | Present | Absent | Absent | Cnidaria, Ctenophora | Incomplete (gastrovascular cavity) |\n| Organ | Tissues grouped into organs | Present | Present | Absent | Platyhelminthes | Incomplete (gastrovascular cavity) |\n| Organ System | Organs integrated into systems | Present | Present | Present | Annelida, Arthropoda, Mollusca, Echinodermata, Chordata | Complete (mouth + anus) |\nA poor answer that merges tissue and organ levels, or assigns complete gut to Platyhelminthes, or gives \"open circulation\" as a criterion, reveals the student cannot operationalise the hierarchy into discrete, non-overlapping diagnostic criteria - essential for exam classification questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Levels of organisation in animals describe the hierarchical complexity of structural and functional integration from individual cells to coordinated organ systems, where each level represents a distinct degree of cellular ______, division of labour, and physiological coordination that determines the organism's capacity for homeostasis, metabolism, and environmental interaction.",
+     "a": "specialisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you observe a kitchen sponge (Euspongia) and a live earthworm (Pheretima) side by side, the sponge appears as a simple porous mass while the earthworm shows distinct segments with visible organ systems - this visible difference reflects the fundamental biological principle of levels of ______.",
+     "a": "organisation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify any given animal phylum into its correct level of organisation (cellular, tissue, organ, or organ system) by analyzing its structural features, and can explain how the level of organisation constrains the complexity of digestive, circulatory, and excretory systems in that phylum.",
+     "self_check": true
     }
    ]
   }

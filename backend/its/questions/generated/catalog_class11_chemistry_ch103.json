@@ -1,0 +1,146 @@
+{
+ "catalog": "catalog_class11_chemistry_ch103.json",
+ "concepts": [
+  {
+   "id": "kech.3.1",
+   "title": "Dobereiner's Law of Triads",
+   "converted_to_compute": true,
+   "formula": "mid_weight = (weight_1 + weight_3) / 2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mid_weight = (weight_1 + weight_3) / 2",
+     "compute": "mid_weight = (weight_1 + weight_3) / 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Dobereiner's Law of Triads: given weight_1 = 51, weight_3 = 11.6, find mid weight.",
+     "a": "31.3",
+     "self_check": false
+    },
+    {
+     "q": "For Dobereiner's Law of Triads: given weight_1 = 104, weight_3 = 14.9, find mid weight.",
+     "a": "59.45",
+     "self_check": false
+    },
+    {
+     "q": "For Dobereiner's Law of Triads: given weight_1 = 58, weight_3 = 99, find mid weight.",
+     "a": "78.5",
+     "self_check": false
+    },
+    {
+     "q": "For Dobereiner's Law of Triads: given weight_1 = 60, weight_3 = 43, find mid weight.",
+     "a": "51.5",
+     "self_check": false
+    },
+    {
+     "q": "For Dobereiner's Law of Triads: given weight_1 = 42, weight_3 = 50, find mid weight.",
+     "a": "46",
+     "self_check": false
+    },
+    {
+     "q": "For Dobereiner's Law of Triads: given weight_1 = 81, weight_3 = 53, find mid weight.",
+     "a": "67",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kech.3.5",
+   "title": "Period and Group from Electronic Configuration",
+   "converted_to_compute": true,
+   "formula": "period = max_n",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "period = max_n",
+     "compute": "period = max_n"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Period and Group from Electronic Configuration: given max_n = 13.4, find period.",
+     "a": "13.4",
+     "self_check": false
+    },
+    {
+     "q": "For Period and Group from Electronic Configuration: given max_n = 9.6, find period.",
+     "a": "9.6",
+     "self_check": false
+    },
+    {
+     "q": "For Period and Group from Electronic Configuration: given max_n = 10.3, find period.",
+     "a": "10.3",
+     "self_check": false
+    },
+    {
+     "q": "For Period and Group from Electronic Configuration: given max_n = 0.5, find period.",
+     "a": "0.5",
+     "self_check": false
+    },
+    {
+     "q": "For Period and Group from Electronic Configuration: given max_n = 2.7, find period.",
+     "a": "2.7",
+     "self_check": false
+    },
+    {
+     "q": "For Period and Group from Electronic Configuration: given max_n = 15.1, find period.",
+     "a": "15.1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kech.3.8",
+   "title": "Ionization Enthalpy of Hydrogen",
+   "converted_to_compute": true,
+   "formula": "ionization_enthalpy = abs(ground_energy) * avogadro",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ionization_enthalpy = abs(ground_energy) * avogadro",
+     "compute": "ionization_enthalpy = abs(ground_energy) * avogadro"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Ionization Enthalpy of Hydrogen: given ground_energy = 7559, avogadro = 57, find ionization enthalpy.",
+     "a": "430863",
+     "self_check": false
+    },
+    {
+     "q": "For Ionization Enthalpy of Hydrogen: given ground_energy = 317, avogadro = 10.7, find ionization enthalpy.",
+     "a": "3391.9",
+     "self_check": false
+    },
+    {
+     "q": "For Ionization Enthalpy of Hydrogen: given ground_energy = 4916, avogadro = 94, find ionization enthalpy.",
+     "a": "462104",
+     "self_check": false
+    },
+    {
+     "q": "For Ionization Enthalpy of Hydrogen: given ground_energy = 5228, avogadro = 16.9, find ionization enthalpy.",
+     "a": "88353.2",
+     "self_check": false
+    },
+    {
+     "q": "For Ionization Enthalpy of Hydrogen: given ground_energy = 2117, avogadro = 52, find ionization enthalpy.",
+     "a": "110084",
+     "self_check": false
+    },
+    {
+     "q": "For Ionization Enthalpy of Hydrogen: given ground_energy = 8719, avogadro = 99, find ionization enthalpy.",
+     "a": "863181",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

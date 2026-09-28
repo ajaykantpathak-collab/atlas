@@ -34,6 +34,31 @@
      "q": "You are designing a mixed-method field survey for \"Urban heat island effect in Jaipur's walled city vs. planned colonies.\" Specify: (a) One observation protocol (what, where, when, how), (b) One interview guide theme for municipal officials, (c) One questionnaire item for residents, (d) How you will triangulate findings.",
      "a": "(a) Observation: Use infrared thermometer to measure surface temperatures of 50 points (roads, roofs, parks) in both areas at 14:00 and 22:00 hrs for 7 consecutive days; record land cover type, building height, vegetation cover.  \n(b) Interview guide theme: \"Planning interventions for heat mitigation — tree plantation drives, cool roof policies, building bylaws enforcement, budget allocation, inter-department coordination challenges.\"  \n(c) Questionnaire item (Likert): \"My neighborhood feels significantly hotter at night than 10 years ago: Strongly Disagree to Strongly Agree.\"  \n(d) Triangulation: Correlate observed temperature differentials with resident perceptions (questionnaire) and policy gaps (interviews); use GIS overlay (node c12_geo_cbse_21_009) of temperature points, land use, and green cover.  \nA poor answer (single method only) reveals inability to design integrated geographical research — a key competency in CBSE practical exams and CUET case-based questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Field survey methods are systematic techniques for collecting primary geographical data directly from the field, comprising three core approaches: ______ (standardized written instruments with open/closed questions), interview (face-to-face or telephonic verbal interaction with structured/semi-structured/unstructured formats), and observation (systematic watching and recording of phenomena, behaviors, or features in their natural setting — participant or non-participant).",
+     "a": "questionnaire",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ in a bustling weekly market in your town — vendors shouting prices, buyers bargaining, goods arranged in patterns.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What is Field survey methods? State the definition given in this lesson.",
+     "a": "Field survey methods are systematic techniques for collecting primary geographical data directly from the field, comprising three core approaches: questionnaire (standardized written instruments with open/closed questions), interview (face-to-face or telephonic verbal interaction with structured/semi-structured/unstructured formats), and.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Field survey methods?",
+     "a": "Students believe \"questionnaire = quantitative, interview = qualitative, observation = qualitative\" as rigid categories.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can select and justify the appropriate field survey method (questionnaire, interview, or observation) for a given geographical research problem, design a basic instrument for each method, and identify two advantages and two limitations of each method with Indian context examples.",
+     "self_check": true
     }
    ]
   }

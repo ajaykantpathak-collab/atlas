@@ -34,6 +34,31 @@
      "q": "Design a hypothetical experiment to test whether the antisense PG transcript in Flavr Savr tomato acts primarily by blocking translation or by triggering mRNA degradation via RNase H. Specify the key controls, the molecular assay, and the expected results for each mechanism.",
      "a": "Extract polysomes from transgenic and wild-type tomato fruit, perform RT-qPCR for PG mRNA in polysome fractions vs total RNA. If translation blocked: PG mRNA levels similar in total RNA but depleted in polysomes. If RNase H degradation: PG mRNA reduced in both total RNA and polysomes. Controls: wild-type, empty vector transformant, and a known translation inhibitor (e.g., cycloheximide). A poor answer omits polysome fractionation or uses only total RNA qPCR, failing to distinguish the mechanisms.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Flavr Savr tomato is the first commercially approved genetically modified food crop, engineered using antisense RNA technology to delay fruit ripening by suppressing the expression of the ______ (PG) gene, which encodes an enzyme that degrades pectin in the cell wall, thereby reducing fruit softening and extending shelf life.",
+     "a": "polygalacturonase",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you buy tomatoes that stay firm for weeks instead of turning mushy in days — how could scientists \"switch off\" the ______ process?",
+     "a": "softening",
+     "self_check": true
+    },
+    {
+     "q": "What is Flavr Savr tomato? State the definition given in this lesson.",
+     "a": "Flavr Savr tomato is the first commercially approved genetically modified food crop, engineered using antisense RNA technology to delay fruit ripening by suppressing the expression of the polygalacturonase (PG) gene, which encodes an enzyme that degrades pectin in the cell wall, thereby reducing fruit softening and extending shelf life.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Flavr Savr tomato?",
+     "a": "Students often think antisense RNA \"edits\" or \"mutates\" the target gene's DNA sequence.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain the molecular mechanism of antisense RNA technology in Flavr Savr tomato, including how the antisense RNA binds to sense mRNA to block translation, and evaluate its impact on fruit ripening and shelf life.",
+     "self_check": true
     }
    ]
   }

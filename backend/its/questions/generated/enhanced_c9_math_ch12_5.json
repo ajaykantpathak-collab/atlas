@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch12_5",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch12_5",
+   "title": "c9_math_ch12_5",
+   "questions": [
+    {
+     "q": "State all five sufficient conditions for a quadrilateral to be a parallelogram.",
+     "a": "The five conditions are: (1) Both pairs of opposite sides are parallel. (2) Both pairs of opposite sides are equal. (3) Both pairs of opposite angles are equal. (4) Diagonals bisect each other. (5) One pair of opposite sides is both parallel and equal. A wrong answer (e.g., listing only 2 or 3 conditions, or confusing them with properties like \"diagonals are equal\") reveals the student has memorised properties of a parallelogram but not the *converse* theorems used to *prove* it is one.",
+     "self_check": true
+    },
+    {
+     "q": "In quadrilateral PQRS, diagonal PR is drawn. It is given that PQ = RS and QR = PS. A student claims: \"Triangle PQR is congruent to Triangle RSP by SSS, so the quadrilateral is a parallelogram.\" Is the student's reasoning complete? Explain why or why not.",
+     "a": "The reasoning is **incomplete**. SSS congruence gives ∠QPR = ∠PRS and ∠QRP = ∠RPS. The student must explicitly state that ∠QPR = ∠PRS are *alternate interior angles* formed by transversal PR cutting lines PQ and RS, therefore PQ || RS. Similarly, ∠QRP = ∠RPS proves QR || PS. Only after establishing both pairs of opposite sides are parallel can we conclude it is a parallelogram. A wrong answer reveals the student treats congruence as the final step, missing the crucial geometric link between congruent angles and parallel lines.",
+     "self_check": true
+    },
+    {
+     "q": "In quadrilateral ABCD, diagonals AC and BD intersect at O. Given OA = 4.5 cm, OC = 4.5 cm, OB = 3.2 cm, and OD = 3.2 cm. Prove ABCD is a parallelogram and find the length of side BC if AB = 6 cm and ∠AOB = 90°.",
+     "a": "**Proof:** In ΔAOB and ΔCOD, OA = OC (given), OB = OD (given), ∠AOB = ∠COD (vertically opposite angles). By SAS, ΔAOB ≅ ΔCOD. Thus AB = CD (CPCT) and ∠ABO = ∠CDO (CPCT). ∠ABO = ∠CDO are alternate interior angles ⇒ AB || CD. Similarly, ΔAOD ≅ ΔCOB ⇒ AD = BC and AD || BC. Both pairs of opposite sides are parallel and equal ⇒ ABCD is a parallelogram.\n**Finding BC:** Since diagonals bisect each other at 90°, ABCD is a rhombus (property: diagonals perpendicular ⇒ rhombus). In a rhombus, all sides are equal. Given AB = 6 cm, **BC = 6 cm**.\nA wrong answer (e.g., using Pythagoras on half-diagonals to get BC = √(4.5²+3.2²) ≈ 5.5 cm) reveals the student confused \"diagonals bisect each other\" (parallelogram) with \"diagonals are perpendicular bisectors\" (rhombus) and forgot that in a general parallelogram, sides are not determined by diagonal lengths alone.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Condition 2 (Both pairs of opposite sides equal) and Condition 5 (One pair of opposite sides parallel and equal). Are they logically equivalent? Can you prove Condition 5 using Condition 2? Explain the structural difference in the proofs.",
+     "a": "They are **not logically equivalent**; Condition 5 is weaker (requires less information) but harder to prove directly. Condition 2 uses SSS congruence on triangles formed by *one* diagonal (3 sides known). Condition 5 uses SAS congruence on triangles formed by the *other* diagonal: the diagonal provides the common side, the given equal sides provide one pair, and the parallel lines give equal alternate interior angles for the included angle. A wrong answer (saying \"they are the same\" or \"Condition 5 proves Condition 2 directly\") reveals the student doesn't see how the *choice of diagonal* and *congruence criterion* (SSS vs SAS) change based on which elements are given.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves this problem: \"In quadrilateral WXYZ, ∠W = 110°, ∠X = 70°, ∠Y = 110°, ∠Z = 70°. Prove WXYZ is a parallelogram.\" The student writes: \"Opposite angles are equal (∠W = ∠Y, ∠X = ∠Z). Therefore, WXYZ is a parallelogram.\" Evaluate this solution. Is it sufficient for full marks in a board exam?",
+     "a": "The solution is **insufficient for full marks**. While the conclusion is correct, the reasoning skips the mandatory logical bridge: \"Sum of adjacent angles ∠W + ∠X = 180° ⇒ WX || ZY (interior angles on same side of transversal supplementary). Similarly, ∠X + ∠Y = 180° ⇒ XY || WZ.\" Board exams require citing the specific converse of the interior angle theorem. A student giving only the statement \"opposite angles equal\" loses marks for incomplete reasoning; they confuse the *condition* (opposite angles equal) with the *justification* (co-interior angles supplementary ⇒ parallel lines).",
+     "self_check": true
+    },
+    {
+     "q": "Create a geometry problem where a quadrilateral is proven to be a parallelogram using the \"diagonals bisect each other\" condition, but the given data requires the student to first *calculate* the midpoint coordinates using the section formula (Coordinate Geometry link). Provide the problem statement and the full solution outline.",
+     "a": "**Problem:** Quadrilateral PQRS has vertices P(-2, 3), Q(4, 5), R(6, 1), S(0, -1). Prove PQRS is a parallelogram using the diagonal bisector condition.\n**Solution Outline:** 1. Find midpoint of PR: ((-2+6)/2, (3+1)/2) = (2, 2). 2. Find midpoint of QS: ((4+0)/2, (5-1)/2) = (2, 2). 3. Midpoints coincide ⇒ Diagonals bisect each other ⇒ PQRS is a parallelogram.\n**Criteria for good answer:** Correct use of midpoint formula, explicit statement that coinciding midpoints imply bisection, and final conclusion. A poor answer (just plotting points or checking slopes) reveals the student cannot connect the coordinate geometry concept of \"midpoint\" to the geometric condition \"diagonals bisect each other.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "catalog": "enhanced_c6_gram_cbse_80_003",
+ "concepts": [
+  {
+   "id": "enh:c6_gram_cbse_80_003",
+   "title": "c6_gram_cbse_80_003",
+   "questions": [
+    {
+     "q": "Reorder: 'yesterday / the match / won / our team'.",
+     "a": "'Our team won the match yesterday.' A wrong answer 'Yesterday won our team the match' shows the student treats 'yesterday' as a movable prefix without checking what still makes grammatical sense.",
+     "self_check": true
+    },
+    {
+     "q": "Do these mean the same? 'Only Ravi ate the mango' / 'Ravi ate only the mango.'",
+     "a": "No — 'only' attaches to what follows it: first says nobody else ate, second says he ate nothing else. A wrong answer 'yes' reveals the student thinks 'only' floats freely — position changes meaning.",
+     "self_check": true
+    },
+    {
+     "q": "Fix: 'To school every day goes Meena.'",
+     "a": "'Meena goes to school every day.' A wrong answer keeping verb-first order shows the student is translating Hindi SOV word order — English needs the verb between subject and object.",
+     "self_check": true
+    },
+    {
+     "q": "Word order is not ______ — English meaning rides on position.",
+     "a": "decoration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Word order is not ______ — English meaning rides on position. 'The dog chased the cat' and 'The cat chased the dog' use the same words to say opposite things.",
+     "a": "decoration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then the trap pair: 'Ravi helped Mohan' vs 'Mohan helped Ravi' — same words, ______ helpers.",
+     "a": "opposite",
+     "self_check": true
+    },
+    {
+     "q": "What is Word order? State the definition given in this lesson.",
+     "a": "Word order is not decoration — English meaning rides on position. 'The dog chased the cat' and 'The cat chased the dog' use the same words to say opposite things.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Word order?",
+     "a": "Students accept any order that 'sounds okay' from spoken English — especially putting time phrases anywhere — and don't notice when actor and receiver swap silently.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student rearranges jumbled words into a grammatical S–V–O sentence, preserves meaning while reordering phrases, and detects when a rearrangement silently flips actor and receiver.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

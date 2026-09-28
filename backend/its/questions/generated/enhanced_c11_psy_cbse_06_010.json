@@ -34,6 +34,36 @@
      "q": "Design a 5-step police lineup protocol for a Bengaluru theft case that minimizes system-variable contamination, incorporating sequential presentation, blind administration, confidence statements, filler selection criteria, and documentation. Explain how each step addresses a specific memory distortion mechanism.",
      "a": "Step 1: Blind administrator (doesn't know suspect) prevents unconscious cuing → reduces demand characteristics. Step 2: Sequential presentation (one photo at a time) forces absolute judgment vs. relative judgment in simultaneous lineups → reduces false identifications by 22% (Steblay et al., 2001). Step 3: Pre-lineup instruction \"perpetrator may not be present\" → lowers criterion shift from \"choose best match\" to \"recognize or reject.\" Step 4: Fillers match witness description (not suspect) → prevents suspect standing out (biased lineup). Step 5: Immediate confidence statement (0-100%) documented before feedback → preserves pre-contamination confidence-accuracy diagnostic value. Poor answers listing generic \"fair procedures\" without linking each step to a specific cognitive mechanism (relative judgment, criterion shift, source monitoring) reveal superficial procedural knowledge without theoretical grounding.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Eyewitness memory refers to the ______ process by which individuals encode, store, and retrieve details of a witnessed event, where accuracy is systematically influenced by estimator variables (uncontrollable factors like lighting, stress, cross-race identification) and system variables (controllable factors like lineup procedures, questioning techniques), making testimony susceptible to distortion through post-event information, schema-driven reconstruction, and source monitoring errors.",
+     "a": "reconstructive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you ______ a snatch-theft outside your Delhi Metro station — a person in a red hoodie grabs a phone and runs toward Gate 3.",
+     "a": "witness",
+     "self_check": true
+    },
+    {
+     "q": "What is Eyewitness memory? State the definition given in this lesson.",
+     "a": "Eyewitness memory refers to the reconstructive process by which individuals encode, store, and retrieve details of a witnessed event, where accuracy is systematically influenced by estimator variables (uncontrollable factors like lighting, stress, cross-race identification) and system variables (controllable factors like lineup.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you witness a snatch-theft outside your Delhi Metro station — a person in a red hoodie grabs a phone and runs toward Gate ______.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Eyewitness memory?",
+     "a": "Students believe eyewitness memory works like a video camera — if you \"saw it,\" the memory is stored intact and retrieval simply plays it back.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to evaluate a simulated eyewitness scenario by identifying at least three estimator and two system variables affecting recall accuracy, explain the misinformation effect mechanism using Loftus's research, and distinguish between reproductive and reconstructive memory errors in a written response of 150-200 words.",
+     "self_check": true
     }
    ]
   }

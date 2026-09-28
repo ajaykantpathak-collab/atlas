@@ -34,6 +34,31 @@
      "q": "Design a simple investigation using locally available seeds (e.g., maize, bean, groundnut, coconut) to classify them as albuminous or exalbuminous. Specify what you would observe, how you would record it, and what conclusion each observation supports.",
      "a": "Procedure: Soak seeds overnight. Remove seed coat. Split seed longitudinally. Observe: (1) Maize/coconut — large endosperm present, tiny embryo → albuminous. (2) Bean/groundnut — no endosperm, two large fleshy cotyledons occupying most space → exalbuminous. Record in table: Seed name | Endosperm visible (Y/N) | Cotyledon size (large/small) | Classification. Conclusion: Albuminous seeds store food in persistent endosperm; exalbuminous seeds transfer food to cotyledons during maturation. A poor answer that only lists seed names without observation criteria shows inability to connect seed structure to developmental process.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Double ______ is the unique process in flowering plants where one male gamete fuses with the egg cell to form the diploid zygote (syngamy), while the second male gamete fuses with the two polar nuclei in the central cell to form the triploid primary endosperm nucleus (triple fusion), resulting in simultaneous formation of embryo and nutritive endosperm within the ovule.",
+     "a": "fertilisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you cut open a ripe mango and find a large seed with a thick coat — that seed began as a tiny ovule inside the ______'s ovary.",
+     "a": "flower",
+     "self_check": true
+    },
+    {
+     "q": "What is Double fertilisation? State the definition given in this lesson.",
+     "a": "Double fertilisation is the unique process in flowering plants where one male gamete fuses with the egg cell to form the diploid zygote (syngamy), while the second male gamete fuses with the two polar nuclei in the central cell to form the triploid primary endosperm nucleus (triple fusion), resulting in simultaneous formation of embryo.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Double fertilisation?",
+     "a": "Students believe double fertilisation means \"two sperm fuse with one egg\" — they confuse it with polyspermy (multiple sperm entering one egg, which is blocked in plants).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly trace the fate of both male gametes after pollen tube entry, explain why triple fusion produces a 3n nucleus, differentiate albuminous from exalbuminous seeds with examples, and predict the ploidy of embryo, endosperm, and seed coat in any flowering plant.",
+     "self_check": true
     }
    ]
   }

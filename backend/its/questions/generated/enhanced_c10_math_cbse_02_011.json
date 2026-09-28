@@ -34,6 +34,31 @@
      "q": "Construct a quadratic polynomial whose zeros have sum \\(5\\) and product \\(6\\), then verify your polynomial using the zeros-coefficients relationship.",
      "a": "Using \\(x^2 - (\\text{sum})x + \\text{product}\\), polynomial is \\(x^2 - 5x + 6\\). Zeros are \\(2\\) and \\(3\\) (by factoring or quadratic formula). Verification: Sum \\(= 5 = -(-5)/1\\), Product \\(= 6 = 6/1\\). A poor answer would give a polynomial like \\(2x^2 - 10x + 12\\) and not verify, or would not show the verification step, indicating they don't understand the \"verify\" instruction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Verifying the zeros-coefficients ______ means substituting the given zeros of a polynomial into the standard formulas for sum of zeros, product of zeros, and sum of pairwise products of zeros, and confirming that these match the ratios of the polynomial's coefficients.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You don't have time to solve the quadratic from scratch; you need a quick ______ method.",
+     "a": "verification",
+     "self_check": true
+    },
+    {
+     "q": "What is Verifying the zeros-coefficients relationship? State the definition given in this lesson.",
+     "a": "Verifying the zeros-coefficients relationship means substituting the given zeros of a polynomial into the standard formulas for sum of zeros, product of zeros, and sum of pairwise products of zeros, and confirming that these match the ratios of the polynomial's coefficients.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Verifying the zeros-coefficients relationship?",
+     "a": "They write \"Sum = 5\" instead of \"Sum = 5/2\" and lose the method mark.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently verify the zeros-coefficients relationship for any given quadratic or cubic polynomial by computing the required sums and products of the given zeros and comparing them with the coefficient ratios, including non-monic polynomials.",
+     "self_check": true
     }
    ]
   }

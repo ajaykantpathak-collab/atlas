@@ -34,6 +34,31 @@
      "q": "Design a simple laboratory protocol using only a light microscope and iodine solution to distinguish between a filamentous Chlorophyceae (e.g., Spirogyra) and a filamentous Rhodophyceae (e.g., a simple red alga) specimen.",
      "a": "Mount filaments in water, observe chloroplast morphology (spiral/ribbon vs. discoid), then add iodine solution: blue-black starch granules confirm Chlorophyceae; reddish-brown floridean starch (iodine-positive but different hue) or no reaction suggests Rhodophyceae. Also note absence of pyrenoids in Rhodophyceae. A poor answer would only mention colour difference without a biochemical test, missing the opportunity to demonstrate stored food distinction which is a key taxonomic criterion.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Chlorophyceae, Phaeophyceae, and Rhodophyceae are the three major classes of algae distinguished primarily by their ______ pigment composition (chlorophylls a,b; chlorophylls a,c,fucoxanthin; chlorophylls a,d,phycoerythrin respectively), stored food material (starch, laminarin/mannitol, floridean starch), cell wall composition (cellulose/pectose; cellulose/algin; cellulose/pectin/poly sulphate esters), flagellar number and insertion (2-8 equal apical; 2 unequal lateral; absent), and predominant habitat (freshwater; marine; marine).",
+     "a": "photosynthetic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by showing students three water samples: a green pond scum (______), a brown kelp frond from a coastal market (Phaeophyceae), and a red seaweed used in Asian cuisine (Rhodophyceae).",
+     "a": "Chlorophyceae",
+     "self_check": true
+    },
+    {
+     "q": "What is Chlorophyceae, Phaeophyceae, and Rhodophyceae? State the definition given in this lesson.",
+     "a": "Chlorophyceae, Phaeophyceae, and Rhodophyceae are the three major classes of algae distinguished primarily by their photosynthetic pigment composition (chlorophylls a,b; chlorophylls a,c,fucoxanthin; chlorophylls a,d,phycoerythrin respectively), stored food material (starch, laminarin/mannitol, floridean starch), cell wall composition.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Chlorophyceae, Phaeophyceae, and Rhodophyceae?",
+     "a": "Students believe \"brown algae are brown because they lack chlorophyll\" and \"red algae are red because they lack chlorophyll.\" In reality, ALL three classes possess chlorophyll a; the colour differences arise from accessory pigments (fucoxanthin, phycoerythrin) masking chlorophyll's green.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can construct a comparative table from memory differentiating the three classes across all six NCERT criteria (pigments, stored food, cell wall, flagella, habitat, examples) and can classify an unknown algal specimen into its correct class given its pigment profile, storage product, and flagellar apparatus.",
+     "self_check": true
     }
    ]
   }

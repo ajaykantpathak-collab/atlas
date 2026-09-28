@@ -34,6 +34,26 @@
      "q": "A student says: \"If the voltage doubles, the resistance doubles too.\" Evaluate this statement.",
      "a": "The statement is incorrect. By Ohm's Law, V = I * R. If voltage doubles and resistance stays the same, the current doubles (I = V/R). Resistance is a property of the material (at constant temperature) — it does not change when voltage changes. The correct statement: \"If the voltage doubles and resistance stays the same, the current doubles.\" A wrong evaluation (agreeing with the student) confuses resistance (constant property) with current (which changes with voltage).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ohm's Law states that the current through a conductor is directly ______ to the potential difference across it, provided temperature and other physical conditions remain constant: V = I * R, or equivalently I = V/R, where V is potential difference (volts), I is current (amperes), and R is resistance (ohms).",
+     "a": "proportional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Double the voltage, double the current — this is direct ______, and it is Ohm's Law: V = I * R.",
+     "a": "proportionality",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now connect a ______ V battery (double the voltage).",
+     "a": "12",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can state Ohm's Law (V = IR), define resistance and its unit (ohm), calculate any one of V, I, R given the other two, explain the direct proportionality between V and I, and identify conditions under which Ohm's Law holds (constant temperature, ohmic materials).",
+     "self_check": true
     }
    ]
   }

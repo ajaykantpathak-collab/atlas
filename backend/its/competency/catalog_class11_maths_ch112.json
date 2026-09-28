@@ -20,7 +20,7 @@
     "determine the limit from the positive side",
     "Explain the method of Left and Right Hand Limits."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,16 @@
      "action": "Evaluate each one-sided limit by substituting values approaching a",
      "explain": "Plug in values of x that get arbitrarily close to a from each side to find the approached value for LHL and RHL."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 3 * 4 * 4 + 5 * 4 + 4 gives 72",
+     "compute": "val = 3 * 4 * 4 + 5 * 4 + 4"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh112.12.3.2",
@@ -54,7 +63,7 @@
     "show that the limit does not exist",
     "Explain the method of Existence of a Limit."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -71,7 +80,16 @@
      "action": "Compare LHL and RHL",
      "explain": "If LHL equals RHL, the limit exists and is equal to that value."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 5 * 3 * 3 + 6 * 3 + 6 gives 69",
+     "compute": "val = 5 * 3 * 3 + 6 * 3 + 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh112.12.3.3",

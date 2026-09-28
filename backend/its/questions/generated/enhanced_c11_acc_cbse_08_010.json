@@ -34,6 +34,31 @@
      "q": "Create a comprehensive adjustment problem for a classmate that includes: (a) Two outstanding expenses with different amounts, (b) Two prepaid expenses with different amounts, (c) One expense that is PARTIALLY outstanding and PARTIALLY prepaid (e.g., insurance paid for 15 months, 3 months prepaid, 2 months outstanding). Provide the trial balance extracts, additional information, and require: (i) Adjustment journal entries, (ii) Relevant ledger accounts, (iii) P&L Account presentation, (iv) Balance Sheet presentation. Ensure your problem has a unique solution.",
      "a": "**Expected Answer Criteria:** A good problem will have:\n- Clear trial balance with expense accounts showing amounts paid\n- Additional info specifying periods covered, amounts outstanding/prepaid\n- No ambiguity in time periods (e.g., \"Insurance paid ₹30,000 on 1st Oct 2025 for 15 months\" - clear start date and duration)\n- Partially outstanding/prepaid item requires time apportionment (e.g., 15 months total, current year 12 months, but 2 months of current year unpaid = outstanding, 3 months of next year paid = prepaid)\n- Requires separate journal entries for each adjustment\n- Ledger accounts show both original and adjustment entries\n- P&L shows adjusted expense figures\n- Balance Sheet shows both current assets (prepaid) and current liabilities (outstanding)\n- Unique solution verifiable by: Total adjustments to expenses = Sum of outstanding - Sum of prepaid\n\n**What a poor answer reveals:** If the problem has overlapping/conflicting periods, missing dates, or ambiguous \"partially\" without clear split, the student doesn't understand the time-period precision required. If they omit Balance Sheet presentation, they miss the dual aspect. If the solution isn't unique, they haven't constrained the problem properly.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ expenses are expenses incurred during the current accounting period but not yet paid in cash by the end of the period, requiring recognition as a liability and addition to the respective expense in the Profit and Loss Account.",
+     "a": "Outstanding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You ______ the electricity bill for March (₹3,200) hasn't arrived yet, but you know you used electricity all month.",
+     "a": "notice",
+     "self_check": true
+    },
+    {
+     "q": "What is Outstanding expenses? State the definition given in this lesson.",
+     "a": "Outstanding expenses are expenses incurred during the current accounting period but not yet paid in cash by the end of the period, requiring recognition as a liability and addition to the respective expense in the Profit and Loss Account.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Outstanding expenses?",
+     "a": "Students treat outstanding expenses as \"expenses not yet incurred\" and therefore deduct them from the expense in P&L (like prepaid), OR they treat prepaid expenses as \"expenses paid but not used\" and add them to the expense (like outstanding).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently identify outstanding and prepaid expenses from a trial balance with additional information, pass the correct adjustment journal entries, show the treatment in Trading/Profit and Loss Account and Balance Sheet, and calculate the adjusted expense amount for final accounts preparation with 100%.",
+     "self_check": true
     }
    ]
   }

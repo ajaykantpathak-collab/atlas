@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a flashlight, a graph paper screen, and a protractor to demonstrate how latitude affects solar heating. List the independent variable, dependent variable, and two controlled variables. Sketch the expected graph of temperature rise vs. latitude.",
      "a": "Independent variable: angle of incidence (simulated latitude) from 0° to 70° in 10° steps. Dependent variable: temperature rise of a thermometer placed on the graph paper after 5 minutes exposure. Controlled: flashlight distance, power, ambient temperature, paper colour. Expected graph: temperature rise ∝ cos(latitude), a curve starting at maximum at 0° and falling to near zero at 90°. A poor answer that varies distance instead of angle, or expects a straight-line graph, shows misunderstanding of the cosine relationship and experimental control.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Latitude is the angular distance of a place north or south of the Earth's equator measured in degrees, and its effect on temperature arises because the angle of incidence of solar radiation decreases with increasing latitude, causing the same amount of solar energy to spread over a larger surface area and travel through more atmosphere, resulting in lower ______ poleward.",
+     "a": "temperatures",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Notice how Shimla (31°N) feels cooler than Chennai (13°N) even in May — both receive ______ but the Sun appears lower in Shimla's sky.",
+     "a": "sunlight",
+     "self_check": true
+    },
+    {
+     "q": "What is Latitude? State the definition given in this lesson.",
+     "a": "Latitude is the angular distance of a place north or south of the Earth's equator measured in degrees, and its effect on temperature arises because the angle of incidence of solar radiation decreases with increasing latitude, causing the same amount of solar energy to spread over a larger surface area and travel through more atmosphere.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Latitude?",
+     "a": "Students think \"higher latitude is colder because it is farther from the Sun\" — they treat the Earth-Sun distance difference (equator vs pole radius ~6370 km) as significant compared to 150 million km orbital distance.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why temperature decreases from equator to poles using the concepts of solar incidence angle, atmospheric path length, and surface area distribution, and can predict relative temperatures of two locations given their latitudes and seasons.",
+     "self_check": true
     }
    ]
   }

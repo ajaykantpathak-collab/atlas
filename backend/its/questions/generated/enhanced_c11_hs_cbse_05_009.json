@@ -34,6 +34,36 @@
      "q": "Design a hybrid fabric structure for a compression sports sleeve that combines knitting and non-woven technologies. Specify: (a) which zones use which method, (b) transition mechanism between zones, (c) how the structure achieves graduated compression (20-30 mmHg at ankle, 10-15 mmHg at thigh).",
      "a": "(a) Ankle-to-calf: warp-knitted spacer fabric (3D structure, high elasticity, breathability). Calf-to-knee: weft-knitted single jersey with plated elastane (controlled compression). Thigh: thermally bonded non-woven elastic web (low profile, smooth transition to skin). (b) Transition: knit-to-knit via gradual stitch density change (course/cm increase 15→25); knit-to-non-woven via ultrasonic welding of non-woven web onto knitted selvedge. (c) Graduated compression: warp-knit zone uses higher elastane % (25%) and tighter loop length (2.8 mm) for high pressure; weft-knit zone reduces elastane (18%) and increases loop length (3.5 mm); non-woven zone uses basis weight gradient (80→40 g/m²) and bond pattern density. A poor answer proposes only one method or ignores transition integrity/seam comfort.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Fabric production methods are the structural techniques used to transform yarns or fibres into coherent textile fabrics, primarily through weaving (interlacing warp and weft yarns at right angles on a loom), knitting (______ yarns to form connected loops), and non-woven processes (bonding fibres directly via mechanical, chemical, or thermal means without yarn formation).",
+     "a": "interlooping",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ fabric for a sports jersey — it needs to stretch, breathe, and recover shape after movement.",
+     "a": "choosing",
+     "self_check": true
+    },
+    {
+     "q": "What is Fabric production methods? State the definition given in this lesson.",
+     "a": "Fabric production methods are the structural techniques used to transform yarns or fibres into coherent textile fabrics, primarily through weaving (interlacing warp and weft yarns at right angles on a loom), knitting (interlooping yarns to form connected loops), and non-woven processes (bonding fibres directly via mechanical, chemical.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now classify ______ fabrics from your wardrobe using this lens: look for right-angle intersections (weaving), visible loops (knitting), or random fibre webs (non-woven).",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Fabric production methods?",
+     "a": "Students believe \"knitted fabrics are always stretchy and woven fabrics never stretch.\" This arises from oversimplified textbook generalisations and limited hands-on exposure.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can differentiate between weaving, knitting, and non-woven structures by identifying warp/weft direction, loop formation, and fibre bonding mechanisms; explain how each method influences fabric properties (stretch, strength, porosity, durability); and select the appropriate production method for a given end-use requirement.",
+     "self_check": true
     }
    ]
   }

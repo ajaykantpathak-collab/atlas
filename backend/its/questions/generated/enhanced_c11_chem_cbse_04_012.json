@@ -31,8 +31,28 @@
      "self_check": true
     },
     {
-     "q": "Design a simple experiment using household items to demonstrate that water is a polar molecule but carbon tetrachloride (CCl₄) is non-polar. Explain the expected observations.",
-     "a": "Charge a plastic ruler by rubbing with wool. Bring it near a thin stream of water from a tap — the stream bends toward the ruler. Repeat with CCl₄ (or cooking oil as proxy) — no bending. Water's net dipole aligns with the external field; CCl₄'s tetrahedral symmetry gives μ_net = 0, so no alignment. A poor answer (e.g., \"both bend\" or \"neither bends\") reveals no understanding of molecular polarity's macroscopic manifestation.",
+     "q": "Give the correct order of steps for the charged-ruler experiment that distinguishes a polar liquid from a non-polar one.",
+     "a": "The demonstration runs: (1) Charge a plastic ruler by rubbing it with wool (2) Run a thin stream of water past the charged ruler and watch it bend (3) Repeat the stream with carbon tetrachloride or cooking oil (4) Read the bending as alignment of water's net dipole and the straight stream as tetrahedral symmetry cancelling the dipoles. A wrong answer that expects both liquids to bend shows the student has missed that only molecules with a net dipole moment respond to the external field.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The dipole moment (μ) of a polar covalent bond is the product of the ______ of the partial charge (δ) on either atom and the distance (r) between the centres of positive and negative charge: μ = δ × r.",
+     "a": "magnitude",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how a stream of water from a tap bends towards a charged plastic comb rubbed through dry hair — the water ______ acts like a tiny magnet with a positive and negative end.",
+     "a": "molecule",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Finally, add bond dipoles as vectors — if they cancel by symmetry, net μ = ______ (non-polar); if not, the molecule is polar.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the net dipole moment of a polyatomic molecule by vector addition of individual bond dipoles using molecular geometry from VSEPR theory, and can predict whether a molecule is polar or non-polar based on symmetry arguments.",
      "self_check": true
     }
    ]

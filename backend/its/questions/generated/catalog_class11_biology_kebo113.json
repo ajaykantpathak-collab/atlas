@@ -1,34 +1,50 @@
 {
- "catalog": "catalog_class11_biology_kebo113",
+ "catalog": "catalog_class11_biology_kebo113.json",
  "concepts": [
   {
    "id": "kebo.113.1.1",
    "title": "Growth, Its Phases and Growth Rate",
+   "converted_to_compute": true,
+   "formula": "growth_rate_percent = increase / initial * 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "growth_rate_percent = increase / initial * 100",
+     "compute": "growth_rate_percent = increase / initial * 100"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Growth, Its Phases and Growth Rate', work with: increase = 100, initial = 75. Carry the chain through step by step and give the final value of growth_rate_percent.",
-     "a": "133.3333 per cent",
+     "q": "For Growth, Its Phases and Growth Rate: given increase = 72, initial = 38, find growth rate percent.",
+     "a": "189.474",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Growth, Its Phases and Growth Rate' and work with: increase = 120, initial = 300. Carry the chain through step by step and give the final value of growth_rate_percent.",
-     "a": "40 per cent",
+     "q": "For Growth, Its Phases and Growth Rate: given increase = 57, initial = 98, find growth rate percent.",
+     "a": "58.1633",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Growth, Its Phases and Growth Rate' refers to.",
-     "a": "Growth is an irreversible permanent increase in size of an organ or its parts, measured by increase in cell number, area, weight or volume; it follows a lag phase, log phase and stationary phase, and its rate can be arithmetic or geometric and is expressed as increased growth per unit time.",
-     "self_check": true
+     "q": "For Growth, Its Phases and Growth Rate: given increase = 97, initial = 16.2, find growth rate percent.",
+     "a": "598.765",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Growth, Its Phases and Growth Rate'.",
-     "a": "An embryo with two leaves producing twenty leaves by geometric growth doubles at each step, showing that geometric growth follows compound interest while arithmetic growth adds a constant number of cells.",
-     "self_check": true
+     "q": "For Growth, Its Phases and Growth Rate: given increase = 28, initial = 40, find growth rate percent.",
+     "a": "70",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Growth, Its Phases and Growth Rate', in plain ASCII form.",
-     "a": "growth_rate_percent = increase / initial * 100",
-     "self_check": true
+     "q": "For Growth, Its Phases and Growth Rate: given increase = 67, initial = 77, find growth rate percent.",
+     "a": "87.013",
+     "self_check": false
+    },
+    {
+     "q": "For Growth, Its Phases and Growth Rate: given increase = 70, initial = 75, find growth rate percent.",
+     "a": "93.3333",
+     "self_check": false
     }
    ]
   },

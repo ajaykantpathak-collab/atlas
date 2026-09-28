@@ -34,6 +34,36 @@
      "q": "Design a three-point test cross experiment to determine the order of three linked genes (A, B, C) on a chromosome. Specify the parental genotypes, the test cross setup, and how you would use the double crossover progeny frequency to identify the middle gene. Create a sample data table with hypothetical numbers showing your logic.",
      "a": "Parental setup: Triple heterozygote ABC/abc (coupling phase) × triple recessive abc/abc. The middle gene is identified because double crossovers (two exchanges: one between A-B, one between B-C) restore the parental allele for the middle gene while flipping the outer genes. Sample data (1000 progeny): Parental: ABC (400), abc (400); Single CO A-B: Abc (50), aBC (50); Single CO B-C: ABc (80), abC (80); Double CO: AbC (5), aBc (5). Double crossovers are rarest (10 total). Comparing AbC/aBc to parental ABC/abc: A and C alleles flipped, B stayed same → B is middle gene. Order: A-B-C. Map distances: A-B = (50+50+5+5)/1000 = 11 cM; B-C = (80+80+5+5)/1000 = 17 cM; A-C = 11+17 = 28 cM (matches single CO A-C: Abc+aBC+ABc+abC = 260 → 26%, close to 28% with interference). A poor answer that doesn't use double crossover rarity to find middle gene reveals the student doesn't grasp the logic of three-point mapping.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Crossing over is the reciprocal exchange of genetic material between non-sister chromatids of homologous chromosomes during prophase I of meiosis, resulting in recombinant chromosomes with new allele ______ that differ from parental arrangements.",
+     "a": "combinations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a plant breeder working with tomato ______.",
+     "a": "plants",
+     "self_check": true
+    },
+    {
+     "q": "What is Crossing over? State the definition given in this lesson.",
+     "a": "Crossing over is the reciprocal exchange of genetic material between non-sister chromatids of homologous chromosomes during prophase I of meiosis, resulting in recombinant chromosomes with new allele combinations that differ from parental arrangements.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You have one variety with disease resistance (gene R) and another with high yield (gene Y), but both genes happen to be on chromosome ______.",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Crossing over?",
+     "a": "Students believe crossing over occurs between sister chromatids because they look identical in textbook diagrams.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Explain the molecular mechanism of crossing over including synapsis, chiasma formation, and the role of the synaptonemal complex; (2) Calculate recombination frequency and map distance from test cross data; (3) Distinguish parental from recombinant phenotypes and explain why crossing over frequency is.",
+     "self_check": true
     }
    ]
   }

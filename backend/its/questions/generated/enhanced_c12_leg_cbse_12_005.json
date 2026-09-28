@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_12_005",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_12_005",
+   "title": "c12_leg_cbse_12_005",
+   "questions": [
+    {
+     "q": "What are the three primary sources of International Law listed in Article 38(1) of the ICJ Statute, and which one requires both 'state practice' and 'opinio juris' to be established?",
+     "a": "The three primary sources are: (a) international conventions (treaties), (b) international custom, and (c) general principles of law recognized by civilized nations. Customary international law requires both widespread and consistent state practice (objective element) and opinio juris — the belief that such practice is legally obligatory (subjective element). A wrong answer that lists 'UN General Assembly resolutions' as a primary source reveals confusion between binding sources and soft law; omitting opinio juris shows the student treats custom as mere habit, not law.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between Public International Law and Private International Law using one concrete example each from the NCERT textbook.",
+     "a": "Public International Law governs relations between states and international organizations — e.g., the UN Convention on the Law of the Sea regulating maritime boundaries between India and Sri Lanka. Private International Law (Conflict of Laws) governs disputes between private parties across borders — e.g., a marriage dispute between an Indian citizen and a French citizen where the court must decide which country's law applies. A wrong answer that conflates them (e.g., saying both deal with state-to-state disputes) shows the student hasn't grasped the 'subjects' distinction: sovereigns vs private persons.",
+     "self_check": true
+    },
+    {
+     "q": "India ratifies the Paris Agreement on climate change. The Agreement requires countries to set emission targets. A citizen files a writ petition in the Supreme Court claiming the government's failure to meet its target violates her Article 21 right to a clean environment. The government argues the Paris Agreement is not domestic law. Apply the Supreme Court's approach from Magan Bhai Patel and Vishaka to decide: can the citizen directly invoke the treaty?",
+     "a": "Under Magan Bhai Patel, a treaty restricting rights or modifying domestic law requires implementing legislation under Article 253 — the Paris Agreement imposes obligations on the State, not direct rights on citizens, so it cannot be directly enforced. However, under Vishaka, if no contrary domestic law exists, the Court can read treaty principles into fundamental rights (Article 21) to fill a vacuum. Since India has environmental laws (EPA 1986, Air/Water Acts), the treaty cannot override them, but the Court may use it to interpret Article 21 expansively. A wrong answer saying 'yes, because India ratified it' ignores the dualist doctrine; saying 'no, never' ignores the Vishaka exception for rights-expanding treaties.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the jurisdiction of the International Court of Justice (ICJ) and the International Criminal Court (ICC). Why can the ICC not prosecute a sitting Head of State of a non-party state for crimes committed on its own territory, while the ICJ could hear a dispute between that state and another state if both consent?",
+     "a": "The ICJ has jurisdiction only over states that consent (via treaty, special agreement, or optional clause declaration) — it decides inter-state disputes. The ICC has jurisdiction over individuals for four crimes (genocide, crimes against humanity, war crimes, aggression) but only if: (a) the crime occurred on the territory of a State Party, or (b) the accused is a national of a State Party, or (c) the UN Security Council refers the situation. A non-party state's Head of State cannot be prosecuted by the ICC for acts on its own territory unless the Security Council refers it (which P5 can veto). The ICJ could hear a case if both states consent, regardless of ICC membership. A wrong answer claiming ICC has universal jurisdiction over all crimes reveals confusion with the principle of complementarity and the Rome Statute's jurisdictional triggers.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Universal Declaration of Human Rights (UDHR) is not a treaty, therefore it has no legal force in international law.\" Use the NCERT's discussion of UDHR's role in ICJ cases and customary law to support your judgment.",
+     "a": "The statement is partially correct but misleading. While the UDHR is a General Assembly resolution (not a treaty) and thus not formally binding as 'hard law', the NCERT notes it has been repeatedly cited by the ICJ and has crystallized into customary international law for core rights (prohibition of torture, genocide, slavery, non-discrimination). Many provisions now reflect opinio juris and state practice, making them binding as custom. Additionally, the UDHR inspired binding treaties (ICCPR, ICESCR). A wrong answer calling it 'purely moral' ignores its normative weight; calling it 'fully binding' ignores its formal status. The nuanced position — soft law origin, hard law influence — is what the NCERT expects.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario involving an Indian company and a German company disputing a contract for sale of machinery. The contract is silent on governing law and dispute resolution. Identify which branch of International Law applies, name the relevant convention India has ratified that would provide default rules, and explain how an Indian court would determine the applicable law.",
+     "a": "This falls under Private International Law (Conflict of Laws). The relevant convention is the UN Convention on Contracts for the International Sale of Goods (CISG/Vienna Convention), which India has ratified. Since the contract is silent, CISG applies automatically as part of Indian law unless excluded. An Indian court would apply CISG's substantive rules (formation, obligations, remedies) directly — no need to choose between Indian or German domestic law. If CISG didn't apply, the court would use Indian conflict-of-laws rules (e.g., 'proper law of the contract' test: closest connection, place of performance). A poor answer that says 'Indian Contract Act applies because the seller is Indian' misses the automatic incorporation of CISG and the distinct domain of Private International Law.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

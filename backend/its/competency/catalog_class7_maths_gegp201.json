@@ -22,7 +22,7 @@
     "give two examples of congruent objects around you",
     "how is congruence different from being similar"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -39,7 +39,16 @@
      "action": "check the answer",
      "explain": "Verify by reversing or re-checking, then conclude."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the congruence condition and angle sums",
+     "explain": "use the congruence condition and angle sums: third = 180 - 69 - 80 gives 31",
+     "compute": "third = 180 - 69 - 80"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp2.1.2",
@@ -57,7 +66,7 @@
     "can two figures have equal angles but not be congruent",
     "state what else must match besides the shape"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -74,7 +83,16 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the congruence condition and angle sums",
+     "explain": "use the congruence condition and angle sums: third = 180 - 61 - 71 gives 48",
+     "compute": "third = 180 - 61 - 71"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp2.1.3",
@@ -92,7 +110,7 @@
     "list all equal pairs in a pair of congruent squares",
     "use correspondences to find an unknown side in a twin figure"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -109,7 +127,16 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 18 gives 72",
+     "compute": "other = 90 - 18"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp2.1.4",
@@ -127,7 +154,7 @@
     "are two pages of your notebook congruent check",
     "design a pattern using congruent triangles"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -144,7 +171,16 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the area formula base times height",
+     "explain": "apply the area formula base times height: area = 16 * 9 gives 144",
+     "compute": "area = 16 * 9"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

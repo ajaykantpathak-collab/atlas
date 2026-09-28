@@ -34,6 +34,31 @@
      "q": "Design a simple rule or checklist that a Class 9 student can use to decide whether to calculate \"molecular mass\" or \"formula unit mass\" for a given compound formula (e.g., CO₂, NaCl, H₂O, KBr, CH₄, MgO).",
      "a": "Checklist: 1) Identify the elements: metal + non-metal → likely ionic → formula unit mass. 2) Non-metal + non-metal → likely covalent → molecular mass. 3) Check for polyatomic ions (NH₄⁺, SO₄²⁻, etc.) → ionic → formula unit mass. 4) If the compound is a known gas/liquid at room temp (CO₂, CH₄, H₂O) → molecular. A poor answer (e.g., \"calculate both the same way\" or \"use molecular mass for everything\") shows the student cannot apply the bonding classification (c9_chem_ch3_4, c9_chem_ch3_5) to choose terminology.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Formula unit mass is the sum of the atomic masses of all atoms present in a formula unit of an ionic compound, ______ in atomic mass units (u).",
+     "a": "expressed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a pinch of ______ salt (NaCl) from your kitchen.",
+     "a": "common",
+     "self_check": true
+    },
+    {
+     "q": "What is Formula unit mass? State the definition given in this lesson.",
+     "a": "Formula unit mass is the sum of the atomic masses of all atoms present in a formula unit of an ionic compound, expressed in atomic mass units (u).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Formula unit mass?",
+     "a": "Students treat the subscript outside parentheses in polyatomic ions as applying only to the first atom inside.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the formula unit mass of any ionic compound given its chemical formula and a periodic table, showing all steps including identification of ions, their atomic masses, and the final summation with correct units (u).",
+     "self_check": true
     }
    ]
   }

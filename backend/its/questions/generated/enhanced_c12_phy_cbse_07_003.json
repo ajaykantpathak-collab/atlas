@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a function generator, an inductor, a dual-trace CRO, and a current-measuring resistor to demonstrate that the current through an inductor lags the voltage by 90°. Describe the connections, what you would observe on the CRO, and how you would measure the phase difference.",
      "a": "Connect the function generator across the series combination of the inductor and a small current-sensing resistor (e.g., 1 Ω). Channel 1 of the CRO measures the voltage across the inductor (or the source), Channel 2 measures the voltage across the sensing resistor (proportional to current). Set the generator to a sine wave (e.g., 1 kHz, 5 V peak). On the CRO, the Channel 2 waveform (current) will be shifted to the right relative to Channel 1 (voltage) by one-quarter of the period. Measure the time delay \\(\\Delta t\\) between zero crossings; phase difference \\(\\phi = \\omega \\Delta t\\). A poor answer omits the sensing resistor, uses the wrong CRO channel assignment, or claims the waveforms are in phase.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan motor winding or a fluorescent tube choke — both are coils of wire that behave as ______.",
+     "a": "inductors",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Inductive reactance (\\(X_L\\))?",
+     "a": "Students often believe that because an inductor has reactance (opposition to current), it must dissipate energy like a resistor.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan motor winding or a ______ tube choke — both are coils of wire that behave as inductors.",
+     "a": "fluorescent",
+     "self_check": true
     }
    ]
   }

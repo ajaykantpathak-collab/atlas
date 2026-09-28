@@ -34,6 +34,26 @@
      "q": "Design a scenario (real-world, 2-3 sentences) where you must use `'a+'` mode. Explain why no other single mode fits.",
      "a": "Example: \"A server log script runs every minute; it must append new log lines to `server.log` and occasionally read the last 10 lines to check for errors.\" `'a+'` allows both appending (without truncation) and reading (pointer starts at end, but `seek(0)` enables reading). `'r+'` would fail if the file doesn't exist initially; `'w+'` would erase logs; `'a'` alone doesn't allow reading. A poor answer uses `'w+'` or `'r+'`, showing inability to match mode to requirements.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The open() function in Python is used to open a file and return a file object (also called a handle) that provides methods and ______ to interact with the file's contents.",
+     "a": "attributes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a diary app in ______: every day you want to add a new entry to a file diary.txt without deleting yesterday's entry.",
+     "a": "Python",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can, given a real-world scenario (e.g., \"append a log entry without erasing previous logs\"), select the correct file mode, write the exact open() call, and explain what happens if the file does or does not exist.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a diary app in Python: every day you want to add a new entry to a file diary.txt without deleting ______'s entry.",
+     "a": "yesterday",
+     "self_check": true
     }
    ]
   }

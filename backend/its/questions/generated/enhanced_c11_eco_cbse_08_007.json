@@ -34,6 +34,26 @@
      "q": "Construct a \"Liberty-Adjusted HDI\" framework for comparing India, China, and Pakistan. Propose three measurable liberty indicators (beyond those mentioned in the textbook) that could be quantified and integrated, justifying each with a specific constitutional or legal provision from each country.",
      "a": "A strong answer proposes indicators like: (1) Judicial Independence Index - measured by tenure security of judges (India: Article 124/217; China: NPCSC interpretation powers; Pakistan: judicial commissions), (2) Press Freedom Score - using Reporters Without Borders methodology linked to constitutional free speech guarantees (India: Art 19(1)(a); China: Art 35; Pakistan: Art 19), (3) Minority Rights Protection - measured by anti-discrimination case enforcement (India: Art 29-30; China: Regional Ethnic Autonomy Law; Pakistan: Art 20-22). A poor answer lists vague concepts like \"democracy\" or \"freedom\" without measurable indicators tied to specific legal frameworks, missing the textbook's call for indicators that \"have not even been introduced so far\" with \"overriding importance.\"",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Human Development Index (HDI) is a composite statistic of life ______, education (mean years of schooling and expected years of schooling), and per capita income (GNI per capita at PPP) indicators, used to rank countries into four tiers of human development.",
+     "a": "expectancy",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a policy analyst ______ why a family in urban China has better health outcomes than a similar family in rural Pakistan despite both countries starting with similar per capita incomes in 1980.",
+     "a": "comparing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a policy analyst comparing why a family in urban China has better health outcomes than a similar family in rural Pakistan despite both countries starting with similar per capita incomes in ______.",
+     "a": "1980",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate HDI component indices from raw data, interpret HDI rankings to compare India, China, and Pakistan, and evaluate why HDI alone is insufficient by identifying missing liberty indicators.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a real-world scenario where you would need to use **all four bases of classification simultaneously** on the same raw dataset. Describe the dataset, the four classifications, and the specific policy question each classification would help answer.",
      "a": "**Dataset:** National Sample Survey (NSS) 2022-23 unit-level data on households: state, survey year, social group (SC/ST/OBC/General), monthly per capita expenditure (MPCE).\n\n**Four classifications & policy questions:**\n1. **Chronological** (by survey round/year): \"Has poverty declined over the last decade?\"\n2. **Geographical** (by state/region): \"Which states have the highest inequality?\"\n3. **Qualitative** (by social group): \"Is the expenditure gap between SC/ST and General category narrowing?\"\n4. **Quantitative** (by MPCE fractile classes: bottom 20%, middle 60%, top 20%): \"What is the consumption share of the top 20% vs bottom 20%?\"\n\nA poor answer that uses four different datasets for each basis reveals the student hasn't grasped that *one dataset* can be *re-classified* in multiple ways for different questions — the essence of flexible data organisation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Classification of data is the process of arranging raw data into groups or classes based on shared ______.",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a policy analyst at NITI Aayog given a massive spreadsheet of raw data on Indian ______: their state, year of survey, religion, monthly income, and education level.",
+     "a": "households",
+     "self_check": true
+    },
+    {
+     "q": "What is Classification of data? State the definition given in this lesson.",
+     "a": "Classification of data is the process of arranging raw data into groups or classes based on shared characteristics.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Classification of data?",
+     "a": "Students often confuse the nature of the variable (qualitative vs quantitative) with the basis of classification.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the basis of classification for any given dataset, justify why a particular basis is appropriate for a specific analytical purpose, and distinguish between qualitative and quantitative classification with examples from economics and demographics.",
+     "self_check": true
     }
    ]
   }

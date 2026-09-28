@@ -1,0 +1,62 @@
+{
+ "catalog": "catalog_class8_science_ch106.json",
+ "concepts": [
+  {
+   "id": "hesc.6.2.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "male_gamete = 74",
+      "female_gamete = 63",
+      "zygote = male_gamete + female_gamete"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "male_gamete = 88",
+      "female_gamete = 17.7",
+      "zygote = male_gamete + female_gamete"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "male_gamete = 86",
+      "female_gamete = 67",
+      "zygote = male_gamete + female_gamete"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "male_gamete = 7.4",
+      "female_gamete = 3",
+      "zygote = male_gamete + female_gamete"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "male_gamete = 88",
+      "female_gamete = 3.5",
+      "zygote = male_gamete + female_gamete"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "male_gamete = 77",
+      "female_gamete = 10.1",
+      "zygote = male_gamete + female_gamete"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "zygote = male_gamete + female_gamete"
+   ]
+  }
+ ]
+}

@@ -34,6 +34,21 @@
      "q": "Create a real-world optimization problem from your daily life (school, home, sports) that can be modeled as a single-variable maxima/minima problem using derivatives. State the objective function, constraints, domain, and what the optimal value represents.",
      "a": "Example: \"A student has 3 hours to study for Math and Physics. Math score = 20√x, Physics score = 15√(3-x), where x = hours for Math. Maximize total score.\" Objective: S(x) = 20√x + 15√(3-x). Constraint: 0 ≤ x ≤ 3. Domain: [0,3]. Optimal x gives hours allocation for maximum combined score. A good answer shows realistic constraints, a differentiable objective function, and clear interpretation. A poor answer uses non-differentiable functions (e.g., step functions), ignores domain bounds, or creates a problem where derivative test doesn't apply (e.g., linear objective). This tests whether the student understands the modeling requirements: continuous, differentiable function on a closed interval.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Word problems on maxima and minima involve translating a real-world situation into a ______ function f(x) representing the quantity to be optimized (area, volume, cost, profit, distance, etc.), then using derivative tests to find the value(s) of x that give the absolute maximum or minimum value of f(x) over the relevant domain.",
+     "a": "mathematical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a ______ sheet of tin 45 cm by 24 cm and you want to make an open-top box by cutting equal squares from each corner and folding up the sides.",
+     "a": "rectangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently solve multi-step optimization word problems by: (a) correctly formulating the objective function from a verbal description, (b) using geometric or physical constraints to reduce to a single variable, (c) computing derivatives accurately, (d) applying the appropriate derivative test, (e) checking endpoints.",
+     "self_check": true
     }
    ]
   }

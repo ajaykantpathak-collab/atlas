@@ -34,6 +34,36 @@
      "q": "Design a mini-project for a Class 11 student to explore the relationship between protein structure and function using PDB. Specify the research question, database queries, and expected output.",
      "a": "Example project: \"How does the active site of serine proteases differ across species?\" Steps: 1) Search PDB for \"serine protease\" with taxonomy filters (human, mouse, bacteria). 2) Download 5 structures (e.g., 1TRY, 1SGT, 1C1Y, 2PKA, 1TPO). 3) Use PyMOL to align structures and visualize the catalytic triad (Ser, His, Asp). 4) Measure distances between triad residues. 5) Create a table comparing distances and note conservation. Output: a report with aligned images and a conclusion on structural conservation. A weak project would only list PDB IDs without analysis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Structure databases are specialized biological databases that store ______ determined three-dimensional coordinates of biological macromolecules (proteins, nucleic acids, and their complexes), along with associated metadata such as experimental method, resolution, and functional annotations.",
+     "a": "experimentally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ trying to design a drug that inhibits a viral protease.",
+     "a": "researcher",
+     "self_check": true
+    },
+    {
+     "q": "What is Structure databases? State the definition given in this lesson.",
+     "a": "Structure databases are specialized biological databases that store experimentally determined three-dimensional coordinates of biological macromolecules (proteins, nucleic acids, and their complexes), along with associated metadata such as experimental method, resolution, and functional annotations.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You need the ______D shape of the protease's active site to start.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Structure databases?",
+     "a": "Students often think PDB files contain only atomic coordinates (x,y,z).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) distinguish between PDB and MMDB in terms of data origin, format, and value-added features; (2) retrieve a structure entry using a PDB ID and interpret its header, coordinate section, and ligand information; (3) explain how structure databases enable homology modeling and structure-based drug design.",
+     "self_check": true
     }
    ]
   }

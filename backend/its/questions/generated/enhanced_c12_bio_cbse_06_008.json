@@ -34,6 +34,26 @@
      "q": "Design a genetic experiment using *E. coli* mutants to prove that the lacI gene product acts in trans (diffusible) while the operator acts in cis (DNA-bound). Specify the genotypes, expected phenotypes, and conclusion.",
      "a": "Good answer criteria: Use partial diploids (F' plasmids). Test 1: F' lacI⁺ lacO⁺ lacZ⁺ / lacI⁻ lacO⁺ lacZ⁻ → if lacZ expressed only when inducer added, lacI⁺ acts in trans (repressor diffuses). Test 2: F' lacI⁺ lacOᶜ lacZ⁺ / lacI⁺ lacO⁺ lacZ⁻ → if lacZ on chromosome (O⁺) is inducible but plasmid (Oᶜ) is constitutive, operator acts in cis (Oᶜ mutation only affects linked genes). Conclusion: Trans-acting factor = diffusible protein; cis-acting element = DNA sequence. A poor answer using only haploid mutants or not distinguishing cis/trans reveals inability to design complementation tests — a standard molecular genetics approach tested in CUET and NEET.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The lac operon is an inducible ______ gene regulation system in *E. coli* that controls the metabolism of lactose through three structural genes (lacZ, lacY, lacA) under a common promoter and operator, regulated by a repressor protein encoded by the lacI gene and modulated by the inducer allolactose and the catabolite activator protein (CAP)-cAMP complex for glucose-dependent control.",
+     "a": "prokaryotic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you eat a bowl of kheer (rice pudding with milk) — your gut bacteria ______ encounter lactose but no glucose.",
+     "a": "suddenly",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can diagram the lac operon with all components labeled, explain the molecular events when lactose is absent/present and glucose is absent/present, predict the expression level of lac genes in four metabolic conditions, and distinguish between negative control (repressor) and positive control (CAP-cAMP) mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you eat a bowl of kheer (rice pudding with milk) — your gut bacteria suddenly ______ lactose but no glucose.",
+     "a": "encounter",
+     "self_check": true
     }
    ]
   }

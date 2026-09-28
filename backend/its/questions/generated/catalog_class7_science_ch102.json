@@ -4,103 +4,93 @@
   {
    "id": "gesc.102.1",
    "title": "Stages of Animal Nutrition",
-   "solution_type": "verify_property",
+   "converted_to_compute": true,
+   "formula": "nutrition_process = ingestion + digestion + absorption + assimilation + egestion",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "nutrition_process = ingestion + digestion + absorption + assimilation + egestion",
+     "compute": "nutrition_process = ingestion + digestion + absorption + assimilation + egestion"
+    }
+   ],
    "questions": [
     {
-     "q": "Name the five steps of animal nutrition in order.",
-     "a": "Ingestion, digestion, absorption, assimilation and egestion.",
-     "self_check": true
+     "q": "For Stages of Animal Nutrition: given ingestion = 22, digestion = 79, absorption = 11.1, assimilation = 44, egestion = 14.3, find nutrition process.",
+     "a": "170.4",
+     "self_check": false
     },
     {
-     "q": "What happens during assimilation of food?",
-     "a": "Absorbed nutrients are used by body cells for energy, growth and repair.",
-     "self_check": true
+     "q": "For Stages of Animal Nutrition: given ingestion = 64, digestion = 55, absorption = 25, assimilation = 18.2, egestion = 99, find nutrition process.",
+     "a": "261.2",
+     "self_check": false
     },
     {
-     "q": "Define egestion.",
-     "a": "Removal of undigested food as faeces through the anus.",
-     "self_check": true
+     "q": "For Stages of Animal Nutrition: given ingestion = 98, digestion = 62, absorption = 72, assimilation = 10.6, egestion = 26, find nutrition process.",
+     "a": "268.6",
+     "self_check": false
+    },
+    {
+     "q": "For Stages of Animal Nutrition: given ingestion = 60, digestion = 73, absorption = 8, assimilation = 17.5, egestion = 9.7, find nutrition process.",
+     "a": "168.2",
+     "self_check": false
+    },
+    {
+     "q": "For Stages of Animal Nutrition: given ingestion = 38, digestion = 37, absorption = 2, assimilation = 80, egestion = 77, find nutrition process.",
+     "a": "234",
+     "self_check": false
+    },
+    {
+     "q": "For Stages of Animal Nutrition: given ingestion = 47, digestion = 57, absorption = 36, assimilation = 79, egestion = 60, find nutrition process.",
+     "a": "279",
+     "self_check": false
     }
    ]
   },
   {
    "id": "gesc.102.2",
    "title": "Role of Villi in Absorption",
+   "converted_to_compute": true,
+   "formula": "absorption_capacity = surface_area * efficiency_factor",
    "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
-     "name": "absorption_capacity",
-     "expr": "surface_area * efficiency_factor",
-     "explain": "bigger villi surface absorbs more food each hour"
-    },
-    {
-     "step": 2,
-     "name": "half_surface_capacity",
-     "expr": "(surface_area / 2) * efficiency_factor",
-     "explain": "capacity if the villi surface halved"
-    },
-    {
-     "step": 3,
-     "name": "absorbed_per_10",
-     "expr": "absorption_capacity * 10",
-     "explain": "capacity over ten hours of digestion"
+     "action": "substitute the given values into the formula",
+     "explain": "absorption_capacity = surface_area * efficiency_factor",
+     "compute": "absorption_capacity = surface_area * efficiency_factor"
     }
    ],
    "questions": [
     {
-     "q": "If villi give a surface factor of 6 units with efficiency 1.5, find the absorption capacity and its value over 10 hours.",
-     "vals": {
-      "surface_area": 6,
-      "efficiency_factor": 1.5
-     },
-     "unit": "units",
-     "steps": null,
-     "a": "90 units",
+     "q": "For Role of Villi in Absorption: given surface_area = 20, efficiency_factor = 63, find absorption capacity.",
+     "a": "1260",
      "self_check": false
     },
     {
-     "q": "A gut with surface factor 4 and efficiency 2 works how well? Compute capacity and the 10-hour value.",
-     "vals": {
-      "surface_area": 4,
-      "efficiency_factor": 2
-     },
-     "unit": "units",
-     "steps": null,
-     "a": "80 units",
+     "q": "For Role of Villi in Absorption: given surface_area = 56, efficiency_factor = 74, find absorption capacity.",
+     "a": "4144",
      "self_check": false
     },
     {
-     "q": "With surface area factor 8 and efficiency 1.25, what is the absorption capacity?",
-     "vals": {
-      "surface_area": 8,
-      "efficiency_factor": 1.25
-     },
-     "unit": "units",
-     "steps": null,
-     "a": "100 units",
+     "q": "For Role of Villi in Absorption: given surface_area = 69, efficiency_factor = 38, find absorption capacity.",
+     "a": "2622",
      "self_check": false
     },
     {
-     "q": "Surface factor 5, efficiency 1.6: find capacity and its 10-hour total.",
-     "vals": {
-      "surface_area": 5,
-      "efficiency_factor": 1.6
-     },
-     "unit": "units",
-     "steps": null,
-     "a": "80 units",
+     "q": "For Role of Villi in Absorption: given surface_area = 42, efficiency_factor = 62, find absorption capacity.",
+     "a": "2604",
      "self_check": false
     },
     {
-     "q": "If disease shrinks the surface factor from 8 to 4 (efficiency 2), what capacity is lost, and what is the new 10-hour value?",
-     "vals": {
-      "surface_area": 4,
-      "efficiency_factor": 2
-     },
-     "unit": "units",
-     "steps": null,
-     "a": "80 units",
+     "q": "For Role of Villi in Absorption: given surface_area = 6.8, efficiency_factor = 67, find absorption capacity.",
+     "a": "455.6",
+     "self_check": false
+    },
+    {
+     "q": "For Role of Villi in Absorption: given surface_area = 32, efficiency_factor = 96, find absorption capacity.",
+     "a": "3072",
      "self_check": false
     }
    ]
@@ -108,44 +98,94 @@
   {
    "id": "gesc.102.3",
    "title": "Rumination Process",
-   "solution_type": "verify_property",
+   "converted_to_compute": true,
+   "formula": "rumination = (ingestion + storage) + (regurgitation + re_chewing)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rumination = (ingestion + storage) + (regurgitation + re_chewing)",
+     "compute": "rumination = (ingestion + storage) + (regurgitation + re_chewing)"
+    }
+   ],
    "questions": [
     {
-     "q": "What is rumination?",
-     "a": "Cattle swallow grass quickly, store it, then bring it back and chew it thoroughly - 'chewing the cud'.",
-     "self_check": true
+     "q": "For Rumination Process: given ingestion = 22, storage = 29, regurgitation = 80, re_chewing = 100, find rumination.",
+     "a": "231",
+     "self_check": false
     },
     {
-     "q": "Name two ruminant animals.",
-     "a": "Cow and buffalo (also goat, sheep).",
-     "self_check": true
+     "q": "For Rumination Process: given ingestion = 1.5, storage = 32, regurgitation = 85, re_chewing = 35, find rumination.",
+     "a": "153.5",
+     "self_check": false
     },
     {
-     "q": "Which stomach chamber stores half-chewed grass in ruminants?",
-     "a": "The rumen, the largest chamber where the cud is stored.",
-     "self_check": true
+     "q": "For Rumination Process: given ingestion = 100, storage = 52, regurgitation = 33, re_chewing = 68, find rumination.",
+     "a": "253",
+     "self_check": false
+    },
+    {
+     "q": "For Rumination Process: given ingestion = 19.1, storage = 67, regurgitation = 43, re_chewing = 36, find rumination.",
+     "a": "165.1",
+     "self_check": false
+    },
+    {
+     "q": "For Rumination Process: given ingestion = 95, storage = 28, regurgitation = 18.3, re_chewing = 21, find rumination.",
+     "a": "162.3",
+     "self_check": false
+    },
+    {
+     "q": "For Rumination Process: given ingestion = 53, storage = 95, regurgitation = 89, re_chewing = 37, find rumination.",
+     "a": "274",
+     "self_check": false
     }
    ]
   },
   {
    "id": "gesc.102.4",
    "title": "Amoeba Feeding Mechanism",
-   "solution_type": "verify_property",
+   "converted_to_compute": true,
+   "formula": "ingestion = pseudopodia_extension + engulfment",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ingestion = pseudopodia_extension + engulfment",
+     "compute": "ingestion = pseudopodia_extension + engulfment"
+    }
+   ],
    "questions": [
     {
-     "q": "How does amoeba ingest food?",
-     "a": "It wraps food with finger-like pseudopodia forming a food vacuole.",
-     "self_check": true
+     "q": "For Amoeba Feeding Mechanism: given pseudopodia_extension = 56, engulfment = 87, find ingestion.",
+     "a": "143",
+     "self_check": false
     },
     {
-     "q": "Where is food digested in amoeba?",
-     "a": "Inside the food vacuole, where juices break the food down.",
-     "self_check": true
+     "q": "For Amoeba Feeding Mechanism: given pseudopodia_extension = 23, engulfment = 90, find ingestion.",
+     "a": "113",
+     "self_check": false
     },
     {
-     "q": "What is a pseudopodium?",
-     "a": "A temporary 'false foot' - a finger-like projection amoeba pushes out to move and catch food.",
-     "self_check": true
+     "q": "For Amoeba Feeding Mechanism: given pseudopodia_extension = 83, engulfment = 79, find ingestion.",
+     "a": "162",
+     "self_check": false
+    },
+    {
+     "q": "For Amoeba Feeding Mechanism: given pseudopodia_extension = 14.3, engulfment = 63, find ingestion.",
+     "a": "77.3",
+     "self_check": false
+    },
+    {
+     "q": "For Amoeba Feeding Mechanism: given pseudopodia_extension = 15.6, engulfment = 2, find ingestion.",
+     "a": "17.6",
+     "self_check": false
+    },
+    {
+     "q": "For Amoeba Feeding Mechanism: given pseudopodia_extension = 55, engulfment = 9.4, find ingestion.",
+     "a": "64.4",
+     "self_check": false
     }
    ]
   }

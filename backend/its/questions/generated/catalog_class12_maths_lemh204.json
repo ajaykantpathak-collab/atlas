@@ -4,15 +4,9 @@
   {
    "id": "lemh.204.10.2.1",
    "title": "Scalars, Vectors and Position Vectors",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "combine components with the vector formula",
-     "explain": "combine components with the vector formula: mag = sqrt(5 * 5 + -3 * -3 + 4 * 4) gives 7.07107",
-     "compute": "mag = sqrt(5 * 5 + -3 * -3 + 4 * 4)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "position vector of P(x, y, z) = x*i_hat + y*j_hat + z*k_hat",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the magnitude of the vector 5i + -3j + 4k (two decimal places).",
@@ -50,6 +44,8 @@
    "id": "lemh.204.10.2.2",
    "title": "Magnitude of a Position Vector",
    "converted_to_compute": false,
+   "formula": "magnitude = sqrt(x_coord**2 + y_coord**2 + z_coord**2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the magnitude of the vector -3i + -5j + 6k (two decimal places).",
@@ -86,15 +82,9 @@
   {
    "id": "lemh.204.10.3.1",
    "title": "Types of Vectors",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "combine components with the vector formula",
-     "explain": "combine components with the vector formula: mag = sqrt(0 * 0 + -4 * -4 + 1 * 1) gives 4.12311",
-     "compute": "mag = sqrt(0 * 0 + -4 * -4 + 1 * 1)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "unit vector = vector divided by its own magnitude",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the magnitude of the vector 0i + -4j + 1k (two decimal places).",
@@ -131,15 +121,9 @@
   {
    "id": "lemh.204.10.4.1",
    "title": "Addition of Vectors by Triangle and Parallelogram Laws",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 10 gives 80",
-     "compute": "other = 90 - 10"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "resultant = (a1 + b1)*i_hat + (a2 + b2)*j_hat + (a3 + b3)*k_hat",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 10 degrees, find the other.",
@@ -176,27 +160,9 @@
   {
    "id": "lemh.204.10.5.1.1",
    "title": "Components of a Vector Along the Coordinate Axes",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the coordinate-geometry formula",
-     "explain": "apply the coordinate-geometry formula: dx = 9 - -3 gives 12",
-     "compute": "dx = 9 - -3"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the coordinate-geometry formula: dy = 11 - -5 gives 16",
-     "compute": "dy = 11 - -5"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 20",
-     "compute": "dist = sqrt(dx * dx + dy * dy)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "vector a = a1*i_hat + a2*j_hat + a3*k_hat with scalar components a1, a2, a3",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (-3, -5) and (9, 11).",
@@ -233,15 +199,9 @@
   {
    "id": "lemh.204.10.5.2.1",
    "title": "Vector Joining Two Points",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "combine components with the vector formula",
-     "explain": "combine components with the vector formula: mag = sqrt(4 * 4 + -6 * -6 + 5 * 5) gives 8.77496",
-     "compute": "mag = sqrt(4 * 4 + -6 * -6 + 5 * 5)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "vector PQ = (x2 - x1)*i_hat + (y2 - y1)*j_hat + (z2 - z1)*k_hat",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the magnitude of the vector 4i + -6j + 5k (two decimal places).",
@@ -279,6 +239,8 @@
    "id": "lemh.204.10.5.2.2",
    "title": "Distance Between Two Points via Vector Length",
    "converted_to_compute": false,
+   "formula": "distance = sqrt((x2 - x1)**2 + (y2 - y1)**2 + (z2 - z1)**2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (1, -3) and (11, 21).",
@@ -315,27 +277,9 @@
   {
    "id": "lemh.204.10.5.3.1",
    "title": "Section Formula for the Division of a Segment",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the coordinate-geometry formula",
-     "explain": "apply the coordinate-geometry formula: dx = 8 - -2 gives 10",
-     "compute": "dx = 8 - -2"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the coordinate-geometry formula: dy = 16 - -8 gives 24",
-     "compute": "dy = 16 - -8"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 26",
-     "compute": "dist = sqrt(dx * dx + dy * dy)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "position vector of R = (n*p + m*q)/(m + n) for internal division in the ratio m:n",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (-2, -8) and (8, 16).",
@@ -372,15 +316,9 @@
   {
    "id": "lemh.204.10.6.1.1",
    "title": "Scalar Product and Perpendicularity",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 25 gives 65",
-     "compute": "other = 90 - 25"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "dot product = a1*b1 + a2*b2 + a3*b3 which equals magnitude_a * magnitude_b * cos(theta)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 25 degrees, find the other.",
@@ -418,6 +356,8 @@
    "id": "lemh.204.10.6.1.2",
    "title": "Cosine of the Angle Between Two Vectors",
    "converted_to_compute": false,
+   "formula": "cos(theta) = dot_ab / (mag_a * mag_b)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 23 degrees, find the other.",
@@ -455,6 +395,8 @@
    "id": "lemh.204.10.6.2.1",
    "title": "Projection of a Vector on Another Vector",
    "converted_to_compute": false,
+   "formula": "projection of a on b = dot_ab / mag_b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the magnitude of the vector 5i + 0j + 5k (two decimal places).",
@@ -491,15 +433,9 @@
   {
    "id": "lemh.204.10.6.3.1",
    "title": "Cross Product and Vectors Perpendicular to Both",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 38 gives 52",
-     "compute": "other = 90 - 38"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "cross product magnitude = mag_a * mag_b * sin(theta)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 38 degrees, find the other.",
@@ -537,6 +473,8 @@
    "id": "lemh.204.10.6.3.2",
    "title": "Areas of a Parallelogram and a Triangle via the Cross Product",
    "converted_to_compute": false,
+   "formula": "area of the parallelogram = magnitude of the cross product of the adjacent sides",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a parallelogram with base 5 cm and height 18 cm.",

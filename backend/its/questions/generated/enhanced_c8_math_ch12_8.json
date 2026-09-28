@@ -34,6 +34,31 @@
      "q": "Create a real-life scenario (Indian context) with 8 data values where the median is at least 20% less than the mean. List the values, calculate both measures, and explain why the median is the appropriate summary.",
      "a": "Example: Daily wages (₹) of 8 workers: 300, 300, 300, 350, 350, 400, 400, 5000. Mean = 7900/8 = ₹987.5. Median = (350+350)/2 = ₹350. Median is 64.6% less than mean. The ₹5000 is an outlier (maybe a supervisor). The median reflects the typical worker's wage. A poor answer would use a symmetric set (mean≈median) or fail to show the 20% gap, indicating the student cannot engineer skewness.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The mean is the arithmetic average (sum of values divided by count) and is the appropriate measure of central tendency for symmetric ______ without extreme outliers.",
+     "a": "distributions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Most ______ are between 60-80, but one student was absent and gets a 0, and another gets a perfect 100.",
+     "a": "scores",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your class of ______ students takes a math test.",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can examine a data set (raw values, dot plot, or frequency table), identify skewness or outliers, choose between mean and median as the better representative value, and justify the choice using the concepts of resistance and balance point.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Most scores are between 60-80, but one student was absent and gets a 0, and ______ gets a perfect 100.",
+     "a": "another",
+     "self_check": true
     }
    ]
   }

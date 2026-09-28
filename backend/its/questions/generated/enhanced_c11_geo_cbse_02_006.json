@@ -34,6 +34,31 @@
      "q": "Design a conceptual model (flowchart or annotated diagram) showing the carbon cycle feedback that stabilised Earth's climate during the faint young Sun paradox (30% less solar luminosity at 4 Ga), linking volcanic CO₂, silicate weathering, and carbonate precipitation.",
      "a": "A good model includes: (1) High volcanic CO₂ → greenhouse warming → liquid oceans. (2) Warm, wet climate → enhanced silicate weathering (CaSiO₃ + CO₂ → CaCO₃ + SiO₂). (3) Carbonate precipitation in oceans → CO₂ drawdown. (4) Cooling → reduced weathering → CO₂ buildup (negative feedback). Must show arrows for \"increase/decrease\" and label \"thermostat\". A poor model omits the temperature-weathering feedback loop or treats CO₂ as only a source, not a regulated variable.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The evolution of Earth's atmosphere refers to the multi-stage process by which the gaseous envelope surrounding Earth transformed from a primordial composition dominated by hydrogen, helium, methane, ammonia, and water vapour (with virtually no free oxygen) into the present nitrogen-oxygen dominated atmosphere (78% N₂, 21% O₂, 1% Ar, trace CO₂ and others) through degassing from the cooling lithosphere, ______ of water vapour, and primarily, oxygenic photosynthesis by early life forms.",
+     "a": "photodissociation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the air around you right now — invisible, odourless, yet precisely 21% ______ that allows you to breathe.",
+     "a": "oxygen",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the air around you right now — invisible, odourless, yet precisely ______% oxygen that allows you to breathe.",
+     "a": "21",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can sequence the three major stages of atmospheric evolution (primordial, intermediate, present), explain the specific geological and biological processes driving each transition (degassing, photodissociation, photosynthesis), and quantitatively compare the compositional percentages of key gases (H₂, He, CH₄, NH₃, H₂O, CO₂.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the air around you right now — ______, odourless, yet precisely 21% oxygen that allows you to breathe.",
+     "a": "invisible",
+     "self_check": true
     }
    ]
   }

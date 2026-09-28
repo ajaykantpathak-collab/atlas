@@ -34,6 +34,31 @@
      "q": "Design a simple modification to a standard cardboard periscope that would allow an observer inside a room to see around a 90-degree hallway corner without changing the overall length of the vertical tube.",
      "a": "To see around a horizontal 90-degree hallway corner, the student must rotate the bottom mirror 90 degrees horizontally relative to the top mirror, or build a horizontal periscope bend instead of a vertical one, aligning the mirrors so the light path twists around the corner. A poor answer would suggest adding a convex lens or a battery, which shows a complete misunderstanding that this is purely a geometry and reflection problem requiring mirror orientation adjustment rather than electrical or magnifying components.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A periscope is an optical ______ that uses two plane mirrors placed parallel to each other at a 45-degree angle inside a tube to allow an observer to see objects that are out of their direct line of sight.",
+     "a": "instrument",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine ______ behind a tall brick compound wall in your colony, unable to see the street traffic or a cricket match happening on the other side.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A periscope is an optical instrument that uses two plane mirrors placed parallel to each other at a ______-degree angle inside a tube to allow an observer to see objects that are out of their direct line of sight.",
+     "a": "45",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can draw a ray diagram of a periscope showing two parallel plane mirrors at 45-degree angles, trace the path of light from an object to the eye, and explain how the two successive reflections enable viewing over obstacles.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine standing behind a tall brick compound wall in your colony, unable to see the street traffic or a cricket match ______ on the other side.",
+     "a": "happening",
+     "self_check": true
     }
    ]
   }

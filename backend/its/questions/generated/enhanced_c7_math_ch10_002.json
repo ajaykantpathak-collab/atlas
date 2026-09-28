@@ -27,12 +27,22 @@
     },
     {
      "q": "A student claims that $(-6) + (-3)$ equals $+9$ because \"two negatives make a positive.\" Evaluate this claim using the number line.",
-     "a": "[Answer needed]",
+     "a": "The claim is wrong: on the number line, start at $-6$ and move 3 steps further left to land on $-9$; adding two negatives always gives a negative, never a positive. The student has carried the multiplication sign rule over into addition.",
      "self_check": true
     },
     {
      "q": "The claim is incorrect. Starting at $-6$ and adding $-3$ means moving 3 more units to the left, which lands on $-9$, not $+9$. The student is confusing the multiplication sign rule (\"negative times negative is positive\") with the addition of integers on a number line.",
-     "a": "[Answer needed]",
+     "a": "Exactly — moving 3 units left from $-6$ reaches $-9$; the error comes from applying \"negative times negative is positive\", which belongs to multiplication, to an addition problem.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ of integers using a number line is a visual method where positive integers are added by moving to the right and negative integers are added by moving to the left from a starting number.",
+     "a": "addition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To solve this, we start at our initial position on the number line and use ______ movement: positive numbers mean moving right (forward), and negative numbers mean moving left (backward).",
+     "a": "directional",
      "self_check": true
     }
    ]

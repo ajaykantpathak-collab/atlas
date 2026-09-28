@@ -34,6 +34,31 @@
      "q": "Create a fraction that, when converted to a decimal, results in exactly 0.2.",
      "a": "The fraction is 2/10, which simplifies to 1/5. If the student provides a different fraction that equals 0.2 (like 20/100), it is also correct; if they provide something like 2/100, they misunderstand place value.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Fractions and decimals are two different ways of writing the same value; a fraction represents a part of a whole using a numerator and ______, while a decimal represents that same part using place value powers of ten.",
+     "a": "denominator",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To convert a ______ like 3/4 to a decimal, think of it as a division problem: 3 divided by 4, which equals 0.75.",
+     "a": "fraction",
+     "self_check": true
+    },
+    {
+     "q": "What is Fractions and decimals? State the definition given in this lesson.",
+     "a": "Fractions and decimals are two different ways of writing the same value; a fraction represents a part of a whole using a numerator and denominator, while a decimal represents that same part using place value powers of ten.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Fractions and decimals?",
+     "a": "Students often divide the larger number by the smaller number regardless of whether it is the numerator or the denominator.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to convert any simple fraction into a decimal through division and convert a decimal into its simplest fractional form using place value names (tenths, hundredths, etc.).",
+     "self_check": true
     }
    ]
   }

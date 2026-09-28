@@ -22,15 +22,33 @@
     "draw tangents to the circle from the given external point",
     "classify the given line positions as secant, tangent or non-intersecting"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "test the meeting points",
-     "explain": "Count where the line meets the circle - one point means tangent."},
-    {"step": 2, "action": "locate the point",
-     "explain": "Outside gives two tangents, on the circle one, inside none."},
-    {"step": 3, "action": "name the contact point",
-     "explain": "The single common point is the point of contact."}
-   ]
+    {
+     "step": 1,
+     "action": "test the meeting points",
+     "explain": "Count where the line meets the circle - one point means tangent."
+    },
+    {
+     "step": 2,
+     "action": "locate the point",
+     "explain": "Outside gives two tangents, on the circle one, inside none."
+    },
+    {
+     "step": 3,
+     "action": "name the contact point",
+     "explain": "The single common point is the point of contact."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 42 gives 264",
+     "compute": "circ = 2 * 22 / 7 * 42"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.110.10.2",
@@ -48,15 +66,33 @@
     "apply the perpendicularity theorem to the given figure",
     "state the theorem about tangent and radius with a diagram"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "join centre to contact point",
-     "explain": "Draw the radius through the point of contact."},
-    {"step": 2, "action": "compare with other lines",
-     "explain": "Any other line through the point must cut the circle twice."},
-    {"step": 3, "action": "conclude perpendicularity",
-     "explain": "Only the perpendicular line touches once - it is the tangent."}
-   ]
+    {
+     "step": 1,
+     "action": "join centre to contact point",
+     "explain": "Draw the radius through the point of contact."
+    },
+    {
+     "step": 2,
+     "action": "compare with other lines",
+     "explain": "Any other line through the point must cut the circle twice."
+    },
+    {
+     "step": 3,
+     "action": "conclude perpendicularity",
+     "explain": "Only the perpendicular line touches once - it is the tangent."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 42 gives 264",
+     "compute": "circ = 2 * 22 / 7 * 42"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.110.10.3",
@@ -76,12 +112,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "square and subtract",
+    {
+     "step": 1,
+     "action": "square and subtract",
      "explain": "Distance squared minus radius squared gives tangent squared.",
-     "compute": "t_sq = d * d - r * r"},
-    {"step": 2, "action": "take the square root",
+     "compute": "t_sq = d * d - r * r"
+    },
+    {
+     "step": 2,
+     "action": "take the square root",
      "explain": "The root is the tangent length.",
-     "compute": "tangent = sqrt(t_sq)"}
+     "compute": "tangent = sqrt(t_sq)"
+    }
    ]
   }
  ],
@@ -97,12 +139,18 @@
     "r": "radius of the circle in cm"
    },
    "solution_template": [
-    {"step": 1, "action": "square and subtract",
+    {
+     "step": 1,
+     "action": "square and subtract",
      "explain": "d squared minus r squared gives tangent squared.",
-     "compute": "t_sq = d * d - r * r"},
-    {"step": 2, "action": "take the square root",
+     "compute": "t_sq = d * d - r * r"
+    },
+    {
+     "step": 2,
+     "action": "take the square root",
      "explain": "The root is the tangent length.",
-     "compute": "tangent = sqrt(t_sq)"}
+     "compute": "tangent = sqrt(t_sq)"
+    }
    ]
   },
   {
@@ -116,12 +164,18 @@
     "r": "radius in cm"
    },
    "solution_template": [
-    {"step": 1, "action": "square and subtract",
+    {
+     "step": 1,
+     "action": "square and subtract",
      "explain": "Form the difference of squares.",
-     "compute": "t_sq = d * d - r * r"},
-    {"step": 2, "action": "take the square root",
+     "compute": "t_sq = d * d - r * r"
+    },
+    {
+     "step": 2,
+     "action": "take the square root",
      "explain": "Both tangents have this length.",
-     "compute": "tangent = sqrt(t_sq)"}
+     "compute": "tangent = sqrt(t_sq)"
+    }
    ]
   }
  ],
@@ -130,9 +184,9 @@
    "id": "ex10.1",
    "source_ref": "jemh110.txt EXERCISE 10.1-10.2",
    "questions": [
-     "How many tangents can a circle have from the given point positions?",
-     "Prove that the tangents drawn from an external point are equal in length.",
-     "Two concentric circles problem - find the chord of the larger circle touching the smaller."
+    "How many tangents can a circle have from the given point positions?",
+    "Prove that the tangents drawn from an external point are equal in length.",
+    "Two concentric circles problem - find the chord of the larger circle touching the smaller."
    ]
   }
  ]

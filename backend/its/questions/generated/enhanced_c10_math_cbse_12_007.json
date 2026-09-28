@@ -34,6 +34,21 @@
      "q": "Create a real-life problem (Indian context) where a frustum-shaped object's surface area needs to be calculated, and the problem requires finding the slant height first. Provide the problem statement and the given values.",
      "a": "Example: \"A bucket in the shape of a frustum of a cone is made of a metal sheet. Its depth is 24 cm, and the diameters of the top and bottom are 30 cm and 10 cm respectively. Find the cost of the metal sheet used at the rate of ₹10 per 100 cm².\" Given: \\(h = 24\\) cm, \\(r_1 = 15\\) cm, \\(r_2 = 5\\) cm. A poor answer would give a problem that directly provides slant height or asks only for volume, showing the student cannot design a problem requiring the Pythagorean step.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ flower pot in the shape of a frustum of a cone for your school garden.",
+     "a": "decorative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You need to calculate the cost of painting its outer surface at ₹______ per cm².",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can also solve word problems involving cost of painting, material required, or combining frustums with other solids.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a simple school-lab experiment using a battery, a bulb, wire, and a wooden board to test whether pencil lead (graphite) behaves like an insulator or a conductor.",
      "a": "A good response should describe setting up a series circuit with a testing gap, placing the pencil lead across the gap, and observing if the bulb glows (it does, because graphite conducts electricity, proving not all non-metals are insulators). A poor answer suggests just looking at the pencil or confusing wood with graphite.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ insulators are materials that completely block the flow of electric current through them because their electrons are tightly bound to their atoms and cannot move freely.",
+     "a": "Electrical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at a ______ plastic switch cover or the rubber coating on a television power cord in your home.",
+     "a": "standard",
+     "self_check": true
+    },
+    {
+     "q": "What is Electrical insulators? State the definition given in this lesson.",
+     "a": "Electrical insulators are materials that completely block the flow of electric current through them because their electrons are tightly bound to their atoms and cannot move freely.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Electrical insulators?",
+     "a": "Students often think that *all* non-metallic materials are electrical insulators, and *all* solid substances can be neatly sorted into absolute conductors or absolute insulators without any middle ground or environmental effects (like moisture).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify whether an everyday material acts as an electrical insulator or conductor using a simple tester circuit, and can explain why materials like rubber, plastic, and dry wood prevent electric shock.",
+     "self_check": true
     }
    ]
   }

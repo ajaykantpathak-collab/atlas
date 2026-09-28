@@ -11,7 +11,7 @@
      "self_check": true
     },
     {
-     "q": "A pedigree shows an affected father and an unaffected mother. All their daughters are affected, but none of their sons are affected. The affected daughters marry unaffected men and produce affected sons and daughters in equal proportions. What is the mode of inheritance, and why does this pattern rule out autosomal dominant inheritance?",
+     "q": "A pedigree shows an affected father and an unaffected mother. All their daughters are affected, but N/A of their sons are affected. The affected daughters marry unaffected men and produce affected sons and daughters in equal proportions. What is the mode of inheritance, and why does this pattern rule out autosomal dominant inheritance?",
      "a": "This is X-linked dominant inheritance. The affected father passes his only X chromosome to all daughters (making them affected) and his Y chromosome to all sons (making them unaffected). Autosomal dominant would affect sons and daughters equally (50% each) regardless of the affected parent's sex. A wrong answer (e.g., \"autosomal dominant\") reveals failure to apply the critical rule: in X-linked dominant, affected fathers transmit the trait to ALL daughters and NO sons, a pattern impossible for autosomal traits.",
      "self_check": true
     },
@@ -33,6 +33,31 @@
     {
      "q": "Design a pedigree chart for a family with an autosomal dominant disorder showing incomplete penetrance (80% penetrance). The grandfather is affected, his son is genotypically affected but phenotypically normal, and the grandson is affected. Use standard symbols and indicate penetrance. Explain how this pedigree could be misinterpreted as recessive if penetrance is ignored.",
      "a": "Draw: Generation I - affected male (shaded square). Generation II - his son: square with genotype \"Aa\" written below, but unshaded (phenotypically normal) with a note \"80% penetrance\". Generation III - grandson: shaded square (affected). If penetrance is ignored, the unaffected son (Gen II) appears to break the dominant pattern (affected father → unaffected son → affected grandson looks like a skip), mimicking autosomal recessive where unaffected parents can have affected children. A good answer must show the genotype notation and explain the misinterpretation risk. A poor answer draws a standard dominant pedigree without addressing penetrance.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Pedigree analysis is a systematic method of tracing the inheritance pattern of a specific trait or genetic disorder through multiple generations of a family using standardized symbols to represent individuals, their ______, and their phenotypic status (affected, unaffected, carrier) to deduce the mode of inheritance (autosomal dominant, autosomal recessive, X-linked dominant, X-linked recessive, or mitochondrial).",
+     "a": "relationships",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a family where a grandmother has a genetic condition, her son is ______, but her grandson shows the same condition.",
+     "a": "unaffected",
+     "self_check": true
+    },
+    {
+     "q": "What is Pedigree analysis? State the definition given in this lesson.",
+     "a": "Pedigree analysis is a systematic method of tracing the inheritance pattern of a specific trait or genetic disorder through multiple generations of a family using standardized symbols to represent individuals, their relationships, and their phenotypic status (affected, unaffected, carrier) to deduce the mode of inheritance (autosomal.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Pedigree analysis?",
+     "a": "Students often think \"carrier\" and \"affected\" are shown the same way in pedigrees.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) correctly draw a pedigree chart using standard symbols for a given family history description, (2) identify the mode of inheritance by analyzing affected/unaffected ratios, sex distribution, and transmission patterns across generations, and (3) calculate the probability of an individual being a carrier or affected for.",
      "self_check": true
     }
    ]

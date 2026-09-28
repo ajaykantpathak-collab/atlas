@@ -34,6 +34,21 @@
      "q": "Design a Python function `save_notes(filename, notes_list)` that takes a filename and a list of strings (each string is a note) and saves them to the file such that each note appears on a new line, and the file starts with a header line `--- My Notes ---`. The function must not add an extra blank line at the end of the file. Write the complete function.",
      "a": "```python\ndef save_notes(filename, notes_list):\n    with open(filename, 'w') as f:\n        f.write('--- My Notes ---\\n')\n        # Ensure each note ends with newline, but don't add extra at end\n        lines = [note + '\\n' for note in notes_list]\n        f.writelines(lines)\n```\nKey points: uses `with` (though node 06_006 covers it, it's good practice), header written with `write()`, list comprehension adds `\\n` to each note, `writelines()` writes all. A poor answer might miss the header, forget `\\n` in comprehension, or use `write()` in a loop (works but not using `writelines()` as required).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Writing to a text file in Python is performed using the write() method to write a single string and the writelines() method to write an iterable of strings (like a list) to a file opened in write ('w'), append ('a'), or exclusive creation ('x') mode; both methods write data exactly as provided without ______ adding newline characters.",
+     "a": "automatically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a simple contact manager for your phone.",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write a Python program that opens a text file in the correct mode, uses write() to store a single string and writelines() to store a list of strings, ensures proper newline handling, and closes the file, producing a file with the exact intended content.",
+     "self_check": true
     }
    ]
   }

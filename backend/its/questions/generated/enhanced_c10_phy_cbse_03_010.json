@@ -34,6 +34,31 @@
      "q": "Design a simple one-week energy conservation challenge for your class. List three measurable actions each student can take at home, the data they should record daily, and how the class will calculate total energy saved in kWh.",
      "a": "Actions: (1) Replace one incandescent/CFL bulb with LED and record hours used. (2) Reduce geyser/AC usage by 30 minutes daily and note actual usage time. (3) Use stairs instead of lift for up to 3 floors and count trips avoided. Data: daily hours of each device, power rating from label. Calculation: For each action, energy saved = (power rating in kW) × (time reduced in h) × 7 days. Sum across all students. A poor answer (e.g., vague actions like \"switch off lights\" without measurable time/power, or no calculation method) shows the student cannot translate conservation into quantifiable, data-driven practice.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Energy ______ refers to the practice of reducing energy consumption by using energy more efficiently or by reducing the use of energy services, while maintaining the same level of output or comfort; it is measured in joules (J) or kilowatt-hours (kWh) saved over a period of time.",
+     "a": "conservation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by observing a typical Indian household: a ceiling fan running in an empty room, an ______ bulb glowing during daytime, and a geyser left on for hours.",
+     "a": "incandescent",
+     "self_check": true
+    },
+    {
+     "q": "What is Energy conservation? State the definition given in this lesson.",
+     "a": "Energy conservation refers to the practice of reducing energy consumption by using energy more efficiently or by reducing the use of energy services, while maintaining the same level of output or comfort; it is measured in joules (J) or kilowatt-hours (kWh) saved over a period of time.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Energy conservation?",
+     "a": "Students often think \"energy conservation\" means \"using less energy by doing less\" (e.g., studying in dim light, not using fan in summer).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why energy conservation is necessary in the Indian context, list at least five practical methods for conserving energy in daily life (e.g., using LED bulbs, star-rated appliances, public transport), and calculate the energy and cost savings when replacing an inefficient device with an efficient one using the.",
+     "self_check": true
     }
    ]
   }

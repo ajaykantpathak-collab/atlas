@@ -34,6 +34,26 @@
      "q": "Construct a comparison table showing three achievements and three problems of India's health sector since 1951, using at least one quantitative indicator per row from NCERT Table 4.1 or recent data.",
      "a": "| Aspect | Achievement (Indicator) | Problem (Indicator) |\n|--------|-------------------------|---------------------|\n| Mortality | CDR: 25.1→6.0 (1951-2020) | Rural IMR 38 vs Urban 23 (2020) |\n| Life Expectancy | 37.2→68.6 years | Gender gap: Male 68.6, Female 71.4 (still low vs global 73) |\n| Disease Control | Polio eradicated (2014), Smallpox (1977) | NCDs: 63% of deaths (cardiovascular, cancer); TB incidence 188/100,000 |\nA poor answer lists vague statements (\"health improved\") without data, showing inability to use evidence – a core competency in Indian Economic Development.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The health sector in India refers to the organized system of public and private institutions, personnel, and resources dedicated to delivering preventive, curative, and promotive health services to the population, with achievements measured by improvements in indicators like life expectancy, infant mortality rate (IMR), and maternal mortality ratio (MMR), and problems characterized by inadequate public expenditure, skewed rural-urban ______ distribution, high out-of-pocket expenditure (OOPE), and persistent communicable and non-communicable disease burdens.",
+     "a": "infrastructure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a family in rural Bihar where the nearest Primary Health Centre (PHC) is 15 km away, has no doctor at night, and the mother must pay ₹8,000 out-of-pocket for a delivery that should be free under Janani ______ Yojana.",
+     "a": "Suraksha",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can interpret trends in key health indicators (IMR, MMR, life expectancy, crude death rate) from 1951 to present, explain the linkage between health infrastructure investment and human capital formation, and critically evaluate the impact of low public health spending (approx.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a family in rural Bihar where the nearest Primary Health Centre (PHC) is 15 km away, has no doctor at night, and the mother must pay ₹8,000 out-of-pocket for a ______ that should be free under Janani Suraksha Yojana.",
+     "a": "delivery",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a schematic cross-section (west-to-east) across Peninsular India at 16°N latitude showing: (a) the Western Ghats water divide, (b) westward-flowing Narmada/Tapi in rift valleys, (c) eastward-flowing Godavari/Krishna across the Deccan Plateau, (d) the Eastern Ghats discontinuity, and (e) the Bay of Bengal. Annotate with geological controls on drainage direction.",
      "a": "Good answer criteria: Cross-section shows asymmetric profile — steep Western Ghats escarpment (1000-1500 m), narrow coastal plain, Narmada/Tapi in deep graben valleys (rift faults annotated), broad Deccan Plateau gently dipping east (0.5°-1°), Godavari/Krishna valleys incised into basalt, Eastern Ghats as low discontinuous hills (300-600 m), wide eastern coastal plain. Annotations: \"Western Ghats: Cenozoic uplift → primary divide\", \"Narmada/Tapi: Mesozoic rift faults → structural control\", \"Deccan: Regional eastward tilt → consequent drainage\", \"Eastern Ghats: Ancient relict mountains → no barrier\". Poor answer draws symmetric profile or misses rift valley annotation — reveals lack of structural geology integration.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: India's drainage system comprises two distinct categories: Himalayan rivers (Indus, Ganga, Brahmaputra) which are perennial, antecedent, and form large basins with high sediment load; and Peninsular rivers (Godavari, Krishna, Kaveri, Mahanadi, Narmada, Tapi) which are seasonal, consequent, and flow through ______ controlled valleys.",
+     "a": "structurally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Open Google Maps satellite view of India and trace the Ganga from Gangotri to Sundarbans — notice how it collects water from the entire ______ arc.",
+     "a": "northern",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Delineate major river basins on an outline map of India and label their tributaries, (2) Explain how catchment geology, rainfall pattern, and relief control river regime (perennial vs seasonal), and (3) Compare water yield per unit area between Himalayan and Peninsular basins using NCERT data.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Open Google Maps satellite view of India and trace the Ganga from Gangotri to ______ — notice how it collects water from the entire northern arc.",
+     "a": "Sundarbans",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch10_4",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch10_4",
+   "title": "c9_math_ch10_4",
+   "questions": [
+    {
+     "q": "In the figure, ray OC stands on line AB. ∠AOC = 3x + 10° and ∠COB = 5x – 30°. Are ∠AOC and ∠COB a linear pair? Justify your answer using the definition.",
+     "a": "Yes, they form a linear pair. They share vertex O, common arm OC, and non-common arms OA and OB are opposite rays (since OC stands on line AB). By definition, adjacent angles with non-common arms as opposite rays form a linear pair. A wrong answer (e.g., \"yes because they add to 180°\") reveals the student confuses the *property* (sum = 180°) with the *definition* (adjacent + opposite rays). They must identify the geometric configuration, not just the numerical sum.",
+     "self_check": true
+    },
+    {
+     "q": "Two angles ∠PQR and ∠RQS share vertex Q and arm QR. Their non-common arms QP and QS are NOT opposite rays. Can ∠PQR and ∠RQS be a linear pair? Explain why or why not using the definition of a linear pair.",
+     "a": "No, they cannot be a linear pair. A linear pair requires the non-common arms to be opposite rays (forming a straight line). Here QP and QS are not opposite rays, so the angles are merely adjacent, not a linear pair. Their sum may or may not be 180° — that's irrelevant. A wrong answer (\"yes if they sum to 180°\") shows the student thinks supplementary = linear pair, missing the geometric necessity of opposite rays.",
+     "self_check": true
+    },
+    {
+     "q": "In the figure, lines AB and CD intersect at O. ∠AOC = (2y + 15)° and ∠COB = (3y – 5)°. Ray OE bisects ∠COB. Find the measure of ∠AOE.",
+     "a": "Step 1: ∠AOC and ∠COB form a linear pair (OA and OB are opposite rays). So (2y + 15) + (3y – 5) = 180 → 5y + 10 = 180 → 5y = 170 → y = 34.\nStep 2: ∠COB = 3(34) – 5 = 102 – 5 = 97°.\nStep 3: OE bisects ∠COB → ∠COE = 97°/2 = 48.5°.\nStep 4: ∠AOE = ∠AOC + ∠COE = (2(34)+15) + 48.5 = 83 + 48.5 = 131.5°.\nA wrong answer (e.g., 83° or 97°) reveals the student either forgot to add the bisected part or confused which angles form the linear pair.",
+     "self_check": true
+    },
+    {
+     "q": "Compare: In Figure 1, ray OP stands on line XY. In Figure 2, rays OP and OQ are drawn such that ∠XOP = 110° and ∠POQ = 70°. In which figure(s) do ∠XOP and ∠POQ form a linear pair? Explain the difference.",
+     "a": "Only in Figure 1. In Figure 1, OP stands on XY, so OX and OY are opposite rays — by definition, ∠XOP and ∠POY form a linear pair. In Figure 2, we only know ∠XOP + ∠POQ = 180°, but we don't know if OX and OQ are opposite rays (Q could be anywhere making 70° with OP). A linear pair requires the geometric configuration of opposite rays, not just a sum of 180°. A wrong answer (\"both, because both sum to 180°\") exposes the classic misconception: confusing supplementary angles with linear pairs.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"∠A and ∠B form a linear pair. ∠A = 3x, ∠B = 2x. Find x.\" Their working: 3x + 2x = 90 → 5x = 90 → x = 18. Identify the error and give the correct solution.",
+     "a": "The error: the student used 90° instead of 180°. Linear pairs are supplementary (sum = 180°), not complementary. Correct: 3x + 2x = 180 → 5x = 180 → x = 36. A wrong correction (e.g., \"x = 36 but because 3x+2x=180\") without identifying the 90° confusion shows the student doesn't understand *why* linear pairs sum to 180° (straight angle axiom).",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (using an Indian context: a folding chair, a door hinge, or a railway crossing gate) where two angles form a linear pair, and one angle is expressed as a linear expression in x. The problem must require solving for x and then finding both angles. Write the problem statement only.",
+     "a": "Example: \"A railway crossing gate has two arms hinged at the same post. When closed, the arms form a straight line. One arm makes an angle of (4x – 20)° with the ground, and the other makes (2x + 40)° with the ground. These two angles form a linear pair. Find x and the measure of each angle.\" A poor problem (e.g., \"two angles add to 180, find x\") lacks the geometric context (hinge, straight line) and fails to specify the linear pair configuration, showing the student doesn't grasp the physical meaning of opposite rays.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -64,7 +64,16 @@
      "explain": "Multiply the number of glucose molecules by 18 to get the ATP needed in the Calvin cycle",
      "compute": "atp_needed = glucose_molecules * 18"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "atp_needed = glucose_molecules * 18",
+     "compute": "atp_needed = glucose_molecules * 18"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.111.3.1",

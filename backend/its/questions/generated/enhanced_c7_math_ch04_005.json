@@ -34,6 +34,11 @@
      "q": "Create an algebraic expression for a matchstick pattern where the first shape requires 5 matchsticks, and each subsequent shape added to the chain requires 4 additional matchsticks. Write down the expression for $n$ shapes and explain how you derived the coefficient and constant.",
      "a": "The expected answer is the expression $4n + 1$. Derivation explanation: Since each new shape adds 4 matchsticks, the multiplier (coefficient) of $n$ is 4. Testing $n = 1$ gives $4(1) = 4$, but the first shape requires 5 matchsticks, so we must add 1 to adjust, resulting in $4(1) + 1 = 5$. A poor answer would just state $5n$ or $4n$ without verifying against the first shape, showing a lack of understanding of how the starting value affects the constant term in a linear expression.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are sitting in your school art class and designing a border using ______ to make connected squares.",
+     "a": "matchsticks",
+     "self_check": true
     }
    ]
   }

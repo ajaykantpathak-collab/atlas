@@ -85,7 +85,16 @@
      "solution": "Step 1: multiply mass and velocity. Step 2: determine direction of momentum. Step 3: compute change in momentum. Working: mass * velocity, mass * (v_final - v_initial).",
      "answer": "The method of linear momentum leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "p = mass * velocity",
+     "compute": "p = mass * velocity"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.104.4.5.2",
@@ -133,7 +142,16 @@
      "solution": "Step 1: multiply mass by acceleration. Step 2: compute rate of change of momentum. Step 3: determine direction of force. Working: mass * acceleration, (mass * (v_final - v_initial)) / time.",
      "answer": "The method of newton's second law of motion leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "force = mass * acceleration",
+     "compute": "force = mass * acceleration"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.104.4.5.3",
@@ -182,7 +200,16 @@
      "solution": "Step 1: calculate velocity change. Step 2: multiply mass by velocity change. Step 3: compute average force. Working: v_final - v_initial, mass * delta_v, impulse / time_duration.",
      "answer": "The method of impulse leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "impulse = force * time_duration",
+     "compute": "impulse = force * time_duration"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.104.4.6",
@@ -199,7 +226,7 @@
     "explain how a swimmer pushes the water",
     "explain newton's third law of motion in your own words"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -216,7 +243,16 @@
      "action": "confirm forces act on different bodies",
      "explain": "Since the action and reaction forces act on different bodies, they do not cancel each other and cannot be summed as a single net force."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "F_ab = -F_ba",
+     "compute": "F_ab = -F_ba"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.104.4.7",
@@ -313,7 +349,16 @@
      "solution": "Step 1: calculate normal force. Step 2: multiply by coefficient. Step 3: compare applied force with limiting friction. Working: mass * 9.8, mu_s * normal_force.",
      "answer": "The method of static friction leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "f_s_max = mu_s * normal_force",
+     "compute": "f_s_max = mu_s * normal_force"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.104.4.9.2",
@@ -362,7 +407,16 @@
      "solution": "Step 1: calculate normal force. Step 2: calculate friction. Step 3: compute net acceleration. Working: mass * 9.8, mu_k * normal_force, f_k / mass.",
      "answer": "The method of kinetic friction leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "f_k = mu_k * normal_force",
+     "compute": "f_k = mu_k * normal_force"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.104.4.10.1",
@@ -411,7 +465,16 @@
      "solution": "Step 1: square the velocity. Step 2: calculate force. Step 3: compute centripetal acceleration. Working: velocity * velocity, mass * v_sq / radius, force / mass.",
      "answer": "The method of centripetal force leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "force = (mass * velocity**2) / radius",
+     "compute": "force = (mass * velocity**2) / radius"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.104.4.10.2",
@@ -460,7 +523,16 @@
      "solution": "Step 1: calculate product of mu, r, and g. Step 2: take square root. Step 3: compute required centripetal force. Working: mu_s * radius * 9.8, sqrt(v_sq), mass * (v_max**2) / radius.",
      "answer": "The method of max speed on level road leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "v_max = sqrt(mu_s * radius * 9.8)",
+     "compute": "v_max = sqrt(mu_s * radius * 9.8)"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

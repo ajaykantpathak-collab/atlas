@@ -24,9 +24,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "form the sine ratio",
+    {
+     "step": 1,
+     "action": "form the sine ratio",
      "explain": "Divide the opposite side by the hypotenuse.",
-     "compute": "sin_a = opposite / hypotenuse"}
+     "compute": "sin_a = opposite / hypotenuse"
+    }
    ]
   },
   {
@@ -45,15 +48,33 @@
     "compare sin 30 and sin 60 - which is larger and why",
     "verify that tan 60 = root 3 using the table"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "recall the standard table",
-     "explain": "List the sine, cosine and tangent values for 0, 30, 45, 60 and 90 degrees."},
-    {"step": 2, "action": "substitute into the expression",
-     "explain": "Replace each ratio by its table value and simplify."},
-    {"step": 3, "action": "state the result",
-     "explain": "Give the exact value using root three where needed."}
-   ]
+    {
+     "step": 1,
+     "action": "recall the standard table",
+     "explain": "List the sine, cosine and tangent values for 0, 30, 45, 60 and 90 degrees."
+    },
+    {
+     "step": 2,
+     "action": "substitute into the expression",
+     "explain": "Replace each ratio by its table value and simplify."
+    },
+    {
+     "step": 3,
+     "action": "state the result",
+     "explain": "Give the exact value using root three where needed."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 24 / 4 gives 6",
+     "compute": "t1 = 24 / 4"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.108.8.3",
@@ -73,12 +94,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "square the sine value",
+    {
+     "step": 1,
+     "action": "square the sine value",
      "explain": "Compute sin A squared.",
-     "compute": "sin_sq = sin_a * sin_a"},
-    {"step": 2, "action": "add the cosine square",
+     "compute": "sin_sq = sin_a * sin_a"
+    },
+    {
+     "step": 2,
+     "action": "add the cosine square",
      "explain": "The identity guarantees a total of 1.",
-     "compute": "sum_sq = sin_sq + cos_a * cos_a"}
+     "compute": "sum_sq = sin_sq + cos_a * cos_a"
+    }
    ]
   }
  ],
@@ -94,9 +121,12 @@
     "hypotenuse": "hypotenuse of the triangle"
    },
    "solution_template": [
-    {"step": 1, "action": "divide opposite by hypotenuse",
+    {
+     "step": 1,
+     "action": "divide opposite by hypotenuse",
      "explain": "Sine is the ratio of these two sides.",
-     "compute": "sin_a = opposite / hypotenuse"}
+     "compute": "sin_a = opposite / hypotenuse"
+    }
    ]
   },
   {
@@ -110,9 +140,12 @@
     "hypotenuse": "hypotenuse length"
    },
    "solution_template": [
-    {"step": 1, "action": "form the ratio",
+    {
+     "step": 1,
+     "action": "form the ratio",
      "explain": "Sine equals opposite over hypotenuse.",
-     "compute": "sin_a = opposite / hypotenuse"}
+     "compute": "sin_a = opposite / hypotenuse"
+    }
    ]
   },
   {
@@ -126,9 +159,12 @@
     "cos_a": "value of cos A"
    },
    "solution_template": [
-    {"step": 1, "action": "square both values",
+    {
+     "step": 1,
+     "action": "square both values",
      "explain": "Compute sin A squared and cos A squared.",
-     "compute": "sum_sq = sin_a * sin_a + cos_a * cos_a"}
+     "compute": "sum_sq = sin_a * sin_a + cos_a * cos_a"
+    }
    ]
   },
   {
@@ -142,12 +178,18 @@
     "cos_a": "cosine whose square is to be verified"
    },
    "solution_template": [
-    {"step": 1, "action": "square the sine",
+    {
+     "step": 1,
+     "action": "square the sine",
      "explain": "sin A squared.",
-     "compute": "sin_sq = sin_a * sin_a"},
-    {"step": 2, "action": "subtract from one",
+     "compute": "sin_sq = sin_a * sin_a"
+    },
+    {
+     "step": 2,
+     "action": "subtract from one",
      "explain": "The identity gives cos A squared.",
-     "compute": "cos_sq = 1 - sin_sq"}
+     "compute": "cos_sq = 1 - sin_sq"
+    }
    ]
   }
  ],
@@ -156,17 +198,17 @@
    "id": "ex8.1",
    "source_ref": "jemh108.txt EXERCISE 8.1-8.2",
    "questions": [
-     "Find the trigonometric ratios of the given angles in the triangles.",
-     "If tan A = cot B prove that A + B = 90 degrees.",
-     "Evaluate the given expressions using the standard angle values."
+    "Find the trigonometric ratios of the given angles in the triangles.",
+    "If tan A = cot B prove that A + B = 90 degrees.",
+    "Evaluate the given expressions using the standard angle values."
    ]
   },
   {
    "id": "ex8.2",
    "source_ref": "jemh108.txt EXERCISE 8.3",
    "questions": [
-     "Prove the given trigonometric identities.",
-     "Simplify the given expressions using the identities."
+    "Prove the given trigonometric identities.",
+    "Simplify the given expressions using the identities."
    ]
   }
  ]

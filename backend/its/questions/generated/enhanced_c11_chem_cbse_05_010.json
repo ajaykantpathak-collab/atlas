@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a gas syringe and pressure sensor to demonstrate that CO₂ deviates from ideal behaviour more than N₂ at room temperature. What would you measure and how would you interpret the data?",
      "a": "Measure pressure at fixed temperature while compressing a known amount of each gas in the syringe (vary volume from 60 mL to 10 mL). Calculate Z = PV/nRT at each volume. Plot Z vs P for both gases. CO₂ curve will show a deeper dip below 1 (stronger attraction) and steeper rise at high P compared to N₂. A poor answer that only measures final pressure without calculating Z or comparing curves reveals inability to design a quantitative deviation experiment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Real gases deviate from ideal gas behaviour (PV = nRT) because gas molecules have finite volume and experience ______ attractive forces, which become significant at high pressures and low temperatures.",
+     "a": "intermolecular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a LPG ______ in your kitchen - it contains butane gas under high pressure.",
+     "a": "cylinder",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate compressibility factor Z for a real gas under given conditions, explain why Z deviates from 1 using intermolecular forces and molecular volume concepts, and predict whether a gas will show positive or negative deviation at a specific temperature and pressure.",
+     "self_check": true
     }
    ]
   }

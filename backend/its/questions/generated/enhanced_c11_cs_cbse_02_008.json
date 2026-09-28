@@ -34,6 +34,31 @@
      "q": "Create a Boolean expression with three variables that simplifies to 0 using only Complement and Idempotent Laws (and Associative/Commutative if needed). Show the simplification steps.",
      "a": "Example: (X · Y) + (X · Y)' + Z · Z'. Steps: 1. Let A = X·Y → A + A' = 1 (Complement). 2. Z·Z' = 0 (Complement). 3. 1 + 0 = 1 (Identity, but if student uses only these laws, they might stop at 1+0). Better: (X + X') · (Y + Y') · (Z · Z') = 1·1·0 = 0. A poor answer (e.g., random expression that doesn't simplify cleanly) reveals inability to construct complement pairs intentionally.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Complement Laws state that for any Boolean ______ A: A + A' = 1 (OR with complement yields true) and A · A' = 0 (AND with complement yields false).",
+     "a": "variable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a hallway light controlled by two ______: one normal (A) and one \"inverted\" (A') that is ON exactly when the normal is OFF.",
+     "a": "switches",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If you wire them in parallel (OR), the light is always ON because at least one switch is always closed — that's A + A' = ______.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state all four laws precisely, prove each using a 2-row truth table, and apply them to simplify Boolean expressions like (X + Y) · (X + Y)' to 0 or X + X·Y to X by recognizing idempotent and complement patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a hallway light ______ by two switches: one normal (A) and one \"inverted\" (A') that is ON exactly when the normal is OFF.",
+     "a": "controlled",
+     "self_check": true
     }
    ]
   }

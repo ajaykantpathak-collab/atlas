@@ -34,6 +34,31 @@
      "q": "Construct a word problem involving a carpenter cutting a wooden plank where two resulting edge angles form a linear pair, using an algebraic expression with an unknown variable $p$, and state the sum equation.",
      "a": "A carpenter cuts a straight wooden plank into two sections meeting at a joint. One section forms an angle of $(5p - 10)^\\circ$ and the adjacent section forms an angle of $(3p + 30)^\\circ$. The equation is $(5p - 10) + (3p + 30) = 180$. A poor answer would fail to set up an algebraic equation or use an incorrect sum like $90^\\circ$ or $360^\\circ$.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A linear pair of angles is a pair of adjacent angles formed when two lines ______, whose non-common arms form a straight line and whose angle measures always sum up to exactly 180 degrees.",
+     "a": "intersect",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine walking along a straight ______ on an Indian highway, then turning sharply onto a side road to enter a petrol pump; the two paths you took form angles along the straight edge of the main road.",
+     "a": "divider",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A linear pair of angles is a pair of adjacent angles formed when two lines intersect, whose non-common arms form a straight line and whose angle measures always sum up to exactly ______ degrees.",
+     "a": "180",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify linear pairs from geometric diagrams, set up linear equations using the 180-degree sum property, and accurately solve for unknown angle variables in multi-step algebraic problems.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ walking along a straight divider on an Indian highway, then turning sharply onto a side road to enter a petrol pump; the two paths you took form angles along the straight edge of the main road.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using germinating seeds (moong vs. groundnut), KOH, and a respirometer to demonstrate the difference in RQ between carbohydrate and fat respiration. State the measurable observation and expected conclusion.",
      "a": "Setup: Two respirometers with equal *dry mass* of germinating moong (starch) and groundnut (oil). KOH absorbs CO₂. Measure O₂ consumption (manometer fluid movement) over fixed time. Observation: Groundnut shows **greater O₂ consumption per unit CO₂ produced** (fluid moves more for same CO₂ absorbed). Conclusion: Fat respiration has lower RQ (~0.7) than carbohydrate (~1.0). A poor design (e.g., not using KOH, or comparing wet mass) reveals lack of understanding of RQ definition and need to isolate gas volumes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cellular respiration is the enzyme-mediated, stepwise oxidative breakdown of organic substrates (primarily glucose) within living cells to release energy trapped as ATP, occurring in the cytoplasm (glycolysis) and ______ (pyruvate oxidation, Krebs cycle, electron transport chain) with oxygen as the terminal electron acceptor in aerobic respiration.",
+     "a": "mitochondria",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ moong bean (sprouts) kept in a closed container overnight – you'll notice water droplets and a slight warmth, evidence of respiration releasing energy and water.",
+     "a": "germinating",
+     "self_check": true
+    },
+    {
+     "q": "What is Cellular respiration? State the definition given in this lesson.",
+     "a": "Cellular respiration is the enzyme-mediated, stepwise oxidative breakdown of organic substrates (primarily glucose) within living cells to release energy trapped as ATP, occurring in the cytoplasm (glycolysis) and mitochondria (pyruvate oxidation, Krebs cycle, electron transport chain) with oxygen as the terminal electron acceptor in.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Cellular respiration?",
+     "a": "Students think \"plants respire only through stomata\" and forget lenticels in woody stems/roots.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can trace the complete path of a glucose molecule from cytoplasm to mitochondrial matrix to inner mitochondrial membrane, naming the specific site for each major stage (glycolysis, pyruvate oxidation, Krebs cycle, ETS) and stating the key energy currency molecules produced at each stage (ATP, NADH, FADH₂).",
+     "self_check": true
     }
    ]
   }

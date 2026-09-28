@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_09_005",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_09_005",
+   "title": "c12_app_cbse_09_005",
+   "questions": [
+    {
+     "q": "Define EMI and state the formula for calculating EMI under the reducing-balance method. Identify each variable in the formula.",
+     "a": "EMI (Equated Monthly Instalment) is the fixed periodic payment made to repay a loan. Under reducing-balance method: EMI = P × [i(1+i)^n] / [(1+i)^n - 1], where P = principal loan amount, i = interest rate per period (monthly), n = total number of payments (months). A wrong answer typically omits the compounding factor (1+i)^n or confuses annual rate with monthly rate, revealing the student doesn't grasp that interest compounds on the reducing balance each period.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why, in the first month of a loan, the interest component of the EMI is maximum and the principal component is minimum, and how this changes over the loan tenure.",
+     "a": "In month 1, interest = P × i (on full principal), so principal repaid = EMI - P×i. As principal reduces each month, the interest charge (outstanding × i) decreases, so a larger portion of the fixed EMI goes toward principal. A wrong answer that says \"interest and principal are equal each month\" or \"principal repaid is constant\" shows the student is confusing reducing-balance with flat-rate method or doesn't understand that interest is charged on the *current* outstanding balance.",
+     "self_check": true
+    },
+    {
+     "q": "A loan of ₹5,00,000 is taken at 12% p.a. compounded monthly for 5 years. Calculate the EMI. Then find the interest and principal components of the 1st EMI.",
+     "a": "Step 1: i = 12%/12 = 1% = 0.01 per month; n = 5×12 = 60 months.\nStep 2: EMI = 5,00,000 × [0.01×(1.01)^60] / [(1.01)^60 - 1] = 5,00,000 × [0.01×1.8167] / [0.8167] = 5,00,000 × 0.022244 = ₹11,122 (approx).\nStep 3: Interest in 1st EMI = 5,00,000 × 0.01 = ₹5,000; Principal in 1st EMI = 11,122 - 5,000 = ₹6,122.\nA wrong EMI (e.g., using annual rate directly or wrong n) or wrong split (e.g., 50-50) reveals formula substitution errors or misunderstanding of monthly compounding.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the total interest paid over the loan tenure for the same principal, rate, and tenure under (a) Flat Rate Method and (b) Reducing-Balance Method. Which is higher and why?",
+     "a": "Flat rate total interest = P × r × t (simple interest on full principal for entire tenure). Reducing-balance total interest = n×EMI - P. For the same nominal rate, flat rate yields **higher total interest** because interest is calculated on the original principal throughout, ignoring that the borrower repays part of the principal each month. A student who says reducing-balance interest is higher or they are equal has not grasped that reducing-balance charges interest only on the *outstanding* amount, which decreases over time.",
+     "self_check": true
+    },
+    {
+     "q": "A borrower claims: \"If I prepay ₹1 lakh in the 13th month of a 20-year home loan, my EMI will automatically reduce.\" Evaluate this statement. Under what conditions would the EMI reduce vs. the tenure reduce?",
+     "a": "The statement is **not automatically true**. Prepayment reduces the outstanding principal. The lender can either (a) keep EMI same and reduce tenure (standard for most banks), or (b) keep tenure same and recalculate a lower EMI (only if borrower requests and lender agrees). EMI reduces **only if** the lender re-amortizes the remaining principal over the *original remaining tenure*. A wrong answer that says \"EMI always reduces\" shows the student doesn't know that banks typically prefer to shorten tenure to recover money faster, and the borrower must explicitly opt for EMI reduction.",
+     "self_check": true
+    },
+    {
+     "q": "Design a loan scenario (choose P, r, n) where the principal component of the 1st EMI is exactly half of the EMI amount. Show your work and explain the financial implication of this scenario.",
+     "a": "We need: Principal_1 = EMI/2 → EMI - P×i = EMI/2 → EMI/2 = P×i → EMI = 2P×i.\nBut EMI = P×i(1+i)^n/[(1+i)^n-1]. Equating: 2P×i = P×i(1+i)^n/[(1+i)^n-1] → 2 = (1+i)^n/[(1+i)^n-1] → 2(1+i)^n - 2 = (1+i)^n → (1+i)^n = 2 → n = ln(2)/ln(1+i).\nExample: i = 1% monthly → n ≈ 69.66 months ≈ 5.8 years. So a loan at 12% p.a. for ~5 years 10 months has 1st EMI split 50-50. Financial implication: Shorter tenures or higher rates make the 1st EMI more principal-heavy; longer tenures make it interest-heavy. A poor answer that guesses numbers without deriving the condition shows lack of algebraic manipulation skill and conceptual understanding of the EMI split formula.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

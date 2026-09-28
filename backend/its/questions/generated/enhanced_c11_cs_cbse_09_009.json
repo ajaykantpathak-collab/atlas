@@ -34,6 +34,31 @@
      "q": "Design a real-world scenario where using `'w'` mode instead of `'a'` would cause irreversible data loss. Write a 4-line Python program that correctly implements append behavior for this scenario, including error handling for permission denied.",
      "a": "**Scenario:** A hospital system logs patient vitals every minute to `vitals.log`. Using `'w'` would erase history each minute — fatal for diagnosis.  \n**Correct program:**\n```python\ntry:\n    with open('vitals.log', 'a') as f:\n        f.write('2024-01-15 10:30:00, BP=120/80, HR=72\\n')\nexcept PermissionError:\n    print(\"Error: Cannot write to log file. Check permissions.\")\n```\nA poor answer uses `'w'` or omits `try-except`, showing inability to map real-world requirements to correct mode and robustness practices.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Appending data to an existing file means opening the file in append mode ('a' or 'a+') so that the file pointer is positioned at the end of the file, allowing new data to be added without ______ existing content.",
+     "a": "overwriting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are maintaining a daily expense log in a file ______.txt.",
+     "a": "expenses",
+     "self_check": true
+    },
+    {
+     "q": "What is Appending data to an existing file? State the definition given in this lesson.",
+     "a": "Appending data to an existing file means opening the file in append mode ('a' or 'a+') so that the file pointer is positioned at the end of the file, allowing new data to be added without overwriting existing content.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Appending data to an existing file?",
+     "a": "Students believe that opening a file in 'a' mode and then calling f.seek(0) allows them to read or overwrite from the beginning.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write a Python program that opens an existing text file in append mode using both open() and with statement, writes multiple lines of data (strings, numbers converted to strings) using write() or writelines(), and verifies the appended content by reading the file afterward, all while handling potential IOError.",
+     "self_check": true
     }
    ]
   }

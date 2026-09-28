@@ -34,6 +34,26 @@
      "q": "Design a simple dichotomous key using only seed morphology (external + internal) to distinguish between an unknown dicot seed (gram/castor) and an unknown monocot seed (maize/orchid). Your key must have exactly four couplets.",
      "a": "A good key:\n1a. Seed coat fused with fruit wall → go to 2\n1b. Seed coat distinct from fruit wall → go to 3\n2a. Single shield-shaped cotyledon (scutellum), endosperm present with aleurone layer → Maize (monocot, endospermic)\n2b. No distinct cotyledon, minute undifferentiated embryo, no endosperm → Orchid (monocot, non-endospermic)\n3a. Two fleshy cotyledons, no endosperm → Gram (dicot, non-endospermic)\n3b. Two thin cotyledons, bulky oily endosperm present → Castor (dicot, endospermic)\nA poor key uses non-seed traits (e.g., leaf venation) or misses the aleurone layer distinction, showing inability to isolate seed-specific diagnostic characters.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A seed is a mature, ______ ovule consisting of a protective seed coat (testa and tegmen in dicots; fused seed coat and fruit wall in monocots), an embryo with an embryonal axis (radicle and plumule), and one or two cotyledons that store or absorb reserve food materials (endospermic or non-endospermic).",
+     "a": "fertilized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking students to soak a few chickpeas (chana) and maize ______ overnight.",
+     "a": "grains",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly label and differentiate all structures in longitudinal sections of dicot (gram/pea) and monocot (maize) seeds, explain the functional significance of each part (e.g., scutellum vs. cotyledons, coleoptile/coleorhiza vs. plumule/radicle), and predict seed type based on morphological features.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking students to soak a few ______ (chana) and maize grains overnight.",
+     "a": "chickpeas",
+     "self_check": true
     }
    ]
   }

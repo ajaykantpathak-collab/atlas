@@ -34,6 +34,31 @@
      "q": "Design a simple school-ground experiment involving three students to compare their running speeds over a 50-meter track using a digital stopwatch. What variables must you control to make a fair comparison?",
      "a": "A good answer will state that all three students must start at the exact same starting line, run along a straight 50-meter path measured with a trundle wheel or tape, and the timekeeper must start and stop the stopwatch precisely at the start and finish signals. A poor answer fails to mention controlling the starting conditions or accurate timing methods, which invalidates the speed comparison.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Comparing speeds involves ______ which of two or more moving objects covers a greater distance in a given interval of time, or takes less time to cover a fixed distance.",
+     "a": "determining",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine ______ near a busy road in your neighborhood and watching an auto-rickshaw and a bicycle start moving from the same traffic signal at the same time.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: After ______ seconds, you notice the auto-rickshaw has traveled much further down the road than the bicycle.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can compare the speeds of two moving objects either by calculating distance per unit time or by keeping one variable (distance or time) constant to determine which object is faster.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine standing near a busy road in your ______ and watching an auto-rickshaw and a bicycle start moving from the same traffic signal at the same time.",
+     "a": "neighborhood",
+     "self_check": true
     }
    ]
   }

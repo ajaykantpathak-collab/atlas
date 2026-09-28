@@ -34,6 +34,21 @@
      "q": "Design a three-tier vendor park layout for a new EV assembly plant in Indore (Madhya Pradesh). Specify which component categories go in Tier-1 (adjacent), Tier-2 (50 km radius), Tier-3 (200 km radius) and justify using logistics cost and just-in-time principles.",
      "a": "Tier-1 (JIT-critical, high volume/weight): Battery pack assembly, motor-drive units, chassis frames, seating — daily milk-run deliveries. Tier-2 (Weekly replenishment, moderate bulk): Stampings, castings, plastic mouldings, wiring harnesses, tyres — sourced from Pithampur SEZ (30 km). Tier-3 (Monthly/buffer stock, low bulk/high value): Semiconductors, sensors, display units, specialty chemicals — from Gujarat/Maharashtra clusters. Justification: Tier-1 minimises line-stop risk; Tier-2 balances transport cost with inventory; Tier-3 accepts longer lead time for high-value low-volume items. Poor answer: putting battery cells in Tier-3 — reveals misunderstanding of battery pack vs. cell assembly and JIT criticality.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The automobile industry in India is a capital-intensive, assembly-based ______ sector that transforms raw materials (steel, aluminium, rubber, plastics, glass, electronics) into motor vehicles (passenger cars, commercial vehicles, two/three-wheelers) through a multi-tier supply chain; its spatial distribution is governed by market access, proximity to iron-steel and petrochemical clusters, port connectivity for export-import, and state-level industrial incentives.",
+     "a": "manufacturing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a Maruti Suzuki Swift on your street — its steel body likely rolled at Bhilai or Jamshedpur, engine cast in Pune, ______ from Gurugram, assembled in Manesar or Gujarat.",
+     "a": "electronics",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) explain the three-phase growth trajectory of India's automobile industry with policy drivers, (2) locate and justify the seven major production clusters on an outline map using locational factors, and (3) evaluate the shift toward EV manufacturing hubs by comparing new policy incentives with traditional locational.",
+     "self_check": true
     }
    ]
   }

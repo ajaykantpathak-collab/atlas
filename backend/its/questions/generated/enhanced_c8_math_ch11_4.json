@@ -34,6 +34,21 @@
      "q": "Create a real-world problem (using Indian context: e.g., tiling a floor, designing a *rangoli*, or cutting a metal sheet) that requires finding the step number \\(n\\) when the number of remaining squares exceeds 10,000. Provide the solution steps.",
      "a": "Problem: A craftsman cuts a square brass sheet (side 1 m) into a Sierpinski Carpet pattern for a decorative panel. He stops when the number of solid pieces exceeds 10,000. At which step does he stop? Solution: Solve \\(8^n > 10000\\). \\(8^4 = 4096\\), \\(8^5 = 32768\\). So \\(n = 5\\). A poor answer that sets up \\(8n > 10000\\) reveals linear thinking. An answer that finds \\(n=4\\) by mistake shows incorrect exponent evaluation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: These formulas arise because each existing square is ______ into 9 congruent squares and the central one is removed, leaving 8 squares per parent square and creating 1 new hole per parent square.",
+     "a": "subdivided",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ Indian *jaali* (lattice screen) for a window, starting with a square teak panel.",
+     "a": "traditional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If you repeat this process on every remaining square, how many solid pieces and holes will there be after ______ stages?",
+     "a": "3",
+     "self_check": true
     }
    ]
   }

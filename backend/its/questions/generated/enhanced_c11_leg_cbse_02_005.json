@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_02_005",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_02_005",
+   "title": "c11_leg_cbse_02_005",
+   "questions": [
+    {
+     "q": "What is the full form of IRAC in legal answer writing, and what does each letter stand for?",
+     "a": "IRAC stands for Issue, Rule, Application, Conclusion. A wrong answer (e.g., \"Introduction, Reasoning, Analysis, Conclusion\") reveals the student is confusing legal writing frameworks with general essay structures — they haven't internalized the specific legal reasoning template required for law exams.",
+     "self_check": true
+    },
+    {
+     "q": "A question asks: \"Distinguish between Unicameral and Bicameral legislature. (3 marks)\". A student writes a paragraph describing each but does not explicitly contrast them. Why is this answer incomplete?",
+     "a": "The command word \"Distinguish\" requires explicit comparative points (e.g., \"Unicameral has one house; Bicameral has two\"). A descriptive answer shows the student understands the concepts but fails to apply the exam skill of structured comparison — they wrote *about* the topics, not *between* them.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the IRAC framework to this 4-mark question: \"Can Montesquieu's strict separation of powers be applied in India? Justify.\" Provide the Issue, Rule, Application, and Conclusion in one sentence each.",
+     "a": "Issue: Whether India follows strict separation of powers. Rule: India adopts Parliamentary system with fusion of powers (Art 74, 75) and checks and balances, not strict separation (Ram Jawaya v. Punjab). Application: Executive is part of legislature; Council of Ministers is collectively responsible to Lok Sabha; judiciary independent but appointments involve executive. Conclusion: No, strict separation is not followed; India follows a modified version with functional overlap and checks and balances. A wrong answer would miss the constitutional provisions or the landmark case, showing inability to link theory to Indian practice.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the executive's legislative functions in India (Ordinance, Delegated Legislation) and the USA (Executive Orders, Veto). What is the key constitutional difference in their source and control?",
+     "a": "In India, ordinance-making power (Art 123) and delegated legislation derive from the Constitution but require Parliamentary approval/control; in the USA, executive orders stem from inherent executive power (Art II) and are checked by judicial review and Congressional override, not legislative ratification. The key difference: India's executive legislative actions are *subordinate* to Parliament; USA's are *co-equal* but checked by other branches. A wrong answer conflates the two systems, missing the Parliamentary vs Presidential constitutional design.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this student answer to a 6-mark question: \"Judiciary in India is completely independent because judges are appointed by the President and cannot be removed easily.\" Is this a sufficient answer? Why or why not?",
+     "a": "No, it is insufficient. It states only two factors (appointment, security of tenure) but ignores: (a) collegium system and NJAC debate, (b) transfer of judges, (c) post-retirement appointments, (d) contempt power as double-edged sword, (e) judicial accountability mechanisms. A 6-mark answer requires multi-dimensional analysis. This reveals the student equates \"independence\" with only formal safeguards, not structural realities.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 4-mark exam question on \"Forms of Government\" that tests the distinction between Constitutional Monarchy and Absolute Monarchy, and write its ideal marking scheme with 4 key points.",
+     "a": "Question: \"Distinguish between Constitutional Monarchy and Absolute Monarchy with one example each. (4 marks)\" Marking Scheme: (1) Source of authority: Constitution vs. monarch's will; (2) Power exercise: limited by law vs. unrestricted; (3) Accountability: to legislature/people vs. none; (4) Examples: UK/Japan vs. Saudi Arabia/Brunei. A poor question would be vague (\"Explain monarchy\") or test recall only — this tests precise conceptual differentiation with application.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

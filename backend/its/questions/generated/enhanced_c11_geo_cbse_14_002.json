@@ -34,6 +34,36 @@
      "q": "Design a field study protocol to distinguish a primary Tropical Evergreen Forest patch from a 50-year-old secondary regrowth in the Western Ghats. Specify four measurable structural/floristic indicators, the sampling method, and the expected directional difference for each indicator.",
      "a": "Expected answer criteria:\nIndicator 1: Basal area (m²/ha) — measured via 10m radius circular plots (n=20); primary >60, secondary <35.\nIndicator 2: Canopy height heterogeneity (coefficient of variation) — measured via laser rangefinder on 50 canopy trees; primary >25% (multi-aged), secondary <15% (even-aged).\nIndicator 3: Dipterocarp seedling density (individuals/100m²) — measured in 5x5m subplots; primary >15, secondary <3 (dispersal limitation).\nIndicator 4: Liana load index (% trees with lianas >10cm DBH) — measured on all trees >30cm DBH in plot; primary >40%, secondary <15%.\nSampling: Stratified random across 10ha, avoiding edges. A poor answer lists only species names without quantitative thresholds; uses only visual assessment; omits sampling design; confuses secondary forest with semi-evergreen.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Tropical Evergreen Forests are dense, multi-layered forests occurring in regions receiving over 200 cm annual rainfall with no distinct dry season, ______ by tall hardwood trees (rosewood, ebony, mahogany) forming a continuous canopy.",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine ______ in the Western Ghats during monsoon — the air is thick with moisture, water drips from leaves even without rain, and the forest floor is dim because the canopy blocks 95% of sunlight.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What is Tropical Evergreen Forests? State the definition given in this lesson.",
+     "a": "Tropical Evergreen Forests are dense, multi-layered forests occurring in regions receiving over 200 cm annual rainfall with no distinct dry season, characterized by tall hardwood trees (rosewood, ebony, mahogany) forming a continuous canopy.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Tropical Evergreen Forests are dense, multi-layered forests occurring in regions receiving over ______ cm annual rainfall with no distinct dry season, characterized by tall hardwood trees (rosewood, ebony, mahogany) forming a continuous canopy.",
+     "a": "200",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Tropical Evergreen Forests?",
+     "a": "Students believe Tropical Evergreen Forests exist all along the Western Ghats from Gujarat to Kerala.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify the climatic thresholds (rainfall, dry season length) that distinguish evergreen from semi-evergreen forests, locate their distribution on an outline map of India with specific state/region names, and explain the structural adaptations (buttressed roots, drip tips, epiphyte load) linking them to the humid climate.",
+     "self_check": true
     }
    ]
   }

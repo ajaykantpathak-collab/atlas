@@ -34,6 +34,31 @@
      "q": "A CREATE level question: Develop a one-page 'Elderly Nutrition Quick-Guide' for community health workers that includes: (a) 5 red-flag signs of malnutrition, (b) 3 simple food-based strategies to boost protein in a vegetarian diet, (c) a hydration schedule for a bed-bound 80-year-old, and (d) two locally available, low-cost calcium-rich recipes (ingredients + method). The guide must use simple Hindi/English terms and visual cues.",
      "a": "Expected answer criteria: (a) Red flags: unplanned weight loss >5% in 6 months, loose clothing/ring, reduced grip strength, frequent infections, slow wound healing. (b) Protein boosters: (i) add 2 tbsp roasted chana/sattu powder to rotis/dal, (ii) mix 1 tbsp skim milk powder in kneaded dough or porridge, (iii) include 50 g paneer/soya chunks daily. (c) Hydration schedule: 100 mL every 2 hours from 7 AM–9 PM (total 1500 mL) using marked bottle; offer buttermilk, soup, dal water, not just plain water. (d) Recipes: (i) Ragi ladoo (ragi flour, jaggery, ghee, sesame seeds — steam/roast), (ii) Amaranth (rajgira) porridge with milk and nuts. Poor answers omit red flags, suggest expensive supplements, give rigid water-only schedules, or use non-local ingredients (e.g., kale, quinoa) — indicating failure to translate knowledge into practical, culturally appropriate tools.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Nutrition for the elderly refers to the science of meeting the altered nutrient requirements of individuals aged 60 years and above, driven by ______ changes in body composition, organ function, sensory perception, and metabolic efficiency, through targeted dietary modifications that maintain health, prevent malnutrition, and manage age-related conditions.",
+     "a": "physiological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sharma, has lost 4 kg in six months, complains of 'feeling full quickly', suffers from ______, and was recently diagnosed with early osteoporosis.",
+     "a": "constipation",
+     "self_check": true
+    },
+    {
+     "q": "What is Nutrition for the elderly? State the definition given in this lesson.",
+     "a": "Nutrition for the elderly refers to the science of meeting the altered nutrient requirements of individuals aged 60 years and above, driven by physiological changes in body composition, organ function, sensory perception, and metabolic efficiency, through targeted dietary modifications that maintain health, prevent malnutrition, and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Nutrition for the elderly refers to the science of meeting the altered nutrient requirements of individuals aged ______ years and above, driven by physiological changes in body composition, organ function, sensory perception, and metabolic efficiency, through targeted dietary modifications that maintain health, prevent malnutrition, and manage age-related conditions.",
+     "a": "60",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) list at least five major physiological changes in the elderly and explain how each alters nutrient needs, and (2) design a one-day menu for a healthy 70-year-old that meets ICMR 2020 RDAs for energy, protein, calcium, vitamin D, vitamin B12, and fiber while incorporating texture and frequency modifications.",
+     "self_check": true
     }
    ]
   }

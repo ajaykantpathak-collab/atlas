@@ -5,6 +5,8 @@
    "id": "jemh.111.12.1",
    "title": "Areas of Sector and Segment of a Circle",
    "converted_to_compute": false,
+   "formula": "sector = (angle / 360) * pi * r * r",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 28 cm (take pi = 22/7).",
@@ -42,6 +44,8 @@
    "id": "jemh.111.12.2",
    "title": "Length of an Arc of a Circle",
    "converted_to_compute": false,
+   "formula": "arc = (angle / 360) * 2 * pi * r",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 28 cm (take pi = 22/7).",
@@ -78,15 +82,9 @@
   {
    "id": "jemh.111.12.3",
    "title": "Areas of Combinations of Plane Figures",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the area formula base times height",
-     "explain": "apply the area formula base times height: area = 16 * 25 gives 400",
-     "compute": "area = 16 * 25"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 16 cm by 25 cm.",

@@ -34,6 +34,21 @@
      "q": "Construct a bijective function \\( h: \\{1,2,3,4\\} \\to \\{p,q,r,s\\} \\) that is **not** the identity mapping (i.e., not \\( 1\\mapsto p, 2\\mapsto q, \\) etc.). Write it as a set of ordered pairs and verify both conditions.",
      "a": "One example: \\( h = \\{(1,q), (2,s), (3,p), (4,r)\\} \\).  \n**Injective:** All four images \\( q,s,p,r \\) are distinct.  \n**Surjective:** Every element of \\( \\{p,q,r,s\\} \\) appears as an image.  \nAny permutation of the four codomain elements works. A poor answer would give a mapping that repeats an image or omits one, showing the student does not grasp that a bijection on finite sets of equal size is exactly a permutation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a school library where each of the 500 students receives a unique library card number from 1 to 500, and every number is used ______ once.",
+     "a": "exactly",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) verify whether a given function is bijective by separately checking injectivity and surjectivity with rigorous algebraic steps, (2) construct explicit examples of bijective functions between given finite or infinite sets, and (3) explain why a function fails to be bijective by identifying which of the two conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a school library where each of the 500 students ______ a unique library card number from 1 to 500, and every number is used exactly once.",
+     "a": "receives",
+     "self_check": true
     }
    ]
   }

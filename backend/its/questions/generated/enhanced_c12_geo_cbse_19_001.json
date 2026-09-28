@@ -34,6 +34,31 @@
      "q": "Design a 6-step data processing workflow for a geographical investigation of \"Urban Heat Island intensity in Bengaluru using Landsat thermal bands\". Specify the input data, classification criteria, tabulation format, and statistical technique for each step.",
      "a": "1. Problem: Quantify UHI intensity (°C difference between urban core and rural fringe). 2. Collect: Landsat 8 Band 10 (thermal) for summer cloud-free day + shapefile of Bengaluru wards. 3. Classify: Urban (built-up >50%), Vegetation (NDVI>0.3), Water; by ward. 4. Tabulate: Ward-wise mean LST (°C) for each class. 5. Analyze: ANOVA to test mean LST differences across classes; regression of LST vs NDVI. 6. Interpret: Identify wards with highest UHI; correlate with land-use change 2000-2023. A poor answer omits radiometric calibration (sub-step of collection) or uses inappropriate statistics (e.g., correlation for categorical classes) — showing inability to link remote sensing (c11_geo_cbse_26_001) with statistical workflow.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Data processing in geographical analysis refers to the systematic sequence of transforming raw spatial and attribute data into meaningful information through defined steps: problem definition, data collection, ______, tabulation, statistical analysis, and interpretation.",
+     "a": "classification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world ______: a Class 12 student notices that the India Meteorological Department releases daily rainfall figures for hundreds of stations, but their geography project needs to compare \"monsoon performance\" across Maharashtra's Vidarbha and Konkan regions.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "What is Data processing in geographical analysis? State the definition given in this lesson.",
+     "a": "Data processing in geographical analysis refers to the systematic sequence of transforming raw spatial and attribute data into meaningful information through defined steps: problem definition, data collection, classification, tabulation, statistical analysis, and interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Data processing in geographical analysis?",
+     "a": "Students believe \"data processing = calculating mean/median/mode\" and treat classification/tabulation as optional formatting.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can list the six sequential steps of geographical data processing in correct order, explain why each step is necessary using a concrete Indian example (e.g., analyzing monsoon rainfall data for Maharashtra districts), and distinguish between raw data and processed information.",
+     "self_check": true
     }
    ]
   }

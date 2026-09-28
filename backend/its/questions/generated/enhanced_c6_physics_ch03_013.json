@@ -34,6 +34,26 @@
      "q": "Design a circuit diagram for a lamp that needs two switches to control it (where both must be closed to turn the light on). Draw the symbols and explain your logic.",
      "a": "The drawing should show two switch symbols placed one after the other (in series) on the wire path. A poor answer would put the switches in parallel or not understand that the path must be unbroken for current to reach the bulb.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A circuit diagram is a standard, simplified ______ of an electrical circuit that uses universal symbols to show how components like batteries, bulbs, and switches are connected, replacing time-consuming, realistic drawings.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are trying to explain how a flashlight works to a friend living far away; would you spend hours drawing a ______ battery and bulb, or would you use a quick, simple code?",
+     "a": "realistic",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to correctly identify the standard symbols for a battery, bulb, and switch, and translate a simple pictorial circuit into a valid schematic diagram.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are trying to explain how a ______ works to a friend living far away; would you spend hours drawing a realistic battery and bulb, or would you use a quick, simple code?",
+     "a": "flashlight",
+     "self_check": true
     }
    ]
   }

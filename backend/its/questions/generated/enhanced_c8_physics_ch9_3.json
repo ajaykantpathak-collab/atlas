@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using household items to demonstrate why the troposphere has convection currents but the stratosphere does not. Explain the setup and what it shows.",
      "a": "Good answer: Use two transparent containers with water. Container A: heat from bottom (stove) — shows rising warm water (convection) like troposphere heated from below by ground. Container B: heat from top (lamp above) — water stays stratified, no convection, like stratosphere heated from above by ozone absorbing UV. Poor answer (e.g., just \"heat water\") shows the student cannot model the different heating mechanisms (bottom-up vs top-down) that define the layers' stability.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The atmosphere is the envelope of gases surrounding Earth, held by gravity, composed primarily of nitrogen (78%) and oxygen (21%) with trace gases, and structured into distinct layers (troposphere, ______, mesosphere, thermosphere, exosphere) based on temperature gradients and composition changes with altitude.",
+     "a": "stratosphere",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look up at the sky on a clear day in Delhi — the blue color comes from nitrogen and oxygen ______ scattering sunlight.",
+     "a": "molecules",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now imagine climbing a mountain in the Himalayas: the air gets thinner and colder until about ______ km, then strangely warms up in the stratosphere because of ozone absorbing UV radiation.",
+     "a": "11",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain how the composition of the atmosphere supports life, describe the temperature trend in each layer, and predict which layer a given phenomenon (weather, ozone absorption, meteor burning, satellite orbit) occurs in based on altitude and temperature data.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look up at the sky on a clear day in Delhi — the blue color comes from nitrogen and oxygen molecules ______ sunlight.",
+     "a": "scattering",
+     "self_check": true
     }
    ]
   }

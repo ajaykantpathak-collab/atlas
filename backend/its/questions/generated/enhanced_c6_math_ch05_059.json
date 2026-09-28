@@ -34,6 +34,26 @@
      "q": "Create a balance-scale problem where the unknown $x$ is doubled, then 5 is added, and the total is 15. Write it as an equation.",
      "a": "The equation is $2x + 5 = 15$. A poor answer would be $x + 5 = 15$ or $2(x+5)=15$, revealing a failure to translate \"doubled\" and \"added\" correctly into algebraic terms.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The balance model ______ an equation as a two-pan balance scale where both sides must maintain equal weight.",
+     "a": "visualizes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at the market with an old-fashioned ______ scale.",
+     "a": "balance",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to describe why performing the same operation on both sides preserves equality and demonstrate this by solving a simple linear equation like 2x + 3 = 7 by isolating the variable.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at the market with an old-______ balance scale.",
+     "a": "fashioned",
+     "self_check": true
     }
    ]
   }

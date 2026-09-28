@@ -34,6 +34,31 @@
      "q": "Create a realistic scenario of a business transaction involving three parties where *two different source documents* are generated for the *same economic event* from different perspectives. Name the documents and explain why both are needed.",
      "a": "Scenario: M/s Sharma Traders (buyer) orders goods from M/s Gupta Wholesalers (seller). M/s Gupta delivers goods via M/s Speedy Transport (carrier). Two source documents: (1) **Sales Invoice** from M/s Gupta to M/s Sharma — records sale, amount, GST. (2) **Lorry Receipt (LR)** from M/s Speedy Transport to M/s Gupta — evidences dispatch, enables buyer to claim goods. Both are needed: invoice for accounting/tax, LR for logistics/title transfer. A good answer shows understanding that one event (delivery) generates multiple documents for different purposes (legal, accounting, operational). A poor answer gives only one document or confuses perspectives.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A business ______ is an economic event involving the exchange of goods, services, or assets between two parties that can be measured in monetary terms and changes the financial position of the business.",
+     "a": "transaction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you go to a stationery shop and buy a ______ for ₹50, paying by UPI.",
+     "a": "notebook",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you go to a stationery shop and buy a notebook for ₹______, paying by UPI.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify whether a given real-life event qualifies as a business transaction by applying the criteria of monetary measurability, two-party exchange, and financial position change, and must correctly match at least five common business activities to their appropriate source documents (e.g., cash sale → cash.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you go to a ______ shop and buy a notebook for ₹50, paying by UPI.",
+     "a": "stationery",
+     "self_check": true
     }
    ]
   }

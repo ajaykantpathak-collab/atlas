@@ -34,6 +34,26 @@
      "q": "Create a scenario where a company buys a second-hand machine for ₹3,00,000, spends ₹50,000 on overhaul, estimates 6-year life and ₹20,000 scrap. The accountant proposes WDV rate of 25%. Verify if this rate is appropriate using the AS-6 formula. If not, find the correct rate and explain the impact of using 25% vs correct rate on Year 1 depreciation.",
      "a": "Cost c = ₹3,50,000, scrap s = ₹20,000, n = 6. Correct rate r = [1 - (20,000/3,50,000)^(1/6)] × 100 = [1 - (0.05714)^(0.1667)] × 100 ≈ [1 - 0.607] × 100 ≈ 39.3%.\nAt 25%: Year 1 Dep = ₹87,500. At 39.3%: Year 1 Dep = ₹1,37,550.\nUsing 25% under-depreciates heavily initially, overstates profits, and violates AS-6's \"fair proportion\" principle. A student unable to apply the formula or compute the nth root reveals gaps in algebraic manipulation and understanding of rate derivation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Written Down Value (WDV) Method, also known as the Reducing Balance Method or Diminishing Value Method, charges depreciation at a fixed percentage on the book value (written down value) of the asset at the beginning of each accounting period, resulting in a declining depreciation charge year after year while the asset's book value reduces ______ but never reaches zero.",
+     "a": "geometrically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In the first year, it runs smoothly with ______ repairs.",
+     "a": "minimal",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to calculate annual depreciation amounts, determine the rate of depreciation using the formula, prepare Machinery/Asset Accounts and Provision for Depreciation Accounts under WDV method for multiple years including partial years and asset additions/disposals, and explain why WDV suits assets with increasing.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In the first year, it runs ______ with minimal repairs.",
+     "a": "smoothly",
+     "self_check": true
     }
    ]
   }

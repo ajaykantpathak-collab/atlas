@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_07_004",
+   "title": "c12_app_cbse_07_004",
+   "questions": [
+    {
+     "q": "Define \"population\" and \"sample\" in the context of a quality-control engineer checking 500 circuit boards produced in a day by testing 50 boards. State the population size (N) and sample size (n).",
+     "a": "**Correct answer:** Population = all 500 circuit boards produced that day (N = 500). Sample = the 50 boards selected for testing (n = 50).\n**Why wrong answers reveal misunderstanding:** If a student says \"population = 50 boards tested,\" they confuse the subset with the whole. If they say \"N = 50, n = 500,\" they invert the notation. This reveals they don't grasp that the population is the *target of inference*, not the data in hand.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to study smartphone usage habits of working professionals in Mumbai. They stand outside a premium tech park at 6 PM on a weekday and interview the first 100 people leaving. Is this a representative sample? Explain using the two conditions for representativeness from the textbook.",
+     "a": "**Correct answer:** No, it is **not representative**. It fails both conditions: (i) **No random selection** — it uses convenience sampling (only those available at that time/place), so not every professional has an equal chance; (ii) **Systematic undercoverage** — misses professionals who leave early, work remotely, work in non-tech-park offices, or don't work weekdays.\n**Why wrong answers reveal misunderstanding:** If a student says \"yes, 100 is a large sample,\" they confuse *sample size* with *representativeness*. If they say \"it's random because people leave randomly,\" they mistake haphazard selection for probability sampling. This reveals the core misconception: **\"large ≠ representative\" and \"haphazard ≠ random.\"**",
+     "self_check": true
+    },
+    {
+     "q": "A school has 1,200 students (roll numbers 1–1200). The principal wants a sample of 60 students using **systematic random sampling**. She randomly picks a starting roll number between 1 and 20, then selects every 20th student thereafter. If the random start is 7, list the first 5 roll numbers in the sample. What is the sampling interval (k)? Why must the start be random?",
+     "a": "**Correct answer:** Sampling interval k = N/n = 1200/60 = 20. First 5 roll numbers: 7, 27, 47, 67, 87. The start must be random to ensure **every student has an equal probability (1/20) of being selected**; if the start were fixed (e.g., always 1), students with roll numbers 2–20 would have zero chance, introducing bias.\n**Why wrong answers reveal misunderstanding:** If a student calculates k = 60/1200 = 0.05, they invert the formula. If they say \"start doesn't need to be random, just pick 1,\" they don't understand that systematic sampling *without random start* is not probability sampling. This reveals confusion between the *mechanics* of systematic sampling and its *probabilistic justification*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare **simple random sampling (SRS)** and **systematic random sampling** for a population of 10,000 households listed alphabetically by surname. Which method is more likely to produce a representative sample if household income correlates with surname (e.g., certain surnames cluster in wealthy neighborhoods)? Justify.",
+     "a": "**Correct answer:** **SRS is more likely to be representative.** Systematic sampling with alphabetical ordering introduces **periodic bias** — if the sampling interval k aligns with the surname-income pattern (e.g., every 50th name is a high-income cluster), the sample will over/under-represent income. SRS has no such structural vulnerability because each of the \\( \\binom{10000}{n} \\) samples is equally likely, breaking any hidden ordering.\n**Why wrong answers reveal misunderstanding:** If a student says \"systematic is better because it's easier,\" they prioritize convenience over statistical validity. If they say \"both are equally good because both are random,\" they miss that systematic sampling's randomness is *conditional on the list order* — a subtle but critical distinction for JEE/NEET.",
+     "self_check": true
+    },
+    {
+     "q": "A news channel reports: \"Our exit poll of 5,000 voters shows Candidate A leading with 52% ± 3% margin of error.\" A student argues: \"Since the sample is large (5,000), the sampling error must be very small, so 52% is almost certainly the true population percentage.\" Evaluate this claim. Is the student correct? Why or why not?",
+     "a": "**Correct answer:** The student is **incorrect**. Sampling error = \\( \\bar{x} - \\mu \\) has two components: **bias** (systematic deviation due to non-representative sampling) and **random sampling variability** (which decreases with n). A large sample *only* reduces random variability; if the exit poll only surveyed urban voters (bias), the 52% could be far from the true % even with n=5,000. The ±3% margin of error *assumes* a representative (probability) sample.\n**Why wrong answers reveal misunderstanding:** If a student agrees, they conflate *precision* (small random error) with *accuracy* (closeness to truth). This is the **\"large n fallacy\"** — a classic board and JEE trap. They must learn: **Randomization controls bias; sample size controls variance.**",
+     "self_check": true
+    },
+    {
+     "q": "Design a sampling plan to estimate the average monthly electricity consumption (in kWh) of all 50,000 households in a mid-sized Indian city. Your plan must: (a) Specify the sampling method (SRS or systematic) and justify your choice; (b) State how you will obtain the sampling frame; (c) Explain how you will handle non-response (households refusing to share bills); (d) Calculate the required sample size if you want a margin of error ≤ 20 kWh at 95% confidence, assuming a pilot study standard deviation of 150 kWh.",
+     "a": "**Expected criteria for a good answer:**\n(a) **Stratified SRS** (by locality/income zone) — better than pure SRS or systematic because electricity use varies sharply by area; stratification ensures all zones are represented. (If only SRS/systematic allowed: choose **SRS** — systematic risks periodicity if bills are sorted by locality.)\n(b) **Sampling frame:** Latest municipal property tax database or electricity board consumer list (must cover all 50,000 households).\n(c) **Non-response:** (i) 3 callback attempts at different times/days; (ii) Offer small incentive (e.g., ₹50 mobile recharge); (iii) Compare respondents vs. non-respondents on observable traits (locality, housing type) to assess bias; (iv) If bias suspected, use weighting or imputation.\n(d) **Sample size:** \\( n = \\left( \\frac{z \\cdot \\sigma}{E} \\right)^2 = \\left( \\frac{1.96 \\times 150}{20} \\right)^2 = (14.7)^2 = 216.09 \\approx 217 \\). Round up to 220 for non-response buffer.\n**Why poor answers reveal misunderstanding:** If they ignore stratification, they miss real-world heterogeneity. If they use systematic without checking list order, they risk bias. If they calculate n = (1.96*150/20) but forget to square, they make a basic algebra error. If they say \"just increase sample size to fix non-response,\" they don't understand non-response bias ≠ sampling error.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,146 @@
+{
+ "catalog": "catalog_class12_physics_leph206.json",
+ "concepts": [
+  {
+   "id": "leph206.14.3.2",
+   "title": "Hole Drift and the Total Current",
+   "converted_to_compute": true,
+   "formula": "current_total = current_e + current_h",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "current_total = current_e + current_h",
+     "compute": "current_total = current_e + current_h"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Hole Drift and the Total Current: given current_e = 55, current_h = 70, find current total.",
+     "a": "125",
+     "self_check": false
+    },
+    {
+     "q": "For Hole Drift and the Total Current: given current_e = 34, current_h = 69, find current total.",
+     "a": "103",
+     "self_check": false
+    },
+    {
+     "q": "For Hole Drift and the Total Current: given current_e = 37, current_h = 2.4, find current total.",
+     "a": "39.4",
+     "self_check": false
+    },
+    {
+     "q": "For Hole Drift and the Total Current: given current_e = 66, current_h = 46, find current total.",
+     "a": "112",
+     "self_check": false
+    },
+    {
+     "q": "For Hole Drift and the Total Current: given current_e = 3.7, current_h = 67, find current total.",
+     "a": "70.7",
+     "self_check": false
+    },
+    {
+     "q": "For Hole Drift and the Total Current: given current_e = 116, current_h = 19.5, find current total.",
+     "a": "135.5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph206.14.6.2",
+   "title": "Dynamic Resistance of a Diode",
+   "converted_to_compute": true,
+   "formula": "rd = delta_v / delta_i",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rd = delta_v / delta_i",
+     "compute": "rd = delta_v / delta_i"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Dynamic Resistance of a Diode: given delta_v = 79, delta_i = 74, find rd.",
+     "a": "1.06757",
+     "self_check": false
+    },
+    {
+     "q": "For Dynamic Resistance of a Diode: given delta_v = 109, delta_i = 74, find rd.",
+     "a": "1.47297",
+     "self_check": false
+    },
+    {
+     "q": "For Dynamic Resistance of a Diode: given delta_v = 6, delta_i = 11.2, find rd.",
+     "a": "0.535714",
+     "self_check": false
+    },
+    {
+     "q": "For Dynamic Resistance of a Diode: given delta_v = 111, delta_i = 97, find rd.",
+     "a": "1.14433",
+     "self_check": false
+    },
+    {
+     "q": "For Dynamic Resistance of a Diode: given delta_v = 94, delta_i = 18.5, find rd.",
+     "a": "5.08108",
+     "self_check": false
+    },
+    {
+     "q": "For Dynamic Resistance of a Diode: given delta_v = 89, delta_i = 78, find rd.",
+     "a": "1.14103",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph206.14.7.3",
+   "title": "Output Frequency of Rectifier Circuits",
+   "converted_to_compute": true,
+   "formula": "freq_out = pulses_per_cycle * freq_in",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "freq_out = pulses_per_cycle * freq_in",
+     "compute": "freq_out = pulses_per_cycle * freq_in"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Output Frequency of Rectifier Circuits: given pulses_per_cycle = 29, freq_in = 68, find freq out.",
+     "a": "1972",
+     "self_check": false
+    },
+    {
+     "q": "For Output Frequency of Rectifier Circuits: given pulses_per_cycle = 65, freq_in = 93, find freq out.",
+     "a": "6045",
+     "self_check": false
+    },
+    {
+     "q": "For Output Frequency of Rectifier Circuits: given pulses_per_cycle = 2.5, freq_in = 66, find freq out.",
+     "a": "165",
+     "self_check": false
+    },
+    {
+     "q": "For Output Frequency of Rectifier Circuits: given pulses_per_cycle = 44, freq_in = 33, find freq out.",
+     "a": "1452",
+     "self_check": false
+    },
+    {
+     "q": "For Output Frequency of Rectifier Circuits: given pulses_per_cycle = 19.3, freq_in = 14.6, find freq out.",
+     "a": "281.78",
+     "self_check": false
+    },
+    {
+     "q": "For Output Frequency of Rectifier Circuits: given pulses_per_cycle = 70, freq_in = 8.3, find freq out.",
+     "a": "581",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

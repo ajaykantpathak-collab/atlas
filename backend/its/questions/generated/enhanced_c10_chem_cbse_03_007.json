@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using only iron nails, copper wire, and solutions of FeSO₄ and CuSO₄ to determine the relative reactivity of iron and copper. Describe the procedure, observations, and conclusion.",
      "a": "Procedure: Place an iron nail in CuSO₄ solution and a copper wire in FeSO₄ solution. Observe after 30 minutes.  \nObservation: Iron nail develops reddish-brown Cu deposit; CuSO₄ fades from blue to pale green. Copper wire shows no change; FeSO₄ remains pale green.  \nConclusion: Iron displaces copper from its salt, so Fe is more reactive than Cu.  \nA poor answer (e.g., \"heat both metals and see which melts first\") reveals the student cannot translate the series concept into a displacement experiment, indicating a lack of procedural understanding.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The reactivity series is a vertical arrangement of metals in decreasing order of their chemical reactivity, determined by their tendency to lose electrons and form positive ions, as observed through ______ reactions with metal salt solutions, reactions with oxygen, water, and dilute acids.",
+     "a": "displacement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world ______: when an iron nail is dipped in copper sulphate solution, the blue colour fades and a reddish-brown coating appears on the nail, but the reverse (copper wire in iron sulphate) shows no change.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly sequence at least 8 common metals (K, Na, Ca, Mg, Al, Zn, Fe, Cu) in the reactivity series, predict whether a displacement reaction will occur between a given metal and a metal salt solution, and justify the position of hydrogen and carbon in the series using experimental evidence.",
+     "self_check": true
     }
    ]
   }

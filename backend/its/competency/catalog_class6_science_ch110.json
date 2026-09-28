@@ -54,7 +54,7 @@
     "Identify the standard unit for measuring distance.",
     "how does si unit of length work"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -71,7 +71,16 @@
      "action": "Justify the standard",
      "explain": "Explain that using SI units avoids confusion from body-part measurements like handspans, which vary from person to person."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "SI_Length = metre",
+     "compute": "SI_Length = metre"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fesc.110.3",
@@ -107,6 +116,27 @@
      "action": "Verify consistency",
      "explain": "Check that mm = cm * 10 so the two converted values agree with each other.",
      "compute": "mm_check = cm * 10"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "cm = m * 100",
+     "compute": "cm = m * 100"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "mm = m * 1000",
+     "compute": "mm = m * 1000"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "fesc.110.3",
+     "question_pattern": "Express a height of {m} metres in cm and mm"
     }
    ]
   },
@@ -144,6 +174,21 @@
      "action": "State the result with unit",
      "explain": "Append the unit 'm' to the computed value so the answer is a complete measurement."
     }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "m = km * 1000",
+     "compute": "m = km * 1000"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "fesc.110.4",
+     "question_pattern": "How many metres make {km} km"
+    }
    ]
   },
   {
@@ -179,6 +224,21 @@
      "step": 3,
      "action": "State the result with unit",
      "explain": "Append the unit 'km' to the computed value so the answer is a complete measurement."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "km = m / 1000",
+     "compute": "km = m / 1000"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "fesc.110.5",
+     "question_pattern": "Convert {m} metres to kilometres"
     }
    ]
   },
@@ -216,6 +276,21 @@
      "action": "State the result with unit",
      "explain": "Append the unit (e.g., cm) to the computed value so the answer is a complete measurement."
     }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "length = reading_end - reading_start",
+     "compute": "length = reading_end - reading_start"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "fesc.110.6",
+     "question_pattern": "Find the length if the scale starts at {reading_end} and ends at {reading_start}"
+    }
    ]
   },
   {
@@ -233,7 +308,7 @@
     "Is a falling stone an example of rectilinear motion?",
     "state two key points about rectilinear motion"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -250,7 +325,16 @@
      "action": "Provide examples",
      "explain": "Confirm the classification with examples such as soldiers in a parade or a falling stone moving in a straight line."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "path = straight_line",
+     "compute": "path = straight_line"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fesc.110.8",

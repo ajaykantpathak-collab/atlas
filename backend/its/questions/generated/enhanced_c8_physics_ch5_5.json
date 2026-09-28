@@ -34,6 +34,21 @@
      "q": "Design a simple experiment to show that temperature affects the solubility of a solid, but stirring does not. List materials, procedure, measurements, and how you would conclude.",
      "a": "Materials: Two beakers, water, thermometer, heater, stirrer, balance, salt (e.g., KNO₃). Procedure: (1) Measure 100 g water at 20°C, add excess salt, stir until saturation, filter, evaporate filtrate to find dissolved mass → solubility at 20°C. (2) Repeat with 100 g water at 60°C → solubility at 60°C. (3) At 20°C, compare stirred vs unstirred beakers with same excess salt; measure time to reach saturation and final dissolved mass. Good answer shows controlled variables, measures equilibrium mass not time, and concludes temperature changes the mass dissolved while stirring only changes time. Poor answer measures only time or doesn't isolate temperature.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Solubility of a solid solute in a liquid solvent generally increases with temperature because higher thermal energy helps overcome the ______ forces holding the solute particles together, allowing more solute to dissolve.",
+     "a": "intermolecular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how quickly sugar dissolves in a glass of cold lassi versus hot chai — the hot tea dissolves much more sugar before becoming ______.",
+     "a": "saturated",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why increasing temperature increases solubility for most solids using particle motion concepts, and can distinguish between the effect of temperature on the equilibrium solubility limit versus the effect of stirring on the rate of reaching that equilibrium.",
+     "self_check": true
     }
    ]
   }

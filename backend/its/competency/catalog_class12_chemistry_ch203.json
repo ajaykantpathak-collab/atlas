@@ -326,7 +326,7 @@
     "write systematic names for substituted aromatic carboxylic acids",
     "give one everyday example of nomenclature and structure of carboxylic acids"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -343,7 +343,16 @@
      "action": "Relate resonance structure to reduced electrophilicity",
      "explain": "Hydroxyl oxygen donates electron density via resonance onto the carboxyl carbon, making it less electrophilic than a ketone or aldehyde carbonyl carbon."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "IUPAC_name = Alkane_root_minus_e + oic_acid",
+     "compute": "IUPAC_name = Alkane_root_minus_e + oic_acid"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lech.8.7",
@@ -460,7 +469,16 @@
      "solution": "Step 1: Calculate saturated hydrogen count for given carbon count: h_max = 2 * c_count + 2 = 10.0 Step 2: Determine hydrogen difference: h_diff = h_max - h_count = 6.0 Step 3: Compute degree of unsaturation: ihd = h_diff // 2 = 3.0 Final result: 3.0",
      "answer": "3.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ihd = (2 * c_count + 2 - h_count) // 2",
+     "compute": "ihd = (2 * c_count + 2 - h_count) // 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lech.8.0.2",
@@ -515,7 +533,16 @@
      "solution": "Step 1: Calculate carbon mass contribution: mass_c = c_count * 12 = 48.0 Step 2: Calculate hydrogen mass contribution: mass_h = h_count * 1 = 4.0 Step 3: Calculate oxygen mass contribution: mass_o = o_count * 16 = 64.0 Step 4: Sum atomic masses for total molecular mass: mol_mass = mass_c + mass_h + mass_o = 116.0 Final result: 116.0",
      "answer": "116.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mol_mass = c_count * 12 + h_count * 1 + o_count * 16",
+     "compute": "mol_mass = c_count * 12 + h_count * 1 + o_count * 16"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

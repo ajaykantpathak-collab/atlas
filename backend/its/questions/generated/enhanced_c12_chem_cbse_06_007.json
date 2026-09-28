@@ -34,6 +34,31 @@
      "q": "Design a simple chemical test using only NaI in dry acetone to distinguish between 1-chlorobutane and 2-chloro-2-methylpropane. Explain the expected observations and the underlying principle.",
      "a": "Add NaI in dry acetone to each halide. 1-Chlorobutane (primary) reacts rapidly via SN2: NaCl precipitates (white solid) as the Finkelstein exchange occurs (R–Cl + NaI → R–I + NaCl↓). 2-Chloro-2-methylpropane (tertiary) shows no precipitate because SN2 is sterically blocked. The test exploits the dramatic reactivity difference due to steric hindrance. A poor answer might suggest both react or neither reacts, missing the steric argument.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: SN2 (Substitution Nucleophilic Bimolecular) reaction is a one-step nucleophilic substitution mechanism where the nucleophile attacks the carbon bearing the leaving group from the backside (180° to the C–X bond), ______ breaking the C–X bond and forming a new C–Nu bond, resulting in inversion of configuration at a chiral carbon center.",
+     "a": "simultaneously",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine washing dishes with soap: the grease (alkyl halide) is attacked by the hydrophilic head of soap (______) from the opposite side of the carbon–halogen bond, flipping the carbon's \"umbrella\" inside out.",
+     "a": "nucleophile",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe that a primary alkyl bromide like ______-bromobutane reacts rapidly with NaI in acetone (Finkelstein test), while tertiary butyl bromide does not.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Draw the complete SN2 transition state showing partial bonds, trigonal bipyramidal geometry, and backside attack; (2) Predict the stereochemical outcome (inversion) for a given chiral substrate and write the product with correct wedge/dash representation; (3) Rank alkyl halides (methyl, primary.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine washing dishes with soap: the grease (alkyl halide) is attacked by the ______ head of soap (nucleophile) from the opposite side of the carbon–halogen bond, flipping the carbon's \"umbrella\" inside out.",
+     "a": "hydrophilic",
+     "self_check": true
     }
    ]
   }

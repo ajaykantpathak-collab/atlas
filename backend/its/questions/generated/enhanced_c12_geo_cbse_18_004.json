@@ -34,6 +34,36 @@
      "q": "Design a secondary data acquisition plan for a study on \"Changing cropping patterns in the Malwa region of Madhya Pradesh (1990–2020)\". Specify: (a) three specific government publications, (b) the spatial unit for each, (c) one definitional change you must adjust for.",
      "a": "(a) 1. **Madhya Pradesh Statistical Abstract** (annual, Directorate of Economics & Statistics) — district-level area/production/yield for major crops. 2. **Agricultural Census** (quinquennial, Ministry of Agriculture) — operational holding-wise cropped area by size class, district-level. 3. **Season and Crop Report** (annual, State Dept. of Agriculture) — season-wise (Kharif/Rabi) sown area, tehsil-level. (b) Spatial units: district (Abstract, Agri Census), tehsil (Season & Crop Report). (c) Definitional change: The 2015-16 Agricultural Census revised the \"operational holding\" definition to include leased-in land more comprehensively; pre-2015 data undercounts tenant-operated area, biasing cropping pattern trends if unadjusted. A poor answer lists generic sources (\"government reports\") without specific publication titles, spatial units, or awareness of definitional breaks — exactly what costs marks in board case-study questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Secondary data sources are pre-existing datasets collected, compiled, and published by government agencies, international organisations, research institutions, or private entities for ______, statistical, or research purposes, which geographers access without conducting primary fieldwork.",
+     "a": "administrative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to compare ______ depletion in Punjab and Rajasthan for your Class 12 project — you cannot drill wells yourself, so you turn to the Central Ground Water Board's annual reports.",
+     "a": "groundwater",
+     "self_check": true
+    },
+    {
+     "q": "What is Secondary data sources? State the definition given in this lesson.",
+     "a": "Secondary data sources are pre-existing datasets collected, compiled, and published by government agencies, international organisations, research institutions, or private entities for administrative, statistical, or research purposes, which geographers access without conducting primary fieldwork.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by listing the question you want to answer (e.g., \"How has wheat yield changed in Haryana since ______?\").",
+     "a": "1990",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Secondary data sources?",
+     "a": "Students believe \"secondary data\" means *only* published books and reports, ignoring unpublished government records (village revenue records/patwari khasra, municipal building permits, district health registers) which are often the *only* source for micro-level (village/ward) geographical analysis.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify the appropriate secondary data source for a given geographical research question (e.g., selecting Census 2011 for village-level literacy rates vs.",
+     "self_check": true
     }
    ]
   }

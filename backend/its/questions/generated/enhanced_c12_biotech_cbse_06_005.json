@@ -34,6 +34,36 @@
      "q": "A CREATE level question: Design a complete surface sterilization protocol for a NEW, untested medicinal plant species (woody shrub, thick cuticle, suspected endophytes). Specify: (i) explant type and size, (ii) pre-wash steps, (iii) disinfectant sequence with concentrations/times, (iv) rinsing regime, (v) one positive and one negative control you would include. Justify each choice in one sentence.",
      "a": "Good answer example: (i) Nodal segment 1.5–2 cm with axillary bud (woody, meristematic, low endophyte load); (ii) Tap water 30 min → liquid detergent (Teepol 1%) 10 min with gentle agitation → running tap water 15 min; (iii) 70% EtOH 45 s → 0.1% HgCl₂ 8 min (better penetration for thick cuticle) → 3× sterile DW 5 min each; (iv) Same as (iii) step 3; (v) Positive: non-sterilized explant on media (confirms contamination source); Negative: media-only plate (confirms media sterility). Justifications must link woody nature → HgCl₂ over NaOCl; thick cuticle → longer EtOH/detergent; endophyte suspicion → HgCl₂'s systemic penetration. A poor answer using only NaOCl, omitting controls, or choosing leaf explant for woody shrub shows failure to synthesize tissue properties, contaminant types, and disinfectant chemistry into a coherent protocol.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Explant selection is the process of choosing a specific plant part (meristem, leaf disc, stem segment, root tip, anther, etc.) based on its totipotent capacity, ______ risk, and regeneration potential for in vitro culture.",
+     "a": "contamination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to clone a prized disease-free banana plant for a farmer in Maharashtra — you cannot just cut a leaf and put it on gel; fungi and ______ will overrun the culture in 48 hours.",
+     "a": "bacteria",
+     "self_check": true
+    },
+    {
+     "q": "What is Explant selection? State the definition given in this lesson.",
+     "a": "Explant selection is the process of choosing a specific plant part (meristem, leaf disc, stem segment, root tip, anther, etc.) based on its totipotent capacity, contamination risk, and regeneration potential for in vitro culture.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to clone a prized disease-free banana plant for a farmer in Maharashtra — you cannot just cut a leaf and put it on gel; fungi and bacteria will overrun the culture in ______ hours.",
+     "a": "48",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Explant selection?",
+     "a": "Students believe \"stronger sterilization = cleaner culture\" and write protocols like \"5% NaOCl for 30 min\" for all explants.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Select an appropriate explant type for a given plant species and culture objective (micropropagation, somatic embryogenesis, virus elimination) with justification; (2) Design a complete surface sterilization protocol specifying disinfectant, concentration, exposure time, and rinsing steps, and explain how.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Design a sampling plan to estimate the average daily wage of construction workers in a metropolitan city. The workforce comprises three categories: skilled (15%), semi-skilled (35%), unskilled (50%). You have a budget for 400 interviews. Specify: (a) the sampling method, (b) sample allocation across strata, (c) how you would select workers within each stratum, and (d) one practical challenge you might face in implementing this plan.",
      "a": "**Expected Answer:**  \n(a) **Stratified Random Sampling** — because the population has clear, heterogeneous subgroups (skill levels) with likely different wage distributions.  \n(b) **Proportional allocation:** Skilled = 0.15×400 = 60; Semi-skilled = 0.35×400 = 140; Unskilled = 0.50×400 = 200. (Neyman allocation could be used if stratum variances are known from pilot data).  \n(c) Within each stratum, use **Simple Random Sampling** via random number tables applied to a list of registered workers in that category (e.g., from labour union records or contractor payrolls).  \n(d) **Practical challenge:** No complete, up-to-date sampling frame exists for unskilled migrant workers (many are unregistered, mobile, undocumented). This leads to **under-coverage bias** — a non-sampling error.  \n**Poor answer reveals:** Using SRS ignoring strata (wastes budget on over-sampling skilled workers), or using quota sampling (non-random), or ignoring the frame problem.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Random sampling is a ______ sampling technique where every unit in the population has a known, non-zero chance of being selected.",
+     "a": "probability",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ for the National Sample Survey Office (NSSO) tasked with estimating the average monthly household expenditure in a diverse district of 10,000 households.",
+     "a": "researcher",
+     "self_check": true
+    },
+    {
+     "q": "What is Random sampling? State the definition given in this lesson.",
+     "a": "Random sampling is a probability sampling technique where every unit in the population has a known, non-zero chance of being selected.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Systematic Random Sampling selects units at a fixed interval *k* = *N*/*n* after a random start between ______ and *k*.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Random sampling?",
+     "a": "Misconception: \"Stratified sampling means dividing the population into groups and then picking *convenient* samples from each group.\" Why it arises: Students hear \"divide into strata\" and \"select from each stratum\" but miss the critical word random.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish between the three random sampling methods and identify the correct method for a given research scenario, and (2) execute the selection procedure for each method using random number tables or calculated intervals, justifying why the method ensures representativeness.",
+     "self_check": true
     }
    ]
   }

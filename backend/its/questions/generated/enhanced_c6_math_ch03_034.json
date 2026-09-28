@@ -34,6 +34,31 @@
      "q": "Create a real-world problem where you would need to subtract 1/4 from 1/2.",
      "a": "\"If I have 1/2 kg of sugar and use 1/4 kg for a cake, how much is left?\" A poor answer would just be a string of numbers like \"What is 1/2 - 1/4?\" without a real-world context.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of fractions is the process of finding the difference between two fractional parts, which requires them to be expressed in the same \"fractional unit\" (denominator) before the numerators can be subtracted.",
+     "a": "Subtraction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To find the answer, you cannot simply subtract 3 minus 1, because the \"size\" of the parts (the ______ 4 and 3) are different.",
+     "a": "denominators",
+     "self_check": true
+    },
+    {
+     "q": "What is Subtraction of fractions? State the definition given in this lesson.",
+     "a": "Subtraction of fractions is the process of finding the difference between two fractional parts, which requires them to be expressed in the same \"fractional unit\" (denominator) before the numerators can be subtracted.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Subtraction of fractions?",
+     "a": "Students often subtract the numerators and the denominators separately (e.g., 3/4 - 1/2 = 2/2).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to correctly subtract two fractions with different denominators by finding a common denominator, performing the subtraction, and simplifying the final result.",
+     "self_check": true
     }
    ]
   }

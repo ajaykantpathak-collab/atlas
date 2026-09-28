@@ -34,6 +34,26 @@
      "q": "Design a new application-layer protocol for a real-time multiplayer cricket scoring app where multiple users update scores simultaneously. Specify: (a) which transport protocol (TCP or UDP) you would choose and why, (b) one custom header field your protocol would add beyond standard transport headers, and (c) how you would handle out-of-order updates.",
      "a": "Good answer: (a) UDP — because score updates are small, frequent, and stale updates are useless; low latency matters more than perfect reliability. (b) Custom header field: `match_id` (16-bit) + `ball_sequence` (16-bit) to identify which match and ball the update belongs to. (c) Out-of-order handling: each client maintains `last_ball_sequence`; discard updates with sequence ≤ last_seen; apply only newer updates. A poor answer chooses TCP without justification, omits a custom header, or suggests \"retransmit until acknowledged\" which defeats real-time purpose.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The TCP/IP (Transmission Control Protocol/Internet Protocol) protocol suite is a four-layer hierarchical framework (Application, Transport, Internet, Network Access) that standardizes end-to-end data ______ across heterogeneous networks by defining protocols for addressing, routing, reliability, and application-level services.",
+     "a": "communication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you send a WhatsApp message from your phone in Delhi to a friend in Mumbai — the message travels through cell towers, fiber cables, ______, and servers before appearing on their screen.",
+     "a": "routers",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) name all four layers of the TCP/IP model in correct order from top to bottom, (2) state the primary function and at least two key protocols for each layer, (3) explain how data encapsulation proceeds down the stack at the sender and decapsulation up the stack at the receiver, and (4) contrast the TCP/IP.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you send a WhatsApp message from your phone in Delhi to a friend in Mumbai — the message travels through cell towers, fiber cables, routers, and servers before ______ on their screen.",
+     "a": "appearing",
+     "self_check": true
     }
    ]
   }

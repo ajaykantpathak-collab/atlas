@@ -34,6 +34,31 @@
      "q": "Design a sequencing strategy to identify a novel structural variant (a 15 kb inversion) in a patient's genome that is missed by standard short-read sequencing. Specify the technology, library preparation consideration, and bioinformatics approach. Justify each choice.",
      "a": "**Technology**: Oxford Nanopore (or PacBio HiFi) — long reads (>15 kb) can span the entire inversion breakpoint in a single read. **Library prep**: Use high-molecular-weight DNA extraction (gentle lysis, no vortexing) to preserve fragments >50 kb. Avoid PCR amplification (which introduces bias and chimeras); use PCR-free ligation or rapid sequencing kit. **Bioinformatics**: Map long reads to reference genome with minimap2; detect split-read alignments or discordant read-pair signatures at inversion breakpoints; use Sniffles or cuteSV for structural variant calling; validate with PCR across breakpoint and Sanger sequencing. **Justification**: Short reads (150 bp) cannot span the 15 kb inverted region; they map normally to both orientations, missing the variant. Long reads physically cover the junction. A poor answer (e.g., \"use Illumina with higher coverage\" or \"use RNA-seq\") reveals inability to match read length to variant size and ignorance of library prep impact on structural variant detection.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: DNA sequencing ______ determine the precise order of nucleotides (A, T, C, G) in a DNA molecule.",
+     "a": "technologies",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a geneticist trying to diagnose a rare genetic disorder in a ______.",
+     "a": "patient",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Third-generation sequencing (e.g., Oxford Nanopore) threads single-stranded DNA through a protein nanopore, detecting base-specific ionic current disruptions to produce ultra-long reads (>______ Mb) in real time.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Compare Sanger, NGS (Illumina), and nanopore sequencing across read length, throughput, accuracy, cost, and workflow; (2) Explain the biochemical principle of chain termination vs. sequencing-by-synthesis vs. nanopore current blockade; (3) Select the appropriate technology for a given application (e.g., variant.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ trying to diagnose a rare genetic disorder in a patient.",
+     "a": "geneticist",
+     "self_check": true
     }
    ]
   }

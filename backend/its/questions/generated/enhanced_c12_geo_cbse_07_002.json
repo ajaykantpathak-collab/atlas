@@ -34,6 +34,31 @@
      "q": "Design a trade flow map for a hypothetical Indian agri-export startup selling mangoes from Ratnagiri (Maharashtra) to Dubai (UAE) and London (UK). Annotate: (a) origin, (b) pre-port logistics, (c) port of exit, (d) shipping route, (e) port of entry, (f) last-mile in destination, (g) two auxiliary services required at each stage. Justify your port choice.",
      "a": "(a) Ratnagiri orchards → (b) Reefer trucks to JNPT (Nhava Sheva) via NH66 (4 hrs) — NOT Mumbai port (congested, shallow draft) → (c) JNPT: India's largest container port, dedicated reefer plugs, direct weekly services to Jebel Ali (Dubai) and London Gateway → (d) Route: JNPT → Arabian Sea → Strait of Hormuz → Jebel Ali (transshipment hub) → onward to London Gateway via Suez Canal → (e) Jebel Ali (Dubai) / London Gateway (UK) → (f) Reefer trucks to Dubai wholesale markets / UK distribution centres → (g) Auxiliary: At origin: cold storage, phytosanitary certification (APEDA), export credit insurance (ECGC). At port: customs clearance (ICEGATE), container tracking (PCS1x). At destination: import clearance, ripening chambers. Justification: JNPT handles 55% of India's container traffic, has 14m draft for mother vessels, and direct reefer services — minimising transshipment delays critical for perishable mangoes (shelf life 21-28 days). Poor answers choose Mumbai port (no draft for large reefers) or ignore cold-chain continuity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Trade and commerce as tertiary activities refer to the buying, selling, and exchange of goods and services across geographical space, facilitated by transport, communication, and financial systems, where value addition occurs through spatial transfer rather than physical ______ of products.",
+     "a": "transformation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your local weekly market (haat) or a nearby shopping mall — notice how vegetables from surrounding villages, clothes from Surat or Tirupur, and ______ from China or Vietnam all converge in one place for you to buy.",
+     "a": "electronics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by identifying the origin of ______ items in your home (check labels).",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how trade functions as a tertiary activity by linking production centres to consumption centres, classify trade types (domestic/international, wholesale/retail, traditional/e-commerce) with Indian examples, and analyse the role of transport, communication, and policy in shaping India's trade patterns using.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your local weekly market (haat) or a nearby shopping mall — notice how vegetables from ______ villages, clothes from Surat or Tirupur, and electronics from China or Vietnam all converge in one place for you to buy.",
+     "a": "surrounding",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,475 @@
+{
+ "catalog": "catalog_class12_physics_leph107.json",
+ "concepts": [
+  {
+   "id": "leph107.7.2.1",
+   "title": "Root Mean Square Values of AC",
+   "converted_to_compute": true,
+   "formula": "rms_value = peak_value / sqrt(2)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rms_value = peak_value / sqrt(2)",
+     "compute": "rms_value = peak_value / sqrt(2)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Root Mean Square Values of AC: given peak_value = 52, find rms value.",
+     "a": "36.7696",
+     "self_check": false
+    },
+    {
+     "q": "For Root Mean Square Values of AC: given peak_value = 106, find rms value.",
+     "a": "74.9533",
+     "self_check": false
+    },
+    {
+     "q": "For Root Mean Square Values of AC: given peak_value = 5.7, find rms value.",
+     "a": "4.03051",
+     "self_check": false
+    },
+    {
+     "q": "For Root Mean Square Values of AC: given peak_value = 76, find rms value.",
+     "a": "53.7401",
+     "self_check": false
+    },
+    {
+     "q": "For Root Mean Square Values of AC: given peak_value = 14, find rms value.",
+     "a": "9.89949",
+     "self_check": false
+    },
+    {
+     "q": "For Root Mean Square Values of AC: given peak_value = 19.9, find rms value.",
+     "a": "14.0714",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph107.7.2.2",
+   "title": "Resistance and Power from RMS Ratings",
+   "converted_to_compute": true,
+   "formula": "device_resist = rms_voltage ** 2 / power_rated",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "device_resist = rms_voltage ** 2 / power_rated",
+     "compute": "device_resist = rms_voltage ** 2 / power_rated"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Resistance and Power from RMS Ratings: given rms_voltage = 69, power_rated = 3148, find device resist.",
+     "a": "1.51239",
+     "self_check": false
+    },
+    {
+     "q": "For Resistance and Power from RMS Ratings: given rms_voltage = 29, power_rated = 2763, find device resist.",
+     "a": "0.304379",
+     "self_check": false
+    },
+    {
+     "q": "For Resistance and Power from RMS Ratings: given rms_voltage = 42, power_rated = 3784, find device resist.",
+     "a": "0.466173",
+     "self_check": false
+    },
+    {
+     "q": "For Resistance and Power from RMS Ratings: given rms_voltage = 74, power_rated = 449, find device resist.",
+     "a": "12.196",
+     "self_check": false
+    },
+    {
+     "q": "For Resistance and Power from RMS Ratings: given rms_voltage = 108, power_rated = 2426, find device resist.",
+     "a": "4.80791",
+     "self_check": false
+    },
+    {
+     "q": "For Resistance and Power from RMS Ratings: given rms_voltage = 40, power_rated = 3352, find device resist.",
+     "a": "0.477327",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph107.7.3.1",
+   "title": "Phasor Picture of AC Circuits",
+   "converted_to_compute": true,
+   "formula": "instant = amplitude * sin(omega * time)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "instant = amplitude * sin(omega * time)",
+     "compute": "instant = amplitude * sin(omega * time)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Phasor Picture of AC Circuits: given amplitude = 87, omega = 21, time = 70, find instant.",
+     "a": "-22.8165",
+     "self_check": false
+    },
+    {
+     "q": "For Phasor Picture of AC Circuits: given amplitude = 35, omega = 15.9, time = 32, find instant.",
+     "a": "-4.81503",
+     "self_check": false
+    },
+    {
+     "q": "For Phasor Picture of AC Circuits: given amplitude = 66, omega = 23, time = 87, find instant.",
+     "a": "12.7575",
+     "self_check": false
+    },
+    {
+     "q": "For Phasor Picture of AC Circuits: given amplitude = 87, omega = 3.5, time = 56, find instant.",
+     "a": "81.7391",
+     "self_check": false
+    },
+    {
+     "q": "For Phasor Picture of AC Circuits: given amplitude = 68, omega = 66, time = 72, find instant.",
+     "a": "64.0821",
+     "self_check": false
+    },
+    {
+     "q": "For Phasor Picture of AC Circuits: given amplitude = 18.8, omega = 47, time = 103, find instant.",
+     "a": "3.62952",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph107.7.4.1",
+   "title": "Inductive Reactance",
+   "converted_to_compute": true,
+   "formula": "react_l = omega * inductance",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "react_l = omega * inductance",
+     "compute": "react_l = omega * inductance"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Inductive Reactance: given omega = 70, inductance = 41, find react l.",
+     "a": "2870",
+     "self_check": false
+    },
+    {
+     "q": "For Inductive Reactance: given omega = 71, inductance = 82, find react l.",
+     "a": "5822",
+     "self_check": false
+    },
+    {
+     "q": "For Inductive Reactance: given omega = 55, inductance = 75, find react l.",
+     "a": "4125",
+     "self_check": false
+    },
+    {
+     "q": "For Inductive Reactance: given omega = 14.1, inductance = 94, find react l.",
+     "a": "1325.4",
+     "self_check": false
+    },
+    {
+     "q": "For Inductive Reactance: given omega = 81, inductance = 99, find react l.",
+     "a": "8019",
+     "self_check": false
+    },
+    {
+     "q": "For Inductive Reactance: given omega = 82, inductance = 49, find react l.",
+     "a": "4018",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph107.7.5.1",
+   "title": "Capacitive Reactance",
+   "converted_to_compute": true,
+   "formula": "react_c = 1 / (omega * capacitance)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "react_c = 1 / (omega * capacitance)",
+     "compute": "react_c = 1 / (omega * capacitance)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Capacitive Reactance: given omega = 79, capacitance = 26, find react c.",
+     "a": "0.000486855",
+     "self_check": false
+    },
+    {
+     "q": "For Capacitive Reactance: given omega = 49, capacitance = 54, find react c.",
+     "a": "0.000377929",
+     "self_check": false
+    },
+    {
+     "q": "For Capacitive Reactance: given omega = 7.3, capacitance = 4.4, find react c.",
+     "a": "0.0311333",
+     "self_check": false
+    },
+    {
+     "q": "For Capacitive Reactance: given omega = 92, capacitance = 88, find react c.",
+     "a": "0.000123518",
+     "self_check": false
+    },
+    {
+     "q": "For Capacitive Reactance: given omega = 100, capacitance = 55, find react c.",
+     "a": "0.000181818",
+     "self_check": false
+    },
+    {
+     "q": "For Capacitive Reactance: given omega = 44, capacitance = 30, find react c.",
+     "a": "0.000757576",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph107.7.6.1",
+   "title": "Impedance of a Series LCR Circuit",
+   "converted_to_compute": true,
+   "formula": "impedance = sqrt(resist ** 2 + react_gap ** 2)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "impedance = sqrt(resist ** 2 + react_gap ** 2)",
+     "compute": "impedance = sqrt(resist ** 2 + react_gap ** 2)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Impedance of a Series LCR Circuit: given resist = 94, react_gap = 3.8, find impedance.",
+     "a": "94.0768",
+     "self_check": false
+    },
+    {
+     "q": "For Impedance of a Series LCR Circuit: given resist = 97, react_gap = 97, find impedance.",
+     "a": "137.179",
+     "self_check": false
+    },
+    {
+     "q": "For Impedance of a Series LCR Circuit: given resist = 70, react_gap = 13.6, find impedance.",
+     "a": "71.3089",
+     "self_check": false
+    },
+    {
+     "q": "For Impedance of a Series LCR Circuit: given resist = 28, react_gap = 79, find impedance.",
+     "a": "83.8153",
+     "self_check": false
+    },
+    {
+     "q": "For Impedance of a Series LCR Circuit: given resist = 70, react_gap = 53, find impedance.",
+     "a": "87.8009",
+     "self_check": false
+    },
+    {
+     "q": "For Impedance of a Series LCR Circuit: given resist = 22, react_gap = 30, find impedance.",
+     "a": "37.2022",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph107.7.6.3",
+   "title": "Resonant Frequency of an LCR Circuit",
+   "converted_to_compute": true,
+   "formula": "omega_zero = 1 / sqrt(inductance * capacitance)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "omega_zero = 1 / sqrt(inductance * capacitance)",
+     "compute": "omega_zero = 1 / sqrt(inductance * capacitance)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Resonant Frequency of an LCR Circuit: given inductance = 77, capacitance = 92, find omega zero.",
+     "a": "0.0118812",
+     "self_check": false
+    },
+    {
+     "q": "For Resonant Frequency of an LCR Circuit: given inductance = 62, capacitance = 71, find omega zero.",
+     "a": "0.0150721",
+     "self_check": false
+    },
+    {
+     "q": "For Resonant Frequency of an LCR Circuit: given inductance = 35, capacitance = 17.6, find omega zero.",
+     "a": "0.0402911",
+     "self_check": false
+    },
+    {
+     "q": "For Resonant Frequency of an LCR Circuit: given inductance = 66, capacitance = 27, find omega zero.",
+     "a": "0.023689",
+     "self_check": false
+    },
+    {
+     "q": "For Resonant Frequency of an LCR Circuit: given inductance = 2.9, capacitance = 3.7, find omega zero.",
+     "a": "0.305281",
+     "self_check": false
+    },
+    {
+     "q": "For Resonant Frequency of an LCR Circuit: given inductance = 68, capacitance = 9.4, find omega zero.",
+     "a": "0.0395532",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph107.7.7.1",
+   "title": "Average Power and the Power Factor",
+   "converted_to_compute": true,
+   "formula": "avg_power = volt_rms * current_rms * power_factor",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "avg_power = volt_rms * current_rms * power_factor",
+     "compute": "avg_power = volt_rms * current_rms * power_factor"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Average Power and the Power Factor: given volt_rms = 92, current_rms = 54, power_factor = 38, find avg power.",
+     "a": "188784",
+     "self_check": false
+    },
+    {
+     "q": "For Average Power and the Power Factor: given volt_rms = 61, current_rms = 64, power_factor = 4731, find avg power.",
+     "a": "18469824",
+     "self_check": false
+    },
+    {
+     "q": "For Average Power and the Power Factor: given volt_rms = 5.6, current_rms = 4.5, power_factor = 3729, find avg power.",
+     "a": "93970.8",
+     "self_check": false
+    },
+    {
+     "q": "For Average Power and the Power Factor: given volt_rms = 53, current_rms = 101, power_factor = 2823, find avg power.",
+     "a": "15111519",
+     "self_check": false
+    },
+    {
+     "q": "For Average Power and the Power Factor: given volt_rms = 106, current_rms = 53, power_factor = 3063, find avg power.",
+     "a": "17207934",
+     "self_check": false
+    },
+    {
+     "q": "For Average Power and the Power Factor: given volt_rms = 75, current_rms = 38, power_factor = 430, find avg power.",
+     "a": "1225500",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph107.7.8.1",
+   "title": "Transformer Turns Ratio",
+   "converted_to_compute": true,
+   "formula": "volt_secondary = volt_primary * turns_ratio",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "volt_secondary = volt_primary * turns_ratio",
+     "compute": "volt_secondary = volt_primary * turns_ratio"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Transformer Turns Ratio: given volt_primary = 102, turns_ratio = 408, find volt secondary.",
+     "a": "41616",
+     "self_check": false
+    },
+    {
+     "q": "For Transformer Turns Ratio: given volt_primary = 101, turns_ratio = 329, find volt secondary.",
+     "a": "33229",
+     "self_check": false
+    },
+    {
+     "q": "For Transformer Turns Ratio: given volt_primary = 62, turns_ratio = 23, find volt secondary.",
+     "a": "1426",
+     "self_check": false
+    },
+    {
+     "q": "For Transformer Turns Ratio: given volt_primary = 101, turns_ratio = 317, find volt secondary.",
+     "a": "32017",
+     "self_check": false
+    },
+    {
+     "q": "For Transformer Turns Ratio: given volt_primary = 48, turns_ratio = 372, find volt secondary.",
+     "a": "17856",
+     "self_check": false
+    },
+    {
+     "q": "For Transformer Turns Ratio: given volt_primary = 11, turns_ratio = 6, find volt secondary.",
+     "a": "66",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph107.7.8.2",
+   "title": "Losses in a Real Transformer",
+   "converted_to_compute": true,
+   "formula": "efficiency = power_out / power_in",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "efficiency = power_out / power_in",
+     "compute": "efficiency = power_out / power_in"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Losses in a Real Transformer: given power_out = 2200, power_in = 4510, find efficiency.",
+     "a": "0.487805",
+     "self_check": false
+    },
+    {
+     "q": "For Losses in a Real Transformer: given power_out = 4646, power_in = 3092, find efficiency.",
+     "a": "1.50259",
+     "self_check": false
+    },
+    {
+     "q": "For Losses in a Real Transformer: given power_out = 4077, power_in = 1164, find efficiency.",
+     "a": "3.50258",
+     "self_check": false
+    },
+    {
+     "q": "For Losses in a Real Transformer: given power_out = 3336, power_in = 708, find efficiency.",
+     "a": "4.71186",
+     "self_check": false
+    },
+    {
+     "q": "For Losses in a Real Transformer: given power_out = 4949, power_in = 358, find efficiency.",
+     "a": "13.824",
+     "self_check": false
+    },
+    {
+     "q": "For Losses in a Real Transformer: given power_out = 4118, power_in = 4947, find efficiency.",
+     "a": "0.832424",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

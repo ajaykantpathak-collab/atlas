@@ -27,12 +27,32 @@
     },
     {
      "q": "Evaluate the economic impact if a local district administration decides to pave and convert an open ground used for a decades-old weekly *haat* into a paid multi-story parking lot.",
-     "a": "[Answer needed]",
+     "a": "The weekly *haat* would likely be destroyed: low-income vendors who cannot pay parking fees or permanent shop rents would be displaced, competition would shrink, and rural consumers would lose easy access to affordable goods. Viewing the change as pure modernisation ignores the economic displacement of traditional livelihoods.",
      "self_check": true
     },
     {
      "q": "This policy would likely destroy the traditional weekly market by displacing low-income mobile vendors who cannot afford parking fees or permanent shop rent, thereby reducing local market competition and harming rural consumers' access to affordable goods. A wrong answer suggests the student views physical infrastructure changes only as modernization without considering the negative economic displacement of traditional livelihoods.",
-     "a": "[Answer needed]",
+     "a": "Correct — paving the ground would displace mobile vendors who cannot afford fees or rents, reducing market competition and hurting rural consumers' access to cheap goods; judging it as mere infrastructure upgrade misses this displacement cost.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A weekly market, often called a *haat* in rural and semi-urban India, is a ______ periodic market system that is set up on a specific day of the week in a designated public space, bringing together local producers, traders, and rural consumers without permanent brick-and-mortar storefronts.",
+     "a": "traditional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine visiting a bustling ______ square on a Tuesday where empty open ground has transformed into rows of colorful stalls selling fresh vegetables, utensils, clothes, and spices, only to vanish completely by evening.",
+     "a": "village",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can compare how traditional weekly markets operate compared to daily neighborhood shops, explaining differences in cost structures, variety, and the periodic nature of exchange.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine visiting a bustling village square on a Tuesday where empty open ground has ______ into rows of colorful stalls selling fresh vegetables, utensils, clothes, and spices, only to vanish completely by evening.",
+     "a": "transformed",
      "self_check": true
     }
    ]

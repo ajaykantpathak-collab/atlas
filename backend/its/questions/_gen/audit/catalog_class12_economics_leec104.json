@@ -1,0 +1,62 @@
+{
+ "catalog": "catalog_class12_economics_leec104.json",
+ "concepts": [
+  {
+   "id": "leec.104.4.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "equilibrium_output = 89",
+      "full_employment_output = 46",
+      "output_gap = equilibrium_output - full_employment_output"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "equilibrium_output = 25",
+      "full_employment_output = 37",
+      "output_gap = equilibrium_output - full_employment_output"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "equilibrium_output = 5.6",
+      "full_employment_output = 50",
+      "output_gap = equilibrium_output - full_employment_output"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "equilibrium_output = 26",
+      "full_employment_output = 10.8",
+      "output_gap = equilibrium_output - full_employment_output"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "equilibrium_output = 61",
+      "full_employment_output = 12.3",
+      "output_gap = equilibrium_output - full_employment_output"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "equilibrium_output = 54",
+      "full_employment_output = 105",
+      "output_gap = equilibrium_output - full_employment_output"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "output_gap = equilibrium_output - full_employment_output"
+   ]
+  }
+ ]
+}

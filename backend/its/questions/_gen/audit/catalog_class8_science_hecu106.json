@@ -1,0 +1,62 @@
+{
+ "catalog": "catalog_class8_science_hecu106.json",
+ "concepts": [
+  {
+   "id": "hecu.106.6.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "force = 103",
+      "area = 83",
+      "pressure = force / area"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "force = 414",
+      "area = 40",
+      "pressure = force / area"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "force = 834",
+      "area = 94",
+      "pressure = force / area"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "force = 48",
+      "area = 33",
+      "pressure = force / area"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "force = 749",
+      "area = 63",
+      "pressure = force / area"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "force = 888",
+      "area = 78",
+      "pressure = force / area"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "pressure = force / area"
+   ]
+  }
+ ]
+}

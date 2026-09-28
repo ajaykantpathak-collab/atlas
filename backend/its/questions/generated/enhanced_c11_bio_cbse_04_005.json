@@ -34,6 +34,21 @@
      "q": "Design a simple dichotomous key using only observable features (no internal anatomy) that a marine biology student could use on a beach at night to distinguish among a sponge (Porifera), a jellyfish (Cnidaria), and a comb jelly (Ctenophora). Include bioluminescence as one character.",
      "a": "A good key:\n1a. Body asymmetrical, porous surface with ostia and osculum, no tentacles or comb rows → Porifera\n1b. Body radially symmetrical, gelatinous, with distinct appendages → go to 2\n2a. Eight shimmering rows of ciliated comb plates running meridionally; bioluminescence often bright blue-green; tentacles (if present) retractile with sticky colloblasts → Ctenophora\n2b. No comb plates; tentacles with nematocysts (stinging); bell-shaped medusa or polyp form; bioluminescence less common → Cnidaria\nA poor key that uses \"presence of bioluminescence\" as the first split fails because some cnidarians also bioluminesce and some ctenophores may not glow visibly; it confuses a variable trait with a reliable morphological character. This reveals the student cannot prioritise taxonomic characters by diagnostic value.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Phylum Ctenophora comprises exclusively marine, radially symmetrical, diploblastic animals with tissue-level organisation, distinguished by eight meridional rows of ciliated comb plates (ctenes) used for locomotion, a complete ______ canal system with both extracellular and intracellular digestion, and the unique presence of adhesive colloblasts (not nematocysts) for prey capture; they are hermaphroditic with external fertilisation and indirect development through a cydippid larva.",
+     "a": "gastrovascular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine walking along a beach in Goa at night and seeing the waves glow with a magical blue-green light — that is often ______ from comb jellies washed ashore.",
+     "a": "bioluminescence",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish Ctenophora from Cnidaria and Porifera using a comparison table of symmetry, germ layers, level of organisation, locomotion structures, prey-capture cells, digestion type, bioluminescence, and reproductive mode, and can justify the placement of Ctenophora in the animal kingdom classification hierarchy using at.",
+     "self_check": true
     }
    ]
   }

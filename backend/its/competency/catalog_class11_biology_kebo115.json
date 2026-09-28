@@ -99,7 +99,16 @@
      "explain": "Multiply the stroke volume by the number of heart beats per minute to get the cardiac output",
      "compute": "cardiac_output = stroke_volume * heart_rate"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "cardiac_output = stroke_volume * heart_rate",
+     "compute": "cardiac_output = stroke_volume * heart_rate"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.115.4.1",

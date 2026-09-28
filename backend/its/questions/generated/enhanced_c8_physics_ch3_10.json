@@ -34,6 +34,31 @@
      "q": "Design a simple classroom experiment to compare the effectiveness of three friction-reducing methods: (i) lubricating oil, (ii) ball bearings (marbles), (iii) polishing with sandpaper. Specify: the test setup, measurable quantity, control variables, and how you would quantitatively rank the methods.",
      "a": "Good answer: Use a wooden block (fixed mass) pulled by a spring balance across a wooden plank. Test four surfaces: (1) bare wood (control), (2) oiled wood, (3) wood with marbles as rollers, (4) sanded/polished wood. Measure the minimum force to start motion (static friction) and force to maintain constant speed (kinetic friction). Control: same block, same plank, same pull angle, same speed. Rank by measured force: lowest force = most effective reduction. A poor answer suggesting \"see which slides farthest\" without force measurement reveals the student confuses distance (which depends on initial kinetic energy and deceleration) with friction force magnitude.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Increasing and reducing friction refers to the deliberate ______ of contact surfaces or introduction of intermediate layers to either maximize the resistive force opposing relative motion (for grip and stability) or minimize it (for efficiency and reduced wear).",
+     "a": "modification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bicycle: the brake pads grip the rim (high friction needed), while the pedal axle spins freely in its ______ (low friction needed).",
+     "a": "bearings",
+     "self_check": true
+    },
+    {
+     "q": "What is Increasing and reducing friction? State the definition given in this lesson.",
+     "a": "Increasing and reducing friction refers to the deliberate modification of contact surfaces or introduction of intermediate layers to either maximize the resistive force opposing relative motion (for grip and stability) or minimize it (for efficiency and reduced wear).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Increasing and reducing friction?",
+     "a": "Students believe that \"smoother surfaces always have less friction\" and that polishing metal surfaces to a mirror finish will minimize friction.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can analyze a real-world mechanical situation (e.g., bicycle brakes, car tyres, door hinges), identify whether friction needs to be increased or decreased, select the appropriate method (surface roughness, lubrication, rolling elements, streamlining), and explain the physical mechanism using the concept of interlocking.",
+     "self_check": true
     }
    ]
   }

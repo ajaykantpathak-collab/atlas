@@ -34,6 +34,21 @@
      "q": "Design a circular queue variation that supports O(1) time for getFront(), getRear(), and getSize() operations while maintaining standard enqueue/dequeue. Specify what additional variables you need and how each operation updates them.",
      "a": "Add: size variable (initialized 0). \nenqueue: if not full → rear=(rear+1)%capacity, arr[rear]=item, size+=1\ndequeue: if not empty → item=arr[front], front=(front+1)%capacity, size-=1, return item\ngetFront(): return arr[front] if size>0 else error\ngetRear(): return arr[rear] if size>0 else error\ngetSize(): return size\nAll O(1). WRONG ANSWER REVEALS: If student suggests traversing array for size, they don't understand auxiliary variable technique. If they forget to update size in both operations, they show incomplete understanding of state maintenance.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A circular queue is a linear data structure that follows FIFO principle where the last position is connected back to the first position to form a circle, allowing efficient reuse of memory by treating the array as cyclic through modulo ______ on indices.",
+     "a": "arithmetic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a round dining table with 5 chairs where people join the queue at one chair and leave from another - when the last chair is ______, the next person sits at chair 1 if it's free.",
+     "a": "occupied",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can implement a circular queue in Python using a fixed-size list with front/rear pointers, correctly handle wrap-around using modulo operator, distinguish between full and empty states when front == rear, and trace enqueue/dequeue operations showing index updates.",
+     "self_check": true
     }
    ]
   }

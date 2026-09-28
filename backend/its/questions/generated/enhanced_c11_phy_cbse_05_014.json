@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a linear air track (or low-friction track) and two gliders of known masses to verify the elastic collision formula v₁ = (m₁-m₂)/(m₁+m₂)u₁ for the case where m₂ is initially at rest. List the measurements needed, the procedure, and how you would analyze the data.",
      "a": "Measurements: masses m₁, m₂; initial velocity u₁ (photogate before collision); final velocities v₁, v₂ (photogates after collision). Procedure: (1) Level the air track. (2) Place glider 2 at rest at centre. (3) Launch glider 1 from one end with known u₁. (4) Record u₁, v₁, v₂ using photogates. (5) Repeat for different m₁/m₂ ratios (e.g., equal masses, m₁ > m₂, m₁ < m₂). Analysis: Plot experimental v₁ vs theoretical v₁ = (m₁-m₂)/(m₁+m₂)u₁. A straight line through origin with slope 1 verifies the formula. Also check if v₂ = 2m₁/(m₁+m₂)u₁ and if KE is conserved. A poor answer omits photogate timing, doesn't vary mass ratios, or ignores friction/air resistance effects, showing lack of experimental design skills.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A one-______ collision is an interaction between two bodies where their initial and final velocities are directed along the same straight line, and momentum is conserved while kinetic energy may or may not be conserved depending on whether the collision is perfectly elastic or inelastic.",
+     "a": "dimensional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two marbles on a smooth floor - one rolling toward a ______ one.",
+     "a": "stationary",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive and apply the final velocity formulas for elastic and completely inelastic 1D collisions, calculate the coefficient of restitution from given data, and determine the kinetic energy lost in any 1D collision scenario by combining momentum and energy principles.",
+     "self_check": true
     }
    ]
   }

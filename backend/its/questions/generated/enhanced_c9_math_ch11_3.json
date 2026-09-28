@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch11_3",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch11_3",
+   "title": "c9_math_ch11_3",
+   "questions": [
+    {
+     "q": "In ΔPQR and ΔXYZ, ∠P = ∠X = 40°, ∠Q = ∠Y = 70°, and PQ = XY = 5 cm. Which congruence rule (ASA or AAS) applies directly, and why?",
+     "a": "ASA applies directly because the given side PQ (5 cm) is the included side between the two given angles ∠P (40°) and ∠Q (70°) in ΔPQR, and similarly XY is between ∠X and ∠Y in ΔXYZ. A wrong answer (saying AAS) reveals the student cannot identify the \"included side\" — they see two angles and a side but do not check whether the side lies between those angles.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"In ΔABC and ΔDEF, ∠A = ∠D, ∠B = ∠E, and BC = EF. This is AAS, so the triangles are congruent.\" Is the student correct? Explain why or why not, referring to the position of the side relative to the angles.",
+     "a": "The student is correct — this is a valid AAS case. The side BC is opposite ∠A, and EF is opposite ∠D. Since ∠A = ∠D and ∠B = ∠E, the third angles ∠C and ∠F are also equal (angle sum property). Now we have ∠B = ∠E, ∠C = ∠F, and the included side BC = EF, which is ASA. A wrong answer (saying it's not congruent or confusing with ASA directly) reveals the student does not understand that AAS works by first establishing the third angle equality, converting it to ASA.",
+     "self_check": true
+    },
+    {
+     "q": "In ΔLMN, ∠L = 55°, ∠M = 65°, and side LN = 6 cm. In ΔPQR, ∠P = 55°, ∠Q = 65°, and side PR = 6 cm. Are the triangles congruent? If yes, write the congruence statement with correct vertex correspondence and state the rule used.",
+     "a": "Yes, ΔLMN ≅ ΔPQR by ASA. Step 1: Identify given parts: ∠L = ∠P = 55°, ∠M = ∠Q = 65°, LN = PR = 6 cm. Step 2: Check side position — LN is between ∠L and ∠N, but we don't know ∠N yet. PR is between ∠P and ∠R. Step 3: Find third angles: ∠N = 180° - 55° - 65° = 60°, ∠R = 180° - 55° - 65° = 60°. Step 4: Now LN is between ∠L (55°) and ∠N (60°), PR is between ∠P (55°) and ∠R (60°). So we have two angles and included side equal: ASA. Step 5: Correspondence: L ↔ P, M ↔ Q, N ↔ R. A wrong correspondence (e.g., L ↔ Q) reveals the student matches vertices by order in the name, not by equal parts.",
+     "self_check": true
+    },
+    {
+     "q": "Two triangles have two pairs of equal angles. Triangle 1 has the side between these angles equal to 8 cm. Triangle 2 has a side of 8 cm, but it is NOT between the two equal angles. Can we conclude the triangles are congruent? Justify your answer using the angle sum property.",
+     "a": "Yes, the triangles are congruent. Let the equal angles be ∠A = ∠D = x and ∠B = ∠E = y. In Triangle 1, the 8 cm side is between ∠A and ∠B (included side). In Triangle 2, the 8 cm side is NOT between ∠D and ∠E — suppose it is opposite ∠D. By angle sum property, the third angles are ∠C = 180° - x - y and ∠F = 180° - x - y, so ∠C = ∠F. Now in Triangle 2, the 8 cm side is between ∠E (y) and ∠F (180° - x - y), which are equal to ∠B and ∠C in Triangle 1. Thus Triangle 2 has two angles and included side equal to Triangle 1 — ASA applies. A wrong answer (saying not congruent) reveals the student thinks AAS is invalid or doesn't realize the third angle forces the side to become included.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following proof for ΔABC ≅ ΔDEF:\nGiven: ∠A = ∠D, ∠B = ∠E, AC = DF.\nProof: In ΔABC and ΔDEF, ∠A = ∠D (given), ∠B = ∠E (given), AC = DF (given). Therefore, ΔABC ≅ ΔDEF (AAS rule).\nIdentify the error in this proof and rewrite it correctly.",
+     "a": "The error: The student directly invoked \"AAS rule\" without showing the step that converts AAS to ASA using the angle sum property. In a formal proof, you must explicitly state: ∠C = 180° - ∠A - ∠B and ∠F = 180° - ∠D - ∠E, so ∠C = ∠F. Then AC = DF is the included side between ∠A and ∠C (and ∠D and ∠F), giving ASA. Corrected proof: (1) ∠A = ∠D, ∠B = ∠E (given). (2) ∠C = 180° - ∠A - ∠B, ∠F = 180° - ∠D - ∠E → ∠C = ∠F (angle sum property). (3) AC = DF (given). (4) In ΔABC and ΔDEF, ∠A = ∠D, ∠C = ∠F, AC = DF → ΔABC ≅ ΔDEF (ASA). A wrong answer (accepting the original proof) reveals the student treats AAS as a standalone axiom rather than a theorem derived from ASA.",
+     "self_check": true
+    },
+    {
+     "q": "Construct your own problem: Give measurements for two triangles that are congruent by AAS but NOT by ASA directly (i.e., the given side is not included). Write the problem statement, then solve it with a full proof showing the conversion to ASA.",
+     "a": "Example problem: In ΔABC and ΔPQR, ∠A = 30°, ∠B = 80°, BC = 5 cm. In ΔPQR, ∠P = 30°, ∠Q = 80°, QR = 5 cm. Prove ΔABC ≅ ΔPQR. Solution: (1) ∠A = ∠P = 30°, ∠B = ∠Q = 80° (given). (2) ∠C = 180° - 30° - 80° = 70°, ∠R = 180° - 30° - 80° = 70° (angle sum property). (3) BC = QR = 5 cm (given). (4) Now BC is between ∠B (80°) and ∠C (70°); QR is between ∠Q (80°) and ∠R (70°). (5) ∴ ΔABC ≅ ΔPQR (ASA). A poor answer gives measurements where the side IS included (making it direct ASA), or writes a proof that skips the third angle calculation, revealing they don't grasp the AAS→ASA conversion.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,26 @@
      "q": "Construct a real-world scenario (using Indian context) where the domain of a trigonometric function is naturally restricted to a subset of ℝ, and explain which function and restriction applies.",
      "a": "Example: A ladder of length 5 m leans against a wall in a Delhi home. The angle θ between the ladder and the ground can vary, but the ladder cannot go through the wall or floor. The height of the top of the ladder is h = 5 sin θ. The domain of θ is (0, π/2) (strictly between 0 and π/2 radians) because at 0 the ladder lies flat, and at π/2 it is vertical against the wall. The function is sin θ, and the restriction comes from physical constraints, not mathematical undefinedness. A poor answer gives a scenario without a clear domain restriction or misidentifies the function.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The domain of a ______ function is the set of all real numbers (angles in radians) for which the function is defined, and the range is the set of all possible output values.",
+     "a": "trigonometric",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a rotating ______ system for a circular garden in Pune.",
+     "a": "sprinkler",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state the exact domain and range of all six trigonometric functions using proper set notation, explain why each restriction exists using the unit circle definition, and determine the domain of simple combined expressions like tan x + cot x by finding the intersection of individual domains.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a rotating sprinkler system for a circular garden in Pune.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

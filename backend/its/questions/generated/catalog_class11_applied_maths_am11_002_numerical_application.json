@@ -5,6 +5,8 @@
    "id": "am11_002.1",
    "title": "Average Speed of a Journey",
    "converted_to_compute": false,
+   "formula": "speed = dist / total_time",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A can finish a job in 8 days and B in 8 days. Working together, how many days will they take (two decimal places)?",
@@ -42,6 +44,8 @@
    "id": "am11_002.2",
    "title": "Average Velocity on Closed Paths",
    "converted_to_compute": false,
+   "formula": "vel = shift / time",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A can finish a job in 10 days and B in 15 days. Working together, how many days will they take (two decimal places)?",
@@ -79,6 +83,8 @@
    "id": "am11_002.3",
    "title": "Work-Time Efficiency and Combined Work",
    "converted_to_compute": false,
+   "formula": "together = 1 / (1 / a + 1 / b)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A can finish a job in 5 days and B in 20 days. Working together, how many days will they take (two decimal places)?",
@@ -116,6 +122,8 @@
    "id": "am11_002.4",
    "title": "Pipes and Cisterns Net Filling",
    "converted_to_compute": false,
+   "formula": "fill_time = 1 / (1 / fill_h - 1 / drain_h)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A can finish a job in 4 days and B in 12 days. Working together, how many days will they take (two decimal places)?",
@@ -153,6 +161,8 @@
    "id": "am11_002.5",
    "title": "Calendar Odd Days and Weekday Codes",
    "converted_to_compute": false,
+   "formula": "code = extra % 7",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "For the digits 8, 9, 3, 9 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
@@ -190,6 +200,8 @@
    "id": "am11_002.6",
    "title": "Clock Hand Angles and Relative Speed",
    "converted_to_compute": false,
+   "formula": "tilt = min(angle, 360 - angle)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 39 degrees, find the other.",
@@ -227,6 +239,8 @@
    "id": "am11_002.7",
    "title": "Surface Area of Combined Solids",
    "converted_to_compute": false,
+   "formula": "area = pi * r * slant + 2 * pi * r * h",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 16 cm by 9 cm.",
@@ -264,6 +278,8 @@
    "id": "am11_002.8",
    "title": "Volume of Combined Solids",
    "converted_to_compute": false,
+   "formula": "vol = pi * r ** 2 * cone_h / 3 + pi * r ** 2 * cyl_h",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the volume of a cuboid 3 cm x 12 cm x 3 cm.",
@@ -301,6 +317,8 @@
    "id": "am11_002.9",
    "title": "Positive and Negative Work",
    "converted_to_compute": false,
+   "formula": "net = force * shift + opposing",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A can finish a job in 10 days and B in 15 days. Working together, how many days will they take (two decimal places)?",

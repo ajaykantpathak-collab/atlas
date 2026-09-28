@@ -34,6 +34,31 @@
      "q": "Construct a differential equation whose general solution is y = c₁ e^{x} + c₂ e^{-x} + c₃ x e^{x}, where c₁, c₂, c₃ are arbitrary constants. What is the order of this DE? Explain how you determined the order.",
      "a": "The general solution contains **three independent arbitrary constants** (c₁, c₂, c₃). Therefore, the differential equation must be of **order 3**. To construct the DE, we eliminate the constants by successive differentiation:  \ny = c₁ e^x + c₂ e^{-x} + c₃ x e^x  \ny' = c₁ e^x - c₂ e^{-x} + c₃ e^x + c₃ x e^x  \ny'' = c₁ e^x + c₂ e^{-x} + 2c₃ e^x + c₃ x e^x  \ny''' = c₁ e^x - c₂ e^{-x} + 3c₃ e^x + c₃ x e^x  \nObserving patterns: y'' - y' = (c₁ e^x + c₂ e^{-x} + 2c₃ e^x + c₃ x e^x) - (c₁ e^x - c₂ e^{-x} + c₃ e^x + c₃ x e^x) = 2c₂ e^{-x} + c₃ e^x.  \nSimilarly, y''' - y'' = -2c₂ e^{-x} + c₃ e^x.  \nAdding: (y'' - y') + (y''' - y'') = y''' - y' = 2c₃ e^x.  \nDifferentiate again: y'''' - y'' = 2c₃ e^x = y''' - y'.  \nThus y'''' - y''' - y'' + y' = 0, or y'''' - y''' - y'' + y' = 0. But this is fourth order. Wait — we need third order. Let's find a third-order DE.  \nNotice that the solution is a linear combination of e^x, e^{-x}, x e^x. These are solutions of a linear homogeneous DE with constant coefficients whose characteristic equation has roots 1, -1, 1 (1 repeated). So characteristic polynomial: (r-1)^2 (r+1) = (r^2 - 2r +1)(r+1) = r^3 - r^2 - r + 1 = 0.  \nThus the DE is y''' - y'' - y' + y = 0. Order = 3.  \nA good answer shows the characteristic equation method or systematic elimination yielding a third-order DE. A poor answer gives a higher-order DE or cannot explain why the order must be 3.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A general solution of an nth order ordinary differential equation is a relation between the variables (involving n arbitrary constants) that satisfies the differential equation ______.",
+     "a": "identically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a physics problem: a ______ moves along a line with acceleration a = -4x.",
+     "a": "particle",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a physics problem: a particle moves along a line with acceleration a = -______x.",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can verify whether a given function (with or without arbitrary constants) satisfies a given differential equation, identify the number of arbitrary constants in a general solution relative to the order, and construct a particular solution by applying initial conditions to a known general solution.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a physics problem: a particle moves along a line with ______ a = -4x.",
+     "a": "acceleration",
+     "self_check": true
     }
    ]
   }

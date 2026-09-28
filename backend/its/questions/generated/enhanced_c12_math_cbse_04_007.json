@@ -34,6 +34,31 @@
      "q": "Construct a 3×3 matrix with integer entries whose inverse also has only integer entries. Explain your construction method.",
      "a": "A matrix with integer entries has an integer inverse iff |A| = ±1 (since A⁻¹ = (1/|A|) adj A and adj A has integer entries). Example: A = [[1, 0, 0], [0, 1, 0], [0, 0, 1]] (identity, |A|=1). Non-trivial: A = [[1, 2, 3], [0, 1, 4], [5, 6, 0]] has |A|=1 as computed above. A student who cannot produce such a matrix or explain the |A|=±1 condition does not grasp the divisibility requirement in the inverse formula.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The inverse of a square matrix A of order n, denoted A⁻¹, is the unique matrix ______ A A⁻¹ = A⁻¹ A = Iₙ, and exists if and only if |A| ≠ 0 (A is non-singular).",
+     "a": "satisfying",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a system of three ______ representing the cost of three vegetables (onion, tomato, potato) in rupees per kg from three different markets.",
+     "a": "equations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The inverse of a square matrix A of order n, denoted A⁻¹, is the unique matrix satisfying A A⁻¹ = A⁻¹ A = Iₙ, and exists if and only if |A| ≠ ______ (A is non-singular).",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute the inverse of a 3×3 matrix using the adjoint method, showing all steps: determinant calculation, cofactor matrix, transpose to get adjoint, and division by determinant.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a system of three equations ______ the cost of three vegetables (onion, tomato, potato) in rupees per kg from three different markets.",
+     "a": "representing",
+     "self_check": true
     }
    ]
   }

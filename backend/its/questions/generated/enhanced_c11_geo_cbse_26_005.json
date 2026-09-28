@@ -34,6 +34,31 @@
      "q": "Design a satellite sensor specification (spatial, spectral, radiometric, temporal) for monitoring urban heat islands in Delhi NCR at 10:30 AM local time during May. Justify each parameter choice with a physical or operational reason.",
      "a": "A strong answer specifies: Spatial ≤ 60 m (to resolve intra-urban land cover: built-up vs parks vs water); Spectral: at least 2 thermal infrared bands (10–12 µm) for split-window LST retrieval + VNIR/SWIR for emissivity estimation (e.g., Landsat-8 TIRS Band 10/11 + OLI); Radiometric: ≥ 12-bit (4096 levels) in TIR to resolve <0.5 K temperature differences between dense residential and vegetated areas; Temporal: ≤ 16 days (Landsat-like) acceptable for seasonal UHI trends, but daily (geostationary) preferred for diurnal cycle — justify 10:30 AM as Landsat overpass time capturing near-peak surface heating. Poor answers omit thermal bands, confuse spatial resolution with pixel size, or ignore the physics of thermal emission vs reflected solar radiation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Resolution in remote sensing refers to the ability of a sensor to ______ and record fine details of the Earth's surface across four dimensions: spatial (smallest detectable ground feature size), spectral (number and narrowness of wavelength bands recorded), radiometric (smallest detectable difference in emitted/reflected energy intensity), and temporal (frequency of revisiting the same geographic area).",
+     "a": "distinguish",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are comparing two satellite images of your school campus — one where you can see ______ trees and another where the whole campus is a single green blob.",
+     "a": "individual",
+     "self_check": true
+    },
+    {
+     "q": "What is Resolution in remote sensing? State the definition given in this lesson.",
+     "a": "Resolution in remote sensing refers to the ability of a sensor to distinguish and record fine details of the Earth's surface across four dimensions: spatial (smallest detectable ground feature size), spectral (number and narrowness of wavelength bands recorded), radiometric (smallest detectable difference in emitted/reflected energy.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Resolution in remote sensing?",
+     "a": "Students believe \"higher spatial resolution is always better\" and select sensors solely on minimum pixel size (e.g., choosing 1 m over 30 m for regional crop monitoring).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate ground sample distance from sensor altitude and IFOV, interpret spectral band configurations for specific applications (e.g., vegetation monitoring vs. mineral mapping), and justify satellite selection for a given monitoring task by evaluating trade-offs among all four resolution types using quantitative.",
+     "self_check": true
     }
    ]
   }

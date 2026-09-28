@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_02_002",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_02_002",
+   "title": "c11_leg_cbse_02_002",
+   "questions": [
+    {
+     "q": "Define 'State' in the legal-political sense and list its four essential elements. How does Article 12 of the Indian Constitution expand the definition of 'State' for the purpose of Fundamental Rights?",
+     "a": "A State is a politically organised community permanently occupying a definite territory, possessing an organised government, and exercising internal and external sovereignty. The four essential elements are: Population, Territory, Government, and Sovereignty. Article 12 defines 'State' for Part III (Fundamental Rights) to include: (1) Government and Parliament of India, (2) Government and Legislature of each State, (3) All local authorities within India, (4) All authorities under the control of the Government of India. A wrong answer (e.g., listing only 'Government' or confusing State with Nation) reveals the student cannot distinguish the *permanent legal entity* (State) from its *temporary administrative arm* (Government) or the *constitutional definition* for rights enforcement from the *political science definition*.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between 'Parliamentary' and 'Presidential' forms of government. Is India a Parliamentary or Presidential democracy? Justify using two specific constitutional provisions.",
+     "a": "In a Parliamentary system, the Executive (Council of Ministers headed by PM) is drawn from and accountable to the Legislature (Lok Sabha); the Head of State (President) is nominal, Head of Government (PM) is real. In a Presidential system, the President is both Head of State and Head of Government, elected separately for a fixed term, not accountable to Legislature in the same way (no confidence motion). India is a Parliamentary democracy. Justification: Article 75(3) — Council of Ministers collectively responsible to Lok Sabha; Article 74(1) — President acts on aid and advice of Council of Ministers. A wrong answer (e.g., saying India is Presidential because President is elected) reveals confusion between *method of election of Head of State* and *relationship between Executive and Legislature*.",
+     "self_check": true
+    },
+    {
+     "q": "A Bill is passed by Lok Sabha but rejected by Rajya Sabha. The President summons a joint sitting under Article 108. Identify: (a) Which organ initiates this process? (b) Which constitutional provision governs it? (c) Can a Money Bill be resolved this way? Why/why not?",
+     "a": "(a) The Legislature (Parliament) initiates the process — specifically, the deadlock between the two Houses triggers it. (b) Article 108 of the Constitution governs joint sittings for ordinary Bills. (c) No, a Money Bill cannot be resolved by joint sitting. Article 109 gives Rajya Sabha only recommendatory power (14 days) over Money Bills; if Rajya Sabha rejects or fails to return it, the Bill is deemed passed in the form Lok Sabha passed it. Article 108 explicitly excludes Money Bills. A wrong answer (e.g., saying joint sitting applies to all Bills) reveals the student has not distinguished the special constitutional procedure for Money Bills (Art 109/110) from ordinary Bills (Art 107/108).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 'Judicial Function of the Executive' (e.g., Presidential pardon under Art 72) with the 'Judicial Review' power of the Judiciary (Art 32/226). How do they differ in source, scope, and justiciability?",
+     "a": "**Source**: Executive judicial function (pardon) derives from constitutional grant to Head of State (Art 72/161); Judicial Review derives from the Constitution's basic structure (Art 32, 226, 136). **Scope**: Pardon is discretionary, case-specific, acts *after* conviction; Judicial Review examines constitutional validity of laws/executive actions *before* or *during* enforcement. **Justiciability**: Pardon is largely non-justiciable (limited review for mala fide/arbitrariness — *Maru Ram v Union of India*); Judicial Review is the core justiciable function of courts. A wrong answer (e.g., conflating pardon with judicial review or saying both are fully justiciable) reveals inability to distinguish *executive clemency* (mercy power) from *judicial scrutiny* (constitutional interpretation).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"India's legislature is bicameral at the Centre but unicameral in most States; this asymmetry weakens federalism.\" Argue for or against using constitutional design principles and the Rajya Sabha's role.",
+     "a": "**Against the statement (correct evaluation)**: The asymmetry is a *deliberate federal design*, not a weakness. Rajya Sabha represents States as units (Art 80), safeguarding State interests in federal legislation. States have Legislative Councils (Vidhan Parishad) only where justified (Art 169 — 6 States). Unicameralism in smaller States avoids duplication and delays. Federalism is protected by: (1) Rajya Sabha's role in Constitutional amendments (Art 368), (2) State consent for certain laws (Art 252), (3) Inter-State Council (Art 263). **For the statement (weaker view)**: Absence of second chambers in 24 States reduces intra-State checks and balances; Rajya Sabha often votes on party lines, not State interests. A poor answer (e.g., \"bicameral is always better\") reveals lack of understanding of *asymmetric federalism* and the *functional rationale* for Rajya Sabha vs State Legislative Councils.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical country 'Republic of Niyam' with: (a) A written Constitution, (b) A President elected directly for 5 years, (c) A Prime Minister appointed by President but must retain confidence of Lower House, (d) Judiciary can strike down laws. Classify its Form of Government, System of Executive-Legislature relations, and identify which real country it most resembles. Justify.",
+     "a": "**Form**: Democracy (Republic, elected Head of State). **System**: **Semi-Presidential (Dual Executive)** — President is directly elected (fixed term, not responsible to legislature), PM/Cabinet responsible to Lower House. **Real-world match**: **France (Fifth Republic)**. Justification: Directly elected President + PM responsible to Parliament = Semi-Presidential. India has *indirectly* elected President + PM responsible to Lok Sabha = Parliamentary. USA has directly elected President *not* responsible to Congress + no PM = Presidential. A poor answer (classifying as Parliamentary or Presidential) reveals inability to recognize the *hybrid* category (Semi-Presidential) and the critical distinction: *responsibility of Cabinet to Legislature* vs *fixed tenure of President*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

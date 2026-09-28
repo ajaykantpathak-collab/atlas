@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_14_003",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_14_003",
+   "title": "c12_soc_cbse_14_003",
+   "questions": [
+    {
+     "q": "In which year did the Government of India permit privately owned FM radio stations to operate, and what critical content restriction was imposed on them?",
+     "a": "Correct answer: Private FM stations were permitted in 2002 under Phase-II licensing; they are **not allowed to broadcast any political news or current-affairs bulletins** — they may only air entertainment, music, and non-news infotainment.  \nA wrong answer (e.g., \"1990s\" or \"no restriction\") reveals that the student conflates the 1990s satellite TV boom with radio privatization, or misses the crucial regulatory distinction that preserves the state's monopoly over radio news — a distinction central to board questions on \"media regulation\" and \"democratic public sphere.\"",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Nehruvian state assigned All India Radio the role of \"development broadcaster\" rather than leaving it to market forces. Use the concepts of *public goods*, *market failure*, and *national integration* in your answer.",
+     "a": "Correct answer: At independence, radio receivers were expensive (280,000 sets for 350 million people), literacy was low, and the market would only serve urban elites. The state treated radio as a **public good** — non-excludable and non-rival — essential for spreading Green Revolution technology, family-planning messages, and a shared national identity across linguistic regions. Market failure (high fixed costs, low ability to pay in rural areas) justified state monopoly.  \nA wrong answer that says \"the state wanted propaganda\" or \"private companies didn't exist\" shows the student misses the *developmental state* framework (Class 11 Ch.3/Ch.7) and cannot link economic reasoning to media policy — a common loss of 2–3 marks in board \"explain\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "A district collector wants to use radio to improve maternal health outcomes in a remote tribal block where literacy is 35% and mobile data is unreliable. She has three options: (a) book a slot on the nearest AIR local station, (b) partner with a private FM station from the nearest city, (c) help the community set up a low-power community radio station. Apply the concept of *development communication* and the regulatory constraints of each radio type to recommend the best option with justification.",
+     "a": "Correct answer: **Option (c) community radio** is optimal.  \nSteps:  \n1. AIR local station: has reach but fixed schedule, top-down content, limited tribal language slots.  \n2. Private FM: **legally barred from news/development messaging**; its licence only permits entertainment/music — cannot run sustained health campaigns.  \n3. Community radio: licensed to non-profits/panchayats, allows local language, participatory content (women's groups can produce programmes), low-power FM covers exactly the block, and the Raghav FM (Bihar) model shows it works without literacy or internet.  \nA wrong answer choosing (b) reveals the student ignores the **news ban on private FM** — a factual error that also misses the sociological point: development communication requires *dialogue*, not just one-way entertainment.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the **organisational structure** and **funding model** of AIR's three-tier service (national–regional–local) with that of a typical private FM network (e.g., Radio Mirchi). How do these differences shape the *geography of content* — i.e., where and for whom programmes are produced?",
+     "a": "Correct answer:  \n| Dimension | AIR (Three-tier) | Private FM (e.g., Radio Mirchi) |  \n|---|---|---|  \n| **Ownership** | Prasar Bharati (statutory body) | Media conglomerate (Times Group) |  \n| **Funding** | Parliamentary grant + limited ads (Vividh Bharati) | 100% advertising/sponsorship |  \n| **Production centres** | 480 stations across states, each producing local/regional content | ~50–60 city-centric studios; content networked via satellite |  \n| **Content geography** | **Decentralised**: district-level farm shows, dialect programmes | **Centralised**: same playlist/ads across cities; minimal local content |  \n| **Accountability** | Parliament, CAG, citizen complaints | Market ratings (RAM/IRS), advertisers |  \nThe student who only lists \"government vs private\" without analysing *decentralised vs networked production* fails to explain why AIR still matters for rural/linguistic minorities — a key board case-study point.",
+     "self_check": true
+    },
+    {
+     "q": "\"Private FM has democratized radio by giving listeners what they *want* (music, fun), while AIR forced them to hear what the state *thought they needed* (farm talks, family planning).\" Evaluate this statement using the concepts of **public sphere**, **citizen vs consumer**, and **linguistic diversity**.",
+     "a": "Correct evaluation: The statement is **partially true but sociologically incomplete**.  \n- **Public sphere**: AIR created a *shared* national public sphere (same news, same epics) — essential for \"imagined community\" (Benedict Anderson). Private FM fragments audiences into demographic niches (youth, commuters, retro-lovers).  \n- **Citizen vs consumer**: AIR addressed *citizens* (rights, duties, development entitlements). Private FM addresses *consumers* (purchasing power, lifestyle). The Green Revolution campaigns reached landless labourers who had zero purchasing power — private FM would never target them.  \n- **Linguistic diversity**: AIR broadcasts in 24 languages + 146 dialects; private FM is overwhelmingly Hindi/English/Hinglish with a few regional feeds.  \nA student who simply agrees (\"yes, choice is democracy\") misses the **exclusionary logic of markets** — a classic board/JEE (CUET) trap where \"consumer choice\" is mistaken for \"democratic participation.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a **community radio programme schedule (Monday–Friday, 6 am–10 pm)** for a hypothetical station \"Apna Radio 90.4 FM\" serving a mixed agrarian–artisan village cluster in Maharashtra. Each day must include: (i) a segment using the *participatory development communication* model (like AIR's Green Revolution farm visits), (ii) a segment preserving *intangible cultural heritage* (folk songs, oral history), (iii) a segment addressing a *gender-specific need* (inspired by Raghav FM's women's devotional slots), and (iv) a *livelihood information* slot (market prices, govt schemes). Present the schedule as a table and write a 100-word justification linking each segment to the sociological functions of community radio discussed in the chapter.",
+     "a": "Expected answer: A table with 16 hourly blocks Mon–Fri, each labelled (e.g., 6:30 am \"Sheti Batmi\" – participatory farm tips with KVK scientist + farmer call-ins; 8:00 am \"Lokgeet\" – women's collective singing; 11:00 am \"Mahila Manch\" – health/legal rights; 2:00 pm \"Bazaar Bhav\" – real-time mandi rates via phone). Justification must explicitly reference: (a) **two-way communication** (SMCRE model, Class 11 HEFS), (b) **cultural continuity** (non-material culture, Class 11 Ch.4), (c) **gendered access** (socialisation, Class 11 Ch.4), (d) **information as capability** (Sen's capability approach, Class 11 Pol. Sci. Ch.4). A poor answer fills slots with generic entertainment (\"Bollywood hits\") and omits the *participatory* and *capability-building* logic — showing the student treats community radio as \"mini private FM\" rather than a distinct institutional form.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Radio in India evolved through three distinct phases: the colonial-era state monopoly under the Indian State Broadcasting Service (later All India Radio), the post-independence ______ state monopoly where AIR served as the primary vehicle for national integration and development communication, and the post-2002 FM Revolution where privately owned FM stations (barred from news) and community radio stations transformed radio into a localized, entertainment-centric, market-driven medium while the state retained control over news broadcasting.",
+     "a": "developmental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in an auto-rickshaw in 2024: the driver switches between a private FM station playing ______ hits with RJ banter and a community radio broadcast in your mother tongue giving local market prices.",
+     "a": "Bollywood",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Radio in India evolved through three distinct phases: the colonial-era state monopoly under the Indian State Broadcasting Service (later All India Radio), the post-independence developmental state monopoly where AIR served as the primary vehicle for national integration and development communication, and the post-______ FM Revolution where privately owned FM stations (barred from news) and community radio stations transformed radio into a localized, entertainment-centric, market-driven medium while the state retained control over news broadcasting.",
+     "a": "2002",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) trace the institutional trajectory of radio from 1920s amateur clubs to the present three-tier AIR + private FM + community radio landscape, (2) explain how each phase reflects the shifting balance between state, market, and civil society, and (3) evaluate the democratic implications of the state's.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

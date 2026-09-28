@@ -34,6 +34,21 @@
      "q": "Design a minimal Python program that asks the user for their name and age, then prints exactly: `Hello, <name>! You are <age> years old.` (with the period at the end and no extra spaces or newlines before the period). Use only one `print()` statement.",
      "a": "```python\nname = input(\"Enter name: \")\nage = input(\"Enter age: \")\nprint(\"Hello,\", name, \"! You are\", age, \"years old.\", sep='')\n```\nA poor answer uses multiple print statements, includes unwanted spaces (default `sep=' '`), or forgets `sep=''` causing `Hello, Rahul ! You are 17 years old .` — revealing inability to control output formatting precisely.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The input() function reads a line from standard input (keyboard), converts it to a string (______ the trailing newline), and returns that string.",
+     "a": "stripping",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a simple billing program for a kirana store where the ______ enters item name, quantity, and price, and the program prints a neat receipt.",
+     "a": "shopkeeper",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write Python code that correctly accepts user input of different data types using input() with appropriate type conversion, and produces formatted output using print() with sep, end, and escape sequences to match a specified output format exactly.",
+     "self_check": true
     }
    ]
   }

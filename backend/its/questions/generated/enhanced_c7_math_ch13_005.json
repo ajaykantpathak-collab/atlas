@@ -34,6 +34,31 @@
      "q": "Construct a data set of 6 whole numbers whose median is exactly 25, such that no number in the data set is equal to 25.",
      "a": "The expected response is any valid set of 6 numbers where the 3rd and 4th numbers in ascending order average to 25, with neither being 25 itself (e.g., 10, 20, 24, 26, 30, 40, where $\\frac{24 + 26}{2} = 25$). A poor answer features numbers that do not sort properly to a median of 25, or uses 25 as an element, revealing a lack of comprehension that the median does not need to be an actual data point when $n$ is even.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The median is the middle value of a data set when all the data points are arranged in ascending or ______ order.",
+     "a": "descending",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and your 5 friends are standing in a line ______ by your heights, and you want to know who is standing right in the middle.",
+     "a": "ordered",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and your ______ friends are standing in a line ordered by your heights, and you want to know who is standing right in the middle.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can successfully organize a raw data set in numerical order, determine whether the number of observations is odd or even, apply the correct middle-value rule, and interpret what the median represents in a real-world scenario.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you and your 5 friends are standing in a line ordered by your heights, and you want to know who is standing right in the middle.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

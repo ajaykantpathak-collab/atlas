@@ -34,6 +34,31 @@
      "q": "Design a new type of life insurance policy for gig economy workers (irregular income, no employer cover). Name it, define the contingency (event triggering payout), premium flexibility, and one unique feature addressing their specific risk.",
      "a": "Example: \"Flexi-Shield Gig Policy\". Contingency: Death/disability OR income below threshold for 6+ months. Premium: Pay-per-month with grace period, linked to actual earnings via GST returns. Unique feature: Premium holiday during zero-income months without lapse. A poor answer (e.g., just \"term insurance with low premium\") shows inability to synthesize life insurance elements (contingency, premium, benefit) with a novel user context.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Life insurance is a contract providing financial protection against the ______ of human life (death or survival to maturity), fire insurance is a contract of strict indemnity covering loss/damage to physical property by accidental fire, and marine insurance is a contract of indemnity covering perils of the sea for ship/hull, cargo, and freight during transit.",
+     "a": "uncertainty",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine three friends: Arjun (sole earner for ______), Priya (factory owner), and Samir (importer of electronics).",
+     "a": "family",
+     "self_check": true
+    },
+    {
+     "q": "What is Life insurance? State the definition given in this lesson.",
+     "a": "Life insurance is a contract providing financial protection against the uncertainty of human life (death or survival to maturity), fire insurance is a contract of strict indemnity covering loss/damage to physical property by accidental fire, and marine insurance is a contract of indemnity covering perils of the sea for ship/hull, cargo.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Life insurance?",
+     "a": "Students often believe \"Indemnity means the insurance company pays the policy amount (sum insured) in case of loss.\" They confuse *sum insured* (maximum liability) with *indemnity* (actual loss compensation).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify a given real-world risk scenario into life, fire, or marine insurance; explain why life insurance is not a contract of indemnity while fire and marine are; and distinguish the timing requirements for insurable interest across the three types with accurate terminology.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_09_005",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_09_005",
+   "title": "c11_app_cbse_09_005",
+   "questions": [
+    {
+     "q": "State the three necessary and sufficient conditions for a collection of events {A₁, A₂, ..., Aₙ} to form a partition of the sample space S.",
+     "a": "The three conditions are: (1) Exhaustiveness: A₁ ∪ A₂ ∪ ... ∪ Aₙ = S (the union covers the entire sample space). (2) Mutual Exclusivity: Aᵢ ∩ Aⱼ = ∅ for all i ≠ j (no two events can occur simultaneously). (3) Non-emptiness: Aᵢ ≠ ∅ for all i (each event has at least one outcome, so P(Aᵢ) > 0). A wrong answer — such as listing only mutual exclusivity or confusing partition with just \"exhaustive events\" — reveals the student does not understand that **all three conditions must hold simultaneously** for the theorem's formula to be valid; missing any one makes the decomposition B = ∪(B ∩ Aᵢ) invalid or the conditional probabilities undefined.",
+     "self_check": true
+    },
+    {
+     "q": "In the theorem's formula P(B) = Σ P(B|Aᵢ)P(Aᵢ), explain why the events Aᵢ must be mutually exclusive. What would go wrong in the calculation if they overlapped (i.e., Aᵢ ∩ Aⱼ ≠ ∅ for some i ≠ j)?",
+     "a": "Mutual exclusivity ensures that the events (B ∩ Aᵢ) are also mutually exclusive, so the probability of their union B = ∪(B ∩ Aᵢ) equals the sum of their individual probabilities (Addition Rule for mutually exclusive events). If Aᵢ and Aⱼ overlap, then (B ∩ Aᵢ) and (B ∩ Aⱼ) also overlap, and summing P(B ∩ Aᵢ) + P(B ∩ Aⱼ) would **double-count the probability of outcomes in the intersection**, leading to P(B) > 1 or an inflated incorrect value. A student who says \"it doesn't matter\" or \"we can just subtract the intersection\" misunderstands that the theorem's standard form **assumes a partition** to avoid inclusion-exclusion complexity; the formula as stated only works for partitions.",
+     "self_check": true
+    },
+    {
+     "q": "A diagnostic test for a disease has a sensitivity (true positive rate) of 95% and specificity (true negative rate) of 90%. In a population where 2% have the disease, a person is selected at random. Use the Theorem of Total Probability to find the probability that the test result is positive.",
+     "a": "Let D = \"has disease\" (P(D) = 0.02), D' = \"no disease\" (P(D') = 0.98). Let T+ = \"test positive\". Given: P(T+|D) = 0.95 (sensitivity), P(T+|D') = 1 - specificity = 0.10 (false positive rate). {D, D'} is a partition. By Total Probability: P(T+) = P(T+|D)P(D) + P(T+|D')P(D') = (0.95 × 0.02) + (0.10 × 0.98) = 0.019 + 0.098 = 0.117. A wrong answer (e.g., 0.95, or 0.525, or forgetting the false positive term) reveals the student either **confuses P(T+|D) with P(T+)**, ignores the base rate (prevalence), or fails to recognize that {D, D'} forms a partition and both conditional paths must be weighted by their prior probabilities.",
+     "self_check": true
+    },
+    {
+     "q": "Consider two events A and B in a sample space S. A student claims: \"Since A and B are mutually exclusive and P(A) + P(B) = 1, they form a partition, so I can use the Theorem of Total Probability with A and B as the partitioning events to find P(C) for any event C.\" Is this claim correct? Justify your answer.",
+     "a": "The claim is **incorrect**. While A and B are mutually exclusive and exhaustive (since P(A) + P(B) = 1 and they are mutually exclusive implies A ∪ B = S, assuming P(A), P(B) > 0), the student overlooks the **non-emptiness condition**: it is possible that P(A) = 0 or P(B) = 0 even if P(A) + P(B) = 1 (e.g., P(A)=1, P(B)=0). If P(B)=0, then P(C|B) is undefined (division by zero), and the term P(C|B)P(B) is 0 × undefined — mathematically invalid. The theorem explicitly requires Aᵢ ≠ ∅ (i.e., P(Aᵢ) > 0) for all i. A student who agrees with the claim confuses \"probabilities sum to 1\" with \"events are non-empty\", missing the subtle but critical requirement that **conditional probabilities must be well-defined**.",
+     "self_check": true
+    },
+    {
+     "q": "A company sources components from three suppliers: S1 (40%), S2 (35%), S3 (25%). Defect rates are 1%, 2%, 3% respectively. A quality manager argues: \"Since S3 has the highest defect rate (3%), it contributes the most to the overall defect probability.\" Evaluate this claim using the Theorem of Total Probability.",
+     "a": "The claim is **false**. Contribution to total defect probability is P(Sᵢ) × P(Defect|Sᵢ), not just the defect rate. Compute: S1 contributes 0.40 × 0.01 = 0.004; S2 contributes 0.35 × 0.02 = 0.007; S3 contributes 0.25 × 0.03 = 0.0075. Although S3 has the highest defect rate, S2 (with lower defect rate but higher volume) contributes almost as much (0.007 vs 0.0075). In fact, if S2's share were slightly higher (e.g., 40%), it would contribute more than S3. The manager's error is **ignoring the base rate (prior probability) P(Sᵢ)** — a classic base rate fallacy. The Theorem of Total Probability explicitly weights each conditional probability by the prior; both factors matter.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) involving exactly 4 partitioning events where the Theorem of Total Probability is needed to find an overall probability. Define the events, assign plausible probabilities, and write the full expression for the total probability (do not compute the final number).",
+     "a": "**Scenario**: A Mumbai-based food delivery startup uses four cloud kitchens: Andheri (A₁, 30% orders), Bandra (A₂, 25%), Powai (A₃, 20%), Thane (A₄, 25%). These form a partition (mutually exclusive, exhaustive, non-empty). Let L = \"order delivered late\". Historical late rates: P(L|A₁)=0.08, P(L|A₂)=0.12, P(L|A₃)=0.05, P(L|A₄)=0.15. Total probability of late delivery: P(L) = P(L|A₁)P(A₁) + P(L|A₂)P(A₂) + P(L|A₃)P(A₃) + P(L|A₄)P(A₄) = (0.08×0.30) + (0.12×0.25) + (0.05×0.20) + (0.15×0.25). A poor answer would use overlapping events (e.g., \"veg/non-veg\" and \"kitchen\" mixed), omit a kitchen, assign probabilities not summing to 1, or write P(L) = average of conditional probabilities — showing failure to grasp **partition structure and weighting by priors**.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

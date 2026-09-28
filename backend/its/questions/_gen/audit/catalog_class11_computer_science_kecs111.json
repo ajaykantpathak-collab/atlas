@@ -1,0 +1,125 @@
+{
+ "catalog": "catalog_class11_computer_science_kecs111.json",
+ "concepts": [
+  {
+   "id": "kecs111.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "sessions = 6.7",
+      "minutes = 52",
+      "daily_limit = 56",
+      "overshoot = sessions * minutes - daily_limit"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "sessions = 5.1",
+      "minutes = 41",
+      "daily_limit = 66",
+      "overshoot = sessions * minutes - daily_limit"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "sessions = 62",
+      "minutes = 37",
+      "daily_limit = 79",
+      "overshoot = sessions * minutes - daily_limit"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "sessions = 52",
+      "minutes = 21",
+      "daily_limit = 99",
+      "overshoot = sessions * minutes - daily_limit"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "sessions = 14.9",
+      "minutes = 41",
+      "daily_limit = 50",
+      "overshoot = sessions * minutes - daily_limit"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "sessions = 61",
+      "minutes = 5.8",
+      "daily_limit = 25",
+      "overshoot = sessions * minutes - daily_limit"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "overshoot = sessions * minutes - daily_limit"
+   ]
+  },
+  {
+   "id": "kecs111.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "accounts = 395",
+      "distinct_passwords = 37",
+      "affected_pairs = (accounts - distinct_passwords) * ((accounts - distinct_passwords) - 1) / 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "accounts = 271",
+      "distinct_passwords = 60",
+      "affected_pairs = (accounts - distinct_passwords) * ((accounts - distinct_passwords) - 1) / 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "accounts = 459",
+      "distinct_passwords = 92",
+      "affected_pairs = (accounts - distinct_passwords) * ((accounts - distinct_passwords) - 1) / 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "accounts = 355",
+      "distinct_passwords = 91",
+      "affected_pairs = (accounts - distinct_passwords) * ((accounts - distinct_passwords) - 1) / 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "accounts = 140",
+      "distinct_passwords = 87",
+      "affected_pairs = (accounts - distinct_passwords) * ((accounts - distinct_passwords) - 1) / 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "accounts = 334",
+      "distinct_passwords = 111",
+      "affected_pairs = (accounts - distinct_passwords) * ((accounts - distinct_passwords) - 1) / 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "affected_pairs = (accounts - distinct_passwords) * ((accounts - distinct_passwords) - 1) / 2"
+   ]
+  }
+ ]
+}

@@ -34,6 +34,31 @@
      "q": "Create a Python program that takes a user's first name and last name as input, then prints a username formed by concatenating the first letter of the first name, a dot, and the full last name (e.g., \"A.Kumar\"). Use concatenation and repetition only (no string methods like `join`).",
      "a": "A correct program:\n```python\nfirst = input(\"Enter first name: \")\nlast = input(\"Enter last name: \")\nusername = first[0] + \".\" + last\nprint(username)\n```\nA poor answer might use `first[0] + last` (missing dot) or try to use `*` inappropriately. This tests the ability to combine indexing (from prior node) with concatenation to solve a real problem.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: String ______ is the operation of joining two or more strings end-to-end to form a new string, using the + operator in Python.",
+     "a": "concatenation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a greeting message for a school event: you have the string \"Welcome\" and the string \"Students\".",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "What is String concatenation? State the definition given in this lesson.",
+     "a": "String concatenation is the operation of joining two or more strings end-to-end to form a new string, using the + operator in Python.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about String concatenation?",
+     "a": "Students often think that s = s + \"x\" modifies the original string s in place, similar to how list.append() modifies a list.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write Python expressions that correctly concatenate strings using + and repeat strings using *, predict the output of such expressions, and explain why strings are immutable so these operations create new strings rather than modifying the originals.",
+     "self_check": true
     }
    ]
   }

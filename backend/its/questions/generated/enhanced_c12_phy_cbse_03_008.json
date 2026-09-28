@@ -34,6 +34,26 @@
      "q": "Design a potentiometer-based experiment to determine the resistance of a given wire without using a meter bridge. List the apparatus, circuit diagram description, procedure, and the formula you would use. Explain why this method might be preferred over a meter bridge for very low resistances.",
      "a": "**Expected answer:**  \n**Apparatus:** Potentiometer, driver cell (2 V), rheostat, test wire (unknown R), known resistance box (R_box), galvanometer, jockey, connecting wires.  \n**Circuit:** Driver cell → rheostat → potentiometer wire (length L). Test wire and R_box connected in series across a separate battery? No — better: Connect the test wire in series with a known resistor R_s and a small battery to pass current I through test wire. Connect the ends of the test wire to the potentiometer (through galvanometer and jockey) to measure the potential drop V across it.  \n**Procedure:** (1) Set up driver circuit, find potential gradient k using a standard cell. (2) Pass known current I through test wire using a separate circuit with ammeter. (3) Measure balance length ℓ for V across test wire. (4) V = kℓ. (5) R_wire = V/I = kℓ/I.  \n**Why preferred for low R:** Meter bridge requires a known comparable resistance; for very low R (milliohms), contact resistances and end resistances dominate. Potentiometer measures V directly, and I can be made large with a separate supply, giving measurable V even for tiny R.  \n**What a poor answer reveals:** If the student describes a meter bridge setup, they confuse the two instruments. If they suggest measuring current through the potentiometer wire itself, they misunderstand the null method. If they omit the separate current-carrying circuit for the test wire, they miss that the potentiometer only measures voltage, not current.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ is an instrument that measures an unknown potential difference (or emf) by balancing it against a known potential drop along a uniform resistance wire carrying a constant current, using a null-deflection galvanometer.",
+     "a": "potentiometer",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a typical school lab ______: a 1-meter uniform manganin wire stretched on a wooden board with a meter scale, a driver cell sending steady current through the wire, and a galvanometer connected to a sliding contact (jockey).",
+     "a": "potentiometer",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a typical school lab potentiometer: a ______-meter uniform manganin wire stretched on a wooden board with a meter scale, a driver cell sending steady current through the wire, and a galvanometer connected to a sliding contact (jockey).",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) derive the balance condition for comparing two cell emfs and for measuring internal resistance, (2) calculate unknown emf or internal resistance from balance length measurements with correct unit handling, and (3) explain why the potentiometer gives more accurate results than a voltmeter by analyzing the zero-current.",
+     "self_check": true
     }
    ]
   }

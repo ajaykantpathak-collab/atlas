@@ -34,6 +34,21 @@
      "q": "Construct a hypothetical timeline (5-6 events) of a banking panic in India where the RBI's Lender of Last Resort intervention stops contagion. Include: initial trigger, interbank market freeze, RBI's action (specific window), collateral used, rate charged, and outcome. Use realistic Indian institutional names (e.g., \"Scheduled Commercial Bank X\", \"CCIL\", \"Bank Rate\").",
      "a": "**Timeline:**  \n1. **Day 1:** Rumors of large NPLs at \"Bank X\" (a mid-sized scheduled commercial bank). Depositors withdraw ₹2,000 cr in 2 days.  \n2. **Day 2:** Bank X's reserves with RBI fall below CRR. Interbank call money rate spikes to 12% (vs. Repo 6.5%). Other banks refuse to lend to Bank X. CCIL (Clearing Corporation of India Ltd.) settlement fails for Bank X's leg.  \n3. **Day 3 (Morning):** Bank X approaches RBI under **LOLR window** (Section 17(3B) of RBI Act). Pledges ₹5,000 cr of Central Government Securities (held in SLR).  \n4. **Day 3 (Noon):** RBI values collateral at 95% haircut = ₹4,750 cr. Sanctions ₹3,000 cr overnight loan at **Bank Rate = 7.5%** (penalty 100 bps over Repo).  \n5. **Day 3 (Evening):** Bank X meets depositor withdrawals, clears CCIL settlement. Interbank rate falls back to 6.7%.  \n6. **Day 5:** Bank X repays LOLR loan using fresh retail deposits and asset sales. Panic contained; no other bank affected.  \nA poor answer (vague triggers, missing collateral haircut, using Repo Rate) reveals lack of concrete institutional knowledge — fatal for 6-mark board questions and CUET case-studies.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Central Bank (RBI in India) acts as the Banker's Bank by holding the mandatory cash reserves of ______ banks, providing them with short-term liquidity through refinance facilities, and operating the payment and settlement system (clearing house).",
+     "a": "commercial",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a sudden rumor spreads that a major ______ bank has made bad loans.",
+     "a": "commercial",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the operational mechanics of how the RBI acts as banker to banks (reserve maintenance, clearing, refinance) and distinguish LOLR lending from normal monetary policy operations, including the Bagehot principle (lend freely, at a penalty rate, on good collateral).",
+     "self_check": true
     }
    ]
   }

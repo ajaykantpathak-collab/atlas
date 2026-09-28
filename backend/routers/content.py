@@ -116,12 +116,37 @@ async def get_node(
     """Return a single knowledge node by its string ``node_id``."""
     try:
         node = await ContentService.get_node(db, node_id)
-    except ValueError as exc:
+    except ValueError:
+        node = None
+    if node is not None:
+        return _node_to_schema(node)
+
+    # Corpus fallback — the 9,099 enhanced nodes live in enrichment_content /
+    # the md index, not the legacy knowledge_nodes table.
+    from backend.models.enrichment import EnrichmentContent
+    from sqlalchemy import select as _sel
+    ec = (await db.execute(
+        _sel(EnrichmentContent).where(EnrichmentContent.node_id == node_id)
+    )).scalar_one_or_none()
+    if ec is None:
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
-            detail=str(exc),
+            detail=f"Node '{node_id}' not found",
         )
-    return _node_to_schema(node)
+    return KnowledgeNodeSchema(
+        id=str(ec.id), node_id=ec.node_id,
+        label=ec.title or ec.node_id,
+        description=(ec.definition or "")[:400],
+        subject=ec.subject, class_level=ec.class_level,
+        chapter=str(ec.chapter or ""),
+        node_type="concept",
+        simplified_content=ec.text_walkthrough or ec.eli5,
+        prerequisites=ec.prereq_ids or [],
+        forward_nodes=ec.forward_node_ids or [],
+        mastery_probability=0.0,
+        difficulty=ec.difficulty or "medium",
+        estimated_time=30,
+    )
 
 
 @router.get("/nodes/{node_id}/content", response_model=List[ContentBundleSchema])
@@ -169,7 +194,36 @@ async def search_nodes(
 ):
     """Search knowledge nodes by label or description."""
     nodes = await ContentService.search_nodes(db, q)
-    return [_node_to_schema(n) for n in nodes]
+    if nodes:
+        return [_node_to_schema(n) for n in nodes]
+
+    # Corpus fallback — search enrichment_content titles/definitions
+    # (knowledge_nodes is a legacy table; the 9,099-node corpus lives here)
+    from backend.models.enrichment import EnrichmentContent
+    from sqlalchemy import select as _sel, or_ as _or
+    like = f"%{q.strip()}%"
+    rows = (await db.execute(
+        _sel(EnrichmentContent)
+        .where(_or(EnrichmentContent.title.ilike(like),
+                   EnrichmentContent.definition.ilike(like)))
+        .limit(100))).scalars().all()
+    return [
+        KnowledgeNodeSchema(
+            id=str(ec.id), node_id=ec.node_id,
+            label=ec.title or ec.node_id,
+            description=(ec.definition or "")[:400],
+            subject=ec.subject, class_level=ec.class_level,
+            chapter=str(ec.chapter or ""),
+            node_type="concept",
+            simplified_content=ec.text_walkthrough or ec.eli5,
+            prerequisites=ec.prereq_ids or [],
+            forward_nodes=ec.forward_node_ids or [],
+            mastery_probability=0.0,
+            difficulty=ec.difficulty or "medium",
+            estimated_time=30,
+        )
+        for ec in rows
+    ]
 
 
 @router.get("/subject/{subject}", response_model=List[KnowledgeNodeSchema])
@@ -183,7 +237,65 @@ async def get_nodes_by_subject(
     nodes = await ContentService.get_nodes_by_subject(
         db, subject, class_level=class_level
     )
-    return [_node_to_schema(n) for n in nodes]
+    if nodes:
+        return [_node_to_schema(n) for n in nodes]
+
+    # Corpus fallback — the 9,099-node corpus lives in enrichment_content,
+    # not the legacy knowledge_nodes table, so elective subjects returned
+    # [] (B01). Filter by corpus subject codes, not display names.
+    _CODES = {
+        "mathematics": ["math", "maths", "mathematics", "stat"],
+        "maths": ["math", "maths"], "math": ["math", "maths"],
+        "science": ["sci", "science", "phy", "chem", "bio", "physics",
+                    "chemistry", "biology"],
+        "physics": ["phy", "physics"], "chemistry": ["chem", "chemistry"],
+        "biology": ["bio", "biology"], "bio": ["bio", "biology"],
+        "english": ["engl", "english", "eng_k", "eng_w", "eng_f", "eng_v",
+                    "eng_s", "eng_h", "gram", "comp"],
+        "hindi": ["hin", "hin_a", "hin_v", "hin_al", "hin_ar"],
+        "computer_science": ["comp", "cs", "ip"], "cs": ["comp", "cs", "ip"],
+        "accountancy": ["acc"], "accounts": ["acc"], "acc": ["acc"],
+        "business_studies": ["bs"], "bs": ["bs"],
+        "economics": ["eco", "economics"], "eco": ["eco", "economics"],
+        "psychology": ["psy"], "psy": ["psy"],
+        "history": ["hist", "history", "histciv"],
+        "histciv": ["histciv", "hist", "civ"],
+        "geography": ["geo", "geography"], "civics": ["civ", "civics"],
+        "social_science": ["soc", "sst", "hist", "geo", "civ", "eco",
+                           "histciv"],
+        "sociology": ["soc"], "biotechnology": ["biotech"],
+        "biotech": ["biotech"], "statistics": ["stat"], "stat": ["stat"],
+        "home_science": ["hs"], "hs": ["hs"],
+        "physical_education": ["ps"], "ps": ["ps"],
+        "applied_mathematics": ["stat", "math"],
+        "informatics_practices": ["ip"], "ip": ["ip"],
+    }
+    codes = _CODES.get(subject.lower().replace(" ", "_"),
+                       [subject.lower()])
+    from backend.models.enrichment import EnrichmentContent
+    from sqlalchemy import select as _sel
+    q = _sel(EnrichmentContent).where(EnrichmentContent.subject.in_(codes))
+    if class_level is not None:
+        q = q.where(EnrichmentContent.class_level == int(class_level))
+    rows = (await db.execute(q.order_by(EnrichmentContent.node_id)
+                             .limit(500))).scalars().all()
+    return [
+        KnowledgeNodeSchema(
+            id=str(ec.id), node_id=ec.node_id,
+            label=ec.title or ec.node_id,
+            description=(ec.definition or "")[:400],
+            subject=ec.subject, class_level=ec.class_level,
+            chapter=str(ec.chapter or ""),
+            node_type="concept",
+            simplified_content=ec.text_walkthrough or ec.eli5,
+            prerequisites=ec.prereq_ids or [],
+            forward_nodes=ec.forward_node_ids or [],
+            mastery_probability=0.0,
+            difficulty=ec.difficulty or "medium",
+            estimated_time=30,
+        )
+        for ec in rows
+    ]
 
 
 # --------------------------------------------------------------------------- #
@@ -271,15 +383,57 @@ async def list_enrichment(
     nodes, total = await ContentService.get_enrichment_list(
         db, subject=subject, class_level=class_level, limit=limit, offset=offset
     )
-    return EnrichmentListResponse(
-        nodes=[_enrichment_to_summary(n) for n in nodes],
-        total=total,
-    )
+
+    # Chapter display names: the corpus stores codes ("ch01") — the student-
+    # facing name is the title of the chapter's anchor (lowest-numbered) node.
+    chap_anchor: dict[str, tuple[int, str]] = {}
+    for n in nodes:
+        if not n.chapter:
+            continue
+        key = f"{n.subject}|{n.class_level}|{n.chapter}"
+        try:
+            seq = int(str(n.node_id).rsplit("_", 1)[-1])
+        except (ValueError, IndexError):
+            seq = 9999
+        if key not in chap_anchor or seq < chap_anchor[key][0]:
+            chap_anchor[key] = (seq, n.title or "")
+
+    out = []
+    for n in nodes:
+        s = _enrichment_to_summary(n)
+        anchor = chap_anchor.get(f"{n.subject}|{n.class_level}|{n.chapter}")
+        if anchor and n.chapter:
+            num = str(n.chapter).lower().lstrip("ch").lstrip("0") or n.chapter
+            s.chapter_title = f"Chapter {num} · {anchor[1]}" if anchor[1] else f"Chapter {num}"
+        out.append(s)
+
+    # The DB row's has_* flags are stale (legacy CISCE-era columns); the
+    # parsed corpus index is the real source — overlay it so lists never hide
+    # authored eli5/walkthrough/misconception content that actually exists.
+    try:
+        from backend.services.enhanced_nodes import load_index as _load_idx
+        idx = _load_idx()
+        for s in out:
+            node = idx.get(s.node_id)
+            if not node:
+                continue
+            s.has_definition = s.has_definition or bool(node.get("definition"))
+            s.has_walkthrough = s.has_walkthrough or bool(node.get("walkthrough"))
+            s.has_eli5 = s.has_eli5 or bool(node.get("eli5"))
+            s.has_misconception = (
+                s.has_misconception or bool(node.get("common_misconception"))
+            )
+            s.has_diagnostic = s.has_diagnostic or bool(node.get("diagnostics"))
+    except Exception:
+        pass
+
+    return EnrichmentListResponse(nodes=out, total=total)
 
 
 @router.get("/nodes/{node_id}/enrichment", response_model=EnrichmentContentSchema)
 async def get_node_enrichment(
     node_id: str,
+    db: AsyncSession = Depends(get_db),
 ):
     """Serve node pedagogy from the OFFICIAL enhanced-nodes corpus
     (9,010 nodes) — the single source of teaching content across the
@@ -303,31 +457,42 @@ async def get_node_enrichment(
     chap = node.get("chapter")
     display_title = node.get("title") or (
         f"{subj} · Chapter {chap}" if subj and chap else node_id)
+
+    # DB carries fields the md index doesn't (examples, on_failure,
+    # difficulty, depth/forward graph ids) — merge them in.
+    from backend.models.enrichment import EnrichmentContent as _EC
+    from sqlalchemy import select as _sel
+    ec = (await db.execute(
+        _sel(_EC).where(_EC.node_id == node_id))).scalar_one_or_none()
+
     return JSONResponse({
         "node_id": node_id,
-        "title": display_title,
+        "title": (ec.title if ec and ec.title else display_title),
         "subject": node.get("subject") or "",
         "class_level": node.get("class") or 0,
         "chapter": node.get("chapter"),
         "definition": node.get("definition"),
         "text_walkthrough": node.get("walkthrough"),
-        "eli5": node.get("eli5"),
+        "eli5": node.get("eli5") or (ec.eli5 if ec else None),
         "common_misconception": node.get("common_misconception"),
         "diagnostic_questions": [
-            {"question": d.get("question"), "answer": d.get("answer"),
+            {"question": d.get("question") or d.get("q"),
+             "answer": d.get("answer") or d.get("a"),
              "options": d.get("options") or [],
              "misconception_if_wrong": d.get("misconception")}
             for d in diagnostics if isinstance(d, dict)
         ],
-        "on_failure": None,
-        "examples": node.get("examples"),
+        "on_failure": node.get("on_failure") or (ec.on_failure if ec else None),
+        "examples": node.get("examples") or (ec.examples if ec else None),
         "cognitive_level": node.get("cognitive_level"),
         "mastery_criteria": node.get("mastery_criteria"),
         "scope_boundary": node.get("scope_boundary"),
         "prereq_ids": node.get("prereq_ids") or [],
-        "depth_prereq_ids": node.get("depth_prereq_ids") or [],
-        "forward_node_ids": node.get("forward_node_ids") or [],
-        "difficulty": node.get("difficulty"),
+        "depth_prereq_ids": (ec.depth_prereq_ids if ec else None)
+                            or node.get("depth_prereq_ids") or [],
+        "forward_node_ids": (ec.forward_node_ids if ec else None)
+                            or node.get("forward_node_ids") or [],
+        "difficulty": (ec.difficulty if ec else None) or node.get("difficulty"),
         "board": node.get("board") or "CBSE",
     })
 
@@ -388,11 +553,13 @@ def _question_to_schema(q: BoardQuestion) -> BoardQuestionSchema:
         question_type=q.question_type,
         question_text=strip_pipeline_markers(q.question_text),
         options=q.options,
-        correct_answer=q.correct_answer,
-        model_answer=q.model_answer,
-        explanation=q.explanation,
+        # Answer keys stay server-side — students receive them only
+        # post-submit via the grading response, never in question payloads.
+        correct_answer=None,
+        model_answer=None,
+        explanation=None,
         marks=q.marks,
-        marking_scheme=q.marking_scheme,
+        marking_scheme=None,
         difficulty=q.difficulty,
         source_type=q.source_type,
         source_file=q.source_file,

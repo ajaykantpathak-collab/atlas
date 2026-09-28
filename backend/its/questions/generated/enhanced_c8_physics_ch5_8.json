@@ -34,6 +34,31 @@
      "q": "Design a simple home experiment to test whether three unknown white powders (A, B, C) are ionic, polar covalent, or non‑polar based only on their behaviour in water. List the steps and what you would observe for each type.",
      "a": "Good answer: 1) Add equal amounts of each powder to separate cups of water. 2) Stir for 2 minutes. 3) Observe: Powder that disappears completely (forms clear solution) and conducts electricity (test with a simple LED circuit) → ionic. Powder that disappears but solution does not conduct → polar covalent (e.g., sugar). Powder that does not dissolve (floats/sinks) → non‑polar. A poor answer that only says \"see which dissolves\" misses the conductivity test to distinguish ionic from polar covalent.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Water is called a universal solvent because its polar molecular structure allows it to dissolve a wider variety of substances (ionic compounds, polar covalent molecules, and many gases) than any other liquid, forming ______ mixtures called aqueous solutions.",
+     "a": "homogeneous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by showing a glass of tap water and adding a spoon of salt (NaCl) and a spoon of sugar (sucrose) – both ______.",
+     "a": "disappear",
+     "self_check": true
+    },
+    {
+     "q": "What is Water? State the definition given in this lesson.",
+     "a": "Water is called a universal solvent because its polar molecular structure allows it to dissolve a wider variety of substances (ionic compounds, polar covalent molecules, and many gases) than any other liquid, forming homogeneous mixtures called aqueous solutions.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Water?",
+     "a": "Students often think \"universal solvent\" means water dissolves *every* substance.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why water dissolves ionic compounds like salt and polar molecules like sugar by describing the interaction between water's partial charges and the solute particles, and can predict whether a given household substance will dissolve in water based on its polarity.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Create a new real-world scenario (Indian context) that involves all four network types (PAN, LAN, MAN, WAN) interacting in sequence. Describe the data flow and name the network type at each hop.",
      "a": "Scenario: A farmer in Punjab uses a soil-moisture sensor (PAN: Bluetooth to phone). Phone sends data via 4G to a district agricultural server (WAN: cellular + fibre backhaul). District server aggregates data and forwards to a state-level MAN (fibre ring connecting district offices). State MAN connects to the national agricultural cloud hosted in a data centre in Pune (WAN: national fibre backbone). A researcher in Kerala accesses the cloud via her institute's LAN (campus network). Good answer must show sequential PAN→WAN→MAN→WAN→LAN with correct media/ownership at each step. Poor answer mixes up MAN/WAN or omits one type.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A computer network is classified by its geographical span into four primary types: PAN (Personal Area Network) covers a few metres around an individual (e.g., Bluetooth, USB); LAN (Local Area Network) spans a single building or campus up to a few kilometres with high speed and low latency; MAN (Metropolitan Area Network) extends across a city (5–50 km) ______ multiple LANs, often using fibre or microwave links; WAN (Wide Area Network) covers large geographical areas (countries, continents) using leased lines, satellites, or undersea cables, with lower speed and higher latency than LAN/MAN.",
+     "a": "interconnecting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to transfer a photo from your phone to your friend's laptop sitting next to you — you'd use ______ (PAN).",
+     "a": "Bluetooth",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now imagine your school lab has ______ computers connected by Ethernet cables — that's a LAN.",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) correctly classify a given network scenario as PAN, LAN, MAN, or WAN by stating the geographical scope, typical transmission media, ownership model, and speed/latency characteristics, and (2) justify why a specific technology (e.g., Bluetooth vs. fibre optic) fits one category but not another.",
+     "self_check": true
     }
    ]
   }

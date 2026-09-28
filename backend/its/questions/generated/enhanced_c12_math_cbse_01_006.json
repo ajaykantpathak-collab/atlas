@@ -34,6 +34,26 @@
      "q": "Construct an example of two functions f : A → B and g : B → C where f is NOT injective but g ∘ f IS injective. Explain why this does not contradict the theorem \"if g ∘ f is injective then f is injective\".",
      "a": "Let A = {1, 2}, B = {a, b, c}, C = {x, y}. Define f(1) = a, f(2) = a (f is not injective). Define g(a) = x, g(b) = y, g(c) = y. Then (g ∘ f)(1) = g(a) = x, (g ∘ f)(2) = g(a) = x. Wait — this gives g ∘ f not injective. Correct example: A = {1}, B = {a, b}, C = {x}. f(1) = a. g(a) = x, g(b) = x. f is injective (vacuously, single element). Need f not injective but g ∘ f injective: A = {1, 2}, B = {a, b}, C = {x, y}. f(1) = a, f(2) = a (not injective). g(a) = x, g(b) = y. Then (g ∘ f)(1) = x, (g ∘ f)(2) = x — not injective. Actually, the theorem IS true: if g ∘ f is injective, f MUST be injective. Proof: if f(x₁) = f(x₂) then g(f(x₁)) = g(f(x₂)) so x₁ = x₂. So NO such example exists! The question tests whether the student recognizes this theorem. A student who constructs an \"example\" has misunderstood the theorem; a correct answer states it's impossible and proves why.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ of two functions f : A → B and g : B → C, denoted by gof, is the function gof : A → C defined by (gof)(x) = g(f(x)) for all x ∈ A.",
+     "a": "composition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're at a Delhi Metro station: you first take the Yellow Line from Rajiv Chowk to Kashmere Gate (function f), then switch to the Red Line from Kashmere Gate to ______ Garden (function g).",
+     "a": "Dilshad",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute gof and fog for functions given by formulas, arrow diagrams, or sets of ordered pairs; can determine whether gof and fog exist based on domain/codomain compatibility; can prove associativity of composition; and can explain why composition is generally non-commutative with a counterexample.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you're at a Delhi Metro station: you first take the Yellow Line from Rajiv Chowk to Kashmere Gate (function f), then switch to the Red Line from Kashmere Gate to Dilshad Garden (function g).",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

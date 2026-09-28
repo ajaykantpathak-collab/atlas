@@ -34,6 +34,26 @@
      "q": "Design a simple thought experiment using the equipartition theorem to explain why the specific heat of solid carbon (diamond) at room temperature is significantly lower than 3R, while most other solids obey the Dulong-Petit law (C_v ≈ 3R).",
      "a": "In the Einstein/Debye model, each atom in a solid has 3 vibrational degrees of freedom (kinetic + potential in x, y, z → 6 quadratic terms → 3k_BT per atom → C_v = 3R per mole). For diamond, the high Debye temperature (~2230 K) means vibrational modes are \"frozen out\" at room temperature (300 K) because k_BT is much smaller than the vibrational quantum. The equipartition theorem (classical) fails here; quantum effects suppress contributions. A poor answer (e.g., \"carbon is light\") misses the quantum-classical crossover and the role of Debye temperature.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Degrees of freedom of a gas molecule is the number of independent parameters (______, rotational, vibrational) needed to specify its microscopic state.",
+     "a": "translational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ceiling fan ______ in your room — its blades have kinetic energy from rotation.",
+     "a": "rotating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Each independent motion is a \"degree of freedom.\" Start by identifying how many coordinates are needed to locate a molecule in space (______ for translation).",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly count degrees of freedom for monatomic, diatomic (rigid and non-rigid), and polyatomic gases, apply the equipartition theorem to derive molar specific heats (C_v, C_p) and their ratio γ, and explain why experimental values for some gases (e.g., Cl₂) exceed rigid-model predictions at room temperature.",
+     "self_check": true
     }
    ]
   }

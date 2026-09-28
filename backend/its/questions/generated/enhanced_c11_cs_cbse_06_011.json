@@ -34,6 +34,21 @@
      "q": "Create a mini-program (3-5 lines) that starts with an empty list, uses **all five methods exactly once each**, and ends with the list `['apple', 'banana', 'cherry']` sorted alphabetically.",
      "a": "Example:\n```python\nfruits = []\nfruits.append('cherry')      # ['cherry']\nfruits.insert(0, 'apple')    # ['apple', 'cherry']\nfruits.append('banana')      # ['apple', 'cherry', 'banana']\nfruits.remove('cherry')      # ['apple', 'banana']\nfruits.insert(1, 'cherry')   # ['apple', 'cherry', 'banana']\npopped = fruits.pop()        # popped='banana', list=['apple','cherry']\nfruits.append(popped)        # ['apple','cherry','banana']\nfruits.sort()                # ['apple','banana','cherry']\n```\n(Any valid sequence earns full credit.) A poor answer uses a method twice, omits one, or assumes methods return the list.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: List methods append(), insert(), remove(), pop(), and sort() are built-in mutable ______ that modify a Python list in-place: append(x) adds x to the end; insert(i, x) inserts x at index i; remove(x) deletes the first occurrence of value x; pop(i) removes and returns the element at index i (default last); sort() arranges elements in ascending order (or descending with reverse=True).",
+     "a": "operations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are maintaining a digital shopping list on your phone: you append new items at the bottom, insert an urgent item at the top, remove a bought item by name, pop the last item to check its price, and sort the list ______ for easy scanning.",
+     "a": "alphabetically",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write and trace Python code that uses all five methods in sequence, correctly predict the final list state and any returned values, and explain why each method returns None (except pop) due to in-place mutation.",
+     "self_check": true
     }
    ]
   }

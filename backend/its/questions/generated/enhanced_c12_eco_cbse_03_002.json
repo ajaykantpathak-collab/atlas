@@ -34,6 +34,36 @@
      "q": "Construct a hypothetical TP schedule for 5 units of labour that exhibits: (a) increasing MP for first two units, (b) diminishing but positive MP for next two, (c) zero MP at fifth unit. Compute MP and AP, and sketch the three curves qualitatively.",
      "a": "Example: L=0 TP=0; L=1 TP=5 (MP=5, AP=5); L=2 TP=14 (MP=9, AP=7); L=3 TP=21 (MP=7, AP=7); L=4 TP=26 (MP=5, AP=6.5); L=5 TP=26 (MP=0, AP=5.2).\nSketch: TP rises at increasing rate (0-2), then at decreasing rate (2-4), flattens at 5. MP rises to 9 at L=2, then falls, crossing AP at L=3 (both 7), hits zero at L=5. AP peaks at L=3. A poor answer shows MP never crossing AP or TP not flattening when MP=0, indicating misunderstanding of the graphical relationships.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Total Product (TP) is the total output ______ by a firm using a given quantity of variable input (e.g., labour) while keeping fixed inputs constant.",
+     "a": "produced",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small wheat farm in Punjab where the land (fixed input) is 2 ______ and the farmer hires labourers (variable input) one by one.",
+     "a": "hectares",
+     "self_check": true
+    },
+    {
+     "q": "What is Total Product (TP)? State the definition given in this lesson.",
+     "a": "Total Product (TP) is the total output produced by a firm using a given quantity of variable input (e.g., labour) while keeping fixed inputs constant.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small wheat farm in Punjab where the land (fixed input) is ______ hectares and the farmer hires labourers (variable input) one by one.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Total Product (TP)?",
+     "a": "Students often believe that when MP is negative, TP becomes negative.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) compute MP and AP from a given TP schedule, (2) sketch the three curves showing correct intersections and slopes, (3) explain why MP crosses AP at its peak using the average-marginal relationship, and (4) identify the three stages of production from the behaviour of MP and AP.",
+     "self_check": true
     }
    ]
   }

@@ -269,16 +269,19 @@
    ],
    "worked_examples": [
     {
-     "question": "What is the share of marine sector in total fish production?",
-     "solution": "Step 1: Identify total production. Step 2: Calculate inland share. Working: total_fish_output, 75 * total_val / 100.",
-     "answer": "Fisheries Production Distribution applied step by step gives the required result."
-    },
-    {
-     "question": "How much does the inland sector contribute to fisheries?",
-     "solution": "Step 1: Identify total production. Step 2: Calculate inland share. Working: total_fish_output, 75 * total_val / 100.",
-     "answer": "The method of fisheries production distribution leads to the required value or conclusion."
+     "concept": "keec.105.9",
+     "question_pattern": "Calculate the inland fish production if total production is {total_fish_output}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "inland_output = 0.75 * total_fish_output",
+     "compute": "inland_output = 0.75 * total_fish_output"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keec.105.10",
@@ -370,16 +373,19 @@
    ],
    "worked_examples": [
     {
-     "question": "What is the percentage share of poultry in India's livestock?",
-     "solution": "Step 1: Identify total livestock. Step 2: Calculate poultry count. Working: total_livestock, 61 * total_val / 100.",
-     "answer": "Livestock Composition: Poultry Share applied step by step gives the required result."
-    },
-    {
-     "question": "How much of the livestock sector is comprised of poultry?",
-     "solution": "Step 1: Identify total livestock. Step 2: Calculate poultry count. Working: total_livestock, 61 * total_val / 100.",
-     "answer": "The method of livestock composition: poultry share leads to the required value or conclusion."
+     "concept": "keec.105.12",
+     "question_pattern": "Calculate the number of poultry if total livestock is {total_livestock}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "poultry_count = 0.61 * total_livestock",
+     "compute": "poultry_count = 0.61 * total_livestock"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

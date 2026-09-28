@@ -34,6 +34,36 @@
      "q": "Create a decision flowchart (text-based) that a textile designer can use to select the optimal fibre for a new apparel product. The flowchart must include at least four decision nodes based on fibre properties and end-use requirements, and lead to at least three distinct fibre recommendations (e.g., cotton, wool, polyester, nylon, rayon). Write it as a series of IF-THEN-ELSE statements.",
      "a": "Example flowchart:\n1. IF the garment requires high thermal insulation (winter wear) THEN go to 2; ELSE go to 4.\n2. IF the garment must retain warmth when wet (outdoor/sports) THEN recommend WOOL; ELSE if dry warmth only (indoor) THEN recommend ACRYLIC (wool-like, cheaper).\n3. (End branch)\n4. IF the garment is for hot/humid climate (summer wear) THEN go to 5; ELSE go to 7.\n5. IF moisture absorption and skin comfort are top priority (everyday casual) THEN recommend COTTON; ELSE IF quick-dry and wrinkle resistance are critical (travel/workwear) THEN recommend POLYESTER/COTTON BLEND (65/35).\n6. (End branch)\n7. IF the garment needs high strength-to-weight and abrasion resistance (sportswear, luggage) THEN recommend NYLON; ELSE IF drape and lustre for formal wear THEN recommend RAYON/VISCOSE.\nA poor answer that lists fibres without conditional logic (e.g., \"cotton for summer, wool for winter\") shows the student cannot translate properties into a reusable selection algorithm — a key competency for higher-order questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Textile fibres are the fundamental units of fabric, classified by origin into natural (cellulosic, protein, mineral) and ______ (regenerated, synthetic, inorganic) categories, each possessing distinct physical, chemical, and aesthetic properties that determine their suitability for specific apparel end-uses such as climate adaptation, durability, comfort, and care requirements.",
+     "a": "manufactured",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a summer kurta for a customer in Rajasthan who wants maximum comfort in 45°C heat, minimal ironing, and ______ for daily wear.",
+     "a": "durability",
+     "self_check": true
+    },
+    {
+     "q": "What is Textile fibres? State the definition given in this lesson.",
+     "a": "Textile fibres are the fundamental units of fabric, classified by origin into natural (cellulosic, protein, mineral) and manufactured (regenerated, synthetic, inorganic) categories, each possessing distinct physical, chemical, and aesthetic properties that determine their suitability for specific apparel end-uses such as climate.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a summer kurta for a customer in Rajasthan who wants maximum comfort in ______°C heat, minimal ironing, and durability for daily wear.",
+     "a": "45",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Textile fibres?",
+     "a": "Students often believe that \"natural fibres are always more comfortable and synthetic fibres are always more durable.\" This leads them to automatically choose cotton for summer and polyester for sportswear without analysing the specific property requirements.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify any given fibre into its correct category (natural/manufactured, sub-category), explain how at least three key properties (e.g., moisture absorption, thermal conductivity, tensile strength) influence apparel selection for a given scenario, and justify the choice of fibre for a specific garment type (e.g..",
+     "self_check": true
     }
    ]
   }

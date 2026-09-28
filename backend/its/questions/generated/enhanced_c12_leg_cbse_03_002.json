@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_03_002",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_03_002",
+   "title": "c12_leg_cbse_03_002",
+   "questions": [
+    {
+     "q": "State the exact wording of Section 10 of the Indian Contract Act, 1872, and identify which constitutional article acts as the primary check on \"lawful object\" and \"free consent\" in modern judicial interpretation.",
+     "a": "Section 10: \"All agreements are contracts if they are made by the free consent of parties competent to contract, for a lawful consideration and with a lawful object, and are not hereby expressly declared to be void.\" The primary constitutional check is **Article 21 (Right to Life and Personal Liberty)**, expanded to include human dignity, livelihood, and procedural fairness, which renders contracts with unconscionable terms (e.g., exploitative wages, bonded labour) void even if they technically satisfy Section 10. A wrong answer (e.g., citing only Article 14 or 19) reveals the student misses the *substantive due process* evolution in Indian contract law post-*Maneka Gandhi*.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a contract between two private companies — where Company A agrees to supply goods only if Company B promises not to deal with Company A’s competitors — may be struck down under Article 19(1)(g) read with Section 27 of the Indian Contract Act, 1872. Use the phrase \"reasonable restriction\" in your answer.",
+     "a": "Section 27 ICA declares agreements in restraint of trade void *unless* they fall under exceptions (sale of goodwill, partnership dissolution). Article 19(1)(g) guarantees the fundamental right to carry on any trade/profession, subject to **reasonable restrictions** in public interest. A blanket exclusivity clause with no time/geographic limit is an *unreasonable* restraint — it kills competition and B’s livelihood. Courts (e.g., *Niranjan Shankar Golikari v. Century Spinning*, 1967) uphold only *reasonable* restraints (limited duration, area, necessity). A wrong answer claiming \"all restraints are void\" ignores the \"reasonable restriction\" constitutional test; one saying \"private contracts don't attract Article 19\" misses that fundamental rights bind *state action*, but courts extend them horizontally via \"public policy\" (Section 23 ICA) to strike down private oppression.",
+     "self_check": true
+    },
+    {
+     "q": "A government department awards a tender to a bidder who included a clause: \"No judicial review of this contract’s terms shall be entertained by any court.\" The bidder later breaches the contract. The government sues. The bidder argues the clause bars the suit. Apply constitutional provisions to decide if the clause is enforceable.",
+     "a": "**Not enforceable.** Step 1: Identify the clause as an \"ouster of jurisdiction\" clause. Step 2: Recall Article 226 (High Court writ jurisdiction) and Article 32 (Supreme Court writ jurisdiction) are part of the **basic structure** of the Constitution (*L. Chandra Kumar v. Union of India*, 1997). Step 3: No contract — even between government and private party — can oust constitutional jurisdiction; such clauses are void as against public policy (Section 23 ICA). Step 4: The government (as \"State\" under Article 12) cannot contract away its constitutional duty to provide access to justice. Step 5: The suit proceeds; the clause is severed. A wrong answer upholding the clause reveals confusion between *arbitration clauses* (valid, alternate forum) and *ouster clauses* (invalid, no forum).",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: (a) A contract void *ab initio* under Section 23 ICA (unlawful object), and (b) A contract valid under ICA but struck down as unconstitutional under Article 14 (arbitrariness). Give one concrete example of each.",
+     "a": "(a) **Void *ab initio* (Section 23 ICA)**: Agreement to commit a crime (e.g., A pays B to assault C). Illegal from inception; no rights arise; *ex turpi causa non oritur actio*. (b) **Unconstitutional (Article 14)**: A public sector bank’s loan contract allows *unilateral* interest rate hike \"at bank’s sole discretion\" without notice/reason. Valid under ICA (free consent, lawful object), but Supreme Court (*State of Punjab v. Ramdev*, 2003) strikes it down as **arbitrary, unreasonable, violative of Article 14** — equality before law demands non-arbitrariness in state contracts. Key difference: (a) fails statutory legality test; (b) fails constitutional fairness test despite statutory validity. A wrong answer conflating them misses the *hierarchical supremacy*: Constitution > Statute.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"Since the Indian Contract Act, 1872 is a pre-Constitution statute, it cannot be challenged for violating Fundamental Rights. Parties are bound by its terms even if unfair.\"",
+     "a": "**The statement is constitutionally illiterate.** Step 1: Article 13(1) — all pre-Constitution laws *inconsistent* with Fundamental Rights are void *to the extent of inconsistency*. Step 2: Section 10 ICA (\"free consent\", \"lawful object\") is *interpreted* through Fundamental Rights lens — e.g., \"free consent\" now includes absence of economic coercion (*Central Inland Water Transport*); \"lawful object\" includes conformity with Article 21 dignity. Step 3: Post-Constitution amendments (e.g., 1996 Specific Relief Act changes) and judicial review (*Kesavananda Bharati* basic structure) ensure ICA evolves. Step 4: Unfair terms (unconscionable bargains, adhesive contracts by State) are struck down *under* ICA using constitutional values. A wrong answer accepting the statement reveals ignorance of **Article 13(1)**, **judicial interpretation as \"updating\" statutes**, and the **living Constitution** doctrine.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a one-clause \"Constitutional Compliance Clause\" for a standard-form contract between a multinational corporation and an Indian farmer for supply of seeds, ensuring it survives Article 14, 19(1)(g), and 21 scrutiny. Explain each safeguard in 1 sentence.",
+     "a": "**Clause:** \"This Agreement shall be governed by the Constitution of India; any term found violative of Articles 14 (non-arbitrariness), 19(1)(g) (right to livelihood/trade), or 21 (dignity, fair procedure) shall be severed; disputes shall be resolved via mediation (Section 89 CPC) before arbitration; the Farmer retains right to save/exchange seeds per PPVFR Act, 2001; unilateral termination requires 60-day notice + written reasons.\"  \n**Safeguards:** (1) Severability clause prevents whole contract collapse if one term fails Article 14 test. (2) Mediation-first respects Article 21 access to justice. (3) Seed-saving right protects Article 19(1)(g) livelihood from monopolistic restraint. (4) Notice+reasons mandate procedural fairness (Article 21) against arbitrary cancellation. A poor answer omits *specific* constitutional anchors or uses vague \"fairness\" language — shows inability to translate rights into contractual architecture.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

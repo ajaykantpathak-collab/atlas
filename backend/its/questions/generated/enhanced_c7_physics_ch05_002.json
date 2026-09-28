@@ -34,6 +34,31 @@
      "q": "Design a simple classification test using a cardboard box to prove whether a given plastic toy is luminous or non-luminous.",
      "a": "To test the toy, place it inside a closed cardboard box with a small viewing hole and no internal light sources. If the toy is invisible inside the dark box, it is non-luminous because it requires external light to be seen. A poor answer that suggests looking at the toy in a bright room does not test its self-emission property, as reflected light would interfere with the conclusion.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Luminous objects are those that emit their own light by ______ various forms of energy (such as electrical, chemical, or nuclear energy) into light energy, whereas non-luminous objects do not emit light of their own and are only visible because they reflect light falling on them from luminous sources.",
+     "a": "converting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine walking into a ______ dark room in your house at night where all switches are off—you cannot see your study table, your bag, or your water bottle.",
+     "a": "completely",
+     "self_check": true
+    },
+    {
+     "q": "What is Luminous objects? State the definition given in this lesson.",
+     "a": "Luminous objects are those that emit their own light by converting various forms of energy (such as electrical, chemical, or nuclear energy) into light energy, whereas non-luminous objects do not emit light of their own and are only visible because they reflect light falling on them from luminous sources.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Luminous objects?",
+     "a": "Students often think that any object that looks bright, shiny, or glows when light hits it (such as a polished metal plate, a glass marble, or the Moon) is luminous.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can correctly classify a list of everyday objects into luminous and non-luminous categories, and explain the physical mechanism of how a non-luminous object becomes visible to the human eye.",
+     "self_check": true
     }
    ]
   }

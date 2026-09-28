@@ -311,6 +311,21 @@
      "action": "Interpret the result",
      "explain": "The result represents the estimated number of arthropod species, reflecting their dominance as roughly two-thirds of all named animal species."
     }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "arthropod_species = total_species * 2 / 3",
+     "compute": "arthropod_species = total_species * 2 / 3"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "kebo.4.1.7",
+     "question_pattern": "calculate the number of arthropod species if total named species is {total_species}"
+    }
    ]
   },
   {

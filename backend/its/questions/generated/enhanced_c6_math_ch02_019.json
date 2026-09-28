@@ -34,6 +34,36 @@
      "q": "Create a real-world word problem that results in the expression (-10) + (+15).",
      "a": "A valid problem would be: \"I owed a shopkeeper ₹10 (represented as -10), but then I earned ₹15 and paid him back (represented as +15). What is my new balance?\" A poor answer would be a problem that doesn't involve a starting debt or negative state.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Adding integers is the process of combining two numbers that include positive values, negative values, or zero, often ______ as movement along a number line or floor changes in a building.",
+     "a": "visualized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If you are at the ground floor of a ______ and someone tells you to go up 3 floors and then down 5 floors, where do you end up?",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "What is Adding integers? State the definition given in this lesson.",
+     "a": "Adding integers is the process of combining two numbers that include positive values, negative values, or zero, often visualized as movement along a number line or floor changes in a building.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You will land on -______, which is your new position.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Adding integers?",
+     "a": "Students often confuse the sign of the sum when adding a positive and a negative number.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to accurately calculate the sum of any two integers (positive or negative) using a number line or the \"zero pair\" token method.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Construct a real-world problem (with numbers) where a force vector is applied at an angle to a displacement, and the work done requires the scalar projection of the force on the displacement. Provide the problem statement and the solution.",
      "a": "Problem: A man pulls a cart with a force $\\vec{F} = 10\\hat{i} + 10\\hat{j}$ N. The cart moves horizontally along the x-axis for 5 m. Find the work done by the force.\nSolution: Displacement $\\vec{s} = 5\\hat{i}$ m. Work $= \\vec{F}\\cdot\\vec{s} = (10)(5) + (10)(0) = 50$ J. Alternatively, scalar projection of $\\vec{F}$ on $\\vec{s}$ is $F_x = 10$ N, work $= 10 \\times 5 = 50$ J. A poor answer (e.g., using full force magnitude $10\\sqrt{2}$ N) shows misunderstanding that only the component of force along displacement does work.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a kite flying in the sky with a string ______ at an angle.",
+     "a": "pulling",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute both scalar and vector projections of one vector onto another using the dot product, determine the sign of the scalar projection based on the angle, find the projection of a vector on a coordinate axis, and apply projection to solve problems involving components of forces or velocities in physics.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a kite flying in the sky with a string pulling at an angle.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,193 @@
+{
+ "catalog": "catalog_class11_physics_keph201.json",
+ "concepts": [
+  {
+   "id": "keph201.8.2.1",
+   "title": "Stress and Strain",
+   "converted_to_compute": true,
+   "formula": "stress = applied_force / area",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "stress = applied_force / area",
+     "compute": "stress = applied_force / area"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Stress and Strain: given applied_force = 656, area = 37, find stress.",
+     "a": "17.7297",
+     "self_check": false
+    },
+    {
+     "q": "For Stress and Strain: given applied_force = 546, area = 10.6, find stress.",
+     "a": "51.5094",
+     "self_check": false
+    },
+    {
+     "q": "For Stress and Strain: given applied_force = 976, area = 51, find stress.",
+     "a": "19.1373",
+     "self_check": false
+    },
+    {
+     "q": "For Stress and Strain: given applied_force = 706, area = 49, find stress.",
+     "a": "14.4082",
+     "self_check": false
+    },
+    {
+     "q": "For Stress and Strain: given applied_force = 461, area = 13.2, find stress.",
+     "a": "34.9242",
+     "self_check": false
+    },
+    {
+     "q": "For Stress and Strain: given applied_force = 100, area = 59, find stress.",
+     "a": "1.69492",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph201.8.5.1",
+   "title": "Young's Modulus of a Wire",
+   "converted_to_compute": true,
+   "formula": "young_mod = stress / strain",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "young_mod = stress / strain",
+     "compute": "young_mod = stress / strain"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Young's Modulus of a Wire: given stress = 8.6, strain = 86, find young mod.",
+     "a": "0.1",
+     "self_check": false
+    },
+    {
+     "q": "For Young's Modulus of a Wire: given stress = 64, strain = 8.3, find young mod.",
+     "a": "7.71084",
+     "self_check": false
+    },
+    {
+     "q": "For Young's Modulus of a Wire: given stress = 70, strain = 90, find young mod.",
+     "a": "0.777778",
+     "self_check": false
+    },
+    {
+     "q": "For Young's Modulus of a Wire: given stress = 22, strain = 60, find young mod.",
+     "a": "0.366667",
+     "self_check": false
+    },
+    {
+     "q": "For Young's Modulus of a Wire: given stress = 96, strain = 91, find young mod.",
+     "a": "1.05495",
+     "self_check": false
+    },
+    {
+     "q": "For Young's Modulus of a Wire: given stress = 59, strain = 75, find young mod.",
+     "a": "0.786667",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph201.8.5.2",
+   "title": "Bulk Modulus and Shear Modulus",
+   "converted_to_compute": true,
+   "formula": "bulk_mod = pressure_change / frac_change",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "bulk_mod = pressure_change / frac_change",
+     "compute": "bulk_mod = pressure_change / frac_change"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Bulk Modulus and Shear Modulus: given pressure_change = 298, frac_change = 86, find bulk mod.",
+     "a": "3.46512",
+     "self_check": false
+    },
+    {
+     "q": "For Bulk Modulus and Shear Modulus: given pressure_change = 309, frac_change = 82, find bulk mod.",
+     "a": "3.76829",
+     "self_check": false
+    },
+    {
+     "q": "For Bulk Modulus and Shear Modulus: given pressure_change = 413, frac_change = 6.4, find bulk mod.",
+     "a": "64.5312",
+     "self_check": false
+    },
+    {
+     "q": "For Bulk Modulus and Shear Modulus: given pressure_change = 131, frac_change = 86, find bulk mod.",
+     "a": "1.52326",
+     "self_check": false
+    },
+    {
+     "q": "For Bulk Modulus and Shear Modulus: given pressure_change = 56, frac_change = 23, find bulk mod.",
+     "a": "2.43478",
+     "self_check": false
+    },
+    {
+     "q": "For Bulk Modulus and Shear Modulus: given pressure_change = 498, frac_change = 71, find bulk mod.",
+     "a": "7.01408",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph201.8.6.1",
+   "title": "Elastic Potential Energy in a Stretched Wire or Spring",
+   "converted_to_compute": true,
+   "formula": "pe_elastic = 0.5 * spring_const * stretch ** 2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "pe_elastic = 0.5 * spring_const * stretch ** 2",
+     "compute": "pe_elastic = 0.5 * spring_const * stretch ** 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Elastic Potential Energy in a Stretched Wire or Spring: given spring_const = 40, stretch = 29, find pe elastic.",
+     "a": "16820",
+     "self_check": false
+    },
+    {
+     "q": "For Elastic Potential Energy in a Stretched Wire or Spring: given spring_const = 73, stretch = 86, find pe elastic.",
+     "a": "269954",
+     "self_check": false
+    },
+    {
+     "q": "For Elastic Potential Energy in a Stretched Wire or Spring: given spring_const = 4.4, stretch = 62, find pe elastic.",
+     "a": "8456.8",
+     "self_check": false
+    },
+    {
+     "q": "For Elastic Potential Energy in a Stretched Wire or Spring: given spring_const = 74, stretch = 43, find pe elastic.",
+     "a": "68413",
+     "self_check": false
+    },
+    {
+     "q": "For Elastic Potential Energy in a Stretched Wire or Spring: given spring_const = 85, stretch = 19.7, find pe elastic.",
+     "a": "16493.8",
+     "self_check": false
+    },
+    {
+     "q": "For Elastic Potential Energy in a Stretched Wire or Spring: given spring_const = 92, stretch = 89, find pe elastic.",
+     "a": "364366",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,26 @@
      "q": "Construct a polynomial function of degree 3 whose derivative at x = 2 is 7 and whose derivative at x = -1 is -5. Show your work.",
      "a": "Let f(x) = ax^3 + bx^2 + cx + d. Then f'(x) = 3ax^2 + 2bx + c. Conditions: f'(2) = 12a + 4b + c = 7 and f'(-1) = 3a - 2b + c = -5. Choose convenient values: let a = 1, then 12 + 4b + c = 7 → 4b + c = -5, and 3 - 2b + c = -5 → -2b + c = -8. Subtract: 6b = 3 → b = 0.5, then c = -8 + 2(0.5) = -7. So f(x) = x^3 + 0.5x^2 - 7x + d (d any constant). A poor answer gives only one condition or assumes the derivative is linear. A good answer shows the system of equations and verifies both conditions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a toy rocket launched vertically from a school playground; its height in metres after t ______ is given by h(t) = -5t^2 + 20t + 2.",
+     "a": "seconds",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To find how fast it is rising at exactly t = ______ seconds, we need the instantaneous rate of change — the derivative.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can differentiate any polynomial function (including those with negative or fractional exponents rewritten as polynomials) using the power, constant multiple, and sum/difference rules in a single streamlined step, and can interpret the derivative as the slope of the tangent or instantaneous rate of change in a real-world context such as.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a toy rocket launched ______ from a school playground; its height in metres after t seconds is given by h(t) = -5t^2 + 20t + 2.",
+     "a": "vertically",
+     "self_check": true
     }
    ]
   }

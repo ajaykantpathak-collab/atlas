@@ -34,6 +34,31 @@
      "q": "Construct a word problem set in an Indian context (e.g., a ladder against a wall, a kite string, a temple tower shadow) that requires using both sin 30° and cos 60° to solve. The problem must have a unique solution and use realistic measurements. Write the problem statement only — do not solve it.",
      "a": "Example problem: \"A 10-metre long bamboo ladder is placed against a vertical wall in a house in Varanasi. The foot of the ladder is 5 metres away from the wall. Find (a) the angle the ladder makes with the ground, (b) the height at which the ladder touches the wall, and (c) the angle the ladder makes with the wall.\" A good problem uses realistic measurements (ladder length multiple of 2, distance multiple of 1 or √3), asks for multiple quantities, and requires both sin 30° and cos 60° (or tan 30°/tan 60°). A poor problem uses random numbers that don't yield exact ratios, asks only one question, or has ambiguous wording. This tests the student's ability to reverse-engineer a problem — a key competency for case-based board questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ ratios for 30° and 60° are exact values derived from a 30-60-90 right triangle (half of an equilateral triangle).",
+     "a": "trigonometric",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a triangular roof truss for a house in Kerala where the roof makes a 30° angle with the ______.",
+     "a": "horizontal",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a triangular roof truss for a house in Kerala where the roof makes a ______° angle with the horizontal.",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the exact trigonometric ratios for 30° and 60° from an equilateral triangle construction, recall all six ratios for both angles without a calculator, and apply these values to evaluate trigonometric expressions and solve right triangle problems involving these angles in CBSE board exam format.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ roof truss for a house in Kerala where the roof makes a 30° angle with the horizontal.",
+     "a": "triangular",
+     "self_check": true
     }
    ]
   }

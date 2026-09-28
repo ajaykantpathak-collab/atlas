@@ -73,7 +73,16 @@
      "action": "Describe development into a new individual",
      "explain": "The zygote undergoes repeated cell division and differentiation to grow into an embryo and eventually a new individual with traits from both parents."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "zygote = male_gamete + female_gamete",
+     "compute": "zygote = male_gamete + female_gamete"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hesc.6.2.2",

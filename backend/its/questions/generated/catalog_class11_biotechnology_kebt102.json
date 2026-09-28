@@ -1,6 +1,194 @@
 {
- "catalog": "catalog_class11_biotechnology_kebt102",
+ "catalog": "catalog_class11_biotechnology_kebt102.json",
  "concepts": [
+  {
+   "id": "kebt102.3",
+   "title": "Membrane Composition Arithmetic",
+   "converted_to_compute": true,
+   "formula": "other_share = 100 - protein_pct - lipid_pct",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "other_share = 100 - protein_pct - lipid_pct",
+     "compute": "other_share = 100 - protein_pct - lipid_pct"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Membrane Composition Arithmetic: given protein_pct = 19, lipid_pct = 42, find other share.",
+     "a": "39",
+     "self_check": false
+    },
+    {
+     "q": "For Membrane Composition Arithmetic: given protein_pct = 6.1, lipid_pct = 57, find other share.",
+     "a": "36.9",
+     "self_check": false
+    },
+    {
+     "q": "For Membrane Composition Arithmetic: given protein_pct = 19.1, lipid_pct = 98, find other share.",
+     "a": "-17.1",
+     "self_check": false
+    },
+    {
+     "q": "For Membrane Composition Arithmetic: given protein_pct = 3.5, lipid_pct = 77, find other share.",
+     "a": "19.5",
+     "self_check": false
+    },
+    {
+     "q": "For Membrane Composition Arithmetic: given protein_pct = 16.9, lipid_pct = 1.4, find other share.",
+     "a": "81.7",
+     "self_check": false
+    },
+    {
+     "q": "For Membrane Composition Arithmetic: given protein_pct = 2.9, lipid_pct = 46, find other share.",
+     "a": "51.1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebt102.6",
+   "title": "Ribosome Subunits and Sedimentation Values",
+   "converted_to_compute": true,
+   "formula": "small_subunit = total_s - large_s",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "small_subunit = total_s - large_s",
+     "compute": "small_subunit = total_s - large_s"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Ribosome Subunits and Sedimentation Values: given total_s = 52, large_s = 19.8, find small subunit.",
+     "a": "32.2",
+     "self_check": false
+    },
+    {
+     "q": "For Ribosome Subunits and Sedimentation Values: given total_s = 53, large_s = 32, find small subunit.",
+     "a": "21",
+     "self_check": false
+    },
+    {
+     "q": "For Ribosome Subunits and Sedimentation Values: given total_s = 87, large_s = 51, find small subunit.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "For Ribosome Subunits and Sedimentation Values: given total_s = 96, large_s = 71, find small subunit.",
+     "a": "25",
+     "self_check": false
+    },
+    {
+     "q": "For Ribosome Subunits and Sedimentation Values: given total_s = 70, large_s = 6.5, find small subunit.",
+     "a": "63.5",
+     "self_check": false
+    },
+    {
+     "q": "For Ribosome Subunits and Sedimentation Values: given total_s = 62, large_s = 51, find small subunit.",
+     "a": "11",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebt102.7",
+   "title": "Cytoskeleton Filaments and the Axoneme Array",
+   "converted_to_compute": true,
+   "formula": "microtubule_total = peripheral_doublets * 2 + central_single",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "microtubule_total = peripheral_doublets * 2 + central_single",
+     "compute": "microtubule_total = peripheral_doublets * 2 + central_single"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Cytoskeleton Filaments and the Axoneme Array: given peripheral_doublets = 20, central_single = 81, find microtubule total.",
+     "a": "121",
+     "self_check": false
+    },
+    {
+     "q": "For Cytoskeleton Filaments and the Axoneme Array: given peripheral_doublets = 94, central_single = 55, find microtubule total.",
+     "a": "243",
+     "self_check": false
+    },
+    {
+     "q": "For Cytoskeleton Filaments and the Axoneme Array: given peripheral_doublets = 0.7, central_single = 8.7, find microtubule total.",
+     "a": "10.1",
+     "self_check": false
+    },
+    {
+     "q": "For Cytoskeleton Filaments and the Axoneme Array: given peripheral_doublets = 21, central_single = 40, find microtubule total.",
+     "a": "82",
+     "self_check": false
+    },
+    {
+     "q": "For Cytoskeleton Filaments and the Axoneme Array: given peripheral_doublets = 3.5, central_single = 57, find microtubule total.",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "For Cytoskeleton Filaments and the Axoneme Array: given peripheral_doublets = 30, central_single = 4.1, find microtubule total.",
+     "a": "64.1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebt102.8",
+   "title": "Chromosome Number and Ploidy",
+   "converted_to_compute": true,
+   "formula": "gamete_count = somatic_total / 2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "gamete_count = somatic_total / 2",
+     "compute": "gamete_count = somatic_total / 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Chromosome Number and Ploidy: given somatic_total = 34, find gamete count.",
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "For Chromosome Number and Ploidy: given somatic_total = 7.9, find gamete count.",
+     "a": "3.95",
+     "self_check": false
+    },
+    {
+     "q": "For Chromosome Number and Ploidy: given somatic_total = 64, find gamete count.",
+     "a": "32",
+     "self_check": false
+    },
+    {
+     "q": "For Chromosome Number and Ploidy: given somatic_total = 33, find gamete count.",
+     "a": "16.5",
+     "self_check": false
+    },
+    {
+     "q": "For Chromosome Number and Ploidy: given somatic_total = 97, find gamete count.",
+     "a": "48.5",
+     "self_check": false
+    },
+    {
+     "q": "For Chromosome Number and Ploidy: given somatic_total = 9, find gamete count.",
+     "a": "4.5",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "kebt102.1",
    "title": "Fluid Mosaic Model of the Plasma Membrane",
@@ -44,37 +232,6 @@
    ]
   },
   {
-   "id": "kebt102.3",
-   "title": "Membrane Composition Arithmetic",
-   "questions": [
-    {
-     "q": "Using the method 'Membrane Composition Arithmetic', work with: lipid_pct = 75, protein_pct = 18. Carry the chain through step by step and give the final value of lipid_protein_ratio.",
-     "a": "4.1667 times",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Membrane Composition Arithmetic' and work with: lipid_pct = 8, protein_pct = 10. Carry the chain through step by step and give the final value of lipid_protein_ratio.",
-     "a": "0.8 times",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Membrane Composition Arithmetic' refers to.",
-     "a": "Membrane make-up is quoted in percent; a human erythrocyte membrane runs roughly 52 percent protein against 40 percent lipid, so whatever remains out of 100 belongs to other components, and relative lipid richness is just the lipid percent divided by the protein percent.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Membrane Composition Arithmetic'.",
-     "a": "Percent compositions add to 100, so the missing share is the leftover; comparing richness is a single division.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Membrane Composition Arithmetic', in plain ASCII form.",
-     "a": "other_share = 100 - protein_pct - lipid_pct",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "kebt102.4",
    "title": "Cell Wall of Bacteria and Plants",
    "questions": [
@@ -112,99 +269,6 @@
     {
      "q": "Under which section is 'Endomembrane System Compartments' taught, and from which source text?",
      "a": "2.3 (source: kebt102.txt section 2.3 and Box 2)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebt102.6",
-   "title": "Ribosome Subunits and Sedimentation Values",
-   "questions": [
-    {
-     "q": "Using the method 'Ribosome Subunits and Sedimentation Values', work with: large_s = 24, prok_s = 150. Carry the chain through step by step and give the final value of small_subunit.",
-     "a": "126 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Ribosome Subunits and Sedimentation Values' and work with: large_s = 15, prok_s = 300. Carry the chain through step by step and give the final value of small_subunit.",
-     "a": "285 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Ribosome Subunits and Sedimentation Values' refers to.",
-     "a": "Ribosomes are membraneless protein factories rated by how fast they sediment in an ultracentrifuge: prokaryotic 70S particles separate into 50S and 30S halves, eukaryotic 80S particles into 60S and 40S halves, and the 70S kind also turns up inside mitochondria and chloroplasts.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Ribosome Subunits and Sedimentation Values'.",
-     "a": "The S value is a sedimentation rating rather than a sum; subtracting the large-subunit rating from the whole leaves the small one.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Ribosome Subunits and Sedimentation Values', in plain ASCII form.",
-     "a": "small_subunit = total_s - large_s",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebt102.7",
-   "title": "Cytoskeleton Filaments and the Axoneme Array",
-   "questions": [
-    {
-     "q": "How many microtubules make up the 9+2 axoneme of a motile cilium - count them? Use the method 'Cytoskeleton Filaments and the Axoneme Array'. Work with: central_single = 100, peripheral_doublets = 60. Carry the chain through step by step and give the final value of microtubule_total.",
-     "a": "220 units",
-     "self_check": false
-    },
-    {
-     "q": "How many times thicker is a microtubule than an actin filament? Use the method 'Cytoskeleton Filaments and the Axoneme Array'. Work with: central_single = 500, peripheral_doublets = 4. Carry the chain through step by step and give the final value of microtubule_total.",
-     "a": "508 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Cytoskeleton Filaments and the Axoneme Array' refers to.",
-     "a": "Three protein filament families scaffold the cell - 25 nm tubulin microtubules, 6 nm actin filaments and 10 nm intermediate filaments - while every cilium or flagellum runs on a 9+2 axoneme of nine peripheral doublets around a central pair.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Cytoskeleton Filaments and the Axoneme Array'.",
-     "a": "Nine doublets count as eighteen plus two singles, so twenty microtubules drive each cilium; a centriole's nine triplets total twenty-seven.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Cytoskeleton Filaments and the Axoneme Array', in plain ASCII form.",
-     "a": "microtubule_total = peripheral_doublets * 2 + central_single",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebt102.8",
-   "title": "Chromosome Number and Ploidy",
-   "questions": [
-    {
-     "q": "Using the method 'Chromosome Number and Ploidy', work with: pairs = 120. Carry the chain through step by step and give the final value of gamete_count.",
-     "a": "120 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Chromosome Number and Ploidy' and work with: pairs = 500. Carry the chain through step by step and give the final value of gamete_count.",
-     "a": "500 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Chromosome Number and Ploidy' refers to.",
-     "a": "Hereditary material travels as DNA-histone threads: each human body cell holds 23 pairs (22 autosome pairs plus one sex-chromosome pair), and gamete formation halves the set so every sex cell takes one member of each pair.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Chromosome Number and Ploidy'.",
-     "a": "Doubling the pair count gives the diploid total; halving the diploid total gives the gamete count.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Chromosome Number and Ploidy', in plain ASCII form.",
-     "a": "gamete_count = somatic_total / 2",
      "self_check": true
     }
    ]

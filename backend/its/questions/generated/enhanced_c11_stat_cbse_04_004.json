@@ -34,6 +34,26 @@
      "q": "Design a real-world dataset with 4 categories where two categories have percentages differing by less than 2% (e.g., 24% and 25.5%). Create the pie diagram angles. Explain why a viewer would struggle to determine which category is larger just by looking at the pie, and suggest a labeling strategy to resolve this.",
      "a": "Dataset: Company Q3 sales by region (₹ crores): North 48, South 51, East 30, West 21. Total = 150. Percentages: North 32%, South 34%, East 20%, West 14%. Angles: North 115.2°, South 122.4°, East 72°, West 50.4°. Difference between North and South = 7.2° (2% of 360°). A viewer cannot reliably distinguish 115.2° vs 122.4° by eye — the sectors appear nearly identical. Labeling strategy: Write percentage values directly on or beside each sector (e.g., \"North: 32%\", \"South: 34%\") rather than relying on visual angle comparison. A poor answer that says \"the larger angle looks bigger\" reveals the misconception that human angle perception is precise for small differences.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A pie diagram is a circular statistical graphic divided into sectors (slices) where each sector's central angle is proportional to the quantity it represents, calculated as (component value / total value) × 360°, illustrating part-to-whole ______ for categorical data.",
+     "a": "relationships",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're the treasurer of your school's Eco Club with ₹10,000 annual budget spent on: ______ ₹4000, Waste bins ₹2500, Awareness campaigns ₹2000, Tools ₹1500.",
+     "a": "Plantation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A pie diagram is a circular statistical graphic divided into sectors (slices) where each sector's central angle is proportional to the quantity it represents, calculated as (component value / total value) × ______°, illustrating part-to-whole relationships for categorical data.",
+     "a": "360",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student must be able to: (1) Convert raw frequency data into percentages and corresponding central angles for each category using the formula Angle = (Frequency/Total) × 360°, (2) Accurately construct a pie diagram using compass and protractor with proper labeling and shading, (3) Interpret the diagram by comparing sector sizes.",
+     "self_check": true
     }
    ]
   }

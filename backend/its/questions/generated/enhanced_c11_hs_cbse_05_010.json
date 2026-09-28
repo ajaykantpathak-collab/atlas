@@ -34,6 +34,31 @@
      "q": "Design a finishing sequence for a grey wool fabric intended for winter coats that must be water-repellent, shrink-resistant, and have a smooth lustrous surface. List the finishes in order of application with chemical/mechanical justification for the sequence.",
      "a": "Sequence: (1) Scouring (remove grease/impurities) → (2) Milling/felting (controlled shrinkage for density) → (3) Decatising (steam setting for dimensional stability) → (4) Water-repellent finish (fluorocarbon pad-dry-cure) → (5) Calendering (heat/pressure for lustre). Justification: Wet finishes first, then heat-setting, then chemical finish last to avoid wash-off; calendering last to lock in lustre. A poor answer omits scouring or applies water-repellent before decatising, risking uneven treatment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Textile finishing is the series of treatments applied to fabric after loom-state production to enhance its appearance, texture, or performance for specific end-uses, including colour application (dyeing/printing) and functional ______ (water-repellent, flame-retardant, anti-shrink).",
+     "a": "modifications",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a textile ______ in Jaipur creating a summer collection: you have grey cotton fabric from the loom that feels stiff, looks dull, and shrinks when washed.",
+     "a": "designer",
+     "self_check": true
+    },
+    {
+     "q": "What is Textile finishing? State the definition given in this lesson.",
+     "a": "Textile finishing is the series of treatments applied to fabric after loom-state production to enhance its appearance, texture, or performance for specific end-uses, including colour application (dyeing/printing) and functional modifications (water-repellent, flame-retardant, anti-shrink).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Textile finishing?",
+     "a": "Students believe \"finishing\" only means adding colour (dyeing/printing) and that all finishes are permanent.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify a given finishing treatment as routine/durable/renewable, appearance/texture/behaviour change, and identify the appropriate dyeing stage (fibre/yarn/fabric) and printing method for a specified design requirement, justifying each choice with fibre-specific reasoning.",
+     "self_check": true
     }
    ]
   }

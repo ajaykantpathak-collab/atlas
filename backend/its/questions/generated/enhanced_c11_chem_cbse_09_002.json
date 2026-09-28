@@ -34,6 +34,36 @@
      "q": "Design a simple laboratory method to separate a small sample of heavy water (D₂O) from ordinary water using only physical properties, and explain why it works.",
      "a": "Fractional distillation: D₂O boils at 374.4 K vs H₂O at 373 K at 1 atm. The 1.4 K difference allows separation over multiple distillation stages. Alternatively, electrolysis: H₂O electrolyses faster than D₂O (kinetic isotope effect), enriching D₂O in the residue. A poor answer suggesting \"filtering\" or \"using a magnet\" reveals no understanding of isotopic separation principles or physical property differences.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Isotopes of hydrogen are atoms with the same atomic number (Z = 1) but different mass numbers due to varying numbers of neutrons: protium (¹H, no neutrons), ______ (²H or D, one neutron), and tritium (³H or T, two neutrons).",
+     "a": "deuterium",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at a glass of water — it ______ H₂O, but also trace amounts of D₂O (heavy water) and even T₂O.",
+     "a": "contains",
+     "self_check": true
+    },
+    {
+     "q": "What is Isotopes of hydrogen? State the definition given in this lesson.",
+     "a": "Isotopes of hydrogen are atoms with the same atomic number (Z = 1) but different mass numbers due to varying numbers of neutrons: protium (¹H, no neutrons), deuterium (²H or D, one neutron), and tritium (³H or T, two neutrons).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Isotopes of hydrogen are atoms with the same atomic number (Z = ______) but different mass numbers due to varying numbers of neutrons: protium (¹H, no neutrons), deuterium (²H or D, one neutron), and tritium (³H or T, two neutrons).",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Isotopes of hydrogen?",
+     "a": "Students write the nuclear symbol for deuterium as ²₁H but then say \"it has 2 protons\" — confusing mass number (superscript) with atomic number (subscript).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Write the nuclear notation for each isotope showing protons, neutrons, and electrons; (2) Explain why chemical properties are similar but physical properties differ; (3) Calculate average atomic mass from isotopic abundances; (4) Identify applications of each isotope in industry and research.",
+     "self_check": true
     }
    ]
   }

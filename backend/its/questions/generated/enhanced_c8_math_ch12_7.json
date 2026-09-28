@@ -34,6 +34,26 @@
      "q": "Create a data set of 6 integers between 1 and 20 such that the median is 12 but the mean is greater than 15. Explain your reasoning.",
      "a": "Example: 1, 2, 11, 13, 19, 20. Ordered: 1, 2, 11, 13, 19, 20. n=6, median = (11+13)/2 = 12. Mean = (1+2+11+13+19+20)/6 = 66/6 = 11 (not >15). Need higher mean: 10, 11, 12, 13, 19, 20 → median = (12+13)/2 = 12.5 (no). Try: 5, 10, 11, 13, 19, 20 → median=12, mean=78/6=13. Need more extreme: 1, 2, 11, 13, 20, 20 → median=12, mean=67/6≈11.17. Actually, to get mean >15 with median 12, the sum must be >90. With median 12, the two middle numbers average to 12, so they could be 11 and 13. The other four numbers can be large. Example: 11, 13, 19, 20, 20, 20 → ordered: 11, 13, 19, 20, 20, 20. Median = (19+20)/2 = 19.5 (wrong). Need middle two to average 12. Let middle two be 11 and 13. Then we need four numbers: two ≤11 and two ≥13. To maximize mean, make the two lower numbers as high as possible (11 and 11) and the two upper numbers as high as possible (20, 20). Data: 11, 11, 11, 13, 20, 20. Median = (11+13)/2 = 12. Mean = 86/6 ≈ 14.33 <15. Try: 10, 11, 11, 13, 20, 20 → median=12, mean=85/6≈14.17. It's impossible with integers 1-20? Let's check: max sum with median 12: two middle are 11 and 13 (sum 24). The two below can be at most 11 and 11 (sum 22). The two above can be 20 and 20 (sum 40). Total max = 86. Mean = 86/6 = 14.33 < 15. So no such data set exists with integers 1-20. A good answer would show this reasoning and conclude impossibility. A poor answer gives a set without checking mean, or gives a set with median not 12.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The median is the middle value of a data set when the values are arranged in ascending or ______ order.",
+     "a": "descending",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ wants to know the \"middle\" performance – not the average, but the score where half the class scored less and half scored more.",
+     "a": "teacher",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly find the median from raw data (both odd and even counts), from a simple frequency table, and from a dot plot, and can explain why the median is a better measure of center than the mean for skewed data or data with outliers.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The teacher wants to know the \"middle\" ______ – not the average, but the score where half the class scored less and half scored more.",
+     "a": "performance",
+     "self_check": true
     }
    ]
   }

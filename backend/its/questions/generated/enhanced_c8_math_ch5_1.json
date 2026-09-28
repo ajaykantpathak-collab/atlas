@@ -34,6 +34,21 @@
      "q": "Create a new pattern rule for the sum of six consecutive numbers. Write the rule in your own words, give two examples that follow it, and explain why it works using the concept of pairing numbers.",
      "a": "Rule: The sum of six consecutive numbers is always an odd multiple of 3 (i.e., divisible by 3 but not by 2). Examples: 1+2+3+4+5+6 = 21 (21÷3=7, odd); 4+5+6+7+8+9 = 39 (39÷3=13, odd). Why: Pair the first and last (sum=2n+5), second and second-last (sum=2n+5), third and third-last (sum=2n+5). Three pairs each summing to an odd number (2n+5 is odd). Sum of three odd numbers is odd. Also each pair sum is same, so total = 3×(odd) = odd multiple of 3. A poor answer might state only \"it's odd\" or \"it's a multiple of 3\" without combining both, showing incomplete pattern recognition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The sum of ______ numbers refers to adding a sequence of integers where each number follows the previous one by exactly 1 (e.g., 5+6+7 or 10+11+12+13).",
+     "a": "consecutive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have ₹10, ₹11, and ₹12 in three ______ pockets.",
+     "a": "consecutive",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify and explain patterns in sums of consecutive numbers (e.g., parity, divisibility) using algebraic reasoning, and can predict the properties of a sum given the starting number and the number of terms without performing the full addition.",
+     "self_check": true
     }
    ]
   }

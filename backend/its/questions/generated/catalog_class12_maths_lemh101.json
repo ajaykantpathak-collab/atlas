@@ -4,15 +4,9 @@
   {
    "id": "lemh.101.2.1",
    "title": "Empty Relation",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 6 gives 6",
-     "compute": "count = 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "R = { }",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 6 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -49,15 +43,9 @@
   {
    "id": "lemh.101.2.2",
    "title": "Universal Relation",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 3 gives 3",
-     "compute": "count = 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "R = A x A",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 3 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -94,15 +82,9 @@
   {
    "id": "lemh.101.2.3",
    "title": "Reflexive Relation",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 4 gives 4",
-     "compute": "count = 4"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "(a, a) in R for every a in A",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 4 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -139,15 +121,9 @@
   {
    "id": "lemh.101.2.4",
    "title": "Symmetric Relation",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 2 gives 2",
-     "compute": "count = 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "(a, b) in R implies (b, a) in R",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 2 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -184,15 +160,9 @@
   {
    "id": "lemh.101.2.5",
    "title": "Transitive Relation",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 5 gives 5",
-     "compute": "count = 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "(a, b) in R and (b, c) in R implies (a, c) in R",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 5 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -229,15 +199,9 @@
   {
    "id": "lemh.101.2.6",
    "title": "Equivalence Relation",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 4 gives 4",
-     "compute": "count = 4"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "R reflexive and R symmetric and R transitive",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 4 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -274,15 +238,9 @@
   {
    "id": "lemh.101.2.7",
    "title": "Equivalence Class and Partition",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 6 gives 6",
-     "compute": "count = 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "[a] = set of all b in X with a R b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 6 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -319,15 +277,9 @@
   {
    "id": "lemh.101.3.1",
    "title": "One-One (Injective) Function",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 6 gives 6",
-     "compute": "count = 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "f(x1) = f(x2) implies x1 = x2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 6 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -364,15 +316,9 @@
   {
    "id": "lemh.101.3.2",
    "title": "Onto (Surjective) Function",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 3 gives 3",
-     "compute": "count = 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "range of f = co-domain Y",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 3 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -409,15 +355,9 @@
   {
    "id": "lemh.101.3.3",
    "title": "Bijective Function",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 2 gives 2",
-     "compute": "count = 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "f one-one and f onto",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 2 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -455,6 +395,8 @@
    "id": "lemh.101.4.1",
    "title": "Composition of Functions",
    "converted_to_compute": false,
+   "formula": "gof(x) = g(f(x))",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 2 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -492,6 +434,8 @@
    "id": "lemh.101.4.2",
    "title": "Invertible Function",
    "converted_to_compute": false,
+   "formula": "f_inverse(y) = (y - f_shift) / f_slope",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 6 elements. How many elements are in its identity relation (a, a) for every element?",

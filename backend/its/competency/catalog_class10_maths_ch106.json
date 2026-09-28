@@ -20,7 +20,7 @@
     "What are the two conditions for similarity of polygons?",
     "Give two examples of non-similar figures"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,16 @@
      "action": "Verify ratio of corresponding sides",
      "explain": "Check if the ratio of the length of each side of the first polygon to the corresponding side of the second polygon is constant."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 9 + 6 gives 33",
+     "compute": "val = 3 * 9 + 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.106.3.1",
@@ -90,7 +99,7 @@
     "Show that the line joining points on two sides is parallel to the third side",
     "Is the line parallel to the third side if the segment lengths are given?"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -107,7 +116,16 @@
      "action": "Compare the ratios",
      "explain": "If the two ratios are equal, then the line is parallel to the third side."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 12 / 6 gives 2",
+     "compute": "t1 = 12 / 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.106.4.1",
@@ -124,7 +142,7 @@
     "Are the two triangles similar by AAA similarity?",
     "Identify if the triangles are equiangular and similar"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -141,7 +159,16 @@
      "action": "Conclude the third angle is equal by the angle sum property",
      "explain": "Since the sum of angles in a triangle is 180 degrees, equality of two angles forces the third pair to be equal, confirming AAA similarity."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 10 gives 80",
+     "compute": "other = 90 - 10"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.106.4.2",
@@ -158,7 +185,7 @@
     "Show that the ratio of corresponding sides is constant for similar triangles",
     "Are these triangles similar based on their side ratios?"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -175,7 +202,16 @@
      "action": "Conclude the corresponding angles are equal",
      "explain": "Equal side ratios imply equal corresponding angles, so the triangles are similar by SSS similarity criterion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the congruence condition and angle sums",
+     "explain": "use the congruence condition and angle sums: third = 180 - 56 - 55 gives 69",
+     "compute": "third = 180 - 56 - 55"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.106.4.3",
@@ -192,7 +228,7 @@
     "Verify if the triangles are similar by SAS similarity",
     "Determine if the given triangles satisfy the SAS similarity condition"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -209,7 +245,16 @@
      "action": "Check if the enclosing side ratios are equal",
      "explain": "If the ratios are equal and the included angles are equal, the triangles are similar by SAS."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 40 gives 50",
+     "compute": "other = 90 - 40"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.106.4.4",

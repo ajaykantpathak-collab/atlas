@@ -27,12 +27,37 @@
     },
     {
      "q": "A classmate claims that because copper sulphate crystals change from blue to white when strongly heated (losing water of crystallisation), crystallisation must be a chemical change. Evaluate this claim and explain why they are mistaken.",
-     "a": "[Answer needed]",
+     "a": "The classmate is mistaken: strong heating only drives off the water of crystallisation, and when water is added back the white powder turns blue again, so no new substance is formed and the change is physical. Treating every colour change as proof of a chemical reaction is the error.",
      "self_check": true
     },
     {
      "q": "The classmate's claim is incorrect because losing water of crystallisation upon heating is a reversible physical hydration/dehydration process, not the creation of a new chemical substance. When water is added back to the white anhydrous copper sulphate, it turns blue again and releases heat, proving the chemical identity of copper sulphate pentahydrate remains unchanged. A wrong answer shows the student mistakes any color change or physical appearance shift for a chemical reaction.",
-     "a": "[Answer needed]",
+     "a": "Correct — losing water of crystallisation on heating is a reversible physical change: the white anhydrous copper sulphate turns blue again on rehydration (releasing heat), proving the chemical identity of the crystals never changed.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is a physical process of separating a pure solid substance in the form of its characteristic crystals from a hot, concentrated solution as it cools.",
+     "a": "Crystallisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When ______ homemade paneer or letting salt water evaporate in a shallow bowl under the Indian sun, you might notice small, regular-shaped solid particles forming as the liquid disappears.",
+     "a": "preparing",
+     "self_check": true
+    },
+    {
+     "q": "What is Crystallisation? State the definition given in this lesson.",
+     "a": "Crystallisation is a physical process of separating a pure solid substance in the form of its characteristic crystals from a hot, concentrated solution as it cools.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Crystallisation?",
+     "a": "Students often think that crystallisation creates a completely new substance because the shiny, geometric crystals look entirely different from the amorphous powder or liquid solution they started with, confusing a change in physical form and particle arrangement with a chemical change.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why crystallisation is classified as a physical change rather than a chemical change, describe the step-by-step laboratory method for obtaining pure copper sulphate crystals from an impure sample, and distinguish it from simple evaporation by focusing on crystal shape formation and purity.",
      "self_check": true
     }
    ]

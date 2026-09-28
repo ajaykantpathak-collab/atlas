@@ -34,6 +34,26 @@
      "q": "Design a thought experiment to test whether the standing wave condition 2πr = nλ could apply to a macroscopic object, like a 0.1 kg ball moving in a circle of radius 1 m at 1 m/s. Calculate its de Broglie wavelength and comment on whether quantised orbits would be observable.",
      "a": "Step 1: λ = h/p = 6.63×10⁻³⁴ / (0.1 × 1) = 6.63×10⁻³³ m.\nStep 2: Circumference = 2π × 1 = 6.28 m.\nStep 3: Number of wavelengths n = 2πr/λ = 6.28 / 6.63×10⁻³³ ≈ 9.5×10³².\nStep 4: The quantum number n is astronomically large (~10³³). The spacing between adjacent allowed radii Δr = r/(2n) ~ 10⁻³³ m is immeasurably small (far smaller than nuclear size). Quantisation is physically irrelevant at macroscopic scales. A good answer shows the calculation and explains why quantum effects vanish for massive objects (λ too small). A poor answer either miscalculates λ or fails to connect the huge n to the classical limit.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: de Broglie's explanation of Bohr's second postulate states that the electron in a hydrogen atom behaves as a matter wave, and the allowed stationary orbits correspond to circular standing wave patterns where the ______ of the orbit equals an integer multiple of the electron's de Broglie wavelength (2πrₙ = nλ).",
+     "a": "circumference",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a guitar string fixed at both ends — when plucked, only certain ______ survive as standing waves because the waves must fit perfectly between the fixed points.",
+     "a": "wavelengths",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: de Broglie's explanation of Bohr's second postulate states that the electron in a hydrogen atom behaves as a matter wave, and the allowed stationary orbits correspond to circular standing wave patterns where the circumference of the orbit equals an integer multiple of the electron's de Broglie wavelength (______πrₙ = nλ).",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the angular momentum quantisation condition from the standing wave requirement, calculate the de Broglie wavelength of an electron in a given Bohr orbit, and explain why only certain orbits are stable using the concept of constructive interference of matter waves.",
+     "self_check": true
     }
    ]
   }

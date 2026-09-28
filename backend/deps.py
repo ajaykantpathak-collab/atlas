@@ -74,3 +74,42 @@ def require_role(role: str):
         return user
 
     return role_checker
+
+
+#: Roles allowed to read/write ANY student's record. Mirrors the staff
+#: definition already used by ``_require_staff`` in api/teacher.py and
+#: api/teacher_analytics.py — kept here so ownership checks do not have to
+#: import an API module to know what "staff" means.
+STAFF_ROLES = ("teacher", "admin")
+
+
+def is_staff(user: User) -> bool:
+    return str(getattr(user, "role", "") or "").strip().lower() in STAFF_ROLES
+
+
+async def require_self_or_staff(
+    student_id: str,
+    user: User = Depends(get_current_user),
+) -> str:
+    """Ownership guard for per-student endpoints (closes the B16 IDORs).
+
+    Resolves and RETURNS the ``student_id`` the caller may actually use.
+    Callers must use the returned value, not the raw path parameter, so the
+    check and the data access can never disagree.
+
+    * anonymous                    -> 401 (raised by ``get_current_user``)
+    * teacher / admin              -> any ``student_id``
+    * any other role               -> only their own id; otherwise 403
+
+    A wrong id yields 403 rather than 404: a 404 that differs from a 403
+    would confirm which student ids exist, which is itself a leak.
+    """
+    if is_staff(user):
+        return student_id
+    if str(student_id) != str(user.id):
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Not authorized for this student record",
+        )
+    return str(user.id)
+

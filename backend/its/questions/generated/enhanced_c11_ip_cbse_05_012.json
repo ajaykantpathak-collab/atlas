@@ -34,6 +34,21 @@
      "q": "Design a small practical problem (2-3 sentences) that requires at least two user-defined functions, one built-in module (`math` or `random`), and one user-defined module. Describe the functions, the module structure, and the data flow.",
      "a": "Problem: \"Calculate the Euclidean distance between two points (x1, y1) and (x2, y2), then generate 10 random points and find the point closest to the origin.\"  \nModule `distance.py`: `def euclidean_distance(p1, p2): ...` using `math.hypot`.  \nMain script: imports `distance`, `random`; generates points with `random.uniform`; calls `distance.euclidean_distance` in a loop.  \nA poor answer that puts everything in one function or omits the user-defined module reveals the student cannot yet decompose a problem into a modular architecture.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Practical problem solving using functions and modules is the process of decomposing a real-world problem into a set of modular, reusable functions that accept parameters, return values, and manage variable scope ______, while leveraging built-in modules (such as math and random) and user-defined modules to structure a complete, maintainable Python program.",
+     "a": "appropriately",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school wants to analyze the heights (in cm) of all Class 11 students to compute the mean, median, mode, range, and standard deviation, and then simulate a random sample to estimate the ______ that a randomly chosen student is taller than 160 cm.",
+     "a": "probability",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can design and implement a Python program that solves a given real-world problem by creating multiple functions with proper parameter passing and return values, uses at least one built-in module and one user-defined module, and explains how the modular structure improves readability, reusability, and debugging.",
+     "self_check": true
     }
    ]
   }

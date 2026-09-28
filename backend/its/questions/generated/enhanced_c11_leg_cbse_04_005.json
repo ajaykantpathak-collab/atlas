@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_04_005",
+   "title": "c11_leg_cbse_04_005",
+   "questions": [
+    {
+     "q": "List the three categories of legislative powers in the Seventh Schedule and state which level of government has exclusive authority over the Union List.",
+     "a": "The three categories are Union List (99 subjects, exclusive to Centre), State List (61 subjects, exclusive to States), and Concurrent List (52 subjects, both can legislate but Centre prevails in conflict). A wrong answer (e.g., saying States have exclusive power over Union List or that Concurrent List gives States supremacy) reveals confusion about the *asymmetric federalism* design — the Centre is deliberately stronger, which is a core \"Unitary in spirit\" feature.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the Preamble is considered part of the \"Basic Structure\" of the Constitution, citing the specific Supreme Court case that established this.",
+     "a": "The Preamble declares the source (\"We the People\"), nature (Sovereign Socialist Secular Democratic Republic), and objectives (Justice, Liberty, Equality, Fraternity) of the Constitution. In *Kesavananda Bharati v. State of Kerala (1973)*, the Supreme Court held the Preamble is part of the Constitution and its objectives constitute the Basic Structure — meaning Parliament cannot amend the Preamble to destroy these core features (e.g., removing \"Secular\" or \"Democratic\"). A wrong answer (e.g., \"Preamble is not enforceable so not part of Basic Structure\") confuses *justiciability* (Preamble isn't directly enforceable) with *constitutional identity* (it guides interpretation and limits amendment power).",
+     "self_check": true
+    },
+    {
+     "q": "A new law passed by Parliament amends Article 368 to state: \"No constitutional amendment shall be challenged in any court on any ground.\" Using the Basic Structure doctrine, analyze whether this amendment is valid.",
+     "a": "Invalid. Step 1: Article 368 amendment power is not unlimited — *Kesavananda Bharati* established Judicial Review (Art 32/226) as Basic Structure. Step 2: Stripping courts of power to review amendments destroys Judicial Review — a core Basic Structure feature (also listed in *Minerva Mills*, *Waman Rao*). Step 3: Such an amendment would make Parliament supreme over Constitution, violating \"Supremacy of Constitution\" (another Basic Structure pillar). Step 4: Therefore, the amendment is ultra vires and void. A wrong answer (e.g., \"Valid because Parliament has constituent power under Art 368\") misses that constituent power is *limited* by Basic Structure — a critical Class 11 distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the writ jurisdiction of the Supreme Court (Art 32) and High Courts (Art 226) on three parameters: (a) Purpose, (b) Territorial scope, (c) Discretion to refuse.",
+     "a": "(a) Purpose: SC only for Fundamental Rights enforcement; HC for Fundamental Rights *and* ordinary legal rights. (b) Territorial: SC nationwide; HC only within its state jurisdiction. (c) Discretion: SC *cannot* refuse (Art 32 is itself a Fundamental Right); HC *may* refuse (Art 226 is discretionary). A wrong answer (e.g., \"Both can refuse\" or \"SC has wider territorial scope but same purpose\") shows failure to grasp that Art 32 is a *guaranteed remedy* (hence mandatory) while Art 226 is a *supervisory power* (hence discretionary) — a frequent board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The 42nd Amendment (1976) strengthened the 'Unitary in spirit' character of the Constitution more than any other amendment.\" Support with three specific changes it made.",
+     "a": "The statement is largely accurate. Three 42nd Amendment changes enhancing unitary tilt: (1) Added \"Socialist, Secular\" to Preamble — centralizing ideological control; (2) Inserted Art 31D (anti-national acts) and 32A (HC jurisdiction curtailment) — weakening federal judicial check; (3) Extended President's Rule (Art 356) from 6 months to 1 year without Parliamentary approval — strengthening Centre's emergency grip on States. (Later 44th Amendment reversed many). A weak evaluation (e.g., \"It just added words\") misses the structural shift toward centralization — a key \"analyze\" level insight.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario where a State government challenges a Central law on a Concurrent List subject (e.g., \"Education\") in the Supreme Court. Draft the core legal argument the State would use, and the Centre's likely rebuttal based on Constitutional provisions.",
+     "a": "**State's Argument**: \"The Central law on Education (Concurrent List Entry 25) occupies the field so broadly it leaves no room for State legislation, violating the federal balance. Under *State of Maharashtra v. FN Balsara* (pith and substance), the law's *true nature* encroaches on State List (Public Order, Local Govt). We seek Art 131 original jurisdiction.\" **Centre's Rebuttal**: \"Art 254(1): Central law prevails on Concurrent subjects. Art 254(2) allows State law to prevail *only* if reserved for President's assent — which wasn't done. The law is within legislative competence (Union + Concurrent). No Basic Structure violation.\" A poor answer (e.g., \"State wins because Education is State subject\") ignores Education moved to Concurrent List by 42nd Amendment — a factual error revealing lack of amendment awareness.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

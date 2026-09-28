@@ -34,6 +34,26 @@
      "q": "**CREATE:** Design a combined solid using **exactly three** different basic solids (choose from cube, cuboid, cylinder, cone, hemisphere) such that its total surface area can be expressed as **5πr² + 2πrh** (where *r* is a common radius and *h* is a height). Draw a labelled sketch, name the solids, specify how they are joined, and show the surface area derivation step by step.",
      "a": "**Expected answer (example):**  \n**Solids:** Cylinder (radius *r*, height *h*) + Hemisphere (radius *r*) on top + Cone (radius *r*, slant height *l* = 2*r*) on bottom.  \n**Joining:** Hemisphere on cylinder's top (base-to-base), Cone on cylinder's bottom (base-to-base).  \n**Exposed surfaces:** Cylinder CSA (2πrh) + Hemisphere CSA (2πr²) + Cone CSA (πrl = πr×2r = 2πr²).  \n**Total** = 2πrh + 2πr² + 2πr² = **2πrh + 4πr²**.  \n*Wait, this gives 4πr², not 5πr².*  \n**Better design:** Cylinder (radius *r*, height *h*) + **Two hemispheres** (radius *r*) on **both ends** of cylinder + **One extra flat circular ring** (radius *r*) attached externally on cylinder's curved surface? No — must be three solids.  \n**Valid design:** Cuboid (square face side 2r) + Hemisphere (radius r) on top + Cone (radius r, slant height l) on bottom, but curved areas don't match π terms easily.  \n**Acceptable criteria:** Any valid combination of three solids where the algebraic sum of exposed curved/flat areas simplifies exactly to 5πr² + 2πrh, with clear labelling and correct joining logic.  \n**Poor answer reveals:** If a student just writes \"cylinder + hemisphere + cone\" without specifying which faces are joined, or if their derivation double-counts joined faces, they lack the **structural visualization** needed for combination problems.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The surface area of a ______ of solids is the total area of all exposed outer surfaces of the combined solid.",
+     "a": "combination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a trophy for your school's annual sports day — a ______ wooden base (radius 7 cm, height 10 cm) topped with a solid hemisphere of the same radius, all to be painted gold.",
+     "a": "cylindrical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Step ______: List each solid's *total* surface area formula.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently decompose any given combination of basic solids (cube, cuboid, cylinder, cone, hemisphere) into its constituents, correctly identify all exposed surfaces (curved and flat), apply the appropriate surface area formulas for each exposed part, and compute the total surface area with correct units.",
+     "self_check": true
     }
    ]
   }

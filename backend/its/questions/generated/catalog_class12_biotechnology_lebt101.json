@@ -1,6 +1,100 @@
 {
- "catalog": "catalog_class12_biotechnology_lebt101",
+ "catalog": "catalog_class12_biotechnology_lebt101.json",
  "concepts": [
+  {
+   "id": "lebt101.2",
+   "title": "Milestones Timeline of Modern Biotechnology",
+   "converted_to_compute": true,
+   "formula": "hgp_span = completion_year - start_year",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "hgp_span = completion_year - start_year",
+     "compute": "hgp_span = completion_year - start_year"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Milestones Timeline of Modern Biotechnology: given completion_year = 5.5, start_year = 86, find hgp span.",
+     "a": "-80.5",
+     "self_check": false
+    },
+    {
+     "q": "For Milestones Timeline of Modern Biotechnology: given completion_year = 7.1, start_year = 104, find hgp span.",
+     "a": "-96.9",
+     "self_check": false
+    },
+    {
+     "q": "For Milestones Timeline of Modern Biotechnology: given completion_year = 11.5, start_year = 84, find hgp span.",
+     "a": "-72.5",
+     "self_check": false
+    },
+    {
+     "q": "For Milestones Timeline of Modern Biotechnology: given completion_year = 13, start_year = 90, find hgp span.",
+     "a": "-77",
+     "self_check": false
+    },
+    {
+     "q": "For Milestones Timeline of Modern Biotechnology: given completion_year = 6.5, start_year = 22, find hgp span.",
+     "a": "-15.5",
+     "self_check": false
+    },
+    {
+     "q": "For Milestones Timeline of Modern Biotechnology: given completion_year = 5.2, start_year = 41, find hgp span.",
+     "a": "-35.8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lebt101.4",
+   "title": "E. coli Division versus Genome Replication Timing",
+   "converted_to_compute": true,
+   "formula": "forks_parallel = replication_time / generation_time",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "forks_parallel = replication_time / generation_time",
+     "compute": "forks_parallel = replication_time / generation_time"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For E. coli Division versus Genome Replication Timing: given replication_time = 14, generation_time = 115, find forks parallel.",
+     "a": "0.121739",
+     "self_check": false
+    },
+    {
+     "q": "For E. coli Division versus Genome Replication Timing: given replication_time = 97, generation_time = 112, find forks parallel.",
+     "a": "0.866071",
+     "self_check": false
+    },
+    {
+     "q": "For E. coli Division versus Genome Replication Timing: given replication_time = 87, generation_time = 54, find forks parallel.",
+     "a": "1.61111",
+     "self_check": false
+    },
+    {
+     "q": "For E. coli Division versus Genome Replication Timing: given replication_time = 38, generation_time = 43, find forks parallel.",
+     "a": "0.883721",
+     "self_check": false
+    },
+    {
+     "q": "For E. coli Division versus Genome Replication Timing: given replication_time = 43, generation_time = 114, find forks parallel.",
+     "a": "0.377193",
+     "self_check": false
+    },
+    {
+     "q": "For E. coli Division versus Genome Replication Timing: given replication_time = 2.2, generation_time = 106, find forks parallel.",
+     "a": "0.0207547",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "lebt101.1",
    "title": "Recombinant DNA Technology Foundations",
@@ -23,37 +117,6 @@
    ]
   },
   {
-   "id": "lebt101.2",
-   "title": "Milestones Timeline of Modern Biotechnology",
-   "questions": [
-    {
-     "q": "How many years did the Human Genome Project run from its 1990 start to its 2003 completion? Use the method 'Milestones Timeline of Modern Biotechnology'. Work with: completion_year = 100, earlier_year = 10, later_year = 10, start_year = 50. Carry the chain through step by step and give the final value of tech_gap.",
-     "a": "0 units",
-     "self_check": false
-    },
-    {
-     "q": "How many years passed between the invention of PCR in 1983 and the CRISPR-Cas9 Nobel award year? Use the method 'Milestones Timeline of Modern Biotechnology'. Work with: completion_year = 200, earlier_year = 100, later_year = 100, start_year = 100. Carry the chain through step by step and give the final value of tech_gap.",
-     "a": "0 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Milestones Timeline of Modern Biotechnology' refers to.",
-     "a": "The subject advanced in dated leaps: Ereky coined the name in 1917, Avery's team fixed DNA as genetic material in 1944, Lederberg found plasmids in 1952, Watson and Crick solved the helix in 1953, Berg assembled the first recombinant DNA in 1972, Mullis invented PCR in 1983, Humulin won approval in 1982, the human genome project ran from 1990 to 2003, and the CRISPR-Cas9 Nobel arrived in 2019-2020 after the mRNA vaccine work.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Milestones Timeline of Modern Biotechnology'.",
-     "a": "Subtract one milestone year from another to measure how fast the field moved between landmarks.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Milestones Timeline of Modern Biotechnology', in plain ASCII form.",
-     "a": "hgp_span = completion_year - start_year",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "lebt101.3",
    "title": "Therapeutic Proteins from rDNA Technology",
    "questions": [
@@ -70,37 +133,6 @@
     {
      "q": "Under which section is 'Therapeutic Proteins from rDNA Technology' taught, and from which source text?",
      "a": "1.1 (source: lebt101.txt section 1.1 and Box 1)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebt101.4",
-   "title": "E. coli Division versus Genome Replication Timing",
-   "questions": [
-    {
-     "q": "Using the method 'E. coli Division versus Genome Replication Timing', work with: elapsed_min = 240, generation_time = 300, replication_time = 18. Carry the chain through step by step and give the final value of generations.",
-     "a": "0.8 times",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'E. coli Division versus Genome Replication Timing' and work with: elapsed_min = 10, generation_time = 200, replication_time = 45. Carry the chain through step by step and give the final value of generations.",
-     "a": "0.05 times",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'E. coli Division versus Genome Replication Timing' refers to.",
-     "a": "Escherichia coli finishes a division every twenty minutes yet needs about sixty minutes to copy its chromosome, an apparent paradox the cell resolves by running several replication forks in parallel (multifork replication), so each daughter still inherits a complete copy on schedule.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'E. coli Division versus Genome Replication Timing'.",
-     "a": "Divide replication time by generation time to see how many forks must run at once.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'E. coli Division versus Genome Replication Timing', in plain ASCII form.",
-     "a": "forks_parallel = replication_time / generation_time",
      "self_check": true
     }
    ]

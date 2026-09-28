@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_12_002",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_12_002",
+   "title": "c12_soc_cbse_12_002",
+   "questions": [
+    {
+     "q": "What is the primary social change associated with the Industrial Revolution in Europe according to classical sociologists like Marx, Durkheim, and Weber?",
+     "a": "The primary social change is the shift from feudal, agrarian societies with face-to-face relationships to industrial capitalist societies characterized by urbanization, anonymous professional relationships, detailed division of labour, and new class structures (bourgeoisie and proletariat). A wrong answer that focuses only on technological inventions (e.g., steam engine) reveals a confusion between technological change and its social consequences, missing the sociological focus on changes in social relations.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what Marx meant by 'alienation' in the context of industrial work, and give one example from the factory system.",
+     "a": "Marx's alienation refers to the condition where workers do not enjoy work, see it only as a means to survive, and are separated from the product of their labour, the labour process, their fellow workers, and their own human potential. Example: A factory worker tightening the same bolt on an assembly line all day never sees the finished car, has no control over the pace of work, and feels no creativity or fulfillment. A wrong answer that equates alienation merely with 'unhappiness at work' misses the structural dimensions (separation from product, process, species-being, and others) and the link to capitalist relations of production.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues that the Industrial Revolution led to greater equality because caste distinctions no longer matter on trains and buses. Using the NCERT text, evaluate this claim by identifying one sphere where equality increased and one where inequality persisted or grew.",
+     "a": "The claim is partially correct: industrialization led to greater equality in public spheres like transport (caste distinctions don't matter on trains/buses) and cyber cafes. However, economic or income inequality grew globally, and older forms of discrimination persisted in workplaces (e.g., upper caste men dominating well-paying professions, women paid less than men for similar work). A wrong answer that says 'industrialization brought complete equality' ignores the NCERT's explicit statement that economic inequality is growing and social inequalities overlap with income inequality.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast Durkheim's concepts of 'mechanical solidarity' and 'organic solidarity' in the context of the transition from pre-industrial to industrial society in Europe.",
+     "a": "Mechanical solidarity characterizes pre-industrial societies where similarity (shared beliefs, collective consciousness) binds people; organic solidarity characterizes industrial societies where interdependence arising from a complex division of labour binds people. The transition involves a shift from repressive law (punishing deviation from collective norms) to restitutive law (restoring normal functioning of interdependent parts). A wrong answer that reverses the two or fails to link the division of labour to organic solidarity shows a misunderstanding of Durkheim's core argument about the changing basis of social cohesion.",
+     "self_check": true
+    },
+    {
+     "q": "Critically assess Clark Kerr's 'convergence thesis' (that industrialised India shares more features with 21st century China/USA than with 19th century India) using the debate on culture vs. technology presented in the NCERT.",
+     "a": "Kerr's thesis emphasizes technological determinism: industrial logic (division of labour, bureaucracy, urbanization) produces similar social structures across cultures. However, the NCERT raises the counter-argument that culture, language, and tradition influence how people adapt to new technology (e.g., coffee ads showing two cups in India vs. one in the USA, reflecting social vs. individual consumption). A good assessment acknowledges both: industrialization creates structural similarities (convergence), but cultural mediation leads to divergent outcomes (divergence). A wrong answer that outright accepts or rejects the thesis without nuance fails to engage with the sociological debate on structure vs. agency.",
+     "self_check": true
+    },
+    {
+     "q": "Design a brief research plan (2-3 steps) to investigate whether the 'convergence thesis' holds true for the IT sector in contemporary India, specifying what data you would collect and how you would analyze it.",
+     "a": "A strong plan might: (1) Select IT firms in Bengaluru and comparable firms in the USA/China; (2) Collect data on work organization (hours, hierarchy, team structure), worker demographics (caste, gender, region), and cultural practices (festivals, language, food); (3) Compare patterns using both quantitative surveys and qualitative interviews to see if structural similarities (convergence) coexist with cultural differences (divergence). A poor plan that only surveys salaries or only interviews managers misses the multi-dimensional nature of convergence (structural, cultural, experiential) and the need for comparative design.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Industrial Revolution in Europe (late 18th to 19th century) was a ______ shift from agrarian, feudal economies to machine-based, factory-centered industrial capitalism, which radically reorganized social relations, leading to urbanization, new class structures (bourgeoisie and proletariat), detailed division of labour, alienation of workers from the products of their labour, and the emergence of modern industrial society as analyzed by classical sociologists Marx, Durkheim, and Weber.",
+     "a": "transformative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"Imagine you are a ______ in 18th century England working on a lord's land.",
+     "a": "peasant",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"Imagine you are a peasant in ______th century England working on a lord's land.",
+     "a": "18",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain the key social consequences of the Industrial Revolution in Europe (urbanization, class formation, division of labour, alienation) and contrast the perspectives of Marx, Durkheim, and Weber on these changes, using specific historical examples.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"______ you are a peasant in 18th century England working on a lord's land.",
+     "a": "Imagine",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

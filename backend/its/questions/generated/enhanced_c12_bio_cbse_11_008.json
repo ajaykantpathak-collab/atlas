@@ -34,6 +34,31 @@
      "q": "Design a cost-reduced downstream process for an extracellular, thermostable α-amylase (55 kDa, pI 4.8) from *Bacillus licheniformis* produced at 20 g/L in a 50 m³ fermenter. Include ONE unconventional step that exploits the enzyme's thermostability, and justify how it replaces a conventional expensive step.",
      "a": "Process: (1) Microfiltration (0.2 µm) — cell-free permeate directly (no centrifugation needed for extracellular product). (2) **HEAT TREATMENT at 70°C for 20 min** — unconventional step: denatures and precipitates >90% of mesophilic host proteins while thermostable α-amylase remains soluble. Centrifuge to remove precipitated impurities. (3) Ultrafiltration (10 kDa MWCO) — concentrates enzyme 5× and buffer-exchanges into low-salt buffer. (4) Anion-exchange chromatography (pH 6.0) — product binds (pI 4.8 < pH 6.0), elutes with NaCl gradient. (5) Diafiltration/formulation. The heat step replaces ammonium sulfate precipitation + redissolution + desalting, saving chemicals, time, and one ultrafiltration cycle. A poor answer proposes standard precipitation without exploiting thermostability — missing the bioprocess engineer's mindset of \"use the product's unique property to simplify.\"",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Downstream processing is the sequence of unit operations used to isolate, purify, and concentrate a target bioproduct (recombinant protein, antibiotic, enzyme, vaccine) from the complex ______ broth containing microbial cells, culture medium components, metabolic byproducts, and host cell impurities, while maintaining product bioactivity and meeting regulatory purity standards.",
+     "a": "fermentation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine opening a 10,000-litre bioreactor after producing ______ human insulin in *E. coli* — the broth is a cloudy soup of billions of bacterial cells, spent medium, acetate, nucleic acids, endotoxins, and your precious insulin trapped inside the cells at perhaps 1–2 g/L.",
+     "a": "recombinant",
+     "self_check": true
+    },
+    {
+     "q": "What is Downstream processing? State the definition given in this lesson.",
+     "a": "Downstream processing is the sequence of unit operations used to isolate, purify, and concentrate a target bioproduct (recombinant protein, antibiotic, enzyme, vaccine) from the complex fermentation broth containing microbial cells, culture medium components, metabolic byproducts, and host cell impurities, while maintaining product.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Downstream processing?",
+     "a": "Students believe \"purification = chromatography\" and treat downstream processing as a single chromatography column step.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can sequence the five major stages of downstream processing (solid-liquid separation, cell disruption, primary recovery, purification, polishing), select appropriate techniques for a given product based on its physicochemical properties (size, charge, hydrophobicity, affinity, stability), and calculate overall process yield and.",
+     "self_check": true
     }
    ]
   }

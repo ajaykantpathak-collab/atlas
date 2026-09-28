@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a spirometer and gas analysis to demonstrate that alveolar air composition remains relatively constant during normal breathing, while inspired and expired air differ.",
      "a": "Collect inspired air (via a valve), expired air (mixed), and end-tidal air (last 100 mL of expiration, approximating alveolar air) during spirometry. Analyse O₂ and CO₂ percentages with a gas analyser. Expected: Inspired ≈ 21% O₂, 0.04% CO₂; End-tidal ≈ 14% O₂, 5.3% CO₂; Mixed expired ≈ 16% O₂, 4% CO₂. The end-tidal sample shows alveolar composition is stable and distinct. A poor design that only measures mixed expired air cannot isolate alveolar air, revealing confusion between dead space and respiratory zone.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Alveolar exchange is the process of passive diffusion of oxygen (O₂) and carbon dioxide (CO₂) across the ______ membrane (alveolar epithelium, capillary endothelium, and their fused basement membranes) driven by partial pressure gradients between alveolar air and pulmonary capillary blood.",
+     "a": "respiratory",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Hold your breath for 30 seconds – the urge to breathe ______ from rising CO₂, not low O₂.",
+     "a": "comes",
+     "self_check": true
+    },
+    {
+     "q": "What is Alveolar exchange? State the definition given in this lesson.",
+     "a": "Alveolar exchange is the process of passive diffusion of oxygen (O₂) and carbon dioxide (CO₂) across the respiratory membrane (alveolar epithelium, capillary endothelium, and their fused basement membranes) driven by partial pressure gradients between alveolar air and pulmonary capillary blood.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Hold your breath for ______ seconds – the urge to breathe comes from rising CO₂, not low O₂.",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the direction of O₂ and CO₂ diffusion using partial pressure values from Table 14.1, describe the three-layered diffusion membrane, and justify why CO₂ diffuses faster than O₂ despite a smaller partial pressure gradient.",
+     "self_check": true
     }
    ]
   }

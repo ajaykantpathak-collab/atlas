@@ -34,6 +34,31 @@
      "q": "Create a real-life word problem (Indian context) that can be solved using Sₙ = n/2 (a + l) where the unknown is the number of terms n. The problem should involve a situation where the first amount, last amount, and total sum are given. Write the problem clearly and solve it.",
      "a": "Sample problem: \"A construction worker stacks bricks in rows. The bottom row has 50 bricks. Each row above has 4 fewer bricks than the row below. The top row has 14 bricks. If the total number of bricks used is 352, how many rows are there?\" Solution: a = 50, l = 14, Sₙ = 352. 352 = n/2 (50 + 14) = n/2 × 64 = 32n → n = 11 rows. A poor answer would be a problem where the common difference is needed to find l, or where the numbers don't yield an integer n, or where the student cannot set up the equation correctly. This tests the ability to reverse-engineer a problem and ensure mathematical consistency.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The sum of the first n terms of an arithmetic ______ when the first term (a), the last term (l), and the number of terms (n) are known is given by the formula Sₙ = n/2 (a + l).",
+     "a": "progression",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ money in a piggy bank: you put ₹10 on day 1, ₹15 on day 2, ₹20 on day 3, and so on, increasing by ₹5 each day.",
+     "a": "saving",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The sum of the first n terms of an arithmetic progression when the first term (a), the last term (l), and the number of terms (n) are known is given by the formula Sₙ = n/______ (a + l).",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify when to use the formula Sₙ = n/2 (a + l) versus Sₙ = n/2 [2a + (n-1)d], substitute values accurately, and solve for any of the four variables (Sₙ, n, a, l) when the other three are given.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are saving money in a piggy bank: you put ₹10 on day 1, ₹15 on day 2, ₹20 on day 3, and so on, ______ by ₹5 each day.",
+     "a": "increasing",
+     "self_check": true
     }
    ]
   }

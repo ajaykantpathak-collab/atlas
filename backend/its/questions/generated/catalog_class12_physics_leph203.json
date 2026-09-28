@@ -1,0 +1,240 @@
+{
+ "catalog": "catalog_class12_physics_leph203.json",
+ "concepts": [
+  {
+   "id": "leph203.11.7.1",
+   "title": "Photon Energy of Radiation",
+   "converted_to_compute": true,
+   "formula": "photon_energy = planck_const * light_freq",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "photon_energy = planck_const * light_freq",
+     "compute": "photon_energy = planck_const * light_freq"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Photon Energy of Radiation: given planck_const = 50, light_freq = 27, find photon energy.",
+     "a": "1350",
+     "self_check": false
+    },
+    {
+     "q": "For Photon Energy of Radiation: given planck_const = 52, light_freq = 64, find photon energy.",
+     "a": "3328",
+     "self_check": false
+    },
+    {
+     "q": "For Photon Energy of Radiation: given planck_const = 92, light_freq = 88, find photon energy.",
+     "a": "8096",
+     "self_check": false
+    },
+    {
+     "q": "For Photon Energy of Radiation: given planck_const = 41, light_freq = 49, find photon energy.",
+     "a": "2009",
+     "self_check": false
+    },
+    {
+     "q": "For Photon Energy of Radiation: given planck_const = 42, light_freq = 105, find photon energy.",
+     "a": "4410",
+     "self_check": false
+    },
+    {
+     "q": "For Photon Energy of Radiation: given planck_const = 86, light_freq = 25, find photon energy.",
+     "a": "2150",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph203.11.6.2",
+   "title": "Threshold Frequency From Work Function",
+   "converted_to_compute": true,
+   "formula": "nu_0 = phi_0 / h",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "nu_0 = phi_0 / h",
+     "compute": "nu_0 = phi_0 / h"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Threshold Frequency From Work Function: given phi_0 = 90, h = 49, find nu 0.",
+     "a": "1.83673",
+     "self_check": false
+    },
+    {
+     "q": "For Threshold Frequency From Work Function: given phi_0 = 66, h = 68, find nu 0.",
+     "a": "0.970588",
+     "self_check": false
+    },
+    {
+     "q": "For Threshold Frequency From Work Function: given phi_0 = 41, h = 56, find nu 0.",
+     "a": "0.732143",
+     "self_check": false
+    },
+    {
+     "q": "For Threshold Frequency From Work Function: given phi_0 = 6.6, h = 71, find nu 0.",
+     "a": "0.0929577",
+     "self_check": false
+    },
+    {
+     "q": "For Threshold Frequency From Work Function: given phi_0 = 24, h = 57, find nu 0.",
+     "a": "0.421053",
+     "self_check": false
+    },
+    {
+     "q": "For Threshold Frequency From Work Function: given phi_0 = 82, h = 98, find nu 0.",
+     "a": "0.836735",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph203.11.4.1",
+   "title": "Kmax From the Stopping Potential",
+   "converted_to_compute": true,
+   "formula": "Kmax = e * V_0",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "Kmax = e * V_0",
+     "compute": "Kmax = e * V_0"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Kmax From the Stopping Potential: given V_0 = 4.7, find Kmax.",
+     "a": "12.7759",
+     "self_check": false
+    },
+    {
+     "q": "For Kmax From the Stopping Potential: given V_0 = 60, find Kmax.",
+     "a": "163.097",
+     "self_check": false
+    },
+    {
+     "q": "For Kmax From the Stopping Potential: given V_0 = 68, find Kmax.",
+     "a": "184.843",
+     "self_check": false
+    },
+    {
+     "q": "For Kmax From the Stopping Potential: given V_0 = 65, find Kmax.",
+     "a": "176.688",
+     "self_check": false
+    },
+    {
+     "q": "For Kmax From the Stopping Potential: given V_0 = 52, find Kmax.",
+     "a": "141.351",
+     "self_check": false
+    },
+    {
+     "q": "For Kmax From the Stopping Potential: given V_0 = 71, find Kmax.",
+     "a": "192.998",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph203.11.8.1",
+   "title": "de Broglie Wavelength From Momentum",
+   "converted_to_compute": true,
+   "formula": "lambda = h / p",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "lambda = h / p",
+     "compute": "lambda = h / p"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For de Broglie Wavelength From Momentum: given h = 41, p = 73, find lambda.",
+     "a": "0.561644",
+     "self_check": false
+    },
+    {
+     "q": "For de Broglie Wavelength From Momentum: given h = 34, p = 15.4, find lambda.",
+     "a": "2.20779",
+     "self_check": false
+    },
+    {
+     "q": "For de Broglie Wavelength From Momentum: given h = 52, p = 40, find lambda.",
+     "a": "1.3",
+     "self_check": false
+    },
+    {
+     "q": "For de Broglie Wavelength From Momentum: given h = 89, p = 22, find lambda.",
+     "a": "4.04545",
+     "self_check": false
+    },
+    {
+     "q": "For de Broglie Wavelength From Momentum: given h = 38, p = 89, find lambda.",
+     "a": "0.426966",
+     "self_check": false
+    },
+    {
+     "q": "For de Broglie Wavelength From Momentum: given h = 23, p = 40, find lambda.",
+     "a": "0.575",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph203.11.6.4",
+   "title": "Planck Constant From the V0-nu Slope",
+   "converted_to_compute": true,
+   "formula": "h = slope * e",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "h = slope * e",
+     "compute": "h = slope * e"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Planck Constant From the V0-nu Slope: given slope = 94, find h.",
+     "a": "255.518",
+     "self_check": false
+    },
+    {
+     "q": "For Planck Constant From the V0-nu Slope: given slope = 38, find h.",
+     "a": "103.295",
+     "self_check": false
+    },
+    {
+     "q": "For Planck Constant From the V0-nu Slope: given slope = 89, find h.",
+     "a": "241.927",
+     "self_check": false
+    },
+    {
+     "q": "For Planck Constant From the V0-nu Slope: given slope = 59, find h.",
+     "a": "160.379",
+     "self_check": false
+    },
+    {
+     "q": "For Planck Constant From the V0-nu Slope: given slope = 4.4, find h.",
+     "a": "11.9604",
+     "self_check": false
+    },
+    {
+     "q": "For Planck Constant From the V0-nu Slope: given slope = 46, find h.",
+     "a": "125.041",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

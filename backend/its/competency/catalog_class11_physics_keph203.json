@@ -1,231 +1,381 @@
 {
-  "class": 11,
-  "subject": "physics",
-  "chapter": 203,
-  "chapter_title": "Thermal Properties of Matter",
-  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keph203.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "concepts": [
+ "class": 11,
+ "subject": "physics",
+ "chapter": 203,
+ "chapter_title": "Thermal Properties of Matter",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keph203.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "keph203.10.2.1",
+   "title": "Temperature, Heat and Their Measurement",
+   "section": "10.2, 10.3",
+   "definition": "Temperature grades the hotness of a body and heat is the energy that flows from hotter to colder bodies on contact. Thermometers use fixed reference points -- ice and steam points -- with scales (Celsius, Fahrenheit and the absolute Kelvin scale) related by fixed conversion rules; the Kelvin scale starts at absolute zero where molecular motion bottoms out.",
+   "formula": "",
+   "key_idea": "Heat is energy in transit; temperature is the level that decides the direction of that transit.",
+   "textbook_ref": "keph203.txt lines 30-140 (sections 10.1, 10.2 temperature and heat, 10.3 measurement of temperature, thermometer scales and conversions)",
+   "question_patterns": [
+    "distinguish heat from temperature",
+    "in class 11 thermal properties of matter: convert a temperature from Celsius to Fahrenheit and to Kelvin",
+    "what happens at absolute zero",
+    "why must a thermometer reach thermal equilibrium before reading",
+    "state the ice point and steam point on the Kelvin scale",
+    "which property of mercury makes it useful in thermometers"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
     {
-      "id": "keph203.10.2.1",
-      "title": "Temperature, Heat and Their Measurement",
-      "section": "10.2, 10.3",
-      "definition": "Temperature grades the hotness of a body and heat is the energy that flows from hotter to colder bodies on contact. Thermometers use fixed reference points -- ice and steam points -- with scales (Celsius, Fahrenheit and the absolute Kelvin scale) related by fixed conversion rules; the Kelvin scale starts at absolute zero where molecular motion bottoms out.",
-      "formula": "",
-      "key_idea": "Heat is energy in transit; temperature is the level that decides the direction of that transit.",
-      "textbook_ref": "keph203.txt lines 30-140 (sections 10.1, 10.2 temperature and heat, 10.3 measurement of temperature, thermometer scales and conversions)",
-      "question_patterns": [
-        "distinguish heat from temperature",
-        "in class 11 thermal properties of matter: convert a temperature from Celsius to Fahrenheit and to Kelvin",
-        "what happens at absolute zero",
-        "why must a thermometer reach thermal equilibrium before reading",
-        "state the ice point and steam point on the Kelvin scale",
-        "which property of mercury makes it useful in thermometers"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "define the two ideas", "explain": "Temperature labels the hotness; heat measures the energy transferred because of a temperature difference."},
-        {"step": 2, "action": "anchor the scales", "explain": "Freezing and boiling water fix 0 and 100 in Celsius, 32 and 212 in Fahrenheit, 273.15 and 373.15 in kelvin."},
-        {"step": 3, "action": "convert as needed", "explain": "The three scales are linearly related, so a shift-and-scale conversion moves between them exactly."}
-      ]
+     "step": 1,
+     "action": "define the two ideas",
+     "explain": "Temperature labels the hotness; heat measures the energy transferred because of a temperature difference."
     },
     {
-      "id": "keph203.10.5.1",
-      "title": "Thermal Expansion of Solids",
-      "section": "10.5",
-      "definition": "Heated bodies expand because stronger molecular vibration widens the average spacing. A solid grows in length by a coefficient of linear expansion times its length times the temperature rise, and its area and volume expansions follow with roughly double and triple that coefficient.",
-      "formula": "delta_len = lin_coef * length * delta_temp",
-      "key_idea": "One material number per substance -- multiply it by length and temperature rise to get the stretch.",
-      "textbook_ref": "keph203.txt lines 200-320 (section 10.5 thermal expansion, coefficient of linear area and volume expansion, anomalous expansion of water)",
-      "question_patterns": [
-        "find the increase in length of a rod heated by the given amount",
-        "in class 11 thermal properties of matter: define the coefficient of linear expansion",
-        "a bridge girder of given length heats up, how much does it extend",
-        "relate the coefficients of linear area and volume expansion",
-        "why does water show anomalous expansion near 4 degrees Celsius",
-        "explain why railway tracks have gaps at joints"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "multiply coefficient length and rise", "explain": "The linear expansion adds this much to the original length.",
-         "compute": "delta_len = lin_coef * length * delta_temp"}
-      ]
+     "step": 2,
+     "action": "anchor the scales",
+     "explain": "Freezing and boiling water fix 0 and 100 in Celsius, 32 and 212 in Fahrenheit, 273.15 and 373.15 in kelvin."
     },
     {
-      "id": "keph203.10.6.1",
-      "title": "Specific Heat Capacity and Calorimetry",
-      "section": "10.6, 10.7",
-      "definition": "The heat needed to raise a body's temperature is its mass times its specific heat capacity times the rise. Calorimetry exploits this with the mixing principle: in an isolated calorimeter, heat lost by hot bodies equals heat gained by cold ones, which lets one measure specific heats and latent heats.",
-      "formula": "heat_supplied = mass * spec_heat * delta_temp",
-      "key_idea": "Heat in equals mass times specific heat times rise -- and in a calorimeter losses balance gains.",
-      "textbook_ref": "keph203.txt lines 321-430 (sections 10.6 specific heat capacity, 10.7 calorimetry, principle of calorimetry, heat equation Q = m c delta T)",
-      "question_patterns": [
-        "find the heat needed to raise the temperature of the given body",
-        "in class 11 thermal properties of matter: state the principle of calorimetry",
-        "compute the final temperature when hot and cold water are mixed",
-        "why is water's high specific heat important for climate",
-        "the supplied heat and temperature rise are given, find the specific heat",
-        "how does a calorimeter minimise heat exchange with surroundings"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "multiply mass specific heat and rise", "explain": "The heat capacity c times mass times the temperature rise gives the heat absorbed.",
-         "compute": "heat_supplied = mass * spec_heat * delta_temp"}
-      ]
-    },
-    {
-      "id": "keph203.10.8.1",
-      "title": "Change of State and Latent Heat",
-      "section": "10.8",
-      "definition": "During melting or boiling the temperature holds fixed while heat still flows in -- that heat goes into breaking bonds, not into heating. The required energy per unit mass is the latent heat of fusion (for melting) or of vaporisation (for boiling), enormous for water, which is why steam scalds and ice cools.",
-      "formula": "heat_change = mass * latent_heat",
-      "key_idea": "Latent heat buys the change of state at constant temperature -- no thermometer movement until the phase change finishes.",
-      "textbook_ref": "keph203.txt lines 431-540 (section 10.8 change of state, latent heat of fusion and vaporisation, melting point and boiling point pressure effects)",
-      "question_patterns": [
-        "find the heat needed to melt the given mass of ice",
-        "in class 11 thermal properties of matter: define latent heat of fusion and vaporisation",
-        "why does temperature stay constant during boiling",
-        "compare the heat to melt ice with the heat to warm the same water by ten degrees",
-        "compute the heat released when the given steam condenses",
-        "why do pressure cookers cook faster using boiling point changes"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "multiply mass by latent heat", "explain": "Each kilogram changing state absorbs (or releases) the latent heat of the transition.",
-         "compute": "heat_change = mass * latent_heat"}
-      ]
-    },
-    {
-      "id": "keph203.10.9.1",
-      "title": "Heat Transfer: Conduction and Newton's Law of Cooling",
-      "section": "10.9, 10.10",
-      "definition": "Heat travels by conduction through still materials at a rate set by the thermal conductivity, the area, the temperature difference and inversely by the thickness. For small excess temperatures a hot body also cools to its surroundings at a rate proportional to that temperature difference -- Newton's law of cooling.",
-      "formula": "heat_rate = cond_coef * area * temp_diff / thickness",
-      "key_idea": "Conduction is a per-second energy flow through the material wall; cooling of a body in air follows a proportional decay.",
-      "textbook_ref": "keph203.txt lines 541-680 (sections 10.9 heat transfer, conduction, thermal conductivity, 10.10 Newton's law of cooling, convection and radiation mention)",
-      "question_patterns": [
-        "find the rate of heat flow through the given rod",
-        "in class 11 thermal properties of matter: state Newton's law of cooling and its condition",
-        "why do double walls with trapped air insulate a house",
-        "compute the heat conducted through the window glass per second",
-        "how long does hot tea take to cool using Newton's cooling law",
-        "rank conduction convection and radiation as heat transfer modes"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "form the numerator", "explain": "Conductivity times area times temperature difference gathers the driving terms.",
-         "compute": "drive = cond_coef * area * temp_diff"},
-        {"step": 2, "action": "divide by the thickness", "explain": "Thicker walls throttle the flow; the quotient is joules per second conducted.",
-         "compute": "heat_rate = drive / thickness"}
-      ]
+     "step": 3,
+     "action": "convert as needed",
+     "explain": "The three scales are linearly related, so a shift-and-scale conversion moves between them exactly."
     }
-  ],
-  "worked_examples": [
+   ]
+  },
+  {
+   "id": "keph203.10.5.1",
+   "title": "Thermal Expansion of Solids",
+   "section": "10.5",
+   "definition": "Heated bodies expand because stronger molecular vibration widens the average spacing. A solid grows in length by a coefficient of linear expansion times its length times the temperature rise, and its area and volume expansions follow with roughly double and triple that coefficient.",
+   "formula": "delta_len = lin_coef * length * delta_temp",
+   "key_idea": "One material number per substance -- multiply it by length and temperature rise to get the stretch.",
+   "textbook_ref": "keph203.txt lines 200-320 (section 10.5 thermal expansion, coefficient of linear area and volume expansion, anomalous expansion of water)",
+   "question_patterns": [
+    "find the increase in length of a rod heated by the given amount",
+    "in class 11 thermal properties of matter: define the coefficient of linear expansion",
+    "a bridge girder of given length heats up, how much does it extend",
+    "relate the coefficients of linear area and volume expansion",
+    "why does water show anomalous expansion near 4 degrees Celsius",
+    "explain why railway tracks have gaps at joints"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "we1",
-      "source_ref": "keph203.txt lines 200-320 (thermal expansion)",
-      "concept": "keph203.10.5.1",
-      "question_type": "compute",
-      "question_pattern": "A rod of length {length} m with linear coefficient {lin_coef} is heated by {delta_temp}; find the extension.",
-      "extracted_variables": {"lin_coef": 1.5e-05, "length": 10, "delta_temp": 30},
-      "solution_template": [
-        {"step": 1, "action": "multiply coefficient length and rise", "explain": "delta_len = 1.5e-5 * 10 * 30 = 0.0045 m.", "compute": "delta_len = lin_coef * length * delta_temp"}
-      ]
-    },
-    {
-      "id": "we2",
-      "source_ref": "keph203.txt lines 200-320 (thermal expansion)",
-      "concept": "keph203.10.5.1",
-      "question_type": "compute",
-      "question_pattern": "An iron rail {length} m long (coefficient {lin_coef}) warms by {delta_temp}; compute its length gain.",
-      "extracted_variables": {"lin_coef": 1.7e-05, "length": 50, "delta_temp": 100},
-      "solution_template": [
-        {"step": 1, "action": "multiply coefficient length and rise", "explain": "delta_len = 1.7e-5 * 50 * 100 = 0.085 m.", "compute": "delta_len = lin_coef * length * delta_temp"}
-      ]
-    },
-    {
-      "id": "we3",
-      "source_ref": "keph203.txt lines 321-430 (specific heat)",
-      "concept": "keph203.10.6.1",
-      "question_type": "compute",
-      "question_pattern": "Find the heat needed to warm {mass} kg of water (specific heat {spec_heat}) by {delta_temp}.",
-      "extracted_variables": {"mass": 0.5, "spec_heat": 4186, "delta_temp": 20},
-      "solution_template": [
-        {"step": 1, "action": "multiply mass specific heat and rise", "explain": "heat_supplied = 0.5 * 4186 * 20 = 41860 J.", "compute": "heat_supplied = mass * spec_heat * delta_temp"}
-      ]
-    },
-    {
-      "id": "we4",
-      "source_ref": "keph203.txt lines 321-430 (specific heat)",
-      "concept": "keph203.10.6.1",
-      "question_type": "compute",
-      "question_pattern": "An aluminium block of {mass} kg (specific heat {spec_heat}) gains {delta_temp}; compute the heat absorbed.",
-      "extracted_variables": {"mass": 2, "spec_heat": 900, "delta_temp": 10},
-      "solution_template": [
-        {"step": 1, "action": "multiply mass specific heat and rise", "explain": "heat_supplied = 2 * 900 * 10 = 18000 J.", "compute": "heat_supplied = mass * spec_heat * delta_temp"}
-      ]
-    },
-    {
-      "id": "we5",
-      "source_ref": "keph203.txt lines 431-540 (latent heat)",
-      "concept": "keph203.10.8.1",
-      "question_type": "compute",
-      "question_pattern": "How much heat melts {mass} kg of ice (latent heat {latent_heat})?",
-      "extracted_variables": {"mass": 0.1, "latent_heat": 334000},
-      "solution_template": [
-        {"step": 1, "action": "multiply mass by latent heat", "explain": "heat_change = 0.1 * 334000 = 33400 J.", "compute": "heat_change = mass * latent_heat"}
-      ]
-    },
-    {
-      "id": "we6",
-      "source_ref": "keph203.txt lines 431-540 (latent heat)",
-      "concept": "keph203.10.8.1",
-      "question_type": "compute",
-      "question_pattern": "Steam of {mass} kg condenses (latent heat {latent_heat}); how much heat is released?",
-      "extracted_variables": {"mass": 0.05, "latent_heat": 2260000},
-      "solution_template": [
-        {"step": 1, "action": "multiply mass by latent heat", "explain": "heat_change = 0.05 * 2260000 = 113000 J.", "compute": "heat_change = mass * latent_heat"}
-      ]
-    },
-    {
-      "id": "we7",
-      "source_ref": "keph203.txt lines 541-680 (conduction)",
-      "concept": "keph203.10.9.1",
-      "question_type": "compute",
-      "question_pattern": "A rod of conductivity {cond_coef}, area {area} m^2 and length {thickness} m carries heat with faces differing by {temp_diff}; find the flow rate.",
-      "extracted_variables": {"cond_coef": 401, "area": 0.01, "temp_diff": 100, "thickness": 0.1},
-      "solution_template": [
-        {"step": 1, "action": "form the numerator", "explain": "drive = 401 * 0.01 * 100 = 401.", "compute": "drive = cond_coef * area * temp_diff"},
-        {"step": 2, "action": "divide by the thickness", "explain": "heat_rate = 401 / 0.1 = 4010 J/s.", "compute": "heat_rate = drive / thickness"}
-      ]
-    },
-    {
-      "id": "we8",
-      "source_ref": "keph203.txt lines 541-680 (conduction)",
-      "concept": "keph203.10.9.1",
-      "question_type": "compute",
-      "question_pattern": "Brick of conductivity {cond_coef}, area {area} m^2, thickness {thickness} m, faces at {temp_diff} apart: compute the conducted watts.",
-      "extracted_variables": {"cond_coef": 0.8, "area": 1, "temp_diff": 20, "thickness": 0.4},
-      "solution_template": [
-        {"step": 1, "action": "form the numerator", "explain": "drive = 0.8 * 1 * 20 = 16.", "compute": "drive = cond_coef * area * temp_diff"},
-        {"step": 2, "action": "divide by the thickness", "explain": "heat_rate = 16 / 0.4 = 40 J/s.", "compute": "heat_rate = drive / thickness"}
-      ]
+     "step": 1,
+     "action": "multiply coefficient length and rise",
+     "explain": "The linear expansion adds this much to the original length.",
+     "compute": "delta_len = lin_coef * length * delta_temp"
     }
-  ],
-  "exercises": [
+   ],
+   "compute_steps": [
     {
-      "id": "ex1",
-      "source_ref": "keph203.txt end-of-chapter exercises, reworded",
-      "questions": [
-        "The triple points of neon and carbon dioxide are given; express them on the Celsius and Fahrenheit scales.",
-        "Two absolute scales A and B have triple points of water defined differently; relate the readings.",
-        "A steel tape is calibrated at a given temperature; find the error when used at another temperature.",
-        "Find the heat required to convert the given mass of ice at a subzero temperature to steam.",
-        "Explain why a brass disc fitting a steel hole at one temperature may or may not fit after heating both.",
-        "The coefficient of volume expansion of glycerine is given; find the fractional change for a given rise.",
-        "A body cools from one temperature to another in a given time; estimate further cooling using Newton's law.",
-        "Why does a metal bar feel colder than wood at the same temperature?"
-      ]
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "delta_len = lin_coef * length * delta_temp",
+     "compute": "delta_len = lin_coef * length * delta_temp"
     }
-  ]
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "keph203.10.6.1",
+   "title": "Specific Heat Capacity and Calorimetry",
+   "section": "10.6, 10.7",
+   "definition": "The heat needed to raise a body's temperature is its mass times its specific heat capacity times the rise. Calorimetry exploits this with the mixing principle: in an isolated calorimeter, heat lost by hot bodies equals heat gained by cold ones, which lets one measure specific heats and latent heats.",
+   "formula": "heat_supplied = mass * spec_heat * delta_temp",
+   "key_idea": "Heat in equals mass times specific heat times rise -- and in a calorimeter losses balance gains.",
+   "textbook_ref": "keph203.txt lines 321-430 (sections 10.6 specific heat capacity, 10.7 calorimetry, principle of calorimetry, heat equation Q = m c delta T)",
+   "question_patterns": [
+    "find the heat needed to raise the temperature of the given body",
+    "in class 11 thermal properties of matter: state the principle of calorimetry",
+    "compute the final temperature when hot and cold water are mixed",
+    "why is water's high specific heat important for climate",
+    "the supplied heat and temperature rise are given, find the specific heat",
+    "how does a calorimeter minimise heat exchange with surroundings"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply mass specific heat and rise",
+     "explain": "The heat capacity c times mass times the temperature rise gives the heat absorbed.",
+     "compute": "heat_supplied = mass * spec_heat * delta_temp"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "heat_supplied = mass * spec_heat * delta_temp",
+     "compute": "heat_supplied = mass * spec_heat * delta_temp"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "keph203.10.8.1",
+   "title": "Change of State and Latent Heat",
+   "section": "10.8",
+   "definition": "During melting or boiling the temperature holds fixed while heat still flows in -- that heat goes into breaking bonds, not into heating. The required energy per unit mass is the latent heat of fusion (for melting) or of vaporisation (for boiling), enormous for water, which is why steam scalds and ice cools.",
+   "formula": "heat_change = mass * latent_heat",
+   "key_idea": "Latent heat buys the change of state at constant temperature -- no thermometer movement until the phase change finishes.",
+   "textbook_ref": "keph203.txt lines 431-540 (section 10.8 change of state, latent heat of fusion and vaporisation, melting point and boiling point pressure effects)",
+   "question_patterns": [
+    "find the heat needed to melt the given mass of ice",
+    "in class 11 thermal properties of matter: define latent heat of fusion and vaporisation",
+    "why does temperature stay constant during boiling",
+    "compare the heat to melt ice with the heat to warm the same water by ten degrees",
+    "compute the heat released when the given steam condenses",
+    "why do pressure cookers cook faster using boiling point changes"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply mass by latent heat",
+     "explain": "Each kilogram changing state absorbs (or releases) the latent heat of the transition.",
+     "compute": "heat_change = mass * latent_heat"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "heat_change = mass * latent_heat",
+     "compute": "heat_change = mass * latent_heat"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "keph203.10.9.1",
+   "title": "Heat Transfer: Conduction and Newton's Law of Cooling",
+   "section": "10.9, 10.10",
+   "definition": "Heat travels by conduction through still materials at a rate set by the thermal conductivity, the area, the temperature difference and inversely by the thickness. For small excess temperatures a hot body also cools to its surroundings at a rate proportional to that temperature difference -- Newton's law of cooling.",
+   "formula": "heat_rate = cond_coef * area * temp_diff / thickness",
+   "key_idea": "Conduction is a per-second energy flow through the material wall; cooling of a body in air follows a proportional decay.",
+   "textbook_ref": "keph203.txt lines 541-680 (sections 10.9 heat transfer, conduction, thermal conductivity, 10.10 Newton's law of cooling, convection and radiation mention)",
+   "question_patterns": [
+    "find the rate of heat flow through the given rod",
+    "in class 11 thermal properties of matter: state Newton's law of cooling and its condition",
+    "why do double walls with trapped air insulate a house",
+    "compute the heat conducted through the window glass per second",
+    "how long does hot tea take to cool using Newton's cooling law",
+    "rank conduction convection and radiation as heat transfer modes"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "form the numerator",
+     "explain": "Conductivity times area times temperature difference gathers the driving terms.",
+     "compute": "drive = cond_coef * area * temp_diff"
+    },
+    {
+     "step": 2,
+     "action": "divide by the thickness",
+     "explain": "Thicker walls throttle the flow; the quotient is joules per second conducted.",
+     "compute": "heat_rate = drive / thickness"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "heat_rate = cond_coef * area * temp_diff / thickness",
+     "compute": "heat_rate = cond_coef * area * temp_diff / thickness"
+    }
+   ],
+   "converted_to_compute": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "keph203.txt lines 200-320 (thermal expansion)",
+   "concept": "keph203.10.5.1",
+   "question_type": "compute",
+   "question_pattern": "A rod of length {length} m with linear coefficient {lin_coef} is heated by {delta_temp}; find the extension.",
+   "extracted_variables": {
+    "lin_coef": 1.5e-05,
+    "length": 10,
+    "delta_temp": 30
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply coefficient length and rise",
+     "explain": "delta_len = 1.5e-5 * 10 * 30 = 0.0045 m.",
+     "compute": "delta_len = lin_coef * length * delta_temp"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "keph203.txt lines 200-320 (thermal expansion)",
+   "concept": "keph203.10.5.1",
+   "question_type": "compute",
+   "question_pattern": "An iron rail {length} m long (coefficient {lin_coef}) warms by {delta_temp}; compute its length gain.",
+   "extracted_variables": {
+    "lin_coef": 1.7e-05,
+    "length": 50,
+    "delta_temp": 100
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply coefficient length and rise",
+     "explain": "delta_len = 1.7e-5 * 50 * 100 = 0.085 m.",
+     "compute": "delta_len = lin_coef * length * delta_temp"
+    }
+   ]
+  },
+  {
+   "id": "we3",
+   "source_ref": "keph203.txt lines 321-430 (specific heat)",
+   "concept": "keph203.10.6.1",
+   "question_type": "compute",
+   "question_pattern": "Find the heat needed to warm {mass} kg of water (specific heat {spec_heat}) by {delta_temp}.",
+   "extracted_variables": {
+    "mass": 0.5,
+    "spec_heat": 4186,
+    "delta_temp": 20
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply mass specific heat and rise",
+     "explain": "heat_supplied = 0.5 * 4186 * 20 = 41860 J.",
+     "compute": "heat_supplied = mass * spec_heat * delta_temp"
+    }
+   ]
+  },
+  {
+   "id": "we4",
+   "source_ref": "keph203.txt lines 321-430 (specific heat)",
+   "concept": "keph203.10.6.1",
+   "question_type": "compute",
+   "question_pattern": "An aluminium block of {mass} kg (specific heat {spec_heat}) gains {delta_temp}; compute the heat absorbed.",
+   "extracted_variables": {
+    "mass": 2,
+    "spec_heat": 900,
+    "delta_temp": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply mass specific heat and rise",
+     "explain": "heat_supplied = 2 * 900 * 10 = 18000 J.",
+     "compute": "heat_supplied = mass * spec_heat * delta_temp"
+    }
+   ]
+  },
+  {
+   "id": "we5",
+   "source_ref": "keph203.txt lines 431-540 (latent heat)",
+   "concept": "keph203.10.8.1",
+   "question_type": "compute",
+   "question_pattern": "How much heat melts {mass} kg of ice (latent heat {latent_heat})?",
+   "extracted_variables": {
+    "mass": 0.1,
+    "latent_heat": 334000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply mass by latent heat",
+     "explain": "heat_change = 0.1 * 334000 = 33400 J.",
+     "compute": "heat_change = mass * latent_heat"
+    }
+   ]
+  },
+  {
+   "id": "we6",
+   "source_ref": "keph203.txt lines 431-540 (latent heat)",
+   "concept": "keph203.10.8.1",
+   "question_type": "compute",
+   "question_pattern": "Steam of {mass} kg condenses (latent heat {latent_heat}); how much heat is released?",
+   "extracted_variables": {
+    "mass": 0.05,
+    "latent_heat": 2260000
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply mass by latent heat",
+     "explain": "heat_change = 0.05 * 2260000 = 113000 J.",
+     "compute": "heat_change = mass * latent_heat"
+    }
+   ]
+  },
+  {
+   "id": "we7",
+   "source_ref": "keph203.txt lines 541-680 (conduction)",
+   "concept": "keph203.10.9.1",
+   "question_type": "compute",
+   "question_pattern": "A rod of conductivity {cond_coef}, area {area} m^2 and length {thickness} m carries heat with faces differing by {temp_diff}; find the flow rate.",
+   "extracted_variables": {
+    "cond_coef": 401,
+    "area": 0.01,
+    "temp_diff": 100,
+    "thickness": 0.1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "form the numerator",
+     "explain": "drive = 401 * 0.01 * 100 = 401.",
+     "compute": "drive = cond_coef * area * temp_diff"
+    },
+    {
+     "step": 2,
+     "action": "divide by the thickness",
+     "explain": "heat_rate = 401 / 0.1 = 4010 J/s.",
+     "compute": "heat_rate = drive / thickness"
+    }
+   ]
+  },
+  {
+   "id": "we8",
+   "source_ref": "keph203.txt lines 541-680 (conduction)",
+   "concept": "keph203.10.9.1",
+   "question_type": "compute",
+   "question_pattern": "Brick of conductivity {cond_coef}, area {area} m^2, thickness {thickness} m, faces at {temp_diff} apart: compute the conducted watts.",
+   "extracted_variables": {
+    "cond_coef": 0.8,
+    "area": 1,
+    "temp_diff": 20,
+    "thickness": 0.4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "form the numerator",
+     "explain": "drive = 0.8 * 1 * 20 = 16.",
+     "compute": "drive = cond_coef * area * temp_diff"
+    },
+    {
+     "step": 2,
+     "action": "divide by the thickness",
+     "explain": "heat_rate = 16 / 0.4 = 40 J/s.",
+     "compute": "heat_rate = drive / thickness"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "keph203.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "The triple points of neon and carbon dioxide are given; express them on the Celsius and Fahrenheit scales.",
+    "Two absolute scales A and B have triple points of water defined differently; relate the readings.",
+    "A steel tape is calibrated at a given temperature; find the error when used at another temperature.",
+    "Find the heat required to convert the given mass of ice at a subzero temperature to steam.",
+    "Explain why a brass disc fitting a steel hole at one temperature may or may not fit after heating both.",
+    "The coefficient of volume expansion of glycerine is given; find the fractional change for a given rise.",
+    "A body cools from one temperature to another in a given time; estimate further cooling using Newton's law.",
+    "Why does a metal bar feel colder than wood at the same temperature?"
+   ]
+  }
+ ]
 }

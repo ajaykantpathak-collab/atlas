@@ -34,6 +34,31 @@
      "q": "Create a trigonometric equation involving sin 3θ that has exactly three solutions in the interval [0, 2π). Write the equation and list its solutions.",
      "a": "Example: sin 3θ = 1/2. Then 3θ = π/6, 5π/6, 13π/6, 17π/6, 25π/6, 29π/6 (six solutions for 3θ in [0, 6π)). Dividing by 3 gives θ = π/18, 5π/18, 13π/18, 17π/18, 25π/18, 29π/18 — that's six solutions. To get exactly three, use sin 3θ = 1 → 3θ = π/2, 5π/2, 9π/2 → θ = π/6, 5π/6, 3π/2 (three solutions). A poor answer would give an equation with wrong number of solutions or not use the triple-angle structure, showing the student doesn't connect the period compression (period 2π/3) to solution count.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The triple angle identities express ______ functions of 3θ in terms of powers of the same function at θ.",
+     "a": "trigonometric",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a triangular garden plot where one angle is ______ three times another.",
+     "a": "exactly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The triple angle identities express trigonometric functions of ______θ in terms of powers of the same function at θ.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive all three triple-angle identities from the sum/difference formulas, apply them to simplify expressions like sin 3θ cos θ + cos 3θ sin θ, solve equations such as sin 3θ = sin θ, and evaluate exact values like sin 15° using sin 45° = 3 sin 15° − 4 sin³ 15°.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ garden plot where one angle is exactly three times another.",
+     "a": "triangular",
+     "self_check": true
     }
    ]
   }

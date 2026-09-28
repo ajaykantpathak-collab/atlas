@@ -34,6 +34,26 @@
      "q": "Construct a linear demand curve equation where the price elasticity of demand at P = ₹30 is exactly 2. Show that the geometric method gives the same result as the percentage method for a small price change from ₹30 to ₹29.",
      "a": "We need Ed = 2 at P = 30. For linear demand Q = a - bP, Ed = (P/Q) × b = 2. So (30/Q) × b = 2 → Q = 15b. Also Q = a - 30b. So a - 30b = 15b → a = 45b. Choose b = 2 → a = 90. Demand: Q = 90 - 2P. At P=30, Q=30. Ed = (30/30)×2 = 2. Geometric: Price intercept = 45, Q-intercept = 90. Point (30,30). Upper segment along curve to (0,45): √(30²+15²)=√1125. Lower to (90,0): √(60²+30²)=√4500. Ratio = √4500/√1125 = √4 = 2. Percentage method: P=30→29 (ΔP=-1), Q=30→32 (ΔQ=+2). %ΔP = -1/30 = -3.33%, %ΔQ = 2/30 = 6.67%. Ed = |6.67/(-3.33)| = 2. Both match. A poor answer that picks arbitrary a,b without satisfying Ed=2, or uses large ΔP for percentage method (violating \"point\" concept), reveals inability to work backwards from elasticity to curve parameters.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Price ______ of Demand (Ed) at a specific point on a linear demand curve is measured by the geometric (point) method as the ratio of the lower segment of the demand curve to the upper segment from that point: Ed = (Lower segment) / (Upper segment).",
+     "a": "Elasticity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're a vegetable ______ in Delhi's Azadpur mandi selling onions.",
+     "a": "vendor",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Derive the point elasticity formula using similar triangles on a linear demand curve diagram, (2) Calculate Ed at any given point using segment lengths or coordinates, (3) Identify the elastic, inelastic, and unitary elastic regions of a linear demand curve, and (4) Explain how total revenue changes when price moves.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're a ______ vendor in Delhi's Azadpur mandi selling onions.",
+     "a": "vegetable",
+     "self_check": true
     }
    ]
   }

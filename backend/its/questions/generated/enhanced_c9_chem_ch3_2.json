@@ -34,6 +34,26 @@
      "q": "Design a simple laboratory investigation to verify the Law of Constant Proportions using magnesium and oxygen. List the materials, outline the procedure (3-4 steps), state what measurements you would take, and explain how you would use the data to confirm or refute the law.",
      "a": "Correct answer: Materials: Magnesium ribbon, crucible with lid, tongs, balance, Bunsen burner. Procedure: (1) Measure mass of empty crucible+lid. (2) Add known mass of Mg ribbon, measure total mass. (3) Heat strongly with lid slightly ajar until Mg fully converts to white MgO ash. (4) Cool and measure final mass. Measurements: Initial Mg mass (by difference), final MgO mass, oxygen mass gained (final - initial). Calculate Mg:O mass ratio. Repeat with different initial Mg masses. If ratio is constant (~3:2), law is supported. A poor answer omits mass measurements, doesn't repeat with different amounts, or confuses the law with conservation of mass.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Law of Constant ______ states that a given chemical compound always contains its constituent elements in a fixed and definite proportion by mass, regardless of the source or method of preparation of the compound.",
+     "a": "Proportions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a packet of table salt (NaCl) from your kitchen and a ______ of rock salt from a mineshaft in Rajasthan — both taste salty and dissolve the same way.",
+     "a": "sample",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the mass ratio of elements in a compound from given experimental data and verify whether two samples obey the law.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a packet of table salt (NaCl) from your kitchen and a sample of rock salt from a ______ in Rajasthan — both taste salty and dissolve the same way.",
+     "a": "mineshaft",
+     "self_check": true
     }
    ]
   }

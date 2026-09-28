@@ -42,9 +42,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "other = 90 - 73"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c7m6.2.1",
@@ -90,11 +88,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "dx = 9 - -3",
-    "dy = 15 - -1",
-    "dist = sqrt(dx * dx + dy * dy)"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c7m6.3.1",
@@ -138,9 +132,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "area = 18 * 22"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c7m6.4.1",
@@ -269,9 +261,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "other = 90 - 60"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c7m6.6.2",
@@ -443,9 +433,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "other = 90 - 35"
-   ]
+   "steps_chain": []
   }
  ]
 }

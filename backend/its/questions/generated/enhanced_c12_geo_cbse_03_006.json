@@ -34,6 +34,31 @@
      "q": "Design a 3-indicator \"Early Warning Dashboard\" for a Medium HDI country (HDI 0.60) to detect risk of slipping back to Low HDI. Justify each indicator's threshold and frequency of monitoring.",
      "a": "**Indicator 1**: *Under-5 mortality rate* — threshold: >60/1000 live births (signals health system collapse); monitor **quarterly** via HMIS. **Indicator 2**: *Lower secondary completion rate (girls)* — threshold: <65% (gendered education reversal predicts intergenerational capability loss); monitor **annually** via UDISE+. **Indicator 3**: *Public social-sector expenditure as % of GDP* — threshold: <6% (fiscal deprioritization precedes HDI decline); monitor **annually** via budget documents. A poor answer lists generic indicators (e.g., \"GDP growth\") without *tier-specific thresholds* or *lead-lag justification*, showing inability to translate HDI structure into policy monitoring.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Human Development Index (HDI) country ______ system categorizes nations into four tiers—Very High (HDI ≥ 0.800), High (0.700–0.799), Medium (0.550–0.699), and Low (HDI < 0.550)—based on their composite score reflecting achievements in three dimensions: long and healthy life (life expectancy at birth), knowledge (mean and expected years of schooling), and a decent standard of living (GNI per capita PPP in US$).",
+     "a": "classification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by ______ students two photographs: a bustling metro station in Oslo (Norway, HDI 0.961) and a rural clinic in Niger (HDI 0.400).",
+     "a": "showing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ask: \"What daily freedoms does a teenager in Oslo take for granted that a teenager in Niger cannot access?\" Guide them to list: reliable electricity, secondary school within ______ km, vaccine availability, career choice beyond subsistence farming.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) classify any country into the correct HDI tier given its HDI value, (2) explain the typical socio-economic and governance characteristics distinguishing each tier, and (3) analyze why countries with similar per capita income may fall into different HDI categories using the capability approach.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by showing students two ______: a bustling metro station in Oslo (Norway, HDI 0.961) and a rural clinic in Niger (HDI 0.400).",
+     "a": "photographs",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Create an algebraic expression involving two variables, $p$ and $q$, to represent the following scenario: \"Amit scored $p$ runs in a cricket match, and Rohit scored twice as many runs as Amit minus 15 runs.\" Explain each part of your expression.",
      "a": "The expected expression is $2p - 15$. \nExplanation: \"Amit scored $p$ runs\" establishes our variable $p$. \"Twice as many runs as Amit\" translates to multiplication by 2, written as $2p$. \"Minus 15 runs\" means subtracting 15 from that product. A poor answer would write $p - 15 \\times 2$, which ignores standard order of operations or misinterprets \"twice as many\" as applying only after subtraction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Writing algebraic expressions from word problems involves translating verbal statements into ______ symbols, variables, and operations to represent real-life quantities.",
+     "a": "mathematical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you go to a stationery shop in your neighbourhood where ______ cost ₹40 each and pens cost ₹15 each.",
+     "a": "notebooks",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can translate multi-step word problems involving everyday contexts into accurate algebraic expressions, correctly identify operations from verbal keywords, and combine like terms where appropriate.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you go to a stationery shop in your ______ where notebooks cost ₹40 each and pens cost ₹15 each.",
+     "a": "neighbourhood",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Create a problem where a farmer needs to fence a field. Include at least three sides of different lengths.",
      "a": "A good problem would be: \"A triangular field has sides of 20 m, 30 m, and 40 m. How much wire is needed for one round of fencing?\" A poor answer would lack the \"closed figure\" aspect or fail to provide enough information to calculate a sum.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Perimeter is the total length of the boundary ______ a closed 2D shape.",
+     "a": "surrounding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are asked to put a decorative lace around your ______ notebook cover.",
+     "a": "rectangular",
+     "self_check": true
+    },
+    {
+     "q": "What is Perimeter? State the definition given in this lesson.",
+     "a": "Perimeter is the total length of the boundary surrounding a closed 2D shape.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Perimeter is the total length of the boundary surrounding a closed ______D shape.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Perimeter?",
+     "a": "Students often add only two sides of a rectangle (length + width) and stop, forgetting that a rectangle has four sides (two lengths and two widths).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to calculate the perimeter of squares, rectangles, and triangles by summing side lengths and be able to identify missing sides when given the total perimeter.",
+     "self_check": true
     }
    ]
   }

@@ -92,7 +92,7 @@
     "Determine the sample size for a letter drawn from the word Maths.",
     "Enumerate the outcomes of a spinner landing on 1 through 5."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -109,7 +109,16 @@
      "action": "Check that every entry is distinct and the list is complete",
      "explain": "No outcome should appear twice and no possible outcome should be missing, ensuring a valid sample space."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "divide favourable outcomes by total outcomes",
+     "explain": "divide favourable outcomes by total outcomes: p = 5 / 6 gives 0.833333",
+     "compute": "p = 5 / 6"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

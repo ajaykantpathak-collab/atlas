@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a force table (or three spring balances tied to a ring) to verify the triangle law of vector addition for three forces in equilibrium. List the steps and what you would measure.",
      "a": "Steps: 1) Tie three spring balances to a small ring. 2) Fix the ends of two balances to a board, pull the third to center the ring. 3) Record the readings (magnitudes) and angles of all three forces. 4) Draw a scale diagram: represent two forces as two sides of a triangle; the third side should match the third force in magnitude and opposite direction. 5) If the triangle closes, the vector sum is zero (equilibrium). A poor answer (e.g., \"just pull and see\") shows inability to translate physical setup into vector verification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The resultant of multiple forces is the single vector force that produces the same effect on an object as the combined action of all the ______ forces acting on it.",
+     "a": "individual",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a game of tug-of-war during your school sports day: two teams pull on the same rope in opposite ______, and the rope moves towards the stronger team.",
+     "a": "directions",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the magnitude and direction of the resultant force for any system of coplanar forces using both the component method and the parallelogram/triangle law, and can predict the motion of an object based on the resultant force.",
+     "self_check": true
     }
    ]
   }

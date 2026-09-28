@@ -34,6 +34,26 @@
      "q": "Design a thought experiment: If you could artificially compress the 2s-2p energy gap in O₂ to match that of N₂, how would the MO diagram and magnetic properties change? Justify.",
      "a": "Reducing the 2s-2p gap would increase s-p mixing, raising σ₂p_z above π₂p_x/π₂p_y. The MO ordering would switch to the N₂-type sequence. For O₂ (12 valence electrons), the new filling would be: (σ₂s)²(σ*₂s)²(π₂p_x)²(π₂p_y)²(σ₂p_z)²(π*₂p_x)¹(π*₂p_y)¹ — still two unpaired electrons in π* orbitals, so paramagnetism remains. However, bond order unchanged (still 2). A poor answer would claim diamagnetism or bond order change, missing that the electron count in bonding/antibonding sets is identical.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Molecular Orbital Theory describes covalent bonding as the combination of atomic orbitals of comparable energy and symmetry to form molecular orbitals that belong to the entire molecule, where bonding molecular orbitals concentrate electron density between nuclei (stabilising) and antibonding molecular orbitals create a nodal plane with zero electron density between nuclei (______).",
+     "a": "destabilising",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how a neon tube glows with distinct colors — this is ______ moving between quantised energy levels.",
+     "a": "electrons",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by sketching ______s orbitals on two H atoms approaching; draw the σ₁s (no node between nuclei) and σ*₁s (node between nuclei).",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can draw molecular orbital energy diagrams for homonuclear diatomics (H₂ to N₂ and O₂ to Ne₂), distinguish bonding vs antibonding orbitals by their symmetry and nodal properties, and explain why He₂ does not exist while O₂ is paramagnetic using electron filling rules.",
+     "self_check": true
     }
    ]
   }

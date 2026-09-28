@@ -4,27 +4,8 @@
   {
    "id": "kemh111.11.2.1",
    "title": "Coordinate Axes and Coordinate Planes in Space",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the coordinate-geometry formula",
-     "explain": "apply the coordinate-geometry formula: dx = 8 - -1 gives 9",
-     "compute": "dx = 8 - -1"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the coordinate-geometry formula: dy = 7 - -5 gives 12",
-     "compute": "dy = 7 - -5"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 15",
-     "compute": "dist = sqrt(dx * dx + dy * dy)"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (-1, -5) and (8, 7).",
@@ -61,15 +42,8 @@
   {
    "id": "kemh111.11.3.1",
    "title": "Coordinates of a Point in Space and Sign Patterns",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "recall the count for the shape",
-     "explain": "recall the count for the shape: lines = 4 gives 4",
-     "compute": "lines = 4"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a square have?",
@@ -107,6 +81,8 @@
    "id": "kemh111.11.4.1",
    "title": "Distance Between Two Points in Space",
    "converted_to_compute": false,
+   "formula": "dist3d = sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2 + (z2 - z1) ** 2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (8, -5) and (18, 19).",
@@ -143,27 +119,8 @@
   {
    "id": "kemh111.11.3.2",
    "title": "Midpoint and Section Ideas for Space Points",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the coordinate-geometry formula",
-     "explain": "apply the coordinate-geometry formula: dx = 9 - 6 gives 3",
-     "compute": "dx = 9 - 6"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the coordinate-geometry formula: dy = 4 - 0 gives 4",
-     "compute": "dy = 4 - 0"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 5",
-     "compute": "dist = sqrt(dx * dx + dy * dy)"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (6, 0) and (9, 4).",

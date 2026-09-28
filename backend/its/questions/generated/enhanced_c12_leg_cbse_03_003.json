@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_03_003",
+   "title": "c12_leg_cbse_03_003",
+   "questions": [
+    {
+     "q": "State the *ratio decidendi* (binding legal principle) of *Carlill v. Carbolic Smoke Ball Co.* (1893) regarding general offers. Do not merely narrate facts.",
+     "a": "**Correct Answer:** An advertisement offering a reward to the world at large constitutes a valid *general offer* (unilateral contract). Acceptance does not require communication to the offeror; performance of the stipulated condition (using the smoke ball and catching influenza) constitutes acceptance, creating a binding contract. The deposit of ₹1,000 in the bank evidenced the *intention to create legal relations*, rebutting the presumption that advertisements are mere \"puffs.\"\n\n**Misconception Revealed:** A wrong answer (e.g., \"advertisements are never offers\" or \"acceptance must be communicated\") shows the student confuses *invitation to treat* (e.g., display of goods in a shop window per *Pharmaceutical Society v. Boots Cash Chemists*) with a *unilateral offer*. They miss the critical distinction: a general offer *is* an offer, but acceptance is by *conduct*, not promise.",
+     "self_check": true
+    },
+    {
+     "q": "In *Balfour v. Balfour* (1919), the Court held a husband's promise to pay maintenance to his wife was not a contract. Explain *why* the same principle did *not* apply in *Merritt v. Merritt* (1970), where a separated husband's written promise to transfer the house to his wife *was* enforced.",
+     "a": "**Correct Answer:** *Balfour* established a *rebuttable presumption* that domestic/social agreements lack \"intention to create legal relations.\" In *Merritt*, the parties were *separated* (marriage breakdown), the agreement was *in writing*, and it dealt with *property rights* — factors the Court held rebutted the presumption. The context showed a \"business-like\" intent, not domestic harmony.\n\n**Misconception Revealed:** A student who says \"domestic agreements are never contracts\" has memorised a rigid rule instead of understanding the *presumption* and its *rebuttal factors* (written form, separation, commercial context). This error costs marks in \"distinguish\" questions and leads to wrong advice in family settlement disputes.",
+     "self_check": true
+    },
+    {
+     "q": "**Scenario:** A (in Delhi) emails B (in Mumbai) on Monday 10:00 AM: \"I offer to sell my car for ₹5 lakh. Reply by Friday.\" B reads it Monday 11:00 AM, decides to accept, but his internet fails. He posts a letter of acceptance Tuesday 9:00 AM (reaches Delhi Thursday). A sells the car to C on Wednesday. Is there a contract between A and B? Apply *Bhagwandas v. Giridharilal* (1966) and *Entores v. Miles Far East Corp* (1955) / Sec 4 ICA.",
+     "a": "**Correct Answer:** **No contract.** *Bhagwandas* (telephone) and *Entores* (telex/email) establish the **Instantaneous Communication Rule**: for non-postal instantaneous modes (email, phone, WhatsApp), acceptance is complete *only when received* by the offeror. B's *postal* letter (sent Tuesday) is governed by the **Postal Rule** (Sec 4 ICA: acceptance complete vs proposer when *posted*). However, A's offer *expressly prescribed* a mode (\"Reply by Friday\") and impliedly required a *reply by the same instantaneous mode* (email). B's use of post was *not* the prescribed mode. Even if post were allowed, A revoked the offer by selling to C on Wednesday — *before* B's letter reached A (Thursday). Revocation is complete vs offeree when *received* (Sec 4/5); B received knowledge of revocation (sale to C) only when? If B knew Wednesday, offer lapsed. If B didn't know, acceptance (posting Tuesday) *might* bind A *if* post was authorised mode. But here, mode was not authorised.\n\n**Misconception Revealed:** A student applying the Postal Rule blindly (\"acceptance complete on posting\") ignores: (1) the offeror's right to prescribe mode (Sec 7); (2) the Instantaneous Communication Rule distinction; (3) revocation timing. This is a classic Board/CLAT trap mixing *Adams v. Lindsell* (postal rule) with *Entores* (instantaneous).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the *consideration* analysis in *Durga Prasad v. Baldeo* (1880) and *Chinnaya v. Ramayya* (1882). In both, a third party (not the promisee) provided the consideration. Why was the contract **void** in the first but **valid** in the second?",
+     "a": "**Correct Answer:** *Durga Prasad*: Consideration must move *at the desire of the promisor* (Sec 2d). The shops were built at the *Collector's* desire, not the defendant (shopkeeper). No privity of consideration → no contract. *Chinnaya*: The mother (promisee) gifted property to daughter *on condition* daughter pays annuity to uncle (plaintiff). The daughter's promise to pay uncle was *part of the consideration* for the mother's gift, moving *at the mother's (promisor's) desire*. The uncle, though a stranger to consideration, was a *beneficiary* of the contract → could enforce (exception to privity).\n\n**Misconception Revealed:** Students conflate \"stranger to consideration\" (valid if at promisor's desire) with \"stranger to contract\" (generally cannot sue). They miss that *Durga Prasad* failed because consideration moved from a *volunteer* (Collector), not the promisor. This distinction is critical for \"third-party beneficiary\" questions in Board exams.",
+     "self_check": true
+    },
+    {
+     "q": "**Assertion (A):** In *Hadley v. Baxendale* (1854), the mill owner could not recover lost profits because the carrier did not know the mill would stop *entirely* without the shaft.\n**Reason (R):** Damages for breach of contract are limited to losses that arise *naturally* (general damages) or were *in contemplation of both parties* at the time of contract (special damages).\n**Evaluate:** Is R the correct explanation of A? What *specific knowledge* must the carrier have had to be liable for lost profits?",
+     "a": "**Correct Answer:** **Yes, R correctly explains A.** The carrier knew the shaft was for a mill, but *not* that the mill had *no other shaft* and would *shut down completely*. For special damages (lost profits), the *special circumstances* (unique dependency) must be *communicated* and *accepted* (tacitly or expressly) by the carrier at contracting. Mere knowledge of \"mill shaft\" is insufficient; knowledge of \"sole shaft = total stoppage\" is required.\n\n**Misconception Revealed:** Students often think \"foreseeability\" means \"what a reasonable person *would* foresee.\" *Hadley* is *subjective*: what *these parties actually contemplated*. Confusing objective \"reasonable foreseeability\" (tort negligence) with contractual *contemplation* leads to over-claiming damages in problem questions.",
+     "self_check": true
+    },
+    {
+     "q": "**Create a novel fact pattern** (3-4 sentences) involving an **e-commerce \"Flash Sale\"** (e.g., \"First 100 customers get iPhone for ₹1\") that tests whether it is a **General Offer (Carlill)** or an **Invitation to Treat (Pharmaceutical Society v. Boots)**. State the *key factual pivot* that decides the classification.",
+     "a": "**Expected Answer Criteria:** A good answer creates a scenario where the platform *automatically* accepts the first 100 orders via a \"Place Order\" button (unilateral act), deposits stock in escrow, and states \"No further confirmation needed.\" **Pivot:** If the platform *retains discretion* to cancel orders (e.g., \"subject to verification\"), it's an **Invitation to Treat** (like *Boots* shelf display). If the *algorithm auto-confirms* and *deducts payment* for the first 100 clicks, it's a **General Offer** (*Carlill* — performance of condition = acceptance). The student must identify *automation + irrevocability* as the pivot.\n\n**Poor Answer Reveals:** Treating all website displays as \"offers\" or \"invitations\" categorically, ignoring the *mechanism of acceptance* (human approval vs. algorithmic execution). This misses the modern application of *Carlill* to *B2C e-commerce* (cf. *Smartek v. Godrej* / *Trimex v. Vedanta* on email offers).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

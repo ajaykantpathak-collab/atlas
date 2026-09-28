@@ -22,15 +22,33 @@
     "assign the given events their positions on the probability scale",
     "explain the mathematics of maybe with an example"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "place the poles",
-     "explain": "Impossible events get 0; sure events get 1."},
-    {"step": 2, "action": "read intermediate values",
-     "explain": "Real events sit between as proper fractions."},
-    {"step": 3, "action": "interpret the number",
-     "explain": "Closer to 1 means more likely; closer to 0 means less likely."}
-   ]
+    {
+     "step": 1,
+     "action": "place the poles",
+     "explain": "Impossible events get 0; sure events get 1."
+    },
+    {
+     "step": 2,
+     "action": "read intermediate values",
+     "explain": "Real events sit between as proper fractions."
+    },
+    {
+     "step": 3,
+     "action": "interpret the number",
+     "explain": "Closer to 1 means more likely; closer to 0 means less likely."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "divide favourable outcomes by total outcomes",
+     "explain": "divide favourable outcomes by total outcomes: p = 2 / 6 gives 0.333333",
+     "compute": "p = 2 / 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.107.7.2",
@@ -50,12 +68,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "count the favourable outcomes",
+    {
+     "step": 1,
+     "action": "count the favourable outcomes",
      "explain": "List outcomes matching the event.",
-     "compute": "favourable = favourable_count"},
-    {"step": 2, "action": "divide by the total",
+     "compute": "favourable = favourable_count"
+    },
+    {
+     "step": 2,
+     "action": "divide by the total",
      "explain": "All equally likely outcomes form the denominator.",
-     "compute": "probability = favourable / total"}
+     "compute": "probability = favourable / total"
+    }
    ]
   },
   {
@@ -74,15 +98,33 @@
     "list the sample space of the given compound experiment",
     "why does a tree diagram prevent missing outcomes"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "draw the stages",
-     "explain": "One level of branches per stage of the experiment."},
-    {"step": 2, "action": "list the paths",
-     "explain": "Every root-to-tip path is one outcome of the combined experiment."},
-    {"step": 3, "action": "count and compute",
-     "explain": "Favourable paths over total paths give the probability."}
-   ]
+    {
+     "step": 1,
+     "action": "draw the stages",
+     "explain": "One level of branches per stage of the experiment."
+    },
+    {
+     "step": 2,
+     "action": "list the paths",
+     "explain": "Every root-to-tip path is one outcome of the combined experiment."
+    },
+    {
+     "step": 3,
+     "action": "count and compute",
+     "explain": "Favourable paths over total paths give the probability."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "divide favourable outcomes by total outcomes",
+     "explain": "divide favourable outcomes by total outcomes: p = 5 / 6 gives 0.833333",
+     "compute": "p = 5 / 6"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -97,9 +139,12 @@
     "total": "total equally likely outcomes"
    },
    "solution_template": [
-    {"step": 1, "action": "divide favourable by total",
+    {
+     "step": 1,
+     "action": "divide favourable by total",
      "explain": "The ratio is the probability.",
-     "compute": "probability = favourable_count / total"}
+     "compute": "probability = favourable_count / total"
+    }
    ]
   },
   {
@@ -113,9 +158,12 @@
     "total": "faces of the die"
    },
    "solution_template": [
-    {"step": 1, "action": "divide favourable by total",
+    {
+     "step": 1,
+     "action": "divide favourable by total",
      "explain": "Favourable over total gives the chance.",
-     "compute": "probability = favourable_count / total"}
+     "compute": "probability = favourable_count / total"
+    }
    ]
   },
   {
@@ -128,9 +176,12 @@
     "probability": "probability of the event"
    },
    "solution_template": [
-    {"step": 1, "action": "subtract from 1",
+    {
+     "step": 1,
+     "action": "subtract from 1",
      "explain": "The complement takes the remaining share of certainty.",
-     "compute": "complement = 1 - probability"}
+     "compute": "complement = 1 - probability"
+    }
    ]
   },
   {
@@ -143,9 +194,12 @@
     "probability": "probability of rain"
    },
    "solution_template": [
-    {"step": 1, "action": "subtract from 1",
+    {
+     "step": 1,
+     "action": "subtract from 1",
      "explain": "Event and complement together fill 1.",
-     "compute": "complement = 1 - probability"}
+     "compute": "complement = 1 - probability"
+    }
    ]
   }
  ],
@@ -154,17 +208,17 @@
    "id": "ex7.1",
    "source_ref": "iemh107.txt probability exercises",
    "questions": [
-     "Find the probabilities of the given events with dice and coins.",
-     "Find the probability of drawing the stated balls from the bag.",
-     "Place the given events on the probability scale."
+    "Find the probabilities of the given events with dice and coins.",
+    "Find the probability of drawing the stated balls from the bag.",
+    "Place the given events on the probability scale."
    ]
   },
   {
    "id": "ex7.2",
    "source_ref": "iemh107.txt tree diagram exercises",
    "questions": [
-     "Draw tree diagrams for the given two-stage experiments.",
-     "Use the tree diagram to compute the stated probabilities."
+    "Draw tree diagrams for the given two-stage experiments.",
+    "Use the tree diagram to compute the stated probabilities."
    ]
   }
  ]

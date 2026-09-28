@@ -34,6 +34,26 @@
      "q": "Create a literal comprehension question and an inferential comprehension question based on the MRA (Moral Re-Armament Army) visit episode. Ensure the inferential question requires connecting the MRA's plays to the subsequent changes in Tamil drama.",
      "a": "Literal: \"What were the names of the two plays staged by the Moral Re-Armament Army at Gemini Studios?\" (Answer: 'Jotham Valley' and 'The Forgotten Factor').\nInferential: \"How did the MRA's staging techniques influence Tamil drama in the following years, and what does this reveal about the Gemini Studios' artistic receptivity?\" (Expected answer: Tamil plays adopted the bare stage, white curtain, flute tune for sunrise/sunset scenes from 'Jotham Valley'; this shows the studio's uncritical adoption of foreign artistic forms despite their Gandhian nationalism). A poor inferential question would be \"Did the Gemini staff like the plays?\" (too simple, yes/no). The created inferential question correctly demands synthesis of cause-effect and thematic implication.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal ______ questions require students to retrieve explicitly stated facts, details, or sequences from the text.",
+     "a": "comprehension",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're sitting in the exam hall and see a 3-mark question: \"Why did the office boy direct his anger at Subbu?\" Your heart races because the answer isn't ______ written in one sentence.",
+     "a": "directly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're sitting in the exam hall and see a ______-mark question: \"Why did the office boy direct his anger at Subbu?\" Your heart races because the answer isn't directly written in one sentence.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently distinguish between literal and inferential question types, locate precise textual evidence for literal answers, and construct logically supported inferences for implicit meanings using a structured PEEL (Point, Evidence, Explanation, Link) response format appropriate for CBSE 3-6 mark questions.",
+     "self_check": true
     }
    ]
   }

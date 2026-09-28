@@ -34,6 +34,31 @@
      "q": "Design a set of instructions for a classmate on how to locate the hundredths decimal $3.47$ on a number line, specifying the zoomed-in intervals needed.",
      "a": "Expected response criteria: Instructions must state first to locate the integers $3$ and $4$, then zoom into the tenth interval between $3.4$ and $3.5$, and finally divide that tenth interval into ten equal microscopic subdivisions to find the $7$th mark for $3.47$. A poor answer simply says \"count to 3.47 on the ruler,\" failing to explain the hierarchical division into tenths and hundredths.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Locating decimals on the number line involves ______ the precise position of a decimal number between two integers by dividing the unit distance into ten equal tenths segments and further into hundredths segments.",
+     "a": "identifying",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are measuring a piece of ribbon for your craft project, and it measures 3.4 cm long.",
+     "a": "Imagine",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are measuring a piece of ribbon for your craft project, and it measures ______ cm long.",
+     "a": "3.4",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can accurately draw, divide, and locate any given decimal number up to two decimal places (tenths and hundredths) on a standard number line, and can correctly identify a decimal represented by a specific point marked on a number line.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a piece of ribbon for your craft project, and it measures 3.4 cm long.",
+     "a": "measuring",
+     "self_check": true
     }
    ]
   }

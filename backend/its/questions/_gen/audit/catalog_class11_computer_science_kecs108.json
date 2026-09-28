@@ -1,0 +1,314 @@
+{
+ "catalog": "catalog_class11_computer_science_kecs108.json",
+ "concepts": [
+  {
+   "id": "kecs108.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "size = 53",
+      "last_index = size - 1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "size = 61",
+      "last_index = size - 1"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "size = 50",
+      "last_index = size - 1"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "size = 20",
+      "last_index = size - 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "size = 37",
+      "last_index = size - 1"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "size = 0.7",
+      "last_index = size - 1"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "last_index = size - 1"
+   ]
+  },
+  {
+   "id": "kecs108.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "last = 32",
+      "first = 59",
+      "k = 83",
+      "kept = (last - first + k - 1) // k"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "last = 79",
+      "first = 38",
+      "k = 27",
+      "kept = (last - first + k - 1) // k"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "last = 64",
+      "first = 4",
+      "k = 75",
+      "kept = (last - first + k - 1) // k"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "last = 6.5",
+      "first = 56",
+      "k = 42",
+      "kept = (last - first + k - 1) // k"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "last = 58",
+      "first = 6.1",
+      "k = 26",
+      "kept = (last - first + k - 1) // k"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "last = 25",
+      "first = 60",
+      "k = 43",
+      "kept = (last - first + k - 1) // k"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "kept = (last - first + k - 1) // k"
+   ]
+  },
+  {
+   "id": "kecs108.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "first_len = 30",
+      "second_len = 51",
+      "copies = 22",
+      "after_rep = (first_len + second_len) * copies"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "first_len = 41",
+      "second_len = 74",
+      "copies = 12",
+      "after_rep = (first_len + second_len) * copies"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "first_len = 120",
+      "second_len = 84",
+      "copies = 42",
+      "after_rep = (first_len + second_len) * copies"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "first_len = 73",
+      "second_len = 24",
+      "copies = 90",
+      "after_rep = (first_len + second_len) * copies"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "first_len = 73",
+      "second_len = 40",
+      "copies = 64",
+      "after_rep = (first_len + second_len) * copies"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "first_len = 52",
+      "second_len = 94",
+      "copies = 43",
+      "after_rep = (first_len + second_len) * copies"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "after_rep = (first_len + second_len) * copies"
+   ]
+  },
+  {
+   "id": "kecs108.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "code1 = 52",
+      "code2 = 43",
+      "code3 = 56",
+      "digit_sum = (code1 - 48) + (code2 - 48) + (code3 - 48)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "code1 = 54",
+      "code2 = 98",
+      "code3 = 87",
+      "digit_sum = (code1 - 48) + (code2 - 48) + (code3 - 48)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "code1 = 12.9",
+      "code2 = 85",
+      "code3 = 49",
+      "digit_sum = (code1 - 48) + (code2 - 48) + (code3 - 48)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "code1 = 63",
+      "code2 = 40",
+      "code3 = 42",
+      "digit_sum = (code1 - 48) + (code2 - 48) + (code3 - 48)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "code1 = 95",
+      "code2 = 76",
+      "code3 = 13",
+      "digit_sum = (code1 - 48) + (code2 - 48) + (code3 - 48)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "code1 = 29",
+      "code2 = 98",
+      "code3 = 90",
+      "digit_sum = (code1 - 48) + (code2 - 48) + (code3 - 48)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "digit_sum = (code1 - 48) + (code2 - 48) + (code3 - 48)"
+   ]
+  },
+  {
+   "id": "kecs108.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "alphabets = 54",
+      "digits = 3.8",
+      "specials = 99",
+      "spaces = 93",
+      "total_check = alphabets + digits + specials + spaces"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "alphabets = 66",
+      "digits = 86",
+      "specials = 76",
+      "spaces = 20",
+      "total_check = alphabets + digits + specials + spaces"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "alphabets = 19.8",
+      "digits = 88",
+      "specials = 14.7",
+      "spaces = 41",
+      "total_check = alphabets + digits + specials + spaces"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "alphabets = 82",
+      "digits = 30",
+      "specials = 14",
+      "spaces = 94",
+      "total_check = alphabets + digits + specials + spaces"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "alphabets = 78",
+      "digits = 48",
+      "specials = 32",
+      "spaces = 45",
+      "total_check = alphabets + digits + specials + spaces"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "alphabets = 7.2",
+      "digits = 14.4",
+      "specials = 12.4",
+      "spaces = 16.5",
+      "total_check = alphabets + digits + specials + spaces"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_check = alphabets + digits + specials + spaces"
+   ]
+  }
+ ]
+}

@@ -34,6 +34,36 @@
      "q": "Design a gene therapy strategy for a fictional disorder: \"Protein X deficiency\" caused by a recessive loss-of-function mutation in a liver-specific gene. The protein is secreted into blood. Choose delivery strategy, vector type, and functional approach. Justify each choice in 1-2 sentences.",
      "a": "**Expected answer:**  \n- **Functional approach:** Gene augmentation (recessive loss-of-function → add functional copy).  \n- **Target cells:** Somatic hepatocytes (liver is accessible, secretes protein into blood).  \n- **Delivery strategy:** In vivo (liver biopsy/ex vivo hepatocyte transplant is high-risk; direct IV/portal vein injection feasible).  \n- **Vector:** AAV (adeno-associated virus) serotype 8 or 9 — high hepatotropism, non-integrating (low oncogenic risk), long-term episomal expression in non-dividing hepatocytes, low immunogenicity.  \n- **Promoter:** Liver-specific promoter (e.g., albumin or transthyretin) to restrict expression.\n\n**What a poor answer reveals:** Choosing retrovirus (integrates, needs dividing cells — hepatocytes are quiescent). Choosing ex vivo (unnecessary invasive procedure for liver). Using a ubiquitous promoter (risk of off-target expression). Not justifying vector tropism. This tests synthesis of vector biology, disease genetics, and anatomy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Gene therapy is a medical technique that aims to treat or cure genetic disorders by ______ correct genetic material into a patient's cells to compensate for abnormal genes or to make a beneficial protein.",
+     "a": "introducing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 4-year-old girl with Severe Combined Immunodeficiency (SCID) — she cannot fight infections because her ADA gene is ______.",
+     "a": "defective",
+     "self_check": true
+    },
+    {
+     "q": "What is Gene therapy? State the definition given in this lesson.",
+     "a": "Gene therapy is a medical technique that aims to treat or cure genetic disorders by introducing correct genetic material into a patient's cells to compensate for abnormal genes or to make a beneficial protein.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It is classified by delivery strategy (ex vivo: cells modified outside the body and reintroduced; in vivo: genes delivered directly into the body), target cell type (somatic: non-heritable changes in body cells; germ-line: heritable changes in gametes/embryos), and functional approach (gene augmentation: adding a functional copy; gene inhibition: silencing a dominant mutant allele; gene editing: correcting the mutation via CRISPR/Cas______ or homologous recombination).",
+     "a": "9",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Gene therapy?",
+     "a": "\"Ex vivo gene therapy means the vector is non-viral; in vivo means viral vector.\" Students often conflate delivery strategy (ex vivo vs in vivo) with vector type (viral vs non-viral).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) distinguish between ex vivo and in vivo gene therapy with a disease example for each, (2) explain why somatic gene therapy is non-heritable while germ-line therapy is heritable, (3) classify a given clinical scenario as gene augmentation, inhibition, or editing, and (4) list two major technical limitations (e.g..",
+     "self_check": true
     }
    ]
   }

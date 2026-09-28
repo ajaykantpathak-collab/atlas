@@ -362,7 +362,16 @@
      "question": "Explain how single cell protein helps reduce environmental pollution.",
      "type": "verify_property"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "protein_yield = microbial_biomass * protein_fraction",
+     "compute": "protein_yield = microbial_biomass * protein_fraction"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jebh.9.8",

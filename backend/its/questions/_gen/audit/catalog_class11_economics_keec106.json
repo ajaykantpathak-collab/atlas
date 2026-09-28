@@ -1,0 +1,62 @@
+{
+ "catalog": "catalog_class11_economics_keec106.json",
+ "concepts": [
+  {
+   "id": "keec.106.1.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "unemployed = 3.9",
+      "labour_force = 166",
+      "unemployment_rate = unemployed / labour_force * 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "unemployed = 31",
+      "labour_force = 25",
+      "unemployment_rate = unemployed / labour_force * 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "unemployed = 43",
+      "labour_force = 813",
+      "unemployment_rate = unemployed / labour_force * 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "unemployed = 8.4",
+      "labour_force = 220",
+      "unemployment_rate = unemployed / labour_force * 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "unemployed = 28",
+      "labour_force = 548",
+      "unemployment_rate = unemployed / labour_force * 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "unemployed = 36",
+      "labour_force = 591",
+      "unemployment_rate = unemployed / labour_force * 100"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "unemployment_rate = unemployed / labour_force * 100"
+   ]
+  }
+ ]
+}

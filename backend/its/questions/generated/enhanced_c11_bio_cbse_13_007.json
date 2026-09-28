@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using carrot (*Daucus carota*, a biennial) to demonstrate that vernalisation occurs at the shoot apical meristem, not in the roots. Specify control, treatment, and measurable outcome.",
      "a": "Grow carrot seedlings until storage root forms. Split into three groups: (1) whole plant at 4°C (positive control), (2) only roots at 4°C, shoot at 25°C (treatment), (3) whole plant at 25°C (negative control). After 6 weeks, return all to warm long days. Measure days to bolting. Only group 1 flowers early. A poor design (e.g., chilling seeds only) tests seed vernalisation, not meristem vernalisation, and misses the spatial separation of perception.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the process by which certain plants, particularly biennials and winter annuals, acquire the competence to flower after exposure to prolonged low temperatures (typically 0–10°C), effectively synchronising reproductive development with favourable spring conditions.",
+     "a": "Vernalisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a wheat field in Punjab: seeds sown in ______ flower in March, but the same variety sown in April fails to flower before summer heat kills it.",
+     "a": "November",
+     "self_check": true
+    },
+    {
+     "q": "What is Vernalisation? State the definition given in this lesson.",
+     "a": "Vernalisation is the process by which certain plants, particularly biennials and winter annuals, acquire the competence to flower after exposure to prolonged low temperatures (typically 0–10°C), effectively synchronising reproductive development with favourable spring conditions.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Vernalisation?",
+     "a": "Students think vernalisation *is* flowering — they say \"cold makes the plant flower.\" The exact error: confusing the *competence acquisition* (vernalisation) with the *floral transition* (flowering).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the molecular mechanism linking cold perception to flowering competence, differentiate vernalisation from photoperiodism using specific plant examples, and predict flowering outcomes when temperature and day-length cues are experimentally manipulated.",
+     "self_check": true
     }
    ]
   }

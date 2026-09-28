@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using only school-lab equipment (balance, graduated cylinder, water) to demonstrate that heavy water (D₂O) has a higher density than normal water (H₂O). Write the procedure, expected observations, and the conclusion linking to isotopes.",
      "a": "Procedure: Measure 50 mL of normal water and 50 mL of heavy water (if available) separately in identical graduated cylinders. Weigh each on a balance. Calculate density = mass/volume.\nExpected: Heavy water mass ≈ 55.5 g (density 1.11 g/mL), normal water ≈ 50 g (density 1.00 g/mL).\nConclusion: The higher density of D₂O is because deuterium has a neutron, doubling the hydrogen mass, while volume remains similar. A poor answer that suggests tasting or using radioactive detection reveals inability to design a safe, quantitative physical property comparison.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ are atoms of the same element that have the same atomic number (same number of protons) but different mass numbers due to a different number of neutrons in their nuclei.",
+     "a": "Isotopes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at a sample of ______ gas collected in a school lab – it is colourless, odourless, and burns with a pop sound.",
+     "a": "hydrogen",
+     "self_check": true
+    },
+    {
+     "q": "What is Isotopes? State the definition given in this lesson.",
+     "a": "Isotopes are atoms of the same element that have the same atomic number (same number of protons) but different mass numbers due to a different number of neutrons in their nuclei.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Isotopes?",
+     "a": "Students often think isotopes are \"different elements\" because they have different mass numbers.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify isotopes from nuclear notation (e.g., ¹⁴C vs ¹²C), calculate the number of neutrons for any isotope given its mass number, and explain why isotopes have identical chemical properties but different physical properties.",
+     "self_check": true
     }
    ]
   }

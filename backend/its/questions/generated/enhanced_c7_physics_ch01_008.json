@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using household items in India to test whether the color of a container affects how fast water inside it absorbs heat from sunlight.",
      "a": "A good answer will propose taking two identical small containers (e.g., empty steel tiffin boxes), painting one black and leaving the other shiny silver (or white), filling both with equal amounts of water at room temperature (measured with a thermometer in °C), placing both in direct sunlight for 1 hour, and measuring the final temperature of the water in each. A poor answer fails to control the volume of water, initial temperature, or exposure time, making any temperature difference inconclusive.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The role of experiments in ______ nature is the systematic process of testing ideas, hypotheses, and observations by manipulating physical variables under controlled conditions to discover underlying scientific laws and principles.",
+     "a": "understanding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you watch a ceiling fan spin faster after turning up the regulator, or notice a metal spoon getting hot in a cup of hot chai, you are ______ nature in action.",
+     "a": "observing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can design a controlled physical experiment to test a specific natural phenomenon, identify independent, dependent, and controlled variables, record quantitative data in a structured table, and draw a valid conclusion based on empirical evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you watch a ceiling fan spin faster after turning up the ______, or notice a metal spoon getting hot in a cup of hot chai, you are observing nature in action.",
+     "a": "regulator",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a hypothetical *E. coli* genotype (specify mutations in *lacI, lacO, lacZ, lacY, lacA, crp, cya*) that would express β-galactosidase **constitutively at high levels** even in the presence of glucose and absence of lactose. Explain how each mutation contributes to this phenotype.",
      "a": "Genotype: **lacI⁻ lacO⁺ lacZ⁺ lacY⁺ lacA⁺ crp⁺ cya⁻** (or *lacI⁻ lacOc* where *lacOc* is a constitutive operator mutation).\n- **lacI⁻**: No functional repressor → operator never blocked → negative control eliminated.\n- **cya⁻**: Adenylate cyclase non-functional → no cAMP synthesized → but since repressor is absent, positive control becomes irrelevant for basal expression; however, to achieve *high* expression without glucose, you'd need *crp⁺* and *cya⁺*. Wait — the question asks for high expression *even in glucose*. With *lacI⁻* alone, expression is constitutive but at **basal level** (no CRP activation). To get **high** expression in glucose, you need a **CRP-independent promoter mutation** or a **constitutively active CRP mutant (crp*)**. Better genotype: **lacI⁻ crp* (constitutively active CRP)**. Then: no repressor + CRP always active → high transcription regardless of glucose/lactose. A poor answer (e.g., just *lacI⁻*) reveals the student conflates \"constitutive\" (always ON) with \"high-level\" (fully induced), missing that positive control determines the *magnitude* of expression.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The lac operon is an inducible operon in *E. coli* comprising three structural genes (*lacZ, lacY, lacA*) controlled by a single promoter and operator, where the repressor protein encoded by the regulatory gene *lacI* binds the operator to block ______ in the absence of lactose, and allolactose (an isomer of lactose) acts as an inducer by binding the repressor to relieve this block, enabling coordinate expression of β-galactosidase, permease, and transacetylase for lactose metabolism.",
+     "a": "transcription",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an *E. coli* bacterium living in the ______ large intestine.",
+     "a": "human",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can predict the transcriptional state of the lac operon (ON/OFF) for any given combination of glucose/lactose availability and *lacI/lacO/lacZ* genotypes, and justify the prediction by tracing the allosteric regulation of the repressor and the role of cAMP-CRP complex in positive control.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The lac operon is an inducible operon in *E. coli* comprising three structural genes (*lacZ, lacY, lacA*) controlled by a single promoter and operator, where the repressor protein encoded by the regulatory gene *lacI* binds the operator to block transcription in the absence of lactose, and allolactose (an isomer of lactose) acts as an inducer by binding the repressor to relieve this block, enabling coordinate expression of β-galactosidase, permease, and ______ for lactose metabolism.",
+     "a": "transacetylase",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an *E. coli* ______ living in the human large intestine.",
+     "a": "bacterium",
+     "self_check": true
     }
    ]
   }

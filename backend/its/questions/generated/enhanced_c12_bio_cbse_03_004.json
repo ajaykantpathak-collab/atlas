@@ -34,6 +34,36 @@
      "q": "Design a simple flowchart (text‑based) that a Class 12 student could use to revise the entire sequence of oogenesis from fetal life to fertilization, including the key hormonal controls at each transition. Use arrows to show progression.",
      "a": "Expected flowchart (text):\nFetal ovary: Oogonia (2n) --mitosis--> Primary oocytes (2n) --enter meiosis I--> Arrest at Prophase I (dictyate) until puberty.\nPuberty, each cycle: FSH rise --> Follicular growth --> Primary oocyte in dominant follicle completes Meiosis I (triggered by LH surge) --> Secondary oocyte (n, 23 chr, 2 chromatids) + 1st Polar Body.\nOvulation: Secondary oocyte arrested at Metaphase II --> enters fallopian tube.\nFertilization: Sperm entry --> Ca²⁺ wave --> Completion of Meiosis II --> Mature Ovum (n, 23 chr, 1 chromatid) + 2nd Polar Body.\nFusion of male & female pronuclei --> Zygote (2n).\nA poor answer omits the meiotic arrests, hormonal triggers, or polar body formation, indicating rote memorization without understanding the regulatory logic.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Oogenesis is the process of formation and maturation of the female gamete (ovum) in the ovaries, beginning during fetal development with mitotic ______ of oogonia, followed by meiotic arrest at prophase I until puberty, and culminating in the cyclic completion of meiosis I and II (the latter only upon fertilization) to produce a single functional haploid ovum and two or three polar bodies.",
+     "a": "proliferation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a newborn baby girl — she already carries every primary oocyte she will ever have, each paused in ______ I since she was a 20‑week fetus.",
+     "a": "prophase",
+     "self_check": true
+    },
+    {
+     "q": "What is Oogenesis? State the definition given in this lesson.",
+     "a": "Oogenesis is the process of formation and maturation of the female gamete (ovum) in the ovaries, beginning during fetal development with mitotic proliferation of oogonia, followed by meiotic arrest at prophase I until puberty, and culminating in the cyclic completion of meiosis I and II (the latter only upon fertilization) to produce a.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a newborn baby girl — she already carries every primary oocyte she will ever have, each paused in prophase I since she was a ______‑week fetus.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Oogenesis?",
+     "a": "Students often think that the \"egg\" released at ovulation is a mature ovum (haploid, 23 chromosomes, single chromatids).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) sequence the stages of oogenesis from oogonium to mature ovum, indicating the ploidy and chromosome number at each stage, and (2) explain how unequal cytokinesis and meiotic arrests are regulated by follicular development and hormonal signals.",
+     "self_check": true
     }
    ]
   }

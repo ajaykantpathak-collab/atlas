@@ -34,6 +34,36 @@
      "q": "Design a simple calorimetry experiment using only household items (no lab calorimeter) to estimate the specific heat capacity of a common metal like a steel spoon. List the materials, procedure, measurements needed, and the formula you would use. Identify two major sources of error.",
      "a": "Materials: Steel spoon, insulated cup (thermos or double-walled plastic), digital kitchen thermometer, kitchen scale, boiling water. Procedure: (1) Measure mass of spoon (m_s). (2) Measure mass of cup + water (m_w). (3) Record initial water temp (T_i). (4) Submerge spoon in boiling water for 5 min (assume 100°C). (5) Quickly transfer spoon to cup, cover, stir, record final temp (T_f). Formula: m_s s_s (100 - T_f) = m_w s_w (T_f - T_i). Errors: (1) Heat loss to surroundings during transfer and through cup walls. (2) Water droplets on spoon add unmeasured mass. A poor answer uses a non-insulated cup or ignores the spoon's initial temperature.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Calorimetry is the ______ technique of measuring heat transfer between bodies in an isolated system based on the principle of conservation of energy: the total heat lost by hotter bodies equals the total heat gained by colder bodies, assuming no heat exchange with the surroundings.",
+     "a": "experimental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine placing a hot samosa on a cold plate – the samosa cools while the plate warms until both reach the same ______.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "What is Calorimetry? State the definition given in this lesson.",
+     "a": "Calorimetry is the experimental technique of measuring heat transfer between bodies in an isolated system based on the principle of conservation of energy: the total heat lost by hotter bodies equals the total heat gained by colder bodies, assuming no heat exchange with the surroundings.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Apply the conservation equation: Σ mᵢ sᵢ (T_f - T_i) = ______, where heat lost (negative ΔT) balances heat gained (positive ΔT).",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Calorimetry?",
+     "a": "Students believe the calorimeter's \"water equivalent\" is a physical mass of water that can be poured in.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently set up and solve a calorimetry problem involving 3+ components (e.g., hot metal, water, calorimeter cup) with possible phase changes, correctly applying the principle Q_lost = Q_gained, tracking units at each step, and interpreting the final temperature or unknown specific heat capacity.",
+     "self_check": true
     }
    ]
   }

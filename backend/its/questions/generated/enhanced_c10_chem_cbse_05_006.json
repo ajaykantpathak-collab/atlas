@@ -34,6 +34,21 @@
      "q": "Design a thought experiment using only a periodic table (no lab equipment) to prove that metallic character decreases across Period 3. List the elements you would compare, the property you would check, and the expected trend.",
      "a": "Compare Na, Mg, Al, Si, P, S, Cl. Property: tendency to lose electrons (form cations) or oxide nature. Expected: Na₂O (strongly basic) → MgO (basic) → Al₂O₃ (amphoteric) → SiO₂ (weakly acidic) → P₄O₁₀ (acidic) → SO₂/SO₃ (acidic) → Cl₂O₇ (strongly acidic). Metallic character decreases as oxide nature shifts basic → amphoteric → acidic. A poor answer listing only \"conductivity\" or \"shininess\" without linking to electron loss tendency reveals superficial understanding — board exams require connecting metallic character to electron loss and oxide behavior.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A period in the Modern Periodic Table is a ______ row of elements arranged in increasing order of atomic number where all elements have the same number of electron shells; across a period from left to right, the number of valence electrons increases from 1 to 8 while the principal quantum number (n) remains constant, causing systematic changes in atomic properties due to increasing effective nuclear charge.",
+     "a": "horizontal",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now observe: as you move left to right, protons increase but shells stay same — the nucleus pulls valence ______ tighter.",
+     "a": "electrons",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can predict and explain the trend in atomic radius, valency, metallic character, and electronegativity for any given period (2 or 3) using the concepts of effective nuclear charge and shielding, and can solve CBSE board exam questions that ask to compare properties of elements in the same period.",
+     "self_check": true
     }
    ]
   }

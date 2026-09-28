@@ -64,7 +64,16 @@
      "explain": "Take the reciprocal of the wavelength to obtain the wavenumber",
      "compute": "wavenumber = 1 / wavelength"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "wavenumber = 1 / wavelength",
+     "compute": "wavenumber = 1 / wavelength"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kech.102.3.1",

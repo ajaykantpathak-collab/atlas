@@ -34,6 +34,31 @@
      "q": "**Question:** Design a **decision flowchart** (text-based) that a food compliance officer in India would use to determine whether a multi-ingredient packaged food product requires a GM label. The flowchart must incorporate: ingredient list, GM status of each ingredient, threshold checks, processing exemptions, and final label wording. Use a hypothetical product: \"Vegetable Pulao Mix\" containing rice, dehydrated vegetables, soybean oil, spices, and a flavor enhancer (soy protein isolate).",
      "a": "**Correct Answer (Flowchart Logic):**  \n```\nSTART: For each ingredient in \"Vegetable Pulao Mix\":\n  1. Is the ingredient from a GM-approved crop? (Check FSSAI positive list)\n     NO → No GM label needed for this ingredient. CONTINUE.\n     YES → Go to 2.\n  2. Is the ingredient HIGHLY REFINED OIL (soybean oil)?\n     YES → EXEMPT (2022 amendment). CONTINUE.\n     NO → Go to 3.\n  3. Does the ingredient contain >1% GM material (by weight of THAT ingredient)?\n     NO → No label for this ingredient. CONTINUE.\n     YES → Go to 4.\n  4. Is the ingredient a PROCESSING AID / ADDITIVE present at <5% in final product?\n     YES → May be exempt (check specific additive rules). CONTINUE.\n     NO → FLAG: This ingredient triggers labeling.\nEND: If ANY ingredient flagged → Label REQUIRED.\n     Label text: \"Contains genetically modified [ingredient name(s)]\" \n     (e.g., \"Contains genetically modified soy protein isolate\")\n```\n**Why poor answers reveal misunderstanding:** A student who creates a single \"whole product %\" check misses the per-ingredient threshold. A student who doesn't exempt refined oil ignores the 2022 amendment. A student who labels \"May contain GM\" instead of \"Contains GM\" confuses voluntary advisory labeling with mandatory declaration. This shows they cannot **synthesize regulatory fragments into an operational compliance tool**.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Labeling of genetically modified (GM) foods is a regulatory requirement that mandates the disclosure of the presence of genetically modified ingredients in food products through specific labels, enabling consumers to make informed choices based on health, ______, ethical, or religious preferences.",
+     "a": "environmental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you pick up a packet of ______ oil at a supermarket.",
+     "a": "soybean",
+     "self_check": true
+    },
+    {
+     "q": "What is Labeling of genetically modified (GM) foods? State the definition given in this lesson.",
+     "a": "Labeling of genetically modified (GM) foods is a regulatory requirement that mandates the disclosure of the presence of genetically modified ingredients in food products through specific labels, enabling consumers to make informed choices based on health, environmental, ethical, or religious preferences.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Labeling of genetically modified (GM) foods?",
+     "a": "Misconception: \"If a food product tests negative for GM DNA/protein (by PCR/ELISA), it does not need a GM label in India.\" Why this is wrong: India follows a process-based labeling regime.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Explain the scientific basis and regulatory thresholds (e.g., 1% or 5% GM content) that trigger mandatory labeling in India and major international jurisdictions; (2) Compare and contrast mandatory vs. voluntary labeling regimes, process-based vs. product-based approaches, and the role of the Cartagena.",
+     "self_check": true
     }
    ]
   }

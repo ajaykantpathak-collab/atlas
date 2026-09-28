@@ -34,6 +34,31 @@
      "q": "Design a one-day vegetarian menu for a 60 kg adolescent (protein requirement 1g/kg) that achieves at least 70% BV through mutual supplementation. List foods, protein grams, and explain the supplementation logic.",
      "a": "Menu: Breakfast – 2 idli (4g) + sambar (3g) = 7g (rice + urad dal); Lunch – 2 chapati (6g) + 1 katori rajma (7g) = 13g (wheat + kidney bean); Snack – 1 glass soy milk (7g); Dinner – 1 katori khichdi (rice+moong dal, 8g) + curd (4g) = 12g. Total = 39g protein (target 60g, but demonstrates principle). Supplementation: cereal (lysine-low) + pulse (methionine-low) at each meal; soy milk and curd add complete proteins. A poor answer that lists only cereals or only pulses shows failure to apply mutual supplementation concept.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Proteins are ______ composed of amino acids linked by peptide bonds, classified based on structure (simple, conjugated, derived), source (animal, plant), and nutritional quality (complete, incomplete); their quality is assessed using indices such as Biological Value (BV) and Net Protein Utilization (NPU) which measure nitrogen retention relative to absorption and intake respectively.",
+     "a": "macromolecules",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"Why do two people eating the same grams of protein from dal and egg have different muscle-building ______?\" This hooks the student to protein quality.",
+     "a": "results",
+     "self_check": true
+    },
+    {
+     "q": "What is Proteins? State the definition given in this lesson.",
+     "a": "Proteins are macromolecules composed of amino acids linked by peptide bonds, classified based on structure (simple, conjugated, derived), source (animal, plant), and nutritional quality (complete, incomplete); their quality is assessed using indices such as Biological Value (BV) and Net Protein Utilization (NPU) which measure nitrogen.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Proteins?",
+     "a": "Students often think \"Biological Value measures how much protein is absorbed\" – confusing absorption with retention.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) classify proteins by structure, source, and nutritional quality with examples, (2) explain at least five physiological functions of proteins, and (3) calculate BV and NPU from given nitrogen balance data, interpreting the results for dietary planning.",
+     "self_check": true
     }
    ]
   }

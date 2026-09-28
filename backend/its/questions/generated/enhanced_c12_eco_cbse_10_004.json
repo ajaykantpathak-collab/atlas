@@ -34,6 +34,21 @@
      "q": "Construct a numerical example where an economy's MPC changes from 0.6 to 0.8 due to a consumer confidence surge. Show the effect on MPS, the multiplier, and the equilibrium income change for a ₹100 crore increase in government spending. Present as a comparison table.",
      "a": "| Scenario | MPC | MPS | k = 1/MPS | ΔG (₹ cr) | ΔY = k×ΔG (₹ cr) |\n|---|---|---|---|---|---|\n| Before | 0.6 | 0.4 | 2.5 | 100 | 250 |\n| After | 0.8 | 0.2 | 5.0 | 100 | 500 |\nA poor answer treats MPC and MPS as independent or calculates k = MPC/MPS. The correct table shows the inverse relationship: higher MPC → lower MPS → larger multiplier → larger income response to the same fiscal stimulus.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The relationship between Marginal Propensity to Consume (MPC) and Marginal Propensity to Save (MPS) is a fundamental ______ identity stating that the sum of MPC and MPS always equals 1 (MPC + MPS = 1), because any additional unit of income (ΔY) must be either consumed (ΔC) or saved (ΔS), and ΔY = ΔC + ΔS by definition of national income accounting.",
+     "a": "macroeconomic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: He must decide: spend it on a new tractor attachment (______) or deposit it in the cooperative bank (saving).",
+     "a": "consumption",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive MPC + MPS = 1 from the income identity Y = C + S, calculate one propensity given the other, and explain why this relationship holds as a mathematical necessity rather than a behavioural assumption.",
+     "self_check": true
     }
    ]
   }

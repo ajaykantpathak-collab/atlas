@@ -375,7 +375,7 @@
     "express the product as a sum or difference",
     "Explain the method of Sum-to-Product and Product-to-Sum Identities."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -392,7 +392,16 @@
      "action": "Simplify the resulting product",
      "explain": "Reduce the angles and cancel common factors to match the target expression."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "expand with the algebraic identity and evaluate",
+     "explain": "expand with the algebraic identity and evaluate: val = 12 * 12 + 2 * 12 * 4 + 4 * 4 gives 256",
+     "compute": "val = 12 * 12 + 2 * 12 * 4 + 4 * 4"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.3.9",

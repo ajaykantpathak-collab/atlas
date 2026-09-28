@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a light microscope and available school lab materials to demonstrate that rough ER is involved in protein synthesis, without using electron microscopy or radioactive labeling.",
      "a": "Good answer: Treat onion root tip cells with cycloheximide (protein synthesis inhibitor) vs control, stain with basophilic dye (methylene blue/toluidine blue) that binds RNA-rich regions. RER-rich regions (basophilic cytoplasm) will show reduced staining in treated cells because ribosomes detach from ER when protein synthesis stops. Alternatively, compare pancreatic acinar cells (high RER, intense basophilia) with adipocytes (low RER, pale cytoplasm) in prepared slides - correlate basophilia intensity with known secretory function. Poor answer (e.g., \"look for rough ER under light microscope\") reveals the student doesn't understand resolution limits of light microscopy or that RER visualization requires RNA staining as proxy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The endoplasmic reticulum (ER) is a network of membranous tubules and flattened sacs (cisternae) extending from the nuclear envelope through the cytoplasm, existing in two forms: rough ER studded with ribosomes for protein synthesis and processing, and smooth ER lacking ribosomes for lipid synthesis, ______, and calcium ion storage.",
+     "a": "detoxification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're watching a factory assembly line where raw ______ enter, get processed, packaged, and shipped to different destinations.",
+     "a": "materials",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can distinguish rough and smooth ER in electron micrographs, explain how ribosome attachment determines function, trace the pathway of a secretory protein from rough ER to Golgi, and predict cellular consequences if either ER type is defective.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're watching a factory assembly line where raw materials enter, get processed, packaged, and shipped to different ______.",
+     "a": "destinations",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Create a realistic scenario involving at least three different types of errors (one cash book omission, one cash book commission, one pass book error) that would cause a ₹15,000 difference between cash book and pass book. Show the BRS starting from cash book debit balance of ₹50,000.",
      "a": "Good answer example: Cash book debit balance ₹50,000. Errors: (1) Cheque issued ₹8,000 not recorded in cash book (omission) → cash book overstated by ₹8,000 → deduct ₹8,000. (2) Cheque deposited ₹10,000 recorded as ₹1,000 in cash book (commission) → cash book understated by ₹9,000 → add ₹9,000. (3) Bank wrongly debited ₹2,000 for another customer's charges (pass book error) → pass book understated by ₹2,000 → add ₹2,000. Net adjustment: -8,000 + 9,000 + 2,000 = +₹3,000. Pass book balance = ₹53,000. Difference explained = ₹3,000 (not ₹15,000 - student must adjust amounts to hit target). A poor answer uses only timing differences or creates errors that don't combine to the required difference, revealing inability to reverse-engineer error effects.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Errors in Cash Book and Pass Book refer to ______ mistakes made either by the business entity while recording transactions in the bank column of the cash book, or by the bank while maintaining the customer's account in the pass book/bank statement, which cause the bank balance as per cash book to differ from the balance as per pass book.",
+     "a": "unintentional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small stationery shop and ______ a cash book.",
+     "a": "maintain",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Classify any given error as either a cash book error or a pass book error and determine its effect on the respective balance; (2) Calculate the correct cash book balance after adjusting for identified errors before preparing the bank reconciliation statement; (3) Explain the treatment of each error in the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small ______ shop and maintain a cash book.",
+     "a": "stationery",
+     "self_check": true
     }
    ]
   }

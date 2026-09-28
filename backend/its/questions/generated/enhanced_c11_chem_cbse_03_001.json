@@ -34,6 +34,26 @@
      "q": "Design a card-sorting activity for Class 11 students to simulate Mendeleev's method of classifying elements. Specify what information each card should carry, the sorting rules, and how the activity demonstrates the need to sometimes invert atomic weight order.",
      "a": "Each card: element symbol, atomic weight (as known in 1869), formulae of oxide and chloride, physical state, metal/non-metal character. Sorting rules: (1) Arrange cards in increasing atomic weight. (2) Group cards with similar oxide/chloride formulae into vertical columns. (3) If an element's properties fit a group better at a slightly different atomic weight position, move it there (inversion). (4) Leave blank cards for gaps where expected properties are missing. The activity shows that chemical behaviour (valency, compound stoichiometry) is the primary classifier; atomic weight order is secondary and can be violated (e.g., Te/I, Ar/K). A poor design would omit compound formulae or forbid inversions, missing the essence of Mendeleev's insight.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mendeleev's Periodic Table arranges the known chemical elements in order of increasing atomic weights such that elements with similar physical and chemical properties recur ______, forming vertical groups; it is based on Mendeleev's Periodic Law which states that the properties of elements are a periodic function of their atomic weights.",
+     "a": "periodically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in a typical Indian ______ laboratory with dozens of reagent bottles: sodium, potassium, calcium, magnesium, chlorine, bromine, iodine, sulfur, phosphorus, etc.",
+     "a": "chemistry",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) articulate why classification of elements is necessary, (2) state Mendeleev's Periodic Law precisely, (3) explain how Mendeleev used atomic weights and compound formulae to arrange elements, including his willingness to invert atomic weight order, (4) describe the prediction of eka-elements.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in a typical Indian chemistry ______ with dozens of reagent bottles: sodium, potassium, calcium, magnesium, chlorine, bromine, iodine, sulfur, phosphorus, etc.",
+     "a": "laboratory",
+     "self_check": true
     }
    ]
   }

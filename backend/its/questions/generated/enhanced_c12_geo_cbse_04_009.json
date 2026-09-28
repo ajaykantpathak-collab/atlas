@@ -34,6 +34,26 @@
      "q": "Design a region-specific rural infrastructure plan for a cluster of 5 villages (total pop. 8,000) in the Sundarbans (West Bengal). Constraints: tidal flooding, saline groundwater, mangrove forest protection laws, high out-migration of men. Specify: (a) water supply strategy; (b) sanitation technology; (c) healthcare delivery model; (d) one livelihood-linked infrastructure. Justify each with geographical reasoning.",
      "a": "Good answer criteria: (a) Water: Rainwater harvesting (rooftop + community ponds with lining) + solar desalination for drinking — because groundwater is saline, rivers are tidal/saline, and piped supply from mainland is vulnerable to cyclones. (b) Sanitation: Elevated twin-pit pour-flush toilets with sealed chambers — because high water table and flooding make conventional pits contaminate water; ecosan/composting avoids groundwater pollution. (c) Healthcare: Boat clinics + telemedicine hubs at Gram Panchayat level — because roads are absent, villages are island-like, and specialist doctors won't relocate. (d) Livelihood: Solar-powered cold storage + ice plant for fish/crab — because high-value perishable catch loses value without cold chain, and women's SHGs can manage it (men migrate). Poor answer: proposes handpumps, septic tanks, building a PHC, or a generic \"skill centre\" — ignores salinity, flooding, forest laws, and gendered migration.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Problems of rural settlements refer to the persistent deficits in physical ______ (roads, electricity, piped water, sanitation, drainage), social services (healthcare, education, banking, markets), and economic opportunities that characterize villages and hamlets, leading to low quality of life, out-migration, and widening rural-urban disparities.",
+     "a": "infrastructure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real observation: ask students to compare their village/town or a nearby village they have visited with the nearest city — list what is missing (pucca roads, regular ______, tap water, hospital, bank, market).",
+     "a": "electricity",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) classify rural settlement problems into infrastructure, services, economic, social, and environmental categories with region-specific Indian examples; (2) explain the causal links between physical geography (terrain, climate, water availability) and the type/severity of infrastructure deficits; (3) evaluate the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real ______: ask students to compare their village/town or a nearby village they have visited with the nearest city — list what is missing (pucca roads, regular electricity, tap water, hospital, bank, market).",
+     "a": "observation",
+     "self_check": true
     }
    ]
   }

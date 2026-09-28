@@ -34,6 +34,26 @@
      "q": "Design a simple real‑world scenario (using an Indian context) where a vector is multiplied by a negative scalar, and describe the physical meaning of the result.",
      "a": "Example: A train moving north at 30 m/s applies emergency brakes and reverses direction at 10 m/s south. The velocity vector **v** = 30ĵ m/s is multiplied by λ = –1/3 to give **v'** = –10ĵ m/s. The negative scalar represents reversal of direction. A poor answer would omit the physical interpretation of the sign change or use a scalar without units.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of a vector by a real number (scalar) λ yields a new vector whose magnitude is |λ| times the magnitude of the original vector, and whose direction is the same as the original vector if λ > 0, opposite if λ < 0, and undefined (null vector) if λ = 0.",
+     "a": "Multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If she doubles her speed, her velocity vector becomes 10 m/s east – ______ doubled, direction unchanged.",
+     "a": "magnitude",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If she doubles her speed, her velocity vector becomes ______ m/s east – magnitude doubled, direction unchanged.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) determine the magnitude and direction of λA for any real λ, (2) explain the physical meaning when λ has dimensions (e.g., time × velocity = displacement), and (3) correctly apply the zero‑vector properties: A + 0 = A, λ0 = 0, 0A = 0.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Create a real-world problem (Indian context) that requires finding the area of a sector where the angle is NOT given directly but must be derived from a time duration or a fraction of the circle. The problem should involve a combined figure (sector + another shape). Provide the problem statement only — do not solve it.",
      "a": "A good problem: \"A circular park of radius 20 m has a 90° sector reserved for a children's play area. The remaining part of the park is a jogging track of uniform width 3 m along the boundary. Find the area of the jogging track. Use π = 22/7.\" This requires: (1) finding area of full circle, (2) area of 90° sector, (3) area of remaining 270° sector, (4) subtracting inner circle area (radius 17 m) for the track portion, (5) combining sector and annular regions. A poor problem like \"Find area of sector with r=10, θ=60°\" is trivial direct application — it does not test derivation of angle or combination of shapes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The area of a sector is the region ______ by two radii and the arc between them.",
+     "a": "enclosed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ garden with a radius of 14 m, and you want to plant flowers only in a 60° sector of it.",
+     "a": "circular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This formula derives from the proportional relationship between the sector's angle and the full circle's angle (______°).",
+     "a": "360",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can solve multi-step word problems involving area of sectors, including finding radius or angle when area is given, solving combined figure problems (sector + triangle/rectangle), and applying the concept to real-world contexts like clock faces, wheel rotations, and grazing areas.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a circular garden with a radius of 14 m, and you want to plant flowers only in a 60° sector of it.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

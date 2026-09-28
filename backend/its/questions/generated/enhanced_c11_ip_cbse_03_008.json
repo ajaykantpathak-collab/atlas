@@ -34,6 +34,31 @@
      "q": "Design a while loop that reads integers from the user until they enter a negative number, then prints the count of positive numbers entered. Write the complete Python code with proper initialization, condition, and update. Explain how your condition handles the first input being negative.",
      "a": "```python\ncount = 0\nnum = int(input(\"Enter a number: \"))\nwhile num >= 0:\n    count = count + 1\n    num = int(input(\"Enter a number: \"))\nprint(\"Positive numbers entered:\", count)\n```\nIf the first input is negative, the condition `num >= 0` is False immediately, the body never runs, count stays 0, and it correctly prints 0. A poor answer (e.g., using `while True` with break, or initializing `num = 0` causing an extra iteration) shows the student cannot structure the priming read and loop condition to handle edge cases correctly.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A while loop is an entry-controlled iteration construct that repeatedly executes a block of statements as long as a specified boolean condition evaluates to True; the condition is tested before each iteration, and the loop terminates ______ when the condition becomes False.",
+     "a": "immediately",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a cashier at a grocery store scanning items until the customer says \"stop\" — you don't know in ______ how many items there are, but you keep scanning while the customer has more items.",
+     "a": "advance",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Similarly, a while loop repeats a task while a condition holds true, like adding numbers until the sum exceeds ______.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) write syntactically correct while loops with proper initialization, condition, and update statements, (2) trace the execution flow using a flowchart or dry-run table showing condition evaluation and body execution for each iteration, and (3) identify and correct infinite loops caused by missing or.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are a cashier at a grocery store scanning items until the customer says \"stop\" — you don't know in advance how many items there are, but you keep scanning while the customer has more items.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

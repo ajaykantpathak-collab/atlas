@@ -1,0 +1,183 @@
+{
+ "catalog": "catalog_class11_economics_ch6.json",
+ "concepts": [
+  {
+   "id": "c11eco.6.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "TFC = 15",
+      "TVC = 38",
+      "TC = TFC + TVC"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "TFC = 6.8",
+      "TVC = 14.8",
+      "TC = TFC + TVC"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "TFC = 88",
+      "TVC = 38",
+      "TC = TFC + TVC"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "TFC = 5.1",
+      "TVC = 97",
+      "TC = TFC + TVC"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "TFC = 77",
+      "TVC = 100",
+      "TC = TFC + TVC"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "TFC = 1.5",
+      "TVC = 89",
+      "TC = TFC + TVC"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "TC = TFC + TVC"
+   ]
+  },
+  {
+   "id": "c11eco.6.6",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "TFC = 36",
+      "Q = 90",
+      "TVC = 34",
+      "AFC = TFC / Q",
+      "AVC = TVC / Q"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "TFC = 91",
+      "Q = 53",
+      "TVC = 5.2",
+      "AFC = TFC / Q",
+      "AVC = TVC / Q"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "TFC = 30",
+      "Q = 23",
+      "TVC = 48",
+      "AFC = TFC / Q",
+      "AVC = TVC / Q"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "TFC = 5.8",
+      "Q = 37",
+      "TVC = 78",
+      "AFC = TFC / Q",
+      "AVC = TVC / Q"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "TFC = 28",
+      "Q = 71",
+      "TVC = 36",
+      "AFC = TFC / Q",
+      "AVC = TVC / Q"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "TFC = 78",
+      "Q = 80",
+      "TVC = 53",
+      "AFC = TFC / Q",
+      "AVC = TVC / Q"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "AFC = TFC / Q",
+    "AVC = TVC / Q"
+   ]
+  },
+  {
+   "id": "c11eco.6.9",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "MR = 29",
+      "MC = MR"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "MR = 33",
+      "MC = MR"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "MR = 89",
+      "MC = MR"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "MR = 88",
+      "MC = MR"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "MR = 78",
+      "MC = MR"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "MR = 46",
+      "MC = MR"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "MC = MR"
+   ]
+  }
+ ]
+}

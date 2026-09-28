@@ -22,7 +22,7 @@
     "scalene isosceles equilateral",
     "acute obtuse right angled"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -39,7 +39,16 @@
      "action": "classify",
      "explain": "By sides: scalene (all different), isosceles (2 equal), equilateral (all equal). By angles: acute (all < 90), obtuse (one > 90), right (one = 90)."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 73 gives 17",
+     "compute": "other = 90 - 73"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m6.2.1",
@@ -56,7 +65,7 @@
     "draw medians of triangle",
     "does median lie in interior"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -73,7 +82,28 @@
      "action": "count",
      "explain": "There are 3 medians, one from each vertex"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the coordinate-geometry formula",
+     "explain": "apply the coordinate-geometry formula: dx = 9 - -3 gives 12",
+     "compute": "dx = 9 - -3"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the coordinate-geometry formula: dy = 15 - -1 gives 16",
+     "compute": "dy = 15 - -1"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 20",
+     "compute": "dist = sqrt(dx * dx + dy * dy)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m6.3.1",
@@ -91,7 +121,7 @@
     "altitude in exterior of triangle",
     "can altitude and median be same"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -108,7 +138,16 @@
      "action": "note position",
      "explain": "Altitude may be inside (acute), on (right), or outside (obtuse) the triangle"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the quadrilateral area formula",
+     "explain": "apply the quadrilateral area formula: area = 18 * 22 gives 396",
+     "compute": "area = 18 * 22"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m6.4.1",
@@ -208,7 +247,7 @@
     "what do you understand by equilateral triangle",
     "list the main points about equilateral triangle"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -225,7 +264,16 @@
      "action": "confirm equilateral",
      "explain": "If all three sides are equal and each angle is 60 degrees, the triangle is equilateral"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 60 gives 30",
+     "compute": "other = 90 - 60"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m6.6.2",
@@ -365,7 +413,7 @@
     "which can be sides of right triangle",
     "identify the right angle"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -382,7 +430,16 @@
      "action": "conclude",
      "explain": "If yes, right-angled with right angle opposite longest side. If no, not right-angled."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 35 gives 55",
+     "compute": "other = 90 - 35"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

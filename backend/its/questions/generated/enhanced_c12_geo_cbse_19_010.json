@@ -34,6 +34,26 @@
      "q": "Design a geographical study using Spearman's rank correlation to investigate the relationship between groundwater depletion and cropping intensity in a semi-arid region. Specify the variables, data source, ranking method, and how you would handle tied ranks.",
      "a": "Variables: (1) Groundwater depletion (m/yr) from CGWB block-level data, (2) Cropping intensity (%) from district agricultural statistics. Rank each variable across blocks (1 = highest depletion, 1 = highest intensity). Compute d and ρ. For tied depletion values, assign average ranks and apply the correction factor Σ(m³-m)/12 for each tied group in the denominator. A poor answer would use raw values without ranking, ignore ties, or choose Pearson's method — showing failure to operationalise Spearman's method in a real geographical inquiry.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Spearman's Rank Correlation Coefficient (ρ or rₛ) is a non-parametric statistical measure that assesses the strength and direction of the monotonic ______ between two variables by converting their raw values into ranks and then computing the Pearson correlation on these ranks.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are comparing the ranking of Indian states by ______ rate (2011 Census) and per capita income (2011-12).",
+     "a": "literacy",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) correctly assign ranks to two geographical variables (handling tied ranks with average ranks), (2) compute Spearman's ρ using the formula ρ = 1 - [6Σd² / n(n²-1)] for no ties or the Pearson-on-ranks formula when ties exist, (3) interpret the magnitude and sign of ρ in geographical context, and (4) decide when.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ the ranking of Indian states by literacy rate (2011 Census) and per capita income (2011-12).",
+     "a": "comparing",
+     "self_check": true
     }
    ]
   }

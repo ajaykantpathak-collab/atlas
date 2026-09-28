@@ -34,6 +34,31 @@
      "q": "Design a pipeline corridor proposal for transporting natural gas from the Krishna-Godavari (KG) Basin offshore fields to the upcoming petrochemical cluster at Paradip (Odisha), considering: (a) seabed topography, (b) forest/wildlife clearances, (c) anchor load requirements, (d) integration with Urja Ganga/NGG. Annotate a sketch map with 5 critical waypoints and justify each.",
      "a": "Good answer criteria: (1) Waypoint 1: KG-D6 onshore terminal (Kakinada/Ravva) — gas processing entry point. (2) Waypoint 2: Rajahmundry — existing GAIL compressor station, tie-in to DVPL. (3) Waypoint 3: Vijayawada — river crossing (Krishna) via HDD, urban bypass. (4) Waypoint 4: Visakhapatnam — alternative coastal route anchor (HPCL refinery, fertiliser), but detour adds 150 km; justify rejection if inland shorter. (5) Waypoint 5: Paradip — destination (IOCL refinery + petrochemical complex, 15 MMTPA anchor load). Justifications must cite: (a) Seabed: avoid Godavari submarine canyon (slope instability) — route 20 km offshore in 50 m contour. (b) Forest: bypass Coringa Wildlife Sanctuary (mangroves) via HDD under estuary. (c) Anchor load: Paradip needs 5 MMSCMD initially — size pipeline for 10 MMSCMD (18–24 inch). (d) Integration: Tap into Urja Ganga (Phulpur–Haldia) at Barauni junction for bidirectional flow. Poor answer: straight line on map ignoring clearances, no compressor station spacing, no diameter sizing.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Pipeline transport is a mode of ______ that uses a network of connected pipes to move liquid petroleum (crude oil, refined products) and natural gas from production sites (oil fields, refineries, import terminals) to consumption centres (refineries, power plants, fertilizer units, city gas distribution networks) under pressure, offering continuous, low-loss, energy-efficient movement without intermediate handling.",
+     "a": "transportation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a LPG ______ delivery truck on your street — it carries pressurised gas in a metal container, making multiple stops, consuming diesel, and creating traffic.",
+     "a": "cylinder",
+     "self_check": true
+    },
+    {
+     "q": "What is Pipeline transport? State the definition given in this lesson.",
+     "a": "Pipeline transport is a mode of transportation that uses a network of connected pipes to move liquid petroleum (crude oil, refined products) and natural gas from production sites (oil fields, refineries, import terminals) to consumption centres (refineries, power plants, fertilizer units, city gas distribution networks) under pressure.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Pipeline transport?",
+     "a": "Students conflate \"pipeline\" as a single generic network and assume all pipelines carry both oil and gas interchangeably.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) trace the route of India's three major trunk pipeline networks (Naharkatiya-Nunmati-Barauni, Salaya-Koyali-Mathura, Hajira-Bijaipur-Jagdishpur) on an outline map and explain the locational logic of each; (2) compare pipeline transport with rail and road for petroleum movement using quantitative parameters (cost per.",
+     "self_check": true
     }
    ]
   }

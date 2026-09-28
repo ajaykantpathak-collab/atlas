@@ -34,6 +34,31 @@
      "q": "Design a simple activity using a convex mirror (e.g., a shiny metal bowl), a laser pointer, and a screen to demonstrate that the principal focus of a convex mirror is virtual. Describe the steps and what you would observe.",
      "a": "Steps: (1) Fix the convex mirror on a stand. (2) Direct a laser beam parallel to the principal axis onto the mirror. (3) Observe the reflected beam diverges. (4) Place a screen in front of the mirror — no sharp spot forms. (5) Extend the reflected ray backward using a ruler or string behind the mirror; the extensions meet at a point F behind the mirror. Observation: The focus cannot be captured on a screen in front; it is virtual. A poor answer that tries to catch the focus on a screen in front shows misunderstanding of virtual vs real focus.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The principal focus of a convex mirror is the point on the principal axis where incident rays parallel to the principal axis appear to diverge from after ______.",
+     "a": "reflection",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the outer curved surface of a stainless steel spoon or a car's side-view mirror — you see a ______, upright image of the surroundings.",
+     "a": "diminished",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The focal length (f) is the distance between the pole (P) and the principal focus (F); for a convex mirror, the focus lies behind the mirror, so the focal length is taken as positive in the Cartesian sign convention and is equal to half the radius of curvature (f = R/______).",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can draw a ray diagram showing parallel rays reflecting off a convex mirror and correctly locate the virtual principal focus behind the mirror, and can calculate the focal length given the radius of curvature (or vice versa) using f = R/2 with correct sign and units.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the outer curved surface of a stainless steel spoon or a car's side-view mirror — you see a diminished, upright image of the ______.",
+     "a": "surroundings",
+     "self_check": true
     }
    ]
   }

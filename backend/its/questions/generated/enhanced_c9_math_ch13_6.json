@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch13_6",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch13_6",
+   "title": "c9_math_ch13_6",
+   "questions": [
+    {
+     "q": "What is the formula for the volume of a cylinder with radius r and height h?\n\nWhat is the formula for the volume of a cylinder with radius r and height h?",
+     "a": "V = πr²h. A wrong answer like V = 2πrh (confusing with curved surface area) or V = πr² (forgetting height) reveals the student hasn’t distinguished volume from surface area formulas or missed that volume requires the third dimension (height).\n\nV = πr²h. A wrong answer like V = 2πrh (confusing with curved surface area) or V = πr² (forgetting height) reveals the student hasn’t distinguished volume from surface area formulas or missed that volume requires the third dimension (height).",
+     "self_check": true
+    },
+    {
+     "q": "Why is the volume of a cylinder calculated as base area multiplied by height, rather than adding the base area and height?\n\nWhy is the volume of a cylinder calculated as base area multiplied by height, rather than adding the base area and height?",
+     "a": "Volume measures 3D space, which requires stacking 2D base layers vertically. Adding area (square units) and height (linear units) is dimensionally inconsistent—you can’t add m² and m. Multiplying m² × m gives m³, the correct unit for volume. A student who suggests addition likely confuses volume with perimeter or doesn’t grasp dimensional analysis.\n\nVolume measures 3D space, which requires stacking 2D base layers vertically. Adding area (square units) and height (linear units) is dimensionally inconsistent—you can’t add m² and m. Multiplying m² × m gives m³, the correct unit for volume. A student who suggests addition likely confuses volume with perimeter or doesn’t grasp dimensional analysis.",
+     "self_check": true
+    },
+    {
+     "q": "A cylindrical juice container has a radius of 7 cm and a height of 20 cm. Calculate its volume in cm³. (Use π = 22/7)\n\nA cylindrical juice container has a radius of 7 cm and a height of 20 cm. Calculate its volume in cm³. (Use π = 22/7)",
+     "a": "Step 1: Identify given values—radius r = 7 cm, height h = 20 cm.  \nStep 2: Write the volume formula: V = πr²h.  \nStep 3: Substitute values: V = (22/7) × (7)² × 20.  \nStep 4: Compute stepwise: (7)² = 49; (22/7) × 49 = 22 × 7 = 154; 154 × 20 = 3080.  \nStep 5: Include units: V = 3080 cm³.  \nA wrong answer like 308 cm³ (forgetting to square radius: used 7 instead of 49) or 6160 cm³ (using diameter instead of radius) shows errors in squaring or misidentifying radius from diameter.\n\nStep 1: Identify given values—radius r = 7 cm, height h = 20 cm.  \nStep 2: Write the volume formula: V = πr²h.  \nStep 3: Substitute values: V = (22/7) × (7)² × 20.  \nStep 4: Compute stepwise: (7)² = 49; (22/7) × 49 = 22 × 7 = 154; 154 × 20 = 3080.  \nStep 5: Include units: V = 3080 cm³.  \nA wrong answer like 308 cm³ (forgetting to square radius: used 7 instead of 49) or 6160 cm³ (using diameter instead of radius) shows errors in squaring or misidentifying radius from diameter.",
+     "self_check": true
+    },
+    {
+     "q": "Two cylinders have the same volume. Cylinder A has radius r and height h. Cylinder B has radius 2r. What is the height of Cylinder B in terms of h?\n\nTwo cylinders have the same volume. Cylinder A has radius r and height h. Cylinder B has radius 2r. What is the height of Cylinder B in terms of h?",
+     "a": "Step 1: Set volumes equal: πr²h = π(2r)²h_B.  \nStep 2: Simplify: πr²h = π × 4r² × h_B.  \nStep 3: Cancel π and r² (non-zero): h = 4h_B.  \nStep 4: Solve for h_B: h_B = h/4.  \nA wrong answer like h_B = h/2 (forgetting to square the radius change: used 2r instead of (2r)² = 4r²) reveals a failure to apply the square in r² when scaling dimensions.\n\nStep 1: Set volumes equal: πr²h = π(2r)²h_B.  \nStep 2: Simplify: πr²h = π × 4r² × h_B.  \nStep 3: Cancel π and r² (non-zero): h = 4h_B.  \nStep 4: Solve for h_B: h_B = h/4.  \nA wrong answer like h_B = h/2 (forgetting to square the radius change: used 2r instead of (2r)² = 4r²) reveals a failure to apply the square in r² when scaling dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the volume of a cylinder with radius 5 cm and height 10 cm as V = (22/7) × 5 × 10 = 157.14 cm³. Identify the error and correct it.\n\nA student calculates the volume of a cylinder with radius 5 cm and height 10 cm as V = (22/7) × 5 × 10 = 157.14 cm³. Identify the error and correct it.",
+     "a": "The error is omitting the square on radius: used r instead of r². Correct calculation: V = (22/7) × (5)² × 10 = (22/7) × 25 × 10 = (22/7) × 250 = 5500/7 ≈ 785.71 cm³. A student who doesn’t see the missing square likely memorizes the formula mechanically without understanding that r² means \"radius squared,\" not \"radius times 2.\"\n\nThe error is omitting the square on radius: used r instead of r². Correct calculation: V = (22/7) × (5)² × 10 = (22/7) × 25 × 10 = (22/7) × 250 = 5500/7 ≈ 785.71 cm³. A student who doesn’t see the missing square likely memorizes the formula mechanically without understanding that r² means \"radius squared,\" not \"radius times 2.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world problem involving the volume of a cylinder that requires solving for height when volume and radius are known. Include specific numbers and units.\n\nDesign a real-world problem involving the volume of a cylinder that requires solving for height when volume and radius are known. Include specific numbers and units.",
+     "a": "Example: \"A cylindrical water tank must hold 5000 litres of water. If its base radius is 1 metre, what should its height be in metres?\" (Solution: Convert 5000 L = 5 m³; V = πr²h → 5 = (22/7)×(1)²×h → h = 5 × 7/22 ≈ 1.59 m). A poor answer lacks unit conversion (e.g., uses 5000 directly as m³) or omits solving for h, showing inability to reverse the formula or handle unit shifts.\n\nExample: \"A cylindrical water tank must hold 5000 litres of water. If its base radius is 1 metre, what should its height be in metres?\" (Solution: Convert 5000 L = 5 m³; V = πr²h → 5 = (22/7)×(1)²×h → h = 5 × 7/22 ≈ 1.59 m). A poor answer lacks unit conversion (e.g., uses 5000 directly as m³) or omits solving for h, showing inability to reverse the formula or handle unit shifts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

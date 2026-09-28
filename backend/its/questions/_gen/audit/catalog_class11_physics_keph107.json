@@ -1,0 +1,251 @@
+{
+ "catalog": "catalog_class11_physics_keph107.json",
+ "concepts": [
+  {
+   "id": "keph107.7.3.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "big_g = 83",
+      "mass_1 = 42",
+      "mass_2 = 96",
+      "separation_sq = 7.8",
+      "f_grav = big_g * mass_1 * mass_2 / separation_sq"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "big_g = 37",
+      "mass_1 = 24",
+      "mass_2 = 174",
+      "separation_sq = 17.3",
+      "f_grav = big_g * mass_1 * mass_2 / separation_sq"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "big_g = 23",
+      "mass_1 = 175",
+      "mass_2 = 104",
+      "separation_sq = 16.7",
+      "f_grav = big_g * mass_1 * mass_2 / separation_sq"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "big_g = 71",
+      "mass_1 = 40",
+      "mass_2 = 128",
+      "separation_sq = 18",
+      "f_grav = big_g * mass_1 * mass_2 / separation_sq"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "big_g = 58",
+      "mass_1 = 106",
+      "mass_2 = 189",
+      "separation_sq = 5.4",
+      "f_grav = big_g * mass_1 * mass_2 / separation_sq"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "big_g = 90",
+      "mass_1 = 2.3",
+      "mass_2 = 57",
+      "separation_sq = 7.1",
+      "f_grav = big_g * mass_1 * mass_2 / separation_sq"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "f_grav = big_g * mass_1 * mass_2 / separation_sq"
+   ]
+  },
+  {
+   "id": "keph107.7.5.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "g_surface = 7.8",
+      "altitude = 82",
+      "planet_radius = 14.9",
+      "g_height = g_surface * (1 - 2 * altitude / planet_radius)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "g_surface = 47",
+      "altitude = 8.8",
+      "planet_radius = 76",
+      "g_height = g_surface * (1 - 2 * altitude / planet_radius)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "g_surface = 81",
+      "altitude = 52",
+      "planet_radius = 40",
+      "g_height = g_surface * (1 - 2 * altitude / planet_radius)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "g_surface = 3.3",
+      "altitude = 47",
+      "planet_radius = 53",
+      "g_height = g_surface * (1 - 2 * altitude / planet_radius)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "g_surface = 28",
+      "altitude = 52",
+      "planet_radius = 65",
+      "g_height = g_surface * (1 - 2 * altitude / planet_radius)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "g_surface = 12.5",
+      "altitude = 34",
+      "planet_radius = 52",
+      "g_height = g_surface * (1 - 2 * altitude / planet_radius)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "g_height = g_surface * (1 - 2 * altitude / planet_radius)"
+   ]
+  },
+  {
+   "id": "keph107.7.8.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "gravity = 57",
+      "planet_radius = 34",
+      "v_escape = sqrt(2 * gravity * planet_radius)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "gravity = 25",
+      "planet_radius = 94",
+      "v_escape = sqrt(2 * gravity * planet_radius)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "gravity = 44",
+      "planet_radius = 30",
+      "v_escape = sqrt(2 * gravity * planet_radius)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "gravity = 21",
+      "planet_radius = 57",
+      "v_escape = sqrt(2 * gravity * planet_radius)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "gravity = 4.9",
+      "planet_radius = 94",
+      "v_escape = sqrt(2 * gravity * planet_radius)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "gravity = 60",
+      "planet_radius = 28",
+      "v_escape = sqrt(2 * gravity * planet_radius)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "v_escape = sqrt(2 * gravity * planet_radius)"
+   ]
+  },
+  {
+   "id": "keph107.7.9.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "orbital_gm = 67",
+      "orbit_radius = 37",
+      "v_orbit = sqrt(orbital_gm / orbit_radius)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "orbital_gm = 73",
+      "orbit_radius = 21",
+      "v_orbit = sqrt(orbital_gm / orbit_radius)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "orbital_gm = 75",
+      "orbit_radius = 68",
+      "v_orbit = sqrt(orbital_gm / orbit_radius)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "orbital_gm = 47",
+      "orbit_radius = 108",
+      "v_orbit = sqrt(orbital_gm / orbit_radius)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "orbital_gm = 11.7",
+      "orbit_radius = 62",
+      "v_orbit = sqrt(orbital_gm / orbit_radius)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "orbital_gm = 44",
+      "orbit_radius = 116",
+      "v_orbit = sqrt(orbital_gm / orbit_radius)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "v_orbit = sqrt(orbital_gm / orbit_radius)"
+   ]
+  }
+ ]
+}

@@ -34,6 +34,21 @@
      "q": "Design a step-by-step conversion checklist (algorithm) that a Class 11 student can use to convert ANY Statement Scale to RF and ANY RF to Statement Scale in kilometers, including error-checking steps.",
      "a": "**Statement Scale → RF Checklist:**\n1. Write statement as \"X cm represents Y [unit]\".\n2. Convert Y to cm (if km: ×100,000; if m: ×100).\n3. Divide both sides by X to get \"1 cm represents Z cm\".\n4. Write RF = 1:Z.\n5. Error-check: Reverse-convert Z cm to km (÷100,000) and verify it matches original Y.\n**RF → Statement Scale (km) Checklist:**\n1. Write RF as 1:Z (Z in cm).\n2. Convert Z cm to km: Z ÷ 100,000 = W km.\n3. Write \"1 cm represents W km\".\n4. Error-check: Convert W km back to cm (×100,000) and verify equals Z.\nA poor answer omits the reduction to 1 cm basis (step 3 in first checklist) or uses wrong conversion factor (×1000 instead of ×100,000).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Conversion between Statement Scale (Verbal Scale) and ______ Fraction (RF) is the mathematical process of expressing the same map-to-ground distance relationship in two different formats: a verbal statement (e.g., \"1 cm represents 1 km\") and a unitless ratio (e.g., 1:100,000), achieved by standardizing both map and ground distances to the same unit (usually centimeters) and forming a ratio of 1 : (ground distance in cm).",
+     "a": "Representative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are using a ______ map of the Himalayas during a geography field trip to measure the actual distance between two mountain peaks.",
+     "a": "topographical",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently convert any given Statement Scale to its correct RF and vice versa, showing all unit conversion steps, and can explain why the RF is unitless while the Statement Scale requires explicit units.",
+     "self_check": true
     }
    ]
   }

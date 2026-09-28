@@ -34,6 +34,31 @@
      "q": "Create a real-world scenario involving a discrete variable where a frequency array would be misleading if the variable's values are not naturally ordered (e.g., nominal categories coded as numbers). Explain why.",
      "a": "Example: \"Disease type coded as 1=Malaria, 2=Dengue, 3=Typhoid\". A frequency array listing 1, 2, 3 with frequencies implies numerical order, but the codes are nominal — 2 is not \"greater than\" 1. The array misleads by suggesting ordinality. A poor answer (e.g., \"any categorical data\") fails to specify the coding trap: numbers used as labels, not measurements.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Frequency Array is a tabular ______ of a discrete variable where each distinct value of the variable is listed alongside its corresponding frequency (the number of times that value occurs in the dataset).",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a class representative asked to summarize the number of ______ each student in your class of 40 has.",
+     "a": "siblings",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a class representative asked to summarize the number of siblings each student in your class of ______ has.",
+     "a": "40",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently construct a frequency array from raw discrete data, correctly tally frequencies for each distinct value, verify that the sum of frequencies equals the total number of observations, and interpret the array to answer questions about concentration of data, mode, and range.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a class ______ asked to summarize the number of siblings each student in your class of 40 has.",
+     "a": "representative",
+     "self_check": true
     }
    ]
   }

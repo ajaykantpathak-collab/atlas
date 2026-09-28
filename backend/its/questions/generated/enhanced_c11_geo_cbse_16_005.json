@@ -34,6 +34,36 @@
      "q": "Design a 3-indicator dashboard for a District Magistrate to monitor occupational structure transition in a predominantly agrarian district (current: Primary 72%, Secondary 12%, Tertiary 16%). Indicators must be measurable annually from existing data sources (Census, PLFS, ASI, UDISE, PM-KISAN), capture both quantity and quality of transition, and flag \"premature deindustrialisation\" risk.",
      "a": "Good dashboard: (1) \"Manufacturing Employment Elasticity\" = %Δ secondary workers / %Δ district GDP (source: PLFS + District GDP estimates) — flags if <0.1 (premature deindustrialisation); (2) \"Formal Tertiary Share\" = (regular wage/salaried tertiary workers) / (total tertiary workers) × 100 (source: PLFS) — captures quality, target >30%; (3) \"Youth Non-Farm Entry Rate\" = % of 15-29 yr new workers in secondary+tertiary (source: PLFS + PM-KISAN beneficiary age data) — tracks structural shift at entry level. Poor answer lists generic indicators (e.g., \"literacy rate,\" \"number of factories\") without measurability, data source linkage, or diagnostic power for the specific risk.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Occupational structure refers to the distribution of a country's working population across different economic sectors — primary (extraction of natural resources: agriculture, mining, forestry, fishing), secondary (manufacturing, processing, construction), and tertiary (services: transport, trade, banking, education, health, ______) — expressed as percentages of the total workforce, and it serves as a key indicator of the level of economic development and structural transformation of an economy.",
+     "a": "administration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at your own neighbourhood: count how many families earn a living from farming, how many work in factories or ______, and how many are in teaching, banking, delivery, or IT.",
+     "a": "construction",
+     "self_check": true
+    },
+    {
+     "q": "What is Occupational structure? State the definition given in this lesson.",
+     "a": "Occupational structure refers to the distribution of a country's working population across different economic sectors — primary (extraction of natural resources: agriculture, mining, forestry, fishing), secondary (manufacturing, processing, construction), and tertiary (services: transport, trade, banking, education, health.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You will notice most adults around you are in services — but travel ______ km to a village and the picture flips.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Occupational structure?",
+     "a": "Students equate \"tertiary sector growth\" with \"development\" and assume all service jobs are high-productivity.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate sectoral workforce percentages from Census data, interpret shifts in occupational structure across Indian states using the Clark-Fisher hypothesis, and explain the discrepancy between sectoral share in employment versus GDP with reference to disguised unemployment in agriculture and the \"jobless growth\".",
+     "self_check": true
     }
    ]
   }

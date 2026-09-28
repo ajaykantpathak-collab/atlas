@@ -34,6 +34,31 @@
      "q": "Design a simple experiment to demonstrate that H₂O₂ acts as a reducing agent with acidified KMnO₄ but as an oxidizing agent with KI. List observations and write both ionic equations.",
      "a": "Experiment: (1) Add few drops of H₂O₂ to acidified KMnO₄ (purple) → colorless (Mn²⁺). (2) Add H₂O₂ to acidified KI + starch → blue-black (I₂). Equations: (1) 2MnO₄⁻ + 5H₂O₂ + 6H⁺ → 2Mn²⁺ + 5O₂ + 8H₂O (H₂O₂ reducing). (2) H₂O₂ + 2I⁻ + 2H⁺ → I₂ + 2H₂O (H₂O₂ oxidizing). A poor answer omits starch indicator or writes molecular equations instead of ionic.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Hydrogen peroxide (H₂O₂) is a pale blue, viscous liquid that acts as a ______ oxidizing and reducing agent due to the unstable O–O peroxide linkage (oxidation state –1 for oxygen).",
+     "a": "versatile",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the brown bottle in a first-aid kit or the fizz when you pour hydrogen peroxide on a wound – that effervescence is oxygen gas from rapid ______ catalyzed by enzymes in blood.",
+     "a": "decomposition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Hydrogen peroxide (H₂O₂) is a pale blue, viscous liquid that acts as a versatile oxidizing and reducing agent due to the unstable O–O peroxide linkage (oxidation state –______ for oxygen).",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write balanced equations for the laboratory and industrial preparation of H₂O₂, explain its oxidizing/reducing behavior in acidic and alkaline media using half-reactions, and predict products of its reactions with common oxidizing/reducing agents (e.g., KMnO₄, KI, SO₂).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the brown bottle in a first-aid kit or the fizz when you pour hydrogen peroxide on a wound – that ______ is oxygen gas from rapid decomposition catalyzed by enzymes in blood.",
+     "a": "effervescence",
+     "self_check": true
     }
    ]
   }

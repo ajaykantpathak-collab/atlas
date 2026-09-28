@@ -34,6 +34,36 @@
      "q": "Design a photo-specification table for a new aerial survey of the Sundarbans mangrove delta (tidal, low-relief, cloudy) at 1:10,000 scale for tidal creek mapping. Specify: camera type, flying height, film/sensor, overlap, season, and platform. Justify each choice.",
      "a": "| Parameter | Specification | Justification |\n|-----------|---------------|---------------|\n| Camera | Metric digital (e.g., Vexcel UltraCam) | High dynamic range for water/vegetation contrast; no film processing delay |\n| Focal length | 100 mm | Standard for large-scale mapping; balances coverage and resolution |\n| Flying height AMSL | 1000 m (H–h ≈ 1000 m, h ≈ 0 m) | Scale = f/(H–h) = 100mm/1000m = 1:10,000. Low relief → minimal scale variation |\n| Overlap | 60% forward, 30% lateral | Standard for stereo; extra forward overlap compensates for featureless water |\n| Season | Dec–Jan (post-monsoon, low tide) | Minimum cloud, maximum creek exposure at low tide |\n| Platform | Twin-engine aircraft (e.g., Cessna 404) | Endurance for large area; stable for low-tide window; operates from Kolkata airport |\nA poor answer copies generic specs without adapting to **tidal dynamics** (low tide timing), **cloud climatology** (post-monsoon), or **near-zero relief** (simplified height calculation) — showing they cannot transfer principles to a specific Indian environment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Aerial photography is the technique of capturing photographs of the Earth's surface from an elevated platform (aircraft, drone, or balloon) using a precision camera mounted vertically or at an angle, producing a perspective projection that records spatial information for mapping, measurement, and ______.",
+     "a": "interpretation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a Survey of India cartographer in 1950 tasked with ______ the rugged terrain of the Western Ghats.",
+     "a": "mapping",
+     "self_check": true
+    },
+    {
+     "q": "What is Aerial photography? State the definition given in this lesson.",
+     "a": "Aerial photography is the technique of capturing photographs of the Earth's surface from an elevated platform (aircraft, drone, or balloon) using a precision camera mounted vertically or at an angle, producing a perspective projection that records spatial information for mapping, measurement, and interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This central projection geometry is the foundation — every measurement, every ______D model, every interpreted feature traces back to this optical principle.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Aerial photography?",
+     "a": "Students believe aerial photographs are \"just photos from planes\" and equate them with satellite images or drone selfies.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the geometric principle of central projection in aerial photography, distinguish between vertical and oblique photographs with labelled diagrams, and justify why aerial photographs are preferred over ground surveys for topographical mapping in the Indian context.",
+     "self_check": true
     }
    ]
   }

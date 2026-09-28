@@ -34,6 +34,31 @@
      "q": "Design a two-step synthesis of 4-methylbenzaldehyde from toluene using only reactions covered in Class 12 NCERT. Specify reagents for each step. (Hint: Rosenmund reduction is step 2.)",
      "a": "Step 1: Side-chain chlorination of toluene (Cl₂, hv) → 4-methylbenzyl chloride (p-ClCH₂-C₆H₄-CH₃) — but wait, that gives mixture. Better: Oxidation of p-xylene? Actually, NCERT teaches: toluene → (CrO₂Cl₂, then H₂O) → p-tolualdehyde (Etard) but that's direct. For Rosenmund route: Step 1: p-xylene (1,4-dimethylbenzene) → side-chain chlorination (Cl₂, hv) → p-(chloromethyl)benzyl chloride? No. Standard route: p-toluic acid → SOCl₂ → p-methylbenzoyl chloride → Rosenmund. But p-toluic acid from p-xylene oxidation (KMnO₄). So: Step 1: p-xylene + KMnO₄/Δ → p-toluic acid; then SOCl₂ → p-methylbenzoyl chloride. Step 2: Rosenmund reduction (H₂, Pd/BaSO₄, quinoline) → 4-methylbenzaldehyde. A student who writes \"toluene + Cl₂/hv → benzyl chloride → Rosenmund\" gets benzaldehyde, not 4-methylbenzaldehyde — revealing inability to plan regioselective synthesis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Rosenmund reduction is the catalytic ______ of an acyl chloride (acid chloride) to an aldehyde using hydrogen gas over a palladium catalyst deposited on barium sulfate (Pd/BaSO₄), often poisoned with quinoline or sulfur to prevent over-reduction to the primary alcohol.",
+     "a": "hydrogenation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in a pharmaceutical lab needing pure ______ for a synthesis — but direct oxidation of toluene gives benzoic acid, and reducing benzoic acid gives benzyl alcohol.",
+     "a": "benzaldehyde",
+     "self_check": true
+    },
+    {
+     "q": "What is Rosenmund reduction? State the definition given in this lesson.",
+     "a": "Rosenmund reduction is the catalytic hydrogenation of an acyl chloride (acid chloride) to an aldehyde using hydrogen gas over a palladium catalyst deposited on barium sulfate (Pd/BaSO₄), often poisoned with quinoline or sulfur to prevent over-reduction to the primary alcohol.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Rosenmund reduction?",
+     "a": "Students often write the catalyst as \"Pd/BaSO₄\" but forget the poison (quinoline/sulfur), then claim the product is the alcohol because \"hydrogenation reduces carbonyls to alcohols\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) write the balanced chemical equation for Rosenmund reduction given any acyl chloride, (2) explain the role of BaSO₄ and the catalyst poison in controlling selectivity, and (3) predict the aldehyde product from a given acyl chloride and identify when this method is preferred over other aldehyde syntheses.",
+     "self_check": true
     }
    ]
   }

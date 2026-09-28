@@ -34,6 +34,16 @@
      "q": "Create a real-world problem (e.g., from physics, economics, or geometry) where the rate of change of a product of two quantities is needed. Define the quantities, write the product function, and set up the derivative using the product rule (do not solve).",
      "a": "Example: A rectangular garden's length increases at 2 m/year and width at 1 m/year. At a certain time, length = 10 m, width = 5 m. Find the rate of change of area.  \nLet \\(L(t) = 10 + 2t\\), \\(W(t) = 5 + t\\). Area \\(A(t) = L(t)W(t)\\).  \n\\(\\frac{dA}{dt} = L'(t)W(t) + L(t)W'(t) = 2(5+t) + (10+2t)(1)\\).  \nA poor answer would give unrelated quantities (e.g., speed and time) or forget to define functions of time. A good answer shows understanding that product rule applies when two changing quantities multiply to give a third quantity of interest.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The algebra of derivatives provides rules to ______ combinations of functions without using the first principle each time.",
+     "a": "differentiate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To find the slope (steepness) at any point, you need the ______.",
+     "a": "derivative",
+     "self_check": true
     }
    ]
   }

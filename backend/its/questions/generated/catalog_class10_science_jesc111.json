@@ -4,81 +4,46 @@
   {
    "id": "jesc.111.11.1",
    "title": "Electric Current and Potential Difference",
+   "converted_to_compute": true,
+   "formula": "current = charge / time",
    "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
-     "name": "time_in_minutes",
-     "expr": "time / 60",
-     "explain": "the same time in minutes"
-    },
-    {
-     "step": 2,
-     "name": "charge_per_minute",
-     "expr": "charge / time_in_minutes",
-     "explain": "charge shifted per minute"
-    },
-    {
-     "step": 3,
-     "name": "current",
-     "expr": "charge / time",
-     "explain": "I = Q/t"
+     "action": "substitute the given values into the formula",
+     "explain": "current = charge / time",
+     "compute": "current = charge / time"
     }
    ],
    "questions": [
     {
-     "q": "10 C of charge flows in 5 s through a conductor. Find the current.",
-     "vals": {
-      "charge": 10,
-      "time": 5
-     },
-     "unit": "A",
-     "steps": null,
-     "a": "2 A",
+     "q": "For Electric Current and Potential Difference: given charge = 16.2, time = 84, find current.",
+     "a": "0.192857",
      "self_check": false
     },
     {
-     "q": "A charge of 0.8 C passes in 0.4 s. Calculate the current.",
-     "vals": {
-      "charge": 0.8,
-      "time": 0.4
-     },
-     "unit": "A",
-     "steps": null,
-     "a": "2 A",
+     "q": "For Electric Current and Potential Difference: given charge = 18, time = 16.9, find current.",
+     "a": "1.06509",
      "self_check": false
     },
     {
-     "q": "15 C crosses a lamp in 3 s. What current flows?",
-     "vals": {
-      "charge": 15,
-      "time": 3
-     },
-     "unit": "A",
-     "steps": null,
-     "a": "5 A",
+     "q": "For Electric Current and Potential Difference: given charge = 29, time = 1.7, find current.",
+     "a": "17.0588",
      "self_check": false
     },
     {
-     "q": "7 C of charge moves in 3.5 s. Compute the current.",
-     "vals": {
-      "charge": 7,
-      "time": 3.5
-     },
-     "unit": "A",
-     "steps": null,
-     "a": "2 A",
+     "q": "For Electric Current and Potential Difference: given charge = 24, time = 83, find current.",
+     "a": "0.289157",
      "self_check": false
     },
     {
-     "q": "45 C is transported in 90 s. Find the steady current.",
-     "vals": {
-      "charge": 45,
-      "time": 90
-     },
-     "unit": "A",
-     "steps": null,
-     "a": "0.5 A",
+     "q": "For Electric Current and Potential Difference: given charge = 8.1, time = 64, find current.",
+     "a": "0.126562",
+     "self_check": false
+    },
+    {
+     "q": "For Electric Current and Potential Difference: given charge = 23, time = 15.1, find current.",
+     "a": "1.52318",
      "self_check": false
     }
    ]
@@ -86,81 +51,46 @@
   {
    "id": "jesc.111.11.2",
    "title": "Ohm's Law - Current, Voltage and Resistance",
+   "converted_to_compute": true,
+   "formula": "potential = current * resistance",
    "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
-     "name": "half_resistance",
-     "expr": "resistance / 2",
-     "explain": "resistance of a thinner wire"
-    },
-    {
-     "step": 2,
-     "name": "half_r_voltage",
-     "expr": "current * half_resistance",
-     "explain": "voltage across it"
-    },
-    {
-     "step": 3,
-     "name": "potential",
-     "expr": "current * resistance",
-     "explain": "V = IR"
+     "action": "substitute the given values into the formula",
+     "explain": "potential = current * resistance",
+     "compute": "potential = current * resistance"
     }
    ],
    "questions": [
     {
-     "q": "A 2 A current passes through 6 ohm. What is the potential difference?",
-     "vals": {
-      "current": 2,
-      "resistance": 6
-     },
-     "unit": "V",
-     "steps": null,
-     "a": "12 V",
+     "q": "For Ohm's Law - Current, Voltage and Resistance: given current = 10.2, resistance = 302, find potential.",
+     "a": "3080.4",
      "self_check": false
     },
     {
-     "q": "A 0.5 A current in a 10 ohm resistor: find the p.d.",
-     "vals": {
-      "current": 0.5,
-      "resistance": 10
-     },
-     "unit": "V",
-     "steps": null,
-     "a": "5 V",
+     "q": "For Ohm's Law - Current, Voltage and Resistance: given current = 27, resistance = 240, find potential.",
+     "a": "6480",
      "self_check": false
     },
     {
-     "q": "1.2 A flows in a 5 ohm coil. Calculate the voltage across it.",
-     "vals": {
-      "current": 1.2,
-      "resistance": 5
-     },
-     "unit": "V",
-     "steps": null,
-     "a": "6 V",
+     "q": "For Ohm's Law - Current, Voltage and Resistance: given current = 25, resistance = 231, find potential.",
+     "a": "5775",
      "self_check": false
     },
     {
-     "q": "Through 40 ohm a current of 0.25 A flows. What p.d. drives it?",
-     "vals": {
-      "current": 0.25,
-      "resistance": 40
-     },
-     "unit": "V",
-     "steps": null,
-     "a": "10 V",
+     "q": "For Ohm's Law - Current, Voltage and Resistance: given current = 3.8, resistance = 149, find potential.",
+     "a": "566.2",
      "self_check": false
     },
     {
-     "q": "A 3 A current passes through 1.5 ohm. Find the potential difference.",
-     "vals": {
-      "current": 3,
-      "resistance": 1.5
-     },
-     "unit": "V",
-     "steps": null,
-     "a": "4.5 V",
+     "q": "For Ohm's Law - Current, Voltage and Resistance: given current = 3.9, resistance = 99, find potential.",
+     "a": "386.1",
+     "self_check": false
+    },
+    {
+     "q": "For Ohm's Law - Current, Voltage and Resistance: given current = 7, resistance = 390, find potential.",
+     "a": "2730",
      "self_check": false
     }
    ]
@@ -168,81 +98,46 @@
   {
    "id": "jesc.111.11.3",
    "title": "Series and Parallel Circuits",
+   "converted_to_compute": true,
+   "formula": "series_res = r_1 + r_2",
    "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
-     "name": "mean_resistance",
-     "expr": "(r1 + r2) / 2",
-     "explain": "average of the two resistors"
-    },
-    {
-     "step": 2,
-     "name": "r1_doubled",
-     "expr": "r1 * 2",
-     "explain": "total if both were like the first"
-    },
-    {
-     "step": 3,
-     "name": "series_res",
-     "expr": "r1 + r2",
-     "explain": "series resistances add"
+     "action": "substitute the given values into the formula",
+     "explain": "series_res = r_1 + r_2",
+     "compute": "series_res = r_1 + r_2"
     }
    ],
    "questions": [
     {
-     "q": "Resistors of 3 ohm and 4 ohm are in series. Find the total.",
-     "vals": {
-      "r1": 3,
-      "r2": 4
-     },
-     "unit": "ohm",
-     "steps": null,
-     "a": "7 ohm",
+     "q": "For Series and Parallel Circuits: given r_1 = 99, r_2 = 8, find series res.",
+     "a": "107",
      "self_check": false
     },
     {
-     "q": "Two 2 ohm bulbs are in series. What is the combined resistance?",
-     "vals": {
-      "r1": 2,
-      "r2": 2
-     },
-     "unit": "ohm",
-     "steps": null,
-     "a": "4 ohm",
+     "q": "For Series and Parallel Circuits: given r_1 = 42, r_2 = 93, find series res.",
+     "a": "135",
      "self_check": false
     },
     {
-     "q": "A 10 ohm and a 15 ohm resistor are joined in series. Calculate the equivalent resistance.",
-     "vals": {
-      "r1": 10,
-      "r2": 15
-     },
-     "unit": "ohm",
-     "steps": null,
-     "a": "25 ohm",
+     "q": "For Series and Parallel Circuits: given r_1 = 44, r_2 = 1.2, find series res.",
+     "a": "45.2",
      "self_check": false
     },
     {
-     "q": "Two wires of 0.5 ohm each are in series. Find the total resistance.",
-     "vals": {
-      "r1": 0.5,
-      "r2": 0.5
-     },
-     "unit": "ohm",
-     "steps": null,
-     "a": "1 ohm",
+     "q": "For Series and Parallel Circuits: given r_1 = 21, r_2 = 80, find series res.",
+     "a": "101",
      "self_check": false
     },
     {
-     "q": "A 6 ohm and a 9 ohm resistor sit in series. Compute the total.",
-     "vals": {
-      "r1": 6,
-      "r2": 9
-     },
-     "unit": "ohm",
-     "steps": null,
-     "a": "15 ohm",
+     "q": "For Series and Parallel Circuits: given r_1 = 90, r_2 = 72, find series res.",
+     "a": "162",
+     "self_check": false
+    },
+    {
+     "q": "For Series and Parallel Circuits: given r_1 = 77, r_2 = 8.9, find series res.",
+     "a": "85.9",
      "self_check": false
     }
    ]
@@ -250,81 +145,46 @@
   {
    "id": "jesc.111.11.4",
    "title": "Heating Effect and Electric Power",
+   "converted_to_compute": true,
+   "formula": "power = potential * current",
    "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
-     "name": "current_ma",
-     "expr": "current * 1000",
-     "explain": "current in milliamperes"
-    },
-    {
-     "step": 2,
-     "name": "voltage_kv",
-     "expr": "potential / 1000",
-     "explain": "voltage in kilovolts"
-    },
-    {
-     "step": 3,
-     "name": "power",
-     "expr": "potential * current",
-     "explain": "P = V x I"
+     "action": "substitute the given values into the formula",
+     "explain": "power = potential * current",
+     "compute": "power = potential * current"
     }
    ],
    "questions": [
     {
-     "q": "A heater on 220 V draws 2 A. Find its power.",
-     "vals": {
-      "potential": 220,
-      "current": 2
-     },
-     "unit": "W",
-     "steps": null,
-     "a": "440 W",
+     "q": "For Heating Effect and Electric Power: given potential = 18.7, current = 5.4, find power.",
+     "a": "100.98",
      "self_check": false
     },
     {
-     "q": "A bulb at 12 V takes 0.5 A. What power does it use?",
-     "vals": {
-      "potential": 12,
-      "current": 0.5
-     },
-     "unit": "W",
-     "steps": null,
-     "a": "6 W",
+     "q": "For Heating Effect and Electric Power: given potential = 100, current = 18.6, find power.",
+     "a": "1860",
      "self_check": false
     },
     {
-     "q": "A motor on 9 V draws 0.8 A. Calculate the power.",
-     "vals": {
-      "potential": 9,
-      "current": 0.8
-     },
-     "unit": "W",
-     "steps": null,
-     "a": "7.2 W",
+     "q": "For Heating Effect and Electric Power: given potential = 35, current = 21, find power.",
+     "a": "735",
      "self_check": false
     },
     {
-     "q": "A device on 220 V uses 0.3 A. Compute its power rating.",
-     "vals": {
-      "potential": 220,
-      "current": 0.3
-     },
-     "unit": "W",
-     "steps": null,
-     "a": "66 W",
+     "q": "For Heating Effect and Electric Power: given potential = 187, current = 16.3, find power.",
+     "a": "3048.1",
      "self_check": false
     },
     {
-     "q": "A toy runs on 6 V drawing 2.5 A. Find its power.",
-     "vals": {
-      "potential": 6,
-      "current": 2.5
-     },
-     "unit": "W",
-     "steps": null,
-     "a": "15 W",
+     "q": "For Heating Effect and Electric Power: given potential = 242, current = 23, find power.",
+     "a": "5566",
+     "self_check": false
+    },
+    {
+     "q": "For Heating Effect and Electric Power: given potential = 395, current = 9.5, find power.",
+     "a": "3752.5",
      "self_check": false
     }
    ]

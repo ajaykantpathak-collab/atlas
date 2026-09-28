@@ -4,15 +4,9 @@
   {
    "id": "jemh.106.2.1",
    "title": "Similarity of Polygons",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute the given values and simplify",
-     "explain": "substitute the given values and simplify: val = 3 * 9 + 6 gives 33",
-     "compute": "val = 3 * 9 + 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "side_ratio = polygon1_side / polygon2_side",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 6 when x = 9.",
@@ -50,10 +44,12 @@
    "id": "jemh.106.3.1",
    "title": "Basic Proportionality Theorem Segment Calculation",
    "converted_to_compute": false,
+   "formula": "segment_d = segment_b * segment_c / segment_a",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 4 : 24 in its simplest form and give the first term of the simplest form.",
-     "a": "2",
+     "a": "1",
      "self_check": false
     },
     {
@@ -86,15 +82,9 @@
   {
    "id": "jemh.106.3.2",
    "title": "Converse of Basic Proportionality Theorem",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "set up the proportion and solve for the unknown part",
-     "explain": "set up the proportion and solve for the unknown part: t1 = 12 / 6 gives 2",
-     "compute": "t1 = 12 / 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "AD / DB == AE / EC implies DE || BC",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 12 : 54 in its simplest form and give the first term of the simplest form.",
@@ -131,15 +121,9 @@
   {
    "id": "jemh.106.4.1",
    "title": "AA and AAA Similarity Criteria",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 10 gives 80",
-     "compute": "other = 90 - 10"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "angle_A = angle_D and angle_B = angle_E implies triangle_ABC ~ triangle_DEF",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 10 degrees, find the other.",
@@ -176,15 +160,9 @@
   {
    "id": "jemh.106.4.2",
    "title": "SSS Similarity Criterion",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the congruence condition and angle sums",
-     "explain": "use the congruence condition and angle sums: third = 180 - 56 - 55 gives 69",
-     "compute": "third = 180 - 56 - 55"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "AB / DE = BC / EF = CA / FD",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two triangles are congruent. In triangle one the angles are 56 and 55 degrees; the third angle is what? (The third angles must match.)",
@@ -221,15 +199,9 @@
   {
    "id": "jemh.106.4.3",
    "title": "SAS Similarity Criterion",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 40 gives 50",
-     "compute": "other = 90 - 40"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "AB / DE = AC / DF and angle_A = angle_D",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 40 degrees, find the other.",
@@ -267,10 +239,12 @@
    "id": "jemh.106.4.4",
    "title": "Indirect Measurement of Heights using Shadows",
    "converted_to_compute": false,
+   "formula": "height_tower = height_pole * shadow_tower / shadow_pole",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 60 : 80 in its simplest form and give the first term of the simplest form.",
-     "a": "6",
+     "a": "3",
      "self_check": false
     },
     {
@@ -304,6 +278,8 @@
    "id": "jemh.106.4.5",
    "title": "Dynamic Shadow Length of a Walking Person",
    "converted_to_compute": false,
+   "formula": "shadow = (speed * time) / (lamp_height / girl_height - 1)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 3 : 21 in its simplest form and give the first term of the simplest form.",

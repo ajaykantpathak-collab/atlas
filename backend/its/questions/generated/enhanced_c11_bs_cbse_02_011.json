@@ -34,6 +34,36 @@
      "q": "Design a new hypothetical form of business organisation called a \"Community Enterprise\" that combines the limited liability of a Company, the democratic control of a Cooperative, and the formation ease of a Partnership. Specify its rules for: (a) Minimum/Maximum members, (b) Liability, (c) Management, (d) Continuity, (e) Capital raising. Explain which existing form it most closely resembles and why it doesn't exist in current Indian law.",
      "a": "**Community Enterprise Design**:\n(a) Members: Min 2, Max 100 (like Private Company but higher than Partnership's 50).\n(b) Liability: Limited to capital contribution (like Company/Cooperative).\n(c) Management: Elected Board (1 member = 1 vote) but Board appoints professional CEO (hybrid democratic + professional).\n(d) Continuity: Perpetual succession (like Company).\n(e) Capital: Can accept deposits from members only (like Cooperative), cannot invite public (like Private Company), can issue debentures to members.\n**Closest Resemblance**: **Cooperative Society** (democratic control, limited liability, member-based capital) but with Partnership-like formation ease (no compulsory registration? But registration gives legal identity—trade-off). **Why it doesn't exist**: Indian law separates \"member-owned democratic\" (Cooperative Societies Act) from \"investor-owned corporate\" (Companies Act). A hybrid would blur the regulatory frameworks—RBI/SEBI regulate capital raising, Registrar of Companies/Cooperatives regulate governance. The \"Community Enterprise\" would fall into a regulatory gap. A good answer identifies the regulatory conflict; a poor answer just lists features without analyzing legal feasibility.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Distinction between Forms of Business Organisation refers to the systematic comparison of the five major forms—Sole ______, Joint Hindu Family Business, Partnership, Cooperative Society, and Joint Stock Company (Private and Public)—across critical parameters such as formation procedure, membership rules, capital availability, liability of owners, control and management structure, and continuity of existence, to enable an informed choice of the most suitable structure for a specific business context.",
+     "a": "Proprietorship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine Neha from the chapter opening: her pottery business has grown from a home-based sole ______ to three retail branches, and she now needs ₹50 lakh for nationwide expansion.",
+     "a": "proprietorship",
+     "self_check": true
+    },
+    {
+     "q": "What is Distinction between Forms of Business Organisation? State the definition given in this lesson.",
+     "a": "Distinction between Forms of Business Organisation refers to the systematic comparison of the five major forms—Sole Proprietorship, Joint Hindu Family Business, Partnership, Cooperative Society, and Joint Stock Company (Private and Public)—across critical parameters such as formation procedure, membership rules, capital availability.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine Neha from the chapter opening: her pottery business has grown from a home-based sole proprietorship to three retail branches, and she now needs ₹______ lakh for nationwide expansion.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Distinction between Forms of Business Organisation?",
+     "a": "Students often believe \"Partnership has limited liability because losses are shared among partners.\" This is a fundamental confusion between *sharing losses* (internal profit/loss sharing ratio) and *legal liability to external creditors*.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly compare any two forms of business organisation on at least five parameters (formation, liability, continuity, control, capital) using precise terminology, and justify the optimal choice for a given business scenario by weighing trade-offs between risk, control, and resource requirements.",
+     "self_check": true
     }
    ]
   }

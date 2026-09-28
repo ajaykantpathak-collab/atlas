@@ -34,6 +34,21 @@
      "q": "Design a simple identification key (dichotomous or tabular) that allows a student to distinguish an isolated human bone as belonging to: (i) axial vs. appendicular skeleton, (ii) specific region (e.g., cervical vertebra vs. lumbar vertebra, rib vs. clavicle, femur vs. humerus). Include at least 4 distinguishing features.",
      "a": "**Key:**\n1. Does the bone articulate directly with the vertebral column or skull? → Yes: Axial (vertebra, rib, sternum, skull bone). No: Appendicular (limb bone, girdle bone).\n2. If axial: Is it a vertebra? → Yes: Check foramen transversarium (cervical), long spinous process (thoracic), massive body (lumbar), fused (sacrum/coccyx). No: Is it flat and curved? → Rib (bicephalic head, costal groove). Is it flat and dagger-shaped? → Sternum.\n3. If appendicular: Is it a girdle bone? → Flat triangular with glenoid cavity = scapula; S-shaped slender = clavicle; Fused ilium/ischium/pubis with acetabulum = coxal bone.\n4. If limb bone: Long bone with hemispherical head = femur (medial condyles, linea aspera) or humerus (deltoid tuberosity, olecranon fossa). Forearm: radius (radial tuberosity, distal styloid) vs. ulna (olecranon process, trochlear notch). A poor key uses only size/length, ignoring diagnostic features like foramina, fossae, and articulation surfaces.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The human skeletal system is a framework of 206 bones and associated cartilages divided into two principal divisions: the axial skeleton (80 bones along the body's central axis comprising skull, vertebral column, sternum, and ribs) and the ______ skeleton (126 bones of the limbs and their girdles).",
+     "a": "appendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a human skeleton model or diagram: notice the central vertical column (axial) versus the paired limbs hanging from it (______).",
+     "a": "appendicular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly classify all 206 bones into axial and appendicular divisions, name and count bones in each subdivision (e.g., 22 skull bones, 26 vertebrae, 12 rib pairs, 30 bones per limb), and explain the structural basis for the dicondylic skull, bicephalic ribs, and the acetabulum's role in hip articulation.",
+     "self_check": true
     }
    ]
   }

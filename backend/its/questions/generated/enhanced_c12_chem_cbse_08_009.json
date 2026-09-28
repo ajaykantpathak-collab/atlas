@@ -34,6 +34,26 @@
      "q": "Design a simple laboratory experiment to determine the relative acidity of acetic acid, chloroacetic acid, and dichloroacetic acid using only pH paper, 0.1 M solutions of each acid, and a conductivity tester. Describe the procedure, expected observations, and how you would rank them.",
      "a": "Procedure: Prepare 0.1 M solutions of each acid. Dip pH paper into each — lower pH = stronger acid. Use conductivity tester (bulb brightness) — higher conductivity = more H⁺ = stronger acid. Expected: dichloroacetic acid (pKa ~1.3) shows lowest pH (~1.5) and brightest bulb; chloroacetic acid (pKa 2.86) shows pH ~2.0; acetic acid (pKa 4.76) shows pH ~2.9 and dimmest bulb. Rank: Cl₂CHCOOH > ClCH₂COOH > CH₃COOH. A poor answer that suggests \"titrate with NaOH\" ignores the constraint \"using only pH paper and conductivity tester\" — revealing inability to design experiments within given resources.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Carboxylic acid acidity is quantified by its acid dissociation constant (Ka) or pKa (=-log Ka), reflecting the equilibrium RCOOH + H₂O ⇌ RCOO⁻ + H₃O⁺; substituent effects alter acidity by stabilizing/______ the carboxylate anion through inductive (-I/+I) and resonance (-R/+R) effects, with electron-withdrawing groups increasing acidity and electron-donating groups decreasing it.",
+     "a": "destabilizing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe that vinegar (5% acetic acid, pKa 4.76) tastes mildly sour, while ant sting (formic acid, pKa 3.75) hurts more, and ______ acid (pKa 0.7) is used clinically to peel skin — all are carboxylic acids but their acid strengths differ wildly.",
+     "a": "trichloroacetic",
+     "self_check": true
+    },
+    {
+     "q": "What is Carboxylic acid acidity? State the definition given in this lesson.",
+     "a": "Carboxylic acid acidity is quantified by its acid dissociation constant (Ka) or pKa (=-log Ka), reflecting the equilibrium RCOOH + H₂O ⇌ RCOO⁻ + H₃O⁺; substituent effects alter acidity by stabilizing/destabilizing the carboxylate anion through inductive (-I/+I) and resonance (-R/+R) effects, with electron-withdrawing groups increasing.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) rank carboxylic acids by acidity using pKa values and substituent effects, (2) draw resonance structures of carboxylate anion and explain its stabilization vs phenoxide, (3) predict the direction and magnitude of pKa change for α-substituted aliphatic and ring-substituted aromatic carboxylic acids, and (4) solve numerical.",
+     "self_check": true
     }
    ]
   }

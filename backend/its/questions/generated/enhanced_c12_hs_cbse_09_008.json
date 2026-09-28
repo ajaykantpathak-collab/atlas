@@ -34,6 +34,31 @@
      "q": "Design a one-day menu for a 28-year-old female night-shift nurse (moderate activity, 2110 kcal RDA) who sleeps 7 am–2 pm, works 8 pm–8 am. The menu must: (a) distribute protein evenly across 4 eating occasions (≥20 g each), (b) include ≥400 mg calcium in the pre-shift meal, (c) limit caffeine to ≤200 mg post-midnight, (d) provide ≥500 mg potassium in the post-shift recovery meal. Specify foods with weights.",
      "a": "Pre-shift (6:30 pm): 150g curd + 50g roasted chana + 100g banana + 2 ragi rotis (protein 22g, Ca 420mg, K 800mg). During shift (10 pm): 100g paneer bhurji + 2 multigrain rotis + 100g apple (protein 24g, Ca 300mg). Post-midnight (2 am): 1 cup green tea (30mg caffeine) + 30g almonds (protein 6g, K 200mg). Post-shift recovery (8:30 am): 100g soy nuggets pulao (brown rice 80g + veg) + 150g curd + 100g orange (protein 28g, K 900mg, Ca 350mg). Total protein ~80g (1.45 g/kg), Ca ~1370mg, caffeine 30mg. A poor answer clusters protein in one meal or ignores circadian nutrient timing — tested in CUET case studies.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Adult nutrition refers to the dietary requirements and recommended dietary allowances (RDAs) for men and women aged 18–60 years, accounting for gender-specific ______ needs, activity levels, and lifestyle factors such as occupation, physical activity, stress, sleep patterns, and substance use that modify nutrient needs for optimal health and disease prevention.",
+     "a": "physiological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a dietitian consulting a 35-year-old male ______ engineer who works night shifts, sleeps 5 hours, drinks alcohol twice a week, and does no exercise — his BMI is 28.",
+     "a": "software",
+     "self_check": true
+    },
+    {
+     "q": "What is Adult nutrition? State the definition given in this lesson.",
+     "a": "Adult nutrition refers to the dietary requirements and recommended dietary allowances (RDAs) for men and women aged 18–60 years, accounting for gender-specific physiological needs, activity levels, and lifestyle factors such as occupation, physical activity, stress, sleep patterns, and substance use that modify nutrient needs for optimal.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) interpret ICMR RDA tables to determine energy, protein, fat, vitamin, and mineral requirements for adult men and women across sedentary, moderate, and heavy activity categories; (2) explain how specific lifestyle factors (shift work, chronic stress, alcohol, smoking, sedentary behaviour) alter nutrient.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a dietitian ______ a 35-year-old male software engineer who works night shifts, sleeps 5 hours, drinks alcohol twice a week, and does no exercise — his BMI is 28.",
+     "a": "consulting",
+     "self_check": true
     }
    ]
   }

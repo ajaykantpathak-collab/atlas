@@ -34,6 +34,31 @@
      "q": "Design a hypothetical organism with 2n = 6 where you can experimentally distinguish the contributions of independent assortment vs. crossing over to genetic variation in offspring. Describe the genetic markers you would use and the expected phenotypic ratios in the F2 generation for each mechanism separately.",
      "a": "**Design:** Create a trihybrid organism heterozygous for three genes: A/a and B/b on chromosome 1 (linked, 20 map units apart), C/c on chromosome 2, D/d on chromosome 3. Cross with homozygous recessive (aa bb cc dd). **Independent assortment only** (if crossing over suppressed): Gametes from trihybrid = 2^3 = 8 types (ABCD, ABCd, ABcD, ABcd, abCD, abCd, abcD, abcd). F2 phenotypic ratio = 1:1:1:1:1:1:1:1. **Crossing over only** (if chromosomes 2 and 3 homozygous): Only chromosome 1 varies. Parental gametes (AB, ab) = 80%, recombinant (Ab, aB) = 20%. F2 ratio = 3:1:1:3 (parental:recombinant phenotypes). A poor design uses unlinked genes only or fails to isolate the two mechanisms experimentally.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Meiosis is a ______ reductional division in germ cells that produces four genetically unique haploid gametes from a single diploid cell, ensuring species-specific chromosome number stability across generations while generating genetic diversity through two key mechanisms: crossing over (reciprocal exchange of DNA between non-sister chromatids of homologous chromosomes during pachytene of Prophase I) and independent assortment (random orientation of homologous chromosome pairs at the metaphase plate during Metaphase I).",
+     "a": "specialized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and your sibling have the same ______ but look completely different — different eye colour, height, even blood type.",
+     "a": "parents",
+     "self_check": true
+    },
+    {
+     "q": "What is Meiosis? State the definition given in this lesson.",
+     "a": "Meiosis is a specialized reductional division in germ cells that produces four genetically unique haploid gametes from a single diploid cell, ensuring species-specific chromosome number stability across generations while generating genetic diversity through two key mechanisms: crossing over (reciprocal exchange of DNA between non-sister.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Meiosis?",
+     "a": "Students often believe that crossing over occurs in Prophase II (like mitotic prophase) or that it happens between sister chromatids.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Explain how crossing over and independent assortment generate genetically distinct gametes using specific meiotic stages, and (2) Calculate the number of possible gamete combinations from independent assortment alone for a given diploid number (2n) and predict the effect of crossing over on this number.",
+     "self_check": true
     }
    ]
   }

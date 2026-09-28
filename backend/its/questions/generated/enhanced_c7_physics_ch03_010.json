@@ -34,6 +34,21 @@
      "q": "Design a simple, low-cost solar cooker using everyday household materials available in India, explaining how it traps or utilizes conduction, convection, and radiation to cook food.",
      "a": "A good design uses a cardboard box lined with aluminium foil (reflects and directs radiation onto a black-painted vessel inside) and a glass sheet covering the top (traps heat inside via the greenhouse effect, stopping convective air currents from escaping). A poor answer fails to mention how all three heat transfer methods are addressed or relies solely on open heating without trapping convective losses.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Applications of heat transfer involve using the principles of conduction, convection, and radiation in daily life and ______ devices to manage thermal energy for heating, cooling, and insulation.",
+     "a": "technological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how a pressure cooker is made: its metal body gets hot quickly by ______ to cook food fast, while its handle is made of plastic or ebonite, which is a poor conductor of heat to protect your hand.",
+     "a": "conduction",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify whether a practical device or natural phenomenon relies on conduction, convection, or radiation, and can explain how specific structural design features (such as double walls, vacuum layers, or dark/light surfaces) minimize or maximize heat transfer.",
+     "self_check": true
     }
    ]
   }

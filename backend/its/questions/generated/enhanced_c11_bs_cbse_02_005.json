@@ -34,6 +34,31 @@
      "q": "Design a Partnership Deed clause for \"Admission, retirement, and expulsion of a partner\" for a 3-partner tech startup (capital ratio 4:3:3) that: (a) requires unanimous consent for admission, (b) mandates 6-month notice for retirement, (c) allows expulsion only for gross misconduct proven by independent arbitrator, and (d) specifies valuation method for outgoing partner's share. Write the clause in formal legal language.",
      "a": "A model clause: \"11. ADMISSION, RETIREMENT AND EXPULSION. (a) No new partner shall be admitted without the unanimous written consent of all existing partners. (b) Any partner may retire by giving six months' written notice to the other partners; such notice shall be irrevocable unless all partners agree in writing to its withdrawal. (c) A partner may be expelled only for gross misconduct (defined as fraud, conviction for criminal offence involving moral turpitude, or wilful breach of fiduciary duty) established by an award of a sole arbitrator appointed by the President of the Institute of Chartered Accountants of India. (d) The share of a retiring or expelled partner shall be valued at the higher of: (i) capital account balance plus share of accumulated profits/reserves as per last audited balance sheet, or (ii) fair value determined by a Chartered Accountant appointed by mutual consent, considering goodwill at three years' purchase of average super-profits of preceding three years.\" A poor answer reveals inability to translate business needs into enforceable legal terms—e.g., omitting valuation method, making expulsion arbitrary, or ignoring minority protection.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Partnership Deed is a written legal document that specifies the terms and conditions governing the relationship between partners, including profit-sharing ratios, capital ______, rights, duties, and procedures for admission, retirement, dissolution, and dispute resolution.",
+     "a": "contributions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and two friends decide to start a cloud kitchen in Bengaluru with ₹15 lakh pooled ______.",
+     "a": "capital",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and two friends decide to start a cloud kitchen in Bengaluru with ₹______ lakh pooled capital.",
+     "a": "15",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to draft a comprehensive partnership deed for a given business scenario incorporating all 12 mandatory clauses from the NCERT syllabus, and explain the legal consequences of omitting any three critical clauses (profit-sharing, interest on capital/drawings, and dissolution procedure) on partner rights and firm.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and two friends decide to start a cloud kitchen in ______ with ₹15 lakh pooled capital.",
+     "a": "Bengaluru",
+     "self_check": true
     }
    ]
   }

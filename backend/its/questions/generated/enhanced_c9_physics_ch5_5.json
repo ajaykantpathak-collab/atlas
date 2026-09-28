@@ -34,6 +34,31 @@
      "q": "Design a simple school-lab experiment to demonstrate that intensity of sound decreases with distance from a point source. List materials, procedure, and the expected graph of intensity vs distance.",
      "a": "Materials: Decibel meter (or smartphone with sound meter app), Bluetooth speaker, measuring tape, quiet corridor. Procedure: Place speaker at one end, play constant tone. Measure sound level at 0.5 m, 1 m, 2 m, 3 m, 4 m. Convert dB to intensity (I = I₀ × 10^(dB/10)). Plot I vs r. Expected: I ∝ 1/r², so graph is a curve decreasing steeply. A poor answer (e.g., measuring only two distances, not controlling volume, expecting linear decrease) shows lack of experimental design skills and misunderstanding of inverse-square law.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Amplitude of a sound wave is the maximum ______ of a particle of the medium from its mean equilibrium position, measured in metres (m).",
+     "a": "displacement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine striking a steel plate (thali) gently with a spoon versus striking it hard – the harder strike produces a louder sound because the plate vibrates with larger ______ (amplitude).",
+     "a": "displacement",
+     "self_check": true
+    },
+    {
+     "q": "What is Amplitude of a sound wave? State the definition given in this lesson.",
+     "a": "Amplitude of a sound wave is the maximum displacement of a particle of the medium from its mean equilibrium position, measured in metres (m).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Amplitude of a sound wave?",
+     "a": "Students often believe that \"amplitude and intensity are the same thing\" or \"higher frequency always means louder sound.\" They confuse the physical quantity amplitude (displacement) with the energy-transfer rate intensity, and they think pitch (frequency) directly controls loudness.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between amplitude (a wave parameter) and intensity (an energy transfer rate), state their correct SI units, explain why intensity is proportional to the square of amplitude, and predict how intensity changes with distance from a point source.",
+     "self_check": true
     }
    ]
   }

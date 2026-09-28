@@ -34,6 +34,26 @@
      "q": "Design a simple experiment to test whether forming a mental image interferes with concurrent visual perception (perceptual interference hypothesis). Specify IV, DV, control condition, and predicted outcome if images share visual-spatial resources.",
      "a": "IV: Task type (mental imagery vs. verbal rehearsal) during visual detection. DV: Detection accuracy/speed for faint visual stimuli. Control: Verbal rehearsal condition (e.g., repeating \"the cat sat\"). Imagery condition: Visualize a bright letter 'X'. Predicted outcome: Imagery group shows worse detection (especially in same visual field) due to shared visual buffer (Kosslyn's model). Good answer includes counterbalancing, stimulus parameters, and alternative explanation (attention). Poor answer (e.g., \"ask people if they see it\") reveals inability to operationalize cognitive constructs into measurable variables.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The building blocks of thought are the ______ mental representations—mental images (sensory-based representations) and concepts (abstract category representations)—that enable cognitive processes such as thinking, reasoning, problem-solving, and language use; mental images preserve perceptual qualities while concepts extract defining features to organize knowledge efficiently.",
+     "a": "fundamental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are describing your childhood home to a friend who has never seen it—you might \"see\" the red gate, smell the jasmine, hear the ceiling fan; this is a mental image.",
+     "a": "Imagine",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to distinguish between mental images and concepts with original examples, explain how concepts organize knowledge hierarchically (superordinate, basic, subordinate levels), and articulate the bidirectional relationship between thought and language using evidence from linguistic relativity and cognitive.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ your childhood home to a friend who has never seen it—you might \"see\" the red gate, smell the jasmine, hear the ceiling fan; this is a mental image.",
+     "a": "describing",
+     "self_check": true
     }
    ]
   }

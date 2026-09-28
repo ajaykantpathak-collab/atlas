@@ -5,6 +5,8 @@
    "id": "c7m11.2.1",
    "title": "Exponents",
    "converted_to_compute": false,
+   "formula": "a^n = a x a x ... x a (n times); a^0 = 1",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 5^4 x 5^4.",
@@ -42,6 +44,8 @@
    "id": "c7m11.3.1",
    "title": "Multiplying Powers with Same Base",
    "converted_to_compute": false,
+   "formula": "a^m x a^n = a^(m+n)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 4^4 x 4^2.",
@@ -79,6 +83,8 @@
    "id": "c7m11.3.2",
    "title": "Dividing Powers with Same Base",
    "converted_to_compute": false,
+   "formula": "a^m / a^n = a^(m-n), m > n",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 5^4 x 5^3.",
@@ -116,6 +122,8 @@
    "id": "c7m11.3.3",
    "title": "Power of a Power",
    "converted_to_compute": false,
+   "formula": "(a^m)^n = a^(m*n)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 4^2 x 4^4.",
@@ -153,6 +161,8 @@
    "id": "c7m11.3.4",
    "title": "Multiplying Powers with Same Exponents",
    "converted_to_compute": false,
+   "formula": "a^m x b^m = (ab)^m",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 4^2 x 4^3.",
@@ -190,6 +200,8 @@
    "id": "c7m11.3.5",
    "title": "Dividing Powers with Same Exponents",
    "converted_to_compute": false,
+   "formula": "a^m / b^m = (a/b)^m",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 6^4 x 6^4.",
@@ -227,6 +239,8 @@
    "id": "c7m11.3.6",
    "title": "Zero Exponent",
    "converted_to_compute": false,
+   "formula": "a^0 = 1, a != 0",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 5^4 x 5^3.",
@@ -264,6 +278,8 @@
    "id": "c7m11.5.1",
    "title": "Decimal Number System",
    "converted_to_compute": false,
+   "formula": "number = sum of digit x 10^position",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the number with 4 units, 7 tenths and 3 hundredths as a decimal.",
@@ -301,6 +317,8 @@
    "id": "c7m11.6.1",
    "title": "Standard Form of Large Numbers",
    "converted_to_compute": false,
+   "formula": "standard form = d.ddd x 10^n, 1 <= d < 10",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 4^4 x 4^3.",

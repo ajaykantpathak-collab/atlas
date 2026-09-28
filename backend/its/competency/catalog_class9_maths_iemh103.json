@@ -22,15 +22,33 @@
     "evaluate the given expression with brackets and signs",
     "what is the additive identity among integers"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "place the numbers on the line",
-     "explain": "The number line fixes order and sign behaviour."},
-    {"step": 2, "action": "apply the sign rules",
-     "explain": "Same signs give positive products, unlike signs negative."},
-    {"step": 3, "action": "check the operation",
-     "explain": "Note which operations keep the result an integer."}
-   ]
+    {
+     "step": 1,
+     "action": "place the numbers on the line",
+     "explain": "The number line fixes order and sign behaviour."
+    },
+    {
+     "step": 2,
+     "action": "apply the sign rules",
+     "explain": "Same signs give positive products, unlike signs negative."
+    },
+    {
+     "step": 3,
+     "action": "check the operation",
+     "explain": "Note which operations keep the result an integer."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the integer operation sign rules",
+     "explain": "apply the integer operation sign rules: total = 25 + (24) gives 49",
+     "compute": "total = 25 + (24)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.103.3.2",
@@ -48,15 +66,45 @@
     "why are rationals called dense on the number line",
     "convert the given repeating decimal into a fraction"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "write the fraction form",
-     "explain": "Put the number as a over b with b nonzero."},
-    {"step": 2, "action": "check the decimal",
-     "explain": "Terminating or repeating decimals confirm rationality."},
-    {"step": 3, "action": "place on the line",
-     "explain": "Compare with nearby integers to fix the position."}
-   ]
+    {
+     "step": 1,
+     "action": "write the fraction form",
+     "explain": "Put the number as a over b with b nonzero."
+    },
+    {
+     "step": 2,
+     "action": "check the decimal",
+     "explain": "Terminating or repeating decimals confirm rationality."
+    },
+    {
+     "step": 3,
+     "action": "place on the line",
+     "explain": "Compare with nearby integers to fix the position."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the rational-number operation rules",
+     "explain": "apply the rational-number operation rules: num = 7 * 9 + 7 * 2 gives 77",
+     "compute": "num = 7 * 9 + 7 * 2"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the rational-number operation rules: den = 2 * 9 gives 18",
+     "compute": "den = 2 * 9"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the rational-number operation rules: val = num / den gives 4.27778",
+     "compute": "val = num / den"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.103.3.3",
@@ -74,15 +122,39 @@
     "classify the given decimals as rational or irrational",
     "give two examples of irrational numbers from geometry"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "test the fraction form",
-     "explain": "Try writing the number as a over b; irrationals refuse."},
-    {"step": 2, "action": "inspect the decimal",
-     "explain": "Non-terminating and non-repeating decimals mark irrationals."},
-    {"step": 3, "action": "place in the family",
-     "explain": "Irrationals join rationals to fill the real line completely."}
-   ]
+    {
+     "step": 1,
+     "action": "test the fraction form",
+     "explain": "Try writing the number as a over b; irrationals refuse."
+    },
+    {
+     "step": 2,
+     "action": "inspect the decimal",
+     "explain": "Non-terminating and non-repeating decimals mark irrationals."
+    },
+    {
+     "step": 3,
+     "action": "place in the family",
+     "explain": "Irrationals join rationals to fill the real line completely."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.103.3.4",
@@ -100,15 +172,39 @@
     "what fills the gaps left by rational numbers on the number line",
     "classify the given numbers into rational, irrational and real"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "combine the families",
-     "explain": "Rationals and irrationals together give the reals."},
-    {"step": 2, "action": "check completeness",
-     "explain": "Every point of the number line carries a real number."},
-    {"step": 3, "action": "classify samples",
-     "explain": "Sort given numbers into the two sub-families of reals."}
-   ]
+    {
+     "step": 1,
+     "action": "combine the families",
+     "explain": "Rationals and irrationals together give the reals."
+    },
+    {
+     "step": 2,
+     "action": "check completeness",
+     "explain": "Every point of the number line carries a real number."
+    },
+    {
+     "step": 3,
+     "action": "classify samples",
+     "explain": "Sort given numbers into the two sub-families of reals."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [],
@@ -117,17 +213,17 @@
    "id": "ex3.1",
    "source_ref": "iemh103.txt exercises on integers and rationals",
    "questions": [
-     "Evaluate the given integer expressions.",
-     "Find three rational numbers between the given pair.",
-     "Find the decimal expansion and identify its type."
+    "Evaluate the given integer expressions.",
+    "Find three rational numbers between the given pair.",
+    "Find the decimal expansion and identify its type."
    ]
   },
   {
    "id": "ex3.2",
    "source_ref": "iemh103.txt exercises on irrationals and reals",
    "questions": [
-     "Classify the given numbers as rational or irrational.",
-     "Mark the given real numbers on the number line."
+    "Classify the given numbers as rational or irrational.",
+    "Mark the given real numbers on the number line."
    ]
   }
  ]

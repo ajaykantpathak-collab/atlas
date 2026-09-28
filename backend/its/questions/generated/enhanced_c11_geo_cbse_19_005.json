@@ -34,6 +34,36 @@
      "q": "Design a coal evacuation corridor map for a new 4000 MW ultra-mega power plant in the Mand-Raigarh coalfield (Chhattisgarh). Annotate: coalfield boundary, nearest railway zone, two major consumer states, and one port for potential blending imports.",
      "a": "Expected: Map showing Mand-Raigarh in SECL (South Eastern Coalfields Ltd) command area; connected via Bilaspur-Jharsuguda line (South East Central Railway zone); supplying to Chhattisgarh and Odisha (local) plus Maharashtra/Tamil Nadu via long-distance rail; Paradip port (Odisha) marked for imported coal blending. Poor answer: missing railway zone, showing incorrect consumer states (e.g., Punjab), or omitting port - indicates inability to integrate coal geography with transport economics.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Coal in India is a ______ fossil fuel formed from plant remains compressed over geological time, classified into four types by carbon content and calorific value: Anthracite (>90% carbon), Bituminous (60-80%), Lignite (40-60%), and Peat (<40%).",
+     "a": "conventional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a thermal power plant near your city - chances are it runs on coal from Jharia or Korba.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What is Coal in India? State the definition given in this lesson.",
+     "a": "Coal in India is a conventional fossil fuel formed from plant remains compressed over geological time, classified into four types by carbon content and calorific value: Anthracite (>90% carbon), Bituminous (60-80%), Lignite (40-60%), and Peat (<40%).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Trace the coal's journey: it originates in the Damodar Valley (Gondwana) where ancient forests were buried in river basins ______ million years ago.",
+     "a": "250",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Coal in India?",
+     "a": "Students believe \"Jharia is the largest coalfield in India\" because it is famous for coking coal.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) locate and label the four major Gondwana coal basins and three Tertiary coal regions on an outline map of India; (2) explain the geological reason for the superior quality of Gondwana coal compared to Tertiary coal; (3) correlate coal type distribution with the location of thermal power plants and iron-steel.",
+     "self_check": true
     }
    ]
   }

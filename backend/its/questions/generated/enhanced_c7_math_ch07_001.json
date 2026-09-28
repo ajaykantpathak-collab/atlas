@@ -34,6 +34,26 @@
      "q": "Draw a rough sketch of a triangle named XYZ, and write down a real-world scenario from your daily life in India where this exact triangular shape and its three vertices are visible.",
      "a": "The student should sketch a triangle with vertices labeled X, Y, and Z. A valid real-world scenario would be the triangular metal frame of a traffic warning sign on an Indian road, or a triangular slice of a paratha on a plate, where the three corners represent the vertices and the crusts represent the three sides. A poor answer gives a non-triangular object like a cricket bat or a circular roti.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A triangle is a closed, two-dimensional geometric polygon formed by three ______ straight line segments, having exactly three vertices, three sides, and three interior angles.",
+     "a": "intersecting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are sitting in your ______ classroom, and you look at the corner where two walls meet the floor—that meeting point is like a vertex!",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can correctly identify, name, and count the vertices, sides, and interior angles of any given triangle, and distinguish triangles from other closed shapes using their defining properties.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are sitting in your school ______, and you look at the corner where two walls meet the floor—that meeting point is like a vertex!",
+     "a": "classroom",
+     "self_check": true
     }
    ]
   }

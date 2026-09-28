@@ -4,15 +4,9 @@
   {
    "id": "iemh.4.1",
    "title": "Algebraic Identity",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the congruence condition and angle sums",
-     "explain": "use the congruence condition and angle sums: third = 180 - 74 - 56 gives 50",
-     "compute": "third = 180 - 74 - 56"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "LHS = RHS for every value of the letters",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two triangles are congruent. In triangle one the angles are 74 and 56 degrees; the third angle is what? (The third angles must match.)",
@@ -50,6 +44,8 @@
    "id": "iemh.4.2",
    "title": "Square of a Binomial Sum",
    "converted_to_compute": false,
+   "formula": "(a + b)**2 = a**2 + 2*a*b + b**2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 22.",
@@ -87,6 +83,8 @@
    "id": "iemh.4.3",
    "title": "Square of a Binomial Difference",
    "converted_to_compute": false,
+   "formula": "(a - b)**2 = a**2 - 2*a*b + b**2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 25.",
@@ -124,6 +122,8 @@
    "id": "iemh.4.4",
    "title": "Square of a Three-Term Sum",
    "converted_to_compute": false,
+   "formula": "(a + b + c)**2 = a**2 + b**2 + c**2 + 2*a*b + 2*b*c + 2*c*a",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 24.",
@@ -161,6 +161,8 @@
    "id": "iemh.4.5",
    "title": "Difference of Two Squares",
    "converted_to_compute": false,
+   "formula": "a**2 - b**2 = (a + b) * (a - b)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 19.",
@@ -198,6 +200,8 @@
    "id": "iemh.4.6",
    "title": "Product of the Form (x + a)(x + b)",
    "converted_to_compute": false,
+   "formula": "(x + a) * (x + b) = x**2 + (a + b)*x + a*b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Use the identity (a + b)^2 = a^2 + 2ab + b^2 to find the square of 9 more than 3; report the value.",
@@ -235,6 +239,8 @@
    "id": "iemh.4.7",
    "title": "Cube of a Binomial Sum",
    "converted_to_compute": false,
+   "formula": "(a + b)**3 = a**3 + 3*a**2*b + 3*a*b**2 + b**3",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the cube of 10.",
@@ -272,6 +278,8 @@
    "id": "iemh.4.8",
    "title": "Cube of a Binomial Difference",
    "converted_to_compute": false,
+   "formula": "(a - b)**3 = a**3 - 3*a**2*b + 3*a*b**2 - b**3",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the cube of 5.",
@@ -308,15 +316,9 @@
   {
    "id": "iemh.4.9",
    "title": "Sum and Difference of Cubes",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "expand with the algebraic identity and evaluate",
-     "explain": "expand with the algebraic identity and evaluate: val = 6 * 6 + 2 * 6 * 2 + 2 * 2 gives 64",
-     "compute": "val = 6 * 6 + 2 * 6 * 2 + 2 * 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "a**3 + b**3 = (a + b)*(a**2 - a*b + b**2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Use the identity (a + b)^2 = a^2 + 2ab + b^2 to find the square of 2 more than 6; report the value.",
@@ -354,6 +356,8 @@
    "id": "iemh.4.10",
    "title": "Sum of Three Cubes Identity",
    "converted_to_compute": false,
+   "formula": "a^3 + b^3 + c^3 - 3abc factors as (a + b + c) times the corrected square total",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 12.",
@@ -390,27 +394,9 @@
   {
    "id": "iemh.4.11",
    "title": "Simplifying Rational Expressions",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the rational-number operation rules",
-     "explain": "apply the rational-number operation rules: num = 1 * 7 + 3 * 2 gives 13",
-     "compute": "num = 1 * 7 + 3 * 2"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the rational-number operation rules: den = 2 * 7 gives 14",
-     "compute": "den = 2 * 7"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the rational-number operation rules: val = num / den gives 0.928571",
-     "compute": "val = num / den"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "cancel a shared factor after factoring top and bottom",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the rational numbers 1/2 and 3/7.",

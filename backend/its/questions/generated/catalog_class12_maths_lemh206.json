@@ -4,15 +4,9 @@
   {
    "id": "lemh.206.12.2.1",
    "title": "Formulating a Linear Programming Problem",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "transpose the terms and divide by the coefficient",
-     "explain": "transpose the terms and divide by the coefficient: x = (39 - 9) / 3 gives 10",
-     "compute": "x = (39 - 9) / 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "Z = a * x + b * y subject to linear constraints",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 3x + 9 = 39.",
@@ -49,15 +43,9 @@
   {
    "id": "lemh.206.12.2.2",
    "title": "Feasible Region of the Constraints",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the calculus rule and evaluate at the point",
-     "explain": "apply the calculus rule and evaluate at the point: val = 1 * 2 * 2 + 2 * 2 + 7 gives 15",
-     "compute": "val = 1 * 2 * 2 + 2 * 2 + 7"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "feasible region equals the overlap of all constraint half planes",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate the limit of 1x^2 + 2x + 7 as x approaches 2 (direct substitution).",
@@ -94,15 +82,9 @@
   {
    "id": "lemh.206.12.2.3",
    "title": "Corner Point Method",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "recall the count for the shape",
-     "explain": "recall the count for the shape: lines = 3 gives 3",
-     "compute": "lines = 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "the optimal value of Z occurs at a corner point of the feasible region",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a equilateral triangle have?",
@@ -140,6 +122,8 @@
    "id": "lemh.206.12.2.4",
    "title": "Objective Value at a Corner Point",
    "converted_to_compute": false,
+   "formula": "objective_value = obj_a * x + obj_b * y",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a rectangle have?",
@@ -176,15 +160,9 @@
   {
    "id": "lemh.206.12.2.5",
    "title": "Intersection of Two Boundary Lines",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "transpose the terms and divide by the coefficient",
-     "explain": "transpose the terms and divide by the coefficient: x = (91 - 14) / 7 gives 11",
-     "compute": "x = (91 - 14) / 7"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "vertex coordinates come from solving the two boundary equations",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 7x + 14 = 91.",
@@ -221,27 +199,9 @@
   {
    "id": "lemh.206.12.2.6",
    "title": "Bounded and Unbounded Feasible Regions",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the number-play rule digit by digit",
-     "explain": "apply the number-play rule digit by digit: big = 9 * 1000 + 8 * 100 + 7 * 10 + 3 gives 9873",
-     "compute": "big = 9 * 1000 + 8 * 100 + 7 * 10 + 3"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the number-play rule digit by digit: small = 3 * 1000 + 7 * 100 + 8 * 10 + 9 gives 3789",
-     "compute": "small = 3 * 1000 + 7 * 100 + 8 * 10 + 9"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the number-play rule digit by digit: diff = big - small gives 6084",
-     "compute": "diff = big - small"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "a bounded feasible region forces both an optimum maximum and minimum of Z",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "For the digits 3, 8, 9, 7 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
@@ -278,15 +238,9 @@
   {
    "id": "lemh.206.12.2.7",
    "title": "Multiple Optimal Solutions",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the calculus rule and evaluate at the point",
-     "explain": "apply the calculus rule and evaluate at the point: val = 3 * 1 * 1 + 5 * 1 + 2 gives 10",
-     "compute": "val = 3 * 1 * 1 + 5 * 1 + 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "equal optimal values at two corners make the joining segment optimal",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate the limit of 3x^2 + 5x + 2 as x approaches 1 (direct substitution).",
@@ -323,21 +277,9 @@
   {
    "id": "lemh.206.12.2.8",
    "title": "Infeasible Constraint Systems",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the mean/median/mode definition",
-     "explain": "apply the mean/median/mode definition: total = sum((34, 17, 25, 30, 25)) gives 131",
-     "compute": "total = sum((34, 17, 25, 30, 25))"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 26.2",
-     "compute": "mean = total / 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "an empty overlap of constraint half planes means no feasible solution",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 34, 17, 25, 30, 25.",

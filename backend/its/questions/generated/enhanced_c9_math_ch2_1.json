@@ -34,6 +34,16 @@
      "q": "Create a real-life situation (using rupees, metres, or litres) that can be modelled by the linear polynomial \\(15x + 50\\). Clearly state what \\(x\\) represents, what the coefficient 15 represents, and what the constant 50 represents. Then write the polynomial in standard form.",
      "a": "Example situation: A taxi charges ₹15 per kilometre plus a fixed booking fee of ₹50. Here \\(x\\) = distance travelled in kilometres, 15 = rate per kilometre (coefficient of \\(x\\)), 50 = fixed booking fee (constant term). The polynomial is already in standard form: \\(15x + 50\\). A good answer must have: (1) a variable quantity for \\(x\\), (2) a constant rate multiplying \\(x\\), (3) a fixed initial amount, and (4) correct identification that standard form is \\(ax + b\\) with the \\(x\\)-term first. A poor answer might swap the coefficient and constant, or describe a situation where the rate is not constant (e.g., \"first km costs ₹50, then ₹15 per km\" which is piecewise, not a single linear polynomial).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying ______ for school: each notebook costs ₹25 and there is a fixed delivery charge of ₹10 regardless of how many you buy.",
+     "a": "notebooks",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are buying notebooks for school: each notebook costs ₹25 and there is a fixed delivery charge of ₹10 ______ of how many you buy.",
+     "a": "regardless",
+     "self_check": true
     }
    ]
   }

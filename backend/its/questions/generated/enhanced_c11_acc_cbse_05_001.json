@@ -34,6 +34,21 @@
      "q": "Create a realistic scenario (3-4 transactions) for a small business where the Cash Book balance is **higher** than the Pass Book balance on the reconciliation date. List each transaction and explain *why* it pushes the Cash Book balance higher. Ensure at least one timing difference and one error are included.",
      "a": "**Scenario for M/s Gupta Electronics (31st March):**\n1. **Cheques issued but not presented (₹12,000):** Business credited Cash Book; bank hasn't debited yet → Cash Book lower? Wait — *credit* in Cash Book *reduces* bank balance. So Cash Book balance is **lower** by ₹12,000. (This would make Pass Book higher. Need opposite.)\n   *Correction:* To make Cash Book **higher**, we need items that **increase** Cash Book balance or **decrease** Pass Book balance.\n   \n   **Valid scenario (Cash Book > Pass Book):**\n   1. **Cheques deposited but not collected (₹20,000):** Business debited Cash Book (balance ↑); bank hasn't credited yet → Cash Book higher by ₹20,000. *(Timing difference)*\n   2. **Bank charges debited by bank not recorded in Cash Book (₹500):** Bank debited Pass Book (balance ↓); Cash Book untouched → Cash Book higher by ₹500. *(Timing difference)*\n   3. **Cheque of ₹3,000 recorded in Cash Book as ₹300 (Error by business):** Cash Book debited ₹3,000; actual deposit ₹300 → Cash Book higher by ₹2,700. *(Error)*\n   4. **Direct payment of insurance premium by bank (₹4,000) not recorded in Cash Book:** Bank debited Pass Book; Cash Book untouched → Cash Book higher by ₹4,000. *(Timing difference)*\n   \n   **Net: Cash Book balance higher by ₹27,200.**\n   A poor answer includes items that push balances the wrong way (e.g., unpresented cheques) or omits the directional reasoning, showing the student cannot apply the \"Cash Book higher/lower\" logic — the core skill for BRS preparation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Bank ______ Statement (BRS) is a periodic statement prepared by an account holder to reconcile and explain the differences between the bank balance as per the Cash Book (maintained by the business) and the bank balance as per the Pass Book/Bank Statement (maintained by the bank) on a specific date, by identifying and adjusting for timing differences and recording errors in both books.",
+     "a": "Reconciliation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: On March 31st, your Cash Book shows ₹50,000 in the bank, but the bank's ______ shows ₹42,000.",
+     "a": "statement",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Explain why the Cash Book and Pass Book balances differ using the concepts of timing differences and errors, and (2) Identify whether a given transaction causes the Cash Book balance to be higher or lower than the Pass Book balance, justifying the direction of adjustment needed in a BRS.",
+     "self_check": true
     }
    ]
   }

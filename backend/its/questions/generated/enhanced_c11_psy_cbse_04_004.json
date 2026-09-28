@@ -34,6 +34,31 @@
      "q": "Design a simple classroom demonstration (using only a tuning fork, a plastic tube, and water) to show that the ear performs **frequency analysis** (Fourier decomposition) rather than just detecting overall vibration. Describe the procedure, expected observation, and the auditory principle it illustrates.",
      "a": "**Procedure**: Strike a 512 Hz tuning fork. Hold it over a plastic tube partially submerged in water (acting as a closed-end resonator). Raise/lower the tube to find the length where resonance occurs (loudest sound). **Observation**: Resonance occurs at tube length ≈ 16 cm (λ/4 for 512 Hz). If you simultaneously strike a 256 Hz fork, the tube will *not* resonate at the same length — it requires ≈ 32 cm. **Principle**: The air column (like the basilar membrane) responds selectively to *one frequency component* of a complex sound. This mimics the cochlea's frequency-to-place mapping: different places resonate to different frequencies. A poor demonstration (e.g., just holding fork to ear) only shows \"sound is vibration\" and fails to reveal spectral decomposition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Auditory sensation is the process by which sound waves (mechanical pressure changes in a medium) are detected by the ear, transduced into ______ neural impulses, and transmitted via the auditory nerve to the brain for interpretation as sound, involving distinct stages of conduction, amplification, and transduction across the outer, middle, and inner ear.",
+     "a": "electrochemical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are sitting in a quiet room and suddenly hear a sharp \"crack\" — a pencil ______.",
+     "a": "snapping",
+     "self_check": true
+    },
+    {
+     "q": "What is Auditory sensation? State the definition given in this lesson.",
+     "a": "Auditory sensation is the process by which sound waves (mechanical pressure changes in a medium) are detected by the ear, transduced into electrochemical neural impulses, and transmitted via the auditory nerve to the brain for interpretation as sound, involving distinct stages of conduction, amplification, and transduction across the.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Auditory sensation?",
+     "a": "Students believe the cochlea is a simple microphone that converts sound waves into neural signals \"all at once\" — like a light sensor converting photons to current.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) accurately label the anatomical structures of the outer, middle, and inner ear on a diagram and state the specific function of each in the hearing process; (2) trace the complete pathway of a sound wave from the pinna to the auditory cortex in 6+ sequential steps, explaining the energy transformations at.",
+     "self_check": true
     }
    ]
   }

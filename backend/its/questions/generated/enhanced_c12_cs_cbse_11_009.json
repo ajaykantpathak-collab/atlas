@@ -34,6 +34,26 @@
      "q": "Design a real-world scenario (Indian context) where you would use symmetric difference of two sets. Write the Python code to solve it and explain why symmetric difference is the right choice.",
      "a": "Scenario: Two mobile recharge shops, ShopA and ShopB, record customer phone numbers (as strings) who recharged today. ShopA = `{'9876543210', '9123456780', '9988776655'}`, ShopB = `{'9123456780', '9988776655', '9001122334'}`. The owner wants a list of customers who recharged at **exactly one shop** (loyal to one, not both). Code:\n```python\nshopA = {'9876543210', '9123456780', '9988776655'}\nshopB = {'9123456780', '9988776655', '9001122334'}\nexclusive = shopA ^ shopB\nprint(exclusive)  # {'9876543210', '9001122334'}\n```\nSymmetric difference is right because it captures \"either A or B but not both\". A poor answer might use union (includes both) or difference (only one direction), showing inability to map the problem to the correct operation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Set ______ in Python allow combining, comparing, and extracting elements from two or more sets.",
+     "a": "operations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the sports coordinator of a school and have two lists: students who signed up for Cricket ({'A', 'B', 'C', 'D'}) and students who signed up for ______ ({'C', 'D', 'E', 'F'}).",
+     "a": "Football",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write Python code to perform union, intersection, difference, and symmetric difference on sets using both operators and methods, correctly predict the result of chained operations, and explain the non-commutative nature of difference.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the sports ______ of a school and have two lists: students who signed up for Cricket ({'A', 'B', 'C', 'D'}) and students who signed up for Football ({'C', 'D', 'E', 'F'}).",
+     "a": "coordinator",
+     "self_check": true
     }
    ]
   }

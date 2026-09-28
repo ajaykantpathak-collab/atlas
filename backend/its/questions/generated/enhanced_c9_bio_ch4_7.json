@@ -34,6 +34,26 @@
      "q": "Design a simple classification key using only observable features that could distinguish between a mango tree (Mangifera indica), a banyan tree (Ficus benghalensis), a housefly (Musca domestica), and a human (Homo sapiens) at the Kingdom, Phylum, and Class levels. Show your reasoning for each decision point.",
      "a": "A good answer creates a dichotomous key: (1) Kingdom: Plants (cell wall, chloroplasts) vs Animals (no cell wall, heterotrophic) → separates mango/banyan from fly/human. (2) Phylum: For plants - Tracheophyta (vascular tissue) vs Bryophyta; both trees are Tracheophyta. For animals - Chordata (notochord/dorsal nerve cord) vs Arthropoda (jointed appendages, exoskeleton) → separates human (Chordata) from fly (Arthropoda). (3) Class: For plants - Angiospermae (flowers, fruits) vs Gymnospermae; both are Angiospermae. For animals - Mammalia (mammary glands, hair) vs Insecta (three body parts, six legs) → separates human (Mammalia) from fly (Insecta). A poor answer uses non-observable traits (DNA, internal anatomy not visible) or creates non-hierarchical groupings, revealing they don't understand that classification follows nested, observable character progression.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The hierarchical classification system organizes living organisms into a nested series of ranked categories (taxa) from broadest (Kingdom) to most specific (Species), where each lower rank is a subset of the rank above it, reflecting evolutionary relationships and shared derived ______.",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a ______ observation: when you organize your school notebooks, you first separate by subject (Science, Math, Languages), then by class (Class 9, Class 10), then by chapter - each step groups things that are more alike.",
+     "a": "familiar",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can list the seven major taxonomic ranks in correct order (Kingdom, Phylum, Class, Order, Family, Genus, Species), explain how organisms at lower ranks share more characteristics due to more recent common ancestry, and classify a given organism (e.g., human, mango tree, housefly) into its complete taxonomic hierarchy with justification.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a familiar ______: when you organize your school notebooks, you first separate by subject (Science, Math, Languages), then by class (Class 9, Class 10), then by chapter - each step groups things that are more alike.",
+     "a": "observation",
+     "self_check": true
     }
    ]
   }

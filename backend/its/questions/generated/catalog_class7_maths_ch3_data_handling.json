@@ -5,6 +5,8 @@
    "id": "c7m3.2.1",
    "title": "Arithmetic Mean",
    "converted_to_compute": false,
+   "formula": "mean = (sum of all observations) / (number of observations)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A trader buys an article for Rs 400 and sells it for Rs 560. Find the profit.",
@@ -42,6 +44,8 @@
    "id": "c7m3.2.2",
    "title": "Range",
    "converted_to_compute": false,
+   "formula": "range = highest observation - lowest observation",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A trader buys an article for Rs 120 and sells it for Rs 168. Find the profit.",
@@ -79,6 +83,8 @@
    "id": "c7m3.3.1",
    "title": "Mode",
    "converted_to_compute": false,
+   "formula": "mode = observation with highest frequency",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A trader buys an article for Rs 400 and sells it for Rs 500. Find the profit.",
@@ -116,6 +122,8 @@
    "id": "c7m3.3.2",
    "title": "Mode of Large Data",
    "converted_to_compute": false,
+   "formula": "tabulate with tally marks, find highest frequency",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 14, 14, 11, 20, 40.",
@@ -153,6 +161,8 @@
    "id": "c7m3.4.1",
    "title": "Median",
    "converted_to_compute": false,
+   "formula": "median = middle value (for odd n); average of two middle values (for even n)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 31, 8, 11, 28, 25.",
@@ -189,15 +199,9 @@
   {
    "id": "c7m3.5.1",
    "title": "Bar Graphs",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "set up the proportion and solve for the unknown part",
-     "explain": "set up the proportion and solve for the unknown part: t1 = 25 / 5 gives 5",
-     "compute": "t1 = 25 / 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "bar length = frequency x scale",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 25 : 40 in its simplest form and give the first term of the simplest form.",
@@ -234,15 +238,9 @@
   {
    "id": "c7m3.5.2",
    "title": "Double Bar Graphs",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "read the table or chart with its key",
-     "explain": "read the table or chart with its key: total = 3 + 6 + 2 gives 11",
-     "compute": "total = 3 + 6 + 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "two bars per category, one for each data set",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a frequency table the rows have frequencies 3, 6 and 2. Find the total frequency.",
@@ -279,21 +277,9 @@
   {
    "id": "c7m3.5.3",
    "title": "Choosing Appropriate Representative Value",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the mean/median/mode definition",
-     "explain": "apply the mean/median/mode definition: total = sum((38, 29, 32, 40, 16)) gives 155",
-     "compute": "total = sum((38, 29, 32, 40, 16))"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 31",
-     "compute": "mean = total / 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "use mean for averages, mode for most common, median for middle",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 38, 29, 32, 40, 16.",
@@ -331,6 +317,8 @@
    "id": "c7m3.6.1",
    "title": "Probability and Chance",
    "converted_to_compute": false,
+   "formula": "probability = favorable outcomes / total outcomes",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A die is rolled once. What is the probability of getting a number greater than 5? (give the fraction)",

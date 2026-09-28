@@ -42,9 +42,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "third = 180 - 74 - 56"
-   ]
+   "steps_chain": []
   },
   {
    "id": "iemh.4.2",
@@ -392,9 +390,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 6 * 6 + 2 * 6 * 2 + 2 * 2"
-   ]
+   "steps_chain": []
   },
   {
    "id": "iemh.4.10",
@@ -483,11 +479,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "num = 1 * 7 + 3 * 2",
-    "den = 2 * 7",
-    "val = num / den"
-   ]
+   "steps_chain": []
   }
  ]
 }

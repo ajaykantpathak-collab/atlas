@@ -34,6 +34,31 @@
      "q": "Create a decision‑flowchart (in text form) that a home‑science student could use to select the correct physical technique and reagent category for a fresh stain on a known fabric. Include at least four decision nodes.",
      "a": "Example flowchart:\n1. Is the stain fresh? → Yes → Proceed; No → Soak first.\n2. What is the stain class? → Vegetable → Alkaline reagent; Animal → Cold water + detergent; Oil → Grease solvent/absorbent; Mineral → Acidic then alkaline; Dye → Dilute alkali/acid per fabric.\n3. What is the fabric? → Cotton/linen → Can tolerate friction, hot water, strong alkali/bleach; Wool/silk → Gentle kneading, cold water, mild detergent, no alkali; Synthetic → Cool water, mild detergent, avoid chlorine bleach.\n4. Choose technique: Built‑up? → Scraping. Large area? → Dipping. Localised on delicate? → Sponging. Very delicate? → Drop method.\nA poor answer that omits fabric‑specific branches or reagent categories shows inability to synthesise the chapter’s decision framework.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stain removal is the systematic process of eliminating unwanted ______ from fabrics using physical techniques (scraping, dipping, sponging, drop method) and chemical reagents categorised by their mode of action: grease solvents, grease absorbents, emulsifiers, acidic reagents, alkaline reagents, and bleaching agents (oxidising and reducing).",
+     "a": "discoloration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you spill ______‑oil curry on your favourite cotton kurta just before a family function.",
+     "a": "turmeric",
+     "self_check": true
+    },
+    {
+     "q": "What is Stain removal? State the definition given in this lesson.",
+     "a": "Stain removal is the systematic process of eliminating unwanted discoloration from fabrics using physical techniques (scraping, dipping, sponging, drop method) and chemical reagents categorised by their mode of action: grease solvents, grease absorbents, emulsifiers, acidic reagents, alkaline reagents, and bleaching agents (oxidising and.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Stain removal?",
+     "a": "Students often think that “bleach” means only sodium hypochlorite (chlorine bleach) and that it can be used on all white fabrics.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly match a given stain type to its appropriate reagent category and physical technique, justify the selection based on the chemical nature of the stain and fabric properties, and sequence the steps for safe stain removal without damaging the fabric.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Create a Trial Balance (minimum 10 accounts) for a fictitious bookshop that would yield a Net Loss in the Profit and Loss Account. Show the P&L Account preparation and explain which specific indirect expenses caused the loss despite a healthy Gross Profit.",
      "a": "Example: Gross Profit ₹ 60,000. Indirect Expenses: Salaries ₹ 25,000, Rent ₹ 20,000, Advertising ₹ 15,000, Bad Debts ₹ 8,000, Depreciation ₹ 5,000 = ₹ 73,000. Other Incomes: Commission ₹ 2,000. Net Loss = ₹ 11,000. A good answer identifies that high fixed costs (rent, salaries) and aggressive advertising drove the loss, showing understanding of cost structure impact. A poor answer just lists numbers without analysing why the loss occurred.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Profit and Loss Account is a nominal account prepared to ascertain the net profit earned or net loss incurred by a business during an accounting period by recording all indirect expenses and losses on the debit side and all incomes and gains (other than sales) on the credit side, starting with the gross profit or gross loss ______ from the Trading Account.",
+     "a": "transferred",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You've already ______ your gross profit from buying and selling clothes (Trading Account).",
+     "a": "calculated",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently prepare a Profit and Loss Account from a given Trial Balance by correctly classifying items as indirect expenses/losses or other incomes/gains, transferring gross profit from Trading Account, calculating net profit/loss, and passing the closing entries for all revenue accounts.",
+     "self_check": true
     }
    ]
   }

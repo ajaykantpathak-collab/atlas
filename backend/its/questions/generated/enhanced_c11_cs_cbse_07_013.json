@@ -34,6 +34,21 @@
      "q": "Design a real-world scenario where you would convert a dictionary to a list of tuples, sort it by value, and convert it back to a dictionary. Write the Python code for this entire process.",
      "a": "Scenario: A dictionary `marks = {'Aman': 85, 'Priya': 92, 'Rohit': 78}` needs to be sorted by marks descending. Code:\n```python\nmarks = {'Aman': 85, 'Priya': 92, 'Rohit': 78}\nsorted_items = sorted(marks.items(), key=lambda x: x[1], reverse=True)\nsorted_dict = dict(sorted_items)\n```\nA poor answer (e.g., sorting keys only, or not using items()) shows inability to apply conversion and sorting together.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Converting between lists, tuples, and ______ in Python refers to the process of transforming data from one collection type to another using built-in constructors (list(), tuple(), dict()) and methods (items(), keys(), values()), while preserving the data elements but changing the structure, mutability, and access patterns of the collection.",
+     "a": "dictionaries",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a list of student roll numbers [101, 102, 103] and you need to pass it to a function that only accepts ______ sequences, so you convert it to a tuple.",
+     "a": "immutable",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write Python code to convert a given list to a tuple and dictionary (with appropriate key-value pairing), a tuple to a list and dictionary, and a dictionary to lists of keys, values, and key-value tuples, explaining the structural changes and mutability implications in each conversion.",
+     "self_check": true
     }
    ]
   }

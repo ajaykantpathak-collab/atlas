@@ -34,6 +34,36 @@
      "q": "Design a two-column observational chart for a school weather station in Pune that separates daily weather tracking from regional climate descriptors.",
      "a": "The chart must list daily tracking variables (today's temperature, wind direction, daily rainfall) in the weather column, and multi-year averages (monsoon onset month, average annual temperature range) in the climate column. A poor answer mixes up short-term readings with permanent regional characteristics.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Weather is the day-to-day ______ condition of a specific place in terms of temperature, humidity, and rainfall, whereas climate refers to the average weather pattern observed over a long period, usually 30 years or more.",
+     "a": "atmospheric",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you step outside in New Delhi on a hot May ______ and feel a sudden dust storm, you are experiencing daily weather.",
+     "a": "afternoon",
+     "self_check": true
+    },
+    {
+     "q": "What is Weather? State the definition given in this lesson.",
+     "a": "Weather is the day-to-day atmospheric condition of a specific place in terms of temperature, humidity, and rainfall, whereas climate refers to the average weather pattern observed over a long period, usually 30 years or more.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Weather is the day-to-day atmospheric condition of a specific place in terms of temperature, humidity, and rainfall, whereas climate refers to the average weather pattern observed over a long period, usually ______ years or more.",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Weather?",
+     "a": "Students often think that if it rains for three days in a row, the climate of that region has temporarily turned into a rainy climate, failing to separate short-term weather spells from long-term climatic averages.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Students can successfully distinguish between short-term atmospheric changes (weather) and long-term regional patterns (climate) by analyzing meteorological data sets from Indian cities.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,176 @@
+{
+ "catalog": "catalog_class6_science_ch106.json",
+ "concepts": [
+  {
+   "id": "fesc.6.2.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "substance_a = 78",
+      "substance_b = 84",
+      "mixture = substance_a + substance_b"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "substance_a = 70",
+      "substance_b = 61",
+      "mixture = substance_a + substance_b"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "substance_a = 59",
+      "substance_b = 29",
+      "mixture = substance_a + substance_b"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "substance_a = 98",
+      "substance_b = 67",
+      "mixture = substance_a + substance_b"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "substance_a = 96",
+      "substance_b = 68",
+      "mixture = substance_a + substance_b"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "substance_a = 24",
+      "substance_b = 64",
+      "mixture = substance_a + substance_b"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "mixture = substance_a + substance_b"
+   ]
+  },
+  {
+   "id": "fesc.6.2.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "initial_length = 161",
+      "final_length = 452",
+      "length_lost = initial_length - final_length"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "initial_length = 161",
+      "final_length = 452",
+      "length_lost = initial_length - final_length"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "initial_length = 399",
+      "final_length = 71",
+      "length_lost = initial_length - final_length"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "initial_length = 399",
+      "final_length = 71",
+      "length_lost = initial_length - final_length"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "initial_length = 190",
+      "final_length = 180",
+      "length_lost = initial_length - final_length"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "initial_length = 190",
+      "final_length = 180",
+      "length_lost = initial_length - final_length"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "length_lost = initial_length - final_length"
+   ]
+  },
+  {
+   "id": "fesc.6.2.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "current_weight = 8.4",
+      "previous_weight = 112",
+      "weight_gain = current_weight - previous_weight"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "current_weight = 7.6",
+      "previous_weight = 134",
+      "weight_gain = current_weight - previous_weight"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "current_weight = 62",
+      "previous_weight = 11.4",
+      "weight_gain = current_weight - previous_weight"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "current_weight = 5.6",
+      "previous_weight = 8.8",
+      "weight_gain = current_weight - previous_weight"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "current_weight = 58",
+      "previous_weight = 38",
+      "weight_gain = current_weight - previous_weight"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "current_weight = 19.7",
+      "previous_weight = 3.8",
+      "weight_gain = current_weight - previous_weight"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "weight_gain = current_weight - previous_weight"
+   ]
+  }
+ ]
+}

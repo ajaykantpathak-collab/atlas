@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a convex lens, a screen, and a distant object (e.g., a tree outside the classroom window) to determine the approximate focal length of the lens. List the steps, the measurement to be taken, and how to ensure accuracy.",
      "a": "Steps: (1) Hold the convex lens facing the distant tree. (2) Place a screen on the other side. (3) Move the screen until a sharp, inverted image of the tree forms. (4) Measure the distance between the lens and the screen — this is the focal length (since object distance ≈ ∞, image distance ≈ f). (5) Repeat 3 times and take the average. Accuracy: ensure the tree is sufficiently far (≥ 50 m) so that incident rays are nearly parallel. A poor answer (e.g., using a nearby object) shows lack of understanding that the method requires object at infinity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A spherical lens is a ______ medium bounded by two spherical surfaces (or one spherical and one plane surface).",
+     "a": "transparent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ glass (convex lens) used to focus sunlight to a bright spot on paper — the paper burns at the focus.",
+     "a": "magnifying",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Derive that for a thin lens, the focal length is half the radius of curvature (f = R/______) by considering refraction at each surface.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify convex and concave lenses from their shape and ray behaviour, apply sign conventions for focal length, radius of curvature, object/image distances, and predict whether a given lens will converge or diverge a parallel beam of light.",
+     "self_check": true
     }
    ]
   }

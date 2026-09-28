@@ -34,6 +34,31 @@
      "q": "Construct a real-world Indian oligopoly scenario (e.g., domestic airlines) where the kinked demand curve assumptions hold, and another where they fail. For each, specify the expected rival reaction pattern and the implication for price stability.",
      "a": "Scenario where assumptions hold: Indian domestic airlines (IndiGo, Air India, Vistara, SpiceJet) on a major route like Delhi-Mumbai. If IndiGo cuts fares, others match immediately (price war hurts all); if IndiGo raises fares, others may not follow, gaining market share. Result: fares remain stable for months — kink at current fare.  \nScenario where assumptions fail: Cement industry (UltraTech, Ambuja, ACC) during a construction boom. If demand surges, firms may raise prices together (tacit collusion) — rivals match increases too, so no kink. Or in telecom (Jio, Airtel, Vi), Jio's 2016 entry with near-zero prices was a disruptive price cut not matched immediately — rivals lost share, violating \"match cuts\" assumption.  \nA poor answer (generic \"sometimes it works, sometimes not\") shows inability to apply the model's behavioral assumptions to concrete market contexts — a competency tested in case-based board questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Oligopoly is a market structure characterized by a small number of large firms selling either homogeneous or differentiated products, where each firm's decisions on price and output strategically affect rivals, creating mutual ______.",
+     "a": "interdependence",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are choosing a mobile data plan in India: Jio, Airtel, and Vi ______ the market.",
+     "a": "dominate",
+     "self_check": true
+    },
+    {
+     "q": "What is Oligopoly? State the definition given in this lesson.",
+     "a": "Oligopoly is a market structure characterized by a small number of large firms selling either homogeneous or differentiated products, where each firm's decisions on price and output strategically affect rivals, creating mutual interdependence.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Oligopoly?",
+     "a": "Students often believe the kink in the demand curve occurs at the profit-maximizing output determined by MC=MR, i.e., they think the firm chooses the kink.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) list and explain the four key features of oligopoly with Indian examples, (2) draw and label the kinked demand curve diagram including the discontinuous MR curve, (3) mathematically derive the MR discontinuity from two linear demand segments, (4) explain why price remains rigid when MC shifts within the vertical gap.",
+     "self_check": true
     }
    ]
   }

@@ -210,6 +210,21 @@
      "explain": "Perform the multiplication and express the result in mL per minute to quantify the volume of blood pumped by one ventricle per minute.",
      "compute": "cardiac_output = stroke_volume * heart_rate"
     }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "cardiac_output = stroke_volume * heart_rate",
+     "compute": "cardiac_output = stroke_volume * heart_rate"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "kebo.15.6",
+     "question_pattern": "find the volume of blood pumped by a ventricle per minute when stroke volume is {stroke_volume} and heart rate is {heart_rate}"
+    }
    ]
   },
   {
@@ -247,6 +262,21 @@
      "explain": "Perform the division and express the result in seconds per beat to quantify the duration of one complete cardiac cycle.",
      "compute": "cycle_duration = 60 / heart_rate"
     }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "cycle_duration = 60 / heart_rate",
+     "compute": "cycle_duration = 60 / heart_rate"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "kebo.15.7",
+     "question_pattern": "find the duration of a single heart beat when heart rate is {heart_rate} beats per minute"
+    }
    ]
   },
   {
@@ -264,7 +294,7 @@
     "describe how electrical activity of the heart is recorded on an electrocardiogram",
     "what do you understand by electrocardiogram (ecg)"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -281,7 +311,16 @@
      "action": "verify ECG abnormalities indicate cardiac dysfunction",
      "explain": "Enlarged or missing P-waves, widened QRS complexes, or inverted T-waves reveal arrhythmias or myocardial damage, confirming the ECG as a diagnostic tool for heart health."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ECG = P_wave + QRS_complex + T_wave",
+     "compute": "ECG = P_wave + QRS_complex + T_wave"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.15.9",
@@ -298,7 +337,7 @@
     "differentiate between systemic arteries veins and portal connections",
     "justify why double circulation and hepatic portal system matters"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -315,7 +354,16 @@
      "action": "verify separation of oxygenated and deoxygenated blood",
      "explain": "Double circulation keeps pulmonary and systemic circuits separate so that oxygenated blood reaches tissues at high pressure, confirming efficient oxygen delivery in birds and mammals."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "double_circulation = pulmonary_circuit + systemic_circuit",
+     "compute": "double_circulation = pulmonary_circuit + systemic_circuit"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.15.10",
@@ -332,7 +380,7 @@
     "why is the human heart referred to as myogenic in nature",
     "give one everyday example of regulation of cardiac activity and circulatory disorders"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -349,7 +397,16 @@
      "action": "verify autonomic and hormonal balance maintains cardiac output",
      "explain": "Sympathetic stimulation raises heart rate and stroke volume while parasympathetic (vagal) signals lower them, confirming that balanced neural and hormonal control keeps cardiac output matched to metabolic demand."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "cardiac_output_control = intrinsic_myogenic + autonomic_signals + adrenal_hormones",
+     "compute": "cardiac_output_control = intrinsic_myogenic + autonomic_signals + adrenal_hormones"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

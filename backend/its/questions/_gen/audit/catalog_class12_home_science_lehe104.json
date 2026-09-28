@@ -1,0 +1,245 @@
+{
+ "catalog": "catalog_class12_home_science_lehe104.json",
+ "concepts": [
+  {
+   "id": "lehe104.9",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total_base = 48",
+      "share_pct = 27",
+      "contribution = total_base * share_pct / 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total_base = 45",
+      "share_pct = 22",
+      "contribution = total_base * share_pct / 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_base = 79",
+      "share_pct = 47",
+      "contribution = total_base * share_pct / 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total_base = 65",
+      "share_pct = 25",
+      "contribution = total_base * share_pct / 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "total_base = 53",
+      "share_pct = 53",
+      "contribution = total_base * share_pct / 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total_base = 63",
+      "share_pct = 72",
+      "contribution = total_base * share_pct / 100"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "contribution = total_base * share_pct / 100"
+   ]
+  },
+  {
+   "id": "lehe104.10",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "upper_limit = 13.1",
+      "lower_limit = 22",
+      "danger_zone_span = upper_limit - lower_limit"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "upper_limit = 95",
+      "lower_limit = 73",
+      "danger_zone_span = upper_limit - lower_limit"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "upper_limit = 58",
+      "lower_limit = 99",
+      "danger_zone_span = upper_limit - lower_limit"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "upper_limit = 10.9",
+      "lower_limit = 71",
+      "danger_zone_span = upper_limit - lower_limit"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "upper_limit = 88",
+      "lower_limit = 65",
+      "danger_zone_span = upper_limit - lower_limit"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "upper_limit = 62",
+      "lower_limit = 75",
+      "danger_zone_span = upper_limit - lower_limit"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "danger_zone_span = upper_limit - lower_limit"
+   ]
+  },
+  {
+   "id": "lehe104.11",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "shelf_weeks = 36",
+      "shelf_days = shelf_weeks * 7"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "shelf_weeks = 22",
+      "shelf_days = shelf_weeks * 7"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "shelf_weeks = 92",
+      "shelf_days = shelf_weeks * 7"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "shelf_weeks = 8.6",
+      "shelf_days = shelf_weeks * 7"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "shelf_weeks = 48",
+      "shelf_days = shelf_weeks * 7"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "shelf_weeks = 77",
+      "shelf_days = shelf_weeks * 7"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "shelf_days = shelf_weeks * 7"
+   ]
+  },
+  {
+   "id": "lehe104.12",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "material_cost = 35",
+      "energy_cost = 8794",
+      "labour_cost = 2.2",
+      "packing_cost = 48",
+      "units_made = 63",
+      "per_unit_cost = (material_cost + energy_cost + labour_cost + packing_cost) / units_made"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "material_cost = 9.8",
+      "energy_cost = 1337",
+      "labour_cost = 26",
+      "packing_cost = 3.7",
+      "units_made = 18.3",
+      "per_unit_cost = (material_cost + energy_cost + labour_cost + packing_cost) / units_made"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "material_cost = 45",
+      "energy_cost = 7575",
+      "labour_cost = 76",
+      "packing_cost = 77",
+      "units_made = 30",
+      "per_unit_cost = (material_cost + energy_cost + labour_cost + packing_cost) / units_made"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "material_cost = 12.6",
+      "energy_cost = 7708",
+      "labour_cost = 95",
+      "packing_cost = 63",
+      "units_made = 97",
+      "per_unit_cost = (material_cost + energy_cost + labour_cost + packing_cost) / units_made"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "material_cost = 64",
+      "energy_cost = 7936",
+      "labour_cost = 24",
+      "packing_cost = 95",
+      "units_made = 56",
+      "per_unit_cost = (material_cost + energy_cost + labour_cost + packing_cost) / units_made"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "material_cost = 22",
+      "energy_cost = 2565",
+      "labour_cost = 75",
+      "packing_cost = 2.7",
+      "units_made = 33",
+      "per_unit_cost = (material_cost + energy_cost + labour_cost + packing_cost) / units_made"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "per_unit_cost = (material_cost + energy_cost + labour_cost + packing_cost) / units_made"
+   ]
+  }
+ ]
+}

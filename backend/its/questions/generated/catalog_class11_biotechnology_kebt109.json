@@ -1,55 +1,144 @@
 {
- "catalog": "catalog_class11_biotechnology_kebt109",
+ "catalog": "catalog_class11_biotechnology_kebt109.json",
  "concepts": [
   {
    "id": "kebt109.1",
    "title": "Correlation and Regression in Biological Data",
+   "converted_to_compute": true,
+   "formula": "hr_mean = hr_sum / patients",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "hr_mean = hr_sum / patients",
+     "compute": "hr_mean = hr_sum / patients"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Correlation and Regression in Biological Data', work with: bp_sum = 18, p1_hr = 300, p2_hr = 80, p3_hr = 75, p4_hr = 20, p5_hr = 24, patients = 30. Carry the chain through step by step and give the final value of bp_mean.",
-     "a": "0.6 units",
+     "q": "For Correlation and Regression in Biological Data: given hr_sum = 26, patients = 46, find hr mean.",
+     "a": "0.565217",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Correlation and Regression in Biological Data' and work with: bp_sum = 8, p1_hr = 300, p2_hr = 360, p3_hr = 80, p4_hr = 80, p5_hr = 24, patients = 5. Carry the chain through step by step and give the final value of bp_mean.",
-     "a": "1.6 units",
+     "q": "For Correlation and Regression in Biological Data: given hr_sum = 39, patients = 36, find hr mean.",
+     "a": "1.08333",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Correlation and Regression in Biological Data' refers to.",
-     "a": "When two variables such as heart rate and systolic pressure are measured across ten patients, an eyeball check cannot certify their association; regression draws the best-fit line and reports an R-squared between zero and one that measures how tightly points hug it, while correlation only quantifies the connectedness - and a good fit lets the null hypothesis be rejected.",
-     "self_check": true
+     "q": "For Correlation and Regression in Biological Data: given hr_sum = 28, patients = 72, find hr mean.",
+     "a": "0.388889",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Correlation and Regression in Biological Data'.",
-     "a": "Average each variable first, then let the regression line and its R-squared decide whether the variables truly move together.",
-     "self_check": true
+     "q": "For Correlation and Regression in Biological Data: given hr_sum = 1.7, patients = 43, find hr mean.",
+     "a": "0.0395349",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Correlation and Regression in Biological Data', in plain ASCII form.",
-     "a": "hr_mean = hr_sum / patients",
-     "self_check": true
+     "q": "For Correlation and Regression in Biological Data: given hr_sum = 81, patients = 33, find hr mean.",
+     "a": "2.45455",
+     "self_check": false
+    },
+    {
+     "q": "For Correlation and Regression in Biological Data: given hr_sum = 77, patients = 90, find hr mean.",
+     "a": "0.855556",
+     "self_check": false
     }
    ]
   },
   {
    "id": "kebt109.2",
    "title": "Statistical Significance and the P-value",
+   "converted_to_compute": true,
+   "formula": "significance_pct = (1 - p_cutoff) * 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "significance_pct = (1 - p_cutoff) * 100",
+     "compute": "significance_pct = (1 - p_cutoff) * 100"
+    }
+   ],
    "questions": [
     {
-     "q": "Explain in your own words what 'Statistical Significance and the P-value' refers to.",
-     "a": "A p-value gives the chance of seeing the observed result if the null hypothesis were true, and a cutoff of 0.05 - that is, ninety-five percent significance - has been the traditional pass mark, although the chapter warns that this threshold breeds false positives and small samples are better shown as all data points rather than averages with standard deviations.",
-     "self_check": true
+     "q": "For Statistical Significance and the P-value: given p_cutoff = 66, find significance pct.",
+     "a": "-6500",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Statistical Significance and the P-value'.",
-     "a": "Subtract the cutoff from one and multiply by a hundred to convert it into a significance percentage.",
-     "self_check": true
+     "q": "For Statistical Significance and the P-value: given p_cutoff = 4.3, find significance pct.",
+     "a": "-330",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Statistical Significance and the P-value', in plain ASCII form.",
-     "a": "significance_pct = (1 - p_cutoff) * 100",
-     "self_check": true
+     "q": "For Statistical Significance and the P-value: given p_cutoff = 80, find significance pct.",
+     "a": "-7900",
+     "self_check": false
+    },
+    {
+     "q": "For Statistical Significance and the P-value: given p_cutoff = 70, find significance pct.",
+     "a": "-6900",
+     "self_check": false
+    },
+    {
+     "q": "For Statistical Significance and the P-value: given p_cutoff = 87, find significance pct.",
+     "a": "-8600",
+     "self_check": false
+    },
+    {
+     "q": "For Statistical Significance and the P-value: given p_cutoff = 90, find significance pct.",
+     "a": "-8900",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebt109.7",
+   "title": "Sequencing Reads and Coverage Arithmetic",
+   "converted_to_compute": true,
+   "formula": "reads_needed = genome_size / read_length",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "reads_needed = genome_size / read_length",
+     "compute": "reads_needed = genome_size / read_length"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Sequencing Reads and Coverage Arithmetic: given genome_size = 92, read_length = 388, find reads needed.",
+     "a": "0.237113",
+     "self_check": false
+    },
+    {
+     "q": "For Sequencing Reads and Coverage Arithmetic: given genome_size = 21, read_length = 416, find reads needed.",
+     "a": "0.0504808",
+     "self_check": false
+    },
+    {
+     "q": "For Sequencing Reads and Coverage Arithmetic: given genome_size = 86, read_length = 213, find reads needed.",
+     "a": "0.403756",
+     "self_check": false
+    },
+    {
+     "q": "For Sequencing Reads and Coverage Arithmetic: given genome_size = 68, read_length = 266, find reads needed.",
+     "a": "0.255639",
+     "self_check": false
+    },
+    {
+     "q": "For Sequencing Reads and Coverage Arithmetic: given genome_size = 80, read_length = 66, find reads needed.",
+     "a": "1.21212",
+     "self_check": false
+    },
+    {
+     "q": "For Sequencing Reads and Coverage Arithmetic: given genome_size = 22, read_length = 25, find reads needed.",
+     "a": "0.88",
+     "self_check": false
     }
    ]
   },
@@ -143,37 +232,6 @@
     {
      "q": "Write the standard relation used for 'FASTA and FASTQ Record Arithmetic', in plain ASCII form.",
      "a": "reads_in_file = total_lines / 4",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebt109.7",
-   "title": "Sequencing Reads and Coverage Arithmetic",
-   "questions": [
-    {
-     "q": "Using the method 'Sequencing Reads and Coverage Arithmetic', work with: genome_size = 1024, read_length = 12, reads_per_run = 18. Carry the chain through step by step and give the final value of runs_needed.",
-     "a": "4.7407 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Sequencing Reads and Coverage Arithmetic' and work with: genome_size = 1024, read_length = 300, reads_per_run = 10. Carry the chain through step by step and give the final value of runs_needed.",
-     "a": "0.3413 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Sequencing Reads and Coverage Arithmetic' refers to.",
-     "a": "High-throughput instruments emit short reads of roughly 100-150 nucleotides or long reads of a few kilobases; covering a genome therefore needs the genome size divided by the read length, and sequencing centres - the Broad Institute alone passes twenty-four terabytes a day - split such workloads into runs of fixed read capacity.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Sequencing Reads and Coverage Arithmetic'.",
-     "a": "Divide the genome by the read length for the read count, then by reads per run for the number of runs.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Sequencing Reads and Coverage Arithmetic', in plain ASCII form.",
-     "a": "reads_needed = genome_size / read_length",
      "self_check": true
     }
    ]

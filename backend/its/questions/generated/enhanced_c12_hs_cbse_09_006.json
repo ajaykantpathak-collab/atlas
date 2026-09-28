@@ -34,6 +34,31 @@
      "q": "Design a packed lunch for an 11-year-old vegetarian girl (RDA: Energy 2200 kcal, Protein 43.2 g, Calcium 1000 mg, Iron 32 mg) that meets ≥90% of 1/3 RDA for all four nutrients using only: whole wheat flour, besan, spinach, paneer, curd, groundnut oil, lemon, and seasonal fruit. Specify quantities (g/ml) and show nutrient calculation summary. Explain how you addressed the \"vegetarian iron bioavailability\" challenge.",
      "a": "MENU: 2 missi rotis (60g wheat + 30g besan + 50g spinach + 5g oil), 75g paneer bhurji (75g paneer + 10g oil), 100g curd, 1 orange (100g), lemon squeeze on spinach.\nCALCULATIONS (approx):\nEnergy: Wheat 204 + Besan 114 + Spinach 12 + Oil 135 + Paneer 210 + Oil 90 + Curd 98 + Orange 47 = 910 kcal (Target 733 kcal → 124% ✓)\nProtein: Wheat 7.2 + Besan 6.6 + Spinach 1.5 + Paneer 13.5 + Curd 3.5 + Orange 0.9 = 33.2g (Target 14.4g → 231% ✓)\nCalcium: Spinach 50 + Paneer 360 + Curd 150 + Orange 40 = 600 mg (Target 333 mg → 180% ✓)\nIron: Wheat 2.1 + Besan 1.5 + Spinach 1.5 + Paneer 0.2 + Curd 0.1 + Orange 0.1 = 5.5 mg (Target 10.7 mg → 51% ✗)\nCORRECTION NEEDED: Iron still low. Add 20g roasted chana (iron 1.5mg) + increase spinach to 75g (+0.75mg) = 7.75 mg (72%). To reach 90% (9.6 mg), need haem iron or larger spinach portion. Vegetarian strategy: vitamin C (lemon, orange) doubles non-haem absorption → effective iron ~15.5 mg absorbed equivalent. Also, soaking/sprouting besan would reduce phytates. Final menu meets all targets with bioavailability enhancement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Nutritional requirements of school-age children (7-12 years) refer to the specific quantities of energy, protein, fats, vitamins, and minerals recommended by ICMR (2020) to support steady physical growth, cognitive development, bone ______, and immune function during the latent growth period before the adolescent growth spurt, accounting for increased physical activity, school schedules, and emerging food autonomy.",
+     "a": "mineralization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a parent packing a tiffin box for your 9-year-old daughter who has dance class after school — she needs sustained energy, ______ for growing bones, and iron for concentration in math class, but she refuses \"healthy\" food.",
+     "a": "calcium",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a parent packing a tiffin box for your ______-year-old daughter who has dance class after school — she needs sustained energy, calcium for growing bones, and iron for concentration in math class, but she refuses \"healthy\" food.",
+     "a": "9",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the daily RDA for energy, protein, calcium, and iron for a specific school-age child given age, sex, weight, and activity level, and design a balanced day's menu using the ICMR food group system that meets ≥90% of each nutrient RDA while respecting school-time constraints and food preferences.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a parent packing a tiffin box for your 9-year-old daughter who has dance class after school — she needs sustained energy, calcium for growing bones, and iron for ______ in math class, but she refuses \"healthy\" food.",
+     "a": "concentration",
+     "self_check": true
     }
    ]
   }

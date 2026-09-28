@@ -34,6 +34,31 @@
      "q": "Design a hypothetical UDAN 5.0 route network for the Andaman & Nicobar Islands that connects Port Blair (Veer Savarkar Airport) to three unserved islands (Car Nicobar, Campbell Bay, Diglipur) using only helicopter operations under Pawan Hans. Specify: (i) route sequence, (ii) great circle distances, (iii) why fixed-wing is unsuitable, and (iv) one policy modification needed to make this viable.",
      "a": "Expected answer criteria:\n(i) Route sequence: Port Blair → Diglipur (North Andaman) → Port Blair → Car Nicobar → Campbell Bay (Great Nicobar) — hub-and-spoke from Port Blair.\n(ii) Distances: Port Blair-Diglipur ~150 km; Port Blair-Car Nicobar ~250 km; Car Nicobar-Campbell Bay ~180 km.\n(iii) Fixed-wing unsuitable: islands lack runway-length flat land (only Port Blair has 3,000+ m runway), short sectors make takeoff/landing cycle dominant, coral/reef terrain prevents runway extension, monsoon crosswinds exceed light aircraft limits.\n(iv) Policy modification: Extend UDAN VGF to helicopter-only routes with higher per-seat cap (currently optimised for fixed-wing), and waive GST on aviation turbine fuel for island sectors.\nPoor answer listing only distances without terrain/policy reasoning fails the \"create\" competency — it treats geography as data retrieval, not spatial problem-solving.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Air transport in India refers to the system of domestic and ______ passenger and cargo movement by aircraft, operated through a network of airports managed by the Airport Authority of India (AAI), with policy initiatives like UDAN (Ude Desh ka Aam Nagrik) enhancing regional connectivity and Pawan Hans providing helicopter services to remote, hilly, and offshore areas.",
+     "a": "international",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking students to observe a flight tracking app or airport departure board — notice how Delhi, Mumbai, Bengaluru, and Chennai dominate departures, while smaller cities like ______ or Pasighat appear only recently.",
+     "a": "Jharsuguda",
+     "self_check": true
+    },
+    {
+     "q": "What is Air transport in India? State the definition given in this lesson.",
+     "a": "Air transport in India refers to the system of domestic and international passenger and cargo movement by aircraft, operated through a network of airports managed by the Airport Authority of India (AAI), with policy initiatives like UDAN (Ude Desh ka Aam Nagrik) enhancing regional connectivity and Pawan Hans providing helicopter services.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Air transport in India?",
+     "a": "Students believe \"UDAN made flying cheap for everyone\" — they confuse the capped fare (₹2,500 per hour of flight) with universal low fares, and miss that VGF applies only to *half the seats* on *selected RCS routes*, not all flights.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) interpret an air route map to identify major domestic hubs, international gateways, and UDAN-connected regional airports; (2) explain how physical geography (Himalayas, islands, Northeast terrain) and economic factors (metro cities, tourism, petroleum sector) shape India's air connectivity pattern; (3) evaluate the.",
+     "self_check": true
     }
    ]
   }

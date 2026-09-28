@@ -54,7 +54,7 @@
     "Why were prescientific deities portrayed as whimsical and easily offended?",
     "Explain Prescientific Worldview versus Scientific Worldview with a suitable example."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -71,7 +71,22 @@
      "action": "Compare methods of control",
      "explain": "Priests used appeasement formulas and magic, whereas scientists apply natural laws to control the environment."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "prescientific_view = anthropomorphic_deities + magical_formulas",
+     "compute": "prescientific_view = anthropomorphic_deities + magical_formulas"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "scientific_view = unswervable_laws + empirical_understanding",
+     "compute": "scientific_view = unswervable_laws + empirical_understanding"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lekl.126.3",

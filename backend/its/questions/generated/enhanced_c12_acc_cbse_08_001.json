@@ -34,6 +34,36 @@
      "q": "Create a real-world scenario (Indian context) where a stakeholder uses financial statement analysis for *forecasting*. Identify the stakeholder, the specific ratio(s) they would analyse, and one non-financial factor they must also consider (as per NCERT's limitation on forecasting).",
      "a": "Scenario: A venture capitalist (stakeholder) evaluates a Mumbai-based ed-tech startup for Series A funding. They analyse the startup's Revenue Growth Rate (trend analysis over 3 years), Return on Capital Employed (ROCE), and Debt-Equity Ratio to forecast future scalability and risk. Non-financial factor: Quality of the founding team and market disruption potential (qualitative aspect ignored by ratios). A poor answer gives a generic scenario without naming specific ratios or misses the NCERT-emphasized limitation that forecasting requires non-financial factors.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Financial Statement Analysis is the systematic process of examining and ______ a company's financial statements (Balance Sheet, Statement of Profit and Loss, Cash Flow Statement) to evaluate its financial performance, position, and cash flows for informed decision-making by internal and external users.",
+     "a": "interpreting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a bank manager deciding whether to ______ a ₹50 lakh loan to a small manufacturing firm.",
+     "a": "sanction",
+     "self_check": true
+    },
+    {
+     "q": "What is Financial Statement Analysis? State the definition given in this lesson.",
+     "a": "Financial Statement Analysis is the systematic process of examining and interpreting a company's financial statements (Balance Sheet, Statement of Profit and Loss, Cash Flow Statement) to evaluate its financial performance, position, and cash flows for informed decision-making by internal and external users.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a bank manager deciding whether to sanction a ₹______ lakh loan to a small manufacturing firm.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Financial Statement Analysis?",
+     "a": "Students often believe that \"calculating ratios IS financial statement analysis.\" They memorise formulas (Current Ratio = CA/CL) but cannot explain *why* a ratio of 2:1 is better than 1.5:1 for a specific industry, or *what decision* it informs.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can define financial statement analysis in their own words, list its three primary objectives (profitability, liquidity, solvency assessment), and explain why it is indispensable for stakeholders like investors, creditors, and management.",
+     "self_check": true
     }
    ]
   }

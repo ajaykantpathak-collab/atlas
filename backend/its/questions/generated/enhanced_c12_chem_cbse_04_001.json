@@ -34,6 +34,31 @@
      "q": "Design a one-slide summary (text only) that a Class 12 student could use to revise the **position and definition** of d-block/transition elements before the board exam. Include: group range, period count, series names with first/last elements, IUPAC definition, and the Group 12 exception.",
      "a": "A good answer would be a structured bullet list:\n- **Position**: Groups 3–12, Periods 4–7 (four long periods).\n- **Series**: 3d (Sc–Zn), 4d (Y–Cd), 5d (La, Hf–Hg), 6d (Ac, Rf–Cn).\n- **IUPAC definition**: Metal with incomplete d subshell in neutral atom **or** common ions.\n- **Exception**: Group 12 (Zn, Cd, Hg, Cn) — d¹⁰ in atom and ions → not transition elements.\n- **General config**: (n−1)d¹⁻¹⁰ ns¹⁻².\nA poor answer (e.g., a paragraph without clear separation of series, or missing the \"or in ions\" clause) shows the student cannot organise the information hierarchically and will struggle with case-based board questions that test precise definitions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The d-block elements occupy Groups 3–12 of the modern periodic table, where the (n−1)d subshell is ______ filled across four long periods (3d, 4d, 5d, 6d).",
+     "a": "progressively",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a familiar observation: the metallic objects around you — iron nails, copper wires, gold jewellery, stainless steel utensils — all ______ to the d-block.",
+     "a": "belong",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: According to IUPAC, a transition element is a metal that has an incomplete d subshell either in its neutral atomic state or in any of its common oxidation states; Zn, Cd, Hg (Group ______) have a filled d¹⁰ configuration and are therefore not transition elements, though their chemistry is studied alongside them.",
+     "a": "12",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) locate the d-block and f-block on the periodic table and name the four transition series with their start/end elements, (2) state the IUPAC definition of a transition element and apply it to decide whether a given d-block element (e.g., Sc, Cu, Zn) qualifies, and (3) write the general outer electronic configuration.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a familiar ______: the metallic objects around you — iron nails, copper wires, gold jewellery, stainless steel utensils — all belong to the d-block.",
+     "a": "observation",
+     "self_check": true
     }
    ]
   }

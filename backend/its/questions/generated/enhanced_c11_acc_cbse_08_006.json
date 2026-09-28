@@ -34,6 +34,31 @@
      "q": "Create a mini Balance Sheet (5 assets, 3 liabilities, capital) for a freelance graphic designer as on March 31, 2024, using *only* these account balances: Cash ₹25,000; Laptop ₹60,000; Client Advances Received ₹15,000; Outstanding Rent ₹8,000; Prepaid Insurance ₹5,000; Accounts Receivable ₹40,000; Capital (opening) ₹1,00,000; Net Profit for year ₹32,000; Drawings ₹20,000. Show marshalling in Order of Liquidity. Calculate and verify the accounting equation.",
      "a": "**Balance Sheet as on March 31, 2024 (Order of Liquidity)**\n| Liabilities | ₹ | Assets | ₹ |\n|---|---|---|---|\n| Outstanding Rent | 8,000 | Cash | 25,000 |\n| Client Advances Received | 15,000 | Accounts Receivable | 40,000 |\n| Capital (1,00,000 + 32,000 – 20,000) | 1,12,000 | Prepaid Insurance | 5,000 |\n| | | Laptop | 60,000 |\n| **Total** | **1,35,000** | **Total** | **1,35,000** |\n**Verification:** Assets (25,000+40,000+5,000+60,000) = 1,30,000? Wait — 25k+40k+5k+60k = 1,30,000. But Liabilities+Capital = 8k+15k+112k = 1,35,000. **Mismatch!** The student must spot: Prepaid Insurance is an asset (₹5,000), but did we miss something? Recheck: Capital = 1,00,000 + 32,000 – 20,000 = 1,12,000. Total L+C = 1,35,000. Total Assets = 1,30,000. **Error in problem design** — this tests if the student blindly balances or *detects missing data*. A good answer identifies the ₹5,000 gap and suggests a missing asset (e.g., \"Software Licences ₹5,000\") or error in given figures. This reveals whether the student treats the accounting equation as a *check* or a *given*.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Balance Sheet is a positional statement prepared at a specific date (typically the end of an accounting period) that presents the financial position of a business enterprise by ______ its assets, liabilities, and capital, where total assets always equal total liabilities plus capital, reflecting the fundamental accounting equation.",
+     "a": "summarising",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're the ______ of a small kirana store in Delhi.",
+     "a": "owner",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Unlike the P&L which is a video of the whole year, the Balance Sheet is a single frame frozen at midnight on March ______st.",
+     "a": "31",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Explain why a Balance Sheet is a \"statement\" not an \"account\" and why it represents a snapshot at a specific date, not a period; (2) Correctly classify given items as assets (fixed/current, tangible/intangible) or liabilities (long-term/current) and arrange them in order of permanence or liquidity; (3).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you're the owner of a small kirana store in Delhi.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

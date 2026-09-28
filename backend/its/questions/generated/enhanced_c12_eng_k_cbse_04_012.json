@@ -12,7 +12,7 @@
     },
     {
      "q": "Classify the following question as LITERAL or INFERENTIAL and explain your reasoning: \"What does Captain Hagberd do every day in his front plot?\"",
-     "a": "LITERAL. The text explicitly states: \"He dug every day in his front plot. He turned it over and over several times every year...\" (p.44). The answer is directly retrievable without interpretation. A student who labels this INFERENTIAL confuses \"daily routine\" with \"implied meaning\" and will waste time searching for hidden significance where none is required, losing marks for not quoting the exact textual detail.",
+     "a": "LITERAL. The text explicitly states: \"He dug every day in his front plot. He turned it over and over several times every year...\" (p.44). The answer is directly retrievable without interpretation. A student who labels this INFERENTIAL confuses \"daily routine\" with \"implied meaning\" and will waste time searching for hidden significance where N/A is required, losing marks for not quoting the exact textual detail.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Create ONE literal and ONE inferential question based on this passage from p.56: \"She drew a breath, and he said good-humouredly: 'Aye, with the door shut. I wouldn't care if... And you think he could be brought round to recognise me... Eh? What?... You could do it? In a week you say? H'm, I daresay you could—but do you think I could hold out a week in this dead-alive place?'\"",
      "a": "LITERAL: \"What does Harry call Colebrook?\" (Answer: \"dead-alive place\" — directly quoted). INFERENTIAL: \"What does Harry's phrase 'dead-alive place' reveal about his attitude toward settled domestic life?\" (Answer: It reveals his contempt for stagnation and his identity as a restless wanderer/Gambusino type, contrasting with his father's domestic fantasy). A poor literal question would be inferential (\"Why does he call it dead-alive?\"); a poor inferential question would be literal (\"What does he say about a week?\"). This tests if the student can design questions matching the cognitive level.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal ______ questions require retrieving facts, details, or sequences explicitly stated in the text (who, what, when, where).",
+     "a": "comprehension",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you're in the CBSE exam hall facing a 3-mark question: \"Why does Captain Hagberd react with horror when Bessie suggests his son might be drowned?\" A struggling student might write a vague opinion.",
+     "a": "Imagine",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're in the CBSE exam hall facing a ______-mark question: \"Why does Captain Hagberd react with horror when Bessie suggests his son might be drowned?\" A struggling student might write a vague opinion.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently classify any comprehension question as literal or inferential, locate precise textual evidence for literal answers, and construct inferential answers by synthesizing at least two textual clues with a clear logical reasoning chain, using the PEEL (Point, Evidence, Explanation, Link) structure.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're in the CBSE exam hall facing a 3-mark question: \"Why does Captain Hagberd react with horror when Bessie suggests his son might be drowned?\" A ______ student might write a vague opinion.",
+     "a": "struggling",
      "self_check": true
     }
    ]

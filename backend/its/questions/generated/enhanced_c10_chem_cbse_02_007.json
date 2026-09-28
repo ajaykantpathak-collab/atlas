@@ -34,6 +34,21 @@
      "q": "Design a simple experiment to prove that zinc oxide behaves as a basic oxide. List the materials, procedure, observation, and conclusion.",
      "a": "Materials: ZnO powder, dilute HCl, test tube, dropper. Procedure: Add a spatula of ZnO to 5 mL dilute HCl, shake gently. Observation: White ZnO powder dissolves, forming a colourless solution of ZnCl₂. Conclusion: ZnO reacts with acid to give salt and water, confirming its basic oxide nature. A poor answer that uses NaOH instead of acid, or expects gas evolution, shows confusion with amphoteric behaviour (ZnO also reacts with bases) or with metal-acid reactions that produce H₂.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Acids react with metal oxides (basic oxides) to form a salt and water, while bases react with non-metal oxides (acidic oxides) to form a salt and water; both are ______ reactions where the oxide acts as a base or acid respectively, and water is always a product.",
+     "a": "neutralisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a black copper(II) oxide powder placed in a test tube with dilute ______ acid — the black solid disappears and a blue-green solution forms, indicating a reaction has occurred.",
+     "a": "hydrochloric",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write balanced chemical equations for the reaction of any given acid with a metal oxide and any given base with a non-metal oxide, identify the salt formed, and explain why these reactions are classified as neutralisation reactions.",
+     "self_check": true
     }
    ]
   }

@@ -32,7 +32,37 @@
     },
     {
      "q": "Design a balanced incentive package for a 50-person sales team in a B2B SaaS company. The team has: 10 top performers (consistently exceed quota), 30 core performers (meet quota), 10 struggling performers (below quota 3+ months). Your package must include exactly 3 financial and 3 non-financial incentives, each targeted at a specific sub-group and linked to a Maslow need. Present as a table.",
-     "a": "A strong answer will show a table like:\n| Sub-group | Financial Incentive | Maslow Need | Non-Financial Incentive | Maslow Need |\n|---|---|---|---|---|\n| Top 10 | Accelerated commission (2x above quota) + ESOP grant | Esteem (recognition of excellence) + Self-Actualisation (ownership) | \"Rainmaker Club\" — quarterly offsite with CEO, input on product roadmap | Self-Actualisation (influence), Belonging (elite peer group) |\n| Core 30 | Quarterly bonus at 100% quota + SPIFF for new logo acquisition | Safety (income stability) + Esteem (achievement) | Skill-building budget (₹50k/yr for courses/certs) + Mentor a junior | Self-Actualisation (growth), Esteem (status as mentor) |\n| Struggling 10 | Guaranteed minimum draw (recoverable) + structured improvement bonus | Physiological/Safety (income floor) | Job Enrichment: shadow top performer, co-sell on 2 deals/week + weekly coaching (not evaluation) | Belonging (support), Esteem (confidence building) |\n\nA poor answer gives generic incentives without sub-group targeting or Maslow linkage, revealing the student treats incentives as \"one-size-fits-all\" — a major board exam error where case-based questions demand contextual application.",
+     "a": "(1) Top ten performers — accelerated commission and an ESOP grant for esteem and ownership, plus a Rainmaker Club offsite and a voice in the roadmap, (2) Core thirty — quarterly bonus at full quota and a new-logo incentive for safety and esteem, backed by a skill-building budget, (3) Struggling ten — a recoverable guaranteed minimum draw to secure the income floor, with shadowing a top performer and weekly coaching for belonging and confidence. A poor answer gives generic incentives without sub-group targeting or Maslow linkage, treating incentives as one-size-fits-all.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Financial incentives are direct monetary rewards or benefits measurable in monetary terms (such as salary, bonus, profit sharing, stock options, retirement benefits, and ______) used to motivate employees for better performance.",
+     "a": "perquisites",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the HR ______ of a mid-size IT company in Bengaluru.",
+     "a": "manager",
+     "self_check": true
+    },
+    {
+     "q": "What is Financial incentives? State the definition given in this lesson.",
+     "a": "Financial incentives are direct monetary rewards or benefits measurable in monetary terms (such as salary, bonus, profit sharing, stock options, retirement benefits, and perquisites) used to motivate employees for better performance.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Financial incentives like bonus or stock options address lower-to-middle needs; non-financial incentives like \"Innovation Time Off\" (______% time for passion projects), peer-recognition boards, and tech-lead career tracks address higher needs.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Financial incentives?",
+     "a": "Students believe \"financial incentives are always more powerful than non-financial incentives\" because money is tangible.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) classify any given incentive as financial or non-financial with justification linking to Maslow's need hierarchy, and (2) design a balanced incentive package for a given organisational scenario explaining which needs each component addresses.",
      "self_check": true
     }
    ]

@@ -22,7 +22,7 @@
     "which is bigger 2/3 or 1/3 why",
     "give two examples of fractions from your day"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -39,7 +39,16 @@
      "action": "check the answer",
      "explain": "Verify by reversing or re-counting, then conclude."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "combine the fractions with the fraction operation rules",
+     "explain": "combine the fractions with the fraction operation rules: prod = 8 * 3 / 9 gives 2.66667",
+     "compute": "prod = 8 * 3 / 9"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.7.2",
@@ -121,7 +130,7 @@
     "draw a picture to show 1 1/2",
     "when would you prefer a mixed number to an improper fraction"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -138,7 +147,16 @@
      "action": "check the answer",
      "explain": "Verify by reversing or re-counting, then conclude."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "combine the fractions with the fraction operation rules",
+     "explain": "combine the fractions with the fraction operation rules: prod = 10 * 5 / 3 gives 16.6667",
+     "compute": "prod = 10 * 5 / 3"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

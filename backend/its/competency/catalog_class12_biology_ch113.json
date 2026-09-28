@@ -119,7 +119,16 @@
      "solution": "Step 1: calculate proportion of global species: fraction = group_species_count / total_global_species = 1.0 Step 2: convert fraction to percentage: percentage_share = fraction * 100 = 100.0 Final result: 100.0",
      "answer": "100.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "percentage_share = (group_species_count / total_global_species) * 100",
+     "compute": "percentage_share = (group_species_count / total_global_species) * 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebo.13.1.4",
@@ -201,7 +210,16 @@
      "solution": "Step 1: multiply regression coefficient Z by logarithm of area: scaled_area = z * log_a = 16.0 Step 2: add log intercept to obtain log species richness: log_s = log_c + scaled_area = 20.0 Final result: 20.0",
      "answer": "20.0"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "log_S = log_C + Z * log_A",
+     "compute": "log_S = log_C + Z * log_A"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebo.13.1.6",
@@ -252,7 +270,7 @@
     "explain the ecological consequences resulting from regional biodiversity loss",
     "which taxonomic groups display higher vulnerability to rapid extinction"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -269,7 +287,16 @@
      "action": "Cite recent extinction examples and at-risk taxa",
      "explain": "IUCN Red List data show that significant proportions of birds, mammals, and amphibians face extinction risk, with recent documented extinctions including the dodo, thylacine, and Steller's sea cow."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "current_extinction_rate = baseline_rate * 1000",
+     "compute": "current_extinction_rate = baseline_rate * 1000"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebo.13.1.8",
@@ -286,7 +313,7 @@
     "what is co-extinction and how does it affect mutualistic species pairs",
     "how has human over-exploitation led to the collapse of specific animal species"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -303,7 +330,16 @@
      "action": "Describe alien invasions, over-exploitation, and co-extinctions",
      "explain": "Invasive alien species outcompete native taxa, over-exploitation depletes populations beyond recovery, and co-extinctions occur when an associated species is lost, such as a host-specific parasite vanishing with its host."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "biodiversity_loss = habitat_destruction + overexploitation + alien_invasions + coextinctions",
+     "compute": "biodiversity_loss = habitat_destruction + overexploitation + alien_invasions + coextinctions"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebo.13.2.1",
@@ -320,7 +356,7 @@
     "list ecosystem services provided by natural habitats according to broad utilitarianism",
     "how do natural pollinators contribute to human food production"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -337,7 +373,16 @@
      "action": "Explain the ethical argument for conservation",
      "explain": "The ethical argument holds that every species has intrinsic value and a moral right to exist, regardless of its economic usefulness, compelling humans to act as stewards of biodiversity."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "conservation_rationale = narrow_utilitarian + broad_utilitarian + ethical_duties",
+     "compute": "conservation_rationale = narrow_utilitarian + broad_utilitarian + ethical_duties"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebo.13.2.2",
@@ -354,7 +399,7 @@
     "differentiate between national parks, biosphere reserves, and wildlife sanctuaries",
     "explain how high endemicity defines a geographic area as a biodiversity hotspot"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -371,7 +416,16 @@
      "action": "Explain the role of sacred groves",
      "explain": "Sacred groves are tracts of forest preserved by local communities for religious and cultural reasons, providing refuge for many threatened and endemic plant species that might otherwise be lost."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "in_situ_network = biosphere_reserves + national_parks + sanctuaries + sacred_groves",
+     "compute": "in_situ_network = biosphere_reserves + national_parks + sanctuaries + sacred_groves"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebo.13.2.3",
@@ -388,7 +442,7 @@
     "describe the role of zoological parks and botanical gardens in saving endangered species",
     "what commitment was made by nations during the 2002 World Summit in Johannesburg"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -405,7 +459,16 @@
      "action": "Describe international conservation commitments",
      "explain": "The 1992 Earth Summit in Rio de Janeiro produced the Convention on Biological Diversity, and the 2002 Johannesburg Summit committed nations to achieve a significant reduction in biodiversity loss by 2010."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ex_situ_methods = cryopreservation + seed_banks + tissue_culture + zoological_gardens",
+     "compute": "ex_situ_methods = cryopreservation + seed_banks + tissue_culture + zoological_gardens"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

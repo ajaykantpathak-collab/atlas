@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a spring balance, a meter scale, and a stopwatch to measure the average power you develop while pulling a wooden block horizontally at constant speed on a rough table. List the measurements, the formula you will use, and how you will ensure the speed is constant.",
      "a": "Measure: force F (spring balance reading) while pulling at constant speed, displacement s (meter scale), time t (stopwatch). Average power P = F·s / t. To ensure constant speed, practice pulling so the spring balance reading stays steady, and verify by measuring time for equal distances. A poor answer omits the constant speed condition or uses accelerating motion, which would require instantaneous power and net force.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Power is the rate at which work is done or energy is ______.",
+     "a": "transferred",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan in your classroom: it does work on the air by pushing it downwards, but what makes one fan \"more powerful\" than ______?",
+     "a": "another",
+     "self_check": true
+    },
+    {
+     "q": "What is Power? State the definition given in this lesson.",
+     "a": "Power is the rate at which work is done or energy is transferred.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by measuring the work done by the fan in ______ seconds (using force and displacement of air) and then divide by time to get average power.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Power?",
+     "a": "Students often think that if a large force is applied, the power must be large.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate instantaneous power from a given force-velocity pair using the dot product, distinguish between average and instantaneous power in a physical scenario, and convert between watts, kilowatts, and horsepower with correct unit analysis.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Create a real-life scenario using Indian currency (Rupees and 10-paisa coins) to explain why the number $0.6$ represents six parts out of ten.",
      "a": "A good answer should state that 1 Rupee can be thought of as divided into 10 equal 10-paisa coins. Taking 6 of those 10-paisa coins represents $\\frac{6}{10}$ of a Rupee, which is written as $0.6$ rupees. A poor answer fails to connect the denominator of 10 to a physical grouping of 10 equal items in real life.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It is the first position to the right of the decimal point, ______ a value ten times smaller than a whole number one.",
+     "a": "representing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you go to a stationery shop to buy a pencil, and the shopkeeper tells you it costs one rupee, but you also notice small rulers where a centimetre is divided into 10 tiny equal tick marks called ______.",
+     "a": "millimetres",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you go to a stationery shop to buy a pencil, and the shopkeeper tells you it costs one rupee, but you also notice small rulers where a centimetre is divided into ______ tiny equal tick marks called millimetres.",
+     "a": "10",
+     "self_check": true
     }
    ]
   }

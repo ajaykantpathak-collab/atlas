@@ -126,7 +126,16 @@
      "q": "LB broth mixes ten percent tryptone, ten percent sodium chloride and five percent of what: yeast extract or agar?",
      "a": "yeast extract"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "lb_solids = tryptone_pct + yeast_extract_pct + nacl_pct",
+     "compute": "lb_solids = tryptone_pct + yeast_extract_pct + nacl_pct"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebt106.4",
@@ -165,7 +174,16 @@
      "q": "Autoclaves hold steam at what temperature: 121 degrees Celsius or 21?",
      "a": "121"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "temp_rise = autoclave_temp - boiling_point",
+     "compute": "temp_rise = autoclave_temp - boiling_point"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebt106.5",
@@ -332,7 +350,16 @@
      "q": "Dividing 0.693 by the doubling time gives the specific what: growth rate or yield?",
      "a": "growth rate"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "td_hours = elapsed_hours / generations",
+     "compute": "td_hours = elapsed_hours / generations"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

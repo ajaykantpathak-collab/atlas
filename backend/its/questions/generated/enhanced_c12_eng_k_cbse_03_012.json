@@ -34,6 +34,26 @@
      "q": "Create an inferential question about the final chapel scene (under the wedding canopy) that requires synthesizing Dr. Margolin's internal monologue, Jewish law reference, and Raizel's silence. Provide the question and a model answer with two textual anchors.",
      "a": "Question: \"Why does Raizel not answer when Dr. Margolin asks, 'Would you never have let me hear from you?' and how does her silence reflect the story's central tension between memory and survival?\"\n\nModel answer: Raizel's silence signifies that survival required severing the past — she \"lost everything. But I still had some pride left\" (textual anchor 1). Her silence also mirrors the community's collective silencing of trauma: at the wedding, names are \"swallowed up in the tumult\" (textual anchor 2). The unanswered question becomes the story's core inference: love cannot be reclaimed because the world that allowed it (pre-war Sencimin) is literally destroyed. A poor answer would speculate about Raizel's feelings without anchoring to these two textual patterns.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal ______ questions require retrieving explicitly stated information from the text (who, what, where, when).",
+     "a": "comprehension",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're ______ a WhatsApp forward about a wedding disaster — you instantly pick out facts (venue, time) and guess causes (why the fight started).",
+     "a": "reading",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently classify a question as literal or inferential, locate exact textual evidence for literal answers, and construct inferential answers by synthesizing at least two textual clues with a clear justification for each inference.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're reading a WhatsApp forward about a wedding disaster — you ______ pick out facts (venue, time) and guess causes (why the fight started).",
+     "a": "instantly",
+     "self_check": true
     }
    ]
   }

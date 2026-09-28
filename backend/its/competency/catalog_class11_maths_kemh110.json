@@ -1,312 +1,532 @@
 {
-  "class": 11,
-  "subject": "maths",
-  "chapter": 110,
-  "chapter_title": "Conic Sections",
-  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kemh110.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "concepts": [
+ "class": 11,
+ "subject": "maths",
+ "chapter": 110,
+ "chapter_title": "Conic Sections",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/kemh110.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "kemh110.10.2.1",
+   "title": "Conic Sections as Plane-Cone Intersections",
+   "section": "10.2",
+   "definition": "Slice a double-napped right circular cone with a flat plane and the cut edge traces one of the classic curves -- circle, ellipse, parabola or hyperbola depending on the tilt of the slice; degenerate slices give a point, a straight line or a crossing pair of lines. These curves are called conic sections or conics.",
+   "formula": "",
+   "key_idea": "One cone, one plane, four families of curves -- the tilt of the slice alone decides which conic appears.",
+   "textbook_ref": "kemh110.txt lines 40-100 (sections 10.2, 10.2.1, 10.2.2; sections of a cone, degenerated conic sections, Apollonius naming)",
+   "question_patterns": [
+    "name the curves obtained by cutting a cone with a plane at different tilts",
+    "in class 11 conic sections: when does a plane cut give a circle rather than an ellipse",
+    "what are degenerated conic sections and how do they arise",
+    "why are parabola and hyperbola called conics",
+    "which slice angle produces a hyperbola from a double napped cone",
+    "describe the section that yields a pair of intersecting lines"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "kemh110.10.2.1",
-      "title": "Conic Sections as Plane-Cone Intersections",
-      "section": "10.2",
-      "definition": "Slice a double-napped right circular cone with a flat plane and the cut edge traces one of the classic curves -- circle, ellipse, parabola or hyperbola depending on the tilt of the slice; degenerate slices give a point, a straight line or a crossing pair of lines. These curves are called conic sections or conics.",
-      "formula": "",
-      "key_idea": "One cone, one plane, four families of curves -- the tilt of the slice alone decides which conic appears.",
-      "textbook_ref": "kemh110.txt lines 40-100 (sections 10.2, 10.2.1, 10.2.2; sections of a cone, degenerated conic sections, Apollonius naming)",
-      "question_patterns": [
-        "name the curves obtained by cutting a cone with a plane at different tilts",
-        "in class 11 conic sections: when does a plane cut give a circle rather than an ellipse",
-        "what are degenerated conic sections and how do they arise",
-        "why are parabola and hyperbola called conics",
-        "which slice angle produces a hyperbola from a double napped cone",
-        "describe the section that yields a pair of intersecting lines"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "set up the cone and plane", "explain": "A double-napped right circular cone meets a moving plane; the intersection curve is the conic."},
-        {"step": 2, "action": "classify by tilt", "explain": "A plane parallel to the generator gives a parabola; a smaller tilt gives an ellipse (a circle when it is horizontal); a steeper cut through both nappes gives a hyperbola."},
-        {"step": 3, "action": "handle degenerate cuts", "explain": "A plane through the vertex yields a point, a single line or two intersecting lines -- the degenerate conics."}
-      ]
+     "step": 1,
+     "action": "set up the cone and plane",
+     "explain": "A double-napped right circular cone meets a moving plane; the intersection curve is the conic."
     },
     {
-      "id": "kemh110.10.3.1",
-      "title": "Circle: Centre and Radius from the General Equation",
-      "section": "10.3",
-      "definition": "A circle is the set of points at one fixed distance (the radius) from a fixed centre. Written as x^2 + y^2 + 2gx + 2fy + c = 0, the circle hides its centre at (-g, -f) and its radius squared equals g^2 + f^2 - c, which must stay positive for a real circle.",
-      "formula": "radius = sqrt(g ** 2 + f ** 2 - c)",
-      "key_idea": "Complete two squares in your head: the coefficients of x and y give the centre, and the leftover constant fixes the radius.",
-      "textbook_ref": "kemh110.txt lines 91-180 (section 10.3 circle, standard equation, general form x^2 + y^2 + 2gx + 2fy + c = 0)",
-      "question_patterns": [
-        "find the centre and radius of the circle with the given equation",
-        "reduce the general equation of a circle to standard form",
-        "in class 11 conic sections: what does the equation x^2 + y^2 + 2gx + 2fy + c = 0 represent",
-        "when does the general equation fail to give a real circle",
-        "write the equation of the circle with given centre passing through a given point",
-        "determine whether the given point lies inside or outside the circle"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "halve the linear coefficients", "explain": "Matching 2gx + 2fy against the equation gives g and f directly as half the x and y coefficients.",
-         "compute": "cent_x = -g"},
-        {"step": 2, "action": "evaluate the radius", "explain": "The radius is the square root of g squared plus f squared minus c.",
-         "compute": "radius = sqrt(g ** 2 + f ** 2 - c)"}
-      ]
+     "step": 2,
+     "action": "classify by tilt",
+     "explain": "A plane parallel to the generator gives a parabola; a smaller tilt gives an ellipse (a circle when it is horizontal); a steeper cut through both nappes gives a hyperbola."
     },
     {
-      "id": "kemh110.10.4.1",
-      "title": "Parabola: Focus, Directrix and Standard Equations",
-      "section": "10.4.1",
-      "definition": "A parabola collects the points that stay equally far from a fixed point (the focus) and a fixed line (the directrix). Placed with vertex at the origin, the four standard equations are y^2 = 4ax (opens right), y^2 = -4ax (left), x^2 = 4ay (up) and x^2 = -4ay (down), with the axis of symmetry deciding the direction.",
-      "formula": "y2_eq = 4 * focal_len * x  (i.e. y^2 = 4ax)",
-      "key_idea": "Equal distances to focus and directrix -- the one defining balance that shapes every parabola.",
-      "textbook_ref": "kemh110.txt lines 215-345 (section 10.4 and 10.4.1, focus, directrix, axis, vertex, four standard equations of parabola)",
-      "question_patterns": [
-        "define a parabola in terms of focus and directrix",
-        "find the focus and directrix of the given parabola",
-        "in class 11 conic sections: which way does x^2 = 4ay open",
-        "write the standard equation of a parabola with vertex at origin opening left",
-        "why is y^2 = 4ax symmetric about the x-axis",
-        "identify the axis of symmetry of the given parabola"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "state the defining condition", "explain": "Every point of the parabola satisfies distance to focus = perpendicular distance to directrix."},
-        {"step": 2, "action": "match the equation shape", "explain": "A y-squared term with x on the other side means the parabola opens along the x-axis; x-squared opens along the y-axis."},
-        {"step": 3, "action": "read focus and directrix", "explain": "Comparing with y^2 = 4ax puts the focus at (a, 0) and the directrix at x = -a; the sign of a fixes the opening direction."}
-      ]
-    },
-    {
-      "id": "kemh110.10.4.2",
-      "title": "Latus Rectum of a Parabola",
-      "section": "10.4.2",
-      "definition": "The chord of a parabola that runs through the focus parallel to the directrix is its latus rectum; for the standard parabola with focal distance a it stretches to length 4a, and it is the widest double-width chord the curve cuts at the focus height.",
-      "formula": "latus = 4 * focal_len",
-      "key_idea": "Endpoints of the latus rectum sit at (a, plus/minus 2a) -- four times the focal distance end to end.",
-      "textbook_ref": "kemh110.txt lines 346-380 (section 10.4.2 latus rectum of a parabola, endpoints (a, 2a) and (a, -2a))",
-      "question_patterns": [
-        "find the length of the latus rectum of the given parabola",
-        "what is the latus rectum of y squared equals 12x",
-        "in class 11 conic sections: write the endpoints of the latus rectum of y^2 = 4ax",
-        "how does the latus rectum length change when the focal distance doubles",
-        "compute the focal distance from the latus rectum length",
-        "why does the latus rectum pass through the focus"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "read the focal distance", "explain": "In y^2 = 4ax the focal distance is the coefficient a, obtained by dividing the y-squared coefficient by 4.",
-         "compute": "focal_len = a"},
-        {"step": 2, "action": "multiply by four", "explain": "The chord across the focus measures 4a from end to end.",
-         "compute": "latus = 4 * focal_len"}
-      ]
-    },
-    {
-      "id": "kemh110.10.5.1",
-      "title": "Ellipse: Standard Equation, Foci and Axes",
-      "section": "10.5",
-      "definition": "An ellipse is the path of points whose distances from two fixed foci add to one constant. In standard position its equation reads x^2/a^2 + y^2/b^2 = 1 with a the semi-major and b the semi-minor axis, foci on the major axis at plus or minus c where c^2 = a^2 - b^2.",
-      "formula": "focal = sqrt(a_axis ** 2 - b_axis ** 2)",
-      "key_idea": "Constant sum of distances to two foci -- and the semi-minor axis is the height at the ellipse's centre width.",
-      "textbook_ref": "kemh110.txt lines 381-470 and 500-560 (section 10.5, 10.5.1 relationship between semi-major and semi-minor axis, foci)",
-      "question_patterns": [
-        "define an ellipse using its foci",
-        "find the foci of the ellipse with the given equation",
-        "in class 11 conic sections: how are the semi-major and semi-minor axes related to the focal distance",
-        "state the standard equation of an ellipse centred at the origin",
-        "which axis carries the foci of the given ellipse",
-        "why is b less than a in the standard ellipse"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "state the constant-sum property", "explain": "For every point on the ellipse the two focal distances add to the same total 2a."},
-        {"step": 2, "action": "identify the axes from the equation", "explain": "The larger denominator sits under the axis that carries the foci -- that is the major axis."},
-        {"step": 3, "action": "connect a, b and c", "explain": "The focal half-distance satisfies c^2 = a^2 - b^2, the same Pythagorean link used for the eccentricity."}
-      ]
-    },
-    {
-      "id": "kemh110.10.5.2",
-      "title": "Eccentricity of an Ellipse",
-      "section": "10.5.2",
-      "definition": "Eccentricity grades how stretched an ellipse is: the ratio of the focal half-distance to the semi-major axis, always a number between 0 and 1. At e = 0 the foci merge and the ellipse is a circle; as e climbs toward 1 the ellipse flattens.",
-      "formula": "ecc = focal / a_axis",
-      "key_idea": "e = c/a sits strictly between 0 and 1 -- zero means circle, near one means long and thin.",
-      "textbook_ref": "kemh110.txt lines 560-585 (section 10.5.2 eccentricity of an ellipse, e = c/a less than 1)",
-      "question_patterns": [
-        "find the eccentricity of the given ellipse",
-        "calculate e for the ellipse with given semi-axes",
-        "in class 11 conic sections: what value of eccentricity makes an ellipse a circle",
-        "why is the eccentricity of an ellipse always less than 1",
-        "compute the focal distance and then the eccentricity",
-        "compare two ellipses by eccentricity and say which is flatter"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "compute the focal half-distance", "explain": "Pythagoras on the semi-axes gives c = sqrt(a^2 - b^2).",
-         "compute": "focal = sqrt(a_axis ** 2 - b_axis ** 2)"},
-        {"step": 2, "action": "divide by the semi-major axis", "explain": "e = c / a lands between 0 and 1 because b stays positive.",
-         "compute": "ecc = focal / a_axis"}
-      ]
-    },
-    {
-      "id": "kemh110.10.5.3",
-      "title": "Latus Rectum of an Ellipse",
-      "section": "10.5.4",
-      "definition": "The latus rectum of an ellipse is the chord through a focus at right angles to the major axis; its length is 2b^2/a, twice the square of the semi-minor axis divided by the semi-major axis.",
-      "formula": "latus_e = 2 * b_axis ** 2 / a_axis",
-      "key_idea": "Plug x = c into the ellipse equation: the y-extent there is b^2/a on each side, doubling to the chord length.",
-      "textbook_ref": "kemh110.txt lines 586-610 (section 10.5.4 latus rectum of an ellipse, length 2b^2/a)",
-      "question_patterns": [
-        "find the length of the latus rectum of the given ellipse",
-        "calculate 2b squared over a for the ellipse with given axes",
-        "in class 11 conic sections: where does the latus rectum of an ellipse cut the curve",
-        "how does the latus rectum length respond when the ellipse widens",
-        "compare the latus rectum lengths of two ellipses",
-        "the latus rectum and semi-major axis are given, recover b"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "square the semi-minor axis", "explain": "The half-chord at the focus is b^2/a, so b^2 is needed first.",
-         "compute": "b_sq = b_axis ** 2"},
-        {"step": 2, "action": "double and scale by a", "explain": "Multiplying by 2 and dividing by the semi-major axis gives the full chord.",
-         "compute": "latus_e = 2 * b_sq / a_axis"}
-      ]
-    },
-    {
-      "id": "kemh110.10.6.1",
-      "title": "Hyperbola: Standard Equation, Axes and Eccentricity",
-      "section": "10.6",
-      "definition": "A hyperbola is the set of points for which the difference of distances to two fixed foci stays constant. Its standard equation is x^2/a^2 - y^2/b^2 = 1 with a transverse axis of length 2a and a conjugate axis of length 2b; here the focal half-distance obeys c^2 = a^2 + b^2, so the eccentricity c/a always exceeds 1.",
-      "formula": "ecc_h = sqrt(a_axis ** 2 + b_axis ** 2) / a_axis",
-      "key_idea": "Same shape of equation as the ellipse but a minus sign -- and that flips the focal relation from a^2 - b^2 to a^2 + b^2, pushing e past 1.",
-      "textbook_ref": "kemh110.txt lines 611-700 (sections 10.6, 10.6.1 eccentricity, 10.6.2 standard equation of hyperbola, 10.6.3 latus rectum)",
-      "question_patterns": [
-        "define a hyperbola in terms of its foci and constant difference",
-        "find the eccentricity of the given hyperbola",
-        "in class 11 conic sections: why is the eccentricity of a hyperbola greater than 1",
-        "state the standard equation of a hyperbola with transverse axis along x",
-        "distinguish the transverse axis from the conjugate axis",
-        "find the foci of the hyperbola from its equation"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "state the constant-difference property", "explain": "Each point keeps |distance to one focus - distance to other| = 2a, the transverse axis length."},
-        {"step": 2, "action": "read the axes from the equation", "explain": "The positive term sits under the transverse axis; the minus-term axis is the conjugate one."},
-        {"step": 3, "action": "apply the plus relation for foci", "explain": "c^2 = a^2 + b^2, so c exceeds a and the eccentricity c/a is always greater than 1."}
-      ]
+     "step": 3,
+     "action": "handle degenerate cuts",
+     "explain": "A plane through the vertex yields a point, a single line or two intersecting lines -- the degenerate conics."
     }
-  ],
-  "worked_examples": [
+   ],
+   "compute_steps": [
     {
-      "id": "we1",
-      "source_ref": "kemh110.txt lines 91-180 (general equation of a circle)",
-      "concept": "kemh110.10.3.1",
-      "question_type": "compute",
-      "question_pattern": "Find the radius of the circle x^2 + y^2 + 2g x + 2f y + c = 0 with g = {g}, f = {f}, c = {c}.",
-      "extracted_variables": {"g": -2, "f": -3, "c": -12},
-      "solution_template": [
-        {"step": 1, "action": "halve the linear coefficients", "explain": "Here g = -2 and f = -3, so the centre sits at (2, 3).", "compute": "cent_x = -g"},
-        {"step": 2, "action": "evaluate the radius", "explain": "radius = sqrt(4 + 9 + 12) = 5.", "compute": "radius = sqrt(g ** 2 + f ** 2 - c)"}
-      ]
-    },
-    {
-      "id": "we2",
-      "source_ref": "kemh110.txt lines 91-180 (general equation of a circle)",
-      "concept": "kemh110.10.3.1",
-      "question_type": "compute",
-      "question_pattern": "The circle x^2 + y^2 + 2g x + 2f y + c = 0 has g = {g}, f = {f}, c = {c}; compute its radius.",
-      "extracted_variables": {"g": 2, "f": 3, "c": -23},
-      "solution_template": [
-        {"step": 1, "action": "halve the linear coefficients", "explain": "The centre is (-2, -3).", "compute": "cent_x = -g"},
-        {"step": 2, "action": "evaluate the radius", "explain": "radius = sqrt(4 + 9 + 23) = 6.", "compute": "radius = sqrt(g ** 2 + f ** 2 - c)"}
-      ]
-    },
-    {
-      "id": "we3",
-      "source_ref": "kemh110.txt lines 346-380 (latus rectum of a parabola)",
-      "concept": "kemh110.10.4.2",
-      "question_type": "compute",
-      "question_pattern": "Find the latus rectum of the parabola y^2 = 4 a x with a = {focal_len}.",
-      "extracted_variables": {"focal_len": 3},
-      "solution_template": [
-        {"step": 1, "action": "read the focal distance", "explain": "The focal distance is a = 3.", "compute": "focal_len = a"},
-        {"step": 2, "action": "multiply by four", "explain": "latus = 4 * 3 = 12.", "compute": "latus = 4 * focal_len"}
-      ]
-    },
-    {
-      "id": "we4",
-      "source_ref": "kemh110.txt lines 346-380 (latus rectum of a parabola)",
-      "concept": "kemh110.10.4.2",
-      "question_type": "compute",
-      "question_pattern": "For the parabola with focal distance a = {focal_len}, compute the chord through its focus parallel to the directrix.",
-      "extracted_variables": {"focal_len": 2},
-      "solution_template": [
-        {"step": 1, "action": "read the focal distance", "explain": "a = 2 for this parabola.", "compute": "focal_len = a"},
-        {"step": 2, "action": "multiply by four", "explain": "latus = 4 * 2 = 8.", "compute": "latus = 4 * focal_len"}
-      ]
-    },
-    {
-      "id": "we5",
-      "source_ref": "kemh110.txt lines 560-585 (eccentricity of an ellipse)",
-      "concept": "kemh110.10.5.2",
-      "question_type": "compute",
-      "question_pattern": "An ellipse has semi-major axis {a_axis} and semi-minor axis {b_axis}; find its eccentricity.",
-      "extracted_variables": {"a_axis": 5, "b_axis": 3},
-      "solution_template": [
-        {"step": 1, "action": "compute the focal half-distance", "explain": "focal = sqrt(25 - 9) = 4.", "compute": "focal = sqrt(a_axis ** 2 - b_axis ** 2)"},
-        {"step": 2, "action": "divide by the semi-major axis", "explain": "ecc = 4/5 = 0.8.", "compute": "ecc = focal / a_axis"}
-      ]
-    },
-    {
-      "id": "we6",
-      "source_ref": "kemh110.txt lines 560-585 (eccentricity of an ellipse)",
-      "concept": "kemh110.10.5.2",
-      "question_type": "compute",
-      "question_pattern": "Given a = {a_axis} and b = {b_axis} for an ellipse, calculate e = c/a.",
-      "extracted_variables": {"a_axis": 13, "b_axis": 5},
-      "solution_template": [
-        {"step": 1, "action": "compute the focal half-distance", "explain": "focal = sqrt(169 - 25) = 12.", "compute": "focal = sqrt(a_axis ** 2 - b_axis ** 2)"},
-        {"step": 2, "action": "divide by the semi-major axis", "explain": "ecc = 12/13, about 0.9231.", "compute": "ecc = focal / a_axis"}
-      ]
-    },
-    {
-      "id": "we7",
-      "source_ref": "kemh110.txt lines 586-610 (latus rectum of an ellipse)",
-      "concept": "kemh110.10.5.3",
-      "question_type": "compute",
-      "question_pattern": "Find the latus rectum length of the ellipse with a = {a_axis}, b = {b_axis}.",
-      "extracted_variables": {"a_axis": 5, "b_axis": 3},
-      "solution_template": [
-        {"step": 1, "action": "square the semi-minor axis", "explain": "b_sq = 9.", "compute": "b_sq = b_axis ** 2"},
-        {"step": 2, "action": "double and scale by a", "explain": "latus_e = 2 * 9 / 5 = 3.6.", "compute": "latus_e = 2 * b_sq / a_axis"}
-      ]
-    },
-    {
-      "id": "we8",
-      "source_ref": "kemh110.txt lines 586-610 (latus rectum of an ellipse)",
-      "concept": "kemh110.10.5.3",
-      "question_type": "compute",
-      "question_pattern": "For semi-axes a = {a_axis} and b = {b_axis}, compute the focal chord perpendicular to the major axis.",
-      "extracted_variables": {"a_axis": 4, "b_axis": 2},
-      "solution_template": [
-        {"step": 1, "action": "square the semi-minor axis", "explain": "b_sq = 4.", "compute": "b_sq = b_axis ** 2"},
-        {"step": 2, "action": "double and scale by a", "explain": "latus_e = 2 * 4 / 4 = 2.", "compute": "latus_e = 2 * b_sq / a_axis"}
-      ]
+     "step": 1,
+     "action": "apply the solid's surface area or volume formula",
+     "explain": "apply the solid's surface area or volume formula: vol = 5 * 7 * 7 gives 245",
+     "compute": "vol = 5 * 7 * 7"
     }
-  ],
-  "exercises": [
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "kemh110.10.3.1",
+   "title": "Circle: Centre and Radius from the General Equation",
+   "section": "10.3",
+   "definition": "A circle is the set of points at one fixed distance (the radius) from a fixed centre. Written as x^2 + y^2 + 2gx + 2fy + c = 0, the circle hides its centre at (-g, -f) and its radius squared equals g^2 + f^2 - c, which must stay positive for a real circle.",
+   "formula": "radius = sqrt(g ** 2 + f ** 2 - c)",
+   "key_idea": "Complete two squares in your head: the coefficients of x and y give the centre, and the leftover constant fixes the radius.",
+   "textbook_ref": "kemh110.txt lines 91-180 (section 10.3 circle, standard equation, general form x^2 + y^2 + 2gx + 2fy + c = 0)",
+   "question_patterns": [
+    "find the centre and radius of the circle with the given equation",
+    "reduce the general equation of a circle to standard form",
+    "in class 11 conic sections: what does the equation x^2 + y^2 + 2gx + 2fy + c = 0 represent",
+    "when does the general equation fail to give a real circle",
+    "write the equation of the circle with given centre passing through a given point",
+    "determine whether the given point lies inside or outside the circle"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "ex1",
-      "source_ref": "kemh110.txt end-of-chapter exercises, reworded",
-      "questions": [
-        "Find the equation of the circle with centre (1/2, 1/4) and radius 1/12.",
-        "Find the centre and radius of the circle x^2 + y^2 - 4x - 6y - 12 = 0.",
-        "Find the focus, directrix and latus rectum of the parabola y^2 = 12x.",
-        "Find the equation of the parabola with vertex at origin and focus (2, 0).",
-        "Find the foci, vertices and eccentricity of the ellipse x^2/25 + y^2/9 = 1.",
-        "Find the equation of the ellipse whose foci are plus or minus 4 on the x-axis and whose major axis is 10.",
-        "Find the eccentricity and foci of the hyperbola x^2/16 - y^2/9 = 1.",
-        "Does a plane cutting only one nappe of a cone ever give a hyperbola? Justify."
-      ]
+     "step": 1,
+     "action": "halve the linear coefficients",
+     "explain": "Matching 2gx + 2fy against the equation gives g and f directly as half the x and y coefficients.",
+     "compute": "cent_x = -g"
+    },
+    {
+     "step": 2,
+     "action": "evaluate the radius",
+     "explain": "The radius is the square root of g squared plus f squared minus c.",
+     "compute": "radius = sqrt(g ** 2 + f ** 2 - c)"
     }
-  ]
+   ]
+  },
+  {
+   "id": "kemh110.10.4.1",
+   "title": "Parabola: Focus, Directrix and Standard Equations",
+   "section": "10.4.1",
+   "definition": "A parabola collects the points that stay equally far from a fixed point (the focus) and a fixed line (the directrix). Placed with vertex at the origin, the four standard equations are y^2 = 4ax (opens right), y^2 = -4ax (left), x^2 = 4ay (up) and x^2 = -4ay (down), with the axis of symmetry deciding the direction.",
+   "formula": "y2_eq = 4 * focal_len * x  (i.e. y^2 = 4ax)",
+   "key_idea": "Equal distances to focus and directrix -- the one defining balance that shapes every parabola.",
+   "textbook_ref": "kemh110.txt lines 215-345 (section 10.4 and 10.4.1, focus, directrix, axis, vertex, four standard equations of parabola)",
+   "question_patterns": [
+    "define a parabola in terms of focus and directrix",
+    "find the focus and directrix of the given parabola",
+    "in class 11 conic sections: which way does x^2 = 4ay open",
+    "write the standard equation of a parabola with vertex at origin opening left",
+    "why is y^2 = 4ax symmetric about the x-axis",
+    "identify the axis of symmetry of the given parabola"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the defining condition",
+     "explain": "Every point of the parabola satisfies distance to focus = perpendicular distance to directrix."
+    },
+    {
+     "step": 2,
+     "action": "match the equation shape",
+     "explain": "A y-squared term with x on the other side means the parabola opens along the x-axis; x-squared opens along the y-axis."
+    },
+    {
+     "step": 3,
+     "action": "read focus and directrix",
+     "explain": "Comparing with y^2 = 4ax puts the focus at (a, 0) and the directrix at x = -a; the sign of a fixes the opening direction."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (29 - 8) / 7 gives 3",
+     "compute": "x = (29 - 8) / 7"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "kemh110.10.4.2",
+   "title": "Latus Rectum of a Parabola",
+   "section": "10.4.2",
+   "definition": "The chord of a parabola that runs through the focus parallel to the directrix is its latus rectum; for the standard parabola with focal distance a it stretches to length 4a, and it is the widest double-width chord the curve cuts at the focus height.",
+   "formula": "latus = 4 * focal_len",
+   "key_idea": "Endpoints of the latus rectum sit at (a, plus/minus 2a) -- four times the focal distance end to end.",
+   "textbook_ref": "kemh110.txt lines 346-380 (section 10.4.2 latus rectum of a parabola, endpoints (a, 2a) and (a, -2a))",
+   "question_patterns": [
+    "find the length of the latus rectum of the given parabola",
+    "what is the latus rectum of y squared equals 12x",
+    "in class 11 conic sections: write the endpoints of the latus rectum of y^2 = 4ax",
+    "how does the latus rectum length change when the focal distance doubles",
+    "compute the focal distance from the latus rectum length",
+    "why does the latus rectum pass through the focus"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "read the focal distance",
+     "explain": "In y^2 = 4ax the focal distance is the coefficient a, obtained by dividing the y-squared coefficient by 4.",
+     "compute": "focal_len = a"
+    },
+    {
+     "step": 2,
+     "action": "multiply by four",
+     "explain": "The chord across the focus measures 4a from end to end.",
+     "compute": "latus = 4 * focal_len"
+    }
+   ]
+  },
+  {
+   "id": "kemh110.10.5.1",
+   "title": "Ellipse: Standard Equation, Foci and Axes",
+   "section": "10.5",
+   "definition": "An ellipse is the path of points whose distances from two fixed foci add to one constant. In standard position its equation reads x^2/a^2 + y^2/b^2 = 1 with a the semi-major and b the semi-minor axis, foci on the major axis at plus or minus c where c^2 = a^2 - b^2.",
+   "formula": "focal = sqrt(a_axis ** 2 - b_axis ** 2)",
+   "key_idea": "Constant sum of distances to two foci -- and the semi-minor axis is the height at the ellipse's centre width.",
+   "textbook_ref": "kemh110.txt lines 381-470 and 500-560 (section 10.5, 10.5.1 relationship between semi-major and semi-minor axis, foci)",
+   "question_patterns": [
+    "define an ellipse using its foci",
+    "find the foci of the ellipse with the given equation",
+    "in class 11 conic sections: how are the semi-major and semi-minor axes related to the focal distance",
+    "state the standard equation of an ellipse centred at the origin",
+    "which axis carries the foci of the given ellipse",
+    "why is b less than a in the standard ellipse"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the constant-sum property",
+     "explain": "For every point on the ellipse the two focal distances add to the same total 2a."
+    },
+    {
+     "step": 2,
+     "action": "identify the axes from the equation",
+     "explain": "The larger denominator sits under the axis that carries the foci -- that is the major axis."
+    },
+    {
+     "step": 3,
+     "action": "connect a, b and c",
+     "explain": "The focal half-distance satisfies c^2 = a^2 - b^2, the same Pythagorean link used for the eccentricity."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (94 - 4) / 9 gives 10",
+     "compute": "x = (94 - 4) / 9"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "kemh110.10.5.2",
+   "title": "Eccentricity of an Ellipse",
+   "section": "10.5.2",
+   "definition": "Eccentricity grades how stretched an ellipse is: the ratio of the focal half-distance to the semi-major axis, always a number between 0 and 1. At e = 0 the foci merge and the ellipse is a circle; as e climbs toward 1 the ellipse flattens.",
+   "formula": "ecc = focal / a_axis",
+   "key_idea": "e = c/a sits strictly between 0 and 1 -- zero means circle, near one means long and thin.",
+   "textbook_ref": "kemh110.txt lines 560-585 (section 10.5.2 eccentricity of an ellipse, e = c/a less than 1)",
+   "question_patterns": [
+    "find the eccentricity of the given ellipse",
+    "calculate e for the ellipse with given semi-axes",
+    "in class 11 conic sections: what value of eccentricity makes an ellipse a circle",
+    "why is the eccentricity of an ellipse always less than 1",
+    "compute the focal distance and then the eccentricity",
+    "compare two ellipses by eccentricity and say which is flatter"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "compute the focal half-distance",
+     "explain": "Pythagoras on the semi-axes gives c = sqrt(a^2 - b^2).",
+     "compute": "focal = sqrt(a_axis ** 2 - b_axis ** 2)"
+    },
+    {
+     "step": 2,
+     "action": "divide by the semi-major axis",
+     "explain": "e = c / a lands between 0 and 1 because b stays positive.",
+     "compute": "ecc = focal / a_axis"
+    }
+   ]
+  },
+  {
+   "id": "kemh110.10.5.3",
+   "title": "Latus Rectum of an Ellipse",
+   "section": "10.5.4",
+   "definition": "The latus rectum of an ellipse is the chord through a focus at right angles to the major axis; its length is 2b^2/a, twice the square of the semi-minor axis divided by the semi-major axis.",
+   "formula": "latus_e = 2 * b_axis ** 2 / a_axis",
+   "key_idea": "Plug x = c into the ellipse equation: the y-extent there is b^2/a on each side, doubling to the chord length.",
+   "textbook_ref": "kemh110.txt lines 586-610 (section 10.5.4 latus rectum of an ellipse, length 2b^2/a)",
+   "question_patterns": [
+    "find the length of the latus rectum of the given ellipse",
+    "calculate 2b squared over a for the ellipse with given axes",
+    "in class 11 conic sections: where does the latus rectum of an ellipse cut the curve",
+    "how does the latus rectum length respond when the ellipse widens",
+    "compare the latus rectum lengths of two ellipses",
+    "the latus rectum and semi-major axis are given, recover b"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the semi-minor axis",
+     "explain": "The half-chord at the focus is b^2/a, so b^2 is needed first.",
+     "compute": "b_sq = b_axis ** 2"
+    },
+    {
+     "step": 2,
+     "action": "double and scale by a",
+     "explain": "Multiplying by 2 and dividing by the semi-major axis gives the full chord.",
+     "compute": "latus_e = 2 * b_sq / a_axis"
+    }
+   ]
+  },
+  {
+   "id": "kemh110.10.6.1",
+   "title": "Hyperbola: Standard Equation, Axes and Eccentricity",
+   "section": "10.6",
+   "definition": "A hyperbola is the set of points for which the difference of distances to two fixed foci stays constant. Its standard equation is x^2/a^2 - y^2/b^2 = 1 with a transverse axis of length 2a and a conjugate axis of length 2b; here the focal half-distance obeys c^2 = a^2 + b^2, so the eccentricity c/a always exceeds 1.",
+   "formula": "ecc_h = sqrt(a_axis ** 2 + b_axis ** 2) / a_axis",
+   "key_idea": "Same shape of equation as the ellipse but a minus sign -- and that flips the focal relation from a^2 - b^2 to a^2 + b^2, pushing e past 1.",
+   "textbook_ref": "kemh110.txt lines 611-700 (sections 10.6, 10.6.1 eccentricity, 10.6.2 standard equation of hyperbola, 10.6.3 latus rectum)",
+   "question_patterns": [
+    "define a hyperbola in terms of its foci and constant difference",
+    "find the eccentricity of the given hyperbola",
+    "in class 11 conic sections: why is the eccentricity of a hyperbola greater than 1",
+    "state the standard equation of a hyperbola with transverse axis along x",
+    "distinguish the transverse axis from the conjugate axis",
+    "find the foci of the hyperbola from its equation"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "state the constant-difference property",
+     "explain": "Each point keeps |distance to one focus - distance to other| = 2a, the transverse axis length."
+    },
+    {
+     "step": 2,
+     "action": "read the axes from the equation",
+     "explain": "The positive term sits under the transverse axis; the minus-term axis is the conjugate one."
+    },
+    {
+     "step": 3,
+     "action": "apply the plus relation for foci",
+     "explain": "c^2 = a^2 + b^2, so c exceeds a and the eccentricity c/a is always greater than 1."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (48 - 8) / 4 gives 10",
+     "compute": "x = (48 - 8) / 4"
+    }
+   ],
+   "converted_to_compute": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "kemh110.txt lines 91-180 (general equation of a circle)",
+   "concept": "kemh110.10.3.1",
+   "question_type": "compute",
+   "question_pattern": "Find the radius of the circle x^2 + y^2 + 2g x + 2f y + c = 0 with g = {g}, f = {f}, c = {c}.",
+   "extracted_variables": {
+    "g": -2,
+    "f": -3,
+    "c": -12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "halve the linear coefficients",
+     "explain": "Here g = -2 and f = -3, so the centre sits at (2, 3).",
+     "compute": "cent_x = -g"
+    },
+    {
+     "step": 2,
+     "action": "evaluate the radius",
+     "explain": "radius = sqrt(4 + 9 + 12) = 5.",
+     "compute": "radius = sqrt(g ** 2 + f ** 2 - c)"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "kemh110.txt lines 91-180 (general equation of a circle)",
+   "concept": "kemh110.10.3.1",
+   "question_type": "compute",
+   "question_pattern": "The circle x^2 + y^2 + 2g x + 2f y + c = 0 has g = {g}, f = {f}, c = {c}; compute its radius.",
+   "extracted_variables": {
+    "g": 2,
+    "f": 3,
+    "c": -23
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "halve the linear coefficients",
+     "explain": "The centre is (-2, -3).",
+     "compute": "cent_x = -g"
+    },
+    {
+     "step": 2,
+     "action": "evaluate the radius",
+     "explain": "radius = sqrt(4 + 9 + 23) = 6.",
+     "compute": "radius = sqrt(g ** 2 + f ** 2 - c)"
+    }
+   ]
+  },
+  {
+   "id": "we3",
+   "source_ref": "kemh110.txt lines 346-380 (latus rectum of a parabola)",
+   "concept": "kemh110.10.4.2",
+   "question_type": "compute",
+   "question_pattern": "Find the latus rectum of the parabola y^2 = 4 a x with a = {focal_len}.",
+   "extracted_variables": {
+    "focal_len": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the focal distance",
+     "explain": "The focal distance is a = 3.",
+     "compute": "focal_len = a"
+    },
+    {
+     "step": 2,
+     "action": "multiply by four",
+     "explain": "latus = 4 * 3 = 12.",
+     "compute": "latus = 4 * focal_len"
+    }
+   ]
+  },
+  {
+   "id": "we4",
+   "source_ref": "kemh110.txt lines 346-380 (latus rectum of a parabola)",
+   "concept": "kemh110.10.4.2",
+   "question_type": "compute",
+   "question_pattern": "For the parabola with focal distance a = {focal_len}, compute the chord through its focus parallel to the directrix.",
+   "extracted_variables": {
+    "focal_len": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "read the focal distance",
+     "explain": "a = 2 for this parabola.",
+     "compute": "focal_len = a"
+    },
+    {
+     "step": 2,
+     "action": "multiply by four",
+     "explain": "latus = 4 * 2 = 8.",
+     "compute": "latus = 4 * focal_len"
+    }
+   ]
+  },
+  {
+   "id": "we5",
+   "source_ref": "kemh110.txt lines 560-585 (eccentricity of an ellipse)",
+   "concept": "kemh110.10.5.2",
+   "question_type": "compute",
+   "question_pattern": "An ellipse has semi-major axis {a_axis} and semi-minor axis {b_axis}; find its eccentricity.",
+   "extracted_variables": {
+    "a_axis": 5,
+    "b_axis": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute the focal half-distance",
+     "explain": "focal = sqrt(25 - 9) = 4.",
+     "compute": "focal = sqrt(a_axis ** 2 - b_axis ** 2)"
+    },
+    {
+     "step": 2,
+     "action": "divide by the semi-major axis",
+     "explain": "ecc = 4/5 = 0.8.",
+     "compute": "ecc = focal / a_axis"
+    }
+   ]
+  },
+  {
+   "id": "we6",
+   "source_ref": "kemh110.txt lines 560-585 (eccentricity of an ellipse)",
+   "concept": "kemh110.10.5.2",
+   "question_type": "compute",
+   "question_pattern": "Given a = {a_axis} and b = {b_axis} for an ellipse, calculate e = c/a.",
+   "extracted_variables": {
+    "a_axis": 13,
+    "b_axis": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "compute the focal half-distance",
+     "explain": "focal = sqrt(169 - 25) = 12.",
+     "compute": "focal = sqrt(a_axis ** 2 - b_axis ** 2)"
+    },
+    {
+     "step": 2,
+     "action": "divide by the semi-major axis",
+     "explain": "ecc = 12/13, about 0.9231.",
+     "compute": "ecc = focal / a_axis"
+    }
+   ]
+  },
+  {
+   "id": "we7",
+   "source_ref": "kemh110.txt lines 586-610 (latus rectum of an ellipse)",
+   "concept": "kemh110.10.5.3",
+   "question_type": "compute",
+   "question_pattern": "Find the latus rectum length of the ellipse with a = {a_axis}, b = {b_axis}.",
+   "extracted_variables": {
+    "a_axis": 5,
+    "b_axis": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the semi-minor axis",
+     "explain": "b_sq = 9.",
+     "compute": "b_sq = b_axis ** 2"
+    },
+    {
+     "step": 2,
+     "action": "double and scale by a",
+     "explain": "latus_e = 2 * 9 / 5 = 3.6.",
+     "compute": "latus_e = 2 * b_sq / a_axis"
+    }
+   ]
+  },
+  {
+   "id": "we8",
+   "source_ref": "kemh110.txt lines 586-610 (latus rectum of an ellipse)",
+   "concept": "kemh110.10.5.3",
+   "question_type": "compute",
+   "question_pattern": "For semi-axes a = {a_axis} and b = {b_axis}, compute the focal chord perpendicular to the major axis.",
+   "extracted_variables": {
+    "a_axis": 4,
+    "b_axis": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the semi-minor axis",
+     "explain": "b_sq = 4.",
+     "compute": "b_sq = b_axis ** 2"
+    },
+    {
+     "step": 2,
+     "action": "double and scale by a",
+     "explain": "latus_e = 2 * 4 / 4 = 2.",
+     "compute": "latus_e = 2 * b_sq / a_axis"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "kemh110.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "Find the equation of the circle with centre (1/2, 1/4) and radius 1/12.",
+    "Find the centre and radius of the circle x^2 + y^2 - 4x - 6y - 12 = 0.",
+    "Find the focus, directrix and latus rectum of the parabola y^2 = 12x.",
+    "Find the equation of the parabola with vertex at origin and focus (2, 0).",
+    "Find the foci, vertices and eccentricity of the ellipse x^2/25 + y^2/9 = 1.",
+    "Find the equation of the ellipse whose foci are plus or minus 4 on the x-axis and whose major axis is 10.",
+    "Find the eccentricity and foci of the hyperbola x^2/16 - y^2/9 = 1.",
+    "Does a plane cutting only one nappe of a cone ever give a hyperbola? Justify."
+   ]
+  }
+ ]
 }

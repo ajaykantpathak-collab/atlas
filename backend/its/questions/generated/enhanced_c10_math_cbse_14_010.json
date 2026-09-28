@@ -34,6 +34,31 @@
      "q": "Create a word problem involving two coin tosses where the probability of the event is 1/2. The problem must use the phrase \"at least\" or \"at most\" and be set in a real Indian context (e.g., a mela, cricket toss, family decision).",
      "a": "Example: \"At a Diwali mela in Jaipur, a game stall lets you toss two coins. You win a ₹20 coupon if you get at most one head. What is the probability of winning the coupon?\"\nSample space: {HH, HT, TH, TT}. \"At most one head\" = {HT, TH, TT} → 3 outcomes → P = 3/4 (not 1/2).\nA correct problem for 1/2: \"You win if you get exactly one head\" or \"at least one tail\" (both give 2/4 = 1/2). A student creating a problem with probability 3/4 or 1/4 reveals they cannot map phrases to outcome counts. This tests deep understanding of \"at least/at most\" language.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Coin tossing ______ problems involve calculating the likelihood of specific outcomes when one or more fair coins are tossed, where the sample space consists of all equally likely ordered outcomes (Heads or Tails for each coin).",
+     "a": "probability",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're at a ______ fair in Delhi where a game stall offers a prize if you toss two coins and get \"at least one head\".",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Once the sample space is correct, count the favourable outcomes for \"at least one head\" — that's HH, HT, TH (______ outcomes).",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly list the sample space for one and two coin tosses (distinguishing HT from TH), identify favourable outcomes for given events, and compute probabilities using P(E) = favourable outcomes / total outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you're at a school fair in Delhi where a game stall offers a prize if you toss two coins and get \"at least one head\".",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

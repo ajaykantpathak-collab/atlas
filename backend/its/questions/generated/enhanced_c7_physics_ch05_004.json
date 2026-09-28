@@ -34,6 +34,26 @@
      "q": "Design a simple testing procedure using a single pocket torch to classify five unknown household objects (a plastic ruler, a steel spoon, butter paper, a clean water bottle, and a rubber eraser) into transparent, translucent, and opaque categories.",
      "a": "The procedure should involve turning on the torch in a dimly lit room, holding each object directly against the light lens, and observing the opposite side or a white wall behind the object. If light passes clearly and lights up a spot brightly on the wall, the object is transparent; if light passes through as a diffused, hazy glow, it is translucent; if no light passes and a dark shadow forms, it is opaque. A poor answer lacks a controlled light source or fails to specify what observation determines the category.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ materials allow light to pass through them completely so objects can be seen clearly on the other side; translucent materials allow only a portion of light to scatter through them, making objects appear blurred; and opaque materials do not allow any light to pass through them at all, forming distinct shadows.",
+     "a": "Transparent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look through a glass ______ pane in your classroom, then look through a sheet of oiled paper, and finally look at a wooden door.",
+     "a": "window",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can classify various everyday objects into transparent, translucent, and opaque categories and predict whether a clear image, a blurred view, or a shadow will form when light shines through them.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look through a glass window pane in your ______, then look through a sheet of oiled paper, and finally look at a wooden door.",
+     "a": "classroom",
+     "self_check": true
     }
    ]
   }

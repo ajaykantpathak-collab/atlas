@@ -34,6 +34,26 @@
      "q": "Create a real-world scenario (Indian school context) involving three sets where applying De Morgan's law simplifies finding a desired group. Describe the sets, the universal set, and show how the law reduces the work compared to direct computation.",
      "a": "Scenario: A Class 11 school has U = all 120 students. A = students taking Physics (50), B = students taking Chemistry (45), C = students taking Biology (40). We want students taking NEITHER Physics NOR Chemistry NOR Biology. Direct method: find A ∪ B ∪ C (needs inclusion-exclusion), then complement. Using De Morgan: (A ∪ B ∪ C)' = A' ∩ B' ∩ C'. Find A' = 70 students not in Physics, B' = 75 not in Chemistry, C' = 80 not in Biology. Then find intersection of these three complements. A poor answer gives a scenario with only two sets (not three) or doesn't explain WHY De Morgan's law simplifies it (e.g., if complements are easier to compute than the union). This reveals the student can't recognize when the law is actually useful versus just a formal manipulation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: De Morgan's Laws state that for any two subsets A and B of a universal set U: (i) The complement of the union of A and B equals the ______ of their complements: (A ∪ B)' = A' ∩ B'.",
+     "a": "intersection",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ has two clubs: the Science Club (set A) and the Math Club (set B).",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state both De Morgan's laws precisely with correct notation, prove each law using the element method (double inclusion) and Venn diagrams, apply the laws to simplify complex set expressions involving three or more operations, and verify the laws for given concrete sets by computing both sides.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a school has two clubs: the Science Club (set A) and the Math Club (set B).",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

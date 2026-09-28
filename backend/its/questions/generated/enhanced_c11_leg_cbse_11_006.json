@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_11_006",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_11_006",
+   "title": "c11_leg_cbse_11_006",
+   "questions": [
+    {
+     "q": "What is the distinction between 'Res sub judice' (Section 10 CPC) and 'Res judicata' (Section 11 CPC) in terms of the stage of litigation and the bar they create?",
+     "a": "Res sub judice applies when a suit is *pending* in a competent court — it bars a *parallel* suit on the same cause of action between the same parties. Res judicata applies after a suit is *finally decided* — it bars a *subsequent* suit on the same cause of action between the same parties. A wrong answer (e.g., confusing the two or saying both apply to decided cases) reveals the student hasn't grasped the temporal distinction: one prevents multiplicity *during* litigation, the other ensures finality *after* judgment.",
+     "self_check": true
+    },
+    {
+     "q": "A person is arrested for an offence punishable with 3 years imprisonment. The police officer refuses to release them on bail, saying it's a non-bailable offence. Is the officer correct? Explain using CrPC classification.",
+     "a": "The officer is *incorrect*. Under Section 2(a) CrPC read with the First Schedule, offences punishable with imprisonment *less than* 3 years are generally bailable; offences punishable with 3 years *or more* are generally non-bailable. Since the offence carries *exactly* 3 years, it falls in the non-bailable category — but bail is still *discretionary* (Section 437 CrPC), not prohibited. A student who says \"non-bailable means no bail ever\" reveals the classic misconception that 'non-bailable' = 'no bail', ignoring judicial discretion.",
+     "self_check": true
+    },
+    {
+     "q": "A Hindu male dies intestate leaving behind his mother, wife, two sons, and a married daughter. His self-acquired property includes a house and a bank balance. Apply the Hindu Succession Act, 1956 (as amended 2005) to distribute the property among Class I heirs.",
+     "a": "Under the Hindu Succession (Amendment) Act, 2005, daughters are Class I heirs with equal rights as sons. Class I heirs (mother, wife, sons, daughters) inherit simultaneously and equally. Each of the 5 heirs gets 1/5th share. The married daughter has the same right as unmarried sons. A wrong answer (e.g., excluding the daughter or giving sons double) shows the student hasn't internalized the 2005 amendment removing gender discrimination in coparcenary/intestate succession.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the writ jurisdiction of the Supreme Court (Article 32) and High Courts (Article 226) on three grounds: (a) purpose, (b) territorial reach, (c) discretion to refuse.",
+     "a": "(a) Purpose: Article 32 *only* for fundamental rights enforcement; Article 226 for fundamental rights *and* other legal rights. (b) Territorial reach: Supreme Court — whole of India; High Court — only within its territorial jurisdiction (or cause of action arises there). (c) Discretion: Supreme Court *cannot* refuse (Article 32 is itself a fundamental right); High Court *may* refuse (discretionary). A student who says both have same purpose or both are discretionary reveals confusion between constitutional mandate and statutory power.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The doctrine of 'basic structure' (Kesavananda Bharati) makes the Supreme Court a 'super-legislature' because unelected judges can strike down constitutional amendments passed by elected Parliament.\" Defend or critique using constitutional principles.",
+     "a": "Critique: The basic structure doctrine is not judicial supremacy but *constitutional supremacy*. Parliament's amending power under Article 368 is *derived* from the Constitution, not absolute. The Supreme Court interprets the Constitution's core identity (supremacy, democracy, secularism, federalism, judicial review) — it doesn't make policy. Without this check, a transient majority could dismantle the Constitution's democratic essence. A student calling it \"judicial overreach\" without engaging with *derived vs. original power* misses the theoretical foundation: the Constitution is the *source* of all authority, including Parliament's.",
+     "self_check": true
+    },
+    {
+     "q": "Design a flow chart showing the complete hierarchy of criminal courts in a metropolitan city (e.g., Mumbai) from the lowest to the highest, indicating the maximum sentence each can impose and the appeal route. Include Metropolitan Magistrates, Sessions Court, High Court, Supreme Court.",
+     "a": "Metropolitan Magistrate (lowest) → max 3 years / ₹10,000 fine → appeal to Sessions Court → Chief Metropolitan Magistrate → max 7 years / any fine → appeal to Sessions Court → Sessions Judge → any sentence (death requires High Court confirmation) → appeal to High Court → High Court → appeal to Supreme Court (special leave under Article 136 or statutory appeal). A poor flow chart missing the CMM/Sessions distinction or death confirmation reveals the student doesn't grasp the metropolitan vs. district structural difference or the safeguard for capital punishment.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

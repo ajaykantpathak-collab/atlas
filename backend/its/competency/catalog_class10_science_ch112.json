@@ -74,7 +74,16 @@
      "explain": "Since field strength is inversely proportional to distance, doubling the distance halves the field.",
      "compute": "new_field_strength = field_strength * (distance / new_distance)"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "field_strength = current / distance",
+     "compute": "field_strength = current / distance"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.12.2.2",
@@ -144,7 +153,16 @@
      "explain": "Adding more turns increases the total field linearly, strengthening the magnetic field at the center.",
      "compute": "new_total_field = new_turns * field_per_turn"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_field = turns * field_per_turn",
+     "compute": "total_field = turns * field_per_turn"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.12.2.4",
@@ -351,7 +369,16 @@
      "explain": "Check if current_drawn is greater than the fuse_limit.",
      "compute": "safety_margin = fuse_limit - current_drawn"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "current = power / voltage",
+     "compute": "current = power / voltage"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

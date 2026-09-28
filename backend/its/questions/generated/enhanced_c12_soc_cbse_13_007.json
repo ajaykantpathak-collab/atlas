@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_13_007",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_13_007",
+   "title": "c12_soc_cbse_13_007",
+   "questions": [
+    {
+     "q": "Define contract farming and distinguish it from tenant farming and cooperative farming in terms of who bears production risk and who controls the output market.",
+     "a": "Contract farming: a buyer (corporation/processor) contracts a farmer to produce a specific crop under agreed specifications; the farmer bears production risk (weather, pests, input cost spikes) while the buyer controls output market access and price. Tenant farming: tenant rents land, bears production risk, but typically sells in open market (some control). Cooperative farming: farmers collectively pool land/labour, share risks, and collectively market (shared control). WRONG ANSWER REVEALS: If a student says \"contract farming reduces farmer risk because company gives seeds,\" they confuse input provision with risk absorption — the company provides inputs *on credit* recovered from harvest, so risk remains with farmer. This misconception comes from corporate promotional narratives uncritically accepted.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Maharashtra signs a contract with a gherkin exporter: the company provides seeds, fertiliser, and extension advice on credit; the farmer must sell entire output to the company at a pre-fixed price. At harvest, global gherkin prices crash 30%. The company rejects 40% of the farmer's produce citing \"size specifications\" and deducts input costs from the remainder. The farmer cannot sell rejected produce elsewhere due to perishability and contract exclusivity clause. Explain how this illustrates *asymmetric risk transfer* and *market lock-in*.",
+     "a": "Asymmetric risk transfer: when global prices are high, company honours contract (farmer gets fixed price, company gains windfall); when prices crash, company uses quality clauses to reject produce — farmer bears downside, company captures upside. Market lock-in: exclusivity clause + perishability + credit tie-up (inputs advanced against future harvest) prevent farmer from selling elsewhere. WRONG ANSWER REVEALS: If student says \"farmer benefits from assured price,\" they miss the *conditional* nature of that assurance — the price is assured only if company accepts the produce, and acceptance criteria are unilaterally controlled by the company. This is the \"heads I win, tails you lose\" structure central to contract farming critiques (Singh 2002; Gulati et al. 2007).",
+     "self_check": true
+    },
+    {
+     "q": "Using the WTO Agreement on Agriculture's three pillars (Market Access, Domestic Support, Export Subsidies), trace the causal pathway by which India's commitment to reduce bound tariffs on agricultural imports (from 100-300% to 0-150% range) transmits global price volatility to a cotton farmer in Vidarbha. Include at least two intermediate steps.",
+     "a": "Pathway: (1) India binds tariffs at lower levels under WTO AoA Market Access → (2) Cheaper cotton imports enter during global glut (e.g., US/EU subsidised exports) → (3) Domestic cotton prices fall below MSP/cost of production → (4) Farmer cannot cover input costs (Bt cotton seeds, pesticides, irrigation) → (5) Borrows from moneylenders at 24-36% interest → (6) Consecutive crop failures → debt trap → suicide/distress sale. WRONG ANSWER REVEALS: If student stops at \"imports increase,\" they miss the *price transmission mechanism* — it's not just volume, but the *price signalling* that depresses domestic mandi prices even before imports physically arrive (anticipatory price effect). Also, they often forget the *input side*: trade liberalisation also affects input prices (e.g., fertiliser subsidy cuts under IMF conditionalities), creating a cost-price squeeze.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"cost-price squeeze\" in Indian agriculture pre-1991 (Green Revolution era) and post-1991 (liberalisation era). Identify three structural differences in *who controls the squeeze* and *the exit options available to farmers*.",
+     "a": "Pre-1991: Squeeze driven by state procurement prices lagging input costs; state *partially* controlled both sides (subsidised fertilisers, MSP procurement, credit via cooperatives); exit options: shift to other crops, migrate locally, state employment schemes. Post-1991: Squeeze driven by global commodity prices (WTO) and corporate input pricing (Monsanto/Bayer seeds, private fertilisers); *neither side controlled by state* — inputs priced by global oligopolies, outputs by global markets; exit options severely constrained: contract farming locks crop choice, land lease markets informal, MGNREGA wages insufficient, urban informal sector precarious. WRONG ANSWER REVEALS: If student says \"both eras had cost-price squeeze so nothing new,\" they miss the *qualitative shift* from a state-mediated squeeze (where policy could respond) to a market-mediated squeeze (where farmer has no sovereign actor to appeal to). This is the core of the \"agrarian crisis as crisis of sovereignty\" argument (Patnaik 2003; Lerche 2010).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Contract farming solves the agrarian crisis by providing technology, credit, and market access to smallholders.\" Use evidence from at least two Indian case studies (e.g., Punjab tomato/gherkin, Andhra Pradesh oil palm/aquaculture, Maharashtra cotton) to support your judgement.",
+     "a": "Judgement: The claim is *partially true for a minority of better-resourced farmers* but *false as a general solution* — it often deepens crisis for small/marginal farmers. Evidence: (1) Punjab tomato (PepsiCo/Nijjer): Only farmers with >5 acres, irrigation, and risk-bearing capacity benefited; smallholders faced quality rejections, delayed payments, and debt (Singh 2002). (2) Andhra Pradesh aquaculture: Corporate shrimp farms appropriated common lands and groundwater, salinised paddy fields, displaced small farmers — contracts went to larger leaseholders, not original cultivators (Rao 2005). (3) Maharashtra Bt cotton: Contract seed dealers tied credit to specific pesticides; when bollworm resistance emerged, farmers sprayed more, costs spiralled, yields fell — contracts did not adjust (Gruère & Sengupta 2011). WRONG ANSWER REVEALS: If student cites only \"success stories\" from company reports (e.g., \"farmer income doubled\"), they fail to apply *selection bias critique* — companies showcase outliers; systematic studies show adverse incorporation (Barrett et al. 2012). Also, they confuse *income* with *net profit after risk-adjusted costs*.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"farmer-centric contract farming model\" that addresses the three core power asymmetries: (a) unilateral quality standards, (b) price fixation without cost-of-production indexing, (c) dispute resolution controlled by buyer. Specify institutional mechanisms for each (e.g., third-party quality certification, MSP-linked floor price, farmer arbitration panel). Justify each mechanism using a sociological concept from Class 11 (e.g., social capital, collective action, state capacity).",
+     "a": "Model design: (a) Quality standards → *Participatory Guarantee System (PGS)* managed by Farmer Producer Organisation (FPO) + independent lab; sociological basis: *collective action* (c11_soc_cbse_06_007) — farmers pool monitoring capacity to counter information asymmetry. (b) Price fixation → *Cost of Production (C2) + 50% floor price* indexed to CACP formula, with revenue-sharing bonus if market price exceeds floor; sociological basis: *social justice as fairness* (c11_ps_cbse_04_002 Rawls) — risk-sharing not risk-shifting. (c) Dispute resolution → *Block-level Agricultural Tribunal* with farmer representatives, district judge, and technical expert; sociological basis: *state capacity for legal pluralism* (c11_ps_cbse_15_008 PIL) — accessible justice beyond corporate arbitration clauses. WRONG ANSWER REVEALS: If student proposes \"government should fix prices,\" they ignore *state capacity constraints* — the model must work *within* liberalised regime using farmer collective action, not revert to licence raj. If they propose \"cooperatives solve everything,\" they miss *cooperative capture by local elites* (c11_soc_cbse_03_002 family/kinship dynamics).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Contract farming under globalisation is a production arrangement where agribusiness corporations or ______ contract farmers to produce specific crops under predetermined conditions (price, quality, quantity, timing), shifting production risks to farmers while corporations control markets and technology.",
+     "a": "intermediaries",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer in Punjab who once grew wheat and paddy under assured MSP ______.",
+     "a": "procurement",
+     "self_check": true
+    },
+    {
+     "q": "What is Contract farming under globalisation? State the definition given in this lesson.",
+     "a": "Contract farming under globalisation is a production arrangement where agribusiness corporations or intermediaries contract farmers to produce specific crops under predetermined conditions (price, quality, quantity, timing), shifting production risks to farmers while corporations control markets and technology.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Contract farming under globalisation?",
+     "a": "Students equate \"contract farming\" with \"corporate farming\" and assume the crisis is only about *corporate entry*.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) explain the mechanism of contract farming using a real Indian case (e.g., Punjab tomato or Andhra Pradesh gherkin contracts) showing how risk is transferred to farmers, and (2) trace the causal chain from WTO AoA provisions → reduction in import tariffs/state procurement → price volatility → indebtedness.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

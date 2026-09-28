@@ -2,6 +2,100 @@
  "catalog": "catalog_class8_science_ch101.json",
  "concepts": [
   {
+   "id": "hesc.1.6.1",
+   "title": "Irrigation Efficiency",
+   "converted_to_compute": true,
+   "formula": "water_needed = area * depth_per_unit_area",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "water_needed = area * depth_per_unit_area",
+     "compute": "water_needed = area * depth_per_unit_area"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Irrigation Efficiency: given area = 75, depth_per_unit_area = 53, find water needed.",
+     "a": "3975",
+     "self_check": false
+    },
+    {
+     "q": "For Irrigation Efficiency: given area = 70, depth_per_unit_area = 52, find water needed.",
+     "a": "3640",
+     "self_check": false
+    },
+    {
+     "q": "For Irrigation Efficiency: given area = 76, depth_per_unit_area = 7.2, find water needed.",
+     "a": "547.2",
+     "self_check": false
+    },
+    {
+     "q": "For Irrigation Efficiency: given area = 22, depth_per_unit_area = 120, find water needed.",
+     "a": "2640",
+     "self_check": false
+    },
+    {
+     "q": "For Irrigation Efficiency: given area = 2.2, depth_per_unit_area = 39, find water needed.",
+     "a": "85.8",
+     "self_check": false
+    },
+    {
+     "q": "For Irrigation Efficiency: given area = 31, depth_per_unit_area = 114, find water needed.",
+     "a": "3534",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hesc.1.8.1",
+   "title": "Harvest Yield Estimation",
+   "converted_to_compute": true,
+   "formula": "total_yield = area * yield_per_acre",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_yield = area * yield_per_acre",
+     "compute": "total_yield = area * yield_per_acre"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Harvest Yield Estimation: given area = 11.1, yield_per_acre = 15.8, find total yield.",
+     "a": "175.38",
+     "self_check": false
+    },
+    {
+     "q": "For Harvest Yield Estimation: given area = 34, yield_per_acre = 21, find total yield.",
+     "a": "714",
+     "self_check": false
+    },
+    {
+     "q": "For Harvest Yield Estimation: given area = 32, yield_per_acre = 89, find total yield.",
+     "a": "2848",
+     "self_check": false
+    },
+    {
+     "q": "For Harvest Yield Estimation: given area = 62, yield_per_acre = 98, find total yield.",
+     "a": "6076",
+     "self_check": false
+    },
+    {
+     "q": "For Harvest Yield Estimation: given area = 61, yield_per_acre = 1.6, find total yield.",
+     "a": "97.6",
+     "self_check": false
+    },
+    {
+     "q": "For Harvest Yield Estimation: given area = 30, yield_per_acre = 77, find total yield.",
+     "a": "2310",
+     "self_check": false
+    }
+   ]
+  },
+  {
    "id": "hesc.1.1.1",
    "title": "Crop Classification by Season",
    "solution_type": "verify_property",
@@ -20,170 +114,6 @@
      "q": "Why do farmers rotate crops between seasons?",
      "a": "Different seasons suit different crops; rotation also keeps soil fertile and breaks pest cycles.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "hesc.1.6.1",
-   "title": "Irrigation Efficiency",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "water_volume",
-     "expr": "area * depth_per_unit_area",
-     "explain": "field area times the water depth needed per unit area"
-    },
-    {
-     "step": 2,
-     "name": "half_plot_volume",
-     "expr": "(area / 2) * depth_per_unit_area",
-     "explain": "water for half the plot"
-    },
-    {
-     "step": 3,
-     "name": "litres_needed",
-     "expr": "water_volume * 1000",
-     "explain": "convert cubic metres to litres"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A 200 sq m nursery plot needs water 0.05 m deep per watering. Find the water needed in cubic metres and litres.",
-     "vals": {
-      "area": 200,
-      "depth_per_unit_area": 0.05
-     },
-     "unit": "L",
-     "steps": null,
-     "a": "10000 L",
-     "self_check": false
-    },
-    {
-     "q": "A 500 sq m field gets irrigation 0.02 m deep. How many litres are applied?",
-     "vals": {
-      "area": 500,
-      "depth_per_unit_area": 0.02
-     },
-     "unit": "L",
-     "steps": null,
-     "a": "10000 L",
-     "self_check": false
-    },
-    {
-     "q": "One hectare (10000 sq m) needs 0.1 m of water. Compute the volume in litres.",
-     "vals": {
-      "area": 10000,
-      "depth_per_unit_area": 0.1
-     },
-     "unit": "L",
-     "steps": null,
-     "a": "1000000 L",
-     "self_check": false
-    },
-    {
-     "q": "A kitchen garden of 50 sq m takes 0.04 m of water each round. How many litres is that?",
-     "vals": {
-      "area": 50,
-      "depth_per_unit_area": 0.04
-     },
-     "unit": "L",
-     "steps": null,
-     "a": "2000 L",
-     "self_check": false
-    },
-    {
-     "q": "A 250 sq m paddy plot requires 0.08 m of standing water. Find the water in litres.",
-     "vals": {
-      "area": 250,
-      "depth_per_unit_area": 0.08
-     },
-     "unit": "L",
-     "steps": null,
-     "a": "20000 L",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "hesc.1.8.1",
-   "title": "Harvest Yield Estimation",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "total_yield",
-     "expr": "area * yield_per_acre",
-     "explain": "area times the expected yield per unit area"
-    },
-    {
-     "step": 2,
-     "name": "yield_per_hectare",
-     "expr": "yield_per_acre * 2.471",
-     "explain": "expected yield per hectare"
-    },
-    {
-     "step": 3,
-     "name": "yield_in_kg",
-     "expr": "total_yield * 100",
-     "explain": "convert quintals to kilograms (1 q = 100 kg)"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A 5 acre wheat field yields 12 quintals per acre. Find the total harvest in quintals and kg.",
-     "vals": {
-      "area": 5,
-      "yield_per_acre": 12
-     },
-     "unit": "kg",
-     "steps": null,
-     "a": "6000 kg",
-     "self_check": false
-    },
-    {
-     "q": "A 3 acre paddy plot gives 20 quintals per acre. Compute the total yield in kg.",
-     "vals": {
-      "area": 3,
-      "yield_per_acre": 20
-     },
-     "unit": "kg",
-     "steps": null,
-     "a": "6000 kg",
-     "self_check": false
-    },
-    {
-     "q": "A farmer grows maize on 8 acres with yield 7 quintals per acre. What is the total harvest in kg?",
-     "vals": {
-      "area": 8,
-      "yield_per_acre": 7
-     },
-     "unit": "kg",
-     "steps": null,
-     "a": "5600 kg",
-     "self_check": false
-    },
-    {
-     "q": "A 2.5 acre cotton farm yields 6 quintals per acre. Find the total in quintals and kg.",
-     "vals": {
-      "area": 2.5,
-      "yield_per_acre": 6
-     },
-     "unit": "kg",
-     "steps": null,
-     "a": "1500 kg",
-     "self_check": false
-    },
-    {
-     "q": "A 10 acre sugarcane plot produces 250 quintals per acre. Compute the total yield in kg.",
-     "vals": {
-      "area": 10,
-      "yield_per_acre": 250
-     },
-     "unit": "kg",
-     "steps": null,
-     "a": "250000 kg",
-     "self_check": false
     }
    ]
   }

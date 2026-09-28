@@ -1,0 +1,245 @@
+{
+ "catalog": "catalog_class11_physics_keph102.json",
+ "concepts": [
+  {
+   "id": "keph102.2.2.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "displacement = 378",
+      "time_interval = 53",
+      "avg_velocity = displacement / time_interval"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "displacement = 4.7",
+      "time_interval = 70",
+      "avg_velocity = displacement / time_interval"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "displacement = 351",
+      "time_interval = 94",
+      "avg_velocity = displacement / time_interval"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "displacement = 327",
+      "time_interval = 80",
+      "avg_velocity = displacement / time_interval"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "displacement = 358",
+      "time_interval = 93",
+      "avg_velocity = displacement / time_interval"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "displacement = 453",
+      "time_interval = 52",
+      "avg_velocity = displacement / time_interval"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "avg_velocity = displacement / time_interval"
+   ]
+  },
+  {
+   "id": "keph102.2.3.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "final_velocity = 74",
+      "initial_velocity = 99",
+      "time_taken = 41",
+      "accel = (final_velocity - initial_velocity) / time_taken"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "final_velocity = 60",
+      "initial_velocity = 110",
+      "time_taken = 52",
+      "accel = (final_velocity - initial_velocity) / time_taken"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "final_velocity = 84",
+      "initial_velocity = 84",
+      "time_taken = 89",
+      "accel = (final_velocity - initial_velocity) / time_taken"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "final_velocity = 118",
+      "initial_velocity = 5.1",
+      "time_taken = 67",
+      "accel = (final_velocity - initial_velocity) / time_taken"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "final_velocity = 103",
+      "initial_velocity = 111",
+      "time_taken = 106",
+      "accel = (final_velocity - initial_velocity) / time_taken"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "final_velocity = 30",
+      "initial_velocity = 86",
+      "time_taken = 32",
+      "accel = (final_velocity - initial_velocity) / time_taken"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "accel = (final_velocity - initial_velocity) / time_taken"
+   ]
+  },
+  {
+   "id": "keph102.2.4.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "v_init = 37",
+      "accel = 21",
+      "t = 75",
+      "v_final = v_init + accel * t"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "v_init = 116",
+      "accel = 18.8",
+      "t = 31",
+      "v_final = v_init + accel * t"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "v_init = 77",
+      "accel = 13.9",
+      "t = 14.3",
+      "v_final = v_init + accel * t"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "v_init = 60",
+      "accel = 4.2",
+      "t = 64",
+      "v_final = v_init + accel * t"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "v_init = 97",
+      "accel = 21",
+      "t = 18.1",
+      "v_final = v_init + accel * t"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "v_init = 67",
+      "accel = 2.7",
+      "t = 87",
+      "v_final = v_init + accel * t"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "v_final = v_init + accel * t"
+   ]
+  },
+  {
+   "id": "keph102.2.5.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "velocity_a = 120",
+      "velocity_b = 40",
+      "relative_v = velocity_a - velocity_b"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "velocity_a = 116",
+      "velocity_b = 44",
+      "relative_v = velocity_a - velocity_b"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "velocity_a = 104",
+      "velocity_b = 110",
+      "relative_v = velocity_a - velocity_b"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "velocity_a = 71",
+      "velocity_b = 100",
+      "relative_v = velocity_a - velocity_b"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "velocity_a = 109",
+      "velocity_b = 105",
+      "relative_v = velocity_a - velocity_b"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "velocity_a = 55",
+      "velocity_b = 59",
+      "relative_v = velocity_a - velocity_b"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "relative_v = velocity_a - velocity_b"
+   ]
+  }
+ ]
+}

@@ -1,268 +1,444 @@
 {
-  "class": 11,
-  "subject": "applied_maths",
-  "chapter": 3,
-  "chapter_title": "Sets",
-  "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am11_003_sets.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "concepts": [
+ "class": 11,
+ "subject": "applied_maths",
+ "chapter": 3,
+ "chapter_title": "Sets",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am11_003_sets.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "am11_003.1",
+   "title": "Roster and Set-Builder Representation",
+   "section": "3.1-3.2",
+   "definition": "A set collects distinct objects picked out by a rule precise enough to settle membership for every candidate; it can be written by listing the objects in braces or by stating the common property of its members.",
+   "formula": "A = {x : x satisfies the property p}",
+   "key_idea": "Listing repeats nothing and ignores order; the builder form names one property instead.",
+   "textbook_ref": "am11_003_sets.txt, sections 3.1-3.2, word FOLLOW and MATHEMATICS illustrations",
+   "question_patterns": [
+    "is the collection of most talented singers of India a set, give a reason",
+    "write the letters of the word FOLLOW in roster form",
+    "express A = {1, 4, 9, 16} in set-builder form",
+    "list the set of vowels of the English alphabet in tabular form",
+    "write B = {2, 3, 5, 7, 11} by describing a common property",
+    "state the roster form of x : x is a letter of the word MATHEMATICS"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "am11_003.1",
-      "title": "Roster and Set-Builder Representation",
-      "section": "3.1-3.2",
-      "definition": "A set collects distinct objects picked out by a rule precise enough to settle membership for every candidate; it can be written by listing the objects in braces or by stating the common property of its members.",
-      "formula": "A = {x : x satisfies the property p}",
-      "key_idea": "Listing repeats nothing and ignores order; the builder form names one property instead.",
-      "textbook_ref": "am11_003_sets.txt, sections 3.1-3.2, word FOLLOW and MATHEMATICS illustrations",
-      "question_patterns": [
-        "is the collection of most talented singers of India a set, give a reason",
-        "write the letters of the word FOLLOW in roster form",
-        "express A = {1, 4, 9, 16} in set-builder form",
-        "list the set of vowels of the English alphabet in tabular form",
-        "write B = {2, 3, 5, 7, 11} by describing a common property",
-        "state the roster form of x : x is a letter of the word MATHEMATICS"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "test whether the joining rule decides membership without opinion", "explain": "vague words like talented or intelligent keep a collection from being a set"},
-        {"step": 2, "action": "for roster form list each object once inside braces", "explain": "order and repetition do not change the set"},
-        {"step": 3, "action": "for builder form state the characterising property after the colon", "explain": "the property must generate exactly the listed objects"}
-      ]
+     "step": 1,
+     "action": "test whether the joining rule decides membership without opinion",
+     "explain": "vague words like talented or intelligent keep a collection from being a set"
     },
     {
-      "id": "am11_003.2",
-      "title": "Types of Sets and Cardinal Number",
-      "section": "3.3",
-      "definition": "Sets split by how much they hold: a void set has nothing, a singleton has exactly one object, a finite set has a countable stock of elements, and an infinite set cannot be exhausted by counting; the count for a finite set is its cardinal number.",
-      "formula": "count = b - a - 1",
-      "key_idea": "Integers strictly between endpoints a and b number one less than the gap between them.",
-      "textbook_ref": "am11_003_sets.txt, section 3.3 singleton, empty, finite and infinite sets",
-      "question_patterns": [
-        "how many integers lie between -4 and 6",
-        "find the cardinal number of the set of integers satisfying -1 < x < 4",
-        "is the set of days of the week finite or infinite, state its cardinality",
-        "classify the set of even prime numbers as empty or singleton",
-        "count the elements of the set of whole numbers less than 5",
-        "state whether the set of all prime numbers is finite or infinite"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "take the gap between the two bounds", "explain": "the bounds exclude themselves when the inequality is strict", "compute": "gap = b - a"},
-        {"step": 2, "action": "drop one for the strict bounds", "explain": "neither endpoint may be counted", "compute": "count = gap - 1"}
-      ]
+     "step": 2,
+     "action": "for roster form list each object once inside braces",
+     "explain": "order and repetition do not change the set"
     },
     {
-      "id": "am11_003.3",
-      "title": "Subsets and Counting Subsets",
-      "section": "3.4-3.5",
-      "definition": "A is a subset of B when every member of A also sits in B; a set with n elements has one subset for every way of choosing which elements to keep.",
-      "formula": "subsets = 2**n",
-      "key_idea": "Each element offers a keep-or-drop choice, so subsets double per element; dropping the set itself gives the proper count.",
-      "textbook_ref": "am11_003_sets.txt, sections 3.4-3.5, subsets of {1,2,3} and n(P(A)) = 2^n",
-      "question_patterns": [
-        "find the number of subsets of the set B = {a, b, c, d}",
-        "how many proper subsets does a set with 5 elements have",
-        "a set has 6 elements; count all its subsets",
-        "if two finite sets have m and n elements and the first has 56 more subsets than the second, find m and n",
-        "how many subsets of A = {1, 2, 3, 4} contain the element 3",
-        "write all the subsets of {1, 2, 3}"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "raise two to the element count", "explain": "every subset corresponds to one keep-or-drop choice per element", "compute": "subsets = 2**n"},
-        {"step": 2, "action": "subtract the full set for the proper count", "explain": "a proper subset must miss at least one element", "compute": "proper_subsets = subsets - 1"}
-      ]
-    },
-    {
-      "id": "am11_003.4",
-      "title": "Power Set and Iterated Power Set",
-      "section": "3.5",
-      "definition": "The power set of A bundles all subsets of A into a single set; taking the power set of that collection again squares the element count once more.",
-      "formula": "outer = 2**inner",
-      "key_idea": "Each application of the power set doubles the element count, so P(P(A)) holds 2 raised to 2^n members.",
-      "textbook_ref": "am11_003_sets.txt, section 3.5 P(A) for A = {1, 2, 3}; check your progress 3.2 Q6 P(P(A))",
-      "question_patterns": [
-        "find n(P(A)) when A = {1, 2, 3}",
-        "let A be the empty set; find P(P(A))",
-        "how many elements does the power set of a 4 element set contain",
-        "compute the number of elements of P(P(A)) for a set A with 2 elements",
-        "list the members of the power set of {a, b}",
-        "what is the cardinality of the power set of the set of letters of the word EYE"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "double once for the first power set", "explain": "two to the element count of A", "compute": "inner = 2**n"},
-        {"step": 2, "action": "double again for the power set of the power set", "explain": "the inner count is now the element count", "compute": "outer = 2**inner"}
-      ]
-    },
-    {
-      "id": "am11_003.5",
-      "title": "Intervals on the Real Line and Their Length",
-      "section": "3.7-3.8",
-      "definition": "An interval is a stretch of the real line between two endpoints, keeping or dropping the ends as the brackets show; its length is the distance between the endpoints whatever the bracket style.",
-      "formula": "length = b - a",
-      "key_idea": "Square brackets keep an endpoint, round brackets drop it; the length ignores the choice.",
-      "textbook_ref": "am11_003_sets.txt, sections 3.7-3.8, interval (2, 7) length 5 and [-3, 4] length 7",
-      "question_patterns": [
-        "find the length of the interval (2, 7)",
-        "find the length of the closed interval [-3, 4]",
-        "write the interval [-1, 3] in set-builder form",
-        "how many integers lie in the closed interval [-3, 4]",
-        "describe (a, b] on the real number line",
-        "what is the length of the interval [-3, 2]"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "subtract the left endpoint from the right", "explain": "endpoint distance is the length for any bracket type", "compute": "length = b - a"},
-        {"step": 2, "action": "add one to count integers inside a closed interval", "explain": "both endpoints count when included", "compute": "int_count = length + 1"}
-      ]
-    },
-    {
-      "id": "am11_003.6",
-      "title": "Union, Intersection, Difference and Complement",
-      "section": "3.10",
-      "definition": "Set operations build new sets: union gathers members of either set, intersection keeps only shared members, difference keeps the first set's members absent from the second, and complement keeps universal members outside the given set; complement turns unions into intersections under De Morgan.",
-      "formula": "n_complement = n_universal - n_a",
-      "key_idea": "Union adds, overlap cancels, difference is one-sided, and complement reads the outside of the circle.",
-      "textbook_ref": "am11_003_sets.txt, section 3.10 operations table, De Morgan laws, A - B examples",
-      "question_patterns": [
-        "find the union and intersection of A = {1, 2, 3, 4, 5, 6} and B = {2, 4, 6, 7, 8}",
-        "compute A - B and B - A for A = {2, 4, 6, 8} and B = {1, 3, 5, 7}",
-        "find the complement of A = {1, 3, 5, 7, 9} inside U = {1, 2, ..., 10}",
-        "verify De Morgan law (A union B)' = A' intersection B' for A = {1, 2, 3} and B = {2, 4, 6}",
-        "are the sets A = {2, 4, 6, 8} and B = {1, 3, 5, 7} disjoint",
-        "find A' intersection B' when U = {1, ..., 8}, A = {1, 2, 3, 4}, B = {3, 4, 6}"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "union: list every element of either set once", "explain": "members common to both appear a single time"},
-        {"step": 2, "action": "intersection: keep only elements present in both", "explain": "no shared elements means the sets are disjoint"},
-        {"step": 3, "action": "difference: strike from A anything that also sits in B", "explain": "A - B and B - A need not match"},
-        {"step": 4, "action": "complement: keep universal elements missing from A", "explain": "De Morgan swaps union with intersection under the prime"}
-      ]
-    },
-    {
-      "id": "am11_003.7",
-      "title": "Two-Set Counting and the Union Formula",
-      "section": "3.11",
-      "definition": "For finite sets, the union count is the sum of the separate counts with the shared region added back once; rearranging the same identity recovers the overlap, the only-one regions, the outside region, or the universal size.",
-      "formula": "n_union = n_a + n_b - n_both",
-      "key_idea": "Disjoint sets skip the subtraction; every other region follows by adding or subtracting the overlap.",
-      "textbook_ref": "am11_003_sets.txt, section 3.11, tea and coffee illustration and survey problems",
-      "question_patterns": [
-        "in a group of 70 people, 37 like coffee and 52 like tea and each likes at least one drink; how many like both",
-        "out of 20 members, 12 like tea and 15 like coffee and everyone likes at least one; find those who like only tea",
-        "in a survey of 600 students, 150 take apple juice, 225 take orange juice and 100 take both; how many take neither",
-        "230 people speak Hindi only, 70 speak both Hindi and English, and 400 speak at least one; how many speak English only",
-        "n(A) = 200, n(B) = 300, n(A intersection B) = 100 and n(A' intersection B') = 300; find n(U)",
-        "65 people like cricket or tennis, 40 like cricket and 10 like both; how many like tennis only"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "add the two separate counts and subtract the overlap", "explain": "the shared region is counted twice otherwise", "compute": "n_union = n_a + n_b - n_both"},
-        {"step": 2, "action": "remove the overlap from one side count", "explain": "leaves the members belonging to that set alone", "compute": "n_only_a = n_a - n_both"},
-        {"step": 3, "action": "subtract the union from the grand total", "explain": "whoever lies in neither set", "compute": "n_neither = n_total - n_union"}
-      ]
-    },
-    {
-      "id": "am11_003.8",
-      "title": "Least Possible Overlap of Two Sets",
-      "section": "3.11",
-      "definition": "When two sets sit inside a fixed population, their overlap cannot drop below the amount by which the separate counts together overrun the population; that least value equals the sum of the counts minus the population size.",
-      "formula": "least_both = n_a + n_b - n_population",
-      "key_idea": "Pigeonhole pressure: counts that overflow the container force a shared region of at least the overflow.",
-      "textbook_ref": "am11_003_sets.txt, section 3.11, market research illustration 1000 consumers, 720 like A, 450 like B",
-      "question_patterns": [
-        "of 1000 consumers, 720 like product A and 450 like product B; find the least number that liked both products",
-        "in a class of 50, 35 play chess and 30 play carrom; what is the minimum number playing both",
-        "two sets inside a universe of 400 have sizes 280 and 190; find the least possible intersection",
-        "what is the smallest possible value of n(A intersection B) if n(A) = 60, n(B) = 50 inside n(U) = 80",
-        "a survey found 720 of 1000 people like tea and 450 like coffee; at least how many like both drinks"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "add the two membership counts", "explain": "counts memberships before merging anyone", "compute": "tally = n_a + n_b"},
-        {"step": 2, "action": "subtract the population size", "explain": "the overrun must sit in the shared region", "compute": "least_both = tally - n_population"}
-      ]
-    },
-    {
-      "id": "am11_003.9",
-      "title": "Three-Set Venn Region Counting",
-      "section": "3.11",
-      "definition": "Counting over three sets needs pair overlaps subtracted and the triple region added back; the exactly-one regions emerge after stripping the double and triple overlaps off each single count.",
-      "formula": "n_union3 = n_a + n_b + n_c - n_ab - n_ac - n_bc + n_abc",
-      "key_idea": "Add singles, subtract pairs to undo double counting, restore the triple once.",
-      "textbook_ref": "am11_003_sets.txt, section 3.11, newspaper survey of 60 readers H, T, I",
-      "question_patterns": [
-        "in a survey of 60 people, 25 read H, 26 read T, 26 read I, 9 read H and I, 11 read H and T, 8 read T and I and 3 read all three; how many read at least one newspaper",
-        "for the same newspaper survey find how many read exactly one newspaper",
-        "state the inclusion exclusion formula for three finite sets",
-        "in a group, n(A) = 20, n(B) = 25, n(C) = 15, pair overlaps 8, 6, 5 and 2 in all three; count the union",
-        "how many people read exactly two newspapers in the survey of 60 readers",
-        "25 students take maths, 17 take physics, 14 take chemistry with overlaps 6, 5, 4 and 2 in all; how many take at least one subject"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "add the three single counts", "explain": "start from separate tallies", "compute": "singles = n_a + n_b + n_c"},
-        {"step": 2, "action": "add the three pair overlaps and subtract", "explain": "each pair overlap was counted twice", "compute": "pair_fix = singles - n_ab - n_ac - n_bc"},
-        {"step": 3, "action": "add the triple region back", "explain": "it was removed three times but belongs once", "compute": "n_union3 = pair_fix + n_abc"},
-        {"step": 4, "action": "count members lying in exactly two sets", "explain": "strip the triple from each pair overlap and add", "compute": "n_exactly_two = n_ab + n_ac + n_bc - 3 * n_abc"},
-        {"step": 5, "action": "subtract the multi-set regions from the union", "explain": "what remains touches exactly one set", "compute": "n_exactly_one = n_union3 - n_exactly_two - n_abc"}
-      ]
+     "step": 3,
+     "action": "for builder form state the characterising property after the colon",
+     "explain": "the property must generate exactly the listed objects"
     }
-  ],
-  "worked_examples": [
+   ],
+   "compute_steps": [
     {
-      "id": "am11_003.we1",
-      "source_ref": "am11_003 section 3.11 illustration, tea and coffee in a family of 20",
-      "concept": "am11_003.7",
-      "question_type": "compute",
-      "question_pattern": "of 20 family members, 12 like tea and 15 like coffee and each likes at least one drink; find how many like both, only tea, and only coffee",
-      "extracted_variables": {"n_t": 12, "n_c": 15, "n_total": 20},
-      "solution_template": [
-        {"step": 1, "action": "union equals the whole family here", "compute": "n_union = n_total"},
-        {"step": 2, "action": "recover the overlap", "compute": "n_both = n_t + n_c - n_union"},
-        {"step": 3, "action": "strip the overlap from each count", "compute": "n_only_tea = n_t - n_both"},
-        {"step": 4, "action": "same for coffee", "compute": "n_only_coffee = n_c - n_both"}
-      ]
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 5 gives 5",
+     "compute": "count = 5"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "am11_003.2",
+   "title": "Types of Sets and Cardinal Number",
+   "section": "3.3",
+   "definition": "Sets split by how much they hold: a void set has nothing, a singleton has exactly one object, a finite set has a countable stock of elements, and an infinite set cannot be exhausted by counting; the count for a finite set is its cardinal number.",
+   "formula": "count = b - a - 1",
+   "key_idea": "Integers strictly between endpoints a and b number one less than the gap between them.",
+   "textbook_ref": "am11_003_sets.txt, section 3.3 singleton, empty, finite and infinite sets",
+   "question_patterns": [
+    "how many integers lie between -4 and 6",
+    "find the cardinal number of the set of integers satisfying -1 < x < 4",
+    "is the set of days of the week finite or infinite, state its cardinality",
+    "classify the set of even prime numbers as empty or singleton",
+    "count the elements of the set of whole numbers less than 5",
+    "state whether the set of all prime numbers is finite or infinite"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "take the gap between the two bounds",
+     "explain": "the bounds exclude themselves when the inequality is strict",
+     "compute": "gap = b - a"
     },
     {
-      "id": "am11_003.we2",
-      "source_ref": "am11_003 section 3.11 illustration, newspaper readers H, T, I",
-      "concept": "am11_003.9",
-      "question_type": "compute",
-      "question_pattern": "60 people: 25 read H, 26 read T, 26 read I; 9 read H and I, 11 read H and T, 8 read T and I, 3 read all three; find readers of at least one paper and of exactly one paper",
-      "extracted_variables": {"n_h": 25, "n_t": 26, "n_i": 26, "n_hi": 9, "n_ht": 11, "n_ti": 8, "n_all": 3},
-      "solution_template": [
-        {"step": 1, "action": "add singles, subtract pairs, add the triple", "compute": "n_union3 = n_h + n_t + n_i - n_hi - n_ht - n_ti + n_all"},
-        {"step": 2, "action": "count exactly-two readers", "compute": "n_exactly_two = n_hi + n_ht + n_ti - 3 * n_all"},
-        {"step": 3, "action": "subtract multi readers from the union", "compute": "n_exactly_one = n_union3 - n_exactly_two - n_all"}
-      ]
+     "step": 2,
+     "action": "drop one for the strict bounds",
+     "explain": "neither endpoint may be counted",
+     "compute": "count = gap - 1"
     }
-  ],
-  "exercises": [
+   ]
+  },
+  {
+   "id": "am11_003.3",
+   "title": "Subsets and Counting Subsets",
+   "section": "3.4-3.5",
+   "definition": "A is a subset of B when every member of A also sits in B; a set with n elements has one subset for every way of choosing which elements to keep.",
+   "formula": "subsets = 2**n",
+   "key_idea": "Each element offers a keep-or-drop choice, so subsets double per element; dropping the set itself gives the proper count.",
+   "textbook_ref": "am11_003_sets.txt, sections 3.4-3.5, subsets of {1,2,3} and n(P(A)) = 2^n",
+   "question_patterns": [
+    "find the number of subsets of the set B = {a, b, c, d}",
+    "how many proper subsets does a set with 5 elements have",
+    "a set has 6 elements; count all its subsets",
+    "if two finite sets have m and n elements and the first has 56 more subsets than the second, find m and n",
+    "how many subsets of A = {1, 2, 3, 4} contain the element 3",
+    "write all the subsets of {1, 2, 3}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "am11_003.ex1",
-      "source_ref": "am11_003 check your progress 3.2 and 3.3",
-      "questions": [
-        "Which of these are finite: natural numbers under 100, all primes, days of the week? State cardinalities of the finite ones.",
-        "Let A = {1, 2, {3, 4}, 5}. Insert the correct symbol between {3, 4} and A, and between {1} and A.",
-        "Write the intervals (1, 3), [-1, 3] and (-4, 0] in set-builder form.",
-        "Let A be the empty set. Find P(P(A)).",
-        "Find the number of subsets of B = {a, b, c, d}.",
-        "Two finite sets have m and n elements; the first has 56 more subsets than the second. Find m and n."
-      ]
+     "step": 1,
+     "action": "raise two to the element count",
+     "explain": "every subset corresponds to one keep-or-drop choice per element",
+     "compute": "subsets = 2**n"
     },
     {
-      "id": "am11_003.ex2",
-      "source_ref": "am11_003 check your progress 3.4",
-      "questions": [
-        "Among 70 people, 37 like coffee and 52 like tea, and each likes at least one. How many like both?",
-        "Among 65 people, 40 like cricket and 10 like both cricket and tennis. How many like tennis only, and how many like tennis?",
-        "In a school of 600 students, 150 take apple juice, 225 take orange juice and 100 take both. How many take neither?",
-        "In a class of 70 students, 50 percent failed test one and 40 percent failed test two. How many passed both tests?",
-        "A class of 35 students: 17 took mathematics, 10 took mathematics but not economics, and everyone took at least one subject. How many took economics but not mathematics?"
-      ]
+     "step": 2,
+     "action": "subtract the full set for the proper count",
+     "explain": "a proper subset must miss at least one element",
+     "compute": "proper_subsets = subsets - 1"
     }
-  ]
+   ]
+  },
+  {
+   "id": "am11_003.4",
+   "title": "Power Set and Iterated Power Set",
+   "section": "3.5",
+   "definition": "The power set of A bundles all subsets of A into a single set; taking the power set of that collection again squares the element count once more.",
+   "formula": "outer = 2**inner",
+   "key_idea": "Each application of the power set doubles the element count, so P(P(A)) holds 2 raised to 2^n members.",
+   "textbook_ref": "am11_003_sets.txt, section 3.5 P(A) for A = {1, 2, 3}; check your progress 3.2 Q6 P(P(A))",
+   "question_patterns": [
+    "find n(P(A)) when A = {1, 2, 3}",
+    "let A be the empty set; find P(P(A))",
+    "how many elements does the power set of a 4 element set contain",
+    "compute the number of elements of P(P(A)) for a set A with 2 elements",
+    "list the members of the power set of {a, b}",
+    "what is the cardinality of the power set of the set of letters of the word EYE"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "double once for the first power set",
+     "explain": "two to the element count of A",
+     "compute": "inner = 2**n"
+    },
+    {
+     "step": 2,
+     "action": "double again for the power set of the power set",
+     "explain": "the inner count is now the element count",
+     "compute": "outer = 2**inner"
+    }
+   ]
+  },
+  {
+   "id": "am11_003.5",
+   "title": "Intervals on the Real Line and Their Length",
+   "section": "3.7-3.8",
+   "definition": "An interval is a stretch of the real line between two endpoints, keeping or dropping the ends as the brackets show; its length is the distance between the endpoints whatever the bracket style.",
+   "formula": "length = b - a",
+   "key_idea": "Square brackets keep an endpoint, round brackets drop it; the length ignores the choice.",
+   "textbook_ref": "am11_003_sets.txt, sections 3.7-3.8, interval (2, 7) length 5 and [-3, 4] length 7",
+   "question_patterns": [
+    "find the length of the interval (2, 7)",
+    "find the length of the closed interval [-3, 4]",
+    "write the interval [-1, 3] in set-builder form",
+    "how many integers lie in the closed interval [-3, 4]",
+    "describe (a, b] on the real number line",
+    "what is the length of the interval [-3, 2]"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "subtract the left endpoint from the right",
+     "explain": "endpoint distance is the length for any bracket type",
+     "compute": "length = b - a"
+    },
+    {
+     "step": 2,
+     "action": "add one to count integers inside a closed interval",
+     "explain": "both endpoints count when included",
+     "compute": "int_count = length + 1"
+    }
+   ]
+  },
+  {
+   "id": "am11_003.6",
+   "title": "Union, Intersection, Difference and Complement",
+   "section": "3.10",
+   "definition": "Set operations build new sets: union gathers members of either set, intersection keeps only shared members, difference keeps the first set's members absent from the second, and complement keeps universal members outside the given set; complement turns unions into intersections under De Morgan.",
+   "formula": "n_complement = n_universal - n_a",
+   "key_idea": "Union adds, overlap cancels, difference is one-sided, and complement reads the outside of the circle.",
+   "textbook_ref": "am11_003_sets.txt, section 3.10 operations table, De Morgan laws, A - B examples",
+   "question_patterns": [
+    "find the union and intersection of A = {1, 2, 3, 4, 5, 6} and B = {2, 4, 6, 7, 8}",
+    "compute A - B and B - A for A = {2, 4, 6, 8} and B = {1, 3, 5, 7}",
+    "find the complement of A = {1, 3, 5, 7, 9} inside U = {1, 2, ..., 10}",
+    "verify De Morgan law (A union B)' = A' intersection B' for A = {1, 2, 3} and B = {2, 4, 6}",
+    "are the sets A = {2, 4, 6, 8} and B = {1, 3, 5, 7} disjoint",
+    "find A' intersection B' when U = {1, ..., 8}, A = {1, 2, 3, 4}, B = {3, 4, 6}"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "union: list every element of either set once",
+     "explain": "members common to both appear a single time"
+    },
+    {
+     "step": 2,
+     "action": "intersection: keep only elements present in both",
+     "explain": "no shared elements means the sets are disjoint"
+    },
+    {
+     "step": 3,
+     "action": "difference: strike from A anything that also sits in B",
+     "explain": "A - B and B - A need not match"
+    },
+    {
+     "step": 4,
+     "action": "complement: keep universal elements missing from A",
+     "explain": "De Morgan swaps union with intersection under the prime"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 6 gives 6",
+     "compute": "count = 6"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "am11_003.7",
+   "title": "Two-Set Counting and the Union Formula",
+   "section": "3.11",
+   "definition": "For finite sets, the union count is the sum of the separate counts with the shared region added back once; rearranging the same identity recovers the overlap, the only-one regions, the outside region, or the universal size.",
+   "formula": "n_union = n_a + n_b - n_both",
+   "key_idea": "Disjoint sets skip the subtraction; every other region follows by adding or subtracting the overlap.",
+   "textbook_ref": "am11_003_sets.txt, section 3.11, tea and coffee illustration and survey problems",
+   "question_patterns": [
+    "in a group of 70 people, 37 like coffee and 52 like tea and each likes at least one drink; how many like both",
+    "out of 20 members, 12 like tea and 15 like coffee and everyone likes at least one; find those who like only tea",
+    "in a survey of 600 students, 150 take apple juice, 225 take orange juice and 100 take both; how many take neither",
+    "230 people speak Hindi only, 70 speak both Hindi and English, and 400 speak at least one; how many speak English only",
+    "n(A) = 200, n(B) = 300, n(A intersection B) = 100 and n(A' intersection B') = 300; find n(U)",
+    "65 people like cricket or tennis, 40 like cricket and 10 like both; how many like tennis only"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the two separate counts and subtract the overlap",
+     "explain": "the shared region is counted twice otherwise",
+     "compute": "n_union = n_a + n_b - n_both"
+    },
+    {
+     "step": 2,
+     "action": "remove the overlap from one side count",
+     "explain": "leaves the members belonging to that set alone",
+     "compute": "n_only_a = n_a - n_both"
+    },
+    {
+     "step": 3,
+     "action": "subtract the union from the grand total",
+     "explain": "whoever lies in neither set",
+     "compute": "n_neither = n_total - n_union"
+    }
+   ]
+  },
+  {
+   "id": "am11_003.8",
+   "title": "Least Possible Overlap of Two Sets",
+   "section": "3.11",
+   "definition": "When two sets sit inside a fixed population, their overlap cannot drop below the amount by which the separate counts together overrun the population; that least value equals the sum of the counts minus the population size.",
+   "formula": "least_both = n_a + n_b - n_population",
+   "key_idea": "Pigeonhole pressure: counts that overflow the container force a shared region of at least the overflow.",
+   "textbook_ref": "am11_003_sets.txt, section 3.11, market research illustration 1000 consumers, 720 like A, 450 like B",
+   "question_patterns": [
+    "of 1000 consumers, 720 like product A and 450 like product B; find the least number that liked both products",
+    "in a class of 50, 35 play chess and 30 play carrom; what is the minimum number playing both",
+    "two sets inside a universe of 400 have sizes 280 and 190; find the least possible intersection",
+    "what is the smallest possible value of n(A intersection B) if n(A) = 60, n(B) = 50 inside n(U) = 80",
+    "a survey found 720 of 1000 people like tea and 450 like coffee; at least how many like both drinks"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the two membership counts",
+     "explain": "counts memberships before merging anyone",
+     "compute": "tally = n_a + n_b"
+    },
+    {
+     "step": 2,
+     "action": "subtract the population size",
+     "explain": "the overrun must sit in the shared region",
+     "compute": "least_both = tally - n_population"
+    }
+   ]
+  },
+  {
+   "id": "am11_003.9",
+   "title": "Three-Set Venn Region Counting",
+   "section": "3.11",
+   "definition": "Counting over three sets needs pair overlaps subtracted and the triple region added back; the exactly-one regions emerge after stripping the double and triple overlaps off each single count.",
+   "formula": "n_union3 = n_a + n_b + n_c - n_ab - n_ac - n_bc + n_abc",
+   "key_idea": "Add singles, subtract pairs to undo double counting, restore the triple once.",
+   "textbook_ref": "am11_003_sets.txt, section 3.11, newspaper survey of 60 readers H, T, I",
+   "question_patterns": [
+    "in a survey of 60 people, 25 read H, 26 read T, 26 read I, 9 read H and I, 11 read H and T, 8 read T and I and 3 read all three; how many read at least one newspaper",
+    "for the same newspaper survey find how many read exactly one newspaper",
+    "state the inclusion exclusion formula for three finite sets",
+    "in a group, n(A) = 20, n(B) = 25, n(C) = 15, pair overlaps 8, 6, 5 and 2 in all three; count the union",
+    "how many people read exactly two newspapers in the survey of 60 readers",
+    "25 students take maths, 17 take physics, 14 take chemistry with overlaps 6, 5, 4 and 2 in all; how many take at least one subject"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "add the three single counts",
+     "explain": "start from separate tallies",
+     "compute": "singles = n_a + n_b + n_c"
+    },
+    {
+     "step": 2,
+     "action": "add the three pair overlaps and subtract",
+     "explain": "each pair overlap was counted twice",
+     "compute": "pair_fix = singles - n_ab - n_ac - n_bc"
+    },
+    {
+     "step": 3,
+     "action": "add the triple region back",
+     "explain": "it was removed three times but belongs once",
+     "compute": "n_union3 = pair_fix + n_abc"
+    },
+    {
+     "step": 4,
+     "action": "count members lying in exactly two sets",
+     "explain": "strip the triple from each pair overlap and add",
+     "compute": "n_exactly_two = n_ab + n_ac + n_bc - 3 * n_abc"
+    },
+    {
+     "step": 5,
+     "action": "subtract the multi-set regions from the union",
+     "explain": "what remains touches exactly one set",
+     "compute": "n_exactly_one = n_union3 - n_exactly_two - n_abc"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "am11_003.we1",
+   "source_ref": "am11_003 section 3.11 illustration, tea and coffee in a family of 20",
+   "concept": "am11_003.7",
+   "question_type": "compute",
+   "question_pattern": "of 20 family members, 12 like tea and 15 like coffee and each likes at least one drink; find how many like both, only tea, and only coffee",
+   "extracted_variables": {
+    "n_t": 12,
+    "n_c": 15,
+    "n_total": 20
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "union equals the whole family here",
+     "compute": "n_union = n_total"
+    },
+    {
+     "step": 2,
+     "action": "recover the overlap",
+     "compute": "n_both = n_t + n_c - n_union"
+    },
+    {
+     "step": 3,
+     "action": "strip the overlap from each count",
+     "compute": "n_only_tea = n_t - n_both"
+    },
+    {
+     "step": 4,
+     "action": "same for coffee",
+     "compute": "n_only_coffee = n_c - n_both"
+    }
+   ]
+  },
+  {
+   "id": "am11_003.we2",
+   "source_ref": "am11_003 section 3.11 illustration, newspaper readers H, T, I",
+   "concept": "am11_003.9",
+   "question_type": "compute",
+   "question_pattern": "60 people: 25 read H, 26 read T, 26 read I; 9 read H and I, 11 read H and T, 8 read T and I, 3 read all three; find readers of at least one paper and of exactly one paper",
+   "extracted_variables": {
+    "n_h": 25,
+    "n_t": 26,
+    "n_i": 26,
+    "n_hi": 9,
+    "n_ht": 11,
+    "n_ti": 8,
+    "n_all": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "add singles, subtract pairs, add the triple",
+     "compute": "n_union3 = n_h + n_t + n_i - n_hi - n_ht - n_ti + n_all"
+    },
+    {
+     "step": 2,
+     "action": "count exactly-two readers",
+     "compute": "n_exactly_two = n_hi + n_ht + n_ti - 3 * n_all"
+    },
+    {
+     "step": 3,
+     "action": "subtract multi readers from the union",
+     "compute": "n_exactly_one = n_union3 - n_exactly_two - n_all"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "am11_003.ex1",
+   "source_ref": "am11_003 check your progress 3.2 and 3.3",
+   "questions": [
+    "Which of these are finite: natural numbers under 100, all primes, days of the week? State cardinalities of the finite ones.",
+    "Let A = {1, 2, {3, 4}, 5}. Insert the correct symbol between {3, 4} and A, and between {1} and A.",
+    "Write the intervals (1, 3), [-1, 3] and (-4, 0] in set-builder form.",
+    "Let A be the empty set. Find P(P(A)).",
+    "Find the number of subsets of B = {a, b, c, d}.",
+    "Two finite sets have m and n elements; the first has 56 more subsets than the second. Find m and n."
+   ]
+  },
+  {
+   "id": "am11_003.ex2",
+   "source_ref": "am11_003 check your progress 3.4",
+   "questions": [
+    "Among 70 people, 37 like coffee and 52 like tea, and each likes at least one. How many like both?",
+    "Among 65 people, 40 like cricket and 10 like both cricket and tennis. How many like tennis only, and how many like tennis?",
+    "In a school of 600 students, 150 take apple juice, 225 take orange juice and 100 take both. How many take neither?",
+    "In a class of 70 students, 50 percent failed test one and 40 percent failed test two. How many passed both tests?",
+    "A class of 35 students: 17 took mathematics, 10 took mathematics but not economics, and everyone took at least one subject. How many took economics but not mathematics?"
+   ]
+  }
+ ]
 }

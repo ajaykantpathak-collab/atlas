@@ -34,6 +34,31 @@
      "q": "Design a scenario where a business person would prefer using a cheque over an ATM.",
      "a": "A business person would use a cheque to pay a supplier for a large order (e.g., ₹50,000) because it is safer than carrying that much cash and provides a clear paper trail for accounting. A poor answer would just mention \"it's easier,\" without explaining the security or tracking benefits.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Banking services are modern ______ tools—like cheques, ATMs, and online banking—that allow people to manage, store, and transfer their money safely without always needing physical cash.",
+     "a": "financial",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever wondered how your parents pay for expensive things without ______ a giant bag of coins?",
+     "a": "carrying",
+     "self_check": true
+    },
+    {
+     "q": "What is Banking services? State the definition given in this lesson.",
+     "a": "Banking services are modern financial tools—like cheques, ATMs, and online banking—that allow people to manage, store, and transfer their money safely without always needing physical cash.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Banking services?",
+     "a": "Students often think a \"Cheque\" or a \"Debit Card\" *is* the money itself.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify which banking tool (cheque, ATM, or online banking) is most appropriate for a given real-world scenario, such as paying a shopkeeper or accessing money at night.",
+     "self_check": true
     }
    ]
   }

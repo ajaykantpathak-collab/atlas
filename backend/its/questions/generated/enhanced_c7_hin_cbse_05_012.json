@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c7_hin_cbse_05_012",
+ "concepts": [
+  {
+   "id": "enh:c7_hin_cbse_05_012",
+   "title": "c7_hin_cbse_05_012",
+   "questions": [
+    {
+     "q": "पाठ 5 में 'वस्तुनिष्ठ प्रश्न' की पहचान क्या है? इसकी एक विशेषता लिखिए।",
+     "a": "**Correct Answer:** वस्तुनिष्ठ प्रश्न का उत्तर पाठ में स्पष्ट रूप से लिखा होता है (explicitly stated) और उसका एक ही निश्चित उत्तर होता है (single verifiable answer). उदाहरण: \"नायक का नाम क्या है?\"  \n**What a wrong answer reveals:** If a student says \"जिसका उत्तर छोटा हो\" (short answer) or \"जिसमें हाँ/नहीं हो\" (yes/no), they confuse *format* with *nature*. This shows they haven't grasped that वस्तुनिष्ठता का आधार 'पाठ-आधारित प्रमाण' है, उत्तर की लंबाई नहीं।",
+     "self_check": true
+    },
+    {
+     "q": "मान लीजिए पाठ 5 में एक पंक्ति है: \"रामू ने उदास मन से दरवाज़ा बंद किया।\"  \nप्रश्न: \"रामू ने दरवाज़ा क्यों बंद किया?\" — यह वस्तुनिष्ठ है या आशय-सूचक? कारण बताइए।",
+     "a": "**Correct Answer:** यह **आशय-सूचक (Inferential)** प्रश्न है। पाठ में केवल क्रिया लिखी है (\"दरवाज़ा बंद किया\") और भाव (\"उदास मन\"), लेकिन *कारण* (why) स्पष्ट नहीं लिखा। उत्तर के लिए छात्र को प्रसंग, पात्र की मनोदशा, और आगे की घटनाओं को जोड़कर *निष्कर्ष निकालना* पड़ेगा।  \n**What a wrong answer reveals:** If a student says \"वस्तुनिष्ठ, क्योंकि पाठ में लिखा है\", they treat *action* as *motive*. This is the classic \"surface reading\" error — confusing explicit event with implicit intent.",
+     "self_check": true
+    },
+    {
+     "q": "पाठ 5 से एक वस्तुनिष्ठ प्रश्न और एक आशय-सूचक प्रश्न **बनाइए** (पूछिए नहीं, स्वयं लिखिए)। प्रत्येक के लिए उत्तर भी लिखिए।",
+     "a": "**Correct Answer (Sample):**  \n**वस्तुनिष्ठ:** \"पाठ में नायक के गाँव का नाम क्या है?\" → उत्तर: \"पाठ के पहले पैराग्राफ में लिखा है: 'रामपुर'।\"  \n**आशय-सूचक:** \"नायक के गाँव छोड़ने के निर्णय से लेखक क्या संदेश देना चाहते हैं?\" → उत्तर: \"लेखक ग्रामीण जीवन की विवशता और सपनों की कीमत दिखाना चाहते हैं (Point)। पाठ में नायक कहता है 'यहाँ कुछ नहीं रखा' और शहर जाकर भी उदास रहता है (Evidence)। इससे पता चलता है कि पलायन समस्या का हल नहीं (Explanation)। यह पाठ के मुख्य विषय 'विस्थापन की पीड़ा' से जुड़ता है (Theme Link)।\"  \n**What a wrong answer reveals:** If the आशय-सूचक answer is just \"गाँव छोड़ना गलत है\" without text evidence or theme link, the student is giving a personal opinion, not a text-based inference.",
+     "self_check": true
+    },
+    {
+     "q": "पाठ 5 के दो प्रसंग दिए गए हैं:  \n(क) \"माँ ने थाली में रोटी रख दी।\"  \n(ख) \"माँ की आँखों में चिंता की रेखाएँ थीं, पर होंठों पर मुस्कान।\"  \nप्रश्न: \"माँ का चरित्र कैसा है?\" — इस प्रश्न का उत्तर देने के लिए आपको कौन-सा प्रसंग अधिक उपयोगी लगेगा और क्यों?",
+     "a": "**Correct Answer:** प्रसंग **(ख)** अधिक उपयोगी है। प्रसंग (क) केवल एक **क्रिया (action)** देता है — वस्तुनिष्ठ तथ्य। प्रसंग (ख) **भाव (emotion)** और **विरोधाभास (contrast)** देता है — माँ अपनी चिंता छिपाकर बच्चे को ढाँढस बँधा रही है। 'चरित्र कैसा है' एक आशय-सूचक प्रश्न है जिसके लिए *व्यवहार के पीछे का भाव* समझना पड़ता है, जो केवल (ख) से मिलता है।  \n**What a wrong answer reveals:** If a student chooses (क) saying \"पाठ में यही लिखा है\", they are hunting for keywords instead of analyzing characterization. They don't yet see that character = pattern of choices + inner state, not just listed actions.",
+     "self_check": true
+    },
+    {
+     "q": "एक छात्र ने आशय-सूचक प्रश्न का उत्तर दिया: \"लेखक गरीबी की आलोचना कर रहे हैं क्योंकि नायक गरीब है।\"  \nक्या यह उत्तर स्वीकार्य है? गुण-दोष सहित समझाइए।",
+     "a": "**Correct Answer:** **नहीं, यह उत्तर अपूर्ण और कमजोर है।**  \n**दोष:** (1) यह *दावा (claim)* है, *विश्लेषण (analysis)* नहीं। (2) कोई पाठ-प्रमाण (textual evidence) नहीं दिया। (3) \"गरीबी की आलोचना\" एक सरलीकरण है — पाठ 5 का विषय शायद 'संघर्ष में गरिमा' या 'आशा' हो सकता है।  \n**गुण:** छात्र ने विषय (गरीबी) पहचाना, लेकिन व्याख्या नहीं की।  \n**सुधार:** \"लेखक गरीबी को अभिशाप नहीं, बल्कि नायक के संघर्ष का आधार दिखाते हैं। पाठ में नायक कहता है 'गरीबी ने मुझे मेहनती बनाया' (Evidence)। यह 'आत्मनिर्भरता' के विषय से जुड़ता है (Theme Link)।\"  \n**What a wrong answer reveals:** If a student says \"हाँ, सही है क्योंकि नायक गरीब है\", they confuse *topic identification* with *interpretation*. They think naming the topic = answering the question.",
+     "self_check": true
+    },
+    {
+     "q": "पाठ 5 का कोई एक प्रसंग चुनकर, उस पर आधारित **एक आशय-सूचक प्रश्न बनाइए** और उसका **आदर्श उत्तर** 4 चरणों (दावा-प्रमाण-व्याख्या-विषय संबंध) में लिखिए।",
+     "a": "**Expected Criteria for Good Answer:**  \n1. **प्रश्न** वास्तव में आशय-सूचक हो (अंतर्निहित अर्थ पूछे, स्पष्ट तथ्य नहीं)।  \n2. **उत्तर** में 4 चरण स्पष्ट हों:  \n   - **दावा (Claim):** एक वाक्य में मुख्य उत्तर।  \n   - **प्रमाण (Evidence):** पाठ का विशिष्ट अंश (उद्धृत या सारांश)।  \n   - **व्याख्या (Reasoning):** प्रमाण दावे को कैसे सिद्ध करता है।  \n   - **विषय संबंध (Theme Link):** पाठ के मुख्य संदेश से जुड़ाव।  \n**What a poor answer reveals:** If the student writes a question like \"नायक का नाम क्या है?\" (वस्तुनिष्ठ) or gives an answer missing any of the 4 steps (especially Theme Link), they haven't internalized the *structure of literary argument*. This is the exact skill needed for Class 8+ board answers.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

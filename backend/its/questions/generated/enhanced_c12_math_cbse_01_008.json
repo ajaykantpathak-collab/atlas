@@ -34,6 +34,21 @@
      "q": "Construct a binary operation on the set \\( \\{0,1\\} \\) that is **neither** addition modulo 2 nor multiplication modulo 2. Write its operation table.",
      "a": "One example: define \\( a * b = \\max(a,b) \\) (the larger of the two).  \nOperation table:\n```\n* | 0 1\n0 | 0 1\n1 | 1 1\n```\nAnother: \\( a * b = a \\) (projection onto first coordinate).  \nA poor answer that gives addition/multiplication modulo 2 or a table with entries outside \\( \\{0,1\\} \\) shows the student cannot invent a new rule or does not understand closure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are mixing two ______ of paint: red and blue always give purple, but red and yellow give orange.",
+     "a": "colours",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can determine whether a given rule defines a binary operation on a specified set by checking closure and well-definedness, and can construct operation tables for binary operations on finite sets.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are mixing two colours of paint: red and blue always give purple, but red and yellow give orange.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

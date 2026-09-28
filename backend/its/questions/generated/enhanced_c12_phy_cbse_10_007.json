@@ -34,6 +34,16 @@
      "q": "Design a simple home experiment to observe single-slit diffraction using household items. List the materials, procedure, and what measurements you would take to estimate the wavelength of the light source.",
      "a": "Materials: Two sharp razor blades (or a single slit made in aluminium foil), a clear filament bulb (or a laser pointer), a ruler, a white wall/screen. Procedure: Hold the blades to form a narrow slit (adjust width by eye), view the filament through the slit at a distance \\(D \\approx 2\\,\\text{m}\\) from the wall. Observe the central bright fringe and the first dark fringes on the wall. Measure the distance \\(2y\\) between the first minima. Knowing \\(a\\) (estimate from blade thickness or use a micrometer if available) and \\(D\\), compute \\(\\lambda = a y / D\\). A good answer includes safety warning (don't look directly at the sun), acknowledges the crude estimation of \\(a\\), and notes that white light produces coloured fringes so a coloured filter improves accuracy. A poor answer omits the measurement of \\(a\\) or \\(D\\), or suggests using the sun directly.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the shadow of a fine hair or a narrow slit made by two razor blades held close together in sunlight — you see ______ fringes inside the geometrical shadow.",
+     "a": "coloured",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the shadow of a fine hair or a narrow slit made by two razor blades held close together in sunlight — you see coloured fringes inside the ______ shadow.",
+     "a": "geometrical",
+     "self_check": true
     }
    ]
   }

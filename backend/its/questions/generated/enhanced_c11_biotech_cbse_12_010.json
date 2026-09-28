@@ -34,6 +34,36 @@
      "q": "Design a hypothetical NGS platform that combines the long read length of Sanger (1000 bp) with the parallelism of Illumina (millions of reads). Describe: (a) the physical substrate, (b) the sequencing chemistry, (c) how you would detect incorporation, (d) one major technical challenge you anticipate. Your design must be biochemically plausible.",
      "a": "Example design: (a) Substrate: High-density array of zero-mode waveguides (ZMWs) - nanophotonic holes in a metal film on silicon dioxide, each observing a single DNA polymerase. (b) Chemistry: Phospholinked fluorescent nucleotides (like PacBio) where the dye is on the terminal phosphate, released upon incorporation - enabling natural DNA synthesis with 1000+ bp reads. (c) Detection: Confocal microscopy excites only the bottom 20-30 nm of each ZMW; fluorescence pulse detected in real-time as each base incorporates. (d) Challenge: High enzyme processivity required - polymerase must stay active for >30 minutes per template; photobleaching of dyes during long reads; computational burden of high error rate (~10-15%) requiring circular consensus sequencing. A poor answer proposes \"just make Illumina flow cells bigger\" without addressing the fundamental trade-off between read length and cluster density/phasing.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: DNA sequencing is the process of ______ the precise order of nucleotides (adenine, thymine, guanine, cytosine) in a DNA molecule.",
+     "a": "determining",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are a forensic scientist who found a single hair at a crime scene.",
+     "a": "Imagine",
+     "self_check": true
+    },
+    {
+     "q": "What is DNA sequencing? State the definition given in this lesson.",
+     "a": "DNA sequencing is the process of determining the precise order of nucleotides (adenine, thymine, guanine, cytosine) in a DNA molecule.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Sanger method (chain termination method) uses dideoxynucleotides (ddNTPs) lacking a ______'-OH group to terminate DNA synthesis at specific bases, while Next-Generation Sequencing (NGS) enables massively parallel sequencing of millions of DNA fragments simultaneously.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about DNA sequencing?",
+     "a": "Students believe that in Sanger sequencing, the ddNTP is added instead of the dNTP at every position of that base (e.g., every A in the sequence gets a ddATP).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) explain the biochemical principle of chain termination using ddNTPs and predict the band pattern on a sequencing gel for a given template, and (2) compare Sanger sequencing with NGS platforms (Illumina, Roche/454, SOLiD) on throughput, read length, accuracy, and cost to justify method selection for a.",
+     "self_check": true
     }
    ]
   }

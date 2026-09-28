@@ -34,6 +34,26 @@
      "q": "Design a tuple `t` of length 6 containing integers such that `t.count(t.index(5))` returns 2. Explain your tuple.",
      "a": "Example: `t = (5, 0, 5, 1, 2, 3)`.\n- `t.index(5)` returns 0 (first occurrence of 5 at index 0).\n- `t.count(0)` returns 2 because 0 appears at indices 1 and 3? Wait, in my tuple 0 appears once. Let's construct correctly: we need `t.index(5)` to be some value `v`, and `t.count(v)` = 2.\nLet `t = (5, 2, 5, 2, 7, 8)`.\n- `t.index(5)` = 0.\n- `t.count(0)` = 0 (no zeros). Not good.\nLet `t = (5, 1, 5, 1, 9, 9)`.\n- `t.index(5)` = 0.\n- `t.count(0)` = 0.\nWe need the value returned by `index` (which is an index number) to appear exactly twice in the tuple.\nSo choose tuple where index of 5 is, say, 2, and the number 2 appears twice.\n`t = (10, 20, 5, 2, 2, 30)`.\n- `t.index(5)` = 2.\n- `t.count(2)` = 2 (at indices 3 and 4). This works.\nA poor answer shows inability to compose the two methods and reason about indices as values.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The count() method returns the number of ______ of a specified value in a tuple, while the index() method returns the index of the first occurrence of a specified value; both methods take the value to search as an argument and index() optionally accepts start and end indices to limit the search range.",
+     "a": "occurrences",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a ______ storing the daily sales (in ₹) of a small shop for a week: sales = (1200, 1500, 1200, 1800, 1200, 2000, 1500).",
+     "a": "tuple",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write Python code that correctly uses tuple.count(value) and tuple.index(value, start, end) to solve problems involving frequency counting and position finding, and can explain the ValueError raised when index() searches for an absent value.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you have a tuple storing the daily sales (in ₹) of a small shop for a week: sales = (1200, 1500, 1200, 1800, 1200, 2000, 1500).",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

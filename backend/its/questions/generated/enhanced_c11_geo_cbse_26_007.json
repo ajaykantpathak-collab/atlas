@@ -34,6 +34,21 @@
      "q": "Design a remote sensing-based workflow to assess drought impact on rabi crops in Bundelkhand region (Uttar Pradesh-Madhya Pradesh) using only Indian satellite data. Specify: (a) sensors and bands, (b) acquisition timeline, (c) indices to compute, (d) ground validation strategy, and (e) output product for state agriculture department.",
      "a": "(a) Resourcesat-2A AWiFS (56 m, 5-day revisit): Green, Red, NIR, SWIR bands; (b) Fortnightly acquisitions from November (sowing) to March (harvest) for 2023-24 and 2022-23 (normal year); (c) NDVI for vegetation vigour, VCI (Vegetation Condition Index) for anomaly detection, LSWI (Land Surface Water Index) for soil moisture stress; (d) 50 stratified random field plots per district measuring crop height, biomass, soil moisture via gravimetric method, correlated with pixel values; (e) District-level drought severity map (Normal/Mild/Moderate/Severe) with estimated yield reduction percentage, delivered as GIS-ready shapefile and PDF atlas. Poor answers omit temporal baseline comparison, use only NDVI (insensitive to water stress), or suggest sensors without Indian ground segment access.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of Remote Sensing in India refer to the systematic use of satellite-derived data from Indian Remote Sensing (IRS) satellites and other platforms to monitor, map, and manage agricultural crops, forest resources, and natural disasters through multi-spectral, multi-temporal, and multi-resolution imagery for operational decision-making at national, state, and local levels.",
+     "a": "Applications",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a district ______ officer in Punjab during October.",
+     "a": "agriculture",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can interpret a standard False Colour Composite (FCC) image to distinguish between kharif and rabi cropping patterns, identify forest density classes using spectral signatures, and explain how pre- and post-disaster satellite imagery enables damage assessment for floods or cyclones in India.",
+     "self_check": true
     }
    ]
   }

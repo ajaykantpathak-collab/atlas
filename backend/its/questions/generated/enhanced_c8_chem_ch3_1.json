@@ -34,6 +34,26 @@
      "q": "Design a simple classification test to prove whether a white powder given to you in a laboratory is a chemical compound or a physical mixture of two white powders (salt and sugar).",
      "a": "The expected criteria: The student should propose testing a physical property where salt and sugar differ, or using a physical separation technique. For example, dissolving the mixture in a solvent where only one component dissolves, or heating carefully, or testing electrical conductivity of their solutions. A poor answer suggests performing a complex chemical titration or burning the powder, missing the key principle that physical mixtures can be separated by physical properties without altering chemical identities.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A mixture is a physical ______ of two or more substances (elements or compounds) in any proportion, where each component retains its individual chemical properties and can be separated by physical methods.",
+     "a": "combination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you stir a spoonful of sugar into a glass of lemon shikanji, you are making a ______ of water, sugar, lemon juice, and salt.",
+     "a": "mixture",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can distinguish between pure substances and mixtures based on composition, identify the individual components within a given mixture, and explain why components retain their original properties.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you stir a ______ of sugar into a glass of lemon shikanji, you are making a mixture of water, sugar, lemon juice, and salt.",
+     "a": "spoonful",
+     "self_check": true
     }
    ]
   }

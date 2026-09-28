@@ -210,7 +210,16 @@
      "explain": "in a neutral atom the electron count equals the proton count, which equals the atomic number",
      "compute": "electrons = atomic_number"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mass_number = protons + neutrons",
+     "compute": "mass_number = protons + neutrons"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.8.7",
@@ -246,7 +255,16 @@
      "action": "verify_shell_capacity_for_known_shells",
      "explain": "K shell (n=1) holds 2 electrons, L shell (n=2) holds 8, M shell (n=3) holds 18, confirming the 2n^2 rule"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "max_electrons = 2 * (n ** 2)",
+     "compute": "max_electrons = 2 * (n ** 2)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.8.8",
@@ -351,7 +369,16 @@
      "explain": "Add contributions and divide by 100 to obtain weighted average atomic mass.",
      "compute": "avg_mass = (part_1 + part_2) / 100"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "avg_mass = (mass_1 * percent_1 + mass_2 * percent_2) / 100",
+     "compute": "avg_mass = (mass_1 * percent_1 + mass_2 * percent_2) / 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.8.9.2",

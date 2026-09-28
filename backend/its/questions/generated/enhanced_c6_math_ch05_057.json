@@ -34,6 +34,26 @@
      "q": "Create your own equation where the answer is $x = 5$.\n2-3 sentences.",
      "a": "An example is $2x + 1 = 11$. Any equation where substituting 5 makes both sides equal is correct; a poor answer shows the student does not understand how to construct a balanced equality.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A linear equation is a ______ statement asserting that two expressions are equal, where the variable has an exponent of 1.",
+     "a": "mathematical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To find out how many marbles are in the bag, you remove the same number of loose marbles from both sides until the bag is alone, keeping the scale ______.",
+     "a": "balanced",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A linear equation is a mathematical statement asserting that two expressions are equal, where the variable has an exponent of ______.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to isolate the variable on one side of the equation and determine its value through logical algebraic steps (simplifying, balancing, and dividing).",
+     "self_check": true
     }
    ]
   }

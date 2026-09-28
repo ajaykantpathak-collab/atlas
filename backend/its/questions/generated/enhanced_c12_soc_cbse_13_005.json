@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_13_005",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_13_005",
+   "title": "c12_soc_cbse_13_005",
+   "questions": [
+    {
+     "q": "What is the primary function of the WTO's Dispute Settlement Body (DSB), and how does it differ from the IMF's conditionality mechanism?",
+     "a": "The WTO's DSB adjudicates trade disputes between member states based on agreed rules (e.g., anti-dumping, subsidies), issuing binding rulings that authorize retaliation if not complied with. The IMF's conditionality, by contrast, attaches policy reforms (fiscal austerity, liberalisation) as pre-conditions for loan disbursement. A wrong answer that conflates the two (e.g., \"both impose conditions\") reveals the student sees these institutions as a monolithic \"global governance\" blob rather than distinct bodies with different enforcement logics: judicial vs. financial.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the removal of Quantitative Restrictions (QRs) on agricultural imports in India (April 2001) was a WTO obligation, and describe two contrasting social consequences for (a) a marginal farmer in Bihar and (b) an urban middle-class consumer in Delhi.",
+     "a": "India committed to phasing out QRs under the WTO Agreement on Agriculture (AoA) as part of its Uruguay Round obligations. For the Bihar farmer: cheaper imported grain (e.g., wheat, edible oils) depresses local prices, reducing income and increasing indebtedness. For the Delhi consumer: greater variety and lower prices improve food security and dietary diversity. A wrong answer that only lists \"consumers benefit, farmers lose\" without linking to the specific AoA provision (Article 4.2: conversion of non-tariff barriers to tariffs) shows the student cannot connect treaty text to ground-level outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "A small Indian textile firm wants to export shirts to the EU. The EU imposes a 12% tariff and demands compliance with REACH chemical regulations. The firm asks the Indian government to challenge this at the WTO. Can the WTO help? Justify using the concepts of \"tariff bindings\" and \"non-tariff barriers.\"",
+     "a": "The WTO can address the tariff only if it exceeds the EU's bound rate (maximum committed tariff) in its schedule; if 12% is at or below the bound rate, the WTO cannot force a reduction. REACH regulations are non-tariff barriers (technical standards); the WTO's TBT Agreement requires they be non-discriminatory and not more trade-restrictive than necessary. The firm must prove the EU applies REACH disproportionately to imports. A wrong answer claiming \"WTO can force EU to remove both\" reveals the student misunderstands bound tariffs as ceilings, not floors, and ignores the regulatory sovereignty space allowed under TBT.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the voting power distribution in the IMF (quota-based) and the WTO (one-member-one-vote consensus). How does this structural difference explain why India accepted IMF conditionality in 1991 but actively resists certain WTO proposals (e.g., investment facilitation, e-commerce moratorium)?",
+     "a": "IMF voting shares are quota-based (roughly proportional to economic size), giving G7 countries ~45% votes and effective veto over major decisions (85% supermajority). India had negligible leverage in 1991, forcing acceptance of conditionality. The WTO operates by consensus (de facto one-member-one-vote), allowing India to block or shape agreements by building coalitions (e.g., G33 on agriculture). A wrong answer stating \"both are dominated by rich countries\" misses the strategic agency India exercises in the WTO through coalition-building, which is structurally impossible in the IMF.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the argument: \"World Bank structural adjustment loans in the 1990s improved India's health and education outcomes because they increased total social sector spending.\" Use the concepts of \"fungibility\" and \"conditionalities on user fees.\"",
+     "a": "The argument is flawed. Fungibility means Bank funds replace rather than supplement domestic spending; the government may cut its own health allocation by the loan amount. Moreover, Bank conditionalities often mandated user fees in public hospitals and schools (cost recovery), which reduced access for the poor — evidenced by declining utilisation rates in states like Madhya Pradesh. A wrong answer that accepts the premise reveals the student does not grasp that loan *conditionalities* can contradict the *stated goal* of poverty reduction, a core critique in development sociology.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research question for a village study that investigates how WTO rules on intellectual property (TRIPS) affect traditional seed-saving practices of women farmers in a rain-fed region. Specify the key variables, method, and one ethical challenge.",
+     "a": "Research question: \"How has the implementation of India's Plant Variety Protection and Farmers' Rights Act (2001) — enacted to comply with TRIPS Article 27.3(b) — altered the seed exchange networks and decision-making authority of women farmers in [District X]?\" Variables: (1) frequency of seed saving vs. purchasing certified seeds, (2) women's participation in community seed banks, (3) crop diversity on farm. Method: Mixed-methods — household survey (stratified by landholding) + focus groups with women's collectives + key informant interviews with seed dealers. Ethical challenge: Revealing farmers' use of unregistered varieties could expose them to legal action under the Act; informed consent must include this risk. A poor question would focus only on yields or income, missing the gendered, cultural dimension of seed sovereignty central to sociological analysis.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: International institutions like the World Trade Organization (WTO), International Monetary Fund (IMF), and World Bank are formal ______ organisations that establish rules, provide financial assistance, and shape policy frameworks governing global economic integration, with the WTO regulating trade rules, the IMF overseeing monetary stability and conditional lending, and the World Bank financing development projects.",
+     "a": "intergovernmental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a farmer in Punjab who hears that the ______ might reduce fertilizer subsidies because of an \"IMF condition,\" while a software engineer in Bengaluru celebrates that \"WTO rules\" let her company bid for US projects.",
+     "a": "government",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: *How can the same set of global rules help one Indian and hurt another?* Begin with the ______ balance-of-payments crisis — India's pivotal moment when IMF loans came with \"structural adjustment\" strings attached.",
+     "a": "1991",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish the specific mandates, decision-making structures, and policy tools of the WTO, IMF, and World Bank, and (2) Analyze a concrete Indian case (e.g., 1991 structural adjustment, WTO dispute on agricultural subsidies) to explain how these institutions' policies create divergent social outcomes for.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,36 @@
      "q": "Create a set of five meaningful identifier names for a program that calculates the monthly electricity bill for a household. The program needs to store: consumer number, previous meter reading, current meter reading, unit rate per kWh, and fixed charge. Each name must follow Python identifier rules, avoid keywords, and follow the PEP 8 naming convention (snake_case). Explain your choices.",
      "a": "Example answer: `consumer_number`, `prev_reading`, `curr_reading`, `unit_rate`, `fixed_charge`. All start with a letter, use only lowercase letters and underscores, are descriptive, and none are keywords. A poor answer might use `1consumer` (starts with digit), `class` (keyword), or `ConsumerNumber` (violates snake_case convention for variables). This reveals whether the student can synthesize naming rules with real-world context and style guidelines.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Keywords are reserved words in Python that have a ______ meaning and cannot be used as names for variables, functions, or other user-defined entities.",
+     "a": "predefined",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a Python program to ______ the total cost of items in a shopping cart.",
+     "a": "calculate",
+     "self_check": true
+    },
+    {
+     "q": "What is Keywords? State the definition given in this lesson.",
+     "a": "Keywords are reserved words in Python that have a predefined meaning and cannot be used as names for variables, functions, or other user-defined entities.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You might think of naming it price or apple_price, but can you name it ______price or for?",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Keywords?",
+     "a": "Students often believe that Python keywords are case-insensitive, so they think For, IF, While are also keywords and cannot be used as identifiers.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can list all Python keywords, correctly classify a given name as a valid identifier, invalid identifier, or keyword, explain the naming rules for identifiers with examples, and justify why keywords cannot be used as identifiers.",
+     "self_check": true
     }
    ]
   }

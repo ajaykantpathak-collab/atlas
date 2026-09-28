@@ -34,6 +34,21 @@
      "q": "Create a real-life problem set in an Indian school context where the distance formula is needed to solve a practical question. The problem must involve at least three points, require calculating two distances, and include a comparison or decision based on those distances (e.g., which path is shorter, or is a point equidistant from two others?). Provide the coordinates, the question, and the expected solution steps.",
      "a": "Example problem: \"The school library is at L(2, 5), the canteen at C(8, 1), and the playground at P(4, -3) on the school map (1 unit = 10 m). A student at the library wants to go to the playground. Should they go directly or via the canteen? Calculate both distances and find the difference.\"  \nExpected steps: 1) Compute LC, 2) Compute CP, 3) Sum LC+CP, 4) Compute LP directly, 5) Compare and conclude direct path is shorter (triangle inequality).  \nA poor answer that only computes one distance or forgets to convert units (multiply by 10) shows inability to translate the mathematical result back to the real-world context. Not stating the triangle inequality principle explicitly misses the \"justify\" competency.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The formula holds for all real coordinates and yields a non-negative real number ______ the Euclidean distance.",
+     "a": "representing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ at your school gate (point A) and need to walk to the nearest metro station (point B) in a city laid out on a perfect grid of roads running North-South and East-West.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently derive the distance formula by drawing the coordinate axes, plotting two arbitrary points, constructing the right triangle with legs parallel to the axes, writing the lengths of the legs as absolute differences of coordinates, applying Pythagoras theorem, and simplifying to the standard formula.",
+     "self_check": true
     }
    ]
   }

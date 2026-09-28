@@ -34,6 +34,31 @@
      "q": "Design a real-world scenario (Indian context) where using `fillna(0)` for a numeric column would produce a misleading analysis, and write the correct `fillna` code with justification.",
      "a": "**Scenario**: A DataFrame `upi_txns` has column `amount` (₹) for UPI transactions. Failed/pending transactions have `NaN` (not ₹0). Filling with 0 makes failed transactions look like ₹0 payments, inflating transaction count and deflating average ticket size. **Correct code**: `upi_txns['amount'] = upi_txns['amount'].fillna(upi_txns['amount'].median())` — median is robust to outliers (large transfers). **Justification**: ₹0 is a valid transaction amount (e.g., mandate registration), so 0 conflates \"no transaction\" with \"zero-value transaction\". A poor answer uses `mean()` without checking skew, or drops rows losing failed-transaction metadata.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Missing data handling in Pandas refers to the systematic detection, removal, or ______ of NaN (Not a Number) values in Series and DataFrames using three core methods: isnull() identifies missing values by returning a boolean mask, dropna() removes rows or columns containing missing values based on specified criteria, and fillna() replaces missing values with a scalar, statistical measure (mean/median/mode), or forward/backward fill strategy.",
+     "a": "replacement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you downloaded a CSV of Class 12 board exam results from your ______ portal, but some students were absent for Maths and their marks appear as empty cells.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What is Missing data handling in Pandas? State the definition given in this lesson.",
+     "a": "Missing data handling in Pandas refers to the systematic detection, removal, or replacement of NaN (Not a Number) values in Series and DataFrames using three core methods: isnull() identifies missing values by returning a boolean mask, dropna() removes rows or columns containing missing values based on specified criteria, and fillna().",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Missing data handling in Pandas?",
+     "a": "Students believe fillna(0) is a universal \"safe\" fix for missing numeric data.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) write code to detect missing values in a DataFrame using isnull().sum() and interpret the output, (2) correctly choose between dropna(axis=0, how='any'), dropna(axis=1, thresh=3), and fillna(value=df['col'].median()) based on a given data scenario, and (3) explain why fillna with method='ffill' is.",
+     "self_check": true
     }
    ]
   }

@@ -26,8 +26,8 @@
      "self_check": true
     },
     {
-     "q": "A student solved: \\(U = \\{1,2,3,4,5\\}\\), \\(A = \\{1,2\\}\\), \\(B = \\{2,3\\}\\). They wrote \\((A \\cup B)' = \\{4,5\\}\\) and \\(A' \\cap B' = \\{4,5\\}\\), then concluded \\((A \\cup B)' = A' \\cup B'\\). Identify the error and correct it.",
-     "a": "The student correctly computed \\((A \\cup B)' = \\{4,5\\}\\) and \\(A' \\cap B' = \\{4,5\\}\\), but incorrectly wrote the conclusion as \\((A \\cup B)' = A' \\cup B'\\) instead of \\((A \\cup B)' = A' \\cap B'\\). This slip reveals a memory confusion between the two De Morgan's laws — the student recalled the pattern \"complement of union becomes intersection of complements\" but wrote the wrong symbol.",
+     "q": "Give the correct order of steps to check a student's claim that the complement of a union equals the union of complements.",
+     "a": "The check runs: (1) Compute the union of the two sets inside the universal set (2) Complement that union by listing what the union misses (3) Compute each set's complement separately and intersect them (4) Compare the two results and correct the conclusion to De Morgan's law with an intersection. A wrong answer that keeps the union on the right shows the student has swapped the two De Morgan identities from memory.",
      "self_check": true
     },
     {

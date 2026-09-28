@@ -34,6 +34,26 @@
      "q": "Design a simple observational experiment using three locally available flowers (one each from Solanaceae, Fabaceae, and Brassicaceae) to test the hypothesis: \"Floral symmetry type (actinomorphic vs. zygomorphic) determines the diversity of insect visitors.\" Specify the flowers, observation method, data to record, and how you would analyze results.",
      "a": "Flowers: Solanum nigrum (Makoi, Solanaceae – actinomorphic), Clitoria ternatea (Aparajita, Fabaceae – zygomorphic), Brassica juncea (Mustard, Brassicaceae – actinomorphic). Method: On a sunny morning (9–11 AM), observe each flowering plant for 20 minutes, recording every insect visitor (type, order, duration of visit). Repeat for 3 days. Data: Visitor frequency, taxonomic diversity (number of insect orders/families), visit duration. Analysis: Compare Shannon diversity index of visitors between actinomorphic vs. zygomorphic flowers. Expected: Actinomorphic flowers attract wider diversity (generalists); zygomorphic attract fewer, specialized bees. A poor design (e.g., no replication, ignoring time of day, not identifying insects to order) reveals inability to translate morphological concepts into testable ecological hypotheses.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A flower is the ______ unit of angiosperms, defined as a modified shoot with limited growth where the shoot apical meristem transforms into a floral meristem, bearing four successive whorls—calyx (sepals), corolla (petals), androecium (stamens), and gynoecium (carpels)—on a condensed axis called the thalamus or receptacle, specialized for sexual reproduction through the production of male and female gametes.",
+     "a": "reproductive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking the student to pluck a fresh ______ rosa-sinensis (china rose) flower from a garden or roadside hedge—something they see daily in Indian neighborhoods.",
+     "a": "Hibiscus",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) dissect a typical flower (e.g., Hibiscus, Datura, or Mustard) and correctly identify, label, and describe the structure and function of all four whorls including their cohesion (gamosepalous/polysepalous, gamopetalous/polypetalous) and adhesion (epipetalous, epiphyllous); (2) classify the flower based on symmetry.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking the student to pluck a fresh Hibiscus rosa-sinensis (china rose) flower from a garden or roadside hedge—something they see daily in Indian ______.",
+     "a": "neighborhoods",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a simple experiment to determine whether dormancy in a newly collected wild legume species is due to seed coat impermeability or physiological factors. List materials, steps, and the expected observation for each case.",
      "a": "Materials: seeds, water, scalpel, Petri dishes, filter paper, GA₃ solution (100 ppm). Steps: (1) Divide seeds into four groups: intact control, scarified (seed coat nicked), intact + GA₃, scarified + GA₃. (2) Place on moist filter paper at 25°C. (3) Record germination daily for 14 days. Expected: If only scarified groups germinate → seed coat dormancy. If only GA₃ groups germinate → physiological dormancy. If only scarified + GA₃ germinate → combinational dormancy. A poor design that omits the GA₃-only group cannot distinguish physiological from combinational dormancy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Seed dormancy is a ______ state in which a viable seed fails to germinate under otherwise favorable environmental conditions (adequate water, oxygen, and suitable temperature) due to internal blocks such as impermeable seed coats, immature embryos, or inhibitory hormone balances.",
+     "a": "physiological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a handful of mung bean (moong) seeds soaked overnight: they swell, the seed coat wrinkles, and a tiny white radicle appears.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What is Seed dormancy? State the definition given in this lesson.",
+     "a": "Seed dormancy is a physiological state in which a viable seed fails to germinate under otherwise favorable environmental conditions (adequate water, oxygen, and suitable temperature) due to internal blocks such as impermeable seed coats, immature embryos, or inhibitory hormone balances.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Seed dormancy?",
+     "a": "Students often think that \"dormant seeds are dead or inactive.\" In reality, dormant seeds maintain low but measurable respiration, actively synthesize ABA, and monitor environmental cues (light, temperature fluctuations).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between the three types of seed dormancy (exogenous, endogenous, combinational) and explain the specific mechanism by which each is broken.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "A CREATE level question: Design a next-generation gene therapy protocol for ADA-SCID that eliminates the need for busulfan conditioning. Specify: (a) vector modification, (b) cell source alternative, (c) in vivo targeting strategy, (d) safety switch. Justify each choice with a molecular mechanism.",
      "a": "(a) Vector: SIN-lentiviral vector with ADA cDNA + truncated CD19 (tCD19) selection marker + iCasp9 suicide gene. (b) Cell source: Gene-edited autologous HSCs with CCR5 knockout (HIV resistance bonus) OR allogeneic gene-corrected iPSC-derived HSCs (off-the-shelf). (c) In vivo: AAV9 vector with CD45-promoter driving ADA, injected IV — but AAV doesn't integrate, episomal loss in dividing HSCs. Better: engineered lentiviral pseudotyped with CD117-binding envelope (c-Kit targeting) for in vivo HSC transduction — avoids harvest/conditioning. (d) Safety switch: iCasp9 activated by AP1903 (rimiducid) — dimerizes caspase-9, triggers apoptosis of transduced cells if malignancy detected. Justification: c-Kit targeting exploits HSC surface receptor for in vivo transduction; iCasp9 eliminates insertional oncogenesis clones. A poor answer proposes \"CRISPR in vivo\" without addressing delivery to bone marrow niche or immunogenicity of Cas9 — misses translational barriers.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Gene therapy for ADA-deficient SCID is a somatic cell gene therapy approach where autologous hematopoietic stem cells (HSCs) or T-lymphocytes are ex vivo transduced with a retroviral or lentiviral vector carrying a functional human ADA gene, restoring adenosine deaminase activity and preventing toxic accumulation of ______ metabolites that cause lymphocyte apoptosis.",
+     "a": "deoxyadenosine",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a newborn ______ with SCID — no T cells, no B cells, no NK cells — facing certain death from opportunistic infections unless they live in a sterile bubble.",
+     "a": "diagnosed",
+     "self_check": true
+    },
+    {
+     "q": "What is Gene therapy for ADA-deficient SCID? State the definition given in this lesson.",
+     "a": "Gene therapy for ADA-deficient SCID is a somatic cell gene therapy approach where autologous hematopoietic stem cells (HSCs) or T-lymphocytes are ex vivo transduced with a retroviral or lentiviral vector carrying a functional human ADA gene, restoring adenosine deaminase activity and preventing toxic accumulation of deoxyadenosine.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A single enzyme, adenosine deaminase (ADA), missing due to mutations in the ADA gene on chromosome ______.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Gene therapy for ADA-deficient SCID?",
+     "a": "Students conflate ADA-SCID gene therapy with X-linked SCID (IL2RG) gene therapy and assume both use gammaretroviral vectors with identical leukemia risk.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Diagram the complete ex vivo gene therapy protocol for ADA-SCID from bone marrow harvest to reinfusion, labeling vector type, selection markers, and conditioning regimen; (2) Explain why ADA deficiency causes selective lymphocyte toxicity using purine salvage pathway biochemistry; (3) Compare retroviral vs. lentiviral.",
+     "self_check": true
     }
    ]
   }

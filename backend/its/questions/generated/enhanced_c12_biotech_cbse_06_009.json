@@ -34,6 +34,31 @@
      "q": "Create a novel application scenario: You are tasked with producing 10,000 genetically identical, disease-free sandalwood (Santalum album) plantlets in 6 months using somatic embryogenesis. Outline the complete workflow from explant selection to hardening, highlighting three critical quality-control checkpoints where you would assess embryogenic competence, genetic fidelity, and conversion efficiency.",
      "a": "Workflow: (1) Explant: Immature zygotic embryos or nodal segments from elite mother tree → surface sterilize (HgCl₂ 0.1% 5 min). (2) Induction: MS + 2,4-D 2 mg/L + BAP 0.5 mg/L, dark, 25°C, 4 weeks → callus. QC1: Histology — stain with acetocarmine; embryogenic callus = dense cytoplasmic, small cells, starch granules; non-embryogenic = vacuolated, large cells. (3) Proliferation: Transfer embryogenic callus to liquid MS + 2,4-D 1 mg/L on shaker (100 rpm) → cell suspension. (4) Development: Filter suspension, plate on MS hormone-free + 6% sucrose + 10 µM ABA, light 16/8 h. QC2: Flow cytometry (nuclear DNA content) — compare with mother plant; >5% ploidy change = discard line. (5) Maturation: 4°C for 2 weeks + desiccation (sterile filter paper, 3 days). (6) Conversion: MS + 0.1 mg/L GA₃ → germination. QC3: Conversion rate = (normal plantlets / total embryos plated) × 100; target >70%. (7) Hardening: Ex vitro in vermiculite:perlite 1:1, high humidity. A poor answer misses histological QC or uses only morphology, risking non-embryogenic lines.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Somatic ______ is the process by which bipolar somatic embryos, structurally similar to zygotic embryos, develop from non-zygotic somatic cells in vitro without gametic fusion, passing through distinct globular, heart, torpedo, and cotyledonary stages to form complete plantlets.",
+     "a": "embryogenesis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a ______ carrot cell in a petri dish — can it become a whole carrot plant?",
+     "a": "single",
+     "self_check": true
+    },
+    {
+     "q": "What is Somatic embryogenesis? State the definition given in this lesson.",
+     "a": "Somatic embryogenesis is the process by which bipolar somatic embryos, structurally similar to zygotic embryos, develop from non-zygotic somatic cells in vitro without gametic fusion, passing through distinct globular, heart, torpedo, and cotyledonary stages to form complete plantlets.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish somatic embryogenesis from organogenesis by identifying bipolar embryo structure vs. unipolar organ formation, and (2) Design a two-phase protocol (induction + development) with correct PGR sequence (high auxin → low/no auxin) for a given explant type, justifying each stage's hormonal.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you have a single carrot cell in a petri dish — can it become a whole carrot plant?",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

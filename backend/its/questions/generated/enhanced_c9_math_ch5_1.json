@@ -34,6 +34,31 @@
      "q": "Create a real-world problem (Indian context: a circular park, a round roti, a wheel) that requires identifying at least four different circle parts (e.g., radius, chord, arc, sector, segment). Write the problem and provide a labelled diagram with measurements.",
      "a": "Example: \"A circular park has centre O and radius 20 m. A straight path AB goes through O. A curved jogging track follows the boundary from A to C (not passing through B). A triangular flower bed is bounded by OA, OC, and arc AC. A sitting area is the region between chord AC and arc AC.\" Diagram must show O, radius 20 m, diameter AB = 40 m, chord AC, minor arc AC, sector O-AC, segment AC. A poor answer (e.g., missing labels, using diameter as radius, confusing sector/segment) shows the student cannot translate terminology into a coherent spatial scenario.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A circle is the set of all points in a plane that are at a fixed ______ (called the radius) from a fixed point (called the centre).",
+     "a": "distance",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ garden in your school courtyard with a radius of 5 metres.",
+     "a": "circular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a circular garden in your school courtyard with a radius of ______ metres.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can precisely define all circle terminology, correctly label parts in any given diagram, distinguish between related terms (e.g., chord vs diameter, sector vs segment), and explain why every diameter is a chord but not every chord is a diameter.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a circular garden in your school courtyard with a radius of 5 metres.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

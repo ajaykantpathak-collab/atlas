@@ -4,15 +4,9 @@
   {
    "id": "c7m6.1.1",
    "title": "Elements of a Triangle",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 73 gives 17",
-     "compute": "other = 90 - 73"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "6 elements = 3 sides + 3 angles",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 73 degrees, find the other.",
@@ -49,27 +43,9 @@
   {
    "id": "c7m6.2.1",
    "title": "Medians of a Triangle",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the coordinate-geometry formula",
-     "explain": "apply the coordinate-geometry formula: dx = 9 - -3 gives 12",
-     "compute": "dx = 9 - -3"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the coordinate-geometry formula: dy = 15 - -1 gives 16",
-     "compute": "dy = 15 - -1"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the coordinate-geometry formula: dist = sqrt(dx * dx + dy * dy) gives 20",
-     "compute": "dist = sqrt(dx * dx + dy * dy)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "median = vertex to midpoint of opposite side; 3 medians per triangle",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (-3, -1) and (9, 15).",
@@ -106,15 +82,9 @@
   {
    "id": "c7m6.3.1",
    "title": "Altitudes of a Triangle",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the quadrilateral area formula",
-     "explain": "apply the quadrilateral area formula: area = 18 * 22 gives 396",
-     "compute": "area = 18 * 22"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "altitude = perpendicular from vertex to opposite side; 3 altitudes",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a parallelogram with base 18 cm and height 22 cm.",
@@ -152,6 +122,8 @@
    "id": "c7m6.4.1",
    "title": "Exterior Angle Property",
    "converted_to_compute": false,
+   "formula": "exterior_angle = interior_opposite_1 + interior_opposite_2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 39 degrees, find the other.",
@@ -189,6 +161,8 @@
    "id": "c7m6.5.1",
    "title": "Angle Sum Property",
    "converted_to_compute": false,
+   "formula": "angle1 + angle2 + angle3 = 180 degrees",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 23 degrees, find the other.",
@@ -225,15 +199,9 @@
   {
    "id": "c7m6.6.1",
    "title": "Equilateral Triangle",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 60 gives 30",
-     "compute": "other = 90 - 60"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "all sides equal; each angle = 60 degrees",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 60 degrees, find the other.",
@@ -271,6 +239,8 @@
    "id": "c7m6.6.2",
    "title": "Isosceles Triangle",
    "converted_to_compute": false,
+   "formula": "two sides equal; base angles equal",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 66 degrees, find the other.",
@@ -308,6 +278,8 @@
    "id": "c7m6.7.1",
    "title": "Sum of Two Sides of Triangle",
    "converted_to_compute": false,
+   "formula": "a + b > c; |a - b| < c for all sides",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 51 degrees, find the other.",
@@ -345,6 +317,8 @@
    "id": "c7m6.8.1",
    "title": "Pythagoras Theorem",
    "converted_to_compute": false,
+   "formula": "hypotenuse^2 = leg1^2 + leg2^2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a parallelogram one angle is 80 degrees. Find the adjacent angle.",
@@ -373,7 +347,7 @@
     },
     {
      "q": "A kite has one pair of equal angles. If the angle between the unequal sides is 40 degrees and the kite is symmetric, the sum of the two equal opposite angles is 360 - 40 - the other given angle of 80 degrees. Find the sum of the two equal angles.",
-     "a": "240",
+     "a": "280",
      "self_check": false
     }
    ]
@@ -381,15 +355,9 @@
   {
    "id": "c7m6.8.2",
    "title": "Converse of Pythagoras",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 35 gives 55",
-     "compute": "other = 90 - 35"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "if a^2 = b^2 + c^2, then right-angled with hypotenuse a",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 35 degrees, find the other.",

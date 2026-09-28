@@ -34,6 +34,21 @@
      "q": "Design a simple classroom experiment using household items to qualitatively demonstrate the difference between shear deformation and bulk compression. List materials, procedure, and what observation would confirm each deformation mode.",
      "a": "Materials: A thick sponge (or foam block), a deck of playing cards, a rubber ball, a heavy book. Procedure: (1) Place sponge on table, press top horizontally with hand while holding bottom fixed — observe parallelogram shape (shear). (2) Place rubber ball in a transparent container, add water and seal, squeeze container — ball shrinks uniformly (bulk). (3) Push deck of cards horizontally — cards slide relative to each other (shear). Confirmation: Shear = shape change (angle change) without volume change; Bulk = volume change without shape change. A poor answer (e.g., using only stretching of a rubber band) fails to isolate pure shear or pure volumetric deformation, showing inability to design controlled mechanical tests.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Shear modulus (G), also called modulus of rigidity, is the ratio of shearing stress to shearing strain within the elastic limit, measuring a solid's ______ to shape change without volume change; its SI unit is pascal (Pa) or N·m⁻².",
+     "a": "resistance",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a deck of cards on a table: push the top card horizontally while holding the bottom card fixed — the deck tilts like a ______.",
+     "a": "parallelogram",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) distinguish between shear and bulk deformation scenarios from a physical description or diagram, (2) calculate shear modulus from given force, area, displacement, and length dimensions, (3) compute bulk modulus or fractional volume change from pressure and volume data, and (4) explain why shear modulus applies only.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a simple classroom demonstration using a clear tube, colored water, and a heat source to model the temperature inversion at the tropopause. List materials, procedure, and the observation that confirms the model.",
      "a": "Materials: long transparent tube (1 m), water, blue and red food coloring, ice bath, heat lamp. Procedure: Fill tube with water; cool bottom section in ice bath (simulates cold tropopause), heat top section with lamp (simulates stratospheric warming). Add blue dye at bottom, red at top. Observation: The dyes remain separated, showing stable stratification with cold dense fluid below warm less-dense fluid — analogous to the tropopause acting as a lid. A poor answer that simply mixes hot and cold water without a stable layer misses the key concept of static stability inhibiting vertical mixing.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The atmosphere is a layered envelope of gases surrounding Earth, held by gravity, with distinct vertical zones (troposphere, stratosphere, mesosphere, thermosphere, exosphere) ______ by specific temperature gradients, composition changes, and physical processes; its composition by volume in the lower homogeneous region is approximately 78% nitrogen, 21% oxygen, 0.93% argon, 0.04% carbon dioxide, and trace gases.",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by observing a hot-air balloon rising at a local fair: as it ascends, the air gets colder, then surprisingly warmer, then colder again, and finally ______ hot but very thin.",
+     "a": "extremely",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can identify all five primary atmospheric layers in order of increasing altitude, state the defining temperature trend and one key phenomenon for each layer, explain why composition becomes heterogeneous above the homosphere, and describe how the ozone layer in the stratosphere absorbs UV radiation to create a temperature.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by observing a hot-air balloon rising at a local fair: as it ascends, the air gets colder, then ______ warmer, then colder again, and finally extremely hot but very thin.",
+     "a": "surprisingly",
+     "self_check": true
     }
    ]
   }

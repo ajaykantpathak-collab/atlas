@@ -32,7 +32,37 @@
     },
     {
      "q": "Create a new function `generate_invoice(customer, items, tax_rate=0.18, discount=0)` that returns a dictionary with keys `customer`, `subtotal`, `tax`, `discount`, `total`. The function should calculate subtotal as sum of `items`, tax as `subtotal * tax_rate`, and total as `subtotal + tax - discount`. Demonstrate two calls: one with only positional arguments, and one using keyword arguments for `tax_rate` and `discount`.",
-     "a": "```python\ndef generate_invoice(customer, items, tax_rate=0.18, discount=0):\n    subtotal = sum(items)\n    tax = subtotal * tax_rate\n    total = subtotal + tax - discount\n    return {\n        \"customer\": customer,\n        \"subtotal\": subtotal,\n        \"tax\": tax,\n        \"discount\": discount,\n        \"total\": total\n    }",
+     "a": "```python\ndef generate_invoice(customer, items, tax_rate=0.18, discount=0):\n    subtotal = sum(items)\n    tax = subtotal * tax_rate\n    total = subtotal + tax - discount\n    return {\n        \"customer\": customer,\n        \"subtotal\": subtotal,\n        \"tax\": tax,\n        \"discount\": discount,\n        \"total\": total\n    }\n\n# Positional only\nprint(generate_invoice(\"Rahul\", [100, 200, 50]))\n# Keyword for optional params\nprint(generate_invoice(\"Priya\", [500, 300], tax_rate=0.12, discount=50))\n```  \n**Poor answer reveals:** If the student cannot correctly compute the dictionary or mixes up the order of parameters (e.g., puts `tax_rate` before `items`), they haven’t internalized the rule that default parameters must come after all positional parameters.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In Python, a parameter is a variable listed in the function ______ that receives a value when the function is called; an argument is the actual value passed during the call.",
+     "a": "definition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a program for a school canteen that calculates the total bill for a student.",
+     "a": "writing",
+     "self_check": true
+    },
+    {
+     "q": "What is In Python, a parameter? State the definition given in this lesson.",
+     "a": "In Python, a parameter is a variable listed in the function definition that receives a value when the function is called; an argument is the actual value passed during the call.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by defining a function calculate_bill(items, discount=______) where items is a required positional parameter (a list of prices) and discount is an optional default parameter.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about In Python, a parameter?",
+     "a": "Misconception: \"Default parameters are re‑initialized to their default value on every function call.\" Why it’s wrong: In Python, default values are evaluated once — when the def statement is executed (usually at module import).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish between parameters and arguments, (2) correctly write function definitions with positional and default parameters in the proper order (non‑default parameters before default ones), (3) call such functions using positional, keyword, and mixed arguments without raising TypeError, and (4) explain why mutable.",
      "self_check": true
     }
    ]

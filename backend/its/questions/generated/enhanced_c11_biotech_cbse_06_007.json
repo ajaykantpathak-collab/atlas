@@ -34,6 +34,36 @@
      "q": "Design a genetic cross experiment using Drosophila to determine whether two newly discovered mutations—sepia eyes (se) and ebony body (e)—are linked or assort independently. Specify the parental genotypes, the cross scheme, and the phenotypic ratios you would expect in the F2 for each hypothesis (linked vs. independent). How would you distinguish complete from incomplete linkage if they are linked?",
      "a": "Parental cross: Pure-breeding sepia eyes, normal body (se/se E+/E+) × pure-breeding normal eyes, ebony body (se+/se+ e/e). F1: All se+/se E+/e (wild-type eyes and body). Test cross F1 with double recessive (se/se e/e). If independent: F2 phenotypes 1:1:1:1 (25% each). If linked (incomplete): Parental types (sepia-normal, normal-ebony) > 50% total; recombinants (sepia-ebony, normal-normal) < 50% total. If complete linkage: Only two phenotypes (parental) in 1:1 ratio, zero recombinants. To distinguish complete vs. incomplete linkage: observe if ANY recombinant progeny appear. Even a single recombinant individual proves incomplete linkage. A poor answer that only describes F2 selfing without a test cross cannot distinguish linkage from epistasis. A poor answer that doesn't specify the double recessive test cross parent fails to reveal the F1 gamete composition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Linkage is the tendency of genes located on the same chromosome to be inherited together as a unit during meiosis, retaining their parental ______ in the offspring.",
+     "a": "combinations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're ______ tomatoes for two traits: fruit colour (red dominant over yellow) and fruit shape (round dominant over oval).",
+     "a": "breeding",
+     "self_check": true
+    },
+    {
+     "q": "What is Linkage? State the definition given in this lesson.",
+     "a": "Linkage is the tendency of genes located on the same chromosome to be inherited together as a unit during meiosis, retaining their parental combinations in the offspring.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Complete linkage occurs when linked genes show no crossing over, producing only parental gametes; incomplete linkage occurs when crossing over between homologous chromosomes generates recombinant gametes at a frequency less than ______%.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Linkage?",
+     "a": "Students often believe that \"linked genes are always inherited together and never separate.\" This leads them to think that a test cross of a dihybrid for linked genes will ALWAYS produce only two phenotypes (parental types) in a 1:1 ratio.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) distinguish complete from incomplete linkage using phenotypic ratios from test crosses, (2) calculate recombination frequency from progeny data and convert it to map distance in centimorgans, and (3) explain why linked genes deviate from Mendel's 9:3:3:1 dihybrid ratio.",
+     "self_check": true
     }
    ]
   }

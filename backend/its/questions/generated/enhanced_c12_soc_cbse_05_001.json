@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_05_001",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_05_001",
+   "title": "c12_soc_cbse_05_001",
+   "questions": [
+    {
+     "q": "Define social inequality in one sentence, emphasising how it differs from individual inequality.",
+     "a": "Social inequality is the systematic, group-based unequal distribution of valued social resources (economic, cultural, social capital) among categories of people in a society, not due to innate individual differences but produced by social structures. A wrong answer that defines it as “differences in income or talent between individuals” reveals confusion between individual variation and socially produced group patterns — the core sociological distinction.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: “If a person is poor because they didn’t study hard, that’s social inequality.” Explain why this statement is sociologically incorrect, using the concept of social stratification.",
+     "a": "The statement confuses individual effort with social stratification. Social stratification is a society-wide system that unequally distributes resources regardless of individual ability; a person’s social position is largely ascribed (inherited) and reinforced by endogamy and ideology. Blaming poverty on lack of effort ignores how economic, cultural, and social capital are intergenerationally transferred and how structural barriers (e.g., unequal school quality) shape outcomes. The error reveals a meritocratic fallacy that overlooks the three principles of stratification.",
+     "self_check": true
+    },
+    {
+     "q": "A rural Dalit family owns a small plot of land (economic capital) but cannot secure a bank loan for irrigation because the loan officer demands collateral they lack and expresses distrust of their caste. Identify which forms of capital are at play and explain how the lack of one form blocks the conversion of another.",
+     "a": "Economic capital (land) exists, but social capital (networks with bank officials, influential contacts) is absent due to caste-based exclusion, and cultural capital (formal education, financial literacy) may also be limited. The loan officer’s prejudice (ideological legitimation of stratification) prevents conversion of economic capital into productive investment. This illustrates Bourdieu’s insight that capitals overlap and convertibility depends on structural access — a wrong answer focusing only on “lack of money” misses the interplay of capitals and the role of social exclusion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast social inequality and social stratification using the three principles of stratification from the NCERT text. Present your answer as a table with three rows (one per principle) and two columns (inequality vs stratification).",
+     "a": "A correct table would show: (1) Society-wide system: inequality can exist without a system; stratification is a system. (2) Intergenerational persistence: inequality may be temporary; stratification persists via ascription and endogamy. (3) Ideological legitimation: inequality may be seen as unfair; stratification is justified as fair/inevitable. A wrong answer that treats them as synonyms fails to grasp that stratification institutionalises inequality into a ranked hierarchy with its own reproduction mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the following policy proposal: “To eliminate social inequality, the government should provide equal cash transfers to every poor household regardless of caste, because poverty is poverty.” Use the distinction between inequality and stratification to evaluate.",
+     "a": "The proposal addresses economic inequality but ignores stratification. Cash transfers do not dismantle the ideological legitimation (purity-pollution), endogamous marriage networks, or the intergenerational transmission of cultural/social capital that maintain caste hierarchy. Stratification requires structural interventions (reservations, anti-discrimination laws, land reform) that target the hierarchy itself. A wrong answer endorsing the proposal shows inability to see that stratification reproduces inequality even when economic resources are temporarily equalised.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-research activity for your classmates to empirically demonstrate that social stratification persists across generations in your local community. Specify: (a) two measurable indicators of social position, (b) how you would collect intergenerational data, (c) one ideological belief you would test.",
+     "a": "A strong design: (a) Indicators: occupation category (using National Classification of Occupations) and educational attainment (highest degree). (b) Survey 30 families, recording grandparents’, parents’, and respondents’ occupation/education; use a simple mobility table. (c) Test belief: “People get ahead solely through hard work” (Likert scale). A weak design that only compares current incomes misses the intergenerational and ideological dimensions of stratification.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Social inequality refers to the systematic, group-based unequal ______ of valued social resources (economic capital, cultural capital, social capital) among categories of people in a society, which is distinct from individual differences in ability or effort.",
+     "a": "distribution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two children in your ______: one attends a well-funded private school with extracurricular activities, while the other works at a tea stall to support their family.",
+     "a": "neighbourhood",
+     "self_check": true
+    },
+    {
+     "q": "What is Social inequality? State the definition given in this lesson.",
+     "a": "Social inequality refers to the systematic, group-based unequal distribution of valued social resources (economic capital, cultural capital, social capital) among categories of people in a society, which is distinct from individual differences in ability or effort.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish social inequality from individual inequality by identifying group-based patterns in resource distribution, (2) explain the three principles of social stratification (society-wide, intergenerational persistence, ideological legitimation) using Bourdieu’s three forms of capital, and (3) differentiate social.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two children in your neighbourhood: one attends a well-funded private school with ______ activities, while the other works at a tea stall to support their family.",
+     "a": "extracurricular",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

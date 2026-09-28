@@ -34,6 +34,36 @@
      "q": "Propose a novel combined protocol that uses meristem culture followed by a second technique to increase virus-free recovery rate for a recalcitrant crop where meristem culture alone gives <20% virus-free plants. Explain the rationale and potential drawbacks.",
      "a": "Combine meristem culture with thermotherapy: grow mother plants at 35–38°C for 3–4 weeks before meristem excision. Heat stress reduces virus titer in the meristem region, increasing the probability that a 0.3 mm tip is virus-free. Drawbacks: heat may reduce mother plant vigor, cause phenotypic changes, or induce somaclonal variation; also adds time and infrastructure. A good answer specifies temperature/duration, explains synergy, and acknowledges trade-offs. A weak answer suggests random combinations without mechanistic justification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Virus-free plant production via meristem culture is an in vitro technique where the apical or axillary meristem (typically <1 mm in size) is excised from a virus-infected plant and cultured on sterile nutrient medium to regenerate a complete plant that is free of systemic viruses, exploiting the fact that ______ cells often lack vascular connections through which viruses spread.",
+     "a": "meristematic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a banana farmer in Maharashtra whose entire plantation shows bunchy top disease caused by a virus — every sucker she plants carries the virus because bananas are propagated ______.",
+     "a": "vegetatively",
+     "self_check": true
+    },
+    {
+     "q": "What is Virus-free plant production via meristem culture? State the definition given in this lesson.",
+     "a": "Virus-free plant production via meristem culture is an in vitro technique where the apical or axillary meristem (typically <1 mm in size) is excised from a virus-infected plant and cultured on sterile nutrient medium to regenerate a complete plant that is free of systemic viruses, exploiting the fact that meristematic cells often lack.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Virus-free plant production via meristem culture is an in vitro technique where the apical or axillary meristem (typically <______ mm in size) is excised from a virus-infected plant and cultured on sterile nutrient medium to regenerate a complete plant that is free of systemic viruses, exploiting the fact that meristematic cells often lack vascular connections through which viruses spread.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Virus-free plant production via meristem culture?",
+     "a": "Students often think \"meristem culture\" means culturing the entire shoot tip (several mm long) and that any shoot tip will yield virus-free plants.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) explain why meristems are often virus-free and how meristem size affects regeneration success versus virus elimination efficiency, and (2) design a stepwise protocol for producing virus-free planting material of a vegetatively propagated crop (e.g., potato, banana) including explant selection, surface.",
+     "self_check": true
     }
    ]
   }

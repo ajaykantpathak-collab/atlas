@@ -34,6 +34,31 @@
      "q": "Design a small database schema (3 tables) for a hospital system where: patients are assigned to a ward; each ward has a supervising doctor; a doctor can supervise multiple wards. Specify primary keys, foreign keys, and choose the most appropriate referential action for each foreign key when the referenced row is deleted. Justify each choice.",
      "a": "Table `DOCTOR(DocID PK, Name, Specialty)`  \nTable `WARD(WardID PK, WardName, DocID FK references DOCTOR(DocID) ON DELETE SET NULL)` — if a doctor leaves, the ward remains but becomes unsupervised.  \nTable `PATIENT(PatientID PK, Name, WardID FK references WARD(WardID) ON DELETE RESTRICT)` — a ward cannot be deleted while it still has patients; they must be discharged/transferred first.  \nA poor answer uses CASCADE for both, which would delete patients when a ward is deleted, or uses SET NULL for PATIENT.WardID, leaving patients without a ward assignment — both are clinically unsafe.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Referential integrity is a relational database constraint that ensures every non-null foreign key value in a referencing (child) table matches an existing primary key value in the referenced (parent) table, thereby guaranteeing that ______ between tables remain valid and consistent.",
+     "a": "relationships",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a school database with two tables: STUDENT(AdmNo, Name, Class) and LIBRARY_ISSUE(AdmNo, BookID, ______).",
+     "a": "IssueDate",
+     "self_check": true
+    },
+    {
+     "q": "What is Referential integrity? State the definition given in this lesson.",
+     "a": "Referential integrity is a relational database constraint that ensures every non-null foreign key value in a referencing (child) table matches an existing primary key value in the referenced (parent) table, thereby guaranteeing that relationships between tables remain valid and consistent.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Referential integrity?",
+     "a": "Students often believe that a foreign key column *must* be NOT NULL.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) define referential integrity using precise terminology (foreign key, primary key, parent/child tables), (2) explain the three referential actions (RESTRICT, CASCADE, SET NULL) with examples, and (3) identify whether a given set of INSERT/UPDATE/DELETE statements would violate referential integrity and.",
+     "self_check": true
     }
    ]
   }

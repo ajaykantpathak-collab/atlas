@@ -34,6 +34,21 @@
      "q": "Design a simple classroom activity using a marble, a curved track (like a bent ruler), and a force sensor (or spring balance) to demonstrate that a force perpendicular to motion changes direction but not speed. Outline the steps and what you would measure.",
      "a": "Good answer: (1) Launch marble at known speed v along straight track. (2) Let it enter curved section. (3) At a point on the curve, use spring balance to measure radial force F perpendicular to tangent. (4) Measure marble's speed after curve (e.g., using photogate or video analysis). (5) Show speed unchanged while direction turned. Poor answer (e.g., \"push marble and watch it turn\") reveals inability to isolate the perpendicular force component or measure speed independently of direction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A force can change the direction of motion of an object by altering its velocity vector without ______ changing its speed.",
+     "a": "necessarily",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a cricket bowler deliver a ball that curves in the air (swing) or a batsman hit a straight ball to the boundary at a sharp angle — both show force changing ______.",
+     "a": "direction",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify real-world situations where a force changes an object's direction while its speed remains constant, explain why a force perpendicular to velocity changes only direction, and predict the new direction of motion after a force is applied at an angle to the initial velocity.",
+     "self_check": true
     }
    ]
   }

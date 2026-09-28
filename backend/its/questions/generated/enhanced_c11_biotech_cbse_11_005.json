@@ -34,6 +34,26 @@
      "q": "Design a mini-project workflow in R to analyze a publicly available RNA-seq dataset (e.g., from GEO) to identify differentially expressed genes between two conditions. Outline the steps, key R packages (from Bioconductor), and the statistical rationale for each step.",
      "a": "A good answer includes: 1) Download data with `GEOquery`; 2) Preprocess with `DESeq2` (normalization, dispersion estimation); 3) Differential expression with negative binomial GLM; 4) Multiple testing correction (Benjamini-Hochberg); 5) Visualization (MA plot, volcano plot, heatmap). Rationale: RNA-seq counts are over-dispersed, requiring negative binomial model; FDR control essential for thousands of tests. A poor answer lists generic steps without Bioconductor packages or statistical justification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: R is a free, open-source programming language and environment specifically designed for statistical computing and graphics, widely used in biology for high-throughput data analysis, visualization, and simulation of genomic, ______, and biomolecular pathway data.",
+     "a": "transcriptomic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have gene ______ data from 20 cancer patients and 20 healthy controls.",
+     "a": "expression",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Finally, create a boxplot with ggplot______ to visualize the difference.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write R code to import a biological dataset (e.g., CSV of gene expression), compute descriptive statistics (mean, median, standard deviation), perform a t-test to compare two groups, and generate a boxplot to visualize the difference.",
+     "self_check": true
     }
    ]
   }

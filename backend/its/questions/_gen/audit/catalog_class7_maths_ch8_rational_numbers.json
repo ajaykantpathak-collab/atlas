@@ -44,9 +44,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "prod = 6 * 1 / 7"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c7m8.3.1",
@@ -91,11 +89,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "num = 4 * 8 + 6 * 5",
-    "den = 5 * 8",
-    "val = num / den"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c7m8.3.2",
@@ -185,11 +179,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "num = 4 * 9 + 7 * 6",
-    "den = 6 * 9",
-    "val = num / den"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c7m8.5.1",
@@ -234,11 +224,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "num = 3 * 8 + 5 * 6",
-    "den = 6 * 8",
-    "val = num / den"
-   ]
+   "steps_chain": []
   },
   {
    "id": "c7m8.6.1",

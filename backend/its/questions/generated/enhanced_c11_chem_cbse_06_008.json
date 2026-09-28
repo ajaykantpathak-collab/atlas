@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using two gases (e.g., NO₂ and N₂O₄) to demonstrate that a spontaneous process increases the entropy of the universe. Describe what you would observe and how it relates to ΔS_univ > 0.",
      "a": "Place brown NO₂ gas in a sealed syringe at room temperature; it partially dimerizes to colourless N₂O₄ (2NO₂ ⇌ N₂O₄). Compress the syringe: colour fades (forward reaction, fewer gas moles). Release: colour darkens (reverse reaction, more gas moles). Both directions occur spontaneously depending on pressure, each increasing total entropy (system + surroundings) by dispersing energy/matter. A poor answer (e.g., only describing colour change without linking to entropy) reveals inability to connect macroscopic observation to the Second Law.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Entropy (S) is a ______ state function that quantifies the degree of disorder or randomness in a system; for a reversible process at constant temperature, the entropy change is defined as ΔS = q_rev/T, where q_rev is the heat absorbed reversibly and T is the absolute temperature.",
+     "a": "thermodynamic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real-world observation: when you open a bottle of perfume in a corner of a room, the fragrance spreads everywhere on its own — but it never ______ collects back into the bottle.",
+     "a": "spontaneously",
+     "self_check": true
+    },
+    {
+     "q": "What is Entropy (S)? State the definition given in this lesson.",
+     "a": "Entropy (S) is a thermodynamic state function that quantifies the degree of disorder or randomness in a system; for a reversible process at constant temperature, the entropy change is defined as ΔS = q_rev/T, where q_rev is the heat absorbed reversibly and T is the absolute temperature.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ask students: \"What drives this one-way spreading?\" Connect to prior concept of energy conservation (First Law, node ______) which cannot explain directionality.",
+     "a": "002",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Entropy (S)?",
+     "a": "Students often write ΔS = q/T for any process, forgetting that this formula is valid ONLY for reversible paths.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to calculate entropy change for phase transitions and temperature changes using ΔS = q_rev/T, determine spontaneity by evaluating ΔS_universe = ΔS_sys + ΔS_surr, and explain why entropy increases in irreversible processes like free expansion or mixing of gases.",
+     "self_check": true
     }
    ]
   }

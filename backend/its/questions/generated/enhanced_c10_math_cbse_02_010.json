@@ -34,6 +34,16 @@
      "q": "Construct a cubic polynomial with integer coefficients that has \\( x = -2 \\) as a zero and can be factorised completely into three linear factors with integer coefficients. Show the factorisation process using the division algorithm.",
      "a": "Example: \\( p(x) = x^3 + 3x^2 - 4x - 12 \\). Zero: \\( x = -2 \\Rightarrow (x + 2) \\) is a factor.\nDivide \\( x^3 + 3x^2 - 4x - 12 \\) by \\( (x + 2) \\):\nQuotient: \\( x^2 + x - 6 \\), Remainder: 0.\nFactorise quotient: \\( x^2 + x - 6 = (x + 3)(x - 2) \\).\nComplete factorisation: \\( (x + 2)(x + 3)(x - 2) \\).\nA poor answer might give a polynomial where the quotient does not factorise into linear factors with integer coefficients (e.g., irreducible quadratic), showing the student does not understand how to construct such polynomials or the requirement of \"complete factorisation into linear factors\".",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The quotient will be a quadratic ______, which you can then factorise by splitting the middle term or using the quadratic formula.",
+     "a": "polynomial",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can factorise a cubic or higher-degree polynomial by dividing it by a given linear factor (or a factor found using the Factor Theorem), obtain the quotient, and completely factorise the polynomial into irreducible factors over real numbers.",
+     "self_check": true
     }
    ]
   }

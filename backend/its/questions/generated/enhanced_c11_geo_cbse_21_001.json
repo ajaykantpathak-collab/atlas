@@ -34,6 +34,31 @@
      "q": "Design a multimodal transport corridor for transporting iron ore from Bellary (Karnataka) to a steel plant in Jamshedpur (Jharkhand). Specify the modes, transfer points, and justify each choice using cost, geography, and infrastructure constraints.",
      "a": "A good answer: (1) Road from mine to railhead (Bellary-Hospet, 20 km) – flexible for dispersed mines. (2) Rail (Hospet to Jamshedpur via Chennai-Howrah main line, ~1,600 km) – low cost for bulk, dedicated freight corridor potential. (3) Short road haul from Jamshedpur station to plant – last mile. Justification: Avoids coastal shipping (circuitous, double handling), avoids air (prohibitive cost), avoids pipeline (solids not feasible). Uses existing broad-gauge electrified route. Poor answer: suggests direct road transport (ignores 1,600 km cost), or inland waterway (no navigable river link), or misses transfer points.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Transport refers to the system of moving people, goods, and services from one location to another using various modes (road, rail, water, air, pipeline) over a network of ______; in the Indian context, it is the spatial circulatory system that integrates the country's diverse physiographic regions, economic zones, and human settlements, enabling resource flow, market access, and national integration.",
+     "a": "infrastructure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by observing a map of India's railway network (e.g., Survey of India ______ sheet or IR route map) and notice how lines cluster in the Northern Plains but avoid the Himalayan foothills and the Thar Desert.",
+     "a": "topographical",
+     "self_check": true
+    },
+    {
+     "q": "What is Transport? State the definition given in this lesson.",
+     "a": "Transport refers to the system of moving people, goods, and services from one location to another using various modes (road, rail, water, air, pipeline) over a network of infrastructure; in the Indian context, it is the spatial circulatory system that integrates the country's diverse physiographic regions, economic zones, and human.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Transport?",
+     "a": "Students think 'transport' and 'communication' are interchangeable or that communication (internet, mobile) replaces physical transport.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how India's physical geography (relief, drainage, climate) determines the suitability and distribution of each transport mode, and can evaluate why a specific mode dominates a given region (e.g., railways in the Northern Plains vs. airways in the Northeast) using quantitative indicators like network density.",
+     "self_check": true
     }
    ]
   }

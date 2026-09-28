@@ -34,6 +34,31 @@
      "q": "Design a decision flowchart (text description) that a dry cleaner would use to choose between perc, hydrocarbon, silicone (D5), and liquid CO₂ for an unknown garment with mixed fibre content and unknown stains. Include at least four decision nodes.",
      "a": "A good flowchart: Node 1 — Check care label: if \"P\" (perc allowed) → consider perc; if \"F\" (hydrocarbon only) → hydrocarbon/D5/CO₂; if \"W\" (wet clean) → exit dry cleaning. Node 2 — Fibre analysis: acetate/triacetate → avoid perc (can dissolve); spandex/elastane → avoid perc (degrades polyurethane); beaded/sequined → D5/CO₂ (gentle). Node 3 — Stain type: heavy oil/grease → perc/hydrocarbon; water-based stains (sweat, wine) → D5/CO₂ with pre-spotting. Node 4 — Environmental/local regulation: perc banned → hydrocarbon/D5/CO₂. A poor answer lists solvents without decision logic or ignores label symbols and fibre-specific contraindications.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Dry cleaning is a fabric cleaning process that uses non-aqueous organic solvents (primarily ______ or hydrocarbon-based solvents) instead of water to remove soils, oils, and stains from textiles, making it suitable for fabrics that shrink, distort, or lose colour in water-based laundering.",
+     "a": "perchloroethylene",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you own a pure silk saree with zari work and a ______ wool blazer — both have \"Dry Clean Only\" labels.",
+     "a": "structured",
+     "self_check": true
+    },
+    {
+     "q": "What is Dry cleaning? State the definition given in this lesson.",
+     "a": "Dry cleaning is a fabric cleaning process that uses non-aqueous organic solvents (primarily perchloroethylene or hydrocarbon-based solvents) instead of water to remove soils, oils, and stains from textiles, making it suitable for fabrics that shrink, distort, or lose colour in water-based laundering.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Dry cleaning?",
+     "a": "Students believe \"dry cleaning\" means the garment stays completely dry throughout the process.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) identify the correct solvent and process parameters for a given fabric type based on fibre content, construction, and finish, and (2) explain why specific fabrics require dry cleaning instead of wet laundering with reference to fibre properties and solvent action.",
+     "self_check": true
     }
    ]
   }

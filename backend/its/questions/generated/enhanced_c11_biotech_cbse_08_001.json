@@ -34,6 +34,21 @@
      "q": "Design a hypothetical human chromosome that would be classified as metacentric by centromere index but would likely be misidentified as submetacentric on a routine G-banded karyotype. Justify your design with specific banding pattern features.",
      "a": "Design: Total length 8 µm, p-arm 4 µm, q-arm 4 µm (CI = 50% → metacentric). Insert a large heterochromatic block (C-band positive, G-band dark) spanning 3 µm of the q-arm near the centromere, while the p-arm remains entirely euchromatic (G-band light). On G-banding, the dense dark region on q makes it appear \"shorter\" visually, mimicking a submetacentric CI ~35%. Justification: G-banding stains AT-rich heterochromatin dark; visual arm-length estimation by eye (common in rapid screening) is biased by staining intensity, not physical length. A poor answer lacking specific banding terminology (C-band, G-band, heterochromatin) reveals the student cannot integrate cytogenetic staining principles with morphology classification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A chromosome is a condensed, thread-like structure of DNA and histone proteins that becomes visible during cell division; its functional architecture comprises a constricted centromere (primary constriction where sister chromatids attach and spindle fibres bind via kinetochores), protective telomeres (repetitive TTAGGG DNA sequences at terminal ends preventing degradation and fusion), and arms (p = short, q = long) whose relative lengths determine chromosome morphology: metacentric (centromere median, arms equal), ______ (centromere sub-median, arms unequal), acrocentric (centromere sub-terminal, one very short arm), and telocentric (centromere terminal, single arm).",
+     "a": "submetacentric",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ handed a Giemsa-stained metaphase spread from a prenatal amniocentesis sample — your first task is to recognise each chromosome by its \"shape signature\" before you even count them.",
+     "a": "cytogeneticist",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) label centromere, telomeres, p-arm, q-arm on an unlabelled metaphase chromosome diagram and (2) classify any given human chromosome (1–22, X, Y) into metacentric, submetacentric, or acrocentric type using centromere index (CI = short arm length / total length × 100) thresholds: CI ≈ 50 → metacentric; 25–37 →.",
+     "self_check": true
     }
    ]
   }

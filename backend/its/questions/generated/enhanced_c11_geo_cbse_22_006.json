@@ -34,6 +34,21 @@
      "q": "Design a step-by-step procedure for a surveyor to convert a GPS reading (WGS84 datum, Decimal Degrees: 19.0760° N, 72.8777° E) into a 6-figure grid reference on a Survey of India 1:50,000 topographic sheet (Everest datum, Polyconic projection) for a site in Mumbai. Identify the critical transformation step.",
      "a": "Procedure:\n1. Convert DD to DMS: 19°04'33.6\"N, 72°52'39.7\"E.\n2. **Critical Step**: Apply datum transformation (WGS84 → Everest 1830) using 7-parameter Helmert transformation (ΔX, ΔY, ΔZ, rotations, scale) — this shifts coordinates by ~200-300 m in India.\n3. Project transformed geographic coordinates to Polyconic projection (map's projection) to get plane coordinates (meters from false origin).\n4. Identify the 1 km grid square (eastings/northings) containing the point.\n5. Subdivide square into 100 m × 100 m grid; read tenths for 6-figure GR.\nA poor answer skips Step 2 (datum shift), causing a systematic error of ~200 m — enough to place the point in the wrong grid square. This reveals ignorance of geodetic datums, a senior-secondary gap.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A coordinate system is a ______ framework that uses angular measurements (latitude and longitude) or planar grid references (eastings and northings) to uniquely identify the absolute location of any point on the Earth's surface or a map.",
+     "a": "standardized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are planning a trek in the Western Ghats using a Survey of India 1:50,000 ______ sheet.",
+     "a": "topographic",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) determine the latitude and longitude of any point on a topographic map to the nearest minute, (2) convert between Degrees-Minutes-Seconds (DMS) and Decimal Degrees (DD) formats, (3) calculate local time and time zone differences using longitudinal separation, and (4) accurately read and plot 4-figure and 6-figure.",
+     "self_check": true
     }
    ]
   }

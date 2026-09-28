@@ -34,6 +34,31 @@
      "q": "Design a decision framework (flowchart or checklist with 5-6 criteria) that a CFO should use to decide between equity shares and debentures for a ₹200 crore modernization project. Your framework must incorporate: EBIT stability, existing debt-equity ratio, tax rate, control concerns, project gestation period, and market conditions.",
      "a": "A strong framework:\n1. Is EBIT stable and growing? → Yes → Favors Debentures (tax shield, leverage)\n2. Is current D/E > 2:1? → Yes → Favors Equity (avoid over-leverage)\n3. Is tax rate high (≥30%)? → Yes → Favors Debentures (interest deductibility)\n4. Do promoters want to retain >51% control? → Yes → Favors Debentures (no voting dilution)\n5. Project gestation > 5 years? → Yes → Favors Equity (no repayment pressure during gestation)\n6. Is stock market bullish / P/E high? → Yes → Favors Equity (low cost of issue)\nDecision: Score each; if Debentures score ≥4, choose debentures; else equity. A poor answer listing criteria without decision logic or ignoring trade-offs (e.g., gestation vs repayment) shows inability to synthesize concepts into actionable tool.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Equity shares represent the ownership capital of a company, where each share signifies a unit of ownership with voting rights and residual claim on profits and assets after all other obligations are met; equity ______ bear the ultimate risk of business and are entitled to fluctuating dividends based on company earnings.",
+     "a": "shareholders",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are advising a successful family-owned restaurant chain (like the one in the NCERT case study) that wants to expand ______ but the owners fear losing control.",
+     "a": "nationally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"If the owners issue equity shares to raise ₹______ crore, what exactly are they giving up, and what do they gain permanently?\" Guide students to identify that equity shares mean selling ownership slices — the new shareholders get voting rights and residual profits, but the company never has to repay the principal.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to evaluate a given business scenario and justify whether equity share issuance is the appropriate source of finance by weighing at least three merits against three limitations, while explaining the impact on control, cost of capital, and risk profile using precise terminology (residual ownership, voting rights.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are advising a ______ family-owned restaurant chain (like the one in the NCERT case study) that wants to expand nationally but the owners fear losing control.",
+     "a": "successful",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_14_001",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_14_001",
+   "title": "c12_leg_cbse_14_001",
+   "questions": [
+    {
+     "q": "List the eight categories of persons entitled to free legal services under Section 12 of the Legal Services Authorities Act, 1987.",
+     "a": "The eight categories under Section 12 are: (a) Member of Scheduled Caste or Scheduled Tribe; (b) Victim of trafficking in human beings or begar (Art. 23); (c) Woman or child; (d) Person with disability (as per PwD Act, 1995); (e) Victim of mass disaster, ethnic violence, caste atrocity, flood, drought, earthquake, or industrial disaster; (f) Industrial workman; (g) Person in custody (protective home, juvenile home, psychiatric hospital/nursing home); (h) Person with annual income below ₹9,000 (for courts other than SC) or ₹12,000 (for Supreme Court) — amounts prescribable higher by State/Central Govt. A wrong answer (e.g., missing \"industrial workman\" or confusing income ceilings) reveals the student is memorizing a list without understanding the **social vulnerability logic** behind each category — e.g., why \"industrial workman\" is separate from general income criteria (power imbalance in employer-employee disputes).",
+     "self_check": true
+    },
+    {
+     "q": "A senior citizen (age 68) with an annual pension income of ₹1.5 lakh applies for free legal aid in a property dispute at the District Court in Delhi. The DLSA rejects the application citing income above the ₹9,000 ceiling. Is the rejection correct? Explain using the Act and Delhi Rules.",
+     "a": "The rejection is **incorrect**. Section 12(h) sets a *baseline* ceiling (₹9,000/₹12,000) but explicitly allows State Governments to prescribe **higher amounts**. Delhi’s rules (under the Delhi Legal Services Authority) extend free legal aid to **all senior citizens (60+)** subject to a higher income ceiling (currently ₹3 lakh/annum in many states). The student who says \"rejection is correct\" has missed the **proviso in Section 12(h)** (\"such other higher amount as may be prescribed by the State Government\") and the **state-specific rules** — a classic error of treating the Central Act as exhaustive without checking subordinate legislation. This tests *understanding* of federal flexibility in legal aid thresholds.",
+     "self_check": true
+    },
+    {
+     "q": "A dispute arises between a consumer and an electricity distribution company (a public utility service) over inflated bills. The consumer approaches the Permanent Lok Adalat (PLA). The company refuses to participate, claiming the PLA has no jurisdiction because the matter involves a \"contractual dispute\" excluded under NHRC guidelines. Decide the jurisdiction of PLA and the enforceability of its award.",
+     "a": "The **Permanent Lok Adalat has jurisdiction**. Under the Legal Services Authorities (Amendment) Act, 2002, \"public utility service\" explicitly includes \"supply of power, light or water to the public by any establishment\" [Sec. 22-A(iii)]. The PLA’s jurisdiction is **not ousted by contractual nature** — it is designed precisely for pre-litigation settlement of such disputes. If parties fail to settle, the PLA **decides on merit** (Sec. 22-C(3)), guided by natural justice, **not bound by CPC or Evidence Act**. Its award is **final and deemed a civil court decree** (Sec. 22-C(5)), executable as such. A wrong answer (e.g., \"PLA has no jurisdiction\" or \"award is appealable\") reveals confusion between **regular Lok Adalat** (conciliatory, no adjudicatory power if no settlement) and **Permanent Lok Adalat** (adjudicatory, binding award even without consent) — a critical distinction for competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the composition and functional mandate of NALSA (National Legal Services Authority) with that of a State Legal Services Authority (SLSA). Why is the \"Chairman\" of NALSA the Chief Justice of India, while the SLSA Chairman is the Chief Justice of the High Court?",
+     "a": "**NALSA**: Constituted under Sec. 3, LSA Act. **Patron-in-Chief**: Chief Justice of India. **Executive Chairman**: A sitting/retired SC Judge nominated by CJI. **Members**: Nominated by Central Govt. in consultation with CJI. **Mandate**: Lay national policies, monitor implementation, disburse funds, frame regulations (e.g., NALSA Regulations 2010), organize national legal awareness. **SLSA**: Constituted under Sec. 6. **Patron-in-Chief**: Chief Justice of High Court. **Executive Chairman**: Sitting/retired HC Judge nominated by HC CJ. **Members**: Nominated by State Govt. in consultation with HC CJ. **Mandate**: Implement NALSA policies at state level, run DLSAs/TLSCs, organize Lok Adalats, manage panel lawyers. The **CJI/HC CJ as Patron-in-Chief** ensures **judicial oversight and independence** — legal aid is a judicial function (access to courts), not executive charity. This mirrors the **judiciary’s constitutional role as guardian of Art. 21/39A**. A student who says \"CJI heads NALSA because it’s a national body\" misses the **constitutional principle**: legal aid is part of the *judicial* architecture, so the highest judicial officer at each level anchors it.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The NALSA Regulations, 2010 mandate that panel lawyers must have 3+ years' experience and cannot charge fees from aided persons. However, the honorarium paid by the State is often delayed and far below market rates. Does this compromise the 'competent legal services' guaranteed under the Act?\"",
+     "a": "**Yes, it structurally compromises competence.** The Regulations (Sec. 8) require **periodic revision of honorarium** per State rules, but in practice, delays of 12–18 months and rates at 10–20% of market fees (e.g., ₹1,500/day vs. ₹10,000+/day for private briefs) deter experienced lawyers from joining panels. Result: **junior/less competent lawyers** dominate panels, affecting quality of representation — violating the Act’s Preamble promise of \"free **and competent** legal services.\" The Supreme Court in *State of Maharashtra v. Manubhai Pragaji Vashi* (1995) held that \"competence\" includes **effective representation**, not just formal appointment. A student who says \"no compromise, lawyers have a duty\" ignores the **economic reality** and the **State’s obligation under Art. 39A** to make the system workable — a common \"idealism trap\" in board answers.",
+     "self_check": true
+    },
+    {
+     "q": "Design a **Pre-Litigation Legal Services Camp** for migrant construction workers in a metro city. Specify: (a) 3 legal awareness topics tailored to their vulnerabilities, (b) 2 pre-litigation services offered on-site, (c) 1 mechanism to convert camp contacts into formal legal aid applications, and (d) 1 metric to evaluate the camp’s impact after 6 months.",
+     "a": "**Sample Answer**: (a) Topics: (1) **Wage theft & Minimum Wages Act** — unpaid overtime, delayed salaries; (2) **Workplace injury & ESI Act/Workmen’s Compensation** — no paperwork, contractor denies liability; (3) **Housing/eviction rights** — informal settlements, demolition drives. (b) On-site services: (1) **Legal advice desk** with panel lawyer + paralegal volunteer for spot drafting of demand notices; (2) **Mediation booth** for immediate contractor-worker dispute resolution (e.g., unpaid wages). (c) Conversion mechanism: **QR-coded \"Legal Aid Request Card\"** — worker scans, fills 3-field form (name, issue, contact) → auto-forwards to DLSA for Section 12 eligibility check + panel lawyer assignment within 48 hrs. (d) Impact metric: **% of camp attendees who secured a enforceable outcome (court order/Lok Adalat award/settlement) within 6 months** — not just \"applications filed.\" A poor answer lists generic topics (\"fundamental rights\") or measures \"number of pamphlets distributed\" — showing **lack of field-level understanding** of legal services as *outcome-oriented*, not activity-oriented.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

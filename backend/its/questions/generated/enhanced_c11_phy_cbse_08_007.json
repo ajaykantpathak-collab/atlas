@@ -34,6 +34,31 @@
      "q": "Design a simple classroom demonstration to qualitatively show that a stretched wire contracts laterally. Use only common laboratory equipment (no strain gauges or optical levers). Describe the setup, what students would observe, and how you would estimate Poisson's ratio approximately from the observation.",
      "a": "Setup: Suspend a long thin copper wire (2-3 m, ~0.5 mm diameter) vertically from a rigid support. Attach a small mirror to the wire's midpoint using wax. Direct a laser pointer at the mirror so the reflected beam hits a distant wall (3-4 m away). Add masses incrementally to stretch the wire. As the wire elongates, it contracts laterally, causing the wire to twist slightly (due to asymmetric clamping or inherent torsion), rotating the mirror and deflecting the laser spot on the wall.\nObservation: The laser spot moves horizontally as masses are added. The horizontal deflection is amplified by the long lever arm (wall distance).\nEstimation: Calibrate by measuring mirror rotation per unit lateral strain using a known twist. Alternatively, use two parallel wires with a pointer bridging them — lateral contraction brings wires closer, moving the pointer. A good answer shows understanding of amplification techniques for small displacements. A poor answer suggests measuring diameter directly with calipers under load, ignoring that the wire is under tension and calipers would affect the measurement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Poisson's ratio (σ) is the ratio of lateral strain (fractional change in diameter ______ to applied force) to longitudinal strain (fractional change in length parallel to applied force) within the elastic limit of a material.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a rubber band being ______ between your fingers — as it gets longer, it visibly becomes thinner.",
+     "a": "stretched",
+     "self_check": true
+    },
+    {
+     "q": "What is Poisson's ratio (σ)? State the definition given in this lesson.",
+     "a": "Poisson's ratio (σ) is the ratio of lateral strain (fractional change in diameter perpendicular to applied force) to longitudinal strain (fractional change in length parallel to applied force) within the elastic limit of a material.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Poisson's ratio (σ)?",
+     "a": "Students believe Poisson's ratio describes the ratio of \"width change to length change\" in absolute terms (Δd/ΔL) rather than the ratio of strains (Δd/d)/(ΔL/L).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate Poisson's ratio from given dimensional changes in a stretched wire, predict the lateral contraction for a given longitudinal extension using the ratio, and explain why the ratio is dimensionless and always positive for stable materials.",
+     "self_check": true
     }
    ]
   }

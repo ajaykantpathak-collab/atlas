@@ -1,0 +1,46 @@
+{
+ "catalog": "enhanced_c6_gram_cbse_83_001",
+ "concepts": [
+  {
+   "id": "enh:c6_gram_cbse_83_001",
+   "title": "c6_gram_cbse_83_001",
+   "questions": [
+    {
+     "q": "'___ umbrella' and '___ European country' — pick a or an for each.",
+     "a": "'an umbrella' (vowel sound) and 'a European country' (yoo- consonant sound). A wrong answer 'a umbrella'/'an European' shows the student is matching letters, not sounds.",
+     "self_check": true
+    },
+    {
+     "q": "'I saw ___ elephant. ___ elephant was drinking water.'",
+     "a": "a, then The — first mention introduces with 'a'; second points back with 'the'. A wrong answer 'a' twice shows the student doesn't track shared knowledge across sentences.",
+     "self_check": true
+    },
+    {
+     "q": "Fix: 'The honesty is the best policy.'",
+     "a": "'Honesty is the best policy' — abstract/general nouns take no 'the' when meaning the whole idea. A wrong answer keeping 'the' shows over-specification.",
+     "self_check": true
+    },
+    {
+     "q": "'a' and 'an' introduce something new and ______; 'the' points at something specific that both people know.",
+     "a": "non-specific",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: 'a' and 'an' ______ something new and non-specific; 'the' points at something specific that both people know.",
+     "a": "introduce",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ broke.' First mention = a (new to the story), every mention after = the (we know which one).",
+     "a": "branch",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student chooses a/an/the by the shared-knowledge test, picks a vs an by pronunciation not spelling, and explains first-mention-a versus second-mention-the.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

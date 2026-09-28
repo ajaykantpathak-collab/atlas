@@ -34,6 +34,31 @@
      "q": "Design a transaction scenario where a student must decide between Purchase Book, Sales Book, Cash Book, and Journal Proper for four different but related transactions involving the same supplier/customer. Provide the transactions and the correct classification for each.",
      "a": "Example: (1) Bought goods on credit from X - Purchase Book. (2) Paid X by cheque - Cash Book (bank column). (3) Returned defective goods to X - Purchase Return Book. (4) Bought machinery on credit from X - Journal Proper. Good answer shows clear decision logic for each. Poor answer reveals confusion between books of original entry, especially misclassifying (3) or (4).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Purchase Book is a subsidiary book used exclusively to record all credit purchases of goods (______ meant for resale), while the Sales Book is a subsidiary book used exclusively to record all credit sales of goods.",
+     "a": "merchandise",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a stationery shop and a school orders 500 notebooks on credit - you don't ______ cash immediately, but you've sold goods.",
+     "a": "receive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a stationery shop and a school orders ______ notebooks on credit - you don't receive cash immediately, but you've sold goods.",
+     "a": "500",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently identify whether a given transaction belongs in the Purchase Book, Sales Book, Cash Book, or Journal Proper, correctly calculate the net amount after trade discount, prepare the books with proper columns (Date, Invoice No., Party Name, L.F., Amount), and post individual entries to.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a stationery shop and a school orders 500 notebooks on credit - you don't receive cash ______, but you've sold goods.",
+     "a": "immediately",
+     "self_check": true
     }
    ]
   }

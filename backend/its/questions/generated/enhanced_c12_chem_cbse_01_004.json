@@ -34,6 +34,36 @@
      "q": "Design a procedure to prepare 500 mL of 0.1 N oxalic acid (H₂C₂O₄·2H₂O) solution using a 0.1 M oxalic acid stock solution. Explain why normality and molarity differ for this compound.",
      "a": "Oxalic acid dihydrate molar mass = 126 g/mol. n-factor = 2 (2 H⁺). 0.1 M stock = 0.2 N. Use N₁V₁ = N₂V₂: 0.2 × V₁ = 0.1 × 500 → V₁ = 250 mL. Take 250 mL stock, dilute to 500 mL. Normality = 2 × Molarity because each mole provides 2 equivalents. A poor answer would miss the dihydrate mass, use n=1, or not explain the dilution principle. This tests if the student can translate between M and N in a practical prep scenario.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Molality (m) is the amount of solute in moles per kilogram of solvent, making it ______-independent unlike molarity.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bottle of ______ hydrochloric acid in the lab — it reads \"37% w/w, density 1.19 g/mL, ~12 N\".",
+     "a": "concentrated",
+     "self_check": true
+    },
+    {
+     "q": "What is Molality (m)? State the definition given in this lesson.",
+     "a": "Molality (m) is the amount of solute in moles per kilogram of solvent, making it temperature-independent unlike molarity.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Work through converting ______% HCl to molality and normality step by step.",
+     "a": "37",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Molality (m)?",
+     "a": "Students treat normality as a fixed property of a substance (e.g., \"H₂SO₄ is 2 N\") rather than a concentration that depends on both molarity AND the reaction context.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate molality and normality from given mass/volume data, convert between concentration units (molality ↔ molarity ↔ mole fraction) using density, determine equivalent weights for acids, bases, and redox agents, and solve titration problems using normality equations (N₁V₁ = N₂V₂).",
+     "self_check": true
     }
    ]
   }

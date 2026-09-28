@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_05_003",
+   "title": "c11_leg_cbse_05_003",
+   "questions": [
+    {
+     "q": "State the two Latin maxims that form the foundation of Principles of Natural Justice and their literal English translations.",
+     "a": "The two maxims are: (1) *Nemo judex in causa sua* — \"No one should be a judge in their own cause\" (Rule Against Bias); (2) *Audi alteram partem* — \"Hear the other side\" (Rule of Fair Hearing). A wrong answer (e.g., confusing *res judicata* or *stare decisis* with natural justice) reveals the student is memorizing legal Latin without understanding the procedural fairness framework — they cannot distinguish substantive legal doctrines from procedural safeguards.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Supreme Court in *Maneka Gandhi v. Union of India* (1978) developed the concept of \"post-decisional hearing\" instead of striking down Section 10(3)(c) of the Passports Act entirely.",
+     "a": "The Court balanced administrative efficiency (impounding passports swiftly for national security) with procedural fairness (Article 21 requires fair, just, reasonable procedure). Striking down the provision would paralyze the Passport Authority; post-decisional hearing allows immediate action *followed* by a hearing within a reasonable time. A wrong answer (e.g., \"the Court wanted to avoid judicial activism\") shows the student misses the core of administrative law: *harmonizing* state power and individual rights, not merely limiting power.",
+     "self_check": true
+    },
+    {
+     "q": "A Municipal Corporation demolishes a street vendor's cart without notice, citing a \"clean city drive\" policy not published in the Gazette. The vendor challenges this. Identify the type of administrative action, the violated principle, and the landmark case that supports the vendor.",
+     "a": "Action: Administrative (executive) action affecting property rights. Violated principle: *Audi alteram partem* (no notice/hearing) + Delegated legislation not published (violates *Harbans Lal v. Custodian*). Landmark case: *Maneka Gandhi* (fair procedure under Art. 21) and *State of Maharashtra v. Balsara* (delegated legislation must be published). A wrong answer treating this as \"quasi-judicial\" reveals confusion between administrative discretion and adjudicatory functions — a critical distinction for remedy selection (certiorari vs. mandamus).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"Wednesbury Unreasonableness\" test (*Associated Provincial Picture Houses v. Wednesbury Corp.*) with the \"Proportionality\" test (*Om Kumar v. Union of India*). In what type of cases did the Indian Supreme Court shift from the former to the latter?",
+     "a": "Wednesbury: Decision is so unreasonable that no reasonable authority could have made it (high threshold, deferential). Proportionality: Measure must be suitable, necessary, and balanced (stricter scrutiny). Shift occurred in cases affecting **fundamental rights** (especially Art. 14, 19, 21) and **legitimate expectations** — e.g., *Om Kumar* (disciplinary penalties), *Karnataka Industrial Areas Development Board v. C. Kenchappa* (allotment of land). A wrong answer claiming \"proportionality replaced Wednesbury in all cases\" shows failure to grasp that Wednesbury still applies to pure policy/administrative discretion *not* touching fundamental rights.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The doctrine of *Legitimate Expectation* allows a citizen to claim a substantive benefit (like a job or license) solely because a public authority made a vague oral assurance at a public meeting.\"",
+     "a": "The statement is **incorrect**. *Legitimate Expectation* (from *Council of Civil Service Unions v. Minister for Civil Service* and *Food Corp. of India v. Kamdhenu Cattle Feed*) requires: (a) a clear, unambiguous representation by an authorized officer; (b) reliance by the citizen; (c) no overriding public interest. Vague oral assurances at public meetings lack specificity and authority — they create *hope*, not *legitimate expectation*. A wrong answer accepting the statement reveals the student conflates \"expectation\" (subjective hope) with \"legitimate expectation\" (legal doctrine with strict thresholds).",
+     "self_check": true
+    },
+    {
+     "q": "Draft a 150-word legal argument for a writ petition under Article 226 challenging a University's sudden cancellation of a PhD scholar's registration *after* 3 years, without notice or hearing, based on a newly amended ordinance not placed before the Academic Council. Cite two landmark cases.",
+     "a": "**Argument**: The cancellation is a *quasi-judicial* act affecting a vested right (registration) — *Audi alteram partem* applies (*Maneka Gandhi*). The ordinance amendment lacks procedural legitimacy (not placed before Academic Council) — violates *Indian Express Newspapers v. Union of India* (delegated legislation must follow parent statute procedure). The scholar has a *legitimate expectation* of continuation (*Food Corp. of India*). The order is *arbitrary* (Art. 14) and *disproportionate* (*Om Kumar*). Relief: Quash order, restore registration, direct compliance with statutory amendment procedure. A poor answer cites cases irrelevantly (e.g., *Keshavananda Bharati* for basic structure) — shows inability to match remedy to administrative law grounds.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -10,15 +10,18 @@ Endpoints:
 
 from __future__ import annotations
 
+import asyncio
 import logging
+import re
 from typing import Any
 
 import urllib.request
 import urllib.error
+import urllib.parse
 import base64
 import json
 
-from fastapi import APIRouter, HTTPException, Query, status
+from fastapi import APIRouter, Depends, HTTPException, Query, status
 from pydantic import BaseModel
 
 logger = logging.getLogger(__name__)
@@ -26,9 +29,34 @@ router = APIRouter(prefix="/api/analytics", tags=["analytics"])
 
 import os
 
+from backend.deps import require_self_or_staff
+
 CLICKHOUSE_URL = os.environ.get("CLICKHOUSE_URL", "http://localhost:8123")
 CH_USER = os.environ.get("CLICKHOUSE_USER", "dream_user")
-CH_PASSWORD = os.environ.get("CLICKHOUSE_PASSWORD", "dream_ch_2024")
+#: No default. The previous default embedded a real credential in source AND
+#: in docker-compose, so an unset CLICKHOUSE_PASSWORD silently started both
+#: the server and this client on the same published password -- a fail-open
+#: "it works" instead of a loud auth failure. Empty here means auth fails and
+#: the query returns [] with a warning, which is the correct outcome.
+CH_PASSWORD = os.environ.get("CLICKHOUSE_PASSWORD", "")
+
+#: Student ids are UUIDs (backend/models/user.py uses GUID/uuid4). The
+#: ClickHouse HTTP interface takes the query as a URL string and has no
+#: bind-parameter channel, so the only honest defence is to refuse anything
+#: that is not shaped like an id before it reaches the f-string.
+_SAFE_ID = re.compile(r"^[A-Za-z0-9_-]{1,64}$")
+
+
+def _safe_id(value: str, label: str = "id") -> str:
+    """Reject anything not shaped like an identifier (SQL-injection guard)."""
+    text = str(value or "").strip()
+    if not _SAFE_ID.match(text):
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail=f"Invalid {label}",
+        )
+    return text
+
 
 
 def _ch_query(sql: str) -> list[dict[str, Any]]:
@@ -66,17 +94,39 @@ def _ch_query_json(sql: str) -> list[dict[str, Any]]:
         return []
 
 
-import urllib.parse
+# ── Async wrappers ───────────────────────────────────────────────────────────
+# urllib is synchronous: a call inside `async def` blocks the event loop for up
+# to its 10s timeout, so ONE slow ClickHouse response stalls EVERY other
+# in-flight request on that worker. The wrappers hand the blocking call to a
+# thread so the loop keeps running. The sync versions stay for sync callers.
+async def _ch_query_async(sql: str) -> list[dict[str, Any]]:
+    return await asyncio.to_thread(_ch_query, sql)
+
+
+async def _ch_query_json_async(sql: str) -> list[dict[str, Any]]:
+    return await asyncio.to_thread(_ch_query_json, sql)
+
+
+from backend.api.teacher import _require_staff
+
+
+
+def _ch_ping() -> str:
+    req = urllib.request.Request(f"{CLICKHOUSE_URL}/ping", method="GET")
+    with urllib.request.urlopen(req, timeout=5) as resp:
+        return resp.read().decode().strip()
 
 
 @router.get("/health", response_model=dict, summary="Check ClickHouse connectivity")
 async def analytics_health() -> dict:
-    """Check if ClickHouse is reachable and tables exist."""
+    """Check if ClickHouse is reachable and tables exist.
+
+    Left unauthenticated on purpose -- docker healthcheck / monitoring.
+    Reveals only table names, never student data.
+    """
     try:
-        req = urllib.request.Request(f"{CLICKHOUSE_URL}/ping", method="GET")
-        with urllib.request.urlopen(req, timeout=5) as resp:
-            ping = resp.read().decode().strip()
-        tables = _ch_query_json(
+        ping = await asyncio.to_thread(_ch_ping)
+        tables = await _ch_query_json_async(
             "SELECT name FROM system.tables WHERE database='dream_analytics'"
         )
         table_names = [t.get("name", "") for t in tables]
@@ -89,11 +139,20 @@ async def analytics_health() -> dict:
         return {"status": "error", "error": str(exc)}
 
 
+
 @router.get("/student/{student_id}/stats", response_model=dict,
             summary="Get student analytics summary")
-async def student_stats(student_id: str) -> dict:
-    """Get aggregate stats for a student from ClickHouse."""
-    rows = _ch_query_json(f"""
+async def student_stats(
+    student_id: str,
+    scoped_student_id: str = Depends(require_self_or_staff),
+) -> dict:
+    """Get aggregate stats for a student from ClickHouse.
+
+    B16: was fully unauthenticated -- any caller could read any student's
+    learning record by guessing an id. Now staff, or the student themselves.
+    """
+    sid = _safe_id(scoped_student_id, "student id")
+    rows = await _ch_query_json_async(f"""
         SELECT
             count() as total_events,
             countIf(event_type='question_answered') as questions_answered,
@@ -104,11 +163,11 @@ async def student_stats(student_id: str) -> dict:
             sumIf(max_marks, event_type='question_answered') as max_marks_possible,
             avgIf(time_spent_seconds, event_type='question_answered' AND time_spent_seconds > 0) as avg_time_seconds
         FROM dream_analytics.learning_events
-        WHERE user_id = '{student_id}'
+        WHERE user_id = '{sid}'
     """)
     if rows:
-        return {"student_id": student_id, "stats": rows[0]}
-    return {"student_id": student_id, "stats": {}, "message": "No events found."}
+        return {"student_id": sid, "stats": rows[0]}
+    return {"student_id": sid, "stats": {}, "message": "No events found."}
 
 
 @router.get("/student/{student_id}/timeline", response_model=list,
@@ -116,24 +175,34 @@ async def student_stats(student_id: str) -> dict:
 async def student_timeline(
     student_id: str,
     limit: int = Query(default=50, ge=1, le=500),
+    scoped_student_id: str = Depends(require_self_or_staff),
 ) -> list:
-    """Get recent learning events for a student."""
-    rows = _ch_query_json(f"""
+    """Get recent learning events for a student.
+
+    B16: see student_stats -- same unauthenticated exposure.
+    """
+    sid = _safe_id(scoped_student_id, "student id")
+    rows = await _ch_query_json_async(f"""
         SELECT event_id, event_type, timestamp, subject, question_id,
                is_correct, marks_awarded, time_spent_seconds, mastery_after
         FROM dream_analytics.learning_events
-        WHERE user_id = '{student_id}'
+        WHERE user_id = '{sid}'
         ORDER BY timestamp DESC
         LIMIT {limit}
     """)
+
     return rows
 
 
 @router.get("/subject/{subject}/summary", response_model=dict,
             summary="Get subject-level analytics")
-async def subject_summary(subject: str) -> dict:
-    """Get aggregate analytics for a subject."""
-    rows = _ch_query_json(f"""
+async def subject_summary(
+    subject: str,
+    user: Any = Depends(_require_staff),
+) -> dict:
+    """Get aggregate analytics for a subject (B16: staff-only, was anonymous)."""
+    subj = _safe_id(subject, "subject")
+    rows = await _ch_query_json_async(f"""
         SELECT
             count() as total_events,
             countIf(is_correct=1) as correct,
@@ -142,18 +211,21 @@ async def subject_summary(subject: str) -> dict:
             avg(time_spent_seconds) as avg_time,
             avg(mastery_after) as avg_mastery
         FROM dream_analytics.learning_events
-        WHERE subject = '{subject}' AND event_type = 'question_answered'
+        WHERE subject = '{subj}' AND event_type = 'question_answered'
     """)
     if rows:
-        return {"subject": subject, "summary": rows[0]}
-    return {"subject": subject, "summary": {}, "message": "No data for this subject."}
+        return {"subject": subj, "summary": rows[0]}
+    return {"subject": subj, "summary": {}, "message": "No data for this subject."}
 
 
 @router.post("/irt/sync", response_model=dict,
              summary="Run IRT feedback loop — sync difficulty params from ClickHouse to PostgreSQL")
-async def irt_sync() -> dict:
+async def irt_sync(user: Any = Depends(_require_staff)) -> dict:
     """Trigger the IRT feedback loop to update question difficulty/discrimination
     parameters based on empirical student response data from ClickHouse.
+
+    B16: this MUTATES question difficulty params for every student, so it must
+    not sit on an anonymous POST.
     """
     try:
         from services.irt_feedback_loop import IRTFeedbackLoop
@@ -173,7 +245,7 @@ async def irt_sync() -> dict:
 
 @router.get("/irt/report", response_model=dict,
             summary="Get IRT feedback loop report (preview without applying)")
-async def irt_report() -> dict:
+async def irt_report(user: Any = Depends(_require_staff)) -> dict:
     """Preview what the IRT feedback loop would sync — does NOT modify any data."""
     try:
         from services.irt_feedback_loop import IRTFeedbackLoop
@@ -181,6 +253,7 @@ async def irt_report() -> dict:
         return loop.get_sync_report()
     except Exception as exc:
         raise HTTPException(status.HTTP_500_INTERNAL_SERVER_ERROR, detail=str(exc))
+
 
 
 # ---------------------------------------------------------------------------
@@ -204,8 +277,11 @@ def _float(v: Any) -> float:
 
 
 @router.get("/events", response_model=dict, summary="Event counts by type")
-async def analytics_events(hours: int = Query(24, ge=1, le=24 * 30)) -> dict:
-    rows = _ch_query_json(
+async def analytics_events(
+    hours: int = Query(24, ge=1, le=24 * 30),
+    user: Any = Depends(_require_staff),
+) -> dict:
+    rows = await _ch_query_json_async(
         f"SELECT event_type, count() AS cnt FROM dream_analytics.learning_events "
         f"WHERE timestamp > now() - INTERVAL {int(hours)} HOUR "
         f"GROUP BY event_type ORDER BY cnt DESC"
@@ -215,8 +291,10 @@ async def analytics_events(hours: int = Query(24, ge=1, le=24 * 30)) -> dict:
 
 @router.get("/mastery-distribution", response_model=list,
             summary="Mastery buckets per subject and class")
-async def analytics_mastery_distribution() -> list:
-    rows = _ch_query_json(
+async def analytics_mastery_distribution(
+    user: Any = Depends(_require_staff),
+) -> list:
+    rows = await _ch_query_json_async(
         "SELECT subject, class_level,"
         " countIf(mastery_after < 0.4) AS low_mastery,"
         " countIf(mastery_after >= 0.4 AND mastery_after < 0.75) AS medium_mastery,"
@@ -241,8 +319,10 @@ async def analytics_mastery_distribution() -> list:
 
 @router.get("/difficulty-summary", response_model=list,
             summary="Question difficulty and pass-rate per subject and class")
-async def analytics_difficulty_summary() -> list:
-    rows = _ch_query_json(
+async def analytics_difficulty_summary(
+    user: Any = Depends(_require_staff),
+) -> list:
+    rows = await _ch_query_json_async(
         "SELECT subject, class_level,"
         " uniqExact(question_id) AS total_questions,"
         " countIf(difficulty_b != 0) AS questions_with_data,"
@@ -265,8 +345,11 @@ async def analytics_difficulty_summary() -> list:
 
 
 @router.get("/llm-costs", response_model=list, summary="LLM cost rows (days window)")
-async def analytics_llm_costs(days: int = Query(7, ge=1, le=365)) -> list:
-    rows = _ch_query_json(
+async def analytics_llm_costs(
+    days: int = Query(7, ge=1, le=365),
+    user: Any = Depends(_require_staff),
+) -> list:
+    rows = await _ch_query_json_async(
         f"SELECT call_type, model, count() AS total_calls,"
         f" sum(total_tokens) AS total_tokens, sum(cost_usd) AS total_cost,"
         f" avg(latency_ms) AS avg_latency, countIf(success = 0) AS total_errors"
@@ -287,8 +370,11 @@ async def analytics_llm_costs(days: int = Query(7, ge=1, le=365)) -> list:
 
 @router.get("/misconceptions", response_model=list,
             summary="Most-diagnosed misconceptions (days window)")
-async def analytics_misconceptions(days: int = Query(7, ge=1, le=365)) -> list:
-    rows = _ch_query_json(
+async def analytics_misconceptions(
+    days: int = Query(7, ge=1, le=365),
+    user: Any = Depends(_require_staff),
+) -> list:
+    rows = await _ch_query_json_async(
         f"SELECT subject, node_id, count() AS total_count,"
         f" uniqExact(user_id) AS unique_students"
         f" FROM dream_analytics.learning_events"
@@ -306,8 +392,11 @@ async def analytics_misconceptions(days: int = Query(7, ge=1, le=365)) -> list:
 
 @router.get("/socratic-stats", response_model=list,
             summary="Socratic interaction stats per PCR level (days window)")
-async def analytics_socratic_stats(days: int = Query(7, ge=1, le=365)) -> list:
-    rows = _ch_query_json(
+async def analytics_socratic_stats(
+    days: int = Query(7, ge=1, le=365),
+    user: Any = Depends(_require_staff),
+) -> list:
+    rows = await _ch_query_json_async(
         f"SELECT pcr_level, count() AS total_interactions,"
         f" avg(mastery_before) AS avg_before, avg(mastery_after) AS avg_after,"
         f" countIf(hint_level = 1) AS hint_1, countIf(hint_level = 2) AS hint_2,"
@@ -331,8 +420,10 @@ async def analytics_socratic_stats(days: int = Query(7, ge=1, le=365)) -> list:
 
 @router.get("/weekly-engagement", response_model=list,
             summary="Per-user weekly engagement rollup")
-async def analytics_weekly_engagement() -> list:
-    rows = _ch_query_json(
+async def analytics_weekly_engagement(
+    user: Any = Depends(_require_staff),
+) -> list:
+    rows = await _ch_query_json_async(
         "SELECT toMonday(timestamp) AS week_start, user_id,"
         " sum(time_spent_seconds) AS total_time,"
         " countIf(event_type = 'question_answered') AS questions_answered,"
@@ -363,7 +454,9 @@ async def analytics_weekly_engagement() -> list:
 
 @router.get("/overview", response_model=dict,
             summary="Everything the analytics dashboard home needs, in one call")
-async def analytics_overview() -> dict:
+async def analytics_overview(
+    user: Any = Depends(_require_staff),
+) -> dict:
     return {
         "event_counts_24h": await analytics_events(hours=24),
         "mastery_distribution": await analytics_mastery_distribution(),

@@ -34,6 +34,26 @@
      "q": "Design a multi-range ammeter using a single galvanometer (G = 60 Ω, Ig = 1 mA) that can measure 0–0.1 A, 0–1 A, and 0–10 A. Specify the shunt resistances needed and explain how the range selector switch should be wired to avoid damaging the galvanometer when switching ranges.",
      "a": "**Answer:**  \nShunt for 0.1 A: \\(r_{s1} = \\frac{0.001 \\times 60}{0.1 - 0.001} = \\frac{0.06}{0.099} \\approx 0.606 \\text{ Ω}\\)  \nShunt for 1 A: \\(r_{s2} = \\frac{0.001 \\times 60}{1 - 0.001} = \\frac{0.06}{0.999} \\approx 0.060 \\text{ Ω}\\)  \nShunt for 10 A: \\(r_{s3} = \\frac{0.001 \\times 60}{10 - 0.001} = \\frac{0.06}{9.999} \\approx 0.006 \\text{ Ω}\\)  \n\n**Switch wiring:** Use a *make-before-break* (shorting) selector switch. As the knob rotates, the next shunt connects *before* the previous one disconnects, so the galvanometer is never left without a shunt (which would expose it to full circuit current). The shunts are connected in parallel with the galvanometer, and the switch selects which shunt is active.  \n**Misconception revealed:** A student who suggests a simple break-before-make switch or series connection of shunts doesn't understand that an unshunted galvanometer in a live circuit will burn out instantly. The switch must maintain a shunt path at all times.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A moving coil ______ is converted into an ammeter by connecting a low resistance (shunt) in parallel to allow most current to bypass the coil, and into a voltmeter by connecting a high resistance in series to limit current through the coil.",
+     "a": "galvanometer",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a school laboratory ammeter and ______ — both have multiple range settings (e.g., 0-1 A, 0-3 A, 0-5 V, 0-15 V).",
+     "a": "voltmeter",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the required shunt or series resistance to convert a given galvanometer into an ammeter or voltmeter of specified range, and explain why the shunt must be low and the series resistance must be high in terms of circuit loading and measurement accuracy.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a school ______ ammeter and voltmeter — both have multiple range settings (e.g., 0-1 A, 0-3 A, 0-5 V, 0-15 V).",
+     "a": "laboratory",
+     "self_check": true
     }
    ]
   }

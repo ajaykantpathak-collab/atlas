@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_09_009",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_09_009",
+   "title": "c12_app_cbse_09_009",
+   "questions": [
+    {
+     "q": "Define \"face value\" and \"market value\" of a share. If a share with face value ₹10 is trading at ₹15, what term describes this and what does it imply about the company's perceived performance?",
+     "a": "Face value is the nominal value printed on the share certificate (₹10); market value is the current trading price in the stock exchange (₹15). The share is \"at premium\" (above par), implying the company is performing well and investors are willing to pay more than its nominal value. A wrong answer (e.g., saying dividend is paid on market value or confusing premium/discount) reveals the student doesn't grasp that face value is fixed while market value fluctuates, and that all income calculations use face value.",
+     "self_check": true
+    },
+    {
+     "q": "A company declares a 12% dividend. A student calculates income on 500 shares of face value ₹10 as 12% of (500 × market price ₹25) = ₹1,500. Is this correct? Explain why or why not.",
+     "a": "Incorrect. Dividend is always calculated on face value, not market value. Correct income = 12% of (500 × ₹10) = ₹600. The student's error reveals the most pervasive misconception: confusing the base for dividend calculation. Market price determines investment cost and yield %, but the rupee dividend amount depends solely on face value and dividend rate.",
+     "self_check": true
+    },
+    {
+     "q": "You buy 200 shares of face value ₹100 at a 10% premium, brokerage 0.5%. The company declares 15% dividend. Calculate: (a) total investment, (b) annual dividend income, (c) return on investment (yield %).",
+     "a": "(a) Market price = ₹100 + 10% = ₹110. Cost per share = ₹110 + 0.5% brokerage = ₹110.55. Total investment = 200 × ₹110.55 = ₹22,110. (b) Dividend = 15% of (200 × ₹100) = ₹3,000. (c) Yield = (3,000 ÷ 22,110) × 100 = 13.57%. A wrong answer typically misses brokerage in investment cost or uses market price for dividend, showing incomplete understanding of cash flows.",
+     "self_check": true
+    },
+    {
+     "q": "Compare: Investment A — 10% shares at ₹120 (face value ₹100, brokerage 1%). Investment B — 9% debentures at ₹95 (face value ₹100, brokerage 1%). Which has higher effective yield? By how many basis points?",
+     "a": "Investment A: Cost = ₹120 + 1% = ₹121.20. Income = 10% of ₹100 = ₹10. Yield = 10/121.20 = 8.251%. Investment B: Cost = ₹95 + 1% = ₹95.95. Income = 9% of ₹100 = ₹9. Yield = 9/95.95 = 9.380%. B is better by 112.9 basis points (0.9380 - 0.08251 = 0.1129). A wrong choice (picking A because 10% > 9%) reveals the student compares nominal rates instead of effective yields — the core trap in competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "\"Debenture holders are owners of the company and receive dividends.\" Evaluate this statement. If false, correct it and explain the legal distinction that protects debenture holders in case of company liquidation.",
+     "a": "False. Debenture holders are creditors, not owners. They receive fixed interest (not dividends) which is a charge on profits — payable even if the company incurs losses. In liquidation, debenture holders (secured creditors) are paid before shareholders. A student calling them \"owners\" or saying they get \"dividends\" confuses equity with debt — a fundamental category error that leads to wrong answers in case-study questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a case study: A investor has ₹2,00,000. Create two realistic investment options (one equity, one debt) with different face values, market prices, dividend/interest rates, and brokerage such that the option with the lower nominal rate gives higher effective yield. Show all calculations.",
+     "a": "Example: Option 1 (Equity): 12% shares, FV ₹10, MV ₹18, brokerage 0.5%. Option 2 (Debt): 10% debentures, FV ₹100, MV ₹92, brokerage 0.25%. Option 1: Cost = ₹18.09, Income = ₹1.20, Yield = 6.63%. Option 2: Cost = ₹92.23, Income = ₹10, Yield = 10.84%. Debt wins despite lower nominal rate (10% vs 12%). A good answer shows correct brokerage inclusion, face-value-based income, and yield comparison. A poor answer uses market value for income or ignores brokerage.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

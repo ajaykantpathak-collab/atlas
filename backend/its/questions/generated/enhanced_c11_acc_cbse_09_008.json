@@ -34,6 +34,36 @@
      "q": "Create a scenario where a partner introduces additional capital of ₹50,000 on 30th September and withdraws ₹20,000 on 1st October. Rate 12% p.a. Calculate both interests and show journal entries.",
      "a": "Good answer: Interest on Capital: Opening capital (assume ₹1,00,000) × 12% × 12/12 = ₹12,000. Additional capital ₹50,000 × 12% × 6/12 = ₹3,000. Total = ₹15,000. Journal: Interest on Capital A/c Dr. 15,000 To Capital A/c 15,000. Interest on Drawings: ₹20,000 × 12% × 6/12 = ₹1,200 (Oct to Mar = 6 months). Journal: Capital A/c Dr. 1,200 To Interest on Drawings A/c 1,200. A poor answer calculates interest on additional capital for 12 months (₹6,000) or on drawings for 12 months (₹2,400), revealing failure to compute exact months outstanding. Another error: netting the two interests and passing one entry, violating double entry for separate transactions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Interest on Capital is an ______ of profit calculated at an agreed rate on the proprietor's/partners' capital employed in the business, treated as an expense in Profit & Loss Account and added to Capital in Balance Sheet.",
+     "a": "appropriation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you invest ₹5,00,000 in your friend's startup on April 1, and another ₹1,00,000 on October 1.",
+     "a": "Imagine",
+     "self_check": true
+    },
+    {
+     "q": "What is Interest on Capital? State the definition given in this lesson.",
+     "a": "Interest on Capital is an appropriation of profit calculated at an agreed rate on the proprietor's/partners' capital employed in the business, treated as an expense in Profit & Loss Account and added to Capital in Balance Sheet.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: At year-end, your friend says \"I'll pay you ______% interest on your investment.\" How much interest do you get?",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Interest on Capital?",
+     "a": "Students believe Interest on Capital and Interest on Drawings are \"opposite entries\" that can be netted off — e.g., if Interest on Capital ₹15,000 and Interest on Drawings ₹5,000, they pass one entry: Interest on Capital A/c Dr. ₹10,000 To Capital A/c ₹10,000.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must independently calculate interest on capital (including additional capital introduced during the year) and interest on drawings (using average period method or product method), pass correct journal entries, and show proper treatment in Trading & Profit and Loss Account and Balance Sheet without referring to notes.",
+     "self_check": true
     }
    ]
   }

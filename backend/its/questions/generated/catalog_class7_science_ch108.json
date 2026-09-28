@@ -4,103 +4,93 @@
   {
    "id": "gesc.108.1",
    "title": "Asexual Reproduction",
-   "solution_type": "verify_property",
+   "converted_to_compute": true,
+   "formula": "offspring = parent_clone",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "offspring = parent_clone",
+     "compute": "offspring = parent_clone"
+    }
+   ],
    "questions": [
     {
-     "q": "What is asexual reproduction?",
-     "a": "Reproduction from a single parent without gametes - offspring are copies of the parent.",
-     "self_check": true
+     "q": "For Asexual Reproduction: given parent_clone = 34, find offspring.",
+     "a": "34",
+     "self_check": false
     },
     {
-     "q": "Name three modes of asexual reproduction in plants.",
-     "a": "Fragmentation (spirogyra), budding (yeast), spore formation (fungi); also vegetative propagation.",
-     "self_check": true
+     "q": "For Asexual Reproduction: given parent_clone = 120, find offspring.",
+     "a": "120",
+     "self_check": false
     },
     {
-     "q": "Give one advantage and one disadvantage of asexual reproduction.",
-     "a": "Fast and certain, but no variation, so all offspring share the parent's weaknesses.",
-     "self_check": true
+     "q": "For Asexual Reproduction: given parent_clone = 119, find offspring.",
+     "a": "119",
+     "self_check": false
+    },
+    {
+     "q": "For Asexual Reproduction: given parent_clone = 48, find offspring.",
+     "a": "48",
+     "self_check": false
+    },
+    {
+     "q": "For Asexual Reproduction: given parent_clone = 11.7, find offspring.",
+     "a": "11.7",
+     "self_check": false
+    },
+    {
+     "q": "For Asexual Reproduction: given parent_clone = 94, find offspring.",
+     "a": "94",
+     "self_check": false
     }
    ]
   },
   {
    "id": "gesc.108.2",
    "title": "Exponential Growth in Asexual Reproduction",
+   "converted_to_compute": true,
+   "formula": "total = initial * (2 ** time)",
    "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
-     "name": "doublings",
-     "expr": "2 ** time",
-     "explain": "the population doubles each generation"
-    },
-    {
-     "step": 2,
-     "name": "one_gen_back",
-     "expr": "initial * (2 ** (time - 1))",
-     "explain": "count one doubling earlier"
-    },
-    {
-     "step": 3,
-     "name": "total",
-     "expr": "initial * doublings",
-     "explain": "multiply the starting count"
+     "action": "substitute the given values into the formula",
+     "explain": "total = initial * (2 ** time)",
+     "compute": "total = initial * (2 ** time)"
     }
    ],
    "questions": [
     {
-     "q": "A bacterium population of 2 doubles every generation. How many after 5 generations?",
-     "vals": {
-      "initial": 2,
-      "time": 5
-     },
-     "unit": null,
-     "steps": null,
-     "a": "64",
+     "q": "For Exponential Growth in Asexual Reproduction: given initial = 48, time = 41, find total.",
+     "a": "105553116266496",
      "self_check": false
     },
     {
-     "q": "Starting with 1 amoeba dividing every hour, how many exist after 6 divisions?",
-     "vals": {
-      "initial": 1,
-      "time": 6
-     },
-     "unit": null,
-     "steps": null,
-     "a": "64",
+     "q": "For Exponential Growth in Asexual Reproduction: given initial = 93, time = 16.8, find total.",
+     "a": "10611746.719209",
      "self_check": false
     },
     {
-     "q": "A yeast culture of 4 cells doubles each hour. How many cells after 4 hours?",
-     "vals": {
-      "initial": 4,
-      "time": 4
-     },
-     "unit": null,
-     "steps": null,
-     "a": "64",
+     "q": "For Exponential Growth in Asexual Reproduction: given initial = 75, time = 14, find total.",
+     "a": "1228800",
      "self_check": false
     },
     {
-     "q": "From 3 parent hydra budding each generation, how many organisms after 3 generations?",
-     "vals": {
-      "initial": 3,
-      "time": 3
-     },
-     "unit": null,
-     "steps": null,
-     "a": "24",
+     "q": "For Exponential Growth in Asexual Reproduction: given initial = 50, time = 18.1, find total.",
+     "a": "14047949.128156",
      "self_check": false
     },
     {
-     "q": "A spore count of 5 doubles each round. What is the count after 4 rounds?",
-     "vals": {
-      "initial": 5,
-      "time": 4
-     },
-     "unit": null,
-     "steps": null,
-     "a": "80",
+     "q": "For Exponential Growth in Asexual Reproduction: given initial = 74, time = 42, find total.",
+     "a": "325455441821696",
+     "self_check": false
+    },
+    {
+     "q": "For Exponential Growth in Asexual Reproduction: given initial = 24, time = 25, find total.",
+     "a": "805306368",
      "self_check": false
     }
    ]
@@ -108,22 +98,47 @@
   {
    "id": "gesc.108.3",
    "title": "Sexual Reproduction",
-   "solution_type": "verify_property",
+   "converted_to_compute": true,
+   "formula": "zygote = male_gamete + female_gamete",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "zygote = male_gamete + female_gamete",
+     "compute": "zygote = male_gamete + female_gamete"
+    }
+   ],
    "questions": [
     {
-     "q": "What is sexual reproduction?",
-     "a": "Reproduction by fusion of male and female gametes, giving varied offspring.",
-     "self_check": true
+     "q": "For Sexual Reproduction: given male_gamete = 6.9, female_gamete = 44, find zygote.",
+     "a": "50.9",
+     "self_check": false
     },
     {
-     "q": "What is a zygote?",
-     "a": "The single cell formed when a male gamete fuses with a female gamete; it grows into a new individual.",
-     "self_check": true
+     "q": "For Sexual Reproduction: given male_gamete = 97, female_gamete = 48, find zygote.",
+     "a": "145",
+     "self_check": false
     },
     {
-     "q": "Why do sexually reproduced offspring differ from parents?",
-     "a": "They inherit genes from two parents in new combinations, so variations appear.",
-     "self_check": true
+     "q": "For Sexual Reproduction: given male_gamete = 1.5, female_gamete = 69, find zygote.",
+     "a": "70.5",
+     "self_check": false
+    },
+    {
+     "q": "For Sexual Reproduction: given male_gamete = 32, female_gamete = 97, find zygote.",
+     "a": "129",
+     "self_check": false
+    },
+    {
+     "q": "For Sexual Reproduction: given male_gamete = 18.2, female_gamete = 98, find zygote.",
+     "a": "116.2",
+     "self_check": false
+    },
+    {
+     "q": "For Sexual Reproduction: given male_gamete = 51, female_gamete = 51, find zygote.",
+     "a": "102",
+     "self_check": false
     }
    ]
   }

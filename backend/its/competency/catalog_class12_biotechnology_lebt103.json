@@ -53,7 +53,7 @@
    "title": "Restriction Enzymes Types and Cleavage Distances",
    "section": "3.3",
    "definition": "Restriction endonucleases cut DNA at specific 4-8 bp recognition sites, mostly palindromic, and fall into three classes: Type I cleaves randomly around a thousand bases away with SAM, magnesium and ATP, Type II cuts precisely within the site needing only magnesium - hence its starring role in cloning - and Type III cuts some twenty-four to twenty-six bases away; names encode the source microbe, genus, species, strain and discovery order as in EcoRI or HindIII.",
-   "formula": "distance_ratio = type1_distance / type3_distance",
+   "formula": "distance_ratio = type_1_distance / type_3_distance",
    "key_idea": "Only Type II cuts inside its recognition site; compare the cut distances of Types I and III to see how far off-target they work.",
    "textbook_ref": "lebt103.txt section 3.3, Table 3.1-3.2, Fig. 3.4, Box 2",
    "question_patterns": [
@@ -85,7 +85,16 @@
      "q": "Which restriction type cuts precisely within its recognition site: Type II or Type I?",
      "a": "Type II"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "distance_ratio = type_1_distance / type_3_distance",
+     "compute": "distance_ratio = type_1_distance / type_3_distance"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebt103.3",
@@ -291,7 +300,16 @@
      "q": "Near what temperature do PCR strands separate: 95 degrees Celsius or 55?",
      "a": "95"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "copies = template_count * 2 ** cycles",
+     "compute": "copies = template_count * 2 ** cycles"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebt103.8",
@@ -330,7 +348,16 @@
      "q": "Which library houses every fragment of the genome: genomic or cDNA?",
      "a": "genomic"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "genome_fold = genome_bp / gene_bp",
+     "compute": "genome_fold = genome_bp / gene_bp"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

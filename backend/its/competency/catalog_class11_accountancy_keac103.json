@@ -70,7 +70,16 @@
      "explain": "Deduct capital from total assets to obtain the outsiders claim",
      "compute": "liabilities = assets - capital"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "assets = capital + liabilities",
+     "compute": "assets = capital + liabilities"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.103.3.1",
@@ -172,7 +181,16 @@
      "explain": "Subtract the trade discount from the list price to get the net invoice price",
      "compute": "net_price = list_price - trade_discount"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_price = list_price - trade_discount",
+     "compute": "net_price = list_price - trade_discount"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

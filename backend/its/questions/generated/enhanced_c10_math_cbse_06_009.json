@@ -34,6 +34,31 @@
      "q": "Create a new right-triangle problem where the altitude to the hypotenuse divides it into segments of lengths x and y, and the altitude length is given as √(xy). Write the problem statement and show how the similarity proof naturally leads to this relationship without assuming it.",
      "a": "Problem: \"In right triangle LMN (∠M=90°), MP ⟂ LN. If LP = 5 cm and PN = 20 cm, find MP. Prove that MP² = LP × PN using similarity.\" Solution: ΔLMP ~ ΔMPN (AA: ∠LMP = ∠PNM, ∠LPM = ∠MPN = 90°). So LP/MP = MP/PN → MP² = LP × PN = 100 → MP = 10 cm. A poor answer gives only the calculation without the similarity justification, or assumes MP² = LP×PN as a formula. This reveals the student cannot reconstruct the proof from first principles — they only recall the geometric mean theorem as a shortcut, not as a consequence of similarity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In a right-angled triangle, if a ______ is drawn from the right angle vertex to the hypotenuse, the two smaller triangles formed are similar to each other and to the original triangle.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping a ______ in Jaipur build a triangular shelf that must fit perfectly into a 90° corner.",
+     "a": "carpenter",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping a carpenter in Jaipur build a triangular shelf that must fit perfectly into a ______° corner.",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently construct the proof of Pythagoras Theorem using similarity of triangles, correctly identifying the three similar triangles, writing the proportionality ratios, and algebraically deriving a² + b² = c².",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping a carpenter in Jaipur build a ______ shelf that must fit perfectly into a 90° corner.",
+     "a": "triangular",
+     "self_check": true
     }
    ]
   }

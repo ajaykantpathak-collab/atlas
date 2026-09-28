@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_15_003",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_15_003",
+   "title": "c11_leg_cbse_15_003",
+   "questions": [
+    {
+     "q": "In the landmark case *Mohd. Ahmed Khan v. Shah Bano Begum* (1985), the Supreme Court held that a divorced Muslim woman is entitled to maintenance under Section 125 CrPC even after the iddat period. What was the *primary constitutional basis* the Court relied on to override the traditional Muslim personal law limit of maintenance only during iddat?",
+     "a": "The Supreme Court relied primarily on **Article 15(3)** (permitting special provisions for women) read with **Article 21** (right to life with dignity) and **Article 14** (equality before law), holding that denying maintenance to a destitute divorced Muslim woman violates her fundamental rights. A wrong answer (e.g., citing only Section 125 CrPC or the Quran) reveals the student confuses *statutory interpretation* with *constitutional supremacy* — they fail to see that the Court used the Constitution as a \"trump card\" over personal law.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the Supreme Court in *Danial Latifi v. Union of India* (2001) upheld the constitutional validity of the Muslim Women (Protection of Rights on Divorce) Act, 1986, despite the Act appearing to limit maintenance to the iddat period.",
+     "a": "The Court used the doctrine of **reading down** — it interpreted \"fair and reasonable provision\" (Section 3(1)(a)) and \"maintenance\" (Section 3(1)(b)) in the 1986 Act as *including* a lump sum or periodic payment *extending beyond iddat* for the woman's entire life unless she remarries. This harmonized the Act with Articles 14, 15, and 21. A wrong answer (e.g., \"the Court struck down the Act\" or \"the Court said iddat is enough\") shows the student misses the *interpretive technique* — they don't grasp how courts save statutes from unconstitutionality by expansive reading.",
+     "self_check": true
+    },
+    {
+     "q": "A Hindu man marries a second wife while his first wife is alive. The second wife, unaware of the first marriage, lives with him for 10 years and has a child. He then abandons her. She files for maintenance under Section 125 CrPC. The man argues she is not a \"wife\" because the marriage is void under Section 11 HMA 1955. Applying *Chanmuniya v. Virendra Kumar Singh Kushwaha* (2011), what is the likely outcome and why?",
+     "a": "The second wife **will get maintenance**. In *Chanmuniya*, the Supreme Court held that a woman in a \"relationship in the nature of marriage\" (even if void/voidable under personal law) qualifies as \"wife\" under Section 125 CrPC if she proves: (a) long cohabitation, (b) holding out as husband-wife, (c) pooling of resources, (d) sexual relationship, (e) children. The Court prioritized the *social reality* over *legal formality* to prevent destitution. A wrong answer (e.g., \"no maintenance because marriage is void\") reveals the student applies personal law rigidly and ignores the *beneficial construction* of Section 125 CrPC as a secular, gender-just remedy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the approach of the Supreme Court in *Savitri Devi v. State of Uttar Pradesh* (2005) on \"wife\" under Section 125 CrPC with its approach in *D. Velusamy v. D. Patchaiammal* (2010) on \"relationship in the nature of marriage\" under the PWDVA 2005. What is the *key doctrinal difference* in how the two statutes are interpreted?",
+     "a": "In *Savitri Devi*, the Court gave a **liberal, expansive interpretation** to \"wife\" under Section 125 CrPC to include even a woman whose marriage is void/voidable, focusing on the *remedial purpose* of preventing vagrancy. In *Velusamy*, the Court laid down **strict, categorical criteria** (like a \"checklist\": cohabitation, pooling of resources, sexual relationship, children, socialization in public) for \"relationship in the nature of marriage\" under PWDVA, making it *harder* to qualify. The difference: Section 125 CrPC is interpreted *beneficially* (low threshold), while PWDVA is interpreted *restrictively* (high threshold) because PWDVA creates new civil rights (protection orders, residence rights) beyond mere maintenance. A wrong answer (e.g., \"both are the same\") shows the student fails to distinguish *statutory purpose* — maintenance (survival) vs. domestic violence (protection + residence).",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The Supreme Court in *Shamima Farooqui v. Shahid Khan* (2015) finally settled the law by holding that a divorced Muslim woman is entitled to maintenance under Section 125 CrPC *for life* unless she remarries, making the iddat period irrelevant.\" Do you agree? Justify with reference to subsequent case law.",
+     "a": "**Partially agree, but the statement oversimplifies.** *Shamima Farooqui* did affirm lifelong maintenance under Section 125 CrPC for a divorced Muslim woman (reading Section 3(1)(a) of MWPRDA 1986 as \"fair and reasonable provision\" for *future* too). However, *Shabana Bano v. Imran Khan* (2010) and *Jahira v. State of Kerala* (2020) later clarified that: (1) The woman must prove *inability to maintain herself* (not automatic entitlement); (2) The husband's *capacity to pay* is relevant; (3) The magistrate has *discretion* in quantum. Also, if the woman *waived* maintenance at the time of divorce (via *mahr* or *khula* deed), courts may deny Section 125 relief (*A. A. Haja v. State*, 2022). So the law is settled *in principle* but *fact-sensitive* in application. A wrong answer (e.g., \"yes, it's absolute\") reveals the student treats precedent as a rigid rule, ignoring *judicial discretion* and *defenses* like waiver or capacity.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel fact pattern involving a **live-in partner (heterosexual)** who was in a 15-year relationship with a married man (who never divorced his legal wife). The man dies. The live-in partner claims maintenance from his estate under **Section 125 CrPC** and **PWDVA 2005**. Draft the *legal issues* the court would need to decide, citing the *exact landmark cases* that would be argued by both sides.",
+     "a": "**Legal Issues & Case Map:**\n1. **Is she a \"wife\" under Section 125 CrPC?** → *Chanmuniya* (yes, if relationship in nature of marriage proved) vs. *Savitri Devi* (liberal view) vs. *Velusamy* (strict checklist — she may fail \"holding out as wife\" if hidden).\n2. **Can she claim under PWDVA 2005?** → *Velusamy* criteria (cohabitation, pooling, sexual relationship, children, socialization) — but she was *not* in a \"shared household\" with the man *alone* (he lived with legal wife) → *S.R. Batra v. Taruna Batra* (2007): \"shared household\" requires *actual* shared residence, not just relationship.\n3. **Can she claim from the *estate* (not the man)?** → Section 125 CrPC is *personal* against the husband; it abates on death (*Vijay Manohar Arbat v. Kashi Rao*, 1987). PWDVA relief (monetary relief u/s 20) also abates. She must sue under **succession law** (HSA 1956 / Indian Succession Act) as a \"dependent\" — but *no precedent* grants live-in partners inheritance rights unless *legally adopted* or *will*.\n**Key Insight:** Maintenance law protects *during lifetime*; succession law governs *after death*. The cases *do not* bridge this gap. A poor answer (e.g., \"she gets maintenance from estate citing Chanmuniya\") reveals the student conflates *maintenance jurisdiction* (personal, lifetime) with *succession jurisdiction* (property, post-death) — a classic category error.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

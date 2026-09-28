@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using only household items (no lab equipment) to test: \"Does the temperature of water affect how quickly sugar dissolves?\" List: (a) independent variable, (b) dependent variable, (c) three controlled variables, (d) step-by-step procedure (4-5 steps), (e) how you will record results.",
      "a": "(a) Water temperature (e.g., 10 °C, 30 °C, 50 °C). (b) Time for 1 teaspoon sugar to fully dissolve (stopwatch). (c) Volume of water (100 mL), amount of sugar (1 tsp), stirring rate (e.g., 60 stirs/min), container type. (d) 1. Measure 100 mL cold water (10 °C) into a glass. 2. Add 1 tsp sugar, start stopwatch, stir at steady rate. 3. Stop timer when sugar disappears; record time. 4. Repeat with warm (30 °C) and hot (50 °C) water. 5. Repeat each temperature twice for reliability. (e) Table with columns: Temperature (°C), Trial 1 (s), Trial 2 (s), Mean (s). A poor answer (missing controls, no repetition, vague stirring) shows the student cannot yet translate a question into a *reproducible* plan – the core skill for c8_physics_ch1_3.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observation in science is the deliberate, systematic gathering of information about a phenomenon using senses or instruments, while ______ is a controlled procedure designed to test a specific prediction by manipulating one factor at a time and measuring the outcome.",
+     "a": "experimentation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a ceiling fan: you *see* it rotate (qualitative observation), but to study its motion scientifically you must *measure* how many rotations it makes in 10 seconds using a stopwatch (______ observation).",
+     "a": "quantitative",
+     "self_check": true
+    },
+    {
+     "q": "What is Observation in science? State the definition given in this lesson.",
+     "a": "Observation in science is the deliberate, systematic gathering of information about a phenomenon using senses or instruments, while experimentation is a controlled procedure designed to test a specific prediction by manipulating one factor at a time and measuring the outcome.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a ceiling fan: you *see* it rotate (qualitative observation), but to study its motion scientifically you must *measure* how many rotations it makes in ______ seconds using a stopwatch (quantitative observation).",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Observation in science?",
+     "a": "Students think \"observation\" means only looking with eyes, and \"experiment\" means any hands-on activity (e.g., making a volcano with baking soda).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can distinguish between qualitative and quantitative observations in a given scenario, identify which variables must be controlled to make an experiment fair, and design a simple step-by-step experimental plan to test a given prediction using available school-lab equipment.",
+     "self_check": true
     }
    ]
   }

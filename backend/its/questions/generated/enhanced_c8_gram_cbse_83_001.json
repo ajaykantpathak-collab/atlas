@@ -1,0 +1,51 @@
+{
+ "catalog": "enhanced_c8_gram_cbse_83_001",
+ "concepts": [
+  {
+   "id": "enh:c8_gram_cbse_83_001",
+   "title": "c8_gram_cbse_83_001",
+   "questions": [
+    {
+     "q": "'The box of apples ___ (is/are) on the shelf.'",
+     "a": "'is' — head is 'box'. A wrong answer 'are' is proximity agreement — matching the verb to 'apples', the decoy standing closest.",
+     "self_check": true
+    },
+    {
+     "q": "'Ravi, along with his friends, ___ (was/were) invited.'",
+     "a": "'was' — 'along with' is a comma-insert; it does not pluralize. A wrong answer 'were' shows the and-equivalence error.",
+     "self_check": true
+    },
+    {
+     "q": "'There ___ (is/are) a dog and two cats in the yard.'",
+     "a": "'are' — compound subject after 'there' takes plural (boards expect 'are'). A wrong answer 'is' applies proximity where the rule requires summing.",
+     "self_check": true
+    },
+    {
+     "q": "______ phrases between subject and verb are grammatically invisible.",
+     "a": "Prepositional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The verb agrees with the head of the subject, not with ______ noun stands nearest. 'The bunch of keys IS on the table' — 'bunch' is the head, 'keys' is a decoy inside an of-phrase.",
+     "a": "whatever",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The insert rule: 'as well as', 'along with', 'together with' do NOT make the subject plural — they are passengers in commas. 'There' ______ invert: the real subject follows the verb — 'There ARE three eggs left.'",
+     "a": "sentences",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student locates the head noun through of-phrases and parenthetical inserts, chooses the matching verb form, and handles 'there is/are' inversion.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Strip ______: 'The colour of the walls ___ (is/are) fading.' Delete 'of the walls' → 'the colour IS fading'.",
+     "a": "surgery",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -37,16 +37,19 @@
    ],
    "worked_examples": [
     {
-     "question": "Solve a typical question involving gross value added (gva) calculation.",
-     "solution": "Step 1: Add the production subsidies to the Gross Domestic Product. Step 2: Subtract indirect taxes from the sum of GDP and subsidies. Working: gdp + subsidies, gdp_with_subsidies - indirect_taxes.",
-     "answer": "Gross Value Added (GVA) Calculation applied step by step gives the required result."
-    },
-    {
-     "question": "Apply gross value added (gva) calculation to a fresh example and interpret the result.",
-     "solution": "Step 1: Add the production subsidies to the Gross Domestic Product. Step 2: Subtract indirect taxes from the sum of GDP and subsidies. Working: gdp + subsidies, gdp_with_subsidies - indirect_taxes.",
-     "answer": "The method of gross value added (gva) calculation leads to the required value or conclusion."
+     "concept": "keec.103.1",
+     "question_pattern": "what is the GVA if GDP is {gdp} and subsidies are {subsidies} and indirect taxes are {indirect_taxes}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "gva = gdp + subsidies - indirect_taxes",
+     "compute": "gva = gdp + subsidies - indirect_taxes"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keec.103.2",
@@ -74,16 +77,19 @@
    ],
    "worked_examples": [
     {
-     "question": "Solve a typical question involving disinvestment target achievement.",
-     "solution": "Step 1: Subtract the target disinvestment from the actual mobilized amount. Working: actual_mobilised - target_disinvestment.",
-     "answer": "Disinvestment Target Achievement applied step by step gives the required result."
-    },
-    {
-     "question": "Apply disinvestment target achievement to a fresh example and interpret the result.",
-     "solution": "Step 1: Subtract the target disinvestment from the actual mobilized amount. Working: actual_mobilised - target_disinvestment.",
-     "answer": "The method of disinvestment target achievement leads to the required value or conclusion."
+     "concept": "keec.103.2",
+     "question_pattern": "did the government meet its disinvestment target of {actual_mobilised} if it mobilized {target_disinvestment}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "disinvestment_surplus = actual_mobilised - target_disinvestment",
+     "compute": "disinvestment_surplus = actual_mobilised - target_disinvestment"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keec.103.3",

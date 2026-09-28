@@ -22,7 +22,7 @@
     },
     {
      "q": "Compare Rolle's Theorem and the Mean Value Theorem. How is MVT a generalization of Rolle's Theorem? Construct the auxiliary function used in the proof of MVT from Rolle's Theorem and explain why it works.",
-     "a": "**Correct Answer:** Rolle's Theorem requires \\( f(a) = f(b) \\) and concludes \\( f'(c) = 0 \\). MVT drops the equal-endpoint condition and concludes \\( f'(c) = \\frac{f(b)-f(a)}{b-a} \\). The auxiliary function is \\( g(x) = f(x) - \\frac{f(b)-f(a)}{b-a}(x-a) - f(a) \\). Then \\( g(a) = f(a) - 0 - f(a) = 0 \\) and \\( g(b) = f(b) - (f(b)-f(a)) - f(a) = 0 \\). So \\( g \\) satisfies Rolle's conditions. By Rolle's Theorem, \\( \\exists c \\in (a,b) \\) with \\( g'(c) = 0 \\). But \\( g'(x) = f'(x) - \\frac{f(b)-f(a)}{b-a} \\), so \\( g'(c) = 0 \\Rightarrow f'(c) = \\frac{f(b)-f(a)}{b-a} \\).  \n**Error Analysis:** Students often write the auxiliary function incorrectly, e.g., missing the \\(-f(a)\\) term or using \\( (x-b) \\) instead of \\( (x-a) \\). This shows they don't understand the geometric idea of subtracting the secant line equation to make endpoints equal.",
+     "a": "(1) Rolle's theorem — when the endpoint values are equal, the function has an interior point where its derivative vanishes, (2) The generalisation — the Mean Value Theorem drops the equal-endpoint condition and finds a point where the derivative equals the chord's slope, the change in value divided by the change in x, (3) The auxiliary function — subtract from f the equation of the secant line, producing a new function whose values at both endpoints are zero, (4) The proof — the new function satisfies Rolle's conditions, so its derivative vanishes somewhere, and since that derivative is f's derivative minus the chord slope, f's derivative must equal the chord slope there. A student who omits the constant term or writes the wrong bracket has missed the geometric idea of subtracting the secant to equalise the endpoints.",
      "self_check": true
     },
     {
@@ -33,6 +33,21 @@
     {
      "q": "Construct a function \\( f \\) defined on \\([0, 2]\\) such that \\( f(0) = 0 \\), \\( f(2) = 4 \\), and the Mean Value Theorem guarantees at least one \\( c \\in (0, 2) \\) with \\( f'(c) = 2 \\). Your function must be differentiable on \\((0, 2)\\) but NOT a straight line. Verify that your function works.",
      "a": "**Expected Answer:** Any function continuous on \\([0, 2]\\), differentiable on \\((0, 2)\\), with \\( f(0)=0, f(2)=4 \\), and non-linear. Example: \\( f(x) = x^2 \\). Check: \\( f(0)=0, f(2)=4 \\). Secant slope \\( = \\frac{4-0}{2-0} = 2 \\). \\( f'(x) = 2x \\). Set \\( 2c = 2 \\Rightarrow c = 1 \\in (0, 2) \\). Works. Another example: \\( f(x) = 2x + \\sin(\\pi x) \\).  \n**Poor Answer Indicators:** If the student gives a straight line \\( f(x) = 2x \\), they miss \"NOT a straight line\". If they give \\( f(x) = |x| \\) or a piecewise function with a corner, they violate differentiability. This tests whether they can synthesize the conditions and construct a valid example.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you drive from Delhi to Agra, a ______ of 200 km, in exactly 2 hours.",
+     "a": "distance",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Mean Value Theorem guarantees that at some instant during the trip, your speedometer must have read exactly ______ km/h — provided your speed changed continuously (no teleporting) and you didn't stop (differentiable).",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to state the Mean Value Theorem with all its conditions, prove it using Rolle's Theorem, verify it for given algebraic and trigonometric functions on specified intervals, and interpret the result geometrically as the existence of a tangent parallel to the secant line.",
      "self_check": true
     }
    ]

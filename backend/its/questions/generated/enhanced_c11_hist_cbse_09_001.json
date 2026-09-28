@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_09_001",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_09_001",
+   "title": "c11_hist_cbse_09_001",
+   "questions": [
+    {
+     "q": "In which year was the traditional Chinese Civil Service Examination system (based on the Eight-Legged Essay) officially abolished, and what immediate intellectual vacuum did this create for the emerging republican revolutionaries?",
+     "a": "The examination system was abolished in **1905**. This removed the primary ladder for social mobility and legitimisation of the Confucian scholar-gentry class, forcing the emerging intellectual class to seek new ideologies (nationalism, democracy, socialism) and new organisational forms (political parties, study societies) to replace the imperial bureaucracy as the framework for governing China. A wrong answer (e.g., 1911 or 1898) reveals the student confuses the *abolition of the exam* with the *fall of the dynasty* or the *Hundred Days' Reform*, missing that the exam's end preceded the dynasty's fall by six years and was a deliberate Qing reform attempt that backfired.",
+     "self_check": true
+    },
+    {
+     "q": "Liang Qichao famously described India as \"a country destroyed by a non-country (the East India Company).\" Explain why this specific comparison was politically potent for Chinese reformers in the 1890s-1900s, linking it to the fear of \"Partition\" (like Poland).",
+     "a": "The comparison was potent because it proved that **civilisational sophistication (India's past glory) offered no protection against corporate colonialism**. Chinese elites saw Indian sepoys fighting for the British in the Opium Wars—living proof that a colonised people could be weaponised against their neighbours. The \"Partition of Poland\" metaphor (used as a verb: *bolan wo*) signalled the fear that China would be carved up by imperial powers *without* a formal declaration of war, losing sovereignty while the Qing flag still flew. A wrong answer focusing only on \"economic exploitation\" misses the *existential political terror* of state extinction (Guo wang) that drove radical reform.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"Confucianism as a barrier\" to analyse the **Hundred Days' Reform (1898)**. Why did Kang Youwei and Liang Qichao attempt to reinterpret Confucius as a \"reformer\" rather than reject him, and why did this strategy fail to save the Qing?",
+     "a": "Kang Youwei reinterpreted Confucius as a historical reformer who \"changed with the times\" (*jing wei*) to legitimise change *within* the sacred vocabulary of the state. This failed because: (1) It alienated conservative Manchu elites (Empress Dowager Cixi) who saw it as subversion; (2) It failed to address structural fiscal/military weaknesses (taxation, banner armies); (3) It offered no mechanism for popular mobilisation—reforms were imperial edicts, not laws passed by a legislature. A student answering \"they were too radical\" misses the nuance: they were **radical in goals but conservative in method**, trying to use the Emperor's mandate to dismantle the very examination system that produced the Emperor's mandarins.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the **social base** of the 1911 Revolution (Xinhai Revolution) led by Sun Yat-sen/Guomindang with the **social base** of the CCP's rise in the 1930s-40s. How did this difference determine their respective capacities to \"unify China\"?",
+     "a": "The 1911 Revolution relied on **urban elites, merchants, students, and disaffected military officers**—a narrow \"petty urbanite\" (*xiao shimin*) base. It ignored the peasantry (90% of population) and failed to implement Sun's \"Equalisation of Land Rights.\" The CCP (Mao) built power on the **peasantry** via land redistribution in Jiangxi/Yan'an soviets. This gave the CCP a mass mobilisation capacity the GMD lacked: the CCP could feed and recruit armies from the countryside; the GMD relied on urban tax revenue and warlord alliances that collapsed under inflation (1945-49). A wrong answer listing \"ideology\" as the main difference misses the *materialist* reality: **land reform = soldiers + food + intelligence networks.**",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The May Fourth Movement (1919) was primarily a cultural movement; its political consequences were accidental.\" Use evidence from the New Culture Movement (vernacular language, women's rights, science vs. tradition) to support your judgement.",
+     "a": "**The claim is false.** The May Fourth Movement was the **political explosion of a deliberate cultural revolution**. Intellectuals like Chen Duxiu (*New Youth*) and Hu Shi explicitly linked *baihua* (vernacular) to democracy: classical Chinese was the language of the elite/exams; vernacular was the tool for mass citizenship. Attacking foot-binding and arranged marriage was a direct assault on the *patriarchal family*—the microcosm of the imperial state. The 1919 protests against the Versailles Treaty (Shandong to Japan) turned cultural icons (students, professors) into political leaders. The CCP was founded (1921) directly from May Fourth study societies. A \"cultural only\" view ignores that **in China, culture *was* the constitution.**",
+     "self_check": true
+    },
+    {
+     "q": "Create a **three-column analytical table** comparing the \"Modernisation Strategies\" of the **Self-Strengthening Movement (1860s-90s)**, the **Meiji Restoration (Japan, 1868+)**, and the **CCP Yan'an Period (1935-45)**. Columns: 1. Core Slogan/Principle, 2. Institutional Innovation, 3. Treatment of Tradition. Fill it with specific historical details.",
+     "a": "| Strategy | Core Slogan/Principle | Institutional Innovation | Treatment of Tradition |\n| :--- | :--- | :--- | :--- |\n| **Self-Strengthening** | *Zhongti Xiyong* (Chinese essence, Western utility) | Arsenals (Jiangnan), Steamship lines, Telegraphs; **No** civil service reform, **No** parliament | **Preserved** Confucian exams & bureaucracy; tech grafted onto old body |\n| **Meiji Restoration** | *Fukoku Kyohei* (Rich Country, Strong Army) | **Abolished** domains/han -> Prefectures; Conscription; **Universal Education**; Constitution (1889); Zaibatsu subsidies | **Reinvented** Emperor as \"living god\" + modern monarch; Shinto separated from Buddhism; *Bushido* recast as national spirit |\n| **CCP Yan'an** | \"Political Power grows from the barrel of a gun\" (Mao); Mass Line | **Peasant Soviets**; Land Redistribution; Party Cells in villages; Rectification Campaigns (thought control) | **Destroyed** \"Feudal\" tradition (landlords, patriarchy, religion); **Repurposed** folk culture (Yangge opera) for propaganda |\n\nA poor answer lists vague terms (\"industrialisation\") without the **institutional specificity** (e.g., *han* abolition vs. keeping provinces; land redistribution vs. tax farming).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

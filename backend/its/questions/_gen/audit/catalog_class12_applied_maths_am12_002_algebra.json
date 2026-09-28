@@ -45,9 +45,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "det = 8 * 0 - 2 * 3"
-   ]
+   "steps_chain": []
   },
   {
    "id": "am12_002.2",
@@ -277,9 +275,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "det = -6 * 6 - 8 * -6"
-   ]
+   "steps_chain": []
   },
   {
    "id": "am12_002.7",
@@ -322,9 +318,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "t1 = 12 / 6"
-   ]
+   "steps_chain": []
   },
   {
    "id": "am12_002.8",
@@ -368,10 +362,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = sum((23, 27, 39, 6, 4))",
-    "mean = total / 5"
-   ]
+   "steps_chain": []
   }
  ]
 }

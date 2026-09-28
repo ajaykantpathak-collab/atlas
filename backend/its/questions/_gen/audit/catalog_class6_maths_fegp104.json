@@ -42,9 +42,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = 6 + 2 + 6"
-   ]
+   "steps_chain": []
   },
   {
    "id": "fegp.4.2",
@@ -87,9 +85,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = 2 + 5 + 2"
-   ]
+   "steps_chain": []
   },
   {
    "id": "fegp.4.3",
@@ -175,9 +171,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = 5 + 8 + 5"
-   ]
+   "steps_chain": []
   }
  ]
 }

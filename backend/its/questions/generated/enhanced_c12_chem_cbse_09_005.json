@@ -34,6 +34,31 @@
      "q": "Design a two-step synthesis to convert benzoic acid (C₆H₅COOH) into aniline (C₆H₅NH₂) using Hoffmann degradation as the key step. Specify reagents for each step.",
      "a": "Step 1: C₆H₅COOH + SOCl₂ → C₆H₅COCl (benzoyl chloride), then NH₃ → C₆H₅CONH₂ (benzamide). Step 2: C₆H₅CONH₂ + Br₂ + 4NaOH → C₆H₅NH₂ + Na₂CO₃ + 2NaBr + 2H₂O. A poor answer (e.g., direct NH₃ on acid, or using Gabriel) shows the student cannot link amide preparation to the degradation reaction or does not know acid → amide conversion.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Hoffmann bromamide ______ is a reaction where a primary amide (R–CONH₂) treated with bromine and aqueous/ethanolic NaOH yields a primary amine (R–NH₂) with one fewer carbon atom, via migration of the alkyl/aryl group from the carbonyl carbon to nitrogen with loss of CO₂.",
+     "a": "degradation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how a chemist converts butanamide (CH₃CH₂CH₂CONH₂) into ______ (CH₃CH₂CH₂NH₂) using just Br₂ and NaOH — the carbon chain shrinks by one.",
+     "a": "propanamine",
+     "self_check": true
+    },
+    {
+     "q": "What is Hoffmann bromamide degradation? State the definition given in this lesson.",
+     "a": "Hoffmann bromamide degradation is a reaction where a primary amide (R–CONH₂) treated with bromine and aqueous/ethanolic NaOH yields a primary amine (R–NH₂) with one fewer carbon atom, via migration of the alkyl/aryl group from the carbonyl carbon to nitrogen with loss of CO₂.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Hoffmann bromamide degradation?",
+     "a": "Students often write the product as R–CH₂NH₂ (same carbon count) instead of R–NH₂ (one carbon less), because they confuse Hoffmann degradation with reduction of nitriles (R–CN → R–CH₂NH₂) or ammonolysis of alkyl halides.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write the balanced chemical equation for Hoffmann degradation of any given amide, predict the amine product structure, explain the rearrangement mechanism involving isocyanate intermediate, and distinguish it from Gabriel synthesis and nitro reduction as a method for preparing primary amines with chain shortening.",
+     "self_check": true
     }
    ]
   }

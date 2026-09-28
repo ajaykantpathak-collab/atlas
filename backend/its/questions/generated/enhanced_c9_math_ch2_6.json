@@ -34,6 +34,31 @@
      "q": "Create a real-life problem (in an Indian context) that can be modeled by a linear equation in slope-intercept form. Define your variables, write the equation, and explain what the slope and y-intercept represent in your situation.",
      "a": "Example: **Auto-rickshaw fare in Delhi**: Base fare ₹25 for first 1.5 km, then ₹10 per km thereafter. For distance **x km (x > 1.5)**, fare **y = 10x + 10** (since 25 - 10×1.5 = 10). Slope = 10 (rate per km), intercept = 10 (adjusted base fare).  \nA good answer defines variables clearly, writes correct equation, and interprets both parameters contextually. A poor answer uses vague variables, writes an equation not in slope-intercept form, or misinterprets slope/intercept (e.g., says intercept is the base fare without adjustment).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The slope-intercept form of a linear equation in two variables is expressed as y = mx + c, where m represents the slope (rate of change) of the line and c represents the y-intercept (the y-______ where the line crosses the y-axis).",
+     "a": "coordinate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You charge ₹50 per lunch box (______ cost) plus a fixed monthly subscription of ₹500 (fixed cost).",
+     "a": "variable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The slope m measures how much y changes when x increases by ______.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can convert any linear equation in standard form (ax + by + c = 0) to slope-intercept form, identify the slope and y-intercept correctly, and use them to graph the line or write the equation given geometric information (e.g., slope and a point, or two points).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You charge ₹50 per lunch box (variable cost) plus a fixed monthly ______ of ₹500 (fixed cost).",
+     "a": "subscription",
+     "self_check": true
     }
    ]
   }

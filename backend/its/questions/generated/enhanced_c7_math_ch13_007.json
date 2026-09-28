@@ -34,6 +34,31 @@
      "q": "Design a scale for a pictograph where data categories have values of 120, 180, 240, and 300 students. State your chosen symbol and what it represents.",
      "a": "A good answer will choose a scale factor that divides all numbers cleanly, such as choosing 1 star symbol to represent 60 students. Then 120 = 2 stars, 180 = 3 stars, 240 = 4 stars, and 300 = 5 stars. A poor answer chooses an awkward scale like 1 symbol = 45 students, which results in fractions of symbols.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Visualising data through bar graphs and pictographs involves ______ numerical information graphically using rectangular bars of uniform width or symbols/icons where each symbol represents a specific numerical quantity to enable easy comparison and analysis.",
+     "a": "representing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you conducted a ______ in your class of 40 students asking for their favourite sports (Cricket, Football, Badminton, Kabaddi), and you have a list of tally marks.",
+     "a": "survey",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you conducted a survey in your class of ______ students asking for their favourite sports (Cricket, Football, Badminton, Kabaddi), and you have a list of tally marks.",
+     "a": "40",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can construct an accurate bar graph and pictograph from a given frequency table by choosing an appropriate scale, labelling axes correctly, and interpreting values from existing graphical representations.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you ______ a survey in your class of 40 students asking for their favourite sports (Cricket, Football, Badminton, Kabaddi), and you have a list of tally marks.",
+     "a": "conducted",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,177 @@
+{
+ "catalog": "catalog_class9_science_ch102.json",
+ "concepts": [
+  {
+   "id": "iesc.102.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "field_diameter_um = 3.6",
+      "cell_count = 129",
+      "cell_size = field_diameter_um / cell_count"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "field_diameter_um = 19",
+      "cell_count = 154",
+      "cell_size = field_diameter_um / cell_count"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "field_diameter_um = 14.4",
+      "cell_count = 428",
+      "cell_size = field_diameter_um / cell_count"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "field_diameter_um = 35",
+      "cell_count = 207",
+      "cell_size = field_diameter_um / cell_count"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "field_diameter_um = 19.8",
+      "cell_count = 321",
+      "cell_size = field_diameter_um / cell_count"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "field_diameter_um = 30",
+      "cell_count = 271",
+      "cell_size = field_diameter_um / cell_count"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "cell_size = field_diameter_um / cell_count"
+   ]
+  },
+  {
+   "id": "iesc.102.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "eyepiece_power = 1883",
+      "objective_power = 4867",
+      "total_magnification = eyepiece_power * objective_power"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "eyepiece_power = 1412",
+      "objective_power = 3293",
+      "total_magnification = eyepiece_power * objective_power"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "eyepiece_power = 3109",
+      "objective_power = 3962",
+      "total_magnification = eyepiece_power * objective_power"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "eyepiece_power = 1073",
+      "objective_power = 878",
+      "total_magnification = eyepiece_power * objective_power"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "eyepiece_power = 3679",
+      "objective_power = 1966",
+      "total_magnification = eyepiece_power * objective_power"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "eyepiece_power = 2618",
+      "objective_power = 707",
+      "total_magnification = eyepiece_power * objective_power"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_magnification = eyepiece_power * objective_power"
+   ]
+  },
+  {
+   "id": "iesc.102.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "parent_ploidy = 35",
+      "mitosis_output = 2 * parent_ploidy",
+      "meiosis_output = 4 * (parent_ploidy / 2)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "parent_ploidy = 115",
+      "mitosis_output = 2 * parent_ploidy",
+      "meiosis_output = 4 * (parent_ploidy / 2)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "parent_ploidy = 84",
+      "mitosis_output = 2 * parent_ploidy",
+      "meiosis_output = 4 * (parent_ploidy / 2)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "parent_ploidy = 106",
+      "mitosis_output = 2 * parent_ploidy",
+      "meiosis_output = 4 * (parent_ploidy / 2)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "parent_ploidy = 32",
+      "mitosis_output = 2 * parent_ploidy",
+      "meiosis_output = 4 * (parent_ploidy / 2)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "parent_ploidy = 15.3",
+      "mitosis_output = 2 * parent_ploidy",
+      "meiosis_output = 4 * (parent_ploidy / 2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "mitosis_output = 2 * parent_ploidy",
+    "meiosis_output = 4 * (parent_ploidy / 2)"
+   ]
+  }
+ ]
+}

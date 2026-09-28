@@ -34,6 +34,26 @@
      "q": "Design a Lewis structure for a hypothetical molecule XCl₄ where X is a period 3 element that forms four single bonds and has zero formal charge. Identify X and draw the structure showing all lone pairs.",
      "a": "X must have 4 valence electrons to form 4 single bonds with zero lone pairs → Group 14 element in period 3 = Silicon (Si). Total valence e⁻ = Si(4) + 4×Cl(7) = 32 e⁻. Structure: Si central, four Cl terminals, four Si–Cl single bonds (8 e⁻), remaining 24 e⁻ as 3 lone pairs on each Cl (6 e⁻ each). Si has 4 bonding pairs (8 e⁻), formal charge = 4 - 0 - ½(8) = 0. Each Cl = 7 - 6 - ½(2) = 0. Correct answer shows understanding of valence, octet, and formal charge simultaneously.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Kossel-Lewis approach explains chemical bonding through electron transfer or sharing to achieve stable noble gas ______ (octet/duplet), where Lewis symbols represent valence electrons as dots around the element symbol and Lewis structures depict bonding pairs and lone pairs in molecules.",
+     "a": "configurations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how table salt (NaCl) dissolves in water to conduct electricity, while sugar (C₁₂H₂₂O₁₁) dissolves but does not conduct — this ______ originates from how atoms bond.",
+     "a": "difference",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can draw Lewis structures for simple molecules and polyatomic ions (including those with formal charge considerations), apply the octet rule to predict bonding patterns, identify exceptions to the octet rule, and calculate formal charges to select the most stable Lewis structure.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how table salt (NaCl) dissolves in water to conduct ______, while sugar (C₁₂H₂₂O₁₁) dissolves but does not conduct — this difference originates from how atoms bond.",
+     "a": "electricity",
+     "self_check": true
     }
    ]
   }

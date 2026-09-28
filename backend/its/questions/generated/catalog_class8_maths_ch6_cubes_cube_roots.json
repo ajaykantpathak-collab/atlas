@@ -5,6 +5,8 @@
    "id": "c8m6.2.1",
    "title": "Cube Numbers",
    "converted_to_compute": false,
+   "formula": "n^3 = n x n x n",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the cube of 11.",
@@ -42,6 +44,8 @@
    "id": "c8m6.2.2",
    "title": "Adding Consecutive Odd Numbers (Cube Pattern)",
    "converted_to_compute": false,
+   "formula": "sum of consecutive odd numbers starting at pattern gives n^3; n^3 - (n-1)^3 = 1 + n x (n-1) x 3",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Starting from 1, add the first 9 odd numbers: 1 + 3 + 5 + ... What square do you get?",
@@ -78,15 +82,9 @@
   {
    "id": "c8m6.2.3",
    "title": "Cubes and Their Prime Factors",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
-     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 2 * 1 gives 2",
-     "compute": "hcf = 2 * 1"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "each prime factor appears 3 times = perfect cube",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 14 and 16 have HCF 2 with coprime multipliers 7 and 8. Verify by computing hcf = 2 x 1; then find the HCF value.",
@@ -124,6 +122,8 @@
    "id": "c8m6.2.4",
    "title": "Smallest Multiple that is a Perfect Cube",
    "converted_to_compute": false,
+   "formula": "multiply (or divide) by the product of primes lacking a triplet",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 18 and 12 have HCF 6 with coprime multipliers 3 and 2. Verify by computing hcf = 6 x 1; then find the HCF value.",
@@ -161,6 +161,8 @@
    "id": "c8m6.3.1",
    "title": "Cube Roots",
    "converted_to_compute": false,
+   "formula": "cube root of n^3 = n",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the cube of 8.",
@@ -198,6 +200,8 @@
    "id": "c8m6.3.2",
    "title": "Cube Root by Prime Factorisation",
    "converted_to_compute": false,
+   "formula": "cube root = product of one factor from each triplet",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 8 and 16 have HCF 8 with coprime multipliers 1 and 2. Verify by computing hcf = 8 x 1; then find the HCF value.",

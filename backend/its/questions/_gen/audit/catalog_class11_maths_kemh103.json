@@ -42,9 +42,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "other = 90 - 52"
-   ]
+   "steps_chain": []
   },
   {
    "id": "kemh.103.2.1",
@@ -87,9 +85,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = (12 / 20) ** 2 + (16 / 20) ** 2"
-   ]
+   "steps_chain": []
   },
   {
    "id": "kemh.103.3.1",
@@ -134,9 +130,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "si = 8000 * 8 * 4 / 100"
-   ]
+   "steps_chain": []
   }
  ]
 }

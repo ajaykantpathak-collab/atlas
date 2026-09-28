@@ -34,6 +34,31 @@
      "q": "Design a new scenario (different from school library) where a Class 11 student would need to use MySQL Workbench. Name the database, at least two tables, and write the very first `SELECT` query they would run to explore the data.",
      "a": "Example: **Database:** `canteen_db` **Tables:** `MENU` (ItemID, ItemName, Price, Category), `ORDERS` (OrderID, ItemID, Quantity, OrderDate). **First query:** `SELECT * FROM MENU;` to see all items. A good answer shows a realistic domain, plausible table/column names, and the instinct to start with `SELECT *` for exploration. A poor answer uses vague names (Table1, Table2) or writes a complex query with `WHERE` before seeing the data — indicating lack of exploratory workflow.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: SQL (Structured Query Language) is the standard language for ______ with a Relational Database Management System (RDBMS) to define, manipulate, and control data.",
+     "a": "communicating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a beautifully designed ______ database for your school library (tables for Books, Students, IssuedBooks) but it sits silently on the server.",
+     "a": "relational",
+     "self_check": true
+    },
+    {
+     "q": "What is SQL (Structured Query Language)? State the definition given in this lesson.",
+     "a": "SQL (Structured Query Language) is the standard language for communicating with a Relational Database Management System (RDBMS) to define, manipulate, and control data.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about SQL (Structured Query Language)?",
+     "a": "Students often think MySQL Workbench *is* the database (the actual data storage).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can launch MySQL Workbench, establish a connection to a local MySQL server, identify the three main panels (Navigator, Query Editor, Output), write and execute a basic SELECT statement to retrieve data from an existing table, and interpret the result grid.",
+     "self_check": true
     }
    ]
   }

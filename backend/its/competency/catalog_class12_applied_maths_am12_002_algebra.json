@@ -1,170 +1,234 @@
 {
-  "class": 12,
-  "subject": "applied_maths",
-  "chapter": 2,
-  "chapter_title": "Algebra",
-  "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am12_002_algebra.txt",
-  "concepts": [
+ "class": 12,
+ "subject": "applied_maths",
+ "chapter": 2,
+ "chapter_title": "Algebra",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am12_002_algebra.txt",
+ "concepts": [
+  {
+   "id": "am12_002.1",
+   "title": "Matrix Order and Types",
+   "definition": "A matrix is a rectangular array of numbers arranged in rows and columns; an m x n matrix has m rows and n columns. Special types include diagonal, scalar, identity, zero, row and column matrices, and square matrices with equal rows and columns.",
+   "formula": "-",
+   "key_idea": "Two matrices are comparable for equality only when they have the same order, and they add or subtract element-wise only when their orders match. The identity matrix acts like the number 1 in matrix multiplication.",
+   "question_patterns": [
+    "If a matrix has {m} rows and {n} columns, what is its order?",
+    "Classify the matrix [[{a}, 0], [0, {d}]] by type.",
+    "When can two matrices A and B be added?",
+    "What is a scalar matrix?",
+    "State the order of the identity matrix of size {n}."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [],
+   "compute_steps": [
     {
-      "id": "am12_002.1",
-      "title": "Matrix Order and Types",
-      "definition": "A matrix is a rectangular array of numbers arranged in rows and columns; an m x n matrix has m rows and n columns. Special types include diagonal, scalar, identity, zero, row and column matrices, and square matrices with equal rows and columns.",
-      "formula": "-",
-      "key_idea": "Two matrices are comparable for equality only when they have the same order, and they add or subtract element-wise only when their orders match. The identity matrix acts like the number 1 in matrix multiplication.",
-      "question_patterns": [
-        "If a matrix has {m} rows and {n} columns, what is its order?",
-        "Classify the matrix [[{a}, 0], [0, {d}]] by type.",
-        "When can two matrices A and B be added?",
-        "What is a scalar matrix?",
-        "State the order of the identity matrix of size {n}."
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": []
-    },
-    {
-      "id": "am12_002.2",
-      "title": "Determinant of Order Two",
-      "definition": "The determinant of a 2 x 2 matrix [[a, b], [c, d]] is the single number ad - bc obtained by cross-multiplying the leading diagonal and subtracting the cross product of the other diagonal.",
-      "formula": "det = a * d - b * c",
-      "key_idea": "A determinant is defined only for square matrices and is written as vertical bars. A square matrix is invertible exactly when its determinant is non-zero.",
-      "question_patterns": [
-        "Find the determinant of [[{a}, {b}], [{c}, {d}]].",
-        "Evaluate |A| where A = [[{a}, {b}], [{c}, {d}]].",
-        "For what value of k does the matrix [[k, {b}], [{c}, {d}]] have zero determinant?",
-        "Does the matrix [[{a}, {b}], [{c}, {d}]] have an inverse? Justify using its determinant."
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"compute": "det = a * d - b * c"}
-      ]
-    },
-    {
-      "id": "am12_002.3",
-      "title": "Determinant by Cofactor Expansion",
-      "definition": "A 3 x 3 determinant expands along any row or column as a sum of entries times their cofactors, where a cofactor is the signed minor: the 2 x 2 determinant left after deleting the entry's row and column, with sign given by the checkerboard pattern.",
-      "formula": "det = a * (e * i - f * h) - b * (d * i - f * g) + c * (d * h - e * g)",
-      "key_idea": "Choosing the row or column with the most zeros minimises the work, since a zero entry contributes nothing regardless of its cofactor.",
-      "question_patterns": [
-        "Evaluate the determinant [[{a}, {b}, {c}], [{d}, {e}, {f}], [{g}, {h}, {i}]].",
-        "Find the minor and cofactor of element {a} in the determinant [[{a}, {b}, {c}], [{d}, {e}, {f}], [{g}, {h}, {i}]].",
-        "Expand the 3 x 3 determinant along the first row.",
-        "Use cofactor expansion to show the matrix [[1, {b}, {c}], [{d}, 1, {f}], [{g}, {h}, 1]] has determinant 1 + {b} * {f} * {g} + {c} * {d} * {h} - {c} - {b} * {d} - {f} * {g}."
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"compute": "m11 = e * i - f * h"},
-        {"compute": "m12 = d * i - f * g"},
-        {"compute": "m13 = d * h - e * g"},
-        {"compute": "det = a * m11 - b * m12 + c * m13"}
-      ]
-    },
-    {
-      "id": "am12_002.4",
-      "title": "Matrix Product Entries",
-      "definition": "The product AB is defined when A has as many columns as B has rows, and the entry in row i column j of AB is the sum of products of row i of A with column j of B. For 2 x 2 matrices the top-left entry is a11*b11 + a12*b21.",
-      "formula": "c11 = a11 * b11 + a12 * b21",
-      "key_idea": "Matrix multiplication is generally not commutative: AB differs from BA. Each entry costs a row-times-column inner product, which is why order matters in the computation itself.",
-      "question_patterns": [
-        "Find the product [[{a11}, {a12}], [{a21}, {a22}]] [[{b11}, {b12}], [{b21}, {b22}]].",
-        "Compute the entry in the first row and first column of AB for the given 2 x 2 matrices.",
-        "Is matrix multiplication commutative? Illustrate with a 2 x 2 example.",
-        "If A is 2 x 3 and B is 3 x 2, what is the order of AB?"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"compute": "c11 = a11 * b11 + a12 * b21"},
-        {"compute": "c12 = a11 * b12 + a12 * b22"},
-        {"compute": "c21 = a21 * b11 + a22 * b21"},
-        {"compute": "c22 = a21 * b12 + a22 * b22"}
-      ]
-    },
-    {
-      "id": "am12_002.5",
-      "title": "Area of Triangle by Determinant",
-      "definition": "The area of a triangle with vertices (x1, y1), (x2, y2), (x3, y3) equals half the absolute value of the determinant x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2). The three points are collinear exactly when this expression is zero.",
-      "formula": "area = abs(x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)) / 2",
-      "key_idea": "A zero signed area means the three points lie on one line, so the same determinant doubles as a collinearity test.",
-      "question_patterns": [
-        "Find the area of the triangle with vertices ({x1}, {y1}), ({x2}, {y2}) and ({x3}, {y3}).",
-        "Using determinants, check whether the points ({x1}, {y1}), ({x2}, {y2}), ({x3}, {y3}) are collinear.",
-        "For what value of k are the points ({x1}, {y1}), (k, {y2}), ({x3}, {y3}) collinear?",
-        "Write the determinant formula for the area of a triangle."
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"compute": "twice = x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)"},
-        {"compute": "area = abs(twice) / 2"}
-      ]
-    },
-    {
-      "id": "am12_002.6",
-      "title": "Symmetric and Skew Symmetric Matrices",
-      "definition": "A square matrix A is symmetric when its transpose equals itself (A' = A), and skew symmetric when its transpose equals its negative (A' = -A). Every skew symmetric matrix has zeros on its main diagonal.",
-      "formula": "-",
-      "key_idea": "For any square matrix, A + A' is symmetric and A - A' is skew symmetric, which decomposes A into a symmetric part plus a skew symmetric part. A' means the transpose: rows and columns interchanged.",
-      "question_patterns": [
-        "Show that A = [[{a}, {b}], [{b}, {d}]] is symmetric.",
-        "If A is a skew symmetric matrix, what is a_ii for every diagonal element?",
-        "Express any square matrix as the sum of a symmetric and a skew symmetric matrix.",
-        "Check whether B = [[0, {b}], [-{b}, 0]] is skew symmetric.",
-        "Define the transpose of a matrix and state when a matrix equals its own transpose."
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": []
-    },
-    {
-      "id": "am12_002.7",
-      "title": "Solving Systems by Cramer and Inverse Methods",
-      "definition": "A system of linear equations with square coefficient matrix A and column vector of constants B solves as X = A-inverse B when the determinant of A is non-zero. Cramer's rule gives each unknown as the ratio of two determinants: replace the unknown's column in A by B for the numerator determinant, and divide by the determinant of A.",
-      "formula": "x = Dx / D",
-      "key_idea": "The system has a unique solution exactly when the determinant of the coefficient matrix is non-zero; a zero determinant means either no solution or infinitely many, and the row reduction method distinguishes those cases.",
-      "question_patterns": [
-        "Solve the system {a}x + {b}y = {e}, {c}x + {d}y = {f} using Cramer's rule.",
-        "Solve the given system of equations using the inverse of the coefficient matrix.",
-        "For what condition on the determinant does AX = B have a unique solution?",
-        "Use the matrix method to solve: x + y = {e}, {c}x - y = {f}.",
-        "What does a zero determinant of the coefficient matrix indicate about the system?"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": []
-    },
-    {
-      "id": "am12_002.8",
-      "title": "Leontief Input-Output Model",
-      "definition": "In the two-sector Leontief input-output model, each industry consumes a fraction of another industry's output to produce its own. Writing A for the input-coefficient matrix and D for final demand, the gross output vector solves X = (I - A) inverse D, where I is the identity.",
-      "formula": "-",
-      "key_idea": "The model computes how much each sector must produce in total so that both internal consumption and the final demand are met; production is viable only when the column sums of the technology matrix stay below 1.",
-      "question_patterns": [
-        "In a two-sector economy with technology matrix A and demand D, explain how gross output X is determined.",
-        "Write the matrix equation of the Leontief input-output model for two industries.",
-        "Why must each column sum of the input-coefficient matrix stay below 1 for production to be viable?",
-        "If sector 1 uses 0.2 of its own output and 0.3 of sector 2's output, write the first row of the technology matrix."
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": []
+     "step": 1,
+     "action": "expand the determinant or matrix product entry",
+     "explain": "expand the determinant or matrix product entry: det = 8 * 0 - 2 * 3 gives -6",
+     "compute": "det = 8 * 0 - 2 * 3"
     }
-  ],
-  "worked_examples": [
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "am12_002.2",
+   "title": "Determinant of Order Two",
+   "definition": "The determinant of a 2 x 2 matrix [[a, b], [c, d]] is the single number ad - bc obtained by cross-multiplying the leading diagonal and subtracting the cross product of the other diagonal.",
+   "formula": "det = a * d - b * c",
+   "key_idea": "A determinant is defined only for square matrices and is written as vertical bars. A square matrix is invertible exactly when its determinant is non-zero.",
+   "question_patterns": [
+    "Find the determinant of [[{a}, {b}], [{c}, {d}]].",
+    "Evaluate |A| where A = [[{a}, {b}], [{c}, {d}]].",
+    "For what value of k does the matrix [[k, {b}], [{c}, {d}]] have zero determinant?",
+    "Does the matrix [[{a}, {b}], [{c}, {d}]] have an inverse? Justify using its determinant."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "q": "Find the determinant of [[3, 4], [2, 5]] and state whether the matrix is invertible.",
-      "a": "det = 3 x 5 - 4 x 2 = 15 - 8 = 7. The determinant is non-zero, so the matrix has an inverse."
+     "compute": "det = a * d - b * c"
+    }
+   ]
+  },
+  {
+   "id": "am12_002.3",
+   "title": "Determinant by Cofactor Expansion",
+   "definition": "A 3 x 3 determinant expands along any row or column as a sum of entries times their cofactors, where a cofactor is the signed minor: the 2 x 2 determinant left after deleting the entry's row and column, with sign given by the checkerboard pattern.",
+   "formula": "det = a * (e * i - f * h) - b * (d * i - f * g) + c * (d * h - e * g)",
+   "key_idea": "Choosing the row or column with the most zeros minimises the work, since a zero entry contributes nothing regardless of its cofactor.",
+   "question_patterns": [
+    "Evaluate the determinant [[{a}, {b}, {c}], [{d}, {e}, {f}], [{g}, {h}, {i}]].",
+    "Find the minor and cofactor of element {a} in the determinant [[{a}, {b}, {c}], [{d}, {e}, {f}], [{g}, {h}, {i}]].",
+    "Expand the 3 x 3 determinant along the first row.",
+    "Use cofactor expansion to show the matrix [[1, {b}, {c}], [{d}, 1, {f}], [{g}, {h}, 1]] has determinant 1 + {b} * {f} * {g} + {c} * {d} * {h} - {c} - {b} * {d} - {f} * {g}."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "compute": "m11 = e * i - f * h"
     },
     {
-      "q": "Find the area of the triangle with vertices (1, 2), (4, 6) and (5, 1).",
-      "a": "Twice the area = 1 x (6 - 1) + 4 x (1 - 2) + 5 x (2 - 6) = 5 - 4 - 20 = -19. Area = |-19| / 2 = 9.5 square units. The non-zero value also confirms the points are not collinear."
-    }
-  ],
-  "exercises": [
+     "compute": "m12 = d * i - f * g"
+    },
     {
-      "group": "drill",
-      "items": [
-        "Evaluate the determinant [[7, -2], [4, 3]].",
-        "Compute AB for A = [[2, 1], [0, 3]] and B = [[1, 4], [5, 2]], then check AB is not equal to BA.",
-        "Use cofactor expansion to evaluate the determinant [[2, 0, 1], [3, 1, 2], [1, 4, 0]].",
-        "Find k so that the points (2, 3), (4, k) and (6, 11) are collinear.",
-        "Solve 2x + 3y = 13 and x - y = -1 by the inverse matrix method.",
-        "Identify the type of matrix [[5, 0, 0], [0, 5, 0], [0, 0, 5]]."
-      ]
+     "compute": "m13 = d * h - e * g"
+    },
+    {
+     "compute": "det = a * m11 - b * m12 + c * m13"
     }
-  ]
+   ]
+  },
+  {
+   "id": "am12_002.4",
+   "title": "Matrix Product Entries",
+   "definition": "The product AB is defined when A has as many columns as B has rows, and the entry in row i column j of AB is the sum of products of row i of A with column j of B. For 2 x 2 matrices the top-left entry is a11*b11 + a12*b21.",
+   "formula": "c11 = a11 * b11 + a12 * b21",
+   "key_idea": "Matrix multiplication is generally not commutative: AB differs from BA. Each entry costs a row-times-column inner product, which is why order matters in the computation itself.",
+   "question_patterns": [
+    "Find the product [[{a11}, {a12}], [{a21}, {a22}]] [[{b11}, {b12}], [{b21}, {b22}]].",
+    "Compute the entry in the first row and first column of AB for the given 2 x 2 matrices.",
+    "Is matrix multiplication commutative? Illustrate with a 2 x 2 example.",
+    "If A is 2 x 3 and B is 3 x 2, what is the order of AB?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "compute": "c11 = a11 * b11 + a12 * b21"
+    },
+    {
+     "compute": "c12 = a11 * b12 + a12 * b22"
+    },
+    {
+     "compute": "c21 = a21 * b11 + a22 * b21"
+    },
+    {
+     "compute": "c22 = a21 * b12 + a22 * b22"
+    }
+   ]
+  },
+  {
+   "id": "am12_002.5",
+   "title": "Area of Triangle by Determinant",
+   "definition": "The area of a triangle with vertices (x1, y1), (x2, y2), (x3, y3) equals half the absolute value of the determinant x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2). The three points are collinear exactly when this expression is zero.",
+   "formula": "area = abs(x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)) / 2",
+   "key_idea": "A zero signed area means the three points lie on one line, so the same determinant doubles as a collinearity test.",
+   "question_patterns": [
+    "Find the area of the triangle with vertices ({x1}, {y1}), ({x2}, {y2}) and ({x3}, {y3}).",
+    "Using determinants, check whether the points ({x1}, {y1}), ({x2}, {y2}), ({x3}, {y3}) are collinear.",
+    "For what value of k are the points ({x1}, {y1}), (k, {y2}), ({x3}, {y3}) collinear?",
+    "Write the determinant formula for the area of a triangle."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "compute": "twice = x1 * (y2 - y3) + x2 * (y3 - y1) + x3 * (y1 - y2)"
+    },
+    {
+     "compute": "area = abs(twice) / 2"
+    }
+   ]
+  },
+  {
+   "id": "am12_002.6",
+   "title": "Symmetric and Skew Symmetric Matrices",
+   "definition": "A square matrix A is symmetric when its transpose equals itself (A' = A), and skew symmetric when its transpose equals its negative (A' = -A). Every skew symmetric matrix has zeros on its main diagonal.",
+   "formula": "-",
+   "key_idea": "For any square matrix, A + A' is symmetric and A - A' is skew symmetric, which decomposes A into a symmetric part plus a skew symmetric part. A' means the transpose: rows and columns interchanged.",
+   "question_patterns": [
+    "Show that A = [[{a}, {b}], [{b}, {d}]] is symmetric.",
+    "If A is a skew symmetric matrix, what is a_ii for every diagonal element?",
+    "Express any square matrix as the sum of a symmetric and a skew symmetric matrix.",
+    "Check whether B = [[0, {b}], [-{b}, 0]] is skew symmetric.",
+    "Define the transpose of a matrix and state when a matrix equals its own transpose."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "expand the determinant or matrix product entry",
+     "explain": "expand the determinant or matrix product entry: det = -6 * 6 - 8 * -6 gives 12",
+     "compute": "det = -6 * 6 - 8 * -6"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "am12_002.7",
+   "title": "Solving Systems by Cramer and Inverse Methods",
+   "definition": "A system of linear equations with square coefficient matrix A and column vector of constants B solves as X = A-inverse B when the determinant of A is non-zero. Cramer's rule gives each unknown as the ratio of two determinants: replace the unknown's column in A by B for the numerator determinant, and divide by the determinant of A.",
+   "formula": "x = Dx / D",
+   "key_idea": "The system has a unique solution exactly when the determinant of the coefficient matrix is non-zero; a zero determinant means either no solution or infinitely many, and the row reduction method distinguishes those cases.",
+   "question_patterns": [
+    "Solve the system {a}x + {b}y = {e}, {c}x + {d}y = {f} using Cramer's rule.",
+    "Solve the given system of equations using the inverse of the coefficient matrix.",
+    "For what condition on the determinant does AX = B have a unique solution?",
+    "Use the matrix method to solve: x + y = {e}, {c}x - y = {f}.",
+    "What does a zero determinant of the coefficient matrix indicate about the system?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 12 / 6 gives 2",
+     "compute": "t1 = 12 / 6"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "am12_002.8",
+   "title": "Leontief Input-Output Model",
+   "definition": "In the two-sector Leontief input-output model, each industry consumes a fraction of another industry's output to produce its own. Writing A for the input-coefficient matrix and D for final demand, the gross output vector solves X = (I - A) inverse D, where I is the identity.",
+   "formula": "-",
+   "key_idea": "The model computes how much each sector must produce in total so that both internal consumption and the final demand are met; production is viable only when the column sums of the technology matrix stay below 1.",
+   "question_patterns": [
+    "In a two-sector economy with technology matrix A and demand D, explain how gross output X is determined.",
+    "Write the matrix equation of the Leontief input-output model for two industries.",
+    "Why must each column sum of the input-coefficient matrix stay below 1 for production to be viable?",
+    "If sector 1 uses 0.2 of its own output and 0.3 of sector 2's output, write the first row of the technology matrix."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the mean/median/mode definition",
+     "explain": "apply the mean/median/mode definition: total = sum((23, 27, 39, 6, 4)) gives 99",
+     "compute": "total = sum((23, 27, 39, 6, 4))"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 19.8",
+     "compute": "mean = total / 5"
+    }
+   ],
+   "converted_to_compute": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "q": "Find the determinant of [[3, 4], [2, 5]] and state whether the matrix is invertible.",
+   "a": "det = 3 x 5 - 4 x 2 = 15 - 8 = 7. The determinant is non-zero, so the matrix has an inverse."
+  },
+  {
+   "q": "Find the area of the triangle with vertices (1, 2), (4, 6) and (5, 1).",
+   "a": "Twice the area = 1 x (6 - 1) + 4 x (1 - 2) + 5 x (2 - 6) = 5 - 4 - 20 = -19. Area = |-19| / 2 = 9.5 square units. The non-zero value also confirms the points are not collinear."
+  }
+ ],
+ "exercises": [
+  {
+   "group": "drill",
+   "items": [
+    "Evaluate the determinant [[7, -2], [4, 3]].",
+    "Compute AB for A = [[2, 1], [0, 3]] and B = [[1, 4], [5, 2]], then check AB is not equal to BA.",
+    "Use cofactor expansion to evaluate the determinant [[2, 0, 1], [3, 1, 2], [1, 4, 0]].",
+    "Find k so that the points (2, 3), (4, k) and (6, 11) are collinear.",
+    "Solve 2x + 3y = 13 and x - y = -1 by the inverse matrix method.",
+    "Identify the type of matrix [[5, 0, 0], [0, 5, 0], [0, 0, 5]]."
+   ]
+  }
+ ]
 }

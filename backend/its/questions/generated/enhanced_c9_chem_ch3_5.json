@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using household materials to demonstrate that ionic compounds conduct electricity in solution but not in solid state. List materials, procedure, observation, and conclusion linking to ion mobility.",
      "a": "Materials: Table salt (NaCl), two copper wires, 9V battery, small LED bulb, two beakers, water. Procedure: (1) Set up circuit with battery, LED, wires - leave gap between wires. (2) Place solid NaCl in gap - LED doesn't glow. (3) Dissolve NaCl in water in beaker, dip wire ends in solution - LED glows. Observation: Solid salt doesn't conduct; salt solution conducts. Conclusion: In solid, ions fixed in lattice; in solution, ions mobile and carry current. Poor answer using sugar solution (covalent) shows they can't distinguish ionic vs covalent. Missing \"molten state\" mention is acceptable for household experiment but should be noted as limitation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ionic bonding is the electrostatic attraction between positively charged metal cations and negatively charged non-metal anions formed through the complete transfer of one or more valence electrons from metal atoms to non-metal atoms, resulting in both species achieving stable noble gas electron ______.",
+     "a": "configurations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe common table salt (NaCl) in your kitchen - it is a white crystalline solid that dissolves in water and conducts ______ when dissolved, but not as solid crystals.",
+     "a": "electricity",
+     "self_check": true
+    },
+    {
+     "q": "What is Ionic bonding? State the definition given in this lesson.",
+     "a": "Ionic bonding is the electrostatic attraction between positively charged metal cations and negatively charged non-metal anions formed through the complete transfer of one or more valence electrons from metal atoms to non-metal atoms, resulting in both species achieving stable noble gas electron configurations.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Ionic bonding?",
+     "a": "Students write the criss-cross method for formula writing but forget to reduce subscripts to simplest ratio.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can draw electron dot structures showing electron transfer for any binary ionic compound (e.g., NaCl, MgO, CaCl₂, Al₂O₃), write the correct chemical formula using criss-cross valency method, and explain why ionic compounds conduct electricity only in molten or aqueous state but not in solid state.",
+     "self_check": true
     }
    ]
   }

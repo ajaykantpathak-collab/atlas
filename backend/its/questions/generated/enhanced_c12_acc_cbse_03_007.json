@@ -34,6 +34,36 @@
      "q": "Create a new problem: A firm of 3 partners (P, Q, R = 2:2:1) has a JLP of ₹30 lakh (SV ₹4 lakh, maintained at SV). Q retires. The firm does NOT surrender the policy but continues it for P and R. The insurance company allows continuation with reduced sum assured ₹20 lakh (SV ₹2.5 lakh). Draft the journal entries for: (a) adjusting the policy to new SV, (b) settling Q's share.",
      "a": "(a) Policy reduction:\nJoint Life Policy A/c Dr. ₹1,50,000 (4,00,000 - 2,50,000)\nTo P's Capital A/c ₹60,000 (2/5)\nTo Q's Capital A/c ₹60,000 (2/5)\nTo R's Capital A/c ₹30,000 (1/5)\n(Loss on reduction shared in old ratio 2:2:1)\n(b) Q's share settled:\nQ's Capital A/c Dr. ₹60,000\nTo Q's Loan A/c ₹60,000\n(Q's share of policy loss transferred to his loan)\nAlternative if policy surrendered and new one taken: Bank Dr. ₹4,00,000 → JLP Cr. ₹4,00,000; JLP Dr. ₹4,00,000 → Partners' Capital Cr. ₹4,00,000 (old ratio); then new premium paid → P&L Dr.\nA good answer shows understanding that policy value change is a gain/loss shared by ALL partners in old ratio, even if policy continues. A poor answer ignores the loss on reduction or shares it in new ratio.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Joint Life Policy (JLP) is an insurance policy taken by a ______ firm on the lives of all partners jointly, where the sum assured becomes payable on the death of any partner or at maturity, whichever is earlier.",
+     "a": "partnership",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ firm where three partners — Rahul, Priya, and Amit — have been running a successful manufacturing business for 10 years.",
+     "a": "partnership",
+     "self_check": true
+    },
+    {
+     "q": "What is Joint Life Policy (JLP)? State the definition given in this lesson.",
+     "a": "Joint Life Policy (JLP) is an insurance policy taken by a partnership firm on the lives of all partners jointly, where the sum assured becomes payable on the death of any partner or at maturity, whichever is earlier.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a partnership firm where three partners — Rahul, Priya, and Amit — have been running a successful manufacturing business for ______ years.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Joint Life Policy (JLP)?",
+     "a": "Students often believe that on a partner's death, the full sum assured of an Individual Life Policy goes entirely to the deceased partner's capital account.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) distinguish between JLP and ILP accounting treatment in retirement/death scenarios, (2) pass correct journal entries for premium payments, surrender value adjustments, and policy maturity/death claims, and (3) prepare the Joint Life Policy Account and Individual Life Policy Account under both the.",
+     "self_check": true
     }
    ]
   }

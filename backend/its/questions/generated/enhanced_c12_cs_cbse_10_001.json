@@ -34,6 +34,36 @@
      "q": "Design a real-world scenario (Indian context) where choosing the wrong file mode (text vs binary) would cause a silent data corruption bug that is hard to detect. Describe the scenario, the wrong mode used, the symptom, and why it is silent.",
      "a": "Scenario: A banking app stores transaction records (date, amount, account) using Python's pickle in binary mode. A developer later decides to \"view\" the file and opens it in text mode ('r') to print contents, then accidentally saves it (e.g., via an editor auto-save). The pickle byte stream gets corrupted by UTF-8 decoding/re-encoding (invalid bytes replaced, newline translation on Windows). Symptom: Next run, pickle.load() raises EOFError or unpicklingError — but only for that file; other files work. Silent because: no error at save time, corruption detected only on next read, and the developer may blame \"pickle bug\" not their text-mode edit. Correct answer must identify newline translation (CRLF↔LF) and encoding replacement as the silent corruption mechanisms.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: File handling is the process of storing data ______ on secondary storage (hard disk, SSD) using named files, allowing programs to read from and write to these files across multiple executions.",
+     "a": "persistently",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you built a student mark tracker in Python that runs perfectly — but every time you close the ______, all entered marks vanish.",
+     "a": "program",
+     "self_check": true
+    },
+    {
+     "q": "What is File handling? State the definition given in this lesson.",
+     "a": "File handling is the process of storing data persistently on secondary storage (hard disk, SSD) using named files, allowing programs to read from and write to these files across multiple executions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In Python, files are categorised as text files (human-readable, store data as characters with encoding like UTF-______) and binary files (store raw bytes, used for images, audio, executables, pickled objects).",
+     "a": "8",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about File handling?",
+     "a": "Students believe file extension determines file type: \".txt means text file, .dat/.bin means binary file\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can distinguish between text and binary files, explain why file handling is necessary for data persistence, identify the three essential steps (open, process, close), and predict the behaviour of a Python program when opening a file in different modes ('r', 'w', 'a', 'rb', 'wb').",
+     "self_check": true
     }
    ]
   }

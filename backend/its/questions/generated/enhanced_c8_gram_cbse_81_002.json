@@ -1,0 +1,46 @@
+{
+ "catalog": "enhanced_c8_gram_cbse_81_002",
+ "concepts": [
+  {
+   "id": "enh:c8_gram_cbse_81_002",
+   "title": "c8_gram_cbse_81_002",
+   "questions": [
+    {
+     "q": "Can this go passive? 'The sun rises in the east.'",
+     "a": "No — 'rises' is intransitive; nothing receives the action. A wrong answer 'The east is risen by the sun' shows the student moves words without checking transitivity.",
+     "self_check": true
+    },
+    {
+     "q": "Better active or passive: 'The storm destroyed the crops.'",
+     "a": "Either works, but passive 'The crops were destroyed' is better when the damage is the news — the storm is already known. The defensible answer matters more than the choice.",
+     "self_check": true
+    },
+    {
+     "q": "Why is 'was happened' always wrong?",
+     "a": "'Happen' is intransitive — no object exists to promote to subject, so there is no legal passive. A wrong answer accepting it shows the transitivity check was skipped.",
+     "self_check": true
+    },
+    {
+     "q": "Some verbs cannot go passive and some sentences should not: ______ verbs (sleep, arrive, happen) have no object to promote — 'The baby was slept' is impossible.",
+     "a": "intransitive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Some verbs cannot go passive and some sentences should not: ______ verbs (sleep, arrive, happen) have no object to promote — 'The baby was slept' is impossible.",
+     "a": "intransitive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ first: 'The accident happened' cannot invert — there is no object to move; 'was happened' is a classic wrong build.",
+     "a": "Legality",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student refuses passive for intransitive verbs, identifies when passive is the better choice (result-focus, unknown doer, formal/scientific register), and defends keeping active when the doer is the point.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,6 +1,382 @@
 {
- "catalog": "catalog_class12_accountancy_leac204",
+ "catalog": "catalog_class12_accountancy_leac204.json",
  "concepts": [
+  {
+   "id": "leac.204.2.1",
+   "title": "Significance of Financial Statement Analysis",
+   "converted_to_compute": true,
+   "formula": "analysis_output = financial_strengths + financial_weaknesses",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "analysis_output = financial_strengths + financial_weaknesses",
+     "compute": "analysis_output = financial_strengths + financial_weaknesses"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Significance of Financial Statement Analysis: given financial_strengths = 96, financial_weaknesses = 23, find analysis output.",
+     "a": "119",
+     "self_check": false
+    },
+    {
+     "q": "For Significance of Financial Statement Analysis: given financial_strengths = 60, financial_weaknesses = 11.8, find analysis output.",
+     "a": "71.8",
+     "self_check": false
+    },
+    {
+     "q": "For Significance of Financial Statement Analysis: given financial_strengths = 58, financial_weaknesses = 16.2, find analysis output.",
+     "a": "74.2",
+     "self_check": false
+    },
+    {
+     "q": "For Significance of Financial Statement Analysis: given financial_strengths = 36, financial_weaknesses = 91, find analysis output.",
+     "a": "127",
+     "self_check": false
+    },
+    {
+     "q": "For Significance of Financial Statement Analysis: given financial_strengths = 14.9, financial_weaknesses = 7.6, find analysis output.",
+     "a": "22.5",
+     "self_check": false
+    },
+    {
+     "q": "For Significance of Financial Statement Analysis: given financial_strengths = 48, financial_weaknesses = 5.7, find analysis output.",
+     "a": "53.7",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leac.204.3.1",
+   "title": "Objectives of Financial Statement Analysis",
+   "converted_to_compute": true,
+   "formula": "analysis_goals = profitability_judgement + solvency_test + comparison_base",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "analysis_goals = profitability_judgement + solvency_test + comparison_base",
+     "compute": "analysis_goals = profitability_judgement + solvency_test + comparison_base"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Objectives of Financial Statement Analysis: given profitability_judgement = 74, solvency_test = 112, comparison_base = 6.4, find analysis goals.",
+     "a": "192.4",
+     "self_check": false
+    },
+    {
+     "q": "For Objectives of Financial Statement Analysis: given profitability_judgement = 38, solvency_test = 112, comparison_base = 16.9, find analysis goals.",
+     "a": "166.9",
+     "self_check": false
+    },
+    {
+     "q": "For Objectives of Financial Statement Analysis: given profitability_judgement = 14, solvency_test = 70, comparison_base = 17, find analysis goals.",
+     "a": "101",
+     "self_check": false
+    },
+    {
+     "q": "For Objectives of Financial Statement Analysis: given profitability_judgement = 70, solvency_test = 117, comparison_base = 12.6, find analysis goals.",
+     "a": "199.6",
+     "self_check": false
+    },
+    {
+     "q": "For Objectives of Financial Statement Analysis: given profitability_judgement = 38, solvency_test = 13, comparison_base = 19.3, find analysis goals.",
+     "a": "70.3",
+     "self_check": false
+    },
+    {
+     "q": "For Objectives of Financial Statement Analysis: given profitability_judgement = 53, solvency_test = 83, comparison_base = 4.8, find analysis goals.",
+     "a": "140.8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leac.204.4.1",
+   "title": "Tools of Financial Analysis",
+   "converted_to_compute": true,
+   "formula": "toolkit = comparative_statements + common_size_statements + trend_analysis + ratio_analysis + cash_flow_analysis",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "toolkit = comparative_statements + common_size_statements + trend_analysis + ratio_analysis + cash_flow_analysis",
+     "compute": "toolkit = comparative_statements + common_size_statements + trend_analysis + ratio_analysis + cash_flow_analysis"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Tools of Financial Analysis: given comparative_statements = 26, common_size_statements = 7.5, trend_analysis = 38, ratio_analysis = 2.8, cash_flow_analysis = 84, find toolkit.",
+     "a": "158.3",
+     "self_check": false
+    },
+    {
+     "q": "For Tools of Financial Analysis: given comparative_statements = 56, common_size_statements = 4.8, trend_analysis = 39, ratio_analysis = 40, cash_flow_analysis = 46, find toolkit.",
+     "a": "185.8",
+     "self_check": false
+    },
+    {
+     "q": "For Tools of Financial Analysis: given comparative_statements = 53, common_size_statements = 12.5, trend_analysis = 73, ratio_analysis = 35, cash_flow_analysis = 73, find toolkit.",
+     "a": "246.5",
+     "self_check": false
+    },
+    {
+     "q": "For Tools of Financial Analysis: given comparative_statements = 7.9, common_size_statements = 9.8, trend_analysis = 3.6, ratio_analysis = 33, cash_flow_analysis = 80, find toolkit.",
+     "a": "134.3",
+     "self_check": false
+    },
+    {
+     "q": "For Tools of Financial Analysis: given comparative_statements = 87, common_size_statements = 16.4, trend_analysis = 18.5, ratio_analysis = 57, cash_flow_analysis = 50, find toolkit.",
+     "a": "228.9",
+     "self_check": false
+    },
+    {
+     "q": "For Tools of Financial Analysis: given comparative_statements = 78, common_size_statements = 18.1, trend_analysis = 74, ratio_analysis = 81, cash_flow_analysis = 90, find toolkit.",
+     "a": "341.1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leac.204.5.1",
+   "title": "Comparative Statement: Absolute Change",
+   "converted_to_compute": true,
+   "formula": "absolute_change = current_year_figure - previous_year_figure",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "absolute_change = current_year_figure - previous_year_figure",
+     "compute": "absolute_change = current_year_figure - previous_year_figure"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Comparative Statement: Absolute Change: given current_year_figure = 85, previous_year_figure = 6.6, find absolute change.",
+     "a": "78.4",
+     "self_check": false
+    },
+    {
+     "q": "For Comparative Statement: Absolute Change: given current_year_figure = 97, previous_year_figure = 52, find absolute change.",
+     "a": "45",
+     "self_check": false
+    },
+    {
+     "q": "For Comparative Statement: Absolute Change: given current_year_figure = 73, previous_year_figure = 8, find absolute change.",
+     "a": "65",
+     "self_check": false
+    },
+    {
+     "q": "For Comparative Statement: Absolute Change: given current_year_figure = 22, previous_year_figure = 57, find absolute change.",
+     "a": "-35",
+     "self_check": false
+    },
+    {
+     "q": "For Comparative Statement: Absolute Change: given current_year_figure = 49, previous_year_figure = 39, find absolute change.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "For Comparative Statement: Absolute Change: given current_year_figure = 108, previous_year_figure = 1.6, find absolute change.",
+     "a": "106.4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leac.204.5.2",
+   "title": "Comparative Statement: Percentage Change",
+   "converted_to_compute": true,
+   "formula": "percentage_change = absolute_change / previous_year_figure * 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "percentage_change = absolute_change / previous_year_figure * 100",
+     "compute": "percentage_change = absolute_change / previous_year_figure * 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Comparative Statement: Percentage Change: given absolute_change = 92, previous_year_figure = 92, find percentage change.",
+     "a": "100",
+     "self_check": false
+    },
+    {
+     "q": "For Comparative Statement: Percentage Change: given absolute_change = 69, previous_year_figure = 52, find percentage change.",
+     "a": "132.692",
+     "self_check": false
+    },
+    {
+     "q": "For Comparative Statement: Percentage Change: given absolute_change = 74, previous_year_figure = 53, find percentage change.",
+     "a": "139.623",
+     "self_check": false
+    },
+    {
+     "q": "For Comparative Statement: Percentage Change: given absolute_change = 79, previous_year_figure = 66, find percentage change.",
+     "a": "119.697",
+     "self_check": false
+    },
+    {
+     "q": "For Comparative Statement: Percentage Change: given absolute_change = 64, previous_year_figure = 22, find percentage change.",
+     "a": "290.909",
+     "self_check": false
+    },
+    {
+     "q": "For Comparative Statement: Percentage Change: given absolute_change = 61, previous_year_figure = 42, find percentage change.",
+     "a": "145.238",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leac.204.5.3",
+   "title": "Profit after Tax in a Comparative Statement",
+   "converted_to_compute": true,
+   "formula": "profit_after_tax = profit_before_tax - profit_before_tax * tax_rate",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "profit_after_tax = profit_before_tax - profit_before_tax * tax_rate",
+     "compute": "profit_after_tax = profit_before_tax - profit_before_tax * tax_rate"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Profit after Tax in a Comparative Statement: given profit_before_tax = 57, tax_rate = 88, find profit after tax.",
+     "a": "-4959",
+     "self_check": false
+    },
+    {
+     "q": "For Profit after Tax in a Comparative Statement: given profit_before_tax = 116, tax_rate = 8.5, find profit after tax.",
+     "a": "-870",
+     "self_check": false
+    },
+    {
+     "q": "For Profit after Tax in a Comparative Statement: given profit_before_tax = 23, tax_rate = 72, find profit after tax.",
+     "a": "-1633",
+     "self_check": false
+    },
+    {
+     "q": "For Profit after Tax in a Comparative Statement: given profit_before_tax = 111, tax_rate = 17.2, find profit after tax.",
+     "a": "-1798.2",
+     "self_check": false
+    },
+    {
+     "q": "For Profit after Tax in a Comparative Statement: given profit_before_tax = 42, tax_rate = 79, find profit after tax.",
+     "a": "-3276",
+     "self_check": false
+    },
+    {
+     "q": "For Profit after Tax in a Comparative Statement: given profit_before_tax = 90, tax_rate = 51, find profit after tax.",
+     "a": "-4500",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leac.204.6.1",
+   "title": "Common Size Statement Percentage",
+   "converted_to_compute": true,
+   "formula": "common_size_percentage = item_amount / base_amount * 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "common_size_percentage = item_amount / base_amount * 100",
+     "compute": "common_size_percentage = item_amount / base_amount * 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Common Size Statement Percentage: given item_amount = 74, base_amount = 47, find common size percentage.",
+     "a": "157.447",
+     "self_check": false
+    },
+    {
+     "q": "For Common Size Statement Percentage: given item_amount = 57, base_amount = 91, find common size percentage.",
+     "a": "62.6374",
+     "self_check": false
+    },
+    {
+     "q": "For Common Size Statement Percentage: given item_amount = 15.7, base_amount = 82, find common size percentage.",
+     "a": "19.1463",
+     "self_check": false
+    },
+    {
+     "q": "For Common Size Statement Percentage: given item_amount = 63, base_amount = 98, find common size percentage.",
+     "a": "64.2857",
+     "self_check": false
+    },
+    {
+     "q": "For Common Size Statement Percentage: given item_amount = 83, base_amount = 57, find common size percentage.",
+     "a": "145.614",
+     "self_check": false
+    },
+    {
+     "q": "For Common Size Statement Percentage: given item_amount = 53, base_amount = 80, find common size percentage.",
+     "a": "66.25",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leac.204.7.1",
+   "title": "Limitations of Financial Analysis",
+   "converted_to_compute": true,
+   "formula": "analysis_reliability = statement_quality - price_level_effects - non_monetary_gaps",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "analysis_reliability = statement_quality - price_level_effects - non_monetary_gaps",
+     "compute": "analysis_reliability = statement_quality - price_level_effects - non_monetary_gaps"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Limitations of Financial Analysis: given statement_quality = 36, price_level_effects = 41, non_monetary_gaps = 18.9, find analysis reliability.",
+     "a": "-23.9",
+     "self_check": false
+    },
+    {
+     "q": "For Limitations of Financial Analysis: given statement_quality = 66, price_level_effects = 90, non_monetary_gaps = 19.2, find analysis reliability.",
+     "a": "-43.2",
+     "self_check": false
+    },
+    {
+     "q": "For Limitations of Financial Analysis: given statement_quality = 2.2, price_level_effects = 84, non_monetary_gaps = 3.8, find analysis reliability.",
+     "a": "-85.6",
+     "self_check": false
+    },
+    {
+     "q": "For Limitations of Financial Analysis: given statement_quality = 105, price_level_effects = 9.7, non_monetary_gaps = 11.2, find analysis reliability.",
+     "a": "84.1",
+     "self_check": false
+    },
+    {
+     "q": "For Limitations of Financial Analysis: given statement_quality = 78, price_level_effects = 71, non_monetary_gaps = 6.6, find analysis reliability.",
+     "a": "0.4",
+     "self_check": false
+    },
+    {
+     "q": "For Limitations of Financial Analysis: given statement_quality = 45, price_level_effects = 62, non_monetary_gaps = 12.5, find analysis reliability.",
+     "a": "-29.5",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "leac.204.1.1",
    "title": "Meaning of Financial Statement Analysis",
@@ -28,99 +404,6 @@
     {
      "q": "Write the standard relation used for 'Meaning of Financial Statement Analysis', in plain ASCII form.",
      "a": "financial_analysis = classification_of_data + relationships_among_items + interpretation",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leac.204.2.1",
-   "title": "Significance of Financial Statement Analysis",
-   "questions": [
-    {
-     "q": "Using the method 'Significance of Financial Statement Analysis', work with: financial_strengths = 360, financial_weaknesses = 12. Carry the chain through step by step and give the final value of analysis_output.",
-     "a": "372 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Significance of Financial Statement Analysis' and work with: financial_strengths = 6, financial_weaknesses = 6. Carry the chain through step by step and give the final value of analysis_output.",
-     "a": "12 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Significance of Financial Statement Analysis' refers to.",
-     "a": "By setting statement items side by side, analysis exposes the strengths and weaknesses of a firm, and each reader -- management inside, creditors, investors and government outside -- extracts the answer to its own question.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Significance of Financial Statement Analysis'.",
-     "a": "The same analysed numbers let management steer, lenders secure and investors choose.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Significance of Financial Statement Analysis', in plain ASCII form.",
-     "a": "analysis_output = financial_strengths + financial_weaknesses",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leac.204.3.1",
-   "title": "Objectives of Financial Statement Analysis",
-   "questions": [
-    {
-     "q": "Using the method 'Objectives of Financial Statement Analysis', work with: comparison_base = 18, profitability_judgement = 500, solvency_test = 18. Carry the chain through step by step and give the final value of analysis_goals.",
-     "a": "536 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Objectives of Financial Statement Analysis' and work with: comparison_base = 10, profitability_judgement = 50000, solvency_test = 45. Carry the chain through step by step and give the final value of analysis_goals.",
-     "a": "50055 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Objectives of Financial Statement Analysis' refers to.",
-     "a": "Analysis aims at judging the earning capacity and efficiency of the firm, testing its ability to meet short-term and long-term obligations, and enabling comparison of performance across years and across firms.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Objectives of Financial Statement Analysis'.",
-     "a": "Every objective reduces to one move: put two figures beside each other and ask what the gap means.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Objectives of Financial Statement Analysis', in plain ASCII form.",
-     "a": "analysis_goals = profitability_judgement + solvency_test + comparison_base",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leac.204.4.1",
-   "title": "Tools of Financial Analysis",
-   "questions": [
-    {
-     "q": "Using the method 'Tools of Financial Analysis', work with: cash_flow_analysis = 120, common_size_statements = 256, comparative_statements = 150, ratio_analysis = 60, trend_analysis = 30. Carry the chain through step by step and give the final value of toolkit.",
-     "a": "616 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Tools of Financial Analysis' and work with: cash_flow_analysis = 120, common_size_statements = 8192, comparative_statements = 50, ratio_analysis = 300, trend_analysis = 360. Carry the chain through step by step and give the final value of toolkit.",
-     "a": "9022 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Tools of Financial Analysis' refers to.",
-     "a": "The analyst's toolkit holds comparative statements, common size statements, trend analysis, ratio analysis and cash flow analysis; the first two run side by side (horizontal) while common size percentages read down the statement (vertical).",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Tools of Financial Analysis'.",
-     "a": "Comparative work is horizontal analysis across periods; common size work is vertical analysis inside one period.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Tools of Financial Analysis', in plain ASCII form.",
-     "a": "toolkit = comparative_statements + common_size_statements + trend_analysis + ratio_analysis + cash_flow_analysis",
      "self_check": true
     }
    ]
@@ -157,130 +440,6 @@
    ]
   },
   {
-   "id": "leac.204.5.1",
-   "title": "Comparative Statement: Absolute Change",
-   "questions": [
-    {
-     "q": "Find the absolute increase or decrease between two years. Use the method 'Comparative Statement: Absolute Change'. Work with: current_year_figure = 100, previous_year_figure = 10. Carry the chain through step by step and give the final value of absolute_change.",
-     "a": "90 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Compute the change in rupees for an item in a comparative statement. Use the method 'Comparative Statement: Absolute Change'. Work with: current_year_figure = 100, previous_year_figure = 500. Carry the chain through step by step and give the final value of absolute_change.",
-     "a": "-400 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Comparative Statement: Absolute Change' refers to.",
-     "a": "In a comparative statement the change column is found by subtracting each previous year figure from the matching current year figure, and the result is read as an increase or a decrease in rupees.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Comparative Statement: Absolute Change'.",
-     "a": "A positive difference is an increase shown with a plus sign; a negative one is a decrease shown with a minus sign.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Comparative Statement: Absolute Change', in plain ASCII form.",
-     "a": "absolute_change = current_year_figure - previous_year_figure",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leac.204.5.2",
-   "title": "Comparative Statement: Percentage Change",
-   "questions": [
-    {
-     "q": "Calculate the percentage increase shown in a comparative statement. Use the method 'Comparative Statement: Percentage Change'. Work with: current_year_figure = 10, previous_year_figure = 200. Carry the chain through step by step and give the final value of percentage_change.",
-     "a": "-95 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Find the percentage decrease in a cost item between two years. Use the method 'Comparative Statement: Percentage Change'. Work with: current_year_figure = 10, previous_year_figure = 50. Carry the chain through step by step and give the final value of percentage_change.",
-     "a": "-80 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Comparative Statement: Percentage Change' refers to.",
-     "a": "The percentage column of a comparative statement divides the absolute change by the first year figure and multiplies by one hundred, showing how fast the item moved relative to where it started.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Comparative Statement: Percentage Change'.",
-     "a": "Rupees say how much moved; the percentage says how big the move was against the base, which is what makes years comparable.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Comparative Statement: Percentage Change', in plain ASCII form.",
-     "a": "percentage_change = absolute_change / previous_year_figure * 100",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leac.204.5.3",
-   "title": "Profit after Tax in a Comparative Statement",
-   "questions": [
-    {
-     "q": "Find profit after tax for both years in a comparative statement. Use the method 'Profit after Tax in a Comparative Statement'. Work with: tax_rate = 18, total_expenses = 80000, total_revenue = 50000. Carry the chain through step by step and give the final value of profit_after_tax.",
-     "a": "510000 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Compute the tax charge for each year at the given rates. Use the method 'Profit after Tax in a Comparative Statement'. Work with: tax_rate = 15, total_expenses = 80000, total_revenue = 2500. Carry the chain through step by step and give the final value of profit_after_tax.",
-     "a": "1085000 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Profit after Tax in a Comparative Statement' refers to.",
-     "a": "Each year's column in a comparative profit statement runs from total revenue, through expenses, to profit before tax, then tax at that year's rate, and finally profit after tax -- and the change columns compare the two years' bottom lines.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Profit after Tax in a Comparative Statement'.",
-     "a": "Tax belongs inside each year's column, so both the absolute and percentage comparisons of profit after tax are fair.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Profit after Tax in a Comparative Statement', in plain ASCII form.",
-     "a": "profit_after_tax = profit_before_tax - profit_before_tax * tax_rate",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leac.204.6.1",
-   "title": "Common Size Statement Percentage",
-   "questions": [
-    {
-     "q": "Using the method 'Common Size Statement Percentage', work with: item_amount = 120000, revenue_from_operations = 8000. Carry the chain through step by step and give the final value of common_size_percentage.",
-     "a": "1500 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Common Size Statement Percentage' and work with: item_amount = 8000, revenue_from_operations = 5000. Carry the chain through step by step and give the final value of common_size_percentage.",
-     "a": "160 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Common Size Statement Percentage' refers to.",
-     "a": "A common size statement re-expresses every item as a percentage of one chosen base for the same period -- revenue from operations in the profit statement, total assets or total liabilities in the balance sheet.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Common Size Statement Percentage'.",
-     "a": "Because every item becomes a share of the same hundred, statements of firms of very different sizes become comparable.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Common Size Statement Percentage', in plain ASCII form.",
-     "a": "common_size_percentage = item_amount / base_amount * 100",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "leac.204.6.2",
    "title": "Inter-firm Use of Common Size Analysis",
    "questions": [
@@ -307,27 +466,6 @@
     {
      "q": "Write the standard relation used for 'Inter-firm Use of Common Size Analysis', in plain ASCII form.",
      "a": "structure_comparison = firm_a_percentages_versus_firm_b_percentages",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leac.204.7.1",
-   "title": "Limitations of Financial Analysis",
-   "questions": [
-    {
-     "q": "Explain in your own words what 'Limitations of Financial Analysis' refers to.",
-     "a": "Analysis inherits every weakness of the statements behind it: it ignores price level changes, stumbles on undisclosed accounting policy changes, reads only monetary data, and studies past reports rather than live conditions.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Limitations of Financial Analysis'.",
-     "a": "Windows dressed for presentation and personal judgement inside the figures pass straight through into every tool's output.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Limitations of Financial Analysis', in plain ASCII form.",
-     "a": "analysis_reliability = statement_quality - price_level_effects - non_monetary_gaps",
      "self_check": true
     }
    ]

@@ -32,7 +32,22 @@
     },
     {
      "q": "Create a list `prices` of 5 items. Write code using slicing and list operations to produce a new list `discounted` that contains the first three prices reduced by 10% (you cannot use loops or list comprehensions — only slicing, concatenation, repetition, and arithmetic on individual elements). Show the code and the output for `prices = [100, 200, 150, 300, 250]`.",
-     "a": "One possible solution:\n```python\nprices = [100, 200, 150, 300, 250]\ndiscounted = [prices[0]*0.9, prices[1]*0.9, prices[2]*0.9]",
+     "a": "One possible solution:\n```python\nprices = [100, 200, 150, 300, 250]\ndiscounted = [prices[0]*0.9, prices[1]*0.9, prices[2]*0.9]\n# Or using slicing to get first three, but arithmetic on slice gives error, so must index individually\n# Actually slicing returns a list, can't multiply list by float. So we must access each element.\n# Better: discounted = [x*0.9 for x in prices[:3]] but comprehension not allowed.\n# So manual indexing is the only way without loops/comprehensions.\n```\nOutput: `[90.0, 180.0, 135.0]`. This question tests if the student understands that slicing returns a list, and arithmetic operations on lists (like `*`) mean repetition, not element-wise multiplication. A student who writes `prices[:3] * 0.9` reveals the misconception that list multiplication works element-wise like NumPy arrays.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: List slicing in Python uses the syntax list[start:stop:step] to extract a ______ of elements from a list, returning a new list without modifying the original.",
+     "a": "subsequence",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a list of daily ______ recorded for a month: temps = [28, 30, 31, 29, 27, 26, 28, 32, 33, 31, 30, 29, 28, 27, 26, 25, 24, 26, 28, 30, 32, 34, 33, 31, 30, 29, 28, 27, 26, 25].",
+     "a": "temperatures",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write correct slicing expressions using positive/negative indices and step values to extract any desired sublist, predict the result of concatenation and repetition operations, and use membership operators to check for element presence in a list.",
      "self_check": true
     }
    ]

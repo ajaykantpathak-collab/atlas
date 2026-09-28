@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_07_009",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_07_009",
+   "title": "c12_app_cbse_07_009",
+   "questions": [
+    {
+     "q": "State the formula for the one-sample t-test statistic and define each symbol. Under what condition is this test used instead of a z-test?",
+     "a": "The t-statistic is t = (x̄ - μ₀) / (s/√n), where x̄ = sample mean, μ₀ = hypothesized population mean, s = sample standard deviation, n = sample size. This test is used when the population standard deviation σ is unknown and the sample size is small (n < 30), assuming normality. A wrong answer (e.g., using σ instead of s, or saying \"when n > 30\") reveals confusion between z-test and t-test conditions — students often memorize formulas without understanding that the t-distribution was specifically designed for unknown σ estimated from small samples.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to test if the average screen time of Class 12 students in Delhi is different from 6 hours/day. She collects data from 16 students. Write the null and alternative hypotheses. If the test is two-tailed at α = 0.05, what are the degrees of freedom and the critical t-values?",
+     "a": "H₀: μ = 6; H₁: μ ≠ 6. Degrees of freedom = n - 1 = 15. For two-tailed α = 0.05, each tail has α/2 = 0.025. Critical t-values are ±2.131 (from t-table, df=15, α/2=0.025). A wrong answer (e.g., H₁: μ > 6, or df = 16, or critical value ±1.753) reveals: (a) confusion between one-tailed and two-tailed alternative hypotheses, (b) forgetting df = n-1, or (c) using one-tailed critical values for a two-tailed test — a very common board exam error.",
+     "self_check": true
+    },
+    {
+     "q": "A milk dairy claims their 1L packets contain exactly 1000 mL on average. A consumer group tests 9 packets and finds: 995, 1002, 998, 1005, 990, 1001, 997, 1003, 999 mL. Test the claim at α = 0.05 using the critical value approach. Show all steps.",
+     "a": "Step 1: H₀: μ = 1000; H₁: μ ≠ 1000 (two-tailed).\nStep 2: Calculate x̄ = (995+1002+998+1005+990+1001+997+1003+999)/9 = 8990/9 = 998.89 mL.\nStep 3: Calculate s: deviations from mean: -3.89, 3.11, -0.89, 6.11, -8.89, 2.11, -1.89, 4.11, 0.11. Squared: 15.13, 9.67, 0.79, 37.33, 79.03, 4.45, 3.57, 16.89, 0.01. Sum = 166.87. s = √[166.87/(9-1)] = √20.86 = 4.57 mL.\nStep 4: t = (998.89 - 1000) / (4.57/√9) = -1.11 / 1.52 = -0.73.\nStep 5: df = 8, α = 0.05 two-tailed → critical t = ±2.306.\nStep 6: -0.73 lies between -2.306 and +2.306 → fail to reject H₀.\nConclusion: Insufficient evidence to reject the claim. A wrong answer (e.g., using n instead of n-1 in s, or comparing |t| to one-tailed critical value) reveals computational errors in s or misreading the t-table.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the t-distribution and standard normal (z) distribution. Why does the t-distribution have heavier tails? What happens to the t-distribution as sample size increases?",
+     "a": "The t-distribution is symmetric and bell-shaped like the normal distribution but has heavier (fatter) tails because it accounts for the additional uncertainty of estimating σ with s from a small sample. As sample size increases (df → ∞), the t-distribution approaches the standard normal distribution — the extra uncertainty vanishes. A wrong answer (e.g., \"t-distribution has thinner tails\" or \"it approaches normal only if population is normal\") reveals a fundamental misunderstanding of why the t-test exists: it's not about the population shape, but about the sampling distribution of the mean when σ is estimated.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates t = 2.45 with df = 12 for a right-tailed test at α = 0.05. The critical value is 1.782. They conclude \"Since t > critical value, we accept H₀.\" Evaluate this conclusion and correct the error.",
+     "a": "The conclusion is wrong. When t > critical value in a right-tailed test, we **reject H₀**, not accept it. The correct conclusion: \"Reject H₀. There is sufficient evidence at α = 0.05 to support the alternative hypothesis.\" The error reveals a critical misconception: students often confuse \"accept H₀\" with \"fail to reject H₀\" and reverse the decision rule. In hypothesis testing, we never \"accept\" the null — we only reject or fail to reject. This exact phrasing error costs marks in CBSE board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where a one-sample t-test would be appropriate. Specify: the population, the claimed μ₀, sample size n, why σ is unknown, and whether it should be one-tailed or two-tailed. Justify your choices.",
+     "a": "Scenario: A Delhi Metro train is scheduled to arrive every 5 minutes (μ₀ = 5 min) during peak hours. A commuter records wait times for 12 random trips: 5.2, 4.8, 5.5, 5.1, 4.9, 5.3, 5.0, 5.4, 4.7, 5.6, 5.1, 5.2 min. Population: all peak-hour wait times. Claimed μ₀ = 5 min. n = 12 (< 30). σ unknown — we only have sample data. Two-tailed test (H₁: μ ≠ 5) because commuters care if trains are early OR late. A poor answer (e.g., n = 50, using z-test, one-tailed without justification) reveals inability to identify when t-test applies vs z-test, or to match tail type to research question.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

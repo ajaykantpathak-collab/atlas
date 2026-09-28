@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_01_006",
+   "title": "c12_app_cbse_01_006",
+   "questions": [
+    {
+     "q": "What is the domain of a simple arithmetic function?\n\nWhat is the domain of a simple arithmetic function?",
+     "a": "The domain is the set of positive integers (ℤ⁺). A wrong answer like \"all real numbers\" or \"non-negative integers\" reveals the student confuses simple arithmetic functions with general real-valued functions, missing the number-theoretic restriction that these functions are defined only on counting numbers to study discrete properties like divisibility and primality.\n\nThe domain is the set of positive integers (ℤ⁺). A wrong answer like \"all real numbers\" or \"non-negative integers\" reveals the student confuses simple arithmetic functions with general real-valued functions, missing the number-theoretic restriction that these functions are defined only on counting numbers to study discrete properties like divisibility and primality.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words what it means for a function to be multiplicative in the context of simple arithmetic functions.\n\nExplain in your own words what it means for a function to be multiplicative in the context of simple arithmetic functions.",
+     "a": "A simple arithmetic function f is multiplicative if f(mn) = f(m)f(n) whenever m and n are coprime (gcd(m,n)=1). A wrong answer like \"f(mn)=f(m)+f(n)\" confuses multiplicative with additive functions, or omitting the coprime condition shows the student does not grasp that the property only holds when inputs share no prime factors—a key distinction tested in JEE problems involving φ(n) or σ(n).\n\nA simple arithmetic function f is multiplicative if f(mn) = f(m)f(n) whenever m and n are coprime (gcd(m,n)=1). A wrong answer like \"f(mn)=f(m)+f(n)\" confuses multiplicative with additive functions, or omitting the coprime condition shows the student does not grasp that the property only holds when inputs share no prime factors—a key distinction tested in JEE problems involving φ(n) or σ(n).",
+     "self_check": true
+    },
+    {
+     "q": "If n = 18, compute φ(n) using the formula φ(n) = n ∏_{p|n} (1 - 1/p).\n\nIf n = 18, compute φ(n) using the formula φ(n) = n ∏_{p|n} (1 - 1/p).",
+     "a": "Step 1: Factorize 18 = 2 × 3². Step 2: Identify distinct prime divisors: p = 2, 3. Step 3: Apply formula: φ(18) = 18 × (1 - 1/2) × (1 - 1/3) = 18 × (1/2) × (2/3) = 18 × (1/3) = 6. Step 4: Verify by listing numbers ≤18 coprime to 18: 1,5,7,11,13,17 → count=6. A wrong answer like φ(18)=18×(1/2)×(1/3)=3 arises from forgetting to use distinct primes only or misapplying the formula to prime powers, revealing a lack of understanding that the product is over distinct primes, not with multiplicity.\n\nStep 1: Factorize 18 = 2 × 3². Step 2: Identify distinct prime divisors: p = 2, 3. Step 3: Apply formula: φ(18) = 18 × (1 - 1/2) × (1 - 1/3) = 18 × (1/2) × (2/3) = 18 × (1/3) = 6. Step 4: Verify by listing numbers ≤18 coprime to 18: 1,5,7,11,13,17 → count=6. A wrong answer like φ(18)=18×(1/2)×(1/3)=3 arises from forgetting to use distinct primes only or misapplying the formula to prime powers, revealing a lack of understanding that the product is over distinct primes, not with multiplicity.",
+     "self_check": true
+    },
+    {
+     "q": "Compare φ(n) and τ(n) for n = p² where p is prime. How do their values relate?\n\nCompare φ(n) and τ(n) for n = p² where p is prime. How do their values relate?",
+     "a": "For n = p², φ(p²) = p² - p = p(p-1), while τ(p²) = 3 (divisors: 1, p, p²). There is no fixed algebraic relation; φ(n) grows with p while τ(n) is constant. A wrong answer like \"φ(n) = τ(n) - 1\" or \"φ(n) > τ(n) always\" ignores that φ(4)=2 and τ(4)=3, so φ < τ here, showing the student overgeneralizes without testing small cases—a common error in competitive exams when properties are misremembered.\n\nFor n = p², φ(p²) = p² - p = p(p-1), while τ(p²) = 3 (divisors: 1, p, p²). There is no fixed algebraic relation; φ(n) grows with p while τ(n) is constant. A wrong answer like \"φ(n) = τ(n) - 1\" or \"φ(n) > τ(n) always\" ignores that φ(4)=2 and τ(4)=3, so φ < τ here, showing the student overgeneralizes without testing small cases—a common error in competitive exams when properties are misremembered.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The Möbius function μ(n) is multiplicative.\" Justify your answer.\n\nEvaluate the claim: \"The Möbius function μ(n) is multiplicative.\" Justify your answer.",
+     "a": "The claim is true. μ(n) is multiplicative because if m and n are coprime, then the prime factorizations of m and n are disjoint, so mn has no squared prime factors iff both m and n are square-free, and the number of prime factors adds. Thus μ(mn) = (-1)^{k+m} = (-1)^k (-1)^m = μ(m)μ(n). A wrong answer like \"μ(n) is not multiplicative because μ(4)=0 and μ(2)=-1, but μ(8)=0 ≠ (-1)×(-1)=1\" fails to check coprimality: 2 and 4 are not coprime (gcd=2), so the condition doesn’t apply. This reveals a critical misunderstanding of when multiplicativity holds—students often test non-coprime pairs and wrongly conclude failure.\n\nThe claim is true. μ(n) is multiplicative because if m and n are coprime, then the prime factorizations of m and n are disjoint, so mn has no squared prime factors iff both m and n are square-free, and the number of prime factors adds. Thus μ(mn) = (-1)^{k+m} = (-1)^k (-1)^m = μ(m)μ(n). A wrong answer like \"μ(n) is not multiplicative because μ(4)=0 and μ(2)=-1, but μ(8)=0 ≠ (-1)×(-1)=1\" fails to check coprimality: 2 and 4 are not coprime (gcd=2), so the condition doesn’t apply. This reveals a critical misunderstanding of when multiplicativity holds—students often test non-coprime pairs and wrongly conclude failure.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own simple arithmetic function f(n) that counts the number of perfect squares ≤ n that are coprime to n. Compute f(20).\n\nCreate your own simple arithmetic function f(n) that counts the number of perfect squares ≤ n that are coprime to n. Compute f(20).",
+     "a": "Perfect squares ≤20: 1,4,9,16. Check coprimality with 20: gcd(1,20)=1, gcd(4,20)=4≠1, gcd(9,20)=1, gcd(16,20)=4≠1 → only 1 and 9 qualify → f(20)=2. A poor answer lists squares but forgets to check gcd, or includes non-squares, revealing inability to combine two conditions (being a square and coprime) — a skill needed for complex counting problems in Olympiads.\n\nPerfect squares ≤20: 1,4,9,16. Check coprimality with 20: gcd(1,20)=1, gcd(4,20)=4≠1, gcd(9,20)=1, gcd(16,20)=4≠1 → only 1 and 9 qualify → f(20)=2. A poor answer lists squares but forgets to check gcd, or includes non-squares, revealing inability to combine two conditions (being a square and coprime) — a skill needed for complex counting problems in Olympiads.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

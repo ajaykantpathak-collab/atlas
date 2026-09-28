@@ -34,6 +34,31 @@
      "q": "Design a water security plan for a hypothetical district in the Bundelkhand region (UP/MP) with 800 mm mean rainfall, CV=35%, hard rock terrain, and 70% rainfed agriculture. Your plan must address: (a) supply augmentation, (b) demand management, (c) quality protection, and (d) institutional mechanism. Justify each component with geographical reasoning.",
      "a": "A good answer includes: (a) Supply: check dams on seasonal streams, farm ponds, recharge shafts targeting fracture zones in hard rock — justified by high runoff coefficient and low natural recharge; (b) Demand: shift from water-intensive crops to millets/pulses, micro-irrigation subsidies — justified by high CV making assured irrigation impossible; (c) Quality: fluoride/arsenic monitoring, separate drinking water pipelines — justified by geogenic contamination in hard rock aquifers; (d) Institution: Gram Panchayat-led water budgeting with Jal Shakti Abhiyan convergence — justified by community participation success in Ralegan Siddhi. A poor answer lists generic measures without linking to Bundelkhand's specific hydrogeology and variability.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Variability of rainfall refers to the spatial and temporal fluctuations in precipitation across India, where the majority of annual rainfall occurs during the Southwest Monsoon (June-September) with high coefficients of variation (20-50%) in drought-prone regions like Rajasthan, Gujarat, and the Deccan plateau, leading to recurrent ______ and hydrological droughts that drive water scarcity when demand exceeds renewable freshwater availability.",
+     "a": "meteorological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real-world observation: \"Check the IMD rainfall map for your district — you'll see some years get 1200 mm while others get 600 mm, and July might be dry while August floods.\" Connect to Class 11's monsoon mechanism (ITCZ, jet streams) and rainfall ______.",
+     "a": "distribution",
+     "self_check": true
+    },
+    {
+     "q": "What is Variability of rainfall? State the definition given in this lesson.",
+     "a": "Variability of rainfall refers to the spatial and temporal fluctuations in precipitation across India, where the majority of annual rainfall occurs during the Southwest Monsoon (June-September) with high coefficients of variation (20-50%) in drought-prone regions like Rajasthan, Gujarat, and the Deccan plateau, leading to recurrent.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Variability of rainfall?",
+     "a": "Students often think \"water scarcity = low rainfall\" and equate Rajasthan's scarcity solely to its aridity.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) interpret rainfall variability maps using coefficient of variation and identify drought-prone vs flood-prone regions; (2) explain the mechanistic link between monsoon breaks, spatial rainfall heterogeneity, and groundwater depletion in northwestern India; (3) evaluate the sustainability of current water use patterns.",
+     "self_check": true
     }
    ]
   }

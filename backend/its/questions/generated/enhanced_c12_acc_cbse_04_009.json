@@ -34,6 +34,26 @@
      "q": "Create a scenario where a partner is insolvent and the firm dissolves. Design the Realisation Account, Partners' Capital Accounts, and Cash/Bank Account showing the application of Garner vs Murray rule (assume fixed capitals, profit-sharing ratio 3:2). Provide the final cash settlement for each partner.",
      "a": "A good answer will show: Realisation Account with loss, Capital Accounts with share of loss, insolvent partner's deficiency allocated to solvent partners in capital ratio (Garner vs Murray), Cash/Bank Account with solvent partners bringing in cash to cover deficiency, and final payments. A poor answer will either ignore the deficiency allocation or allocate it in profit-sharing ratio instead of capital ratio, revealing misunderstanding of Garner vs Murray.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Preparation of Realisation Account, Partners' Capital Accounts, and Cash/Bank Account is the process of ______ recording all dissolution transactions in ledger accounts to determine the final settlement amounts due to or from each partner, ensuring the firm's books are closed accurately.",
+     "a": "systematically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a partner in a firm that has decided to ______.",
+     "a": "dissolve",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: First, recall that every dissolution transaction has already been journalised (node ______).",
+     "a": "010",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently prepare the Realisation Account, Partners' Capital Accounts, and Cash/Bank Account from a given set of dissolution transactions, including handling of unrecorded assets/liabilities, realisation expenses, partner's loan, and insolvency, and correctly compute the final cash settlement for each.",
+     "self_check": true
     }
    ]
   }

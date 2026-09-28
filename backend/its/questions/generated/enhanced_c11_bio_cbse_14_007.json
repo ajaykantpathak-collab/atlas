@@ -34,6 +34,31 @@
      "q": "Design a public health intervention strategy for a stone-quarrying community in Rajasthan with high prevalence of occupational respiratory disorders. Your strategy must address primary prevention (exposure control), secondary prevention (early detection), and tertiary prevention (management), linking each to the specific pathophysiology of dust-induced fibrosis/emphysema.",
      "a": "Primary: mandatory wet-drilling/suppression systems to reduce respirable silica dust (<5 µm), N95/FFP2 respirators, ventilation engineering — prevents alveolar macrophage activation and fibroblast proliferation causing fibrosis. Secondary: annual spirometry (tracking FEV₁/FVC, RV/TLC) and chest X-rays (ILO classification for pneumoconiosis) — detects early restrictive/obstructive patterns before symptoms. Tertiary: pulmonary rehabilitation (pursed-lip breathing to stent airways, exercise training), oxygen therapy for hypoxaemia, vaccination (pneumococcal, influenza) — manages established fibrosis/emphysema by optimizing residual function and preventing exacerbations. A poor answer (generic \"wear masks, see doctor\") shows inability to apply pathophysiology to real-world prevention tiers.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Asthma is a chronic inflammatory disorder of the conducting airways (bronchi and bronchioles) characterised by reversible ______, excessive mucus secretion, and airway hyperresponsiveness to triggers, leading to episodic wheezing, dyspnoea, and cough.",
+     "a": "bronchoconstriction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a construction worker in Delhi during winter who develops a persistent cough and ______ after years of inhaling stone dust, and contrast this with a teenager in Mumbai who wheezes every Diwali due to firecracker smoke.",
+     "a": "breathlessness",
+     "self_check": true
+    },
+    {
+     "q": "What is Asthma? State the definition given in this lesson.",
+     "a": "Asthma is a chronic inflammatory disorder of the conducting airways (bronchi and bronchioles) characterised by reversible bronchoconstriction, excessive mucus secretion, and airway hyperresponsiveness to triggers, leading to episodic wheezing, dyspnoea, and cough.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Asthma?",
+     "a": "Students frequently conflate asthma and emphysema as \"the same thing — both cause breathing difficulty and wheezing.\" The specific error is failing to distinguish *reversible bronchoconstriction of conducting airways* (asthma) from *irreversible destruction of respiratory exchange surfaces* (emphysema).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) distinguish the pathophysiological mechanisms of asthma (reversible airway inflammation) from emphysema (irreversible alveolar destruction) using spirometry patterns and structural changes; (2) explain how each disorder alters specific respiratory volumes, capacities, and gas exchange parameters (pO₂.",
+     "self_check": true
     }
    ]
   }

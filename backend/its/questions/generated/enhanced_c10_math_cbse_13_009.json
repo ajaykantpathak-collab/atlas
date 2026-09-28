@@ -34,6 +34,26 @@
      "q": "Create a grouped frequency distribution with 5 classes where the Step-Deviation method is the only efficient choice, and explain why Direct and Assumed Mean would be cumbersome.",
      "a": "Example:\nClass: 1000–1010, 1010–1020, 1020–1030, 1030–1040, 1040–1050\nFrequency: 12, 18, 25, 20, 15\nClass marks: 1005, 1015, 1025, 1035, 1045 (large numbers).\nDirect Method: fi xi products are huge (e.g., 12×1005 = 12060) → tedious.\nAssumed Mean: di = xi – 1025 are multiples of 10 but still two-digit numbers; Σfi di requires careful addition.\nStep-Deviation: h = 10, ui = (xi – 1025)/10 → -2, -1, 0, 1, 2 → tiny integers, minimal arithmetic.\n\nA poor answer (e.g., any distribution with small numbers or unequal intervals) shows the student cannot synthesize the conditions that make Step-Deviation uniquely advantageous.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Choosing the appropriate method for finding the mean of grouped data involves analyzing the magnitude of class marks (xi), frequencies (fi), and class interval width (h) to select the most efficient ______ technique: Direct Method (for small, manageable numbers), Assumed Mean Method (for large numbers but manageable deviations), or Step-Deviation Method (when class intervals are equal and deviations share a common factor).",
+     "a": "computational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a Class 10 student helping your school's sports teacher analyze the long-jump distances of 60 students, grouped into ______ like 3.0–3.5 m, 3.5–4.0 m, etc.",
+     "a": "intervals",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can examine any grouped frequency distribution, correctly identify whether class intervals are equal, assess the size of xi and fi, and justify the selection of the most efficient method (Direct, Assumed Mean, or Step-Deviation) with reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a Class 10 student helping your school's sports teacher analyze the long-jump ______ of 60 students, grouped into intervals like 3.0–3.5 m, 3.5–4.0 m, etc.",
+     "a": "distances",
+     "self_check": true
     }
    ]
   }

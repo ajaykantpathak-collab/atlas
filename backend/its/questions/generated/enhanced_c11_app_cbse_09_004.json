@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_09_004",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_09_004",
+   "title": "c11_app_cbse_09_004",
+   "questions": [
+    {
+     "q": "Define conditional probability P(E|F) in your own words and state the formula. What is the one necessary condition for this formula to be valid?",
+     "a": "Conditional probability P(E|F) is the probability of event E occurring given that event F has already occurred. The formula is P(E|F) = P(E ∩ F) / P(F), provided P(F) ≠ 0. A wrong answer (e.g., writing P(E|F) = P(E)/P(F) or forgetting P(F) ≠ 0) reveals the student is memorizing symbols without understanding that the condition F becomes the new sample space, so we divide by P(F), not by 1.",
+     "self_check": true
+    },
+    {
+     "q": "A die is rolled. Let E be the event \"number is even\" and F be the event \"number is greater than 3\". Find P(E|F) and P(F|E). Are they equal? Explain why or why not in terms of sample spaces.",
+     "a": "Sample space S = {1,2,3,4,5,6}. E = {2,4,6}, F = {4,5,6}. E ∩ F = {4,6}. P(E|F) = P(E∩F)/P(F) = (2/6)/(3/6) = 2/3. P(F|E) = P(E∩F)/P(E) = (2/6)/(3/6) = 2/3. They are equal **in this specific case** because |E| = |F| = 3 and |E∩F| = 2, making the ratios symmetric. A student who says \"they are always equal\" or \"P(E|F) = P(F|E) generally\" has the classic reversal misconception — they don't grasp that the denominator changes based on which event is the condition.",
+     "self_check": true
+    },
+    {
+     "q": "In a class of 50 students, 30 play cricket, 25 play football, and 10 play both. A student is selected at random. Given that the student plays cricket, what is the probability they also play football? Show your steps.",
+     "a": "Let C = plays cricket, F = plays football. Given: P(C) = 30/50 = 3/5, P(F) = 25/50 = 1/2, P(C∩F) = 10/50 = 1/5. P(F|C) = P(C∩F)/P(C) = (1/5)/(3/5) = 1/3. Steps: (1) Identify events and given data. (2) Write formula P(F|C) = P(C∩F)/P(C). (3) Substitute values. (4) Simplify. A wrong answer like 10/25 = 2/5 reveals the student used P(C|F) instead — they computed \"given football, probability of cricket\" instead of the asked \"given cricket, probability of football\".",
+     "self_check": true
+    },
+    {
+     "q": "Two cards are drawn successively without replacement from a well-shuffled deck of 52 cards. Find the probability that the second card is a king, given that the first card is a king. Then, find the probability that both cards are kings. How are these two probabilities related?",
+     "a": "Let K1 = first card is king, K2 = second card is king. P(K2|K1) = 3/51 = 1/17 (after one king is drawn, 3 kings remain out of 51 cards). P(K1 ∩ K2) = P(K1) × P(K2|K1) = (4/52) × (3/51) = 1/221. The relationship: P(K1 ∩ K2) = P(K1) × P(K2|K1) — this is the multiplication rule. A student who computes P(K2|K1) as 4/52 or 4/51 reveals they don't understand \"without replacement\" changes the sample space for the second draw, or they confuse conditional with unconditional probability.",
+     "self_check": true
+    },
+    {
+     "q": "A medical test for a rare disease has 99% sensitivity (P(positive|disease) = 0.99) and 95% specificity (P(negative|no disease) = 0.95). The disease prevalence is 0.1%. A student claims: \"If you test positive, there's a 99% chance you have the disease.\" Evaluate this claim. Is it correct? Why or why not?",
+     "a": "The claim is **incorrect**. The student has confused P(positive|disease) = 0.99 with P(disease|positive). By Bayes' theorem (preview), P(disease|positive) = [P(positive|disease) × P(disease)] / P(positive). With prevalence 0.001, P(positive) ≈ 0.99×0.001 + 0.05×0.999 ≈ 0.0509. So P(disease|positive) ≈ 0.00099/0.0509 ≈ 0.0194 ≈ 1.94%, not 99%. A student who agrees with the claim commits the **base rate fallacy** — ignoring the prior probability (prevalence) and confusing the conditional with its reverse. This is the most dangerous misconception in applied probability.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own real-life scenario (Indian context) involving conditional probability where the condition is NOT the first event chronologically. Define events E and F clearly, state what P(E|F) means in your scenario, and explain why P(E|F) ≠ P(F|E) in your example.",
+     "a": "Example: A Delhi Metro commuter checks the app and sees \"Train delayed\" (F). Let E = \"There is a signal failure\". P(E|F) = probability of signal failure given the train is delayed. P(F|E) = probability of delay given signal failure. These differ because delays can happen for many reasons (crowding, technical fault, weather), so P(F|E) might be high (say 0.9), but P(E|F) is lower (say 0.3) since signal failure is just one cause of delay. A poor answer uses chronological order (e.g., \"rain then wet ground\") where condition = earlier event, missing the point that conditional probability is about **information**, not time. Good answers show understanding that \"given\" means \"restricting to cases where F is true\", regardless of temporal order.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

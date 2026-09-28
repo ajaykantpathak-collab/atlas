@@ -5,6 +5,7 @@ retrieving session history, ending sessions, requesting hints, and
 asking quick free-text questions.
 """
 
+import logging
 from typing import List, Optional
 
 from fastapi import APIRouter, Depends, HTTPException, status
@@ -423,12 +424,34 @@ async def quick_question(
     content endpoint so even logged-out users can ask questions.
     """
     try:
-        result = await TutorService.quick_question(
-            db,
-            message=payload.message,
-            subject=payload.subject,
-            class_level=payload.class_level,
+        # Bounded: psy/cs lookups were hanging 49-120s on cold/qdrant-slow
+        # paths and nginx 504'd the worker (B12). Degrade in <10s.
+        import asyncio as _asyncio
+        result = await _asyncio.wait_for(
+            TutorService.quick_question(
+                db,
+                message=payload.message,
+                subject=payload.subject,
+                class_level=payload.class_level,
+            ),
+            timeout=10.0,
         )
+    except _asyncio.TimeoutError:
+        import logging
+        logging.getLogger(__name__).warning(
+            "quick_question timed out (10s) — serving fallback")
+        result = {
+            "question": payload.message,
+            "answer": (
+                "That question is taking longer than usual — here's the "
+                "short version: check the concept in your syllabus notes and "
+                "ask me again in a moment for a deeper explanation."
+            ),
+            "node_id": None, "node_title": None,
+            "subject": payload.subject,
+            "class_level": payload.class_level,
+            "type": "timeout", "confidence": 0.0, "method": "fallback",
+        }
     except Exception as exc:
         # The ask box must never hard-fail: degrade to a deterministic
         # fallback answer (optional services like the LLM/qdrant may be
@@ -457,6 +480,30 @@ async def quick_question(
     resp.text = resp.answer
     resp.intent = resp.type or "answer"
     resp.quality_score = resp.confidence
+
+    # ---- Funnel telemetry -------------------------------------------------
+    # `method` is already set by every one of the six deterministic layers in
+    # TutorService.quick_question (pattern_solver, compute, template,
+    # multistep, routing, fallback) and it is the ONLY signal that tells you
+    # what fraction of student questions reach an LLM. Without it logged, LLM
+    # spend cannot be attributed to a layer, so it cannot be reduced.
+    #
+    # Emitted as a structured `extra` so it survives into JSON logs (see
+    # backend/observability.py JsonLogFormatter) and can be aggregated by
+    # scripts/tutor_funnel_report.py.
+    try:
+        logging.getLogger("tutor.funnel").info(
+            "question_routed",
+            extra={
+                "tutor_method": resp.method,
+                "tutor_type": resp.type,
+                "tutor_confidence": resp.confidence,
+                "tutor_node_id": result.get("node_id"),
+                "tutor_class_level": payload.class_level,
+            },
+        )
+    except Exception:  # telemetry must never break an answer
+        pass
     return resp
 
 

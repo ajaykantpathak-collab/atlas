@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_06_001",
+   "title": "c12_leg_cbse_06_001",
+   "questions": [
+    {
+     "q": "Define 'Intellectual Property' and state the fundamental difference between Industrial Property and Copyright in terms of subject matter.",
+     "a": "Intellectual Property is intangible property originating from human intellect (inventions, designs, artistic works, symbols). Industrial Property covers inventions (patents), trademarks, industrial designs, and geographical indications — typically commercial/technical assets. Copyright covers literary, artistic, musical, dramatic works, films, sound recordings — typically cultural/expressive assets. A wrong answer (e.g., \"Copyright covers inventions\") reveals confusion between the two statutory regimes and their distinct Acts (Patents Act vs. Copyright Act).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the TRIPS Agreement (1994) is considered a watershed moment for Indian IP law, and name *three* Indian statutes enacted/amended to comply with it.",
+     "a": "TRIPS established minimum global IP standards enforceable through WTO dispute settlement, forcing India to move from process-only patents to product patents in pharma/food/chemicals. The three key statutes: Patents (Amendment) Act, 2005 (product patents); Trade Marks Act, 1999 (replaced 1958 Act); Geographical Indications Act, 1999 (new). A wrong answer (e.g., \"TRIPS only deals with copyright\") shows ignorance of the trade-IP linkage and India’s legislative overhaul post-1995.",
+     "self_check": true
+    },
+    {
+     "q": "A startup develops a new AI algorithm that optimizes traffic signals. They want to protect it. Advise whether they should seek a Patent, Copyright, or Trade Secret, justifying each option's suitability based on *disclosure requirement* and *term of protection*.",
+     "a": "**Patent**: Requires full public disclosure of the algorithm; grants 20-year monopoly but expires. Suitable if algorithm is novel, non-obvious, industrially applicable, and they can tolerate disclosure. **Copyright**: Protects only the *source code expression* (literal code), not the underlying logic/algorithm; term = 60 years post-author’s death; automatic. Suitable for code copying, not functional replication. **Trade Secret**: No disclosure, perpetual protection *if* secrecy maintained (NDAs, access controls); but no protection against reverse engineering or independent discovery. Best if algorithm is hard to reverse-engineer and they want perpetual control. A wrong answer (e.g., \"Copyright protects the algorithm\") confuses expression with idea/function — a classic idea-expression dichotomy error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 'National Treatment' principle under the Paris Convention (Industrial Property) and the Berne Convention (Copyright). How does the Universal Copyright Convention (UCC) differ from Berne on this principle?",
+     "a": "**Paris (Art. 2)**: Nationals of member states get *equal* IP protection in other member states as local nationals — no discrimination. **Berne (Art. 5)**: Same National Treatment, but adds **Automatic Protection** (no formalities like registration required) and **Independence of Protection** (protection in member state exists even if work loses protection in country of origin). **UCC (1952)**: Also follows National Treatment, but *rejects Automatic Protection* — contracting states need not grant protection if national formalities (e.g., copyright notice ©) aren’t met. A wrong answer missing \"Automatic Protection\" or \"formalities\" misses the core Berne-UCC divergence that shaped India’s Copyright Act (no registration required).",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Geographical Indication (GI) tags are just trademarks for agricultural products.\" Use the Darjeeling Tea vs. Rasgulla case (NCERT p.89, Exercise 5) to illustrate the difference in *ownership*, *link to territory*, and *quality attribution*.",
+     "a": "**Trademark**: Owned by a *single entity* (company/individual); distinguishes *one trader’s* goods; quality link is to the *brand owner’s control*. **GI**: Owned *collectively* by producers in a *defined region*; identifies goods originating *there*; quality/reputation is *essentially attributable* to that geographical origin (soil, climate, traditional skill). In the Rasgulla dispute, Odisha and West Bengal *both* claimed the GI — impossible for a trademark (one owner). The Chennai GI Registry granted it to \"Banglar Rasogulla\" (WB), recognizing the specific regional method. A wrong answer treating GI as a \"super-trademark\" ignores the *collective, terroir-based* nature and the prohibition on licensing to outsiders.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical IP protection strategy for a traditional tribal textile pattern (e.g., Warli painting) that is being copied by fast-fashion brands. Specify which IP tools (Copyright, Design, GI, Trademark) you would use, in what sequence, and why — addressing the *originality threshold*, *community ownership*, and *enforcement practicality*.",
+     "a": "**Step 1: GI Registration (Warli Painting — Maharashtra/Gujarat)** — Establishes collective rights of tribal community; links pattern to territory/tradition; no single author needed; perpetual if renewed. **Step 2: Copyright (Artistic Work)** — For *specific* paintings/designs fixed in tangible form (canvas, fabric); protects against exact reproduction; 60 years post-author’s death; but requires identifiable author (problem for ancient folk art). **Step 3: Design Registration** — For *new* ornamental applications (e.g., Warli motif on modern handbag shape); 10+5 years; requires novelty — hard for traditional patterns. **Step 4: Certification Trademark** — For \"Authentic Warli\" label managed by a tribal cooperative; distinguishes certified goods. **Best combo: GI + Certification TM** — GI protects the *heritage*, TM polices *marketplace authenticity*. A poor answer suggests only Patent or only Copyright, missing the collective/traditional knowledge dimension and the territorial link central to GI.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

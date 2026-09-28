@@ -4,21 +4,8 @@
   {
    "id": "kemh113.13.2.1",
    "title": "Measures of Dispersion",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the dispersion formula to the data",
-     "explain": "apply the dispersion formula to the data: mean = (6 + 7 + 6) / 3 gives 6.33333",
-     "compute": "mean = (6 + 7 + 6) / 3"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "apply the dispersion formula to the data: md = (abs(6 - mean) + abs(7 - mean) + abs(6 - mean)) / 3 gives 0.444444",
-     "compute": "md = (abs(6 - mean) + abs(7 - mean) + abs(6 - mean)) / 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean deviation about the mean of 6, 7, 6 (two decimal places).",
@@ -56,6 +43,8 @@
    "id": "kemh113.13.3.1",
    "title": "Range of a Series",
    "converted_to_compute": false,
+   "formula": "range_val = max_val - min_val",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 4th term of the AP with first term 4 and common difference 3.",
@@ -93,6 +82,8 @@
    "id": "kemh113.13.4.1",
    "title": "Mean Deviation About the Mean (Ungrouped Data)",
    "converted_to_compute": false,
+   "formula": "mad = (abs(x1 - mean) + abs(x2 - mean) + abs(x3 - mean)) / obs_count",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 28, 12, 34, 6, 29.",
@@ -129,21 +120,8 @@
   {
    "id": "kemh113.13.4.2",
    "title": "Mean Deviation for Grouped (Frequency) Data",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the mean/median/mode definition",
-     "explain": "apply the mean/median/mode definition: total = sum((20, 19, 36, 3, 12)) gives 90",
-     "compute": "total = sum((20, 19, 36, 3, 12))"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 18",
-     "compute": "mean = total / 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 20, 19, 36, 3, 12.",
@@ -181,6 +159,8 @@
    "id": "kemh113.13.5.1",
    "title": "Variance and Standard Deviation",
    "converted_to_compute": false,
+   "formula": "sd = sqrt(((x1 - mean_val) ** 2 + (x2 - mean_val) ** 2 + (x3 - mean_val) ** 2) / obs_count)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean deviation about the mean of 12, 10, 14 (two decimal places).",
@@ -217,21 +197,8 @@
   {
    "id": "kemh113.13.5.2",
    "title": "Standard Deviation of a Frequency Distribution",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the mean/median/mode definition",
-     "explain": "apply the mean/median/mode definition: total = sum((19, 20, 24, 4, 3)) gives 70",
-     "compute": "total = sum((19, 20, 24, 4, 3))"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 14",
-     "compute": "mean = total / 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 19, 20, 24, 4, 3.",
@@ -269,6 +236,8 @@
    "id": "kemh113.13.5.3",
    "title": "Shortcut Method for Variance via Assumed Mean",
    "converted_to_compute": false,
+   "formula": "variance = h ** 2 * (mean_sq_dev - mean_dev ** 2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean deviation about the mean of 12, 10, 15 (two decimal places).",

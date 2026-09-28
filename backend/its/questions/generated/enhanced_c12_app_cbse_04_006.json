@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_04_006",
+   "title": "c12_app_cbse_04_006",
+   "questions": [
+    {
+     "q": "What is the value of \\(\\int_1^3 2x\\,dx\\)? Write the antiderivative and show the limit substitution step.",
+     "a": "Correct answer: Antiderivative of \\(2x\\) is \\(x^2\\). Then \\(\\int_1^3 2x\\,dx = [x^2]_1^3 = 3^2 - 1^2 = 9 - 1 = 8\\).  \nA wrong answer like \"\\(x^2 + C\\)\" or \"\\(3^2 + C - (1^2 + C)\\)\" reveals the student thinks the arbitrary constant survives in definite integrals. A wrong answer like \"\\(3^2 + 1^2 = 10\\)\" reveals confusion between addition and subtraction of limits (upper minus lower).",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why \\(\\int_a^b f(x)\\,dx = F(b) - F(a)\\) does not depend on which antiderivative \\(F\\) you choose. Use the fact that any two antiderivatives differ by a constant.",
+     "a": "If \\(F_1(x) = F(x) + C\\) and \\(F_2(x) = F(x) + D\\) are two antiderivatives, then \\(F_1(b) - F_1(a) = (F(b)+C) - (F(a)+C) = F(b) - F(a)\\), and similarly for \\(F_2\\). The constants cancel out.  \nA wrong answer like \"because the constant is zero\" or \"because we set C=0\" shows the student doesn't understand that **any** antiderivative works — the cancellation is algebraic, not a choice of C.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate \\(\\int_0^2 (3x^2 - 4x + 1)\\,dx\\). Show all steps: find antiderivative, substitute limits, simplify.",
+     "a": "Antiderivative: \\(F(x) = x^3 - 2x^2 + x\\).  \n\\(F(2) = 8 - 8 + 2 = 2\\).  \n\\(F(0) = 0\\).  \n\\(\\int_0^2 (3x^2 - 4x + 1)\\,dx = 2 - 0 = 2\\).  \nA wrong answer like \"\\(x^3 - 2x^2 + x + C\\)\" shows the student writes +C out of habit. A wrong answer like \"\\(F(0) - F(2) = -2\\)\" reveals the student subtracts in the wrong order (lower minus upper). An arithmetic error in \\(F(2)\\) (e.g., \\(8 - 8 + 2 = 0\\)) shows carelessness in evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "The marginal revenue function is \\(MR(x) = 100 - 2x\\). Find the **additional revenue** generated when production increases from 10 units to 15 units. Set up the definite integral and evaluate.",
+     "a": "Additional revenue = \\(\\int_{10}^{15} (100 - 2x)\\,dx\\).  \nAntiderivative: \\(100x - x^2\\).  \nAt 15: \\(1500 - 225 = 1275\\).  \nAt 10: \\(1000 - 100 = 900\\).  \nDifference: \\(1275 - 900 = 375\\) rupees.  \nA wrong answer using \\(\\int_0^{15} - \\int_0^{10}\\) is correct in value but shows inefficient method. A wrong answer using indefinite integral \\(100x - x^2 + C\\) and then \"plugging in 15 and 10\" without subtraction reveals confusion between antiderivative and definite integral evaluation. A wrong answer \\(1275 + 900 = 2175\\) shows addition instead of subtraction.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"\\(\\int_{-1}^1 x^3\\,dx = 0\\) because the function is odd.\" Another student says: \"\\(\\int_{-1}^1 x^3\\,dx = \\left[\\frac{x^4}{4}\\right]_{-1}^1 = \\frac{1}{4} - \\frac{1}{4} = 0\\).\" Are both correct? Justify which reasoning is more general and why.",
+     "a": "Both give the correct numerical answer (0), but the **second method is universally valid** for any continuous function. The first method (odd function over symmetric interval) is a **special property** (Property P8) that only works when \\(f(-x) = -f(x)\\) and limits are symmetric about 0. It fails for \\(\\int_{-1}^1 (x^3 + 1)\\,dx\\) where the function is not odd.  \nA wrong answer like \"both are equally good\" or \"the first is better because it's faster\" shows the student doesn't distinguish between a **general theorem** (FTC) and a **special-case property**. This is critical for JEE where symmetry tricks are optional but FTC is mandatory.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where a definite integral \\(\\int_a^b f(x)\\,dx\\) represents a meaningful quantity. Define \\(f(x)\\), \\(a\\), \\(b\\), and the units of the result. The function must be non-linear (not just \\(mx + c\\)).",
+     "a": "Example: A Delhi Metro train's velocity (m/s) is \\(v(t) = 2t + 0.1t^2\\) for \\(t \\in [0, 30]\\) seconds after departure. The distance traveled in the first 30 seconds is \\(\\int_0^{30} (2t + 0.1t^2)\\,dt\\). Antiderivative: \\(t^2 + \\frac{0.1}{3}t^3\\). Value: \\(900 + \\frac{0.1}{3}(27000) = 900 + 900 = 1800\\) meters. Units: meters.  \nA poor answer uses a linear function (e.g., \\(v(t) = 5t\\)) or forgets units. A good answer shows non-linear \\(f\\), clear physical meaning (accumulation of rate), and correct units. This tests if the student can **model** accumulation, not just compute.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

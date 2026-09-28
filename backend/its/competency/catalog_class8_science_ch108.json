@@ -108,7 +108,16 @@
      "explain": "Report the resultant magnitude and confirm it acts in the common direction of both applied forces.",
      "compute": "net_force = force_a + force_b"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_force = force_a + force_b",
+     "compute": "net_force = force_a + force_b"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hesc.108.4",
@@ -145,7 +154,16 @@
      "explain": "Report the resultant magnitude and confirm it acts in the direction of the larger force.",
      "compute": "net_force = abs(force_a - force_b)"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_force = abs(force_a - force_b)",
+     "compute": "net_force = abs(force_a - force_b)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hesc.108.5",
@@ -318,7 +336,16 @@
      "explain": "Report the pressure value in Pascals (N/m^2), confirming the inverse relationship with area.",
      "compute": "pressure = force / area"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "pressure = force / area",
+     "compute": "pressure = force / area"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hesc.108.10",

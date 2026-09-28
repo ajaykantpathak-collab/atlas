@@ -5,6 +5,8 @@
    "id": "lemh.207.13.2.1",
    "title": "Conditional Probability from the Joint and the Condition",
    "converted_to_compute": false,
+   "formula": "cond_prob = joint_p / event_p",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A die is rolled once. What is the probability of getting a number greater than 2? (give the fraction)",
@@ -41,15 +43,9 @@
   {
    "id": "lemh.207.13.2.2",
    "title": "Properties of Conditional Probability",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "divide favourable outcomes by total outcomes",
-     "explain": "divide favourable outcomes by total outcomes: p = 1 / 6 gives 0.166667",
-     "compute": "p = 1 / 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "P(E_prime given F) = 1 minus P(E given F)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A die is rolled once. What is the probability of getting a number greater than 5? (give the fraction)",
@@ -87,6 +83,8 @@
    "id": "lemh.207.13.3.1",
    "title": "Multiplication Rule for Joint Occurrence",
    "converted_to_compute": false,
+   "formula": "joint_prob = event_p * cond_p",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A die is rolled once. What is the probability of getting a number greater than 5? (give the fraction)",
@@ -124,6 +122,8 @@
    "id": "lemh.207.13.4.1",
    "title": "At Least One of Two Independent Events",
    "converted_to_compute": false,
+   "formula": "at_least_one = 1 - miss_a * miss_b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A die is rolled once. What is the probability of getting a number greater than 4? (give the fraction)",
@@ -160,15 +160,9 @@
   {
    "id": "lemh.207.13.4.2",
    "title": "Testing Independent Events",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "divide favourable outcomes by total outcomes",
-     "explain": "divide favourable outcomes by total outcomes: p = 4 / 6 gives 0.666667",
-     "compute": "p = 4 / 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "events are independent when P(E and F) = P(E) times P(F)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A die is rolled once. What is the probability of getting a number greater than 2? (give the fraction)",
@@ -205,15 +199,9 @@
   {
    "id": "lemh.207.13.5.1",
    "title": "Partition of a Sample Space",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "divide favourable outcomes by total outcomes",
-     "explain": "divide favourable outcomes by total outcomes: p = 5 / 6 gives 0.833333",
-     "compute": "p = 5 / 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "a partition is pairwise disjoint, exhaustive and has nonzero probabilities",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A die is rolled once. What is the probability of getting a number greater than 1? (give the fraction)",
@@ -251,6 +239,8 @@
    "id": "lemh.207.13.5.2",
    "title": "Theorem of Total Probability",
    "converted_to_compute": false,
+   "formula": "total_prob = first_prior * first_cond + second_prior * second_cond",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A die is rolled once. What is the probability of getting a number greater than 4? (give the fraction)",
@@ -288,6 +278,8 @@
    "id": "lemh.207.13.5.3",
    "title": "Bayes' Theorem Reverse Probability",
    "converted_to_compute": false,
+   "formula": "post_prob = (prior_1 * cond_1) / (prior_1 * cond_1 + prior_2 * cond_2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A die is rolled once. What is the probability of getting a number greater than 3? (give the fraction)",
@@ -324,15 +316,9 @@
   {
    "id": "lemh.207.13.5.4",
    "title": "Random Variable on a Sample Space",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "divide favourable outcomes by total outcomes",
-     "explain": "divide favourable outcomes by total outcomes: p = 2 / 6 gives 0.333333",
-     "compute": "p = 2 / 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "a random variable maps each outcome of the sample space to a real number",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A die is rolled once. What is the probability of getting a number greater than 4? (give the fraction)",

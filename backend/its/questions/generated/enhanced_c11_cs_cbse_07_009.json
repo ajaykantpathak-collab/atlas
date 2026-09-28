@@ -34,6 +34,21 @@
      "q": "Design a small dictionary-based inventory system for a stationery shop. Show code that: (1) adds 3 items with quantities, (2) updates quantity of one item after a sale, (3) removes an item that is out of stock, (4) prints the final inventory. Use only operations from this node.",
      "a": "Expected answer:\n```python\ninv = {}\ninv['pen'] = 50      # add\ninv['notebook'] = 30 # add\ninv['eraser'] = 20   # add\ninv['pen'] = 45      # modify after selling 5\ndel inv['eraser']    # remove out of stock\nprint(inv)           # {'pen': 45, 'notebook': 30}\n```\nA poor answer uses `pop()` without using the returned value (not wrong but shows missed opportunity), or uses `update()` (outside scope), or forgets that `del` requires the key to exist.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Dictionary operations for adding, modifying, and deleting refer to the mutator methods that change the key-value pairs stored in a dictionary: adding a new pair using dict[key] = value, modifying an existing value by ______ dict[key] = new_value, and removing a pair using del dict[key] or dict.pop(key).",
+     "a": "reassigning",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a contact book app for your phone.",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write Python code to correctly add a new key-value pair, update the value of an existing key, and delete a key-value pair using both del and pop(), while explaining the difference in behavior when a key does not exist.",
+     "self_check": true
     }
    ]
   }

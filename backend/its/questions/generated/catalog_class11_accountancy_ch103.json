@@ -1,6 +1,424 @@
 {
- "catalog": "catalog_class11_accountancy_ch103",
+ "catalog": "catalog_class11_accountancy_ch103.json",
  "concepts": [
+  {
+   "id": "keac.3.2.1",
+   "title": "Fundamental Accounting Equation",
+   "converted_to_compute": true,
+   "formula": "assets = liabilities + capital",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "assets = liabilities + capital",
+     "compute": "assets = liabilities + capital"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keac.3.2.1",
+     "question_pattern": "what is the total value of assets if liabilities are {liabilities} and capital is {capital}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Fundamental Accounting Equation: given liabilities = 90, capital = 82, find assets.",
+     "a": "172",
+     "self_check": false
+    },
+    {
+     "q": "what is the total value of assets if liabilities are 90 and capital is 82?",
+     "a": "172",
+     "self_check": false
+    },
+    {
+     "q": "For Fundamental Accounting Equation: given liabilities = 43, capital = 26, find assets.",
+     "a": "69",
+     "self_check": false
+    },
+    {
+     "q": "what is the total value of assets if liabilities are 43 and capital is 26?",
+     "a": "69",
+     "self_check": false
+    },
+    {
+     "q": "For Fundamental Accounting Equation: given liabilities = 93, capital = 98, find assets.",
+     "a": "191",
+     "self_check": false
+    },
+    {
+     "q": "what is the total value of assets if liabilities are 93 and capital is 98?",
+     "a": "191",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.3.2.2",
+   "title": "Derivation of Capital or Liabilities from Accounting Equation",
+   "converted_to_compute": true,
+   "formula": "capital = assets - liabilities",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "capital = assets - liabilities",
+     "compute": "capital = assets - liabilities"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keac.3.2.2",
+     "question_pattern": "calculate capital when assets are {assets} and liabilities are {liabilities}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Derivation of Capital or Liabilities from Accounting Equation: given assets = 62, liabilities = 42, find capital.",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "calculate capital when assets are 62 and liabilities are 42?",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "For Derivation of Capital or Liabilities from Accounting Equation: given assets = 6.3, liabilities = 9.6, find capital.",
+     "a": "-3.3",
+     "self_check": false
+    },
+    {
+     "q": "calculate capital when assets are 6.3 and liabilities are 9.6?",
+     "a": "-3.3",
+     "self_check": false
+    },
+    {
+     "q": "For Derivation of Capital or Liabilities from Accounting Equation: given assets = 7.9, liabilities = 98, find capital.",
+     "a": "-90.1",
+     "self_check": false
+    },
+    {
+     "q": "calculate capital when assets are 7.9 and liabilities are 98?",
+     "a": "-90.1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.3.2.3",
+   "title": "Adjustment to Capital for Profit, Drawings, and Additional Investment",
+   "converted_to_compute": true,
+   "formula": "closing_capital = opening_capital + fresh_capital + revenue - expenses - drawings",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "closing_capital = opening_capital + fresh_capital + revenue - expenses - drawings",
+     "compute": "closing_capital = opening_capital + fresh_capital + revenue - expenses - drawings"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Adjustment to Capital for Profit, Drawings, and Additional Investment: given opening_capital = 43, fresh_capital = 14.2, revenue = 95, expenses = 71, drawings = 86, find closing capital.",
+     "a": "-4.8",
+     "self_check": false
+    },
+    {
+     "q": "For Adjustment to Capital for Profit, Drawings, and Additional Investment: given opening_capital = 29, fresh_capital = 64, revenue = 92, expenses = 4.7, drawings = 0.8, find closing capital.",
+     "a": "179.5",
+     "self_check": false
+    },
+    {
+     "q": "For Adjustment to Capital for Profit, Drawings, and Additional Investment: given opening_capital = 23, fresh_capital = 85, revenue = 14.5, expenses = 35, drawings = 84, find closing capital.",
+     "a": "3.5",
+     "self_check": false
+    },
+    {
+     "q": "For Adjustment to Capital for Profit, Drawings, and Additional Investment: given opening_capital = 92, fresh_capital = 16.4, revenue = 100, expenses = 80, drawings = 47, find closing capital.",
+     "a": "81.4",
+     "self_check": false
+    },
+    {
+     "q": "For Adjustment to Capital for Profit, Drawings, and Additional Investment: given opening_capital = 71, fresh_capital = 0.9, revenue = 10.2, expenses = 85, drawings = 14, find closing capital.",
+     "a": "-16.9",
+     "self_check": false
+    },
+    {
+     "q": "For Adjustment to Capital for Profit, Drawings, and Additional Investment: given opening_capital = 10.7, fresh_capital = 24, revenue = 75, expenses = 89, drawings = 88, find closing capital.",
+     "a": "-67.3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.3.4.1",
+   "title": "Journalising Transactions in the Book of Original Entry",
+   "converted_to_compute": true,
+   "formula": "total_debit = total_credit",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_debit = total_credit",
+     "compute": "total_debit = total_credit"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keac.3.4.1",
+     "question_pattern": "journalise the following transactions in the books of {total_credit}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Journalising Transactions in the Book of Original Entry: given total_credit = 1.2, find total debit.",
+     "a": "1.2",
+     "self_check": false
+    },
+    {
+     "q": "journalise the following transactions in the books of 1.2?",
+     "a": "1.2",
+     "self_check": false
+    },
+    {
+     "q": "For Journalising Transactions in the Book of Original Entry: given total_credit = 23, find total debit.",
+     "a": "23",
+     "self_check": false
+    },
+    {
+     "q": "journalise the following transactions in the books of 23?",
+     "a": "23",
+     "self_check": false
+    },
+    {
+     "q": "For Journalising Transactions in the Book of Original Entry: given total_credit = 84, find total debit.",
+     "a": "84",
+     "self_check": false
+    },
+    {
+     "q": "journalise the following transactions in the books of 84?",
+     "a": "84",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.3.4.2",
+   "title": "Intra-State and Inter-State GST Computation",
+   "converted_to_compute": true,
+   "formula": "cgst = base_amount * cgst_rate / 100; sgst = base_amount * sgst_rate / 100; invoice_total = base_amount + cgst + sgst",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "cgst = base_amount * cgst_rate / 100",
+     "compute": "cgst = base_amount * cgst_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "sgst = base_amount * sgst_rate / 100",
+     "compute": "sgst = base_amount * sgst_rate / 100"
+    },
+    {
+     "step": 3,
+     "action": "substitute the given values into the formula",
+     "explain": "invoice_total = base_amount + cgst + sgst",
+     "compute": "invoice_total = base_amount + cgst + sgst"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Intra-State and Inter-State GST Computation: given base_amount = 27, cgst_rate = 66, sgst_rate = 96, find invoice total.",
+     "a": "70.74",
+     "self_check": false
+    },
+    {
+     "q": "For Intra-State and Inter-State GST Computation: given base_amount = 76, cgst_rate = 41, sgst_rate = 17.9, find invoice total.",
+     "a": "120.764",
+     "self_check": false
+    },
+    {
+     "q": "For Intra-State and Inter-State GST Computation: given base_amount = 54, cgst_rate = 91, sgst_rate = 86, find invoice total.",
+     "a": "149.58",
+     "self_check": false
+    },
+    {
+     "q": "For Intra-State and Inter-State GST Computation: given base_amount = 74, cgst_rate = 21, sgst_rate = 81, find invoice total.",
+     "a": "149.48",
+     "self_check": false
+    },
+    {
+     "q": "For Intra-State and Inter-State GST Computation: given base_amount = 44, cgst_rate = 65, sgst_rate = 35, find invoice total.",
+     "a": "88",
+     "self_check": false
+    },
+    {
+     "q": "For Intra-State and Inter-State GST Computation: given base_amount = 77, cgst_rate = 82, sgst_rate = 12.2, find invoice total.",
+     "a": "149.534",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.3.4.3",
+   "title": "Net GST Settlement through Input Tax Credit",
+   "converted_to_compute": true,
+   "formula": "net_tax_payable = output_tax - input_tax",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_tax_payable = output_tax - input_tax",
+     "compute": "net_tax_payable = output_tax - input_tax"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Net GST Settlement through Input Tax Credit: given output_tax = 113, input_tax = 62, find net tax payable.",
+     "a": "51",
+     "self_check": false
+    },
+    {
+     "q": "For Net GST Settlement through Input Tax Credit: given output_tax = 83, input_tax = 93, find net tax payable.",
+     "a": "-10",
+     "self_check": false
+    },
+    {
+     "q": "For Net GST Settlement through Input Tax Credit: given output_tax = 116, input_tax = 30, find net tax payable.",
+     "a": "86",
+     "self_check": false
+    },
+    {
+     "q": "For Net GST Settlement through Input Tax Credit: given output_tax = 87, input_tax = 109, find net tax payable.",
+     "a": "-22",
+     "self_check": false
+    },
+    {
+     "q": "For Net GST Settlement through Input Tax Credit: given output_tax = 100, input_tax = 23, find net tax payable.",
+     "a": "77",
+     "self_check": false
+    },
+    {
+     "q": "For Net GST Settlement through Input Tax Credit: given output_tax = 87, input_tax = 54, find net tax payable.",
+     "a": "33",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.3.6.1",
+   "title": "Apportionment of Insolvent Debt into Recovery and Bad Debts",
+   "converted_to_compute": true,
+   "formula": "recovered_amount = total_debt * recovery_rate / 100; bad_debts = total_debt - recovered_amount",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "recovered_amount = total_debt * recovery_rate / 100",
+     "compute": "recovered_amount = total_debt * recovery_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "bad_debts = total_debt - recovered_amount",
+     "compute": "bad_debts = total_debt - recovered_amount"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Apportionment of Insolvent Debt into Recovery and Bad Debts: given total_debt = 60, recovery_rate = 99, find bad debts.",
+     "a": "0.6",
+     "self_check": false
+    },
+    {
+     "q": "For Apportionment of Insolvent Debt into Recovery and Bad Debts: given total_debt = 13.9, recovery_rate = 49, find bad debts.",
+     "a": "7.089",
+     "self_check": false
+    },
+    {
+     "q": "For Apportionment of Insolvent Debt into Recovery and Bad Debts: given total_debt = 54, recovery_rate = 1.3, find bad debts.",
+     "a": "53.298",
+     "self_check": false
+    },
+    {
+     "q": "For Apportionment of Insolvent Debt into Recovery and Bad Debts: given total_debt = 7.1, recovery_rate = 3.7, find bad debts.",
+     "a": "6.8373",
+     "self_check": false
+    },
+    {
+     "q": "For Apportionment of Insolvent Debt into Recovery and Bad Debts: given total_debt = 76, recovery_rate = 53, find bad debts.",
+     "a": "35.72",
+     "self_check": false
+    },
+    {
+     "q": "For Apportionment of Insolvent Debt into Recovery and Bad Debts: given total_debt = 13.1, recovery_rate = 19, find bad debts.",
+     "a": "10.611",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.3.6.2",
+   "title": "Computation of Interest on Capital",
+   "converted_to_compute": true,
+   "formula": "interest = capital * rate * months / 1200",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "interest = capital * rate * months / 1200",
+     "compute": "interest = capital * rate * months / 1200"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keac.3.6.2",
+     "question_pattern": "calculate interest on capital of {capital} at {rate} percent per annum for {months} months"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Computation of Interest on Capital: given capital = 77, rate = 69, months = 3, find interest.",
+     "a": "13.2825",
+     "self_check": false
+    },
+    {
+     "q": "calculate interest on capital of 77 at 69 percent per annum for 3 months?",
+     "a": "13.2825",
+     "self_check": false
+    },
+    {
+     "q": "For Computation of Interest on Capital: given capital = 55, rate = 29, months = 6.2, find interest.",
+     "a": "8.24083",
+     "self_check": false
+    },
+    {
+     "q": "calculate interest on capital of 55 at 29 percent per annum for 6.2 months?",
+     "a": "8.24083",
+     "self_check": false
+    },
+    {
+     "q": "For Computation of Interest on Capital: given capital = 74, rate = 72, months = 93, find interest.",
+     "a": "412.92",
+     "self_check": false
+    },
+    {
+     "q": "calculate interest on capital of 74 at 72 percent per annum for 93 months?",
+     "a": "412.92",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "keac.3.1.1",
    "title": "Source Documents and Accounting Vouchers",
@@ -18,99 +436,6 @@
     {
      "q": "Under which section is 'Source Documents and Accounting Vouchers' taught, and from which source text?",
      "a": "3.1 (source: keac103.txt lines 25-80)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.3.2.1",
-   "title": "Fundamental Accounting Equation",
-   "questions": [
-    {
-     "q": "Find total assets when liabilities and capital are given. Use the method 'Fundamental Accounting Equation'. Work with: capital = 5000, liabilities = 120. Carry the chain through step by step and give the final value of assets.",
-     "a": "5120 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Calculate total resources of the firm. Use the method 'Fundamental Accounting Equation'. Work with: capital = 5000, liabilities = 4. Carry the chain through step by step and give the final value of assets.",
-     "a": "5004 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Fundamental Accounting Equation' refers to.",
-     "a": "A mathematical statement demonstrating that total economic resources owned by an entity always equal the sum of claims held by external lenders and internal owners.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Fundamental Accounting Equation'.",
-     "a": "Dual-aspect accounting ensures the equality of resources and financing claims at all points in time.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Fundamental Accounting Equation', in plain ASCII form.",
-     "a": "assets = liabilities + capital",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.3.2.2",
-   "title": "Derivation of Capital or Liabilities from Accounting Equation",
-   "questions": [
-    {
-     "q": "Calculate capital when assets are ... and liabilities are .... Use the method 'Derivation of Capital or Liabilities from Accounting Equation'. Work with: assets = 500, liabilities = 300. Carry the chain through step by step and give the final value of capital.",
-     "a": "200 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find outsider liabilities if assets and capital are known. Use the method 'Derivation of Capital or Liabilities from Accounting Equation'. Work with: assets = 2500, liabilities = 3. Carry the chain through step by step and give the final value of capital.",
-     "a": "2497 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Derivation of Capital or Liabilities from Accounting Equation' refers to.",
-     "a": "Calculating an unknown component of the balance sheet equation by isolating either capital or liabilities from total assets.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Derivation of Capital or Liabilities from Accounting Equation'.",
-     "a": "Owner's residual equity equals total assets less outsider claims.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Derivation of Capital or Liabilities from Accounting Equation', in plain ASCII form.",
-     "a": "capital = assets - liabilities",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.3.2.3",
-   "title": "Adjustment to Capital for Profit, Drawings, and Additional Investment",
-   "questions": [
-    {
-     "q": "Calculate closing capital at the end of the year. Use the method 'Adjustment to Capital for Profit, Drawings, and Additional Investment'. Work with: drawings = 12, expenses = 5000, fresh_capital = 2500, opening_capital = 8000, revenue = 8000. Carry the chain through step by step and give the final value of closing_capital.",
-     "a": "13488 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the updated capital after revenue expenses and drawings. Use the method 'Adjustment to Capital for Profit, Drawings, and Additional Investment'. Work with: drawings = 200, expenses = 500, fresh_capital = 500, opening_capital = 1200, revenue = 5000. Carry the chain through step by step and give the final value of closing_capital.",
-     "a": "6000 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Adjustment to Capital for Profit, Drawings, and Additional Investment' refers to.",
-     "a": "Closing capital is derived by adjusting beginning capital with operational revenues, business expenses, fresh funds invested, and withdrawals made by the proprietor.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Adjustment to Capital for Profit, Drawings, and Additional Investment'.",
-     "a": "Revenues and fresh capital expand equity, whereas expenses and drawings diminish it.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Adjustment to Capital for Profit, Drawings, and Additional Investment', in plain ASCII form.",
-     "a": "closing_capital = opening_capital + fresh_capital + revenue - expenses - drawings",
      "self_check": true
     }
    ]
@@ -137,99 +462,6 @@
    ]
   },
   {
-   "id": "keac.3.4.1",
-   "title": "Journalising Transactions in the Book of Original Entry",
-   "questions": [
-    {
-     "q": "Using the method 'Journalising Transactions in the Book of Original Entry', work with: total_credit = 200. Carry the chain through step by step and give the final value of total_debit.",
-     "a": "200 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Journalising Transactions in the Book of Original Entry' and work with: total_credit = 50. Carry the chain through step by step and give the final value of total_debit.",
-     "a": "50 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Journalising Transactions in the Book of Original Entry' refers to.",
-     "a": "Recording financial events chronologically in a five-column journal format specifying debited accounts, credited accounts, amounts, and explanatory narrations.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Journalising Transactions in the Book of Original Entry'.",
-     "a": "Every journal entry preserves the dual-aspect equality by having identical aggregate debit and credit sums.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Journalising Transactions in the Book of Original Entry', in plain ASCII form.",
-     "a": "total_debit = total_credit",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.3.4.2",
-   "title": "Intra-State and Inter-State GST Computation",
-   "questions": [
-    {
-     "q": "Calculate CGST and SGST on goods purchased for .... Use the method 'Intra-State and Inter-State GST Computation'. Work with: base_amount = 2500, cgst_rate = 5, sgst_rate = 25. Carry the chain through step by step and give the final value of invoice_total.",
-     "a": "3250 units",
-     "self_check": false
-    },
-    {
-     "q": "Compute the total invoice amount including GST. Use the method 'Intra-State and Inter-State GST Computation'. Work with: base_amount = 120000, cgst_rate = 10, sgst_rate = 20. Carry the chain through step by step and give the final value of invoice_total.",
-     "a": "156000 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Intra-State and Inter-State GST Computation' refers to.",
-     "a": "Computing Goods and Services Tax wherein intra-state supplies are taxed equally as Central GST and State GST, while inter-state supplies are subject to Integrated GST.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Intra-State and Inter-State GST Computation'.",
-     "a": "Intra-state purchases split GST equally between CGST and SGST, whereas inter-state trade levies full IGST.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Intra-State and Inter-State GST Computation', in plain ASCII form.",
-     "a": "cgst = base_amount * cgst_rate / 100; sgst = base_amount * sgst_rate / 100; invoice_total = base_amount + cgst + sgst",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.3.4.3",
-   "title": "Net GST Settlement through Input Tax Credit",
-   "questions": [
-    {
-     "q": "Calculate the net GST payable to the government. Use the method 'Net GST Settlement through Input Tax Credit'. Work with: input_tax = 20, output_tax = 18. Carry the chain through step by step and give the final value of net_tax_payable.",
-     "a": "-2 rupees",
-     "self_check": false
-    },
-    {
-     "q": "How much net tax is paid through electronic cash ledger? Use the method 'Net GST Settlement through Input Tax Credit'. Work with: input_tax = 20, output_tax = 20. Carry the chain through step by step and give the final value of net_tax_payable.",
-     "a": "0 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Net GST Settlement through Input Tax Credit' refers to.",
-     "a": "Offsetting the input tax credit paid on procurement against output tax collected from customers to compute the net tax payable to the government.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Net GST Settlement through Input Tax Credit'.",
-     "a": "The government receives only the value-addition tax, computed as output tax minus eligible input tax credit.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Net GST Settlement through Input Tax Credit', in plain ASCII form.",
-     "a": "net_tax_payable = output_tax - input_tax",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "keac.3.5.1",
    "title": "Ledger Accounts and Posting Mechanism",
    "questions": [
@@ -246,68 +478,6 @@
     {
      "q": "Under which section is 'Ledger Accounts and Posting Mechanism' taught, and from which source text?",
      "a": "3.5 (source: keac103.txt lines 625-720)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.3.6.1",
-   "title": "Apportionment of Insolvent Debt into Recovery and Bad Debts",
-   "questions": [
-    {
-     "q": "Calculate bad debts when a debtor pays ... paise in a rupee. Use the method 'Apportionment of Insolvent Debt into Recovery and Bad Debts'. Work with: recovery_rate = 15, total_debt = 24. Carry the chain through step by step and give the final value of bad_debts.",
-     "a": "20.4 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the cash recovered and amount written off as bad debt. Use the method 'Apportionment of Insolvent Debt into Recovery and Bad Debts'. Work with: recovery_rate = 25, total_debt = 80. Carry the chain through step by step and give the final value of bad_debts.",
-     "a": "60 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Apportionment of Insolvent Debt into Recovery and Bad Debts' refers to.",
-     "a": "Calculating the portion of debt recovered in cash versus the irrecoverable loss written off as bad debts when a debtor is declared insolvent.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Apportionment of Insolvent Debt into Recovery and Bad Debts'.",
-     "a": "Dividend from an insolvent debtor's estate is debited to cash/bank and the remaining deficit to bad debts account.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Apportionment of Insolvent Debt into Recovery and Bad Debts', in plain ASCII form.",
-     "a": "recovered_amount = total_debt * recovery_rate / 100; bad_debts = total_debt - recovered_amount",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.3.6.2",
-   "title": "Computation of Interest on Capital",
-   "questions": [
-    {
-     "q": "Calculate interest on capital of ... at ... percent per annum for ... months. Use the method 'Computation of Interest on Capital'. Work with: capital = 5000, months = 240, rate = 8. Carry the chain through step by step and give the final value of interest.",
-     "a": "8000 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the amount of interest to be credited to capital account. Use the method 'Computation of Interest on Capital'. Work with: capital = 50000, months = 300, rate = 20. Carry the chain through step by step and give the final value of interest.",
-     "a": "250000 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Computation of Interest on Capital' refers to.",
-     "a": "Determining the interest allowable to the proprietor on capital invested in the business for a specific time period at a stated annual percentage rate.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Computation of Interest on Capital'.",
-     "a": "Interest on capital is treated as a business expense and increases the owner's total capital claim.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Computation of Interest on Capital', in plain ASCII form.",
-     "a": "interest = capital * rate * months / 1200",
      "self_check": true
     }
    ]

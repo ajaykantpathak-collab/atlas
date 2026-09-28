@@ -2,6 +2,53 @@
  "catalog": "catalog_class8_science_ch112.json",
  "concepts": [
   {
+   "id": "hesc.112.9",
+   "title": "Richter Scale Energy Comparison",
+   "converted_to_compute": true,
+   "formula": "energy_ratio = 1000 ** ((mag_2 - mag_1) / 2)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "energy_ratio = 1000 ** ((mag_2 - mag_1) / 2)",
+     "compute": "energy_ratio = 1000 ** ((mag_2 - mag_1) / 2)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Richter Scale Energy Comparison: given mag_2 = 26, mag_1 = 46, find energy ratio.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Richter Scale Energy Comparison: given mag_2 = 40, mag_1 = 44, find energy ratio.",
+     "a": "0.000001",
+     "self_check": false
+    },
+    {
+     "q": "For Richter Scale Energy Comparison: given mag_2 = 13.1, mag_1 = 26, find energy ratio.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Richter Scale Energy Comparison: given mag_2 = 34, mag_1 = 38, find energy ratio.",
+     "a": "0.000001",
+     "self_check": false
+    },
+    {
+     "q": "For Richter Scale Energy Comparison: given mag_2 = 37, mag_1 = 65, find energy ratio.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For Richter Scale Energy Comparison: given mag_2 = 41, mag_1 = 91, find energy ratio.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
    "id": "hesc.112.1",
    "title": "Charging by Rubbing",
    "solution_type": "verify_property",
@@ -174,88 +221,6 @@
      "q": "Can scientists predict earthquakes reliably?",
      "a": "No - they can locate and measure past quakes, but prediction of time and place is still not possible.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "hesc.112.9",
-   "title": "Richter Scale Energy Comparison",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "mag_gap",
-     "expr": "(mag2 - mag1) / 2",
-     "explain": "half the difference in Richter magnitudes"
-    },
-    {
-     "step": 2,
-     "name": "half_gap_ratio",
-     "expr": "1000 ** ((mag2 - mag1) / 4)",
-     "explain": "energy ratio for half the magnitude gap"
-    },
-    {
-     "step": 3,
-     "name": "energy_ratio",
-     "expr": "1000 ** mag_gap",
-     "explain": "each unit of Richter magnitude means 1000 times more energy"
-    }
-   ],
-   "questions": [
-    {
-     "q": "An earthquake of magnitude 6 releases how many times the energy of one of magnitude 4?",
-     "vals": {
-      "mag1": 4,
-      "mag2": 6
-     },
-     "unit": "times",
-     "steps": null,
-     "a": "1000 times",
-     "self_check": false
-    },
-    {
-     "q": "Compare the energy of a magnitude 7 quake with a magnitude 5 quake.",
-     "vals": {
-      "mag1": 5,
-      "mag2": 7
-     },
-     "unit": "times",
-     "steps": null,
-     "a": "1000 times",
-     "self_check": false
-    },
-    {
-     "q": "How many times stronger is a magnitude 5.5 tremor than one of magnitude 5?",
-     "vals": {
-      "mag1": 5,
-      "mag2": 5.5
-     },
-     "unit": "times",
-     "steps": null,
-     "a": "5.62341 times",
-     "self_check": false
-    },
-    {
-     "q": "A great quake of magnitude 8 shakes how many times harder in energy than a magnitude 5 one?",
-     "vals": {
-      "mag1": 5,
-      "mag2": 8
-     },
-     "unit": "times",
-     "steps": null,
-     "a": "31622.8 times",
-     "self_check": false
-    },
-    {
-     "q": "Compare magnitudes 6 and 6.5: how many times more energy does the bigger one carry?",
-     "vals": {
-      "mag1": 6,
-      "mag2": 6.5
-     },
-     "unit": "times",
-     "steps": null,
-     "a": "5.62341 times",
-     "self_check": false
     }
    ]
   },

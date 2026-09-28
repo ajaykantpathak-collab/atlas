@@ -34,6 +34,26 @@
      "q": "Design a real-world problem where a parabolic trajectory is NOT the correct model, but an ellipse is. Provide the scenario, the given parameters, and the specific question to be solved.",
      "a": "Example: \"A planet orbits the sun in an elliptical path with the sun at one focus. At perihelion it is 147 million km, at aphelion 152 million km. Find the equation of the orbit and the distance of the sun from the center.\" Good answer identifies ellipse (not parabola) because orbit is closed and periodic, uses sum of distances = constant, calculates a = 149.5, c = 2.5, b² = a² - c². Poor answer uses parabolic projectile motion or ignores the two-focus property.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Applications of conic sections refer to the use of geometric properties of circles, parabolas, ellipses, and hyperbolas to model and solve real-world problems in physics, engineering, astronomy, and architecture, where the reflective, focal, or geometric ______ of these curves provide optimal solutions.",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ dish for a village in Rajasthan to receive TV signals.",
+     "a": "satellite",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can translate a real-world scenario into the appropriate conic section model, identify the relevant geometric property (focus-directrix, reflective property, eccentricity), set up the equation with given parameters, and solve for unknown quantities like focal length, span, or height, justifying why that specific conic is used.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a satellite dish for a village in Rajasthan to receive TV signals.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

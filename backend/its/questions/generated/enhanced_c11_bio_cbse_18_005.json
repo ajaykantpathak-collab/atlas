@@ -34,6 +34,26 @@
      "q": "Design a simple clinical test to distinguish between an upper motor neuron lesion (above the spinal cord) and a lower motor neuron lesion (at the spinal cord ventral horn or peripheral nerve) in a patient with leg weakness. Explain the expected findings for each.",
      "a": "Test deep tendon reflexes (e.g., knee-jerk at L3-L4) and check for muscle tone, atrophy, and Babinski sign. Upper motor neuron lesion: hyperreflexia (brisk reflexes), spasticity (increased tone), no atrophy initially, positive Babinski (extensor plantar response). Lower motor neuron lesion: hyporeflexia/areflexia, flaccidity (decreased tone), early atrophy, negative Babinski. A poor test design that only checks strength reveals the student doesn't understand that lesion localisation depends on qualitative signs (reflexes, tone, Babinski) not just quantitative weakness.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The spinal cord is a cylindrical, elongated structure of the central nervous system extending from the medulla oblongata through the vertebral canal, protected by three meningeal layers and ______ fluid, with an inner butterfly-shaped grey matter containing neuronal cell bodies and an outer white matter comprising myelinated axon tracts that conduct sensory and motor impulses between the brain and peripheral nerves.",
+     "a": "cerebrospinal",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you accidentally touch a hot tawa while cooking, your hand pulls back before you even feel the pain — this instantaneous ______ is coordinated by your spinal cord without waiting for brain approval.",
+     "a": "withdrawal",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can draw and label a transverse section of the spinal cord showing grey matter horns, white matter columns, central canal, and meninges, and can trace the path of a reflex arc through specific spinal cord regions explaining the functional significance of each component.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you accidentally touch a hot tawa while cooking, your hand pulls back before you even feel the pain — this ______ withdrawal is coordinated by your spinal cord without waiting for brain approval.",
+     "a": "instantaneous",
+     "self_check": true
     }
    ]
   }

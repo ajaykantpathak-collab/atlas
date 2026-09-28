@@ -46,6 +46,275 @@ _LOCAL_DICT = {
 }
 
 
+# ---------------------------------------------------------------------------
+# Intent guard: did we answer the quantity that was actually asked for?
+# ---------------------------------------------------------------------------
+# `solve()` below is first-match-wins: the first pattern whose `.match()`
+# succeeds and whose variables are all present returns immediately. That is
+# fine for most patterns, but HCF and LCM questions name BOTH quantities
+# ("given their HCF is 2 and HCF x LCM = a x b, find the LCM"), so the HCF
+# pattern matches first and returns the HCF. The LCM pattern is never tried and
+# the student gets a confident, well-formatted, WRONG answer — which is far
+# worse than falling through to the next pattern (and to the rest of the
+# funnel). This was measured, not theorised: 2 of 25 sampled maths questions
+# produced this exact misfire.
+#
+# The fix is a general intent check rather than a per-pattern patch, so any
+# future pair of confusable quantities inherits the protection.
+_CONFUSABLE_TARGETS = {
+    "lcm": "lcm",
+    "hcf": "hcf",
+    "gcd": "hcf",
+    "greatest common divisor": "hcf",
+    "least common multiple": "lcm",
+}
+_ASKED_RE = stdre.compile(
+    r"(?:find|compute|calculate|what\s+is|determine|then\s+find|give\s+me)\s+"
+    r"(?:the\s+)?(lcm|hcf|gcd|greatest\s+common\s+divisor|least\s+common\s+multiple)\b",
+    stdre.IGNORECASE,
+)
+
+
+# ── Wrong-quantity shape checks (central; see _answers_the_wrong_quantity) ──
+# "when x = 5" / "at x = 5" / "if x = 5" -- the value being substituted.
+_SUBSTITUTION_RE = stdre.compile(
+    r"\b(?:when|at|if|for)\s*([a-z])\s*=\s*(-?\d+(?:\.\d+)?)",
+    stdre.IGNORECASE,
+)
+# Signals that a MONEY/AMOUNT is the thing being asked for.
+_AMOUNT_RE = stdre.compile(
+    r"(?:\brs\.?\b|\bamount\b|\bmoney\b|\bshare\b|\bprofit\b|\bloss\b|"
+    r"\bhow\s+much\b|\bper\s+share\b|\beach\s+(?:person|friend|share|one)\b|"
+    r"\bdivided\s+between\b|\bsplit\b)",
+    stdre.IGNORECASE,
+)
+# An answer that is shaped like a ratio rather than a single quantity.
+_RATIO_SHAPE_RE = stdre.compile(r"\d+\s*:\s*\d+")
+
+
+def _to_number(value):
+    """Best-effort numeric coercion; returns None rather than guessing."""
+    if value is None:
+        return None
+    try:
+        if isinstance(value, (int, float)):
+            return float(value)
+    except Exception:
+        return None
+    try:
+        import sympy as _sp
+
+        return float(_sp.sympify(value))
+    except Exception:
+        pass
+    m = stdre.search(r"-?\d+(?:\.\d+)?", str(value))
+    if not m:
+        return None
+    try:
+        return float(m.group(0))
+    except Exception:
+        return None
+
+
+def _same_number(left, right, tol: float = 1e-9) -> bool:
+    """Numeric equality tolerant of '5', '5.0' and 'n = (123-11)/8 + 1 = 15'."""
+    a = _to_number(left)
+    b = _to_number(right)
+    if a is None or b is None:
+        return False
+    return abs(a - b) <= tol
+
+
+def _asked_for(question: str) -> Optional[str]:
+    """Which confusable quantity did the question actually ask for?
+
+    Returns None when the question does not name one, so ordinary questions
+    are never affected.
+    """
+    m = _ASKED_RE.search(question or "")
+    if not m:
+        return None
+    return _CONFUSABLE_TARGETS.get(" ".join(m.group(1).lower().split()))
+
+
+def _answers_the_wrong_quantity(question: str, computed) -> bool:
+    """True when we produced an answer for a different quantity than asked.
+
+    Two families of check, both cheap and both central so every one of the ~197
+    patterns inherits them:
+
+    1. NAMED TARGET (HCF vs LCM) -- the original case, via _asked_for().
+    2. SHAPE MISMATCH -- the classes the corpus run actually surfaced, which no
+       per-pattern fix was going to catch:
+         * echoing the substitution value: "Evaluate 3x + 4 when x = 5"
+           returned `5` (the input for x) instead of 19.
+         * answering a ratio when an AMOUNT was asked: "Rs 660 is divided
+           between two friends in the ratio ..." returned "Simplified ratio:
+           5:6" instead of the money.
+    """
+    q = question or ""
+
+    # (2a) Echoed substitution. Deliberately conservative: we only reject when
+    # the expression also carries an additive term, because a bare "3x when
+    # x = 0" legitimately evaluates to 0 and must NOT be discarded.
+    m = _SUBSTITUTION_RE.search(q)
+    if m and ("+" in q or "-" in q):
+        try:
+            given = _to_number(m.group(2))
+        except Exception:
+            given = None
+        if given is not None and _same_number(getattr(computed, "answer", None), given):
+            return True
+
+    # (2b) Ratio returned where an amount/share was requested.
+    if _AMOUNT_RE.search(q):
+        answer_text = str(getattr(computed, "answer", "") or "")
+        qtype = str(getattr(computed, "question_type", "") or "").lower()
+        if _RATIO_SHAPE_RE.search(answer_text) or "ratio" in qtype:
+            return True
+
+    asked = _asked_for(q)
+    if not asked:
+        return False
+    got = str(getattr(computed, "question_type", "") or "").lower()
+    if not got:
+        return False
+    return got != asked
+
+
+def _numbers_in(text: str) -> list[int]:
+    """Whole numbers appearing in a question, in order, de-duplicated."""
+    out: list[int] = []
+    for m in stdre.finditer(r"\d+", text or ""):
+        try:
+            v = int(m.group(0))
+        except ValueError:
+            continue
+        if v not in out:
+            out.append(v)
+    return out
+
+
+def _self_check_arithmetic(question: str, computed) -> bool:
+    """Independently recompute HCF/LCM and reject a disagreeing answer.
+
+    The intent guard above catches "answered the wrong quantity". This catches
+    the other failure: right quantity, wrong value. Measured on the corpus,
+    "Two numbers 50 and 70 have HCF 10 with coprime multipliers 5 and 7 ...
+    then find the HCF value" returned `HCF = 1`.
+
+    HCF and LCM are exactly re-checkable — `math.gcd` is a different algorithm
+    from whatever the pattern did, so this is a true cross-validation (the
+    CROSS_VALIDATED status that `solvers/base.py` already models), not a
+    restatement.
+
+    POLARITY: returns True = accept (verified, or no opinion), False = reject.
+    It is deliberately narrow: it only has an opinion when the question names
+    its operands and the computed type is hcf/lcm, so a vague question
+    ("find the HCF of 12, 18 and 24") keeps its existing behaviour rather than
+    being wrongly rejected.
+    """
+    qtype = str(getattr(computed, "question_type", "") or "").lower()
+    if qtype not in ("hcf", "lcm"):
+        return True  # not a re-checkable family — no opinion
+    m = stdre.search(
+        r"(?:two\s+)?numbers?\s+(\d+)\s+and\s+(\d+)", question or "", stdre.IGNORECASE
+    )
+    if not m:
+        return True  # operands not stated — no opinion
+    a, b = int(m.group(1)), int(m.group(2))
+    expected = math.gcd(a, b) if qtype == "hcf" else (a * b) // math.gcd(a, b)
+    got = _numbers_in(str(getattr(computed, "answer", "")))
+    if not got:
+        return False  # produced no number at all — not trustworthy
+    return got[-1] == expected
+
+
+# Answers that are clearly UNEVALUATED SymPy output rather than a result.
+#
+# Measured on 10,161 real corpus questions, the pattern layer returned 615
+# confident-wrong answers, many of them raw solver internals served to a
+# student, e.g.
+#
+#   'Find the value of the polynomial 2x^2 + 2x + 6 at x = 3.'  (stored 30)
+#   got 'Roots: [0.0248...*(-3.0*a*t - sqrt(120.513...*a**2*f**h**2*...))]'
+#
+#   'Evaluate (4^2)^3 using the power of a power law.'  (stored 4096)
+#   got 'evaluate((4**2)**3 ...) = 4096a2f*gh*il*no3p2r2s*tu*w3exp(3)'
+#
+# This is deliberately MARKER-based rather than "must be numeric": legitimate
+# answers here include prose ("prime", "not prime") and annotated workings
+# ("Speed = 150.0/2.0 = 75 km/h"), and a numeric-only rule would throw those
+# away and cut coverage to chase a cosmetic win. These markers only appear in
+# unevaluated solver output.
+_UNEVALUATED_MARKERS = (
+    "Roots:",        # solve() roots that were never simplified
+    "evaluate(",
+    "Symbol(",
+    "Derivative(",
+    "Integral(",
+    "Eq(",
+    "**(",            # unevaluated power, e.g. 2**(3)
+    "exp(",
+    "**I",            # imaginary-unit pollution, e.g. r**I
+    # Narrow, value-shaped markers for general solutions. These are added at
+    # the ACCEPT step (we are about to return this answer), not as a way of
+    # forcing the loop to try more patterns, and the broad digit*symbol regex
+    # that caused the earlier blowup is deliberately NOT here.
+    "±",
+    "acos(",
+    "asin(",
+    "atan(",
+    "nπ",
+    # A tuple/point answer where the question asked for a single quantity,
+    # e.g. "Point = ((0, 0))" for an x-coordinate request.
+    "= ((",
+)
+
+
+# Hard ceiling on patterns tried per question. Without it, a question whose
+# every candidate produces rejected output walks the entire pattern list with
+# SymPy work at each step — minutes instead of milliseconds. Set high enough
+# not to hurt real questions, low enough to fail fast into a MISS.
+try:
+    # Imported locally: this module has no module-level `os`, and referencing
+    # one here raised NameError at IMPORT time, which would have taken the whole
+    # solver down.
+    import os as _os_mod
+
+    PATTERN_ATTEMPT_LIMIT = max(
+        1, int(_os_mod.environ.get("PATTERN_ATTEMPT_LIMIT", "8"))
+    )
+    # An attempt cap alone is NOT enough: the count is bounded but the cost per
+    # attempt is not, and some patterns do expensive SymPy work. Measured, the
+    # wide marker set still ran >2.5 min on 1,200 questions with the cap at 8.
+    # Wall-clock is the only real bound, so there is one too.
+    # Wall-clock is the only real bound, so there is one too. The default is
+    # 250ms: a student waiting longer than that gets a worse experience than a
+    # fall-through, and the budget is PER QUESTION, so it multiplies by traffic.
+    PATTERN_TIME_BUDGET_S = max(
+        0.02, float(_os_mod.environ.get("PATTERN_TIME_BUDGET_S", "0.25"))
+    )
+except Exception:
+    PATTERN_ATTEMPT_LIMIT = 8
+    PATTERN_TIME_BUDGET_S = 0.25
+
+
+def _is_unevaluated(answer: str) -> bool:
+    """True when the answer is raw solver internals rather than a result.
+
+    Marker-based on purpose. A "must be numeric" rule would reject legitimate
+    answers from this layer — prose results ("prime", "not prime") and
+    annotated workings ("Speed = 150.0/2.0 = 75 km/h") are correct and common
+    here, and a numeric-only rule would throw them away to chase a cosmetic
+    win. These markers appear only in unevaluated solver output.
+    """
+    text = str(answer or "")
+    if not text.strip():
+        return True
+    return any(marker in text for marker in _UNEVALUATED_MARKERS)
+
+
 def solve(question: str) -> Optional[ComputeResult]:
     """Solve a question using structural pattern matching + SymPy.
 
@@ -56,13 +325,48 @@ def solve(question: str) -> Optional[ComputeResult]:
     try:
         socratic_result = _socratic_solve(question)
         if socratic_result and socratic_result.answer:
-            # Convert SocraticResult to ComputeResult
-            return ComputeResult(
-                matched=True,
-                question_type=socratic_result.concept,
-                answer=socratic_result.answer,
-                steps=[s["explanation"] for s in socratic_result.steps],
-            )
+            # Same rules as the pattern loop below: never surface raw solver
+            # internals, and never surface an answer for the WRONG QUANTITY.
+            #
+            # The wrong-quantity and arithmetic cross-checks were originally
+            # applied only inside the pattern loop, so this early return was an
+            # unguarded bypass. Measured: "Evaluate 3x + 4 when x = 5" returned
+            # `5` and "Evaluate 3x + 6 when x = 9" returned `9` straight from
+            # here -- the substitution value instead of the result -- and
+            # fixing individual patterns could never have touched it.
+            if not _is_unevaluated(socratic_result.answer):
+                candidate = ComputeResult(
+                    matched=True,
+                    question_type=socratic_result.concept,
+                    answer=socratic_result.answer,
+                    steps=[s["explanation"] for s in socratic_result.steps],
+                )
+                # NOTE: `clean_question` is not defined yet -- it is built in
+                # Step 1, below. Using it here raised NameError, which the
+                # broad `except` swallowed, silently dropping every Socratic
+                # answer. This block runs before preprocessing, so `question`
+                # is the correct input.
+                if not _answers_the_wrong_quantity(question, candidate):
+                    if _self_check_arithmetic(question, candidate):
+                        return candidate
+                    logger.info(
+                        "Socratic cross-check rejected %r for %r -- falling "
+                        "through to the pattern loop",
+                        str(candidate.answer)[:90], question[:60],
+                    )
+                else:
+                    logger.info(
+                        "Socratic answered the wrong quantity for %r "
+                        "(asked=%r produced=%r) -- falling through to the "
+                        "pattern loop",
+                        question[:60], _asked_for(question),
+                        getattr(candidate, "question_type", "?"),
+                    )
+            else:
+                logger.info(
+                    "Rejecting unevaluated socratic output: %r",
+                    str(socratic_result.answer)[:90],
+                )
     except Exception as e:
         logger.warning(f"Socratic solver failed: {e}")
 
@@ -75,9 +379,23 @@ def solve(question: str) -> Optional[ComputeResult]:
     parsed = parse_question(clean_question)
 
     # Step 3: Try each pattern (fallback)
+    # Bounded two ways: an attempt cap AND a wall-clock budget. The cap alone
+    # bounds the count but not the cost per attempt, and some patterns do
+    # expensive SymPy work — a question must never become a multi-second stall.
+    import time as _time_mod
+
+    attempts = 0
+    _deadline = _time_mod.monotonic() + PATTERN_TIME_BUDGET_S
     for pattern in ALL_PATTERNS:
+        if attempts >= PATTERN_ATTEMPT_LIMIT or _time_mod.monotonic() > _deadline:
+            logger.debug(
+                "Pattern budget exhausted (attempts=%s/%s) for %r",
+                attempts, PATTERN_ATTEMPT_LIMIT, question[:60],
+            )
+            break
         try:
             if pattern.match(parsed):
+                attempts += 1
                 result = pattern.extract(parsed, clean_question)
 
                 if result.matched:
@@ -89,7 +407,37 @@ def solve(question: str) -> Optional[ComputeResult]:
 
                     # Compute with SymPy
                     computed = _compute(result)
-                    if computed:
+                    # `_format_result` reports a non-concrete value as
+                    # unmatched; without this check that failure would be
+                    # returned as though it were an answer.
+                    if computed and getattr(computed, "matched", True):
+                        # The pattern matched and produced a number, but is it
+                        # the number the question asked for? A first-match-wins
+                        # loop will happily answer HCF to an LCM question.
+                        if _answers_the_wrong_quantity(clean_question, computed):
+                            logger.info(
+                                "Pattern produced '%s' but the question asked "
+                                "for '%s' — trying the next pattern",
+                                getattr(computed, "question_type", "?"),
+                                _asked_for(clean_question),
+                            )
+                            continue
+                        # Cross-validate the value against an independent
+                        # algorithm before handing it to a student.
+                        if not _self_check_arithmetic(clean_question, computed):
+                            logger.info(
+                                "Cross-check rejected '%s' for %r — trying the "
+                                "next pattern",
+                                getattr(computed, "answer", "?"), clean_question[:60],
+                            )
+                            continue
+                        # Never hand a student raw solver internals.
+                        if _is_unevaluated(getattr(computed, "answer", "")):
+                            logger.info(
+                                "Rejecting unevaluated solver output: %r",
+                                str(getattr(computed, "answer", ""))[:90],
+                            )
+                            continue
                         return computed
         except Exception as e:
             logger.warning(f"Pattern {pattern.concept} failed: {e}")
@@ -5238,8 +5586,47 @@ def _compute(result: PatternResult) -> Optional[ComputeResult]:
     return None
 
 
+def _is_concrete(value) -> bool:
+    """Did the pattern actually produce an answer, rather than a shape?
+
+    Measured failures this rejects, all served to students as answers:
+        'How many terms are in the AP 11, 19, 27, ...'  -> '8.0*n + 3.0'
+        'If cos(A) = 24/26, find sec(A)'                 -> 'a = 2n*pi ± acos(12/13)'
+
+    Those are not answers, they are the SHAPE of a solve that was never asked
+    for a specific n. The tell is a free symbol in the value.
+
+    This is deliberately enforced HERE, where a value becomes an answer, not in
+    the pattern loop downstream. Filtering downstream was measured and was both
+    ineffective and ruinously slow: rejecting a result there just buys the next
+    pattern another expensive SymPy solve. Rejecting at the source means the
+    work is never done.
+    """
+    if value is None:
+        return False
+    free = getattr(value, "free_symbols", None)
+    if free:
+        return False
+    for attr in ("is_finite", "is_real"):
+        flag = getattr(value, attr, None)
+        if flag is False:
+            return False
+    return True
+
+
 def _format_result(result: PatternResult, variables: dict, value, qtype: str) -> ComputeResult:
     """Format the computed value into a ComputeResult with steps."""
+    # A non-concrete value means this pattern did not actually solve the
+    # question. Report it as unmatched so the next pattern gets a turn, and so
+    # nothing half-solved can ever reach a student.
+    if not _is_concrete(value):
+        return ComputeResult(
+            matched=False,
+            question_type=qtype,
+            answer=None,
+            steps=[],
+        )
+
     # Build answer string from template
     answer_vars = {**variables, "result": value}
     

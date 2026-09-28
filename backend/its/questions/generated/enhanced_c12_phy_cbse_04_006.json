@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a compass, a battery, a long straight wire, and a ruler to verify the inverse-distance dependence of the magnetic field around a long straight current-carrying wire (B ∝ 1/r). Describe the procedure, measurements, and how you would analyse the data.",
      "a": "**Procedure:** (1) Set up a vertical long straight wire (e.g., 1 m) connected in series with a battery, a rheostat, and an ammeter. Keep current **I** constant (e.g., 2 A). (2) Place a small compass on a horizontal table at a known horizontal distance **r** from the wire. The compass needle aligns with the *net* horizontal magnetic field: the vector sum of Earth's horizontal field **Bₑ** (known or measured separately) and the wire's field **B_w** (tangential to circles around the wire). (3) Rotate the compass so that the wire is exactly perpendicular to the compass needle's initial north-south alignment (i.e., wire is east-west). Then **B_w** is perpendicular to **Bₑ**, and the deflection angle **θ** satisfies tan **θ** = **B_w** / **Bₑ**. (4) Measure **θ** for several distances **r** (e.g., 2, 3, 4, 5, 6 cm). (5) Plot tan **θ** vs 1/**r**; a straight line through the origin confirms **B_w** ∝ 1/**r**. **Analysis:** Slope = μ₀**I**/(2π**Bₑ**). Compare with theoretical slope. A poor answer would ignore Earth's field or assume the compass directly measures **B_w**; it would also not mention keeping current constant or using the tangent law.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ampere's ______ law states that for any closed loop (called an Amperian loop) in a magnetic field produced by steady currents, the line integral of the magnetic field B along the loop equals μ₀ times the net current Iₑₙc passing through the surface bounded by the loop: ∮ B·dl = μ₀ Iₑₙc.",
+     "a": "circuital",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a compass needle placed near a long straight wire carrying a steady current (like a ______ extension cord).",
+     "a": "household",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) state Ampere's circuital law with the correct sign convention, (2) choose an appropriate Amperian loop exploiting symmetry to compute B for an infinite straight wire and a long solenoid, (3) correctly determine the enclosed current Iₑₙc for both r < a and r > a in a wire of finite radius with uniform current density.",
+     "self_check": true
     }
    ]
   }

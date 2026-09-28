@@ -34,6 +34,16 @@
      "q": "Create a real-world problem (Indian context) that requires exactly 3 stages of independent choices and yields a total between 100 and 200 outcomes. State the problem, the choices at each stage, and the final calculation.",
      "a": "Sample good answer: \"A student chooses a mobile recharge plan: 4 network providers (Jio, Airtel, Vi, BSNL) × 5 validity options (28, 56, 84, 365, 730 days) × 6 data packs (1GB, 2GB, 3GB, 5GB, 10GB, unlimited) = 4 × 5 × 6 = 120 possible plans.\" Criteria: 3 independent stages, product between 100-200, realistic Indian context. A poor answer: \"Choose a shirt (10), pant (10), shoe (10) = 1000\" (product outside range) or \"Choose captain (20), vice-captain (19), secretary (18)\" (choices dependent, not independent) reveals the student cannot construct valid independent-choice scenarios or verify the numerical constraint.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're packing for a school trip: you have 3 different shirts and 2 different pairs of ______.",
+     "a": "trousers",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify independent sequential choices in word problems, distinguish between AND (multiplication) and OR (addition) scenarios, and compute total outcomes for 3+ stage processes without overcounting or missing cases.",
+     "self_check": true
     }
    ]
   }

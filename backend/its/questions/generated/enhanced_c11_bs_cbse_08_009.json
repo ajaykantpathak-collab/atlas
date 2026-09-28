@@ -34,6 +34,31 @@
      "q": "Design a financing plan for a new eco-tourism resort requiring ₹10 crore (₹7 crore for land/construction - 15 year life, ₹2 crore for equipment - 8 year life, ₹1 crore working capital). Specify the source (commercial bank or financial institution), instrument, tenure, and security for each component. Justify why a single source cannot optimally meet all three needs.",
      "a": "Land/construction (₹7 cr, 15 yr): Financial Institution (e.g., TFCI - Tourism Finance Corp) → Term Loan/Equity, 12-15 yr, mortgage of land/building. Equipment (₹2 cr, 8 yr): Commercial Bank → Term Loan, 7-8 yr, hypothecation of equipment. Working capital (₹1 cr): Commercial Bank → Cash Credit, 1 yr renewable, hypothecation of stocks/receivables. Single source fails because: FIs don't typically fund working capital; banks avoid 15-year project loans due to asset-liability mismatch and regulatory limits; combining sources optimizes cost (FI for long-term, bank for medium/short), risk (diversified lenders), and flexibility (separate security pools). A poor answer treats all needs uniformly or ignores tenure-security-instrument alignment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Commercial banks are financial ______ that accept deposits from the public and provide short-term to medium-term loans (cash credit, overdraft, term loans, bill discounting, letter of credit) to businesses against security, charging interest that is tax-deductible for the borrower.",
+     "a": "institutions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Anil Singh from the chapter opener who ______ to expand his restaurant chain.",
+     "a": "wants",
+     "self_check": true
+    },
+    {
+     "q": "What is Commercial banks? State the definition given in this lesson.",
+     "a": "Commercial banks are financial institutions that accept deposits from the public and provide short-term to medium-term loans (cash credit, overdraft, term loans, bill discounting, letter of credit) to businesses against security, charging interest that is tax-deductible for the borrower.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish between commercial bank credit and financial institution finance on parameters of purpose, period, security, cost, and advisory role; (2) Identify the specific type of bank credit (cash credit, overdraft, term loan, bill discounting, letter of credit) suitable for a given business need; (3).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Anil Singh from the chapter opener who wants to expand his ______ chain.",
+     "a": "restaurant",
+     "self_check": true
     }
    ]
   }

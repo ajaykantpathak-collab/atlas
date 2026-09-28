@@ -4,44 +4,235 @@
   {
    "id": "jesc.113.1",
    "title": "Ecosystem and its Components",
-   "solution_type": "verify_property",
+   "converted_to_compute": true,
+   "formula": "ecosystem = biotic_components + abiotic_components",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ecosystem = biotic_components + abiotic_components",
+     "compute": "ecosystem = biotic_components + abiotic_components"
+    }
+   ],
    "questions": [
     {
-     "q": "What is an ecosystem?",
-     "a": "All interacting organisms in an area together with their physical surroundings - the biotic and abiotic parts working as one unit.",
-     "self_check": true
+     "q": "For Ecosystem and its Components: given biotic_components = 76, abiotic_components = 97, find ecosystem.",
+     "a": "173",
+     "self_check": false
     },
     {
-     "q": "Name the two components of an ecosystem.",
-     "a": "Biotic (living organisms) and abiotic (temperature, light, water, soil) components.",
-     "self_check": true
+     "q": "For Ecosystem and its Components: given biotic_components = 18.1, abiotic_components = 33, find ecosystem.",
+     "a": "51.1",
+     "self_check": false
     },
     {
-     "q": "Give an example of a natural and an artificial ecosystem.",
-     "a": "Natural: forest, pond, lake; artificial: aquarium, crop field, garden.",
-     "self_check": true
+     "q": "For Ecosystem and its Components: given biotic_components = 93, abiotic_components = 10.4, find ecosystem.",
+     "a": "103.4",
+     "self_check": false
+    },
+    {
+     "q": "For Ecosystem and its Components: given biotic_components = 62, abiotic_components = 97, find ecosystem.",
+     "a": "159",
+     "self_check": false
+    },
+    {
+     "q": "For Ecosystem and its Components: given biotic_components = 5.2, abiotic_components = 35, find ecosystem.",
+     "a": "40.2",
+     "self_check": false
+    },
+    {
+     "q": "For Ecosystem and its Components: given biotic_components = 78, abiotic_components = 81, find ecosystem.",
+     "a": "159",
+     "self_check": false
     }
    ]
   },
   {
    "id": "jesc.113.2",
    "title": "Producers, Consumers, and Decomposers",
-   "solution_type": "verify_property",
+   "converted_to_compute": true,
+   "formula": "total_organisms = producers + consumers + decomposers",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_organisms = producers + consumers + decomposers",
+     "compute": "total_organisms = producers + consumers + decomposers"
+    }
+   ],
    "questions": [
     {
-     "q": "What are producers, consumers and decomposers?",
-     "a": "Producers make food from sunlight (green plants); consumers eat other organisms; decomposers break down dead matter into soil nutrients.",
-     "self_check": true
+     "q": "For Producers, Consumers, and Decomposers: given producers = 45, consumers = 31, decomposers = 6.9, find total organisms.",
+     "a": "82.9",
+     "self_check": false
     },
     {
-     "q": "Why are decomposers essential in nature?",
-     "a": "They recycle nutrients back to the soil and clear away dead bodies and waste.",
-     "self_check": true
+     "q": "For Producers, Consumers, and Decomposers: given producers = 23, consumers = 69, decomposers = 8.4, find total organisms.",
+     "a": "100.4",
+     "self_check": false
     },
     {
-     "q": "Classify a rabbit, a grass plant and fungi.",
-     "a": "Grass is a producer, rabbit a (primary) consumer, fungi a decomposer.",
-     "self_check": true
+     "q": "For Producers, Consumers, and Decomposers: given producers = 7.2, consumers = 55, decomposers = 38, find total organisms.",
+     "a": "100.2",
+     "self_check": false
+    },
+    {
+     "q": "For Producers, Consumers, and Decomposers: given producers = 53, consumers = 34, decomposers = 65, find total organisms.",
+     "a": "152",
+     "self_check": false
+    },
+    {
+     "q": "For Producers, Consumers, and Decomposers: given producers = 50, consumers = 70, decomposers = 29, find total organisms.",
+     "a": "149",
+     "self_check": false
+    },
+    {
+     "q": "For Producers, Consumers, and Decomposers: given producers = 43, consumers = 76, decomposers = 14, find total organisms.",
+     "a": "133",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.113.4",
+   "title": "The Ten Percent Law of Energy Transfer",
+   "converted_to_compute": true,
+   "formula": "next_energy = current_energy * 0.10",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "next_energy = current_energy * 0.10",
+     "compute": "next_energy = current_energy * 0.10"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For The Ten Percent Law of Energy Transfer: given current_energy = 109, find next energy.",
+     "a": "10.9",
+     "self_check": false
+    },
+    {
+     "q": "For The Ten Percent Law of Energy Transfer: given current_energy = 86, find next energy.",
+     "a": "8.6",
+     "self_check": false
+    },
+    {
+     "q": "For The Ten Percent Law of Energy Transfer: given current_energy = 78, find next energy.",
+     "a": "7.8",
+     "self_check": false
+    },
+    {
+     "q": "For The Ten Percent Law of Energy Transfer: given current_energy = 50, find next energy.",
+     "a": "5",
+     "self_check": false
+    },
+    {
+     "q": "For The Ten Percent Law of Energy Transfer: given current_energy = 66, find next energy.",
+     "a": "6.6",
+     "self_check": false
+    },
+    {
+     "q": "For The Ten Percent Law of Energy Transfer: given current_energy = 103, find next energy.",
+     "a": "10.3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.113.5",
+   "title": "Solar Energy Capture by Producers",
+   "converted_to_compute": true,
+   "formula": "producer_energy = solar_energy * 0.01",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "producer_energy = solar_energy * 0.01",
+     "compute": "producer_energy = solar_energy * 0.01"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Solar Energy Capture by Producers: given solar_energy = 2801, find producer energy.",
+     "a": "28.01",
+     "self_check": false
+    },
+    {
+     "q": "For Solar Energy Capture by Producers: given solar_energy = 4057, find producer energy.",
+     "a": "40.57",
+     "self_check": false
+    },
+    {
+     "q": "For Solar Energy Capture by Producers: given solar_energy = 3065, find producer energy.",
+     "a": "30.65",
+     "self_check": false
+    },
+    {
+     "q": "For Solar Energy Capture by Producers: given solar_energy = 1013, find producer energy.",
+     "a": "10.13",
+     "self_check": false
+    },
+    {
+     "q": "For Solar Energy Capture by Producers: given solar_energy = 4233, find producer energy.",
+     "a": "42.33",
+     "self_check": false
+    },
+    {
+     "q": "For Solar Energy Capture by Producers: given solar_energy = 2463, find producer energy.",
+     "a": "24.63",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jesc.113.8",
+   "title": "Biodegradable and Non-biodegradable Wastes",
+   "converted_to_compute": true,
+   "formula": "total_waste = biodegradable_waste + non_biodegradable_waste",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_waste = biodegradable_waste + non_biodegradable_waste",
+     "compute": "total_waste = biodegradable_waste + non_biodegradable_waste"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Biodegradable and Non-biodegradable Wastes: given biodegradable_waste = 49, non_biodegradable_waste = 15.1, find total waste.",
+     "a": "64.1",
+     "self_check": false
+    },
+    {
+     "q": "For Biodegradable and Non-biodegradable Wastes: given biodegradable_waste = 59, non_biodegradable_waste = 10.1, find total waste.",
+     "a": "69.1",
+     "self_check": false
+    },
+    {
+     "q": "For Biodegradable and Non-biodegradable Wastes: given biodegradable_waste = 82, non_biodegradable_waste = 5.4, find total waste.",
+     "a": "87.4",
+     "self_check": false
+    },
+    {
+     "q": "For Biodegradable and Non-biodegradable Wastes: given biodegradable_waste = 56, non_biodegradable_waste = 13.6, find total waste.",
+     "a": "69.6",
+     "self_check": false
+    },
+    {
+     "q": "For Biodegradable and Non-biodegradable Wastes: given biodegradable_waste = 49, non_biodegradable_waste = 6.7, find total waste.",
+     "a": "55.7",
+     "self_check": false
+    },
+    {
+     "q": "For Biodegradable and Non-biodegradable Wastes: given biodegradable_waste = 96, non_biodegradable_waste = 4, find total waste.",
+     "a": "100",
+     "self_check": false
     }
    ]
   },
@@ -64,160 +255,6 @@
      "q": "What is a food web?",
      "a": "Many interconnected food chains in an ecosystem, since most organisms eat more than one kind of food.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "jesc.113.4",
-   "title": "The Ten Percent Law of Energy Transfer",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "level2",
-     "expr": "primary_energy * 0.1",
-     "explain": "only 10% passes to the next trophic level"
-    },
-    {
-     "step": 2,
-     "name": "level3",
-     "expr": "level2 * 0.1",
-     "explain": "10% again at the secondary consumer"
-    },
-    {
-     "step": 3,
-     "name": "level4",
-     "expr": "level3 * 0.1",
-     "explain": "10% again at the tertiary consumer"
-    }
-   ],
-   "questions": [
-    {
-     "q": "Plants trap 10000 kJ of energy. Using the ten per cent law, how much reaches the tertiary consumer?",
-     "vals": {
-      "primary_energy": 10000
-     },
-     "unit": "kJ",
-     "steps": null,
-     "a": "10 kJ",
-     "self_check": false
-    },
-    {
-     "q": "If producers hold 50000 kJ, how much energy flows to the third trophic level of consumers (carnivore level)?",
-     "vals": {
-      "primary_energy": 50000
-     },
-     "unit": "kJ",
-     "steps": null,
-     "a": "50 kJ",
-     "self_check": false
-    },
-    {
-     "q": "A grassland stores 2000 kJ in grass. What energy is available to a snake four steps up the food chain?",
-     "vals": {
-      "primary_energy": 2000
-     },
-     "unit": "kJ",
-     "steps": null,
-     "a": "2 kJ",
-     "self_check": false
-    },
-    {
-     "q": "Algae fix 8000 kJ. Compute the energy at the fourth trophic level.",
-     "vals": {
-      "primary_energy": 8000
-     },
-     "unit": "kJ",
-     "steps": null,
-     "a": "8 kJ",
-     "self_check": false
-    },
-    {
-     "q": "With 1000 kJ trapped by trees, how much reaches a top carnivore?",
-     "vals": {
-      "primary_energy": 1000
-     },
-     "unit": "kJ",
-     "steps": null,
-     "a": "1 kJ",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "jesc.113.5",
-   "title": "Solar Energy Capture by Producers",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "producer_energy",
-     "expr": "solar_energy * 0.01",
-     "explain": "about 1% of incident sunlight is trapped by producers"
-    },
-    {
-     "step": 2,
-     "name": "unused_sunlight",
-     "expr": "solar_energy * 0.99",
-     "explain": "sunlight not trapped by the plants"
-    },
-    {
-     "step": 3,
-     "name": "herbivore_energy",
-     "expr": "producer_energy * 0.1",
-     "explain": "ten per cent law passes a tenth to herbivores"
-    }
-   ],
-   "questions": [
-    {
-     "q": "1000000 kJ of solar energy falls on a field. How much is trapped by plants, and how much passes to herbivores?",
-     "vals": {
-      "solar_energy": 1000000
-     },
-     "unit": "kJ",
-     "steps": null,
-     "a": "1000 kJ",
-     "self_check": false
-    },
-    {
-     "q": "Incident sunlight of 500000 kJ: find the producer-trapped share and the herbivore share.",
-     "vals": {
-      "solar_energy": 500000
-     },
-     "unit": "kJ",
-     "steps": null,
-     "a": "500 kJ",
-     "self_check": false
-    },
-    {
-     "q": "A pond receives 2000000 kJ of sunlight. Compute the energy fixed by algae and that reaching zooplankton.",
-     "vals": {
-      "solar_energy": 2000000
-     },
-     "unit": "kJ",
-     "steps": null,
-     "a": "2000 kJ",
-     "self_check": false
-    },
-    {
-     "q": "On 250000 kJ of sunlight, what energy do plants fix and what do grazers receive?",
-     "vals": {
-      "solar_energy": 250000
-     },
-     "unit": "kJ",
-     "steps": null,
-     "a": "250 kJ",
-     "self_check": false
-    },
-    {
-     "q": "A forest intercepts 100000 kJ of sun energy. How much is available at the producer and herbivore levels?",
-     "vals": {
-      "solar_energy": 100000
-     },
-     "unit": "kJ",
-     "steps": null,
-     "a": "100 kJ",
-     "self_check": false
     }
    ]
   },
@@ -262,88 +299,6 @@
      "q": "Which chemicals damage the ozone layer and how?",
      "a": "CFCs release chlorine atoms in the stratosphere that break ozone molecules, thinning the layer.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "jesc.113.8",
-   "title": "Biodegradable and Non-biodegradable Wastes",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "total_waste",
-     "expr": "biodegradable_waste + non_biodegradable_waste",
-     "explain": "all refuse is the sum of both kinds"
-    },
-    {
-     "step": 2,
-     "name": "nonbio_percent",
-     "expr": "(non_biodegradable_waste / total_waste) * 100",
-     "explain": "share of non-biodegradable waste"
-    },
-    {
-     "step": 3,
-     "name": "biodegradable_percent",
-     "expr": "(biodegradable_waste / total_waste) * 100",
-     "explain": "share of waste that can rot naturally"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A colony collects 300 kg of biodegradable and 200 kg of non-biodegradable waste daily. Find the total and the biodegradable percentage.",
-     "vals": {
-      "biodegradable_waste": 300,
-      "non_biodegradable_waste": 200
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "60 %",
-     "self_check": false
-    },
-    {
-     "q": "A school generates 150 kg biodegradable and 50 kg non-biodegradable waste a week. What per cent is biodegradable?",
-     "vals": {
-      "biodegradable_waste": 150,
-      "non_biodegradable_waste": 50
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "75 %",
-     "self_check": false
-    },
-    {
-     "q": "A market discards 400 kg vegetable waste and 100 kg plastic daily. Compute the total waste and the biodegradable share.",
-     "vals": {
-      "biodegradable_waste": 400,
-      "non_biodegradable_waste": 100
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "80 %",
-     "self_check": false
-    },
-    {
-     "q": "A city ward reports 250 kg of each kind of waste. What is the total and what per cent is biodegradable?",
-     "vals": {
-      "biodegradable_waste": 250,
-      "non_biodegradable_waste": 250
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "50 %",
-     "self_check": false
-    },
-    {
-     "q": "A village gathers 90 kg wet waste and 10 kg dry non-biodegradable waste daily. Find the total and the biodegradable per cent.",
-     "vals": {
-      "biodegradable_waste": 90,
-      "non_biodegradable_waste": 10
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "90 %",
-     "self_check": false
     }
    ]
   }

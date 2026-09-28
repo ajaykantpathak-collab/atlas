@@ -34,6 +34,26 @@
      "q": "Design a simple ripple tank experiment to verify the law of reflection using Huygens' principle. Describe the setup, what you would measure, and how you would confirm i = r from the wavefront geometry.",
      "a": "Use a ripple tank with a straight barrier (reflector). Generate plane waves with a straight vibrator at an angle to the barrier. Use a strobe light to freeze the wave pattern. Photograph incident and reflected wavefronts. Draw the wavefronts AB (incident) and CE (reflected) and the barrier MN. Measure angles between wavefronts and barrier normal. Construct the Huygens' diagram: from B, draw BC = vt to the barrier; from A, draw a sphere of radius vt; the tangent from C gives CE. Show triangles ABC and AEC are congruent (BC = AE = vt, AC common, right angles at B and E), so i = r. A poor answer (e.g., just \"measure angles with a protractor\") misses the wavefront construction and the role of equal time vt.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Huygens' ______ states that every point on a wavefront acts as a source of secondary spherical wavelets spreading out in the forward direction with the speed of the wave in that medium; the new wavefront at a later time is the forward envelope (common tangent) of these secondary wavelets.",
+     "a": "principle",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Obercise a pencil partially immersed in a glass of water — it appears bent at the water ______.",
+     "a": "surface",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can draw the Huygens' construction for a plane wave incident on a plane reflecting/refracting surface, label all angles and distances, derive the laws of reflection and refraction step-by-step from the geometry of congruent triangles, and explain why the wave model predicts a decrease in speed in a denser medium (contrary to the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Obercise a pencil ______ immersed in a glass of water — it appears bent at the water surface.",
+     "a": "partially",
+     "self_check": true
     }
    ]
   }

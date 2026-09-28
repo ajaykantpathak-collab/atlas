@@ -34,6 +34,31 @@
      "q": "Design a minimal Python script that plots the quadratic function y = x² for integer x values from -5 to 5. Include the import, data generation, plotting, and display steps.",
      "a": "```python\nimport matplotlib.pyplot as plt\nx = list(range(-5, 6))          # [-5, -4, ..., 5]\ny = [xi**2 for xi in x]         # [25, 16, ..., 25]\nplt.plot(x, y)\nplt.show()\n```\nA poor answer might hard‑code the lists, forget the square operation, or omit `plt.show()`. This tests the ability to combine basic Python (list comprehension, range) with the Matplotlib workflow to create a new visualisation from a mathematical rule.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Matplotlib is a comprehensive Python library for creating static, animated, and interactive ______.",
+     "a": "visualizations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have recorded the maximum ______ in your city for the last seven days: [32, 34, 31, 33, 35, 36, 34] °C.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "What is Matplotlib? State the definition given in this lesson.",
+     "a": "Matplotlib is a comprehensive Python library for creating static, animated, and interactive visualizations.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Matplotlib?",
+     "a": "Students often believe that plt.plot() immediately displays the graph, so they omit plt.show() and conclude “Matplotlib isn’t working.” This stems from experience with interactive environments (like Jupyter notebooks) where plots render automatically, or from MATLAB where plot() shows the figure instantly.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the relationship between Matplotlib and pyplot, correctly import the module using the standard convention, create a basic plot by passing two sequences to plt.plot(), and display it using plt.show() without syntax errors.",
+     "self_check": true
     }
    ]
   }

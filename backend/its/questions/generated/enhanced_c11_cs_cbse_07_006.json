@@ -34,6 +34,31 @@
      "q": "Create a real-world scenario (Indian context) where a function returns three values that are naturally grouped together, and write the function header with a docstring, the function call with unpacking, and a print statement that uses all three values in a formatted sentence.",
      "a": "Example scenario: A railway ticket booking function returns `pnr_number`, `coach`, and `seat_number`.\n```python\ndef book_ticket(train_no, journey_date, passenger_name):\n    \"\"\"\n    Books a ticket and returns PNR, coach, and seat number.\n    Returns: tuple (pnr: str, coach: str, seat: int)\n    \"\"\"\n    # ... booking logic ...\n    return \"PNR123456\", \"S5\", 42\n\npnr, coach, seat = book_ticket(12951, \"2024-12-25\", \"Rahul Sharma\")\nprint(f\"Ticket confirmed: PNR {pnr}, Coach {coach}, Seat {seat}\")\n```\nA poor answer would use unrelated values (e.g., returning name, age, city for a ticket) or forget the docstring, showing inability to identify naturally grouped domain data.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Tuple assignment (also called tuple unpacking) is a Python feature that allows assigning multiple variables in a single statement by matching them ______ to the elements of a tuple (or any iterable) on the right-hand side.",
+     "a": "positionally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a program for a sweet shop that sells gift boxes containing two items: a box of rasgullas and a box of gulab jamuns.",
+     "a": "writing",
+     "self_check": true
+    },
+    {
+     "q": "What is Tuple assignment (also called tuple unpacking)? State the definition given in this lesson.",
+     "a": "Tuple assignment (also called tuple unpacking) is a Python feature that allows assigning multiple variables in a single statement by matching them positionally to the elements of a tuple (or any iterable) on the right-hand side.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Tuple assignment (also called tuple unpacking)?",
+     "a": "Students often believe that the parentheses on the left side of a, b = (1, 2) create a tuple, writing (a, b) = (1, 2) and thinking the parentheses are required.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write correct tuple unpacking statements for function returns, explicit tuples, and loop iterations; can explain the positional matching rule; and can debug \"ValueError: too many values to unpack\" errors by counting elements on both sides.",
+     "self_check": true
     }
    ]
   }

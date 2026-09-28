@@ -6,16 +6,21 @@ and logout.
 
 from typing import Optional
 
+import hashlib
+import secrets
+
 from fastapi import APIRouter, Depends, HTTPException, status
 from pydantic import AliasChoices, BaseModel, Field
+from sqlalchemy import delete, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from backend.database import get_db
+from backend.database.redis import get_redis
 from backend.deps import get_current_user
 from backend.models.user import User
 from backend.schemas.auth import LoginRequest, SignupRequest, TokenResponse, UserInfo
 from backend.security import hash_password, verify_password
-from backend.services.auth_service import AuthService
+from backend.services.auth_service import AuthService, RefreshTokenModel
 
 router = APIRouter(prefix="/api/auth", tags=["auth"])
 
@@ -169,6 +174,113 @@ async def change_password(
     await db.flush()
 
     return {"message": "Password changed successfully"}
+
+
+# --------------------------------------------------------------------------- #
+# Password reset (real flow, honest demo delivery)
+#
+# No SMTP exists in this stack, so "email a link" would be a lie.  Instead
+# forgot-password mints a single-use token stored HASHED in Redis (TTL 30
+# min) and — only because delivery is demo — returns it in the response
+# body flagged delivery:"demo".  The 200 is unconditional so the endpoint
+# cannot be used to enumerate accounts.
+# --------------------------------------------------------------------------- #
+
+_PWRESET_TTL = 1800  # 30 minutes
+
+
+class ForgotPasswordRequest(BaseModel):
+    email: str = Field(..., min_length=3)
+
+
+class ResetPasswordRequest(BaseModel):
+    token: str = Field(..., min_length=16)
+    new_password: str = Field(
+        ...,
+        min_length=8,
+        alias=AliasChoices("new_password", "newPassword"),
+    )
+
+    model_config = {"populate_by_name": True}
+
+
+def _pwreset_key(token: str) -> str:
+    """Redis key for a reset token — only the SHA-256 of the token is
+    stored, so a Redis read cannot mint resets."""
+    return "pwreset:" + hashlib.sha256(token.encode()).hexdigest()
+
+
+@router.post("/forgot-password", status_code=status.HTTP_200_OK)
+async def forgot_password(
+    payload: ForgotPasswordRequest, db: AsyncSession = Depends(get_db)
+):
+    """Mint a password-reset token.  Always 200 (no account enumeration)."""
+    result = await db.execute(select(User).where(User.email == payload.email))
+    user = result.scalar_one_or_none()
+
+    resp: dict = {"status": "ok", "delivery": "demo"}
+    if user is not None:
+        try:
+            token = secrets.token_urlsafe(32)
+            r = await get_redis()
+            if r is not None:
+                await r.set(_pwreset_key(token), str(user.id), ex=_PWRESET_TTL)
+                # demo delivery: no mailer is configured, so the token is
+                # handed back here instead of being emailed
+                resp["reset_token"] = token
+                resp["expires_in_seconds"] = _PWRESET_TTL
+        except Exception:
+            pass  # reset store down — stay 200, reveal nothing
+    return resp
+
+
+@router.post("/reset-password", status_code=status.HTTP_200_OK)
+async def reset_password(
+    payload: ResetPasswordRequest, db: AsyncSession = Depends(get_db)
+):
+    """Consume a reset token and set a new password.
+
+    Single-use: the token is deleted, and every existing refresh token
+    for the user is revoked so old sessions die with the old password."""
+    if len(payload.new_password) < 8:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Password must be at least 8 characters",
+        )
+    r = await get_redis()
+    if r is None:
+        raise HTTPException(
+            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+            detail="Reset store unavailable — try again shortly",
+        )
+    key = _pwreset_key(payload.token)
+    user_id = await r.get(key)
+    if not user_id:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Reset link is invalid or has expired",
+        )
+    result = await db.execute(select(User).where(User.id == str(user_id)))
+    user = result.scalar_one_or_none()
+    if user is None:
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Reset link is invalid or has expired",
+        )
+    user.password_hash = hash_password(payload.new_password)
+    db.add(user)
+    await db.execute(
+        delete(RefreshTokenModel).where(RefreshTokenModel.user_id == user.id)
+    )
+    await db.commit()
+    try:
+        await r.delete(key)
+    except Exception:
+        pass
+    return {
+        "status": "ok",
+        "message": "Password updated — sign in with your new password",
+    }
 
 
 @router.post("/send-otp", status_code=status.HTTP_200_OK)

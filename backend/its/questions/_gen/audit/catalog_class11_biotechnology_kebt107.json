@@ -1,0 +1,215 @@
+{
+ "catalog": "catalog_class11_biotechnology_kebt107.json",
+ "concepts": [
+  {
+   "id": "kebt107.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "bp_total = 99",
+      "kb_value = bp_total / 1000"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "bp_total = 31",
+      "kb_value = bp_total / 1000"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "bp_total = 27",
+      "kb_value = bp_total / 1000"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "bp_total = 39",
+      "kb_value = bp_total / 1000"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "bp_total = 63",
+      "kb_value = bp_total / 1000"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "bp_total = 90",
+      "kb_value = bp_total / 1000"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "kb_value = bp_total / 1000"
+   ]
+  },
+  {
+   "id": "kebt107.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "elapsed_min = 7.3",
+      "generations = elapsed_min / 20"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "elapsed_min = 62",
+      "generations = elapsed_min / 20"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "elapsed_min = 89",
+      "generations = elapsed_min / 20"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "elapsed_min = 19",
+      "generations = elapsed_min / 20"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "elapsed_min = 27",
+      "generations = elapsed_min / 20"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "elapsed_min = 77",
+      "generations = elapsed_min / 20"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "generations = elapsed_min / 20"
+   ]
+  },
+  {
+   "id": "kebt107.6",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "bases_per_codon = 2",
+      "codons_total = 4 ** bases_per_codon"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "bases_per_codon = 14.4",
+      "codons_total = 4 ** bases_per_codon"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "bases_per_codon = 6.4",
+      "codons_total = 4 ** bases_per_codon"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "bases_per_codon = 7.4",
+      "codons_total = 4 ** bases_per_codon"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "bases_per_codon = 21",
+      "codons_total = 4 ** bases_per_codon"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "bases_per_codon = 27",
+      "codons_total = 4 ** bases_per_codon"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "codons_total = 4 ** bases_per_codon"
+   ]
+  },
+  {
+   "id": "kebt107.8",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "upstream_cut = 67",
+      "downstream_cut = 86",
+      "excised_length = upstream_cut + downstream_cut"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "upstream_cut = 63",
+      "downstream_cut = 41",
+      "excised_length = upstream_cut + downstream_cut"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "upstream_cut = 54",
+      "downstream_cut = 49",
+      "excised_length = upstream_cut + downstream_cut"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "upstream_cut = 8.3",
+      "downstream_cut = 11.6",
+      "excised_length = upstream_cut + downstream_cut"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "upstream_cut = 3.7",
+      "downstream_cut = 20",
+      "excised_length = upstream_cut + downstream_cut"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "upstream_cut = 57",
+      "downstream_cut = 91",
+      "excised_length = upstream_cut + downstream_cut"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "excised_length = upstream_cut + downstream_cut"
+   ]
+  }
+ ]
+}

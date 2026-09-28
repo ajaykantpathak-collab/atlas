@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_06_001",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_06_001",
+   "title": "c11_leg_cbse_06_001",
+   "questions": [
+    {
+     "q": "Define 'Jurisprudence' and explain how it differs from 'Law' in terms of scope and inquiry.",
+     "a": "Jurisprudence is the philosophical study of law — it asks *what law is*, *where it comes from*, and *what makes it valid*. Law is the concrete body of rules (statutes, precedents, customs) enforced by the state. A wrong answer (e.g., \"Jurisprudence is just another word for law\") reveals the student confuses the *object of study* (law) with the *discipline studying it* (jurisprudence) — like confusing \"biology\" with \"life.\"",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"The Analytical School and Natural School both agree that an unjust law is still a law that must be obeyed.\" Is this correct? Explain using the maxim *Lex injusta non est lex*.",
+     "a": "Incorrect. The Natural School holds *Lex injusta non est lex* (an unjust law is not a true law) — morality is a condition of legal validity. The Analytical School (Austin, Hart) separates law and morality: a duly enacted command of the sovereign backed by sanction is valid law regardless of justice. The student's error conflates *validity* (Analytical) with *legitimacy* (Natural) — a classic senior-secondary confusion between \"law as it is\" vs. \"law as it ought to be.\"",
+     "self_check": true
+    },
+    {
+     "q": "In the *Speluncean Explorers* case, Justice Foster acquits the survivors using Natural Law reasoning. Apply the Historical School (Savigny) to the same facts: Would Savigny's \"Volksgeist\" (common spirit of the people) lead to conviction or acquittal? Justify in 3 steps.",
+     "a": "Step 1: Identify the \"Volksgeist\" of Newgarth — the community's shared customs, values, and historical consciousness. Step 2: Determine if the explorers' lottery-killing aligns with or violates that collective consciousness (e.g., does Newgarth have a custom of survival cannibalism?). Step 3: If no such custom exists, the act is alien to the Volksgeist → law (as custom) condemns it → conviction. If a custom of necessity exists → acquittal. Historical School looks *backward* to tradition, not *forward* to purpose (Foster) or *upward* to morality (Natural Law). A wrong answer applying Natural Law or Positivism shows inability to isolate the Historical School's unique methodological lens: law as organic growth, not deliberate design.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Sociological School (Pound) and Realist School (Llewellyn) on: (a) What is the *primary source* of law? (b) What is the *role of the judge*? (c) How does each view the *gap between law in books and law in action*?",
+     "a": "(a) Sociological: Law derives from social interests/needs (balancing conflicting claims). Realist: Law is what judges *actually do* (judicial decisions = real law). (b) Sociological: Judge as social engineer balancing interests. Realist: Judge as human actor influenced by psychology, bias, economics — \"courtroom is a laboratory.\" (c) Sociological: Gap exists when law fails to serve social needs; reform via legislation. Realist: Gap is inevitable; \"law in books\" is fiction; only \"law in action\" (decisions) matters. A wrong answer merging them as \"both care about society\" misses the epistemological divide: Sociological = law *should* serve society (normative); Realist = law *is* judicial behavior (descriptive/predictive).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"The Indian Constitution's Article 21 ('procedure established by law') originally followed the Analytical School (positivism), but *Maneka Gandhi v. Union of India* (1978) shifted it toward Natural Law (due process).\" Defend or critique using the concept of 'procedural due process' vs. 'substantive due process'.",
+     "a": "Critique: The shift is real but nuanced. Pre-*Maneka* (A.K. Gopalan), Art. 21 required only a *validly enacted* procedure (Analytical/Positivist: law = sovereign command). Post-*Maneka*, the Court read \"procedure\" as \"fair, just, and reasonable\" — importing *substantive due process* (Natural Law: procedure must meet moral standards of fairness). However, the Court did *not* adopt US-style substantive due process (striking down laws for violating unenumerated rights); it tied fairness to Art. 14 (equality) and Art. 19 (freedoms). Thus, India evolved a *constitutionalized natural law* — morality grounded in constitutional text, not abstract higher law. A wrong answer claiming \"India adopted US due process\" ignores the textual anchoring in Arts. 14/19/21 — a senior-secondary error of transplanting foreign doctrine without constitutional context.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new hypothetical scenario (2-3 sentences) where the five schools of jurisprudence would reach *five different verdicts*. Identify the core legal issue and state each school's likely verdict in one phrase.",
+     "a": "*Scenario:* \"A tribal community follows a centuries-old custom of resolving disputes by trial by ordeal (holding hot iron). A member refuses, citing a new state statute banning ordeals. The state prosecutes the tribal chief for conducting the ordeal.\" Core issue: *Validity of custom vs. statute in a plural legal order.* Verdicts: Natural — Acquit chief (custom = higher moral law of community). Analytical — Convict chief (statute = sovereign command). Historical — Acquit chief (custom = Volksgeist, law grows from people). Sociological — Mediate (balance state interest in human rights vs. community autonomy). Realist — Predict conviction (judges defer to state statute; \"law in action\" follows legislative power). A poor answer gives same verdict for multiple schools, showing failure to operationalize each school's distinct logic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,21 @@
      "q": "Create a realistic business scenario involving at least three transactions where both expenses and revenues are recognised, including one prepaid expense and one accrued revenue. Write the journal entries for all.",
      "a": "Example: (1) Paid ₹12,000 insurance premium for 12 months (Prepaid Insurance Dr. 12,000 / Bank Cr. 12,000). (2) Earned ₹20,000 consulting fees, client to pay next month (Accrued Revenue Dr. 20,000 / Consulting Revenue Cr. 20,000). (3) Paid ₹5,000 electricity bill (Electricity Expense Dr. 5,000 / Cash Cr. 5,000). A poor answer uses only cash transactions, misses prepaid/accrued distinctions, or misclassifies accounts (e.g., debiting Insurance Expense instead of Prepaid Insurance). This reveals inability to apply expense/revenue rules beyond simple cash transactions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The rules of debit and credit for expenses and revenues state that: (1) An increase in expenses or ______ is debited and a decrease is credited, because expenses reduce capital; (2) An increase in revenues or gains is credited and a decrease is debited, because revenues increase capital.",
+     "a": "losses",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You pay ₹2,000 for ______ (an expense) and receive ₹15,000 from a student for a month of classes (revenue).",
+     "a": "internet",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must correctly classify any given transaction as affecting an expense or revenue account, determine whether that account increases or decreases, and apply the correct debit/credit rule to record it in a journal entry with proper narration.",
+     "self_check": true
     }
    ]
   }

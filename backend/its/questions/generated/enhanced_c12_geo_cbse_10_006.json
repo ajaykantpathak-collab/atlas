@@ -34,6 +34,31 @@
      "q": "Design a flow-chart that a district planner could use to determine whether a settlement should be upgraded from 'Town' to 'City' status, incorporating Census criteria, state government notifications, and functional requirements.",
      "a": "Expected flow-chart: Start → Check Census population ≥1 lakh? → If No, remain Town. If Yes → Check density ≥400/km²? → If No, remain Town. If Yes → Check ≥75% male non-agricultural workers? → If No, remain Town. If Yes → State government issues notification for Municipal Corporation → Upgrade to City. Also consider functional diversity (presence of secondary/tertiary activities). A poor flow-chart misses the mandatory state notification step or uses only population.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Urban settlements in India are classified by population size into four ______ categories as per Census of India: Town (≥5,000 population, density ≥400 persons/km², ≥75% male workers in non-agricultural activities), City (≥1,00,000 / 1 lakh), Metropolitan city (≥10,00,000 / 10 lakh / 1 million), and Megacity (≥1,00,00,000 / 1 crore / 10 million).",
+     "a": "hierarchical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your own city or a nearby urban area – is it a town like Shimla (population ~1.7 lakh), a city like Bhopal (~1.9 million), a ______ city like Pune (~5 million), or a megacity like Delhi (~16 million)?",
+     "a": "metropolitan",
+     "self_check": true
+    },
+    {
+     "q": "What is Urban settlements in India? State the definition given in this lesson.",
+     "a": "Urban settlements in India are classified by population size into four hierarchical categories as per Census of India: Town (≥5,000 population, density ≥400 persons/km², ≥75% male workers in non-agricultural activities), City (≥1,00,000 / 1 lakh), Metropolitan city (≥10,00,000 / 10 lakh / 1 million), and Megacity (≥1,00,00,000 / 1 crore.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Urban settlements in India?",
+     "a": "Students often think any settlement with a municipality is a 'City', and any large city is a 'Megacity'.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can classify any given urban settlement into town, city, metropolitan, or megacity using Census population thresholds, explain the functional and administrative differences between these categories, and identify examples from a map of India.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a battery, nichrome wire, and a small beaker of water to demonstrate that heat produced depends on the square of current (H ∝ I²). List the variables you would change, measure, and keep constant.",
      "a": "Change: Current (by varying number of cells in series or using a rheostat). Measure: Temperature rise of water (ΔT) in fixed time. Keep constant: Length/thickness of nichrome wire, mass of water, time. Plot ΔT vs I; a parabolic curve confirms H ∝ I². A poor answer that only changes voltage without controlling resistance or time shows lack of experimental design understanding.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The heating effect of electric current is utilized in appliances like electric heaters, irons, and ______ bulbs where electrical energy is converted into heat energy (and light in bulbs) by passing current through a high-resistance element.",
+     "a": "incandescent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a room heater glowing red in winter or an ______ iron pressing clothes – both get hot because current passes through a coiled wire inside.",
+     "a": "electric",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain why specific materials (nichrome, tungsten) are chosen for heating elements and filaments, and can calculate the heat produced or power consumed by a given appliance using Joule's law when provided with voltage, current, resistance, or time.",
+     "self_check": true
     }
    ]
   }

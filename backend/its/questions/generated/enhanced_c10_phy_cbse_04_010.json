@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a convex lens, a candle, and a screen to verify the lens formula. List the measurements you would take, how you would vary the object distance, and how you would plot the data to confirm the formula.",
      "a": "**Experiment:** Fix a convex lens on a stand. Place a candle (object) at a measured distance u from the lens (e.g., 20 cm, 25 cm, 30 cm, 40 cm, 50 cm — all > f). Move a screen on the other side until a sharp inverted image forms; measure v. Repeat for 5-6 object distances. **Plot:** 1/u on x-axis, 1/v on y-axis. The lens formula 1/f = 1/v - 1/u rearranges to 1/v = 1/u + 1/f — a straight line with slope 1 and y-intercept 1/f. Alternatively, plot 1/v vs 1/u and verify intercept gives 1/f. **Verification:** Calculate f from intercept; compare with known focal length. A poor answer (e.g., \"measure u and v and check formula\") reveals lack of understanding of graphical verification, linearization of inverse relationships, or how to handle multiple data points — skills tested in CBSE practical exams.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The lens formula relates the object distance (u), image distance (v), and focal length (f) of a thin spherical lens through the equation 1/f = 1/v - 1/u, where distances are measured from the optical centre using the Cartesian sign ______.",
+     "a": "convention",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how a ______ glass (convex lens) forms a large, erect image when held close to a book, but a small, inverted image of a distant tree when held at arm's length — the same lens behaves differently based on object distance.",
+     "a": "magnifying",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly apply the lens formula and magnification formula with proper sign convention to calculate unknown distances, heights, or focal lengths for both convex and concave lenses, and interpret the sign of magnification to determine image nature (real/virtual, erect/inverted).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how a magnifying glass (convex lens) forms a large, erect image when held close to a book, but a small, inverted image of a distant tree when held at arm's length — the same lens behaves ______ based on object distance.",
+     "a": "differently",
+     "self_check": true
     }
    ]
   }

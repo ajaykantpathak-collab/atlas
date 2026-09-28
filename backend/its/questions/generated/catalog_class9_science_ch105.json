@@ -2,6 +2,253 @@
  "catalog": "catalog_class9_science_ch105.json",
  "concepts": [
   {
+   "id": "iesc.5.2.2.A",
+   "title": "Mass by Mass Percentage",
+   "converted_to_compute": true,
+   "formula": "percentage = (mass_solute / mass_solution) * 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "percentage = (mass_solute / mass_solution) * 100",
+     "compute": "percentage = (mass_solute / mass_solution) * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "iesc.5.2.2.A",
+     "question_pattern": "what is the percentage concentration if {mass_solute}g is dissolved in {mass_solution}g"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Mass by Mass Percentage: given mass_solute = 143, mass_solution = 185, find percentage.",
+     "a": "77.2973",
+     "self_check": false
+    },
+    {
+     "q": "what is the percentage concentration if 143g is dissolved in 185g?",
+     "a": "77.2973",
+     "self_check": false
+    },
+    {
+     "q": "For Mass by Mass Percentage: given mass_solute = 113, mass_solution = 36, find percentage.",
+     "a": "313.889",
+     "self_check": false
+    },
+    {
+     "q": "what is the percentage concentration if 113g is dissolved in 36g?",
+     "a": "313.889",
+     "self_check": false
+    },
+    {
+     "q": "For Mass by Mass Percentage: given mass_solute = 78, mass_solution = 98, find percentage.",
+     "a": "79.5918",
+     "self_check": false
+    },
+    {
+     "q": "what is the percentage concentration if 78g is dissolved in 98g?",
+     "a": "79.5918",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.5.2.2.B",
+   "title": "Mass by Volume Percentage",
+   "converted_to_compute": true,
+   "formula": "percentage = (mass_solute / volume_solution) * 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "percentage = (mass_solute / volume_solution) * 100",
+     "compute": "percentage = (mass_solute / volume_solution) * 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Mass by Volume Percentage: given mass_solute = 34, volume_solution = 14.6, find percentage.",
+     "a": "232.877",
+     "self_check": false
+    },
+    {
+     "q": "For Mass by Volume Percentage: given mass_solute = 145, volume_solution = 11.8, find percentage.",
+     "a": "1228.81",
+     "self_check": false
+    },
+    {
+     "q": "For Mass by Volume Percentage: given mass_solute = 94, volume_solution = 82, find percentage.",
+     "a": "114.634",
+     "self_check": false
+    },
+    {
+     "q": "For Mass by Volume Percentage: given mass_solute = 83, volume_solution = 1.7, find percentage.",
+     "a": "4882.35",
+     "self_check": false
+    },
+    {
+     "q": "For Mass by Volume Percentage: given mass_solute = 80, volume_solution = 94, find percentage.",
+     "a": "85.1064",
+     "self_check": false
+    },
+    {
+     "q": "For Mass by Volume Percentage: given mass_solute = 193, volume_solution = 28, find percentage.",
+     "a": "689.286",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.5.2.3",
+   "title": "Solubility and Saturated Solutions",
+   "converted_to_compute": true,
+   "formula": "mass_needed = (solubility_per_1_0_0g * solvent_mass) / 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mass_needed = (solubility_per_1_0_0g * solvent_mass) / 100",
+     "compute": "mass_needed = (solubility_per_1_0_0g * solvent_mass) / 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "iesc.5.2.3",
+     "question_pattern": "calculate the solubility of {solubility_per_1_0_0g} at {solvent_mass} degrees"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Solubility and Saturated Solutions: given solubility_per_1_0_0g = 41, solvent_mass = 105, find mass needed.",
+     "a": "43.05",
+     "self_check": false
+    },
+    {
+     "q": "calculate the solubility of 41 at 105 degrees?",
+     "a": "43.05",
+     "self_check": false
+    },
+    {
+     "q": "For Solubility and Saturated Solutions: given solubility_per_1_0_0g = 24, solvent_mass = 96, find mass needed.",
+     "a": "23.04",
+     "self_check": false
+    },
+    {
+     "q": "calculate the solubility of 24 at 96 degrees?",
+     "a": "23.04",
+     "self_check": false
+    },
+    {
+     "q": "For Solubility and Saturated Solutions: given solubility_per_1_0_0g = 12.6, solvent_mass = 59, find mass needed.",
+     "a": "7.434",
+     "self_check": false
+    },
+    {
+     "q": "calculate the solubility of 12.6 at 59 degrees?",
+     "a": "7.434",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.5.3.1",
+   "title": "Crystallization",
+   "converted_to_compute": true,
+   "formula": "mass_precipitated = mass_initial - mass_final_solubility",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mass_precipitated = mass_initial - mass_final_solubility",
+     "compute": "mass_precipitated = mass_initial - mass_final_solubility"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Crystallization: given mass_initial = 188, mass_final_solubility = 189, find mass precipitated.",
+     "a": "-1",
+     "self_check": false
+    },
+    {
+     "q": "For Crystallization: given mass_initial = 128, mass_final_solubility = 80, find mass precipitated.",
+     "a": "48",
+     "self_check": false
+    },
+    {
+     "q": "For Crystallization: given mass_initial = 105, mass_final_solubility = 121, find mass precipitated.",
+     "a": "-16",
+     "self_check": false
+    },
+    {
+     "q": "For Crystallization: given mass_initial = 169, mass_final_solubility = 71, find mass precipitated.",
+     "a": "98",
+     "self_check": false
+    },
+    {
+     "q": "For Crystallization: given mass_initial = 55, mass_final_solubility = 158, find mass precipitated.",
+     "a": "-103",
+     "self_check": false
+    },
+    {
+     "q": "For Crystallization: given mass_initial = 11.7, mass_final_solubility = 148, find mass precipitated.",
+     "a": "-136.3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.5.4.3",
+   "title": "Centrifugation",
+   "converted_to_compute": true,
+   "formula": "centrifugal_force = mass * radius * angular_velocity**2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "centrifugal_force = mass * radius * angular_velocity**2",
+     "compute": "centrifugal_force = mass * radius * angular_velocity**2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Centrifugation: given mass = 106, radius = 41, angular_velocity = 78, find centrifugal force.",
+     "a": "26441064",
+     "self_check": false
+    },
+    {
+     "q": "For Centrifugation: given mass = 89, radius = 37, angular_velocity = 29, find centrifugal force.",
+     "a": "2769413",
+     "self_check": false
+    },
+    {
+     "q": "For Centrifugation: given mass = 85, radius = 43, angular_velocity = 12.9, find centrifugal force.",
+     "a": "608229",
+     "self_check": false
+    },
+    {
+     "q": "For Centrifugation: given mass = 6.4, radius = 33, angular_velocity = 104, find centrifugal force.",
+     "a": "2284339.2",
+     "self_check": false
+    },
+    {
+     "q": "For Centrifugation: given mass = 52, radius = 36, angular_velocity = 34, find centrifugal force.",
+     "a": "2164032",
+     "self_check": false
+    },
+    {
+     "q": "For Centrifugation: given mass = 145, radius = 35, angular_velocity = 4.5, find centrifugal force.",
+     "a": "102769",
+     "self_check": false
+    }
+   ]
+  },
+  {
    "id": "iesc.5.1",
    "title": "Classification of Mixtures",
    "solution_type": "verify_property",
@@ -20,334 +267,6 @@
      "q": "Name the two kinds of mixtures with examples.",
      "a": "Homogeneous (uniform throughout, like salt solution) and heterogeneous (non-uniform, like sand and salt).",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "iesc.5.2.2.A",
-   "title": "Mass by Mass Percentage",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "mass_fraction",
-     "expr": "mass_solute / mass_solution",
-     "explain": "fraction of solute in the solution"
-    },
-    {
-     "step": 2,
-     "name": "solute_in_200g",
-     "expr": "mass_fraction * 200",
-     "explain": "solute in 200 g of the solution"
-    },
-    {
-     "step": 3,
-     "name": "percentage",
-     "expr": "mass_fraction * 100",
-     "explain": "mass by mass percentage"
-    }
-   ],
-   "questions": [
-    {
-     "q": "10 g of salt is dissolved in 90 g of water. Find the mass percentage of the solution.",
-     "vals": {
-      "mass_solute": 10,
-      "mass_solution": 100
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "10 %",
-     "self_check": false
-    },
-    {
-     "q": "5 g of sugar in 45 g of water: what is the mass by mass percentage?",
-     "vals": {
-      "mass_solute": 5,
-      "mass_solution": 50
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "10 %",
-     "self_check": false
-    },
-    {
-     "q": "A solution has 20 g of solute in 180 g total mass. Compute the percentage.",
-     "vals": {
-      "mass_solute": 20,
-      "mass_solution": 200
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "10 %",
-     "self_check": false
-    },
-    {
-     "q": "15 g of glucose is dissolved to make 300 g of solution. Find the concentration in mass %.",
-     "vals": {
-      "mass_solute": 15,
-      "mass_solution": 300
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "5 %",
-     "self_check": false
-    },
-    {
-     "q": "2 g of urea in 48 g of water: calculate the mass percentage of urea.",
-     "vals": {
-      "mass_solute": 2,
-      "mass_solution": 50
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "4 %",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "iesc.5.2.2.B",
-   "title": "Mass by Volume Percentage",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "mass_volume_fraction",
-     "expr": "mass_solute / volume_solution",
-     "explain": "grams per millilitre of solution"
-    },
-    {
-     "step": 2,
-     "name": "grams_per_litre",
-     "expr": "(mass_solute / volume_solution) * 1000",
-     "explain": "grams of solute per litre"
-    },
-    {
-     "step": 3,
-     "name": "percentage",
-     "expr": "mass_volume_fraction * 100",
-     "explain": "mass by volume percentage"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A saline solution contains 9 g of salt in 1000 mL of water. Find the mass by volume percentage.",
-     "vals": {
-      "mass_solute": 9,
-      "volume_solution": 1000
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "0.9 %",
-     "self_check": false
-    },
-    {
-     "q": "5 g of glucose is dissolved in 200 mL of solution. Calculate the mass/volume percentage.",
-     "vals": {
-      "mass_solute": 5,
-      "volume_solution": 200
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "2.5 %",
-     "self_check": false
-    },
-    {
-     "q": "A medical solution has 2 g of drug per 50 mL. What is its mass by volume percentage?",
-     "vals": {
-      "mass_solute": 2,
-      "volume_solution": 50
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "4 %",
-     "self_check": false
-    },
-    {
-     "q": "10 g of potash alum is dissolved in 500 mL of water. Find the percentage (m/V).",
-     "vals": {
-      "mass_solute": 10,
-      "volume_solution": 500
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "2 %",
-     "self_check": false
-    },
-    {
-     "q": "A cough syrup holds 0.4 g of medicine in 8 mL. Compute the mass/volume percentage.",
-     "vals": {
-      "mass_solute": 0.4,
-      "volume_solution": 8
-     },
-     "unit": "%",
-     "steps": null,
-     "a": "5 %",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "iesc.5.2.3",
-   "title": "Solubility and Saturated Solutions",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "salt_per_gram",
-     "expr": "solubility_per_100g / 100",
-     "explain": "salt held per gram of water"
-    },
-    {
-     "step": 2,
-     "name": "water_in_kg",
-     "expr": "solvent_mass / 1000",
-     "explain": "solvent mass in kilograms"
-    },
-    {
-     "step": 3,
-     "name": "mass_needed",
-     "expr": "salt_per_gram * solvent_mass",
-     "explain": "salt needed to saturate the given water"
-    }
-   ],
-   "questions": [
-    {
-     "q": "At 30 C, 36 g of NaCl saturates 100 g of water. How much salt saturates 250 g of water?",
-     "vals": {
-      "solubility_per_100g": 36,
-      "solvent_mass": 250
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "90 g",
-     "self_check": false
-    },
-    {
-     "q": "KNO3 has solubility 32 g per 100 g water. How much is needed for 150 g of water?",
-     "vals": {
-      "solubility_per_100g": 32,
-      "solvent_mass": 150
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "48 g",
-     "self_check": false
-    },
-    {
-     "q": "Sugar's solubility is 204 g per 100 g water. How much sugar saturates 50 g of water?",
-     "vals": {
-      "solubility_per_100g": 204,
-      "solvent_mass": 50
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "102 g",
-     "self_check": false
-    },
-    {
-     "q": "A salt dissolves 25 g per 100 g water. Find the mass needed for 400 g of water.",
-     "vals": {
-      "solubility_per_100g": 25,
-      "solvent_mass": 400
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "100 g",
-     "self_check": false
-    },
-    {
-     "q": "CuSO4 solubility is 20 g per 100 g water. How much saturates 75 g of water?",
-     "vals": {
-      "solubility_per_100g": 20,
-      "solvent_mass": 75
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "15 g",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "iesc.5.3.1",
-   "title": "Crystallization",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "left_fraction",
-     "expr": "mass_final_solubility / mass_initial",
-     "explain": "fraction that stays dissolved"
-    },
-    {
-     "step": 2,
-     "name": "yield_fraction",
-     "expr": "1 - left_fraction",
-     "explain": "fraction crystallised out"
-    },
-    {
-     "step": 3,
-     "name": "mass_precipitated",
-     "expr": "mass_initial * yield_fraction",
-     "explain": "mass of crystals separating out"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A saturated solution at 60 C holds 110 g KNO3 in 100 g water; on cooling only 20 g stays dissolved. What mass crystallises out?",
-     "vals": {
-      "mass_initial": 110,
-      "mass_final_solubility": 20
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "90 g",
-     "self_check": false
-    },
-    {
-     "q": "Hot water holds 95 g of a salt; on cooling it can hold only 30 g. How much separates as crystals?",
-     "vals": {
-      "mass_initial": 95,
-      "mass_final_solubility": 30
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "65 g",
-     "self_check": false
-    },
-    {
-     "q": "A solution contains 204 g of sugar; after evaporation 34 g remains dissolved. Find the crystallised mass.",
-     "vals": {
-      "mass_initial": 204,
-      "mass_final_solubility": 34
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "170 g",
-     "self_check": false
-    },
-    {
-     "q": "A salt solution at high temperature holds 60 g of solute; cooled, it holds 12 g. What mass precipitates?",
-     "vals": {
-      "mass_initial": 60,
-      "mass_final_solubility": 12
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "48 g",
-     "self_check": false
-    },
-    {
-     "q": "150 g of solute is in hot solution; only 50 g can stay in the cold solvent. Compute the crystal yield.",
-     "vals": {
-      "mass_initial": 150,
-      "mass_final_solubility": 50
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "100 g",
-     "self_check": false
     }
    ]
   },
@@ -435,28 +354,6 @@
     {
      "q": "How does sublimation help separate mixtures?",
      "a": "A sublimable component (like ammonium chloride) leaves the mixture as vapour and collects on a cold surface, away from salt or sand.",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "iesc.5.4.3",
-   "title": "Centrifugation",
-   "solution_type": "verify_property",
-   "questions": [
-    {
-     "q": "What is centrifugation?",
-     "a": "Spinning a mixture fast so that denser particles settle at the bottom and lighter ones stay above.",
-     "self_check": true
-    },
-    {
-     "q": "Name two uses of centrifugation.",
-     "a": "Separating cream from milk, and separating blood cells from plasma in labs.",
-     "self_check": true
-    },
-    {
-     "q": "Why does the denser component settle first in a centrifuge?",
-     "a": "The rapid spin throws heavier particles outward more strongly than light ones, so they pack at the bottom.",
      "self_check": true
     }
    ]

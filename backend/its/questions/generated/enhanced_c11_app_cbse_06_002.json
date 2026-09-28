@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_06_002",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_06_002",
+   "title": "c11_app_cbse_06_002",
+   "questions": [
+    {
+     "q": "What is the value of 0! and why is it defined that way in the context of arranging objects?",
+     "a": "0! = 1. It is defined as 1 because there is exactly one way to arrange zero objects: the empty arrangement. A wrong answer (e.g., 0) reveals the student is treating factorial purely as a product formula without understanding its combinatorial meaning as \"number of arrangements.\"",
+     "self_check": true
+    },
+    {
+     "q": "Simplify the expression (n+3)! / (n+1)! without expanding fully. Explain each step in your own words.",
+     "a": "(n+3)! / (n+1)! = (n+3)(n+2). The student should recognize that (n+3)! = (n+3)(n+2)(n+1)!, so (n+1)! cancels. A wrong answer like (n+3)(n+2)(n+1) or n+3 reveals the student doesn't see the recursive structure n! = n×(n−1)! and tries to expand everything mechanically.",
+     "self_check": true
+    },
+    {
+     "q": "If 1/9! + 1/10! = x/11!, find the value of x.",
+     "a": "x = 121. Steps: Write 10! = 10×9! and 11! = 11×10×9!. Then 1/9! + 1/(10×9!) = (10 + 1)/(10×9!) = 11/(10×9!). Set equal to x/(11×10×9!) → x = 11×11 = 121. A wrong answer reveals inability to express higher factorials in terms of the smallest one present — a critical skill for solving factorial equations.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the growth of n! and 2^n for n = 1, 2, 3, 4, 5, 6. At what point does n! exceed 2^n and stay larger? What does this imply about using factorials in real-world counting?",
+     "a": "n! exceeds 2^n at n = 4 (4! = 24 > 16 = 2^4) and stays larger. For n=1: 1<2; n=2: 2<4; n=3: 6<8; n=4: 24>16; n=5: 120>32; n=6: 720>64. A student who says n=3 or n=5 hasn't computed correctly. This analysis shows factorials grow explosively — crucial for understanding why brute-force enumeration fails in real problems like password counting.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since 5! = 120 and 6! = 720, the average of 5! and 6! is (120+720)/2 = 420, so 5.5! should be 420.\" Evaluate this reasoning.",
+     "a": "The reasoning is invalid. Factorial is only defined for non-negative integers; 5.5! is undefined in this context. The gamma function extends factorial to reals, but that is beyond Class 11 scope. A student who accepts this reveals a misconception that factorial is a continuous function — it is discrete. The \"average\" argument incorrectly assumes linearity.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where you need to compute a factorial ratio like 15!/12! to answer a question. State the problem clearly and solve it.",
+     "a": "Example: A school has 15 students. In how many ways can we choose a Head Boy, Deputy Head Boy, and Sports Captain (all distinct positions)? Solution: 15 choices for Head Boy, then 14 for Deputy, then 13 for Sports Captain → 15×14×13 = 15!/12! = 2730. A poor answer uses nCr (order doesn't matter) or invents a scenario where order is irrelevant, showing confusion between permutation and combination contexts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

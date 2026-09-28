@@ -34,6 +34,31 @@
      "q": "Create a problem where a curve has a vertical tangent at some point, and ask for both tangent and normal equations at that point. Specify the curve and the point.",
      "a": "Example problem: \"Find tangent and normal to x = y² at (0, 0).\" \nSolution: dx/dy = 2y, at (0,0) dx/dy = 0 → dy/dx is undefined (vertical tangent). Tangent: x = 0 (y-axis). Normal: y = 0 (x-axis).\nA good answer shows understanding that vertical tangent means infinite slope, normal is horizontal. A poor answer attempts to use dy/dx formula and gets division by zero without interpreting it geometrically, or writes \"slope = ∞\" without giving proper line equations x = 0 and y = 0.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For a curve y = f(x) ______ at point P(x₀, y₀), the tangent is the straight line passing through P with slope f'(x₀), and the normal is the straight line through P perpendicular to the tangent.",
+     "a": "differentiable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're designing a roller ______ track for an amusement park in Mumbai.",
+     "a": "coaster",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If f'(x₀) = ______, the tangent is horizontal (parallel to x-axis) and the normal is vertical (x = x₀).",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can find equations of tangents and normals to curves given explicitly, implicitly, or parametrically; determine points where tangents are parallel/perpendicular to given lines; calculate angles between intersecting curves; and solve application problems involving geometric optimization using tangent/normal properties.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're ______ a roller coaster track for an amusement park in Mumbai.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

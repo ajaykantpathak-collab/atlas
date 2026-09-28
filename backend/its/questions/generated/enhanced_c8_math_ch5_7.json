@@ -34,6 +34,31 @@
      "q": "Create a new parity rule involving three integers (e.g., sum of two evens and one odd, or product of three odds) and prove it algebraically using the forms \\(2k\\) and \\(2k+1\\).",
      "a": "Example: \"Product of three odd numbers is odd.\" Proof: \\((2a+1)(2b+1)(2c+1)\\). Expand first two: \\((4ab+2a+2b+1)(2c+1) = 2(4abc+2ac+2bc+c+2ab+a+b)+1\\) → odd. A good answer defines the rule clearly, uses three *independent* variables, expands correctly, factors 2, and identifies the \\(+1\\) remainder. A poor answer uses same variable for all three, makes expansion errors, or fails to factor 2 to show the final form. This tests synthesis and algebraic manipulation skill.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This algebraic ______ shows *why* patterns observed with specific numbers hold true for *all* integers.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ asks: \"Rohan has some ₹10 coins and some ₹5 coins.",
+     "a": "teacher",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: He says no matter how many of each he takes, the total will always be a multiple of ______.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can represent any even or odd integer algebraically, substitute these forms into expressions for sum/difference/product, simplify using distributive property, and correctly conclude the parity of the result with a justification like \"since the result is 2 times an integer, it is even.\".",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a teacher asks: \"Rohan has some ₹10 coins and some ₹5 coins.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

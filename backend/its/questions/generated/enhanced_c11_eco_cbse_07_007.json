@@ -34,6 +34,36 @@
      "q": "Construct a simple environmental health-economic account for a hypothetical Indian village of 5,000 people where groundwater fluoride concentration is 3.5 mg/L (WHO limit: 1.5 mg/L). Estimate annual dental/skeletal fluorosis cases, treatment cost, and productivity loss. State all assumptions.",
      "a": "Assumptions: (1) 60% population (3,000) uses contaminated groundwater. (2) Fluorosis prevalence at 3.5 mg/L = 25% (dental) + 5% (skeletal) based on ICMR studies. (3) Dental treatment: ₹2,000/case/year; skeletal: ₹15,000/case/year. (4) Productivity loss: dental = 2 days/year; skeletal = 30 days/year; daily wage = ₹300.\nCalculations:\n- Dental cases = 3,000 × 25% = 750; cost = 750 × ₹2,000 = ₹15 lakh; productivity loss = 750 × 2 × ₹300 = ₹4.5 lakh.\n- Skeletal cases = 3,000 × 5% = 150; cost = 150 × ₹15,000 = ₹22.5 lakh; productivity loss = 150 × 30 × ₹300 = ₹13.5 lakh.\n- Total annual cost = ₹15L + ₹4.5L + ₹22.5L + ₹13.5L = ₹55.5 lakh.\n- Per capita cost = ₹55.5L / 5,000 = ₹1,110.\nA good answer includes explicit assumptions, unit consistency, and distinguishes stock (skeletal) vs. flow (dental) impacts. A poor answer uses arbitrary numbers without epidemiological basis or ignores productivity loss.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Environmental degradation refers to the ______ of environmental quality through depletion of natural resources (air, water, soil), destruction of ecosystems, and loss of biodiversity, which imposes measurable negative externalities on human health (increased morbidity and mortality from respiratory, water-borne, and vector-borne diseases) and the economy (rising healthcare expenditure, loss of labour productivity, reduced agricultural yields, and high opportunity costs of remediation), occurring when resource extraction exceeds regenerative capacity and waste generation exceeds assimilative capacity.",
+     "a": "deterioration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you live in ______ where the AQI hits 450 every November.",
+     "a": "Delhi",
+     "self_check": true
+    },
+    {
+     "q": "What is Environmental degradation? State the definition given in this lesson.",
+     "a": "Environmental degradation refers to the deterioration of environmental quality through depletion of natural resources (air, water, soil), destruction of ecosystems, and loss of biodiversity, which imposes measurable negative externalities on human health (increased morbidity and mortality from respiratory, water-borne, and vector-borne.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now multiply this by ______ million Delhi residents.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Environmental degradation?",
+     "a": "Students believe environmental health costs are ONLY direct medical expenses (hospital bills, medicines).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can quantitatively link specific environmental degradation indicators (e.g., PM2.5 levels, BOD in water, soil nutrient loss) to health outcomes (DALYs, disease incidence) and economic costs (healthcare expenditure as % of GDP, productivity loss, remediation costs) using Indian data, and explain the opportunity cost mechanism that.",
+     "self_check": true
     }
    ]
   }

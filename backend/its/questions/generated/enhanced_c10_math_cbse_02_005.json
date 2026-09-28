@@ -34,6 +34,21 @@
      "q": "Construct a quadratic polynomial whose zeros are \\(\\frac{1}{2}\\) and \\(-3\\). Write the polynomial with integer coefficients. Then verify the relationship between zeros and coefficients for your polynomial.",
      "a": "Zeros: \\(\\alpha = 1/2, \\beta = -3\\). Sum = \\(1/2 - 3 = -5/2\\). Product = \\(-3/2\\). A polynomial with these zeros is \\(x^2 - (\\text{sum})x + \\text{product} = x^2 - (-5/2)x + (-3/2) = x^2 + \\frac{5}{2}x - \\frac{3}{2}\\). Multiply by 2 to get integer coefficients: \\(2x^2 + 5x - 3\\). Verification: For \\(2x^2+5x-3\\), \\(a=2, b=5, c=-3\\). Sum = \\(-b/a = -5/2\\) (matches). Product = \\(c/a = -3/2\\) (matches). A good answer shows the construction step by step and verifies. A poor answer might give \\(x^2 + 5x - 3\\) (forgetting to multiply the \\(x^2\\) coefficient) or \\(2x^2 + 5x - 6\\) (wrong product). The verification step is crucial for board exams.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: These ______ hold for all quadratic polynomials with real coefficients, regardless of whether the zeros are real or complex.",
+     "a": "relationships",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ garden in your school courtyard.",
+     "a": "rectangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the sum and product of zeros from the coefficients of any quadratic polynomial, construct a quadratic polynomial given its zeros, and verify the relationship by substituting the zeros back into the polynomial.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a convex lens, a candle, and a screen to verify the thin lens formula. List the measurements you would take, the graph you would plot to determine focal length, and how you would use the slope/intercept.",
      "a": "Fix the lens on a stand. Place the candle (object) at various distances u (e.g., 30, 40, 50, 60 cm) from the lens. For each u, move the screen to get a sharp real image; measure v. Record u and v in cm. Convert to metres. Plot \\( \\frac{1}{v} \\) vs \\( \\frac{1}{u} \\) (or \\( \\frac{1}{u} \\) vs \\( \\frac{1}{v} \\)). From formula \\( \\frac{1}{v} - \\frac{1}{u} = \\frac{1}{f} \\), a plot of \\( \\frac{1}{v} \\) (y-axis) vs \\( \\frac{1}{u} \\) (x-axis) gives slope +1 and y-intercept \\( \\frac{1}{f} \\). Alternatively, plot \\( \\frac{1}{u} + \\frac{1}{v} \\) vs something? Actually, \\( \\frac{1}{v} = \\frac{1}{u} + \\frac{1}{f} \\) → straight line with slope 1, intercept 1/f. A good answer shows understanding of linearizing the formula. A poor answer (e.g., plotting v vs u) indicates lack of algebraic manipulation skill.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The SI unit for distances is metre (m), ______ is dimensionless, and focal length is in metre (m).",
+     "a": "magnification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine holding a convex lens (like a ______ glass) under sunlight — you see a bright spot on paper at a certain distance.",
+     "a": "magnifying",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The power of a lens (in dioptres) is simply ______/f (in metres) — opticians use this for spectacles.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) correctly apply the Cartesian sign convention to assign signs to u, v, f, h, h' for any combination of convex/concave lens and real/virtual object/image; (2) solve the thin lens formula algebraically to find any unknown among u, v, f; (3) compute magnification and interpret its sign and magnitude to.",
+     "self_check": true
     }
    ]
   }

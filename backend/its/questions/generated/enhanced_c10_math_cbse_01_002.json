@@ -34,6 +34,31 @@
      "q": "Create a word problem involving two numbers between 100 and 500 that requires finding both HCF and LCM using prime factorisation. The problem must have a real-world context (e.g., tiling a floor, packing boxes, traffic lights). Provide the solution with prime factorisations.",
      "a": "Example problem: \"A rectangular floor measures 240 cm by 360 cm. It is to be tiled with identical square tiles of the largest possible size. Find the side of the tile and the number of tiles needed.\" Solution: 240 = 2^4 × 3 × 5, 360 = 2^3 × 3^2 × 5. HCF = 2^3 × 3 × 5 = 120 cm (tile side). LCM = 2^4 × 3^2 × 5 = 720 (not needed directly). Number of tiles = (240×360)/(120×120) = 6. A poor answer uses trivial numbers (like 12 and 18), lacks prime factorisation steps, or confuses HCF/LCM in the context (e.g., uses LCM for tile size).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Highest Common Factor (HCF) of two or more positive integers is the product of the common prime factors raised to the smallest power occurring in their prime ______.",
+     "a": "factorisations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are organizing a ______ sports day and have 144 red ribbons and 192 blue ribbons.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This method relies on the Fundamental Theorem of Arithmetic which guarantees a unique prime factorisation for every integer greater than ______.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently find the HCF and LCM of two or three numbers (up to 4 digits) using prime factorisation, express the factorisation in exponential form, and correctly identify common and uncommon prime factors with appropriate exponents.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a school sports day and have 144 red ribbons and 192 blue ribbons.",
+     "a": "organizing",
+     "self_check": true
     }
    ]
   }

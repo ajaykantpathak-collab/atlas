@@ -17,7 +17,7 @@
     },
     {
      "q": "Write a `for` loop using `range(len())` to double every element in the list `marks = [45, 78, 62, 90]` in-place (modify the original list). Show the final list.",
-     "a": "```python\nmarks = [45, 78, 62, 90]\nfor i in range(len(marks)):\n    marks[i] = marks[i] * 2",
+     "a": "```python\nmarks = [45, 78, 62, 90]\nfor i in range(len(marks)):\n    marks[i] = marks[i] * 2\n# marks becomes [90, 156, 124, 180]\n```\nA student using `for m in marks: m = m * 2` fails because `m` is a local copy; this reveals the misconception that loop variable assignment modifies the list.",
      "self_check": true
     },
     {
@@ -33,6 +33,36 @@
     {
      "q": "Design a real-world problem (Indian context) that requires traversing a list with a `while` loop backwards (from last index to 0) and write the complete Python code. Example context: processing a stack of bills.",
      "a": "Problem: A shopkeeper has a list of bill amounts `[250, 500, 1200, 300]` (oldest to newest). He wants to process refunds from the newest bill backwards until the total refunded reaches ₹1000. Code:\n```python\nbills = [250, 500, 1200, 300]\ni = len(bills) - 1\ntotal_refund = 0\nwhile i >= 0 and total_refund < 1000:\n    total_refund += bills[i]\n    print(f\"Refunded bill {i}: ₹{bills[i]}\")\n    i -= 1\nprint(f\"Total refunded: ₹{total_refund}\")\n```\nA poor answer uses `for` loop or forward `while`, missing the requirement for reverse traversal with dynamic stopping condition.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Traversing a list is the process of ______ accessing each element of a list exactly once, typically to perform an operation such as reading, modifying, or aggregating values, using iterative control structures like for loops (which iterate directly over elements or via index) and while loops (which require explicit index management).",
+     "a": "systematically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a list of ______ temperatures recorded over a week in Delhi: [32, 35, 33, 36, 34, 37, 35].",
+     "a": "daily",
+     "self_check": true
+    },
+    {
+     "q": "What is Traversing a list? State the definition given in this lesson.",
+     "a": "Traversing a list is the process of systematically accessing each element of a list exactly once, typically to perform an operation such as reading, modifying, or aggregating values, using iterative control structures like for loops (which iterate directly over elements or via index) and while loops (which require explicit index.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You need to calculate the average temperature, find the highest, and check if any day exceeded ______°C.",
+     "a": "36",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Traversing a list?",
+     "a": "Students believe for item in my_list: allows modification of the original list by assigning to item (e.g., for x in L: x = x * 2).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write correct Python code to traverse a given list using both for loops (with direct element access and range(len()) indexing) and while loops, correctly handle empty lists and off-by-one errors, and choose the appropriate traversal method for a given problem (e.g., modification during traversal vs. read-only).",
      "self_check": true
     }
    ]

@@ -34,6 +34,36 @@
      "q": "Design a 5-point checklist that a first-time online shopper should follow before making a payment on a new e-commerce website.",
      "a": "Good answer includes: (1) Verify HTTPS and padlock in URL, (2) Check for genuine reviews and seller ratings, (3) Use OTP-based payment (UPI/net banking) instead of saving card details, (4) Read return/refund and privacy policies, (5) Ensure the website domain matches the brand exactly (no misspellings). A poor answer lists generic tips like \"use antivirus\" without e-commerce-specific checks, indicating lack of applied understanding.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: E-commerce refers to the buying and selling of goods and services over the internet, involving electronic ______ for payment, order processing, and digital delivery; its benefits include global reach, 24/7 availability, lower operational costs, and personalized shopping experiences, while its risks encompass payment fraud, data breaches, identity theft, phishing attacks, lack of physical product inspection, and legal/regulatory compliance challenges across jurisdictions.",
+     "a": "transactions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to buy a smartphone online during a festive sale: you ______ prices on three apps, read reviews, apply a coupon, and pay via UPI — all within minutes.",
+     "a": "compare",
+     "self_check": true
+    },
+    {
+     "q": "What is E-commerce? State the definition given in this lesson.",
+     "a": "E-commerce refers to the buying and selling of goods and services over the internet, involving electronic transactions for payment, order processing, and digital delivery; its benefits include global reach, 24/7 availability, lower operational costs, and personalized shopping experiences, while its risks encompass payment fraud, data.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about E-commerce?",
+     "a": "Students often believe that \"HTTPS in the browser address bar guarantees the website is legitimate and safe.\" This is wrong because HTTPS only encrypts data in transit; it does not verify the *identity* of the website owner.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) list at least four distinct benefits and four distinct risks of e-commerce with real-world examples, and (2) explain how specific security measures (HTTPS, OTP, PCI-DSS, digital signatures) mitigate identified risks in online transactions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: E-commerce refers to the buying and selling of goods and services over the internet, involving electronic transactions for payment, order processing, and digital delivery; its benefits include global reach, 24/7 availability, lower operational costs, and personalized shopping experiences, while its risks encompass payment fraud, data breaches, identity theft, phishing attacks, lack of physical product inspection, and legal/regulatory compliance challenges across ______.",
+     "a": "jurisdictions",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a spring, masses, and a ruler to verify that total energy in SHM is constant. Describe measurements, calculations, and how you'd account for energy loss.",
      "a": "Hang a spring, attach a mass, measure k by static extension (mg = kx₀). Pull mass down by amplitude A, release. At mean position, measure v_max using a photogate or video analysis. Calculate E_total = ½mv_max². At extreme, calculate U_max = ½kA². Compare values. Repeat for different A. Account for loss by measuring amplitude decay over time; if amplitude decreases, energy is not conserved due to damping. A poor answer omits measuring k independently or ignores damping effects.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In Simple Harmonic Motion, the total mechanical energy is the sum of kinetic energy (K = ½mv²) and elastic potential energy (U = ½kx²), which remains constant at E = ½kA² for a ______ system.",
+     "a": "conservative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ pendulum in a grandfather clock or a mass on a spring in a laboratory.",
+     "a": "swinging",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Kinetic energy is maximum at the mean position (x=______) and zero at extremes (x=±A), while potential energy is maximum at extremes and zero at the mean position.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive expressions for K, U, and E as functions of displacement x and time t, calculate energies at any position given amplitude and spring constant, explain why total energy is constant, and solve problems involving energy conservation in spring-mass systems and simple pendulums.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a swinging pendulum in a ______ clock or a mass on a spring in a laboratory.",
+     "a": "grandfather",
+     "self_check": true
     }
    ]
   }

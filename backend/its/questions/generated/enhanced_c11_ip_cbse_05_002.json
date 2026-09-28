@@ -34,6 +34,21 @@
      "q": "Create a new function named `welcome_user` that prints a welcome message including your name, and then write a short program that calls it twice with a blank line between the calls (i.e., print an empty line between the two calls).",
      "a": "Example answer:\n```python\ndef welcome_user():\n    print(\"Welcome, Aryan!\")\n\nwelcome_user()\nprint()\nwelcome_user()\n```\nOutput:\n```\nWelcome, Aryan!\n\nWelcome, Aryan!\n```\nA poor answer might omit the blank line or call the function only once, revealing the student cannot combine function calls with other statements to control output formatting.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A function in Python is a named block of ______ code that performs a specific task, defined using the def keyword followed by the function name and parentheses, and invoked by writing its name with parentheses to execute the code inside it.",
+     "a": "reusable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a program to ______ the area of a circle multiple times for different radii.",
+     "a": "calculate",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write a complete Python function definition using def with proper indentation, call the function correctly, and explain the flow of control when a function is called and returns.",
+     "self_check": true
     }
    ]
   }

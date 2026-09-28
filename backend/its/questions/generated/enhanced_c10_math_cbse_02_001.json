@@ -34,6 +34,31 @@
      "q": "Construct a quadratic polynomial whose graph touches the x-axis at x = -3 and passes through the point (0, 9). Write the polynomial in standard form and verify your answer.",
      "a": "\"Touching at x = -3\" means repeated zero at x = -3 → polynomial is k(x + 3)². Passes through (0, 9): 9 = k(0+3)² = 9k → k = 1. Polynomial: p(x) = (x + 3)² = x² + 6x + 9. Verification: p(-3) = 0, p(0) = 9. A poor answer like \"x² + 9\" shows the student doesn't understand \"touching\" implies a squared factor. An answer \"k = 9\" reveals arithmetic error in solving 9 = 9k.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The zeros of a polynomial p(x) are the x-______ of the points where the graph of y = p(x) intersects or touches the x-axis.",
+     "a": "coordinates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a cricket ball thrown ______ from a height of 2 metres — its height h (in metres) after t seconds follows h(t) = -5t² + 20t + 2.",
+     "a": "upward",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Geometrically, if α is a zero of p(x), then the point (α, ______) lies on the graph, meaning the polynomial value becomes zero at x = α.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify the number and approximate values of real zeros from a given polynomial graph, sketch a rough graph of a polynomial when its zeros are given, and explain why a quadratic polynomial can have 0, 1, or 2 real zeros based on its discriminant and graph shape.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a cricket ball thrown upward from a height of 2 metres — its height h (in metres) after t seconds follows h(t) = -5t² + 20t + 2.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

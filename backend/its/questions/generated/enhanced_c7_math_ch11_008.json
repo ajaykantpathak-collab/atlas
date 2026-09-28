@@ -34,6 +34,26 @@
      "q": "Create a pair of two-digit numbers whose LCM found by prime factorisation is exactly 180, and show their prime factorisations.",
      "a": "An acceptable answer is 20 and 45. Prime factorisation: $20 = 2^2 \\times 5^1$ and $45 = 3^2 \\times 5^1$. Their LCM is $2^2 \\times 3^2 \\times 5^1 = 4 \\times 9 \\times 5 = 180$. A poor answer features numbers whose LCM does not equal 180, showing a failure to work backward from a target LCM using prime powers.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Finding the Least Common Multiple (LCM) by prime factorisation involves expressing each given number as a product of its prime factors, and then taking the highest power of every prime factor present in any of the ______ to find their product.",
+     "a": "factorisations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two school bell rings at a morning assembly: one bell rings every 12 seconds and ______ bell rings every 18 seconds.",
+     "a": "another",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can find the LCM of two or three numbers by writing their prime factorisations in exponential form, selecting the highest power for each prime factor, and multiplying them together to compute the final value.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two school bell rings at a morning ______: one bell rings every 12 seconds and another bell rings every 18 seconds.",
+     "a": "assembly",
+     "self_check": true
     }
    ]
   }

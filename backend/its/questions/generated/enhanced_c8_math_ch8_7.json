@@ -34,6 +34,31 @@
      "q": "Create a real-life word problem (using rupees) where the Cost Price is ₹1,200, there is a loss, and the Selling Price is a multiple of 50. Provide the problem statement and the solution.",
      "a": "Example problem: \"Meena bought a kurta for ₹1,200. Due to a stain, she sold it at a loss of ₹150. What was the selling price?\" Solution: CP = ₹1,200, Loss = ₹150, SP = CP - Loss = ₹1,050 (multiple of 50). A poor answer (e.g., giving a profit scenario or SP not a multiple of 50) reveals the student cannot construct a problem meeting multiple constraints, indicating shaky grasp of the definitions and relationships.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Profit and loss are financial outcomes ______ by comparing the Selling Price (SP) of an item with its Cost Price (CP).",
+     "a": "determined",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by ______ down the Cost Price (CP = ₹800) and Selling Price (SP = ₹950).",
+     "a": "writing",
+     "self_check": true
+    },
+    {
+     "q": "What is Profit and loss? State the definition given in this lesson.",
+     "a": "Profit and loss are financial outcomes determined by comparing the Selling Price (SP) of an item with its Cost Price (CP).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Profit and loss?",
+     "a": "Students often write \"Profit = CP - SP\" or \"Loss = SP - CP\", reversing the subtraction order.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify CP and SP in a word problem, determine whether a transaction results in profit or loss, calculate the exact profit or loss amount using the appropriate formula, and find missing values (CP, SP, Profit, or Loss) when the other three are known.",
+     "self_check": true
     }
    ]
   }

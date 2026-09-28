@@ -34,6 +34,26 @@
      "q": "Design a hypothetical scenario where a listed company *simultaneously* announces a Rights Issue and an OFS. Specify the company's objectives, shareholder reactions, and SEBI constraints that must be satisfied for both to proceed.",
      "a": "Good answer criteria:  \n- Company: Listed ≥1 year, needs ₹2,000 cr for expansion (Rights Issue) + promoters want to sell 10% stake (OFS).  \n- Rights Issue: 1:4 ratio at ₹200 (market ₹300) → raises ₹2,000 cr from existing shareholders.  \n- OFS: Promoters sell 10% via stock exchange platform (T+1 settlement), floor price set.  \n- SEBI constraints: (a) Rights Issue: Board + postal ballot approval; record date fixed; minimum 90% subscription if not underwritten. (b) OFS: Only through exchange platform; non-promoter OFS allowed only for top 200 companies; promoter OFS ≥1 year listing; 25% reservation for mutual funds/insurance.  \n- Shareholder reaction: Rights Issue seen as positive (discount to market); OFS may signal promoter lack of confidence → stock price pressure.  \nA poor answer treats them as independent without addressing *simultaneous* signalling conflict or SEBI's separate regulatory tracks.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The primary market is the segment of the capital market where new securities (equity shares, preference shares, debentures) are issued for the first time to raise fresh capital; methods of floatation refer to the specific mechanisms — Initial Public Offer (IPO), Offer for Sale (OFS), and Rights Issue — through which a company offers these securities to investors, each differing in who sells the shares, pricing approach, and regulatory ______.",
+     "a": "requirements",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a startup, \"______ Ltd.\", needs ₹500 crore to build solar farms.",
+     "a": "GreenEnergy",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a startup, \"GreenEnergy Ltd.\", needs ₹______ crore to build solar farms.",
+     "a": "500",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish IPO, OFS, and Rights Issue on at least four parameters (issuer, pricing method, eligibility of investors, SEBI regulations, impact on ownership) and explain why a company would choose one method over another for a given business scenario.",
+     "self_check": true
     }
    ]
   }

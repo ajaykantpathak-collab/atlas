@@ -34,6 +34,31 @@
      "q": "Design a 4-step pollution control plan for a new integrated iron and steel plant proposed in the Chotanagpur plateau region (Jharkhand). Your plan must address air, water, solid waste, and noise — one specific measure per pollution type, with the geographical reasoning for each choice.",
      "a": "**Step 1 (Air):** Install **Electrostatic Precipitators (ESPs)** on blast furnace, sinter plant, and boiler stacks + **Bag Filters** at material handling points. *Reasoning:* Iron/steel emits massive particulate matter (PM₁₀, PM₂.₅) and SO₂/NOₓ; ESPs handle high-temperature, high-volume flue gas efficiently (99%+ removal). **Step 2 (Water):** **Closed-loop water recycling system** with cooling towers + **ETP with tertiary treatment (RO)** for wastewater from coke oven, rolling mill, pickling. *Reasoning:* Region is water-stressed (Damodar basin); recycling reduces freshwater withdrawal; RO removes dissolved salts, phenols, cyanides from coke oven effluent. **Step 3 (Solid Waste):** **Slag utilization** — blast furnace slag → cement industry (Portland slag cement); steel melting slag → road base/aggregate; **sludge from ETP** → secured landfill (hazardous). *Reasoning:* Chotanagpur has cement plants nearby (synergy); converts waste to resource, avoids landfilling in ecologically sensitive plateau. **Step 4 (Noise):** **Acoustic enclosures** for blowers, compressors, rolling mills + **green belt (3-tier plantation)** of 50m width using native species (Sal, Mahua, Neem). *Reasoning:* Plateau topography amplifies sound; green belt attenuates noise, traps dust, restores biodiversity. A poor answer lists generic measures without linking to industry-specific pollutants, regional geography (water scarcity, topography), or industrial symbiosis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Control of environmental degradation from industries refers to the systematic ______ of technological, regulatory, and managerial measures to minimize, treat, and prevent the release of harmful pollutants (air emissions, liquid effluents, solid waste, and noise) generated during industrial production processes into the natural environment, ensuring compliance with environmental standards set by the Central Pollution Control Board (CPCB) and State Pollution Control Boards (SPCBs) under the Environment (Protection) Act, 1986.",
+     "a": "implementation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the ______ of a thermal power plant near your city — on a clear day you see a white plume, but on bad days it turns dark grey, and nearby residents complain of coughing.",
+     "a": "chimney",
+     "self_check": true
+    },
+    {
+     "q": "What is Control of environmental degradation from industries? State the definition given in this lesson.",
+     "a": "Control of environmental degradation from industries refers to the systematic implementation of technological, regulatory, and managerial measures to minimize, treat, and prevent the release of harmful pollutants (air emissions, liquid effluents, solid waste, and noise) generated during industrial production processes into the natural.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Control of environmental degradation from industries?",
+     "a": "Students believe that installing pollution control equipment (like ETP or ESP) automatically ensures \"zero pollution\" and compliance.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the specific control measures for each type of industrial pollution (air, water, soil, noise) with Indian examples, interpret a flowchart of effluent treatment plant stages, and evaluate the effectiveness of a given pollution control strategy for a specific industry type (e.g., thermal power plant, textile, iron.",
+     "self_check": true
     }
    ]
   }

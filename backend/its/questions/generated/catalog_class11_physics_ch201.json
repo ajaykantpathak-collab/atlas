@@ -1,0 +1,381 @@
+{
+ "catalog": "catalog_class11_physics_ch201.json",
+ "concepts": [
+  {
+   "id": "keph.201.1",
+   "title": "Longitudinal Stress",
+   "converted_to_compute": true,
+   "formula": "stress = force / area",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "stress = force / area",
+     "compute": "stress = force / area"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Longitudinal Stress: given force = 824, area = 83, find stress.",
+     "a": "9.92771",
+     "self_check": false
+    },
+    {
+     "q": "For Longitudinal Stress: given force = 628, area = 79, find stress.",
+     "a": "7.94937",
+     "self_check": false
+    },
+    {
+     "q": "For Longitudinal Stress: given force = 867, area = 52, find stress.",
+     "a": "16.6731",
+     "self_check": false
+    },
+    {
+     "q": "For Longitudinal Stress: given force = 93, area = 37, find stress.",
+     "a": "2.51351",
+     "self_check": false
+    },
+    {
+     "q": "For Longitudinal Stress: given force = 315, area = 74, find stress.",
+     "a": "4.25676",
+     "self_check": false
+    },
+    {
+     "q": "For Longitudinal Stress: given force = 505, area = 35, find stress.",
+     "a": "14.4286",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.201.2",
+   "title": "Longitudinal Strain",
+   "converted_to_compute": true,
+   "formula": "strain = delta_L / length",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "strain = delta_L / length",
+     "compute": "strain = delta_L / length"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Longitudinal Strain: given delta_L = 6, length = 162, find strain.",
+     "a": "0.037037",
+     "self_check": false
+    },
+    {
+     "q": "For Longitudinal Strain: given delta_L = 43, length = 387, find strain.",
+     "a": "0.111111",
+     "self_check": false
+    },
+    {
+     "q": "For Longitudinal Strain: given delta_L = 75, length = 312, find strain.",
+     "a": "0.240385",
+     "self_check": false
+    },
+    {
+     "q": "For Longitudinal Strain: given delta_L = 28, length = 208, find strain.",
+     "a": "0.134615",
+     "self_check": false
+    },
+    {
+     "q": "For Longitudinal Strain: given delta_L = 74, length = 213, find strain.",
+     "a": "0.347418",
+     "self_check": false
+    },
+    {
+     "q": "For Longitudinal Strain: given delta_L = 64, length = 425, find strain.",
+     "a": "0.150588",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.201.3",
+   "title": "Young's Modulus",
+   "converted_to_compute": true,
+   "formula": "young_modulus = (force * length) / (area * delta_L)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "young_modulus = (force * length) / (area * delta_L)",
+     "compute": "young_modulus = (force * length) / (area * delta_L)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Young's Modulus: given force = 733, length = 246, area = 12.3, delta_L = 4.8, find young modulus.",
+     "a": "3054.17",
+     "self_check": false
+    },
+    {
+     "q": "For Young's Modulus: given force = 891, length = 172, area = 71, delta_L = 17.5, find young modulus.",
+     "a": "123.342",
+     "self_check": false
+    },
+    {
+     "q": "For Young's Modulus: given force = 156, length = 8.8, area = 48, delta_L = 96, find young modulus.",
+     "a": "0.297917",
+     "self_check": false
+    },
+    {
+     "q": "For Young's Modulus: given force = 482, length = 283, area = 84, delta_L = 65, find young modulus.",
+     "a": "24.9828",
+     "self_check": false
+    },
+    {
+     "q": "For Young's Modulus: given force = 832, length = 419, area = 82, delta_L = 54, find young modulus.",
+     "a": "78.7281",
+     "self_check": false
+    },
+    {
+     "q": "For Young's Modulus: given force = 713, length = 252, area = 50, delta_L = 68, find young modulus.",
+     "a": "52.8459",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.201.4",
+   "title": "Shear Modulus and Shearing Strain",
+   "converted_to_compute": true,
+   "formula": "shear_modulus = (force * height) / (area * displacement)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "shear_modulus = (force * height) / (area * displacement)",
+     "compute": "shear_modulus = (force * height) / (area * displacement)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Shear Modulus and Shearing Strain: given force = 330, height = 73, area = 98, displacement = 462, find shear modulus.",
+     "a": "0.53207",
+     "self_check": false
+    },
+    {
+     "q": "For Shear Modulus and Shearing Strain: given force = 492, height = 173, area = 94, displacement = 421, find shear modulus.",
+     "a": "2.15081",
+     "self_check": false
+    },
+    {
+     "q": "For Shear Modulus and Shearing Strain: given force = 911, height = 341, area = 48, displacement = 76, find shear modulus.",
+     "a": "85.1565",
+     "self_check": false
+    },
+    {
+     "q": "For Shear Modulus and Shearing Strain: given force = 166, height = 382, area = 46, displacement = 214, find shear modulus.",
+     "a": "6.44169",
+     "self_check": false
+    },
+    {
+     "q": "For Shear Modulus and Shearing Strain: given force = 966, height = 383, area = 59, displacement = 402, find shear modulus.",
+     "a": "15.599",
+     "self_check": false
+    },
+    {
+     "q": "For Shear Modulus and Shearing Strain: given force = 322, height = 481, area = 18.6, displacement = 301, find shear modulus.",
+     "a": "27.6644",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.201.5",
+   "title": "Bulk Modulus and Compressibility",
+   "converted_to_compute": true,
+   "formula": "bulk_modulus = pressure * volume / delta_volume",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "bulk_modulus = pressure * volume / delta_volume",
+     "compute": "bulk_modulus = pressure * volume / delta_volume"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Bulk Modulus and Compressibility: given pressure = 495, volume = 57, delta_volume = 47, find bulk modulus.",
+     "a": "600.319",
+     "self_check": false
+    },
+    {
+     "q": "For Bulk Modulus and Compressibility: given pressure = 479, volume = 81, delta_volume = 18.5, find bulk modulus.",
+     "a": "2097.24",
+     "self_check": false
+    },
+    {
+     "q": "For Bulk Modulus and Compressibility: given pressure = 322, volume = 13.9, delta_volume = 111, find bulk modulus.",
+     "a": "40.3225",
+     "self_check": false
+    },
+    {
+     "q": "For Bulk Modulus and Compressibility: given pressure = 86, volume = 42, delta_volume = 80, find bulk modulus.",
+     "a": "45.15",
+     "self_check": false
+    },
+    {
+     "q": "For Bulk Modulus and Compressibility: given pressure = 461, volume = 14.6, delta_volume = 41, find bulk modulus.",
+     "a": "164.161",
+     "self_check": false
+    },
+    {
+     "q": "For Bulk Modulus and Compressibility: given pressure = 422, volume = 47, delta_volume = 63, find bulk modulus.",
+     "a": "314.825",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.201.6",
+   "title": "Elastic Potential Energy Density",
+   "converted_to_compute": true,
+   "formula": "energy_density = 0.5 * stress * strain",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "energy_density = 0.5 * stress * strain",
+     "compute": "energy_density = 0.5 * stress * strain"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Elastic Potential Energy Density: given stress = 55, strain = 81, find energy density.",
+     "a": "2227.5",
+     "self_check": false
+    },
+    {
+     "q": "For Elastic Potential Energy Density: given stress = 77, strain = 83, find energy density.",
+     "a": "3195.5",
+     "self_check": false
+    },
+    {
+     "q": "For Elastic Potential Energy Density: given stress = 27, strain = 50, find energy density.",
+     "a": "675",
+     "self_check": false
+    },
+    {
+     "q": "For Elastic Potential Energy Density: given stress = 73, strain = 6.7, find energy density.",
+     "a": "244.55",
+     "self_check": false
+    },
+    {
+     "q": "For Elastic Potential Energy Density: given stress = 59, strain = 89, find energy density.",
+     "a": "2625.5",
+     "self_check": false
+    },
+    {
+     "q": "For Elastic Potential Energy Density: given stress = 7.8, strain = 98, find energy density.",
+     "a": "382.2",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.201.7",
+   "title": "Sagging of a Central Loaded Beam",
+   "converted_to_compute": true,
+   "formula": "sag = (load * length**3) / (4 * breadth * depth**3 * young_modulus)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "sag = (load * length**3) / (4 * breadth * depth**3 * young_modulus)",
+     "compute": "sag = (load * length**3) / (4 * breadth * depth**3 * young_modulus)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Sagging of a Central Loaded Beam: given load = 347, length = 131, breadth = 96, depth = 270, young_modulus = 56, find sag.",
+     "a": "0.00184303",
+     "self_check": false
+    },
+    {
+     "q": "For Sagging of a Central Loaded Beam: given load = 668, length = 54, breadth = 57, depth = 61, young_modulus = 63, find sag.",
+     "a": "0.0322621",
+     "self_check": false
+    },
+    {
+     "q": "For Sagging of a Central Loaded Beam: given load = 876, length = 439, breadth = 93, depth = 473, young_modulus = 99, find sag.",
+     "a": "0.0190167",
+     "self_check": false
+    },
+    {
+     "q": "For Sagging of a Central Loaded Beam: given load = 252, length = 244, breadth = 75, depth = 406, young_modulus = 78, find sag.",
+     "a": "0.00233763",
+     "self_check": false
+    },
+    {
+     "q": "For Sagging of a Central Loaded Beam: given load = 217, length = 237, breadth = 73, depth = 160, young_modulus = 31, find sag.",
+     "a": "0.0779113",
+     "self_check": false
+    },
+    {
+     "q": "For Sagging of a Central Loaded Beam: given load = 306, length = 215, breadth = 48, depth = 97, young_modulus = 19.7, find sag.",
+     "a": "0.880956",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.201.9",
+   "title": "Poisson's Ratio",
+   "converted_to_compute": true,
+   "formula": "poisson_ratio = (delta_d / d) / (delta_L / L)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "poisson_ratio = (delta_d / d) / (delta_L / L)",
+     "compute": "poisson_ratio = (delta_d / d) / (delta_L / L)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Poisson's Ratio: given delta_d = 81, d = 48, delta_L = 2.4, L = 32, find poisson ratio.",
+     "a": "22.5",
+     "self_check": false
+    },
+    {
+     "q": "For Poisson's Ratio: given delta_d = 46, d = 54, delta_L = 24, L = 7.6, find poisson ratio.",
+     "a": "0.269753",
+     "self_check": false
+    },
+    {
+     "q": "For Poisson's Ratio: given delta_d = 4.4, d = 78, delta_L = 72, L = 43, find poisson ratio.",
+     "a": "0.0336895",
+     "self_check": false
+    },
+    {
+     "q": "For Poisson's Ratio: given delta_d = 33, d = 82, delta_L = 74, L = 20, find poisson ratio.",
+     "a": "0.108767",
+     "self_check": false
+    },
+    {
+     "q": "For Poisson's Ratio: given delta_d = 60, d = 72, delta_L = 100, L = 35, find poisson ratio.",
+     "a": "0.291667",
+     "self_check": false
+    },
+    {
+     "q": "For Poisson's Ratio: given delta_d = 12.2, d = 5.6, delta_L = 21, L = 51, find poisson ratio.",
+     "a": "5.29082",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

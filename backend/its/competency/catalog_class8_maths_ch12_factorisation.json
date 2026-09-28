@@ -21,7 +21,7 @@
     "what is an irreducible factor",
     "find the factors of the algebraic expression"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -38,7 +38,16 @@
      "action": "state the irreducible form",
      "explain": "The final answer is a product of irreducible factors"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 8 + 3 gives 27",
+     "compute": "val = 3 * 8 + 3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c8m12.2.2",
@@ -57,7 +66,7 @@
     "factorise 5xy + 10x",
     "take out the common factor"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -74,7 +83,16 @@
      "action": "apply the distributive law",
      "explain": "common factor x (remaining factors of each term added)"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
+     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 7 * 1 gives 7",
+     "compute": "hcf = 7 * 1"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c8m12.2.3",
@@ -93,7 +111,7 @@
     "factorise by grouping the terms",
     "factorise 10ab + 4a + 5b + 2"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -115,7 +133,28 @@
      "action": "take out the common bracket",
      "explain": "The common bracket expression times the sum of the leftovers"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the number-play rule digit by digit",
+     "explain": "apply the number-play rule digit by digit: big = 9 * 1000 + 7 * 100 + 7 * 10 + 6 gives 9776",
+     "compute": "big = 9 * 1000 + 7 * 100 + 7 * 10 + 6"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the number-play rule digit by digit: small = 6 * 1000 + 7 * 100 + 7 * 10 + 9 gives 6779",
+     "compute": "small = 6 * 1000 + 7 * 100 + 7 * 10 + 9"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the number-play rule digit by digit: diff = big - small gives 2997",
+     "compute": "diff = big - small"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c8m12.2.4",
@@ -135,7 +174,7 @@
     "factorise m to the power 4 - 256",
     "factorise the perfect square trinomial"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -157,7 +196,16 @@
      "action": "repeat if factors factorise again",
      "explain": "e.g. m^4 - 256 = (m - 4)(m + 4)(m^2 + 16)"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "expand with the algebraic identity and evaluate",
+     "explain": "expand with the algebraic identity and evaluate: val = 8 * 8 + 2 * 8 * 9 + 9 * 9 gives 289",
+     "compute": "val = 8 * 8 + 2 * 8 * 9 + 9 * 9"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c8m12.2.5",
@@ -176,7 +224,7 @@
     "factorise by splitting the middle term",
     "factorise of the form x plus a times x plus b"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -198,7 +246,16 @@
      "action": "group and factor",
      "explain": "x(x + a) + b(x + a) = (x + a)(x + b)"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "expand with the algebraic identity and evaluate",
+     "explain": "expand with the algebraic identity and evaluate: val = 12 * 12 + 2 * 12 * 3 + 3 * 3 gives 225",
+     "compute": "val = 12 * 12 + 2 * 12 * 3 + 3 * 3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c8m12.3.1",
@@ -252,7 +309,7 @@
     "work out the division 10x - 25 by 5",
     "split the polynomial into its separate terms and carry out the division for every one of them"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -269,7 +326,16 @@
      "action": "add the quotients",
      "explain": "The sum of the quotients is the answer"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 4 + 2 gives 14",
+     "compute": "val = 3 * 4 + 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c8m12.4.1",
@@ -288,7 +354,7 @@
     "divide z of 5z squared - 80 by 5z(z + 4)",
     "cancel the common factors to divide"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -310,7 +376,16 @@
      "action": "multiply the remainder factors",
      "explain": "The product of the leftover factors is the quotient"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
+     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 12 * 1 gives 12",
+     "compute": "hcf = 12 * 1"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

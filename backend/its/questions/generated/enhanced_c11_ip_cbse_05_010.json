@@ -32,7 +32,27 @@
     },
     {
      "q": "Design a user-defined module `temperature.py` that provides two functions: `c_to_f(celsius)` and `f_to_c(fahrenheit)`. Include a test block that prints a conversion table for 0°C to 100°C in steps of 10°C when the module is run directly, but does nothing when imported. Write the complete code.",
-     "a": "```python",
+     "a": "```python\n# temperature.py\ndef c_to_f(c):\n    return c * 9/5 + 32\n\ndef f_to_c(f):\n    return (f - 32) * 5/9\n\nif __name__ == '__main__':\n    print(\"°C\\t°F\")\n    for c in range(0, 101, 10):\n        print(f\"{c}\\t{c_to_f(c):.1f}\")\n```\nA poor answer omits the `if __name__ == '__main__':` guard, uses incorrect formulas, or fails to format the table, revealing gaps in module structure, formula translation, or the guard's purpose.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A user-defined module in Python is a .py file containing function definitions, variables, and executable code that can be imported into another Python script using the import statement, enabling code reuse and modular ______.",
+     "a": "organization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a school library management system.",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently create a .py file with multiple functions, import it into a separate driver script using import module_name, correctly call the imported functions with arguments, and explain the role of __name__ == '__main__' in preventing test code execution during import.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a school library ______ system.",
+     "a": "management",
      "self_check": true
     }
    ]

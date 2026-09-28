@@ -34,6 +34,36 @@
      "q": "Create a real-world scenario (Indian context) where CHRONOLOGICAL classification would be inappropriate but SPATIAL classification would be ideal. Explain why chronological fails and spatial succeeds for your chosen variable.",
      "a": "Scenario: A government agency wants to analyse the 'literacy rate across Indian states in 2023'. Chronological classification (arranging by time: 2011, 2012, ... 2023) fails because the research question is about CROSS-SECTIONAL geographic variation at a SINGLE time point, not temporal trend. Spatial classification (grouping by state/region: Kerala 96%, Bihar 62%, etc.) succeeds because the variable 'literacy rate' varies meaningfully across geography, and the policy need is to identify regional disparities. A poor answer (e.g., \"chronological works for everything\" or choosing a time-series variable like \"India's GDP over 20 years\") reveals inability to match classification basis to the analytical objective.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Classification of data is the systematic process of arranging raw, unorganised observations into homogeneous groups or classes based on shared ______ or criteria, thereby transforming disorganised raw data into a structured format that facilitates comparison, analysis, and meaningful interpretation.",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class ______ handed a sheet with the Mathematics marks of all 60 students in your class—written in the order they sat for the exam, completely jumbled.",
+     "a": "representative",
+     "self_check": true
+    },
+    {
+     "q": "What is Classification of data? State the definition given in this lesson.",
+     "a": "Classification of data is the systematic process of arranging raw, unorganised observations into homogeneous groups or classes based on shared characteristics or criteria, thereby transforming disorganised raw data into a structured format that facilitates comparison, analysis, and meaningful interpretation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the class representative handed a sheet with the Mathematics marks of all ______ students in your class—written in the order they sat for the exam, completely jumbled.",
+     "a": "60",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Classification of data?",
+     "a": "Students believe that 'classification' and 'frequency distribution' are synonymous—they think constructing a frequency table with tally marks IS classification.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently classify a given raw dataset using appropriate criteria (chronological, geographical, qualitative, or quantitative), justify the choice of classification method, and explain how classification enables further statistical analysis while acknowledging the inherent loss of information.",
+     "self_check": true
     }
    ]
   }

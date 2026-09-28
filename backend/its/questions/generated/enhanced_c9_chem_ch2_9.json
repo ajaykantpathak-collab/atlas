@@ -34,6 +34,36 @@
      "q": "Design a method to distinguish between a sample of ⁴⁰₁₈Ar gas and ⁴⁰₂₀Ca metal in the laboratory without using nuclear instrumentation. Explain the chemical principle behind each test.",
      "a": "Test 1: React with water - calcium reacts vigorously producing H₂ gas and Ca(OH)₂; argon shows no reaction. Principle: Chemical reactivity depends on valence electrons (Ca has 2, Ar has 8). Test 2: Flame test - calcium gives brick-red flame; argon gives no flame color (noble gas). Principle: Electron transitions differ. Test 3: Electrical conductivity - calcium conducts; argon does not. Principle: Metallic bonding vs van der Waals. A poor answer suggesting mass spectrometry or density measurements misses the point - the question asks for chemical distinction using atomic number differences, not nuclear methods.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Isobars are atoms of different ______ that have the same mass number (total number of protons plus neutrons) but different atomic numbers (number of protons).",
+     "a": "elements",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by showing students two different ______ - argon gas in fluorescent tubes and calcium in milk/chalk - and ask how they could possibly be related.",
+     "a": "elements",
+     "self_check": true
+    },
+    {
+     "q": "What is Isobars? State the definition given in this lesson.",
+     "a": "Isobars are atoms of different elements that have the same mass number (total number of protons plus neutrons) but different atomic numbers (number of protons).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have students calculate protons and neutrons for ⁴⁰₁₈Ar and ⁴⁰₂₀Ca to discover they both total ______ nucleons.",
+     "a": "40",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Isobars?",
+     "a": "Students confuse isobars with isotopes by thinking \"same mass number\" applies to the same element.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify isobar pairs from given nuclear notation, explain why isobars have different chemical properties despite same mass number, and distinguish isobars from isotopes using atomic number and mass number.",
+     "self_check": true
     }
    ]
   }

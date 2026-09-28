@@ -34,6 +34,26 @@
      "q": "Design a classroom demonstration using a rotating stool, two 2-kg dumbbells, and a motion sensor to verify angular momentum conservation. Specify measurements, calculations, and how to account for friction. What graph would you plot to show L is constant?",
      "a": "Procedure: Student sits on stool holding dumbbells at arms' length (R ≈ 0.8 m). Assistant gives gentle spin. Motion sensor records ω(t) as student pulls dumbbells to chest (r ≈ 0.2 m). Measure: initial ω_i, final ω_f, time to pull. Calculate I_i = I_stool + 2mR², I_f = I_stool + 2mr². Compute L_i = I_iω_i, L_f = I_fω_f. Account for friction: measure ω decay with arms fixed (no pulling) to get τ_fric = I(dω/dt). During pull, corrected L_f = L_i - ∫τ_fric dt. Plot L(t) vs t – should be horizontal line (constant) if friction negligible, or linear decrease if friction constant. A poor design measures only ω and claims \"ω increased so L increased\" – confusing ω with L. A good answer specifies measuring moment of inertia independently (e.g., by torsion pendulum method) and correcting for friction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Angular momentum (L) of a particle about a point O is the cross product of its ______ vector r (from O to the particle) and its linear momentum p = mv: L = r × p.",
+     "a": "position",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ office chair: sit with arms outstretched holding weights, have someone spin you gently, then pull arms in – you spin faster.",
+     "a": "rotating",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can calculate angular momentum of a particle/system using cross product, determine if angular momentum is conserved in a given physical situation by analyzing external torques, and apply conservation law (I₁ω₁ = I₂ω₂) to solve rotational dynamics problems involving changing moment of inertia.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a rotating office chair: sit with arms ______ holding weights, have someone spin you gently, then pull arms in – you spin faster.",
+     "a": "outstretched",
+     "self_check": true
     }
    ]
   }

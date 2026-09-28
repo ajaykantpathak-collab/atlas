@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_03_003",
+   "title": "c11_app_cbse_03_003",
+   "questions": [
+    {
+     "q": "Write the set A = {x : x ∈ ℕ and 2 ≤ x ≤ 7} in roster form.",
+     "a": "A = {2, 3, 4, 5, 6, 7}. A wrong answer like {2, 3, 4, 5, 6} or {1, 2, 3, 4, 5, 6, 7} reveals the student doesn't understand that ℕ starts at 1 (so 1 is excluded by 2 ≤ x) and that inequalities are inclusive (≤ means 7 is included). This tests basic recall of ℕ definition and inequality interpretation in set-builder notation.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the set of all even integers as E = {2, 4, 6, 8, ...}. Explain why this roster form is mathematically incorrect for the *complete* set of even integers, and write the correct representation in set-builder form.",
+     "a": "The roster form {2, 4, 6, 8, ...} only shows positive even integers; it omits 0, -2, -4, ... and cannot list all infinitely many elements in both directions. The correct set-builder form is E = {x : x = 2k, k ∈ ℤ} or E = {x ∈ ℤ : x is even}. A wrong answer that accepts the ellipsis reveals the misconception that \"...\" magically completes infinite sets in roster form — it doesn't; roster form requires *explicit* listing of *all* elements, which is impossible for infinite sets.",
+     "self_check": true
+    },
+    {
+     "q": "Convert the set B = {1, 1/2, 1/3, 1/4, 1/5} into set-builder form.",
+     "a": "B = {x : x = 1/n, n ∈ ℕ, 1 ≤ n ≤ 5} or {1/n : n ∈ ℕ, n ≤ 5}. Steps: (1) Observe pattern: reciprocals of natural numbers. (2) Identify domain: n = 1,2,3,4,5. (3) Write general term: 1/n. (4) Specify condition on n. A wrong answer like {x : x = 1/n, n ∈ ℕ} (missing upper bound) reveals the student misses that the set is *finite* (only 5 elements), so the condition on n must be bounded.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sets C = {x : x ∈ ℝ, x² = 4} and D = {x : x ∈ ℕ, x² = 4}. Are they equal? Justify.",
+     "a": "No, they are not equal. C = {-2, 2} (since ℝ includes negatives), D = {2} (since ℕ = {1,2,3,...} excludes -2). The defining property x²=4 is the same, but the **universal set** (domain) differs: ℝ vs ℕ. A wrong answer claiming equality reveals the critical misconception that the condition alone defines the set — the domain (ℕ, ℤ, ℚ, ℝ) is an *essential part* of set-builder notation and changes the set.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The set of all rational numbers between 0 and 1 can be written in roster form as {1/2, 1/3, 2/3, 1/4, 3/4, ...}.\" Evaluate this claim. Is it valid? Why or why not?",
+     "a": "The claim is **invalid**. Between any two rationals lie infinitely many rationals (density of ℚ), so the set is infinite and *cannot* be listed exhaustively — roster form is impossible. The ellipsis \"...\" falsely suggests a listable sequence, but ℚ ∩ (0,1) is uncountably dense. Correct representation: {x ∈ ℚ : 0 < x < 1}. A student who accepts the claim confuses \"pattern observable\" with \"listable in roster form\" — a fundamental misunderstanding of infinite sets and roster form limitations.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) that generates a set which *must* be written in set-builder form because roster form is impossible. Write the set in both forms (roster attempt and correct set-builder) and explain why roster fails.",
+     "a": "**Scenario:** \"All possible UPI transaction amounts (in ₹) between ₹1 and ₹10000, including paise.\"  \n**Roster attempt:** {1.00, 1.01, 1.02, ..., 9999.99, 10000.00} — fails because there are 999,901 values (finite but impractically large to list) and more importantly, amounts can have arbitrary decimal precision (₹1.001, ₹1.0001...) making it effectively infinite.  \n**Correct set-builder:** {x ∈ ℝ : 1 ≤ x ≤ 10000} or {x = n/100 : n ∈ ℕ, 100 ≤ n ≤ 1000000} for 2-decimal precision.  \n**Why roster fails:** Even if finite, roster form is for *explicit enumeration* — not for sets with hundreds of thousands of elements. A poor answer lists a small finite set (e.g., cricket scores) showing the student doesn't grasp the *scale* or *continuity* that forces set-builder notation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

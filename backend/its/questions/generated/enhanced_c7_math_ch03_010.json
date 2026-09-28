@@ -34,6 +34,26 @@
      "q": "Create a decimal number between $\\frac{1}{2}$ and $\\frac{3}{5}$ and write it both as a decimal and as a simplified fraction.",
      "a": "An acceptable answer is $0.55$ (or $\\frac{55}{100} = \\frac{11}{20}$), because $\\frac{1}{2} = 0.50$ and $\\frac{3}{5} = \\frac{6}{10} = 0.60$, and $0.55$ lies strictly between them. A poor answer would choose a number outside this range (like $0.45$ or $0.65$), showing a failure to properly compare fractions and decimals on a number line.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ decimals as fractions and vice versa is the mathematical process of converting numbers written in decimal notation (using a decimal point) into fractions (with a numerator and a denominator that is a power of 10) and the reverse, maintaining the exact same numerical value.",
+     "a": "Representing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To figure out if you bought the right amount, you need a way to ______ between decimals and fractions.",
+     "a": "translate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Representing decimals as fractions and vice versa is the mathematical process of converting numbers written in decimal notation (using a decimal point) into fractions (with a numerator and a denominator that is a power of ______) and the reverse, maintaining the exact same numerical value.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can convert any terminating decimal to a simplified fraction in lowest terms, and convert any fraction with a denominator that is a power of 10 (or convertible to one) into a precise decimal number.",
+     "self_check": true
     }
    ]
   }

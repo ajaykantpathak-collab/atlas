@@ -34,6 +34,26 @@
      "q": "Create an AP with first term -3 and common difference 1/2. Write the first 6 terms. Then create a different AP that has the same 4th term as your first AP but a different common difference. State both APs clearly.",
      "a": "First AP: -3, -2.5, -2, -1.5, -1, -0.5 (4th term = -1.5).  \nSecond AP example: first term 0, common difference -0.5 → 0, -0.5, -1, -1.5, -2, -2.5 (4th term = -1.5).  \nA poor answer (e.g., unable to generate terms with fractional *d*, or second AP not matching the 4th term) reveals difficulty with negative/fractional common differences and inability to work backwards from a term to construct an AP.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An Arithmetic ______ (AP) is a sequence of numbers in which each term after the first is obtained by adding a fixed number, called the common difference (denoted by *d*), to the preceding term.",
+     "a": "Progression",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You notice each day you save ₹5 more than the ______ day.",
+     "a": "previous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You notice each day you save ₹______ more than the previous day.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify whether a given sequence is an AP by verifying constant difference between consecutive terms, compute the common difference from any two consecutive terms, and write the next three terms of an AP given the first term and common difference or given any two terms.",
+     "self_check": true
     }
    ]
   }

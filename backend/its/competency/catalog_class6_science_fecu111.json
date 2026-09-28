@@ -127,7 +127,7 @@
     "list your day's actions that save resources",
     "why is india called a leader in renewable energy"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -144,7 +144,16 @@
      "action": "apply it",
      "explain": "Use the idea on a new example from your surroundings."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "conserve = reduce + reuse + recycle + renew",
+     "compute": "conserve = reduce + reuse + recycle + renew"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

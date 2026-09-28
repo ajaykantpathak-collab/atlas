@@ -34,6 +34,31 @@
      "q": "Design a fluorescence microscopy experiment to distinguish protein storage vacuoles (PSV) from lytic vacuoles in the same plant cell. Specify two fluorescent probes, their targets, and expected localization patterns.",
      "a": "Use GFP-tagged storage protein (e.g., phaseolin) → accumulates in PSV; and a fluorescent dye for hydrolytic enzymes (e.g., Magic Red cathepsin substrate) → labels lytic vacuoles. PSVs show peripheral fluorescence (storage proteins); lytic vacuoles show central fluorescence (active hydrolases). A poor answer uses only one probe or targets non-specific markers (e.g., tonoplast alone), failing to differentiate the two vacuole types coexisting in one cell.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Vacuoles are membrane-bound organelles (tonoplast) in plant, fungal, and some animal cells that function in storage, turgor maintenance, and degradation; peroxisomes are ER-derived, single-membrane microbodies containing oxidative enzymes (catalase, oxidases) for lipid metabolism, ______, and detoxification, lacking their own genome.",
+     "a": "photorespiration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a wilted spinach leaf that becomes crisp after watering — what ______ change caused this?",
+     "a": "cellular",
+     "self_check": true
+    },
+    {
+     "q": "What is Vacuoles? State the definition given in this lesson.",
+     "a": "Vacuoles are membrane-bound organelles (tonoplast) in plant, fungal, and some animal cells that function in storage, turgor maintenance, and degradation; peroxisomes are ER-derived, single-membrane microbodies containing oxidative enzymes (catalase, oxidases) for lipid metabolism, photorespiration, and detoxification, lacking their own.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by visualizing a young plant cell with many small vacuoles that fuse into one giant central vacuole occupying ______% volume.",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can distinguish vacuole types (central, lytic, protein storage, contractile) by function and organism, explain peroxisome biogenesis from ER and fission, and describe the metabolic cooperation between glyoxysomes, mitochondria, and plastids during seed germination with correct enzyme names.",
+     "self_check": true
     }
    ]
   }

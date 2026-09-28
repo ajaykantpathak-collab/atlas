@@ -34,6 +34,26 @@
      "q": "Design a classroom demonstration using a smartphone camera and two observation points to simulate stellar parallax. Specify the baseline, the \"star\" distance, how to measure the parallax angle from photos, and how to calculate the distance. What are the limitations of this model compared to real astronomical parallax?",
      "a": "Place a small LED (\"star\") 5 m away. Take photos from two positions 1 m apart (baseline). On the photos, measure the pixel shift of the LED relative to a distant background wall. Calibrate pixel-to-angle using the camera's field of view. Compute θ (rad) = pixel_shift × (FOV_rad / image_width_px). Then d = b/θ. Limitations: (1) Baseline/star distance ratio is huge compared to astronomy (1/5 vs 1 AU/1 pc ≈ 1/206265), so angle is large and small-angle approximation not needed. (2) Background wall is not at infinity, introducing its own parallax. (3) Lens distortion and pixel quantization errors dominate. A poor design ignores calibration or background distance.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The parallax method measures large distances by observing the apparent shift (parallax angle) of a distant object when viewed from two separated ______ points (baseline).",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Hold your thumb at arm's length and view it with one eye closed, then switch eyes — your thumb appears to shift against the ______ wall.",
+     "a": "background",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This everyday parallax is the same principle astronomers use: instead of two eyes, they use Earth's position six months apart (baseline = ______ AU).",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can calculate the distance to a star in meters and parsecs given its parallax angle in arcseconds, correctly converting units and using the small-angle approximation d = b/θ.",
+     "self_check": true
     }
    ]
   }

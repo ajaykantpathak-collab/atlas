@@ -1,0 +1,56 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_04_006",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_04_006",
+   "title": "c12_soc_cbse_04_006",
+   "questions": [
+    {
+     "q": "What is the fundamental sociological difference between viewing land as a \"factor of production\" (economics) and viewing land as a \"socially embedded resource\" (sociology)?",
+     "a": "Economics treats land as a factor of production with a market-determined price reflecting scarcity and productivity; sociology treats land as a resource whose access, control, and transfer are mediated by non-economic relations — caste hierarchy, kinship obligations, state patronage, and historical dispossession. A wrong answer that says \"sociology just adds culture to economics\" reveals the misconception that embeddedness is an \"add-on\" rather than a constitutive feature of how land markets actually operate.",
+     "self_check": true
+    },
+    {
+     "q": "In the colonial zamindari system, the British recognised zamindars as \"owners\" of land. Explain why this was a sociological transformation, not just a legal change, for the actual cultivators.",
+     "a": "Pre-colonially, cultivators held customary occupancy rights with layered claims (village community, local ruler, cultivator); the zamindari system converted these into a single private property right vested in the zamindar, turning cultivators into tenants-at-will. This restructured power: the zamindar could now evict, raise rents arbitrarily, and use state coercion for revenue collection. A wrong answer focusing only on \"higher taxes\" misses the fundamental shift from layered social claims to absolute private property — the moment land became a pure commodity.",
+     "self_check": true
+    },
+    {
+     "q": "A landowner in Punjab leases 5 hectares to a tenant under a fixed-rent contract (₹30,000/year). The tenant invests in a tubewell and shifts to high-value vegetables, raising annual profit from ₹50,000 to ₹2,00,000. The landowner now wants to terminate the lease and cultivate directly. Using the concept of \"reverse tenancy,\" explain why this scenario is sociologically significant.",
+     "a": "Reverse tenancy occurs when landowners lease out land but retain effective control — or reclaim it — when tenancy becomes profitable for the tenant. Here, the landowner's desire to terminate reflects class power: the tenant's innovation created value, but the landowner captures it via property rights. This shows tenancy is not a voluntary contract between equals but a relation shaped by asymmetric power. A wrong answer that says \"the contract allows it\" ignores how legal formalism masks structural coercion.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of land ceiling laws in West Bengal (Operation Barga) versus Andhra Pradesh. Why did tenancy reform succeed better in West Bengal despite similar legislation?",
+     "a": "West Bengal combined ceiling surplus redistribution with Operation Barga (registration of sharecroppers), giving tenants legal recognition and hereditary rights — backed by Left Front mobilisation of peasant unions. Andhra Pradesh implemented ceilings but lacked effective tenant registration and faced dominant-caste resistance (Reddys/Kammas) who used benami transfers and political clout. Success required not just law but organised collective action altering the balance of power. A wrong answer citing \"better implementation\" without naming the political agency (peasant mobilisation vs. elite capture) misses the sociological core.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the argument: \"Liberalising land lease markets will improve agricultural efficiency by allowing land to flow to the most productive cultivators.\"",
+     "a": "This assumes a level playing field: that smallholders, Dalits, and women can negotiate leases on equal terms with corporate actors. In reality, liberalisation enables \"land grabbing\" via long-term leases (e.g., 99-year contracts for SEZs), displacing tenants without compensation. Efficiency gains accrue to capital; social costs (loss of food sovereignty, commons, caste-based livelihoods) are externalised. A wrong answer that accepts \"efficiency\" as neutral ignores how markets reproduce inequality when embedded in unequal power structures.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical case study of a village where a new highway triggers land sales. Specify: (a) three social groups with different landholding patterns, (b) how each group's decision to sell/hold is shaped by non-market factors, and (c) one unintended consequence for the village social structure.",
+     "a": "(a) Group 1: Dominant-caste large landowners (10+ ha) — sell selectively to developers, retain political clout. Group 2: OBC marginal farmers (1-2 ha) — sell under debt pressure, lose livelihood. Group 3: Dalit landless labourers — no land to sell, lose wage work as farming shrinks. (b) Non-market factors: Group 1 uses caste networks to get advance info; Group 2 lacks credit access, forced distress sale; Group 3 excluded from compensation talks. (c) Unintended consequence: breakdown of patron-client ties (jajmani-like labour arrangements), out-migration of youth, rise of caste tensions as Dalits demand MNREGA work. A poor answer lists only economic reasons (price, profit) and omits caste, gender, and political mediation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The market for land refers to the socially embedded system of ______ through which rights to use, control, and transfer land are exchanged — whether through sale, lease, mortgage, or tenancy — shaped by power relations, caste hierarchies, state policies, and historical legacies rather than purely by supply-demand mechanics.",
+     "a": "transactions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a Dalit family in a Tamil Nadu village who have worked the same plot for three generations as ______ — they give half the harvest to the landlord, a dominant-caste landowner.",
+     "a": "sharecroppers",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how land becomes a commodity in India by tracing the historical shift from land as a social resource with layered rights to land as a transferable asset, and can analyse a specific tenancy arrangement (e.g., sharecropping in a particular region) to show how caste, class, and state policy intersect in determining.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

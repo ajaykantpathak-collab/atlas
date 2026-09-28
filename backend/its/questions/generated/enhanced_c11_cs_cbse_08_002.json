@@ -34,6 +34,21 @@
      "q": "Create a function definition for `is_even` that takes an integer parameter `n` and returns `True` if `n` is even, `False` otherwise. Include a docstring that explains the function's purpose, parameter, and return value.",
      "a": "```python\ndef is_even(n):\n    \"\"\"Return True if n is an even integer, False otherwise.\n    \n    Args:\n        n (int): The integer to check.\n    \n    Returns:\n        bool: True if n is even, False if n is odd.\n    \"\"\"\n    return n % 2 == 0\n```\nA good answer includes the `def` line with one parameter, a proper docstring (triple quotes), and a correct Boolean expression using modulo. A poor answer may omit the docstring, use `print` instead of `return`, or write an incorrect condition (e.g., `n / 2 == 0`), indicating confusion about return vs. print or even/odd logic.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A function in Python is a named, reusable block of code that performs a specific task, defined using the def keyword followed by the function name, a parameter list in ______, a colon, and an indented body containing the executable statements.",
+     "a": "parentheses",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a program for a school library to ______ late-return fines.",
+     "a": "calculate",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write a syntactically correct function definition using def with appropriate parameters, a docstring, and a body, and explain the role of each component (keyword, name, parameters, colon, indentation, docstring, and statements).",
+     "self_check": true
     }
    ]
   }

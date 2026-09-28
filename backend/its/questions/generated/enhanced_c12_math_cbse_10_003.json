@@ -34,6 +34,16 @@
      "q": "Create a real-life problem (Indian context) involving addition of two vectors where the angle between them is not 0° or 90°. Provide the full solution using both triangle and parallelogram laws.",
      "a": "Example: A cyclist rides 3 km east, then turns 30° north of east and rides 4 km. Find the displacement from start. Solution: Use triangle law: draw 3 km east, then 4 km at 30° from east. Resultant magnitude \\(R = \\sqrt{3^2+4^2+2\\cdot3\\cdot4\\cos30°} = \\sqrt{9+16+12\\sqrt{3}} \\approx 6.77\\) km. Direction \\(\\tan\\phi = \\frac{4\\sin30°}{3+4\\cos30°} = \\frac{2}{3+2\\sqrt{3}} \\approx 0.309\\), \\(\\phi \\approx 17.2°\\) north of east. Parallelogram law gives the same. A poor answer would omit the diagram, use wrong angle, or add magnitudes directly.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The triangle law of vector addition states that if two vectors are represented as two sides of a triangle taken in order, their sum (______) is represented by the third side taken in the reverse order.",
+     "a": "resultant",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a boat crossing a river: the boat’s engine gives it a velocity of 10 km/h ______ to the bank, while the river current adds a velocity of 5 km/h parallel to the bank.",
+     "a": "perpendicular",
+     "self_check": true
     }
    ]
   }

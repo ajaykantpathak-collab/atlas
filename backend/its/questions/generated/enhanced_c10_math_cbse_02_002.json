@@ -34,6 +34,21 @@
      "q": "Create a real-life situation (Indian context) that can be modeled by a linear polynomial \\(p(x) = ax + b\\) where \\(a < 0\\) and \\(b > 0\\). State what the zero represents in your situation and find the zero if \\(a = -20\\) and \\(b = 500\\).",
      "a": "Example: A water tank has 500 litres and leaks at 20 litres per hour. Amount left after \\(x\\) hours: \\(y = 500 - 20x\\). Here \\(a = -20\\), \\(b = 500\\). Zero: \\(500 - 20x = 0 \\Rightarrow x = 25\\) hours. The zero represents the time when the tank becomes empty. A poor answer might give a situation with \\(a > 0\\) (e.g., saving money) showing they don't understand the condition \\(a < 0\\). Or they might find zero as \\(x = -25\\) (sign error) showing algebraic weakness. A good answer includes correct context, correct interpretation of zero, and correct calculation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are tracking your ______: you start with ₹500 and spend ₹50 every week.",
+     "a": "savings",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "They can also construct a linear polynomial given its zero.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ your savings: you start with ₹500 and spend ₹50 every week.",
+     "a": "tracking",
+     "self_check": true
     }
    ]
   }

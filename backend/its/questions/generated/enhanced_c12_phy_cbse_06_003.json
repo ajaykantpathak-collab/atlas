@@ -34,6 +34,31 @@
      "q": "Design a simple classroom demonstration of motional EMF using only a strong neodymium magnet, a 30 cm aluminium ruler, a sensitive galvanometer (or a phone with a magnetic sensor app), and connecting wires. Describe the procedure, the expected observation, and how you would verify the \\( \\mathcal{E} \\propto v \\) relationship.",
      "a": "**Procedure:** Connect the ruler's ends to the galvanometer via wires. Hold the magnet vertically. Sweep the ruler horizontally through the magnetic field near the magnet's pole, keeping the ruler perpendicular to both motion and field. Vary the sweep speed.  \n**Observation:** Galvanometer deflects during motion; direction reverses if motion reverses. Faster sweep → larger deflection.  \n**Verification:** Use a phone's accelerometer to measure peak speed \\( v \\), or use a ramp to give reproducible speeds. Plot galvanometer deflection (proportional to current \\( I = \\mathcal{E}/R \\)) vs \\( v \\); straight line through origin confirms \\( \\mathcal{E} \\propto v \\).  \nA poor answer (e.g., rotating the magnet near a stationary ruler) tests transformer EMF, not motional EMF, showing confusion between the two mechanisms.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Motional EMF is the ______ force induced across the ends of a conductor moving through a magnetic field due to the magnetic component of the Lorentz force acting on free charge carriers.",
+     "a": "electromotive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bicycle dynamo: when the wheel spins, a small roller touches the tire and a voltage lights the bulb — no battery, just motion in a ______ field.",
+     "a": "magnetic",
+     "self_check": true
+    },
+    {
+     "q": "What is Motional EMF? State the definition given in this lesson.",
+     "a": "Motional EMF is the electromotive force induced across the ends of a conductor moving through a magnetic field due to the magnetic component of the Lorentz force acting on free charge carriers.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Motional EMF?",
+     "a": "Misconception: \"Motional EMF and induced EMF from a time-varying magnetic field are the same thing; both are just Faraday's law.\" Why it's wrong: They have different physical origins.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can derive motional EMF using both the flux-cutting approach (Faraday's law) and the Lorentz force approach, calculate the EMF for rods in translational and rotational motion, determine the polarity of the induced EMF using Fleming's right-hand rule or Lenz's law, and solve problems involving motional EMF in closed circuits with.",
+     "self_check": true
     }
    ]
   }

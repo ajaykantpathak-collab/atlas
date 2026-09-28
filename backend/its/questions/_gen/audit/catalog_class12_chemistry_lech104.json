@@ -1,0 +1,56 @@
+{
+ "catalog": "catalog_class12_chemistry_lech104.json",
+ "concepts": [
+  {
+   "id": "lech.04.4.3.6",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "unpaired_electrons = 64",
+      "moment_bm = sqrt(unpaired_electrons * (unpaired_electrons + 2))"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "unpaired_electrons = 72",
+      "moment_bm = sqrt(unpaired_electrons * (unpaired_electrons + 2))"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "unpaired_electrons = 58",
+      "moment_bm = sqrt(unpaired_electrons * (unpaired_electrons + 2))"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "unpaired_electrons = 57",
+      "moment_bm = sqrt(unpaired_electrons * (unpaired_electrons + 2))"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "unpaired_electrons = 50",
+      "moment_bm = sqrt(unpaired_electrons * (unpaired_electrons + 2))"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "unpaired_electrons = 90",
+      "moment_bm = sqrt(unpaired_electrons * (unpaired_electrons + 2))"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "moment_bm = sqrt(unpaired_electrons * (unpaired_electrons + 2))"
+   ]
+  }
+ ]
+}

@@ -34,6 +34,21 @@
      "q": "Construct a numerical example where GDPmp > GNPmp but NDPfc < NNPfc. Explain how this is possible.",
      "a": "Impossible. GDPmp > GNPmp ⇔ NFIA < 0. NDPfc = GDPmp – CFC – NIT. NNPfc = GNPmp – CFC – NIT = GDPmp + NFIA – CFC – NIT. Since NFIA < 0, NNPfc = NDPfc + NFIA < NDPfc. So NDPfc < NNPfc cannot happen when NFIA < 0. The student who produces an \"example\" has made a sign error or arithmetic mistake. A correct answer proves the contradiction algebraically.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Gross and Net aggregates differ by consumption of fixed capital (______): Net = Gross – Consumption of Fixed Capital.",
+     "a": "depreciation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Your machines wear out each year (______) — that is the difference between your gross output value and net value added.",
+     "a": "depreciation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) derive any aggregate from another using depreciation and NFIA with correct signs, (2) explain why NDPfc is the domestic territory's factor income and NNPfc is the national income, and (3) solve numerical problems where two aggregates are given and the third must be found using the identity chain.",
+     "self_check": true
     }
    ]
   }

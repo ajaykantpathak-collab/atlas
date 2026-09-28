@@ -34,6 +34,31 @@
      "q": "Create a novel debenture instrument for a hypothetical Indian infrastructure company \"Bharat Infra Ltd.\" that combines THREE unusual features from different classification bases to attract pension fund investors. Name the instrument, specify all terms, and justify why each feature appeals to a pension fund's ALM (Asset-Liability Management) needs.",
      "a": "Expected answer (example): **\"Bharat Infra 20-Year Step-Up Secured Convertible Debenture\"**\n- **Security**: First charge on toll road revenue receivables (Secured) — matches pension fund preference for asset-backed, predictable cash flows.\n- **Tenure**: 20 years with bullet redemption (Redeemable, Long-term) — matches long-duration pension liabilities (e.g., annuity payouts).\n- **Coupon**: Step-up rate: 6% years 1-5, 7% years 6-10, 8% years 11-15, 9% years 16-20 (Fixed but stepped) — provides increasing income to match inflation-linked pension payouts.\n- **Convertibility**: Optional conversion to equity at year 15 at fixed ratio (Partially Convertible) — gives upside if company grows, but not forced.\n- **Registration**: Registered, held in demat (Registered) — regulatory compliance for institutional holders.\n- **Priority**: First Debentures — highest recovery in distress.\nJustification: Pension funds need *duration matching* (20-year bullet), *inflation protection* (step-up coupons), *capital preservation* (secured, first charge), and *optional upside* (conversion). A poor answer lists generic features without linking to ALM concepts (duration, convexity, cash flow matching, regulatory constraints) — showing inability to apply classification knowledge to real-world financial engineering.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A debenture is a written instrument ______ a debt under the common seal of a company, containing a contract for repayment of principal after a specified period or at intervals, and payment of interest at a fixed rate payable usually half-yearly or annually on fixed dates.",
+     "a": "acknowledging",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a fast-growing ______ EV startup, \"Volt Motors Ltd.\", needs ₹500 crore to build a new battery plant.",
+     "a": "Indian",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The promoters don't want to dilute their ownership by issuing more shares, and bank loans are too expensive at ______% with strict covenants.",
+     "a": "12",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) define debenture using precise NCERT terminology including the three critical elements (written instrument, common seal, contract for repayment), (2) distinguish debentures from shares on at least five parameters (ownership, return, voting rights, security, priority at winding up), and (3) classify any.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a fast-growing Indian EV startup, \"Volt Motors Ltd.\", needs ₹500 crore to build a new battery plant.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

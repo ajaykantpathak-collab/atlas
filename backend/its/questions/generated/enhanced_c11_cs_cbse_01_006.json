@@ -34,6 +34,31 @@
      "q": "Design a real-world analogy for the memory hierarchy: Registers → Cache → RAM → Secondary Storage. Assign each level a familiar object (e.g., a notepad, a backpack, a library) and justify the mapping based on speed, capacity, and volatility.",
      "a": "Example: Registers = CPU's immediate working hands (instant, tiny); Cache = a small whiteboard on the desk (very fast, small, wiped clean when power off); RAM = a notebook on the desk (fast, moderate size, loses data if power lost); Secondary Storage = a library shelf (slow to access, huge capacity, permanent). A poor analogy (e.g., swapping speeds or ignoring volatility) shows the student hasn't internalised the trade-offs between speed, size, and persistence.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Primary memory is the main memory directly accessible by the CPU for storing data and ______ currently being processed.",
+     "a": "instructions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are editing a large video project on your ______.",
+     "a": "computer",
+     "self_check": true
+    },
+    {
+     "q": "What is Primary memory? State the definition given in this lesson.",
+     "a": "Primary memory is the main memory directly accessible by the CPU for storing data and instructions currently being processed.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Primary memory?",
+     "a": "Students often believe that \"primary memory\" means only RAM, and that ROM is a separate category not part of primary memory.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) distinguish between RAM and ROM based on volatility, access type, and function; (2) convert between memory units (bits, nibbles, bytes, KB, MB, GB, TB) using powers of 1024; (3) explain why cache memory is needed between CPU and RAM.",
+     "self_check": true
     }
    ]
   }

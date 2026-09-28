@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (using Indian context: rupees, metres, etc.) that requires finding the area of a parallelogram where the height is not directly given but must be deduced from other information (e.g., using a right triangle within the parallelogram). Provide the problem statement and a solution outline.",
      "a": "Example problem: \"A parallelogram-shaped field has base 20 m and slanted side 13 m. The perpendicular from the top vertex to the base divides the base into segments of 5 m and 15 m. Find the cost of levelling the field at ₹50 per m².\" Solution outline: Use Pythagoras on the 5-13 right triangle to find height = 12 m. Area = 20 × 12 = 240 m². Cost = 240 × 50 = ₹12,000. A poor answer shows inability to connect geometry (right triangles) to area calculation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The area of a ______ is the product of its base length and the corresponding perpendicular height (altitude).",
+     "a": "parallelogram",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your family re-tile the kitchen ______.",
+     "a": "floor",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the base and corresponding perpendicular height in any orientation of a parallelogram, compute the area using the formula, and solve inverse problems (finding base or height given area) with decimal and fractional measurements.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are helping your family re-tile the kitchen floor.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

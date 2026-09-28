@@ -34,6 +34,26 @@
      "q": "Design a minimal firewall rule set (max 5 rules) for a home router protecting a LAN (192.168.1.0/24) that hosts a web server (192.168.1.50) accessible from the internet on port 80/443, allows all outbound web browsing, and blocks everything else. Write rules in order with ACTION, PROTOCOL, SOURCE, DESTINATION, PORT.",
      "a": "1. ALLOW TCP ANY 192.168.1.50 80,443 (inbound web)\n2. ALLOW TCP 192.168.1.0/24 ANY 80,443 (outbound web)\n3. ALLOW UDP 192.168.1.0/24 ANY 53 (DNS for browsing)\n4. ALLOW ICMP ANY ANY (ping/traceroute for diagnostics)\n5. DENY ANY ANY ANY ANY (implicit default, but explicit for clarity)\nA poor answer includes \"ALLOW ANY ANY ANY\" or misses DNS, showing inability to apply least-privilege principle and understand dependency protocols.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A firewall is a network security system that monitors and controls incoming and outgoing network traffic based on ______ security rules, establishing a barrier between a trusted internal network and untrusted external networks.",
+     "a": "predetermined",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you just connected your new laptop to your home Wi-Fi and within minutes, a pop-up appears saying \"Your files are encrypted – pay ₹50,000 to decrypt.\" This is ransomware that slipped through because your firewall allowed an unnecessary port (like 445 for SMB) and your antivirus ______ were 3 months old.",
+     "a": "definitions",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to configure basic firewall rules (allow/block specific ports/IPs) for a given scenario and explain the difference between signature-based and heuristic-based antivirus scanning with a real-world example of each.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you just connected your new laptop to your home Wi-Fi and within minutes, a pop-up appears saying \"Your files are encrypted – pay ₹50,000 to decrypt.\" This is ransomware that slipped through because your firewall allowed an ______ port (like 445 for SMB) and your antivirus definitions were 3 months old.",
+     "a": "unnecessary",
+     "self_check": true
     }
    ]
   }

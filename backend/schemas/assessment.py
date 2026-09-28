@@ -120,7 +120,10 @@ class ExamSubmissionRequest(BaseModel):
         populate_by_name=True,
         alias_generator=to_camel,
     )
-    exam_id: str = Field(..., validation_alias=AliasChoices("exam_id", "examId"))
+    # Optional in body — the path param already carries it (route does
+    # model_copy(update={"exam_id": ...})). Requiring it 422s clients that
+    # follow the documented /exams/{id}/submit contract.
+    exam_id: str = Field(default="", validation_alias=AliasChoices("exam_id", "examId"))
     answers: List[Dict[str, Any]] = Field(default_factory=list)
 
 

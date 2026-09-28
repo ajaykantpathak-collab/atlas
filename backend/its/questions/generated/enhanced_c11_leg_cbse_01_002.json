@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_01_002",
+   "title": "c11_leg_cbse_01_002",
+   "questions": [
+    {
+     "q": "What are the four categories of entities included in the definition of \"State\" under Article 12 of the Constitution of India?",
+     "a": "The four categories are: (1) Government and Parliament of India, (2) Government and Legislature of each State, (3) all local authorities within the territory of India, and (4) all other authorities under the control of the Government of India. A wrong answer (e.g., listing \"Judiciary\" or \"Private companies\") reveals the student is confusing the constitutional definition with the political science concept of State or missing the specific textual categories.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the judiciary is not explicitly mentioned in Article 12 but can still be considered \"State\" in certain contexts.",
+     "a": "Article 12 textually omits the judiciary, but the Supreme Court has held that while courts performing *judicial* functions are not \"State\", they *are* \"State\" when performing *administrative* or *rule-making* functions (e.g., framing court rules). A wrong answer claiming \"judiciary is never State\" or \"judiciary is always State\" reveals a failure to distinguish between judicial vs. non-judicial functions — a critical nuance for Article 12 application.",
+     "self_check": true
+    },
+    {
+     "q": "A deemed university established by a Central Government notification, fully funded by the UGC, and performing public educational functions — is it \"State\" under Article 12? Apply the *Ajay Hasia* test.",
+     "a": "Yes, it is \"State\". Steps: (1) Identify the entity — deemed university under UGC Act. (2) Apply *Ajay Hasia* 5-factor test: (a) Government financial control (UGC funding = 100%), (b) Functional character (public education = public function), (c) Monopoly/status (statutory recognition), (d) Deep pervasive control (UGC regulations govern appointments, curriculum), (e) Statutory origin (created by Central Govt notification under UGC Act). All factors satisfied → \"State\". A wrong answer focusing only on \"not a government department\" reveals the student thinks \"State\" requires formal government department status, missing the functional control test.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"local authority\" and \"other authority\" under Article 12 using the *Pradeep Kumar Biswas* criteria.",
+     "a": "\"Local authority\" (e.g., Municipal Corporation) is defined by statute, has a defined territory, elected representatives, and raises local taxes — it is a *government* at the grassroots. \"Other authority\" (e.g., ONGC, LIC) lacks elected representation and territorial jurisdiction but is included if it has: (i) statutory origin, (ii) government control (shareholding, appointments), (iii) public function, (iv) monopoly/regulatory power. A wrong answer conflating them as \"both are government bodies\" misses the structural distinction: local authorities are *self-governing* units; other authorities are *instrumentalities* of government.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The definition of 'State' in Article 12 is exhaustive and cannot be expanded by judicial interpretation.\"",
+     "a": "The statement is false. Article 12 uses the word \"includes\" — making the definition *inclusive*, not exhaustive. Courts have expanded \"other authorities\" to cover bodies like BCCI (initially), Stock Exchanges, and even private bodies performing public functions with State support (*Zee Telefilms* distinguished BCCI later). The *Ajay Hasia* test itself is a judicial creation. A wrong answer agreeing with the statement reveals a misunderstanding of \"includes\" vs. \"means\" in statutory interpretation and the dynamic nature of constitutional adjudication.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario where a private entity performing a public function could be challenged as \"State\" under Article 12, and design a 3-step test a court would use to decide.",
+     "a": "Scenario: A private company, \"HealthCare India Ltd.\", runs all government hospitals in a State under a PPP model — 100% government funding, government-appointed board, mandatory free treatment for BPL patients. 3-step test: (1) Source of authority — statutory contract or government notification? (2) Nature of control — financial, functional, administrative (board appointments, budget approval)? (3) Public function — does it perform a duty the State is constitutionally obligated to provide (healthcare under Art. 21)? If all three point to State instrumentality → \"State\". A poor answer would focus only on \"private ownership\" and ignore the *functional* and *control* dimensions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

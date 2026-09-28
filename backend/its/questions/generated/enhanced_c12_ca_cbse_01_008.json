@@ -34,6 +34,26 @@
      "q": "Design a minimal AIS sub-system map for a *non-profit charitable hospital* that receives donations, runs a pharmacy, pays doctors on contract, and files annual FCRA returns. List only the sub-systems required, and for each, give one unique transaction it would handle.",
      "a": "Required sub-systems (8): (1) Cash and Bank — donation receipt via UPI; (2) Sales/Receivables — pharmacy credit sales to patients; (3) Inventory — medicine stock inward/outward; (4) Purchase/Payables — medicine procurement from distributors; (5) Payroll — contract doctor honorarium with TDS deduction; (6) Fixed Assets — MRI machine purchase and depreciation; (7) Expense Accounting — electricity, rent, medical consumables; (8) Tax Accounting — FCRA compliance, TDS returns, GST on pharmacy sales. *Not needed*: Costing (no manufacturing), Budget (optional but good), MIS (still needed for trustees). A poor answer includes all 12 sub-systems indiscriminately, showing inability to tailor AIS to entity type.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An Accounting Information System (AIS) is an integrated framework of ______ sub-systems that collects, processes, stores, and disseminates financial and accounting data to support decision-making, control, and compliance.",
+     "a": "interrelated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a mid-sized garment ______ firm in Surat.",
+     "a": "manufacturing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now ask: *How can a single software ensure that when the purchase department records a fabric invoice, the inventory stock updates instantly, the accounts payable liability rises, the GST input credit is captured, and the costing module recomputes fabric cost per shirt — all without re-entering data?* This node answers that by showing how AIS integrates ______ specialised sub-systems around a shared database.",
+     "a": "12",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) list all 12 sub-systems of AIS and describe the specific function of each, (2) explain how data flows between sub-systems (e.g., a purchase invoice updates inventory, accounts payable, and expense sub-systems simultaneously), and (3) justify why integration through a common database eliminates redundancy and ensures.",
+     "self_check": true
     }
    ]
   }

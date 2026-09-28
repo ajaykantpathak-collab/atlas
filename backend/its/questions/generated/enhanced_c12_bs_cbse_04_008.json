@@ -34,6 +34,36 @@
      "q": "Create a mini-case (3-4 sentences) showing a situation where a company had an accurate forecast but failed due to poor planning. Explicitly label the forecasting element and the missing planning elements.",
      "a": "Example: \"AutoComp Ltd. accurately forecasted a 20% surge in EV demand (Forecasting: predictive premise). However, they failed to (Planning) secure battery supply contracts (alternative identification), train assembly line workers for EV modules (implementation), or set up charging-infrastructure partnerships (strategy). When demand surged, they lost market share to rivals who had planned these elements.\" A poor answer would describe a forecast error rather than a planning failure, showing the student cannot separate the quality of the premise from the quality of the action framework built on it.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Planning is the ______ managerial process of setting objectives, developing alternative courses of action, evaluating and selecting the best alternative, and implementing and monitoring the chosen plan to bridge the gap between the present and a desired future.",
+     "a": "comprehensive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You *______* that cotton prices will rise 15% next quarter based on last year's monsoon data and global futures trends.",
+     "a": "forecast",
+     "self_check": true
+    },
+    {
+     "q": "What is Planning? State the definition given in this lesson.",
+     "a": "Planning is the comprehensive managerial process of setting objectives, developing alternative courses of action, evaluating and selecting the best alternative, and implementing and monitoring the chosen plan to bridge the gap between the present and a desired future.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You *forecast* that cotton prices will rise ______% next quarter based on last year's monsoon data and global futures trends.",
+     "a": "15",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Planning?",
+     "a": "Students treat \"forecasting\" and \"planning\" as synonyms because both are \"about the future.\" They write in exams: \"Planning is forecasting future sales and producing accordingly.\" This is wrong because forecasting is *descriptive* (what will happen) while planning is *prescriptive* (what we will do).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) articulate the hierarchical relationship: forecasting is a sub-set tool feeding into the broader planning process, (2) identify the specific planning step where forecasting operates (developing premises), and (3) explain why a forecast alone does not constitute a plan, using a concrete business scenario.",
+     "self_check": true
     }
    ]
   }

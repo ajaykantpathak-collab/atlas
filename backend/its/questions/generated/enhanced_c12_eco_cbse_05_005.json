@@ -34,6 +34,31 @@
      "q": "Design a per-unit tax policy for the market of sugary drinks (demand: Qd = 500 − 5P, supply: Qs = 100 + 5P) that raises exactly ₹2,000 in tax revenue while minimizing deadweight loss. What tax rate should the government set? Show your reasoning.",
      "a": "Pre-tax: 500 − 5P = 100 + 5P → 10P = 400 → P* = ₹40, Q* = 300.\nLet tax = t. New supply: Qs' = 100 + 5(P − t) = 5P + 100 − 5t.\nNew eq: 500 − 5Pb = 5Pb + 100 − 5t → 10Pb = 400 + 5t → Pb = 40 + 0.5t.\nPs = Pb − t = 40 − 0.5t. Q' = 500 − 5(40 + 0.5t) = 300 − 2.5t.\nRevenue R = t × Q' = t(300 − 2.5t) = 300t − 2.5t².\nSet R = 2,000: 2.5t² − 300t + 2,000 = 0 → t² − 120t + 800 = 0.\nDiscriminant = 14,400 − 3,200 = 11,200. √11,200 ≈ 105.83.\nt = (120 ± 105.83)/2 → t₁ ≈ 112.9 (too high, Q negative), t₂ ≈ 7.08.\nOptimal t ≈ ₹7.08 per unit. Q' ≈ 300 − 2.5(7.08) ≈ 282.3. DWL = ½ × 7.08 × (300 − 282.3) ≈ ₹62.6.\nA student who picks t = ₹6.67 (2000/300) ignores the quantity reduction and thus underestimates the required tax rate — a classic \"static revenue estimation\" error.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A unit tax ______ on sellers shifts the supply curve vertically upward by the exact amount of the tax per unit, while a unit tax on buyers shifts the demand curve vertically downward by the tax amount; a per-unit subsidy to sellers shifts the supply curve vertically downward by the subsidy amount.",
+     "a": "imposed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you buy a ______ of branded milk every day for ₹50.",
+     "a": "packet",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you buy a packet of branded milk every day for ₹______.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) draw and label pre- and post-tax/subsidy supply-demand diagrams showing Pb, Ps, equilibrium quantity, tax wedge, and government revenue rectangle; (2) calculate the exact tax incidence on buyers and sellers given linear demand and supply equations; (3) explain why the more inelastic side of the market bears a larger.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you buy a packet of branded milk every day for ₹50.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

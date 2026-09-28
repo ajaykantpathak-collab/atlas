@@ -1,3 +1,4 @@
+import os
 import json, urllib.request, ssl, datetime
 
 API_URL = 'https://api.claudeopus.pro/v1/messages'
@@ -8,8 +9,8 @@ CTX.verify_mode = ssl.CERT_NONE
 body = json.dumps({'model': 'claude-opus-5', 'max_tokens': 50, 'messages': [{'role': 'user', 'content': 'hi'}]}).encode('utf-8')
 
 keys = [
-    ('KEY 0', 'sk-ant-co-QsK1rhxdfRWZ65OJ5cVxaAZ5ISNUY0lK'),
-    ('KEY 1', 'sk-ant-co-gIEUzRWw_mtUpxKk668B1lzJe3XntCna'),
+    ('KEY 0', os.environ.get('ANTHROPIC_API_KEY') or ''),
+    ('KEY 1', os.environ.get('ANTHROPIC_API_KEY') or ''),
 ]
 
 for name, key in keys:

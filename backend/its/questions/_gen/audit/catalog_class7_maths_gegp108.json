@@ -89,9 +89,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "prod = 11 * 7 / 3"
-   ]
+   "steps_chain": []
   },
   {
    "id": "gegp.8.3",
@@ -136,9 +134,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "prod = 6 * 3 / 7"
-   ]
+   "steps_chain": []
   },
   {
    "id": "gegp.8.4",
@@ -183,9 +179,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "prod = 6 * 3 / 4"
-   ]
+   "steps_chain": []
   }
  ]
 }

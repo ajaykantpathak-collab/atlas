@@ -34,6 +34,31 @@
      "q": "Design a \"Geological Clock\" analogy where Earth's 4.6 Ga history is compressed into 24 hours. Calculate the exact time (hours:minutes:seconds) when the following events occur: (a) Formation of Earth, (b) First life (prokaryotes, ~3.5 Ga), (c) Cambrian Explosion (~541 Ma), (d) Extinction of dinosaurs (66 Ma), (e) Appearance of *Homo sapiens* (~0.3 Ma). Show your work.",
      "a": "Expected criteria:  \n- Total seconds in 24 hrs = 86,400 s. Scale factor = 86,400 / 4,600,000,000 = 1.878 × 10⁻⁵ s/year.  \n- (a) 00:00:00 (midnight).  \n- (b) 3.5 Ga ago → 1.1 Ga after formation → 1.1e9 × 1.878e-5 = 20,658 s = **05:44:18**.  \n- (c) 541 Ma ago → 4.059 Ga after formation → 4.059e9 × 1.878e-5 = 76,230 s = **21:10:30**.  \n- (d) 66 Ma ago → 4.534 Ga after formation → 4.534e9 × 1.878e-5 = 85,150 s = **23:39:10**.  \n- (e) 0.3 Ma ago → 4.5997 Ga after formation → 86,394 s = **23:59:54**.  \nA poor answer with incorrect scaling (e.g., linear 1 Ga = 5 hrs) or placing humans at \"noon\" reveals inability to handle proportional reasoning with large numbers – a critical skill for grasping deep time.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Geological Time Scale is a ______ framework that divides Earth's 4.6-billion-year history into hierarchical units (Eons, Eras, Periods, Epochs) based on significant changes in the rock record, such as major fossil assemblages, extinction events, and tectonic upheavals.",
+     "a": "chronological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine ______ at the Grand Canyon or a road-cut in the Aravallis where you see distinct horizontal layers of rock stacked like pages of a book.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Geological Time Scale is a chronological framework that divides Earth's ______-billion-year history into hierarchical units (Eons, Eras, Periods, Epochs) based on significant changes in the rock record, such as major fossil assemblages, extinction events, and tectonic upheavals.",
+     "a": "4.6",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly sequence the four Eons (Hadean, Archean, Proterozoic, Phanerozoic), identify the three Eras of the Phanerozoic (Paleozoic, Mesozoic, Cenozoic) with their constituent Periods, and explain the biological/geological criteria (e.g., first appearance of hard-shelled organisms, mass extinctions) used to define these.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine standing at the Grand Canyon or a road-cut in the Aravallis where you see distinct ______ layers of rock stacked like pages of a book.",
+     "a": "horizontal",
+     "self_check": true
     }
    ]
   }

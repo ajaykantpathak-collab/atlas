@@ -1,0 +1,56 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_07_001",
+   "title": "c12_psy_cbse_07_001",
+   "questions": [
+    {
+     "q": "List the five salient characteristics of a group as defined in the NCERT Class 12 Psychology textbook.",
+     "a": "The five characteristics are: (1) A social unit of two or more individuals who perceive themselves as belonging to the group, giving it a unique identity. (2) A collection of individuals with common motives and goals, working toward a goal or away from threats. (3) Interdependence — what one member does affects others. (4) Individuals trying to satisfy a need through joint association, influencing each other. (5) Interactions structured by roles and norms — members perform consistent functions and adhere to shared behavioural standards. A wrong answer (e.g., listing only \"common goals\" and \"interaction\") reveals the student has memorised a partial definition and misses the structural (roles/norms) and psychological (identity, need satisfaction) dimensions that differentiate a group from a mere gathering.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a crowd gathered at a roadside accident is NOT a group, using at least three specific criteria from the group definition.",
+     "a": "A roadside crowd fails three criteria: (1) No interdependence — one person leaving doesn't affect others' behaviour or outcomes. (2) No roles/norms — there are no assigned functions or shared behavioural standards; behaviour is often irrational and impulsive. (3) No shared identity or common motive beyond momentary curiosity — members don't perceive themselves as \"we\" or work toward a collective goal. A wrong answer (e.g., \"they are just watching\") shows the student confuses physical co-presence with psychological group formation and cannot operationalise the abstract criteria to a concrete situation.",
+     "self_check": true
+    },
+    {
+     "q": "Your school's Student Council (12 elected members, fixed portfolios, weekly meetings, constitution) and the spectators at the Annual Day function (500 parents/students watching performances) are both collections of people. Classify each as group, team, crowd, or audience, and justify using two defining features for each.",
+     "a": "Student Council = **Group** (also a **Team** subset). Justification: (a) Interdependence — portfolios are complementary; Treasurer's report affects Secretary's minutes. (b) Structured roles/norms — constitution defines duties, meeting procedures are norms. Spectators = **Audience**. Justification: (a) Passive, special-purpose assembly — gathered only to watch. (b) No interdependence or roles — one spectator leaving doesn't change others' experience; no shared identity beyond \"watchers\". A wrong answer (e.g., calling spectators a \"crowd\") reveals confusion between audience (assembled for a purpose, generally passive) and crowd (chance gathering, potential for irrationality/mob). Calling Council only a \"team\" misses that all teams are groups, but the Council's broader identity fits the general group definition first.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast a **group** and a **team** on the dimensions of: (a) performance dependence, (b) leadership responsibility, and (c) synergy. Use the NCERT distinction to explain why a project group with a dominant leader who does all the work is *not* functioning as a team.",
+     "a": "(a) Performance dependence: Group — depends on individual contributions summed; Team — depends on individual contributions **plus** teamwork/coordination. (b) Leadership responsibility: Group — leader holds responsibility; Team — leader exists but **members hold themselves mutually accountable**. (c) Synergy: Group — neutral/negative (sum of parts); Team — **positive synergy** (coordinated effort > sum of individual efforts). The project group fails as a team because: (i) No mutual accountability — only the leader is responsible; (ii) No positive synergy — output equals leader's effort alone, not coordinated integration; (iii) Members' complementary skills are unused. A wrong answer (e.g., \"teams have leaders, groups don't\") shows the student misses the core NCERT distinction: **mutual accountability and positive synergy** are the team differentiators, not the presence of a leader.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"All teams are groups, but not all groups are teams.\" Is this logically consistent with the NCERT definitions? Defend your position with two specific criteria.",
+     "a": "**Yes, the statement is logically consistent.** Defence: (1) **Necessary condition**: A team *must* satisfy all group criteria (interdependence, roles, norms, common goals, identity) — the NCERT explicitly calls teams \"special kinds of groups\". (2) **Sufficient condition**: A team requires **additional** features — complementary skills, mutual accountability, and positive synergy — which a generic group (e.g., a family, a friendship circle) may lack. For example, a family is a group (shared identity, roles, norms) but not necessarily a team (no complementary skill integration for a performance goal, no mutual accountability for a task output). A wrong answer (e.g., \"teams are bigger than groups\") reveals the student treats them as mutually exclusive categories rather than a subset-superset relationship, missing the hierarchical definitional structure.",
+     "self_check": true
+    },
+    {
+     "q": "Design a minimal-group paradigm experiment (inspired by Tajfel) for a Class 12 classroom that could create ingroup bias in 30 minutes. Specify: (a) the trivial grouping criterion, (b) the resource allocation task, (c) the predicted outcome, and (d) one ethical safeguard.",
+     "a": "(a) **Trivial criterion**: Preference for two unfamiliar abstract art pieces (e.g., \"Blue Swirl\" vs. \"Red Grid\") shown for 10 seconds each. (b) **Resource task**: Distribute 100 \"bonus marks\" (hypothetical) between two anonymous code-numbered recipients — one from own art-preference group, one from the other — using a pull-down matrix where choices vary own-group vs. other-group payoffs (e.g., Ingroup: 7/8/9... vs Outgroup: 1/3/5...). (c) **Predicted outcome**: Students will systematically favour ingroup recipients (choose higher ingroup payoffs even at cost to absolute gain), demonstrating minimal-group bias. (d) **Ethical safeguard**: Debrief immediately — reveal the artificial grouping, explain the scientific purpose, emphasise that preferences don't reflect real differences, and destroy allocation data without linking to identities. A poor answer (e.g., grouping by gender or marks) violates \"minimal\" by using meaningful categories, missing the paradigm's power to show bias arises from *mere categorisation*.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A group is an organised system of two or more individuals who interact and are ______, share common motives and goals, have a set of defined role relationships among members, and adhere to norms that regulate behaviour, while perceiving themselves as a distinct social unit with a shared identity.",
+     "a": "interdependent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're at a rock concert: thousands of people scream for the same band, yet if the person next to you leaves, your ______ barely changes — that's an audience, not a group.",
+     "a": "experience",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can accurately define a group using all five NCERT criteria (interdependence, common motives, roles, norms, shared identity), list its key characteristics, and distinguish it from a crowd, team, and audience by applying the criteria to novel real-life scenarios with justification.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

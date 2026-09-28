@@ -130,9 +130,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "hcf = 8 * 1"
-   ]
+   "steps_chain": []
   },
   {
    "id": "fegp.105.5.1.4",
@@ -177,10 +175,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lhs = 3 ** 3 + 4 ** 3",
-    "diff = 5 ** 3 - lhs"
-   ]
+   "steps_chain": []
   },
   {
    "id": "fegp.105.5.2.1",
@@ -223,9 +218,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "hcf = 9 * 1"
-   ]
+   "steps_chain": []
   },
   {
    "id": "fegp.105.5.2.2",
@@ -270,10 +263,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lhs = 3 ** 3 + 4 ** 3",
-    "diff = 5 ** 3 - lhs"
-   ]
+   "steps_chain": []
   },
   {
    "id": "fegp.105.5.3.1",
@@ -318,10 +308,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lhs = 3 ** 3 + 4 ** 3",
-    "diff = 5 ** 3 - lhs"
-   ]
+   "steps_chain": []
   },
   {
    "id": "fegp.105.5.4.1",
@@ -407,9 +394,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "hcf = 12 * 1"
-   ]
+   "steps_chain": []
   },
   {
    "id": "fegp.105.5.5.1",
@@ -452,9 +437,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "hcf = 12 * 1"
-   ]
+   "steps_chain": []
   },
   {
    "id": "fegp.105.5.5.2",
@@ -497,9 +480,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "hcf = 9 * 1"
-   ]
+   "steps_chain": []
   }
  ]
 }

@@ -34,6 +34,31 @@
      "q": "Design a 3-station Metro feeder network for a hypothetical industrial township (population 200,000, area 50 km²) located 15 km from the nearest Metro terminal. Specify mode (bus / light rail / BRT), alignment logic, and one land-use policy to maximize ridership.",
      "a": "Mode: BRT (Bus Rapid Transit) — lower capital cost (~₹50 crore/km vs ₹250 crore/km for Metro), flexible routing for dispersed industrial shifts. Alignment: Radial trunk from Metro terminal to township center (15 km), with two orbital loops serving industrial clusters (north & south) — total ~35 km. Land-use policy: Mandate minimum FAR 2.5 within 500 m of BRT stations and reserve 15% land for affordable worker housing near stations. A poor answer proposes Metro extension (ignoring cost-density mismatch) or omits land-use integration, missing the transit-oriented development (TOD) principle central to current urban geography.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Recent developments in Indian railways refer to the modernization initiatives launched since the 1990s, primarily comprising Metro Rail systems for urban mass transit in major cities and Dedicated Freight Corridors (DFCs) for segregated high-capacity freight movement, both aimed at decongesting existing networks, reducing transit time, lowering logistics costs, and cutting carbon emissions through ______ and modal shift.",
+     "a": "electrification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking students to observe their daily commute or news headlines about traffic jams and air ______ in their city — this grounds the topic in lived experience.",
+     "a": "pollution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Recent developments in Indian railways refer to the modernization initiatives launched since the ______s, primarily comprising Metro Rail systems for urban mass transit in major cities and Dedicated Freight Corridors (DFCs) for segregated high-capacity freight movement, both aimed at decongesting existing networks, reducing transit time, lowering logistics costs, and cutting carbon emissions through electrification and modal shift.",
+     "a": "1990",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) locate all operational Metro Rail cities and both DFC corridors on an outline map of India, (2) explain how DFCs differ from conventional railway lines in terms of axle load, speed, and signalling, and (3) evaluate the impact of Metro and DFC projects on urban air quality, freight logistics cost, and regional.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking students to observe their daily commute or news headlines about traffic jams and air pollution in their city — this grounds the topic in lived ______.",
+     "a": "experience",
+     "self_check": true
     }
    ]
   }

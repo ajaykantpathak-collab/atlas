@@ -27,12 +27,32 @@
     },
     {
      "q": "A bridge has a natural frequency of 0.5 Hz. Soldiers marching in step at 120 steps/minute cross it. Will resonance occur? If the commander orders \"break step,\" explain why this prevents resonance using the concept of driving frequency spectrum.",
-     "a": "Marching frequency = 120/60 = 2 Hz. Natural frequency = 0.5 Hz. No resonance because 2 Hz ≠ 0.5 Hz. However, the periodic marching force contains Fourier harmonics: the 4th harmonic (4 × 0.5 Hz = 2 Hz) matches the marching fundamental, but the bridge's natural frequency 0.5 Hz could be excited by the 1st harmonic of a 0.5 Hz component — but marching at 2 Hz has no 0.5 Hz component. \"Break step\" destroys the periodicity, spreading the driving energy over a continuous spectrum instead of discrete harmonics, so no single frequency component matches the natural frequency strongly. A wrong answer claiming resonance occurs shows confusion between frequency and its harmonics; claiming break step works only by reducing force magnitude misses the spectral argument.",
+     "a": "(1) Marching frequency — 120 steps per minute equals 2 Hz, (2) Natural frequency of the bridge — 0.5 Hz, (3) Verdict — no resonance occurs, because the 2 Hz driving fundamental does not match the 0.5 Hz natural frequency, (4) Break step — ordering soldiers out of step destroys the periodicity and spreads the driving energy over a continuous spectrum instead of discrete harmonics, so no strong component matches the natural frequency. A wrong answer claiming resonance occurs confuses a frequency with its harmonics, and saying break step works only by reducing the force magnitude misses the spectral argument.",
      "self_check": true
     },
     {
      "q": "Design a simple experiment using a smartphone and a spring-mass system to measure the quality factor Q of the oscillator. Describe the procedure, measurements needed, and how to calculate Q from the resonance curve.",
      "a": "Procedure: (1) Hang a spring with known k and mass m. (2) Attach a small magnet to the mass and place a coil connected to a function generator (or smartphone speaker output via amplifier) to drive it. (3) Use the smartphone's accelerometer (via phyphox app) to record amplitude vs. driving frequency. (4) Sweep frequency slowly across resonance, record A(ω). (5) Find ω_res (peak), measure FWHM Δω (frequency width at A_max/√2). (6) Calculate Q = ω_res/Δω. Alternatively, measure free decay time constant τ = 1/β and compute Q = ω₀τ/2. A poor answer uses only the peak amplitude without width measurement, or confuses Q with damping ratio ζ = 1/2Q.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Forced ______ occur when an external periodic force drives a damped oscillator at a frequency different from its natural frequency; resonance is the phenomenon where the driving frequency matches the natural frequency of the system, causing the amplitude to reach a maximum limited only by damping.",
+     "a": "oscillations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a swing in a playground: if you push it at random times, it barely moves, but if you push exactly when it starts moving forward each time, the swing goes higher and higher — this is ______.",
+     "a": "resonance",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the amplitude-frequency relationship for a forced damped oscillator, identify the resonance condition ω = ω₀, calculate the quality factor Q = ω₀/2β from experimental data, and explain why real structures (bridges, buildings) have damping mechanisms to avoid catastrophic resonance.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watch a swing in a ______: if you push it at random times, it barely moves, but if you push exactly when it starts moving forward each time, the swing goes higher and higher — this is resonance.",
+     "a": "playground",
      "self_check": true
     }
    ]

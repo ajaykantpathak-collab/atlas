@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a coil, a bar magnet, a galvanometer, and a stopwatch to verify that the magnitude of induced emf is proportional to the rate of change of magnetic flux. Describe the procedure, what you will measure, how you will vary the rate of change, and what graph you will plot to confirm proportionality.",
      "a": "Procedure: Connect coil to galvanometer. Drop magnet from different measured heights h through the coil (same coil, same magnet). Use stopwatch to measure time t taken to pass through coil (or use a light gate for better accuracy). The peak galvanometer deflection θ is proportional to peak emf (for a moving-coil galvanometer). Rate of change of flux ∝ speed v ∝ √h. Plot θ vs √h (or θ vs 1/t). A straight line through origin confirms proportionality. A poor answer (e.g., just saying \"move magnet faster\" without measurable quantities or graph) reveals inability to design a controlled experiment with quantifiable variables.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ induction is the phenomenon where a changing magnetic flux through a closed conducting loop induces an electromotive force (emf) in the loop; the magnitude of the induced emf equals the rate of change of magnetic flux linkage (Faraday's Second Law), and its direction opposes the change in flux (Lenz's Law).",
+     "a": "Electromagnetic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a bicycle dynamo lighting a bulb as you pedal — the faster you pedal, the brighter the bulb.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What is Electromagnetic induction? State the definition given in this lesson.",
+     "a": "Electromagnetic induction is the phenomenon where a changing magnetic flux through a closed conducting loop induces an electromotive force (emf) in the loop; the magnitude of the induced emf equals the rate of change of magnetic flux linkage (Faraday's Second Law), and its direction opposes the change in flux (Lenz's Law).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Electromagnetic induction?",
+     "a": "Students think that a static magnetic field can induce a current in a stationary coil.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the magnitude and determine the direction of induced emf in a coil when given the rate of change of magnetic field, area, orientation, or number of turns, and can explain the energy conversion involved using Lenz's Law.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a sonometer (or guitar string) to verify that the fundamental frequency is inversely proportional to the square root of linear mass density, keeping length and tension constant.",
      "a": "Use wires of same length and tension but different materials/diameters (different μ). Measure fundamental frequency for each using a tuning fork or frequency analyzer. Plot ν vs 1/√μ - should be linear through origin. Poor answer: just says \"change the wire\" without specifying how to keep T and L constant, or doesn't mention measuring frequency accurately. Reveals lack of experimental design skill.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A standing wave (stationary wave) in a string is a wave pattern formed by the ______ of two identical progressive waves of same amplitude, frequency, and wavelength traveling in opposite directions along a string fixed at both ends, resulting in fixed points of zero displacement (nodes) and maximum displacement (antinodes) with no net energy transport along the string.",
+     "a": "superposition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a guitar string when plucked - it vibrates in a pattern with points that don't move (nodes) and points that move maximally (______).",
+     "a": "antinodes",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can derive the standing wave equation from superposition principle, calculate allowed wavelengths/frequencies for a string fixed at both ends using boundary conditions, determine node/antinode positions for any harmonic, and solve problems combining wave speed formula v=√(T/μ) with standing wave frequency relations.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a guitar string when plucked - it vibrates in a pattern with points that don't move (nodes) and points that move ______ (antinodes).",
+     "a": "maximally",
+     "self_check": true
     }
    ]
   }

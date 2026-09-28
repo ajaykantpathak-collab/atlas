@@ -34,6 +34,26 @@
      "q": "Design a fluorescence microscopy experiment using two dyes (one membrane-impermeant DNA dye, one annexin V-FITC) to distinguish live, early apoptotic, late apoptotic/necrotic, and necrotic cells in a mixed population. Sketch the expected quadrant plot.",
      "a": "Annexin V-FITC (binds phosphatidylserine) on x-axis, PI (membrane-impermeant) on y-axis: Live = Annexin-/PI-; Early apoptotic = Annexin+/PI-; Late apoptotic/necrotic = Annexin+/PI+; Necrotic = Annexin-/PI+. Poor design (e.g., wrong dye choice) shows lack of translational understanding of membrane asymmetry loss vs. rupture.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Apoptosis is a genetically programmed, energy-dependent, and tightly regulated form of cell death ______ by cell shrinkage, chromatin condensation, DNA fragmentation, membrane blebbing, and formation of membrane-bound apoptotic bodies that are phagocytosed without eliciting inflammation.",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Think about the last time you got a small cut on your finger – the skin cells at the injury site die messily, causing redness and ______.",
+     "a": "swelling",
+     "self_check": true
+    },
+    {
+     "q": "What is Apoptosis? State the definition given in this lesson.",
+     "a": "Apoptosis is a genetically programmed, energy-dependent, and tightly regulated form of cell death characterized by cell shrinkage, chromatin condensation, DNA fragmentation, membrane blebbing, and formation of membrane-bound apoptotic bodies that are phagocytosed without eliciting inflammation.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can construct a detailed comparison table with ≥7 distinguishing parameters (trigger, energy requirement, morphology, nuclear changes, membrane integrity, inflammatory outcome, physiological role), explain why ATP depletion switches cell death from apoptosis to necrosis, and predict the type of cell death in a given.",
+     "self_check": true
     }
    ]
   }

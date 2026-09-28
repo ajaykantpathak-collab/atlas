@@ -34,6 +34,31 @@
      "q": "Design a comprehensive journal entry problem covering: Issue of 1,000, 10% debentures of ₹100 at 10% premium, redeemable at 5% premium after 4 years; creation of DRR @ 25% of face value; investment of 15% of maturing amount; and redemption by conversion into equity shares of ₹10 each at ₹12 per share. Provide the full solution with narrations.",
      "a": "**Expected Answer Criteria:**  \nA good problem-solution must include:  \n1. **Issue Entries** (with Securities Premium & Premium on Redemption).  \n2. **DRR Creation** (25% of ₹1,00,000 = ₹25,000 from Surplus).  \n3. **DRR Investment** (15% of ₹1,05,000 = ₹15,750 in specified securities by 30th April).  \n4. **Redemption by Conversion**:  \n   - Debentureholders get equity shares worth ₹1,05,000 (face + premium) at issue price ₹12 → 8,750 shares.  \n   - Entry: 10% Debentures A/c Dr. 1,00,000; Premium on Redemption A/c Dr. 5,000 → To Equity Share Capital A/c 87,500; To Securities Premium A/c 22,500.  \n5. **DRR Transfer to General Reserve** after full redemption.  \n\n**Why poor answers reveal misunderstanding:**  \nMissing the conversion ratio calculation (₹1,05,000 / ₹12), forgetting to debit Premium on Redemption at conversion, or investing 15% of face value instead of redemption value. Shows inability to integrate multiple concepts (issue, DRR, investment, conversion) into one coherent transaction flow.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Journal entries for issue and redemption of debentures are systematic double-entry records that capture the creation, servicing, and ______ of a company's long-term debt obligation, reflecting the inflow/outflow of resources, premium/discount adjustments, and statutory reserves as per Schedule III of the Companies Act, 2013.",
+     "a": "extinguishment",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the accountant of \"Bharat Infra Ltd.\" which needs ₹50 ______ for a highway project.",
+     "a": "crore",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Journal entries for issue and redemption of debentures are systematic double-entry records that capture the creation, servicing, and extinguishment of a company's long-term debt obligation, reflecting the inflow/outflow of resources, premium/discount adjustments, and statutory reserves as per Schedule III of the Companies Act, ______.",
+     "a": "2013",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must independently pass correct journal entries for at least 5 distinct issue scenarios (par, premium, discount, non-cash consideration, collateral security) and 4 redemption methods (lump sum, draw of lots, open market purchase, conversion) including the mandatory Debenture Redemption Reserve transfer and investment, without.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the ______ of \"Bharat Infra Ltd.\" which needs ₹50 crore for a highway project.",
+     "a": "accountant",
+     "self_check": true
     }
    ]
   }

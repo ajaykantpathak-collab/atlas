@@ -1,0 +1,71 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_08_004",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_08_004",
+   "title": "c12_soc_cbse_08_004",
+   "questions": [
+    {
+     "q": "Define deindustrialisation in the colonial Indian context and name the single most important British policy that initiated it.",
+     "a": "Deindustrialisation is the forced decline of indigenous manufacturing due to colonial policies; the pivotal policy was the one-way free trade regime imposed after 1813 that allowed duty-free entry of British machine-made goods while Indian handicrafts faced high tariffs in Britain. A wrong answer (e.g., \"industrialisation happened late\") reveals confusion between absence of modern industry and active destruction of existing industry.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the Census of India 1911 reported that \"high prices of agricultural produce led many village artisans to abandon their hereditary craft in favour of agriculture\" — how does this contradict the usual push-pull migration story?",
+     "a": "Rising grain prices (driven by export demand and land revenue rigidity) increased the opportunity cost of craftwork: artisans needed more cash to pay revenue/buy food, but craft incomes fell due to import competition, pushing them into agriculture as a survival strategy, not as a voluntary shift to higher productivity. A wrong answer (e.g., \"agriculture became more profitable\") misses the distress-driven nature of the shift.",
+     "self_check": true
+    },
+    {
+     "q": "Using the Dhaka muslin and Surat shipbuilding cases, construct a two-column table showing how the *same* British policy (e.g., tariff manipulation) operated differently in a luxury craft versus a strategic industry.",
+     "a": "| Policy | Dhaka Muslin (Luxury) | Surat Shipbuilding (Strategic) |\n|---|---|---|\n| Tariff | British goods entered duty-free; Indian muslin faced 70–80% duty in UK | British ships given navigation act preferences; Indian ships excluded from colonial carrying trade |\n| Coercion | Weavers forced to sell at Company prices via *dadni* advances | Shipyard timber monopolised by Royal Navy; skilled carpenters recruited for Bombay dockyard |\n| Outcome | Quality collapsed, weavers fled to villages | Industry extinguished by 1850s, Surat port silted and abandoned |\nA wrong answer that lists identical effects for both reveals failure to distinguish court-dependent luxury crafts from state-dependent strategic industries.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the paradox: British industrialisation *increased* urbanisation in Britain, but the *same* British industrialisation *decreased* urbanisation in India (1800–1900). Identify the structural mechanism that explains this divergence.",
+     "a": "In Britain, factory production concentrated labour in cities; in India, the destruction of urban handicrafts (which were city-based) and the survival of village crafts (which were dispersed) combined with revenue pressure pushing artisans into agriculture, causing a net ruralisation. The mechanism is the *spatial decoupling* of raw material extraction (rural) from manufacturing (which moved to Britain). A wrong answer citing \"India was agrarian\" ignores that pre-colonial India had a higher urbanisation rate than Europe in 1700.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the nationalist argument (Dadabhai Naoroji, R.C. Dutt) that deindustrialisation was the primary cause of India's poverty. What evidence would a revisionist historian (e.g., Tirthankar Roy) use to challenge this, and which side is more convincing for the period 1757–1850?",
+     "a": "Nationalists: cite declining textile exports, rising raw cotton exports, and census data showing artisan-to-agriculturist shift. Revisionists: argue that handloom weaving *adapted* and survived long after 1850, and that pre-colonial deindustrialisation (Mughal decline) also played a role. For 1757–1850, the nationalist case is stronger because Company coercion (*dadni*, tariff, monopoly) was direct and documented; revisionist adaptation arguments apply better post-1850. A wrong answer that dismisses nationalists as \"emotional\" ignores their use of official trade statistics.",
+     "self_check": true
+    },
+    {
+     "q": "Create a 100-word policy brief for a colonial administrator in 1830 arguing *against* deindustrialisation on purely fiscal grounds (revenue maximisation). Use only data available at that time.",
+     "a": "\"Sir, the destruction of Dhaka muslin and Surat shipbuilding has erased high-value tax bases. Artisans paid *abwab* and customs on finished goods worth 10× raw cotton per maund. Now we collect land revenue from impoverished weavers-turned-peasants at ⅓ the previous yield. The 1813 tariff regime sacrifices ₹2 crore annual manufacturing revenue for ₹50 lakh raw cotton duty. Restore differentiated tariffs; protect strategic crafts.\" A poor answer focuses on \"fairness\" instead of fiscal arithmetic, showing inability to think in colonial state categories.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ under colonial rule refers to the systematic decline of India's indigenous handicraft and artisanal industries (especially textiles, metallurgy, and shipbuilding) caused by British colonial policies that transformed India from a manufacturing exporter into a supplier of raw materials and a market for British machine-made goods, leading to massive artisan unemployment, ruralisation, and the decay of traditional urban centres.",
+     "a": "Deindustrialisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a weaver in Dhaka in 1830: your muslin once dressed Mughal emperors and fetched high prices in Europe, but now you cannot sell a single bolt because ______ cloth floods the market at half the price, and the East India Company forces you to sell your yarn to them at fixed low rates.",
+     "a": "Manchester",
+     "self_check": true
+    },
+    {
+     "q": "What is Deindustrialisation under colonial rule? State the definition given in this lesson.",
+     "a": "Deindustrialisation under colonial rule refers to the systematic decline of India's indigenous handicraft and artisanal industries (especially textiles, metallurgy, and shipbuilding) caused by British colonial policies that transformed India from a manufacturing exporter into a supplier of raw materials and a market for British.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a weaver in Dhaka in ______: your muslin once dressed Mughal emperors and fetched high prices in Europe, but now you cannot sell a single bolt because Manchester cloth floods the market at half the price, and the East India Company forces you to sell your yarn to them at fixed low rates.",
+     "a": "1830",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Deindustrialisation under colonial rule?",
+     "a": "Students often think deindustrialisation means \"India did not industrialise\" — they confuse the *absence of modern factories* with the *active destruction of pre-existing manufactures*.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can trace the causal chain from specific British policies (tariff manipulation, railway freight rates, land revenue demands) to the collapse of artisan livelihoods, using at least two distinct regional examples (e.g., Dhaka muslin, Surat shipbuilding) and explain why this process differed fundamentally from industrialisation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

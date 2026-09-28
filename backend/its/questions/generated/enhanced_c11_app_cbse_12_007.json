@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_12_007",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_12_007",
+   "title": "c11_app_cbse_12_007",
+   "questions": [
+    {
+     "q": "State the geometric definition of a parabola and name the fixed point and fixed line involved.",
+     "a": "A parabola is the set of all points in a plane equidistant from a fixed point called the **focus** and a fixed line called the **directrix**. A wrong answer (e.g., \"equidistant from two points\" or \"equidistant from a point and a circle\") reveals the student is confusing the parabola with an ellipse (two foci) or a circle (single center), indicating a lack of clarity on the fundamental locus definition that distinguishes conic sections.",
+     "self_check": true
+    },
+    {
+     "q": "For the parabola $y^2 = 12x$, a student claims the focus is at $(3,0)$ and the directrix is $x = -3$. Another student says the focus is at $(0,3)$ and directrix is $y = -3$. Who is correct, and why is the other student wrong?",
+     "a": "The first student is correct. Comparing $y^2 = 12x$ with $y^2 = 4ax$ gives $4a = 12 \\Rightarrow a = 3$. Since the equation has $y^2$ and positive $x$, the axis is the x-axis, focus is $(a,0) = (3,0)$, and directrix is $x = -a = -3$. The second student incorrectly assumes the axis is the y-axis (confusing $y^2 = 4ax$ with $x^2 = 4ay$), a classic error caused by memorising formulas without linking the squared variable to the axis of symmetry.",
+     "self_check": true
+    },
+    {
+     "q": "A parabolic arch bridge has its vertex at the highest point, 10 m above the road. The span (width at road level) is 40 m. Find the height of the arch 5 m from the center (vertex) towards one end.",
+     "a": "**Steps:**\n1. Vertex at origin $(0,0)$, axis vertical downward $\\Rightarrow$ equation $x^2 = -4ay$.\n2. Road level is $y = -10$. Span 40 m $\\Rightarrow$ ends at $(\\pm 20, -10)$.\n3. Substitute $(20, -10)$: $20^2 = -4a(-10) \\Rightarrow 400 = 40a \\Rightarrow a = 10$.\n4. Equation: $x^2 = -40y$.\n5. At $x = 5$ (5 m from center): $25 = -40y \\Rightarrow y = -25/40 = -0.625$ m.\n6. Height above road $= 10 - 0.625 = 9.375$ m.\nA wrong answer (e.g., using $y^2 = 4ax$ or getting $a$ negative) reveals the student cannot translate the physical description (vertex at top, opening downward) into the correct standard form ($x^2 = -4ay$) and sign convention for 'a'.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the parabolas $y^2 = 8x$ and $x^2 = 8y$. How do their axes, foci, directrices, and latus rectum lengths differ? What single parameter controls the \"width\" of the opening in both cases?",
+     "a": "For $y^2 = 8x$: $4a=8 \\Rightarrow a=2$. Axis: x-axis ($y=0$), Focus: $(2,0)$, Directrix: $x=-2$, Latus Rectum (LR) $= 8$, endpoints $(2, \\pm 4)$.\nFor $x^2 = 8y$: $4a=8 \\Rightarrow a=2$. Axis: y-axis ($x=0$), Focus: $(0,2)$, Directrix: $y=-2$, LR $= 8$, endpoints $(\\pm 4, 2)$.\nThe **latus rectum length ($4a$)** is the same (8 units), controlling the \"width\" of the opening at the focus. The difference is **orientation**: the first opens right, the second opens up. A wrong answer swapping axes or foci reveals the student does not associate the squared variable ($y^2$ vs $x^2$) with the axis of symmetry.",
+     "self_check": true
+    },
+    {
+     "q": "A student argues: \"For the parabola $y^2 = -16x$, the focus is at $(-4,0)$ and the directrix is $x = 4$. Since the focus has a negative x-coordinate, the parabola opens to the left. But the latus rectum length is $-16$ because $4a = -16$.\" Evaluate this statement and correct any errors.",
+     "a": "The student is **partially correct but makes a critical error on the latus rectum length**.\n- Correct: $4a = -16 \\Rightarrow a = -4$. Focus $(-4,0)$, Directrix $x=4$, opens left.\n- **Error**: Latus Rectum length is **always positive** ($|4a| = 16$). Length cannot be negative. The parameter 'a' can be negative (indicating direction), but $4a$ in the formula $y^2 = 4ax$ represents the *signed* coefficient; the geometric length is $|4a|$.\nThis reveals the misconception that algebraic sign carries over directly to geometric magnitude. Students must distinguish between the *directed distance* 'a' and the *absolute length* of the latus rectum.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world problem (Indian context) where a parabolic shape is used, specifying all dimensions needed to find the focus. Write the problem statement only (do not solve it).",
+     "a": "**Example Problem:** *\"A solar cooker at a community kitchen in Rajasthan uses a parabolic reflector to concentrate sunlight. The reflector is 1.5 meters in diameter at the rim and 30 cm deep at the center. The cooking pot is placed at the focus. How far from the vertex (center bottom) should the pot holder be fixed?\"*\nA good answer provides a clear physical scenario (solar cooker, satellite dish, highway headlight), gives diameter/width and depth (or two points on the curve), and asks for the focal distance. A poor answer (e.g., \"find focus of $y^2=4x$\") is just a math drill, showing the student cannot *create* a model from a physical situation — a key competency in Applied Mathematics.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

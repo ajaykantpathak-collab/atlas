@@ -11,8 +11,8 @@
      "self_check": true
     },
     {
-     "q": "Why did the Green Revolution initially bypass rainfed regions like eastern Uttar Pradesh, Bihar, and Odisha despite high poverty and need for food?",
-     "a": "HYV seeds are input-responsive: they require assured irrigation, timely fertiliser/pesticide application, and credit for purchased inputs. Rainfed regions lacked irrigation infrastructure (canals, tubewells), institutional credit, and extension services. A wrong answer (e.g., \"farmers were lazy\" or \"soil was poor\") shows confusion between agro-climatic constraints and institutional/infrastructural failure — a common error of blaming beneficiaries instead of structural gaps.",
+     "q": "Trace the correct sequence of requirements that decided whether a region could adopt the High Yielding Variety package.",
+     "a": "The adoption chain runs: (1) HYV seeds demand assured water, fertiliser and pesticide together (2) Irrigated northwestern districts could fund the package through institutional credit (3) Rainfed eastern regions lacked canals, tubewells and loan access (4) Productivity and income gaps between the regions widened as a result. A wrong answer that blames farmer laziness or soil poverty shows the student has confused agro-climatic constraint with institutional and infrastructural failure.",
      "self_check": true
     },
     {
@@ -33,6 +33,21 @@
     {
      "q": "Design a policy intervention for a rainfed district in Jharkhand (2024 context) to extend Green Revolution-like productivity gains equitably. Specify: (a) two infrastructure investments, (b) one institutional reform, (c) one risk-mitigation tool, and (d) how you would measure equity impact after 5 years.",
      "a": "(a) Invest in: (i) watershed management for protective irrigation (check dams, farm ponds), (ii) rural roads to connect to markets. (b) Institutional reform: Legalise tenancy and provide crop insurance linked to land records so tenant farmers access credit. (c) Risk tool: Weather-indexed crop insurance with government premium support. (d) Equity metrics: (i) Ratio of yield (smallholder/large farmer), (ii) Share of marketed surplus from bottom 40% landholders, (iii) Female land ownership %. A poor answer lists only \"give free seeds\" — missing systemic infrastructure, institutions, and measurable equity indicators.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Green Revolution's regional spread refers to the uneven ______ diffusion of High Yielding Variety (HYV) seed technology, irrigation, and chemical inputs across India, concentrated initially in Punjab, Haryana, Western Uttar Pradesh, and parts of Andhra Pradesh and Tamil Nadu during 1966-1985.",
+     "a": "geographical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer in Punjab in 1970 with a tubewell, buying HYV wheat seeds and fertiliser on subsidised credit, harvesting 5 tonnes/hectare, while a farmer in Bihar with the same land size relies on monsoon rain, uses ______ seeds, and harvests 1 tonne/hectare.",
+     "a": "traditional",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why HYV technology spread unevenly across Indian states using data on irrigation coverage, credit access, and landholding patterns; evaluate the effectiveness of government subsidies in reducing inter-farmer and inter-regional inequality; and interpret the marketed surplus data to show how regional concentration.",
      "self_check": true
     }
    ]

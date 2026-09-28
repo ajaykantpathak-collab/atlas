@@ -34,6 +34,26 @@
      "q": "Create a Mayan number (draw or describe the rows) that equals 2024 in decimal. Explain your steps so a Class 6 student could follow.",
      "a": "Step 1: Divide 2024 by 20 repeatedly.\n2024 ÷ 20 = 101 remainder 4 → units digit = 4 = ••••.\n101 ÷ 20 = 5 remainder 1 → 20s digit = 1 = •.\n5 ÷ 20 = 0 remainder 5 → 400s digit = 5 = —.\nSo from bottom to top: row1 = •••• (4), row2 = • (1), row3 = — (5).\nCheck: 5×400 + 1×20 + 4×1 = 2000 + 20 + 4 = 2024.\nA poor answer that gives random dots/bars without division steps shows the student cannot systematically convert between bases.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Mayan number system is a vigesimal (base-20) ______ numeral system that uses three symbols: a dot (•) for 1, a horizontal bar (—) for 5, and a shell symbol (𝟘) for zero.",
+     "a": "positional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an archaeologist decoding a Mayan stone carving that shows three rows of dots and bars: the ______ row has two bars, the middle row has one dot, and the top row has three dots.",
+     "a": "bottom",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can convert any integer between 0 and 7999 from decimal (base-10) to Mayan notation and back, correctly grouping dots into bars (5 dots = 1 bar) and placing symbols in the proper vertical positions for powers of 20.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an ______ decoding a Mayan stone carving that shows three rows of dots and bars: the bottom row has two bars, the middle row has one dot, and the top row has three dots.",
+     "a": "archaeologist",
+     "self_check": true
     }
    ]
   }

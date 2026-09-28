@@ -34,6 +34,26 @@
      "q": "Create a real-world scenario (Indian context) that can be modeled by a piecewise function combining at least two of the seven standard functions. Define the function, state its domain/range in context, sketch the graph, and explain what the graph's features represent in your scenario.",
      "a": "Example: Electricity billing in Mumbai. First 100 units: ₹3/unit (constant rate → linear). Next 200 units: ₹5/unit. Above 300 units: ₹8/unit. Function: C(x) = 3x for 0 ≤ x ≤ 100; C(x) = 300 + 5(x-100) = 5x - 200 for 100 < x ≤ 300; C(x) = 1300 + 8(x-300) = 8x - 1100 for x > 300. Domain: [0, ∞) (units consumed). Range: [0, ∞) (bill in ₹). Graph: Three line segments with increasing slopes (3, 5, 8) joined at (100, 300) and (300, 1300). Features: Slope = marginal cost per unit; kinks = slab boundaries; intercepts = fixed charges (none here). A poor answer uses only one function type or ignores domain restrictions, showing inability to synthesize multiple concepts.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A real ______ is a rule that assigns to each real number x in its domain exactly one real number f(x) in its range, where both domain and range are subsets of ℝ.",
+     "a": "function",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ model for a Delhi Metro ride: the fare is ₹10 for the first 2 km, then ₹5 for every additional kilometre.",
+     "a": "pricing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can accurately sketch graphs of all seven standard real functions (identity, constant, polynomial, rational, modulus, signum, greatest integer) by identifying domain, range, intercepts, asymptotes, and critical points; can perform algebraic operations on functions and graph the results; can interpret graphical features to answer.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a pricing model for a Delhi Metro ride: the fare is ₹10 for the first 2 km, then ₹5 for every ______ kilometre.",
+     "a": "additional",
+     "self_check": true
     }
    ]
   }

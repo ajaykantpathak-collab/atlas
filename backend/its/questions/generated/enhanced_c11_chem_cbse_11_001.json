@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_11_001",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_11_001",
+   "title": "c11_chem_cbse_11_001",
+   "questions": [
+    {
+     "q": "Write the IUPAC name and draw the line-bond structure for the alkane with molecular formula C₆H₁₄ that has **only primary and quaternary carbon atoms** (no secondary or tertiary carbons).",
+     "a": "**Answer:** 2,2-Dimethylbutane (Neohexane). Structure: CH₃–C(CH₃)₂–CH₂–CH₃ (central C bonded to 3 CH₃ and 1 CH₂CH₃).  \n**Wrong answer reveals:** If a student writes \"hexane\" or \"3-methylpentane\", they confuse \"primary/quaternary only\" with \"straight chain\" or misidentify carbon types. They likely cannot map the carbon skeleton to the degree of substitution (1°, 2°, 3°, 4°). This is a Class 11-specific skill: identifying carbon types in branched alkanes to predict halogenation products.",
+     "self_check": true
+    },
+    {
+     "q": "In the free radical chlorination of **2-methylbutane**, which **monochlorinated product** will be formed in the **highest yield**? Explain using the stability of the intermediate free radical.",
+     "a": "**Answer:** 2-Chloro-2-methylbutane (tertiary chloride).  \n**Reasoning:** The tertiary H (on C-2) is abstracted most easily because the resulting **tertiary free radical** (CH₃–Ċ(CH₃)–CH₂–CH₃) is stabilised by **hyperconjugation (9 α-H)** and inductive effect, making it more stable than secondary (6 α-H) or primary (3 α-H) radicals.  \n**Wrong answer reveals:** If a student picks the primary or secondary chloride, they either ignore the **3° > 2° > 1° radical stability order** or miscount the number of equivalent H atoms (statistical factor). They may think \"more H atoms = more product\" (statistical control) rather than \"more stable radical = faster formation\" (thermodynamic/kinetic control).",
+     "self_check": true
+    },
+    {
+     "q": "**Problem:** 0.5 mol of sodium propanoate (C₂H₅COONa) is heated with soda-lime (NaOH + CaO). Calculate the **volume of gaseous product** formed at STP (Standard Temperature and Pressure, 273 K, 1 atm). Identify the gas.",
+     "a": "**Steps:**  \n1. Reaction: C₂H₅COONa + NaOH →(CaO, Δ) CH₃CH₃ (ethane) + Na₂CO₃ (Decarboxylation).  \n2. Stoichiometry: 1 mol salt → 1 mol alkane (with one less C).  \n3. Moles of ethane = 0.5 mol.  \n4. At STP, 1 mol gas = 22.4 L → Volume = 0.5 × 22.4 = **11.2 L**.  \n5. Gas = **Ethane (C₂H₆)**.  \n**Wrong answer reveals:** If a student gives 22.4 L, they forgot the 0.5 mol scaling. If they say \"propane\" or \"methane\", they misunderstand decarboxylation (loses CO₂, so Cₙ → Cₙ₋₁). If they use 24 L (RTP), they confuse STP with Room Temperature Pressure — a common board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "**Analyse:** Compare the boiling points of **n-pentane (309 K)**, **2-methylbutane (301 K)**, and **2,2-dimethylpropane (282.5 K)**. All have formula C₅H₁₂. Explain the trend **using surface area and intermolecular forces**, not just \"branching lowers boiling point\".",
+     "a": "**Answer:** Boiling point order: n-pentane > 2-methylbutane > 2,2-dimethylpropane.  \n**Reasoning:** All are non-polar; only **London dispersion forces** operate. n-Pentane has a **linear chain** → maximum **surface area** for intermolecular contact → strongest dispersion forces. 2-Methylbutane has one branch → reduced contact area. 2,2-Dimethylpropane (neopentane) is **near-spherical** → minimum surface area → weakest forces.  \n**Wrong answer reveals:** If a student says \"branching increases boiling point\" or \"neopentane has higher b.p. because it's more compact\", they confuse **packing in solids** (melting point) with **intermolecular attraction in liquids**. They may also incorrectly invoke dipole moments (alkanes have μ ≈ 0).",
+     "self_check": true
+    },
+    {
+     "q": "**Evaluate:** A student writes the Wurtz reaction for preparing **propane** as:  \n`CH₃Br + C₂H₅Br →(Na/dry ether) CH₃–CH₂–CH₃ (propane)`  \nIs this correct? If not, what are the **actual products** and **why** is this method unsuitable for odd-carbon alkanes?",
+     "a": "**Answer:** **Incorrect.** The reaction uses **two different alkyl halides**, so it produces a **mixture of three alkanes**:  \n- CH₃–CH₃ (ethane) from 2 CH₃Br  \n- CH₃–CH₂–CH₃ (propane) from CH₃Br + C₂H₅Br  \n- CH₃–CH₂–CH₂–CH₃ (butane) from 2 C₂H₅Br  \nSeparation is difficult (similar boiling points). Wurtz is **only suitable for symmetrical alkanes (even C)** from a single alkyl halide.  \n**Wrong answer reveals:** If the student says \"only propane forms\", they don't understand the **free radical coupling mechanism** (R• + R'• → R–R, R–R', R'–R'). They miss that Na generates *both* radicals simultaneously, leading to statistical coupling.",
+     "self_check": true
+    },
+    {
+     "q": "**Create:** Design a **two-step synthesis** to convert **ethyne (acetylene)** into **n-butane** using only reactions covered in this node (alkane preparation). Write balanced equations for each step with reagents/conditions.",
+     "a": "**Answer:**  \n**Step 1:** Hydrogenation of ethyne to ethene (cis) using **Lindlar's catalyst** (Pd/CaCO₃ poisoned with quinoline/S):  \n`CH≡CH + H₂ →(Pd/CaCO₃, quinoline) CH₂=CH₂`  \n**Step 2:** Hydrogenation of ethene to ethane using **Ni/Pt/Pd**:  \n`CH₂=CH₂ + H₂ →(Ni, Δ) CH₃–CH₃`  \n**Step 3 (implied):** Wurtz reaction of ethyl bromide (from ethane via free radical bromination, but *not in this node*).  \n*Better route within node scope:*  \n1. `CH≡CH + 2H₂ →(Pt) CH₃–CH₃` (complete hydrogenation to ethane)  \n2. `2CH₃CH₂Br + 2Na →(dry ether) CH₃CH₂–CH₂CH₃ (n-butane) + 2NaBr` (Wurtz)  \n*But ethyl bromide must come from ethane + Br₂/hν — allowed.*  \n**Criteria for good answer:** Uses only **hydrogenation** (Section 9.2.2) and **Wurtz** (Section 9.2.2), balanced equations, correct catalysts.  \n**Poor answer reveals:** Using Kolbe's electrolysis (gives ethane from acetate, not butane), or aromatisation (needs C₆+), or missing steps (no halide precursor for Wurtz).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

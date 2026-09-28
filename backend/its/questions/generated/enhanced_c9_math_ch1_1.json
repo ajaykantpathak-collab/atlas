@@ -34,6 +34,26 @@
      "q": "Create a real-life situation (Indian context) where using a Cartesian coordinate system with two perpendicular reference lines is necessary, and explain why a single number line would be insufficient.",
      "a": "Example: Locating a house in a city grid like Chandigarh where roads run North-South and East-West. You need both the sector number (e.g., Sector 17) and the house number within the sector, or distance from two main roads. A single number line can only give distance along one road, not the exact intersection. A poor answer gives a one-dimensional example (e.g., temperature over time) or fails to explain why two independent measurements are needed.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Cartesian coordinate system is a two-dimensional plane formed by two ______ number lines intersecting at their zero points; the horizontal line is the x-axis, the vertical line is the y-axis, and their intersection is the origin O(0,0).",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are describing the exact ______ of a bench in your school playground to a friend over the phone.",
+     "a": "location",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly draw and label the Cartesian plane with axes and origin, explain the meaning of the ordered pair (x, y) including the significance of signs, and identify the coordinates of points located on the axes or at the origin.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ the exact location of a bench in your school playground to a friend over the phone.",
+     "a": "describing",
+     "self_check": true
     }
    ]
   }

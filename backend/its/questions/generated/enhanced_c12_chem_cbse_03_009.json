@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using readily available materials (e.g., hydrogen peroxide, manganese dioxide, a gas syringe) to demonstrate that a catalyst lowers the activation energy. Outline the measurements you would take and how you would calculate Ea with and without the catalyst.",
      "a": "Measure the initial rate of O₂ evolution from H₂O₂ decomposition at 3–4 different temperatures (e.g., 20, 30, 40, 50 °C) with and without a fixed amount of MnO₂. Plot ln k vs 1/T for both sets; slopes give –Ea/R. The catalyzed plot will have a less negative slope (lower Ea). A poor answer omits temperature variation, uses only one temperature, or assumes rate constant is directly measured without determining reaction order first.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ energy (Ea) is the minimum extra energy that reactant molecules must possess over and above their average kinetic energy to undergo effective collisions leading to product formation; it is the energy difference between the activated complex (transition state) and the reactants, measured in J mol⁻¹ or kJ mol⁻¹.",
+     "a": "Activation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine heating milk on a stove: at room temperature it stays fresh for hours, but at boiling temperature it spoils in ______.",
+     "a": "minutes",
+     "self_check": true
+    },
+    {
+     "q": "What is Activation energy (Ea)? State the definition given in this lesson.",
+     "a": "Activation energy (Ea) is the minimum extra energy that reactant molecules must possess over and above their average kinetic energy to undergo effective collisions leading to product formation; it is the energy difference between the activated complex (transition state) and the reactants, measured in J mol⁻¹ or kJ mol⁻¹.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Take natural logs to get ln k = –Ea/R (______/T) + ln A — a straight line.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Activation energy (Ea)?",
+     "a": "Students often think activation energy is the energy of the reactants or the energy released in the reaction.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) calculate Ea from rate constants at two temperatures using the Arrhenius logarithmic form, (2) determine the pre-exponential factor A from a single k and Ea, (3) predict the temperature required for a given rate constant, and (4) explain how a catalyst lowers Ea without changing the overall thermodynamics.",
+     "self_check": true
     }
    ]
   }

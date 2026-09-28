@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_02_012",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_02_012",
+   "title": "c12_soc_cbse_02_012",
+   "questions": [
+    {
+     "q": "What was the primary objective of India's National Family Planning Programme launched in 1952, and which demographic indicator was it explicitly designed to reduce?",
+     "a": "The primary objective was to slow down the rate of population growth by promoting birth control methods, improving public health standards, and increasing public awareness about population and health issues. It explicitly targeted reducing the birth rate. A wrong answer (e.g., \"reducing death rate\" or \"improving sex ratio\") reveals confusion between the programme's fertility-focused mandate and broader demographic goals — students often conflate family planning with general public health programmes.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the National Family Planning Programme was renamed the National Family Welfare Programme after the Emergency (1975-77), and what fundamental shift in approach this renaming signalled.",
+     "a": "The renaming signalled a shift from coercive, target-driven sterilisation camps (vasectomy/tubectomy quotas imposed on poor, powerless people under the Emergency) to a voluntary, comprehensive reproductive health approach covering maternal-child health, nutrition, and informed contraceptive choice. A wrong answer focusing only on \"name change\" or \"less force\" misses the paradigmatic shift: from demographic targets as state imperative to reproductive rights as citizen entitlement — a distinction critical for board exam answers on policy evolution.",
+     "self_check": true
+    },
+    {
+     "q": "A state has a Total Fertility Rate (TFR) of 3.1 (like Uttar Pradesh in 2016) while another has 1.7 (like Tamil Nadu). Using the concept of replacement level fertility (2.1), calculate how many generations (assuming 25 years/generation) it would take for the high-TFR state to reach replacement level if TFR declines by 0.2 per decade, and explain why this mathematical projection may not match reality.",
+     "a": "Current TFR = 3.1. Target = 2.1. Difference = 1.0. Decline rate = 0.2 per decade → 1.0/0.2 = 5 decades = 50 years. At 25 years/generation = 2 generations. However, this linear projection ignores: (a) TFR decline slows as it approaches replacement level (demographic transition theory), (b) son preference and low female literacy in high-TFR states create cultural resistance, (c) healthcare access gaps delay fertility transition. Students who give only the mathematical answer miss the sociological reality that demographic transitions are non-linear and socially embedded.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the demographic rationale of the 1952 Family Planning Programme (population growth as development obstacle) with the 2000 National Population Policy's rationale (population stabilisation as outcome of development). What does this comparison reveal about the changing relationship between population policy and development planning in India?",
+     "a": "The 1952 rationale followed Malthusian logic: population growth outstrips resources → control fertility first to enable development. The 2000 rationale follows demographic transition logic: development (education, health, women's empowerment) → fertility decline follows naturally → stabilisation is a by-product. This reveals a shift from population control as prerequisite for development to population stabilisation as indicator of development success. Students who describe both as \"wanting fewer births\" miss the causal inversion: the 2000 policy treats fertility as dependent variable, not independent lever.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"India's demographic dividend will automatically yield economic growth because 64% of the population will be in the working-age group (15-59) by 2026.\" Use evidence from the NCERT text on employment generation rates (1987-2004) and the distinction between age-based vs. worker-based dependency ratios.",
+     "a": "The statement is flawed. NCERT Box 2.3 explicitly warns: \"changing age structure by itself cannot guarantee any benefits unless properly utilised through planned development.\" Employment generation in the 15-30 age group fell from 2.4%/year (1987-94) to 0.7% (rural) and 0.3% (urban) during 1994-2004. The age-based dependency ratio (non-working age/working age) may fall, but the worker-based dependency ratio (non-workers/workers) remains high due to unemployment/underemployment. Students who agree with the statement confuse demographic window with economic guarantee — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-point policy intervention for a district with TFR 3.5, female literacy 45%, and child sex ratio 880 — integrating lessons from India's policy history (1952-2017). Justify each point with a specific historical lesson.",
+     "a": "1. **Community-based ASHA-led counselling (not targets)**: Lesson from Emergency coercion — top-down quotas breed resistance; voluntary informed choice sustains acceptance. 2. **Converge education + health schemes (Beti Bachao + Samagra Shiksha)**: Lesson from 2000 NPP — fertility decline correlates with female literacy (Kerala/Tamil Nadu model), not sterilisation camps. 3. **Strict PCPNDT Act enforcement + conditional cash transfers for girl child**: Lesson from child sex ratio decline — prosperity without gender equity worsens sex-selective abortion (Punjab/Haryana paradox). Students proposing \"more sterilisation camps\" or \"cash for sterilisation\" repeat the 1975 error.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Population Policy in India refers to the systematic set of government strategies, programmes, and legislative measures designed to influence demographic trends — ______ fertility, mortality, and migration — in socially and economically desirable directions, evolving from the target-oriented National Family Planning Programme (1952) to the holistic, rights-based National Population Policy (2000) and National Health Policy (2017).",
+     "a": "particularly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're a health worker in 1976 during the Emergency — your supervisor hands you a quota: \"Bring 20 people for ______ this week or lose your job.\" Now fast-forward to 2024: an ASHA worker counsels a young couple on spacing methods, respecting their choice.",
+     "a": "sterilisation",
+     "self_check": true
+    },
+    {
+     "q": "What is Population Policy in India? State the definition given in this lesson.",
+     "a": "Population Policy in India refers to the systematic set of government strategies, programmes, and legislative measures designed to influence demographic trends — particularly fertility, mortality, and migration — in socially and economically desirable directions, evolving from the target-oriented National Family Planning Programme (1952).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Population Policy in India?",
+     "a": "Students believe \"National Population Policy 2000 replaced Family Planning Programme\" — they treat it as a simple programme rename.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can trace the historical evolution of India's population policy across three phases (1952 Family Planning, 1975-76 Emergency coercion, post-1977 Family Welfare, 2000 Population Policy, 2017 Health Policy), explain the shift from demographic targets to reproductive rights, and evaluate why regional disparities in TFR persist.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

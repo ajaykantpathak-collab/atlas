@@ -34,6 +34,31 @@
      "q": "Design a real-world scenario in a school playground using boundary white lines for a running race track that demonstrates the necessity of parallel lines, specifying how you would test that the lines are truly parallel.",
      "a": "The expected answer should describe two lane-marking lines for a 100-metre running track. To test if they are parallel, one must measure the perpendicular width of the lane using a measuring tape at the start line, the 50-metre mark, and the finish line; if every measurement is exactly 1.22 metres, the lines are parallel. A poor answer merely says \"look at them to see if they look straight,\" failing to use the measurable property of constant perpendicular distance.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Parallel lines are two or more lines in a single plane that never intersect or meet, no matter how far they are extended in either direction, and they always maintain a constant ______ distance from each other.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are walking down a long railway track in your town where the two steel rails run side by side, never touching each other even as they stretch into the ______.",
+     "a": "distance",
+     "self_check": true
+    },
+    {
+     "q": "What is Parallel lines? State the definition given in this lesson.",
+     "a": "Parallel lines are two or more lines in a single plane that never intersect or meet, no matter how far they are extended in either direction, and they always maintain a constant perpendicular distance from each other.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Parallel lines?",
+     "a": "Students often think that lines are parallel simply because they do not intersect within the visible drawing on their notebook page.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify, draw, and verify parallel lines using properties of constant distance and non-intersection, and can solve multi-step problems involving parallel line distances in real-world settings.",
+     "self_check": true
     }
    ]
   }

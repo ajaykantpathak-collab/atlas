@@ -34,6 +34,26 @@
      "q": "Construct two distinct finite sets A and B such that:\n- n(A) = 4, n(B) = 5,\n- n(A ∪ B) = 7,\n- n(A ∩ B) = 2.\nWrite the sets in roster form and draw a Venn diagram to illustrate.",
      "a": "One possible answer: A = {1, 2, 3, 4}, B = {3, 4, 5, 6, 7}. Then A ∩ B = {3, 4} (2 elements), A ∪ B = {1, 2, 3, 4, 5, 6, 7} (7 elements). The Venn diagram shows two overlapping circles with 2 in the intersection, 2 in A-only, 3 in B-only. A student who cannot satisfy all three cardinality conditions simultaneously (e.g., produces sets with n(A ∪ B) = 9) does not understand the inclusion-exclusion principle n(A ∪ B) = n(A) + n(B) - n(A ∩ B), which is implicitly tested here.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The union of two sets A and B, denoted by A ∪ B, is the set of all ______ that belong to A or to B (or to both).",
+     "a": "elements",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your ______ has a Cricket Club with members {Rahul, Priya, Amit, Sneha} and a Football Club with members {Amit, Sneha, Karan, Divya}.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly compute the union of any two given sets (finite or infinite, described by roster or set-builder form), represent the union using a Venn diagram, and state and apply the five fundamental properties (commutative, associative, identity, idempotent, law of U) to simplify expressions or prove equalities.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school has a Cricket Club with members {Rahul, Priya, Amit, Sneha} and a ______ Club with members {Amit, Sneha, Karan, Divya}.",
+     "a": "Football",
+     "self_check": true
     }
    ]
   }

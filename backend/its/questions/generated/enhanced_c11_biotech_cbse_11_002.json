@@ -34,6 +34,31 @@
      "q": "Design a minimal Python script (≤15 lines) that reads a multi-FASTA file `sequences.fasta`, computes the length and GC% of each record, and writes a CSV file `summary.csv` with columns: `id,length,gc_percent`. Use only Biopython and the standard library.",
      "a": "```python\nfrom Bio import SeqIO\nfrom Bio.SeqUtils import GC\nimport csv\n\nwith open(\"sequences.fasta\") as inp, open(\"summary.csv\", \"w\", newline=\"\") as out:\n    writer = csv.writer(out)\n    writer.writerow([\"id\", \"length\", \"gc_percent\"])\n    for record in SeqIO.parse(inp, \"fasta\"):\n        writer.writerow([record.id, len(record.seq), round(GC(record.seq), 2)])\n```\nA poor answer might omit `newline=\"\"` (causing blank rows on Windows), use manual string splitting instead of `csv.writer`, or forget to handle file closing—indicating gaps in practical file I/O robustness.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Python for ______ refers to the application of the Python programming language—specifically its core syntax, data structures, control flow, and key libraries (e.g., Biopython, NumPy, pandas)—to solve biological problems such as sequence manipulation, file parsing, statistical analysis, and visualization of high-throughput biological data.",
+     "a": "Bioinformatics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a summer intern at a Bengaluru-based ______ startup.",
+     "a": "genomics",
+     "self_check": true
+    },
+    {
+     "q": "What is Python for Bioinformatics? State the definition given in this lesson.",
+     "a": "Python for Bioinformatics refers to the application of the Python programming language—specifically its core syntax, data structures, control flow, and key libraries (e.g., Biopython, NumPy, pandas)—to solve biological problems such as sequence manipulation, file parsing, statistical analysis, and visualization of high-throughput.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Python for Bioinformatics?",
+     "a": "Students often believe they must master the entire Python standard library before touching bioinformatics.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write a Python script that reads a DNA sequence from a FASTA file, computes its GC content and melting temperature using Biopython, and outputs the results in a formatted table, explaining each library function used.",
+     "self_check": true
     }
    ]
   }

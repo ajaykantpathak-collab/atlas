@@ -42,9 +42,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lines = 1"
-   ]
+   "steps_chain": []
   },
   {
    "id": "hegp.205.5.1.2",
@@ -308,10 +306,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = sum((39, 34, 28, 5, 20))",
-    "mean = total / 5"
-   ]
+   "steps_chain": []
   },
   {
    "id": "hegp.205.5.1.8",
@@ -355,10 +350,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = sum((38, 9, 16, 4, 14))",
-    "mean = total / 5"
-   ]
+   "steps_chain": []
   },
   {
    "id": "hegp.205.5.2.1",
@@ -401,9 +393,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = 3 + 2 + 8"
-   ]
+   "steps_chain": []
   },
   {
    "id": "hegp.205.5.2.2",
@@ -446,9 +436,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = 2 + 2 + 4"
-   ]
+   "steps_chain": []
   }
  ]
 }

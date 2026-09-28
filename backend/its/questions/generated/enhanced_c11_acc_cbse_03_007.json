@@ -34,6 +34,31 @@
      "q": "Create a realistic business scenario involving a compound journal entry with at least three accounts where one account is an expense, one is an asset, and one is a liability. Write the complete journal entry with proper format and narration.",
      "a": "Scenario: A firm purchases a delivery van for ₹5,00,000, pays ₹1,00,000 cash, takes a loan of ₹3,50,000 from HDFC Bank, and pays ₹50,000 registration charges (expense) by cheque.\nEntry:\nVehicle A/c Dr. 5,00,000\nRegistration Expenses A/c Dr. 50,000\n    To Cash A/c 1,00,000\n    To HDFC Bank Loan A/c 3,50,000\n    To Bank A/c 50,000\n    (Purchased delivery van, paid registration, part cash, part loan)\nGood answer shows correct account classification, proper debit/credit, compound format, and meaningful narration. Poor answer (missing expense, wrong liability account, no narration) reveals inability to synthesize multiple concepts into one entry.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Journal is the primary book of original entry where business transactions are recorded for the first time in ______ order, following the double-entry system, with each entry showing the accounts to be debited and credited, their respective amounts, and a brief narration explaining the transaction.",
+     "a": "chronological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small stationery shop and sell 50 notebooks to a school on ______.",
+     "a": "credit",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small stationery shop and sell ______ notebooks to a school on credit.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently prepare a correctly formatted journal entry for any given business transaction, including identifying the correct accounts, applying debit/credit rules, writing proper narration, and distinguishing between simple and compound entries.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small ______ shop and sell 50 notebooks to a school on credit.",
+     "a": "stationery",
+     "self_check": true
     }
    ]
   }

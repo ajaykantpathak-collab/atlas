@@ -21,7 +21,7 @@
     "when are two sets said to be equal",
     "use the symbols of belongs to in set notation"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -38,7 +38,16 @@
      "action": "state the conclusion",
      "explain": "Summarise the answer with the key terms of the chapter."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 5 gives 5",
+     "compute": "count = 5"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh.101.2.1",

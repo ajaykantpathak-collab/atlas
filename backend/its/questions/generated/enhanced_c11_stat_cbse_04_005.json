@@ -34,6 +34,21 @@
      "q": "Design a frequency distribution with 5 classes where the class intervals are deliberately unequal, such that the class with the second-highest frequency becomes the modal class when the histogram is correctly drawn. Provide the full table and explain why this happens.",
      "a": "Example: Class 0–10 (f=8, width=10, density=0.8), 10–15 (f=6, width=5, density=1.2), 15–25 (f=12, width=10, density=1.2), 25–40 (f=10, width=15, density≈0.67), 40–50 (f=5, width=10, density=0.5). Here 15–25 has highest frequency (12) but 10–15 and 15–25 tie for highest density (1.2). To make second-highest frequency (10 in 25–40) become modal, adjust: 0–10 (f=5, d=0.5), 10–15 (f=8, d=1.6), 15–25 (f=12, d=1.2), 25–30 (f=10, d=2.0), 30–50 (f=6, d=0.3). Now 25–30 (f=10, 2nd highest freq) has highest density (2.0) → modal class. A poor answer uses equal widths or fails to show density > frequency ranking reversal, indicating the student cannot manipulate the width-frequency relationship.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A histogram is a two-dimensional graphical ______ of a continuous grouped frequency distribution where rectangles are drawn with bases as class intervals along the X-axis and areas proportional to corresponding class frequencies; for equal class intervals, rectangle heights equal frequencies, while for unequal class intervals, heights equal frequency density (frequency divided by class width).",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing the daily wages of 85 workers in a factory locality — the data ranges from ₹45 to ₹119 with varying ______ across wage brackets.",
+     "a": "frequencies",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently construct a histogram for both equal and unequal class intervals by correctly calculating frequency density when needed, converting discontinuous classes to continuous form, drawing adjacent rectangles with proper scaling, and interpreting the mode graphically from the highest rectangle.",
+     "self_check": true
     }
    ]
   }

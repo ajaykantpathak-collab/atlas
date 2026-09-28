@@ -5,6 +5,8 @@
    "id": "c8m1.2.1",
    "title": "Rational Numbers and Closure",
    "converted_to_compute": false,
+   "formula": "a/b + c/d = (a*d + c*b) / (b*d); a/b - c/d = (a*d - c*b) / (b*d); a/b x c/d = (a*c) / (b*d); a / 0 is not defined",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the rational numbers 3/4 and 5/7.",
@@ -41,27 +43,9 @@
   {
    "id": "c8m1.2.2",
    "title": "Commutativity of Rational Numbers",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the rational-number operation rules",
-     "explain": "apply the rational-number operation rules: num = 4 * 7 + 1 * 6 gives 34",
-     "compute": "num = 4 * 7 + 1 * 6"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the rational-number operation rules: den = 6 * 7 gives 42",
-     "compute": "den = 6 * 7"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the rational-number operation rules: val = num / den gives 0.809524",
-     "compute": "val = num / den"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "a + b = b + a; a x b = b x a",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the rational numbers 4/6 and 1/7.",
@@ -98,27 +82,9 @@
   {
    "id": "c8m1.2.3",
    "title": "Associativity of Rational Numbers",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the rational-number operation rules",
-     "explain": "apply the rational-number operation rules: num = 1 * 8 + 4 * 3 gives 20",
-     "compute": "num = 1 * 8 + 4 * 3"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the rational-number operation rules: den = 3 * 8 gives 24",
-     "compute": "den = 3 * 8"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the rational-number operation rules: val = num / den gives 0.833333",
-     "compute": "val = num / den"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "a + (b + c) = (a + b) + c; a x (b x c) = (a x b) x c",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the rational numbers 1/3 and 4/8.",
@@ -156,6 +122,8 @@
    "id": "c8m1.2.4",
    "title": "The Role of Zero (Additive Identity)",
    "converted_to_compute": false,
+   "formula": "a + 0 = 0 + a = a",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Use the identity (a + b)^2 = a^2 + 2ab + b^2 to find the square of 3 more than 4; report the value.",
@@ -193,6 +161,8 @@
    "id": "c8m1.2.5",
    "title": "The Role of 1 (Multiplicative Identity)",
    "converted_to_compute": false,
+   "formula": "a x 1 = 1 x a = a",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Use the identity (a + b)^2 = a^2 + 2ab + b^2 to find the square of 9 more than 3; report the value.",
@@ -229,15 +199,9 @@
   {
    "id": "c8m1.2.6",
    "title": "Distributivity of Multiplication over Addition",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the integer operation sign rules",
-     "explain": "apply the integer operation sign rules: total = -2 + (-16) gives -18",
-     "compute": "total = -2 + (-16)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "a x (b + c) = a x b + a x c; a x (b - c) = a x b - a x c",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the integers -2 and -16.",
@@ -275,6 +239,8 @@
    "id": "c8m1.2.7",
    "title": "Rational Numbers Between Two Rational Numbers",
    "converted_to_compute": false,
+   "formula": "mean = (a + b) / 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the rational numbers 4/4 and 2/7.",

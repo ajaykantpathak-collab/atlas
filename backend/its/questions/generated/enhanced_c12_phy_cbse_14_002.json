@@ -34,6 +34,21 @@
      "q": "**CREATE:** Design a thought experiment: A silicon sample is simultaneously doped with \\(N_D = 2 \\times 10^{21} \\text{m}^{-3}\\) donors and \\(N_A = 5 \\times 10^{20} \\text{m}^{-3}\\) acceptors (compensation doping). Predict the net carrier concentrations and the resulting semiconductor type (n-type or p-type). Explain the physical mechanism of compensation.",
      "a": "**Expected answer:** Net donor concentration \\(N_D - N_A = 1.5 \\times 10^{21} \\text{m}^{-3} > 0\\), so the material is **n-type**.  \n\\(n_e \\approx N_D - N_A = 1.5 \\times 10^{21} \\text{m}^{-3}\\).  \n\\(n_h = n_i^2 / n_e\\).  \n**Mechanism:** Each acceptor atom \"captures\" one donated electron (from a donor), becoming negatively ionised (\\(A^-\\)) and the donor becomes positively ionised (\\(D^+\\)). The captured electron is removed from the conduction band, effectively cancelling one donor's contribution. The remaining uncompensated donors provide the free electrons.  \nA poor answer (e.g., \"it becomes intrinsic\" or \"add the concentrations\") reveals misunderstanding of charge neutrality and the fact that dopants compensate each other, not add.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An extrinsic semiconductor is formed by ______ adding a tiny amount (ppm level) of a suitable impurity (dopant) to an intrinsic semiconductor to drastically increase its conductivity.",
+     "a": "deliberately",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a smartphone or an LED bulb — their \"brain\" is a tiny ______ chip.",
+     "a": "semiconductor",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To make useful components, we \"dope\" the crystal: replace one Si atom in a million with a phosphorus atom (______ valence electrons).",
+     "a": "5",
+     "self_check": true
     }
    ]
   }

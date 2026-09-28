@@ -32,7 +32,27 @@
     },
     {
      "q": "Design a simple experiment using two polaroid sheets, a white LED torch, and a smartphone light sensor app to verify Malus's law. Describe the procedure, the data to be recorded, and how you would analyze the data to confirm the \\(\\cos^2\\theta\\) dependence. What precautions would you take to ensure the incident light is unpolarized?",
-     "a": "Procedure: (1) Place the LED torch facing the smartphone's light sensor (or use the phone's front camera with a light meter app). (2) Hold one polaroid (P1) fixed in front of the torch. (3) Hold the second polaroid (P2) between P1 and the sensor, and rotate P2 in steps of 10° from 0° to 180°. (4) Record the sensor reading (lux) at each angle. (5) Subtract the background reading (with torch off). (6) Plot normalized intensity \\(I/I_{\\text{max}}\\) vs \\(\\theta\\) and compare with \\(\\cos^2\\theta\\). To ensure incident light is unpolarized: use a standard white LED torch (not a laser) and verify that rotating a single polaroid in front of the torch (without P1) gives constant intensity. If intensity varies, the torch itself emits partially polarized light; use a diffuser (tracing paper) in front of the torch. A poor answer would omit background subtraction, angle calibration, or the check for unpolarized incident light, indicating the student does not understand experimental controls.",
+     "a": "(1) Setup — face the torch at the phone's light sensor, fix the first polaroid in front of the torch, and hold the second polaroid between the first and the sensor, (2) Data — rotate the second polaroid in steps of ten degrees from zero to one hundred eighty and record the lux reading at each angle after subtracting the background taken with the torch off, (3) Analysis — plot the intensity normalised to its maximum against the angle and compare the curve with the cos-squared prediction, (4) The unpolarised check — rotating a single polaroid alone in front of the torch should give a constant reading, and if it does not, diffuse the torch light through tracing paper. A poor answer omits background subtraction, angle calibration or the unpolarised check, missing the experimental controls.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Polarization is the phenomenon of restricting the oscillations of the electric field vector of a transverse light wave to a single plane ______ to the direction of propagation.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a pair of polarized sunglasses: when you rotate one lens in front of the other, the view darkens and brightens ______.",
+     "a": "periodically",
+     "self_check": true
+    },
+    {
+     "q": "What is Polarization? State the definition given in this lesson.",
+     "a": "Polarization is the phenomenon of restricting the oscillations of the electric field vector of a transverse light wave to a single plane perpendicular to the direction of propagation.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Polarization?",
+     "a": "They confuse the angle in Malus's law (which is between the polarization direction of the *incident polarized light* and the analyzer's pass-axis) with an absolute orientation angle.",
      "self_check": true
     }
    ]

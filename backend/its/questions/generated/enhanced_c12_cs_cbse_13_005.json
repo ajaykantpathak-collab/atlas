@@ -34,6 +34,31 @@
      "q": "Design a **mini‑research project** (5‑step plan) that a Class 12 student could execute to investigate the impact of a specific technology (e.g., self‑checkout kiosks) on employment in their local supermarket. Specify data sources, methods, and how they would isolate the technology effect from other factors.",
      "a": "**Step 1: Define research question** — \"How did the introduction of self‑checkout kiosks affect the number and composition of cashier jobs in Supermarket X over 2022‑24?\"  \n**Step 2: Identify data sources** — (a) Store HR records (headcount, hours, roles) — request via manager; (b) POS transaction logs (share of self‑checkout vs. staffed lanes); (c) Informal interviews with 3‑4 cashiers.  \n**Step 3: Choose comparison design** — **Difference‑in‑differences**: compare Supermarket X (treatment) with a similar nearby supermarket Y that did not install kiosks (control), before/after installation.  \n**Step 4: Collect & clean data** — monthly cashier FTEs, average hours, wage bill; control for store footfall, seasonality.  \n**Step 5: Analyze & present** — plot trends, run simple regression: `Cashier_FTE = β₀ + β₁(Post×Treat) + β₂Footfall + ε`. Interpret β₁. Discuss limitations (small sample, confounding).  \nA poor answer that says \"just ask the manager\" lacks **counterfactual thinking** and **data triangulation** — essential for causal inference.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Impact of Technology on Employment refers to the multifaceted effects that technological advancements — such as automation, artificial intelligence, digital platforms, and robotics — have on the labor market, including job displacement, job creation, ______ of skill requirements, changes in wage structures, and shifts in the nature of work (e.g., gig economy, remote work).",
+     "a": "transformation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a popular food‑delivery app ______ AI‑based route optimization and automated chatbots for customer support.",
+     "a": "introduces",
+     "self_check": true
+    },
+    {
+     "q": "What is Impact of Technology on Employment? State the definition given in this lesson.",
+     "a": "Impact of Technology on Employment refers to the multifaceted effects that technological advancements — such as automation, artificial intelligence, digital platforms, and robotics — have on the labor market, including job displacement, job creation, transformation of skill requirements, changes in wage structures, and shifts in the.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Impact of Technology on Employment?",
+     "a": "\"Technology destroys jobs on a net basis — every robot/AI system replaces X workers permanently.\" Students often equate task automation with job elimination, ignoring three offsets: (1) Productivity effect — lower costs → lower prices → higher demand → more output → more jobs (if demand is elastic).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to analyze a given real-world scenario (e.g., introduction of AI in a service sector) and identify at least three distinct impacts on employment (job loss, new roles, reskilling needs) with supporting reasoning, and evaluate whether the net effect is likely positive, negative, or uncertain for different.",
+     "self_check": true
     }
    ]
   }

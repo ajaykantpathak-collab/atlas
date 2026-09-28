@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (using Indian context like marks, prices, or cricket runs) where the mean remains unchanged after removing two values, and the two removed values are different. Provide the full problem statement and solution.",
      "a": "Example: \"In 5 tests, Rohan's average is 70 marks. Two tests are cancelled and his average remains 70. One cancelled test score was 60. Find the other.\" Solution: Sum of two cancelled = 2×70=140, other = 80. A poor answer (e.g., both scores 70) shows the student cannot devise a scenario where deviations cancel, indicating lack of deep understanding of the balancing principle.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The mean of a data set remains ______ when values are added or removed if and only if the sum of the added values equals the product of the original mean and the number of added values, or the sum of the removed values equals the product of the original mean and the number of removed values.",
+     "a": "unchanged",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your ______ team has played 5 matches with an average of 40 runs.",
+     "a": "cricket",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can determine the value(s) to add or remove to keep the mean unchanged, and can solve for unknown values in a data set when the mean is stated to remain the same after addition or removal of data points.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ your cricket team has played 5 matches with an average of 40 runs.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

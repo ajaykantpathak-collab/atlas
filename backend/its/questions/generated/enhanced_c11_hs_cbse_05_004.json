@@ -34,6 +34,36 @@
      "q": "Design a classification key (dichotomous or multi-access) that a consumer could use to identify an unknown fabric's fibre category using only: (a) visual/tactile inspection, (b) burning test, (c) label information. Your key must distinguish all major categories from the NCERT classification.",
      "a": "A good key starts: 1. Label present? → Read fibre content. 2. No label → Burning test: shrinks/melts → Manufactured (synthetic if hard bead, regenerated cellulosic if paper smell). Doesn't shrink/melts → Natural: paper smell + grey ash = cellulosic; hair smell + crushable ash = protein. 3. Visual/tactile: high lustre + filament = silk/nylon/polyester; staple + dull = cotton/wool/acrylic. Poor keys omit the manufactured sub-divisions (regenerated vs synthetic) or confuse staple/filament as primary classifiers.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Textile fibres are classified based on their origin into natural fibres (obtained from plants, animals, or minerals in nature) and manufactured fibres (created through chemical processing of natural polymers or synthesis from ______), with each category further subdivided by chemical composition (cellulosic, protein, synthetic) and physical form (staple or filament).",
+     "a": "petrochemicals",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're shopping for a summer kurta and see labels saying \"100% cotton,\" \"cotton-______ blend,\" and \"viscose rayon.\" You wonder: which will keep you coolest?",
+     "a": "polyester",
+     "self_check": true
+    },
+    {
+     "q": "What is Textile fibres? State the definition given in this lesson.",
+     "a": "Textile fibres are classified based on their origin into natural fibres (obtained from plants, animals, or minerals in nature) and manufactured fibres (created through chemical processing of natural polymers or synthesis from petrochemicals), with each category further subdivided by chemical composition (cellulosic, protein, synthetic).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're shopping for a summer kurta and see labels saying \"______% cotton,\" \"cotton-polyester blend,\" and \"viscose rayon.\" You wonder: which will keep you coolest?",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Textile fibres?",
+     "a": "Students believe \"natural = good, synthetic = bad\" and classify fibres by perceived quality rather than scientific criteria.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify any given fibre into its correct category (natural cellulosic/protein/mineral, manufactured regenerated/modified/synthetic/mineral) and justify the classification using origin, chemical composition, and physical form (staple vs filament), while explaining how these attributes determine end-use.",
+     "self_check": true
     }
    ]
   }

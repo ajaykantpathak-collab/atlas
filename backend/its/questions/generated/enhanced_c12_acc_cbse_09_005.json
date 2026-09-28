@@ -34,6 +34,26 @@
      "q": "Create a mini case: A company has net profit before tax ₹20 lakh. It has the following: (a) depreciation ₹4 lakh, (b) loss on sale of furniture ₹1 lakh, (c) increase in prepaid expenses ₹50,000, (d) decrease in outstanding salaries ₹30,000, (e) interest received ₹2 lakh (investing income). Write the indirect method operating activities section showing all adjustments.",
      "a": "**Expected answer structure:**  \nNet profit before tax: 20,00,000  \n+ Depreciation: 4,00,000  \n+ Loss on sale of furniture: 1,00,000  \n- Interest received: (2,00,000)  \nOperating profit before WC changes: 23,00,000  \n- Increase in prepaid expenses: (50,000)  \n- Decrease in outstanding salaries: (30,000)  \nCash generated from operations: 22,20,000  \n- Tax paid: (say X)  \nNet cash from operations: (22,20,000 - X)  \nA poor answer misses the treatment of loss on sale (add back) or interest received (deduct), or misapplies working capital signs.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The indirect method of ascertaining cash flows from operating activities starts with net profit before tax and ______ items from the Statement of Profit and Loss and adjusts it for non-cash items (depreciation, goodwill written off, provisions), non-operating items (interest paid, profit/loss on sale of fixed assets), and changes in working capital (current assets and current liabilities) to arrive at cash generated from operations.",
+     "a": "extraordinary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ analyst at an Indian startup.",
+     "a": "financial",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The CEO hands you the Statement of Profit and Loss showing a net profit of ₹______ lakh but the bank balance barely moved.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) correctly identify the starting point as net profit before tax and extraordinary items, (2) classify each adjustment as an addition or deduction with justification, (3) prepare a complete working notes schedule for provision for taxation and fixed assets, and (4) arrive at the net cash from operating.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Create a hypothetical scenario: a newly discovered insect species shows a 1:1 sex ratio. Cytological analysis reveals females have two identical sex chromosomes and males have only one sex chromosome. Propose the sex determination system, name the type of gametes produced by each sex, and predict the outcome if an XX female is crossed with an XO male.",
      "a": "The system is XO. Female (XX) produces only X eggs. Male (XO) produces X sperm and O sperm. Cross: XX × XO → 1 XX (female) : 1 XO (male). A poor answer would propose XX-XY system or fail to mention the null gamete, showing inability to synthesise a new example from the learned pattern.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sex ______ is the biological mechanism that decides the sex of an organism based on the complement of sex chromosomes inherited from parents; in the XX-XY system (e.g., humans, Drosophila), females are homogametic (XX) producing only X-bearing gametes while males are heterogametic (XY) producing X and Y gametes in equal proportion, whereas in the XO system (e.g., grasshoppers, some bugs), females are XX and males have only one X chromosome (XO) with no Y chromosome, making males heterogametic and producing two types of gametes (X and null).",
+     "a": "determination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a geneticist studying a new insect species: you cross a male and female and observe a 1:1 sex ratio in the offspring, but when you examine the ______, the males have only one sex chromosome while females have two.",
+     "a": "chromosomes",
+     "self_check": true
+    },
+    {
+     "q": "What is Sex determination? State the definition given in this lesson.",
+     "a": "Sex determination is the biological mechanism that decides the sex of an organism based on the complement of sex chromosomes inherited from parents; in the XX-XY system (e.g., humans, Drosophila), females are homogametic (XX) producing only X-bearing gametes while males are heterogametic (XY) producing X and Y gametes in equal.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Sex determination?",
+     "a": "Students often believe the Y chromosome is the universal male-determining factor in all species because they learned human sex determination (XX-XY) in Class 10.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) correctly identify the sex chromosome constitution of parents and offspring for both XX-XY and XO systems given a cross, and (2) predict the phenotypic sex ratio in the progeny and explain why the heterogametic sex determines the sex of the offspring in each system.",
+     "self_check": true
     }
    ]
   }

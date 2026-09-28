@@ -34,6 +34,21 @@
      "q": "A kite is flying at a height of 60 m. The string makes an angle of 60° with the ground. Identify the line of sight, the angle of elevation, and the known and unknown sides.",
      "a": "Line of sight = the string from the person's hand to the kite. Angle of elevation = 60° (between the string and the ground/horizontal). Known: vertical height (opposite) = 60 m, angle = 60°. Unknown: length of string (hypotenuse). Use sin 60° = opposite/hypotenuse = 60/hypotenuse. A wrong answer (e.g., using tan instead of sin) shows the student cannot identify which sides correspond to which trigonometric ratio.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The line of sight is the ______ line drawn from the eye of an observer to the point being viewed.",
+     "a": "straight",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ on the ground looking up at the top of a tower.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can define the line of sight, distinguish between angle of elevation and angle of depression, identify these in a given diagram or word problem, and set up the correct right-angled triangle with the appropriate trigonometric ratio for solving height and distance problems.",
+     "self_check": true
     }
    ]
   }

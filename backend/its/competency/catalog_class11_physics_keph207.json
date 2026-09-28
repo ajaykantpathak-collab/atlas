@@ -1,441 +1,486 @@
 {
-  "class": 11,
-  "subject": "physics",
-  "chapter": 207,
-  "chapter_title": "Waves",
-  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keph207.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "concepts": [
+ "class": 11,
+ "subject": "physics",
+ "chapter": 207,
+ "chapter_title": "Waves",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keph207.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "keph207.14.2.1",
+   "title": "Transverse and Longitudinal Waves",
+   "section": "14.2",
+   "definition": "A wave carries energy through a medium without carrying the medium along. In transverse waves the particles vibrate across the travel direction -- ripples on a string -- while in longitudinal waves they push back and forth along it, forming compressions and rarefactions like sound in air.",
+   "formula": "",
+   "key_idea": "The disturbance travels, the medium stays -- the particle motion direction relative to the wave classifies it.",
+   "textbook_ref": "keph207.txt lines 30-140 (sections 14.1, 14.2 progressive waves, transverse and longitudinal waves, compressions and rarefactions, crests and troughs)",
+   "question_patterns": [
+    "distinguish transverse and longitudinal waves with examples",
+    "in class 11 waves: what are compressions and rarefactions",
+    "can sound travel as a transverse wave in air",
+    "which type of wave travels on a stretched string",
+    "define a progressive wave and name its parts",
+    "why does a water wave not carry the floating leaf along"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
     {
-      "id": "keph207.14.2.1",
-      "title": "Transverse and Longitudinal Waves",
-      "section": "14.2",
-      "definition": "A wave carries energy through a medium without carrying the medium along. In transverse waves the particles vibrate across the travel direction -- ripples on a string -- while in longitudinal waves they push back and forth along it, forming compressions and rarefactions like sound in air.",
-      "formula": "",
-      "key_idea": "The disturbance travels, the medium stays -- the particle motion direction relative to the wave classifies it.",
-      "textbook_ref": "keph207.txt lines 30-140 (sections 14.1, 14.2 progressive waves, transverse and longitudinal waves, compressions and rarefactions, crests and troughs)",
-      "question_patterns": [
-        "distinguish transverse and longitudinal waves with examples",
-        "in class 11 waves: what are compressions and rarefactions",
-        "can sound travel as a transverse wave in air",
-        "which type of wave travels on a stretched string",
-        "define a progressive wave and name its parts",
-        "why does a water wave not carry the floating leaf along"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "fix the travel direction",
-          "explain": "Every wave moves energy through the medium in one overall direction."
-        },
-        {
-          "step": 2,
-          "action": "compare the particle motion",
-          "explain": "Particles crossing the travel direction make it transverse; particles oscillating along it make it longitudinal."
-        },
-        {
-          "step": 3,
-          "action": "name the features",
-          "explain": "Transverse waves show crests and troughs; longitudinal waves show compressions and rarefactions sweeping forward."
-        }
-      ]
+     "step": 1,
+     "action": "fix the travel direction",
+     "explain": "Every wave moves energy through the medium in one overall direction."
     },
     {
-      "id": "keph207.14.3.1",
-      "title": "Wave Parameters: Wavelength, Frequency and Speed",
-      "section": "14.3",
-      "definition": "A travelling harmonic wave is described by amplitude, wavelength (the distance between like phases), frequency (oscillations per second at a fixed spot) and speed. These lock together: the wave speed equals frequency times wavelength, because in one period the pattern advances exactly one wavelength.",
-      "formula": "wave_speed = frequency * wavelength",
-      "key_idea": "Speed is frequency times wavelength -- the universal currency note of all wave motion.",
-      "textbook_ref": "keph207.txt lines 141-240 (section 14.3 displacement relation of a progressive wave, amplitude phase, wavelength and angular wave number, frequency and period)",
-      "question_patterns": [
-        "find the wave speed from the given frequency and wavelength",
-        "in class 11 waves: relate wavelength frequency and speed of a wave",
-        "a wave of the given wavelength has the given period, find its speed",
-        "define the angular wave number and its relation to wavelength",
-        "how far does the wave travel in one time period",
-        "from the displacement equation identify amplitude wavelength and frequency"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "multiply frequency by wavelength",
-          "explain": "Cycles per second times metres per cycle yields metres per second.",
-          "compute": "wave_speed = frequency * wavelength"
-        }
-      ]
+     "step": 2,
+     "action": "compare the particle motion",
+     "explain": "Particles crossing the travel direction make it transverse; particles oscillating along it make it longitudinal."
     },
     {
-      "id": "keph207.14.4.1",
-      "title": "Speed of a Wave on a String",
-      "section": "14.4",
-      "definition": "A string's wave speed comes from its tension and its mass per unit length: the square root of tension divided by linear density. Tighter strings carry waves faster, heavier strings slower -- which is why guitars tune by adjusting tension and use different gauges for different pitches.",
-      "formula": "string_speed = sqrt(tension / lin_density)",
-      "key_idea": "Restore the flat string fast (tension) but drag its mass along (density) -- their ratio sets the speed.",
-      "textbook_ref": "keph207.txt lines 241-330 (section 14.4 the speed of a travelling wave, speed of a transverse wave on a stretched string, derivation by dimensions)",
-      "question_patterns": [
-        "find the speed of a transverse wave on the given stretched string",
-        "in class 11 waves: how does the wave speed on a string depend on tension",
-        "a string of given linear density carries the given tension, compute the wave speed",
-        "why does loosening a guitar string lower the wave speed",
-        "what is linear mass density and its unit",
-        "the wave speed and tension are known, find the string's density"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "divide tension by density",
-          "explain": "The ratio of stretching force to mass per length has the units of speed squared.",
-          "compute": "ratio = tension / lin_density"
-        },
-        {
-          "step": 2,
-          "action": "take the square root",
-          "explain": "The root is the wave speed along the string.",
-          "compute": "string_speed = sqrt(ratio)"
-        }
-      ]
-    },
-    {
-      "id": "keph207.14.4.2",
-      "title": "Speed of Sound in a Gas",
-      "section": "14.5",
-      "definition": "Sound races through a gas as longitudinal pressure waves, with speed equal to the square root of the ratio of the elastic property to the inertia property -- gamma times pressure over density for an ideal gas. Newton's isothermal guess underestimates it; Laplace's adiabatic correction gives the right, temperature-dependent value.",
-      "formula": "sound_speed = sqrt(gamma * pressure / density)",
-      "key_idea": "Stiffness over inertia under a root, with gamma for the adiabatic squeeze -- sound speeds up in hotter, lighter gases.",
-      "textbook_ref": "keph207.txt lines 330-430 (section 14.5 the speed of a travelling wave continued: speed of sound in gases, Newton's and Laplace's formulae, effect of temperature)",
-      "question_patterns": [
-        "find the speed of sound in the given gas using Laplace's formula",
-        "in class 11 waves: why did Newton's calculation of sound speed fail",
-        "how does the speed of sound depend on temperature of the air",
-        "compute the sound speed from the given pressure density and gamma",
-        "why is sound faster in humid air",
-        "compare the elasticity and inertia factors for sound in a gas"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "scale pressure by gamma",
-          "explain": "The adiabatic modulus is gamma times the pressure.",
-          "compute": "modulus = gamma * pressure"
-        },
-        {
-          "step": 2,
-          "action": "divide by density and root",
-          "explain": "Dividing by the density and taking the root yields the sound speed.",
-          "compute": "sound_speed = sqrt(modulus / density)"
-        }
-      ]
-    },
-    {
-      "id": "keph207.14.7.1",
-      "title": "Superposition, Standing Waves and Harmonics",
-      "section": "14.7, 14.8",
-      "definition": "Overlapping waves simply add their displacements -- the principle of superposition. Two identical waves running opposite ways on a string add to a standing wave with fixed nodes and antinodes, and a string pinned at both ends accepts only frequencies that fit a whole number of half wavelengths: the harmonics.",
-      "formula": "freq = harmonic_n * wave_speed / (2 * length)",
-      "key_idea": "Nodes are where waves cancel forever; the allowed frequencies are whole-number multiples of the fundamental half-wave fit.",
-      "textbook_ref": "keph207.txt lines 431-560 (sections 14.7 superposition principle, 14.8 standing waves and normal modes, nodes antinodes, harmonics of a stretched string)",
-      "question_patterns": [
-        "state the principle of superposition of waves",
-        "in class 11 waves: what are nodes and antinodes of a standing wave",
-        "find the fundamental frequency of a string fixed at both ends",
-        "which harmonics can the given stretched string produce",
-        "how does the fundamental frequency change when the string length halves",
-        "distinguish standing waves from progressive waves"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "count the half waves",
-          "explain": "The chosen harmonic n fits n half wavelengths into the string length.",
-          "compute": "fit = 2 * length"
-        },
-        {
-          "step": 2,
-          "action": "divide speed by the fit",
-          "explain": "Multiplying n by speed over the full out-and-back length gives that harmonic's frequency.",
-          "compute": "freq = harmonic_n * wave_speed / fit"
-        }
-      ]
-    },
-    {
-      "id": "keph207.14.9.1",
-      "title": "Beats and the Doppler Effect",
-      "section": "14.9, 14.10",
-      "definition": "Two tones of nearly equal frequency played together wax and wane at the difference frequency -- beats -- useful for tuning instruments. When source or listener moves, the received frequency shifts (the Doppler effect), rising on approach and falling on retreat, the physics behind sirens and astronomical redshifts.",
-      "formula": "beat_freq = abs(freq1 - freq2)",
-      "key_idea": "Beats are the difference frequency made audible; Doppler shifts trace the closing or opening speed.",
-      "textbook_ref": "keph207.txt lines 561-700 (sections 14.9 beats, 14.10 Doppler effect, apparent frequency for moving source and observer, red and blue shifts)",
-      "question_patterns": [
-        "find the beat frequency of two nearly equal tuning forks",
-        "in class 11 waves: explain the formation of beats",
-        "why does a siren's pitch drop as it passes you",
-        "the two organ pipes sound together, how many beats per second",
-        "state how the apparent frequency changes when the source approaches",
-        "how many beats must a tuner remove to match the standard fork"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "difference the frequencies",
-          "explain": "The loudness surges once per cycle of the frequency gap; the absolute difference is the beat frequency.",
-          "compute": "beat_freq = abs(freq1 - freq2)"
-        }
-      ]
+     "step": 3,
+     "action": "name the features",
+     "explain": "Transverse waves show crests and troughs; longitudinal waves show compressions and rarefactions sweeping forward."
     }
-  ],
-  "worked_examples": [
+   ]
+  },
+  {
+   "id": "keph207.14.3.1",
+   "title": "Wave Parameters: Wavelength, Frequency and Speed",
+   "section": "14.3",
+   "definition": "A travelling harmonic wave is described by amplitude, wavelength (the distance between like phases), frequency (oscillations per second at a fixed spot) and speed. These lock together: the wave speed equals frequency times wavelength, because in one period the pattern advances exactly one wavelength.",
+   "formula": "wave_speed = frequency * wavelength",
+   "key_idea": "Speed is frequency times wavelength -- the universal currency note of all wave motion.",
+   "textbook_ref": "keph207.txt lines 141-240 (section 14.3 displacement relation of a progressive wave, amplitude phase, wavelength and angular wave number, frequency and period)",
+   "question_patterns": [
+    "find the wave speed from the given frequency and wavelength",
+    "in class 11 waves: relate wavelength frequency and speed of a wave",
+    "a wave of the given wavelength has the given period, find its speed",
+    "define the angular wave number and its relation to wavelength",
+    "how far does the wave travel in one time period",
+    "from the displacement equation identify amplitude wavelength and frequency"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "we1",
-      "source_ref": "keph207.txt lines 141-240 (wave parameters)",
-      "concept": "keph207.14.3.1",
-      "question_type": "compute",
-      "question_pattern": "A wave of frequency {frequency} Hz has wavelength {wavelength} m; find its speed.",
-      "extracted_variables": {
-        "frequency": 50,
-        "wavelength": 4
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "multiply frequency by wavelength",
-          "explain": "wave_speed = 50 * 4 = 200 m/s.",
-          "compute": "wave_speed = frequency * wavelength"
-        }
-      ]
-    },
-    {
-      "id": "we2",
-      "source_ref": "keph207.txt lines 141-240 (wave parameters)",
-      "concept": "keph207.14.3.1",
-      "question_type": "compute",
-      "question_pattern": "Sound of frequency {frequency} Hz has wavelength {wavelength} m in air; compute the sound speed.",
-      "extracted_variables": {
-        "frequency": 110,
-        "wavelength": 3
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "multiply frequency by wavelength",
-          "explain": "wave_speed = 110 * 3 = 330 m/s.",
-          "compute": "wave_speed = frequency * wavelength"
-        }
-      ]
-    },
-    {
-      "id": "we3",
-      "source_ref": "keph207.txt lines 241-330 (wave speed on a string)",
-      "concept": "keph207.14.4.1",
-      "question_type": "compute",
-      "question_pattern": "A string with linear density {lin_density} kg/m is stretched to {tension} N; find the wave speed.",
-      "extracted_variables": {
-        "tension": 80,
-        "lin_density": 0.05
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "divide tension by density",
-          "explain": "ratio = 80 / 0.05 = 1600.",
-          "compute": "ratio = tension / lin_density"
-        },
-        {
-          "step": 2,
-          "action": "take the square root",
-          "explain": "string_speed = sqrt(1600) = 40 m/s.",
-          "compute": "string_speed = sqrt(ratio)"
-        }
-      ]
-    },
-    {
-      "id": "we4",
-      "source_ref": "keph207.txt lines 330-430 (speed of sound in gases)",
-      "concept": "keph207.14.4.2",
-      "question_type": "compute",
-      "question_pattern": "Air at pressure {pressure} Pa and density {density} kg/m^3 has gamma = {gamma}; find the speed of sound.",
-      "extracted_variables": {
-        "pressure": 101300,
-        "density": 1.3,
-        "gamma": 1.4
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "scale pressure by gamma",
-          "explain": "modulus = 1.4 * 101300 = 141820.",
-          "compute": "modulus = gamma * pressure"
-        },
-        {
-          "step": 2,
-          "action": "divide by density and root",
-          "explain": "sound_speed = sqrt(141820 / 1.3), about 330 m/s.",
-          "compute": "sound_speed = sqrt(modulus / density)"
-        }
-      ]
-    },
-    {
-      "id": "we5",
-      "source_ref": "keph207.txt lines 431-560 (standing waves, harmonics)",
-      "concept": "keph207.14.7.1",
-      "question_type": "compute",
-      "question_pattern": "A string of length {length} m carries waves at {wave_speed} m/s; find its fundamental frequency.",
-      "extracted_variables": {
-        "length": 0.5,
-        "wave_speed": 40,
-        "harmonic_n": 1
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "count the half waves",
-          "explain": "fit = 2 * 0.5 = 1 m.",
-          "compute": "fit = 2 * length"
-        },
-        {
-          "step": 2,
-          "action": "divide speed by the fit",
-          "explain": "freq = 1 * 40 / 1 = 40 Hz.",
-          "compute": "freq = harmonic_n * wave_speed / fit"
-        }
-      ]
-    },
-    {
-      "id": "we6",
-      "source_ref": "keph207.txt lines 431-560 (standing waves, harmonics)",
-      "concept": "keph207.14.7.1",
-      "question_type": "compute",
-      "question_pattern": "For the string of length {length} m and wave speed {wave_speed} m/s, find the frequency of harmonic number {harmonic_n}.",
-      "extracted_variables": {
-        "length": 1,
-        "wave_speed": 100,
-        "harmonic_n": 2
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "count the half waves",
-          "explain": "fit = 2 * 1 = 2 m.",
-          "compute": "fit = 2 * length"
-        },
-        {
-          "step": 2,
-          "action": "divide speed by the fit",
-          "explain": "freq = 2 * 100 / 2 = 100 Hz.",
-          "compute": "freq = harmonic_n * wave_speed / fit"
-        }
-      ]
-    },
-    {
-      "id": "we7",
-      "source_ref": "keph207.txt lines 561-700 (beats)",
-      "concept": "keph207.14.9.1",
-      "question_type": "compute",
-      "question_pattern": "Two forks sound at {freq1} Hz and {freq2} Hz together; find the beat frequency.",
-      "extracted_variables": {
-        "freq1": 342,
-        "freq2": 338
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "difference the frequencies",
-          "explain": "beat_freq = abs(342 - 338) = 4 beats per second.",
-          "compute": "beat_freq = abs(freq1 - freq2)"
-        }
-      ]
-    },
-    {
-      "id": "we8",
-      "source_ref": "keph207.txt lines 561-700 (beats)",
-      "concept": "keph207.14.9.1",
-      "question_type": "compute",
-      "question_pattern": "Notes of {freq1} Hz and {freq2} Hz play together; compute how many beats occur per second.",
-      "extracted_variables": {
-        "freq1": 512,
-        "freq2": 506
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "difference the frequencies",
-          "explain": "beat_freq = abs(512 - 506) = 6 beats per second.",
-          "compute": "beat_freq = abs(freq1 - freq2)"
-        }
-      ]
-    },
-    {
-      "id": "we9",
-      "source_ref": "keph207.txt lines 241-330 (wave speed on a string)",
-      "concept": "keph207.14.4.1",
-      "question_type": "compute",
-      "question_pattern": "With tension {tension} N and linear density {lin_density} kg/m, compute how fast waves travel on the string.",
-      "extracted_variables": {
-        "tension": 100,
-        "lin_density": 0.01
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "divide tension by density",
-          "explain": "ratio = 100 / 0.01 = 10000.",
-          "compute": "ratio = tension / lin_density"
-        },
-        {
-          "step": 2,
-          "action": "take the square root",
-          "explain": "string_speed = sqrt(10000) = 100 m/s.",
-          "compute": "string_speed = sqrt(ratio)"
-        }
-      ]
-    },
-    {
-      "id": "we10",
-      "source_ref": "keph207.txt lines 330-430 (speed of sound in gases)",
-      "concept": "keph207.14.4.2",
-      "question_type": "compute",
-      "question_pattern": "A gas has pressure {pressure} Pa, density {density} kg/m^3 and gamma = {gamma}; compute the sound speed in it.",
-      "extracted_variables": {
-        "pressure": 101300,
-        "density": 1.29,
-        "gamma": 1.4
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "scale pressure by gamma",
-          "explain": "modulus = 1.4 * 101300 = 141820.",
-          "compute": "modulus = gamma * pressure"
-        },
-        {
-          "step": 2,
-          "action": "divide by density and root",
-          "explain": "sound_speed = sqrt(141820 / 1.29), about 331.5 m/s.",
-          "compute": "sound_speed = sqrt(modulus / density)"
-        }
-      ]
+     "step": 1,
+     "action": "multiply frequency by wavelength",
+     "explain": "Cycles per second times metres per cycle yields metres per second.",
+     "compute": "wave_speed = frequency * wavelength"
     }
-  ],
-  "exercises": [
+   ],
+   "compute_steps": [
     {
-      "id": "ex1",
-      "source_ref": "keph207.txt end-of-chapter exercises, reworded",
-      "questions": [
-        "A string of given mass and length is stretched by a given tension; find the time a transverse wave takes to travel its length.",
-        "A travelling wave is described by the given equation; extract the amplitude, wavelength, frequency and speed.",
-        "Show that the given function represents a travelling wave and find its speed and direction.",
-        "A wire emits its fundamental note of the given frequency; find the wave speed on it.",
-        "Two sitar strings tuned close together produce the given number of beats; find the unknown frequency.",
-        "A train approaches a stationary listener at the given speed; find the apparent frequency of its whistle.",
-        "Explain why a standing wave transports no energy across the nodes.",
-        "Estimate the speed of sound at the given temperature using Laplace's correction."
-      ]
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "wave_speed = frequency * wavelength",
+     "compute": "wave_speed = frequency * wavelength"
     }
-  ]
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "keph207.14.4.1",
+   "title": "Speed of a Wave on a String",
+   "section": "14.4",
+   "definition": "A string's wave speed comes from its tension and its mass per unit length: the square root of tension divided by linear density. Tighter strings carry waves faster, heavier strings slower -- which is why guitars tune by adjusting tension and use different gauges for different pitches.",
+   "formula": "string_speed = sqrt(tension / lin_density)",
+   "key_idea": "Restore the flat string fast (tension) but drag its mass along (density) -- their ratio sets the speed.",
+   "textbook_ref": "keph207.txt lines 241-330 (section 14.4 the speed of a travelling wave, speed of a transverse wave on a stretched string, derivation by dimensions)",
+   "question_patterns": [
+    "find the speed of a transverse wave on the given stretched string",
+    "in class 11 waves: how does the wave speed on a string depend on tension",
+    "a string of given linear density carries the given tension, compute the wave speed",
+    "why does loosening a guitar string lower the wave speed",
+    "what is linear mass density and its unit",
+    "the wave speed and tension are known, find the string's density"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide tension by density",
+     "explain": "The ratio of stretching force to mass per length has the units of speed squared.",
+     "compute": "ratio = tension / lin_density"
+    },
+    {
+     "step": 2,
+     "action": "take the square root",
+     "explain": "The root is the wave speed along the string.",
+     "compute": "string_speed = sqrt(ratio)"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "string_speed = sqrt(tension / lin_density)",
+     "compute": "string_speed = sqrt(tension / lin_density)"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "keph207.14.4.2",
+   "title": "Speed of Sound in a Gas",
+   "section": "14.5",
+   "definition": "Sound races through a gas as longitudinal pressure waves, with speed equal to the square root of the ratio of the elastic property to the inertia property -- gamma times pressure over density for an ideal gas. Newton's isothermal guess underestimates it; Laplace's adiabatic correction gives the right, temperature-dependent value.",
+   "formula": "sound_speed = sqrt(gamma * pressure / density)",
+   "key_idea": "Stiffness over inertia under a root, with gamma for the adiabatic squeeze -- sound speeds up in hotter, lighter gases.",
+   "textbook_ref": "keph207.txt lines 330-430 (section 14.5 the speed of a travelling wave continued: speed of sound in gases, Newton's and Laplace's formulae, effect of temperature)",
+   "question_patterns": [
+    "find the speed of sound in the given gas using Laplace's formula",
+    "in class 11 waves: why did Newton's calculation of sound speed fail",
+    "how does the speed of sound depend on temperature of the air",
+    "compute the sound speed from the given pressure density and gamma",
+    "why is sound faster in humid air",
+    "compare the elasticity and inertia factors for sound in a gas"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "scale pressure by gamma",
+     "explain": "The adiabatic modulus is gamma times the pressure.",
+     "compute": "modulus = gamma * pressure"
+    },
+    {
+     "step": 2,
+     "action": "divide by density and root",
+     "explain": "Dividing by the density and taking the root yields the sound speed.",
+     "compute": "sound_speed = sqrt(modulus / density)"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "sound_speed = sqrt(gamma * pressure / density)",
+     "compute": "sound_speed = sqrt(gamma * pressure / density)"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "keph207.14.7.1",
+   "title": "Superposition, Standing Waves and Harmonics",
+   "section": "14.7, 14.8",
+   "definition": "Overlapping waves simply add their displacements -- the principle of superposition. Two identical waves running opposite ways on a string add to a standing wave with fixed nodes and antinodes, and a string pinned at both ends accepts only frequencies that fit a whole number of half wavelengths: the harmonics.",
+   "formula": "freq = harmonic_n * wave_speed / (2 * length)",
+   "key_idea": "Nodes are where waves cancel forever; the allowed frequencies are whole-number multiples of the fundamental half-wave fit.",
+   "textbook_ref": "keph207.txt lines 431-560 (sections 14.7 superposition principle, 14.8 standing waves and normal modes, nodes antinodes, harmonics of a stretched string)",
+   "question_patterns": [
+    "state the principle of superposition of waves",
+    "in class 11 waves: what are nodes and antinodes of a standing wave",
+    "find the fundamental frequency of a string fixed at both ends",
+    "which harmonics can the given stretched string produce",
+    "how does the fundamental frequency change when the string length halves",
+    "distinguish standing waves from progressive waves"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "count the half waves",
+     "explain": "The chosen harmonic n fits n half wavelengths into the string length.",
+     "compute": "fit = 2 * length"
+    },
+    {
+     "step": 2,
+     "action": "divide speed by the fit",
+     "explain": "Multiplying n by speed over the full out-and-back length gives that harmonic's frequency.",
+     "compute": "freq = harmonic_n * wave_speed / fit"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "freq = harmonic_n * wave_speed / (2 * length)",
+     "compute": "freq = harmonic_n * wave_speed / (2 * length)"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "keph207.14.9.1",
+   "title": "Beats and the Doppler Effect",
+   "section": "14.9, 14.10",
+   "definition": "Two tones of nearly equal frequency played together wax and wane at the difference frequency -- beats -- useful for tuning instruments. When source or listener moves, the received frequency shifts (the Doppler effect), rising on approach and falling on retreat, the physics behind sirens and astronomical redshifts.",
+   "formula": "beat_freq = abs(freq_1 - freq_2)",
+   "key_idea": "Beats are the difference frequency made audible; Doppler shifts trace the closing or opening speed.",
+   "textbook_ref": "keph207.txt lines 561-700 (sections 14.9 beats, 14.10 Doppler effect, apparent frequency for moving source and observer, red and blue shifts)",
+   "question_patterns": [
+    "find the beat frequency of two nearly equal tuning forks",
+    "in class 11 waves: explain the formation of beats",
+    "why does a siren's pitch drop as it passes you",
+    "the two organ pipes sound together, how many beats per second",
+    "state how the apparent frequency changes when the source approaches",
+    "how many beats must a tuner remove to match the standard fork"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "difference the frequencies",
+     "explain": "The loudness surges once per cycle of the frequency gap; the absolute difference is the beat frequency.",
+     "compute": "beat_freq = abs(freq1 - freq2)"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "beat_freq = abs(freq_1 - freq_2)",
+     "compute": "beat_freq = abs(freq_1 - freq_2)"
+    }
+   ],
+   "converted_to_compute": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "keph207.txt lines 141-240 (wave parameters)",
+   "concept": "keph207.14.3.1",
+   "question_type": "compute",
+   "question_pattern": "A wave of frequency {frequency} Hz has wavelength {wavelength} m; find its speed.",
+   "extracted_variables": {
+    "frequency": 50,
+    "wavelength": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply frequency by wavelength",
+     "explain": "wave_speed = 50 * 4 = 200 m/s.",
+     "compute": "wave_speed = frequency * wavelength"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "keph207.txt lines 141-240 (wave parameters)",
+   "concept": "keph207.14.3.1",
+   "question_type": "compute",
+   "question_pattern": "Sound of frequency {frequency} Hz has wavelength {wavelength} m in air; compute the sound speed.",
+   "extracted_variables": {
+    "frequency": 110,
+    "wavelength": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply frequency by wavelength",
+     "explain": "wave_speed = 110 * 3 = 330 m/s.",
+     "compute": "wave_speed = frequency * wavelength"
+    }
+   ]
+  },
+  {
+   "id": "we3",
+   "source_ref": "keph207.txt lines 241-330 (wave speed on a string)",
+   "concept": "keph207.14.4.1",
+   "question_type": "compute",
+   "question_pattern": "A string with linear density {lin_density} kg/m is stretched to {tension} N; find the wave speed.",
+   "extracted_variables": {
+    "tension": 80,
+    "lin_density": 0.05
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide tension by density",
+     "explain": "ratio = 80 / 0.05 = 1600.",
+     "compute": "ratio = tension / lin_density"
+    },
+    {
+     "step": 2,
+     "action": "take the square root",
+     "explain": "string_speed = sqrt(1600) = 40 m/s.",
+     "compute": "string_speed = sqrt(ratio)"
+    }
+   ]
+  },
+  {
+   "id": "we4",
+   "source_ref": "keph207.txt lines 330-430 (speed of sound in gases)",
+   "concept": "keph207.14.4.2",
+   "question_type": "compute",
+   "question_pattern": "Air at pressure {pressure} Pa and density {density} kg/m^3 has gamma = {gamma}; find the speed of sound.",
+   "extracted_variables": {
+    "pressure": 101300,
+    "density": 1.3,
+    "gamma": 1.4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "scale pressure by gamma",
+     "explain": "modulus = 1.4 * 101300 = 141820.",
+     "compute": "modulus = gamma * pressure"
+    },
+    {
+     "step": 2,
+     "action": "divide by density and root",
+     "explain": "sound_speed = sqrt(141820 / 1.3), about 330 m/s.",
+     "compute": "sound_speed = sqrt(modulus / density)"
+    }
+   ]
+  },
+  {
+   "id": "we5",
+   "source_ref": "keph207.txt lines 431-560 (standing waves, harmonics)",
+   "concept": "keph207.14.7.1",
+   "question_type": "compute",
+   "question_pattern": "A string of length {length} m carries waves at {wave_speed} m/s; find its fundamental frequency.",
+   "extracted_variables": {
+    "length": 0.5,
+    "wave_speed": 40,
+    "harmonic_n": 1
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count the half waves",
+     "explain": "fit = 2 * 0.5 = 1 m.",
+     "compute": "fit = 2 * length"
+    },
+    {
+     "step": 2,
+     "action": "divide speed by the fit",
+     "explain": "freq = 1 * 40 / 1 = 40 Hz.",
+     "compute": "freq = harmonic_n * wave_speed / fit"
+    }
+   ]
+  },
+  {
+   "id": "we6",
+   "source_ref": "keph207.txt lines 431-560 (standing waves, harmonics)",
+   "concept": "keph207.14.7.1",
+   "question_type": "compute",
+   "question_pattern": "For the string of length {length} m and wave speed {wave_speed} m/s, find the frequency of harmonic number {harmonic_n}.",
+   "extracted_variables": {
+    "length": 1,
+    "wave_speed": 100,
+    "harmonic_n": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "count the half waves",
+     "explain": "fit = 2 * 1 = 2 m.",
+     "compute": "fit = 2 * length"
+    },
+    {
+     "step": 2,
+     "action": "divide speed by the fit",
+     "explain": "freq = 2 * 100 / 2 = 100 Hz.",
+     "compute": "freq = harmonic_n * wave_speed / fit"
+    }
+   ]
+  },
+  {
+   "id": "we7",
+   "source_ref": "keph207.txt lines 561-700 (beats)",
+   "concept": "keph207.14.9.1",
+   "question_type": "compute",
+   "question_pattern": "Two forks sound at {freq1} Hz and {freq2} Hz together; find the beat frequency.",
+   "extracted_variables": {
+    "freq1": 342,
+    "freq2": 338
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "difference the frequencies",
+     "explain": "beat_freq = abs(342 - 338) = 4 beats per second.",
+     "compute": "beat_freq = abs(freq1 - freq2)"
+    }
+   ]
+  },
+  {
+   "id": "we8",
+   "source_ref": "keph207.txt lines 561-700 (beats)",
+   "concept": "keph207.14.9.1",
+   "question_type": "compute",
+   "question_pattern": "Notes of {freq1} Hz and {freq2} Hz play together; compute how many beats occur per second.",
+   "extracted_variables": {
+    "freq1": 512,
+    "freq2": 506
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "difference the frequencies",
+     "explain": "beat_freq = abs(512 - 506) = 6 beats per second.",
+     "compute": "beat_freq = abs(freq1 - freq2)"
+    }
+   ]
+  },
+  {
+   "id": "we9",
+   "source_ref": "keph207.txt lines 241-330 (wave speed on a string)",
+   "concept": "keph207.14.4.1",
+   "question_type": "compute",
+   "question_pattern": "With tension {tension} N and linear density {lin_density} kg/m, compute how fast waves travel on the string.",
+   "extracted_variables": {
+    "tension": 100,
+    "lin_density": 0.01
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide tension by density",
+     "explain": "ratio = 100 / 0.01 = 10000.",
+     "compute": "ratio = tension / lin_density"
+    },
+    {
+     "step": 2,
+     "action": "take the square root",
+     "explain": "string_speed = sqrt(10000) = 100 m/s.",
+     "compute": "string_speed = sqrt(ratio)"
+    }
+   ]
+  },
+  {
+   "id": "we10",
+   "source_ref": "keph207.txt lines 330-430 (speed of sound in gases)",
+   "concept": "keph207.14.4.2",
+   "question_type": "compute",
+   "question_pattern": "A gas has pressure {pressure} Pa, density {density} kg/m^3 and gamma = {gamma}; compute the sound speed in it.",
+   "extracted_variables": {
+    "pressure": 101300,
+    "density": 1.29,
+    "gamma": 1.4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "scale pressure by gamma",
+     "explain": "modulus = 1.4 * 101300 = 141820.",
+     "compute": "modulus = gamma * pressure"
+    },
+    {
+     "step": 2,
+     "action": "divide by density and root",
+     "explain": "sound_speed = sqrt(141820 / 1.29), about 331.5 m/s.",
+     "compute": "sound_speed = sqrt(modulus / density)"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "keph207.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "A string of given mass and length is stretched by a given tension; find the time a transverse wave takes to travel its length.",
+    "A travelling wave is described by the given equation; extract the amplitude, wavelength, frequency and speed.",
+    "Show that the given function represents a travelling wave and find its speed and direction.",
+    "A wire emits its fundamental note of the given frequency; find the wave speed on it.",
+    "Two sitar strings tuned close together produce the given number of beats; find the unknown frequency.",
+    "A train approaches a stationary listener at the given speed; find the apparent frequency of its whistle.",
+    "Explain why a standing wave transports no energy across the nodes.",
+    "Estimate the speed of sound at the given temperature using Laplace's correction."
+   ]
+  }
+ ]
 }

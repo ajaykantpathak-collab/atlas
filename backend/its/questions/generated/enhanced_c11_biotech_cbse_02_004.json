@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using differential centrifugation and electron microscopy to demonstrate that ribosomes are physically attached to RER membranes and not just trapped in the cytosol between cisternae.",
      "a": "Homogenize cells, perform low-speed centrifugation to remove nuclei, then high-speed centrifugation to pellet microsomes (ER vesicles). Resuspend microsomes, treat one aliquot with high salt (0.5 M KCl) or puromycin to release ribosomes, and another with detergent (Triton X-100) to solubilize membranes. Centrifuge again: ribosomes from salt-treated sample remain in supernatant (released), while in detergent-treated sample they pellet with membrane fragments. EM of pellets shows ribosomes attached to membranes only in untreated/detergent samples. A poor answer omits the salt/detergent control or suggests only EM of whole cells, failing to prove physical attachment vs. entrapment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The endoplasmic reticulum (ER) is an extensive, ______ network of membrane-bound tubules and flattened sacs (cisternae) that forms a continuous channel system within the cytoplasm of eukaryotic cells, functioning as the primary site for protein folding, lipid synthesis, and calcium storage.",
+     "a": "interconnected",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a bustling factory where raw materials enter, get ______ on assembly lines, and are packaged for shipping.",
+     "a": "processed",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) distinguish RER and SER based on structural features (ribosome presence, morphology) and functional roles (protein vs. lipid processing) in a labeled diagram; (2) trace the complete pathway of a secretory protein from ribosome binding on RER to vesicle budding toward the Golgi apparatus, naming the signal.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a bustling factory where raw ______ enter, get processed on assembly lines, and are packaged for shipping.",
+     "a": "materials",
+     "self_check": true
     }
    ]
   }

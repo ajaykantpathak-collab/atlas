@@ -34,6 +34,21 @@
      "q": "Design a troubleshooting checklist for a student whose torchlight fails to light up when the switch is pushed. List at least three specific physical checks they should perform.",
      "a": "Criteria for a good answer: 1. Check if the electric cells are inserted with correct polarity orientation. 2. Inspect the thin wire filament inside the bulb to see if it is broken (fused). 3. Check the metal contacts and switch for corrosion, dirt, or loose connections that break the circuit. A poor answer gives vague advice like \"shake the torch hard until it works\" without identifying scientific components.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ is a portable handheld lighting device that uses an electric cell, a switch, and a small electric lamp housed in a casing to convert chemical energy into electrical energy and then into light energy.",
+     "a": "torchlight",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you slide the switch of a household ______ in your room during a power cut, the bulb instantly lights up your study table.",
+     "a": "torchlight",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify the internal parts of a torchlight, trace the continuous path of electric current from the cell through the switch and lamp, and troubleshoot why a torchlight fails to glow based on circuit breaks.",
+     "self_check": true
     }
    ]
   }

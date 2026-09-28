@@ -101,6 +101,161 @@ from backend.its.solver.math_kernel import normalize_unicode_math
 __all__ = ["normalize_input"]
 
 # --------------------------------------------------------------------------- #
+# 1b. Spelled-out number words -> digits
+# ("one hundred twenty kilometers per hour" -> "120 kilometers per hour",
+#  "two lakh" -> "200000").  Indian scale words included; article/pronoun
+#  uses of one/a/an are preserved ("one of the boys" stays worded).
+# --------------------------------------------------------------------------- #
+
+_NUM_UNITS = {
+    "zero": 0, "one": 1, "two": 2, "three": 3, "four": 4, "five": 5,
+    "six": 6, "seven": 7, "eight": 8, "nine": 9, "ten": 10,
+    "eleven": 11, "twelve": 12, "thirteen": 13, "fourteen": 14,
+    "fifteen": 15, "sixteen": 16, "seventeen": 17, "eighteen": 18,
+    "nineteen": 19, "twenty": 20, "thirty": 30, "forty": 40, "fifty": 50,
+    "sixty": 60, "seventy": 70, "eighty": 80, "ninety": 90,
+}
+_NUM_SCALES = {
+    "hundred": 100, "thousand": 1000, "lakh": 100000, "crore": 10000000,
+    "million": 1000000, "billion": 1000000000,
+}
+_NUM_WORDS = set(_NUM_UNITS) | set(_NUM_SCALES)
+_CONNECTORS = {"and"}
+
+# Unit/context words that make a bare "one"/"a" numeric
+# ("one kilometre" -> "1 kilometre", but "one of them" stays).
+# nouns that signal a count, not an operand: 'two angles', 'three lines'
+_COUNT_NOUNS = {
+    "angles", "lines", "numbers", "pairs", "points", "sides", "terms",
+    "boys", "girls", "students", "people", "friends", "children",
+    "apples", "oranges", "books", "pens", "coins", "notes", "items",
+    "digits", "factors", "multiples", "vertices", "edges", "faces",
+    "circles", "triangles", "squares", "rectangles", "polygons",
+    "steps", "iterations", "rounds", "times", "ways", "places",
+    "ropes", "pieces", "strips", "planks", "wires", "bells",
+    "symbols", "notebooks", "drinks", "snacks", "tiles", "rows",
+    "columns", "bars", "lamps", "posts", "flags", "beads", "marbles",
+    "questions", "answers", "problems", "numbers", "words",
+}
+
+_AFTER_NUM_UNITS = {
+    "km", "kilometre", "kilometres", "kilometer", "kilometers", "kmph",
+    "m", "metre", "metres", "meter", "meters", "cm", "mm", "kg", "g",
+    "kilogram", "kilograms", "gram", "grams", "litre", "litres", "liter",
+    "liters", "l", "ml", "s", "sec", "second", "seconds", "min", "mins",
+    "minute", "minutes", "h", "hr", "hrs", "hour", "hours", "day", "days",
+    "week", "weeks", "month", "months", "year", "years", "rupee", "rupees",
+    "rs", "paisa", "paise", "percent", "percentage", "degree", "degrees",
+    "mark", "marks", "dozen", "score", "pair", "times", "tonne", "tonnes",
+    "ton", "tons", "km/h", "m/s", "km/hr",
+}
+
+
+def _words_to_number(words: list) -> float:
+    """Greedy left-to-right: units accumulate, scales multiply the running
+    total ('one hundred twenty' -> ((1*100)+20) = 120; 'two lakh' -> 200000)."""
+    total = 0.0
+    current = 0.0
+    for w in words:
+        wl = w.lower()
+        if wl in _CONNECTORS:
+            continue
+        if wl in _NUM_UNITS:
+            current += _NUM_UNITS[wl]
+        elif wl in _NUM_SCALES:
+            scale = _NUM_SCALES[wl]
+            current = (current if current else 1.0) * scale
+            if scale >= 1000:
+                total += current
+                current = 0.0
+        else:
+            break
+    return total + current
+
+
+def _fmt_num(v: float) -> str:
+    return str(int(v)) if v == int(v) else str(v)
+
+
+def _expand_number_words(t: str) -> str:
+    tokens = t.split(" ")
+    out = []
+    i = 0
+    n = len(tokens)
+    while i < n:
+        tok = tokens[i]
+        tl = tok.lower().strip(".,;:!?")
+        startable = tl in _NUM_WORDS or (
+            tl in ("a", "an") and i + 1 < n and
+            tokens[i + 1].lower().strip(".,;:!?") in _NUM_SCALES)
+        if not startable:
+            out.append(tok)
+            i += 1
+            continue
+        # consume a maximal numeric phrase (number words + 'and')
+        j = i
+        phrase = []
+        if tl in ("a", "an"):
+            phrase.append("1")  # 'a hundred' -> 100
+        while j < n:
+            w = tokens[j].lower().strip(".,;:!?-")
+            if w in _NUM_WORDS or w in _CONNECTORS:
+                phrase.append(w)
+                j += 1
+            else:
+                break
+        # strip trailing connectors
+        while phrase and phrase[-1] in _CONNECTORS:
+            phrase.pop()
+            j -= 1
+        nxt = tokens[j].lower().strip(".,;:!?") if j < n else ""
+        phrase_nums = [w for w in phrase if w not in _CONNECTORS]
+        multi = len(phrase_nums) > 1
+        has_scale = any(w in _NUM_SCALES for w in phrase_nums)
+        ambiguous_single = (len(phrase_nums) == 1 and
+                            phrase_nums[0] in ("one", "1"))
+        # count-of-entities: 'two angles', 'two parallel lines' — the
+        # word is a count, not an operand.  Look past one adjective.
+        if len(phrase_nums) == 1 and (
+                nxt in _COUNT_NOUNS or
+                # 'two of them are 58 and 180' — 'two' counts the
+                # referents; the operands are the numbers after
+                (nxt == "of" and j + 1 < n and
+                 tokens[j + 1].lower().strip(".,;:!?")
+                 in ("them", "these", "those", "us")) or
+                (j + 1 < n and tokens[j + 1].lower()
+                 .strip(".,;:!?") in _COUNT_NOUNS) or
+                (j + 2 < n and tokens[j + 2].lower()
+                 .strip(".,;:!?") in _COUNT_NOUNS)):
+            out.extend(tokens[i:j])
+            i = j
+            continue
+        if ambiguous_single and nxt not in _AFTER_NUM_UNITS:
+            out.extend(tokens[i:j])
+            i = j
+            continue
+        if tl in ("a", "an") and not (multi or has_scale):
+            out.append(tok)
+            i += 1
+            continue
+        if not phrase_nums:
+            out.append(tok)
+            i += 1
+            continue
+        val = _words_to_number([w if w != "1" else "one" for w in phrase_nums])
+        # trailing "and a half / and half" -> +0.5
+        k = j
+        while k < n and tokens[k].lower() in ("and", "a"):
+            k += 1
+        if k < n and tokens[k].lower().startswith("half"):
+            val += 0.5
+            j = k + 1
+        out.append(_fmt_num(val))
+        i = j
+    return " ".join(out)
+
+
+# --------------------------------------------------------------------------- #
 # 2.  Power phrases -> caret (integer base and exponent only)
 # --------------------------------------------------------------------------- #
 
@@ -298,6 +453,7 @@ def _canonicalize_whitespace(t: str) -> str:
 # --------------------------------------------------------------------------- #
 
 _RULE_PIPELINE = (
+    _expand_number_words,
     _expand_power_phrases,
     _expand_indian_numbers,
     _expand_lakh_crore,
@@ -323,6 +479,18 @@ def normalize_input(text: str) -> str:
         return text
     try:
         t = normalize_unicode_math(text)
+        # '(Rule: holes = (8^steps - 1)/7)'-style hints carry literals
+        # that are NOT givens — strip them before any binding layer
+        # '(take pi = 22/7)' is load-bearing — keep the assignment,
+        # drop the wrapper so 'pi = 22/7' can bind
+        t = re.sub(r"\((?:take|use|assume)\s+(pi\s*=\s*[\d./]+)\s*\)",
+                   r" \1 ", t)
+        t = re.sub(r"\((?:use|rule|hint|formula|take|given|using|"
+                   r"where|assume)[^)]*\)", " ", t)
+        # '4, 9, 14, ... up to 51' — an ellipsis is sequence padding,
+        # not sentence punctuation; it would split 'sum the first 12
+        # terms' from its object and break ask-clause detection
+        t = re.sub(r"\.{2,}|…", " ", t)
         for rule in _RULE_PIPELINE:
             t = rule(t)
         if "\x08" in t:          # transport-corruption self-check

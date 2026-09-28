@@ -34,6 +34,21 @@
      "q": "Design a floral formula for a hypothetical flower that is: ebracteate, unisexual male, actinomorphic, with 3 distinct whorls of perianth (each whorl 3 tepals, free), 6 stamens in two whorls of 3 (outer whorl opposite sepals, inner opposite petals), and no gynoecium. Draw the corresponding floral diagram layout (describe in words).",
      "a": "Formula: ⊕ ♂ P3+3 A3+3 G0\nDiagram: Three concentric circles. Outermost: 3 tepals (whorl 1). Middle: 3 tepals alternating with outer (whorl 2). Next: 3 stamens opposite outer tepals (whorl 3). Innermost: 3 stamens opposite middle tepals (whorl 4). Center: empty (no gynoecium). Mother axis dot at top. A poor answer drawing 6 stamens in one ring or placing gynoecium shows misunderstanding of whorl succession and unisexual representation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A floral formula is a concise symbolic ______ of the structure of a flower using standard symbols for each whorl (calyx, corolla, androecium, gynoecium), their numbers, fusion, adhesion, symmetry, and position of ovary, while a floral diagram is a schematic cross-sectional diagram showing the relative position, number, and arrangement of floral parts in successive whorls with respect to the mother axis.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a botanist ______ a hibiscus flower in your school garden.",
+     "a": "examining",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently convert a detailed floral description (including symmetry, whorl numbers, cohesion, adhesion, and ovary position) into a correct floral formula and draw the corresponding floral diagram with accurate whorl placement and mother axis position.",
+     "self_check": true
     }
    ]
   }

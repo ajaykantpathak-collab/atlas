@@ -34,6 +34,31 @@
      "q": "Construct a classification table for the following workers using the formal/informal criteria. Justify each classification in one sentence.\n(a) Driver of a bus company with 15 buses and 30 drivers/conductors\n(b) Owner of a textile shop employing 9 workers\n(c) Nurse in a government hospital\n(d) Cycle-rickshaw puller\n(e) Computer operator in state government office on temporary contract",
      "a": "(a) Formal - private enterprise with >10 hired workers. (b) Informal - private enterprise with <10 hired workers. (c) Formal - public sector establishment. (d) Informal - self-employed with no hired workers. (e) Formal - public sector establishment (contract status doesn't change enterprise classification). A poor answer would classify (e) as informal due to temporary contract, confusing worker status (casual/regular) with enterprise sector classification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The formal sector ______ all public sector establishments and private sector establishments employing 10 or more hired workers, where workers are covered by labour laws and social security benefits.",
+     "a": "comprises",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your neighbour, Ramesh, works as a clerk in a nationalised bank with a monthly salary, ______ fund, and paid leave.",
+     "a": "provident",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The formal sector comprises all public sector establishments and private sector establishments employing ______ or more hired workers, where workers are covered by labour laws and social security benefits.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify a given enterprise or worker into formal or informal sector using the 10-worker threshold and ownership criteria, calculate the formal/informal sector share from workforce data, and explain the economic implications of informalisation on worker vulnerability and jobless growth.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your neighbour, Ramesh, works as a clerk in a ______ bank with a monthly salary, provident fund, and paid leave.",
+     "a": "nationalised",
+     "self_check": true
     }
    ]
   }

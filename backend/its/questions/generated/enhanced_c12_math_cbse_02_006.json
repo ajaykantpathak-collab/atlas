@@ -34,6 +34,11 @@
      "q": "Construct a problem where the identity $2\\tan^{-1}x = \\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right)$ simplifies an expression that initially contains both $\\tan^{-1}$ and $\\sin^{-1}$, and solve it completely.",
      "a": "Problem: Simplify $\\sin^{-1}\\left(\\frac{2\\tan\\frac{\\pi}{8}}{1+\\tan^2\\frac{\\pi}{8}}\\right) - \\tan^{-1}1$.\nSolution: Recognise $\\frac{2\\tan\\theta}{1+\\tan^2\\theta}$ with $\\theta = \\frac{\\pi}{8}$. By identity, $\\sin^{-1}\\left(\\frac{2\\tan\\frac{\\pi}{8}}{1+\\tan^2\\frac{\\pi}{8}}\\right) = 2\\tan^{-1}\\tan\\frac{\\pi}{8} = 2 \\times \\frac{\\pi}{8} = \\frac{\\pi}{4}$ (since $\\frac{\\pi}{8} \\in [-\\frac{\\pi}{4}, \\frac{\\pi}{4}]$). Then $\\frac{\\pi}{4} - \\frac{\\pi}{4} = 0$.\nA poor answer computes numerically or fails to recognise the pattern — this tests whether the student can \"see\" the identity embedded in a non-standard form, a key skill for JEE Advanced comprehension passages.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ramp must rise 1 metre over a ______ distance of 2 metres.",
+     "a": "horizontal",
+     "self_check": true
     }
    ]
   }

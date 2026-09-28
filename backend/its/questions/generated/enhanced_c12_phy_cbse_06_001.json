@@ -34,6 +34,21 @@
      "q": "Design a simple classroom experiment to demonstrate that induced emf depends on the *rate* of change of magnetic flux, not just the total change. Specify materials, procedure, and what observations would confirm Faraday's law.",
      "a": "Materials: Strong bar magnet, coil (50+ turns), galvanometer (or LED + resistor), stopwatch. Procedure: (1) Move magnet toward coil slowly (2 s) — note max deflection. (2) Move same magnet same distance quickly (0.5 s) — note larger max deflection. (3) Move magnet same speed but use coil with more turns — note larger deflection. Observations: Faster motion → larger emf (dΦ/dt larger); more turns → larger emf (N times). This confirms ε ∝ N|dΦ/dt|. A poor answer (e.g., \"use stronger magnet\") tests flux magnitude, not rate of change.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Faraday's Law of ______ Induction states that the magnitude of the induced electromotive force (emf) in a closed circuit is equal to the time rate of change of magnetic flux through the circuit.",
+     "a": "Electromagnetic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan's motor — when you switch it on, the fan starts ______ due to induced currents from changing magnetic flux.",
+     "a": "rotating",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Calculate magnetic flux through a surface given B, A, and θ with correct units; (2) Apply Faraday's law ε = -N(dΦ/dt) to find induced emf magnitude and direction for time-varying flux scenarios; (3) Distinguish between flux change caused by changing B, changing A, or changing θ; (4) Solve numerical problems involving.",
+     "self_check": true
     }
    ]
   }

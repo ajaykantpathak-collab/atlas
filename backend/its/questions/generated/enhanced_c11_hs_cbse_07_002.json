@@ -34,6 +34,26 @@
      "q": "Design a flowchart for a 10-year-old child in a tribal village who develops fever → rash → joint pain → suspected rheumatic heart disease. Show the referral pathway across all three levels, specifying at each level: (a) cadre of provider, (b) key diagnostic/therapeutic action, (c) referral trigger to next level.",
      "a": "Level 1 (Primary – Sub-Centre/PHC): Provider = ANM/MPW/MO; Action = Clinical diagnosis (Jones criteria), throat swab, inj. penicillin prophylaxis; Trigger = Heart murmur detected / echo needed. Level 2 (Secondary – CHC/District Hospital): Provider = Paediatrician/Physician; Action = Echo confirmation, ASD/VSD ruling out, long-acting penicillin, heart failure management; Trigger = Valve damage needing surgery / complex arrhythmia. Level 3 (Tertiary – Medical College): Provider = Paediatric Cardiologist/CTVS; Action = Valve repair/replacement, catheter intervention, lifelong anticoagulation management. A poor answer lists only institutions without specifying cadres, actions, or triggers – showing memorisation without clinical reasoning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Health care delivery in India operates through a three-tiered referral system: Primary Health Care (PHC) is the first point of contact for individuals with the health system, providing preventive, promotive, and basic curative services at the community level; Secondary Health Care involves specialised services at district/sub-district hospitals to which patients are referred from PHCs for conditions requiring advanced diagnostics or specialist ______; Tertiary Health Care provides super-specialised, intensive care with advanced technology at medical colleges and apex institutions for complex cases referred from secondary level.",
+     "a": "consultation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you wake up with a high ______ and body ache – where do you go first?",
+     "a": "fever",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify a given health scenario into the appropriate level of care (primary, secondary, or tertiary), justify the classification using specific criteria (first contact, referral requirement, specialisation level, technology intensity), and explain the referral pathway between levels with at least two concrete.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you wake up with a high fever and body ache – where do you go first?",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

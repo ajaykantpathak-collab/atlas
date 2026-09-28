@@ -34,6 +34,31 @@
      "q": "Design a Phase I/IIa clinical trial protocol for iPSC-derived retinal pigment epithelium (RPE) transplantation in dry age-related macular degeneration (AMD). Specify: (a) Primary safety endpoint, (b) Primary efficacy endpoint with quantitative metric, (c) Cell dose rationale, (d) One exclusion criterion specific to stem cell therapy risks, (e) How you would monitor for tumorigenicity long-term.",
      "a": "(a) Primary safety: Incidence of Grade ≥3 adverse events (per CTCAE v5.0) at 12 months — including intraocular inflammation, retinal detachment, endophthalmitis, or ectopic tissue formation. (b) Primary efficacy: Change in Best-Corrected Visual Acuity (BCVA) letters (ETDRS chart) at 12 months vs. baseline; secondary: microperimetry sensitivity (dB) in treated region, OCT-measured outer nuclear layer thickness. (c) Cell dose: 50,000–100,000 RPE cells (based on RIKEN/Healios trials); monolayer covering ~0.5 mm² matches atrophic lesion size; higher doses risk subretinal hemorrhage. (d) Exclusion: Active intraocular inflammation or history of uveitis — stems from risk of immune activation against graft even with autologous cells. (e) Tumorigenicity monitoring: Annual fundus photography + OCT for 5 years; serum tumor markers (AFP, hCG); whole-body MRI at Years 1, 3, 5; mandatory reporting of any neoplasia. A poor answer omits quantitative efficacy metrics, uses arbitrary cell doses, or suggests only short-term follow-up — revealing lack of clinical trial design rigor.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stem cell therapy for diabetes and neurological disorders involves the use of pluripotent or multipotent stem cells to regenerate insulin-producing pancreatic beta cells (for Type 1 diabetes) or to replace damaged neurons and glial cells (for neurological disorders such as ALS, Parkinson's disease, spinal cord injury, and multiple sclerosis), aiming to restore ______ function rather than merely managing symptoms.",
+     "a": "physiological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 14-year-old diagnosed with Type 1 diabetes who must inject insulin 4-5 times daily, ______ doses based on food intake, activity, and glucose readings — a lifelong burden with risks of hypoglycemia and long-term complications.",
+     "a": "calculating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stem cell therapy for diabetes and neurological disorders involves the use of pluripotent or multipotent stem cells to regenerate insulin-producing pancreatic beta cells (for Type ______ diabetes) or to replace damaged neurons and glial cells (for neurological disorders such as ALS, Parkinson's disease, spinal cord injury, and multiple sclerosis), aiming to restore physiological function rather than merely managing symptoms.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Explain the specific stem cell types and differentiation protocols used for generating functional pancreatic beta cells and neural lineages, including key transcription factors and signaling pathways; (2) Compare the advantages and limitations of embryonic stem cells, iPSCs, and adult stem cells for each.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 14-year-old diagnosed with Type 1 diabetes who must inject insulin 4-5 times daily, calculating doses based on food intake, activity, and glucose readings — a lifelong burden with risks of hypoglycemia and long-term ______.",
+     "a": "complications",
+     "self_check": true
     }
    ]
   }

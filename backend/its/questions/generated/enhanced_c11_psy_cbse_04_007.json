@@ -34,6 +34,31 @@
      "q": "Design a 2x2 factorial experiment to test the interaction between stimulus intensity (high/low) and motivational state (hungry/satiated) on detection threshold for food odour. Specify the dependent variable, control variables, and the predicted interaction pattern based on the textbook.",
      "a": "Dependent variable: minimum detectable concentration of food odour (absolute threshold in ppm). Control variables: room temperature, humidity, time since last meal (standardised), odour type, presentation method. Predicted interaction: hungry participants show lower thresholds than satiated at both intensity levels, but the difference is largest at low intensity (motivation matters most when stimulus is weak). At high intensity, both groups detect easily (ceiling effect). A poor design that omits the satiated control group or uses only one intensity level cannot reveal the interaction, indicating the student does not grasp that internal factors modulate external factor effectiveness non-additively.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Determinants of attention are the specific external stimulus ______ (e.g., size, intensity, motion, novelty) and internal psychological states (e.g., motives, interests, attitudes, preparatory set) that govern which stimuli gain entry into conscious awareness from the vast array of simultaneous sensory inputs.",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are studying in a noisy café: the clatter of cups (intense, rhythmic sound), a friend waving (motion, biological relevance), and the smell of coffee (biological need) all compete for your limited ______ capacity.",
+     "a": "attentional",
+     "self_check": true
+    },
+    {
+     "q": "What is Determinants of attention? State the definition given in this lesson.",
+     "a": "Determinants of attention are the specific external stimulus characteristics (e.g., size, intensity, motion, novelty) and internal psychological states (e.g., motives, interests, attitudes, preparatory set) that govern which stimuli gain entry into conscious awareness from the vast array of simultaneous sensory inputs.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Determinants of attention?",
+     "a": "Students often believe 'internal factors' mean only conscious, voluntary goals (e.g., 'I decide to pay attention to the teacher').",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify any given real-world attentional scenario into external vs. internal determinants, explain the mechanism by which each factor operates (e.g., how intensity overrides habituation), and predict how changes in motivational state would alter attentional selection in a described situation.",
+     "self_check": true
     }
    ]
   }

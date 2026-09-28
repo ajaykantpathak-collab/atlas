@@ -1,0 +1,52 @@
+{
+ "catalog": "catalog_class12_physics_leph204.json",
+ "concepts": [
+  {
+   "id": "leph204.12.4.3",
+   "title": "Excitation Energy From the Ground State",
+   "converted_to_compute": true,
+   "formula": "excite_energy = E_n - E_1",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "excite_energy = E_n - E_1",
+     "compute": "excite_energy = E_n - E_1"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Excitation Energy From the Ground State: given E_n = 18.4, E_1 = 1.4, find excite energy.",
+     "a": "17",
+     "self_check": false
+    },
+    {
+     "q": "For Excitation Energy From the Ground State: given E_n = 12.3, E_1 = 36, find excite energy.",
+     "a": "-23.7",
+     "self_check": false
+    },
+    {
+     "q": "For Excitation Energy From the Ground State: given E_n = 6.9, E_1 = 94, find excite energy.",
+     "a": "-87.1",
+     "self_check": false
+    },
+    {
+     "q": "For Excitation Energy From the Ground State: given E_n = 2.8, E_1 = 42, find excite energy.",
+     "a": "-39.2",
+     "self_check": false
+    },
+    {
+     "q": "For Excitation Energy From the Ground State: given E_n = 7.5, E_1 = 39, find excite energy.",
+     "a": "-31.5",
+     "self_check": false
+    },
+    {
+     "q": "For Excitation Energy From the Ground State: given E_n = 5, E_1 = 41, find excite energy.",
+     "a": "-36",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

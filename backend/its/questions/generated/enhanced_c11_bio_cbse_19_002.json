@@ -34,6 +34,26 @@
      "q": "Design a simple dietary intervention study to test whether iodized salt prevents goitre in a village population, specifying the control group, duration, and measurable outcome.",
      "a": "Randomly assign households to receive either iodized salt (intervention) or non-iodized salt (control) for 12 months. Measure thyroid volume by ultrasound and urinary iodine concentration at baseline, 6 months, and 12 months. Outcome: reduction in goitre prevalence and increased urinary iodine in intervention group. A poor design (e.g., no control group, short duration, only self-reported neck swelling) reveals inability to apply experimental design principles to a public health nutrition problem.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The thyroid gland is a bilobed endocrine gland located anterior to the trachea that synthesizes iodinated hormones thyroxine (T4) and ______ (T3) regulating basal metabolic rate of lipids, carbohydrates, and proteins, and also secretes calcitonin (thyrocalcitonin) which lowers blood calcium levels.",
+     "a": "triiodothyronine",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a person in your neighborhood with a visible swelling at the base of the neck – this is a goitre, often caused by iodine ______ in the diet, common in inland areas of India where soil lacks iodine.",
+     "a": "deficiency",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the negative feedback loop between hypothalamus-pituitary-thyroid axis, describe the antagonistic roles of calcitonin and PTH in calcium homeostasis with specific target organs, and predict the physiological consequences of hypo/hypersecretion of each hormone (goitre, cretinism, Graves' disease, tetany, osteoporosis).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a person in your ______ with a visible swelling at the base of the neck – this is a goitre, often caused by iodine deficiency in the diet, common in inland areas of India where soil lacks iodine.",
+     "a": "neighborhood",
+     "self_check": true
     }
    ]
   }

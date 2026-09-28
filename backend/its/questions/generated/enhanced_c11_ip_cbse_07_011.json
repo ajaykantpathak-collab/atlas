@@ -34,6 +34,21 @@
      "q": "Design a single query on a STUDENTS table (columns: Name, Math, Science, English) that outputs: number of students, average total marks per student, highest total marks, and lowest total marks. Total marks = Math+Science+English.",
      "a": "SELECT COUNT(*), AVG(Math+Science+English), MAX(Math+Science+English), MIN(Math+Science+English) FROM STUDENTS;  \nA poor answer uses separate queries or tries to aggregate each subject separately, showing inability to compose expressions inside aggregate functions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: SQL aggregate functions perform ______ on a set of values from a column and return a single summary value.",
+     "a": "calculations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school canteen ______ has a SALES table with columns Item, Price, and Quantity.",
+     "a": "database",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must write correct SQL queries using aggregate functions on a given table, correctly handle NULL values, distinguish between COUNT(column) and COUNT(*), and combine aggregates with WHERE clauses to filter rows before aggregation.",
+     "self_check": true
     }
    ]
   }

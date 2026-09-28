@@ -34,6 +34,26 @@
      "q": "Design a locational proposal for a new 5 MTPA integrated steel plant in India. Specify state, nearest iron ore mine, coal source, transport mode, and one policy incentive you would leverage. Justify each choice in 30 words.",
      "a": "Example: Odisha, Keonjhar district. Iron ore: Barbil-Joda (haematite). Coal: Imported coking coal via Paradip port (coastal location). Transport: Slurry pipeline for ore, rail for coal, port for export. Incentive: PLI scheme for specialty steel (2021) + Odisha's Industrial Policy 2022 (capital subsidy, water/power priority). Good answer shows multi-factor optimisation (ore + port + policy); poor answer picks \"Jharkhand because coal\" ignoring coking coal scarcity and port access — revealing single-factor thinking.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Iron and Steel Industry is a mineral-based, heavy ______ sector that converts iron ore (haematite/magnetite) into pig iron, crude steel, and finished steel products using coking coal and limestone in blast furnaces, with its location in India governed by proximity to raw material deposits (Chota Nagpur Plateau), transport networks, and market access.",
+     "a": "manufacturing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real-world observation: \"Look at the rail tracks, bridges, and ______ sites around you — every kilogram of that steel began as red-brown haematite ore in Odisha or Jharkhand.\" Ask students to trace the journey from ore to girder.",
+     "a": "construction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Introduce Weber's weight-loss principle — raw materials (iron ore + coal + limestone) lose ~______% weight during smelting, so plants sit near mines.",
+     "a": "60",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) locate all major integrated steel plants (Bhilai, Rourkela, Bokaro, Jamshedpur, Durgapur, Burnpur, Bhadravati, Vijayanagar, Salem, Visakhapatnam) on an outline map of India and (2) explain the specific locational advantage for each plant using at least three Weberian factors (raw material, power, transport, market.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,62 @@
+{
+ "catalog": "catalog_class12_political_science_leps106.json",
+ "concepts": [
+  {
+   "id": "leps.106.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "kyoto_year = 3",
+      "rio_year = 29",
+      "rio_to_kyoto = kyoto_year - rio_year"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "kyoto_year = 8.2",
+      "rio_year = 12.5",
+      "rio_to_kyoto = kyoto_year - rio_year"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "kyoto_year = 92",
+      "rio_year = 59",
+      "rio_to_kyoto = kyoto_year - rio_year"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "kyoto_year = 58",
+      "rio_year = 56",
+      "rio_to_kyoto = kyoto_year - rio_year"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "kyoto_year = 67",
+      "rio_year = 27",
+      "rio_to_kyoto = kyoto_year - rio_year"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "kyoto_year = 15.3",
+      "rio_year = 77",
+      "rio_to_kyoto = kyoto_year - rio_year"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "rio_to_kyoto = kyoto_year - rio_year"
+   ]
+  }
+ ]
+}

@@ -34,6 +34,26 @@
      "q": "Construct a binomial expansion (a + b)^n where the middle term is a constant (no variables). Specify a, b, n and show the middle term computation.",
      "a": "Example: (x + 1/x)^6. n=6 (even), middle term at r=3. T_4 = ^6C_3 x^{6-3} (1/x)^3 = 20 x³ (1/x³) = 20. A poor answer might use (2+3)^n (no variables) or fail to ensure powers cancel. This reveals whether the student understands that variable cancellation requires reciprocal terms with matching exponents.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In the ______ expansion of (a + b)^n, the middle term(s) refer to the term(s) at the center of the expansion.",
+     "a": "binomial",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a Rangoli pattern for Diwali where each concentric ring has a number of dots following binomial ______.",
+     "a": "coefficients",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The general term formula T_{r+______} = ^nC_r a^{n-r} b^r is used with the appropriate r-value to compute the middle term(s).",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify whether a given binomial expansion has one or two middle terms based on the parity of n, compute the exact term(s) using the general term formula with proper substitution of r, and simplify the resulting expression including binomial coefficients and powers of a and b.",
+     "self_check": true
     }
    ]
   }

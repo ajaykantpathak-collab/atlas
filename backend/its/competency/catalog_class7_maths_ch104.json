@@ -136,7 +136,7 @@
     "what do you understand by omission of multiplication symbol",
     "list the main points about omission of multiplication symbol"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -148,7 +148,16 @@
      "action": "Remove the symbol",
      "explain": "Place the number immediately before the letter to denote multiplication."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 6 + 5 gives 23",
+     "compute": "val = 3 * 6 + 5"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.104.5",
@@ -207,7 +216,7 @@
     "what do you understand by like and unlike terms",
     "list the main points about like and unlike terms"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -219,7 +228,16 @@
      "action": "Classify terms",
      "explain": "If letters match, they are like terms; otherwise, they are unlike."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 8 + 2 gives 26",
+     "compute": "val = 3 * 8 + 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.104.7",
@@ -364,7 +382,7 @@
    "source_ref": "gegp104.txt lines 65-80",
    "concept": "gegp.104.3",
    "question_type": "compute",
-   "question_pattern": "Find the total cost for {c} coconuts at \u20b935 each and {j} kg jaggery at \u20b960 each.",
+   "question_pattern": "Find the total cost for {c} coconuts at ₹35 each and {j} kg jaggery at ₹60 each.",
    "extracted_variables": {
     "c": "number of coconuts",
     "j": "quantity of jaggery"
@@ -410,10 +428,10 @@
    "id": "ex4.2",
    "source_ref": "gegp104.txt lines 410-440",
    "questions": [
-    "Simplify: 3a + 9b \u2013 6 + 8a \u2013 4b \u2013 7a + 16",
-    "Simplify: 2 (2x \u2013 3) + 8x + 12",
-    "Add: 4d \u2013 7c + 9 and 8c \u2013 11 + 9d",
-    "Subtract: 9a \u2013 6b + 14 from 6a + 9b \u2013 18",
+    "Simplify: 3a + 9b – 6 + 8a – 4b – 7a + 16",
+    "Simplify: 2 (2x – 3) + 8x + 12",
+    "Add: 4d – 7c + 9 and 8c – 11 + 9d",
+    "Subtract: 9a – 6b + 14 from 6a + 9b – 18",
     "Find the number of matchsticks required to make w squares in the given pattern."
    ]
   }

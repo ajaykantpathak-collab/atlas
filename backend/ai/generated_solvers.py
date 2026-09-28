@@ -37,11 +37,8 @@ class GeneratedSolverStore:
 
     def _load_embedder(self):
         if self._embedder is None:
-            import os
-            os.environ['TRANSFORMERS_OFFLINE'] = '1'
-            os.environ['HF_HUB_OFFLINE'] = '1'
-            from sentence_transformers import SentenceTransformer
-            self._embedder = SentenceTransformer('all-MiniLM-L6-v2')
+            from backend.ai import model_hub
+            self._embedder = model_hub.try_get() or model_hub.load_sync()
         return self._embedder
 
     def load(self) -> None:

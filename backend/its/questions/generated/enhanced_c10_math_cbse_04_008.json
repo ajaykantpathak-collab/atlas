@@ -34,6 +34,11 @@
      "q": "Construct a quadratic equation with integer coefficients that has two distinct irrational roots. Write the equation, compute its discriminant, and explain why the roots are irrational.",
      "a": "Example: \\( x^2 - 4x - 1 = 0 \\). Here \\( a = 1, b = -4, c = -1 \\).\n\\( D = (-4)^2 - 4(1)(-1) = 16 + 4 = 20 \\).\nSince \\( D = 20 > 0 \\) but 20 is not a perfect square, \\( \\sqrt{20} = 2\\sqrt{5} \\) is irrational.\nRoots: \\( \\frac{4 \\pm 2\\sqrt{5}}{2} = 2 \\pm \\sqrt{5} \\), both irrational.\nA good answer shows \\( D > 0 \\) and \\( D \\) not a perfect square. A poor answer (e.g., \\( x^2 - 5x + 6 = 0 \\) with \\( D = 1 \\)) reveals the student doesn't connect \"irrational roots\" to \"discriminant positive but not a perfect square\", or doesn't know that rational roots require \\( \\sqrt{D} \\) to be rational.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ garden in a school courtyard where the length is 5 metres more than the breadth, and the area is 150 m².",
+     "a": "rectangular",
+     "self_check": true
     }
    ]
   }

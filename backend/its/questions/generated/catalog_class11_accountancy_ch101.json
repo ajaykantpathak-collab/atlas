@@ -1,6 +1,218 @@
 {
- "catalog": "catalog_class11_accountancy_ch101",
+ "catalog": "catalog_class11_accountancy_ch101.json",
  "concepts": [
+  {
+   "id": "keac.101.9",
+   "title": "Calculation of Accounting Profit",
+   "converted_to_compute": true,
+   "formula": "profit = revenue - expenses",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "profit = revenue - expenses",
+     "compute": "profit = revenue - expenses"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keac.101.9",
+     "question_pattern": "calculate the profit when revenue is {revenue} and expenses are {expenses}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Calculation of Accounting Profit: given revenue = 11.3, expenses = 36, find profit.",
+     "a": "-24.7",
+     "self_check": false
+    },
+    {
+     "q": "calculate the profit when revenue is 11.3 and expenses are 36?",
+     "a": "-24.7",
+     "self_check": false
+    },
+    {
+     "q": "For Calculation of Accounting Profit: given revenue = 32, expenses = 67, find profit.",
+     "a": "-35",
+     "self_check": false
+    },
+    {
+     "q": "calculate the profit when revenue is 32 and expenses are 67?",
+     "a": "-35",
+     "self_check": false
+    },
+    {
+     "q": "For Calculation of Accounting Profit: given revenue = 76, expenses = 96, find profit.",
+     "a": "-20",
+     "self_check": false
+    },
+    {
+     "q": "calculate the profit when revenue is 76 and expenses are 96?",
+     "a": "-20",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.101.10",
+   "title": "Calculation of Accounting Loss",
+   "converted_to_compute": true,
+   "formula": "loss = expenses - revenue",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "loss = expenses - revenue",
+     "compute": "loss = expenses - revenue"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keac.101.10",
+     "question_pattern": "calculate the loss when expenses are {expenses} and revenue is {revenue}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Calculation of Accounting Loss: given expenses = 36, revenue = 51, find loss.",
+     "a": "-15",
+     "self_check": false
+    },
+    {
+     "q": "calculate the loss when expenses are 36 and revenue is 51?",
+     "a": "-15",
+     "self_check": false
+    },
+    {
+     "q": "For Calculation of Accounting Loss: given expenses = 58, revenue = 2.5, find loss.",
+     "a": "55.5",
+     "self_check": false
+    },
+    {
+     "q": "calculate the loss when expenses are 58 and revenue is 2.5?",
+     "a": "55.5",
+     "self_check": false
+    },
+    {
+     "q": "For Calculation of Accounting Loss: given expenses = 56, revenue = 8.2, find loss.",
+     "a": "47.8",
+     "self_check": false
+    },
+    {
+     "q": "calculate the loss when expenses are 56 and revenue is 8.2?",
+     "a": "47.8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.101.11",
+   "title": "Calculation of Gain on Sale of Asset",
+   "converted_to_compute": true,
+   "formula": "gain = selling_price - cost_price",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "gain = selling_price - cost_price",
+     "compute": "gain = selling_price - cost_price"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keac.101.11",
+     "question_pattern": "calculate the gain when an asset costing {selling_price} is sold for {cost_price}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Calculation of Gain on Sale of Asset: given selling_price = 69, cost_price = 50, find gain.",
+     "a": "19",
+     "self_check": false
+    },
+    {
+     "q": "calculate the gain when an asset costing 69 is sold for 50?",
+     "a": "19",
+     "self_check": false
+    },
+    {
+     "q": "For Calculation of Gain on Sale of Asset: given selling_price = 47, cost_price = 8.6, find gain.",
+     "a": "38.4",
+     "self_check": false
+    },
+    {
+     "q": "calculate the gain when an asset costing 47 is sold for 8.6?",
+     "a": "38.4",
+     "self_check": false
+    },
+    {
+     "q": "For Calculation of Gain on Sale of Asset: given selling_price = 57, cost_price = 103, find gain.",
+     "a": "-46",
+     "self_check": false
+    },
+    {
+     "q": "calculate the gain when an asset costing 57 is sold for 103?",
+     "a": "-46",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.101.12",
+   "title": "Total Expenses and Losses",
+   "converted_to_compute": true,
+   "formula": "total_outflow = expenses + losses",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_outflow = expenses + losses",
+     "compute": "total_outflow = expenses + losses"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keac.101.12",
+     "question_pattern": "calculate the total of expenses and losses when expenses are {expenses} and losses are {losses}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Total Expenses and Losses: given expenses = 66, losses = 9.4, find total outflow.",
+     "a": "75.4",
+     "self_check": false
+    },
+    {
+     "q": "calculate the total of expenses and losses when expenses are 66 and losses are 9.4?",
+     "a": "75.4",
+     "self_check": false
+    },
+    {
+     "q": "For Total Expenses and Losses: given expenses = 61, losses = 18, find total outflow.",
+     "a": "79",
+     "self_check": false
+    },
+    {
+     "q": "calculate the total of expenses and losses when expenses are 61 and losses are 18?",
+     "a": "79",
+     "self_check": false
+    },
+    {
+     "q": "For Total Expenses and Losses: given expenses = 75, losses = 97, find total outflow.",
+     "a": "172",
+     "self_check": false
+    },
+    {
+     "q": "calculate the total of expenses and losses when expenses are 75 and losses are 97?",
+     "a": "172",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "keac.101.1",
    "title": "Meaning and Definition of Accounting",
@@ -165,130 +377,6 @@
     {
      "q": "Under which section is 'Basic Accounting Terms: Assets and Liabilities' taught, and from which source text?",
      "a": "1.5.3 (source: keac101.txt lines 480-535)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.101.9",
-   "title": "Calculation of Accounting Profit",
-   "questions": [
-    {
-     "q": "Calculate the profit when revenue is {revenue} and expenses are {expenses}. Use the method 'Calculation of Accounting Profit'. Work with: expenses = 20000, revenue = 2500. Carry the chain through step by step and give the final value of profit.",
-     "a": "-17500 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the profit earned by a business with revenue of {revenue} and expenses of {expenses}. Use the method 'Calculation of Accounting Profit'. Work with: expenses = 80000, revenue = 120000. Carry the chain through step by step and give the final value of profit.",
-     "a": "40000 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Calculation of Accounting Profit' refers to.",
-     "a": "The positive net earnings realized when a business's total periodic revenues exceed its corresponding operating costs.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Calculation of Accounting Profit'.",
-     "a": "Profit is the positive difference between total revenue and total expenses.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Calculation of Accounting Profit', in plain ASCII form.",
-     "a": "profit = revenue - expenses",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.101.10",
-   "title": "Calculation of Accounting Loss",
-   "questions": [
-    {
-     "q": "Calculate the loss when expenses are {expenses} and revenue is {revenue}. Use the method 'Calculation of Accounting Loss'. Work with: expenses = 5000, revenue = 2500. Carry the chain through step by step and give the final value of loss.",
-     "a": "2500 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the loss incurred by a business with expenses of {expenses} and revenue of {revenue}. Use the method 'Calculation of Accounting Loss'. Work with: expenses = 5000, revenue = 500. Carry the chain through step by step and give the final value of loss.",
-     "a": "4500 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Calculation of Accounting Loss' refers to.",
-     "a": "The negative financial outcome that occurs when a firm's total operating expenditures surpass its total earned revenues over a given timeframe.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Calculation of Accounting Loss'.",
-     "a": "Loss is the excess of expenses over revenues.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Calculation of Accounting Loss', in plain ASCII form.",
-     "a": "loss = expenses - revenue",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.101.11",
-   "title": "Calculation of Gain on Sale of Asset",
-   "questions": [
-    {
-     "q": "Calculate the gain when an asset costing {cost_price} is sold for {selling_price}. Use the method 'Calculation of Gain on Sale of Asset'. Work with: cost_price = 80000, selling_price = 2500. Carry the chain through step by step and give the final value of gain.",
-     "a": "-77500 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the gain on sale of an asset with cost price {cost_price} and selling price {selling_price}. Use the method 'Calculation of Gain on Sale of Asset'. Work with: cost_price = 20000, selling_price = 8000. Carry the chain through step by step and give the final value of gain.",
-     "a": "-12000 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Calculation of Gain on Sale of Asset' refers to.",
-     "a": "An irregular financial benefit resulting from non-operating transactions, such as disposing of a long-term resource for more than its carrying value.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Calculation of Gain on Sale of Asset'.",
-     "a": "Gain is the excess of the selling price of an asset over its cost or book value.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Calculation of Gain on Sale of Asset', in plain ASCII form.",
-     "a": "gain = selling_price - cost_price",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.101.12",
-   "title": "Total Expenses and Losses",
-   "questions": [
-    {
-     "q": "Calculate the total of expenses and losses when expenses are {expenses} and losses are {losses}. Use the method 'Total Expenses and Losses'. Work with: expenses = 8000, losses = 120000. Carry the chain through step by step and give the final value of total_outflow.",
-     "a": "128000 units",
-     "self_check": false
-    },
-    {
-     "q": "Find the sum of expenses of {expenses} and losses of {losses}. Use the method 'Total Expenses and Losses'. Work with: expenses = 8000, losses = 5000. Carry the chain through step by step and give the final value of total_outflow.",
-     "a": "13000 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Total Expenses and Losses' refers to.",
-     "a": "The combined total of standard business operating costs and sudden non-reciprocal damages or asset destructions within a period.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Total Expenses and Losses'.",
-     "a": "Combining operational expenses and incidental losses to find total financial outflows.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Total Expenses and Losses', in plain ASCII form.",
-     "a": "total_outflow = expenses + losses",
      "self_check": true
     }
    ]

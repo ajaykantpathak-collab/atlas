@@ -34,6 +34,31 @@
      "q": "Design a minimal binary vector map (describe components in order) for *Agrobacterium*-mediated transformation of tomato with a fruit-specific promoter driving a polygalacturonase-inhibiting gene for extended shelf life. Include all essential elements for selection in planta and bacterial propagation.",
      "a": "Expected answer (components in order on T-DNA): Left Border (LB) — Fruit-specific promoter (e.g., E8 or 2A11) — Polygalacturonase-inhibiting gene (coding sequence) — Terminator (e.g., NOS terminator) — Plant selectable marker cassette (e.g., 35S promoter::nptII::NOS terminator for kanamycin resistance) — Right Border (RB). Outside T-DNA on vector backbone: *oriV* (broad-host-range replication origin for *Agrobacterium*), *oriT* (conjugative transfer origin), bacterial selectable marker (e.g., spectinomycin/streptomycin resistance), *rop* (repressor of primer for copy number control). A poor answer omits LB/RB borders, uses a constitutive promoter for a fruit-specific trait, forgets bacterial selection/origin, or places the selectable marker outside T-DNA — revealing gaps in vector architecture understanding.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Transgenic plants are genetically modified organisms created by introducing foreign DNA (transgenes) into the plant genome using gene transfer methods; the two principal methods are *Agrobacterium tumefaciens*-mediated ______ (utilizing the Ti plasmid's natural DNA transfer ability) and biolistics/gene gun (direct physical delivery of DNA-coated particles into plant cells).",
+     "a": "transformation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a plant biotechnologist tasked with ______ a drought-tolerant wheat variety.",
+     "a": "creating",
+     "self_check": true
+    },
+    {
+     "q": "What is Transgenic plants? State the definition given in this lesson.",
+     "a": "Transgenic plants are genetically modified organisms created by introducing foreign DNA (transgenes) into the plant genome using gene transfer methods; the two principal methods are *Agrobacterium tumefaciens*-mediated transformation (utilizing the Ti plasmid's natural DNA transfer ability) and biolistics/gene gun (direct physical.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Transgenic plants?",
+     "a": "Students often believe that *Agrobacterium* transfers the entire Ti plasmid into the plant cell.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) list the two major gene transfer methods for plants with their basic mechanisms, (2) explain why *Agrobacterium* is preferred for dicots while biolistics is used for monocots, and (3) identify the key components required in a plant transformation vector (promoter, selectable marker, gene of interest, terminator, T-DNA.",
+     "self_check": true
     }
    ]
   }

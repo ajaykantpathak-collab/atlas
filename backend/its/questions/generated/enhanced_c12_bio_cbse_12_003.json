@@ -34,6 +34,26 @@
      "q": "Design a monitoring strategy for a patient 6 months post-gene therapy to confirm sustained engraftment of corrected HSCs and detect early insertional oncogenesis.",
      "a": "Quarterly: (1) qPCR for vector copy number in sorted CD34+ cells; (2) TREC assay for thymic output; (3) integration site analysis (LM-PCR/NGS) to track clonal expansion; (4) immunophenotyping (CD3, CD4, CD8, CD19, CD56). A poor answer omits integration site analysis — the only direct assay for insertional mutagenesis risk.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Gene therapy for SCID (Severe Combined ______) is a medical intervention that introduces a functional copy of a defective gene (e.g., *ADA* or *IL2RG*) into a patient's hematopoietic stem cells or T lymphocytes using a viral vector (typically lentivirus or retrovirus) ex vivo, enabling the corrected cells to produce the missing enzyme or receptor and restore immune function.",
+     "a": "Immunodeficiency",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a newborn who catches every passing cold, develops chronic diarrhea, and fails to thrive — doctors diagnose ADA-SCID, a \"bubble baby\" disease where a single missing enzyme (adenosine deaminase) lets toxic ______ kill T and B cells.",
+     "a": "metabolites",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Gene therapy for SCID (Severe Combined Immunodeficiency) is a medical intervention that introduces a functional copy of a defective gene (e.g., *ADA* or *IL______RG*) into a patient's hematopoietic stem cells or T lymphocytes using a viral vector (typically lentivirus or retrovirus) ex vivo, enabling the corrected cells to produce the missing enzyme or receptor and restore immune function.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the step-by-step ex vivo gene therapy protocol for ADA-SCID, justify the choice of viral vector and target cell type, predict consequences of insertional mutagenesis, and contrast this approach with enzyme replacement therapy (PEG-ADA) and hematopoietic stem cell transplantation (HSCT).",
+     "self_check": true
     }
    ]
   }

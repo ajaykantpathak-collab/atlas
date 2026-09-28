@@ -1,0 +1,125 @@
+{
+ "catalog": "catalog_class12_computer_science_lecs112.json",
+ "concepts": [
+  {
+   "id": "lecs112.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "infected = 94",
+      "countries = 216",
+      "per_country = infected / countries"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "infected = 57",
+      "countries = 138",
+      "per_country = infected / countries"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "infected = 88",
+      "countries = 366",
+      "per_country = infected / countries"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "infected = 19.9",
+      "countries = 205",
+      "per_country = infected / countries"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "infected = 30",
+      "countries = 463",
+      "per_country = infected / countries"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "infected = 44",
+      "countries = 125",
+      "per_country = infected / countries"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "per_country = infected / countries"
+   ]
+  },
+  {
+   "id": "lecs112.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "campaigns = 3.5",
+      "clicks = 66",
+      "rate_per_click = 56",
+      "total_revenue = campaigns * clicks * rate_per_click"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "campaigns = 78",
+      "clicks = 10.9",
+      "rate_per_click = 56",
+      "total_revenue = campaigns * clicks * rate_per_click"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "campaigns = 86",
+      "clicks = 86",
+      "rate_per_click = 40",
+      "total_revenue = campaigns * clicks * rate_per_click"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "campaigns = 32",
+      "clicks = 59",
+      "rate_per_click = 92",
+      "total_revenue = campaigns * clicks * rate_per_click"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "campaigns = 58",
+      "clicks = 56",
+      "rate_per_click = 78",
+      "total_revenue = campaigns * clicks * rate_per_click"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "campaigns = 8.4",
+      "clicks = 44",
+      "rate_per_click = 67",
+      "total_revenue = campaigns * clicks * rate_per_click"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_revenue = campaigns * clicks * rate_per_click"
+   ]
+  }
+ ]
+}

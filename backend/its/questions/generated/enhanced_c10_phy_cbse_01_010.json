@@ -34,6 +34,31 @@
      "q": "A 1500 W heater runs for 2 hours. Calculate the energy consumed in kWh and the cost at Rs 6 per kWh.",
      "a": "Energy = P × t = 1.5 kW × 2 h = 3 kWh. Cost = 3 × 6 = Rs 18. A wrong answer (e.g., 1500 × 2 = 3000 kWh) shows the student did not convert watts to kilowatts.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Electric power is the rate at which ______ energy is consumed or dissipated in a circuit.",
+     "a": "electrical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you turn on a 100 W bulb, it ______ 100 joules of energy every second.",
+     "a": "consumes",
+     "self_check": true
+    },
+    {
+     "q": "What is Electric power? State the definition given in this lesson.",
+     "a": "Electric power is the rate at which electrical energy is consumed or dissipated in a circuit.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Electric power?",
+     "a": "Students often confuse power (W) with energy (J or kWh).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can define electric power, state the three equivalent formulas (P = VI, P = I²R, P = V²/R), calculate power given any two of V, I, R, compute electrical energy consumed (E = Pt), and convert between watt-seconds, watt-hours, and kilowatt-hours for electricity bill calculations.",
+     "self_check": true
     }
    ]
   }

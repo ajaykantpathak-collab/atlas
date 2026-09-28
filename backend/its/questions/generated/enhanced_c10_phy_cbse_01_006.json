@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a 9 V battery, three resistors (1 Ω, 2 Ω, 3 Ω), an ammeter, and a voltmeter to verify that equivalent resistance in series equals the sum of individual resistances. List steps and what you would plot.",
      "a": "Steps: (1) Connect resistors in series with battery, ammeter in series, voltmeter across combination. (2) Measure total current I and total voltage V. (3) Compute R_exp = V/I. (4) Repeat by removing one resistor at a time to get individual R values via V_i/I. (5) Verify R_exp = R_1+R_2+R_3. Plot V vs I for the series combination — slope gives R_s. A poor answer would measure voltage across each resistor but not the total, or use parallel connections, showing confusion about series circuit topology.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In a series ______ of resistors, the same current flows through each resistor connected end-to-end in a single path, and the equivalent resistance (R_s) is the arithmetic sum of individual resistances: R_s = R_1 + R_2 + R_3 + ... .",
+     "a": "combination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a string of decorative LED lights used during Diwali — if one bulb fuses, the entire string goes dark because they are ______ in series.",
+     "a": "connected",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can calculate the equivalent resistance of a series network from given individual resistances, determine the current through the circuit using Ohm's law, and find the voltage drop across each resistor.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a string of ______ LED lights used during Diwali — if one bulb fuses, the entire string goes dark because they are connected in series.",
+     "a": "decorative",
+     "self_check": true
     }
    ]
   }

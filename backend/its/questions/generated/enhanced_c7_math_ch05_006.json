@@ -34,6 +34,26 @@
      "q": "Draw a rough sketch or describe a layout where a straight water pipe acts as a transversal across three fencing wires in a garden. How many intersection points and how many total angles are created?",
      "a": "The expected answer describes a straight pipe crossing 3 fencing wires, resulting in 3 distinct points of intersection and $3 \\times 4 = 12$ total angles formed. A poor answer fails to connect the physical scenario to the geometric definitions of intersection points and angle counts per vertex.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ is a line that intersects two or more lines at distinct, separate points.",
+     "a": "transversal",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are walking across a railway track where ______ parallel tracks run side by side, and a footpath crosses them diagonally at an angle.",
+     "a": "multiple",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify a transversal line cutting through two or more lines in various orientations, count the number of intersection points, and correctly distinguish the interior and exterior regions formed by the lines.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are walking across a railway track where multiple parallel tracks run side by side, and a footpath crosses them ______ at an angle.",
+     "a": "diagonally",
+     "self_check": true
     }
    ]
   }

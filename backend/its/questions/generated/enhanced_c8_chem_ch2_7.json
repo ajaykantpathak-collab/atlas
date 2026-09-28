@@ -34,6 +34,21 @@
      "q": "Design a simple mental model using marbles in a shallow box to demonstrate the difference in particle movement between a solid and a liquid. Describe how you would shake the box for each state.",
      "a": "A good model places marbles packed tightly in a rigid grid for a solid (vibrating in place) versus marbles loosely packed in a layer where they roll and slide over each other when the box is tilted for a liquid. A poor answer fails to show particle mobility in the liquid model.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In liquids, ______ particles (atoms or molecules) are closely packed together but not in a fixed, rigid pattern; they have moderate inter-particle space and weak-to-moderate attractive forces, allowing them to slide past one another and flow to take the shape of their container.",
+     "a": "constituent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Pouring water from a jug into a glass in your kitchen shows how liquids flow and take the shape of any ______ they are placed into, unlike a solid spoon which keeps its shape.",
+     "a": "container",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can explain why liquids have a fixed volume but no fixed shape by describing particle arrangement, movement, and inter-particle space in comparison to solids and gases.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a two-stage home water treatment system for groundwater that has both temporary hardness (Ca(HCO₃)₂) and permanent hardness (MgSO₄), plus suspended clay particles. Specify the sequence of units and the chemical principle at each stage.",
      "a": "Good answer: Stage 1: Sedimentation/filtration (removes suspended clay - physical). Stage 2: Boiling or Clark's method (removes temporary hardness via CaCO₃ precipitation). Stage 3: Washing soda or ion exchange column (removes permanent Mg²⁺ as MgCO₃ or exchanges Mg²⁺ for Na⁺). Sequence matters - boiling first reduces load on chemical stage. Poor answer (random order, missing filtration, or using only one chemical) reveals inability to integrate multiple concepts: physical separation, thermal decomposition, precipitation, ion exchange - and ignoring that suspended solids would clog later stages.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Water softening is the process of removing dissolved calcium (Ca²⁺) and magnesium (Mg²⁺) ions that cause hardness, ______ hard water into soft water that readily forms lather with soap.",
+     "a": "converting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe white scaly deposits on your electric kettle or geyser heating element - that's ______ hardness precipitating as CaCO₃ when water boils.",
+     "a": "temporary",
+     "self_check": true
+    },
+    {
+     "q": "What is Water softening? State the definition given in this lesson.",
+     "a": "Water softening is the process of removing dissolved calcium (Ca²⁺) and magnesium (Mg²⁺) ions that cause hardness, converting hard water into soft water that readily forms lather with soap.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Water softening?",
+     "a": "Students write the Clark's method equation as Ca(HCO₃)₂ + Ca(OH)₂ → 2CaCO₃ + 2H₂O using slaked lime [Ca(OH)₂] instead of quicklime (CaO).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Identify the type of hardness from given salt composition, (2) Select and write balanced chemical equations for the appropriate softening method, (3) Calculate the quantity of softening agent required for a given volume of hard water of known hardness, (4) Explain the principle and limitations of each method including.",
+     "self_check": true
     }
    ]
   }

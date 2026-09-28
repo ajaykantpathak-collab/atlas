@@ -34,6 +34,26 @@
      "q": "Design a simple experiment to compare the average rate of reaction between magnesium ribbon and dilute HCl at two different temperatures (room temp and 40°C). State what you would measure, how you would calculate rate, and what trend you expect.",
      "a": "Measure volume of H₂ gas collected every 10 s using a gas syringe. Convert volume to moles (using molar volume at that T, or use pressure sensor). Plot moles of H₂ vs time. Average rate over an interval = Δn(H₂)/Δt. At 40°C, the curve rises steeper → higher average rate. Expected trend: rate increases with temperature. A poor answer would measure time for ribbon to disappear (qualitative) or forget to convert volume to moles, or not mention the stoichiometric factor (1 mole H₂ per mole Mg).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The rate of a chemical reaction is defined as the change in molar ______ of a reactant or product per unit time.",
+     "a": "concentration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a slice of apple turning brown in air — the colour change is slow.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The instantaneous rate is the limit of average rate as Δt → ______, given by –d[R]/dt = d[P]/dt.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate average rate from concentration-time data, determine instantaneous rate graphically from a concentration vs. time curve, express rate in terms of any reactant or product using stoichiometric coefficients, and state the correct units (mol L⁻¹ s⁻¹ or atm s⁻¹ for gases).",
+     "self_check": true
     }
    ]
   }

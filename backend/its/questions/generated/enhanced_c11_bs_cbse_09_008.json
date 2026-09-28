@@ -34,6 +34,21 @@
      "q": "Create a profile of a hypothetical entrepreneur who fits the following combination: 'Spontaneous, Technical, Small-scale, Rural, Woman, Innovative'. Describe her venture in 3-4 sentences, ensuring each classification base is reflected.",
      "a": "Expected answer: Meera, a 28-year-old agricultural science graduate from a village in Maharashtra, spontaneously decided to start a venture after seeing farmers struggle with pest attacks. She used her technical knowledge to develop a low-cost, IoT-based pest monitoring device (technical, innovative) and set up a small assembly unit with an investment of ₹30 lakh (small-scale) in her village (rural). As a woman entrepreneur, she now employs five local women to assemble and service the devices. A poor answer would describe a venture that contradicts one or more bases (e.g., a trading business, or located in a city) or fails to explicitly link each trait to the description, indicating the student cannot synthesise multiple classification dimensions into a coherent profile.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ can be classified into distinct categories based on specific criteria such as the nature of business activity, motivation for starting up, use of technology, ownership structure, gender, geographical location, scale of operations, and attitude towards innovation.",
+     "a": "Entrepreneurs",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a local market in Delhi and see three different business owners: a woman running a small pickle-making unit from her home, a young man who just launched a tech startup developing AI-based farming apps, and a third-generation owner of a large textile ______ factory.",
+     "a": "manufacturing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) list at least five different bases of classification of entrepreneurs with one example for each base, and (2) correctly classify a given real-life entrepreneur into the appropriate category for any three bases, justifying the classification with specific evidence from the entrepreneur's profile.",
+     "self_check": true
     }
    ]
   }

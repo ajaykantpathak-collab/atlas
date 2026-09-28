@@ -34,6 +34,21 @@
      "q": "Design a hybrid network scenario where circuit switching and packet switching coexist optimally. Specify which traffic uses which, and justify with one quantitative metric for each.",
      "a": "Example: A corporate WAN with dedicated leased lines (circuit switched) for ERP database replication (needs guaranteed 50 Mbps, <5 ms latency, zero loss) and IPsec VPN over Internet (packet switched) for email/web (bursty, tolerant of 100 ms latency). Metric for circuit: committed information rate (CIR) = 50 Mbps with 99.999% availability. Metric for packet: average throughput > 10 Mbps with <1% packet loss. A poor answer (\"use circuit for voice, packet for data\") is vague — must specify traffic characteristics and measurable QoS targets. Students often propose hybrids without quantitative justification, missing that engineering decisions require metrics.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Circuit switching establishes a dedicated end-to-end physical path between sender and receiver for the entire ______ session, reserving bandwidth exclusively.",
+     "a": "communication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're calling a friend on a ______ (circuit switched) versus sending a WhatsApp voice note (packet switched).",
+     "a": "landline",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can compare circuit and packet switching across five dimensions (connection setup, resource allocation, reliability, latency, efficiency) and explain why the Internet uses packet switching despite circuit switching's guaranteed QoS.",
+     "self_check": true
     }
    ]
   }

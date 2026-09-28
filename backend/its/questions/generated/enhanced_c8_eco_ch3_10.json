@@ -34,6 +34,36 @@
      "q": "Propose a smart, technology-driven solution to solve the economic problem of \"Non-Revenue Water\" (water that is cleaned and pumped but \"lost\" before it reaches paying customers due to theft or leaks) for a municipal ward with limited funds. Explain how it pays for itself.",
      "a": "A highly effective, low-cost solution is the installation of smart, prepaid digital water meters at main sub-distribution points, combined with a community-incentivized mobile application. \n\n**How it pays for itself:**\n1. The sub-meters compare the volume of water pumped into a neighborhood with the total volume billed. If there is a mismatch, the municipality knows precisely which small pipe section has a leak or illegal tap.\n2. Instead of digging up entire roads (expensive), repairs are targeted.\n3. The community app allows residents to report visible leaks in exchange for minor discounts on their water bills.\n4. The saved water is then sold to previously unserved households, generating new municipal revenue that quickly recovers the cost of the meters.\n\n*What a poor answer reveals:* A poor proposal that suggests expensive, high-end satellite imaging or replacing all pipelines shows that the student does not understand budget constraints and cannot design realistic, cost-effective solutions for developing economies.",
      "self_check": true
+    },
+    {
+     "q": "Trace the correct sequence by which smart LED streetlights with daylight sensors cut a municipality's operating costs.",
+     "a": "The savings chain runs: (1) Light sensors detect natural daylight levels (2) Streetlights automatically dim or switch off when daylight is enough (3) Wasted electricity from broken manual timers disappears (4) The municipal operating budget shrinks without building new power plants. A wrong answer that says the city must simply build more power plants shows the student has missed the economic shift from capital-intensive physical expansion to data-driven efficiency improvement of existing assets.",
+     "self_check": true
+    },
+    {
+     "q": "A city fleet burns fuel worth 15,00,000 rupees a year; smart routing cuts distance travelled by 20 percent. How many rupees of fuel does the city save per year?",
+     "a": "Smart routing saves fuel equal to 20 percent of the fleet's 15,00,000 rupee annual bill: Savings = 0.20 x 15,00,000 = 3,00,000 rupees per year. A wrong answer that books the one-time 50,00,000 sensor installation as the yearly saving confuses capital expenditure with recurring operational savings.",
+     "self_check": true
+    },
+    {
+     "q": "What makes prepaid smart water meters a self-financing answer to Non-Revenue Water in a low-fund municipal ward?",
+     "a": "Sub-meters compare the volume pumped into a neighbourhood with the volume actually billed, so any mismatch pinpoints the exact pipe section with a leak or illegal tap; repairs target only that section instead of digging up entire lines, and the recovered water sales pay for the installation. A wrong answer that raises the tariff to cover losses shows the student ignores that charging consumers for wasted water reduces welfare and trust while leaving the physical loss itself unfixed.",
+     "self_check": true
+    },
+    {
+     "q": "Trace the correct sequence by which smart LED streetlights with daylight sensors cut a municipality's operating costs.",
+     "a": "The savings chain runs: (1) Light sensors detect natural daylight levels (2) Streetlights automatically dim or switch off when daylight is enough (3) Wasted electricity from broken manual timers disappears (4) The municipal operating budget shrinks without building new power plants. A wrong answer that says the city must simply build more power plants shows the student has missed the economic shift from capital-intensive physical expansion to data-driven efficiency improvement of existing assets.",
+     "self_check": true
+    },
+    {
+     "q": "A city fleet burns fuel worth 15,00,000 rupees a year; smart routing cuts distance travelled by 20 percent. How many rupees of fuel does the city save per year?",
+     "a": "Smart routing saves fuel equal to 20 percent of the fleet's 15,00,000 rupee annual bill: Savings = 0.20 x 15,00,000 = 3,00,000 rupees per year. A wrong answer that books the one-time 50,00,000 sensor installation as the yearly saving confuses capital expenditure with recurring operational savings.",
+     "self_check": true
+    },
+    {
+     "q": "What makes prepaid smart water meters a self-financing answer to Non-Revenue Water in a low-fund municipal ward?",
+     "a": "Sub-meters compare the volume pumped into a neighbourhood with the volume actually billed, so any mismatch pinpoints the exact pipe section with a leak or illegal tap; repairs target only that section instead of digging up entire lines, and the recovered water sales pay for the installation. A wrong answer that raises the tariff to cover losses shows the student ignores that charging consumers for wasted water reduces welfare and trust while leaving the physical loss itself unfixed.",
+     "self_check": true
     }
    ]
   }

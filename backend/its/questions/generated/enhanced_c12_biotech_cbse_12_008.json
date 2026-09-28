@@ -34,6 +34,31 @@
      "q": "Design a staged funding roadmap for a hypothetical Indian biotech startup developing an mRNA vaccine platform for infectious diseases. Specify: (i) Amount and source for each stage (Discovery → Pre-clinical → Phase I → Phase II/III → Commercial), (ii) Key milestones to unlock next stage, (iii) Equity dilution estimate at each stage, (iv) One strategic non-capital value each investor type brings.",
      "a": "Good answer includes:\n- Discovery (₹50L): BIRAC BIG grant (non-dilutive) → Milestone: Lead candidate ID → Value: Credibility for hiring.\n- Pre-clinical (₹5Cr): DBT-BIRAC SBIRI + Angel syndicate (₹2Cr grant + ₹3Cr equity, 10%) → Milestone: IND-enabling tox data → Value: Angel network for key hires.\n- Phase I (₹25Cr): Series A from healthcare VC (₹25Cr, 20%) → Milestone: Safety + immunogenicity in humans → Value: Clinical trial design expertise.\n- Phase II/III (₹150Cr): Series B/C + Strategic pharma partnership (₹100Cr equity 15% + ₹50Cr co-dev) → Milestone: Efficacy endpoint → Value: Global distribution/manufacturing.\n- Commercial (₹300Cr): Mezzanine debt + IPO prep → Milestone: Licensure → Value: Public market access.\nPoor answer: Generic amounts, ignores mRNA platform specifics (manufacturing scale-up needs), misses non-capital value, no dilution math.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Funding sources for biotech ventures refer to the various financial mechanisms and institutions that provide capital to ______ startups and companies at different stages of development, from early-stage research and proof-of-concept through clinical trials, regulatory approval, and commercial scale-up, each with distinct risk-return profiles, equity requirements, and strategic implications for the venture.",
+     "a": "biotechnology",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have developed a novel ______ kit for early detection of tuberculosis using CRISPR-based technology — validated in the lab, but you need ₹5 crore to manufacture prototypes, run clinical validation across three sites, and secure CDSCO approval.",
+     "a": "diagnostic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have developed a novel diagnostic kit for early detection of tuberculosis using CRISPR-based technology — validated in the lab, but you need ₹______ crore to manufacture prototypes, run clinical validation across three sites, and secure CDSCO approval.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Classify funding sources by stage (pre-seed, seed, Series A, B, C+, growth), type (dilutive vs non-dilutive), and source (government, private, institutional); (2) Evaluate the suitability of a specific funding source for a given biotech venture scenario based on technology readiness level, capital.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have developed a novel diagnostic kit for early detection of ______ using CRISPR-based technology — validated in the lab, but you need ₹5 crore to manufacture prototypes, run clinical validation across three sites, and secure CDSCO approval.",
+     "a": "tuberculosis",
+     "self_check": true
     }
    ]
   }

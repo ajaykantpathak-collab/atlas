@@ -34,6 +34,31 @@
      "q": "Possible answers include 0.31, 0.35, or 0.39. A poor answer (like 0.25 or 0.45) shows the student does not understand where these numbers fall on the number line relative to the tenths boundary.",
      "a": "Two correct decimals between 0.3 and 0.4 are 0.32 and 0.35. These numbers fall in the range because they have a 3 in the tenths place and a value greater than zero but less than ten in the hundredths place.\n\nA wrong answer like 0.5 or 0.345 (if the student thinks 0.4 is 0.400) reveals that the student is struggling with place value magnitude, likely viewing decimals as whole numbers (thinking 34 is bigger than 3) or failing to recognize that 0.3 is equivalent to 0.30 and 0.4 is equivalent to 0.40.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Comparing and ordering decimals is the process of ______ which decimal number is greater, smaller, or if they are equal by comparing their place values from left to right, starting with the whole number part.",
+     "a": "determining",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To figure this out, imagine the decimal point is a anchor; first, compare the whole numbers (the left side), then move to the tenths place (the first digit after the point), then the ______.",
+     "a": "hundredths",
+     "self_check": true
+    },
+    {
+     "q": "What is Comparing and ordering decimals? State the definition given in this lesson.",
+     "a": "Comparing and ordering decimals is the process of determining which decimal number is greater, smaller, or if they are equal by comparing their place values from left to right, starting with the whole number part.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Comparing and ordering decimals?",
+     "a": "Students often think a longer decimal is always larger (e.g., 0.125 > 0.2) because they treat the decimal part like a whole number, ignoring that the first digit after the decimal point represents tenths, which is the most significant part.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to correctly order a set of three or more decimal numbers and justify which is larger by comparing corresponding place values (tenths, hundredths, etc.).",
+     "self_check": true
     }
    ]
   }

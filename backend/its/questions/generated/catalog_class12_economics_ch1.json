@@ -1,6 +1,159 @@
 {
- "catalog": "catalog_class12_economics_ch1",
+ "catalog": "catalog_class12_economics_ch1.json",
  "concepts": [
+  {
+   "id": "c12eco.1.2",
+   "title": "GDP, GNP and NNP",
+   "converted_to_compute": true,
+   "formula": "GNP = GDP + NFIA; NNP = GNP - Depreciation",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "GNP = GDP + NFIA",
+     "compute": "GNP = GDP + NFIA"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "NNP = GNP - Depreciation",
+     "compute": "NNP = GNP - Depreciation"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For GDP, GNP and NNP: given GDP = 88, NFIA = 78, Depreciation = 16.1, find NNP.",
+     "a": "149.9",
+     "self_check": false
+    },
+    {
+     "q": "For GDP, GNP and NNP: given GDP = 60, NFIA = 24, Depreciation = 34, find NNP.",
+     "a": "50",
+     "self_check": false
+    },
+    {
+     "q": "For GDP, GNP and NNP: given GDP = 36, NFIA = 25, Depreciation = 57, find NNP.",
+     "a": "4",
+     "self_check": false
+    },
+    {
+     "q": "For GDP, GNP and NNP: given GDP = 58, NFIA = 50, Depreciation = 27, find NNP.",
+     "a": "81",
+     "self_check": false
+    },
+    {
+     "q": "For GDP, GNP and NNP: given GDP = 92, NFIA = 47, Depreciation = 16.5, find NNP.",
+     "a": "122.5",
+     "self_check": false
+    },
+    {
+     "q": "For GDP, GNP and NNP: given GDP = 41, NFIA = 17.3, Depreciation = 36, find NNP.",
+     "a": "22.3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c12eco.1.3",
+   "title": "Domestic vs National Income Aggregates",
+   "converted_to_compute": true,
+   "formula": "National = Domestic + NFIA",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "National = Domestic + NFIA",
+     "compute": "National = Domestic + NFIA"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Domestic vs National Income Aggregates: given Domestic = 47, NFIA = 86, find National.",
+     "a": "133",
+     "self_check": false
+    },
+    {
+     "q": "For Domestic vs National Income Aggregates: given Domestic = 5.2, NFIA = 91, find National.",
+     "a": "96.2",
+     "self_check": false
+    },
+    {
+     "q": "For Domestic vs National Income Aggregates: given Domestic = 70, NFIA = 79, find National.",
+     "a": "149",
+     "self_check": false
+    },
+    {
+     "q": "For Domestic vs National Income Aggregates: given Domestic = 89, NFIA = 62, find National.",
+     "a": "151",
+     "self_check": false
+    },
+    {
+     "q": "For Domestic vs National Income Aggregates: given Domestic = 7.8, NFIA = 67, find National.",
+     "a": "74.8",
+     "self_check": false
+    },
+    {
+     "q": "For Domestic vs National Income Aggregates: given Domestic = 71, NFIA = 74, find National.",
+     "a": "145",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c12eco.1.7",
+   "title": "Measurement of National Income: Income Method",
+   "converted_to_compute": true,
+   "formula": "NDPfc = Wages + Rent + Interest + Profit; NNPfc = NDPfc + NFIA",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "NDPfc = Wages + Rent + Interest + Profit",
+     "compute": "NDPfc = Wages + Rent + Interest + Profit"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "NNPfc = NDPfc + NFIA",
+     "compute": "NNPfc = NDPfc + NFIA"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Measurement of National Income: Income Method: given Wages = 18.7, Rent = 38, Interest = 55, Profit = 70, NFIA = 72, find NNPfc.",
+     "a": "253.7",
+     "self_check": false
+    },
+    {
+     "q": "For Measurement of National Income: Income Method: given Wages = 97, Rent = 19.5, Interest = 37, Profit = 73, NFIA = 1.6, find NNPfc.",
+     "a": "228.1",
+     "self_check": false
+    },
+    {
+     "q": "For Measurement of National Income: Income Method: given Wages = 40, Rent = 60, Interest = 82, Profit = 25, NFIA = 99, find NNPfc.",
+     "a": "306",
+     "self_check": false
+    },
+    {
+     "q": "For Measurement of National Income: Income Method: given Wages = 72, Rent = 45, Interest = 83, Profit = 38, NFIA = 19, find NNPfc.",
+     "a": "257",
+     "self_check": false
+    },
+    {
+     "q": "For Measurement of National Income: Income Method: given Wages = 37, Rent = 42, Interest = 81, Profit = 2.3, NFIA = 59, find NNPfc.",
+     "a": "221.3",
+     "self_check": false
+    },
+    {
+     "q": "For Measurement of National Income: Income Method: given Wages = 15.6, Rent = 41, Interest = 48, Profit = 77, NFIA = 18.2, find NNPfc.",
+     "a": "199.8",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "c12eco.1.1",
    "title": "Circular Flow of Income",
@@ -18,68 +171,6 @@
     {
      "q": "Under which section is 'Circular Flow of Income' taught, and from which source text?",
      "a": "Introduction",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "c12eco.1.2",
-   "title": "GDP, GNP and NNP",
-   "questions": [
-    {
-     "q": "Using the method 'GDP, GNP and NNP', work with: depreciation = 500, gross_domestic_output = 360, nfia = 400. Carry the chain through step by step and give the final value of nnp.",
-     "a": "260 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'GDP, GNP and NNP' and work with: depreciation = 500, gross_domestic_output = 100, nfia = 400. Carry the chain through step by step and give the final value of nnp.",
-     "a": "0 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'GDP, GNP and NNP' refers to.",
-     "a": "GDP is the market value of final goods and services produced within the domestic territory in a year. GNP is GDP plus net factor income from abroad. NNP is GNP minus depreciation.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'GDP, GNP and NNP'.",
-     "a": "Domestic vs national aggregates differ by net factor income from abroad; gross vs net differ by depreciation.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'GDP, GNP and NNP', in plain ASCII form.",
-     "a": "GNP = GDP + NFIA; NNP = GNP - Depreciation",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "c12eco.1.3",
-   "title": "Domestic vs National Income Aggregates",
-   "questions": [
-    {
-     "q": "Using the method 'Domestic vs National Income Aggregates', work with: factor_income_from_abroad = 120000, factor_income_to_abroad = 50000, gdp = 12000. Carry the chain through step by step and give the final value of national_income.",
-     "a": "82000 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Domestic vs National Income Aggregates' and work with: factor_income_from_abroad = 20000, factor_income_to_abroad = 5000, gdp = 5000. Carry the chain through step by step and give the final value of national_income.",
-     "a": "20000 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Domestic vs National Income Aggregates' refers to.",
-     "a": "Domestic aggregates measure income generated within the geographical territory; national aggregates include net factor income from abroad.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Domestic vs National Income Aggregates'.",
-     "a": "The bridge between domestic and national aggregates is net factor income from abroad (NFIA).",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Domestic vs National Income Aggregates', in plain ASCII form.",
-     "a": "National = Domestic + NFIA",
      "self_check": true
     }
    ]
@@ -163,37 +254,6 @@
     {
      "q": "Write the standard relation used for 'Measurement of National Income: Value Added Method', in plain ASCII form.",
      "a": "Value Added = Value of Output - Intermediate Consumption; GDP = sum of value added",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "c12eco.1.7",
-   "title": "Measurement of National Income: Income Method",
-   "questions": [
-    {
-     "q": "Using the method 'Measurement of National Income: Income Method', work with: i = 200, nfia = 60, p = 6, r = 12, w = 240. Carry the chain through step by step and give the final value of national_income.",
-     "a": "518 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Measurement of National Income: Income Method' and work with: i = 75, nfia = 15, p = 200, r = 5, w = 24. Carry the chain through step by step and give the final value of national_income.",
-     "a": "319 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Measurement of National Income: Income Method' refers to.",
-     "a": "The income method sums all factor incomes (wages, rent, interest and profit) paid to residents to estimate national income.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Measurement of National Income: Income Method'.",
-     "a": "National income is the sum of factor incomes earned by residents.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Measurement of National Income: Income Method', in plain ASCII form.",
-     "a": "NDPfc = Wages + Rent + Interest + Profit; NNPfc = NDPfc + NFIA",
      "self_check": true
     }
    ]

@@ -34,6 +34,31 @@
      "q": "Design a simple investigation using only household materials (no lab chemicals) to prepare a natural acid-base indicator and test it on three common kitchen substances (e.g., lemon juice, baking soda solution, tap water). List the materials, steps, and a table for recording observations.",
      "a": "**Materials:** Red cabbage / beetroot / rose petals (any anthocyanin source), water, stove/pan, strainer, three small bowls, lemon juice, baking soda, tap water.  \n**Steps:**  \n1. Boil chopped red cabbage in water for 10 min to extract purple pigment. Cool and strain — this is the indicator.  \n2. Pour equal amounts of indicator into three bowls.  \n3. Add 1 tsp lemon juice to Bowl 1, 1 tsp baking soda solution to Bowl 2, 1 tsp tap water to Bowl 3. Stir.  \n4. Record colour: Bowl 1 (acid) → red/pink; Bowl 2 (base) → green/blue; Bowl 3 (neutral) → purple (no change).  \n**Table:** Columns: Substance | Nature (Acid/Base/Neutral) | Observed Colour.  \n**Poor answer reveals:** If the student uses turmeric as the \"prepared\" indicator (turmeric is already a powder, not prepared), or if they cannot predict the colour changes for cabbage indicator (red in acid, green in base), they lack transfer of the indicator concept to new natural sources.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Acid-base indicators are weak organic acids or bases that undergo a reversible colour change in response to a change in hydrogen ion ______ (pH) of the solution, with the acidic form (HIn) and conjugate base form (In⁻) having distinctly different colours.",
+     "a": "concentration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a kitchen ______: when turmeric (haldi) stains a white kurta and you wash it with soap (basic), the yellow stain turns reddish-brown — this is an acid-base indicator reaction in daily life.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "What is Acid-base indicators? State the definition given in this lesson.",
+     "a": "Acid-base indicators are weak organic acids or bases that undergo a reversible colour change in response to a change in hydrogen ion concentration (pH) of the solution, with the acidic form (HIn) and conjugate base form (In⁻) having distinctly different colours.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Acid-base indicators?",
+     "a": "Exact error: Students write \"Phenolphthalein turns pink in acid and colourless in base\" — reversing the colours.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly predict the colour of litmus, turmeric, china rose, and phenolphthalein in acidic, basic, and neutral solutions, and can select the appropriate indicator to distinguish between an acid and a base in a given experimental scenario.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,52 @@
+{
+ "catalog": "catalog_class11_chemistry_kech102.json",
+ "concepts": [
+  {
+   "id": "kech.102.2.1",
+   "title": "Electromagnetic Radiation: Wavelength, Frequency and Wave Number",
+   "converted_to_compute": true,
+   "formula": "wavenumber = 1 / wavelength",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "wavenumber = 1 / wavelength",
+     "compute": "wavenumber = 1 / wavelength"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Electromagnetic Radiation: Wavelength, Frequency and Wave Number: given wavelength = 229, find wavenumber.",
+     "a": "0.00436681",
+     "self_check": false
+    },
+    {
+     "q": "For Electromagnetic Radiation: Wavelength, Frequency and Wave Number: given wavelength = 264, find wavenumber.",
+     "a": "0.00378788",
+     "self_check": false
+    },
+    {
+     "q": "For Electromagnetic Radiation: Wavelength, Frequency and Wave Number: given wavelength = 97, find wavenumber.",
+     "a": "0.0103093",
+     "self_check": false
+    },
+    {
+     "q": "For Electromagnetic Radiation: Wavelength, Frequency and Wave Number: given wavelength = 392, find wavenumber.",
+     "a": "0.00255102",
+     "self_check": false
+    },
+    {
+     "q": "For Electromagnetic Radiation: Wavelength, Frequency and Wave Number: given wavelength = 382, find wavenumber.",
+     "a": "0.0026178",
+     "self_check": false
+    },
+    {
+     "q": "For Electromagnetic Radiation: Wavelength, Frequency and Wave Number: given wavelength = 370, find wavenumber.",
+     "a": "0.0027027",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

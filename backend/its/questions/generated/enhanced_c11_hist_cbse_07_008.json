@@ -34,6 +34,36 @@
      "q": "Construct a timeline showing the conceptual dependencies: which specific problem in Copernicus's model did Kepler solve, which problem in Kepler's laws did Galileo's mechanics address, and which problem in both did Newton's synthesis resolve?",
      "a": "A strong answer shows: (1) Copernicus: heliocentrism but circular orbits + epicycles → (2) Kepler (1609/1619): elliptical orbits + area law + harmonic law (empirical, no physical cause) → (3) Galileo: law of inertia + acceleration (terrestrial physics, no celestial connection) → (4) Newton (1687): derives Kepler's laws from universal gravitation + laws of motion, unifying terrestrial and celestial mechanics. A weak answer lists dates without showing *conceptual* dependencies — e.g., missing that Newton needed Galileo's inertia to make sense of \"force\" and Kepler's ellipses to test inverse-square.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: 1543–1687) was a transformative period in European intellectual history when the geocentric, Aristotelian-Ptolemaic worldview was replaced by a heliocentric, ______ grounded understanding of the cosmos through the works of Copernicus (heliocentric theory), Galileo (telescopic evidence and mechanics), and Newton (universal gravitation and laws of motion), establishing the foundations of modern science.",
+     "a": "mathematically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're visiting the Jantar Mantar in Delhi or Jaipur — those massive stone instruments built by Maharaja Jai Singh II in the 1720s to track ______ positions.",
+     "a": "planetary",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the sequential development from Copernicus's mathematical hypothesis to Galileo's empirical verification to Newton's mathematical synthesis, and can analyze how each scientist's work challenged specific aspects of the Aristotelian-Scholastic framework and ecclesiastical authority.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: 1543–1687) was a ______ period in European intellectual history when the geocentric, Aristotelian-Ptolemaic worldview was replaced by a heliocentric, mathematically grounded understanding of the cosmos through the works of Copernicus (heliocentric theory), Galileo (telescopic evidence and mechanics), and Newton (universal gravitation and laws of motion), establishing the foundations of modern science.",
+     "a": "transformative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're visiting the Jantar Mantar in Delhi or Jaipur — those massive stone ______ built by Maharaja Jai Singh II in the 1720s to track planetary positions.",
+     "a": "instruments",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're visiting the Jantar Mantar in Delhi or Jaipur — those massive stone instruments built by Maharaja Jai Singh II in the ______s to track planetary positions.",
+     "a": "1720",
+     "self_check": true
     }
    ]
   }

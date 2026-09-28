@@ -34,6 +34,31 @@
      "q": "Design a simple classroom experiment (with hypothesis, IV, DV, and procedure) to test whether *semantic encoding* leads to better recall than *structural encoding*—a classic cognitive psychology finding.",
      "a": "**Hypothesis**: Participants who process words for meaning (semantic encoding) will recall more words than those who process words for physical structure (structural encoding). **IV**: Encoding task (Semantic: \"Does this word fit in a sentence?\" vs. Structural: \"Is this word in uppercase?\"). **DV**: Number of words correctly recalled in a surprise free-recall test. **Procedure**: Randomly assign Class 11 students to two groups. Present the same 20-word list. Group A answers semantic questions; Group B answers structural questions. After a 2-minute distractor task, both groups recall freely. Compare mean recall. A poor design that omits random assignment, control of word list, or surprise recall reveals the student cannot translate a cognitive principle into a testable experiment with proper controls.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cognitive psychology is the scientific study of mental processes—including attention, perception, memory, reasoning, problem-solving, decision-making, and language—by modeling the human mind as an information processing system that actively receives, encodes, transforms, stores, and retrieves information from the ______ to guide behaviour.",
+     "a": "environment",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're solving a difficult math problem in a noisy classroom: your brain filters out the chatter (attention), recognises the symbols on the page (______), retrieves relevant formulas from long-term memory, manipulates them in working memory, and decides on a solution strategy (problem-solving)—all within seconds.",
+     "a": "perception",
+     "self_check": true
+    },
+    {
+     "q": "What is Cognitive psychology? State the definition given in this lesson.",
+     "a": "Cognitive psychology is the scientific study of mental processes—including attention, perception, memory, reasoning, problem-solving, decision-making, and language—by modeling the human mind as an information processing system that actively receives, encodes, transforms, stores, and retrieves information from the environment to guide.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Cognitive psychology?",
+     "a": "Students often believe \"cognitive psychology = studying thinking\" and equate it with *only* higher-order processes like problem-solving or decision-making, ignoring that perception, attention, and memory encoding are equally central—and often *automatic, unconscious* processes.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain the information processing metaphor (input → processing → output) with a concrete real-world example, and distinguish the cognitive approach from behaviourism and structuralism by identifying at least two key differences in assumptions and methods.",
+     "self_check": true
     }
    ]
   }

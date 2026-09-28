@@ -34,6 +34,36 @@
      "q": "Design a 3-point \"Sustainability Audit\" checklist for a *new* multipurpose project on a Himalayan river (like Bhakra) vs. a Peninsular river (like Damodar). For each point, specify the *indicator* and the *threshold* that would trigger a red flag.",
      "a": "**Himalayan River (Bhakra-type) Audit:**\n1. **Sedimentation Rate:** Indicator = % live storage lost/decade. **Red flag: > 1%/year** (Bhakra loses ~0.5%/yr; high Himalayan erosion risk).\n2. **Seismic Safety:** Indicator = Maximum Credible Earthquake (MCE) vs. Design Basis Earthquake (DBE). **Red flag: MCE > DBE + 0.5g** (Himalayas = Zone IV/V).\n3. **Downstream Flow Regime:** Indicator = % of lean-season flow released. **Red flag: < 20% of virgin lean flow** (impacts delta ecology, groundwater recharge).\n\n**Peninsular River (DVC-type) Audit:**\n1. **Reservoir Sedimentation:** Indicator = % dead storage filled. **Red flag: > 30% in 25 years** (Maithon lost ~40% in 60 yrs; plateau rivers carry coarse sediment).\n2. **Water Quality (Industrial):** Indicator = Heavy metal concentration (Hg, Pb, As) in reservoir. **Red flag: > CPCB Class C limits** (DVC area has coal mining/metallurgy).\n3. **Displacement & Rehabilitation:** Indicator = % displaced families with secure livelihood after 5 years. **Red flag: < 60%** (DVC displaced ~50,000; tribal rehabilitation remains incomplete).\n\nA poor answer lists generic \"environmental impact\" without *quantifiable indicators* or *river-type-specific thresholds*.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Major multipurpose river valley projects are large-scale dams and associated ______ designed to simultaneously serve irrigation, hydroelectric power generation, flood control, navigation, and water supply.",
+     "a": "infrastructure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the electricity powering your home and the wheat/rice on your plate — much of northern India's grid stability and Punjab-Haryana's ______ surplus trace back to Bhakra-Nangal, while the steel plants of Bokaro and Durgapur owe their uninterrupted power to Damodar Valley.",
+     "a": "agricultural",
+     "self_check": true
+    },
+    {
+     "q": "What is Major multipurpose river valley projects? State the definition given in this lesson.",
+     "a": "Major multipurpose river valley projects are large-scale dams and associated infrastructure designed to simultaneously serve irrigation, hydroelectric power generation, flood control, navigation, and water supply.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Damodar Valley Corporation (DVC) on the Damodar River (Jharkhand/West Bengal) was India's first multipurpose project (______), modeled on the Tennessee Valley Authority, focusing on flood control in the \"Sorrow of Bengal,\" irrigation, and thermal/hydro power for the mineral-rich Chota Nagpur plateau.",
+     "a": "1948",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Major multipurpose river valley projects?",
+     "a": "Students often think Bhakra-Nangal and Damodar Valley are similar \"big dams\" differing only in location.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can locate both projects on an outline map of India with their respective rivers and beneficiary states, explain the distinct primary objectives of each project (Bhakra: irrigation + power for Green Revolution; DVC: flood control + industrial power), and analyze the inter-state water sharing agreements and environmental concerns.",
+     "self_check": true
     }
    ]
   }

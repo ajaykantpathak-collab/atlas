@@ -34,6 +34,36 @@
      "q": "Design a mini \"Recipe Card\" HTML snippet for \"Masala Chai\" that uses: (a) correct heading hierarchy for title/ingredients/steps, (b) `<strong>` for a safety warning, (c) `<sub>`/`<sup>` for a chemical note, (d) `<mark>` for a highlighted tip, and (e) `<del>`/`<ins>` to show an ingredient substitution.",
      "a": "A good answer includes: `<h1>Masala Chai</h1>`, `<h2>Ingredients</h2>`, `<h3>Steps</h3>`, `<strong>Warning: Hot liquid!</strong>`, `Caffeine: C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>`, `<mark>Tip: Crush spices for better flavor</mark>`, `<del>2 tsp sugar</del> <ins>1 tsp jaggery</ins>`. A poor answer uses `<h2>` for title, `<b>` instead of `<strong>`, misses `<mark>`/`<del>`/`<ins>`, or nests headings incorrectly — showing inability to combine multiple semantic tags in a realistic structure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: HTML text formatting tags are inline elements that define the visual ______ or semantic meaning of text content (e.g., <b> for bold, <strong> for importance, <em> for emphasis, <mark> for highlighting), while heading tags (<h1> to <h6>) are block-level elements that define hierarchical document structure with <h1> being the highest level and <h6> the lowest.",
+     "a": "presentation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a blog post about \"India's Space Missions\" and want to structure it with a main title, section headings, and ______ technical terms like *Chandrayaan-3* or ISRO.",
+     "a": "emphasized",
+     "self_check": true
+    },
+    {
+     "q": "What is HTML text formatting tags? State the definition given in this lesson.",
+     "a": "HTML text formatting tags are inline elements that define the visual presentation or semantic meaning of text content (e.g., <b> for bold, <strong> for importance, <em> for emphasis, <mark> for highlighting), while heading tags (<h1> to <h6>) are block-level elements that define hierarchical document structure with <h1> being the highest.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a blog post about \"India's Space Missions\" and want to structure it with a main title, section headings, and emphasized technical terms like *Chandrayaan-______* or ISRO.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about HTML text formatting tags?",
+     "a": "Students think heading tags (<h1>-<h6>) are only for making text \"big and bold\" and use them purely for visual sizing (e.g., using <h3> because <h1> looks \"too large\").",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write valid HTML code that correctly uses heading tags (h1-h6) to structure a document outline and applies appropriate text formatting tags (strong, em, mark, sub, sup, del, ins, small) to convey semantic meaning, and can explain why semantic tags are preferred over presentational tags for accessibility and SEO.",
+     "self_check": true
     }
    ]
   }

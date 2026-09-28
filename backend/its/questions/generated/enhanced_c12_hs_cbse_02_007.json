@@ -34,6 +34,31 @@
      "q": "Design a one-day vegetarian menu for a pregnant woman (second trimester) that meets the ICMR RDAs for folate (500 µg), vitamin B12 (1.2 µg), and vitamin C (60 mg), using only common Indian foods. List each food with portion size and the nutrient contribution.",
      "a": "Example menu: Breakfast — 2 besan chilla (60 g besan = 120 µg folate, 0.5 µg B12) + 1 glass fortified soy milk (1 µg B12) + 1 orange (70 mg vitamin C); Lunch — 1 cup cooked spinach dal (100 g spinach = 194 µg folate, 30 g dal = 30 µg folate) + 2 rotis + curd; Snack — 1 amla (600 mg vitamin C) + handful roasted chana; Dinner — 1 cup methi paratha (50 g methi = 100 µg folate) + paneer bhurji (50 g paneer = 0.4 µg B12). Total folate ≈ 444 µg (close, add 1 tbsp flaxseed chutney for extra), B12 ≈ 1.9 µg, vitamin C ≈ 670 mg. A poor answer omits B12 sources (fermented/fortified foods are critical for vegetarians) or relies on overcooked vegetables that destroy folate and vitamin C.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Water-soluble vitamins (B-complex and vitamin C) are organic ______ that dissolve in water, are not stored in significant amounts in the body, and must be consumed regularly through diet to support enzymatic reactions, energy metabolism, and antioxidant functions; their excess is excreted in urine, making toxicity rare but deficiency relatively common with inadequate intake.",
+     "a": "micronutrients",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are planning a week's meals for a hostel mess where several students complain of fatigue, mouth ulcers, and frequent infections — could their diet be lacking ______ water-soluble vitamins?",
+     "a": "specific",
+     "self_check": true
+    },
+    {
+     "q": "What is Water-soluble vitamins (B-complex and vitamin C)? State the definition given in this lesson.",
+     "a": "Water-soluble vitamins (B-complex and vitamin C) are organic micronutrients that dissolve in water, are not stored in significant amounts in the body, and must be consumed regularly through diet to support enzymatic reactions, energy metabolism, and antioxidant functions; their excess is excreted in urine, making toxicity rare but.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Water-soluble vitamins (B-complex and vitamin C)?",
+     "a": "Students often believe that \"vitamin B-complex\" is a single vitamin and that deficiency of one B-vitamin produces a single, isolated disease.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly match each B-vitamin and vitamin C to its primary coenzyme form, key metabolic role, major dietary sources, and characteristic deficiency syndrome, and can explain why water-solubility dictates daily dietary requirement and low toxicity risk.",
+     "self_check": true
     }
    ]
   }

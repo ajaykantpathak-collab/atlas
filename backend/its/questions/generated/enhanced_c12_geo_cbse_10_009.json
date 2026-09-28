@@ -34,6 +34,26 @@
      "q": "Design a minimum-service package for a remote tribal village (population 350, dispersed hamlets, hilly terrain) that ensures basic health, education, and digital access within 5 years. Justify each component geographically.",
      "a": "A good answer includes: (1) Solar mini-grid + battery storage (grid extension uneconomical due to low density and terrain), (2) Telemedicine kiosk linked to district hospital (avoids need for full PHC given small population), (3) Multi-grade learning centre with satellite internet (single teacher, digital content), (4) Gravity-fed piped water from spring source (low O&M, suits dispersed layout), (5) Footpath upgrade to all-weather standard for one hamlet as pilot (low cost, high impact). Poor answers propose standard PHC, grid electricity, or high school ignoring threshold population and terrain constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Problems of rural settlements in India refer to the persistent deficits in physical ______ (all-weather roads, electricity, piped water, sanitation, digital connectivity) and social services (healthcare, education, banking, markets) that hinder quality of life, economic productivity, and equitable development in villages, often exacerbated by low population density, dispersed settlement patterns, and inadequate public investment.",
+     "a": "infrastructure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine visiting a village in interior Odisha where the nearest primary health centre is 15 km away on a muddy track, ______ runs 6 hours daily, and the school has no functional toilet.",
+     "a": "electricity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by observing how the village’s dispersed hamleted pattern (from node ______) makes it expensive to lay pipes or cables.",
+     "a": "002",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify key infrastructure and service gaps in Indian rural settlements using Census 2011/2021 data, explain how settlement pattern (clustered vs dispersed) influences service delivery costs, and evaluate the effectiveness of major government schemes (PMGSY, Jal Jeevan Mission, BharatNet, NHM) in addressing these gaps.",
+     "self_check": true
     }
    ]
   }

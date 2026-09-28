@@ -5,6 +5,8 @@
    "id": "iemh.104.4.1",
    "title": "Square Identities (a + b) squared and (a - b) squared",
    "converted_to_compute": false,
+   "formula": "value = a * a + 2 * a * b + b * b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 33.",
@@ -42,6 +44,8 @@
    "id": "iemh.104.4.2",
    "title": "Difference of Squares Identity",
    "converted_to_compute": false,
+   "formula": "value = a * a - b * b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 28.",
@@ -78,15 +82,9 @@
   {
    "id": "iemh.104.4.3",
    "title": "Factorisation Using Identities",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "expand with the algebraic identity and evaluate",
-     "explain": "expand with the algebraic identity and evaluate: val = 9 * 9 + 2 * 9 * 7 + 7 * 7 gives 256",
-     "compute": "val = 9 * 9 + 2 * 9 * 7 + 7 * 7"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Use the identity (a + b)^2 = a^2 + 2ab + b^2 to find the square of 7 more than 9; report the value.",
@@ -123,27 +121,9 @@
   {
    "id": "iemh.104.4.4",
    "title": "Simplifying Rational Expressions",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the rational-number operation rules",
-     "explain": "apply the rational-number operation rules: num = 5 * 9 + 2 * 6 gives 57",
-     "compute": "num = 5 * 9 + 2 * 6"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the rational-number operation rules: den = 6 * 9 gives 54",
-     "compute": "den = 6 * 9"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the rational-number operation rules: val = num / den gives 1.05556",
-     "compute": "val = num / den"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Add the rational numbers 5/6 and 2/9.",

@@ -34,6 +34,26 @@
      "q": "Design a simple 4-petal flower shape on a grid and explain how you would ensure it has rotational symmetry.\n[Create]",
      "a": "The flower should have 4 identical petals positioned at 90-degree intervals around a center point. A poor answer would show petals of different sizes or irregular spacing, indicating they do not understand that rotational symmetry requires identical elements spaced at equal angles.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Creating symmetric shapes involves ______ a figure where one part is a perfect reflection or a rotated version of another part around a central point or line.",
+     "a": "constructing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever wondered how a Rangoli artist creates such perfect, ______ designs so quickly?",
+     "a": "balanced",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to draw the missing half of a symmetrical figure given a line of symmetry and demonstrate the ability to create a simple rotational pattern using a center point.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever ______ how a Rangoli artist creates such perfect, balanced designs so quickly?",
+     "a": "wondered",
+     "self_check": true
     }
    ]
   }

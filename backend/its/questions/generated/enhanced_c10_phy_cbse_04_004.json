@@ -34,6 +34,26 @@
      "q": "Design a simple activity using a stainless steel spoon (convex side) and a candle flame to demonstrate that the image formed by a convex mirror is always virtual, erect, and diminished. List the steps and what you would observe at each step.",
      "a": "Steps: (1) Hold the convex side of a clean stainless steel spoon facing a lit candle at arm's length. (2) Observe the flame's image in the spoon — it appears small, upright, and behind the spoon surface. (3) Slowly move the spoon closer to the flame — the image grows slightly but remains upright and smaller than the flame. (4) Try to project the image on a paper screen held at various positions — no sharp image forms on the screen at any position. Observations: Image is always erect (same orientation as flame), diminished (smaller), and cannot be caught on a screen (virtual). A poor answer that claims the image becomes real or inverted at close distances shows the student has not grasped the fundamental divergence property of convex mirrors.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Image formation by a convex mirror occurs when incident rays parallel to the principal axis appear to diverge from the principal focus (F) after ______, and rays directed towards the centre of curvature (C) reflect back along the same path; the virtual, erect, and diminished image is formed between the pole (P) and the focus (F) for all object positions in front of the mirror.",
+     "a": "reflection",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the side-view mirror of a parked auto-rickshaw or car in your neighbourhood — notice how it shows a wide field of view but makes vehicles look smaller and farther away than they ______ are.",
+     "a": "actually",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can accurately draw ray diagrams for a convex mirror for any object position (at infinity, between infinity and pole), correctly apply the two standard rays, locate the image between P and F, and state the image characteristics (virtual, erect, diminished) with proper arrow directions and labeling as per CBSE marking scheme.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the side-view mirror of a parked auto-rickshaw or car in your ______ — notice how it shows a wide field of view but makes vehicles look smaller and farther away than they actually are.",
+     "a": "neighbourhood",
+     "self_check": true
     }
    ]
   }

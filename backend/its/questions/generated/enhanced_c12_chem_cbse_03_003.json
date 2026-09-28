@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using the decomposition of H₂O₂ catalysed by MnO₂ to distinguish between zero-order and first-order kinetics. Specify what you would measure, how you would plot the data, and the criterion for each order.",
      "a": "Measure volume of O₂ gas evolved vs time (proxy for [H₂O₂] consumed). For zero-order: plot [H₂O₂] vs t → straight line with negative slope. For first-order: plot ln[H₂O₂] vs t → straight line with negative slope. Criterion: which plot gives a better straight line (higher R²). A poor answer that says \"measure time for complete decomposition\" fails because a single time point cannot distinguish rate laws — the student hasn't grasped that order determination requires concentration-time profiles (node c12_chem_cbse_03_005).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A zero-order reaction is a chemical reaction whose rate is independent of the ______ of the reactant(s); the rate law is Rate = k[R]⁰ = k, where k is the rate constant with units mol L⁻¹ s⁻¹.",
+     "a": "concentration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a catalytic converter in a car exhaust: the rate of CO oxidation on the platinum surface stays constant even as CO ______ drops, because the metal surface is fully covered (saturated) — adding more CO doesn't increase the rate.",
+     "a": "concentration",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) identify a zero-order reaction from its rate law or experimental data, (2) derive and apply the integrated rate equation [R] = [R]₀ – kt and the half-life expression t₁/₂ = [R]₀/2k, (3) sketch and interpret the [R] vs t graph (straight line, negative slope, intercept [R]₀), and (4) explain physically why the rate.",
+     "self_check": true
     }
    ]
   }

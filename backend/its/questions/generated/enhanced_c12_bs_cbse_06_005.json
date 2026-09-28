@@ -34,6 +34,31 @@
      "q": "Design a recruitment strategy for a new-age Indian fintech startup that needs to hire 10 software developers within 30 days. The startup has 15 existing employees, limited brand recognition, and a tight budget. Specify which sources (internal/external) you would use, in what order, and why.",
      "a": "A good answer: (1) First, use internal source — employee referrals (existing staff recommend developers from their network) — low cost, high trust, fast. (2) Second, use external low-cost sources — web publishing on niche tech job portals (e.g., AngelList, LinkedIn) and campus recruitment from tier-2/3 engineering colleges — wider reach, moderate cost. (3) Avoid expensive sources like placement agencies or TV advertising. (4) If urgent gaps remain, consider direct recruitment via coding hackathons. A poor answer that suggests only one source (e.g., \"just advertise on LinkedIn\") or ignores budget/brand constraints shows inability to synthesise multiple concepts (cost, speed, quality, employer branding) into a coherent strategy — the essence of \"create\" level thinking.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Internal sources of recruitment refer to filling job vacancies from within the existing workforce through transfers (horizontal movement) and promotions (vertical movement), while external sources involve hiring candidates from outside the ______ through methods like direct recruitment, advertising, campus recruitment, placement agencies, and web publishing.",
+     "a": "organisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the HR manager of a mid-sized Indian manufacturing company that suddenly gets a large export order requiring 50 ______ workers for three months.",
+     "a": "additional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the HR manager of a mid-sized Indian manufacturing company that suddenly gets a large export order requiring ______ additional workers for three months.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compare internal and external sources of recruitment on parameters such as cost, time, employee motivation, talent infusion, and suitability for different organisational contexts, and can recommend the most appropriate source for a given business scenario with justification.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the HR manager of a mid-sized Indian ______ company that suddenly gets a large export order requiring 50 additional workers for three months.",
+     "a": "manufacturing",
+     "self_check": true
     }
    ]
   }

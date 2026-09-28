@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_11_002",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_11_002",
+   "title": "c12_leg_cbse_11_002",
+   "questions": [
+    {
+     "q": "What is the time limit for filing a complaint with the National Human Rights Commission (NHRC) from the date of the alleged human rights violation?",
+     "a": "The complaint must be filed within **one year** of the occurrence of the human rights violation. A wrong answer (e.g., \"no time limit\" or \"three years\") reveals the student confuses NHRC with regular courts (which have limitation periods under the Limitation Act) or other tribunals — they haven't grasped that NHRC's statutory mandate (Protection of Human Rights Act, 1993) imposes a strict one-year bar to ensure timely intervention.",
+     "self_check": true
+    },
+    {
+     "q": "A complaint is filed with the NHRC alleging that a private company's security guards beat up a worker. The NHRC rejects it. Explain why, citing the specific jurisdictional limitation.",
+     "a": "The NHRC can only inquire into violations **by a public servant** (or abetment/negligence by one). A private company's security guards are not public servants. The rejection is based on Section 12 of the Protection of Human Rights Act, 1993, and NHRC guidelines (clause x: \"Allegation is not against any public servant\"). A wrong answer (e.g., \"NHRC handles all human rights violations\") shows the student misses the core jurisdictional filter: *state action* is required. This is the #1 error in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "A woman faces sexual harassment at her workplace (a State Government office). She wants to file a complaint. Which *two* national commissions could she approach, and what is the *key difference* in their mandates that determines which is more appropriate?",
+     "a": "She can approach **(1) NHRC** (violation of human rights by a public servant — the employer is the State) and **(2) NCW** (violation of women's rights/safeguards under Constitution/laws). The key difference: NHRC requires the *perpetrator to be a public servant*; NCW focuses on *gender-based rights deprivation* regardless of whether the violator is a public servant (though here both apply). If the harasser were a private employer, only NCW would have jurisdiction. A wrong answer listing only one commission or missing the \"public servant\" distinction shows fragmented understanding of overlapping but distinct mandates.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the complaint rejection grounds of NHRC and NCPCR. Identify *one* ground common to both and *one* ground unique to NCPCR.",
+     "a": "**Common ground**: Both reject complaints that are **sub-judice** (pending before a court/tribunal) or **vague/anonymous/frivolous**. **Unique to NCPCR**: It explicitly rejects complaints **\"not related to civil disputes such as property rights, contractual obligations\"** — NHRC also rejects these (guideline vii), but NCPCR lists it as a separate, emphasized category because child rights cases often get entangled in family/property disputes. A wrong answer missing the \"sub-judice\" commonality or inventing fake unique grounds shows poor comparative analysis.",
+     "self_check": true
+    },
+    {
+     "q": "\"The NHRC's recommendations are binding on the government.\" Evaluate this statement. Is it true or false? Justify with the specific legal provision and the *actual* remedy available to NHRC if the government ignores its recommendation.",
+     "a": "**False.** The NHRC has **no enforcement power** — its recommendations are *not* binding. Under Section 18 of the Protection of Human Rights Act, 1993, after inquiry, NHRC can only: (a) recommend compensation/prosecution to the concerned government/authority, (b) approach the Supreme Court/High Court for directions/orders, or (c) recommend interim relief. The government *may* accept or reject. A student saying \"true\" confuses NHRC with courts (whose judgments are binding) or misunderstands \"quasi-judicial\" as \"judicial.\" This is a critical board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical complaint scenario that would be **accepted by NCM but rejected by NHRC**. Specify the victim's minority community, the violation, the perpetrator, and explain *why* each commission would decide as stated.",
+     "a": "**Scenario**: A Jain monk is denied entry to a *government-run* museum in Delhi because of his religious attire (a white cloth mask). **Accepted by NCM**: The victim is from a notified minority community (Jains), the violation is denial of access to a public place based on religion (Article 15/25), and the perpetrator is a public servant (museum staff). NCM's mandate covers \"deprivation of rights and safeguards of Minorities\" by authorities. **Rejected by NHRC**: While the perpetrator is a public servant, NHRC guidelines (clause vii) exclude \"civil disputes such as property rights, contractual obligations\" — entry denial could be framed as a civil/contractual issue (ticket terms). Also, NHRC prioritizes *grave* violations (custodial death, torture); this may be deemed \"trivial\" (guideline iii). A poor answer fails to anchor the distinction in the *statutory mandates* (NCM Act vs. PHR Act) and *specific rejection guidelines*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

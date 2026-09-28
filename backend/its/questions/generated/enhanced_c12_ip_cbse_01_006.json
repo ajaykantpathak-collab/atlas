@@ -34,6 +34,21 @@
      "q": "Design a real‑world scenario (different from car showroom) where you would need to use GROUP BY with two grouping columns and two different aggregate functions. Write the SQL query for your scenario.",
      "a": "Scenario: A school database with a table EXAM(StudentID, Subject, Marks). To get each student's total marks and number of subjects per subject? Actually, better: A library table LOANS(BookID, MemberID, LoanDate, ReturnDate). Query: For each member and each book category (assume Category column), find the number of loans and the average loan duration in days. SQL:\n```sql\nSELECT MemberID, Category, COUNT(*) AS LoanCount, AVG(DATEDIFF(ReturnDate, LoanDate)) AS AvgDuration\nFROM LOANS\nGROUP BY MemberID, Category;\n```\nA poor answer uses only one grouping column or only one aggregate, indicating the student cannot synthesize a multi‑dimensional grouping requirement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: SQL aggregate functions (SUM, AVG, COUNT, MAX, MIN) compute a single summary value from a set of rows, and GROUP BY ______ rows into groups sharing identical values in specified columns so that aggregates can be calculated per group.",
+     "a": "partitions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the manager of a car showroom and you need to know how many cars each ______ sold last month and the total revenue they generated.",
+     "a": "salesperson",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write a SELECT query that uses GROUP BY with one or more aggregate functions to answer questions such as \"total sales per customer\" or \"average price per model\", correctly handling NULLs, DISTINCT, and filtering groups with HAVING.",
+     "self_check": true
     }
    ]
   }

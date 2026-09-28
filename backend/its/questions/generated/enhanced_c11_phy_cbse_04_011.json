@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using household items to demonstrate that rolling friction is much smaller than sliding friction. List the materials, procedure, and what you would measure.",
      "a": "Materials: A book (slider), a cylindrical pencil/pen (roller), a wooden board as an incline, a protractor.\nProcedure: (1) Place the book on the board, slowly increase the angle until it just starts to slide. Record angle θₛ. (2) Place the pencil on the board, increase angle until it just starts to roll. Record angle θᵣ.\nMeasurement: tan θₛ = μₛ (static friction coefficient); tan θᵣ ≈ μᵣ (rolling friction coefficient). Since θᵣ << θₛ, μᵣ << μₛ.\nA poor answer (e.g., \"push them and see which goes farther\") lacks quantitative measurement and control of variables, showing the student doesn't understand how to isolate friction coefficients experimentally.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Rolling friction is the ______ force that opposes the motion of a body (such as a wheel, sphere, or cylinder) rolling without slipping over a surface.",
+     "a": "resistive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a steel ball ______ rolling on a glass table versus sliding a steel block on the same table — the ball rolls much farther with the same initial push.",
+     "a": "bearing",
+     "self_check": true
+    },
+    {
+     "q": "What is Rolling friction? State the definition given in this lesson.",
+     "a": "Rolling friction is the resistive force that opposes the motion of a body (such as a wheel, sphere, or cylinder) rolling without slipping over a surface.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Rolling friction?",
+     "a": "Students often believe that rolling friction is a type of static friction because the contact point is instantaneously at rest.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why rolling friction is much smaller than sliding friction using the concept of deformation at the contact patch, and can describe how lubricants and ball bearings reduce friction in machines by changing the nature of the contact forces.",
+     "self_check": true
     }
    ]
   }

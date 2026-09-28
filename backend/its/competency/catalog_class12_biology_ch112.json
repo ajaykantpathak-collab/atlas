@@ -135,7 +135,16 @@
      "question": "Why is the net primary productivity of oceans much lower than that of terrestrial ecosystems despite oceans covering more area?",
      "type": "long_answer"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "NPP = GPP - R",
+     "compute": "NPP = GPP - R"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jebh.14.3",
@@ -267,7 +276,16 @@
      "question": "Explain why the number of trophic levels in a food chain is usually limited to 4-5.",
      "type": "long_answer"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "E_next = E_current * 0.10",
+     "compute": "E_next = E_current * 0.10"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jebh.14.5",

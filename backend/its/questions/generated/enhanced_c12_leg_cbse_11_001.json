@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_11_001",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_11_001",
+   "title": "c12_leg_cbse_11_001",
+   "questions": [
+    {
+     "q": "What is the statutory basis for the National Human Rights Commission (NHRC) and who appoints its Chairperson?",
+     "a": "The NHRC is established under the Protection of Human Rights Act, 1993. Its Chairperson (a former Chief Justice of India) is appointed by the President of India on the recommendation of a high-powered committee comprising the Prime Minister, Speaker of Lok Sabha, Home Minister, Leaders of Opposition in both Houses, and Deputy Chairman of Rajya Sabha. A wrong answer (e.g., \"appointed by CJI\" or \"under Article 32\") reveals confusion between constitutional bodies (Supreme Court) and statutory bodies (NHRC), and ignorance of the executive-heavy appointment process which impacts perceived independence.",
+     "self_check": true
+    },
+    {
+     "q": "A complaint is filed with the NHRC alleging that a private company discriminates in hiring based on caste. The NHRC rejects it. Explain why, citing the specific jurisdictional limitation.",
+     "a": "The NHRC's jurisdiction under Section 12 of the PHR Act is restricted to violations by **public servants** (or abetment/negligence by them). A private company is not a \"public servant\" as defined in Article 12 of the Constitution (State). The NHRC cannot inquire into purely private contractual disputes or civil matters like employment discrimination by private employers. A wrong answer (e.g., \"NHRC can take any human rights case\") shows the student misses the core jurisdictional filter: *State action* is mandatory. This is a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A victim of police torture files an NHRC complaint 13 months after the incident. The NHRC registry refuses to register it. The victim argues the delay was due to fear of retaliation. Can the NHRC condone the delay? Apply the law.",
+     "a": "No. Section 12(2) of the PHR Act and NHRC guidelines explicitly bar complaints filed **after one year** from the date of the alleged violation. Unlike courts (which can condone delay under Limitation Act), the NHRC has **no statutory power to condone delay**. The one-year limit is jurisdictional and mandatory. A wrong answer (\"yes, on humanitarian grounds\") reveals the student confuses NHRC's quasi-judicial powers with a court's inherent powers. The NHRC is a creature of statute — it only has powers the Act gives it.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the complaint mechanisms of NHRC and NCW regarding: (a) who can file, (b) time limit, (c) grounds for rejection. Identify two key differences.",
+     "a": "Key differences: (1) **NCW** only entertains complaints relating to **women's rights** (NCW Act, 1990), while NHRC covers all human rights violations by public servants against any person. (2) NCW **explicitly rejects** complaints that are **sub-judice** or where the complainant hasn't exhausted other remedies (unless justified), while NHRC's rejection grounds (guideline xii) include sub-judice matters but also **civil disputes, service matters, labour disputes** — broader exclusions. (3) Both have a **1-year limitation**, but NCW's is in its regulations, NHRC's in the Act. A wrong answer listing only composition differences misses the procedural nuance examiners test.",
+     "self_check": true
+    },
+    {
+     "q": "\"NHRC recommendations are binding on the government.\" Critically evaluate this statement with reference to the PHR Act, 1993 and the L. Chandra Kumar case.",
+     "a": "The statement is **false**. Under Section 18 of the PHR Act, NHRC can only **recommend** compensation, prosecution, or interim relief. It can approach the Supreme Court/High Court for directions (writs), but its own orders are **not binding**. In *L. Chandra Kumar v. Union of India* (1997), the Supreme Court held that tribunals/quasi-judicial bodies **cannot oust the jurisdiction of High Courts** — their decisions are subject to judicial review. NHRC lacks *contempt power* to enforce compliance. A wrong answer (\"binding because NHRC has civil court powers\") confuses *procedural powers* (summoning, evidence) with *adjudicatory finality*. This is the #1 misconception in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical NHRC complaint (fill the format) for a real-world scenario: A Dalit family in rural Uttar Pradesh is denied entry to a village temple and beaten by the dominant caste. The local police refuse to register an FIR under the SC/ST (Prevention of Atrocities) Act, 1989. Include all mandatory fields (A-I) and justify each entry.",
+     "a": "A valid complaint must include: **A** (Complainant: victim's relative/NGO rep); **B** (Incident: village name, district, date); **C** (Victim: names, SC caste, ages, disabilities if any, religion — critical for SC/ST atrocity jurisdiction); **D** (Summary: denial of temple entry = Art. 17/25 violation; assault = Art. 21; police inaction = negligence by public servant); **E** (No, not armed forces); **F** (No parallel case); **G** (SHO name, rank, police station — the negligent public servant); **H** (SP/District Magistrate — authority answerable); **I** (Prayer: direct FIR registration, compensation, disciplinary action against SHO). A poor answer omits caste (loses SC/ST Act leverage), misses police as \"public servant\", or prays for \"punishment of attackers\" (NHRC can't order that directly — only recommend prosecution).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

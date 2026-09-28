@@ -34,6 +34,21 @@
      "q": "Create a mini-case: A firm has two partners, P and Q. P has a loan of ₹40,000 and capital ₹1,00,000. Q has capital ₹60,000. External creditors ₹20,000. Assets realise ₹1,50,000. Realisation profit ₹10,000. Write the full settlement sequence with journal entries.",
      "a": "1. Realisation Profit distributed: P ₹5,000, Q ₹5,000 → Capitals become P ₹1,05,000, Q ₹65,000.  \n2. Cash ₹1,50,000. Pay creditors ₹20,000 → left ₹1,30,000.  \n3. Pay P's loan ₹40,000 → left ₹90,000.  \n4. Pay capitals: P ₹1,05,000, Q ₹65,000 (total ₹1,70,000) but only ₹90,000 cash → shortfall ₹80,000 borne in profit-sharing ratio.  \nEntries:  \nRealisation A/c Dr. 10,000 → To P's Capital 5,000, To Q's Capital 5,000.  \nCreditors A/c Dr. 20,000 → To Bank 20,000.  \nP's Loan A/c Dr. 40,000 → To Bank 40,000.  \nP's Capital A/c Dr. 1,05,000, Q's Capital A/c Dr. 65,000 → To Bank 90,000 (and deficiency carried to personal accounts).  \nA poor answer misses the profit distribution *before* capital payment or pays loan after capital.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In the ______ of a partnership firm, a Partner's Loan to the Firm is a liability owed by the firm to a partner (distinct from capital) and must be repaid after external creditors but before any capital repayment.",
+     "a": "dissolution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ firm \"A & B\" decides to dissolve.",
+     "a": "partnership",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) pass correct journal entries for repayment of a partner's loan (in cash or by asset transfer) and (2) prepare the Partners' Capital Accounts showing the final settlement after realisation profit/loss, ensuring the payment order: external creditors → partner's loan → partner's capital.",
+     "self_check": true
     }
    ]
   }

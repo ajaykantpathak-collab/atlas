@@ -34,6 +34,26 @@
      "q": "Construct a real-world problem (e.g., from physics or economics) that requires evaluating a definite integral using the Second Fundamental Theorem. Specify the integrand, limits, and the meaning of the result.",
      "a": "Example: The marginal cost function for producing \\( x \\) units is \\( C'(x) = 0.02x + 5 \\) rupees/unit. Find the total cost of increasing production from 100 to 200 units. Integrand: \\( 0.02x + 5 \\), limits: 100 to 200. Result: \\( \\int_{100}^{200} (0.02x+5) \\, dx = [0.01x^2 + 5x]_{100}^{200} = (400+1000) - (100+500) = 800 \\) rupees. A poor answer uses an integrand that is not a derivative of a meaningful quantity or misinterprets the result.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This theorem provides a ______ method to evaluate definite integrals without computing limits of Riemann sums.",
+     "a": "practical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To find the total ______ travelled, you need the definite integral of velocity.",
+     "a": "distance",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly evaluate definite integrals by finding an antiderivative and applying the evaluation theorem, can identify when the theorem applies (continuity of the integrand on the interval), and can handle integrals requiring algebraic manipulation or standard integral formulas before applying the theorem.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To find the total distance ______, you need the definite integral of velocity.",
+     "a": "travelled",
+     "self_check": true
     }
    ]
   }

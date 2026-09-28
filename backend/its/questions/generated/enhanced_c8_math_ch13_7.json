@@ -34,6 +34,21 @@
      "q": "Create a word problem involving addition of two algebraic expressions that represents a real-life situation (e.g., perimeter of a rectangle, total cost, etc.). Write the expressions and find the sum.",
      "a": "Example: \"A rectangular garden has length (3x + 2) metres and breadth (2x – 1) metres. Write an expression for the perimeter and simplify.\" Perimeter = 2(l+b) = 2[(3x+2)+(2x–1)] = 2[5x+1] = 10x+2. A good answer includes a realistic context, correct expressions, and correct simplification. A poor answer might use unlike terms that cannot be combined or incorrect operations.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Adding and subtracting algebraic expressions involves combining like terms by adding or subtracting their numerical ______ while keeping the variable part unchanged.",
+     "a": "coefficients",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Riya has (3x + 5) ______, where x is the number of sheets she buys each week.",
+     "a": "stamps",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly add and subtract two or more algebraic expressions by identifying like terms, combining their coefficients using integer rules, and writing the simplified result.",
+     "self_check": true
     }
    ]
   }

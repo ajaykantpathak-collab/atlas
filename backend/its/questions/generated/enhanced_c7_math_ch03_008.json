@@ -34,6 +34,26 @@
      "q": "Create an addition problem involving three decimal numbers of different lengths (one with tenths, one with hundredths, and one with thousandths) whose sum equals exactly $25.000$. Show the numbers and their verification.",
      "a": "A valid student response should provide three numbers like $12.450$, $8.125$, and $4.425$. \nVerification:\n  $12.450$\n+ $8.125$\n+ $4.425$\n---------\nThousandths: $0 + 5 + 5 = 10$ (write 0, carry 1)\nHundredths: $5 + 2 + 2 + 1 = 10$ (write 0, carry 1)\nTenths: $4 + 1 + 4 + 1 = 10$ (write 0, carry 2)\nOnes: $2 + 8 + 4 + 2 = 16$ (write 6, carry 1)\nTens: $1 + 1 = 2$\nTotal = $25.000$. A poor response would feature numbers that do not sum correctly or fail to account for proper place value alignment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The addition of decimal numbers is the mathematical process of combining two or more quantities involving fractional parts (tenths, hundredths, thousandths) by aligning their decimal points and adding digits within ______ place-value columns.",
+     "a": "corresponding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To find out the total amount you need to pay the shopkeeper, you cannot just add 4550 and 1275; you must ______ whole rupees with whole rupees and paise with paise.",
+     "a": "combine",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can correctly set up, align, and add multi-digit decimal numbers of varying lengths and place values in real-world contexts (such as money and measurement) without making column-alignment or place-value carry errors.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To find out the total amount you need to pay the ______, you cannot just add 4550 and 1275; you must combine whole rupees with whole rupees and paise with paise.",
+     "a": "shopkeeper",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "A student simplifies (x² - 1)/(x - 1) as x - 1. Identify the error and correct it.",
      "a": "The error is incorrect factorisation. x² - 1 = (x+1)(x-1), not (x-1)². The correct simplification: (x+1)(x-1)/(x-1) = x + 1, for x ≠ 1. The student wrote x - 1, which is wrong — they likely confused x² - 1 (difference of squares) with (x-1)² (square of difference). The correct answer is x + 1, not x - 1.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Rational expressions are fractions where both the numerator and denominator are polynomials, and ______ means reducing the fraction to its lowest terms by factorising both numerator and denominator and cancelling common factors — analogous to simplifying numerical fractions like 6/8 = 3/4, but applied to algebraic expressions like (x²-9)/(x+3) = (x+3)(x-3)/(x+3) = x-3 (for x ≠ -3).",
+     "a": "simplification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now do the same with an ______ fraction: (x² - 9)/(x² + 6x + 9).",
+     "a": "algebraic",
+     "self_check": true
+    },
+    {
+     "q": "What is Rational expressions? State the definition given in this lesson.",
+     "a": "Rational expressions are fractions where both the numerator and denominator are polynomials, and simplification means reducing the fraction to its lowest terms by factorising both numerator and denominator and cancelling common factors — analogous to simplifying numerical fractions like 6/8 = 3/4, but applied to algebraic expressions.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Rational expressions?",
+     "a": "Students cancel terms instead of factors.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can factorise the numerator and denominator of a rational expression, identify and cancel common factors, state restrictions on variables that would make the denominator zero, and simplify expressions to lowest terms.",
+     "self_check": true
     }
    ]
   }

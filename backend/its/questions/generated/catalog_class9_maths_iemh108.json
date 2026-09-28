@@ -5,6 +5,8 @@
    "id": "iemh.108.8.1",
    "title": "Sequences and Their Rules",
    "converted_to_compute": false,
+   "formula": "term = first + (n - 1) * diff",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 9th term of the AP with first term 4 and common difference 8.",
@@ -42,6 +44,8 @@
    "id": "iemh.108.8.2",
    "title": "Arithmetic Progressions",
    "converted_to_compute": false,
+   "formula": "nth_term = first + (n - 1) * d",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 4th term of the AP with first term 11 and common difference 4.",
@@ -79,6 +83,8 @@
    "id": "iemh.108.8.3",
    "title": "Sum of the First n Natural Numbers",
    "converted_to_compute": false,
+   "formula": "sum = n * (n + 1) / 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 11th term of the AP with first term 3 and common difference 7.",
@@ -116,6 +122,8 @@
    "id": "iemh.108.8.4",
    "title": "Geometric Progressions",
    "converted_to_compute": false,
+   "formula": "nth_term = first * ratio ** (n - 1)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the 14th term of the AP with first term 2 and common difference 9.",

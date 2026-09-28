@@ -34,6 +34,31 @@
      "q": "Construct a simplified balance-of-payments style account for colonial India (c. 1900) showing: merchandise exports, merchandise imports, invisible debits (home charges, interest, profits), invisible credits, and net drain. Use hypothetical but historically plausible figures (in £ millions) and ensure the account balances.",
      "a": "Sample account (all £ millions):\nMerchandise Exports: 180\nMerchandise Imports: 100\nMerchandise Trade Balance: +80\nInvisible Credits (shipping, insurance, banking fees earned): 5\nInvisible Debits: Home Charges 20, Interest on Debt 15, Railway Guarantees 10, Military Stores 8, Profit Remittances 12 = 65\nNet Invisible Balance: -60\nCurrent Account Balance: +20\nCapital Account (net inflow for railway construction, etc.): +20\nNet Drain (Current Account Surplus - Capital Inflow for productive investment): 80 - 20 = 60 (or directly: Invisible Debits - Invisible Credits = 60)\nA poor answer shows imbalance or omits profit remittances, revealing misunderstanding that drain operated *through* the trade surplus, not alongside it. The key insight: the £80 merchandise surplus financed the £60 invisible debit — the \"surplus\" was the drain's vehicle.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Drain of Wealth theory, propounded by Dadabhai Naoroji in his 1867 work *Poverty and Un-British Rule in India*, refers to the systematic, unilateral transfer of India's national income and resources to Britain during colonial rule without any equivalent economic return, occurring through mechanisms such as home charges (______ expenses in Britain), military expenditure, interest on public debt, and guaranteed railway profits — all financed by India's export surplus.",
+     "a": "administrative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a ______ textile workshop in 1880s Gujarat.",
+     "a": "small",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Drain of Wealth theory, propounded by Dadabhai Naoroji in his ______ work *Poverty and Un-British Rule in India*, refers to the systematic, unilateral transfer of India's national income and resources to Britain during colonial rule without any equivalent economic return, occurring through mechanisms such as home charges (administrative expenses in Britain), military expenditure, interest on public debt, and guaranteed railway profits — all financed by India's export surplus.",
+     "a": "1867",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the five constituent components of the drain (home charges, military costs, interest on debt, railway guarantees, and trade manipulation), calculate the approximate magnitude of drain as a percentage of national income using historical data, and evaluate how this drain constrained capital formation and industrial.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small textile ______ in 1880s Gujarat.",
+     "a": "workshop",
+     "self_check": true
     }
    ]
   }

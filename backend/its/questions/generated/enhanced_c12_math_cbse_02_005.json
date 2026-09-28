@@ -34,6 +34,26 @@
      "q": "Construct a problem where tan⁻¹x + tan⁻¹y = π/2, with x,y > 0. Find the relationship between x and y, and give two specific pairs (x,y) that satisfy it. Explain why the standard addition formula cannot be directly applied.",
      "a": "If tan⁻¹x + tan⁻¹y = π/2 with x,y > 0, then tan(tan⁻¹x + tan⁻¹y) = tan(π/2), which is undefined. Using the tangent addition formula: (x+y)/(1-xy) → ∞, so denominator 1-xy = 0 ⇒ xy = 1. The standard formula tan⁻¹x + tan⁻¹y = tan⁻¹((x+y)/(1-xy)) fails because it requires xy ≠ 1 (denominator zero) and the result would be tan⁻¹(∞) = π/2, but the formula's RHS is undefined at xy=1. This is a boundary case. Pairs: (1,1), (2, 1/2), (√3, 1/√3). Students often try to plug xy=1 into the formula and get \"undefined\" without realising this IS the condition for the sum to be π/2. This tests deep understanding of the formula's derivation and domain limits.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This formula ______ the sum of two principal values of arctangent as a single arctangent (possibly shifted by ±π) and is valid within the principal value branch (-π/2, π/2) of tan⁻¹.",
+     "a": "expresses",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ramp needs two sections with ______ 1/2 and 1/3 (rise/run).",
+     "a": "slopes",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly apply the tan⁻¹ addition formula with all case conditions (xy < 1, xy > 1 with x,y > 0, xy > 1 with x,y < 0) to simplify expressions, solve equations, and evaluate sums of inverse tangents in board exam and JEE-level problems.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ramp needs two ______ with slopes 1/2 and 1/3 (rise/run).",
+     "a": "sections",
+     "self_check": true
     }
    ]
   }

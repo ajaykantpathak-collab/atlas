@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a 1.5 V cell, a small LED, a variable resistor (rheostat), and a voltmeter to demonstrate that potential difference across the LED changes as current changes. Draw the circuit diagram and state what you would plot on the axes to verify the relationship.",
      "a": "Circuit: Cell → rheostat → LED → back to cell, all in series. Voltmeter connected in parallel across the LED only. Vary the rheostat, record voltmeter reading (V across LED) and ammeter reading (I through circuit). Plot V (y-axis) vs I (x-axis). A poor answer (e.g., voltmeter in series, or plotting I vs V without labelling axes) reveals the student cannot translate the concept into a practical investigation — a skill tested in CBSE practical exams and case-based questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Electric potential at a point in an electric field is the work done per unit positive charge in bringing that charge from infinity to that point without ______.",
+     "a": "acceleration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______-powered LED torch: when you press the switch, the LED glows because charges move through it.",
+     "a": "battery",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate potential difference given work done and charge transferred, explain why a voltmeter is connected in parallel, and predict the direction of conventional current flow based on potential difference between two points in a circuit.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a battery-powered LED torch: when you press the switch, the LED glows because charges move through it.",
+     "a": "Observe",
+     "self_check": true
     }
    ]
   }

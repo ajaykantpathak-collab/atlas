@@ -34,6 +34,31 @@
      "q": "Design a real-world scenario (Indian context, using rupees) requiring a query that uses WHERE, GROUP BY, HAVING, and ORDER BY together. Write the complete query for your scenario and explain why each clause is necessary and why no clause can be omitted.",
      "a": "Scenario: A retail chain `SALES(Store_ID, City, Product_Category, Sale_Date, Amount)` wants: \"For each city and product category in 2023, show total sales only where total exceeds ₹5,00,000, sorted by total sales descending.\" Query: `SELECT City, Product_Category, SUM(Amount) AS Total_Sales FROM SALES WHERE YEAR(Sale_Date) = 2023 GROUP BY City, Product_Category HAVING SUM(Amount) > 500000 ORDER BY Total_Sales DESC;` WHERE filters rows to 2023 (reduces aggregation load), GROUP BY partitions by city-category, HAVING filters groups on aggregate, ORDER BY sorts final result. Omitting WHERE includes all years; omitting HAVING shows all groups; omitting ORDER BY loses required sort. A poor answer uses a trivial scenario or misses one clause's necessity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ORDER BY clause sorts the result set of a query in ascending (ASC) or descending (DESC) order based on one or more columns; the GROUP BY clause partitions rows into groups sharing identical values in specified columns to enable aggregate ______ per group; the HAVING clause filters groups after aggregation using conditions on aggregate functions, unlike WHERE which filters rows before grouping.",
+     "a": "calculations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the sports coordinator of your school and have a table SPORTS_FEES with ______ Student_ID, Sport, Fee_Paid, Grade.",
+     "a": "columns",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You need to group by Sport, sum Fee_Paid per group, filter groups where SUM > ______, and sort the result.",
+     "a": "20000",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write a single SQL query combining WHERE, GROUP BY, HAVING, and ORDER BY clauses to solve a multi-condition analytical problem (e.g., \"Find departments where average salary exceeds ₹50,000, show department name and average salary, sorted descending by average salary\") and explain the logical execution order of clauses.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the sports ______ of your school and have a table SPORTS_FEES with columns Student_ID, Sport, Fee_Paid, Grade.",
+     "a": "coordinator",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Create a real-world word problem where adding 1/2 and 1/4 is necessary.\n[2-3 sentences]",
      "a": "A good answer would involve measuring something, like \"I used 1/2 litre of milk for tea and 1/4 litre for coffee; how much milk did I use total?\" A poor answer, such as \"adding 1/2 and 1/4 apples,\" without context, shows difficulty in bridging abstract fractions with physical reality.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Addition of fractions is the process of combining two or more fractional parts of the same whole into a single total, provided they are expressed using the same fractional unit (______).",
+     "a": "denominator",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If your friend gives you 1/4 of a roti and your ______ gives you 1/2 of a roti, how much do you have in total?",
+     "a": "sibling",
+     "self_check": true
+    },
+    {
+     "q": "What is Addition of fractions? State the definition given in this lesson.",
+     "a": "Addition of fractions is the process of combining two or more fractional parts of the same whole into a single total, provided they are expressed using the same fractional unit (denominator).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Addition of fractions?",
+     "a": "The most common error is \"denominator addition,\" where students add numerators and add denominators (e.g., 1/2 + 1/3 = 2/5).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the sum of two or more fractions with both like and unlike denominators, simplify the final result to lowest terms, and solve word problems involving fractional quantities in real-world contexts.",
+     "self_check": true
     }
    ]
   }

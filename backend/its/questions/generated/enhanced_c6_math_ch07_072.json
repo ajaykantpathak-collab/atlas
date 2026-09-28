@@ -34,6 +34,31 @@
      "q": "Draw a rough sketch of an angle that is exactly 45°. How would you explain to a friend that this is half of a right angle?",
      "a": "The answer should describe that since a right angle is 90°, and 45° is 90° divided by 2, they represent the same \"turn.\" An answer that focuses only on drawing without explaining the relationship lacks conceptual depth.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An angle is the amount of ______ between two rays that share a common starting point, called the vertex.",
+     "a": "rotation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are opening a pair of scissors; as the blades move apart, the ______ between them grows—that \"opening\" is an angle.",
+     "a": "space",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Angles are measured in degrees (°), where a full turn is ______°.",
+     "a": "360",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify the vertex and arms of an angle, classify it by type (acute, right, obtuse, straight, reflex), and measure it accurately using a protractor.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are opening a pair of ______; as the blades move apart, the space between them grows—that \"opening\" is an angle.",
+     "a": "scissors",
+     "self_check": true
     }
    ]
   }

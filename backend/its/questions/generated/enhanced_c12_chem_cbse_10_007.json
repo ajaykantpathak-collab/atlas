@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using household materials to demonstrate that denaturation by heat is often irreversible, while denaturation by a chaotropic agent like urea can be reversible.",
      "a": "Take two samples of egg white. Heat one in a water bath at 80°C for 5 min — it coagulates irreversibly. Treat the other with 8 M urea at room temperature for 30 min — it becomes transparent/viscous. Then dialyze the urea-treated sample against water (using a semi-permeable membrane like a dialysis bag or even a porous cloth bag in large volume water with frequent changes). If the sample regains some viscosity/transparency, it indicates refolding. A poor answer (e.g., \"just boil both\") shows inability to design controlled comparison and misunderstanding of reversibility.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of proteins is the process in which a native protein loses its unique three-dimensional structure (secondary, tertiary, and quaternary) due to disruption of non-covalent interactions (hydrogen bonds, hydrophobic interactions, van der Waals forces) and disulfide bonds, while the primary structure (amino acid sequence) remains intact, leading to loss of biological activity.",
+     "a": "Denaturation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with the familiar ______ of boiling an egg: the transparent, runny egg white turns opaque and solid.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "What is Denaturation of proteins? State the definition given in this lesson.",
+     "a": "Denaturation of proteins is the process in which a native protein loses its unique three-dimensional structure (secondary, tertiary, and quaternary) due to disruption of non-covalent interactions (hydrogen bonds, hydrophobic interactions, van der Waals forces) and disulfide bonds, while the primary structure (amino acid sequence) remains.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Denaturation of proteins?",
+     "a": "Students often think denaturation breaks peptide bonds because the protein \"falls apart\" and loses function.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can identify the structural levels affected by denaturation, predict whether a given physical/chemical agent will cause denaturation, and explain why primary structure is preserved while biological activity is lost.",
+     "self_check": true
     }
    ]
   }

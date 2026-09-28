@@ -34,6 +34,31 @@
      "q": "Create a multiplication problem using two decimals that results in a product of 0.06.",
      "a": "Any pair like 0.2 x 0.3 or 0.6 x 0.1 works. If a student provides 6 x 0.01, they understand the product but missed the instruction to use two decimals; if they provide 0.6 x 0.6, they show a misunderstanding of place value.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ decimals is a process where two decimal numbers are multiplied as whole numbers first, followed by placing the decimal point in the final product based on the total number of decimal places in the original numbers.",
+     "a": "Multiplying",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at the grocery store buying 3.5 kilograms of rice, and the ______ is ₹42.50 per kilogram.",
+     "a": "price",
+     "self_check": true
+    },
+    {
+     "q": "What is Multiplying decimals? State the definition given in this lesson.",
+     "a": "Multiplying decimals is a process where two decimal numbers are multiplied as whole numbers first, followed by placing the decimal point in the final product based on the total number of decimal places in the original numbers.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Multiplying decimals?",
+     "a": "Students often try to align decimal points vertically as they do in addition.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to multiply two decimal numbers correctly by counting decimal places and placing the decimal point accurately in the product.",
+     "self_check": true
     }
    ]
   }

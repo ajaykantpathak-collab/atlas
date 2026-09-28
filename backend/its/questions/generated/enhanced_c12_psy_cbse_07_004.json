@@ -1,0 +1,71 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_07_004",
+   "title": "c12_psy_cbse_07_004",
+   "questions": [
+    {
+     "q": "A student writes: “Forming is when the group starts working on the task.” Is this statement accurate? Explain in one sentence.",
+     "a": "No. Forming is characterized by orientation, testing, and dependence — members focus on “Who are we?” and “What are we doing?” not on task execution. Task work begins substantially in Performing. A wrong answer reveals confusion between the *orientation* phase and the *action* phase, a common error where students conflate “forming the group” with “forming the work.”",
+     "self_check": true
+    },
+    {
+     "q": "“Storming is a sign that the group is failing.” Why is this a misconception? Use the NCERT description of Storming to support your answer.",
+     "a": "Storming is a *necessary* developmental stage where conflict about goals, leadership, and procedures surfaces; resolving it establishes a hierarchy and clarifies vision. NCERT states: “When this stage is complete, some sort of hierarchy of leadership in the group develops and a clear vision as to how to achieve the group goal.” Treating conflict as failure ignores its constructive function. A wrong answer indicates the student views conflict as purely pathological rather than developmental.",
+     "self_check": true
+    },
+    {
+     "q": "A project team of six Class 12 students has been working together for three months. They have clear roles, shared norms, and high output. Suddenly, a new member joins. At the next meeting, old members revert to polite but guarded interaction, and the new member asks basic procedural questions. Identify the stage the group has re-entered and explain why.",
+     "a": "The group has re-entered **Forming**. Adding a new member disrupts established norms and roles, forcing the group to re-orient (“Who are we now?” and “How do we include this person?”). NCERT notes groups “may go back and forth through the various stages.” A wrong answer (e.g., “still Performing”) shows the student assumes stages are one-way and ignores the impact of membership change on group structure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast Norming and Performing on two dimensions: (a) primary focus of member energy, and (b) level of structure acceptance.",
+     "a": "(a) Norming: energy directed toward *building* consensus, establishing norms, and developing group identity. Performing: energy directed toward *task accomplishment* using already-accepted structure. (b) Norming: structure is being negotiated and accepted; Performing: structure is fully accepted and taken for granted. A wrong answer that swaps the foci or claims both stages have identical structure acceptance misses the developmental shift from *process-building* to *task-execution*.",
+     "self_check": true
+    },
+    {
+     "q": "“Adjourning is irrelevant for permanent groups like families or long-standing departments.” Evaluate this claim using Tuckman’s model and the NCERT caveat about stage universality.",
+     "a": "The claim is partially valid but incomplete. Adjourning applies to *temporary* groups (e.g., committees, project teams) that disband after goal achievement. NCERT states: “For some groups… this may be the last stage… However, for some groups… there may be another stage known as adjourning.” Permanent groups may not experience a final adjourning, but sub-groups within them (e.g., a family when a child leaves for college) can. A wrong answer that says “Adjourning never happens in permanent groups” ignores the model’s conditional applicability and the reality of sub-group dissolution.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-minute classroom activity that would allow an observer to distinguish between a group in Storming and a group in Norming. Describe the activity, the observable behaviors you would code, and the decision rule.",
+     "a": "Activity: “Consensus on a Controversial Topic” — groups of 4 discuss a polarizing issue (e.g., “Should homework be banned?”) for 3 minutes. Observable behaviors: (1) frequency of interruptions, (2) number of “I” vs. “we” statements, (3) presence of explicit rule-setting (e.g., “Let’s take turns”). Decision rule: High interruptions, dominant “I” statements, no procedural rules → Storming. Low interruptions, balanced “we” statements, explicit process agreements → Norming. A poor answer proposes an activity without clear behavioral markers or a decision rule, showing inability to operationalize stage definitions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Tuckman's Stages of Group Development is a five-stage model (Forming, Storming, Norming, Performing, Adjourning) describing the typical sequence through which groups evolve from initial assembly to goal achievement and eventual dissolution, ______ by shifting patterns of interpersonal dynamics, task focus, and structural emergence.",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are selected for a 5-member ______ to organize your school’s annual fest.",
+     "a": "committee",
+     "self_check": true
+    },
+    {
+     "q": "What is Tuckman's Stages of Group Development? State the definition given in this lesson.",
+     "a": "Tuckman's Stages of Group Development is a five-stage model (Forming, Storming, Norming, Performing, Adjourning) describing the typical sequence through which groups evolve from initial assembly to goal achievement and eventual dissolution, characterized by shifting patterns of interpersonal dynamics, task focus, and structural emergence.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are selected for a ______-member committee to organize your school’s annual fest.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Tuckman's Stages of Group Development?",
+     "a": "Students often believe Tuckman’s stages are a strict, invariant sequence that every group follows in lockstep (Forming → Storming → Norming → Performing → Adjourning).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) correctly label each stage when given a behavioral description of a group, (2) explain the primary developmental task and typical member behaviors for each stage, and (3) justify why groups may not follow the stages linearly (e.g., regression, skipping, or recycling).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

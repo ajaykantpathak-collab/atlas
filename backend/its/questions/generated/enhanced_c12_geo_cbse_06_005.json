@@ -34,6 +34,31 @@
      "q": "Design a locational decision matrix for a new large-scale automobile manufacturing plant in India. Choose four geographical factors, assign weights (sum = 100), and justify the top two locations from: (a) Sanand (Gujarat), (b) Sri City (Andhra Pradesh), (c) Oragadam (Tamil Nadu).",
      "a": "**Matrix (example):**  \n| Factor | Weight | Sanand | Sri City | Oragadam |  \n|---|---|---|---|---|  \n| Proximity to steel/auto component cluster | 30 | 9 | 7 | 8 |  \n| Port access for export | 25 | 8 (Mundra) | 9 (Krishnapatnam) | 8 (Chennai) |  \n| Skilled labour availability | 25 | 7 | 6 | 9 (Chennai ecosystem) |  \n| State incentives / single-window clearance | 20 | 9 | 8 | 7 |  \n**Top two:** Sanand (score 8.35) and Oragadam (8.05).  \nA poor answer lists factors without weights or uses generic factors (e.g., \"water\") not specific to auto industry, showing inability to **apply locational theory to real-world site selection**.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Large-scale industries are ______ units that employ a large workforce (typically >100 workers in India), require high capital investment (>₹10 crores in plant and machinery), use advanced technology and mechanisation, consume massive quantities of raw materials and energy, and produce standardised goods in high volumes for national and international markets.",
+     "a": "manufacturing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at the Bhilai Steel Plant in ______ or the Maruti Suzuki factory in Gurugram — both employ thousands of workers, run 24×7 with automated assembly lines, and their output feeds construction and transport sectors nationwide.",
+     "a": "Chhattisgarh",
+     "self_check": true
+    },
+    {
+     "q": "What is Large-scale industries? State the definition given in this lesson.",
+     "a": "Large-scale industries are manufacturing units that employ a large workforce (typically >100 workers in India), require high capital investment (>₹10 crores in plant and machinery), use advanced technology and mechanisation, consume massive quantities of raw materials and energy, and produce standardised goods in high volumes for.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Large-scale industries?",
+     "a": "Students often equate \"large-scale industry\" only with heavy industries (iron & steel, cement) and forget that automobile, electronics, pharmaceuticals, and IT hardware are also large-scale despite being \"light\" in raw material weight.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) list five defining characteristics of large-scale industries with quantitative thresholds used in Indian policy, (2) classify given industry examples as large-scale or not using capital, labour, and output criteria, and (3) explain how large-scale industries differ from small-scale and household industries in terms.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a simple laboratory test to distinguish between a solution of starch and a solution of cellulose (both 1% w/v in water) using only iodine solution and a centrifuge. Describe the procedure, expected observations, and the chemical basis.",
      "a": "Procedure: 1) Add 2 drops of iodine solution to 2 mL of each solution. 2) Observe color: starch gives blue-black; cellulose gives no color (brown iodine remains). 3) Centrifuge both: starch solution remains homogeneous (colloidal dispersion); cellulose settles as insoluble fibers. Chemical basis: amylose forms helical inclusion complex with I₃⁻; cellulose lacks helical cavity and is insoluble. A poor answer omits centrifugation or claims cellulose dissolves — revealing confusion between \"polymer of glucose\" and \"solubility determined by secondary structure.\"",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Starch and cellulose are both ______ composed of D-glucose monomers, but differ in their glycosidic linkages: starch contains α-1,4-glycosidic bonds (with α-1,6 branches in amylopectin) while cellulose contains β-1,4-glycosidic bonds, leading to fundamentally different helical structures, solubility, and biological roles — starch as a plant storage polymer and cellulose as a structural cell wall polymer.",
+     "a": "polysaccharides",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a kitchen ______: drop iodine solution on a slice of potato (starch-rich) — it turns blue-black — then on a piece of cotton cloth (cellulose) — no color change.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "What is Starch and cellulose? State the definition given in this lesson.",
+     "a": "Starch and cellulose are both polysaccharides composed of D-glucose monomers, but differ in their glycosidic linkages: starch contains α-1,4-glycosidic bonds (with α-1,6 branches in amylopectin) while cellulose contains β-1,4-glycosidic bonds, leading to fundamentally different helical structures, solubility, and biological roles —.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Starch and cellulose?",
+     "a": "Students write \"starch has α-glycosidic bonds, cellulose has β-glycosidic bonds\" but cannot specify the carbon numbers (1→4 vs 1→6) or draw the Haworth projection showing the anomeric OH orientation (down for α, up for β).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can draw the repeating disaccharide unit for both starch (maltose unit) and cellulose (cellobiose unit), identify the anomeric carbon configuration (α vs β) at the glycosidic bond, explain how this difference dictates helical vs linear chain conformation, and predict which enzymes (amylase vs cellulase) can hydrolyze each polymer.",
+     "self_check": true
     }
    ]
   }

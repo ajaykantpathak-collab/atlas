@@ -34,6 +34,21 @@
      "q": "Design a landslide susceptibility zonation map legend for a 1:50,000 scale topographic sheet covering parts of Garhwal Himalaya. Specify at least 5 classes with defining criteria (slope, lithology, structure, land use, drainage proximity) and assign relative weights for a heuristic GIS-based weighting model.",
      "a": "A good answer proposes classes: Very High, High, Moderate, Low, Very Low. Criteria & Weights (example): Slope (>40°: 30%, 30-40°: 20%, <15°: 5%), Lithology (Sheared phyllite/shale: 25%, Sandstone: 15%, Quartzite: 5%), Structural control (Dip slope parallel to slope: 20%, Dip slope oblique: 10%, Anti-dip: 5%), Land Use (Barren/Construction: 15%, Agriculture: 10%, Dense Forest: 5%), Drainage proximity (<100m: 10%, >500m: 2%). Weights sum to 100%. The map legend must show class breaks based on weighted sum score. A poor answer uses vague classes without quantifiable thresholds or ignores structural dip direction — revealing inability to operationalize concepts for spatial analysis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ is the rapid, gravity-driven downslope movement of a mass of rock, debris, or earth along a distinct failure surface.",
+     "a": "landslide",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a photograph of the 2013 Kedarnath disaster or the frequent highway blockages on NH-7 (old NH-1A) in ______ after heavy rain.",
+     "a": "Uttarakhand",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Explain the mechanical process of slope failure using the concepts of driving force (gravity component parallel to slope) and resisting force (shear strength, cohesion, friction).",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a hypothetical crop improvement program using polyploidy to develop a new variety of a diploid vegetable (2n=18) with larger edible parts and seedlessness. Outline the steps, the type of polyploidy you would induce, and the cytogenetic verification methods at each stage.",
      "a": "Steps: (1) Treat diploid (2n=18) meristems with colchicine to inhibit spindle formation, producing autotetraploid (4n=36) sectors. (2) Verify by root tip chromosome counting (expect 36) and pollen size measurement (larger in 4x). (3) Cross autotetraploid (4x) as female with diploid (2x) male to produce triploid (3n=27) seeds. (4) Verify triploidy by chromosome count (27) and confirm seedlessness due to meiotic irregularity. (5) Propagate triploid vegetatively for uniform crop. Cytogenetic methods: Feulgen-stained root tip squashes for chromosome counts, flow cytometry for nuclear DNA content, pollen viability staining. A poor answer omits the triploid bridge step or suggests using autotetraploid directly (which would be fertile and seeded), revealing misunderstanding that triploidy causes seedlessness via unbalanced gametes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Numerical chromosomal ______ are deviations from the normal diploid chromosome number (2n) involving gain or loss of individual chromosomes (aneuploidy) or entire chromosome sets (polyploidy).",
+     "a": "abnormalities",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer notices that his wheat plants have unusually large grains and ______ growth compared to wild varieties.",
+     "a": "vigorous",
+     "self_check": true
+    },
+    {
+     "q": "What is Numerical chromosomal abnormalities? State the definition given in this lesson.",
+     "a": "Numerical chromosomal abnormalities are deviations from the normal diploid chromosome number (2n) involving gain or loss of individual chromosomes (aneuploidy) or entire chromosome sets (polyploidy).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Numerical chromosomal abnormalities are deviations from the normal diploid chromosome number (______n) involving gain or loss of individual chromosomes (aneuploidy) or entire chromosome sets (polyploidy).",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) distinguish between aneuploidy and polyploidy using karyotype notation (e.g., 47,XX,+21 vs 69,XXX), (2) explain the mechanism of non-disjunction in meiosis I vs meiosis II and predict resulting gamete compositions, and (3) calculate the expected chromosome number in somatic cells given a specific.",
+     "self_check": true
     }
    ]
   }

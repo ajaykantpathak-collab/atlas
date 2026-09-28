@@ -34,6 +34,36 @@
      "q": "Create a multi-step algebraic problem where two parallel railway tracks are crossed by a signal wire forming corresponding angles represented by $(5x - 10)^\\circ$ and $(3x + 30)^\\circ$. State the equation and solve for the angle measure in degrees.",
      "a": "To create a valid problem, set the two corresponding expressions equal: $5x - 10 = 3x + 30$. Subtract $3x$ from both sides to get $2x - 10 = 30$. Add 10 to both sides to get $2x = 40$, resulting in $x = 20$. Substitute $x = 20$ back into either expression to find the angle measure: $5(20) - 10 = 100 - 10 = 90^\\circ$. A poor response would fail to set the expressions equal, set them up to add to 180° incorrectly, or make arithmetic errors during algebraic transposition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ angles are pairs of angles formed when two lines are crossed by a third line (called a transversal), occupying the same relative position at each intersection—specifically, one is interior, one is exterior, and both lie on the same side of the transversal.",
+     "a": "Corresponding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are walking down a railway track in your town where two parallel rails are crossed diagonally by a metal tie rod or another ______ path at a station platform.",
+     "a": "intersecting",
+     "self_check": true
+    },
+    {
+     "q": "What is Corresponding angles? State the definition given in this lesson.",
+     "a": "Corresponding angles are pairs of angles formed when two lines are crossed by a third line (called a transversal), occupying the same relative position at each intersection—specifically, one is interior, one is exterior, and both lie on the same side of the transversal.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Building on what you know about intersecting lines and vertical angles from Chapter ______, we now track positions relative to the two main lines and the transversal line.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Corresponding angles?",
+     "a": "Students frequently confuse corresponding angles with alternate interior angles or consecutive interior angles.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify corresponding angles from any given figure of parallel lines cut by a transversal, set up and solve linear equations to find unknown angle measures using the corresponding angles property, and justify whether two lines are parallel based on the equality of their corresponding angles.",
+     "self_check": true
     }
    ]
   }

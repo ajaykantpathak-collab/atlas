@@ -34,6 +34,21 @@
      "q": "Design a subnetting scheme for a small ISP that has been allocated 203.0.113.0/24. They need to serve: (a) 4 residential branches, each needing up to 30 customer LANs (each LAN max 14 devices), (b) 2 data-center pods, each needing 6 server VLANs (each VLAN max 60 devices), (c) 8 point-to-point WAN links. Use VLSM. Provide the subnet allocation table with network address, mask, and purpose for each. Optimise for minimal waste.",
      "a": "Start from largest requirement: server VLANs need 60 hosts → /26 (62 usable). 2 pods × 6 = 12 subnets → 12 × /26 = 12/64 of /24 = 3/16 → use 203.0.113.0/26 to 203.0.113.192/26 (12 subnets). Remaining: 203.0.113.192/26 (64 addresses). Residential LANs: 14 devices → /28 (14 usable). 4 branches × 30 = 120 /28 subnets → need 120 × 16 = 1920 addresses > 64 left → impossible in single /24. Correct approach: ISP gets larger block (e.g., /20) or uses private addressing (RFC 1918) with NAT. The exercise exposes the student to real-world constraint: public IPv4 scarcity forces NAT + private addressing. A good answer recognises the /24 is insufficient and proposes 10.0.0.0/8 internally with NAT at edge.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An IPv4 address is a 32-bit logical identifier assigned to network interfaces, ______ in dotted-decimal notation as four octets (each 0–255) separated by periods.",
+     "a": "represented",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are setting up a Wi-Fi router at home and it asks for a \"subnet mask\" — you type 255.255.255.0 without ______.",
+     "a": "thinking",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) convert any IPv4 address between dotted-decimal and binary forms, identify its class, and state the default subnet mask; (2) given an IP address and a custom subnet mask (in dotted-decimal or CIDR /n notation), calculate the network address, broadcast address, first/last usable host addresses, and total.",
+     "self_check": true
     }
    ]
   }

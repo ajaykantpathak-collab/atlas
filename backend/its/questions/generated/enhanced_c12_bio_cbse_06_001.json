@@ -34,6 +34,26 @@
      "q": "Design a modern molecular biology experiment (using PCR and gel electrophoresis) that could confirm DNA is the transforming principle in Griffith's system, without using radioactivity.",
      "a": "Expected answer: Extract DNA from heat-killed S strain, treat with DNase (control) or not, add to live R strain, then use PCR with primers specific for S-strain capsule genes. Run products on gel: only samples with intact DNA show amplification. A poor answer (e.g., \"sequence the bacteria\") lacks experimental design logic, proper controls, or understanding of how to test transformation at molecular level.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Griffith's experiment (1928) demonstrated bacterial ______ using Streptococcus pneumoniae, showing that a \"transforming principle\" from heat-killed virulent smooth (S) strain could convert non-virulent rough (R) strain into virulent S strain.",
+     "a": "transformation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a patient in a Delhi hospital with pneumonia caused by ______ pneumoniae.",
+     "a": "Streptococcus",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Griffith's experiment (______) demonstrated bacterial transformation using Streptococcus pneumoniae, showing that a \"transforming principle\" from heat-killed virulent smooth (S) strain could convert non-virulent rough (R) strain into virulent S strain.",
+     "a": "1928",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the experimental design, observations, and conclusions of both experiments, and articulate how Hershey-Chase resolved the ambiguity left by Griffith about the chemical nature of the transforming principle.",
+     "self_check": true
     }
    ]
   }

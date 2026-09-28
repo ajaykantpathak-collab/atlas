@@ -34,6 +34,36 @@
      "q": "Design a simple observation table and a one-sentence conclusion template for an experiment testing \"How does the number of batteries in series affect the brightness of an LED?\" (Brightness can be rated on a scale 1–5).",
      "a": "Table columns: Number of batteries (independent, unit: count), Trial 1 brightness (1–5), Trial 2 brightness (1–5), Trial 3 brightness (1–5), Average brightness (1–5). Conclusion template: \"As the number of batteries increases from ___ to ___, the average LED brightness increases/decreases/stays the same from ___ to ___, indicating a direct/inverse/no relationship.\" A poor answer omits trials, uses no units, or writes a vague conclusion like \"more batteries make it brighter\" without referencing data.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Recording and interpreting observations is the systematic process of documenting qualitative and quantitative data during an ______, organizing it into tables or graphs, identifying patterns or anomalies, and drawing evidence-based conclusions that address the original hypothesis.",
+     "a": "investigation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are testing how the length of a ______ affects its time period in your school lab.",
+     "a": "pendulum",
+     "self_check": true
+    },
+    {
+     "q": "What is Recording and interpreting observations? State the definition given in this lesson.",
+     "a": "Recording and interpreting observations is the systematic process of documenting qualitative and quantitative data during an investigation, organizing it into tables or graphs, identifying patterns or anomalies, and drawing evidence-based conclusions that address the original hypothesis.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You first observe the pendulum swinging and note what changes (length) and what you measure (time for ______ oscillations).",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Recording and interpreting observations?",
+     "a": "Students believe that \"recording observations\" means writing a diary-style paragraph of what they saw (e.g., \"The car moved fast then slow\").",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently design a data table with appropriate columns, units, and trials for a given experiment, plot a graph choosing correct axes and scales, identify outliers, and write a conclusion that references specific data trends to support or refute a hypothesis.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Create a real-life problem (Indian context) where identifying a rhombus and using its properties helps solve it. Include at least two properties in your problem.",
      "a": "Example: \"A farmer has a rhombus-shaped field with side 50 m. He wants to fence it and also divide it into two equal triangular plots by building a wall along one diagonal. If fencing costs ₹20/m and wall costs ₹150/m, find total cost. (Use diagonal = 60 m).\" Solution uses perimeter (4×50) for fencing and diagonal length for wall. A poor answer (e.g., a rectangle problem) reveals the student cannot design a scenario that specifically requires rhombus properties (equal sides, diagonal bisecting area).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A rhombus is a ______ with all four sides of equal length.",
+     "a": "quadrilateral",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You want all four ______ of the kite frame to be equal so it flies symmetrically.",
+     "a": "sides",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It is a special type of parallelogram where opposite sides are parallel, opposite angles are equal, and the diagonals bisect each other at right angles (______°) while also bisecting the interior angles.",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify a rhombus among other quadrilaterals by verifying all sides are equal and can apply its properties (equal sides, parallel opposite sides, diagonal perpendicular bisectors, angle bisectors) to solve for unknown angles and side lengths in geometric problems.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You want all four sides of the kite frame to be equal so it flies ______.",
+     "a": "symmetrically",
+     "self_check": true
     }
    ]
   }

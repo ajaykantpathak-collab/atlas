@@ -34,6 +34,31 @@
      "q": "Design a Boolean expression for a security system that triggers an alarm (output=1) ONLY when: (the door sensor is triggered AND the system is armed) OR (the window sensor is triggered AND the system is armed). Use variables D, W, A for door, window, armed respectively.",
      "a": "Expected expression: Alarm = (D · A) + (W · A). A good answer correctly uses AND for \"sensor triggered AND armed\" for each sensor, then OR to combine the two conditions. A poor answer (e.g., D + W · A) reveals the student doesn't grasp that \"armed\" must apply to both sensors simultaneously (missing parentheses/precedence) or confuses the logical structure of the requirement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Boolean logic is a branch of algebra where ______ take only two truth values: TRUE (represented as 1) and FALSE (represented as 0).",
+     "a": "variables",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a smart home ______ where the porch light turns on ONLY if (it is dark outside) AND (motion is detected OR the manual switch is ON).",
+     "a": "system",
+     "self_check": true
+    },
+    {
+     "q": "What is Boolean logic? State the definition given in this lesson.",
+     "a": "Boolean logic is a branch of algebra where variables take only two truth values: TRUE (represented as 1) and FALSE (represented as 0).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Boolean logic?",
+     "a": "Students treat Boolean '+' and '·' exactly like arithmetic addition and multiplication, leading to errors like 1+1=2, 1·1=1 (correct by coincidence), and ignoring precedence (NOT > AND > OR).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to construct complete truth tables for expressions involving up to three variables with AND, OR, NOT operations, and evaluate a given Boolean expression for specific input combinations without errors.",
+     "self_check": true
     }
    ]
   }

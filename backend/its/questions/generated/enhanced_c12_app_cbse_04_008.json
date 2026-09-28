@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_04_008",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_04_008",
+   "title": "c12_app_cbse_04_008",
+   "questions": [
+    {
+     "q": "State the formula for Consumer Surplus when the demand function is p = f(x), the equilibrium price is p₀, and the equilibrium quantity is x₀. Explain what each term represents geometrically.",
+     "a": "CS = ∫₀ˣ⁰ f(x) dx − p₀x₀. The integral ∫₀ˣ⁰ f(x) dx is the total area under the demand curve from 0 to x₀ (total willingness to pay). The rectangle p₀x₀ is the actual total expenditure (price × quantity). Their difference is the area between the demand curve and the horizontal price line — the consumer surplus. A wrong answer (e.g., CS = f(x₀) − p₀) reveals the student thinks surplus is a marginal concept at the last unit, not a cumulative area over all units.",
+     "self_check": true
+    },
+    {
+     "q": "A student computes CS for demand p = 100 − 2x at equilibrium p₀ = 40 by evaluating ∫₀³⁰ (100 − 2x) dx − 40×30. They get CS = 900. Is this correct? If not, identify the error.",
+     "a": "Incorrect. First, find x₀ from p₀ = 40 = 100 − 2x₀ → 2x₀ = 60 → x₀ = 30. The integral ∫₀³⁰ (100 − 2x) dx = [100x − x²]₀³⁰ = 3000 − 900 = 2100. Then p₀x₀ = 40×30 = 1200. CS = 2100 − 1200 = 900. The computation is actually correct! But the student might have *guessed* x₀ = 30 without solving, or mis-set the integral limits. A wrong answer like CS = ∫₀⁴⁰ (100 − 2x) dx − 40×40 reveals confusion: using price (40) as the upper limit instead of quantity (30). This is the classic \"mixing up axes\" error — integrating with respect to price instead of quantity.",
+     "self_check": true
+    },
+    {
+     "q": "The demand function is p = 50 − x² and the supply function is p = 2x + 10. Find the equilibrium price and quantity. Then set up (but do not evaluate) the definite integrals for Consumer Surplus and Producer Surplus.",
+     "a": "Equilibrium: 50 − x² = 2x + 10 → x² + 2x − 40 = 0 → x = [−2 ± √(4 + 160)]/2 = [−2 ± √164]/2 = −1 ± √41. Since quantity > 0, x₀ = √41 − 1 ≈ 5.4. Then p₀ = 2(√41 − 1) + 10 = 2√41 + 8 ≈ 20.8. CS = ∫₀ˣ⁰ (50 − x²) dx − p₀x₀. PS = p₀x₀ − ∫₀ˣ⁰ (2x + 10) dx. A wrong setup (e.g., CS = ∫₀ᵖ⁰ (50 − x²) dp) reveals the student doesn't grasp that integration is w.r.t. quantity (x), not price (p), because the curves are given as p = f(x). The \"dx\" in the integral must match the independent variable of the function.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the formulas for Consumer Surplus and Producer Surplus. Why does CS subtract the rectangle from the integral, while PS subtracts the integral from the rectangle? Relate this to the geometry of demand and supply curves.",
+     "a": "Demand curves slope downward (law of demand): the curve p = f(x) lies *above* the price line p = p₀ for x < x₀. So the area under the demand curve (willingness to pay) is *larger* than the rectangle (actual payment). CS = (larger area) − (smaller rectangle). Supply curves slope upward (law of supply): the curve p = g(x) lies *below* the price line p = p₀ for x < x₀. So the rectangle (revenue received) is *larger* than the area under the supply curve (minimum acceptable revenue). PS = (larger rectangle) − (smaller area). A student who writes both as \"integral − rectangle\" or both as \"rectangle − integral\" doesn't understand the relative positions of the curves — they're memorizing formulas without geometric reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "A textbook claims: \"Consumer Surplus is always positive at equilibrium.\" Evaluate this statement. Is it always true? Give a counterexample or proof.",
+     "a": "The statement is **false**. CS = ∫₀ˣ⁰ f(x) dx − p₀x₀. This is positive only if the demand curve lies above the price line for some interval [0, x₀]. If the demand curve is *below* the price line (e.g., p = 10 − x, but equilibrium p₀ = 15, x₀ = 5 — impossible in standard competitive equilibrium since demand would be negative), CS could be negative. However, in a standard competitive equilibrium with downward-sloping demand and upward-sloping supply intersecting at positive quantity, the demand curve at x=0 gives the maximum willingness to pay (choke price), which must exceed p₀ for any positive quantity to be demanded. So for *valid* demand functions (f(0) > p₀ and f decreasing), CS > 0. But if a student is given a \"demand\" function like p = 5 + x (upward sloping — not a real demand curve), CS could be negative. The error is assuming the label \"demand function\" guarantees economic validity. Always check: is f(x) decreasing? Is f(0) > p₀?",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where a government policy changes the equilibrium price, and explain how you would use Consumer Surplus and Producer Surplus to analyze the winners and losers. Define the demand and supply functions, the policy, and the integrals you would compute.",
+     "a": "Scenario: The Indian government imposes a Minimum Support Price (MSP) for wheat at ₹2,200/quintal, above the market equilibrium of ₹2,000/quintal. Demand: p_d = 3000 − 0.5x (x in lakh quintals). Supply: p_s = 1000 + 0.5x. Original equilibrium: 3000 − 0.5x = 1000 + 0.5x → x₀ = 2000, p₀ = 2000. CS_original = ∫₀²⁰⁰⁰ (3000 − 0.5x) dx − 2000×2000. PS_original = 2000×2000 − ∫₀²⁰⁰⁰ (1000 + 0.5x) dx. At MSP p₁ = 2200, quantity demanded x_d = 1600, quantity supplied x_s = 2400 → surplus of 800 lakh quintals unsold. Actual traded quantity = min(x_d, x_s) = 1600. New CS = ∫₀¹⁶⁰⁰ (3000 − 0.5x) dx − 2200×1600. New PS = 2200×1600 − ∫₀¹⁶⁰⁰ (1000 + 0.5x) dx. Compare to original. A poor answer would ignore the quantity adjustment (using x₀ = 2000 at new price) or confuse which quantity is actually traded. This tests understanding that surplus depends on *actual transaction quantity*, not just the price.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

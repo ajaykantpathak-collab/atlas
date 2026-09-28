@@ -34,6 +34,21 @@
      "q": "Design a compliance checklist for a Class 12 student building a \"College Event Registration\" website that collects: name, email, phone, college ID, dietary preferences, and T-shirt size. The site uses Google Forms (US servers) and stores responses in a Google Sheet. List 5 DPDP Act requirements they must implement, with one specific technical measure for each.",
      "a": "Checklist: (1) **Lawful basis & consent** (Sec 6): Add checkbox \"I consent to my data being processed for event registration only\" — unchecked by default, separate from T&C. (2) **Purpose limitation** (Sec 8): Do not use emails for marketing later; add script to auto-delete Sheet after event + 30 days. (3) **Data minimization** (Sec 8): Remove \"college ID\" field — not needed for registration; use student email as identifier. (4) **Cross-border transfer** (Sec 16): Google Forms uses US servers — verify if US is on Central Government's \"allowed countries\" list; if not, switch to Indian-hosted Form (e.g., Microsoft Forms India region). (5) **Data Principal rights** (Sec 11-14): Add \"Delete my data\" link in confirmation email triggering Apps Script to remove row; provide \"View my data\" link showing their single response. A poor answer missing cross-border transfer shows the student ignores that using US-hosted tools triggers Section 16.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Data protection and privacy laws in India refer to the legal framework governing the collection, processing, storage, and transfer of personal data, primarily established through the Information Technology Act, 2000 (amended 2008), the SPDI Rules 2011, and the Digital Personal Data Protection Act, 2023 (DPDP Act), which define obligations of data fiduciaries, rights of data principals, consent ______, and penalties for non-compliance.",
+     "a": "requirements",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you order food via an app — you share your name, phone, address, payment details, and food ______.",
+     "a": "preferences",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Explain the evolution of data protection law in India from IT Act 2000 to DPDP Act 2023, (2) Distinguish between personal data and sensitive personal data with examples, (3) List and describe the seven principles of data processing under DPDP Act, (4) Identify the rights of a data principal and.",
+     "self_check": true
     }
    ]
   }

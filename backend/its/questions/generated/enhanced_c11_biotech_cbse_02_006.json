@@ -34,6 +34,36 @@
      "q": "Design a hypothetical experiment using fluorescently labeled dextran and a pH‑sensitive dye to distinguish between early endosomes, late endosomes, and lysosomes in live cells. Outline the expected fluorescence patterns over time.",
      "a": "Pulse cells with fluorescent dextran (fluid‑phase marker) and a pH‑sensitive dye (e.g., LysoSensor). Chase for 5 min: dextran appears in early endosomes (neutral pH, low dye fluorescence). Chase for 20 min: dextran moves to late endosomes (mildly acidic, moderate dye signal). Chase for 60 min: dextran co‑localizes with strong dye fluorescence in lysosomes (pH ~4.5). A poor design (e.g., using only one time point or a pH‑insensitive dye) reveals the student cannot apply the concept of progressive acidification along the endocytic pathway to experimental design.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Lysosomes are single-membrane-bound spherical organelles (0.2–0.5 µm in diameter) formed from the Golgi apparatus or endoplasmic reticulum, containing a battery of hydrolytic enzymes (acid hydrolases) that function optimally at an acidic pH (~4.5–5.0) to carry out intracellular digestion of ______, worn-out organelles, and engulfed pathogens.",
+     "a": "macromolecules",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a white blood cell engulfing a ______ – how does the cell destroy the invader without digesting itself?",
+     "a": "bacterium",
+     "self_check": true
+    },
+    {
+     "q": "What is Lysosomes? State the definition given in this lesson.",
+     "a": "Lysosomes are single-membrane-bound spherical organelles (0.2–0.5 µm in diameter) formed from the Golgi apparatus or endoplasmic reticulum, containing a battery of hydrolytic enzymes (acid hydrolases) that function optimally at an acidic pH (~4.5–5.0) to carry out intracellular digestion of macromolecules, worn-out organelles, and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Guide them to the mannose‑______‑phosphate tag and its receptor.",
+     "a": "6",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Lysosomes?",
+     "a": "Students often think lysosomes are \"suicide bags\" that randomly rupture and kill the cell.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) describe the biogenesis of lysosomes from the trans-Golgi network via mannose-6-phosphate tagging, (2) explain how the acidic internal pH is maintained by V-type ATPases and why it is essential for enzyme activity and membrane protection, and (3) distinguish between heterophagy (digestion of extracellular.",
+     "self_check": true
     }
    ]
   }

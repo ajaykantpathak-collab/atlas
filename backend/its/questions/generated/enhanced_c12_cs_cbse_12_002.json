@@ -34,6 +34,31 @@
      "q": "Create a **new, realistic malware scenario** (2-3 sentences) that combines characteristics of **Trojan** and **Spyware** but is **neither a virus nor a worm**. Explain why your scenario fits this hybrid classification.",
      "a": "**Expected answer (example):**  \n\"A free 'PDF Converter' app downloaded from a third-party site installs silently and records all clipboard content (copied passwords, crypto addresses) and browsing history, uploading them to a remote server every hour. It does not replicate to other files or spread across the network.\"  \n**Classification justification:**  \n- **Trojan aspect:** Masquerades as legitimate utility (PDF converter), tricks user into installing.  \n- **Spyware aspect:** Covertly collects sensitive data (clipboard, history) and exfiltrates it.  \n- **Not a virus:** Does not attach to executable files.  \n- **Not a worm:** Does not self-propagate via network.  \n**What a poor answer reveals:** If the scenario includes self-replication or network propagation, the student hasn't internalized the **defining boundaries** of each category. A good answer demonstrates ability to *synthesize* a hybrid threat while respecting taxonomic boundaries — a skill tested in competency-based board questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Malware (malicious software) is any program ______ designed to infiltrate, damage, or gain unauthorized access to a computer system without the user's informed consent.",
+     "a": "deliberately",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive an email with an ______ labeled \"Invoice.pdf.exe\".",
+     "a": "attachment",
+     "self_check": true
+    },
+    {
+     "q": "What is Malware (malicious software)? State the definition given in this lesson.",
+     "a": "Malware (malicious software) is any program deliberately designed to infiltrate, damage, or gain unauthorized access to a computer system without the user's informed consent.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Malware (malicious software)?",
+     "a": "Misconception: \"All malware that steals data is spyware, and all malware that demands money is ransomware.\" Why it's wrong: Students often classify malware solely by payload (what it does to the victim) instead of propagation mechanism + payload + deception tactic.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) correctly classify a given malware scenario into one of the five categories by identifying its propagation mechanism, payload behavior, and user interaction requirement, and (2) explain the key distinguishing feature between each pair of malware types (e.g., virus vs. worm, trojan vs. virus) using precise technical.",
+     "self_check": true
     }
    ]
   }

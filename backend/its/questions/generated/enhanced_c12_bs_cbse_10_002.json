@@ -22,7 +22,7 @@
     },
     {
      "q": "Compare the eligibility criteria for issuing Treasury Bills vs Commercial Paper. Why is the eligibility for CP stricter in terms of credit rating?",
-     "a": "T-Bills are issued only by the Government of India (via RBI) — no credit rating needed because sovereign risk is near-zero. CP can be issued only by corporates with a minimum credit rating of A3 (as per SEBI/RBI guidelines), tangible net worth ≥ ₹4 crore, and a sanctioned working capital limit. The stricter CP eligibility exists because CP carries credit/default risk (corporate can default), whereas T-Bills have virtually none. A student who says \"both need credit rating\" confuses sovereign vs corporate credit risk.",
+     "a": "T-Bills are issued only by the Government of India (via RBI) — no credit rating needed because sovereign risk is near-zero. CP can be issued only by corporates with a minimum credit rating of A3 (as per SEBI/RBI guidelines), tangible net worth ≥ ₹4 crore, and a sanctioned working capital limit. The stricter CP eligibility exists because CP carries credit/default risk (corporate can default), whereas T-Bills have virtually N/A. A student who says \"both need credit rating\" confuses sovereign vs corporate credit risk.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Design a hypothetical scenario where a mutual fund manager would choose a 91-day T-Bill over a 90-day CP of a AAA-rated company, even if the CP offers a 0.25% higher yield. Justify your answer.",
      "a": "Scenario: The fund has a large redemption pressure expected in 60 days and needs *guaranteed* liquidity with zero credit risk. T-Bills are sovereign-backed, highly liquid in the secondary market (NDS-OM platform), and eligible for SLR. CP, though AAA-rated, has slight credit risk, lower secondary market depth, and is not SLR-eligible. The manager accepts lower yield for superior liquidity and regulatory compliance. A poor answer focuses only on yield and ignores liquidity, credit risk, and regulatory constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The money market is a segment of the ______ market where short-term funds (maturity up to one year) are borrowed and lent.",
+     "a": "financial",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a large Indian ______ like Tata Steel needs ₹500 crore for 45 days to pay suppliers before its export receipts arrive.",
+     "a": "company",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"If the Government of India needs cash for ______ days, what instrument does it issue?\" (T-Bill).",
+     "a": "91",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish T-Bills, CP, and Call Money on issuer, maturity, denomination, and eligibility; (2) calculate the yield on a T-Bill given its face value, issue price, and days to maturity; and (3) explain why a corporate treasurer would choose CP over a bank loan for working capital financing.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a large Indian company like Tata Steel needs ₹500 crore for 45 days to pay ______ before its export receipts arrive.",
+     "a": "suppliers",
      "self_check": true
     }
    ]

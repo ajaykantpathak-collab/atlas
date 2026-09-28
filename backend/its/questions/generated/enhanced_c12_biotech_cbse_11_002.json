@@ -22,7 +22,7 @@
     },
     {
      "q": "Compare and contrast the binary vector system and the co-integrate vector system for *Agrobacterium*-mediated transformation in terms of plasmid structure, recombination mechanism, and practical advantages for plant transformation.",
-     "a": "| Feature | Binary Vector System | Co-integrate Vector System |\n|---------|---------------------|----------------------------|\n| **Plasmid structure** | Two separate plasmids: (1) T-DNA vector (small, ~10–15 kb) with LB-RB-transgene; (2) Vir helper plasmid (large, ~80–100 kb) with vir genes + oriT + replicon. | Single large plasmid formed by homologous recombination between a T-DNA vector (with LB-RB-transgene + homology region) and a disarmed Ti plasmid (with vir genes + homology region). |\n| **Recombination mechanism** | No recombination needed; both plasmids coexist in *Agrobacterium*. T-DNA transfer is mediated by Vir proteins from helper plasmid acting in trans on T-DNA borders. | Requires RecA-dependent homologous recombination in *E. coli* or *Agrobacterium* between shared homology regions (e.g., pBR322 ori, Tn5, or truncated T-DNA) to generate the co-integrate. |\n| **Practical advantages** | Easier cloning in *E. coli* (small T-DNA vector); high copy number; stable; widely used (pBIN19, pCAMBIA, pGREEN). | Single plasmid simplifies *Agrobacterium* maintenance; no risk of helper plasmid loss; but large size makes cloning difficult, low copy number, recombination-dependent. |\nA wrong answer confusing the two systems (e.g., \"binary vector uses recombination\") reveals lack of understanding of the trans-acting nature of Vir proteins vs. cis-requirement for homology.",
+     "a": "(1) Binary plasmid structure — two separate plasmids, a small T-DNA vector carrying the borders and transgene plus a disarmed helper plasmid carrying the vir genes, (2) Co-integrate structure — one large plasmid formed when the T-DNA vector recombines with a disarmed Ti plasmid through shared homology regions, (3) Binary mechanism — no recombination is needed, since Vir proteins act in trans from the helper plasmid on the T-DNA borders, (4) Co-integrate mechanism — RecA-dependent homologous recombination assembles it, and its very size makes cloning difficult, (5) Practical verdict — binary vectors clone easily in E. coli at high copy while co-integrates are unwieldy. A wrong answer saying the binary vector uses recombination misses that Vir proteins are trans-acting while only the border repeats and homology regions are cis-required.",
      "self_check": true
     },
     {
@@ -32,7 +32,37 @@
     },
     {
      "q": "Design a binary vector for expressing a drought-tolerance transgene (DREB1A, 1.8 kb cDNA) in rice, including all essential cis-elements for *Agrobacterium* transfer, plant expression, and selection. Specify promoter, terminator, selectable marker, and border orientation. Justify each choice.",
-     "a": "**Vector design (T-DNA region, left to right):**\n1. **Left Border (LB)** — 25 bp repeat; nicked first by VirD1/D2. Orientation: LB → T-DNA → RB (transfer 5'→3' from RB to LB).\n2. **Rice actin1 promoter (Act1)** — Strong, constitutive monocot promoter (superior to 35S in rice); drives selectable marker.\n3. **hpt (hygromycin phosphotransferase) coding sequence** — Selectable marker for rice (hygromycin 30–50 mg/L); codon-optimized for monocots.\n4. **nos terminator** — Reliable transcription termination; prevents read-through to next cassette.\n5. **Maize ubiquitin1 promoter (Ubi1) + first intron** — Very high expression in monocots; intron enhances expression (IME).\n6. **DREB1A cDNA (1.8 kb)** — Codon-optimized for rice; no introns.\n7. **35S terminator or nos terminator** — Terminates transgene transcription.\n8. **Right Border (RB)** — 25 bp repeat; nicked second; defines 5' end of T-strand.\n**Backbone (outside T-DNA):** pBR322 ori (high copy in *E. coli*), rop (copy number control), nptII (kanamycin resistance for *E. coli* selection), RK2 oriT (conjugation), RK2 replicon (stable in *Agrobacterium*).\n**Justification:** LB/RB are minimal cis-elements; monocot promoters (Act1, Ubi1) ensure expression in rice; hpt is standard for rice selection; introns enhance expression; terminators prevent read-through; high-copy *E. coli* ori enables plasmid prep; RK2 replicon ensures single-copy stability in *Agrobacterium*. A poor answer using 35S promoter, nptII selection, or missing terminators reveals ignorance of monocot-specific expression and selection requirements.",
+     "a": "(1) Borders — 25 bp left and right border repeats bracket the T-DNA, the only cis-elements the transfer machinery needs, (2) Marker cassette — the rice actin1 promoter drives hpt for hygromycin selection, the standard monocot combination, (3) Expression cassette — the maize ubiquitin1 promoter with its first intron drives the codon-optimised drought-tolerance cDNA for very high monocot expression, (4) Terminators — nos or 35S terminators close both cassettes and prevent read-through, (5) Backbone — an E. coli origin for propagation, bacterial selection marker and the RK2 replicon for stability in Agrobacterium. A poor answer using the 35S promoter or nptII selection for rice reveals ignorance of monocot-specific expression and selection requirements.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Agrobacterium-mediated ______ is a natural gene transfer mechanism where *Agrobacterium tumefaciens*, a soil bacterium, transfers a defined segment of its Ti (tumour-inducing) plasmid called T-DNA into the genome of wounded dicotyledonous plants, causing crown gall disease; this natural genetic engineering ability is exploited in biotechnology by replacing the oncogenic T-DNA genes with desired transgenes to create transgenic plants.",
+     "a": "transformation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you find a tumour-like growth on a rose stem — that is crown gall disease, nature's own genetic engineering. *Agrobacterium* senses wounded plant cells releasing phenolic compounds like ______, which activates its vir genes to excise T-DNA from the Ti plasmid as a single-stranded T-strand, escort it through a type IV secretion system into the plant cytoplasm, and guide it to the nucleus where it randomly integrates into a chromosome.",
+     "a": "acetosyringone",
+     "self_check": true
+    },
+    {
+     "q": "What is Agrobacterium-mediated transformation? State the definition given in this lesson.",
+     "a": "Agrobacterium-mediated transformation is a natural gene transfer mechanism where *Agrobacterium tumefaciens*, a soil bacterium, transfers a defined segment of its Ti (tumour-inducing) plasmid called T-DNA into the genome of wounded dicotyledonous plants, causing crown gall disease; this natural genetic engineering ability is exploited in.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight: the only cis-acting elements required for transfer are the ______-bp left and right border repeats — everything else (vir genes, origin of replication) acts in trans and can be supplied separately.",
+     "a": "25",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Agrobacterium-mediated transformation?",
+     "a": "Misconception: \"The T-DNA is transferred as double-stranded DNA and integrates via homologous recombination.\" Why it's wrong: T-DNA is transferred as a single-stranded T-strand (5'→3' from RB to LB), coated by VirE2 (ssDNA-binding protein) and VirD2 (covalently attached to 5' end).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the step-by-step molecular mechanism of T-DNA transfer and integration, including the roles of virulence (vir) genes, border sequences, and plant wound signals, and can design a binary vector strategy for a given transgene.",
      "self_check": true
     }
    ]

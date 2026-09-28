@@ -5,6 +5,8 @@
    "id": "c8m7.1.1",
    "title": "Ratios and Percentages",
    "converted_to_compute": false,
+   "formula": "percentage = (part / whole) x 100; ratio a : b = a / b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 40% of 80.",
@@ -42,6 +44,8 @@
    "id": "c8m7.1.2",
    "title": "Finding Values from Percentages (Unitary Method)",
    "converted_to_compute": false,
+   "formula": "total = value x 100 / percent; part of value = percent x value / 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 10% of 40.",
@@ -79,6 +83,8 @@
    "id": "c8m7.2.1",
    "title": "Finding Discounts",
    "converted_to_compute": false,
+   "formula": "discount = marked_price - sale_price; discount percent = discount x 100 / marked_price",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 75% of 240.",
@@ -116,6 +122,8 @@
    "id": "c8m7.2.2",
    "title": "Sale Price or Marked Price from Discount Percent",
    "converted_to_compute": false,
+   "formula": "discount = marked_price x discount_percent / 100; sale_price = marked_price x (100 - discount_percent) / 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 75% of 120.",
@@ -153,6 +161,8 @@
    "id": "c8m7.3.1",
    "title": "Sales Tax, VAT and GST",
    "converted_to_compute": false,
+   "formula": "tax = price x tax_percent / 100; bill_amount = price + tax; original_price = final_price x 100 / (100 + tax_percent)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 50% of 40.",
@@ -190,6 +200,8 @@
    "id": "c8m7.4.1",
    "title": "Simple Interest",
    "converted_to_compute": false,
+   "formula": "SI = principal x rate x time / 100; amount = principal + interest",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the simple interest on Rs 2500 at 5% per annum for 3 years.",
@@ -227,6 +239,8 @@
    "id": "c8m7.4.2",
    "title": "Compound Interest Year by Year",
    "converted_to_compute": false,
+   "formula": "amount of year n = amount of year n-1 + interest on it; total CI = sum of yearly interests",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the simple interest on Rs 2500 at 6% per annum for 5 years.",
@@ -264,6 +278,8 @@
    "id": "c8m7.5.1",
    "title": "Compound Interest Formula",
    "converted_to_compute": false,
+   "formula": "A = P (1 + R/100)^n; CI = A - P",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the simple interest on Rs 8000 at 12% per annum for 2 years.",
@@ -301,6 +317,8 @@
    "id": "c8m7.6.1",
    "title": "Applications: Growth and Depreciation",
    "converted_to_compute": false,
+   "formula": "growth: initial x (1 + r/100)^n; depreciation: initial x (1 - r/100)^n",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the simple interest on Rs 4000 at 4% per annum for 2 years.",

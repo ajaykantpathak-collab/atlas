@@ -34,6 +34,36 @@
      "q": "Design a simple thought experiment to demonstrate the concept of critical mass using a cubical block of pure U-235. Describe how the neutron leakage fraction changes as the cube size increases, and why a sphere has the smallest critical mass for a given material.",
      "a": "As cube side length L increases, volume ∝ L³ (fission ∝ volume) while surface area ∝ L² (leakage ∝ surface). Leakage fraction ∝ (surface/volume) ∝ 1/L. For a sphere, surface-to-volume ratio is minimal (3/R), so leakage is minimized for a given mass, giving the smallest critical mass. A poor answer treats critical mass as fixed property of material alone, ignoring geometry and leakage.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Nuclear fission is a nuclear reaction in which a heavy nucleus (such as uranium-235 or plutonium-239) splits into two lighter nuclei (fission fragments) of ______ mass when bombarded by a neutron, releasing 2–3 additional neutrons and a large amount of energy (~200 MeV per fission).",
+     "a": "comparable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a household LPG cylinder: it stores ______ energy released by combustion.",
+     "a": "chemical",
+     "self_check": true
+    },
+    {
+     "q": "What is Nuclear fission? State the definition given in this lesson.",
+     "a": "Nuclear fission is a nuclear reaction in which a heavy nucleus (such as uranium-235 or plutonium-239) splits into two lighter nuclei (fission fragments) of comparable mass when bombarded by a neutron, releasing 2–3 additional neutrons and a large amount of energy (~200 MeV per fission).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The mass difference between initial (U-______ + n) and final (fragments + neutrons) appears as kinetic energy of fragments and neutrons.",
+     "a": "235",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Nuclear fission?",
+     "a": "Students often think the energy in nuclear fission comes from \"destroying protons/neutrons\" or \"converting mass into energy\" in a literal sense where particles vanish.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the energy released per fission event using mass defect and E=mc², determine the number of fissions required to produce a given power output, and explain the conditions for a self-sustaining chain reaction (critical mass, neutron multiplication factor k) using the neutron balance equation.",
+     "self_check": true
     }
    ]
   }

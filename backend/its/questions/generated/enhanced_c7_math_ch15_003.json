@@ -34,6 +34,26 @@
      "q": "Create a linear equation in one variable whose systematic solution requires first subtracting 15 from both sides and then dividing by 3, with a final answer of $x = 8$.",
      "a": "An equation such as $3x + 15 = 39$ or $3x = 9 + 15$ fits this description. To check, subtracting 15 from 39 gives $3x = 24$, and dividing by 3 gives $x = 8$. A poor answer would show an equation where the operations do not align with the stated reverse steps.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Solving a linear equation using the systematic method involves applying inverse operations ______ to both sides of an equation to isolate the variable and find its unique numerical value.",
+     "a": "sequentially",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine buying some notebooks at ₹40 each and a school bag for ₹200, spending a ______ of ₹600.",
+     "a": "total",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can systematically perform inverse operations in the correct order to isolate the variable in multi-step linear equations and verify the solution by substitution.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine buying some ______ at ₹40 each and a school bag for ₹200, spending a total of ₹600.",
+     "a": "notebooks",
+     "self_check": true
     }
    ]
   }

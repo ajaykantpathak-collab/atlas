@@ -34,6 +34,36 @@
      "q": "Design a star topology network for a 3-floor office building with 12 workstations per floor. Each floor has a wiring closet. You have one central server room in the basement. Sketch the hierarchy (text description OK) and specify: (a) where switches go, (b) how floors connect to basement, (c) what cabling standard you'd use for horizontal vs backbone runs, (d) one reason to use a core switch in basement vs connecting all floor switches directly to server.",
      "a": "(a) One 16-port access switch per floor in each wiring closet (12 workstations + 1 uplink + 3 spare). (b) Each floor switch uplinks via fiber (or Cat6a) to a core switch in basement server room. (c) Horizontal runs (switch to workstation): Cat6 UTP (100m max). Backbone runs (floor switch to core): Cat6a or multimode fiber (OM3/OM4) for 1/10 Gbps over longer distances. (d) Core switch aggregates traffic, provides single management point, enables VLANs/inter-VLAN routing, and reduces server port count — connecting 3 floor switches directly to server would need 3 server NICs/ports and no traffic aggregation. A flat design (all to server) lacks scalability and traffic control.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Star topology is a network ______ where all nodes (computers, printers, servers) are individually connected to a central connecting device (hub or switch) via dedicated point-to-point links, forming a star-like structure where the central device manages all data transmission between nodes.",
+     "a": "configuration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're setting up a ______ lab for 30 students in your school.",
+     "a": "computer",
+     "self_check": true
+    },
+    {
+     "q": "What is Star topology? State the definition given in this lesson.",
+     "a": "Star topology is a network configuration where all nodes (computers, printers, servers) are individually connected to a central connecting device (hub or switch) via dedicated point-to-point links, forming a star-like structure where the central device manages all data transmission between nodes.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're setting up a computer lab for ______ students in your school.",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Star topology?",
+     "a": "Students often believe \"star topology has no single point of failure\" because they focus on node-level fault isolation (one cable cut doesn't affect others).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Draw and label a star topology diagram showing central hub/switch, nodes, and transmission media; (2) Explain how data flows from source to destination via the central device; (3) Compare star topology with bus topology on at least four parameters (fault tolerance, cabling cost, scalability, performance).",
+     "self_check": true
     }
    ]
   }

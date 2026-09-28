@@ -34,6 +34,26 @@
      "q": "Design a scenario where a startup founder must choose between issuing equity shares or preference shares to raise ₹50 lakh. Specify the founder's priorities (control, cash flow, investor type) and justify the choice with at least three factors from this node.",
      "a": "Scenario: Founder wants to retain control, expects irregular profits initially, and targets risk-averse investors. Choose preference shares because: (1) no voting rights → control retained; (2) fixed dividend only when profits exist (non-cumulative) or can be deferred → cash flow flexibility; (3) appeals to conservative investors seeking fixed income. A poor answer picks equity without addressing control or cash flow, showing inability to apply the features to a real-world financing decision.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A share is a unit of ownership in a company that entitles the holder to a ______ claim on the company's profits (dividends) and assets.",
+     "a": "proportionate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to start a ______ and need ₹1 crore.",
+     "a": "business",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to start a business and need ₹______ crore.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) distinguish equity shares from preference shares on at least five criteria (dividend, voting rights, repayment priority, convertibility, risk) and (2) explain how each type affects the company's capital structure and the investor's risk-return profile.",
+     "self_check": true
     }
    ]
   }

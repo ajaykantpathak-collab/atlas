@@ -22,12 +22,33 @@
     "describe separate legal entity and perpetual succession in a company",
     "list the characteristics that set a company apart from other forms of organisation"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "point to the legal origin", "explain": "the company is incorporated under the Companies Act and thereby becomes a person distinct from the people who own it"},
-    {"step": 2, "action": "name the ownership consequences", "explain": "shareholders own shares, their risk stops at unpaid money on those shares, and they govern through an elected board rather than directly"},
-    {"step": 3, "action": "name the continuity consequences", "explain": "membership can change freely, shares of a public company transfer without consent, and the common seal stands in for the signature the law cannot give an artificial person"}
-   ]
+    {
+     "step": 1,
+     "action": "point to the legal origin",
+     "explain": "the company is incorporated under the Companies Act and thereby becomes a person distinct from the people who own it"
+    },
+    {
+     "step": 2,
+     "action": "name the ownership consequences",
+     "explain": "shareholders own shares, their risk stops at unpaid money on those shares, and they govern through an elected board rather than directly"
+    },
+    {
+     "step": 3,
+     "action": "name the continuity consequences",
+     "explain": "membership can change freely, shares of a public company transfer without consent, and the common seal stands in for the signature the law cannot give an artificial person"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "company_character = separate_legal_entity + limited_liability + perpetual_succession + common_seal",
+     "compute": "company_character = separate_legal_entity + limited_liability + perpetual_succession + common_seal"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.201.2.1",
@@ -45,12 +66,33 @@
     "classify companies on the basis of liability of their members",
     "what makes a company a listed company"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "fix the liability class", "explain": "shares-basis caps risk at the unpaid nominal value, guarantee-basis at the promised amount on winding up, unlimited exposes personal wealth"},
-    {"step": 2, "action": "fix the membership class", "explain": "private: 2 to 200 members with transfer restrictions and no public invitation; public: 7 minimum, free transferability, may invite the public"},
-    {"step": 3, "action": "add the listing overlay", "explain": "a public company whose shares trade on a recognised stock exchange is listed; otherwise it is unlisted"}
-   ]
+    {
+     "step": 1,
+     "action": "fix the liability class",
+     "explain": "shares-basis caps risk at the unpaid nominal value, guarantee-basis at the promised amount on winding up, unlimited exposes personal wealth"
+    },
+    {
+     "step": 2,
+     "action": "fix the membership class",
+     "explain": "private: 2 to 200 members with transfer restrictions and no public invitation; public: 7 minimum, free transferability, may invite the public"
+    },
+    {
+     "step": 3,
+     "action": "add the listing overlay",
+     "explain": "a public company whose shares trade on a recognised stock exchange is listed; otherwise it is unlisted"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "company_type = liability_basis + membership_basis",
+     "compute": "company_type = liability_basis + membership_basis"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.201.3.1",
@@ -70,9 +112,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "order the layers from the Memorandum down", "explain": "authorised (registered) capital heads the list, issued capital is the portion actually offered, subscribed capital is what the public took"},
-    {"step": 2, "action": "split the subscribed layer by payment status", "explain": "called up capital is what the company has demanded so far; paid up capital is what has actually landed; the gap is calls in arrears"},
-    {"step": 3, "action": "present it in the balance sheet note", "explain": "the note shows authorised, issued and subscribed amounts, deducts calls in arrears from the called up figure, and carries the rest as a footnote"}
+    {
+     "step": 1,
+     "action": "order the layers from the Memorandum down",
+     "explain": "authorised (registered) capital heads the list, issued capital is the portion actually offered, subscribed capital is what the public took"
+    },
+    {
+     "step": 2,
+     "action": "split the subscribed layer by payment status",
+     "explain": "called up capital is what the company has demanded so far; paid up capital is what has actually landed; the gap is calls in arrears"
+    },
+    {
+     "step": 3,
+     "action": "present it in the balance sheet note",
+     "explain": "the note shows authorised, issued and subscribed amounts, deducts calls in arrears from the called up figure, and carries the rest as a footnote"
+    }
    ]
   },
   {
@@ -93,9 +147,24 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "total the demand on all subscribed shares", "explain": "multiply the number of subscribed shares by the amount called per share", "compute": "called_up_capital = shares_subscribed * amount_called_per_share"},
-    {"step": 2, "action": "total the default", "explain": "multiply the defaulting shares by the per-share amount left unpaid on the call", "compute": "calls_in_arrears = shares_in_default * unpaid_per_share"},
-    {"step": 3, "action": "net the paid-up figure", "explain": "paid up capital is the called up total less the arrears", "compute": "paid_up_capital = called_up_capital - calls_in_arrears"}
+    {
+     "step": 1,
+     "action": "total the demand on all subscribed shares",
+     "explain": "multiply the number of subscribed shares by the amount called per share",
+     "compute": "called_up_capital = shares_subscribed * amount_called_per_share"
+    },
+    {
+     "step": 2,
+     "action": "total the default",
+     "explain": "multiply the defaulting shares by the per-share amount left unpaid on the call",
+     "compute": "calls_in_arrears = shares_in_default * unpaid_per_share"
+    },
+    {
+     "step": 3,
+     "action": "net the paid-up figure",
+     "explain": "paid up capital is the called up total less the arrears",
+     "compute": "paid_up_capital = called_up_capital - calls_in_arrears"
+    }
    ]
   },
   {
@@ -114,12 +183,33 @@
     "can preference shares be cumulative or participating",
     "how does the dividend on equity shares vary from year to year"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "check the two preference conditions", "explain": "fixed-rate dividend before equity, and capital refund before equity on winding up"},
-    {"step": 2, "action": "note the preference varieties", "explain": "cumulative or non-cumulative, participating or not, redeemable or not, depending on the terms in the Memorandum and Articles"},
-    {"step": 3, "action": "place equity correctly", "explain": "equity shares are defined as everything that is not a preference share; their dividend floats with leftover profit"}
-   ]
+    {
+     "step": 1,
+     "action": "check the two preference conditions",
+     "explain": "fixed-rate dividend before equity, and capital refund before equity on winding up"
+    },
+    {
+     "step": 2,
+     "action": "note the preference varieties",
+     "explain": "cumulative or non-cumulative, participating or not, redeemable or not, depending on the terms in the Memorandum and Articles"
+    },
+    {
+     "step": 3,
+     "action": "place equity correctly",
+     "explain": "equity shares are defined as everything that is not a preference share; their dividend floats with leftover profit"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "equity_dividend = distributable_profit - preference_dividend",
+     "compute": "equity_dividend = distributable_profit - preference_dividend"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.201.5.1",
@@ -137,12 +227,33 @@
     "which heads of expense does the minimum subscription have to cover",
     "at what rate does interest run when refund of subscription money is delayed"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "test the ninety percent floor", "explain": "money received must reach at least 90% of the issued amount within 120 days of the prospectus"},
-    {"step": 2, "action": "apply the consequence of failure", "explain": "allotment cannot proceed and the entire application money must go back within the prescribed period"},
-    {"step": 3, "action": "add the interest rider", "explain": "refund delayed beyond the statutory days from list closure carries interest at 15% under the Act"}
-   ]
+    {
+     "step": 1,
+     "action": "test the ninety percent floor",
+     "explain": "money received must reach at least 90% of the issued amount within 120 days of the prospectus"
+    },
+    {
+     "step": 2,
+     "action": "apply the consequence of failure",
+     "explain": "allotment cannot proceed and the entire application money must go back within the prescribed period"
+    },
+    {
+     "step": 3,
+     "action": "add the interest rider",
+     "explain": "refund delayed beyond the statutory days from list closure carries interest at 15% under the Act"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "minimum_subscription = issued_amount * 0.9",
+     "compute": "minimum_subscription = issued_amount * 0.9"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.201.6.1",
@@ -162,8 +273,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "reduce the face value by what earlier stages collected", "explain": "subtract application, allotment and any earlier call amounts from the face value per share", "compute": "balance_call_per_share = face_value_per_share - application_per_share - allotment_per_share - first_call_per_share"},
-    {"step": 2, "action": "scale to the whole issue", "explain": "multiply the per-share balance by the shares allotted to get the amount due on that call", "compute": "amount_due_on_call = shares_allotted * balance_call_per_share"}
+    {
+     "step": 1,
+     "action": "reduce the face value by what earlier stages collected",
+     "explain": "subtract application, allotment and any earlier call amounts from the face value per share",
+     "compute": "balance_call_per_share = face_value_per_share - application_per_share - allotment_per_share - first_call_per_share"
+    },
+    {
+     "step": 2,
+     "action": "scale to the whole issue",
+     "explain": "multiply the per-share balance by the shares allotted to get the amount due on that call",
+     "compute": "amount_due_on_call = shares_allotted * balance_call_per_share"
+    }
    ]
   },
   {
@@ -184,11 +305,36 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "total the application money that arrived", "explain": "multiply shares applied for by the application money per share", "compute": "application_money_received = shares_applied * application_money_per_share"},
-    {"step": 2, "action": "isolate the part earned by allotted shares", "explain": "multiply shares actually allotted by the same per-share application money", "compute": "application_money_allotted = shares_allotted * application_money_per_share"},
-    {"step": 3, "action": "measure the surplus", "explain": "the difference is excess application money available for adjustment", "compute": "excess_application_money = application_money_received - application_money_allotted"},
-    {"step": 4, "action": "total the allotment demand", "explain": "multiply shares allotted by the allotment money per share", "compute": "amount_due_on_allotment = shares_allotted * allotment_money_per_share"},
-    {"step": 5, "action": "net the cash to collect on allotment", "explain": "deduct the adjusted surplus from the allotment demand; the rest is received in cash (or refunded if the surplus outruns the demand)", "compute": "cash_due_on_allotment = amount_due_on_allotment - excess_application_money"}
+    {
+     "step": 1,
+     "action": "total the application money that arrived",
+     "explain": "multiply shares applied for by the application money per share",
+     "compute": "application_money_received = shares_applied * application_money_per_share"
+    },
+    {
+     "step": 2,
+     "action": "isolate the part earned by allotted shares",
+     "explain": "multiply shares actually allotted by the same per-share application money",
+     "compute": "application_money_allotted = shares_allotted * application_money_per_share"
+    },
+    {
+     "step": 3,
+     "action": "measure the surplus",
+     "explain": "the difference is excess application money available for adjustment",
+     "compute": "excess_application_money = application_money_received - application_money_allotted"
+    },
+    {
+     "step": 4,
+     "action": "total the allotment demand",
+     "explain": "multiply shares allotted by the allotment money per share",
+     "compute": "amount_due_on_allotment = shares_allotted * allotment_money_per_share"
+    },
+    {
+     "step": 5,
+     "action": "net the cash to collect on allotment",
+     "explain": "deduct the adjusted surplus from the allotment demand; the rest is received in cash (or refunded if the surplus outruns the demand)",
+     "compute": "cash_due_on_allotment = amount_due_on_allotment - excess_application_money"
+    }
    ]
   },
   {
@@ -209,8 +355,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "total the unpaid demand", "explain": "multiply the shares in default by the per-share amount left unpaid", "compute": "calls_in_arrears = shares_in_default * unpaid_per_share"},
-    {"step": 2, "action": "run interest for the delay", "explain": "apply the article or Table F rate (not above 10% p.a.) to the arrears for the months outstanding", "compute": "interest_on_calls_in_arrears = calls_in_arrears * interest_rate * months_late / 12"}
+    {
+     "step": 1,
+     "action": "total the unpaid demand",
+     "explain": "multiply the shares in default by the per-share amount left unpaid",
+     "compute": "calls_in_arrears = shares_in_default * unpaid_per_share"
+    },
+    {
+     "step": 2,
+     "action": "run interest for the delay",
+     "explain": "apply the article or Table F rate (not above 10% p.a.) to the arrears for the months outstanding",
+     "compute": "interest_on_calls_in_arrears = calls_in_arrears * interest_rate * months_late / 12"
+    }
    ]
   },
   {
@@ -231,9 +387,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "record the liability on receipt", "explain": "bank is debited and calls in advance credited; the balance sits outside share capital until adjustment"},
-    {"step": 2, "action": "carry interest for the waiting period", "explain": "apply the article or Table F rate (not above 12% p.a.) from receipt to the date the call is due", "compute": "interest_on_calls_in_advance = advance_amount * interest_rate * months_held / 12"},
-    {"step": 3, "action": "adjust when the call is due", "explain": "calls in advance is debited and the particular call account credited, converting the liability into called-up capital"}
+    {
+     "step": 1,
+     "action": "record the liability on receipt",
+     "explain": "bank is debited and calls in advance credited; the balance sits outside share capital until adjustment"
+    },
+    {
+     "step": 2,
+     "action": "carry interest for the waiting period",
+     "explain": "apply the article or Table F rate (not above 12% p.a.) from receipt to the date the call is due",
+     "compute": "interest_on_calls_in_advance = advance_amount * interest_rate * months_held / 12"
+    },
+    {
+     "step": 3,
+     "action": "adjust when the call is due",
+     "explain": "calls in advance is debited and the particular call account credited, converting the liability into called-up capital"
+    }
    ]
   },
   {
@@ -254,10 +423,34 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "debit capital with what was called", "explain": "multiply the forfeited shares by the amount called up per share to get the share capital debit", "compute": "capital_debit = shares_forfeited * amount_called_per_share"},
-    {"step": 2, "action": "restate the unpaid part", "explain": "multiply the same shares by the per-share money that was never paid; this credits the call or arrears accounts (and securities premium if premium went unpaid)", "compute": "unpaid_on_calls = shares_forfeited * unpaid_per_share"},
-    {"step": 3, "action": "credit what the shareholder did pay", "explain": "called-up minus unpaid is the amount collected on those shares, credited to share forfeiture", "compute": "amount_forfeited = capital_debit - unpaid_on_calls"}
-   ]
+    {
+     "step": 1,
+     "action": "debit capital with what was called",
+     "explain": "multiply the forfeited shares by the amount called up per share to get the share capital debit",
+     "compute": "capital_debit = shares_forfeited * amount_called_per_share"
+    },
+    {
+     "step": 2,
+     "action": "restate the unpaid part",
+     "explain": "multiply the same shares by the per-share money that was never paid; this credits the call or arrears accounts (and securities premium if premium went unpaid)",
+     "compute": "unpaid_on_calls = shares_forfeited * unpaid_per_share"
+    },
+    {
+     "step": 3,
+     "action": "credit what the shareholder did pay",
+     "explain": "called-up minus unpaid is the amount collected on those shares, credited to share forfeiture",
+     "compute": "amount_forfeited = capital_debit - unpaid_on_calls"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "amount_forfeited = shares_forfeited * amount_called_per_share - shares_forfeited * unpaid_per_share",
+     "compute": "amount_forfeited = shares_forfeited * amount_called_per_share - shares_forfeited * unpaid_per_share"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.201.7.2",
@@ -277,10 +470,34 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "take the forfeiture credit for the shares being reissued", "explain": "multiply the reissued shares by the amount that had been received on each at forfeiture", "compute": "amount_forfeited_on_reissued = shares_reissued * amount_paid_per_share"},
-    {"step": 2, "action": "price the discount actually given", "explain": "multiply the reissued shares by face value minus reissue price; it may not exceed the forfeited amount", "compute": "discount_allowed = shares_reissued * (face_value_per_share - reissue_price_per_share)"},
-    {"step": 3, "action": "bank the residual profit", "explain": "forfeited amount on the reissued shares less the discount is the capital gain, transferred to capital reserve", "compute": "capital_reserve = amount_forfeited_on_reissued - discount_allowed"}
-   ]
+    {
+     "step": 1,
+     "action": "take the forfeiture credit for the shares being reissued",
+     "explain": "multiply the reissued shares by the amount that had been received on each at forfeiture",
+     "compute": "amount_forfeited_on_reissued = shares_reissued * amount_paid_per_share"
+    },
+    {
+     "step": 2,
+     "action": "price the discount actually given",
+     "explain": "multiply the reissued shares by face value minus reissue price; it may not exceed the forfeited amount",
+     "compute": "discount_allowed = shares_reissued * (face_value_per_share - reissue_price_per_share)"
+    },
+    {
+     "step": 3,
+     "action": "bank the residual profit",
+     "explain": "forfeited amount on the reissued shares less the discount is the capital gain, transferred to capital reserve",
+     "compute": "capital_reserve = amount_forfeited_on_reissued - discount_allowed"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "capital_reserve = shares_reissued * amount_paid_per_share - shares_reissued * (face_value_per_share - reissue_price_per_share)",
+     "compute": "capital_reserve = shares_reissued * amount_paid_per_share - shares_reissued * (face_value_per_share - reissue_price_per_share)"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -297,9 +514,24 @@
     "unpaid_per_share": 3
    },
    "solution_template": [
-    {"step": 1, "action": "total the demand on all subscribed shares", "explain": "200000 x 8 = 1600000", "compute": "called_up_capital = shares_subscribed * amount_called_per_share"},
-    {"step": 2, "action": "total the default", "explain": "2000 x 3 = 6000", "compute": "calls_in_arrears = shares_in_default * unpaid_per_share"},
-    {"step": 3, "action": "net the paid-up figure", "explain": "1600000 - 6000 = 1594000", "compute": "paid_up_capital = called_up_capital - calls_in_arrears"}
+    {
+     "step": 1,
+     "action": "total the demand on all subscribed shares",
+     "explain": "200000 x 8 = 1600000",
+     "compute": "called_up_capital = shares_subscribed * amount_called_per_share"
+    },
+    {
+     "step": 2,
+     "action": "total the default",
+     "explain": "2000 x 3 = 6000",
+     "compute": "calls_in_arrears = shares_in_default * unpaid_per_share"
+    },
+    {
+     "step": 3,
+     "action": "net the paid-up figure",
+     "explain": "1600000 - 6000 = 1594000",
+     "compute": "paid_up_capital = called_up_capital - calls_in_arrears"
+    }
    ]
   },
   {
@@ -315,11 +547,36 @@
     "allotment_money_per_share": 5
    },
    "solution_template": [
-    {"step": 1, "action": "total the application money that arrived", "explain": "400000 x 3 = 1200000", "compute": "application_money_received = shares_applied * application_money_per_share"},
-    {"step": 2, "action": "isolate the part earned by allotted shares", "explain": "300000 x 3 = 900000", "compute": "application_money_allotted = shares_allotted * application_money_per_share"},
-    {"step": 3, "action": "measure the surplus", "explain": "1200000 - 900000 = 300000", "compute": "excess_application_money = application_money_received - application_money_allotted"},
-    {"step": 4, "action": "total the allotment demand", "explain": "300000 x 5 = 1500000", "compute": "amount_due_on_allotment = shares_allotted * allotment_money_per_share"},
-    {"step": 5, "action": "net the cash to collect on allotment", "explain": "1500000 - 300000 = 1200000", "compute": "cash_due_on_allotment = amount_due_on_allotment - excess_application_money"}
+    {
+     "step": 1,
+     "action": "total the application money that arrived",
+     "explain": "400000 x 3 = 1200000",
+     "compute": "application_money_received = shares_applied * application_money_per_share"
+    },
+    {
+     "step": 2,
+     "action": "isolate the part earned by allotted shares",
+     "explain": "300000 x 3 = 900000",
+     "compute": "application_money_allotted = shares_allotted * application_money_per_share"
+    },
+    {
+     "step": 3,
+     "action": "measure the surplus",
+     "explain": "1200000 - 900000 = 300000",
+     "compute": "excess_application_money = application_money_received - application_money_allotted"
+    },
+    {
+     "step": 4,
+     "action": "total the allotment demand",
+     "explain": "300000 x 5 = 1500000",
+     "compute": "amount_due_on_allotment = shares_allotted * allotment_money_per_share"
+    },
+    {
+     "step": 5,
+     "action": "net the cash to collect on allotment",
+     "explain": "1500000 - 300000 = 1200000",
+     "compute": "cash_due_on_allotment = amount_due_on_allotment - excess_application_money"
+    }
    ]
   },
   {
@@ -334,9 +591,24 @@
     "unpaid_per_share": 50
    },
    "solution_template": [
-    {"step": 1, "action": "debit capital with what was called", "explain": "300 x 100 = 30000", "compute": "capital_debit = shares_forfeited * amount_called_per_share"},
-    {"step": 2, "action": "restate the unpaid part", "explain": "300 x 50 = 15000 credited to the two call accounts", "compute": "unpaid_on_calls = shares_forfeited * unpaid_per_share"},
-    {"step": 3, "action": "credit what the shareholder did pay", "explain": "30000 - 15000 = 15000 to share forfeiture", "compute": "amount_forfeited = capital_debit - unpaid_on_calls"}
+    {
+     "step": 1,
+     "action": "debit capital with what was called",
+     "explain": "300 x 100 = 30000",
+     "compute": "capital_debit = shares_forfeited * amount_called_per_share"
+    },
+    {
+     "step": 2,
+     "action": "restate the unpaid part",
+     "explain": "300 x 50 = 15000 credited to the two call accounts",
+     "compute": "unpaid_on_calls = shares_forfeited * unpaid_per_share"
+    },
+    {
+     "step": 3,
+     "action": "credit what the shareholder did pay",
+     "explain": "30000 - 15000 = 15000 to share forfeiture",
+     "compute": "amount_forfeited = capital_debit - unpaid_on_calls"
+    }
    ]
   },
   {
@@ -352,9 +624,24 @@
     "reissue_price_per_share": 60
    },
    "solution_template": [
-    {"step": 1, "action": "take the forfeiture credit for the shares being reissued", "explain": "150 x 70 = 10500", "compute": "amount_forfeited_on_reissued = shares_reissued * amount_paid_per_share"},
-    {"step": 2, "action": "price the discount actually given", "explain": "150 x (100 - 60) = 6000", "compute": "discount_allowed = shares_reissued * (face_value_per_share - reissue_price_per_share)"},
-    {"step": 3, "action": "bank the residual profit", "explain": "10500 - 6000 = 4500 to capital reserve", "compute": "capital_reserve = amount_forfeited_on_reissued - discount_allowed"}
+    {
+     "step": 1,
+     "action": "take the forfeiture credit for the shares being reissued",
+     "explain": "150 x 70 = 10500",
+     "compute": "amount_forfeited_on_reissued = shares_reissued * amount_paid_per_share"
+    },
+    {
+     "step": 2,
+     "action": "price the discount actually given",
+     "explain": "150 x (100 - 60) = 6000",
+     "compute": "discount_allowed = shares_reissued * (face_value_per_share - reissue_price_per_share)"
+    },
+    {
+     "step": 3,
+     "action": "bank the residual profit",
+     "explain": "10500 - 6000 = 4500 to capital reserve",
+     "compute": "capital_reserve = amount_forfeited_on_reissued - discount_allowed"
+    }
    ]
   }
  ],

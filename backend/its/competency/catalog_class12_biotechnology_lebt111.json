@@ -42,7 +42,16 @@
      "q": "Sewage is ninety-nine percent what: water or sludge?",
      "a": "water"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "dilution_factor = total_volume / sample_volume",
+     "compute": "dilution_factor = total_volume / sample_volume"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebt111.2",
@@ -80,7 +89,16 @@
      "q": "Primary treatment trims what percent of BOD: thirty to forty, or ninety?",
      "a": "thirty to forty"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "remaining_bod = bod_before * (100 - removal_pct) / 100",
+     "compute": "remaining_bod = bod_before * (100 - removal_pct) / 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebt111.3",

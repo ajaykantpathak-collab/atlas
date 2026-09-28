@@ -34,6 +34,36 @@
      "q": "Design a step-by-step construction sequence for a lined, sleeveless cotton dress with a zipper at the center back. Include cutting layout considerations, seam finishes, pressing points, and zipper insertion method.",
      "a": "Expected answer: 1) Pre-wash fabric, press. 2) Cut layout: fold fabric selvedge to selvedge, place pattern pieces on grain, maximize width usage. 3) Stay-stitch necklines/armholes. 4) Sew darts, press. 5) Join shoulder seams, finish with overlock, press open. 6) Attach lining to neckline/armholes (bagging method), understitch, press. 7) Sew side seams (dress and lining separately), finish, press. 8) Insert invisible zipper in center back before sewing seam below zipper. 9) Hem dress and lining separately, press. 10) Final press. A poor answer omits stay-stitching, pressing sequence, or zipper insertion timing, revealing lack of procedural synthesis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Apparel ______ is the systematic process of transforming flat pattern pieces into a three-dimensional garment through cutting fabric accurately, joining pieces with appropriate stitches and seams, and applying finishing techniques (such as seam finishes, hems, pressing, and fastenings) to ensure durability, fit, and aesthetic appeal.",
+     "a": "construction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just drafted a ______ for a cotton kurta and bought 2.5 metres of 112 cm wide fabric.",
+     "a": "pattern",
+     "self_check": true
+    },
+    {
+     "q": "What is Apparel construction? State the definition given in this lesson.",
+     "a": "Apparel construction is the systematic process of transforming flat pattern pieces into a three-dimensional garment through cutting fabric accurately, joining pieces with appropriate stitches and seams, and applying finishing techniques (such as seam finishes, hems, pressing, and fastenings) to ensure durability, fit, and aesthetic.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This node teaches you to start by verifying fabric width, grain, and pattern placement before cutting; then choose stitches (e.g., ______ mm straight stitch for cotton seams, zigzag for seam finishes) and finishes (e.g., French seam for sheer fabrics, overlock for knits); finally, press each seam as you sew (not just at the end) to achieve a professional finish.",
+     "a": "2.5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Apparel construction?",
+     "a": "Students often believe that \"any sharp scissors can cut fabric\" and use paper scissors, which dull quickly and cause frayed edges.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to select and justify appropriate cutting tools, stitch types, seam finishes, and hemming methods for a given fabric and garment design, and demonstrate the correct sequence of construction steps with attention to grain alignment, seam allowance, and pressing.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Create a realistic business scenario (2-3 sentences) where an entrepreneur would choose **One Person Company** over Sole Proprietorship and Private Company. Explicitly state the deciding factors: liability, succession, and compliance burden.",
      "a": "**Scenario:** \"Priya, a freelance AI consultant, earns ₹50 lakh/year. She wants limited liability to protect her personal flat from client lawsuits, but doesn't want a partner or complex board meetings. She chooses OPC.\"  \n**Deciding factors:** (1) **Limited liability** (unlike sole proprietorship), (2) **Perpetual succession via nominee** (unlike sole proprietorship which ends on death), (3) **Lower compliance than Private Company** (only 1 director, no AGM required, fewer filings). A weak answer omits the nominee succession feature or confuses OPC compliance with Private Company.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A company is an ______ legal person created under the Companies Act, 2013, having a separate legal entity, perpetual succession, and a common seal.",
+     "a": "artificial",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and four friends want to start a tech ______ in Bangalore.",
+     "a": "startup",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A company is an artificial legal person created under the Companies Act, ______, having a separate legal entity, perpetual succession, and a common seal.",
+     "a": "2013",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly classify a given business scenario into Private, Public, or OPC by evaluating member count, share transferability, public subscription rights, and compliance requirements, and can justify the choice with specific provisions of the Companies Act, 2013.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and four friends want to start a tech startup in ______.",
+     "a": "Bangalore",
+     "self_check": true
     }
    ]
   }

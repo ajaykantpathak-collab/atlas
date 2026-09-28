@@ -34,6 +34,36 @@
      "q": "A CREATE level question: Design a climate-data investigation for your school's geography lab: select three Indian stations (one coastal, one interior plain, one hill station) at similar latitudes (~20-25°N). Specify the data tables you'd need, the calculations you'd perform, and the conclusion format to demonstrate factor interaction.",
      "a": "Good answer: Stations — Mumbai (coastal, 19°N), Nagpur (interior, 21°N), Pachmarhi (hill, 22°N, 1067m). Data needed: monthly max/min temperatures for 30 years. Calculations: (1) Annual range for each; (2) Lapse-rate expected temp for Pachmarhi from Nagpur; (3) Continentality index (range/latitude factor). Conclusion format: Table showing observed vs expected temperatures, % variance explained by altitude vs distance. Poor answer: Just lists stations without calculation plan or uses stations at widely different latitudes (e.g., including Shimla) — reveals inability to control variables, a fundamental geographical research skill.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: India's climate is controlled by three primary physiographic factors: latitude (8°4'N to 37°6'N) determines the angle and duration of solar insolation, creating tropical and subtropical zones; altitude governs temperature through the environmental lapse rate (~6.5°C/km), causing Himalayan stations to be significantly cooler than peninsular locations at similar latitudes; distance from the sea (______) regulates annual temperature range and humidity, with interior regions like Delhi experiencing extreme continental climates (range >20°C) while coastal stations like Mumbai have maritime moderation (range <10°C).",
+     "a": "continentality",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how Shimla (31°N, 2200m) is pleasant in May while Delhi (28°N, 216m) scorches at 45°C — same ______ band, vastly different experience.",
+     "a": "latitude",
+     "self_check": true
+    },
+    {
+     "q": "What is India's climate? State the definition given in this lesson.",
+     "a": "India's climate is controlled by three primary physiographic factors: latitude (8°4'N to 37°6'N) determines the angle and duration of solar insolation, creating tropical and subtropical zones; altitude governs temperature through the environmental lapse rate (~6.5°C/km), causing Himalayan stations to be significantly cooler than.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by plotting both on a map: note Shimla's elevation and Delhi's interior location ______km from sea.",
+     "a": "1000",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about India's climate?",
+     "a": "Students believe \"Latitude is the primary control everywhere in India\" because textbooks list it first.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can quantitatively compare temperature profiles of two Indian stations at similar latitudes but different altitudes/distances from sea, calculate expected temperature difference using lapse rate, and explain how these three factors interact to create India's climatic diversity as evidenced in climate data tables.",
+     "self_check": true
     }
    ]
   }

@@ -282,7 +282,7 @@
    "title": "Power Shortage Percentage Difference Calculation",
    "section": "3.4",
    "definition": "Quantitative comparison of power deficit percentages across distinct recording years to evaluate supply-demand trends.",
-   "formula": "shortage_diff = shortage_year2 - shortage_year1",
+   "formula": "shortage_diff = shortage_year_2 - shortage_year_1",
    "key_idea": "The algebraic difference between shortage percentages measures the change in energy deficit over time.",
    "textbook_ref": "hesc103.txt lines 280-310",
    "question_patterns": [
@@ -311,7 +311,16 @@
      "explain": "state the absolute change in percentage points to quantify the shift in power deficit",
      "compute": "change_magnitude = abs(shortage_diff)"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "shortage_diff = shortage_year_2 - shortage_year_1",
+     "compute": "shortage_diff = shortage_year_2 - shortage_year_1"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hesc.103.4.3",
@@ -348,7 +357,16 @@
      "explain": "confirm that remaining percentage plus consumed percentage equals 100 percent of the total reserve",
      "compute": "consumed_pct = (consumed_amount / total_reserve) * 100"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "remaining_pct = ((total_reserve - consumed_amount) / total_reserve) * 100",
+     "compute": "remaining_pct = ((total_reserve - consumed_amount) / total_reserve) * 100"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

@@ -32,7 +32,32 @@
     },
     {
      "q": "Design a simple Python program that showcases at least three distinct features of Python (e.g., dynamic typing, interpreted execution, high-level data structures). Write the code and annotate each feature demonstrated.",
-     "a": "Example: \n```python",
+     "a": "Example: \n```python\n# Feature 1: Dynamic typing\nx = 42\nx = \"Now I'm a string\"\n# Feature 2: High-level data structures (list comprehension)\nsquares = [i**2 for i in range(5)]\n# Feature 3: Interpreted execution (immediate feedback in REPL)\nprint(squares)\n```\nA poor answer might only show syntax without annotating features, indicating the student cannot connect code to language characteristics.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Python is a high-level, ______, general-purpose programming language known for its readability, dynamic typing, and extensive standard library, supporting multiple programming paradigms including procedural, object-oriented, and functional programming.",
+     "a": "interpreted",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"Why do we use Python for solving problems like calculating GST on a restaurant bill or analyzing cricket scores?\" Relate to the problem-solving steps from the previous chapter (______, flowcharts).",
+     "a": "algorithms",
+     "self_check": true
+    },
+    {
+     "q": "What is Python? State the definition given in this lesson.",
+     "a": "Python is a high-level, interpreted, general-purpose programming language known for its readability, dynamic typing, and extensive standard library, supporting multiple programming paradigms including procedural, object-oriented, and functional programming.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Python?",
+     "a": "Students often believe Python is \"just a scripting language\" and not suitable for large applications, or they think \"interpreted\" means \"slow for everything.\" They may also confuse dynamic typing with weak typing, assuming Python allows implicit type coercion like JavaScript (e.g., \"2\" + 3 causing an error in Python but \"23\" in JS).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can list at least five key features of Python, explain why Python is considered an interpreted language, and describe how dynamic typing differs from static typing with a simple code illustration.",
      "self_check": true
     }
    ]

@@ -5,6 +5,8 @@
    "id": "hegp.205.5.1",
    "title": "Mean as the Balance Centre",
    "converted_to_compute": false,
+   "formula": "mean = total / count",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 7x + 12 = 61.",
@@ -42,6 +44,8 @@
    "id": "hegp.205.5.2",
    "title": "Finding a Missing Value from the Mean",
    "converted_to_compute": false,
+   "formula": "missing = mean * count - known_sum",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 30, 6, 40, 3, 17.",
@@ -79,6 +83,8 @@
    "id": "hegp.205.5.3",
    "title": "Correcting the Mean After an Error",
    "converted_to_compute": false,
+   "formula": "correct_total = mean * count - error",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 36, 23, 2, 18, 10.",
@@ -115,21 +121,9 @@
   {
    "id": "hegp.205.5.4",
    "title": "Median and the Effect of New Values",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the mean/median/mode definition",
-     "explain": "apply the mean/median/mode definition: total = sum((17, 10, 22, 11, 10)) gives 70",
-     "compute": "total = sum((17, 10, 22, 11, 10))"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 14",
-     "compute": "mean = total / 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 17, 10, 22, 11, 10.",
@@ -167,6 +161,8 @@
    "id": "hegp.205.5.5",
    "title": "Mean with Frequencies",
    "converted_to_compute": false,
+   "formula": "wmean = (f1 * v1 + f2 * v2) / (f1 + f2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 22, 19, 20, 3, 14.",
@@ -203,15 +199,9 @@
   {
    "id": "hegp.205.5.6",
    "title": "Line Graphs and Interpreting Data",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "read the table or chart with its key",
-     "explain": "read the table or chart with its key: total = 5 + 5 + 6 gives 16",
-     "compute": "total = 5 + 5 + 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a frequency table the rows have frequencies 5, 5 and 6. Find the total frequency.",

@@ -34,6 +34,36 @@
      "q": "Design a three-tier investment plan for a 35-year-old salaried individual (₹1.2 lakh/month surplus) with goals: (1) emergency fund in 3 months, (2) house down-payment in 5 years (₹25 lakh), (3) retirement in 25 years. Specify instrument, monthly allocation, and rationale for each tier.",
      "a": "Tier 1 (Emergency): ₹30,000/month × 3 months → ₹90,000 in liquid fund/savings account — high liquidity, capital protection. Tier 2 (House): ₹60,000/month in 5-year recurring deposit or short-duration debt fund — low volatility, predictable accumulation, some tax efficiency via indexation if >3 years. Tier 3 (Retirement): ₹30,000/month in NPS (75% equity) + ₹10,000/month in PPF — maximizes 80C/80CCD(1B), long horizon for equity compounding, sovereign guarantee on PPF portion. A poor answer allocates lump sums without monthly cash-flow matching, ignores tax efficiency, or uses equity for 5-year goal.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Savings and investment avenues are specific financial instruments or schemes offered by authorized ______ (banks, post offices, government, corporates) where individuals can deposit surplus money to earn returns, build capital, or meet future financial goals; each avenue differs in safety, liquidity, return, tax treatment, and lock-in period.",
+     "a": "institutions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your ______ has just received a ₹2 lakh annual bonus.",
+     "a": "family",
+     "self_check": true
+    },
+    {
+     "q": "What is Savings and investment avenues? State the definition given in this lesson.",
+     "a": "Savings and investment avenues are specific financial instruments or schemes offered by authorized institutions (banks, post offices, government, corporates) where individuals can deposit surplus money to earn returns, build capital, or meet future financial goals; each avenue differs in safety, liquidity, return, tax treatment, and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family has just received a ₹______ lakh annual bonus.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Savings and investment avenues?",
+     "a": "Students treat \"Post Office schemes\" as a single homogeneous product, not realizing that NSC, KVP, SCSS, SSY, MIS, and Time Deposits have different tenures, interest payout frequencies, tax treatments, and eligibility criteria.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can compare at least five Indian savings/investment avenues on the parameters of safety, liquidity, return, tax benefit, and lock-in period, and justify the suitability of each for a given family goal (e.g., child's education in 10 years, emergency fund, retirement).",
+     "self_check": true
     }
    ]
   }

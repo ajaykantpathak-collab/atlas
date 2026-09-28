@@ -34,6 +34,31 @@
      "q": "Construct a hypothetical data set for a small open economy for Year 2024: Exports, Imports, Factor Income Received, Factor Income Paid, Consumption of Fixed Capital, Net Indirect Taxes, and GDPmp. Ensure GNPmp > GDPmp and NNPfc < GDPmp. Show all calculations.",
      "a": "Example: Exports = 200, Imports = 250 → NX = –50. Factor Income Received = 100, Paid = 40 → NFIA = +60. GDPmp = 1000 (includes NX). GNPmp = 1000 + 60 = 1060 (> GDPmp). Consumption of Fixed Capital = 80, Net Indirect Taxes = 50. NNPmp = 1060 – 80 = 980. NNPfc = 980 – 50 = 930 (< GDPmp). A valid answer demonstrates understanding of all aggregates and sign conventions. A poor answer fails to keep signs consistent or misapplies the sequence.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Net Exports (NX) is the ______ between a country's total exports of goods and services (X) and total imports of goods and services (M), expressed as NX = X – M.",
+     "a": "difference",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine an Indian software ______ working in Bengaluru for a US client: the service export earns foreign exchange (part of X).",
+     "a": "engineer",
+     "self_check": true
+    },
+    {
+     "q": "What is Net Exports (NX)? State the definition given in this lesson.",
+     "a": "Net Exports (NX) is the difference between a country's total exports of goods and services (X) and total imports of goods and services (M), expressed as NX = X – M.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Net Exports (NX)?",
+     "a": "Students treat Net Exports and Net Factor Income from Abroad as the same concept because both involve \"net\" and \"abroad\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) calculate Net Exports and NFIA from given export/import and factor income data, (2) explain how NX and NFIA convert GDPmp to GNPmp and NDPmp to NNPmp, and (3) interpret the sign of NX and NFIA for an economy like India in a given year.",
+     "self_check": true
     }
    ]
   }

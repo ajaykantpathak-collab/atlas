@@ -34,6 +34,26 @@
      "q": "Design a simple test-tube experiment to distinguish between ethanol, ethanal, and ethanoic acid using only sodium metal, sodium bicarbonate, and Tollens' reagent. Write observations for each.",
      "a": "1. **Na metal**: Ethanol → effervescence (H₂ gas). Ethanal & ethanoic acid → no reaction (ethanoic acid reacts but slowly, not standard test; better: ethanoic acid reacts with NaHCO₃).  \n2. **NaHCO₃**: Ethanoic acid → brisk effervescence (CO₂). Ethanol & ethanal → no reaction.  \n3. **Tollens' reagent**: Ethanal → silver mirror. Ethanol & ethanoic acid → no mirror.  \nA poor answer uses only one reagent or confuses observations, showing inability to design a multi-step diagnostic scheme.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A functional group is a specific atom or group of atoms in a carbon compound that determines its ______ chemical properties and reactivity, replacing one or more hydrogen atoms in the hydrocarbon chain.",
+     "a": "characteristic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by showing a student a bottle of hand sanitizer (contains ethanol), a bottle of vinegar (contains ethanoic acid), and a nail polish remover (contains ______/acetone).",
+     "a": "propanone",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify the functional group present in a given carbon compound from its structural formula or IUPAC name, write the general formula for compounds containing that functional group, and predict the type of chemical reactions the compound will undergo based on its functional group.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by showing a student a bottle of hand ______ (contains ethanol), a bottle of vinegar (contains ethanoic acid), and a nail polish remover (contains propanone/acetone).",
+     "a": "sanitizer",
+     "self_check": true
     }
    ]
   }

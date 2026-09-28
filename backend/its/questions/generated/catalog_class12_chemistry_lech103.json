@@ -1,0 +1,428 @@
+{
+ "catalog": "catalog_class12_chemistry_lech103.json",
+ "concepts": [
+  {
+   "id": "lech.03.3.1.1",
+   "title": "Average Rate of a Reaction",
+   "converted_to_compute": true,
+   "formula": "avg_rate = (conc_start - conc_end) / time_interval",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "avg_rate = (conc_start - conc_end) / time_interval",
+     "compute": "avg_rate = (conc_start - conc_end) / time_interval"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Average Rate of a Reaction: given conc_start = 58, conc_end = 48, time_interval = 95, find avg rate.",
+     "a": "0.105263",
+     "self_check": false
+    },
+    {
+     "q": "For Average Rate of a Reaction: given conc_start = 57, conc_end = 83, time_interval = 34, find avg rate.",
+     "a": "-0.764706",
+     "self_check": false
+    },
+    {
+     "q": "For Average Rate of a Reaction: given conc_start = 48, conc_end = 74, time_interval = 23, find avg rate.",
+     "a": "-1.13043",
+     "self_check": false
+    },
+    {
+     "q": "For Average Rate of a Reaction: given conc_start = 1.9, conc_end = 51, time_interval = 97, find avg rate.",
+     "a": "-0.506186",
+     "self_check": false
+    },
+    {
+     "q": "For Average Rate of a Reaction: given conc_start = 94, conc_end = 79, time_interval = 57, find avg rate.",
+     "a": "0.263158",
+     "self_check": false
+    },
+    {
+     "q": "For Average Rate of a Reaction: given conc_start = 99, conc_end = 5.7, time_interval = 71, find avg rate.",
+     "a": "1.31408",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.03.3.2.2",
+   "title": "Order of a Reaction",
+   "converted_to_compute": true,
+   "formula": "order_total = order_a + order_b",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "order_total = order_a + order_b",
+     "compute": "order_total = order_a + order_b"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Order of a Reaction: given order_a = 39, order_b = 40, find order total.",
+     "a": "79",
+     "self_check": false
+    },
+    {
+     "q": "For Order of a Reaction: given order_a = 31, order_b = 39, find order total.",
+     "a": "70",
+     "self_check": false
+    },
+    {
+     "q": "For Order of a Reaction: given order_a = 30, order_b = 25, find order total.",
+     "a": "55",
+     "self_check": false
+    },
+    {
+     "q": "For Order of a Reaction: given order_a = 35, order_b = 36, find order total.",
+     "a": "71",
+     "self_check": false
+    },
+    {
+     "q": "For Order of a Reaction: given order_a = 3.4, order_b = 23, find order total.",
+     "a": "26.4",
+     "self_check": false
+    },
+    {
+     "q": "For Order of a Reaction: given order_a = 35, order_b = 24, find order total.",
+     "a": "59",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.03.3.3.1",
+   "title": "Zero Order Integrated Rate Equation",
+   "converted_to_compute": true,
+   "formula": "conc_left = conc_0 - rate_const * time_elapsed",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "conc_left = conc_0 - rate_const * time_elapsed",
+     "compute": "conc_left = conc_0 - rate_const * time_elapsed"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Zero Order Integrated Rate Equation: given conc_0 = 38, rate_const = 54, time_elapsed = 60, find conc left.",
+     "a": "-3202",
+     "self_check": false
+    },
+    {
+     "q": "For Zero Order Integrated Rate Equation: given conc_0 = 63, rate_const = 56, time_elapsed = 96, find conc left.",
+     "a": "-5313",
+     "self_check": false
+    },
+    {
+     "q": "For Zero Order Integrated Rate Equation: given conc_0 = 61, rate_const = 1, time_elapsed = 14.5, find conc left.",
+     "a": "46.5",
+     "self_check": false
+    },
+    {
+     "q": "For Zero Order Integrated Rate Equation: given conc_0 = 47, rate_const = 89, time_elapsed = 106, find conc left.",
+     "a": "-9387",
+     "self_check": false
+    },
+    {
+     "q": "For Zero Order Integrated Rate Equation: given conc_0 = 52, rate_const = 64, time_elapsed = 86, find conc left.",
+     "a": "-5452",
+     "self_check": false
+    },
+    {
+     "q": "For Zero Order Integrated Rate Equation: given conc_0 = 22, rate_const = 70, time_elapsed = 90, find conc left.",
+     "a": "-6278",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.03.3.3.2",
+   "title": "Half Life of a Zero Order Reaction",
+   "converted_to_compute": true,
+   "formula": "t_half = conc_0 / (2 * rate_const)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "t_half = conc_0 / (2 * rate_const)",
+     "compute": "t_half = conc_0 / (2 * rate_const)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Half Life of a Zero Order Reaction: given conc_0 = 25, rate_const = 21, find t half.",
+     "a": "0.595238",
+     "self_check": false
+    },
+    {
+     "q": "For Half Life of a Zero Order Reaction: given conc_0 = 93, rate_const = 5.4, find t half.",
+     "a": "8.61111",
+     "self_check": false
+    },
+    {
+     "q": "For Half Life of a Zero Order Reaction: given conc_0 = 9.4, rate_const = 64, find t half.",
+     "a": "0.0734375",
+     "self_check": false
+    },
+    {
+     "q": "For Half Life of a Zero Order Reaction: given conc_0 = 44, rate_const = 83, find t half.",
+     "a": "0.26506",
+     "self_check": false
+    },
+    {
+     "q": "For Half Life of a Zero Order Reaction: given conc_0 = 55, rate_const = 35, find t half.",
+     "a": "0.785714",
+     "self_check": false
+    },
+    {
+     "q": "For Half Life of a Zero Order Reaction: given conc_0 = 45, rate_const = 34, find t half.",
+     "a": "0.661765",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.03.3.3.3",
+   "title": "First Order Rate Constant from Concentration Data",
+   "converted_to_compute": true,
+   "formula": "rate_const = 2.303 * log_ratio / time_elapsed",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rate_const = 2.303 * log_ratio / time_elapsed",
+     "compute": "rate_const = 2.303 * log_ratio / time_elapsed"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For First Order Rate Constant from Concentration Data: given log_ratio = 93, time_elapsed = 79, find rate const.",
+     "a": "2.71113",
+     "self_check": false
+    },
+    {
+     "q": "For First Order Rate Constant from Concentration Data: given log_ratio = 69, time_elapsed = 52, find rate const.",
+     "a": "3.0559",
+     "self_check": false
+    },
+    {
+     "q": "For First Order Rate Constant from Concentration Data: given log_ratio = 95, time_elapsed = 55, find rate const.",
+     "a": "3.97791",
+     "self_check": false
+    },
+    {
+     "q": "For First Order Rate Constant from Concentration Data: given log_ratio = 99, time_elapsed = 81, find rate const.",
+     "a": "2.81478",
+     "self_check": false
+    },
+    {
+     "q": "For First Order Rate Constant from Concentration Data: given log_ratio = 40, time_elapsed = 37, find rate const.",
+     "a": "2.48973",
+     "self_check": false
+    },
+    {
+     "q": "For First Order Rate Constant from Concentration Data: given log_ratio = 24, time_elapsed = 92, find rate const.",
+     "a": "0.600783",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.03.3.3.4",
+   "title": "First Order Amount Remaining after Time t",
+   "converted_to_compute": true,
+   "formula": "conc_left = conc_0 * 10 ** ((0 - rate_const * time_elapsed) / 2.303)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "conc_left = conc_0 * 10 ** ((0 - rate_const * time_elapsed) / 2.303)",
+     "compute": "conc_left = conc_0 * 10 ** ((0 - rate_const * time_elapsed) / 2.303)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For First Order Amount Remaining after Time t: given conc_0 = 69, rate_const = 7.9, time_elapsed = 13, find conc left.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For First Order Amount Remaining after Time t: given conc_0 = 2.2, rate_const = 21, time_elapsed = 7.2, find conc left.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For First Order Amount Remaining after Time t: given conc_0 = 64, rate_const = 88, time_elapsed = 2.9, find conc left.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For First Order Amount Remaining after Time t: given conc_0 = 16.3, rate_const = 64, time_elapsed = 3.4, find conc left.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For First Order Amount Remaining after Time t: given conc_0 = 96, rate_const = 7.7, time_elapsed = 21, find conc left.",
+     "a": "0",
+     "self_check": false
+    },
+    {
+     "q": "For First Order Amount Remaining after Time t: given conc_0 = 10.5, rate_const = 49, time_elapsed = 3.9, find conc left.",
+     "a": "0",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.03.3.3.5",
+   "title": "Half Life of a First Order Reaction",
+   "converted_to_compute": true,
+   "formula": "t_half = 0.693 / rate_const",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "t_half = 0.693 / rate_const",
+     "compute": "t_half = 0.693 / rate_const"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Half Life of a First Order Reaction: given rate_const = 50, find t half.",
+     "a": "0.01386",
+     "self_check": false
+    },
+    {
+     "q": "For Half Life of a First Order Reaction: given rate_const = 78, find t half.",
+     "a": "0.00888462",
+     "self_check": false
+    },
+    {
+     "q": "For Half Life of a First Order Reaction: given rate_const = 85, find t half.",
+     "a": "0.00815294",
+     "self_check": false
+    },
+    {
+     "q": "For Half Life of a First Order Reaction: given rate_const = 30, find t half.",
+     "a": "0.0231",
+     "self_check": false
+    },
+    {
+     "q": "For Half Life of a First Order Reaction: given rate_const = 89, find t half.",
+     "a": "0.00778652",
+     "self_check": false
+    },
+    {
+     "q": "For Half Life of a First Order Reaction: given rate_const = 17.1, find t half.",
+     "a": "0.0405263",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.03.3.4.2",
+   "title": "Rate Constant at a New Temperature",
+   "converted_to_compute": true,
+   "formula": "k_new = 10 ** (log_k_1 + ea_j * (t_2 - t_1) / (2.303 * gas_const * t_1 * t_2))",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "k_new = 10 ** (log_k_1 + ea_j * (t_2 - t_1) / (2.303 * gas_const * t_1 * t_2))",
+     "compute": "k_new = 10 ** (log_k_1 + ea_j * (t_2 - t_1) / (2.303 * gas_const * t_1 * t_2))"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Rate Constant at a New Temperature: given log_k_1 = 6.1, ea_j = 55, t_2 = 37, t_1 = 38, gas_const = 77, find k new.",
+     "a": "1258286.121513",
+     "self_check": false
+    },
+    {
+     "q": "For Rate Constant at a New Temperature: given log_k_1 = 16.7, ea_j = 76, t_2 = 79, t_1 = 103, gas_const = 17.6, find k new.",
+     "a": "49484550940859544",
+     "self_check": false
+    },
+    {
+     "q": "For Rate Constant at a New Temperature: given log_k_1 = 6.6, ea_j = 35, t_2 = 68, t_1 = 54, gas_const = 0.9, find k new.",
+     "a": "4617223.396212",
+     "self_check": false
+    },
+    {
+     "q": "For Rate Constant at a New Temperature: given log_k_1 = 2.6, ea_j = 30, t_2 = 79, t_1 = 25, gas_const = 59, find k new.",
+     "a": "403.68",
+     "self_check": false
+    },
+    {
+     "q": "For Rate Constant at a New Temperature: given log_k_1 = 15.8, ea_j = 7, t_2 = 94, t_1 = 69, gas_const = 7.6, find k new.",
+     "a": "6332009177576763",
+     "self_check": false
+    },
+    {
+     "q": "For Rate Constant at a New Temperature: given log_k_1 = 14.3, ea_j = 96, t_2 = 86, t_1 = 102, gas_const = 36, find k new.",
+     "a": "198558274050477.40625",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech.03.3.5.1",
+   "title": "Collision Theory of Reaction Rates",
+   "converted_to_compute": true,
+   "formula": "rate = steric_factor * collision_frequency * exp(-Ea / RT)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rate = steric_factor * collision_frequency * exp(-Ea / RT)",
+     "compute": "rate = steric_factor * collision_frequency * exp(-Ea / RT)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Collision Theory of Reaction Rates: given steric_factor = 92, collision_frequency = 713, Ea = 19.1, RT = 6.9, find rate.",
+     "a": "4118.13",
+     "self_check": false
+    },
+    {
+     "q": "For Collision Theory of Reaction Rates: given steric_factor = 2.8, collision_frequency = 199, Ea = 5.6, RT = 35, find rate.",
+     "a": "474.815",
+     "self_check": false
+    },
+    {
+     "q": "For Collision Theory of Reaction Rates: given steric_factor = 28, collision_frequency = 516, Ea = 73, RT = 22, find rate.",
+     "a": "523.287",
+     "self_check": false
+    },
+    {
+     "q": "For Collision Theory of Reaction Rates: given steric_factor = 61, collision_frequency = 405, Ea = 3.4, RT = 50, find rate.",
+     "a": "23080.9",
+     "self_check": false
+    },
+    {
+     "q": "For Collision Theory of Reaction Rates: given steric_factor = 23, collision_frequency = 868, Ea = 5.8, RT = 14.6, find rate.",
+     "a": "13419",
+     "self_check": false
+    },
+    {
+     "q": "For Collision Theory of Reaction Rates: given steric_factor = 73, collision_frequency = 405, Ea = 62, RT = 79, find rate.",
+     "a": "13487.7",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

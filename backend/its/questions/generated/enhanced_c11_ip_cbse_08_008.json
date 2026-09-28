@@ -34,6 +34,31 @@
      "q": "Create a novel real-world scenario (2-3 sentences) involving a malware attack on a school's online exam system. The scenario must allow identification of **exactly two** malware categories from the five. Provide the scenario and the two categories with justification.",
      "a": "**Scenario:** \"During an online exam, students' screens suddenly show a message: 'Your answers have been uploaded to our server. Pay ₹10,000 to prevent public release.' Investigation reveals the malware entered via a fake 'browser update' popup clicked by a teacher, and it spreads to other exam computers via the local network without further clicks.\"  \n**Categories:** **Trojan** (disguised as browser update, requires user click) + **Worm** (self-propagates on LAN). **Not** ransomware (threatens data exposure, not encryption), not virus (no file infection), not spyware (no silent monitoring). A poor scenario (e.g., only one identifiable category) reveals inability to **engineer distinguishing features** into a narrative.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Malware (malicious software) is any program or code designed to harm, exploit, or gain ______ access to a computer system.",
+     "a": "unauthorized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your friend ______ a free \"game crack\" from an unofficial site.",
+     "a": "downloads",
+     "self_check": true
+    },
+    {
+     "q": "What is Malware (malicious software)? State the definition given in this lesson.",
+     "a": "Malware (malicious software) is any program or code designed to harm, exploit, or gain unauthorized access to a computer system.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Malware (malicious software)?",
+     "a": "Students frequently believe \"Trojan is a type of virus\" because both are malicious programs.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Define each malware type with precise technical characteristics, (2) Differentiate between them based on propagation method, payload, and user interaction requirements, (3) Classify a given real-world incident into the correct malware category with justification.",
+     "self_check": true
     }
    ]
   }

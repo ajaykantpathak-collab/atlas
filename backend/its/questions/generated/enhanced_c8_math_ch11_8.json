@@ -34,6 +34,21 @@
      "q": "Design a solid (describe it or draw its net) such that you can obtain a square, a rectangle (non-square), and a triangle as cross-sections by slicing it with planes in three different orientations. Explain each cut.",
      "a": "A right square prism (cuboid with square base, e.g., 5 cm × 5 cm × 8 cm) works.\n- Cut parallel to base → square (5 cm × 5 cm).\n- Cut vertical parallel to a side face → rectangle (5 cm × 8 cm).\n- Cut vertical through a diagonal of the base → triangle (base 5√2 cm, height 8 cm) — actually a rectangle? Wait, a diagonal vertical plane through a cuboid gives a parallelogram. To get a triangle, need a pyramid. Better: a square pyramid (base 6 cm, height 8 cm).\n  - Horizontal cut → square.\n  - Vertical cut through apex and two opposite base vertices → triangle.\n  - Vertical cut through apex parallel to a base side → isosceles trapezoid? Not rectangle.\n  Actually, a **triangular prism** with right triangle base? Let's think: A **cuboid** (rectangular prism) can give rectangle (parallel to face), square (if two dimensions equal and cut parallel to that face), and triangle? No, cuboid cross-sections are always polygons with 4, 6 sides, never triangle.\n  Correct example: **A square pyramid** (base square, apex above center).\n  - Horizontal cut → square (smaller).\n  - Vertical cut through apex and midpoint of two opposite sides → isosceles triangle.\n  - Vertical cut through apex and a diagonal of base → isosceles triangle (different dimensions).\n  To get rectangle, need a prism. So no single regular solid gives all three? Wait: A **cylinder** gives circle, rectangle, ellipse. Not triangle.\n  A **cone** gives circle, triangle, ellipse/parabola/hyperbola. Not rectangle.\n  A **triangular prism** gives triangle (parallel to base), rectangle (vertical), and... parallelogram/trapezoid.\n  The question asks to *design* a solid — could be a composite or irregular. But within scope: a **right prism with a right-triangle base**? No.\n  Actually, a **cuboid with a square face** (5×5×8) gives square and rectangle. To get triangle, cut off a corner? That's a tetrahedron.\n  Best answer: A **square pyramid** gives square and triangle. For rectangle, cut a **cylinder**? Not one solid.\n  Acceptable: \"A solid formed by attaching a square pyramid on top of a cube\" (house shape). Horizontal cut through cube → square. Vertical cut through pyramid apex → triangle. Vertical cut through cube → rectangle.\n  A poor answer reveals inability to synthesize knowledge of multiple solids or confusion that one solid must be a standard named solid.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A cross-section is the two-dimensional shape formed by the ______ of a solid three-dimensional object with a plane.",
+     "a": "intersection",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a carpenter in Jaipur making a wooden toy by slicing a ______ log of wood.",
+     "a": "cylindrical",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can accurately predict and sketch the cross-section of a cube, cuboid, cylinder, cone, sphere, or pyramid when sliced by a plane parallel, perpendicular, or oblique to its base/axis, and can explain how the cross-section changes as the cutting plane moves.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch11_8",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch11_8",
+   "title": "c9_math_ch11_8",
+   "questions": [
+    {
+     "q": "State the theorem that relates the size of an angle in a triangle to the length of its opposite side. Write it in your own words.",
+     "a": "In any triangle, the side opposite the larger angle is longer, and the angle opposite the longer side is larger. A wrong answer (e.g., \"larger angle has smaller opposite side\" or \"angles and sides have no relation\") reveals the student has not internalised the bidirectional nature of the theorem — they may recall a one-way version or confuse it with triangle inequality (sum of two sides > third side).",
+     "self_check": true
+    },
+    {
+     "q": "In ΔPQR, ∠P = 50° and ∠Q = 70°. Without measuring, explain why side PR must be longer than side PQ.",
+     "a": "∠Q (70°) > ∠P (50°), so the side opposite ∠Q (which is PR) is longer than the side opposite ∠P (which is PQ). A wrong answer (e.g., \"PR is shorter because it's next to the larger angle\" or \"we need the third angle first\") reveals the student confuses adjacent vs opposite sides, or thinks all three angles are needed to compare two sides.",
+     "self_check": true
+    },
+    {
+     "q": "In ΔABC, AB = 8 cm, BC = 6 cm, and CA = 7 cm. Write the angles ∠A, ∠B, ∠C in increasing order of their measures.",
+     "a": "Sides in increasing order: BC (6 cm) < CA (7 cm) < AB (8 cm). Angles opposite: ∠A (opposite BC) < ∠B (opposite CA) < ∠C (opposite AB). So ∠A < ∠B < ∠C. A wrong order (e.g., ∠C < ∠A < ∠B) reveals the student matched angles to adjacent sides instead of opposite sides — a classic \"adjacent-side\" misconception.",
+     "self_check": true
+    },
+    {
+     "q": "Two students argue about ΔXYZ where XY = 10 cm, YZ = 8 cm, XZ = 6 cm. Student A says ∠X is the largest. Student B says ∠Z is the largest. Who is correct? Justify using the theorem.",
+     "a": "Student B is correct. Longest side is XY = 10 cm, opposite ∠Z. So ∠Z is largest. Student A likely thinks the angle at the vertex of the longest side's endpoints is largest — confusing vertex with opposite angle. This reveals the misconception that the angle \"at\" the long side is large, rather than the angle opposite it.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"In ΔDEF, DE = 9 cm, EF = 7 cm, FD = 8 cm. So ∠D > ∠E > ∠F.\" Identify the error and give the correct ordering.",
+     "a": "Error: The student compared sides DE (9), EF (7), FD (8) and assumed the angle at the vertex of the longest side (DE) is largest. Correct: Longest side DE = 9 cm is opposite ∠F, so ∠F is largest. Sides: EF (7) < FD (8) < DE (9). Opposite angles: ∠D (opp EF) < ∠E (opp FD) < ∠F (opp DE). So ∠D < ∠E < ∠F. A wrong answer reveals the student does not consistently apply \"opposite side\" mapping.",
+     "self_check": true
+    },
+    {
+     "q": "Create a triangle problem where two angles are given (e.g., 40° and 80°), and ask a friend to find which side is longest without using a protractor. Write the full problem statement and solution.",
+     "a": "Problem: In ΔLMN, ∠L = 40°, ∠M = 80°. Find the longest side.\nSolution: ∠N = 180° - (40° + 80°) = 60°. Angles: ∠L (40°) < ∠N (60°) < ∠M (80°). Longest side is opposite largest angle ∠M, which is LN.\nA poor answer (e.g., gives a problem where all angles are equal, or forgets to find the third angle) reveals the student cannot construct a valid application or misses the angle sum property prerequisite.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

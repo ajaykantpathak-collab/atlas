@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_12_006",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_12_006",
+   "title": "c12_leg_cbse_12_006",
+   "questions": [
+    {
+     "q": "What is the primary difference between Public International Law and Private International Law in terms of the actors and subject matter they govern?",
+     "a": "Public International Law governs relations between states and international organizations (e.g., treaty obligations, use of force, diplomatic immunity), while Private International Law (Conflict of Laws) governs cross-border disputes between private parties — determining which jurisdiction's courts hear the case and which jurisdiction's substantive law applies (e.g., a divorce between an Indian citizen and a French citizen in London). A wrong answer that conflates them reveals the student hasn't grasped that Public IL is \"horizontal\" (state-to-state) while Private IL is \"vertical\" (domestic courts applying foreign law to private disputes).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Article 38(1) of the ICJ Statute lists treaties, custom, and general principles as \"primary sources\" but judicial decisions and teachings of publicists as \"subsidiary means\" — and what this hierarchy implies for how the ICJ actually decides cases.",
+     "a": "Article 38(1) reflects that treaties and custom are direct expressions of state consent (the foundation of international legality), while general principles fill gaps where consent is absent. Judicial decisions and scholarly writings are not sources of law themselves but evidence of what the law is — the ICJ uses them to identify customary rules or interpret treaties but is not bound by precedent (Article 59 ICJ Statute). A wrong answer treating ICJ judgments as binding precedent like the Supreme Court of India reveals a fundamental misunderstanding of the decentralized, non-stare decisis nature of international adjudication.",
+     "self_check": true
+    },
+    {
+     "q": "India ratifies the UN Convention on the Rights of Persons with Disabilities (UNCRPD) but does not enact domestic implementing legislation. A disabled citizen sues a private employer for discrimination in a Delhi district court, citing the UNCRPD. The employer argues the treaty is not Indian law. How should the court rule, and which constitutional provisions and cases support your answer?",
+     "a": "The court should rule that the UNCRPD can be directly applied because: (1) Article 253 empowers Parliament to implement treaties, but the Supreme Court in Vishaka v. State of Rajasthan held that ratified treaties supplementing existing domestic law (here, Article 14, 16, 21) can be read into fundamental rights without legislation; (2) Sheela Barse established that ratified conventions create obligations even without implementing legislation when no contrary domestic law exists; (3) The treaty doesn't restrict rights but expands them — Magan Bhai Patel requires legislation only when rights are restricted. A wrong answer claiming \"treaties never apply without legislation\" ignores the Vishaka/Sheela Barse jurisprudence and misreads Article 253 as a barrier rather than an enabling provision.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the jurisdictional bases of the ICJ and the ICC. Why can the ICJ hear a dispute between India and Pakistan over the Indus Waters Treaty only if both consent, while the ICC could theoretically prosecute an Indian national for war crimes in a non-party state without India's consent?",
+     "a": "The ICJ's contentious jurisdiction is purely consent-based: states must accept it via special agreement, treaty clause, or optional clause declaration (Article 36 ICJ Statute) — India and Pakistan would both need to consent. The ICC's jurisdiction under the Rome Statute is triggered by: (a) the crime occurring on the territory of a state party, or (b) the accused being a national of a state party, or (c) UN Security Council referral under Chapter VII. Thus, if an Indian national commits war crimes in Afghanistan (a state party), the ICC could assert jurisdiction without India's consent because the territorial state consented. A wrong answer claiming the ICC has universal jurisdiction over all crimes reveals confusion between the ICC's treaty-based jurisdiction and true universal jurisdiction (which exists only for piracy, genocide under customary law).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"International law is not true law because it lacks a legislature, executive, and judiciary with enforcement power — it's merely 'positive international morality'.\" Use Austin's command theory, Oppenheim's rebuttal, and the compliance pull of reciprocity/reputation to structure your answer.",
+     "a": "Austin defines law as commands of a sovereign backed by sanctions — international law lacks a sovereign, so he calls it \"positive morality.\" Oppenheim counters that law exists wherever a community observes rules as binding, regardless of enforcement machinery — international law meets this because states comply due to: (1) reciprocity (breach invites counter-breach); (2) reputation (credibility loss harms future cooperation); (3) internalization (norms like pacta sunt servanda become habitual); (4) domestic incorporation (Article 253, Vishaka makes treaties enforceable in national courts). The claim is reductionist: it confuses \"enforcement mechanism\" with \"legal character.\" A wrong answer accepting Austin uncritically misses that even domestic law relies on voluntary compliance (most people don't speed because they accept the norm, not fear tickets) — international law operates on the same spectrum, just with weaker centralized sanctions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario where a new customary international law rule is emerging on \"cyber sovereignty\" — states claiming exclusive control over internet infrastructure within their territory. Specify the state practice and opinio juris elements required, and explain why the \"persistent objector\" doctrine might allow a powerful state to avoid being bound.",
+     "a": "Scenario: 40+ states enact laws requiring data localization, mandate government access to encryption keys, and publicly assert \"cyber sovereignty\" at UN forums (state practice). Their diplomats vote for a UNGGE report affirming \"states have sovereign authority over ICT infrastructure in their territory\" and criticize foreign cyber operations as \"violations of sovereignty\" (opinio juris — they act from legal obligation, not just policy). A powerful state (e.g., USA) consistently opposes this norm in UN debates, refuses data localization, and conducts cross-border cyber operations — it qualifies as a persistent objector if its objection is clear, consistent, and from the norm's inception. A poor answer omits opinio juris (treating practice alone as custom) or thinks persistent objection works after the norm crystallizes.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

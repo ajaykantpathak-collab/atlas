@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_07_001",
+   "title": "c12_soc_cbse_07_001",
+   "questions": [
+    {
+     "q": "What is the fundamental difference between \"reading about research\" and \"doing research\" as highlighted in the NCERT rationale for project work?",
+     "a": "Reading about research provides second-hand knowledge of findings and methods; doing research gives first-hand experience of the entire research cycle — formulating a question, selecting methods, collecting evidence, confronting practical difficulties (non-response, access, ethics), and interpreting data. A wrong answer that merely says \"one is theory, the other is practical\" reveals the student misses the epistemological point: research is a process of evidence-generation, not just application. The NCERT emphasises that practical experience introduces \"the excitement and also some of the difficulties of sociological research\" — the messiness that textbooks omit.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"Since surveys can cover many people, they are always the best method for sociological projects.\" Using the NCERT rationale, explain why this statement reflects a misunderstanding of method selection.",
+     "a": "The NCERT explicitly states: \"Every research question needs an appropriate or suitable research method... for most research questions one has a choice of possible methods but this choice is usually limited.\" Method selection depends on (a) technical compatibility between question and method, and (b) practical constraints (time, resources, access). Surveys fix questions in advance and cannot follow up on interesting responses; interviews allow flexibility but cover fewer people; observation captures behaviour but not meanings. A student who thinks surveys are \"always best\" confuses breadth with suitability and ignores the research question as the primary driver of method choice.",
+     "self_check": true
+    },
+    {
+     "q": "You want to study \"how students in your school experience the shift from offline to online classes during the pandemic.\" Formulate ONE specific research question from this broad topic, and justify why you would choose EITHER interview OR observation (not both) as your primary method, referencing the NCERT's criteria for method selection.",
+     "a": "Specific research question: \"How did the shift to online classes affect the quality of peer interaction and teacher-student rapport for Class 10 students in my school?\"  \nMethod choice: Interview (structured or unstructured).  \nJustification: The question asks about *experiences, feelings, and perceptions* — subjective meanings that observation cannot directly capture (you cannot \"see\" rapport quality). Interviews allow flexibility to probe unexpected themes (e.g., \"I felt isolated but also relieved\"). Practical constraint: As a student-researcher, you have access to peers for interviews but cannot ethically observe private online classes. This matches NCERT's dual criteria: technical fit (interviews access meanings) and practical feasibility (access, time, ethics).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the NCERT's example of researching \"happiness in single-sex vs co-educational schools\" using three methods (interview, observation, survey). Analyse what each method would capture and what it would miss, and explain why the NCERT presents this as an example of \"choice limited by the question.\"",
+     "a": "Interview captures self-reported feelings and reasons (\"I feel happy because...\") but misses behavioural cues and social desirability bias. Observation captures actual behaviours (smiling, participation, grouping) but cannot access internal states — a student may look happy but feel pressured. Survey captures patterns across large numbers but fixes questions beforehand, missing nuances. The NCERT presents this to show that the *same question* can be approached differently, but each method has inherent blind spots. The \"choice is limited\" because if your question is about *internal experience*, observation alone is insufficient; if it's about *behavioural patterns*, interviews alone are insufficient. The question's nature (meanings vs behaviours vs distribution) narrows the viable methods.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Project work in Class 12 sociology is just a simplified version of real research, so its findings have no sociological value.\" Use the NCERT's stated purpose and the distinction between \"real research\" and \"project work\" to support your evaluation.",
+     "a": "The claim is partially true but misses the pedagogical point. NCERT explicitly states: \"A 'real' research project would obviously be more elaborate and involve much more time and effort than is possible in your setting. These are meant as suggestions... to give you a feel for research.\" The value is not in producing generalisable findings but in *learning the research process* — formulating questions, confronting non-response, ethical dilemmas, method limitations. A student who treats the project as \"mini-research\" aiming for publishable results misunderstands the goal: developing *sociological sensibility* (asking researchable questions, matching method to question, reflexivity). The findings may be locally valid but the *competence gained* — navigating the gap between textbook and field — is the core value. Evaluating the project by \"real research\" standards is a category error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a micro-project idea (not from the NCERT list) that a Class 12 student could realistically complete in 3-4 weeks. Specify: (a) the broad topic, (b) a focused research question, (c) the primary method with justification using NCERT's two criteria (technical fit + practical feasibility), and (d) one practical difficulty you anticipate and how you would address it.",
+     "a": "(a) Broad topic: Use of community parks by elderly residents.  \n(b) Research question: \"How do elderly residents (60+) in my neighbourhood park experience accessibility and social interaction in the park's current design?\"  \n(c) Primary method: Observation (non-participant, timed visits at different hours). Technical fit: The question asks about *use patterns and interactions* — observable behaviours. Practical feasibility: Park is public, accessible, no gatekeeper permission needed, low cost, doable in 3 weeks. Interviews would require recruiting elderly strangers (ethical/access barriers); survey would miss behavioural nuances.  \n(d) Anticipated difficulty: Weather/season affecting park use. Mitigation: Schedule observations across similar weather days, note conditions, acknowledge limitation in report.  \nA poor answer would choose a topic requiring institutional access (e.g., hospital patients) or a method mismatched to the question (survey for \"experience of accessibility\").",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Project work in sociology is a pedagogical approach where students ______ investigate a social phenomenon using appropriate research methods to move beyond textbook knowledge and experience the process of generating sociological evidence firsthand.",
+     "a": "systematically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have read about \"gender division of labour in ______\" in your textbook.",
+     "a": "households",
+     "self_check": true
+    },
+    {
+     "q": "What is Project work in sociology? State the definition given in this lesson.",
+     "a": "Project work in sociology is a pedagogical approach where students systematically investigate a social phenomenon using appropriate research methods to move beyond textbook knowledge and experience the process of generating sociological evidence firsthand.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Project work in sociology?",
+     "a": "Students believe project work means \"collecting data\" — they equate research with distributing questionnaires or counting responses.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can articulate why project work is essential in sociology, distinguish between reading about research and doing research, and explain how research questions determine method selection with at least two concrete examples.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

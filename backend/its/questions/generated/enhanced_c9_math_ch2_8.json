@@ -34,6 +34,26 @@
      "q": "Create a real-life word problem (Indian context: rupees, kg, litres) that leads to a pair of linear equations where the substitution method is clearly easier than the elimination method. Write the equations and explain why substitution is preferable.",
      "a": "Example: \"A fruit seller sells apples at ₹x per kg and oranges at ₹y per kg. On Monday, he sells 1 kg of apples and 2 kg of oranges for ₹120. On Tuesday, he sells 3 kg of apples and 5 kg of oranges for ₹290.\" Equations: x + 2y = 120 and 3x + 5y = 290. Substitution is easier because the first equation has x with coefficient 1, so x = 120 - 2y is immediate — no fractions or division needed. A poor answer giving equations like 2x + 3y = 100 and 4x + 5y = 180 (where elimination is easier due to matching x coefficients) reveals the student cannot recognize structural features that make substitution efficient, a key skill for choosing methods strategically in exams.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ method is an algebraic technique for solving a pair of linear equations in two variables by expressing one variable in terms of the other from one equation and substituting this expression into the second equation, reducing the system to a single linear equation in one variable that can be solved directly.",
+     "a": "substitution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you go to a stationery shop and buy 3 pens and 2 ______ for ₹80.",
+     "a": "notebooks",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently solve any pair of linear equations in two variables using the substitution method, including cases where equations are not initially in standard form, and can verify the solution by substituting back into both original equations.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you go to a ______ shop and buy 3 pens and 2 notebooks for ₹80.",
+     "a": "stationery",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_05_006",
+   "title": "c12_app_cbse_05_006",
+   "questions": [
+    {
+     "q": "What is the general solution of the differential equation \\( \\frac{d^2y}{dx^2} = 0 \\)?",
+     "a": "The general solution is \\( y = Cx + D \\), where \\( C \\) and \\( D \\) are arbitrary constants. A wrong answer like \\( y = Cx \\) (missing one constant) reveals the student thinks the number of constants is less than the order (here, order 2 requires 2 constants), likely confusing general solution with a particular solution or forgetting that each integration introduces a new constant.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the function \\( y = e^x + C \\) is not the general solution of \\( \\frac{dy}{dx} = y \\), even though it satisfies the equation for any constant \\( C \\).",
+     "a": "It is not the general solution because it does not satisfy the differential equation for any \\( C \\). Substituting gives \\( \\frac{dy}{dx} = e^x \\) and \\( y = e^x + C \\), so \\( e^x = e^x + C \\) implies \\( C = 0 \\). Only \\( C = 0 \\) works, so it's actually a particular solution. A wrong answer claiming it is general reveals the student confuses \"contains a constant\" with \"satisfies for all values of the constant,\" missing that the constant must work universally in the equation.",
+     "self_check": true
+    },
+    {
+     "q": "Verify if \\( y = A \\cos 2x + B \\sin 2x \\) is the general solution of \\( \\frac{d^2y}{dx^2} + 4y = 0 \\).",
+     "a": "First, compute \\( \\frac{dy}{dx} = -2A \\sin 2x + 2B \\cos 2x \\). Then, \\( \\frac{d^2y}{dx^2} = -4A \\cos 2x - 4B \\sin 2x \\). Substitute into the equation: \\( (-4A \\cos 2x - 4B \\sin 2x) + 4(A \\cos 2x + B \\sin 2x) = -4A\\cos 2x -4B\\sin 2x + 4A\\cos 2x + 4B\\sin 2x = 0 \\). Since it satisfies the equation for all \\( A \\) and \\( B \\), and the order is 2 (requiring 2 constants), it is the general solution. A wrong answer stopping after one derivative or miscounting constants reveals failure to check full satisfaction or link constant count to order.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the differential equation \\( x \\frac{dy}{dx} - y = 0 \\). A student claims \\( y = Cx \\) is the general solution. Another claims \\( y = Cx + D \\) is the general solution. Who is correct and why?",
+     "a": "The first student is correct. For \\( y = Cx \\), \\( \\frac{dy}{dx} = C \\), so LHS = \\( x \\cdot C - Cx = 0 \\), satisfying the equation for any \\( C \\). For \\( y = Cx + D \\), \\( \\frac{dy}{dx} = C \\), so LHS = \\( xC - (Cx + D) = -D \\), which is zero only if \\( D = 0 \\). Thus, \\( y = Cx + D \\) does not satisfy for arbitrary \\( D \\), so it's not a solution unless \\( D=0 \\) (making it particular). The order is 1 (highest derivative is first), so general solution must have exactly 1 arbitrary constant. A wrong answer picking the second student reveals confusion between order and constant count, thinking more constants mean more general, without verifying satisfaction.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The general solution of a differential equation always contains exponential functions.\"",
+     "a": "This statement is false. For example, the general solution of \\( \\frac{d^2y}{dx^2} = 0 \\) is \\( y = Cx + D \\), which contains no exponentials. Another example: \\( \\frac{dy}{dx} = 2 \\) has general solution \\( y = 2x + C \\), a linear function. Exponentials appear only in specific equations like \\( \\frac{dy}{dx} = ky \\). A wrong answer agreeing with the statement reveals overgeneralization from common examples (like growth/decay models) without recognizing that solution form depends entirely on the differential equation's structure.",
+     "self_check": true
+    },
+    {
+     "q": "Create a first-order differential equation whose general solution is \\( y = Cx^3 \\).",
+     "a": "Given \\( y = Cx^3 \\), differentiate: \\( \\frac{dy}{dx} = 3Cx^2 \\). Eliminate \\( C \\) by solving \\( C = \\frac{y}{x^3} \\) from the original, then substitute: \\( \\frac{dy}{dx} = 3 \\left( \\frac{y}{x^3} \\right) x^2 = \\frac{3y}{x} \\). Rearranging gives \\( x \\frac{dy}{dx} - 3y = 0 \\) or \\( \\frac{dy}{dx} = \\frac{3y}{x} \\). A poor answer that stops at \\( \\frac{dy}{dx} = 3Cx^2 \\) or fails to eliminate \\( C \\) reveals misunderstanding that the general solution must be used to *form* the differential equation by removing constants, not just differentiating.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,31 @@
      "q": "Design a dissolution problem where the Realisation Account shows a **loss**, and the cash after paying creditors and partner loans is **insufficient** to cover even one partner's capital fully. Specify all numbers (assets, liabilities, capitals, PSR) so that the final settlement requires applying the loss in PSR before capital distribution. Provide the complete solution.",
      "a": "Example: Assets realised ₹3,00,000. Creditors ₹1,00,000. Partner A Loan ₹50,000. Capitals: A ₹2,00,000, B ₹1,00,000 (PSR 2:1). Realisation Loss = (Book value ₹4,00,000 - Realised ₹3,00,000) = ₹1,00,000 → shared 2:1 (A ₹66,667, B ₹33,333). Adjusted Capitals: A ₹1,33,333, B ₹66,667. Cash after creditors & loan: ₹3,00,000 - ₹1,00,000 - ₹50,000 = ₹1,50,000. Distribute ₹1,50,000 in 2:1 → A ₹1,00,000, B ₹50,000. Final deficiency: A ₹33,333, B ₹16,667. A good answer shows loss adjustment **before** capital distribution; a poor answer distributes cash without adjusting capitals for realisation loss.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Settlement of Accounts in dissolution refers to the systematic process of ______ the cash realised from asset sales to discharge the firm's external liabilities, partner loans, and finally partner capital balances in the strict statutory order prescribed by Section 48 of the Partnership Act, 1932, ensuring no partner receives capital before all outside creditors and partner loans are fully paid.",
+     "a": "distributing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine the firm's assets have been sold, the ______ Account shows a profit of ₹40,000, and the Cash Book has ₹2,50,000.",
+     "a": "Realisation",
+     "self_check": true
+    },
+    {
+     "q": "What is Settlement of Accounts in dissolution? State the definition given in this lesson.",
+     "a": "Settlement of Accounts in dissolution refers to the systematic process of distributing the cash realised from asset sales to discharge the firm's external liabilities, partner loans, and finally partner capital balances in the strict statutory order prescribed by Section 48 of the Partnership Act, 1932, ensuring no partner receives.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Settlement of Accounts in dissolution?",
+     "a": "Misconception: \"Partner's capital should be paid before partner's loan because capital is ownership and loan is debt.\" Why it's wrong: Section 48 explicitly ranks partner loans above partner capitals.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently prepare a complete dissolution settlement sequence: (1) realise assets and record profit/loss on realisation, (2) pay realisation expenses, (3) discharge all external liabilities, (4) repay partner loans, (5) settle partner capital accounts in profit-sharing ratio, and (6) close the Cash/Bank Account to zero —.",
+     "self_check": true
     }
    ]
   }

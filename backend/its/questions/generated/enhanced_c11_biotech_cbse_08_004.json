@@ -34,6 +34,31 @@
      "q": "Design a FISH probe strategy to distinguish between a heterozygous deletion and a heterozygous inversion of the same 2 Mb region on chromosome 17. Specify probe colors, target loci, and expected signal patterns for each abnormality.",
      "a": "Use two differentially colored probes: Probe A (red) inside the 2 Mb region, Probe B (green) flanking outside the region. Normal homolog: red+green signals adjacent. Deletion homolog: only green signal (red lost). Inversion homolog: red and green signals present but reversed order along the chromosome axis. A poor answer that uses only one probe or ignores signal order fails to exploit FISH's spatial resolution, indicating inability to design a diagnostic assay.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Structural chromosomal ______ are permanent alterations in chromosome architecture resulting from breakage and erroneous rejoining of chromosome segments.",
+     "a": "abnormalities",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a geneticist examining a child with ______ delay and a distinctive facial appearance.",
+     "a": "developmental",
+     "self_check": true
+    },
+    {
+     "q": "What is Structural chromosomal abnormalities? State the definition given in this lesson.",
+     "a": "Structural chromosomal abnormalities are permanent alterations in chromosome architecture resulting from breakage and erroneous rejoining of chromosome segments.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Deletion is the loss of a chromosome segment; duplication is the gain of an extra copy of a segment; inversion is the ______° reversal of a segment within the same chromosome, preserving total genetic material but altering gene order and orientation.",
+     "a": "180",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) distinguish deletion, duplication, and inversion by their mechanistic origin, effect on chromosome length, gene dosage, and gene order; (2) predict the phenotypic consequences of each abnormality using gene dosage and position effect principles; (3) identify the abnormality from a schematic or karyotype.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a DNS zone file snippet for \"example.com\" that includes: an A record for www pointing to 192.0.2.10, a CNAME for blog pointing to www, an MX record for mail handled by mail.example.com (priority 10), and an NS record delegating \"sub.example.com\" to ns1.sub.example.com (IP 192.0.2.20). Write the zone file entries in standard BIND format.",
      "a": "```\n$ORIGIN example.com.\n$TTL 3600\n@       IN  SOA ns1.example.com. admin.example.com. 2024010101 7200 3600 1209600 86400\n@       IN  NS  ns1.example.com.\n@       IN  NS  ns2.example.com.\nwww     IN  A   192.0.2.10\nblog    IN  CNAME   www\nmail    IN  A   192.0.2.15\n@       IN  MX  10  mail.example.com.\nsub     IN  NS  ns1.sub.example.com.\nns1.sub IN  A   192.0.2.20\n```\nA poor answer (missing trailing dots on FQDNs, wrong MX target, missing glue record for ns1.sub) reveals the student doesn't understand zone file syntax, relative vs absolute names, or delegation mechanics — all tested in board practicals and CUET.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: DNS (Domain Name System) is a hierarchical, distributed naming system that translates human-readable domain names (e.g., www.example.com) into machine-readable IP addresses (e.g., 192.0.2.1) through a multi-step resolution process involving recursive resolvers, root servers, TLD servers, and ______ name servers.",
+     "a": "authoritative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you type \"www.cbse.gov.in\" in your ______ — how does your computer find the IP address of the CBSE server?",
+     "a": "browser",
+     "self_check": true
+    },
+    {
+     "q": "What is DNS (Domain Name System)? State the definition given in this lesson.",
+     "a": "DNS (Domain Name System) is a hierarchical, distributed naming system that translates human-readable domain names (e.g., www.example.com) into machine-readable IP addresses (e.g., 192.0.2.1) through a multi-step resolution process involving recursive resolvers, root servers, TLD servers, and authoritative name servers.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about DNS (Domain Name System)?",
+     "a": "Students believe the root server returns the IP address of the final domain (e.g., \"root knows www.google.com's IP\").",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to trace the complete DNS resolution path for any given domain name, identifying each server type contacted and the record types exchanged, and explain how caching at each level reduces latency and load on authoritative servers.",
+     "self_check": true
     }
    ]
   }

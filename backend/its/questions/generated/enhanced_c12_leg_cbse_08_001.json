@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_08_001",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_08_001",
+   "title": "c12_leg_cbse_08_001",
+   "questions": [
+    {
+     "q": "What is the minimum number of members required to form a private limited company and a public limited company under the Companies Act, 2013?",
+     "a": "Private limited company: minimum 2 members. Public limited company: minimum 7 members. A wrong answer (e.g., \"1 for private, 5 for public\") reveals confusion with OPC (which allows 1 member) or outdated limits under the 1956 Act — students often mix up current and previous statutory thresholds.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a sole proprietorship does not have \"perpetual succession\" while a private limited company does, using the concept of separate legal entity.",
+     "a": "A sole proprietorship has no separate legal existence from its owner — the business and owner are one in the eyes of law. Therefore, the owner's death, insanity, or bankruptcy directly terminates the business. A private limited company is a separate legal entity distinct from its shareholders; its existence is not affected by changes in membership. A wrong answer that says \"sole proprietorship can continue through a will\" confuses succession of assets with continuity of the business entity — the firm itself ceases, only assets may be transferred.",
+     "self_check": true
+    },
+    {
+     "q": "A group of 15 freelance graphic designers want to collaborate on large projects, share profits equally, but avoid joint liability for each other's negligence. They also want to admit new partners easily. Which entity form is most suitable and why?",
+     "a": "Limited Liability Partnership (LLP) is most suitable. Reasons: (1) Partners' liability is limited to their agreed contribution — no joint and several liability for unauthorized acts of other partners (unlike traditional partnership). (2) No maximum limit on number of partners (partnership caps at 50). (3) Easy admission/retirement of partners per LLP agreement without dissolving the firm. (4) Lower compliance cost than a company. A wrong answer suggesting \"private limited company\" ignores the higher compliance burden and rigidity in profit-sharing (fixed shareholding vs. flexible LLP agreement) — students often default to \"company\" for any scaling scenario without evaluating trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the liability of partners in a traditional partnership firm versus partners in an LLP when Partner A commits fraud in the course of business without Partner B's knowledge. Analyze the legal consequence for Partner B in both structures.",
+     "a": "In a traditional partnership, Partner B is jointly and severally liable for the fraud — the firm and all partners are liable for acts done in the course of business (Section 25, Partnership Act, 1932). In an LLP, Partner B is NOT liable for Partner A's unauthorized fraudulent acts — liability is limited to agreed contribution, and no partner is liable for independent/unauthorized actions of others (Section 27, LLP Act, 2008). A wrong answer claiming \"Partner B is safe in both\" misses the core distinction: traditional partnership imposes vicarious liability; LLP explicitly shields innocent partners. This tests whether the student grasps the doctrinal shift from collective to compartmentalized liability.",
+     "self_check": true
+    },
+    {
+     "q": "\"An OPC is just a sole proprietorship with a fancy name and limited liability.\" Evaluate this statement with reference to legal status, compliance, and continuity.",
+     "a": "The statement is false. Key differences: (1) Legal status: OPC is a separate legal entity (can sue/be sued in its own name); sole proprietorship has no separate existence. (2) Compliance: OPC must file annual returns, hold board meetings, maintain statutory registers — sole proprietorship has almost zero formal compliance. (3) Continuity: OPC has perpetual succession via nominee director; sole proprietorship ends on owner's death/incapacity. (4) Fundraising: OPC can raise equity from angels/VCs; sole proprietorship cannot. A weak evaluation that only mentions \"limited liability\" shows superficial understanding — students must articulate structural, procedural, and strategic distinctions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a decision flowchart (text-based) that a first-time entrepreneur in India can use to select the appropriate legal entity. Include at least 5 decision nodes with yes/no branches covering: number of founders, liability preference, fundraising plans, compliance tolerance, and profit-sharing flexibility.",
+     "a": "Sample flowchart logic:\n1. Only 1 founder? → Yes → OPC (if wants limited liability) or Sole Proprietorship (if low risk, low compliance). No → Go to 2.\n2. Want limited liability for all? → No → Partnership (if ≤50 partners, ok with joint liability). Yes → Go to 3.\n3. Plan to raise equity from investors (angels/VCs) in 2-3 years? → Yes → Private Limited Company. No → Go to 4.\n4. Need flexible profit-sharing not tied to capital ratio? → Yes → LLP. No → Go to 5.\n5. Willing to bear high compliance (board meetings, ROC filings, audit)? → Yes → Private Limited Company. No → LLP.\nA poor answer produces a linear list without branching logic or omits critical nodes like \"fundraising plans\" — revealing inability to synthesize multi-factor decision-making.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

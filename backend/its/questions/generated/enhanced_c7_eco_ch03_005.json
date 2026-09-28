@@ -34,6 +34,21 @@
      "q": "Design a simple local energy expansion plan for a rural district in India that currently experiences frequent power cuts, specifying whether you would prioritize a local solar micro-grid or a long-distance gas pipeline, and justify your choice economically.\nA good answer will propose a solar micro-grid, noting that abundant local sunlight eliminates long transport distances, provides immediate decentralized power to farmers and small shops, and bypasses expensive pipeline construction across difficult terrain. A poor answer simply states \"build everything\" without considering cost, local resources, or economic feasibility.",
      "a": "The criteria for a strong answer include: 1) Identifying the primary local resource (sunlight/wind vs gas), 2) Weighing the capital cost against reliability, and 3) Explaining the economic benefit to local micro-enterprises and agriculture. A poor answer lacks economic reasoning and treats infrastructure as free magic rather than budgeted capital investment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Energy ______ comprises the large-scale networks, facilities, and physical assets—such as windmills, solar parks, and oil or gas pipelines—that produce, transport, and distribute power to fuel economic activities across the nation.",
+     "a": "infrastructure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine walking into your kitchen on a hot summer afternoon and turning on the ceiling fan—that electricity travels hundreds of kilometers from a massive solar park in Rajasthan or a wind farm in Tamil Nadu through ______ lines.",
+     "a": "transmission",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Students can differentiate between renewable energy sources (wind, solar) and transmission infrastructure (pipelines, grids), calculate simple energy output or capacity metrics, and explain how investments in energy infrastructure lower production costs for factories and farms.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a convex lens, a ruler, and a printed text to determine the focal length of the lens by using it as a simple microscope and measuring the magnifying power when the image is at the near point.",
      "a": "Place the lens close to the text and adjust the lens-to-text distance until the virtual image appears sharply at the near point (25 cm from the eye). Measure the object distance u. Use the lens formula 1/v - 1/u = 1/f with v = -25 cm (assuming eye at lens) to compute f. Alternatively, measure the apparent size of a known letter (e.g., 2 mm) when viewed through the lens at near point, compute linear magnification m_lin = apparent size / actual size, then use m_lin = 1 + D/f to find f. A good answer includes the setup, measurements, and calculation. A poor answer just says \"measure f directly with a distant object\" which doesn't use the microscope principle.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A simple ______ (magnifying glass) is a single converging lens of short focal length used to produce an erect, magnified, virtual image of an object placed within its focal length.",
+     "a": "microscope",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ using a magnifying glass to inspect a tiny gear — the lens is held close to the object and the eye is close to the lens.",
+     "a": "watchmaker",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Its magnifying power is defined as the ratio of the angle subtended by the image at the eye (when viewed through the lens) to the angle subtended by the object at the near point (______ cm) when viewed without the lens.",
+     "a": "25",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can derive both magnifying power formulas (image at near point and image at infinity) from the thin lens formula, draw accurate ray diagrams for both cases, calculate the required focal length for a desired magnification, and explain why the image-at-infinity setting is preferred for relaxed viewing despite lower magnification.",
+     "self_check": true
     }
    ]
   }

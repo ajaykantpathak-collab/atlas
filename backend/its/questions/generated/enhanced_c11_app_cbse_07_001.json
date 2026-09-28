@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_07_001",
+   "title": "c11_app_cbse_07_001",
+   "questions": [
+    {
+     "q": "Which of the following is a mathematically acceptable statement?  \n(a) \"Please close the door.\"  \n(b) \"The square root of 16 is 4.\"  \n(c) \"What time is the exam?\"  \n(d) \"y > 7\"",
+     "a": "(b) \"The square root of 16 is 4.\" is the only mathematically acceptable statement because it is a declarative sentence that is definitively true.  \n(a) is a command (imperative), (c) is a question (interrogative), and (d) is an open sentence whose truth depends on the unspecified value of y. A wrong answer reveals the student cannot distinguish declarative sentences with fixed truth values from other sentence types or open sentences.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The sentence 'x² - 5x + 6 = 0' is a statement because it is either true or false for any given x.\" Explain why this reasoning is incorrect using the precise definition of a mathematical statement.",
+     "a": "The sentence 'x² - 5x + 6 = 0' is an **open sentence**, not a statement, because it contains a free variable x whose value is not specified. A mathematical statement must have a **definite truth value (true or false) without requiring any additional assignment or context**. The student's error is confusing \"it becomes true or false once x is given\" with \"it *is* true or false right now.\" This misconception arises from treating predicates as statements.",
+     "self_check": true
+    },
+    {
+     "q": "Write the negation of the statement: \"Every rectangle is a square.\" Your answer must be a grammatically correct sentence that is logically equivalent to the negation.",
+     "a": "\"There exists at least one rectangle that is not a square.\"  \nSteps: (1) Identify the universal quantifier \"Every\" → negation requires existential quantifier \"There exists at least one\". (2) Negate the predicate \"is a square\" → \"is not a square\". (3) Combine: \"There exists at least one rectangle that is not a square.\"  \nA wrong answer like \"No rectangle is a square\" or \"Some rectangles are squares\" reveals confusion between negation, converse, and contrary statements, and misunderstanding of quantifier negation rules.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the sentence: \"If it rains tomorrow, then the match will be cancelled.\" Is this a mathematical statement? Justify your answer by analyzing its structure and truth conditions.",
+     "a": "Yes, it **is** a mathematical statement (specifically, a conditional/compound statement). It is a declarative sentence asserting a logical relationship between two component propositions: p = \"it rains tomorrow\", q = \"the match will be cancelled\". The sentence \"If p then q\" has a definite truth value (true or false) based on the truth values of p and q, even though p and q refer to future events. The key is that the *implication itself* is a complete assertion with a well-defined truth condition (false only when p is true and q is false). A \"no\" answer reveals the student thinks statements must be about past/present facts only, or confuses simple statements with compound ones.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The negation of 'All integers are rational numbers' is 'All integers are irrational numbers'.\" Is the claim correct? Defend your position with logical reasoning.",
+     "a": "The claim is **incorrect**.  \nOriginal: ∀x (x ∈ ℤ → x ∈ ℚ) — \"For every integer x, x is rational.\"  \nCorrect negation: ∃x (x ∈ ℤ ∧ x ∉ ℚ) — \"There exists an integer that is not rational.\"  \nThe student's version \"All integers are irrational\" means ∀x (x ∈ ℤ → x ∉ ℚ), which is the **contrary**, not the negation. The negation only requires *one* counterexample; the contrary says *none* are rational. This error reveals a fundamental confusion between logical negation (contradictory) and contrary opposition, and mishandling of universal quantifier negation.",
+     "self_check": true
+    },
+    {
+     "q": "Create an original example of a sentence that *looks* like a statement but is NOT a mathematical statement, and explain exactly which criterion it fails. Your example must not be a question, command, or exclamation.",
+     "a": "Example: \"This sentence is false.\"  \nExplanation: This is a **self-referential paradox (liar paradox)**. It fails the criterion that a statement must be **either true or false, but not both**. If it's true, then it's false; if it's false, then it's true. It has no stable truth value.  \nA poor answer (e.g., \"x + 2 = 5\") only shows awareness of open sentences but misses the deeper boundary: even grammatically declarative sentences can fail to be statements if they lead to logical inconsistency. This tests whether the student understands the *semantic* requirement, not just syntactic form.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

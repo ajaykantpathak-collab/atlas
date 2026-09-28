@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using two battery-operated toy cars on a long table to demonstrate relative velocity. Specify: (a) what to measure, (b) how to calculate relative velocity, (c) how to verify the formula v_AB = v_A – v_B.",
      "a": "**Expected answer:**  \n(a) Measure each car's speed separately using stopwatch and metre scale (v_A, v_B). Then run both simultaneously in same direction and measure time for A to catch B from known initial separation.  \n(b) Relative speed = separation / catch-up time.  \n(c) Compare measured relative speed with v_A – v_B. Repeat for opposite directions (v_A + v_B).  \n**Poor answer reveals:** If student only measures catch-up time without independent v_A, v_B, they cannot verify the formula. If they use same-direction only, they miss the sign convention. A good answer includes vector nature, multiple trials, and error analysis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Relative velocity is the vector velocity of an object A as measured from the reference frame of another moving object B, ______ defined as v_AB = v_A – v_B where v_A and v_B are the velocities of A and B relative to a common stationary frame (ground).",
+     "a": "mathematically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are sitting in a train moving at 60 km/h and another train on the adjacent track passes you in the same ______ at 80 km/h.",
+     "a": "direction",
+     "self_check": true
+    },
+    {
+     "q": "What is Relative velocity? State the definition given in this lesson.",
+     "a": "Relative velocity is the vector velocity of an object A as measured from the reference frame of another moving object B, mathematically defined as v_AB = v_A – v_B where v_A and v_B are the velocities of A and B relative to a common stationary frame (ground).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You see the other train moving forward at only ______ km/h — that is relative velocity.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Relative velocity?",
+     "a": "Students treat relative velocity as relative speed (scalar subtraction of magnitudes) and ignore vector direction.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) calculate relative velocity in one and two dimensions using vector subtraction for any combination of directions; (2) interpret and sketch position-time graphs for two moving objects from the ground frame and from a moving frame; (3) solve board-level problems involving overtaking, crossing, and minimum separation by.",
+     "self_check": true
     }
    ]
   }

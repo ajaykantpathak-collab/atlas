@@ -1,0 +1,119 @@
+{
+ "catalog": "catalog_class11_physics_keph204.json",
+ "concepts": [
+  {
+   "id": "keph204.11.5.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "heat_added = 58",
+      "work_by = 1514",
+      "delta_u = heat_added - work_by"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "heat_added = 118",
+      "work_by = 4845",
+      "delta_u = heat_added - work_by"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "heat_added = 96",
+      "work_by = 9619",
+      "delta_u = heat_added - work_by"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "heat_added = 73",
+      "work_by = 4173",
+      "delta_u = heat_added - work_by"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "heat_added = 93",
+      "work_by = 1483",
+      "delta_u = heat_added - work_by"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "heat_added = 41",
+      "work_by = 7720",
+      "delta_u = heat_added - work_by"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "delta_u = heat_added - work_by"
+   ]
+  },
+  {
+   "id": "keph204.11.11.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "cold_temp = 3.5",
+      "hot_temp = 79",
+      "carnot_eff = 1 - cold_temp / hot_temp"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "cold_temp = 77",
+      "hot_temp = 29",
+      "carnot_eff = 1 - cold_temp / hot_temp"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "cold_temp = 63",
+      "hot_temp = 88",
+      "carnot_eff = 1 - cold_temp / hot_temp"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "cold_temp = 42",
+      "hot_temp = 91",
+      "carnot_eff = 1 - cold_temp / hot_temp"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "cold_temp = 70",
+      "hot_temp = 76",
+      "carnot_eff = 1 - cold_temp / hot_temp"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "cold_temp = 118",
+      "hot_temp = 117",
+      "carnot_eff = 1 - cold_temp / hot_temp"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "carnot_eff = 1 - cold_temp / hot_temp"
+   ]
+  }
+ ]
+}

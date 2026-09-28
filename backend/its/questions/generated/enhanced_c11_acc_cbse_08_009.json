@@ -34,6 +34,26 @@
      "q": "Create a scenario where a business has no opening stock, purchases of ₹5,00,000, direct expenses of ₹50,000, and sales of ₹7,00,000. The closing stock is valued at ₹1,20,000. Prepare the Trading Account and show the Balance Sheet extract for closing stock. Then, explain what happens to this closing stock in the next accounting period.",
      "a": "Trading Account: Dr. side – Purchases ₹5,00,000, Direct Expenses ₹50,000; Cr. side – Sales ₹7,00,000, Closing Stock ₹1,20,000. Gross Profit = ₹2,70,000. Balance Sheet: Current Assets – Closing Stock ₹1,20,000. Next period: This ₹1,20,000 becomes Opening Stock (debited to Trading Account). A poor answer (e.g., missing the dual effect, not showing it as current asset, or not explaining the opening stock transition) reveals the student sees closing stock as a one-time adjustment rather than a continuous flow in the accounting cycle.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Closing stock ______ the value of unsold goods remaining with the business at the end of an accounting period.",
+     "a": "represents",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: At year-end, you count the unsold notebooks and pens on your shelves – that's your ______ stock.",
+     "a": "closing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) pass the correct adjustment journal entry for closing stock, (2) show its treatment in the Trading Account (credit side) and Balance Sheet (current asset), and (3) compute Cost of Goods Sold using the formula: Opening Stock + Purchases + Direct Expenses – Closing Stock, given a set of balances with or.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: At year-end, you count the unsold ______ and pens on your shelves – that's your closing stock.",
+     "a": "notebooks",
+     "self_check": true
     }
    ]
   }

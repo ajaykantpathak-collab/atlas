@@ -34,6 +34,21 @@
      "q": "CREATE: Write a literal comprehension question and an inferential comprehension question based on the paragraph discussing Emily Bronte, Sterne, and Proust's treatment of time. Provide the answer key for both.",
      "a": "Literal Q: \"What three novelists does Forster mention as experimenting with time in their novels?\" Answer: Emily Bronte (Wuthering Heights), Sterne (Tristram Shandy), Marcel Proust. Inferential Q: \"What does Forster imply about the relationship between an author's dislike of the clock and the novel's structural necessity of time?\" Answer: Authors may dislike or manipulate the clock (hide it, turn it upside down, alter its hands), but none can eliminate it—time sequence remains the inescapable basis of the novel. A poor created question pair (e.g., both literal or both inferential, or inferential question answerable without the text) reveals the student hasn't internalized the classification criteria.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal ______ questions require answers directly stated in the text using the author's exact words or close paraphrase.",
+     "a": "comprehension",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're in the board exam and see a question: \"According to Forster, why does Scheherazade survive?\" Your heart races—is this asking for a direct quote or your ______?",
+     "a": "interpretation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently classify any comprehension question as literal or inferential, locate exact textual evidence for literal answers within 30 seconds, and construct a 4-step PEEL structured response for inferential questions using at least two pieces of textual evidence with explanatory reasoning.",
+     "self_check": true
     }
    ]
   }

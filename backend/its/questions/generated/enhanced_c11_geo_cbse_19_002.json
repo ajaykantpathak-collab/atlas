@@ -34,6 +34,26 @@
      "q": "Design a schematic map annotation for a Class 11 board answer showing the \"Iron-Manganese-Bauxite Triangle\" of Central India. Include three geological labels, two transport corridors, and one industrial centre that uses all three minerals.",
      "a": "A good annotation would: (1) Outline the triangle vertices – Balaghat (Mn), Bailadila (Fe), Koraput (Bauxite); (2) Label host rocks – Gondite, BIF, Laterite; (3) Show transport – Nagpur-Rourkela rail line, NH-53; (4) Mark Bhilai Steel Plant (uses haematite, manganese for ferro-manganese, and bauxite for refractory bricks). A poor answer merely plots mines without geological or infrastructural context, indicating rote memorisation of locations without understanding the mineral-industry linkage.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Iron ore (primarily haematite Fe₂O₃ and magnetite Fe₃O₄), manganese (Mn), and bauxite (Al₂O₃·2H₂O) are ferrous and non-ferrous metallic minerals ______ in the Peninsular Shield of India, with haematite dominating the Dharwar and Cuddapah systems of Odisha-Jharkhand, magnetite in Karnataka-Tamil Nadu, manganese in the Gondite and Kodurite series of Madhya Pradesh-Maharashtra-Odisha, and bauxite in laterite cappings over Deccan Traps and Eastern Ghats of Odisha-Gujarat-Jharkhand.",
+     "a": "concentrated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a railway freight train loaded with reddish ore passing through your region – that colour signals ______ from Odisha or Jharkhand.",
+     "a": "haematite",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Iron ore (primarily haematite Fe₂O₃ and magnetite Fe₃O₄), manganese (Mn), and bauxite (Al₂O₃·______H₂O) are ferrous and non-ferrous metallic minerals concentrated in the Peninsular Shield of India, with haematite dominating the Dharwar and Cuddapah systems of Odisha-Jharkhand, magnetite in Karnataka-Tamil Nadu, manganese in the Gondite and Kodurite series of Madhya Pradesh-Maharashtra-Odisha, and bauxite in laterite cappings over Deccan Traps and Eastern Ghats of Odisha-Gujarat-Jharkhand.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can locate the three major belts (Odisha-Jharkhand, Durg-Bastar-Chandrapur, Bellary-Chitradurga) on an outline map of India, explain the geological reason for haematite vs magnetite separation, and correlate manganese/bauxite distribution with specific rock formations and industrial corridors.",
+     "self_check": true
     }
    ]
   }

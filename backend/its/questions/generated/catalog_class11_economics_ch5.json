@@ -1,6 +1,53 @@
 {
- "catalog": "catalog_class11_economics_ch5",
+ "catalog": "catalog_class11_economics_ch5.json",
  "concepts": [
+  {
+   "id": "c11eco.5.7",
+   "title": "Consumer Equilibrium - Indifference Curve Approach",
+   "converted_to_compute": true,
+   "formula": "MRS_xy = P_x / P_y",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "MRS_xy = P_x / P_y",
+     "compute": "MRS_xy = P_x / P_y"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Consumer Equilibrium - Indifference Curve Approach: given P_x = 19.4, P_y = 49, find MRS xy.",
+     "a": "0.395918",
+     "self_check": false
+    },
+    {
+     "q": "For Consumer Equilibrium - Indifference Curve Approach: given P_x = 53, P_y = 36, find MRS xy.",
+     "a": "1.47222",
+     "self_check": false
+    },
+    {
+     "q": "For Consumer Equilibrium - Indifference Curve Approach: given P_x = 24, P_y = 60, find MRS xy.",
+     "a": "0.4",
+     "self_check": false
+    },
+    {
+     "q": "For Consumer Equilibrium - Indifference Curve Approach: given P_x = 70, P_y = 54, find MRS xy.",
+     "a": "1.2963",
+     "self_check": false
+    },
+    {
+     "q": "For Consumer Equilibrium - Indifference Curve Approach: given P_x = 57, P_y = 66, find MRS xy.",
+     "a": "0.863636",
+     "self_check": false
+    },
+    {
+     "q": "For Consumer Equilibrium - Indifference Curve Approach: given P_x = 33, P_y = 36, find MRS xy.",
+     "a": "0.916667",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "c11eco.5.2",
    "title": "Law of Diminishing Marginal Utility",
@@ -122,37 +169,6 @@
     {
      "q": "Write the standard relation used for 'Budget Line and Budget Set', in plain ASCII form.",
      "a": "P_x * X + P_y * Y = M",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "c11eco.5.7",
-   "title": "Consumer Equilibrium - Indifference Curve Approach",
-   "questions": [
-    {
-     "q": "Find consumer equilibrium using indifference curve and budget line. Use the method 'Consumer Equilibrium - Indifference Curve Approach'. Work with: mu_x = 400, mu_y = 20, p_x = 25, p_y = 150. Carry the chain through step by step and give the final value of the result.",
-     "a": "0.1667 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Determine equilibrium combination of two goods. Use the method 'Consumer Equilibrium - Indifference Curve Approach'. Work with: mu_x = 500, mu_y = 40, p_x = 45, p_y = 18. Carry the chain through step by step and give the final value of the result.",
-     "a": "2.5 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Consumer Equilibrium - Indifference Curve Approach' refers to.",
-     "a": "A consumer is in equilibrium at the point where the budget line is tangent to the highest attainable indifference curve. At this point, MRS equals the price ratio.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Consumer Equilibrium - Indifference Curve Approach'.",
-     "a": "Equilibrium is where the slope of the indifference curve equals the slope of the budget line and income is fully spent.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Consumer Equilibrium - Indifference Curve Approach', in plain ASCII form.",
-     "a": "MRS_xy = P_x / P_y, subject to P_x*X + P_y*Y = M",
      "self_check": true
     }
    ]

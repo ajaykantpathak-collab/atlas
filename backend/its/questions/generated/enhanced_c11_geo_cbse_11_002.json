@@ -34,6 +34,31 @@
      "q": "Design a seismic risk awareness poster for a school in Delhi (Zone IV) that explains: (a) Why Delhi is in Zone IV despite no major historical earthquake, (b) Two geological features increasing its vulnerability, and (c) One preparedness action specific to its alluvial setting.",
      "a": "Good answer includes: (a) Delhi lies on the Delhi-Haridwar Ridge (Aravalli-Delhi fold belt) with active faults (Mahendragarh-Dehradun Fault, Sohna Fault) and is <300 km from Himalayan thrusts — strain accumulates on hidden faults; (b) Thick alluvium (>200 m) amplifies shaking; Yamuna floodplain liquefaction risk; (c) \"Drop, Cover, Hold On\" + identify safe spots away from windows/heavy furniture + family emergency plan with meeting point. Poor answer focuses only on \"buildings collapse\" or \"stay calm\" without geological justification — shows lack of site-specific hazard understanding.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An earthquake is a sudden release of ______ strain energy in the Earth's crust that generates seismic waves, caused primarily by tectonic plate movements along faults, volcanic activity, or human-induced factors.",
+     "a": "accumulated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking students to recall the 2001 Bhuj earthquake (______) or 2015 Nepal earthquake — events many may remember from news or family accounts.",
+     "a": "Gujarat",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In India, seismic zones are classified into four zones (II, III, IV, V) by the Bureau of Indian Standards (IS ______) based on historical seismicity, geological structure, and maximum expected intensity on the Modified Mercalli Scale, with Zone V being the most seismically active covering the Himalayan frontier, Northeast India, Kutch, and Andaman & Nicobar Islands.",
+     "a": "1893",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the mechanism of earthquake generation at different plate boundaries, interpret the seismic zone map of India to identify high-risk regions, and correlate seismic zonation with geological structures (faults, thrusts, suture zones) and historical earthquake data to justify zonation boundaries.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking students to recall the 2001 Bhuj earthquake (Gujarat) or 2015 Nepal earthquake — events many may ______ from news or family accounts.",
+     "a": "remember",
+     "self_check": true
     }
    ]
   }

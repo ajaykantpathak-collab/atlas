@@ -26,13 +26,33 @@
      "self_check": true
     },
     {
-     "q": "The NCERT text quotes Marx: \"The factory was oppressive. Yet potentially liberating. Here workers learnt both collective functioning as well as concerted efforts for better conditions.\" Evaluate this dialectical claim by identifying (a) the specific material conditions in factories that were oppressive, and (b) the specific conditions that created the *potential* for collective liberation. Then judge whether this duality still applies to modern Indian call centres or gig-economy work.",
-     "a": "(a) Oppressive conditions: mechanical division of labour destroying craft autonomy; degradation of skilled work; regimentation comparable to \"barracks and prisons\"; loss of control over pace, timing, and method of work; concentration of workers in slums with bad sanitation. (b) Liberatory potential: concentration of workers in shared space/time enabling communication; common experience of exploitation creating class consciousness; collective bargaining becoming possible; shared grievances against a visible employer. (c) Application to modern India: Call centres *replicate* temporal discipline (strict shifts, monitoring software, \"time is money\") and spatial concentration, but *differ* in isolating workers via individual cubicles/headsets, fragmenting collective identity through performance metrics, and outsourcing weakening employer visibility. Gig work *intensifies* oppression (algorithmic control, no fixed workplace) while *eliminating* the spatial concentration that enabled collective action. Marx's dialectic holds partially: new forms of digital assembly (WhatsApp groups, platform unions) are emerging as functional equivalents of the factory floor. A superficial answer listing \"stress\" or \"low pay\" without analyzing the *structural conditions for collective agency* fails the evaluation task.",
+     "q": "Trace the correct sequence of links by which the oppressive factory simultaneously bred workers' collective strength.",
+     "a": "The dialectic runs: (1) The factory concentrates workers under one roof and one clock (2) Mechanical routine and regimented labour destroy craft autonomy and degrade skill (3) Shared exploitation gives workers common grievances to discuss (4) Concentration enables communication, collective functioning and concerted efforts for better conditions. A wrong answer that sees only oppression or only liberation shows the student has missed the dialectical claim Marx made about factory life.",
      "self_check": true
     },
     {
      "q": "Design a comparative table with three columns (Enlightenment, Industrial Revolution, French Revolution) and four rows (Core Idea, Key Social Change, Sociological Problem Created, Early Sociologist Who Addressed It). Fill it using only concepts from the NCERT text and your Class 10 history knowledge. Then write a 2-sentence synthesis explaining why all three revolutions were *necessary* — not just sufficient — for sociology's emergence.",
      "a": "**Comparative Table:**\n\n| Dimension | Enlightenment | Industrial Revolution | French Revolution |\n|-----------|---------------|----------------------|-------------------|\n| Core Idea | Reason, individualism, scientific method for human affairs | Capitalism, factory system, market-mediated labour | Liberty, equality, fraternity; popular sovereignty |\n| Key Social Change | Poverty redefined as social problem; social surveys invented | Urbanization, proletarianization, clock-time discipline, slums | Feudal hierarchy dismantled; citizenship rights declared |\n| Sociological Problem Created | How to study society scientifically? | What holds society together when traditional bonds break? | How to reconcile individual rights with social order? |\n| Early Sociologist | Auguste Comte (positivism, social physics) | Karl Marx (class conflict, alienation), Herbert Spencer (organic analogy) | Alexis de Tocqueville (democracy, equality), Durkheim later (anomie) |\n\n**Synthesis:** The Enlightenment provided the *epistemological tool* (reason, science), the Industrial Revolution provided the *empirical object* (new social pathologies), and the French Revolution provided the *normative horizon* (society as a humanly constructible project). Without all three, sociology would lack either its method, its subject matter, or its critical purpose — making the trio jointly necessary for the discipline's birth.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Enlightenment (late 17th–18th century European intellectual movement emphasizing reason, individualism, and scientific method), the Industrial Revolution (late 18th–19th century shift to factory-based capitalist production), and the French Revolution (1789 political upheaval establishing liberty, equality, fraternity) collectively created the intellectual and material conditions that necessitated sociology as a systematic study of modern society's dramatic ______.",
+     "a": "transformations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a student in 1820 Manchester, watching children your age work 14-hour shifts in cotton mills while the ______ owner's children attend private tutors.",
+     "a": "factory",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how each of the three revolutions (Enlightenment, Industrial, French) contributed specific intellectual concepts and material conditions that made sociology necessary, and can trace how these European origins shaped sociology's early concerns (urbanization, class conflict, social order, progress) which remain.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a student in 1820 ______, watching children your age work 14-hour shifts in cotton mills while the factory owner's children attend private tutors.",
+     "a": "Manchester",
      "self_check": true
     }
    ]

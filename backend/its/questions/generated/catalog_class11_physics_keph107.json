@@ -1,0 +1,193 @@
+{
+ "catalog": "catalog_class11_physics_keph107.json",
+ "concepts": [
+  {
+   "id": "keph107.7.3.1",
+   "title": "Newton's Universal Law of Gravitation",
+   "converted_to_compute": true,
+   "formula": "f_grav = big_g * mass_1 * mass_2 / separation_sq",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "f_grav = big_g * mass_1 * mass_2 / separation_sq",
+     "compute": "f_grav = big_g * mass_1 * mass_2 / separation_sq"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Newton's Universal Law of Gravitation: given big_g = 83, mass_1 = 42, mass_2 = 96, separation_sq = 7.8, find f grav.",
+     "a": "42904.6",
+     "self_check": false
+    },
+    {
+     "q": "For Newton's Universal Law of Gravitation: given big_g = 37, mass_1 = 24, mass_2 = 174, separation_sq = 17.3, find f grav.",
+     "a": "8931.33",
+     "self_check": false
+    },
+    {
+     "q": "For Newton's Universal Law of Gravitation: given big_g = 23, mass_1 = 175, mass_2 = 104, separation_sq = 16.7, find f grav.",
+     "a": "25065.9",
+     "self_check": false
+    },
+    {
+     "q": "For Newton's Universal Law of Gravitation: given big_g = 71, mass_1 = 40, mass_2 = 128, separation_sq = 18, find f grav.",
+     "a": "20195.6",
+     "self_check": false
+    },
+    {
+     "q": "For Newton's Universal Law of Gravitation: given big_g = 58, mass_1 = 106, mass_2 = 189, separation_sq = 5.4, find f grav.",
+     "a": "215180",
+     "self_check": false
+    },
+    {
+     "q": "For Newton's Universal Law of Gravitation: given big_g = 90, mass_1 = 2.3, mass_2 = 57, separation_sq = 7.1, find f grav.",
+     "a": "1661.83",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph107.7.5.1",
+   "title": "Acceleration Due to Gravity and Its Variation",
+   "converted_to_compute": true,
+   "formula": "g_height = g_surface * (1 - 2 * altitude / planet_radius)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "g_height = g_surface * (1 - 2 * altitude / planet_radius)",
+     "compute": "g_height = g_surface * (1 - 2 * altitude / planet_radius)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Acceleration Due to Gravity and Its Variation: given g_surface = 7.8, altitude = 82, planet_radius = 14.9, find g height.",
+     "a": "-78.0523",
+     "self_check": false
+    },
+    {
+     "q": "For Acceleration Due to Gravity and Its Variation: given g_surface = 47, altitude = 8.8, planet_radius = 76, find g height.",
+     "a": "36.1158",
+     "self_check": false
+    },
+    {
+     "q": "For Acceleration Due to Gravity and Its Variation: given g_surface = 81, altitude = 52, planet_radius = 40, find g height.",
+     "a": "-129.6",
+     "self_check": false
+    },
+    {
+     "q": "For Acceleration Due to Gravity and Its Variation: given g_surface = 3.3, altitude = 47, planet_radius = 53, find g height.",
+     "a": "-2.55283",
+     "self_check": false
+    },
+    {
+     "q": "For Acceleration Due to Gravity and Its Variation: given g_surface = 28, altitude = 52, planet_radius = 65, find g height.",
+     "a": "-16.8",
+     "self_check": false
+    },
+    {
+     "q": "For Acceleration Due to Gravity and Its Variation: given g_surface = 12.5, altitude = 34, planet_radius = 52, find g height.",
+     "a": "-3.84615",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph107.7.8.1",
+   "title": "Escape Speed from a Planet",
+   "converted_to_compute": true,
+   "formula": "v_escape = sqrt(2 * gravity * planet_radius)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "v_escape = sqrt(2 * gravity * planet_radius)",
+     "compute": "v_escape = sqrt(2 * gravity * planet_radius)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Escape Speed from a Planet: given gravity = 57, planet_radius = 34, find v escape.",
+     "a": "62.2575",
+     "self_check": false
+    },
+    {
+     "q": "For Escape Speed from a Planet: given gravity = 25, planet_radius = 94, find v escape.",
+     "a": "68.5565",
+     "self_check": false
+    },
+    {
+     "q": "For Escape Speed from a Planet: given gravity = 44, planet_radius = 30, find v escape.",
+     "a": "51.3809",
+     "self_check": false
+    },
+    {
+     "q": "For Escape Speed from a Planet: given gravity = 21, planet_radius = 57, find v escape.",
+     "a": "48.9285",
+     "self_check": false
+    },
+    {
+     "q": "For Escape Speed from a Planet: given gravity = 4.9, planet_radius = 94, find v escape.",
+     "a": "30.3513",
+     "self_check": false
+    },
+    {
+     "q": "For Escape Speed from a Planet: given gravity = 60, planet_radius = 28, find v escape.",
+     "a": "57.9655",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph107.7.9.1",
+   "title": "Earth Satellites: Orbital Speed, Period and Weightlessness",
+   "converted_to_compute": true,
+   "formula": "v_orbit = sqrt(orbital_gm / orbit_radius)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "v_orbit = sqrt(orbital_gm / orbit_radius)",
+     "compute": "v_orbit = sqrt(orbital_gm / orbit_radius)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Earth Satellites: Orbital Speed, Period and Weightlessness: given orbital_gm = 67, orbit_radius = 37, find v orbit.",
+     "a": "1.34566",
+     "self_check": false
+    },
+    {
+     "q": "For Earth Satellites: Orbital Speed, Period and Weightlessness: given orbital_gm = 73, orbit_radius = 21, find v orbit.",
+     "a": "1.86445",
+     "self_check": false
+    },
+    {
+     "q": "For Earth Satellites: Orbital Speed, Period and Weightlessness: given orbital_gm = 75, orbit_radius = 68, find v orbit.",
+     "a": "1.05021",
+     "self_check": false
+    },
+    {
+     "q": "For Earth Satellites: Orbital Speed, Period and Weightlessness: given orbital_gm = 47, orbit_radius = 108, find v orbit.",
+     "a": "0.659686",
+     "self_check": false
+    },
+    {
+     "q": "For Earth Satellites: Orbital Speed, Period and Weightlessness: given orbital_gm = 11.7, orbit_radius = 62, find v orbit.",
+     "a": "0.434407",
+     "self_check": false
+    },
+    {
+     "q": "For Earth Satellites: Orbital Speed, Period and Weightlessness: given orbital_gm = 44, orbit_radius = 116, find v orbit.",
+     "a": "0.615882",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -22,15 +22,45 @@
     "show that addition of rational numbers is commutative",
     "state the property that fails for division of rational numbers"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "pick sample rationals",
-     "explain": "Choose two or three rational numbers to test the property."},
-    {"step": 2, "action": "compute both orders",
-     "explain": "Swap or regroup the operands and evaluate each side."},
-    {"step": 3, "action": "compare the results",
-     "explain": "Equal results support the property; a counterexample refutes it."}
-   ]
+    {
+     "step": 1,
+     "action": "pick sample rationals",
+     "explain": "Choose two or three rational numbers to test the property."
+    },
+    {
+     "step": 2,
+     "action": "compute both orders",
+     "explain": "Swap or regroup the operands and evaluate each side."
+    },
+    {
+     "step": 3,
+     "action": "compare the results",
+     "explain": "Equal results support the property; a counterexample refutes it."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the rational-number operation rules",
+     "explain": "apply the rational-number operation rules: num = 3 * 7 + 6 * 6 gives 57",
+     "compute": "num = 3 * 7 + 6 * 6"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the rational-number operation rules: den = 6 * 7 gives 42",
+     "compute": "den = 6 * 7"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the rational-number operation rules: val = num / den gives 1.35714",
+     "compute": "val = num / den"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hemh.101.1.2",
@@ -50,9 +80,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "negate the value",
+    {
+     "step": 1,
+     "action": "negate the value",
      "explain": "Changing the sign gives the additive inverse.",
-     "compute": "inverse_add = -value"}
+     "compute": "inverse_add = -value"
+    }
    ]
   },
   {
@@ -73,9 +106,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "take the reciprocal",
+    {
+     "step": 1,
+     "action": "take the reciprocal",
      "explain": "Dividing 1 by the value flips the fraction.",
-     "compute": "inverse_mul = 1 / value"}
+     "compute": "inverse_mul = 1 / value"
+    }
    ]
   },
   {
@@ -96,12 +132,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "cross-multiply and add numerators",
+    {
+     "step": 1,
+     "action": "cross-multiply and add numerators",
      "explain": "a*d plus c*b is the numerator over the common denominator bd.",
-     "compute": "num = a * d + c * b"},
-    {"step": 2, "action": "divide by the product denominator",
+     "compute": "num = a * d + c * b"
+    },
+    {
+     "step": 2,
+     "action": "divide by the product denominator",
      "explain": "The sum is num over b*d, reduced if possible.",
-     "compute": "sum = num / (b * d)"}
+     "compute": "sum = num / (b * d)"
+    }
    ]
   },
   {
@@ -122,12 +164,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "add the two endpoints",
+    {
+     "step": 1,
+     "action": "add the two endpoints",
      "explain": "Sum the given rational numbers.",
-     "compute": "total = low + high"},
-    {"step": 2, "action": "halve the sum",
+     "compute": "total = low + high"
+    },
+    {
+     "step": 2,
+     "action": "halve the sum",
      "explain": "The mean lies midway, hence between the two numbers.",
-     "compute": "mid = total / 2"}
+     "compute": "mid = total / 2"
+    }
    ]
   }
  ],
@@ -142,9 +190,12 @@
     "value": "the given rational number"
    },
    "solution_template": [
-    {"step": 1, "action": "negate the number",
+    {
+     "step": 1,
+     "action": "negate the number",
      "explain": "The additive inverse is the negative of the value.",
-     "compute": "inverse_add = -value"}
+     "compute": "inverse_add = -value"
+    }
    ]
   },
   {
@@ -157,9 +208,12 @@
     "value": "the given rational number"
    },
    "solution_template": [
-    {"step": 1, "action": "negate the number",
+    {
+     "step": 1,
+     "action": "negate the number",
      "explain": "Adding the negative cancels the number to zero.",
-     "compute": "inverse_add = -value"}
+     "compute": "inverse_add = -value"
+    }
    ]
   },
   {
@@ -172,9 +226,12 @@
     "value": "the given nonzero rational number"
    },
    "solution_template": [
-    {"step": 1, "action": "take the reciprocal",
+    {
+     "step": 1,
+     "action": "take the reciprocal",
      "explain": "1 divided by the value is its multiplicative inverse.",
-     "compute": "inverse_mul = 1 / value"}
+     "compute": "inverse_mul = 1 / value"
+    }
    ]
   },
   {
@@ -187,9 +244,12 @@
     "value": "the given nonzero rational number"
    },
    "solution_template": [
-    {"step": 1, "action": "take the reciprocal",
+    {
+     "step": 1,
+     "action": "take the reciprocal",
      "explain": "The required multiplier is the reciprocal.",
-     "compute": "inverse_mul = 1 / value"}
+     "compute": "inverse_mul = 1 / value"
+    }
    ]
   },
   {
@@ -205,12 +265,18 @@
     "d": "denominator of the second rational"
    },
    "solution_template": [
-    {"step": 1, "action": "cross-multiply for the numerator",
+    {
+     "step": 1,
+     "action": "cross-multiply for the numerator",
      "explain": "Compute a*d plus c*b.",
-     "compute": "num = a * d + c * b"},
-    {"step": 2, "action": "divide by the product denominator",
+     "compute": "num = a * d + c * b"
+    },
+    {
+     "step": 2,
+     "action": "divide by the product denominator",
      "explain": "The sum is num over b*d.",
-     "compute": "sum = num / (b * d)"}
+     "compute": "sum = num / (b * d)"
+    }
    ]
   },
   {
@@ -226,12 +292,18 @@
     "d": "second denominator"
    },
    "solution_template": [
-    {"step": 1, "action": "cross-multiply for the numerator",
+    {
+     "step": 1,
+     "action": "cross-multiply for the numerator",
      "explain": "Sum the cross products.",
-     "compute": "num = a * d + c * b"},
-    {"step": 2, "action": "divide by the product denominator",
+     "compute": "num = a * d + c * b"
+    },
+    {
+     "step": 2,
+     "action": "divide by the product denominator",
      "explain": "The quotient is the combined fraction.",
-     "compute": "sum = num / (b * d)"}
+     "compute": "sum = num / (b * d)"
+    }
    ]
   },
   {
@@ -245,12 +317,18 @@
     "high": "larger rational number"
    },
    "solution_template": [
-    {"step": 1, "action": "add the endpoints",
+    {
+     "step": 1,
+     "action": "add the endpoints",
      "explain": "Total the two given numbers.",
-     "compute": "total = low + high"},
-    {"step": 2, "action": "halve the total",
+     "compute": "total = low + high"
+    },
+    {
+     "step": 2,
+     "action": "halve the total",
      "explain": "The mean lies between the endpoints.",
-     "compute": "mid = total / 2"}
+     "compute": "mid = total / 2"
+    }
    ]
   },
   {
@@ -264,12 +342,18 @@
     "high": "second rational"
    },
    "solution_template": [
-    {"step": 1, "action": "add the endpoints",
+    {
+     "step": 1,
+     "action": "add the endpoints",
      "explain": "Sum the pair.",
-     "compute": "total = low + high"},
-    {"step": 2, "action": "halve the total",
+     "compute": "total = low + high"
+    },
+    {
+     "step": 2,
+     "action": "halve the total",
      "explain": "Half the sum is the inserted rational.",
-     "compute": "mid = total / 2"}
+     "compute": "mid = total / 2"
+    }
    ]
   }
  ],
@@ -278,21 +362,21 @@
    "id": "ex1.1",
    "source_ref": "hemh101.txt EXERCISE 1.1",
    "questions": [
-     "Using appropriate properties find: 2/5 x (-3/7) - 1/6 x 3/2 + 1/14 x 2/5.",
-     "Write the additive inverse of each of the given rational numbers.",
-     "Verify that -(x) is the same as the additive inverse for the given values.",
-     "Find the multiplicative inverse of the given numbers.",
-     "Name the property under multiplication used in each case.",
-     "Multiply 6/13 by the reciprocal of -7/16."
+    "Using appropriate properties find: 2/5 x (-3/7) - 1/6 x 3/2 + 1/14 x 2/5.",
+    "Write the additive inverse of each of the given rational numbers.",
+    "Verify that -(x) is the same as the additive inverse for the given values.",
+    "Find the multiplicative inverse of the given numbers.",
+    "Name the property under multiplication used in each case.",
+    "Multiply 6/13 by the reciprocal of -7/16."
    ]
   },
   {
    "id": "ex1.2",
    "source_ref": "hemh101.txt EXERCISE 1.2",
    "questions": [
-     "Represent the given rational numbers on the number line.",
-     "Find five rational numbers between 2/3 and 4/5.",
-     "Find ten rational numbers between -2/5 and 1/2."
+    "Represent the given rational numbers on the number line.",
+    "Find five rational numbers between 2/3 and 4/5.",
+    "Find ten rational numbers between -2/5 and 1/2."
    ]
   }
  ]

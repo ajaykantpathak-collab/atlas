@@ -171,7 +171,16 @@
      "q": "At substrate equal to Km, the reaction runs at what fraction of Vmax: half or double?",
      "a": "half"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rate = vmax * s_conc / (km + s_conc)",
+     "compute": "rate = vmax * s_conc / (km + s_conc)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt104.5",
@@ -209,7 +218,16 @@
      "q": "One enzyme unit converts how much substrate per minute: a micromole or a mole?",
      "a": "a micromole"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "specific_activity = total_units / protein_mg",
+     "compute": "specific_activity = total_units / protein_mg"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt104.6",
@@ -288,7 +306,16 @@
      "q": "A negative free-energy change marks a what process: spontaneous or impossible?",
      "a": "spontaneous"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "g_change = h_change - t_kelvin * s_change",
+     "compute": "g_change = h_change - t_kelvin * s_change"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt104.8",
@@ -326,7 +353,16 @@
      "q": "Hydrolysing one mole of ATP releases about how many kcal: 7.3 or 73?",
      "a": "7.3"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "energy_out = atp_moles * 7.3",
+     "compute": "energy_out = atp_moles * 7.3"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

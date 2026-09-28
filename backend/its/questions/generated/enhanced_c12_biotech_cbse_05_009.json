@@ -34,6 +34,36 @@
      "q": "Design a mini-pipeline (4-5 steps) to annotate a newly assembled bacterial genome (5 Mb) from raw contigs to a final GFF3 file with functional descriptions. Name one specific tool/database per step.",
      "a": "1. **Structural annotation**: Run **Prodigal** (ab initio, optimized for bacteria/archaea) on contigs → gene coordinates (CDS, rRNA, tRNA). 2. **Functional annotation — similarity**: **BLASTP** predicted proteins vs **UniProtKB/Swiss-Prot** (curated) → top hit descriptions. 3. **Domain annotation**: **InterProScan** (integrates Pfam, TIGRFAM, etc.) → domain architectures, GO terms. 4. **Pathway mapping**: **BlastKOALA** (KEGG) → KO IDs, metabolic pathways. 5. **Integration**: **AGAT** or custom script to merge GFF3 from Prodigal with functional attributes → final annotated GFF3. A poor answer lists tools without logical order (e.g., BLAST before gene prediction) or omits integration.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Genome annotation is the process of identifying the locations of genes and other functional elements (like regulatory sequences, non-coding RNAs) in a newly sequenced genome and assigning biological functions to them using ______ and experimental evidence.",
+     "a": "computational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just received the complete DNA ______ of a newly discovered drought-tolerant millet variety — 500 Mb of raw A, T, G, C letters.",
+     "a": "sequence",
+     "self_check": true
+    },
+    {
+     "q": "What is Genome annotation? State the definition given in this lesson.",
+     "a": "Genome annotation is the process of identifying the locations of genes and other functional elements (like regulatory sequences, non-coding RNAs) in a newly sequenced genome and assigning biological functions to them using computational and experimental evidence.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just received the complete DNA sequence of a newly discovered drought-tolerant millet variety — ______ Mb of raw A, T, G, C letters.",
+     "a": "500",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Genome annotation?",
+     "a": "Students believe that \"gene prediction\" and \"BLAST search\" are the same thing.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish between *ab initio* (intrinsic) and homology-based (extrinsic) gene prediction methods and explain the principle behind each; (2) Describe the stepwise pipeline for functional annotation using BLAST, conserved domains, and Gene Ontology (GO) terms; (3) Interpret a sample annotation output.",
+     "self_check": true
     }
    ]
   }

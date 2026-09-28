@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_08_002",
+   "title": "c11_app_cbse_08_002",
+   "questions": [
+    {
+     "q": "State the defining condition that distinguishes a function from a general relation. Use the terms \"domain,\" \"co-domain,\" and \"unique image\" in your answer.",
+     "a": "A relation $f \\subseteq A \\times B$ is a function if and only if **every element $x$ in the domain $A$ has exactly one image $y$ in the co-domain $B$** (i.e., $(x, y_1) \\in f$ and $(x, y_2) \\in f \\implies y_1 = y_2$). A wrong answer (e.g., \"each input has at least one output\" or \"outputs are unique\") reveals the student confuses *existence* with *uniqueness* or confuses the function property with one-to-one (injective) property.",
+     "self_check": true
+    },
+    {
+     "q": "The relation $R = \\{(x, y) : y^2 = x, x \\in \\mathbb{R}, y \\in \\mathbb{R}\\}$ is given. Is $R$ a function? Justify your answer by testing a specific value from the domain.",
+     "a": "$R$ is **not a function**. For $x = 4 \\in \\mathbb{R}$, we have $y^2 = 4 \\implies y = 2$ or $y = -2$. Thus, the single input $4$ maps to two distinct outputs ($2$ and $-2$), violating the \"unique image\" condition. A wrong answer (e.g., \"yes, because every $x$ gives a $y$\") reveals the student checks only *existence* of an output, not *uniqueness*, or mistakenly treats $y = \\sqrt{x}$ (principal root) as the relation instead of $y^2 = x$.",
+     "self_check": true
+    },
+    {
+     "q": "Let $f(x) = 2x^2 - 3x + 1$ and $g(x) = x - 4$. Define the function $h = \\frac{f}{g}$. Find the domain of $h$ and evaluate $h(0)$.",
+     "a": "**Domain of $h$:** $h(x) = \\frac{f(x)}{g(x)}$ is defined only when $g(x) \\neq 0$. $g(x) = x - 4 = 0 \\implies x = 4$. So Domain $= \\mathbb{R} \\setminus \\{4\\}$. **Evaluation:** $h(0) = \\frac{f(0)}{g(0)} = \\frac{2(0)^2 - 3(0) + 1}{0 - 4} = \\frac{1}{-4} = -\\frac{1}{4}$. A wrong domain (e.g., $\\mathbb{R}$) reveals the student forgets the quotient condition $g(x) \\neq 0$. A wrong evaluation (e.g., $h(0) = f(0) \\cdot g(0)$) reveals confusion between quotient and product algebra.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the graph of a circle $x^2 + y^2 = 9$. A student claims: \"Since for $x=0$ we get only $y=3$ and $y=-3$ (two values), but for $x=3$ we get only $y=0$ (one value), the circle *partially* satisfies the function condition. So it is a function for some $x$.\" Analyze this claim.",
+     "a": "The claim is **incorrect**. A relation is a function **only if *every* element of the domain has a unique image**. The definition is universal (\"for all $x \\in \\text{Domain}$\"), not existential (\"for some $x$\"). Since $x=0$ (which is in the domain $[-3, 3]$) has two images, the relation fails the function definition globally. A wrong answer accepting \"partial function\" reveals the student treats the vertical line test as a \"majority pass\" criterion rather than a strict \"no vertical line cuts the curve more than once\" condition.",
+     "self_check": true
+    },
+    {
+     "q": "A student defines a function $f: \\mathbb{R} \\to \\mathbb{R}$ by $f(x) = \\frac{x^2 - 4}{x - 2}$ and simplifies it to $f(x) = x + 2$, claiming the domain is $\\mathbb{R}$ because \"$x+2$ is defined for all real numbers.\" Evaluate this reasoning.",
+     "a": "The reasoning is **flawed**. The original rule $f(x) = \\frac{x^2 - 4}{x - 2}$ is **undefined at $x = 2$** (division by zero). Algebraic simplification $x+2$ is valid *only for $x \\neq 2$*. The domain of the *given function* is $\\mathbb{R} \\setminus \\{2\\}$, not $\\mathbb{R}$. The simplified expression $x+2$ represents a *different function* (say $g(x) = x+2$) which *extends* $f$ continuously. A wrong answer accepting domain $\\mathbb{R}$ reveals the student confuses the *algebraic expression* with the *function rule*, ignoring the implicit domain restriction of the original definition.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) involving **two variables** where the relationship is **NOT a function**. Define the independent and dependent variables clearly, and explain *exactly which input* breaks the function condition by producing multiple outputs.",
+     "a": "**Scenario:** \"Mapping a **PIN code** (input) to the **City name** (output) in India.\" Independent variable: PIN code (6-digit number). Dependent variable: City name. **Breakdown:** PIN code `110001` (Connaught Place, Delhi) maps to \"New Delhi\". But PIN code `560001` maps to \"Bengaluru\". Wait — that's still a function (one PIN $\\to$ one city). **Correct non-function scenario:** \"Mapping a **City name** (input) to **PIN code(s)** (output).\" Input: \"Mumbai\". Outputs: `400001`, `400002`, `400050`, ... (multiple PIN codes for one city). The input \"Mumbai\" has **multiple images**, violating the function condition. A poor answer (e.g., \"Temperature vs Time\" — which *is* a function) reveals the student cannot construct a many-to-one or one-to-many relation intentionally.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

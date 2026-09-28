@@ -1,0 +1,710 @@
+{
+ "catalog": "catalog_class11_physics_ch106.json",
+ "concepts": [
+  {
+   "id": "keph.106.6.3.1",
+   "title": "Acceleration of Centre of Mass",
+   "converted_to_compute": true,
+   "formula": "a_cm = f_ext / total_mass",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "a_cm = f_ext / total_mass",
+     "compute": "a_cm = f_ext / total_mass"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Acceleration of Centre of Mass: given f_ext = 97, total_mass = 8.1, find a cm.",
+     "a": "11.9753",
+     "self_check": false
+    },
+    {
+     "q": "For Acceleration of Centre of Mass: given f_ext = 0.5, total_mass = 193, find a cm.",
+     "a": "0.00259067",
+     "self_check": false
+    },
+    {
+     "q": "For Acceleration of Centre of Mass: given f_ext = 86, total_mass = 57, find a cm.",
+     "a": "1.50877",
+     "self_check": false
+    },
+    {
+     "q": "For Acceleration of Centre of Mass: given f_ext = 1.4, total_mass = 171, find a cm.",
+     "a": "0.00818713",
+     "self_check": false
+    },
+    {
+     "q": "For Acceleration of Centre of Mass: given f_ext = 78, total_mass = 62, find a cm.",
+     "a": "1.25806",
+     "self_check": false
+    },
+    {
+     "q": "For Acceleration of Centre of Mass: given f_ext = 13.6, total_mass = 125, find a cm.",
+     "a": "0.1088",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.106.6.4.1",
+   "title": "Linear Momentum of a System of Particles",
+   "converted_to_compute": true,
+   "formula": "p_total = total_mass * v_cm",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "p_total = total_mass * v_cm",
+     "compute": "p_total = total_mass * v_cm"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Linear Momentum of a System of Particles: given total_mass = 127, v_cm = 2.9, find p total.",
+     "a": "368.3",
+     "self_check": false
+    },
+    {
+     "q": "For Linear Momentum of a System of Particles: given total_mass = 53, v_cm = 113, find p total.",
+     "a": "5989",
+     "self_check": false
+    },
+    {
+     "q": "For Linear Momentum of a System of Particles: given total_mass = 95, v_cm = 71, find p total.",
+     "a": "6745",
+     "self_check": false
+    },
+    {
+     "q": "For Linear Momentum of a System of Particles: given total_mass = 161, v_cm = 92, find p total.",
+     "a": "14812",
+     "self_check": false
+    },
+    {
+     "q": "For Linear Momentum of a System of Particles: given total_mass = 83, v_cm = 87, find p total.",
+     "a": "7221",
+     "self_check": false
+    },
+    {
+     "q": "For Linear Momentum of a System of Particles: given total_mass = 5.6, v_cm = 100, find p total.",
+     "a": "560",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.106.6.5.1",
+   "title": "Vector Product and Properties",
+   "converted_to_compute": true,
+   "formula": "c = a * b * sin(theta)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "c = a * b * sin(theta)",
+     "compute": "c = a * b * sin(theta)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Vector Product and Properties: given a = 32, b = 85, theta = 9.1, find c.",
+     "a": "867.948",
+     "self_check": false
+    },
+    {
+     "q": "For Vector Product and Properties: given a = 97, b = 78, theta = 103, find c.",
+     "a": "4713.53",
+     "self_check": false
+    },
+    {
+     "q": "For Vector Product and Properties: given a = 80, b = 92, theta = 33, find c.",
+     "a": "7359.35",
+     "self_check": false
+    },
+    {
+     "q": "For Vector Product and Properties: given a = 50, b = 18, theta = 147, find c.",
+     "a": "548.14",
+     "self_check": false
+    },
+    {
+     "q": "For Vector Product and Properties: given a = 44, b = 32, theta = 117, find c.",
+     "a": "-971.095",
+     "self_check": false
+    },
+    {
+     "q": "For Vector Product and Properties: given a = 77, b = 88, theta = 167, find c.",
+     "a": "-3222.33",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.106.6.6.1",
+   "title": "Tangential Velocity in Rigid Body Rotation",
+   "converted_to_compute": true,
+   "formula": "v = omega * r",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "v = omega * r",
+     "compute": "v = omega * r"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Tangential Velocity in Rigid Body Rotation: given omega = 58, r = 20, find v.",
+     "a": "1160",
+     "self_check": false
+    },
+    {
+     "q": "For Tangential Velocity in Rigid Body Rotation: given omega = 27, r = 36, find v.",
+     "a": "972",
+     "self_check": false
+    },
+    {
+     "q": "For Tangential Velocity in Rigid Body Rotation: given omega = 47, r = 43, find v.",
+     "a": "2021",
+     "self_check": false
+    },
+    {
+     "q": "For Tangential Velocity in Rigid Body Rotation: given omega = 9.3, r = 86, find v.",
+     "a": "799.8",
+     "self_check": false
+    },
+    {
+     "q": "For Tangential Velocity in Rigid Body Rotation: given omega = 28, r = 64, find v.",
+     "a": "1792",
+     "self_check": false
+    },
+    {
+     "q": "For Tangential Velocity in Rigid Body Rotation: given omega = 90, r = 86, find v.",
+     "a": "7740",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.106.6.7.1",
+   "title": "Torque or Moment of Force",
+   "converted_to_compute": true,
+   "formula": "tau = force * arm_length",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "tau = force * arm_length",
+     "compute": "tau = force * arm_length"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Torque or Moment of Force: given force = 866, arm_length = 174, find tau.",
+     "a": "150684",
+     "self_check": false
+    },
+    {
+     "q": "For Torque or Moment of Force: given force = 168, arm_length = 302, find tau.",
+     "a": "50736",
+     "self_check": false
+    },
+    {
+     "q": "For Torque or Moment of Force: given force = 964, arm_length = 377, find tau.",
+     "a": "363428",
+     "self_check": false
+    },
+    {
+     "q": "For Torque or Moment of Force: given force = 961, arm_length = 152, find tau.",
+     "a": "146072",
+     "self_check": false
+    },
+    {
+     "q": "For Torque or Moment of Force: given force = 242, arm_length = 487, find tau.",
+     "a": "117854",
+     "self_check": false
+    },
+    {
+     "q": "For Torque or Moment of Force: given force = 381, arm_length = 401, find tau.",
+     "a": "152781",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.106.6.7.2",
+   "title": "Angular Momentum of a Particle",
+   "converted_to_compute": true,
+   "formula": "L = mass * velocity * r_perp",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "L = mass * velocity * r_perp",
+     "compute": "L = mass * velocity * r_perp"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Angular Momentum of a Particle: given mass = 104, velocity = 98, r_perp = 25, find L.",
+     "a": "254800",
+     "self_check": false
+    },
+    {
+     "q": "For Angular Momentum of a Particle: given mass = 28, velocity = 2.9, r_perp = 61, find L.",
+     "a": "4953.2",
+     "self_check": false
+    },
+    {
+     "q": "For Angular Momentum of a Particle: given mass = 179, velocity = 86, r_perp = 55, find L.",
+     "a": "846670",
+     "self_check": false
+    },
+    {
+     "q": "For Angular Momentum of a Particle: given mass = 129, velocity = 61, r_perp = 98, find L.",
+     "a": "771162",
+     "self_check": false
+    },
+    {
+     "q": "For Angular Momentum of a Particle: given mass = 160, velocity = 18.9, r_perp = 79, find L.",
+     "a": "238896",
+     "self_check": false
+    },
+    {
+     "q": "For Angular Momentum of a Particle: given mass = 192, velocity = 120, r_perp = 66, find L.",
+     "a": "1520640",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.106.6.8.1",
+   "title": "Principle of Moments for Levers",
+   "converted_to_compute": true,
+   "formula": "effort = (load * load_arm) / effort_arm",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "effort = (load * load_arm) / effort_arm",
+     "compute": "effort = (load * load_arm) / effort_arm"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Principle of Moments for Levers: given load = 686, load_arm = 432, effort_arm = 101, find effort.",
+     "a": "2934.18",
+     "self_check": false
+    },
+    {
+     "q": "For Principle of Moments for Levers: given load = 161, load_arm = 475, effort_arm = 93, find effort.",
+     "a": "822.312",
+     "self_check": false
+    },
+    {
+     "q": "For Principle of Moments for Levers: given load = 469, load_arm = 437, effort_arm = 110, find effort.",
+     "a": "1863.21",
+     "self_check": false
+    },
+    {
+     "q": "For Principle of Moments for Levers: given load = 612, load_arm = 298, effort_arm = 23, find effort.",
+     "a": "7929.39",
+     "self_check": false
+    },
+    {
+     "q": "For Principle of Moments for Levers: given load = 546, load_arm = 849, effort_arm = 113, find effort.",
+     "a": "4102.25",
+     "self_check": false
+    },
+    {
+     "q": "For Principle of Moments for Levers: given load = 635, load_arm = 70, effort_arm = 17.5, find effort.",
+     "a": "2540",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.106.6.9.1",
+   "title": "Moment of Inertia and Radius of Gyration",
+   "converted_to_compute": true,
+   "formula": "I = mass * (radius_gyration ** 2)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "I = mass * (radius_gyration ** 2)",
+     "compute": "I = mass * (radius_gyration ** 2)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Moment of Inertia and Radius of Gyration: given mass = 157, radius_gyration = 16.4, find I.",
+     "a": "42226.7",
+     "self_check": false
+    },
+    {
+     "q": "For Moment of Inertia and Radius of Gyration: given mass = 96, radius_gyration = 7, find I.",
+     "a": "4704",
+     "self_check": false
+    },
+    {
+     "q": "For Moment of Inertia and Radius of Gyration: given mass = 135, radius_gyration = 2.2, find I.",
+     "a": "653.4",
+     "self_check": false
+    },
+    {
+     "q": "For Moment of Inertia and Radius of Gyration: given mass = 48, radius_gyration = 45, find I.",
+     "a": "97200",
+     "self_check": false
+    },
+    {
+     "q": "For Moment of Inertia and Radius of Gyration: given mass = 59, radius_gyration = 29, find I.",
+     "a": "49619",
+     "self_check": false
+    },
+    {
+     "q": "For Moment of Inertia and Radius of Gyration: given mass = 39, radius_gyration = 34, find I.",
+     "a": "45084",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.106.6.10.1",
+   "title": "Rotational Kinematics with Constant Angular Acceleration",
+   "converted_to_compute": true,
+   "formula": "omega = omega_0 + alpha * t",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "omega = omega_0 + alpha * t",
+     "compute": "omega = omega_0 + alpha * t"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Rotational Kinematics with Constant Angular Acceleration: given omega_0 = 81, alpha = 86, t = 88, find omega.",
+     "a": "7649",
+     "self_check": false
+    },
+    {
+     "q": "For Rotational Kinematics with Constant Angular Acceleration: given omega_0 = 82, alpha = 27, t = 49, find omega.",
+     "a": "1405",
+     "self_check": false
+    },
+    {
+     "q": "For Rotational Kinematics with Constant Angular Acceleration: given omega_0 = 35, alpha = 35, t = 47, find omega.",
+     "a": "1680",
+     "self_check": false
+    },
+    {
+     "q": "For Rotational Kinematics with Constant Angular Acceleration: given omega_0 = 86, alpha = 36, t = 15.4, find omega.",
+     "a": "640.4",
+     "self_check": false
+    },
+    {
+     "q": "For Rotational Kinematics with Constant Angular Acceleration: given omega_0 = 54, alpha = 22, t = 66, find omega.",
+     "a": "1506",
+     "self_check": false
+    },
+    {
+     "q": "For Rotational Kinematics with Constant Angular Acceleration: given omega_0 = 94, alpha = 93, t = 85, find omega.",
+     "a": "7999",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.106.6.11.1",
+   "title": "Rotational Dynamics and Angular Acceleration",
+   "converted_to_compute": true,
+   "formula": "alpha = tau / I",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "alpha = tau / I",
+     "compute": "alpha = tau / I"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Rotational Dynamics and Angular Acceleration: given tau = 32, I = 9.3, find alpha.",
+     "a": "3.44086",
+     "self_check": false
+    },
+    {
+     "q": "For Rotational Dynamics and Angular Acceleration: given tau = 16.4, I = 73, find alpha.",
+     "a": "0.224658",
+     "self_check": false
+    },
+    {
+     "q": "For Rotational Dynamics and Angular Acceleration: given tau = 34, I = 53, find alpha.",
+     "a": "0.641509",
+     "self_check": false
+    },
+    {
+     "q": "For Rotational Dynamics and Angular Acceleration: given tau = 26, I = 27, find alpha.",
+     "a": "0.962963",
+     "self_check": false
+    },
+    {
+     "q": "For Rotational Dynamics and Angular Acceleration: given tau = 81, I = 71, find alpha.",
+     "a": "1.14085",
+     "self_check": false
+    },
+    {
+     "q": "For Rotational Dynamics and Angular Acceleration: given tau = 58, I = 78, find alpha.",
+     "a": "0.74359",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.106.6.11.2",
+   "title": "Rotational Kinetic Energy",
+   "converted_to_compute": true,
+   "formula": "ke_rot = 0.5 * I * (omega ** 2)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ke_rot = 0.5 * I * (omega ** 2)",
+     "compute": "ke_rot = 0.5 * I * (omega ** 2)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Rotational Kinetic Energy: given I = 33, omega = 82, find ke rot.",
+     "a": "110946",
+     "self_check": false
+    },
+    {
+     "q": "For Rotational Kinetic Energy: given I = 65, omega = 98, find ke rot.",
+     "a": "312130",
+     "self_check": false
+    },
+    {
+     "q": "For Rotational Kinetic Energy: given I = 76, omega = 83, find ke rot.",
+     "a": "261782",
+     "self_check": false
+    },
+    {
+     "q": "For Rotational Kinetic Energy: given I = 95, omega = 49, find ke rot.",
+     "a": "114048",
+     "self_check": false
+    },
+    {
+     "q": "For Rotational Kinetic Energy: given I = 19.9, omega = 67, find ke rot.",
+     "a": "44665.5",
+     "self_check": false
+    },
+    {
+     "q": "For Rotational Kinetic Energy: given I = 50, omega = 22, find ke rot.",
+     "a": "12100",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.106.12.1",
+   "title": "Angular Momentum of a Rigid Body about a Fixed Axis",
+   "converted_to_compute": true,
+   "formula": "L = I * omega",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "L = I * omega",
+     "compute": "L = I * omega"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Angular Momentum of a Rigid Body about a Fixed Axis: given I = 66, omega = 96, find L.",
+     "a": "6336",
+     "self_check": false
+    },
+    {
+     "q": "For Angular Momentum of a Rigid Body about a Fixed Axis: given I = 93, omega = 95, find L.",
+     "a": "8835",
+     "self_check": false
+    },
+    {
+     "q": "For Angular Momentum of a Rigid Body about a Fixed Axis: given I = 61, omega = 84, find L.",
+     "a": "5124",
+     "self_check": false
+    },
+    {
+     "q": "For Angular Momentum of a Rigid Body about a Fixed Axis: given I = 26, omega = 55, find L.",
+     "a": "1430",
+     "self_check": false
+    },
+    {
+     "q": "For Angular Momentum of a Rigid Body about a Fixed Axis: given I = 76, omega = 98, find L.",
+     "a": "7448",
+     "self_check": false
+    },
+    {
+     "q": "For Angular Momentum of a Rigid Body about a Fixed Axis: given I = 31, omega = 56, find L.",
+     "a": "1736",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.106.12.2",
+   "title": "Torque and Angular Acceleration",
+   "converted_to_compute": true,
+   "formula": "torque = I * alpha",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "torque = I * alpha",
+     "compute": "torque = I * alpha"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Torque and Angular Acceleration: given I = 87, alpha = 94, find torque.",
+     "a": "8178",
+     "self_check": false
+    },
+    {
+     "q": "For Torque and Angular Acceleration: given I = 44, alpha = 28, find torque.",
+     "a": "1232",
+     "self_check": false
+    },
+    {
+     "q": "For Torque and Angular Acceleration: given I = 85, alpha = 73, find torque.",
+     "a": "6205",
+     "self_check": false
+    },
+    {
+     "q": "For Torque and Angular Acceleration: given I = 62, alpha = 33, find torque.",
+     "a": "2046",
+     "self_check": false
+    },
+    {
+     "q": "For Torque and Angular Acceleration: given I = 89, alpha = 86, find torque.",
+     "a": "7654",
+     "self_check": false
+    },
+    {
+     "q": "For Torque and Angular Acceleration: given I = 39, alpha = 21, find torque.",
+     "a": "819",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.106.12.3",
+   "title": "Conservation of Angular Momentum",
+   "converted_to_compute": true,
+   "formula": "omega_2 = (I_1 * omega_1) / I_2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "omega_2 = (I_1 * omega_1) / I_2",
+     "compute": "omega_2 = (I_1 * omega_1) / I_2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Conservation of Angular Momentum: given I_1 = 13.5, omega_1 = 57, I_2 = 74, find omega 2.",
+     "a": "10.3986",
+     "self_check": false
+    },
+    {
+     "q": "For Conservation of Angular Momentum: given I_1 = 11.1, omega_1 = 32, I_2 = 59, find omega 2.",
+     "a": "6.02034",
+     "self_check": false
+    },
+    {
+     "q": "For Conservation of Angular Momentum: given I_1 = 44, omega_1 = 11.4, I_2 = 66, find omega 2.",
+     "a": "7.6",
+     "self_check": false
+    },
+    {
+     "q": "For Conservation of Angular Momentum: given I_1 = 11.7, omega_1 = 14.5, I_2 = 96, find omega 2.",
+     "a": "1.76719",
+     "self_check": false
+    },
+    {
+     "q": "For Conservation of Angular Momentum: given I_1 = 23, omega_1 = 14.7, I_2 = 47, find omega 2.",
+     "a": "7.19362",
+     "self_check": false
+    },
+    {
+     "q": "For Conservation of Angular Momentum: given I_1 = 23, omega_1 = 83, I_2 = 64, find omega 2.",
+     "a": "29.8281",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.106.12.5",
+   "title": "Power Transmitted by Torque",
+   "converted_to_compute": true,
+   "formula": "power = torque * omega",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "power = torque * omega",
+     "compute": "power = torque * omega"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Power Transmitted by Torque: given torque = 15.2, omega = 13.4, find power.",
+     "a": "203.68",
+     "self_check": false
+    },
+    {
+     "q": "For Power Transmitted by Torque: given torque = 80, omega = 2.7, find power.",
+     "a": "216",
+     "self_check": false
+    },
+    {
+     "q": "For Power Transmitted by Torque: given torque = 2.6, omega = 36, find power.",
+     "a": "93.6",
+     "self_check": false
+    },
+    {
+     "q": "For Power Transmitted by Torque: given torque = 8.4, omega = 30, find power.",
+     "a": "252",
+     "self_check": false
+    },
+    {
+     "q": "For Power Transmitted by Torque: given torque = 63, omega = 97, find power.",
+     "a": "6111",
+     "self_check": false
+    },
+    {
+     "q": "For Power Transmitted by Torque: given torque = 84, omega = 38, find power.",
+     "a": "3192",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,21 @@
      "q": "Create a division problem involving two decimals where the divisor is $0.05$ and the final quotient is a whole number greater than $10$. Show the conversion steps.",
      "a": "An expected good answer would be $0.85 \\div 0.05$. \nSteps: \n1. Write expression: $0.85 \\div 0.05$. \n2. Multiply both by $100$ to clear the divisor: $85 \\div 5$. \n3. Compute whole number division: $85 \\div 5 = 17$ (which is a whole number greater than $10$). \nA poor answer would feature a divisor that is not $0.05$ or result in a quotient that is not a whole number, showing a failure to construct a problem meeting specific constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Just like we learned when we studied ______ as division, dividing by a decimal is tricky because the divisor has a fractional part.",
+     "a": "fractions",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can convert any decimal division problem into a whole-number divisor problem by shifting decimal points equally, and can compute the correct quotient with proper placement of the decimal point.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Just like we learned when we studied fractions as division, dividing by a decimal is tricky because the divisor has a ______ part.",
+     "a": "fractional",
+     "self_check": true
     }
    ]
   }

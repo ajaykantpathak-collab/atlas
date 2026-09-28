@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using only a bar magnet, a copper tube (length ~50 cm, inner diameter slightly larger than the magnet), and a stopwatch to demonstrate Lenz's law qualitatively. Describe what you would observe and how it proves that the induced current opposes the cause.",
      "a": "Drop the magnet through the copper tube and time its fall. Compare with a non-magnetic object (e.g., a steel ball of similar mass) dropped through the same tube. Observation: The magnet falls **significantly slower** than the steel ball. Explanation: As the magnet falls, flux through each cross-section of the tube changes, inducing eddy currents. These currents create magnetic fields that oppose the magnet's motion (upward force), slowing its fall. The mechanical work done by gravity is converted to heat in the tube. A poor answer (e.g., \"magnet sticks to tube\" or \"no difference\") shows lack of understanding that Lenz's law produces a *force* opposing motion, not just a current.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Lenz's Law states that the direction of the induced ______ force (emf) in a closed circuit is such that the current it produces creates a magnetic field opposing the change in magnetic flux that induced it.",
+     "a": "electromotive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ceiling fan ______ in your room — when you switch it off, the fan doesn't stop instantly; it keeps spinning due to inertia.",
+     "a": "rotating",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) determine the direction of induced current in a conducting loop for any given change in magnetic flux (increasing/decreasing, magnet approaching/receding, loop entering/leaving field) using Lenz's law, and (2) explain why the induced current direction satisfies energy conservation by identifying the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ceiling fan rotating in your room — when you switch it off, the fan doesn't stop ______; it keeps spinning due to inertia.",
+     "a": "instantly",
+     "self_check": true
     }
    ]
   }

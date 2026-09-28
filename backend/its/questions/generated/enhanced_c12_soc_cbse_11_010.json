@@ -1,0 +1,71 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_11_010",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_11_010",
+   "title": "c12_soc_cbse_11_010",
+   "questions": [
+    {
+     "q": "What is the legal basis of MGNREGA, and how does it differ from earlier wage-employment programmes like JRY or EAS in terms of enforceability?",
+     "a": "MGNREGA derives from the Mahatma Gandhi National Rural Employment Guarantee Act, 2005, which legally guarantees 100 days of wage employment per rural household per year; unlike JRY/EAS which were scheme-based allocations, MGNREGA creates a justiciable right — a household can demand work and sue for unemployment allowance if work is not provided within 15 days. A wrong answer that treats MGNREGA as just another \"scheme\" reveals confusion between statutory entitlements and discretionary allocations, a distinction critical for board answers on \"rights-based approach\".",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the PDS shifted from universal to targeted (TPDS) in 1997 and then to a rights-based framework under NFSA 2013, and identify one inclusion error and one exclusion error that persist.",
+     "a": "The shift aimed to reduce fiscal burden and improve targeting: universal PDS covered all, TPDS divided households into APL/BPL/AAY, NFSA 2013 made food entitlements a legal right for 75% rural/50% urban population. Inclusion error: non-poor households holding BPL cards due to political patronage; exclusion error: poor migrant households lacking ration cards at destination. A wrong answer that only mentions \"corruption\" without distinguishing inclusion/exclusion errors shows superficial understanding of targeting literature.",
+     "self_check": true
+    },
+    {
+     "q": "A Gram Panchayat in a drought-prone block receives ₹50 lakh under MGNREGA for the year. It must prioritise works that address both immediate employment and long-term water security. List four permissible work categories under Schedule I of the Act that meet this dual objective, and explain why \"construction of a community hall\" would be a lower priority.",
+     "a": "Permissible categories: (1) water conservation and harvesting, (2) drought proofing including afforestation, (3) irrigation canals including micro/minor irrigation, (4) renovation of traditional water bodies. \"Community hall\" is lower priority because Schedule I prioritises natural resource management and livelihood infrastructure over social infrastructure; also, community halls do not directly enhance water security or agricultural productivity. A wrong answer listing \"road construction\" as top priority misses the drought-proofing mandate and reveals ignorance of Schedule I priorities.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the funding pattern and implementation architecture of PMGSY with MGNREGA. Why does PMGSY use a \"core network\" approach based on Census 2001 population data, and what sociological consequence does this have for habitations that fall below the population threshold?",
+     "a": "PMGSY: 100% central sponsorship (since 2015), implemented by state rural roads agencies through PIUs, uses Core Network based on Census 2001 to connect all habitations >500 population (250 in hilly/tribal/desert). MGNREGA: 90:10 centre-state for wages, 75:25 for materials, implemented by Gram Panchayats. Habitations below threshold remain unconnected, reinforcing spatial inequality — often these are hamlets of SC/ST communities, deepening their marginalisation. A wrong answer that says \"PMGSY is implemented by Panchayats\" confuses the two programmes' institutional homes.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: \"MGNREGA has reduced distress migration but increased agricultural wages, thereby hurting small farmers' profitability.\" Use concepts from the chapter on circulation of labour (c12_soc_cbse_11_007) and agrarian structure (c12_soc_cbse_11_001) to support your argument.",
+     "a": "The statement is partially valid but oversimplified. MGNREGA does raise the reservation wage, reducing labour supply for agriculture during peak seasons — this hurts labour-intensive small farmers who cannot mechanise. However, it also reduces *distress* migration (Jan Breman's \"footloose labour\") by providing local work, improving bargaining power of landless labourers (mostly SC/ST). For dominant-caste large farmers (c12_soc_cbse_11_001), the wage rise is manageable; for marginal farmers, it may accelerate exit from cultivation. A nuanced answer distinguishes between classes of farmers and links to the \"patronage to exploitation\" shift (Breman). A wrong answer that calls it \"unambiguously good/bad\" fails the evaluate-level requirement.",
+     "self_check": true
+    },
+    {
+     "q": "Design a field-study plan for a sociology student to assess the effectiveness of PDS in a tribal block. Specify: (a) two quantitative indicators, (b) two qualitative methods, (c) one ethical consideration specific to tribal communities, and (d) how you would triangulate findings with MGNREGA and PMGSY outcomes in the same villages.",
+     "a": "(a) Quantitative: offtake-to-allocation ratio (actual grain lifted vs entitled), and percentage of eligible households with active ration cards. (b) Qualitative: focus-group discussions with women cardholders on grain quality and dealer behaviour; participant observation at fair-price shop on distribution day. (c) Ethical: obtain Free Prior Informed Consent (FPIC) from Gram Sabha under PESA, ensure no coercion by local power-brokers. (d) Triangulation: correlate PDS leakage villages with MGNREGA work-demand (high demand = PDS failure) and PMGSY connectivity (poor roads = higher transport costs for dealers). A poor answer that lists only \"surveys\" without triangulation or ethics shows lack of research-methods integration (c11_soc_cbse_05_006, c11_soc_cbse_05_008).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Rural Development Programmes are state-led interventions designed to address structural poverty, ______ deficits, and food insecurity in rural India; the three flagship programmes are MGNREGA (guaranteeing 100 days of wage employment), PMGSY (providing all-weather road connectivity), and PDS (distributing subsidised foodgrains through a targeted public distribution network).",
+     "a": "infrastructure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a village in interior Odisha where most ______ are landless labourers: during the lean season they have no work, the nearest paved road is 15 km away making market access impossible, and the local ration shop runs out of grain every month.",
+     "a": "households",
+     "self_check": true
+    },
+    {
+     "q": "What is Rural Development Programmes? State the definition given in this lesson.",
+     "a": "Rural Development Programmes are state-led interventions designed to address structural poverty, infrastructure deficits, and food insecurity in rural India; the three flagship programmes are MGNREGA (guaranteeing 100 days of wage employment), PMGSY (providing all-weather road connectivity), and PDS (distributing subsidised foodgrains.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Rural Development Programmes are state-led interventions designed to address structural poverty, infrastructure deficits, and food insecurity in rural India; the three flagship programmes are MGNREGA (guaranteeing ______ days of wage employment), PMGSY (providing all-weather road connectivity), and PDS (distributing subsidised foodgrains through a targeted public distribution network).",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Rural Development Programmes?",
+     "a": "Students often conflate MGNREGA, PMGSY, and PDS as \"welfare schemes\" without distinguishing their *legal nature* (Act vs Scheme vs Act), *funding architecture* (demand-driven vs allocation-driven), and *targeting logic* (universal household entitlement vs habitation-based vs targeted household).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the objectives, key design features, and sociological impact of MGNREGA, PMGSY, and PDS, and can analyse how each programme addresses specific dimensions of rural deprivation (employment, connectivity, food security) while identifying implementation gaps documented in sociological studies.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

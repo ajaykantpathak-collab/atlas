@@ -20,7 +20,7 @@
     "Name the set that grew out of tally marks and one-to-one pairing.",
     "Why did tracing trade and astronomy push people beyond 1, 2, 3, ...?"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,22 @@
      "action": "Conclude closure status",
      "explain": "Natural numbers are closed under addition and multiplication but not under subtraction, since results like 3 - 5 fall outside the set."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.3.2.2",
@@ -127,7 +142,7 @@
     "Show that 4/6 and 2/3 name one and the same rational number.",
     "Which single number has every integer as its top with bottom 1?"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -144,7 +159,28 @@
      "action": "Check the bottom is non-zero",
      "explain": "The denominator q must never be zero, since division by zero is undefined; this is the one hard requirement for rational status."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the rational-number operation rules",
+     "explain": "apply the rational-number operation rules: num = 7 * 8 + 2 * 5 gives 66",
+     "compute": "num = 7 * 8 + 2 * 5"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the rational-number operation rules: den = 5 * 8 gives 40",
+     "compute": "den = 5 * 8"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the rational-number operation rules: val = num / den gives 1.65",
+     "compute": "val = num / den"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.3.4.2",
@@ -283,7 +319,7 @@
     "Draw a line and place 2/3, -5/4 and 11/2 in order.",
     "Explain why 1/2 sits exactly halfway between 0 and 1."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -300,7 +336,28 @@
      "action": "Label the marked point",
      "explain": "The landing point on the line is the rational number p/q, confirming the fraction has a unique position on the number line."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the rational-number operation rules",
+     "explain": "apply the rational-number operation rules: num = 2 * 8 + 5 * 4 gives 36",
+     "compute": "num = 2 * 8 + 5 * 4"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the rational-number operation rules: den = 4 * 8 gives 32",
+     "compute": "den = 4 * 8"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the rational-number operation rules: val = num / den gives 1.125",
+     "compute": "val = num / den"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.3.4.7",
@@ -354,7 +411,7 @@
     "Why can no fraction equal pi exactly?",
     "State the one property that makes a number irrational."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -376,7 +433,22 @@
      "action": "Land the contradiction",
      "explain": "Both even contradicts coprimality, so no such fraction exists."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.3.5.2",
@@ -393,7 +465,7 @@
     "Why does the joined segment OB have length sqrt(2)?",
     "Sketch the construction needed for sqrt(5)."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -410,7 +482,16 @@
      "action": "Swing the arc",
      "explain": "Centre O, radius OB: the arc cuts the line at the new irrational length."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "square the given number using the stated square rule",
+     "explain": "square the given number using the stated square rule: sq = 36 ** 2 gives 1296",
+     "compute": "sq = 36 ** 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.3.5.3",
@@ -427,7 +508,7 @@
     "What did Aryabhata mean by calling 3.1416 an asanna?",
     "Write the first four terms of the odd-reciprocal series for pi."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -444,7 +525,22 @@
      "action": "Conclude irrationality",
      "explain": "Since no fraction equals pi and the series never terminates, pi is irrational; every finite sum is only an asanna, a near-value."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.3.6.1",
@@ -461,7 +557,7 @@
     "Sort 3/50, 2/9 and 7/8 into stopping and looping.",
     "Why does 1/7 loop forever?"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -478,7 +574,22 @@
      "action": "Classify the decimal expansion",
      "explain": "A stopping bottom means a terminating decimal; any other prime factor means a non-terminating repeating decimal, with no other outcome possible."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.3.6.2",
@@ -495,7 +606,7 @@
     "Turn 0.0120 into a fully reduced fraction.",
     "Which power of ten goes downstairs for 2.05?"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -512,7 +623,22 @@
      "action": "Reduce fully",
      "explain": "Cancel common factors, e.g. 35/100 down to 7/20."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.3.6.3",
@@ -529,7 +655,7 @@
     "How many nines go downstairs for a 3-digit repeating block?",
     "Turn 0.142857 with the block repeating into a fraction."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -546,7 +672,22 @@
      "action": "Subtract and solve",
      "explain": "The shifted read minus x kills the infinite tail; solve for x and reduce."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.3.6.4",
@@ -563,7 +704,7 @@
     "Turn 1.235 with 35 repeating into a fraction in lowest terms.",
     "Why do zeros appear among the nines in the denominator?"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -580,7 +721,22 @@
      "action": "Subtract the shifted reads",
      "explain": "Subtract the first shifted equation from the second; solve and reduce."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.3.6.5",
@@ -597,7 +753,7 @@
     "Multiply the block by 3 and check the circular shift of digits.",
     "Find the repeating block of 1/13 by long division."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -614,7 +770,22 @@
      "action": "Confirm the cyclic property",
      "explain": "If every multiplier from 1 to one-less-than-the-block-length merely rotates the digits, the block is cyclic; this rotation is the defining test."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "verify the number-theory claim numerically",
+     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
+     "compute": "lhs = 3 ** 3 + 4 ** 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
+     "compute": "diff = 5 ** 3 - lhs"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

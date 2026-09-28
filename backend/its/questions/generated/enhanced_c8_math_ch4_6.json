@@ -34,6 +34,26 @@
      "q": "Create a Venn diagram showing the relationship between: Quadrilaterals, Parallelograms, Rectangles, Rhombuses, Squares. Label each region with an example shape (e.g., \"rectangle that is not a square: 5 cm × 3 cm\"). Explain why the square region lies at the intersection of rectangle and rhombus.",
      "a": "The Venn diagram: largest circle \"Quadrilaterals\" containing \"Parallelograms\" containing two overlapping circles \"Rectangles\" and \"Rhombuses\" whose intersection is \"Squares.\"\nLabels:\n- Quadrilateral only: general kite\n- Parallelogram only: 5 cm × 3 cm parallelogram with non-right angles\n- Rectangle only (not square): 6 cm × 4 cm rectangle\n- Rhombus only (not square): rhombus with 60°/120° angles, side 5 cm\n- Square: 4 cm × 4 cm square\nSquare lies at the intersection because it satisfies both definitions: rectangle (four right angles) AND rhombus (four equal sides). A poor diagram with disjoint rectangle/rhombus circles reveals the misconception that a shape cannot belong to two special categories simultaneously.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A square is a special type of ______ where all four sides are equal in length.",
+     "a": "rectangle",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your younger sibling tile a ______ kitchen floor measuring 3 metres by 3 metres.",
+     "a": "rectangular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Formally, a quadrilateral is a square if and only if it satisfies all properties of a rectangle (opposite sides parallel and equal, all angles ______°, diagonals equal and bisect each other) with the additional condition that adjacent sides are congruent, making all four sides equal.",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why every square is a rectangle using property definitions, correctly classify a given quadrilateral as square, rectangle, or neither based on side lengths and angles, and justify why a rectangle with unequal adjacent sides cannot be a square.",
+     "self_check": true
     }
    ]
   }

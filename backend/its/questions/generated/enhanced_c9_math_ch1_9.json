@@ -34,6 +34,21 @@
      "q": "Create a real-world problem (using Indian context: metres, rupees, etc.) where finding trisection points is necessary. Provide the endpoints and ask for the coordinates of the trisection points. Then solve it.",
      "a": "Example problem: \"A straight pipeline is to be laid from a water tank at (10, 20) to a village at (40, 50) (coordinates in metres). Two inspection chambers must be placed so that the pipeline is divided into three equal lengths. Find the coordinates where the chambers should be built.\" Solution: A(10,20), B(40,50). First chamber (nearer tank): ratio 1:2 → x = (1·40+2·10)/3 = 60/3=20; y = (1·50+2·20)/3 = 90/3=30 → (20,30). Second chamber: ratio 2:1 → x = (2·40+1·10)/3 = 90/3=30; y = (2·50+1·20)/3 = 120/3=40 → (30,40). A poor answer would give a problem that doesn't require equal division (e.g., asks for midpoint) or solves with wrong ratios.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If a line ______ joining points A(x₁, y₁) and B(x₂, y₂) is divided into three equal parts by points P and Q, then P divides AB internally in the ratio 1:2 and Q divides AB internally in the ratio 2:1.",
+     "a": "segment",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ road between your school (point A) and the market (point B).",
+     "a": "straight",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly compute the coordinates of trisection points for any given segment endpoints, explain why the ratios are 1:2 and 2:1, and apply this to solve problems where one trisection point is known and an endpoint must be found.",
+     "self_check": true
     }
    ]
   }

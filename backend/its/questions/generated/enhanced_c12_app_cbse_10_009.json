@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_10_009",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_10_009",
+   "title": "c12_app_cbse_10_009",
+   "questions": [
+    {
+     "q": "State the fundamental theorem that justifies evaluating the objective function only at corner points of the feasible region in the Corner-Point Method.",
+     "a": "The fundamental theorem states: If the feasible region R for an LPP with objective function Z = ax + by is a convex polygon, then the optimal value of Z (maximum or minimum) occurs at a corner point (vertex) of R. A wrong answer (e.g., \"we check all points inside the region\") reveals the student doesn't understand that linear functions attain extrema at boundaries of convex sets — a core geometric insight that makes graphical LPP efficient.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves an LPP and finds the feasible region is unbounded. They evaluate Z at all corner points and find a maximum value of 50 at corner (4, 2). They conclude the maximum is 50. Explain why this conclusion might be wrong and what additional step is required.",
+     "a": "For an unbounded feasible region, a corner point giving a maximum value does not guarantee that value is the true global maximum — the objective function could increase indefinitely along an unbounded edge. The student must perform the half-plane test: graph the line Z = 50 (i.e., ax + by = 50) and check if the open half-plane ax + by > 50 has any point in common with the feasible region. If it does, no maximum exists; if not, 50 is the true maximum. Skipping this step is a classic board-exam error that costs full marks.",
+     "self_check": true
+    },
+    {
+     "q": "Solve graphically using the Corner-Point Method: Maximize Z = 4x + 3y subject to x + y ≤ 6, 2x + y ≤ 8, x ≥ 0, y ≥ 0. Show all corner points and the optimal solution.",
+     "a": "Step 1: Plot constraints. x+y=6 meets axes at (6,0) and (0,6); 2x+y=8 meets at (4,0) and (0,8). Non-negativity restricts to first quadrant. Step 2: Find corner points by solving intersections: O(0,0), A(4,0) from 2x+y=8 & y=0, B(2,4) from x+y=6 & 2x+y=8, C(0,6) from x+y=6 & x=0. Step 3: Evaluate Z: O→0, A→16, B→20, C→18. Step 4: Maximum Z = 20 at (2,4). A wrong answer (e.g., missing corner B or miscalculating intersection) reveals poor algebraic solving of simultaneous equations or incorrect feasible region shading.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Corner-Point Method and the Iso-Profit Method for a bounded feasible region. In what specific situation would the Corner-Point Method be strictly preferable, and why?",
+     "a": "The Corner-Point Method is strictly preferable when the objective function coefficients are such that drawing parallel iso-profit lines is cumbersome (e.g., Z = 7x + 11y — slope -7/11 is hard to plot accurately by hand) or when multiple optimal solutions exist along an edge — the Corner-Point Method immediately reveals this by showing equal Z values at two adjacent corners, while the Iso-Profit Method requires careful observation that the farthest parallel line coincides with an entire edge. A wrong answer (e.g., \"Iso-Profit is always faster\") shows lack of strategic thinking about computational efficiency in exam conditions.",
+     "self_check": true
+    },
+    {
+     "q": "An LPP has constraints: x + 2y ≥ 10, 3x + y ≥ 15, x ≥ 0, y ≥ 0. The objective is Minimize Z = 5x + 4y. A student claims the minimum is at (0,5) because it's the \"closest to origin\" corner. Evaluate this reasoning.",
+     "a": "The student's reasoning is flawed. \"Closest to origin\" is not a valid criterion for minimization — the objective function coefficients (5, 4) determine the direction of decrease, not Euclidean distance. The feasible region is unbounded (constraints are ≥). Correct steps: Find corners by solving x+2y=10 & 3x+y=15 → (4,3); x+2y=10 & x=0 → (0,5); 3x+y=15 & y=0 → (5,0). Evaluate Z: (4,3)→32, (0,5)→20, (5,0)→25. Minimum is 20 at (0,5) — coincidentally correct here, but for wrong reason. For Z = x + 10y, minimum would be at (4,3), not (0,5). The half-plane test for Z < 20 must also be done since region is unbounded. This exposes the dangerous misconception that \"minimization = closest to origin.\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a two-variable LPP with an unbounded feasible region where the objective function has NO maximum but HAS a minimum. Provide the constraints, objective function, and explain why this happens geometrically.",
+     "a": "Example: Maximize/Minimize Z = x + y subject to x - y ≥ 1, x ≥ 0, y ≥ 0. Feasible region: unbounded wedge in first quadrant above line y = x - 1. Corners: (1,0) only (intersection of x-y=1 and y=0). Z at (1,0) = 1. For minimum: half-plane x+y < 1 has no intersection with feasible region → minimum = 1 exists. For maximum: half-plane x+y > 1 contains infinite points of feasible region (e.g., (100,99)) → no maximum. A poor answer (e.g., bounded region or both max/min exist) reveals misunderstanding of how objective function direction aligns with unbounded edges.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

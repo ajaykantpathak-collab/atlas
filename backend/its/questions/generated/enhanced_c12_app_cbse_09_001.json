@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_09_001",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_09_001",
+   "title": "c12_app_cbse_09_001",
+   "questions": [
+    {
+     "q": "What is the present value of a perpetuity of ₹1,000 payable at the end of each year forever, if the interest rate is 10% per annum compounded annually?",
+     "a": "Correct answer: ₹10,000. Formula: P = R/i = 1000/0.10 = 10,000. A wrong answer of ₹1,000 reveals the student thinks \"present value = one payment\" and ignores discounting. An answer of \"infinite\" reveals the student doesn't understand that an infinite geometric series with |r|<1 converges. An answer of ₹11,000 reveals confusion with perpetuity due (R + R/i).",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the present value of a perpetuity is finite even though payments continue forever. Use the concept of discounting.",
+     "a": "Correct explanation: Each future payment is worth less today because of the time value of money. The present value of the nth payment is R(1+i)⁻ⁿ, which forms an infinite geometric series with common ratio (1+i)⁻¹ < 1. The sum of this infinite series is R/i, which is finite. A wrong answer saying \"because payments get smaller\" reveals confusion — the payment amount R is constant; it's the *present value* of each payment that shrinks. Saying \"because interest eats it up\" is vague and shows lack of mathematical reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "A perpetuity pays ₹500 at the end of each quarter. The present value is ₹40,000. Find the annual nominal rate compounded quarterly.",
+     "a": "Correct answer: 5% p.a. compounded quarterly. Steps: (1) P = R/i_per_period → 40000 = 500/i → i = 500/40000 = 0.0125 per quarter. (2) Annual nominal rate = i × 4 = 0.0125 × 4 = 0.05 = 5%. A wrong answer of 1.25% reveals the student forgot to multiply by 4 to get the annual nominal rate. An answer of 5.09% reveals confusion with effective annual rate (1.0125⁴ - 1). An answer using P = R + R/i reveals confusion with perpetuity due.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the present value of two perpetuities: (A) ₹1,000 at end of each year at 8% p.a., (B) ₹1,000 at beginning of each year at 8% p.a. Which is larger and by how much? Explain the structural difference.",
+     "a": "Correct answer: Perpetuity due (B) is larger by exactly ₹1,000. P_A = 1000/0.08 = 12,500. P_B = 1000 + 1000/0.08 = 13,500. Difference = 1000. Structural difference: Perpetuity due = immediate payment + perpetuity immediate. A wrong answer saying they are equal reveals the student doesn't distinguish payment timing. Saying B is larger by 8% (₹1,080) reveals confusion with one period's interest rather than the full payment amount.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If the interest rate doubles, the present value of a perpetuity halves.\" Evaluate this claim. Is it always true, sometimes true, or never true? Justify.",
+     "a": "Correct evaluation: Always true for perpetuity immediate (P = R/i → P ∝ 1/i). If i becomes 2i, P becomes R/(2i) = (1/2)(R/i). For perpetuity due: P = R + R/i. If i doubles, new P = R + R/(2i). This is NOT exactly half the original (R + R/i)/2 = R/2 + R/(2i). The claim is false for perpetuity due. A student saying \"always true\" without distinguishing perpetuity type reveals oversimplification. Saying \"never true\" reveals misunderstanding of inverse proportionality.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where a perpetuity calculation would be used. Define all variables (R, i, payment frequency) and state whether it's perpetuity immediate or due. Then write the present value expression.",
+     "a": "Good answer example: \"A temple trust wants to fund daily annadanam (free meals) costing ₹10,000 per day forever. Bank offers 6% p.a. compounded daily. Perpetuity immediate (payment at end of each day). R = 10,000, i = 0.06/365, P = 10000 / (0.06/365) = ₹6,08,33,333.\" A poor answer uses annual payments for a daily expense, or forgets to convert annual rate to daily rate, or doesn't specify payment timing. This reveals inability to map real-world cash flows to the correct perpetuity type and compounding frequency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

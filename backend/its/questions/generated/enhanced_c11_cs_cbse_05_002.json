@@ -34,6 +34,21 @@
      "q": "Create a real-world scenario (Indian context) where a Boolean expression using at least three different relational operators and one chained comparison would be needed. Write the Python expression and explain each part.",
      "a": "Scenario: A railway concession program checks if a passenger qualifies for a senior citizen discount. Conditions: age ≥ 60, distance > 500 km, and fare between ₹1000 and ₹5000 inclusive. Expression: `age >= 60 and distance > 500 and 1000 <= fare <= 5000`. Parts: `age >= 60` (>= relational), `distance > 500` (> relational), `1000 <= fare <= 5000` (chained comparison with <= twice). A poor answer uses only one operator type, omits chained comparison, or creates an unrealistic scenario (e.g., comparing unrelated quantities like age and fare directly).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ operators in Python (==, !=, >, <, >=, <=) compare two operands and evaluate to a Boolean value (True or False).",
+     "a": "Relational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a program for a school canteen that checks if a student's prepaid balance (₹150) is ______ to buy a lunch combo (₹120).",
+     "a": "sufficient",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must correctly predict the Boolean result of any expression involving relational operators on integers, floats, and strings, explain how chained comparisons (e.g., a < b < c) are evaluated, and identify the precedence of relational operators relative to arithmetic and logical operators in a multi-operator expression.",
+     "self_check": true
     }
    ]
   }

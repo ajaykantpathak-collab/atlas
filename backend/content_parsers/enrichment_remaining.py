@@ -1,3 +1,4 @@
+import os
 """
 Enrichment Remaining Generator
 - Parses existing .marker files to find which nodes are already covered
@@ -18,9 +19,9 @@ from collections import defaultdict
 
 # ─── Config ───
 # Keys can be overridden via --key argument
-KEY_0 = "sk-ant-co-QsK1rhxdfRWZ65OJ5cVxaAZ5ISNUY0lK"
+KEY_0 = os.environ.get('ANTHROPIC_API_KEY') or ''
 URL_0 = "https://api.claudeopus.pro/v1/messages"
-KEY_1 = "sk-ant-opm-gCvQy5dW5Vaw09slQ6TH6ap31b30cwCl"
+KEY_1 = os.environ.get('ANTHROPIC_API_KEY') or ''
 URL_1 = "https://api.opusmax.pro/v1/messages"
 
 API_KEY = KEY_0

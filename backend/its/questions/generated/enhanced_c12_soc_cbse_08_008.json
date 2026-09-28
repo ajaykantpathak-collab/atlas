@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_08_008",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_08_008",
+   "title": "c12_soc_cbse_08_008",
+   "questions": [
+    {
+     "q": "What was the explicit purpose of Macaulay's Minute (1835) according to the British colonial state?",
+     "a": "The explicit purpose was to create \"a class of persons, Indian in blood and colour, but English in taste, in opinions, in morals and in intellect\" who would serve as intermediaries — clerks, lower administrators, teachers — to reduce the cost of colonial governance. A wrong answer (e.g., \"to modernise India\" or \"to spread scientific temper\") reveals the student confuses British *stated intent* with *long-term unintended consequences* or nationalist *reinterpretation* of the policy.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why D.P. Mukerjee (Box 1.3 in NCERT) called the English-educated graduates \"job hunters\" and zamindars \"parasites in land\" — what structural change does this critique reveal?",
+     "a": "Mukerjee highlights that colonial education delinked credentials from productive economic activity: English degrees created a surplus of literate but unemployable youth chasing scarce government jobs, while zamindari rights gave landlords revenue without agricultural improvement. A wrong answer (e.g., \"Mukerjee hated educated people\") misses the structural point — he is diagnosing how colonial rule *reconfigured class formation* by making state employment the primary route to status, not entrepreneurship or farming innovation.",
+     "self_check": true
+    },
+    {
+     "q": "A Dalit student in 1920s Maharashtra learns English in a missionary school and becomes a clerk in the colonial administration. Using the concept of \"structural contradiction,\" explain how this individual's trajectory exposes a flaw in the colonial design of English education.",
+     "a": "The colonial design assumed English education would produce loyal intermediaries from *upper-caste* groups (Brahmins, Kayasths) who had prior access to literacy. But by making English a *formal credential* detached from caste ritual, it became accessible to Dalits via missionary schools — creating a mobile group whose loyalty to the Raj was contingent, not guaranteed. A wrong answer (e.g., \"Dalits weren't allowed in schools\") ignores historical evidence: missionaries *did* educate Dalits, and the colonial state *could not* legally bar them from government service once qualified, creating a structural contradiction the Raj never resolved.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of English education on two groups: (a) traditional Brahmin scribes in Bengal (1800-1850) and (b) Dalit converts in Punjab (1880-1920). What does this comparison reveal about the *differential* restructuring of social stratification?",
+     "a": "Brahmin scribes *lost* monopoly over literacy and state service as English replaced Persian; they adapted by monopolising English education themselves, converting ritual capital into modern credential capital. Dalit converts *gained* first-time access to literacy and white-collar work, but faced a \"glass ceiling\" — clustered in low-rank jobs, excluded from elite networks. The comparison reveals English education *reproduced* hierarchy in new form: it displaced old elites but created new ones, while offering Dalits *partial* mobility without dismantling caste endogamy or social exclusion. A wrong answer (e.g., \"both benefited equally\") flattens the stratified outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Macaulay's Minute was the single most consequential structural intervention in Indian society because it created the modern Indian middle class.\" Defend or critique using evidence from 1835-1947.",
+     "a": "Critique: The \"middle class\" emerged from *multiple* structural shifts — land revenue settlements (creating zamindars/ryots), deindustrialisation (pushing artisans into wage labour), railways (enabling migration), and law courts (creating lawyer class). English education was *necessary but not sufficient*; it provided the *cultural capital* for middle-class identity, but the *economic base* came from colonial property rights and labour markets. A wrong answer (uncritical agreement) commits monocausal fallacy — ignoring how the middle class was *heterogeneous* (merchant, professional, bureaucratic fractions) with distinct origins.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research question for a village study that would test whether English-medium schooling today reproduces or disrupts the colonial-era stratification patterns identified in this node. Specify the variables, comparison groups, and expected contradictory findings.",
+     "a": "Research question: \"In a North Indian village with both government Hindi-medium and private English-medium schools, do Dalit children in English-medium schools achieve occupational mobility *relative to* upper-caste children in Hindi-medium schools — or does caste still mediate returns to English?\" Variables: (1) School medium, (2) Caste, (3) Father's occupation, (4) Current occupation/income, (5) English proficiency test score. Comparison groups: Dalit-English vs Dalit-Hindi vs Upper-caste-English vs Upper-caste-Hindi. Expected contradiction: English helps Dalits *absolutely* but upper-caste English children still outperform them *relatively* — reproducing the colonial pattern where English was necessary but not sufficient for equality. A poor answer proposes only \"does English help?\" without caste interaction — missing the structural stratification lens.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The English Education System introduced through Macaulay's Minute (1835) was a colonial policy that replaced Persian and vernacular education with English-medium instruction to create a class of Indians \"English in taste, in opinions, in morals and in intellect\" who would serve as ______ between British rulers and Indian subjects, fundamentally restructuring Indian social stratification by making English literacy the new marker of privilege and mobility.",
+     "a": "intermediaries",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a Dalit student in 2024 getting a high-paying IT job solely because of ______ fluency — a skill their great-grandparents were denied by caste law.",
+     "a": "English",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The English Education System introduced through Macaulay's Minute (______) was a colonial policy that replaced Persian and vernacular education with English-medium instruction to create a class of Indians \"English in taste, in opinions, in morals and in intellect\" who would serve as intermediaries between British rulers and Indian subjects, fundamentally restructuring Indian social stratification by making English literacy the new marker of privilege and mobility.",
+     "a": "1835",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the paradoxical consequences of Macaulay's Minute: how it simultaneously created a new English-educated elite that administered colonial rule AND produced the nationalist leadership that dismantled it, while also becoming a tool for Dalit assertion against caste oppression — using specific historical evidence from.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a Dalit student in 2024 getting a high-paying IT job solely because of English fluency — a skill their great-______ were denied by caste law.",
+     "a": "grandparents",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

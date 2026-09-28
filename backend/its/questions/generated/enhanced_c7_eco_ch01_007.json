@@ -27,12 +27,32 @@
     },
     {
      "q": "Evaluate why a merchant in a busy market would prefer digital payments over cash transactions at the end of the day.",
-     "a": "[Answer needed]",
+     "a": "A merchant prefers digital payments because they remove the risk of theft, spare him the trip carrying cash to the bank, record every sale automatically, and save the time spent counting change at day's end. A student who insists cash is always safer has missed these security and book-keeping advantages.",
      "self_check": true
     },
     {
      "q": "Digital payments reduce the risk of theft, eliminate the need to carry heavy cash to the bank, provide automatic digital accounting records, and save time spent counting change. A student who argues cash is always superior overlooks the safety, efficiency, and transaction-tracking benefits that modern digital infrastructure provides to businesses.",
-     "a": "[Answer needed]",
+     "a": "Correct — digital payments offer safety from theft, easy bank deposits, automatic transaction records, and time saved on counting change; treating cash as always superior overlooks these efficiency benefits to a business.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Modern forms of money include bank deposits, cheques, and digital money, which do not have physical form as coins or paper notes but serve as ______ accepted mediums of exchange backed by the banking system and legal authority.",
+     "a": "universally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Aarav watches his mother pay for groceries at the local supermarket by scanning a QR code with her smartphone, while the ______ receives an instant notification beep on his device.",
+     "a": "shopkeeper",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can explain how bank deposits, cheques, and digital transfers function as money, trace the flow of funds in a cheque or digital transaction, and distinguish between physical currency and account-based modern money.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Aarav watches his mother pay for groceries at the local supermarket by scanning a QR code with her smartphone, while the shopkeeper receives an instant ______ beep on his device.",
+     "a": "notification",
      "self_check": true
     }
    ]

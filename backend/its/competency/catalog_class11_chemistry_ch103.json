@@ -52,7 +52,16 @@
      "solution": "Step 1: Sum the atomic weights of the first and third elements. Step 2: Calculate the average atomic weight. Step 3: Compare the predicted weight with the actual atomic weight of the middle element. Working: weight_1 + weight_3, weight_sum / 2, abs(mid_weight - actual_mid_weight).",
      "answer": "The method of dobereiner's law of triads leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mid_weight = (weight_1 + weight_3) / 2",
+     "compute": "mid_weight = (weight_1 + weight_3) / 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kech.3.2",
@@ -171,7 +180,7 @@
     "identify the block and group of an element given its outer configuration",
     "give one everyday example of period and group from electronic configuration"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -188,7 +197,16 @@
      "action": "Determine the block and group number",
      "explain": "For s-block, group is the number of valence electrons. For p-block, group is 10 + valence electrons. For d-block, group is 2 + (n-1)d electrons."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "period = max_n",
+     "compute": "period = max_n"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kech.3.6",
@@ -305,7 +323,16 @@
      "solution": "Step 1: Find the absolute value of the ground state energy. Step 2: Multiply by Avogadro's number to get energy per mole. Step 3: Express the result in appropriate units. Working: abs(ground_energy), energy_magnitude * avogadro, ionization_enthalpy.",
      "answer": "The method of ionization enthalpy of hydrogen leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ionization_enthalpy = abs(ground_energy) * avogadro",
+     "compute": "ionization_enthalpy = abs(ground_energy) * avogadro"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kech.3.9",

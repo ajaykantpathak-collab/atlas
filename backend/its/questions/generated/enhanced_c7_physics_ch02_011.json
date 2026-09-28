@@ -34,6 +34,31 @@
      "q": "Design a simple testing procedure using everyday classroom items to prove whether ordinary tap water conducts electricity while pure distilled water does not.",
      "a": "To test this, set up a tester circuit with a battery, a bulb, and two free wire ends. Dip the free wire ends into a beaker of distilled water (the bulb will not glow). Then, dissolve a pinch of common salt into the water or use tap water and dip the wires again; the bulb will glow, proving that dissolved minerals enable water to conduct electricity. A poor answer fails to include a control substance or forgets to mention dissolved minerals as the current carrier.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Testing ______ is the experimental process of determining whether a material permits electric current to flow through it easily (conductor) or obstructs the flow (insulator).",
+     "a": "conductivity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you touch a metal water tap with wet hands while standing barefoot, you might feel a mild tingling sensation because metal conducts ______.",
+     "a": "electricity",
+     "self_check": true
+    },
+    {
+     "q": "What is Testing conductivity? State the definition given in this lesson.",
+     "a": "Testing conductivity is the experimental process of determining whether a material permits electric current to flow through it easily (conductor) or obstructs the flow (insulator).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Testing conductivity?",
+     "a": "Students often believe that all solid objects found outdoors or in nature are electrical insulators, or conversely, that any shiny object will automatically light a testing bulb.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can systematically test different solid and liquid materials using a tester circuit, classify them accurately as conductors or insulators, and predict whether a new appliance component will be safe to touch based on its material properties.",
+     "self_check": true
     }
    ]
   }

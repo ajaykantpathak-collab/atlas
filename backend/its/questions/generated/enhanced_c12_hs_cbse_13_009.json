@@ -34,6 +34,31 @@
      "q": "Design a flowchart showing the path of a consumer complaint from filing to final appeal under the 1986 Act, including pecuniary thresholds and appeal time limits.",
      "a": "A good flowchart has three boxes: District Forum (≤₹20 lakh) → appeal in 30 days → State Commission (₹20 lakh–₹1 crore) → appeal in 30 days → National Commission (>₹1 crore) → appeal to Supreme Court in 30 days. Missing thresholds, wrong time limits, or skipping the Supreme Court appeal indicates incomplete mental model of the hierarchy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Consumer Protection Act 1986 establishes a three-tier quasi-judicial redressal mechanism (District Forum, State Commission, National Commission) to provide simple, speedy, and inexpensive justice to consumers for defects in goods or deficiency in services, with pecuniary ______ determining the appropriate forum.",
+     "a": "jurisdiction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you bought a defective refrigerator worth ₹15,000 and the seller ______ to replace it.",
+     "a": "refuses",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Consumer Protection Act ______ establishes a three-tier quasi-judicial redressal mechanism (District Forum, State Commission, National Commission) to provide simple, speedy, and inexpensive justice to consumers for defects in goods or deficiency in services, with pecuniary jurisdiction determining the appropriate forum.",
+     "a": "1986",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify which forum has jurisdiction for a given complaint value, explain the composition and powers of each forum, and describe the appeal process from District to State to National Commission.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you bought a defective ______ worth ₹15,000 and the seller refuses to replace it.",
+     "a": "refrigerator",
+     "self_check": true
     }
    ]
   }

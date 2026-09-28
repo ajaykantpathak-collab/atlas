@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch13_7",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch13_7",
+   "title": "c9_math_ch13_7",
+   "questions": [
+    {
+     "q": "What is the formula for the volume of a right circular cone with radius r and height h?",
+     "a": "The formula is V = (1/3)πr²h. A student who writes V = πr²h is confusing the cone with a cylinder and forgetting the essential one-third factor, indicating they haven't internalized how the cone's volume relates to the cylinder's volume despite having the same base and height.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the volume of a cone is one-third the volume of a cylinder with the same base and height, without using calculus.",
+     "a": "The volume of a cone is one-third that of a matching cylinder because if you fill the cone with sand or water and pour it into the cylinder, it takes exactly three full cones to fill the cylinder. This can be demonstrated physically or reasoned through geometric principles like Cavalieri's principle applied to pyramids and cones. A student who says \"because the cone is smaller\" or gives no justification shows they understand the formula superficially but not the geometric relationship that justifies the 1/3 factor.",
+     "self_check": true
+    },
+    {
+     "q": "A conical pile of rice has a radius of 9 dm and a height of 12 dm. Calculate its volume in cubic decimeters. Use π = 22/7.",
+     "a": "**Step 1:** Identify given values: radius r = 9 dm, height h = 12 dm, π = 22/7.  \n**Step 2:** Write the volume formula: V = (1/3)πr²h  \n**Step 3:** Calculate r²: 9² = 81 dm²  \n**Step 4:** Calculate πr²: (22/7) × 81 = (22 × 81)/7 = 1782/7 dm²  \n**Step 5:** Multiply by height: (1782/7) × 12 = (1782 × 12)/7 = 21384/7 dm³  \n**Step 6:** Apply one-third: V = (1/3) × (21384/7) = 21384/(3×7) = 21384/21 = 1018.2857... ≈ 1018.29 dm³  \n**Answer:** 1018.29 dm³ (or exactly 1018 2/7 dm³)  \nA student who forgets to divide by 3 and gives 3054.86 dm³ is making the most common error—applying the cylinder formula directly to a cone—showing they haven't distinguished between the two solids' volume relationships.",
+     "self_check": true
+    },
+    {
+     "q": "Two cones have the same height. Cone A has twice the radius of Cone B. How many times larger is the volume of Cone A compared to Cone B?",
+     "a": "Volume scales with the square of the radius. If Cone A has radius 2r and Cone B has radius r (same height h), then:  \nV_A = (1/3)π(2r)²h = (1/3)π(4r²)h = 4 × [(1/3)πr²h] = 4V_B  \nThus, Cone A has 4 times the volume of Cone B.  \nA student who answers \"2 times\" is incorrectly assuming volume scales linearly with radius, forgetting that r is squared in the formula. This reveals a failure to grasp how dimensional changes affect volume in power relationships.",
+     "self_check": true
+    },
+    {
+     "q": "A student calculates the volume of a cone with radius 7 cm and height 24 cm as follows:  \nStep 1: V = (1/3)πr²h  \nStep 2: V = (1/3) × (22/7) × 7 × 24  \nStep 3: V = (1/3) × 22 × 24  \nStep 4: V = (1/3) × 528 = 176 cm³  \nIdentify and explain the error in the student's working.",
+     "a": "The error is in Step 2: the student used r instead of r². They wrote πr as (22/7)×7 instead of πr² as (22/7)×7².  \nCorrect working:  \nV = (1/3) × (22/7) × (7)² × 24  \n= (1/3) × (22/7) × 49 × 24  \n= (1/3) × 22 × 7 × 24  \n= (1/3) × 3696  \n= 1232 cm³  \nA student who cannot spot this error likely doesn't understand that r² means r×r, not just r, indicating a gap in algebraic substitution skills when formulas involve squares.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world problem involving the volume of a cone that requires converting between units (e.g., cm to m) and solving for an unknown dimension. Provide the problem and outline how you would solve it.",
+     "a": "**Expected answer:** A problem like: \"A conical water tank has a volume of 154 m³ and a height of 12 m. Find its radius in centimeters.\"  \n**Solution outline:**  \n1. Use V = (1/3)πr²h → 154 = (1/3)×(22/7)×r²×12  \n2. Simplify: 154 = (1/3)×(22/7)×12×r² = (88/7)r²  \n3. Solve for r²: r² = 154 × (7/88) = (154/88)×7 = (7/4)×7 = 49/4  \n4. r = √(49/4) = 7/2 = 3.5 m  \n5. Convert to cm: 3.5 × 100 = 350 cm  \nA poor answer that omits unit conversion, forgets to take square root, or misapplies the formula shows inability to integrate multiple steps—unit handling, algebraic manipulation, and geometric understanding—into a coherent solution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,36 @@
      "q": "A student says: \"The probability of the sun rising tomorrow is 1, so it is a certain event.\" Evaluate this statement mathematically and explain the difference between mathematical certainty and empirical certainty.",
      "a": "Mathematically, a certain event has P = 1 because all outcomes in the sample space are favorable. The sun rising is not a mathematical event — it is an empirical event based on physical laws. We assign it P = 1 based on overwhelming empirical evidence (it has happened every day), but this is empirical certainty, not mathematical certainty. In a mathematical model (e.g., a die roll), P = 1 means \"all outcomes are favorable by definition.\" In the real world, P = 1 means \"we are confident based on evidence.\" The distinction matters because mathematical certainty is absolute (by definition), while empirical certainty is based on induction and could theoretically fail. A wrong answer that treats them as identical misses the philosophical distinction between mathematical and empirical reasoning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Impossible and certain events are the two ______ cases of probability: an impossible event has probability 0 (it can never occur, e.g., rolling a 7 on a standard six-sided die), and a certain event has probability 1 (it must always occur, e.g., rolling a number between 1 and 6 on a standard die).",
+     "a": "extreme",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine rolling a ______ six-sided die (faces 1, 2, 3, 4, 5, 6).",
+     "a": "standard",
+     "self_check": true
+    },
+    {
+     "q": "What is Impossible and certain events? State the definition given in this lesson.",
+     "a": "Impossible and certain events are the two extreme cases of probability: an impossible event has probability 0 (it can never occur, e.g., rolling a 7 on a standard six-sided die), and a certain event has probability 1 (it must always occur, e.g., rolling a number between 1 and 6 on a standard die).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It is ______ — every face shows a number in this range, so it must always happen.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Impossible and certain events?",
+     "a": "Students confuse \"impossible\" with \"very unlikely\" and \"certain\" with \"very likely.\" The exact error: they use \"impossible\" for events with very low probability (e.g., winning the lottery) and \"certain\" for events with very high probability (e.g., rain during monsoon).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can define impossible (P=0) and certain (P=1) events, classify given events as impossible, certain, or neither, explain why probabilities must lie between 0 and 1 inclusive, and give real-life examples of each type.",
+     "self_check": true
     }
    ]
   }

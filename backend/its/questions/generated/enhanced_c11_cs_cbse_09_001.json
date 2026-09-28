@@ -34,6 +34,36 @@
      "q": "Design a small project scenario (2-3 sentences) where you must decide between using a text file and a binary file. Specify the data type, intended users, and operations, then state your choice with reasoning.",
      "a": "Example: \"A school library system stores book records (title, author, ISBN, cover image). The librarian needs to edit book details manually sometimes, but cover images must be stored efficiently.\" Choice: Use a text file (JSON) for book metadata (human-editable, structured) and separate binary files (JPEG) for cover images. A poor answer would choose one file type for everything (e.g., \"store everything in a binary file\") ignoring that metadata benefits from text readability and images require binary storage. This shows inability to match file type to data nature and user needs.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: File handling is the process of storing data ______ on secondary storage devices (like hard disks) using files, enabling data persistence beyond program execution.",
+     "a": "permanently",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a program to store the marks of 500 students in a school.",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "What is File handling? State the definition given in this lesson.",
+     "a": "File handling is the process of storing data permanently on secondary storage devices (like hard disks) using files, enabling data persistence beyond program execution.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A file is a named collection of related data stored on a non-volatile medium, and file types are primarily categorized as text files (human-readable, encoded in character sets like ASCII/UTF-______) and binary files (machine-readable, storing raw bytes for images, audio, executables, etc.).",
+     "a": "8",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about File handling?",
+     "a": "Students often believe that file extension (e.g., .txt, .dat, .bin) determines whether a file is text or binary.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between text and binary files with examples, explain why file handling is necessary for data persistence, and identify the appropriate file type for a given real-world scenario (e.g., storing student marks vs. storing a photograph).",
+     "self_check": true
     }
    ]
   }

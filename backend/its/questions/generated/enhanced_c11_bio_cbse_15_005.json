@@ -34,6 +34,31 @@
      "q": "Design a flowchart showing the path of a single red blood cell starting in the right atrium, traversing both circuits, and returning to the right atrium. Include every chamber, valve, and major vessel; indicate oxygenation state at each step.",
      "a": "Right atrium (deoxy) → tricuspid valve → right ventricle (deoxy) → pulmonary valve → pulmonary artery (deoxy) → pulmonary capillaries (gas exchange) → pulmonary veins (oxy) → left atrium (oxy) → mitral valve → left ventricle (oxy) → aortic valve → aorta (oxy) → systemic arteries → systemic capillaries (gas exchange) → systemic veins (deoxy) → vena cava (deoxy) → right atrium. A poor answer omits valves, confuses pulmonary/systemic vessels, or shows oxygenation change at the wrong site (e.g., in the heart chambers instead of capillaries), revealing a lack of spatial-temporal integration of the circuit.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Double circulation is a ______ pathway in which blood passes through the heart twice to complete one full circuit of the body, comprising two distinct circuits: pulmonary circulation (right ventricle → pulmonary artery → lungs → pulmonary veins → left atrium) for gas exchange, and systemic circulation (left ventricle → aorta → body tissues → vena cava → right atrium) for nutrient/waste exchange.",
+     "a": "circulatory",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine running to catch a bus in Delhi's winter air — your leg ______ burn, your heart pounds, and you gasp for breath.",
+     "a": "muscles",
+     "self_check": true
+    },
+    {
+     "q": "What is Double circulation? State the definition given in this lesson.",
+     "a": "Double circulation is a circulatory pathway in which blood passes through the heart twice to complete one full circuit of the body, comprising two distinct circuits: pulmonary circulation (right ventricle → pulmonary artery → lungs → pulmonary veins → left atrium) for gas exchange, and systemic circulation (left ventricle → aorta → body.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Double circulation?",
+     "a": "Students believe the pulmonary and systemic circuits operate independently — that the right heart \"handles lungs\" and left heart \"handles body\" without interaction.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can trace a red blood cell's complete journey through both circuits naming all chambers, valves, and major vessels; explain why pulmonary artery pressure is 1/5th of aortic pressure using vascular resistance principles; and justify why double circulation is a prerequisite for endothermy by comparing oxygen delivery capacity.",
+     "self_check": true
     }
    ]
   }

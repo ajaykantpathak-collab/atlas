@@ -22,7 +22,7 @@
     "write in words what 2a + 5 could describe",
     "give the letter expression for a number increased by 7"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -39,7 +39,16 @@
      "action": "check the answer",
      "explain": "Verify by reversing or re-checking, then conclude."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 9 + 5 gives 32",
+     "compute": "val = 3 * 9 + 5"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.4.2",
@@ -89,7 +98,7 @@
     "how does a letter-number rule show a pattern grows",
     "use your rule to predict the 10th figure"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -106,7 +115,16 @@
      "action": "check the answer",
      "explain": "Verify by reversing or re-checking, then conclude."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 3 + 6 gives 15",
+     "compute": "val = 3 * 3 + 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.4.4",
@@ -124,7 +142,7 @@
     "check the simplified form by putting a number",
     "write a shorter form of a + a + a"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -141,7 +159,16 @@
      "action": "check the answer",
      "explain": "Verify by reversing or re-checking, then conclude."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 3 + 6 gives 15",
+     "compute": "val = 3 * 3 + 6"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

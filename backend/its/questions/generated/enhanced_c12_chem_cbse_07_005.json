@@ -34,6 +34,26 @@
      "q": "Design a simple laboratory experiment to demonstrate that branching in alcohols lowers boiling point, using only common lab chemicals (butan-1-ol, 2-methylpropan-2-ol, thermometer, heat source). Outline the procedure, expected observations, and the conclusion linking structure to property.",
      "a": "Procedure: Place 5 mL of butan-1-ol in a test tube with a thermometer, heat gently in a water bath, record boiling point. Repeat with 2-methylpropan-2-ol. Observation: Butan-1-ol boils at ~390 K, tert-butanol at ~356 K. Conclusion: Both have same formula (C₄H₁₀O) and one –OH group, so H-bonding is similar. The lower bp of tert-butanol is due to its compact, branched structure reducing surface area and weakening London dispersion forces. A poor design (e.g., open flame heating) reveals safety ignorance; a vague conclusion (\"branching changes bp\") shows lack of mechanistic reasoning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Physical properties of alcohols and phenols refer to their observable ______ such as boiling points, solubility, and molecular geometry that arise from the presence of the hydroxyl (–OH) group attached to an aliphatic (alcohols) or aromatic (phenols) carbon chain.",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how ethanol (in hand sanitizer) evaporates quickly but leaves a cooling sensation, while water evaporates slower — both have –OH groups but different ______ masses.",
+     "a": "molecular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Predict and explain trends in boiling points of alcohols/phenols based on molecular mass, branching, and hydrogen bonding; (2) Predict and explain solubility trends in water based on the size of the alkyl/aryl group; (3) Compare physical properties of alcohols, phenols, ethers, and hydrocarbons of.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how ethanol (in hand ______) evaporates quickly but leaves a cooling sensation, while water evaporates slower — both have –OH groups but different molecular masses.",
+     "a": "sanitizer",
+     "self_check": true
     }
    ]
   }

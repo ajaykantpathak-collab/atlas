@@ -34,6 +34,31 @@
      "q": "Create a real-world word problem about sharing a length of ribbon in an Indian tailoring context that requires calculating $\\frac{3}{4} \\times \\frac{2}{3}$ to solve.",
      "a": "A good problem should state: \"Sunita has a piece of cloth that is $\\frac{3}{4}$ metres long. She uses $\\frac{2}{3}$ of this piece to make a border for a handkerchief. What length of cloth does she use for the border?\" A poor response would use whole numbers or set up a division problem instead of a fraction-of-a-fraction multiplication scenario.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of fractions is an operation where two or more fractional numbers are combined by multiplying their numerators together to form the new numerator and their denominators together to form the new denominator.",
+     "a": "Multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How much of the whole ______ cake are you taking home?",
+     "a": "original",
+     "self_check": true
+    },
+    {
+     "q": "What is Multiplication of fractions? State the definition given in this lesson.",
+     "a": "Multiplication of fractions is an operation where two or more fractional numbers are combined by multiplying their numerators together to form the new numerator and their denominators together to form the new denominator.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Multiplication of fractions?",
+     "a": "Students often mistakenly apply the rules of fraction addition and subtraction to multiplication by finding a common denominator before multiplying the numerators, or they forget to convert mixed numbers into improper fractions before multiplying.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can compute the product of proper, improper, and mixed fractions by multiplying numerators and denominators, simplify the resulting fractions to lowest terms, and interpret fraction multiplication in real-world scenarios involving quantities like length, weight, and money.",
+     "self_check": true
     }
    ]
   }

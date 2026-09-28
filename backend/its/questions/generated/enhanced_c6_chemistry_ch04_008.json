@@ -34,6 +34,31 @@
      "q": "Design a simple test to determine if a mysterious, unlabelled rod found in your garage is a metal.",
      "a": "The student should suggest: 1) Checking if it is shiny (lustre), 2) Checking if it is hard (cannot be scratched by a fingernail), and 3) Testing if it conducts electricity (using a battery and bulb). A poor answer fails to list at least two distinct properties, showing a lack of systematic observation skills.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Metals are elements typically ______ by a shiny (lustrous) appearance, hardness, and the ability to conduct heat and electricity, whereas non-metals generally lack these properties, appearing dull and acting as poor conductors.",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever wondered why your kitchen spoons are made of stainless steel while your water bottle might be made of ______?",
+     "a": "plastic",
+     "self_check": true
+    },
+    {
+     "q": "What is Metals? State the definition given in this lesson.",
+     "a": "Metals are elements typically characterized by a shiny (lustrous) appearance, hardness, and the ability to conduct heat and electricity, whereas non-metals generally lack these properties, appearing dull and acting as poor conductors.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Metals?",
+     "a": "Students often believe that because a material is shiny, it MUST be a metal.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify a given list of common materials into metals and non-metals based on experimental observations like shine, hardness, and conductivity.",
+     "self_check": true
     }
    ]
   }

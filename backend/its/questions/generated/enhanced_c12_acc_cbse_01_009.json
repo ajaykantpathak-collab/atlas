@@ -34,6 +34,31 @@
      "q": "Create a new problem: Three partners A, B, C share profits 4:3:2. They admit D with 1/5 share guaranteed at ₹1,00,000 by A and C in ratio 2:1. Firm profit = ₹4,50,000. Write the full problem statement with all data needed, then solve it completely showing: (i) D's actual share, (ii) deficiency, (iii) distribution of deficiency, (iv) final profit shares of all four partners, (v) journal entry for deficiency adjustment.",
      "a": "Problem: A, B, C share 4:3:2. D admitted 1/5 guaranteed ₹1,00,000 by A and C 2:1. Profit ₹4,50,000.  \nSolution:  \nD's actual = 1/5 × 4,50,000 = ₹90,000. Deficiency = ₹10,000.  \nA bears 2/3 × 10,000 = ₹6,667; C bears 1/3 × 10,000 = ₹3,333.  \nOriginal shares: A = 4/9 × 4,50,000 = ₹2,00,000; B = 3/9 × 4,50,000 = ₹1,50,000; C = 2/9 × 4,50,000 = ₹1,00,000; D = ₹90,000.  \nAfter adjustment: A = 2,00,000 - 6,667 = ₹1,93,333; B = ₹1,50,000; C = 1,00,000 - 3,333 = ₹96,667; D = 90,000 + 10,000 = ₹1,00,000.  \nJournal:  \nA's Capital A/c Dr. 6,667  \nC's Capital A/c Dr. 3,333  \n  To D's Capital A/c 10,000  \n(Deficiency borne by A and C in 2:1)  \nA poor answer (missing steps, wrong ratio, no journal) reveals inability to synthesize the full adjustment process.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Guarantee of profit to a partner is a contractual arrangement where the firm or one/more partners assure a minimum fixed amount of profit to a specific partner (often a new or incoming partner) regardless of the firm's actual ______; if the partner's actual profit share falls short of the guaranteed amount, the deficiency is borne by the guaranteeing partners in their agreed ratio (usually the profit-sharing ratio) and adjusted through the Profit and Loss Appropriation Account.",
+     "a": "profitability",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You invite a fourth friend, Priya, to join as a ______ but she is hesitant because she fears the firm might not make enough profit.",
+     "a": "partner",
+     "self_check": true
+    },
+    {
+     "q": "What is Guarantee of profit to a partner? State the definition given in this lesson.",
+     "a": "Guarantee of profit to a partner is a contractual arrangement where the firm or one/more partners assure a minimum fixed amount of profit to a specific partner (often a new or incoming partner) regardless of the firm's actual profitability; if the partner's actual profit share falls short of the guaranteed amount, the deficiency is borne.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Identify whether a guarantee is given by the firm or by specific partners and determine the correct ratio for bearing the deficiency; (2) Calculate the guaranteed partner's actual profit share, compare it with the guaranteed amount, compute the deficiency, and distribute it among guaranteeing partners.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You invite a fourth friend, Priya, to join as a partner but she is ______ because she fears the firm might not make enough profit.",
+     "a": "hesitant",
+     "self_check": true
     }
    ]
   }

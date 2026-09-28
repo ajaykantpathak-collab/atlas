@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_03_005",
+   "title": "c11_leg_cbse_03_005",
+   "questions": [
+    {
+     "q": "Define \"Separation of Powers\" as interpreted by Wade and Phillips (1960) in three distinct propositions.",
+     "a": "Wade and Phillips (Constitutional Law, 1960) articulated three meanings: (i) The same persons should not form part of more than one organ of government; (ii) One organ should not control or interfere with the exercise of functions by another organ; (iii) One organ should not exercise the functions of another organ.  \n**Wrong answer reveals:** Student confuses Montesquieu's *theoretical* features (e.g., \"judicial power combined with legislative exposes liberty to arbitrary control\") with Wade & Phillips' *analytical* breakdown. They may also omit proposition (ii) — the non-interference principle — which is critical for Indian context where personnel overlap exists (Ministers are MPs).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Montesquieu argued that combining legislative and executive powers in the same person/body destroys liberty, but combining judicial with legislative is *even more dangerous* for individual rights.",
+     "a": "Montesquieu reasoned: (1) Legislative + Executive united → same agency makes tyrannical laws *and* executes them tyrannically (maker = enforcer). (2) Judicial + Legislative united → judge becomes legislator, so life/liberty subject to *arbitrary control* (no independent arbiter). (3) Judicial + Executive united → prosecutor and judge become same person → violent/oppressive judging. The **judicial-legislative fusion is worse** because it directly removes the *independent adjudicator* — the ultimate safeguard for the accused.  \n**Wrong answer reveals:** Student treats all three combinations as equally dangerous or only recalls the \"tyrannical laws\" argument for legislative-executive fusion. They miss Montesquieu's hierarchy: judicial independence is the *linchpin* — without it, no check exists on the other two.",
+     "self_check": true
+    },
+    {
+     "q": "In India, the Prime Minister and Council of Ministers are members of Parliament (Legislature) *and* head the Executive. Does this violate Separation of Powers? Justify using Article 75(3) and the concept of \"fusion with checks.\"",
+     "a": "No violation. India adopts **parliamentary fusion with checks**, not strict separation. Article 75(3) mandates collective responsibility of Council of Ministers to Lok Sabha — the Executive *derives legitimacy from* and is *accountable to* the Legislature. Checks: (i) Legislature can remove Executive via No-Confidence Motion; (ii) Executive can dissolve Lok Sabha (Art. 85); (iii) Judiciary reviews both (Art. 32, 226, 136). The overlap is *constitutional design*, not encroachment.  \n**Wrong answer reveals:** Student applies US-style \"strict separation\" (personnel separation) to India. They fail to cite Article 75(3) or explain *how* accountability replaces separation. They may say \"it violates separation but is necessary\" — missing that the Constitution *intentionally* fuses them with built-in checks.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"Checks and Balances\" mechanism in USA (Presidential) vs India (Parliamentary) regarding: (a) Executive's legislative role, (b) Legislature's judicial role, (c) Judiciary's power over constitutional amendments.",
+     "a": "| Mechanism | USA (Presidential) | India (Parliamentary) |\n|-----------|-------------------|----------------------|\n| **(a) Executive legislates** | President *cannot* make laws; only recommends/vetoes bills. Ordinances don't exist. | President issues **Ordinances (Art. 123)** during Parliament recess — *temporary legislative power*; must be ratified in 6 weeks. |\n| **(b) Legislature judges** | Congress (Senate) tries **impeachment** of President/Judges — *sole judicial role*. | Parliament impeaches President (Art. 61) & Judges (Art. 124(4)); Lok Sabha judges *breach of privilege* (quasi-judicial). |\n| **(c) Judiciary on amendments** | **Judicial Review** (Marbury v. Madison): Court strikes down *any* law/amendment violating Constitution. | **Basic Structure Doctrine** (Kesavananda Bharati): Court strikes down amendments destroying *basic features* (e.g., separation of powers, judicial review) — *limited but potent*. |\n\n**Wrong answer reveals:** Student conflates the two systems — e.g., claims Indian President has veto like US President (Art. 111 is *assent*, not pocket veto), or that US Congress makes ordinances. They miss that India's ordinance power is a *unique executive legislative tool* absent in USA. They may also omit Basic Structure as India's distinct check on amendment power.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"The growth of the Executive organ in the Welfare State has rendered Montesquieu's Separation of Powers obsolete in India.\" Support with Barker's observation and *two* constitutional safeguards that prevent executive dominance.",
+     "a": "**Not obsolete — modified.** Barker (20th century): \"Growth of executive organ... is the notable feature\" due to welfare functions (health, education, distribution). *But* two safeguards preserve the doctrine:  \n1. **Judicial Review (Art. 32, 226, 136)**: Courts strike down executive overreach (e.g., *D.C. Wadhwa v. State of Bihar* — repromulgated ordinances invalid).  \n2. **Legislative Control**: Lok Sabha controls finances (Art. 110 Money Bills), questions Ministers, passes No-Confidence.  \nExecutive *expansion* is checked by *institutional* separation — the doctrine evolves from \"personnel separation\" to \"functional accountability.\"  \n**Wrong answer reveals:** Student agrees it's obsolete, ignoring that checks *intensify* with executive growth. They cite only \"delegated legislation\" as proof of fusion, missing that delegation *requires* parliamentary policy framework (parent Act) and judicial scrutiny (ultra vires). They fail to name specific safeguards (Art. 32, 75(3), 110).",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario where the Indian Executive *encroaches* on Judicial independence *without* violating a specific constitutional article — but violates the *spirit* of Separation of Powers. Explain the remedy.",
+     "a": "**Scenario:** Government introduces a Bill to amend the **Judges (Inquiry) Act, 1968**, transferring the power to appoint the *inquiry committee* (which investigates judicial misconduct) from the CJI to the **Law Minister (Executive)**. The Bill passes Parliament (Art. 368 procedure followed). *No article explicitly forbids this* — but it destroys *institutional independence* (Executive investigates its own adjudicator).  \n**Remedy:** Supreme Court strikes it down under **Basic Structure Doctrine** (Kesavananda Bharati, *State of Bihar v. Bal Mukund Shah* — \"Separation of Powers & Independent Judiciary\" is basic structure). The Court holds: *constituent power (Art. 368) cannot amend away judicial independence*.  \n**Good answer criteria:** Identifies a *structural* encroachment (not textual violation), cites Basic Structure as remedy, names *specific* case (Bal Mukund Shah). Poor answer: suggests \"President refuses assent\" (Art. 111 — not a check on constitutional amendments) or \"Parliament reverses it\" (political, not constitutional remedy).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

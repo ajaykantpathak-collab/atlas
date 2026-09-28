@@ -2,6 +2,194 @@
  "catalog": "catalog_class9_science_ch111.json",
  "concepts": [
   {
+   "id": "iesc.111.3",
+   "title": "Meiosis and Gamete Chromosome Reduction",
+   "converted_to_compute": true,
+   "formula": "haploid_chromosomes = diploid_chromosomes / 2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "haploid_chromosomes = diploid_chromosomes / 2",
+     "compute": "haploid_chromosomes = diploid_chromosomes / 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Meiosis and Gamete Chromosome Reduction: given diploid_chromosomes = 80, find haploid chromosomes.",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "For Meiosis and Gamete Chromosome Reduction: given diploid_chromosomes = 99, find haploid chromosomes.",
+     "a": "49.5",
+     "self_check": false
+    },
+    {
+     "q": "For Meiosis and Gamete Chromosome Reduction: given diploid_chromosomes = 14.3, find haploid chromosomes.",
+     "a": "7.15",
+     "self_check": false
+    },
+    {
+     "q": "For Meiosis and Gamete Chromosome Reduction: given diploid_chromosomes = 64, find haploid chromosomes.",
+     "a": "32",
+     "self_check": false
+    },
+    {
+     "q": "For Meiosis and Gamete Chromosome Reduction: given diploid_chromosomes = 68, find haploid chromosomes.",
+     "a": "34",
+     "self_check": false
+    },
+    {
+     "q": "For Meiosis and Gamete Chromosome Reduction: given diploid_chromosomes = 72, find haploid chromosomes.",
+     "a": "36",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.111.4",
+   "title": "Chromosomal Gamete Combinations and Genetic Variation",
+   "converted_to_compute": true,
+   "formula": "combinations = 2 ** num_pairs",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "combinations = 2 ** num_pairs",
+     "compute": "combinations = 2 ** num_pairs"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Chromosomal Gamete Combinations and Genetic Variation: given num_pairs = 7.2, find combinations.",
+     "a": "147.033",
+     "self_check": false
+    },
+    {
+     "q": "For Chromosomal Gamete Combinations and Genetic Variation: given num_pairs = 39, find combinations.",
+     "a": "549755813888",
+     "self_check": false
+    },
+    {
+     "q": "For Chromosomal Gamete Combinations and Genetic Variation: given num_pairs = 56, find combinations.",
+     "a": "72057594037927936",
+     "self_check": false
+    },
+    {
+     "q": "For Chromosomal Gamete Combinations and Genetic Variation: given num_pairs = 36, find combinations.",
+     "a": "68719476736",
+     "self_check": false
+    },
+    {
+     "q": "For Chromosomal Gamete Combinations and Genetic Variation: given num_pairs = 27, find combinations.",
+     "a": "134217728",
+     "self_check": false
+    },
+    {
+     "q": "For Chromosomal Gamete Combinations and Genetic Variation: given num_pairs = 23, find combinations.",
+     "a": "8388608",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.111.6",
+   "title": "Pollination Mechanics and Pollen-to-Seed Efficiency",
+   "converted_to_compute": true,
+   "formula": "pollen_per_seed = total_pollen / seeds_formed",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "pollen_per_seed = total_pollen / seeds_formed",
+     "compute": "pollen_per_seed = total_pollen / seeds_formed"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Pollination Mechanics and Pollen-to-Seed Efficiency: given total_pollen = 24, seeds_formed = 30, find pollen per seed.",
+     "a": "0.8",
+     "self_check": false
+    },
+    {
+     "q": "For Pollination Mechanics and Pollen-to-Seed Efficiency: given total_pollen = 79, seeds_formed = 21, find pollen per seed.",
+     "a": "3.7619",
+     "self_check": false
+    },
+    {
+     "q": "For Pollination Mechanics and Pollen-to-Seed Efficiency: given total_pollen = 96, seeds_formed = 42, find pollen per seed.",
+     "a": "2.28571",
+     "self_check": false
+    },
+    {
+     "q": "For Pollination Mechanics and Pollen-to-Seed Efficiency: given total_pollen = 33, seeds_formed = 7.1, find pollen per seed.",
+     "a": "4.64789",
+     "self_check": false
+    },
+    {
+     "q": "For Pollination Mechanics and Pollen-to-Seed Efficiency: given total_pollen = 32, seeds_formed = 9.8, find pollen per seed.",
+     "a": "3.26531",
+     "self_check": false
+    },
+    {
+     "q": "For Pollination Mechanics and Pollen-to-Seed Efficiency: given total_pollen = 47, seeds_formed = 5.4, find pollen per seed.",
+     "a": "8.7037",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "iesc.111.9",
+   "title": "Menstrual Cycle Timing and Ovulation Prediction",
+   "converted_to_compute": true,
+   "formula": "next_period_day = last_period_day + cycle_length",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "next_period_day = last_period_day + cycle_length",
+     "compute": "next_period_day = last_period_day + cycle_length"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Menstrual Cycle Timing and Ovulation Prediction: given last_period_day = 98, cycle_length = 246, find next period day.",
+     "a": "344",
+     "self_check": false
+    },
+    {
+     "q": "For Menstrual Cycle Timing and Ovulation Prediction: given last_period_day = 116, cycle_length = 55, find next period day.",
+     "a": "171",
+     "self_check": false
+    },
+    {
+     "q": "For Menstrual Cycle Timing and Ovulation Prediction: given last_period_day = 68, cycle_length = 122, find next period day.",
+     "a": "190",
+     "self_check": false
+    },
+    {
+     "q": "For Menstrual Cycle Timing and Ovulation Prediction: given last_period_day = 71, cycle_length = 329, find next period day.",
+     "a": "400",
+     "self_check": false
+    },
+    {
+     "q": "For Menstrual Cycle Timing and Ovulation Prediction: given last_period_day = 64, cycle_length = 237, find next period day.",
+     "a": "301",
+     "self_check": false
+    },
+    {
+     "q": "For Menstrual Cycle Timing and Ovulation Prediction: given last_period_day = 78, cycle_length = 130, find next period day.",
+     "a": "208",
+     "self_check": false
+    }
+   ]
+  },
+  {
    "id": "iesc.111.1",
    "title": "Vegetative Propagation in Plants",
    "solution_type": "verify_property",
@@ -46,160 +234,6 @@
    ]
   },
   {
-   "id": "iesc.111.3",
-   "title": "Meiosis and Gamete Chromosome Reduction",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "body_pairs",
-     "expr": "diploid_chromosomes / 2",
-     "explain": "chromosome pairs in body cells"
-    },
-    {
-     "step": 2,
-     "name": "zygote_restored",
-     "expr": "body_pairs * 2",
-     "explain": "chromosome number restored in the zygote"
-    },
-    {
-     "step": 3,
-     "name": "haploid_chromosomes",
-     "expr": "diploid_chromosomes / 2",
-     "explain": "meiosis halves the chromosome number in gametes"
-    }
-   ],
-   "questions": [
-    {
-     "q": "Human body cells have 46 chromosomes. How many chromosomes does a sperm carry?",
-     "vals": {
-      "diploid_chromosomes": 46
-     },
-     "unit": null,
-     "steps": null,
-     "a": "23",
-     "self_check": false
-    },
-    {
-     "q": "A cat has 38 chromosomes in body cells. How many does its egg cell carry?",
-     "vals": {
-      "diploid_chromosomes": 38
-     },
-     "unit": null,
-     "steps": null,
-     "a": "19",
-     "self_check": false
-    },
-    {
-     "q": "An onion cell has 16 chromosomes. How many does its pollen grain carry?",
-     "vals": {
-      "diploid_chromosomes": 16
-     },
-     "unit": null,
-     "steps": null,
-     "a": "8",
-     "self_check": false
-    },
-    {
-     "q": "Dog cells hold 78 chromosomes. How many chromosomes are in a dog's sperm?",
-     "vals": {
-      "diploid_chromosomes": 78
-     },
-     "unit": null,
-     "steps": null,
-     "a": "39",
-     "self_check": false
-    },
-    {
-     "q": "Rice body cells have 24 chromosomes. How many does an ovule's egg cell carry?",
-     "vals": {
-      "diploid_chromosomes": 24
-     },
-     "unit": null,
-     "steps": null,
-     "a": "12",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "iesc.111.4",
-   "title": "Chromosomal Gamete Combinations and Genetic Variation",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "half_pairs_combo",
-     "expr": "2 ** (num_pairs / 2)",
-     "explain": "combinations at half the pairs"
-    },
-    {
-     "step": 2,
-     "name": "double_pairs_combo",
-     "expr": "2 ** (num_pairs * 2)",
-     "explain": "combinations if the pairs doubled"
-    },
-    {
-     "step": 3,
-     "name": "combinations",
-     "expr": "2 ** num_pairs",
-     "explain": "each chromosome pair sorts independently, doubling the combinations"
-    }
-   ],
-   "questions": [
-    {
-     "q": "How many gamete combinations arise in a species with 2 pairs of chromosomes?",
-     "vals": {
-      "num_pairs": 2
-     },
-     "unit": null,
-     "steps": null,
-     "a": "4",
-     "self_check": false
-    },
-    {
-     "q": "A plant has 3 pairs of homologous chromosomes. Find the gamete variety.",
-     "vals": {
-      "num_pairs": 3
-     },
-     "unit": null,
-     "steps": null,
-     "a": "8",
-     "self_check": false
-    },
-    {
-     "q": "Humans have 23 chromosome pairs. How many chromosome combinations can gametes show?",
-     "vals": {
-      "num_pairs": 23
-     },
-     "unit": null,
-     "steps": null,
-     "a": "8388608",
-     "self_check": false
-    },
-    {
-     "q": "A fruit fly has 4 pairs of chromosomes. Calculate the possible gamete combinations.",
-     "vals": {
-      "num_pairs": 4
-     },
-     "unit": null,
-     "steps": null,
-     "a": "16",
-     "self_check": false
-    },
-    {
-     "q": "An organism with 5 pairs of chromosomes: how many gamete types by independent assortment?",
-     "vals": {
-      "num_pairs": 5
-     },
-     "unit": null,
-     "steps": null,
-     "a": "32",
-     "self_check": false
-    }
-   ]
-  },
-  {
    "id": "iesc.111.5",
    "title": "Anatomy and Functions of Floral Organs",
    "solution_type": "verify_property",
@@ -218,88 +252,6 @@
      "q": "What happens inside the ovule after fertilisation?",
      "a": "The zygote forms an embryo; the ovule matures into a seed with stored food and a protective coat.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "iesc.111.6",
-   "title": "Pollination Mechanics and Pollen-to-Seed Efficiency",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "one_pct_grains",
-     "expr": "total_pollen / 100",
-     "explain": "grains in one per cent of the pollen"
-    },
-    {
-     "step": 2,
-     "name": "seed_rate",
-     "expr": "(seeds_formed / total_pollen) * 100",
-     "explain": "seeds per 100 pollen grains"
-    },
-    {
-     "step": 3,
-     "name": "pollen_per_seed",
-     "expr": "total_pollen / seeds_formed",
-     "explain": "divide pollen grains shed by seeds finally formed"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A flower sheds 500 pollen grains and forms 50 seeds. How many grains were spent per seed?",
-     "vals": {
-      "total_pollen": 500,
-      "seeds_formed": 50
-     },
-     "unit": "pollen/seed",
-     "steps": null,
-     "a": "10 pollen/seed",
-     "self_check": false
-    },
-    {
-     "q": "An inflorescence releases 2000 grains making 80 seeds. Find the pollen cost per seed.",
-     "vals": {
-      "total_pollen": 2000,
-      "seeds_formed": 80
-     },
-     "unit": "pollen/seed",
-     "steps": null,
-     "a": "25 pollen/seed",
-     "self_check": false
-    },
-    {
-     "q": "10000 pollen grains give 250 seeds. Calculate grains per seed.",
-     "vals": {
-      "total_pollen": 10000,
-      "seeds_formed": 250
-     },
-     "unit": "pollen/seed",
-     "steps": null,
-     "a": "40 pollen/seed",
-     "self_check": false
-    },
-    {
-     "q": "A wind-pollinated plant sheds 250000 grains for 500 seeds. What is the per-seed cost?",
-     "vals": {
-      "total_pollen": 250000,
-      "seeds_formed": 500
-     },
-     "unit": "pollen/seed",
-     "steps": null,
-     "a": "500 pollen/seed",
-     "self_check": false
-    },
-    {
-     "q": "3200 grains produce 64 seeds. Compute the pollen-to-seed ratio.",
-     "vals": {
-      "total_pollen": 3200,
-      "seeds_formed": 64
-     },
-     "unit": "pollen/seed",
-     "steps": null,
-     "a": "50 pollen/seed",
-     "self_check": false
     }
    ]
   },
@@ -344,88 +296,6 @@
      "q": "Where do sperms and eggs meet in the human body?",
      "a": "In the oviduct (fallopian tube), where fertilisation occurs.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "iesc.111.9",
-   "title": "Menstrual Cycle Timing and Ovulation Prediction",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "cycle_end_day",
-     "expr": "last_period_day + cycle_length",
-     "explain": "the next period starts one cycle after the last"
-    },
-    {
-     "step": 2,
-     "name": "cycle_weeks",
-     "expr": "cycle_length / 7",
-     "explain": "cycle length in weeks"
-    },
-    {
-     "step": 3,
-     "name": "ovulation_day",
-     "expr": "cycle_end_day - 14",
-     "explain": "ovulation is about 14 days before the next period"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A woman's period started on day 3 with a 28-day cycle. On which day of the cycle will ovulation occur?",
-     "vals": {
-      "last_period_day": 3,
-      "cycle_length": 28
-     },
-     "unit": "day",
-     "steps": null,
-     "a": "17 day",
-     "self_check": false
-    },
-    {
-     "q": "A cycle of 30 days begins on day 1. On which day is ovulation expected?",
-     "vals": {
-      "last_period_day": 1,
-      "cycle_length": 30
-     },
-     "unit": "day",
-     "steps": null,
-     "a": "17 day",
-     "self_check": false
-    },
-    {
-     "q": "Last period began on day 5; cycle length 26 days. Compute the ovulation day.",
-     "vals": {
-      "last_period_day": 5,
-      "cycle_length": 26
-     },
-     "unit": "day",
-     "steps": null,
-     "a": "17 day",
-     "self_check": false
-    },
-    {
-     "q": "A 32-day cycle starts on day 2. Predict the ovulation day.",
-     "vals": {
-      "last_period_day": 2,
-      "cycle_length": 32
-     },
-     "unit": "day",
-     "steps": null,
-     "a": "20 day",
-     "self_check": false
-    },
-    {
-     "q": "With a 28-day cycle starting day 4, find the ovulation day.",
-     "vals": {
-      "last_period_day": 4,
-      "cycle_length": 28
-     },
-     "unit": "day",
-     "steps": null,
-     "a": "18 day",
-     "self_check": false
     }
    ]
   },

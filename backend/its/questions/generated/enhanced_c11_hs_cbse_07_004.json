@@ -34,6 +34,36 @@
      "q": "Design a one-day balanced diet menu for a 17-year-old rural boy (heavy activity) using only locally available foods: wheat, bajra, bengal gram dal, spinach, milk, jaggery, groundnut oil. Ensure it meets ≥90% RDA for energy, protein, iron, and calcium. Present as a table with food, quantity (g), and nutrient contribution from the composition table.",
      "a": "A good answer provides a table with at least 5 meals, uses the ICMR composition values per 100 g, scales to quantities, sums nutrients, and shows % RDA ≥90% for all four. Example: Wheat 300g (1038 kcal, 35.4g protein, 123mg Ca, 15.9mg Fe) + Bajra 100g (361kcal, 11.6g protein, 42mg Ca, 8mg Fe) + Bengal gram dal 75g (270kcal, 12.8g protein, 42mg Ca, 4mg Fe) + Spinach 150g (39kcal, 3g protein, 109.5mg Ca, 26.1mg Fe) + Milk 300ml (approx 180kcal, 9.6g protein, 360mg Ca, 0.3mg Fe) + Jaggery 30g (114kcal, 0g protein, 24mg Ca, 3.3mg Fe) + Oil 25g (225kcal). Total ~2227 kcal, 72.4g protein, 700.5mg Ca, 57.6mg Fe → meets RDA (Energy 3000, Protein 55g, Iron 28mg, Calcium 800mg) except calcium slightly low — add 100g more milk. A poor answer omits calculations, uses unrealistic quantities, or ignores the composition table — showing inability to translate theory into practical meal planning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Nutrition-health ______ refers to the bidirectional linkage where adequate nutrition maintains body structure, function, immunity, and energy for daily tasks, while good health ensures proper digestion, absorption, and utilization of nutrients; a balanced diet provides all essential macronutrients (carbohydrates, proteins, fats, fibre) and micronutrients (vitamins, minerals) in proportions that meet age-, sex-, and activity-specific requirements to sustain optimal physical, mental, and social well-being.",
+     "a": "interrelationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by listing what you ate yesterday and rate your ______, focus, and mood on a 1–5 scale.",
+     "a": "energy",
+     "self_check": true
+    },
+    {
+     "q": "What is Nutrition-health interrelationship? State the definition given in this lesson.",
+     "a": "Nutrition-health interrelationship refers to the bidirectional linkage where adequate nutrition maintains body structure, function, immunity, and energy for daily tasks, while good health ensures proper digestion, absorption, and utilization of nutrients; a balanced diet provides all essential macronutrients (carbohydrates, proteins.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Next, use the ICMR food composition table (provided in the textbook) to calculate the energy, protein, calcium, and iron in a ______ g portion of two cereals and two pulses.",
+     "a": "150",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Nutrition-health interrelationship?",
+     "a": "Students believe \"balanced diet\" means eating equal quantities from each food group (e.g., one roti, one katori dal, one vegetable, one fruit at every meal).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the two-way relationship between nutrition and health using at least three specific physiological mechanisms, classify nutrients into macro- and micronutrients with examples, describe the principles of a balanced diet for an adolescent, and differentiate undernutrition, overnutrition, and the double burden of.",
+     "self_check": true
     }
    ]
   }

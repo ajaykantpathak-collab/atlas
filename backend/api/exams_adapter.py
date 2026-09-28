@@ -52,9 +52,38 @@ router = APIRouter(tags=["exams"])
 # engine TOPIC_CONFIG subjects (case-sensitive)
 _SUBJECT_MAP = {
     "mathematics": "Mathematics",
+    "maths": "Mathematics",
+    "math": "Mathematics",
     "physics": "Physics",
     "chemistry": "Chemistry",
     "computer_science": "Computer Science",
+    "cs": "Computer Science",
+    "biology": "Biology",
+    "bio": "Biology",
+    "accountancy": "Accountancy",
+    "accounts": "Accountancy",
+    "acc": "Accountancy",
+    "business_studies": "Business Studies",
+    "bs": "Business Studies",
+    "economics": "Economics",
+    "eco": "Economics",
+    "psychology": "Psychology",
+    "psy": "Psychology",
+    "history": "History",
+    "geography": "Geography",
+    "civics": "Civics",
+    "political_science": "Political Science",
+    "sociology": "Sociology",
+    "english": "English",
+    "hindi": "Hindi",
+    "applied_mathematics": "Applied Mathematics",
+    "statistics": "Statistics",
+    "biotechnology": "Biotechnology",
+    "biotech": "Biotechnology",
+    "home_science": "Home Science",
+    "physical_education": "Physical Education",
+    "informatica_practices": "Informatics Practices",
+    "ip": "Informatics Practices",
 }
 
 _TYPE_MAP = {
@@ -156,10 +185,21 @@ def _map_paper_question(q: Any, exam_id: str) -> Dict[str, Any]:
     }
 
 
-def _map_graded_question(g: Any, exam_id: str) -> Dict[str, Any]:
+def _map_graded_question(g: Any, exam_id: str, paper_q: Any = None) -> Dict[str, Any]:
+    # paper_q carries the served text + original options — the graded row
+    # alone doesn't retain them, so review rendered question:"" and a fake
+    # single "correct" option.
+    opts_src = (paper_q.get("options") if isinstance(paper_q, dict)
+                else getattr(paper_q, "options", None)) if paper_q else None
     options = None
-    if g.correct_answer is not None and not isinstance(g.correct_answer, list):
-        # reveal the correct option for MCQ review
+    if opts_src:
+        correct = str(g.correct_answer or "")
+        options = [
+            {"id": f"{g.question_id}-o{i}", "label": _OPTION_LABELS[i],
+             "text": str(o), "isCorrect": str(o).strip() == correct.strip()}
+            for i, o in enumerate(opts_src[:len(_OPTION_LABELS)])
+        ]
+    elif g.correct_answer is not None and not isinstance(g.correct_answer, list):
         options = [
             {"id": f"{g.question_id}-o0", "label": "A", "text": str(g.correct_answer), "isCorrect": True},
         ]
@@ -167,7 +207,8 @@ def _map_graded_question(g: Any, exam_id: str) -> Dict[str, Any]:
         "id": g.question_id,
         "examId": exam_id,
         "order": g.question_number,
-        "question": "",  # graded rows carry feedback/topic, not raw text
+        "question": (paper_q.get("text") if isinstance(paper_q, dict)
+                     else getattr(paper_q, "text", "")) or "",
         "type": "mcq_single" if options else "fill_blank",
         "maxMarks": g.max_marks,
         "negativeMarks": None,
@@ -197,9 +238,10 @@ def _map_graded_question(g: Any, exam_id: str) -> Dict[str, Any]:
     }
 
 
-def _map_result(r: Any, student_name: str) -> Dict[str, Any]:
+def _map_result(r: Any, student_name: str, paper_map: dict = None) -> Dict[str, Any]:
     """ExamResultResponse -> TS ExamResult."""
     exam_id = str(r.session_id)
+    paper_map = paper_map or {}
     strategy = r.strategy
     recommendations = [
         f"Revise {t['topic']} ({t.get('score_pct', 0):.0f}% — {t.get('action', 'practice daily')})"
@@ -217,7 +259,7 @@ def _map_result(r: Any, student_name: str) -> Dict[str, Any]:
         "timeTakenSeconds": int(r.time_analysis.total_time_minutes * 60),
         "rank": r.summary.rank_in_class,
         "totalStudents": 1,
-        "questionBreakdown": [_map_graded_question(g, exam_id) for g in r.graded_questions],
+        "questionBreakdown": [_map_graded_question(g, exam_id, paper_map.get(str(g.question_id))) for g in r.graded_questions],
         "strengths": strategy.strong_topics,
         "weaknesses": strategy.weak_topics,
         "recommendations": recommendations,
@@ -280,6 +322,17 @@ async def _paper_question_ids(db: AsyncSession, session_id: int) -> List[str]:
     return [q["question_id"] for q in json.loads(row.questions)]
 
 
+async def _paper_map(db: AsyncSession, session_id: int) -> dict:
+    """question_id -> served QuestionData (text/options for result review)."""
+    row = (await db.execute(select(ExamPaperDB).where(ExamPaperDB.session_id == session_id))).scalar_one_or_none()
+    if row is None:
+        return {}
+    try:
+        return {str(q["question_id"]): q for q in json.loads(row.questions)}
+    except Exception:
+        return {}
+
+
 # ─────────────────────────────────────────────
 # Endpoints
 # ─────────────────────────────────────────────
@@ -302,6 +355,7 @@ async def create_exam(
             student_id=await _ensure_student(db, user),
             subject=subject,
             exam_type="isc_board",
+            class_level=body.gradeLevel,
         )
     except ValueError as exc:
         raise HTTPException(status_code=422, detail=str(exc))
@@ -360,16 +414,28 @@ async def submit_exam(
     session = await _get_session_or_404(db, exam_id)
     qids = await _paper_question_ids(db, session.id)
 
-    # grade EVERY question — unanswered ones come back not_attempted
-    answers = [
-        AnswerInput(
+    # grade EVERY question — unanswered ones come back not_attempted.
+    # answers values may be plain strings or {answer, timeTakenMs} objects —
+    # the client's per-question timing was being dropped (timeTakenSeconds 0).
+    def _unpack(qid: str) -> tuple[str, int]:
+        v = body.answers.get(qid, body.answers.get(str(qid), ""))
+        if isinstance(v, dict):
+            ms = v.get("timeTakenMs") or v.get("timeTakenSeconds") or 0
+            secs = int(ms / 1000) if v.get("timeTakenMs") else int(ms or 0)
+            return str(v.get("answer", "")), secs
+        return str(v), 0
+
+    answers = []
+    for qid in qids:
+        ans_text, secs = _unpack(str(qid))
+        if str(qid) in body.skipped:
+            ans_text = ""
+        answers.append(AnswerInput(
             question_id=qid,
-            answer="" if str(qid) in body.skipped else str(body.answers.get(qid, body.answers.get(str(qid), ""))),
-            time_taken_seconds=0,
+            answer=ans_text,
+            time_taken_seconds=secs,
             marked_for_review=str(qid) in body.skipped,
-        )
-        for qid in qids
-    ]
+        ))
     svc = ExamService(db)
     try:
         result = await svc.submit_exam(session.id, answers)
@@ -377,7 +443,7 @@ async def submit_exam(
         raise HTTPException(status_code=404, detail=str(exc))
 
     student_name = (user.name if user else None) or (user.email if user else None) or "Student"
-    return _env(_map_result(result, student_name))
+    return _env(_map_result(result, student_name, await _paper_map(db, session.id)))
 
 
 @exam_router.get("/{exam_id}/result")
@@ -393,7 +459,7 @@ async def get_exam_result(
     except ValueError as exc:
         raise HTTPException(status_code=404, detail=str(exc))
     student_name = (user.name if user else None) or (user.email if user else None) or "Student"
-    return _env(_map_result(result, student_name))
+    return _env(_map_result(result, student_name, await _paper_map(db, session.id)))
 
 
 @exam_router.get("/{exam_id}/strategy")

@@ -34,6 +34,36 @@
      "q": "Design a thought experiment to determine the standard Gibbs energy of formation (ΔfG°) of liquid water at 298 K using only the standard enthalpy of formation (ΔfH° = -285.8 kJ mol⁻¹) and standard molar entropies (S° values: H₂(g) = 130.7, O₂(g) = 205.1, H₂O(l) = 69.9 J K⁻¹ mol⁻¹). Write the balanced formation reaction and show all steps.",
      "a": "Formation reaction: H₂(g) + ½O₂(g) → H₂O(l)\nStep 1: ΔfS° = S°(H₂O(l)) - [S°(H₂(g)) + ½S°(O₂(g))] = 69.9 - [130.7 + ½(205.1)] = 69.9 - 233.25 = -163.35 J K⁻¹ mol⁻¹\nStep 2: ΔfG° = ΔfH° - TΔfS° = -285.8 - 298(-0.16335) = -285.8 + 48.68 = -237.1 kJ mol⁻¹\nA poor answer (e.g., using S° of H₂O(g) instead of H₂O(l), or forgetting the ½ coefficient for O₂) reveals misunderstanding that ΔfG° requires the formation reaction from elements in their standard states, and that stoichiometric coefficients must be applied to entropy values just like enthalpy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Gibbs energy change (ΔG) is the ______ potential that determines the spontaneity of a process at constant temperature and pressure, defined as ΔG = ΔH - TΔS where ΔH is enthalpy change, T is absolute temperature, and ΔS is entropy change; a process is spontaneous if ΔG < 0, non-spontaneous if ΔG > 0, and at equilibrium if ΔG = 0.",
+     "a": "thermodynamic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how ice melts spontaneously at room ______ (27°C) but not at -10°C, even though both are H₂O(s) → H₂O(l).",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "What is Gibbs energy change (ΔG)? State the definition given in this lesson.",
+     "a": "Gibbs energy change (ΔG) is the thermodynamic potential that determines the spontaneity of a process at constant temperature and pressure, defined as ΔG = ΔH - TΔS where ΔH is enthalpy change, T is absolute temperature, and ΔS is entropy change; a process is spontaneous if ΔG < 0, non-spontaneous if ΔG > 0, and at equilibrium if ΔG = 0.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This temperature-dependent spontaneity cannot be explained by enthalpy alone (ΔH > ______ for melting).",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Gibbs energy change (ΔG)?",
+     "a": "Students consistently write ΔG = ΔH + TΔS instead of ΔG = ΔH - TΔS, and they believe ΔG° < 0 means the reaction goes to 100% completion.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can calculate ΔG from given ΔH and ΔS values at any temperature, determine spontaneity direction, compute ΔG° from equilibrium constant K using ΔG° = -RT ln K, and predict how temperature affects spontaneity for exothermic/endothermic reactions with positive/negative entropy changes.",
+     "self_check": true
     }
    ]
   }

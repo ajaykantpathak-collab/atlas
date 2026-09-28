@@ -34,6 +34,31 @@
      "q": "Construct a numerical example where a consumer's equilibrium quantity is 4 units. Provide: (a) a plausible MU schedule for at least 6 units, (b) a price, (c) verification that MU = P at 4 units, (d) demonstration that 3 units and 5 units are not equilibrium, and (e) calculation of consumer surplus.",
      "a": "Example: MU schedule: 1st: 50, 2nd: 40, 3rd: 30, 4th: 20, 5th: 10, 6th: 5 utils. Price = ₹20. (c) At 4 units, MU = 20 = P ✓. (d) At 3 units, MU = 30 > 20 → consumer gains by buying 4th unit. At 5 units, MU = 10 < 20 → consumer loses by buying 5th unit. (e) TU = 50+40+30+20 = 140 utils = ₹140. Expenditure = 4×20 = ₹80. CS = ₹60. A poor answer (e.g., MU not diminishing, or MU4 ≠ P) reveals inability to construct a consistent diminishing MU schedule satisfying the equilibrium condition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Consumer's ______ under the cardinal utility approach for a single commodity occurs when a rational consumer allocates their limited income to purchase a quantity of a good such that the marginal utility derived from the last unit consumed equals the price paid for it (MUx = Px), assuming marginal utility of money is constant and equal to 1.",
+     "a": "equilibrium",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you walk into a grocery store with ₹100 to spend on ______ priced at ₹20 each.",
+     "a": "apples",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Consumer's equilibrium under the cardinal utility approach for a single commodity occurs when a rational consumer allocates their limited income to purchase a quantity of a good such that the marginal utility derived from the last unit consumed equals the price paid for it (MUx = Px), assuming marginal utility of money is constant and equal to ______.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) state the equilibrium condition MUx = Px and explain why it maximizes utility, (2) calculate the equilibrium quantity from a given MU schedule and price, (3) demonstrate what happens when MUx > Px or MUx < Px and explain the adjustment process, (4) derive consumer surplus at equilibrium, and (5) distinguish between.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you walk into a grocery store with ₹100 to spend on apples priced at ₹20 each.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

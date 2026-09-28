@@ -16,8 +16,8 @@
      "self_check": true
     },
     {
-     "q": "A company wants to sell handmade artisanal pottery (fragile, unique designs, made-to-order) via mail order. Using the six suitability criteria, evaluate whether this product is appropriate. Justify each criterion.",
-     "a": "Not suitable. (i) Not graded/standardised — each piece is unique. (ii) Not easily transported at low cost — fragile, high breakage risk, bulky packaging. (iii) Ready demand uncertain — niche product. (iv) Not available in large quantity year-round — made-to-order, limited artisan capacity. (v) High competition from local pottery. (vi) Hard to describe fully via pictures — tactile feel, weight, glaze variation matter. A wrong answer that says \"yes, because pictures can show design\" ignores criteria (i), (ii), (iv) and shows inability to apply all criteria holistically.",
+     "q": "Give the correct order of criteria tests that decide whether handmade pottery suits mail order trading.",
+     "a": "The tests run: (1) Grading fails because each piece is unique and non-standardised (2) Transport fails because the fragile goods carry high breakage cost (3) Year-round bulk supply fails since artisans work made to order (4) Catalogue description fails because glaze and weight need touch, so the product is unsuitable overall. A wrong answer that relies on doorstep delivery as the answer shows the student has missed that all six suitability criteria must hold together.",
      "self_check": true
     },
     {
@@ -33,6 +33,36 @@
     {
      "q": "Design a mail order business model for selling certified organic spices to urban households across India. Specify: (a) how you will overcome the \"high promotion cost\" limitation, (b) how you will address \"no after-sales service\" for quality complaints, (c) one product-line modification to meet \"graded and standardised\" criterion.",
      "a": "(a) Overcome promotion cost: Use targeted digital ads (low cost) driving traffic to a free downloadable PDF catalogue + WhatsApp ordering, reducing print/postage spend. (b) Address after-sales: Include a toll-free number and QR code on packaging for instant quality complaints; offer replacement via courier (not post) at company cost for verified issues. (c) Product modification: Sell only pre-packed, FSSAI-certified, fixed-weight (50g/100g) spice blends with batch numbers and expiry dates — not loose spices. A poor answer suggests \"advertise more on TV\" (increases cost) or \"ignore complaints\" (violates consumer protection), showing inability to innovate within constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mail order houses are retail trading ______ that sell goods exclusively through postal or courier communication without any physical store or direct personal contact between buyer and seller, where orders are solicited via catalogues, advertisements, or samples and goods are dispatched by post or courier upon receipt of payment (advance, VPP, or bank-mediated).",
+     "a": "establishments",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you live in a remote village in Rajasthan where the nearest ______ mall is 200 km away.",
+     "a": "shopping",
+     "self_check": true
+    },
+    {
+     "q": "What is Mail order houses? State the definition given in this lesson.",
+     "a": "Mail order houses are retail trading establishments that sell goods exclusively through postal or courier communication without any physical store or direct personal contact between buyer and seller, where orders are solicited via catalogues, advertisements, or samples and goods are dispatched by post or courier upon receipt of payment.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you live in a remote village in Rajasthan where the nearest shopping mall is ______ km away.",
+     "a": "200",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Mail order houses?",
+     "a": "Students often confuse mail order houses with e-commerce (online shopping), assuming they are the same because both involve \"ordering from home.\" They then incorrectly attribute features like \"instant order confirmation,\" \"digital payment,\" \"real-time tracking,\" or \"easy returns\" to mail order houses.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish mail order houses from other non-store retail formats (e.g., e-commerce, teleshopping) based on the role of postal infrastructure and absence of digital interface; (2) Evaluate the suitability of a given product for mail order trade using the six NCERT criteria with justification; (3).",
      "self_check": true
     }
    ]

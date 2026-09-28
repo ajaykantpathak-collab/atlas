@@ -34,6 +34,26 @@
      "q": "Design a real-world scenario (Indian context) where you would use all five methods (`keys`, `values`, `items`, `get`, `update`) together in a single program. Write pseudocode showing the sequence of operations and explain why each method is the right choice at its step.",
      "a": "Scenario: A kirana store inventory system. `stock = {\"wheat\": 100, \"rice\": 50, \"dal\": 30}` (kg).\n1. `print(\"Items:\", list(stock.keys()))` — display all item names for customer menu.\n2. `print(\"Quantities:\", list(stock.values()))` — show current stock levels for reorder check.\n3. `for item, qty in stock.items(): print(f\"{item}: {qty} kg\")` — print formatted bill-style list.\n4. `order_qty = stock.get(\"sugar\", 0)` — safely check sugar stock (may not exist yet) without crash.\n5. `stock.update({\"sugar\": 20, \"rice\": 60, \"oil\": 15})` — merge new delivery: adds sugar, updates rice, adds oil.\nEach method is optimal: views for live display, `get` for safe lookup with default, `update` for bulk merge. A poor answer uses `[]` access for step 4 (crash risk), converts views to lists prematurely, or merges manually in a loop.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Dictionary methods keys(), values(), items(), get(), and update() provide ______ ways to access, retrieve, and modify dictionary contents: keys() returns a dynamic view of all keys, values() returns a dynamic view of all values, items() returns a dynamic view of key-value pairs as tuples, get(key, default=None) safely retrieves a value returning default if the key is absent (avoiding KeyError), and update(iterable) merges key-value pairs from another mapping or iterable into the dictionary, overwriting existing keys.",
+     "a": "structured",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're building a student grade tracker for your class: you have a ______ grades = {\"Aarav\": 85, \"Meera\": 92, \"Rohan\": 78} and need to (a) print all student names, (b) print all scores, (c) print name-score pairs, (d) safely check a new student \"Priya\" without crashing, and (e) merge mid-term updates {\"Meera\": 95, \"Priya\": 88}.",
+     "a": "dictionary",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) distinguish between view objects and static lists when using keys(), values(), items(), (2) correctly use get() with and without a default argument to handle missing keys without exceptions, (3) apply update() with dictionaries, lists of tuples, and keyword arguments to merge data, and (4) trace how view.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Dictionary methods keys(), values(), items(), get(), and update() provide structured ways to access, retrieve, and modify dictionary contents: keys() returns a dynamic view of all keys, values() returns a dynamic view of all values, items() returns a dynamic view of key-value pairs as tuples, get(key, default=None) safely retrieves a value returning default if the key is absent (avoiding KeyError), and update(iterable) merges key-value pairs from another mapping or iterable into the dictionary, ______ existing keys.",
+     "a": "overwriting",
+     "self_check": true
     }
    ]
   }

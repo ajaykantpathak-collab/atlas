@@ -99,7 +99,16 @@
      "explain": "Divide the glomerular filtration rate by the blood filtered per minute and multiply by 100 to get the filtrate percentage",
      "compute": "filtrate_percent = gfr / blood_filtered * 100"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "filtrate_percent = gfr / blood_filtered * 100",
+     "compute": "filtrate_percent = gfr / blood_filtered * 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.116.4.1",

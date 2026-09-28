@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_03_010",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_03_010",
+   "title": "c11_app_cbse_03_010",
+   "questions": [
+    {
+     "q": "Define the term \"Universal Set\" in the context of a Venn diagram and state how it is represented geometrically.",
+     "a": "The Universal Set ($U$) is the set containing all objects or elements under consideration in a given context. In a Venn diagram, it is represented by a **rectangle** that encloses all other sets (circles/ellipses). A wrong answer (e.g., \"Universal Set is the union of all subsets\" or \"represented by a large circle\") reveals the student confuses the *container* (the universe of discourse) with the *content* (the union of subsets) or misidentifies the standard geometric convention.",
+     "self_check": true
+    },
+    {
+     "q": "Two sets $A$ and $B$ are such that $A \\subset B$ (A is a proper subset of B). Sketch the Venn diagram and explain why the circles cannot be drawn as intersecting but not contained, or as disjoint.",
+     "a": "The diagram must show circle $A$ **completely inside** circle $B$, both inside rectangle $U$. They cannot be intersecting (overlapping partially) because that would imply $\\exists x \\in A$ such that $x \\notin B$, violating $A \\subset B$. They cannot be disjoint because that would imply $A \\cap B = \\phi$, but since $A \\subset B$, $A \\cap B = A \\neq \\phi$ (as $A$ is non-empty for a proper subset). A wrong answer reveals the student treats subset notation ($\\subset$) as merely \"smaller circle\" rather than \"every element of A is in B,\" confusing spatial size with logical containment.",
+     "self_check": true
+    },
+    {
+     "q": "Given $U = \\{1,2,3,4,5,6,7,8,9,10\\}$, $A = \\{2,4,6,8,10\\}$ (even numbers), $B = \\{3,6,9\\}$ (multiples of 3). Draw the Venn diagram, place all elements in correct regions, and shade the region representing $(A \\cup B)'$.",
+     "a": "**Steps:**\n1. Draw rectangle $U$, circles $A$ and $B$ overlapping.\n2. Intersection $A \\cap B = \\{6\\}$ goes in overlap.\n3. $A$ only: $\\{2,4,8,10\\}$; $B$ only: $\\{3,9\\}$.\n4. Outside both but inside $U$: $\\{1,5,7\\}$.\n5. Shade region **outside both circles** (inside rectangle).\n**Elements in shaded region:** $\\{1,5,7\\}$.\nA wrong placement (e.g., putting 6 in $A$ only) or wrong shading (shading the overlap) reveals confusion between \"union\" (all elements in either) and \"complement of union\" (elements in *neither*), or inability to compute intersection before placing elements.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the following statement: \"In a Venn diagram for three sets $A, B, C$, the region representing $A \\cap (B \\cup C)'$ is the same as the region representing $(A \\cap B') \\cap (A \\cap C')$.\" Is this true? Justify using set laws and diagram regions.",
+     "a": "**True.**\n**Algebraic:** $A \\cap (B \\cup C)' = A \\cap (B' \\cap C')$ (De Morgan's) $= (A \\cap B') \\cap (A \\cap C')$ (Associative/Commutative).\n**Diagrammatic:** $(B \\cup C)'$ is the region outside both $B$ and $C$. Intersecting with $A$ gives the part of $A$ that is outside $B$ *and* outside $C$. $(A \\cap B')$ is $A$ outside $B$; $(A \\cap C')$ is $A$ outside $C$. Their intersection is $A$ outside both. Both describe the **crescent of $A$ not touching $B$ or $C$**.\nA wrong answer (\"False, they are different\") reveals the student cannot apply De Morgan's Law visually or confuses $(B \\cup C)'$ (outside both) with $B' \\cup C'$ (outside $B$ OR outside $C$).",
+     "self_check": true
+    },
+    {
+     "q": "A student draws a Venn diagram for sets $A, B, C$ where $A \\cap B \\cap C = \\phi$ (no common element to all three). They claim: \"Since the triple intersection is empty, the three circles must be drawn pairwise disjoint (no overlaps at all).\" Evaluate this claim.",
+     "a": "**Claim is False.** $A \\cap B \\cap C = \\phi$ only means the **central region (common to all three)** is empty. Pairwise intersections ($A \\cap B$, $B \\cap C$, $A \\cap C$) can still be non-empty. Example: $A=\\{1,2\\}, B=\\{2,3\\}, C=\\{1,3\\}$. $A \\cap B = \\{2\\}$, $B \\cap C = \\{3\\}$, $A \\cap C = \\{1\\}$, but $A \\cap B \\cap C = \\phi$. The circles **must overlap pairwise** but the center is blank. A student agreeing reveals the critical misconception: confusing \"no element common to *all three*\" with \"no element common to *any two*\". This is the most frequent error in 3-set diagrams.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) involving three categories where a 3-set Venn diagram is necessary. Define $U$, $A$, $B$, $C$ clearly. State a question that requires finding the cardinality of the region: \"In $A$ and $B$ but not in $C$.\" Do not solve it, just set it up.",
+     "a": "**Scenario:** A survey of 200 Class 11 students in a Delhi school regarding competitive exam coaching.\n$U$ = All 200 surveyed students.\n$A$ = Students enrolled in JEE coaching (120).\n$B$ = Students enrolled in NEET coaching (80).\n$C$ = Students enrolled in CUET coaching (60).\n**Known overlaps:** 30 in JEE & NEET, 20 in NEET & CUET, 15 in JEE & CUET, 10 in all three.\n**Question:** How many students are enrolled in **both JEE and NEET coaching but NOT in CUET coaching**? (i.e., $n(A \\cap B \\cap C')$).\n**Criteria for good answer:** Clearly defined $U$, three distinct non-nested sets with plausible overlaps, question targets a specific non-central region ($A \\cap B \\cap C'$). A poor setup (e.g., $A \\subset B$) makes the target region empty/trivial, showing inability to design a scenario requiring a true 3-set intersecting structure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

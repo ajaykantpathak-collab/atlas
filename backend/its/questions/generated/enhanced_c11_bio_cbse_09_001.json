@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using only iodine solution, Benedict's reagent, and salivary amylase to distinguish between starch, glycogen, and cellulose. Write the expected observations in a table.",
      "a": "| Sample | Iodine test | Benedict's (before amylase) | Benedict's (after amylase incubation) |\n|--------|-------------|-----------------------------|---------------------------------------|\n| Starch | Blue-black  | Negative                    | Positive (hydrolyzed to maltose)      |\n| Glycogen | Red-brown  | Positive (many ends)        | Stronger positive                     |\n| Cellulose | No color   | Negative                    | Negative (no hydrolysis)              |\nPoor design (e.g., omitting amylase control) reveals inability to use enzymatic specificity as a diagnostic tool.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Carbohydrates are polyhydroxy aldehydes or ketones (______) or their polymers (polysaccharides) linked by glycosidic bonds, serving as primary energy sources (e.g., glucose, glycogen) and structural components (e.g., cellulose, chitin) in living organisms.",
+     "a": "monosaccharides",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a spoonful of table sugar (sucrose) dissolving instantly in tea versus a chapati (starch-rich) that takes hours to digest — both are ______ but behave differently.",
+     "a": "carbohydrates",
+     "self_check": true
+    },
+    {
+     "q": "What is Carbohydrates? State the definition given in this lesson.",
+     "a": "Carbohydrates are polyhydroxy aldehydes or ketones (monosaccharides) or their polymers (polysaccharides) linked by glycosidic bonds, serving as primary energy sources (e.g., glucose, glycogen) and structural components (e.g., cellulose, chitin) in living organisms.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Carbohydrates?",
+     "a": "Students believe \"all polysaccharides are non-reducing because they are polymers.\" They incorrectly assume polymerization consumes all anomeric carbons, forgetting that each chain has one reducing end (free anomeric carbon) and branching creates multiple non-reducing ends but the reducing end persists.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can classify a given carbohydrate as monosaccharide or polysaccharide, identify its reducing/non-reducing nature, explain the structural basis for starch vs. cellulose digestibility, and predict the biological role (energy storage vs. structural) from its glycosidic linkage type.",
+     "self_check": true
     }
    ]
   }

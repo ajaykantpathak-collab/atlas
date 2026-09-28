@@ -34,6 +34,36 @@
      "q": "Design a simple 2D figure that has rotational symmetry of order 2. Explain how you would verify this.",
      "a": "A simple rectangle or a \"Z\" shape would work. The verification must involve tracing the shape, marking the center, and showing that rotating the tracing by 180° aligns perfectly with the original.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ symmetry occurs when a shape is rotated around a central point by less than a full turn (360°) and appears exactly the same as it did in its starting position.",
+     "a": "Rotational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever watched a ceiling fan spin or a pinwheel ______ in the wind?",
+     "a": "turning",
+     "self_check": true
+    },
+    {
+     "q": "What is Rotational symmetry occurs when a shape? State the definition given in this lesson.",
+     "a": "Rotational symmetry occurs when a shape is rotated around a central point by less than a full turn (360°) and appears exactly the same as it did in its starting position.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Rotational symmetry occurs when a shape is rotated around a central point by less than a full turn (______°) and appears exactly the same as it did in its starting position.",
+     "a": "360",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Rotational symmetry occurs when a shape?",
+     "a": "Students often confuse \"Order of Symmetry\" with the number of sides of a polygon.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to visually identify if a shape has rotational symmetry and correctly calculate its order by observing how many times it repeats its appearance during a full 360° turn.",
+     "self_check": true
     }
    ]
   }

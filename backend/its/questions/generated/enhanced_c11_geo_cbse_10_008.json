@@ -34,6 +34,26 @@
      "q": "Design a climate-resilient cropping system for a 2-hectare rainfed farm in Bundelkhand (Uttar Pradesh) with: annual rainfall 850 mm (CV 30%), Vertisol soil, groundwater depth 40 m (unviable for irrigation), and household requirement of 15 qtl foodgrain/year. Specify crop sequence, variety traits, soil moisture conservation practices, and income diversification component.",
      "a": "Kharif: Short-duration (100-110 days) pearl millet hybrid (HHB 299) + pigeonpea (ICPL 88039, 160 days) intercropped 2:1 ratio—millet escapes terminal drought, pigeonpea deep-roots access subsoil moisture. Rabi (on residual moisture): Chickpea (JG 14, 110 days) sown in standing pigeonpea rows (relay cropping). Soil moisture: Compartmental bunding (3m x 3m), broadbed-furrow for drainage, straw mulch (2 t/ha). Income diversification: Backyard poultry (Kadaknath), agroforestry border (Moringa + Ber), and non-farm: MNREGA labor + PM-KISAN direct income support. Expected yield: Millet 18 qtl, Pigeonpea 8 qtl, Chickpea 10 qtl = 36 qtl total (food + fodder + cash). Surplus 21 qtl sold. Good answer integrates phenology matching, soil-climate adaptation, and livelihood portfolio; poor answer suggests \"drip irrigation\" (unviable at 40m depth) or \"rice\" (water mismatch).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The impact of climate on Indian agriculture and economy refers to the ______ and probabilistic influence of India's monsoonal climate—specifically the spatial-temporal distribution of rainfall, temperature regimes, and seasonal rhythms—on cropping patterns, crop yields, agricultural productivity, farm incomes, and the broader macroeconomic indicators including GDP contribution, employment, food security, and inflation dynamics.",
+     "a": "deterministic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe your local mandi or grocery store in June-July: ______ prices spike, tomato prices surge, and news headlines track \"monsoon progress\" daily.",
+     "a": "vegetable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key principle: Indian agriculture is a \"gamble on the monsoon\" because ______% of net sown area remains rainfed, making the June-September rainfall quantum and its intra-seasonal distribution the primary driver of annual agricultural GDP growth and rural consumption demand.",
+     "a": "52",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the causal chain linking monsoon onset/withdrawal dates, rainfall quantum and distribution, and temperature thresholds to specific crop choices (rice vs millets), cropping intensity (single vs double vs triple cropping), and economic outcomes (GDP growth rate volatility, food inflation, rural demand), using.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Create a numerical example using three different integers that demonstrates the distributive property.",
      "a": "A valid example would be 2 x (3 + (-1)) = (2 x 3) + (2 x -1) = 4, where both sides equal 4. A poor answer would show a failure to correctly balance both sides of the equation or a misunderstanding of how the multiplier distributes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The properties of integer operations are ______ rules that describe how we can rearrange or group numbers during addition and multiplication without changing the final result, and how multiplication interacts with addition.",
+     "a": "fundamental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at the '______ of Fun' lift; if you press the '+' button twice, then the '-' button once, does the order matter for your final floor?",
+     "a": "Building",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify, name, and apply the commutative, associative, and distributive properties to solve integer expressions correctly and explain why a given rearrangement of numbers maintains or violates these properties.",
+     "self_check": true
     }
    ]
   }

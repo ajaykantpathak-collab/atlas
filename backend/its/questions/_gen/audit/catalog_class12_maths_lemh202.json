@@ -44,9 +44,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 3 * 3 * 3 + 4 * 3 + 3"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.202.8.2.2",
@@ -92,9 +90,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "area = 30 * 27"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.202.8.2.3",
@@ -140,9 +136,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "area = 23 * 26"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.202.8.2.4",
@@ -368,9 +362,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "area = 7 * 3"
-   ]
+   "steps_chain": []
   }
  ]
 }

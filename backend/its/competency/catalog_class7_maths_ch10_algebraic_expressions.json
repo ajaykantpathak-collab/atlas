@@ -25,7 +25,7 @@
     "x and y squared and added",
     "5 added to three times product of m and n"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -42,7 +42,16 @@
      "action": "form expression",
      "explain": "Combine using the operations in correct order"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 5 + 9 gives 24",
+     "compute": "val = 3 * 5 + 9"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m10.3.1",
@@ -62,7 +71,7 @@
     "coefficient of y in expression",
     "identify terms which contain x"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -79,7 +88,16 @@
      "action": "find coefficient",
      "explain": "Numerical factor is the coefficient"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 4 + 3 gives 15",
+     "compute": "val = 3 * 4 + 3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m10.4.1",
@@ -98,7 +116,7 @@
     "7x and 12y like or unlike",
     "15x and -21x like or unlike"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -120,7 +138,16 @@
      "action": "conclude",
      "explain": "Same variables and powers = like terms. Otherwise unlike."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the exponent law to the given powers",
+     "explain": "apply the exponent law to the given powers: val = 6 ** (3 + 3) gives 46656",
+     "compute": "val = 6 ** (3 + 3)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m10.5.1",
@@ -138,7 +165,7 @@
     "classify the expression",
     "is 10pq a binomial"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -155,7 +182,16 @@
      "action": "verify polynomial",
      "explain": "All classifications (monomial, binomial, trinomial) are types of polynomials, so confirm the expression is a polynomial with one or more unlike terms"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 7 + 2 gives 23",
+     "compute": "val = 3 * 7 + 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c7m10.6.1",

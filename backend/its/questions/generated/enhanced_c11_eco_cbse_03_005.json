@@ -34,6 +34,31 @@
      "q": "Design a simplified tax reform proposal for a hypothetical state government that currently has: (a) 5% VAT on goods, (b) 8% entertainment tax, (c) 10% luxury tax, (d) no service tax. The state wants to adopt a mini-GST model. Specify the rate structure, input credit mechanism, and one administrative simplification. Justify how this addresses cascading and compliance.",
      "a": "Proposal: Single SGST rate of 12% on all goods and services (replacing VAT, entertainment, luxury taxes). Input credit: full credit for SGST paid on inputs (raw materials, services, capital goods) against output SGST liability. Administrative simplification: unified monthly return (GSTR-3B equivalent) with auto-populated input credit from supplier invoices. Justification: (1) Cascading eliminated — service providers (previously untaxed) now in chain, manufacturers claim credit on services. (2) Compliance: one return, one rate, digital invoice matching reduces evasion. (3) Revenue neutrality: 12% on broader base (goods + services) ≈ old 5%+8%+10% on narrow base. Poor answer (e.g., \"keep multiple rates for equity\") reintroduces classification disputes and cascading — the core GST principle is \"one nation, one tax, one rate\" for efficiency.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Tax reforms under ______ refer to the systematic restructuring of India's taxation system since 1991, involving reduction in direct tax rates (income tax, corporation tax) to curb evasion and boost compliance, restructuring of indirect taxes culminating in the Goods and Services Tax (GST) to create a unified national market, and simplification of tax administration — all aimed at improving revenue buoyancy, reducing fiscal deficit, and aligning fiscal policy with market-oriented economic reforms.",
+     "a": "liberalisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small kirana store in 1990 — you pay excise duty on goods, sales tax to the state, and if you earn ₹50,000 annually, you face a ______ tax rate of over 50%.",
+     "a": "marginal",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Tax reforms under liberalisation refer to the systematic restructuring of India's taxation system since ______, involving reduction in direct tax rates (income tax, corporation tax) to curb evasion and boost compliance, restructuring of indirect taxes culminating in the Goods and Services Tax (GST) to create a unified national market, and simplification of tax administration — all aimed at improving revenue buoyancy, reducing fiscal deficit, and aligning fiscal policy with market-oriented economic reforms.",
+     "a": "1991",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the impact of tax rate changes on government revenue using the Laffer curve logic, explain the transition from multiple indirect taxes to GST with its implications for tax incidence and compliance, and evaluate whether post-1991 tax reforms achieved the dual objective of higher revenue collection and lower.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small kirana store in 1990 — you pay excise duty on goods, sales tax to the state, and if you earn ₹50,000 ______, you face a marginal tax rate of over 50%.",
+     "a": "annually",
+     "self_check": true
     }
    ]
   }

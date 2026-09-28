@@ -346,7 +346,16 @@
      "explain": "The computed number of trees saved quantifies the direct contribution to forest preservation and biodiversity protection.",
      "compute": "forest_impact = trees_saved"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "trees_saved = 17 * paper_tonnes",
+     "compute": "trees_saved = 17 * paper_tonnes"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hesc.105.11",

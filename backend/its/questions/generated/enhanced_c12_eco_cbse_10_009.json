@@ -34,6 +34,26 @@
      "q": "Construct a numerical example showing the round-by-round working of the multiplier for MPC = 0.5 and ΔI = 1,000. Show the first four rounds of induced consumption and cumulative income change. What fraction of the total multiplier effect is realized after four rounds?",
      "a": "Round 1: ΔI = 1,000 → ΔY₁ = 1,000. Round 2: ΔC = 0.5×1,000 = 500 → ΔY₂ = 500. Round 3: ΔC = 0.5×500 = 250 → ΔY₃ = 250. Round 4: ΔC = 0.5×250 = 125 → ΔY₄ = 125. Cumulative ΔY = 1,875. Total multiplier k = 1/(1-0.5) = 2 → total ΔY = 2,000. Fraction after 4 rounds = 1,875/2,000 = 93.75%. A poor answer (e.g., stopping at round 1 or miscomputing induced consumption) shows inability to trace the geometric series.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The investment multiplier (k) measures the ratio of the total change in ______ national income (ΔY) to the initial autonomous change in investment (ΔI) that caused it, expressed as k = ΔY/ΔI = 1/(1-MPC) = 1/MPS, where MPC is the marginal propensity to consume and MPS is the marginal propensity to save (MPC + MPS = 1).",
+     "a": "equilibrium",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine the Indian ______ announces a ₹1,000 crore infrastructure push (autonomous investment) to build rural roads in Uttar Pradesh.",
+     "a": "government",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the multiplier formula from the equilibrium condition Y = C + I and the consumption function C = C̅ + MPC·Y, explain why the multiplier is larger when MPC is higher, and calculate the total change in income given an autonomous investment change and a specified MPC/MPS value.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine the Indian government announces a ₹1,000 crore ______ push (autonomous investment) to build rural roads in Uttar Pradesh.",
+     "a": "infrastructure",
+     "self_check": true
     }
    ]
   }

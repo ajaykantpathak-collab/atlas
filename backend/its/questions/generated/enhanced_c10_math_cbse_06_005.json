@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (Indian context) where AA similarity is used to find the height of a tree using a pole and shadows. Provide the problem statement, diagram description, and solution outline.",
      "a": "Good answer: Problem: \"A 2 m pole casts a 1.5 m shadow at 10 AM. At the same time, a tree casts a 12 m shadow. Find the tree's height.\" Diagram: Two right triangles formed by pole/tree (vertical), shadows (horizontal), and sun rays (hypotenuse). Sun rays are parallel → corresponding angles equal → AA similarity. Solution: Δpole ~ Δtree by AA (right angle + equal sun elevation angle). Height/2 = 12/1.5 → Height = 16 m. A poor answer that uses trigonometry (tan) or Pythagoras instead of AA similarity reveals the student doesn't recognize the classic shadow problem as an AA application.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The AAA (Angle-Angle-Angle) criterion states that if in two triangles, the corresponding angles are pairwise equal, then their corresponding sides are in the same ______ and the triangles are similar.",
+     "a": "proportion",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You have a small scale model with ______ 50°, 60°, 70°.",
+     "a": "angles",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The AA (Angle-Angle) criterion is a direct consequence: if two angles of one triangle are respectively equal to two angles of another triangle, the third angles are automatically equal (angle sum property = ______°), so the triangles are similar by AAA.",
+     "a": "180",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly identify when two triangles are similar using AA/AAA criterion, write the similarity statement with correct vertex correspondence (e.g., ΔABC ~ ΔDEF), and apply the criterion to find unknown angles or prove geometric relationships in multi-step board exam problems.",
+     "self_check": true
     }
    ]
   }

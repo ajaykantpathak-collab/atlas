@@ -34,6 +34,21 @@
      "q": "Design a stain-removal decision flowchart (text-based) that a dry-cleaning receptionist could use to triage incoming garments. Include at least four decision nodes (stain class, fibre type, age, colourfastness) and three terminal actions (wet-clean, dry-clean, refer to specialist). Ensure it prevents the most common catastrophic error: applying water to a water-sensitive dye on acetate.",
      "a": "Flowchart:\nSTART → Is stain water-soluble? YES → Is fibre water-safe (cotton, linen, polyester, nylon)? YES → Is dye colourfast to water? YES → WET-CLEAN (cold → warm). NO → DRY-CLEAN.\nNO (stain solvent-soluble) → Is fibre solvent-safe? YES → DRY-CLEAN. NO → REFER SPECIALIST.\nCRITICAL NODE: Before any wet step, TEST hidden seam with water + detergent. If colour bleeds → DRY-CLEAN or REFER.\nThis catches the acetate/dye catastrophe because acetate is water-safe but its dyes often are not; the colourfastness node intercepts. A poor answer omits the colourfastness test or treats fibre and dye as a single property.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A stain is a localized ______ on a fabric caused by the deposition of foreign substances that adhere to fibres through physical, chemical, or combined mechanisms.",
+     "a": "discoloration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you spill turmeric-laden curry on a silk kurta and a cotton shirt ______.",
+     "a": "simultaneously",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify a given stain into its chemical category, select the appropriate removal principle (e.g., enzyme for protein, solvent for oil, reducing bleach for tannin), and justify the sequence of steps (cold water soak → enzyme → detergent → bleach) for a mixed stain on a specific fibre without damaging the fabric.",
+     "self_check": true
     }
    ]
   }

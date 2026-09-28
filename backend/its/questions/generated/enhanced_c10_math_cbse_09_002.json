@@ -34,6 +34,21 @@
      "q": "Create a real-life scenario (different from tower/building) where an angle of elevation is naturally observed. Describe the observer, the object, the horizontal line, and the line of sight. Draw a rough sketch and label the angle of elevation. Then, write a question that could be asked using this scenario that requires finding either the height or the distance.",
      "a": "Example: A child flying a kite. Observer = child's eye. Object = kite. Horizontal line through child's eye parallel to ground. Line of sight = string from child's hand to kite (assuming string is taut and straight). Angle of elevation = angle between string and horizontal. Question: \"If the string is 50 m long and makes an angle of 30° with the horizontal, find the height of the kite above the child's hand.\" A poor answer (scenario not involving upward look, or horizontal line not through observer's eye) reveals the student cannot transfer the concept to new contexts.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The angle of ______ is the angle formed between the horizontal line (drawn through the observer's eye) and the line of sight when the observer looks upward at an object situated above the horizontal level.",
+     "a": "elevation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ on the ground near the Qutub Minar in Delhi and looking up at its top.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the angle of elevation in a given diagram or real-life description, draw the horizontal line through the observer's eye, mark the angle between the horizontal and the line of sight, and distinguish it from the angle of depression.",
+     "self_check": true
     }
    ]
   }

@@ -11,7 +11,7 @@
      "self_check": true
     },
     {
-     "q": "Explain in your own words why the following two code fragments behave differently when `marks = 85`:\n```python",
+     "q": "Explain in your own words why the following two code fragments behave differently when `marks = 85`:\n```python\n# Fragment 1\nif marks >= 75:\n    print(\"Distinction\")\nif marks >= 33:\n    print(\"Pass\")\n\n# Fragment 2\nif marks >= 75:\n    print(\"Distinction\")\nelif marks >= 33:\n    print(\"Pass\")\n```",
      "a": "Fragment 1 uses two independent `if` statements, so both conditions are evaluated: 85 >= 75 is true (prints \"Distinction\") and 85 >= 33 is also true (prints \"Pass\"). Fragment 2 uses an `if-elif` ladder: the first condition is true, so \"Distinction\" prints and the `elif` is skipped entirely. A wrong answer claiming both fragments print the same thing reveals the student does not understand that `elif` creates mutual exclusivity while separate `if` statements do not.",
      "self_check": true
     },
@@ -33,6 +33,21 @@
     {
      "q": "Create a real-world scenario (Indian context) that requires a three-level nested `if` (an `if` inside an `if` inside an `if`) and write the complete Python code with input prompts. The scenario must involve three distinct decision factors (e.g., vehicle type, fuel type, ownership) and produce at least four different output messages.",
      "a": "Scenario: RTO road tax calculator for Delhi.\n- Vehicle type: Two-wheeler (T) or Four-wheeler (F)\n- Fuel type: Petrol (P), Diesel (D), Electric (E)\n- Ownership: Individual (I) or Commercial (C)\nTax rules:\n1. If Two-wheeler:\n   - If Electric: ₹0 (exempt)\n   - Else if Petrol: ₹500 (Individual), ₹1000 (Commercial)\n   - Else Diesel: ₹700 (Individual), ₹1500 (Commercial)\n2. If Four-wheeler:\n   - If Electric: ₹0 (exempt)\n   - Else if Petrol: ₹3000 (Individual), ₹6000 (Commercial)\n   - Else Diesel: ₹5000 (Individual), ₹10000 (Commercial)\n\nCode skeleton (student must fill all branches):\n```python\nvtype = input(\"Vehicle (T/F): \").upper()\nfuel = input(\"Fuel (P/D/E): \").upper()\nowner = input(\"Owner (I/C): \").upper()\nif vtype == \"T\":\n    if fuel == \"E\":\n        tax = 0\n    elif fuel == \"P\":\n        if owner == \"I\":\n            tax = 500\n        else:\n            tax = 1000\n    else:  # Diesel\n        if owner == \"I\":\n            tax = 700\n        else:\n            tax = 1500\nelif vtype == \"F\":\n    if fuel == \"E\":\n        tax = 0\n    elif fuel == \"P\":\n        if owner == \"I\":\n            tax = 3000\n        else:\n            tax = 6000\n    else:  # Diesel\n        if owner == \"I\":\n            tax = 5000\n        else:\n            tax = 10000\nelse:\n    tax = -1\nprint(\"Road Tax:\", tax if tax != -1 else \"Invalid input\")\n```\nA poor answer uses flat `if-elif` chains without nesting, revealing the student cannot identify hierarchical decision factors.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A nested if statement is an if or if-else ______ placed entirely inside the block of another if or else statement, allowing a secondary condition to be evaluated only when the outer condition is satisfied.",
+     "a": "construct",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a program for a metro ticket kiosk: the fare depends on the zone (1, 2, or 3) *and* the ______ type (student, senior citizen, or general).",
+     "a": "passenger",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) trace the execution flow of a nested if structure with three levels of indentation and correctly predict which block runs for a given input, and (2) rewrite a problem requiring three or more mutually exclusive ranges into an if-elif-else ladder with correct ordering of conditions and no redundant checks.",
      "self_check": true
     }
    ]

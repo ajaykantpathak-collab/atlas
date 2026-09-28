@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch10_7",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch10_7",
+   "title": "c9_math_ch10_7",
+   "questions": [
+    {
+     "q": "In the diagram where line *l* || line *m* and transversal *t* cuts them, ∠1 and ∠7 are alternate interior angles. If ∠1 = 65°, what is the measure of ∠7? State the theorem used.",
+     "a": "∠7 = 65°. The Alternate Interior Angle Theorem states that if two parallel lines are cut by a transversal, each pair of alternate interior angles is equal. A wrong answer (e.g., 115°) reveals the student confuses alternate interior angles with interior angles on the same side of the transversal (which are supplementary) or misidentifies the angle pair entirely.",
+     "self_check": true
+    },
+    {
+     "q": "Two lines *AB* and *CD* are cut by a transversal *EF*. ∠2 and ∠6 are alternate interior angles. A student claims: \"If ∠2 = ∠6, then *AB* || *CD*.\" Is this statement always true? Explain *why* or *why not* using the definition of the converse theorem.",
+     "a": "Yes, the statement is always true. The Converse of the Alternate Interior Angle Theorem states: If a transversal intersects two lines such that a pair of alternate interior angles are equal, then the two lines are parallel. A wrong answer (e.g., \"Only if corresponding angles are also equal\") reveals the student does not understand that the converse is a standalone theorem equivalent to the parallel postulate; they think parallelism requires multiple conditions simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "In the figure, *PQ* || *RS*. Transversal *TU* intersects them at *A* and *B* respectively. ∠TAQ = (3x + 10)° and ∠TBR = (5x - 30)°. These are alternate interior angles. Find the value of *x* and the measure of each angle.",
+     "a": "**Step 1:** Identify the theorem: Since *PQ* || *RS* and *TU* is a transversal, alternate interior angles ∠TAQ and ∠TBR are equal.\n**Step 2:** Set up equation: 3x + 10 = 5x - 30.\n**Step 3:** Solve for x: 10 + 30 = 5x - 3x → 40 = 2x → x = 20.\n**Step 4:** Find angles: ∠TAQ = 3(20) + 10 = 70°; ∠TBR = 5(20) - 30 = 70°.\n**Step 5:** Verify: Both angles equal 70°, satisfying the theorem.\nA wrong answer (e.g., x = 10) usually comes from incorrectly setting the sum to 180° (confusing with co-interior angles) or algebraic sign errors when transposing terms.",
+     "self_check": true
+    },
+    {
+     "q": "Consider two lines *l* and *m* cut by transversal *t*. ∠3 = 70° and ∠5 = 110° (alternate interior angles). A student argues: \"Since 70° + 110° = 180°, the lines *l* and *m* must be parallel because interior angles are supplementary.\" Analyse this reasoning. Is the conclusion valid? Justify.",
+     "a": "The conclusion is **invalid**. The student confuses \"Alternate Interior Angles\" (which must be **equal** for parallel lines) with \"Interior Angles on the Same Side of the Transversal\" (which must be **supplementary** for parallel lines). ∠3 and ∠5 are alternate interior angles; for *l* || *m*, we need ∠3 = ∠5. Since 70° ≠ 110°, the lines are **NOT parallel**. A wrong validation reveals the student cannot distinguish between the two distinct interior angle pairs and their respective parallelism conditions.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves the following problem: \"*In the figure, AB || CD. Find x.*\" Their working:\n1. ∠1 = 50° (Vertically Opposite Angles)\n2. ∠2 = ∠1 = 50° (Alternate Interior Angles)\n3. x = 180° - 50° = 130° (Linear Pair)\nEvaluate this solution. Is every step logically justified? If not, identify the gap.",
+     "a": "The solution is **incomplete/unjustified** at Step 2. The student assumes the angle marked 50° and ∠1 are alternate interior angles, but this requires the lines *containing* those angles to be parallel. The problem states *AB* || *CD*, but Step 2 uses a transversal intersecting *different* lines (the lines forming ∠1 and ∠2). Unless it is explicitly given or proven that those lines are parallel, the Alternate Interior Angle Theorem cannot be applied. A correct evaluation identifies this missing link: the student must first prove the relevant lines are parallel (e.g., using corresponding angles) or identify the correct transversal-line configuration.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world problem (Indian context: e.g., railway tracks, road crossing, floor tiles) where the **Converse of the Alternate Interior Angle Theorem** is necessary to prove two lines are parallel. Provide the diagram description, given angle measures, and the specific question asked.",
+     "a": "**Problem:** A railway engineer checks if two new tracks *Track A* and *Track B* are parallel. A survey line (transversal) crosses them. At the crossing with Track A, the interior angle on the left is measured as 62°. At the crossing with Track B, the interior angle on the right is measured as 62°. **Question:** Are Track A and Track B parallel? Justify using a theorem.\n**Good Answer:** Yes. The measured angles are alternate interior angles (inside tracks, opposite sides of survey line). Since they are equal (62° = 62°), by the Converse of the Alternate Interior Angle Theorem, Track A || Track B.\n**Poor Answer Reveals:** Student gives a \"Yes/No\" without naming the converse theorem, or uses the forward theorem (assuming parallel first), or confuses the angle pair type (e.g., calls them corresponding angles).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

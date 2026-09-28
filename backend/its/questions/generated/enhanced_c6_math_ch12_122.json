@@ -34,6 +34,31 @@
      "q": "Create your own geometric pattern using circles. Draw the first three steps and explain your rule.",
      "a": "A good answer shows a logical progression (e.g., 1 circle, then 3 circles, then 6 circles, showing a triangle). A poor answer shows random shapes with no consistent growth rule.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Geometric patterns are consistent ______ of shapes that follow a logical rule, such as repeating, increasing in size, or rotating in a specific sequence.",
+     "a": "arrangements",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever noticed how the floor tiles in your house or the ______ on a sweater repeat?",
+     "a": "patterns",
+     "self_check": true
+    },
+    {
+     "q": "What is Geometric patterns? State the definition given in this lesson.",
+     "a": "Geometric patterns are consistent arrangements of shapes that follow a logical rule, such as repeating, increasing in size, or rotating in a specific sequence.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Geometric patterns?",
+     "a": "Students often assume that the number of \"parts\" (like matchsticks or sides) will always increase by the same total number as the first shape.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to draw the next two shapes in a given sequence and describe the rule (e.g., \"add one more row of dots\") in plain language.",
+     "self_check": true
     }
    ]
   }

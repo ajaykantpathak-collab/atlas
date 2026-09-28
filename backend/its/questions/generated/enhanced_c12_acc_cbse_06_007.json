@@ -34,6 +34,31 @@
      "q": "*Create level:*  \nDesign a redemption plan for a company that issued ₹20 crore, 9% debentures on 1st April 2020, redeemable at par. The company wants to use draw of lots over 4 years starting 31st March 2023. Specify: (a) annual redemption amount, (b) DRR appropriation each year, (c) DRI requirement each year (assume listed company), and (d) journal entry for the first redemption.",
      "a": "**Expected answer criteria:**  \n(a) ₹5 crore per year (₹20 cr / 4).  \n(b) DRR: 25% of ₹5 cr = ₹1.25 cr appropriated *before* each redemption (by 31st March 2022 for first draw).  \n(c) DRI: 15% of ₹5 cr = ₹75 lakh invested by 30th April of each redemption year (e.g., by 30th April 2022 for first draw).  \n(d) First redemption entry:  \n9% Debentures A/c Dr. 5,00,00,000  \n    To Debentureholders A/c 5,00,00,000  \nDebentureholders A/c Dr. 5,00,00,000  \n    To Bank A/c 5,00,00,000  \n**Why poor answers reveal misunderstanding:** Missing DRR/DRI timing, wrong percentages, or combining all four years' entries into one.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Redemption of debentures refers to the discharge of the company's obligation to repay the principal amount to ______.",
+     "a": "debentureholders",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a company, *Vayu Energy Ltd.*, issued ₹50 crore of 9% ______ five years ago.",
+     "a": "debentures",
+     "self_check": true
+    },
+    {
+     "q": "What is Redemption of debentures? State the definition given in this lesson.",
+     "a": "Redemption of debentures refers to the discharge of the company's obligation to repay the principal amount to debentureholders.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Redemption of debentures?",
+     "a": "Misconception: \"In draw of lots, the company debits the *entire* Debentures Account in the first year and credits a 'Provision for Redemption' for the undrawn portion.\" Why it's wrong: This confuses draw of lots with a sinking fund provision.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) pass correct journal entries for both lump sum redemption and draw of lots redemption, including creation of Debenture Redemption Reserve (DRR) and Debenture Redemption Investment (DRI) where applicable, and (2) explain the procedural difference between the two methods with reference to the Companies Act.",
+     "self_check": true
     }
    ]
   }

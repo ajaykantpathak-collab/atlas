@@ -34,6 +34,16 @@
      "q": "Construct a function \\( f: A \\to A \\) where \\( A = \\{1, 2, 3, 4\\} \\) that is invertible but NOT the identity function. Write \\( f \\) as a set of ordered pairs, then write its inverse \\( f^{-1} \\) as a set of ordered pairs. Explain why your \\( f \\) is invertible.",
      "a": "One example: \\( f = \\{(1,2), (2,3), (3,4), (4,1)\\} \\). This is a permutation (cyclic shift). It is one‑one because all outputs are distinct; it is onto because every element of \\( A \\) appears as an output. Hence it is bijective and invertible. Its inverse is \\( f^{-1} = \\{(2,1), (3,2), (4,3), (1,4)\\} \\) (reverse each ordered pair).  \nA poor answer might give a non‑bijective mapping (e.g., \\( \\{(1,2), (2,2), (3,4), (4,1)\\} \\)) or fail to reverse the pairs correctly, showing the student does not understand that invertibility on finite sets is equivalent to being a permutation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A function is ______ if and only if it is both one‑one (injective) and onto (surjective), i.e., bijective.",
+     "a": "invertible",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If you are given a Fahrenheit ______ and need the Celsius value, you must \"reverse\" the process.",
+     "a": "temperature",
+     "self_check": true
     }
    ]
   }

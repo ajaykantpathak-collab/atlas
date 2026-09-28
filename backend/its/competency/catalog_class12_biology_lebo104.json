@@ -1,406 +1,661 @@
 {
-  "class": 12,
-  "subject": "biology",
-  "chapter": 104,
-  "chapter_title": "Principles of Inheritance and Variation",
-  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lebo104.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "concepts": [
+ "class": 12,
+ "subject": "biology",
+ "chapter": 104,
+ "chapter_title": "Principles of Inheritance and Variation",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lebo104.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lebo104.4.1.1",
+   "title": "Mendel's Pea Experiments and True-Breeding Lines",
+   "section": "4.1",
+   "definition": "Gregor Mendel spent 1856-1863 crossing true-breeding pea lines that differed in one clear character at a time, and he backed his tallies with large samples and statistics -- the first mathematical attack on a biological question, which uncovered the rules governing how characters pass to offspring.",
+   "formula": "",
+   "key_idea": "Seven clean contrasting trait pairs, huge sample sizes and confirmation over successive generations made pea crosses the perfect window into heredity.",
+   "textbook_ref": "lebo104.txt lines 104-141 (section 4.1, Mendel's method and the seven trait pairs)",
+   "question_patterns": [
+    "why did mendel choose garden pea plants for his inheritance experiments",
+    "what makes a pea line true breeding and why did that matter for mendel's crosses",
+    "how did mendel apply statistics and mathematical logic to the study of heredity",
+    "list mendel's seven pairs of contrasting traits in the pea plant",
+    "which generations did mendel grow to confirm his conclusions about inheritance",
+    "explain the strengths of mendel's experimental approach to genetics"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
     {
-      "id": "lebo104.4.1.1",
-      "title": "Mendel's Pea Experiments and True-Breeding Lines",
-      "section": "4.1",
-      "definition": "Gregor Mendel spent 1856-1863 crossing true-breeding pea lines that differed in one clear character at a time, and he backed his tallies with large samples and statistics -- the first mathematical attack on a biological question, which uncovered the rules governing how characters pass to offspring.",
-      "formula": "",
-      "key_idea": "Seven clean contrasting trait pairs, huge sample sizes and confirmation over successive generations made pea crosses the perfect window into heredity.",
-      "textbook_ref": "lebo104.txt lines 104-141 (section 4.1, Mendel's method and the seven trait pairs)",
-      "question_patterns": [
-        "why did mendel choose garden pea plants for his inheritance experiments",
-        "what makes a pea line true breeding and why did that matter for mendel's crosses",
-        "how did mendel apply statistics and mathematical logic to the study of heredity",
-        "list mendel's seven pairs of contrasting traits in the pea plant",
-        "which generations did mendel grow to confirm his conclusions about inheritance",
-        "explain the strengths of mendel's experimental approach to genetics"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "Pick the right organism", "explain": "Garden peas are easy to grow, self-pollinate naturally, and come in varieties with clear either-or characters such as tall versus dwarf stems."},
-        {"step": 2, "action": "Fix a pure starting point", "explain": "A line kept self-pollinating for many generations breeds true for its trait, so any new phenotype after a cross must come from the cross itself."},
-        {"step": 3, "action": "Study one character pair at a time", "explain": "Mendel paired 14 pure varieties that matched except for a single character, which kept the analysis simple before he moved to two-gene crosses."},
-        {"step": 4, "action": "Count, ratio and re-test", "explain": "Large F1 and F2 populations were scored numerically, and selfing the products checked the rule across further generations -- statistics, not impressions."}
-      ]
+     "step": 1,
+     "action": "Pick the right organism",
+     "explain": "Garden peas are easy to grow, self-pollinate naturally, and come in varieties with clear either-or characters such as tall versus dwarf stems."
     },
     {
-      "id": "lebo104.4.2.1",
-      "title": "Monohybrid Cross, Dominance and the 3:1 Ratio",
-      "section": "4.2, 4.2.1",
-      "definition": "Crossing two pure lines that differ in one character gives an F1 in which only the dominant trait appears; selfing that F1 produces an F2 split three-quarters dominant to one-quarter recessive in appearance while the underlying genotypes run TT:Tt:tt in a 1:2:1 order -- characters stay discrete instead of blending.",
-      "formula": "dominant_fraction_f2 = 3 / 4",
-      "key_idea": "A recessive trait can vanish in the F1 and reappear in the F2 unchanged, which shows particles (alleles), not blended fluids, carry the characters.",
-      "textbook_ref": "lebo104.txt lines 146-204 and 253-355 (monohybrid cross, Punnett square, F2 ratios)",
-      "question_patterns": [
-        "work out the phenotypic ratio of the f2 generation in a monohybrid cross",
-        "why do dwarf plants reappear in the f2 of a tall-by-dwarf pea cross",
-        "state the genotypic ratio expected when two heterozygous tall pea plants are crossed",
-        "explain the law of dominance using a monohybrid cross as the example",
-        "what does the absence of blending among f1 and f2 offspring tell us about inheritance",
-        "a homozygous tall pea is crossed with a dwarf pea -- what do the f1 plants look like"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "Assign allele symbols", "explain": "Capital letter for the allele expressed in F1 (T, tall), small letter for the masked one (t, dwarf); parents are TT and tt."},
-        {"step": 2, "action": "Read the F1", "explain": "Every F1 plant is Tt and tall: the dominant allele T hides the recessive t rather than mixing with it."},
-        {"step": 3, "action": "Self the F1 and combine gametes", "explain": "Meiosis gives T and t gametes in equal shares; a Punnett square lays out TT, Tt, Tt, tt, a 1:2:1 genotype order."},
-        {"step": 4, "action": "Collapse genotypes to phenotypes", "explain": "TT and Tt both look tall, so three of every four plants are tall and one is dwarf -- the 3:1 F2 phenotype signature of dominance."}
-      ]
+     "step": 2,
+     "action": "Fix a pure starting point",
+     "explain": "A line kept self-pollinating for many generations breeds true for its trait, so any new phenotype after a cross must come from the cross itself."
     },
     {
-      "id": "lebo104.4.2.2",
-      "title": "Law of Segregation and the Test Cross",
-      "section": "4.2.2",
-      "definition": "When gametes form, the paired alleles separate cleanly so each gamete carries just one of them; because dominance hides genotypes behind phenotypes, an unknown tall plant is bred with a homozygous dwarf partner -- every offspring tall means the unknown is TT, while a 1:1 tall-to-dwarf split exposes a Tt heterozygote.",
-      "formula": "heterozygote_testcross_ratio = 1 / 1",
-      "key_idea": "Segregation is the physical parting of allele partners during meiosis, and the test cross converts breeding outcomes back into a genotype reading.",
-      "textbook_ref": "lebo104.txt lines 375-384 and 337-354 (law of segregation passage and test cross figure)",
-      "question_patterns": [
-        "state the law of segregation and describe how alleles behave during gamete formation",
-        "how does a test cross reveal whether a tall pea plant is homozygous or heterozygous",
-        "why does every gamete end up with only one allele from each pair",
-        "what offspring ratio identifies a heterozygous parent in a test cross",
-        "explain why recessive characters disappear in f1 but return unchanged in f2",
-        "use segregation to justify the equal numbers of t and t gametes made by a tt plant"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "Separate the allele pair at meiosis", "explain": "A homozygote contributes identical alleles to all gametes, a heterozygote sends T to half its gametes and t to the other half -- no mixing ever occurs."},
-        {"step": 2, "action": "Explain F1 hiding, F2 recovery", "explain": "Since gametes carry single alleles, the recessive member of the pair survives unseen in the F1 and re-emerges homozygous in a quarter of the F2."},
-        {"step": 3, "action": "Set up the test cross", "explain": "Breed the dominant-phenotype plant whose genotype is unknown with a recessive (tt) partner instead of selfing it."},
-        {"step": 4, "action": "Interpret the progeny", "explain": "A uniform dominant progeny means the tested plant made only T gametes (TT); a 1:1 split means it also made t gametes (Tt)."}
-      ]
+     "step": 3,
+     "action": "Study one character pair at a time",
+     "explain": "Mendel paired 14 pure varieties that matched except for a single character, which kept the analysis simple before he moved to two-gene crosses."
     },
     {
-      "id": "lebo104.4.2.3",
-      "title": "Incomplete Dominance in Snapdragon Flower Colour",
-      "section": "4.2.2.1",
-      "definition": "In the dog flower the heterozygote Rr is pink, sitting between RR red and rr white, so selfing the F1 gives an F2 reading 1 red : 2 pink : 1 white; the genotype order stays 1:2:1 and only the phenotype ratio departs from 3:1, because the dominant allele cannot fully cover the recessive one.",
-      "formula": "snapdragon_f2_ratio = 1 : 2 : 1",
-      "key_idea": "With incomplete dominance the heterozygote is visibly distinct, so the outward appearance itself reports the genotype.",
-      "textbook_ref": "lebo104.txt lines 388-406 (snapdragon cross and the 1:2:1 phenotypic ratio)",
-      "question_patterns": [
-        "why are snapdragon f1 flowers pink when one parent is red and the other white",
-        "give the f2 phenotypic ratio for flower colour in the snapdragon cross",
-        "how does incomplete dominance differ from complete dominance",
-        "in antirrhinum what do the genotypes rr rr and rr look like",
-        "does incomplete dominance change the genotypic ratio of a monohybrid cross",
-        "contrast particulate inheritance with blending using the pink flower case"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "Cross the pure lines", "explain": "RR red plants mated with rr white plants give Rr offspring that are pink -- halfway, so neither allele masks the other completely."},
-        {"step": 2, "action": "Self the pink F1", "explain": "R and r gametes combine as in any monohybrid cross, producing RR, Rr and rr in the usual 1:2:1 genotype order."},
-        {"step": 3, "action": "Score phenotypes per genotype", "explain": "Each genotype now shows its own colour: 1 red : 2 pink : 1 white, replacing the standard 3:1 because Rr is distinguishable from RR."},
-        {"step": 4, "action": "State what stays constant", "explain": "Mendelian genotype ratios survive untouched; only the phenotype mapping changes, and traits still refuse to blend permanently."}
-      ]
-    },
-    {
-      "id": "lebo104.4.2.4",
-      "title": "Co-dominance, ABO Blood Groups and Multiple Alleles",
-      "section": "4.2.2.2",
-      "definition": "The single human blood-group gene I exists in three allele forms -- IA, IB and i -- though any one person carries only two of them; IA and IB each make their own red-cell surface sugar and both show through in type AB, while i makes no sugar, so six genotypes collapse into just four phenotypes.",
-      "formula": "genotype_count = allele_count * (allele_count + 1) / 2",
-      "key_idea": "When both members of an allele pair express their own products side by side the trait is co-dominant, and a gene with more than two alleles only reveals its full spread across a population.",
-      "textbook_ref": "lebo104.txt lines 449-516 (co-dominance passage and the ABO blood group table)",
-      "question_patterns": [
-        "how many genotypes and phenotypes does the abo blood group system produce",
-        "why do the ia and ib alleles both show themselves in a person with ab blood",
-        "explain co-dominance taking human blood groups as the example",
-        "what makes the abo gene a case of multiple alleles",
-        "a child is type o while the father is type a -- what does that reveal about the parents",
-        "why can multiple alleles be detected only through population studies"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "Count the allele forms", "explain": "The I gene has three alleles -- IA, IB and i -- so set the count of allele forms.", "compute": "allele_count = 3"},
-        {"step": 2, "action": "Tally diploid pairings", "explain": "Three homozygotes plus three heterozygotes come from n(n+1)/2 with n = 3.", "compute": "genotype_count = allele_count * (allele_count + 1) / 2"}
-      ]
-    },
-    {
-      "id": "lebo104.4.3.1",
-      "title": "Dihybrid Cross and the Law of Independent Assortment",
-      "section": "4.3, 4.3.1",
-      "definition": "Following two characters at once -- seed colour plus seed shape -- a cross of yellow-round with green-wrinkled pure lines yields RrYy hybrids whose F2 offspring spread into nine round-yellow, three wrinkled-yellow, three round-green and one wrinkled-green; each allele pair segregates as though the other pair did not exist.",
-      "formula": "f2_phenotypic_ratio = 9 : 3 : 3 : 1",
-      "key_idea": "Two independent 3:1 monohybrid ratios multiplied together build the 9:3:3:1 dihybrid outcome -- assortment of one character pair never constrains the other.",
-      "textbook_ref": "lebo104.txt lines 533-601 (dihybrid cross, derivation of 9:3:3:1 and the law's statement)",
-      "question_patterns": [
-        "derive the 9:3:3:1 ratio from a dihybrid cross between round yellow and wrinkled green peas",
-        "state the law concerning independent assortment and the cross that supports it",
-        "how many f2 phenotypes appear when two gene pairs assort freely",
-        "show that the 9:3:3:1 outcome is the product of two separate 3:1 monohybrid ratios",
-        "what gamete types does an rrYy plant produce and in what shares",
-        "when two pairs of traits are combined in a hybrid what does mendel's third law predict"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "Set up the two-gene symbols", "explain": "Y/y for yellow versus green seed colour and R/r for round versus wrinkled shape; pure parents are RRYY and rryy."},
-        {"step": 2, "action": "Read F1 and its gametes", "explain": "All F1 are RrYy (yellow round); meiosis puts RY, Ry, rY and ry into pollen and eggs at one quarter each, proving the pairs assort independently."},
-        {"step": 3, "action": "Fill the 16-cell Punnett square", "explain": "Four egg types against four pollen types give 16 zygotic squares -- enough room for every two-gene combination."},
-        {"step": 4, "action": "Multiply the monohybrid ratios", "explain": "(3 round : 1 wrinkled) times (3 yellow : 1 green) yields 9 round yellow : 3 wrinkled yellow : 3 round green : 1 wrinkled green."}
-      ]
-    },
-    {
-      "id": "lebo104.4.3.2",
-      "title": "Chromosomal Theory of Inheritance",
-      "section": "4.3.2",
-      "definition": "Sutton and Boveri saw that chromosomes behave exactly as Mendel's factors should -- occurring in pairs, copying and parting at meiosis, assorting independently -- and concluded that genes ride on chromosomes; Morgan's fruit-fly experiments then gave this union of cytology and Mendelian genetics its experimental proof.",
-      "formula": "",
-      "key_idea": "Rediscovery of Mendel in 1900 plus sharper microscopes let Sutton and Boveri anchor the abstract factors to real chromosome movements in the nucleus.",
-      "textbook_ref": "lebo104.txt lines 605-704 (rediscovery, Sutton-Boveri uniting chromosome movement with Mendel, Morgan's flies)",
-      "question_patterns": [
-        "who proposed the chromosomal theory of inheritance and what does it claim",
-        "list the parallels between chromosome behaviour and gene behaviour during meiosis",
-        "why did mendel's paper go unnoticed until 1900",
-        "how did advances in microscopy support the chromosomal view of heredity",
-        "what did sutton and boveri add to mendel's abstract laws",
-        "why was drosophila melanogaster a good organism for testing the chromosomal theory"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "Recall why Mendel's work was sidelined", "explain": "Poor communication, disbelief in discrete non-blending factors, discomfort with maths in biology, and no physical proof for the factors kept the paper dormant till 1900."},
-        {"step": 2, "action": "Match chromosome moves to gene rules", "explain": "Both occur in pairs, both separate so a gamete takes one of each pair, and different pairs segregate independently -- a point-for-point parallel."},
-        {"step": 3, "action": "State the union", "explain": "Sutton and Boveri proposed that the paired factors are carried on homologous chromosomes, making meiosis the engine of Mendelian ratios."},
-        {"step": 4, "action": "Add the verification", "explain": "Morgan exploited Drosophila's two-week life cycle, easily scored sexual dimorphism and visible variants to test and extend the theory."}
-      ]
-    },
-    {
-      "id": "lebo104.4.3.3",
-      "title": "Linkage, Recombination and Genetic Maps",
-      "section": "4.3.3",
-      "definition": "Genes seated on the same chromosome travel together more often than free assortment predicts -- Morgan named this physical association linkage -- while crossing over builds non-parental combinations, called recombination; Sturtevant turned the recombination percentage between two gene pairs into a ruler that plots their order along the chromosome.",
-      "formula": "recombination_percent = recombinant_count / total_progeny * 100",
-      "key_idea": "Tight linkage means low recombination and nearby loci; loosely linked genes recombine often and map far apart.",
-      "textbook_ref": "lebo104.txt lines 705-741 (Morgan's fly crosses, tight versus loose linkage, Sturtevant's maps)",
-      "question_patterns": [
-        "calculate the recombination frequency between two genes from cross data",
-        "why did morgan's dihybrid fly crosses deviate from the 9:3:3:1 ratio",
-        "what does a low recombination percentage tell you about two genes",
-        "how did sturtevant use recombination frequencies to map gene positions",
-        "define linkage and recombination in your own words",
-        "two gene pairs show 1.3 percent and 37.2 percent recombination -- which pair sits closer on the chromosome"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "Find the recombinant share", "explain": "From the progeny tally, take the offspring carrying non-parental allele combinations as a fraction of all offspring scored.", "compute": "recombinant_fraction = recombinant_count / total_progeny"},
-        {"step": 2, "action": "Convert to a percentage map distance", "explain": "Multiply by 100 -- the value doubles as the map unit distance between the two genes.", "compute": "recombination_percent = recombinant_fraction * 100"}
-      ]
-    },
-    {
-      "id": "lebo104.4.4.1",
-      "title": "Polygenic Inheritance",
-      "section": "4.4",
-      "definition": "Characters such as human skin colour or height spread across a gradient because three or more genes each contribute an additive dose of effect, with the environment stacked on top; the more dominant capital alleles a genotype stacks, the darker or taller the resulting individual.",
-      "formula": "phenotypic_classes = 2 * gene_pairs + 1",
-      "key_idea": "Additive alleles plus environmental influence turn a handful of genes into a continuous spectrum rather than a set of discrete alternatives.",
-      "textbook_ref": "lebo104.txt lines 747-767 (polygenic traits and the three-gene skin colour model)",
-      "question_patterns": [
-        "why does human skin colour show a range instead of two clear alternatives",
-        "how many phenotypic classes appear in the f2 of a polygenic trait governed by three genes",
-        "what makes a trait polygenic rather than plain mendelian",
-        "explain the additive allele model for a quantitative character",
-        "aabbcc and aabbcc sit at the extremes of skin tone -- what fills the middle of the scale",
-        "does the environment have any say in polygenic characters"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "Spot the gradient trait", "explain": "Traits without either-or alternatives -- height, skin tone -- are the candidates; they are governed by several genes at once."},
-        {"step": 2, "action": "Add up allele doses", "explain": "Each dominant allele (A, B, C) pushes the phenotype toward the dark or tall end; recessive alleles pull toward the light or short end, so AABBCC is darkest and aabbcc lightest."},
-        {"step": 3, "action": "Count the steps in between", "explain": "With three gene pairs the F2 sorts into seven shading classes -- every possible count of dominant alleles from zero to six."},
-        {"step": 4, "action": "Layer the environment", "explain": "Nurture modifies the genetic baseline, smoothing the classes into the continuous spread we actually observe."}
-      ]
-    },
-    {
-      "id": "lebo104.4.5.1",
-      "title": "Pleiotropy: One Gene, Many Effects",
-      "section": "4.5",
-      "definition": "A single gene can steer several phenotypes at once when its product sits early in a metabolic pathway; phenylketonuria demonstrates this -- one defective phenylalanine hydroxylase gene brings mental retardation together with reduced hair and skin pigment in the same individual.",
-      "formula": "",
-      "key_idea": "The gene product's shared role across pathways explains why one mutation fans out into several symptoms.",
-      "textbook_ref": "lebo104.txt lines 768-778 (pleiotropic genes and phenylketonuria)",
-      "question_patterns": [
-        "what is a pleiotropic gene and why does one gene produce several effects",
-        "how does phenylketonuria illustrate pleiotropy",
-        "which enzyme defect causes phenylketonuria and what builds up as a result",
-        "give one human example of a single gene influencing multiple traits",
-        "explain the mechanism linking a single mutation to many symptoms",
-        "why do the effects of a pleiotropic gene show up in unrelated organs"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "Define the term", "explain": "A pleiotropic gene is one whose single product influences multiple, apparently unrelated phenotypic traits."},
-        {"step": 2, "action": "Trace the pathway logic", "explain": "Most cases arise because the gene acts in a metabolic pathway that feeds several downstream outcomes, so one block shifts all of them."},
-        {"step": 3, "action": "Apply it to PKU", "explain": "A mutated phenylalanine hydroxylase gene stops phenylalanine turning into tyrosine; the pile-up and its derivatives harm the brain and lighten hair and skin pigment."}
-      ]
-    },
-    {
-      "id": "lebo104.4.6.1",
-      "title": "Sex Determination: XO, XY, ZW and Haplodiploidy",
-      "section": "4.6, 4.6.1, 4.6.2",
-      "definition": "Chromosome constitution settles sex in several ways: grasshoppers use XO with males lacking the second X, humans and Drosophila use XY where the father's sperm casts the deciding vote, birds reverse the roles so ZW females are the heterogametic sex, and honey bees go by ploidy -- fertilised eggs become females while unfertilised ones turn into haploid males.",
-      "formula": "drone_chromosome_number = female_bee_chromosome_number / 2",
-      "key_idea": "Male heterogamety (XY, XO) and female heterogamety (ZW) both rest on which gamete supplies which sex chromosome; bees swap chromosome identity for chromosome count.",
-      "textbook_ref": "lebo104.txt lines 779-909 (Henking's X body, XO and XY types, human XY, bird ZW, honey bee haplodiploidy)",
-      "question_patterns": [
-        "how is sex determined in human beings and which parent decides it",
-        "compare the xo and xy mechanisms of sex determination with one example each",
-        "in birds which sex carries the dissimilar zw chromosome pair",
-        "describe the haplodiploid system of honey bees and how a drone is produced",
-        "why is the mother never responsible for the sex of a human child",
-        "how many chromosomes do a drone and a worker honey bee each carry"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "Recall the discovery trail", "explain": "Henking tracked a nuclear structure through insect sperm -- half the sperm carried it -- and this X body was later recognised as the X chromosome."},
-        {"step": 2, "action": "Sort the mechanisms by which sex makes unlike gametes", "explain": "XO and XY are male heterogamety (males split into X- and Y-bearing sperm); ZW is female heterogamety, with birds' females making Z and W eggs while males make only Z sperm."},
-        {"step": 3, "action": "Work the human case", "explain": "All eggs carry an X; sperm carry X or Y in equal shares, so the sperm's chromosome decides whether a zygote is XX female or XY male -- a 50:50 gamble each pregnancy."},
-        {"step": 4, "action": "Handle the bee exception", "explain": "Queens and workers are diploid (32 chromosomes) from fertilised eggs; drones grow from unfertilised eggs as haploids (16) and even make sperm by mitosis."}
-      ]
-    },
-    {
-      "id": "lebo104.4.7.1",
-      "title": "Mutation: Point Changes, Frame Shifts and Mutagens",
-      "section": "4.7",
-      "definition": "Any heritable alteration of the DNA sequence is a mutation: losing or gaining whole chromosome segments distorts the chromosome set, a swap of one single base pair is a point mutation such as the one behind sickle-cell anaemia, and insertions or deletions of bases shove the reading frame off course; agents like UV radiation that provoke such changes are mutagens.",
-      "formula": "",
-      "key_idea": "Mutation and recombination are the two standing sources of genetic variation in any population.",
-      "textbook_ref": "lebo104.txt lines 915-938 (mutation types, point mutation, mutagens)",
-      "question_patterns": [
-        "define point mutation and name the classic human example",
-        "how do deletions and insertions of bases cause frame-shift mutations",
-        "what are mutagens and give one physical example",
-        "distinguish chromosomal aberrations from point mutations",
-        "why does a single base change make red blood cells sickle shaped",
-        "name the two phenomena responsible for generating variation in dna"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "Define mutation broadly", "explain": "Mutation covers any change in DNA sequence, and along with recombination it feeds variation into the genotype and hence the phenotype."},
-        {"step": 2, "action": "Split the scales of change", "explain": "Segment-level losses or gains alter whole chromosomes (aberrations, common in cancer cells); single-base swaps are point mutations, and base additions or deletions cause frame-shift mutations."},
-        {"step": 3, "action": "Anchor with sickle-cell", "explain": "One base substitution in the beta-globin gene changes one amino acid, and the mutant haemoglobin polymerises under low oxygen, deforming red cells into sickles."},
-        {"step": 4, "action": "Name the triggers", "explain": "Chemical and physical agents called mutagens raise the mutation rate; ultraviolet radiation is a standard physical example."}
-      ]
-    },
-    {
-      "id": "lebo104.4.8.1",
-      "title": "Pedigree Analysis and Mendelian Disorders",
-      "section": "4.8.1, 4.8.2",
-      "definition": "Since controlled crosses cannot be run on humans, family trees drawn with standard symbols track a trait across generations; a pedigree separates dominant from recessive and sex-linked from autosomal patterns, and it exposes single-gene disorders -- haemophilia and colour blindness as X-linked recessives, sickle-cell anaemia, phenylketonuria and thalassemia as autosomal recessives.",
-      "formula": "",
-      "key_idea": "Carrier mother to son transmission flags an X-linked recessive trait, while an autosomal recessive disease can surface from two unaffected carrier parents and skip generations.",
-      "textbook_ref": "lebo104.txt lines 940-1068 (pedigree method, haemophilia, colour blindness, sickle-cell anaemia, phenylketonuria, thalassemia)",
-      "question_patterns": [
-        "what is pedigree analysis and why do human geneticists rely on it",
-        "how can a family tree show whether a trait is dominant or recessive",
-        "why does haemophilia pass from carrier mothers to their sons",
-        "which haemoglobin genotype actually shows sickle-cell disease and which only carries it",
-        "contrast thalassemia with sickle-cell anaemia as defects of globin",
-        "a colour-blind man marries a normal woman -- what risk do their children run"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "Draw the family tree", "explain": "Standard symbols mark males, females, affected members and carriers over several generations, substituting for crosses that cannot be arranged in humans."},
-        {"step": 2, "action": "Read the inheritance pattern", "explain": "Appearance in every generation points to dominance; affected children of unaffected parents point to recessiveness; father-to-all-daughters or mother-to-sons flow points to the X chromosome."},
-        {"step": 3, "action": "Classify the single-gene disorders", "explain": "Haemophilia (clotting protein defect) and red-green colour blindness ride the X chromosome as recessives; sickle-cell anaemia, phenylketonuria and thalassemia are autosomal recessive."},
-        {"step": 4, "action": "Separate quantity from quality defects", "explain": "Thalassemia makes too few globin chains -- a quantitative failure -- while sickle-cell makes an incorrectly functioning globin -- a qualitative one."}
-      ]
-    },
-    {
-      "id": "lebo104.4.8.2",
-      "title": "Chromosomal Disorders: Aneuploidy and Polyploidy",
-      "section": "4.8.3",
-      "definition": "Chromosome-number mistakes form their own disease class: failed chromatid separation adds or drops a single chromosome (aneuploidy), while cytokinesis failure after telophase doubles an entire set (polyploidy, common in plants); one extra chromosome 21 gives Down's syndrome, an extra X gives Klinefelter's 47,XXY, and a missing X gives Turner's 45,XO.",
-      "formula": "down_syndrome_karyotype_count = 46 + 1",
-      "key_idea": "Aneuploidy shifts one chromosome's count while polyploidy shifts every set, and the human syndromes are named by exactly which chromosome is extra or missing.",
-      "textbook_ref": "lebo104.txt lines 1069-1139 (chromosomal disorders, trisomy 21, Klinefelter's, Turner's)",
-      "question_patterns": [
-        "how does aneuploidy arise during cell division",
-        "which chromosome is duplicated in down's syndrome and what karyotype count results",
-        "compare the chromosome makeup in klinefelter's and turner's syndromes",
-        "what causes polyploidy and why is it common in plants",
-        "differentiate trisomy from monosomy with one example each",
-        "why do the sex-chromosome syndromes usually leave the person sterile"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "Start from the normal count", "explain": "A healthy human cell holds 46 chromosomes -- 22 autosome pairs plus one sex-chromosome pair."},
-        {"step": 2, "action": "Define the two number errors", "explain": "When chromatids fail to segregate, a gamete gains or loses one chromosome -- trisomy or monosomy after fertilisation; when cytokinesis fails, whole sets multiply -- polyploidy."},
-        {"step": 3, "action": "Map the syndromes to karyotypes", "explain": "Down's is trisomy of chromosome 21 (47 total, with characteristic facial features and slowed development); Klinefelter's is 47,XXY with gynaecomastia and sterility; Turner's is 45,XO with rudimentary ovaries and missing secondary sexual characters."},
-        {"step": 4, "action": "Note the plant contrast", "explain": "Polyploid individuals are often viable and even vigorous in plants, which is why whole-set doubling shows up there far more than in animals."}
-      ]
+     "step": 4,
+     "action": "Count, ratio and re-test",
+     "explain": "Large F1 and F2 populations were scored numerically, and selfing the products checked the rule across further generations -- statistics, not impressions."
     }
-  ],
-  "worked_examples": [
+   ]
+  },
+  {
+   "id": "lebo104.4.2.1",
+   "title": "Monohybrid Cross, Dominance and the 3:1 Ratio",
+   "section": "4.2, 4.2.1",
+   "definition": "Crossing two pure lines that differ in one character gives an F1 in which only the dominant trait appears; selfing that F1 produces an F2 split three-quarters dominant to one-quarter recessive in appearance while the underlying genotypes run TT:Tt:tt in a 1:2:1 order -- characters stay discrete instead of blending.",
+   "formula": "dominant_fraction_f2 = 3 / 4",
+   "key_idea": "A recessive trait can vanish in the F1 and reappear in the F2 unchanged, which shows particles (alleles), not blended fluids, carry the characters.",
+   "textbook_ref": "lebo104.txt lines 146-204 and 253-355 (monohybrid cross, Punnett square, F2 ratios)",
+   "question_patterns": [
+    "work out the phenotypic ratio of the f2 generation in a monohybrid cross",
+    "why do dwarf plants reappear in the f2 of a tall-by-dwarf pea cross",
+    "state the genotypic ratio expected when two heterozygous tall pea plants are crossed",
+    "explain the law of dominance using a monohybrid cross as the example",
+    "what does the absence of blending among f1 and f2 offspring tell us about inheritance",
+    "a homozygous tall pea is crossed with a dwarf pea -- what do the f1 plants look like"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
     {
-      "id": "we_lebo104_1",
-      "source_ref": "lebo104.txt lines 449-507 (ABO alleles and blood group table)",
-      "concept": "lebo104.4.2.4",
-      "question_type": "compute",
-      "question_pattern": "The human blood-group gene has {allele_count} allele forms. How many distinct diploid genotypes can these build?",
-      "extracted_variables": {
-        "allele_count": 3
-      },
-      "solution_template": [
-        {"step": 1, "action": "Pair up the alleles two at a time", "explain": "Three allele forms combine as three homozygotes plus three heterozygotes -- n(n+1)/2 with n = 3.", "compute": "genotype_count = allele_count * (allele_count + 1) / 2"}
-      ]
+     "step": 1,
+     "action": "Assign allele symbols",
+     "explain": "Capital letter for the allele expressed in F1 (T, tall), small letter for the masked one (t, dwarf); parents are TT and tt."
     },
     {
-      "id": "we_lebo104_2",
-      "source_ref": "lebo104.txt lines 705-741 (linkage crosses and recombination percentages)",
-      "concept": "lebo104.4.3.3",
-      "question_type": "compute",
-      "question_pattern": "Screening {total_progeny} fly offspring of a dihybrid cross reveals {recombinant_count} with non-parental trait combinations. What percentage recombination separates the two genes?",
-      "extracted_variables": {
-        "total_progeny": 1000,
-        "recombinant_count": 372
-      },
-      "solution_template": [
-        {"step": 1, "action": "Fraction of recombinants", "explain": "Non-parental offspring divided by all offspring scored gives the recombination fraction: 372/1000.", "compute": "recombinant_fraction = recombinant_count / total_progeny"},
-        {"step": 2, "action": "Scale to percent", "explain": "Multiplying by 100 converts the fraction into the map distance in percent.", "compute": "recombination_percent = recombinant_fraction * 100"}
-      ]
+     "step": 2,
+     "action": "Read the F1",
+     "explain": "Every F1 plant is Tt and tall: the dominant allele T hides the recessive t rather than mixing with it."
     },
     {
-      "id": "we_lebo104_3",
-      "source_ref": "lebo104.txt lines 163-176 and 315-332 (selfing the F1 and the 1:2:1 outcome)",
-      "concept": "lebo104.4.2.1",
-      "question_type": "compute",
-      "question_pattern": "Two heterozygous tall pea plants are crossed. What fraction of the f2 progeny is expected to be dwarf?",
-      "extracted_variables": {},
-      "solution_template": [
-        {"step": 1, "action": "Chance both gametes carry the recessive allele", "explain": "Each Tt parent puts t into half its gametes, so a tt zygote needs both half-chances to coincide.", "compute": "dwarf_fraction = (1 / 2) * (1 / 2)"}
-      ]
-    }
-  ],
-  "exercises": [
+     "step": 3,
+     "action": "Self the F1 and combine gametes",
+     "explain": "Meiosis gives T and t gametes in equal shares; a Punnett square lays out TT, Tt, Tt, tt, a 1:2:1 genotype order."
+    },
     {
-      "id": "ex_lebo104_1",
-      "source_ref": "lebo104.txt lines 1200-1248 (end-of-chapter exercises 1-16, reworded)",
-      "questions": [
-        "What advantages did the pea plant offer Mendel as an experimental organism?",
-        "Set apart the following pairs of terms: dominant versus recessive; homozygous versus heterozygous; monohybrid versus dihybrid.",
-        "A diploid organism carries heterozygosity at four loci -- how many genetically different gametes can it make?",
-        "Demonstrate the law of dominance through a monohybrid cross.",
-        "Define a test cross and sketch how one is designed.",
-        "With a Punnett square, predict the phenotypic spread in the f1 of a cross between a homozygous female and a heterozygous male at a single locus.",
-        "Cross a tall green-seeded plant that is heterozygous at both loci (ttYy style, TtYy x Ttyy) and give the expected share of tall green and dwarf green offspring.",
-        "If two heterozygous parents are crossed and the two loci concerned are completely linked, what phenotypic mix appears in the f1 of that dihybrid cross?",
-        "Summarise T.H. Morgan's contributions to genetics in brief.",
-        "What does pedigree analysis involve, and in which situations is it useful?",
-        "Walk through how sex is decided in humans.",
-        "A child has blood group o while the father is a and the mother is b -- deduce both parents' genotypes and the genotypes their other children could carry.",
-        "Illustrate with examples: co-dominance, and incomplete dominance.",
-        "What counts as a point mutation? Supply one instance.",
-        "Name the scientists credited with the chromosomal theory of inheritance.",
-        "Pick any two autosomal genetic disorders and list their leading symptoms."
-      ]
+     "step": 4,
+     "action": "Collapse genotypes to phenotypes",
+     "explain": "TT and Tt both look tall, so three of every four plants are tall and one is dwarf -- the 3:1 F2 phenotype signature of dominance."
     }
-  ]
+   ]
+  },
+  {
+   "id": "lebo104.4.2.2",
+   "title": "Law of Segregation and the Test Cross",
+   "section": "4.2.2",
+   "definition": "When gametes form, the paired alleles separate cleanly so each gamete carries just one of them; because dominance hides genotypes behind phenotypes, an unknown tall plant is bred with a homozygous dwarf partner -- every offspring tall means the unknown is TT, while a 1:1 tall-to-dwarf split exposes a Tt heterozygote.",
+   "formula": "heterozygote_testcross_ratio = 1 / 1",
+   "key_idea": "Segregation is the physical parting of allele partners during meiosis, and the test cross converts breeding outcomes back into a genotype reading.",
+   "textbook_ref": "lebo104.txt lines 375-384 and 337-354 (law of segregation passage and test cross figure)",
+   "question_patterns": [
+    "state the law of segregation and describe how alleles behave during gamete formation",
+    "how does a test cross reveal whether a tall pea plant is homozygous or heterozygous",
+    "why does every gamete end up with only one allele from each pair",
+    "what offspring ratio identifies a heterozygous parent in a test cross",
+    "explain why recessive characters disappear in f1 but return unchanged in f2",
+    "use segregation to justify the equal numbers of t and t gametes made by a tt plant"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Separate the allele pair at meiosis",
+     "explain": "A homozygote contributes identical alleles to all gametes, a heterozygote sends T to half its gametes and t to the other half -- no mixing ever occurs."
+    },
+    {
+     "step": 2,
+     "action": "Explain F1 hiding, F2 recovery",
+     "explain": "Since gametes carry single alleles, the recessive member of the pair survives unseen in the F1 and re-emerges homozygous in a quarter of the F2."
+    },
+    {
+     "step": 3,
+     "action": "Set up the test cross",
+     "explain": "Breed the dominant-phenotype plant whose genotype is unknown with a recessive (tt) partner instead of selfing it."
+    },
+    {
+     "step": 4,
+     "action": "Interpret the progeny",
+     "explain": "A uniform dominant progeny means the tested plant made only T gametes (TT); a 1:1 split means it also made t gametes (Tt)."
+    }
+   ]
+  },
+  {
+   "id": "lebo104.4.2.3",
+   "title": "Incomplete Dominance in Snapdragon Flower Colour",
+   "section": "4.2.2.1",
+   "definition": "In the dog flower the heterozygote Rr is pink, sitting between RR red and rr white, so selfing the F1 gives an F2 reading 1 red : 2 pink : 1 white; the genotype order stays 1:2:1 and only the phenotype ratio departs from 3:1, because the dominant allele cannot fully cover the recessive one.",
+   "formula": "snapdragon_f2_ratio = 1 : 2 : 1",
+   "key_idea": "With incomplete dominance the heterozygote is visibly distinct, so the outward appearance itself reports the genotype.",
+   "textbook_ref": "lebo104.txt lines 388-406 (snapdragon cross and the 1:2:1 phenotypic ratio)",
+   "question_patterns": [
+    "why are snapdragon f1 flowers pink when one parent is red and the other white",
+    "give the f2 phenotypic ratio for flower colour in the snapdragon cross",
+    "how does incomplete dominance differ from complete dominance",
+    "in antirrhinum what do the genotypes rr rr and rr look like",
+    "does incomplete dominance change the genotypic ratio of a monohybrid cross",
+    "contrast particulate inheritance with blending using the pink flower case"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Cross the pure lines",
+     "explain": "RR red plants mated with rr white plants give Rr offspring that are pink -- halfway, so neither allele masks the other completely."
+    },
+    {
+     "step": 2,
+     "action": "Self the pink F1",
+     "explain": "R and r gametes combine as in any monohybrid cross, producing RR, Rr and rr in the usual 1:2:1 genotype order."
+    },
+    {
+     "step": 3,
+     "action": "Score phenotypes per genotype",
+     "explain": "Each genotype now shows its own colour: 1 red : 2 pink : 1 white, replacing the standard 3:1 because Rr is distinguishable from RR."
+    },
+    {
+     "step": 4,
+     "action": "State what stays constant",
+     "explain": "Mendelian genotype ratios survive untouched; only the phenotype mapping changes, and traits still refuse to blend permanently."
+    }
+   ]
+  },
+  {
+   "id": "lebo104.4.2.4",
+   "title": "Co-dominance, ABO Blood Groups and Multiple Alleles",
+   "section": "4.2.2.2",
+   "definition": "The single human blood-group gene I exists in three allele forms -- IA, IB and i -- though any one person carries only two of them; IA and IB each make their own red-cell surface sugar and both show through in type AB, while i makes no sugar, so six genotypes collapse into just four phenotypes.",
+   "formula": "genotype_count = allele_count * (allele_count + 1) / 2",
+   "key_idea": "When both members of an allele pair express their own products side by side the trait is co-dominant, and a gene with more than two alleles only reveals its full spread across a population.",
+   "textbook_ref": "lebo104.txt lines 449-516 (co-dominance passage and the ABO blood group table)",
+   "question_patterns": [
+    "how many genotypes and phenotypes does the abo blood group system produce",
+    "why do the ia and ib alleles both show themselves in a person with ab blood",
+    "explain co-dominance taking human blood groups as the example",
+    "what makes the abo gene a case of multiple alleles",
+    "a child is type o while the father is type a -- what does that reveal about the parents",
+    "why can multiple alleles be detected only through population studies"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Count the allele forms",
+     "explain": "The I gene has three alleles -- IA, IB and i -- so set the count of allele forms.",
+     "compute": "allele_count = 3"
+    },
+    {
+     "step": 2,
+     "action": "Tally diploid pairings",
+     "explain": "Three homozygotes plus three heterozygotes come from n(n+1)/2 with n = 3.",
+     "compute": "genotype_count = allele_count * (allele_count + 1) / 2"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "genotype_count = allele_count * (allele_count + 1) / 2",
+     "compute": "genotype_count = allele_count * (allele_count + 1) / 2"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lebo104.4.3.1",
+   "title": "Dihybrid Cross and the Law of Independent Assortment",
+   "section": "4.3, 4.3.1",
+   "definition": "Following two characters at once -- seed colour plus seed shape -- a cross of yellow-round with green-wrinkled pure lines yields RrYy hybrids whose F2 offspring spread into nine round-yellow, three wrinkled-yellow, three round-green and one wrinkled-green; each allele pair segregates as though the other pair did not exist.",
+   "formula": "f2_phenotypic_ratio = 9 : 3 : 3 : 1",
+   "key_idea": "Two independent 3:1 monohybrid ratios multiplied together build the 9:3:3:1 dihybrid outcome -- assortment of one character pair never constrains the other.",
+   "textbook_ref": "lebo104.txt lines 533-601 (dihybrid cross, derivation of 9:3:3:1 and the law's statement)",
+   "question_patterns": [
+    "derive the 9:3:3:1 ratio from a dihybrid cross between round yellow and wrinkled green peas",
+    "state the law concerning independent assortment and the cross that supports it",
+    "how many f2 phenotypes appear when two gene pairs assort freely",
+    "show that the 9:3:3:1 outcome is the product of two separate 3:1 monohybrid ratios",
+    "what gamete types does an rrYy plant produce and in what shares",
+    "when two pairs of traits are combined in a hybrid what does mendel's third law predict"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Set up the two-gene symbols",
+     "explain": "Y/y for yellow versus green seed colour and R/r for round versus wrinkled shape; pure parents are RRYY and rryy."
+    },
+    {
+     "step": 2,
+     "action": "Read F1 and its gametes",
+     "explain": "All F1 are RrYy (yellow round); meiosis puts RY, Ry, rY and ry into pollen and eggs at one quarter each, proving the pairs assort independently."
+    },
+    {
+     "step": 3,
+     "action": "Fill the 16-cell Punnett square",
+     "explain": "Four egg types against four pollen types give 16 zygotic squares -- enough room for every two-gene combination."
+    },
+    {
+     "step": 4,
+     "action": "Multiply the monohybrid ratios",
+     "explain": "(3 round : 1 wrinkled) times (3 yellow : 1 green) yields 9 round yellow : 3 wrinkled yellow : 3 round green : 1 wrinkled green."
+    }
+   ]
+  },
+  {
+   "id": "lebo104.4.3.2",
+   "title": "Chromosomal Theory of Inheritance",
+   "section": "4.3.2",
+   "definition": "Sutton and Boveri saw that chromosomes behave exactly as Mendel's factors should -- occurring in pairs, copying and parting at meiosis, assorting independently -- and concluded that genes ride on chromosomes; Morgan's fruit-fly experiments then gave this union of cytology and Mendelian genetics its experimental proof.",
+   "formula": "",
+   "key_idea": "Rediscovery of Mendel in 1900 plus sharper microscopes let Sutton and Boveri anchor the abstract factors to real chromosome movements in the nucleus.",
+   "textbook_ref": "lebo104.txt lines 605-704 (rediscovery, Sutton-Boveri uniting chromosome movement with Mendel, Morgan's flies)",
+   "question_patterns": [
+    "who proposed the chromosomal theory of inheritance and what does it claim",
+    "list the parallels between chromosome behaviour and gene behaviour during meiosis",
+    "why did mendel's paper go unnoticed until 1900",
+    "how did advances in microscopy support the chromosomal view of heredity",
+    "what did sutton and boveri add to mendel's abstract laws",
+    "why was drosophila melanogaster a good organism for testing the chromosomal theory"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Recall why Mendel's work was sidelined",
+     "explain": "Poor communication, disbelief in discrete non-blending factors, discomfort with maths in biology, and no physical proof for the factors kept the paper dormant till 1900."
+    },
+    {
+     "step": 2,
+     "action": "Match chromosome moves to gene rules",
+     "explain": "Both occur in pairs, both separate so a gamete takes one of each pair, and different pairs segregate independently -- a point-for-point parallel."
+    },
+    {
+     "step": 3,
+     "action": "State the union",
+     "explain": "Sutton and Boveri proposed that the paired factors are carried on homologous chromosomes, making meiosis the engine of Mendelian ratios."
+    },
+    {
+     "step": 4,
+     "action": "Add the verification",
+     "explain": "Morgan exploited Drosophila's two-week life cycle, easily scored sexual dimorphism and visible variants to test and extend the theory."
+    }
+   ]
+  },
+  {
+   "id": "lebo104.4.3.3",
+   "title": "Linkage, Recombination and Genetic Maps",
+   "section": "4.3.3",
+   "definition": "Genes seated on the same chromosome travel together more often than free assortment predicts -- Morgan named this physical association linkage -- while crossing over builds non-parental combinations, called recombination; Sturtevant turned the recombination percentage between two gene pairs into a ruler that plots their order along the chromosome.",
+   "formula": "recombination_percent = recombinant_count / total_progeny * 100",
+   "key_idea": "Tight linkage means low recombination and nearby loci; loosely linked genes recombine often and map far apart.",
+   "textbook_ref": "lebo104.txt lines 705-741 (Morgan's fly crosses, tight versus loose linkage, Sturtevant's maps)",
+   "question_patterns": [
+    "calculate the recombination frequency between two genes from cross data",
+    "why did morgan's dihybrid fly crosses deviate from the 9:3:3:1 ratio",
+    "what does a low recombination percentage tell you about two genes",
+    "how did sturtevant use recombination frequencies to map gene positions",
+    "define linkage and recombination in your own words",
+    "two gene pairs show 1.3 percent and 37.2 percent recombination -- which pair sits closer on the chromosome"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Find the recombinant share",
+     "explain": "From the progeny tally, take the offspring carrying non-parental allele combinations as a fraction of all offspring scored.",
+     "compute": "recombinant_fraction = recombinant_count / total_progeny"
+    },
+    {
+     "step": 2,
+     "action": "Convert to a percentage map distance",
+     "explain": "Multiply by 100 -- the value doubles as the map unit distance between the two genes.",
+     "compute": "recombination_percent = recombinant_fraction * 100"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "recombination_percent = recombinant_count / total_progeny * 100",
+     "compute": "recombination_percent = recombinant_count / total_progeny * 100"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lebo104.4.4.1",
+   "title": "Polygenic Inheritance",
+   "section": "4.4",
+   "definition": "Characters such as human skin colour or height spread across a gradient because three or more genes each contribute an additive dose of effect, with the environment stacked on top; the more dominant capital alleles a genotype stacks, the darker or taller the resulting individual.",
+   "formula": "phenotypic_classes = 2 * gene_pairs + 1",
+   "key_idea": "Additive alleles plus environmental influence turn a handful of genes into a continuous spectrum rather than a set of discrete alternatives.",
+   "textbook_ref": "lebo104.txt lines 747-767 (polygenic traits and the three-gene skin colour model)",
+   "question_patterns": [
+    "why does human skin colour show a range instead of two clear alternatives",
+    "how many phenotypic classes appear in the f2 of a polygenic trait governed by three genes",
+    "what makes a trait polygenic rather than plain mendelian",
+    "explain the additive allele model for a quantitative character",
+    "aabbcc and aabbcc sit at the extremes of skin tone -- what fills the middle of the scale",
+    "does the environment have any say in polygenic characters"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Spot the gradient trait",
+     "explain": "Traits without either-or alternatives -- height, skin tone -- are the candidates; they are governed by several genes at once."
+    },
+    {
+     "step": 2,
+     "action": "Add up allele doses",
+     "explain": "Each dominant allele (A, B, C) pushes the phenotype toward the dark or tall end; recessive alleles pull toward the light or short end, so AABBCC is darkest and aabbcc lightest."
+    },
+    {
+     "step": 3,
+     "action": "Count the steps in between",
+     "explain": "With three gene pairs the F2 sorts into seven shading classes -- every possible count of dominant alleles from zero to six."
+    },
+    {
+     "step": 4,
+     "action": "Layer the environment",
+     "explain": "Nurture modifies the genetic baseline, smoothing the classes into the continuous spread we actually observe."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "phenotypic_classes = 2 * gene_pairs + 1",
+     "compute": "phenotypic_classes = 2 * gene_pairs + 1"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lebo104.4.5.1",
+   "title": "Pleiotropy: One Gene, Many Effects",
+   "section": "4.5",
+   "definition": "A single gene can steer several phenotypes at once when its product sits early in a metabolic pathway; phenylketonuria demonstrates this -- one defective phenylalanine hydroxylase gene brings mental retardation together with reduced hair and skin pigment in the same individual.",
+   "formula": "",
+   "key_idea": "The gene product's shared role across pathways explains why one mutation fans out into several symptoms.",
+   "textbook_ref": "lebo104.txt lines 768-778 (pleiotropic genes and phenylketonuria)",
+   "question_patterns": [
+    "what is a pleiotropic gene and why does one gene produce several effects",
+    "how does phenylketonuria illustrate pleiotropy",
+    "which enzyme defect causes phenylketonuria and what builds up as a result",
+    "give one human example of a single gene influencing multiple traits",
+    "explain the mechanism linking a single mutation to many symptoms",
+    "why do the effects of a pleiotropic gene show up in unrelated organs"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the term",
+     "explain": "A pleiotropic gene is one whose single product influences multiple, apparently unrelated phenotypic traits."
+    },
+    {
+     "step": 2,
+     "action": "Trace the pathway logic",
+     "explain": "Most cases arise because the gene acts in a metabolic pathway that feeds several downstream outcomes, so one block shifts all of them."
+    },
+    {
+     "step": 3,
+     "action": "Apply it to PKU",
+     "explain": "A mutated phenylalanine hydroxylase gene stops phenylalanine turning into tyrosine; the pile-up and its derivatives harm the brain and lighten hair and skin pigment."
+    }
+   ]
+  },
+  {
+   "id": "lebo104.4.6.1",
+   "title": "Sex Determination: XO, XY, ZW and Haplodiploidy",
+   "section": "4.6, 4.6.1, 4.6.2",
+   "definition": "Chromosome constitution settles sex in several ways: grasshoppers use XO with males lacking the second X, humans and Drosophila use XY where the father's sperm casts the deciding vote, birds reverse the roles so ZW females are the heterogametic sex, and honey bees go by ploidy -- fertilised eggs become females while unfertilised ones turn into haploid males.",
+   "formula": "drone_chromosome_number = female_bee_chromosome_number / 2",
+   "key_idea": "Male heterogamety (XY, XO) and female heterogamety (ZW) both rest on which gamete supplies which sex chromosome; bees swap chromosome identity for chromosome count.",
+   "textbook_ref": "lebo104.txt lines 779-909 (Henking's X body, XO and XY types, human XY, bird ZW, honey bee haplodiploidy)",
+   "question_patterns": [
+    "how is sex determined in human beings and which parent decides it",
+    "compare the xo and xy mechanisms of sex determination with one example each",
+    "in birds which sex carries the dissimilar zw chromosome pair",
+    "describe the haplodiploid system of honey bees and how a drone is produced",
+    "why is the mother never responsible for the sex of a human child",
+    "how many chromosomes do a drone and a worker honey bee each carry"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Recall the discovery trail",
+     "explain": "Henking tracked a nuclear structure through insect sperm -- half the sperm carried it -- and this X body was later recognised as the X chromosome."
+    },
+    {
+     "step": 2,
+     "action": "Sort the mechanisms by which sex makes unlike gametes",
+     "explain": "XO and XY are male heterogamety (males split into X- and Y-bearing sperm); ZW is female heterogamety, with birds' females making Z and W eggs while males make only Z sperm."
+    },
+    {
+     "step": 3,
+     "action": "Work the human case",
+     "explain": "All eggs carry an X; sperm carry X or Y in equal shares, so the sperm's chromosome decides whether a zygote is XX female or XY male -- a 50:50 gamble each pregnancy."
+    },
+    {
+     "step": 4,
+     "action": "Handle the bee exception",
+     "explain": "Queens and workers are diploid (32 chromosomes) from fertilised eggs; drones grow from unfertilised eggs as haploids (16) and even make sperm by mitosis."
+    }
+   ]
+  },
+  {
+   "id": "lebo104.4.7.1",
+   "title": "Mutation: Point Changes, Frame Shifts and Mutagens",
+   "section": "4.7",
+   "definition": "Any heritable alteration of the DNA sequence is a mutation: losing or gaining whole chromosome segments distorts the chromosome set, a swap of one single base pair is a point mutation such as the one behind sickle-cell anaemia, and insertions or deletions of bases shove the reading frame off course; agents like UV radiation that provoke such changes are mutagens.",
+   "formula": "",
+   "key_idea": "Mutation and recombination are the two standing sources of genetic variation in any population.",
+   "textbook_ref": "lebo104.txt lines 915-938 (mutation types, point mutation, mutagens)",
+   "question_patterns": [
+    "define point mutation and name the classic human example",
+    "how do deletions and insertions of bases cause frame-shift mutations",
+    "what are mutagens and give one physical example",
+    "distinguish chromosomal aberrations from point mutations",
+    "why does a single base change make red blood cells sickle shaped",
+    "name the two phenomena responsible for generating variation in dna"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define mutation broadly",
+     "explain": "Mutation covers any change in DNA sequence, and along with recombination it feeds variation into the genotype and hence the phenotype."
+    },
+    {
+     "step": 2,
+     "action": "Split the scales of change",
+     "explain": "Segment-level losses or gains alter whole chromosomes (aberrations, common in cancer cells); single-base swaps are point mutations, and base additions or deletions cause frame-shift mutations."
+    },
+    {
+     "step": 3,
+     "action": "Anchor with sickle-cell",
+     "explain": "One base substitution in the beta-globin gene changes one amino acid, and the mutant haemoglobin polymerises under low oxygen, deforming red cells into sickles."
+    },
+    {
+     "step": 4,
+     "action": "Name the triggers",
+     "explain": "Chemical and physical agents called mutagens raise the mutation rate; ultraviolet radiation is a standard physical example."
+    }
+   ]
+  },
+  {
+   "id": "lebo104.4.8.1",
+   "title": "Pedigree Analysis and Mendelian Disorders",
+   "section": "4.8.1, 4.8.2",
+   "definition": "Since controlled crosses cannot be run on humans, family trees drawn with standard symbols track a trait across generations; a pedigree separates dominant from recessive and sex-linked from autosomal patterns, and it exposes single-gene disorders -- haemophilia and colour blindness as X-linked recessives, sickle-cell anaemia, phenylketonuria and thalassemia as autosomal recessives.",
+   "formula": "",
+   "key_idea": "Carrier mother to son transmission flags an X-linked recessive trait, while an autosomal recessive disease can surface from two unaffected carrier parents and skip generations.",
+   "textbook_ref": "lebo104.txt lines 940-1068 (pedigree method, haemophilia, colour blindness, sickle-cell anaemia, phenylketonuria, thalassemia)",
+   "question_patterns": [
+    "what is pedigree analysis and why do human geneticists rely on it",
+    "how can a family tree show whether a trait is dominant or recessive",
+    "why does haemophilia pass from carrier mothers to their sons",
+    "which haemoglobin genotype actually shows sickle-cell disease and which only carries it",
+    "contrast thalassemia with sickle-cell anaemia as defects of globin",
+    "a colour-blind man marries a normal woman -- what risk do their children run"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Draw the family tree",
+     "explain": "Standard symbols mark males, females, affected members and carriers over several generations, substituting for crosses that cannot be arranged in humans."
+    },
+    {
+     "step": 2,
+     "action": "Read the inheritance pattern",
+     "explain": "Appearance in every generation points to dominance; affected children of unaffected parents point to recessiveness; father-to-all-daughters or mother-to-sons flow points to the X chromosome."
+    },
+    {
+     "step": 3,
+     "action": "Classify the single-gene disorders",
+     "explain": "Haemophilia (clotting protein defect) and red-green colour blindness ride the X chromosome as recessives; sickle-cell anaemia, phenylketonuria and thalassemia are autosomal recessive."
+    },
+    {
+     "step": 4,
+     "action": "Separate quantity from quality defects",
+     "explain": "Thalassemia makes too few globin chains -- a quantitative failure -- while sickle-cell makes an incorrectly functioning globin -- a qualitative one."
+    }
+   ]
+  },
+  {
+   "id": "lebo104.4.8.2",
+   "title": "Chromosomal Disorders: Aneuploidy and Polyploidy",
+   "section": "4.8.3",
+   "definition": "Chromosome-number mistakes form their own disease class: failed chromatid separation adds or drops a single chromosome (aneuploidy), while cytokinesis failure after telophase doubles an entire set (polyploidy, common in plants); one extra chromosome 21 gives Down's syndrome, an extra X gives Klinefelter's 47,XXY, and a missing X gives Turner's 45,XO.",
+   "formula": "down_syndrome_karyotype_count = 46 + 1",
+   "key_idea": "Aneuploidy shifts one chromosome's count while polyploidy shifts every set, and the human syndromes are named by exactly which chromosome is extra or missing.",
+   "textbook_ref": "lebo104.txt lines 1069-1139 (chromosomal disorders, trisomy 21, Klinefelter's, Turner's)",
+   "question_patterns": [
+    "how does aneuploidy arise during cell division",
+    "which chromosome is duplicated in down's syndrome and what karyotype count results",
+    "compare the chromosome makeup in klinefelter's and turner's syndromes",
+    "what causes polyploidy and why is it common in plants",
+    "differentiate trisomy from monosomy with one example each",
+    "why do the sex-chromosome syndromes usually leave the person sterile"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Start from the normal count",
+     "explain": "A healthy human cell holds 46 chromosomes -- 22 autosome pairs plus one sex-chromosome pair."
+    },
+    {
+     "step": 2,
+     "action": "Define the two number errors",
+     "explain": "When chromatids fail to segregate, a gamete gains or loses one chromosome -- trisomy or monosomy after fertilisation; when cytokinesis fails, whole sets multiply -- polyploidy."
+    },
+    {
+     "step": 3,
+     "action": "Map the syndromes to karyotypes",
+     "explain": "Down's is trisomy of chromosome 21 (47 total, with characteristic facial features and slowed development); Klinefelter's is 47,XXY with gynaecomastia and sterility; Turner's is 45,XO with rudimentary ovaries and missing secondary sexual characters."
+    },
+    {
+     "step": 4,
+     "action": "Note the plant contrast",
+     "explain": "Polyploid individuals are often viable and even vigorous in plants, which is why whole-set doubling shows up there far more than in animals."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_lebo104_1",
+   "source_ref": "lebo104.txt lines 449-507 (ABO alleles and blood group table)",
+   "concept": "lebo104.4.2.4",
+   "question_type": "compute",
+   "question_pattern": "The human blood-group gene has {allele_count} allele forms. How many distinct diploid genotypes can these build?",
+   "extracted_variables": {
+    "allele_count": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Pair up the alleles two at a time",
+     "explain": "Three allele forms combine as three homozygotes plus three heterozygotes -- n(n+1)/2 with n = 3.",
+     "compute": "genotype_count = allele_count * (allele_count + 1) / 2"
+    }
+   ]
+  },
+  {
+   "id": "we_lebo104_2",
+   "source_ref": "lebo104.txt lines 705-741 (linkage crosses and recombination percentages)",
+   "concept": "lebo104.4.3.3",
+   "question_type": "compute",
+   "question_pattern": "Screening {total_progeny} fly offspring of a dihybrid cross reveals {recombinant_count} with non-parental trait combinations. What percentage recombination separates the two genes?",
+   "extracted_variables": {
+    "total_progeny": 1000,
+    "recombinant_count": 372
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Fraction of recombinants",
+     "explain": "Non-parental offspring divided by all offspring scored gives the recombination fraction: 372/1000.",
+     "compute": "recombinant_fraction = recombinant_count / total_progeny"
+    },
+    {
+     "step": 2,
+     "action": "Scale to percent",
+     "explain": "Multiplying by 100 converts the fraction into the map distance in percent.",
+     "compute": "recombination_percent = recombinant_fraction * 100"
+    }
+   ]
+  },
+  {
+   "id": "we_lebo104_3",
+   "source_ref": "lebo104.txt lines 163-176 and 315-332 (selfing the F1 and the 1:2:1 outcome)",
+   "concept": "lebo104.4.2.1",
+   "question_type": "compute",
+   "question_pattern": "Two heterozygous tall pea plants are crossed. What fraction of the f2 progeny is expected to be dwarf?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Chance both gametes carry the recessive allele",
+     "explain": "Each Tt parent puts t into half its gametes, so a tt zygote needs both half-chances to coincide.",
+     "compute": "dwarf_fraction = (1 / 2) * (1 / 2)"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_lebo104_1",
+   "source_ref": "lebo104.txt lines 1200-1248 (end-of-chapter exercises 1-16, reworded)",
+   "questions": [
+    "What advantages did the pea plant offer Mendel as an experimental organism?",
+    "Set apart the following pairs of terms: dominant versus recessive; homozygous versus heterozygous; monohybrid versus dihybrid.",
+    "A diploid organism carries heterozygosity at four loci -- how many genetically different gametes can it make?",
+    "Demonstrate the law of dominance through a monohybrid cross.",
+    "Define a test cross and sketch how one is designed.",
+    "With a Punnett square, predict the phenotypic spread in the f1 of a cross between a homozygous female and a heterozygous male at a single locus.",
+    "Cross a tall green-seeded plant that is heterozygous at both loci (ttYy style, TtYy x Ttyy) and give the expected share of tall green and dwarf green offspring.",
+    "If two heterozygous parents are crossed and the two loci concerned are completely linked, what phenotypic mix appears in the f1 of that dihybrid cross?",
+    "Summarise T.H. Morgan's contributions to genetics in brief.",
+    "What does pedigree analysis involve, and in which situations is it useful?",
+    "Walk through how sex is decided in humans.",
+    "A child has blood group o while the father is a and the mother is b -- deduce both parents' genotypes and the genotypes their other children could carry.",
+    "Illustrate with examples: co-dominance, and incomplete dominance.",
+    "What counts as a point mutation? Supply one instance.",
+    "Name the scientists credited with the chromosomal theory of inheritance.",
+    "Pick any two autosomal genetic disorders and list their leading symptoms."
+   ]
+  }
+ ]
 }

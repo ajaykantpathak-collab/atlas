@@ -4,15 +4,9 @@
   {
    "id": "lemh.205.11.2.1",
    "title": "Direction Cosines and Their Identity",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "expand with the algebraic identity and evaluate",
-     "explain": "expand with the algebraic identity and evaluate: val = 12 * 12 + 2 * 12 * 5 + 5 * 5 gives 289",
-     "compute": "val = 12 * 12 + 2 * 12 * 5 + 5 * 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "l**2 + m**2 + n**2 = 1 for direction cosines l, m, n",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Use the identity (a + b)^2 = a^2 + 2ab + b^2 to find the square of 5 more than 12; report the value.",
@@ -49,15 +43,9 @@
   {
    "id": "lemh.205.11.2.2",
    "title": "Direction Cosines of the Line Through Two Points",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "recall the count for the shape",
-     "explain": "recall the count for the shape: lines = 1 gives 1",
-     "compute": "lines = 1"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "direction cosines = (x2 - x1)/pq_dist, (y2 - y1)/pq_dist, (z2 - z1)/pq_dist where pq_dist is the point separation",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a kite have?",
@@ -94,15 +82,9 @@
   {
    "id": "lemh.205.11.3.1",
    "title": "Vector Equation of a Line Through a Point and Parallel to a Vector",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "recall the count for the shape",
-     "explain": "recall the count for the shape: lines = 1 gives 1",
-     "compute": "lines = 1"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "r = a_vector + lambda_param * b_vector",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a kite have?",
@@ -139,15 +121,9 @@
   {
    "id": "lemh.205.11.3.2",
    "title": "Cartesian Equation of a Line from Direction Ratios",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "set up the proportion and solve for the unknown part",
-     "explain": "set up the proportion and solve for the unknown part: t1 = 10 / 10 gives 1",
-     "compute": "t1 = 10 / 10"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "(x - x1)/dir_a = (y - y1)/dir_b = (z - z1)/dir_c",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 10 : 70 in its simplest form and give the first term of the simplest form.",
@@ -184,15 +160,9 @@
   {
    "id": "lemh.205.11.3.3",
    "title": "Line Passing Through Two Given Points",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "combine components with the vector formula",
-     "explain": "combine components with the vector formula: mag = sqrt(4 * 4 + -2 * -2 + 6 * 6) gives 7.48331",
-     "compute": "mag = sqrt(4 * 4 + -2 * -2 + 6 * 6)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "r = a1_vector + lambda_param * (a2_vector - a1_vector)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the magnitude of the vector 4i + -2j + 6k (two decimal places).",
@@ -230,6 +200,8 @@
    "id": "lemh.205.11.4.1",
    "title": "Cosine of the Angle Between Two Lines",
    "converted_to_compute": false,
+   "formula": "cos(theta) = (dir1_x*dir2_x + dir1_y*dir2_y + dir1_z*dir2_z) / (line_mag1 * line_mag2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 28 degrees, find the other.",
@@ -266,15 +238,9 @@
   {
    "id": "lemh.205.11.4.2",
    "title": "Perpendicular and Parallel Lines from Direction Ratios",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "set up the proportion and solve for the unknown part",
-     "explain": "set up the proportion and solve for the unknown part: t1 = 20 / 10 gives 2",
-     "compute": "t1 = 20 / 10"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "perpendicular when dir1_x*dir2_x + dir1_y*dir2_y + dir1_z*dir2_z = 0",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 20 : 70 in its simplest form and give the first term of the simplest form.",
@@ -312,6 +278,8 @@
    "id": "lemh.205.11.5.1",
    "title": "Shortest Distance Between Two Skew Lines",
    "converted_to_compute": false,
+   "formula": "skew distance = abs(join_vector . (b1_vector x b2_vector)) / magnitude(b1_vector x b2_vector)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (-1, 8) and (4, 20).",
@@ -349,6 +317,8 @@
    "id": "lemh.205.11.5.2",
    "title": "Distance Between Two Parallel Lines",
    "converted_to_compute": false,
+   "formula": "parallel distance = magnitude(b_vector x join_vector) / magnitude(b_vector)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 60 degrees, find the other.",

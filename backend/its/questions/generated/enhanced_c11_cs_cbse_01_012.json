@@ -34,6 +34,36 @@
      "q": "Design a conversion algorithm for a hypothetical base-32 system (digits 0-9, A-V) that leverages the binary grouping principle. Specify the group size, digit mapping, and demonstrate with binary `110101101011`.",
      "a": "Base-32 = 2⁵, so **group size = 5 bits** (since 32=2⁵). Mapping: 00000=0, 00001=1, ..., 01010=10(A), ..., 11111=31(V). Binary `110101101011` (12 bits) → group 5 from right: `11 0101 1010 11` → pad left to 5: `00011 0101 1010 11` wait — 12 bits groups as `011 0101 1010 11` → need 15 bits for 3 groups: pad to `00011 0101 1010 11` no — correct: 12 bits → 3 groups of 5 needs 15 bits: `000 11010 11010 11` → `00011 01011 01011` → 00011=3, 01011=11(B), 01011=11(B) → `3BB₃₂`. A poor answer using group size 4 (hex) or 3 (octal) reveals the student **memorises group sizes without understanding the 2ⁿ relationship** — they don't see that base = 2^group_size is the governing principle.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Conversion between number systems is the process of representing the same numerical value in different positional numeral systems (binary base-2, octal base-8, decimal base-10, hexadecimal base-16) using systematic algorithms based on repeated division (for decimal to other bases), repeated ______ (for fractional parts), and direct grouping/ungrouping of bits (for binary↔octal↔hexadecimal conversions).",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're debugging a ______ and the memory dump shows 0x3F at address 0x1A4 — but your sensor datasheet says the threshold value is decimal 63.",
+     "a": "microcontroller",
+     "self_check": true
+    },
+    {
+     "q": "What is Conversion between number systems? State the definition given in this lesson.",
+     "a": "Conversion between number systems is the process of representing the same numerical value in different positional numeral systems (binary base-2, octal base-8, decimal base-10, hexadecimal base-16) using systematic algorithms based on repeated division (for decimal to other bases), repeated multiplication (for fractional parts), and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight: direction matters — remainders are read reverse, groups are formed from right, and positions count from right starting at ______.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Conversion between number systems?",
+     "a": "Students consistently reverse the remainder reading direction in division-method conversions (reading first remainder as MSB instead of LSB) AND group bits from the left (MSB) instead of right (LSB) in binary↔octal/hex conversions.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to convert any unsigned integer between binary, octal, decimal, and hexadecimal systems using the division-remainder method, grouping method, and polynomial expansion method, and must correctly handle the directional reading of remainders (LSB first) and grouping boundaries (3 bits for octal, 4 bits for.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a monitoring strategy using a whole-cell biosensor for early detection of arsenic contamination in groundwater used for irrigation. Specify the genetic construct, reporter system, and deployment method.",
      "a": "Construct: *arsR* promoter (arsenic-responsive) fused to *gfp* (green fluorescent protein) or *luxCDABE* (bioluminescence) in a non-pathogenic host (e.g., *E. coli* DH5α or *Pseudomonas putida*). In absence of As(III), ArsR repressor binds promoter → no reporter. With As(III), ArsR releases → reporter expressed. Deployment: Immobilize cells in alginate beads in a flow-through chamber with optical detector; calibrate fluorescence/luminescence vs [As]. Alert threshold: >10 µg/L (WHO limit). A weak answer proposes chemical test strips (not biotech) or uses a pathogenic host, ignoring safety and the *genetic circuit* logic central to environmental biotechnology.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Environmental Biotechnology is the application of ______ tools (microorganisms, plants, enzymes, genetic engineering) to monitor, prevent, and remediate environmental pollution, with bioremediation specifically defined as the use of living organisms or their derivatives to degrade, detoxify, or immobilize hazardous contaminants (xenobiotics, heavy metals, hydrocarbons) into less toxic or non-toxic forms, either *in situ* (at site) or *ex situ* (removed for treatment).",
+     "a": "biotechnological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a factory near your town has leaked chromium and lead into the soil and ______, making the land barren and water toxic.",
+     "a": "groundwater",
+     "self_check": true
+    },
+    {
+     "q": "What is Environmental Biotechnology? State the definition given in this lesson.",
+     "a": "Environmental Biotechnology is the application of biotechnological tools (microorganisms, plants, enzymes, genetic engineering) to monitor, prevent, and remediate environmental pollution, with bioremediation specifically defined as the use of living organisms or their derivatives to degrade, detoxify, or immobilize hazardous contaminants.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Environmental Biotechnology?",
+     "a": "Students believe phytoremediation simply means \"planting trees to clean soil\" and that the contaminants disappear.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish between microbial bioremediation and phytoremediation with specific examples of organisms and target pollutants; (2) Explain how genetic engineering enhances bioremediation capacity (e.g., gene insertion for novel degradation pathways); (3) Analyze a contaminated site scenario to propose the.",
+     "self_check": true
     }
    ]
   }

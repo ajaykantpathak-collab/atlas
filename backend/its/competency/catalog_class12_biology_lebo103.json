@@ -1,517 +1,526 @@
 {
-  "class": 12,
-  "subject": "biology",
-  "chapter": 103,
-  "chapter_title": "Reproductive Health",
-  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lebo103.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "concepts": [
+ "class": 12,
+ "subject": "biology",
+ "chapter": 103,
+ "chapter_title": "Reproductive Health",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/lebo103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lebo103.3.1.1",
+   "title": "Reproductive Health, RCH Programmes and Awareness",
+   "section": "3.1",
+   "definition": "Reproductive health covers complete well-being in every dimension of reproduction -- physical, emotional, behavioural and social -- and India pursued it socially through family planning from 1951 and later the RCH reproductive and child health initiatives, awareness drives, school sex education and a law forbidding amniocentesis when used to pick the foetus's sex.",
+   "formula": "",
+   "key_idea": "Education that busts myths, plus medical support for pregnancy, delivery and contraception, is the backbone of a reproductively healthy society.",
+   "textbook_ref": "lebo103.txt lines 1-101 (reproductive health problems and strategies section)",
+   "question_patterns": [
+    "what does the WHO idea of reproductive health include beyond healthy organs",
+    "name the action plans India launched to build a reproductively healthy society",
+    "why should sex education be introduced in schools",
+    "what is amniocentesis and why is its use for sex determination banned",
+    "which indicators show that a society's reproductive health is improving",
+    "list the problems an RCH programme offers medical assistance for"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
     {
-      "id": "lebo103.3.1.1",
-      "title": "Reproductive Health, RCH Programmes and Awareness",
-      "section": "3.1",
-      "definition": "Reproductive health covers complete well-being in every dimension of reproduction -- physical, emotional, behavioural and social -- and India pursued it socially through family planning from 1951 and later the RCH reproductive and child health initiatives, awareness drives, school sex education and a law forbidding amniocentesis when used to pick the foetus's sex.",
-      "formula": "",
-      "key_idea": "Education that busts myths, plus medical support for pregnancy, delivery and contraception, is the backbone of a reproductively healthy society.",
-      "textbook_ref": "lebo103.txt lines 1-101 (reproductive health problems and strategies section)",
-      "question_patterns": [
-        "what does the WHO idea of reproductive health include beyond healthy organs",
-        "name the action plans India launched to build a reproductively healthy society",
-        "why should sex education be introduced in schools",
-        "what is amniocentesis and why is its use for sex determination banned",
-        "which indicators show that a society's reproductive health is improving",
-        "list the problems an RCH programme offers medical assistance for"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Define the term broadly",
-          "explain": "Beyond normally working reproductive organs, the WHO view adds emotional, behavioural and social well-being in all sex-related matters."
-        },
-        {
-          "step": 2,
-          "action": "Recall the national strategy",
-          "explain": "Family planning began in 1951 and widened into RCH programmes: awareness through media, parents and teachers, plus facilities for pregnancy, delivery, STIs, contraception and infertility care."
-        },
-        {
-          "step": 3,
-          "action": "Cite the legal safeguards",
-          "explain": "Amniocentesis -- sampling amniotic fluid to read fetal cells for disorders like Down syndrome or sickle-cell anaemia -- is statutorily banned for sex determination to curb female foeticide, and child immunisation is promoted."
-        },
-        {
-          "step": 4,
-          "action": "List the success markers",
-          "explain": "Falling maternal and infant mortality, more medically assisted deliveries, wider birth-control choice, Saheli developed by CDRI Lucknow, and more small families all signal improvement."
-        }
-      ]
+     "step": 1,
+     "action": "Define the term broadly",
+     "explain": "Beyond normally working reproductive organs, the WHO view adds emotional, behavioural and social well-being in all sex-related matters."
     },
     {
-      "id": "lebo103.3.2.1",
-      "title": "Population Explosion and Growth-Rate Projection",
-      "section": "3.2",
-      "definition": "Better health services cut death rates, maternal mortality and infant mortality so sharply that world numbers swelled from about 2 billion in 1900 to 7.2 billion by 2011; at an annual growth rate of r, a population of size P grows to P times (1 plus r) raised to the number of years.",
-      "formula": "projected_population = current_population * (1 + annual_growth) ** years",
-      "key_idea": "Smaller-family motivation, raised marriage ages and contraceptive access are the counter-measures to growth that scarcity of food, shelter and clothing cannot absorb.",
-      "textbook_ref": "lebo103.txt lines 102-132 (population stabilisation passage and 2011 census rate)",
-      "question_patterns": [
-        "project a country's population several years ahead from its annual growth rate",
-        "work out what a billion-strong population becomes after a few years at 2 percent yearly growth",
-        "which factors are blamed for the population explosion of the last century",
-        "why does a growth rate near 2 percent still alarm planners",
-        "what steps has the government taken to motivate smaller families",
-        "at what legal ages can women and men now marry and how does that check population"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Build the yearly growth factor",
-          "explain": "A growth rate expressed per year converts to a multiplier by adding one to the rate.",
-          "compute": "growth_factor = 1 + annual_growth"
-        },
-        {
-          "step": 2,
-          "action": "Compound it over the years",
-          "explain": "Each year multiplies the population by the same factor, so the effect compounds exponentially.",
-          "compute": "projected_population = current_population * growth_factor ** years"
-        },
-        {
-          "step": 3,
-          "action": "Read off the projection",
-          "explain": "The compounded figure is the expected population after the given span.",
-          "compute": "result = projected_population"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Population Explosion and Growth-Rate Projection, compute the result for annual_growth = 3, current_population = 3, years = 3.",
-          "solution": "Step 1: Build the yearly growth factor: growth_factor = 1 + annual_growth = 4.0 Step 2: Compound it over the years: projected_population = current_population * growth_factor ** years = 192.0 Step 3: Read off the projection: result = projected_population = 192.0 Final result: 192.0",
-          "answer": "192.0"
-        },
-        {
-          "question": "Using Population Explosion and Growth-Rate Projection, compute the result for annual_growth = 4, current_population = 4, years = 4.",
-          "solution": "Step 1: Build the yearly growth factor: growth_factor = 1 + annual_growth = 5.0 Step 2: Compound it over the years: projected_population = current_population * growth_factor ** years = 2500.0 Step 3: Read off the projection: result = projected_population = 2500.0 Final result: 2500.0",
-          "answer": "2500.0"
-        }
-      ]
+     "step": 2,
+     "action": "Recall the national strategy",
+     "explain": "Family planning began in 1951 and widened into RCH programmes: awareness through media, parents and teachers, plus facilities for pregnancy, delivery, STIs, contraception and infertility care."
     },
     {
-      "id": "lebo103.3.2.2",
-      "title": "Natural and Barrier Contraceptive Methods",
-      "section": "3.2",
-      "definition": "Device-free tactics -- periodic abstinence over the fertile window of days 10 to 17, withdrawal before ejaculation, and lactational amenorrhea up to six months postpartum -- sidestep gamete meeting, while rubber barriers such as condoms, diaphragms, cervical caps and vaults block it physically, often backed by spermicidal creams.",
-      "formula": "",
-      "key_idea": "Condoms double as STI and AIDS shields, natural methods carry almost no side effects but fail often, and reusable female barriers are paired with spermicides.",
-      "textbook_ref": "lebo103.txt lines 145-183 (natural and barrier methods)",
-      "question_patterns": [
-        "which days of the menstrual cycle form the fertile period for periodic abstinence",
-        "how does the lactational amenorrhea method work and how long is it dependable",
-        "name the barrier devices available for men and for women",
-        "why are condoms recommended beyond their contraceptive role",
-        "what is coitus interruptus and what limits it",
-        "why are spermicidal creams applied along with diaphragms and cervical caps"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Apply the natural trio",
-          "explain": "Abstain from coitus around days 10-17 when ovulation is due, withdraw before ejaculation, or rely on intense breastfeeding to suppress ovulation for at most six months after childbirth."
-        },
-        {
-          "step": 2,
-          "action": "Weigh their merits and risks",
-          "explain": "No drugs or devices means near-zero side effects, but failure chances run high."
-        },
-        {
-          "step": 3,
-          "action": "Fit the barriers",
-          "explain": "Male or female condoms (Nirodh is a classic male brand) stop semen entering the tract and also guard against STIs and AIDS; diaphragms, cervical caps and vaults cover the cervix and are reusable."
-        },
-        {
-          "step": 4,
-          "action": "Boost with spermicides",
-          "explain": "Creams, jellies and foams applied with the female barriers raise their contraceptive efficiency."
-        }
-      ]
+     "step": 3,
+     "action": "Cite the legal safeguards",
+     "explain": "Amniocentesis -- sampling amniotic fluid to read fetal cells for disorders like Down syndrome or sickle-cell anaemia -- is statutorily banned for sex determination to curb female foeticide, and child immunisation is promoted."
     },
     {
-      "id": "lebo103.3.2.3",
-      "title": "Intra Uterine Devices and Their Modes of Action",
-      "section": "3.2",
-      "definition": "IUDs placed in the uterus through the vagina come in three families -- non-medicated loops like Lippes loop, copper-releasing CuT, Cu7 and Multiload 375, and hormone-releasing Progestasert or LNG-20 -- raising sperm phagocytosis, and with copper ions damping sperm motility and fertilising power, while hormone types additionally harden the uterus against implantation.",
-      "formula": "",
-      "key_idea": "IUDs suit women who want to delay or space pregnancies and rank among India's most accepted contraceptives.",
-      "textbook_ref": "lebo103.txt lines 184-202 (IUDs paragraph)",
-      "question_patterns": [
-        "classify intra uterine devices into their three types with one example of each",
-        "how do copper ions released by an IUD disable sperms",
-        "what extra effect do hormone releasing IUDs produce in the uterus and cervix",
-        "why are IUDs advised for women who wish to delay or space childbirth",
-        "who inserts an IUD and by which route",
-        "name the non medicated IUD example mentioned in your text"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Sort the device families",
-          "explain": "Non-medicated (Lippes loop), copper-releasing (CuT, Cu7, Multiload 375) and hormone-releasing (Progestasert, LNG-20) types all sit inside the uterus, fitted by doctors or trained nurses."
-        },
-        {
-          "step": 2,
-          "action": "Explain the common action",
-          "explain": "All IUDs step up phagocytosis of sperms within the uterus."
-        },
-        {
-          "step": 3,
-          "action": "Explain the copper bonus",
-          "explain": "Released copper ions suppress sperm motility and their fertilising capacity."
-        },
-        {
-          "step": 4,
-          "action": "Explain the hormone bonus",
-          "explain": "Hormone types make the uterus unsuitable for implantation and the cervical mucus hostile to sperms, completing the contraceptive cover."
-        }
-      ]
-    },
-    {
-      "id": "lebo103.3.2.4",
-      "title": "Oral Pills, Injectables, Implants and Emergency Contraception",
-      "section": "3.2",
-      "definition": "Daily progestogen or progestogen-estrogen tablets taken for 21 of every 28 days block ovulation and implantation and thicken cervical mucus; the same hormones run in longer-acting injections and skin implants, and any of these plus IUDs used within 72 hours of coitus serve as emergency contraception.",
-      "formula": "",
-      "key_idea": "Saheli, a once-a-week non-steroidal pill from CDRI, shows how oral contraception can cut dosing and side effects while staying effective.",
-      "textbook_ref": "lebo103.txt lines 203-223 (pills, Saheli, injectables, implants, emergency contraceptives)",
-      "question_patterns": [
-        "describe the daily schedule and action of contraceptive pills",
-        "how do oral pills interfere with ovulation and with sperm entry",
-        "what makes Saheli different from ordinary steroidal pills",
-        "how do injectables and implants differ from pills in duration of effect",
-        "within how many hours must emergency contraceptives be taken after coitus",
-        "what traits should an ideal contraceptive show"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Run the pill calendar",
-          "explain": "Small daily doses start within the first five days of the cycle, run 21 days, pause for the 7-day menstruation gap, then repeat; they inhibit ovulation and implantation and alter cervical mucus to slow sperms."
-        },
-        {
-          "step": 2,
-          "action": "Compare the long-acting forms",
-          "explain": "Progestogen alone or with oestrogen also comes as injections or sub-skin implants acting much like pills but lasting far longer; Saheli is a weekly, non-steroidal alternative."
-        },
-        {
-          "step": 3,
-          "action": "Handle the emergency case",
-          "explain": "Progestogen-estrogen combinations or IUDs given within 72 hours of unprotected or forced intercourse can avert an unwanted pregnancy."
-        },
-        {
-          "step": 4,
-          "action": "State the ideal profile",
-          "explain": "A good contraceptive is user-friendly, easily available, effective, reversible, near side-effect-free and leaves sexual drive and the act untouched; possible troubles like nausea, breakthrough bleeding or irregular cycles still deserve attention."
-        }
-      ]
-    },
-    {
-      "id": "lebo103.3.2.5",
-      "title": "Sterilisation: Vasectomy and Tubectomy",
-      "section": "3.2",
-      "definition": "Surgical sterilisation is the terminal contraceptive route: a snippet of the vas deferens is cut or tied through a scrotal incision in a vasectomy, or of the fallopian tube through the abdomen or vagina in a tubectomy, stopping gamete transport in either sex.",
-      "formula": "",
-      "key_idea": "Both operations are highly effective yet very hard to reverse, so they suit partners who want no further pregnancies.",
-      "textbook_ref": "lebo103.txt lines 224-240 (surgical methods paragraph)",
-      "question_patterns": [
-        "compare vasectomy and tubectomy in site and procedure",
-        "why are surgical methods called terminal contraception",
-        "through which incision is each sterilisation operation performed",
-        "what exactly is blocked in the male and female surgical methods",
-        "why is reversibility poor after sterilisation",
-        "who should consider sterilisation as a contraceptive choice"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Define the method class",
-          "explain": "Surgery blocks the gamete highway rather than touching hormone levels, and is advised as a final step once family size is complete."
-        },
-        {
-          "step": 2,
-          "action": "Describe the male operation",
-          "explain": "In vasectomy a small length of the vas deferens is removed or tied through a tiny scrotal cut, so sperms never reach the urethra."
-        },
-        {
-          "step": 3,
-          "action": "Describe the female operation",
-          "explain": "In tubectomy a short piece of the fallopian tube is removed or tied via an abdominal or vaginal route, so the ovum cannot meet sperms."
-        },
-        {
-          "step": 4,
-          "action": "Weigh effectiveness against reversal",
-          "explain": "Both are near foolproof but reversal is very poor, so counselling and a settled family decision should precede them."
-        }
-      ]
-    },
-    {
-      "id": "lebo103.3.3.1",
-      "title": "Medical Termination of Pregnancy: Safety and Law",
-      "section": "3.3",
-      "definition": "MTP is the deliberate ending of a pregnancy before full term -- safest in the first twelve weeks and riskier in the second trimester -- legal in India since 1971 with conditions, and governed by the 2017 amendment act on how many registered doctors must certify each case.",
-      "formula": "",
-      "key_idea": "Roughly 45 to 50 million MTPs worldwide each year equal about a fifth of conceptions, and misuse for female foeticide is precisely what the law is built to stop.",
-      "textbook_ref": "lebo103.txt lines 253-329 (MTP section and amendment act box)",
-      "question_patterns": [
-        "up to how many weeks is a medical termination considered relatively safe",
-        "on what grounds does Indian law permit a pregnancy to be terminated",
-        "how many registered medical practitioners must agree for a termination between twelve and twenty four weeks",
-        "why was the MTP Act amended and what did it aim to reduce",
-        "list the situations in which an MTP becomes medically necessary",
-        "how does misuse of MTP connect with female foeticide in India"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Define and size the practice",
-          "explain": "Voluntary pregnancy termination before full term is MTP, done about 45-50 million times a year worldwide, a fifth of all conceptions."
-        },
-        {
-          "step": 2,
-          "action": "Order the safety window",
-          "explain": "First-trimester terminations up to twelve weeks are relatively safe; second-trimester ones carry far greater risk."
-        },
-        {
-          "step": 3,
-          "action": "Recite the legal frame",
-          "explain": "Legalised in 1971, refined by the 2017 amendment: within twelve weeks one registered practitioner's opinion suffices; from over twelve up to twenty-four weeks, two must agree in good faith that continuing threatens the woman's life or health or that the child would be seriously handicapped."
-        },
-        {
-          "step": 4,
-          "action": "Flag the abuses",
-          "explain": "Illegal abortions by unqualified hands can be fatal, and sex-selective termination after amniocentesis is unlawful; counselling and better facilities are the antidotes."
-        }
-      ]
-    },
-    {
-      "id": "lebo103.3.4.1",
-      "title": "Sexually Transmitted Infections: Curable, Incurable, Prevention",
-      "section": "3.4",
-      "definition": "Infections passed through intercourse -- genital herpes, chlamydiasis, gonorrhoea, syphilis, genital warts, trichomoniasis, hepatitis-B and HIV leading to AIDS -- are mostly curable when caught early, but hepatitis-B, genital herpes and HIV have no complete cure, and cases peak in the 15-24 age band.",
-      "formula": "",
-      "key_idea": "Early symptoms are slight or absent, especially in women, so delay lets infections escalate into pelvic inflammatory disease, ectopic pregnancy, still birth, infertility or cancers.",
-      "textbook_ref": "lebo103.txt lines 330-362 (STI section)",
-      "question_patterns": [
-        "list the common sexually transmitted infections and separate the curable from the incurable",
-        "why do STIs often go undetected in infected women",
-        "which complications follow untreated reproductive tract infections",
-        "other than intercourse how can hepatitis B and HIV spread",
-        "state three simple rules that protect against contracting an STI",
-        "which age group reports the highest STI incidence and why is that worrying"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Name the rogues' gallery",
-          "explain": "Gonorrhoea, syphilis, genital herpes, chlamydiasis, genital warts, trichomoniasis, hepatitis-B and HIV are the headline STIs, also called VD or RTIs."
-        },
-        {
-          "step": 2,
-          "action": "Sort by curability",
-          "explain": "All but hepatitis-B, genital herpes and HIV clear up with early, proper treatment; those three can also travel by shared needles, surgical instruments, transfused blood or from mother to foetus."
-        },
-        {
-          "step": 3,
-          "action": "Explain the silent spread",
-          "explain": "Itching, fluid discharge, mild pain or swelling are easy to ignore, infected women may show nothing at all, and stigma delays testing until PID, abortions, still births, ectopic pregnancies, infertility or tract cancers appear."
-        },
-        {
-          "step": 4,
-          "action": "Apply the prevention rules",
-          "explain": "Avoid sex with unknown or multiple partners, use condoms every time, and consult a qualified doctor at once for testing and full treatment when in doubt."
-        }
-      ]
-    },
-    {
-      "id": "lebo103.3.5.1",
-      "title": "Infertility and Assisted Reproductive Technologies",
-      "section": "3.5",
-      "definition": "Couples unable to conceive despite unprotected cohabitation -- for physical, congenital, disease, drug, immunological or psychological reasons, and often on the male side -- can turn to ART: IVF with embryo transfer, ZIFT or IUT by embryo stage, GIFT with a donor ovum, ICSI sperm injection, artificial insemination, or legal adoption.",
-      "formula": "",
-      "key_idea": "Embryos of up to eight blastomeres go into the fallopian tube (ZIFT), older ones into the uterus (IUT), and donor-egg GIFT serves women who ovulate poorly but can carry a pregnancy.",
-      "textbook_ref": "lebo103.txt lines 363-413 (infertility and ART section)",
-      "question_patterns": [
-        "define infertility and list the possible causes behind a childless couple",
-        "differentiate ZIFT from IUT on the basis of embryo stage",
-        "what happens in ICSI and which infertility problem does it answer",
-        "how does artificial insemination help when the male partner cannot inseminate",
-        "when is GIFT the suitable assisted reproductive choice",
-        "why is adoption described as one of the best routes to parenthood in India"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Set the definition straight",
-          "explain": "Infertility means no children despite unprotected co-habitation, with causes spread across both partners -- the blame-the-woman reflex is usually wrong, since the male factor is frequent."
-        },
-        {
-          "step": 2,
-          "action": "Follow the test-tube route",
-          "explain": "IVF joins collected ova and sperms in the lab; the zygote or early embryo of at most eight blastomeres transfers into the fallopian tube (ZIFT), while beyond eight blastomeres it goes into the uterus (IUT)."
-        },
-        {
-          "step": 3,
-          "action": "Add the specialised variants",
-          "explain": "GIFT places a donor's ovum into another woman's tube; ICSI injects a single sperm straight into the ovum; AI introduces husband's or donor's semen into vagina or uterus (IUI) for low sperm counts or insemination failure."
-        },
-        {
-          "step": 4,
-          "action": "Note the practical limits",
-          "explain": "These techniques demand costly instruments and expert hands, so access is limited and emotionally loaded, which is why legal adoption remains a humane, widely available answer."
-        }
-      ]
+     "step": 4,
+     "action": "List the success markers",
+     "explain": "Falling maternal and infant mortality, more medically assisted deliveries, wider birth-control choice, Saheli developed by CDRI Lucknow, and more small families all signal improvement."
     }
-  ],
-  "worked_examples": [
+   ]
+  },
+  {
+   "id": "lebo103.3.2.1",
+   "title": "Population Explosion and Growth-Rate Projection",
+   "section": "3.2",
+   "definition": "Better health services cut death rates, maternal mortality and infant mortality so sharply that world numbers swelled from about 2 billion in 1900 to 7.2 billion by 2011; at an annual growth rate of r, a population of size P grows to P times (1 plus r) raised to the number of years.",
+   "formula": "projected_population = current_population * (1 + annual_growth) ** years",
+   "key_idea": "Smaller-family motivation, raised marriage ages and contraceptive access are the counter-measures to growth that scarcity of food, shelter and clothing cannot absorb.",
+   "textbook_ref": "lebo103.txt lines 102-132 (population stabilisation passage and 2011 census rate)",
+   "question_patterns": [
+    "project a country's population several years ahead from its annual growth rate",
+    "work out what a billion-strong population becomes after a few years at 2 percent yearly growth",
+    "which factors are blamed for the population explosion of the last century",
+    "why does a growth rate near 2 percent still alarm planners",
+    "what steps has the government taken to motivate smaller families",
+    "at what legal ages can women and men now marry and how does that check population"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "we_lebo103_1",
-      "source_ref": "lebo103.txt lines 107-122 (population figures and 2011 census growth rate)",
-      "concept": "lebo103.3.2.1",
-      "question_type": "compute",
-      "question_pattern": "A country holds {current_population} billion people and its population grows at {annual_growth} per year. What population does that rate predict after {years} years?",
-      "extracted_variables": {
-        "current_population": 1.2,
-        "annual_growth": 0.02,
-        "years": 3
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "Form the yearly multiplier",
-          "explain": "One plus the growth rate gives the factor each year multiplies by: 1 + 0.02 = 1.02.",
-          "compute": "growth_factor = 1 + annual_growth"
-        },
-        {
-          "step": 2,
-          "action": "Compound across the years",
-          "explain": "Raise the factor to the year count and multiply: 1.2 * 1.02**3 is about 1.273 billion.",
-          "compute": "projected_population = current_population * growth_factor ** years"
-        },
-        {
-          "step": 3,
-          "action": "State the projection",
-          "explain": "The compounded figure is the expected head count after the given span.",
-          "compute": "result = projected_population"
-        }
-      ]
+     "step": 1,
+     "action": "Build the yearly growth factor",
+     "explain": "A growth rate expressed per year converts to a multiplier by adding one to the rate.",
+     "compute": "growth_factor = 1 + annual_growth"
     },
     {
-      "id": "we_lebo103_2",
-      "source_ref": "lebo103.txt lines 184-202 (IUD types and actions)",
-      "concept": "lebo103.3.2.3",
-      "question_type": "verify_property",
-      "question_pattern": "A gynaecologist offers a patient a copper releasing device and a hormone releasing device as choices. Explain how each prevents pregnancy and what both share in common.",
-      "extracted_variables": {},
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "State the shared action",
-          "explain": "Both IUD types raise phagocytosis of sperms inside the uterus."
-        },
-        {
-          "step": 2,
-          "action": "Add the copper mechanism",
-          "explain": "Copper ions from CuT, Cu7 or Multiload 375 suppress sperm motility and fertilising capacity."
-        },
-        {
-          "step": 3,
-          "action": "Add the hormone mechanism",
-          "explain": "Progestasert or LNG-20 additionally makes the uterus unfit for implantation and the cervix hostile to sperms."
-        }
-      ]
+     "step": 2,
+     "action": "Compound it over the years",
+     "explain": "Each year multiplies the population by the same factor, so the effect compounds exponentially.",
+     "compute": "projected_population = current_population * growth_factor ** years"
     },
     {
-      "id": "we_lebo103_3",
-      "source_ref": "lebo103.txt lines 380-397 (IVF, ZIFT, IUT, GIFT, ICSI passages)",
-      "concept": "lebo103.3.5.1",
-      "question_type": "verify_property",
-      "question_pattern": "An IVF lab holds one embryo with six blastomeres and another with sixteen. State the transfer site and technique name for each.",
-      "extracted_variables": {},
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "Classify the six-cell embryo",
-          "explain": "Up to eight blastomeres means a very early embryo: it goes into the fallopian tube by ZIFT."
-        },
-        {
-          "step": 2,
-          "action": "Classify the sixteen-cell embryo",
-          "explain": "Beyond eight blastomeres the embryo must go into the uterus by IUT."
-        },
-        {
-          "step": 3,
-          "action": "Recall the rationale",
-          "explain": "Each transfer site mimics where the embryo of that stage would naturally be travelling in the female tract."
-        }
-      ]
-    },
-    {
-      "id": "we_lebo103_4",
-      "source_ref": "lebo103.txt lines 253-321 (MTP section with amendment act box)",
-      "concept": "lebo103.3.3.1",
-      "question_type": "verify_property",
-      "question_pattern": "A pregnancy has run fifteen weeks and the woman seeks termination on health grounds. How many registered medical practitioners must certify it, and up to what week count does this rule apply?",
-      "extracted_variables": {},
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "Locate the week band",
-          "explain": "Fifteen weeks falls in the band above twelve but below twenty-four weeks."
-        },
-        {
-          "step": 2,
-          "action": "Apply the certification rule",
-          "explain": "Two registered medical practitioners must form the opinion in good faith that a permitted ground exists."
-        },
-        {
-          "step": 3,
-          "action": "Contrast the earlier band",
-          "explain": "Within the first twelve weeks a single registered practitioner's opinion is enough."
-        }
-      ]
+     "step": 3,
+     "action": "Read off the projection",
+     "explain": "The compounded figure is the expected population after the given span.",
+     "compute": "result = projected_population"
     }
-  ],
-  "exercises": [
+   ],
+   "worked_examples": [
     {
-      "id": "ex_lebo103_1",
-      "source_ref": "lebo103.txt lines 462-499 (end-of-chapter exercises 1-10, reworded)",
-      "questions": [
-        "Why does a society need to care about reproductive health?",
-        "Which aspects of reproductive health deserve the greatest attention today?",
-        "Argue for or against teaching sex education in schools.",
-        "Cite areas where India's reproductive health scene has improved over five decades.",
-        "Give the suggested causes behind the population explosion.",
-        "Is contraceptive use justified? Support your answer.",
-        "Why is removal of the gonads rejected as a contraceptive option?",
-        "Comment on whether the ban on amniocentesis for sex determination is necessary.",
-        "Suggest ways to help infertile couples have children.",
-        "What precautions protect a person from sexually transmitted diseases?"
-      ]
+     "question": "Using Population Explosion and Growth-Rate Projection, compute the result for annual_growth = 3, current_population = 3, years = 3.",
+     "solution": "Step 1: Build the yearly growth factor: growth_factor = 1 + annual_growth = 4.0 Step 2: Compound it over the years: projected_population = current_population * growth_factor ** years = 192.0 Step 3: Read off the projection: result = projected_population = 192.0 Final result: 192.0",
+     "answer": "192.0"
     },
     {
-      "id": "ex_lebo103_2",
-      "source_ref": "lebo103.txt lines 487-506 (end-of-chapter exercises 11-12, reworded)",
-      "questions": [
-        "True or false, with reasons: abortions can also occur spontaneously; infertility always stems from the female partner; full breastfeeding can serve as a natural contraceptive; awareness campaigns improve reproductive health.",
-        "Correct each statement: surgical contraception stops gamete formation; every STI is fully curable; oral pills are the favourite contraceptive of rural women; embryo transfer always places embryos into the uterus.",
-        "Name the once-a-week non-steroidal oral contraceptive developed in India and its maker.",
-        "Separate the STIs that are completely curable from those that are not."
-      ]
+     "question": "Using Population Explosion and Growth-Rate Projection, compute the result for annual_growth = 4, current_population = 4, years = 4.",
+     "solution": "Step 1: Build the yearly growth factor: growth_factor = 1 + annual_growth = 5.0 Step 2: Compound it over the years: projected_population = current_population * growth_factor ** years = 2500.0 Step 3: Read off the projection: result = projected_population = 2500.0 Final result: 2500.0",
+     "answer": "2500.0"
     }
-  ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "projected_population = current_population * (1 + annual_growth) ** years",
+     "compute": "projected_population = current_population * (1 + annual_growth) ** years"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lebo103.3.2.2",
+   "title": "Natural and Barrier Contraceptive Methods",
+   "section": "3.2",
+   "definition": "Device-free tactics -- periodic abstinence over the fertile window of days 10 to 17, withdrawal before ejaculation, and lactational amenorrhea up to six months postpartum -- sidestep gamete meeting, while rubber barriers such as condoms, diaphragms, cervical caps and vaults block it physically, often backed by spermicidal creams.",
+   "formula": "",
+   "key_idea": "Condoms double as STI and AIDS shields, natural methods carry almost no side effects but fail often, and reusable female barriers are paired with spermicides.",
+   "textbook_ref": "lebo103.txt lines 145-183 (natural and barrier methods)",
+   "question_patterns": [
+    "which days of the menstrual cycle form the fertile period for periodic abstinence",
+    "how does the lactational amenorrhea method work and how long is it dependable",
+    "name the barrier devices available for men and for women",
+    "why are condoms recommended beyond their contraceptive role",
+    "what is coitus interruptus and what limits it",
+    "why are spermicidal creams applied along with diaphragms and cervical caps"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Apply the natural trio",
+     "explain": "Abstain from coitus around days 10-17 when ovulation is due, withdraw before ejaculation, or rely on intense breastfeeding to suppress ovulation for at most six months after childbirth."
+    },
+    {
+     "step": 2,
+     "action": "Weigh their merits and risks",
+     "explain": "No drugs or devices means near-zero side effects, but failure chances run high."
+    },
+    {
+     "step": 3,
+     "action": "Fit the barriers",
+     "explain": "Male or female condoms (Nirodh is a classic male brand) stop semen entering the tract and also guard against STIs and AIDS; diaphragms, cervical caps and vaults cover the cervix and are reusable."
+    },
+    {
+     "step": 4,
+     "action": "Boost with spermicides",
+     "explain": "Creams, jellies and foams applied with the female barriers raise their contraceptive efficiency."
+    }
+   ]
+  },
+  {
+   "id": "lebo103.3.2.3",
+   "title": "Intra Uterine Devices and Their Modes of Action",
+   "section": "3.2",
+   "definition": "IUDs placed in the uterus through the vagina come in three families -- non-medicated loops like Lippes loop, copper-releasing CuT, Cu7 and Multiload 375, and hormone-releasing Progestasert or LNG-20 -- raising sperm phagocytosis, and with copper ions damping sperm motility and fertilising power, while hormone types additionally harden the uterus against implantation.",
+   "formula": "",
+   "key_idea": "IUDs suit women who want to delay or space pregnancies and rank among India's most accepted contraceptives.",
+   "textbook_ref": "lebo103.txt lines 184-202 (IUDs paragraph)",
+   "question_patterns": [
+    "classify intra uterine devices into their three types with one example of each",
+    "how do copper ions released by an IUD disable sperms",
+    "what extra effect do hormone releasing IUDs produce in the uterus and cervix",
+    "why are IUDs advised for women who wish to delay or space childbirth",
+    "who inserts an IUD and by which route",
+    "name the non medicated IUD example mentioned in your text"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Sort the device families",
+     "explain": "Non-medicated (Lippes loop), copper-releasing (CuT, Cu7, Multiload 375) and hormone-releasing (Progestasert, LNG-20) types all sit inside the uterus, fitted by doctors or trained nurses."
+    },
+    {
+     "step": 2,
+     "action": "Explain the common action",
+     "explain": "All IUDs step up phagocytosis of sperms within the uterus."
+    },
+    {
+     "step": 3,
+     "action": "Explain the copper bonus",
+     "explain": "Released copper ions suppress sperm motility and their fertilising capacity."
+    },
+    {
+     "step": 4,
+     "action": "Explain the hormone bonus",
+     "explain": "Hormone types make the uterus unsuitable for implantation and the cervical mucus hostile to sperms, completing the contraceptive cover."
+    }
+   ]
+  },
+  {
+   "id": "lebo103.3.2.4",
+   "title": "Oral Pills, Injectables, Implants and Emergency Contraception",
+   "section": "3.2",
+   "definition": "Daily progestogen or progestogen-estrogen tablets taken for 21 of every 28 days block ovulation and implantation and thicken cervical mucus; the same hormones run in longer-acting injections and skin implants, and any of these plus IUDs used within 72 hours of coitus serve as emergency contraception.",
+   "formula": "",
+   "key_idea": "Saheli, a once-a-week non-steroidal pill from CDRI, shows how oral contraception can cut dosing and side effects while staying effective.",
+   "textbook_ref": "lebo103.txt lines 203-223 (pills, Saheli, injectables, implants, emergency contraceptives)",
+   "question_patterns": [
+    "describe the daily schedule and action of contraceptive pills",
+    "how do oral pills interfere with ovulation and with sperm entry",
+    "what makes Saheli different from ordinary steroidal pills",
+    "how do injectables and implants differ from pills in duration of effect",
+    "within how many hours must emergency contraceptives be taken after coitus",
+    "what traits should an ideal contraceptive show"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Run the pill calendar",
+     "explain": "Small daily doses start within the first five days of the cycle, run 21 days, pause for the 7-day menstruation gap, then repeat; they inhibit ovulation and implantation and alter cervical mucus to slow sperms."
+    },
+    {
+     "step": 2,
+     "action": "Compare the long-acting forms",
+     "explain": "Progestogen alone or with oestrogen also comes as injections or sub-skin implants acting much like pills but lasting far longer; Saheli is a weekly, non-steroidal alternative."
+    },
+    {
+     "step": 3,
+     "action": "Handle the emergency case",
+     "explain": "Progestogen-estrogen combinations or IUDs given within 72 hours of unprotected or forced intercourse can avert an unwanted pregnancy."
+    },
+    {
+     "step": 4,
+     "action": "State the ideal profile",
+     "explain": "A good contraceptive is user-friendly, easily available, effective, reversible, near side-effect-free and leaves sexual drive and the act untouched; possible troubles like nausea, breakthrough bleeding or irregular cycles still deserve attention."
+    }
+   ]
+  },
+  {
+   "id": "lebo103.3.2.5",
+   "title": "Sterilisation: Vasectomy and Tubectomy",
+   "section": "3.2",
+   "definition": "Surgical sterilisation is the terminal contraceptive route: a snippet of the vas deferens is cut or tied through a scrotal incision in a vasectomy, or of the fallopian tube through the abdomen or vagina in a tubectomy, stopping gamete transport in either sex.",
+   "formula": "",
+   "key_idea": "Both operations are highly effective yet very hard to reverse, so they suit partners who want no further pregnancies.",
+   "textbook_ref": "lebo103.txt lines 224-240 (surgical methods paragraph)",
+   "question_patterns": [
+    "compare vasectomy and tubectomy in site and procedure",
+    "why are surgical methods called terminal contraception",
+    "through which incision is each sterilisation operation performed",
+    "what exactly is blocked in the male and female surgical methods",
+    "why is reversibility poor after sterilisation",
+    "who should consider sterilisation as a contraceptive choice"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define the method class",
+     "explain": "Surgery blocks the gamete highway rather than touching hormone levels, and is advised as a final step once family size is complete."
+    },
+    {
+     "step": 2,
+     "action": "Describe the male operation",
+     "explain": "In vasectomy a small length of the vas deferens is removed or tied through a tiny scrotal cut, so sperms never reach the urethra."
+    },
+    {
+     "step": 3,
+     "action": "Describe the female operation",
+     "explain": "In tubectomy a short piece of the fallopian tube is removed or tied via an abdominal or vaginal route, so the ovum cannot meet sperms."
+    },
+    {
+     "step": 4,
+     "action": "Weigh effectiveness against reversal",
+     "explain": "Both are near foolproof but reversal is very poor, so counselling and a settled family decision should precede them."
+    }
+   ]
+  },
+  {
+   "id": "lebo103.3.3.1",
+   "title": "Medical Termination of Pregnancy: Safety and Law",
+   "section": "3.3",
+   "definition": "MTP is the deliberate ending of a pregnancy before full term -- safest in the first twelve weeks and riskier in the second trimester -- legal in India since 1971 with conditions, and governed by the 2017 amendment act on how many registered doctors must certify each case.",
+   "formula": "",
+   "key_idea": "Roughly 45 to 50 million MTPs worldwide each year equal about a fifth of conceptions, and misuse for female foeticide is precisely what the law is built to stop.",
+   "textbook_ref": "lebo103.txt lines 253-329 (MTP section and amendment act box)",
+   "question_patterns": [
+    "up to how many weeks is a medical termination considered relatively safe",
+    "on what grounds does Indian law permit a pregnancy to be terminated",
+    "how many registered medical practitioners must agree for a termination between twelve and twenty four weeks",
+    "why was the MTP Act amended and what did it aim to reduce",
+    "list the situations in which an MTP becomes medically necessary",
+    "how does misuse of MTP connect with female foeticide in India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Define and size the practice",
+     "explain": "Voluntary pregnancy termination before full term is MTP, done about 45-50 million times a year worldwide, a fifth of all conceptions."
+    },
+    {
+     "step": 2,
+     "action": "Order the safety window",
+     "explain": "First-trimester terminations up to twelve weeks are relatively safe; second-trimester ones carry far greater risk."
+    },
+    {
+     "step": 3,
+     "action": "Recite the legal frame",
+     "explain": "Legalised in 1971, refined by the 2017 amendment: within twelve weeks one registered practitioner's opinion suffices; from over twelve up to twenty-four weeks, two must agree in good faith that continuing threatens the woman's life or health or that the child would be seriously handicapped."
+    },
+    {
+     "step": 4,
+     "action": "Flag the abuses",
+     "explain": "Illegal abortions by unqualified hands can be fatal, and sex-selective termination after amniocentesis is unlawful; counselling and better facilities are the antidotes."
+    }
+   ]
+  },
+  {
+   "id": "lebo103.3.4.1",
+   "title": "Sexually Transmitted Infections: Curable, Incurable, Prevention",
+   "section": "3.4",
+   "definition": "Infections passed through intercourse -- genital herpes, chlamydiasis, gonorrhoea, syphilis, genital warts, trichomoniasis, hepatitis-B and HIV leading to AIDS -- are mostly curable when caught early, but hepatitis-B, genital herpes and HIV have no complete cure, and cases peak in the 15-24 age band.",
+   "formula": "",
+   "key_idea": "Early symptoms are slight or absent, especially in women, so delay lets infections escalate into pelvic inflammatory disease, ectopic pregnancy, still birth, infertility or cancers.",
+   "textbook_ref": "lebo103.txt lines 330-362 (STI section)",
+   "question_patterns": [
+    "list the common sexually transmitted infections and separate the curable from the incurable",
+    "why do STIs often go undetected in infected women",
+    "which complications follow untreated reproductive tract infections",
+    "other than intercourse how can hepatitis B and HIV spread",
+    "state three simple rules that protect against contracting an STI",
+    "which age group reports the highest STI incidence and why is that worrying"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Name the rogues' gallery",
+     "explain": "Gonorrhoea, syphilis, genital herpes, chlamydiasis, genital warts, trichomoniasis, hepatitis-B and HIV are the headline STIs, also called VD or RTIs."
+    },
+    {
+     "step": 2,
+     "action": "Sort by curability",
+     "explain": "All but hepatitis-B, genital herpes and HIV clear up with early, proper treatment; those three can also travel by shared needles, surgical instruments, transfused blood or from mother to foetus."
+    },
+    {
+     "step": 3,
+     "action": "Explain the silent spread",
+     "explain": "Itching, fluid discharge, mild pain or swelling are easy to ignore, infected women may show nothing at all, and stigma delays testing until PID, abortions, still births, ectopic pregnancies, infertility or tract cancers appear."
+    },
+    {
+     "step": 4,
+     "action": "Apply the prevention rules",
+     "explain": "Avoid sex with unknown or multiple partners, use condoms every time, and consult a qualified doctor at once for testing and full treatment when in doubt."
+    }
+   ]
+  },
+  {
+   "id": "lebo103.3.5.1",
+   "title": "Infertility and Assisted Reproductive Technologies",
+   "section": "3.5",
+   "definition": "Couples unable to conceive despite unprotected cohabitation -- for physical, congenital, disease, drug, immunological or psychological reasons, and often on the male side -- can turn to ART: IVF with embryo transfer, ZIFT or IUT by embryo stage, GIFT with a donor ovum, ICSI sperm injection, artificial insemination, or legal adoption.",
+   "formula": "",
+   "key_idea": "Embryos of up to eight blastomeres go into the fallopian tube (ZIFT), older ones into the uterus (IUT), and donor-egg GIFT serves women who ovulate poorly but can carry a pregnancy.",
+   "textbook_ref": "lebo103.txt lines 363-413 (infertility and ART section)",
+   "question_patterns": [
+    "define infertility and list the possible causes behind a childless couple",
+    "differentiate ZIFT from IUT on the basis of embryo stage",
+    "what happens in ICSI and which infertility problem does it answer",
+    "how does artificial insemination help when the male partner cannot inseminate",
+    "when is GIFT the suitable assisted reproductive choice",
+    "why is adoption described as one of the best routes to parenthood in India"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Set the definition straight",
+     "explain": "Infertility means no children despite unprotected co-habitation, with causes spread across both partners -- the blame-the-woman reflex is usually wrong, since the male factor is frequent."
+    },
+    {
+     "step": 2,
+     "action": "Follow the test-tube route",
+     "explain": "IVF joins collected ova and sperms in the lab; the zygote or early embryo of at most eight blastomeres transfers into the fallopian tube (ZIFT), while beyond eight blastomeres it goes into the uterus (IUT)."
+    },
+    {
+     "step": 3,
+     "action": "Add the specialised variants",
+     "explain": "GIFT places a donor's ovum into another woman's tube; ICSI injects a single sperm straight into the ovum; AI introduces husband's or donor's semen into vagina or uterus (IUI) for low sperm counts or insemination failure."
+    },
+    {
+     "step": 4,
+     "action": "Note the practical limits",
+     "explain": "These techniques demand costly instruments and expert hands, so access is limited and emotionally loaded, which is why legal adoption remains a humane, widely available answer."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we_lebo103_1",
+   "source_ref": "lebo103.txt lines 107-122 (population figures and 2011 census growth rate)",
+   "concept": "lebo103.3.2.1",
+   "question_type": "compute",
+   "question_pattern": "A country holds {current_population} billion people and its population grows at {annual_growth} per year. What population does that rate predict after {years} years?",
+   "extracted_variables": {
+    "current_population": 1.2,
+    "annual_growth": 0.02,
+    "years": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Form the yearly multiplier",
+     "explain": "One plus the growth rate gives the factor each year multiplies by: 1 + 0.02 = 1.02.",
+     "compute": "growth_factor = 1 + annual_growth"
+    },
+    {
+     "step": 2,
+     "action": "Compound across the years",
+     "explain": "Raise the factor to the year count and multiply: 1.2 * 1.02**3 is about 1.273 billion.",
+     "compute": "projected_population = current_population * growth_factor ** years"
+    },
+    {
+     "step": 3,
+     "action": "State the projection",
+     "explain": "The compounded figure is the expected head count after the given span.",
+     "compute": "result = projected_population"
+    }
+   ]
+  },
+  {
+   "id": "we_lebo103_2",
+   "source_ref": "lebo103.txt lines 184-202 (IUD types and actions)",
+   "concept": "lebo103.3.2.3",
+   "question_type": "verify_property",
+   "question_pattern": "A gynaecologist offers a patient a copper releasing device and a hormone releasing device as choices. Explain how each prevents pregnancy and what both share in common.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "State the shared action",
+     "explain": "Both IUD types raise phagocytosis of sperms inside the uterus."
+    },
+    {
+     "step": 2,
+     "action": "Add the copper mechanism",
+     "explain": "Copper ions from CuT, Cu7 or Multiload 375 suppress sperm motility and fertilising capacity."
+    },
+    {
+     "step": 3,
+     "action": "Add the hormone mechanism",
+     "explain": "Progestasert or LNG-20 additionally makes the uterus unfit for implantation and the cervix hostile to sperms."
+    }
+   ]
+  },
+  {
+   "id": "we_lebo103_3",
+   "source_ref": "lebo103.txt lines 380-397 (IVF, ZIFT, IUT, GIFT, ICSI passages)",
+   "concept": "lebo103.3.5.1",
+   "question_type": "verify_property",
+   "question_pattern": "An IVF lab holds one embryo with six blastomeres and another with sixteen. State the transfer site and technique name for each.",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Classify the six-cell embryo",
+     "explain": "Up to eight blastomeres means a very early embryo: it goes into the fallopian tube by ZIFT."
+    },
+    {
+     "step": 2,
+     "action": "Classify the sixteen-cell embryo",
+     "explain": "Beyond eight blastomeres the embryo must go into the uterus by IUT."
+    },
+    {
+     "step": 3,
+     "action": "Recall the rationale",
+     "explain": "Each transfer site mimics where the embryo of that stage would naturally be travelling in the female tract."
+    }
+   ]
+  },
+  {
+   "id": "we_lebo103_4",
+   "source_ref": "lebo103.txt lines 253-321 (MTP section with amendment act box)",
+   "concept": "lebo103.3.3.1",
+   "question_type": "verify_property",
+   "question_pattern": "A pregnancy has run fifteen weeks and the woman seeks termination on health grounds. How many registered medical practitioners must certify it, and up to what week count does this rule apply?",
+   "extracted_variables": {},
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "Locate the week band",
+     "explain": "Fifteen weeks falls in the band above twelve but below twenty-four weeks."
+    },
+    {
+     "step": 2,
+     "action": "Apply the certification rule",
+     "explain": "Two registered medical practitioners must form the opinion in good faith that a permitted ground exists."
+    },
+    {
+     "step": 3,
+     "action": "Contrast the earlier band",
+     "explain": "Within the first twelve weeks a single registered practitioner's opinion is enough."
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex_lebo103_1",
+   "source_ref": "lebo103.txt lines 462-499 (end-of-chapter exercises 1-10, reworded)",
+   "questions": [
+    "Why does a society need to care about reproductive health?",
+    "Which aspects of reproductive health deserve the greatest attention today?",
+    "Argue for or against teaching sex education in schools.",
+    "Cite areas where India's reproductive health scene has improved over five decades.",
+    "Give the suggested causes behind the population explosion.",
+    "Is contraceptive use justified? Support your answer.",
+    "Why is removal of the gonads rejected as a contraceptive option?",
+    "Comment on whether the ban on amniocentesis for sex determination is necessary.",
+    "Suggest ways to help infertile couples have children.",
+    "What precautions protect a person from sexually transmitted diseases?"
+   ]
+  },
+  {
+   "id": "ex_lebo103_2",
+   "source_ref": "lebo103.txt lines 487-506 (end-of-chapter exercises 11-12, reworded)",
+   "questions": [
+    "True or false, with reasons: abortions can also occur spontaneously; infertility always stems from the female partner; full breastfeeding can serve as a natural contraceptive; awareness campaigns improve reproductive health.",
+    "Correct each statement: surgical contraception stops gamete formation; every STI is fully curable; oral pills are the favourite contraceptive of rural women; embryo transfer always places embryos into the uterus.",
+    "Name the once-a-week non-steroidal oral contraceptive developed in India and its maker.",
+    "Separate the STIs that are completely curable from those that are not."
+   ]
+  }
+ ]
 }

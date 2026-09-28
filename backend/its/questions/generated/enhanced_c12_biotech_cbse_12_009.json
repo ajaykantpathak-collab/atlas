@@ -34,6 +34,31 @@
      "q": "Design a 5-stage commercialization decision framework for a university TTO evaluating a new monoclonal antibody (mAb) diagnostic for dengue. For each stage, specify: (a) Go/No-Go criterion, (b) Key evidence required, (c) Typical cost to university, (d) Decision maker. Present as a structured table.",
      "a": "| Stage | Go/No-Go Criterion | Key Evidence | Cost to Univ. | Decision Maker |\n|-------|-------------------|--------------|---------------|----------------|\n| 1. Invention Disclosure & IP Filing | Novelty + enablement confirmed | Prior art search, lab data, inventor declaration | ₹2–5 lakh (patent filing) | TTO Director + IP Attorney |\n| 2. Market & Freedom-to-Operate (FTO) | Addressable market > ₹50 cr/yr; no blocking patents | Market sizing report, FTO opinion | ₹5–10 lakh (consultants) | TTO + External Advisor |\n| 3. Proof-of-Concept & Validation | Technical feasibility in relevant matrix (e.g., patient serum) | Sensitivity/specificity vs. gold standard, reproducibility | ₹10–50 lakh (grant-funded) | PI + TTO + Domain Expert |\n| 4. Partnering Strategy Selection | Clear pathway: License vs. Spin-off vs. JV | Term sheet comparisons, team assessment, capital needs | ₹5–15 lakh (legal/valuation) | TTO Head + VC/Industry Mentor |\n| 5. Deal Execution & Monitoring | Signed agreement with milestones | Licensing agreement / SHA / JV contract | ₹10–20 lakh (legal) | Registrar / VC Office |\n\nA poor answer (generic stages, missing FTO, ignoring university cost perspective) reveals template-thinking without biotech-specific gates — students copy generic startup frameworks without embedding diagnostic validation, FTO, and university fiduciary duty.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Technology transfer in ______ is the formal process of moving scientific discoveries, inventions, and proprietary knowledge from research institutions (universities, public labs) to the commercial sector (companies, startups) for product development and societal benefit.",
+     "a": "biotechnology",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a PhD student at IIT Delhi discovers a novel CRISPR-based ______ for tuberculosis that costs ₹50 per test instead of ₹500.",
+     "a": "diagnostic",
+     "self_check": true
+    },
+    {
+     "q": "What is Technology transfer in biotechnology? State the definition given in this lesson.",
+     "a": "Technology transfer in biotechnology is the formal process of moving scientific discoveries, inventions, and proprietary knowledge from research institutions (universities, public labs) to the commercial sector (companies, startups) for product development and societal benefit.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Technology transfer in biotechnology?",
+     "a": "Students believe \"technology transfer = signing a license agreement\" and that the TTO's job ends at deal closure.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish between four technology transfer models (licensing, assignment, spin-out, joint venture) and select the optimal pathway for a given biotech invention scenario with justification; (2) Map the 6-step commercialization funnel from invention disclosure to market launch, identifying the key.",
+     "self_check": true
     }
    ]
   }

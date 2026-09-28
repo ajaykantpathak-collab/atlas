@@ -1,0 +1,290 @@
+{
+ "catalog": "catalog_class12_economics_ch105.json",
+ "concepts": [
+  {
+   "id": "lekl.105.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "parent_actions = 11.5",
+      "moral_consistency = 35",
+      "exemplary_behavior = parent_actions + moral_consistency"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "parent_actions = 52",
+      "moral_consistency = 83",
+      "exemplary_behavior = parent_actions + moral_consistency"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "parent_actions = 2.3",
+      "moral_consistency = 62",
+      "exemplary_behavior = parent_actions + moral_consistency"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "parent_actions = 109",
+      "moral_consistency = 25",
+      "exemplary_behavior = parent_actions + moral_consistency"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "parent_actions = 71",
+      "moral_consistency = 56",
+      "exemplary_behavior = parent_actions + moral_consistency"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "parent_actions = 99",
+      "moral_consistency = 80",
+      "exemplary_behavior = parent_actions + moral_consistency"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "exemplary_behavior = parent_actions + moral_consistency"
+   ]
+  },
+  {
+   "id": "lekl.105.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "actual_height = 284",
+      "flattering_bias = 68",
+      "measured_height = actual_height + flattering_bias"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "actual_height = 29",
+      "flattering_bias = 42",
+      "measured_height = actual_height + flattering_bias"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "actual_height = 480",
+      "flattering_bias = 72",
+      "measured_height = actual_height + flattering_bias"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "actual_height = 412",
+      "flattering_bias = 41",
+      "measured_height = actual_height + flattering_bias"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "actual_height = 368",
+      "flattering_bias = 36",
+      "measured_height = actual_height + flattering_bias"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "actual_height = 406",
+      "flattering_bias = 64",
+      "measured_height = actual_height + flattering_bias"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "measured_height = actual_height + flattering_bias"
+   ]
+  },
+  {
+   "id": "lekl.105.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "truth_acknowledgment = 12.3",
+      "restored_trust = 3.1",
+      "vindication = truth_acknowledgment + restored_trust"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "truth_acknowledgment = 91",
+      "restored_trust = 34",
+      "vindication = truth_acknowledgment + restored_trust"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "truth_acknowledgment = 72",
+      "restored_trust = 10.8",
+      "vindication = truth_acknowledgment + restored_trust"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "truth_acknowledgment = 63",
+      "restored_trust = 9.2",
+      "vindication = truth_acknowledgment + restored_trust"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "truth_acknowledgment = 16.5",
+      "restored_trust = 79",
+      "vindication = truth_acknowledgment + restored_trust"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "truth_acknowledgment = 87",
+      "restored_trust = 118",
+      "vindication = truth_acknowledgment + restored_trust"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "vindication = truth_acknowledgment + restored_trust"
+   ]
+  },
+  {
+   "id": "lekl.105.8",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "ethical_integrity = 56",
+      "economic_opportunism = 62",
+      "dignity_maintenance = ethical_integrity - economic_opportunism"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "ethical_integrity = 9.9",
+      "economic_opportunism = 99",
+      "dignity_maintenance = ethical_integrity - economic_opportunism"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "ethical_integrity = 37",
+      "economic_opportunism = 64",
+      "dignity_maintenance = ethical_integrity - economic_opportunism"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "ethical_integrity = 67",
+      "economic_opportunism = 89",
+      "dignity_maintenance = ethical_integrity - economic_opportunism"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "ethical_integrity = 73",
+      "economic_opportunism = 2.1",
+      "dignity_maintenance = ethical_integrity - economic_opportunism"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "ethical_integrity = 69",
+      "economic_opportunism = 63",
+      "dignity_maintenance = ethical_integrity - economic_opportunism"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "dignity_maintenance = ethical_integrity - economic_opportunism"
+   ]
+  },
+  {
+   "id": "lekl.105.9",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "threshold = 96",
+      "child_height = 372",
+      "deficit = threshold - child_height"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "threshold = 96",
+      "child_height = 372",
+      "deficit = threshold - child_height"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "threshold = 4.4",
+      "child_height = 289",
+      "deficit = threshold - child_height"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "threshold = 4.4",
+      "child_height = 289",
+      "deficit = threshold - child_height"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "threshold = 24",
+      "child_height = 87",
+      "deficit = threshold - child_height"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "threshold = 24",
+      "child_height = 87",
+      "deficit = threshold - child_height"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "deficit = threshold - child_height"
+   ]
+  }
+ ]
+}

@@ -34,6 +34,16 @@
      "q": "Create a real-world problem (Indian context) where finding the distance from a point to a line is necessary. Define the coordinates, line equation, and ask for the distance. Then solve it.",
      "a": "Example: A water pipeline runs along the line \\(2x - y + 4 = 0\\). A village centre is at \\(P(1, 5)\\). Find the shortest length of pipe needed to connect the village to the pipeline. Solution: \\(A=2, B=-1, C=4\\), \\(x_1=1, y_1=5\\). \\(d = \\frac{|2(1) -1(5) + 4|}{\\sqrt{4+1}} = \\frac{|2-5+4|}{\\sqrt{5}} = \\frac{1}{\\sqrt{5}} \\approx 0.447\\) km (if units are km). A good answer includes correct setup, unit interpretation, and the realization that the perpendicular gives the minimal pipe length. A poor answer might use horizontal/vertical distance instead of perpendicular, showing misunderstanding of \"shortest distance\".",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You want to find the ______ distance from your position to the road to decide if you can hear the traffic.",
+     "a": "shortest",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute the perpendicular distance from any point to any line given in general form, convert other line forms (slope-intercept, intercept, normal) to general form before applying the formula, and solve problems involving shortest distance, parallel line distance, and locus conditions using this distance formula.",
+     "self_check": true
     }
    ]
   }

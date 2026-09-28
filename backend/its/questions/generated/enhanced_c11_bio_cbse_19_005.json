@@ -34,6 +34,31 @@
      "q": "Design a simple blood-test protocol to distinguish between primary ovarian failure and secondary (pituitary/hypothalamic) ovarian failure in a woman with amenorrhea.",
      "a": "Measure serum FSH, LH, and estradiol. Primary ovarian failure: low estradiol with elevated FSH/LH (loss of negative feedback). Secondary failure: low estradiol with low/normal FSH/LH (deficient gonadotropin drive). A poor answer (e.g., \"measure only estrogen\") shows the student cannot apply feedback-loop logic to diagnose the level of endocrine disruption.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Gonads are dual-function organs (testis in males, ovary in females) that produce gametes and secrete steroid hormones—androgens (primarily testosterone) from Leydig cells of the testis, and estrogens (from growing follicles) and progesterone (from corpus luteum) from the ovary—under the regulation of pituitary gonadotropins (LH and FSH) to control reproductive development, secondary sexual ______, gametogenesis, and pregnancy maintenance.",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how a teenage boy's voice deepens and facial hair appears, while a teenage girl develops breast tissue and starts menstruating—these visible changes are driven by gonadal ______.",
+     "a": "steroids",
+     "self_check": true
+    },
+    {
+     "q": "What is Gonads? State the definition given in this lesson.",
+     "a": "Gonads are dual-function organs (testis in males, ovary in females) that produce gametes and secrete steroid hormones—androgens (primarily testosterone) from Leydig cells of the testis, and estrogens (from growing follicles) and progesterone (from corpus luteum) from the ovary—under the regulation of pituitary gonadotropins (LH and FSH).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Gonads?",
+     "a": "Students often believe that LH directly stimulates estrogen secretion from the ovarian follicle.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the specific hormonal products of Leydig cells, ovarian follicles, and corpus luteum; describe how LH and FSH differentially regulate testicular and ovarian function; and predict the physiological consequences of altered gonadal steroid levels on target tissues and pituitary feedback.",
+     "self_check": true
     }
    ]
   }

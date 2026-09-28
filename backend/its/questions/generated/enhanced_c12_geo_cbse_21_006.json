@@ -34,6 +34,31 @@
      "q": "Design a minimal GIS workflow to map urban sprawl of your district between 2000 and 2020 using satellite imagery. List the sequence of activities (data input → output) and specify at which step raster-to-vector conversion might be needed.",
      "a": "Sequence: (1) Acquire georeferenced satellite images for 2000 and 2020 (raster). (2) Classify each image into built-up / non-built-up (raster). (3) Convert built-up class to vector polygons (raster→vector conversion here). (4) Overlay 2000 and 2020 built-up polygons (vector overlay). (5) Identify new polygons in 2020 not overlapping 2000 = urban sprawl. (6) Compute area statistics. Raster-to-vector conversion is needed at step 3 because overlay of classified rasters loses polygon topology (area, perimeter, adjacency) needed for sprawl metrics. A student skipping conversion and overlaying rasters directly cannot compute parcel-level area change.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Spatial Information Technology (SIT) is the integrated use of technological tools — Remote Sensing, GPS, GIS, Digital Cartography, and Database Management Systems — for collecting, storing, retrieving, displaying, manipulating, managing, and analysing data that have a geographic (spatial) component, i.e., features and phenomena distributed over a ______ definable space with physically measurable dimensions.",
+     "a": "geographically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the ______ Magistrate of Aligarh and need to decide where to build a new primary health centre.",
+     "a": "District",
+     "self_check": true
+    },
+    {
+     "q": "What is Spatial Information Technology (SIT)? State the definition given in this lesson.",
+     "a": "Spatial Information Technology (SIT) is the integrated use of technological tools — Remote Sensing, GPS, GIS, Digital Cartography, and Database Management Systems — for collecting, storing, retrieving, displaying, manipulating, managing, and analysing data that have a geographic (spatial) component, i.e., features and phenomena.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Spatial Information Technology (SIT)?",
+     "a": "Students think \"GIS is just software like ArcGIS or QGIS\" and equate learning GIS with learning software buttons.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how SIT differs from standalone DBMS or Computer-Assisted Cartography by identifying the decision-support capability that arises from integrating spatial and attribute data, and can list the five core components of a GIS (Hardware, Software, Data, People, Procedures) with one function each.",
+     "self_check": true
     }
    ]
   }

@@ -42,9 +42,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "vol = 8 * 3 * 9"
-   ]
+   "steps_chain": []
   },
   {
    "id": "jemh.11.2",
@@ -87,9 +85,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lines = 4"
-   ]
+   "steps_chain": []
   },
   {
    "id": "jemh.11.3",
@@ -132,9 +128,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "circ = 2 * 22 / 7 * 21"
-   ]
+   "steps_chain": []
   },
   {
    "id": "jemh.11.4",
@@ -177,9 +171,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "x = (23 - 8) / 3"
-   ]
+   "steps_chain": []
   },
   {
    "id": "jemh.11.5",
@@ -268,9 +260,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "x = (81 - 11) / 7"
-   ]
+   "steps_chain": []
   },
   {
    "id": "jemh.11.7",
@@ -359,9 +349,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "x = (26 - 8) / 6"
-   ]
+   "steps_chain": []
   },
   {
    "id": "jemh.11.9",
@@ -407,11 +395,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "dx = 10 - 4",
-    "dy = 10 - 2",
-    "dist = sqrt(dx * dx + dy * dy)"
-   ]
+   "steps_chain": []
   }
  ]
 }

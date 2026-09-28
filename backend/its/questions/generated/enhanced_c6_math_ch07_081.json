@@ -34,6 +34,31 @@
      "q": "Design a plan to divide a 12cm line segment into four equal parts using only a compass and straightedge.",
      "a": "First, construct the perpendicular bisector to split the 12cm segment into two 6cm parts. Then, construct the perpendicular bisectors of those two new segments. A poor answer would suggest measuring with a ruler, which ignores the geometric construction requirement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ line is a line that meets another at a right angle (90°), while an angle bisector is a ray that divides an angle into two equal parts.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are trying to find the exact ______ of a long garden path so you can place a fountain right in the center.",
+     "a": "middle",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A perpendicular line is a line that meets another at a right angle (______°), while an angle bisector is a ray that divides an angle into two equal parts.",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to use a compass and ruler to construct a perpendicular bisector of a line segment and a perpendicular line from a point on a line.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are trying to find the exact middle of a long garden path so you can place a ______ right in the center.",
+     "a": "fountain",
+     "self_check": true
     }
    ]
   }

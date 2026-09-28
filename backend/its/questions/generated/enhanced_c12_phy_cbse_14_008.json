@@ -34,6 +34,26 @@
      "q": "**CREATE:** Design a simple experiment using a multimeter (diode test mode) to identify whether an unknown three-terminal transistor is n-p-n or p-n-p, and to identify its E, B, C leads. Write the step-by-step procedure and the expected multimeter readings for each case.",
      "a": "**Procedure:**  \n1. Set multimeter to **diode test mode** (measures forward voltage drop ~0.7 V for Si).  \n2. Pick any two leads, measure both polarities. Repeat for all three pairs (6 measurements).  \n3. **Find the base:** The lead that shows **two forward-biased junctions** (low voltage drop ~0.7 V) with the other two leads (one polarity each) is the **base**.  \n   - For n-p-n: Base shows 0.7 V when **red (positive) on base**, black on each of the other two.  \n   - For p-n-p: Base shows 0.7 V when **black (negative) on base**, red on each of the other two.  \n4. **Distinguish E vs C:** The junction with **lower forward voltage drop** (higher doping) is the **emitter-base** junction. The other is collector-base.  \n**Expected readings for n-p-n:** Red on B, Black on E → 0.7 V; Red on B, Black on C → 0.7 V; all other combinations → OL (open loop). E-B drop slightly < C-B drop.  \nA poor answer that only checks one polarity per pair cannot distinguish n-p-n from p-n-p or identify base.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A junction transistor is a three-terminal semiconductor device consisting of two p-n junctions formed by ______ a thin layer of one type of semiconductor (base) between two layers of the opposite type (emitter and collector).",
+     "a": "sandwiching",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a small black cylindrical component with three metal legs on an old radio or amplifier circuit board — that is a bipolar junction ______ (BJT).",
+     "a": "transistor",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Identify n-p-n and p-n-p transistors from their circuit symbols and doping profiles; (2) Explain why the base is made thin and lightly doped while the emitter is heavily doped; (3) Describe the biasing of the two junctions (emitter-base forward biased, collector-base reverse biased) for active mode operation; (4) Draw.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a small black ______ component with three metal legs on an old radio or amplifier circuit board — that is a bipolar junction transistor (BJT).",
+     "a": "cylindrical",
+     "self_check": true
     }
    ]
   }

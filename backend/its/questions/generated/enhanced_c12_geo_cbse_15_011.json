@@ -34,6 +34,21 @@
      "q": "Design a map annotation exercise for a Class 12 student: On an outline map of India, mark and label (i) the state with highest tele-density, (ii) a state with lowest internet penetration, (iii) the landing station of a major submarine cable, (iv) the headquarters of BSNL and TRAI. Explain the geographical pattern you observe.",
      "a": "Expected answer: (i) Delhi or Kerala (highest tele-density ~200%), (ii) Bihar or Jharkhand (lowest internet penetration ~30-35%), (iii) Mumbai, Chennai, Kochi, Tuticorin (submarine cable landing stations), (iv) BSNL HQ: New Delhi; TRAI HQ: New Delhi. Pattern: Tele-density and internet penetration correlate with urbanization, per capita income, and coastal connectivity (cable landings). A poor answer marks random states without data backing, or cannot explain the coastal/inland disparity, indicating inability to link communication geography to physical and human factors.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Communication networks in India comprise the integrated systems of postal services, ______ (landline and mobile), and digital infrastructure (internet, broadband) that enable the exchange of information, ideas, and messages across geographical space, overcoming distance barriers and connecting urban and rural populations for socio-economic development.",
+     "a": "telecommunications",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by observing your own daily ______: a WhatsApp message, a UPI payment, a letter from a relative in a village.",
+     "a": "communication",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the structure and evolution of India's postal, telecom, and digital networks, interpret spatial patterns of tele-density and internet penetration using map/data, and analyze how these networks reduce regional disparities and support economic activities like e-commerce and governance.",
+     "self_check": true
     }
    ]
   }

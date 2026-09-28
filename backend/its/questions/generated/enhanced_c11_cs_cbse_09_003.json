@@ -34,6 +34,21 @@
      "q": "Design a small Python program scenario where you must choose between 'a' and 'w' mode for a log file that records timestamps. Justify your choice with a concrete example of what would go wrong with the other mode.",
      "a": "A good answer: Use 'a' mode for a log file because each run of the program should add new timestamps without erasing previous logs. If 'w' mode were used, each program run would overwrite the log, losing all previous entries. A poor answer might choose 'w' for \"fresh logs each time\" without realizing the requirement is cumulative logging, showing the student cannot match mode behavior to real-world requirements.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: File modes in Python specify the purpose for which a file is opened, ______ whether data can be read from, written to, or appended to the file, and whether the file is treated as text or binary.",
+     "a": "determining",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a program to maintain a daily expense log in a text file.",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly select and justify the appropriate file mode for a given scenario, predict the effect of each mode on existing file content and file pointer position, and explain the differences between text and binary variants.",
+     "self_check": true
     }
    ]
   }

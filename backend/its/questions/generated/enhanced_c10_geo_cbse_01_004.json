@@ -34,6 +34,36 @@
      "q": "Design a simple resource planning framework for a district that has both water scarcity (low rainfall, falling groundwater) and rich solar potential. Your framework must have 4 steps, address both resources, and ensure intergenerational equity. Label each step clearly.",
      "a": "Expected answer (criteria for a good response):\nStep 1: Resource Inventory & Assessment — Map groundwater aquifers (depth, recharge zones) and solar irradiance data; identify current use patterns (crops, domestic, industry).\nStep 2: Carrying Capacity Analysis — Calculate sustainable groundwater withdrawal limit (≤ recharge rate) and land suitability for solar farms (avoiding fertile land, forests).\nStep 3: Integrated Allocation Plan — Prioritize groundwater for drinking and critical needs; promote solar-powered drip irrigation to reduce groundwater use; designate zones for solar parks on wastelands.\nStep 4: Monitoring & Governance — Establish community groundwater monitoring committees; set up district-level resource audit every 2 years; link solar revenue to local development fund.\nA poor answer that lists generic steps like \"save water, build solar panels\" without quantification, zoning, governance, or equity mechanisms shows the student cannot translate geographical concepts into a practical planning framework.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Resource development refers to the process of utilizing natural resources through technology and human effort to meet human needs, while the problems of resource development include ______, uneven distribution, environmental degradation, and socio-economic inequality.",
+     "a": "overexploitation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you live in a village in Rajasthan where the only water source is a deep borewell that ran dry last summer, while in Punjab, farmers flood fields with ______ for rice — a water-intensive crop — causing the water table to drop 1 meter per year.",
+     "a": "groundwater",
+     "self_check": true
+    },
+    {
+     "q": "What is Resource development? State the definition given in this lesson.",
+     "a": "Resource development refers to the process of utilizing natural resources through technology and human effort to meet human needs, while the problems of resource development include overexploitation, uneven distribution, environmental degradation, and socio-economic inequality.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you live in a village in Rajasthan where the only water source is a deep borewell that ran dry last summer, while in Punjab, farmers flood fields with groundwater for rice — a water-intensive crop — causing the water table to drop ______ meter per year.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Resource development?",
+     "a": "Students often think \"resource planning\" means only government making big dams or factories, and that it applies only to non-renewable resources.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain at least three specific problems arising from unplanned resource development (e.g., depletion, regional disparity, ecological damage) and articulate why resource planning is necessary in the Indian context, citing examples like groundwater overuse in Punjab or deforestation in the Western Ghats.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a two-step synthesis to convert 1-bromopropane to butanoic acid using a nitrile intermediate. Write reagents for each step.",
      "a": "Step 1: CH₃CH₂CH₂Br + KCN (alc.) → CH₃CH₂CH₂CN (butanenitrile) + KBr  \nStep 2: CH₃CH₂CH₂CN + H₃O⁺, Δ → CH₃CH₂CH₂COOH (butanoic acid)  \nThis extends the chain by one carbon (C₃ → C₄). A wrong answer using Grignard + CO₂ (also valid but not \"nitrile intermediate\") or using NaCN/H₂O directly without isolation shows inability to plan a specific nitrile-route synthesis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Carboxylic acids are prepared from primary alcohols via oxidation using strong oxidizing agents (KMnO₄, K₂Cr₂O₇/H₂SO₄, CrO₃/H₂SO₄) which convert the –CH₂OH group to –COOH, and from nitriles via acid- or base-catalyzed hydrolysis where the –C≡N group is converted to –COOH through an amide ______.",
+     "a": "intermediate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bottle of vinegar (acetic acid) in the kitchen — it forms when wine (ethanol) is left open and ______ by air.",
+     "a": "oxidised",
+     "self_check": true
+    },
+    {
+     "q": "What is Carboxylic acids? State the definition given in this lesson.",
+     "a": "Carboxylic acids are prepared from primary alcohols via oxidation using strong oxidizing agents (KMnO₄, K₂Cr₂O₇/H₂SO₄, CrO₃/H₂SO₄) which convert the –CH₂OH group to –COOH, and from nitriles via acid- or base-catalyzed hydrolysis where the –C≡N group is converted to –COOH through an amide intermediate.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Carboxylic acids?",
+     "a": "Students often write the oxidation of primary alcohol with K₂Cr₂O₇/H₂SO₄ as RCH₂OH + [O] → RCHO (stopping at aldehyde) because they memorise \"primary alcohol → aldehyde\" from the PCC context.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write balanced chemical equations for oxidation of a given primary alcohol to carboxylic acid using KMnO₄/K₂Cr₂O₇, explain why the reaction stops at aldehyde with PCC but proceeds to acid with strong oxidants, and write the stepwise hydrolysis of a nitrile to carboxylic acid under both acidic and basic conditions with correct.",
+     "self_check": true
     }
    ]
   }

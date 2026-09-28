@@ -34,6 +34,21 @@
      "q": "Design a simple classroom activity to demonstrate a combination reaction using materials available in a school lab. Write the balanced chemical equation, list observations, and state one safety precaution.",
      "a": "**Activity:** Burning a magnesium ribbon in air.  \n**Materials:** Magnesium ribbon (2 cm), tongs, Bunsen burner, watch glass.  \n**Procedure:** Hold Mg ribbon with tongs, ignite in burner flame, collect white ash on watch glass.  \n**Equation:** 2Mg(s) + O₂(g) → 2MgO(s)  \n**Observations:** (1) Intense white flame (blinding), (2) Ribbon burns completely, (3) White powdery ash (MgO) formed, (4) Mass of ash > mass of ribbon (oxygen added).  \n**Safety:** Do not look directly at the flame (UV light damages eyes); use dark glasses or view indirectly.  \n**Poor answer insight:** If a student suggests \"mixing acid and base\" (neutralization, double displacement) or \"heating copper sulphate\" (decomposition), they cannot distinguish reaction types. If they omit safety, they ignore lab protocol — a practical exam requirement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ reaction is a chemical reaction in which two or more reactants (elements or compounds) combine to form a single product.",
+     "a": "combination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world ______: a student lighting a magnesium ribbon in the school laboratory sees an intense white flame and a white powdery ash (MgO).",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify a combination reaction from a set of chemical equations, write a balanced chemical equation for a given combination reaction (including correct physical states), and predict the product when two specific reactants combine, explaining why only one product forms.",
+     "self_check": true
     }
    ]
   }

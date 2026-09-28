@@ -34,6 +34,36 @@
      "q": "Design a simple experiment to compare the solubility of sugar and salt in water at room temperature using only kitchen materials (no balance). Describe the procedure and how you would express the result comparatively.",
      "a": "Procedure: Take two identical glasses with equal volumes of room-temperature water (e.g., 100 mL each). Add sugar to one glass, one teaspoon at a time, stirring until no more dissolves (solid remains). Count teaspoons. Repeat for salt in the other glass. Express result as \"teaspoons per 100 mL water\" – the substance requiring more teaspoons has higher solubility. A poor answer (e.g., \"add both to same glass\" or \"measure time to dissolve\") reveals confusion between solubility (equilibrium amount) and rate of dissolving (kinetics), or inability to design a fair test.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Solubility is the maximum mass of a solute (in grams) that can dissolve in 100 grams of a solvent at a specific ______ to form a saturated solution.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are making lemonade: you keep adding sugar to a glass of water, ______ each time, until finally the sugar stops disappearing and settles at the bottom.",
+     "a": "stirring",
+     "self_check": true
+    },
+    {
+     "q": "What is Solubility? State the definition given in this lesson.",
+     "a": "Solubility is the maximum mass of a solute (in grams) that can dissolve in 100 grams of a solvent at a specific temperature to form a saturated solution.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Solubility is the maximum mass of a solute (in grams) that can dissolve in ______ grams of a solvent at a specific temperature to form a saturated solution.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Solubility?",
+     "a": "Students often confuse solubility (the maximum equilibrium amount that can dissolve) with rate of dissolving (how fast it dissolves).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can define solubility with correct units, interpret a solubility table to determine how much solute will dissolve in a given mass of solvent at a given temperature, and explain why solubility values differ for different substances.",
+     "self_check": true
     }
    ]
   }

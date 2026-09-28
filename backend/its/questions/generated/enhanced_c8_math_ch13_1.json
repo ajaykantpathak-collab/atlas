@@ -34,6 +34,21 @@
      "q": "Create your own \"Think of a Number\" trick that always gives the answer 7. Write the trick in words, then prove it works using algebra with variable \\(x\\).",
      "a": "Example trick: \"Think of a number. Multiply by 4. Add 28. Divide by 4. Subtract the original number.\" Algebraic proof: \\(x \\rightarrow 4x \\rightarrow 4x + 28 \\rightarrow (4x + 28)/4 = x + 7 \\rightarrow (x + 7) - x = 7\\). A good answer shows a valid sequence where the constant added is a multiple of the multiplier (here 28 = 4 × 7) so that division yields \\(x + 7\\). A poor answer might have mismatched operations (e.g., multiply by 3, add 28, divide by 4) that don't simplify to a constant, or the algebra doesn't cancel \\(x\\), revealing the student doesn't understand the structural requirement for the variable to disappear.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A \"Think of a Number\" trick is a sequence of arithmetic operations performed on an unknown number (______ by a variable) that always produces a predictable result regardless of the starting number.",
+     "a": "represented",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Your ______ is 2!\" You try it with 7 → 21 → 27 → 9 → 2.",
+     "a": "answer",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can represent a number trick algebraically using a variable, perform the sequence of operations as algebraic manipulations, simplify the expression correctly, and explain why the trick works for any starting number.",
+     "self_check": true
     }
    ]
   }

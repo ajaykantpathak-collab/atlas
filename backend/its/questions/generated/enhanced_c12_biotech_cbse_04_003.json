@@ -34,6 +34,26 @@
      "q": "Design a next-generation CHO host cell line for a difficult-to-express bispecific antibody with high aggregation propensity. Specify: (a) two genetic modifications to the host genome, (b) one vector engineering strategy, and (c) one process-level intervention. Justify each.",
      "a": "(a) Host: (1) Knockout of ER-associated degradation (ERAD) component SEL1L or HRD1 to reduce misfolded chain degradation; (2) Overexpression of ER chaperones BiP/GRP78 and PDI via safe-harbor locus (e.g., ROSA26) to assist folding. (b) Vector: Use a bicistronic vector with 2A peptide (P2A/T2A) for stoichiometric heavy/light chain expression, plus chromatin-opening elements (cHS4 insulator, S/MAR) to prevent silencing. (c) Process: Low-temperature shift (33–35°C) at day 3–5 to reduce aggregation and extend culture longevity; supplemented with chemical chaperones (e.g., 50 mM arginine, 10 mM trehalose). A poor answer proposes only \"better promoter\" or \"higher MTX\" — ignoring folding bottlenecks and process-host interplay.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Recombinant protein production in mammalian cell systems refers to the use of cultured mammalian cells (e.g., CHO, HEK293, NS0) as host factories to express heterologous genes encoding human therapeutic proteins, enabling correct folding, disulfide bond formation, and human-compatible post-______ modifications (especially N- and O-linked glycosylation) that prokaryotic and yeast systems cannot faithfully replicate.",
+     "a": "translational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a process development scientist at a Bengaluru biotech startup tasked with producing a complex, heavily ______ monoclonal antibody for cancer therapy.",
+     "a": "glycosylated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by selecting a host: CHO-K______ or CHO-S for suspension culture and regulatory precedent.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) compare mammalian, yeast, and bacterial expression systems on glycosylation fidelity, yield, scalability, and regulatory approval track record, and (2) design a stable CHO-cell line development workflow from vector construction to clone screening, justifying each step (promoter choice, selection marker.",
+     "self_check": true
     }
    ]
   }

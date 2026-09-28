@@ -34,6 +34,31 @@
      "q": "Construct a hypothetical Balance of Payments Current Account table for a small open economy \"Econland\" that has: (i) a merchandise trade deficit of $40 bn, (ii) a services trade surplus of $25 bn, (iii) net primary income deficit of $10 bn, (iv) net secondary income surplus of $30 bn. Show BoT and BoCA clearly. Then write one policy recommendation for the Finance Minister based on this structure.",
      "a": "**Econland Current Account ($ bn)**  \n| Component | Credit | Debit | Net |  \n|---|---|---|---|  \n| **Goods (Merchandise)** | 120 | 160 | **-40** |  \n| **Services** | 80 | 55 | **+25** |  \n| **Primary Income** | 15 | 25 | **-10** |  \n| **Secondary Income** | 35 | 5 | **+30** |  \n| **Balance of Trade (BoT)** | | | **-40** |  \n| **Balance of Current Account (BoCA)** | | | **+5** |  \n\n**Policy Recommendation**: \"While BoCA is in surplus (+$5 bn), the merchandise deficit (-$40 bn) is structural and financed by volatile services/remittances. Diversify merchandise exports (electronics, pharma) to reduce dependence on invisible surplus; build reserves against services/remittance volatility.\"  \nA POOR answer recommends \"devalue currency to fix BoT\" without noting BoCA is already in surplus — devaluation could raise import costs (oil) and hurt remittance value. A POOR answer ignores the composition of invisibles (remittances vs investment income) which have different stability.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Balance of Trade (BoT) is the difference between the value of a country's exports and imports of visible goods (______) only, while Balance of Current Account (BoCA) is the broader measure that includes BoT plus net invisibles — net exports of services, net primary income (wages, investment income), and net secondary income (remittances, grants).",
+     "a": "merchandise",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are reading a news headline: \"India's trade deficit widens to $240 ______ in FY24, but current account deficit narrows to 1% of GDP.\" How can both be true?",
+     "a": "billion",
+     "self_check": true
+    },
+    {
+     "q": "What is Balance of Trade (BoT)? State the definition given in this lesson.",
+     "a": "Balance of Trade (BoT) is the difference between the value of a country's exports and imports of visible goods (merchandise) only, while Balance of Current Account (BoCA) is the broader measure that includes BoT plus net invisibles — net exports of services, net primary income (wages, investment income), and net secondary income.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Balance of Trade (BoT)?",
+     "a": "Students equate Balance of Trade deficit with Current Account deficit and write \"India has a trade deficit, so it has a current account deficit\" — ignoring that net services exports and net remittances are part of the Current Account, not the Trade Balance.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) calculate BoT and BoCA from a given set of export/import data for goods, services, income, and transfers, (2) explain why a country can have a trade deficit but a current account surplus (or vice versa) using India's IT services exports and remittances as the primary example, and (3) identify which components belong.",
+     "self_check": true
     }
    ]
   }

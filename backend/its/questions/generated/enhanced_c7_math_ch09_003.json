@@ -34,6 +34,21 @@
      "q": "Design a problem for a garden layout where a triangular flower bed needs to be isosceles with a perimeter of 30 metres and one specific angle condition. State the problem and provide its complete solution.",
      "a": "Problem: A triangular flower bed in a park is isosceles. The two equal sides are each 10 metres long, and the vertex angle is $50^\\circ$. Find the lengths of all sides and the measures of all three interior angles. \nSolution: Equal sides = 10m each, so the third side (base) = $30 - (10 + 10) = 10$m (making it equilateral as a special case!). The vertex angle is given as $50^\\circ$, so the base angles are $(180^\\circ - 50^\\circ) \\div 2 = 65^\\circ$ each. A poor answer lacks either the side length calculations or misapplies the angle sum rule.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The angles opposite to the equal sides of an isosceles triangle are also equal in measure, and ______, sides opposite to equal angles are equal.",
+     "a": "conversely",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping a carpenter in Jaipur cut ______ wooden pieces for a decorative window frame, and two of the wooden sides are measured to be exactly equal in length.",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can calculate unknown interior angles of an isosceles triangle given one angle or side lengths, and can provide geometric justification for angle equalities using the side-angle relationship.",
+     "self_check": true
     }
    ]
   }

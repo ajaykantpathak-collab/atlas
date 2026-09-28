@@ -34,6 +34,26 @@
      "q": "Design a new chart type not mentioned in the textbook that could effectively show both the quarterly trend for each product AND the total quarterly sales, using only standard Excel chart types. Describe the data arrangement and chart subtype.",
      "a": "Use a **Combination Chart (Combo Chart)**: Clustered Column for each product's quarterly sales (4 quarters × 6 products = 24 columns) + Line chart for quarterly totals (4 data points) on a secondary axis. Data arrangement: Rows = Products (6 rows), Columns = Qtr1–Qtr4 + Total column. Select all data → Insert → Combo Chart → Custom Combination → set Product columns to \"Clustered Column\", Total to \"Line with Markers\" on Secondary Axis. This combines comparison (columns) and trend (line) in one visual. A poor answer (e.g., \"two separate charts\") misses the synthesis requirement — board competency questions often ask for \"most appropriate single chart\".",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The basic steps for creating graphs/charts in Excel involve: (1) entering structured data with clear row/column headers, (2) selecting the relevant data range, (3) choosing an appropriate chart type from the Insert tab, (4) formatting chart elements (titles, axes, legend, data labels) using Design/Layout/Format tabs, and (5) resizing or ______ the chart for effective visual communication of accounting information.",
+     "a": "repositioning",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the accountant for ABC ______ and the manager asks: \"Show me which product contributed most to total sales in 2007-08 — and give me a visual I can paste into the board presentation in 5 minutes.\" You open Excel, see a blank grid, and wonder: where do I even start?",
+     "a": "Manufacturing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by typing the data exactly as in Figure ______: products in rows, quarters in columns, with clear headers.",
+     "a": "4.4",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently take a raw accounting dataset (e.g., quarterly sales by product), create a column chart and a pie chart in Excel, correctly assign categories and values to axes, add descriptive titles and data labels, swap row/column orientation, change chart type, apply a predefined style, and resize the chart — all without.",
+     "self_check": true
     }
    ]
   }

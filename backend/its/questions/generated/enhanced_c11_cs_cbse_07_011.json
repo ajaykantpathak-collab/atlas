@@ -21,7 +21,7 @@
      "self_check": true
     },
     {
-     "q": "Consider the following two code snippets. Do they produce the same output? Justify your answer.\n```python",
+     "q": "Consider the following two code snippets. Do they produce the same output? Justify your answer.\n```python\n# Snippet A\nd = {\"p\": 1, \"q\": 2}\nfor key in d:\n    print(key, d[key])\n\n# Snippet B\nfor key, value in d.items():\n    print(key, value)\n```",
      "a": "Yes, both snippets produce the same output: `p 1` and `q 2` (order may vary in older Python versions but is insertion-ordered in Python 3.7+). Snippet A uses key iteration and explicit lookup `d[key]`, while Snippet B uses tuple unpacking from `d.items()`. A student who says they are different might not realize that `d[key]` inside the loop retrieves the same value that `items()` provides directly, or may think `items()` returns something else. This analyzes the equivalence of two traversal patterns.",
      "self_check": true
     },
@@ -33,6 +33,36 @@
     {
      "q": "Design a dictionary `inventory` with at least three items (item name as key, quantity as value). Write a `for` loop that calculates the total quantity of all items and prints it. Then, modify the loop to also print the name of the item with the maximum quantity (assume no ties).",
      "a": "Example solution:\n```python\ninventory = {\"rice\": 50, \"wheat\": 30, \"sugar\": 20}\ntotal = 0\nmax_item = None\nmax_qty = -1\nfor item, qty in inventory.items():\n    total += qty\n    if qty > max_qty:\n        max_qty = qty\n        max_item = item\nprint(\"Total quantity:\", total)\nprint(\"Item with max quantity:\", max_item)\n```\nA poor answer might use separate loops for total and max, or might not initialize `max_qty` correctly, showing inability to combine accumulation and comparison in a single traversal.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Traversing a dictionary using loops is the process of ______ accessing each key-value pair (or just keys or just values) in a dictionary by using iterative constructs such as for loops, often combined with dictionary view methods keys(), values(), and items().",
+     "a": "systematically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a ______ storing the prices of fruits in a grocery store: prices = {\"apple\": 120, \"banana\": 40, \"orange\": 80}.",
+     "a": "dictionary",
+     "self_check": true
+    },
+    {
+     "q": "What is Traversing a dictionary using loops? State the definition given in this lesson.",
+     "a": "Traversing a dictionary using loops is the process of systematically accessing each key-value pair (or just keys or just values) in a dictionary by using iterative constructs such as for loops, often combined with dictionary view methods keys(), values(), and items().",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Python gives us three views: prices.keys() gives all fruit names, prices.values() gives all prices, and prices.items() gives pairs like (\"apple\", ______).",
+     "a": "120",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Traversing a dictionary using loops?",
+     "a": "Students often believe that iterating over a dictionary with for x in d: yields key-value pairs, or that the loop variable in for v in d.values(): can be used to modify the original dictionary values.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write a Python for loop that correctly iterates over a dictionary's keys, values, or key-value pairs using .keys(), .values(), or .items(), and can perform operations such as filtering, counting, or transforming the data during traversal.",
      "self_check": true
     }
    ]

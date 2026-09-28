@@ -34,6 +34,31 @@
      "q": "Design a choropleth map legend (with 5 classes) to depict the 2011 state-wise population density of India. Justify your class intervals using the data range (17 to 11,297 persons/km²) and explain how you would treat the outlier (Delhi) to avoid visual distortion.",
      "a": "A good legend might use: 0-100, 100-300, 300-600, 600-1000, >1000 persons/km², with Delhi shown as a separate symbol (e.g., hatch pattern) or inset map because its value (11,297) is an extreme outlier that would compress all other states into the lowest class if included in a continuous scale. A poor answer uses equal intervals (e.g., 0-2256, 2256-4512…) which would render the map uninformative, showing most states in the first class.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ density is the number of persons living per unit area (usually per square kilometre).",
+     "a": "Population",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine standing in a crowded Delhi Metro station versus a sparse village in ______ Pradesh — both are in India, yet the human pressure on land differs enormously.",
+     "a": "Arunachal",
+     "self_check": true
+    },
+    {
+     "q": "What is Population density? State the definition given in this lesson.",
+     "a": "Population density is the number of persons living per unit area (usually per square kilometre).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Population density?",
+     "a": "Students often equate \"high population density\" with \"high total population\" and think Uttar Pradesh (largest population) must have the highest density.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate arithmetic, physiological, and agricultural densities from given data, interpret spatial patterns of density across Indian states/UTs on a map, and explain the physical and socio-economic factors causing high density in the Northern Plains and low density in Himalayan and desert regions.",
+     "self_check": true
     }
    ]
   }

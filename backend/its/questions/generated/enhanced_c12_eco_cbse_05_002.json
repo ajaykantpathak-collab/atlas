@@ -34,6 +34,31 @@
      "q": "Construct a real-world scenario (Indian context) where a leftward shift in demand occurs for a good. Draw the initial and new equilibrium (describe the diagram in words), and explain the adjustment process step by step. Identify the demand shifter responsible.",
      "a": "**Scenario:** Electric two-wheelers in India after the FAME-II subsidy reduction in June 2024. The subsidy cut effectively raises the purchase price for consumers, reducing demand at every market price (leftward shift).  \n**Diagram description:** Initial demand D₁, supply S. Equilibrium E₁ at (P₁, Q₁). New demand D₂ left of D₁. New equilibrium E₂ at (P₂, Q₂) with P₂ < P₁, Q₂ < Q₁.  \n**Adjustment:** At P₁, quantity supplied exceeds quantity demanded (excess supply/surplus). Firms cut prices to clear inventory. As price falls, quantity demanded rises along D₂ (law of demand) and quantity supplied falls along S. Process stops at E₂.  \n**Shifter:** Change in government policy (subsidy reduction) — a non-price determinant of demand.  \nA poor answer omits the surplus at the old price, confuses the subsidy cut with a movement along the demand curve, or draws the shift in the wrong direction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A shift in demand refers to a change in the quantity demanded at every price level due to non-price factors (income, tastes, prices of related goods, ______, number of buyers).",
+     "a": "expectations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small tea stall near a ______ in Delhi.",
+     "a": "college",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Suddenly, the college hostel mess closes for repairs — ______ extra students now need breakfast.",
+     "a": "200",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) graphically illustrate and verbally explain the step-by-step adjustment process when demand shifts, (2) calculate new equilibrium price and quantity given linear demand and supply equations before and after a demand shift, and (3) predict the direction of change in equilibrium price and quantity for any given demand.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you run a small tea stall near a college in Delhi.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

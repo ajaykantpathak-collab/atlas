@@ -34,6 +34,31 @@
      "q": "Design a base-5 (quinary) number system for a fictional alien species with 5 fingers. Specify: (a) the digit symbols, (b) the base, (c) the positional weights for the first 4 positions, and (d) write the quinary representation of decimal 42.",
      "a": "(a) Digits: {0,1,2,3,4} (any 5 distinct symbols). (b) Base = 5. (c) Weights: 5⁰=1, 5¹=5, 5²=25, 5³=125. (d) 42₁₀ = 1×25 + 3×5 + 2×1 = 132₅. A poor answer (e.g., using digit 5, or wrong weights) shows inability to generalize the positional notation principle to an arbitrary base.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A number system is a ______ notation for representing numbers using a consistent set of symbols (digits) and a base (radix) that defines the positional value of each digit.",
+     "a": "mathematical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're sending a secret message using only two ______: a flash of light (1) and no light (0).",
+     "a": "symbols",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by recalling how our familiar decimal system uses powers of ______ (units, tens, hundreds).",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the base, valid digit set, and positional weight (powers of the base) for binary, octal, and hexadecimal systems, and explain why computers use binary while humans use hexadecimal/octal as shorthand.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you're sending a secret message using only two symbols: a flash of light (1) and no light (0).",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

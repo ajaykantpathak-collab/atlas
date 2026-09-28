@@ -34,6 +34,21 @@
      "q": "Create a real-world scenario (Indian context) where using the arithmetic mean would give a misleading picture, and explain which average would be better and why.",
      "a": "Scenario: A company advertises \"Average salary ₹50,000/month\" but has 9 employees earning ₹20,000 and 1 CEO earning ₹2,90,000. Mean = ₹50,000, but 90% earn far less. Median = ₹20,000 (or mode = ₹20,000) better represents the typical employee. A poor answer gives a scenario where mean works fine (e.g., temperatures) or picks the wrong alternative average, showing inability to recognise skewed distributions and match average to data shape.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An average (or measure of central tendency) is a single ______ value that summarises an entire data set by identifying the central position around which all observations tend to cluster, enabling meaningful comparison and analysis of large volumes of data.",
+     "a": "representative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a policy analyst ______ the economic condition of farmers in two villages.",
+     "a": "comparing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain why a single representative value is needed for a data set, distinguish between the three common averages (mean, median, mode) based on their definitions, and justify which average is appropriate for a given real-world situation (e.g., shoe sizes → mode, income distribution → median).",
+     "self_check": true
     }
    ]
   }

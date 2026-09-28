@@ -34,6 +34,31 @@
      "q": "Design a \"Lab Safety Passport\" checklist for a Class 9 physics student to complete before starting any experiment. It must have 5 categories with 2 specific checkpoints each, covering PPE, equipment, environment, procedure, and emergency. Write it as a table structure in plain text.",
      "a": "A good answer will be a structured table with columns: Category, Checkpoint 1, Checkpoint 2. Example rows:\nPPE | Safety goggles worn? (Y/N) | Closed-toe shoes? (Y/N)\nEquipment | All cords intact? (Y/N) | Apparatus clamped securely? (Y/N)\nEnvironment | Aisles clear? (Y/N) | Flammables away from heat? (Y/N)\nProcedure | SOP read & understood? (Y/N) | Circuit checked by teacher before power-on? (Y/N)\nEmergency | Fire extinguisher location known? (Y/N) | Eyewash/shower accessible? (Y/N)\nA poor answer lists generic items like \"be careful\" or misses categories, showing the student cannot translate safety principles into actionable, verifiable steps.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Laboratory safety is the systematic practice of identifying, assessing, and controlling hazards (chemical, electrical, thermal, mechanical, and biological) in a science laboratory to prevent injury, ______, or damage.",
+     "a": "contamination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are about to verify Ohm's law using a battery, ______, and ammeter in your school lab.",
+     "a": "rheostat",
+     "self_check": true
+    },
+    {
+     "q": "What is Laboratory safety? State the definition given in this lesson.",
+     "a": "Laboratory safety is the systematic practice of identifying, assessing, and controlling hazards (chemical, electrical, thermal, mechanical, and biological) in a science laboratory to prevent injury, contamination, or damage.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Laboratory safety?",
+     "a": "Students believe \"safety is mostly about wearing goggles and not running\" — they equate safety with passive rule-following rather than active hazard analysis.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently conduct a risk assessment for a given Class 9 physics experiment (e.g., verifying Ohm's law or studying heat transfer), select appropriate PPE, interpret GHS hazard pictograms on chemical bottles, locate and describe the use of safety equipment (eyewash, fire blanket, fume hood), and write a step-by-step.",
+     "self_check": true
     }
    ]
   }

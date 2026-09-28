@@ -1,117 +1,191 @@
 {
- "catalog": "catalog_class12_biotechnology_lebt105",
+ "catalog": "catalog_class12_biotechnology_lebt105.json",
  "concepts": [
   {
    "id": "lebt105.1",
    "title": "Genetic Mapping and the Centimorgan",
+   "converted_to_compute": true,
+   "formula": "rec_pct = recombinants * 100 / offspring_total",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rec_pct = recombinants * 100 / offspring_total",
+     "compute": "rec_pct = recombinants * 100 / offspring_total"
+    }
+   ],
    "questions": [
     {
-     "q": "Explain in your own words what 'Genetic Mapping and the Centimorgan' refers to.",
-     "a": "A genetic map orders loci by how often they recombine: crossover analysis of progeny phenotypes yields recombination frequencies, one percent of which defines one map unit, the centimorgan; because only well-known phenotypic loci can be tested, such maps stay coarse and call for the finer physical maps that follow.",
-     "self_check": true
+     "q": "For Genetic Mapping and the Centimorgan: given recombinants = 97, offspring_total = 87, find rec pct.",
+     "a": "111.494",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Genetic Mapping and the Centimorgan'.",
-     "a": "Recombinant offspring as a percent of the total prices the distance - each percent is one centimorgan.",
-     "self_check": true
+     "q": "For Genetic Mapping and the Centimorgan: given recombinants = 87, offspring_total = 38, find rec pct.",
+     "a": "228.947",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Genetic Mapping and the Centimorgan', in plain ASCII form.",
-     "a": "rec_pct = recombinants * 100 / offspring_total",
-     "self_check": true
+     "q": "For Genetic Mapping and the Centimorgan: given recombinants = 89, offspring_total = 119, find rec pct.",
+     "a": "74.7899",
+     "self_check": false
+    },
+    {
+     "q": "For Genetic Mapping and the Centimorgan: given recombinants = 56, offspring_total = 35, find rec pct.",
+     "a": "160",
+     "self_check": false
+    },
+    {
+     "q": "For Genetic Mapping and the Centimorgan: given recombinants = 86, offspring_total = 61, find rec pct.",
+     "a": "140.984",
+     "self_check": false
+    },
+    {
+     "q": "For Genetic Mapping and the Centimorgan: given recombinants = 96, offspring_total = 39, find rec pct.",
+     "a": "246.154",
+     "self_check": false
     }
    ]
   },
   {
    "id": "lebt105.2",
    "title": "Physical Mapping with RFLP and STS",
+   "converted_to_compute": true,
+   "formula": "linear_frags = cuts + 1",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "linear_frags = cuts + 1",
+     "compute": "linear_frags = cuts + 1"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Physical Mapping with RFLP and STS', work with: cuts = 75, cuts_open = 360, rest_cuts = 5. Carry the chain through step by step and give the final value of circular_frags.",
-     "a": "365 units",
+     "q": "For Physical Mapping with RFLP and STS: given cuts = 71, find linear frags.",
+     "a": "72",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Physical Mapping with RFLP and STS' and work with: cuts = 80, cuts_open = 20, rest_cuts = 8. Carry the chain through step by step and give the final value of circular_frags.",
-     "a": "28 units",
+     "q": "For Physical Mapping with RFLP and STS: given cuts = 52, find linear frags.",
+     "a": "53",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Physical Mapping with RFLP and STS' refers to.",
-     "a": "Physical maps anchor landmarks on real DNA: restriction sites whose cuts yield countable fragments (one cut in a circle gives one fragment, two cuts two; a linear molecule gives cuts plus one), length-variable microsatellite and minisatellite arrays read as SSLPs, and sequence tagged sites of 200-500 bp proven unique by PCR - Southern hybridisation taming the lakh of fragments a mammalian genome would otherwise shatter into.",
-     "self_check": true
+     "q": "For Physical Mapping with RFLP and STS: given cuts = 29, find linear frags.",
+     "a": "30",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Physical Mapping with RFLP and STS'.",
-     "a": "Each additional cut adds one linear fragment; circles only fragment from the first cut onward.",
-     "self_check": true
+     "q": "For Physical Mapping with RFLP and STS: given cuts = 53, find linear frags.",
+     "a": "54",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Physical Mapping with RFLP and STS', in plain ASCII form.",
-     "a": "linear_frags = cuts + 1",
-     "self_check": true
+     "q": "For Physical Mapping with RFLP and STS: given cuts = 67, find linear frags.",
+     "a": "68",
+     "self_check": false
+    },
+    {
+     "q": "For Physical Mapping with RFLP and STS: given cuts = 81, find linear frags.",
+     "a": "82",
+     "self_check": false
     }
    ]
   },
   {
    "id": "lebt105.3",
    "title": "First-Generation Sequencing by Capillary",
+   "converted_to_compute": true,
+   "formula": "machine_output = read_len * capillaries",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "machine_output = read_len * capillaries",
+     "compute": "machine_output = read_len * capillaries"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'First-Generation Sequencing by Capillary', work with: capillaries = 500, genome_bases = 120, read_len = 40. Carry the chain through step by step and give the final value of runs_needed.",
-     "a": "0.006 units",
+     "q": "For First-Generation Sequencing by Capillary: given read_len = 56, capillaries = 32, find machine output.",
+     "a": "1792",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'First-Generation Sequencing by Capillary' and work with: capillaries = 30, genome_bases = 30, read_len = 80. Carry the chain through step by step and give the final value of runs_needed.",
-     "a": "0.0125 units",
+     "q": "For First-Generation Sequencing by Capillary: given read_len = 81, capillaries = 30, find machine output.",
+     "a": "2430",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'First-Generation Sequencing by Capillary' refers to.",
-     "a": "First-generation sequencing builds clone-by-clone: pulse-field gels split chromosomes, BAC or YAC clones carry overlapping fragments, and chain-termination chemistry reads each plasmid subclone through a capillary that reports 800-1000 fluorescent bases per run - 96 capillaries working in parallel top out near 96,000 bases per machine per run, precise but slow and costly.",
-     "self_check": true
+     "q": "For First-Generation Sequencing by Capillary: given read_len = 24, capillaries = 100, find machine output.",
+     "a": "2400",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'First-Generation Sequencing by Capillary'.",
-     "a": "Multiply the per-capillary read by the capillary count to size one machine run, then divide the genome by it for the workload.",
-     "self_check": true
+     "q": "For First-Generation Sequencing by Capillary: given read_len = 78, capillaries = 18.4, find machine output.",
+     "a": "1435.2",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'First-Generation Sequencing by Capillary', in plain ASCII form.",
-     "a": "machine_output = read_len * capillaries",
-     "self_check": true
+     "q": "For First-Generation Sequencing by Capillary: given read_len = 21, capillaries = 82, find machine output.",
+     "a": "1722",
+     "self_check": false
+    },
+    {
+     "q": "For First-Generation Sequencing by Capillary: given read_len = 8.1, capillaries = 88, find machine output.",
+     "a": "712.8",
+     "self_check": false
     }
    ]
   },
   {
    "id": "lebt105.4",
    "title": "Nanopore and Illumina Sequencing Reads",
+   "converted_to_compute": true,
+   "formula": "length_fold = nanopore_len / illumina_len",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "length_fold = nanopore_len / illumina_len",
+     "compute": "length_fold = nanopore_len / illumina_len"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Nanopore and Illumina Sequencing Reads', work with: illumina_len = 60, nanopore_len = 360. Carry the chain through step by step and give the final value of gap_bases.",
-     "a": "300 units",
+     "q": "For Nanopore and Illumina Sequencing Reads: given nanopore_len = 63, illumina_len = 14, find length fold.",
+     "a": "4.5",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Nanopore and Illumina Sequencing Reads' and work with: illumina_len = 4, nanopore_len = 200. Carry the chain through step by step and give the final value of gap_bases.",
-     "a": "196 units",
+     "q": "For Nanopore and Illumina Sequencing Reads: given nanopore_len = 31, illumina_len = 14.6, find length fold.",
+     "a": "2.12329",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Nanopore and Illumina Sequencing Reads' refers to.",
-     "a": "Second-generation platforms such as Illumina amplify bridges on a flow cell and read fluorescent bases one at a time in millions of parallel reactions, but only 75-300 bases per read; third-generation nanopore sequencing instead threads a single strand through a porin pore with a helicase motor, translating each base's current disruption into sequence - real-time, field-deployable and reaching reads a megabase long.",
-     "self_check": true
+     "q": "For Nanopore and Illumina Sequencing Reads: given nanopore_len = 12.6, illumina_len = 55, find length fold.",
+     "a": "0.229091",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Nanopore and Illumina Sequencing Reads'.",
-     "a": "Divide the nanopore read length by the Illumina read length to price the long-read advantage.",
-     "self_check": true
+     "q": "For Nanopore and Illumina Sequencing Reads: given nanopore_len = 17.3, illumina_len = 69, find length fold.",
+     "a": "0.250725",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Nanopore and Illumina Sequencing Reads', in plain ASCII form.",
-     "a": "length_fold = nanopore_len / illumina_len",
-     "self_check": true
+     "q": "For Nanopore and Illumina Sequencing Reads: given nanopore_len = 82, illumina_len = 72, find length fold.",
+     "a": "1.13889",
+     "self_check": false
+    },
+    {
+     "q": "For Nanopore and Illumina Sequencing Reads: given nanopore_len = 51, illumina_len = 49, find length fold.",
+     "a": "1.04082",
+     "self_check": false
     }
    ]
   },

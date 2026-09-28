@@ -34,6 +34,31 @@
      "q": "Design a field transect protocol for a Class 11 project to verify the wet temperate to alpine transition on a south-facing slope in Uttarakhand. Specify: (a) altitude intervals, (b) three quantitative measurements per plot, (c) how to distinguish anthropogenic from natural treeline.",
      "a": "(a) Altitude intervals: 200 m bands from 1500 m to 3800 m (12 plots). (b) Per 10×10 m plot: (i) canopy cover % (densitometer), (ii) basal area of dominant species (DBH tape), (iii) soil temperature at 10 cm depth (thermoprobe). (c) Anthropogenic treeline indicators: abrupt boundary with cropland/grazing, coppiced stumps, absence of seedlings above line, charcoal in soil. Natural treeline: gradual density decline, krummholz formation, seedlings present but stunted, soil development continuous. A poor answer uses only species lists without quantitative structure or ignores human disturbance signatures.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Montane forests are vertically stratified forest ecosystems in mountainous regions where vegetation zones change ______ with altitude due to the decrease in temperature (normal lapse rate of 6.5°C per 1000 m) and corresponding shifts in precipitation, forming distinct belts: wet temperate broadleaf forests (1000–2000 m), temperate coniferous forests (1500–3000 m), sub-alpine forests (3000–4000 m), and alpine scrub/grasslands (above 4000 m).",
+     "a": "systematically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine ______ at Jammu (300 m) in May feeling 38°C heat, then driving up the Banihal Pass to Srinagar (1600 m) where it's 22°C, and continuing to Gulmarg (2700 m) where conifers dominate at 15°C – this 23°C drop over 2400 m is the normal lapse rate in action.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What is Montane forests? State the definition given in this lesson.",
+     "a": "Montane forests are vertically stratified forest ecosystems in mountainous regions where vegetation zones change systematically with altitude due to the decrease in temperature (normal lapse rate of 6.5°C per 1000 m) and corresponding shifts in precipitation, forming distinct belts: wet temperate broadleaf forests (1000–2000 m).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Montane forests?",
+     "a": "Students believe \"montane forest zones are fixed altitude belts (e.g., deodar always at 1500–2500 m)\" and apply these numbers rigidly across the entire Himalaya.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) calculate the expected temperature at any altitude using the normal lapse rate and identify the corresponding forest belt, (2) explain why western and eastern Himalayan montane zones differ at the same altitude using aspect, precipitation, and latitude, and (3) annotate a cross-section of the Himalayas with correct.",
+     "self_check": true
     }
    ]
   }

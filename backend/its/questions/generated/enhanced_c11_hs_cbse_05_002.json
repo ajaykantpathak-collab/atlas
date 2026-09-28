@@ -34,6 +34,36 @@
      "q": "Design a fabric specification (fibre, yarn, structure, finish) for a hospital bedsheet that must withstand: industrial laundering at 90°C with chlorine bleach, 200+ wash cycles, high abrasion from patient movement, and inhibit bacterial growth. Justify each choice.",
      "a": "Specification: Fibre — 100% high-tenacity polyester (or polyester/antimicrobial cotton blend); Yarn — high-twist (30 tpi) ring-spun 30s Ne for strength and low pilling; Structure — plain weave, 180 threads/inch² for maximum interlacement and abrasion resistance; Finish — durable antimicrobial (quaternary ammonium silane) + soil-release fluorocarbon + heat-set for dimensional stability. Polyester withstands 90°C and chlorine bleach (unlike cotton which degrades, nylon which yellows). High twist and plain weave maximise abrasion cycles. Antimicrobial finish survives industrial laundering. A poor answer choosing cotton ignores bleach/heat degradation; choosing nylon ignores chlorine sensitivity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Fabric behaviour in use and care refers to the collective response of a textile material to mechanical stress (wear, abrasion, stretching), chemical exposure (detergents, bleaches, ______), thermal conditions (washing temperature, ironing, drying), and biological agents (mildew, insects) during its service life, determined by the interplay of fibre properties, yarn structure, fabric construction, and applied finishes.",
+     "a": "perspiration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you buy a crisp cotton kurta and a soft ______ blend saree.",
+     "a": "polyester",
+     "self_check": true
+    },
+    {
+     "q": "What is Fabric behaviour in use and care? State the definition given in this lesson.",
+     "a": "Fabric behaviour in use and care refers to the collective response of a textile material to mechanical stress (wear, abrasion, stretching), chemical exposure (detergents, bleaches, perspiration), thermal conditions (washing temperature, ironing, drying), and biological agents (mildew, insects) during its service life, determined by the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight is that fabric behaviour is not just about fibre; a loosely woven cotton voile shrinks more than a tightly woven cotton denim even though both are ______% cotton.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Fabric behaviour in use and care?",
+     "a": "Students believe fabric behaviour is determined primarily by fibre content alone (e.g., \"cotton breathes, polyester doesn't\") and treat yarn, weave, and finish as secondary details.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to predict and justify how a given fabric will perform under specific use conditions (e.g., daily wear, frequent washing, high humidity) and care procedures (e.g., machine wash at 60°C, tumble dry, dry clean only) by analysing its fibre composition, yarn type, fabric structure, and finish, and must be able to.",
+     "self_check": true
     }
    ]
   }

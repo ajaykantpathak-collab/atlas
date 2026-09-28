@@ -34,6 +34,31 @@
      "q": "Design a cloud deployment strategy for a university that: (a) runs a public website with seasonal traffic (admission season), (b) hosts a research data repository with strict GDPR-like compliance, (c) provides a learning management system (LMS) for 50,000 students, and (d) wants to minimize total cost while meeting all constraints. Specify the service model and deployment model for each workload with justification.",
      "a": "(a) Public website → IaaS (or PaaS) on public cloud: seasonal spikes need rapid elasticity; public cloud pay-as-you-go avoids idle capacity cost. (b) Research repository → Private cloud (on-premises or dedicated hosted): data sovereignty and compliance require full control over encryption, access logs, and physical location. (c) LMS → SaaS (e.g., MoodleCloud, Canvas, Blackboard): standardized application, minimal customization, large user base—vendor handles scaling, updates, security patches. (d) Cost minimization: Use reserved instances/savings plans for steady LMS/research workloads; spot instances for batch research compute; auto-scaling groups for website. A poor answer (e.g., \"put everything in public cloud\") ignores compliance constraints; \"put everything on-premises\" ignores elasticity needs. This tests multi-workload architectural thinking—CBSE 5-mark case study pattern.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of ______ computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.",
+     "a": "configurable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school wants to launch a new online ______ portal.",
+     "a": "admission",
+     "self_check": true
+    },
+    {
+     "q": "What is Cloud computing? State the definition given in this lesson.",
+     "a": "Cloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Cloud computing?",
+     "a": "Students often believe \"cloud = virtualization\" or \"private cloud = on-premises virtualization.\" They equate running VMware vSphere on their own servers with having a private cloud.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Distinguish between the three service models (IaaS, PaaS, SaaS) by identifying what the user manages vs. what the provider manages in each, and (2) Select the appropriate deployment model (public, private, hybrid, community) for a given organizational scenario with justification based on security, cost.",
+     "self_check": true
     }
    ]
   }

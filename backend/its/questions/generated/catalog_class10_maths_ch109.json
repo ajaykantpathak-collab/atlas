@@ -4,15 +4,8 @@
   {
    "id": "jemh.9.1",
    "title": "Line of Sight and Horizontal Level",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "take the ratio of the relevant sides",
-     "explain": "take the ratio of the relevant sides: s = 20 / 29 gives 0.689655",
-     "compute": "s = 20 / 29"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a right triangle the sides adjacent to the right angle are 20 and 21, and the hypotenuse is 29. Find sin of the angle opposite the side 20. (give the fraction)",
@@ -49,15 +42,9 @@
   {
    "id": "jemh.9.2",
    "title": "Angle of Elevation",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "take the ratio of the relevant sides",
-     "explain": "take the ratio of the relevant sides: s = 10 / 26 gives 0.384615",
-     "compute": "s = 10 / 26"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "tan(theta) = opposite/adjacent = height/distance",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a right triangle the sides adjacent to the right angle are 10 and 24, and the hypotenuse is 26. Find sin of the angle opposite the side 10. (give the fraction)",
@@ -66,7 +53,7 @@
     },
     {
      "q": "For the same triangle (legs 10 and 24, hypotenuse 26), find cos of the angle opposite the side 24. (give the fraction)",
-     "a": "12/13",
+     "a": "0.384615",
      "self_check": false
     },
     {
@@ -94,15 +81,9 @@
   {
    "id": "jemh.9.3",
    "title": "Angle of Depression",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "take the ratio of the relevant sides",
-     "explain": "take the ratio of the relevant sides: s = 8 / 17 gives 0.470588",
-     "compute": "s = 8 / 17"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "tan(theta) = vertical_drop/horizontal_distance",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a right triangle the sides adjacent to the right angle are 8 and 15, and the hypotenuse is 17. Find sin of the angle opposite the side 8. (give the fraction)",
@@ -111,7 +92,7 @@
     },
     {
      "q": "For the same triangle (legs 8 and 15, hypotenuse 17), find cos of the angle opposite the side 15. (give the fraction)",
-     "a": "15/17",
+     "a": "0.470588",
      "self_check": false
     },
     {
@@ -139,15 +120,9 @@
   {
    "id": "jemh.9.4",
    "title": "Finding Height of an Object Using Angle of Elevation",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "take the ratio of the relevant sides",
-     "explain": "take the ratio of the relevant sides: s = 10 / 26 gives 0.384615",
-     "compute": "s = 10 / 26"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "height = distance * tan(angle of elevation)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a right triangle the sides adjacent to the right angle are 10 and 24, and the hypotenuse is 26. Find sin of the angle opposite the side 10. (give the fraction)",
@@ -156,7 +131,7 @@
     },
     {
      "q": "For the same triangle (legs 10 and 24, hypotenuse 26), find cos of the angle opposite the side 24. (give the fraction)",
-     "a": "12/13",
+     "a": "0.384615",
      "self_check": false
     },
     {
@@ -184,15 +159,9 @@
   {
    "id": "jemh.9.5",
    "title": "Finding Distance Between Two Objects",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 68 gives 22",
-     "compute": "other = 90 - 68"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "distance = height * (cot(alpha) - cot(beta)) or height / tan(angle)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 68 degrees, find the other.",
@@ -229,15 +198,9 @@
   {
    "id": "jemh.9.6",
    "title": "Word Problems on Heights and Distances",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "take the ratio of the relevant sides",
-     "explain": "take the ratio of the relevant sides: s = 12 / 20 gives 0.6",
-     "compute": "s = 12 / 20"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "height = distance * tan(theta); distance = height * cot(theta)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a right triangle the sides adjacent to the right angle are 12 and 16, and the hypotenuse is 20. Find sin of the angle opposite the side 12. (give the fraction)",
@@ -246,7 +209,7 @@
     },
     {
      "q": "For the same triangle (legs 12 and 16, hypotenuse 20), find cos of the angle opposite the side 16. (give the fraction)",
-     "a": "4/5",
+     "a": "0.6",
      "self_check": false
     },
     {
@@ -274,15 +237,9 @@
   {
    "id": "jemh.9.7",
    "title": "Using Trigonometric Ratios in Right Triangles to Solve Real-World Problems",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "take the ratio of the relevant sides",
-     "explain": "take the ratio of the relevant sides: s = 5 / 13 gives 0.384615",
-     "compute": "s = 5 / 13"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "sin = opposite/hypotenuse; cos = adjacent/hypotenuse; tan = opposite/adjacent",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a right triangle the sides adjacent to the right angle are 5 and 12, and the hypotenuse is 13. Find sin of the angle opposite the side 5. (give the fraction)",
@@ -291,7 +248,7 @@
     },
     {
      "q": "For the same triangle (legs 5 and 12, hypotenuse 13), find cos of the angle opposite the side 12. (give the fraction)",
-     "a": "12/13",
+     "a": "0.384615",
      "self_check": false
     },
     {
@@ -319,15 +276,9 @@
   {
    "id": "jemh.9.8",
    "title": "Problems Involving Two Right Triangles",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 78 gives 12",
-     "compute": "other = 90 - 78"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "height = d1 * tan(alpha) = d2 * tan(beta); d1 + d2 = total distance",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 78 degrees, find the other.",

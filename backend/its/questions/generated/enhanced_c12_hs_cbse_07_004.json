@@ -17,7 +17,7 @@
     },
     {
      "q": "A teratogen (e.g., alcohol) is consumed by a pregnant woman at two different times: (A) day 10 post-fertilisation, (B) week 20 of pregnancy. Compare the likely impact on the developing organism in each case, and explain *why* the difference occurs using the concept of critical periods.",
-     "a": "Correct answer: (A) Day 10 = germinal stage (pre-implantation or early implantation). Teratogens at this stage typically have an \"all-or-none\" effect: either the embryo is severely damaged and miscarries, or it recovers completely because cells are still totipotent and can compensate. (B) Week 20 = fetal stage. Organs are already formed; teratogens now affect *growth* and *functional maturation* (e.g., brain development, low birth weight) but rarely cause major structural malformations. The difference occurs because critical periods for *structural* organogenesis are concentrated in the embryonic stage (weeks 3–8). A wrong answer claiming equal risk at both times reveals the student does not understand that teratogen susceptibility is stage-specific, not uniform across pregnancy.",
+     "a": "Correct answer: (A) Day 10 = germinal stage (pre-implantation or early implantation). Teratogens at this stage typically have an \"all-or-N/A\" effect: either the embryo is severely damaged and miscarries, or it recovers completely because cells are still totipotent and can compensate. (B) Week 20 = fetal stage. Organs are already formed; teratogens now affect *growth* and *functional maturation* (e.g., brain development, low birth weight) but rarely cause major structural malformations. The difference occurs because critical periods for *structural* organogenesis are concentrated in the embryonic stage (weeks 3–8). A wrong answer claiming equal risk at both times reveals the student does not understand that teratogen susceptibility is stage-specific, not uniform across pregnancy.",
      "self_check": true
     },
     {
@@ -27,12 +27,42 @@
     },
     {
      "q": "Evaluate this claim: \"Since the germinal stage lasts only two weeks and the embryo isn't even implanted yet, teratogen exposure during this time doesn't matter — the woman isn't 'really pregnant'.\" Defend or refute using developmental biology principles.",
-     "a": "Correct answer: Refute. The germinal stage *does* matter, but differently. (1) Implantation (days 6–10) is a vulnerable window — teratogens can disrupt trophoblast invasion, causing early pregnancy loss. (2) The \"all-or-none\" principle: severe insults cause miscarriage (which *is* an adverse outcome), while mild insults may be repaired due to totipotency. (3) Epigenetic programming begins *before* implantation — environmental factors (nutrition, stress) can alter DNA methylation patterns affecting lifelong health (DOHaD hypothesis). Calling it \"not really pregnant\" is medically inaccurate: pregnancy is defined from fertilisation (or LMP), and the germinal stage establishes the placenta and embryonic disc. A wrong answer agreeing with the claim reveals the student equates \"pregnancy\" only with embryonic/fetal visibility, ignoring the foundational events of the first two weeks.",
+     "a": "Correct answer: Refute. The germinal stage *does* matter, but differently. (1) Implantation (days 6–10) is a vulnerable window — teratogens can disrupt trophoblast invasion, causing early pregnancy loss. (2) The \"all-or-N/A\" principle: severe insults cause miscarriage (which *is* an adverse outcome), while mild insults may be repaired due to totipotency. (3) Epigenetic programming begins *before* implantation — environmental factors (nutrition, stress) can alter DNA methylation patterns affecting lifelong health (DOHaD hypothesis). Calling it \"not really pregnant\" is medically inaccurate: pregnancy is defined from fertilisation (or LMP), and the germinal stage establishes the placenta and embryonic disc. A wrong answer agreeing with the claim reveals the student equates \"pregnancy\" only with embryonic/fetal visibility, ignoring the foundational events of the first two weeks.",
      "self_check": true
     },
     {
      "q": "Design a one-page \"Prenatal Development Alert Card\" for expectant parents that summarises: (a) the three stages with week ranges, (b) one key milestone per stage, (c) the *single most important* teratogen-avoidance message for each stage. Make it visually clear and actionable.",
      "a": "Expected answer: A card with three columns/rows. Germinal (0–2 wks): Milestone = implantation; Message = \"Avoid alcohol/smoking *before* you miss your period — implantation is happening now.\" Embryonic (3–8 wks): Milestone = organogenesis (heart, brain, limbs form); Message = \"This is the *most critical window* — no alcohol, no unprescribed meds, avoid infections (rubella, CMV), take folic acid *before* conception.\" Fetal (9 wks–birth): Milestone = viability (~24 wks) and brain growth; Message = \"Avoid alcohol (FASD risk continues), monitor nutrition, manage stress — brain wiring happens now.\" A poor answer would lump all messages together (\"avoid everything all the time\") or miss the stage-specific nuance (e.g., putting folic acid in fetal stage). The card must show *why* timing changes the message.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Prenatal development is the sequential process of growth and ______ from fertilisation (conception) to birth, divided into three distinct stages: germinal (0–2 weeks), embryonic (3–8 weeks), and fetal (9 weeks to birth), each marked by specific structural and functional milestones.",
+     "a": "differentiation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a couple who just learned they are pregnant at 4 weeks — they want to know what is ______ inside the womb *right now* and what they should avoid.",
+     "a": "happening",
+     "self_check": true
+    },
+    {
+     "q": "What is Prenatal development? State the definition given in this lesson.",
+     "a": "Prenatal development is the sequential process of growth and differentiation from fertilisation (conception) to birth, divided into three distinct stages: germinal (0–2 weeks), embryonic (3–8 weeks), and fetal (9 weeks to birth), each marked by specific structural and functional milestones.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a couple who just learned they are pregnant at ______ weeks — they want to know what is happening inside the womb *right now* and what they should avoid.",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Prenatal development?",
+     "a": "Students often believe: \"The embryonic stage and fetal stage are the same thing — just different names for 'baby growing'.\" They write \"embryo\" and \"fetus\" interchangeably in answers.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) name the three prenatal stages with their exact week ranges, (2) identify at least two hallmark events per stage (e.g., implantation in germinal, organogenesis in embryonic, viability in fetal), and (3) explain why the embryonic stage is the most critical period for teratogen susceptibility.",
      "self_check": true
     }
    ]

@@ -34,6 +34,26 @@
      "q": "Write a 4-line dialogue snippet where Lomov and Natalya argue about a modern equivalent (e.g., smartphones, bikes) that mirrors the structure: fact → opinion → insult. Keep their voices recognizable.",
      "a": "Lomov: My iPhone 15 cost 80,000 — A16 chip, 48MP camera.  \nNatalya: My Pixel 8 was 60,000 and takes better low-light shots — your photos are oversaturated.  \nLomov: Oversaturated? Your screen has a green tint — you're blind to colour accuracy.  \nNatalya: And you're a tech snob who thinks price equals quality — typical Lomov logic.  \nA poor answer uses generic insults (\"you're stupid\") without preserving the fact-opinion-insult progression or character voices.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The second argument in *The Proposal* is a comic quarrel between Lomov and Natalya over the ______ of their respective hunting dogs — Lomov's \"Guess\" and Natalya's \"Squeezer\" — which escalates from a casual comparison into a vicious personal attack, revealing how trivial ego-driven disputes derail the marriage proposal.",
+     "a": "superiority",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're watching two neighbours argue over whose phone has a ______ camera — they start with megapixels, end up insulting each other's grandparents, and forget they were supposed to discuss a wedding.",
+     "a": "better",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can trace the argument's progression from technical comparison to personal insult, identify the dramatic irony that the proposal is forgotten, and explain how Chekhov uses the dog dispute to satirize the landed gentry's misplaced pride and pettiness.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're watching two neighbours argue over whose phone has a better camera — they start with megapixels, end up insulting each other's ______, and forget they were supposed to discuss a wedding.",
+     "a": "grandparents",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a simple classroom activity using colored water (red and blue) and a two-chambered pump model to demonstrate double circulation. List the materials, steps, and what each color represents.",
      "a": "Materials: Two squeeze bottles (representing right and left ventricles), tubing, red and blue food coloring, two containers labeled \"Lungs\" and \"Body\". Steps: 1) Fill right bottle with blue water (deoxygenated), left with red (oxygenated). 2) Squeeze right bottle → blue water goes to \"Lungs\" container → turn red (oxygenation). 3) Transfer red water to left bottle. 4) Squeeze left bottle → red water goes to \"Body\" container → turn blue (deoxygenation). 5) Return blue water to right bottle. Colors represent oxygenation state. A poor answer (e.g., single loop, no color change) shows the student cannot translate the concept of two serial circuits into a physical model.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The human heart is a four-chambered muscular organ (two atria and two ventricles) that pumps ______ blood to the lungs for oxygenation (pulmonary circulation) and oxygenated blood to the rest of the body (systemic circulation), constituting double circulation where blood passes through the heart twice in one complete cycle.",
+     "a": "deoxygenated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Place your fingers on your wrist or neck and feel your pulse — that ______ throb is your heart pumping blood.",
+     "a": "rhythmic",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly label all four chambers, major blood vessels (vena cava, pulmonary artery, pulmonary vein, aorta), and valves (tricuspid, bicuspid, pulmonary, aortic) on a diagram of the human heart, and can trace the stepwise path of a red blood cell through both pulmonary and systemic circuits explaining the oxygenation state.",
+     "self_check": true
     }
    ]
   }

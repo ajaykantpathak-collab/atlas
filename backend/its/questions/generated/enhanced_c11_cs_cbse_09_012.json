@@ -34,6 +34,21 @@
      "q": "Design a single Python function `file_stats(filename)` that returns a tuple `(line_count, word_count, char_count)` for a text file, handling all whitespace variations and empty files correctly. Write the complete function with docstring.",
      "a": "```python\ndef file_stats(filename):\n    \"\"\"Return (lines, words, chars) for text file. Handles empty files and all whitespace.\"\"\"\n    lines = words = chars = 0\n    try:\n        with open(filename, 'r') as f:\n            for line in f:\n                lines += 1\n                chars += len(line)\n                words += len(line.split())\n    except FileNotFoundError:\n        raise  # Re-raise for caller to handle\n    return (lines, words, chars)\n```\nA poor answer using `read().splitlines()` for line count fails on files ending without newline (last line not counted). Using `read().split()` for words loads entire file in memory. Not using `with` shows poor resource management. Missing `try-except` ignores exception handling prerequisite.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Practical file ______ involve applying file handling techniques to perform real-world tasks: copying duplicates content from a source file to a destination file, merging combines contents of multiple source files into a single destination file, and word counting calculates the total number of words in a text file by splitting content on whitespace delimiters.",
+     "a": "operations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have three chapter-wise notes files (ch1.txt, ch2.txt, ch3.txt) and need to create a single ______ study guide full_notes.txt for exam prep, while also wanting a backup copy of each original and a word count to estimate reading time.",
+     "a": "combined",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write complete Python programs that: (1) copy a text file preserving exact content and newlines, (2) merge two or more text files into one with appropriate separators, and (3) count words in a file handling edge cases like multiple spaces, tabs, and empty lines, using with statements and proper exception handling.",
+     "self_check": true
     }
    ]
   }

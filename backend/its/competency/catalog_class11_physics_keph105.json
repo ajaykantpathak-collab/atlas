@@ -1,421 +1,466 @@
 {
-  "class": 11,
-  "subject": "physics",
-  "chapter": 105,
-  "chapter_title": "Work, Energy and Power",
-  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keph105.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "concepts": [
+ "class": 11,
+ "subject": "physics",
+ "chapter": 105,
+ "chapter_title": "Work, Energy and Power",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keph105.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "keph105.5.3.1",
+   "title": "Work Done by a Constant Force",
+   "section": "5.3",
+   "definition": "In physics, work is done only when a force manages a displacement: it is the product of the force component along the motion with the distance moved. Pushing perpendicular to the motion does zero work, and negative work appears when force opposes the displacement, as with braking friction.",
+   "formula": "work = force * displacement",
+   "key_idea": "Force without movement earns nothing -- work is force times displacement along the force's line.",
+   "textbook_ref": "keph105.txt lines 60-160 (sections 5.2 notions of work, 5.3 work and kinetic energy, definition with dot product, positive negative zero work)",
+   "question_patterns": [
+    "find the work done by the given force over the given displacement",
+    "in class 11 work energy and power: when is the work done by a force zero",
+    "calculate the work done against friction over the given distance",
+    "why is work negative when the force opposes motion",
+    "a load is lifted steadily, compute the work done by the lifting force",
+    "a person holds a heavy bag without moving, how much work is done"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "keph105.5.3.1",
-      "title": "Work Done by a Constant Force",
-      "section": "5.3",
-      "definition": "In physics, work is done only when a force manages a displacement: it is the product of the force component along the motion with the distance moved. Pushing perpendicular to the motion does zero work, and negative work appears when force opposes the displacement, as with braking friction.",
-      "formula": "work = force * displacement",
-      "key_idea": "Force without movement earns nothing -- work is force times displacement along the force's line.",
-      "textbook_ref": "keph105.txt lines 60-160 (sections 5.2 notions of work, 5.3 work and kinetic energy, definition with dot product, positive negative zero work)",
-      "question_patterns": [
-        "find the work done by the given force over the given displacement",
-        "in class 11 work energy and power: when is the work done by a force zero",
-        "calculate the work done against friction over the given distance",
-        "why is work negative when the force opposes motion",
-        "a load is lifted steadily, compute the work done by the lifting force",
-        "a person holds a heavy bag without moving, how much work is done"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "multiply force by displacement",
-          "explain": "Taking the push along the motion, force times displacement gives the work in joules.",
-          "compute": "work = force * displacement"
-        }
-      ]
-    },
-    {
-      "id": "keph105.5.4.1",
-      "title": "Kinetic Energy and the Work-Energy Theorem",
-      "section": "5.4, 5.6",
-      "definition": "A moving body stores the ability to do work as kinetic energy, half its mass times speed squared. The work-energy theorem states that the net work done on a body equals the change in its kinetic energy -- speed up and work was positive, slow down and it was negative.",
-      "formula": "kinetic_energy = 0.5 * mass * speed ** 2",
-      "key_idea": "Net work is the currency that buys (or drains) kinetic energy -- the theorem connects force sums to speed changes.",
-      "textbook_ref": "keph105.txt lines 161-260 (sections 5.4 kinetic energy, 5.6 work-energy theorem, derivation from the second law)",
-      "question_patterns": [
-        "find the kinetic energy of the body with the given mass and speed",
-        "in class 11 work energy and power: state the work-energy theorem",
-        "how much net work is needed to change the speed from one value to another",
-        "double the speed and what happens to the kinetic energy",
-        "compute the work done by the net force from the speed change",
-        "derive kinetic energy from the equations of motion"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "square the speed",
-          "explain": "Kinetic energy grows with the square of the speed.",
-          "compute": "speed_sq = speed ** 2"
-        },
-        {
-          "step": 2,
-          "action": "halve the mass times the square",
-          "explain": "Multiplying by half the mass finishes the kinetic energy.",
-          "compute": "kinetic_energy = 0.5 * mass * speed_sq"
-        }
-      ]
-    },
-    {
-      "id": "keph105.5.7.1",
-      "title": "Potential Energy and Conservation of Mechanical Energy",
-      "section": "5.7, 5.8",
-      "definition": "Position can store energy too: lifting a body of mass m through height h banks m g h of gravitational potential energy. In the absence of friction, kinetic plus potential energy stays constant -- energy shuttles between the two forms but the mechanical total never dips, which is the conservation of mechanical energy.",
-      "formula": "potential_energy = mass * gravity * height",
-      "key_idea": "Height is a battery -- charge it by lifting, discharge it by falling, and the total stays balanced when friction is absent.",
-      "textbook_ref": "keph105.txt lines 261-380 (sections 5.7 concept of potential energy, 5.8 conservation of mechanical energy, spring PE idea, falling body example)",
-      "question_patterns": [
-        "find the potential energy of the body at the given height",
-        "in class 11 work energy and power: state the law of conservation of mechanical energy",
-        "a body falls from a given height, what speed does it gain",
-        "why is potential energy defined only for conservative forces",
-        "compute the speed at the bottom of a frictionless slide from energy conservation",
-        "compare the energy at the top and bottom of the flight"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "multiply mass gravity and height",
-          "explain": "The weight mg carried through the height h stores m g h of potential energy.",
-          "compute": "potential_energy = mass * gravity * height"
-        }
-      ]
-    },
-    {
-      "id": "keph105.5.9.1",
-      "title": "Speed from Energy Conservation in Free Fall",
-      "section": "5.8",
-      "definition": "Equating the potential energy lost in a drop to the kinetic energy gained gives the landing speed directly: the square root of twice gravity times the drop height. The mass cancels -- every body released from the same height lands equally fast when air resistance is ignored.",
-      "formula": "landing_speed = sqrt(2 * gravity * drop_height)",
-      "key_idea": "Potential turns into kinetic one-to-one -- cancel the mass and solve for speed in one line.",
-      "textbook_ref": "keph105.txt lines 300-380 (section 5.8 conservation example, object released from height, equating mgh to half m v squared)",
-      "question_patterns": [
-        "find the speed of a body dropped from the given height",
-        "in class 11 work energy and power: use energy conservation to compute landing speed",
-        "why does the mass cancel in the free fall speed formula",
-        "from what height must a body fall to land at the given speed",
-        "compare the landing speeds of a heavy and a light body from the same height",
-        "how much kinetic energy does the falling body have just before landing"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "double gravity times height",
-          "explain": "The product 2 g h equals the square of the landing speed.",
-          "compute": "v_sq = 2 * gravity * drop_height"
-        },
-        {
-          "step": 2,
-          "action": "take the square root",
-          "explain": "The root of v squared is the landing speed.",
-          "compute": "landing_speed = sqrt(v_sq)"
-        }
-      ]
-    },
-    {
-      "id": "keph105.5.10.1",
-      "title": "Power and its Units",
-      "section": "5.10",
-      "definition": "Power measures the speed of energy transfer: work done divided by the time it took, in watts. Machines are rated by power because the same job done twice as fast needs twice the power; the kilowatt-hour is the commercial energy unit that follows from one kilowatt running for an hour.",
-      "formula": "power = work_done / time_taken",
-      "key_idea": "Same work, less time, more power -- the watt is one joule per second.",
-      "textbook_ref": "keph105.txt lines 381-440 (section 5.10 power, average and instantaneous power, watt and kilowatt-hour units)",
-      "question_patterns": [
-        "find the power of the engine that does the given work in the given time",
-        "in class 11 work energy and power: define watt and kilowatt hour",
-        "calculate how long a motor of given power takes for the given energy",
-        "distinguish average power from instantaneous power",
-        "the work and time are given, compute the rate of doing work",
-        "convert the machine rating from horsepower to watts"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "divide work by time",
-          "explain": "Energy delivered per second is the average power.",
-          "compute": "power = work_done / time_taken"
-        }
-      ]
-    },
-    {
-      "id": "keph105.5.11.1",
-      "title": "Collisions: Elastic and Inelastic",
-      "section": "5.11",
-      "definition": "In every collision the total momentum of the colliding bodies survives, but kinetic energy survives only in elastic collisions. An inelastic collision loses kinetic energy to deformation, heat and sound; when the bodies stick together afterwards the collision is perfectly inelastic.",
-      "formula": "",
-      "key_idea": "Momentum is always conserved in collisions; kinetic energy is conserved only when the collision is elastic.",
-      "textbook_ref": "keph105.txt lines 441-540 (section 5.11 collisions in one dimension, elastic and inelastic cases, energy loss, coefficient of restitution idea)",
-      "question_patterns": [
-        "distinguish elastic and inelastic collisions",
-        "in class 11 work energy and power: is momentum conserved in an inelastic collision",
-        "two bodies stick together after impact, identify the collision type",
-        "find the final velocities for an elastic one dimensional collision",
-        "how much kinetic energy is lost in the given collision",
-        "why do safety crumple zones rely on inelastic collisions"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "check the momentum ledger",
-          "explain": "Add the momenta before and after; the totals must match in every collision."
-        },
-        {
-          "step": 2,
-          "action": "audit the kinetic energy",
-          "explain": "Repeat the audit for kinetic energy: a shortfall marks the collision as inelastic."
-        },
-        {
-          "step": 3,
-          "action": "apply the special cases",
-          "explain": "Elastic one dimensional collisions swap or share velocities by the mass ratio; sticking bodies share one final velocity found from momentum conservation."
-        }
-      ]
+     "step": 1,
+     "action": "multiply force by displacement",
+     "explain": "Taking the push along the motion, force times displacement gives the work in joules.",
+     "compute": "work = force * displacement"
     }
-  ],
-  "worked_examples": [
+   ],
+   "compute_steps": [
     {
-      "id": "we1",
-      "source_ref": "keph105.txt lines 60-160 (work by a constant force)",
-      "concept": "keph105.5.3.1",
-      "question_type": "compute",
-      "question_pattern": "A force of {force} N moves a box {displacement} m along its line of action; find the work done.",
-      "extracted_variables": {
-        "force": 10,
-        "displacement": 5
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "multiply force by displacement",
-          "explain": "work = 10 * 5 = 50 J.",
-          "compute": "work = force * displacement"
-        }
-      ]
-    },
-    {
-      "id": "we2",
-      "source_ref": "keph105.txt lines 60-160 (work by a constant force)",
-      "concept": "keph105.5.3.1",
-      "question_type": "compute",
-      "question_pattern": "A pull of {force} N drags a sled {displacement} m; compute the work done by the pull.",
-      "extracted_variables": {
-        "force": 25,
-        "displacement": 2
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "multiply force by displacement",
-          "explain": "work = 25 * 2 = 50 J.",
-          "compute": "work = force * displacement"
-        }
-      ]
-    },
-    {
-      "id": "we3",
-      "source_ref": "keph105.txt lines 161-260 (kinetic energy)",
-      "concept": "keph105.5.4.1",
-      "question_type": "compute",
-      "question_pattern": "Find the kinetic energy of a {mass} kg body moving at {speed} m/s.",
-      "extracted_variables": {
-        "mass": 10,
-        "speed": 5
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "square the speed",
-          "explain": "speed_sq = 25.",
-          "compute": "speed_sq = speed ** 2"
-        },
-        {
-          "step": 2,
-          "action": "halve the mass times the square",
-          "explain": "kinetic_energy = 0.5 * 10 * 25 = 125 J.",
-          "compute": "kinetic_energy = 0.5 * mass * speed_sq"
-        }
-      ]
-    },
-    {
-      "id": "we4",
-      "source_ref": "keph105.txt lines 161-260 (kinetic energy)",
-      "concept": "keph105.5.4.1",
-      "question_type": "compute",
-      "question_pattern": "A {mass} kg ball rolls at {speed} m/s; compute its kinetic energy.",
-      "extracted_variables": {
-        "mass": 2,
-        "speed": 3
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "square the speed",
-          "explain": "speed_sq = 9.",
-          "compute": "speed_sq = speed ** 2"
-        },
-        {
-          "step": 2,
-          "action": "halve the mass times the square",
-          "explain": "kinetic_energy = 0.5 * 2 * 9 = 9 J.",
-          "compute": "kinetic_energy = 0.5 * mass * speed_sq"
-        }
-      ]
-    },
-    {
-      "id": "we5",
-      "source_ref": "keph105.txt lines 261-380 (potential energy)",
-      "concept": "keph105.5.7.1",
-      "question_type": "compute",
-      "question_pattern": "A {mass} kg object sits {height} m above the ground (g = {gravity}); find its potential energy.",
-      "extracted_variables": {
-        "mass": 5,
-        "gravity": 9.8,
-        "height": 4
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "multiply mass gravity and height",
-          "explain": "potential_energy = 5 * 9.8 * 4 = 196 J.",
-          "compute": "potential_energy = mass * gravity * height"
-        }
-      ]
-    },
-    {
-      "id": "we6",
-      "source_ref": "keph105.txt lines 300-380 (speed from conservation)",
-      "concept": "keph105.5.9.1",
-      "question_type": "compute",
-      "question_pattern": "A body is released from {drop_height} m (g = {gravity}); find its landing speed.",
-      "extracted_variables": {
-        "gravity": 9.8,
-        "drop_height": 5
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "double gravity times height",
-          "explain": "v_sq = 2 * 9.8 * 5 = 98.",
-          "compute": "v_sq = 2 * gravity * drop_height"
-        },
-        {
-          "step": 2,
-          "action": "take the square root",
-          "explain": "landing_speed = sqrt(98), about 9.9 m/s.",
-          "compute": "landing_speed = sqrt(v_sq)"
-        }
-      ]
-    },
-    {
-      "id": "we7",
-      "source_ref": "keph105.txt lines 300-380 (speed from conservation)",
-      "concept": "keph105.5.9.1",
-      "question_type": "compute",
-      "question_pattern": "Falling through {drop_height} m with g = {gravity}, what speed does the body reach?",
-      "extracted_variables": {
-        "gravity": 10,
-        "drop_height": 20
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "double gravity times height",
-          "explain": "v_sq = 2 * 10 * 20 = 400.",
-          "compute": "v_sq = 2 * gravity * drop_height"
-        },
-        {
-          "step": 2,
-          "action": "take the square root",
-          "explain": "landing_speed = sqrt(400) = 20 m/s.",
-          "compute": "landing_speed = sqrt(v_sq)"
-        }
-      ]
-    },
-    {
-      "id": "we8",
-      "source_ref": "keph105.txt lines 381-440 (power)",
-      "concept": "keph105.5.10.1",
-      "question_type": "compute",
-      "question_pattern": "An engine does {work_done} J of work in {time_taken} s; find its power.",
-      "extracted_variables": {
-        "work_done": 100,
-        "time_taken": 5
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "divide work by time",
-          "explain": "power = 100 / 5 = 20 W.",
-          "compute": "power = work_done / time_taken"
-        }
-      ]
-    },
-    {
-      "id": "we9",
-      "source_ref": "keph105.txt lines 261-380 (potential energy)",
-      "concept": "keph105.5.7.1",
-      "question_type": "compute",
-      "question_pattern": "A {mass} kg stone is raised {height} m (g = {gravity}); compute the potential energy gained.",
-      "extracted_variables": {
-        "mass": 2,
-        "gravity": 10,
-        "height": 15
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "multiply mass gravity and height",
-          "explain": "potential_energy = 2 * 10 * 15 = 300 J.",
-          "compute": "potential_energy = mass * gravity * height"
-        }
-      ]
-    },
-    {
-      "id": "we10",
-      "source_ref": "keph105.txt lines 381-440 (power)",
-      "concept": "keph105.5.10.1",
-      "question_type": "compute",
-      "question_pattern": "A motor does {work_done} J of work in {time_taken} s; compute its power rating.",
-      "extracted_variables": {
-        "work_done": 600,
-        "time_taken": 12
-      },
-      "solution_template": [
-        {
-          "step": 1,
-          "action": "divide work by time",
-          "explain": "power = 600 / 12 = 50 W.",
-          "compute": "power = work_done / time_taken"
-        }
-      ]
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "work = force * displacement",
+     "compute": "work = force * displacement"
     }
-  ],
-  "exercises": [
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "keph105.5.4.1",
+   "title": "Kinetic Energy and the Work-Energy Theorem",
+   "section": "5.4, 5.6",
+   "definition": "A moving body stores the ability to do work as kinetic energy, half its mass times speed squared. The work-energy theorem states that the net work done on a body equals the change in its kinetic energy -- speed up and work was positive, slow down and it was negative.",
+   "formula": "kinetic_energy = 0.5 * mass * speed ** 2",
+   "key_idea": "Net work is the currency that buys (or drains) kinetic energy -- the theorem connects force sums to speed changes.",
+   "textbook_ref": "keph105.txt lines 161-260 (sections 5.4 kinetic energy, 5.6 work-energy theorem, derivation from the second law)",
+   "question_patterns": [
+    "find the kinetic energy of the body with the given mass and speed",
+    "in class 11 work energy and power: state the work-energy theorem",
+    "how much net work is needed to change the speed from one value to another",
+    "double the speed and what happens to the kinetic energy",
+    "compute the work done by the net force from the speed change",
+    "derive kinetic energy from the equations of motion"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "ex1",
-      "source_ref": "keph105.txt end-of-chapter exercises, reworded",
-      "questions": [
-        "The sign of work done by a force is determined by which factor? Illustrate with cases.",
-        "A force acts at an angle to the displacement; find the work using the cosine factor.",
-        "State the conditions under which the work-energy theorem applies.",
-        "A pump delivers water of given mass per second to a given height; find its power.",
-        "A family uses a given number of kilowatt hours; find the energy in joules.",
-        "An elevator of given mass rises at constant speed; find the work done by the cable in the given time.",
-        "Two balls collide head on with given masses and speeds; classify the collision and find the final velocities.",
-        "A bob of a pendulum is released from a given angle; find its speed at the lowest point."
-      ]
+     "step": 1,
+     "action": "square the speed",
+     "explain": "Kinetic energy grows with the square of the speed.",
+     "compute": "speed_sq = speed ** 2"
+    },
+    {
+     "step": 2,
+     "action": "halve the mass times the square",
+     "explain": "Multiplying by half the mass finishes the kinetic energy.",
+     "compute": "kinetic_energy = 0.5 * mass * speed_sq"
     }
-  ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "kinetic_energy = 0.5 * mass * speed ** 2",
+     "compute": "kinetic_energy = 0.5 * mass * speed ** 2"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "keph105.5.7.1",
+   "title": "Potential Energy and Conservation of Mechanical Energy",
+   "section": "5.7, 5.8",
+   "definition": "Position can store energy too: lifting a body of mass m through height h banks m g h of gravitational potential energy. In the absence of friction, kinetic plus potential energy stays constant -- energy shuttles between the two forms but the mechanical total never dips, which is the conservation of mechanical energy.",
+   "formula": "potential_energy = mass * gravity * height",
+   "key_idea": "Height is a battery -- charge it by lifting, discharge it by falling, and the total stays balanced when friction is absent.",
+   "textbook_ref": "keph105.txt lines 261-380 (sections 5.7 concept of potential energy, 5.8 conservation of mechanical energy, spring PE idea, falling body example)",
+   "question_patterns": [
+    "find the potential energy of the body at the given height",
+    "in class 11 work energy and power: state the law of conservation of mechanical energy",
+    "a body falls from a given height, what speed does it gain",
+    "why is potential energy defined only for conservative forces",
+    "compute the speed at the bottom of a frictionless slide from energy conservation",
+    "compare the energy at the top and bottom of the flight"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply mass gravity and height",
+     "explain": "The weight mg carried through the height h stores m g h of potential energy.",
+     "compute": "potential_energy = mass * gravity * height"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "potential_energy = mass * gravity * height",
+     "compute": "potential_energy = mass * gravity * height"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "keph105.5.9.1",
+   "title": "Speed from Energy Conservation in Free Fall",
+   "section": "5.8",
+   "definition": "Equating the potential energy lost in a drop to the kinetic energy gained gives the landing speed directly: the square root of twice gravity times the drop height. The mass cancels -- every body released from the same height lands equally fast when air resistance is ignored.",
+   "formula": "landing_speed = sqrt(2 * gravity * drop_height)",
+   "key_idea": "Potential turns into kinetic one-to-one -- cancel the mass and solve for speed in one line.",
+   "textbook_ref": "keph105.txt lines 300-380 (section 5.8 conservation example, object released from height, equating mgh to half m v squared)",
+   "question_patterns": [
+    "find the speed of a body dropped from the given height",
+    "in class 11 work energy and power: use energy conservation to compute landing speed",
+    "why does the mass cancel in the free fall speed formula",
+    "from what height must a body fall to land at the given speed",
+    "compare the landing speeds of a heavy and a light body from the same height",
+    "how much kinetic energy does the falling body have just before landing"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "double gravity times height",
+     "explain": "The product 2 g h equals the square of the landing speed.",
+     "compute": "v_sq = 2 * gravity * drop_height"
+    },
+    {
+     "step": 2,
+     "action": "take the square root",
+     "explain": "The root of v squared is the landing speed.",
+     "compute": "landing_speed = sqrt(v_sq)"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "landing_speed = sqrt(2 * gravity * drop_height)",
+     "compute": "landing_speed = sqrt(2 * gravity * drop_height)"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "keph105.5.10.1",
+   "title": "Power and its Units",
+   "section": "5.10",
+   "definition": "Power measures the speed of energy transfer: work done divided by the time it took, in watts. Machines are rated by power because the same job done twice as fast needs twice the power; the kilowatt-hour is the commercial energy unit that follows from one kilowatt running for an hour.",
+   "formula": "power = work_done / time_taken",
+   "key_idea": "Same work, less time, more power -- the watt is one joule per second.",
+   "textbook_ref": "keph105.txt lines 381-440 (section 5.10 power, average and instantaneous power, watt and kilowatt-hour units)",
+   "question_patterns": [
+    "find the power of the engine that does the given work in the given time",
+    "in class 11 work energy and power: define watt and kilowatt hour",
+    "calculate how long a motor of given power takes for the given energy",
+    "distinguish average power from instantaneous power",
+    "the work and time are given, compute the rate of doing work",
+    "convert the machine rating from horsepower to watts"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "divide work by time",
+     "explain": "Energy delivered per second is the average power.",
+     "compute": "power = work_done / time_taken"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "power = work_done / time_taken",
+     "compute": "power = work_done / time_taken"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "keph105.5.11.1",
+   "title": "Collisions: Elastic and Inelastic",
+   "section": "5.11",
+   "definition": "In every collision the total momentum of the colliding bodies survives, but kinetic energy survives only in elastic collisions. An inelastic collision loses kinetic energy to deformation, heat and sound; when the bodies stick together afterwards the collision is perfectly inelastic.",
+   "formula": "",
+   "key_idea": "Momentum is always conserved in collisions; kinetic energy is conserved only when the collision is elastic.",
+   "textbook_ref": "keph105.txt lines 441-540 (section 5.11 collisions in one dimension, elastic and inelastic cases, energy loss, coefficient of restitution idea)",
+   "question_patterns": [
+    "distinguish elastic and inelastic collisions",
+    "in class 11 work energy and power: is momentum conserved in an inelastic collision",
+    "two bodies stick together after impact, identify the collision type",
+    "find the final velocities for an elastic one dimensional collision",
+    "how much kinetic energy is lost in the given collision",
+    "why do safety crumple zones rely on inelastic collisions"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "check the momentum ledger",
+     "explain": "Add the momenta before and after; the totals must match in every collision."
+    },
+    {
+     "step": 2,
+     "action": "audit the kinetic energy",
+     "explain": "Repeat the audit for kinetic energy: a shortfall marks the collision as inelastic."
+    },
+    {
+     "step": 3,
+     "action": "apply the special cases",
+     "explain": "Elastic one dimensional collisions swap or share velocities by the mass ratio; sticking bodies share one final velocity found from momentum conservation."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "keph105.txt lines 60-160 (work by a constant force)",
+   "concept": "keph105.5.3.1",
+   "question_type": "compute",
+   "question_pattern": "A force of {force} N moves a box {displacement} m along its line of action; find the work done.",
+   "extracted_variables": {
+    "force": 10,
+    "displacement": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply force by displacement",
+     "explain": "work = 10 * 5 = 50 J.",
+     "compute": "work = force * displacement"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "keph105.txt lines 60-160 (work by a constant force)",
+   "concept": "keph105.5.3.1",
+   "question_type": "compute",
+   "question_pattern": "A pull of {force} N drags a sled {displacement} m; compute the work done by the pull.",
+   "extracted_variables": {
+    "force": 25,
+    "displacement": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply force by displacement",
+     "explain": "work = 25 * 2 = 50 J.",
+     "compute": "work = force * displacement"
+    }
+   ]
+  },
+  {
+   "id": "we3",
+   "source_ref": "keph105.txt lines 161-260 (kinetic energy)",
+   "concept": "keph105.5.4.1",
+   "question_type": "compute",
+   "question_pattern": "Find the kinetic energy of a {mass} kg body moving at {speed} m/s.",
+   "extracted_variables": {
+    "mass": 10,
+    "speed": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the speed",
+     "explain": "speed_sq = 25.",
+     "compute": "speed_sq = speed ** 2"
+    },
+    {
+     "step": 2,
+     "action": "halve the mass times the square",
+     "explain": "kinetic_energy = 0.5 * 10 * 25 = 125 J.",
+     "compute": "kinetic_energy = 0.5 * mass * speed_sq"
+    }
+   ]
+  },
+  {
+   "id": "we4",
+   "source_ref": "keph105.txt lines 161-260 (kinetic energy)",
+   "concept": "keph105.5.4.1",
+   "question_type": "compute",
+   "question_pattern": "A {mass} kg ball rolls at {speed} m/s; compute its kinetic energy.",
+   "extracted_variables": {
+    "mass": 2,
+    "speed": 3
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the speed",
+     "explain": "speed_sq = 9.",
+     "compute": "speed_sq = speed ** 2"
+    },
+    {
+     "step": 2,
+     "action": "halve the mass times the square",
+     "explain": "kinetic_energy = 0.5 * 2 * 9 = 9 J.",
+     "compute": "kinetic_energy = 0.5 * mass * speed_sq"
+    }
+   ]
+  },
+  {
+   "id": "we5",
+   "source_ref": "keph105.txt lines 261-380 (potential energy)",
+   "concept": "keph105.5.7.1",
+   "question_type": "compute",
+   "question_pattern": "A {mass} kg object sits {height} m above the ground (g = {gravity}); find its potential energy.",
+   "extracted_variables": {
+    "mass": 5,
+    "gravity": 9.8,
+    "height": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply mass gravity and height",
+     "explain": "potential_energy = 5 * 9.8 * 4 = 196 J.",
+     "compute": "potential_energy = mass * gravity * height"
+    }
+   ]
+  },
+  {
+   "id": "we6",
+   "source_ref": "keph105.txt lines 300-380 (speed from conservation)",
+   "concept": "keph105.5.9.1",
+   "question_type": "compute",
+   "question_pattern": "A body is released from {drop_height} m (g = {gravity}); find its landing speed.",
+   "extracted_variables": {
+    "gravity": 9.8,
+    "drop_height": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "double gravity times height",
+     "explain": "v_sq = 2 * 9.8 * 5 = 98.",
+     "compute": "v_sq = 2 * gravity * drop_height"
+    },
+    {
+     "step": 2,
+     "action": "take the square root",
+     "explain": "landing_speed = sqrt(98), about 9.9 m/s.",
+     "compute": "landing_speed = sqrt(v_sq)"
+    }
+   ]
+  },
+  {
+   "id": "we7",
+   "source_ref": "keph105.txt lines 300-380 (speed from conservation)",
+   "concept": "keph105.5.9.1",
+   "question_type": "compute",
+   "question_pattern": "Falling through {drop_height} m with g = {gravity}, what speed does the body reach?",
+   "extracted_variables": {
+    "gravity": 10,
+    "drop_height": 20
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "double gravity times height",
+     "explain": "v_sq = 2 * 10 * 20 = 400.",
+     "compute": "v_sq = 2 * gravity * drop_height"
+    },
+    {
+     "step": 2,
+     "action": "take the square root",
+     "explain": "landing_speed = sqrt(400) = 20 m/s.",
+     "compute": "landing_speed = sqrt(v_sq)"
+    }
+   ]
+  },
+  {
+   "id": "we8",
+   "source_ref": "keph105.txt lines 381-440 (power)",
+   "concept": "keph105.5.10.1",
+   "question_type": "compute",
+   "question_pattern": "An engine does {work_done} J of work in {time_taken} s; find its power.",
+   "extracted_variables": {
+    "work_done": 100,
+    "time_taken": 5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide work by time",
+     "explain": "power = 100 / 5 = 20 W.",
+     "compute": "power = work_done / time_taken"
+    }
+   ]
+  },
+  {
+   "id": "we9",
+   "source_ref": "keph105.txt lines 261-380 (potential energy)",
+   "concept": "keph105.5.7.1",
+   "question_type": "compute",
+   "question_pattern": "A {mass} kg stone is raised {height} m (g = {gravity}); compute the potential energy gained.",
+   "extracted_variables": {
+    "mass": 2,
+    "gravity": 10,
+    "height": 15
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply mass gravity and height",
+     "explain": "potential_energy = 2 * 10 * 15 = 300 J.",
+     "compute": "potential_energy = mass * gravity * height"
+    }
+   ]
+  },
+  {
+   "id": "we10",
+   "source_ref": "keph105.txt lines 381-440 (power)",
+   "concept": "keph105.5.10.1",
+   "question_type": "compute",
+   "question_pattern": "A motor does {work_done} J of work in {time_taken} s; compute its power rating.",
+   "extracted_variables": {
+    "work_done": 600,
+    "time_taken": 12
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide work by time",
+     "explain": "power = 600 / 12 = 50 W.",
+     "compute": "power = work_done / time_taken"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "keph105.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "The sign of work done by a force is determined by which factor? Illustrate with cases.",
+    "A force acts at an angle to the displacement; find the work using the cosine factor.",
+    "State the conditions under which the work-energy theorem applies.",
+    "A pump delivers water of given mass per second to a given height; find its power.",
+    "A family uses a given number of kilowatt hours; find the energy in joules.",
+    "An elevator of given mass rises at constant speed; find the work done by the cable in the given time.",
+    "Two balls collide head on with given masses and speeds; classify the collision and find the final velocities.",
+    "A bob of a pendulum is released from a given angle; find its speed at the lowest point."
+   ]
+  }
+ ]
 }

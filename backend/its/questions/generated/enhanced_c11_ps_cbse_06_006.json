@@ -34,6 +34,31 @@
      "q": "Draft a citizenship clause for a hypothetical diverse democracy that aims to (a) prevent childhood statelessness, (b) maintain a connection to the national community, and (c) avoid incentivising irregular migration. Explain each element.",
      "a": "Sample clause: \"Every child born in the territory acquires citizenship at birth if at least one parent is a citizen or a legal permanent resident; otherwise, the child may acquire citizenship by declaration upon reaching majority after five years' continuous residence.\" Element (a) covers foundlings/stateless parents via the declaration route; (b) ties initial automatic acquisition to parental legal status (connection); (c) the residence requirement for non‑automatic cases discourages birth‑tourism/irregular entry. A poor answer copies existing laws without justifying how each element meets the three goals.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Jus soli (right of the soil) grants citizenship to anyone born within a state's territory, regardless of parentage; jus sanguinis (right of blood) grants citizenship based on the nationality of one or both parents, ______ of birthplace.",
+     "a": "irrespective",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a baby born in a Delhi hospital to parents who are Nepali ______ working there temporarily, and another baby born in New York to Indian parents on H‑1B visas.",
+     "a": "citizens",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a baby born in a Delhi hospital to parents who are Nepali citizens working there temporarily, and another baby born in New York to Indian parents on H‑______B visas.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish jus soli from jus sanguinis, explain how India's citizenship law blends both principles with specific conditions, and analyze the inclusionary/exclusionary consequences of each principle for diverse populations.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a baby born in a Delhi hospital to parents who are Nepali citizens working there ______, and another baby born in New York to Indian parents on H‑1B visas.",
+     "a": "temporarily",
+     "self_check": true
     }
    ]
   }

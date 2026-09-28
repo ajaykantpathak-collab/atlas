@@ -34,6 +34,36 @@
      "q": "Design a 4-question mini-questionnaire to collect data on \"monthly household expenditure on vegetables\" that MINIMIZES all three types of non-sampling errors. For each question, explain which error type it addresses and how.",
      "a": "Good answer includes:\nQ1: \"Does your household purchase vegetables regularly? (Yes/No)\" — screens eligibility, reduces coverage error (sampling bias) by identifying in-scope units.\nQ2: \"In the last 30 days, how much did your household spend on vegetables? (Record exact amount in rupees: ₹____)\" — uses reference period and exact amount, reduces recall error and rounding (data acquisition error).\nQ3: \"Who in the household usually purchases vegetables? (Name: ____)\" — identifies best respondent, reduces proxy-response error (data acquisition).\nQ4: \"May we verify this with your purchase receipts or digital payment history? (Yes/No)\" — enables validation, reduces recording error and social desirability bias (data acquisition/non-response).\nEach question targets a specific error mechanism. A poor answer lists generic questions without linking to error types.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Non-sampling errors are systematic deviations of survey estimates from true population values that arise from flaws in data collection, recording, processing, or analysis, rather than from the random ______ inherent in using a sample instead of a census.",
+     "a": "variability",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you conduct a census of all 500 households in a village to find average monthly ______ on education.",
+     "a": "expenditure",
+     "self_check": true
+    },
+    {
+     "q": "What is Non-sampling errors? State the definition given in this lesson.",
+     "a": "Non-sampling errors are systematic deviations of survey estimates from true population values that arise from flaws in data collection, recording, processing, or analysis, rather than from the random variability inherent in using a sample instead of a census.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You hire ______ enumerators, give them a questionnaire, and collect data from every single household.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Non-sampling errors?",
+     "a": "Students often confuse \"sampling bias\" (a non-sampling error) with \"sampling error\" because both contain the word \"sampling.\" They think sampling bias is a type of sampling error that can be fixed by larger samples.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) distinguish non-sampling errors from sampling errors using the defining characteristic of persistence in census, (2) classify a given real-world data collection scenario into the three NCERT categories (sampling bias, non-response error, data acquisition error), and (3) explain why increasing sample size.",
+     "self_check": true
     }
    ]
   }

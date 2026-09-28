@@ -1,6 +1,53 @@
 {
- "catalog": "catalog_class11_biology_kebo116",
+ "catalog": "catalog_class11_biology_kebo116.json",
  "concepts": [
+  {
+   "id": "kebo.116.3.1",
+   "title": "Urine Formation: Glomerular Filtration Rate and Reabsorption",
+   "converted_to_compute": true,
+   "formula": "filtrate_percent = gfr / blood_filtered * 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "filtrate_percent = gfr / blood_filtered * 100",
+     "compute": "filtrate_percent = gfr / blood_filtered * 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Urine Formation: Glomerular Filtration Rate and Reabsorption: given gfr = 29, blood_filtered = 82, find filtrate percent.",
+     "a": "35.3659",
+     "self_check": false
+    },
+    {
+     "q": "For Urine Formation: Glomerular Filtration Rate and Reabsorption: given gfr = 64, blood_filtered = 67, find filtrate percent.",
+     "a": "95.5224",
+     "self_check": false
+    },
+    {
+     "q": "For Urine Formation: Glomerular Filtration Rate and Reabsorption: given gfr = 84, blood_filtered = 34, find filtrate percent.",
+     "a": "247.059",
+     "self_check": false
+    },
+    {
+     "q": "For Urine Formation: Glomerular Filtration Rate and Reabsorption: given gfr = 28, blood_filtered = 71, find filtrate percent.",
+     "a": "39.4366",
+     "self_check": false
+    },
+    {
+     "q": "For Urine Formation: Glomerular Filtration Rate and Reabsorption: given gfr = 27, blood_filtered = 19.1, find filtrate percent.",
+     "a": "141.361",
+     "self_check": false
+    },
+    {
+     "q": "For Urine Formation: Glomerular Filtration Rate and Reabsorption: given gfr = 56, blood_filtered = 81, find filtrate percent.",
+     "a": "69.1358",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "kebo.116.1.1",
    "title": "Nitrogenous Wastes and Modes of Excretion",
@@ -39,37 +86,6 @@
     {
      "q": "Under which section is 'Human Excretory System and the Nephron' taught, and from which source text?",
      "a": "16.2 Human Excretory System (source: kebo116.txt section 16.2)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebo.116.3.1",
-   "title": "Urine Formation: Glomerular Filtration Rate and Reabsorption",
-   "questions": [
-    {
-     "q": "How much blood do the kidneys filter per minute? Use the method 'Urine Formation: Glomerular Filtration Rate and Reabsorption'. Work with: blood_filtered = 6, gfr = 500. Carry the chain through step by step and give the final value of filtrate_percent.",
-     "a": "8333.3333 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Calculate the percentage of filtrate reabsorbed per day. Use the method 'Urine Formation: Glomerular Filtration Rate and Reabsorption'. Work with: blood_filtered = 50, gfr = 360. Carry the chain through step by step and give the final value of filtrate_percent.",
-     "a": "720 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Urine Formation: Glomerular Filtration Rate and Reabsorption' refers to.",
-     "a": "Urine formation involves glomerular filtration where about 1200 ml of blood is filtered per minute producing a glomerular filtration rate of about 125 ml per minute or 180 litres per day, tubular reabsorption returning nearly 99 per cent of the filtrate, and tubular secretion; the final urine is only about 1.5 litres a day.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Urine Formation: Glomerular Filtration Rate and Reabsorption'.",
-     "a": "Comparing 180 litres of filtrate a day with 1.5 litres of urine shows that nearly 99 per cent of the filtrate is reabsorbed by the renal tubules, chiefly in the proximal convoluted tubule.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Urine Formation: Glomerular Filtration Rate and Reabsorption', in plain ASCII form.",
-     "a": "filtrate_percent = gfr / blood_filtered * 100",
      "self_check": true
     }
    ]

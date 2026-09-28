@@ -34,6 +34,31 @@
      "q": "Create a real-life problem where finding the area of a major segment is necessary. Your problem must involve a circular garden, a straight path (chord), and planting grass in the larger region. Specify all measurements and ask for the grass area.",
      "a": "Good answer example: \"A circular garden of radius 14 m has a straight walking path (chord) that subtends 60° at the centre. Grass is to be planted in the larger part of the garden divided by the path. Find the grass area. (Use π = 22/7)\"\nSolution: Minor segment = (60/360)×(22/7)×196 − ½×196×sin60° = 102.67 − 84.87 = 17.8 cm²? Wait, units: 102.67 m² − 84.87 m² = 17.8 m². Circle area = 616 m². Major segment = 616 − 17.8 = 598.2 m².\nA poor answer gives a problem asking for minor segment area, or forgets to specify the angle, or uses inconsistent units (cm for radius, m for area), revealing lack of understanding of when major vs minor segment is needed.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A segment of a circle is the region bounded by a chord and the arc ______ by that chord.",
+     "a": "subtended",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ stained-glass window for your school chapel with radius 28 cm.",
+     "a": "circular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For a circle of radius r and central angle θ (in degrees), the area of the minor segment = (θ/______) × πr² − ½r²sinθ.",
+     "a": "360",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify whether a problem requires minor or major segment area, choose the appropriate formula based on given information (radius and angle, or chord length and radius), compute the area showing all intermediate steps including sector area and triangle area separately, and express the final answer in correct.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a circular stained-glass window for your school chapel with radius 28 cm.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

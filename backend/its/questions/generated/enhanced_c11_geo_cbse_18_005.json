@@ -34,6 +34,36 @@
      "q": "Design a crop-rotation plan for a 10-hectare farm in central Uttar Pradesh (alluvial soil, canal + tubewell irrigation, 90 cm rainfall) that maximizes annual food grain output while maintaining soil health. Specify the crop sequence, seasons, and justify each choice using geographical reasoning.",
      "a": "Proposed rotation: Kharif: Rice (June-Oct) using canal water; Rabi: Wheat (Nov-Apr) using tubewell + residual moisture; Zaid (Apr-Jun): Moong (green gram) on 2 ha using pre-monsoon showers. Justification: (1) Rice-wheat is the dominant, high-yielding system supported by irrigation infrastructure. (2) Moong as a summer pulse fixes nitrogen, breaks pest cycles, and provides short-duration (60-70 days) income before kharif rice. (3) Alluvial soil supports all three. (4) Irrigation schedule matches canal (kharif) and groundwater (rabi/zaid). A poor plan ignores water budgeting (e.g., sugarcane blocking rabi) or omits legumes, showing lack of systems thinking.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Rice, wheat, and pulses are India's three most critical food grain crops, each requiring distinct agro-climatic ______: rice is a kharif crop demanding high temperature (24°C mean), abundant rainfall (150-300 cm) or assured irrigation, and clayey alluvial soils; wheat is a rabi crop requiring cool winters (10-15°C at sowing, 20-25°C at harvest), moderate rainfall (50-75 cm) or irrigation, and well-drained loamy soils; pulses are grown in both seasons but predominantly rabi, needing moderate temperature (20-27°C), low to moderate rainfall (50-100 cm), and light to medium soils with good drainage, while fixing atmospheric nitrogen to restore soil fertility.",
+     "a": "conditions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by showing students a plate of typical Indian meals: rice-dominated (South/East), wheat-dominated (North/West), and dal (pulses) common ______.",
+     "a": "everywhere",
+     "self_check": true
+    },
+    {
+     "q": "What is Rice, wheat, and pulses? State the definition given in this lesson.",
+     "a": "Rice, wheat, and pulses are India's three most critical food grain crops, each requiring distinct agro-climatic conditions: rice is a kharif crop demanding high temperature (24°C mean), abundant rainfall (150-300 cm) or assured irrigation, and clayey alluvial soils; wheat is a rabi crop requiring cool winters (10-15°C at sowing, 20-25°C.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Rice, wheat, and pulses?",
+     "a": "Students believe rice grows *only* in high-rainfall areas (e.g., \"rice needs 200 cm rain\") and cannot understand its expansion into Punjab (60 cm rain).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) locate the primary growing regions of rice, wheat, and pulses on an outline map of India and explain the spatial distribution using temperature, rainfall, soil, and irrigation maps; (2) compare the climatic and edaphic requirements of the three crops in a structured table; (3) evaluate how Green Revolution.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Rice, wheat, and pulses are India's three most critical food grain crops, each requiring distinct agro-climatic conditions: rice is a kharif crop demanding high temperature (24°C mean), abundant rainfall (150-300 cm) or assured irrigation, and clayey alluvial soils; wheat is a rabi crop requiring cool winters (10-15°C at sowing, 20-25°C at harvest), moderate rainfall (50-75 cm) or irrigation, and well-drained loamy soils; pulses are grown in both seasons but ______ rabi, needing moderate temperature (20-27°C), low to moderate rainfall (50-100 cm), and light to medium soils with good drainage, while fixing atmospheric nitrogen to restore soil fertility.",
+     "a": "predominantly",
+     "self_check": true
     }
    ]
   }

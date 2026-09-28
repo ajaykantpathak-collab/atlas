@@ -34,6 +34,36 @@
      "q": "Design a thought experiment: If you could engineer a mitochondrion without cristae (smooth inner membrane) but with the same total inner membrane surface area by enlarging the organelle, would oxidative phosphorylation efficiency change? Predict the outcome and explain the biophysical constraints.",
      "a": "Good answer: Efficiency would decrease. Cristae create narrow tubular compartments that restrict proton diffusion, maintaining a steep local proton gradient (high ΔpH and ΔΨ) near ATP synthase. A smooth, enlarged inner membrane would allow rapid lateral proton dissipation, reducing the proton-motive force available for ATP synthesis. Additionally, cristae curvature concentrates respiratory supercomplexes and ATP synthase dimers, facilitating substrate channelling. A poor answer claiming \"same surface area = same ATP\" ignores the physics of proton diffusion in confined vs open geometries.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mitochondria are double membrane-bound organelles in eukaryotic cells where the inner membrane forms cristae to increase surface area for oxidative ______; the matrix houses the TCA cycle enzymes and mitochondrial DNA (mtDNA) with 70S ribosomes, enabling semi-autonomous protein synthesis for respiratory chain subunits.",
+     "a": "phosphorylation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a long-distance runner collapsing at the 35 km mark — their muscle cells have exhausted glycolytic ATP and now depend entirely on mitochondrial oxidative ______.",
+     "a": "phosphorylation",
+     "self_check": true
+    },
+    {
+     "q": "What is Mitochondria? State the definition given in this lesson.",
+     "a": "Mitochondria are double membrane-bound organelles in eukaryotic cells where the inner membrane forms cristae to increase surface area for oxidative phosphorylation; the matrix houses the TCA cycle enzymes and mitochondrial DNA (mtDNA) with 70S ribosomes, enabling semi-autonomous protein synthesis for respiratory chain subunits.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mitochondria are double membrane-bound organelles in eukaryotic cells where the inner membrane forms cristae to increase surface area for oxidative phosphorylation; the matrix houses the TCA cycle enzymes and mitochondrial DNA (mtDNA) with ______S ribosomes, enabling semi-autonomous protein synthesis for respiratory chain subunits.",
+     "a": "70",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Mitochondria?",
+     "a": "Students believe ATP is synthesised in the mitochondrial matrix because the TCA cycle occurs there.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) label and explain the functional significance of each mitochondrial compartment (outer membrane, inner membrane, cristae, intermembrane space, matrix) in ATP synthesis, and (2) justify why mitochondria possess their own genome and 70S ribosomes by linking it to endosymbiotic origin and the need for local.",
+     "self_check": true
     }
    ]
   }

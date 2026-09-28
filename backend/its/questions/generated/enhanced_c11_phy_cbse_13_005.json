@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a smartphone and a metre scale to verify that T² ∝ L for a simple pendulum. Describe the procedure, measurements, and how you would analyse the data to confirm the relationship.",
      "a": "Procedure: (1) Tie a small dense bob (e.g., metal nut) to a thread. (2) Fix the thread to a rigid support. (3) Measure length L from support to bob centre using metre scale. (4) Displace bob by < 5°. (5) Use smartphone stopwatch to time 10 oscillations. Repeat for 5 different lengths (e.g., 0.2, 0.4, 0.6, 0.8, 1.0 m). (6) Compute T = t/10 and T² for each L. (7) Plot T² (y-axis) vs L (x-axis). Expect straight line through origin with slope 4π²/g. Calculate g from slope. A poor answer (e.g., \"measure time for one oscillation\", \"use large angles\", \"plot T vs L\") shows lack of understanding of reducing random error, small-angle condition, or the linearisation T² ∝ L.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The time period of a simple pendulum is the time taken for the bob to complete one full oscillation (from one extreme position to the other and back) under the conditions of small angular ______ (θ < 10°), massless inextensible string, point-mass bob, and negligible air resistance.",
+     "a": "displacement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a swing in a playground or a hanging ceiling fan chain pulled slightly sideways and released — it ______ with a regular period.",
+     "a": "oscillates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The time period of a simple pendulum is the time taken for the bob to complete one full oscillation (from one extreme position to the other and back) under the conditions of small angular displacement (θ < ______°), massless inextensible string, point-mass bob, and negligible air resistance.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the time period formula T = 2π √(L/g) from torque and angular acceleration using the small-angle approximation, identify the conditions under which the formula is valid, and calculate the time period or length for a given gravitational acceleration with correct SI units.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a swing in a ______ or a hanging ceiling fan chain pulled slightly sideways and released — it oscillates with a regular period.",
+     "a": "playground",
+     "self_check": true
     }
    ]
   }

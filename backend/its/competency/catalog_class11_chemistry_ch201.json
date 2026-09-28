@@ -20,7 +20,7 @@
     "classify the reaction based on classical redox definitions",
     "why is classical concept of oxidation and reduction important"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,22 @@
      "action": "Classify each reactant as oxidized or reduced and identify the oxidizing and reducing agents.",
      "explain": "The species that gains oxygen or loses hydrogen is oxidized (reducing agent); the one that loses oxygen or gains hydrogen is reduced (oxidizing agent)."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "Oxidation = +Oxygen / -Hydrogen",
+     "compute": "Oxidation = +Oxygen / -Hydrogen"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "Reduction = -Oxygen / +Hydrogen",
+     "compute": "Reduction = -Oxygen / +Hydrogen"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kech.201.2",
@@ -307,7 +322,7 @@
     "calculate the coefficient of H+ in a balanced redox equation",
     "short note on balancing by oxidation number method"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -329,7 +344,16 @@
      "action": "Balance Hydrogen and Oxygen.",
      "explain": "Add H2O molecules to the side deficient in Hydrogen."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_increase = total_decrease",
+     "compute": "total_increase = total_decrease"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kech.201.10",
@@ -375,7 +399,7 @@
    "title": "Standard Electrode Potential and Cell Potential",
    "section": "7.4",
    "definition": "The potential difference between two electrodes in a galvanic cell under standard conditions (1M, 298K, 1 atm).",
-   "formula": "E0_cell = E0_cathode - E0_anode",
+   "formula": "E_0_cell = E_0_cathode - E_0_anode",
    "key_idea": "A positive cell potential indicates a spontaneous redox reaction.",
    "textbook_ref": "kech201.txt lines 650-700",
    "question_patterns": [
@@ -416,7 +440,16 @@
      "solution": "Step 1: Identify the cathode and anode.. Step 2: Calculate the net cell potential.. Step 3: Determine the feasibility of the redox reaction from the sign of the cell potential.. Working: cathode_pot - anode_pot, cathode_pot - anode_pot.",
      "answer": "The method of standard electrode potential and cell potential leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "E_0_cell = E_0_cathode - E_0_anode",
+     "compute": "E_0_cell = E_0_cathode - E_0_anode"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

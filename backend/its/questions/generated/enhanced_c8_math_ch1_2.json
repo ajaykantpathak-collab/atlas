@@ -34,6 +34,31 @@
      "q": "Create a 4-digit number that is a perfect square and has exactly two distinct prime factors. Explain how you constructed it using the prime factorization property.",
      "a": "Example: 1156 = 34² = (2 × 17)² = 2² × 17².  \nConstruction: Choose two distinct primes (e.g., 2 and 17), give each an even exponent (at least 2), multiply: 2² × 17² = 4 × 289 = 1156.  \nA poor answer (e.g., \"1600 because 40²\") without explaining the prime factor structure shows the student can recall squares but cannot **design** one using the property — they lack generative understanding of the even-exponent rule.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A perfect square is a natural number that can be ______ as the square of an integer.",
+     "a": "expressed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school is arranging 225 students in a square ______ for the Republic Day parade — equal rows and columns.",
+     "a": "formation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The teacher asks: \"Can we do this with ______ students?",
+     "a": "200",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify whether a given number is a perfect square by applying its properties (units digit, trailing zeros, prime factorization) and can explain why a number fails to be a perfect square using these properties.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school is ______ 225 students in a square formation for the Republic Day parade — equal rows and columns.",
+     "a": "arranging",
+     "self_check": true
     }
    ]
   }

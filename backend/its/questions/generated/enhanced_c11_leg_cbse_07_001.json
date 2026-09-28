@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_07_001",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_07_001",
+   "title": "c11_leg_cbse_07_001",
+   "questions": [
+    {
+     "q": "Define \"Criminal Law\" and \"Civil Law\" as per the NCERT classification based on subject matter. Give one example of each.",
+     "a": "Criminal Law covers acts prohibited by law that affect society as a whole; action is initiated by the State; remedy is imprisonment, fine, or both (e.g., theft, murder). Civil Law covers all acts not defined as crimes; it is private in nature, affects individuals; action is initiated by the aggrieved party; remedy is compensation, damages, or injunction (e.g., property dispute, breach of contract). A wrong answer (e.g., saying civil cases are filed by the State) reveals confusion about *who initiates proceedings* — a fundamental procedural distinction that determines burden of proof and remedy.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between Substantive Law and Procedural Law using the Consumer Protection Act, 2019 and the Code of Civil Procedure, 1908 as examples.",
+     "a": "Substantive Law defines rights and liabilities (e.g., Consumer Protection Act, 2019 creates the right to seek redressal for defective goods). Procedural Law prescribes the process to enforce those rights (e.g., CPC, 1908 lays down how to file a suit, serve summons, present evidence). A wrong answer (e.g., calling CPC a substantive law) shows the student cannot distinguish *what the law gives you* from *how you get it* — a critical error in drafting plaints, choosing forums, or advising clients on limitation periods.",
+     "self_check": true
+    },
+    {
+     "q": "A Indian citizen working in Germany signs an employment contract with a German company. The contract is breached. The citizen sues in an Indian court. Classify the branch of law governing this dispute and justify your classification using the jurisdiction-based classification.",
+     "a": "This falls under **Private International Law** (a sub-branch of International Law under jurisdiction-based classification). Reason: It is a dispute between private parties (individual and corporation) with a *foreign element* (contract signed in Germany, parties of different nationalities). Private International Law (Conflict of Laws) determines which country’s law applies and whether Indian courts have jurisdiction. A wrong answer (e.g., \"Law of Obligations under Private Municipal Law\") ignores the foreign element — leading to application of wrong law, wrong forum, and unenforceable judgment.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast Public International Law and Private International Law on three dimensions: (a) parties involved, (b) source of obligation, (c) enforcement mechanism.",
+     "a": "| Dimension | Public International Law | Private International Law |\n|-----------|--------------------------|----------------------------|\n| Parties | States (nations), international organizations | Private individuals/corporations with cross-border links |\n| Source | Treaties, customs, general principles recognized by nations | Domestic law of the forum (e.g., Indian Contract Act, CPC) + international conventions |\n| Enforcement | No central enforcement; relies on reciprocity, ICJ, UNSC, diplomatic pressure | Enforced through domestic courts of the forum state (e.g., Indian court applies foreign law via conflict rules) |\nA wrong answer conflating them (e.g., saying both bind States) reveals failure to grasp that PIL governs *inter-state relations* while PrIL governs *private cross-border disputes* — leading to citing ICJ judgments in a divorce case between an NRI and a resident Indian.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Administrative Law is a branch of Private Law because it regulates government departments which are separate legal entities.\" Defend or refute with reference to the NCERT classification.",
+     "a": "**Refute.** Administrative Law is explicitly classified under **Public Municipal Law** (not Private Law) in the NCERT framework. It regulates the *relationship between the State and its subjects* — specifically, the powers, functions, and accountability of administrative authorities (government departments, tribunals, PSUs). The fact that a department is a \"legal entity\" doesn’t make disputes with it \"private\" — the *nature of the power exercised* (sovereign, regulatory, coercive) and the *public interest* involved make it Public Law. A student agreeing with the statement confuses *legal personality* with *classification of law* — a category error that would misplace judicial review petitions in civil courts instead of High Courts under Article 226.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel legal scenario that simultaneously involves: (a) a Criminal Law issue, (b) a Procedural Law issue, and (c) a Public International Law issue. Explain how classification helps resolve jurisdictional conflicts.",
+     "a": "**Scenario:** An Indian naval officer, stationed in the Andaman & Nicobar Islands, is accused of smuggling endangered marine species (protected under CITES, an international treaty) to a foreign buyer. He is arrested by the Indian Coast Guard.  \n- **Criminal Law (Subject Matter):** Smuggling is an offence under the Wildlife Protection Act, 1972 and Customs Act, 1962 — crime against society, State prosecutes.  \n- **Procedural Law (Scope):** CrPC, 1973 governs his arrest, bail, investigation, trial procedure — e.g., whether Coast Guard has power to arrest under Section 41 CrPC.  \n- **Public International Law (Jurisdiction):** CITES obligations bind India; the foreign buyer’s State may request extradition or mutual legal assistance — governed by treaty law and customary international law.  \n**Classification resolves conflict:** It tells the court: (1) Substantive criminal law defines the offence; (2) CrPC governs *how* the trial proceeds; (3) India’s treaty obligations under CITES may require cooperation with the foreign State — but only through executive channels (MLA treaty), not judicial orders. Without classification, the magistrate might try to order extradition directly (judicial overreach) or ignore CITES (treaty violation).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

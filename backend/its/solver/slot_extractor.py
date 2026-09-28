@@ -72,7 +72,7 @@ _PI_HINT_RE = re.compile(
 
 # "name = 5" / "name: 5" (label words may be multi-word: "total outcomes = 6")
 _LABELED_RE = re.compile(
-    r"([A-Za-z][A-Za-z_ ]{0,28}?)\s*[:=]\s*\(?(-?\d+(?:\.\d+)?)\)?")
+    r"([A-Za-z][A-Za-z_0-9 ]{0,28}?)\s*[:=]\s*\(?(-?\d+(?:\.\d+)?)\)?")
 
 # {variable} placeholders; "{a^m}" contributes TWO roles in order (a, m)
 _PLACEHOLDER_RE = re.compile(
@@ -211,6 +211,13 @@ def _excluded_spans(text: str) -> List[Tuple[int, int]]:
     tail = _ans_tail_span(text)
     if tail is not None:
         spans.append(tail)
+    # digits glued to letters are unit notation, not values:
+    # '3 m3' -> the '3' in 'm3' is cubic-metre notation, not a
+    # number to bind positionally ('m/s2', 'cm2', 'km2' likewise).
+    # '^' and superscript variants too: 'm/s^2', 'm/s²' carry the same
+    # unit exponent that must never reach the positional pool.
+    for m in re.finditer(r"[A-Za-z][\^²³⁴]?\d", text):
+        spans.append((m.start() + 1, m.end()))
     return spans
 
 
@@ -264,6 +271,40 @@ _SYNONYMS: Dict[str, Tuple[str, ...]] = {
     "parallel side": ("b", "base", "side"),
     "parallel sides": ("b", "base", "side"),
     "sum of money": ("principal",),
+    # STEM label aliases: natural-language labels -> formula varnames
+    "voltage": ("v", "V", "voltage", "potential", "emf", "v_emf"),
+    "potential difference": ("v", "V", "voltage", "potential"),
+    "current": ("i", "I", "current"),
+    "resistance": ("r", "R", "resistance"),
+    "power": ("p", "P", "power"),
+    "mass": ("m", "mass"),
+    "weight": ("w", "weight", "f", "force"),
+    "force": ("f", "F", "force", "thrust"),
+    "velocity": ("v", "velocity", "speed"),
+    "speed": ("v", "speed", "velocity"),
+    "initial velocity": ("u", "v_0", "v0"),
+    "final velocity": ("v", "v_final"),
+    "acceleration": ("a", "accel", "acceleration"),
+    "deceleration": ("a", "accel"),
+    "distance": ("s", "d", "distance", "displacement"),
+    "displacement": ("s", "displacement", "distance", "d"),
+    "moles": ("n", "moles", "mole"),
+    "number of moles": ("n", "moles"),
+    "charge": ("q", "Q", "charge"),
+    "energy": ("e", "E", "energy", "ke", "pe"),
+    "kinetic energy": ("ke", "energy"),
+    "potential energy": ("pe", "energy"),
+    "work": ("w", "work", "energy"),
+    "temperature": ("t", "T", "temperature", "temp"),
+    "pressure": ("p", "P", "pressure"),
+    "volume": ("volume", "vol", "V"),
+    "density": ("density", "rho"),
+    "frequency": ("f", "frequency", "freq", "nu"),
+    "wavelength": ("wavelength", "lam", "lambda_"),
+    "concentration": ("concentration", "molarity", "molality"),
+    "molarity": ("molarity", "concentration"),
+    "efficiency": ("efficiency", "eta"),
+    "friction": ("f_k", "friction", "mu"),
 }
 
 # Canonical role ORDER per concept (from the catalog formulas:
@@ -470,12 +511,23 @@ _MONEY_VARS = {"principal", "amount", "interest", "cp", "sp", "cost",
 _PCT_VARS = {"rate", "percent", "percentage", "loss_pct", "profit_pct"}
 _FRACTION_VARS = {"fraction", "fraction1", "fraction2",
                   "fraction_per_hour", "decimal"}
-_TIME_VARS = {"time", "years", "hours"}
+_TIME_VARS = {"time", "years", "hours", "t", "time_taken", "duration",
+              "period", "elapsed_time", "time_elapsed"}
+
+
+# concept-id prefixes whose catalogs carry the maths-domain var
+# conventions (k/m/n exponents, l/r/h lengths, etc.).  STEM concept
+# ids (keph/kech/jesc/...) reuse those names for physical quantities,
+# so the domain guards must not fire for them.
+_MATHS_ID_RE = re.compile(
+    r"^(?:am|c7m|c8m|fegp|gegp|hegp|hemh|iemh|jemh|kemh|lemh)")
 
 
 def _guard_value(cid: str, var: str, value: float) -> Optional[str]:
     """Return a refusal reason, or None when the value is sane."""
     v = float(value)
+    if not _MATHS_ID_RE.match(cid):
+        return None  # non-maths catalogs: no domain assumptions on names
     is_ch11 = cid.startswith("c7m11")
     if var in _EXPONENT_VARS:
         if v != int(v):
@@ -570,13 +622,24 @@ def _cross_guards(values: Dict[str, float]) -> Optional[str]:
 # ------------------------------------------------------------------ #
 
 _UNIT_AFTER_RE = re.compile(
-    r"\s*(?P<u>mm|cm|km|ft|feet|foot|inches|inch|metres?|meters?|"
+    r"\s*(?P<u>m/s\^?2|m/s²|m\s*s-2|m/s|m\s*s-1|km/hr?|kmph|"
+    r"mm|cm|km|ft|feet|foot|inches|inch|metres?|meters?|"
     r"centimetres?|kilometres?|grams?|kg|kilograms?|litres?|liters?|"
     r"ml|hours?|hrs?|minutes?|mins?|seconds?|secs?|days?|weeks?|"
     r"months?|years?|degrees?|percent|per\s+cent|rupees?|paise|"
+    r"s|"
     r"\u00b0|m)\.?(?![A-Za-z])(?!\s*\^?\s*2\b)", re.IGNORECASE)
 _UNIT_BEFORE_MONEY_RE = re.compile(
     r"(?:\brs\.?|\binr|\u20b9|\$)\s*$", re.IGNORECASE)
+
+# physics roles that carry units -- used both to tag question numbers
+# and to keep the positional fill honest ('3 s' must land on the time
+# slot, never on acceleration)
+_VELOCITY_VARS = {"u", "v", "v_0", "v0", "v_f", "vf", "u_i",
+                  "initial_velocity", "final_velocity", "velocity",
+                  "speed", "initial_speed", "final_speed"}
+_ACCEL_VARS = {"a", "acceleration", "accel", "deceleration",
+               "retardation", "g"}
 
 _UNIT_TAGS = {
     "mm": "len", "cm": "len", "km": "len", "m": "len", "ft": "len",
@@ -593,8 +656,12 @@ _UNIT_TAGS = {
     "second": "time", "seconds": "time", "sec": "time", "secs": "time",
     "day": "time", "days": "time", "week": "time", "weeks": "time",
     "month": "time", "months": "time", "year": "time", "years": "time",
+    "s": "time",
     "percent": "pct", "per cent": "pct",
     "rupee": "money", "rupees": "money", "paise": "money",
+    "m/s": "vel", "m s-1": "vel", "km/h": "vel", "km/hr": "vel",
+    "kmph": "vel",
+    "m/s^2": "acc", "m/s2": "acc", "m/s²": "acc", "m s-2": "acc",
     "degree": "deg", "degrees": "deg", "\u00b0": "deg",
 }
 
@@ -615,6 +682,10 @@ def _role_unit_tags(names: List[str]) -> set:
             tags.add("time")
         elif n == "angle":
             tags.add("deg")
+        elif n in _VELOCITY_VARS:
+            tags.add("vel")
+        elif n in _ACCEL_VARS:
+            tags.add("acc")
     return tags
 
 
@@ -741,7 +812,9 @@ def _template_regex(qpat: str) -> Optional[re.Pattern]:
     if not found:
         return None
     pieces.append(_escape_literal(qpat[pos:]))
-    pieces.append("\\s*$")
+    # trailing sentence punctuation ('?', '.') is optional -- questions
+    # authored without it must still match
+    pieces.append("[?.!]*\\s*$")
     try:
         return re.compile("".join(pieces), re.IGNORECASE | re.DOTALL)
     except re.error:
@@ -785,9 +858,14 @@ def _template_entries(concept: Dict,
 # ------------------------------------------------------------------ #
 
 def _label_to_var(label: str, varnames: List[str]) -> Optional[str]:
-    t = " ".join(label.lower().split())
+    raw = " ".join(label.split())
+    t = raw.lower()
     if not t:
         return None
+    # exact case-sensitive match first: physics reuses case for
+    # distinct roles (R external vs r internal resistance)
+    if raw in varnames:
+        return raw
     lowered = {v.lower(): v for v in varnames}
     if t in lowered:
         return lowered[t]
@@ -1027,8 +1105,10 @@ def _canonical_set_vars(cid: str, text_lower: str) -> Optional[List[str]]:
 
 # Constants and built-ins that are NOT slot variables
 _FORMULA_CONSTANTS = {
-    "pi", "100", "180", "360", "90", "2", "10", "1000", "12", "60",
-    "sqrt", "abs", "max", "min", "sum", "len", "g", "c",
+    "pi", "e", "100", "180", "360", "90", "2", "10", "1000", "12",
+    "60", "sqrt", "abs", "max", "min", "sum", "len", "g", "c",
+    "sin", "cos", "tan", "asin", "acos", "atan", "log", "log10",
+    "exp", "floor", "ceil",
     "true", "false", "none", "nil",
 }
 
@@ -1089,7 +1169,7 @@ def _extract_compute_vars(concept: Dict) -> List[str]:
     import re as _re
     assigned = set()
     # First pass: collect all assigned names (LHS)
-    for s in concept.get("solution_steps", []):
+    for s in (concept.get("compute_steps") or concept.get("solution_steps") or []):
         expr = s.get("compute", "")
         if not expr or "=" not in expr:
             continue
@@ -1099,7 +1179,7 @@ def _extract_compute_vars(concept: Dict) -> List[str]:
             assigned.add(t.lower())
     # Second pass: collect RHS names that aren't assigned or constants
     seen = []
-    for s in concept.get("solution_steps", []):
+    for s in (concept.get("compute_steps") or concept.get("solution_steps") or []):
         expr = s.get("compute", "")
         if not expr:
             continue
@@ -1149,7 +1229,8 @@ def _infer_roles_from_concept(concept: Dict) -> Optional[List[str]]:
     # (a formula alone is too generic -- "area = base * height" would
     # match any question with two numbers)
     has_compute_steps = any("compute" in s
-                            for s in concept.get("solution_steps", []))
+                            for s in (concept.get("compute_steps") or
+                                      concept.get("solution_steps") or []))
     if has_compute_steps:
         formula = concept.get("formula", "")
         roles = _extract_formula_vars(formula)
@@ -1202,6 +1283,13 @@ def extract_slots_detailed(
     cid = str((concept or {}).get("id", ""))
     examples = (worked_examples if worked_examples is not None
                 else catalog_worked_examples(concept))
+    # concept-embedded templates (generated STEM catalogs carry their
+    # own {var}-placeholder worked_examples) merge with catalog ones
+    embedded = concept.get("worked_examples") or []
+    if embedded:
+        examples = list(examples) + [
+            dict(e, concept=cid) for e in embedded
+            if isinstance(e, dict)]
     entries = _template_entries(concept, examples)
 
     varnames: List[str] = []
@@ -1222,10 +1310,50 @@ def extract_slots_detailed(
         for n in canon:
             if n not in varnames:
                 varnames.append(n)
+    # LHS/output vars are legitimate labeled bind targets: 'density = 2'
+    # gives the formula's OUTPUT while the question asks an input --
+    # without this the label fails to match and its number gets
+    # positionally rebound to the wrong var
+    try:
+        for eq in re.split(r"[;\n]", str(concept.get("formula") or "")):
+            if "=" in eq:
+                lhs = eq.split("=", 1)[0].strip()
+                if re.fullmatch(r"[A-Za-z_][A-Za-z_0-9]*", lhs) \
+                        and lhs not in varnames:
+                    varnames.append(lhs)
+    except Exception:
+        pass
 
     blocked = _excluded_spans(text)
     labeled, consumed = _labeled_bindings(text, varnames, blocked)
     blocked = blocked + consumed
+
+    # --- implicit state-phrase binds -------------------------------- #
+    # "accelerates from rest" / "dropped" carry a REAL value (u = 0)
+    # with no digits to bind -- synthesize it as a labeled bind so
+    # inferred-role concepts (which refuse positional fills) still get
+    # the honest binding instead of falling through to the LLM
+    # canonicalizer for a phrase a rule can read.
+    _INIT_VEL_NAMES = {"u", "u_i", "v_0", "v0", "initial_velocity",
+                       "initial_speed", "initial_vel"}
+    _FINAL_VEL_NAMES = {"v", "v_f", "vf", "final_velocity",
+                        "final_speed"}
+    _rest = re.search(
+        r"\b(?:starts?\s+from|from|at)\s+rest\b|\bdropped\b", text, re.I)
+    _stop = re.search(
+        r"\b(?:comes?\s+to|slows?\s+to|finally)\s+rest\b|"
+        r"\bcomes?\s+to\s+(?:a\s+)?stop\b|\bstops?\b|\bhalts?\b",
+        text, re.I)
+    if _rest:
+        for v in varnames:
+            if v in _INIT_VEL_NAMES and v not in labeled:
+                labeled[v] = (0.0, _rest.start(), _rest.end())
+                break
+    if _stop:
+        for v in varnames:
+            if v in _FINAL_VEL_NAMES and v not in labeled:
+                labeled[v] = (0.0, _stop.start(), _stop.end())
+                break
 
     # --- labeled-first assembly ------------------------------------- #
     if labeled:
@@ -1249,7 +1377,27 @@ def extract_slots_detailed(
         if len(nums) >= len(rest):
             values = {k: v[0] for k, v in labeled.items()}
             spans = {k: (v[1], v[2]) for k, v in labeled.items()}
-            for name, num in zip(rest, nums):
+            # unit-consistent fill first: a number carrying 's' belongs
+            # to a time role, 'm/s^2' to acceleration -- positional zip
+            # of a unit-bearing number onto a mismatched role produced
+            # 'acceleration=3 (the 3 s!)' scrambles.  Numbers with no
+            # tag and names with no role tag fall back to order.
+            pool = list(nums)
+            ordered_rest: List[Tuple[str, tuple]] = []
+            for name in list(rest):
+                want = _role_unit_tags([name])
+                hit = next(
+                    (n for n in pool
+                     if (_unit_tag(text, n[1], n[2]) or "") in want
+                     and want),
+                    None)
+                if hit is not None:
+                    pool.remove(hit)
+                    ordered_rest.append((name, hit))
+                    rest.remove(name)
+            for name, num in zip(rest, pool):
+                ordered_rest.append((name, num))
+            for name, num in ordered_rest:
                 reason = _guard_value(cid, name, num[0])
                 if reason:
                     return SlotExtraction(reason=reason)
@@ -1327,8 +1475,47 @@ def extract_slots_detailed(
                     return SlotExtraction(reason=cross)
                 return hit
             return SlotExtraction(reason=reason)
-        # fallback roles: labeled binding already tried above; positional
-        # guessing without a real role table is not honest, so refuse
+        # fallback roles: positional guessing is dishonest, BUT a
+        # unit-consistent bind is not a guess -- '15 m/s' to a velocity
+        # role, '3 m/s^2' to acceleration, '4 s' to time is a labeled
+        # read in disguise.  Accept only when every inferred role gets
+        # exactly one unit-consistent number; ambiguity refuses.
+        pool = [(v, s2, e, tok) for (v, s2, e, tok)
+                in _scan_numbers(text)
+                if not _in_blocked((s2, e), blocked)]
+        assigned: Dict[str, tuple] = {}
+        ambiguous = False
+        for name in canon:
+            want = _role_unit_tags([name])
+            if not want:
+                ambiguous = True
+                break
+            cands = [n for n in pool
+                     if (_unit_tag(text, n[1], n[2]) or "") in want]
+            if len(cands) == 1:
+                assigned[name] = cands[0]
+            elif len(cands) == 0:
+                # role with no unit-bearing number -- an implicit bind
+                # may already have covered it (rest/stop phrases)
+                if name in labeled:
+                    continue
+                ambiguous = True
+                break
+            else:
+                ambiguous = True
+                break
+        if not ambiguous and len(assigned) == len(canon):
+            values = {k: n[0] for k, n in assigned.items()}
+            spans = {k: (n[1], n[2]) for k, n in assigned.items()}
+            for k in values:
+                reason = _guard_value(cid, k, values[k])
+                if reason:
+                    return SlotExtraction(reason=reason)
+            cross = _cross_guards(values)
+            if cross:
+                return SlotExtraction(reason=cross)
+            return SlotExtraction(values, spans, "unit-consistent",
+                                  False, "")
         return SlotExtraction(reason="inferred roles require labeled "
                                      "binding; positional not available "
                                      "for auto-inferred concept")

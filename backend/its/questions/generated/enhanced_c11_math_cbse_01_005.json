@@ -34,6 +34,21 @@
      "q": "Create a real-world scenario (using Indian context) that can be modeled by the interval [500, 2000) and explain what the endpoints represent.",
      "a": "Example: \"A metro ride in Delhi costs between ₹500 and ₹2000 per month for a daily commuter, where ₹500 is the minimum monthly pass cost (included) and ₹2000 is the maximum before a different fare slab applies (excluded).\" Endpoints: 500 = minimum cost (inclusive), 2000 = upper limit of this slab (exclusive). A poor answer uses abstract numbers without context or misassigns inclusion/exclusion.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An interval is a subset of the real numbers R ______ of all real numbers lying between two endpoints a and b (where a, b ∈ R and a < b).",
+     "a": "consisting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are measuring the ______ range in Delhi during a winter week: it stays between 2°C and 15°C.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can convert between set-builder notation, interval notation, and number line representation for any bounded or unbounded interval; identify whether endpoints are included/excluded; and state the length of a bounded interval.",
+     "self_check": true
     }
    ]
   }

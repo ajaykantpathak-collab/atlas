@@ -34,6 +34,31 @@
      "q": "Create a real-life problem (Indian context) that requires finding the area of a major segment. Provide the given data (radius, central angle) and ask for the area of the major segment. Ensure the problem is solvable in 3-4 steps.",
      "a": "Example problem: \"A circular park of radius 20 m has a walking track along a chord that subtends an angle of 100° at the centre. The track divides the park into two regions. Find the area of the larger region (major segment). Use π = 3.14.\"\nSolution steps: 1) Find circle area = 3.14 × 400 = 1256 m². 2) Find minor sector area = (100/360) × 1256 = 348.89 m². 3) Find triangle area = (1/2) × 400 × sin 100° = 200 × 0.9848 = 196.96 m². 4) Minor segment = 348.89 − 196.96 = 151.93 m². 5) Major segment = 1256 − 151.93 = 1104.07 m².\nA poor answer would give a problem that asks for minor segment, or uses an angle > 180° directly, or omits necessary data (radius or angle). This reveals the student cannot distinguish between minor/major segment scenarios or design a valid multi-step problem.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The area of a segment of a circle is the region bounded by a chord and the arc ______ by that chord.",
+     "a": "subtended",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ garden with a radius of 14 metres.",
+     "a": "circular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a circular garden with a radius of ______ metres.",
+     "a": "14",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can solve multi-step problems involving the area of a segment by correctly identifying whether the segment is minor or major, selecting the appropriate formula (using degrees), substituting values accurately, and computing the final answer with correct units (cm², m²).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a circular garden with a radius of 14 metres.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

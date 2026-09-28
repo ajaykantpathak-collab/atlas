@@ -20,7 +20,7 @@
     "find remaining dry mass given initial wet weight and evaporated water",
     "what is the method for isolating acid soluble pool from retentate"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -45,7 +45,16 @@
      "explain": "Grind tissue with trichloroacetic acid to separate low molecular weight acid-soluble filtrate from macromolecular acid-insoluble retentate.",
      "compute": "acid_insoluble_fraction = retentate_mass"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "dry_weight = wet_weight - water_mass",
+     "compute": "dry_weight = wet_weight - water_mass"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.109.2",
@@ -62,7 +71,7 @@
     "how many total compounds exist if primary count is known",
     "what are examples of secondary metabolites in plants"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -80,7 +89,16 @@
      "action": "Distinguish primary from secondary metabolite roles",
      "explain": "Primary metabolites support basic physiology such as respiration, while secondary metabolites serve ecological roles like defense and pigmentation."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_metabolites = primary_count + secondary_count",
+     "compute": "total_metabolites = primary_count + secondary_count"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.109.3",
@@ -97,7 +115,7 @@
     "how much nucleic acid is present in a given mass of tissue",
     "compute cellular constituent weight using mass percent"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -115,7 +133,16 @@
      "action": "Classify the component as macro or micromolecule",
      "explain": "Biomacromolecules such as proteins and nucleic acids have molecular weights above ten thousand daltons and form the acid-insoluble fraction."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "component_mass = (percentage * total_cell_mass) / 100",
+     "compute": "component_mass = (percentage * total_cell_mass) / 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.109.4",
@@ -132,7 +159,7 @@
     "how many peptide bonds connect a chain of amino acids",
     "what is the peptide bond formula for linear proteins in Class 11 biology"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -150,7 +177,16 @@
      "action": "Relate peptide bonds to heteropolymer structure",
      "explain": "Proteins are heteropolymers of up to twenty amino acid types joined by covalent peptide bonds between carboxyl and amino groups."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "peptide_bonds = amino_acid_count - 1",
+     "compute": "peptide_bonds = amino_acid_count - 1"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.109.5",
@@ -167,7 +203,7 @@
     "how to compute monomer mass given polymer weight and monomer count",
     "what is the building block weight of a polysaccharide polymer"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -185,7 +221,16 @@
      "action": "Identify reducing and non-reducing ends",
      "explain": "Polysaccharide chains have a reducing end with a free anomeric carbon and a non-reducing end, distinguishing homopolymers like cellulose from heteropolymers like chitin."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "monosaccharide_mass = total_polymer_mass / monomer_count",
+     "compute": "monosaccharide_mass = total_polymer_mass / monomer_count"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.109.6",
@@ -202,7 +247,7 @@
     "how many total nucleotides are in a nucleic acid segment",
     "what is the sum of purine and pyrimidine bases in RNA"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -220,7 +265,16 @@
      "action": "Relate nucleotides to nucleic acid components",
      "explain": "Each nucleotide consists of a nitrogenous base, a pentose sugar, and a phosphate group, linked to form polynucleotide chains that store genetic information."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_nucleotides = purine_count + pyrimidine_count",
+     "compute": "total_nucleotides = purine_count + pyrimidine_count"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.109.7",
@@ -271,7 +325,7 @@
     "compute rate of chemical conversion delta P over delta t",
     "how fast is product formed in an enzyme catalysed reaction"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -290,7 +344,16 @@
      "explain": "Enzymes greatly accelerate conversion rates compared to uncatalysed reactions by providing an alternative lower-energy pathway.",
      "compute": "rate_ratio = catalysed_rate / uncatalysed_rate"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rate = delta_p / delta_t",
+     "compute": "rate = delta_p / delta_t"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.109.9",
@@ -307,7 +370,7 @@
     "compute how many times faster enzyme speeds up reaction",
     "what is the fold acceleration given catalysed and uncatalysed rates"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -325,7 +388,16 @@
      "action": "Relate fold acceleration to activation energy reduction",
      "explain": "Substrate binding at the enzyme active site stabilizes the transition state, lowering activation energy and producing the observed rate enhancement."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "fold_acceleration = catalysed_rate / uncatalysed_rate",
+     "compute": "fold_acceleration = catalysed_rate / uncatalysed_rate"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.109.10",
@@ -342,7 +414,7 @@
     "compute value of half Vmax given maximum velocity",
     "what is half maximum velocity in enzyme concentration curve"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -360,7 +432,16 @@
      "action": "Relate half Vmax to substrate concentration and Km",
      "explain": "Km is the substrate concentration at which reaction velocity equals half Vmax, reflecting enzyme-substrate affinity and saturation behavior."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "half_vmax = vmax / 2",
+     "compute": "half_vmax = vmax / 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.109.11",

@@ -42,9 +42,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = 9 * 7"
-   ]
+   "steps_chain": []
   },
   {
    "id": "kemh107.7.2.2",
@@ -87,9 +85,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = 5 * 4"
-   ]
+   "steps_chain": []
   },
   {
    "id": "kemh107.7.2.3",
@@ -132,9 +128,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = 9 * 6"
-   ]
+   "steps_chain": []
   },
   {
    "id": "kemh107.7.2.4",
@@ -177,9 +171,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = 5 * 9"
-   ]
+   "steps_chain": []
   },
   {
    "id": "kemh107.7.2.5",
@@ -222,9 +214,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 4 ** (3 + 2)"
-   ]
+   "steps_chain": []
   },
   {
    "id": "kemh107.7.2.6",
@@ -267,9 +257,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = 9 * 6"
-   ]
+   "steps_chain": []
   },
   {
    "id": "kemh107.7.2.7",
@@ -312,9 +300,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "hcf = 6 * 1"
-   ]
+   "steps_chain": []
   },
   {
    "id": "kemh107.7.2.8",
@@ -488,11 +474,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "big = 9 * 1000 + 8 * 100 + 6 * 10 + 2",
-    "small = 2 * 1000 + 6 * 100 + 8 * 10 + 9",
-    "diff = big - small"
-   ]
+   "steps_chain": []
   }
  ]
 }

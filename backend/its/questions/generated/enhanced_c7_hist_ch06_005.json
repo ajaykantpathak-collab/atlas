@@ -27,12 +27,37 @@
     },
     {
      "q": "Evaluate the statement: \"The 8th-century Arab incursion into Sindh immediately transformed the political map of the entire Indian subcontinent.\" Is this accurate? Provide evidence.",
-     "a": "[Answer needed]",
+     "a": "Inaccurate: Muhammad bin Qasim's early-8th-century conquest remained confined to Sindh and parts of southern Punjab, while the Gurjara-Pratihara, Rashtrakuta, and Pala kingdoms stayed intact and dominant, so the subcontinent's political map was not immediately transformed. Treating a localised bridgehead as a subcontinental conquest overstates its reach.",
      "self_check": true
     },
     {
      "q": "This statement is inaccurate because the incursion was largely confined to Sindh and southern Punjab, leaving the powerful kingdoms of the Gurjara-Pratiharas, Rashtrakutas, and Palas untouched and dominant across most of the subcontinent. If a student agrees with the statement, they fail to recognize the localized geographic limits of the Arab bridgehead and overestimate its immediate impact on central and southern India.",
-     "a": "[Answer needed]",
+     "a": "Correct — the Arab hold stayed limited to Sindh and southern Punjab while the great northern and southern powers remained untouched; agreeing with the statement overlooks the localized geographic limits of the incursion.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This node examines the early medieval Arab incursions into the Indian ______, specifically focusing on the 8th-century expedition led by Muhammad bin Qasim into Sindh and its localized political and cultural impacts.",
+     "a": "subcontinent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine walking through the ruins of an old ______ trading port or looking at ancient navigation maps in a museum, where goods, sailors, and ideas freely crossed the Arabian Sea long before modern borders existed.",
+     "a": "coastal",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This node examines the early medieval Arab incursions into the Indian subcontinent, specifically focusing on the ______th-century expedition led by Muhammad bin Qasim into Sindh and its localized political and cultural impacts.",
+     "a": "8",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can explain the primary motivations behind the 8th-century Arab incursions into Sindh, differentiate between temporary military raids and permanent settlements, and analyze how political fragmentation in western India influenced the outcomes of these incursions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine walking through the ruins of an old coastal trading port or looking at ancient ______ maps in a museum, where goods, sailors, and ideas freely crossed the Arabian Sea long before modern borders existed.",
+     "a": "navigation",
      "self_check": true
     }
    ]

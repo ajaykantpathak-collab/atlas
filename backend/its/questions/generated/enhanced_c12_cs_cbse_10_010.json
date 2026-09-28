@@ -12,12 +12,12 @@
     },
     {
      "q": "Explain why the following code is dangerous for file operations:\n```python\ntry:\n    f = open('data.txt', 'r')\n    content = f.read()\nexcept:\n    print(\"Error occurred\")\nfinally:\n    f.close()\n```",
-     "a": "Three critical flaws: (1) Bare `except:` catches **all** exceptions including `KeyboardInterrupt` and `SystemExit`, preventing clean program termination. (2) If `open()` itself fails, `f` is never assigned, so `f.close()` in `finally` raises `UnboundLocalError`, masking the original error. (3) No `else` block means success-path code runs inside `try`, increasing the chance of catching unrelated exceptions. The correct pattern uses `with` or assigns `f = None` before `try` and checks `if f is not None:` in `finally`.",
+     "a": "Three critical flaws: (1) Bare `except:` catches **all** exceptions including `KeyboardInterrupt` and `SystemExit`, preventing clean program termination. (2) If `open()` itself fails, `f` is never assigned, so `f.close()` in `finally` raises `UnboundLocalError`, masking the original error. (3) No `else` block means success-path code runs inside `try`, increasing the chance of catching unrelated exceptions. The correct pattern uses `with` or assigns `f = N/A` before `try` and checks `if f is not N/A:` in `finally`.",
      "self_check": true
     },
     {
-     "q": "Write a Python function `read_config(filename)` that reads a JSON configuration file. It must: (a) return the parsed dict on success, (b) return `None` and log `\"File not found\"` if file missing, (c) return `None` and log `\"Permission denied\"` if no read permission, (d) return `None` and log `\"Corrupted data\"` if JSON decode fails, (e) ensure file is closed in all cases. Use `logging.error()` for logs.",
-     "a": "```python\nimport json, logging\n\ndef read_config(filename):\n    try:\n        with open(filename, 'r', encoding='utf-8') as f:\n            data = json.load(f)\n    except FileNotFoundError:\n        logging.error(\"File not found\")\n        return None\n    except PermissionError:\n        logging.error(\"Permission denied\")\n        return None\n    except json.JSONDecodeError:\n        logging.error(\"Corrupted data\")\n        return None\n    else:\n        return data\n```\nSteps: (1) `with` guarantees closure. (2) Specific `except` clauses in order of specificity (subclasses before superclasses). (3) `json.JSONDecodeError` caught separately — not an `OSError` subclass. (4) `else` returns data only if no exception. A wrong answer using `except Exception:` or missing `encoding='utf-8'` reveals ignorance of encoding-related failures (common in board exams).",
+     "q": "Write a Python function `read_config(filename)` that reads a JSON configuration file. It must: (a) return the parsed dict on success, (b) return `N/A` and log `\"File not found\"` if file missing, (c) return `N/A` and log `\"Permission denied\"` if no read permission, (d) return `N/A` and log `\"Corrupted data\"` if JSON decode fails, (e) ensure file is closed in all cases. Use `logging.error()` for logs.",
+     "a": "```python\nimport json, logging\n\ndef read_config(filename):\n    try:\n        with open(filename, 'r', encoding='utf-8') as f:\n            data = json.load(f)\n    except FileNotFoundError:\n        logging.error(\"File not found\")\n        return N/A\n    except PermissionError:\n        logging.error(\"Permission denied\")\n        return N/A\n    except json.JSONDecodeError:\n        logging.error(\"Corrupted data\")\n        return N/A\n    else:\n        return data\n```\nSteps: (1) `with` guarantees closure. (2) Specific `except` clauses in order of specificity (subclasses before superclasses). (3) `json.JSONDecodeError` caught separately — not an `OSError` subclass. (4) `else` returns data only if no exception. A wrong answer using `except Exception:` or missing `encoding='utf-8'` reveals ignorance of encoding-related failures (common in board exams).",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Design a robust file-copy function `copy_file(src, dst, chunk_size=8192)` that: (1) handles all file-related exceptions with specific messages, (2) copies in binary chunks to support large files, (3) verifies source and destination are not the same file (using `os.path.samefile`), (4) preserves permission bits (using `shutil.copymode`), (5) cleans up partial destination file on failure. Write the complete function with docstring.",
      "a": "```python\nimport os, shutil\n\ndef copy_file(src, dst, chunk_size=8192):\n    \"\"\"\n    Copy src to dst in binary chunks. Raises descriptive exceptions on failure.\n    Cleans up partial dst on error. Preserves permission bits.\n    \"\"\"\n    if os.path.samefile(src, dst):\n        raise ValueError(\"Source and destination are the same file\")\n    \n    try:\n        with open(src, 'rb') as fsrc:\n            try:\n                with open(dst, 'wb') as fdst:\n                    while chunk := fsrc.read(chunk_size):\n                        fdst.write(chunk)\n            except OSError as e:\n                # Clean up partial file on write error\n                try:\n                    os.remove(dst)\n                except OSError:\n                    pass  # Best effort cleanup\n                raise RuntimeError(f\"Failed to write to {dst}: {e}\") from e\n    except FileNotFoundError:\n        raise FileNotFoundError(f\"Source file not found: {src}\")\n    except PermissionError:\n        raise PermissionError(f\"Permission denied reading {src} or writing {dst}\")\n    except OSError as e:\n        raise RuntimeError(f\"OS error during copy: {e}\") from e\n    else:\n        try:\n            shutil.copymode(src, dst)\n        except OSError as e:\n            raise RuntimeError(f\"Failed to preserve permissions: {e}\") from e\n```\nA poor answer misses: chunked reading, `samefile` check, nested `try` for write-phase cleanup, `copymode` in `else`, or chaining exceptions with `from e`. This tests synthesis of file ops, exceptions, and OS utilities — a JEE-style integrative problem.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Exception handling in file ______ is the practice of using Python's try-except-else-finally blocks to gracefully manage runtime errors that occur during file I/O — such as missing files, permission denials, disk full conditions, or encoding mismatches — ensuring the program continues execution or exits cleanly while preserving data integrity.",
+     "a": "operations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your board exam ______ requires reading student marks from marks.txt — but the file might be missing, locked by another process, or corrupted.",
+     "a": "practical",
+     "self_check": true
+    },
+    {
+     "q": "What is Exception handling in file operations? State the definition given in this lesson.",
+     "a": "Exception handling in file operations is the practice of using Python's try-except-else-finally blocks to gracefully manage runtime errors that occur during file I/O — such as missing files, permission denials, disk full conditions, or encoding mismatches — ensuring the program continues execution or exits cleanly while preserving data.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Exception handling in file operations?",
+     "a": "Misconception: \"Using with open(...) as f: eliminates the need for try-except because it automatically closes the file.\" Why it's wrong: with only guarantees resource cleanup (calling close() via __exit__).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write a complete Python program that opens a file for reading/writing inside a try block, catches at least three specific file-related exceptions (FileNotFoundError, PermissionError, OSError) with separate except clauses, uses else for success-path logic, and uses finally to guarantee resource cleanup —.",
      "self_check": true
     }
    ]

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_12_006",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_12_006",
+   "title": "c11_leg_cbse_12_006",
+   "questions": [
+    {
+     "q": "A Hindu male aged 25 marries a Hindu female aged 17 in a ceremony complying with Saptapadi. The girl's parents consented. Is this marriage valid, void, or voidable under the Hindu Marriage Act, 1955? State the specific section.",
+     "a": "The marriage is **voidable** at the option of the girl (Section 12(1)(c) read with Section 5(iii) HMA). Section 5(iii) prescribes 18 years for the bride; violation does not make it void *ab initio* (like bigamy or Sapinda), but voidable under Section 12. A common error is marking it \"void\" because the condition is mandatory—voidness under HMA is strictly limited to Sections 11 (bigamy, prohibited degrees, Sapinda). Parental consent is irrelevant to validity.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a Muslim marriage with a fifth wife is classified as 'Fasid' (irregular) rather than 'Batil' (void), and how it can be regularized. Contrast this with a Hindu male marrying a second wife while the first is alive.",
+     "a": "Muslim law permits polygamy up to four wives (Quran 4:3). A fifth marriage violates a *directory* rule (number), not a *prohibitory* rule (consanguinity/fosterage), making it **Fasid** (irregular)—valid until challenged, regularizable by divorce/death of a prior wife. Hindu law (Section 5(i) HMA) enforces **strict monogamy**; a second marriage during the subsistence of the first is **void** under Section 11 HMA (no regularization possible). Students often confuse \"irregular\" (curable defect) with \"void\" (incurable defect) because both involve \"prohibited\" acts.",
+     "self_check": true
+    },
+    {
+     "q": "A Christian husband files for divorce under the Indian Divorce Act, 1869, alleging wife's adultery. The wife counter-claims husband's cruelty. The husband argues: \"As a Christian husband, I can *only* divorce on wife's adultery (Section 10), but she can divorce me on cruelty.\" Is his interpretation of Section 10 correct post-2001 amendment?",
+     "a": "**No.** The Indian Divorce (Amendment) Act, 2001 made grounds gender-neutral. Section 10 now allows *either* spouse to petition on adultery, cruelty, desertion (2 years), conversion, unsoundness of mind, etc. Pre-2001, Section 10 allowed husband *only* adultery; wife had additional grounds (rape/sodomy/bestiality + adultery). The student must track legislative amendments—relying on the bare act text without amendment history is a classic senior-secondary error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"cooling-off period\" in mutual consent divorce under Section 13B(2) HMA (6 months) with the Supreme Court's ruling in *Amardeep Singh v. Harveen Kaur* (2017). Can a Family Court waive this period *suo motu*? What are the jurisdictional limits?",
+     "a": "The 6-month cooling-off (Section 13B(2)) is **directory, not mandatory** (*Amardeep Singh*). The Court *may* waive it if: (i) parties have lived separately >18 months, (ii) all mediation/conciliation failed, (iii) no chance of reconciliation, (iv) pending criminal cases settled. However, the Court **cannot waive it *suo motu***—a joint application under Section 13B(2) proviso is required. Jurisdictional limit: Waiver is a judicial discretion, not a right; High Courts cannot direct blanket waiver for all cases. Students often think \"directory = automatic waiver\"—it is not.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The Family Courts Act, 1984 successfully eliminated gender bias in matrimonial disputes by replacing lawyers with counselors.\" Use the textbook's discussion on 'Role of Counselors and Gender Issues' (Section VI) and the *Protection of Women from Domestic Violence Act, 2005* (PWDVA) to support your evaluation.",
+     "a": "The statement is **false**. The textbook explicitly states: (1) Counselors' \"neutral stand usually ends up being anti-women, influenced by patriarchal biases\" (coercing reconciliation ignoring safety); (2) Lawyers are *routinely allowed* despite the Act's restriction, negating the \"replacement\" claim; (3) PWDVA (2005) was enacted *because* Family Courts focused on \"preservation of family\" over \"gender justice\"—civil remedies (residence orders, protection orders) were missing. The student must synthesize institutional design (Family Courts Act) with substantive gaps (PWDVA) and sociological reality (counselor bias).",
+     "self_check": true
+    },
+    {
+     "q": "Draft a novel \"Hybrid Marriage Validity Checklist\" for a Family Court judge hearing a petition under the Special Marriage Act, 1954, where the husband is Hindu, wife is Muslim, and they claim a prior \"Nikah\" ceremony was performed but not registered. The checklist must resolve: (a) Which law governs validity? (b) Is the Nikah a \"marriage\" under SMA? (c) Can they register under SMA now? (d) What if the husband has a living Hindu wife?",
+     "a": "**Checklist:**\n1. **Governing Law:** Special Marriage Act, 1954 (Section 2: applies to *any* Indian nationals irrespective of religion).\n2. **Prior Nikah Status:** Unregistered Nikah = no legal marriage under SMA (Section 15 requires *registration* of existing marriage; mere ceremony ≠ marriage). Muslim law may recognize it, but SMA is a *separate* statutory code.\n3. **Registration Now:** Yes, if conditions of Section 4 SMA met: (i) Monogamy (no living spouse), (ii) Age (21/18), (iii) Sound mind, (iv) Not within prohibited degrees (SMA Schedule I—wider than HMA).\n4. **Living Hindu Wife:** **Fatal.** Section 4(a) SMA requires \"neither party has a spouse living.\" Hindu wife (even if estranged/undivorced) = living spouse. Registration **refused**. Bigamy charge (Section 44 SMA / Section 494 IPC) possible.\n*Key Insight:* SMA creates a *new* statutory marriage; it does not \"validate\" a prior religious ceremony. Personal law marriage and SMA marriage are mutually exclusive tracks.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

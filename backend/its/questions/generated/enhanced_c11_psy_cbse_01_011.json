@@ -34,6 +34,26 @@
      "q": "Create a realistic, original case vignette (3-4 sentences) involving a 16-year-old student that would require collaboration between a clinical psychologist, a counselling psychologist, and an educational psychologist. Briefly state the specific role each professional would play.",
      "a": "Example vignette: \"Arjun, a 16-year-old, has been diagnosed with Generalised Anxiety Disorder (clinical psychologist manages diagnosis and CBT for anxiety symptoms). He also experiences severe career indecision and conflict with parents about stream selection (counselling psychologist provides career counselling and family communication sessions). His teachers report he struggles with timed examinations despite understanding concepts (educational psychologist recommends assessment accommodations, study skills training, and works with teachers on instructional pacing).\" A poor answer either assigns all roles to one professional, creates a vignette without clear differentiation of roles, or uses vague descriptions like \"helps with mental health\" without branch-specific terminology (diagnosis, career counselling, instructional accommodation).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Clinical Psychology focuses on the assessment, diagnosis, treatment, and prevention of mental disorders and ______ distress.",
+     "a": "psychological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine three Class 11 students: Rohan has been feeling intense, persistent sadness and hopelessness for months, struggling to get out of bed; Priya is overwhelmed by board exam pressure and family expectations, feeling anxious but ______; their teacher, Mr.",
+     "a": "functioning",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish between clinical, counselling, and educational psychology based on target population, problem severity, primary goals, and typical work settings, and (2) given a real-world scenario, correctly identify which branch is most relevant and justify the choice using branch-specific terminology.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine three Class 11 students: Rohan has been feeling intense, persistent sadness and ______ for months, struggling to get out of bed; Priya is overwhelmed by board exam pressure and family expectations, feeling anxious but functioning; their teacher, Mr.",
+     "a": "hopelessness",
+     "self_check": true
     }
    ]
   }

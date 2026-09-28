@@ -34,6 +34,21 @@
      "q": "Design a legend for a simplified toposheet of a hypothetical region that includes: a nucleated village with pucca houses, a dispersed settlement of kutcha huts, a national highway, a metre gauge railway with a level crossing, a cart track, and a footbridge. Use only standard SOI symbols.",
      "a": "A correct legend will draw: (1) a cluster of solid squares for the nucleated pucca village, (2) isolated hollow squares scattered for dispersed kutcha huts, (3) a thick red line for NH, (4) a double black line with narrower spacing for metre gauge, crossed by a road symbol with a small 'X' for level crossing, (5) a single dashed black line for cart track, (6) a dashed line with a small bridge symbol (two parallel ticks) over a blue line for footbridge. A poor answer uses non-standard colors, omits the level crossing symbol, or confuses metre/broad gauge spacing, indicating lack of symbol fluency.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Settlement and transport features on topographical maps refer to the standardized symbols and patterns used by the Survey of India (SOI) to depict human habitation (rural/urban settlements, scattered huts, fort, etc.) and ______ networks (metalled/unmetalled roads, cart tracks, footpaths, railways, bridges) on 1:50,000 and 1:250,000 scale maps, enabling interpretation of site selection factors, connectivity, and regional development.",
+     "a": "transportation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at a 1:50,000 ______ of your district (e.g., Survey of India sheet 45D/10 for parts of Delhi).",
+     "a": "toposheet",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify and annotate all SOI settlement and transport symbols on a given toposheet extract, explain the relationship between settlement patterns (nucleated, dispersed, linear) and physical features (contours, drainage), and evaluate transport network efficiency relative to terrain constraints.",
+     "self_check": true
     }
    ]
   }

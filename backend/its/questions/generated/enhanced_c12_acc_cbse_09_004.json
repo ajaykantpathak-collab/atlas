@@ -34,6 +34,21 @@
      "q": "Create a scenario where a company has high net profit but negative net cash from operating activities under the Direct Method. Specify the revenue, expense, and working capital changes that would cause this. Justify your numbers.",
      "a": "Example: Revenue ₹10,00,000 (all credit, so receivables increase ₹10,00,000) → cash from customers = 0. Expenses ₹2,00,000 (all paid in cash) → cash paid = ₹2,00,000. Net cash from operations = -₹2,00,000. Profit = ₹8,00,000. This shows profit ≠ cash flow. A poor answer (e.g., \"profit is high so cash must be high\") reveals the student has not grasped the accrual vs. cash distinction central to the Direct Method.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Direct Method of ______ cash flows from operating activities reports major classes of gross cash receipts (e.g., cash received from customers, cash received from royalties) and gross cash payments (e.g., cash paid to suppliers, cash paid to employees, cash paid for operating expenses) to arrive at net cash generated from operations.",
+     "a": "presenting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Your Profit & Loss shows ₹5,00,000 ______, but how much actual cash did you collect?",
+     "a": "revenue",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Identify the gross cash receipts and gross cash payments for operating activities from given financial statements and additional information; (2) Calculate cash received from customers and cash paid to suppliers/employees/expenses using the T-account or formula approach; (3) Present the operating.",
+     "self_check": true
     }
    ]
   }

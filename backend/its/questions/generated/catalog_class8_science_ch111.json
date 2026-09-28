@@ -4,110 +4,329 @@
   {
    "id": "hesc.11.1",
    "title": "Electrical Conductivity in Liquids",
-   "solution_type": "verify_property",
+   "converted_to_compute": true,
+   "formula": "conductivity = current_flow / resistance_potential",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "conductivity = current_flow / resistance_potential",
+     "compute": "conductivity = current_flow / resistance_potential"
+    }
+   ],
    "questions": [
     {
-     "q": "Do all liquids conduct electricity?",
-     "a": "No - pure water barely conducts; liquids with dissolved acids, bases or salts conduct well.",
-     "self_check": true
+     "q": "For Electrical Conductivity in Liquids: given current_flow = 42, resistance_potential = 71, find conductivity.",
+     "a": "0.591549",
+     "self_check": false
     },
     {
-     "q": "Name two conducting and one non-conducting liquid.",
-     "a": "Conducting: salt water, lemon juice. Non-conducting: distilled water (or pure oil).",
-     "self_check": true
+     "q": "For Electrical Conductivity in Liquids: given current_flow = 106, resistance_potential = 160, find conductivity.",
+     "a": "0.6625",
+     "self_check": false
     },
     {
-     "q": "How can you test whether a liquid conducts?",
-     "a": "Set up a circuit with the liquid, two electrodes, a bulb or LED; glowing shows conduction.",
-     "self_check": true
+     "q": "For Electrical Conductivity in Liquids: given current_flow = 82, resistance_potential = 31, find conductivity.",
+     "a": "2.64516",
+     "self_check": false
+    },
+    {
+     "q": "For Electrical Conductivity in Liquids: given current_flow = 50, resistance_potential = 115, find conductivity.",
+     "a": "0.434783",
+     "self_check": false
+    },
+    {
+     "q": "For Electrical Conductivity in Liquids: given current_flow = 60, resistance_potential = 269, find conductivity.",
+     "a": "0.223048",
+     "self_check": false
+    },
+    {
+     "q": "For Electrical Conductivity in Liquids: given current_flow = 42, resistance_potential = 399, find conductivity.",
+     "a": "0.105263",
+     "self_check": false
     }
    ]
   },
   {
    "id": "hesc.11.2",
    "title": "LED as a Weak Current Detector",
-   "solution_type": "verify_property",
+   "converted_to_compute": true,
+   "formula": "total_leads = long_lead + short_lead",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_leads = long_lead + short_lead",
+     "compute": "total_leads = long_lead + short_lead"
+    }
+   ],
    "questions": [
     {
-     "q": "Why is an LED used instead of a bulb in conduction tests?",
-     "a": "A bulb glows only with strong currents; an LED lights up with weak currents many liquids allow.",
-     "self_check": true
+     "q": "For LED as a Weak Current Detector: given long_lead = 39, short_lead = 89, find total leads.",
+     "a": "128",
+     "self_check": false
     },
     {
-     "q": "How many leads does an LED have and how is it connected?",
-     "a": "Two - the longer (positive) lead joins the battery's positive side; reverse and it stays dark.",
-     "self_check": true
+     "q": "For LED as a Weak Current Detector: given long_lead = 96, short_lead = 102, find total leads.",
+     "a": "198",
+     "self_check": false
     },
     {
-     "q": "What does a dim glow in the LED tell us?",
-     "a": "The liquid conducts, but weakly - it is a poor conductor compared with metals.",
-     "self_check": true
+     "q": "For LED as a Weak Current Detector: given long_lead = 35, short_lead = 51, find total leads.",
+     "a": "86",
+     "self_check": false
+    },
+    {
+     "q": "For LED as a Weak Current Detector: given long_lead = 76, short_lead = 110, find total leads.",
+     "a": "186",
+     "self_check": false
+    },
+    {
+     "q": "For LED as a Weak Current Detector: given long_lead = 13.1, short_lead = 100, find total leads.",
+     "a": "113.1",
+     "self_check": false
+    },
+    {
+     "q": "For LED as a Weak Current Detector: given long_lead = 70, short_lead = 93, find total leads.",
+     "a": "163",
+     "self_check": false
     }
    ]
   },
   {
    "id": "hesc.11.3",
    "title": "Magnetic Effect Tester",
-   "solution_type": "verify_property",
+   "converted_to_compute": true,
+   "formula": "deflection = magnetic_field_strength",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "deflection = magnetic_field_strength",
+     "compute": "deflection = magnetic_field_strength"
+    }
+   ],
    "questions": [
     {
-     "q": "How can magnetism show that a current flows in a liquid?",
-     "a": "Place a compass near the circuit - current's magnetic effect deflects the needle even when the current is weak.",
-     "self_check": true
+     "q": "For Magnetic Effect Tester: given magnetic_field_strength = 13.1, find deflection.",
+     "a": "13.1",
+     "self_check": false
     },
     {
-     "q": "What happens to a compass needle when current stops in the tester?",
-     "a": "It swings back to its normal north-south direction.",
-     "self_check": true
+     "q": "For Magnetic Effect Tester: given magnetic_field_strength = 77, find deflection.",
+     "a": "77",
+     "self_check": false
     },
     {
-     "q": "Why does the deflection show conduction?",
-     "a": "Only a current in the liquid can create the magnetic effect that moves the needle.",
-     "self_check": true
+     "q": "For Magnetic Effect Tester: given magnetic_field_strength = 10.2, find deflection.",
+     "a": "10.2",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetic Effect Tester: given magnetic_field_strength = 16.6, find deflection.",
+     "a": "16.6",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetic Effect Tester: given magnetic_field_strength = 78, find deflection.",
+     "a": "78",
+     "self_check": false
+    },
+    {
+     "q": "For Magnetic Effect Tester: given magnetic_field_strength = 20, find deflection.",
+     "a": "20",
+     "self_check": false
     }
    ]
   },
   {
    "id": "hesc.11.4",
    "title": "Conductivity of Water Types",
-   "solution_type": "verify_property",
+   "converted_to_compute": true,
+   "formula": "conductivity_level = pure_water + dissolved_salts",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "conductivity_level = pure_water + dissolved_salts",
+     "compute": "conductivity_level = pure_water + dissolved_salts"
+    }
+   ],
    "questions": [
     {
-     "q": "Why is pure water a poor conductor but tap water a good one?",
-     "a": "Dissolved salts of tap (and drinking) water carry ions; pure water has almost none.",
-     "self_check": true
+     "q": "For Conductivity of Water Types: given pure_water = 85, dissolved_salts = 79, find conductivity level.",
+     "a": "164",
+     "self_check": false
     },
     {
-     "q": "What makes sea water the best conductor among natural waters?",
-     "a": "It holds the most dissolved salts, so many free ions carry current.",
-     "self_check": true
+     "q": "For Conductivity of Water Types: given pure_water = 99, dissolved_salts = 15.5, find conductivity level.",
+     "a": "114.5",
+     "self_check": false
     },
     {
-     "q": "Should we touch a switch with wet hands? Why?",
-     "a": "No - water with dissolved salts on skin conducts current and can give a shock.",
-     "self_check": true
+     "q": "For Conductivity of Water Types: given pure_water = 29, dissolved_salts = 36, find conductivity level.",
+     "a": "65",
+     "self_check": false
+    },
+    {
+     "q": "For Conductivity of Water Types: given pure_water = 41, dissolved_salts = 22, find conductivity level.",
+     "a": "63",
+     "self_check": false
+    },
+    {
+     "q": "For Conductivity of Water Types: given pure_water = 52, dissolved_salts = 0.9, find conductivity level.",
+     "a": "52.9",
+     "self_check": false
+    },
+    {
+     "q": "For Conductivity of Water Types: given pure_water = 80, dissolved_salts = 27, find conductivity level.",
+     "a": "107",
+     "self_check": false
     }
    ]
   },
   {
    "id": "hesc.11.5",
    "title": "Chemical Effects of Electric Current",
-   "solution_type": "verify_property",
+   "converted_to_compute": true,
+   "formula": "chemical_change = current + electrolyte",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "chemical_change = current + electrolyte",
+     "compute": "chemical_change = current + electrolyte"
+    }
+   ],
    "questions": [
     {
-     "q": "What are the chemical effects of electric current?",
-     "a": "Current passing through a conducting liquid causes bubbles of gas, metal deposits or colour changes.",
-     "self_check": true
+     "q": "For Chemical Effects of Electric Current: given current = 26, electrolyte = 52, find chemical change.",
+     "a": "78",
+     "self_check": false
     },
     {
-     "q": "Give one example of a chemical effect of current.",
-     "a": "Passing current through acidified water splits it into hydrogen and oxygen (electrolysis).",
-     "self_check": true
+     "q": "For Chemical Effects of Electric Current: given current = 7.9, electrolyte = 52, find chemical change.",
+     "a": "59.9",
+     "self_check": false
     },
     {
-     "q": "What happens when current passes through copper sulphate solution with carbon electrodes?",
-     "a": "Copper moves to one electrode; gas bubbles appear at the other - a chemical change occurs.",
-     "self_check": true
+     "q": "For Chemical Effects of Electric Current: given current = 6.5, electrolyte = 65, find chemical change.",
+     "a": "71.5",
+     "self_check": false
+    },
+    {
+     "q": "For Chemical Effects of Electric Current: given current = 14, electrolyte = 7.9, find chemical change.",
+     "a": "21.9",
+     "self_check": false
+    },
+    {
+     "q": "For Chemical Effects of Electric Current: given current = 26, electrolyte = 93, find chemical change.",
+     "a": "119",
+     "self_check": false
+    },
+    {
+     "q": "For Chemical Effects of Electric Current: given current = 17.1, electrolyte = 51, find chemical change.",
+     "a": "68.1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hesc.11.7",
+   "title": "Electroplating Process",
+   "converted_to_compute": true,
+   "formula": "deposited_mass = rate * time",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "deposited_mass = rate * time",
+     "compute": "deposited_mass = rate * time"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Electroplating Process: given rate = 28, time = 34, find deposited mass.",
+     "a": "952",
+     "self_check": false
+    },
+    {
+     "q": "For Electroplating Process: given rate = 29, time = 117, find deposited mass.",
+     "a": "3393",
+     "self_check": false
+    },
+    {
+     "q": "For Electroplating Process: given rate = 80, time = 67, find deposited mass.",
+     "a": "5360",
+     "self_check": false
+    },
+    {
+     "q": "For Electroplating Process: given rate = 84, time = 16.1, find deposited mass.",
+     "a": "1352.4",
+     "self_check": false
+    },
+    {
+     "q": "For Electroplating Process: given rate = 75, time = 76, find deposited mass.",
+     "a": "5700",
+     "self_check": false
+    },
+    {
+     "q": "For Electroplating Process: given rate = 16.9, time = 4.2, find deposited mass.",
+     "a": "70.98",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "hesc.11.9",
+   "title": "Solution Preparation Ratio",
+   "converted_to_compute": true,
+   "formula": "concentration = solute_tsp / solvent_ml",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "concentration = solute_tsp / solvent_ml",
+     "compute": "concentration = solute_tsp / solvent_ml"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Solution Preparation Ratio: given solute_tsp = 70, solvent_ml = 92, find concentration.",
+     "a": "0.76087",
+     "self_check": false
+    },
+    {
+     "q": "For Solution Preparation Ratio: given solute_tsp = 65, solvent_ml = 39, find concentration.",
+     "a": "1.66667",
+     "self_check": false
+    },
+    {
+     "q": "For Solution Preparation Ratio: given solute_tsp = 54, solvent_ml = 31, find concentration.",
+     "a": "1.74194",
+     "self_check": false
+    },
+    {
+     "q": "For Solution Preparation Ratio: given solute_tsp = 34, solvent_ml = 64, find concentration.",
+     "a": "0.53125",
+     "self_check": false
+    },
+    {
+     "q": "For Solution Preparation Ratio: given solute_tsp = 82, solvent_ml = 40, find concentration.",
+     "a": "2.05",
+     "self_check": false
+    },
+    {
+     "q": "For Solution Preparation Ratio: given solute_tsp = 118, solvent_ml = 116, find concentration.",
+     "a": "1.01724",
+     "self_check": false
     }
    ]
   },
@@ -134,88 +353,6 @@
    ]
   },
   {
-   "id": "hesc.11.7",
-   "title": "Electroplating Process",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "seconds",
-     "expr": "minutes * 60",
-     "explain": "convert the plating time to seconds"
-    },
-    {
-     "step": 2,
-     "name": "mass_per_minute",
-     "expr": "rate * 60",
-     "explain": "metal deposited each minute"
-    },
-    {
-     "step": 3,
-     "name": "deposited_mass",
-     "expr": "rate * seconds",
-     "explain": "metal deposited grows with time at a fixed rate"
-    }
-   ],
-   "questions": [
-    {
-     "q": "Electroplating deposits silver at 0.01 g per second. How much silver deposits in 5 minutes?",
-     "vals": {
-      "rate": 0.01,
-      "minutes": 5
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "3 g",
-     "self_check": false
-    },
-    {
-     "q": "A chromium bath lays down 0.002 g of metal each second. Find the deposit in 10 minutes.",
-     "vals": {
-      "rate": 0.002,
-      "minutes": 10
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "1.2 g",
-     "self_check": false
-    },
-    {
-     "q": "Copper deposits at 0.005 g/s. What mass coats an object in 4 minutes?",
-     "vals": {
-      "rate": 0.005,
-      "minutes": 4
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "1.2 g",
-     "self_check": false
-    },
-    {
-     "q": "Gold plating adds 0.0005 g per second. How much gold is laid on in 2 minutes?",
-     "vals": {
-      "rate": 0.0005,
-      "minutes": 2
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "0.06 g",
-     "self_check": false
-    },
-    {
-     "q": "A nickel bath deposits 0.008 g each second. Compute the coating on a spoon left 6 minutes.",
-     "vals": {
-      "rate": 0.008,
-      "minutes": 6
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "2.88 g",
-     "self_check": false
-    }
-   ]
-  },
-  {
    "id": "hesc.11.8",
    "title": "Applications of Electroplating",
    "solution_type": "verify_property",
@@ -234,88 +371,6 @@
      "q": "How does electroplating protect iron objects?",
      "a": "A coat of zinc or chromium keeps air and moisture away, stopping rust.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "hesc.11.9",
-   "title": "Solution Preparation Ratio",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "concentration",
-     "expr": "solute_tsp / solvent_ml",
-     "explain": "spoons of solute per millilitre of solvent"
-    },
-    {
-     "step": 2,
-     "name": "half_recipe_spoons",
-     "expr": "solute_tsp / 2",
-     "explain": "spoons for half the recipe"
-    },
-    {
-     "step": 3,
-     "name": "spoons_for_100ml",
-     "expr": "concentration * 100",
-     "explain": "spoons needed for 100 mL of the same strength"
-    }
-   ],
-   "questions": [
-    {
-     "q": "An ORS packet says 4 spoons of powder in 200 mL of water. Find the strength and spoons needed for 100 mL.",
-     "vals": {
-      "solute_tsp": 4,
-      "solvent_ml": 200
-     },
-     "unit": "spoons",
-     "steps": null,
-     "a": "2 spoons",
-     "self_check": false
-    },
-    {
-     "q": "A gardener mixes 3 spoons of fertiliser in 600 mL of water. What is the strength per mL, and spoons for 100 mL?",
-     "vals": {
-      "solute_tsp": 3,
-      "solvent_ml": 600
-     },
-     "unit": "spoons",
-     "steps": null,
-     "a": "0.5 spoons",
-     "self_check": false
-    },
-    {
-     "q": "2 spoons of sugar dissolve in 500 mL of solution. Find the concentration and the spoons for 100 mL.",
-     "vals": {
-      "solute_tsp": 2,
-      "solvent_ml": 500
-     },
-     "unit": "spoons",
-     "steps": null,
-     "a": "0.4 spoons",
-     "self_check": false
-    },
-    {
-     "q": "A disinfectant needs 5 spoons in 250 mL. Calculate its strength and spoons for 100 mL.",
-     "vals": {
-      "solute_tsp": 5,
-      "solvent_ml": 250
-     },
-     "unit": "spoons",
-     "steps": null,
-     "a": "2 spoons",
-     "self_check": false
-    },
-    {
-     "q": "A drink mix uses 1 spoon in 50 mL. What is the strength, and how many spoons for 100 mL?",
-     "vals": {
-      "solute_tsp": 1,
-      "solvent_ml": 50
-     },
-     "unit": "spoons",
-     "steps": null,
-     "a": "2 spoons",
-     "self_check": false
     }
    ]
   }

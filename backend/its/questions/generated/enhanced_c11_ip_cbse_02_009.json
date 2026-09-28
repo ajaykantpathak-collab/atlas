@@ -34,6 +34,31 @@
      "q": "Design a function `safe_append(lst, val)` that appends `val` to `lst` **without modifying the original list** passed by the caller. Write the code and explain why your solution works.",
      "a": "```python\ndef safe_append(lst, val):\n    new_lst = lst.copy()  # or lst[:] or list(lst)\n    new_lst.append(val)\n    return new_lst\n```\nThis works because `copy()` creates a **shallow copy** (new list object with same elements). `append()` then mutates the copy, leaving the original untouched. A poor answer (e.g., `lst.append(val); return lst`) reveals the student cannot distinguish between mutating the original vs creating a new object.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In Python, a data type is ______ if its value cannot be changed after creation — any operation that appears to modify it actually creates a new object (e.g., int, float, str, bool, tuple).",
+     "a": "immutable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Did the integer 10 change into 11, or did a start ______ to a new integer 11?",
+     "a": "pointing",
+     "self_check": true
+    },
+    {
+     "q": "What is In Python, a data type? State the definition given in this lesson.",
+     "a": "In Python, a data type is immutable if its value cannot be changed after creation — any operation that appears to modify it actually creates a new object (e.g., int, float, str, bool, tuple).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about In Python, a data type?",
+     "a": "Misconception: \"+= always modifies an object in-place.\" Students see x += 1 for integers and lst += [3] for lists and assume both mutate.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) classify any given Python data type as mutable or immutable with justification, (2) predict whether id(x) changes after an operation like x += 1 or x.append(5), and (3) explain the consequence of mutability when passing arguments to functions (aliasing vs copying).",
+     "self_check": true
     }
    ]
   }

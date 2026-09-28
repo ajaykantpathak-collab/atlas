@@ -4,15 +4,9 @@
   {
    "id": "hemh.112.12.1",
    "title": "Factors of Natural Numbers and Algebraic Expressions",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute the given values and simplify",
-     "explain": "substitute the given values and simplify: val = 3 * 3 + 9 gives 18",
-     "compute": "val = 3 * 3 + 9"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 9 when x = 3.",
@@ -49,27 +43,9 @@
   {
    "id": "hemh.112.12.2",
    "title": "Factorisation by Common Factors and Regrouping",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the number-play rule digit by digit",
-     "explain": "apply the number-play rule digit by digit: big = 8 * 1000 + 7 * 100 + 4 * 10 + 1 gives 8741",
-     "compute": "big = 8 * 1000 + 7 * 100 + 4 * 10 + 1"
-    },
-    {
-     "step": 2,
-     "action": "carry the chain forward",
-     "explain": "apply the number-play rule digit by digit: small = 1 * 1000 + 4 * 100 + 7 * 10 + 8 gives 1478",
-     "compute": "small = 1 * 1000 + 4 * 100 + 7 * 10 + 8"
-    },
-    {
-     "step": 3,
-     "action": "read off the answer",
-     "explain": "apply the number-play rule digit by digit: diff = big - small gives 7263",
-     "compute": "diff = big - small"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "For the digits 7, 1, 8, 4 form the largest and smallest 4-digit numbers and find their difference (Kaprekar step).",
@@ -106,15 +82,9 @@
   {
    "id": "hemh.112.12.3",
    "title": "Factorisation Using Identities",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "expand with the algebraic identity and evaluate",
-     "explain": "expand with the algebraic identity and evaluate: val = 4 * 4 + 2 * 4 * 3 + 3 * 3 gives 49",
-     "compute": "val = 4 * 4 + 2 * 4 * 3 + 3 * 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Use the identity (a + b)^2 = a^2 + 2ab + b^2 to find the square of 3 more than 4; report the value.",
@@ -152,6 +122,8 @@
    "id": "hemh.112.12.4",
    "title": "Division of Algebraic Expressions",
    "converted_to_compute": false,
+   "formula": "coef_quotient = coef1 / coef2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 5 when x = 4.",

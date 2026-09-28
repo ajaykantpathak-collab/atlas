@@ -34,6 +34,36 @@
      "q": "Create a 22-nucleotide forward primer for the sequence 5'-ATG GAA TTC GAT CCA GCT AGC-3' (coding strand) such that: (a) it starts at the ATG, (b) its GC% is between 45–55%, and (c) its 3' end is a G or C (GC clamp). Provide the primer sequence and verify all three constraints.",
      "a": "Target start: ATGGAA... Need 22 nt. Take first 22 nt of coding strand: 5'-ATGGAATTCGATCCAGCTAGC-3' (22 nt). Count: A=6, T=5, G=5, C=6. Total=22. GC=11 → GC% = 50% (within 45–55%). 3' end = C (GC clamp satisfied). All constraints met. A poor answer might extend beyond 22 nt, ignore the 3' clamp, or miscalculate GC%. This tests the student's ability to synthesize a primer de novo under multiple simultaneous constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Primer design for PCR is the process of selecting short, single-stranded DNA ______ (typically 18–30 nucleotides) that flank a target DNA region, with optimized length, GC content (40–60%), melting temperature (Tm), and specificity to ensure efficient and specific amplification during the Polymerase Chain Reaction.",
+     "a": "oligonucleotides",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a forensic scientist trying to amplify a ______ STR locus from a tiny DNA sample found at a crime scene.",
+     "a": "specific",
+     "self_check": true
+    },
+    {
+     "q": "What is Primer design for PCR? State the definition given in this lesson.",
+     "a": "Primer design for PCR is the process of selecting short, single-stranded DNA oligonucleotides (typically 18–30 nucleotides) that flank a target DNA region, with optimized length, GC content (40–60%), melting temperature (Tm), and specificity to ensure efficient and specific amplification during the Polymerase Chain Reaction.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight is that primer design is a balancing act between thermodynamic stability and sequence uniqueness — a primer that is thermodynamically perfect but binds ______ places in the genome is useless.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Primer design for PCR?",
+     "a": "Students often believe that \"longer primers are always more specific\" and design 35–40 nt primers.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) calculate the melting temperature (Tm) of a given primer sequence using the Wallace rule and the nearest-neighbor method, (2) evaluate a primer pair for GC content, Tm compatibility (ΔTm ≤ 5°C), and absence of secondary structures (hairpins, dimers), and (3) design a forward and reverse primer pair for a.",
+     "self_check": true
     }
    ]
   }

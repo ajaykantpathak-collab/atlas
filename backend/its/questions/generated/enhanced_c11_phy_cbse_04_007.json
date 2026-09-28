@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a force table (or a circular board with pulleys at the edge and strings tied to a central ring) to verify the triangle law of forces for three concurrent forces in equilibrium. Specify: (a) the measurable quantities, (b) how you would confirm equilibrium, (c) how you would check if the three forces form a closed triangle.",
      "a": "(a) Measurable quantities: masses hanging from each string (convert to forces F = mg), angles of each string relative to a reference direction (using a protractor on the force table).  \n(b) Equilibrium confirmation: The central ring remains stationary at the centre of the table (not touching the central pin) when the system is released. If it moves, adjust masses/angles until it stays centred.  \n(c) Triangle law check: Draw the three force vectors to scale (e.g., 1 cm = 1 N) head-to-tail in the order of their directions around the ring. If the polygon closes (the tail of the first meets the head of the third), the triangle law is verified. Alternatively, compute ΣFₓ and ΣFᵧ from measured angles and magnitudes — both should be zero within experimental error.  \nA poor answer (e.g., \"measure angles and see if they add to 360°\") reveals confusion between angle sum and vector closure, or inability to translate physical setup into vector diagram.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Equilibrium of a particle is the state in which the vector sum of all external forces acting on the particle is zero (ΣF = 0), resulting in zero ______.",
+     "a": "acceleration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan hanging from a hook by a rod — it remains ______ despite gravity pulling it down.",
+     "a": "stationary",
+     "self_check": true
+    },
+    {
+     "q": "What is Equilibrium of a particle? State the definition given in this lesson.",
+     "a": "Equilibrium of a particle is the state in which the vector sum of all external forces acting on the particle is zero (ΣF = 0), resulting in zero acceleration.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Equilibrium of a particle is the state in which the vector sum of all external forces acting on the particle is zero (ΣF = ______), resulting in zero acceleration.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can draw a correct free-body diagram for a particle under concurrent forces, resolve forces into rectangular components, apply ΣFₓ = 0 and ΣFᵧ = 0 to set up simultaneous equations, and solve for unknown tensions, angles, or applied forces.",
+     "self_check": true
     }
    ]
   }

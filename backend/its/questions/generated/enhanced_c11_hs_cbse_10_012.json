@@ -34,6 +34,36 @@
      "q": "Create a realistic scenario of a 35-year-old freelance graphic designer applying for a ₹3 lakh business loan to buy a high-end laptop and design software. Assign a strength rating (Strong/Moderate/Weak) for each of the Four Cs with specific evidence from your scenario. Justify whether a bank should approve this loan.",
      "a": "Sample strong answer: Character: Moderate—no prior loans but 5-year client retention proves reliability. Capacity: Moderate—₹80,000 average monthly income but irregular; ₹30,000 essential expenses leaves ₹50,000 margin, sufficient for EMI. Capital: Weak—₹1 lakh savings, no property, net worth low. Collateral: Weak—laptop depreciates fast; no immovable asset. Verdict: Bank may approve with a guarantor or at higher interest due to Character+Capacity strength, but Collateral/Capital weakness increases risk. A poor answer (e.g., all \"Strong\" without evidence, or \"Collateral is the laptop\" ignoring depreciation) reveals inability to apply the Four Cs to irregular-income, asset-light modern professions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Credit is a financial ______ where a borrower receives money, goods, or services in the present with the obligation to repay the lender in the future, usually with interest, based on the lender's trust in the borrower's willingness and ability to repay.",
+     "a": "arrangement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family wants to buy a ______ costing ₹35,000 but only has ₹10,000 in savings.",
+     "a": "refrigerator",
+     "self_check": true
+    },
+    {
+     "q": "What is Credit? State the definition given in this lesson.",
+     "a": "Credit is a financial arrangement where a borrower receives money, goods, or services in the present with the obligation to repay the lender in the future, usually with interest, based on the lender's trust in the borrower's willingness and ability to repay.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"What would make the shopkeeper trust your family to pay all ______ instalments?\" Guide students to identify trustworthiness (Character), steady income after expenses (Capacity), assets owned minus debts (Capital), and the refrigerator itself as security (Collateral).",
+     "a": "12",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Credit?",
+     "a": "Students conflate Capital and Collateral, thinking they are the same because both relate to \"assets.\" They answer: \"Capital is the house you pledge for a home loan\" or \"Collateral is your total net worth.\" This error arises because both terms start with 'C', both involve assets, and the textbook defines them in adjacent paragraphs.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) define credit and explain its dual nature as increased purchasing power and future obligation, (2) distinguish between the Four Cs of Credit with concrete examples for each, and (3) evaluate a given borrower scenario to determine which C is strongest/weakest and justify whether credit should be granted.",
+     "self_check": true
     }
    ]
   }

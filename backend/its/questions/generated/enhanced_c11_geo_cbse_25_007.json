@@ -34,6 +34,31 @@
      "q": "Design a visual interpretation key (not dichotomous) for identifying *five* land cover classes in a 1:25,000 scale vertical aerial photograph of the **Chotanagpur Plateau** (Jharkhand) in **December**. Your key must be a table with columns: Class Name, Tone, Texture, Pattern, Shape, Size, Shadow, Site, Association. Include: (1) Sal forest, (2) Rabi wheat, (3) Fallow lateritic upland, (4) Iron ore quarry, (5) Tribal hamlet. Justify one element choice per class that is *diagnostic* (unique to that class in this setting).",
      "a": "**Visual Interpretation Key — Chotanagpur Plateau, December, 1:25,000**\n\n| Class | Tone | Texture | Pattern | Shape | Size | Shadow | Site | Association | Diagnostic Element |\n|-------|------|---------|---------|-------|------|--------|------|-------------|-------------------|\n| Sal forest | Dark | Coarse | Contiguous, irregular | Irregular, large | >50 ha | Long (canopy height) | Plateau tops, scarps | Abrupt edge with fallow | **Shadow** — only class with consistent long shadows from 20–30 m canopy in Dec |\n| Rabi wheat | Dark-green | Fine | Parallel rows (E-W) | Rectangular strips | 0.5–5 ha | None (low crop) | Valley bottoms, terraces | Adjacent to irrigation tanks | **Pattern** — only class with systematic row pattern at this scale |\n| Fallow lateritic upland | Light-red | Smooth | None (massive) | Irregular, follows contours | 10–200 ha | None | Undulating lateritic plateaus | Surrounds sal patches | **Tone + Site** — unique lateritic red tone on plateau interfluves |\n| Iron ore quarry | Very light (ore) / Dark (water) | Very coarse (benches) | Concentric benches | Circular/amphitheatre | 5–100 ha | Strong (bench faces) | Ridge tops (ore bodies) | Haul roads to railway siding | **Shape + Pattern** — only class with concentric benching |\n| Tribal hamlet | Mixed (thatch dark, mud light) | Medium | Clustered, organic | Circular/oval clusters | 0.1–2 ha | Short (huts 3–4 m) | Valley sides, near streams | Footpaths to forest/farm | **Association** — only class linked to both forest (NTFP) and stream (water) |\n\n**Justification of diagnostic choices**: Each diagnostic element is the *least variable* and *most unique* for that class in this specific physiographic-climatic context (December, Chotanagpur). A poor key would use \"dark tone\" for both sal and wheat (fails), or \"irregular shape\" for both forest and hamlet (fails). The key must work *without* ground truth — that is the test of a valid interpretation key.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Interpretation of aerial photographs is the systematic process of identifying natural and cultural features on vertical or oblique aerial images by analyzing eight diagnostic elements: tone (relative brightness), texture (surface roughness pattern), pattern (spatial arrangement), shape (geometric form), size (dimensions relative to scale), shadow (silhouette revealing profile), site (topographic/locational context), and association (relationship with neighboring features); interpretation keys are structured visual or dichotomous guides that codify these element combinations for consistent feature ______ across images.",
+     "a": "identification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Open Google Earth on your phone and zoom to your own neighborhood at ~500 m eye altitude — notice how the cricket ground appears as a smooth light-toned oval (tone + shape), the banyan tree casts a sharp shadow revealing its canopy spread (shadow), the row houses form a repetitive linear pattern (pattern), and the temple complex sits on a slight mound near the pond (site + ______).",
+     "a": "association",
+     "self_check": true
+    },
+    {
+     "q": "What is Interpretation of aerial photographs? State the definition given in this lesson.",
+     "a": "Interpretation of aerial photographs is the systematic process of identifying natural and cultural features on vertical or oblique aerial images by analyzing eight diagnostic elements: tone (relative brightness), texture (surface roughness pattern), pattern (spatial arrangement), shape (geometric form), size (dimensions relative to.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently analyze an unfamiliar vertical aerial photograph (1:10,000 to 1:50,000 scale) to identify at least five distinct land use/land cover classes (e.g., kharif crop, rabi crop, fallow, built-up, water body, forest) by explicitly citing the relevant interpretation elements for each class, and can construct a.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Open Google Earth on your phone and zoom to your own ______ at ~500 m eye altitude — notice how the cricket ground appears as a smooth light-toned oval (tone + shape), the banyan tree casts a sharp shadow revealing its canopy spread (shadow), the row houses form a repetitive linear pattern (pattern), and the temple complex sits on a slight mound near the pond (site + association).",
+     "a": "neighborhood",
+     "self_check": true
     }
    ]
   }

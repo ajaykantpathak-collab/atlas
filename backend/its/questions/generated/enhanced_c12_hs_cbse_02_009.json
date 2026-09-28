@@ -34,6 +34,36 @@
      "q": "Design a 30 g fibre day menu for a 70 kg male with hypertension (DASH diet principles) using only Indian foods. List each item, portion, fibre contribution, and sodium check. Total sodium must be <2300 mg.",
      "a": "Sample menu: Breakfast — oats porridge (40 g dry, 4 g fibre) + 1 apple (2.5 g) + 100 mL skim milk; Lunch — 1 bajra roti (30 g, 3.5 g) + 1 cup chana dal (30 g raw, 7 g) + ½ cup methi sabzi (3 g) + salad (1 g); Evening — 1 guava (5 g) + 10 g roasted chana (2 g); Dinner — 1 cup barley khichdi (50 g barley, 4 g) + ½ cup lauki (1 g) + curd (0 g). Total fibre ≈ 33 g. Sodium: all home-cooked without added salt in dough/dal, <1500 mg. Good answer shows soluble/insoluble split and sodium awareness. Poor answer uses processed \"high-fibre\" biscuits (high sodium).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Water is an essential nutrient constituting 60-70% of body weight, serving as the universal solvent for metabolic reactions, transport medium for nutrients and wastes, ______ via sweat evaporation, and structural component of cells; dietary fibre is the edible plant material (non-starch polysaccharides, lignin, resistant starch) resistant to human digestive enzymes, classified as soluble (pectins, gums, β-glucans) and insoluble (cellulose, hemicellulose, lignin), which modulates gastrointestinal transit, glycemic response, lipid absorption, and gut microbiota fermentation to produce short-chain fatty acids (SCFAs).",
+     "a": "thermoregulator",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 45-year-old office worker in Delhi who drinks only 1 L water daily, skips ______, eats white rice and refined wheat rotis, and complains of afternoon fatigue, hard stools, and rising HbA1c.",
+     "a": "breakfast",
+     "self_check": true
+    },
+    {
+     "q": "What is Water? State the definition given in this lesson.",
+     "a": "Water is an essential nutrient constituting 60-70% of body weight, serving as the universal solvent for metabolic reactions, transport medium for nutrients and wastes, thermoregulator via sweat evaporation, and structural component of cells; dietary fibre is the edible plant material (non-starch polysaccharides, lignin, resistant starch).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Water?",
+     "a": "Students believe \"drinking 8 glasses of water daily\" is a universal rule and that \"fibre is fibre — any source works.\" They memorise the number 8×250 mL = 2 L without adjusting for body weight (35 mL/kg), climate, activity, or food moisture.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) explain the physiological roles of water and dietary fibre using precise terminology (e.g., osmolarity, SCFA fermentation, bile acid binding), (2) calculate individual water requirement from body weight and adjust for climate/activity, and (3) design a one-day menu providing ≥30 g total fibre with ≥10 g soluble fibre for.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Water is an essential nutrient constituting 60-70% of body weight, serving as the universal solvent for metabolic reactions, transport medium for nutrients and wastes, thermoregulator via sweat evaporation, and structural component of cells; dietary fibre is the edible plant material (non-starch polysaccharides, lignin, resistant starch) resistant to human digestive enzymes, classified as soluble (pectins, gums, β-glucans) and insoluble (cellulose, hemicellulose, lignin), which modulates ______ transit, glycemic response, lipid absorption, and gut microbiota fermentation to produce short-chain fatty acids (SCFAs).",
+     "a": "gastrointestinal",
+     "self_check": true
     }
    ]
   }

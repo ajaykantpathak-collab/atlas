@@ -34,6 +34,11 @@
      "q": "Construct a function \\( f(x) \\) involving an inverse trigonometric function such that \\( f'(x) = \\frac{1}{\\sqrt{1-x^2}} + \\frac{2x}{1+x^2} \\). Justify your answer.",
      "a": "\\( f(x) = \\sin^{-1}x + \\tan^{-1}(x^2) + C \\) works because \\( \\frac{d}{dx}\\sin^{-1}x = \\frac{1}{\\sqrt{1-x^2}} \\) and \\( \\frac{d}{dx}\\tan^{-1}(x^2) = \\frac{2x}{1+x^4} \\) — wait, that gives \\( x^4 \\). Correct construction: \\( f(x) = \\sin^{-1}x + \\tan^{-1}(x^2) \\) is wrong. The correct one is \\( f(x) = \\sin^{-1}x + \\tan^{-1}(x^2) \\) doesn't match. Actually \\( \\frac{d}{dx}\\tan^{-1}(x^2) = \\frac{2x}{1+x^4} \\). To get \\( \\frac{2x}{1+x^2} \\), use \\( \\tan^{-1}(x^2) \\) no. Use \\( \\log(1+x^2) \\) derivative is \\( \\frac{2x}{1+x^2} \\). So \\( f(x) = \\sin^{-1}x + \\log(1+x^2) \\). But the question asks for inverse trig only. Then it's impossible with only inverse trig functions because \\( \\frac{2x}{1+x^2} \\) is not the derivative of any single inverse trig function. A good answer recognises this impossibility and explains why.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight: implicit ______ + Pythagorean identity + principal value branch selection = derivative formula.",
+     "a": "differentiation",
+     "self_check": true
     }
    ]
   }

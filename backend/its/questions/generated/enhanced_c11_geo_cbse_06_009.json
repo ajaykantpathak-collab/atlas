@@ -34,6 +34,31 @@
      "q": "Design a field investigation to measure and compare sediment characteristics (size, shape, sorting) deposited by a mountain stream, a desert dune, and a glacial moraine in the Indian Himalaya. Specify sampling strategy, instruments, and how you would link grain attributes to transport process.",
      "a": "Good answer: Stratified random sampling at 3 sites (e.g., Alaknanda river, Nubra Valley dunes, Siachen moraine). Use sieve analysis (phi scale) for size, Zingg chart for shape (roundness/sphericity), calculate sorting coefficient (σ = φ84 - φ16 / 2). Link: fluvial = moderate sorting, sub-rounded, imbrication; aeolian = well-sorted, high sphericity, frosted surfaces; glacial = very poorly sorted (till), angular, striated clasts. Poor answer (e.g., \"collect rocks and look at them\") reveals no understanding of process-sediment linkage or quantitative sedimentology methods required at senior secondary level.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Erosion is the detachment, entrainment, and transport of weathered rock material and regolith by mobile agents (running water, wind, glacial ice, waves) driven by gravity and kinetic energy; deposition is the settling of this transported sediment when the agent's velocity decreases below the critical threshold required to carry the particle load, governed by the Hjulström curve ______ between particle size and flow velocity.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stand at a riverbank during monsoon and watch the muddy water rushing past — that brown colour is not \"dirty water\" but thousands of tons of sediment being ______ every hour.",
+     "a": "transported",
+     "self_check": true
+    },
+    {
+     "q": "What is Erosion? State the definition given in this lesson.",
+     "a": "Erosion is the detachment, entrainment, and transport of weathered rock material and regolith by mobile agents (running water, wind, glacial ice, waves) driven by gravity and kinetic energy; deposition is the settling of this transported sediment when the agent's velocity decreases below the critical threshold required to carry the.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Erosion?",
+     "a": "Students believe \"erosion only happens during floods/high energy events\" and \"deposition only happens in calm water.\" In reality, erosion and deposition occur simultaneously at different points in the same channel (cut bank vs point bar), and even during floods, deposition occurs in slack-water zones (floodplains, behind obstructions).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the mechanical processes of erosion and deposition for each agent (water, wind, ice) using the concepts of competence, capacity, and critical erosion velocity, and can predict the resulting landforms given specific gradient, discharge, and sediment load conditions.",
+     "self_check": true
     }
    ]
   }

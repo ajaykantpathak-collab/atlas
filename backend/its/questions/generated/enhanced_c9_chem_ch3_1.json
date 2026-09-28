@@ -34,6 +34,21 @@
      "q": "Design a simple school-lab experiment to verify the Law of Conservation of Mass for the reaction between vinegar (acetic acid) and baking soda (sodium bicarbonate). List materials, procedure, and how you'll ensure a closed system.",
      "a": "Expected answer: \"Materials: conical flask, balloon, digital balance, vinegar, baking soda, thread. Procedure: 1) Weigh flask + vinegar + baking soda (in tissue) + empty balloon. 2) Drop tissue into vinegar, immediately stretch balloon over flask neck to trap CO₂. 3) Swirl gently until reaction finishes. 4) Re-weigh entire assembly. Mass before = mass after. Closed system ensured by balloon trapping gas.\" A poor answer like \"mix in a beaker and weigh\" reveals the student doesn't know CO₂ is a gas that escapes — they haven't applied the \"closed system\" concept from Lavoisier's experiment. If they suggest a lid but no gas trap, they miss that pressure buildup could pop the lid.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Law of ______ of Mass states that in any chemical reaction occurring in a closed system, the total mass of reactants equals the total mass of products because atoms are neither created nor destroyed, only rearranged.",
+     "a": "Conservation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ realised the \"vanished\" wax combined with air's oxygen inside the jar.",
+     "a": "Lavoisier",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can describe Lavoisier's experimental setup and observations, explain why mass is conserved in terms of atomic rearrangement, and apply the law to predict missing masses in balanced chemical equations for closed systems.",
+     "self_check": true
     }
    ]
   }

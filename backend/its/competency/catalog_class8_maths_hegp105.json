@@ -24,12 +24,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "add the fixed offsets of the four terms",
+    {
+     "step": 1,
+     "action": "add the fixed offsets of the four terms",
      "explain": "The terms n, n+1, n+2, n+3 carry 0+1+2+3 = 6 beyond 4n.",
-     "compute": "offset_sum = 0 + 1 + 2 + 3"},
-    {"step": 2, "action": "remove the offset and divide by 4",
+     "compute": "offset_sum = 0 + 1 + 2 + 3"
+    },
+    {
+     "step": 2,
+     "action": "remove the offset and divide by 4",
      "explain": "Whatever remains after taking away the offset is 4 times the first term.",
-     "compute": "first_num = (total_sum - offset_sum) // 4"}
+     "compute": "first_num = (total_sum - offset_sum) // 4"
+    }
    ]
   },
   {
@@ -48,15 +54,33 @@
     "does the shared-parity property need the four numbers to be consecutive - reason it out",
     "check whether any sign placement on 4 5 6 7 can produce an odd total"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "flip one sign and measure the change",
-     "explain": "(a + b - c - d) - (a - b - c - d) = 2b, which is even, so the two values agree in parity."},
-    {"step": 2, "action": "apply the parity rules for sums and differences",
-     "explain": "odd +/- odd = even, even +/- even = even, odd +/- even = odd; hence a +/- b keeps a fixed parity."},
-    {"step": 3, "action": "extend to all eight placements",
-     "explain": "Any two of the eight expressions differ by a chain of even shifts, so every placement shares one parity."}
-   ]
+    {
+     "step": 1,
+     "action": "flip one sign and measure the change",
+     "explain": "(a + b - c - d) - (a - b - c - d) = 2b, which is even, so the two values agree in parity."
+    },
+    {
+     "step": 2,
+     "action": "apply the parity rules for sums and differences",
+     "explain": "odd +/- odd = even, even +/- even = even, odd +/- even = odd; hence a +/- b keeps a fixed parity."
+    },
+    {
+     "step": 3,
+     "action": "extend to all eight placements",
+     "explain": "Any two of the eight expressions differ by a chain of even shifts, so every placement shares one parity."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "expand with the algebraic identity and evaluate",
+     "explain": "expand with the algebraic identity and evaluate: val = 6 * 6 + 2 * 6 * 7 + 7 * 7 gives 169",
+     "compute": "val = 6 * 6 + 2 * 6 * 7 + 7 * 7"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hegp.105.5.3",
@@ -76,12 +100,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "build the first term",
+    {
+     "step": 1,
+     "action": "build the first term",
      "explain": "4m is a multiple of 4, hence always even.",
-     "compute": "term_even = 4 * m_val"},
-    {"step": 2, "action": "add the second term",
+     "compute": "term_even = 4 * m_val"
+    },
+    {
+     "step": 2,
+     "action": "add the second term",
      "explain": "2q is even as well, and even plus even remains even.",
-     "compute": "even_total = term_even + 2 * q_val"}
+     "compute": "even_total = term_even + 2 * q_val"
+    }
    ]
   },
   {
@@ -102,12 +132,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "build the base multiple",
+    {
+     "step": 1,
+     "action": "build the base multiple",
      "explain": "Members of the class sit on multiples of the divisor, divisor times k.",
-     "compute": "base_mult = divisor_val * k_val"},
-    {"step": 2, "action": "add the remainder",
+     "compute": "base_mult = divisor_val * k_val"
+    },
+    {
+     "step": 2,
+     "action": "add the remainder",
      "explain": "Adding r lifts the multiple into the chosen remainder class.",
-     "compute": "class_member = base_mult + rem_val"}
+     "compute": "class_member = base_mult + rem_val"
+    }
    ]
   },
   {
@@ -128,12 +164,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "total the digits",
+    {
+     "step": 1,
+     "action": "total the digits",
      "explain": "Each place value is one above a multiple of 9, so the digits carry the entire excess.",
-     "compute": "digit_total = unit_d + tens_d + hund_d + thous_d"},
-    {"step": 2, "action": "reduce modulo 9",
+     "compute": "digit_total = unit_d + tens_d + hund_d + thous_d"
+    },
+    {
+     "step": 2,
+     "action": "reduce modulo 9",
      "explain": "The residue of the digit total mod 9 is the residue of the number itself.",
-     "compute": "rem_9 = digit_total % 9"}
+     "compute": "rem_9 = digit_total % 9"
+    }
    ]
   },
   {
@@ -154,12 +196,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "alternate plus and minus signs from the units place",
+    {
+     "step": 1,
+     "action": "alternate plus and minus signs from the units place",
      "explain": "Digits in 1, 100, 10000 places are added; digits in 10, 1000, 100000 places are subtracted.",
-     "compute": "alt_total = unit_d - tens_d + hund_d - thous_d"},
-    {"step": 2, "action": "reduce modulo 11",
+     "compute": "alt_total = unit_d - tens_d + hund_d - thous_d"
+    },
+    {
+     "step": 2,
+     "action": "reduce modulo 11",
      "explain": "A zero or multiple-of-11 result means divisibility; any other residue is the remainder.",
-     "compute": "rem_11 = alt_total % 11"}
+     "compute": "rem_11 = alt_total % 11"
+    }
    ]
   },
   {
@@ -180,12 +228,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "peel away the multiples of 9",
+    {
+     "step": 1,
+     "action": "peel away the multiples of 9",
      "explain": "9a and 36b are multiples of 9, so only the leftover 13 = 9 + 4 shapes the root.",
-     "compute": "leftover_val = 9 * a_val + 36 * b_val + 13"},
-    {"step": 2, "action": "read the root modulo 9",
+     "compute": "leftover_val = 9 * a_val + 36 * b_val + 13"
+    },
+    {
+     "step": 2,
+     "action": "read the root modulo 9",
      "explain": "The residue mod 9 is the digital root; a residue of 0 is reported as root 9.",
-     "compute": "dig_root = leftover_val % 9"}
+     "compute": "dig_root = leftover_val % 9"
+    }
    ]
   },
   {
@@ -204,15 +258,33 @@
     "decide whether a multiple of 6 plus a multiple of 9 must be a multiple of 3",
     "can a number divisible by both 4 and 6 fail to be divisible by 24 - give an example"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "match the claim to a divisibility law",
-     "explain": "Sum-difference, multiple-of-multiple, factor and LCM laws each decide one family of claims."},
-    {"step": 2, "action": "back true cases with the algebraic form",
-     "explain": "Writing the numbers as k*p and k*q turns their total into k*(p + q), still divisible by k."},
-    {"step": 3, "action": "refute over-strong claims with a counterexample",
-     "explain": "12 divides by 4 and by 6 yet not by 24, because 4 and 6 share the extra factor 2."}
-   ]
+    {
+     "step": 1,
+     "action": "match the claim to a divisibility law",
+     "explain": "Sum-difference, multiple-of-multiple, factor and LCM laws each decide one family of claims."
+    },
+    {
+     "step": 2,
+     "action": "back true cases with the algebraic form",
+     "explain": "Writing the numbers as k*p and k*q turns their total into k*(p + q), still divisible by k."
+    },
+    {
+     "step": 3,
+     "action": "refute over-strong claims with a counterexample",
+     "explain": "12 divides by 4 and by 6 yet not by 24, because 4 and 6 share the extra factor 2."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
+     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 5 * 1 gives 5",
+     "compute": "hcf = 5 * 1"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hegp.105.5.9",
@@ -230,15 +302,33 @@
     "why can a two-digit number multiplied by 8 stay two-digit only up to a point",
     "explain how carries decide the letters in a multiplication cryptarithm"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "bound the leading letters",
-     "explain": "The size of the answer limits its hundreds letter, and a two-digit product limits both factors."},
-    {"step": 2, "action": "process the units column",
-     "explain": "The units digit of the sum or product restricts the unit letters modulo 10."},
-    {"step": 3, "action": "carry forward until consistent",
-     "explain": "Each carry narrows the choices; the solve ends with every column consistent and no digit repeated."}
-   ]
+    {
+     "step": 1,
+     "action": "bound the leading letters",
+     "explain": "The size of the answer limits its hundreds letter, and a two-digit product limits both factors."
+    },
+    {
+     "step": 2,
+     "action": "process the units column",
+     "explain": "The units digit of the sum or product restricts the unit letters modulo 10."
+    },
+    {
+     "step": 3,
+     "action": "carry forward until consistent",
+     "explain": "Each carry narrows the choices; the solve ends with every column consistent and no digit repeated."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "split the number into digits and apply the rule",
+     "explain": "split the number into digits and apply the rule: diff = 9 * abs(5 - 7) gives 18",
+     "compute": "diff = 9 * abs(5 - 7)"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -252,12 +342,18 @@
     "total_sum": "given total of the four consecutive numbers (34 in the book)"
    },
    "solution_template": [
-    {"step": 1, "action": "add the fixed offsets of the four terms",
+    {
+     "step": 1,
+     "action": "add the fixed offsets of the four terms",
      "explain": "The terms n, n+1, n+2, n+3 carry 0+1+2+3 = 6 beyond 4n.",
-     "compute": "offset_sum = 0 + 1 + 2 + 3"},
-    {"step": 2, "action": "remove the offset and divide by 4",
+     "compute": "offset_sum = 0 + 1 + 2 + 3"
+    },
+    {
+     "step": 2,
+     "action": "remove the offset and divide by 4",
      "explain": "What remains is 4 times the first term; the other three follow by adding 1, 2, 3.",
-     "compute": "first_num = (total_sum - offset_sum) // 4"}
+     "compute": "first_num = (total_sum - offset_sum) // 4"
+    }
    ]
   },
   {
@@ -273,12 +369,18 @@
     "d_unit": "units digit (9)"
    },
    "solution_template": [
-    {"step": 1, "action": "total the digits",
+    {
+     "step": 1,
+     "action": "total the digits",
      "explain": "Each place value is one above a multiple of 9, so the digits carry the whole excess.",
-     "compute": "digit_total = d_thous + d_hund + d_tens + d_unit"},
-    {"step": 2, "action": "reduce modulo 9",
+     "compute": "digit_total = d_thous + d_hund + d_tens + d_unit"
+    },
+    {
+     "step": 2,
+     "action": "reduce modulo 9",
      "explain": "The residue of the digit total is the number's remainder on division by 9.",
-     "compute": "rem_9 = digit_total % 9"}
+     "compute": "rem_9 = digit_total % 9"
+    }
    ]
   },
   {
@@ -293,12 +395,18 @@
     "d_unit": "units digit (2)"
    },
    "solution_template": [
-    {"step": 1, "action": "alternate signs from the units place",
+    {
+     "step": 1,
+     "action": "alternate signs from the units place",
      "explain": "Add the units and hundreds digits, subtract the tens digit.",
-     "compute": "alt_total = d_unit - d_tens + d_hund"},
-    {"step": 2, "action": "reduce modulo 11",
+     "compute": "alt_total = d_unit - d_tens + d_hund"
+    },
+    {
+     "step": 2,
+     "action": "reduce modulo 11",
      "explain": "A zero result certifies divisibility by 11; otherwise the residue is the remainder.",
-     "compute": "rem_11 = alt_total % 11"}
+     "compute": "rem_11 = alt_total % 11"
+    }
    ]
   }
  ],

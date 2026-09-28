@@ -34,6 +34,31 @@
      "q": "Design a data quality checklist for a student project that uses Google Earth Engine to map urban expansion in Bengaluru (2000–2023) using Landsat imagery. Include at least one check each for reliability, validity, and limitation.",
      "a": "Checklist: Reliability — compare classification accuracy (kappa coefficient) across multiple random training samples; report inter-annual consistency of unchanged pixels. Validity — ground-truth 2023 urban extent with recent high-res imagery (e.g., Sentinel-2) or field visits; ensure 'urban' class matches Census definition (not just built-up). Limitation — document Landsat's 30m resolution missing small settlements; note cloud/monsoon season gaps causing temporal compositing artifacts; acknowledge spectral confusion between fallow land and built-up. Poor answer lists generic checks without sensor- or context-specific details.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Data quality in geography refers to the degree to which a dataset accurately represents the real-world phenomena it intends to measure, assessed through reliability (consistency of measurements under repeated observations), validity (extent to which data measures what it claims to measure), and limitations (inherent constraints such as sampling bias, measurement errors, temporal gaps, or scale mismatches that affect ______).",
+     "a": "interpretation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are comparing the literacy rates of two districts from the 2011 Census and a 2020 NSSO survey — the numbers differ by 8 ______ points.",
+     "a": "percentage",
+     "self_check": true
+    },
+    {
+     "q": "What is Data quality in geography? State the definition given in this lesson.",
+     "a": "Data quality in geography refers to the degree to which a dataset accurately represents the real-world phenomena it intends to measure, assessed through reliability (consistency of measurements under repeated observations), validity (extent to which data measures what it claims to measure), and limitations (inherent constraints such as.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Data quality in geography?",
+     "a": "Students often equate 'official government data' (Census, NSSO, IMD) with 'error-free data'.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can evaluate a given geographical dataset (e.g., Census population figures, rainfall records, satellite-derived land use) by identifying specific reliability threats (e.g., instrument error, observer bias), validity threats (e.g., using proxy indicators, ecological fallacy), and limitations (e.g., temporal lag, spatial.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Construct a numerical example showing how a ₹1,000 crore increase in autonomous investment (Iₐ) affects equilibrium income in an economy with MPC = 0.75 and MPI = 0.1. Show the round-by-round expansion of income, consumption, and induced investment for the first 3 rounds. What is the total multiplier?",
      "a": "**Correct answer:**  \nMultiplier k = 1/(1 - MPC - MPI) = 1/(1 - 0.75 - 0.1) = 1/0.15 = 6.67.  \nTotal ΔY = k × ΔIₐ = 6.67 × 1000 = ₹6,667 crore (approx).  \n\n**Round-by-round (simplified, assuming instantaneous consumption/investment response):**  \nRound 0 (Initial): ΔIₐ = +1000 → ΔY₁ = 1000  \nRound 1: ΔC₁ = MPC × ΔY₁ = 0.75 × 1000 = 750; ΔI_induced₁ = MPI × ΔY₁ = 0.1 × 1000 = 100 → ΔAD₁ = 850 → ΔY₂ = 850  \nRound 2: ΔC₂ = 0.75 × 850 = 637.5; ΔI_induced₂ = 0.1 × 850 = 85 → ΔAD₂ = 722.5 → ΔY₃ = 722.5  \nRound 3: ΔC₃ = 0.75 × 722.5 = 541.875; ΔI_induced₃ = 0.1 × 722.5 = 72.25 → ΔAD₃ = 614.125 → ΔY₄ = 614.125  \nCumulative ΔY after 3 rounds = 1000 + 850 + 722.5 + 614.125 = 3,186.625 crore (converging to 6,667).  \n**What a poor answer reveals:** If a student uses the simple multiplier k = 1/(1 - MPC) = 4, they ignore MPI — a major error because induced investment *adds* to the multiplier. If they stop at Round 1 and say \"total ΔY = 1850,\" they don't understand the iterative process. Board exams often ask for the *formula* k = 1/(1 - c - b) and its derivation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Autonomous investment is the component of investment expenditure that is independent of the current level of national income (Y), determined by exogenous factors like ______ progress, population growth, government policy, and business expectations.",
+     "a": "technological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small ______ firm in Gujarat deciding whether to buy a new CNC machine.",
+     "a": "manufacturing",
+     "self_check": true
+    },
+    {
+     "q": "What is Autonomous investment? State the definition given in this lesson.",
+     "a": "Autonomous investment is the component of investment expenditure that is independent of the current level of national income (Y), determined by exogenous factors like technological progress, population growth, government policy, and business expectations.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) distinguish autonomous from induced investment using the investment function and real-world examples; (2) calculate autonomous and induced components from a given investment schedule or equation; (3) explain how a change in autonomous investment shifts the aggregate demand curve and affects equilibrium income via the.",
+     "self_check": true
     }
    ]
   }

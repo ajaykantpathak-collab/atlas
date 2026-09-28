@@ -34,6 +34,31 @@
      "q": "Design a simple school-lab experiment to demonstrate that fluoride toothpaste protects eggshells (calcium carbonate model for enamel) from acid erosion. List materials, procedure, control, and measurable outcome.",
      "a": "Materials: Eggshells (washed, dried), fluoride toothpaste, non-fluoride toothpaste, vinegar (5% acetic acid), beakers, balance, pH paper.  \nProcedure: (1) Coat three eggshell pieces with fluoride toothpaste, three with non-fluoride toothpaste, leave three uncoated (control). (2) Submerge each in 50 mL vinegar. (3) After 10 min, remove, dry, weigh mass loss.  \nControl: Uncoated eggshell in vinegar.  \nOutcome: Fluoride-coated shells show least mass loss because F⁻ replaces OH⁻ in hydroxyapatite forming fluorapatite [Ca₅(PO₄)₃F], which is less soluble at low pH. A poor design lacking control or using only qualitative observation (\"bubbles stop\") reveals inability to isolate variables and connect to the chemical mechanism (fluorapatite Ksp < hydroxyapatite Ksp).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: pH is a critical factor in biological and environmental systems: in digestion, stomach HCl (pH 1.5–3.5) activates pepsin for protein breakdown; in soil, pH 6.5–7.5 optimizes nutrient availability and microbial activity; in oral health, pH below 5.5 causes hydroxyapatite [Ca₅(PO₄)₃OH] ______ leading to tooth decay.",
+     "a": "demineralization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a farmer testing soil with pH paper before sowing wheat, a student reaching for an ______ after spicy food, and a dentist warning about fizzy drinks.",
+     "a": "antacid",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In the stomach, parietal cells secrete HCl creating pH ~______, activating pepsinogen to pepsin.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the specific pH ranges for stomach digestion, optimal soil fertility, and enamel demineralization; write balanced neutralization equations for antacid action and soil liming; and predict consequences of pH deviation in each context using chemical reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a farmer testing soil with pH paper before sowing wheat, a student ______ for an antacid after spicy food, and a dentist warning about fizzy drinks.",
+     "a": "reaching",
+     "self_check": true
     }
    ]
   }

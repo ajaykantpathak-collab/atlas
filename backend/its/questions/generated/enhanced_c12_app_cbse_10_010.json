@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_10_010",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_10_010",
+   "title": "c12_app_cbse_10_010",
+   "questions": [
+    {
+     "q": "What is an iso-profit line, and why are all iso-profit lines for a given objective function parallel to each other?",
+     "a": "An iso-profit line is the graph of the objective function Z = ax + by set equal to a constant value (e.g., 50x + 40y = 2000). All such lines are parallel because they share the same slope (-a/b) — only the intercept changes with the constant Z value. A wrong answer (e.g., \"they intersect at the origin\" or \"they have different slopes\") reveals the student confuses iso-profit lines with constraint lines or doesn't understand that slope depends only on objective function coefficients, not the constant term.",
+     "self_check": true
+    },
+    {
+     "q": "In a maximization problem with feasible region in the first quadrant, you draw an iso-profit line and then slide it. Which direction do you slide it, and how do you know when to stop?",
+     "a": "For maximization, slide the iso-profit line **away from the origin** (increasing Z) while keeping it parallel. Stop when the line is farthest from the origin but still has at least one point in common with the feasible region — this contact point is the optimal corner. A wrong answer (e.g., \"slide toward origin\" or \"stop when line leaves feasible region completely\") reveals confusion between max/min direction or misunderstanding that the optimal line must still touch the feasible region.",
+     "self_check": true
+    },
+    {
+     "q": "A company produces products A and B. Profit: ₹30 per A, ₹20 per B. Constraints: 2A + B ≤ 100 (machine hours), A + 2B ≤ 80 (labor hours), A,B ≥ 0. Using the iso-profit method, find the optimal production mix and maximum profit. Show all steps.",
+     "a": "**Step 1:** Formulate: Maximize Z = 30A + 20B, s.t. 2A+B≤100, A+2B≤80, A,B≥0.  \n**Step 2:** Plot constraints. Intercepts: 2A+B=100 → (50,0),(0,100); A+2B=80 → (80,0),(0,40). Feasible region OABC with corners O(0,0), A(50,0), B(40,20), C(0,40).  \n**Step 3:** Draw iso-profit line. LCM(30,20)=60. Use Z=600 → 30A+20B=600 → intercepts (20,0),(0,30). Slope = -3/2.  \n**Step 4:** Slide parallel lines away from origin. Last contact at B(40,20) (intersection of 2A+B=100 and A+2B=80).  \n**Step 5:** Verify: Solve 2A+B=100 and A+2B=80 → multiply 2nd by 2: 2A+4B=160. Subtract: 3B=60 → B=20, A=40. Z = 30(40)+20(20) = ₹1600.  \nWrong answer (e.g., Z=1500 at (50,0)) reveals student didn't check all corners or slid line in wrong direction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the iso-profit method and corner-point method for solving the same LPP. Under what conditions would they give different optimal solutions?",
+     "a": "Both methods **always give the same optimal solution** for a given LPP because both rely on the fundamental theorem: optimal value occurs at a corner point. The iso-profit method finds it by geometric sliding; the corner-point method evaluates Z at all corners. They differ only in **process**, not result. A wrong answer (e.g., \"iso-profit gives multiple solutions, corner-point gives unique\" or \"they differ for unbounded regions\") reveals the student doesn't realize both methods are equivalent implementations of the same theorem.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves a minimization LPP using iso-cost method. The feasible region is unbounded. They draw an iso-cost line Z=100, slide it toward the origin, and find a line Z=40 that touches the feasible region at a corner. They claim Z=40 is the minimum. Is this reasoning correct? Justify.",
+     "a": "**Not necessarily correct.** For unbounded feasible regions, a minimum may not exist even if a line touches a corner. The student must **verify** by checking if the open half-plane Z < 40 has any point in common with the feasible region. If yes, Z can go lower → no minimum. If no, Z=40 is indeed the minimum. The NCERT requires this verification step (Example 11). A wrong answer (\"yes, it's correct because it touches a corner\") reveals the student misses the critical unbounded-region verification step that costs marks in boards and JEE.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world LPP scenario (Indian context) where the iso-profit method would be easier to apply than the corner-point method, and explain why. Your scenario must have at least 3 constraints (excluding non-negativity).",
+     "a": "**Scenario:** A Delhi furniture maker produces chairs (₹200 profit) and tables (₹500 profit). Constraints: Wood: 5c + 8t ≤ 400 units; Labor: 3c + 2t ≤ 180 hours; Market demand: t ≤ 30 tables; c,t ≥ 0.  \n**Why iso-profit is easier:** The feasible region has 4-5 corners (O, A, B, C, D). Corner-point method requires evaluating Z at all 5 corners. Iso-profit method: draw one line (e.g., 200c+500t=10000), slide parallel toward increasing Z. The optimal corner is visually obvious where the line last touches — often just 1-2 corners need checking. Slope of iso-profit (-2/5) lies between slopes of binding constraints, so sliding quickly identifies the vertex. A poor answer gives a scenario with only 2 constraints (trivial) or doesn't explain the slope advantage.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

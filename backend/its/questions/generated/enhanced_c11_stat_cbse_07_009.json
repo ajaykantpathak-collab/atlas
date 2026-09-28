@@ -34,6 +34,26 @@
      "q": "Design a small dataset (5-6 pairs) where the correlation coefficient is exactly 0 but there is a clear deterministic non-linear relationship. Show the calculation proving r=0 and describe the relationship. What property does this illustrate?",
      "a": "Example: X = -2, -1, 0, 1, 2; Y = 4, 1, 0, 1, 4 (Y = X²). ΣX = 0, ΣY = 10, ΣXY = 0, ΣX² = 10, ΣY² = 34. r = [5(0) - (0)(10)] / √[5(10)-0²][5(34)-10²] = 0 / √[50][70] = 0. Relationship: perfect quadratic (parabolic). This illustrates Property 5: r measures only linear association; r=0 ⇏ independence. A poor answer gives a random scatter with r≈0 but no clear pattern, missing the \"deterministic\" requirement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The correlation coefficient (r) is a pure number between -1 and +1 that measures the strength and direction of a linear ______ between two variables; it is independent of change of origin and scale, symmetric in variables, and equals the geometric mean of the two regression coefficients, but it only captures linear association and cannot establish causation.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a news headline: \"Ice cream sales correlate with drowning deaths at r = 0.85 — should we ban ice cream?\" This is where properties and ______ become your detective toolkit.",
+     "a": "limitations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a news headline: \"Ice cream sales correlate with drowning deaths at r = ______ — should we ban ice cream?\" This is where properties and limitations become your detective toolkit.",
+     "a": "0.85",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can state all six properties of Karl Pearson's correlation coefficient with precise mathematical conditions, explain each limitation with a concrete counterexample, and justify why a given real-world correlation claim is valid or flawed based on these properties and limitations.",
+     "self_check": true
     }
    ]
   }

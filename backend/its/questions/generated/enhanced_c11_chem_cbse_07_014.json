@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using household materials to demonstrate the common ion effect on the solubility of a sparingly soluble salt. Describe the materials, procedure, and expected observation.",
      "a": "Materials: Eno fruit salt (contains NaHCO₃ and citric acid, producing CO₂), but better: use calcium hydroxide (slaked lime, chuna) and vinegar (acetic acid) — not ideal. Instead: Use commercially available \"alum\" (KAl(SO₄)₂·12H₂O) which is moderately soluble. Or better: Use Ca(OH)₂ (sparingly soluble) and add CaCl₂ (common Ca²⁺) — but CaCl₂ may not be household. Alternative: Use Mg(OH)₂ (milk of magnesia) and add MgSO₄ (Epsom salt). Procedure: Prepare saturated Mg(OH)₂ suspension, filter to get clear saturated solution. Divide into two test tubes. To one, add solid MgSO₄ and shake. Observation: White precipitate of Mg(OH)₂ forms in the tube with added MgSO₄ due to common ion effect. A poor answer would use a highly soluble salt like NaCl and claim precipitation, revealing confusion between common ion effect and salting out of proteins.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The solubility product (Ksp) is the equilibrium constant for the dissolution of a sparingly soluble ionic salt in water, expressed as the product of the molar ______ of its constituent ions, each raised to the power of their stoichiometric coefficients in the balanced dissolution equation.",
+     "a": "concentrations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe what happens when you add a few drops of concentrated hydrochloric acid to a saturated solution of sodium chloride — white fumes of HCl appear and solid NaCl precipitates out because the increased chloride ion ______ pushes the dissolution equilibrium NaCl(s) ⇌ Na⁺(aq) + Cl⁻(aq) backward.",
+     "a": "concentration",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write the Ksp expression for any sparingly soluble salt, calculate Ksp from molar solubility (and vice versa) including for salts with non-1:1 stoichiometry, predict whether a precipitate will form by comparing ionic product (Q) with Ksp, and quantitatively determine the change in solubility due to a common ion using the.",
+     "self_check": true
     }
    ]
   }

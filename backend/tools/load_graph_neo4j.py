@@ -24,9 +24,17 @@ from collections import Counter
 
 from neo4j import GraphDatabase
 
-# In-repo copy first (content/md_cache — synced from the Desktop original so
-# the graph is rebuildable on any machine); fall back to the Desktop path.
+# Canonical enhanced-nodes corpus first (content/enhanced_nodes_md, mirrored
+# to deploy/content/enhanced_nodes_md) so graph edges always parse the SAME
+# files the parser index was built from.  content/md_cache is a Desktop-era
+# snapshot that silently diverged (missed the class-6 prereq backfill), which
+# is why the graph lost ~205 nodes' PREREQUISITE_OF edges; it stays only as a
+# last-resort fallback.
 _MD_CANDIDATES = [
+    os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                 "..", "..", "content", "enhanced_nodes_md"),
+    os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                 "..", "..", "deploy", "content", "enhanced_nodes_md"),
     os.path.join(os.path.dirname(os.path.abspath(__file__)),
                  "..", "..", "content", "md_cache"),
     r"C:/Users/Alesha4285/Desktop/enhanced_nodes/md_cache",

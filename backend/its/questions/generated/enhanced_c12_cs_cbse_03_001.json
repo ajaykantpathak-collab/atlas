@@ -34,6 +34,31 @@
      "q": "Design a minimal Web 2.0 feature for a school library website: students can reserve books online and receive notifications. Sketch the **client-side interactions**, **server-side endpoints**, and **data entities** needed. Assume the school uses a MySQL database and a Python (Flask) backend.",
      "a": "**Client-side**: (1) Login page (form → POST /login), (2) Book search (AJAX GET /api/books?q=...), (3) Reserve button (AJAX POST /api/reserve {book_id}), (4) Notification bell icon (periodic AJAX GET /api/notifications).  \n**Server endpoints**: POST /login, GET /api/books, POST /api/reserve, GET /api/notifications, PUT /api/notifications/read.  \n**Data entities**: `User(id, name, class, password_hash)`, `Book(id, title, author, copies_total, copies_available)`, `Reservation(id, user_id, book_id, status, timestamp)`, `Notification(id, user_id, message, is_read, timestamp)`.  \nA poor answer that puts all logic in HTML/JS (no server, no database) shows the student hasn't grasped the **client-server-data triad** essential to Web 2.0.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The World Wide Web (Web) is a global ______ system of interlinked hypertext documents and resources accessed via the Internet using HTTP/HTTPS protocols.",
+     "a": "information",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are comparing two Indian railway ticketing experiences: the old IRCTC website from 2005 where you could only view static timetables and had to call a call center to book, versus the current IRCTC platform where you log in, see ______ recommendations, book tickets in real-time with live seat availability, and share your journey on social media.",
+     "a": "personalized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Explain that Web ______ is not a new technology but a paradigm shift enabled by existing technologies (HTML, CSS, JavaScript, server-side languages, databases) used in new ways — especially AJAX for asynchronous updates and APIs for service integration.",
+     "a": "2.0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) distinguish between Web 1.0 and Web 2.0 characteristics with concrete examples, (2) explain the role of key technologies (HTML, CSS, JavaScript, server-side scripting, databases) in enabling Web 2.0 interactivity, and (3) identify whether a given real-world website scenario reflects Web 1.0 or Web 2.0.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are comparing two Indian railway ticketing experiences: the old IRCTC website from 2005 where you could only view static timetables and had to call a call center to book, versus the current IRCTC platform where you log in, see personalized ______, book tickets in real-time with live seat availability, and share your journey on social media.",
+     "a": "recommendations",
+     "self_check": true
     }
    ]
   }

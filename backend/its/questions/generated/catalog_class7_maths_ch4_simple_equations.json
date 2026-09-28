@@ -4,15 +4,9 @@
   {
    "id": "c7m4.2.1",
    "title": "Setting Up an Equation",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute the given values and simplify",
-     "explain": "substitute the given values and simplify: val = 3 * 2 + 8 gives 14",
-     "compute": "val = 3 * 2 + 8"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "unknown = letter; statement -> expression = value",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 8 when x = 2.",
@@ -49,15 +43,9 @@
   {
    "id": "c7m4.3.1",
    "title": "Variable and Expression",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute the given values and simplify",
-     "explain": "substitute the given values and simplify: val = 3 * 9 + 3 gives 30",
-     "compute": "val = 3 * 9 + 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "expression = operations on variable; value depends on variable",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 3 when x = 9.",
@@ -94,15 +82,9 @@
   {
    "id": "c7m4.4.1",
    "title": "What Equation Is",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the congruence condition and angle sums",
-     "explain": "use the congruence condition and angle sums: third = 180 - 58 - 74 gives 48",
-     "compute": "third = 180 - 58 - 74"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "lhs = rhs; at least one side has variable",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two triangles are congruent. In triangle one the angles are 58 and 74 degrees; the third angle is what? (The third angles must match.)",
@@ -140,6 +122,8 @@
    "id": "c7m4.4.2",
    "title": "Solving Equation by Balancing",
    "converted_to_compute": false,
+   "formula": "if a = b, then a+c = b+c, a-c = b-c, a*c = b*c, a/c = b/c (c != 0)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 5x + 5 = 10.",
@@ -177,6 +161,8 @@
    "id": "c7m4.5.1",
    "title": "Transposing Terms",
    "converted_to_compute": false,
+   "formula": "transposing +n from lhs to rhs becomes -n; transposing -n becomes +n",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two triangles are congruent. In triangle one the angles are 37 and 68 degrees; the third angle is what? (The third angles must match.)",
@@ -214,6 +200,8 @@
    "id": "c7m4.5.2",
    "title": "Solving Equations with Brackets",
    "converted_to_compute": false,
+   "formula": "a(b+c) = d -> divide by a -> (b+c) = d/a -> transpose c -> b = d/a - c",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 3 when x = 2.",
@@ -251,6 +239,8 @@
    "id": "c7m4.6.1",
    "title": "Applications to Practical Situations",
    "converted_to_compute": false,
+   "formula": "word problem -> equation -> solve -> answer",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 2x + 4 = 28.",
@@ -287,15 +277,9 @@
   {
    "id": "c7m4.4.3",
    "title": "Converting Equation to Statement",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "transpose the terms and divide by the coefficient",
-     "explain": "transpose the terms and divide by the coefficient: x = (71 - 5) / 6 gives 11",
-     "compute": "x = (71 - 5) / 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "equation -> words; multiple forms possible",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 6x + 5 = 71.",

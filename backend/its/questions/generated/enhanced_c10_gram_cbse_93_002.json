@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c10_gram_cbse_93_002",
+ "concepts": [
+  {
+   "id": "enh:c10_gram_cbse_93_002",
+   "title": "c10_gram_cbse_93_002",
+   "questions": [
+    {
+     "q": "Report: 'Where did you go?' she asked me.",
+     "a": "'She asked me where I had gone.' wh-word kept, 'did' deleted, order restored, went→had gone. A wrong answer 'where did I go' inside the frame reveals the student quotes the question verbatim — the core failure this node exists to fix.",
+     "self_check": true
+    },
+    {
+     "q": "Report: 'Do you like tea?' he asked.",
+     "a": "'He asked (me) if/whether I liked tea.' yes/no needs if/whether, do-support removed, like→liked. A wrong answer 'he asked did I like tea' shows the student has no de-interrogation step — the question grammar survives intact into reporting.",
+     "self_check": true
+    },
+    {
+     "q": "Which is correct: 'She asked me that where was I going' or 'She asked me where I was going'?",
+     "a": "The second — 'that' cannot join a wh-question, and 'where was I' keeps question order. A wrong answer choosing the first reveals the student thinks 'that' is the universal reported-speech glue, regardless of sentence type.",
+     "self_check": true
+    },
+    {
+     "q": "'Where do you live?' → 'He asked where I lived.' Yes/no questions take 'if/whether'; ______ keep the wh-word as connector.",
+     "a": "wh-questions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Reported questions lose their question grammar: no question mark, no do/does/did, and ______ word order returns. 'Where do you live?' → 'He asked where I lived.' Yes/no questions take 'if/whether'; wh-questions keep the wh-word as connector.",
+     "a": "statement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The transformation has two moves students must separate: (1) the connector — wh-word stays, or if/whether for yes/no; (2) de-______ — 'did she go' flattens to 'she had gone/went'.",
+     "a": "interrogation",
+     "self_check": true
+    },
+    {
+     "q": "What is Reported questions lose their question grammar? State the definition given in this lesson.",
+     "a": "Reported questions lose their question grammar: no question mark, no do/does/did, and statement word order returns. 'Where do you live?' → 'He asked where I lived.' Yes/no questions take 'if/whether'; wh-questions keep the wh-word as connector.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Reported questions lose their question grammar?",
+     "a": "Students keep question order inside reported frames ('He asked where did I live'), keep the question mark, or use 'if' for wh-questions ('asked if where I lived').",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student reports wh-questions and yes/no questions with correct connector choice, restored statement order, and removed do-support, and can spot the residual question mark error.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ has two moves students must separate: (1) the connector — wh-word stays, or if/whether for yes/no; (2) de-interrogation — 'did she go' flattens to 'she had gone/went'.",
+     "a": "transformation",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

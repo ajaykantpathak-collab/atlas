@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_04_011",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_04_011",
+   "title": "c12_soc_cbse_04_011",
+   "questions": [
+    {
+     "q": "Define 'social embeddedness of markets' in one sentence, using the NCERT framework.",
+     "a": "Correct answer: Social embeddedness means that markets are not autonomous economic spheres but are constructed, controlled, and organised by specific social groups (castes, classes, kinship networks) and are connected to other institutions like family, religion, and politics. A wrong answer that defines it only as 'markets exist in society' reveals a misunderstanding of the active role of social structure in shaping market rules, trust, and access — the student misses the causal link between social relations and market outcomes.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Caste doesn't matter in modern markets because anyone can buy and sell online.\" Using the NCERT examples of Nakarattars and Marwaris, explain why this statement is sociologically incorrect.",
+     "a": "Correct answer: Even in digital markets, caste operates through (1) inherited capital and business networks (Marwaris leveraging colonial-era trust networks to dominate industries), (2) occupational closure (Nakarattars' caste-based banking relied on kinship/reputation, not formal contracts), and (3) digital access disparities (caste correlates with education, English fluency, and credit access needed for e-commerce). A wrong answer that claims 'caste is only about ritual purity' or 'markets are impersonal' reveals the misconception that modernity automatically erases caste — the NCERT explicitly shows caste adapts and thrives in capitalist markets.",
+     "self_check": true
+    },
+    {
+     "q": "In a weekly tribal haat in Bastar (as described in NCERT), adivasis sell forest produce to Hindu traders and buy manufactured goods. Identify THREE stratification mechanisms at play in this exchange and explain how each disadvantages the adivasis.",
+     "a": "Correct answer: (1) **Spatial/structural position**: Adivasis are primary producers (sellers of raw forest produce) while caste-Hindu traders are intermediaries who capture surplus value by selling to urban markets. (2) **Credit-bondage**: Traders often advance loans to adivasis, binding them to sell at low prices (debt peonage). (3) **Consumption manipulation**: Adivasis spend cash earnings on low-value trinkets/jewellery sold by traders, not on productive assets — a form of 'adverse incorporation'. A wrong answer listing only 'low prices' or 'exploitation' without naming the structural mechanisms (intermediation, credit control, consumption patterning) shows inability to analyse stratification as a system.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of liberalisation on two groups: (a) Marwari merchant families who became industrialists, and (b) small-scale artisans in the handloom sector. Use the concepts of 'social capital' and 'commodification' to explain why their outcomes diverged.",
+     "a": "Correct answer: Marwaris possessed dense caste-based social capital (trust networks, community credit, information channels) that allowed them to pivot from trade to industry when licences opened up. Their existing capital was easily commodified into industrial assets. Handloom artisans lacked such networks; their skill was a non-commodified craft embedded in household production. Liberalisation commodified cloth (cheap mill/powerloom goods flooded markets), destroying the artisans' niche without providing alternative social capital to enter new markets. A wrong answer that says 'Marwaris were smarter' or 'artisans didn't adapt' reveals an individualistic bias — it ignores how stratification endows groups with unequal conversion capacity for new market opportunities.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"Reservation in private sector jobs would violate market efficiency because markets allocate talent purely on merit.\" Use sociological arguments from the chapter to support or refute.",
+     "a": "Correct answer: Refute. The chapter demonstrates markets are **not** meritocratic allocators: (1) Caste networks (Nakarattars, Marwaris) allocate capital and jobs via trust/kinship, not open competition. (2) 'Merit' itself is socially produced — upper-caste candidates have better education, English, and soft skills due to historical advantage. (3) Liberalisation increased informal/contract labour where caste discrimination is rampant (no legal safeguards). Reservation would correct a market failure caused by social embeddedness, not distort a neutral market. A wrong answer that accepts the 'merit vs. reservation' binary reveals failure to see markets as socially constructed arenas where 'merit' is a stratified outcome.",
+     "self_check": true
+    },
+    {
+     "q": "Design a mini-research project (3 steps) to study how caste shapes access to a local market of your choice (e.g., vegetable mandi, gig economy platform, coaching centre). Specify the stratification variable you would measure at each step.",
+     "a": "Good answer example: Step 1: Map the **ownership/control structure** — record caste of owners, managers, and workers (variable: caste composition by role). Step 2: Trace **credit and supply chains** — interview 10 traders on who they lend to/borrow from and why (variable: caste homogeneity of credit networks). Step 3: Observe **spatial/temporal segregation** — note where different caste groups sit, when they trade, and who accesses prime spots (variable: physical location quality by caste). A poor answer that suggests 'survey people about discrimination' without structural variables shows inability to operationalise stratification as a measurable market mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The market and social ______ refer to the systematic ways in which class (economic position) and caste (hereditary status hierarchy) structure differential access to market resources, opportunities, and networks, reinforcing existing inequalities through mechanisms like caste-based occupation monopolies, credit exclusion, and spatial segregation in marketplaces.",
+     "a": "stratification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you visit a busy wholesale ______ in your city at 6 AM.",
+     "a": "market",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you visit a busy wholesale market in your city at ______ AM.",
+     "a": "6",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) explain how caste and class independently and intersectionally shape market access using at least two distinct mechanisms (e.g., occupational closure, credit discrimination, spatial segregation), and (2) evaluate a real-world market scenario (e.g., a weekly haat, an e-commerce platform, a labour market) to.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you visit a busy ______ market in your city at 6 AM.",
+     "a": "wholesale",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

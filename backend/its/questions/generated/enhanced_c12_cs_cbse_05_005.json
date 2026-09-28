@@ -34,6 +34,31 @@
      "q": "Design a sample table `products` (at least 5 rows, columns: id, name, category, price, stock) and write a single WHERE clause that selects exactly 3 specific rows of your choice using a combination of IN, BETWEEN, LIKE, and IS NOT NULL. Explain why each of the other 2 rows is excluded.",
      "a": "Example table:\n| id | name | category | price | stock |\n|----|------|----------|-------|-------|\n| 1 | Rice | Grain | 50 | 100 |\n| 2 | Wheat | Grain | 40 | 80 |\n| 3 | Apple | Fruit | 120 | NULL |\n| 4 | Mango | Fruit | 90 | 50 |\n| 5 | Dal | Pulse | 110 | 60 |\n\nWHERE clause: `WHERE category IN ('Grain', 'Fruit') AND price BETWEEN 40 AND 100 AND stock IS NOT NULL`\nSelected rows: 1, 2, 4. Row 3 excluded (stock IS NULL). Row 5 excluded (category not in list). A poor answer uses only one operator type or fails to justify exclusions, showing inability to compose multi-operator conditions — a skill needed for case-based board questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The WHERE clause in SQL is a filtering mechanism that specifies ______ to restrict the rows returned by a SELECT, UPDATE, or DELETE statement; it evaluates a Boolean expression (using comparison, logical, and special operators) for each row and includes only those rows where the condition evaluates to TRUE.",
+     "a": "conditions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a school ______ system and need to find all students who borrowed books in the last month and have overdue fines above ₹50.",
+     "a": "library",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a school library system and need to find all students who borrowed books in the last month and have overdue fines above ₹______.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write correct WHERE clauses using all operator categories (comparison, logical, BETWEEN, IN, LIKE, IS NULL) for a given filtering requirement, trace the evaluation order of compound conditions with parentheses, and explain why a query returns specific rows from a sample table.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a school library system and need to find all students who borrowed books in the last month and have overdue fines above ₹50.",
+     "a": "building",
+     "self_check": true
     }
    ]
   }

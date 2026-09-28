@@ -1,0 +1,71 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_03_003",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_03_003",
+   "title": "c12_soc_cbse_03_003",
+   "questions": [
+    {
+     "q": "What is the primary difference between a jati panchayat and a Gram Panchayat established under the 73rd Constitutional Amendment?",
+     "a": "A jati panchayat is an informal, caste-based body that enforces social norms (endogamy, purity, occupation) for a specific jati using sanctions like boycott, whereas a Gram Panchayat is a constitutionally mandated, elected local government body with legal authority over all residents in a village for civic administration. A wrong answer (e.g., \"both are the same\" or \"jati panchayat is the legal one\") reveals confusion between informal social control mechanisms and formal democratic institutions — a critical distinction for both board exams (where questions contrast \"traditional\" vs \"constitutional\" panchayats) and competitive exams (where polity-sociology overlap is tested).",
+     "self_check": true
+    },
+    {
+     "q": "A jati panchayat imposes a fine and temporary boycott on a family whose son married outside the jati. Explain how this sanction simultaneously upholds both the \"difference/separation\" and \"hierarchy/holism\" principles of the caste system.",
+     "a": "The sanction enforces difference/separation by punishing boundary-crossing (inter-caste marriage), signalling that castes must remain distinct. It upholds hierarchy/holism because the boycott pressures the family to conform, preserving the jati's collective place in the larger caste hierarchy — if members freely crossed boundaries, the hierarchical ordering of castes would collapse. A wrong answer that only mentions \"it stops inter-caste marriage\" misses the holistic dimension: the panchayat protects not just separation but the entire ranked system where each jati has a fixed, complementary role. This dual-principle analysis is exactly what CBSE competency questions (case-based) and CUET sociology questions require.",
+     "self_check": true
+    },
+    {
+     "q": "In a village, a Dalit family refuses to perform the traditional \"unclean\" occupation (manual scavenging) assigned to their jati. The dominant caste landowners pressure the Dalit jati panchayat to enforce compliance. Analyse the power dynamics: why would the Dalit panchayat comply, and what does this reveal about the relationship between jati panchayats and material power?",
+     "a": "The Dalit panchayat complies because it lacks independent economic/political power; dominant castes control land, credit, and labour markets, making the Dalit panchayat dependent. This reveals that jati panchayats are not autonomous moral authorities — their enforcement capacity is structurally constrained by the material dominance of higher castes. A wrong answer (e.g., \"the panchayat agrees because it believes in the tradition\") ignores the political economy of caste: panchayats often enforce hierarchy *against* their own members' interests when pressured by dominant groups. This connects to NCERT's discussion of \"dominant castes\" (Node 004) and is a frequent JEE/NEET-adjacent sociology trap where students moralise instead of analysing power.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the sanctions used by jati panchayats (boycott, fine, excommunication) with the formal legal penalties available under the Protection of Civil Rights Act, 1955 and the SC/ST (Prevention of Atrocities) Act, 1989. Evaluate why jati panchayat sanctions often remain more effective in rural settings despite lacking legal backing.",
+     "a": "Jati panchayat sanctions are socially existential — boycott cuts off access to labour exchange, marriage networks, credit, temple entry, and collective rituals, making daily survival near-impossible. Legal penalties are distant, procedural, and require police/court cooperation which is often biased. In rural settings where social life is dense and state presence thin, the panchayat's informal power is immediate and total. A wrong answer that says \"legal penalties are stronger because they are law\" fails to grasp the sociological reality of \"social death\" vs. legal punishment. This evaluation skill is central to CBSE's \"analyse the effectiveness of informal vs formal control\" questions and CUET's comparative institutional analysis.",
+     "self_check": true
+    },
+    {
+     "q": "\"Jati panchayats are disappearing due to urbanisation, education, and legal reforms.\" Critique this statement using the NCERT's concept of caste's \"invisibility\" for upper castes vs. \"hyper-visibility\" for lower castes.",
+     "a": "The statement is partially true for upper-caste urban professionals: their panchayats have weakened because market jobs, anonymity, and individualism reduce dependence on caste networks. But for lower castes, panchayats *intensify* as collective defence against discrimination — they mobilise for reservations, legal aid, and political representation. The NCERT explicitly states caste becomes \"invisible\" for the privileged but \"eclipses other identities\" for the marginalised. A wrong answer that generalises \"panchayats are declining\" misses this class/caste divergence. This critique mirrors CBSE's \"evaluate competing perspectives\" questions and is essential for competitive exams testing nuanced understanding of social change.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical case study (150 words) where a jati panchayat's decision *contradicts* the formal law but *aligns* with caste norms. Include: the norm violated, the panchayat's sanction, the legal position, and why the community follows the panchayat.",
+     "a": "*Example*: In a Gujarat village, a Koli (OBC) woman marries a Patidar (dominant caste) man. The Koli panchayat fines the woman's family ₹50,000 and boycotts them for \"polluting\" the jati by accepting a higher-caste groom — violating endogamy *and* challenging hierarchy (hypergamy is permitted only upward for women, but here the groom's family refuses commensality). Legally, the marriage is valid under the Hindu Marriage Act; the fine and boycott constitute illegal coercion under IPC 384/506. Yet the community complies because the panchayat controls access to irrigation water (managed by Koli labour), temple festivals, and agricultural labour pools. *A poor answer* would omit the material leverage (water/labour) or fail to show the norm-sanction-law triad. This creative task tests if students can synthesise normative, coercive, and structural dimensions — a hallmark of high-order sociology questions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Jati Panchayats (caste councils) are traditional, informal governance bodies composed of respected elders from a specific jati (caste) that regulate members' social conduct by enforcing norms of endogamy, commensality, occupational purity, and ritual status through mechanisms like fines, social boycott, and ______, thereby maintaining caste boundaries and the hierarchical social order.",
+     "a": "excommunication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a young couple in a Rajasthan ______ wants to marry across jati lines — the boy is a Jat, the girl a Meghwal.",
+     "a": "village",
+     "self_check": true
+    },
+    {
+     "q": "What is Jati Panchayats (caste councils)? State the definition given in this lesson.",
+     "a": "Jati Panchayats (caste councils) are traditional, informal governance bodies composed of respected elders from a specific jati (caste) that regulate members' social conduct by enforcing norms of endogamy, commensality, occupational purity, and ritual status through mechanisms like fines, social boycott, and excommunication, thereby.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by recalling the six defining features of caste from Node ______ (birth-based membership, endogamy, food rules, hierarchy, segmental organisation, hereditary occupation).",
+     "a": "001",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Jati Panchayats (caste councils)?",
+     "a": "Students often confuse jati panchayats (caste councils enforcing social norms) with khap panchayats (clan/council bodies in North India that issue diktats on gotra exogamy, often violently) and Gram Panchayats (elected constitutional bodies).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) explain how jati panchayats operationalise the principles of difference/separation and hierarchy/holism in daily life, and (2) analyse a given case scenario to identify which caste norm was violated, what sanction the panchayat would likely impose, and why that sanction reinforces the caste system's.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

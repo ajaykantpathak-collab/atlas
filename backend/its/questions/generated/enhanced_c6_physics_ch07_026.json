@@ -34,6 +34,31 @@
      "q": "Design a simple experiment to test if a silver-coloured thermos keeps water colder than a black-coloured plastic bottle when left in the sun.",
      "a": "The experiment should involve placing equal amounts of ice-cold water in both containers and measuring their temperature every 30 minutes while in direct sunlight. A poor answer would lack a control variable (like placing both in the same spot) or fail to measure the temperature change over time.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Heat transfer in daily life refers to the natural movement of thermal energy through conduction, convection, and radiation, which we use to regulate ______, cook food, and maintain comfort.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever wondered why the handle of your frying pan is often made of wood or ______ instead of metal?",
+     "a": "plastic",
+     "self_check": true
+    },
+    {
+     "q": "What is Heat transfer in daily life? State the definition given in this lesson.",
+     "a": "Heat transfer in daily life refers to the natural movement of thermal energy through conduction, convection, and radiation, which we use to regulate temperature, cook food, and maintain comfort.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Heat transfer in daily life?",
+     "a": "Students often believe that \"insulators\" create cold or stop heat entirely.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify which method of heat transfer (conduction, convection, or radiation) is primarily responsible for a given daily scenario and explain why an object is designed with specific materials based on its thermal properties.",
+     "self_check": true
     }
    ]
   }

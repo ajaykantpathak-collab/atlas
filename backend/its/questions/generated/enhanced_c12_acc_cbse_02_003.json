@@ -34,6 +34,26 @@
      "q": "Create a scenario where Weighted Average Profit Method and Super Profit Method give **different goodwill values** for the same firm. Provide numbers and explain why the difference arises.",
      "a": "Scenario: Profits (oldest to latest): ₹80,000, ₹1,00,000, ₹1,40,000. Capital employed ₹5,00,000. Normal rate 10%. Years' purchase = 2.  \nWeighted avg profit (weights 1,2,3) = (1×80k + 2×100k + 3×140k)/6 = ₹1,13,333. Goodwill (Avg) = ₹2,26,667.  \nSuper profit: Normal profit = ₹50,000. Super profit = ₹1,13,333 − ₹50,000 = ₹63,333. Goodwill (Super) = ₹1,26,667.  \nDifference arises because **Super Profit Method deducts normal return on capital**, while Average Profit Method does not. The firm earns above-normal return, but capital base reduces super profit.  \nA poor answer that only changes years' purchase or uses same profit for both methods shows failure to **design a scenario exposing methodological difference**.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Goodwill valuation under the Average Profit Method computes goodwill as the product of average ______ profit (adjusted for abnormal items, non-recurring expenses/incomes, and partner remuneration) and an agreed number of years' purchase.",
+     "a": "maintainable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are admitting a new partner into your family's textile ______.",
+     "a": "business",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must correctly adjust past profits for non-recurring items, partner remuneration, and depreciation policy changes; compute average profit; determine capital employed and normal profit; calculate super profit; and finally value goodwill using the agreed years' purchase — all with proper journal entries for admission.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a new partner into your family's textile business.",
+     "a": "admitting",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Construct a binary operation \\(*\\) on the set \\(S = \\{0, 1, 2\\}\\) such that:\n(i) \\(*\\) has an identity element,\n(ii) at least one element has an inverse,\n(iii) at least one element does NOT have an inverse.\nProvide the Cayley table and justify your claims. (Create level)",
      "a": "A valid example:\n\\[\n\\begin{array}{c|ccc}\n* & 0 & 1 & 2 \\\\\n\\hline\n0 & 0 & 1 & 2 \\\\\n1 & 1 & 0 & 1 \\\\\n2 & 2 & 1 & 2 \\\\\n\\end{array}\n\\]\nIdentity: \\(0\\) (row 0 and column 0 match headers).\nInverses: \\(0 * 0 = 0 \\Rightarrow 0^{-1}=0\\); \\(1 * 1 = 0 \\Rightarrow 1^{-1}=1\\).\nElement \\(2\\): Check all \\(b\\): \\(2*0=2\\neq0\\), \\(2*1=1\\neq0\\), \\(2*2=2\\neq0\\). No inverse for \\(2\\).\nA poor answer that makes every element have an inverse (e.g., a group table) fails condition (iii). A poor answer without an identity fails condition (i).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ of an element, if it exists, is also unique.",
+     "a": "inverse",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You notice there is a special \"neutral token\" that, when ______ with any other token, leaves that token unchanged — that is the identity element.",
+     "a": "combined",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You notice there is a special \"neutral token\" that, when combined with any other token, leaves that token ______ — that is the identity element.",
+     "a": "unchanged",
+     "self_check": true
     }
    ]
   }

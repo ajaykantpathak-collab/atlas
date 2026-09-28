@@ -1,0 +1,176 @@
+{
+ "catalog": "catalog_class12_home_science_lehe202.json",
+ "concepts": [
+  {
+   "id": "lehe202.10",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "head_count = 435",
+      "head_size = 72",
+      "figure_height = head_count * head_size"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "head_count = 371",
+      "head_size = 49",
+      "figure_height = head_count * head_size"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "head_count = 458",
+      "head_size = 86",
+      "figure_height = head_count * head_size"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "head_count = 283",
+      "head_size = 2",
+      "figure_height = head_count * head_size"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "head_count = 148",
+      "head_size = 57",
+      "figure_height = head_count * head_size"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "head_count = 186",
+      "head_size = 52",
+      "figure_height = head_count * head_size"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "figure_height = head_count * head_size"
+   ]
+  },
+  {
+   "id": "lehe202.11",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "long_years = 16.8",
+      "short_years = 32",
+      "duration_gap = long_years - short_years"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "long_years = 65",
+      "short_years = 32",
+      "duration_gap = long_years - short_years"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "long_years = 78",
+      "short_years = 107",
+      "duration_gap = long_years - short_years"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "long_years = 82",
+      "short_years = 13.3",
+      "duration_gap = long_years - short_years"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "long_years = 16.7",
+      "short_years = 112",
+      "duration_gap = long_years - short_years"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "long_years = 76",
+      "short_years = 94",
+      "duration_gap = long_years - short_years"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "duration_gap = long_years - short_years"
+   ]
+  },
+  {
+   "id": "lehe202.12",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total_designers = 47",
+      "self_share = 2.3",
+      "self_employed = total_designers * self_share"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total_designers = 46",
+      "self_share = 7.3",
+      "self_employed = total_designers * self_share"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_designers = 24",
+      "self_share = 91",
+      "self_employed = total_designers * self_share"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total_designers = 48",
+      "self_share = 14",
+      "self_employed = total_designers * self_share"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "total_designers = 5.9",
+      "self_share = 3.3",
+      "self_employed = total_designers * self_share"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total_designers = 47",
+      "self_share = 87",
+      "self_employed = total_designers * self_share"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "self_employed = total_designers * self_share"
+   ]
+  }
+ ]
+}

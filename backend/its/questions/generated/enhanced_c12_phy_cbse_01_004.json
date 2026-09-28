@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using household items to demonstrate that an electric field exists around a charged object even when no test charge is present. Describe what you would observe and how it relates to the concept of electric field.",
      "a": "Rub a balloon on wool to charge it. Bring it near a thin stream of water from a tap — the stream bends toward the balloon. The water molecules are polar; the field of the balloon aligns them and exerts a net force. This shows the field exists in the space around the balloon and can act on charges/dipoles. A poor answer would describe only attraction of paper bits without explaining that the field is the mediator, or would confuse magnetic effects.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Electric field at a point in space is defined as the ______ force per unit positive test charge placed at that point, without disturbing the source charge distribution.",
+     "a": "electrostatic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you rub a plastic ruler against your dry hair and hold it near tiny bits of paper — the paper jumps up even ______ the ruler doesn't touch them.",
+     "a": "though",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) calculate the electric field vector at a given point due to a single point charge using the formula with correct direction, and (2) apply the superposition principle to find the net electric field due to a system of discrete charges by vector addition of individual field contributions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you rub a plastic ruler against your dry hair and hold it near tiny bits of paper — the paper jumps up even though the ruler doesn't touch them.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

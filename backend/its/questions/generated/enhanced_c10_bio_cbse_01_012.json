@@ -34,6 +34,31 @@
      "q": "Design a simple investigation using dialysis tubing to model the selective reabsorption function of the proximal convoluted tubule. Specify what you would put inside the tubing, what the surrounding solution would contain, what you would test for, and what result would demonstrate \"selective\" reabsorption.",
      "a": "Fill dialysis tubing with a mixture of glucose, starch, and urea (simulating filtrate). Place in a beaker of water (simulating peritubular capillary blood). Test beaker water at intervals for glucose (Benedict's test), starch (iodine test), and urea (litmus/pH or specific test). Result showing glucose and urea in beaker water but starch remaining inside tubing demonstrates selective reabsorption: small molecules (glucose, urea) diffuse out while large molecules (starch/proteins) are retained — analogous to PCT reabsorbing small useful molecules but not proteins. A poor design that tests only one substance or uses incorrect pore size reveals the student does not understand \"selective\" means based on molecular size and transport mechanisms, not just passive diffusion of everything.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Excretion in humans is the biological process by which metabolic wastes, primarily ______ wastes like urea, excess water, and salts, are removed from the blood by the kidneys and expelled from the body as urine.",
+     "a": "nitrogenous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Guide the student to trace the path of blood through the renal artery into the ______.",
+     "a": "nephron",
+     "self_check": true
+    },
+    {
+     "q": "What is Excretion in humans? State the definition given in this lesson.",
+     "a": "Excretion in humans is the biological process by which metabolic wastes, primarily nitrogenous wastes like urea, excess water, and salts, are removed from the blood by the kidneys and expelled from the body as urine.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Excretion in humans?",
+     "a": "Students often think the kidney \"makes\" urine by actively secreting wastes into an empty tubule, rather than understanding urine is formed by filtering blood plasma and then modifying the filtrate.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can label all parts of a nephron diagram (Bowman's capsule, glomerulus, proximal convoluted tubule, loop of Henle, distal convoluted tubule, collecting duct), explain the three steps of urine formation in correct sequence with the substances involved at each step, and describe how the kidney maintains water balance through.",
+     "self_check": true
     }
    ]
   }

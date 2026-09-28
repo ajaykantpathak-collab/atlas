@@ -34,6 +34,26 @@
      "q": "Design a simple dichotomous key (4 steps) to distinguish Nereis, Pheretima, and Hirudinaria using only external morphological features visible to naked eye.",
      "a": "1. Body with distinct parapodia bearing setae → Nereis; without parapodia → go to 2.\n2. Body with anterior and posterior suckers → Hirudinaria; without suckers → go to 3.\n3. Clitellum present in mature worms → Pheretima; clitellum absent → not an annelid (or immature).\nA poor key uses internal features (e.g., \"closed circulation\") or non-distinct traits (e.g., \"segmented body\" — all three have it), showing inability to select diagnostic characters.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Phylum Annelida consists of ______, bilaterally symmetrical, coelomate animals that exhibit true metameric segmentation (both external and internal repetition of organs) and possess a closed circulatory system, nephridia for excretion, and a nervous system with a double ventral nerve cord.",
+     "a": "triploblastic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine digging in moist garden soil after rain and finding a reddish-brown worm that moves by alternately ______ and lengthening its body.",
+     "a": "shortening",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can list all defining characteristics of Phylum Annelida with precise terminology (metamerism, coelomate, closed circulation, nephridia, ventral nerve cord), differentiate them from Platyhelminthes and Aschelminthes using a comparison table, and explain the functional significance of segmentation in locomotion and organ.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine digging in moist garden soil after rain and finding a reddish-brown worm that moves by ______ shortening and lengthening its body.",
+     "a": "alternately",
+     "self_check": true
     }
    ]
   }

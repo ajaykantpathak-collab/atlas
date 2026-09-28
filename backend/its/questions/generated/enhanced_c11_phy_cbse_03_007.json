@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a spring balance, a wooden block, and a protractor to verify that the work done by a constant force is given by the dot product **W = F s cosθ**. Describe the measurements you would take and how you would compute the work for θ = 30°, 60°, and 90°.",
      "a": "Pull the block horizontally with the spring balance at a fixed angle θ to the horizontal. Measure the force F (spring reading) and the horizontal displacement s (using a meter scale). Compute work as W = F s cosθ. For θ = 90° (pulling vertically), the block doesn't move horizontally (if frictionless) or the horizontal displacement is zero → W = 0, matching cos90° = 0. For θ = 30° and 60°, compare measured W with F s cosθ. A poor answer would omit measuring the angle, confuse vertical/horizontal displacement, or suggest measuring work via kinetic energy change without isolating the force's component.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The scalar (dot) product of two vectors A and B is a scalar quantity defined as A·B = |A||B|cosθ, where |A| and |B| are the ______ of the vectors and θ is the smaller angle between them when placed tail-to-tail.",
+     "a": "magnitudes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a person pushing a heavy box across a floor at an angle: only the ______ of the push along the floor's direction actually moves the box.",
+     "a": "component",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute the dot product given magnitudes and angle, or given components (AₓBₓ + AᵧBᵧ + A_zB_z), and can determine the angle between two vectors from their dot product and magnitudes.",
+     "self_check": true
     }
    ]
   }

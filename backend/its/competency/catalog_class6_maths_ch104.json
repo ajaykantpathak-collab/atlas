@@ -21,7 +21,7 @@
     "Give one example of data from your classroom.",
     "Why organise raw observations before drawing conclusions?"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -38,7 +38,16 @@
      "action": "confirm it qualifies as data",
      "explain": "Conclude that the collection is data if it was gathered purposefully to convey facts about the things being studied."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 7 + 4 + 8 gives 19",
+     "compute": "total = 7 + 4 + 8"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.4.1.2",
@@ -205,7 +214,7 @@
     "Should bars for river lengths stand upright or lie flat?",
     "When are flat bars easier to label?"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -222,7 +231,16 @@
      "action": "confirm the choice aids readability",
      "explain": "Verify that the chosen orientation makes the graph easy to label and compare without crowding the axis."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 9 + 2 + 7 gives 18",
+     "compute": "total = 9 + 2 + 7"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.4.5.2",
@@ -240,7 +258,7 @@
     "Why can an infographic exaggerate a comparison?",
     "What should you check before trusting a poster's visual?"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -257,7 +275,16 @@
      "action": "judge reliability",
      "explain": "Conclude whether the infographic conveys the data faithfully or misleads the reader through scaled icons or decorative effects."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 7 + 5 + 9 gives 21",
+     "compute": "total = 7 + 5 + 9"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

@@ -1,0 +1,51 @@
+{
+ "catalog": "enhanced_c6_gram_cbse_82_002",
+ "concepts": [
+  {
+   "id": "enh:c6_gram_cbse_82_002",
+   "title": "c6_gram_cbse_82_002",
+   "questions": [
+    {
+     "q": "'Look! The baby ___(cry).' Which form and why?",
+     "a": "'is crying' — 'look!' signals happening-now → continuous. A wrong answer 'cries' reveals the student ignores signal words; 'is cry'/'crying' alone shows the missing-helper error.",
+     "self_check": true
+    },
+    {
+     "q": "Fix: 'I am going to school every day.'",
+     "a": "'I go to school every day' — 'every day' is a habit → simple present. A wrong answer keeping 'am going' shows the student defaults to continuous whenever the action feels current.",
+     "self_check": true
+    },
+    {
+     "q": "Spell the -ing: 'swim', 'dance', 'sit'.",
+     "a": "swimming (double m after short vowel), dancing (drop silent e), sitting (double t). Wrong answers 'swiming/danceing' show the two spelling rules aren't yet automatic.",
+     "self_check": true
+    },
+    {
+     "q": "Present tense has two gears students must separate: simple present for habits and facts ('She reads daily', 'The sun rises in the east') versus present ______ for actions happening NOW ('She is reading').",
+     "a": "continuous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Present tense has two gears students must separate: simple present for habits and facts ('She reads daily', 'The sun rises in the east') versus present ______ for actions happening NOW ('She is reading').",
+     "a": "continuous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Two pictures: a girl who reads every day vs a girl reading right now. 'She reads daily' — habit, simple. 'She is reading' — now, ______.",
+     "a": "continuous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mixing them is the most common class-______ tense error.",
+     "a": "6",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student chooses simple present vs present continuous by asking 'habit/fact or happening-now?', uses is/am/are + V-ing correctly, and handles the spelling rules (run→running, write→writing).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

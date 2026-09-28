@@ -22,7 +22,7 @@
     },
     {
      "q": "Compare the genome organization of a typical prokaryote (e.g., E. coli) and a eukaryote (e.g., human) in terms of: (a) number of chromosomes, (b) presence of organellar genomes, (c) gene density, (d) introns in genes. Use a table format.",
-     "a": "| Feature | Prokaryote (E. coli) | Eukaryote (Human) |\n|---------|---------------------|-------------------|\n| Chromosomes | 1 circular chromosome (+ plasmids) | 23 pairs linear chromosomes (nuclear) + mitochondrial DNA |\n| Organellar genomes | None | Mitochondria (16.5 kb), no plastids |\n| Gene density | High (~1 gene/kb) | Low (~1 gene/100 kb) |\n| Introns | Rare/absent | Common (average ~8 introns/gene) |\nA wrong answer that says prokaryotes have multiple linear chromosomes or that humans lack mitochondrial genome shows failure to integrate Class 11 chromosome structure (c11_biotech_cbse_08_001) with current NCERT Fig. 5.1.",
+     "a": "| Feature | Prokaryote (E. coli) | Eukaryote (Human) |\n|---------|---------------------|-------------------|\n| Chromosomes | 1 circular chromosome (+ plasmids) | 23 pairs linear chromosomes (nuclear) + mitochondrial DNA |\n| Organellar genomes | N/A | Mitochondria (16.5 kb), no plastids |\n| Gene density | High (~1 gene/kb) | Low (~1 gene/100 kb) |\n| Introns | Rare/absent | Common (average ~8 introns/gene) |\nA wrong answer that says prokaryotes have multiple linear chromosomes or that humans lack mitochondrial genome shows failure to integrate Class 11 chromosome structure (c11_biotech_cbse_08_001) with current NCERT Fig. 5.1.",
      "self_check": true
     },
     {
@@ -33,6 +33,26 @@
     {
      "q": "Design a concept map that connects these terms: Genome, Gene, Chromosome, Nucleoid, Plasmid, Mitochondrial DNA, Chloroplast DNA, Non-coding DNA, Regulatory sequence, Intron, Exon. Show hierarchical relationships and indicate which are present in prokaryotes vs. eukaryotes.",
      "a": "A good concept map places Genome at top, branching to Prokaryotic Genome (Nucleoid chromosome + Plasmid) and Eukaryotic Genome (Nuclear chromosomes + Mitochondrial DNA + Chloroplast DNA). Nuclear chromosome branches to Gene, Non-coding DNA. Gene branches to Exon + Intron + Regulatory sequence. Prokaryote side lacks Intron, Mitochondrial DNA, Chloroplast DNA. A poor map that puts Plasmid under Eukaryote or misses organellar genomes shows fragmented understanding of NCERT Fig. 5.1's two-panel structure.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A genome is the complete set of genetic material (DNA) present in a cell of an organism, ______ all genes, non-coding sequences, regulatory elements, and organellar DNA; a gene is a specific segment of DNA that encodes a functional product (RNA or protein) and represents a discrete unit of heredity within the genome.",
+     "a": "encompassing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're given two books: one is a complete ______ set (genome), the other is a single chapter about photosynthesis (gene).",
+     "a": "encyclopedia",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) distinguish genome from gene using precise terminology (complete DNA content vs. functional segment), (2) list the components of prokaryotic and eukaryotic genomes as per NCERT, and (3) explain why genome size does not correlate with gene number or organismal complexity.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're given two books: one is a complete encyclopedia set (genome), the other is a single chapter about ______ (gene).",
+     "a": "photosynthesis",
      "self_check": true
     }
    ]

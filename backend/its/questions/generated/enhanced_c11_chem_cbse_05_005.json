@@ -34,6 +34,31 @@
      "q": "Design a simple school-lab experiment to verify Charles's Law using a capillary tube, a thermometer, and a beaker of water. List the measurements you would take, the graph you would plot, and how you would determine absolute zero from the graph.",
      "a": "Trapped air column in a capillary tube (sealed at one end) acts as constant-pressure gas (atmospheric pressure on open end). Heat water bath from 0°C to 80°C in steps. At each temperature, measure length of air column (proportional to volume) and temperature. Plot length (y-axis) vs temperature in °C (x-axis). Extrapolate straight line to zero length; the x-intercept gives absolute zero in °C. A poor answer omits the need for constant pressure (open to atmosphere) or suggests plotting volume directly without justifying length ∝ volume.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Charles's Law states that for a fixed amount of an ideal gas at constant pressure, the volume (V) is directly ______ to its absolute temperature (T) measured in Kelvin.",
+     "a": "proportional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a hot air balloon at the Jaipur Literature Festival: the burner heats the air inside, the balloon ______ and rises.",
+     "a": "expands",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Plot volume vs temperature (°C) – the line extrapolates to -______°C, giving absolute zero.",
+     "a": "273.15",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state Charles's Law with correct conditions (constant pressure, fixed moles), convert Celsius to Kelvin for gas law calculations, apply V₁/T₁ = V₂/T₂ to solve for unknown volume or temperature, and explain why the Kelvin scale is mandatory using the concept of absolute zero.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a hot air balloon at the Jaipur ______ Festival: the burner heats the air inside, the balloon expands and rises.",
+     "a": "Literature",
+     "self_check": true
     }
    ]
   }

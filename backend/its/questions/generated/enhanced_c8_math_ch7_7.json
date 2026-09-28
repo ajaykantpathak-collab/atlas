@@ -34,6 +34,31 @@
      "q": "Create a real-life word problem (Indian context) that requires setting up a proportion with the unknown in the denominator and solving it using cross-multiplication. Provide the solution.",
      "a": "Example problem: \"A car travels 180 km on 12 litres of petrol. How many litres are needed to travel 300 km at the same mileage?\"\nProportion: \\( \\frac{180}{12} = \\frac{300}{x} \\) (unknown in denominator).\nCross-multiply: \\( 180x = 12 \\times 300 \\rightarrow 180x = 3600 \\rightarrow x = 20 \\) litres.\nA poor problem would have the unknown in the numerator, use trivial numbers (like doubling), or not require cross-multiplication (e.g., unitary method is obvious). This reveals if the student understands the structure of proportion problems and can design one that specifically exercises the target skill.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This ______ the proportion into a linear equation that can be solved for an unknown variable.",
+     "a": "transforms",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your mother adjust a ______ for 6 people that originally serves 4 people.",
+     "a": "recipe",
+     "self_check": true
+    },
+    {
+     "q": "What is Cross-multiplication? State the definition given in this lesson.",
+     "a": "This transforms the proportion into a linear equation that can be solved for an unknown variable.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Cross-multiplication?",
+     "a": "This happens because they memorise \"multiply across\" but confuse \"across\" with \"along the fraction bar\" rather than \"across the equal sign diagonally\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly set up a proportion from a word problem, apply cross-multiplication to form a linear equation, solve for the unknown variable using inverse operations, and interpret the solution in the original context with appropriate units.",
+     "self_check": true
     }
    ]
   }

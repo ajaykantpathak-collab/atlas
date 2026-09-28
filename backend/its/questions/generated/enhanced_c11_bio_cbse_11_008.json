@@ -34,6 +34,36 @@
      "q": "Design a thought experiment using ¹⁸O-labeled water (H₂¹⁸O) and ¹⁸O-labeled CO₂ (C¹⁸O₂) to prove that the O₂ released in photosynthesis comes exclusively from water, not CO₂. Specify the experimental groups, measurements, and expected isotopic distribution in evolved O₂.",
      "a": "Group A: H₂¹⁸O + normal CO₂ → evolved O₂ contains ¹⁸O. Group B: normal H₂O + C¹⁸O₂ → evolved O₂ contains only ¹⁶O. Group C: H₂¹⁸O + C¹⁸O₂ → evolved O₂ contains ¹⁸O. Measure O₂ isotopes by mass spectrometry. Result: Only groups with labeled water produce labeled O₂. This replicates Ruben & Kamen (1941) and Hill's earlier work. A poor answer suggests measuring ¹⁸O in glucose instead of O₂ – confusing carbon fixation (where CO₂ oxygen enters organic molecules) with water splitting (where water oxygen becomes O₂ gas).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is a physico-chemical process in which green plants convert light energy into chemical energy by using carbon dioxide and water to synthesize carbohydrates (primarily glucose) and release oxygen, occurring in two linked stages: light-dependent reactions that capture photon energy to produce ATP and NADPH, and light-independent reactions (Calvin cycle) that utilize this chemical energy to fix carbon into organic molecules.",
+     "a": "Photosynthesis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a rooftop solar panel on a Delhi home: it converts ~20% of ______ light into electricity.",
+     "a": "incident",
+     "self_check": true
+    },
+    {
+     "q": "What is Photosynthesis? State the definition given in this lesson.",
+     "a": "Photosynthesis is a physico-chemical process in which green plants convert light energy into chemical energy by using carbon dioxide and water to synthesize carbohydrates (primarily glucose) and release oxygen, occurring in two linked stages: light-dependent reactions that capture photon energy to produce ATP and NADPH, and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a rooftop solar panel on a Delhi home: it converts ~______% of incident light into electricity.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Photosynthesis?",
+     "a": "Students believe \"photosynthesis stores light energy directly in glucose bonds\" – a single-step conversion.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can trace the complete energy transformation pathway from photon absorption to glucose synthesis, quantifying ATP/NADPH requirements per CO₂ fixed and per glucose formed, and explain why cyclic photophosphorylation is necessary to balance the ATP:NADPH ratio demanded by the Calvin cycle.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a choropleth map legend (5 classes) to show district-level population density for Uttar Pradesh using 2011 Census data. Justify your class intervals and explain how you would annotate the map to highlight the Varanasi-Prayagraj-Kanpur urban corridor's influence.",
      "a": "Good legend: 0–200 (white), 200–500 (light yellow), 500–800 (orange), 800–1,200 (red), >1,200 (dark red) persons/km². Intervals reflect natural breaks: <200 = Bundelkhand/Terai; 200–500 = central plains; 500–800 = eastern plains; 800–1,200 = western plains; >1,200 = core urban districts. Annotation: Use graduated circles for city populations, arrows showing migration flow toward the corridor, and a callout box with \"NH-19 / Railway spine driving linear urbanization\". A poor legend uses equal intervals (e.g., 0–300, 300–600…) which obscures the sharp gradient at the corridor.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Population ______ refers to the spatial pattern of where people live across India's territory, while population density is the quantitative measure of population per unit area (typically persons per square kilometre).",
+     "a": "distribution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at a night-time satellite image of India: the Indo-______ Plain glows intensely while the Thar Desert and Himalayan foothills remain dark.",
+     "a": "Gangetic",
+     "self_check": true
+    },
+    {
+     "q": "What is Population distribution? State the definition given in this lesson.",
+     "a": "Population distribution refers to the spatial pattern of where people live across India's territory, while population density is the quantitative measure of population per unit area (typically persons per square kilometre).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Population distribution?",
+     "a": "Students believe \"high rainfall always means high population density\" and cite Cherrapunji (Meghalaya) as a counter-example but misattribute its low density to \"too much rain causing floods.\" The real reason is steep, dissected terrain with thin soils on limestone, limiting agriculture and infrastructure — not rainfall volume.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can calculate arithmetic, physiological, and agricultural density for any Indian state using Census data, explain the physical and human factors causing high density in the Northern Plains versus low density in Arunachal Pradesh, and predict how a new industrial corridor might alter district-level density patterns over two.",
+     "self_check": true
     }
    ]
   }

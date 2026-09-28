@@ -1,0 +1,51 @@
+{
+ "catalog": "enhanced_c9_gram_cbse_82_001",
+ "concepts": [
+  {
+   "id": "enh:c9_gram_cbse_82_001",
+   "title": "c9_gram_cbse_82_001",
+   "questions": [
+    {
+     "q": "'Each of the students ___ (has/have) submitted the form.'",
+     "a": "'has' — 'each' is always singular. A wrong answer 'have' is semantic plurality: many students pictured, but 'each' singles them out grammatically.",
+     "self_check": true
+    },
+    {
+     "q": "'Neither the teacher nor the students ___ (was/were) ready.'",
+     "a": "'were' — the nearer subject 'students' governs. A wrong answer 'was' either reverses the proximity rule or treats 'neither' as the subject.",
+     "self_check": true
+    },
+    {
+     "q": "'Some of the water ___ (has/have) spilt.'",
+     "a": "'has' — 'some' takes its number from 'water' (uncountable). A wrong answer 'have' treats 'some' as inherently plural.",
+     "self_check": true
+    },
+    {
+     "q": "Class 9 concord adds the ______ pronouns to the head-noun rule: each/every/everyone/nobody are always singular; few/many/several always plural; some/all/most take their number from the of-phrase.",
+     "a": "indefinite",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Class 9 concord adds the ______ pronouns to the head-noun rule: each/every/everyone/nobody are always singular; few/many/several always plural; some/all/most take their number from the of-phrase. 'Neither…nor' agrees with the NEARER subject.",
+     "a": "indefinite",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The three-box sort: ALWAYS ______ (each, every, everyone, everybody, someone, nobody, either, neither alone).",
+     "a": "SINGULAR",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student applies head-noun agreement through decoy phrases, assigns fixed number to indefinites, resolves neither/either-or proximity, and handles collective nouns by the unit/members test.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The three-box sort: ALWAYS SINGULAR (each, every, everyone, ______, someone, nobody, either, neither alone).",
+     "a": "everybody",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

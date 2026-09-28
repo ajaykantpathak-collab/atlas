@@ -1,0 +1,554 @@
+{
+ "catalog": "catalog_class12_physics_leph102.json",
+ "concepts": [
+  {
+   "id": "leph102.2.2.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "W = 33",
+      "q = 26",
+      "V = W / q"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "W = 65",
+      "q = 50",
+      "V = W / q"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "W = 95",
+      "q = 34",
+      "V = W / q"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "W = 11",
+      "q = 23",
+      "V = W / q"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "W = 99",
+      "q = 15.8",
+      "V = W / q"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "W = 5.7",
+      "q = 25",
+      "V = W / q"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "V = W / q"
+   ]
+  },
+  {
+   "id": "leph102.2.3.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "k = 46",
+      "Q = 86",
+      "r = 53",
+      "V = k * Q / r"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "k = 92",
+      "Q = 71",
+      "r = 49",
+      "V = k * Q / r"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "k = 62",
+      "Q = 84",
+      "r = 82",
+      "V = k * Q / r"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "k = 98",
+      "Q = 20",
+      "r = 17.2",
+      "V = k * Q / r"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "k = 30",
+      "Q = 68",
+      "r = 40",
+      "V = k * Q / r"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "k = 76",
+      "Q = 32",
+      "r = 13.7",
+      "V = k * Q / r"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "V = k * Q / r"
+   ]
+  },
+  {
+   "id": "leph102.2.4.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "k = 90",
+      "p = 32",
+      "cos_theta = 49",
+      "r = 4.5",
+      "V = k * p * cos_theta / r**2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "k = 38",
+      "p = 80",
+      "cos_theta = 84",
+      "r = 84",
+      "V = k * p * cos_theta / r**2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "k = 79",
+      "p = 47",
+      "cos_theta = 12.9",
+      "r = 80",
+      "V = k * p * cos_theta / r**2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "k = 84",
+      "p = 57",
+      "cos_theta = 54",
+      "r = 56",
+      "V = k * p * cos_theta / r**2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "k = 42",
+      "p = 31",
+      "cos_theta = 109",
+      "r = 12.6",
+      "V = k * p * cos_theta / r**2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "k = 54",
+      "p = 98",
+      "cos_theta = 16",
+      "r = 27",
+      "V = k * p * cos_theta / r**2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "V = k * p * cos_theta / r**2"
+   ]
+  },
+  {
+   "id": "leph102.2.6.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "dV = 91",
+      "dl = 59",
+      "E = dV / dl"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "dV = 84",
+      "dl = 1.7",
+      "E = dV / dl"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "dV = 5.1",
+      "dl = 87",
+      "E = dV / dl"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "dV = 49",
+      "dl = 1.7",
+      "E = dV / dl"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "dV = 95",
+      "dl = 3.6",
+      "E = dV / dl"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "dV = 65",
+      "dl = 80",
+      "E = dV / dl"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "E = dV / dl"
+   ]
+  },
+  {
+   "id": "leph102.2.7.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "k = 14.3",
+      "q_1 = 14.7",
+      "q_2 = 57",
+      "r_1_2 = 41",
+      "U = k * q_1 * q_2 / r_1_2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "k = 9.6",
+      "q_1 = 17.5",
+      "q_2 = 60",
+      "r_1_2 = 43",
+      "U = k * q_1 * q_2 / r_1_2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "k = 80",
+      "q_1 = 54",
+      "q_2 = 98",
+      "r_1_2 = 39",
+      "U = k * q_1 * q_2 / r_1_2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "k = 36",
+      "q_1 = 95",
+      "q_2 = 5.6",
+      "r_1_2 = 68",
+      "U = k * q_1 * q_2 / r_1_2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "k = 4.4",
+      "q_1 = 74",
+      "q_2 = 92",
+      "r_1_2 = 48",
+      "U = k * q_1 * q_2 / r_1_2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "k = 82",
+      "q_1 = 86",
+      "q_2 = 51",
+      "r_1_2 = 25",
+      "U = k * q_1 * q_2 / r_1_2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "U = k * q_1 * q_2 / r_1_2"
+   ]
+  },
+  {
+   "id": "leph102.2.9.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "sigma = 90",
+      "eps_0 = 97",
+      "E_surface = sigma / eps_0"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "sigma = 75",
+      "eps_0 = 41",
+      "E_surface = sigma / eps_0"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "sigma = 54",
+      "eps_0 = 61",
+      "E_surface = sigma / eps_0"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "sigma = 60",
+      "eps_0 = 87",
+      "E_surface = sigma / eps_0"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "sigma = 98",
+      "eps_0 = 65",
+      "E_surface = sigma / eps_0"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "sigma = 5.5",
+      "eps_0 = 46",
+      "E_surface = sigma / eps_0"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "E_surface = sigma / eps_0"
+   ]
+  },
+  {
+   "id": "leph102.2.12.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "eps_0 = 97",
+      "A = 88",
+      "d = 69",
+      "C = eps_0 * A / d"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "eps_0 = 24",
+      "A = 17.8",
+      "d = 24",
+      "C = eps_0 * A / d"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "eps_0 = 72",
+      "A = 15.8",
+      "d = 40",
+      "C = eps_0 * A / d"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "eps_0 = 73",
+      "A = 48",
+      "d = 29",
+      "C = eps_0 * A / d"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "eps_0 = 94",
+      "A = 5.7",
+      "d = 94",
+      "C = eps_0 * A / d"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "eps_0 = 92",
+      "A = 21",
+      "d = 26",
+      "C = eps_0 * A / d"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "C = eps_0 * A / d"
+   ]
+  },
+  {
+   "id": "leph102.2.13.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "K = 97",
+      "C_0 = 97",
+      "C = K * C_0"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "K = 62",
+      "C_0 = 82",
+      "C = K * C_0"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "K = 90",
+      "C_0 = 82",
+      "C = K * C_0"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "K = 58",
+      "C_0 = 11.8",
+      "C = K * C_0"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "K = 1.7",
+      "C_0 = 18.1",
+      "C = K * C_0"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "K = 2.7",
+      "C_0 = 80",
+      "C = K * C_0"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "C = K * C_0"
+   ]
+  },
+  {
+   "id": "leph102.2.14.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "C_1 = 55",
+      "C_2 = 15.9",
+      "C = C_1 + C_2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "C_1 = 46",
+      "C_2 = 41",
+      "C = C_1 + C_2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "C_1 = 63",
+      "C_2 = 59",
+      "C = C_1 + C_2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "C_1 = 100",
+      "C_2 = 17.7",
+      "C = C_1 + C_2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "C_1 = 88",
+      "C_2 = 26",
+      "C = C_1 + C_2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "C_1 = 44",
+      "C_2 = 72",
+      "C = C_1 + C_2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "C = C_1 + C_2"
+   ]
+  }
+ ]
+}

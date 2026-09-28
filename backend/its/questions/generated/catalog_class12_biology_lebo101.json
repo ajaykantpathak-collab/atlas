@@ -1,6 +1,53 @@
 {
- "catalog": "catalog_class12_biology_lebo101",
+ "catalog": "catalog_class12_biology_lebo101.json",
  "concepts": [
+  {
+   "id": "lebo101.1.2.1.2",
+   "title": "Microsporogenesis and Pollen Yield",
+   "converted_to_compute": true,
+   "formula": "microspores = pmc_count * 4",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "microspores = pmc_count * 4",
+     "compute": "microspores = pmc_count * 4"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Microsporogenesis and Pollen Yield: given pmc_count = 421, find microspores.",
+     "a": "1684",
+     "self_check": false
+    },
+    {
+     "q": "For Microsporogenesis and Pollen Yield: given pmc_count = 83, find microspores.",
+     "a": "332",
+     "self_check": false
+    },
+    {
+     "q": "For Microsporogenesis and Pollen Yield: given pmc_count = 45, find microspores.",
+     "a": "180",
+     "self_check": false
+    },
+    {
+     "q": "For Microsporogenesis and Pollen Yield: given pmc_count = 80, find microspores.",
+     "a": "320",
+     "self_check": false
+    },
+    {
+     "q": "For Microsporogenesis and Pollen Yield: given pmc_count = 425, find microspores.",
+     "a": "1700",
+     "self_check": false
+    },
+    {
+     "q": "For Microsporogenesis and Pollen Yield: given pmc_count = 249, find microspores.",
+     "a": "996",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "lebo101.1.2.1.1",
    "title": "Anther and Microsporangium Wall Layers",
@@ -18,37 +65,6 @@
     {
      "q": "Under which section is 'Anther and Microsporangium Wall Layers' taught, and from which source text?",
      "a": "1.2.1 (source: lebo101.txt lines 116-157 (stamen, anther section and microsporangium structure))",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebo101.1.2.1.2",
-   "title": "Microsporogenesis and Pollen Yield",
-   "questions": [
-    {
-     "q": "Calculate the pollen grains produced from a given number of pollen mother cells in an anther. Use the method 'Microsporogenesis and Pollen Yield'. Work with: pmc_count = 6. Carry the chain through step by step and give the final value of result.",
-     "a": "24 units",
-     "self_check": false
-    },
-    {
-     "q": "How many haploid microspores arise when a set of PMCs undergoes meiosis? Use the method 'Microsporogenesis and Pollen Yield'. Work with: pmc_count = 4. Carry the chain through step by step and give the final value of result.",
-     "a": "16 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Microsporogenesis and Pollen Yield' refers to.",
-     "a": "Inside each microsporangium the sporogenous cells act as pollen mother cells whose meiotic divisions produce haploid microspores, first stuck together in four-cell tetrads and later released as separate pollen grains.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Microsporogenesis and Pollen Yield'.",
-     "a": "One diploid pollen mother cell meiotically yields a tetrad of four haploid microspores, and every microspore matures into exactly one pollen grain.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Microsporogenesis and Pollen Yield', in plain ASCII form.",
-     "a": "microspores = pmc_count * 4",
      "self_check": true
     }
    ]

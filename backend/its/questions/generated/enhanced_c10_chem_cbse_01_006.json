@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using only household materials (kitchen ingredients) to demonstrate a double displacement reaction that produces a visible precipitate. List the materials, procedure, observation, and the balanced chemical equation.",
      "a": "Materials: Baking soda (NaHCO₃), vinegar (CH₃COOH) — wait, that's acid-base gas evolution. Better: Epsom salt (MgSO₄) and washing soda (Na₂CO₃) — both available in Indian households. Procedure: Dissolve 1 tsp MgSO₄ in 50 mL water and 1 tsp Na₂CO₃ in 50 mL water. Mix the two solutions. Observation: White precipitate of MgCO₃ forms immediately. Equation: MgSO₄(aq) + Na₂CO₃(aq) → MgCO₃(s) + Na₂SO₄(aq). A poor answer using vinegar and baking soda (produces CO₂ gas, not a precipitate) or using table salt and sugar (no reaction) shows the student cannot identify suitable ionic compounds that form an insoluble product from common household items.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A double ______ reaction is a chemical reaction in which two ionic compounds in aqueous solution exchange their positive and negative ions to form two new compounds, typically resulting in the formation of a precipitate, a gas, or water.",
+     "a": "displacement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you add a few drops of colourless silver nitrate solution to a colourless sodium chloride solution in a test tube — you instantly see a white curdy ______ of silver chloride forming.",
+     "a": "precipitate",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify a double displacement reaction from given reactants, predict the products by exchanging ions, write the balanced chemical equation with state symbols, and explain why the reaction occurs (formation of precipitate, gas, or water).",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a week-long vegetarian meal plan for a pregnant woman that ensures adequate intake of iron, folate, calcium, vitamin B₁₂, and vitamin D. Justify each food choice by linking it to the specific nutrient's absorption enhancer or inhibitor.",
      "a": "A strong answer includes: (1) Iron: sprouted moong dal + lemon juice (vitamin C enhances non-heme Fe absorption); avoids tea/coffee with meals (tannins inhibit). (2) Folate: dark leafy greens (spinach, methi) lightly steamed (folate is heat-labile). (3) Calcium: ragi (finger millet) porridge + sesame seeds; paired with vitamin D fortified milk or sunlight exposure for absorption. (4) Vitamin B₁₂: dairy (curd, paneer) and fortified nutritional yeast (only reliable vegetarian sources). (5) Vitamin D: fortified soy milk, mushrooms exposed to UV light, plus 20 min midday sun. The plan must space calcium and iron meals apart. A poor answer lists foods without addressing enhancers/inhibitors or ignores the B₁₂ challenge in vegetarian diets, showing inability to synthesize knowledge into practical application.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Minerals are inorganic elements required by living organisms in trace to moderate amounts for structural roles (e.g., calcium in bones), osmotic balance, nerve impulse ______, and as essential cofactors for enzymatic reactions.",
+     "a": "transmission",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a patient complaining of muscle cramps, irregular heartbeat, and fatigue – the doctor orders a serum ______ panel and finds low magnesium and potassium.",
+     "a": "electrolyte",
+     "self_check": true
+    },
+    {
+     "q": "What is Minerals? State the definition given in this lesson.",
+     "a": "Minerals are inorganic elements required by living organisms in trace to moderate amounts for structural roles (e.g., calcium in bones), osmotic balance, nerve impulse transmission, and as essential cofactors for enzymatic reactions.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Minerals?",
+     "a": "Students often believe that vitamins and minerals \"give energy\" because supplement labels say \"energy metabolism.\" They confuse *catalytic cofactor roles* (e.g., Mg²⁺ in ATPases, B-vitamins in dehydrogenases) with *direct fuel substrates* like glucose.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify at least five major minerals and five vitamins (specifying fat-soluble vs water-soluble), explain their specific biochemical roles (e.g., Mg²⁺ as ATPase cofactor, vitamin B₁ as thiamine pyrophosphate in decarboxylation), and predict the physiological consequence of a deficiency for each.",
+     "self_check": true
     }
    ]
   }

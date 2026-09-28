@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (Indian context) that requires using both the equal-tangent-lengths property and the Pythagoras theorem to find an unknown distance. Provide a diagram description and the solution steps.",
      "a": "Example: A circular well of radius 2 m has a rope tied to a point on its edge. The rope goes taut to a point 5 m above the ground on a nearby wall. If the point of contact is at ground level, find the rope length. Diagram: Circle (well) centre O, radius 2 m. Tangent from point P on wall (5 m above ground) touches at T. OT ⟂ PT. OT = 2 m, horizontal distance from wall to well centre = 3 m (say). Then OP² = 3² + 5² = 34, PT² = OP² - OT² = 34 - 4 = 30, PT = √30 m. A poor answer gives a trivial problem (e.g., direct Pythagoras without tangent) or omits the equal-tangent property, showing inability to synthesize a multi-concept scenario.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Applications of tangent properties involve using the geometric ______ of tangents to a circle — such as the tangent being perpendicular to the radius at the point of contact, the equality of tangent lengths drawn from an external point, and the angle between a tangent and a chord — to solve for unknown lengths, angles, or prove geometric statements in multi-step problems.",
+     "a": "relationships",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a school flagpole standing vertically on a ______ garden.",
+     "a": "circular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently solve multi-step board exam problems that combine tangent properties (perpendicular radius, equal tangent lengths, alternate segment theorem) with Pythagoras theorem, triangle congruence, and angle-chasing, presenting a clear logical sequence with proper geometric reasoning at each step.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a school flagpole standing ______ on a circular garden.",
+     "a": "vertically",
+     "self_check": true
     }
    ]
   }

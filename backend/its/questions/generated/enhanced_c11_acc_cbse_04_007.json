@@ -34,6 +34,31 @@
      "q": "Design a monthly balancing checklist for a junior accountant handling all six subsidiary books. Include: (a) which books are balanced vs. totaled, (b) verification steps before carrying balance forward, (c) common contra-entry pitfalls in cash book, (d) imprest reimbursement timing for petty cash. Format as a decision tree or flowchart description.",
      "a": "Expected answer: Decision tree starting with \"Book Type?\" → Cash Book (all types) → Balance both amount columns → Verify cash column debit balance, bank column may be credit (overdraft) → Check contra entries (C in L.F.) are NOT posted → Carry Balance b/d. → Purchases/Sales/Purchase Returns/Sales Returns Books → Total amount column only → Post total to respective ledger account (Purchases Dr., Sales Cr., Purchase Returns Cr., Sales Returns Dr.) → No balance c/d. → Petty Cash Book → Total each analysis column → Sum = total expenditure → Verify reimbursement = total expenditure → Balance = Imprest - Expenditure → Post column totals to expense accounts (Dr.) and Petty Cash Account (Cr. with total). Poor answer misses contra-entry exclusion or treats nominal books as balanced.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Balancing and totaling of subsidiary books is the systematic process of determining the net effect of all ______ recorded in each special journal (Cash Book, Purchases Book, Sales Book, Purchase Returns Book, Sales Returns Book, Journal Proper) at the end of an accounting period by calculating column totals, finding the difference between debit and credit sides, and carrying forward the balance to the next period to ascertain the accurate financial position for ledger posting.",
+     "a": "transactions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small kirana store and at month-end your cash register shows ₹45,000 in sales but you're not sure if that ______ what you actually have in the drawer.",
+     "a": "matches",
+     "self_check": true
+    },
+    {
+     "q": "What is Balancing and totaling of subsidiary books? State the definition given in this lesson.",
+     "a": "Balancing and totaling of subsidiary books is the systematic process of determining the net effect of all transactions recorded in each special journal (Cash Book, Purchases Book, Sales Book, Purchase Returns Book, Sales Returns Book, Journal Proper) at the end of an accounting period by calculating column totals, finding the difference.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Balancing and totaling of subsidiary books?",
+     "a": "Students treat ALL subsidiary books alike — writing 'Balance c/d' and 'Balance b/d' in Purchases Book, Sales Book, and Returns Books just like Cash Book.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently balance any subsidiary book (single/double/triple column cash book, purchases/sales/returns books, petty cash book) by correctly totaling amount columns, identifying the shorter side, writing 'Balance c/d' with the difference, and bringing down 'Balance b/d' for the next period, while.",
+     "self_check": true
     }
    ]
   }

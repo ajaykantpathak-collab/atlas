@@ -48,7 +48,16 @@
      "q": "Which measure reports how tightly points hug the regression line: R-squared or the mean?",
      "a": "R-squared"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "hr_mean = hr_sum / patients",
+     "compute": "hr_mean = hr_sum / patients"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt109.2",
@@ -86,7 +95,16 @@
      "q": "The traditional p-value cutoff of 0.05 means ninety-five percent what?",
      "a": "significance"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "significance_pct = (1 - p_cutoff) * 100",
+     "compute": "significance_pct = (1 - p_cutoff) * 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt109.3",
@@ -285,7 +303,16 @@
      "q": "Roughly how long are short sequencing reads: 100-150 nucleotides or a million?",
      "a": "100-150"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "reads_needed = genome_size / read_length",
+     "compute": "reads_needed = genome_size / read_length"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebt109.8",

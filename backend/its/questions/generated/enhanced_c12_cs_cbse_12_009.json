@@ -34,6 +34,31 @@
      "q": "Create a scenario where a single product (e.g., a smartphone) involves all three types of IPR. Identify which aspect is protected by copyright, which by patent, and which by trademark.",
      "a": "Example: Smartphone — the operating system code is protected by copyright; the novel touchscreen sensor technology is patented; the brand name and logo are trademarked. A poor answer might assign the same IPR to multiple aspects or miss one, showing inability to synthesize the distinct roles of each IPR in a real product.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Intellectual Property Rights (IPR) are legal rights that protect creations of the mind, such as inventions (patents), literary and artistic works (copyright), and symbols, names, and images used in commerce (trademarks), granting the creator exclusive rights to use and ______ their creation for a certain period.",
+     "a": "commercialize",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have written a Python program for a game, designed a unique logo for your startup, and invented a new algorithm for data ______.",
+     "a": "compression",
+     "self_check": true
+    },
+    {
+     "q": "What is Intellectual Property Rights (IPR)? State the definition given in this lesson.",
+     "a": "Intellectual Property Rights (IPR) are legal rights that protect creations of the mind, such as inventions (patents), literary and artistic works (copyright), and symbols, names, and images used in commerce (trademarks), granting the creator exclusive rights to use and commercialize their creation for a certain period.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Intellectual Property Rights (IPR)?",
+     "a": "Students often think that copyright, patent, and trademark are interchangeable or that obtaining one automatically covers the others.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to distinguish between copyright, patent, and trademark by identifying the type of creation each protects, the duration of protection, and the registration requirements, and apply this knowledge to real-world scenarios involving digital content, software, and branding.",
+     "self_check": true
     }
    ]
   }

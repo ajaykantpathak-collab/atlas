@@ -34,6 +34,31 @@
      "q": "Design a simple laboratory experiment using only distillation apparatus and thermometers to distinguish between a sample of o-nitrophenol and p-nitrophenol. Explain the principle and expected observations.",
      "a": "**Experiment**: Perform simple distillation of each compound separately. **Principle**: o-Nitrophenol has intramolecular H-bonding (–OH⋯O=N–), making it more volatile (lower boiling point, 214 °C) and steam volatile. p-Nitrophenol has intermolecular H-bonding, giving it a higher boiling point (279 °C) and no steam volatility. **Expected observations**: o-Nitrophenol distills over at a lower temperature and co-distills with steam (can be separated by steam distillation). p-Nitrophenol remains in the distillation flask at the same temperature and does not co-distill with steam. **Alternative**: Measure solubility in water — o-nitrophenol is less soluble (intramolecular H-bonding satisfies its own H-bonding sites) while p-nitrophenol is more soluble (free –OH and –NO₂ groups interact with water). A poor answer would suggest melting point (both are solids with similar m.p.) or fail to connect the observation to the intra- vs intermolecular H-bonding distinction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Hydrogen bonding is a special type of dipole-dipole interaction that occurs when a hydrogen atom covalently bonded to a highly electronegative atom (nitrogen, oxygen, or fluorine) experiences an attractive electrostatic force with another highly electronegative atom (N, O, or F) bearing a lone pair of electrons, either in a neighbouring molecule (______) or within the same molecule (intramolecular).",
+     "a": "intermolecular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe that water boils at 100 °C while ______ sulfide (H₂S, molar mass 34 g mol⁻¹, similar to water's 18 g mol⁻¹) boils at –60 °C.",
+     "a": "hydrogen",
+     "self_check": true
+    },
+    {
+     "q": "What is Hydrogen bonding? State the definition given in this lesson.",
+     "a": "Hydrogen bonding is a special type of dipole-dipole interaction that occurs when a hydrogen atom covalently bonded to a highly electronegative atom (nitrogen, oxygen, or fluorine) experiences an attractive electrostatic force with another highly electronegative atom (N, O, or F) bearing a lone pair of electrons, either in a neighbouring.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Hydrogen bonding?",
+     "a": "Misconception 1: \"Any polar bond involving hydrogen (e.g., H–Cl, H–S, H–Br) forms hydrogen bonds.\" Reality: Only H bonded to N, O, or F forms significant H-bonds because these three elements combine high electronegativity with small atomic size, creating high charge density on the lone pairs.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Identify whether a given molecule can participate in hydrogen bonding based on the presence of H–N, H–O, or H–F bonds and available lone pairs on N, O, or F; (2) Distinguish between intermolecular and intramolecular hydrogen bonding with appropriate examples and explain their opposing effects on boiling.",
+     "self_check": true
     }
    ]
   }

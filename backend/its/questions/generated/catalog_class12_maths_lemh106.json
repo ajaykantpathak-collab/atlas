@@ -5,6 +5,8 @@
    "id": "lemh.106.6.2.1",
    "title": "Rate of Change of the Circle Area",
    "converted_to_compute": false,
+   "formula": "rate_circle_area = 2 * pi * r",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the area of a rectangle measuring 8 cm by 24 cm.",
@@ -41,15 +43,9 @@
   {
    "id": "lemh.106.6.2.2",
    "title": "Related Rates by the Chain Rule",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the calculus rule and evaluate at the point",
-     "explain": "apply the calculus rule and evaluate at the point: val = 1 * 1 * 1 + 6 * 1 + 1 gives 8",
-     "compute": "val = 1 * 1 * 1 + 6 * 1 + 1"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "dy/dt = (dy/dx) times (dx/dt)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate the limit of 1x^2 + 6x + 1 as x approaches 1 (direct substitution).",
@@ -87,6 +83,8 @@
    "id": "lemh.106.6.2.3",
    "title": "Marginal Revenue of a Quadratic Revenue Function",
    "converted_to_compute": false,
+   "formula": "marginal_rev = 2 * rev_a * x + rev_b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the value of the polynomial 5x^2 + 3x + 1 at x = 4.",
@@ -124,6 +122,8 @@
    "id": "lemh.106.6.2.4",
    "title": "Marginal Cost of a Cubic Cost Function",
    "converted_to_compute": false,
+   "formula": "marginal_cost = 3 * cost_a * x ** 2 + 2 * cost_b * x + cost_c",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the cube of 6.",
@@ -160,15 +160,9 @@
   {
    "id": "lemh.106.6.3.1",
    "title": "Increasing and Decreasing Intervals",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
-     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 7 * 1 gives 7",
-     "compute": "hcf = 7 * 1"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "f increasing on an interval when f_prime(x) > 0 there",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 49 and 28 have HCF 7 with coprime multipliers 7 and 4. Verify by computing hcf = 7 x 1; then find the HCF value.",
@@ -205,15 +199,9 @@
   {
    "id": "lemh.106.6.4.1",
    "title": "Critical Points of a Function",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
-     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 10 * 1 gives 10",
-     "compute": "hcf = 10 * 1"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "c is critical when f_prime(c) = 0 or f_prime(c) does not exist",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 70 and 40 have HCF 10 with coprime multipliers 7 and 4. Verify by computing hcf = 10 x 1; then find the HCF value.",
@@ -250,15 +238,9 @@
   {
    "id": "lemh.106.6.4.2",
    "title": "First Derivative Test for Local Extrema",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the calculus rule and evaluate at the point",
-     "explain": "apply the calculus rule and evaluate at the point: val = 4 * 4 * 4 + 1 * 4 + 6 gives 74",
-     "compute": "val = 4 * 4 * 4 + 1 * 4 + 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "sign change of f_prime from plus to minus at c gives a local maximum",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate the limit of 4x^2 + 1x + 6 as x approaches 4 (direct substitution).",
@@ -295,15 +277,9 @@
   {
    "id": "lemh.106.6.4.3",
    "title": "Second Derivative Test for Local Extrema",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the calculus rule and evaluate at the point",
-     "explain": "apply the calculus rule and evaluate at the point: val = 1 * 1 * 1 + 1 * 1 + 6 gives 8",
-     "compute": "val = 1 * 1 * 1 + 1 * 1 + 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "c is a local minimum when f_prime(c) = 0 and f_double_prime(c) > 0",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate the limit of 1x^2 + 1x + 6 as x approaches 1 (direct substitution).",
@@ -340,15 +316,9 @@
   {
    "id": "lemh.106.6.4.4",
    "title": "Absolute Extrema on a Closed Interval",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the circle formula with pi = 22/7",
-     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 49 gives 308",
-     "compute": "circ = 2 * 22 / 7 * 49"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "absolute extrema come from comparing f at critical points and endpoints",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 49 cm (take pi = 22/7).",
@@ -385,15 +355,9 @@
   {
    "id": "lemh.106.6.4.5",
    "title": "Max-Min Word Problems",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
-     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 10 * 1 gives 10",
-     "compute": "hcf = 10 * 1"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "optimise by solving f_prime(x) = 0 and testing the sign of f_double_prime",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 30 and 20 have HCF 10 with coprime multipliers 3 and 2. Verify by computing hcf = 10 x 1; then find the HCF value.",

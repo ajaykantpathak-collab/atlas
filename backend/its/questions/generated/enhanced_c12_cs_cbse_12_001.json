@@ -34,6 +34,31 @@
      "q": "Design a 3‑step \"Cyber Safety Checklist\" for a Class 12 student who uses a shared computer in a school lab for online exam registration. Each step must address a different threat category covered in this node.",
      "a": "A strong checklist (example):\n1. **Verify HTTPS & Padlock** before entering any credentials — prevents snooping/eavesdropping on unencrypted HTTP (network threat).\n2. **Use the on‑screen virtual keyboard** (randomized layout) for password entry — defeats hardware/software keyloggers (malware threat).\n3. **Log out completely, clear browser cache/cookies, and avoid saving passwords** — prevents session hijacking and data leakage via cookies (privacy/threat from shared device).  \nA poor answer (e.g., \"install antivirus, use strong password, don't click links\") mixes generic advice without mapping each step to a distinct threat category from this node (malware, network, privacy), showing the student cannot categorize threats or apply layered defense.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cyber safety refers to the practices and measures taken to protect computers, networks, and data from unauthorized access, attacks, or damage, while cyber threats are malicious activities or ______ that exploit weaknesses in digital systems to cause harm, steal information, or disrupt services.",
+     "a": "vulnerabilities",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive an email that looks exactly like it's from your bank, asking you to \"verify your account\" by clicking a link and ______ your password.",
+     "a": "entering",
+     "self_check": true
+    },
+    {
+     "q": "What is Cyber safety? State the definition given in this lesson.",
+     "a": "Cyber safety refers to the practices and measures taken to protect computers, networks, and data from unauthorized access, attacks, or damage, while cyber threats are malicious activities or vulnerabilities that exploit weaknesses in digital systems to cause harm, steal information, or disrupt services.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Cyber safety?",
+     "a": "Students often believe that having an antivirus installed makes them completely safe from all cyber threats.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify and categorize common cyber threats (malware, spam, phishing, DoS, snooping, eavesdropping) from a given scenario, explain the difference between HTTP and HTTPS in terms of data security, and justify why a firewall is necessary for network protection.",
+     "self_check": true
     }
    ]
   }

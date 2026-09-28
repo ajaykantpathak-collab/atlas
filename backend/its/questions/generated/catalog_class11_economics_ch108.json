@@ -1,6 +1,59 @@
 {
- "catalog": "catalog_class11_economics_ch108",
+ "catalog": "catalog_class11_economics_ch108.json",
  "concepts": [
+  {
+   "id": "keec.108.10",
+   "title": "Export-to-Import Ratio",
+   "converted_to_compute": true,
+   "formula": "export_import_ratio = (exports / imports) * 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "export_import_ratio = (exports / imports) * 100",
+     "compute": "export_import_ratio = (exports / imports) * 100"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "keec.108.10",
+     "question_pattern": "What is the ratio of exports to imports given exports of {exports} and imports of {imports}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Export-to-Import Ratio: given exports = 95, imports = 60, find export import ratio.",
+     "a": "158.333",
+     "self_check": false
+    },
+    {
+     "q": "What is the ratio of exports to imports given exports of 95 and imports of 60?",
+     "a": "158.333",
+     "self_check": false
+    },
+    {
+     "q": "For Export-to-Import Ratio: given exports = 92, imports = 21, find export import ratio.",
+     "a": "438.095",
+     "self_check": false
+    },
+    {
+     "q": "What is the ratio of exports to imports given exports of 92 and imports of 21?",
+     "a": "438.095",
+     "self_check": false
+    },
+    {
+     "q": "For Export-to-Import Ratio: given exports = 52, imports = 76, find export import ratio.",
+     "a": "68.4211",
+     "self_check": false
+    },
+    {
+     "q": "What is the ratio of exports to imports given exports of 52 and imports of 76?",
+     "a": "68.4211",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "keec.108.1",
    "title": "Regional Economic Groupings",
@@ -38,7 +91,7 @@
     },
     {
      "q": "Under which section is 'Comparative Development Timelines' taught, and from which source text?",
-     "a": "8.2 DEVELOPMENTAL PATH\u2014A SNAPSHOT VIEW (source: keec108.txt lines 75-115)",
+     "a": "8.2 DEVELOPMENTAL PATH—A SNAPSHOT VIEW (source: keec108.txt lines 75-115)",
      "self_check": true
     }
    ]
@@ -59,7 +112,7 @@
     },
     {
      "q": "Under which section is 'Great Leap Forward (GLF) Campaign' taught, and from which source text?",
-     "a": "8.2 DEVELOPMENTAL PATH\u2014A SNAPSHOT VIEW (source: keec108.txt lines 120-145)",
+     "a": "8.2 DEVELOPMENTAL PATH—A SNAPSHOT VIEW (source: keec108.txt lines 120-145)",
      "self_check": true
     }
    ]
@@ -80,7 +133,7 @@
     },
     {
      "q": "Under which section is 'Great Proletarian Cultural Revolution' taught, and from which source text?",
-     "a": "8.2 DEVELOPMENTAL PATH\u2014A SNAPSHOT VIEW (source: keec108.txt lines 145-155)",
+     "a": "8.2 DEVELOPMENTAL PATH—A SNAPSHOT VIEW (source: keec108.txt lines 145-155)",
      "self_check": true
     }
    ]
@@ -101,7 +154,7 @@
     },
     {
      "q": "Under which section is 'Dual Pricing Policy' taught, and from which source text?",
-     "a": "8.2 DEVELOPMENTAL PATH\u2014A SNAPSHOT VIEW (source: keec108.txt lines 175-195)",
+     "a": "8.2 DEVELOPMENTAL PATH—A SNAPSHOT VIEW (source: keec108.txt lines 175-195)",
      "self_check": true
     }
    ]
@@ -186,37 +239,6 @@
     {
      "q": "Under which section is 'Liberty Indicators' taught, and from which source text?",
      "a": "8.5 INDICATORS OF HUMAN DEVELOPMENT (source: keec108.txt lines 400-420)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keec.108.10",
-   "title": "Export-to-Import Ratio",
-   "questions": [
-    {
-     "q": "Calculate the export-to-import ratio of India with China.. Use the method 'Export-to-Import Ratio'. Work with: exports = 360, imports = 240, ratio = 240. Carry the chain through step by step and give the final value of the result.",
-     "a": "24000 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Find the percentage of exports to imports for India's trade with Pakistan.. Use the method 'Export-to-Import Ratio'. Work with: exports = 100, imports = 50, ratio = 60. Carry the chain through step by step and give the final value of the result.",
-     "a": "6000 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Export-to-Import Ratio' refers to.",
-     "a": "A quantitative measure of trade balance calculated as the percentage of exports relative to imports for a country with a specific trading partner.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Export-to-Import Ratio'.",
-     "a": "Evaluates trade surplus or deficit and bilateral trade dependency.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Export-to-Import Ratio', in plain ASCII form.",
-     "a": "export_import_ratio = (exports / imports) * 100",
      "self_check": true
     }
    ]

@@ -106,7 +106,16 @@
      "explain": "exponential growth dN/dt equals r times N",
      "compute": "instantaneous_growth = r_rate * n_pop"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "logistic_fraction = (k_cap - n_pop) / k_cap",
+     "compute": "logistic_fraction = (k_cap - n_pop) / k_cap"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebo.111.4",

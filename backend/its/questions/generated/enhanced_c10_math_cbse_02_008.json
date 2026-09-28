@@ -34,6 +34,16 @@
      "q": "Create a polynomial division problem where the divisor is quadratic, the dividend is degree 4 with a missing \\( x^3 \\) term, and the remainder is linear. Provide the dividend, divisor, quotient, and remainder — then write the verification equation.",
      "a": "Example: Dividend \\( p(x) = x^4 + 0x^3 - 5x^2 + 4x + 2 \\), Divisor \\( g(x) = x^2 - 2 \\).  \nQuotient \\( q(x) = x^2 - 3 \\), Remainder \\( r(x) = 4x - 4 \\).  \nVerification: \\( (x^2 - 2)(x^2 - 3) + (4x - 4) = x^4 - 3x^2 - 2x^2 + 6 + 4x - 4 = x^4 - 5x^2 + 4x + 2 = p(x) \\).  \nA poor answer (e.g., remainder degree ≥ 2, missing zero placeholder, or verification not matching) reveals the student cannot construct problems meeting degree constraints — indicating they don't truly understand the degree condition's role in the algorithm's design.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To find the other side (breadth), you must divide the area polynomial by the length polynomial — this is exactly polynomial ______.",
+     "a": "division",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can also explain why the degree condition on the remainder must hold.",
+     "self_check": true
     }
    ]
   }

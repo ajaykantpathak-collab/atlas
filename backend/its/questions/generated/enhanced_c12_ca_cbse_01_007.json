@@ -34,6 +34,26 @@
      "q": "Design a 3-point risk mitigation plan for a medium-sized firm using CAS to address the four NCERT limitations. Each point must map to at least one specific limitation.",
      "a": "A good answer includes:\n1. **Technology Refresh Policy**: Annual budget allocation for hardware/software upgrades + vendor AMC for version updates → addresses *faster obsolescence*.\n2. **Power & Backup Infrastructure**: UPS for all nodes + automated daily incremental backup to cloud/off-site + monthly restore drill → addresses *data loss due to power interruptions* and *hard disk damage*.\n3. **Cybersecurity Framework**: Firewall, role-based access control, 2FA, annual VAPT (Vulnerability Assessment & Penetration Testing), employee phishing training → addresses *hacking/virus*.\n4. **Flexible Reporting Module**: Ensure CAS has ad-hoc query builder / export to Excel/API for custom reports → addresses *un-programmed reports*.\nA poor answer (e.g., \"buy good software, take backup, install antivirus\") is generic, lacks mapping to specific limitations, and misses the *un-programmed reports* limitation entirely — showing superficial understanding.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Limitations of Computerised Accounting System (CAS) refer to the inherent constraints and risks associated with processing accounting transactions through computer hardware and software, including rapid technology obsolescence requiring frequent investment, ______ to data loss or corruption from power failures or hardware damage, exposure to cybersecurity threats like hacking and viruses, and the inability to generate reports that are not pre-programmed or specified in the software.",
+     "a": "vulnerability",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small retail ______ \"Sharma Electronics\" that switched from manual books to Tally software last year.",
+     "a": "business",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) list all four limitations of CAS from NCERT with precise terminology, (2) explain the business impact of each limitation using a real-world scenario, and (3) distinguish between a limitation of CAS and a limitation of manual accounting or accounting in general.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small retail business \"Sharma ______\" that switched from manual books to Tally software last year.",
+     "a": "Electronics",
+     "self_check": true
     }
    ]
   }

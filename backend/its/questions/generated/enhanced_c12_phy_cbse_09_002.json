@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a concave mirror, a screen, and a metre scale to verify the mirror formula. Specify how you would choose at least 5 object positions, what measurements to take, and how to plot a graph to determine the focal length. Include how to handle sign convention in your data table.",
      "a": "Place concave mirror on a stand facing a window (distant object ≈ infinity) to get approximate f by focusing on a screen. Then place a candle (object) at 5 positions: u = -60, -40, -30, -20, -15 cm (all between f and 2f, at 2f, beyond 2f, between f and pole). For each, move screen to get sharp image, measure v (positive if real image on screen). Record u, v with signs (u negative, v negative for real images). Compute 1/u and 1/v. Plot 1/v (y-axis) vs 1/u (x-axis). The graph is a straight line with slope -1 and intercept 1/f on y-axis (when 1/u=0) and 1/f on x-axis (when 1/v=0). f = 1/intercept. A poor answer would omit sign convention in the table, plot v vs u (non-linear), or use only 2 positions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The mirror formula relates the object distance (u), image distance (v), and focal length (f) of a spherical mirror through the equation 1/v + 1/u = 1/f, where distances are measured from the pole using the Cartesian sign ______.",
+     "a": "convention",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the side-view mirror of a parked car (convex mirror): ______ appear smaller and farther than they actually are.",
+     "a": "objects",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) correctly apply the Cartesian sign convention to assign signs to u, v, f, h, h' for any spherical mirror (concave/convex) and object position; (2) use the mirror formula and magnification formula to calculate unknown quantities in multi-step numerical problems; (3) predict the nature (real/virtual), orientation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the side-view mirror of a parked car (convex mirror): objects appear smaller and farther than they ______ are.",
+     "a": "actually",
+     "self_check": true
     }
    ]
   }

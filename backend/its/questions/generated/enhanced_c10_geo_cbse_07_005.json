@@ -34,6 +34,31 @@
      "q": "Design a multimodal logistics plan to transport 50,000 tonnes of iron ore from Bellary (Karnataka) to a steel plant in Durgapur (West Bengal) using at least two waterway segments and one rail segment. Annotate the route on a mental map.",
      "a": "Bellary → (rail) → Beypore/Kochi (minor port) → (coastal shipping NW-3/west coast) → Kolkata/Haldia (major port, NW-1) → (barge on NW-1 Ganga) → Farakka → (rail) → Durgapur. Good answer identifies NW-3 (West Coast Canal) and NW-1 as waterway segments, recognises need for rail first/last mile, and names specific ports. Poor answer uses only roads or ignores peninsular river non-perennial nature.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Waterways in India comprise inland waterways (navigable rivers, canals, backwaters, and lakes) and ocean routes (shipping lanes connecting major and minor ports along the 7,516.6 km coastline), serving as the most fuel-efficient and cost-effective mode for ______ heavy, bulky, and non-perishable goods over long distances.",
+     "a": "transporting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a barge loaded with coal moving silently on the Ganga near ______ — it carries the equivalent of 50 truckloads while consuming a fraction of the fuel.",
+     "a": "Varanasi",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a barge loaded with coal moving silently on the Ganga near Varanasi — it carries the equivalent of ______ truckloads while consuming a fraction of the fuel.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify all six National Waterways on an outline map of India with their terminal points, explain why inland waterways are underutilised despite being the cheapest mode, and analyse how the Sagarmala programme addresses port connectivity and hinterland linkage challenges.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a barge loaded with coal moving silently on the Ganga near Varanasi — it carries the ______ of 50 truckloads while consuming a fraction of the fuel.",
+     "a": "equivalent",
+     "self_check": true
     }
    ]
   }

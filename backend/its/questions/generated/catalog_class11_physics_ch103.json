@@ -1,0 +1,352 @@
+{
+ "catalog": "catalog_class11_physics_ch103.json",
+ "concepts": [
+  {
+   "id": "keph.3.1",
+   "title": "Magnitude and Direction of a 2D Vector",
+   "converted_to_compute": true,
+   "formula": "magnitude = sqrt(x_comp**2 + y_comp**2); tan_theta = y_comp / x_comp",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "magnitude = sqrt(x_comp**2 + y_comp**2)",
+     "compute": "magnitude = sqrt(x_comp**2 + y_comp**2)"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "tan_theta = y_comp / x_comp",
+     "compute": "tan_theta = y_comp / x_comp"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Magnitude and Direction of a 2D Vector: given x_comp = 81, y_comp = 68, find tan theta.",
+     "a": "0.839506",
+     "self_check": false
+    },
+    {
+     "q": "For Magnitude and Direction of a 2D Vector: given x_comp = 3.4, y_comp = 20, find tan theta.",
+     "a": "5.88235",
+     "self_check": false
+    },
+    {
+     "q": "For Magnitude and Direction of a 2D Vector: given x_comp = 36, y_comp = 3, find tan theta.",
+     "a": "0.0833333",
+     "self_check": false
+    },
+    {
+     "q": "For Magnitude and Direction of a 2D Vector: given x_comp = 14.7, y_comp = 36, find tan theta.",
+     "a": "2.44898",
+     "self_check": false
+    },
+    {
+     "q": "For Magnitude and Direction of a 2D Vector: given x_comp = 44, y_comp = 67, find tan theta.",
+     "a": "1.52273",
+     "self_check": false
+    },
+    {
+     "q": "For Magnitude and Direction of a 2D Vector: given x_comp = 27, y_comp = 60, find tan theta.",
+     "a": "2.22222",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.3.2",
+   "title": "Resultant of Two Perpendicular Vectors",
+   "converted_to_compute": true,
+   "formula": "R = sqrt(A**2 + B**2)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "R = sqrt(A**2 + B**2)",
+     "compute": "R = sqrt(A**2 + B**2)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Resultant of Two Perpendicular Vectors: given A = 56, B = 70, find R.",
+     "a": "89.6437",
+     "self_check": false
+    },
+    {
+     "q": "For Resultant of Two Perpendicular Vectors: given A = 41, B = 87, find R.",
+     "a": "96.1769",
+     "self_check": false
+    },
+    {
+     "q": "For Resultant of Two Perpendicular Vectors: given A = 37, B = 93, find R.",
+     "a": "100.09",
+     "self_check": false
+    },
+    {
+     "q": "For Resultant of Two Perpendicular Vectors: given A = 25, B = 43, find R.",
+     "a": "49.7393",
+     "self_check": false
+    },
+    {
+     "q": "For Resultant of Two Perpendicular Vectors: given A = 7, B = 76, find R.",
+     "a": "76.3217",
+     "self_check": false
+    },
+    {
+     "q": "For Resultant of Two Perpendicular Vectors: given A = 6.9, B = 66, find R.",
+     "a": "66.3597",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.3.4",
+   "title": "Time of Flight of a Projectile",
+   "converted_to_compute": true,
+   "formula": "T_f = (2 * v_0 * sin_theta) / g",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "T_f = (2 * v_0 * sin_theta) / g",
+     "compute": "T_f = (2 * v_0 * sin_theta) / g"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Time of Flight of a Projectile: given v_0 = 36, sin_theta = 49, find T f.",
+     "a": "360",
+     "self_check": false
+    },
+    {
+     "q": "For Time of Flight of a Projectile: given v_0 = 98, sin_theta = 13, find T f.",
+     "a": "260",
+     "self_check": false
+    },
+    {
+     "q": "For Time of Flight of a Projectile: given v_0 = 57, sin_theta = 68, find T f.",
+     "a": "791.02",
+     "self_check": false
+    },
+    {
+     "q": "For Time of Flight of a Projectile: given v_0 = 95, sin_theta = 18.2, find T f.",
+     "a": "352.857",
+     "self_check": false
+    },
+    {
+     "q": "For Time of Flight of a Projectile: given v_0 = 5.8, sin_theta = 110, find T f.",
+     "a": "130.204",
+     "self_check": false
+    },
+    {
+     "q": "For Time of Flight of a Projectile: given v_0 = 58, sin_theta = 75, find T f.",
+     "a": "887.755",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.3.5",
+   "title": "Maximum Height of a Projectile",
+   "converted_to_compute": true,
+   "formula": "H_m = (v_0 * sin_theta)**2 / (2 * g)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "H_m = (v_0 * sin_theta)**2 / (2 * g)",
+     "compute": "H_m = (v_0 * sin_theta)**2 / (2 * g)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Maximum Height of a Projectile: given v_0 = 81, sin_theta = 43, find H m.",
+     "a": "618943",
+     "self_check": false
+    },
+    {
+     "q": "For Maximum Height of a Projectile: given v_0 = 108, sin_theta = 85, find H m.",
+     "a": "4299612.244898",
+     "self_check": false
+    },
+    {
+     "q": "For Maximum Height of a Projectile: given v_0 = 67, sin_theta = 12.5, find H m.",
+     "a": "35786",
+     "self_check": false
+    },
+    {
+     "q": "For Maximum Height of a Projectile: given v_0 = 19.7, sin_theta = 32, find H m.",
+     "a": "20275.7",
+     "self_check": false
+    },
+    {
+     "q": "For Maximum Height of a Projectile: given v_0 = 99, sin_theta = 95, find H m.",
+     "a": "4512960.459184",
+     "self_check": false
+    },
+    {
+     "q": "For Maximum Height of a Projectile: given v_0 = 106, sin_theta = 99, find H m.",
+     "a": "5618573.265306",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.3.6",
+   "title": "Horizontal Range of a Projectile",
+   "converted_to_compute": true,
+   "formula": "R = (v_0**2 * sin_2theta) / g; R_max = v_0**2 / g",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "R = (v_0**2 * sin_2theta) / g",
+     "compute": "R = (v_0**2 * sin_2theta) / g"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "R_max = v_0**2 / g",
+     "compute": "R_max = v_0**2 / g"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Horizontal Range of a Projectile: given v_0 = 113, sin_2theta = 6, find R max.",
+     "a": "1302.96",
+     "self_check": false
+    },
+    {
+     "q": "For Horizontal Range of a Projectile: given v_0 = 34, sin_2theta = 115, find R max.",
+     "a": "117.959",
+     "self_check": false
+    },
+    {
+     "q": "For Horizontal Range of a Projectile: given v_0 = 76, sin_2theta = 160, find R max.",
+     "a": "589.388",
+     "self_check": false
+    },
+    {
+     "q": "For Horizontal Range of a Projectile: given v_0 = 75, sin_2theta = 176, find R max.",
+     "a": "573.98",
+     "self_check": false
+    },
+    {
+     "q": "For Horizontal Range of a Projectile: given v_0 = 102, sin_2theta = 2.5, find R max.",
+     "a": "1061.63",
+     "self_check": false
+    },
+    {
+     "q": "For Horizontal Range of a Projectile: given v_0 = 37, sin_2theta = 56, find R max.",
+     "a": "139.694",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.3.7",
+   "title": "Centripetal Acceleration from Speed and Radius",
+   "converted_to_compute": true,
+   "formula": "a_c = v**2 / R",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "a_c = v**2 / R",
+     "compute": "a_c = v**2 / R"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Centripetal Acceleration from Speed and Radius: given v = 27, R = 40, find a c.",
+     "a": "18.225",
+     "self_check": false
+    },
+    {
+     "q": "For Centripetal Acceleration from Speed and Radius: given v = 5.1, R = 32, find a c.",
+     "a": "0.812812",
+     "self_check": false
+    },
+    {
+     "q": "For Centripetal Acceleration from Speed and Radius: given v = 87, R = 62, find a c.",
+     "a": "122.081",
+     "self_check": false
+    },
+    {
+     "q": "For Centripetal Acceleration from Speed and Radius: given v = 59, R = 29, find a c.",
+     "a": "120.034",
+     "self_check": false
+    },
+    {
+     "q": "For Centripetal Acceleration from Speed and Radius: given v = 59, R = 63, find a c.",
+     "a": "55.254",
+     "self_check": false
+    },
+    {
+     "q": "For Centripetal Acceleration from Speed and Radius: given v = 11.7, R = 99, find a c.",
+     "a": "1.38273",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.3.8",
+   "title": "Centripetal Acceleration in terms of Frequency and Radius",
+   "converted_to_compute": true,
+   "formula": "omega = 2 * pi * frequency; a_c = 4 * (pi**2) * (frequency**2) * R",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "omega = 2 * pi * frequency",
+     "compute": "omega = 2 * pi * frequency"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "a_c = 4 * (pi**2) * (frequency**2) * R",
+     "compute": "a_c = 4 * (pi**2) * (frequency**2) * R"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Centripetal Acceleration in terms of Frequency and Radius: given frequency = 263, R = 69, find a c.",
+     "a": "188417104.04203",
+     "self_check": false
+    },
+    {
+     "q": "For Centripetal Acceleration in terms of Frequency and Radius: given frequency = 597, R = 33, find a c.",
+     "a": "464325290.218397",
+     "self_check": false
+    },
+    {
+     "q": "For Centripetal Acceleration in terms of Frequency and Radius: given frequency = 416, R = 36, find a c.",
+     "a": "245951173.329828",
+     "self_check": false
+    },
+    {
+     "q": "For Centripetal Acceleration in terms of Frequency and Radius: given frequency = 747, R = 12.8, find a c.",
+     "a": "281975197.811071",
+     "self_check": false
+    },
+    {
+     "q": "For Centripetal Acceleration in terms of Frequency and Radius: given frequency = 261, R = 71, find a c.",
+     "a": "190940959.279477",
+     "self_check": false
+    },
+    {
+     "q": "For Centripetal Acceleration in terms of Frequency and Radius: given frequency = 957, R = 26, find a c.",
+     "a": "940063001.397862",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

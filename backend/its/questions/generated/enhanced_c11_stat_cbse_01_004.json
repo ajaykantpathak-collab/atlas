@@ -34,6 +34,36 @@
      "q": "Create a real-world example (Indian context) where using the mean as a representative value is misleading, and suggest a better statistical measure. Explain why your suggested measure is more appropriate.",
      "a": "Example: In a village, 9 farmers earn ₹50,000/year and 1 landlord earns ₹5,00,000/year. Mean income = ₹95,000, but 90% earn far less. Median = ₹50,000 better represents typical income. A poor answer might give an example without explaining why median is better (e.g., \"use median because it's middle\") showing lack of understanding of robustness to outliers.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Statistics has inherent limitations: it deals with aggregates not individuals, results are true only on average, it requires homogeneous data for valid comparison, and it cannot capture qualitative aspects without ______.",
+     "a": "quantification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with the NCERT story: a family of four tries to cross a river because the average height of family members is greater than the average depth of the river, but the ______ drown.",
+     "a": "children",
+     "self_check": true
+    },
+    {
+     "q": "What is Statistics has inherent limitations? State the definition given in this lesson.",
+     "a": "Statistics has inherent limitations: it deals with aggregates not individuals, results are true only on average, it requires homogeneous data for valid comparison, and it cannot capture qualitative aspects without quantification.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Next, show a news headline: \"Average income in India rises ______%!\" but the median may not change.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Statistics has inherent limitations?",
+     "a": "Students often think \"limitations of statistics\" means \"statistics is unreliable or useless.\" They confuse the tool's constraints (e.g., deals with aggregates, requires numerical data) with flaws.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can identify at least three limitations of statistics from a given scenario, explain why a specific statistical claim is a misuse (e.g., using average without dispersion), and suggest a correct statistical approach.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a thought experiment to demonstrate that an electron cannot have a definite trajectory. Use the concepts of wave-particle duality and the uncertainty principle.",
      "a": "Imagine a double-slit experiment with electrons. If the electron had a definite trajectory, it would pass through one slit and hit the screen at a predictable point — no interference pattern. But we observe an interference pattern (wave nature), meaning the electron's position at the slits is not definite. To \"see\" which slit it goes through, we shine light — but the photon's momentum disturbs the electron enough to destroy the interference pattern. The very act of defining the trajectory destroys the wave behaviour that makes the pattern. A poor answer describes only the measurement disturbance without linking to wave nature.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Heisenberg's Uncertainty Principle states that it is fundamentally impossible to ______ determine the exact position (Δx) and exact momentum (Δp) or velocity (Δv) of a microscopic particle like an electron; the product of their uncertainties is always greater than or equal to h/4π, where h is Planck's constant (6.626 × 10⁻³⁴ J s).",
+     "a": "simultaneously",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine trying to locate a firefly in a dark room using a flashlight — the light photons bounce off the firefly and reach your eyes, but each collision slightly pushes the firefly, changing its ______.",
+     "a": "velocity",
+     "self_check": true
+    },
+    {
+     "q": "What is Heisenberg's Uncertainty Principle states that it? State the definition given in this lesson.",
+     "a": "Heisenberg's Uncertainty Principle states that it is fundamentally impossible to simultaneously determine the exact position (Δx) and exact momentum (Δp) or velocity (Δv) of a microscopic particle like an electron; the product of their uncertainties is always greater than or equal to h/4π, where h is Planck's constant (6.626 × 10⁻³⁴ J s).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Heisenberg's Uncertainty Principle states that it?",
+     "a": "Students think the uncertainty principle is about measurement error or instrument limitations — \"if we had better microscopes, we could know both.\" The exact wrong step: they treat Δx and Δp as experimental errors rather than intrinsic standard deviations of the particle's wavefunction.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can mathematically apply Δx Δp ≥ h/4π to calculate minimum uncertainty in position or momentum for electrons and macroscopic objects, explain why this principle rules out definite electron trajectories in atoms, and justify why Bohr's circular orbits are invalid based on this principle.",
+     "self_check": true
     }
    ]
   }

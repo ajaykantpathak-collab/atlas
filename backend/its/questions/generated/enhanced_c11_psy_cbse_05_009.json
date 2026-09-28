@@ -34,6 +34,36 @@
      "q": "Design a 4-week practice schedule for a Class 11 student learning to solve Rubik's Cube, explicitly incorporating: (a) all three Fitts phases, (b) a shift from continuous to partial reinforcement, and (c) intrinsic motivation strategies. Explain how your schedule addresses the performance plateau between phases.",
      "a": "A strong answer will structure: Week 1 (Cognitive) — learn algorithms with tutorial, continuous reinforcement (praise per solved layer), intrinsic goal (\"understand logic\"). Week 2-3 (Associative) — timed solves, partial reinforcement (praise only for PBs), intrinsic goal (\"beat yesterday's time\"), address plateau by varying scramble types. Week 4 (Autonomous) — blindfolded/one-handed variants, self-reinforcement via flow state, intrinsic mastery. Plateau is addressed by changing task constraints (variability of practice) to force re-entry into cognitive processing for new sub-skills. A weak answer uses same drills throughout or ignores the reinforcement shift, showing failure to integrate phase-specific demands.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Skill learning is the process of acquiring the ability to perform complex tasks smoothly and efficiently through practice, progressing through three ______ distinct phases: cognitive (understanding instructions), associative (linking stimuli to responses, reducing errors), and autonomous (automatic performance with minimal conscious effort).",
+     "a": "qualitatively",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: At first, you consciously remember every step: \"clutch, gear, mirror, ______\" (cognitive phase).",
+     "a": "indicator",
+     "self_check": true
+    },
+    {
+     "q": "What is Skill learning? State the definition given in this lesson.",
+     "a": "Skill learning is the process of acquiring the ability to perform complex tasks smoothly and efficiently through practice, progressing through three qualitatively distinct phases: cognitive (understanding instructions), associative (linking stimuli to responses, reducing errors), and autonomous (automatic performance with minimal.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Years later, you drive ______ km while planning dinner, barely remembering the drive (autonomous phase).",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Skill learning?",
+     "a": "Students believe the three phases are strictly time-based (e.g., \"cognitive phase lasts 2 weeks\") and that *automaticity means the skill no longer requires any brain involvement*.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) accurately describe the three phases of skill acquisition (cognitive, associative, autonomous) with one key characteristic of each, and (2) explain how motivation, preparedness, and reinforcement schedules (continuous vs. partial) facilitate skill learning, using a concrete example.",
+     "self_check": true
     }
    ]
   }

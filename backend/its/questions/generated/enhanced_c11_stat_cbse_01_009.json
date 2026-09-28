@@ -34,6 +34,26 @@
      "q": "Design a mini-survey with exactly 6 questions for studying urban household consumption patterns. Include at least 2 qualitative nominal, 1 qualitative ordinal, 1 quantitative discrete, and 1 quantitative continuous variable. For each question, specify the variable name, data type, and sub-type.",
      "a": "Example design:\n1. \"What is your household's primary mode of transport?\" – Mode_of_Transport, qualitative nominal (bus/metro/auto/walk/car).\n2. \"Which income bracket does your household fall into?\" – Income_Bracket, qualitative ordinal (EWS/LIG/MIG/HIG).\n3. \"How many earning members in the household?\" – Earners, quantitative discrete (0, 1, 2, 3...).\n4. \"What is your monthly electricity bill (in ₹)?\" – Electricity_Bill, quantitative continuous (any positive real number).\n5. \"Do you own a vehicle?\" – Vehicle_Ownership, qualitative nominal (yes/no).\n6. \"How satisfied are you with public transport?\" – Transport_Satisfaction, qualitative ordinal (very dissatisfied/dissatisfied/neutral/satisfied/very satisfied).\nA poor answer that makes all questions quantitative or misses sub-types shows the student cannot operationalise the classification in real survey design.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Qualitative data (also called categorical data) describes attributes or ______ that cannot be measured numerically but can be classified into categories, such as gender, religion, or skill level.",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping the ______ design a survey to understand farmer distress in Maharashtra.",
+     "a": "government",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify any given economic variable as qualitative or quantitative with justification, and explain why certain statistical methods apply only to one type.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping the government design a survey to understand farmer distress in ______.",
+     "a": "Maharashtra",
+     "self_check": true
     }
    ]
   }

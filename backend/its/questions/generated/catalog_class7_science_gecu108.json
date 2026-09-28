@@ -2,6 +2,53 @@
  "catalog": "catalog_class7_science_gecu108.json",
  "concepts": [
   {
+   "id": "gecu.8.3",
+   "title": "Speed and Its Calculation",
+   "converted_to_compute": true,
+   "formula": "speed = distance / time",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "speed = distance / time",
+     "compute": "speed = distance / time"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Speed and Its Calculation: given distance = 189, time = 95, find speed.",
+     "a": "1.98947",
+     "self_check": false
+    },
+    {
+     "q": "For Speed and Its Calculation: given distance = 485, time = 50, find speed.",
+     "a": "9.7",
+     "self_check": false
+    },
+    {
+     "q": "For Speed and Its Calculation: given distance = 10.8, time = 46, find speed.",
+     "a": "0.234783",
+     "self_check": false
+    },
+    {
+     "q": "For Speed and Its Calculation: given distance = 1.4, time = 106, find speed.",
+     "a": "0.0132075",
+     "self_check": false
+    },
+    {
+     "q": "For Speed and Its Calculation: given distance = 402, time = 47, find speed.",
+     "a": "8.55319",
+     "self_check": false
+    },
+    {
+     "q": "For Speed and Its Calculation: given distance = 268, time = 23, find speed.",
+     "a": "11.6522",
+     "self_check": false
+    }
+   ]
+  },
+  {
    "id": "gecu.8.1",
    "title": "Measurement of Time",
    "solution_type": "verify_property",
@@ -42,88 +89,6 @@
      "q": "Which is faster: 60 km in 2 h or 45 km in 1 h?",
      "a": "45 km in 1 h (45 km/h beats 30 km/h).",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "gecu.8.3",
-   "title": "Speed and Its Calculation",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "speed",
-     "expr": "distance / time",
-     "explain": "speed = distance covered divided by time taken"
-    },
-    {
-     "step": 2,
-     "name": "half_speed",
-     "expr": "speed / 2",
-     "explain": "speed if the time doubled"
-    },
-    {
-     "step": 3,
-     "name": "speed_m_per_s",
-     "expr": "speed * 1000 / 3600",
-     "explain": "converted to metres per second"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A school bus covers 12 km in 0.5 h. Find its speed in km/h and m/s.",
-     "vals": {
-      "distance": 12,
-      "time": 0.5
-     },
-     "unit": "km/h",
-     "steps": null,
-     "a": "6.66667 km/h",
-     "self_check": false
-    },
-    {
-     "q": "An athlete runs 400 m in 50 s. Calculate the speed in m/s.",
-     "vals": {
-      "distance": 400,
-      "time": 50
-     },
-     "unit": "m/s",
-     "steps": null,
-     "a": "2.22222 m/s",
-     "self_check": false
-    },
-    {
-     "q": "A plane flies 1500 km in 2 h. What is its speed?",
-     "vals": {
-      "distance": 1500,
-      "time": 2
-     },
-     "unit": "km/h",
-     "steps": null,
-     "a": "208.333 km/h",
-     "self_check": false
-    },
-    {
-     "q": "A cyclist covers 6 km in 24 min (0.4 h). Find the speed.",
-     "vals": {
-      "distance": 6,
-      "time": 0.4
-     },
-     "unit": "km/h",
-     "steps": null,
-     "a": "4.16667 km/h",
-     "self_check": false
-    },
-    {
-     "q": "A rickshaw moves 3 km in 18 min (0.3 h). Compute its speed in km/h.",
-     "vals": {
-      "distance": 3,
-      "time": 0.3
-     },
-     "unit": "km/h",
-     "steps": null,
-     "a": "2.77778 km/h",
-     "self_check": false
     }
    ]
   },

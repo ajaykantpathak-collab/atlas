@@ -34,6 +34,26 @@
      "q": "Design a simple classroom experiment using rubber bands and weights to demonstrate the difference between a material with a clear yield point (like mild steel) and an elastomer (like rubber). Describe the procedure, measurements, and expected graph shapes.",
      "a": "Procedure: Hang a rubber band vertically, add known weights incrementally, measure extension for each load. Plot stress (weight/area) vs strain (extension/original length). Repeat with a thin steel wire (if safe) or use a pre-recorded steel curve. Expected: Rubber shows a non-linear, S-shaped curve with no linear region, large elastic strains, no yield plateau. Steel shows a clear linear region, yield plateau, and plastic region. A poor answer would treat rubber as Hookean or ignore the need for cross-sectional area measurement, revealing confusion between stress/strain and force/extension.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The elastic limit is the maximum stress a material can withstand while still returning to its original dimensions upon unloading; the yield point is the specific stress at which a material begins to deform ______ (permanent set) with little or no increase in load.",
+     "a": "plastically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a steel ruler bent ______ — it springs back; bend it further and it stays bent.",
+     "a": "slightly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For materials without a distinct yield point, the yield strength is defined as the stress producing a specified permanent strain (typically ______%).",
+     "a": "0.2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can interpret a stress-strain graph to identify the linear elastic region, elastic limit, yield point, ultimate tensile strength, and fracture point; can distinguish between ductile and brittle behavior from the curve; and can calculate yield strength from given force and cross-sectional area at the yield point.",
+     "self_check": true
     }
    ]
   }

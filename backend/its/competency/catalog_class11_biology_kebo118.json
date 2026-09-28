@@ -64,7 +64,16 @@
      "explain": "Deduct the resting potential from the peak action potential to get the voltage swing of the impulse",
      "compute": "voltage_swing = action_potential - resting_potential"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "voltage_swing = action_potential - resting_potential",
+     "compute": "voltage_swing = action_potential - resting_potential"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.118.3.1",

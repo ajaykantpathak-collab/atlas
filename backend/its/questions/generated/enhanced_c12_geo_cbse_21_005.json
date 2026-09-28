@@ -32,7 +32,27 @@
     },
     {
      "q": "Design a one-page field recording sheet for a soil moisture survey along a 2 km transect in the Deccan Plateau (black cotton soil region) during post-monsoon season. The sheet must capture: location (GPS), depth-specific moisture (gravimetric), soil texture by feel, land use, crop type, and photograph reference. Include metadata headers, coding boxes, and a sketch area. Draw the layout in text format and explain how each field prevents a specific data entry error.",
-     "a": "**FIELD RECORDING SHEET — SOIL MOISTURE TRANSECT**\n```\nPROJECT: Deccan Post-Monsoon Moisture  |  DATE: ____/____/____  |  TRANSECT ID: TM-____\nINVESTIGATOR: ___________________  |  GPS DEVICE: ___________  |  WEATHER: ☐Clear ☐Cloudy ☐Rain\nPAGE ___ OF ___\n--------------------------------------------------------------------------------\n| PT | TIME | LAT (DD) | LON (DD) | HDOP | DEPTH | MOIST% | TEXTURE | LANDUSE | CROP | PHOTO# | SKETCH |\n|    | IST  |  ° ' \"   |  ° ' \"   |      | (cm)  | (g/g)  | Code    | Code    | Code |        |  (5cm) |\n--------------------------------------------------------------------------------\n| 01 |      |          |          |      |  15   |        |         |         |      |        |        |\n|    |      |          |          |      |  30   |        |         |         |      |        |        |\n|    |      |          |          |      |  60   |        |         |         |      |        |        |\n--------------------------------------------------------------------------------\nCODES: TEXTURE: 1=Sand 2=Silt 3=Clay 4=Loam 5=SandyLoam 6=ClayLoam | LANDUSE: 1=Agri 2=Fallow 3=Pasture 4=Built 5=Water | CROP: 1=Cotton 2=Soy 3=Jowar 4=Pulses 5=None\nNOTES: _________________________________________________________________________\n```\n**Error prevention:** (1) **HDOP column** forces GPS quality check — prevents using degraded fixes. (2) **Depth rows per point** — prevents mixing depths in one cell. (3) **Code boxes with legend on sheet** — eliminates \"clay\" vs \"clay loam\" ambiguity. (4) **Photo# column** — links image to exact point/depth. (5) **Sketch box per point** — captures micro-topography (cracks, crust) affecting moisture. A poor answer omits codes, HDOP, or depth structure, leading to unusable datasets.",
+     "a": "**FIELD RECORDING SHEET — SOIL MOISTURE TRANSECT**\n```\nPROJECT: Deccan Post-Monsoon Moisture  |  DATE: ____/____/____  |  TRANSECT ID: TM-____\nINVESTIGATOR: ___________________  |  GPS DEVICE: ___________  |  WEATHER: ☐Clear ☐Cloudy ☐Rain\nPAGE ___ OF ___\n--------------------------------------------------------------------------------\n| PT | TIME | LAT (DD) | LON (DD) | HDOP | DEPTH | MOIST% | TEXTURE | LANDUSE | CROP | PHOTO# | SKETCH |\n|    | IST  |  ° ' \"   |  ° ' \"   |      | (cm)  | (g/g)  | Code    | Code    | Code |        |  (5cm) |\n--------------------------------------------------------------------------------\n| 01 |      |          |          |      |  15   |        |         |         |      |        |        |\n|    |      |          |          |      |  30   |        |         |         |      |        |        |\n|    |      |          |          |      |  60   |        |         |         |      |        |        |\n--------------------------------------------------------------------------------\nCODES: TEXTURE: 1=Sand 2=Silt 3=Clay 4=Loam 5=SandyLoam 6=ClayLoam | LANDUSE: 1=Agri 2=Fallow 3=Pasture 4=Built 5=Water | CROP: 1=Cotton 2=Soy 3=Jowar 4=Pulses 5=N/A\nNOTES: _________________________________________________________________________\n```\n**Error prevention:** (1) **HDOP column** forces GPS quality check — prevents using degraded fixes. (2) **Depth rows per point** — prevents mixing depths in one cell. (3) **Code boxes with legend on sheet** — eliminates \"clay\" vs \"clay loam\" ambiguity. (4) **Photo# column** — links image to exact point/depth. (5) **Sketch box per point** — captures micro-topography (cracks, crust) affecting moisture. A poor answer omits codes, HDOP, or depth structure, leading to unusable datasets.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Field data collection recording and ______ techniques refer to the systematic methods used to capture, organize, and preserve primary geographical data gathered during field surveys, including structured field notebooks, digital logging devices, photographic evidence, sketch maps, and standardized coding sheets that ensure data accuracy, traceability, and usability for subsequent spatial analysis.",
+     "a": "documentation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ in a bustling weekly market in a village near Bhopal, Madhya Pradesh, tasked with mapping vendor locations and customer flow patterns for a Class 12 project.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can design a complete field recording protocol for a geographical investigation, selecting appropriate documentation tools (notebook, GPS, camera, audio recorder) for different data types, applying consistent coding conventions, and implementing quality checks to prevent data loss or ambiguity during a 3-day field survey in.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing in a bustling weekly market in a village near Bhopal, Madhya Pradesh, tasked with mapping vendor ______ and customer flow patterns for a Class 12 project.",
+     "a": "locations",
      "self_check": true
     }
    ]

@@ -34,6 +34,31 @@
      "q": "Create a composite number between 100 and 200 whose prime factorization includes exactly three distinct prime numbers, and write its prime factorization in exponential form.",
      "a": "Example: 110 = 2 × 5 × 11 → 2¹ × 5¹ × 11¹. Any number that is a product of three distinct primes (e.g., 102 = 2 × 3 × 17, 114 = 2 × 3 × 19) works. A poor answer (e.g., 100 = 2² × 5²) uses only two distinct primes, showing the student didn't enforce \"exactly three distinct primes.\"",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ Theorem of Arithmetic states that every integer greater than 1 can be expressed as a product of prime numbers in exactly one way, apart from the order of the factors.",
+     "a": "Fundamental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have 60 marbles and you want to arrange them in identical ______ such that each group has a prime number of marbles.",
+     "a": "groups",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Fundamental Theorem of Arithmetic states that every integer greater than ______ can be expressed as a product of prime numbers in exactly one way, apart from the order of the factors.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state the theorem precisely, explain why prime factorization is unique, and use the theorem to determine whether a given factorization is the prime factorization of a number.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have 60 marbles and you want to arrange them in ______ groups such that each group has a prime number of marbles.",
+     "a": "identical",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a calorimeter, thermometer, and stopwatch to determine the latent heat of fusion of ice. Outline the procedure and the formula you would use.",
      "a": "Procedure: (1) Measure mass of calorimeter + stirrer (m_c). (2) Add known mass of warm water (m_w), record initial temperature T_i. (3) Add known mass of dry ice at 0°C (m_ice), stir until melted, record final temperature T_f. (4) Use heat balance: m_w c_w (T_i - T_f) + m_c c_c (T_i - T_f) = m_ice L_f + m_ice c_w (T_f - 0). Solve for L_f. A poor answer omits the calorimeter's heat capacity or the warming of melted ice.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Latent heat is the amount of heat energy per unit mass absorbed or released by a substance during a change of state at constant ______ and pressure.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a pressure cooker whistling: water boils at 100°C but the ______ stays constant while steam forms.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "What is Latent heat? State the definition given in this lesson.",
+     "a": "Latent heat is the amount of heat energy per unit mass absorbed or released by a substance during a change of state at constant temperature and pressure.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a pressure cooker whistling: water boils at ______°C but the temperature stays constant while steam forms.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Latent heat?",
+     "a": "Students think latent heat \"raises the temperature\" of the substance during phase change because they associate heat input only with temperature rise.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the heat required for a phase change using Q = mL, distinguish between latent heat of fusion and vaporisation, and solve calorimetry problems involving both temperature change and phase change in a single system.",
+     "self_check": true
     }
    ]
   }

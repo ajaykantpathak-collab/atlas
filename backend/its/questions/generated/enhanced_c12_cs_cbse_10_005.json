@@ -34,6 +34,26 @@
      "q": "Create a new real-world scenario (Indian context) where you must read from one file, transform data, and write to another file — both using `with`. Write the complete code with proper error handling for missing input file and permission denied on output.",
      "a": "Expected answer: A program reading `students_marks.csv` (roll, name, marks), computing grade, writing to `results_2024.txt`. Must use nested `with`:\n```python\ntry:\n    with open(\"students_marks.csv\", \"r\") as infile, open(\"results_2024.txt\", \"w\") as outfile:\n        for line in infile:\n            roll, name, marks = line.strip().split(\",\")\n            grade = \"A\" if int(marks) >= 90 else \"B\" if int(marks) >= 75 else \"C\"\n            outfile.write(f\"{roll},{name},{marks},{grade}\\n\")\nexcept FileNotFoundError:\n    print(\"Input file not found\")\nexcept PermissionError:\n    print(\"Cannot write output file\")\n```\nPoor answer: single `with`, no exception handling, or manual `close()`. Reveals inability to compose multiple context managers and handle real I/O errors.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The with statement in Python is a context manager that ______ handles resource acquisition and release for file operations, ensuring the file is properly closed even if an exception occurs during read/write operations, eliminating the need for explicit close() calls and preventing resource leaks.",
+     "a": "automatically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're ______ a program to save student marks to a file.",
+     "a": "writing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write correct with open(...) as f: blocks for reading/writing text and binary files, explain why with is safer than manual open()/close(), and modify legacy code without with to use the context manager pattern correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you're writing a program to save student marks to a file.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

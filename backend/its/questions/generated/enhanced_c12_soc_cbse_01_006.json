@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_01_006",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_01_006",
+   "title": "c12_soc_cbse_01_006",
+   "questions": [
+    {
+     "q": "What is the \"village republic\" thesis, and which colonial administrator-scholar is most associated with its formulation in the early 19th century?",
+     "a": "The \"village republic\" thesis portrays the Indian village as a self-governing, economically self-sufficient, politically autonomous little republic. Sir Charles Metcalfe, in his 1830 report to the House of Commons, famously described Indian villages as \"little republics having nearly everything they want within themselves.\" A wrong answer (e.g., attributing it to M.N. Srinivas or calling it an indigenous concept) reveals the student confuses colonial administrative fiction with sociological reality or with later village studies.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why M.N. Srinivas chose the village (Rampura) as his unit of study in the 1950s, and identify one limitation he himself later acknowledged about this choice.",
+     "a": "Srinivas chose the village because it was a bounded, manageable unit for intensive fieldwork (participant observation) and because the \"village study\" tradition (following Wiser, 1936) promised comparability. He later acknowledged that the village is not a closed system — caste, kinship, and economic ties extend far beyond its boundaries, and the \"dominant caste\" concept he developed operates at a regional, not just village, level. A wrong answer that says \"Srinivas believed villages were isolated\" shows the student missed his own reflexive critique in later writings.",
+     "self_check": true
+    },
+    {
+     "q": "A researcher wants to study \"agrarian class formation\" in a Punjabi village. Using the critique of the village as a unit, list three specific external structures/processes the researcher MUST incorporate to avoid the \"bounded village\" fallacy.",
+     "a": "1. State procurement policies and minimum support prices (MSP) that link village production to national markets. 2. Caste-based labour migration circuits (e.g., Dalit agricultural workers moving to Haryana/HP) that connect the village to regional labour markets. 3. Green Revolution technology dissemination via state agricultural universities and extension services — a non-village institutional network. An answer that only lists \"caste\" or \"market\" without specifying the structural mechanism (e.g., \"caste panchayats\" instead of \"inter-village marriage networks\") shows superficial application.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Louis Dumont's and Andre Beteille's critiques of the village study tradition. How does each theorist's primary theoretical lens (hierarchy vs. inequality) shape their objection?",
+     "a": "Dumont (structuralist) argued the village is not the relevant structural unit — caste (varna/jati) is, because the principle of hierarchy (pure/impure) operates at the civilizational level, making the village merely a local manifestation. Beteille (liberal/Weberian) argued the village obscures class and power inequalities that cut across caste and extend beyond the village (e.g., landlordism linked to state policy). A wrong answer that conflates them as \"both disliked village studies\" misses how their theoretical commitments (hierarchy vs. distributive inequality) produce different alternative units.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The village study tradition in Indian sociology was merely a colonial hangover; it has no analytical value today.\" Support your judgment with two specific contributions of village studies that remain relevant.",
+     "a": "The claim is false. Two enduring contributions: (1) The method of intensive, long-term fieldwork (participant observation) established sociology/anthropology as empirical disciplines in India, moving beyond textual/Indological approaches. (2) Concepts generated *from* village studies — \"dominant caste\" (Srinivas), \"faction\" (Bailey), \"jajmani system\" (Wiser/Gould) — became analytical tools for understanding rural power, exchange, and politics even in non-village contexts. A purely dismissive answer shows inability to separate methodological legacy from theoretical limitations.",
+     "self_check": true
+    },
+    {
+     "q": "Design a research question for a contemporary study of a Rajasthani village that explicitly avoids the \"bounded village\" fallacy. Your question must name at least two extra-village structures and specify the theoretical link between them.",
+     "a": "Example: \"How do MGNREGA wage payments (state policy) and cross-border marriage alliances (kinship/caste network) jointly shape the seasonal migration decisions of Bhil households in a southern Rajasthan village?\" This question treats the village as a site where state policy and caste/kinship networks intersect, rather than as a self-contained unit. A poor question would be \"What is the impact of MGNREGA on this village?\" — it isolates the village from the kinship and labour-market circuits that mediate the policy's effect.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The \"problem of the village\" refers to the ______ and methodological debate in Indian sociology about whether the village can be treated as a bounded, representative, and isolated unit of analysis, given that Indian villages have historically been interconnected with wider caste networks, market economies, state administration, and religious pilgrimages, making them \"open\" rather than \"closed\" systems.",
+     "a": "epistemological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ visiting a village in Tamil Nadu to study \"caste relations.\" You start by mapping the village boundaries, but soon realise that the dominant caste's marriage alliances extend 50 km away, the weekly market attracts traders from three districts, and the temple festival draws pilgrims from across the state.",
+     "a": "sociologist",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a sociologist visiting a village in Tamil Nadu to study \"caste relations.\" You start by mapping the village boundaries, but soon realise that the dominant caste's marriage alliances extend ______ km away, the weekly market attracts traders from three districts, and the temple festival draws pilgrims from across the state.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can articulate the colonial origins of the \"village republic\" myth, explain how M.N.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

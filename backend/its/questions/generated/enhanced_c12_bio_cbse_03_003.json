@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a rodent model to test whether Sertoli-cell-derived androgen-binding protein (ABP) is necessary for maintaining high testosterone concentration in seminiferous tubule fluid.",
      "a": "Knock out ABP gene specifically in Sertoli cells (Cre-lox system). Measure testosterone in tubule fluid vs serum by LC-MS/MS at multiple stages. Control: wild-type littermates. Prediction: tubule fluid testosterone drops to serum levels (~1/100th of normal) while serum testosterone remains unchanged; spermatogenesis arrests at Meiosis I/spermiogenesis. A poor answer (e.g., \"measure blood testosterone only\") fails to isolate the compartment-specific role of ABP — the student doesn't understand the blood-testis barrier creates a distinct hormonal microenvironment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the continuous, cyclic process in the seminiferous tubules of the testes where diploid spermatogonia undergo mitotic proliferation, meiotic division, and spermiogenesis to produce haploid, motile spermatozoa, regulated by gonadotropins (FSH, LH) and testicular hormones (testosterone, inhibin).",
+     "a": "Spermatogenesis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: First, identify the ______ tubule compartments (basal vs adluminal) and the blood-testis barrier.",
+     "a": "seminiferous",
+     "self_check": true
+    },
+    {
+     "q": "What is Spermatogenesis? State the definition given in this lesson.",
+     "a": "Spermatogenesis is the continuous, cyclic process in the seminiferous tubules of the testes where diploid spermatogonia undergo mitotic proliferation, meiotic division, and spermiogenesis to produce haploid, motile spermatozoa, regulated by gonadotropins (FSH, LH) and testicular hormones (testosterone, inhibin).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Spermatogenesis?",
+     "a": "Students often think \"spermatogenesis = meiosis only\" and forget the mitotic stem-cell amplification phase.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Sequence the stages from spermatogonium to spermatozoon with correct ploidy and chromosome number at each step, (2) Explain the role of Sertoli and Leydig cells in nourishment and hormonal regulation, (3) Distinguish spermatogenesis from oogenesis in terms of timing, symmetry, and output.",
+     "self_check": true
     }
    ]
   }

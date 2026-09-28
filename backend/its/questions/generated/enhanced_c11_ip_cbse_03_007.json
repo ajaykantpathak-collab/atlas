@@ -34,6 +34,36 @@
      "q": "Create a novel real-world problem (not from textbooks) that *requires* indefinite iteration and cannot be easily converted to definite iteration. Describe the scenario, the loop condition, and why the iteration count is fundamentally unpredictable.",
      "a": "Example: \"A weather station records temperature every minute. Sound an alarm when temperature exceeds 40°C for 3 consecutive minutes.\" The loop condition is `consecutive_high < 3 and not alarm_triggered`. The iteration count depends on external sensor data — no predetermined bound. A poor answer gives a scenario with a hidden bound (e.g., \"guess a number 1-100\" — max 7 tries via binary search), showing the student doesn't grasp *unbounded non-determinism* as the hallmark of indefinite iteration.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Iteration is the process of repeating a set of ______ until a specific condition is met, and a loop is the programming construct that implements this repetition by executing a block of code multiple times without rewriting it.",
+     "a": "instructions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to print the roll numbers of all 40 students in your class for ______.",
+     "a": "attendance",
+     "self_check": true
+    },
+    {
+     "q": "What is Iteration? State the definition given in this lesson.",
+     "a": "Iteration is the process of repeating a set of instructions until a specific condition is met, and a loop is the programming construct that implements this repetition by executing a block of code multiple times without rewriting it.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to print the roll numbers of all ______ students in your class for attendance.",
+     "a": "40",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Iteration?",
+     "a": "Students believe a loop variable *must* be named i, j, or k and *must* increment by 1.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why loops are necessary for repetitive tasks, identify the three components of a loop (initialization, condition, update), and predict the number of iterations for a given loop structure without executing code.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a new input device for elderly users with arthritis that combines two existing input methods. Describe its components, the physical actions it detects, and the digital data it produces.",
      "a": "Expected answer: Example — A \"Voice-Assisted Trackball\" combining a large, low-friction trackball (for coarse cursor positioning with minimal finger force) and a built-in microphone with voice-command recognition (for text entry and clicks). Components: trackball sensor (optical/mechanical), microphone, ADC, microcontroller. Detects: rotational movement (positional data) and speech (audio). Produces: digital cursor coordinates and recognized text/commands. A poor answer that simply says \"a keyboard with bigger keys\" shows lack of synthesis — it modifies an existing device rather than combining two distinct input modalities to address the specific motor limitation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An input device is a hardware component that enables users to send data, commands, or control signals to a computer system by converting physical ______ (keystrokes, movements, light patterns, sound waves) into digital signals that the CPU can process and store in memory.",
+     "a": "interactions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are attending an online class on your laptop: you type a question in the chat (keyboard), click \"raise hand\" (mouse), show your ______ notes to the camera (webcam), and speak your answer (microphone).",
+     "a": "handwritten",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Classify at least five input devices (keyboard, mouse, scanner, microphone, webcam) by the physical modality they capture (text, positional, image, audio, video).",
+     "self_check": true
     }
    ]
   }

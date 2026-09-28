@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using isolated rat hepatocytes to demonstrate that insulin and glucagon have opposing effects on glycogen metabolism. Specify the treatments, measurable outcome, and expected result.",
      "a": "Treatments: (1) Control (basal), (2) + Glucagon (10 nM), (3) + Insulin (100 nM), (4) + Glucagon + Insulin. Pre-load cells with ¹⁴C-glucose to label glycogen. Measure ¹⁴C-glucose released into medium (glycogenolysis) and ¹⁴C-glycogen remaining in cells (glycogen content) after 30 min. Expected: Glucagon → high ¹⁴C-glucose release, low glycogen; Insulin → low release, high glycogen; Combined → intermediate (insulin antagonizes glucagon). A poor answer measuring only \"glucose uptake\" misses that hepatocytes take up glucose via GLUT2 bidirectionally; the key is net glycogen synthesis vs. breakdown, requiring direct glycogen quantification or radiolabel flux.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The pancreas is a composite gland functioning as both an exocrine and endocrine organ; its endocrine portion consists of Islets of Langerhans containing α-cells that secrete glucagon (a hyperglycemic peptide hormone stimulating glycogenolysis and ______ in hepatocytes) and β-cells that secrete insulin (a hypoglycemic peptide hormone enhancing cellular glucose uptake, utilization, and glycogenesis in hepatocytes and adipocytes), jointly maintaining blood glucose homeostasis.",
+     "a": "gluconeogenesis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a student eating a plate of rajma-chawal for lunch — within minutes, blood glucose rises, yet the body ______ it within a narrow 70-110 mg/dL range.",
+     "a": "maintains",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the antagonistic regulation of blood glucose by insulin and glucagon at the cellular level, trace the metabolic pathways each hormone activates in target tissues (liver, adipose, muscle), and predict the physiological consequences of specific hormonal imbalances (e.g., insulin deficiency vs. insulin resistance) on.",
+     "self_check": true
     }
    ]
   }

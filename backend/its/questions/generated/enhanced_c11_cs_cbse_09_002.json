@@ -34,6 +34,21 @@
      "q": "Design a real‑world scenario (Indian context) where you would need to open a file in `'r+'` mode (read and write text). Describe the scenario and explain why `'r+'` is necessary instead of `'r'` or `'w'`.",
      "a": "Scenario: A school’s fee‑collection program stores each student’s fee status in `fees.txt`. When a student pays, the program must **read** the current status, **update** that specific line to “PAID”, and **write** the change back – all without deleting other students’ records. `'r+'` allows both reading and writing at any position; `'r'` alone cannot write, and `'w'` would erase the whole file. A poor answer (e.g., using `'w'` and rewriting the entire file) misses the in‑place update requirement and risks data loss if the program crashes mid‑write.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The open() function is a built-in Python function that opens a file and returns a file object (also called a file handle), which serves as a gateway to perform ______ read, write, or append operations on that file; it takes the file path as a mandatory argument and an optional mode string (default 'r' for read text) that determines the operations permitted and the initial file pointer position.",
+     "a": "subsequent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a simple contact‑manager app that saves phone numbers to a file named contacts.txt on your computer.",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write syntactically correct open() statements for any given scenario by selecting the appropriate file path (relative or absolute) and mode ('r', 'w', 'a', 'rb', 'wb', 'ab', etc.), explain what the returned file object represents, and describe the effect of each mode on an existing or non-existing file.",
+     "self_check": true
     }
    ]
   }

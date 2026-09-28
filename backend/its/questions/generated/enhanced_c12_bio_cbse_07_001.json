@@ -34,6 +34,31 @@
      "q": "Design a modern follow-up experiment to test whether clay minerals (e.g., montmorillonite) could have catalysed the polymerisation of amino acids into peptides on early Earth. Specify: (a) reactants, (b) conditions, (c) analytical method to detect products, and (d) one control essential for validity.",
      "a": "(a) Reactants: aqueous solution of activated amino acids (e.g., aminoacyl adenylates or amino acids + condensing agent like cyanamide) + montmorillonite clay. (b) Conditions: wet-dry cycles (simulating tidal pools) at 50-80°C, pH 6-8, for days-weeks. (c) Analysis: HPLC-MS to identify and quantify peptide oligomers (di-, tri-peptides) and determine sequence distribution. (d) Essential control: identical reaction WITHOUT clay (or with inert sand) to confirm catalysis is due to clay's surface chemistry, not thermal condensation alone. A poor answer (missing control, using only amino acids without activation, or suggesting gel electrophoresis for small peptides) reveals lack of experimental design rigour — confusing detection method with separation principle, or ignoring the thermodynamic barrier to condensation in water.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Oparin-Haldane theory proposes that life originated on early Earth through a gradual process of chemical evolution: simple inorganic molecules (CH₄, NH₃, H₂O, H₂, CO₂) combined under energy sources (UV radiation, lightning, volcanic heat) to form simple organic molecules (amino acids, nucleotides, sugars), which further polymerised into complex ______ (proteins, nucleic acids), eventually assembling into self-replicating molecular systems (coacervates/microspheres) that exhibited primitive metabolism and heredity — the first protocells.",
+     "a": "macromolecules",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a droplet of oil in water — it forms a sphere with a ______ separating inside from outside, yet it has no membrane.",
+     "a": "boundary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by reconstructing early Earth's reducing atmosphere (no free O₂) and identifying the energy sources available ______ billion years ago.",
+     "a": "3.8",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the four sequential stages of chemical evolution (inorganic → simple organic → macromolecules → protocells) with the specific energy sources and atmospheric conditions at each stage, and can describe the Miller-Urey experimental design that validated Stage 2.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a droplet of oil in water — it forms a sphere with a boundary ______ inside from outside, yet it has no membrane.",
+     "a": "separating",
+     "self_check": true
     }
    ]
   }

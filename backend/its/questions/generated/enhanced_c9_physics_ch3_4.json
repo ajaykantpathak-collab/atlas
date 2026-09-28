@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a toy car, a spring balance, and a ticker-timer (or smartphone video analysis) to verify that acceleration is directly proportional to net force for a constant mass. List the variables you would control, measure, and plot.",
      "a": "Control: mass of the car (keep constant). Independent variable: applied force (vary using spring balance by stretching different amounts). Dependent variable: acceleration (measure from ticker-tape dots or video analysis). Plot force (y-axis) vs acceleration (x-axis); a straight line through origin confirms \\( F \\propto a \\). A poor answer that does not mention controlling mass or measuring acceleration shows the student does not understand experimental design for proportionality.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Newton's Second Law of Motion states that the rate of change of momentum of an object is directly ______ to the net external force applied on it and occurs in the direction of the net force.",
+     "a": "proportional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a cricket bowler throwing a leather ball versus a tennis ball: the leather ball (greater mass) requires a much larger push to achieve the same ______.",
+     "a": "acceleration",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the net force, mass, or acceleration when given the other two quantities, and can explain why a larger force is needed to produce the same acceleration for a more massive object.",
+     "self_check": true
     }
    ]
   }

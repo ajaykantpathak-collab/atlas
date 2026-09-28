@@ -34,6 +34,31 @@
      "q": "Design a 5-step practical investigation that a Class 12 student could conduct in a school lab to demonstrate the directional friction effect (root vs. tip migration) responsible for wool felting. Specify materials, procedure, and the observable outcome that confirms the mechanism.",
      "a": "Good answer criteria:\n1. **Materials**: Two identical bundles of clean wool fibres (5 cm staple), water bath at 40°C, mild detergent, two glass plates, weights (100 g), ruler, timer.\n2. **Procedure**: (a) Mark root and tip ends of each fibre bundle with coloured thread. (b) Place Bundle A on glass plate with all roots facing left, tips right; Bundle B with roots right, tips left. (c) Apply detergent solution, cover with second glass plate, place weight. (d) Apply cyclic lateral agitation (hand-rocking) for 5 min. (e) Measure net displacement of root/tip markers relative to starting line.\n3. **Observable outcome**: Bundle A fibres migrate predominantly root-wards (towards root direction); Bundle B fibres migrate tip-wards. Net displacement is asymmetric — greater in against-scale direction.\n4. **Control**: Repeat with polyester fibres — no net directional migration.\n5. **Conclusion**: Directional scale structure causes ratchet-like migration under agitation + moisture, confirming felting mechanism.\nPoor answer: using whole fabric instead of fibres (confounds yarn structure), omitting directional marking, using dry friction only (misses swelling role), or expecting \"felting\" as visible mat (requires hours, not a lab demo).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Wool is a natural protein fibre obtained from the fleece of sheep (primarily) and other animals like goat (cashmere, mohair), rabbit (angora), and camel, composed mainly of keratin with a complex ______ structure of cuticle scales, cortical cells, and macro-fibrils that impart unique properties including felting ability, moisture management, and thermal insulation.",
+     "a": "hierarchical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are holding a coarse ______ blanket and a fine worsted suit fabric — both came from sheep, yet they feel, drape, and perform completely differently.",
+     "a": "woollen",
+     "self_check": true
+    },
+    {
+     "q": "What is Wool? State the definition given in this lesson.",
+     "a": "Wool is a natural protein fibre obtained from the fleece of sheep (primarily) and other animals like goat (cashmere, mohair), rabbit (angora), and camel, composed mainly of keratin with a complex hierarchical structure of cuticle scales, cortical cells, and macro-fibrils that impart unique properties including felting ability, moisture.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Wool?",
+     "a": "Students frequently believe: \"All wool felts equally, and felting is simply fibres sticking together like glue.\" This leads to three specific errors in board answers: (1) Writing \"felting occurs due to hydrogen bonding between keratin chains\" — confusing molecular adhesion with macro-mechanical scale interlocking.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Explain the morphological and chemical structure of wool fibre and link each structural feature to a specific property (felting, moisture regain, elasticity, dye affinity).",
+     "self_check": true
     }
    ]
   }

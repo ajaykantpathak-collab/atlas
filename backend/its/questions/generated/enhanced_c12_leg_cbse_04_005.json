@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_04_005",
+   "title": "c12_leg_cbse_04_005",
+   "questions": [
+    {
+     "q": "Define 'unliquidated damages' in the context of tort law and explain why they are the standard remedy in tort but not in breach of contract.",
+     "a": "Unliquidated damages are compensation amounts not predetermined by a formula or contract, but assessed by the court based on the actual harm suffered (e.g., pain, loss of reputation, future earnings). In tort, harm is often unpredictable (e.g., defamation, personal injury), so damages *must* be unliquidated. In contract, parties can foresee loss (liquidated damages clauses) or actual loss is calculable (expectation interest). A wrong answer (e.g., \"unliquidated means small damages\") reveals confusion between **quantum** and **nature** of damages — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A factory stores 5000 litres of chlorine gas (highly toxic) in a residential area. A valve fails due to a manufacturing defect in the valve (supplied by a third party). Gas escapes, hospitalizing 50 residents. The factory argues: (a) The valve defect was an 'Act of Stranger' (third party), (b) They took all reasonable care. Under which liability regime — strict or absolute — would the factory be liable? Explain using *Rylands v Fletcher* and *M.C. Mehta v. Union of India*.",
+     "a": "**Absolute liability** applies. *M.C. Mehta* (Oleum gas leak) established that enterprises engaged in inherently dangerous activities (chlorine storage in a residential zone) owe a **non-delegable, absolute duty** to the community. Defences of 'Act of Stranger' (valve maker) and 'reasonable care' are **not available** in absolute liability. Under *Rylands* (strict liability), 'Act of Stranger' *would* be a valid defence — but *M.C. Mehta* deliberately removed all exceptions for hazardous industries. A student choosing 'strict liability' misses the **enterprise vs person** distinction and the **policy shift** post-Bhopal: hazardous industry = absolute liability, no escape hatch.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the three-step *Donoghue v Stevenson* 'neighbour principle' test to this fact pattern: A software company releases a health-app that miscalculates insulin dosage for diabetics due to a coding bug. A user suffers a hypoglycemic coma. The company argues: \"We owe no duty — we never met the user; the app is free; the user clicked 'I agree' to a disclaimer.\" Determine if a duty of care exists.",
+     "a": "**Yes, duty exists.** Step 1 (Foreseeability): A reasonable software developer **foresees** that a diabetic user relying on an insulin calculator could suffer severe harm if the algorithm is faulty — proximity is established by the **nature of the product** (health-critical). Step 2 (Proximity): The relationship is **direct** — the app is designed for, marketed to, and used by the claimant class (diabetics). Step 3 (Fair, just, reasonable): Imposing a duty is **fair** — the company controls the code, profits from trust, and can prevent harm via testing. Disclaimers **cannot exclude liability for personal injury** (Consumer Protection Act, 2019; *Donoghue* principle). A wrong answer focusing only on \"no contract = no duty\" ignores that **tort duty is independent of contract** — a core Class 12 concept.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the tort of **defamation** (libel vs slander) with the tort of **malicious falsehood** (injurious falsehood) on: (a) requirement of falsity, (b) requirement of publication, (c) requirement of malice, (d) damage requirement. Why does this distinction matter in a social media context?",
+     "a": "| Basis | Defamation (Libel/Slander) | Malicious Falsehood |\n|-------|----------------------------|---------------------|\n| Falsity | **Presumed** (statement is false unless proven true) | **Must be proven** by claimant |\n| Publication | To **at least one third party** | To **at least one third party** |\n| Malice | **Not required** (strict liability for publication) | **Essential** — must prove *actual malice* (knowledge of falsity or reckless disregard) |\n| Damage | **Presumed** for libel; **must prove special damage** for slander (except imputing crime/disease/unchastity/incompetence) | **Must prove actual financial loss** (special damage) — no presumption |\n\nIn social media, a viral tweet accusing a business of \"selling expired food\" is **libel** (permanent form) — damage presumed, no malice needed. But if the tweet says \"Their new product *failed safety tests*\" (a factual claim about a product), it may be **malicious falsehood** — claimant must prove falsity, malice, *and* financial loss. Students confusing the two lose marks on **pleading standards** and **evidentiary burden** — a frequent CUET/CLAT trap.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The rule in *Rylands v Fletcher* is obsolete in India because *M.C. Mehta* replaced it with absolute liability.\" Is this true for **all** escape-of-dangerous-things cases? Support your answer with the *Balco v. Kaiser* distinction (seat vs venue) and the 2015 Arbitration Act amendment.",
+     "a": "**False.** *Rylands* (strict liability) **still governs non-commercial, non-enterprise cases** — e.g., a private landowner storing water for domestic use, or a farmer keeping a bull. *M.C. Mehta* created absolute liability **only for enterprises engaged in hazardous/commercial activity**. The *Balco* distinction (seat of arbitration = governing law) mirrors this: **character of the actor** (enterprise vs person) determines the regime. The 2015 Arbitration Act amendment (S.2(2)) allowing interim relief in foreign-seated arbitrations shows **statutory evolution**, not wholesale replacement. A student claiming \"Rylands is dead\" fails to distinguish **scope of precedent** — a key analytical skill for 'Critical Analysis' board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel fact pattern (100-150 words) involving **three distinct torts** (one intentional, one negligence, one strict/absolute liability) arising from a single incident at a construction site. Identify each tort, the defendant(s), the key legal test, and the available defences for each.",
+     "a": "**Fact Pattern:** *GreenBuild Ltd. constructs a high-rise in a dense Delhi neighbourhood. (1) A security guard, enraged by a resident's complaint, deliberately throws a brick at the resident's car — smashing the windshield. (2) A crane operator, fatigued after a 16-hour shift, negligently drops a steel beam — crushing a parked scooter. (3) GreenBuild stores 2000 litres of epoxy resin (highly flammable) in a basement; an electrical short (unrelated to any employee) ignites it — toxic fumes hospitalize 10 residents.*\n\n**Torts & Analysis:**\n1. **Battery (Intentional)** — Guard → Resident. Test: *Intent + direct application of force*. Defences: None (self-defence? No — no threat). Vicarious liability: GreenBuild liable (course of employment? Arguable — 'frolic of his own').\n2. **Negligence** — Crane operator → Scooter owner. Test: *Duty (foreseeable user of road) → Breach (16-hr shift = below reasonable standard) → Causation*. Defences: Contributory negligence (scooter parked illegally?); *Volenti* (no).\n3. **Absolute Liability** — GreenBuild → Residents (fumes). Test: *Enterprise + hazardous activity (epoxy resin) + escape + harm*. Defences: **None** (Act of God? Electrical short = not natural; Act of Stranger? No third party). *M.C. Mehta* applies — commercial hazardous activity in residential zone.\n\n**Poor answer signs:** Lumping all under 'negligence'; missing vicarious liability nuance; applying *Rylands* defences to absolute liability.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

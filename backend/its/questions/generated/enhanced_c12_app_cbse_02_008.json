@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_02_008",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_02_008",
+   "title": "c12_app_cbse_02_008",
+   "questions": [
+    {
+     "q": "State the necessary and sufficient condition for two matrices A (of order m × n) and B (of order p × q) to be added. What is the order of the sum matrix?",
+     "a": "Condition: m = p and n = q (same order). Sum matrix order: m × n (same as A and B). A wrong answer like \"number of columns of A = rows of B\" reveals confusion with matrix multiplication conditions. A wrong order like \"(m+p) × (n+q)\" reveals fundamental misunderstanding of what matrix addition means.",
+     "self_check": true
+    },
+    {
+     "q": "If A = [[1, 2], [3, 4]] and B = [[5, 6], [7, 8]], compute A + B and B + A. Are they equal? Now compute 2A + 3B. Does (2+3)A = 2A + 3A? Explain what property each result demonstrates.",
+     "a": "A+B = B+A = [[6,8],[10,12]] — demonstrates commutativity of addition. 2A+3B = [[17,22],[27,32]]. (2+3)A = 5A = [[5,10],[15,20]] while 2A+3A = 5A = same — demonstrates distributivity of scalar addition over matrix multiplication. A student who computes 2A+3B as [[2,4],[6,8]] + [[15,18],[21,24]] but then adds incorrectly (e.g., [[17,22],[27,33]]) has arithmetic errors. A student who claims A+B ≠ B+A has misunderstood commutativity.",
+     "self_check": true
+    },
+    {
+     "q": "Let A be a 2×3 matrix and B be a 3×2 matrix. Is AB defined? Is BA defined? If defined, state the order of each product. Now suppose C is 2×2. Is (AB)C defined? Is A(BC) defined? Explain using the associative property.",
+     "a": "AB: defined, order 2×2 (columns of A = 3 = rows of B). BA: defined, order 3×3 (columns of B = 2 = rows of A). (AB)C: AB is 2×2, C is 2×2 → defined, order 2×2. A(BC): B is 3×2, C is 2×2 → BC is 3×2; A is 2×3, BC is 3×2 → columns of A (3) ≠ rows of BC (3)? Wait: A is 2×3, BC is 3×2 → columns of A = 3, rows of BC = 3 → DEFINED, order 2×2. Both (AB)C and A(BC) are defined and equal (associativity). A wrong answer claiming A(BC) is undefined reveals failure to track orders step-by-step. A student who says AB and BA have same order confuses commutativity with dimension compatibility.",
+     "self_check": true
+    },
+    {
+     "q": "Given A = [[1, 2], [3, 4]], B = [[0, 1], [1, 0]]. Compute AB and BA. Are they equal? Now compute (AB)'. Compute B'A'. What property does this verify? Is matrix multiplication commutative in general? Give a reason based on your computation.",
+     "a": "AB = [[2,1],[4,3]], BA = [[3,4],[1,2]] → AB ≠ BA. (AB)' = [[2,4],[1,3]]. B'A' = [[1,0],[0,1]]' × [[1,3],[2,4]]'? Wait: A' = [[1,3],[2,4]], B' = [[0,1],[1,0]] → B'A' = [[0,1],[1,0]] × [[1,3],[2,4]] = [[2,4],[1,3]] = (AB)'. Verifies (AB)' = B'A'. Matrix multiplication is NOT commutative in general — AB ≠ BA here. A student who claims AB = BA has likely multiplied element-wise (Hadamard product) instead of row-column dot product. A student who computes (AB)' as [[2,1],[4,3]] (no transpose) misunderstands transpose notation.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"For any square matrices A and B of same order, (A+B)² = A² + 2AB + B².\" Is this always true? If not, give a counterexample using 2×2 matrices. What extra condition would make it true?",
+     "a": "False in general because (A+B)² = (A+B)(A+B) = A² + AB + BA + B², and AB ≠ BA typically. Counterexample: A = [[1,0],[0,0]], B = [[0,1],[0,0]]. A² = A, B² = O, AB = B, BA = O. (A+B)² = [[1,1],[0,0]]² = [[1,1],[0,0]] = A+B. But A²+2AB+B² = A+2B = [[1,2],[0,0]] ≠ (A+B)². The identity holds only if AB = BA (i.e., A and B commute). A student who says \"always true\" is applying real-number algebra blindly. A student who gives no counterexample but says \"not always\" shows partial understanding but lacks concrete verification skill.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) involving two matrices where matrix multiplication gives a meaningful result that addition cannot. Define the matrices clearly (what rows/columns represent), state their orders, compute the product, and interpret each entry of the result.",
+     "a": "Scenario: A Delhi metro station has 3 entry gates (G1, G2, G3) and 2 exit gates (E1, E2). Matrix A (3×2) shows average passengers entering per hour: rows = entry gates, columns = exit gates (origin-destination). Matrix B (2×1) shows average fare (₹) per exit gate. Product C = AB (3×1) gives total fare revenue per entry gate per hour. Example: A = [[50,30],[40,20],[60,10]], B = [[10],[20]] → C = [[50×10+30×20],[40×10+20×20],[60×10+10×20]] = [[1100],[800],[800]]. Entry gate G1 generates ₹1100/hr. A poor answer uses same-order matrices for addition (e.g., two fare matrices) or defines incompatible orders. A good answer shows clear row/column meaning and why multiplication (aggregation) is needed, not addition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

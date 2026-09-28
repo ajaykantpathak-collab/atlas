@@ -4,15 +4,8 @@
   {
    "id": "fegp.2.1",
    "title": "Point, Line Segment, Line and Ray",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "recall the count for the shape",
-     "explain": "recall the count for the shape: lines = 3 gives 3",
-     "compute": "lines = 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a equilateral triangle have?",
@@ -49,15 +42,8 @@
   {
    "id": "fegp.2.2",
    "title": "Angles as Rotation",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 71 gives 19",
-     "compute": "other = 90 - 71"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 71 degrees, find the other.",
@@ -95,6 +81,8 @@
    "id": "fegp.2.3",
    "title": "Angles on a Straight Line",
    "converted_to_compute": false,
+   "formula": "x = 180 - known",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 45 degrees, find the other.",
@@ -131,15 +119,8 @@
   {
    "id": "fegp.2.4",
    "title": "Measuring and Classifying Angles",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the circle formula with pi = 22/7",
-     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 35 gives 220",
-     "compute": "circ = 2 * 22 / 7 * 35"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 35 cm (take pi = 22/7).",

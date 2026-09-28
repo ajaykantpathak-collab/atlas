@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c12_gram_cbse_83_001",
+ "concepts": [
+  {
+   "id": "enh:c12_gram_cbse_83_001",
+   "title": "c12_gram_cbse_83_001",
+   "questions": [
+    {
+     "q": "Which sentence opens a jumbled paragraph: 'The machine then stopped working' or 'A small factory bought a new machine'?",
+     "a": "The second — 'a machine' introduces the entity; 'the machine' requires it to already exist. A wrong answer shows the student ignores the a→the chain.",
+     "self_check": true
+    },
+    {
+     "q": "'He failed the test.' / 'Ravi never studied.' — which comes first and why?",
+     "a": "'Ravi never studied' first — 'He' needs its antecedent 'Ravi' established. Pronoun-before-noun is the reordering giveaway.",
+     "self_check": true
+    },
+    {
+     "q": "Order: 'Therefore, the project was cancelled' / 'Funds ran out midway' / 'The project began in 2020'.",
+     "a": "began (setup) → funds ran out (problem) → therefore cancelled (result). 'Therefore' demands its cause first — connector logic fixes the tail.",
+     "self_check": true
+    },
+    {
+     "q": "______ items test cohesion logic: sentences link through pronoun references, article flow (a→the on second mention), time/logic sequence, and connector chains (first, then, however, therefore).",
+     "a": "Sentence-reordering",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sentence-______ items test cohesion logic: sentences link through pronoun references, article flow (a→the on second mention), time/logic sequence, and connector chains (first, then, however, therefore).",
+     "a": "reordering",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The chain rules: (1) the opener ______ new entities with 'a' and contains no pronouns pointing backward; (2) 'the', 'this', 'he/it/they' refer backward — their sentence cannot open; (3) connectors ('however', 'then', 'therefore') demand their logic-predecessor; (4) the closer resolves the sequence.",
+     "a": "introduces",
+     "self_check": true
+    },
+    {
+     "q": "What is Sentence-reordering items test cohesion logic? State the definition given in this lesson.",
+     "a": "Sentence-reordering items test cohesion logic: sentences link through pronoun references, article flow (a→the on second mention), time/logic sequence, and connector chains (first, then, however, therefore).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Sentence-reordering items test cohesion logic?",
+     "a": "Students order by topic-feel instead of reference-chains, and place 'the X' sentences before 'a X' introductions — breaking the article flow.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student reconstructs paragraph order by tracing pronoun antecedents, a→the article flow, logical sequence, and connector dependencies.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The chain rules: (1) the opener introduces new entities with 'a' and contains no pronouns pointing backward; (2) 'the', 'this', 'he/it/they' refer backward — their sentence cannot open; (3) connectors ('however', 'then', 'therefore') demand their logic-______; (4) the closer resolves the sequence.",
+     "a": "predecessor",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

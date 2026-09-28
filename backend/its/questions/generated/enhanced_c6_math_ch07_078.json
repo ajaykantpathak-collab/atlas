@@ -34,6 +34,21 @@
      "q": "Draw a shape that has exactly three lines of symmetry. Label where these lines would be.",
      "a": "An equilateral triangle is the correct shape. If a student draws a shape with two or four lines, they have failed to identify the unique geometric properties of the equilateral triangle.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Symmetry exists when a shape can be divided into two ______ halves that mirror each other perfectly along a specific line.",
+     "a": "identical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever noticed how a butterfly's wings look like a perfect ______ of each other?",
+     "a": "reflection",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify lines of symmetry in basic geometric shapes and determine if a given shape has no symmetry, one line of symmetry, or multiple lines of symmetry through visual inspection or paper folding.",
+     "self_check": true
     }
    ]
   }

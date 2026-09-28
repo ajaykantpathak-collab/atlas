@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch13_2",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch13_2",
+   "title": "c9_math_ch13_2",
+   "questions": [
+    {
+     "q": "Write the formula for the Total Surface Area of a closed right circular cylinder of radius \\( r \\) and height \\( h \\). What does each term represent geometrically?",
+     "a": "**Answer:** \\( \\text{TSA} = 2\\pi r h + 2\\pi r^2 = 2\\pi r(r + h) \\). The term \\( 2\\pi r h \\) is the curved surface area (rectangle when unrolled), and \\( 2\\pi r^2 \\) is the combined area of the two circular bases (top and bottom).  \n**Wrong answer reveals:** If a student writes \\( \\pi r^2 h \\) (volume) or \\( 2\\pi r h \\) only (missing bases), they are confusing TSA with volume or CSA. If they write \\( \\pi r (r + h) \\), they have forgotten the factor of 2 for the two bases or the curved surface.",
+     "self_check": true
+    },
+    {
+     "q": "A cylindrical drum is open at the top. Its radius is 14 cm and height is 50 cm. A student calculates the surface area as \\( 2\\pi r h + 2\\pi r^2 \\). Is this correct? Explain why or why not.",
+     "a": "**Answer:** No, it is incorrect. An open-top cylinder has only **one** circular base (the bottom). The correct surface area is \\( \\text{CSA} + \\text{area of one base} = 2\\pi r h + \\pi r^2 \\).  \n**Wrong answer reveals:** If the student says \"yes\" or uses \\( 2\\pi r^2 \\), they are applying the closed-cylinder formula blindly without reading \"open at the top\". This is a classic board exam trap — missing the word \"open\" or \"closed\".",
+     "self_check": true
+    },
+    {
+     "q": "The curved surface area of a right circular cylinder is 880 cm² and its height is 10 cm. Find the radius of the base. (Use \\(\\pi = \\frac{22}{7}\\))",
+     "a": "**Answer:**  \nStep 1: CSA = \\( 2\\pi r h = 880 \\)  \nStep 2: Substitute \\( h = 10 \\), \\( \\pi = \\frac{22}{7} \\): \\( 2 \\times \\frac{22}{7} \\times r \\times 10 = 880 \\)  \nStep 3: \\( \\frac{440}{7} r = 880 \\)  \nStep 4: \\( r = 880 \\times \\frac{7}{440} = 14 \\text{ cm} \\)  \n**Wrong answer reveals:** If a student gets \\( r = 7 \\) or \\( r = 28 \\), they likely made an arithmetic error in cancelling \\( 440/7 \\) or forgot to multiply by 2 in \\( 2\\pi r h \\). If they use \\( \\pi r^2 h \\), they confused CSA with volume.",
+     "self_check": true
+    },
+    {
+     "q": "A solid cylinder and a hollow cylinder (pipe) have the same external radius \\( R \\), same height \\( h \\), and the hollow cylinder has internal radius \\( r \\). Compare their total surface areas. Which is larger and why?",
+     "a": "**Answer:** The hollow cylinder has **larger** TSA.  \nSolid cylinder TSA = \\( 2\\pi R h + 2\\pi R^2 \\) (outer curved + two circular ends).  \nHollow cylinder TSA = \\( 2\\pi R h \\) (outer curved) + \\( 2\\pi r h \\) (inner curved) + \\( 2\\pi (R^2 - r^2) \\) (two annular rings at ends).  \nDifference = \\( 2\\pi r h + 2\\pi (R^2 - r^2) - 2\\pi R^2 = 2\\pi r h - 2\\pi r^2 = 2\\pi r (h - r) \\). Since \\( h > r \\) typically, this is positive.  \n**Wrong answer reveals:** If a student says \"solid has more area because it has more material\", they are confusing volume/material with surface area. They miss the inner curved surface and the annular rings which add area.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Find TSA of a cylinder with diameter 14 cm and height 20 cm.\"  \nTheir working: \\( r = 7 \\), \\( h = 20 \\), TSA = \\( 2 \\times \\frac{22}{7} \\times 7 \\times 20 = 880 \\text{ cm}^2 \\).  \nIs this answer correct? If not, identify the error.",
+     "a": "**Answer:** Incorrect. The student computed only the **Curved Surface Area** (\\( 2\\pi r h \\)) and forgot the two circular bases (\\( 2\\pi r^2 \\)).  \nCorrect TSA = \\( 2\\pi r h + 2\\pi r^2 = 880 + 2 \\times \\frac{22}{7} \\times 49 = 880 + 308 = 1188 \\text{ cm}^2 \\).  \n**Wrong answer reveals:** The student sees \"surface area\" and automatically uses \\( 2\\pi r h \\) without checking if the problem asks for TSA (closed cylinder) or CSA (open/lateral only). This is the single most common board-level error.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life problem (Indian context) where you need to find the cost of painting the *outer* curved surface of a cylindrical pillar, given its diameter and height, and the painting rate per m². Provide the full problem statement with numbers, then solve it.",
+     "a": "**Sample Problem:** A cylindrical pillar in a temple has diameter 56 cm and height 3.5 m. Find the cost of painting its curved surface at the rate of ₹12.50 per m². (Use \\(\\pi = \\frac{22}{7}\\))  \n**Solution:**  \n\\( r = 28 \\text{ cm} = 0.28 \\text{ m} \\), \\( h = 3.5 \\text{ m} \\)  \nCSA = \\( 2\\pi r h = 2 \\times \\frac{22}{7} \\times 0.28 \\times 3.5 = 6.16 \\text{ m}^2 \\)  \nCost = \\( 6.16 \\times 12.50 = ₹77 \\)  \n**Poor answer reveals:** If the student keeps radius in cm but height in m without conversion, or uses diameter directly in \\( 2\\pi r h \\), or computes TSA instead of CSA, they lack unit discipline and context reading. A good answer shows unit conversion, correct formula choice, and stepwise arithmetic.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,21 @@
      "q": "**CREATE**: Design a **new OS type classification** for a hypothetical \"Smart City Traffic Grid OS\" that manages 10,000 interconnected traffic lights, cameras, and emergency vehicle sensors. Define its **name**, **primary scheduling policy**, **memory model**, and **failure recovery mechanism**. Justify each choice in one sentence.",
      "a": "**Name**: Distributed Real-Time Fault-Tolerant OS (DRTF-OS). **Scheduling**: Global Earliest Deadline First (EDF) across nodes — ensures city-wide coordination of green corridors for ambulances. **Memory**: Shared-nothing architecture with replicated state machines (Raft consensus) — no single point of failure, survives node crashes. **Recovery**: Automatic checkpointing + leader election < 50ms — traffic lights revert to safe timed mode instantly if central coordinator fails. A poor answer describes a standard \"Distributed OS\" without real-time constraints or fault-tolerance specifics, showing inability to synthesize requirements into a novel classification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An Operating System (OS) is a system software that acts as an interface between the user and the computer hardware, managing hardware resources (CPU, memory, storage, I/O devices) and providing common services for ______ software to execute efficiently and securely.",
+     "a": "application",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you walk into a busy restaurant (the computer) with many customers (users/______), tables (memory), waiters (CPU cores), and a kitchen (storage).",
+     "a": "applications",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) List and explain the five core functions of an OS (process, memory, file, device, security management) with a real-world analogy for each, and (2) Classify a given OS (e.g., Windows 11, Ubuntu Server, Android, FreeRTOS) into its correct type (single-user/multi-user, real-time, distributed, mobile).",
+     "self_check": true
     }
    ]
   }

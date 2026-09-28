@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a smartphone and a Bluetooth speaker to demonstrate the Doppler effect with both source and observer moving. Describe the setup, the measurements you would take, and how you would calculate the expected frequency shift. Assume you have a frequency generator app and a frequency analyzer app.",
      "a": "Setup: Place the Bluetooth speaker (source) on a toy car moving on a track. The smartphone (observer) is mounted on another toy car moving on a parallel track. Use the frequency generator app to emit a constant tone (e.g., 1000 Hz). Use the frequency analyzer app on the same or another phone to record the received frequency. Vary the speeds of the cars (measure with a stopwatch and meter scale) and record observed frequencies for approaching and receding cases. Calculate expected shifts using \\( f' = f \\frac{v \\pm v_o}{v \\mp v_s} \\) with \\( v = 340 \\) m/s. Compare measured vs calculated. A good answer includes controlling wind, ensuring motion along the line joining them, and repeating trials. A poor answer might ignore the need to measure speeds accurately, forget to account for the medium's speed of sound, or not mention how to isolate the direct sound from reflections.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Doppler effect for sound waves when both the source and observer are in motion relative to the medium is the change in observed ______ due to the relative motion along the line joining them.",
+     "a": "frequency",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine standing on a railway platform as an express train ______, blowing its whistle.",
+     "a": "approaches",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly apply the combined Doppler formula to calculate the observed frequency for any combination of source and observer motion along the line of sight, including determining the correct sign convention.",
+     "self_check": true
     }
    ]
   }

@@ -2,6 +2,100 @@
  "catalog": "catalog_class6_science_ch101.json",
  "concepts": [
   {
+   "id": "fesc.101.2",
+   "title": "Primary Food Sources",
+   "converted_to_compute": true,
+   "formula": "total_sources = plant_sources + animal_sources",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_sources = plant_sources + animal_sources",
+     "compute": "total_sources = plant_sources + animal_sources"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Primary Food Sources: given plant_sources = 92, animal_sources = 32, find total sources.",
+     "a": "124",
+     "self_check": false
+    },
+    {
+     "q": "For Primary Food Sources: given plant_sources = 108, animal_sources = 94, find total sources.",
+     "a": "202",
+     "self_check": false
+    },
+    {
+     "q": "For Primary Food Sources: given plant_sources = 13.3, animal_sources = 29, find total sources.",
+     "a": "42.3",
+     "self_check": false
+    },
+    {
+     "q": "For Primary Food Sources: given plant_sources = 62, animal_sources = 27, find total sources.",
+     "a": "89",
+     "self_check": false
+    },
+    {
+     "q": "For Primary Food Sources: given plant_sources = 56, animal_sources = 58, find total sources.",
+     "a": "114",
+     "self_check": false
+    },
+    {
+     "q": "For Primary Food Sources: given plant_sources = 114, animal_sources = 15.7, find total sources.",
+     "a": "129.7",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fesc.101.4",
+   "title": "Sprouting",
+   "converted_to_compute": true,
+   "formula": "sprout_growth = initial_seed + water + time",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "sprout_growth = initial_seed + water + time",
+     "compute": "sprout_growth = initial_seed + water + time"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Sprouting: given initial_seed = 50, water = 53, time = 77, find sprout growth.",
+     "a": "180",
+     "self_check": false
+    },
+    {
+     "q": "For Sprouting: given initial_seed = 86, water = 89, time = 103, find sprout growth.",
+     "a": "278",
+     "self_check": false
+    },
+    {
+     "q": "For Sprouting: given initial_seed = 99, water = 87, time = 108, find sprout growth.",
+     "a": "294",
+     "self_check": false
+    },
+    {
+     "q": "For Sprouting: given initial_seed = 70, water = 18.6, time = 115, find sprout growth.",
+     "a": "203.6",
+     "self_check": false
+    },
+    {
+     "q": "For Sprouting: given initial_seed = 89, water = 27, time = 16, find sprout growth.",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "For Sprouting: given initial_seed = 74, water = 24, time = 31, find sprout growth.",
+     "a": "129",
+     "self_check": false
+    }
+   ]
+  },
+  {
    "id": "fesc.101.1",
    "title": "Food Ingredients",
    "solution_type": "verify_property",
@@ -24,28 +118,6 @@
    ]
   },
   {
-   "id": "fesc.101.2",
-   "title": "Primary Food Sources",
-   "solution_type": "verify_property",
-   "questions": [
-    {
-     "q": "Name five plant sources of food.",
-     "a": "Rice, wheat, mango, spinach and mustard (seeds, fruits, leaves, stems, roots).",
-     "self_check": true
-    },
-    {
-     "q": "Name five animal sources of food.",
-     "a": "Milk, curd, butter, eggs and meat (also honey from bees).",
-     "self_check": true
-    },
-    {
-     "q": "What do animals that eat plants provide us?",
-     "a": "Milk, eggs and meat - animal products used as food.",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "fesc.101.3",
    "title": "Edible Plant Parts",
    "solution_type": "verify_property",
@@ -63,28 +135,6 @@
     {
      "q": "Why do we eat different plant parts of different plants?",
      "a": "Different plants store food in different parts - beetroot stores it in root, sugarcane in stem.",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "fesc.101.4",
-   "title": "Sprouting",
-   "solution_type": "verify_property",
-   "questions": [
-    {
-     "q": "What is sprouting?",
-     "a": "Soaking seeds (like moong or chana) in water till they germinate and sprout small white shoots.",
-     "self_check": true
-    },
-    {
-     "q": "Why are sprouted seeds more nutritious?",
-     "a": "Sprouting increases vitamins (like vitamin C) and makes food easier to digest.",
-     "self_check": true
-    },
-    {
-     "q": "How do you prepare sprouted moong at home?",
-     "a": "Soak moong overnight, drain the water, and leave the seeds wrapped in a moist cloth for a day.",
      "self_check": true
     }
    ]

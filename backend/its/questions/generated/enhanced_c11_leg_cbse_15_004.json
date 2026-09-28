@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_15_004",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_15_004",
+   "title": "c11_leg_cbse_15_004",
+   "questions": [
+    {
+     "q": "What is the territorial jurisdiction for a wife to file a maintenance application under Section 125 CrPC if she lives in Delhi and her husband works in Mumbai but his permanent address is in Kolkata?",
+     "a": "The wife can file in Delhi (where she resides) under Section 125(1) CrPC as amended in 2001, which explicitly allows filing at the place where the wife resides. A wrong answer (e.g., \"only Mumbai or Kolkata\") reveals the student is applying the general civil procedure rule (defendant's residence) instead of the special statutory override in CrPC designed to protect women from forum shopping by husbands.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a magistrate can grant interim maintenance under Section 125(1A) CrPC based only on an affidavit, but requires full evidence for final maintenance.",
+     "a": "Interim maintenance is a summary proceeding to prevent destitution during litigation — the standard is \"prima facie case\" and \"urgency,\" not full proof. Final maintenance determines substantive rights requiring rigorous evidence of income, needs, and standard of living. A wrong answer (e.g., \"both need same evidence\") shows confusion between summary relief (temporary, reversible) and final adjudication (permanent, appealable).",
+     "self_check": true
+    },
+    {
+     "q": "A Hindu wife files for maintenance under Section 125 CrPC. Her husband claims he has no income. She produces his credit card statements showing ₹1.2 lakh/month spending. The magistrate orders interim maintenance of ₹15,000/month. The husband appeals to Sessions Court. What is the Sessions Court's power regarding the interim order?",
+     "a": "The Sessions Court can modify, confirm, or set aside the interim order under Section 397/399 CrPC read with Section 125(1A), but cannot stay the operation of the interim order merely because an appeal is filed — the wife's right to survival overrides procedural delay. A wrong answer (e.g., \"appeal automatically stays the order\") reveals misunderstanding of the legislative intent: interim maintenance is survival money, not a debt that can be paused.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the procedural advantage of filing under PWDVA (Section 20) vs Section 125 CrPC for a woman in a live-in relationship who needs immediate monetary relief.",
+     "a": "PWDVA offers ex parte emergency orders (Section 18/20) within 3 days via Protection Officer, covers \"shared household\" broadly, and allows monetary relief without proving formal marriage. Section 125 CrPC requires proof of \"wife\" status (valid marriage), takes 60+ days for interim, but has stronger enforcement (warrant of arrest under Section 125(3)). A wrong answer (e.g., \"both are same\") misses the strategic forum choice: PWDVA for speed and live-in coverage; CrPC for enforceability and divorced wives.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Section 127 CrPC allows a magistrate to cancel maintenance if the wife is living in adultery — therefore, the husband can stop paying immediately upon filing an application under Section 127.\"",
+     "a": "The statement is legally false. Section 127 allows *variation or cancellation* only *after* giving both parties an opportunity of being heard and *recording reasons*. The husband cannot unilaterally stop payment; the existing order remains enforceable until modified. A wrong answer accepting the statement reveals confusion between a substantive ground for modification (adultery) and the mandatory procedural safeguards (hearing, reasoned order, continuing enforceability).",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step procedural checklist for a 25-year-old Muslim woman divorced by triple talaq (now void under 2019 Act) to claim maintenance under both the Muslim Women (Protection of Rights on Divorce) Act, 1986 AND Section 125 CrPC — specifying which forum to approach first and why.",
+     "a": "Step 1: File under Section 125 CrPC in her residence district — broader jurisdiction, faster interim relief, arrest warrant enforcement. Step 2: Simultaneously file under 1986 Act for iddat + mahr + fair provision — but note 1986 Act limits maintenance to iddat period unless she invokes *Danial Latifi* principle (constitutional reading extending it). Step 3: Use CrPC order as survival floor; 1986 Act claim for lump-sum \"fair provision.\" Step 4: If husband challenges maintainability under 1986 Act (arguing CrPC barred), cite *Shabana Bano v. Imran Khan* (2010): both remedies coexist. A poor answer misses the dual-track strategy or the *Danial Latifi* constitutional interpretation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

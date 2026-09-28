@@ -34,6 +34,31 @@
      "q": "Design a simple experiment to test whether a given cleansing agent is a soap or a detergent. List the materials, steps, observations, and the chemical principle used.",
      "a": "Materials: Two test tubes, hard water (or CaCl₂ solution), the unknown cleansing agent, shaking apparatus. Steps: (1) Dissolve equal amounts of the cleansing agent in two test tubes with soft water and hard water separately. (2) Shake vigorously to form lather. (3) Observe lather formation and any precipitate. Observations: If lather forms in soft water but scum (white precipitate) forms in hard water → it is a soap. If lather forms in both → it is a detergent. Principle: Soap (carboxylate) forms insoluble Ca²⁺/Mg²⁺ salts; detergent (sulphonate/sulphate) forms soluble salts. A poor answer (e.g., using pH paper only, or not using hard water) shows the student cannot translate chemical properties into a practical test — a skill tested in board practical exams.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Soaps are sodium or potassium salts of long-chain carboxylic acids (fatty acids) with the general formula RCOO⁻Na⁺/K⁺, where R is a long ______ chain (typically 12–18 carbons).",
+     "a": "hydrocarbon",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a greasy plate after eating oily Indian food like parathas or pakoras.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What is Soaps? State the definition given in this lesson.",
+     "a": "Soaps are sodium or potassium salts of long-chain carboxylic acids (fatty acids) with the general formula RCOO⁻Na⁺/K⁺, where R is a long hydrocarbon chain (typically 12–18 carbons).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Soaps?",
+     "a": "Students often think that the hydrophobic tail of soap \"dissolves\" in oil and the hydrophilic head \"dissolves\" in water, so they write \"oil dissolves in the tail\" in board answers.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can draw the structure of a soap and a detergent molecule, label the hydrophilic and hydrophobic parts, explain the stepwise mechanism of micelle formation and dirt removal, and write the chemical equations for soap preparation (saponification) and the reaction of soap with hard water (calcium/magnesium ions).",
+     "self_check": true
     }
    ]
   }

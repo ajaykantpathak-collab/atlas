@@ -34,6 +34,26 @@
      "q": "Design a two-step synthesis starting from propanone to prepare 2-methylbutan-2-ol using a Grignard reagent. Specify the Grignard reagent, the solvent, the workup, and draw the structure of the intermediate magnesium alkoxide. Explain why you cannot use propanal instead of propanone to get the same product.",
      "a": "Step 1: Propanone + CH₃MgBr in dry ether → magnesium alkoxide of 2-methylbutan-2-ol (tertiary). Step 2: Hydrolysis with dilute H₂SO₄ → 2-methylbutan-2-ol. Intermediate: (CH₃)₃C–O–MgBr. Propanal + CH₃MgBr gives a secondary alcohol (butan-2-ol), not the target tertiary alcohol. A poor design (wrong Grignard, missing dry ether, or proposing propanal) reveals the student cannot backward-analyse the carbon skeleton: tertiary alcohol requires a ketone + Grignard, not an aldehyde.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Preparation of alcohols from carbonyl compounds involves the reduction of the carbonyl group (C=O) to a hydroxyl group (–OH) using reducing agents such as NaBH₄, LiAlH₄, or catalytic ______ (H₂/Pt, Pd, Ni), or the nucleophilic addition of Grignard reagents (RMgX) followed by hydrolysis, yielding primary, secondary, or tertiary alcohols depending on the carbonyl substrate.",
+     "a": "hydrogenation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how vanilla essence (vanillin, an aldehyde) smells different from vanillyl alcohol — the carbonyl group has been reduced to an alcohol in fragrance ______.",
+     "a": "synthesis",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) identify the correct reducing agent for a given carbonyl compound (aldehyde, ketone, carboxylic acid, ester) and predict the alcohol product with correct classification (1°, 2°, 3°), (2) write the complete reaction sequence for Grignard addition to formaldehyde, other aldehydes, and ketones including the hydrolysis.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how vanilla essence (vanillin, an aldehyde) smells different from vanillyl alcohol — the carbonyl group has been reduced to an alcohol in ______ synthesis.",
+     "a": "fragrance",
+     "self_check": true
     }
    ]
   }

@@ -1,6 +1,153 @@
 {
- "catalog": "catalog_class11_economics_ch6",
+ "catalog": "catalog_class11_economics_ch6.json",
  "concepts": [
+  {
+   "id": "c11eco.6.5",
+   "title": "Short Run Costs: Total, Fixed and Variable",
+   "converted_to_compute": true,
+   "formula": "TC = TFC + TVC",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "TC = TFC + TVC",
+     "compute": "TC = TFC + TVC"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Short Run Costs: Total, Fixed and Variable: given TFC = 15, TVC = 38, find TC.",
+     "a": "53",
+     "self_check": false
+    },
+    {
+     "q": "For Short Run Costs: Total, Fixed and Variable: given TFC = 6.8, TVC = 14.8, find TC.",
+     "a": "21.6",
+     "self_check": false
+    },
+    {
+     "q": "For Short Run Costs: Total, Fixed and Variable: given TFC = 88, TVC = 38, find TC.",
+     "a": "126",
+     "self_check": false
+    },
+    {
+     "q": "For Short Run Costs: Total, Fixed and Variable: given TFC = 5.1, TVC = 97, find TC.",
+     "a": "102.1",
+     "self_check": false
+    },
+    {
+     "q": "For Short Run Costs: Total, Fixed and Variable: given TFC = 77, TVC = 100, find TC.",
+     "a": "177",
+     "self_check": false
+    },
+    {
+     "q": "For Short Run Costs: Total, Fixed and Variable: given TFC = 1.5, TVC = 89, find TC.",
+     "a": "90.5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c11eco.6.6",
+   "title": "Short Run Average Costs: AFC, AVC and AC",
+   "converted_to_compute": true,
+   "formula": "AFC = TFC / Q; AVC = TVC / Q",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "AFC = TFC / Q",
+     "compute": "AFC = TFC / Q"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "AVC = TVC / Q",
+     "compute": "AVC = TVC / Q"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Short Run Average Costs: AFC, AVC and AC: given TFC = 36, Q = 90, TVC = 34, find AVC.",
+     "a": "0.377778",
+     "self_check": false
+    },
+    {
+     "q": "For Short Run Average Costs: AFC, AVC and AC: given TFC = 91, Q = 53, TVC = 5.2, find AVC.",
+     "a": "0.0981132",
+     "self_check": false
+    },
+    {
+     "q": "For Short Run Average Costs: AFC, AVC and AC: given TFC = 30, Q = 23, TVC = 48, find AVC.",
+     "a": "2.08696",
+     "self_check": false
+    },
+    {
+     "q": "For Short Run Average Costs: AFC, AVC and AC: given TFC = 5.8, Q = 37, TVC = 78, find AVC.",
+     "a": "2.10811",
+     "self_check": false
+    },
+    {
+     "q": "For Short Run Average Costs: AFC, AVC and AC: given TFC = 28, Q = 71, TVC = 36, find AVC.",
+     "a": "0.507042",
+     "self_check": false
+    },
+    {
+     "q": "For Short Run Average Costs: AFC, AVC and AC: given TFC = 78, Q = 80, TVC = 53, find AVC.",
+     "a": "0.6625",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "c11eco.6.9",
+   "title": "Producer's Equilibrium",
+   "converted_to_compute": true,
+   "formula": "MC = MR",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "MC = MR",
+     "compute": "MC = MR"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Producer's Equilibrium: given MR = 29, find MC.",
+     "a": "29",
+     "self_check": false
+    },
+    {
+     "q": "For Producer's Equilibrium: given MR = 33, find MC.",
+     "a": "33",
+     "self_check": false
+    },
+    {
+     "q": "For Producer's Equilibrium: given MR = 89, find MC.",
+     "a": "89",
+     "self_check": false
+    },
+    {
+     "q": "For Producer's Equilibrium: given MR = 88, find MC.",
+     "a": "88",
+     "self_check": false
+    },
+    {
+     "q": "For Producer's Equilibrium: given MR = 78, find MC.",
+     "a": "78",
+     "self_check": false
+    },
+    {
+     "q": "For Producer's Equilibrium: given MR = 46, find MC.",
+     "a": "46",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "c11eco.6.1",
    "title": "Production Function",
@@ -86,68 +233,6 @@
    ]
   },
   {
-   "id": "c11eco.6.5",
-   "title": "Short Run Costs: Total, Fixed and Variable",
-   "questions": [
-    {
-     "q": "Compute total cost from fixed and variable costs. Use the method 'Short Run Costs: Total, Fixed and Variable'. Work with: tfc = 80, tvc = 300. Carry the chain through step by step and give the final value of the result.",
-     "a": "380 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find TFC and TVC given TC at different output levels. Use the method 'Short Run Costs: Total, Fixed and Variable'. Work with: tfc = 80, tvc = 100. Carry the chain through step by step and give the final value of the result.",
-     "a": "180 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Short Run Costs: Total, Fixed and Variable' refers to.",
-     "a": "Total cost (TC) is the sum of total fixed cost (TFC) and total variable cost (TVC). TFC does not change with output; TVC varies with output.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Short Run Costs: Total, Fixed and Variable'.",
-     "a": "Fixed costs are incurred even at zero output; variable costs rise with output; total cost is their sum.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Short Run Costs: Total, Fixed and Variable', in plain ASCII form.",
-     "a": "TC = TFC + TVC",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "c11eco.6.6",
-   "title": "Short Run Average Costs: AFC, AVC and AC",
-   "questions": [
-    {
-     "q": "Compute AFC, AVC and AC from cost data. Use the method 'Short Run Average Costs: AFC, AVC and AC'. Work with: q = 3, tc = 400. Carry the chain through step by step and give the final value of the result.",
-     "a": "133.3333 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find output at which AC is minimum. Use the method 'Short Run Average Costs: AFC, AVC and AC'. Work with: q = 3, tc = 60. Carry the chain through step by step and give the final value of the result.",
-     "a": "20 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Short Run Average Costs: AFC, AVC and AC' refers to.",
-     "a": "Average fixed cost (AFC) is fixed cost per unit of output. Average variable cost (AVC) is variable cost per unit. Average cost (AC) is total cost per unit, equal to AFC + AVC.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Short Run Average Costs: AFC, AVC and AC'.",
-     "a": "AFC falls continuously as output rises; AVC and AC are typically U-shaped.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Short Run Average Costs: AFC, AVC and AC', in plain ASCII form.",
-     "a": "AFC = TFC / Q; AVC = TVC / Q; AC = TC / Q = AFC + AVC",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "c11eco.6.8",
    "title": "Revenue: Total, Average and Marginal Revenue",
    "questions": [
@@ -174,27 +259,6 @@
     {
      "q": "Write the standard relation used for 'Revenue: Total, Average and Marginal Revenue', in plain ASCII form.",
      "a": "TR = P * Q; AR = TR / Q = P; MR = TR_n - TR_(n-1)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "c11eco.6.9",
-   "title": "Producer's Equilibrium",
-   "questions": [
-    {
-     "q": "Explain in your own words what 'Producer's Equilibrium' refers to.",
-     "a": "A producer is in equilibrium when producing the output at which the difference between total revenue and total cost is maximum, or where marginal cost equals marginal revenue and MC is rising.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Producer's Equilibrium'.",
-     "a": "Profit is maximized where MR = MC and the MC curve is rising (cuts MR from below).",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Producer's Equilibrium', in plain ASCII form.",
-     "a": "MC = MR, and MC rises after equilibrium (MC curve cuts MR from below)",
      "self_check": true
     }
    ]

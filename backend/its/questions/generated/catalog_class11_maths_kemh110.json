@@ -4,15 +4,8 @@
   {
    "id": "kemh110.10.2.1",
    "title": "Conic Sections as Plane-Cone Intersections",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the solid's surface area or volume formula",
-     "explain": "apply the solid's surface area or volume formula: vol = 5 * 7 * 7 gives 245",
-     "compute": "vol = 5 * 7 * 7"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the volume of a cuboid 5 cm x 7 cm x 7 cm.",
@@ -50,6 +43,8 @@
    "id": "kemh110.10.3.1",
    "title": "Circle: Centre and Radius from the General Equation",
    "converted_to_compute": false,
+   "formula": "radius = sqrt(g ** 2 + f ** 2 - c)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 35 cm (take pi = 22/7).",
@@ -86,15 +81,9 @@
   {
    "id": "kemh110.10.4.1",
    "title": "Parabola: Focus, Directrix and Standard Equations",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "transpose the terms and divide by the coefficient",
-     "explain": "transpose the terms and divide by the coefficient: x = (29 - 8) / 7 gives 3",
-     "compute": "x = (29 - 8) / 7"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "y2_eq = 4 * focal_len * x  (i.e. y^2 = 4ax)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 7x + 8 = 29.",
@@ -132,6 +121,8 @@
    "id": "kemh110.10.4.2",
    "title": "Latus Rectum of a Parabola",
    "converted_to_compute": false,
+   "formula": "latus = 4 * focal_len",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (5, 0) and (13, 15).",
@@ -168,15 +159,9 @@
   {
    "id": "kemh110.10.5.1",
    "title": "Ellipse: Standard Equation, Foci and Axes",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "transpose the terms and divide by the coefficient",
-     "explain": "transpose the terms and divide by the coefficient: x = (94 - 4) / 9 gives 10",
-     "compute": "x = (94 - 4) / 9"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "focal = sqrt(a_axis ** 2 - b_axis ** 2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 9x + 4 = 94.",
@@ -214,6 +199,8 @@
    "id": "kemh110.10.5.2",
    "title": "Eccentricity of an Ellipse",
    "converted_to_compute": false,
+   "formula": "ecc = focal / a_axis",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (-6, -7) and (6, 9).",
@@ -251,6 +238,8 @@
    "id": "kemh110.10.5.3",
    "title": "Latus Rectum of an Ellipse",
    "converted_to_compute": false,
+   "formula": "latus_e = 2 * b_axis ** 2 / a_axis",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (-7, 4) and (13, 25).",
@@ -287,15 +276,9 @@
   {
    "id": "kemh110.10.6.1",
    "title": "Hyperbola: Standard Equation, Axes and Eccentricity",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "transpose the terms and divide by the coefficient",
-     "explain": "transpose the terms and divide by the coefficient: x = (48 - 8) / 4 gives 10",
-     "compute": "x = (48 - 8) / 4"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "ecc_h = sqrt(a_axis ** 2 + b_axis ** 2) / a_axis",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 4x + 8 = 48.",

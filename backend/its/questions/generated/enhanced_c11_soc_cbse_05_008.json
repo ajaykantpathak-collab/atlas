@@ -34,6 +34,36 @@
      "q": "Design a mini-survey research proposal (150 words) to study \"Awareness of Fundamental Duties among Class 11 students in your district.\" Include: research question, population definition, sampling frame, stratification criteria, sample size justification, randomisation method, and one anticipated non-sampling error with mitigation strategy.",
      "a": "Research Question: What is the level of awareness of Fundamental Duties (Article 51A) among Class 11 students in [District], and does it vary by school type and stream? Population: All ~12,000 Class 11 students in 85 recognised schools. Sampling Frame: District Education Office enrolment list. Stratification: School type (Govt/Aided/Private) × Stream (Sci/Com/Arts) × Gender — 12 strata. Sample Size: 400 (3.3%), calculated for 95% CI, ±5% margin, 50% prevalence, design effect 1.5. Randomisation: Probability Proportional to Size (PPS) at school level; systematic random sampling within strata using random start. Non-sampling error: Social desirability bias (students over-report awareness). Mitigation: Anonymous self-administered questionnaire with \"I don't know\" option; avoid teacher presence during administration. A weak proposal omits stratification rationale, uses convenience sampling, or ignores non-sampling errors — revealing inability to translate theory into practice.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Survey research is a macro-level quantitative method that studies a carefully selected ______ sample to generalise findings to a larger population, using stratification to ensure all relevant sub-groups are proportionally included and randomisation to guarantee each unit has an equal probability of selection, with sampling error quantifying the margin of deviation between sample statistics and population parameters.",
+     "a": "representative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to know ______ students in your school prefer online or offline classes, but you cannot ask all 2,000 students.",
+     "a": "whether",
+     "self_check": true
+    },
+    {
+     "q": "What is Survey research? State the definition given in this lesson.",
+     "a": "Survey research is a macro-level quantitative method that studies a carefully selected representative sample to generalise findings to a larger population, using stratification to ensure all relevant sub-groups are proportionally included and randomisation to guarantee each unit has an equal probability of selection, with sampling error.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How would you select just ______ students so their answers accurately reflect the whole school?",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Survey research?",
+     "a": "Students believe that \"random sampling\" means \"haphazard or arbitrary selection\" — e.g., walking into a classroom and picking whoever raises their hand, or choosing villages near a highway for convenience.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can design a stratified random sampling plan for a given research question, calculate the required sample size using probability principles, identify potential sampling and non-sampling errors, and justify why the survey method is appropriate (or not) for specific sociological research problems.",
+     "self_check": true
     }
    ]
   }

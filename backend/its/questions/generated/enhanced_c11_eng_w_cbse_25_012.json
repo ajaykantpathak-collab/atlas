@@ -34,6 +34,21 @@
      "q": "Create an inferential comprehension question based on the last paragraph of the essay (about accuracy of words) that requires the reader to connect Ruskin's view on word-accuracy to his broader argument about reading true books.",
      "a": "Sample question: \"How does Ruskin's insistence on 'looking intensely at words... letter by letter' reflect his definition of a true book as something that preserves the author's best wisdom?\" A good answer connects the mining analogy (words as rock, meaning as metal) to the need for precise tools (accuracy) to extract meaning. A poor question (e.g., \"Why does Ruskin like accurate words?\") shows the student cannot design questions that demand synthesis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal comprehension questions require retrieving explicitly stated information from the text, while inferential comprehension questions require drawing conclusions, making connections, or ______ implied meaning using evidence from the text and background knowledge.",
+     "a": "interpreting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're sitting in your Class 11 English exam and see a question: \"According to Ruskin, why are books of the hour not true books?\" You need to know whether the answer is directly in the text (literal) or requires reading between the lines (______).",
+     "a": "inferential",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently distinguish between literal and inferential questions, locate explicit textual evidence for literal answers, and synthesize implicit clues with textual evidence to construct well-supported inferential responses in board-exam format.",
+     "self_check": true
     }
    ]
   }

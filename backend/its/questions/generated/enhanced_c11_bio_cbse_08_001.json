@@ -34,6 +34,36 @@
      "q": "Design a thought experiment: If you discovered a novel entity in a deep-sea hydrothermal vent that grows, metabolises, and divides but lacks a membrane-bound nucleus and has no detectable DNA (only RNA), how would you classify it using cell theory criteria? Justify whether it fits prokaryote, eukaryote, virus, or a new category.",
      "a": "It fits \"prokaryote\" — cell theory requires cells (membrane-bound, metabolic, self-reproducing). Lack of nucleus = prokaryotic. RNA genome is plausible for early life (RNA world hypothesis) but doesn't exclude cellular organisation. Key test: does it have ribosomes (even 70S), cytoplasm, and independent metabolism? If yes → cell → prokaryote. If no ribosomes/metabolism → virus-like. The thought experiment tests whether the student applies cell theory's structural/functional criteria (membrane, metabolism, division) rather than genomic composition alone. A poor answer classifies by genome type (RNA → virus) ignoring cellular organisation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cell theory is the ______ biological principle stating that all living organisms are composed of cells and cell products, and that all cells arise from pre-existing cells through division (Omnis cellula e cellula), establishing the cell as the fundamental structural and functional unit of life.",
+     "a": "foundational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at a drop of pond water under a microscope — you see tiny moving organisms (Paramecium, Euglena) each carrying out all life functions ______.",
+     "a": "independently",
+     "self_check": true
+    },
+    {
+     "q": "What is Cell theory? State the definition given in this lesson.",
+     "a": "Cell theory is the foundational biological principle stating that all living organisms are composed of cells and cell products, and that all cells arise from pre-existing cells through division (Omnis cellula e cellula), establishing the cell as the fundamental structural and functional unit of life.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Virchow's ______ insight \"Omnis cellula e cellula\" completed the theory.",
+     "a": "1855",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Cell theory?",
+     "a": "Students believe \"cell theory says all living things are made of cells, so viruses are non-living because they aren't made of cells\" — but they cannot articulate *why* the cell is the boundary.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can state both postulates of modern cell theory with precise terminology, explain how Virchow's contribution completed the theory, and justify why viruses are exceptions to cell theory using the criteria of independent existence and metabolic autonomy.",
+     "self_check": true
     }
    ]
   }

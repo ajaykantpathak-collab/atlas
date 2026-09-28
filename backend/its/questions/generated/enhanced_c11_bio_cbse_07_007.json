@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a live frog (ethically approved, non-invasive) to demonstrate that cutaneous respiration contributes significantly to total gas exchange at rest on land. Specify the measurable variables, controls, and expected outcome that would support the hypothesis.",
      "a": "Place frog in a sealed respirometer chamber with known O2 concentration at 20°C. Measure O2 consumption rate (mL O2/g/hr) under two conditions: (A) normal skin exposed to air, (B) skin coated with thin layer of petroleum jelly (blocks cutaneous diffusion) but nostrils/buccal cavity unobstructed. Control: temperature, humidity, frog mass, activity state. Expected: Condition B shows 30-50% reduction in O2 consumption vs Condition A, confirming cutaneous contribution. Poor answer: \"measure lung volume\" — ignores that cutaneous exchange is measured by its absence, not lung metrics.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The frog respiratory system is a multimodal gas exchange apparatus comprising cutaneous (skin), ______ (buccal cavity lining), and pulmonary (lung) surfaces that collectively facilitate oxygen uptake and carbon dioxide elimination across aquatic and terrestrial environments, with the relative contribution of each surface varying based on habitat, activity level, and metabolic state.",
+     "a": "buccopharyngeal",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a frog sitting at the edge of a village pond in monsoon season — its throat rhythmically pulsates (buccal floor ______) while it occasionally gulps air at the surface.",
+     "a": "movement",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) trace the complete path of air from external nostrils to pulmonary capillaries including all intermediate structures, (2) explain the mechanism of buccal pumping (positive pressure breathing) with correct sequence of muscle actions and pressure changes, (3) compare cutaneous, buccopharyngeal, and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a frog sitting at the edge of a village pond in monsoon season — its throat ______ pulsates (buccal floor movement) while it occasionally gulps air at the surface.",
+     "a": "rhythmically",
+     "self_check": true
     }
    ]
   }

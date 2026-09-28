@@ -24,15 +24,24 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "collect the variable terms",
+    {
+     "step": 1,
+     "action": "collect the variable terms",
      "explain": "Move every x term to the left and constants to the right.",
-     "compute": "collected = left_coef - right_coef"},
-    {"step": 2, "action": "collect the constants",
+     "compute": "collected = left_coef - right_coef"
+    },
+    {
+     "step": 2,
+     "action": "collect the constants",
      "explain": "The constant difference sits on the right side.",
-     "compute": "const_diff = right_const - left_const"},
-    {"step": 3, "action": "divide to isolate x",
+     "compute": "const_diff = right_const - left_const"
+    },
+    {
+     "step": 3,
+     "action": "divide to isolate x",
      "explain": "Dividing the constant difference by the collected coefficient gives x.",
-     "compute": "x = const_diff / collected"}
+     "compute": "x = const_diff / collected"
+    }
    ]
   },
   {
@@ -51,15 +60,33 @@
     "solve 2(3x - 1) - 4 = 10",
     "determine x from the given bracketed equation"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "expand every bracket",
-     "explain": "Multiply the outside factor into each term inside."},
-    {"step": 2, "action": "gather like terms",
-     "explain": "Combine x terms and constants on opposite sides."},
-    {"step": 3, "action": "solve the simple equation",
-     "explain": "Transpose and divide to reach the value of x."}
-   ]
+    {
+     "step": 1,
+     "action": "expand every bracket",
+     "explain": "Multiply the outside factor into each term inside."
+    },
+    {
+     "step": 2,
+     "action": "gather like terms",
+     "explain": "Combine x terms and constants on opposite sides."
+    },
+    {
+     "step": 3,
+     "action": "solve the simple equation",
+     "explain": "Transpose and divide to reach the value of x."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values and simplify",
+     "explain": "substitute the given values and simplify: val = 3 * 6 + 7 gives 25",
+     "compute": "val = 3 * 6 + 7"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hemh.102.2.3",
@@ -77,15 +104,33 @@
     "solve (3x - 2)/5 = (x + 4)/3 by cross-multiplication",
     "solve a fractional equation and check the solution"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "multiply by the common denominator",
-     "explain": "Clear every denominator so only whole terms remain."},
-    {"step": 2, "action": "expand and collect",
-     "explain": "Group x terms on one side, constants on the other."},
-    {"step": 3, "action": "solve and verify",
-     "explain": "Divide for x and substitute back to confirm both sides match."}
-   ]
+    {
+     "step": 1,
+     "action": "multiply by the common denominator",
+     "explain": "Clear every denominator so only whole terms remain."
+    },
+    {
+     "step": 2,
+     "action": "expand and collect",
+     "explain": "Group x terms on one side, constants on the other."
+    },
+    {
+     "step": 3,
+     "action": "solve and verify",
+     "explain": "Divide for x and substitute back to confirm both sides match."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (32 - 4) / 4 gives 7",
+     "compute": "x = (32 - 4) / 4"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hemh.102.2.4",
@@ -103,15 +148,33 @@
     "Lakshmi is a cashier problem - find the number of notes of each kind",
     "form a linear equation from the story and solve for the unknown"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "declare the unknown",
-     "explain": "Let x stand for the smallest asked quantity."},
-    {"step": 2, "action": "translate each sentence",
-     "explain": "Convert the verbal conditions into one linear equation in x."},
-    {"step": 3, "action": "solve and report",
-     "explain": "Solve for x and compute every quantity the question asks."}
-   ]
+    {
+     "step": 1,
+     "action": "declare the unknown",
+     "explain": "Let x stand for the smallest asked quantity."
+    },
+    {
+     "step": 2,
+     "action": "translate each sentence",
+     "explain": "Convert the verbal conditions into one linear equation in x."
+    },
+    {
+     "step": 3,
+     "action": "solve and report",
+     "explain": "Solve for x and compute every quantity the question asks."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (87 - 15) / 6 gives 12",
+     "compute": "x = (87 - 15) / 6"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -128,15 +191,24 @@
     "right_const": "constant added on the right side"
    },
    "solution_template": [
-    {"step": 1, "action": "collect the x terms",
+    {
+     "step": 1,
+     "action": "collect the x terms",
      "explain": "Move all variable terms to the left.",
-     "compute": "collected = left_coef - right_coef"},
-    {"step": 2, "action": "collect the constants",
+     "compute": "collected = left_coef - right_coef"
+    },
+    {
+     "step": 2,
+     "action": "collect the constants",
      "explain": "Shift the constants to the right side.",
-     "compute": "const_diff = right_const + left_const"},
-    {"step": 3, "action": "divide for x",
+     "compute": "const_diff = right_const + left_const"
+    },
+    {
+     "step": 3,
+     "action": "divide for x",
      "explain": "The quotient is the solution.",
-     "compute": "x = const_diff / collected"}
+     "compute": "x = const_diff / collected"
+    }
    ]
   },
   {
@@ -152,15 +224,24 @@
     "right_const": "constant on the right"
    },
    "solution_template": [
-    {"step": 1, "action": "collect the x terms",
+    {
+     "step": 1,
+     "action": "collect the x terms",
      "explain": "Bring the variable terms together.",
-     "compute": "collected = left_coef - right_coef"},
-    {"step": 2, "action": "collect the constants",
+     "compute": "collected = left_coef - right_coef"
+    },
+    {
+     "step": 2,
+     "action": "collect the constants",
      "explain": "Bring the constants to one side.",
-     "compute": "const_diff = -right_const - left_const"},
-    {"step": 3, "action": "divide for x",
+     "compute": "const_diff = -right_const - left_const"
+    },
+    {
+     "step": 3,
+     "action": "divide for x",
      "explain": "The quotient frees the variable.",
-     "compute": "x = const_diff / collected"}
+     "compute": "x = const_diff / collected"
+    }
    ]
   },
   {
@@ -175,12 +256,18 @@
     "right_const": "constant on the right"
    },
    "solution_template": [
-    {"step": 1, "action": "collect and divide",
+    {
+     "step": 1,
+     "action": "collect and divide",
      "explain": "Gather x terms, subtract the constant, divide.",
-     "compute": "collected = left_coef - right_coef"},
-    {"step": 2, "action": "solve for x",
+     "compute": "collected = left_coef - right_coef"
+    },
+    {
+     "step": 2,
+     "action": "solve for x",
      "explain": "The constant over the collected coefficient.",
-     "compute": "x = right_const / collected"}
+     "compute": "x = right_const / collected"
+    }
    ]
   },
   {
@@ -195,15 +282,24 @@
     "right_coef": "right coefficient of x"
    },
    "solution_template": [
-    {"step": 1, "action": "collect the x terms",
+    {
+     "step": 1,
+     "action": "collect the x terms",
      "explain": "Variable terms on one side only.",
-     "compute": "collected = left_coef - right_coef"},
-    {"step": 2, "action": "isolate the constant",
+     "compute": "collected = left_coef - right_coef"
+    },
+    {
+     "step": 2,
+     "action": "isolate the constant",
      "explain": "Move the constant across the equals sign.",
-     "compute": "const_diff = -left_const"},
-    {"step": 3, "action": "solve for x",
+     "compute": "const_diff = -left_const"
+    },
+    {
+     "step": 3,
+     "action": "solve for x",
      "explain": "Divide the constant by the coefficient.",
-     "compute": "x = const_diff / collected"}
+     "compute": "x = const_diff / collected"
+    }
    ]
   }
  ],
@@ -212,22 +308,22 @@
    "id": "ex2.1",
    "source_ref": "hemh102.txt EXERCISE 2.3-2.4",
    "questions": [
-     "Solve and check: 3x = 2x + 18.",
-     "Solve 5t - 3 = 3t - 5 and check the result.",
-     "Solve 5x + 9 = 5 + 3x.",
-     "Solve 8x + 4 = 3(x - 1) + 7.",
-     "Solve (2x - 3)/5 = (x + 4)/3 by reducing to linear form.",
-     "Simplify and solve 15(y - 4) - 2(y - 9) + 5(y + 6) = 0."
+    "Solve and check: 3x = 2x + 18.",
+    "Solve 5t - 3 = 3t - 5 and check the result.",
+    "Solve 5x + 9 = 5 + 3x.",
+    "Solve 8x + 4 = 3(x - 1) + 7.",
+    "Solve (2x - 3)/5 = (x + 4)/3 by reducing to linear form.",
+    "Simplify and solve 15(y - 4) - 2(y - 9) + 5(y + 6) = 0."
    ]
   },
   {
    "id": "ex2.2",
    "source_ref": "hemh102.txt EXERCISE 2.5 word problems",
    "questions": [
-     "The sum of two consecutive multiples of 5 is 55 - find the multiples.",
-     "Two numbers are in the ratio 3:5 and differ by 18 - find them.",
-     "The ages of Rahul and Haroon are in the ratio 5:7; four years later the sum is 56 - find their present ages.",
-     "Lakshmi the cashier has notes of 100 and 50 in ratio 2:5 totalling 32500 - count the notes of each kind."
+    "The sum of two consecutive multiples of 5 is 55 - find the multiples.",
+    "Two numbers are in the ratio 3:5 and differ by 18 - find them.",
+    "The ages of Rahul and Haroon are in the ratio 5:7; four years later the sum is 56 - find their present ages.",
+    "Lakshmi the cashier has notes of 100 and 50 in ratio 2:5 totalling 32500 - count the notes of each kind."
    ]
   }
  ]

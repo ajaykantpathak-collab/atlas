@@ -34,6 +34,21 @@
      "q": "Create a drawing or a simple model description showing the arrangement of the Sun, Earth, and Moon during a total lunar eclipse.",
      "a": "A correct response shows the Sun on one end, the Earth in the middle, and the Moon inside the Earth's shadow (umbra). A poor answer shows the Moon in the middle, which would cause a solar eclipse instead.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A lunar eclipse is a ______ event that occurs when the Earth passes directly between the Sun and the Moon, causing the Earth’s shadow to fall upon the Moon's surface.",
+     "a": "celestial",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever played with a ______ and your hand to cast a shadow on a wall?",
+     "a": "flashlight",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to describe the relative positions of the Sun, Earth, and Moon during a lunar eclipse and explain why the Moon darkens.",
+     "self_check": true
     }
    ]
   }

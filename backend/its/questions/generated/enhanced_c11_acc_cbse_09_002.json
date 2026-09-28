@@ -34,6 +34,26 @@
      "q": "Create a new adjustment scenario: A business has closing stock of ₹50,000 (cost) but market value is ₹45,000. The accountant records it at ₹50,000. Write the adjustment entry passed, the correct entry that should have been passed, and the impact on Gross Profit and Current Assets.",
      "a": "Passed (wrong): Closing Stock A/c Dr. 50,000 To Trading A/c 50,000. Correct: Closing Stock A/c Dr. 45,000 To Trading A/c 45,000. Impact: Gross Profit overstated by ₹5,000; Current Assets overstated by ₹5,000. A poor answer that only writes the entry without quantifying impact shows inability to trace the ripple effect through final accounts.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Closing Stock ______ the cost of unsold goods remaining in the business at the end of an accounting period.",
+     "a": "represents",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: On March 31st, you have ₹15,000 worth of ______ kaju katli and laddoos in your display cases.",
+     "a": "unsold",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Pass the correct adjustment journal entry for closing stock when given as additional information outside the Trial Balance, (2) Show its dual treatment in the Trading Account (credit side) and Balance Sheet (asset side), and (3) Distinguish this from the adjusted purchases method where closing stock.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: On March 31st, you have ₹15,000 worth of unsold kaju katli and ______ in your display cases.",
+     "a": "laddoos",
+     "self_check": true
     }
    ]
   }

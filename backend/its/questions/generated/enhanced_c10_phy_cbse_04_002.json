@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a concave mirror, a metre scale, and a distant object (like the Sun or a faraway tree) to determine the focal length of the mirror. List the steps, the measurement to take, and how to apply the sign convention to report the result.",
      "a": "Steps: (1) Mount the concave mirror on a stand facing a distant object (Sun/tree) so that incident rays are effectively parallel. (2) Place a white screen on the other side of the mirror and adjust its distance until a sharp, inverted image of the distant object forms on the screen. (3) Measure the distance between the mirror's pole (approximated by the mirror's front surface centre) and the screen using the metre scale — this is the focal length magnitude. (4) Since the image forms in front of the mirror (real focus), the focal length is negative by Cartesian convention. Report: f = –(measured distance) cm. A poor answer that omits the sign, uses a nearby object (non-parallel rays), or measures from the centre of curvature instead of the pole reveals misunderstanding of \"distant object ≈ parallel rays\" and sign convention application.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A spherical mirror is a ______ surface that forms part of a hollow sphere of glass, where reflection occurs either from the inner concave surface (concave mirror) or the outer convex surface (convex mirror).",
+     "a": "reflecting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ the rear-view mirror on a motorcycle or car — it shows a wider field of view but makes objects appear smaller and farther; that is a convex mirror.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key terms are: Pole (P) – the geometric centre of the reflecting surface; Centre of Curvature (C) – the centre of the sphere of which the mirror is a part; Radius of Curvature (R) – the distance PC; Principal Axis – the line joining P and C; Principal Focus (F) – the point on the principal axis where incident rays parallel to the axis converge (concave) or appear to diverge from (convex) after reflection; Focal Length (f) – the distance PF, where f = R/______ for both types under the paraxial approximation.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly label all parts (P, C, F, principal axis, aperture) on a ray diagram for both concave and convex mirrors, state the relationship f = R/2 with sign convention, distinguish real focus (concave) from virtual focus (convex), and explain why the paraxial approximation is necessary for the formula to hold.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the rear-view mirror on a ______ or car — it shows a wider field of view but makes objects appear smaller and farther; that is a convex mirror.",
+     "a": "motorcycle",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Construct a real-world problem (with an Indian context) that requires finding the exact value of \\(\\cos \\frac{2\\pi}{3}\\) using the unit circle definition, and solve it.",
      "a": "Example problem: \"A wind turbine blade in Gujarat has length 1 unit. At a certain instant, the blade makes an angle of \\(120^\\circ\\) with the positive x-axis (east direction). Find the horizontal distance of the blade tip from the vertical axis.\" Solution: \\(120^\\circ = \\frac{2\\pi}{3}\\) rad, which lies in QII. Reference angle is \\(\\frac{\\pi}{3}\\). In QII, \\(\\cos\\) is negative, so \\(\\cos \\frac{2\\pi}{3} = -\\cos \\frac{\\pi}{3} = -\\frac{1}{2}\\). The horizontal distance is \\(\\frac{1}{2}\\) unit to the left of the axis. A poor answer would give \\(\\cos 120^\\circ = -0.5\\) without linking to the unit circle or reference angle, showing only calculator reliance.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a giant Ferris wheel at a fair in Delhi with ______ 10 metres.",
+     "a": "radius",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a giant Ferris wheel at a fair in Delhi with radius ______ metres.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a giant Ferris wheel at a fair in Delhi with radius 10 metres.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "**CREATE:** Design a **malware classification flowchart** (text-based) that a helpdesk technician can use to categorize an unknown sample based on observable behavior. Use only yes/no questions. Must distinguish all four types in ≤5 questions. Example start: \"Does it self-replicate without user action? (Y/N)\"",
      "a": "**Expected Answer (Criteria for Good Flowchart):**  \n```text\n1. Does it self-replicate without user action?  \n   Y -> 2. Does it encrypt files/demand ransom?  \n          Y -> RANSOMWARE (cryptoworm)  \n          N -> WORM  \n   N -> 3. Does it require user to execute a host file?  \n          Y -> 4. Does it show ransom note/encrypt files?  \n                 Y -> RANSOMWARE (trojan-delivered)  \n                 N -> VIRUS  \n          N -> 5. Does it disguise as legitimate software & open backdoor?  \n                 Y -> TROJAN  \n                 N -> UNKNOWN (not in scope)\n```  \n**Key checks:**  \n- Question 1 separates *autonomous* (Worm/Ransomware-worm) from *user-dependent* (Virus/Trojan/Ransomware-trojan).  \n- Question 2 separates *payload* (ransom) from *pure propagation* (worm).  \n- Question 3 separates *file-infector* (Virus) from *standalone deception* (Trojan).  \n- Question 4 catches Trojan-delivered ransomware.  \n- Question 5 confirms Trojan.  \n\n**What a poor answer reveals:** If the flowchart asks \"Is it a virus?\" (circular), or misses the *Trojan-delivered ransomware* path, or uses >5 questions, the student hasn't internalized the *orthogonal dimensions*: (Propagation: Auto vs Manual) × (Payload: Ransom vs Backdoor vs Destruction). This tests synthesis of the entire taxonomy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Malware (malicious software) is a program or code designed to infiltrate, damage, or gain ______ access to a computer system without the user's informed consent.",
+     "a": "unauthorized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive an email with an ______ named \"Diwali_Bonus_Policy.pdf.exe\" – you click it expecting a document, but your files start encrypting.",
+     "a": "attachment",
+     "self_check": true
+    },
+    {
+     "q": "What is Malware (malicious software)? State the definition given in this lesson.",
+     "a": "Malware (malicious software) is a program or code designed to infiltrate, damage, or gain unauthorized access to a computer system without the user's informed consent.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Malware (malicious software)?",
+     "a": "Misconception: \"A Trojan is a type of virus because both are malicious programs that harm your computer.\" Why students make this error: They conflate *malware* (umbrella term) with *virus* (specific propagation mechanism).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify a given malware scenario into Virus, Worm, Trojan, or Ransomware by identifying the propagation mechanism, payload behavior, and user interaction requirement, and can explain the distinct mitigation strategy for each type.",
+     "self_check": true
     }
    ]
   }

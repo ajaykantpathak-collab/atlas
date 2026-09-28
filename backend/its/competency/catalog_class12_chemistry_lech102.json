@@ -1,626 +1,707 @@
 {
-  "class": 12,
-  "subject": "chemistry",
-  "chapter": 2,
-  "chapter_title": "Electrochemistry",
-  "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lech102.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "concepts": [
+ "class": 12,
+ "subject": "chemistry",
+ "chapter": 2,
+ "chapter_title": "Electrochemistry",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\lech102.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "lech.02.2.1.1",
+   "title": "Galvanic and Electrolytic Cells",
+   "section": "2.1",
+   "definition": "Two mirror-image devices built from electrodes in electrolytes: a galvanic cell turns the energy of a spontaneous redox change into electricity, while an electrolytic cell spends electricity to force a non-spontaneous one.",
+   "formula": "cell type = function of external voltage versus cell emf",
+   "key_idea": "Oxidation always sits at the anode and reduction at the cathode; in a galvanic cell the anode is negative, the current convention runs opposite to electron flow, and a salt bridge joins the two half-cells.",
+   "textbook_ref": "lech102.txt, Sections 2.1 and 2.2, Fig. 2.1-2.2 (Daniell cell)",
+   "question_patterns": [
+    "differentiate a galvanic cell from an electrolytic cell in terms of energy change and spontaneity",
+    "identify which electrode is the anode and which is the cathode in the Daniell cell",
+    "state what happens in a galvanic cell when the opposing external voltage crosses the cell emf",
+    "explain the role of the salt bridge in a cell drawn as metal and electrolyte pairs",
+    "predict the direction of electron flow and of conventional current in a working voltaic cell",
+    "write the cell notation for the zinc and copper couple with the anode on the left"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
     {
-      "id": "lech.02.2.1.1",
-      "title": "Galvanic and Electrolytic Cells",
-      "section": "2.1",
-      "definition": "Two mirror-image devices built from electrodes in electrolytes: a galvanic cell turns the energy of a spontaneous redox change into electricity, while an electrolytic cell spends electricity to force a non-spontaneous one.",
-      "formula": "cell type = function of external voltage versus cell emf",
-      "key_idea": "Oxidation always sits at the anode and reduction at the cathode; in a galvanic cell the anode is negative, the current convention runs opposite to electron flow, and a salt bridge joins the two half-cells.",
-      "textbook_ref": "lech102.txt, Sections 2.1 and 2.2, Fig. 2.1-2.2 (Daniell cell)",
-      "question_patterns": [
-        "differentiate a galvanic cell from an electrolytic cell in terms of energy change and spontaneity",
-        "identify which electrode is the anode and which is the cathode in the Daniell cell",
-        "state what happens in a galvanic cell when the opposing external voltage crosses the cell emf",
-        "explain the role of the salt bridge in a cell drawn as metal and electrolyte pairs",
-        "predict the direction of electron flow and of conventional current in a working voltaic cell",
-        "write the cell notation for the zinc and copper couple with the anode on the left"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Split the overall reaction into oxidation and reduction halves",
-          "explain": "For the Daniell cell, zinc loses electrons at the anode and copper ions gain them at the cathode."
-        },
-        {
-          "step": 2,
-          "action": "Label the half-cells and their signs",
-          "explain": "Oxidation half-cell is the anode (negative in a galvanic cell); reduction half-cell is the cathode (positive)."
-        },
-        {
-          "step": 3,
-          "action": "Compare the applied external voltage with the cell emf",
-          "explain": "Below the emf the cell runs as galvanic, at the emf nothing flows, above it the same setup works as an electrolytic cell in reverse."
-        }
-      ]
+     "step": 1,
+     "action": "Split the overall reaction into oxidation and reduction halves",
+     "explain": "For the Daniell cell, zinc loses electrons at the anode and copper ions gain them at the cathode."
     },
     {
-      "id": "lech.02.2.2.1",
-      "title": "Standard Cell Potential from Electrode Potentials",
-      "section": "2.2",
-      "definition": "The emf of a cell comes from subtracting the standard reduction potential of the left (anode) half-cell from that of the right (cathode) half-cell, each read from the tabulated electrode potential series.",
-      "formula": "e0_cell = e0_cathode - e0_anode",
-      "key_idea": "A positive result confirms the reaction runs as written; the more negative electrode supplies the reducing agent, and individual half-cell potentials are always measured against the hydrogen electrode set at zero.",
-      "textbook_ref": "lech102.txt, Section 2.2 and Table 2.1 (Standard Electrode Potentials)",
-      "question_patterns": [
-        "calculate the standard emf of the Daniell cell from the zinc and copper electrode potentials",
-        "find e0 cell for the reaction of chromium metal with cadmium ions using standard reduction potentials",
-        "determine the standard cell potential of the iron and silver couple",
-        "what emf follows when the cathode potential is 0.34 V and the anode potential is minus 0.76 V",
-        "compute the standard potential of a galvanic cell assembled from two listed half-cells",
-        "work out e0 for the cell representation with the anode written on the left"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Read the standard reduction potentials from the series",
-          "explain": "Copper sits at plus 0.34 V and zinc at minus 0.76 V in the standard table.",
-          "compute": "e0_pair = e0_cathode - e0_anode"
-        },
-        {
-          "step": 2,
-          "action": "Subtract the left electrode value from the right electrode value",
-          "explain": "0.34 minus minus 0.76 gives 1.10 V for the Daniell cell; a positive value means the cell reaction is spontaneous as written.",
-          "compute": "e0_cell = e0_pair * 1.0"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Standard Cell Potential from Electrode Potentials, compute the result for e0_cathode = 3, e0_anode = 3.",
-          "solution": "Step 1: Read the standard reduction potentials from the series: e0_pair = e0_cathode - e0_anode = 0.0 Step 2: Subtract the left electrode value from the right electrode value: e0_cell = e0_pair * 1.0 = 0.0 Final result: 0.0",
-          "answer": "0.0"
-        },
-        {
-          "question": "Using Standard Cell Potential from Electrode Potentials, compute the result for e0_cathode = 4, e0_anode = 4.",
-          "solution": "Step 1: Read the standard reduction potentials from the series: e0_pair = e0_cathode - e0_anode = 0.0 Step 2: Subtract the left electrode value from the right electrode value: e0_cell = e0_pair * 1.0 = 0.0 Final result: 0.0",
-          "answer": "0.0"
-        }
-      ]
+     "step": 2,
+     "action": "Label the half-cells and their signs",
+     "explain": "Oxidation half-cell is the anode (negative in a galvanic cell); reduction half-cell is the cathode (positive)."
     },
     {
-      "id": "lech.02.2.3.1",
-      "title": "Nernst Equation for Cell emf at 298 K",
-      "section": "2.3",
-      "definition": "Non-standard concentrations pull the cell voltage away from its standard value by an amount governed by the reaction quotient: the emf drops as products pile up relative to reactants.",
-      "formula": "e_cell = e0_cell - (0.059 / n_electrons) * log_quotient",
-      "key_idea": "Build the reaction quotient from the given ion concentrations, take its base-10 logarithm, then correct the standard emf with 0.059 divided by the electron count per formula unit of the reaction.",
-      "textbook_ref": "lech102.txt, Section 2.3, equations 2.11-2.13 and Example 2.1",
-      "question_patterns": [
-        "calculate the emf of the cell in which magnesium reacts with 0.0001 M silver ions using the Nernst equation",
-        "find the cell potential at 298 K for the nickel and silver couple with stated ion concentrations",
-        "determine e cell for a Daniell cell when the zinc ion and copper ion concentrations are not unity",
-        "apply the Nernst relation to get the voltage of a galvanic cell from its standard emf and the reaction quotient",
-        "what is the electrode potential of hydrogen in contact with a solution of pH 10",
-        "use the Nernst equation to correct a standard emf for the given product and reactant concentrations"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Form the reaction quotient from the stated concentrations",
-          "explain": "For the magnesium and silver cell, Q = 0.130 times 0.0001 squared, whose base-10 logarithm is about minus 7.11.",
-          "compute": "log_quotient = log10_of_q * 1.0"
-        },
-        {
-          "step": 2,
-          "action": "Correct the standard emf with the Nernst term",
-          "explain": "3.17 minus 0.059 over 2, all times minus 7.11, leaves about 2.96 V for the cell.",
-          "compute": "e_cell = e0_cell - (0.059 / n_electrons) * log_quotient"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Nernst Equation for Cell emf at 298 K, compute the result for log10_of_q = 3, e0_cell = 3, n_electrons = 3.",
-          "solution": "Step 1: Form the reaction quotient from the stated concentrations: log_quotient = log10_of_q * 1.0 = 3.0 Step 2: Correct the standard emf with the Nernst term: e_cell = e0_cell - (0.059 / n_electrons) * log_quotient = 2.941 Final result: 2.941",
-          "answer": "2.941"
-        },
-        {
-          "question": "Using Nernst Equation for Cell emf at 298 K, compute the result for log10_of_q = 4, e0_cell = 4, n_electrons = 4.",
-          "solution": "Step 1: Form the reaction quotient from the stated concentrations: log_quotient = log10_of_q * 1.0 = 4.0 Step 2: Correct the standard emf with the Nernst term: e_cell = e0_cell - (0.059 / n_electrons) * log_quotient = 3.941 Final result: 3.941",
-          "answer": "3.941"
-        }
-      ]
-    },
-    {
-      "id": "lech.02.2.3.2",
-      "title": "Equilibrium Constant from Standard Cell Potential",
-      "section": "2.3.1",
-      "definition": "At equilibrium the cell voltage falls to zero, so the standard emf alone fixes the equilibrium constant of the cell reaction through a simple logarithmic relation.",
-      "formula": "kc = 10 ** (n_electrons * e0_cell / 0.059)",
-      "key_idea": "Multiply n by the standard emf, divide by 0.059 V to get log Kc, then raise 10 to that power; equilibrium constants that are hard to measure directly come straight out of table data.",
-      "textbook_ref": "lech102.txt, Section 2.3.1, equation 2.14 and Example 2.2",
-      "question_patterns": [
-        "calculate the equilibrium constant of the copper and silver ion reaction whose standard emf is 0.46 V",
-        "find Kc for a cell reaction from its standard potential of 1.1 V and two transferred electrons",
-        "determine the equilibrium constant for the iron and silver cell at 298 K",
-        "what is Kc when the standard cell emf and the number of electrons exchanged are known",
-        "obtain the equilibrium constant of a redox reaction from tabulated electrode potentials",
-        "evaluate log Kc and then Kc for a galvanic cell with the given standard emf"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Convert the standard emf into log Kc",
-          "explain": "2 times 0.46 over 0.059 gives about 15.6 for the copper silver cell.",
-          "compute": "log_kc = n_electrons * e0_cell / 0.059"
-        },
-        {
-          "step": 2,
-          "action": "Raise ten to the power of log Kc",
-          "explain": "Ten to the 15.6 is about 3.92 times ten to the 15, an enormous constant typical of working cells.",
-          "compute": "kc = 10 ** log_kc"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Equilibrium Constant from Standard Cell Potential, compute the result for n_electrons = 0.5, e0_cell = 0.25.",
-          "solution": "Step 1: Convert the standard emf into log Kc: log_kc = n_electrons * e0_cell / 0.059 = 2.118644 Step 2: Raise ten to the power of log Kc: kc = 10 ** log_kc = 131.414736 Final result: 131.414736",
-          "answer": "131.414736"
-        },
-        {
-          "question": "Using Equilibrium Constant from Standard Cell Potential, compute the result for n_electrons = 0.25, e0_cell = 0.1.",
-          "solution": "Step 1: Convert the standard emf into log Kc: log_kc = n_electrons * e0_cell / 0.059 = 0.423729 Step 2: Raise ten to the power of log Kc: kc = 10 ** log_kc = 2.652948 Final result: 2.652948",
-          "answer": "2.652948"
-        }
-      ]
-    },
-    {
-      "id": "lech.02.2.3.3",
-      "title": "Gibbs Energy of the Cell Reaction",
-      "section": "2.3.2",
-      "definition": "The electrical work a cell can deliver reversibly equals the fall in Gibbs energy, which follows from the emf multiplied by the total charge the electrons carry.",
-      "formula": "gibbs_kj = (0 - n_electrons * faraday_const * e0_cell) / 1000",
-      "key_idea": "Delta G equals minus nFE, so the sign is negative for a working cell; doubling the reaction equation doubles n and hence the Gibbs energy but leaves the emf unchanged.",
-      "textbook_ref": "lech102.txt, Section 2.3.2, equations 2.15-2.16 and Example 2.3",
-      "question_patterns": [
-        "calculate the standard Gibbs energy of the Daniell cell reaction whose emf is 1.1 V",
-        "find delta G naught for a cell with standard emf 0.36 V and two electrons transferred",
-        "determine the Gibbs energy change for the reaction in a galvanic cell at standard conditions",
-        "what is the maximum electrical work available from a cell of the given emf and electron count",
-        "compute DrGo from nF times the standard cell potential",
-        "how much Gibbs energy is released when one mole of reaction runs in the stated cell"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Multiply the charge per mole of reaction by the emf and negate",
-          "explain": "Minus 2 times 96487 coulomb per mol times 1.1 V gives minus 212270 J per mol.",
-          "compute": "gibbs_j = (0 - n_electrons * faraday_const * e0_cell)"
-        },
-        {
-          "step": 2,
-          "action": "Report the result in kilojoules per mole",
-          "explain": "Divide by 1000: about minus 212.27 kJ per mol for the Daniell reaction.",
-          "compute": "gibbs_kj = gibbs_j / 1000"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Gibbs Energy of the Cell Reaction, compute the result for n_electrons = 3, faraday_const = 3, e0_cell = 3.",
-          "solution": "Step 1: Multiply the charge per mole of reaction by the emf and negate: gibbs_j = (0 - n_electrons * faraday_const * e0_cell) = -27.0 Step 2: Report the result in kilojoules per mole: gibbs_kj = gibbs_j / 1000 = -0.027 Final result: -0.027",
-          "answer": "-0.027"
-        },
-        {
-          "question": "Using Gibbs Energy of the Cell Reaction, compute the result for n_electrons = 4, faraday_const = 4, e0_cell = 4.",
-          "solution": "Step 1: Multiply the charge per mole of reaction by the emf and negate: gibbs_j = (0 - n_electrons * faraday_const * e0_cell) = -64.0 Step 2: Report the result in kilojoules per mole: gibbs_kj = gibbs_j / 1000 = -0.064 Final result: -0.064",
-          "answer": "-0.064"
-        }
-      ]
-    },
-    {
-      "id": "lech.02.2.4.1",
-      "title": "Cell Constant and Conductivity from Resistance",
-      "section": "2.4.1",
-      "definition": "A conductivity cell is characterised by its cell constant, the electrode gap divided by electrode area; measured resistance converts to conductivity once this constant is fixed with a standard potassium chloride solution.",
-      "formula": "kappa_unknown = (kappa_known * resistance_known) / resistance_unknown",
-      "key_idea": "Cell constant G star equals conductivity times resistance; the same product then gives any solution's conductivity as cell constant over its measured resistance.",
-      "textbook_ref": "lech102.txt, Section 2.4.1, equations 2.17-2.20 and Example 2.4",
-      "question_patterns": [
-        "calculate the conductivity of 0.02 M KCl solution if the same cell reads 100 ohm for 0.1 M KCl and 520 ohm for the unknown",
-        "find the cell constant of a conductivity cell from the resistance of a standard KCl filling",
-        "determine the conductivity of a solution whose resistance in a calibrated cell is given",
-        "what is the cell constant when the resistance is 1500 ohm and the KCl conductivity is 0.146 times ten to the minus 3 S per cm",
-        "use a standard potassium chloride solution to calibrate a conductivity cell and then read an unknown conductivity",
-        "convert a measured resistance into conductivity with the help of the cell constant"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Fix the cell constant with the standard filling",
-          "explain": "1.29 S per m times 100 ohm gives 129 per m for the cell geometry.",
-          "compute": "cell_const = kappa_known * resistance_known"
-        },
-        {
-          "step": 2,
-          "action": "Divide the cell constant by the unknown resistance",
-          "explain": "129 over 520 ohm leaves 0.248 S per m for the 0.02 M KCl solution.",
-          "compute": "kappa_unknown = cell_const / resistance_unknown"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Cell Constant and Conductivity from Resistance, compute the result for kappa_known = 3, resistance_known = 3, resistance_unknown = 3.",
-          "solution": "Step 1: Fix the cell constant with the standard filling: cell_const = kappa_known * resistance_known = 9.0 Step 2: Divide the cell constant by the unknown resistance: kappa_unknown = cell_const / resistance_unknown = 3.0 Final result: 3.0",
-          "answer": "3.0"
-        },
-        {
-          "question": "Using Cell Constant and Conductivity from Resistance, compute the result for kappa_known = 4, resistance_known = 4, resistance_unknown = 4.",
-          "solution": "Step 1: Fix the cell constant with the standard filling: cell_const = kappa_known * resistance_known = 16.0 Step 2: Divide the cell constant by the unknown resistance: kappa_unknown = cell_const / resistance_unknown = 4.0 Final result: 4.0",
-          "answer": "4.0"
-        }
-      ]
-    },
-    {
-      "id": "lech.02.2.4.2",
-      "title": "Molar Conductivity from Conductivity",
-      "section": "2.4.2",
-      "definition": "The conductance of the volume of solution holding one mole of electrolyte between electrodes a unit distance apart; it scales the measured conductivity up by a thousand and divides by the molar concentration.",
-      "formula": "lambda_m = 1000 * kappa / molarity",
-      "key_idea": "Conductivity falls on dilution while molar conductivity rises, because the volume holding one mole grows; with kappa in S per cm and c in mol per litre the answer arrives in S cm2 per mol.",
-      "textbook_ref": "lech102.txt, Section 2.4.2, equation 2.21 and Example 2.5",
-      "question_patterns": [
-        "calculate the molar conductivity of 0.20 M KCl whose conductivity is 0.0248 S per cm",
-        "find lambda m for a solution from its conductivity and molar concentration",
-        "determine the molar conductivity of 0.00241 M acetic acid with conductivity 7.896 times ten to the minus 5 S per cm",
-        "what is the molar conductivity when the conductivity of the solution and its molarity are known",
-        "convert the measured conductivity of an electrolyte solution into S cm2 per mol units",
-        "compute lambda m for the given electrolyte concentration and report it in the usual units"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Scale conductivity to one mole of electrolyte",
-          "explain": "Multiply kappa by the 1000 cubic cm in a litre, then divide by molarity; 1000 times 0.0248 over 0.2 gives 124 S cm2 per mol.",
-          "compute": "lambda_m = 1000 * kappa / molarity"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Molar Conductivity from Conductivity, compute the result for kappa = 3, molarity = 3.",
-          "solution": "Step 1: Scale conductivity to one mole of electrolyte: lambda_m = 1000 * kappa / molarity = 1000.0 Final result: 1000.0",
-          "answer": "1000.0"
-        },
-        {
-          "question": "Using Molar Conductivity from Conductivity, compute the result for kappa = 4, molarity = 4.",
-          "solution": "Step 1: Scale conductivity to one mole of electrolyte: lambda_m = 1000 * kappa / molarity = 1000.0 Final result: 1000.0",
-          "answer": "1000.0"
-        }
-      ]
-    },
-    {
-      "id": "lech.02.2.5.1",
-      "title": "Kohlrausch Law of Independent Migration",
-      "section": "2.5",
-      "definition": "At infinite dilution every ion drifts on its own, so an electrolyte's limiting molar conductivity is just the coefficient-weighted sum of its cation and anion contributions.",
-      "formula": "lambda0 = n_cation * lambda_cation + n_anion * lambda_anion",
-      "key_idea": "Read limiting ionic conductivities from the table and add them with their stoichiometric factors; differences between related salts stay constant, which is how values for weak electrolytes are pieced together by combination.",
-      "textbook_ref": "lech102.txt, Section 2.5, equations 2.24-2.25 and Examples 2.7-2.8",
-      "question_patterns": [
-        "calculate the limiting molar conductivity of CaCl2 from the limiting ionic conductivities",
-        "find lambda naught for MgSO4 using Kohlrausch law and the ion data",
-        "determine the limiting molar conductivity of acetic acid by combining the values for HCl, NaAc and NaCl",
-        "what is lambda naught m of an electrolyte expressed through its ions' individual contributions",
-        "apply the law of independent migration of ions to build the limiting molar conductivity of a salt",
-        "compute the infinite dilution molar conductivity of a weak acid from strong electrolyte data"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Weight the cation contribution by its count",
-          "explain": "For CaCl2 the calcium term is 1 times 119.0 S cm2 per mol.",
-          "compute": "term_cation = n_cation * lambda_cation"
-        },
-        {
-          "step": 2,
-          "action": "Weight the anion contribution by its count",
-          "explain": "The chloride term is 2 times 76.3, that is 152.6 S cm2 per mol.",
-          "compute": "term_anion = n_anion * lambda_anion"
-        },
-        {
-          "step": 3,
-          "action": "Add the two contributions",
-          "explain": "119.0 plus 152.6 gives 271.6 S cm2 per mol for CaCl2; combination tricks like HCl plus NaAc minus NaCl give weak acid values the same way.",
-          "compute": "lambda0 = term_cation + term_anion"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Kohlrausch Law of Independent Migration, compute the result for n_cation = 3, lambda_cation = 3, n_anion = 3, lambda_anion = 2.",
-          "solution": "Step 1: Weight the cation contribution by its count: term_cation = n_cation * lambda_cation = 9.0 Step 2: Weight the anion contribution by its count: term_anion = n_anion * lambda_anion = 6.0 Step 3: Add the two contributions: lambda0 = term_cation + term_anion = 15.0 Final result: 15.0",
-          "answer": "15.0"
-        },
-        {
-          "question": "Using Kohlrausch Law of Independent Migration, compute the result for n_cation = 4, lambda_cation = 4, n_anion = 4, lambda_anion = 3.",
-          "solution": "Step 1: Weight the cation contribution by its count: term_cation = n_cation * lambda_cation = 16.0 Step 2: Weight the anion contribution by its count: term_anion = n_anion * lambda_anion = 12.0 Step 3: Add the two contributions: lambda0 = term_cation + term_anion = 28.0 Final result: 28.0",
-          "answer": "28.0"
-        }
-      ]
-    },
-    {
-      "id": "lech.02.2.5.2",
-      "title": "Degree of Dissociation and Ka of a Weak Electrolyte",
-      "section": "2.5",
-      "definition": "For a weak electrolyte the fraction dissociated at a given concentration equals the ratio of its molar conductivity to its limiting value, and that fraction feeds the classic Ostwald expression for the dissociation constant.",
-      "formula": "ka = molarity * alpha ** 2 / (1 - alpha)",
-      "key_idea": "First get lambda m from conductivity, divide by lambda naught to reach alpha, then c alpha squared over one minus alpha; weak electrolytes cannot be extrapolated, so Kohlrausch law supplies lambda naught.",
-      "textbook_ref": "lech102.txt, Section 2.5 weak electrolyte discussion, equations 2.26-2.27 and Example 2.9",
-      "question_patterns": [
-        "calculate the degree of dissociation and dissociation constant of 0.025 M methanoic acid given its molar conductivity",
-        "find alpha and Ka for acetic acid whose 0.001028 M solution has conductivity 4.95 times ten to the minus 5 S per cm",
-        "determine the dissociation constant of a weak acid from its molar conductivity at a stated concentration",
-        "what is the degree of dissociation when lambda m and lambda naught of a weak electrolyte are known",
-        "use the relation c alpha squared over one minus alpha to get Ka for a weak electrolyte",
-        "compute how far a dilute weak acid is ionised from conductivity data"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Get the molar conductivity at the working concentration",
-          "explain": "1000 times 4.95e-5 over 0.001028 gives about 48.15 S cm2 per mol.",
-          "compute": "lambda_m = 1000 * kappa / molarity"
-        },
-        {
-          "step": 2,
-          "action": "Take the ratio to the limiting molar conductivity",
-          "explain": "48.15 over 390.5 gives alpha near 0.123 for this acetic acid solution.",
-          "compute": "alpha = lambda_m / lambda0"
-        },
-        {
-          "step": 3,
-          "action": "Apply the Ostwald dilution expression",
-          "explain": "0.001028 times alpha squared over one minus alpha gives Ka near 1.78e-5 mol per litre; the tiny floor inside the divisor only guards the arithmetic for fully dissociated edge cases.",
-          "compute": "ka = molarity * alpha ** 2 / max(1 - alpha, 0.001)"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Degree of Dissociation and Ka of a Weak Electrolyte, compute the result for kappa = 3, molarity = 3, lambda0 = 3.",
-          "solution": "Step 1: Get the molar conductivity at the working concentration: lambda_m = 1000 * kappa / molarity = 1000.0 Step 2: Take the ratio to the limiting molar conductivity: alpha = lambda_m / lambda0 = 333.333333 Step 3: Apply the Ostwald dilution expression: ka = molarity * alpha ** 2 / max(1 - alpha, 0.001) = 333333333.333333 Final result: 333333333.333333",
-          "answer": "333333333.333333"
-        },
-        {
-          "question": "Using Degree of Dissociation and Ka of a Weak Electrolyte, compute the result for kappa = 4, molarity = 4, lambda0 = 4.",
-          "solution": "Step 1: Get the molar conductivity at the working concentration: lambda_m = 1000 * kappa / molarity = 1000.0 Step 2: Take the ratio to the limiting molar conductivity: alpha = lambda_m / lambda0 = 250.0 Step 3: Apply the Ostwald dilution expression: ka = molarity * alpha ** 2 / max(1 - alpha, 0.001) = 250000000.0 Final result: 250000000.0",
-          "answer": "250000000.0"
-        }
-      ]
-    },
-    {
-      "id": "lech.02.2.6.1",
-      "title": "Faraday's First Law: Mass Deposited in Electrolysis",
-      "section": "2.6",
-      "definition": "The mass of substance liberated at an electrode is proportional to the charge passed; the proportionality packs in the metal's molar mass and how many electrons its ion needs.",
-      "formula": "mass_metal = (current_amp * time_sec / (n_electrons * faraday_const)) * molar_mass_metal",
-      "key_idea": "Charge is current times seconds; each mole of metal costs n Faradays, so moles deposited equal charge over nF, and one Faraday is about 96500 coulombs.",
-      "textbook_ref": "lech102.txt, Section 2.6 Faraday's laws and Example 2.10",
-      "question_patterns": [
-        "calculate the mass of copper deposited when a copper sulfate solution is electrolysed for 10 minutes at 1.5 amperes",
-        "find how much nickel plates out at the cathode with a 5 ampere current run for 20 minutes",
-        "determine the mass of metal liberated during electrolysis from the current, time and electrode reaction",
-        "what mass of silver is deposited by a given charge passed through silver nitrate solution",
-        "use Faraday first law to convert ampere seconds into grams of deposited metal",
-        "compute the deposit formed at a cathode when a stated current flows for a stated duration"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Multiply current by time to get the charge",
-          "explain": "1.5 A for 600 s delivers 900 C.",
-          "compute": "charge_coulomb = current_amp * time_sec"
-        },
-        {
-          "step": 2,
-          "action": "Convert charge to moles of metal",
-          "explain": "Copper needs 2 electrons per atom, so 900 over 2 times 96487 gives 0.00466 mol.",
-          "compute": "moles_metal = charge_coulomb / (n_electrons * faraday_const)"
-        },
-        {
-          "step": 3,
-          "action": "Convert moles to mass",
-          "explain": "0.00466 mol times 63 g per mol leaves about 0.294 g of copper on the cathode.",
-          "compute": "mass_metal = moles_metal * molar_mass_metal"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Faraday's First Law: Mass Deposited in Electrolysis, compute the result for current_amp = 3, time_sec = 3, n_electrons = 3, faraday_const = 2, molar_mass_metal = 2.",
-          "solution": "Step 1: Multiply current by time to get the charge: charge_coulomb = current_amp * time_sec = 9.0 Step 2: Convert charge to moles of metal: moles_metal = charge_coulomb / (n_electrons * faraday_const) = 1.5 Step 3: Convert moles to mass: mass_metal = moles_metal * molar_mass_metal = 3.0 Final result: 3.0",
-          "answer": "3.0"
-        },
-        {
-          "question": "Using Faraday's First Law: Mass Deposited in Electrolysis, compute the result for current_amp = 4, time_sec = 4, n_electrons = 4, faraday_const = 3, molar_mass_metal = 3.",
-          "solution": "Step 1: Multiply current by time to get the charge: charge_coulomb = current_amp * time_sec = 16.0 Step 2: Convert charge to moles of metal: moles_metal = charge_coulomb / (n_electrons * faraday_const) = 1.333333 Step 3: Convert moles to mass: mass_metal = moles_metal * molar_mass_metal = 4.0 Final result: 4.0",
-          "answer": "4.0"
-        }
-      ]
-    },
-    {
-      "id": "lech.02.2.6.2",
-      "title": "Charge Required for an Electrode Reaction",
-      "section": "2.6",
-      "definition": "The electricity needed to reduce or oxidise a stated amount of substance is fixed by the electron count in the half equation: each mole of change consumes that many Faradays.",
-      "formula": "charge_coulomb = moles_substance * z_electrons * faraday_const",
-      "key_idea": "One mole of Al3+ to Al swallows 3 Faradays near 289500 C, MnO4 minus to Mn2+ takes 5; dividing the coulomb figure by 96500 restates it in Faradays.",
-      "textbook_ref": "lech102.txt, Section 2.6 Faraday's laws, Examples on charge requirement",
-      "question_patterns": [
-        "calculate the charge required to reduce 1 mol of Al3+ ions to aluminium metal",
-        "how many coulombs are needed to convert 1 mol of MnO4 minus into Mn2+",
-        "find the electricity in coulombs for the oxidation of 1 mol of water to oxygen",
-        "determine how much electricity in terms of Faraday produces 20 g of calcium from molten CaCl2",
-        "what quantity of electricity reduces a stated number of moles in a given half reaction",
-        "compute the charge passed when a stated mass of metal is produced electrolytically from its melt"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Turn the stated mass into moles of substance",
-          "explain": "Divide by the molar mass; for a one mole case the ratio is simply 1.",
-          "compute": "moles_substance = mass_sample / molar_mass_substance"
-        },
-        {
-          "step": 2,
-          "action": "Multiply by the electron count and the Faraday",
-          "explain": "Aluminium takes 3 electrons per ion, so 1 times 3 times 96487 gives about 289461 C; divide by 96500 to read it as 3 Faradays.",
-          "compute": "charge_coulomb = moles_substance * z_electrons * faraday_const"
-        }
-      ],
-      "worked_examples": [
-        {
-          "question": "Using Charge Required for an Electrode Reaction, compute the result for mass_sample = 3, molar_mass_substance = 3, z_electrons = 3, faraday_const = 2.",
-          "solution": "Step 1: Turn the stated mass into moles of substance: moles_substance = mass_sample / molar_mass_substance = 1.0 Step 2: Multiply by the electron count and the Faraday: charge_coulomb = moles_substance * z_electrons * faraday_const = 6.0 Final result: 6.0",
-          "answer": "6.0"
-        },
-        {
-          "question": "Using Charge Required for an Electrode Reaction, compute the result for mass_sample = 4, molar_mass_substance = 4, z_electrons = 4, faraday_const = 3.",
-          "solution": "Step 1: Turn the stated mass into moles of substance: moles_substance = mass_sample / molar_mass_substance = 1.0 Step 2: Multiply by the electron count and the Faraday: charge_coulomb = moles_substance * z_electrons * faraday_const = 12.0 Final result: 12.0",
-          "answer": "12.0"
-        }
-      ]
-    },
-    {
-      "id": "lech.02.2.7.1",
-      "title": "Primary Batteries, Secondary Batteries and Fuel Cells",
-      "section": "2.6",
-      "definition": "Practical galvanic devices come in three kinds: primary cells that die once (dry cell, mercury cell), secondary cells that recharge by reversing the reaction (lead storage, nickel-cadmium), and fuel cells fed continuously with reactants such as hydrogen and oxygen.",
-      "formula": "battery class = reuse mode (once, rechargeable, continuous feed)",
-      "key_idea": "The lead storage cell reverses Pb plus PbO2 with sulfuric acid on charging; a mercury cell keeps constant voltage because no solution ion changes concentration; the hydrogen oxygen fuel cell reaches about 70 percent efficiency and releases only water.",
-      "textbook_ref": "lech102.txt, Sections 2.6-2.7 (batteries, fuel cells), Figs. 2.8-2.12",
-      "question_patterns": [
-        "explain why a mercury cell maintains a steady voltage through its life",
-        "state the electrode reactions of the lead storage battery during discharge and recharging",
-        "distinguish a primary battery from a secondary battery with one example of each",
-        "write the overall reaction of the hydrogen oxygen fuel cell and note its efficiency advantage",
-        "identify which battery is recharged by passing current in the opposite direction",
-        "describe the construction of the dry cell naming its anode and cathode materials"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Check whether the cell reaction is reversible or single use",
-          "explain": "Primary cells like the dry cell cannot be recharged; secondary cells like lead storage can."
-        },
-        {
-          "step": 2,
-          "action": "Recall the electrode chemistry of the named cell",
-          "explain": "Lead battery: Pb and PbO2 plates in sulfuric acid; fuel cell: hydrogen burned electrochemically at porous electrodes."
-        },
-        {
-          "step": 3,
-          "action": "State the reuse mode and key advantage",
-          "explain": "Rechargeability for secondary cells, steady voltage for mercury cells, continuous clean output for fuel cells."
-        }
-      ]
-    },
-    {
-      "id": "lech.02.2.8.1",
-      "title": "Corrosion as an Electrochemical Process",
-      "section": "2.8",
-      "definition": "Rusting and similar surface decay behave like short-circuited galvanic cells on the metal: one spot oxidises iron while another reduces oxygen, and the ferrous ions finally leave as hydrated ferric oxide.",
-      "formula": "corrosion cell = anodic spot (metal dissolves) plus cathodic spot (oxygen reduced)",
-      "key_idea": "Iron dissolves at the anodic spot (minus 0.44 V couple) while oxygen plus hydrogen ions is reduced at the cathodic spot (plus 1.23 V); painting, plating or a sacrificial magnesium or zinc electrode blocks the damage.",
-      "textbook_ref": "lech102.txt, Section 2.8 Corrosion and Fig. 2.13",
-      "question_patterns": [
-        "explain how rusting of iron sets up an electrochemical cell on its surface",
-        "identify the anode and cathode reactions during the corrosion of iron in moist air",
-        "state why sacrificial electrodes of magnesium or zinc protect an iron object",
-        "describe the electrochemical mechanism behind tarnishing of silver or green coating on copper",
-        "what are the half reactions that turn iron into hydrated ferric oxide rust",
-        "list methods of preventing corrosion and the principle each one uses"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {
-          "step": 1,
-          "action": "Point out the anodic spot where the metal oxidises",
-          "explain": "Fe goes to Fe2 plus releasing electrons that travel through the metal."
-        },
-        {
-          "step": 2,
-          "action": "Point out the cathodic spot where oxygen is reduced",
-          "explain": "Oxygen with hydrogen ions takes up those electrons to form water."
-        },
-        {
-          "step": 3,
-          "action": "Follow the secondary oxidation to the rust and the prevention logic",
-          "explain": "Ferrous ions oxidise further to ferric oxide hydrate; cutting air or water contact, or adding a more reactive sacrificial metal, stops the cycle."
-        }
-      ]
+     "step": 3,
+     "action": "Compare the applied external voltage with the cell emf",
+     "explain": "Below the emf the cell runs as galvanic, at the emf nothing flows, above it the same setup works as an electrolytic cell in reverse."
     }
-  ],
-  "worked_examples": [
+   ]
+  },
+  {
+   "id": "lech.02.2.2.1",
+   "title": "Standard Cell Potential from Electrode Potentials",
+   "section": "2.2",
+   "definition": "The emf of a cell comes from subtracting the standard reduction potential of the left (anode) half-cell from that of the right (cathode) half-cell, each read from the tabulated electrode potential series.",
+   "formula": "e_0_cell = e_0_cathode - e_0_anode",
+   "key_idea": "A positive result confirms the reaction runs as written; the more negative electrode supplies the reducing agent, and individual half-cell potentials are always measured against the hydrogen electrode set at zero.",
+   "textbook_ref": "lech102.txt, Section 2.2 and Table 2.1 (Standard Electrode Potentials)",
+   "question_patterns": [
+    "calculate the standard emf of the Daniell cell from the zinc and copper electrode potentials",
+    "find e0 cell for the reaction of chromium metal with cadmium ions using standard reduction potentials",
+    "determine the standard cell potential of the iron and silver couple",
+    "what emf follows when the cathode potential is 0.34 V and the anode potential is minus 0.76 V",
+    "compute the standard potential of a galvanic cell assembled from two listed half-cells",
+    "work out e0 for the cell representation with the anode written on the left"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "question": "The cell reaction Mg(s) + 2 Ag+(0.0001 M) gives Mg2+(0.130 M) + 2 Ag(s) has a standard emf of 3.17 V. What is its emf at these concentrations?",
-      "solution": "Q = 0.130 times 0.0001 squared; log Q near minus 7.11. Nernst correction: 0.059 over 2 times minus 7.11 = minus 0.21 V.",
-      "answer": "3.17 - 0.21 = 2.96 V"
+     "step": 1,
+     "action": "Read the standard reduction potentials from the series",
+     "explain": "Copper sits at plus 0.34 V and zinc at minus 0.76 V in the standard table.",
+     "compute": "e0_pair = e0_cathode - e0_anode"
     },
     {
-      "question": "For Cu(s) + 2 Ag+(aq) the standard emf is 0.46 V. Find Kc at 298 K.",
-      "solution": "log Kc = 2 times 0.46 over 0.059 = 15.6.",
-      "answer": "Kc near 3.92 times ten to the 15"
-    },
-    {
-      "question": "The conductivity of 0.20 M KCl at 298 K is 0.0248 S per cm. Find its molar conductivity.",
-      "solution": "Lambda m = 1000 times kappa over c = 1000 times 0.0248 over 0.20.",
-      "answer": "124 S cm2 per mol"
-    },
-    {
-      "question": "Copper sulfate is electrolysed 10 minutes at 1.5 A. What mass of copper plates out?",
-      "solution": "Q = 900 C; moles Cu = 900 over (2 times 96487) = 0.00466; mass = 0.00466 times 63.",
-      "answer": "about 0.294 g"
+     "step": 2,
+     "action": "Subtract the left electrode value from the right electrode value",
+     "explain": "0.34 minus minus 0.76 gives 1.10 V for the Daniell cell; a positive value means the cell reaction is spontaneous as written.",
+     "compute": "e0_cell = e0_pair * 1.0"
     }
-  ],
-  "exercises": [
+   ],
+   "worked_examples": [
     {
-      "id": "lech102_ex1",
-      "source_ref": "lech102.txt Exercises 2.1-2.3",
-      "questions": [
-        "Arrange Al, Cu, Fe, Mg and Zn in the order in which each displaces the next from its salt solution.",
-        "Given standard potentials for K, Ag, Hg, Mg and Cr couples, order the metals by increasing reducing power.",
-        "Depict the galvanic cell for Zn plus 2 Ag+ and mark the negative electrode, current carriers and each electrode reaction."
-      ]
+     "question": "Using Standard Cell Potential from Electrode Potentials, compute the result for e0_cathode = 3, e0_anode = 3.",
+     "solution": "Step 1: Read the standard reduction potentials from the series: e0_pair = e0_cathode - e0_anode = 0.0 Step 2: Subtract the left electrode value from the right electrode value: e0_cell = e0_pair * 1.0 = 0.0 Final result: 0.0",
+     "answer": "0.0"
     },
     {
-      "id": "lech102_ex2",
-      "source_ref": "lech102.txt Exercises 2.4-2.5",
-      "questions": [
-        "Calculate the standard cell potentials, delta G naught and equilibrium constant for the chromium and cadmium cell.",
-        "Write the Nernst equation and emf at 298 K for the cell Mg(s) | Mg2+(0.001 M) || Cu2+(0.0001 M) | Cu(s)."
-      ]
-    },
-    {
-      "id": "lech102_ex3",
-      "source_ref": "lech102.txt Exercises 2.8-2.9 and 2.11",
-      "questions": [
-        "The conductivity of 0.20 M KCl is 0.0248 S per cm; calculate its molar conductivity.",
-        "A conductivity cell with 0.001 M KCl reads 1500 ohm; find the cell constant given the KCl conductivity as 0.146 times ten to the minus 3 S per cm.",
-        "The conductivity of 0.00241 M acetic acid is 7.896e-5 S per cm and its lambda naught is 390.5 S cm2 per mol; find the dissociation constant."
-      ]
-    },
-    {
-      "id": "lech102_ex4",
-      "source_ref": "lech102.txt Exercises 2.12-2.16",
-      "questions": [
-        "How much charge reduces (i) 1 mol of Al3+ to Al, (ii) 1 mol of Cu2+ to Cu, (iii) 1 mol of MnO4 minus to Mn2+?",
-        "How many Faradays produce 20.0 g of Ca from molten CaCl2 or 40.0 g of Al from molten Al2O3?",
-        "A Ni(NO3)2 solution is electrolysed at 5 A for 20 minutes; what mass of nickel deposits at the cathode?"
-      ]
+     "question": "Using Standard Cell Potential from Electrode Potentials, compute the result for e0_cathode = 4, e0_anode = 4.",
+     "solution": "Step 1: Read the standard reduction potentials from the series: e0_pair = e0_cathode - e0_anode = 0.0 Step 2: Subtract the left electrode value from the right electrode value: e0_cell = e0_pair * 1.0 = 0.0 Final result: 0.0",
+     "answer": "0.0"
     }
-  ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "e_0_cell = e_0_cathode - e_0_anode",
+     "compute": "e_0_cell = e_0_cathode - e_0_anode"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.02.2.3.1",
+   "title": "Nernst Equation for Cell emf at 298 K",
+   "section": "2.3",
+   "definition": "Non-standard concentrations pull the cell voltage away from its standard value by an amount governed by the reaction quotient: the emf drops as products pile up relative to reactants.",
+   "formula": "e_cell = e_0_cell - (0.059 / n_electrons) * log_quotient",
+   "key_idea": "Build the reaction quotient from the given ion concentrations, take its base-10 logarithm, then correct the standard emf with 0.059 divided by the electron count per formula unit of the reaction.",
+   "textbook_ref": "lech102.txt, Section 2.3, equations 2.11-2.13 and Example 2.1",
+   "question_patterns": [
+    "calculate the emf of the cell in which magnesium reacts with 0.0001 M silver ions using the Nernst equation",
+    "find the cell potential at 298 K for the nickel and silver couple with stated ion concentrations",
+    "determine e cell for a Daniell cell when the zinc ion and copper ion concentrations are not unity",
+    "apply the Nernst relation to get the voltage of a galvanic cell from its standard emf and the reaction quotient",
+    "what is the electrode potential of hydrogen in contact with a solution of pH 10",
+    "use the Nernst equation to correct a standard emf for the given product and reactant concentrations"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Form the reaction quotient from the stated concentrations",
+     "explain": "For the magnesium and silver cell, Q = 0.130 times 0.0001 squared, whose base-10 logarithm is about minus 7.11.",
+     "compute": "log_quotient = log10_of_q * 1.0"
+    },
+    {
+     "step": 2,
+     "action": "Correct the standard emf with the Nernst term",
+     "explain": "3.17 minus 0.059 over 2, all times minus 7.11, leaves about 2.96 V for the cell.",
+     "compute": "e_cell = e0_cell - (0.059 / n_electrons) * log_quotient"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Nernst Equation for Cell emf at 298 K, compute the result for log10_of_q = 3, e0_cell = 3, n_electrons = 3.",
+     "solution": "Step 1: Form the reaction quotient from the stated concentrations: log_quotient = log10_of_q * 1.0 = 3.0 Step 2: Correct the standard emf with the Nernst term: e_cell = e0_cell - (0.059 / n_electrons) * log_quotient = 2.941 Final result: 2.941",
+     "answer": "2.941"
+    },
+    {
+     "question": "Using Nernst Equation for Cell emf at 298 K, compute the result for log10_of_q = 4, e0_cell = 4, n_electrons = 4.",
+     "solution": "Step 1: Form the reaction quotient from the stated concentrations: log_quotient = log10_of_q * 1.0 = 4.0 Step 2: Correct the standard emf with the Nernst term: e_cell = e0_cell - (0.059 / n_electrons) * log_quotient = 3.941 Final result: 3.941",
+     "answer": "3.941"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "e_cell = e_0_cell - (0.059 / n_electrons) * log_quotient",
+     "compute": "e_cell = e_0_cell - (0.059 / n_electrons) * log_quotient"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.02.2.3.2",
+   "title": "Equilibrium Constant from Standard Cell Potential",
+   "section": "2.3.1",
+   "definition": "At equilibrium the cell voltage falls to zero, so the standard emf alone fixes the equilibrium constant of the cell reaction through a simple logarithmic relation.",
+   "formula": "kc = 10 ** (n_electrons * e0_cell / 0.059)",
+   "key_idea": "Multiply n by the standard emf, divide by 0.059 V to get log Kc, then raise 10 to that power; equilibrium constants that are hard to measure directly come straight out of table data.",
+   "textbook_ref": "lech102.txt, Section 2.3.1, equation 2.14 and Example 2.2",
+   "question_patterns": [
+    "calculate the equilibrium constant of the copper and silver ion reaction whose standard emf is 0.46 V",
+    "find Kc for a cell reaction from its standard potential of 1.1 V and two transferred electrons",
+    "determine the equilibrium constant for the iron and silver cell at 298 K",
+    "what is Kc when the standard cell emf and the number of electrons exchanged are known",
+    "obtain the equilibrium constant of a redox reaction from tabulated electrode potentials",
+    "evaluate log Kc and then Kc for a galvanic cell with the given standard emf"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Convert the standard emf into log Kc",
+     "explain": "2 times 0.46 over 0.059 gives about 15.6 for the copper silver cell.",
+     "compute": "log_kc = n_electrons * e0_cell / 0.059"
+    },
+    {
+     "step": 2,
+     "action": "Raise ten to the power of log Kc",
+     "explain": "Ten to the 15.6 is about 3.92 times ten to the 15, an enormous constant typical of working cells.",
+     "compute": "kc = 10 ** log_kc"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Equilibrium Constant from Standard Cell Potential, compute the result for n_electrons = 0.5, e0_cell = 0.25.",
+     "solution": "Step 1: Convert the standard emf into log Kc: log_kc = n_electrons * e0_cell / 0.059 = 2.118644 Step 2: Raise ten to the power of log Kc: kc = 10 ** log_kc = 131.414736 Final result: 131.414736",
+     "answer": "131.414736"
+    },
+    {
+     "question": "Using Equilibrium Constant from Standard Cell Potential, compute the result for n_electrons = 0.25, e0_cell = 0.1.",
+     "solution": "Step 1: Convert the standard emf into log Kc: log_kc = n_electrons * e0_cell / 0.059 = 0.423729 Step 2: Raise ten to the power of log Kc: kc = 10 ** log_kc = 2.652948 Final result: 2.652948",
+     "answer": "2.652948"
+    }
+   ]
+  },
+  {
+   "id": "lech.02.2.3.3",
+   "title": "Gibbs Energy of the Cell Reaction",
+   "section": "2.3.2",
+   "definition": "The electrical work a cell can deliver reversibly equals the fall in Gibbs energy, which follows from the emf multiplied by the total charge the electrons carry.",
+   "formula": "gibbs_kj = (0 - n_electrons * faraday_const * e_0_cell) / 1000",
+   "key_idea": "Delta G equals minus nFE, so the sign is negative for a working cell; doubling the reaction equation doubles n and hence the Gibbs energy but leaves the emf unchanged.",
+   "textbook_ref": "lech102.txt, Section 2.3.2, equations 2.15-2.16 and Example 2.3",
+   "question_patterns": [
+    "calculate the standard Gibbs energy of the Daniell cell reaction whose emf is 1.1 V",
+    "find delta G naught for a cell with standard emf 0.36 V and two electrons transferred",
+    "determine the Gibbs energy change for the reaction in a galvanic cell at standard conditions",
+    "what is the maximum electrical work available from a cell of the given emf and electron count",
+    "compute DrGo from nF times the standard cell potential",
+    "how much Gibbs energy is released when one mole of reaction runs in the stated cell"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply the charge per mole of reaction by the emf and negate",
+     "explain": "Minus 2 times 96487 coulomb per mol times 1.1 V gives minus 212270 J per mol.",
+     "compute": "gibbs_j = (0 - n_electrons * faraday_const * e0_cell)"
+    },
+    {
+     "step": 2,
+     "action": "Report the result in kilojoules per mole",
+     "explain": "Divide by 1000: about minus 212.27 kJ per mol for the Daniell reaction.",
+     "compute": "gibbs_kj = gibbs_j / 1000"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Gibbs Energy of the Cell Reaction, compute the result for n_electrons = 3, faraday_const = 3, e0_cell = 3.",
+     "solution": "Step 1: Multiply the charge per mole of reaction by the emf and negate: gibbs_j = (0 - n_electrons * faraday_const * e0_cell) = -27.0 Step 2: Report the result in kilojoules per mole: gibbs_kj = gibbs_j / 1000 = -0.027 Final result: -0.027",
+     "answer": "-0.027"
+    },
+    {
+     "question": "Using Gibbs Energy of the Cell Reaction, compute the result for n_electrons = 4, faraday_const = 4, e0_cell = 4.",
+     "solution": "Step 1: Multiply the charge per mole of reaction by the emf and negate: gibbs_j = (0 - n_electrons * faraday_const * e0_cell) = -64.0 Step 2: Report the result in kilojoules per mole: gibbs_kj = gibbs_j / 1000 = -0.064 Final result: -0.064",
+     "answer": "-0.064"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "gibbs_kj = (0 - n_electrons * faraday_const * e_0_cell) / 1000",
+     "compute": "gibbs_kj = (0 - n_electrons * faraday_const * e_0_cell) / 1000"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.02.2.4.1",
+   "title": "Cell Constant and Conductivity from Resistance",
+   "section": "2.4.1",
+   "definition": "A conductivity cell is characterised by its cell constant, the electrode gap divided by electrode area; measured resistance converts to conductivity once this constant is fixed with a standard potassium chloride solution.",
+   "formula": "kappa_unknown = (kappa_known * resistance_known) / resistance_unknown",
+   "key_idea": "Cell constant G star equals conductivity times resistance; the same product then gives any solution's conductivity as cell constant over its measured resistance.",
+   "textbook_ref": "lech102.txt, Section 2.4.1, equations 2.17-2.20 and Example 2.4",
+   "question_patterns": [
+    "calculate the conductivity of 0.02 M KCl solution if the same cell reads 100 ohm for 0.1 M KCl and 520 ohm for the unknown",
+    "find the cell constant of a conductivity cell from the resistance of a standard KCl filling",
+    "determine the conductivity of a solution whose resistance in a calibrated cell is given",
+    "what is the cell constant when the resistance is 1500 ohm and the KCl conductivity is 0.146 times ten to the minus 3 S per cm",
+    "use a standard potassium chloride solution to calibrate a conductivity cell and then read an unknown conductivity",
+    "convert a measured resistance into conductivity with the help of the cell constant"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Fix the cell constant with the standard filling",
+     "explain": "1.29 S per m times 100 ohm gives 129 per m for the cell geometry.",
+     "compute": "cell_const = kappa_known * resistance_known"
+    },
+    {
+     "step": 2,
+     "action": "Divide the cell constant by the unknown resistance",
+     "explain": "129 over 520 ohm leaves 0.248 S per m for the 0.02 M KCl solution.",
+     "compute": "kappa_unknown = cell_const / resistance_unknown"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Cell Constant and Conductivity from Resistance, compute the result for kappa_known = 3, resistance_known = 3, resistance_unknown = 3.",
+     "solution": "Step 1: Fix the cell constant with the standard filling: cell_const = kappa_known * resistance_known = 9.0 Step 2: Divide the cell constant by the unknown resistance: kappa_unknown = cell_const / resistance_unknown = 3.0 Final result: 3.0",
+     "answer": "3.0"
+    },
+    {
+     "question": "Using Cell Constant and Conductivity from Resistance, compute the result for kappa_known = 4, resistance_known = 4, resistance_unknown = 4.",
+     "solution": "Step 1: Fix the cell constant with the standard filling: cell_const = kappa_known * resistance_known = 16.0 Step 2: Divide the cell constant by the unknown resistance: kappa_unknown = cell_const / resistance_unknown = 4.0 Final result: 4.0",
+     "answer": "4.0"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "kappa_unknown = (kappa_known * resistance_known) / resistance_unknown",
+     "compute": "kappa_unknown = (kappa_known * resistance_known) / resistance_unknown"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.02.2.4.2",
+   "title": "Molar Conductivity from Conductivity",
+   "section": "2.4.2",
+   "definition": "The conductance of the volume of solution holding one mole of electrolyte between electrodes a unit distance apart; it scales the measured conductivity up by a thousand and divides by the molar concentration.",
+   "formula": "lambda_m = 1000 * kappa / molarity",
+   "key_idea": "Conductivity falls on dilution while molar conductivity rises, because the volume holding one mole grows; with kappa in S per cm and c in mol per litre the answer arrives in S cm2 per mol.",
+   "textbook_ref": "lech102.txt, Section 2.4.2, equation 2.21 and Example 2.5",
+   "question_patterns": [
+    "calculate the molar conductivity of 0.20 M KCl whose conductivity is 0.0248 S per cm",
+    "find lambda m for a solution from its conductivity and molar concentration",
+    "determine the molar conductivity of 0.00241 M acetic acid with conductivity 7.896 times ten to the minus 5 S per cm",
+    "what is the molar conductivity when the conductivity of the solution and its molarity are known",
+    "convert the measured conductivity of an electrolyte solution into S cm2 per mol units",
+    "compute lambda m for the given electrolyte concentration and report it in the usual units"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Scale conductivity to one mole of electrolyte",
+     "explain": "Multiply kappa by the 1000 cubic cm in a litre, then divide by molarity; 1000 times 0.0248 over 0.2 gives 124 S cm2 per mol.",
+     "compute": "lambda_m = 1000 * kappa / molarity"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Molar Conductivity from Conductivity, compute the result for kappa = 3, molarity = 3.",
+     "solution": "Step 1: Scale conductivity to one mole of electrolyte: lambda_m = 1000 * kappa / molarity = 1000.0 Final result: 1000.0",
+     "answer": "1000.0"
+    },
+    {
+     "question": "Using Molar Conductivity from Conductivity, compute the result for kappa = 4, molarity = 4.",
+     "solution": "Step 1: Scale conductivity to one mole of electrolyte: lambda_m = 1000 * kappa / molarity = 1000.0 Final result: 1000.0",
+     "answer": "1000.0"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "lambda_m = 1000 * kappa / molarity",
+     "compute": "lambda_m = 1000 * kappa / molarity"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.02.2.5.1",
+   "title": "Kohlrausch Law of Independent Migration",
+   "section": "2.5",
+   "definition": "At infinite dilution every ion drifts on its own, so an electrolyte's limiting molar conductivity is just the coefficient-weighted sum of its cation and anion contributions.",
+   "formula": "lambda_0 = n_cation * lambda_cation + n_anion * lambda_anion",
+   "key_idea": "Read limiting ionic conductivities from the table and add them with their stoichiometric factors; differences between related salts stay constant, which is how values for weak electrolytes are pieced together by combination.",
+   "textbook_ref": "lech102.txt, Section 2.5, equations 2.24-2.25 and Examples 2.7-2.8",
+   "question_patterns": [
+    "calculate the limiting molar conductivity of CaCl2 from the limiting ionic conductivities",
+    "find lambda naught for MgSO4 using Kohlrausch law and the ion data",
+    "determine the limiting molar conductivity of acetic acid by combining the values for HCl, NaAc and NaCl",
+    "what is lambda naught m of an electrolyte expressed through its ions' individual contributions",
+    "apply the law of independent migration of ions to build the limiting molar conductivity of a salt",
+    "compute the infinite dilution molar conductivity of a weak acid from strong electrolyte data"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Weight the cation contribution by its count",
+     "explain": "For CaCl2 the calcium term is 1 times 119.0 S cm2 per mol.",
+     "compute": "term_cation = n_cation * lambda_cation"
+    },
+    {
+     "step": 2,
+     "action": "Weight the anion contribution by its count",
+     "explain": "The chloride term is 2 times 76.3, that is 152.6 S cm2 per mol.",
+     "compute": "term_anion = n_anion * lambda_anion"
+    },
+    {
+     "step": 3,
+     "action": "Add the two contributions",
+     "explain": "119.0 plus 152.6 gives 271.6 S cm2 per mol for CaCl2; combination tricks like HCl plus NaAc minus NaCl give weak acid values the same way.",
+     "compute": "lambda0 = term_cation + term_anion"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Kohlrausch Law of Independent Migration, compute the result for n_cation = 3, lambda_cation = 3, n_anion = 3, lambda_anion = 2.",
+     "solution": "Step 1: Weight the cation contribution by its count: term_cation = n_cation * lambda_cation = 9.0 Step 2: Weight the anion contribution by its count: term_anion = n_anion * lambda_anion = 6.0 Step 3: Add the two contributions: lambda0 = term_cation + term_anion = 15.0 Final result: 15.0",
+     "answer": "15.0"
+    },
+    {
+     "question": "Using Kohlrausch Law of Independent Migration, compute the result for n_cation = 4, lambda_cation = 4, n_anion = 4, lambda_anion = 3.",
+     "solution": "Step 1: Weight the cation contribution by its count: term_cation = n_cation * lambda_cation = 16.0 Step 2: Weight the anion contribution by its count: term_anion = n_anion * lambda_anion = 12.0 Step 3: Add the two contributions: lambda0 = term_cation + term_anion = 28.0 Final result: 28.0",
+     "answer": "28.0"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "lambda_0 = n_cation * lambda_cation + n_anion * lambda_anion",
+     "compute": "lambda_0 = n_cation * lambda_cation + n_anion * lambda_anion"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.02.2.5.2",
+   "title": "Degree of Dissociation and Ka of a Weak Electrolyte",
+   "section": "2.5",
+   "definition": "For a weak electrolyte the fraction dissociated at a given concentration equals the ratio of its molar conductivity to its limiting value, and that fraction feeds the classic Ostwald expression for the dissociation constant.",
+   "formula": "ka = molarity * alpha ** 2 / (1 - alpha)",
+   "key_idea": "First get lambda m from conductivity, divide by lambda naught to reach alpha, then c alpha squared over one minus alpha; weak electrolytes cannot be extrapolated, so Kohlrausch law supplies lambda naught.",
+   "textbook_ref": "lech102.txt, Section 2.5 weak electrolyte discussion, equations 2.26-2.27 and Example 2.9",
+   "question_patterns": [
+    "calculate the degree of dissociation and dissociation constant of 0.025 M methanoic acid given its molar conductivity",
+    "find alpha and Ka for acetic acid whose 0.001028 M solution has conductivity 4.95 times ten to the minus 5 S per cm",
+    "determine the dissociation constant of a weak acid from its molar conductivity at a stated concentration",
+    "what is the degree of dissociation when lambda m and lambda naught of a weak electrolyte are known",
+    "use the relation c alpha squared over one minus alpha to get Ka for a weak electrolyte",
+    "compute how far a dilute weak acid is ionised from conductivity data"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Get the molar conductivity at the working concentration",
+     "explain": "1000 times 4.95e-5 over 0.001028 gives about 48.15 S cm2 per mol.",
+     "compute": "lambda_m = 1000 * kappa / molarity"
+    },
+    {
+     "step": 2,
+     "action": "Take the ratio to the limiting molar conductivity",
+     "explain": "48.15 over 390.5 gives alpha near 0.123 for this acetic acid solution.",
+     "compute": "alpha = lambda_m / lambda0"
+    },
+    {
+     "step": 3,
+     "action": "Apply the Ostwald dilution expression",
+     "explain": "0.001028 times alpha squared over one minus alpha gives Ka near 1.78e-5 mol per litre; the tiny floor inside the divisor only guards the arithmetic for fully dissociated edge cases.",
+     "compute": "ka = molarity * alpha ** 2 / max(1 - alpha, 0.001)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Degree of Dissociation and Ka of a Weak Electrolyte, compute the result for kappa = 3, molarity = 3, lambda0 = 3.",
+     "solution": "Step 1: Get the molar conductivity at the working concentration: lambda_m = 1000 * kappa / molarity = 1000.0 Step 2: Take the ratio to the limiting molar conductivity: alpha = lambda_m / lambda0 = 333.333333 Step 3: Apply the Ostwald dilution expression: ka = molarity * alpha ** 2 / max(1 - alpha, 0.001) = 333333333.333333 Final result: 333333333.333333",
+     "answer": "333333333.333333"
+    },
+    {
+     "question": "Using Degree of Dissociation and Ka of a Weak Electrolyte, compute the result for kappa = 4, molarity = 4, lambda0 = 4.",
+     "solution": "Step 1: Get the molar conductivity at the working concentration: lambda_m = 1000 * kappa / molarity = 1000.0 Step 2: Take the ratio to the limiting molar conductivity: alpha = lambda_m / lambda0 = 250.0 Step 3: Apply the Ostwald dilution expression: ka = molarity * alpha ** 2 / max(1 - alpha, 0.001) = 250000000.0 Final result: 250000000.0",
+     "answer": "250000000.0"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ka = molarity * alpha ** 2 / (1 - alpha)",
+     "compute": "ka = molarity * alpha ** 2 / (1 - alpha)"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.02.2.6.1",
+   "title": "Faraday's First Law: Mass Deposited in Electrolysis",
+   "section": "2.6",
+   "definition": "The mass of substance liberated at an electrode is proportional to the charge passed; the proportionality packs in the metal's molar mass and how many electrons its ion needs.",
+   "formula": "mass_metal = (current_amp * time_sec / (n_electrons * faraday_const)) * molar_mass_metal",
+   "key_idea": "Charge is current times seconds; each mole of metal costs n Faradays, so moles deposited equal charge over nF, and one Faraday is about 96500 coulombs.",
+   "textbook_ref": "lech102.txt, Section 2.6 Faraday's laws and Example 2.10",
+   "question_patterns": [
+    "calculate the mass of copper deposited when a copper sulfate solution is electrolysed for 10 minutes at 1.5 amperes",
+    "find how much nickel plates out at the cathode with a 5 ampere current run for 20 minutes",
+    "determine the mass of metal liberated during electrolysis from the current, time and electrode reaction",
+    "what mass of silver is deposited by a given charge passed through silver nitrate solution",
+    "use Faraday first law to convert ampere seconds into grams of deposited metal",
+    "compute the deposit formed at a cathode when a stated current flows for a stated duration"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Multiply current by time to get the charge",
+     "explain": "1.5 A for 600 s delivers 900 C.",
+     "compute": "charge_coulomb = current_amp * time_sec"
+    },
+    {
+     "step": 2,
+     "action": "Convert charge to moles of metal",
+     "explain": "Copper needs 2 electrons per atom, so 900 over 2 times 96487 gives 0.00466 mol.",
+     "compute": "moles_metal = charge_coulomb / (n_electrons * faraday_const)"
+    },
+    {
+     "step": 3,
+     "action": "Convert moles to mass",
+     "explain": "0.00466 mol times 63 g per mol leaves about 0.294 g of copper on the cathode.",
+     "compute": "mass_metal = moles_metal * molar_mass_metal"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Faraday's First Law: Mass Deposited in Electrolysis, compute the result for current_amp = 3, time_sec = 3, n_electrons = 3, faraday_const = 2, molar_mass_metal = 2.",
+     "solution": "Step 1: Multiply current by time to get the charge: charge_coulomb = current_amp * time_sec = 9.0 Step 2: Convert charge to moles of metal: moles_metal = charge_coulomb / (n_electrons * faraday_const) = 1.5 Step 3: Convert moles to mass: mass_metal = moles_metal * molar_mass_metal = 3.0 Final result: 3.0",
+     "answer": "3.0"
+    },
+    {
+     "question": "Using Faraday's First Law: Mass Deposited in Electrolysis, compute the result for current_amp = 4, time_sec = 4, n_electrons = 4, faraday_const = 3, molar_mass_metal = 3.",
+     "solution": "Step 1: Multiply current by time to get the charge: charge_coulomb = current_amp * time_sec = 16.0 Step 2: Convert charge to moles of metal: moles_metal = charge_coulomb / (n_electrons * faraday_const) = 1.333333 Step 3: Convert moles to mass: mass_metal = moles_metal * molar_mass_metal = 4.0 Final result: 4.0",
+     "answer": "4.0"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mass_metal = (current_amp * time_sec / (n_electrons * faraday_const)) * molar_mass_metal",
+     "compute": "mass_metal = (current_amp * time_sec / (n_electrons * faraday_const)) * molar_mass_metal"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.02.2.6.2",
+   "title": "Charge Required for an Electrode Reaction",
+   "section": "2.6",
+   "definition": "The electricity needed to reduce or oxidise a stated amount of substance is fixed by the electron count in the half equation: each mole of change consumes that many Faradays.",
+   "formula": "charge_coulomb = moles_substance * z_electrons * faraday_const",
+   "key_idea": "One mole of Al3+ to Al swallows 3 Faradays near 289500 C, MnO4 minus to Mn2+ takes 5; dividing the coulomb figure by 96500 restates it in Faradays.",
+   "textbook_ref": "lech102.txt, Section 2.6 Faraday's laws, Examples on charge requirement",
+   "question_patterns": [
+    "calculate the charge required to reduce 1 mol of Al3+ ions to aluminium metal",
+    "how many coulombs are needed to convert 1 mol of MnO4 minus into Mn2+",
+    "find the electricity in coulombs for the oxidation of 1 mol of water to oxygen",
+    "determine how much electricity in terms of Faraday produces 20 g of calcium from molten CaCl2",
+    "what quantity of electricity reduces a stated number of moles in a given half reaction",
+    "compute the charge passed when a stated mass of metal is produced electrolytically from its melt"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Turn the stated mass into moles of substance",
+     "explain": "Divide by the molar mass; for a one mole case the ratio is simply 1.",
+     "compute": "moles_substance = mass_sample / molar_mass_substance"
+    },
+    {
+     "step": 2,
+     "action": "Multiply by the electron count and the Faraday",
+     "explain": "Aluminium takes 3 electrons per ion, so 1 times 3 times 96487 gives about 289461 C; divide by 96500 to read it as 3 Faradays.",
+     "compute": "charge_coulomb = moles_substance * z_electrons * faraday_const"
+    }
+   ],
+   "worked_examples": [
+    {
+     "question": "Using Charge Required for an Electrode Reaction, compute the result for mass_sample = 3, molar_mass_substance = 3, z_electrons = 3, faraday_const = 2.",
+     "solution": "Step 1: Turn the stated mass into moles of substance: moles_substance = mass_sample / molar_mass_substance = 1.0 Step 2: Multiply by the electron count and the Faraday: charge_coulomb = moles_substance * z_electrons * faraday_const = 6.0 Final result: 6.0",
+     "answer": "6.0"
+    },
+    {
+     "question": "Using Charge Required for an Electrode Reaction, compute the result for mass_sample = 4, molar_mass_substance = 4, z_electrons = 4, faraday_const = 3.",
+     "solution": "Step 1: Turn the stated mass into moles of substance: moles_substance = mass_sample / molar_mass_substance = 1.0 Step 2: Multiply by the electron count and the Faraday: charge_coulomb = moles_substance * z_electrons * faraday_const = 12.0 Final result: 12.0",
+     "answer": "12.0"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "charge_coulomb = moles_substance * z_electrons * faraday_const",
+     "compute": "charge_coulomb = moles_substance * z_electrons * faraday_const"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "lech.02.2.7.1",
+   "title": "Primary Batteries, Secondary Batteries and Fuel Cells",
+   "section": "2.6",
+   "definition": "Practical galvanic devices come in three kinds: primary cells that die once (dry cell, mercury cell), secondary cells that recharge by reversing the reaction (lead storage, nickel-cadmium), and fuel cells fed continuously with reactants such as hydrogen and oxygen.",
+   "formula": "battery class = reuse mode (once, rechargeable, continuous feed)",
+   "key_idea": "The lead storage cell reverses Pb plus PbO2 with sulfuric acid on charging; a mercury cell keeps constant voltage because no solution ion changes concentration; the hydrogen oxygen fuel cell reaches about 70 percent efficiency and releases only water.",
+   "textbook_ref": "lech102.txt, Sections 2.6-2.7 (batteries, fuel cells), Figs. 2.8-2.12",
+   "question_patterns": [
+    "explain why a mercury cell maintains a steady voltage through its life",
+    "state the electrode reactions of the lead storage battery during discharge and recharging",
+    "distinguish a primary battery from a secondary battery with one example of each",
+    "write the overall reaction of the hydrogen oxygen fuel cell and note its efficiency advantage",
+    "identify which battery is recharged by passing current in the opposite direction",
+    "describe the construction of the dry cell naming its anode and cathode materials"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Check whether the cell reaction is reversible or single use",
+     "explain": "Primary cells like the dry cell cannot be recharged; secondary cells like lead storage can."
+    },
+    {
+     "step": 2,
+     "action": "Recall the electrode chemistry of the named cell",
+     "explain": "Lead battery: Pb and PbO2 plates in sulfuric acid; fuel cell: hydrogen burned electrochemically at porous electrodes."
+    },
+    {
+     "step": 3,
+     "action": "State the reuse mode and key advantage",
+     "explain": "Rechargeability for secondary cells, steady voltage for mercury cells, continuous clean output for fuel cells."
+    }
+   ]
+  },
+  {
+   "id": "lech.02.2.8.1",
+   "title": "Corrosion as an Electrochemical Process",
+   "section": "2.8",
+   "definition": "Rusting and similar surface decay behave like short-circuited galvanic cells on the metal: one spot oxidises iron while another reduces oxygen, and the ferrous ions finally leave as hydrated ferric oxide.",
+   "formula": "corrosion cell = anodic spot (metal dissolves) plus cathodic spot (oxygen reduced)",
+   "key_idea": "Iron dissolves at the anodic spot (minus 0.44 V couple) while oxygen plus hydrogen ions is reduced at the cathodic spot (plus 1.23 V); painting, plating or a sacrificial magnesium or zinc electrode blocks the damage.",
+   "textbook_ref": "lech102.txt, Section 2.8 Corrosion and Fig. 2.13",
+   "question_patterns": [
+    "explain how rusting of iron sets up an electrochemical cell on its surface",
+    "identify the anode and cathode reactions during the corrosion of iron in moist air",
+    "state why sacrificial electrodes of magnesium or zinc protect an iron object",
+    "describe the electrochemical mechanism behind tarnishing of silver or green coating on copper",
+    "what are the half reactions that turn iron into hydrated ferric oxide rust",
+    "list methods of preventing corrosion and the principle each one uses"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "Point out the anodic spot where the metal oxidises",
+     "explain": "Fe goes to Fe2 plus releasing electrons that travel through the metal."
+    },
+    {
+     "step": 2,
+     "action": "Point out the cathodic spot where oxygen is reduced",
+     "explain": "Oxygen with hydrogen ions takes up those electrons to form water."
+    },
+    {
+     "step": 3,
+     "action": "Follow the secondary oxidation to the rust and the prevention logic",
+     "explain": "Ferrous ions oxidise further to ferric oxide hydrate; cutting air or water contact, or adding a more reactive sacrificial metal, stops the cycle."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "question": "The cell reaction Mg(s) + 2 Ag+(0.0001 M) gives Mg2+(0.130 M) + 2 Ag(s) has a standard emf of 3.17 V. What is its emf at these concentrations?",
+   "solution": "Q = 0.130 times 0.0001 squared; log Q near minus 7.11. Nernst correction: 0.059 over 2 times minus 7.11 = minus 0.21 V.",
+   "answer": "3.17 - 0.21 = 2.96 V"
+  },
+  {
+   "question": "For Cu(s) + 2 Ag+(aq) the standard emf is 0.46 V. Find Kc at 298 K.",
+   "solution": "log Kc = 2 times 0.46 over 0.059 = 15.6.",
+   "answer": "Kc near 3.92 times ten to the 15"
+  },
+  {
+   "question": "The conductivity of 0.20 M KCl at 298 K is 0.0248 S per cm. Find its molar conductivity.",
+   "solution": "Lambda m = 1000 times kappa over c = 1000 times 0.0248 over 0.20.",
+   "answer": "124 S cm2 per mol"
+  },
+  {
+   "question": "Copper sulfate is electrolysed 10 minutes at 1.5 A. What mass of copper plates out?",
+   "solution": "Q = 900 C; moles Cu = 900 over (2 times 96487) = 0.00466; mass = 0.00466 times 63.",
+   "answer": "about 0.294 g"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "lech102_ex1",
+   "source_ref": "lech102.txt Exercises 2.1-2.3",
+   "questions": [
+    "Arrange Al, Cu, Fe, Mg and Zn in the order in which each displaces the next from its salt solution.",
+    "Given standard potentials for K, Ag, Hg, Mg and Cr couples, order the metals by increasing reducing power.",
+    "Depict the galvanic cell for Zn plus 2 Ag+ and mark the negative electrode, current carriers and each electrode reaction."
+   ]
+  },
+  {
+   "id": "lech102_ex2",
+   "source_ref": "lech102.txt Exercises 2.4-2.5",
+   "questions": [
+    "Calculate the standard cell potentials, delta G naught and equilibrium constant for the chromium and cadmium cell.",
+    "Write the Nernst equation and emf at 298 K for the cell Mg(s) | Mg2+(0.001 M) || Cu2+(0.0001 M) | Cu(s)."
+   ]
+  },
+  {
+   "id": "lech102_ex3",
+   "source_ref": "lech102.txt Exercises 2.8-2.9 and 2.11",
+   "questions": [
+    "The conductivity of 0.20 M KCl is 0.0248 S per cm; calculate its molar conductivity.",
+    "A conductivity cell with 0.001 M KCl reads 1500 ohm; find the cell constant given the KCl conductivity as 0.146 times ten to the minus 3 S per cm.",
+    "The conductivity of 0.00241 M acetic acid is 7.896e-5 S per cm and its lambda naught is 390.5 S cm2 per mol; find the dissociation constant."
+   ]
+  },
+  {
+   "id": "lech102_ex4",
+   "source_ref": "lech102.txt Exercises 2.12-2.16",
+   "questions": [
+    "How much charge reduces (i) 1 mol of Al3+ to Al, (ii) 1 mol of Cu2+ to Cu, (iii) 1 mol of MnO4 minus to Mn2+?",
+    "How many Faradays produce 20.0 g of Ca from molten CaCl2 or 40.0 g of Al from molten Al2O3?",
+    "A Ni(NO3)2 solution is electrolysed at 5 A for 20 minutes; what mass of nickel deposits at the cathode?"
+   ]
+  }
+ ]
 }

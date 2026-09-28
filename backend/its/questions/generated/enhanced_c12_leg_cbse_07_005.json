@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_07_005",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_07_005",
+   "title": "c12_leg_cbse_07_005",
+   "questions": [
+    {
+     "q": "Which constitutional article was interpreted by the Supreme Court to include the \"right to a clean and healthy environment\" as part of the right to life?",
+     "a": "Article 21. A wrong answer (e.g., Article 48A or 51A(g)) reveals confusion between fundamental rights (enforceable by courts) and directive principles/fundamental duties (non-justiciable guiding principles). Article 48A directs the State; Article 51A(g) imposes a duty on citizens; only Article 21 creates a justiciable right enforceable via writ petitions under Article 32/226.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between the \"precautionary principle\" and the \"polluter pays principle\" in Indian environmental law. Give one case where each was applied.",
+     "a": "Precautionary principle: When there is threat of serious/irreversible damage, lack of full scientific certainty shall not postpone cost-effective preventive measures (Vellore Citizens Welfare Forum v. Union of India, 1996). Polluter pays principle: The polluter bears the cost of pollution prevention and remediation, not the public (Indian Council for Enviro-Legal Action v. Union of India, 1996). A wrong answer conflating them shows failure to distinguish preventive vs. remedial cost allocation — a frequent board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "A thermal power plant operates without valid consent under the Air (Prevention and Control of Pollution) Act, 1981. The State Pollution Control Board issues a closure direction. The plant challenges it, claiming it provides essential electricity. Which forum has jurisdiction to hear this dispute, and what principle guides the court's balancing?",
+     "a": "The National Green Tribunal (NGT) has jurisdiction under Section 14 of the NGT Act, 2010 for substantial questions relating to environment. The court applies \"sustainable development\" balancing — not automatic closure but directions for pollution control equipment, bank guarantees, or phased compliance (Sterlite Industries case). A wrong answer naming High Court under Article 226 misses the NGT's specialized original jurisdiction; missing the balancing principle shows inability to apply the concept beyond rote recall.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Stockholm Declaration (1972) and Rio Declaration (1992) on two points: (a) anthropocentric vs. ecocentric focus, and (b) legal nature (soft law vs. treaty). How did each influence Indian law?",
+     "a": "(a) Stockholm: anthropocentric (\"man is creator and moulder of his surroundings\"); Rio: ecocentric (\"human beings are at the centre of concerns for sustainable development\" but with ecosystem integrity). (b) Both are soft law (declarations), but Rio produced binding treaties (UNFCCC, CBD). Indian influence: Stockholm inspired 42nd Amendment (Articles 48A, 51A(g)); Rio led to Environment Protection Act 1986, NGT Act 2010, and judicial adoption of Principles 10, 15, 16 (public participation, precautionary, polluter pays). A weak answer treats both as identical or misses the shift from human-centric to ecosystem-centric framing.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"The National Green Tribunal is just a faster court for environmental cases; it has no power to award compensation for environmental damage.\" Use statutory provisions and case law.",
+     "a": "The statement is incorrect. Section 15 of the NGT Act, 2010 explicitly empowers the NGT to award compensation for damage to the environment, including restitution of ecology. In Sterlite Industries (2013), NGT imposed ₹100 crore for environmental restoration. The NGT also applies the \"polluter pays\" principle substantively, not just procedurally. A student agreeing with the statement confuses NGT with ordinary civil courts and ignores its sui generis jurisdiction combining judicial and expert members.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 3-step legal strategy for a citizens' group challenging a proposed mining project in a Schedule V area that threatens a river's source. Your strategy must use: (i) a constitutional provision, (ii) a statutory requirement, and (iii) an international principle recognized in Indian law.",
+     "a": "Step 1: File writ petition under Article 226 (High Court) or Article 32 (Supreme Court) invoking Article 21 (right to clean water/environment) and PESA Act 1996 (Gram Sabha consent mandatory in Schedule V areas). Step 2: Challenge environmental clearance under EIA Notification 2006 (statutory) for flawed public hearing or inadequate cumulative impact assessment. Step 3: Argue \"precautionary principle\" (Vellore Citizens) and \"intergenerational equity\" (Rio Principle 3) — the burden of proof shifts to the project proponent to show no irreversible harm. A poor answer omits PESA/Gram Sabha or treats international principles as merely persuasive, not legally operative in Indian courts.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

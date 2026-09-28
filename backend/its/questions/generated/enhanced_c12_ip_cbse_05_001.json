@@ -34,6 +34,21 @@
      "q": "Create a real-world analogy (different from the road/vehicle analogy) that explains the relationship between the Internet and the World Wide Web. Explain each component of your analogy.",
      "a": "Example analogy: The Internet is the electrical grid (wires, transformers, power plants); the Web is the set of appliances (TV, refrigerator, lights) that use electricity to provide specific services. Other Internet services (email, VoIP) are other appliances. The grid can exist without appliances (but is useless), and appliances cannot work without the grid. A poor analogy would be one where the Web is a subset of the Internet but the analogy implies they are the same thing (e.g., \"Internet is a library, Web is a book\" – but a library contains books, so the Web would be part of the Internet, which is correct, but the analogy fails to show that other services exist). A good analogy must show the Internet as infrastructure and the Web as one of many services.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Internet is the global hardware ______ of interconnected computers and networking devices that enables data transmission, while the World Wide Web (WWW) is an information system of interlinked hypertext documents (web pages) accessed via the Internet using browsers.",
+     "a": "infrastructure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"When you send a ______ message, are you using the Internet or the Web?",
+     "a": "WhatsApp",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can clearly articulate the distinction between the Internet (network infrastructure) and the Web (information service), give at least two examples of Internet services that are not the Web (e.g., email, VoIP), and explain why the Web cannot exist without the Internet but the Internet can exist without the Web.",
+     "self_check": true
     }
    ]
   }

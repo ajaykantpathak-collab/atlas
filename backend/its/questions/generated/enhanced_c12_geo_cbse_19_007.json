@@ -34,6 +34,36 @@
      "q": "Design a geographical investigation to compare the dispersion of literacy rates across districts of two Indian states (e.g., Kerala and Bihar) using quartile deviation and mean deviation. Outline the steps and the expected interpretation.",
      "a": "Steps: 1) Collect district-wise literacy rates for both states. 2) Compute Q1, Q3, QD and mean deviation about median for each state. 3) Compare QD values: higher QD indicates greater spread in middle 50%. 4) Compare MD: higher MD indicates greater average deviation. 5) Interpret: Kerala likely has lower QD and MD (more uniform), Bihar higher (more disparity). A poor answer would just compute without geographical interpretation, missing the purpose of dispersion analysis in regional planning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Quartile Deviation (QD) is half the difference between the upper quartile (Q3) and lower quartile (Q1), measuring the spread of the middle 50% of ______ data.",
+     "a": "geographical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by observing the ______ in monsoon rainfall across districts of Kerala: some districts receive 3000 mm while others receive 1800 mm.",
+     "a": "variability",
+     "self_check": true
+    },
+    {
+     "q": "What is Quartile Deviation (QD)? State the definition given in this lesson.",
+     "a": "Quartile Deviation (QD) is half the difference between the upper quartile (Q3) and lower quartile (Q1), measuring the spread of the middle 50% of geographical data.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The range (max-min) is ______ mm, but it is influenced by extremes.",
+     "a": "1200",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Quartile Deviation (QD)?",
+     "a": "Students often think quartile deviation and mean deviation are interchangeable because both measure dispersion.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute quartile deviation and mean deviation for both ungrouped and grouped geographical datasets (e.g., district-wise rainfall, state-wise literacy rates), interpret their values in terms of data variability, and compare them with range and standard deviation to choose the appropriate measure for a given geographical.",
+     "self_check": true
     }
    ]
   }

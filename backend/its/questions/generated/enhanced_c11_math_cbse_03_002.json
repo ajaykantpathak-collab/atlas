@@ -34,6 +34,31 @@
      "q": "Create a real-world problem (Indian context) that requires converting an angle from DMS format to radians, then using l = rθ to find an arc length. Provide the problem statement only.",
      "a": "Example problem: \"The minute hand of a clock on the Rajabai Tower in Mumbai is 1.2 m long. How far does its tip move in 20 minutes? (Use π = 22/7)\" A good answer will: (1) find angle turned = 20/60 × 360° = 120° = 2π/3 rad, (2) use l = rθ = 1.2 × 2π/3 = 0.8π m ≈ 2.51 m. A poor problem would omit the DMS step or the arc length application, showing the student cannot synthesise the two concepts.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The conversion between degree measure and radian measure is based on the ______ of a full revolution: 360° = 2π radians, which simplifies to the fundamental relation π radians = 180°.",
+     "a": "equivalence",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a Ferris ______ for a Diwali mela.",
+     "a": "wheel",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To convert an angle from degrees to radians, multiply the degree measure by π/______.",
+     "a": "180",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can fluently convert any angle measure between degrees (including DMS format) and radians (exact multiples of π and decimal approximations) in at least two steps, and can apply the conversion to solve problems involving arc length (l = rθ) and angular speed where the angle must be in radians.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a Ferris wheel for a Diwali mela.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

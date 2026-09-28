@@ -4,19 +4,13 @@
   {
    "id": "hegp.107.7.1",
    "title": "Similarity in Change (Proportional Change)",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "set up the proportion and solve for the unknown part",
-     "explain": "set up the proportion and solve for the unknown part: t1 = 25 / 5 gives 5",
-     "compute": "t1 = 25 / 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "similar change: width_new = width_old * factor and height_new = height_old * factor",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 25 : 50 in its simplest form and give the first term of the simplest form.",
-     "a": "5",
+     "a": "1",
      "self_check": false
     },
     {
@@ -49,19 +43,13 @@
   {
    "id": "hegp.107.7.2",
    "title": "Ratios and Proportion",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "set up the proportion and solve for the unknown part",
-     "explain": "set up the proportion and solve for the unknown part: t1 = 4 / 2 gives 2",
-     "compute": "t1 = 4 / 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "proportion: a : b :: c : d",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 4 : 20 in its simplest form and give the first term of the simplest form.",
-     "a": "2",
+     "a": "1",
      "self_check": false
     },
     {
@@ -95,6 +83,8 @@
    "id": "hegp.107.7.3",
    "title": "Simplest Form of a Ratio",
    "converted_to_compute": false,
+   "formula": "red_a = term_a / hcf; red_b = term_b / hcf",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 12 and 30 have HCF 6 with coprime multipliers 2 and 5. Verify by computing hcf = 6 x 1; then find the HCF value.",
@@ -132,6 +122,8 @@
    "id": "hegp.107.7.4",
    "title": "Missing Value in a Proportion",
    "converted_to_compute": false,
+   "formula": "x = c * b / a",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 10 : 80 in its simplest form and give the first term of the simplest form.",
@@ -169,6 +161,8 @@
    "id": "hegp.107.7.5",
    "title": "Sharing a Whole in a Given Ratio",
    "converted_to_compute": false,
+   "formula": "group = total / (part_a + part_b); share_a = group * part_a",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 4 : 48 in its simplest form and give the first term of the simplest form.",
@@ -206,10 +200,12 @@
    "id": "hegp.107.7.6",
    "title": "Unit Conversions and Temperature",
    "converted_to_compute": false,
+   "formula": "fahrenheit = 9 / 5 * celsius + 32",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 10 : 20 in its simplest form and give the first term of the simplest form.",
-     "a": "5",
+     "a": "1",
      "self_check": false
     },
     {

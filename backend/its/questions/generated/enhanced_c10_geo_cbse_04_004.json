@@ -34,6 +34,31 @@
      "q": "Design a cropping pattern for a 5-hectare farm in the Terai region of Uttarakhand that has high rainfall (200 cm), fertile alluvial soil, hot summers, and cool winters. The farmer has access to canal irrigation. Specify which two crops (from Rice, Wheat, Maize, Millets) to grow in sequence, and explain the geographical reasoning for each choice.",
      "a": "Crop sequence: Kharif — Rice; Rabi — Wheat.  \nReasoning for Rice (Kharif): Terai receives >200 cm rainfall (meets rice's 150–300 cm need), has hot humid summers (>25°C), and water-retentive alluvial soil — ideal for transplanted paddy. Canal irrigation supplements any dry spells.  \nReasoning for Wheat (Rabi): Winters are cool (10–15°C), canal irrigation ensures moisture for Rabi season, and the same alluvial soil is well-drained after monsoon — perfect for wheat's 50–75 cm water need and temperature profile.  \nMaize is less suitable because waterlogging in Kharif harms it; Millets are unsuitable due to excess moisture.  \nA poor answer that suggests Millets or Maize in Kharif shows the student cannot match crop water tolerance to actual rainfall — a map-based application error.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Major crops (Rice, Wheat, Maize, Millets) are staple food grains whose cultivation in India is determined by specific climatic ______ (temperature, rainfall, season), soil types, and irrigation availability, leading to distinct geographical distribution patterns across the country's agro-climatic zones.",
+     "a": "requirements",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: ask the student to ______ the last meal they ate — chances are it contained rice or wheat (roti).",
+     "a": "recall",
+     "self_check": true
+    },
+    {
+     "q": "What is Major crops (Rice, Wheat, Maize, Millets)? State the definition given in this lesson.",
+     "a": "Major crops (Rice, Wheat, Maize, Millets) are staple food grains whose cultivation in India is determined by specific climatic requirements (temperature, rainfall, season), soil types, and irrigation availability, leading to distinct geographical distribution patterns across the country's agro-climatic zones.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Major crops (Rice, Wheat, Maize, Millets)?",
+     "a": "Students often believe millets are grown only in \"dry, barren lands\" and therefore assume they need no water at all.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the specific temperature, rainfall, and soil requirements for each of the four crops, identify their major producing states on an outline map of India, and link the cropping season (Kharif/Rabi) to the monsoon cycle and temperature regimes.",
+     "self_check": true
     }
    ]
   }

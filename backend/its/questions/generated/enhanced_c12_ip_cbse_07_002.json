@@ -34,6 +34,31 @@
      "q": "Design a password creation strategy for a visually impaired user who relies on screen readers and cannot easily type special characters. The strategy must yield ≥ 80 bits of entropy, be memorable, and avoid ambiguous characters (e.g., 1/l/I, 0/O). Describe the method and compute its entropy.",
      "a": "**Example strategy:** Diceware with a 7776-word list (6⁵), using 7 words separated by spaces.  \n- Entropy = 7 × log₂(7776) = 7 × 12.9 ≈ 90 bits.  \n- Screen reader reads each word clearly; spaces are easy to type; no special chars needed.  \n- Avoids ambiguous chars by using only dictionary words.  \n**Good answer criteria:** Specifies word list size, number of words, entropy calculation, and accessibility justification.  \n**Poor answer reveals:** Suggests \"long sentence\" without quantifying vocabulary size, or uses character-substitution patterns that screen readers announce confusingly (e.g., \"at sign\" for @).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A strong password is a secret authentication string that resists guessing, brute-force, and dictionary attacks by maximizing entropy through sufficient length, character-set diversity, ______, and uniqueness across accounts.",
+     "a": "unpredictability",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your friend's Instagram account gets hacked because they used \"cricket2024\" as their ______ — the attacker simply tried their favorite sport plus the current year.",
+     "a": "password",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It must be at least ______ characters long, combine uppercase, lowercase, digits, and symbols, avoid dictionary words or personal information, and be generated randomly or via a high-entropy mnemonic technique.",
+     "a": "12",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) calculate the approximate entropy of a given password using the formula H = L × log₂(N), (2) generate a strong password using at least two distinct creation strategies (e.g., diceware passphrase + padding), and (3) explain why common patterns like \"Password@123\" or \"Tr0ub4dor&3\" fail against modern cracking tools.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your friend's ______ account gets hacked because they used \"cricket2024\" as their password — the attacker simply tried their favorite sport plus the current year.",
+     "a": "Instagram",
+     "self_check": true
     }
    ]
   }

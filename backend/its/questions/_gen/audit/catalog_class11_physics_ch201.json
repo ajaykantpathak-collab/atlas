@@ -1,0 +1,521 @@
+{
+ "catalog": "catalog_class11_physics_ch201.json",
+ "concepts": [
+  {
+   "id": "keph.201.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "force = 824",
+      "area = 83",
+      "stress = force / area"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "force = 628",
+      "area = 79",
+      "stress = force / area"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "force = 867",
+      "area = 52",
+      "stress = force / area"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "force = 93",
+      "area = 37",
+      "stress = force / area"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "force = 315",
+      "area = 74",
+      "stress = force / area"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "force = 505",
+      "area = 35",
+      "stress = force / area"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "stress = force / area"
+   ]
+  },
+  {
+   "id": "keph.201.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "delta_L = 6",
+      "length = 162",
+      "strain = delta_L / length"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "delta_L = 43",
+      "length = 387",
+      "strain = delta_L / length"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "delta_L = 75",
+      "length = 312",
+      "strain = delta_L / length"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "delta_L = 28",
+      "length = 208",
+      "strain = delta_L / length"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "delta_L = 74",
+      "length = 213",
+      "strain = delta_L / length"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "delta_L = 64",
+      "length = 425",
+      "strain = delta_L / length"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "strain = delta_L / length"
+   ]
+  },
+  {
+   "id": "keph.201.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "force = 733",
+      "length = 246",
+      "area = 12.3",
+      "delta_L = 4.8",
+      "young_modulus = (force * length) / (area * delta_L)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "force = 891",
+      "length = 172",
+      "area = 71",
+      "delta_L = 17.5",
+      "young_modulus = (force * length) / (area * delta_L)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "force = 156",
+      "length = 8.8",
+      "area = 48",
+      "delta_L = 96",
+      "young_modulus = (force * length) / (area * delta_L)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "force = 482",
+      "length = 283",
+      "area = 84",
+      "delta_L = 65",
+      "young_modulus = (force * length) / (area * delta_L)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "force = 832",
+      "length = 419",
+      "area = 82",
+      "delta_L = 54",
+      "young_modulus = (force * length) / (area * delta_L)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "force = 713",
+      "length = 252",
+      "area = 50",
+      "delta_L = 68",
+      "young_modulus = (force * length) / (area * delta_L)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "young_modulus = (force * length) / (area * delta_L)"
+   ]
+  },
+  {
+   "id": "keph.201.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "force = 330",
+      "height = 73",
+      "area = 98",
+      "displacement = 462",
+      "shear_modulus = (force * height) / (area * displacement)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "force = 492",
+      "height = 173",
+      "area = 94",
+      "displacement = 421",
+      "shear_modulus = (force * height) / (area * displacement)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "force = 911",
+      "height = 341",
+      "area = 48",
+      "displacement = 76",
+      "shear_modulus = (force * height) / (area * displacement)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "force = 166",
+      "height = 382",
+      "area = 46",
+      "displacement = 214",
+      "shear_modulus = (force * height) / (area * displacement)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "force = 966",
+      "height = 383",
+      "area = 59",
+      "displacement = 402",
+      "shear_modulus = (force * height) / (area * displacement)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "force = 322",
+      "height = 481",
+      "area = 18.6",
+      "displacement = 301",
+      "shear_modulus = (force * height) / (area * displacement)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "shear_modulus = (force * height) / (area * displacement)"
+   ]
+  },
+  {
+   "id": "keph.201.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "pressure = 495",
+      "volume = 57",
+      "delta_volume = 47",
+      "bulk_modulus = pressure * volume / delta_volume"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "pressure = 479",
+      "volume = 81",
+      "delta_volume = 18.5",
+      "bulk_modulus = pressure * volume / delta_volume"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "pressure = 322",
+      "volume = 13.9",
+      "delta_volume = 111",
+      "bulk_modulus = pressure * volume / delta_volume"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "pressure = 86",
+      "volume = 42",
+      "delta_volume = 80",
+      "bulk_modulus = pressure * volume / delta_volume"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "pressure = 461",
+      "volume = 14.6",
+      "delta_volume = 41",
+      "bulk_modulus = pressure * volume / delta_volume"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "pressure = 422",
+      "volume = 47",
+      "delta_volume = 63",
+      "bulk_modulus = pressure * volume / delta_volume"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "bulk_modulus = pressure * volume / delta_volume"
+   ]
+  },
+  {
+   "id": "keph.201.6",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "stress = 55",
+      "strain = 81",
+      "energy_density = 0.5 * stress * strain"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "stress = 77",
+      "strain = 83",
+      "energy_density = 0.5 * stress * strain"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "stress = 27",
+      "strain = 50",
+      "energy_density = 0.5 * stress * strain"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "stress = 73",
+      "strain = 6.7",
+      "energy_density = 0.5 * stress * strain"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "stress = 59",
+      "strain = 89",
+      "energy_density = 0.5 * stress * strain"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "stress = 7.8",
+      "strain = 98",
+      "energy_density = 0.5 * stress * strain"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "energy_density = 0.5 * stress * strain"
+   ]
+  },
+  {
+   "id": "keph.201.7",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "load = 347",
+      "length = 131",
+      "breadth = 96",
+      "depth = 270",
+      "young_modulus = 56",
+      "sag = (load * length**3) / (4 * breadth * depth**3 * young_modulus)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "load = 668",
+      "length = 54",
+      "breadth = 57",
+      "depth = 61",
+      "young_modulus = 63",
+      "sag = (load * length**3) / (4 * breadth * depth**3 * young_modulus)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "load = 876",
+      "length = 439",
+      "breadth = 93",
+      "depth = 473",
+      "young_modulus = 99",
+      "sag = (load * length**3) / (4 * breadth * depth**3 * young_modulus)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "load = 252",
+      "length = 244",
+      "breadth = 75",
+      "depth = 406",
+      "young_modulus = 78",
+      "sag = (load * length**3) / (4 * breadth * depth**3 * young_modulus)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "load = 217",
+      "length = 237",
+      "breadth = 73",
+      "depth = 160",
+      "young_modulus = 31",
+      "sag = (load * length**3) / (4 * breadth * depth**3 * young_modulus)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "load = 306",
+      "length = 215",
+      "breadth = 48",
+      "depth = 97",
+      "young_modulus = 19.7",
+      "sag = (load * length**3) / (4 * breadth * depth**3 * young_modulus)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "sag = (load * length**3) / (4 * breadth * depth**3 * young_modulus)"
+   ]
+  },
+  {
+   "id": "keph.201.9",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "delta_d = 81",
+      "d = 48",
+      "delta_L = 2.4",
+      "L = 32",
+      "poisson_ratio = (delta_d / d) / (delta_L / L)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "delta_d = 46",
+      "d = 54",
+      "delta_L = 24",
+      "L = 7.6",
+      "poisson_ratio = (delta_d / d) / (delta_L / L)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "delta_d = 4.4",
+      "d = 78",
+      "delta_L = 72",
+      "L = 43",
+      "poisson_ratio = (delta_d / d) / (delta_L / L)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "delta_d = 33",
+      "d = 82",
+      "delta_L = 74",
+      "L = 20",
+      "poisson_ratio = (delta_d / d) / (delta_L / L)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "delta_d = 60",
+      "d = 72",
+      "delta_L = 100",
+      "L = 35",
+      "poisson_ratio = (delta_d / d) / (delta_L / L)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "delta_d = 12.2",
+      "d = 5.6",
+      "delta_L = 21",
+      "L = 51",
+      "poisson_ratio = (delta_d / d) / (delta_L / L)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "poisson_ratio = (delta_d / d) / (delta_L / L)"
+   ]
+  }
+ ]
+}

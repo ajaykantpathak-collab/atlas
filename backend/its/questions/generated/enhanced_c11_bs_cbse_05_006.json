@@ -34,6 +34,36 @@
      "q": "Design a 3-column \"Outsourcing Decision Matrix\" for a mid-sized Indian auto-component manufacturer. Columns: Activity, Core/Non-Core (with 1-line reason), Outsource? (Yes/No with primary basis: Cost/Expertise/Focus). Include at least 6 activities spanning manufacturing, R&D, and support functions.",
      "a": "Example rows: (1) CNC machining of engine blocks — Core (proprietary tolerances) — No; (2) Heat treatment — Non-core (standardised process) — Yes, Cost; (3) Material science research — Core (future IP) — No; (4) Prototype 3D printing — Non-core (intermittent need) — Yes, Expertise; (5) Canteen services — Non-core (zero strategic value) — Yes, Cost; (6) GST return filing — Non-core (compliance) — Yes, Expertise. A matrix missing \"reason\" column or using only \"Cost\" basis shows superficial application.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Outsourcing is the strategic business practice of contracting out non-core or routine activities to external specialized agencies or third-party service providers, enabling the firm to focus on its core ______ while leveraging external expertise, cost efficiencies, and operational flexibility.",
+     "a": "competencies",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small but growing cloud-kitchen ______ in Bengaluru.",
+     "a": "startup",
+     "self_check": true
+    },
+    {
+     "q": "What is Outsourcing? State the definition given in this lesson.",
+     "a": "Outsourcing is the strategic business practice of contracting out non-core or routine activities to external specialized agencies or third-party service providers, enabling the firm to focus on its core competencies while leveraging external expertise, cost efficiencies, and operational flexibility.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Your core competency is creating innovative fusion recipes and managing food quality — but you spend ______% of your day handling payroll, cleaning, and delivery logistics.",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Outsourcing?",
+     "a": "Students equate outsourcing exclusively with *offshoring* (sending work overseas) or *IT/BPO* (call centres, coding).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) distinguish outsourcing from offshoring and subcontracting using precise terminology, (2) classify a given business activity as core or non-core and justify whether it is suitable for outsourcing, and (3) explain the three primary bases (cost, expertise, strategic focus) with a real-world Indian example.",
+     "self_check": true
     }
    ]
   }

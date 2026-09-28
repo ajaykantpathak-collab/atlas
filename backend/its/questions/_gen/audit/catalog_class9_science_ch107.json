@@ -1,0 +1,575 @@
+{
+ "catalog": "catalog_class9_science_ch107.json",
+ "concepts": [
+  {
+   "id": "iesc.107.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "force = 312",
+      "displacement = 14.1",
+      "work = force * displacement"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "force = 312",
+      "displacement = 14.1",
+      "work = force * displacement"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "force = 757",
+      "displacement = 209",
+      "work = force * displacement"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "force = 757",
+      "displacement = 209",
+      "work = force * displacement"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "force = 960",
+      "displacement = 308",
+      "work = force * displacement"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "force = 960",
+      "displacement = 308",
+      "work = force * displacement"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "work = force * displacement"
+   ]
+  },
+  {
+   "id": "iesc.107.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "force = 306",
+      "displacement = 362",
+      "work = -1 * force * displacement"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "force = 306",
+      "displacement = 362",
+      "work = -1 * force * displacement"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "force = 116",
+      "displacement = 134",
+      "work = -1 * force * displacement"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "force = 116",
+      "displacement = 134",
+      "work = -1 * force * displacement"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "force = 33",
+      "displacement = 57",
+      "work = -1 * force * displacement"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "force = 33",
+      "displacement = 57",
+      "work = -1 * force * displacement"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "work = -1 * force * displacement"
+   ]
+  },
+  {
+   "id": "iesc.107.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mass = 91",
+      "velocity = 81",
+      "kinetic_energy = 0.5 * mass * (velocity ** 2)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mass = 91",
+      "velocity = 81",
+      "kinetic_energy = 0.5 * mass * (velocity ** 2)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mass = 190",
+      "velocity = 66",
+      "kinetic_energy = 0.5 * mass * (velocity ** 2)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mass = 190",
+      "velocity = 66",
+      "kinetic_energy = 0.5 * mass * (velocity ** 2)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mass = 140",
+      "velocity = 13.9",
+      "kinetic_energy = 0.5 * mass * (velocity ** 2)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mass = 140",
+      "velocity = 13.9",
+      "kinetic_energy = 0.5 * mass * (velocity ** 2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "kinetic_energy = 0.5 * mass * (velocity ** 2)"
+   ]
+  },
+  {
+   "id": "iesc.107.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mass = 69",
+      "height = 440",
+      "potential_energy = mass * g * height"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mass = 69",
+      "height = 440",
+      "potential_energy = mass * g * height"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mass = 183",
+      "height = 28",
+      "potential_energy = mass * g * height"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mass = 183",
+      "height = 28",
+      "potential_energy = mass * g * height"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mass = 111",
+      "height = 315",
+      "potential_energy = mass * g * height"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mass = 111",
+      "height = 315",
+      "potential_energy = mass * g * height"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "potential_energy = mass * g * height"
+   ]
+  },
+  {
+   "id": "iesc.107.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "height = 170",
+      "velocity = sqrt(2 * g * height)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "height = 170",
+      "velocity = sqrt(2 * g * height)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "height = 466",
+      "velocity = sqrt(2 * g * height)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "height = 466",
+      "velocity = sqrt(2 * g * height)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "height = 63",
+      "velocity = sqrt(2 * g * height)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "height = 63",
+      "velocity = sqrt(2 * g * height)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "velocity = sqrt(2 * g * height)"
+   ]
+  },
+  {
+   "id": "iesc.107.6",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "work = 1504",
+      "time = 26",
+      "power = work / time"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "work = 1504",
+      "time = 26",
+      "power = work / time"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "work = 777",
+      "time = 114",
+      "power = work / time"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "work = 777",
+      "time = 114",
+      "power = work / time"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "work = 3404",
+      "time = 51",
+      "power = work / time"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "work = 3404",
+      "time = 51",
+      "power = work / time"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "power = work / time"
+   ]
+  },
+  {
+   "id": "iesc.107.7",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "load = 630",
+      "effort = 92",
+      "mechanical_advantage = load / effort"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "load = 630",
+      "effort = 92",
+      "mechanical_advantage = load / effort"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "load = 748",
+      "effort = 67",
+      "mechanical_advantage = load / effort"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "load = 748",
+      "effort = 67",
+      "mechanical_advantage = load / effort"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "load = 65",
+      "effort = 94",
+      "mechanical_advantage = load / effort"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "load = 65",
+      "effort = 94",
+      "mechanical_advantage = load / effort"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "mechanical_advantage = load / effort"
+   ]
+  },
+  {
+   "id": "iesc.107.8",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "length = 227",
+      "height = 421",
+      "mechanical_advantage = length / height"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "length = 227",
+      "height = 421",
+      "mechanical_advantage = length / height"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "length = 464",
+      "height = 334",
+      "mechanical_advantage = length / height"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "length = 464",
+      "height = 334",
+      "mechanical_advantage = length / height"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "length = 240",
+      "height = 457",
+      "mechanical_advantage = length / height"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "length = 240",
+      "height = 457",
+      "mechanical_advantage = length / height"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "mechanical_advantage = length / height"
+   ]
+  },
+  {
+   "id": "iesc.107.9",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "load = 843",
+      "load_arm = 23",
+      "effort_arm = 50",
+      "effort = (load * load_arm) / effort_arm"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "load = 843",
+      "load_arm = 23",
+      "effort_arm = 50",
+      "effort = (load * load_arm) / effort_arm"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "load = 385",
+      "load_arm = 471",
+      "effort_arm = 89",
+      "effort = (load * load_arm) / effort_arm"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "load = 385",
+      "load_arm = 471",
+      "effort_arm = 89",
+      "effort = (load * load_arm) / effort_arm"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "load = 120",
+      "load_arm = 289",
+      "effort_arm = 28",
+      "effort = (load * load_arm) / effort_arm"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "load = 120",
+      "load_arm = 289",
+      "effort_arm = 28",
+      "effort = (load * load_arm) / effort_arm"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "effort = (load * load_arm) / effort_arm"
+   ]
+  },
+  {
+   "id": "iesc.107.10",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "effort_arm = 108",
+      "load_arm = 994",
+      "mechanical_advantage = effort_arm / load_arm"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "effort_arm = 108",
+      "load_arm = 994",
+      "mechanical_advantage = effort_arm / load_arm"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "effort_arm = 33",
+      "load_arm = 510",
+      "mechanical_advantage = effort_arm / load_arm"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "effort_arm = 33",
+      "load_arm = 510",
+      "mechanical_advantage = effort_arm / load_arm"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "effort_arm = 92",
+      "load_arm = 444",
+      "mechanical_advantage = effort_arm / load_arm"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "effort_arm = 92",
+      "load_arm = 444",
+      "mechanical_advantage = effort_arm / load_arm"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "mechanical_advantage = effort_arm / load_arm"
+   ]
+  }
+ ]
+}

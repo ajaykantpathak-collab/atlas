@@ -34,6 +34,31 @@
      "q": "Design a simple *in vitro* experiment using isolated myofibrils, fluorescent calcium indicators, and ATP analogs to distinguish whether a new drug inhibits the **ryanodine receptor (RyR)** or the **SERCA pump**. Describe the expected fluorescence trace for each case.",
      "a": "**Experiment:** Load isolated myofibrils with a fluorescent Ca²⁺ indicator (e.g., Fluo-4). Stimulate electrically to trigger an action potential. Perfuse with: (1) Control (normal ATP), (2) Drug + ATP, (3) Drug + non-hydrolyzable ATP analog (e.g., AMP-PNP). Measure fluorescence (proportional to [Ca²⁺]cyt) over time.\n*   **RyR Inhibitor:** Upon stimulation, **no rapid fluorescence rise** (no Ca²⁺ release from SR). Baseline stays low. Adding AMP-PNP doesn't change this (release is blocked upstream).\n*   **SERCA Inhibitor:** Upon stimulation, **rapid fluorescence rise** (normal release via RyR), but **no decay phase** (fluorescence stays high) because Ca²⁺ cannot be pumped back. With AMP-PNP (no ATP hydrolysis), even control shows no decay.\n**Criteria for good answer:** Correctly identifies the distinct kinetic signatures (release vs. reuptake) and the role of ATP hydrolysis in SERCA function. A poor answer (e.g., \"both show no contraction\") reveals the student cannot decouple the release and reuptake steps or understand the ATP-dependence of SERCA vs. the voltage-dependence of RyR.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Excitation-contraction coupling is the ______ process by which an electrical signal (action potential) at the neuromuscular junction triggers the release of calcium ions from the sarcoplasmic reticulum, leading to the exposure of myosin-binding sites on actin filaments and the initiation of the cross-bridge cycle, resulting in skeletal muscle contraction.",
+     "a": "physiological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Your brain sends a ______, but how does that \"decision\" actually pull your forearm bones closer?",
+     "a": "signal",
+     "self_check": true
+    },
+    {
+     "q": "What is Excitation-contraction coupling? State the definition given in this lesson.",
+     "a": "Excitation-contraction coupling is the physiological process by which an electrical signal (action potential) at the neuromuscular junction triggers the release of calcium ions from the sarcoplasmic reticulum, leading to the exposure of myosin-binding sites on actin filaments and the initiation of the cross-bridge cycle, resulting in.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Excitation-contraction coupling?",
+     "a": "Misconception: \"Calcium binds directly to actin to expose myosin-binding sites.\" Exact Wrong Reasoning: Students memorize \"calcium exposes binding sites\" but confuse the *target* of calcium binding.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to sequentially explain the events from motor neuron signaling to sarcomere shortening, including the specific roles of acetylcholine, voltage-gated calcium channels, troponin-tropomyosin complex, ATP hydrolysis, and cross-bridge cycling, and predict the effect of disrupting any single step (e.g., calcium.",
+     "self_check": true
     }
    ]
   }

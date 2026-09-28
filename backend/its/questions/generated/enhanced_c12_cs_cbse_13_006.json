@@ -34,6 +34,36 @@
      "q": "Design a **Responsible AI Checklist** for a state government deploying an AI system to auto-approve/reject ration card applications. The checklist must have 5 items — each a *verifiable action* (not a vague principle), covering: data, model, deployment, redressal, and governance. Write as if for a Government Order (GO).",
      "a": "**Correct answer (sample GO-style checklist):**  \n1. **Data Provenance & Representativeness:** Training data must include ≥95% of target population segments (SC/ST, women-headed households, PVTGs, urban homeless, inter-state migrants) with documented source, collection date, consent mechanism. *Verification:* Third-party data audit report attached to GO.  \n2. **Model Fairness Certification:** Model must pass disparate impact test: approval rate ratio between any two protected groups (gender, caste, disability, region) ∈ [0.8, 1.25]. *Verification:* Open-source fairness metrics (demographic parity, equalized odds) published on state portal; model card (per Mitchell et al.) submitted.  \n3. **Deployment Guardrails:** (a) No auto-rejection — all rejections flagged for human case-worker review within 7 working days. (b) Edge-case escalation: applications with missing biometrics, address mismatch, or name variants routed to manual track *by default*. *Verification:* System logs show 0% auto-rejections; SLA dashboard public.  \n4. **Accessible Redressal:** Multi-channel appeal (WhatsApp chatbot in 12 languages, toll-free IVR, CSC kiosk, postcard) with tracking ID. Resolution within 15 days; interim ration entitlement continues during appeal. *Verification:* Monthly redressal analytics (volume, TAT, outcome) published.  \n5. **Governance & Sunset:** (a) Quarterly independent audit by empaneled agency (not vendor). (b) Annual \"Algorithmic Transparency Report\" laid in Legislative Assembly. (c) **Sunset clause:** System auto-expires in 24 months unless renewed with evidence of reduced exclusion errors. *Verification:* Audit reports and Assembly debate records public.  \nA poor answer lists principles (\"fairness\", \"transparency\") without *verifiable, measurable, time-bound actions* — the hallmark of performative ethics vs. enforceable governance.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ Intelligence (AI) refers to the simulation of human intelligence in machines programmed to think, learn, and make decisions like humans.",
+     "a": "Artificial",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you apply for an ______ loan through a bank's new \"instant approval\" app.",
+     "a": "education",
+     "self_check": true
+    },
+    {
+     "q": "What is Artificial Intelligence (AI)? State the definition given in this lesson.",
+     "a": "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines programmed to think, learn, and make decisions like humans.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The app scans your phone data — contacts, location, browsing history, typing speed — and within ______ seconds rejects your application with no explanation.",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Artificial Intelligence (AI)?",
+     "a": "Misconception: \"AI bias is a technical bug that better algorithms or more data will fix.\" Why students think this: They equate AI with code — if code has a bug, debug it.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can evaluate a real-world AI deployment (e.g., AI-based loan approval, facial recognition in policing, crop disease detection) by identifying the societal benefits, ethical risks (bias, privacy, transparency), and mitigation strategies, and articulate a reasoned position on responsible AI use in the Indian context.",
+     "self_check": true
     }
    ]
   }

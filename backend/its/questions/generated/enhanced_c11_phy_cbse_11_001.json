@@ -34,6 +34,21 @@
      "q": "Design a simple classroom experiment using a syringe (sealed at the tip) and a thermometer to demonstrate the difference between a closed system with a movable boundary and a closed system with a fixed boundary. Describe what you would observe in each case when you compress the gas quickly.",
      "a": "Experiment: (1) Seal syringe tip, place thermometer at tip (or use infrared). Compress plunger rapidly (adiabatic compression): temperature rises, volume decreases, pressure increases – movable boundary allows work input. (2) Lock plunger at fixed volume, immerse syringe in hot water: temperature rises, pressure increases, volume constant – fixed boundary, only heat transfer. Good answer identifies work vs heat as energy transfer modes. Poor answer misses the role of boundary mobility in allowing work.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A thermodynamic system is a specific portion of the universe (a definite quantity of matter or a region in space) chosen for thermodynamic analysis, ______ from the rest of the universe by a real or imaginary boundary.",
+     "a": "separated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a pressure cooker on a stove: the water and steam inside constitute the system, the metal pot is the boundary, and the kitchen air, stove flame, and countertop are the ______.",
+     "a": "surroundings",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify a given real-world scenario (e.g., a pressure cooker, a hot water flask, the human body) as an open, closed, or isolated system and identify the nature of the boundary (diathermic/adiabatic, fixed/movable).",
+     "self_check": true
     }
    ]
   }

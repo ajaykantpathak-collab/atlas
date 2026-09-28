@@ -19,8 +19,8 @@ from collections import defaultdict
 
 # ─── Config ───
 API_KEYS = [
-    "sk-ant-co-QsK1rhxdfRWZ65OJ5cVxaAZ5ISNUY0lK",   # key 0 — used by this pipeline
-    "sk-ant-co-gIEUzRWw_mtUpxKk668B1lzJe3XntCna",    # key 1 — used by merge pipeline
+    "<redacted>",   # key 0 — used by this pipeline
+    "<redacted>",    # key 1 — used by merge pipeline
 ]
 API_URL = "https://api.claudeopus.pro/v1/messages"
 MODEL = "claude-opus-5"

@@ -34,6 +34,26 @@
      "q": "Create a pair of numbers greater than 100 where the Euclidean Division Method terminates in exactly two division steps. Explain your construction process.",
      "a": "An acceptable response provides two numbers, such as 210 and 150. Construction: Work backwards by choosing a target HCF like 30, multiplying it to form a divisor and quotient, and building the steps ($150 = 30 \\times 5$, so let second number be 150, and first number $150 \\times 1 + 30 = 180$, or similar sequence). A poor answer lists random numbers without checking the exact number of steps required.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Euclidean Division Method for finding the Highest Common Factor (HCF) is an efficient step-by-step procedure based on repeated division, where the last non-zero remainder ______ the HCF of two numbers.",
+     "a": "represents",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a school event coordinator dividing 156 long wooden desks and 96 plastic chairs into exact, ______ rows for an assembly, leaving no leftovers of either type.",
+     "a": "identical",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can apply the division lemma method to find the HCF of large numbers through repeated division and interpret why the process stops when the remainder becomes zero.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a school event ______ dividing 156 long wooden desks and 96 plastic chairs into exact, identical rows for an assembly, leaving no leftovers of either type.",
+     "a": "coordinator",
+     "self_check": true
     }
    ]
   }

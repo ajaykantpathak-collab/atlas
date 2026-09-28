@@ -34,6 +34,26 @@
      "q": "Design a one-day vegetarian menu for a 16-year-old girl (sedentary) that satisfies all five food group guidelines, includes a cereal-pulse combination at two meals, provides ≥1 serving raw vegetable/fruit, includes one milk serving, and keeps cereals ≤75% of total kcal. List foods with approximate weights and identify the food group for each item.",
      "a": "Sample menu (weights approximate):\nBreakfast: Ragi dosa (60g ragi + 20g urad dal — Group I + II) + coconut chutney (20g — Group V) + 1 orange (100g — Group IV, raw) — Group I, II, IV, V\nMid-morning: Roasted chana (30g — Group II)\nLunch: Rice (80g cooked — Group I) + sambar (50g toor dal + 50g mixed veg — Group II + IV) + curd (100g — Group III) + carrot salad (50g raw — Group IV) — Group I, II, III, IV\nEvening: Milk (200ml — Group III) + 2 almonds (Group II)\nDinner: Whole wheat chapati (2 × 30g — Group I) + paneer bhurji (50g paneer — Group III) + spinach (50g cooked — Group IV) — Group I, III, IV\nCereal kcal: ~800/2000 = 40% (<75%). All 5 groups daily. Cereal-pulse at breakfast & lunch. Raw fruit & veg included. Milk at two meals. A poor answer omits raw items, misses cereal-pulse pairing, or exceeds cereal kcal — showing failure to integrate multiple guidelines simultaneously.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The relationship between food, nutrition, health, and fitness is a causal chain where food provides nutrients, nutrition is the science of how nutrients act in the body (ingestion, digestion, absorption, metabolism, excretion), health is the WHO-defined state of complete physical, mental, and social well-being (not merely absence of disease), and fitness is the ______ capacity to perform work efficiently, resist disease, and meet emergencies — each link dependent on the adequacy and balance of the preceding one.",
+     "a": "physiological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a relatable scenario: \"Your friend skips breakfast, grabs a samosa for lunch, and feels too tired to play badminton by evening — which link in the food→nutrition→health→fitness chain broke?\" Guide students to identify that food choice (samosa = refined carb + fat, low ______) failed to supply nutrients for sustained energy metabolism (nutrition), causing blood glucose crashes that impair physical stamina (fitness) and concentration (mental health).",
+     "a": "micronutrients",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Use the NCERT Figure ______ (macronutrient/micronutrient split) to show that samosa provides macronutrients but negligible iron, B-vitamins, fibre — the micronutrients that enable macronutrient utilisation.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can trace a specific nutrient (e.g., iron) from its food source through digestion and absorption to its physiological function (haemoglobin synthesis), explain how its deficiency alters the WHO health dimensions (physical: fatigue; mental: reduced cognition; social: reduced participation), and justify why fitness (VO₂ max.",
+     "self_check": true
     }
    ]
   }

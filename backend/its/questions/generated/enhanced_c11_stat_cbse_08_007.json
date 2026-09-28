@@ -34,6 +34,36 @@
      "q": "Create a new numerical problem (with your own data for 2 commodities, 2 years) where Laspeyres index > Paasche index, and compute Fisher's Ideal Index. Then construct a second problem where Paasche > Laspeyres. Explain what economic situation each pattern reflects.",
      "a": "**Expected answer criteria:**\n- **Problem 1 (Laspeyres > Paasche):** e.g., Commodity A: \\( p_0=10, q_0=100, p_1=15, q_1=50 \\); Commodity B: \\( p_0=20, q_0=50, p_1=22, q_1=60 \\). Here price rise is larger for A, and consumers reduce A's consumption significantly (\\( q_1 < q_0 \\)) — substitution away from the good whose price rose most. Laspeyres (using \\( q_0 \\)) overweights the expensive good → higher index.\n- **Problem 2 (Paasche > Laspeyres):** e.g., Commodity A: \\( p_0=10, q_0=100, p_1=12, q_1=120 \\); Commodity B: \\( p_0=20, q_0=50, p_1=30, q_1=40 \\). Here price rise is larger for B, but consumers *increase* A's consumption (maybe income effect or preference shift). Paasche (using \\( q_1 \\)) overweights the good with larger price rise → higher index.\n- **Economic interpretation:** Laspeyres > Paasche → consumers substitute away from goods with higher price increases (normal substitution effect). Paasche > Laspeyres → consumers shift consumption *toward* goods with higher price increases (possible quality upgrade, necessity goods, or income effects dominating).\n\n**What a poor answer reveals:** If the student cannot create data where the inequality flips, they don't understand how quantity weights drive the difference. If they give no economic interpretation, they're doing arithmetic without economic reasoning. If both problems show same inequality direction, they haven't grasped the substitution effect mechanism.",
      "self_check": true
+    },
+    {
+     "q": "A market analyst computes a Laspeyres index of 125 and a Paasche index of 115 for rice prices between two years. Calculate Fisher's Ideal Index to one decimal place.",
+     "a": "Fisher's index is the geometric mean of the two: Fisher index = square root of (125 x 115) = 119.9 approximately. A wrong answer that takes the arithmetic mean 120 shows the student has missed that Fisher's formula takes the square root of the product, not the plain average.",
+     "self_check": true
+    },
+    {
+     "q": "Give the correct order of steps to compute Fisher's Ideal Index from raw price and quantity data of two years.",
+     "a": "The computation runs: (1) Sum the products of current prices and base quantities for Laspeyres (2) Sum the products of current prices and current quantities for Paasche (3) Divide each by its base-year total and multiply by 100 (4) Take the square root of the product of the two indices. A wrong answer that averages the two indices arithmetically shows the student has missed that Fisher's ideal form is the geometric mean, the step that lets it pass the reversal tests.",
+     "self_check": true
+    },
+    {
+     "q": "Why is Fisher's index called ideal, and which two tests does it alone satisfy?",
+     "a": "It is called ideal because the geometric mean of Laspeyres and Paasche uses both base-year and current-year quantities as weights, lies between the two, and alone passes both the Time Reversal Test and the Factor Reversal Test. A wrong answer that credits Laspeyres with passing the reversal tests shows the student has missed that base-year weights alone overstate inflation and current-year weights alone understate it.",
+     "self_check": true
+    },
+    {
+     "q": "A market analyst computes a Laspeyres index of 125 and a Paasche index of 115 for rice prices between two years. Calculate Fisher's Ideal Index to one decimal place.",
+     "a": "Fisher's index is the geometric mean of the two: Fisher index = square root of (125 x 115) = 119.9 approximately. A wrong answer that takes the arithmetic mean 120 shows the student has missed that Fisher's formula takes the square root of the product, not the plain average.",
+     "self_check": true
+    },
+    {
+     "q": "Give the correct order of steps to compute Fisher's Ideal Index from raw price and quantity data of two years.",
+     "a": "The computation runs: (1) Sum the products of current prices and base quantities for Laspeyres (2) Sum the products of current prices and current quantities for Paasche (3) Divide each by its base-year total and multiply by 100 (4) Take the square root of the product of the two indices. A wrong answer that averages the two indices arithmetically shows the student has missed that Fisher's ideal form is the geometric mean, the step that lets it pass the reversal tests.",
+     "self_check": true
+    },
+    {
+     "q": "Why is Fisher's index called ideal, and which two tests does it alone satisfy?",
+     "a": "It is called ideal because the geometric mean of Laspeyres and Paasche uses both base-year and current-year quantities as weights, lies between the two, and alone passes both the Time Reversal Test and the Factor Reversal Test. A wrong answer that credits Laspeyres with passing the reversal tests shows the student has missed that base-year weights alone overstate inflation and current-year weights alone understate it.",
+     "self_check": true
     }
    ]
   }

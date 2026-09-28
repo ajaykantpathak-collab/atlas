@@ -34,6 +34,26 @@
      "q": "Design a real-world scenario (Indian context) that requires a two-way decision and write the complete Python program using if-else. The scenario must involve numeric input, a comparison, and two distinct calculations (not just different messages).",
      "a": "Scenario: An auto-rickshaw fare calculator. First 2 km costs ₹25 (minimum fare). Every additional km costs ₹10. Read distance travelled (in km, as float). If distance ≤ 2, fare = 25; else fare = 25 + (distance - 2) * 10. Print fare rounded to 2 decimals.\n```python\ndist = float(input(\"Enter distance in km: \"))\nif dist <= 2:\n    fare = 25.0\nelse:\n    fare = 25.0 + (dist - 2) * 10\nprint(f\"Fare: ₹{fare:.2f}\")\n```\nA poor answer uses only message printing, ignores the minimum fare logic, or fails to handle float input and rounding — revealing inability to map a piecewise real-world formula to if-else branches.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The if-else statement is a two-way branching control structure that executes one block of ______ when a Boolean condition evaluates to True and a different, mutually exclusive block when the condition evaluates to False, ensuring exactly one of the two paths is taken for any input.",
+     "a": "statements",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a program for a school canteen that automatically calculates the bill: if a student buys more than 5 items, they get a 10% discount; ______ they pay the full amount.",
+     "a": "otherwise",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write a complete Python program that reads numeric input, uses an if-else construct with correct indentation and colon syntax to choose between two distinct computational paths, and prints the correct result for all possible input values including boundary cases.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a program for a school canteen that ______ calculates the bill: if a student buys more than 5 items, they get a 10% discount; otherwise they pay the full amount.",
+     "a": "automatically",
+     "self_check": true
     }
    ]
   }

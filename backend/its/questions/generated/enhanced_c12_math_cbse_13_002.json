@@ -34,6 +34,26 @@
      "q": "Construct a real-world problem (Indian context: e.g., drawing cards, selecting students, quality control) that requires using all three properties of conditional probability in sequence to find the final answer. Provide the problem statement only; do not solve it.",
      "a": "Example problem: \"In a class of 50 students, 30 study Mathematics (M), 25 study Physics (P), and 15 study both. A student is chosen at random. Given that the student studies Physics, find the probability that (a) the student studies Mathematics or does not study Physics, (b) the student studies neither Mathematics nor Physics, (c) the student studies Mathematics given that they do not study Physics.\" This requires Property 2 for union, Property 3 for complement, and Property 1 for the sure event. A poor answer would give a problem solvable with only one property or without conditional probability.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The properties of conditional probability are rules that allow us to manipulate conditional probabilities ______, just like ordinary probabilities.",
+     "a": "algebraically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______-control officer at a biscuit factory in Gujarat.",
+     "a": "quality",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state and prove each of the three properties using the definition of conditional probability, apply them to compute conditional probabilities of unions, intersections, and complements in multi-step problems, and recognize when to use the disjoint-event simplification in board and competitive exam questions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are a quality-control officer at a biscuit factory in Gujarat.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

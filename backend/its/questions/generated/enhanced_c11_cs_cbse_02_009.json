@@ -34,6 +34,31 @@
      "q": "Design a new Boolean expression with at least 4 variables that requires both De Morgan's Theorems and the Distributive Law to simplify to a sum-of-products form. Write the original expression and the simplified result.",
      "a": "Example: F = ((A·B)' + C·D)'  \nSimplification:  \n1. Apply Theorem 1: (A·B)'' · (C·D)' = A·B · (C' + D')  \n2. Distribute: A·B·C' + A·B·D'  \nA good answer demonstrates synthesis of multiple laws. A poor answer (e.g., only applying one theorem or not reaching sum-of-products) shows the student cannot orchestrate a multi-step simplification strategy — exactly what board competency questions demand.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: De Morgan's Theorems are two fundamental ______ rules in Boolean algebra that describe how the complement of a sum (OR) equals the product (AND) of the complements, and the complement of a product equals the sum of the complements.",
+     "a": "transformation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a security system that unlocks a door only when a keycard is swiped AND a PIN is entered ______.",
+     "a": "correctly",
+     "self_check": true
+    },
+    {
+     "q": "What is De Morgan's Theorems? State the definition given in this lesson.",
+     "a": "De Morgan's Theorems are two fundamental transformation rules in Boolean algebra that describe how the complement of a sum (OR) equals the product (AND) of the complements, and the complement of a product equals the sum of the complements.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about De Morgan's Theorems?",
+     "a": "Students often write (A + B)' = A' + B' (keeping the +) or (A · B)' = A' · B' (keeping the ·), forgetting that the operator MUST flip.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently state both theorems, prove them using truth tables, apply them to simplify Boolean expressions with 3+ variables, and convert a given logic circuit into an equivalent circuit using only NAND or only NOR gates.",
+     "self_check": true
     }
    ]
   }

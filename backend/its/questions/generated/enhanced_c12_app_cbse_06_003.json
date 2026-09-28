@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_06_003",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_06_003",
+   "title": "c12_app_cbse_06_003",
+   "questions": [
+    {
+     "q": "What is the sample space when two coins are tossed simultaneously?\n\nWhat is the sample space when two coins are tossed simultaneously?",
+     "a": "The sample space is {HH, HT, TH, TT}. A wrong answer like {H, T} reveals the student confuses the outcome of a single coin with the combined outcome of two coins, indicating a lack of understanding that the sample space must list all possible combinations of outcomes from the entire experiment.\n\nThe sample space is {HH, HT, TH, TT}. A wrong answer like {H, T} reveals the student confuses the outcome of a single coin with the combined outcome of two coins, indicating a lack of understanding that the sample space must list all possible combinations of outcomes from the entire experiment.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why getting a head and getting a tail in a single coin toss are mutually exclusive events.\n\nExplain why getting a head and getting a tail in a single coin toss are mutually exclusive events.",
+     "a": "They are mutually exclusive because both cannot occur at the same time in a single toss — the coin cannot show both head and tail simultaneously. A wrong answer like \"they are mutually exclusive because their probabilities add to 1\" reveals the student confuses mutual exclusivity with exhaustiveness; while they are also exhaustive here, mutual exclusivity solely means no overlap in occurrence, not that probabilities sum to 1.\n\nThey are mutually exclusive because both cannot occur at the same time in a single toss — the coin cannot show both head and tail simultaneously. A wrong answer like \"they are mutually exclusive because their probabilities add to 1\" reveals the student confuses mutual exclusivity with exhaustiveness; while they are also exhaustive here, mutual exclusivity solely means no overlap in occurrence, not that probabilities sum to 1.",
+     "self_check": true
+    },
+    {
+     "q": "In a box, there are 3 red and 2 blue balls. Two balls are drawn one after the other without replacement. What is the probability that the first ball is red and the second is blue?\n\nIn a box, there are 3 red and 2 blue balls. Two balls are drawn one after the other without replacement. What is the probability that the first ball is red and the second is blue?",
+     "a": "Probability first ball is red: 3/5. After removing one red, 2 red and 2 blue remain (4 balls total). Probability second is blue: 2/4 = 1/2. Combined probability: (3/5) × (1/2) = 3/10. A wrong answer of (3/5) × (2/5) = 6/25 reveals the student forgot that without replacement changes the total number of balls for the second draw, indicating a failure to adjust for dependence between trials.\n\nProbability first ball is red: 3/5. After removing one red, 2 red and 2 blue remain (4 balls total). Probability second is blue: 2/4 = 1/2. Combined probability: (3/5) × (1/2) = 3/10. A wrong answer of (3/5) × (2/5) = 6/25 reveals the student forgot that without replacement changes the total number of balls for the second draw, indicating a failure to adjust for dependence between trials.",
+     "self_check": true
+    },
+    {
+     "q": "A student says: \"If two events A and B are independent, then P(A and B) = P(A) + P(B).\" Is this correct? Explain.\n\nA student says: \"If two events A and B are independent, then P(A and B) = P(A) + P(B).\" Is this correct? Explain.",
+     "a": "No, this is incorrect. For independent events, P(A and B) = P(A) × P(B), not the sum. The addition rule P(A) + P(B) applies only to mutually exclusive events, and even then only if they are disjoint — but independence and mutual exclusivity are different concepts. A student making this error likely confuses the conditions for addition and multiplication rules, possibly due to memorizing formulas without understanding when each applies.\n\nNo, this is incorrect. For independent events, P(A and B) = P(A) × P(B), not the sum. The addition rule P(A) + P(B) applies only to mutually exclusive events, and even then only if they are disjoint — but independence and mutual exclusivity are different concepts. A student making this error likely confuses the conditions for addition and multiplication rules, possibly due to memorizing formulas without understanding when each applies.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the following statement: \"If the probability of an event is 0, it means the event is impossible; if it is 1, it means the event is certain.\" Is this always true in the context of continuous random variables? Justify your answer.\n\nEvaluate the following statement: \"If the probability of an event is 0, it means the event is impossible; if it is 1, it means the event is certain.\" Is this always true in the context of continuous random variables? Justify your answer.",
+     "a": "No, this is not always true for continuous random variables. In continuous distributions, the probability of any single exact value (e.g., X = 2.5) is zero, but the event is not impossible — it can still occur, though with probability zero. Similarly, probability 1 does not guarantee certainty in the same intuitive sense due to the nature of uncountable outcomes. A student claiming it is always true reveals they are applying discrete probability reasoning to continuous cases without recognizing that in continuous distributions, probabilities are assigned to intervals, not points.\n\nNo, this is not always true for continuous random variables. In continuous distributions, the probability of any single exact value (e.g., X = 2.5) is zero, but the event is not impossible — it can still occur, though with probability zero. Similarly, probability 1 does not guarantee certainty in the same intuitive sense due to the nature of uncountable outcomes. A student claiming it is always true reveals they are applying discrete probability reasoning to continuous cases without recognizing that in continuous distributions, probabilities are assigned to intervals, not points.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life example of a random experiment with a sample space of exactly three outcomes, and assign probabilities to each outcome such that they form a valid probability distribution.\n\nCreate a real-life example of a random experiment with a sample space of exactly three outcomes, and assign probabilities to each outcome such that they form a valid probability distribution.",
+     "a": "Example: A traffic light can be red, yellow, or green. Assign P(red) = 0.5, P(yellow) = 0.1, P(green) = 0.4. Sum = 0.5 + 0.1 + 0.4 = 1.0, and each probability is between 0 and 1 — so it's valid. A poor answer might assign probabilities like 0.6, 0.5, 0.2 (sum = 1.3 > 1) or include a negative probability, revealing the student does not grasp the two essential conditions for a valid distribution.\n\nExample: A traffic light can be red, yellow, or green. Assign P(red) = 0.5, P(yellow) = 0.1, P(green) = 0.4. Sum = 0.5 + 0.1 + 0.4 = 1.0, and each probability is between 0 and 1 — so it's valid. A poor answer might assign probabilities like 0.6, 0.5, 0.2 (sum = 1.3 > 1) or include a negative probability, revealing the student does not grasp the two essential conditions for a valid distribution.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

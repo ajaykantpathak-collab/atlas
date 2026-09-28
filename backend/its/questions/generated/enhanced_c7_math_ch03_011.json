@@ -34,6 +34,31 @@
      "q": "Construct a decimal number using the digits 3, 5, and 8 (using each digit exactly once) such that the difference between the value of the digit in the tens place and the digit in the hundredths place is maximized.",
      "a": "The expected number is 85.3 (or 83.5, where tens digit is 8 and hundredths digit is formed by placing the smallest digit appropriately, wait, to maximize the difference between tens and hundredths, tens must be 8 and hundredths must be 3, making the number 8.53 or similar). Let's check: Tens = 8, Hundredths = 3. Number: 8.53. Difference = $8 - 0.03 = 7.97$. A poor answer shows the student failed to assign the largest digit to the highest place value and the smallest digit to the lowest place value to maximize the spread.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The decimal system and place value ______ describe how each position in a decimal number is ten times greater than the position immediately to its right and one-tenth of the position immediately to its left, extending the base-10 structure of whole numbers past the decimal point.",
+     "a": "relationships",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a vegetable market in India buying tomatoes, and the weighing scale ______ 3.524 kilograms.",
+     "a": "shows",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The decimal system and place value relationships describe how each position in a decimal number is ten times greater than the position immediately to its right and one-tenth of the position immediately to its left, extending the base-______ structure of whole numbers past the decimal point.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can analyze the relative value of digits in different decimal positions, express decimals in expanded form using fractions and negative powers of ten, and explain how shifting a decimal point changes a number by powers of 10.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a ______ market in India buying tomatoes, and the weighing scale shows 3.524 kilograms.",
+     "a": "vegetable",
+     "self_check": true
     }
    ]
   }

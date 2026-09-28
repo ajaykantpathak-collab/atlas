@@ -34,6 +34,31 @@
      "q": "Design a simple cross (specify parental genotypes) that would allow you to test whether two genes in pea plants follow the Law of Independent Assortment. Describe the expected phenotypic ratio in the F2 generation if the law holds, and what ratio you would expect if the genes are completely linked.",
      "a": "Correct answer: Cross homozygous dominant for both traits (RRYY) with homozygous recessive (rryy) to get F1 dihybrids (RrYy). Self-pollinate F1 to get F2. If independent assortment holds: 9:3:3:1 phenotypic ratio. If completely linked: only parental phenotypes appear in 3:1 ratio (no recombinant types). A poor answer (e.g., using monohybrid cross, or not specifying homozygous parents) shows the student cannot design a controlled genetic cross to test a hypothesis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mendel's Laws of Inheritance are three principles derived from pea plant experiments: (1) Law of Dominance — in a heterozygous condition, one allele (dominant) masks the expression of the other (recessive); (2) Law of Segregation — the two alleles of a gene separate during gamete formation so each gamete receives only one allele; (3) Law of Independent Assortment — alleles of different genes segregate ______ of each other during gamete formation, provided the genes are on different chromosomes or far apart on the same chromosome.",
+     "a": "independently",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how children in your neighborhood often show a mix of ______ traits — some have mother's curly hair but father's eye color, while siblings differ from each other.",
+     "a": "parental",
+     "self_check": true
+    },
+    {
+     "q": "What is Mendel's Laws of Inheritance? State the definition given in this lesson.",
+     "a": "Mendel's Laws of Inheritance are three principles derived from pea plant experiments: (1) Law of Dominance — in a heterozygous condition, one allele (dominant) masks the expression of the other (recessive); (2) Law of Segregation — the two alleles of a gene separate during gamete formation so each gamete receives only one allele; (3) Law.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state all three laws using precise terminology, explain the cellular basis of each law (meiosis), and apply them to predict phenotypic and genotypic ratios in monohybrid and dihybrid crosses.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how children in your ______ often show a mix of parental traits — some have mother's curly hair but father's eye color, while siblings differ from each other.",
+     "a": "neighborhood",
+     "self_check": true
     }
    ]
   }

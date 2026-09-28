@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (Indian context) where the symmetry of a circle is used to solve a practical design or measurement issue. State the problem and outline the symmetry-based solution.",
      "a": "Example: A wheelwright needs to place 8 spokes symmetrically in a circular wheel rim of radius 30 cm. Using rotational symmetry, each spoke is rotated by 360°/8 = 45° from the previous one. The centre is the rotation point; the equal angular spacing guarantees symmetry. A poor answer would just say \"divide 360 by 8\" without linking to rotational symmetry of the circle or explaining why the centre is the only point that works.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A circle possesses ______ symmetry about any line passing through its centre (every diameter is an axis of symmetry), and rotational symmetry of infinite order about its centre (any rotation through an angle θ maps the circle exactly onto itself).",
+     "a": "reflection",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ rangoli for Diwali.",
+     "a": "circular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify all lines of symmetry of a circle, state the order and angle of rotational symmetry, and use these symmetry properties to justify that equal chords are equidistant from the centre and that the perpendicular from the centre bisects a chord, without relying on measurement.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a circular rangoli for Diwali.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

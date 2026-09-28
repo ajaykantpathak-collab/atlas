@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_hin_cbse_03_006",
+ "concepts": [
+  {
+   "id": "enh:c6_hin_cbse_03_006",
+   "title": "c6_hin_cbse_03_006",
+   "questions": [
+    {
+     "q": "किसी कहानी का 'मुख्य विषय' और 'संदेश' में क्या अंतर है? अपने शब्दों में समझाइए।",
+     "a": "**Correct Answer:** मुख्य विषय कहानी के अंदर चलने वाला केंद्रीय विचार है (जैसे: 'ईमानदारी'), जो घटनाओं और पात्रों को जोड़ता है। संदेश वह सीख है जो लेखक पाठक को देना चाहता है (जैसे: 'ईमानदारी से ही सच्ची जीत मिलती है')। विषय कहानी में *है*, संदेश कहानी से *निकलता है*।  \n**Wrong Answer Reveals:** If a student says both are the same or gives a plot summary (\"राम ने सच्चाई बोली\"), they confuse *what happens* with *what it means*. They haven't grasped that theme is abstract and message is prescriptive.",
+     "self_check": true
+    },
+    {
+     "q": "नीचे दिए गए अंश को पढ़कर बताइए कि इसका मुख्य विषय क्या हो सकता है?  \n\"रोहन ने परीक्षा में नकल नहीं की, भले ही उसके सारे दोस्त नकल कर रहे थे। उसे कम अंक मिले, लेकिन शिक्षक ने उसकी प्रशंसा की।\"  \nअपना उत्तर देते समय बताइए कि आप इस निष्कर्ष पर कैसे पहुँचे।",
+     "a": "**Correct Answer:** मुख्य विषय: **नैतिक साहस / ईमानदारी**।  \n**पहुँचने का तरीका:** (1) रोहन का चयन — नकल न करना, (2) परिणाम — कम अंक फिर भी प्रशंसा, (3) विरोधाभास — दोस्तों का व्यवहार बनाम रोहन का व्यवहार। ये तीनों बिंदु एक ही विचार की ओर इशारा करते हैं।  \n**Wrong Answer Reveals:** If the student writes \"परीक्षा में नकल नहीं करनी चाहिए\" (message) or \"रोहन पास हुआ\" (plot), they cannot distinguish the *abstract thread* (theme) from the *lesson* (message) or *events* (plot). They need practice extracting the invisible idea.",
+     "self_check": true
+    },
+    {
+     "q": "एक कहानी का मुख्य विषय 'मित्रता' है। इस विषय को दर्शाने वाले तीन अलग-अलग दृश्य/घटनाएँ लिखिए जो एक ही कहानी में हो सकती हैं। प्रत्येक दृश्य के लिए बताइए कि वह 'मित्रता' विषय को कैसे आगे बढ़ाता है।",
+     "a": "**Correct Answer Example:**  \n1. **दृश्य 1:** अर्जुन बीमार है, करण उसके लिए नोट्स लाता है। → विषय विस्तार: *देखभाल*।  \n2. **दृश्य 2:** करण गलती करता है, अर्जुन सबके सामने उसका साथ देता है। → विषय विस्तार: *वफादारी*।  \n3. **दृश्य 3:** दोनों में झगड़ा होता है, पर अर्जुन पहले माफी माँगता है। → विषय विस्तार: *क्षमा और प्राथमिकता*।  \n**Wrong Answer Reveals:** If the student writes three unrelated scenes (e.g., playing cricket, eating lunch, doing homework) without linking each to a *facet* of friendship (trust, sacrifice, forgiveness), they treat theme as a label, not a developing idea. They need to see theme as a prism with multiple faces.",
+     "self_check": true
+    },
+    {
+     "q": "दो कहानियों का मुख्य विषय 'सच बोलना' है। कहानी १ में नायक सच बोलकर इनाम पाता है। कहानी २ में नायक सच बोलकर सजा पाता है, लेकिन अंत में सम्मान पाता है।  \nदोनों कहानियों के **संदेश** में क्या अंतर हो सकता है? तर्क सहित समझाइए।",
+     "a": "**Correct Answer:**  \nकहानी १ का संदेश: **\"सच बोलने से तुरंत लाभ मिलता है\"** (व्यावहारिक/पुरस्कार-आधारित)।  \nकहानी २ का संदेश: **\"सच बोलना कठिन हो सकता है, लेकिन अंततः यह सम्मान दिलाता है\"** (सैद्धांतिक/मूल्य-आधारित)।  \n**तर्क:** विषय समान है, लेकिन *परिणाम* और *पात्र की यात्रा* अलग होने से संदेश बदल जाता है।  \n**Wrong Answer Reveals:** If the student says \"दोनों का संदेश एक ही है: सच बोलो\", they miss that message depends on *how the theme plays out*, not just the theme itself. They confuse theme with message — a critical gap for analysis.",
+     "self_check": true
+    },
+    {
+     "q": "\"कहानी का संदेश हमेशा स्पष्ट रूप से लिखा होता है, जैसे कहानी के अंत में एक वाक्य में।\"  \nक्या आप इस कथन से सहमत हैं? अपने उत्तर के पक्ष में किसी जानी-पहचानी कहानी (पाठ्यपुस्तक या लोककथा) का उदाहरण देकर तर्क दीजिए।",
+     "a": "**Correct Answer:** **नहीं, सहमत नहीं।** अधिकांश अच्छी कहानियों में संदेश **अंतर्निहित (implied)** होता है, स्पष्ट नहीं।  \n**उदाहरण:** 'पंचतंत्र' की कहानी 'सिंह और चूहा' — अंत में नहीं लिखा कि \"छोटे प्राणी भी बड़े काम आते हैं\", लेकिन घटनाएँ (चूहा सिंह को जाल से छुड़ाता है) यह संदेश देती हैं।  \n**Wrong Answer Reveals:** If the student agrees and cites moral-science textbook stories with explicit morals, they've only seen didactic texts. They need exposure to literary stories where message emerges from *pattern*, not a label.",
+     "self_check": true
+    },
+    {
+     "q": "आपने हाल ही में कोई कहानी पढ़ी या फिल्म देखी। उसका मुख्य विषय और संदेश पहचानकर, **एक नया अंत** लिखिए जो **उसी विषय** को दर्शाए लेकिन **अलग संदेश** दे। विषय और दोनों संदेश स्पष्ट लिखिए।",
+     "a": "**Expected Criteria for Good Answer:**  \n- Clearly states original theme (e.g., \"लालच\")  \n- States original message (e.g., \"लालच बुरी बला है\")  \n- New ending keeps theme (greed still present) but flips message (e.g., \"लालच से प्रेरणा मिल सकती है अगर उसे सही दिशा दी जाए\")  \n- New ending is plausible within story logic  \n**Poor Answer Reveals:** If the student changes the theme (e.g., writes an ending about \"kindness\" for a greed story) or keeps the same message, they don't understand that theme is the *container* and message is the *variable content*. They need practice decoupling the two.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

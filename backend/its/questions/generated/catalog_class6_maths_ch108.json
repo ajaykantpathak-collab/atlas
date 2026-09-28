@@ -5,6 +5,8 @@
    "id": "fegp.8.1.1",
    "title": "Definition of a Circle",
    "converted_to_compute": false,
+   "formula": "distance = radius",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 35 cm (take pi = 22/7).",
@@ -42,6 +44,8 @@
    "id": "fegp.8.1.2",
    "title": "Radius of a Semicircular Wave",
    "converted_to_compute": false,
+   "formula": "radius = segment_length / 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A canteen offers 4 drinks and 7 snacks. How many drink-snack combos are possible (rule of product)?",
@@ -78,15 +82,9 @@
   {
    "id": "fegp.8.2.1",
    "title": "Properties of a Rectangle",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
-     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 24 gives 66",
-     "compute": "other = 90 - 24"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "side_a = side_c; side_b = side_d; angle = 90",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 24 degrees, find the other.",
@@ -123,15 +121,9 @@
   {
    "id": "fegp.8.2.2",
    "title": "Properties of a Square",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "square the given number using the stated square rule",
-     "explain": "square the given number using the stated square rule: sq = 21 ** 2 gives 441",
-     "compute": "sq = 21 ** 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "side_1 = side_2 = side_3 = side_4; angle = 90",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 21.",
@@ -169,6 +161,8 @@
    "id": "fegp.8.4.1",
    "title": "Dividing Rectangles into Identical Squares",
    "converted_to_compute": false,
+   "formula": "length = count * breadth",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 16.",
@@ -206,6 +200,8 @@
    "id": "fegp.8.5.1",
    "title": "Diagonals of a Rectangle",
    "converted_to_compute": false,
+   "formula": "diagonal_1 = diagonal_2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a parallelogram one angle is 80 degrees. Find the adjacent angle.",
@@ -243,6 +239,8 @@
    "id": "fegp.8.5.2",
    "title": "Diagonal Angle Bisector in Squares",
    "converted_to_compute": false,
+   "formula": "bisected_angle = 90 / 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a parallelogram one angle is 100 degrees. Find the adjacent angle.",
@@ -271,7 +269,7 @@
     },
     {
      "q": "A kite has one pair of equal angles. If the angle between the unequal sides is 40 degrees and the kite is symmetric, the sum of the two equal opposite angles is 360 - 40 - the other given angle of 80 degrees. Find the sum of the two equal angles.",
-     "a": "240",
+     "a": "280",
      "self_check": false
     }
    ]

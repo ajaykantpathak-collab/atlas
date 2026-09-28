@@ -34,6 +34,26 @@
      "q": "Design a new real-world algorithm (not mathematical) for a daily task that a Class 11 student does. Write it in 8-10 steps. Then identify which step would most likely fail the Effectiveness characteristic if given to a robot, and explain how you would fix it.",
      "a": "Example - Algorithm for packing school bag:\n1. Start\n2. Take empty bag\n3. Check timetable for tomorrow\n4. For each subject in timetable: place required textbook in bag\n5. Place completed homework notebook in bag\n6. Place pencil box in bag\n7. Place water bottle in side pocket\n8. Close bag zip\n9. Place bag near door\n10. Stop\n\nStep 3 \"Check timetable\" fails Effectiveness for a robot - it requires reading, interpreting a schedule, mapping subjects to books. Fix: Replace with \"Scan QR code on timetable card → retrieve digital subject list → for each subject code, fetch book ISBN from database → locate book by RFID tag.\" A poor answer gives a mathematical algorithm (missing \"real-world\" requirement) or identifies a trivial step like \"close zip\" as the problem, missing that physical manipulation is also non-effective for a non-embodied agent.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An algorithm is a finite sequence of well-defined, unambiguous ______ that, given a set of inputs, produces a desired output after a finite number of steps.",
+     "a": "instructions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're giving directions to a friend to reach your house from school: \"Walk straight, turn left at the big banyan tree, then right at the tea stall, and my house is the third one with a blue gate.\" Is this an ______?",
+     "a": "algorithm",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write a precise definition of an algorithm listing all five characteristics (finiteness, definiteness, input, output, effectiveness), identify whether a given set of instructions qualifies as an algorithm, and explain why each characteristic is necessary for computational execution.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're giving ______ to a friend to reach your house from school: \"Walk straight, turn left at the big banyan tree, then right at the tea stall, and my house is the third one with a blue gate.\" Is this an algorithm?",
+     "a": "directions",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Design a simple home experiment using a rolling marble, a long straight ruler or wooden plank, and a stopwatch to demonstrate the difference between uniform and non-uniform linear motion. Describe what you would measure.",
      "a": "To demonstrate non-uniform motion, let a marble roll freely down a tilted wooden plank and record the distance it covers every 1 second; the distances will grow larger each second. To demonstrate uniform motion, have the marble roll across a flat, smooth floor after getting an initial push, marking distances at 1-second intervals where the distances covered in each second become nearly equal. A poor answer would involve circular rolling or fail to measure time intervals alongside distances, missing the core definition of uniform and non-uniform speed.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Uniform linear motion is the motion of an object along a straight line where it covers equal ______ in equal intervals of time, no matter how small those time intervals are.",
+     "a": "distances",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan running at a ______ speed after it reaches its normal operating setting, or watch a marble rolling smoothly down a long, polished plastic slide.",
+     "a": "constant",
+     "self_check": true
+    },
+    {
+     "q": "What is Uniform linear motion? State the definition given in this lesson.",
+     "a": "Uniform linear motion is the motion of an object along a straight line where it covers equal distances in equal intervals of time, no matter how small those time intervals are.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: By recording distance at regular time marks—such as every ______ seconds using a stopwatch—we can determine if an object's speed remains steady.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Uniform linear motion?",
+     "a": "Students often believe that if an object is moving forward in a straight line, its motion is automatically uniform because it is \"just moving.\" They confuse the *fact of motion* with the *rate of motion*, failing to realize that speeding up, slowing down, or stopping means the motion is non-uniform even if the path is straight.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can analyze distance-time data in a table to classify a straight-line journey as uniform or non-uniform, calculate speed across different intervals to justify the classification, and predict future positions for uniform motion.",
+     "self_check": true
     }
    ]
   }

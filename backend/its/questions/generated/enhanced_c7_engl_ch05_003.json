@@ -34,6 +34,21 @@
      "q": "Design a short guided tour itinerary (3 key stops) for a student group visiting the National War Memorial, explaining the historical theme of each stop.",
      "a": "A strong answer will include: Stop 1 at the Amar Chakra to witness the eternal flame and understand immortality; Stop 2 at the Tyag Chakra to observe individual brick tablets inscribed with names of martyrs; Stop 3 at the Veerta Chakra gallery to learn about specific gallantry acts. A poor answer lists random museum exhibits or unrelated monuments, showing a lack of understanding of the memorial's actual zones.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The National War Memorial is a monumental tribute built to honour and remember soldiers of the Indian Armed Forces who made the supreme sacrifice defending the nation post-independence, serving as a national symbol of gratitude, history, and ______ significance.",
+     "a": "architectural",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever visited a war memorial or seen images of a place where names of brave soldiers are ______ on stone walls, glowing with eternal flames?",
+     "a": "inscribed",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Students must be able to identify the historical purpose, key architectural layout (such as the four concentric circles or chakras), and the symbolic significance of the National War Memorial in New Delhi.",
+     "self_check": true
     }
    ]
   }

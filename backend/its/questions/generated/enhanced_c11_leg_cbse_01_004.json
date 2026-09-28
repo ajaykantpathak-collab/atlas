@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_01_004",
+   "title": "c11_leg_cbse_01_004",
+   "questions": [
+    {
+     "q": "What is the precise constitutional purpose of Article 12 in Part III of the Constitution of India?",
+     "a": "Article 12 defines the term \"State\" for the *sole purpose* of applying the fundamental rights guaranteed in Articles 14–35. It identifies against whom fundamental rights can be enforced. A wrong answer (e.g., \"It defines the federal structure\" or \"It lists fundamental rights\") reveals the student confuses the *definitional* role of Article 12 with the *substantive* rights in Articles 14–35 or the federal scheme in Article 1.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the judiciary (Supreme Court, High Courts, lower courts) is not explicitly mentioned in Article 12 but can still be considered \"State\" in certain contexts.",
+     "a": "The judiciary is not \"State\" when exercising *judicial* functions (adjudicating disputes) because that would make every judicial decision challengeable as a fundamental rights violation, paralyzing the courts. However, when the judiciary performs *administrative* or *legislative* functions (e.g., making rules for court administration, appointing staff), it acts as \"State\" under Article 12. A wrong answer (e.g., \"Judiciary is never State\" or \"Judiciary is always State\") reveals the student misses the *functional distinction* between judicial and non-judicial acts — a core nuance in *Rupa Ashok Hurra v. Ashok Hurra* and *Naresh Shridhar Mirajkar v. State of Maharashtra*.",
+     "self_check": true
+    },
+    {
+     "q": "A private company, \"GreenEnergy Ltd.\", generates electricity. The government owns 51% shares, appoints 6 of 10 directors, and the Electricity Act mandates it to supply power at subsidized rates to rural areas. Using the *Ajay Hasia* / *R.D. Shetty* tests, determine if GreenEnergy Ltd. is \"State\" under Article 12. Show your reasoning.",
+     "a": "Yes, GreenEnergy Ltd. is \"State\". Step 1: It is a company (not a statutory body), but shareholding + director appointments = \"deep and pervasive control\" (*R.D. Shetty*). Step 2: The statutory mandate to supply subsidized power = performance of a \"public function\" (*Ajay Hasia*). Step 3: Financial dependence + functional public duty = instrumentality of the State. A wrong answer (e.g., \"No, it's a private company\") reveals the student relies on formal incorporation status rather than the *functional control + public function* test.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the \"State\" under Article 12 (Fundamental Rights) with the \"State\" under Article 1 (Union of States). Why does the Constitution use the same word for two different concepts?",
+     "a": "Article 12 \"State\" is a *functional, expansive* definition for *vertical* accountability (citizen vs. authority) — it includes local bodies, PSUs, universities, etc. Article 1 \"State\" is a *territorial, federal* definition for *horizontal* power distribution (Centre vs. States) — it means States like Tamil Nadu, Punjab. The Constitution uses \"State\" in both because Part III (Rights) and Part I (Union) address different constitutional problems: rights enforcement vs. federal structure. A wrong answer (e.g., \"They are the same\") reveals the student cannot distinguish *vertical* (rights) from *horizontal* (federalism) constitutional design.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The 'instrumentality of the State' test has expanded Article 12 so much that almost any body receiving government funding becomes 'State', diluting the separation between public and private law.\" Defend or oppose with case law.",
+     "a": "Oppose. The test requires *cumulative* factors: (1) state ownership/control, (2) public function, (3) deep and pervasive control — not mere funding. *Zee Telefilms v. Union of India* (2005): BCCI receives no government funding, performs no statutory function, autonomy in governance → NOT State. *Pradeep Biswas v. Institute of Chemical Biology* (2002): Institute fully funded by CSIR, performs public research, government control → IS State. The courts *limit* expansion by demanding *functional* state-like character, not just financial links. A wrong answer (e.g., \"Agree, any funding makes it State\") reveals the student misses the *qualitative* nature of the test — it's about *control + function*, not *money alone*.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario involving a body that is *formally private* but *functionally state-like* under Article 12. Apply all three tests (*Ajay Hasia*, *R.D. Shetty*, *Pradeep Biswas*) and conclude whether a writ petition under Article 226 would lie.",
+     "a": "Scenario: \"MetroRail Corp.\" — a special purpose vehicle (SPV) incorporated under Companies Act. 74% equity held by State Government. All 9 directors nominated by Government. Mandated by Metro Railways Act to provide affordable urban transport, fix fares with government approval, acquire land via eminent domain. Test 1 (Statutory origin? No, but *functional* equivalent via Act mandate). Test 2 (Deep control? Yes — equity + board + fare control). Test 3 (Public function? Yes — essential public service, eminent domain). Conclusion: MetroRail Corp. IS \"State\" under Article 12. Writ lies. A poor answer applies tests mechanically without synthesizing *cumulative* effect or ignores that statutory *mandate* can substitute for statutory *creation*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

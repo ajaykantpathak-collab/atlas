@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_05_002",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_05_002",
+   "title": "c11_app_cbse_05_002",
+   "questions": [
+    {
+     "q": "Write the first four terms of the sequence defined by the general term $a_n = \\frac{n^2 + 1}{n + 1}$ for $n \\in \\mathbb{N}$.",
+     "a": "The terms are $a_1 = 1$, $a_2 = \\frac{5}{3}$, $a_3 = \\frac{5}{2}$, $a_4 = \\frac{17}{5}$. A wrong answer (e.g., $a_1=1, a_2=2, a_3=3...$) reveals the student is treating $n$ as the term value rather than the index/position, or they are incorrectly simplifying the algebraic fraction (e.g., cancelling $n$ incorrectly). This indicates a gap in algebraic manipulation of rational functions with index variables.",
+     "self_check": true
+    },
+    {
+     "q": "A sequence is defined recursively by $a_1 = 3$ and $a_{k+1} = 2a_k + 1$ for $k \\ge 1$. A student claims the general term is $a_n = 2^n + 1$. Is the student correct? Explain why or why not by testing the first three terms.",
+     "a": "The student is **incorrect**. Recursive calculation: $a_1=3$, $a_2=2(3)+1=7$, $a_3=2(7)+1=15$. Proposed formula: $a_1=2^1+1=3$ (matches), $a_2=2^2+1=5$ (mismatch, should be 7), $a_3=2^3+1=9$ (mismatch, should be 15). The correct closed form is $a_n = 2^{n+1} - 1$. A wrong answer reveals the student confuses the recursive pattern (multiply by 2, add 1) with a simple exponential shift, failing to account for the accumulating \"+1\" at each step.",
+     "self_check": true
+    },
+    {
+     "q": "The sum of the first $n$ terms of a sequence is given by $S_n = n^2 + 2n$. Find the $10^{th}$ term of the sequence ($a_{10}$) without listing all terms.",
+     "a": "$a_{10} = S_{10} - S_9 = (100+20) - (81+18) = 120 - 99 = 21$. Steps: 1. Recall relation $a_n = S_n - S_{n-1}$ for $n>1$. 2. Compute $S_{10}$ and $S_9$. 3. Subtract. A wrong answer (e.g., plugging $n=10$ into $S_n$ to get 120) reveals the student confuses the *sum of first 10 terms* ($S_{10}$) with the *10th term itself* ($a_{10}$). This is the classic Sequence vs. Series confusion.",
+     "self_check": true
+    },
+    {
+     "q": "Consider the sequence defined by $a_n = \\frac{(-1)^n n}{n+1}$. Analyze the behaviour of the terms as $n$ increases. Does the sequence converge to a single limit? Justify your answer by examining the even and odd sub-sequences.",
+     "a": "The sequence **does not converge** (diverges by oscillation). For even $n=2k$: $a_{2k} = \\frac{2k}{2k+1} \\to 1$ as $k \\to \\infty$. For odd $n=2k-1$: $a_{2k-1} = \\frac{-(2k-1)}{2k} \\to -1$ as $k \\to \\infty$. Since the even and odd sub-sequences tend to different limits (1 and -1), the main sequence has no unique limit. A wrong answer claiming convergence to 0 or 1 reveals the student ignores the alternating sign $(-1)^n$ or incorrectly applies limit laws to oscillating sequences without separating cases.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"The series $\\sum_{k=1}^{\\infty} \\frac{1}{k}$ (Harmonic Series) converges because the terms $\\frac{1}{k}$ tend to zero as $k \\to \\infty$.\" Is this reasoning valid? Provide a counter-argument or proof.",
+     "a": "The reasoning is **invalid**. While the *necessary* condition for convergence ($a_n \\to 0$) is met, it is not *sufficient*. The Harmonic Series diverges (sum grows without bound, albeit slowly). Proof sketch: Group terms $1 + 1/2 + (1/3+1/4) + (1/5+1/6+1/7+1/8) + \\dots > 1 + 1/2 + 1/2 + 1/2 + \\dots \\to \\infty$. A student agreeing with the claim holds the dangerous misconception that \"terms tending to zero implies series converges,\" confusing the Divergence Test (contrapositive) with a convergence test.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) that generates a **finite sequence** and its associated **series**. Define the general term $a_n$ explicitly. Then, write the series for the total accumulation using sigma notation. Explain why the sequence must be finite in your scenario.",
+     "a": "*Example:* \"A metro train starts with 300 passengers at Station 1. At each subsequent station, 20 passengers alight and no one boards. The train terminates at Station 10.\"\nSequence (Passengers on board leaving station $n$): $a_n = 300 - 20(n-1)$ for $n=1$ to $10$. Terms: 300, 280, ..., 120.\nSeries (Total \"passenger-stations\" travelled or total alighting count): $\\sum_{n=1}^{10} (320 - 20n)$.\nWhy finite: The train journey ends at Station 10 (domain $n \\in \\{1, \\dots, 10\\}$). A poor answer uses an infinite domain (e.g., \"bacteria dividing forever\") or fails to define $a_n$ explicitly as a function of $n$, showing inability to model discrete processes with explicit formulas.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

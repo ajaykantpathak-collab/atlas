@@ -1,0 +1,71 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_01_002",
+   "title": "c12_soc_cbse_01_002",
+   "questions": [
+    {
+     "q": "What was the primary purpose of the British decennial census in India from a sociological perspective?",
+     "a": "The British census aimed to classify and enumerate the Indian population into fixed, hierarchical categories (caste, tribe, religion) to facilitate governance and resource allocation. A wrong answer — such as \"to know the total population\" — reveals a misunderstanding of the census as a neutral counting exercise rather than a political act of social construction that solidified fluid identities into rigid administrative categories.",
+     "self_check": true
+    },
+    {
+     "q": "Explain how the Permanent Settlement (1793) transformed the relationship between land and social hierarchy in Bengal.",
+     "a": "The Permanent Settlement created a class of zamindars with proprietary rights over land, turning them into landlords who extracted rent from peasants, thereby introducing a feudal landlord-tenant hierarchy where N/A existed in the same form earlier. A wrong answer that says \"it gave land to peasants\" or \"it abolished zamindars\" shows confusion with later land reforms and misses the colonial creation of a new propertied class that became a pillar of British rule.",
+     "self_check": true
+    },
+    {
+     "q": "A sociologist argues that the British \"criminal tribes\" legislation (1871) did not merely label certain groups as criminals but actively *produced* criminality as a hereditary social identity. Apply this insight to explain why denotified tribes still face stigma today.",
+     "a": "The 1871 Act notified entire nomadic communities as \"criminal by birth,\" forcing them into settlements, restricting movement, and subjecting them to police surveillance. This state labelling created a self-fulfilling prophecy: marginalised from mainstream economy, some turned to petty crime for survival, reinforcing the label. Post-independence \"denotification\" removed the legal tag but not the social stigma, police bias, or lack of documents (caste certificates, land titles) — so the colonial identity persists structurally. A wrong answer that blames \"their culture\" or \"lack of education\" ignores the colonial state's role in manufacturing the category.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of colonial ethnography (e.g., Risley's caste rankings) with the impact of colonial law (e.g., Hindu personal law codification) on the caste system. Which had a more enduring effect on caste rigidity?",
+     "a": "Colonial ethnography (Risley's 1901 census rankings) imposed a single, pan-Indian varna hierarchy on diverse regional jatis, making caste appear as a fixed, religiously sanctioned ladder. Colonial law (Anglo-Hindu law) codified \"Hindu\" personal law based on Brahminical texts, erasing regional customs and giving caste legal enforceability in courts. The legal codification had more enduring effect because it tied caste to property, marriage, and inheritance rights that post-colonial courts continue to adjudicate. A wrong answer that picks ethnography alone overlooks how law gave caste state-backed coercive power.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Colonialism modernised Indian society by destroying feudal traditions and introducing rationality.\" Use sociological evidence to support or refute.",
+     "a": "The claim is partially true but sociologically incomplete. Colonialism did introduce railways, telegraph, modern law, and Western education — forces that disrupted village isolation and opened mobility channels. However, it simultaneously *reinforced* \"traditional\" hierarchies: it relied on zamindars, recognised caste in census and law, and invented \"tribe\" as an administrative category for forest dwellers. Modernity was selective — rational in economy (plantations, railways) but feudal in social control (criminal tribes, separate electorates). A one-sided \"modernisation\" answer ignores the dialectic: colonialism both disrupted and ossified Indian society.",
+     "self_check": true
+    },
+    {
+     "q": "Create a conceptual map showing how three colonial interventions (census, land revenue, forest acts) produced the contemporary category \"Scheduled Tribe\". Include at least two feedback loops.",
+     "a": "A good map traces: (1) Forest Acts (1865, 1878) declared forests state property, criminalising shifting cultivation and hunting — pushing forest dwellers into \"encroacher\" status. (2) Census (1881 onward) classified these groups as \"animist\" or \"tribal\" distinct from Hindus, using criteria like language, geography, and \"primitive\" traits. (3) Land revenue settlements excluded forest areas from permanent settlement, creating \"excluded\" and \"partially excluded\" areas with separate administration. Feedback loop 1: Census categories determined which groups got \"protection\" (reservations) post-independence, incentivising communities to claim tribal identity. Feedback loop 2: Forest conservation policies (colonial and post-colonial) continue to displace tribals, reinforcing their marginalisation and political mobilisation around \"Schedule Tribe\" status. A poor map lists interventions without showing how they mutually reinforced each other and created a feedback loop with post-colonial policy.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Colonialism in India refers to the British imperial rule (1757–1947) that ______ Indian society through political domination, economic exploitation, and cultural intervention, creating new social categories, transforming traditional institutions, and generating structural inequalities that persist in contemporary India.",
+     "a": "restructured",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are looking at a 1901 Census report that suddenly classifies your ______ as a \"criminal tribe\" — a label that did not exist before British rule.",
+     "a": "community",
+     "self_check": true
+    },
+    {
+     "q": "What is Colonialism in India? State the definition given in this lesson.",
+     "a": "Colonialism in India refers to the British imperial rule (1757–1947) that restructured Indian society through political domination, economic exploitation, and cultural intervention, creating new social categories, transforming traditional institutions, and generating structural inequalities that persist in contemporary India.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are looking at a ______ Census report that suddenly classifies your community as a \"criminal tribe\" — a label that did not exist before British rule.",
+     "a": "1901",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Colonialism in India?",
+     "a": "Students often think colonialism simply \"added\" modern institutions (courts, schools, railways) to an unchanged traditional society.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain how colonial policies (land revenue, law, education, census) reshaped caste, tribe, village, and market institutions, and identify at least three specific legacies of colonialism visible in present-day Indian social structure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

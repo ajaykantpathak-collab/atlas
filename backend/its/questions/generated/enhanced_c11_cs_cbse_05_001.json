@@ -34,6 +34,31 @@
      "q": "Design a real-world scenario (Indian context) that requires **both** a conditional decision inside a loop. Write the pseudocode (not Python code) for it.",
      "a": "**Scenario**: A Delhi Metro smart card system deducts fare per ride. If balance < minimum fare (₹10), it denies entry and prints \"Insufficient Balance\". Otherwise, it deducts fare based on distance zones (₹10, ₹20, ₹30, ₹40, ₹50). The user takes multiple rides until they choose to stop.\n\n**Pseudocode**:\n```\nbalance = initial_recharge_amount\nwhile user_wants_to_ride:\n    zone = input(\"Enter destination zone (1-5): \")\n    if zone == 1: fare = 10\n    elif zone == 2: fare = 20\n    elif zone == 3: fare = 30\n    elif zone == 4: fare = 40\n    else: fare = 50\n    \n    if balance >= fare:\n        balance = balance - fare\n        print(\"Entry allowed. Remaining balance:\", balance)\n    else:\n        print(\"Insufficient Balance. Please recharge.\")\n    user_wants_to_ride = input(\"Another ride? (yes/no): \")\n```\nA poor answer (e.g., only loop or only condition, no Indian context, vague steps) shows the student cannot synthesize selection + iteration — the core of control flow composition tested in board exam case studies.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Control flow refers to the order in which individual statements, ______, or function calls are executed or evaluated in a program.",
+     "a": "instructions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a program to ______ the fare for an auto-rickshaw ride in Delhi.",
+     "a": "calculate",
+     "self_check": true
+    },
+    {
+     "q": "What is Control flow? State the definition given in this lesson.",
+     "a": "Control flow refers to the order in which individual statements, instructions, or function calls are executed or evaluated in a program.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Control flow?",
+     "a": "Misconception: \"A while loop checks the condition continuously in real-time, like a sensor.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) explain why sequential execution is insufficient for real-world problems and identify situations requiring decision-making or repetition; (2) correctly classify a given problem as requiring conditional logic, iterative logic, or both; (3) predict the execution path of a simple code snippet containing if.",
+     "self_check": true
     }
    ]
   }

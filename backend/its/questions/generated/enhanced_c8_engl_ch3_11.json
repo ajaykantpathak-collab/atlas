@@ -34,6 +34,21 @@
      "q": "Create a cryptic crossword clue for the word **\"HEART\"** (5 letters) using the word **\"EARTH\"** as your source word and a creative anagram indicator. Explain how your clue works.",
      "a": "* **Clue:** *\"The planet is spinning at the center of our chest (5 letters).\"*\n* **Explanation:** \n1. **\"The planet\"** represents the source word **\"EARTH\"** (5 letters).\n2. **\"is spinning\"** is the anagram indicator, telling the solver to scramble the letters of \"EARTH\".\n3. **\"at the center of our chest\"** is the definition of the target word, which is **\"HEART\"**.\n4. Scrambling E-A-R-T-H yields H-E-A-R-T.\n\n*What a poor answer reveals:* A weak answer might lack a clear anagram indicator (e.g., \"Earth is a heart\") or fail to provide a definition part to the clue, showing they do not understand that a cryptic clue must have two parts: a definition and a wordplay route.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An anagram is a word play technique where the letters of a word or phrase are ______ to form a new word or phrase, using all the original letters exactly once.",
+     "a": "rearranged",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a detective like ______ Brown, and you find a scrap of paper left by a thief.",
+     "a": "Encyclopedia",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify, decode, and construct anagrams from a given set of words, and systematically solve literary crossword clues by identifying wordplay indicators (such as anagram markers or double definitions) with 100% accuracy.",
+     "self_check": true
     }
    ]
   }

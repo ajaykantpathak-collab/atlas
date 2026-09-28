@@ -34,6 +34,11 @@
      "q": "Construct a function \\( f: \\{1,2,3\\} \\to \\{a,b\\} \\) that is onto but not one-one. Draw its arrow diagram and explain why it satisfies surjectivity but fails injectivity.",
      "a": "Example: \\( f(1)=a, f(2)=b, f(3)=a \\). Arrow diagram: 1→a, 2→b, 3→a. Every element of \\( \\{a,b\\} \\) has a pre-image (a has 1 and 3; b has 2), so onto. But \\( f(1)=f(3)=a \\) with \\( 1 \\neq 3 \\), so not one-one. A poor answer might give a non-function or a function that misses an element of the codomain, showing confusion between the two properties.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a school with 50 students (domain) and 60 roll numbers (______).",
+     "a": "codomain",
+     "self_check": true
     }
    ]
   }

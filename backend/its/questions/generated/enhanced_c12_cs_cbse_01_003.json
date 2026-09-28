@@ -34,6 +34,31 @@
      "q": "Design a small office network for 10 employees with the following requirements: (a) minimal collisions, (b) internet access via a single ISP link, (c) a legacy serial‑attached printer that speaks a proprietary protocol must be accessible from all PCs. Draw a labelled diagram and specify the device(s) used at each point, justifying each choice.",
      "a": "Diagram: 10 PCs → 12‑port switch (Layer 2, separate collision domains) → router (Layer 3, connects LAN to ISP WAN, NAT for internet) → ISP. Legacy printer → serial‑to‑Ethernet gateway (Layers 4–7, translates proprietary protocol to TCP/IP) → switch. Justification: switch eliminates collisions, router provides IP routing and NAT, gateway bridges proprietary protocol to IP network. A poor answer omits the gateway or uses a router for the printer, showing inability to match device function to protocol translation needs.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Network devices are hardware components that connect computers and other devices to share data and resources; each device operates at a specific OSI layer: hub (Layer 1, physical) broadcasts signals to all ports, switch (Layer 2, data link) forwards frames using MAC addresses, router (Layer 3, network) routes packets between networks using IP addresses, repeater (Layer 1) ______ signals to extend range, and gateway (Layer 4–7) translates protocols between dissimilar networks.",
+     "a": "regenerates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are setting up a computer lab in your school: 30 PCs in one room, a server in another room 150 metres away, and an internet ______ from an ISP.",
+     "a": "connection",
+     "self_check": true
+    },
+    {
+     "q": "What is Network devices? State the definition given in this lesson.",
+     "a": "Network devices are hardware components that connect computers and other devices to share data and resources; each device operates at a specific OSI layer: hub (Layer 1, physical) broadcasts signals to all ports, switch (Layer 2, data link) forwards frames using MAC addresses, router (Layer 3, network) routes packets between networks.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Network devices?",
+     "a": "Students often think a switch \"routes\" packets using IP addresses like a router, or that a router \"switches\" frames using MAC addresses.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly identify the OSI layer, addressing method (MAC/IP), collision/broadcast domain behavior, and typical deployment scenario for each device, and can select the appropriate device to solve a given network design problem (e.g., segment collision domains, connect LAN to WAN, extend cable length, translate protocols).",
+     "self_check": true
     }
    ]
   }

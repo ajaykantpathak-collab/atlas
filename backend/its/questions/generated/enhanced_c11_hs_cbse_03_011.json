@@ -34,6 +34,31 @@
      "q": "Design a 3-day \"Recovery-Oriented Meal Plan\" for a 15-year-old female recovering from Anorexia Nervosa (current BMI 16.5, refeeding syndrome risk: moderate) that incorporates the textbook's three intervention principles: balanced diet, enhanced dietary fiber, and nutrient/food supplements. Specify kcal target, macronutrient distribution, and two micronutrient supplements with justification.",
      "a": "A strong answer: ~1800 kcal/day (starting conservatively per refeeding guidelines), 55% carb / 20% protein / 25% fat, 25g fiber from whole grains/vegetables/fruits, supplemented with thiamine 100mg/day (prevents Wernicke's in refeeding) and phosphate supplement (prevents hypophosphatemia); meals include all 5 food groups per ICMR, spaced 3 meals + 3 snacks. A poor answer giving 2500 kcal immediately, omitting thiamine, or using only \"healthy foods\" without structured energy progression reveals ignorance of refeeding physiology and the textbook's emphasis on \"balanced diet\" as a planned, gradual process—not intuitive eating during early recovery.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Eating disorders are serious mental health conditions ______ by persistent disturbances in eating behavior and body image perception that significantly impair physical health and psychosocial functioning; Anorexia Nervosa involves restrictive eating leading to significantly low body weight, intense fear of gaining weight, and body image distortion, while Bulimia Nervosa involves recurrent episodes of binge eating followed by compensatory behaviors such as self-induced vomiting, laxative misuse, or excessive exercise.",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 16-year-old student, Priya, who skips lunch daily, counts calories obsessively, exercises for two hours after school, and insists she is \"fat\" despite being ______—her parents are confused because she was always a \"good eater\" until six months ago.",
+     "a": "underweight",
+     "self_check": true
+    },
+    {
+     "q": "What is Eating disorders? State the definition given in this lesson.",
+     "a": "Eating disorders are serious mental health conditions characterized by persistent disturbances in eating behavior and body image perception that significantly impair physical health and psychosocial functioning; Anorexia Nervosa involves restrictive eating leading to significantly low body weight, intense fear of gaining weight, and body.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______-year-old student, Priya, who skips lunch daily, counts calories obsessively, exercises for two hours after school, and insists she is \"fat\" despite being underweight—her parents are confused because she was always a \"good eater\" until six months ago.",
+     "a": "16",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to differentiate between Anorexia Nervosa and Bulimia Nervosa across five clinical dimensions (behavioral, psychological, physical, demographic, and prognostic), and design a nutritional intervention plan for a hypothetical adolescent case that addresses both macro- and micronutrient rehabilitation while.",
+     "self_check": true
     }
    ]
   }

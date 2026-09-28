@@ -4,15 +4,8 @@
   {
    "id": "kemh.106.1.1",
    "title": "Fundamental Principle of Counting",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the counting rule (product, factorial, 2^n)",
-     "explain": "apply the counting rule (product, factorial, 2^n): total = 5 * 5 gives 25",
-     "compute": "total = 5 * 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A canteen offers 5 drinks and 5 snacks. How many drink-snack combos are possible (rule of product)?",
@@ -49,15 +42,8 @@
   {
    "id": "kemh.106.2.1",
    "title": "Permutations: Arrangements in Order",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the counting rule (product, factorial, 2^n)",
-     "explain": "apply the counting rule (product, factorial, 2^n): total = 6 * 8 gives 48",
-     "compute": "total = 6 * 8"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A canteen offers 6 drinks and 8 snacks. How many drink-snack combos are possible (rule of product)?",
@@ -94,15 +80,8 @@
   {
    "id": "kemh.106.3.1",
    "title": "Combinations: Selections Without Order and the Pair Count",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the counting rule (product, factorial, 2^n)",
-     "explain": "apply the counting rule (product, factorial, 2^n): total = 9 * 3 gives 27",
-     "compute": "total = 9 * 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A canteen offers 9 drinks and 3 snacks. How many drink-snack combos are possible (rule of product)?",

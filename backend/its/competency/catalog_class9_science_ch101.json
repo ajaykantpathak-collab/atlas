@@ -20,7 +20,7 @@
     "explain the role of assumptions in scientific modeling",
     "why is scientific modeling and simplification important"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,16 @@
      "action": "Identify negligible details to ignore",
      "explain": "List minor factors that have minimal impact and can be omitted to keep the model simple."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "simplified_model = actual_system - ignored_details",
+     "compute": "simplified_model = actual_system - ignored_details"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.101.2",
@@ -54,7 +63,7 @@
     "why do we need international standards for physical quantities",
     "what do you understand by standard units and international standards"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -71,7 +80,16 @@
      "action": "Verify that using this standard unit prevents discrepancies",
      "explain": "Explain how standard units eliminate local variations and conversion errors."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "standardized_value = numerical_value * standard_unit",
+     "compute": "standardized_value = numerical_value * standard_unit"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.101.3",
@@ -88,7 +106,7 @@
     "explain why a theory is not just an untested guess",
     "how does laws, theories, and principles work"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -105,7 +123,16 @@
      "action": "Determine whether the construct can be revised by new evidence",
      "explain": "Laws summarize observations, theories explain mechanisms and can be refined, and principles guide reasoning; all remain open to improvement with new data."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "scientific_framework = law + theory + principle",
+     "compute": "scientific_framework = law + theory + principle"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.101.4",
@@ -175,7 +202,16 @@
      "action": "Round the result to a sensible order of magnitude",
      "explain": "Fermi estimates use approximate values, so rounding to the nearest power of ten keeps the answer practical and easy to interpret."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_volume = breaths_per_minute * minutes_per_day * volume_per_breath",
+     "compute": "total_volume = breaths_per_minute * minutes_per_day * volume_per_breath"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

@@ -34,6 +34,26 @@
      "q": "Create a real-life scenario (Indian context: money, distance, marks) that can be modelled by a linear inequality in one variable. Write the inequality, define the variable, and explain what the solution set represents in your context.",
      "a": "Example: \"A metro ride costs ₹10 for the first 2 km and ₹5 per km thereafter. Rahul has ₹50. How far can he travel?\" Let x = additional km beyond 2 km. Inequality: 10 + 5x ≤ 50 → 5x ≤ 40 → x ≤ 8. Total distance ≤ 10 km. Solution set [0, 8] for x means Rahul can travel up to 8 additional km. A poor answer uses an equation (=) instead of inequality, or defines variable unclearly, or gives a scenario requiring two variables. This reveals inability to translate \"at most\", \"at least\", \"budget\" language into ≤ or ≥.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A linear inequality is a ______ statement that compares two algebraic expressions using inequality symbols (<, >, ≤, ≥) where the highest power of the variable is 1.",
+     "a": "mathematical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have ₹200 to buy ______ costing ₹30 each and pens costing ₹10 each.",
+     "a": "notebooks",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A linear inequality is a mathematical statement that compares two algebraic expressions using inequality symbols (<, >, ≤, ≥) where the highest power of the variable is ______.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify linear inequalities from a set of algebraic statements, write the solution set in set-builder and interval notation, and represent solutions on a number line distinguishing between strict and non-strict inequalities using open and closed circles.",
+     "self_check": true
     }
    ]
   }

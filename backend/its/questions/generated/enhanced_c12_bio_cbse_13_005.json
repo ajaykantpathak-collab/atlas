@@ -34,6 +34,26 @@
      "q": "Design a 6-month experiment to determine whether a laboratory population of Tribolium (flour beetles) follows exponential or logistic growth. Specify: (a) independent/dependent variables, (b) how you'll estimate r and K, (c) statistical test to compare model fit, (d) one confounding factor to control.",
      "a": "(a) Independent: time (weeks); Dependent: population count N(t). (b) Fit N(t) = N₀e^(rt) for exponential; for logistic, use linearized form: 1/N vs t gives slope r/K, intercept 1/K. Or nonlinear regression on dN/dt = rN(1-N/K). (c) Compare AIC (Akaike Information Criterion) or R² of both fits; lower AIC = better model. (d) Confounding factor: flour quantity/quality — must replenish at fixed intervals to separate resource limitation from waste accumulation. A poor answer measures only final population, ignores time-series data, or doesn't specify how to distinguish models statistically. This tests experimental design and model selection skills.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Population growth models ______ how population size (N) changes over time (t).",
+     "a": "describe",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you place 10 ______ in a nutrient-rich petri dish.",
+     "a": "bacteria",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you place ______ bacteria in a nutrient-rich petri dish.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can derive both growth equations from first principles, calculate population size at any time given initial parameters, interpret the biological meaning of r and K, and explain why real populations deviate from these idealized models (time lags, density-independent factors, Allee effects).",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch13_8",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch13_8",
+   "title": "c9_math_ch13_8",
+   "questions": [
+    {
+     "q": "What is the formula for the volume of a solid hemisphere of radius r?",
+     "a": "The correct formula is V = (2/3)πr³. A wrong answer like V = (4/3)πr³ reveals the student is confusing hemisphere volume with sphere volume. An answer like V = 2πr³ or V = (1/2)πr³ reveals confusion about the factor — they may think \"half of 4/3 is 2/3\" but incorrectly simplify or misremember the sphere formula itself.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"Volume of sphere = 4πr³\" because \"surface area is 4πr², so volume just adds one more r.\" Explain why this reasoning is incorrect.",
+     "a": "Surface area (4πr²) measures the 2D covering of the sphere, while volume (4/3πr³) measures 3D space inside. Adding an 'r' to surface area would give 4πr³, but the correct volume has a factor of 4/3, not 4. The 4/3 arises from integration/geometry (Archimedes' principle: sphere volume = 2/3 of circumscribing cylinder), not from multiplying surface area by radius. A student who gives this reasoning confuses dimensional scaling with the actual geometric derivation.",
+     "self_check": true
+    },
+    {
+     "q": "A solid metal sphere of radius 7 cm is melted and recast into a solid hemisphere of the same radius. What is the volume of the hemisphere? (Use π = 22/7)",
+     "a": "Step 1: Volume of sphere = (4/3)πr³ = (4/3) × (22/7) × 7³ = (4/3) × 22 × 49 = (4 × 22 × 49)/3 = 4312/3 cm³.\nStep 2: Volume of hemisphere = half of sphere volume = (1/2) × (4312/3) = 2156/3 cm³ ≈ 718.67 cm³.\nOR directly: (2/3)πr³ = (2/3) × (22/7) × 343 = (2 × 22 × 49)/3 = 2156/3 cm³.\nA wrong answer like 4312/3 cm³ means the student forgot to halve the sphere volume. An answer like (2/3) × (22/7) × 7² = 308/3 cm³ means they used r² instead of r³ — a classic exponent error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the volume of a sphere of radius r with the volume of a cylinder of radius r and height 2r (the cylinder that just encloses the sphere). What is the ratio of their volumes? What does this tell you about the sphere's volume formula?",
+     "a": "Cylinder volume = πr²h = πr²(2r) = 2πr³. Sphere volume = (4/3)πr³. Ratio (sphere : cylinder) = (4/3)πr³ : 2πr³ = 4/3 : 2 = 2:3. So the sphere occupies exactly 2/3 of its circumscribing cylinder's volume. This is Archimedes' famous result. A student who gives ratio 1:2 or 3:4 likely computed cylinder volume incorrectly (e.g., used h = r instead of 2r) or mis-simplified the fraction. This question tests whether they see the geometric relationship behind the formula.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves: \"Find radius of sphere with volume 36π cm³.\" Their working: 36π = (4/3)πr³ → 36 = (4/3)r³ → r³ = 27 → r = 9 cm. Is this correct? If not, identify the exact error.",
+     "a": "The solution is incorrect. The error is in the last step: r³ = 27 ⇒ r = ∛27 = 3 cm, not 9 cm. The student likely computed 27 ÷ 3 = 9 (dividing by 3 instead of taking cube root) or confused cube root with division by 3. This is a very common algebraic error when reversing the volume formula — students must recognise that undoing r³ requires cube root, not division by 3.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world problem (Indian context) where a student must find the radius of a hemisphere given its volume, and the answer involves a cube root that is not a perfect cube (e.g., volume = 500 cm³). Write the problem statement and outline the steps to solve it.",
+     "a": "Example problem: \"A hemispherical bowl has a capacity of 500 cm³. Find its radius to one decimal place. (Use π = 3.14)\" Steps: (1) V = (2/3)πr³ = 500 → r³ = (500 × 3)/(2 × 3.14) = 1500/6.28 ≈ 238.85 → r = ∛238.85 ≈ 6.2 cm. A good answer shows correct rearrangement, substitution, cube root estimation, and rounding. A poor answer might use π = 22/7 incorrectly for decimal computation, forget the 2/3 factor, or write r = 238.85/3 instead of cube root — revealing weak algebraic manipulation and root understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_08_002",
+   "title": "c12_soc_cbse_08_002",
+   "questions": [
+    {
+     "q": "Define colonial capitalism in one sentence and state the fundamental difference between pre-capitalist conquest (tribute extraction) and capitalist colonialism (direct interference in the economic base) as described by Alavi and Shanin (1982) cited in the NCERT text.",
+     "a": "Colonial capitalism is the restructuring of a colonised economy by a capitalist metropole to serve its own capital accumulation through direct intervention in production, property rights, and trade. Pre-capitalist conquerors extracted tribute from the existing surplus without altering the economic base; capitalist colonialism actively transformed laws, crop patterns, manufacturing, and labour systems to maximise profit for British capital. A wrong answer that says \"both extracted wealth\" misses the structural transformation — the shift from *skimming surplus* to *reorganising production* — which is the analytical core of the chapter.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT text states: \"In India the impact of the very same British industrialisation led to deindustrialisation in some sectors, and decline of old urban centres.\" Explain this paradox in your own words: how did industrialisation in Britain cause deindustrialisation in India? Use the concepts of *market competition*, *tariff policy*, and *raw material extraction* in your explanation.",
+     "a": "British industrialisation produced cheap machine-made textiles that flooded Indian markets due to one-way free trade (no tariffs on British imports, high tariffs on Indian exports). Simultaneously, India was converted into a raw cotton supplier for Lancashire mills. Indian artisans lost both domestic court patronage (as princely courts declined) and export markets, forcing many into agriculture. A wrong answer focusing only on \"British goods were cheaper\" misses the *policy asymmetry* — the colonial state actively dismantled Indian manufacturing through tariff structures and property law changes, not just market forces.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"colonial city as a link between core and periphery\" to explain why Bombay, Calcutta, and Madras grew while Surat, Masulipatnam, Thanjavur, Dhaka, and Murshidabad declined. Your answer must identify the specific economic function each colonial city performed for British capitalism.",
+     "a": "Bombay, Calcutta, and Madras were *port cities* designed for export of primary commodities (cotton, jute, coffee/indigo) and import of manufactured goods — they became the \"prime link\" between British industrial core and Indian periphery. Surat/Masulipatnam declined because they were pre-colonial maritime hubs bypassed by new colonial port infrastructure. Thanjavur/Dhaka/Murshidabad lost court patronage and artisanal demand when British annexed princely states. A wrong answer listing \"trade\" generically fails to distinguish *colonial port-enclave function* from *pre-colonial commercial function* — the former was structured by British capital's needs, the latter by indigenous merchant networks.",
+     "self_check": true
+    },
+    {
+     "q": "Analyse the tea plantation case (Box 1.5) to show how colonial labour law (Transport of Native Labourers Act) and recruitment practices (fraud, coercion, penal contracts) reveal the *contradiction* between British democratic norms at home and colonial governance in India. What does this tell you about the nature of the colonial state?",
+     "a": "The Transport of Native Labourers Act (1863, amended 1865/1870/1873) criminalised labour desertion, binding workers to plantations through penal sanctions — a legal form impossible in Britain where labour contracts were civil matters. Planters used fraud/coercion because Assam's sparse population and unhealthy climate made voluntary recruitment impossible at wages they would pay. The colonial state *enabled* this by passing laws violating democratic norms it upheld in Britain. This reveals the colonial state as an instrument of *capitalist extraction* first, governed by *racialised exception* — law served planter profit, not universal rights. A wrong answer saying \"British were hypocritical\" misses the structural point: the *legal architecture* of colonialism *required* differentiated citizenship to sustain profit flows.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Colonial capitalism brought modernity to India (railways, ports, English education, legal system) so its legacy is net positive.\" Use evidence from the NCERT text on *paradoxical outcomes* (English language as privilege/opportunity, western education creating nationalist consciousness, railways enabling resource extraction) to defend or critique this position.",
+     "a": "The claim is analytically flawed because it confuses *infrastructure introduction* with *developmental intent or outcome*. Railways were built to move raw materials to ports and troops to suppress revolt — not to integrate Indian markets (freight rates favoured port-bound traffic). English education was intended to produce clerks but generated anti-colonial nationalism. English today gives global market access but remains a privilege marker excluding Dalits/poor. The *paradox* is structural: colonial modernity was *dependent modernity* — institutions served extraction, and their \"benefits\" were unintended byproducts of contradiction. A defensible evaluation must weigh *who controlled the surplus* — British capital did — making \"net positive\" a category error for a colonised economy.",
+     "self_check": true
+    },
+    {
+     "q": "Create a conceptual diagram (described in words) showing the *circular causality* between: (a) British industrial demand for raw materials, (b) colonial land revenue/tenure policies, (c) commercialisation of agriculture, (d) peasant indebtedness, (e) decline of handicrafts, (f) increased agricultural labour supply, (g) wage suppression, and (h) profit remittance to Britain. Label each arrow with the mechanism (e.g., \"high revenue demand → forced cash cropping\").",
+     "a": "A strong diagram shows: British industrial demand → colonial state imposes high fixed land revenue (cash) → peasants forced into cash crops (indigo, opium, cotton) → volatile prices + moneylender debt → loss of land → swell landless labour pool → wages suppressed → plantation/factory profit ↑ → surplus remitted to Britain as home charges/dividends → finances more British industry → demand for raw materials ↑. Simultaneously: British manufactured imports + discriminatory tariffs → handicraft decline → artisans displaced → more agricultural labour → wage suppression. Each arrow must name the *policy mechanism* (revenue law, tariff, Forest Act, penal contract), not just \"caused.\" A weak answer lists factors linearly without showing *feedback loops* (e.g., revenue demand → debt → land loss → labour supply → profit → more revenue demand).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Colonial capitalism refers to the specific form of capitalist penetration where British colonial rule restructured India's economy to serve British industrial interests, characterised by the ______ of India from a manufacturer-exporter to a supplier of raw materials and consumer of British manufactured goods, accompanied by the creation of new property relations, labour systems, and urban centres that integrated India into the global capitalist economy on subordinate terms.",
+     "a": "transformation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are walking through a modern Indian city — you see a ______ station built in 1860, a neighbourhood named \"Civil Lines\" with spacious bungalows, and a bustling market selling imported goods.",
+     "a": "railway",
+     "self_check": true
+    },
+    {
+     "q": "What is Colonial capitalism? State the definition given in this lesson.",
+     "a": "Colonial capitalism refers to the specific form of capitalist penetration where British colonial rule restructured India's economy to serve British industrial interests, characterised by the transformation of India from a manufacturer-exporter to a supplier of raw materials and consumer of British manufactured goods, accompanied by the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are walking through a modern Indian city — you see a railway station built in ______, a neighbourhood named \"Civil Lines\" with spacious bungalows, and a bustling market selling imported goods.",
+     "a": "1860",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Colonial capitalism?",
+     "a": "Students equate \"colonial capitalism\" with \"British introduced capitalism to India\" — implying India lacked capitalist elements pre-colonially and that colonialism *developed* capitalism in India.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Explain the structural mechanisms through which British capitalism reorganised Indian agriculture, industry, and trade using specific concepts like deindustrialisation, commercialisation of agriculture, and drain of wealth; (2) Contrast the colonial pattern of industrialisation/urbanisation with the.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,31 @@
      "q": "Design a geographical study using Pearson's r to investigate a hypothesis about any two continuous variables in your local region. Specify variables, data source, expected sign of r, and one limitation.",
      "a": "Good answer example: Hypothesis: \"Groundwater depth increases with distance from river channel in the Ganga floodplain.\" Variables: X = distance from river (m), Y = depth to water table (m). Data: 30 wells measured in March (pre-monsoon). Expected r: positive (further from river → deeper water table). Limitation: Confounding by pumping intensity, lithology variations; r only captures linear trend, may miss threshold effects. Poor answer: vague variables, no data source, ignores scale/confounders, treats r as proof.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Karl Pearson's Coefficient of Correlation (r) is a parametric statistical measure that quantifies the strength and direction of a linear ______ between two continuous geographical variables (e.g., altitude and temperature, rainfall and crop yield).",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how temperature drops as you climb from the plains of Delhi (200 m, 35°C) to Shimla (2200 m, 15°C) — a real-world negative ______.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "What is Karl Pearson's Coefficient of Correlation (r)? State the definition given in this lesson.",
+     "a": "Karl Pearson's Coefficient of Correlation (r) is a parametric statistical measure that quantifies the strength and direction of a linear relationship between two continuous geographical variables (e.g., altitude and temperature, rainfall and crop yield).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Karl Pearson's Coefficient of Correlation (r)?",
+     "a": "Students often believe that a high r (e.g., 0.9) implies a cause-effect relationship.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can compute Karl Pearson's r for ungrouped geographical data using both direct and assumed mean methods, interpret the magnitude and sign in context (e.g., \"strong negative correlation between elevation and temperature\"), and identify when the coefficient is inappropriate (non-linear relationship, outliers, categorical data).",
+     "self_check": true
     }
    ]
   }

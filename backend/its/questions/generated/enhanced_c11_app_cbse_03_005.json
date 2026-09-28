@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_03_005",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_03_005",
+   "title": "c11_app_cbse_03_005",
+   "questions": [
+    {
+     "q": "State the definition of A ⊆ B using the logical implication symbol (⇒). What are the two special subsets that every set has?",
+     "a": "A ⊆ B ⇔ (∀x)(x ∈ A ⇒ x ∈ B). The two special subsets are the empty set (∅ ⊆ A for every set A) and the set itself (A ⊆ A).  \nA wrong answer (e.g., writing \"A ⊆ B means A is smaller than B\" or forgetting ∅) reveals the student is relying on visual intuition rather than the formal definition, and may not grasp that the empty set vacuously satisfies the implication.",
+     "self_check": true
+    },
+    {
+     "q": "Let A = {1, 2, {3, 4}, 5}. Determine whether each statement is true or false and explain why:  \n(i) {3, 4} ⊆ A  \n(ii) {{3, 4}} ⊆ A  \n(iii) {1, {3, 4}} ⊆ A",
+     "a": "(i) False — 3 ∈ {3,4} but 3 ∉ A (only {3,4} is in A).  \n(ii) True — the only element of {{3,4}} is {3,4}, and {3,4} ∈ A.  \n(iii) True — elements are 1 and {3,4}; both are in A.  \nA wrong answer (e.g., saying (i) is true) reveals the classic confusion: treating the *nested set* {3,4} as if its elements were directly in A. The student must learn: ⊆ checks elements of the left set — if the left set contains a set, that *entire set* must be an element of the right set.",
+     "self_check": true
+    },
+    {
+     "q": "Given sets X = {a, b, c} and Y = {a, b, c, d, e}, list all subsets of X that are also subsets of Y. How many are there? Use this to explain why n(P(X)) = 2ⁿ where n = n(X).",
+     "a": "All subsets of X are also subsets of Y because X ⊆ Y. The subsets of X are: ∅, {a}, {b}, {c}, {a,b}, {a,c}, {b,c}, {a,b,c} — total 8 = 2³.  \nIn general, each element of X has 2 choices (in or out of a subset), giving 2ⁿ subsets. Since X ⊆ Y, every subset of X is automatically a subset of Y.  \nA wrong answer (e.g., listing subsets of Y instead, or miscounting) shows the student hasn't connected the subset relation to the power set formula or the combinatorial reasoning behind 2ⁿ.",
+     "self_check": true
+    },
+    {
+     "q": "Let A = {x ∈ ℕ : x² - 5x + 6 = 0} and B = {2, 3, 4}. Is A ⊆ B? Is B ⊆ A? Is A = B? Justify each answer by explicitly listing elements.",
+     "a": "A = {x ∈ ℕ : x² - 5x + 6 = 0} = {x ∈ ℕ : (x-2)(x-3)=0} = {2, 3}.  \nB = {2, 3, 4}.  \nA ⊆ B? Yes — 2,3 ∈ B.  \nB ⊆ A? No — 4 ∈ B but 4 ∉ A.  \nA = B? No — B ⊈ A.  \nA wrong answer (e.g., solving the quadratic incorrectly, or claiming A = B because \"they share elements\") reveals the student cannot translate set-builder to roster form, or confuses \"overlap\" with equality. The definition A = B ⇔ (A ⊆ B and B ⊆ A) must be used strictly.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If A ⊆ B and B ⊆ C, then A ⊂ C (proper subset).\" Is this always true? If not, give a counterexample. What *can* you conclude?",
+     "a": "Not always true. Counterexample: A = {1}, B = {1}, C = {1}. Then A ⊆ B and B ⊆ C, but A = C, so A ⊂ C is false.  \nWhat is always true: A ⊆ C (transitivity of ⊆). Proper subset requires strict inequality in cardinality, which isn't guaranteed.  \nA wrong answer (e.g., saying the claim is true, or giving a non-counterexample) shows the student doesn't distinguish ⊆ from ⊂, and misses that transitivity holds for ⊆ but not necessarily for ⊂. This is a subtle but critical distinction for proofs.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own example of a set A with exactly 3 elements such that:  \n(i) One element of A is a set with 2 elements.  \n(ii) A has a subset that contains that 2-element set as an element.  \n(iii) A has a subset that is exactly that 2-element set (if possible — if not, explain why).  \nWrite A in roster form and list the subsets described.",
+     "a": "Example: A = {1, {2, 3}, 4}.  \n(i) {2, 3} ∈ A (a 2-element set as element).  \n(ii) {{2, 3}} ⊆ A (subset containing that set as element).  \n(iii) {2, 3} ⊆ A? **No** — elements of {2,3} are 2 and 3, but 2 ∉ A and 3 ∉ A. So {2, 3} ⊈ A.  \nA good answer shows the student can construct nested sets and distinguish between \"set as element\" vs \"set as subset\". A poor answer (e.g., claiming {2,3} ⊆ A) reveals the persistent ∈ vs ⊆ confusion even in creative tasks.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

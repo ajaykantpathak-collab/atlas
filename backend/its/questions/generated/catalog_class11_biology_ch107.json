@@ -1,34 +1,238 @@
 {
- "catalog": "catalog_class11_biology_ch107",
+ "catalog": "catalog_class11_biology_ch107.json",
  "concepts": [
   {
    "id": "jebh.7.1",
    "title": "Animal Tissues Overview",
+   "converted_to_compute": true,
+   "formula": "animal_tissue_types = epithelial + connective + muscular + neural",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "animal_tissue_types = epithelial + connective + muscular + neural",
+     "compute": "animal_tissue_types = epithelial + connective + muscular + neural"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Animal Tissues Overview', work with: connective = 18, epithelial = 75, muscular = 10, neural = 120. Carry the chain through step by step and give the final value of animal_tissue_types.",
-     "a": "223 units",
+     "q": "For Animal Tissues Overview: given epithelial = 82, connective = 34, muscular = 55, neural = 28, find animal tissue types.",
+     "a": "199",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Animal Tissues Overview' and work with: connective = 4, epithelial = 100, muscular = 200, neural = 500. Carry the chain through step by step and give the final value of animal_tissue_types.",
-     "a": "804 units",
+     "q": "For Animal Tissues Overview: given epithelial = 18, connective = 0.6, muscular = 74, neural = 91, find animal tissue types.",
+     "a": "183.6",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Animal Tissues Overview' refers to.",
-     "a": "A group of similar cells along with intercellular substances performing a specific function forms a tissue. Animal tissues are classified into four major types: epithelial, connective, muscular, and neural.",
-     "self_check": true
+     "q": "For Animal Tissues Overview: given epithelial = 87, connective = 13.9, muscular = 64, neural = 70, find animal tissue types.",
+     "a": "234.9",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Animal Tissues Overview'.",
-     "a": "Cells aggregate to form tissues, and tissues organize into organs and organ systems, establishing the hierarchy of structural organisation in animals.",
-     "self_check": true
+     "q": "For Animal Tissues Overview: given epithelial = 56, connective = 85, muscular = 52, neural = 69, find animal tissue types.",
+     "a": "262",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Animal Tissues Overview', in plain ASCII form.",
-     "a": "animal_tissue_types = epithelial + connective + muscular + neural",
-     "self_check": true
+     "q": "For Animal Tissues Overview: given epithelial = 22, connective = 31, muscular = 5, neural = 71, find animal tissue types.",
+     "a": "129",
+     "self_check": false
+    },
+    {
+     "q": "For Animal Tissues Overview: given epithelial = 41, connective = 90, muscular = 93, neural = 35, find animal tissue types.",
+     "a": "259",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jebh.7.3",
+   "title": "Connective Tissue",
+   "converted_to_compute": true,
+   "formula": "connective_tissue = cells + fibres + ground_substance",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "connective_tissue = cells + fibres + ground_substance",
+     "compute": "connective_tissue = cells + fibres + ground_substance"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Connective Tissue: given cells = 54, fibres = 80, ground_substance = 95, find connective tissue.",
+     "a": "229",
+     "self_check": false
+    },
+    {
+     "q": "For Connective Tissue: given cells = 91, fibres = 46, ground_substance = 16, find connective tissue.",
+     "a": "153",
+     "self_check": false
+    },
+    {
+     "q": "For Connective Tissue: given cells = 86, fibres = 72, ground_substance = 22, find connective tissue.",
+     "a": "180",
+     "self_check": false
+    },
+    {
+     "q": "For Connective Tissue: given cells = 49, fibres = 71, ground_substance = 16.8, find connective tissue.",
+     "a": "136.8",
+     "self_check": false
+    },
+    {
+     "q": "For Connective Tissue: given cells = 19.5, fibres = 28, ground_substance = 76, find connective tissue.",
+     "a": "123.5",
+     "self_check": false
+    },
+    {
+     "q": "For Connective Tissue: given cells = 77, fibres = 18.8, ground_substance = 44, find connective tissue.",
+     "a": "139.8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jebh.7.4",
+   "title": "Muscular Tissue",
+   "converted_to_compute": true,
+   "formula": "muscle_type_count = skeletal + smooth + cardiac",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "muscle_type_count = skeletal + smooth + cardiac",
+     "compute": "muscle_type_count = skeletal + smooth + cardiac"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Muscular Tissue: given skeletal = 5.8, smooth = 90, cardiac = 21, find muscle type count.",
+     "a": "116.8",
+     "self_check": false
+    },
+    {
+     "q": "For Muscular Tissue: given skeletal = 35, smooth = 19.3, cardiac = 54, find muscle type count.",
+     "a": "108.3",
+     "self_check": false
+    },
+    {
+     "q": "For Muscular Tissue: given skeletal = 49, smooth = 93, cardiac = 10.6, find muscle type count.",
+     "a": "152.6",
+     "self_check": false
+    },
+    {
+     "q": "For Muscular Tissue: given skeletal = 40, smooth = 49, cardiac = 16.2, find muscle type count.",
+     "a": "105.2",
+     "self_check": false
+    },
+    {
+     "q": "For Muscular Tissue: given skeletal = 63, smooth = 72, cardiac = 88, find muscle type count.",
+     "a": "223",
+     "self_check": false
+    },
+    {
+     "q": "For Muscular Tissue: given skeletal = 82, smooth = 84, cardiac = 57, find muscle type count.",
+     "a": "223",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jebh.7.5",
+   "title": "Neural Tissue",
+   "converted_to_compute": true,
+   "formula": "neural_tissue = neurons + neuroglia",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "neural_tissue = neurons + neuroglia",
+     "compute": "neural_tissue = neurons + neuroglia"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Neural Tissue: given neurons = 84, neuroglia = 31, find neural tissue.",
+     "a": "115",
+     "self_check": false
+    },
+    {
+     "q": "For Neural Tissue: given neurons = 36, neuroglia = 27, find neural tissue.",
+     "a": "63",
+     "self_check": false
+    },
+    {
+     "q": "For Neural Tissue: given neurons = 86, neuroglia = 4.6, find neural tissue.",
+     "a": "90.6",
+     "self_check": false
+    },
+    {
+     "q": "For Neural Tissue: given neurons = 10.4, neuroglia = 32, find neural tissue.",
+     "a": "42.4",
+     "self_check": false
+    },
+    {
+     "q": "For Neural Tissue: given neurons = 37, neuroglia = 81, find neural tissue.",
+     "a": "118",
+     "self_check": false
+    },
+    {
+     "q": "For Neural Tissue: given neurons = 98, neuroglia = 95, find neural tissue.",
+     "a": "193",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "jebh.7.9",
+   "title": "Anatomy of Cockroach",
+   "converted_to_compute": true,
+   "formula": "body_divisions = head + thorax + abdomen",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "body_divisions = head + thorax + abdomen",
+     "compute": "body_divisions = head + thorax + abdomen"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Anatomy of Cockroach: given head = 35, thorax = 10, abdomen = 62, find body divisions.",
+     "a": "107",
+     "self_check": false
+    },
+    {
+     "q": "For Anatomy of Cockroach: given head = 2, thorax = 78, abdomen = 1.5, find body divisions.",
+     "a": "81.5",
+     "self_check": false
+    },
+    {
+     "q": "For Anatomy of Cockroach: given head = 96, thorax = 81, abdomen = 26, find body divisions.",
+     "a": "203",
+     "self_check": false
+    },
+    {
+     "q": "For Anatomy of Cockroach: given head = 95, thorax = 79, abdomen = 9.4, find body divisions.",
+     "a": "183.4",
+     "self_check": false
+    },
+    {
+     "q": "For Anatomy of Cockroach: given head = 61, thorax = 13.6, abdomen = 16.4, find body divisions.",
+     "a": "91",
+     "self_check": false
+    },
+    {
+     "q": "For Anatomy of Cockroach: given head = 61, thorax = 15.1, abdomen = 25, find body divisions.",
+     "a": "101.1",
+     "self_check": false
     }
    ]
   },
@@ -59,99 +263,6 @@
     {
      "q": "Write the standard relation used for 'Epithelial Tissue Types', in plain ASCII form.",
      "a": "epithelial_classification = cell_shape + cell_layer_count",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "jebh.7.3",
-   "title": "Connective Tissue",
-   "questions": [
-    {
-     "q": "Using the method 'Connective Tissue', work with: cells = 500, fibres = 75, ground_substance = 3. Carry the chain through step by step and give the final value of connective_tissue.",
-     "a": "578 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Connective Tissue' and work with: cells = 12, fibres = 30, ground_substance = 100. Carry the chain through step by step and give the final value of connective_tissue.",
-     "a": "142 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Connective Tissue' refers to.",
-     "a": "Connective tissue is the most abundant and widely distributed tissue in animals, comprising cells, fibres, and ground substance, classified into loose, dense, and specialized connective tissues.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Connective Tissue'.",
-     "a": "Connective tissues link and support other tissues or organs, with loose connective tissue as packing material, dense connective tissue for strength, and specialized types like bone, cartilage, and blood.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Connective Tissue', in plain ASCII form.",
-     "a": "connective_tissue = cells + fibres + ground_substance",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "jebh.7.4",
-   "title": "Muscular Tissue",
-   "questions": [
-    {
-     "q": "Using the method 'Muscular Tissue', work with: cardiac = 20, skeletal = 10, smooth = 15. Carry the chain through step by step and give the final value of muscle_type_count.",
-     "a": "45 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Muscular Tissue' and work with: cardiac = 200, skeletal = 200, smooth = 30. Carry the chain through step by step and give the final value of muscle_type_count.",
-     "a": "430 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Muscular Tissue' refers to.",
-     "a": "Muscular tissue consists of contractile cells called muscle fibres, classified into skeletal (striated, voluntary), smooth (non-striated, involuntary), and cardiac (striated, involuntary) muscle.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Muscular Tissue'.",
-     "a": "Each muscle type differs in striation, control (voluntary vs involuntary), cell shape, and location, determining its role in movement.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Muscular Tissue', in plain ASCII form.",
-     "a": "muscle_type_count = skeletal + smooth + cardiac",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "jebh.7.5",
-   "title": "Neural Tissue",
-   "questions": [
-    {
-     "q": "Using the method 'Neural Tissue', work with: neuroglia = 120, neurons = 8. Carry the chain through step by step and give the final value of neural_tissue.",
-     "a": "128 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Neural Tissue' and work with: neuroglia = 360, neurons = 15. Carry the chain through step by step and give the final value of neural_tissue.",
-     "a": "375 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Neural Tissue' refers to.",
-     "a": "Neural tissue consists of neurons, which are excitable cells that transmit nerve impulses, and neuroglia, which are supporting cells that protect and nourish neurons.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Neural Tissue'.",
-     "a": "Neurons conduct electrical impulses while neuroglial cells provide structural and metabolic support, together forming the control and coordination system.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Neural Tissue', in plain ASCII form.",
-     "a": "neural_tissue = neurons + neuroglia",
      "self_check": true
     }
    ]
@@ -225,37 +336,6 @@
     {
      "q": "Write the standard relation used for 'Morphology of Earthworm', in plain ASCII form.",
      "a": "body_segments = 100 to 120 metameres",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "jebh.7.9",
-   "title": "Anatomy of Cockroach",
-   "questions": [
-    {
-     "q": "Using the method 'Anatomy of Cockroach', work with: abdomen = 12, circulatory = 200, excretory = 18, head = 12, respiratory = 360, thorax = 24, abdominal_segments = 10. Carry the chain through step by step and give the final value of organ_systems.",
-     "a": "578 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Anatomy of Cockroach' and work with: abdomen = 25, circulatory = 10, excretory = 3, head = 18, respiratory = 40, thorax = 45, abdominal_segments = 10. Carry the chain through step by step and give the final value of organ_systems.",
-     "a": "53 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Anatomy of Cockroach' refers to.",
-     "a": "The cockroach (Periplaneta americana) has a body divided into head, thorax, and abdomen with 10 segments, an open circulatory system, a tracheal respiratory system, and a segmented exoskeleton.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Anatomy of Cockroach'.",
-     "a": "Cockroaches show arthropod body organization with three tagmata, an open blood circulatory system, tracheal respiration, and malpighian tubules for excretion.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Anatomy of Cockroach', in plain ASCII form.",
-     "a": "body_divisions = head + thorax + abdomen",
      "self_check": true
     }
    ]

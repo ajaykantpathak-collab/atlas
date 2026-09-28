@@ -1,6 +1,100 @@
 {
- "catalog": "catalog_class11_accountancy_keac101",
+ "catalog": "catalog_class11_accountancy_keac101.json",
  "concepts": [
+  {
+   "id": "keac.101.4.1",
+   "title": "Basic Terms: Assets, Liabilities, Capital, Debtors and Creditors",
+   "converted_to_compute": true,
+   "formula": "capital = assets - liabilities",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "capital = assets - liabilities",
+     "compute": "capital = assets - liabilities"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Basic Terms: Assets, Liabilities, Capital, Debtors and Creditors: given assets = 41, liabilities = 52, find capital.",
+     "a": "-11",
+     "self_check": false
+    },
+    {
+     "q": "For Basic Terms: Assets, Liabilities, Capital, Debtors and Creditors: given assets = 99, liabilities = 18, find capital.",
+     "a": "81",
+     "self_check": false
+    },
+    {
+     "q": "For Basic Terms: Assets, Liabilities, Capital, Debtors and Creditors: given assets = 80, liabilities = 96, find capital.",
+     "a": "-16",
+     "self_check": false
+    },
+    {
+     "q": "For Basic Terms: Assets, Liabilities, Capital, Debtors and Creditors: given assets = 73, liabilities = 94, find capital.",
+     "a": "-21",
+     "self_check": false
+    },
+    {
+     "q": "For Basic Terms: Assets, Liabilities, Capital, Debtors and Creditors: given assets = 32, liabilities = 86, find capital.",
+     "a": "-54",
+     "self_check": false
+    },
+    {
+     "q": "For Basic Terms: Assets, Liabilities, Capital, Debtors and Creditors: given assets = 46, liabilities = 77, find capital.",
+     "a": "-31",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keac.101.5.1",
+   "title": "Profit and the Change in Closing Capital",
+   "converted_to_compute": true,
+   "formula": "profit = revenue - expenses",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "profit = revenue - expenses",
+     "compute": "profit = revenue - expenses"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Profit and the Change in Closing Capital: given revenue = 84, expenses = 20, find profit.",
+     "a": "64",
+     "self_check": false
+    },
+    {
+     "q": "For Profit and the Change in Closing Capital: given revenue = 54, expenses = 2.1, find profit.",
+     "a": "51.9",
+     "self_check": false
+    },
+    {
+     "q": "For Profit and the Change in Closing Capital: given revenue = 17, expenses = 97, find profit.",
+     "a": "-80",
+     "self_check": false
+    },
+    {
+     "q": "For Profit and the Change in Closing Capital: given revenue = 25, expenses = 78, find profit.",
+     "a": "-53",
+     "self_check": false
+    },
+    {
+     "q": "For Profit and the Change in Closing Capital: given revenue = 32, expenses = 1.3, find profit.",
+     "a": "30.7",
+     "self_check": false
+    },
+    {
+     "q": "For Profit and the Change in Closing Capital: given revenue = 76, expenses = 29, find profit.",
+     "a": "47",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "keac.101.1.1",
    "title": "Meaning of Accounting: Identification, Measurement, Recording and Communication",
@@ -60,68 +154,6 @@
     {
      "q": "Under which section is 'Objectives of Accounting: Records, Profit and Financial Position' taught, and from which source text?",
      "a": "1.3 Objectives of Accounting (source: keac101.txt sections 1.3, 1.3.1-1.3.4)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.101.4.1",
-   "title": "Basic Terms: Assets, Liabilities, Capital, Debtors and Creditors",
-   "questions": [
-    {
-     "q": "Using the method 'Basic Terms: Assets, Liabilities, Capital, Debtors and Creditors', work with: assets = 500, liabilities = 24. Carry the chain through step by step and give the final value of capital.",
-     "a": "476 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Basic Terms: Assets, Liabilities, Capital, Debtors and Creditors' and work with: assets = 8000, liabilities = 10. Carry the chain through step by step and give the final value of capital.",
-     "a": "7990 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Basic Terms: Assets, Liabilities, Capital, Debtors and Creditors' refers to.",
-     "a": "Assets are economic resources owned by the entity, liabilities are its payable obligations, capital is the amount invested by the owner, debtors owe money to the firm, and creditors are persons to whom the firm owes money.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Basic Terms: Assets, Liabilities, Capital, Debtors and Creditors'.",
-     "a": "The claims on assets come from the owner as capital and from outsiders as liabilities, so assets always equal capital plus liabilities.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Basic Terms: Assets, Liabilities, Capital, Debtors and Creditors', in plain ASCII form.",
-     "a": "capital = assets - liabilities",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.101.5.1",
-   "title": "Profit and the Change in Closing Capital",
-   "questions": [
-    {
-     "q": "Calculate profit from revenue and expenses. Use the method 'Profit and the Change in Closing Capital'. Work with: drawings = 6, expenses = 8000, opening_capital = 50000, revenue = 20000. Carry the chain through step by step and give the final value of closing_capital.",
-     "a": "61994 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Find the closing capital from opening capital profit and drawings. Use the method 'Profit and the Change in Closing Capital'. Work with: drawings = 12, expenses = 50000, opening_capital = 80000, revenue = 20000. Carry the chain through step by step and give the final value of closing_capital.",
-     "a": "49988 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Profit and the Change in Closing Capital' refers to.",
-     "a": "Profit is the excess of revenues over expenses for a period, and it adds to the owner's capital while drawings reduce it, so the closing capital reflects profit earned less amounts withdrawn.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Profit and the Change in Closing Capital'.",
-     "a": "Closing capital equals opening capital plus profit minus drawings, tying the income computation to the financial position.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Profit and the Change in Closing Capital', in plain ASCII form.",
-     "a": "profit = revenue - expenses",
      "self_check": true
     }
    ]

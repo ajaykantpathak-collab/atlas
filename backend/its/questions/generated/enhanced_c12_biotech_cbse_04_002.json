@@ -34,6 +34,26 @@
      "q": "**CREATE level:** Design a minimal yeast expression cassette for secreting a human growth hormone (hGH) variant in *P. pastoris*. Specify: promoter, secretion signal, gene modifications (if any), terminator, and selection strategy. Explain each choice in one sentence.",
      "a": "Expected answer: **Promoter**: AOX1 (methanol-inducible, strongest in *P. pastoris*). **Secretion signal**: *S. cerevisiae* α-factor pre-pro leader (cleaved by Ste13/Kex2 in Golgi). **Gene modification**: Remove native signal peptide; codon-optimise for *P. pastoris* (high A/T bias); add C-terminal His₆ tag for purification. **Terminator**: AOX1 3'UTR or CYC1 terminator (polyadenylation). **Selection**: Zeocin™ resistance (Sh ble gene) on YPDS plates — works in wild-type strains without auxotrophy. A poor answer copies *E. coli* elements (lac promoter, no secretion signal) or omits codon optimisation, revealing failure to transfer knowledge across expression systems.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Recombinant protein production in yeast systems refers to the use of eukaryotic ______ (primarily *Saccharomyces cerevisiae* and *Pichia pastoris*) as host cells to express heterologous genes cloned into yeast expression vectors, enabling post-translational modifications such as glycosylation, disulfide bond formation, and proteolytic processing that are absent in prokaryotic hosts like *E. coli*.",
+     "a": "microorganisms",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to produce a human therapeutic protein that requires proper folding and sugar chains (______) to function — but *E. coli* cannot add sugar chains and often forms inclusion bodies.",
+     "a": "glycosylation",
+     "self_check": true
+    },
+    {
+     "q": "What is Recombinant protein production in yeast systems? State the definition given in this lesson.",
+     "a": "Recombinant protein production in yeast systems refers to the use of eukaryotic microorganisms (primarily *Saccharomyces cerevisiae* and *Pichia pastoris*) as host cells to express heterologous genes cloned into yeast expression vectors, enabling post-translational modifications such as glycosylation, disulfide bond formation, and.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) explain why yeast is preferred over *E. coli* for proteins requiring eukaryotic post-translational modifications, (2) design a basic yeast expression vector specifying promoter, terminator, selection marker, and origin of replication, and (3) compare the glycosylation pattern of yeast-produced proteins.",
+     "self_check": true
     }
    ]
   }

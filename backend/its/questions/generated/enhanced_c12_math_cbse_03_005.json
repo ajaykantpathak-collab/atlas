@@ -34,6 +34,36 @@
      "q": "Create a real-world problem (in an Indian context) that requires multiplying a 3×2 matrix by a 2×3 matrix. Define the matrices clearly, state what each dimension represents, and explain what the resulting 3×3 matrix represents.",
      "a": "Example: A school has 3 sections (VI-A, VI-B, VI-C) and 2 subjects (Maths, Science). Matrix Q (3×2) gives the number of students in each section taking each subject. Matrix P (2×3) gives the fees per student for each subject in three terms. The product R = QP (3×3) gives total fee collection per section per term. A good answer defines rows/columns unambiguously and explains the summation meaning. A poor answer swaps dimensions or gives a trivial context without clear mapping.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Matrix ______ is a binary operation that produces a matrix from two matrices.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: On Monday, you sold 20 pens and 15 notebooks; on ______, 25 pens and 10 notebooks.",
+     "a": "Tuesday",
+     "self_check": true
+    },
+    {
+     "q": "What is Matrix multiplication? State the definition given in this lesson.",
+     "a": "Matrix multiplication is a binary operation that produces a matrix from two matrices.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The resulting matrix C = AB has order m × p, where each element c_ik is the sum of products of corresponding elements from the i-th row of A and the k-th column of B: c_ik = Σ_{j=______}^n a_ij b_jk.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Matrix multiplication?",
+     "a": "Students often multiply matrices element-wise (Hadamard product) instead of using the row-by-column dot product.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) determine whether two given matrices are conformable for multiplication, (2) compute the product matrix step-by-step using the row-by-column rule, (3) verify the associative and distributive properties of matrix multiplication, (4) demonstrate that matrix multiplication is not commutative in general, and (5) solve.",
+     "self_check": true
     }
    ]
   }

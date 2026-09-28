@@ -34,6 +34,26 @@
      "q": "Design a simple \"secret\" switch for a cardboard toy box using only a paperclip, two thumbtacks, and wires. How would you arrange them?",
      "a": "Place two thumbtacks on the cardboard with a small gap, connecting each to a wire. Attach one end of a paperclip to one thumbtack so it can swing to touch the other. A poor answer would fail to explain how the movement of the paperclip physically closes the gap.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A switch is a mechanical device in an electrical circuit that controls the flow of current by physically connecting or ______ the conductive path.",
+     "a": "disconnecting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever wondered why the light in your room turns on only when you press a specific ______?",
+     "a": "button",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to correctly identify whether a circuit is \"open\" or \"closed\" based on a visual diagram and explain why a device (like a bulb) will or will not function in each state.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever ______ why the light in your room turns on only when you press a specific button?",
+     "a": "wondered",
+     "self_check": true
     }
    ]
   }

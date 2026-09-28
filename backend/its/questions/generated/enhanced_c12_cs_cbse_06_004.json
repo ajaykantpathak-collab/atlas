@@ -34,6 +34,31 @@
      "q": "Design a new scenario (different from students/marks) where you would need to execute a DDL statement (CREATE TABLE) using a cursor. Write the Python code to create the cursor and execute the DDL. Explain why you do not need to fetch anything after this execute.",
      "a": "Scenario: Creating a table `books` for a library database.\n```python\ncur = conn.cursor()\nddl = \"CREATE TABLE books (id INT PRIMARY KEY, title VARCHAR(100), author VARCHAR(50), year INT)\"\ncur.execute(ddl)\nprint(\"Table created successfully\")\n```\nDDL statements (CREATE, ALTER, DROP) do not return a result set; they either succeed or raise an exception. The cursor does not position a result set, so no fetch is needed or possible. A poor answer that includes `fetchall()` or checks `rowcount` for DDL shows misunderstanding that DDL is not a data manipulation operation and has no row-level result.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A cursor object in Python's mysql.connector acts as a control structure that enables traversal and ______ of database records; it is created by calling the cursor() method on a connection object and used to execute SQL statements via its execute() method, which sends the query to the MySQL server and prepares the result set for fetching.",
+     "a": "manipulation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now you want to actually run a query — say, ______ all students who scored above 90 in Computer Science.",
+     "a": "display",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now you want to actually run a query — say, display all students who scored above ______ in Computer Science.",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write Python code that creates a cursor from an active MySQL connection, executes a given SQL statement (SELECT, INSERT, UPDATE, DELETE) using execute(), and correctly identifies whether the statement returns a result set (requiring fetch) or affects rows (requiring commit).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now you want to ______ run a query — say, display all students who scored above 90 in Computer Science.",
+     "a": "actually",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_06_007",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_06_007",
+   "title": "c11_app_cbse_06_007",
+   "questions": [
+    {
+     "q": "State the formula for \\( ^nC_r \\) and explain what each symbol represents. Also write the values of \\( ^nC_0 \\) and \\( ^nC_n \\).",
+     "a": "\\( ^nC_r = \\frac{n!}{r!(n-r)!} \\), where n = total distinct objects, r = objects selected (\\( 0 \\le r \\le n \\)). \\( ^nC_0 = 1 \\) (selecting nothing = 1 way: leave all behind) and \\( ^nC_n = 1 \\) (selecting all = 1 way: take everything). A wrong answer like \\( ^nC_r = \\frac{n!}{(n-r)!} \\) reveals confusion with permutations (missing division by r!). Writing \\( ^nC_0 = 0 \\) shows misunderstanding that \"selecting none\" is a valid choice (the empty set).",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"Since \\( ^8C_3 = 56 \\) and \\( ^8C_5 = 56 \\), the formula \\( ^nC_r = ^nC_{n-r} \\) means r and n-r give the same value, so \\( ^8C_2 \\) must also equal 56.\" Is the student correct? Explain why or why not using the symmetry property.",
+     "a": "The student is **incorrect**. The symmetry property states \\( ^nC_r = ^nC_{n-r} \\). For n=8, \\( ^8C_3 = ^8C_5 \\) (since 8-3=5), but \\( ^8C_2 = ^8C_6 \\), not \\( ^8C_5 \\). \\( ^8C_2 = \\frac{8 \\times 7}{2} = 28 \\), not 56. The error reveals the student memorized \"r and n-r give same value\" but didn't internalize that it's specifically \\( r \\) paired with \\( n-r \\), not any two numbers that happen to be equal. They're pattern-matching without understanding the structural reason: selecting r objects is equivalent to rejecting n-r objects.",
+     "self_check": true
+    },
+    {
+     "q": "From a class of 12 students (7 boys, 5 girls), a committee of 4 must be formed with **at least 2 girls**. How many different committees are possible? Show your reasoning by breaking into cases.",
+     "a": "Cases: (2 girls, 2 boys) + (3 girls, 1 boy) + (4 girls, 0 boys).\n\\( ^5C_2 \\times ^7C_2 = 10 \\times 21 = 210 \\)\n\\( ^5C_3 \\times ^7C_1 = 10 \\times 7 = 70 \\)\n\\( ^5C_4 \\times ^7C_0 = 5 \\times 1 = 5 \\)\nTotal = 210 + 70 + 5 = **285**.\nA wrong answer like \\( ^5C_2 \\times ^{10}C_2 \\) (choose 2 girls first, then 2 from remaining 10) reveals the \"overcounting\" misconception — it counts committees with 3 girls multiple times (once for each pair of girls chosen in the first step). The student doesn't see that cases must be **mutually exclusive and exhaustive**.",
+     "self_check": true
+    },
+    {
+     "q": "Prove that \\( ^nC_r + ^nC_{r-1} = ^{n+1}C_r \\) using the factorial definition. Then explain the combinatorial reasoning: why does this identity make sense in terms of selecting r objects from (n+1) objects?",
+     "a": "**Algebraic proof:**\n\\( ^nC_r + ^nC_{r-1} = \\frac{n!}{r!(n-r)!} + \\frac{n!}{(r-1)!(n-r+1)!} \\)\n\\( = \\frac{n!}{(r-1)!(n-r)!} \\left[ \\frac{1}{r} + \\frac{1}{n-r+1} \\right] \\)\n\\( = \\frac{n!}{(r-1)!(n-r)!} \\cdot \\frac{n-r+1+r}{r(n-r+1)} \\)\n\\( = \\frac{n!}{(r-1)!(n-r)!} \\cdot \\frac{n+1}{r(n-r+1)} \\)\n\\( = \\frac{(n+1)!}{r!(n+1-r)!} = ^{n+1}C_r \\).\n\n**Combinatorial reasoning:** From (n+1) objects, fix one special object X. To choose r objects: either X is included (choose r-1 from remaining n: \\( ^nC_{r-1} \\) ways) or X is excluded (choose r from remaining n: \\( ^nC_r \\) ways). These are disjoint cases covering all possibilities, so total = \\( ^nC_r + ^nC_{r-1} \\).\nA student who only does the algebra but cannot explain the combinatorial story shows procedural fluency without conceptual understanding — they're manipulating symbols without seeing the selection logic.",
+     "self_check": true
+    },
+    {
+     "q": "A test has 10 questions. A student must answer 7 questions, but **must answer at least 3 of the first 5 questions**. Evaluate the proposed solution: \"Choose 3 from first 5 (\\( ^5C_3 \\)), then choose remaining 4 from the other 7 questions (\\( ^7C_4 \\)), so answer = \\( ^5C_3 \\times ^7C_4 = 10 \\times 35 = 350 \\).\" Is this correct? If not, find the correct answer and explain the flaw.",
+     "a": "The proposed solution is **incorrect** — it overcounts. The flaw: choosing 3 from first 5 *then* 4 from remaining 7 counts selections with 4 or 5 questions from the first 5 multiple times. Example: if a student picks Q1,Q2,Q3,Q4 from first 5, this gets counted \\( ^4C_3 = 4 \\) times (once for each 3-subset chosen in step 1).\n\n**Correct approach — cases based on how many from first 5:**\n- Exactly 3 from first 5, 4 from last 5: \\( ^5C_3 \\times ^5C_4 = 10 \\times 5 = 50 \\)\n- Exactly 4 from first 5, 3 from last 5: \\( ^5C_4 \\times ^5C_3 = 5 \\times 10 = 50 \\)\n- Exactly 5 from first 5, 2 from last 5: \\( ^5C_5 \\times ^5C_2 = 1 \\times 10 = 10 \\)\nTotal = **110**.\nA student who accepts the flawed solution doesn't grasp that \"at least\" requires partitioning into **mutually exclusive exact-count cases**, not a two-step \"choose minimum then fill rest\" which creates overlapping categories.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where you need to select a group from a larger set, and the answer is \\( ^{12}C_5 \\). The scenario must naturally require \"at least\" or \"at most\" condition that simplifies to exactly this combination. Explain why your scenario yields \\( ^{12}C_5 \\) and not a permutation.",
+     "a": "**Scenario:** A school has 12 teachers (5 Math, 4 Science, 3 Language). A 5-member curriculum committee must be formed with **at most 2 Math teachers**.\n**Why \\( ^{12}C_5 \\)?** Wait — this doesn't simplify to \\( ^{12}C_5 \\) directly. Let me create a correct one:\n**Better scenario:** From 12 candidates for a student council, 5 must be selected for the executive board. The only condition is that **two specific rivals (Aman and Bina) cannot both be on the board**.\nNumber of valid boards = Total boards - Boards with both = \\( ^{12}C_5 - ^{10}C_3 = 792 - 120 = 672 \\). Still not \\( ^{12}C_5 \\).\n\n**Correct scenario for exactly \\( ^{12}C_5 \\):** \"A basketball coach must choose 5 starting players from a squad of 12. How many different starting lineups (as a set, ignoring positions) are possible?\"\nThis is a pure selection: order doesn't matter (no positions like PG/SG), so \\( ^{12}C_5 \\). If the problem said \"assign 5 distinct positions (PG, SG, SF, PF, C) from 12 players,\" it would be \\( ^{12}P_5 \\).\nA poor answer gives a scenario with conditions that don't simplify to a single \\( ^nC_r \\) (like \"at least 2 seniors\" requiring casework) or confuses selection with arrangement (mentions \"captain and vice-captain\" which implies order). The key is recognizing **pure unordered selection with no extra constraints**.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

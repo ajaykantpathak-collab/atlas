@@ -233,7 +233,7 @@
     "which kosha represents the bliss body",
     "Explain panchakosha (five sheaths of existence) in your own words."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -245,7 +245,16 @@
      "action": "identify causal sheath",
      "explain": "Anandamaya (bliss sheath) forms the causal body closest to the ultimate self."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "Existence = Annamaya + Pranamaya + Manomaya + Vijnanamaya + Anandamaya",
+     "compute": "Existence = Annamaya + Pranamaya + Manomaya + Vijnanamaya + Anandamaya"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keks.109.9",

@@ -22,7 +22,7 @@
     },
     {
      "q": "Compare the AMA (2017) definition of marketing with the Kotler definition. Identify ONE key similarity and ONE key difference in their emphasis.",
-     "a": "Correct answer: Similarity — both define marketing as a process involving creation, communication, delivery, and exchange of value. Difference — AMA explicitly includes \"managing customer relationships in ways that benefit the organization and its stakeholders,\" emphasizing relationship management and stakeholder benefit; Kotler emphasizes the \"social process\" and \"freely exchanging\" aspect, highlighting the voluntary, societal dimension. A wrong answer that says \"both are same\" or cites only \"AMA includes stakeholders\" without the process similarity shows superficial reading of definitions.",
+     "a": "(1) Similarity — both treat marketing as a process of creating, communicating, delivering and exchanging offerings that carry value, (2) Difference — the AMA definition explicitly adds relationship management that benefits the organisation and its stakeholders, while Kotler stresses the social process of free exchange, (3) Takeaway — relationship management versus voluntary societal exchange is the emphasis gap. A wrong answer saying the two are the same, or citing only the stakeholder clause without the process similarity, shows a superficial reading of the definitions.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Create a new real-world example (not from textbook) of an entity being marketed that fits the 'properties' category in the scope of marketing. Describe the marketer, the target audience, and the value exchanged.",
      "a": "Good answer example: A fintech startup (marketer) licenses its proprietary credit-scoring algorithm (property — intellectual property) to regional cooperative banks (target audience). Value exchanged: the startup receives licensing fees and data-network effects; the banks get a tested, regulatory-compliant scoring model without R&D cost. A poor answer that gives \"selling a house\" (real estate is a good, not a property in the marketing scope sense) or \"selling a patent\" without explaining the ongoing value exchange shows confusion between legal property rights and the marketing entity category 'properties' (which includes intangible rights like patents, trademarks, franchises, licenses).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Marketing is a social and managerial process by which ______ and groups obtain what they need and want through creating, offering, and freely exchanging products and services of value with others.",
+     "a": "individuals",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You see an Instagram reel reviewing the camera, read a ______ article on a tech website, visit a store to hold the phone, check exchange offers on Amazon, and finally buy it with a bank cashback offer.",
+     "a": "comparison",
+     "self_check": true
+    },
+    {
+     "q": "What is Marketing? State the definition given in this lesson.",
+     "a": "Marketing is a social and managerial process by which individuals and groups obtain what they need and want through creating, offering, and freely exchanging products and services of value with others.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Marketing?",
+     "a": "Students consistently equate marketing with only advertising or selling.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) state at least two standard definitions of marketing (Kotler and AMA) using correct terminology, (2) list and give a real-world example for all 10 entities in the scope of marketing (goods, services, experiences, events, persons, places, properties, organizations, information, ideas), and (3) explain in their own.",
      "self_check": true
     }
    ]

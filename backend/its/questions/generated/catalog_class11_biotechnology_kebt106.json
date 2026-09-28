@@ -1,158 +1,285 @@
 {
- "catalog": "catalog_class11_biotechnology_kebt106",
+ "catalog": "catalog_class11_biotechnology_kebt106.json",
  "concepts": [
   {
    "id": "kebt106.1",
    "title": "Monohybrid Cross Ratios and the Test Cross",
+   "converted_to_compute": true,
+   "formula": "tall_share = offspring_total * 3 / 4",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "tall_share = offspring_total * 3 / 4",
+     "compute": "tall_share = offspring_total * 3 / 4"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Monohybrid Cross Ratios and the Test Cross', work with: offspring_total = 120. Carry the chain through step by step and give the final value of recessive_count.",
-     "a": "30 units",
+     "q": "For Monohybrid Cross Ratios and the Test Cross: given offspring_total = 32, find tall share.",
+     "a": "24",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Monohybrid Cross Ratios and the Test Cross' and work with: offspring_total = 100. Carry the chain through step by step and give the final value of recessive_count.",
-     "a": "25 units",
+     "q": "For Monohybrid Cross Ratios and the Test Cross: given offspring_total = 19.5, find tall share.",
+     "a": "14.625",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Monohybrid Cross Ratios and the Test Cross' refers to.",
-     "a": "Crossing pure tall with pure dwarf peas hides the dwarf allele in an all-tall F1 of heterozygotes, and selfing that F1 re-reveals the hidden trait in a three-to-one phenotypic split with a one-two-one genotypic split; mating a dominant-looking plant to a recessive one - the test cross - then betrays its genotype, since half-and-half progeny unmask a heterozygote while all-tall progeny prove homozygosity.",
-     "self_check": true
+     "q": "For Monohybrid Cross Ratios and the Test Cross: given offspring_total = 88, find tall share.",
+     "a": "66",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Monohybrid Cross Ratios and the Test Cross'.",
-     "a": "Expect three quarters dominant in F2, and read an unknown genotype by crossing to the recessive parent.",
-     "self_check": true
+     "q": "For Monohybrid Cross Ratios and the Test Cross: given offspring_total = 120, find tall share.",
+     "a": "90",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Monohybrid Cross Ratios and the Test Cross', in plain ASCII form.",
-     "a": "tall_share = offspring_total * 3 / 4",
-     "self_check": true
+     "q": "For Monohybrid Cross Ratios and the Test Cross: given offspring_total = 101, find tall share.",
+     "a": "75.75",
+     "self_check": false
+    },
+    {
+     "q": "For Monohybrid Cross Ratios and the Test Cross: given offspring_total = 60, find tall share.",
+     "a": "45",
+     "self_check": false
     }
    ]
   },
   {
    "id": "kebt106.2",
    "title": "Incomplete Dominance and Codominance in Flowers",
+   "converted_to_compute": true,
+   "formula": "pink_count = f_2_total / 2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "pink_count = f_2_total / 2",
+     "compute": "pink_count = f_2_total / 2"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Incomplete Dominance and Codominance in Flowers', work with: f2_total = 8. Carry the chain through step by step and give the final value of white_count.",
-     "a": "2 units",
+     "q": "For Incomplete Dominance and Codominance in Flowers: given f_2_total = 115, find pink count.",
+     "a": "57.5",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Incomplete Dominance and Codominance in Flowers' and work with: f2_total = 6. Carry the chain through step by step and give the final value of white_count.",
-     "a": "1.5 units",
+     "q": "For Incomplete Dominance and Codominance in Flowers: given f_2_total = 102, find pink count.",
+     "a": "51",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Incomplete Dominance and Codominance in Flowers' refers to.",
-     "a": "Not every allele pair obeys boss-and-hidden rules: in the four-o'clock plant red crossed with white gives pink F1 hybrids and a one-two-one red-pink-white F2, because each allele is only partly expressed, while in cattle coats and the MN blood group both alleles speak at once - roan animals and MN red cells - which is codominance.",
-     "self_check": true
+     "q": "For Incomplete Dominance and Codominance in Flowers: given f_2_total = 53, find pink count.",
+     "a": "26.5",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Incomplete Dominance and Codominance in Flowers'.",
-     "a": "Half of the F2 is the blend class under incomplete dominance, and half of that is the pure recessive class.",
-     "self_check": true
+     "q": "For Incomplete Dominance and Codominance in Flowers: given f_2_total = 77, find pink count.",
+     "a": "38.5",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Incomplete Dominance and Codominance in Flowers', in plain ASCII form.",
-     "a": "pink_count = f2_total / 2",
-     "self_check": true
+     "q": "For Incomplete Dominance and Codominance in Flowers: given f_2_total = 120, find pink count.",
+     "a": "60",
+     "self_check": false
+    },
+    {
+     "q": "For Incomplete Dominance and Codominance in Flowers: given f_2_total = 58, find pink count.",
+     "a": "29",
+     "self_check": false
     }
    ]
   },
   {
    "id": "kebt106.3",
    "title": "Dihybrid Cross and Independent Assortment",
+   "converted_to_compute": true,
+   "formula": "round_yellow = f_2_total * 9 / 16",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "round_yellow = f_2_total * 9 / 16",
+     "compute": "round_yellow = f_2_total * 9 / 16"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Dihybrid Cross and Independent Assortment', work with: f2_total = 60. Carry the chain through step by step and give the final value of wrinkled_green.",
-     "a": "3.75 units",
+     "q": "For Dihybrid Cross and Independent Assortment: given f_2_total = 69, find round yellow.",
+     "a": "38.8125",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Dihybrid Cross and Independent Assortment' and work with: f2_total = 5. Carry the chain through step by step and give the final value of wrinkled_green.",
-     "a": "0.3125 units",
+     "q": "For Dihybrid Cross and Independent Assortment: given f_2_total = 96, find round yellow.",
+     "a": "54",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Dihybrid Cross and Independent Assortment' refers to.",
-     "a": "Following two traits at once - round versus wrinkled seeds, yellow versus green - Mendel saw all round-yellow F1 plants and, on selfing, a nine-three-three-one F2 spread across sixteen genotypic squares, with fresh trait pairings appearing; this independence of allele pairs became his law of independent assortment.",
-     "self_check": true
+     "q": "For Dihybrid Cross and Independent Assortment: given f_2_total = 104, find round yellow.",
+     "a": "58.5",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Dihybrid Cross and Independent Assortment'.",
-     "a": "Nine sixteenths carry both dominants, three sixteenths carry exactly one, and one sixteenth carries both recessives.",
-     "self_check": true
+     "q": "For Dihybrid Cross and Independent Assortment: given f_2_total = 77, find round yellow.",
+     "a": "43.3125",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Dihybrid Cross and Independent Assortment', in plain ASCII form.",
-     "a": "round_yellow = f2_total * 9 / 16",
-     "self_check": true
+     "q": "For Dihybrid Cross and Independent Assortment: given f_2_total = 36, find round yellow.",
+     "a": "20.25",
+     "self_check": false
+    },
+    {
+     "q": "For Dihybrid Cross and Independent Assortment: given f_2_total = 101, find round yellow.",
+     "a": "56.8125",
+     "self_check": false
     }
    ]
   },
   {
    "id": "kebt106.4",
    "title": "Linkage, Crossing Over and Map Distance",
+   "converted_to_compute": true,
+   "formula": "recombinant_pct = 100 - parental_pct",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "recombinant_pct = 100 - parental_pct",
+     "compute": "recombinant_pct = 100 - parental_pct"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Linkage, Crossing Over and Map Distance', work with: class_a_pct = 3, class_d_pct = 20. Carry the chain through step by step and give the final value of recombinant_pct.",
-     "a": "77 units",
+     "q": "For Linkage, Crossing Over and Map Distance: given parental_pct = 3.2, find recombinant pct.",
+     "a": "96.8",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Linkage, Crossing Over and Map Distance' and work with: class_a_pct = 10, class_d_pct = 6. Carry the chain through step by step and give the final value of recombinant_pct.",
-     "a": "84 units",
+     "q": "For Linkage, Crossing Over and Map Distance: given parental_pct = 39, find recombinant pct.",
+     "a": "61",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Linkage, Crossing Over and Map Distance' refers to.",
-     "a": "Genes seated on one chromosome travel together as a linkage group, so Bateson and Punnett's sweet pea and Morgan's flies broke the 9:3:3:1 expectation; only an exchange of segments between non-sister chromatids - crossing over - lets parental combinations loosen, and the recombinant share of progeny doubles as the chromosome map distance, one percent of recombinants marking one centimorgan.",
-     "self_check": true
+     "q": "For Linkage, Crossing Over and Map Distance: given parental_pct = 43, find recombinant pct.",
+     "a": "57",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Linkage, Crossing Over and Map Distance'.",
-     "a": "Add the parental classes, subtract from a hundred, and the remainder prices the recombination and the map distance.",
-     "self_check": true
+     "q": "For Linkage, Crossing Over and Map Distance: given parental_pct = 50, find recombinant pct.",
+     "a": "50",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Linkage, Crossing Over and Map Distance', in plain ASCII form.",
-     "a": "recombinant_pct = 100 - parental_pct",
-     "self_check": true
+     "q": "For Linkage, Crossing Over and Map Distance: given parental_pct = 15.3, find recombinant pct.",
+     "a": "84.7",
+     "self_check": false
+    },
+    {
+     "q": "For Linkage, Crossing Over and Map Distance: given parental_pct = 51, find recombinant pct.",
+     "a": "49",
+     "self_check": false
     }
    ]
   },
   {
    "id": "kebt106.5",
    "title": "Sex-linked Inheritance in Drosophila",
+   "converted_to_compute": true,
+   "formula": "affected_sons = sons_total / 2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "affected_sons = sons_total / 2",
+     "compute": "affected_sons = sons_total / 2"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Sex-linked Inheritance in Drosophila', work with: offspring_total = 45. Carry the chain through step by step and give the final value of affected_sons.",
-     "a": "11.25 units",
+     "q": "For Sex-linked Inheritance in Drosophila: given sons_total = 63, find affected sons.",
+     "a": "31.5",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Sex-linked Inheritance in Drosophila' and work with: offspring_total = 50. Carry the chain through step by step and give the final value of affected_sons.",
-     "a": "12.5 units",
+     "q": "For Sex-linked Inheritance in Drosophila: given sons_total = 17, find affected sons.",
+     "a": "8.5",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Sex-linked Inheritance in Drosophila' refers to.",
-     "a": "Morgan's stray white-eyed male revealed that eye colour rides the X chromosome: red-to-white crosses hide the trait in red F1 flies, yet F2 white eyes appear only in males, because a male's single X carries no partner to mask the recessive; colour blindness and haemophilia follow the same X-linked route in humans.",
-     "self_check": true
+     "q": "For Sex-linked Inheritance in Drosophila: given sons_total = 118, find affected sons.",
+     "a": "59",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Sex-linked Inheritance in Drosophila'.",
-     "a": "Half the sons of a carrier mother inherit the affected X, so the disorder lands on half of the male progeny.",
-     "self_check": true
+     "q": "For Sex-linked Inheritance in Drosophila: given sons_total = 90, find affected sons.",
+     "a": "45",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Sex-linked Inheritance in Drosophila', in plain ASCII form.",
-     "a": "affected_sons = sons_total / 2",
-     "self_check": true
+     "q": "For Sex-linked Inheritance in Drosophila: given sons_total = 85, find affected sons.",
+     "a": "42.5",
+     "self_check": false
+    },
+    {
+     "q": "For Sex-linked Inheritance in Drosophila: given sons_total = 93, find affected sons.",
+     "a": "46.5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebt106.7",
+   "title": "Polyploidy Levels and Chromosome Sets",
+   "converted_to_compute": true,
+   "formula": "total_chromosomes = base_number * ploidy_level",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_chromosomes = base_number * ploidy_level",
+     "compute": "total_chromosomes = base_number * ploidy_level"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Polyploidy Levels and Chromosome Sets: given base_number = 0.1, ploidy_level = 7.7, find total chromosomes.",
+     "a": "0.77",
+     "self_check": false
+    },
+    {
+     "q": "For Polyploidy Levels and Chromosome Sets: given base_number = 0.9, ploidy_level = 55, find total chromosomes.",
+     "a": "49.5",
+     "self_check": false
+    },
+    {
+     "q": "For Polyploidy Levels and Chromosome Sets: given base_number = 11.2, ploidy_level = 8.9, find total chromosomes.",
+     "a": "99.68",
+     "self_check": false
+    },
+    {
+     "q": "For Polyploidy Levels and Chromosome Sets: given base_number = 0.7, ploidy_level = 64, find total chromosomes.",
+     "a": "44.8",
+     "self_check": false
+    },
+    {
+     "q": "For Polyploidy Levels and Chromosome Sets: given base_number = 0.5, ploidy_level = 64, find total chromosomes.",
+     "a": "32",
+     "self_check": false
+    },
+    {
+     "q": "For Polyploidy Levels and Chromosome Sets: given base_number = 4.5, ploidy_level = 0.9, find total chromosomes.",
+     "a": "4.05",
+     "self_check": false
     }
    ]
   },
@@ -173,37 +300,6 @@
     {
      "q": "Under which section is 'Extrachromosomal Maternal Inheritance' taught, and from which source text?",
      "a": "6.5 (source: kebt106.txt section 6.5, Fig. 6.13)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebt106.7",
-   "title": "Polyploidy Levels and Chromosome Sets",
-   "questions": [
-    {
-     "q": "Using the method 'Polyploidy Levels and Chromosome Sets', work with: base_number = 4096, ploidy_level = 150. Carry the chain through step by step and give the final value of gamete_half.",
-     "a": "307200 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Polyploidy Levels and Chromosome Sets' and work with: base_number = 8192, ploidy_level = 5. Carry the chain through step by step and give the final value of gamete_half.",
-     "a": "20480 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Polyploidy Levels and Chromosome Sets' refers to.",
-     "a": "Ploidy counts complete chromosome sets: rice with two sets, peanuts and cotton with four, bread wheat with six and strawberry or sugarcane with eight; multiply the chromosomes of one set by the ploidy level to get the somatic total, and over thirty percent of plant species exploit such polyploidy for larger organs and tougher field performance.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Polyploidy Levels and Chromosome Sets'.",
-     "a": "One set times the ploidy level sizes the genome; halving the total gives what a gamete must carry.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Polyploidy Levels and Chromosome Sets', in plain ASCII form.",
-     "a": "total_chromosomes = base_number * ploidy_level",
      "self_check": true
     }
    ]

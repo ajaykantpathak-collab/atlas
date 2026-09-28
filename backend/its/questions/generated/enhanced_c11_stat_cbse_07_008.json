@@ -34,6 +34,16 @@
      "q": "Design a small dataset (n=6) with at least one tie in each variable such that the uncorrected Spearman's $r_s$ equals 1 but the corrected $r_s$ is strictly less than 1. Show both calculations.",
      "a": "Example: X ranks: 1, 2.5, 2.5, 4, 5, 6; Y ranks: 1, 2.5, 2.5, 4, 5, 6. Uncorrected $\\sum d^2 = 0 \\Rightarrow r_s = 1$. Correction for X: $\\frac{1}{12}(2^3-2)=0.5$; same for Y. Corrected $r_s = 1 - \\frac{0 + 0.5 + 0.5}{6(35)} = 1 - \\frac{1}{210} \\approx 0.995$. A poor answer either produces identical ranks (no ties) or fails to show the drop from 1, indicating the student cannot construct a case where perfect rank agreement coexists with ties.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are comparing the rankings of 10 students in ______ and Physics.",
+     "a": "Mathematics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are comparing the rankings of ______ students in Mathematics and Physics.",
+     "a": "10",
+     "self_check": true
     }
    ]
   }

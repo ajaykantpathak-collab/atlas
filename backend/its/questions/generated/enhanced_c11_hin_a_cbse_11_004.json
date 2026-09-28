@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hin_a_cbse_11_004",
+ "concepts": [
+  {
+   "id": "enh:c11_hin_a_cbse_11_004",
+   "title": "c11_hin_a_cbse_11_004",
+   "questions": [
+    {
+     "q": "पाठ्यक्रम में नायक की परिभाषा देते समय, निम्नलिखित में से कौन-सा लक्षण **अनिवार्य** है?\nA) सबसे अधिक संवाद बोलने वाला पात्र\nB) कथानक की प्रेरक शक्ति (driving force) होना\nC) पाठक की सहानुभूति प्राप्त करना\nD) कथा का वाचक (narrator) होना",
+     "a": "**Correct: B** — नायक कथानक की प्रेरक शक्ति होता है; उसकी इच्छा, निर्णय और संघर्ष कथा को गति देते हैं।  \n**Wrong answer reveals:** If a student chooses A, they confuse *presence* with *agency* (a character can talk the most but be passive, like a chatty sidekick). If C, they confuse *protagonist* with *sympathetic character* (anti-heroes like Macbeth are protagonists without sympathy). If D, they confuse *narrative voice* with *protagonist role* (Nick Carraway narrates but Gatsby is the protagonist).",
+     "self_check": true
+    },
+    {
+     "q": "'नमक का दारोगा' में मुंशी वंशीधर नायक हैं या नहीं? अपने उत्तर में **दो** पाठ्य साक्ष्य देकर स्पष्ट कीजिए कि उनकी **सक्रिय अभिकर्ता (active agency)** कथानक को कैसे संचालित करती है।",
+     "a": "**Correct:** हाँ, वंशीधर नायक हैं। साक्ष्य 1: वे नौकरी स्वीकार करते समय **स्वेच्छा से** ईमानदारी की शर्त रखते हैं (\"मैं रिश्वत नहीं लूँगा\") — यह सक्रिय नैतिक चयन कथानक का बीज है। साक्ष्य 2: अलोपीदीन के यहाँ छापा मारने का **निर्णय** वे स्वयं लेते हैं, उच्चाधिकारियों के दबाव के बावजूद — यह क्लाइमैक्स को जन्म देता है।  \n**Wrong answer reveals:** If the student says \"नहीं, क्योंकि वे अंत में हार जाते हैं\", they confuse *protagonist* with *victor*. If they cite only passive traits (\"वे ईमानदार थे\"), they miss that *agency requires active choice*, not just static virtue.",
+     "self_check": true
+    },
+    {
+     "q": "निम्नलिखित अंश में नायक के **आंतरिक द्वंद्व (internal conflict)** को पहचानिए और बताइए कि यह द्वंद्व कथा के **केंद्रीय विषय** से कैसे जुड़ता है:  \n\"वंशीधर ने सोचा: 'यदि मैं अलोपीदीन को गिरफ्तार करूँगा तो नौकरी जाएगी, परिवार भूखा रहेगा। पर छोड़ दूँगा तो आत्मा मर जाएगी।'\"  \n(अपने उत्तर में द्वंद्व के **दोनों पक्ष** और **विषय-संबंध** स्पष्ट करें।)",
+     "a": "**Correct:** द्वंद्व: **भौतिक सुरक्षा (नौकरी/परिवार) बनाम नैतिक अखंडता (आत्मा/सत्य)**। विषय-संबंध: यह द्वंद्व 'नमक का दारोगा' के केंद्रीय विषय — **\"भ्रष्ट व्यवस्था में व्यक्तिगत नैतिकता की कीमत\"** — को मूर्त करता है। वंशीधर का चयन (अलोपीदीन को गिरफ्तार करना) विषय को कथन से **कर्म** में बदल देता है।  \n**Wrong answer reveals:** If the student writes only \"ईमानदारी vs बेईमानी\", they reduce a *psychological conflict* to a *moral slogan* — missing the concrete stakes (family hunger) that make the choice tragic. If they don't link to theme, they treat character analysis as isolated from textual meaning.",
+     "self_check": true
+    },
+    {
+     "q": "'उसने कहा था' में लहनासिंह नायक हैं या सूबेदारनी? **तुलनात्मक विश्लेषण** करके बताइए कि किसकी **अभिकर्ता (agency)** कथानक के **मोड़ (turning points)** तय करती है। कम से कम दो मोड़ों का उल्लेख करें।",
+     "a": "**Correct:** लहनासिंह नायक हैं। मोड़ 1: **ट्रेन में सूबेदारनी से वचन लेना** — लहनासिंह का सक्रिय निर्णय (\"तुम्हारी रक्षा करूँगा\") कथा को युद्ध-क्षेत्र तक खींचता है। मोड़ 2: **युद्ध में सूबेदार को बचाने के लिए स्वयं मरना** — यह चरम सक्रिय चयन है जो कथा का अर्थ निर्धारित करता है। सूबेदारनी प्रेरक (catalyst) हैं, प्रेरक शक्ति (driving force) नहीं।  \n**Wrong answer reveals:** If the student chooses सूबेदारनी because \"कथा उन्हीं से शुरू होती है\", they confuse *inciting incident* with *protagonist agency*. If they say \"दोनों नायक हैं\", they miss that *protagonist is a structural role* — only one character's choices can be the *primary* causal chain.",
+     "self_check": true
+    },
+    {
+     "q": "आलोचनात्मक दृष्टि से मूल्यांकन कीजिए: क्या 'नमक का दारोगा' का वंशीधर एक **गोल पात्र (round character)** है? अपने तर्क में **विकास/परिवर्तन के साक्ष्य** और **मनोवैज्ञानिक जटिलता** दोनों शामिल करें।",
+     "a": "**Correct:** हाँ, वंशीधर गोल पात्र हैं। **विकास:** प्रारंभ में आदर्शवादी युवक (\"नौकरी मिल गई, अब आराम\") → मध्य में द्वंद्वग्रस्त अधिकारी (उपरोक्त अंश) → अंत में **नैतिक विजेता** जो नौकरी खोकर भी आत्मा बचाता है। **जटिलता:** उनका आदर्शवाद **निष्क्रिय नहीं** — वे व्यावहारिक भी हैं (पिता को पत्र लिखकर स्थिति समझाते हैं), भयभीत भी हैं (परिवार की चिंता), फिर भी चुनते हैं। यह द्वैधता उन्हें 'फ्लैट' आदर्श-पात्र से अलग करती है।  \n**Wrong answer reveals:** If the student says \"नहीं, क्योंकि वे अंत तक ईमानदार ही रहे\", they confuse *consistency of values* with *flatness* — a round character can hold consistent values while *deepening* through struggle. If they cite only external events (job loss), they miss *internal evolution*.",
+     "self_check": true
+    },
+    {
+     "q": "'नमक का दारोगा' का **वैकल्पिक अंत (alternative ending)** लिखिए जहां वंशीधर **समझौता कर लेता है** (अलोपीदीन को छोड़ देता है)। फिर 3-4 वाक्यों में विश्लेषण कीजिए कि यह परिवर्तन नायक के **चरित्र-चित्रण** और कथा के **संदेश** को कैसे बदल देता है।",
+     "a": "**Expected answer criteria:**  \n- Alternate ending shows Vanshidhar accepting bribe/promotion, rationalizing it (\"परिवार के लिए\"), but with lingering guilt.  \n- Analysis: This makes him a **tragic anti-hero** (round but fallen) instead of moral victor. The theme shifts from *\"नैतिकता की कीमत चुकानी पड़ती है पर वह अमर है\"* to *\"व्यवस्था व्यक्ति को भ्रष्ट बना देती है\"* — a cynical message. The protagonist's agency becomes *complicity*, changing the text's ideological stance.  \n**Poor answer reveals:** If the student writes a happy ending (\"वंशीधर को प्रमोशन मिला और सब खुश हुए\"), they miss that *compromise corrupts the protagonist's core conflict*. If analysis only says \"कहानी दुखद हो जाएगी\", they don't engage with *how characterization constructs meaning*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

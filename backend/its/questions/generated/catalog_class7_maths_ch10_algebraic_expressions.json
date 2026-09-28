@@ -4,15 +4,9 @@
   {
    "id": "c7m10.2.1",
    "title": "How Expressions are Formed",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute the given values and simplify",
-     "explain": "substitute the given values and simplify: val = 3 * 5 + 9 gives 24",
-     "compute": "val = 3 * 5 + 9"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "expression = variables + constants + operations",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 9 when x = 5.",
@@ -49,15 +43,9 @@
   {
    "id": "c7m10.3.1",
    "title": "Terms of an Expression",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute the given values and simplify",
-     "explain": "substitute the given values and simplify: val = 3 * 4 + 3 gives 15",
-     "compute": "val = 3 * 4 + 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "expression = sum of terms; term = product of factors",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 3 when x = 4.",
@@ -94,15 +82,9 @@
   {
    "id": "c7m10.4.1",
    "title": "Like and Unlike Terms",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the exponent law to the given powers",
-     "explain": "apply the exponent law to the given powers: val = 6 ** (3 + 3) gives 46656",
-     "compute": "val = 6 ** (3 + 3)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "like terms: same variables, same powers; unlike: different",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 6^3 x 6^3.",
@@ -139,15 +121,9 @@
   {
    "id": "c7m10.5.1",
    "title": "Monomials, Binomials, Trinomials, Polynomials",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute the given values and simplify",
-     "explain": "substitute the given values and simplify: val = 3 * 7 + 2 gives 23",
-     "compute": "val = 3 * 7 + 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "monomial=1 term; binomial=2 unlike; trinomial=3 unlike; polynomial=1+",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 2 when x = 7.",
@@ -185,6 +161,8 @@
    "id": "c7m10.6.1",
    "title": "Finding Value of an Expression",
    "converted_to_compute": false,
+   "formula": "value = substitute variable values and compute",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 8 when x = 4.",

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_04_003",
+   "title": "c11_app_cbse_04_003",
+   "questions": [
+    {
+     "q": "If A = {1, 2} and B = {x, y}, write down the set A × B in roster form.",
+     "a": "A × B = {(1, x), (1, y), (2, x), (2, y)}. A wrong answer like {(1, x), (2, y)} or {(x, 1), (y, 2)} reveals the student either doesn't understand \"all ordered pairs\" (missing cross-combinations) or confuses the order of elements in the pair (putting B's elements first).",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why A × B is generally not equal to B × A, using a concrete example with sets of your choice.",
+     "a": "Because ordered pairs (a, b) and (b, a) are different unless a = b. For example, if A = {1, 2} and B = {3}, then A × B = {(1, 3), (2, 3)} but B × A = {(3, 1), (3, 2)}. These sets have no elements in common. A wrong answer claiming they are equal because \"both have 2 elements\" reveals confusion between *cardinality* (number of elements) and *set equality* (same elements).",
+     "self_check": true
+    },
+    {
+     "q": "Let P = {a, b, c} and Q = {1, 2}. If a student writes P × Q = {(a, 1), (b, 2), (c, 1)}, identify the error and write the correct Cartesian product.",
+     "a": "The error is missing pairs: the student only paired each element of P with *one* element of Q, not *all* elements. Correct P × Q = {(a, 1), (a, 2), (b, 1), (b, 2), (c, 1), (c, 2)}. This reveals the student thinks Cartesian product is a \"matching\" or \"function-like\" pairing (one-to-one) rather than the complete cross-product (all-to-all).",
+     "self_check": true
+    },
+    {
+     "q": "Given n(A) = 5 and n(B) = 3, a student claims n(A × B) = 8 because \"you add the number of elements\". Analyze this claim and find the correct value.",
+     "a": "The claim is wrong. n(A × B) = n(A) × n(B) = 5 × 3 = 15, not 5 + 3 = 8. The student incorrectly applies the principle for *union* of disjoint sets (n(A ∪ B) = n(A) + n(B)) to Cartesian *product*. This reveals a fundamental confusion between combining sets (union) and forming ordered pairs (product).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"If A × B = B × A, then A must be equal to B.\" Is it always true, sometimes true, or never true? Justify your answer.",
+     "a": "The statement is **always true** for non-empty sets. Proof: If A × B = B × A, take any a ∈ A. Since B is non-empty, ∃ b ∈ B. Then (a, b) ∈ A × B = B × A, so a ∈ B (first component of pair in B × A must be in B). Thus A ⊆ B. Similarly B ⊆ A. Hence A = B. (Edge case: if A = ∅ or B = ∅, both products are ∅, so A × B = B × A holds even if A ≠ B, but NCERT defines Cartesian product for *non-empty* sets). A wrong answer of \"sometimes true\" without the empty set caveat reveals incomplete understanding of the non-empty condition in the definition.",
+     "self_check": true
+    },
+    {
+     "q": "Create your own real-life scenario (Indian context) involving two distinct sets where forming the Cartesian product is meaningful. Define the sets, write the Cartesian product, and explain what each ordered pair represents.",
+     "a": "Example: Set A = {Rajdhani Express, Shatabdi Express, Duronto Express} (train types), Set B = {Delhi, Mumbai, Chennai, Kolkata} (metro cities). A × B has 12 pairs like (Rajdhani Express, Delhi). Each pair represents a specific train type running to a specific city. A poor answer would use sets where order doesn't matter (e.g., {tea, coffee} × {sugar, milk}) or creates pairs that don't represent a meaningful relation, showing the student doesn't grasp the \"first element from first set, second from second\" structure.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

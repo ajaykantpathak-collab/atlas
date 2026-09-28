@@ -1,6 +1,53 @@
 {
- "catalog": "catalog_class11_economics_ch101",
+ "catalog": "catalog_class11_economics_ch101.json",
  "concepts": [
+  {
+   "id": "keec.1.6.1",
+   "title": "Demographic Profile and the Demographic Transition of 1921",
+   "converted_to_compute": true,
+   "formula": "infant_mortality_rate = (infant_deaths / live_births) * 1000",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "infant_mortality_rate = (infant_deaths / live_births) * 1000",
+     "compute": "infant_mortality_rate = (infant_deaths / live_births) * 1000"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Demographic Profile and the Demographic Transition of 1921: given infant_deaths = 19.9, live_births = 14.3, find infant mortality rate.",
+     "a": "1391.61",
+     "self_check": false
+    },
+    {
+     "q": "For Demographic Profile and the Demographic Transition of 1921: given infant_deaths = 1.6, live_births = 87, find infant mortality rate.",
+     "a": "18.3908",
+     "self_check": false
+    },
+    {
+     "q": "For Demographic Profile and the Demographic Transition of 1921: given infant_deaths = 35, live_births = 23, find infant mortality rate.",
+     "a": "1521.74",
+     "self_check": false
+    },
+    {
+     "q": "For Demographic Profile and the Demographic Transition of 1921: given infant_deaths = 96, live_births = 62, find infant mortality rate.",
+     "a": "1548.39",
+     "self_check": false
+    },
+    {
+     "q": "For Demographic Profile and the Demographic Transition of 1921: given infant_deaths = 17.7, live_births = 91, find infant mortality rate.",
+     "a": "194.505",
+     "self_check": false
+    },
+    {
+     "q": "For Demographic Profile and the Demographic Transition of 1921: given infant_deaths = 46, live_births = 24, find infant mortality rate.",
+     "a": "1916.67",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "keec.1.2.1",
    "title": "Low Level of Economic Development and National Income Estimation",
@@ -183,37 +230,6 @@
     {
      "q": "Write the standard relation used for 'Export Surplus and the Drain of Wealth', in plain ASCII form.",
      "a": "drain_of_wealth = export_surplus - domestic_capital_inflow",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keec.1.6.1",
-   "title": "Demographic Profile and the Demographic Transition of 1921",
-   "questions": [
-    {
-     "q": "Using the method 'Demographic Profile and the Demographic Transition of 1921', work with: infant_deaths = 5, live_births = 200. Carry the chain through step by step and give the final value of infant_mortality_rate.",
-     "a": "25 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Demographic Profile and the Demographic Transition of 1921' and work with: infant_deaths = 75, live_births = 240. Carry the chain through step by step and give the final value of infant_mortality_rate.",
-     "a": "312.5 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Demographic Profile and the Demographic Transition of 1921' refers to.",
-     "a": "The demographic status of colonial India marked by high birth and death rates, high infant mortality, low life expectancy, and the transition into sustained growth after 1921.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Demographic Profile and the Demographic Transition of 1921'.",
-     "a": "The year 1921 marks the transition from the fluctuating first stage to the expanding second stage of demographic transition in India.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Demographic Profile and the Demographic Transition of 1921', in plain ASCII form.",
-     "a": "infant_mortality_rate = (infant_deaths / live_births) * 1000",
      "self_check": true
     }
    ]

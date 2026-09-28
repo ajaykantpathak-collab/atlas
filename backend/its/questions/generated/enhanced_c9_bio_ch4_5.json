@@ -34,6 +34,21 @@
      "q": "Design a dichotomous key using only Whittaker's three criteria (cell structure, body organization, nutrition mode) that can distinguish all five kingdoms. Test your key with these organisms: Lactobacillus, Paramecium, Penicillium, Neem tree, Housefly.",
      "a": "Key: 1a. Prokaryotic cell → Monera (Lactobacillus). 1b. Eukaryotic cell → go to 2. 2a. Unicellular/colonial → go to 3. 2b. Multicellular → go to 4. 3a. Autotrophic/photosynthetic → Protista (e.g., Euglena). 3b. Heterotrophic → Protista (Paramecium). 4a. Autotrophic, cell wall cellulose → Plantae (Neem). 4b. Heterotrophic → go to 5. 5a. Absorptive nutrition, cell wall chitin → Fungi (Penicillium). 5b. Ingestive nutrition, no cell wall → Animalia (Housefly). A poor key uses habitat or mobility, showing the student hasn't internalized the criteria hierarchy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Five Kingdom ______ is a phylogenetic system proposed by R.H.",
+     "a": "Classification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a drop of pond water from a nearby lake under a ______—you see tiny moving rods (bacteria), larger blob-like amoebae, and green thread-like algae.",
+     "a": "microscope",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can classify any given organism into the correct kingdom by justifying its placement using cell type, body organization, and nutrition mode, and can explain why the five-kingdom system replaced the earlier two-kingdom system.",
+     "self_check": true
     }
    ]
   }

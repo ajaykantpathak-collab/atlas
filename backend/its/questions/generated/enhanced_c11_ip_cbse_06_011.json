@@ -34,6 +34,26 @@
      "q": "Design a Python function `save_csv(filename, headers, data_rows)` that works for both list-of-lists and list-of-dicts data_rows, automatically detecting the type and using the appropriate writer (`csv.writer` or `csv.DictWriter`). Include error handling for mismatched field counts.",
      "a": "```python\nimport csv\ndef save_csv(filename, headers, data_rows):\n    with open(filename, 'w', newline='', encoding='utf-8') as f:\n        if data_rows and isinstance(data_rows[0], dict):\n            writer = csv.DictWriter(f, fieldnames=headers)\n            writer.writeheader()\n            for row in data_rows:\n                if set(row.keys()) != set(headers):\n                    raise ValueError(\"Dictionary keys mismatch headers\")\n                writer.writerow(row)\n        else:\n            writer = csv.writer(f)\n            writer.writerow(headers)\n            for row in data_rows:\n                if len(row) != len(headers):\n                    raise ValueError(\"Row length mismatch headers\")\n                writer.writerow(row)\n```\nA poor answer uses only one writer type or lacks validation, showing inability to synthesize both CSV writing approaches.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Writing CSV files in Python uses the csv.writer and csv.DictWriter classes from the csv module to serialize structured data (lists of lists or lists of dictionaries) into comma-separated values format, handling proper quoting, escaping, and delimiter management ______.",
+     "a": "automatically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have collected survey data from 50 classmates about their favorite subjects and marks, stored as a list of ______ in Python.",
+     "a": "dictionaries",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write a complete Python program that creates a CSV file from a given dataset (list of lists or list of dictionaries) using appropriate csv.writer/DictWriter methods, correctly handling headers, quoting, and file modes, and verify the output by reading it back.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have collected survey data from ______ classmates about their favorite subjects and marks, stored as a list of dictionaries in Python.",
+     "a": "50",
+     "self_check": true
     }
    ]
   }

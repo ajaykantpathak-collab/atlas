@@ -34,6 +34,21 @@
      "q": "Create an inferential question on \"The Adventure\" that requires combining evidence from the Rajendra Deshpande dialogue and the final library scene, then provide the 3-step inference chain a model answer would follow.",
      "a": "Question: \"How does Rajendra Deshpande's explanation of 'catastrophe theory' prepare the reader to understand Gaitonde's final discovery in the library?\" Chain: Step 1 — Rajendra explains small changes can flip a system (catastrophe theory); Step 2 — Gaitonde finds the history book showing Maratha victory (the flipped state); Step 3 — The theory frames the book as evidence of a bifurcation point, not mere fantasy. A poor question would be literal (\"What theory does Rajendra mention?\") or unanswerable from the text.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal comprehension questions require answers directly stated in the text, while inferential comprehension questions demand logical ______ drawn by combining textual evidence with reasoning — both test reading accuracy but inferential questions assess the ability to read between the lines using implicit clues.",
+     "a": "conclusions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are sitting in the exam hall and see a question: \"Why did ______ Gaitonde decide to go to the library in the alternate Bombay?\" — you scan the text but the exact words \"Gaitonde decided to go to the library because...\" are nowhere to be found.",
+     "a": "Professor",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently classify any comprehension question as literal or inferential, locate exact textual evidence for literal answers, construct a 3-step inference chain (evidence → reasoning → conclusion) for inferential answers, and write board-format responses using the Point-Evidence-Explanation structure for both types.",
+     "self_check": true
     }
    ]
   }

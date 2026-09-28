@@ -34,6 +34,36 @@
      "q": "Create a new real-world problem (different from examples given) that requires at least four sub-problems. Describe the problem and list the sub-problems with their inputs and outputs.",
      "a": "Example problem: \"Calculate the total fare for a metro ride based on distance travelled, with different rates for peak/off-peak hours.\" Sub-problems: (1) Input distance and time of travel; (2) Determine if peak or off-peak; (3) Calculate fare based on distance and rate; (4) Apply any discounts (e.g., student card); (5) Output total fare. A poor answer would have fewer than four sub-problems or unclear interfaces.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the problem-solving technique of breaking down a complex problem into smaller, more manageable sub-problems that can be solved independently and then combined to form a solution to the original problem.",
+     "a": "Decomposition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"Imagine you have to organize a ______ event for 500 students.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What is Decomposition? State the definition given in this lesson.",
+     "a": "Decomposition is the problem-solving technique of breaking down a complex problem into smaller, more manageable sub-problems that can be solved independently and then combined to form a solution to the original problem.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"Imagine you have to organize a school event for ______ students.",
+     "a": "500",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Decomposition?",
+     "a": "Students often think decomposition means simply listing the steps of a solution in order (like a sequential algorithm).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can take a given real-world problem (e.g., calculating total cost of a shopping list with discounts) and systematically break it into at least three distinct sub-problems (input, calculation, output) with clear interfaces, and explain how the sub-problems integrate to solve the original problem.",
+     "self_check": true
     }
    ]
   }

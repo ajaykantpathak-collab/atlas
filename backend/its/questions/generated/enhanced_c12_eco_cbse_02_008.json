@@ -34,6 +34,31 @@
      "q": "Construct a market demand schedule for a good from the following individual demand schedules at three prices. Then explain how market demand is derived and why it is horizontally summed.\n\n| Price (₹) | Consumer A Qd | Consumer B Qd | Consumer C Qd |\n|-----------|---------------|---------------|---------------|\n| 10        | 5             | 3             | 2             |\n| 8         | 8             | 5             | 4             |\n| 6         | 12            | 8             | 6             |",
      "a": "Market demand schedule:\nPrice ₹10: 5+3+2 = 10 units\nPrice ₹8: 8+5+4 = 17 units\nPrice ₹6: 12+8+6 = 26 units\nMarket demand is the horizontal summation of individual demands because at each price, the total quantity demanded in the market is the sum of quantities each consumer is willing to buy. We sum horizontally (quantities at same price) not vertically because each consumer faces the same market price. A wrong answer that averages quantities or sums vertically reveals confusion between horizontal addition (market demand) and vertical addition (market supply of a public good) — a conceptual trap in CUET and board case studies.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Demand in economics refers to the quantity of a good or service that consumers are willing and able to purchase at various prices during a given period, assuming all other ______ (income, prices of related goods, tastes, expectations) remain constant.",
+     "a": "determinants",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you walk into a vegetable ______ in Delhi and see onions priced at ₹40/kg — you buy 2 kg.",
+     "a": "market",
+     "self_check": true
+    },
+    {
+     "q": "What is Demand in economics? State the definition given in this lesson.",
+     "a": "Demand in economics refers to the quantity of a good or service that consumers are willing and able to purchase at various prices during a given period, assuming all other determinants (income, prices of related goods, tastes, expectations) remain constant.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Demand in economics?",
+     "a": "Students often believe that \"an increase in demand\" means the same as \"an increase in quantity demanded\" and use the phrases interchangeably.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) distinguish between \"demand\" (the entire relationship) and \"quantity demanded\" (a specific point on the curve), (2) list all five non-price determinants of demand and explain the direction of their effect, (3) draw and label a downward-sloping demand curve and explain why it slopes downward using income and.",
+     "self_check": true
     }
    ]
   }

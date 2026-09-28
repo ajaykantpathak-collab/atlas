@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a semi-circular glass block, a laser pointer, and a protractor to verify the critical angle for glass-air interface. Describe the procedure, the measurements you would take, and how you would calculate the critical angle from your data. What precaution must be taken to ensure the incident ray hits the center of the flat face?",
      "a": "Expected answer: Place the semi-circular block on a paper with its flat face vertical. Direct the laser beam through the curved surface so it travels along a radius and hits the center of the flat face (this ensures normal incidence at the curved surface, so no bending there). Rotate the laser to vary the angle of incidence at the flat face (measured from the normal). Observe the refracted ray on a screen. Increase the angle until the refracted ray just grazes the flat face (disappears along the interface). Record this angle as ic. Repeat 5 times and average. Calculate n_glass = 1/sin(ic). Precaution: The laser must be aimed at the exact center of the flat face; otherwise, the ray hits the curved surface at an angle, refracts there, and the geometry becomes complicated. A poor answer (e.g., shining the laser through the flat face directly, or not using the curved surface to guarantee normal entry) reveals the student doesn't understand that we need the ray to hit the flat face from inside the glass at a known angle without prior deviation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Total Internal Reflection (TIR) is the phenomenon where a light ray traveling in an optically denser medium, upon striking the interface with an optically rarer medium at an angle of incidence greater than the critical angle, is reflected back entirely into the denser medium with no ______ into the rarer medium.",
+     "a": "transmission",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: \"Notice how a diamond sparkles brilliantly compared to a glass piece of similar cut, or how a mirage appears on a hot asphalt road in summer, or how internet data travels through thin glass fibers.\" Ask students to predict what happens when a laser beam inside a water tank hits the water-air ______ at a very shallow angle (almost parallel to the surface).",
+     "a": "interface",
+     "self_check": true
+    },
+    {
+     "q": "What is Total Internal Reflection (TIR)? State the definition given in this lesson.",
+     "a": "Total Internal Reflection (TIR) is the phenomenon where a light ray traveling in an optically denser medium, upon striking the interface with an optically rarer medium at an angle of incidence greater than the critical angle, is reflected back entirely into the denser medium with no transmission into the rarer medium.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The critical angle (ic) is the specific angle of incidence in the denser medium for which the angle of refraction in the rarer medium becomes exactly ______° (the refracted ray grazes the interface).",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Total Internal Reflection (TIR)?",
+     "a": "Students often believe that Total Internal Reflection occurs when light travels from a rarer medium to a denser medium (e.g., air to glass) at a large angle of incidence.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Derive the critical angle formula from Snell's law and state the two necessary conditions for TIR (denser to rarer medium, angle of incidence > critical angle).",
+     "self_check": true
     }
    ]
   }

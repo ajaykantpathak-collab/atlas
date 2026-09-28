@@ -34,6 +34,31 @@
      "q": "Design a simple classroom activity using coloured beads or paper strips to model how independent assortment and fertilization create variation in offspring. Your model must show at least 3 chromosome pairs and produce 4 distinct offspring genotypes from two parents.",
      "a": "**Model**: Use 3 pairs of homologous chromosomes (e.g., red/blue, green/yellow, orange/purple beads). Parent 1: all maternal colours; Parent 2: all paternal colours.  \n**Steps**: (1) Simulate meiosis: randomly segregate each pair into gametes (2³ = 8 gamete types per parent). (2) Simulate fertilization: randomly pick one gamete from each parent. (3) Record offspring genotype (e.g., red+green+orange). Repeat 4 times.  \n**Good answer** shows distinct combinations and explains how randomness at two stages (meiosis + fertilization) multiplies variation. **Poor answer** produces identical offspring or misses the two-stage randomness, revealing a lack of understanding of combinatorial variation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Accumulation of variation during reproduction refers to the generation of genetic differences among offspring through mechanisms such as DNA replication errors (mutations), crossing over during meiosis, independent assortment of chromosomes, and random ______, which collectively create the raw material for heredity and evolution.",
+     "a": "fertilization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a litter of puppies or a batch of seedlings from the same parent plant — despite having the same parents, each individual shows subtle ______ in size, colour, or behaviour.",
+     "a": "differences",
+     "self_check": true
+    },
+    {
+     "q": "What is Accumulation of variation during reproduction? State the definition given in this lesson.",
+     "a": "Accumulation of variation during reproduction refers to the generation of genetic differences among offspring through mechanisms such as DNA replication errors (mutations), crossing over during meiosis, independent assortment of chromosomes, and random fertilization, which collectively create the raw material for heredity and evolution.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Accumulation of variation during reproduction?",
+     "a": "Students often think variation in sexual reproduction comes *only* from mutations (like in asexual reproduction), and that meiosis simply \"halves the chromosome number\" without creating new combinations.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain how variation arises in both asexual and sexual reproduction, distinguish between the magnitude of variation in each mode, and trace the specific meiotic events (crossing over, independent assortment) and fertilization that generate novel genetic combinations in offspring.",
+     "self_check": true
     }
    ]
   }

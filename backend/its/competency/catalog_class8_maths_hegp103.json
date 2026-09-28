@@ -22,15 +22,33 @@
     "why is the sticks method inconvenient for very large collections",
     "define a number system using the idea of a standard sequence"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "choose a standard sequence of markers",
-     "explain": "Sticks, notches on bone, or sounds in fixed order can all serve as the sequence."},
-    {"step": 2, "action": "pair each counted object with one marker",
-     "explain": "The pairing must be one-to-one: distinct objects get distinct markers in order."},
-    {"step": 3, "action": "compare marker piles to answer questions",
-     "explain": "Missing cows, fewer-than comparisons and how-many-more questions all reduce to comparing the marker collections."}
-   ]
+    {
+     "step": 1,
+     "action": "choose a standard sequence of markers",
+     "explain": "Sticks, notches on bone, or sounds in fixed order can all serve as the sequence."
+    },
+    {
+     "step": 2,
+     "action": "pair each counted object with one marker",
+     "explain": "The pairing must be one-to-one: distinct objects get distinct markers in order."
+    },
+    {
+     "step": 3,
+     "action": "compare marker piles to answer questions",
+     "explain": "Missing cows, fewer-than comparisons and how-many-more questions all reduce to comparing the marker collections."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "set up the proportion and solve for the unknown part",
+     "explain": "set up the proportion and solve for the unknown part: t1 = 32 / 8 gives 4",
+     "compute": "t1 = 32 / 8"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hegp.103.3.2",
@@ -48,15 +66,45 @@
     "which number system did Europe use before Hindu numerals",
     "express 20 as a Roman numeral following Table 1"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "split the number into landmark chunks",
-     "explain": "Roman writing groups by ten, five and one using I, V, X and their higher symbols."},
-    {"step": 2, "action": "apply the subtraction rule where needed",
-     "explain": "A smaller symbol before a larger one subtracts, as in IV and IX."},
-    {"step": 3, "action": "note the structural drawback",
-     "explain": "Without place value, larger sizes require additional symbols, which is the system's main limit."}
-   ]
+    {
+     "step": 1,
+     "action": "split the number into landmark chunks",
+     "explain": "Roman writing groups by ten, five and one using I, V, X and their higher symbols."
+    },
+    {
+     "step": 2,
+     "action": "apply the subtraction rule where needed",
+     "explain": "A smaller symbol before a larger one subtracts, as in IV and IX."
+    },
+    {
+     "step": 3,
+     "action": "note the structural drawback",
+     "explain": "Without place value, larger sizes require additional symbols, which is the system's main limit."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the number-play rule digit by digit",
+     "explain": "apply the number-play rule digit by digit: big = 9 * 1000 + 5 * 100 + 5 * 10 + 1 gives 9551",
+     "compute": "big = 9 * 1000 + 5 * 100 + 5 * 10 + 1"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the number-play rule digit by digit: small = 1 * 1000 + 5 * 100 + 5 * 10 + 9 gives 1559",
+     "compute": "small = 1 * 1000 + 5 * 100 + 5 * 10 + 9"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the number-play rule digit by digit: diff = big - small gives 7992",
+     "compute": "diff = big - small"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hegp.103.3.3",
@@ -76,15 +124,24 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "count the hundreds",
+    {
+     "step": 1,
+     "action": "count the hundreds",
      "explain": "Divide by the third landmark to get how many hundreds the number holds.",
-     "compute": "hundreds = number // 100"},
-    {"step": 2, "action": "carry the remainder to tens",
+     "compute": "hundreds = number // 100"
+    },
+    {
+     "step": 2,
+     "action": "carry the remainder to tens",
      "explain": "The leftover after removing hundreds is split into tens.",
-     "compute": "tens = (number % 100) // 10"},
-    {"step": 3, "action": "count the leftover ones",
+     "compute": "tens = (number % 100) // 10"
+    },
+    {
+     "step": 3,
+     "action": "count the leftover ones",
      "explain": "Whatever remains after tens is written in units.",
-     "compute": "ones = number % 10"}
+     "compute": "ones = number % 10"
+    }
    ]
   },
   {
@@ -105,9 +162,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "raise the base to the position",
+    {
+     "step": 1,
+     "action": "raise the base to the position",
      "explain": "The k-th landmark of a base-n system is n to the power k, counting from 0.",
-     "compute": "landmark = base ** k"}
+     "compute": "landmark = base ** k"
+    }
    ]
   },
   {
@@ -128,15 +188,24 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "count the 125 landmark",
+    {
+     "step": 1,
+     "action": "count the 125 landmark",
      "explain": "Divide the number by the largest landmark 125.",
-     "compute": "groups125 = number // 125"},
-    {"step": 2, "action": "carry the remainder to the 25 landmark",
+     "compute": "groups125 = number // 125"
+    },
+    {
+     "step": 2,
+     "action": "carry the remainder to the 25 landmark",
      "explain": "The leftover divides by 25 to give the count of 25s.",
-     "compute": "groups25 = (number % 125) // 25"},
-    {"step": 3, "action": "split the rest into 5s and 1s",
+     "compute": "groups25 = (number % 125) // 25"
+    },
+    {
+     "step": 3,
+     "action": "split the rest into 5s and 1s",
      "explain": "The remaining amount is grouped by 5 and the final remainder is the unit count.",
-     "compute": "groups5 = (number % 25) // 5"}
+     "compute": "groups5 = (number % 25) // 5"
+    }
    ]
   },
   {
@@ -155,15 +224,45 @@
     "why are our numerals sometimes wrongly called Arabic numbers",
     "which ancient Indian text lists number names based on powers of 10"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "trace the Indian milestones",
-     "explain": "Yajurveda names by powers of ten; Bakhshali manuscript writes ten digits with a dot for zero; Aryabhata formalises computation."},
-    {"step": 2, "action": "follow the transmission route",
-     "explain": "Around 800 CE the system reaches the Arab world via Al-Khwarizmi and Al-Kindi."},
-    {"step": 3, "action": "close with the European adoption",
-     "explain": "Fibonacci's advocacy around 1200 CE spreads the numerals in Europe, where the mislabel Arabic numerals arose."}
-   ]
+    {
+     "step": 1,
+     "action": "trace the Indian milestones",
+     "explain": "Yajurveda names by powers of ten; Bakhshali manuscript writes ten digits with a dot for zero; Aryabhata formalises computation."
+    },
+    {
+     "step": 2,
+     "action": "follow the transmission route",
+     "explain": "Around 800 CE the system reaches the Arab world via Al-Khwarizmi and Al-Kindi."
+    },
+    {
+     "step": 3,
+     "action": "close with the European adoption",
+     "explain": "Fibonacci's advocacy around 1200 CE spreads the numerals in Europe, where the mislabel Arabic numerals arose."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the number-play rule digit by digit",
+     "explain": "apply the number-play rule digit by digit: big = 8 * 1000 + 8 * 100 + 7 * 10 + 6 gives 8876",
+     "compute": "big = 8 * 1000 + 8 * 100 + 7 * 10 + 6"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the number-play rule digit by digit: small = 6 * 1000 + 7 * 100 + 8 * 10 + 8 gives 6788",
+     "compute": "small = 6 * 1000 + 7 * 100 + 8 * 10 + 8"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the number-play rule digit by digit: diff = big - small gives 2088",
+     "compute": "diff = big - small"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -177,15 +276,24 @@
     "number": "the number to decompose"
    },
    "solution_template": [
-    {"step": 1, "action": "count the hundreds",
+    {
+     "step": 1,
+     "action": "count the hundreds",
      "explain": "Integer division by 100 gives the count of the largest landmark.",
-     "compute": "hundreds = number // 100"},
-    {"step": 2, "action": "split the remainder into tens",
+     "compute": "hundreds = number // 100"
+    },
+    {
+     "step": 2,
+     "action": "split the remainder into tens",
      "explain": "The remainder after hundreds is divided by 10.",
-     "compute": "tens = (number % 100) // 10"},
-    {"step": 3, "action": "read off the units",
+     "compute": "tens = (number % 100) // 10"
+    },
+    {
+     "step": 3,
+     "action": "read off the units",
      "explain": "The final remainder is the count of unit symbols.",
-     "compute": "ones = number % 10"}
+     "compute": "ones = number % 10"
+    }
    ]
   },
   {
@@ -198,15 +306,24 @@
     "number": "the number to write in Egyptian landmarks"
    },
    "solution_template": [
-    {"step": 1, "action": "count the hundreds",
+    {
+     "step": 1,
+     "action": "count the hundreds",
      "explain": "Largest landmark first: divide by 100.",
-     "compute": "hundreds = number // 100"},
-    {"step": 2, "action": "split the remainder into tens",
+     "compute": "hundreds = number // 100"
+    },
+    {
+     "step": 2,
+     "action": "split the remainder into tens",
      "explain": "Divide the leftover by 10 for the tens count.",
-     "compute": "tens = (number % 100) // 10"},
-    {"step": 3, "action": "read off the units",
+     "compute": "tens = (number % 100) // 10"
+    },
+    {
+     "step": 3,
+     "action": "read off the units",
      "explain": "Units are what remain after tens.",
-     "compute": "ones = number % 10"}
+     "compute": "ones = number % 10"
+    }
    ]
   },
   {
@@ -220,9 +337,12 @@
     "k": "position of the landmark, counting from 0"
    },
    "solution_template": [
-    {"step": 1, "action": "raise the base to the position",
+    {
+     "step": 1,
+     "action": "raise the base to the position",
      "explain": "Landmarks are the powers of the base.",
-     "compute": "landmark = base ** k"}
+     "compute": "landmark = base ** k"
+    }
    ]
   },
   {
@@ -236,9 +356,12 @@
     "k": "landmark position from 0"
    },
    "solution_template": [
-    {"step": 1, "action": "raise the base to the position",
+    {
+     "step": 1,
+     "action": "raise the base to the position",
      "explain": "The landmark sequence is base to the 0, base to the 1, and so on.",
-     "compute": "landmark = base ** k"}
+     "compute": "landmark = base ** k"
+    }
    ]
   },
   {
@@ -251,15 +374,24 @@
     "number": "the number to express in base-5"
    },
    "solution_template": [
-    {"step": 1, "action": "count the 125 landmark",
+    {
+     "step": 1,
+     "action": "count the 125 landmark",
      "explain": "Divide by 125 for the count of the largest landmark.",
-     "compute": "groups125 = number // 125"},
-    {"step": 2, "action": "split the remainder into 25s",
+     "compute": "groups125 = number // 125"
+    },
+    {
+     "step": 2,
+     "action": "split the remainder into 25s",
      "explain": "Remainder after 125s is divided by 25.",
-     "compute": "groups25 = (number % 125) // 25"},
-    {"step": 3, "action": "group what remains by 5s",
+     "compute": "groups25 = (number % 125) // 25"
+    },
+    {
+     "step": 3,
+     "action": "group what remains by 5s",
      "explain": "The leftover is grouped by the 5 landmark; the final remainder is units.",
-     "compute": "groups5 = (number % 25) // 5"}
+     "compute": "groups5 = (number % 25) // 5"
+    }
    ]
   },
   {
@@ -272,15 +404,24 @@
     "number": "number to write in base-5"
    },
    "solution_template": [
-    {"step": 1, "action": "count the 125 landmark",
+    {
+     "step": 1,
+     "action": "count the 125 landmark",
      "explain": "Take out the 125s first if the number is large enough.",
-     "compute": "groups125 = number // 125"},
-    {"step": 2, "action": "split the remainder into 25s",
+     "compute": "groups125 = number // 125"
+    },
+    {
+     "step": 2,
+     "action": "split the remainder into 25s",
      "explain": "Divide the remainder by 25.",
-     "compute": "groups25 = (number % 125) // 25"},
-    {"step": 3, "action": "group what remains by 5s",
+     "compute": "groups25 = (number % 125) // 25"
+    },
+    {
+     "step": 3,
+     "action": "group what remains by 5s",
      "explain": "Group the leftover by 5 and read the units.",
-     "compute": "groups5 = (number % 25) // 5"}
+     "compute": "groups5 = (number % 25) // 5"
+    }
    ]
   }
  ],

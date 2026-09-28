@@ -34,6 +34,26 @@
      "q": "Construct a real-valued function h: ℝ → ℝ that is neither the identity nor a constant function, but satisfies h(0)=0 and h(1)=1. Write its rule, sketch its graph roughly, and explain why it is not the identity function.",
      "a": "Example: h(x)=x². Rule: h(x)=x² for all x∈ℝ. Graph: parabola opening upward, vertex at (0,0), passing through (1,1) and (−1,1). Not identity because h(2)=4 ≠ 2, so h(x)≠x for all x. Another valid example: h(x)=x³ or h(x)=|x|. A poor answer giving h(x)=x (identity) or h(x)=0 (constant) shows the student cannot construct a counterexample meeting the constraints, indicating they don't grasp the \"for all x\" quantifier in the definition of identity function.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A real-valued ______ is a relation f from a non-empty set A ⊆ ℝ to a set B ⊆ ℝ such that every element x ∈ A has exactly one image f(x) ∈ B.",
+     "a": "function",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a mobile phone pricing scheme for a Diwali sale: Scheme A charges exactly the marked price (₹x for a phone marked ₹x), while Scheme B charges a flat ₹5000 ______ of the model.",
+     "a": "regardless",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a mobile phone pricing scheme for a Diwali sale: Scheme A charges exactly the marked price (₹x for a phone marked ₹x), while Scheme B charges a flat ₹______ regardless of the model.",
+     "a": "5000",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) distinguish identity and constant functions from other real-valued functions by their defining rules, domains, ranges, and graphical characteristics; (2) evaluate identity and constant functions at given inputs, including piecewise definitions involving them; (3) sketch their graphs accurately with correct.",
+     "self_check": true
     }
    ]
   }

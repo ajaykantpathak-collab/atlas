@@ -34,6 +34,11 @@
      "q": "Create a set of parametric equations \\(x = f(t), y = g(t)\\) such that \\(\\frac{dy}{dx} = t^2\\). Verify your answer.",
      "a": "One simple choice: let \\(\\frac{dx}{dt} = 1\\) so \\(x = t\\), and \\(\\frac{dy}{dt} = t^2\\) so \\(y = \\frac{t^3}{3}\\). Then \\(\\frac{dy}{dx} = \\frac{t^2}{1} = t^2\\). A good answer shows the reverse-engineering process. A poor answer gives parametric equations that produce a different derivative or fails to verify, indicating the student cannot work backwards from the derivative to the parametric form.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ moving along a curved path on a plane.",
+     "a": "particle",
+     "self_check": true
     }
    ]
   }

@@ -31,8 +31,28 @@
      "self_check": true
     },
     {
-     "q": "Create a novel real-world scenario involving a contemporary Indian social issue (e.g., gig economy workers, digital education divide, caste-based matrimonial apps) where a naturalistic explanation and a sociological explanation would diverge sharply. Write both explanations in 3-4 sentences each.",
-     "a": "Scenario: A food-delivery platform worker dies in a road accident while rushing to meet a 10-minute delivery guarantee.\nNaturalistic explanation: \"He was reckless and valued money over safety. Poor people take risks because they lack discipline and long-term thinking.\"\nSociological explanation: \"The platform's algorithmic management structures time as a scarce commodity; the 10-minute guarantee creates a piece-rate system where each minute of delay risks deactivation (loss of livelihood). The worker bears all risk (vehicle, fuel, insurance) while the platform bears none. This is not individual recklessness but a structural transfer of risk from capital to labour, shaped by labour law exemptions for 'partners' not 'employees'.\"\nA poor answer offers only a \"sociological\" description without contrasting the *logic* of the two explanations, missing the core distinction: naturalistic explanations locate cause in individual traits; sociological explanations locate cause in structural arrangements.",
+     "q": "Give the correct order of steps in the sociological explanation of a delivery rider's accident that goes beyond blaming the rider.",
+     "a": "The explanation runs: (1) Note the platform's algorithm sets a ten minute delivery guarantee (2) Treat the guarantee as a piece-rate structure where each minute of delay costs the worker (3) Link the incentive to chronic road risk taking rather than personal recklessness (4) Conclude that the accident expresses the platform's management of time, a structural cause open to study and change. A wrong answer that stops at rider carelessness shows the student has missed that sociological explanation uncovers structural connections behind individual acts.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sociology is the systematic and scientific study of human society, social ______, and social institutions that employs empirical investigation and theoretical analysis to discover patterned regularities in social life, following scientific canons of procedure that allow findings to be verified, replicated, and developed by other researchers.",
+     "a": "relationships",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are asked why ______ is called a \"science\" when it studies people who have feelings, choices, and free will—unlike atoms or cells.",
+     "a": "sociology",
+     "self_check": true
+    },
+    {
+     "q": "What is Sociology? State the definition given in this lesson.",
+     "a": "Sociology is the systematic and scientific study of human society, social relationships, and social institutions that employs empirical investigation and theoretical analysis to discover patterned regularities in social life, following scientific canons of procedure that allow findings to be verified, replicated, and developed by other.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to distinguish sociological explanations from common sense, philosophical, and theological explanations by identifying the use of empirical evidence, systematic methodology, and theoretical frameworks, and must be able to articulate why sociology is considered a science despite studying human subjects.",
      "self_check": true
     }
    ]

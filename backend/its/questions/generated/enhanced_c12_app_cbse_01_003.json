@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_01_003",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_01_003",
+   "title": "c12_app_cbse_01_003",
+   "questions": [
+    {
+     "q": "What is the value of `-68 mod 12` and why is it not `-8`?",
+     "a": "`-68 mod 12 = 4`. The remainder must satisfy `0 ≤ R < 12`. Using Euclid’s Division Lemma: `-68 = 12 × (-6) + 4` (since `12 × (-5) = -60` gives remainder `-8`, which is invalid; we go one step further to `-72` to get remainder `4`). A student answering `-8` incorrectly assumes the remainder can be negative or uses truncated division (like in C/C++/Python's `%` operator for negative dividends) instead of the mathematical modulo definition.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why `(A + B) mod C = (A mod C + B mod C) mod C` is true. Use the division algorithm in your explanation.",
+     "a": "Let `A = C×q₁ + r₁` and `B = C×q₂ + r₂` where `0 ≤ r₁,r₂ < C`. Then `A+B = C(q₁+q₂) + (r₁+r₂)`. The remainder of `A+B` divided by `C` is the remainder of `r₁+r₂` divided by `C`, which is exactly `(r₁+r₂) mod C = (A mod C + B mod C) mod C`. A student who just says \"it works because of the property\" without using the division algorithm shows rote memorization, not understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Find the remainder when `(127 × 137 × 23 × 50 × 235 × 15)` is divided by 7 without multiplying the numbers fully.",
+     "a": "Compute each factor mod 7: `127 mod 7 = 1`, `137 mod 7 = 4`, `23 mod 7 = 2`, `50 mod 7 = 1`, `235 mod 7 = 4`, `15 mod 7 = 1`. Multiply remainders: `1×4×2×1×4×1 = 32`. `32 mod 7 = 4`. Remainder = 4. A student who multiplies the original numbers first will get an unwieldy product and likely make arithmetic errors; this tests if they can apply Property 4 (multiplication property) strategically.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the average waiting time of FCFS vs SJF scheduling for processes with burst times `[25, 4, 7, 3]` (all arrival time 0). Why does SJF give a lower average waiting time? Analyze using the Gantt chart logic.",
+     "a": "FCFS order: P1(25), P2(4), P3(7), P4(3). Waiting times: 0, 25, 29, 36 → Avg = 22.5. SJF order: P4(3), P2(4), P3(7), P1(25). Waiting times: 0, 3, 7, 14 → Avg = 6. SJF minimizes average waiting time because shorter jobs finish first, reducing the cumulative wait for subsequent jobs. A student who only computes numbers without explaining the \"convoy effect\" (long job blocking short ones) misses the analytical insight.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"For any integers `a, b, m` with `m > 0`, if `a ≡ b (mod m)`, then `a² ≡ b² (mod m)` is always true, but `√a ≡ √b (mod m)` is not necessarily defined.\" Evaluate this claim.",
+     "a": "The claim is **correct**. If `a ≡ b (mod m)`, then `m | (a-b)`. Then `a² - b² = (a-b)(a+b)`, so `m | (a²-b²)` → `a² ≡ b² (mod m)`. However, square roots modulo `m` are not uniquely defined (e.g., `1² ≡ 4² ≡ 1 (mod 5)` but `√1` could be 1 or 4), and may not exist (e.g., no integer `x` s.t. `x² ≡ 2 (mod 3)`). A student who says \"square root doesn't work in modular arithmetic\" without explaining non-uniqueness or non-existence shows incomplete evaluation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario (Indian context) where addition modulo `m` is used, with `m = 60`. Define two quantities `a` and `b`, compute `a +₆₀ b`, and explain what the result represents.",
+     "a": "Example: A train departs at 14:45 (2:45 PM) and travels for 35 minutes. What time does it arrive? `a = 45` (minutes past hour), `b = 35`, `m = 60`. `a +₆₀ b = (45+35) mod 60 = 80 mod 60 = 20`. Arrival time: 15:20 (3:20 PM). The result `20` represents minutes past the next hour. A poor answer uses `m=12` (12-hour clock) but ignores AM/PM ambiguity, or uses `m=24` for hours but forgets minutes wrap at 60.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

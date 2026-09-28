@@ -5,6 +5,8 @@
    "id": "c8m5.1.1",
    "title": "Square Numbers",
    "converted_to_compute": false,
+   "formula": "m = n^2, i.e. m = n x n",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 26.",
@@ -41,15 +43,9 @@
   {
    "id": "c8m5.2.1",
    "title": "Properties of Square Numbers",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "split the number into digits and apply the rule",
-     "explain": "split the number into digits and apply the rule: diff = 9 * abs(4 - 2) gives 18",
-     "compute": "diff = 9 * abs(4 - 2)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "units digit of square: 0,1,4,5,6,9 only; square of even = even; square of odd = odd",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "The digits of the 2-digit number 42 are swapped to make 24. Find the difference between the two numbers using 9 x |a - b|.",
@@ -87,6 +83,8 @@
    "id": "c8m5.3.1",
    "title": "Numbers Between Square Numbers",
    "converted_to_compute": false,
+   "formula": "numbers between n^2 and (n+1)^2 = 2n; (n+1)^2 - n^2 = 2n + 1",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 17.",
@@ -124,6 +122,8 @@
    "id": "c8m5.3.2",
    "title": "Sum of First n Odd Numbers",
    "converted_to_compute": false,
+   "formula": "1 + 3 + 5 + ... (n terms) = n^2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Starting from 1, add the first 7 odd numbers: 1 + 3 + 5 + ... What square do you get?",
@@ -161,6 +161,8 @@
    "id": "c8m5.3.3",
    "title": "Square as Sum of Two Consecutive Natural Numbers",
    "converted_to_compute": false,
+   "formula": "n^2 = (n^2 - 1)/2 + (n^2 + 1)/2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Starting from 1, add the first 4 odd numbers: 1 + 3 + 5 + ... What square do you get?",
@@ -198,6 +200,8 @@
    "id": "c8m5.3.4",
    "title": "Product of Two Consecutive Even or Odd Numbers",
    "converted_to_compute": false,
+   "formula": "(a + 1) x (a - 1) = a^2 - 1",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 16.",
@@ -235,6 +239,8 @@
    "id": "c8m5.4.1",
    "title": "Finding the Square of a Number",
    "converted_to_compute": false,
+   "formula": "(a5)^2 = a x (a + 1) x 100 + 25; (a + b)^2 = a(a + b) + b(a + b)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 12.",
@@ -272,6 +278,8 @@
    "id": "c8m5.4.2",
    "title": "Pythagorean Triplets",
    "converted_to_compute": false,
+   "formula": "triplet: 2m, m^2 - 1, m^2 + 1 for m > 1",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 22.",
@@ -309,6 +317,8 @@
    "id": "c8m5.5.1",
    "title": "Square Roots",
    "converted_to_compute": false,
+   "formula": "sqrt(n^2) = n; square root is the inverse of squaring",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square of 31.",
@@ -346,6 +356,8 @@
    "id": "c8m5.5.2",
    "title": "Square Root by Repeated Subtraction",
    "converted_to_compute": false,
+   "formula": "steps of subtracting 1, 3, 5, ... to reach 0 = square root",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square root of 1600.",
@@ -383,6 +395,8 @@
    "id": "c8m5.5.3",
    "title": "Square Root by Prime Factorisation",
    "converted_to_compute": false,
+   "formula": "pair prime factors and take one from each pair; product = square root",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 25 and 10 have HCF 5 with coprime multipliers 5 and 2. Verify by computing hcf = 5 x 1; then find the HCF value.",
@@ -420,6 +434,8 @@
    "id": "c8m5.5.4",
    "title": "Square Root by Long Division Method",
    "converted_to_compute": false,
+   "formula": "number of bars = number of digits in the square root",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square root of 64.",
@@ -457,6 +473,8 @@
    "id": "c8m5.6.1",
    "title": "Square Roots of Decimals",
    "converted_to_compute": false,
+   "formula": "sqrt(decimal): bar integral part right to left, decimal part left to right",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the square root of 961.",

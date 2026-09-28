@@ -34,6 +34,31 @@
      "q": "Create a scenario where a company forfeits shares for non-payment of first call, then re-issues them at a discount such that the discount exactly equals the forfeited amount. Show the journal entries and explain the resulting Capital Reserve balance.",
      "a": "Scenario: 100 shares of ₹10 each, ₹8 called up (application ₹3, allotment ₹3, first call ₹2). Shareholder paid only application and allotment (₹6). Forfeited amount = 100 × ₹6 = ₹600. Re-issue at ₹4 per share (discount of ₹6 on face value? Wait, discount on re-issue is on nominal value. If re-issued at ₹4, discount = ₹6 per share, total discount = ₹600).  \nJournal:  \nBank Dr. 400  \nForfeited Shares Dr. 600  \n To Share Capital 1,000  \nForfeited Shares Dr. 0 (balance zero) → Capital Reserve 0.  \nCapital Reserve = ₹600 – ₹600 = ₹0.  \nA good answer must correctly compute the discount per share as the difference between face value and re-issue price, ensure it does not exceed forfeited amount per share, and show that Capital Reserve becomes zero. A poor answer might use the called-up value instead of face value for discount calculation, or forget that the discount is limited to the forfeited amount.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Re-issue of forfeited shares refers to the process where a company re-allots shares that were ______ forfeited due to non-payment of calls.",
+     "a": "previously",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a company ______ 500 shares of ₹10 each for non-payment of the final call of ₹3.",
+     "a": "forfeited",
+     "self_check": true
+    },
+    {
+     "q": "What is Re-issue of forfeited shares? State the definition given in this lesson.",
+     "a": "Re-issue of forfeited shares refers to the process where a company re-allots shares that were previously forfeited due to non-payment of calls.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Re-issue of forfeited shares?",
+     "a": "Students often think that the forfeited amount (credit balance in Forfeited Shares Account) can be used to write off any discount on re-issue, even if the discount exceeds the forfeited amount per share.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) pass journal entries for re-issue of forfeited shares at par, at premium, and at discount; (2) calculate the maximum permissible discount on re-issue using the forfeited amount; and (3) determine the amount to be transferred to Capital Reserve after re-issue.",
+     "self_check": true
     }
    ]
   }

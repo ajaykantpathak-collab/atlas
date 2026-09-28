@@ -34,6 +34,31 @@
      "q": "Design a net for a right triangular prism whose triangular bases are right triangles with legs 3 cm and 4 cm (hypotenuse 5 cm), and whose height (length of prism) is 10 cm. Draw the net to scale on grid paper, label all dimensions, and explain how you know the rectangular faces will join correctly when folded.",
      "a": "The net consists of two congruent right triangles (legs 3 cm, 4 cm, hypotenuse 5 cm) and three rectangles: 3 cm × 10 cm, 4 cm × 10 cm, and 5 cm × 10 cm. Arrange one triangle as base, attach the three rectangles to its three sides (matching 3 cm, 4 cm, 5 cm edges), then attach the second triangle to the free 10 cm edge of any rectangle (ensuring its 3, 4, 5 cm sides align with the corresponding rectangle widths). A good answer shows the rectangles in a row with triangles on opposite ends or one triangle in middle. A poor answer (e.g., rectangles not matching triangle sides) reveals the student doesn't grasp that each rectangular face's width must exactly equal the corresponding triangle side length.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A net of a 3D solid is a two-______ arrangement of polygons (faces) connected along their edges that can be folded along those edges to form the closed surface of the solid without gaps or overlaps.",
+     "a": "dimensional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a ______ box shaped like a cuboid (like a shoebox) and you carefully cut along some edges so it lies completely flat on the table.",
+     "a": "cardboard",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A net of a ______D solid is a two-dimensional arrangement of polygons (faces) connected along their edges that can be folded along those edges to form the closed surface of the solid without gaps or overlaps.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify whether a given 2D pattern is a valid net for a specified solid (cube, cuboid, triangular prism, square pyramid, cylinder, cone), draw accurate nets for these solids with given dimensions, and explain why a given pattern fails to be a net by checking face count, edge matching, and vertex meeting conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a cardboard box shaped like a cuboid (like a shoebox) and you carefully cut along some edges so it lies ______ flat on the table.",
+     "a": "completely",
+     "self_check": true
     }
    ]
   }

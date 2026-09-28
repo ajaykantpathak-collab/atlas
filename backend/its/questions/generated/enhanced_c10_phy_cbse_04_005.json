@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a concave mirror, a screen, and a meter scale to determine the focal length of the mirror. Write the procedure, the formula you will use, and how you will handle sign convention in your calculations.",
      "a": "Procedure: (1) Fix concave mirror on stand. (2) Place a distant object (tree/building > 50 m away) so rays are nearly parallel. (3) Move screen until sharp image forms. (4) Measure mirror-to-screen distance = focal length f (magnitude). (5) Repeat with object at 2f (use u = -2f, find v = -2f). Formula: 1/f = 1/v + 1/u. Sign convention: u = -measured distance, v = -measured distance (real image), f = -calculated value. A poor answer uses u, v as positive distances, or suggests using virtual images (cannot be caught on screen), showing they don't understand real images are needed for screen method or that sign convention must be applied consistently.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The mirror formula is a ______ relationship connecting object distance (u), image distance (v), and focal length (f) of a spherical mirror: 1/f = 1/v + 1/u.",
+     "a": "mathematical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at a stainless steel spoon — its inner curved surface acts as a ______ mirror and outer surface as a convex mirror.",
+     "a": "concave",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly apply the mirror formula and magnification formula with proper sign convention to calculate unknown quantities (f, u, v, h, h', m) for both concave and convex mirrors, and interpret the sign of magnification to determine image nature (real/virtual, erect/inverted, magnified/diminished).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at a ______ steel spoon — its inner curved surface acts as a concave mirror and outer surface as a convex mirror.",
+     "a": "stainless",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,176 @@
+{
+ "catalog": "catalog_class12_computer_science_lecs108.json",
+ "concepts": [
+  {
+   "id": "lecs108.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "attrs = 56",
+      "tuples = 98",
+      "cells = attrs * tuples"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "attrs = 19.9",
+      "tuples = 81",
+      "cells = attrs * tuples"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "attrs = 71",
+      "tuples = 87",
+      "cells = attrs * tuples"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "attrs = 50",
+      "tuples = 57",
+      "cells = attrs * tuples"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "attrs = 77",
+      "tuples = 40",
+      "cells = attrs * tuples"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "attrs = 9.9",
+      "tuples = 56",
+      "cells = attrs * tuples"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "cells = attrs * tuples"
+   ]
+  },
+  {
+   "id": "lecs108.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "present_days = 10.8",
+      "working_days = 3889",
+      "percent = present_days / working_days * 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "present_days = 112",
+      "working_days = 2691",
+      "percent = present_days / working_days * 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "present_days = 39",
+      "working_days = 7894",
+      "percent = present_days / working_days * 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "present_days = 45",
+      "working_days = 4110",
+      "percent = present_days / working_days * 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "present_days = 103",
+      "working_days = 1911",
+      "percent = present_days / working_days * 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "present_days = 88",
+      "working_days = 1774",
+      "percent = present_days / working_days * 100"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "percent = present_days / working_days * 100"
+   ]
+  },
+  {
+   "id": "lecs108.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "students = 73",
+      "days = 13.6",
+      "yearly_entries = students * days * 12"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "students = 22",
+      "days = 35",
+      "yearly_entries = students * days * 12"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "students = 79",
+      "days = 41",
+      "yearly_entries = students * days * 12"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "students = 38",
+      "days = 57",
+      "yearly_entries = students * days * 12"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "students = 13.6",
+      "days = 20",
+      "yearly_entries = students * days * 12"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "students = 18.3",
+      "days = 28",
+      "yearly_entries = students * days * 12"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "yearly_entries = students * days * 12"
+   ]
+  }
+ ]
+}

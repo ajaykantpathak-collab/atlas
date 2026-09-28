@@ -34,6 +34,16 @@
      "q": "Create a real-world problem (with Indian context) that requires using the point-slope form to find the equation of a line. Provide the solution.",
      "a": "Example: A taxi charges a fixed fare of ₹50 for the first km and ₹15 per subsequent km. Write the equation for the total fare \\(y\\) (in ₹) as a function of distance \\(x\\) (in km) for \\(x \\ge 1\\), given that at \\(x=1\\), \\(y=50\\). The slope is 15, point \\((1,50)\\). Equation: \\(y - 50 = 15(x - 1) \\Rightarrow y = 15x + 35\\). A poor answer might not set up the correct point or slope, or might use \\(x=0\\) incorrectly, showing an inability to translate the word problem into the correct mathematical model.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ ramp for your school library.",
+     "a": "wheelchair",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the point-slope form from the definition of slope, write the equation of a line given a point and slope (including when the slope is given via an angle of inclination), convert between point-slope form and other forms (slope-intercept, general form, intercept form), and solve word problems involving linear.",
+     "self_check": true
     }
    ]
   }

@@ -24,10 +24,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "divide force by area",
+    {
+     "step": 1,
+     "action": "divide force by area",
      "explain": "The perpendicular force spread over the surface gives the pressure.",
-     "compute": "pressure = force / area"}
-   ]
+     "compute": "pressure = force / area"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "pressure = force / area",
+     "compute": "pressure = force / area"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hecu.106.6.2",
@@ -47,12 +59,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "show the push of air",
-     "explain": "Experiments with covered glasses and collapsing cans reveal air's pressure."},
-    {"step": 2, "action": "explain the balance",
-     "explain": "Fluids inside the body push outward, matching the atmosphere's inward push."},
-    {"step": 3, "action": "state the direction",
-     "explain": "Air pressure acts equally in all directions."}
+    {
+     "step": 1,
+     "action": "show the push of air",
+     "explain": "Experiments with covered glasses and collapsing cans reveal air's pressure."
+    },
+    {
+     "step": 2,
+     "action": "explain the balance",
+     "explain": "Fluids inside the body push outward, matching the atmosphere's inward push."
+    },
+    {
+     "step": 3,
+     "action": "state the direction",
+     "explain": "Air pressure acts equally in all directions."
+    }
    ]
   },
   {
@@ -73,12 +94,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "create the difference",
-     "explain": "Uneven heating makes one region's air lighter and rising, lowering its pressure."},
-    {"step": 2, "action": "watch the flow",
-     "explain": "Cooler, heavier air from the high-pressure side rushes toward the low."},
-    {"step": 3, "action": "name the winds",
-     "explain": "Sea breeze, land breeze and monsoon are daily and seasonal examples."}
+    {
+     "step": 1,
+     "action": "create the difference",
+     "explain": "Uneven heating makes one region's air lighter and rising, lowering its pressure."
+    },
+    {
+     "step": 2,
+     "action": "watch the flow",
+     "explain": "Cooler, heavier air from the high-pressure side rushes toward the low."
+    },
+    {
+     "step": 3,
+     "action": "name the winds",
+     "explain": "Sea breeze, land breeze and monsoon are daily and seasonal examples."
+    }
    ]
   },
   {
@@ -99,12 +129,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "create fast air",
-     "explain": "Blow or fan air over the top of a light object."},
-    {"step": 2, "action": "observe the push",
-     "explain": "The object moves toward the fast stream, showing reduced pressure there."},
-    {"step": 3, "action": "apply to storms",
-     "explain": "Storm winds racing over roofs lower the pressure above, and inside air lifts the roof off."}
+    {
+     "step": 1,
+     "action": "create fast air",
+     "explain": "Blow or fan air over the top of a light object."
+    },
+    {
+     "step": 2,
+     "action": "observe the push",
+     "explain": "The object moves toward the fast stream, showing reduced pressure there."
+    },
+    {
+     "step": 3,
+     "action": "apply to storms",
+     "explain": "Storm winds racing over roofs lower the pressure above, and inside air lifts the roof off."
+    }
    ]
   },
   {
@@ -125,12 +164,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "trace the storm birth",
-     "explain": "Rising warm moist air builds towering clouds with strong up and down winds."},
-    {"step": 2, "action": "explain the spark",
-     "explain": "Charge separation inside the cloud discharges as a giant spark between cloud and ground."},
-    {"step": 3, "action": "apply safety rules",
-     "explain": "Stay inside, avoid open fields, tall trees and metal; lightning rods guide strikes safely to earth."}
+    {
+     "step": 1,
+     "action": "trace the storm birth",
+     "explain": "Rising warm moist air builds towering clouds with strong up and down winds."
+    },
+    {
+     "step": 2,
+     "action": "explain the spark",
+     "explain": "Charge separation inside the cloud discharges as a giant spark between cloud and ground."
+    },
+    {
+     "step": 3,
+     "action": "apply safety rules",
+     "explain": "Stay inside, avoid open fields, tall trees and metal; lightning rods guide strikes safely to earth."
+    }
    ]
   },
   {
@@ -151,12 +199,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "start over warm water",
-     "explain": "Evaporation feeds moisture; condensation releases heat that powers the storm."},
-    {"step": 2, "action": "build the spin",
-     "explain": "Air rushes to the low-pressure centre and spirals inwards due to the earth's rotation."},
-    {"step": 3, "action": "prepare and respond",
-     "explain": "Forecasts, warnings, cyclone shelters and evacuation reduce the damage."}
+    {
+     "step": 1,
+     "action": "start over warm water",
+     "explain": "Evaporation feeds moisture; condensation releases heat that powers the storm."
+    },
+    {
+     "step": 2,
+     "action": "build the spin",
+     "explain": "Air rushes to the low-pressure centre and spirals inwards due to the earth's rotation."
+    },
+    {
+     "step": 3,
+     "action": "prepare and respond",
+     "explain": "Forecasts, warnings, cyclone shelters and evacuation reduce the damage."
+    }
    ]
   }
  ],
@@ -172,9 +229,12 @@
     "area": "area in square metres"
    },
    "solution_template": [
-    {"step": 1, "action": "divide force by area",
+    {
+     "step": 1,
+     "action": "divide force by area",
      "explain": "Pressure equals force over the area of contact.",
-     "compute": "pressure = force / area"}
+     "compute": "pressure = force / area"
+    }
    ]
   },
   {
@@ -188,9 +248,12 @@
     "area": "strap area in contact in square metres"
    },
    "solution_template": [
-    {"step": 1, "action": "divide force by area",
+    {
+     "step": 1,
+     "action": "divide force by area",
      "explain": "The weight spreads over the strap area.",
-     "compute": "pressure = force / area"}
+     "compute": "pressure = force / area"
+    }
    ]
   }
  ],
@@ -199,18 +262,18 @@
    "id": "ex6.1",
    "source_ref": "hecu106.txt sections 6.1-6.2",
    "questions": [
-     "Why do broad straps of a bag feel more comfortable?",
-     "Describe an activity to show that air exerts pressure.",
-     "Why are we not crushed by the huge atmospheric pressure?"
+    "Why do broad straps of a bag feel more comfortable?",
+    "Describe an activity to show that air exerts pressure.",
+    "Why are we not crushed by the huge atmospheric pressure?"
    ]
   },
   {
    "id": "ex6.2",
    "source_ref": "hecu106.txt sections 6.3-6.6",
    "questions": [
-     "Explain the formation of a sea breeze.",
-     "Why do high-speed winds lower the pressure?",
-     "Describe the safety measures during lightning and cyclone alerts."
+    "Explain the formation of a sea breeze.",
+    "Why do high-speed winds lower the pressure?",
+    "Describe the safety measures during lightning and cyclone alerts."
    ]
   }
  ]

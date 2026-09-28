@@ -1,0 +1,119 @@
+{
+ "catalog": "catalog_class11_accountancy_keac103.json",
+ "concepts": [
+  {
+   "id": "keac.103.2.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "capital = 21",
+      "liabilities = 97",
+      "assets = capital + liabilities"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "capital = 1",
+      "liabilities = 87",
+      "assets = capital + liabilities"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "capital = 59",
+      "liabilities = 99",
+      "assets = capital + liabilities"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "capital = 36",
+      "liabilities = 7.8",
+      "assets = capital + liabilities"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "capital = 31",
+      "liabilities = 12.9",
+      "assets = capital + liabilities"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "capital = 47",
+      "liabilities = 70",
+      "assets = capital + liabilities"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "assets = capital + liabilities"
+   ]
+  },
+  {
+   "id": "keac.103.5.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "list_price = 85",
+      "trade_discount = 123",
+      "net_price = list_price - trade_discount"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "list_price = 95",
+      "trade_discount = 333",
+      "net_price = list_price - trade_discount"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "list_price = 65",
+      "trade_discount = 301",
+      "net_price = list_price - trade_discount"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "list_price = 70",
+      "trade_discount = 181",
+      "net_price = list_price - trade_discount"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "list_price = 5.9",
+      "trade_discount = 272",
+      "net_price = list_price - trade_discount"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "list_price = 80",
+      "trade_discount = 134",
+      "net_price = list_price - trade_discount"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "net_price = list_price - trade_discount"
+   ]
+  }
+ ]
+}

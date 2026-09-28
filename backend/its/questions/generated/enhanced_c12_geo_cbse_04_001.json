@@ -34,6 +34,26 @@
      "q": "Design a decision flowchart (text-based) that a Census enumerator would use to classify any settlement in India into one of: (a) Statutory Town, (b) Census Town, (c) Urban Agglomeration constituent, (d) Outgrowth, (e) Rural Village. Include all decision nodes with exact thresholds.",
      "a": "**Answer:**  \n```\nSTART → Is it legally notified as Municipality/Corporation/Notified Area/Nagar Panchayat?  \n   ├─ YES → STATUTORY TOWN → Is it part of a continuous urban spread with a core town?  \n   │         ├─ YES → URBAN AGGLOMERATION (UA) constituent  \n   │         └─ NO → Standalone Statutory Town  \n   └─ NO → Does it meet ALL THREE: Pop ≥5,000, Density ≥400/km², ≥75% male workers non-primary?  \n             ├─ YES → CENSUS TOWN → Is it adjacent to a statutory town/UA and physically contiguous?  \n             │         ├─ YES → OUTGROWTH (of that UA)  \n             │         └─ NO → Standalone Census Town  \n             └─ NO → RURAL VILLAGE\n```\n**Criteria for good answer:** Must include all 5 categories, correct thresholds, sequential logic (statutory first), and distinction between UA constituent vs outgrowth.  \n**Misconception revealed:** Students forget statutory towns bypass quantitative criteria; they confuse outgrowth (attached to UA) with census town (independent); they omit UA as a separate reporting unit.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A human settlement is a cluster of dwellings where people live and interact, characterized by a permanent or semi-permanent physical ______ and a distinct socio-economic organization.",
+     "a": "infrastructure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real-world observation: \"Look at your own village/town — does it have a ______?",
+     "a": "municipality",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Show how it fails the workforce criterion (needs ≥______% non-primary) so it remains rural despite size/density.",
+     "a": "75",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) state the exact Census of India criteria distinguishing rural and urban settlements with correct thresholds, (2) classify a given settlement description as rural/urban/statutory town/census town/outgrowth, and (3) explain why the same physical cluster may be classified differently under administrative vs. census.",
+     "self_check": true
     }
    ]
   }

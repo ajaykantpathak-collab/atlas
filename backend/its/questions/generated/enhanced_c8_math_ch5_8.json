@@ -34,6 +34,31 @@
      "q": "Create a 5-digit number that is divisible by 2, 3, 5, 9, and 10 simultaneously. Explain how you constructed it.",
      "a": "To be divisible by 2,5,10 → last digit must be 0. To be divisible by 9 → sum of digits must be a multiple of 9. Since divisible by 9 implies divisible by 3, we only need to satisfy 9 and 10. Choose digits that sum to 9, 18, 27, etc., with last digit 0. Example: 10,080 (sum=9, last digit 0). Construction: pick first four digits summing to a multiple of 9, append 0. If a student creates a number ending in 5, they forgot that divisibility by 2 and 10 forces last digit 0. If they create a number like 12,340 (sum=10), they didn't ensure the sum is a multiple of 9.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ tests are shortcut rules that determine whether a given integer is divisible by another integer (2, 3, 5, 9, 10) without performing long division.",
+     "a": "Divisibility",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your teacher has 1,235 candies and ______ to distribute them equally among 2, 3, 5, 9, or 10 students without breaking any candy.",
+     "a": "wants",
+     "self_check": true
+    },
+    {
+     "q": "What is Divisibility tests? State the definition given in this lesson.",
+     "a": "Divisibility tests are shortcut rules that determine whether a given integer is divisible by another integer (2, 3, 5, 9, 10) without performing long division.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Divisibility tests?",
+     "a": "Students often believe that for divisibility by 3 or 9, the sum of digits must be exactly 3 or 9 (a single digit), rather than any multiple of 3 or 9.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly apply all five divisibility tests to any integer up to 8 digits, explain why each test works using place value reasoning, and use the tests to solve problems such as finding missing digits or identifying numbers that satisfy multiple divisibility conditions simultaneously.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a simple thought experiment or data-analysis activity using the atomic radii data in Table 4.2 to demonstrate that the decrease in atomic radius across the 3d series is much smaller than the decrease across Period 3 (Na to Cl). What conclusion about d-orbital shielding can be drawn?",
      "a": "Plot atomic radii vs atomic number for 3d metals (Sc to Zn) and for Period 3 (Na to Cl) on the same graph. The 3d curve is much flatter. Conclusion: d-electrons shield the outer electrons more effectively than p-electrons shield each other? Actually d-electrons shield poorly, but the outer electrons are in ns orbital while nuclear charge increases by adding (n-1)d electrons. The poor shielding means effective nuclear charge increases steadily, but the outer ns orbital is already contracted. The smaller decrease compared to Period 3 is because in Period 3 electrons are added to the same shell (n=3) with no inner d-subshell, so shielding is even less effective? Wait, the NCERT says \"the variation within a series is quite small\" and \"atomic radii decrease less rapidly\" because 3d electrons shield 4s electrons somewhat more effectively than outer shell electrons shield each other. So the conclusion: d-electrons provide better shielding than valence electrons in the same shell, but still not perfect. A poor answer would just state \"d-electrons shield poorly\" without comparing to main group.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Atomic radius of a transition element is the distance from the nucleus to the outermost electron cloud in a metallic crystal lattice (metallic radius) or in a bonded state (covalent radius), which decreases across a transition series due to increasing nuclear charge and poor shielding by (n-1)d electrons, and shows a unique similarity between the 4d and 5d series caused by lanthanoid ______.",
+     "a": "contraction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: hold a piece of iron (Fe) and a piece of copper (Cu) — both are ______ metals but Fe is lighter (density 7.87 g/cm³) while Cu is heavier (8.96 g/cm³).",
+     "a": "transition",
+     "self_check": true
+    },
+    {
+     "q": "What is Atomic radius of a transition element? State the definition given in this lesson.",
+     "a": "Atomic radius of a transition element is the distance from the nucleus to the outermost electron cloud in a metallic crystal lattice (metallic radius) or in a bonded state (covalent radius), which decreases across a transition series due to increasing nuclear charge and poor shielding by (n-1)d electrons, and shows a unique similarity.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Atomic radius of a transition element?",
+     "a": "Students often think that because Cr has configuration 3d⁵4s¹ (half-filled d-subshell), its atomic radius should be larger than V due to exchange energy stabilization causing expansion.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) predict and explain the trend in atomic radii across the 3d, 4d, and 5d transition series using effective nuclear charge and shielding arguments, (2) explain why the 4d and 5d elements have nearly identical radii (lanthanoid contraction), and (3) correlate atomic/ionic radii trends with metallic bonding strength and.",
+     "self_check": true
     }
    ]
   }

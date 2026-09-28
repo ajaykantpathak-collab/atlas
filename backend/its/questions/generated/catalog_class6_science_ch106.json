@@ -2,6 +2,153 @@
  "catalog": "catalog_class6_science_ch106.json",
  "concepts": [
   {
+   "id": "fesc.6.2.3",
+   "title": "Changes by Mixing",
+   "converted_to_compute": true,
+   "formula": "mixture = substance_a + substance_b",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mixture = substance_a + substance_b",
+     "compute": "mixture = substance_a + substance_b"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Changes by Mixing: given substance_a = 78, substance_b = 84, find mixture.",
+     "a": "162",
+     "self_check": false
+    },
+    {
+     "q": "For Changes by Mixing: given substance_a = 70, substance_b = 61, find mixture.",
+     "a": "131",
+     "self_check": false
+    },
+    {
+     "q": "For Changes by Mixing: given substance_a = 59, substance_b = 29, find mixture.",
+     "a": "88",
+     "self_check": false
+    },
+    {
+     "q": "For Changes by Mixing: given substance_a = 98, substance_b = 67, find mixture.",
+     "a": "165",
+     "self_check": false
+    },
+    {
+     "q": "For Changes by Mixing: given substance_a = 96, substance_b = 68, find mixture.",
+     "a": "164",
+     "self_check": false
+    },
+    {
+     "q": "For Changes by Mixing: given substance_a = 24, substance_b = 64, find mixture.",
+     "a": "88",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fesc.6.2.4",
+   "title": "Change in Length due to Burning",
+   "converted_to_compute": true,
+   "formula": "length_lost = initial_length - final_length",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "length_lost = initial_length - final_length",
+     "compute": "length_lost = initial_length - final_length"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "fesc.6.2.4",
+     "question_pattern": "What is the reduction in length if the initial was {initial_length} and final is {final_length}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Change in Length due to Burning: given initial_length = 161, final_length = 452, find length lost.",
+     "a": "-291",
+     "self_check": false
+    },
+    {
+     "q": "What is the reduction in length if the initial was 161 and final is 452?",
+     "a": "-291",
+     "self_check": false
+    },
+    {
+     "q": "For Change in Length due to Burning: given initial_length = 399, final_length = 71, find length lost.",
+     "a": "328",
+     "self_check": false
+    },
+    {
+     "q": "What is the reduction in length if the initial was 399 and final is 71?",
+     "a": "328",
+     "self_check": false
+    },
+    {
+     "q": "For Change in Length due to Burning: given initial_length = 190, final_length = 180, find length lost.",
+     "a": "10",
+     "self_check": false
+    },
+    {
+     "q": "What is the reduction in length if the initial was 190 and final is 180?",
+     "a": "10",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fesc.6.2.5",
+   "title": "Growth and Weight Increase",
+   "converted_to_compute": true,
+   "formula": "weight_gain = current_weight - previous_weight",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "weight_gain = current_weight - previous_weight",
+     "compute": "weight_gain = current_weight - previous_weight"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Growth and Weight Increase: given current_weight = 8.4, previous_weight = 112, find weight gain.",
+     "a": "-103.6",
+     "self_check": false
+    },
+    {
+     "q": "For Growth and Weight Increase: given current_weight = 7.6, previous_weight = 134, find weight gain.",
+     "a": "-126.4",
+     "self_check": false
+    },
+    {
+     "q": "For Growth and Weight Increase: given current_weight = 62, previous_weight = 11.4, find weight gain.",
+     "a": "50.6",
+     "self_check": false
+    },
+    {
+     "q": "For Growth and Weight Increase: given current_weight = 5.6, previous_weight = 8.8, find weight gain.",
+     "a": "-3.2",
+     "self_check": false
+    },
+    {
+     "q": "For Growth and Weight Increase: given current_weight = 58, previous_weight = 38, find weight gain.",
+     "a": "20",
+     "self_check": false
+    },
+    {
+     "q": "For Growth and Weight Increase: given current_weight = 19.7, previous_weight = 3.8, find weight gain.",
+     "a": "15.9",
+     "self_check": false
+    }
+   ]
+  },
+  {
    "id": "fesc.6.1.1",
    "title": "Reversible Changes",
    "solution_type": "verify_property",
@@ -86,192 +233,6 @@
      "q": "Do all materials contract equally on cooling?",
      "a": "No - the amount differs from material to material.",
      "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "fesc.6.2.3",
-   "title": "Changes by Mixing",
-   "solution_type": "verify_property",
-   "questions": [
-    {
-     "q": "What happens when substances are mixed?",
-     "a": "They may simply mix (salt in water) or react forming new substances (lime in water heats up).",
-     "self_check": true
-    },
-    {
-     "q": "Give one example of mixing that is only physical.",
-     "a": "Mixing sand and salt - both stay the same and can be separated.",
-     "self_check": true
-    },
-    {
-     "q": "Give one example where mixing causes a chemical change.",
-     "a": "Mixing lime in water (slaking) releases heat - a new substance forms.",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "fesc.6.2.4",
-   "title": "Change in Length due to Burning",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "remaining_fraction",
-     "expr": "final_length / initial_length",
-     "explain": "fraction of the length remaining"
-    },
-    {
-     "step": 2,
-     "name": "lost_fraction",
-     "expr": "1 - remaining_fraction",
-     "explain": "fraction burnt or worn away"
-    },
-    {
-     "step": 3,
-     "name": "length_lost",
-     "expr": "initial_length * lost_fraction",
-     "explain": "length lost"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A 30 cm candle burns down to 18 cm. How much length is lost?",
-     "vals": {
-      "initial_length": 30,
-      "final_length": 18
-     },
-     "unit": "cm",
-     "steps": null,
-     "a": "12 cm",
-     "self_check": false
-    },
-    {
-     "q": "A 50 cm stick is burnt and only 32 cm remains. Find the length lost.",
-     "vals": {
-      "initial_length": 50,
-      "final_length": 32
-     },
-     "unit": "cm",
-     "steps": null,
-     "a": "18 cm",
-     "self_check": false
-    },
-    {
-     "q": "Burning reduced a 25 cm wick to 9 cm. Calculate the loss in length.",
-     "vals": {
-      "initial_length": 25,
-      "final_length": 9
-     },
-     "unit": "cm",
-     "steps": null,
-     "a": "16 cm",
-     "self_check": false
-    },
-    {
-     "q": "A 100 m cloth roll shrinks after washing to 98.5 m. What length is lost?",
-     "vals": {
-      "initial_length": 100,
-      "final_length": 98.5
-     },
-     "unit": "m",
-     "steps": null,
-     "a": "1.5 m",
-     "self_check": false
-    },
-    {
-     "q": "A 12 cm incense stick burns to 4 cm. How many cm burned away?",
-     "vals": {
-      "initial_length": 12,
-      "final_length": 4
-     },
-     "unit": "cm",
-     "steps": null,
-     "a": "8 cm",
-     "self_check": false
-    }
-   ]
-  },
-  {
-   "id": "fesc.6.2.5",
-   "title": "Growth and Weight Increase",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "weight_ratio",
-     "expr": "current_weight / previous_weight",
-     "explain": "current weight as a multiple of the earlier one"
-    },
-    {
-     "step": 2,
-     "name": "growth_fraction",
-     "expr": "weight_ratio - 1",
-     "explain": "fractional growth"
-    },
-    {
-     "step": 3,
-     "name": "weight_gain",
-     "expr": "previous_weight * growth_fraction",
-     "explain": "weight gained"
-    }
-   ],
-   "questions": [
-    {
-     "q": "A kitten weighed 800 g last month and 1050 g now. Find its weight gain.",
-     "vals": {
-      "current_weight": 1050,
-      "previous_weight": 800
-     },
-     "unit": "g",
-     "steps": null,
-     "a": "250 g",
-     "self_check": false
-    },
-    {
-     "q": "A child's weight rose from 22 kg to 25 kg in a year. Calculate the gain.",
-     "vals": {
-      "current_weight": 25,
-      "previous_weight": 22
-     },
-     "unit": "kg",
-     "steps": null,
-     "a": "3 kg",
-     "self_check": false
-    },
-    {
-     "q": "A plant pot went from 1.2 kg to 1.65 kg as the plant grew. What is the gain?",
-     "vals": {
-      "current_weight": 1.65,
-      "previous_weight": 1.2
-     },
-     "unit": "kg",
-     "steps": null,
-     "a": "0.45 kg",
-     "self_check": false
-    },
-    {
-     "q": "A calf weighed 30 kg and now weighs 41 kg. How much has it gained?",
-     "vals": {
-      "current_weight": 41,
-      "previous_weight": 30
-     },
-     "unit": "kg",
-     "steps": null,
-     "a": "11 kg",
-     "self_check": false
-    },
-    {
-     "q": "A pup's weight increased from 2.4 kg to 3.1 kg. Find the weight gained.",
-     "vals": {
-      "current_weight": 3.1,
-      "previous_weight": 2.4
-     },
-     "unit": "kg",
-     "steps": null,
-     "a": "0.7 kg",
-     "self_check": false
     }
    ]
   }

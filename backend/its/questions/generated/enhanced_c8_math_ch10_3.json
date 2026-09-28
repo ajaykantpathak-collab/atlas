@@ -34,6 +34,31 @@
      "q": "Create a real-world problem for a classmate that requires using a map scale to find an actual distance, but include a twist: the map distance is given in millimetres and the final answer must be in kilometres. Write the problem, the scale you choose, and the correct solution.",
      "a": "Expected answer: A valid problem with RF (e.g., 1 : 1,000,000), map distance in mm (e.g., 45 mm), and correct conversion: 45 mm = 4.5 cm → 4.5 × 1,000,000 = 4,500,000 cm → 45 km. A poor answer that keeps mm throughout (45 × 1,000,000 = 45,000,000 mm and stops) shows the student cannot manage mixed-unit conversions or recognise that RF requires consistent units before multiplication.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Calculating actual distances from map scales uses the ______ Fraction (RF) or scale ratio to convert a measured map distance into the corresponding real-world distance.",
+     "a": "Representative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a bicycle trip from your home in Bengaluru to a friend's house in Mysuru.",
+     "a": "planning",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You measure the straight-line distance between the two cities with a ruler and get ______ cm.",
+     "a": "4.2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently measure a map distance, identify the scale/RF, set up the correct multiplication, perform unit conversions (cm to km, mm to m, etc.), and interpret the final answer in a real-world context such as planning a trip or comparing routes.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are planning a bicycle trip from your home in ______ to a friend's house in Mysuru.",
+     "a": "Bengaluru",
+     "self_check": true
     }
    ]
   }

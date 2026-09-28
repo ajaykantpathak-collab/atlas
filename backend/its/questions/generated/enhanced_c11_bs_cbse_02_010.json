@@ -31,8 +31,23 @@
      "self_check": true
     },
     {
-     "q": "Create a decision scenario for a hypothetical entrepreneur where the seven factors conflict (e.g., low capital need but high continuity requirement; or high control desire but complex operations needing professional management). Specify the business context and recommend the optimal form with a weighted factor analysis.",
-     "a": "Scenario: Rajesh, a software developer, wants to start an AI-based ed-tech platform. He has ₹10 lakh savings (low capital need), wants full control over product decisions (high control), but the business requires specialised tech/management talent (high managerial ability need) and must survive his potential exit (high continuity). Weighted analysis: Control (30%) → proprietorship; Managerial ability (25%) → company; Continuity (20%) → company; Capital (15%) → proprietorship adequate; Liability (10%) → company preferred. Recommendation: One Person Company (OPC)—combines sole owner control with corporate structure (limited liability, perpetual succession, professional management hiring). A poor answer choosing only proprietorship or only company fails to recognise OPC as the hybrid solution balancing conflicting factors.",
+     "q": "Give the correct order of factors Rajesh should weigh when choosing a form for his ed-tech platform with savings, control needs and continuity worries.",
+     "a": "The analysis runs: (1) Low capital need from his savings weakens the case for share issue (2) His desire for full control over product decisions favours a proprietorship or majority holding (3) The need for specialised tech and management talent points to a company with professional directors (4) Continuity beyond his possible exit settles the choice in favour of a private limited company. A wrong answer that weighs a single factor alone shows the student has missed that the factors must be balanced together, not maximised one at a time.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The choice of form of business organisation is the systematic evaluation of seven key factors—cost and ease of formation, liability, continuity, managerial ability, capital requirements, degree of control, and nature of business—to select the most appropriate legal structure (sole ______, partnership, Joint Hindu Family business, cooperative society, or joint stock company) that aligns with the entrepreneur's objectives, risk appetite, and operational scale.",
+     "a": "proprietorship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine Neha from the textbook case: she started as a sole ______ selling painted pottery from home, but now wants to expand nationwide.",
+     "a": "proprietor",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to evaluate a given business scenario by weighing all seven factors, justify the optimal organisational form with specific references to each factor's implications, and explain how changing one factor (e.g., scale expansion) alters the suitability of the chosen form.",
      "self_check": true
     }
    ]

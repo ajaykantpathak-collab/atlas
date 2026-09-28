@@ -31,8 +31,33 @@
      "self_check": true
     },
     {
-     "q": "Design a simple school-lab experiment to demonstrate that chemical equilibrium is dynamic, not static, using the reaction Fe³⁺(aq) + SCN⁻(aq) ⇌ [Fe(SCN)]²⁺(aq) (deep red). List materials, procedure, and the key observation that proves dynamism.",
-     "a": "Materials: FeCl₃ solution, KSCN solution, water, test tubes, spectrophotometer or colorimeter (or visual comparison). Procedure: (1) Prepare equilibrium mixture — deep red. (2) Split into two tubes. (3) Add excess Fe³⁺ to tube A (color intensifies). (4) Add excess SCN⁻ to tube B (color intensifies). (5) To a third tube, add radioactive isotope tracer (⁵⁹Fe or ³⁵S) — if available — and track incorporation into complex. Key observation: color change upon adding either reactant proves the reverse reaction (dissociation of complex) was occurring; otherwise, adding more reactant couldn't shift equilibrium. Without isotopes, the color shift itself proves the system responds dynamically. A poor answer describes only initial color formation, missing the perturbation test.",
+     "q": "Give the correct order of steps in the thiocyanate experiment that proves chemical equilibrium is dynamic.",
+     "a": "The demonstration runs: (1) Mix iron three plus with thiocyanate ions to form the deep red complex (2) Split the equilibrium mixture into separate tubes (3) Add extra iron three plus to one tube and extra thiocyanate to another (4) Watch both tubes deepen in colour, showing the equilibrium shifts forward no matter which reactant is added. A wrong answer that predicts no change on addition shows the student has missed that the constant colour at equilibrium hides continuous forward and reverse reactions that any disturbance exposes.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Dynamic equilibrium in a chemical process is a state in a reversible reaction where the rate of the forward reaction equals the rate of the reverse reaction, resulting in no net change in the concentrations of reactants and products over time, though molecular-level ______ continue unabated.",
+     "a": "transformations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a saturated sugar solution in a glass with undissolved crystals at the bottom — the amount of dissolved sugar appears constant, yet if you add radioactive sugar crystals, radioactivity soon appears in the solution, proving molecules ______ exchange.",
+     "a": "continuously",
+     "self_check": true
+    },
+    {
+     "q": "What is Dynamic equilibrium in a chemical process? State the definition given in this lesson.",
+     "a": "Dynamic equilibrium in a chemical process is a state in a reversible reaction where the rate of the forward reaction equals the rate of the reverse reaction, resulting in no net change in the concentrations of reactants and products over time, though molecular-level transformations continue unabated.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Dynamic equilibrium in a chemical process?",
+     "a": "Students believe \"equilibrium means 50% reactants, 50% products\" because they equate \"equal rates\" with \"equal concentrations.\" In N₂(g) + 3H₂(g) ⇌ 2NH₃(g) at 400°C, equilibrium may have 85% NH₃ by mole — yet forward rate = reverse rate.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain why equilibrium is \"dynamic\" not \"static\" using molecular collision theory, predict how a system at equilibrium responds to a concentration change (qualitative Le Chatelier), and distinguish between physical and chemical equilibrium with examples.",
      "self_check": true
     }
    ]

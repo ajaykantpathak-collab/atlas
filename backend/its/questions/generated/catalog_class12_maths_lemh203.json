@@ -4,15 +4,9 @@
   {
    "id": "lemh.203.9.2.1",
    "title": "Differential Equations and Their Order",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the calculus rule and evaluate at the point",
-     "explain": "apply the calculus rule and evaluate at the point: val = 4 * 3 * 3 + 1 * 3 + 8 gives 47",
-     "compute": "val = 4 * 3 * 3 + 1 * 3 + 8"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "order = the highest derivative order present in the equation",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate the limit of 4x^2 + 1x + 8 as x approaches 3 (direct substitution).",
@@ -49,15 +43,9 @@
   {
    "id": "lemh.203.9.2.2",
    "title": "Degree of a Differential Equation",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the calculus rule and evaluate at the point",
-     "explain": "apply the calculus rule and evaluate at the point: val = 3 * 3 * 3 + 5 * 3 + 2 gives 44",
-     "compute": "val = 3 * 3 * 3 + 5 * 3 + 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "degree = power of the highest order derivative when the equation is polynomial in derivatives",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate the limit of 3x^2 + 5x + 2 as x approaches 3 (direct substitution).",
@@ -94,15 +82,9 @@
   {
    "id": "lemh.203.9.3.1",
    "title": "General and Particular Solutions",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "transpose the terms and divide by the coefficient",
-     "explain": "transpose the terms and divide by the coefficient: x = (22 - 8) / 7 gives 2",
-     "compute": "x = (22 - 8) / 7"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "general solution = family with n arbitrary constants for an equation of order n",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 7x + 8 = 22.",
@@ -139,15 +121,9 @@
   {
    "id": "lemh.203.9.3.2",
    "title": "Verifying a Candidate Solution by Substitution",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the calculus rule and evaluate at the point",
-     "explain": "apply the calculus rule and evaluate at the point: val = 1 * 2 * 2 + 8 * 2 + 4 gives 24",
-     "compute": "val = 1 * 2 * 2 + 8 * 2 + 4"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "substitute y and its derivatives into the equation so that left side equals right side",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate the limit of 1x^2 + 8x + 4 as x approaches 2 (direct substitution).",
@@ -184,15 +160,9 @@
   {
    "id": "lemh.203.9.4.1",
    "title": "Solving by Separation of Variables",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute the given values and simplify",
-     "explain": "substitute the given values and simplify: val = 3 * 7 + 9 gives 30",
-     "compute": "val = 3 * 7 + 9"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "integral of dy over h(y) = integral of g(x) dx plus a constant",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 9 when x = 7.",
@@ -229,15 +199,9 @@
   {
    "id": "lemh.203.9.4.2",
    "title": "Homogeneous Equations and the y equals vx Substitution",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "transpose the terms and divide by the coefficient",
-     "explain": "transpose the terms and divide by the coefficient: x = (20 - 14) / 6 gives 1",
-     "compute": "x = (20 - 14) / 6"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "with y = v*x the equation becomes x * dv/dx = g(v) - v which separates",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 6x + 14 = 20.",
@@ -274,15 +238,9 @@
   {
    "id": "lemh.203.9.4.3",
    "title": "First Order Linear Equations and the Integrating Factor",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the exponent law to the given powers",
-     "explain": "apply the exponent law to the given powers: val = 2 ** (3 + 2) gives 32",
-     "compute": "val = 2 ** (3 + 2)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "integrating factor = e to the power integral of P dx and y times it equals integral of Q times it dx plus C",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 2^3 x 2^2.",
@@ -320,6 +278,8 @@
    "id": "lemh.203.9.4.3.2",
    "title": "Integrating Factor and Product Solution for P equal to a Constant over x",
    "converted_to_compute": false,
+   "formula": "integrating factor = x**coef_p and y * integrating factor = q_const * x**(coef_p + 1)/(coef_p + 1) + const_c",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate the limit of 3x^2 + 1x + 4 as x approaches 1 (direct substitution).",
@@ -357,6 +317,8 @@
    "id": "lemh.203.9.3.3",
    "title": "Particular Solution from an Initial Condition for a Constant Rate",
    "converted_to_compute": false,
+   "formula": "const_c = y_value - rate * x_at",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "First principles: for f(x) = x^2 at x = 4 with h = 0.01, compute the difference quotient (f(x+h) - f(x)) / h (two decimal places).",

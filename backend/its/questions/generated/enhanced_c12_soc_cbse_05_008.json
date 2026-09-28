@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_05_008",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_05_008",
+   "title": "c12_soc_cbse_05_008",
+   "questions": [
+    {
+     "q": "Define 'demographic transition' in the context of aging populations and state its two key drivers.",
+     "a": "Demographic transition is the shift from high birth and death rates to low birth and death rates, leading to an aging population. Its two key drivers are declining fertility rates and declining mortality rates (increased life expectancy). A wrong answer that only mentions 'people living longer' misses the fertility decline component, revealing a misunderstanding that aging is solely about longevity rather than a structural shift in population composition.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the aged are considered a 'marginalised group' in sociological terms, distinguishing this from individual old-age problems.",
+     "a": "The aged are a marginalised group because they face systematic, group-level exclusion from economic resources (pensions, property), social participation (decision-making, community life), and health access due to structural factors like nuclear families, labour market exit, and ageism — not just individual health issues. A wrong answer that lists only 'loneliness' or 'illness' confuses individual troubles with social exclusion, missing the structural dimension emphasized in c12_soc_cbse_05_003.",
+     "self_check": true
+    },
+    {
+     "q": "A 72-year-old widow from a Scheduled Caste background in rural Uttar Pradesh has no pension, lives in a dilapidated house, and is excluded from village water source. Apply the concept of 'intersectionality' to analyze her marginalisation.",
+     "a": "Her marginalisation operates at the intersection of three axes: (1) age — economic dependence and ageism; (2) gender — widowhood denies property rights and social status; (3) caste — SC status restricts access to communal resources like water. These are not additive but multiplicative: caste bars her from the water source, gender prevents her from claiming her husband's land, and age excludes her from MGNREGA work. A wrong answer that treats these as separate problems fails to see how they compound to create a unique form of exclusion not captured by any single category.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the traditional joint family care model with the current institutional/state care model for the elderly in India. Identify two structural factors driving the shift.",
+     "a": "Traditional model: care as familial duty within multigenerational households, reciprocity-based (elderly contributed childcare, wisdom). Current model: increasing reliance on old-age homes, state pensions, and hired caregivers. Structural drivers: (1) Urbanisation and nuclear families — migration separates generations, reducing co-residence; (2) Labour market changes — women's workforce participation reduces unpaid care labour at home. A wrong answer that blames 'loss of values' ignores the material structural forces (housing costs, job mobility) documented in c11_soc_cbse_07_010.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the Maintenance and Welfare of Parents and Senior Citizens Act, 2007 from a social exclusion perspective. Does it address the structural causes of elder marginalisation?",
+     "a": "The Act provides legal recourse for elders to claim maintenance from children/relatives and mandates old-age homes in every district — addressing symptoms (abandonment, destitution) but not structural causes. It assumes family as primary care site, ignoring elders without children or with estranged families. It does not guarantee universal pension, healthcare access, or social participation. A wrong answer that praises the Act as 'comprehensive' misses its familialist bias and failure to address the political economy of care labor.",
+     "self_check": true
+    },
+    {
+     "q": "Design a community-based intervention for elderly marginalisation that integrates demographic data, social exclusion theory, and intersectionality. Outline its three core components.",
+     "a": "A strong answer would include: (1) Demographic profiling — use Census/NFHS data to identify high-aging blocks with feminized/SC-concentrated elderly populations; (2) Multi-access centres — combining healthcare, pension enrollment, legal aid, and social activities in one accessible location to overcome exclusion from multiple services; (3) Intergenerational collectives — linking elderly with youth groups for mutual skill-sharing (digital literacy for traditional crafts) to rebuild social capital and challenge ageism. A poor answer would propose only 'build more old-age homes' or 'increase pension', showing inability to synthesize concepts.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The aged as a ______ group refers to older persons (typically 60+ years) who experience systematic social exclusion due to economic dependence, declining health, weakening social networks, and age-based prejudice, exacerbated by demographic transition (declining fertility and mortality) that increases their proportion in the population while traditional family-based care systems erode.",
+     "a": "marginalised",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking students: \"Why do you see more elderly people living alone or in old-age homes today compared to your grandparents' generation?\" Connect this observation to ______ transition — explain how falling birth rates and rising life expectancy change the population pyramid.",
+     "a": "demographic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The aged as a marginalised group refers to older persons (typically ______+ years) who experience systematic social exclusion due to economic dependence, declining health, weakening social networks, and age-based prejudice, exacerbated by demographic transition (declining fertility and mortality) that increases their proportion in the population while traditional family-based care systems erode.",
+     "a": "60",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) explain how demographic transition creates a structural increase in the elderly population, (2) analyze the three dimensions of marginalisation faced by the aged (economic, social, health) using the concept of social exclusion, and (3) evaluate the effectiveness of state policies (e.g., Maintenance and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking students: \"Why do you see more elderly people living alone or in old-age homes today compared to your ______' generation?\" Connect this observation to demographic transition — explain how falling birth rates and rising life expectancy change the population pyramid.",
+     "a": "grandparents",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

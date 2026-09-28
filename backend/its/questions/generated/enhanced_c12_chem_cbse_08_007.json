@@ -34,6 +34,26 @@
      "q": "Design a simple laboratory test to distinguish between acetaldehyde (ethanal) and benzaldehyde using only NaOH solution and observation of products. Explain the chemical basis for the difference in observations.",
      "a": "Add concentrated NaOH to each aldehyde separately, warm gently. Acetaldehyde (has α-H) → aldol condensation → yellow/brown resinous precipitate (3-hydroxybutanal → crotonaldehyde polymer). Benzaldehyde (no α-H) → Cannizzaro → colourless solution of sodium benzoate + benzyl alcohol (distinct odour). Basis: α-H presence determines pathway. Acetaldehyde forms enolate → aldol. Benzaldehyde cannot → hydride transfer. WRONG answer reveals: student suggests Tollens' test (both give silver mirror) or Fehling's (benzaldehyde negative) — misses the point: use NaOH alone to exploit mechanistic divergence. Must know aldol gives coloured polymer, Cannizzaro gives clear solution.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Cannizzaro reaction is a base-catalysed ______ reaction where non-α-hydrogen aldehydes (e.g., formaldehyde, benzaldehyde) undergo simultaneous oxidation and reduction in concentrated alkali: one molecule is reduced to a primary alcohol while another is oxidised to a carboxylate salt.",
+     "a": "disproportionation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bottle of formalin (aqueous formaldehyde) left open — it slowly develops formic acid and methanol because formaldehyde has no α-hydrogen and undergoes Cannizzaro ______ even with trace alkali from glass.",
+     "a": "disproportionation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key reaction: ______ HCHO + OH⁻ → CH₃OH + HCOO⁻.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) identify which aldehydes undergo Cannizzaro vs. aldol condensation based on α-hydrogen presence, (2) write the balanced disproportionation equation showing hydride transfer, (3) predict products for crossed Cannizzaro between two different non-α-H aldehydes, and (4) explain why formaldehyde gives methanol + formate while.",
+     "self_check": true
     }
    ]
   }

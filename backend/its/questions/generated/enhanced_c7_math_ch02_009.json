@@ -34,6 +34,36 @@
      "q": "Create a pair of unequal arithmetic expressions involving subtraction where the left expression looks larger at first glance due to larger initial numbers, but the right expression is actually larger because of the subtrahends. Explain your design.",
      "a": "Expected Answer: Left expression: $1000 - 450$; Right expression: $990 - 420$. (Checking: $1000 - 450 = 550$, while $990 - 420 = 570$, so $1000 - 450 < 990 - 420$). \nCriteria for a good answer: The student must deliberately choose a starting number that is larger on the left, but subtract a much larger amount such that the net result flips the inequality. A poor answer uses random numbers without checking the compensatory subtraction effect.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This approach relies on properties of operations such as addition, subtraction, ______, and distribution to deduce equivalence or inequality.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a school sports equipment stall, and your teacher asks you to check if buying 5 boxes of 12 cricket balls plus 5 boxes of 8 tennis balls costs more than buying 5 boxes of 20 mixed balls, without ______ the total bill in rupees.",
+     "a": "calculating",
+     "self_check": true
+    },
+    {
+     "q": "What is Relational reasoning without computing full values? State the definition given in this lesson.",
+     "a": "This approach relies on properties of operations such as addition, subtraction, multiplication, and distribution to deduce equivalence or inequality.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight is that numbers possess relationships (like being ______ units larger or being multiplied by the same factor) that let us decide inequalities directly from structure.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Relational reasoning without computing full values?",
+     "a": "Students often assume that an expression containing larger individual numbers or more digits overall must always evaluate to a greater value, even when operations like subtraction or smaller multipliers alter the relationship.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can compare two complex arithmetic expressions and determine which is larger (or if they are equal) without performing full arithmetic calculations, by explicitly citing the structural changes or number properties applied.",
+     "self_check": true
     }
    ]
   }

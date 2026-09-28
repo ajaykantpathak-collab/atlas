@@ -1,0 +1,62 @@
+{
+ "catalog": "catalog_class12_biology_ch108.json",
+ "concepts": [
+  {
+   "id": "lebo.108.7",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "initial_bod = 50",
+      "final_bod = 42",
+      "reduction_percent = (initial_bod - final_bod) * 100 / initial_bod"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "initial_bod = 51",
+      "final_bod = 98",
+      "reduction_percent = (initial_bod - final_bod) * 100 / initial_bod"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "initial_bod = 75",
+      "final_bod = 19.8",
+      "reduction_percent = (initial_bod - final_bod) * 100 / initial_bod"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "initial_bod = 65",
+      "final_bod = 77",
+      "reduction_percent = (initial_bod - final_bod) * 100 / initial_bod"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "initial_bod = 16.3",
+      "final_bod = 25",
+      "reduction_percent = (initial_bod - final_bod) * 100 / initial_bod"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "initial_bod = 22",
+      "final_bod = 19.6",
+      "reduction_percent = (initial_bod - final_bod) * 100 / initial_bod"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "reduction_percent = (initial_bod - final_bod) * 100 / initial_bod"
+   ]
+  }
+ ]
+}

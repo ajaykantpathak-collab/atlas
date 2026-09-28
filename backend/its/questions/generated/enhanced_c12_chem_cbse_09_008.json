@@ -12,7 +12,7 @@
     },
     {
      "q": "Explain why secondary amines (R₂NH) and tertiary amines (R₃N) do not give a positive carbylamine test, even though they also have a lone pair on nitrogen.",
-     "a": "The reaction requires *two* N–H bonds on the same nitrogen to undergo the two successive dehydrohalogenation/elimination steps after the initial addition of dichlorocarbene. Primary amines (R–NH₂) have two N–H bonds; secondary amines have only one (R₂NH); tertiary amines have none (R₃N). Without two N–H bonds, the sequence cannot proceed to form the C≡N triple bond of the isocyanide. A wrong answer focusing only on the lone pair (e.g., \"all amines have a lone pair so all should react\") reveals a misunderstanding of the reaction stoichiometry and the role of N–H bonds in the elimination steps.",
+     "a": "The reaction requires *two* N–H bonds on the same nitrogen to undergo the two successive dehydrohalogenation/elimination steps after the initial addition of dichlorocarbene. Primary amines (R–NH₂) have two N–H bonds; secondary amines have only one (R₂NH); tertiary amines have N/A (R₃N). Without two N–H bonds, the sequence cannot proceed to form the C≡N triple bond of the isocyanide. A wrong answer focusing only on the lone pair (e.g., \"all amines have a lone pair so all should react\") reveals a misunderstanding of the reaction stoichiometry and the role of N–H bonds in the elimination steps.",
      "self_check": true
     },
     {
@@ -33,6 +33,26 @@
     {
      "q": "Design a flowchart using *only* the carbylamine test and Hinsberg's test to separate and identify the three components in a mixture of a primary, a secondary, and a tertiary amine.",
      "a": "Step 1: Perform carbylamine test on the mixture. The foul smell confirms presence of primary amine. Isolate the primary amine (e.g., by distillation or extraction after reaction). Step 2: On the remaining mixture (secondary + tertiary), perform Hinsberg's test with benzenesulphonyl chloride. The secondary amine forms an alkali-insoluble sulphonamide (precipitate); the tertiary amine does not react and remains in solution. Filter to separate. Step 3: Regenerate the secondary amine from its sulphonamide by alkaline hydrolysis. A poor flowchart (e.g., doing Hinsberg's first, or not regenerating amines) reveals inability to sequence qualitative tests logically — a key competency for practical exams.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The carbylamine reaction (isocyanide test) is a qualitative chemical test where primary amines (aliphatic or aromatic) react with chloroform and alcoholic potassium hydroxide to form foul-smelling isocyanides (______, R–NC), while secondary and tertiary amines do not respond.",
+     "a": "carbylamines",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in a chemistry lab with three unlabelled bottles ______ methylamine, dimethylamine, and trimethylamine.",
+     "a": "containing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write the balanced chemical equation for the carbylamine reaction, identify the specific structural requirement (–NH₂ group) that makes it exclusive to primary amines, and design a test sequence using this reaction to distinguish primary amines from secondary and tertiary amines in a given mixture.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in a chemistry lab with three unlabelled bottles containing methylamine, dimethylamine, and ______.",
+     "a": "trimethylamine",
      "self_check": true
     }
    ]

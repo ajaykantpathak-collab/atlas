@@ -34,6 +34,31 @@
      "q": "Design a \"Savings Decision Framework\" for a family of four (income ₹70,000/month, essential expenses ₹48,000/month) that integrates: (a) ability-to-save calculation, (b) willingness assessment via goal-setting, (c) the NCERT principle that \"saving for saving's sake is futile,\" and (d) a mechanism to convert savings into investment. Present as a 5-step flowchart with decision rules at each step.",
      "a": "Expected answer criteria:\n1. Step 1 (Ability): Calculate max savings = ₹70,000 − ₹48,000 = ₹22,000. Rule: Target savings ≤ ₹22,000.\n2. Step 2 (Willingness/Goals): List 3 time-bound goals (e.g., emergency fund ₹1 lakh in 12 months, child education ₹5 lakh in 10 years, retirement ₹1 crore in 25 years). Rule: Each goal must have amount, deadline, priority.\n3. Step 3 (Futility Check): Reject any \"save whatever is left\" approach. Rule: Every rupee saved must be tagged to a goal from Step 2.\n4. Step 4 (Allocation): Distribute monthly savings across goals by priority/urgency. Rule: Emergency fund first (₹8,333/month for 12 months), then education, then retirement.\n5. Step 5 (Investment Conversion): Map each goal to an instrument matching horizon/liquidity (e.g., emergency → savings account/liquid fund; education → PPF/Sukanya Samriddhi; retirement → NPS/equity MF). Rule: No cash at home; all savings auto-transferred on salary day.\nA poor answer that omits goal-tagging (Step 3) or instrument-matching (Step 5) treats savings as an end, not a means to investment — violating the core NCERT principle.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Savings is the portion of current money income (or other resources) that a family deliberately sets aside by forgoing present consumption, to be used for future needs, emergencies, or productive investment, where the decision to save is determined by both the ability to save (surplus of income over essential expenditure) and the willingness to save (goal orientation and delayed ______).",
+     "a": "gratification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family earns ₹60,000 per month and spends ₹55,000 on ______ — you have ₹5,000 left.",
+     "a": "essentials",
+     "self_check": true
+    },
+    {
+     "q": "What is Savings? State the definition given in this lesson.",
+     "a": "Savings is the portion of current money income (or other resources) that a family deliberately sets aside by forgoing present consumption, to be used for future needs, emergencies, or productive investment, where the decision to save is determined by both the ability to save (surplus of income over essential expenditure) and the.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Savings?",
+     "a": "Students believe \"savings = income − expenditure\" is a complete definition, treating the residual as automatically savings.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish savings from mere non-spending by identifying the three essential elements (intentional deferral, purpose-driven allocation, and resource form) in any given scenario, and can explain how per capita income and family goal hierarchy jointly determine the savings rate using a concrete numerical example.",
+     "self_check": true
     }
    ]
   }

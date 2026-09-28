@@ -34,6 +34,31 @@
      "q": "Design a compressed IPv6 address for a link-local address on interface `eth0` of a Linux host, given the interface's MAC address is `00:1A:2B:3C:4D:5E`. Show the steps to derive the Interface Identifier using Modified EUI-64.",
      "a": "Steps: 1) Split MAC: `00:1A:2B` | `3C:4D:5E`. 2) Insert `ff:fe` in middle: `00:1A:2B:FF:FE:3C:4D:5E`. 3) Invert 7th bit (Universal/Local) of first byte: `00` → `02` (binary `00000000` → `00000010`). 4) Resulting IID: `021a:2bff:fe3c:4d5e`. 5) Link-local prefix `fe80::/64` → full: `fe80::21a:2bff:fe3c:4d5e`. Compressed: `fe80::21a:2bff:fe3c:4d5e`. A student who forgets bit inversion or `ff:fe` insertion shows mechanical application without understanding EUI-64 construction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: IPv6 (Internet Protocol version 6) is a 128-bit addressing scheme represented as eight groups of four hexadecimal digits separated by colons (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334), designed to replace IPv4 by providing a vastly larger address space, simplified header structure, built-in security (IPsec), and improved support for mobile devices and auto-______.",
+     "a": "configuration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are setting up a smart home with 50+ IoT ______ — each needs a unique IP address.",
+     "a": "devices",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are setting up a smart home with ______+ IoT devices — each needs a unique IP address.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly expand a compressed IPv6 address to its full 128-bit representation, identify the address type (global unicast, link-local, multicast) from its prefix, and explain at least three advantages of IPv6 over IPv4 with technical justification.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are setting up a smart home with 50+ IoT devices — each needs a unique IP address.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a simple science fair project a Class 10 student could do today that follows Ebright's progression: start with observation/collection, then ask a testable question, and outline the experiment with variables.",
      "a": "Example: Collect different types of leaves (observation) → question: 'Does leaf shape affect water loss?' → experiment: measure weight loss of broad vs. narrow leaves under same conditions (independent: leaf shape; dependent: weight loss; controls: light, humidity, initial weight). A poor answer (e.g., just a collection with no testable question) shows the student cannot synthesize the progression into a new context.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This topic traces the sequential development of Richard Ebright's science fair projects — from childhood rock and fossil collections to ______ butterfly experiments — demonstrating how each project applied the scientific method, built on prior findings, and reflected growing curiosity and perseverance.",
+     "a": "sophisticated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you start ______ coins as a hobby, then begin researching their history, and eventually write a paper on ancient trade routes — each step builds on the last.",
+     "a": "collecting",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can list Ebright's science fair projects in chronological order, explain the scientific question and method for each, and articulate how each project led to the next, showing the progression from observation to hypothesis-driven experimentation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you start collecting coins as a hobby, then begin ______ their history, and eventually write a paper on ancient trade routes — each step builds on the last.",
+     "a": "researching",
+     "self_check": true
     }
    ]
   }

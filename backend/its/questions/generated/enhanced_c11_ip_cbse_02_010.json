@@ -34,6 +34,36 @@
      "q": "Design a real-world scenario (Indian context) where a program must use at least two arithmetic operators, two relational operators, and one logical operator in a single compound condition to make a decision. Write the Python condition and explain why each operator is necessary.",
      "a": "Scenario: An auto-rickshaw fare calculator in Delhi. Base fare ₹25 for first 1.5 km, then ₹9.50 per km. Night surcharge (11 PM–5 AM) adds 25%. A passenger travels `dist` km at hour `h` (0–23). Condition for \"night surcharge applies AND fare exceeds ₹100\": `(h >= 23 or h < 5) and (25 + max(0, dist - 1.5) * 9.5 > 100)`. Arithmetic: `-`, `*`, `+` compute fare. Relational: `>=`, `<`, `>` compare hour and fare. Logical: `or` combines night hours, `and` combines surcharge condition with fare condition. A poor answer uses only one operator type or creates a contrived condition without real-world meaning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Operators in Python are special symbols or keywords that perform specific ______ on one or more operands (values or variables).",
+     "a": "computations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a program to calculate whether a student qualifies for a scholarship: they need an average of at least 75% across three subjects AND must have scored above 60 in ______.",
+     "a": "Mathematics",
+     "self_check": true
+    },
+    {
+     "q": "What is Operators in Python? State the definition given in this lesson.",
+     "a": "Operators in Python are special symbols or keywords that perform specific computations on one or more operands (values or variables).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To decide eligibility, you must compute the average using arithmetic operators, compare it with ______ using a relational operator, check the maths score with another relational operator, and combine both conditions with a logical operator.",
+     "a": "75",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Operators in Python?",
+     "a": "Students believe that and and or return only True or False.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must correctly evaluate mixed expressions involving arithmetic, relational, and logical operators by applying operator precedence rules, predict the Boolean outcome of compound conditions, and explain why integer division (//) and modulus (%) behave differently with negative operands in Python compared to mathematical.",
+     "self_check": true
     }
    ]
   }

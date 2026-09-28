@@ -34,6 +34,36 @@
      "q": "Design a migration data collection framework for a district-level study that captures seasonal/circular migration missed by the Census (which uses place of last residence at a fixed date). Specify: (a) 3 key variables beyond Census categories, (b) 1 qualitative method to capture migrant agency, (c) how to avoid double-counting circular migrants.",
      "a": "(a) Variables: (i) Duration of stay at destination per trip (days/months), (ii) Frequency of return trips per year, (iii) Remittance amount and channel (formal/informal). (b) Qualitative method: Life-history interviews with 20-30 migrant households tracing migration trajectories over 5-10 years, capturing decision-making, risk perception, and aspirations. (c) Avoid double-counting: Use \"usual place of residence\" (UPR) defined as where person spends ≥6 months/year, verified via Aadhaar-linked mobile location data or ration card usage patterns, supplemented by household roster method (list all members, mark those away >1 month). A poor answer replicates Census questions or suggests one-time surveys, missing the temporal dimension of circular migration.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Migration in India refers to the permanent or semi-permanent change of residence by individuals or groups across ______ boundaries, classified as internal migration (within India: intra-district, inter-district, intra-state, inter-state) and international migration (crossing India's borders: immigration into India, emigration from India), driven by push factors (poverty, unemployment, environmental stress, conflict) and pull factors (employment, education, marriage, urban amenities), with Census of India recording migration based on place of birth and place of last residence.",
+     "a": "administrative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ with a familiar observation: \"Think of your classmates — how many were born in another state?",
+     "a": "Start",
+     "self_check": true
+    },
+    {
+     "q": "What is Migration in India? State the definition given in this lesson.",
+     "a": "Migration in India refers to the permanent or semi-permanent change of residence by individuals or groups across administrative boundaries, classified as internal migration (within India: intra-district, inter-district, intra-state, inter-state) and international migration (crossing India's borders: immigration into India, emigration.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then build the classification framework: first split by boundary crossed (internal vs international), then for internal, split by rural/urban origin-destination matrix (______ streams).",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Migration in India?",
+     "a": "Students think \"migration\" only means permanent, one-way moves from village to city (Rural-Urban), and equate \"inter-state migration\" with \"long-distance migration\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can classify any given migration scenario into the correct stream (rural-rural, rural-urban, urban-urban, urban-rural) and type (intra-state, inter-state, international), explain the dominant push-pull factors for each stream using Indian examples, and interpret Census migration data tables to identify the major source and.",
+     "self_check": true
     }
    ]
   }

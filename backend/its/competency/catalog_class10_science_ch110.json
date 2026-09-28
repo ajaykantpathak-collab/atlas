@@ -107,6 +107,21 @@
      "explain": "Express the result in meters or centimeters with the appropriate sign to indicate lens type.",
      "compute": "focal_length_cm = focal_length * 100"
     }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "focal_length = 1 / power",
+     "compute": "focal_length = 1 / power"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "jesc.10.3",
+     "question_pattern": "find the focal length of a lens with power of {power} dioptres"
+    }
    ]
   },
   {
@@ -143,6 +158,21 @@
      "action": "State the nature and power of the lens",
      "explain": "A negative power confirms a concave (diverging) lens, which is required to correct myopia by spreading the light rays before they enter the eye."
     }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "power = -100 / far_point",
+     "compute": "power = -100 / far_point"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "jesc.10.4",
+     "question_pattern": "the far point of a myopic person is {far_point} cm find the power of the corrective lens"
+    }
    ]
   },
   {
@@ -178,6 +208,21 @@
      "step": 3,
      "action": "State the nature and power of the corrective lens",
      "explain": "A positive power confirms a convex (converging) lens, which is required to correct hypermetropia by bending light rays so nearby objects focus on the retina."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "power = 4 - (100 / near_point)",
+     "compute": "power = 4 - (100 / near_point)"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "jesc.10.5",
+     "question_pattern": "the near point of a hypermetropic eye is {near_point} cm find the power of the lens"
     }
    ]
   },
@@ -250,7 +295,16 @@
      "explain": "The result represents how much the light ray has deviated from its original path after passing through the prism, expressed in degrees.",
      "compute": "result = angle_deviation"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "angle_deviation = angle_incidence + angle_emergence - angle_prism",
+     "compute": "angle_deviation = angle_incidence + angle_emergence - angle_prism"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.10.8",

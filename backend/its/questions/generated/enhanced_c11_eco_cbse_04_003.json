@@ -34,6 +34,26 @@
      "q": "Construct a simple conceptual diagram (describe in words) showing the two-way relationship between human capital and economic growth, including at least two feedback loops (e.g., education → productivity → income → education spending; health → labor supply → output → health expenditure). Label the key variables.",
      "a": "Expected answer: A diagram with boxes: Human Capital (Education, Health) → Labor Productivity → Real National Income → Public/Private Expenditure on Education/Health → Human Capital. Also: Human Capital → Innovation/Technology Adoption → Growth → R&D Investment → Human Capital. Good answer shows clear loops and labels. Poor answer shows only one direction or missing variables.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Human capital and economic growth share a bidirectional causal relationship: investment in human capital (education, health, skills) raises labor productivity and innovation capacity, which increases real national income; ______, higher national income enables greater public and private expenditure on human capital formation, creating a virtuous cycle.",
+     "a": "simultaneously",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two Indian states: State A spends 5% of GDP on ______ and health, State B spends 2%.",
+     "a": "education",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: After ______ years, State A's per capita income grows faster.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the two-way causality between human capital and economic growth using Indian data (e.g., Table 4.1 trends), distinguish between correlation and causation, and evaluate why empirical evidence may be inconclusive due to measurement issues.",
+     "self_check": true
     }
    ]
   }

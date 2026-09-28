@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (Indian context: e.g., profit of a small business, trajectory of a ball, water level in a tank) that can be modelled by a cubic polynomial with exactly two distinct real zeros, one of which has multiplicity 2. Write the polynomial, explain what each zero represents in your context, and describe the graph's shape.",
      "a": "Example problem: \"A startup in Bengaluru models its monthly profit (in lakhs ₹) after x months by P(x) = -2(x - 6)²(x - 12). The business breaks even at month 6 and month 12. At month 6, the profit touches zero but doesn't become negative — the business stabilises briefly before growing again. At month 12, the profit crosses zero and becomes negative — the business starts losing money.\" Polynomial: P(x) = -2(x - 6)²(x - 12). Zeros: x = 6 (multiplicity 2, touch point — break-even with stabilisation), x = 12 (multiplicity 1, crossing — break-even then loss). Leading coefficient -2: as x → -∞, P → +∞ (not relevant for x ≥ 0); as x → +∞, P → -∞ (eventual losses). Graph for x ≥ 0: starts at P(0) = -2(36)(-12) = 864 lakhs (high initial investment return?), crosses? Wait, P(0) = 864 positive. Actually, better context: \"Water level in a tank (metres) over time: h(t) = -(t - 2)²(t - 5). Tank fills, level touches 0 at t=2 (sensor glitch?), then rises, then crosses 0 at t=5 (empty).\" A good answer must have: (a) cubic with one double zero and one single zero, (b) meaningful context where multiplicity 2 zero represents \"touch and go\" behaviour, (c) correct end behaviour interpretation. Poor answer: uses quadratic, or has 3 distinct zeros, or ignores multiplicity meaning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A cubic polynomial is a polynomial of degree 3 ______ as p(x) = ax³ + bx² + cx + d, where a, b, c, d are real numbers and a ≠ 0.",
+     "a": "expressed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a roller coaster track for an amusement park in Delhi — the track must start from ground level, go up, dip down, rise again, and finally go ______.",
+     "a": "underground",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The zeros of a cubic polynomial are the real values of x for which p(x) = ______; geometrically, these are the x-coordinates of the points where the graph of y = p(x) intersects or touches the x-axis.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can sketch the graph of any cubic polynomial given its zeros (including repeated zeros), identify the number and nature of zeros from a given graph, determine the end behaviour based on the leading coefficient, and explain how the multiplicity of a zero affects the graph's intersection with the x-axis (crossing vs touching).",
+     "self_check": true
     }
    ]
   }

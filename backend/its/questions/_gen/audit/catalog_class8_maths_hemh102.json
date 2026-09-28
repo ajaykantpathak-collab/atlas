@@ -85,9 +85,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 3 * 6 + 7"
-   ]
+   "steps_chain": []
   },
   {
    "id": "hemh.102.2.3",
@@ -130,9 +128,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "x = (32 - 4) / 4"
-   ]
+   "steps_chain": []
   },
   {
    "id": "hemh.102.2.4",
@@ -175,9 +171,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "x = (87 - 15) / 6"
-   ]
+   "steps_chain": []
   }
  ]
 }

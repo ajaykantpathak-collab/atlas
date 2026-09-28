@@ -34,6 +34,31 @@
      "q": "Design a transgenic mouse model to study **cystic fibrosis (CF)** caused by the ΔF508 mutation in the *CFTR* gene. Outline: (a) the genetic construct, (b) the method to introduce the exact point mutation, (c) the expected phenotype, and (d) one limitation of this model.",
      "a": "**(a) Construct:** Mouse *Cftr* genomic locus (or human *CFTR* cDNA) with the **ΔF508 deletion** (3‑bp deletion removing Phe508) knocked into the endogenous mouse *Cftr* locus via homologous recombination in ES cells, preserving native promoter/enhancers for physiological expression pattern.  \n**(b) Method:** CRISPR/Cas9 with a single‑guide RNA targeting exon 10 + a single‑stranded DNA donor template carrying ΔF508 and silent restriction site for screening.  \n**(c) Phenotype:** Thickened mucus in airways/gut, defective chloride transport in nasal epithelium (transepithelial potential difference), pancreatic insufficiency, male infertility — mimicking human CF.  \n**(d) Limitation:** Mice do not spontaneously develop the severe **lung infections/inflammation** seen in humans because of differences in airway biology (e.g., submucosal glands, alternative chloride channels like CaCC).  \n**Poor answer reveals:** Student suggests \"injecting the mutant protein\" or \"adding the human gene randomly\" without targeting the endogenous locus, and cannot name a specific physiological difference between mouse and human airways.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Transgenic animals are organisms whose genome has been ______ modified by the stable integration of a foreign gene (transgene) via recombinant DNA technology, such that the transgene is expressed in the animal's tissues and transmitted through the germline to subsequent generations.",
+     "a": "deliberately",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: But what if a patient needs a complex ______ like clotting Factor VIII that bacteria cannot fold or glycosylate correctly?",
+     "a": "glycoprotein",
+     "self_check": true
+    },
+    {
+     "q": "What is Transgenic animals? State the definition given in this lesson.",
+     "a": "Transgenic animals are organisms whose genome has been deliberately modified by the stable integration of a foreign gene (transgene) via recombinant DNA technology, such that the transgene is expressed in the animal's tissues and transmitted through the germline to subsequent generations.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Transgenic animals?",
+     "a": "Exact error: *\"Transgenic animals are made by injecting the desired human protein into the animal's blood/eggs, so the animal starts producing that protein.\"* Why it's wrong: Proteins cannot integrate into the genome, are degraded within hours, and are not heritable.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can list and explain at least five distinct applications of transgenic animals with specific named examples (e.g., Rosie cow, oncomouse, vaccine safety testing), and justify why mammalian systems are required for certain complex human proteins over bacterial expression systems.",
+     "self_check": true
     }
    ]
   }

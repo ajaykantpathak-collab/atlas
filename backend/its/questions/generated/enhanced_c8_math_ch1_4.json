@@ -34,6 +34,21 @@
      "q": "Create a 5-digit number that ends with zeros and is a perfect square. Explain how you constructed it using the trailing zeros rule.",
      "a": "Example: 16000 (but that's 5 digits? 16000 is 5 digits, ends with 3 zeros – odd, so not a perfect square). Need even zeros: 4 zeros → number ends with 2 zeros. Smallest 5-digit with 2 zeros: 10000 = 100². Or 14400 = 120². Construction: Choose a 3-digit number ending with one zero (e.g., 120), square it → 5-digit ending with two zeros. A poor answer shows the student cannot work backwards from the rule or creates a number with odd trailing zeros.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______, a perfect square always has an even number of trailing zeros.",
+     "a": "Consequently",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The total is 100 × 10 = 1000, but what if you need the ______ of 100?",
+     "a": "square",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state the rule linking trailing zeros of a number and its square, apply it to determine the number of trailing zeros in a square without full multiplication, and use the even-zeros property to identify numbers that cannot be perfect squares.",
+     "self_check": true
     }
    ]
   }

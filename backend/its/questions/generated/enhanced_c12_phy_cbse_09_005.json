@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a convex lens, a plane mirror, and a pin to determine the focal length of the lens without using a screen. Describe the procedure and the principle.",
      "a": "Place the convex lens on a plane mirror. Hold a pin vertically above the lens on its principal axis. Move the pin up/down until its inverted image coincides with the pin (no parallax). The distance from pin to lens is the focal length f. Principle: When the object is at the focus of the lens, the emergent rays are parallel; they reflect normally off the plane mirror and retrace their path, forming an image at the same position as the object. A poor answer (e.g., using a screen, or not mentioning parallax removal) shows lack of understanding of the reversibility of light and the condition for image formation at the object location.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The lens maker's formula relates the focal length (f) of a thin lens to the refractive index of its material (n₂) relative to the ______ medium (n₁) and the radii of curvature (R₁, R₂) of its two spherical surfaces: 1/f = (n₂/n₁ - 1)(1/R₁ - 1/R₂).",
+     "a": "surrounding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ glass (convex lens) focusing sunlight to a bright spot on paper — the distance from lens to spot is its focal length.",
+     "a": "magnifying",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The SI unit of focal length is metre (m); power P = ______/f is measured in dioptre (D = m⁻¹).",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) derive the lens maker's formula step-by-step from the single spherical surface refraction equation, correctly applying sign conventions at each surface, (2) calculate the required radii of curvature for a lens of given focal length and material, and (3) predict how the focal length changes when the lens is immersed in.",
+     "self_check": true
     }
    ]
   }

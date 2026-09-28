@@ -1,0 +1,119 @@
+{
+ "catalog": "catalog_class12_chemistry_ch106.json",
+ "concepts": [
+  {
+   "id": "jech.6.6",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "deltaH = 26",
+      "T = 39",
+      "deltaS = 21",
+      "deltaG = deltaH - T*deltaS"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "deltaH = 70",
+      "T = 42",
+      "deltaS = 76",
+      "deltaG = deltaH - T*deltaS"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "deltaH = 9.4",
+      "T = 71",
+      "deltaS = 5.1",
+      "deltaG = deltaH - T*deltaS"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "deltaH = 72",
+      "T = 83",
+      "deltaS = 95",
+      "deltaG = deltaH - T*deltaS"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "deltaH = 33",
+      "T = 76",
+      "deltaS = 6.8",
+      "deltaG = deltaH - T*deltaS"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "deltaH = 35",
+      "T = 27",
+      "deltaS = 91",
+      "deltaG = deltaH - T*deltaS"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "deltaG = deltaH - T*deltaS"
+   ]
+  },
+  {
+   "id": "jech.6.7",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "nFE = 25",
+      "deltaG = -nFE"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "nFE = 77",
+      "deltaG = -nFE"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "nFE = 70",
+      "deltaG = -nFE"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "nFE = 76",
+      "deltaG = -nFE"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "nFE = 46",
+      "deltaG = -nFE"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "nFE = 35",
+      "deltaG = -nFE"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "deltaG = -nFE"
+   ]
+  }
+ ]
+}

@@ -34,6 +34,36 @@
      "q": "Construct a real-world problem (Indian context: rupees, items, quantities) that requires scalar multiplication of a matrix and addition of two scaled matrices. Write the problem statement, set up the matrices, and show the computation.",
      "a": "Problem: A stationery shop sells notebooks (₹40), pens (₹10), and erasers (₹5). On Monday, they sold 20 notebooks, 50 pens, 30 erasers. On Tuesday, sales were 15 notebooks, 40 pens, 25 erasers. Represent Monday and Tuesday sales as column matrices M and T. If the shop owner wants to calculate total revenue for 3 Mondays and 2 Tuesdays combined, set up and solve.\nM = \n⎡20⎤\n⎢50⎥\n⎣30⎦\n, T = \n⎡15⎤\n⎢40⎥\n⎣25⎦\nPrice matrix P = [40  10  5] (row matrix).\nRevenue for 3 Mondays = 3(P·M) = 3[40·20 + 10·50 + 5·30] = 3[800+500+150] = 3×1450 = ₹4350.\nRevenue for 2 Tuesdays = 2(P·T) = 2[40·15 + 10·40 + 5·25] = 2[600+400+125] = 2×1125 = ₹2250.\nTotal = ₹6600.\nAlternatively using matrix addition: 3M + 2T = \n⎡60⎤ + \n⎡30⎤ = \n⎡90⎤\n⎢150⎥   ⎢80⎥   ⎢230⎥\n⎣90⎦   ⎣50⎦   ⎣140⎦\nThen P·(3M + 2T) = [40 10 5]·\n⎡90⎤ = 40·90 + 10·230 + 5·140 = 3600+2300+700 = ₹6600.\n⎢230⎥\n⎣140⎦\nA poor answer that only computes one day or forgets to multiply by the scalar shows inability to translate \"3 Mondays\" into 3M.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Scalar ______ of a matrix is the operation of multiplying every element of an m × n matrix A = [aᵢⱼ] by a real number k (called a scalar), producing a new matrix kA = [k·aᵢⱼ] of the same order m × n.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a school canteen ______ tracking daily sales of three items — samosas, sandwiches, and juices — over a week using a 3 × 7 matrix where rows are items and columns are days.",
+     "a": "manager",
+     "self_check": true
+    },
+    {
+     "q": "What is Scalar multiplication of a matrix? State the definition given in this lesson.",
+     "a": "Scalar multiplication of a matrix is the operation of multiplying every element of an m × n matrix A = [aᵢⱼ] by a real number k (called a scalar), producing a new matrix kA = [k·aᵢⱼ] of the same order m × n.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If the manager wants to project sales for a festival week where demand doubles, they simply multiply every entry by ______.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Scalar multiplication of a matrix?",
+     "a": "Students confuse scalar multiplication kA with matrix multiplication A × B.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) compute scalar multiplication of matrices of any order correctly, showing element-wise multiplication; (2) apply the distributive properties k(A + B) = kA + kB and (k + l)A = kA + lA to simplify expressions; (3) compute expressions like 3A - 2B by first finding 3A and 2B separately then subtracting; (4).",
+     "self_check": true
     }
    ]
   }

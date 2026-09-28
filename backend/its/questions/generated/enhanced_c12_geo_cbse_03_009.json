@@ -34,6 +34,26 @@
      "q": "Design a one-page policy brief for a Medium HDI country (HDI 0.62) aiming to reach High HDI (>0.700) within 10 years. Specify: (a) which HDI component to prioritise, (b) two governance reforms, (c) one fiscal redistribution measure, and (d) a monitoring indicator beyond HDI.",
      "a": "Expected criteria for a strong answer:\n(a) Prioritise *education* (mean/expected years schooling) — it has multiplier effects on health, fertility, and future income; or *health* if life expectancy < 65.\n(b) Governance reforms: (i) Decentralise health/education delivery to local bodies (panchayats/municipalities) with untied funds; (ii) Implement social audits for welfare schemes to reduce leakage.\n(c) Fiscal measure: Shift 1.5–2% GDP from defence/subsidies to universal primary healthcare and secondary education — financed by progressive taxation.\n(d) Monitoring indicator: *Inequality-adjusted HDI (IHDI)* or *Multidimensional Poverty Index (MPI)* — captures distribution, not just averages.\nA poor answer focusing only on \"GDP growth\" or \"building hospitals\" without governance/equity measures reveals a welfare-approach mindset, missing the capability/empowerment pillars.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ comparisons of human development involve analyzing and ranking countries based on their Human Development Index (HDI) scores — a composite measure of life expectancy, education (mean and expected years of schooling), and per capita income (PPP $) — to identify global patterns, regional disparities, and the disconnect between economic size and human well-being.",
+     "a": "International",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: \"Look at the 2025 HDI ______ — Norway (0.966) ranks #2 while India (0.685) ranks #130, yet India's economy is 10x larger than Norway's.",
+     "a": "rankings",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) interpret HDI rankings and classify countries into the four HDI categories (Very High, High, Medium, Low) using current threshold values; (2) explain why per capita income and territorial size are poor predictors of human development outcomes, citing at least two international and one intra-national (Indian) example.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world ______: \"Look at the 2025 HDI rankings — Norway (0.966) ranks #2 while India (0.685) ranks #130, yet India's economy is 10x larger than Norway's.",
+     "a": "observation",
+     "self_check": true
     }
    ]
   }

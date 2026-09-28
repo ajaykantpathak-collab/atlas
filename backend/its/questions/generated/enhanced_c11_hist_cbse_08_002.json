@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_hist_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c11_hist_cbse_08_002",
+   "title": "c11_hist_cbse_08_002",
+   "questions": [
+    {
+     "q": "In which year did the US Supreme Court rule in *Worcester v. Georgia* that the Cherokee Nation was a \"distinct community\" with self-government rights, and how did President Andrew Jackson respond?",
+     "a": "The ruling was in 1832. Chief Justice John Marshall held that Georgia state laws had no force in Cherokee territory. President Jackson refused to enforce the ruling, famously saying, \"John Marshall has made his decision; now let him enforce it,\" and proceeded with the forced removal of the Cherokee (Trail of Tears, 1838).\n**Wrong answer reveals:** If a student says Jackson enforced the ruling, they confuse judicial authority with executive action — a fundamental misunderstanding of US federalism and the limits of court power without enforcement.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the concept of \"terra nullius\" (land belonging to no one) NOT apply legally in North America the way it did in Australia, and what legal fiction was used instead?",
+     "a": "In North America, the British and later US governments recognised Native tribes as sovereign nations capable of signing treaties — so the land was not \"empty.\" Instead, the **Doctrine of Discovery** (formalised in *Johnson v. M'Intosh*, 1823) was used: it held that European \"discovery\" gave the discovering nation the exclusive right to extinguish Native title by purchase or conquest, denying Natives the right to sell land to anyone else.\n**Wrong answer reveals:** If a student says terra nullius was used in America, they are conflating Australian and American legal histories — a common error because both justified displacement, but through different legal mechanisms.",
+     "self_check": true
+    },
+    {
+     "q": "The 1887 Dawes Act (General Allotment Act) aimed to \"civilise\" Native Americans by dividing communal reservation land into individual 160-acre plots. What was the actual outcome for Native landholding between 1887 and 1934?",
+     "a": "Native-held land plummeted from ~138 million acres (1887) to ~48 million acres (1934) — a loss of 90 million acres (65%). \"Surplus\" land after allotment was sold to white settlers; many Natives lost their allotments through tax default, fraud, or forced sales. The policy destroyed the communal land base essential to tribal cultures.\n**Wrong answer reveals:** If a student says the Dawes Act helped Natives become successful farmers, they have accepted the stated *intent* of the policy without analysing its *actual effect* — a classic confusion of rhetoric and reality in colonial policy.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Metis resistance in Canada (Red River Rebellion, 1869–70; Northwest Rebellion, 1885) with the Sioux resistance in the USA (e.g., Battle of Little Bighorn, 1876). What key difference in colonial structure shaped their outcomes?",
+     "a": "The Metis (mixed French-Cree/Scottish ancestry) negotiated **provincehood for Manitoba (1870)** with land and language rights, leveraging Canada's need to assert sovereignty against US expansion. The Sioux faced a **unified US Army** after the Civil War (1865) with no diplomatic pathway — the US treated tribes as \"domestic dependent nations\" (*Cherokee Nation v. Georgia*, 1831), not negotiating partners. Louis Riel was executed (1885); Sitting Bull fled to Canada, then surrendered.\n**Wrong answer reveals:** If a student treats both as identical \"Indian wars,\" they miss how Canada's federal structure and British legal legacy created limited negotiation space absent in the US — a comparative history skill gap.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The near-extermination of the bison (buffalo) by the 1880s was an ecological side-effect of settlement, not a deliberate policy.\"",
+     "a": "**False.** It was deliberate. US Army officers (e.g., General Sheridan) explicitly encouraged hide hunters: \"Kill every buffalo you can! Every buffalo dead is an Indian gone.\" The bison was the economic and spiritual foundation of Plains tribes (Lakota, Cheyenne, Comanche). Its destruction forced dependence on government rations and reservation life. By 1889, <1,000 bison remained from 30–60 million.\n**Wrong answer reveals:** If a student calls it an \"unintended consequence,\" they fail to recognise **environmental warfare** as a tool of colonial control — a pattern also seen in the destruction of Indian handicrafts (Class 8, c8_hist_ch3_9) where economic targeting served political ends.",
+     "self_check": true
+    },
+    {
+     "q": "Construct a timeline (1763–1892) showing FIVE key turning points where Native American sovereignty was legally or militarily eroded. For each, name the event, year, and the mechanism (treaty, court case, law, or war).",
+     "a": "**Expected criteria:** Accurate dates, correct mechanism, clear sovereignty impact. Example:\n1. 1763: Royal Proclamation — British Crown recognises Native land rights west of Appalachians (treaty/law).\n2. 1823: *Johnson v. M'Intosh* — Doctrine of Discovery limits Native title to \"occupancy only\" (court case).\n3. 1830: Indian Removal Act — Authorises forced relocation east of Mississippi (law).\n4. 1868: Fort Laramie Treaty — Guarantees Black Hills to Lakota; violated after gold discovery (treaty broken).\n5. 1887: Dawes Act — Dissolves communal land base (law).\n6. 1890: Wounded Knee Massacre / 1892: Census declares \"frontier closed\" (war/symbolic endpoint).\n**Poor answer reveals:** Listing battles only (e.g., Little Bighorn) without legal/policy mechanisms shows a \"great man/event\" view of history, missing structural colonialism.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

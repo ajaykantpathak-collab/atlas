@@ -34,6 +34,26 @@
      "q": "Create a word problem that requires using the identity \\( ^nC_r + ^nC_{r-1} = ^{n+1}C_r \\) to simplify the calculation. The problem must have a real-world context (e.g., sports, school, shopping) and involve a constraint that naturally splits into two cases whose sum matches the identity.",
      "a": "Example: \"A basketball squad of 12 players includes 2 captains. A team of 5 is to be chosen such that exactly one captain is included. In how many ways?\" \nCase 1: Captain A included, Captain B excluded ⇒ choose 4 from remaining 10: \\( ^{10}C_4 \\).\nCase 2: Captain B included, Captain A excluded ⇒ choose 4 from remaining 10: \\( ^{10}C_4 \\).\nTotal = \\( 2 \\times ^{10}C_4 \\). This does NOT directly use the identity. \nBetter problem: \"From 10 students, a team of 4 is to be selected. Two particular students, A and B, refuse to be together. How many teams?\" \nTotal = \\( ^{10}C_4 \\). Teams with both A and B = \\( ^8C_2 \\). Answer = \\( ^{10}C_4 - ^8C_2 \\). \nUsing identity: \\( ^{10}C_4 = ^9C_4 + ^9C_3 \\), and \\( ^8C_2 = ^9C_3 - ^8C_3 \\)... \nA good student-created problem: \"A pizza place offers 10 toppings. A customer wants a pizza with 4 toppings but insists that if topping A is chosen, topping B must also be chosen. How many choices?\" \nCase 1: Neither A nor B chosen ⇒ choose 4 from 8: \\( ^8C_4 \\).\nCase 2: Both A and B chosen ⇒ choose 2 from remaining 8: \\( ^8C_2 \\).\nTotal = \\( ^8C_4 + ^8C_2 \\). This doesn't directly use the identity either. \nIdeal problem using identity: \"In how many ways can a committee of 5 be formed from 11 people if two particular persons must either both be included or both excluded?\" \nCase 1: Both included ⇒ choose 3 from remaining 9: \\( ^9C_3 \\).\nCase 2: Both excluded ⇒ choose 5 from remaining 9: \\( ^9C_5 \\).\nTotal = \\( ^9C_3 + ^9C_5 = ^9C_3 + ^9C_4 = ^{10}C_4 \\) (using \\( ^nC_r = ^nC_{n-r} \\) and identity). \nA poor answer creates a problem without a natural case split matching the identity, or uses permutations instead.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: These problems involve selecting committees, teams, or groups from a larger set, often with ______ such as \"at least,\" \"at most,\" \"exactly,\" or conditional selections.",
+     "a": "constraints",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school is forming a 5-member student council from 12 ______ — 7 girls and 5 boys.",
+     "a": "volunteers",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The principal insists the council must have at least ______ girls.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently read a word problem, identify it as a combination (not permutation) situation, correctly set up the combination expressions for all cases including \"at least\" and \"at most\" constraints, compute the values using factorial simplification, and interpret the final answer in the context of the problem.",
+     "self_check": true
     }
    ]
   }

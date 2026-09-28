@@ -24,12 +24,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "start from bulk matter",
-     "explain": "Every object is built from its tiny particles."},
-    {"step": 2, "action": "reach the molecule and atom",
-     "explain": "Molecules break into atoms, the chemical building blocks."},
-    {"step": 3, "action": "prepare for the interior",
-     "explain": "Atoms themselves hold smaller particles inside."}
+    {
+     "step": 1,
+     "action": "start from bulk matter",
+     "explain": "Every object is built from its tiny particles."
+    },
+    {
+     "step": 2,
+     "action": "reach the molecule and atom",
+     "explain": "Molecules break into atoms, the chemical building blocks."
+    },
+    {
+     "step": 3,
+     "action": "prepare for the interior",
+     "explain": "Atoms themselves hold smaller particles inside."
+    }
    ]
   },
   {
@@ -50,12 +59,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "list the particles",
-     "explain": "Electron, proton, neutron with charges -1, +1 and 0."},
-    {"step": 2, "action": "place them",
-     "explain": "Protons and neutrons form the nucleus; electrons orbit the space around."},
-    {"step": 3, "action": "balance the charges",
-     "explain": "Equal numbers of electrons and protons keep the atom neutral."}
+    {
+     "step": 1,
+     "action": "list the particles",
+     "explain": "Electron, proton, neutron with charges -1, +1 and 0."
+    },
+    {
+     "step": 2,
+     "action": "place them",
+     "explain": "Protons and neutrons form the nucleus; electrons orbit the space around."
+    },
+    {
+     "step": 3,
+     "action": "balance the charges",
+     "explain": "Equal numbers of electrons and protons keep the atom neutral."
+    }
    ]
   },
   {
@@ -76,12 +94,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "state each model",
-     "explain": "Note what each scientist proposed and why."},
-    {"step": 2, "action": "match model to experiment",
-     "explain": "Gold foil observations support a central nucleus."},
-    {"step": 3, "action": "trace the evolution",
-     "explain": "Each model fixed the previous one's drawback."}
+    {
+     "step": 1,
+     "action": "state each model",
+     "explain": "Note what each scientist proposed and why."
+    },
+    {
+     "step": 2,
+     "action": "match model to experiment",
+     "explain": "Gold foil observations support a central nucleus."
+    },
+    {
+     "step": 3,
+     "action": "trace the evolution",
+     "explain": "Each model fixed the previous one's drawback."
+    }
    ]
   },
   {
@@ -100,15 +127,33 @@
     "find the valence electrons of the given element from its arrangement",
     "distribute the given number of electrons in shells"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "fill the K shell",
-     "explain": "The first shell holds at most 2 electrons."},
-    {"step": 2, "action": "fill the next shells",
-     "explain": "Use the 2 n squared capacity, starting outward only after inner shells fill."},
-    {"step": 3, "action": "read the outermost shell",
-     "explain": "Its electron count gives the valency behaviour."}
-   ]
+    {
+     "step": 1,
+     "action": "fill the K shell",
+     "explain": "The first shell holds at most 2 electrons."
+    },
+    {
+     "step": 2,
+     "action": "fill the next shells",
+     "explain": "Use the 2 n squared capacity, starting outward only after inner shells fill."
+    },
+    {
+     "step": 3,
+     "action": "read the outermost shell",
+     "explain": "Its electron count gives the valency behaviour."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "shell_capacity = 2 * n * n",
+     "compute": "shell_capacity = 2 * n * n"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [],
@@ -117,9 +162,9 @@
    "id": "ex8.1",
    "source_ref": "iesc108.txt exercises",
    "questions": [
-     "Compare the three subatomic particles in a table.",
-     "Explain the observations of the gold foil experiment.",
-     "Write electron arrangements of the first twenty elements."
+    "Compare the three subatomic particles in a table.",
+    "Explain the observations of the gold foil experiment.",
+    "Write electron arrangements of the first twenty elements."
    ]
   }
  ]

@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using only a metre scale, a stopwatch, and a ball to determine the value of acceleration due to gravity (g). List the quantities you would measure, their SI units, and the formula you would use. Explain how you would express g in SI base units.",
      "a": "Measure height of fall h (metre, m) and time of fall t (second, s). Use formula h = ½ g t² → g = 2h/t². SI base units of g: [g] = [L]/[T]² = m/s². A poor answer (e.g., measuring mass of ball, using cm and minutes without conversion, or giving g = h/t) reveals misunderstanding of the physical relation, unit consistency, or the role of base units in derived quantities.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the process of comparing a physical quantity with a chosen standard called a unit.",
+     "a": "Measurement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at the ceiling fan in your classroom — its blades rotate at a certain ______.",
+     "a": "speed",
+     "self_check": true
+    },
+    {
+     "q": "What is Measurement? State the definition given in this lesson.",
+     "a": "Measurement is the process of comparing a physical quantity with a chosen standard called a unit.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Measurement?",
+     "a": "Students often think \"unit\" and \"physical quantity\" are interchangeable — e.g., they say \"the force is 10 newton\" but write \"force = 10 N\" as if N is the quantity.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why a measurement is incomplete without a unit, classify a given physical quantity as fundamental or derived, and express the unit of a derived quantity (e.g., force, energy) in terms of the seven SI base units.",
+     "self_check": true
     }
    ]
   }

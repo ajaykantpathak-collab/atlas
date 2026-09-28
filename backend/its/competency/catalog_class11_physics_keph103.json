@@ -1,218 +1,373 @@
 {
-  "class": 11,
-  "subject": "physics",
-  "chapter": 103,
-  "chapter_title": "Motion in a Plane",
-  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keph103.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "concepts": [
+ "class": 11,
+ "subject": "physics",
+ "chapter": 103,
+ "chapter_title": "Motion in a Plane",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keph103.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "keph103.3.2.1",
+   "title": "Scalars, Vectors and Their Addition",
+   "section": "3.2, 3.4",
+   "definition": "A scalar carries only magnitude, while a vector carries magnitude and direction and obeys triangle (or parallelogram) law addition: place vectors head to tail and the closing side from start to finish is the resultant. Two vectors add to zero only when they are equal in size and opposite in direction.",
+   "formula": "",
+   "key_idea": "Vectors add geometrically, not arithmetically -- direction is part of the quantity.",
+   "textbook_ref": "keph103.txt lines 40-160 (sections 3.2 scalars and vectors, 3.3 multiplication by real numbers, 3.4 addition and subtraction, triangle and parallelogram laws)",
+   "question_patterns": [
+    "find the resultant of two vectors using the triangle law",
+    "in class 11 motion in a plane: when does the sum of two vectors equal zero",
+    "distinguish a scalar from a vector with examples",
+    "state the parallelogram law of vector addition",
+    "what is the resultant of equal vectors pointing opposite ways",
+    "how does multiplying a vector by a negative number change it"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
     {
-      "id": "keph103.3.2.1",
-      "title": "Scalars, Vectors and Their Addition",
-      "section": "3.2, 3.4",
-      "definition": "A scalar carries only magnitude, while a vector carries magnitude and direction and obeys triangle (or parallelogram) law addition: place vectors head to tail and the closing side from start to finish is the resultant. Two vectors add to zero only when they are equal in size and opposite in direction.",
-      "formula": "",
-      "key_idea": "Vectors add geometrically, not arithmetically -- direction is part of the quantity.",
-      "textbook_ref": "keph103.txt lines 40-160 (sections 3.2 scalars and vectors, 3.3 multiplication by real numbers, 3.4 addition and subtraction, triangle and parallelogram laws)",
-      "question_patterns": [
-        "find the resultant of two vectors using the triangle law",
-        "in class 11 motion in a plane: when does the sum of two vectors equal zero",
-        "distinguish a scalar from a vector with examples",
-        "state the parallelogram law of vector addition",
-        "what is the resultant of equal vectors pointing opposite ways",
-        "how does multiplying a vector by a negative number change it"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "place head to tail", "explain": "Draw the first vector, then start the second where the first ends; the order does not matter."},
-        {"step": 2, "action": "close the triangle", "explain": "The vector from the free tail to the free head is the resultant sum."},
-        {"step": 3, "action": "check the zero case", "explain": "If the two vectors are opposite and equal, the triangle closes on itself and the resultant is the null vector."}
-      ]
+     "step": 1,
+     "action": "place head to tail",
+     "explain": "Draw the first vector, then start the second where the first ends; the order does not matter."
     },
     {
-      "id": "keph103.3.5.1",
-      "title": "Resolution into Components and Vector Magnitude",
-      "section": "3.5",
-      "definition": "Any plane vector can be split into two perpendicular pieces: an x-component and a y-component whose vector sum rebuilds the original. Conversely the magnitude of a vector comes from its components through the Pythagorean relation, the square root of x squared plus y squared.",
-      "formula": "magnitude = sqrt(comp_x ** 2 + comp_y ** 2)",
-      "key_idea": "Split along the axes, do arithmetic on each axis separately, then reassemble by Pythagoras.",
-      "textbook_ref": "keph103.txt lines 161-240 (section 3.5 resolution of vectors, unit vectors i j k, components along axes)",
-      "question_patterns": [
-        "find the magnitude of the vector with given x and y components",
-        "in class 11 motion in a plane: resolve the given vector along the coordinate axes",
-        "a vector has components 3 and 4, what is its length",
-        "state the role of unit vectors in writing components",
-        "reconstruct the vector from its two perpendicular components",
-        "what angle does the vector make with the x-axis given its components"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "square the components", "explain": "Each component is squared in preparation for the Pythagorean sum.",
-         "compute": "comp_sq = comp_x ** 2 + comp_y ** 2"},
-        {"step": 2, "action": "take the square root", "explain": "The root of the summed squares is the vector's magnitude.",
-         "compute": "magnitude = sqrt(comp_sq)"}
-      ]
+     "step": 2,
+     "action": "close the triangle",
+     "explain": "The vector from the free tail to the free head is the resultant sum."
     },
     {
-      "id": "keph103.3.8.1",
-      "title": "Motion in a Plane with Constant Acceleration",
-      "section": "3.8",
-      "definition": "Plane motion with constant acceleration behaves like two independent straight-line motions running side by side -- one per axis. Each coordinate follows the one-dimensional constant-acceleration equations with its own component of initial velocity and the shared acceleration vector.",
-      "formula": "",
-      "key_idea": "Horizontal and vertical are separate films played at once -- constant acceleration never mixes the axes.",
-      "textbook_ref": "keph103.txt lines 241-320 (section 3.8 motion in a plane with constant acceleration, analogy with 1D motion, component equations)",
-      "question_patterns": [
-        "explain why two dimensional motion splits into independent axis motions",
-        "in class 11 motion in a plane: write the component form of the position vector with constant acceleration",
-        "find the velocity components after the given time",
-        "the acceleration has components in both axes, describe the path",
-        "when is the path of a constant acceleration motion a straight line",
-        "combine the axis results to get the resultant velocity"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "resolve every vector", "explain": "Write position, velocity and acceleration through their x and y components."},
-        {"step": 2, "action": "apply 1D equations per axis", "explain": "Each axis independently obeys the constant-acceleration relations, using that axis's components."},
-        {"step": 3, "action": "recombine", "explain": "The plane motion is the vector sum of the two axis solutions; the path can curve even while acceleration is constant."}
-      ]
-    },
-    {
-      "id": "keph103.3.9.1",
-      "title": "Projectile Motion: Range and Time of Flight",
-      "section": "3.9",
-      "definition": "A projectile launched over level ground carries a steady horizontal component and a vertical component fighting gravity. The flight time comes from the vertical component alone, and multiplying it by the horizontal component gives the horizontal range; the highest point is reached when the vertical component dies to zero.",
-      "formula": "flight_time = 2 * v_comp / gravity",
-      "key_idea": "Vertical motion sets the clock; horizontal motion sets the distance -- gravity reads only the vertical film.",
-      "textbook_ref": "keph103.txt lines 321-420 (section 3.9 projectile motion, equation of path, time of flight, maximum height, horizontal range)",
-      "question_patterns": [
-        "find the time of flight of a projectile launched with the given components",
-        "in class 11 motion in a plane: derive the horizontal range of a projectile",
-        "at what point of the flight is the projectile's velocity purely horizontal",
-        "the launch components are given, calculate the maximum height reached",
-        "show that the projectile path is a parabola",
-        "two launch angles give the same range, which are they"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "time the vertical film", "explain": "The vertical component spends itself against gravity twice -- rising then falling -- so flight time is twice the vertical component over gravity.",
-         "compute": "flight_time = 2 * v_comp / gravity"},
-        {"step": 2, "action": "run the horizontal film", "explain": "The horizontal component rides for the whole flight time, covering the range.",
-         "compute": "range = h_comp * flight_time"}
-      ]
-    },
-    {
-      "id": "keph103.3.10.1",
-      "title": "Uniform Circular Motion and Centripetal Acceleration",
-      "section": "3.10",
-      "definition": "A body sweeping a circle at constant speed still accelerates, because its direction keeps turning: the acceleration points to the centre and has size speed squared over radius. Angular velocity, the rate of turning measured in radians per second, ties the linear speed to the circle size through speed = radius times angular velocity.",
-      "formula": "centripetal = speed ** 2 / radius",
-      "key_idea": "Constant speed on a circle is accelerated motion -- the pull toward the centre bends the velocity without changing its size.",
-      "textbook_ref": "keph103.txt lines 421-500 (section 3.10 uniform circular motion, angular velocity, centripetal acceleration v^2/R)",
-      "question_patterns": [
-        "find the centripetal acceleration of a body in uniform circular motion",
-        "in class 11 motion in a plane: why is uniform circular motion called accelerated motion",
-        "relate linear speed to angular velocity and radius",
-        "the speed and radius are given, calculate the centre-pointing acceleration",
-        "what supplies the centripetal force in the given situation",
-        "how does the acceleration change when the speed doubles on the same circle"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "square the speed", "explain": "The acceleration grows with the square of the tangential speed.",
-         "compute": "speed_sq = speed ** 2"},
-        {"step": 2, "action": "divide by the radius", "explain": "Dividing by the circle's radius gives the centre-directed acceleration.",
-         "compute": "centripetal = speed_sq / radius"}
-      ]
+     "step": 3,
+     "action": "check the zero case",
+     "explain": "If the two vectors are opposite and equal, the triangle closes on itself and the resultant is the null vector."
     }
-  ],
-  "worked_examples": [
+   ]
+  },
+  {
+   "id": "keph103.3.5.1",
+   "title": "Resolution into Components and Vector Magnitude",
+   "section": "3.5",
+   "definition": "Any plane vector can be split into two perpendicular pieces: an x-component and a y-component whose vector sum rebuilds the original. Conversely the magnitude of a vector comes from its components through the Pythagorean relation, the square root of x squared plus y squared.",
+   "formula": "magnitude = sqrt(comp_x ** 2 + comp_y ** 2)",
+   "key_idea": "Split along the axes, do arithmetic on each axis separately, then reassemble by Pythagoras.",
+   "textbook_ref": "keph103.txt lines 161-240 (section 3.5 resolution of vectors, unit vectors i j k, components along axes)",
+   "question_patterns": [
+    "find the magnitude of the vector with given x and y components",
+    "in class 11 motion in a plane: resolve the given vector along the coordinate axes",
+    "a vector has components 3 and 4, what is its length",
+    "state the role of unit vectors in writing components",
+    "reconstruct the vector from its two perpendicular components",
+    "what angle does the vector make with the x-axis given its components"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "id": "we1",
-      "source_ref": "keph103.txt lines 161-240 (resolution of vectors)",
-      "concept": "keph103.3.5.1",
-      "question_type": "compute",
-      "question_pattern": "A vector has components {comp_x} and {comp_y}; find its magnitude.",
-      "extracted_variables": {"comp_x": 3, "comp_y": 4},
-      "solution_template": [
-        {"step": 1, "action": "square the components", "explain": "comp_sq = 9 + 16 = 25.", "compute": "comp_sq = comp_x ** 2 + comp_y ** 2"},
-        {"step": 2, "action": "take the square root", "explain": "magnitude = sqrt(25) = 5.", "compute": "magnitude = sqrt(comp_sq)"}
-      ]
+     "step": 1,
+     "action": "square the components",
+     "explain": "Each component is squared in preparation for the Pythagorean sum.",
+     "compute": "comp_sq = comp_x ** 2 + comp_y ** 2"
     },
     {
-      "id": "we2",
-      "source_ref": "keph103.txt lines 161-240 (resolution of vectors)",
-      "concept": "keph103.3.5.1",
-      "question_type": "compute",
-      "question_pattern": "Given the axis pieces {comp_x} and {comp_y}, compute the length of the vector.",
-      "extracted_variables": {"comp_x": 6, "comp_y": 8},
-      "solution_template": [
-        {"step": 1, "action": "square the components", "explain": "comp_sq = 36 + 64 = 100.", "compute": "comp_sq = comp_x ** 2 + comp_y ** 2"},
-        {"step": 2, "action": "take the square root", "explain": "magnitude = sqrt(100) = 10.", "compute": "magnitude = sqrt(comp_sq)"}
-      ]
-    },
-    {
-      "id": "we3",
-      "source_ref": "keph103.txt lines 321-420 (projectile motion)",
-      "concept": "keph103.3.9.1",
-      "question_type": "compute",
-      "question_pattern": "A ball is launched with horizontal component {h_comp} and vertical component {v_comp} (g = {gravity}); find its time of flight and horizontal range.",
-      "extracted_variables": {"h_comp": 15, "v_comp": 20, "gravity": 10},
-      "solution_template": [
-        {"step": 1, "action": "time the vertical film", "explain": "flight_time = 2 * 20 / 10 = 4 s.", "compute": "flight_time = 2 * v_comp / gravity"},
-        {"step": 2, "action": "run the horizontal film", "explain": "range = 15 * 4 = 60 m.", "compute": "range = h_comp * flight_time"}
-      ]
-    },
-    {
-      "id": "we4",
-      "source_ref": "keph103.txt lines 321-420 (projectile motion)",
-      "concept": "keph103.3.9.1",
-      "question_type": "compute",
-      "question_pattern": "For launch components {h_comp} and {v_comp} with g = {gravity}, compute how long the projectile stays up and how far it lands.",
-      "extracted_variables": {"h_comp": 30, "v_comp": 10, "gravity": 10},
-      "solution_template": [
-        {"step": 1, "action": "time the vertical film", "explain": "flight_time = 2 * 10 / 10 = 2 s.", "compute": "flight_time = 2 * v_comp / gravity"},
-        {"step": 2, "action": "run the horizontal film", "explain": "range = 30 * 2 = 60 m.", "compute": "range = h_comp * flight_time"}
-      ]
-    },
-    {
-      "id": "we5",
-      "source_ref": "keph103.txt lines 421-500 (uniform circular motion)",
-      "concept": "keph103.3.10.1",
-      "question_type": "compute",
-      "question_pattern": "A body moves at {speed} on a circle of radius {radius}; find its centripetal acceleration.",
-      "extracted_variables": {"speed": 10, "radius": 50},
-      "solution_template": [
-        {"step": 1, "action": "square the speed", "explain": "speed_sq = 100.", "compute": "speed_sq = speed ** 2"},
-        {"step": 2, "action": "divide by the radius", "explain": "centripetal = 100 / 50 = 2 m/s^2.", "compute": "centripetal = speed_sq / radius"}
-      ]
-    },
-    {
-      "id": "we6",
-      "source_ref": "keph103.txt lines 421-500 (uniform circular motion)",
-      "concept": "keph103.3.10.1",
-      "question_type": "compute",
-      "question_pattern": "With tangential speed {speed} and circle radius {radius}, compute the centre-pointing acceleration.",
-      "extracted_variables": {"speed": 4, "radius": 2},
-      "solution_template": [
-        {"step": 1, "action": "square the speed", "explain": "speed_sq = 16.", "compute": "speed_sq = speed ** 2"},
-        {"step": 2, "action": "divide by the radius", "explain": "centripetal = 16 / 2 = 8 m/s^2.", "compute": "centripetal = speed_sq / radius"}
-      ]
+     "step": 2,
+     "action": "take the square root",
+     "explain": "The root of the summed squares is the vector's magnitude.",
+     "compute": "magnitude = sqrt(comp_sq)"
     }
-  ],
-  "exercises": [
+   ],
+   "compute_steps": [
     {
-      "id": "ex1",
-      "source_ref": "keph103.txt end-of-chapter exercises, reworded",
-      "questions": [
-        "State with reasons whether the given physical quantity is a scalar or a vector.",
-        "Find the components of a vector of given magnitude along two perpendicular directions.",
-        "A cyclist starts from centre O of a park and returns after a round trip; find displacement and path length.",
-        "For a projectile launched at a given angle and speed, find the maximum height and range.",
-        "A fighter plane releases a bomb while flying level; where does it land?",
-        "Rain falls vertically but a moving man sees slanted drops; explain with relative velocity.",
-        "An aircraft executes a horizontal loop at given speed; find the ratio of centripetal acceleration to g.",
-        "Show that the maximum range of a projectile occurs at 45 degrees."
-      ]
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "magnitude = sqrt(comp_x ** 2 + comp_y ** 2)",
+     "compute": "magnitude = sqrt(comp_x ** 2 + comp_y ** 2)"
     }
-  ]
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "keph103.3.8.1",
+   "title": "Motion in a Plane with Constant Acceleration",
+   "section": "3.8",
+   "definition": "Plane motion with constant acceleration behaves like two independent straight-line motions running side by side -- one per axis. Each coordinate follows the one-dimensional constant-acceleration equations with its own component of initial velocity and the shared acceleration vector.",
+   "formula": "",
+   "key_idea": "Horizontal and vertical are separate films played at once -- constant acceleration never mixes the axes.",
+   "textbook_ref": "keph103.txt lines 241-320 (section 3.8 motion in a plane with constant acceleration, analogy with 1D motion, component equations)",
+   "question_patterns": [
+    "explain why two dimensional motion splits into independent axis motions",
+    "in class 11 motion in a plane: write the component form of the position vector with constant acceleration",
+    "find the velocity components after the given time",
+    "the acceleration has components in both axes, describe the path",
+    "when is the path of a constant acceleration motion a straight line",
+    "combine the axis results to get the resultant velocity"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "resolve every vector",
+     "explain": "Write position, velocity and acceleration through their x and y components."
+    },
+    {
+     "step": 2,
+     "action": "apply 1D equations per axis",
+     "explain": "Each axis independently obeys the constant-acceleration relations, using that axis's components."
+    },
+    {
+     "step": 3,
+     "action": "recombine",
+     "explain": "The plane motion is the vector sum of the two axis solutions; the path can curve even while acceleration is constant."
+    }
+   ]
+  },
+  {
+   "id": "keph103.3.9.1",
+   "title": "Projectile Motion: Range and Time of Flight",
+   "section": "3.9",
+   "definition": "A projectile launched over level ground carries a steady horizontal component and a vertical component fighting gravity. The flight time comes from the vertical component alone, and multiplying it by the horizontal component gives the horizontal range; the highest point is reached when the vertical component dies to zero.",
+   "formula": "flight_time = 2 * v_comp / gravity",
+   "key_idea": "Vertical motion sets the clock; horizontal motion sets the distance -- gravity reads only the vertical film.",
+   "textbook_ref": "keph103.txt lines 321-420 (section 3.9 projectile motion, equation of path, time of flight, maximum height, horizontal range)",
+   "question_patterns": [
+    "find the time of flight of a projectile launched with the given components",
+    "in class 11 motion in a plane: derive the horizontal range of a projectile",
+    "at what point of the flight is the projectile's velocity purely horizontal",
+    "the launch components are given, calculate the maximum height reached",
+    "show that the projectile path is a parabola",
+    "two launch angles give the same range, which are they"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "time the vertical film",
+     "explain": "The vertical component spends itself against gravity twice -- rising then falling -- so flight time is twice the vertical component over gravity.",
+     "compute": "flight_time = 2 * v_comp / gravity"
+    },
+    {
+     "step": 2,
+     "action": "run the horizontal film",
+     "explain": "The horizontal component rides for the whole flight time, covering the range.",
+     "compute": "range = h_comp * flight_time"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "flight_time = 2 * v_comp / gravity",
+     "compute": "flight_time = 2 * v_comp / gravity"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "keph103.3.10.1",
+   "title": "Uniform Circular Motion and Centripetal Acceleration",
+   "section": "3.10",
+   "definition": "A body sweeping a circle at constant speed still accelerates, because its direction keeps turning: the acceleration points to the centre and has size speed squared over radius. Angular velocity, the rate of turning measured in radians per second, ties the linear speed to the circle size through speed = radius times angular velocity.",
+   "formula": "centripetal = speed ** 2 / radius",
+   "key_idea": "Constant speed on a circle is accelerated motion -- the pull toward the centre bends the velocity without changing its size.",
+   "textbook_ref": "keph103.txt lines 421-500 (section 3.10 uniform circular motion, angular velocity, centripetal acceleration v^2/R)",
+   "question_patterns": [
+    "find the centripetal acceleration of a body in uniform circular motion",
+    "in class 11 motion in a plane: why is uniform circular motion called accelerated motion",
+    "relate linear speed to angular velocity and radius",
+    "the speed and radius are given, calculate the centre-pointing acceleration",
+    "what supplies the centripetal force in the given situation",
+    "how does the acceleration change when the speed doubles on the same circle"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "square the speed",
+     "explain": "The acceleration grows with the square of the tangential speed.",
+     "compute": "speed_sq = speed ** 2"
+    },
+    {
+     "step": 2,
+     "action": "divide by the radius",
+     "explain": "Dividing by the circle's radius gives the centre-directed acceleration.",
+     "compute": "centripetal = speed_sq / radius"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "centripetal = speed ** 2 / radius",
+     "compute": "centripetal = speed ** 2 / radius"
+    }
+   ],
+   "converted_to_compute": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "keph103.txt lines 161-240 (resolution of vectors)",
+   "concept": "keph103.3.5.1",
+   "question_type": "compute",
+   "question_pattern": "A vector has components {comp_x} and {comp_y}; find its magnitude.",
+   "extracted_variables": {
+    "comp_x": 3,
+    "comp_y": 4
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the components",
+     "explain": "comp_sq = 9 + 16 = 25.",
+     "compute": "comp_sq = comp_x ** 2 + comp_y ** 2"
+    },
+    {
+     "step": 2,
+     "action": "take the square root",
+     "explain": "magnitude = sqrt(25) = 5.",
+     "compute": "magnitude = sqrt(comp_sq)"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "keph103.txt lines 161-240 (resolution of vectors)",
+   "concept": "keph103.3.5.1",
+   "question_type": "compute",
+   "question_pattern": "Given the axis pieces {comp_x} and {comp_y}, compute the length of the vector.",
+   "extracted_variables": {
+    "comp_x": 6,
+    "comp_y": 8
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the components",
+     "explain": "comp_sq = 36 + 64 = 100.",
+     "compute": "comp_sq = comp_x ** 2 + comp_y ** 2"
+    },
+    {
+     "step": 2,
+     "action": "take the square root",
+     "explain": "magnitude = sqrt(100) = 10.",
+     "compute": "magnitude = sqrt(comp_sq)"
+    }
+   ]
+  },
+  {
+   "id": "we3",
+   "source_ref": "keph103.txt lines 321-420 (projectile motion)",
+   "concept": "keph103.3.9.1",
+   "question_type": "compute",
+   "question_pattern": "A ball is launched with horizontal component {h_comp} and vertical component {v_comp} (g = {gravity}); find its time of flight and horizontal range.",
+   "extracted_variables": {
+    "h_comp": 15,
+    "v_comp": 20,
+    "gravity": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "time the vertical film",
+     "explain": "flight_time = 2 * 20 / 10 = 4 s.",
+     "compute": "flight_time = 2 * v_comp / gravity"
+    },
+    {
+     "step": 2,
+     "action": "run the horizontal film",
+     "explain": "range = 15 * 4 = 60 m.",
+     "compute": "range = h_comp * flight_time"
+    }
+   ]
+  },
+  {
+   "id": "we4",
+   "source_ref": "keph103.txt lines 321-420 (projectile motion)",
+   "concept": "keph103.3.9.1",
+   "question_type": "compute",
+   "question_pattern": "For launch components {h_comp} and {v_comp} with g = {gravity}, compute how long the projectile stays up and how far it lands.",
+   "extracted_variables": {
+    "h_comp": 30,
+    "v_comp": 10,
+    "gravity": 10
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "time the vertical film",
+     "explain": "flight_time = 2 * 10 / 10 = 2 s.",
+     "compute": "flight_time = 2 * v_comp / gravity"
+    },
+    {
+     "step": 2,
+     "action": "run the horizontal film",
+     "explain": "range = 30 * 2 = 60 m.",
+     "compute": "range = h_comp * flight_time"
+    }
+   ]
+  },
+  {
+   "id": "we5",
+   "source_ref": "keph103.txt lines 421-500 (uniform circular motion)",
+   "concept": "keph103.3.10.1",
+   "question_type": "compute",
+   "question_pattern": "A body moves at {speed} on a circle of radius {radius}; find its centripetal acceleration.",
+   "extracted_variables": {
+    "speed": 10,
+    "radius": 50
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the speed",
+     "explain": "speed_sq = 100.",
+     "compute": "speed_sq = speed ** 2"
+    },
+    {
+     "step": 2,
+     "action": "divide by the radius",
+     "explain": "centripetal = 100 / 50 = 2 m/s^2.",
+     "compute": "centripetal = speed_sq / radius"
+    }
+   ]
+  },
+  {
+   "id": "we6",
+   "source_ref": "keph103.txt lines 421-500 (uniform circular motion)",
+   "concept": "keph103.3.10.1",
+   "question_type": "compute",
+   "question_pattern": "With tangential speed {speed} and circle radius {radius}, compute the centre-pointing acceleration.",
+   "extracted_variables": {
+    "speed": 4,
+    "radius": 2
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "square the speed",
+     "explain": "speed_sq = 16.",
+     "compute": "speed_sq = speed ** 2"
+    },
+    {
+     "step": 2,
+     "action": "divide by the radius",
+     "explain": "centripetal = 16 / 2 = 8 m/s^2.",
+     "compute": "centripetal = speed_sq / radius"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "keph103.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "State with reasons whether the given physical quantity is a scalar or a vector.",
+    "Find the components of a vector of given magnitude along two perpendicular directions.",
+    "A cyclist starts from centre O of a park and returns after a round trip; find displacement and path length.",
+    "For a projectile launched at a given angle and speed, find the maximum height and range.",
+    "A fighter plane releases a bomb while flying level; where does it land?",
+    "Rain falls vertically but a moving man sees slanted drops; explain with relative velocity.",
+    "An aircraft executes a horizontal loop at given speed; find the ratio of centripetal acceleration to g.",
+    "Show that the maximum range of a projectile occurs at 45 degrees."
+   ]
+  }
+ ]
 }

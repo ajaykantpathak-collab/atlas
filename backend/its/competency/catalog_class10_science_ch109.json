@@ -154,7 +154,16 @@
      "action": "interpret sign of power",
      "explain": "A positive power indicates a converging (convex) lens while a negative power indicates a diverging (concave) lens."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "P = 1/f",
+     "compute": "P = 1/f"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

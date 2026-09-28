@@ -34,6 +34,26 @@
      "q": "Design a simple thought experiment using only a cathode ray tube, a variable DC power supply for the deflection plates, and a uniform magnetic field from a permanent magnet, to verify that the e/m ratio does not depend on the gas inside the tube.",
      "a": "Evacuate the tube, fill it with hydrogen at low pressure, measure the null-deflection condition (E, B) and the magnetic-only radius r. Compute e/m = E/(B²r). Repeat with helium, neon, and argon at the same pressure. If the calculated e/m is identical within experimental error for all gases, the ratio is independent of the residual gas. A poor answer would only say \"change the gas and see if the spot moves\" without specifying the quantitative measurement of E, B, and r and the calculation of the ratio.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The charge-to-mass ratio (e/m) of an electron is the quotient of the electron's fundamental charge magnitude (e) divided by its rest mass (mₑ), ______ determined by J.J.",
+     "a": "experimentally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine an old black-and-white television or an oscilloscope in a ______ lab — both contain a cathode ray tube (CRT) where a glowing spot moves across a phosphor screen.",
+     "a": "physics",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) describe Thomson's cathode ray tube apparatus with perpendicular electric and magnetic fields, (2) explain how balancing the two fields yields a straight-line path and allows calculation of e/m, (3) state the accepted value with correct units, and (4) solve numerical problems using the force-balance equation eE = evB.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine an old black-and-white television or an ______ in a physics lab — both contain a cathode ray tube (CRT) where a glowing spot moves across a phosphor screen.",
+     "a": "oscilloscope",
+     "self_check": true
     }
    ]
   }

@@ -61,6 +61,16 @@ async def _optional_user(user=Depends(get_current_user_optional)):
     return user
 
 
+async def _require_staff(user=Depends(get_current_user_optional)):
+    """Teacher-surface guard (B15): anonymous -> 401, non-teacher roles
+    (student/parent) -> 403, teacher/admin -> pass through."""
+    if user is None:
+        raise HTTPException(status.HTTP_401_UNAUTHORIZED, detail="Not authenticated")
+    if str(getattr(user, "role", "") or "").strip().lower() not in ("teacher", "admin"):
+        raise HTTPException(status.HTTP_403_FORBIDDEN, detail="Teacher or admin role required")
+    return user
+
+
 try:
     import services.worksheet_service as wss  # noqa: E402
 
@@ -270,7 +280,7 @@ async def list_classes(
     page: int = Query(1, ge=1),
     pageSize: int = Query(20, ge=1, le=100),
     db: AsyncSession = Depends(get_db),
-    user: Any = Depends(_optional_user),
+    user: Any = Depends(_require_staff),
 ):
     await _ensure_tables(db)
     tid = await _resolve_teacher(db, teacherId, user)
@@ -334,7 +344,7 @@ async def _get_class_or_404(db: AsyncSession, class_id: str) -> TeacherClassMode
 
 
 @router.get("/classes/{class_id}/students")
-async def list_students(class_id: str, db: AsyncSession = Depends(get_db)):
+async def list_students(class_id: str, db: AsyncSession = Depends(get_db), user: Any = Depends(_require_staff)):
     await _ensure_tables(db)
     cls = await _get_class_or_404(db, class_id)
     rows = (
@@ -368,7 +378,7 @@ async def list_students(class_id: str, db: AsyncSession = Depends(get_db)):
 
 
 @router.get("/classes/{class_id}/progress")
-async def class_progress(class_id: str, db: AsyncSession = Depends(get_db)):
+async def class_progress(class_id: str, db: AsyncSession = Depends(get_db), user: Any = Depends(_require_staff)):
     await _ensure_tables(db)
     _require_worksheets()
     cls = await _get_class_or_404(db, class_id)
@@ -413,27 +423,8 @@ async def class_progress(class_id: str, db: AsyncSession = Depends(get_db)):
     scored = [x for x in scored if x is not None]
     avg_score = round(sum(scored) / len(scored), 1) if scored else 0
 
-    # 6-week trend (weekly buckets on submission dates)
-    now = datetime.now(timezone.utc)
-    trend = []
-    for wk in range(5, -1, -1):
-        week_start = (now - timedelta(weeks=wk)).replace(hour=0, minute=0, second=0, microsecond=0)
-        week_start -= timedelta(days=week_start.weekday())
-        week_end = week_start + timedelta(weeks=1)
-        wk_subs = [
-            s
-            for s in submissions
-            if s.submitted_at and week_start <= s.submitted_at.replace(tzinfo=timezone.utc) < week_end
-        ]
-        wk_scores = [_score_pct(s.score, s.max_score) for s in wk_subs if s.max_score]
-        wk_scores = [x for x in wk_scores if x is not None]
-        trend.append(
-            {
-                "date": week_start.date().isoformat(),
-                "completionRate": round(len(wk_subs) / denom * 100, 1),
-                "averageScore": round(sum(wk_scores) / len(wk_scores), 1) if wk_scores else 0,
-            }
-        )
+    # (trend is computed below from REAL practice events only — weeks with no
+    # activity are omitted, so the API never emits generated zero-dates.)
 
     # per-subject breakdown
     sub_map: dict[str, list[Any]] = {}
@@ -452,6 +443,144 @@ async def class_progress(class_id: str, db: AsyncSession = Depends(get_db)):
             }
         )
 
+    # ── Real per-student mastery + practice activity ──
+    # Mastery reads the SAME store the student-facing dashboard reads
+    # (mastery_records — see api/dashboard.py _get_service_progress), so a
+    # teacher's numbers can never contradict what the student sees; the
+    # practice→mastery pipeline writes it. Practice activity counts read the
+    # real activity_log rows written by practice submissions. A student with
+    # no records carries mastery=None — the UI renders an honest "no data
+    # yet" state instead of a fabricated zero or a fabricated "struggling"
+    # flag.
+    enrolled_rows = (
+        await db.execute(
+            select(ClassEnrollmentModel.student_id, UserModel.name)
+            .join(UserModel, UserModel.id == ClassEnrollmentModel.student_id)
+            .where(ClassEnrollmentModel.class_id == cls.id)
+            .order_by(ClassEnrollmentModel.roll_number, UserModel.name)
+        )
+    ).all()
+    roster = [(str(sid), (name or "").strip()) for sid, name in enrolled_rows]
+    student_uuids = [uuid.UUID(sid) for sid, _ in roster]
+
+    mastery_by_student: dict[str, float] = {}
+    try:
+        from backend.models.progress import MasteryRecord
+
+        if student_uuids:
+            mrows = (
+                await db.execute(
+                    select(
+                        MasteryRecord.user_id,
+                        func.avg(MasteryRecord.mastery_probability),
+                    )
+                    .where(MasteryRecord.user_id.in_(student_uuids))
+                    .group_by(MasteryRecord.user_id)
+                )
+            ).all()
+            for uid, avg_p in mrows:
+                if avg_p is not None:
+                    mastery_by_student[str(uid)] = round(float(avg_p) * 100.0, 1)
+    except Exception as exc:
+        logger.warning("teacher class-progress: mastery read failed: %s", exc)
+
+    activity_by_student: dict[str, dict[str, Any]] = {}
+    act_rows: list[Any] = []
+    try:
+        from backend.models.progress import ActivityLog
+
+        if student_uuids:
+            act_rows = (
+                await db.execute(
+                    select(ActivityLog)
+                    .where(
+                        ActivityLog.user_id.in_(student_uuids),
+                        ActivityLog.activity_type == "quiz",
+                    )
+                    .order_by(ActivityLog.created_at)
+                )
+            ).scalars().all()
+            for row in act_rows:
+                sid = str(row.user_id)
+                agg = activity_by_student.setdefault(
+                    sid, {"attempts": 0, "correct": 0, "last": None}
+                )
+                agg["attempts"] += 1
+                if str(row.score or "").strip().lower() == "correct":
+                    agg["correct"] += 1
+                if row.created_at is not None:
+                    ts = row.created_at
+                    if ts.tzinfo is None:
+                        ts = ts.replace(tzinfo=timezone.utc)
+                    if agg["last"] is None or ts > agg["last"]:
+                        agg["last"] = ts
+    except Exception as exc:
+        logger.warning("teacher class-progress: activity read failed: %s", exc)
+
+    per_student: list[dict[str, Any]] = []
+    mastery_values: list[float] = []
+    practice_attempts_total = 0
+    practice_correct_total = 0
+    for sid, name in roster:
+        avg_pct = mastery_by_student.get(sid)
+        act = activity_by_student.get(sid, {"attempts": 0, "correct": 0, "last": None})
+        if avg_pct is not None:
+            mastery_values.append(avg_pct)
+        practice_attempts_total += int(act["attempts"])
+        practice_correct_total += int(act["correct"])
+        per_student.append(
+            {
+                "studentId": sid,
+                "name": name,
+                "mastery": avg_pct,  # None = no mastery data yet (honest)
+                "practiceAttempts": int(act["attempts"]),
+                "practiceCorrect": int(act["correct"]),
+                "lastActivityAt": act["last"].isoformat() if act["last"] else None,
+            }
+        )
+
+    average_mastery = (
+        round(sum(mastery_values) / len(mastery_values), 1) if mastery_values else None
+    )
+
+    # Weekly trend built ONLY from real practice events. Weeks with no
+    # activity are omitted entirely; an empty array means "no data yet" —
+    # never a fabricated flat line of generated dates.
+    trend: list[dict[str, Any]] = []
+    if act_rows:
+        buckets: dict[str, dict[str, int]] = {}
+        for row in act_rows:
+            ts = row.created_at
+            if ts.tzinfo is None:
+                ts = ts.replace(tzinfo=timezone.utc)
+            week_start = (
+                (ts - timedelta(days=ts.weekday()))
+                .replace(hour=0, minute=0, second=0, microsecond=0)
+            )
+            key = week_start.date().isoformat()
+            b = buckets.setdefault(key, {"attempts": 0, "correct": 0})
+            b["attempts"] += 1
+            if str(row.score or "").strip().lower() == "correct":
+                b["correct"] += 1
+        for key in sorted(buckets.keys())[-6:]:
+            b = buckets[key]
+            trend.append(
+                {
+                    "date": key,
+                    "attempts": b["attempts"],
+                    "accuracy": round(b["correct"] / b["attempts"] * 100, 1)
+                    if b["attempts"]
+                    else 0.0,
+                }
+            )
+
+    has_data = bool(
+        submissions
+        or mastery_values
+        or practice_attempts_total
+        or total_assigned
+    )
+
     return {
         "classId": str(cls.id),
         "className": cls.class_name,
@@ -459,6 +588,11 @@ async def class_progress(class_id: str, db: AsyncSession = Depends(get_db)):
         "totalWorksheetsCompleted": completed,
         "overallCompletionRate": overall_rate,
         "averageScore": avg_score,
+        "hasData": has_data,
+        "averageMastery": average_mastery,  # None = no mastery recorded yet
+        "practiceAttempts": practice_attempts_total,
+        "practiceCorrect": practice_correct_total,
+        "students": per_student,
         "trend": trend,
         "subjectBreakdown": subject_breakdown,
     }
@@ -478,7 +612,7 @@ class AssignHomeworkBody(BaseModel):
 
 
 @router.post("/assignments")
-async def assign_homework(body: AssignHomeworkBody, db: AsyncSession = Depends(get_db)):
+async def assign_homework(body: AssignHomeworkBody, db: AsyncSession = Depends(get_db), user: Any = Depends(_require_staff)):
     await _ensure_tables(db)
     _require_worksheets()
     try:
@@ -513,7 +647,7 @@ async def assign_homework(body: AssignHomeworkBody, db: AsyncSession = Depends(g
 
 
 @router.get("/assignments")
-async def list_assignments(classId: Optional[str] = Query(None), db: AsyncSession = Depends(get_db)):
+async def list_assignments(classId: Optional[str] = Query(None), db: AsyncSession = Depends(get_db), user: Any = Depends(_require_staff)):
     await _ensure_tables(db)
     _require_worksheets()
     stmt = select(ClassAssignmentModel).order_by(ClassAssignmentModel.created_at.desc())
@@ -556,7 +690,7 @@ class CreateWorksheetBody(BaseModel):
 async def list_worksheets(
     teacherId: str = Query("me"),
     db: AsyncSession = Depends(get_db),
-    user: Any = Depends(_optional_user),
+    user: Any = Depends(_require_staff),
 ):
     await _ensure_tables(db)
     _require_worksheets()
@@ -603,7 +737,7 @@ async def list_worksheets(
 async def create_worksheet(
     body: CreateWorksheetBody,
     db: AsyncSession = Depends(get_db),
-    user: Any = Depends(_optional_user),
+    user: Any = Depends(_require_staff),
 ):
     await _ensure_tables(db)
     _require_worksheets()
@@ -659,7 +793,7 @@ async def _get_detail(db: AsyncSession, worksheet_id: str, for_student: bool = F
 
 
 @router.get("/worksheets/{worksheet_id}")
-async def get_worksheet(worksheet_id: str, db: AsyncSession = Depends(get_db)):
+async def get_worksheet(worksheet_id: str, db: AsyncSession = Depends(get_db), user: Any = Depends(_require_staff)):
     await _ensure_tables(db)
     detail = await _get_detail(db, worksheet_id)
     ws_row = (
@@ -679,7 +813,7 @@ async def get_worksheet(worksheet_id: str, db: AsyncSession = Depends(get_db)):
 
 
 @router.get("/worksheets/{worksheet_id}/performance")
-async def worksheet_performance(worksheet_id: str, db: AsyncSession = Depends(get_db)):
+async def worksheet_performance(worksheet_id: str, db: AsyncSession = Depends(get_db), user: Any = Depends(_require_staff)):
     await _ensure_tables(db)
     _require_worksheets()
     try:
@@ -745,7 +879,7 @@ async def worksheet_performance(worksheet_id: str, db: AsyncSession = Depends(ge
 
 
 @router.get("/worksheets/{worksheet_id}/printable")
-async def worksheet_printable(worksheet_id: str, db: AsyncSession = Depends(get_db)):
+async def worksheet_printable(worksheet_id: str, db: AsyncSession = Depends(get_db), user: Any = Depends(_require_staff)):
     await _ensure_tables(db)
     try:
         wid = uuid.UUID(worksheet_id)
@@ -768,6 +902,7 @@ async def send_worksheet_whatsapp(
     worksheet_id: str,
     body: SendWorksheetBody,
     db: AsyncSession = Depends(get_db),
+    user: Any = Depends(_require_staff),
 ):
     """MOCK delivery — documented honestly.
 

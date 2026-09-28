@@ -34,6 +34,31 @@
      "q": "Create a 4-digit number whose prime factorisation in exponential form uses exactly three different prime bases, where the largest exponent is 4 and the smallest exponent is 1. Write the number and its factorisation.",
      "a": "Example: Choose primes 2, 3, 5. Let largest exponent 4 be on 2: 2⁴ = 16. Let smallest exponent 1 be on 5: 5¹ = 5. Let middle exponent be 2 on 3: 3² = 9. Number = 16 × 9 × 5 = 720 (3-digit, too small). Adjust: use 2⁴ × 3³ × 5¹ = 16 × 27 × 5 = 2160. Factorisation: 2⁴ × 3³ × 5. A poor answer like \"1000 = 10³\" uses a composite base. A student who cannot construct this lacks flexibility in working backwards from exponential form to the number.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Prime ______ in exponential form expresses a composite number as a product of its prime factors, where repeated prime factors are written using exponents to show how many times each prime factor appears.",
+     "a": "factorisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are packing 360 identical laddoos into boxes such that each box ______ a prime number of laddoos and all boxes have the same count.",
+     "a": "contains",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are packing ______ identical laddoos into boxes such that each box contains a prime number of laddoos and all boxes have the same count.",
+     "a": "360",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can decompose any composite number up to 10,000 into its prime factors and write the result in exponential form correctly, and can also reconstruct the original number from a given exponential form prime factorisation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are packing 360 ______ laddoos into boxes such that each box contains a prime number of laddoos and all boxes have the same count.",
+     "a": "identical",
+     "self_check": true
     }
    ]
   }

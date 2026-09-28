@@ -34,6 +34,36 @@
      "q": "Design a diagnostic algorithm for a 45-year-old woman with a suspicious 2.5 cm breast lump on self-examination. Include: clinical examination, imaging choice (with justification), biopsy type (with justification), receptor testing, and staging investigations. Explain the decision logic at each step.",
      "a": "**Algorithm**: \n1. **Clinical exam**: Palpation of lump + axillary/supraclavicular nodes → assesses size, fixation, nodal involvement.\n2. **Imaging**: **Diagnostic bilateral mammogram + targeted ultrasound** (not MRI first-line). Mammogram characterizes calcifications/mass; ultrasound distinguishes solid vs cystic, guides biopsy. MRI reserved for high-risk/dense breasts/discrepancy.\n3. **Biopsy**: **Core needle biopsy (CNB) under imaging guidance** (not FNAC). CNB provides adequate tissue for histology (invasive vs in situ), grade, ER/PR/HER2, Ki-67. FNAC yields only cells — insufficient for receptor testing.\n4. **Receptor testing**: Mandatory ER, PR, HER2 (IHC ± FISH), Ki-67 on biopsy tissue — determines subtype (luminal A/B, HER2-enriched, triple-negative) and guides systemic therapy.\n5. **Staging**: If early stage clinically (no obvious mets): **CT chest/abdomen/pelvis + bone scan** (or PET-CT if available). Not needed for pure DCIS.\n**Logic**: Tissue diagnosis before treatment; receptor status before systemic therapy; staging extent matched to clinical risk. Poor answer: skipping biopsy, ordering PET-CT upfront, or omitting receptor testing — shows lack of stepwise diagnostic reasoning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cancer diagnosis is the systematic process of identifying malignant neoplasms through ______, cytological, imaging, and molecular techniques to confirm the presence, type, grade, and stage of cancer.",
+     "a": "histological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 55-year-old patient from a small town in Uttar Pradesh who notices a persistent lump in the breast and visits the ______ hospital.",
+     "a": "district",
+     "self_check": true
+    },
+    {
+     "q": "What is Cancer diagnosis? State the definition given in this lesson.",
+     "a": "Cancer diagnosis is the systematic process of identifying malignant neoplasms through histological, cytological, imaging, and molecular techniques to confirm the presence, type, grade, and stage of cancer.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______-year-old patient from a small town in Uttar Pradesh who notices a persistent lump in the breast and visits the district hospital.",
+     "a": "55",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Cancer diagnosis?",
+     "a": "Misconception: \"Biopsy or surgery causes cancer to spread by exposing it to air or cutting through the tumor.\" Exact wrong reasoning: Students believe mechanical disruption releases cancer cells into circulation/lymphatics, causing metastasis.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the step-by-step diagnostic pathway from clinical suspicion to confirmed staging, differentiate between curative and palliative treatment intent, and justify the selection of a specific treatment modality for a given cancer case scenario using TNM staging and molecular markers.",
+     "self_check": true
     }
    ]
   }

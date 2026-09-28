@@ -11,8 +11,8 @@
      "self_check": true
     },
     {
-     "q": "Explain why the formula S_n = n/2 (a + l) works by describing the pairing method. Use the AP: 3, 7, 11, 15, 19 to illustrate with n = 5.",
-     "a": "In the AP 3, 7, 11, 15, 19, pairing first and last: 3+19=22, second and fourth: 7+15=22, middle term 11 is half of 22. There are 5/2 = 2.5 pairs each summing to 22, giving 2.5 × 22 = 55. A wrong explanation (e.g., \"multiply first term by n\" or \"add all terms individually\") shows the student does not understand the structural symmetry of an AP and is relying on rote memorisation without grasping why the formula works.",
+     "q": "For the AP 3, 7, 11, 15, 19, use the pairing idea of the sum formula and calculate the sum of all five terms.",
+     "a": "Pairing first with last gives 3 + 19 = 22, and the middle term contributes the same: sum = 5/2 x 22 = 55. A wrong answer of 45 shows the student paired only the outer terms and forgot the middle term counts half a pair.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Create a real-life problem (Indian context: rupees, savings, instalments) where the sum of an AP is given and the student must find the number of terms n. The problem should result in a quadratic equation that has one valid positive integer solution. Provide the problem statement and the complete solution.",
      "a": "Problem: \"Ravi saves ₹100 in the first week and increases his weekly savings by ₹20 each week. After how many weeks will his total savings reach ₹2800?\" Solution: a=100, d=20, S_n=2800. 2800 = n/2[200 + (n-1)20] → 5600 = n(200 + 20n - 20) → 5600 = n(20n + 180) → 20n² + 180n - 5600 = 0 → n² + 9n - 280 = 0 → (n+20)(n-14) = 0 → n = 14 weeks. A poor problem would have non-integer solutions or negative time, showing the student doesn't understand the constraints of real-world AP problems.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The sum of the first n terms of an Arithmetic ______ (AP) with first term a and common difference d is given by S_n = n/2 [2a + (n-1)d].",
+     "a": "Progression",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are saving money every month for a school trip: you save ₹500 in the first month and ______ your savings by ₹50 each subsequent month.",
+     "a": "increase",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Equivalently, if the last term (nth term) is denoted by l, then S_n = n/______ (a + l).",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify which sum formula to use based on given information (first term and common difference vs. first and last term), solve for any unknown variable (n, a, d, or S_n) when the other three are known, and apply the relationship a_n = S_n - S_{n-1} to find individual terms from sum expressions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are saving money every month for a school trip: you save ₹500 in the first month and increase your savings by ₹50 each ______ month.",
+     "a": "subsequent",
      "self_check": true
     }
    ]

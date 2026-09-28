@@ -32,7 +32,32 @@
     },
     {
      "q": "Design a tiny \"module demo\" script that proves to a classmate that `from module import name` does NOT import the module object itself. The script must run without errors and print a clear message.",
-     "a": "```python",
+     "a": "```python\n# demo.py\nfrom math import pi\ntry:\n    print(math)   # This will raise NameError\nexcept NameError:\n    print(\"math module object is NOT in global namespace\")\nprint(\"But pi is:\", pi)\n```\nOutput:\n```\nmath module object is NOT in global namespace\nBut pi is: 3.141592653589793\n```\nA poor answer that tries to print `math.pi` after `from math import pi` shows the student hasn't internalized that the module object itself remains unimported.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A module in Python is a file containing Python ______ and statements (functions, variables, classes) that can be reused in other programs; the import statement loads the entire module into its own namespace requiring qualified access (e.g., math.sqrt()), while from-import loads specific names directly into the current namespace allowing unqualified access (e.g., from math import sqrt then sqrt()).",
+     "a": "definitions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a GST calculator for a shopkeeper and need to compute square roots for ______ calculations and random numbers for generating OTPs.",
+     "a": "distance",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by typing import math at the top of your script and then use math.sqrt(______).",
+     "a": "25",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly choose between import module and from module import name for a given scenario, write syntactically correct import statements with aliasing (as), and predict the namespace behavior and name-collision risks of each approach.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a GST calculator for a shopkeeper and need to compute square roots for distance ______ and random numbers for generating OTPs.",
+     "a": "calculations",
      "self_check": true
     }
    ]

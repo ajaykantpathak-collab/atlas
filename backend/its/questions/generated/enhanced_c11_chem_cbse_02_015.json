@@ -34,6 +34,26 @@
      "q": "Create a mnemonic or visual tool to remember the orbital filling order up to 5p. Explain how your tool encodes the (n + l) rule.",
      "a": "Example mnemonic: \"1s, 2s2p, 3s3p, 4s3d4p, 5s4d5p, 6s4f5d6p...\" written diagonally:\n1s\n2s 2p\n3s 3p\n4s 3d 4p\n5s 4d 5p\n6s 4f 5d 6p\nReading down the diagonals gives the filling order. The tool works because each diagonal has constant (n + l): 1s(1), 2s2p(2,3), 3s3p(3,4), 4s3d4p(4,5,5)... A poor answer (e.g., a simple list \"1s, 2s, 2p, 3s...\") reveals the student hasn't internalized the (n + l) pattern and is memorizing by rote, making them prone to errors like placing 3d before 4s.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Aufbau principle states that in the ground state of an atom, electrons occupy atomic orbitals in order of ______ energy, filling the lowest energy orbital available first before moving to higher energy orbitals.",
+     "a": "increasing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at the ______ table on your classroom wall — notice how chemical properties repeat every 2, 8, 8, 18 elements?",
+     "a": "periodic",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write the complete electronic configuration for any element up to Z=30 (Zn) using the Aufbau principle, (n + l) rule, Pauli exclusion principle, and Hund's rule; can identify and explain the exceptional configurations of Cr (Z=24) and Cu (Z=29) due to extra stability of half-filled and fully-filled d-subshells; and can.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at the periodic table on your classroom wall — notice how chemical ______ repeat every 2, 8, 8, 18 elements?",
+     "a": "properties",
+     "self_check": true
     }
    ]
   }

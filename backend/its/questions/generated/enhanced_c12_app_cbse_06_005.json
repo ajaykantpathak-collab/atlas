@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_06_005",
+   "title": "c12_app_cbse_06_005",
+   "questions": [
+    {
+     "q": "List the six major distribution nodes that appear in the Class 12 Probability Distributions concept map, in the logical order they build upon each other.",
+     "a": "Correct sequence: Random Variable → Discrete/Continuous Classification → Probability Distribution (General) → Mathematical Expectation & Variance → Specific Distributions (Binomial, Poisson, Normal) → Standard Normal & Z-Test. A wrong answer (e.g., putting Binomial before Expectation) reveals the student doesn't grasp that Binomial mean/variance formulas (np, npq) are derived from the general definitions E(X)=Σxp, Var(X)=E(X²)-[E(X)]² — they're memorizing formulas without seeing the derivation lineage.",
+     "self_check": true
+    },
+    {
+     "q": "The concept map shows an arrow from \"Bernoulli Trials\" to \"Binomial Distribution\" labeled \"n trials, constant p\". Explain in your own words why the \"constant p\" condition is the gatekeeper that separates Binomial from Hypergeometric scenarios, using the \"drawing defective baskets\" example from the textbook.",
+     "a": "In the textbook Example 4 (without replacement), p changes from 6/20 → 5/19 after one defective draw — trials are dependent, so it's NOT Binomial. In Example 9 (with replacement), p stays 6/20 = 0.3 every draw — trials are independent with constant p, so it IS Binomial. A student who says \"both are Binomial because there are two outcomes\" misses that Binomial requires *independent* trials with *identical* success probability — the map's \"constant p\" label is a warning sign, not decoration.",
+     "self_check": true
+    },
+    {
+     "q": "A call center receives an average of 10 calls per minute. The manager wants to model the probability of exactly 8 calls in a given minute. Using only the concept map's decision logic (no calculations), determine which distribution node applies and list the two conditions from the map that must be verified before applying it.",
+     "a": "The map directs you to the **Poisson Distribution** node (discrete events over time/space, independent, constant average rate). The two conditions to verify: (1) Events occur independently — one call doesn't affect the next call's timing. (2) Constant mean rate (λ = 10/min) — the average doesn't change during the observation period. A student who jumps to Binomial (thinking \"success/failure per second\") fails to see the map's distinction: Binomial needs *fixed number of trials (n)*, Poisson needs *fixed interval with infinite possible occurrences*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"Variance\" node connections for Binomial, Poisson, and Normal distributions on the concept map. What structural pattern do you observe about how variance is defined/derived in each case, and what does this imply for exam strategy?",
+     "a": "Pattern: **Binomial** variance (npq) is *derived* from general Var(X) = E(X²)-[E(X)]² using Bernoulli properties. **Poisson** variance (= λ) is *defined* as equal to the mean — a unique identifying property. **Normal** variance (σ²) is a *free parameter* — not determined by the mean. Exam implication: If a question gives mean ≠ variance for a discrete distribution, it CANNOT be Poisson. If mean = variance = 2.5, it's a strong Poisson signal. If variance = npq is given with n, p, q — it's Binomial. The map's variance connections are diagnostic filters, not just formulas.",
+     "self_check": true
+    },
+    {
+     "q": "A competitive exam question states: \"X ~ N(μ, σ²). A student computes Z = (X - μ)/σ and claims Z ~ N(0,1) *only if* n > 30.\" Evaluate this claim using the concept map's logic. Is the student correct, partially correct, or wrong? Justify.",
+     "a": "The student is **wrong**. The concept map shows: Normal Distribution → Standard Normal (Z = (X-μ)/σ) is an *exact algebraic transformation* valid for ANY normal X, regardless of sample size. The \"n > 30\" condition on the map connects to **Z-Test** (inferential statistics, Central Limit Theorem), not to the definition of Z-score. The map separates *descriptive standardization* (always valid for normal data) from *inferential Z-test* (requires large n for non-normal populations). Confusing these two nodes is a classic JEE/NEET trap.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new \"edge case\" scenario that would sit at the intersection of the Binomial and Poisson nodes on the concept map — a situation where both *could* apply but one is clearly better. Describe the scenario, state which distribution the map recommends, and explain why using the map's condition labels.",
+     "a": "Scenario: A factory produces 10,000 bolts/day with a 0.1% defect rate. Quality control checks 100 bolts/day. Model the number of defectives found.\n- **Binomial view**: n=100 trials (checked bolts), p=0.001 (defect prob), X ~ B(100, 0.001). Valid but computationally heavy (n large, p small).\n- **Poisson view**: λ = np = 0.1 defectives per 100 bolts. X ~ Po(0.1). Matches map's \"n→∞, p→0, np=λ constant\" limit condition.\n- **Map recommendation**: Poisson. The map shows Binomial → Poisson as a limiting case (n large, p small, np moderate). Here n=100, p=0.001, np=0.1 — Poisson is exact, simpler, and avoids binomial coefficient overflow. A good answer uses the map's \"limiting case\" arrow; a poor answer forces Binomial because \"it's a fixed number of trials\".",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

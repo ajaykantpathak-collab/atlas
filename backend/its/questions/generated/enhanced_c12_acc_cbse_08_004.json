@@ -34,6 +34,31 @@
      "q": "Design a hypothetical Comparative Balance Sheet (5 line items minimum) for a company that: (a) issued fresh equity, (b) redeemed long-term debt, (c) saw inventory pile up, (d) improved its Current Ratio, but (e) saw Reserves decline. Provide the full 6-column format with plausible numbers.",
      "a": "A good answer creates internally consistent numbers, e.g.:\n| Particulars | 2023 | 2024 | Abs. Change | % Change |\n| Equity Share Capital | 4,00,000 | 5,00,000 | 1,00,000 | 25% |\n| Reserves & Surplus | 2,00,000 | 1,50,000 | (50,000) | (25%) |\n| 10% Debentures | 3,00,000 | 1,50,000 | (1,50,000) | (50%) |\n| Trade Payables | 1,00,000 | 1,20,000 | 20,000 | 20% |\n| Inventories | 1,50,000 | 2,50,000 | 1,00,000 | 66.67% |\n| Trade Receivables | 1,00,000 | 1,20,000 | 20,000 | 20% |\n| Cash & Bank | 50,000 | 80,000 | 30,000 | 60% |\n| Fixed Assets | 6,00,000 | 6,50,000 | 50,000 | 8.33% |\nVerification: 2023 Total = 10,00,000; 2024 Total = 10,20,000 (diff = profit/loss adjustment). Current Ratio 2023 = (3,00,000/1,00,000) = 3:1; 2024 = (4,50,000/1,20,000) = 3.75:1 (improved). A poor answer has arithmetic errors, unbalanced totals, or misses one of the five required conditions — revealing inability to synthesize Balance Sheet interrelationships.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ Balance Sheet is a horizontal analysis tool that presents the assets, liabilities, and equity of a company for two or more accounting periods side-by-side, showing absolute changes (increase/decrease in rupees) and percentage changes to reveal trends in financial position over time.",
+     "a": "Comparative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a credit analyst at HDFC Bank reviewing Tata Motors' ______ Sheets for 2023 and 2024.",
+     "a": "Balance",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The raw numbers are overwhelming — ₹______ lakh crore in assets!",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently prepare a Comparative Balance Sheet from two years' balance sheet data, correctly calculating absolute and percentage changes for all line items, verifying the accounting equation holds for each period, and interpreting the significant changes in financial position with reference to liquidity, solvency, and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a credit analyst at HDFC Bank ______ Tata Motors' Balance Sheets for 2023 and 2024.",
+     "a": "reviewing",
+     "self_check": true
     }
    ]
   }

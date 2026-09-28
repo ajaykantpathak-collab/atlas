@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a spring balance and a mass to demonstrate weightlessness in free fall. Describe the setup, procedure, and expected observation.",
      "a": "Setup: Attach a 1 kg mass to a spring balance calibrated in newtons. Hold the balance stationary, then release it to fall freely (catch it safely before impact). Observation: While stationary, the balance reads ~9.8 N. During free fall, the reading drops to 0 N. This shows apparent weight (spring force) becomes zero when the system is in free fall, even though gravity still acts. A poor answer that expects the reading to remain 9.8 N reveals the misconception that spring balances measure true weight rather than contact force.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ in satellites is the condition where an astronaut (or any object) inside an orbiting satellite experiences zero contact force (normal force) from the satellite surface because both the astronaut and the satellite are in free fall, accelerating towards Earth with the same acceleration g' (acceleration due to gravity at that orbital height).",
+     "a": "Weightlessness",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When the lift cable snaps, the scale reads zero because both you and the lift fall with ______ g.",
+     "a": "acceleration",
+     "self_check": true
+    },
+    {
+     "q": "What is Weightlessness in satellites? State the definition given in this lesson.",
+     "a": "Weightlessness in satellites is the condition where an astronaut (or any object) inside an orbiting satellite experiences zero contact force (normal force) from the satellite surface because both the astronaut and the satellite are in free fall, accelerating towards Earth with the same acceleration g' (acceleration due to gravity at that.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It is a state of apparent weight = ______ N, not the absence of gravitational force.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Weightlessness in satellites?",
+     "a": "Students believe \"weightlessness\" means there is no gravitational force acting on the astronaut (zero gravity).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Explain weightlessness using the concept of free fall and Newton's second law, distinguishing between true weight (gravitational force) and apparent weight (contact force).",
+     "self_check": true
     }
    ]
   }

@@ -22,12 +22,33 @@
     "in Class 12 partnership accounts, work out the revised profit sharing proportion on admission",
     "state the profit ratio of the reconstituted firm once the entrant takes a stated share"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "write each share as a fraction of the whole", "explain": "convert every partner's entitlement, old and new, into fractions that can sit on one denominator"},
-    {"step": 2, "action": "reduce each old partner's fraction", "explain": "deduct the exact part surrendered, or scale the old fraction by the profit left once the entrant's part is set aside"},
-    {"step": 3, "action": "state the ratio", "explain": "express all revised fractions over one common denominator; the numerators read out as the new ratio"}
-   ]
+    {
+     "step": 1,
+     "action": "write each share as a fraction of the whole",
+     "explain": "convert every partner's entitlement, old and new, into fractions that can sit on one denominator"
+    },
+    {
+     "step": 2,
+     "action": "reduce each old partner's fraction",
+     "explain": "deduct the exact part surrendered, or scale the old fraction by the profit left once the entrant's part is set aside"
+    },
+    {
+     "step": 3,
+     "action": "state the ratio",
+     "explain": "express all revised fractions over one common denominator; the numerators read out as the new ratio"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "new_share = old_share_fraction - surrendered_fraction",
+     "compute": "new_share = old_share_fraction - surrendered_fraction"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.102.3.2",
@@ -47,9 +68,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "take away the entrant's slice from the whole", "explain": "the profit left for the old partners is one minus the incoming share", "compute": "remaining_share = 1 - new_share_fraction"},
-    {"step": 2, "action": "scale the old fraction by the leftover", "explain": "the old partner keeps his old proportion of whatever profit remains", "compute": "partner_new_share = old_share_fraction * remaining_share"}
-   ]
+    {
+     "step": 1,
+     "action": "take away the entrant's slice from the whole",
+     "explain": "the profit left for the old partners is one minus the incoming share",
+     "compute": "remaining_share = 1 - new_share_fraction"
+    },
+    {
+     "step": 2,
+     "action": "scale the old fraction by the leftover",
+     "explain": "the old partner keeps his old proportion of whatever profit remains",
+     "compute": "partner_new_share = old_share_fraction * remaining_share"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "partner_new_share = old_share_fraction * (1 - new_share_fraction)",
+     "compute": "partner_new_share = old_share_fraction * (1 - new_share_fraction)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.102.3.3",
@@ -69,8 +109,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "subtract the surrender from the old fraction", "explain": "the difference is what the partner still owns of the profit", "compute": "partner_new_share = old_share_fraction - surrendered_fraction"}
-   ]
+    {
+     "step": 1,
+     "action": "subtract the surrender from the old fraction",
+     "explain": "the difference is what the partner still owns of the profit",
+     "compute": "partner_new_share = old_share_fraction - surrendered_fraction"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "partner_new_share = old_share_fraction - surrendered_fraction",
+     "compute": "partner_new_share = old_share_fraction - surrendered_fraction"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.102.4.1",
@@ -90,8 +144,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "deduct the new fraction from the old fraction", "explain": "the difference measures exactly how much profit share moved to the entrant", "compute": "sacrifice_share = old_share_fraction - new_share_fraction"}
-   ]
+    {
+     "step": 1,
+     "action": "deduct the new fraction from the old fraction",
+     "explain": "the difference measures exactly how much profit share moved to the entrant",
+     "compute": "sacrifice_share = old_share_fraction - new_share_fraction"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "sacrifice_share = old_share_fraction - new_share_fraction",
+     "compute": "sacrifice_share = old_share_fraction - new_share_fraction"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.102.4.2",
@@ -113,9 +181,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "list old and new fractions for each old partner", "explain": "both shares must sit on a common denominator before comparing"},
-    {"step": 2, "action": "subtract new from old for every old partner", "explain": "each difference is that partner's sacrifice"},
-    {"step": 3, "action": "reduce the differences to whole numbers", "explain": "the simplified pair or triple of differences is the sacrificing ratio"}
+    {
+     "step": 1,
+     "action": "list old and new fractions for each old partner",
+     "explain": "both shares must sit on a common denominator before comparing"
+    },
+    {
+     "step": 2,
+     "action": "subtract new from old for every old partner",
+     "explain": "each difference is that partner's sacrifice"
+    },
+    {
+     "step": 3,
+     "action": "reduce the differences to whole numbers",
+     "explain": "the simplified pair or triple of differences is the sacrificing ratio"
+    }
    ]
   },
   {
@@ -136,9 +216,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "average the past profits", "explain": "divide the total profit of the reviewed years by the number of years", "compute": "average_profit = profits_total / years_count"},
-    {"step": 2, "action": "multiply by the years purchase", "explain": "goodwill equals the average profit times the agreed purchase multiplier", "compute": "goodwill = average_profit * years_purchase"}
-   ]
+    {
+     "step": 1,
+     "action": "average the past profits",
+     "explain": "divide the total profit of the reviewed years by the number of years",
+     "compute": "average_profit = profits_total / years_count"
+    },
+    {
+     "step": 2,
+     "action": "multiply by the years purchase",
+     "explain": "goodwill equals the average profit times the agreed purchase multiplier",
+     "compute": "goodwill = average_profit * years_purchase"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "goodwill = average_profit * years_purchase",
+     "compute": "goodwill = average_profit * years_purchase"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.102.5.2",
@@ -157,11 +256,40 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "weight each year's profit", "explain": "multiply every profit by its weight and total the products", "compute": "weighted_profit_total = profit1*w1 + profit2*w2 + profit3*w3 + profit4*w4"},
-    {"step": 2, "action": "total the weights", "explain": "add the weights attached to the years", "compute": "weights_total = w1 + w2 + w3 + w4"},
-    {"step": 3, "action": "divide the products by the weights", "explain": "the quotient is the weighted average profit", "compute": "weighted_average_profit = weighted_profit_total / weights_total"},
-    {"step": 4, "action": "apply the purchase multiplier", "explain": "goodwill equals the weighted average profit times the years purchase", "compute": "goodwill = weighted_average_profit * years_purchase"}
-   ]
+    {
+     "step": 1,
+     "action": "weight each year's profit",
+     "explain": "multiply every profit by its weight and total the products",
+     "compute": "weighted_profit_total = profit1*w1 + profit2*w2 + profit3*w3 + profit4*w4"
+    },
+    {
+     "step": 2,
+     "action": "total the weights",
+     "explain": "add the weights attached to the years",
+     "compute": "weights_total = w1 + w2 + w3 + w4"
+    },
+    {
+     "step": 3,
+     "action": "divide the products by the weights",
+     "explain": "the quotient is the weighted average profit",
+     "compute": "weighted_average_profit = weighted_profit_total / weights_total"
+    },
+    {
+     "step": 4,
+     "action": "apply the purchase multiplier",
+     "explain": "goodwill equals the weighted average profit times the years purchase",
+     "compute": "goodwill = weighted_average_profit * years_purchase"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "goodwill = weighted_average_profit * years_purchase",
+     "compute": "goodwill = weighted_average_profit * years_purchase"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.102.5.3",
@@ -180,10 +308,34 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "compute the normal profit", "explain": "capital employed times the normal rate of return over one hundred", "compute": "normal_profit = capital_employed * normal_rate / 100"},
-    {"step": 2, "action": "measure the super profit", "explain": "average profit less normal profit gives the excess earning", "compute": "super_profit = average_profit - normal_profit"},
-    {"step": 3, "action": "multiply by the years purchase", "explain": "goodwill is the super profit times the agreed purchase multiplier", "compute": "goodwill = super_profit * years_purchase"}
-   ]
+    {
+     "step": 1,
+     "action": "compute the normal profit",
+     "explain": "capital employed times the normal rate of return over one hundred",
+     "compute": "normal_profit = capital_employed * normal_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "measure the super profit",
+     "explain": "average profit less normal profit gives the excess earning",
+     "compute": "super_profit = average_profit - normal_profit"
+    },
+    {
+     "step": 3,
+     "action": "multiply by the years purchase",
+     "explain": "goodwill is the super profit times the agreed purchase multiplier",
+     "compute": "goodwill = super_profit * years_purchase"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "goodwill = super_profit * years_purchase",
+     "compute": "goodwill = super_profit * years_purchase"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.102.5.4",
@@ -202,9 +354,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "capitalise the average profit", "explain": "multiply the average profit by one hundred and divide by the normal rate", "compute": "capitalised_value = average_profit * 100 / normal_rate"},
-    {"step": 2, "action": "deduct the net assets", "explain": "goodwill is the capitalized value minus the actual capital employed", "compute": "goodwill = capitalised_value - net_assets"}
-   ]
+    {
+     "step": 1,
+     "action": "capitalise the average profit",
+     "explain": "multiply the average profit by one hundred and divide by the normal rate",
+     "compute": "capitalised_value = average_profit * 100 / normal_rate"
+    },
+    {
+     "step": 2,
+     "action": "deduct the net assets",
+     "explain": "goodwill is the capitalized value minus the actual capital employed",
+     "compute": "goodwill = capitalised_value - net_assets"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "goodwill = capitalised_value - net_assets",
+     "compute": "goodwill = capitalised_value - net_assets"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.102.5.5",
@@ -223,10 +394,34 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "compute the normal profit", "explain": "capital employed times the normal rate over one hundred", "compute": "normal_profit = capital_employed * normal_rate / 100"},
-    {"step": 2, "action": "measure the super profit", "explain": "average profit less normal profit", "compute": "super_profit = average_profit - normal_profit"},
-    {"step": 3, "action": "capitalise the super profit", "explain": "multiply the super profit by one hundred over the normal rate", "compute": "goodwill = super_profit * 100 / normal_rate"}
-   ]
+    {
+     "step": 1,
+     "action": "compute the normal profit",
+     "explain": "capital employed times the normal rate over one hundred",
+     "compute": "normal_profit = capital_employed * normal_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "measure the super profit",
+     "explain": "average profit less normal profit",
+     "compute": "super_profit = average_profit - normal_profit"
+    },
+    {
+     "step": 3,
+     "action": "capitalise the super profit",
+     "explain": "multiply the super profit by one hundred over the normal rate",
+     "compute": "goodwill = super_profit * 100 / normal_rate"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "goodwill = super_profit * 100 / normal_rate",
+     "compute": "goodwill = super_profit * 100 / normal_rate"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.102.5.6",
@@ -245,8 +440,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "apply the acquired fraction to the firm goodwill", "explain": "the entrant pays for his slice of the reputation value", "compute": "premium_amount = firm_goodwill * new_share_fraction"}
-   ]
+    {
+     "step": 1,
+     "action": "apply the acquired fraction to the firm goodwill",
+     "explain": "the entrant pays for his slice of the reputation value",
+     "compute": "premium_amount = firm_goodwill * new_share_fraction"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "premium_amount = firm_goodwill * new_share_fraction",
+     "compute": "premium_amount = firm_goodwill * new_share_fraction"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.102.5.7",
@@ -265,9 +474,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "gross up the entrant's capital", "explain": "divide what the entrant brought by his fraction to get the implied total capital", "compute": "implied_capital = incoming_capital / new_share_fraction"},
-    {"step": 2, "action": "compare with the actual capital", "explain": "the excess of implied over actual total capital is the hidden goodwill", "compute": "hidden_goodwill = implied_capital - combined_capital"}
-   ]
+    {
+     "step": 1,
+     "action": "gross up the entrant's capital",
+     "explain": "divide what the entrant brought by his fraction to get the implied total capital",
+     "compute": "implied_capital = incoming_capital / new_share_fraction"
+    },
+    {
+     "step": 2,
+     "action": "compare with the actual capital",
+     "explain": "the excess of implied over actual total capital is the hidden goodwill",
+     "compute": "hidden_goodwill = implied_capital - combined_capital"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "hidden_goodwill = implied_capital - combined_capital",
+     "compute": "hidden_goodwill = implied_capital - combined_capital"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.102.6.1",
@@ -286,8 +514,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "apply the old fraction to the accumulated amount", "explain": "each old partner's slice of the reserves follows the old profit ratio", "compute": "partner_share = accumulated_amount * old_share_fraction"}
-   ]
+    {
+     "step": 1,
+     "action": "apply the old fraction to the accumulated amount",
+     "explain": "each old partner's slice of the reserves follows the old profit ratio",
+     "compute": "partner_share = accumulated_amount * old_share_fraction"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "partner_share = accumulated_amount * old_share_fraction",
+     "compute": "partner_share = accumulated_amount * old_share_fraction"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.102.7.1",
@@ -306,9 +548,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "net the revisions", "explain": "subtract the total downward revisions from the total upward revisions", "compute": "net_revaluation = gains_total - losses_total"},
-    {"step": 2, "action": "give each old partner his slice", "explain": "the net result is split in the old profit ratio", "compute": "partner_share = net_revaluation * old_share_fraction"}
-   ]
+    {
+     "step": 1,
+     "action": "net the revisions",
+     "explain": "subtract the total downward revisions from the total upward revisions",
+     "compute": "net_revaluation = gains_total - losses_total"
+    },
+    {
+     "step": 2,
+     "action": "give each old partner his slice",
+     "explain": "the net result is split in the old profit ratio",
+     "compute": "partner_share = net_revaluation * old_share_fraction"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "partner_share = (gains_total - losses_total) * old_share_fraction",
+     "compute": "partner_share = (gains_total - losses_total) * old_share_fraction"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.102.8.1",
@@ -330,10 +591,34 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "gross up to the total capital", "explain": "divide the base capital by its fraction to value the whole firm's capital", "compute": "total_capital = base_capital / base_share_fraction"},
-    {"step": 2, "action": "fix the partner's required capital", "explain": "multiply the total capital by this partner's profit fraction", "compute": "required_capital = total_capital * partner_share_fraction"},
-    {"step": 3, "action": "measure the gap", "explain": "required capital less the capital already standing gives the adjustment; a negative figure is a withdrawal", "compute": "capital_adjustment = required_capital - adjusted_capital"}
-   ]
+    {
+     "step": 1,
+     "action": "gross up to the total capital",
+     "explain": "divide the base capital by its fraction to value the whole firm's capital",
+     "compute": "total_capital = base_capital / base_share_fraction"
+    },
+    {
+     "step": 2,
+     "action": "fix the partner's required capital",
+     "explain": "multiply the total capital by this partner's profit fraction",
+     "compute": "required_capital = total_capital * partner_share_fraction"
+    },
+    {
+     "step": 3,
+     "action": "measure the gap",
+     "explain": "required capital less the capital already standing gives the adjustment; a negative figure is a withdrawal",
+     "compute": "capital_adjustment = required_capital - adjusted_capital"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "capital_adjustment = required_capital - adjusted_capital",
+     "compute": "capital_adjustment = required_capital - adjusted_capital"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leac.102.9.1",
@@ -352,8 +637,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "deduct the old fraction from the new fraction", "explain": "a positive result is a gain, a negative one a sacrifice", "compute": "share_change = new_share_fraction - old_share_fraction"}
-   ]
+    {
+     "step": 1,
+     "action": "deduct the old fraction from the new fraction",
+     "explain": "a positive result is a gain, a negative one a sacrifice",
+     "compute": "share_change = new_share_fraction - old_share_fraction"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "share_change = new_share_fraction - old_share_fraction",
+     "compute": "share_change = new_share_fraction - old_share_fraction"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -363,10 +662,23 @@
    "concept": "leac.102.3.2",
    "question_type": "numeric",
    "question_pattern": "Anil and Vishal share profits 3:2. Sumit is admitted for {new_share_fraction} of future profits. Find Anil's new share.",
-   "extracted_variables": {"old_share_fraction": 0.6, "new_share_fraction": 0.2},
+   "extracted_variables": {
+    "old_share_fraction": 0.6,
+    "new_share_fraction": 0.2
+   },
    "solution_template": [
-    {"step": 1, "action": "take away the entrant's slice from the whole", "explain": "remaining profit = 1 - 1/5 = 4/5", "compute": "remaining_share = 1 - new_share_fraction"},
-    {"step": 2, "action": "scale the old fraction by the leftover", "explain": "3/5 of 4/5 = 12/25 = 0.48", "compute": "partner_new_share = old_share_fraction * remaining_share"}
+    {
+     "step": 1,
+     "action": "take away the entrant's slice from the whole",
+     "explain": "remaining profit = 1 - 1/5 = 4/5",
+     "compute": "remaining_share = 1 - new_share_fraction"
+    },
+    {
+     "step": 2,
+     "action": "scale the old fraction by the leftover",
+     "explain": "3/5 of 4/5 = 12/25 = 0.48",
+     "compute": "partner_new_share = old_share_fraction * remaining_share"
+    }
    ]
   },
   {
@@ -375,9 +687,17 @@
    "concept": "leac.102.3.3",
    "question_type": "numeric",
    "question_pattern": "Anshu and Nitu share 3:2. Jyoti is admitted for {surrendered_fraction_a} from Anshu and {surrendered_fraction_b} from Nitu. Find Anshu's new share.",
-   "extracted_variables": {"old_share_fraction": 0.6, "surrendered_fraction": 0.2},
+   "extracted_variables": {
+    "old_share_fraction": 0.6,
+    "surrendered_fraction": 0.2
+   },
    "solution_template": [
-    {"step": 1, "action": "subtract the surrender from the old fraction", "explain": "3/5 - 2/10 = 4/10 = 0.4", "compute": "partner_new_share = old_share_fraction - surrendered_fraction"}
+    {
+     "step": 1,
+     "action": "subtract the surrender from the old fraction",
+     "explain": "3/5 - 2/10 = 4/10 = 0.4",
+     "compute": "partner_new_share = old_share_fraction - surrendered_fraction"
+    }
    ]
   },
   {
@@ -386,9 +706,17 @@
    "concept": "leac.102.4.1",
    "question_type": "numeric",
    "question_pattern": "Rohit and Mohit share 5:3 and admit Bijoy. The new ratio is 4:2:1. Find Rohit's sacrifice.",
-   "extracted_variables": {"old_share_fraction": 0.625, "new_share_fraction": 0.571429},
+   "extracted_variables": {
+    "old_share_fraction": 0.625,
+    "new_share_fraction": 0.571429
+   },
    "solution_template": [
-    {"step": 1, "action": "deduct the new fraction from the old fraction", "explain": "5/8 - 4/7 = 3/56, about 0.0536", "compute": "sacrifice_share = old_share_fraction - new_share_fraction"}
+    {
+     "step": 1,
+     "action": "deduct the new fraction from the old fraction",
+     "explain": "5/8 - 4/7 = 3/56, about 0.0536",
+     "compute": "sacrifice_share = old_share_fraction - new_share_fraction"
+    }
    ]
   },
   {
@@ -397,10 +725,24 @@
    "concept": "leac.102.5.1",
    "question_type": "numeric",
    "question_pattern": "Profits of five years total {profits_total}. Value the goodwill at {years_purchase} years purchase of the average profit.",
-   "extracted_variables": {"profits_total": 2193000, "years_count": 5, "years_purchase": 4},
+   "extracted_variables": {
+    "profits_total": 2193000,
+    "years_count": 5,
+    "years_purchase": 4
+   },
    "solution_template": [
-    {"step": 1, "action": "average the past profits", "explain": "2193000 / 5 = 438600", "compute": "average_profit = profits_total / years_count"},
-    {"step": 2, "action": "multiply by the years purchase", "explain": "438600 x 4 = 1754400", "compute": "goodwill = average_profit * years_purchase"}
+    {
+     "step": 1,
+     "action": "average the past profits",
+     "explain": "2193000 / 5 = 438600",
+     "compute": "average_profit = profits_total / years_count"
+    },
+    {
+     "step": 2,
+     "action": "multiply by the years purchase",
+     "explain": "438600 x 4 = 1754400",
+     "compute": "goodwill = average_profit * years_purchase"
+    }
    ]
   },
   {
@@ -409,12 +751,42 @@
    "concept": "leac.102.5.2",
    "question_type": "numeric",
    "question_pattern": "Adjusted profits {profit1}, {profit2}, {profit3}, {profit4} carry weights 1, 2, 3, 4. Value goodwill at {years_purchase} years purchase of the weighted average.",
-   "extracted_variables": {"profit1": 15400, "w1": 1, "profit2": 17600, "w2": 2, "profit3": 23400, "w3": 3, "profit4": 24620, "w4": 4, "years_purchase": 3},
+   "extracted_variables": {
+    "profit1": 15400,
+    "w1": 1,
+    "profit2": 17600,
+    "w2": 2,
+    "profit3": 23400,
+    "w3": 3,
+    "profit4": 24620,
+    "w4": 4,
+    "years_purchase": 3
+   },
    "solution_template": [
-    {"step": 1, "action": "weight each year's profit", "explain": "15400 + 35200 + 70200 + 98480 = 219280", "compute": "weighted_profit_total = profit1*w1 + profit2*w2 + profit3*w3 + profit4*w4"},
-    {"step": 2, "action": "total the weights", "explain": "1 + 2 + 3 + 4 = 10", "compute": "weights_total = w1 + w2 + w3 + w4"},
-    {"step": 3, "action": "divide the products by the weights", "explain": "219280 / 10 = 21928", "compute": "weighted_average_profit = weighted_profit_total / weights_total"},
-    {"step": 4, "action": "apply the purchase multiplier", "explain": "21928 x 3 = 65784", "compute": "goodwill = weighted_average_profit * years_purchase"}
+    {
+     "step": 1,
+     "action": "weight each year's profit",
+     "explain": "15400 + 35200 + 70200 + 98480 = 219280",
+     "compute": "weighted_profit_total = profit1*w1 + profit2*w2 + profit3*w3 + profit4*w4"
+    },
+    {
+     "step": 2,
+     "action": "total the weights",
+     "explain": "1 + 2 + 3 + 4 = 10",
+     "compute": "weights_total = w1 + w2 + w3 + w4"
+    },
+    {
+     "step": 3,
+     "action": "divide the products by the weights",
+     "explain": "219280 / 10 = 21928",
+     "compute": "weighted_average_profit = weighted_profit_total / weights_total"
+    },
+    {
+     "step": 4,
+     "action": "apply the purchase multiplier",
+     "explain": "21928 x 3 = 65784",
+     "compute": "goodwill = weighted_average_profit * years_purchase"
+    }
    ]
   },
   {
@@ -423,11 +795,31 @@
    "concept": "leac.102.5.3",
    "question_type": "numeric",
    "question_pattern": "Capital employed is {capital_employed}, the normal rate is {normal_rate} percent and the average profit is {average_profit}. Find goodwill at {years_purchase} years purchase of super profit.",
-   "extracted_variables": {"capital_employed": 500000, "normal_rate": 10, "average_profit": 60000, "years_purchase": 3},
+   "extracted_variables": {
+    "capital_employed": 500000,
+    "normal_rate": 10,
+    "average_profit": 60000,
+    "years_purchase": 3
+   },
    "solution_template": [
-    {"step": 1, "action": "compute the normal profit", "explain": "500000 x 10 / 100 = 50000", "compute": "normal_profit = capital_employed * normal_rate / 100"},
-    {"step": 2, "action": "measure the super profit", "explain": "60000 - 50000 = 10000", "compute": "super_profit = average_profit - normal_profit"},
-    {"step": 3, "action": "multiply by the years purchase", "explain": "10000 x 3 = 30000", "compute": "goodwill = super_profit * years_purchase"}
+    {
+     "step": 1,
+     "action": "compute the normal profit",
+     "explain": "500000 x 10 / 100 = 50000",
+     "compute": "normal_profit = capital_employed * normal_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "measure the super profit",
+     "explain": "60000 - 50000 = 10000",
+     "compute": "super_profit = average_profit - normal_profit"
+    },
+    {
+     "step": 3,
+     "action": "multiply by the years purchase",
+     "explain": "10000 x 3 = 30000",
+     "compute": "goodwill = super_profit * years_purchase"
+    }
    ]
   },
   {
@@ -436,10 +828,24 @@
    "concept": "leac.102.5.4",
    "question_type": "numeric",
    "question_pattern": "Average profits are {average_profit}, the normal rate is {normal_rate} percent and net assets are {net_assets}. Find goodwill by capitalisation of average profits.",
-   "extracted_variables": {"average_profit": 100000, "normal_rate": 10, "net_assets": 820000},
+   "extracted_variables": {
+    "average_profit": 100000,
+    "normal_rate": 10,
+    "net_assets": 820000
+   },
    "solution_template": [
-    {"step": 1, "action": "capitalise the average profit", "explain": "100000 x 100 / 10 = 1000000", "compute": "capitalised_value = average_profit * 100 / normal_rate"},
-    {"step": 2, "action": "deduct the net assets", "explain": "1000000 - 820000 = 180000", "compute": "goodwill = capitalised_value - net_assets"}
+    {
+     "step": 1,
+     "action": "capitalise the average profit",
+     "explain": "100000 x 100 / 10 = 1000000",
+     "compute": "capitalised_value = average_profit * 100 / normal_rate"
+    },
+    {
+     "step": 2,
+     "action": "deduct the net assets",
+     "explain": "1000000 - 820000 = 180000",
+     "compute": "goodwill = capitalised_value - net_assets"
+    }
    ]
   },
   {
@@ -448,11 +854,30 @@
    "concept": "leac.102.5.5",
    "question_type": "numeric",
    "question_pattern": "Average profit is {average_profit} on capital employed of {capital_employed}; the normal rate is {normal_rate} percent. Find goodwill by capitalising super profits.",
-   "extracted_variables": {"average_profit": 30000, "capital_employed": 200000, "normal_rate": 10},
+   "extracted_variables": {
+    "average_profit": 30000,
+    "capital_employed": 200000,
+    "normal_rate": 10
+   },
    "solution_template": [
-    {"step": 1, "action": "compute the normal profit", "explain": "200000 x 10 / 100 = 20000", "compute": "normal_profit = capital_employed * normal_rate / 100"},
-    {"step": 2, "action": "measure the super profit", "explain": "30000 - 20000 = 10000", "compute": "super_profit = average_profit - normal_profit"},
-    {"step": 3, "action": "capitalise the super profit", "explain": "10000 x 100 / 10 = 100000", "compute": "goodwill = super_profit * 100 / normal_rate"}
+    {
+     "step": 1,
+     "action": "compute the normal profit",
+     "explain": "200000 x 10 / 100 = 20000",
+     "compute": "normal_profit = capital_employed * normal_rate / 100"
+    },
+    {
+     "step": 2,
+     "action": "measure the super profit",
+     "explain": "30000 - 20000 = 10000",
+     "compute": "super_profit = average_profit - normal_profit"
+    },
+    {
+     "step": 3,
+     "action": "capitalise the super profit",
+     "explain": "10000 x 100 / 10 = 100000",
+     "compute": "goodwill = super_profit * 100 / normal_rate"
+    }
    ]
   },
   {
@@ -461,9 +886,17 @@
    "concept": "leac.102.5.6",
    "question_type": "numeric",
    "question_pattern": "A firm's goodwill is valued at {firm_goodwill}. Ajay is admitted for a {new_share_fraction} share. Find the premium he must bring.",
-   "extracted_variables": {"firm_goodwill": 20000, "new_share_fraction": 0.25},
+   "extracted_variables": {
+    "firm_goodwill": 20000,
+    "new_share_fraction": 0.25
+   },
    "solution_template": [
-    {"step": 1, "action": "apply the acquired fraction to the firm goodwill", "explain": "20000 x 1/4 = 5000", "compute": "premium_amount = firm_goodwill * new_share_fraction"}
+    {
+     "step": 1,
+     "action": "apply the acquired fraction to the firm goodwill",
+     "explain": "20000 x 1/4 = 5000",
+     "compute": "premium_amount = firm_goodwill * new_share_fraction"
+    }
    ]
   },
   {
@@ -472,10 +905,24 @@
    "concept": "leac.102.5.7",
    "question_type": "numeric",
    "question_pattern": "Sam brings {incoming_capital} for a {new_share_fraction} share; the combined capitals are {combined_capital}. Find the hidden goodwill.",
-   "extracted_variables": {"incoming_capital": 60000, "new_share_fraction": 0.2, "combined_capital": 190000},
+   "extracted_variables": {
+    "incoming_capital": 60000,
+    "new_share_fraction": 0.2,
+    "combined_capital": 190000
+   },
    "solution_template": [
-    {"step": 1, "action": "gross up the entrant's capital", "explain": "60000 / 0.2 = 300000", "compute": "implied_capital = incoming_capital / new_share_fraction"},
-    {"step": 2, "action": "compare with the actual capital", "explain": "300000 - 190000 = 110000", "compute": "hidden_goodwill = implied_capital - combined_capital"}
+    {
+     "step": 1,
+     "action": "gross up the entrant's capital",
+     "explain": "60000 / 0.2 = 300000",
+     "compute": "implied_capital = incoming_capital / new_share_fraction"
+    },
+    {
+     "step": 2,
+     "action": "compare with the actual capital",
+     "explain": "300000 - 190000 = 110000",
+     "compute": "hidden_goodwill = implied_capital - combined_capital"
+    }
    ]
   },
   {
@@ -484,9 +931,17 @@
    "concept": "leac.102.6.1",
    "question_type": "numeric",
    "question_pattern": "A general reserve of {accumulated_amount} exists when Narender is admitted. Rajinder and Surinder share 4:1. Find Rajinder's share of the reserve.",
-   "extracted_variables": {"accumulated_amount": 20000, "old_share_fraction": 0.8},
+   "extracted_variables": {
+    "accumulated_amount": 20000,
+    "old_share_fraction": 0.8
+   },
    "solution_template": [
-    {"step": 1, "action": "apply the old fraction to the accumulated amount", "explain": "20000 x 4/5 = 16000", "compute": "partner_share = accumulated_amount * old_share_fraction"}
+    {
+     "step": 1,
+     "action": "apply the old fraction to the accumulated amount",
+     "explain": "20000 x 4/5 = 16000",
+     "compute": "partner_share = accumulated_amount * old_share_fraction"
+    }
    ]
   },
   {
@@ -495,10 +950,24 @@
    "concept": "leac.102.7.1",
    "question_type": "numeric",
    "question_pattern": "Revaluation gains total {gains_total} and losses total {losses_total}. A and B share 3:2. Find A's share of the revaluation profit.",
-   "extracted_variables": {"gains_total": 4100, "losses_total": 3300, "old_share_fraction": 0.6},
+   "extracted_variables": {
+    "gains_total": 4100,
+    "losses_total": 3300,
+    "old_share_fraction": 0.6
+   },
    "solution_template": [
-    {"step": 1, "action": "net the revisions", "explain": "4100 - 3300 = 800", "compute": "net_revaluation = gains_total - losses_total"},
-    {"step": 2, "action": "give each old partner his slice", "explain": "800 x 3/5 = 480", "compute": "partner_share = net_revaluation * old_share_fraction"}
+    {
+     "step": 1,
+     "action": "net the revisions",
+     "explain": "4100 - 3300 = 800",
+     "compute": "net_revaluation = gains_total - losses_total"
+    },
+    {
+     "step": 2,
+     "action": "give each old partner his slice",
+     "explain": "800 x 3/5 = 480",
+     "compute": "partner_share = net_revaluation * old_share_fraction"
+    }
    ]
   },
   {
@@ -507,11 +976,31 @@
    "concept": "leac.102.8.1",
    "question_type": "numeric",
    "question_pattern": "C brings {base_capital} for a {base_share_fraction} share. A's share is {partner_share_fraction} and A's adjusted capital is {adjusted_capital}. Find A's capital adjustment.",
-   "extracted_variables": {"base_capital": 20000, "base_share_fraction": 0.25, "partner_share_fraction": 0.5, "adjusted_capital": 45000},
+   "extracted_variables": {
+    "base_capital": 20000,
+    "base_share_fraction": 0.25,
+    "partner_share_fraction": 0.5,
+    "adjusted_capital": 45000
+   },
    "solution_template": [
-    {"step": 1, "action": "gross up to the total capital", "explain": "20000 / 0.25 = 80000", "compute": "total_capital = base_capital / base_share_fraction"},
-    {"step": 2, "action": "fix the partner's required capital", "explain": "80000 x 0.5 = 40000", "compute": "required_capital = total_capital * partner_share_fraction"},
-    {"step": 3, "action": "measure the gap", "explain": "40000 - 45000 = -5000, so A withdraws 5000", "compute": "capital_adjustment = required_capital - adjusted_capital"}
+    {
+     "step": 1,
+     "action": "gross up to the total capital",
+     "explain": "20000 / 0.25 = 80000",
+     "compute": "total_capital = base_capital / base_share_fraction"
+    },
+    {
+     "step": 2,
+     "action": "fix the partner's required capital",
+     "explain": "80000 x 0.5 = 40000",
+     "compute": "required_capital = total_capital * partner_share_fraction"
+    },
+    {
+     "step": 3,
+     "action": "measure the gap",
+     "explain": "40000 - 45000 = -5000, so A withdraws 5000",
+     "compute": "capital_adjustment = required_capital - adjusted_capital"
+    }
    ]
   },
   {
@@ -520,9 +1009,17 @@
    "concept": "leac.102.9.1",
    "question_type": "numeric",
    "question_pattern": "Partners move from an {old_share_fraction} share to a {new_share_fraction} share. Find the change for that partner.",
-   "extracted_variables": {"old_share_fraction": 0.5, "new_share_fraction": 0.3125},
+   "extracted_variables": {
+    "old_share_fraction": 0.5,
+    "new_share_fraction": 0.3125
+   },
    "solution_template": [
-    {"step": 1, "action": "deduct the old fraction from the new fraction", "explain": "0.3125 - 0.5 = -0.1875, a sacrifice of 3/16", "compute": "share_change = new_share_fraction - old_share_fraction"}
+    {
+     "step": 1,
+     "action": "deduct the old fraction from the new fraction",
+     "explain": "0.3125 - 0.5 = -0.1875, a sacrifice of 3/16",
+     "compute": "share_change = new_share_fraction - old_share_fraction"
+    }
    ]
   }
  ],

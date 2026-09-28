@@ -34,6 +34,31 @@
      "q": "Design a simple experiment to investigate \"Does the amount of salt affect the boiling point of water?\" Specify the independent variable, dependent variable, and at least four controlled variables. Write a step-by-step procedure a Class 8 student could follow in a school lab.",
      "a": "Independent: mass of salt added (e.g., 0 g, 5 g, 10 g, 15 g per 100 mL water). Dependent: boiling point of solution (°C). Controlled: volume of water (100 mL), type of salt (NaCl), heating rate (same burner setting), same beaker, same thermometer, atmospheric pressure (same day). Procedure: 1) Measure 100 mL water into beaker. 2) Add 0 g salt, heat, record boiling point. 3) Repeat with 5 g, 10 g, 15 g salt. 4) Plot boiling point vs. salt mass. A poor design omits controlled variables, uses vague amounts, or lacks repetition, showing the student cannot translate a question into a fair-test plan.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Variables in an experiment are the factors that can change; the independent variable is the one factor ______ changed by the investigator, the dependent variable is the factor measured or observed in response, and controlled variables are all other factors kept constant to ensure a fair test.",
+     "a": "deliberately",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are testing which brand of notebook ______ absorbs water fastest — you dip sheets of different brands into a bowl and time how long until the water reaches a marked line.",
+     "a": "paper",
+     "self_check": true
+    },
+    {
+     "q": "What is Variables in an experiment? State the definition given in this lesson.",
+     "a": "Variables in an experiment are the factors that can change; the independent variable is the one factor deliberately changed by the investigator, the dependent variable is the factor measured or observed in response, and controlled variables are all other factors kept constant to ensure a fair test.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Variables in an experiment?",
+     "a": "Students often think \"controlled variable\" means \"the variable you control (i.e., change)\" because the word \"control\" suggests active manipulation in everyday language.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the independent, dependent, and controlled variables in a described experiment, explain why controlling variables is necessary for a fair test, and design a simple experiment specifying all three variable types with justification.",
+     "self_check": true
     }
    ]
   }

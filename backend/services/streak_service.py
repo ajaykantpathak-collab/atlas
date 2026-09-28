@@ -25,10 +25,11 @@ from __future__ import annotations
 import asyncio
 import logging
 from collections import deque
+from contextlib import asynccontextmanager, suppress
 from dataclasses import dataclass, field
 from datetime import date, datetime, timedelta
 from enum import Enum
-from typing import Any, Awaitable, Callable, Deque, Optional
+from typing import Any, AsyncIterator, Awaitable, Callable, Deque, Optional
 
 from sqlalchemy import and_, func, select
 from sqlalchemy.ext.asyncio import AsyncSession
@@ -41,6 +42,38 @@ from database import (
 )
 
 logger = logging.getLogger(__name__)
+
+# ─────────────────────────────────────────────────────────────
+# Session scope
+# ─────────────────────────────────────────────────────────────
+# The factories this service is documented to accept come in two shapes:
+#   * `database.async_session`  — an async_sessionmaker (async context manager)
+#   * `database.get_db`         — an async *generator* (the FastAPI dependency,
+#                                 which yields a session and commits/rolls back)
+# The docstrings above pass `get_db`, but `async with get_db()` raises
+#   TypeError: 'async_generator' object does not support the asynchronous
+#   'with' protocol
+# in every DB path of this module. `_db_scope` accepts either shape so wiring
+# this service per its own documentation cannot crash on the first query.
+
+
+@asynccontextmanager
+async def _db_scope(get_db: Callable[[], Any]) -> AsyncIterator[AsyncSession]:
+    factory = get_db()
+    if hasattr(factory, "__aenter__"):
+        # Already a context manager (sessionmaker).
+        async with factory as session:
+            yield session
+        return
+    # An async generator: advance it to the session, then exhaust it so the
+    # dependency's own commit/rollback/close tail runs.
+    agen = factory
+    session = await agen.__anext__()
+    try:
+        yield session
+    finally:
+        with suppress(StopAsyncIteration):
+            await agen.asend(None)
 
 # ─────────────────────────────────────────────────────────────
 # Constants
@@ -448,14 +481,14 @@ class StreakService:
             # Return best-effort estimate without DB round-trip
             return await self.get_streak(student_id)
 
-        async with self.get_db() as session:
+        async with _db_scope(self.get_db) as session:
             return await self._record_practice_db(
                 session, student_id, target_date
             )
 
     async def get_streak(self, student_id: int) -> StreakInfo:
         """Return the current streak snapshot for a student."""
-        async with self.get_db() as session:
+        async with _db_scope(self.get_db) as session:
             return await self._get_streak_db(session, student_id)
 
     async def check_streak_status(self, student_id: int) -> StreakState:
@@ -504,7 +537,7 @@ class StreakService:
             await self._offline_queue.enqueue(action)
             return await self.get_streak(student_id)
 
-        async with self.get_db() as session:
+        async with _db_scope(self.get_db) as session:
             info = await self._get_streak_db(session, student_id)
             if info.grace_days_remaining <= 0:
                 logger.warning(
@@ -546,7 +579,7 @@ class StreakService:
         -------
         MonthlyStats with practiced days, grace days used, and streak events
         """
-        async with self.get_db() as session:
+        async with _db_scope(self.get_db) as session:
             return await self._get_monthly_stats_db(
                 session, student_id, year, month
             )
@@ -563,7 +596,7 @@ class StreakService:
             return 0
 
         synced = 0
-        async with self.get_db() as session:
+        async with _db_scope(self.get_db) as session:
             for action in actions:
                 try:
                     if action.action_type == "record_practice":
@@ -914,7 +947,7 @@ class StreakService:
         Manually reset a student's streak (e.g., student opts to start fresh).
         Longest and total_days are preserved.
         """
-        async with self.get_db() as session:
+        async with _db_scope(self.get_db) as session:
             result = await session.execute(
                 select(Student).where(Student.id == student_id)
             )
@@ -937,7 +970,7 @@ class StreakService:
         Force-reset grace days to GRACE_DAYS_PER_MONTH.
         Called automatically at month rollover by the monthly reset job.
         """
-        async with self.get_db() as session:
+        async with _db_scope(self.get_db) as session:
             result = await session.execute(
                 select(Student).where(Student.id == student_id)
             )
@@ -954,7 +987,7 @@ class StreakService:
         self, student_id: int, limit: Optional[int] = None
     ) -> list[date]:
         """Return all practice dates for a student, optionally limited."""
-        async with self.get_db() as session:
+        async with _db_scope(self.get_db) as session:
             query = (
                 select(StreakRecord.date)
                 .where(
@@ -973,7 +1006,7 @@ class StreakService:
     async def has_practiced_today(self, student_id: int) -> bool:
         """Quick check: has this student already practiced today?"""
         today = self._today or date.today()
-        async with self.get_db() as session:
+        async with _db_scope(self.get_db) as session:
             result = await session.execute(
                 select(StreakRecord.id).where(
                     and_(
@@ -1007,7 +1040,7 @@ async def monthly_streak_maintenance(get_db: Callable[[], AsyncSession]) -> None
     2. Expire stale frozen streaks (frozen longer than STREAK_BREAK_GAP_DAYS)
     """
     today = date.today()
-    async with get_db() as session:
+    async with _db_scope(get_db) as session:
         # Reset grace days for all students
         result = await session.execute(select(Student.id))
         student_ids = [row[0] for row in result.all()]

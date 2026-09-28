@@ -1,6 +1,241 @@
 {
- "catalog": "catalog_class11_biotechnology_kebt103",
+ "catalog": "catalog_class11_biotechnology_kebt103.json",
  "concepts": [
+  {
+   "id": "kebt103.2",
+   "title": "Stereoisomers, Anomers and Epimers of Sugars",
+   "converted_to_compute": true,
+   "formula": "stereoisomers = 2 ** chiral_centres",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "stereoisomers = 2 ** chiral_centres",
+     "compute": "stereoisomers = 2 ** chiral_centres"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Stereoisomers, Anomers and Epimers of Sugars: given chiral_centres = 54, find stereoisomers.",
+     "a": "18014398509481984",
+     "self_check": false
+    },
+    {
+     "q": "For Stereoisomers, Anomers and Epimers of Sugars: given chiral_centres = 52, find stereoisomers.",
+     "a": "4503599627370496",
+     "self_check": false
+    },
+    {
+     "q": "For Stereoisomers, Anomers and Epimers of Sugars: given chiral_centres = 58, find stereoisomers.",
+     "a": "288230376151711744",
+     "self_check": false
+    },
+    {
+     "q": "For Stereoisomers, Anomers and Epimers of Sugars: given chiral_centres = 15, find stereoisomers.",
+     "a": "32768",
+     "self_check": false
+    },
+    {
+     "q": "For Stereoisomers, Anomers and Epimers of Sugars: given chiral_centres = 6.8, find stereoisomers.",
+     "a": "111.43",
+     "self_check": false
+    },
+    {
+     "q": "For Stereoisomers, Anomers and Epimers of Sugars: given chiral_centres = 11.5, find stereoisomers.",
+     "a": "2896.31",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebt103.3",
+   "title": "Storage and Structural Polysaccharides",
+   "converted_to_compute": true,
+   "formula": "amylopectin_pct = 100 - amylose_pct",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "amylopectin_pct = 100 - amylose_pct",
+     "compute": "amylopectin_pct = 100 - amylose_pct"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Storage and Structural Polysaccharides: given amylose_pct = 72, find amylopectin pct.",
+     "a": "28",
+     "self_check": false
+    },
+    {
+     "q": "For Storage and Structural Polysaccharides: given amylose_pct = 48, find amylopectin pct.",
+     "a": "52",
+     "self_check": false
+    },
+    {
+     "q": "For Storage and Structural Polysaccharides: given amylose_pct = 44, find amylopectin pct.",
+     "a": "56",
+     "self_check": false
+    },
+    {
+     "q": "For Storage and Structural Polysaccharides: given amylose_pct = 67, find amylopectin pct.",
+     "a": "33",
+     "self_check": false
+    },
+    {
+     "q": "For Storage and Structural Polysaccharides: given amylose_pct = 5.4, find amylopectin pct.",
+     "a": "94.6",
+     "self_check": false
+    },
+    {
+     "q": "For Storage and Structural Polysaccharides: given amylose_pct = 88, find amylopectin pct.",
+     "a": "12",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebt103.4",
+   "title": "Fatty Acid Notation and Unsaturation",
+   "converted_to_compute": true,
+   "formula": "hydrogen_atoms = 2 * carbon_count - 2 * double_bonds",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "hydrogen_atoms = 2 * carbon_count - 2 * double_bonds",
+     "compute": "hydrogen_atoms = 2 * carbon_count - 2 * double_bonds"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Fatty Acid Notation and Unsaturation: given carbon_count = 1, double_bonds = 52, find hydrogen atoms.",
+     "a": "-102",
+     "self_check": false
+    },
+    {
+     "q": "For Fatty Acid Notation and Unsaturation: given carbon_count = 10.5, double_bonds = 29, find hydrogen atoms.",
+     "a": "-37",
+     "self_check": false
+    },
+    {
+     "q": "For Fatty Acid Notation and Unsaturation: given carbon_count = 5.7, double_bonds = 79, find hydrogen atoms.",
+     "a": "-146.6",
+     "self_check": false
+    },
+    {
+     "q": "For Fatty Acid Notation and Unsaturation: given carbon_count = 8.5, double_bonds = 95, find hydrogen atoms.",
+     "a": "-173",
+     "self_check": false
+    },
+    {
+     "q": "For Fatty Acid Notation and Unsaturation: given carbon_count = 2.3, double_bonds = 16.3, find hydrogen atoms.",
+     "a": "-28",
+     "self_check": false
+    },
+    {
+     "q": "For Fatty Acid Notation and Unsaturation: given carbon_count = 17.8, double_bonds = 60, find hydrogen atoms.",
+     "a": "-84.4",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebt103.7",
+   "title": "Peptide Bonds and Protein Structure Levels",
+   "converted_to_compute": true,
+   "formula": "peptide_bonds = residues - 1",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "peptide_bonds = residues - 1",
+     "compute": "peptide_bonds = residues - 1"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Peptide Bonds and Protein Structure Levels: given residues = 95, find peptide bonds.",
+     "a": "94",
+     "self_check": false
+    },
+    {
+     "q": "For Peptide Bonds and Protein Structure Levels: given residues = 91, find peptide bonds.",
+     "a": "90",
+     "self_check": false
+    },
+    {
+     "q": "For Peptide Bonds and Protein Structure Levels: given residues = 43, find peptide bonds.",
+     "a": "42",
+     "self_check": false
+    },
+    {
+     "q": "For Peptide Bonds and Protein Structure Levels: given residues = 6.8, find peptide bonds.",
+     "a": "5.8",
+     "self_check": false
+    },
+    {
+     "q": "For Peptide Bonds and Protein Structure Levels: given residues = 50, find peptide bonds.",
+     "a": "49",
+     "self_check": false
+    },
+    {
+     "q": "For Peptide Bonds and Protein Structure Levels: given residues = 15.8, find peptide bonds.",
+     "a": "14.8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebt103.8",
+   "title": "Nucleic Acids and the Double Helix",
+   "converted_to_compute": true,
+   "formula": "hbonds_total = at_pairs * 2 + gc_pairs * 3",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "hbonds_total = at_pairs * 2 + gc_pairs * 3",
+     "compute": "hbonds_total = at_pairs * 2 + gc_pairs * 3"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Nucleic Acids and the Double Helix: given at_pairs = 55, gc_pairs = 83, find hbonds total.",
+     "a": "359",
+     "self_check": false
+    },
+    {
+     "q": "For Nucleic Acids and the Double Helix: given at_pairs = 66, gc_pairs = 73, find hbonds total.",
+     "a": "351",
+     "self_check": false
+    },
+    {
+     "q": "For Nucleic Acids and the Double Helix: given at_pairs = 98, gc_pairs = 88, find hbonds total.",
+     "a": "460",
+     "self_check": false
+    },
+    {
+     "q": "For Nucleic Acids and the Double Helix: given at_pairs = 61, gc_pairs = 73, find hbonds total.",
+     "a": "341",
+     "self_check": false
+    },
+    {
+     "q": "For Nucleic Acids and the Double Helix: given at_pairs = 15.2, gc_pairs = 62, find hbonds total.",
+     "a": "216.4",
+     "self_check": false
+    },
+    {
+     "q": "For Nucleic Acids and the Double Helix: given at_pairs = 118, gc_pairs = 75, find hbonds total.",
+     "a": "461",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "kebt103.1",
    "title": "Classification of Carbohydrates",
@@ -18,99 +253,6 @@
     {
      "q": "Under which section is 'Classification of Carbohydrates' taught, and from which source text?",
      "a": "3.1 (source: kebt103.txt section 3.1, Table 3.1)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebt103.2",
-   "title": "Stereoisomers, Anomers and Epimers of Sugars",
-   "questions": [
-    {
-     "q": "Using the method 'Stereoisomers, Anomers and Epimers of Sugars', work with: chiral_centres = 24. Carry the chain through step by step and give the final value of stereoisomers.",
-     "a": "16777216 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Stereoisomers, Anomers and Epimers of Sugars' and work with: chiral_centres = 12. Carry the chain through step by step and give the final value of stereoisomers.",
-     "a": "4096 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Stereoisomers, Anomers and Epimers of Sugars' refers to.",
-     "a": "Every asymmetric carbon doubles the possible spatial forms of a sugar, so n chiral centres allow 2 raised to n stereoisomers; glucose alone thus has sixteen, ring closure creates alpha and beta anomers that interconvert by mutarotation, and sugars differing at a single carbon such as mannose at C-2 or galactose at C-4 are epimers.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Stereoisomers, Anomers and Epimers of Sugars'.",
-     "a": "Two to the power of chiral centres counts all stereoisomers; one differing carbon makes epimers, one differing anomeric carbon makes anomers.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Stereoisomers, Anomers and Epimers of Sugars', in plain ASCII form.",
-     "a": "stereoisomers = 2 ** chiral_centres",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebt103.3",
-   "title": "Storage and Structural Polysaccharides",
-   "questions": [
-    {
-     "q": "Using the method 'Storage and Structural Polysaccharides', work with: amylose_mid = 17.5. Carry the chain through step by step and give the final value of amylopectin_pct.",
-     "a": "82.5 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Storage and Structural Polysaccharides' and work with: amylose_mid = 17.5. Carry the chain through step by step and give the final value of amylopectin_pct.",
-     "a": "82.5 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Storage and Structural Polysaccharides' refers to.",
-     "a": "Long sugar chains either bank energy or build bodies: starch in plants blends about 15-20 percent unbranched amylose with the rest being branched amylopectin, glycogen serves the same fuel role in animals, while cellulose and chitin supply load-bearing walls and exoskeletons; humans cannot digest cellulose for lack of cellulase, though cattle gut microbes can.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Storage and Structural Polysaccharides'.",
-     "a": "Subtract the amylose fraction from 100 to price the branched amylopectin fraction of starch.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Storage and Structural Polysaccharides', in plain ASCII form.",
-     "a": "amylopectin_pct = 100 - amylose_pct",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebt103.4",
-   "title": "Fatty Acid Notation and Unsaturation",
-   "questions": [
-    {
-     "q": "Using the method 'Fatty Acid Notation and Unsaturation', work with: carbon_count = 80, double_bonds = 5. Carry the chain through step by step and give the final value of hydrogen_atoms.",
-     "a": "150 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Fatty Acid Notation and Unsaturation' and work with: carbon_count = 360, double_bonds = 75. Carry the chain through step by step and give the final value of hydrogen_atoms.",
-     "a": "570 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Fatty Acid Notation and Unsaturation' refers to.",
-     "a": "Fatty chains are written carbon-count colon double-bond-count, with delta superscripts fixing where the unsaturation falls, so 18:2 (delta 9,12) is linoleic acid; being assembled from two-carbon pieces, natural chains carry even carbon totals, and each double bond removes two hydrogens from the saturated formula.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Fatty Acid Notation and Unsaturation'.",
-     "a": "Decode the notation to read chain length and unsaturation; every double bond costs two hydrogens.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Fatty Acid Notation and Unsaturation', in plain ASCII form.",
-     "a": "hydrogen_atoms = 2 * carbon_count - 2 * double_bonds",
      "self_check": true
     }
    ]
@@ -153,68 +295,6 @@
     {
      "q": "Under which section is 'Amino Acids and the Zwitterion' taught, and from which source text?",
      "a": "3.3 (source: kebt103.txt section 3.3, Table 3.4, Figs. 3.16-3.23)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebt103.7",
-   "title": "Peptide Bonds and Protein Structure Levels",
-   "questions": [
-    {
-     "q": "Using the method 'Peptide Bonds and Protein Structure Levels', work with: residues = 45. Carry the chain through step by step and give the final value of protein_mass.",
-     "a": "4950 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Peptide Bonds and Protein Structure Levels' and work with: residues = 100. Carry the chain through step by step and give the final value of protein_mass.",
-     "a": "11000 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Peptide Bonds and Protein Structure Levels' refers to.",
-     "a": "Coupling the carboxyl of one amino acid to the amino of the next forges a peptide bond with a water molecule lost at every link, so a chain of n residues holds n-1 such bonds; folding then stacks four levels - primary sequence, secondary alpha helix or beta sheet, tertiary packing with disulfide and hydrophobic ties, and quaternary assembly of subunits.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Peptide Bonds and Protein Structure Levels'.",
-     "a": "One water leaves per bond, so subtract one from the residue count for bonds; multiply residues by 110 Da to size the protein.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Peptide Bonds and Protein Structure Levels', in plain ASCII form.",
-     "a": "peptide_bonds = residues - 1",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebt103.8",
-   "title": "Nucleic Acids and the Double Helix",
-   "questions": [
-    {
-     "q": "Using the method 'Nucleic Acids and the Double Helix', work with: at_pairs = 12, bp_total = 15. Carry the chain through step by step and give the final value of hbonds_total.",
-     "a": "33 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Nucleic Acids and the Double Helix' and work with: at_pairs = 10, bp_total = 20. Carry the chain through step by step and give the final value of hbonds_total.",
-     "a": "50 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Nucleic Acids and the Double Helix' refers to.",
-     "a": "Nucleotides - a nitrogenous base plus pentose sugar plus phosphate - string together through phosphodiester links into DNA or RNA; Watson and Crick wound two antiparallel strands into a right-handed double helix where adenine pairs thymine over two hydrogen bonds and guanine pairs cytosine over three, and heating melts the strands apart below-or-above a characteristic temperature until annealing re-pairs them.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Nucleic Acids and the Double Helix'.",
-     "a": "Two bonds per A-T pair and three per G-C pair let you total the hydrogen bonding holding any DNA segment together.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Nucleic Acids and the Double Helix', in plain ASCII form.",
-     "a": "hbonds_total = at_pairs * 2 + gc_pairs * 3",
      "self_check": true
     }
    ]

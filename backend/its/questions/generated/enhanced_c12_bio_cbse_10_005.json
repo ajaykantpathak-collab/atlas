@@ -34,6 +34,31 @@
      "q": "Design a simple experiment to demonstrate that methane production in a biogas digester is due to living methanogens and not a chemical reaction. Specify control, variable, and measurable outcome.",
      "a": "Expected answer: Set up two identical mini-digesters with fresh dung slurry. Autoclave one (kills microbes) and leave the other untreated. Incubate both at 35°C. Measure gas volume and methane % daily for 10 days. The live digester will show increasing CH₄; the autoclaved control will show negligible CH₄ (only initial dissolved gas). A poor answer uses \"boiling\" instead of autoclaving (may not kill spores) or measures only total gas without CH₄ analysis, missing the specificity of methanogenesis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Methanogens are obligate anaerobic ______ that produce methane (CH₄) as a metabolic byproduct during the anaerobic decomposition of cellulosic organic matter (such as cattle dung) in a biogas plant, yielding a combustible gas mixture called biogas (50–70% methane, 30–50% CO₂, traces of H₂S, N₂, H₂).",
+     "a": "archaebacteria",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a rural household in Punjab where ______ dung is collected daily and fed into an underground brick tank; after a few weeks, a gas pipe connected to the kitchen stove burns with a blue flame.",
+     "a": "cattle",
+     "self_check": true
+    },
+    {
+     "q": "What is Methanogens? State the definition given in this lesson.",
+     "a": "Methanogens are obligate anaerobic archaebacteria that produce methane (CH₄) as a metabolic byproduct during the anaerobic decomposition of cellulosic organic matter (such as cattle dung) in a biogas plant, yielding a combustible gas mixture called biogas (50–70% methane, 30–50% CO₂, traces of H₂S, N₂, H₂).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Methanogens?",
+     "a": "Students often think methanogens are bacteria that \"eat dung and breathe out methane\" like animals breathe out CO₂.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the sequential microbial processes (hydrolysis, acidogenesis, acetogenesis, methanogenesis) in a biogas digester, identify the role of methanogens, and describe the structure and working of a fixed-dome biogas plant with the fate of spent slurry.",
+     "self_check": true
     }
    ]
   }

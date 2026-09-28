@@ -32,7 +32,32 @@
     },
     {
      "q": "Design a strategy to construct a genomic library for a newly sequenced extremophile bacterium with a 4.2 Mb genome, where the goal is to express eukaryotic-like proteins in E. coli. Specify: (a) vector choice with justification, (b) restriction enzyme strategy to maximize representation of ORFs with native ribosome binding sites, and (c) one modification to the standard protocol to reduce cloning bias against AT-rich or GC-rich regions.",
-     "a": "(a) Vector: Cosmid (35-45 kb insert) or fosmid (40 kb, single-copy F-plasmid origin) — larger inserts reduce clone number needed (N ≈ 4.2 Mb/40 kb × ln(100) ≈ 480 clones for 99% coverage) and maintain stability in E. coli. (b) Use partial digestion with a 4-bp cutter (e.g., Sau3AI, ^GATC) instead of complete digestion with a 6-bp cutter — generates overlapping fragments of controlled size range (30-45 kb), preserving native promoter-RBS-ORF continuity better than complete digestion which may cut within genes. (c) Use PCR-free library prep with mechanical shearing (Covaris) + end-repair/A-tailing instead of restriction digestion — avoids sequence-specific bias of restriction enzymes against AT-rich or GC-rich regions where recognition sites are over/under-represented. A poor answer choosing \"plasmid vector with EcoRI complete digestion\" reveals ignorance of insert capacity limits, restriction site bias, and the need for native regulatory elements for expression.",
+     "a": "(1) Vector choice — a cosmid or fosmid carrying 35 to 45 kb inserts, so a 4.2 Mb genome needs only a few hundred clones for 99 percent coverage and stays stable in E. coli, (2) Enzyme strategy — partial digestion with a 4-base cutter such as Sau3AI yields overlapping fragments in the right size range and preserves native promoter, ribosome-binding-site and ORF continuity better than complete digestion, which can cut inside genes, (3) De-biasing modification — replace restriction digestion with mechanical shearing followed by end-repair and A-tailing, avoiding sequence-specific bias against AT-rich or GC-rich regions. A poor answer choosing a plasmid vector with complete EcoRI digestion ignores insert capacity limits, restriction site bias and the need for native regulatory elements for expression.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A genomic library is a collection of ______ DNA clones, each containing a different fragment of an organism's entire genomic DNA, that together represent the complete genome including both coding (exons) and non-coding (introns, regulatory sequences, repetitive DNA) regions, maintained in a population of host cells (typically E. coli) via vectors such as plasmids, cosmids, BACs, or YACs.",
+     "a": "recombinant",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have the ______ instruction manual for building a human (the genome) but it's one massive 3-billion-letter book with no index.",
+     "a": "entire",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have the entire instruction manual for building a human (the genome) but it's one massive ______-billion-letter book with no index.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) list the sequential steps in genomic library construction with the specific enzyme/vector/host used at each step, and (2) explain why a genomic library contains non-coding sequences while a cDNA library does not, using the terms \"introns,\" \"promoters,\" and \"reverse transcriptase\" correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have the entire ______ manual for building a human (the genome) but it's one massive 3-billion-letter book with no index.",
+     "a": "instruction",
      "self_check": true
     }
    ]

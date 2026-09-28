@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using radioactive labeling to prove that RNA is synthesized from a DNA template in the 5'→3' direction. Specify the isotope, incubation times, and expected results.",
      "a": "Use α-³²P-UTP (labels 5' end of incoming nucleotide). Incubate cell extract with DNA template for very short pulses (15 sec, 30 sec, 60 sec). Isolate RNA, digest with RNase T1 (cuts after G), run on gel electrophoresis. Shortest pulses show label only in shortest fragments near 5' end of gene; longer pulses show label progressively further along. This proves 5'→3' synthesis (5' end made first). A poor design (e.g., using ³H-uracil without pulse-chase, or measuring total incorporation only) fails to demonstrate directionality — tests experimental reasoning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the biological process where a specific segment of DNA (a gene) is copied into a complementary RNA strand by the enzyme RNA polymerase, using one DNA strand as a template, following base-pairing rules (A↔U, T↔A, G↔C, C↔G) in the 5'→3' direction.",
+     "a": "Transcription",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Think about how a recipe book (DNA) in a library nucleus cannot leave the room, but you need the instructions in the kitchen (cytoplasm) to cook a meal (______).",
+     "a": "protein",
+     "self_check": true
+    },
+    {
+     "q": "What is Transcription? State the definition given in this lesson.",
+     "a": "Transcription is the biological process where a specific segment of DNA (a gene) is copied into a complementary RNA strand by the enzyme RNA polymerase, using one DNA strand as a template, following base-pairing rules (A↔U, T↔A, G↔C, C↔G) in the 5'→3' direction.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Transcription?",
+     "a": "Students often think: \"RNA polymerase reads the coding strand because it has the same sequence as mRNA.\" The correct reasoning: RNA polymerase reads the template strand (3'→5') to make complementary RNA (5'→3'); the coding strand is not read — it merely has the same sequence as RNA (T→U).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the three stages of transcription (initiation, elongation, termination) in both prokaryotes and eukaryotes, identify the role of promoter, terminator, sigma factor, and RNA polymerase subunits, and describe post-transcriptional modifications (capping, polyadenylation, splicing) that convert pre-mRNA to mature mRNA.",
+     "self_check": true
     }
    ]
   }

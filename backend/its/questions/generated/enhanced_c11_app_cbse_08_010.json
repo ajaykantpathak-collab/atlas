@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_08_010",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_08_010",
+   "title": "c11_app_cbse_08_010",
+   "questions": [
+    {
+     "q": "State the exact formula for the equation of the tangent line to the curve y = f(x) at the point where x = a, using the derivative f'(a) and the function value f(a).",
+     "a": "The equation is y - f(a) = f'(a)(x - a) or equivalently y = f'(a)(x - a) + f(a). A wrong answer like y = f'(a)x + f(a) reveals the student confuses the point-slope form with slope-intercept form and doesn't understand that the tangent passes through (a, f(a)), not (0, f(a)). Another common error: writing m = f(a) instead of m = f'(a), showing confusion between the function value and its derivative.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the derivative f'(a) gives the slope of the tangent line at x = a, and why the tangent line is NOT the same as a secant line through (a, f(a)) and a nearby point (a+h, f(a+h)).",
+     "a": "The derivative f'(a) = lim_{h→0} [f(a+h) - f(a)]/h is the limit of the slopes of secant lines as the second point approaches the first. The secant line slope is an average rate of change over an interval; the tangent slope is the instantaneous rate of change at a single point. A wrong answer that says \"the tangent touches at one point, secant at two\" without mentioning the *limit process* reveals the student has memorized a visual distinction but doesn't understand the analytical foundation — they're describing geometry, not calculus.",
+     "self_check": true
+    },
+    {
+     "q": "Find the equation of the tangent line to the curve y = 2x³ - 5x² + 3x - 7 at the point where x = 1.",
+     "a": "Step 1: f(x) = 2x³ - 5x² + 3x - 7. Step 2: f'(x) = 6x² - 10x + 3. Step 3: Slope m = f'(1) = 6(1)² - 10(1) + 3 = -1. Step 4: Point y-coordinate: f(1) = 2 - 5 + 3 - 7 = -7. Point is (1, -7). Step 5: Equation: y - (-7) = -1(x - 1) → y + 7 = -x + 1 → y = -x - 6. A wrong answer like y = -x - 7 reveals the student forgot to use the point-slope form correctly (used y = mx + f(a) instead of y = m(x-a) + f(a)). An answer with m = 6x² - 10x + 3 (unevaluated) shows they don't understand the slope is a *number*, not a function.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the process of finding the tangent line to y = (3x - 2)⁴ at x = 1 with finding the tangent line to y = 3x⁴ - 2 at x = 1. What is the key difference in the differentiation step, and why does it occur?",
+     "a": "For y = (3x - 2)⁴, the chain rule is required: derivative is 4(3x - 2)³ × 3 = 12(3x - 2)³. At x = 1, m = 12(1)³ = 12. For y = 3x⁴ - 2, the power rule applies directly: derivative is 12x³. At x = 1, m = 12. The slopes are equal at x = 1, but the *functions* are different — the first is a composite function (outer: u⁴, inner: 3x-2), the second is a polynomial. A wrong answer that says \"both use power rule\" or \"chain rule not needed for first\" reveals the student doesn't recognize composition of functions. A student who gets the same slope but can't explain *why* the chain rule was needed for one but not the other has procedural fluency without conceptual understanding.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If f'(a) = 0, then the tangent line at x = a is always the x-axis.\" Evaluate this claim. Is it true, false, or sometimes true? Justify your answer with a counterexample or proof.",
+     "a": "False. If f'(a) = 0, the tangent line is horizontal (slope 0), but its equation is y = f(a), which is the x-axis *only if* f(a) = 0. Counterexample: f(x) = x² at x = 0. f'(x) = 2x, f'(0) = 0. Tangent line: y = f(0) = 0 → y = 0 (x-axis). But for f(x) = x² + 5 at x = 0: f'(0) = 0, tangent is y = 5, a horizontal line 5 units above x-axis. A student who says \"true\" confuses \"horizontal line\" with \"x-axis\" — they don't distinguish between slope and intercept. A student who says \"sometimes true\" but can't give the condition f(a)=0 lacks precision in mathematical language.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world scenario from Indian context (e.g., architecture, economics, physics) where finding the equation of a tangent line is necessary. Define the function, the point of tangency, and explain what the slope and the tangent line represent in that context.",
+     "a": "Example: A civil engineer designs a parabolic arch for a metro station in Delhi modeled by y = -0.02x² + 3 (y in meters, x in meters from center). At x = 5 m from center, a straight support beam must be welded tangent to the arch. Function: f(x) = -0.02x² + 3. Point: x = 5 → f(5) = -0.02(25) + 3 = 2.5 m. Slope: f'(x) = -0.04x → f'(5) = -0.2. Tangent: y - 2.5 = -0.2(x - 5). Slope -0.2 means for every 1 m horizontal, the beam drops 0.2 m — this is the incline of the support. The tangent line gives the exact angle to cut the beam. A poor answer uses a generic \"rollercoaster\" without Indian context, or defines a function but doesn't interpret the slope meaningfully (e.g., just says \"slope is steepness\"). A good answer connects the derivative to a measurable physical quantity (angle, rate, marginal cost).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,11 @@
      "q": "Create a scenario where knowing that all angles of an equilateral triangle are $60^\\circ$ helps solve a real-world design problem involving an Indian rangoli pattern made of equilateral triangles.",
      "a": "A good response describes tiling a courtyard with triangular tiles where six equilateral triangles meet at a central point, noting that $6 \\times 60^\\circ = 360^\\circ$, which forms a complete circle around the point without any gaps or overlaps. A poor response simply states \"triangles fit together\" without mathematical justification using the $60^\\circ$ angle measure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your school craft club build a ______ star pattern using wooden triangular tiles, where every tile has sides of equal length.",
+     "a": "decorative",
+     "self_check": true
     }
    ]
   }

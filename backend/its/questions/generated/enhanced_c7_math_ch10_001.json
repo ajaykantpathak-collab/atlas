@@ -11,8 +11,8 @@
      "self_check": true
     },
     {
-     "q": "A weather app shows the temperature in Shimla is $-4^\\circ\\text{C}$ and in Srinagar is $-7^\\circ\\text{C}$. Which statement correctly explains which place is colder?\nA) Shimla is colder because $4$ is less than $7$.\nB) Srinagar is colder because $-7$ is to the left of $-4$ on the number line, meaning it has a lower value.\nC) Shimla is colder because positive numbers are always larger than negative numbers.\nD) Both places have the same temperature because $7$ and $4$ are both cold.",
-     "a": "The correct answer is B) Srinagar is colder because $-7$ is to the left of $-4$ on the number line, meaning it has a lower value. As you move left on a number line, values decrease. A student who chooses A looks only at the digits $4$ and $7$ and forgets that negative signs reverse the order of magnitude for debt or temperature drops. A student who chooses C or D misinterprets how negative integers compare to one another.",
+     "q": "Shimla records -4 degree Celsius and Srinagar records -7 degree Celsius. Which place is colder, and by what number-line reasoning?",
+     "a": "The number-line reasoning runs: (1) Locate both readings on the number line (2) Observe that -7 lies to the left of -4 (3) Recall that values decrease as you move left (4) Conclude that Srinagar at -7 is colder than Shimla at -4. A wrong answer that picks Shimla because 4 is less than 7 shows the student is comparing the digits while ignoring the negative signs, which reverse the order of magnitude on the number line.",
      "self_check": true
     },
     {
@@ -33,6 +33,16 @@
     {
      "q": "Create a real-world scenario involving a bank account balance, deposits, and withdrawals that results in a final integer value of $-500$ rupees. Explain each step using positive and negative integers.",
      "a": "A valid response should feature a starting balance (e.g., $0$ or a positive amount), a series of withdrawals represented as negative integers, and deposits represented as positive integers, resulting in a net balance of $-500$. For example: Rahul starts with a balance of ₹200 ($+200$). He withdraws ₹800 ($-800$). His current balance is $+200 - 800 = -600$ rupees. Then he deposits ₹100 ($+100$), making his final balance $-600 + 100 = -500$ rupees. A poor response uses operations without assigning correct positive and negative signs to deposits and withdrawals.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ at ground level in a multi-story parking building in Delhi.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify, classify, and order positive integers, negative integers, and zero on a number line, and translate real-world scenarios (such as temperature changes, bank transactions, and elevation) into signed integers.",
      "self_check": true
     }
    ]

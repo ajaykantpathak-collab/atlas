@@ -34,6 +34,31 @@
      "q": "Design a flowchart for a genetic counselor to differentiate between free trisomy 21, Robertsonian translocation Down syndrome, and mosaic Down syndrome using only karyotype results and parental karyotypes.",
      "a": "Flowchart: 1) Child's karyotype: if 47,XX,+21 or 47,XY,+21 → free trisomy (check maternal age). 2) If 46,XX,rob(14;21) or similar → translocation → karyotype parents: if one parent has 45,XX/XY,rob(14;21) → inherited; if both normal → de novo. 3) If two cell lines (e.g., 46,XX/47,XX,+21) → mosaic. A poor flowchart misses parental testing for translocation or doesn't distinguish de novo vs inherited translocation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Down syndrome (Trisomy 21) is a genetic disorder caused by the presence of an extra copy of chromosome 21, resulting in a total of 47 ______ (karyotype 47,XX,+21 or 47,XY,+21) instead of the normal 46, typically arising from non-disjunction during meiosis.",
+     "a": "chromosomes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a genetic ______ meeting a 38-year-old expectant mother whose ultrasound shows a thickened nuchal fold.",
+     "a": "counselor",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: She asks, \"Why does my age matter, and what exactly is trisomy ______?\" Begin by reviewing meiosis: homologous chromosomes separate in Meiosis I, sister chromatids in Meiosis II.",
+     "a": "21",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain the chromosomal basis of Down syndrome, interpret a karyotype notation (47,XX,+21), correlate maternal age with non-disjunction risk, and list at least five clinical features with their physiological basis.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a genetic counselor meeting a 38-year-old expectant mother whose ______ shows a thickened nuchal fold.",
+     "a": "ultrasound",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,71 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_13_006",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_13_006",
+   "title": "c12_soc_cbse_13_006",
+   "questions": [
+    {
+     "q": "What was the primary condition attached to the IMF loans India took in 1991 that shaped the trajectory of FDI and trade policy?",
+     "a": "The IMF imposed Structural Adjustment Programmes (SAPs) requiring fiscal deficit reduction, trade liberalisation (removing quantitative restrictions), privatisation of public sector units, and opening to foreign investment — collectively termed 'liberalisation'. A wrong answer (e.g., 'IMF asked India to increase subsidies' or 'IMF mandated higher tariffs') reveals the student confuses the *direction* of reform: they miss that the conditionalities *forced* the Indian state to dismantle the licence-permit raj that had protected domestic industry, directly enabling the FDI and MNC entry this node studies.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the NCERT text calls the IT/BPO sector a 'weightless economy' and how this differs from the earlier industrial (Fordist) model of development.",
+     "a": "A weightless economy produces value through information, software, design, and services — not physical goods — so its output has no material weight and can be transmitted instantly via digital networks. Fordism relied on mass production at centralised factories (e.g., Detroit auto plants) with stable, unionised jobs; the weightless economy uses flexible, dispersed production (e.g., Nike shifting factories from Japan → Korea → Thailand → India) where labour is replaceable and insecure. A wrong answer that equates 'weightless' with 'insignificant' or claims IT jobs are 'just like factory jobs but with computers' misses the core sociological shift: from *standardised, place-bound industrial labour* to *mobile, time-zone-chasing, skill-branded knowledge work* — a distinction critical for analysing class formation in nodes 008 and 010.",
+     "self_check": true
+    },
+    {
+     "q": "A US-based MNC wants to set up a BPO unit in India. Using the concept of 'new international division of labour' (NIDL), list four specific locational advantages India offers that make it attractive for *routine, English-language service work* — and one structural vulnerability this creates for Indian workers.",
+     "a": "Locational advantages: (1) Large English-speaking graduate pool (colonial legacy + post-independence education expansion), (2) Time-zone difference enabling 24/7 service ('follow-the-sun' model), (3) Lower wage costs for comparable skills (wage arbitrage), (4) State incentives: SEZs, tax holidays, infrastructure in IT parks (e.g., Hyderabad's HITEC City). Structural vulnerability: *Footloose capital* — if wages rise or a cheaper destination (Philippines, Vietnam, AI automation) emerges, the MNC relocates, leaving workers with non-transferable firm-specific skills (accent training, proprietary CRM software) and no social security. A wrong answer listing only 'cheap labour' misses the *skill-language-infrastructure* triad that makes India distinct from other low-wage countries, and fails to see vulnerability as *built into the NIDL logic*, not an accident.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 'glocalisation' strategies of McDonald's (veg menu, no beef, Navaratri specials) and a Bengaluru-based IT firm (celebrating Diwali in office, offering 'cultural sensitivity training' for US clients). Are both examples of the *same* sociological process? Justify using the NCERT distinction between 'market strategy' and 'genuine cultural synthesis'.",
+     "a": "Both are glocalisation (mixing global/local), but they operate differently. McDonald's adapts *product* to local taboos (beef ban) and festivals (Navaratri) purely to *expand market share* — a top-down corporate strategy. The IT firm adapts *workplace culture* (Diwali leave, sensitivity training) to manage *cross-cultural friction in labour process* — a functional necessity for retaining clients and reducing attrition. The NCERT asks: 'Is it simply a market strategy… or is genuine cultural synthesis taking place?' McDonald's is closer to 'market strategy'; the IT firm's adaptations are *negotiated daily* by employees who simultaneously perform 'global professional' and 'local kinship' identities (e.g., taking leave for sister's wedding while on a US project). A wrong answer treating both as identical 'commercial exploitation of culture' misses that glocalisation in *labour processes* involves worker agency and hybrid identity formation — a key theme for node 009 (cultural globalisation).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: 'The IT boom has been an unqualified success for Indian youth because it created millions of high-paying jobs and put India on the global map.' Use evidence on employment elasticity, gendered night-shift risks, and the 'digital divide' (Box 6.2) to support your judgment.",
+     "a": "The claim is *partially true but sociologically incomplete*. Success metrics: IT/BPO employed ~4.5 million directly (2020), contributed 8% GDP, created a visible urban middle class with global consumption patterns. But: (1) Employment elasticity of IT growth is low — 7% GDP growth yielded only 1.6% job growth in Asia (ILO 2005, Box 6.5), meaning *growth ≠ mass employment*. (2) Night shifts expose women to safety risks, health issues, and family resistance — a *gendered cost* invisible in aggregate stats. (3) Digital divide: 700M internet users (2020) but only 1 in 10 rural households have a computer (Box 6.2) — the boom *deepens* urban-rural, class, and gender inequality. A wrong answer that cites only GDP contribution or 'brand India' success fails the *sociological imagination* test: it cannot connect the Bengaluru techie's Uber ride to the Sircilla weaver's suicide (Box 6.6) as two ends of the same globalisation process.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-question mini-survey to investigate how *second-generation IT employees* (children of 1990s BPO pioneers) perceive 'career stability' differently from their parents. Include one question that captures the 'footloose capital' anxiety discussed in the Nike example (Box 6.4).",
+     "a": "Good survey design: Q1 (Likert): 'How likely is it that your current role exists in 5 years?' (captures automation/offshoring anxiety). Q2 (Open): 'Describe a moment you felt your job could move to another country/AI.' (elicits Nike-style vulnerability narratives). Q3 (Multiple choice): 'If your unit relocated, your first response would be: upskill / switch firms / move cities / quit workforce.' (maps mobility strategies). Q4 (Ranking): 'Rank: salary, work-life balance, job security, skill growth, brand value.' (reveals shifting priorities vs parents' 'salary-first' logic). Q5 (Scenario): 'Your firm automates 30% of your team's tasks. Do you see this as threat or opportunity? Why?' (tests internalisation of 'flexible labour' ideology). A poor survey asks only about salary/satisfaction, missing the *structural insecurity* that defines the NIDL. The Nike example (production shifting Japan→Korea→Thailand→India→next) must inform at least one question — otherwise the survey cannot detect the *intergenerational shift* from 'grateful for opportunity' to 'managing permanent precarity'.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Globalisation and the Indian Economy: FDI, Outsourcing and the IT Boom refers to the post-1991 structural ______ where liberalised Foreign Direct Investment (FDI) policies, the rise of Business Process Outsourcing (BPO) and Information Technology (IT) services, and the emergence of a knowledge-based service sector reshaped India's economic geography, labour markets, and middle-class aspirations, creating a new international division of labour where Indian metropolitan cities became nodes in global production networks.",
+     "a": "transformation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 22-year-old in Bengaluru working the night shift at a call centre, adopting an American accent ('neutralisation training') to troubleshoot a router for a customer in Ohio, while her father, a former textile mill worker in Mumbai, lost his job when the mill closed due to imported fabric ______.",
+     "a": "competition",
+     "self_check": true
+    },
+    {
+     "q": "What is Globalisation and the Indian Economy? State the definition given in this lesson.",
+     "a": "Globalisation and the Indian Economy: FDI, Outsourcing and the IT Boom refers to the post-1991 structural transformation where liberalised Foreign Direct Investment (FDI) policies, the rise of Business Process Outsourcing (BPO) and Information Technology (IT) services, and the emergence of a knowledge-based service sector reshaped.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Globalisation and the Indian Economy: FDI, Outsourcing and the IT Boom refers to the post-______ structural transformation where liberalised Foreign Direct Investment (FDI) policies, the rise of Business Process Outsourcing (BPO) and Information Technology (IT) services, and the emergence of a knowledge-based service sector reshaped India's economic geography, labour markets, and middle-class aspirations, creating a new international division of labour where Indian metropolitan cities became nodes in global production networks.",
+     "a": "1991",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Globalisation and the Indian Economy?",
+     "a": "Students equate 'FDI' *only* with 'foreign companies setting up factories in India' (manufacturing FDI), ignoring that post-1991 India's FDI story is dominantly *services FDI* (IT, telecom, finance, retail) and *portfolio investment* (FII — 'hot money' in stock markets).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) trace the policy trajectory from 1991 liberalisation to FDI inflows in specific sectors (IT, telecom, retail), (2) explain how outsourcing created a 'new international division of labour' linking Indian urban youth to global capital, and (3) evaluate the uneven social consequences — middle-class mobility.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

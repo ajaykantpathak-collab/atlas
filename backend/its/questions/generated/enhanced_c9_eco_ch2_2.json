@@ -34,6 +34,36 @@
      "q": "Create a real-world scenario in an Indian weekly haat (market) where three types of buyers (a restaurant owner, a household, and a street vendor) have different demand schedules for onions. Draw the individual and market demand curves on graph paper, labeling axes, and explain why the market curve is flatter.",
      "a": "A good answer provides a table with three distinct demand schedules (e.g., restaurant buys 50kg at ₹20, household 5kg, vendor 10kg), correctly plots quantity on x-axis and price on y-axis, draws three downward-sloping individual curves, then a market curve that lies to the right and is flatter. Explanation: horizontal addition of quantities at each price makes market quantity more responsive. A poor answer draws vertical summation or identical curves, showing confusion between individual and market perspectives.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ demand is the quantity of a good a single consumer is willing and able to buy at each possible price during a given period, ceteris paribus.",
+     "a": "Individual",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you visit a vegetable ______ in Mumbai and see three buyers — Ramesh, Sunita, and Arjun — each deciding how many kilograms of tomatoes to buy at ₹40/kg.",
+     "a": "market",
+     "self_check": true
+    },
+    {
+     "q": "What is Individual demand? State the definition given in this lesson.",
+     "a": "Individual demand is the quantity of a good a single consumer is willing and able to buy at each possible price during a given period, ceteris paribus.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you visit a vegetable market in Mumbai and see three buyers — Ramesh, Sunita, and Arjun — each deciding how many kilograms of tomatoes to buy at ₹______/kg.",
+     "a": "40",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Individual demand?",
+     "a": "Students believe market demand is found by vertically adding individual demand curves (adding prices at each quantity) because they confuse \"adding demand\" with \"adding supply\" (where market supply is horizontal summation too, but they misremember).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can construct a market demand schedule from individual demand schedules by horizontally summing quantities at each price, and explain why market demand is more elastic than any single individual's demand.",
+     "self_check": true
     }
    ]
   }

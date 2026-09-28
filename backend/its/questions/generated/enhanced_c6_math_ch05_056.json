@@ -34,6 +34,31 @@
      "q": "Create your own \"mystery bag\" word problem that results in the equation 2x + 5 = 15.",
      "a": "An example would be: \"I have 2 identical bags of apples and 5 loose apples. In total, I have 15 apples. How many apples are in one bag?\" A poor answer would just be a list of numbers without a real-world scenario.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A linear equation in one variable is a ______ statement of equality containing exactly one unknown value (variable) where the variable has a power of 1.",
+     "a": "mathematical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You know there are 3 ______ marbles outside, and the total number of marbles you have is 7.",
+     "a": "extra",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A linear equation in one variable is a mathematical statement of equality containing exactly one unknown value (variable) where the variable has a power of ______.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to isolate the variable using inverse operations on both sides of the equation and verify their result by substituting it back into the original expression.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You know there are 3 extra marbles ______, and the total number of marbles you have is 7.",
+     "a": "outside",
+     "self_check": true
     }
    ]
   }

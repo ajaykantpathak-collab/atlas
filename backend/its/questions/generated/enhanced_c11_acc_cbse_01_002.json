@@ -34,6 +34,31 @@
      "q": "Create a realistic scenario where a book-keeper's error in the recording stage leads to an accountant's wrong interpretation, affecting a bank loan decision. Describe the error, its propagation, and the consequence.",
      "a": "Example: Book-keeper records ₹5,00,000 machinery purchase as \"Repairs Expense\" (revenue expenditure) instead of \"Machinery Asset\" (capital expenditure). Accountant, relying on this, shows lower assets and higher expenses → understates profit by ₹5,00,000 and understates assets. Bank sees lower profitability and asset base, rejects loan application. A poor answer (vague error, no propagation chain) reveals the student cannot trace how recording errors cascade through the accounting process to impact external decisions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Book-keeping is the systematic process of identifying, measuring, and recording financial transactions in ______ order, while accounting is the broader discipline that includes book-keeping plus classifying, summarising, analysing, interpreting, and communicating financial information to users for decision-making.",
+     "a": "chronological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Every day you note down cash sales, credit sales to regular customers, and ______ from wholesalers in a rough notebook.",
+     "a": "purchases",
+     "self_check": true
+    },
+    {
+     "q": "What is Book-keeping? State the definition given in this lesson.",
+     "a": "Book-keeping is the systematic process of identifying, measuring, and recording financial transactions in chronological order, while accounting is the broader discipline that includes book-keeping plus classifying, summarising, analysing, interpreting, and communicating financial information to users for decision-making.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Book-keeping?",
+     "a": "Students often believe book-keeping and accounting are synonymous or that book-keeping is \"simple accounting\" while accounting is \"advanced book-keeping.\" They fail to see the qualitative difference: book-keeping is mechanical/clerical (recording what happened), while accounting is analytical/interpretive (explaining what it means).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify any given financial activity as either book-keeping or accounting function, explain why book-keeping is a subset of accounting, and justify with at least three distinct points of distinction (scope, stage, objective, nature, decision-making utility) using appropriate terminology.",
+     "self_check": true
     }
    ]
   }

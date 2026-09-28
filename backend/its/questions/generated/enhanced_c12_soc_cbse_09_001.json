@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_09_001",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_09_001",
+   "title": "c12_soc_cbse_09_001",
+   "questions": [
+    {
+     "q": "Define modernisation in sociological terms using any three features from Rudolph and Rudolph's conceptualisation.",
+     "a": "Modernisation is the process where local/parochial ties give way to universal commitments; emotions/sacred give way to utility/calculation/science; the individual replaces the group as society's primary unit; associations shift from birth to choice; mastery replaces fatalism; identity becomes achieved not ascribed; work separates from family in bureaucratic organisations. A wrong answer listing only \"wearing jeans, using smartphones, speaking English\" reveals confusion between modernisation (deep structural/value change) and westernisation (external cultural adoption) — a classic board exam error where students conflate cultural forms with sociological processes.",
+     "self_check": true
+    },
+    {
+     "q": "A village in Punjab adopts tractors, builds a pucca school, and starts celebrating Guru Nanak Jayanti with a DJ and LED screens. The sarpanch is now elected, not hereditary. Villagers say they have become \"modern.\" Evaluate this claim using the distinction between technological adoption and sociological modernisation.",
+     "a": "Technological adoption (tractors, DJ, LED) and institutional change (elected sarpanch) are necessary but not sufficient for modernisation. True modernisation requires value shifts: universalism (school open to all castes/genders), rationality (farming decisions based on soil science not tradition), individualism (youth choosing careers not caste-occupations), achievement (status from education not land ownership), bureaucracy (gram panchayat functioning by rules not patronage). If caste still determines marriage, water access, and political alliances, the village has modernised technologically but not sociologically. A wrong answer equating gadgets/institutions with modernisation misses the core sociological distinction between structural change and cultural change — a frequent 2-marker error in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Apply the concept of \"achieved vs. ascribed identity\" to analyse this situation: A Dalit student clears UPSC, becomes an IAS officer, but his marriage is still arranged within his sub-caste by parents who consult a priest for kundali matching. Has he experienced modernisation? Justify.",
+     "a": "Partial modernisation. Occupationally: achieved identity (UPSC merit), universalistic recruitment, bureaucratic role — all modern. Maritally: ascribed identity (caste-endogamy), particularistic matchmaking, sacred ritual (kundali) — traditional. Modernisation is domain-specific, not total. Rudolph & Rudolph note \"same person modern in some ways, traditional in another.\" The student's public sphere (work) is modernised; private sphere (marriage) is not. This co-existence is typical of Indian modernity. A wrong answer saying \"fully modernised because IAS officer\" or \"not modernised because arranged marriage\" fails to grasp the sectoral nature of modernisation — a key analytical skill for case-based board questions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast modernisation and westernisation using the example of a middle-class family in Delhi that: (a) uses a washing machine, (b) celebrates Christmas with a tree, (c) sends daughter to co-ed school, (d) expects daughter-in-law to quit job after marriage. Classify each practice and explain the theoretical distinction.",
+     "a": "(a) Washing machine: technological adoption — can be part of modernisation (rational efficiency) OR westernisation (consumer culture) depending on meaning. (b) Christmas tree: westernisation — external cultural form without Christian theology. (c) Co-ed school: modernisation — universalistic education, gender mixing based on equality/rationality. (d) Daughter-in-law quits job: traditional/patriarchal — ascriptive gender role, family over individual choice. Modernisation = internal value/structural shift (rationality, individualism, universalism, achievement). Westernisation = external cultural imitation (dress, food, festivals, language) without necessarily adopting modern values. Srinivas: \"Westernisation does not necessarily mean people adopt modern values of democracy and equality.\" A wrong answer classifying all four as \"westernisation\" misses that co-ed schooling reflects modern values while Christmas tree reflects cultural borrowing — a distinction CUET frequently tests.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"Modernisation inevitably leads to secularisation and the decline of religion.\" Use Indian evidence from the NCERT text to evaluate this classical modernisation theory claim.",
+     "a": "The statement reflects classical modernisation theory (Weber, Parsons) but is empirically false in India. NCERT evidence: (1) Religious reform organisations (Brahmo Samaj, Arya Samaj) used modern communication (print, telegraph) and organisation — modernity strengthened religion. (2) Rituals acquire secular dimensions (status display at weddings) but remain religious in form — \"rituals have secular dimensions distinct from secular goals.\" (3) Caste operates as political pressure groups (secularisation of caste) yet retains purity/pollution logic. (4) Naga example: English education adopted for mobility/communication, not religious decline. Indian modernity reinterprets tradition rather than displacing religion. A wrong answer agreeing with the statement ignores the Indian specificity of \"multiple modernities\" and the co-existence thesis — a conceptual error that loses marks in both board long-answers and CUET assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel 3-scenario mini-case study showing how the SAME technological innovation (e.g., WhatsApp) can serve modernisation, westernisation, AND traditional reinforcement in different Indian contexts. Explain the sociological logic for each.",
+     "a": "Scenario 1 (Modernisation): A farmers' cooperative in Maharashtra uses WhatsApp to share real-time mandi prices, weather alerts, and soil-test reports — rational calculation, universal information access, mastery over nature. Scenario 2 (Westernisation): A Delhi college group uses WhatsApp to share Instagram reels, plan Halloween parties, and discuss Netflix shows — external cultural forms, consumption patterns. Scenario 3 (Traditional reinforcement): A khap panchayat in Haryana uses WhatsApp to circulate gotra rules, coordinate honour-crime threats, and enforce endogamy — technology strengthening ascriptive, particularistic, patriarchal norms. Logic: Technology is a tool; its sociological meaning depends on the values and social structures it serves. A poor answer listing only \"WhatsApp connects people\" misses that the CONTENT and PURPOSE determine whether it modernises, westernises, or traditionalises — a higher-order application skill for competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is a sociological process of cultural change where traditional, local, and parochial orientations are replaced by universal commitments, scientific rationality, individualism, achievement-based status, and bureaucratic organisation — it involves a shift from ascriptive to achieved identity, from fatalism to mastery orientation, and from kinship-based to contract-based social relations.",
+     "a": "Modernisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a young woman from a ______ weaving family in Varanasi who gets a B.Tech degree, works in a Bangalore IT firm, chooses her own partner via a dating app, and celebrates Diwali but also Valentine's Day — is she \"modern\" or \"westernised\"?",
+     "a": "traditional",
+     "self_check": true
+    },
+    {
+     "q": "What is Modernisation? State the definition given in this lesson.",
+     "a": "Modernisation is a sociological process of cultural change where traditional, local, and parochial orientations are replaced by universal commitments, scientific rationality, individualism, achievement-based status, and bureaucratic organisation — it involves a shift from ascriptive to achieved identity, from fatalism to mastery.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Modernisation?",
+     "a": "Students equate modernisation with \"becoming like the West\" — wearing Western clothes, speaking English, eating pizza, celebrating Valentine's Day.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish modernisation from westernisation and sanskritisation by identifying its core features (universalism, rationality, individualism, achievement, bureaucracy) in a given social scenario, and explain why modernisation in India follows a distinct colonial trajectory rather than replicating the Western historical.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

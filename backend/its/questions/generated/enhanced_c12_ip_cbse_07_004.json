@@ -34,6 +34,36 @@
      "q": "Design a layered defense strategy for a small Indian business (10 PCs, one server, broadband router) that uses both antivirus and firewall at network and host levels. Specify: (a) where each component sits, (b) one critical rule for the network firewall, (c) one critical setting for host antivirus, (d) how they complement each other against a USB-delivered worm.",
      "a": "(a) Network firewall: on the broadband router (edge); host firewall + antivirus on each PC and server. (b) Network firewall: block all inbound except VPN (port 1194 UDP) to server; allow outbound only on ports 80, 443, 53, 1194. (c) Host antivirus: enable real-time scanning + USB auto-scan on insertion. (d) USB worm: network firewall cannot see it (no network traffic); host antivirus scans USB on mount, detects/quarantines via signatures/heuristics; host firewall blocks worm's attempt to spread via SMB (port 445) to other PCs. A poor answer omits USB scanning or relies only on network firewall.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Antivirus software is a program designed to detect, prevent, and remove malicious software (malware) by scanning files and system memory against a database of known threat ______ and using heuristic/behavioral analysis to identify suspicious activity.",
+     "a": "signatures",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive an email with an ______ named \"Invoice_GST.pdf.exe\" — your antivirus immediately flags it, but why?",
+     "a": "attachment",
+     "self_check": true
+    },
+    {
+     "q": "What is Antivirus software? State the definition given in this lesson.",
+     "a": "Antivirus software is a program designed to detect, prevent, and remove malicious software (malware) by scanning files and system memory against a database of known threat signatures and using heuristic/behavioral analysis to identify suspicious activity.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"What happens between the moment a file lands on my disk and the antivirus verdict?\" Then trace the two parallel defense layers: (______) Antivirus scans the file's binary patterns against a signature database and runs it in a sandbox to watch for malicious behavior (e.g., encrypting files).",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Antivirus software?",
+     "a": "Students often believe \"antivirus protects against hackers\" and \"firewall protects against viruses\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain the distinct roles of antivirus and firewall, describe how each uses signatures, heuristics, and rules to protect a system, and configure basic firewall rules (allow/block by port, IP, protocol) and antivirus scan settings for a given scenario.",
+     "self_check": true
     }
    ]
   }

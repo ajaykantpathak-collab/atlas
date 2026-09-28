@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a ramp, a steel ball, carbon paper, and a meter scale to verify that the horizontal range of a horizontally projected ball is proportional to its initial horizontal speed.",
      "a": "Roll the ball from different heights on the ramp to vary its launch speed v₀ (measure v₀ using a photogate or time over a fixed distance at the ramp end). Let it fall from a fixed table height h onto carbon paper on the floor. Measure range R for each v₀. Plot R vs v₀ - it should be a straight line through origin with slope √(2h/g). A poor answer (e.g., \"drop from different heights\") reveals the student doesn't understand how to vary v₀ independently of h or how to isolate the horizontal projection condition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Horizontal projection is a special case of ______ motion where an object is launched with an initial velocity that is purely horizontal (projection angle θ₀ = 0°) from a certain height above the ground.",
+     "a": "projectile",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a cricket ball thrown horizontally from the top of a school building - it moves forward while ______ falling downward.",
+     "a": "simultaneously",
+     "self_check": true
+    },
+    {
+     "q": "What is Horizontal projection? State the definition given in this lesson.",
+     "a": "Horizontal projection is a special case of projectile motion where an object is launched with an initial velocity that is purely horizontal (projection angle θ₀ = 0°) from a certain height above the ground.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Horizontal projection is a special case of projectile motion where an object is launched with an initial velocity that is purely horizontal (projection angle θ₀ = ______°) from a certain height above the ground.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Horizontal projection?",
+     "a": "Students believe that a horizontally projected object \"goes straight for a while then falls down\" - i.e., the horizontal and vertical motions happen sequentially rather than simultaneously.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive and apply the equations for time of flight, horizontal range, and impact velocity for a horizontally projected object from a given height, and can correctly resolve the motion into independent horizontal and vertical components using vector notation.",
+     "self_check": true
     }
    ]
   }

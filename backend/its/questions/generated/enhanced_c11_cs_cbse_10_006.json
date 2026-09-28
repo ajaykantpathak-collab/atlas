@@ -34,6 +34,36 @@
      "q": "Design a `MinStack` class (using a list) that supports `push`, `pop`, `peek`, `isEmpty`, and `get_min()` — all in O(1) time. `get_min()` returns the smallest element currently in the stack. Show the internal structure and `push`/`pop` logic.",
      "a": "Use auxiliary stack `min_stack` tracking minimums.\n```python\nclass MinStack:\n    def __init__(self):\n        self.stack = []\n        self.min_stack = []\n    def push(self, x):\n        self.stack.append(x)\n        if not self.min_stack or x <= self.min_stack[-1]:\n            self.min_stack.append(x)\n    def pop(self):\n        if not self.stack: return None\n        val = self.stack.pop()\n        if val == self.min_stack[-1]:\n            self.min_stack.pop()\n        return val\n    def peek(self): return self.stack[-1] if self.stack else None\n    def isEmpty(self): return not self.stack\n    def get_min(self): return self.min_stack[-1] if self.min_stack else None\n```\nA poor answer uses `min(self.stack)` (O(n)) or a single variable (fails when min is popped). This reveals inability to compose stack operations to maintain auxiliary state — a key competency for advanced data structure problems.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Peek (or top) is a stack operation that returns the value of the topmost element without removing it from the stack. isEmpty is a ______ operation that returns True if the stack contains zero elements and False otherwise.",
+     "a": "predicate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When the user clicks \"Undo\", you need to show a preview of what will be undone *before* actually ______ it — that's peek.",
+     "a": "removing",
+     "self_check": true
+    },
+    {
+     "q": "What is Peek (or top)? State the definition given in this lesson.",
+     "a": "Peek (or top) is a stack operation that returns the value of the topmost element without removing it from the stack. isEmpty is a predicate operation that returns True if the stack contains zero elements and False otherwise.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Both are O(______) auxiliary operations essential for safe stack manipulation.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Peek (or top)?",
+     "a": "Students believe peek() and pop() are interchangeable because both \"access the top\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write Python code using list/deque to implement peek and isEmpty, correctly handle empty-stack edge cases (avoiding IndexError), and use these operations as guards before pop/peek in algorithms like parentheses balancing or expression evaluation.",
+     "self_check": true
     }
    ]
   }

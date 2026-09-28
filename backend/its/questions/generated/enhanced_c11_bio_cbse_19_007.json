@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using radioactive hormone labeling and subcellular fractionation to determine whether a newly discovered hormone X acts via a membrane receptor or an intracellular receptor. Outline the key steps and expected results for each case.",
      "a": "Incubate target cells with radiolabeled hormone X. Fractionate cells into membrane, cytosol, and nuclear fractions. Measure radioactivity in each fraction. If hormone X is peptide: radioactivity concentrated in membrane fraction (receptor binding), not in nucleus. If hormone X is steroid: radioactivity appears in cytosol/nuclear fraction (receptor binding and translocation). Control: excess unlabeled hormone X should displace binding. A poor answer omits fractionation, controls, or misassigns expected localization.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The mechanism of hormone action refers to the specific sequence of molecular events by which a hormone binds to its cognate receptor on or in a target cell, initiating a signal transduction cascade (for peptide hormones via membrane-bound receptors and second messengers) or directly regulating gene ______ (for steroid hormones via intracellular nuclear receptors), ultimately altering cellular metabolism or physiology.",
+     "a": "transcription",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Think about what happens when you are suddenly startled — your heart races, pupils dilate, and ______ surges into your blood within seconds.",
+     "a": "glucose",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compare and contrast the signal transduction pathways of peptide and steroid hormones by tracing the steps from hormone-receptor binding to the final cellular response, and can predict the effect of a specific inhibitor (e.g., a phosphodiesterase inhibitor or a transcription blocker) on each pathway.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Think about what happens when you are ______ startled — your heart races, pupils dilate, and glucose surges into your blood within seconds.",
+     "a": "suddenly",
+     "self_check": true
     }
    ]
   }

@@ -51,17 +51,13 @@ NUMERICAL_TOLERANCE = 0.02       # 2% relative tolerance for numerical answers
 # MiniLM model (lazy-loaded singleton, shared with RoutingService)
 # --------------------------------------------------------------------------- #
 
-_model = None
-_model_lock = asyncio.Lock()
+from backend.ai.model_hub import get_embedder as _hub_get_embedder
+
 
 async def _get_model():
-    global _model
-    if _model is None:
-        async with _model_lock:
-            if _model is None:
-                from sentence_transformers import SentenceTransformer
-                _model = SentenceTransformer('all-MiniLM-L6-v2')
-    return _model
+    # shared warm singleton (ai.model_hub) — the cold load runs in the
+    # executor, never inline on the event loop (worker-seizure fix)
+    return await _hub_get_embedder()
 
 
 async def _semantic_similarity(text_a: str, text_b: str) -> float:

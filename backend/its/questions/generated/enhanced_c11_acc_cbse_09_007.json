@@ -34,6 +34,36 @@
      "q": "Create a new problem scenario (with numbers) where a student must calculate provision for discount on debtors, but include a twist: the trial balance already shows a credit balance of \"Provision for Discount on Debtors\" from last year. The student must calculate the **adjustment amount** to be debited/credited to P&L this year. Provide the full problem statement with all necessary data.",
      "a": "**Expected Problem Structure (student should create similar):**\n\n**Problem:** \nTrial Balance (31 March 2024) shows:\n- Sundry Debtors: ₹3,00,000\n- Bad Debts: ₹6,000\n- Provision for Doubtful Debts: ₹12,000 (cr)\n- Provision for Discount on Debtors: ₹4,500 (cr)\n\nAdjustments:\n(i) Further Bad Debts: ₹4,000\n(ii) Maintain Provision for Doubtful Debts @ 5% on debtors after further bad debts\n(iii) Maintain Provision for Discount on Debtors @ 2% on good debtors\n\n**Required:** Calculate the amount to be debited/credited to P&L for EACH provision separately.\n\n**Solution Criteria for Good Answer:**\n1. Correct sequential calculation for NEW provisions:\n   - Debtors after further bad debts = ₹2,96,000\n   - New Doubtful Debts Provision = 5% × ₹2,96,000 = ₹14,800\n   - Good Debtors = ₹2,96,000 - ₹14,800 = ₹2,81,200\n   - New Discount Provision = 2% × ₹2,81,200 = ₹5,624\n2. Correct adjustment entries:\n   - Doubtful Debts: Old ₹12,000 → New ₹14,800 → **Debit P&L ₹2,800**\n   - Discount: Old ₹4,500 → New ₹5,624 → **Debit P&L ₹1,124**\n3. Clear journal entries for both.\n\n**What poor answer reveals:** If student ignores opening provision balances and just debits full new amounts, they don't understand provisions are **carried forward** and only the **incremental change** hits P&L. If they calculate discount on old good debtors base, they miss that the base changes when doubtful debts provision changes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Provision for Discount on Debtors is an estimated liability created against the expected cash discount that a business ______ allowing to its debtors for prompt payment during the next accounting period.",
+     "a": "anticipates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a wholesale clothing ______ in Surat.",
+     "a": "business",
+     "self_check": true
+    },
+    {
+     "q": "What is Provision for Discount on Debtors? State the definition given in this lesson.",
+     "a": "Provision for Discount on Debtors is an estimated liability created against the expected cash discount that a business anticipates allowing to its debtors for prompt payment during the next accounting period.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You must first remove the bad debts, then the doubtful debts provision, and only then calculate ______% on the remaining \"good debtors.\" This sequential deduction is the core logic that trips up most students.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Provision for Discount on Debtors?",
+     "a": "The Sequential Base Error: Students calculate Provision for Discount on Debtors on the wrong base.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Calculate the correct base amount for provision by sequentially deducting further bad debts and provision for doubtful debtors from sundry debtors, (2) Pass the correct journal entry and show treatment in both Profit & Loss Account and Balance Sheet, (3) Distinguish between provision for doubtful debts.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a simple mental \"map\" of a series circuit using a battery, a switch, and two bulbs.",
      "a": "The map should show a loop starting at the battery, going through the switch, through bulb 1, then bulb 2, and returning to the battery. A poor answer would show multiple loops or branches, which describes a parallel circuit.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A series circuit is an electrical ______ where components are connected end-to-end, creating one single, continuous path for the electric current to flow.",
+     "a": "arrangement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever noticed a string of small decorative fairy lights where, if one bulb goes out, the whole string stops ______?",
+     "a": "glowing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to predict that removing or breaking one component in a series circuit will cause all other components in that loop to stop functioning, and explain why this happens by describing the path of the current.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever noticed a string of small ______ fairy lights where, if one bulb goes out, the whole string stops glowing?",
+     "a": "decorative",
+     "self_check": true
     }
    ]
   }

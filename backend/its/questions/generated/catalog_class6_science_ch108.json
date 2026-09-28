@@ -4,81 +4,281 @@
   {
    "id": "fesc.8.1.1",
    "title": "Human Skeleton and Bone Count Changes",
+   "converted_to_compute": true,
+   "formula": "fused_bones = infant_bones - adult_bones",
    "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
-     "name": "adult_ratio",
-     "expr": "adult_bones / infant_bones",
-     "explain": "adult bones as a fraction of infant bones"
-    },
-    {
-     "step": 2,
-     "name": "fusion_fraction",
-     "expr": "1 - adult_ratio",
-     "explain": "fraction of bones that fused"
-    },
-    {
-     "step": 3,
-     "name": "fused_bones",
-     "expr": "infant_bones * fusion_fraction",
-     "explain": "number of bones that fused"
+     "action": "substitute the given values into the formula",
+     "explain": "fused_bones = infant_bones - adult_bones",
+     "compute": "fused_bones = infant_bones - adult_bones"
     }
    ],
    "questions": [
     {
-     "q": "A baby has 300 bones and an adult has 206. How many bones fuse during growth?",
-     "vals": {
-      "infant_bones": 300,
-      "adult_bones": 206
-     },
-     "unit": "bones",
-     "steps": null,
-     "a": "94 bones",
+     "q": "For Human Skeleton and Bone Count Changes: given infant_bones = 109, adult_bones = 56, find fused bones.",
+     "a": "53",
      "self_check": false
     },
     {
-     "q": "If a newborn's 270 bones fuse down to 206, how many joined together?",
-     "vals": {
-      "infant_bones": 270,
-      "adult_bones": 206
-     },
-     "unit": "bones",
-     "steps": null,
-     "a": "64 bones",
+     "q": "For Human Skeleton and Bone Count Changes: given infant_bones = 21, adult_bones = 8.5, find fused bones.",
+     "a": "12.5",
      "self_check": false
     },
     {
-     "q": "An infant skeleton shows 305 bones; the adult one 206. Calculate the difference.",
-     "vals": {
-      "infant_bones": 305,
-      "adult_bones": 206
-     },
-     "unit": "bones",
-     "steps": null,
-     "a": "99 bones",
+     "q": "For Human Skeleton and Bone Count Changes: given infant_bones = 30, adult_bones = 111, find fused bones.",
+     "a": "-81",
      "self_check": false
     },
     {
-     "q": "Some books say 350 bones at birth. How many fuse to leave the adult 206?",
-     "vals": {
-      "infant_bones": 350,
-      "adult_bones": 206
-     },
-     "unit": "bones",
-     "steps": null,
-     "a": "144 bones",
+     "q": "For Human Skeleton and Bone Count Changes: given infant_bones = 67, adult_bones = 45, find fused bones.",
+     "a": "22",
      "self_check": false
     },
     {
-     "q": "With 290 infant bones becoming 206, find the number that fused.",
-     "vals": {
-      "infant_bones": 290,
-      "adult_bones": 206
-     },
-     "unit": "bones",
-     "steps": null,
-     "a": "84 bones",
+     "q": "For Human Skeleton and Bone Count Changes: given infant_bones = 21, adult_bones = 56, find fused bones.",
+     "a": "-35",
+     "self_check": false
+    },
+    {
+     "q": "For Human Skeleton and Bone Count Changes: given infant_bones = 12.7, adult_bones = 39, find fused bones.",
+     "a": "-26.3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fesc.8.1.3",
+   "title": "Pivotal Joint",
+   "converted_to_compute": true,
+   "formula": "movement = rotational_axial",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "movement = rotational_axial",
+     "compute": "movement = rotational_axial"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Pivotal Joint: given rotational_axial = 50, find movement.",
+     "a": "50",
+     "self_check": false
+    },
+    {
+     "q": "For Pivotal Joint: given rotational_axial = 44, find movement.",
+     "a": "44",
+     "self_check": false
+    },
+    {
+     "q": "For Pivotal Joint: given rotational_axial = 54, find movement.",
+     "a": "54",
+     "self_check": false
+    },
+    {
+     "q": "For Pivotal Joint: given rotational_axial = 73, find movement.",
+     "a": "73",
+     "self_check": false
+    },
+    {
+     "q": "For Pivotal Joint: given rotational_axial = 35, find movement.",
+     "a": "35",
+     "self_check": false
+    },
+    {
+     "q": "For Pivotal Joint: given rotational_axial = 39, find movement.",
+     "a": "39",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fesc.8.1.6",
+   "title": "Rib Cage Structure and Rib Count",
+   "converted_to_compute": true,
+   "formula": "total_ribs = ribs_per_side * 2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_ribs = ribs_per_side * 2",
+     "compute": "total_ribs = ribs_per_side * 2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Rib Cage Structure and Rib Count: given ribs_per_side = 395, find total ribs.",
+     "a": "790",
+     "self_check": false
+    },
+    {
+     "q": "For Rib Cage Structure and Rib Count: given ribs_per_side = 125, find total ribs.",
+     "a": "250",
+     "self_check": false
+    },
+    {
+     "q": "For Rib Cage Structure and Rib Count: given ribs_per_side = 123, find total ribs.",
+     "a": "246",
+     "self_check": false
+    },
+    {
+     "q": "For Rib Cage Structure and Rib Count: given ribs_per_side = 70, find total ribs.",
+     "a": "140",
+     "self_check": false
+    },
+    {
+     "q": "For Rib Cage Structure and Rib Count: given ribs_per_side = 275, find total ribs.",
+     "a": "550",
+     "self_check": false
+    },
+    {
+     "q": "For Rib Cage Structure and Rib Count: given ribs_per_side = 135, find total ribs.",
+     "a": "270",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fesc.8.1.8",
+   "title": "Antagonistic Muscle Pair Action",
+   "converted_to_compute": true,
+   "formula": "movement_force = contraction_pull_only",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "movement_force = contraction_pull_only",
+     "compute": "movement_force = contraction_pull_only"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Antagonistic Muscle Pair Action: given contraction_pull_only = 18.5, find movement force.",
+     "a": "18.5",
+     "self_check": false
+    },
+    {
+     "q": "For Antagonistic Muscle Pair Action: given contraction_pull_only = 0.6, find movement force.",
+     "a": "0.6",
+     "self_check": false
+    },
+    {
+     "q": "For Antagonistic Muscle Pair Action: given contraction_pull_only = 18.6, find movement force.",
+     "a": "18.6",
+     "self_check": false
+    },
+    {
+     "q": "For Antagonistic Muscle Pair Action: given contraction_pull_only = 9.4, find movement force.",
+     "a": "9.4",
+     "self_check": false
+    },
+    {
+     "q": "For Antagonistic Muscle Pair Action: given contraction_pull_only = 4.9, find movement force.",
+     "a": "4.9",
+     "self_check": false
+    },
+    {
+     "q": "For Antagonistic Muscle Pair Action: given contraction_pull_only = 13.3, find movement force.",
+     "a": "13.3",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fesc.8.2.1",
+   "title": "Earthworm Locomotion",
+   "converted_to_compute": true,
+   "formula": "locomotion = segment_extension + bristle_anchor + segment_shortening",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "locomotion = segment_extension + bristle_anchor + segment_shortening",
+     "compute": "locomotion = segment_extension + bristle_anchor + segment_shortening"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Earthworm Locomotion: given segment_extension = 7.6, bristle_anchor = 48, segment_shortening = 82, find locomotion.",
+     "a": "137.6",
+     "self_check": false
+    },
+    {
+     "q": "For Earthworm Locomotion: given segment_extension = 114, bristle_anchor = 47, segment_shortening = 2.3, find locomotion.",
+     "a": "163.3",
+     "self_check": false
+    },
+    {
+     "q": "For Earthworm Locomotion: given segment_extension = 29, bristle_anchor = 83, segment_shortening = 9.3, find locomotion.",
+     "a": "121.3",
+     "self_check": false
+    },
+    {
+     "q": "For Earthworm Locomotion: given segment_extension = 119, bristle_anchor = 83, segment_shortening = 90, find locomotion.",
+     "a": "292",
+     "self_check": false
+    },
+    {
+     "q": "For Earthworm Locomotion: given segment_extension = 92, bristle_anchor = 61, segment_shortening = 11.7, find locomotion.",
+     "a": "164.7",
+     "self_check": false
+    },
+    {
+     "q": "For Earthworm Locomotion: given segment_extension = 72, bristle_anchor = 12.1, segment_shortening = 68, find locomotion.",
+     "a": "152.1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "fesc.8.2.2",
+   "title": "Snail Locomotion",
+   "converted_to_compute": true,
+   "formula": "locomotion = muscular_foot_wave + slimy_lubrication",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "locomotion = muscular_foot_wave + slimy_lubrication",
+     "compute": "locomotion = muscular_foot_wave + slimy_lubrication"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Snail Locomotion: given muscular_foot_wave = 113, slimy_lubrication = 14.2, find locomotion.",
+     "a": "127.2",
+     "self_check": false
+    },
+    {
+     "q": "For Snail Locomotion: given muscular_foot_wave = 2.8, slimy_lubrication = 61, find locomotion.",
+     "a": "63.8",
+     "self_check": false
+    },
+    {
+     "q": "For Snail Locomotion: given muscular_foot_wave = 26, slimy_lubrication = 33, find locomotion.",
+     "a": "59",
+     "self_check": false
+    },
+    {
+     "q": "For Snail Locomotion: given muscular_foot_wave = 39, slimy_lubrication = 78, find locomotion.",
+     "a": "117",
+     "self_check": false
+    },
+    {
+     "q": "For Snail Locomotion: given muscular_foot_wave = 60, slimy_lubrication = 60, find locomotion.",
+     "a": "120",
+     "self_check": false
+    },
+    {
+     "q": "For Snail Locomotion: given muscular_foot_wave = 69, slimy_lubrication = 23, find locomotion.",
+     "a": "92",
      "self_check": false
     }
    ]
@@ -101,28 +301,6 @@
     {
      "q": "Why does the hip joint move less freely than the shoulder?",
      "a": "Deeper socket and stronger ligaments trade some motion for body support.",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "fesc.8.1.3",
-   "title": "Pivotal Joint",
-   "solution_type": "verify_property",
-   "questions": [
-    {
-     "q": "What is a pivotal joint? Give its location.",
-     "a": "A joint allowing rotation around an axis - the neck joins the skull (head turns side to side).",
-     "self_check": true
-    },
-    {
-     "q": "Which movement does a pivotal joint permit?",
-     "a": "Rotation only - nodding 'no' with the head.",
-     "self_check": true
-    },
-    {
-     "q": "Give one more example of pivotal movement in the body.",
-     "a": "Turning the forearm palm up/down at the elbow's pivot.",
      "self_check": true
     }
    ]
@@ -172,83 +350,6 @@
    ]
   },
   {
-   "id": "fesc.8.1.6",
-   "title": "Rib Cage Structure and Rib Count",
-   "solution_type": "compute",
-   "solution_steps": [
-    {
-     "step": 1,
-     "name": "total_ribs",
-     "expr": "ribs_per_side * 2",
-     "explain": "ribs come in pairs, one on each side"
-    },
-    {
-     "step": 2,
-     "name": "pairs_in_24",
-     "expr": "24 / ribs_per_side",
-     "explain": "rib pairs among the first 24 ribs"
-    },
-    {
-     "step": 3,
-     "name": "floating_ribs_rest",
-     "expr": "total_ribs - 24",
-     "explain": "ribs beyond the 24 true ribs counted separately"
-    }
-   ],
-   "questions": [
-    {
-     "q": "There are 12 ribs on one side of the chest. How many ribs in all, and how many beyond the first 12 pairs?",
-     "vals": {
-      "ribs_per_side": 12
-     },
-     "unit": "ribs",
-     "steps": null,
-     "a": "0 ribs",
-     "self_check": false
-    },
-    {
-     "q": "If a rib cage has 12 pairs of ribs, what is the total rib count?",
-     "vals": {
-      "ribs_per_side": 12
-     },
-     "unit": "ribs",
-     "steps": null,
-     "a": "0 ribs",
-     "self_check": false
-    },
-    {
-     "q": "Count 12 ribs on the left side and 12 on the right: what is the sum, and how many lie beyond 24?",
-     "vals": {
-      "ribs_per_side": 12
-     },
-     "unit": "ribs",
-     "steps": null,
-     "a": "0 ribs",
-     "self_check": false
-    },
-    {
-     "q": "A model shows 12 ribs each side. Compute the total and the extra beyond the 24 front ribs.",
-     "vals": {
-      "ribs_per_side": 12
-     },
-     "unit": "ribs",
-     "steps": null,
-     "a": "0 ribs",
-     "self_check": false
-    },
-    {
-     "q": "Given ribs_per_side = 12, find the paired total and its difference from 24.",
-     "vals": {
-      "ribs_per_side": 12
-     },
-     "unit": "ribs",
-     "steps": null,
-     "a": "0 ribs",
-     "self_check": false
-    }
-   ]
-  },
-  {
    "id": "fesc.8.1.7",
    "title": "Cartilage",
    "solution_type": "verify_property",
@@ -266,72 +367,6 @@
     {
      "q": "Can you bend your ear bones? What makes ears bendable?",
      "a": "Cartilage, not bone, gives the ear its flexible shape.",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "fesc.8.1.8",
-   "title": "Antagonistic Muscle Pair Action",
-   "solution_type": "verify_property",
-   "questions": [
-    {
-     "q": "How do muscles move bones?",
-     "a": "Muscles contract (pull) and relax, pulling the bones they are attached to.",
-     "self_check": true
-    },
-    {
-     "q": "Why must muscles work in pairs?",
-     "a": "Muscles can only pull - one bends the joint while its partner straightens it.",
-     "self_check": true
-    },
-    {
-     "q": "Give the muscle pair that moves the arm.",
-     "a": "Biceps (bends the arm) and triceps (straightens it).",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "fesc.8.2.1",
-   "title": "Earthworm Locomotion",
-   "solution_type": "verify_property",
-   "questions": [
-    {
-     "q": "How does an earthworm move?",
-     "a": "It alternately lengthens and shortens its body, anchoring with bristles (setae) under the skin.",
-     "self_check": true
-    },
-    {
-     "q": "What are setae?",
-     "a": "Tiny bristles under the earthworm's body that grip the soil while it moves.",
-     "self_check": true
-    },
-    {
-     "q": "Why does an earthworm need moist soil to move?",
-     "a": "Its skin must stay moist for breathing, and slick surfaces ease sliding.",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "fesc.8.2.2",
-   "title": "Snail Locomotion",
-   "solution_type": "verify_property",
-   "questions": [
-    {
-     "q": "How does a snail move?",
-     "a": "It glides on a large muscular foot, laying down slimy mucus that eases sliding.",
-     "self_check": true
-    },
-    {
-     "q": "What is the thickStructure a snail carries?",
-     "a": "Its spiral shell, into which it withdraws for safety.",
-     "self_check": true
-    },
-    {
-     "q": "Why does a snail leave a shiny trail?",
-     "a": "The mucus it secretes dries into a silvery line along its path.",
      "self_check": true
     }
    ]

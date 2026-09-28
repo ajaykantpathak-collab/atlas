@@ -34,6 +34,26 @@
      "q": "Design a real-world scenario where nested `with` statements are necessary, write the code, and explain why a single `with` with multiple files wouldn't suffice for your scenario.",
      "a": "Scenario: Transactional file update - read config from 'config.ini', modify it, write to 'config.ini.new', then atomically replace original only if write succeeds completely.\n```python\nimport os\nwith open('config.ini', 'r') as src:\n    content = src.read()\nmodified = content.replace('debug=false', 'debug=true')\nwith open('config.ini.new', 'w') as dst:\n    dst.write(modified)\nos.replace('config.ini.new', 'config.ini')  # atomic on POSIX\n```\nSingle `with` wouldn't work because we need the source file closed before writing the destination (to avoid locking issues on Windows) and we need the destination fully written and closed before atomic replace. A student who suggests `with open('config.ini') as src, open('config.ini.new') as dst:` doesn't understand file locking semantics or atomic replacement requirements.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The with statement in Python is a context manager that ______ handles resource acquisition and release, ensuring files are properly closed after operations even if exceptions occur, by invoking the __enter__ and __exit__ methods of the file object.",
+     "a": "automatically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're writing a ______ to save student marks to a file, but halfway through writing, a power cut occurs or your code hits a division-by-zero error.",
+     "a": "program",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write correct with statement syntax for reading, writing, and appending files, explain how it guarantees file closure during exceptions, and convert traditional open/close code to with statement equivalents without logical errors.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're writing a program to save student marks to a file, but halfway through writing, a power cut occurs or your code hits a ______-by-zero error.",
+     "a": "division",
+     "self_check": true
     }
    ]
   }

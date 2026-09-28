@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using household items to demonstrate that pressure depends on area for a constant force. Describe the procedure, what you would measure, and how you would calculate and compare pressures.",
      "a": "Place a brick (weight ≈ 20 N) on sand in three orientations: largest face (≈ 0.02 m²), smallest face (≈ 0.005 m²), and on its edge (≈ 0.01 m²). Measure the depth of sinking in each case. Calculate pressure: P = 20 N / area. Largest face: 1000 Pa; smallest: 4000 Pa; edge: 2000 Pa. Deeper sinking correlates with higher pressure. A poor answer (e.g., using different forces, not measuring area, or confusing mass with weight) shows inability to isolate variables or apply the pressure formula correctly.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Pressure is the normal force exerted by a fluid per unit area of the surface in contact, defined as the limit of the ratio of the normal force ΔF to the area ΔA as the area ______ zero: P = lim(ΔA→0) ΔF/ΔA.",
+     "a": "approaches",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a drawing pin pressed into a wall: the sharp tip enters easily while the flat head does not, even with the same force from your thumb.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What is Pressure? State the definition given in this lesson.",
+     "a": "Pressure is the normal force exerted by a fluid per unit area of the surface in contact, defined as the limit of the ratio of the normal force ΔF to the area ΔA as the area approaches zero: P = lim(ΔA→0) ΔF/ΔA.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Pressure is the normal force exerted by a fluid per unit area of the surface in contact, defined as the limit of the ratio of the normal force ΔF to the area ΔA as the area approaches zero: P = lim(ΔA→______) ΔF/ΔA.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Pressure?",
+     "a": "Students think \"pressure at a point in a fluid has direction because force has direction.\" They incorrectly believe pressure acts *downward* due to gravity, or that pressure on a vertical wall is different from pressure on a horizontal surface at the same depth.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can calculate pressure from force and area in SI units, convert between pressure units (Pa, atm, bar, torr, mm Hg), explain why pressure is scalar despite force being vector, and apply the limiting definition to distinguish average pressure from point pressure.",
+     "self_check": true
     }
    ]
   }

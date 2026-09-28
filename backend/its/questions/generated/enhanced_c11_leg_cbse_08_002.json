@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_08_002",
+   "title": "c11_leg_cbse_08_002",
+   "questions": [
+    {
+     "q": "What are the three main sources of law identified in modern legal systems, and which one is considered the most important in contemporary India?",
+     "a": "The three main sources are custom, judicial precedent, and legislation. In contemporary India, legislation (especially supreme legislation by Parliament) is the most important source because it is directly enacted by the sovereign authority, can override custom and precedent, and addresses complex modern governance needs. A wrong answer (e.g., \"custom is most important\") reveals the student is relying on historical jurisprudence (Savigny) rather than the modern Indian constitutional scheme where Parliament's legislative supremacy is constrained only by the Constitution.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a custom allowing child marriage would NOT be recognised as a valid source of law in India today, even if practiced continuously for centuries.",
+     "a": "Such a custom fails the tests of reasonableness, morality, and consistency with legislation. The Prohibition of Child Marriage Act, 2006 expressly voids child marriages, and the custom violates public policy, fundamental rights (Article 21), and statutory law. A wrong answer (e.g., \"it's valid because it's ancient\") shows the student misunderstands that antiquity alone is insufficient — a custom must satisfy ALL essential tests, and legislation abrogates contrary customs.",
+     "self_check": true
+    },
+    {
+     "q": "A District Court in Kerala is deciding a case on maintenance under Section 125 CrPC. The Kerala High Court ruled in 2019 that \"maintenance includes educational expenses.\" The Supreme Court ruled in 2015 that \"maintenance means only food, shelter, clothing.\" Which precedent binds the District Court, and why?",
+     "a": "The Supreme Court's 2015 decision binds the District Court because Article 141 makes the law declared by the Supreme Court binding on all courts in India. High Court decisions are binding only within their jurisdiction (Kerala) and have only persuasive value outside it. A wrong answer (e.g., \"the newer High Court decision\") reveals confusion about the hierarchical nature of stare decisis and the supreme authority of the Supreme Court under the Constitution.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"supreme legislation\" and \"subordinate legislation\" in terms of origin, control, and examples in the Indian context.",
+     "a": "Supreme legislation originates directly from the sovereign (Parliament), cannot be controlled by any other legislative body, and includes Acts like the RTI Act, 2005. Subordinate legislation is made by authorities subordinate to Parliament (executive, local bodies, universities) under delegated power, depends on the sovereign's will for validity, and includes rules, bye-laws, ordinances. The key distinction: supreme legislation is controlled only by the Constitution; subordinate legislation is controlled by the parent Act and can be struck down if ultra vires. A wrong answer conflating the two shows failure to grasp delegation and the \"necessary evil\" rationale of delegated legislation.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Judges do not make law; they only declare it.\" Use the Indian context and the distinction between ratio decidendi and obiter dicta to support your view.",
+     "a": "The statement is partially correct but outdated. In India, judges *do* make law through ratio decidendi of Supreme Court decisions (e.g., right to privacy from Article 21 in Puttaswamy, 2017), which becomes binding precedent under Article 141. However, they cannot legislate like Parliament — their law-making is interstitial, interpretive, and constrained by the Constitution. Obiter dicta are persuasive but not binding. A wrong answer (\"judges never make law\") ignores the creative judicial role in expanding fundamental rights; a wrong answer (\"judges make law like Parliament\") ignores separation of powers and the legislative monopoly on policy-making.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario where a local custom conflicts with a central legislation. Identify which source prevails and explain the legal reasoning using the \"status of custom with regard to legislation\" test.",
+     "a": "Scenario: A tribal community in Odisha practices \"bride capture\" marriage by custom. The Prohibition of Child Marriage Act, 2006 and IPC Section 366 (kidnapping for marriage) criminalise this. The custom is invalid because: (1) it violates statutory law (legislation abrogates custom); (2) it fails morality and public policy tests; (3) it infringes fundamental rights (Articles 14, 21). Legislation prevails. A poor answer would claim custom prevails due to antiquity, ignoring that in modern India, a custom contrary to statute is void ab initio — the \"status of custom with regard to legislation\" test is a veto, not a balance.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

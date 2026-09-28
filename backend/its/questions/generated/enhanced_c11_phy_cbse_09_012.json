@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using household items to demonstrate that surface tension decreases with temperature. Specify the materials, procedure, measurable quantity, and expected observation. How would you quantify the change?",
      "a": "Materials: Two identical small steel needles, two bowls, hot water (~60°C), cold water (~10°C), detergent (optional). Procedure: Gently place a needle on cold water surface — it floats. Repeat with hot water — it sinks. Measurable: Maximum weight supported (use needles of known mass or add tiny weights). Expected: Needle floats on cold water, sinks on hot water. Quantify: Find critical mass m_max at each temperature; S ∝ m_max. Plot S vs T. A poor answer using only qualitative \"floats/sinks\" without a way to measure the change reveals inability to design quantitative experiments.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Surface tension is the property of a liquid surface to behave like a stretched elastic membrane due to cohesive forces between molecules, quantified as the force acting per unit length of an imaginary line drawn on the surface (SI unit: N/m) or ______ the surface energy per unit area (SI unit: J/m²).",
+     "a": "equivalently",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a steel needle floating on water in a bowl — it depresses the surface but doesn't sink.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What is Surface tension? State the definition given in this lesson.",
+     "a": "Surface tension is the property of a liquid surface to behave like a stretched elastic membrane due to cohesive forces between molecules, quantified as the force acting per unit length of an imaginary line drawn on the surface (SI unit: N/m) or equivalently the surface energy per unit area (SI unit: J/m²).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Surface tension?",
+     "a": "Students believe surface tension acts only at the very edge of a liquid surface (like a skin) and not throughout the surface.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the excess pressure inside a spherical liquid drop (2S/r) and a soap bubble (4S/r) from energy principles, calculate the force required to pull a wire frame from a liquid film using F = 2Sl, and explain why surface tension decreases with temperature using molecular kinetic theory.",
+     "self_check": true
     }
    ]
   }

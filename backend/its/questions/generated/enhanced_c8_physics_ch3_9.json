@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using only a wooden block, a spring balance, a few standard weights, and three different surfaces (tabletop, cardboard, sandpaper) to investigate how the nature of the surface affects friction. Describe the procedure, what you will measure, and how you will compare results.",
      "a": "Procedure: 1) Place block on tabletop. Attach spring balance horizontally. 2) Pull gently until block just starts moving; record the maximum reading (static friction). 3) Repeat 3 times and average. 4) Repeat steps 1–3 on cardboard and sandpaper. 5) Keep block mass constant (same normal force). Measure: maximum static friction force (N) for each surface. Compare: higher reading means greater friction. Expected order: sandpaper > cardboard > tabletop. A poor answer (e.g., \"push and see which goes farthest\" or changing mass between trials) shows the student doesn't control variables or measure force quantitatively.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Friction is a contact force that opposes the relative motion or tendency of motion between two surfaces in contact, acting parallel to the contact surface and opposite to the ______ of motion or applied force.",
+     "a": "direction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bicycle slowing down when you stop ______ on a level road — the tyres and road surface interact to create a force that opposes motion.",
+     "a": "pedalling",
+     "self_check": true
+    },
+    {
+     "q": "What is Friction? State the definition given in this lesson.",
+     "a": "Friction is a contact force that opposes the relative motion or tendency of motion between two surfaces in contact, acting parallel to the contact surface and opposite to the direction of motion or applied force.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Friction?",
+     "a": "Students often believe that friction always opposes motion and therefore cannot act in the direction of motion.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the direction of friction in a given physical situation, explain how changing the nature of surfaces or the normal force affects friction magnitude, and predict whether an object will move or stay at rest when a specific applied force is given.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Create a dissolution scenario with two unrecorded assets and two unrecorded liabilities. Design journal entries for all four, ensuring at least one asset is taken over by a partner and one liability is discharged by a partner. Show the Realisation Account extract.",
      "a": "Scenario: Unrecorded goodwill sold ₹30,000; unrecorded patent taken by Partner A ₹10,000; unrecorded legal claim paid ₹12,000; unrecorded tax liability taken by Partner B ₹8,000.\nEntries:\n1. Bank Dr. 30,000 → Realisation Cr. 30,000\n2. A's Capital Dr. 10,000 → Realisation Cr. 10,000\n3. Realisation Dr. 12,000 → Bank Cr. 12,000\n4. Realisation Dr. 8,000 → B's Capital Cr. 8,000\nRealisation A/c: Cr. side 40,000; Dr. side 20,000 → Net gain ₹20,000.\nA poor answer (missing entries or wrong sides) reveals inability to synthesize multiple treatments.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Unrecorded assets are assets not appearing in the firm's Balance Sheet (e.g., goodwill written off, patents, or fully ______ assets still in use) that are realized during dissolution; unrecorded liabilities are obligations not recorded in the books (e.g., contingent liabilities becoming certain) that must be settled.",
+     "a": "depreciated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Balance Sheet shows no goodwill, but the firm has a strong reputation — an ______ asset.",
+     "a": "unrecorded",
+     "self_check": true
+    },
+    {
+     "q": "What is Unrecorded assets? State the definition given in this lesson.",
+     "a": "Unrecorded assets are assets not appearing in the firm's Balance Sheet (e.g., goodwill written off, patents, or fully depreciated assets still in use) that are realized during dissolution; unrecorded liabilities are obligations not recorded in the books (e.g., contingent liabilities becoming certain) that must be settled.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a partnership firm dissolving after ______ years.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Unrecorded assets?",
+     "a": "Students often debit the unrecorded asset account (e.g., Goodwill A/c) and credit Realisation Account, thinking the asset must first be brought into books.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must correctly pass journal entries for at least three distinct scenarios: (1) unrecorded asset sold for cash, (2) unrecorded asset taken over by a partner, (3) unrecorded liability paid in cash, (4) unrecorded liability taken over by a partner, and show the effect on Realisation Account and partner capital accounts without.",
+     "self_check": true
     }
    ]
   }

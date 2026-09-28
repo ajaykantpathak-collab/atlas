@@ -34,6 +34,31 @@
      "q": "Design a one-dimensional diagram to represent the following for a Class 12 practical exam: \"Monthly rainfall (cm) and temperature (°C) for Mumbai — show both on one diagram.\" Specify diagram type, dual-axis scale construction, plotting method, and legend requirements. Explain why this combined diagram is preferred over two separate diagrams for climatic analysis.",
      "a": "Combined line-and-bar diagram (climograph): X-axis = months (Jan–Dec). Left Y-axis = temperature scale (e.g., 1 cm = 2°C, range 20–33°C). Right Y-axis = rainfall scale (e.g., 1 cm = 10 cm, range 0–60 cm). Plot temperature as line graph (dots joined), rainfall as vertical bars. Legend: red line = temperature, blue bars = rainfall. Title: \"Climograph of Mumbai: Monthly Temperature and Rainfall\". Preferred because: (1) direct visual correlation of rain peaks with temperature dips (monsoon cooling), (2) single diagram saves space/time in exam, (3) standard geographical convention for climate data (Köppen classification uses such diagrams). Poor answer (two separate diagrams, single axis, no legend) misses the \"closely associated characteristics\" rule in NCERT Example 3.4 — a 3-mark practical question staple.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: One-dimensional diagrams represent statistical data using only length (height/width) of bars or lines, where the magnitude of the variable is ______ to the linear dimension; they include line graphs (for continuous time-series data like temperature, population growth) and bar diagrams (for discrete categorical comparisons like state-wise rainfall, literacy rates, or crop production).",
+     "a": "proportional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Open the India Meteorological Department's monthly ______ data for your city — you see 12 numbers (Jan–Dec) that are hard to compare at a glance.",
+     "a": "rainfall",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Open the India Meteorological Department's monthly rainfall data for your city — you see ______ numbers (Jan–Dec) that are hard to compare at a glance.",
+     "a": "12",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently select the appropriate one-dimensional diagram type for a given geographical dataset, construct it with correct scale/axes/labeling following NCERT conventions, and interpret trends/comparisons from the completed diagram to answer board-style \"construct and interpret\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Open the India ______ Department's monthly rainfall data for your city — you see 12 numbers (Jan–Dec) that are hard to compare at a glance.",
+     "a": "Meteorological",
+     "self_check": true
     }
    ]
   }

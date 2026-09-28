@@ -34,6 +34,36 @@
      "q": "Design a real-world scenario (Indian context) where you would choose insertion sort over Python's built-in `sort()` for a list of 50 elements, and justify your choice in 3 sentences.",
      "a": "Scenario: A small kirana shop maintains a daily sales list of 50 items that arrives **already sorted by item code** except for 2-3 new items appended at the end each morning. Insertion sort is ideal because it runs in O(n) on nearly sorted data (only the new items need shifting), has zero overhead for small n, and sorts in-place without allocating a new list like `sorted()`. Choosing `sort()` here is not wrong but wastes the existing order; a poor answer would cite \"insertion sort is simpler\" without linking to the **nearly sorted** property — the key competency is matching algorithm to data characteristics.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Searching is the algorithmic process of locating a target element within a data structure (e.g., a Python list) and returning its position or a boolean indicating presence; sorting is the process of rearranging elements into a defined order (ascending/descending) using comparison-based or built-in methods, with time complexity ______ efficiency.",
+     "a": "characterizing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a contact list of 500 names on your phone and need to find \"Rahul\" — would you scroll one by one (______) or jump to the middle if the list is alphabetically sorted (binary)?",
+     "a": "linear",
+     "self_check": true
+    },
+    {
+     "q": "What is Searching? State the definition given in this lesson.",
+     "a": "Searching is the algorithmic process of locating a target element within a data structure (e.g., a Python list) and returning its position or a boolean indicating presence; sorting is the process of rearranging elements into a defined order (ascending/descending) using comparison-based or built-in methods, with time complexity.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a contact list of ______ names on your phone and need to find \"Rahul\" — would you scroll one by one (linear) or jump to the middle if the list is alphabetically sorted (binary)?",
+     "a": "500",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Searching?",
+     "a": "Students believe \"binary search is always faster than linear search\" and apply it to unsorted lists, or they think list.sort() returns the sorted list (it returns N/A and sorts in-place).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can trace linear and binary search on a given list step-by-step, implement bubble/selection/insertion sort in Python with correct loop indices, explain when binary search is applicable (precondition: sorted list), and compare time complexities (O(n), O(log n), O(n²)) to choose the appropriate algorithm for a given problem size.",
+     "self_check": true
     }
    ]
   }

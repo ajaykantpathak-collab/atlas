@@ -34,6 +34,21 @@
      "q": "Design a mini case study (3-4 sentences) where a school's file-based system fails during annual result processing, and explain how a DBMS would resolve each failure point.",
      "a": "Case: During result entry, Teacher A updates marks in Marks.csv while Teacher B updates attendance in Attendance.csv for the same student. A power cut occurs after Teacher A's write but before Teacher B's, leaving marks updated but attendance not — the student's record is now inconsistent. Also, two teachers simultaneously edit Marks.csv, causing one set of marks to be lost. A DBMS would wrap both updates in a transaction (atomicity), use row-level locking (concurrency), and enforce foreign key between marks and attendance tables (integrity). A poor answer that only mentions \"DBMS has backup\" misses atomicity, concurrency, and integrity mechanisms.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A file system manages data as separate files on storage media, requiring application programs to handle data ______, access, and integrity, while a database system uses a DBMS to centrally store, manage, and provide controlled access to integrated data with minimal redundancy, enforced consistency, and support for concurrent multi-user operations.",
+     "a": "organization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a school office where student admission forms, fee receipts, and exam marks are stored in separate paper folders — each teacher updates their own folder, leading to duplicate entries, mismatched totals, and lost updates when two teachers work ______.",
+     "a": "simultaneously",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compare file system and DBMS across at least five dimensions (redundancy, consistency, access, integrity, concurrency, security) and, given a real-world scenario, justify why a DBMS is preferred over a file system with specific technical reasons.",
+     "self_check": true
     }
    ]
   }

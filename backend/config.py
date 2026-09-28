@@ -132,9 +132,9 @@ class Settings(BaseSettings):
     # ------------------------------------------------------------------ #
     # Neo4j (Knowledge Graph)
     # ------------------------------------------------------------------ #
-    neo4j_url: str = Field(
+    neo4j_uri: str = Field(
         default="bolt://localhost:7687",
-        description="Neo4j bolt connection URL",
+        description="Neo4j bolt connection URL (env: PLATFORM_NEO4J_URI)",
     )
     neo4j_user: str = Field(default="neo4j")
     neo4j_password: str = Field(

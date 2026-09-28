@@ -34,6 +34,21 @@
      "q": "Design a real-world scenario for the CARSHOWROOM database where you need a correlated subquery in the HAVING clause, and write the complete query. Explain why it must be correlated.",
      "a": "Scenario: \"List each employee's EmpID and total sales count, but only for employees whose total sales count exceeds the average sales count per employee.\" Query:\n```sql\nSELECT EmpID, COUNT(*) AS TotalSales\nFROM SALE\nGROUP BY EmpID\nHAVING COUNT(*) > (SELECT AVG(SalesCount) FROM (SELECT COUNT(*) AS SalesCount FROM SALE GROUP BY EmpID) AS T);\n```\nThe subquery must be correlated? Actually, this is non-correlated. A correlated example: \"List cars whose price is above the average price of cars of the same FuelType.\" That would be in WHERE. For HAVING, a correlated subquery could reference the outer group's EmpID to compare with that employee's average sale price. A good answer shows understanding of correlation; a poor answer writes a non-correlated subquery and claims it's correlated.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A subquery (nested query) is a SELECT statement embedded within another SQL statement's WHERE or HAVING clause, used to return a value or set of values that the outer query uses for ______; the inner query executes first and its result becomes a condition for the outer query.",
+     "a": "filtering",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the manager of the ______ and want to find all cars priced higher than the average price of Petrol cars.",
+     "a": "CARSHOWROOM",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write a correct SQL query that uses a single-row subquery in a WHERE clause with comparison operators (=, >, <) and a multi-row subquery with IN, ANY, ALL, and can place a subquery in a HAVING clause to filter groups based on an aggregate value from another table.",
+     "self_check": true
     }
    ]
   }

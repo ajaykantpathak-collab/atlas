@@ -34,6 +34,26 @@
      "q": "Design a validation workflow for a newly predicted protein structure that integrates Ramachandran analysis with at least two other independent quality metrics. Justify why each metric is needed.",
      "a": "Workflow: (1) Ramachandran plot (PROCHECK/MolProbity) — validates backbone φ/ψ geometry; (2) Verify3D/ERRAT — assesses residue environment compatibility (hydrophobic burial, charge pairing) in 3D context; (3) ProSA-web Z-score — evaluates overall energy profile against native structures of similar size; (4) MolProbity clashscore — detects steric clashes between non-bonded atoms beyond backbone. Justification: Ramachandran only checks backbone torsion; Verify3D checks 3D-1D compatibility; ProSA checks global fold energy; clashscore catches side-chain packing errors. A poor answer listing only Ramachandran or generic \"energy minimization\" misses the orthogonal nature of validation metrics.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Ramachandran Plot is a two-dimensional scatter plot of the backbone dihedral angles φ (phi, rotation around N-Cα bond) versus ψ (psi, rotation around Cα-C bond) for each amino acid residue in a protein structure, which visualizes sterically allowed and disallowed ______ based on van der Waals clashes between non-bonded atoms.",
+     "a": "conformations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have built a homology model of a potential drug target protein using SWISS-MODEL — how do you know if the 3D structure is ______ realistic or if the backbone geometry contains impossible atomic clashes?",
+     "a": "physically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have built a homology model of a potential drug target protein using SWISS-MODEL — how do you know if the ______D structure is physically realistic or if the backbone geometry contains impossible atomic clashes?",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Interpret a Ramachandran plot to identify secondary structure elements (α-helix, β-sheet, left-handed helix) and assess stereochemical quality of a protein model; (2) Calculate the percentage of residues in favored, allowed, and outlier regions and judge whether a homology model passes validation criteria.",
+     "self_check": true
     }
    ]
   }

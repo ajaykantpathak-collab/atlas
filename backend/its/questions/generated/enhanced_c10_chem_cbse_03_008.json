@@ -34,6 +34,26 @@
      "q": "Design a simple activity using readily available materials (no hazardous chemicals) to demonstrate that ionic compounds conduct electricity in molten state but not in solid state. List materials, procedure, observation, and conclusion.",
      "a": "Materials: Table salt (NaCl), two graphite pencils (as electrodes), 9V battery, LED, connecting wires, metal spoon, gas stove (adult supervision).\nProcedure: (1) Set up circuit: battery → LED → wires → two pencil leads. (2) Place solid NaCl on spoon, touch pencil leads to it — LED stays off. (3) Heat spoon gently until NaCl melts (mp 801°C — may need bunsen burner; alternative: use aqueous solution for Class 10 lab demo). (4) Dip leads in molten salt — LED glows.\nObservation: Solid NaCl does not conduct; molten NaCl conducts.\nConclusion: In solid state, ions are fixed in lattice; in molten state, ions are mobile and carry current.\nA poor answer using sugar (covalent) or testing only aqueous solution misses the specific solid vs molten comparison. Using a metal spoon as electrode causes short circuit — shows lack of understanding of inert electrodes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When a metal (typically from Groups 1, 2, or 13) reacts with a non-metal (typically from Groups 15, 16, or 17), the metal atom loses electrons to form a ______ charged cation and the non-metal atom gains those electrons to form a negatively charged anion.",
+     "a": "positively",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a common kitchen scene: sprinkling table salt (NaCl) on food.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write the electron-dot structures for the formation of at least three different ionic compounds (e.g., NaCl, MgO, CaCl₂) showing complete electron transfer, predict the formula of an ionic compound given the valencies of the metal and non-metal, and explain why ionic compounds conduct electricity in molten/aqueous state.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a common kitchen scene: ______ table salt (NaCl) on food.",
+     "a": "sprinkling",
+     "self_check": true
     }
    ]
   }

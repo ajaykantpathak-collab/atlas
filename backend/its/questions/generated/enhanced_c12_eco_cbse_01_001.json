@@ -34,6 +34,31 @@
      "q": "Construct a real-life scenario involving a Class 12 student choosing between three activities on a Sunday: (a) studying Economics for 4 hours, (b) working a part-time tutoring job earning ₹500, (c) attending a cricket match with friends. Identify the opportunity cost of each choice and explain how the concept of \"margin\" applies.",
      "a": "If the student chooses (a), opportunity cost = max(₹500, enjoyment of match). If (b), opportunity cost = max(grade improvement from 4 hrs study, match enjoyment). If (c), opportunity cost = max(₹500, grade improvement). At the margin, the student compares *additional* benefit of 1 more hour of study vs 1 more hour of work/leisure. A good answer explicitly ranks alternatives and recognises opportunity cost is the *next best* (not sum of all). A poor answer lists all forgone options as cost — revealing confusion between opportunity cost and total forgone alternatives.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Scarcity is the ______ economic condition where unlimited human wants exceed the limited resources available to satisfy them, forcing every economic agent (individuals, firms, government) to make choices involving trade-offs; each choice incurs an opportunity cost — the value of the next best alternative forgone.",
+     "a": "fundamental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer in Punjab with 10 hectares of land, ______ groundwater, and ₹5 lakh capital deciding between wheat and rice cultivation for the rabi season.",
+     "a": "limited",
+     "self_check": true
+    },
+    {
+     "q": "What is Scarcity? State the definition given in this lesson.",
+     "a": "Scarcity is the fundamental economic condition where unlimited human wants exceed the limited resources available to satisfy them, forcing every economic agent (individuals, firms, government) to make choices involving trade-offs; each choice incurs an opportunity cost — the value of the next best alternative forgone.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Scarcity?",
+     "a": "Students believe scarcity only applies to \"poor\" people or countries — \"rich people don't face scarcity.\" In reality, even a billionaire faces scarcity of *time* (24 hours/day), *attention*, and *unique* resources (e.g., a specific vintage wine, a Nobel Prize).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why scarcity is the root cause of all economic problems, distinguish between wants and needs in a resource-constrained context, and articulate how opportunity cost arises from every choice using a Production Possibility Frontier (PPF) example with numerical data.",
+     "self_check": true
     }
    ]
   }

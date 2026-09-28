@@ -4,22 +4,94 @@
   {
    "id": "gesc.5.1",
    "title": "Physical Change",
-   "solution_type": "verify_property",
+   "converted_to_compute": true,
+   "formula": "initial_substance = final_substance",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "initial_substance = final_substance",
+     "compute": "initial_substance = final_substance"
+    }
+   ],
    "questions": [
     {
-     "q": "What is a physical change?",
-     "a": "A change in shape, size or state where no new substance forms and the change can usually be reversed.",
-     "self_check": true
+     "q": "For Physical Change: given final_substance = 33, find initial substance.",
+     "a": "33",
+     "self_check": false
     },
     {
-     "q": "Give two examples of physical changes.",
-     "a": "Melting of ice and tearing of paper (also dissolving sugar).",
-     "self_check": true
+     "q": "For Physical Change: given final_substance = 62, find initial substance.",
+     "a": "62",
+     "self_check": false
     },
     {
-     "q": "Is dissolving salt in water reversible? How?",
-     "a": "Yes - evaporating the water leaves the salt back, unchanged.",
-     "self_check": true
+     "q": "For Physical Change: given final_substance = 75, find initial substance.",
+     "a": "75",
+     "self_check": false
+    },
+    {
+     "q": "For Physical Change: given final_substance = 83, find initial substance.",
+     "a": "83",
+     "self_check": false
+    },
+    {
+     "q": "For Physical Change: given final_substance = 91, find initial substance.",
+     "a": "91",
+     "self_check": false
+    },
+    {
+     "q": "For Physical Change: given final_substance = 82, find initial substance.",
+     "a": "82",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "gesc.5.7",
+   "title": "Prevention of Rusting",
+   "converted_to_compute": true,
+   "formula": "protection = coating_layer",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "protection = coating_layer",
+     "compute": "protection = coating_layer"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Prevention of Rusting: given coating_layer = 78, find protection.",
+     "a": "78",
+     "self_check": false
+    },
+    {
+     "q": "For Prevention of Rusting: given coating_layer = 38, find protection.",
+     "a": "38",
+     "self_check": false
+    },
+    {
+     "q": "For Prevention of Rusting: given coating_layer = 21, find protection.",
+     "a": "21",
+     "self_check": false
+    },
+    {
+     "q": "For Prevention of Rusting: given coating_layer = 63, find protection.",
+     "a": "63",
+     "self_check": false
+    },
+    {
+     "q": "For Prevention of Rusting: given coating_layer = 9.7, find protection.",
+     "a": "9.7",
+     "self_check": false
+    },
+    {
+     "q": "For Prevention of Rusting: given coating_layer = 97, find protection.",
+     "a": "97",
+     "self_check": false
     }
    ]
   },
@@ -129,28 +201,6 @@
     {
      "q": "Why does an iron pan rust faster in the rainy season?",
      "a": "Moisture in air is high, and water plus oxygen speed up rusting.",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "gesc.5.7",
-   "title": "Prevention of Rusting",
-   "solution_type": "verify_property",
-   "questions": [
-    {
-     "q": "Give three ways to prevent rusting.",
-     "a": "Painting or greasing the surface, galvanising with zinc, and keeping iron dry.",
-     "self_check": true
-    },
-    {
-     "q": "Why does a galvanised iron sheet not rust even if scratched?",
-     "a": "Zinc coats the iron and zinc itself corrodes very slowly, protecting the exposed edge too.",
-     "self_check": true
-    },
-    {
-     "q": "How does oiling protect machine parts?",
-     "a": "The oil film keeps air and moisture away from the metal surface.",
      "self_check": true
     }
    ]

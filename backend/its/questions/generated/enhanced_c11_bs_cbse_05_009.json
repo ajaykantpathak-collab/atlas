@@ -34,6 +34,31 @@
      "q": "Design a hypothetical e-business application workflow for a new platform \"AgriConnect\" that helps small farmers sell directly to urban retailers. Specify: (a) which two e-business applications it combines, (b) the mechanism for price discovery, (c) how delivery and payment are handled, (d) one risk unique to this model.",
      "a": "(a) Combines e-Procurement (retailers as buyers sourcing from farmers) and e-Commerce (B2C-like interface for farmers). (b) Reverse auction for bulk seasonal produce; fixed-price listings for perishables. (c) e-Delivery for logistics coordination (cold-chain tracking); payment via UPI escrow released on quality verification. (d) Quality asymmetry risk — farmers may grade produce optimistically; retailers cannot physically inspect before bidding. A good answer integrates multiple applications and identifies a context-specific risk, not generic \"internet fraud.\"",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: E-business applications are specific internet-enabled tools and processes that ______ e-business across its functional domains: e-Procurement (B2B purchasing via reverse auctions and digital marketplaces), e-Commerce (B2C/C2C buying-selling with payment, delivery, promotion), and e-Trading (online securities trading of shares/financial instruments), each reducing transaction costs and cycle time through digital workflows.",
+     "a": "operationalise",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're a ______ manager at Maruti Suzuki needing 50,000 steel sheets monthly.",
+     "a": "procurement",
+     "self_check": true
+    },
+    {
+     "q": "What is E-business applications? State the definition given in this lesson.",
+     "a": "E-business applications are specific internet-enabled tools and processes that operationalise e-business across its functional domains: e-Procurement (B2B purchasing via reverse auctions and digital marketplaces), e-Commerce (B2C/C2C buying-selling with payment, delivery, promotion), and e-Trading (online securities trading of.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about E-business applications?",
+     "a": "Students often treat e-Procurement, e-Commerce, and e-Trading as interchangeable \"online buying-selling\" because all involve websites and payments.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to distinguish between e-Procurement, e-Commerce, and e-Trading by identifying their unique transaction parties, mechanisms (reverse auction vs. shopping cart vs. order matching), and business outcomes, and explain how each application maps to B2B, B2C, or C2C scope categories from the previous node.",
+     "self_check": true
     }
    ]
   }

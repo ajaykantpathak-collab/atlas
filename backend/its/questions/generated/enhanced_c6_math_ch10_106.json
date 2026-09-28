@@ -34,6 +34,26 @@
      "q": "Draw a shape that has exactly two lines of symmetry, and explain why a third line cannot exist for your shape.",
      "a": "A rectangle (that is not a square) is a classic example. A third line (like a diagonal) would result in parts that do not overlap, meaning the symmetry property is strictly bound by the rectangle's dimensions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A line of symmetry is an ______ line that divides a 2D shape into two identical mirror halves, such that if the shape were folded along this line, both parts would overlap perfectly.",
+     "a": "imaginary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a piece of paper cut in the shape of a heart; if you fold it down the middle, the left side lands ______ on the right.",
+     "a": "perfectly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A line of symmetry is an imaginary line that divides a ______D shape into two identical mirror halves, such that if the shape were folded along this line, both parts would overlap perfectly.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify, draw, and count the lines of symmetry for various polygons and simple 2D shapes by mentally or physically visualizing a fold.",
+     "self_check": true
     }
    ]
   }

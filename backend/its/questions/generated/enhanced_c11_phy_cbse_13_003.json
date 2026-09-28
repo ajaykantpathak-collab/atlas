@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a smartphone's accelerometer and a spring-mass system to verify that acceleration in SHM is proportional to displacement and directed opposite to it. Describe the setup, measurements, and how you would plot the data to confirm a = –ω²x.",
      "a": "Setup: Attach a smartphone (with phyphox or similar app) to a mass on a vertical spring. Displace the mass vertically by a known amount (e.g., 5 cm) and release. Record acceleration vs time. Simultaneously, use a meter scale or video analysis to record displacement vs time. Plot a vs x (parametric plot using time as parameter). The graph should be a straight line through origin with negative slope = –ω². Calculate ω from slope and compare with T = 2π/ω measured from period. A poor answer would only measure period and not verify the a-x proportionality. A good answer addresses synchronizing time stamps, removing gravity offset from accelerometer, and fitting a line to a-x data.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In Simple Harmonic Motion (SHM), ______ x(t) = A cos(ωt + φ) describes the position of a particle relative to its equilibrium position.",
+     "a": "displacement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan blade rotating uniformly — its ______ on the floor moves back and forth in SHM.",
+     "a": "shadow",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When the blade is at the extreme left or right, the shadow stops momentarily (v=______) but accelerates maximally toward the centre.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive velocity and acceleration expressions from the displacement equation using differentiation, explain the phase relationships between x, v, and a using the reference circle, and calculate instantaneous values of x, v, a at any given time for a given SHM.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan blade rotating ______ — its shadow on the floor moves back and forth in SHM.",
+     "a": "uniformly",
+     "self_check": true
     }
    ]
   }

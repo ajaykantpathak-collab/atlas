@@ -34,6 +34,31 @@
      "q": "A car rental charges Rs 1500 per day plus Rs 8 per km. A customer is charged Rs 3860 for one day. How many km did they drive? Show the linear equation and solve.",
      "a": "Equation: Total = 8d + 1500, where d = km driven. Given Total = 3860: 3860 = 8d + 1500. Subtract 1500: 2360 = 8d. Divide by 8: d = 295 km. The customer drove 295 km. A wrong answer (e.g., d = 3860/8 = 482.5) ignores the fixed daily charge of Rs 1500.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Linear patterns in real-life situations are ______ where one quantity changes at a constant rate with respect to another, expressible in the form y = mx + c (where m is the constant rate of change and c is the initial value), observed in contexts like taxi fares (fixed charge + per-km charge), mobile phone bills (rental + per-minute cost), temperature conversion (C = 9C/5 + 32), and simple interest (I = Prt, linear in time at fixed rate).",
+     "a": "relationships",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Notice the pattern: the total fare ______ by Rs 12 for every additional km — the rate of change is constant (12 Rs/km).",
+     "a": "increases",
+     "self_check": true
+    },
+    {
+     "q": "What is Linear patterns in real-life situations? State the definition given in this lesson.",
+     "a": "Linear patterns in real-life situations are relationships where one quantity changes at a constant rate with respect to another, expressible in the form y = mx + c (where m is the constant rate of change and c is the initial value), observed in contexts like taxi fares (fixed charge + per-km charge), mobile phone bills (rental +.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Linear patterns in real-life situations?",
+     "a": "Students confuse \"increasing\" with \"linear.\" The exact error: they see a quantity increasing and assume the pattern is linear, without checking whether the rate of increase is constant.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can identify a linear pattern from a real-life context, express it as y = mx + c (identifying m as rate of change and c as initial value), use the equation to predict values, and distinguish linear from non-linear patterns by checking for constant rate of change.",
+     "self_check": true
     }
    ]
   }

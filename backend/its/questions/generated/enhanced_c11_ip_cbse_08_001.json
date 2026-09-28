@@ -34,6 +34,31 @@
      "q": "Create a new, realistic scenario (different from examples above) where a scatter plot is the ONLY appropriate choice among line, bar, pie, and scatter. Describe the dataset, the question, and why other charts fail.",
      "a": "Scenario: A researcher collects data on \"hours of screen time per day\" (X) and \"sleep quality score (1-10)\" (Y) for 100 teenagers. Question: \"Is there a relationship between screen time and sleep quality?\" Scatter plot shows each individual as a point, revealing correlation/clusters. Line chart implies ordered X (time) and single Y per X — not true here. Bar chart would require binning screen time, losing granularity. Pie chart cannot represent two continuous variables. A weak answer suggests a line chart, confusing continuous X with time-series.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Data Visualisation is the graphical ______ of information and data using visual elements like charts, graphs, maps, and plots to communicate patterns, trends, outliers, and relationships clearly and efficiently, enabling faster decision-making than raw tabular data.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the captain of your ______ cricket team and have the runs scored by each player in the last 10 matches as a raw spreadsheet of 110 numbers.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What is Data Visualisation? State the definition given in this lesson.",
+     "a": "Data Visualisation is the graphical representation of information and data using visual elements like charts, graphs, maps, and plots to communicate patterns, trends, outliers, and relationships clearly and efficiently, enabling faster decision-making than raw tabular data.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Data Visualisation?",
+     "a": "Students often believe that \"any chart can be used for any data\" and choose based on familiarity or visual appeal (e.g., using a pie chart for time-series data because it looks colourful).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) explain why visualisation is essential for data analysis in at least three distinct real-world scenarios, and (2) correctly select the appropriate chart type (line, bar, scatter, histogram, pie) for a given dataset and analytical goal with justification.",
+     "self_check": true
     }
    ]
   }

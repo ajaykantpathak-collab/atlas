@@ -34,6 +34,36 @@
      "q": "Design a simple experiment to determine the molar mass of an unknown non-volatile solid using boiling point elevation. List apparatus, measurements, and the calculation sequence. What assumption about the solute is critical?",
      "a": "Apparatus: boiling tube, thermometer (0.1°C accuracy), condenser, balance, water bath. Procedure: (1) Measure boiling point of pure solvent (Tb°). (2) Weigh ~5 g solute, dissolve in known mass (e.g., 50 g) of solvent. (3) Measure boiling point of solution (Tb). (4) ΔTb = Tb - Tb°. (5) m = ΔTb/Kb. (6) Moles solute = m × kg solvent. (7) Molar mass = mass solute / moles. Critical assumption: solute is non-volatile, non-dissociating, non-associating (i=1). A poor design (e.g., using open beaker, no condenser, or measuring mass of solution instead of solvent) shows misunderstanding of molality definition and vapour loss.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Elevation of boiling point is a ______ property where the boiling point of a solution containing a non-volatile solute is higher than that of the pure solvent.",
+     "a": "colligative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a kitchen observation: when you add salt to water for cooking pasta, the water boils at a ______ slightly above 100°C.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "What is Elevation of boiling point? State the definition given in this lesson.",
+     "a": "Elevation of boiling point is a colligative property where the boiling point of a solution containing a non-volatile solute is higher than that of the pure solvent.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a kitchen observation: when you add salt to water for cooking pasta, the water boils at a temperature slightly above ______°C.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Elevation of boiling point?",
+     "a": "Students often use molarity (mol/L of solution) instead of molality (mol/kg of solvent) in ΔTb = Kb·m because they confuse the two concentration terms from Class 11.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) derive and apply ΔTb = Kb × m to calculate boiling point elevation, molar mass of solute, or mass of solute needed for a desired ΔTb; (2) explain why ΔTb depends only on the number of solute particles (molality) and not their identity; (3) connect the vapour pressure lowering (Raoult's law) to the boiling point.",
+     "self_check": true
     }
    ]
   }

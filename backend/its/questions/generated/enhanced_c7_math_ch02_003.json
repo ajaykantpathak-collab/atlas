@@ -34,6 +34,26 @@
      "q": "Construct two different arithmetic expressions using the numbers 5, 4, and 2, along with addition and multiplication, such that one expression is strictly greater than the other. Show their evaluation.",
      "a": "An acceptable response provides two expressions like $5 \\times 4 + 2$ and $5 + 4 \\times 2$. Evaluation: $5 \\times 4 + 2 = 20 + 2 = 22$, and $5 + 4 \\times 2 = 5 + 8 = 13$, so $22 > 13$. A poor answer uses incorrect order of operations or fails to use the required numbers.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Comparing arithmetic expressions involves evaluating two separate expressions using the order of operations and ______ their relative size using the relational symbols less than (<), greater than (>), or equal to (=).",
+     "a": "determining",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ buys 2 packets of chips for ₹15 each and a cold drink for ₹20, while Priya buys 3 packets of biscuits for ₹10 each and a juice for ₹25.",
+     "a": "Rahul",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can evaluate two distinct arithmetic expressions containing multiple operations and brackets, and correctly place <, >, or = between them with full justification.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Rahul buys 2 packets of chips for ₹15 each and a cold drink for ₹20, while Priya buys 3 packets of ______ for ₹10 each and a juice for ₹25.",
+     "a": "biscuits",
+     "self_check": true
     }
    ]
   }

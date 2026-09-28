@@ -34,6 +34,21 @@
      "q": "Design a simple classroom demonstration (using low-voltage safe materials) that illustrates the principle \"charge resides on the outer surface of a hollow conductor\" — the core principle behind the Van de Graaff generator. List materials, procedure, and expected observation.",
      "a": "**Materials:** Hollow metal can (e.g., empty paint can), electroscope or LED+resistor circuit, insulated rod with small metal ball, friction rod (PVC pipe + wool).\n**Procedure:** (1) Charge the small ball by rubbing PVC with wool. (2) Touch the charged ball to the *inside* bottom of the hollow can. (3) Test the *outside* of the can with the electroscope/LED. (4) Repeat touching inside — the outside charge increases each time.\n**Expected observation:** Electroscope deflects / LED glows, showing charge appears on the outer surface. After multiple touches, deflection increases.\n**Good answer criteria:** Correctly uses a hollow conductor, demonstrates charge transfer to inner surface, and verifies charge on outer surface. A poor answer uses a solid conductor or tests the inner surface, missing the key principle.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Van de Graaff generator is an ______ device that uses a moving insulating belt to continuously transport charge to a large hollow spherical conductor, building up very high potentials (millions of volts) by exploiting the principle that charge resides entirely on the outer surface of a conductor and that a conductor's potential increases as charge is added to it from inside.",
+     "a": "electrostatic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you seen a science museum ______ where a person touches a large metal sphere and their hair stands on end?",
+     "a": "demonstration",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the step-by-step working of a Van de Graaff generator using the principles of electrostatics (charge on outer surface, corona discharge, potential of a sphere), calculate the maximum potential achievable before air breakdown for a given sphere radius, and describe why the belt must be insulating while the combs.",
+     "self_check": true
     }
    ]
   }

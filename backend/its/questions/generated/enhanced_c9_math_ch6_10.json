@@ -34,6 +34,26 @@
      "q": "Create a real-world problem where you need to find the area of a major segment. Provide the radius and central angle of the minor segment, and ask for the area of the major segment.",
      "a": "Example: \"A circular park of radius 20 m has a walking path along a chord that subtends 80° at the centre. Find the area of the larger part of the park (major segment).\" A good answer will compute minor segment area and subtract from circle area. A poor answer might try to use a direct formula for major segment without deriving it.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The area of a segment of a circle is the region bounded by a chord and the arc ______ by that chord.",
+     "a": "subtended",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a flower bed in your school courtyard shaped like a ______ of a circle.",
+     "a": "segment",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the area of a minor or major segment given radius and central angle, derive the formula by decomposing the segment into sector and triangle, and solve composite problems combining segments with other plane figures (e.g., rectangles, triangles) in real-world contexts.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a flower bed in your school courtyard shaped like a segment of a circle.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

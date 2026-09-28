@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a pencil lead (graphite), a 9 V battery, an ammeter, a voltmeter, and a rheostat to verify Ohm's law and determine the resistance of the graphite rod. List the steps, the data table columns, and how you will conclude whether graphite is ohmic.",
      "a": "Steps: (1) Connect graphite rod in series with battery, rheostat, ammeter; voltmeter across rod. (2) Vary rheostat to get 5–6 readings of V (0–9 V) and I. (3) Table: Sr. No., V (V), I (A), R = V/I (Ω). (4) Plot V vs I; if straight line through origin, graphite is ohmic and slope = R. (5) Check if R values are constant within error. Expected: Graphite is ohmic at low currents but may deviate at high currents due to heating. A poor answer omits the rheostat (no variable V), forgets to check origin passage, or doesn't mention temperature control.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ohm's Law states that for a given metallic conductor at constant temperature, the current (I) flowing through it is directly ______ to the potential difference (V) applied across its ends, i.e., V ∝ I or V = IR, where R is the resistance of the conductor (SI unit: ohm, Ω).",
+     "a": "proportional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a household incandescent bulb: when you switch it on, the ______ glows because current flows through it.",
+     "a": "filament",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) state Ohm's law with the precise condition of constant temperature, (2) distinguish ohmic from non-ohmic conductors using V–I graphs, (3) identify the three types of limitations (non-linearity, sign dependence, non-uniqueness) with one real device example for each, and (4) explain why the microscopic form E = ρj is a.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a household ______ bulb: when you switch it on, the filament glows because current flows through it.",
+     "a": "incandescent",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Create a mini case study (3-4 transactions) involving at least one tax payment and one extraordinary item where a student must prepare the \"Cash Flows from Operating Activities\" section (indirect method) starting from Net Profit before Tax and Extraordinary Items. Provide the solution with the correct proforma.",
      "a": "A good answer will include: (1) Net Profit before Tax & Extraordinary Items, (2) Adjustments for non-cash/non-operating items, (3) Operating Profit before WC changes, (4) WC adjustments, (5) Cash Generated from Operations, (6) Less: Income Tax Paid (operating portion only), (7) Cash Flow before Extraordinary Items, (8) ± Extraordinary Item (e.g., Insurance claim received for flood loss), (9) Net Cash from Operating Activities. The case must explicitly separate DDT (financing) and capital gains tax (investing) from the tax provision. A poor answer will lump all taxes together or omit the extraordinary item line.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Treatment of specific items in a Cash Flow Statement refers to the ______ and disclosure rules under AS-3 for cash flows arising from taxes on income (income tax, capital gains tax, dividend distribution tax) and extraordinary items (non-recurring, material events like natural disasters), ensuring they are reported under the correct activity—operating, investing, or financing—and presented separately to avoid distorting the analysis of regular cash flows.",
+     "a": "classification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing the cash flow statement of a company that suffered a massive flood loss and paid three types of taxes last year: regular income tax, capital gains tax on land sale, and dividend ______ tax.",
+     "a": "distribution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Treatment of specific items in a Cash Flow Statement refers to the classification and disclosure rules under AS-______ for cash flows arising from taxes on income (income tax, capital gains tax, dividend distribution tax) and extraordinary items (non-recurring, material events like natural disasters), ensuring they are reported under the correct activity—operating, investing, or financing—and presented separately to avoid distorting the analysis of regular cash flows.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) correctly classify any given tax payment or extraordinary item as operating, investing, or financing cash flow with justification referencing AS-3, and (2) demonstrate the correct placement and disclosure of these items in the indirect method cash flow statement proforma, including the calculation of tax.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Design a low-cost field protocol to identify the optimal day for PGF2α administration in a superovulation programme for a herd of 50 crossbred cows, using only rectal palpation and estrus detection (no ultrasound). Justify each step.",
      "a": "**Protocol**:  \n1. **Estrus synchronisation**: Give PGF2α to all 50 cows (Day 0). Observe for standing heat (Days 2-5).  \n2. **Follicular wave mapping**: From Day 5 onward, perform **daily rectal palpation** to track follicular growth. Record largest follicle diameter.  \n3. **Identify wave emergence**: A new follicular wave emerges when a cohort of 3-5 mm follicles appears (palpable as small firm structures) while the previous dominant follicle regresses. This typically occurs **Day 3-5 post-estrus** (first wave) and **Day 10-12** (second wave).  \n4. **Start FSH at wave emergence**: Begin FSH injections on the day the new cohort is first palpated (Day 3-5 or Day 10-12 post-estrus).  \n5. **Give PGF2α on Day 4 of FSH** (standard protocol).  \n**Justification**: Without ultrasound, rectal palpation detects follicles ≥5 mm. Wave emergence is the only physiologically correct time to start FSH — starting mid-wave yields poor response because the dominant follicle exerts inhibin/estradiol negative feedback suppressing FSH receptor expression on subordinate follicles.  \n**Wrong answer reveals**: Fixed calendar-based FSH start (e.g., \"Day 10 of cycle\") ignores individual variation in wave timing — a major cause of poor superovulation response in field conditions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Artificial Insemination (AI) is a reproductive ______ where semen collected from a genetically superior male is artificially introduced into the female reproductive tract at the optimal time to achieve fertilisation, bypassing natural mating.",
+     "a": "biotechnology",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a dairy farmer in Punjab with a prized ______ Friesian bull whose daughters consistently produce 40+ litres of milk.",
+     "a": "Holstein",
+     "self_check": true
+    },
+    {
+     "q": "What is Artificial Insemination (AI)? State the definition given in this lesson.",
+     "a": "Artificial Insemination (AI) is a reproductive biotechnology where semen collected from a genetically superior male is artificially introduced into the female reproductive tract at the optimal time to achieve fertilisation, bypassing natural mating.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a dairy farmer in Punjab with a prized Holstein Friesian bull whose daughters consistently produce ______+ litres of milk.",
+     "a": "40",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Artificial Insemination (AI)?",
+     "a": "Misconception: \"Superovulation means giving FSH to make the cow ovulate more eggs — the more FSH, the more embryos.\" Why it's wrong: (1) FSH dose-response is biphasic — excessive FSH (>32 mg total) causes ovarian hyperstimulation, luteinisation of unruptured follicles, and reduced embryo quality due to premature progesterone rise.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Explain the step-by-step protocol of AI and superovulation with correct hormonal sequence and timing, (2) Justify why AI and superovulation together increase genetic gain per unit time compared to natural mating, (3) Identify the critical control points where failure occurs (semen quality, heat detection, hormone dosage.",
+     "self_check": true
     }
    ]
   }

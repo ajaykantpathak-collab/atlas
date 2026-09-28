@@ -1,0 +1,146 @@
+{
+ "catalog": "catalog_class11_chemistry_ch203.json",
+ "concepts": [
+  {
+   "id": "kech.9.2.1",
+   "title": "Stoichiometry of Hydrocarbon Combustion",
+   "converted_to_compute": true,
+   "formula": "O_2_moles = carbon_count + (hydrogen_count / 4)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "O_2_moles = carbon_count + (hydrogen_count / 4)",
+     "compute": "O_2_moles = carbon_count + (hydrogen_count / 4)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Stoichiometry of Hydrocarbon Combustion: given carbon_count = 4, hydrogen_count = 17.4, find O 2 moles.",
+     "a": "8.35",
+     "self_check": false
+    },
+    {
+     "q": "For Stoichiometry of Hydrocarbon Combustion: given carbon_count = 19.3, hydrogen_count = 13.9, find O 2 moles.",
+     "a": "22.775",
+     "self_check": false
+    },
+    {
+     "q": "For Stoichiometry of Hydrocarbon Combustion: given carbon_count = 6.3, hydrogen_count = 10.4, find O 2 moles.",
+     "a": "8.9",
+     "self_check": false
+    },
+    {
+     "q": "For Stoichiometry of Hydrocarbon Combustion: given carbon_count = 0.7, hydrogen_count = 16.1, find O 2 moles.",
+     "a": "4.725",
+     "self_check": false
+    },
+    {
+     "q": "For Stoichiometry of Hydrocarbon Combustion: given carbon_count = 13.2, hydrogen_count = 2.5, find O 2 moles.",
+     "a": "13.825",
+     "self_check": false
+    },
+    {
+     "q": "For Stoichiometry of Hydrocarbon Combustion: given carbon_count = 0.8, hydrogen_count = 8.7, find O 2 moles.",
+     "a": "2.975",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kech.9.2.3",
+   "title": "Hückel Rule of Aromaticity",
+   "converted_to_compute": true,
+   "formula": "n = (pi_electrons - 2) / 4",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "n = (pi_electrons - 2) / 4",
+     "compute": "n = (pi_electrons - 2) / 4"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Hückel Rule of Aromaticity: given pi_electrons = 99, find n.",
+     "a": "24.25",
+     "self_check": false
+    },
+    {
+     "q": "For Hückel Rule of Aromaticity: given pi_electrons = 65, find n.",
+     "a": "15.75",
+     "self_check": false
+    },
+    {
+     "q": "For Hückel Rule of Aromaticity: given pi_electrons = 33, find n.",
+     "a": "7.75",
+     "self_check": false
+    },
+    {
+     "q": "For Hückel Rule of Aromaticity: given pi_electrons = 80, find n.",
+     "a": "19.5",
+     "self_check": false
+    },
+    {
+     "q": "For Hückel Rule of Aromaticity: given pi_electrons = 89, find n.",
+     "a": "21.75",
+     "self_check": false
+    },
+    {
+     "q": "For Hückel Rule of Aromaticity: given pi_electrons = 88, find n.",
+     "a": "21.5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kech.9.2.4",
+   "title": "Chain and Position Isomerism of Alkanes and Alkenes",
+   "converted_to_compute": true,
+   "formula": "constitutional_isomers = chain_isomers + position_isomers",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "constitutional_isomers = chain_isomers + position_isomers",
+     "compute": "constitutional_isomers = chain_isomers + position_isomers"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Chain and Position Isomerism of Alkanes and Alkenes: given chain_isomers = 4.2, position_isomers = 4.5, find constitutional isomers.",
+     "a": "8.7",
+     "self_check": false
+    },
+    {
+     "q": "For Chain and Position Isomerism of Alkanes and Alkenes: given chain_isomers = 14.4, position_isomers = 19.7, find constitutional isomers.",
+     "a": "34.1",
+     "self_check": false
+    },
+    {
+     "q": "For Chain and Position Isomerism of Alkanes and Alkenes: given chain_isomers = 4.9, position_isomers = 15.5, find constitutional isomers.",
+     "a": "20.4",
+     "self_check": false
+    },
+    {
+     "q": "For Chain and Position Isomerism of Alkanes and Alkenes: given chain_isomers = 7.5, position_isomers = 6.9, find constitutional isomers.",
+     "a": "14.4",
+     "self_check": false
+    },
+    {
+     "q": "For Chain and Position Isomerism of Alkanes and Alkenes: given chain_isomers = 16.2, position_isomers = 19.1, find constitutional isomers.",
+     "a": "35.3",
+     "self_check": false
+    },
+    {
+     "q": "For Chain and Position Isomerism of Alkanes and Alkenes: given chain_isomers = 9.9, position_isomers = 19.9, find constitutional isomers.",
+     "a": "29.8",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

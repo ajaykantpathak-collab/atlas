@@ -31,8 +31,33 @@
      "self_check": true
     },
     {
-     "q": "Design a 10-item \"Capital vs Revenue Classification Challenge\" for your classmates. Include 5 expenditure items and 5 receipt items. At least 3 items must be *borderline/deceptive* (e.g., heavy advertising, legal fees for defending title, government grant for machinery, sale of scrap, renovation of old building). Provide the correct classification with a one-line justification for each, referencing the specific NCERT criterion (benefit period, earning capacity, recurrence, obligation).",
-     "a": "A good answer lists 10 realistic items with correct classifications and precise justifications, e.g.:\n1. ₹2 lakh renovation of newly purchased old factory (CapEx—makes asset usable, increases capacity).\n2. ₹50,000 annual whitewashing of factory (RevEx—maintains, recurring).\n3. ₹10 lakh heavy ad campaign for new product launch (Deferred RevEx—benefits 3 years, written off over 3 years).\n4. ₹5 lakh legal fees defending patent title (CapEx—protects intangible asset title).\n5. ₹20,000 lawyer fees for routine contract drafting (RevEx—day-to-day operations).\n6. ₹1 crore bank loan (CapRec—obligation to repay).\n7. ₹5 lakh government grant for machinery (CapRec—capital nature, credited to capital reserve or deducted from asset cost).\n8. ₹2 lakh sale of production scrap (RevRec—regular by-product of operations).\n9. ₹10 lakh sale of delivery truck (CapRec—disposal of fixed asset).\n10. ₹3 lakh insurance claim for fire-destroyed stock (RevRec—reimburses revenue loss).\nA poor answer uses vague justifications (\"big amount\", \"one-time\") or misclassifies borderline items, showing the student cannot apply criteria to novel, ambiguous situations.",
+     "q": "Design a 10-item \"Capital vs Revenue Classification Challenge\" for your classmates. Include 5 expenditure items and 5 receipt items. At least 3 items must be borderline/deceptive (heavy advertising, legal fees for defending title, government grant for machinery, sale of scrap, renovation of a newly purchased building). Give the correct classification and one-sentence justification for each.",
+     "a": "(1) Renovation of a newly purchased old factory — capital expenditure because it makes the asset usable and raises earning capacity, (2) Annual whitewashing of the factory — revenue expenditure because it only maintains the asset and recurs every year, (3) Heavy advertising campaign for a new product launch — deferred revenue expenditure because the benefit spans about three years and it is written off over them, (4) Legal fees for defending a patent's title — capital expenditure because it protects the intangible asset, (5) Bank loan of one crore — capital receipt because it creates a long-term repayment obligation. A weak answer lines up ten items without any borderline cases, or justifies each item by its amount instead of by the period and nature of the benefit.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Financial statements are formal, structured reports prepared at the end of an accounting period that communicate the financial performance (profit/loss) and financial position (assets/liabilities/capital) of a business entity to its ______, comprising the Trading and Profit & Loss Account (Income Statement) and the Balance Sheet (Position Statement), prepared from the Trial Balance and additional information following the accrual concept and accounting standards.",
+     "a": "stakeholders",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: At year-end, your father asks \"Did we make money?\" your bank manager asks \"Can you repay the loan?\" and the tax officer asks \"What is your taxable income?\" All three need different answers from the same ______ data.",
+     "a": "financial",
+     "self_check": true
+    },
+    {
+     "q": "What is Financial statements? State the definition given in this lesson.",
+     "a": "Financial statements are formal, structured reports prepared at the end of an accounting period that communicate the financial performance (profit/loss) and financial position (assets/liabilities/capital) of a business entity to its stakeholders, comprising the Trading and Profit & Loss Account (Income Statement) and the Balance Sheet.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Financial statements?",
+     "a": "Students believe \"Capital Expenditure = Purchase of Fixed Assets only\" and \"Revenue Expenditure = All other expenses\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently classify any given item as capital/revenue expenditure or receipt, explain why misclassification distorts profit and asset values, and articulate the distinct information needs of at least three different stakeholder groups (e.g., owner, bank, government) with specific examples of the financial statement.",
      "self_check": true
     }
    ]

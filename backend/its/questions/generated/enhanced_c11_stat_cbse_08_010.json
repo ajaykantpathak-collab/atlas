@@ -34,6 +34,36 @@
      "q": "Create a real-world scenario where the WPI inflation rate is 8% and the CPI inflation rate is 5%. Explain why these two rates might differ and what it implies for producers vs consumers.",
      "a": "Scenario: Global crude oil prices surge, raising input costs for factories (captured by WPI) but retail prices (CPI) rise less due to government subsidies on fuel and food. WPI reflects producer-level prices; CPI reflects consumer-level prices. A good answer shows understanding of different basket compositions and weightages. A poor answer treats them as interchangeable or cannot explain the divergence.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Inflation rate is the percentage change in a general price index (such as the Consumer Price Index or Wholesale Price Index) between two time periods, typically expressed as an ______ percentage.",
+     "a": "annualized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you hear on the news: \"Retail ______ rose to 6.5% in January.\" What does that 6.5% actually mean?",
+     "a": "inflation",
+     "self_check": true
+    },
+    {
+     "q": "What is Inflation rate? State the definition given in this lesson.",
+     "a": "Inflation rate is the percentage change in a general price index (such as the Consumer Price Index or Wholesale Price Index) between two time periods, typically expressed as an annualized percentage.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It means the Consumer Price Index (CPI) in January is ______% higher than the CPI in January of the previous year.",
+     "a": "6.5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Inflation rate?",
+     "a": "Students often believe that a higher index number (e.g., CPI = 200 vs CPI = 150) automatically means higher inflation.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to calculate the inflation rate given two index numbers (for base and current periods) using the correct formula, interpret the result in terms of purchasing power, and distinguish between inflation rate and price level.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Create a real-life scenario (Indian context) where knowing the range is more useful than knowing the mean. Describe the data, calculate the range, and explain why the mean would be misleading.",
      "a": "Good answer example: \"Daily price of tomatoes (₹/kg) for a week: 20, 22, 18, 25, 19, 21, 60. Mean = 26.4, Range = 60−18 = 42. The mean suggests price ~₹26, but the range reveals one day had a huge spike (₹60). A housewife budgeting needs to know the possible maximum (range) not the average.\" A poor answer that uses a scenario where mean is sufficient (e.g., height of students) reveals the student cannot identify contexts where variability matters more than center. An answer without calculation reveals inability to apply the formula.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Range is the ______ between the maximum and minimum values in a data set.",
+     "a": "difference",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ two cricket players: Rohit scored 45, 52, 48, 50, 55 runs in five matches, while Virat scored 10, 90, 30, 70, 40.",
+     "a": "comparing",
+     "self_check": true
+    },
+    {
+     "q": "What is Range? State the definition given in this lesson.",
+     "a": "Range is the difference between the maximum and minimum values in a data set.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Both have the same mean (______), but their performances feel very different.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Range?",
+     "a": "Students often confuse range with the \"number of values\" in the data set (e.g., for data {4, 7, 9}, they say range = 3 because there are three numbers).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute the range for any given ungrouped data set, interpret what the range reveals about data variability in context, and explain why range alone is insufficient to describe the full distribution (e.g., sensitivity to outliers).",
+     "self_check": true
     }
    ]
   }

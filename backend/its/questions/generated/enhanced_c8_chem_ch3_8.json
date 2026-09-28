@@ -34,6 +34,21 @@
      "q": "Design a simple chemical test to prove that a solution of blue copper sulfate ($CuSO_4$) contains the element copper, even though the solution itself is not an element.",
      "a": "1. Take the blue copper sulfate solution in a beaker.\n2. Introduce a clean iron nail ($Fe$) into the solution.\n3. Observe that a reddish-brown deposit of copper metal forms on the iron nail due to a displacement reaction: \n   $$Fe (s) + CuSO_4 (aq) \\rightarrow FeSO_4 (aq) + Cu (s)$$\n4. This displacement reaction extracts pure, elemental copper ($Cu$) from the solution, proving that copper was chemically combined inside the compound copper sulfate.\n\n*What a poor answer reveals:* A poor answer might suggest physical filtration or evaporation, which shows a failure to realize that chemically bonded elements in a compound can only be separated using chemical reactions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An element is a pure substance consisting of only one type of atom that cannot be broken down into simpler substances by any physical or ordinary chemical means (such as heating, ______, or chemical reactions).",
+     "a": "electrolysis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To ______ elements, look at a copper vessel (*lota*) used in Indian households or a gold ornament (*jhumka*).",
+     "a": "understand",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can define an element at the atomic level, distinguish elements from compounds and mixtures based on their atomic composition, and explain why specific elemental substances (Iron, Copper, Gold, and Oxygen) cannot be chemically decomposed into simpler substances.",
+     "self_check": true
     }
    ]
   }

@@ -12,7 +12,7 @@
     },
     {
      "q": "A resident Indian household purchases a ₹50 lakh apartment from a builder. The builder uses ₹10 lakh of that to buy a new crane (capital good) and ₹5 lakh to import Italian marble. Classify each of the three amounts (₹50L, ₹10L, ₹5L) into C, I, G, X, or M. Explain why the ₹50L is not entirely \"Investment\" just because it is a house.",
-     "a": "₹50L → C (household final consumption; housing services are consumption, not capital formation for the buyer), ₹10L → I (builder's purchase of crane is capital formation), ₹5L → M (import leakage). Wrong classification of ₹50L as I reveals the misconception that \"buying a house is always investment\" — in national accounts, only producer durables and inventory changes count as I; residential construction by households is C.",
+     "a": "(1) The fifty lakh apartment purchase — consumption, because housing services bought by a household are final consumption, not capital formation for the buyer, (2) The ten lakh crane — investment, because the builder's purchase of a capital good is capital formation, (3) The five lakh marble — imports, because spending on the foreign good leaks demand abroad, (4) Why the flat is not investment — in the national accounts only producer durables and inventory changes count as investment, so a household buying a house is not automatically investing. A wrong answer classifying the full fifty lakh as investment reveals the misconception that buying a house is always investment.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Construct a numerical example where an economy's AD remains unchanged despite a ₹1,000 crore increase in Government spending (G). Specify the changes in other components that offset it. Explain the economic scenario this represents.",
      "a": "Example: ΔG = +1,000, ΔC = −400 (households save more anticipating future taxes — Ricardian equivalence), ΔI = −300 (crowding out via higher interest rates), ΔX = 0, ΔM = +300 (higher income from G induces more imports). Net ΔAD = 1,000 − 400 − 300 − 300 = 0. This represents \"complete crowding out\" in an open economy with Ricardian consumers. A poor answer that only changes M or only changes C shows incomplete understanding of simultaneous leakages and behavioural responses.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Aggregate Demand (AD) is the total planned ______ on final goods and services in an economy during a given period, comprising four components: Consumption (C) by households, Investment (I) by firms, Government spending (G), and Net Exports (NX = Exports X minus Imports M).",
+     "a": "expenditure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing the Union Budget 2024-25: the Finance Minister announces ₹11.11 lakh crore for capital ______ (roads, railways), ₹3 lakh crore for subsidies, and expects ₹38 lakh crore in tax revenue.",
+     "a": "expenditure",
+     "self_check": true
+    },
+    {
+     "q": "What is Aggregate Demand (AD)? State the definition given in this lesson.",
+     "a": "Aggregate Demand (AD) is the total planned expenditure on final goods and services in an economy during a given period, comprising four components: Consumption (C) by households, Investment (I) by firms, Government spending (G), and Net Exports (NX = Exports X minus Imports M).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Aggregate Demand (AD)?",
+     "a": "Students often treat \"Investment (I)\" in AD as financial investment (buying shares, mutual funds) rather than physical capital formation (machinery, buildings, inventory).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) write the AD identity with correct components and signs, (2) classify any given expenditure (e.g., a household buying a car, a firm building a factory, government paying salaries, export of software services) into C, I, G, or NX, (3) explain why imports are subtracted and not added, and (4) distinguish between.",
      "self_check": true
     }
    ]

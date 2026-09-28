@@ -34,6 +34,31 @@
      "q": "Design a hypothetical village-level survey to investigate why female literacy in a specific district lags 20 percentage points behind the state average. List three key variables you would measure, the social groups you would compare, and one qualitative method you would use to capture \"hidden barriers\" not visible in Census data.",
      "a": "Variables: (1) female literacy rate by age cohort (15–24, 25–39, 40+), (2) school attendance rate of girls aged 7–14, (3) household decision-making autonomy index for women (e.g., say in healthcare, purchases). Compare: SC/ST vs. OBC vs. General; landless vs. landed households. Qualitative method: focus group discussions with mothers of out-of-school girls to uncover norms like early marriage, safety concerns, or son preference in education spending. A poor answer lists only Census-style variables (e.g., \"literacy rate by caste\") and omits qualitative depth, missing the sociological requirement to explore meanings and processes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literacy, as defined by the Census of India, is the ability to read and write with ______ in any language for a person aged 7 years and above; education refers to the formal schooling process that builds on literacy to develop knowledge, skills, and critical thinking.",
+     "a": "understanding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ collector reviewing the 2011 Census report for your area: the overall literacy rate is 73%, but female literacy is only 64.6% while male literacy is 80.9%, and the SC female literacy rate is even lower.",
+     "a": "district",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literacy, as defined by the Census of India, is the ability to read and write with understanding in any language for a person aged ______ years and above; education refers to the formal schooling process that builds on literacy to develop knowledge, skills, and critical thinking.",
+     "a": "7",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) compute and interpret literacy rates and gender gaps from Census data tables, (2) explain how literacy differentials across gender, caste, region, and rural-urban residence reflect and reinforce social stratification, and (3) evaluate the relationship between literacy trends and demographic outcomes like.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a district ______ reviewing the 2011 Census report for your area: the overall literacy rate is 73%, but female literacy is only 64.6% while male literacy is 80.9%, and the SC female literacy rate is even lower.",
+     "a": "collector",
+     "self_check": true
     }
    ]
   }

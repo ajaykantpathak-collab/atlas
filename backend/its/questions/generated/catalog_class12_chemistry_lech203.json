@@ -1,0 +1,193 @@
+{
+ "catalog": "catalog_class12_chemistry_lech203.json",
+ "concepts": [
+  {
+   "id": "lech203.8.4.3.1",
+   "title": "Tollens and Fehling Tests to Catch Aldehydes",
+   "converted_to_compute": true,
+   "formula": "fehling_positive = aliphatic_aldehyde_only",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "fehling_positive = aliphatic_aldehyde_only",
+     "compute": "fehling_positive = aliphatic_aldehyde_only"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Tollens and Fehling Tests to Catch Aldehydes: given aliphatic_aldehyde_only = 39, find fehling positive.",
+     "a": "39",
+     "self_check": false
+    },
+    {
+     "q": "For Tollens and Fehling Tests to Catch Aldehydes: given aliphatic_aldehyde_only = 8.6, find fehling positive.",
+     "a": "8.6",
+     "self_check": false
+    },
+    {
+     "q": "For Tollens and Fehling Tests to Catch Aldehydes: given aliphatic_aldehyde_only = 62, find fehling positive.",
+     "a": "62",
+     "self_check": false
+    },
+    {
+     "q": "For Tollens and Fehling Tests to Catch Aldehydes: given aliphatic_aldehyde_only = 68, find fehling positive.",
+     "a": "68",
+     "self_check": false
+    },
+    {
+     "q": "For Tollens and Fehling Tests to Catch Aldehydes: given aliphatic_aldehyde_only = 36, find fehling positive.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "For Tollens and Fehling Tests to Catch Aldehydes: given aliphatic_aldehyde_only = 48, find fehling positive.",
+     "a": "48",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech203.8.4.3.2",
+   "title": "Haloform Reaction Carbon Accounting",
+   "converted_to_compute": true,
+   "formula": "acid_carbons = ketone_carbons - 1",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "acid_carbons = ketone_carbons - 1",
+     "compute": "acid_carbons = ketone_carbons - 1"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Haloform Reaction Carbon Accounting: given ketone_carbons = 53, find acid carbons.",
+     "a": "52",
+     "self_check": false
+    },
+    {
+     "q": "For Haloform Reaction Carbon Accounting: given ketone_carbons = 37, find acid carbons.",
+     "a": "36",
+     "self_check": false
+    },
+    {
+     "q": "For Haloform Reaction Carbon Accounting: given ketone_carbons = 60, find acid carbons.",
+     "a": "59",
+     "self_check": false
+    },
+    {
+     "q": "For Haloform Reaction Carbon Accounting: given ketone_carbons = 54, find acid carbons.",
+     "a": "53",
+     "self_check": false
+    },
+    {
+     "q": "For Haloform Reaction Carbon Accounting: given ketone_carbons = 9.3, find acid carbons.",
+     "a": "8.3",
+     "self_check": false
+    },
+    {
+     "q": "For Haloform Reaction Carbon Accounting: given ketone_carbons = 10.1, find acid carbons.",
+     "a": "9.1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech203.8.4.4.1",
+   "title": "Alpha-Hydrogen Chemistry: Aldol versus Cannizzaro",
+   "converted_to_compute": true,
+   "formula": "cannizzaro_requirement = no_alpha_hydrogen",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "cannizzaro_requirement = no_alpha_hydrogen",
+     "compute": "cannizzaro_requirement = no_alpha_hydrogen"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Alpha-Hydrogen Chemistry: Aldol versus Cannizzaro: given no_alpha_hydrogen = 35, find cannizzaro requirement.",
+     "a": "35",
+     "self_check": false
+    },
+    {
+     "q": "For Alpha-Hydrogen Chemistry: Aldol versus Cannizzaro: given no_alpha_hydrogen = 40, find cannizzaro requirement.",
+     "a": "40",
+     "self_check": false
+    },
+    {
+     "q": "For Alpha-Hydrogen Chemistry: Aldol versus Cannizzaro: given no_alpha_hydrogen = 99, find cannizzaro requirement.",
+     "a": "99",
+     "self_check": false
+    },
+    {
+     "q": "For Alpha-Hydrogen Chemistry: Aldol versus Cannizzaro: given no_alpha_hydrogen = 77, find cannizzaro requirement.",
+     "a": "77",
+     "self_check": false
+    },
+    {
+     "q": "For Alpha-Hydrogen Chemistry: Aldol versus Cannizzaro: given no_alpha_hydrogen = 96, find cannizzaro requirement.",
+     "a": "96",
+     "self_check": false
+    },
+    {
+     "q": "For Alpha-Hydrogen Chemistry: Aldol versus Cannizzaro: given no_alpha_hydrogen = 1.2, find cannizzaro requirement.",
+     "a": "1.2",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lech203.8.7.1.1",
+   "title": "Ascending the Series by One Carbon",
+   "converted_to_compute": true,
+   "formula": "acid_carbons = halide_carbons + 1",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "acid_carbons = halide_carbons + 1",
+     "compute": "acid_carbons = halide_carbons + 1"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Ascending the Series by One Carbon: given halide_carbons = 76, find acid carbons.",
+     "a": "77",
+     "self_check": false
+    },
+    {
+     "q": "For Ascending the Series by One Carbon: given halide_carbons = 79, find acid carbons.",
+     "a": "80",
+     "self_check": false
+    },
+    {
+     "q": "For Ascending the Series by One Carbon: given halide_carbons = 1.7, find acid carbons.",
+     "a": "2.7",
+     "self_check": false
+    },
+    {
+     "q": "For Ascending the Series by One Carbon: given halide_carbons = 64, find acid carbons.",
+     "a": "65",
+     "self_check": false
+    },
+    {
+     "q": "For Ascending the Series by One Carbon: given halide_carbons = 4.4, find acid carbons.",
+     "a": "5.4",
+     "self_check": false
+    },
+    {
+     "q": "For Ascending the Series by One Carbon: given halide_carbons = 5.9, find acid carbons.",
+     "a": "6.9",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

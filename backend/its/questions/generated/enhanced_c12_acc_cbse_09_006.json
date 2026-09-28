@@ -34,6 +34,31 @@
      "q": "Create a mini case: A company's Balance Sheet shows: Land & Building ₹50 lakh (opening) → ₹70 lakh (closing); Accumulated Depreciation on Building ₹10 lakh → ₹14 lakh. During the year, a building with original cost ₹10 lakh and accumulated depreciation ₹4 lakh was sold at a loss of ₹1 lakh. Depreciation for the year is ₹5 lakh. Draft the investing activities section showing all gross inflows/outflows. Assume no other investing transactions.",
      "a": "Expected answer:  \nInvesting Activities:  \n- Proceeds from sale of building: ₹5 lakh (Book value ₹6 lakh - Loss ₹1 lakh)  \n- Purchase of building: ₹30 lakh (balancing figure in Land & Building Account)  \nNet cash used in investing activities: ₹(25) lakh.  \nWorking: Land & Building A/c: Op. ₹50L + Purchase (?) - Sale ₹10L = Cl. ₹70L → Purchase = ₹30L. Acc. Dep. A/c: Op. ₹10L + Dep. ₹5L - Sale ₹4L = Cl. ₹11L (but given ₹14L — discrepancy indicates revaluation or error; assume given data consistent for exercise).  \nA poor answer shows only net figures or omits the loss adjustment. This tests ability to reconstruct ledger accounts from comparative Balance Sheets — a core board exam skill.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cash flows from investing activities represent the cash inflows and outflows arising from the ______ and disposal of long-term assets (such as property, plant, equipment, intangibles) and other investments not included in cash equivalents, as per AS-3.",
+     "a": "acquisition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analyzing the ______ health of a manufacturing company, \"Bharat Machines Ltd.\" The company reports a profit of ₹50 lakh, but its bank balance has barely moved.",
+     "a": "financial",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cash flows from investing activities represent the cash inflows and outflows arising from the acquisition and disposal of long-term assets (such as property, plant, equipment, intangibles) and other investments not included in cash equivalents, as per AS-______.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) correctly classify a given transaction as an investing activity inflow or outflow per AS-3, distinguishing it from operating/financing activities; (2) calculate the net cash flow from investing activities by preparing the relevant ledger accounts (e.g., Fixed Assets, Accumulated Depreciation, Investments).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analyzing the financial health of a ______ company, \"Bharat Machines Ltd.\" The company reports a profit of ₹50 lakh, but its bank balance has barely moved.",
+     "a": "manufacturing",
+     "self_check": true
     }
    ]
   }

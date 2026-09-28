@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_05_003",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_05_003",
+   "title": "c11_app_cbse_05_003",
+   "questions": [
+    {
+     "q": "State the definition of an Arithmetic Progression and write the formula for its general term $a_n$. Identify the meaning of each variable in the formula.",
+     "a": "An AP is a sequence where $a_{n+1} - a_n = d$ (constant) for all $n \\in \\mathbb{N}$. General term: $a_n = a + (n-1)d$. Here, $a$ = first term, $d$ = common difference, $n$ = term position (natural number). A wrong answer (e.g., writing $a_n = a + nd$ or confusing $d$ with the second term) reveals the student memorizes the formula without understanding that $(n-1)$ represents the number of *steps* from the first term.",
+     "self_check": true
+    },
+    {
+     "q": "The nth term of a sequence is given by $a_n = 5 - 3n$. Is this an AP? If yes, write its first term and common difference. Explain how you identified the common difference directly from the formula without calculating $a_2 - a_1$.",
+     "a": "Yes, it is an AP. First term $a_1 = 5 - 3(1) = 2$. Common difference $d = -3$ (coefficient of $n$). A wrong answer (e.g., calculating $a_2 = -1$, then $d = -1-2 = -3$ but claiming $d=3$ or $d=5$) reveals the student relies on computation rather than recognizing the structural property: *any linear expression $An+B$ represents an AP with common difference $A$*. This is Property (v) in NCERT and a critical board-exam shortcut.",
+     "self_check": true
+    },
+    {
+     "q": "In an AP, the 7th term is 34 and the 13th term is 64. Find the 20th term.",
+     "a": "Given: $a_7 = a + 6d = 34$ and $a_{13} = a + 12d = 64$. Subtract: $6d = 30 \\Rightarrow d = 5$. Substitute: $a + 30 = 34 \\Rightarrow a = 4$. Then $a_{20} = a + 19d = 4 + 19(5) = 99$. A wrong answer (e.g., $d=30$ or $a_{20}=4+20(5)=104$) reveals confusion between term *number* ($n$) and the *multiplier of d* ($n-1$). Students often use $n$ instead of $n-1$ in the formula.",
+     "self_check": true
+    },
+    {
+     "q": "Two APs have the same common difference. The difference between their 100th terms is 100. What is the difference between their 50th terms? Explain your reasoning.",
+     "a": "Let the APs be $a, a+d, a+2d...$ and $A, A+d, A+2d...$ (same $d$). Given: $(a+99d) - (A+99d) = a - A = 100$. The difference between 50th terms: $(a+49d) - (A+49d) = a - A = 100$. The difference remains constant for *any* corresponding terms because the $d$ terms cancel out. A wrong answer (e.g., 50 or 200) reveals the student thinks the difference scales with $n$, missing that the gap between two APs with same $d$ is fixed and equal to the difference of their first terms.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"The sequence defined by $a_n = n^2 + 1$ is an AP because the terms increase by a pattern.\" Evaluate this claim. Provide a counter-example using the first three terms.",
+     "a": "The claim is false. $a_1 = 2, a_2 = 5, a_3 = 10$. Differences: $a_2 - a_1 = 3$, $a_3 - a_2 = 5$. Since $3 \\neq 5$, the difference is not constant. The sequence is quadratic, not linear. A wrong evaluation (e.g., \"it is an AP because it increases\") reveals the student confuses \"increasing pattern\" with \"constant difference.\" They must understand that AP requires *exactly equal* successive differences, not just any pattern.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-life scenario (Indian context) that generates an AP with a negative common difference. Write the first term, common difference, and the general term $a_n$. Then find which term becomes zero or negative for the first time.",
+     "a": "Example: A water tank has 5000 litres. A leak drains 75 litres every hour. $a = 5000, d = -75$. $a_n = 5000 - 75(n-1) = 5075 - 75n$. Set $a_n \\le 0 \\Rightarrow 5075 \\le 75n \\Rightarrow n \\ge 67.66$. So the 68th term (hour) is the first negative/zero term. A poor answer (e.g., $d=75$, or $a_n = 5000 - 75n$, or solving $5000 - 75n = 0 \\Rightarrow n=66.6$) reveals: (1) sign error for decreasing APs, (2) using $n$ instead of $n-1$ in formula, (3) not interpreting \"first negative term\" as smallest integer $n$ satisfying inequality.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

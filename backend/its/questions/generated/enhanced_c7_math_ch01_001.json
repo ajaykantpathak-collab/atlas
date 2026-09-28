@@ -34,6 +34,26 @@
      "q": "Create a 6-digit number where the digit in the lakh place is double the digit in the hundreds place, and the sum of all its digits is 15. Write the number and explain your reasoning.",
      "a": "One valid example is $4,01,631$ (or $2,00,381$, etc.). The student should demonstrate that the lakh digit is twice the hundreds digit (e.g., $4$ in the lakh place and $2$ in the hundreds place), and that the sum of all digits equals 15. A poor answer fails to meet the digit-sum condition or incorrectly places digits in the 6-digit framework.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Its ______ signifies a value ten times greater than ten thousand and forms the primary grouping marker in the Indian place value system before the crore.",
+     "a": "magnitude",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine saving ______ in your piggy bank to buy a bicycle that costs ₹1,00,000.",
+     "a": "money",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can write, read, and decompose a 6-digit number involving lakhs into its place value components, represent its magnitude relative to thousands and hundreds, and apply this understanding to Indian currency and population scenarios.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ saving money in your piggy bank to buy a bicycle that costs ₹1,00,000.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

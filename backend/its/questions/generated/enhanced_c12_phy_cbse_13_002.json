@@ -34,6 +34,36 @@
      "q": "Design a thought experiment using the binding energy curve to show that fusion of two ²H (deuterium) nuclei into ⁴He releases energy, while fusion of two ⁵⁶Fe nuclei would absorb energy.",
      "a": "Locate A=2 (E_bn≈1.1 MeV) and A=4 (E_bn≈7.1 MeV) on the curve: the product has much higher binding energy per nucleon, so energy is released. Locate A=56 (E_bn≈8.8 MeV) and A=112 (E_bn≈8.5 MeV): the product has lower binding energy per nucleon, so energy must be supplied. A poor answer (e.g., just stating \"fusion releases energy\") fails to use the curve quantitatively.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Nuclear force is the short-range, charge-______ strong interaction that binds protons and neutrons (nucleons) together in the nucleus, overcoming Coulomb repulsion between protons.",
+     "a": "independent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a commercial ______ power plant (like Tarapur or Kudankulam) or the Sun — both release enormous energy from tiny amounts of matter.",
+     "a": "nuclear",
+     "self_check": true
+    },
+    {
+     "q": "What is Nuclear force? State the definition given in this lesson.",
+     "a": "Nuclear force is the short-range, charge-independent strong interaction that binds protons and neutrons (nucleons) together in the nucleus, overcoming Coulomb repulsion between protons.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Plot binding energy per nucleon vs mass number to discover the saturation property and the peak at A≈______, which explains why fusion powers stars and fission powers reactors.",
+     "a": "56",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Nuclear force?",
+     "a": "Students often think the nuclear force is simply a \"stronger version of Coulomb force\" and that binding energy is the energy to remove one nucleon (separation energy).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate binding energy and binding energy per nucleon from given nuclear masses, explain the saturation property of nuclear force using the binding energy per nucleon curve, and predict whether a nuclear reaction (fission/fusion) releases energy based on the curve's trend.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Construct a set A such that n(P(A)) = 1. Then construct a set B such that n(P(B)) = 2. Explain why there is no set C with n(P(C)) = 3.",
      "a": "A = φ (empty set), n(A)=0, n(P(A))=2^0=1. B = {a} (singleton), n(B)=1, n(P(B))=2^1=2. No set C exists because n(P(C)) = 2^{n(C)} is always a power of 2, and 3 is not a power of 2. A student suggesting C with 1.5 elements or \"a set with 3 subsets\" reveals they don't grasp that cardinality of power set is restricted to powers of 2.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The power set of a set A, denoted by P(A), is the set of all subsets of A, ______ the empty set φ and A itself.",
+     "a": "including",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You want to pack a ______ of these pens into your pencil case.",
+     "a": "subset",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If A has n elements (n(A) = n), then the cardinality of its power set is n(P(A)) = ______^n.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can construct the power set of any given finite set, state its cardinality using 2^n, and explain why the formula holds by connecting each element's binary choice (include/exclude) to subset formation.",
+     "self_check": true
     }
    ]
   }

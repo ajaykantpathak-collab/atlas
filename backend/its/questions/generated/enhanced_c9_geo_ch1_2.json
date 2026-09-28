@@ -34,6 +34,31 @@
      "q": "Design a simple diagram annotation for a divergent boundary at a mid-ocean ridge showing: (a) direction of plate movement, (b) mantle convection cell, (c) new crust formation, and (d) magnetic striping pattern. Label each part.",
      "a": "A good answer includes a cross-section with two plates moving apart, upward rising convection limb between them, magma rising and solidifying at the ridge axis to form new crust, and symmetrical magnetic stripes (normal/reversed polarity) moving outward. A poor answer (missing convection cell or showing random stripes) reveals the student cannot integrate the driving mechanism, crustal creation, and paleomagnetic evidence into a single coherent model.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Plate tectonics is the scientific theory explaining that Earth's lithosphere is divided into several large and small rigid plates that float on the semi-fluid ______ beneath, driven by mantle convection currents; plate boundaries are the zones where these plates interact, classified as divergent (moving apart), convergent (colliding), or transform (sliding past each other).",
+     "a": "asthenosphere",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by showing students a physical map of India and asking them to observe the ______ in the north and the Indian Ocean ridges in the south.",
+     "a": "Himalayas",
+     "self_check": true
+    },
+    {
+     "q": "What is Plate tectonics? State the definition given in this lesson.",
+     "a": "Plate tectonics is the scientific theory explaining that Earth's lithosphere is divided into several large and small rigid plates that float on the semi-fluid asthenosphere beneath, driven by mantle convection currents; plate boundaries are the zones where these plates interact, classified as divergent (moving apart), convergent.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Plate tectonics?",
+     "a": "Students often think \"plate boundary\" and \"plate margin\" are different terms, or that the Indian Plate boundary with the Eurasian Plate is purely convergent without any transform segments.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify the three types of plate boundaries on a world map, explain the geological process at each boundary using the concept of mantle convection, and predict the resultant landforms (e.g., mid-ocean ridges, trenches, fold mountains) for a given boundary type.",
+     "self_check": true
     }
    ]
   }

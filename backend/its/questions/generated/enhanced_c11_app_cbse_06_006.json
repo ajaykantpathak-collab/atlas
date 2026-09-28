@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_06_006",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_06_006",
+   "title": "c11_app_cbse_06_006",
+   "questions": [
+    {
+     "q": "State the formula for the number of permutations of $n$ different things taken $r$ at a time in which $m$ particular things **never** occur. Define the condition on $n, m, r$ for this formula to be valid.",
+     "a": "The formula is $^{n-m}P_r$, valid only when $n - m \\ge r$. A wrong answer (e.g., writing $^nP_r - ^mP_r$ or $^nP_r - ^{n-m}P_r$) reveals the student is confusing \"total minus forbidden\" logic with the direct reduction of the pool. They are trying to subtract arrangements rather than realizing the pool of available objects has physically shrunk to $n-m$.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the formula for permutations where $m$ particular things **always** occur is $^rP_m \\times ^{n-m}P_{r-m}$ and not simply $^{n-m}P_{r-m}$. Use a concrete example with $n=5, r=3, m=1$ to illustrate.",
+     "a": "The factor $^rP_m$ accounts for choosing *which positions* the $m$ fixed objects occupy and *arranging them* in those positions. $^{n-m}P_{r-m}$ only fills the remaining slots. If a student omits $^rP_m$, they assume the fixed objects occupy specific pre-determined positions (e.g., \"the first $m$ spots\"), ignoring that the fixed objects can be placed in *any* of the $r$ positions. For $n=5 \\{A,B,C,D,E\\}, r=3, m=1$ (A must be included): $^3P_1 \\times ^4P_2 = 3 \\times 12 = 36$. Just $^4P_2 = 12$ only counts arrangements where A is in a specific spot (e.g., 1st position).",
+     "self_check": true
+    },
+    {
+     "q": "A 5-digit code is formed using digits 1–9 without repetition. The code must contain the digit '5' but must not contain the digit '2'. How many such codes are possible? Show your steps.",
+     "a": "Total digits available initially: 9. Exclusion: Remove '2' $\\rightarrow$ pool = 8 digits $\\{1,3,4,5,6,7,8,9\\}$. Inclusion: '5' is mandatory. We need 5-digit codes ($r=5$) from $n=8$ with $m=1$ fixed.\nStep 1: Place mandatory '5' in one of 5 positions: $^5P_1 = 5$ ways.\nStep 2: Fill remaining 4 positions from remaining 7 digits: $^7P_4 = 7 \\times 6 \\times 5 \\times 4 = 840$.\nTotal $= 5 \\times 840 = 4200$.\nA wrong answer like $^8P_5 - ^7P_5$ reveals the student treats \"must include 5\" as a subtraction problem (Total without 2 minus Total without 2 and 5) but fails to realize $^7P_5$ counts codes *excluding* 5 from the *reduced* pool of 7, which is correct logic but computationally longer. A more dangerous error is $^9P_5 - ^8P_5 - ^8P_5$, showing confusion about the changing pool size.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"Bundle Method\" (things always together) and the \"Gap Method\" (things never together). For 7 distinct books on a shelf where 3 specific books (Math, Physics, Chemistry) must **never** be adjacent, explain why we arrange the *other* 4 books first. What does the \"Gap\" represent physically?",
+     "a": "We arrange the 4 \"unrestricted\" books first because they create the *slots* (gaps) where the restricted books can be placed safely. Physically, 4 books in a row create 5 gaps: `_ B1 _ B2 _ B3 _ B4 _` (3 internal + 2 ends). The 3 restricted books must choose 3 of these 5 gaps ($^5P_3$ ways) and arrange themselves within those chosen gaps ($3!$ ways). Total $= 4! \\times ^5P_3$. A student who arranges the 3 restricted books first fails to see that the \"separators\" are the unrestricted objects; the gaps do not exist until the separators are placed.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this student's solution: *\"Find arrangements of 'COMPUTER' where vowels occupy only even positions. There are 3 vowels (O, U, E) and 3 even positions (2, 4, 6). Arrange vowels in $^3P_3 = 6$ ways. Arrange 5 consonants in remaining 5 positions in $^5P_5 = 120$ ways. Answer = $6 \\times 120 = 720$.\"*",
+     "a": "The solution is **correct** in result but the reasoning \"3 vowels and 3 even positions\" is coincidentally true only because the word has 8 letters. The student did not explicitly verify that the number of vowels $\\le$ number of even positions. If the word were 'EDUCATION' (5 vowels, 4 even positions in 9 letters), the answer would be 0, but this method would wrongly compute $^4P_5$ (undefined). The student must state the feasibility condition: $\\text{Number of restricted items} \\le \\text{Number of restricted positions}$.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new word problem (Indian context) involving permutations with **two simultaneous restrictions**: one \"always together\" and one \"never together\". Define the objects, the restrictions, and the total count $n$. Do not solve it.",
+     "a": "Example: *\"A wedding photographer must arrange 8 family members in a row. The Bride and Groom (2 people) must stand together. The two feuding uncles (2 different people) must not stand together. How many arrangements?\"* A good problem clearly identifies 4 distinct special objects forming two disjoint pairs with opposing restrictions, and $n=8$. A poor problem makes the pairs overlap (e.g., Bride must be with Groom, but Bride must not be with Uncle), which introduces conditional probability complexity beyond this node's scope.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

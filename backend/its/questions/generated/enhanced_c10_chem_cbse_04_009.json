@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a spirit lamp, a metal spoon, and a glass plate to demonstrate the products of incomplete combustion of ethanol. List observations and write the chemical equation for the incomplete combustion occurring.",
      "a": "Hold a cold metal spoon in the yellow flame of a spirit lamp (ethanol) → black soot (carbon) deposits on spoon. Hold a cold glass plate above the flame → water vapour condenses as droplets. Equation: C₂H₅OH + O₂ → 2C + 3H₂O (or C₂H₅OH + O₂ → 2CO + 3H₂O). A poor answer (e.g., \"burn ethanol and see smoke\") lacks specific observations, controlled setup, or the balanced incomplete combustion equation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Combustion of carbon compounds is an exothermic oxidation reaction where a carbon-containing compound (______ or its derivative) reacts with oxygen to produce carbon dioxide, water vapour, heat, and light.",
+     "a": "hydrocarbon",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a kitchen LPG stove: the blue flame indicates complete combustion of butane (C₄H₁₀) with ______ air, while a yellow sooty flame on a kerosene stove shows incomplete combustion.",
+     "a": "sufficient",
+     "self_check": true
+    },
+    {
+     "q": "What is Combustion of carbon compounds? State the definition given in this lesson.",
+     "a": "Combustion of carbon compounds is an exothermic oxidation reaction where a carbon-containing compound (hydrocarbon or its derivative) reacts with oxygen to produce carbon dioxide, water vapour, heat, and light.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Combustion of carbon compounds?",
+     "a": "Students write the general combustion formula as CₓHᵧ + O₂ → xCO₂ + (y/2)H₂O and then balance by putting coefficient (x + y/4) for O₂, but they forget that if the compound already contains oxygen (e.g., ethanol C₂H₅OH), the required O₂ coefficient is (x + y/4 - z/2) where z is the number of O atoms in the fuel.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write balanced combustion equations for any given hydrocarbon or oxygenated carbon compound (alcohol, aldehyde, acid), identify whether combustion is complete or incomplete based on oxygen supply and flame colour, and calculate oxygen required or products formed using stoichiometry.",
+     "self_check": true
     }
    ]
   }

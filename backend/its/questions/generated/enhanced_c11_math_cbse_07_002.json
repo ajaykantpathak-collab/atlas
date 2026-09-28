@@ -34,6 +34,16 @@
      "q": "Create a real-world problem (using Indian context: rupees, items, people) that requires calculating \\(7!\\) and explain why the answer is \\(7!\\) and not \\(7^7\\) or \\(7 \\times 6\\).",
      "a": "Example: \"In how many ways can 7 different books be arranged on a shelf?\" Answer: \\(7! = 5040\\). The first book has 7 choices, second 6, etc., down to 1. Using \\(7^7\\) would imply each position has 7 independent choices (repetition allowed), and \\(7 \\times 6\\) only counts ways to fill the first two positions. A poor problem might ask \"How many ways to choose 2 books from 7?\" which uses combinations, not factorial directly, showing confusion between permutations and combinations.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ 5 different books on a shelf.",
+     "a": "arranging",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are arranging ______ different books on a shelf.",
+     "a": "5",
+     "self_check": true
     }
    ]
   }

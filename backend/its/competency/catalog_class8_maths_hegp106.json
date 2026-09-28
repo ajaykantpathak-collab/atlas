@@ -22,15 +22,33 @@
     "use distribution to find the increase in 23 x 27 when 27 becomes 28",
     "write the missing terms in the expansion a(b + 8) = ab + ..."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "apply the distributive identity",
-     "explain": "Write a times the bracket as the two separate products a b and a c."},
-    {"step": 2, "action": "match with the area picture",
-     "explain": "A rectangle a by (b + c) splits into an a by b block and an a by c block of the same total area."},
-    {"step": 3, "action": "check with numbers",
-     "explain": "Substituting values such as a = 23, b = 27, c = 1 confirms both sides agree."}
-   ]
+    {
+     "step": 1,
+     "action": "apply the distributive identity",
+     "explain": "Write a times the bracket as the two separate products a b and a c."
+    },
+    {
+     "step": 2,
+     "action": "match with the area picture",
+     "explain": "A rectangle a by (b + c) splits into an a by b block and an a by c block of the same total area."
+    },
+    {
+     "step": 3,
+     "action": "check with numbers",
+     "explain": "Substituting values such as a = 23, b = 27, c = 1 confirms both sides agree."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the integer operation sign rules",
+     "explain": "apply the integer operation sign rules: total = -2 + (-6) gives -8",
+     "compute": "total = -2 + (-6)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hegp.106.6.2",
@@ -50,12 +68,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "expand the grown product",
+    {
+     "step": 1,
+     "action": "expand the grown product",
      "explain": "(a + m)(b + n) distributes into ab plus three border products.",
-     "compute": "grown = (a + m) * (b + n)"},
-    {"step": 2, "action": "subtract the old product",
+     "compute": "grown = (a + m) * (b + n)"
+    },
+    {
+     "step": 2,
+     "action": "subtract the old product",
      "explain": "The increase is the new product minus ab, which equals an + bm + mn.",
-     "compute": "increase = grown - a * b"}
+     "compute": "increase = grown - a * b"
+    }
    ]
   },
   {
@@ -76,12 +100,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "square each term",
+    {
+     "step": 1,
+     "action": "square each term",
      "explain": "Compute a squared and b squared separately.",
-     "compute": "sq_terms = a * a + b * b"},
-    {"step": 2, "action": "add twice the product",
+     "compute": "sq_terms = a * a + b * b"
+    },
+    {
+     "step": 2,
+     "action": "add twice the product",
      "explain": "The two cross rectangles contribute 2ab to the total.",
-     "compute": "value = sq_terms + 2 * a * b"}
+     "compute": "value = sq_terms + 2 * a * b"
+    }
    ]
   },
   {
@@ -102,12 +132,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "square each term",
+    {
+     "step": 1,
+     "action": "square each term",
      "explain": "Compute a squared and b squared.",
-     "compute": "sq_terms = a * a + b * b"},
-    {"step": 2, "action": "subtract twice the product",
+     "compute": "sq_terms = a * a + b * b"
+    },
+    {
+     "step": 2,
+     "action": "subtract twice the product",
      "explain": "The two removed strips leave minus 2ab.",
-     "compute": "value = sq_terms - 2 * a * b"}
+     "compute": "value = sq_terms - 2 * a * b"
+    }
    ]
   },
   {
@@ -128,12 +164,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "square the larger centre-based term",
+    {
+     "step": 1,
+     "action": "square the larger centre-based term",
      "explain": "Take a squared, the square of the middle value.",
-     "compute": "big_sq = a * a"},
-    {"step": 2, "action": "subtract the square of the offset",
+     "compute": "big_sq = a * a"
+    },
+    {
+     "step": 2,
+     "action": "subtract the square of the offset",
      "explain": "The product equals big square minus b squared.",
-     "compute": "value = big_sq - b * b"}
+     "compute": "value = big_sq - b * b"
+    }
    ]
   },
   {
@@ -152,15 +194,33 @@
     "which two identities combine to give the 2(a squared + b squared) result",
     "check the pattern 2(2 squared + 1 squared) = 3 squared + 1 squared with algebra"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "write both square expansions",
-     "explain": "List a squared + 2ab + b squared and a squared - 2ab + b squared."},
-    {"step": 2, "action": "add like terms",
-     "explain": "The 2ab and minus 2ab cancel, the squares double."},
-    {"step": 3, "action": "conclude the identity",
-     "explain": "The total is 2(a squared + b squared), proving the observed pattern always holds."}
-   ]
+    {
+     "step": 1,
+     "action": "write both square expansions",
+     "explain": "List a squared + 2ab + b squared and a squared - 2ab + b squared."
+    },
+    {
+     "step": 2,
+     "action": "add like terms",
+     "explain": "The 2ab and minus 2ab cancel, the squares double."
+    },
+    {
+     "step": 3,
+     "action": "conclude the identity",
+     "explain": "The total is 2(a squared + b squared), proving the observed pattern always holds."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "square the given number using the stated square rule",
+     "explain": "square the given number using the stated square rule: sq = 32 ** 2 gives 1024",
+     "compute": "sq = 32 ** 2"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -175,9 +235,12 @@
     "b": "second factor"
    },
    "solution_template": [
-    {"step": 1, "action": "use m = n = 1 in the increase identity",
+    {
+     "step": 1,
+     "action": "use m = n = 1 in the increase identity",
      "explain": "Increase equals an + bm + mn with m and n both 1.",
-     "compute": "increase = a + b + 1"}
+     "compute": "increase = a + b + 1"
+    }
    ]
   },
   {
@@ -193,12 +256,18 @@
     "n": "rise in the second factor"
    },
    "solution_template": [
-    {"step": 1, "action": "expand the grown product",
+    {
+     "step": 1,
+     "action": "expand the grown product",
      "explain": "(a + m)(b + n) opens into ab plus border areas.",
-     "compute": "grown = (a + m) * (b + n)"},
-    {"step": 2, "action": "subtract the original product",
+     "compute": "grown = (a + m) * (b + n)"
+    },
+    {
+     "step": 2,
+     "action": "subtract the original product",
      "explain": "The difference is the increase an + bm + mn.",
-     "compute": "increase = grown - a * b"}
+     "compute": "increase = grown - a * b"
+    }
    ]
   },
   {
@@ -212,12 +281,18 @@
     "b": "the smaller part of the number"
    },
    "solution_template": [
-    {"step": 1, "action": "square each part",
+    {
+     "step": 1,
+     "action": "square each part",
      "explain": "Compute a squared and b squared.",
-     "compute": "sq_terms = a * a + b * b"},
-    {"step": 2, "action": "add twice the cross product",
+     "compute": "sq_terms = a * a + b * b"
+    },
+    {
+     "step": 2,
+     "action": "add twice the cross product",
      "explain": "Two rectangles of a by b contribute 2ab.",
-     "compute": "value = sq_terms + 2 * a * b"}
+     "compute": "value = sq_terms + 2 * a * b"
+    }
    ]
   },
   {
@@ -232,12 +307,18 @@
     "b": "remaining part"
    },
    "solution_template": [
-    {"step": 1, "action": "square each part",
+    {
+     "step": 1,
+     "action": "square each part",
      "explain": "a squared and b squared are easy to compute.",
-     "compute": "sq_terms = a * a + b * b"},
-    {"step": 2, "action": "add twice the cross product",
+     "compute": "sq_terms = a * a + b * b"
+    },
+    {
+     "step": 2,
+     "action": "add twice the cross product",
      "explain": "2ab completes the square of the sum.",
-     "compute": "value = sq_terms + 2 * a * b"}
+     "compute": "value = sq_terms + 2 * a * b"
+    }
    ]
   },
   {
@@ -251,12 +332,18 @@
     "b": "the amount subtracted"
    },
    "solution_template": [
-    {"step": 1, "action": "square each part",
+    {
+     "step": 1,
+     "action": "square each part",
      "explain": "Compute a squared and b squared.",
-     "compute": "sq_terms = a * a + b * b"},
-    {"step": 2, "action": "subtract twice the product",
+     "compute": "sq_terms = a * a + b * b"
+    },
+    {
+     "step": 2,
+     "action": "subtract twice the product",
      "explain": "The two removed strips give minus 2ab.",
-     "compute": "value = sq_terms - 2 * a * b"}
+     "compute": "value = sq_terms - 2 * a * b"
+    }
    ]
   },
   {
@@ -271,12 +358,18 @@
     "b": "small difference from the round number"
    },
    "solution_template": [
-    {"step": 1, "action": "square each part",
+    {
+     "step": 1,
+     "action": "square each part",
      "explain": "a squared and b squared are straightforward.",
-     "compute": "sq_terms = a * a + b * b"},
-    {"step": 2, "action": "subtract twice the product",
+     "compute": "sq_terms = a * a + b * b"
+    },
+    {
+     "step": 2,
+     "action": "subtract twice the product",
      "explain": "Minus 2ab adjusts for the overlap removed twice.",
-     "compute": "value = sq_terms - 2 * a * b"}
+     "compute": "value = sq_terms - 2 * a * b"
+    }
    ]
   },
   {
@@ -290,12 +383,18 @@
     "b": "half the gap between the factors"
    },
    "solution_template": [
-    {"step": 1, "action": "square the centre",
+    {
+     "step": 1,
+     "action": "square the centre",
      "explain": "The product reduces to a squared minus b squared.",
-     "compute": "big_sq = a * a"},
-    {"step": 2, "action": "subtract the offset square",
+     "compute": "big_sq = a * a"
+    },
+    {
+     "step": 2,
+     "action": "subtract the offset square",
      "explain": "Subtract b squared to finish the difference of squares.",
-     "compute": "value = big_sq - b * b"}
+     "compute": "value = big_sq - b * b"
+    }
    ]
   },
   {
@@ -309,12 +408,18 @@
     "b": "half distance to each factor"
    },
    "solution_template": [
-    {"step": 1, "action": "square the centre",
+    {
+     "step": 1,
+     "action": "square the centre",
      "explain": "a squared is the first term of Identity 1C.",
-     "compute": "big_sq = a * a"},
-    {"step": 2, "action": "subtract the offset square",
+     "compute": "big_sq = a * a"
+    },
+    {
+     "step": 2,
+     "action": "subtract the offset square",
      "explain": "The result is the difference of squares.",
-     "compute": "value = big_sq - b * b"}
+     "compute": "value = big_sq - b * b"
+    }
    ]
   },
   {
@@ -328,12 +433,18 @@
     "b": "second natural number of the pair"
    },
    "solution_template": [
-    {"step": 1, "action": "expand both squares",
+    {
+     "step": 1,
+     "action": "expand both squares",
      "explain": "Write the sum-square and difference-square expansions.",
-     "compute": "lhs = (a + b) * (a + b) + (a - b) * (a - b)"},
-    {"step": 2, "action": "compare with twice the sum of squares",
+     "compute": "lhs = (a + b) * (a + b) + (a - b) * (a - b)"
+    },
+    {
+     "step": 2,
+     "action": "compare with twice the sum of squares",
      "explain": "The expansions cancel 2ab and double the squares.",
-     "compute": "rhs = 2 * (a * a + b * b)"}
+     "compute": "rhs = 2 * (a * a + b * b)"
+    }
    ]
   },
   {
@@ -347,12 +458,18 @@
     "b": "smaller member of the pair"
    },
    "solution_template": [
-    {"step": 1, "action": "expand both squares",
+    {
+     "step": 1,
+     "action": "expand both squares",
      "explain": "Sum and difference squares add up without cross terms.",
-     "compute": "lhs = (a + b) * (a + b) + (a - b) * (a - b)"},
-    {"step": 2, "action": "compare with twice the sum of squares",
+     "compute": "lhs = (a + b) * (a + b) + (a - b) * (a - b)"
+    },
+    {
+     "step": 2,
+     "action": "compare with twice the sum of squares",
      "explain": "Both sides should agree numerically.",
-     "compute": "rhs = 2 * (a * a + b * b)"}
+     "compute": "rhs = 2 * (a * a + b * b)"
+    }
    ]
   }
  ],

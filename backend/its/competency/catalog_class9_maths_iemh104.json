@@ -24,12 +24,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "square the two parts",
+    {
+     "step": 1,
+     "action": "square the two parts",
      "explain": "Compute a squared and b squared.",
-     "compute": "sq_terms = a * a + b * b"},
-    {"step": 2, "action": "add twice the product",
+     "compute": "sq_terms = a * a + b * b"
+    },
+    {
+     "step": 2,
+     "action": "add twice the product",
      "explain": "The cross term 2ab completes the identity.",
-     "compute": "value = sq_terms + 2 * a * b"}
+     "compute": "value = sq_terms + 2 * a * b"
+    }
    ]
   },
   {
@@ -50,12 +56,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "square the larger centre term",
+    {
+     "step": 1,
+     "action": "square the larger centre term",
      "explain": "Compute a squared.",
-     "compute": "big_sq = a * a"},
-    {"step": 2, "action": "subtract the offset square",
+     "compute": "big_sq = a * a"
+    },
+    {
+     "step": 2,
+     "action": "subtract the offset square",
      "explain": "The product is big square minus b squared.",
-     "compute": "value = big_sq - b * b"}
+     "compute": "value = big_sq - b * b"
+    }
    ]
   },
   {
@@ -74,15 +86,33 @@
     "check the factorisation by expanding back",
     "which identity factorises the given expression - justify"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "match the pattern",
-     "explain": "Compare the expression with the three standard identity forms."},
-    {"step": 2, "action": "identify a and b",
-     "explain": "The square terms reveal a and b."},
-    {"step": 3, "action": "write the brackets",
-     "explain": "The identity gives the factorisation directly; expand back to check."}
-   ]
+    {
+     "step": 1,
+     "action": "match the pattern",
+     "explain": "Compare the expression with the three standard identity forms."
+    },
+    {
+     "step": 2,
+     "action": "identify a and b",
+     "explain": "The square terms reveal a and b."
+    },
+    {
+     "step": 3,
+     "action": "write the brackets",
+     "explain": "The identity gives the factorisation directly; expand back to check."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "expand with the algebraic identity and evaluate",
+     "explain": "expand with the algebraic identity and evaluate: val = 9 * 9 + 2 * 9 * 7 + 7 * 7 gives 256",
+     "compute": "val = 9 * 9 + 2 * 9 * 7 + 7 * 7"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iemh.104.4.4",
@@ -100,15 +130,45 @@
     "verify the simplified expression by substituting a value",
     "reduce the given rational expression to lowest terms"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "factorise numerator and denominator",
-     "explain": "Use identities and common factors on both parts."},
-    {"step": 2, "action": "cancel common factors",
-     "explain": "Delete the factors that appear on both sides."},
-    {"step": 3, "action": "state restrictions",
-     "explain": "Values that make the original denominator zero are excluded."}
-   ]
+    {
+     "step": 1,
+     "action": "factorise numerator and denominator",
+     "explain": "Use identities and common factors on both parts."
+    },
+    {
+     "step": 2,
+     "action": "cancel common factors",
+     "explain": "Delete the factors that appear on both sides."
+    },
+    {
+     "step": 3,
+     "action": "state restrictions",
+     "explain": "Values that make the original denominator zero are excluded."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the rational-number operation rules",
+     "explain": "apply the rational-number operation rules: num = 5 * 9 + 2 * 6 gives 57",
+     "compute": "num = 5 * 9 + 2 * 6"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the rational-number operation rules: den = 6 * 9 gives 54",
+     "compute": "den = 6 * 9"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the rational-number operation rules: val = num / den gives 1.05556",
+     "compute": "val = num / den"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -123,12 +183,18 @@
     "b": "the smaller part"
    },
    "solution_template": [
-    {"step": 1, "action": "square the parts",
+    {
+     "step": 1,
+     "action": "square the parts",
      "explain": "Compute a squared and b squared.",
-     "compute": "sq_terms = a * a + b * b"},
-    {"step": 2, "action": "add twice the product",
+     "compute": "sq_terms = a * a + b * b"
+    },
+    {
+     "step": 2,
+     "action": "add twice the product",
      "explain": "The cross term completes the identity.",
-     "compute": "value = sq_terms + 2 * a * b"}
+     "compute": "value = sq_terms + 2 * a * b"
+    }
    ]
   },
   {
@@ -143,12 +209,18 @@
     "b": "smaller part"
    },
    "solution_template": [
-    {"step": 1, "action": "square the parts",
+    {
+     "step": 1,
+     "action": "square the parts",
      "explain": "Both parts square easily.",
-     "compute": "sq_terms = a * a + b * b"},
-    {"step": 2, "action": "add twice the product",
+     "compute": "sq_terms = a * a + b * b"
+    },
+    {
+     "step": 2,
+     "action": "add twice the product",
      "explain": "The identity finishes the computation.",
-     "compute": "value = sq_terms + 2 * a * b"}
+     "compute": "value = sq_terms + 2 * a * b"
+    }
    ]
   },
   {
@@ -162,12 +234,18 @@
     "b": "half the gap between the factors"
    },
    "solution_template": [
-    {"step": 1, "action": "square the centre",
+    {
+     "step": 1,
+     "action": "square the centre",
      "explain": "Compute a squared.",
-     "compute": "big_sq = a * a"},
-    {"step": 2, "action": "subtract the offset square",
+     "compute": "big_sq = a * a"
+    },
+    {
+     "step": 2,
+     "action": "subtract the offset square",
      "explain": "Subtract b squared.",
-     "compute": "value = big_sq - b * b"}
+     "compute": "value = big_sq - b * b"
+    }
    ]
   },
   {
@@ -181,12 +259,18 @@
     "b": "offset from the centre"
    },
    "solution_template": [
-    {"step": 1, "action": "square the centre",
+    {
+     "step": 1,
+     "action": "square the centre",
      "explain": "a squared first.",
-     "compute": "big_sq = a * a"},
-    {"step": 2, "action": "subtract the offset square",
+     "compute": "big_sq = a * a"
+    },
+    {
+     "step": 2,
+     "action": "subtract the offset square",
      "explain": "The difference of squares is the product.",
-     "compute": "value = big_sq - b * b"}
+     "compute": "value = big_sq - b * b"
+    }
    ]
   }
  ],
@@ -195,17 +279,17 @@
    "id": "ex4.1",
    "source_ref": "iemh104.txt identity exercises",
    "questions": [
-     "Verify the identities with the given values using diagrams.",
-     "Find the squares of the given numbers using identities.",
-     "Expand the given products using standard identities."
+    "Verify the identities with the given values using diagrams.",
+    "Find the squares of the given numbers using identities.",
+    "Expand the given products using standard identities."
    ]
   },
   {
    "id": "ex4.2",
    "source_ref": "iemh104.txt factorisation and rational expression exercises",
    "questions": [
-     "Factorise the given expressions using identities.",
-     "Simplify the given rational expressions."
+    "Factorise the given expressions using identities.",
+    "Simplify the given rational expressions."
    ]
   }
  ]

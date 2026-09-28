@@ -34,6 +34,36 @@
      "q": "Design a hypothetical experiment to determine whether a newly discovered compound X inhibits HIV integrase or HIV protease. Specify the assay system, controls, readout, and how you would distinguish between the two mechanisms.",
      "a": "Expected answer: Use cell-free biochemical assays with purified enzymes. Assay 1: Integrase assay — incubate purified HIV integrase with viral DNA ends (U3/U5) and target DNA plasmid ± compound X; measure integrated product by qPCR or gel electrophoresis. Assay 2: Protease assay — incubate purified HIV protease with fluorescent Gag-Pol peptide substrate ± compound X; measure fluorescence increase from cleavage. Controls: DMSO vehicle, known integrase inhibitor (raltegravir), known protease inhibitor (darunavir). If X inhibits integrase assay but not protease assay → integrase inhibitor; vice versa. A poor answer using only cell-based infection assay without biochemical separation cannot distinguish mechanism because both inhibitors reduce viral replication downstream.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Human ______ Virus (HIV) is a retrovirus belonging to the genus Lentivirus that specifically targets and destroys CD4+ T helper lymphocytes, leading to progressive immune deficiency.",
+     "a": "Immunodeficiency",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a key trying to enter a locked house — HIV's gp120 protein acts like a key that fits only the CD4 ______ \"lock\" on helper T cells.",
+     "a": "receptor",
+     "self_check": true
+    },
+    {
+     "q": "What is Human Immunodeficiency Virus (HIV)? State the definition given in this lesson.",
+     "a": "Human Immunodeficiency Virus (HIV) is a retrovirus belonging to the genus Lentivirus that specifically targets and destroys CD4+ T helper lymphocytes, leading to progressive immune deficiency.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Human Immunodeficiency Virus (HIV) is a retrovirus belonging to the genus Lentivirus that specifically targets and destroys CD______+ T helper lymphocytes, leading to progressive immune deficiency.",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Human Immunodeficiency Virus (HIV)?",
+     "a": "Students believe HIV directly kills most CD4+ T cells by lysing them during active replication, and that the viral RNA genome is directly translated into proteins without a DNA intermediate.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Label all structural components of HIV on a diagram and state the function of each (gp120, gp41, p24, p17, RNA, reverse transcriptase, integrase, protease); (2) Sequence the 7 stages of HIV replication cycle in correct order and explain the molecular mechanism at each stage; (3) Predict the effect of specific.",
+     "self_check": true
     }
    ]
   }

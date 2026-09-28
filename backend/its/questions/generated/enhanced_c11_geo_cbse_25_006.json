@@ -34,6 +34,36 @@
      "q": "Design a field exercise for Class 11 students to measure the height of the school's flagpole using a stereo pair taken with a smartphone. Specify: (a) how to capture the stereo pair, (b) what measurements to take on the prints, (c) the formula to use, and (d) how to validate the result.",
      "a": "(a) Capture: Stand at position A, take photo; move sideways ~1/10th of distance to flagpole (base-to-height ratio ~1:10) to position B, take second photo; keep camera height and orientation constant. (b) Print both photos at same scale; measure parallax of flagpole top (p_top) and base (p_base) along the line joining the two camera positions using a ruler or parallax bar; compute Δp = p_top − p_base. (c) Formula: h = (B × f) / Δp, where B = distance between camera positions (measured on ground), f = focal length equivalent of smartphone camera (from EXIF data, typically ~4–6 mm). (d) Validate: Compare with direct measurement (tape measure or clinometer). A poor answer uses forward/backward movement (wrong baseline direction), ignores focal length retrieval, or omits validation — showing lack of practical photogrammetric thinking.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stereoscopic vision is the ______ process by which the human brain fuses two slightly different images of the same object (acquired from two viewpoints separated by the interocular distance) into a single three-dimensional perception with depth.",
+     "a": "physiological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Hold your thumb at arm's length and view it alternately with your left and right eye — you see it jump against the background; this is parallax, the same ______ that lets aerial cameras capture 3D terrain.",
+     "a": "principle",
+     "self_check": true
+    },
+    {
+     "q": "What is Stereoscopic vision? State the definition given in this lesson.",
+     "a": "Stereoscopic vision is the physiological process by which the human brain fuses two slightly different images of the same object (acquired from two viewpoints separated by the interocular distance) into a single three-dimensional perception with depth.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Hold your thumb at arm's length and view it alternately with your left and right eye — you see it jump against the background; this is parallax, the same principle that lets aerial cameras capture ______D terrain.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Stereoscopic vision?",
+     "a": "Students believe that parallax and relief displacement are the same phenomenon because both cause image shifts on aerial photographs.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the height of a vertical feature (e.g., a tower or tree) from a stereo pair using the parallax formula, explain why parallax varies across a photograph due to relief displacement, and interpret a stereogram to identify landform types (ridge vs. valley) based on parallax patterns.",
+     "self_check": true
     }
    ]
   }

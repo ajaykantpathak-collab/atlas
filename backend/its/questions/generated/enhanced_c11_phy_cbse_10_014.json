@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a Leslie cube (a metal cube with four differently finished vertical faces) and a radiation detector to demonstrate that emissivity equals absorptivity at a given temperature (Kirchhoff's law). Outline the procedure and expected observations.",
      "a": "Heat the Leslie cube uniformly (e.g., with hot water inside). Measure radiated power from each face with a detector at same distance. Faces with higher emissivity (dull black) show higher reading. Then shine a known radiant source (e.g., IR lamp) on each face and measure reflected radiation; absorptivity = 1 − reflectivity. The face with highest emission also shows highest absorption. A poor answer (e.g., \"measure temperature with thermometer\") misses the need for radiative detection and comparison of emission vs absorption, confusing thermal equilibrium with radiative properties.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stefan-Boltzmann law states that the total radiant energy emitted per unit time (power radiated) by a perfect blackbody is directly ______ to the fourth power of its absolute temperature and its surface area, given by H = AσT⁴, where σ = 5.67 × 10⁻⁸ W m⁻² K⁻⁴ is the Stefan-Boltzmann constant.",
+     "a": "proportional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stand near a traditional clay ______ (oven) in a North Indian dhaba — you feel intense heat on your face even before hot air reaches you.",
+     "a": "tandoor",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Compare with convective loss from the same surface to see why radiation dominates above ~______ °C.",
+     "a": "300",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate net radiative heat loss/gain for a body at temperature T in surroundings at Tₛ using H = eσA(T⁴ − Tₛ⁴), correctly handle absolute temperature conversions (Kelvin), and explain why the T⁴ dependence makes radiation dominant at high temperatures (e.g., furnace, solar surface).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stand near a ______ clay tandoor (oven) in a North Indian dhaba — you feel intense heat on your face even before hot air reaches you.",
+     "a": "traditional",
+     "self_check": true
     }
    ]
   }

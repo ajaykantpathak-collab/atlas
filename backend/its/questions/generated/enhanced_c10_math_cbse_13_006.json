@@ -34,6 +34,26 @@
      "q": "Create a grouped frequency distribution with 5 classes where the 'less than' and 'more than' ogives intersect exactly at x = 50, and the total frequency N = 40. Provide the class intervals, frequencies, and verify the intersection point.",
      "a": "Example: Classes 0–20 (5), 20–40 (8), 40–60 (12), 60–80 (10), 80–100 (5). N=40, median class 40–60. Less than CF: 5, 13, 25, 35, 40. More than CF: 40, 35, 27, 15, 5. The ogives intersect where less than CF = more than CF = 20, which lies in class 40–60. By proportion, intersection x ≈ 50. A poor answer uses equal frequencies or symmetric classes without verifying the intersection algebraically — shows inability to reverse-engineer the concept, needed for competency questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A cumulative frequency curve (ogive) is a graphical ______ of the cumulative frequency distribution of grouped data, plotted by marking points with coordinates (upper class boundary, less than cumulative frequency) for a 'less than' ogive or (lower class boundary, more than cumulative frequency) for a 'more than' ogive, and joining them with a smooth freehand curve.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school conducted a health check-up and recorded the heights (in cm) of 100 Class 10 students in grouped ______.",
+     "a": "intervals",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently construct both 'less than' and 'more than' ogives from a grouped frequency distribution table, correctly choose class boundaries and cumulative frequencies as coordinates, draw smooth curves through plotted points, and read the median from the intersection of the two ogives or from a single ogive using N/2.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school ______ a health check-up and recorded the heights (in cm) of 100 Class 10 students in grouped intervals.",
+     "a": "conducted",
+     "self_check": true
     }
    ]
   }

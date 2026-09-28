@@ -34,6 +34,31 @@
      "q": "Create a new real-world scenario (different from library fines) where a standalone `if` statement is sufficient — i.e., no `else` is needed. Write the Python code for it, including a comment explaining why `else` is not required.",
      "a": "Expected answer: Any scenario where action is taken only on one condition and silence/inaction is the correct response otherwise. Example: \"A thermostat turns on the heater only if temperature < 18°C; otherwise it does nothing.\"\n```python\ntemp = 16\nif temp < 18:\n    print(\"Heater ON\")  # No else needed because heater stays OFF by default\n```\nA poor answer (e.g., including an `else` that prints \"Heater OFF\") reveals the student believes every `if` must have an `else`, misunderstanding that `if` alone is a valid complete construct for one-way decisions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The if statement is a ______ control structure that executes a block of indented statements only when the specified Boolean condition evaluates to True; if the condition evaluates to False, the block is skipped entirely and execution continues with the next statement at the same indentation level as the if.",
+     "a": "conditional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a program for a school library that checks if a student's overdue fine exceeds ₹50 before blocking book issuance.",
+     "a": "writing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a program for a school library that checks if a student's overdue fine exceeds ₹______ before blocking book issuance.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) write syntactically correct if statements with proper colon and consistent indentation, (2) trace the execution flow using a flowchart for given input values, and (3) predict the output of code snippets containing single if statements with relational and logical operators.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are writing a program for a school library that checks if a student's overdue fine exceeds ₹50 before ______ book issuance.",
+     "a": "blocking",
+     "self_check": true
     }
    ]
   }

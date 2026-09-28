@@ -34,6 +34,36 @@
      "q": "**CREATE LEVEL:** Design a 5-question survey module to identify whether a respondent qualifies as a 'worker' per NCERT definition. Include filter questions for edge cases: (a) unpaid family farm helper, (b) student doing paid internship, (c) retired person doing occasional consulting, (d) homemaker selling homemade pickles occasionally, (e) person on 3-month medical leave from a regular job.",
      "a": "**Expected Criteria for Good Answer:**  \n1. **Core filter:** \"Did you engage in any activity for pay, profit, or family gain (in cash/kind) in the last 365 days?\" (Reference period alignment with PLFS)  \n2. **Edge-case probes:**  \n   - (a) \"Did you work on family farm/enterprise without wages?\" → If YES → Worker (self-employed helper)  \n   - (b) \"Was the internship stipend/paid?\" → If YES → Worker (casual/regular based on contract)  \n   - (c) \"Did you earn income from consulting?\" → If YES → Worker (self-employed)  \n   - (d) \"Did you sell pickles for money?\" → If YES → Worker (self-employed); if only gave away → Non-worker  \n   - (e) \"Do you have a job to return to?\" → If YES → Worker (temporarily absent)  \n3. **Status classifier:** \"In your main activity, were you (i) own-account/employer, (ii) regular salary, (iii) daily/casual wage?\"  \n4. **Hours threshold:** \"How many hours did you work in the last 7 days?\" (PLFS uses 1 hour/week for 'employed')  \n5. **Availability:** \"Were you available for work but did not find any?\" → Unemployed (next node)  \n**Poor Answer Reveals:** Missing the \"family gain\" clause (excludes unpaid family helpers), confusing stipend with salary, not handling temporary absence, or using weekly vs annual reference period inconsistently.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Economic activities are all human endeavours that contribute to the gross national product (GNP) through the production of goods and services for which payment is made or imputed; a worker is any person engaged in such economic activities in any capacity — as self-employed, regular salaried employee, or casual wage labourer — including those ______ absent from work due to illness, festivals, or other reasons, but excluding unpaid domestic work, begging, theft, or gambling.",
+     "a": "temporarily",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing at a busy chowk in your town at 8 AM: a ______ vendor arranging produce (self-employed), a bank clerk entering the branch (regular salaried), and daily-wage painters waiting near a hardware shop for a contractor (casual wage labourers).",
+     "a": "vegetable",
+     "self_check": true
+    },
+    {
+     "q": "What is Economic activities? State the definition given in this lesson.",
+     "a": "Economic activities are all human endeavours that contribute to the gross national product (GNP) through the production of goods and services for which payment is made or imputed; a worker is any person engaged in such economic activities in any capacity — as self-employed, regular salaried employee, or casual wage labourer — including.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing at a busy chowk in your town at ______ AM: a vegetable vendor arranging produce (self-employed), a bank clerk entering the branch (regular salaried), and daily-wage painters waiting near a hardware shop for a contractor (casual wage labourers).",
+     "a": "8",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Economic activities?",
+     "a": "Specific Error: Students believe \"self-employed = entrepreneur with capital and employees\" and \"casual worker = only construction/agricultural labour\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify any given individual's work status (self-employed / regular salaried / casual wage labourer / non-worker) using the NCERT criteria, compute the worker-population ratio from raw population and workforce data, and explain why unpaid household work by women is excluded from official worker counts despite.",
+     "self_check": true
     }
    ]
   }

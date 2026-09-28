@@ -4,15 +4,9 @@
   {
    "id": "c8m2.1.1",
    "title": "Linear Equation in One Variable",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the exponent law to the given powers",
-     "explain": "apply the exponent law to the given powers: val = 5 ** (3 + 2) gives 3125",
-     "compute": "val = 5 ** (3 + 2)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "linear equation in one variable: one variable, highest power = 1, e.g. 2x - 3 = 7",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 5^3 x 5^2.",
@@ -50,6 +44,8 @@
    "id": "c8m2.1.2",
    "title": "Solution of an Equation (LHS = RHS)",
    "converted_to_compute": false,
+   "formula": "solution check: LHS(a * value - b) == RHS(c) for a x - b = c",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two triangles are congruent. In triangle one the angles are 48 and 50 degrees; the third angle is what? (The third angles must match.)",
@@ -87,6 +83,8 @@
    "id": "c8m2.2.1",
    "title": "Solving Equations with the Variable on Both Sides",
    "converted_to_compute": false,
+   "formula": "a*x + b = c*x + d -> (a - c)*x = d - b -> x = (d - b) / (a - c)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 9 when x = 3.",
@@ -124,6 +122,8 @@
    "id": "c8m2.2.2",
    "title": "Transposing Terms",
    "converted_to_compute": false,
+   "formula": "a*x + b = c -> a*x = c - b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 5x + 1 = 51.",
@@ -160,15 +160,9 @@
   {
    "id": "c8m2.3.1",
    "title": "Reducing Equations to Simpler Form",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
-     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 2 * 1 gives 2",
-     "compute": "hcf = 2 * 1"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "multiply both sides by LCM of denominators, then transpose and divide",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 6 and 10 have HCF 2 with coprime multipliers 3 and 5. Verify by computing hcf = 2 x 1; then find the HCF value.",
@@ -205,15 +199,9 @@
   {
    "id": "c8m2.3.2",
    "title": "Solving Equations with Brackets",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute the given values and simplify",
-     "explain": "substitute the given values and simplify: val = 3 * 6 + 7 gives 25",
-     "compute": "val = 3 * 6 + 7"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "open brackets -> combine like terms -> transpose -> x = (d - b) / (a - c)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 7 when x = 6.",

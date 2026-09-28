@@ -34,6 +34,36 @@
      "q": "Design a state-level renewable energy transition plan for a hypothetical state \"X\" that has: (i) 280 clear-sky days/year, (ii) a 200 km coastline with average wind speed 6 m/s at 100 m, (iii) a broad estuary with 3 m tidal range, and (iv) 15% wasteland. Prioritise the three sources (solar, wind, tidal) with justification, and propose one policy measure for each to overcome the main geographical constraint.",
      "a": "Priority 1: Solar — 280 clear days and 15% wasteland favour utility-scale PV; constraint: dust deposition reducing efficiency by 15–25%; policy: mandate robotic waterless cleaning in solar park tenders. Priority 2: Wind — 6 m/s at 100 m is borderline (needs >7 m/s for Class 2 turbines); constraint: low wind shear; policy: incentivise taller towers (120–140 m) and low-wind-speed turbines (IEC Class 3/4) via viability gap funding. Priority 3: Tidal — 3 m range is below 5 m commercial threshold; constraint: insufficient hydraulic head; policy: fund R&D for ultra-low-head tidal turbines (e.g., 1–2 m range) and pilot in the estuary. A poor answer that treats all three equally or ignores the quantitative thresholds (5 m tidal, 7 m/s wind) reveals the student cannot apply viability criteria to new scenarios — a core application skill for competency questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Non-conventional energy sources are renewable, ______ energy resources that do not deplete with use and cause minimal environmental pollution; in the Indian context, solar energy (harnessed through photovoltaic cells and solar thermal devices), wind energy (captured via wind turbines in high-velocity zones), and tidal energy (generated from the rise and fall of sea water in coastal inlets like the Gulf of Kachchh and Gulf of Khambhat) are the three major commercially viable non-conventional sources identified by the Ministry of New and Renewable Energy.",
+     "a": "inexhaustible",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at your own rooftop or a neighbour's house — you have likely seen blue-black rectangular panels angled towards the sun; those are solar ______ panels converting sunlight directly into electricity.",
+     "a": "photovoltaic",
+     "self_check": true
+    },
+    {
+     "q": "What is Non-conventional energy sources? State the definition given in this lesson.",
+     "a": "Non-conventional energy sources are renewable, inexhaustible energy resources that do not deplete with use and cause minimal environmental pollution; in the Indian context, solar energy (harnessed through photovoltaic cells and solar thermal devices), wind energy (captured via wind turbines in high-velocity zones), and tidal energy.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Tidal energy is viable only in gulfs with high tidal range (amplitude > ______ m) and narrow inlets that funnel water — the Gulf of Kachchh and Gulf of Khambhat in Gujarat fit this perfectly due to their funnel-shaped geometry and macro-tidal regime.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Non-conventional energy sources?",
+     "a": "Students believe that \"India has huge tidal energy potential because it has a 7,500 km coastline\" — they confuse coastline length with tidal range and estuarine geometry.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the geographical factors determining the viability of solar, wind, and tidal energy in India, locate the major production regions on an outline map of India, and analyse why certain states lead in installed capacity using climatic and topographical reasoning.",
+     "self_check": true
     }
    ]
   }

@@ -142,7 +142,16 @@
      "explain": "Confirm the computed acid volume is in the same stoichiometric ratio as the base volumes, ensuring complete neutralisation.",
      "compute": "ratio = v_acid_needed / v_base_target"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "v_acid_needed = (v_base_target / v_base_initial) * v_acid_initial",
+     "compute": "v_acid_needed = (v_base_target / v_base_initial) * v_acid_initial"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.2.1.5",

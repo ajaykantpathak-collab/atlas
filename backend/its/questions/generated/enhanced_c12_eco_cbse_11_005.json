@@ -34,6 +34,31 @@
      "q": "Construct a hypothetical Union Budget scenario (with plausible Indian numbers in ₹ lakh crore) where: (a) Revenue Deficit > 0, (b) Fiscal Deficit > Revenue Deficit, (c) Primary Deficit < 0 (primary surplus). Explain the economic interpretation of this combination.",
      "a": "Example: RR = 30, RE = 35 ⇒ RD = 5. CE = 8, Non-debt CR = 2 ⇒ FD = (35+8) – (30+2) = 43 – 32 = 11. IP = 15 ⇒ PD = 11 – 15 = –4 (primary surplus). Interpretation: Government runs a revenue deficit (current spending > current income) but has a primary surplus because interest payments (15) exceed fiscal deficit (11). This means the government's own operations (excluding debt servicing) generate a surplus, but past debt burden forces overall borrowing. A poor answer giving PD > 0 when FD < IP reveals inability to handle negative primary deficit. Numbers must satisfy: IP > FD > RD > 0.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Revenue Deficit is the excess of government's revenue ______ over revenue receipts, indicating the government's inability to meet its day-to-day operational expenses from its current income.",
+     "a": "expenditure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing the Union Budget 2024-25 ______ by Finance Minister Nirmala Sitharaman.",
+     "a": "presented",
+     "self_check": true
+    },
+    {
+     "q": "What is Revenue Deficit? State the definition given in this lesson.",
+     "a": "Revenue Deficit is the excess of government's revenue expenditure over revenue receipts, indicating the government's inability to meet its day-to-day operational expenses from its current income.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Revenue Deficit?",
+     "a": "Students believe \"Primary Deficit = Revenue Deficit – Interest Payments\" because both involve 'deficit' and 'interest'.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can calculate all three deficits from a given government budget dataset, explain the economic implications of each deficit type, and distinguish between them using the relationship: Primary Deficit = Fiscal Deficit – Interest Payments; Fiscal Deficit = Revenue Deficit + Capital Expenditure – Non-debt Capital Receipts.",
+     "self_check": true
     }
    ]
   }

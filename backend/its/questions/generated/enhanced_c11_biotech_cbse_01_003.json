@@ -34,6 +34,36 @@
      "q": "Design a \"Biotechnology Timeline Card Game\" for Class 11 students where each card represents a milestone. Create 6 cards (3 traditional, 3 modern) with: (a) Year/Period, (b) Organism/System, (c) Product/Outcome, (d) Key Limitation (traditional) or Key Innovation (modern). Ensure the modern cards explicitly show the rDNA technology dependency.",
      "a": "**Traditional Cards:**\n1. **7000 BCE** | *Saccharomyces cerevisiae* (wild yeast) | Leavened bread (Egypt) | Uncontrollable fermentation; batch failure common\n2. **2000 BCE** | *Lactobacillus* spp. (in milk) | Dahi/yogurt (Indian subcontinent) | No starter standardisation; texture/flavour variability\n3. **1800s** | Selective breeding of *Triticum aestivum* | High-yield wheat varieties | Limited to sexual crosses; 10-15 years per variety\n\n**Modern Cards (rDNA-dependent):**\n4. **1982** | *E. coli* + human insulin gene (pBR322 vector) | Humulin® (recombinant human insulin) | **Innovation**: First FDA-approved rDNA drug; identical to human insulin, unlimited supply\n5. **1996** | *Bos taurus* somatic cell + nucleus transfer | Dolly the sheep (cloning) | **Innovation**: Nuclear transfer proved differentiated cell genome totipotency\n6. **2000** | *Oryza sativa* + *psy* (daffodil) + *crtI* (bacterium) genes | Golden Rice (β-carotene) | **Innovation**: Multi-gene pathway engineering across kingdoms (plant + bacterium)\n\nA poor answer lists events without the *limitation/innovation* contrast, or includes modern non-rDNA milestones (e.g., PCR invention, monoclonal antibodies) showing confusion about what defines \"modern biotechnology\" per NCERT (rDNA technology as the foundation).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Traditional biotechnology refers to the historical application of biological processes using whole organisms (______, plants, animals) without understanding the underlying molecular mechanisms, such as fermentation for bread, cheese, wine, and selective breeding.",
+     "a": "microorganisms",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ your grandmother making dahi (curd) by adding a spoonful of yesterday's dahi to warm milk — she knows it works but not *why* it works.",
+     "a": "Imagine",
+     "self_check": true
+    },
+    {
+     "q": "What is Traditional biotechnology? State the definition given in this lesson.",
+     "a": "Traditional biotechnology refers to the historical application of biological processes using whole organisms (microorganisms, plants, animals) without understanding the underlying molecular mechanisms, such as fermentation for bread, cheese, wine, and selective breeding.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by listing ______ traditional biotech products you use daily (bread, idli, cheese, wine, pickles).",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Traditional biotechnology?",
+     "a": "Students believe \"traditional biotechnology = old/low-tech, modern biotechnology = new/high-tech\" — a temporal/technological misconception.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to construct a comparative table distinguishing traditional and modern biotechnology across five dimensions (organism level vs molecular level, empirical vs rational design, limited vs unlimited gene transfer, low vs high precision, single-discipline vs multidisciplinary) and justify with specific examples from.",
+     "self_check": true
     }
    ]
   }

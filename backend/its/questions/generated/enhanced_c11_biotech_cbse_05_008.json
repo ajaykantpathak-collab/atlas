@@ -34,6 +34,31 @@
      "q": "Design a flow cytometry experiment using two fluorescent dyes to quantitatively distinguish early apoptotic, late apoptotic, necrotic, and viable cells in a mixed population. Specify the dyes, their targets, and the expected quadrant plot pattern for each population.",
      "a": "Use Annexin V-FITC (binds phosphatidylserine exposed on outer membrane leaflet) and Propidium Iodide (PI, intercalates DNA but only enters membrane-compromised cells). Quadrant plot (Annexin V x-axis, PI y-axis): Viable = Annexin V-/PI- (lower left); Early apoptotic = Annexin V+/PI- (lower right); Late apoptotic/secondary necrotic = Annexin V+/PI+ (upper right); Primary necrotic = Annexin V-/PI+ (upper left). A poor answer (using only one dye or wrong dye targets) shows inability to design a controlled assay distinguishing membrane asymmetry loss from membrane rupture.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Apoptosis is a genetically programmed, energy-dependent (ATP-requiring) process of controlled cell death ______ by distinct morphological changes including cell shrinkage, chromatin condensation, DNA fragmentation into nucleosomal units, membrane blebbing, and formation of apoptotic bodies that are phagocytosed by neighboring cells or macrophages without eliciting an inflammatory response.",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The answer lies in ______ – a cellular suicide program essential for sculpting tissues.",
+     "a": "apoptosis",
+     "self_check": true
+    },
+    {
+     "q": "What is Apoptosis? State the definition given in this lesson.",
+     "a": "Apoptosis is a genetically programmed, energy-dependent (ATP-requiring) process of controlled cell death characterized by distinct morphological changes including cell shrinkage, chromatin condensation, DNA fragmentation into nucleosomal units, membrane blebbing, and formation of apoptotic bodies that are phagocytosed by neighboring.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Apoptosis?",
+     "a": "Students often think apoptosis and necrosis are simply \"two types of cell death\" without recognizing that apoptosis is an active, ATP-driven suicidal program executed by caspases, while necrosis is passive, accidental death from energy collapse.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Describe the intrinsic (mitochondrial) and extrinsic (death receptor) apoptosis pathways with key molecular players (caspases, Bcl-2 family proteins, cytochrome c, death receptors, adaptors), (2) Contrast apoptosis with necrosis using at least five distinguishing features spanning morphology.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Create a real-life word problem (using rupees, metres, or kilograms) where increasing one quantity by 1 and decreasing another by 1 results in the product staying exactly the same. State the original numbers and verify.",
      "a": "Example: A rectangle has length 7 m and breadth 6 m. Area = 42 m². If length increases to 8 m and breadth decreases to 5 m, new area = 40 m² (not same). To stay same, we need (b - a) - 1 = 0 → b - a = 1. So choose consecutive numbers like 5 and 6. Problem: \"A farmer has 5 rows of 6 trees each (30 trees). He adds 1 row but removes 1 tree from each row. Now he has 6 rows of 5 trees = 30 trees.\" A poor answer uses non-consecutive numbers, showing the student hasn't grasped that the product stays same only when the factors differ by exactly 1.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When one factor in a product is increased by 1 and the other factor is decreased by 1, the new product equals the original product plus the ______ between the original factors minus 1.",
+     "a": "difference",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Now suppose the price ______ by ₹1 (₹16) but you buy one less notebook (11).",
+     "a": "increases",
+     "self_check": true
+    },
+    {
+     "q": "What is When one factor in a product? State the definition given in this lesson.",
+     "a": "When one factor in a product is increased by 1 and the other factor is decreased by 1, the new product equals the original product plus the difference between the original factors minus 1.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about When one factor in a product?",
+     "a": "Students often think that increasing one factor by 1 and decreasing the other by 1 leaves the product unchanged because \"+1 and -1 cancel out.\" They incorrectly apply additive reasoning to a multiplicative situation, forgetting that the distributive property produces cross terms (-a and +b) that do not cancel unless a = b.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the algebraic identity (a+1)(b-1) = ab + (b-a) - 1 using the distributive property, compute the exact change in product for given numbers, and explain why the product increases, decreases, or stays the same based on the relative sizes of the two factors.",
+     "self_check": true
     }
    ]
   }

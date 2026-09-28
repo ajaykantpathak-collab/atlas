@@ -34,6 +34,36 @@
      "q": "Design a scenario where a visually impaired user needs to interact with a computer system. Specify the essential output device(s) and explain how they would work together with a braille keyboard (input) to create a complete interaction loop.",
      "a": "Expected answer: Scenario: A visually impaired programmer writing and debugging Python code. Essential output devices: (1) Refreshable braille display (tactile line-by-line output of code/errors), (2) Screen reader with speaker/headphone (audio feedback for alerts, long texts). Interaction loop: User types on braille keyboard → computer processes → output sent to braille display (current line) and/or speaker (error messages) → user reads tactile/audio feedback → continues editing. A poor answer that only mentions a speaker without a braille display, or fails to describe the bidirectional loop, reveals inability to synthesize assistive technology concepts and the distinction between sequential audio and random-access tactile output.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Output devices are hardware components that receive processed digital data from a computer system and convert it into human-______ forms such as visual (monitor, projector), auditory (speaker, headphone), physical hardcopy (printer, 3D printer), or tactile (braille display) output.",
+     "a": "perceptible",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just written a Python program that ______ a beautiful fractal pattern and plays a victory sound.",
+     "a": "generates",
+     "self_check": true
+    },
+    {
+     "q": "What is Output devices? State the definition given in this lesson.",
+     "a": "Output devices are hardware components that receive processed digital data from a computer system and convert it into human-perceptible forms such as visual (monitor, projector), auditory (speaker, headphone), physical hardcopy (printer, 3D printer), or tactile (braille display) output.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Output devices are hardware components that receive processed digital data from a computer system and convert it into human-perceptible forms such as visual (monitor, projector), auditory (speaker, headphone), physical hardcopy (printer, ______D printer), or tactile (braille display) output.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Output devices?",
+     "a": "Students often think \"printer\" only means a 2D paper printer and forget that 3D printers are also output devices.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly classify any given output device into its functional category (visual, audio, hardcopy, tactile), explain the working principle of at least two printer types (inkjet, laser, dot matrix, 3D), and justify the selection of an appropriate output device for a specified real-world scenario with technical reasoning.",
+     "self_check": true
     }
    ]
   }

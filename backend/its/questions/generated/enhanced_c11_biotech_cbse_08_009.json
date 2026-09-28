@@ -34,6 +34,36 @@
      "q": "Design a pedigree for a family where a colour-blind woman has children with a normal-vision man. Show three generations with at least two affected individuals in generation III. Label all genotypes and phenotypes. Explain why this scenario is rarer than the reverse (colour-blind man × normal woman).",
      "a": "Generation I: Colour-blind woman (XⁿXⁿ) × Normal man (XᴺY). Generation II: All daughters XᴺXⁿ (carriers, normal vision); all sons XⁿY (colour-blind). Generation III: Carrier daughter (XᴺXⁿ) marries normal man (XᴺY) → 50% colour-blind sons (XⁿY), 50% carrier daughters (XᴺXⁿ). Colour-blind son (XⁿY) marries normal woman (XᴺXᴺ) → all daughters carriers, all sons normal. Affected individuals in Gen III: colour-blind sons from carrier daughter. This scenario is rarer because a colour-blind woman requires two mutant alleles (frequency q²), while a colour-blind man requires only one (frequency q). Since q < 1, q² << q. A poor answer that draws the pedigree correctly but says \"it's rarer because women have two X chromosomes\" without invoking allele frequency (Hardy-Weinberg) shows incomplete population genetics reasoning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: X-linked recessive disorders are genetic conditions caused by mutations in genes located on the X chromosome, where the mutant allele is recessive to the normal allele; males (XY) express the disorder with a single mutant allele, while females (XX) require two mutant alleles to be affected and are typically carriers when ______.",
+     "a": "heterozygous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a family where a grandfather has haemophilia, his daughter is ______ normal, but her son (the grandson) also has haemophilia.",
+     "a": "phenotypically",
+     "self_check": true
+    },
+    {
+     "q": "What is X-linked recessive disorders? State the definition given in this lesson.",
+     "a": "X-linked recessive disorders are genetic conditions caused by mutations in genes located on the X chromosome, where the mutant allele is recessive to the normal allele; males (XY) express the disorder with a single mutant allele, while females (XX) require two mutant alleles to be affected and are typically carriers when heterozygous.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A carrier daughter has a ______% chance of passing the mutant X to each child — sons who receive it will have haemophilia, daughters who receive it become carriers.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about X-linked recessive disorders?",
+     "a": "Students often believe that a carrier female (heterozygous for X-linked recessive) can never show any symptoms.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently construct and interpret pedigrees for X-linked recessive traits, calculate genotype/phenotype probabilities for offspring given parental genotypes, and explain why males are predominantly affected while females are predominantly carriers using meiotic segregation principles.",
+     "self_check": true
     }
    ]
   }

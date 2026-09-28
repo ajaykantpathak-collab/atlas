@@ -34,6 +34,36 @@
      "q": "Design a micro-irrigation plan for a 1-hectare farm in Tamil Nadu growing cotton (row spacing 90 cm, plant spacing 60 cm) with a borewell yielding 3 m³/hour. Specify: (a) drip or sprinkler, (b) number of laterals, (c) irrigation schedule (hours/day) for peak summer (crop water need 6 mm/day). Assume drip efficiency 90%.",
      "a": "(a) Drip irrigation (cotton is row crop with wide spacing). (b) 1 ha = 10,000 m². Row spacing 0.9 m → number of rows = 10,000/0.9 ≈ 111 rows. One lateral per row → 111 laterals. (c) Crop water need = 6 mm/day = 0.006 m/day. Gross depth = 0.006/0.9 = 0.00667 m. Volume = 10,000 × 0.00667 = 66.7 m³/day. Borewell yield 3 m³/h → hours = 66.7/3 ≈ 22.2 hours/day. A poor answer (choosing sprinkler, or miscalculating laterals) reveals inability to integrate crop geometry, water source capacity, and efficiency into a practical design.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Drip irrigation is a micro-irrigation system that delivers water directly to the root zone of plants through a network of valves, pipes, tubing, and emitters, minimizing ______ and runoff.",
+     "a": "evaporation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer in ______'s drought-prone Marathwada region who switches from flood irrigation to drip irrigation for his sugarcane crop and reduces water use by 60% while maintaining yield.",
+     "a": "Maharashtra",
+     "self_check": true
+    },
+    {
+     "q": "What is Drip irrigation? State the definition given in this lesson.",
+     "a": "Drip irrigation is a micro-irrigation system that delivers water directly to the root zone of plants through a network of valves, pipes, tubing, and emitters, minimizing evaporation and runoff.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer in Maharashtra's drought-prone Marathwada region who switches from flood irrigation to drip irrigation for his sugarcane crop and reduces water use by ______% while maintaining yield.",
+     "a": "60",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Drip irrigation?",
+     "a": "Students think drip irrigation is always better than sprinkler irrigation for all crops and terrains.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the working principle of drip and sprinkler irrigation, compare their water efficiency with conventional flood irrigation, and identify suitable crops and terrains for each method in the Indian context.",
+     "self_check": true
     }
    ]
   }

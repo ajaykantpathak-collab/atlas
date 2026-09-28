@@ -34,6 +34,26 @@
      "q": "Create a mathematical puzzle involving a sequence of four consecutive integers (starting with an odd number) where the sum of these four numbers is guaranteed to be even. Prove why your statement holds true using algebraic variables.",
      "a": "An example puzzle: Let the four consecutive integers start with an odd number $2k + 1$. The four numbers are $(2k + 1)$, $(2k + 2)$, $(2k + 3)$, and $(2k + 4)$. \nProof: Their sum is $(2k+1) + (2k+2) + (2k+3) + (2k+4) = 8k + 10 = 2(4k + 5)$. \nSince the sum can be factored as 2 times an integer, the total sum is always even. A poor answer fails to use algebraic expressions ($2k+1$) or provides a single numerical example without a general proof covering all consecutive integer sequences.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The sum and difference rules for even and odd numbers describe ______ patterns in parity (whether a number is even or odd) when performing addition, such as the fact that the sum of two even numbers is always even, while the sum of an even and an odd number is always odd.",
+     "a": "predictable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are organizing desks in your school ______ in rows of two, and you notice that if you have two rows with an even number of students and three rows with an odd number of students, will the total number of students be even or odd?",
+     "a": "auditorium",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can predict, justify, and algebraically prove the parity of the sum or difference of any combination of multiple even and odd integers, and apply these rules to solve number puzzles in real-world contexts.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ desks in your school auditorium in rows of two, and you notice that if you have two rows with an even number of students and three rows with an odd number of students, will the total number of students be even or odd?",
+     "a": "organizing",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Design a hypothetical 4-step computational workflow for a systems biology study of a metabolic pathway in *E. coli*, indicating at which steps programming (Python/R) is indispensable and why. Use terms from the textbook: \"network inference,\" \"simulation,\" \"parameter optimization,\" \"SBML.\"",
      "a": "Example workflow: (1) Data collection: RNA-seq + metabolomics → *Programming essential for parsing/normalizing heterogeneous formats (XML/SBML).* (2) Network inference: Build gene-reaction network → *R/Python for statistical inference (BANJO, MATLAB).* (3) Parameter optimization: Fit kinetic constants → *Python (SciPy) or MATLAB for solving PDEs via FEM.* (4) Simulation & validation: Predict flux under knockout → *Python/R for ODE/PDE simulation (COPASI, JSim) and sensitivity analysis (SBML-SAT).* A poor answer lists only wet-lab steps or omits the *automation/integration* role of code.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Programming in ______ refers to the use of computational languages and algorithms to store, retrieve, analyze, and visualize large-scale biological data (such as DNA/protein sequences, structures, and expression profiles) that cannot be managed manually, enabling the discovery of patterns, evolutionary relationships, and functional insights.",
+     "a": "bioinformatics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have just downloaded the ______ genome sequence of *Mycobacterium tuberculosis* (4.4 million base pairs) as a text file.",
+     "a": "complete",
+     "self_check": true
+    },
+    {
+     "q": "What is Programming in bioinformatics? State the definition given in this lesson.",
+     "a": "Programming in bioinformatics refers to the use of computational languages and algorithms to store, retrieve, analyze, and visualize large-scale biological data (such as DNA/protein sequences, structures, and expression profiles) that cannot be managed manually, enabling the discovery of patterns, evolutionary relationships, and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You need to find all genes starting with ATG, calculate GC content in sliding windows, and compare it with ______ other strains.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Programming in bioinformatics?",
+     "a": "Students often believe \"bioinformatics programming\" means *inventing new algorithms* (like writing a new alignment algorithm from scratch).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to articulate why high-throughput biological data necessitates programming, compare the specific strengths of Python and R for bioinformatics tasks, and explain how programming integrates with systems biology workflows (data management, network inference, simulation).",
+     "self_check": true
     }
    ]
   }

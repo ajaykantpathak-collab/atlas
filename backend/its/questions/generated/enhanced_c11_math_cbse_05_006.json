@@ -34,6 +34,31 @@
      "q": "Create a real-world problem (e.g., from electrical engineering or signal processing) where simplifying a high power of i is necessary. State the problem and solve it.",
      "a": "Example: In an AC circuit, the impedance of a capacitor is Z = 1/(iωC). If ωC = 1, find Z⁵. Solution: Z = 1/i = -i. Z⁵ = (-i)⁵ = (-i)⁴·(-i) = 1·(-i) = -i. A poor answer would give a trivial problem like \"find i¹⁰⁰\" without context, showing the student cannot connect the mathematics to applications.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The powers of the imaginary unit i (where i = √(-1)) follow a cyclic pattern of period 4: i¹ = i, i² = -1, i³ = -i, i⁴ = 1, and for any integer n, iⁿ = i^(n mod 4) with the ______ that i⁰ = 1 and i^(-k) = 1/(i^k) = (-i)^k for positive integer k.",
+     "a": "convention",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are calculating (2i)⁵ for a physics problem on ______ current.",
+     "a": "alternating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are calculating (______i)⁵ for a physics problem on alternating current.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can evaluate any integer power of i (positive, negative, or zero) by reducing the exponent modulo 4, explain why the cycle repeats every four powers, and apply this to simplify algebraic expressions containing powers of i.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ (2i)⁵ for a physics problem on alternating current.",
+     "a": "calculating",
+     "self_check": true
     }
    ]
   }

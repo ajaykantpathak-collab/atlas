@@ -5,10 +5,12 @@
    "id": "hegp.203.3.1",
    "title": "Checking Proportion by Cross Multiplication",
    "converted_to_compute": false,
+   "formula": "cross_ad = a * d; cross_bc = b * c",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 6 : 36 in its simplest form and give the first term of the simplest form.",
-     "a": "2",
+     "a": "1",
      "self_check": false
     },
     {
@@ -42,6 +44,8 @@
    "id": "hegp.203.3.2",
    "title": "Map Scales and Representative Fraction",
    "converted_to_compute": false,
+   "formula": "actual_km = map_cm * scale / 100000",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find 4 x 5/8.",
@@ -79,6 +83,8 @@
    "id": "hegp.203.3.3",
    "title": "Ratios with More than Two Terms",
    "converted_to_compute": false,
+   "formula": "unit = known_amount / known_term",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 6 : 27 in its simplest form and give the first term of the simplest form.",
@@ -116,10 +122,12 @@
    "id": "hegp.203.3.4",
    "title": "Dividing a Whole in a Given Ratio",
    "converted_to_compute": false,
+   "formula": "part = total / (t1 + t2 + t3)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 12 : 30 in its simplest form and give the first term of the simplest form.",
-     "a": "4",
+     "a": "2",
      "self_check": false
     },
     {
@@ -153,6 +161,8 @@
    "id": "hegp.203.3.5",
    "title": "Pie Chart Angles from Shares",
    "converted_to_compute": false,
+   "formula": "angle = share / total * 360",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 41 degrees, find the other.",
@@ -190,6 +200,8 @@
    "id": "hegp.203.3.6",
    "title": "Inverse Proportions (Speed and Time)",
    "converted_to_compute": false,
+   "formula": "time = distance / speed",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 20 : 35 in its simplest form and give the first term of the simplest form.",
@@ -227,6 +239,8 @@
    "id": "hegp.203.3.7",
    "title": "Direct Proportion (Rule of Three)",
    "converted_to_compute": false,
+   "formula": "d = b * c / a",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 2 : 24 in its simplest form and give the first term of the simplest form.",

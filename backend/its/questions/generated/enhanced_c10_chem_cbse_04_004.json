@@ -34,6 +34,31 @@
      "q": "Design a simple test using bromine water to distinguish between a sample of hexane (C₆H₁₄) and hex‑1‑ene (C₆H₁₂). Describe the observation and the chemical reason.",
      "a": "Add bromine water (orange‑brown) to each sample in separate test tubes. Hexane (alkane) shows no colour change — bromine water remains orange because alkanes do not react with bromine at room temperature without UV light. Hex‑1‑ene (alkene) decolourises bromine water immediately due to addition across the C=C bond forming a dibromoalkane. A poor answer that says “both decolourise” or “hexane reacts faster” confuses substitution (needs UV) with addition (occurs readily at room temperature).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ are organic compounds composed exclusively of carbon and hydrogen atoms.",
+     "a": "Hydrocarbons",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a kitchen LPG cylinder (mostly butane, an alkane), a candle flame (paraffin wax = long‑chain alkanes), a fruit‑ripening pouch (releases ethene, an alkene), and a welder’s torch (uses ethyne/acetylene, an alkyne).",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What is Hydrocarbons? State the definition given in this lesson.",
+     "a": "Hydrocarbons are organic compounds composed exclusively of carbon and hydrogen atoms.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Hydrocarbons?",
+     "a": "Students often think that “unsaturated” means the molecule has “empty space” or “can hold more hydrogen” in a vague sense, and they write the general formula of alkene as CₙH₂ₙ₊₂ (same as alkane) because they forget that each double bond reduces the hydrogen count by two relative to the saturated formula.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) write the molecular formula of any alkane, alkene, or alkyne given the number of carbon atoms, (2) draw the structural formula (showing all bonds) for the first four members of each series, and (3) distinguish saturated from unsaturated hydrocarbons by comparing their general formulas and bond types.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "A CREATE level question: Design a low-cost, low-tech intervention to help a non-literate, visually impaired rural woman access her MNREGA wage payment status on a feature phone (no smartphone, no internet). Describe the solution in 4 steps, specifying the technology used (USSD/IVR/SMS) and how it addresses both gender and disability barriers.",
      "a": "Solution: IVR-based callback system in local language. Step 1: Woman gives missed call to toll-free number (no cost, works on feature phone). Step 2: System calls back immediately (overcomes 'no credit' barrier). Step 3: IVR menu in her dialect with voice prompts: \"Press 1 for wage status, 2 for job card info\" (addresses visual impairment + non-literacy). Step 4: System reads out last payment date, amount, days worked (audio output). Addresses gender: no need to visit male-dominated kiosk; disability: no screen reading needed. Poor answer: suggests smartphone app — ignores device/internet constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Gender and disability issues in technology access refer to the systemic barriers that prevent women, girls, and persons with disabilities from equitably accessing, using, and benefiting from digital technologies, including ______ gaps, design exclusion, socio-cultural norms, affordability constraints, and lack of assistive technology support.",
+     "a": "infrastructure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking: \"Why does a visually impaired girl in a rural Indian village face different technology barriers than a visually impaired boy in an urban city?\" This triggers ______ thinking.",
+     "a": "intersectional",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) identify at least three distinct barriers each for gender and disability in technology access with Indian context examples, (2) explain how intersectionality compounds exclusion, and (3) propose one design or policy intervention for a given scenario that addresses both gender and disability inclusion.",
+     "self_check": true
     }
    ]
   }

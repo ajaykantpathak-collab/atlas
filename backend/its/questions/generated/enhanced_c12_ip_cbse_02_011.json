@@ -34,6 +34,21 @@
      "q": "Design a reusable function `export_dataframe(df, filepath, fmt='csv', **kwargs)` that exports `df` to CSV or Excel based on `fmt`, uses sensible defaults (no index, UTF-8 encoding, na_rep='NA'), and allows overriding any parameter via `kwargs`. Provide the complete function with docstring.",
      "a": "```python\ndef export_dataframe(df, filepath, fmt='csv', **kwargs):\n    \"\"\"\n    Export DataFrame to CSV or Excel with sensible defaults.\n    Parameters:\n        df (pd.DataFrame): DataFrame to export.\n        filepath (str): Output file path.\n        fmt (str): 'csv' or 'excel'.\n        **kwargs: Passed to to_csv/to_excel; overrides defaults.\n    \"\"\"\n    defaults = {'index': False, 'na_rep': 'NA'}\n    if fmt == 'csv':\n        defaults['encoding'] = 'utf-8'\n        defaults.update(kwargs)\n        df.to_csv(filepath, **defaults)\n    elif fmt == 'excel':\n        defaults.update(kwargs)\n        df.to_excel(filepath, **defaults)\n    else:\n        raise ValueError(\"fmt must be 'csv' or 'excel'\")\n```\nA poor answer hardcodes parameters, ignores `**kwargs`, or doesn't handle the two formats separately — showing lack of abstraction skill.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Exporting a pandas DataFrame to external storage formats using the to_csv() and to_excel() methods, which write the DataFrame's data, column headers, and row index to a comma-separated values (CSV) file or an Excel (.xlsx) file respectively, with configurable delimiters, header inclusion, index writing, and missing-value ______.",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have cleaned and analysed a dataset of Class 12 board exam results for 500 students in a ______ — now your principal needs the file in Excel to share with teachers who don't use Python.",
+     "a": "DataFrame",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently write Python code to export a given DataFrame to both CSV and Excel files, correctly choosing parameters (sep, header, index, na_rep, sheet_name) to match a specified output format, and can verify the exported file by reading it back or opening it in a spreadsheet.",
+     "self_check": true
     }
    ]
   }

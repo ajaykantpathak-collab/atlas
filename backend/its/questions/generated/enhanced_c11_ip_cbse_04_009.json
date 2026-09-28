@@ -32,7 +32,32 @@
     },
     {
      "q": "Design a dictionary to store a student's academic record where: (a) the student has a unique roll number, (b) multiple subjects with marks, (c) the structure allows O(1) retrieval of any subject's marks, and (d) the roll number itself is not a dictionary key but part of the value. Show the structure and explain how you'd retrieve Physics marks.",
-     "a": "```python\nstudent = {\n    \"roll_no\": 101,\n    \"name\": \"Priya\",\n    \"marks\": {\"Physics\": 95, \"Chemistry\": 88, \"Math\": 92}\n}",
+     "a": "```python\nstudent = {\n    \"roll_no\": 101,\n    \"name\": \"Priya\",\n    \"marks\": {\"Physics\": 95, \"Chemistry\": 88, \"Math\": 92}\n}\n# Retrieval:\nphysics_marks = student[\"marks\"][\"Physics\"]  # Two-step key access\n```\nA good answer shows nested dictionary for marks, uses roll_no as a value (not key), and explains the chained lookup. A poor answer (e.g., flat dictionary with keys like \"Physics_marks\") reveals inability to model hierarchical data or misuse of dictionary nesting.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ in Python is an ordered, mutable collection of key-value pairs where each unique immutable key maps to exactly one value, enabling direct access to values via their associated keys rather than positional indices.",
+     "a": "dictionary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to store ______ information for your classmates: each name (unique) maps to a phone number.",
+     "a": "contact",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight: keys replace indices as the lookup mechanism, making retrieval O(______) and code self-documenting.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can create a dictionary with mixed key-value types, explain why keys must be immutable and unique, correctly predict KeyError vs successful access for given keys, and distinguish dictionary access (by key) from list/tuple access (by index).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to store contact ______ for your classmates: each name (unique) maps to a phone number.",
+     "a": "information",
      "self_check": true
     }
    ]

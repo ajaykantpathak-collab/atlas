@@ -34,6 +34,26 @@
      "q": "Design a thought experiment to determine whether a macroscopic object (e.g., a car of mass 1000 kg moving at 30 m/s) could ever show measurable wave properties. What fundamental limitation would you encounter?",
      "a": "λ = 6.626×10⁻³⁴/(1000×30) ≈ 2.2×10⁻³⁸ m. To observe diffraction, slit width ~λ is needed, but this is 10²³ times smaller than Planck length (1.6×10⁻³⁵ m), where spacetime itself loses meaning. Even theoretically, quantum gravity effects dominate. A good answer recognises the Planck scale barrier; a poor answer just says \"too small\" without quantitative comparison.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: de Broglie's hypothesis states that all matter exhibits wave-particle duality: any particle with momentum *p* has an associated wavelength λ = *h*/*p* (where *h* is Planck's constant), meaning electrons and other ______ particles behave as both particles and waves.",
+     "a": "microscopic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how an ______ microscope in a biology lab can magnify viruses 15 million times while a light microscope maxes at ~2000×.",
+     "a": "electron",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Finally, show how Bohr's arbitrary angular momentum rule (mvr = nh/______π) emerges naturally when we require the electron wave to form a standing wave around the nucleus (circumference = nλ).",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive de Broglie's relation from photon momentum analogy, calculate wavelengths for microscopic and macroscopic objects, explain why macroscopic objects don't show observable wave properties, and connect the hypothesis to Bohr's angular momentum quantisation condition (2πr = nλ).",
+     "self_check": true
     }
    ]
   }

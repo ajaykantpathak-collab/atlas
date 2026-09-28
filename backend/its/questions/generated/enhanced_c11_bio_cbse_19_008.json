@@ -34,6 +34,31 @@
      "q": "Design a simple clinical decision flowchart (text-based) that a primary care physician could use to differentiate between: Cushing's syndrome (cortisol excess), Addison's disease (cortisol deficiency), and pheochromocytoma (catecholamine excess) based on 5 key clinical signs each.",
      "a": "Expected answer: A flowchart starting with \"Check BP\" → if hypertension + moon face + purple striae + hyperglycemia + central obesity → Cushing's; if hypotension + hyperpigmentation + hyponatremia + hyperkalemia + fatigue → Addison's; if paroxysmal hypertension + palpitations + sweating + headache + anxiety → pheochromocytoma. A poor answer listing vague symptoms without physiological basis (e.g., \"weight gain\" for all three) reveals inability to link hormone actions to specific clinical manifestations — students must connect cortisol's gluconeogenesis, mineralocorticoid effects, and catecholamine's adrenergic actions to distinct sign clusters.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Endocrine disorders are pathological conditions arising from abnormal hormone synthesis, secretion, transport, receptor binding, or target tissue response, leading to disruption of homeostasis; they are classified as hypersecretion (excess), hyposecretion (deficiency), or resistance (target tissue ______) disorders affecting specific glands or the entire hypothalamic-pituitary axis.",
+     "a": "unresponsiveness",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 35-year-old woman from Punjab visiting a ______ with unexplained weight gain, moon face, purple stretch marks on her abdomen, and high blood pressure — her doctor suspects a hormonal imbalance.",
+     "a": "clinic",
+     "self_check": true
+    },
+    {
+     "q": "What is Endocrine disorders? State the definition given in this lesson.",
+     "a": "Endocrine disorders are pathological conditions arising from abnormal hormone synthesis, secretion, transport, receptor binding, or target tissue response, leading to disruption of homeostasis; they are classified as hypersecretion (excess), hyposecretion (deficiency), or resistance (target tissue unresponsiveness) disorders affecting.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Endocrine disorders?",
+     "a": "Students believe \"goitre always means hypothyroidism\" — they see thyroid enlargement and assume low function.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can diagnose an endocrine disorder from a clinical case by identifying the hormone involved, the gland of origin, the type of dysfunction (hyper/hypo/resistance), the feedback loop disruption, and at least three characteristic symptoms with physiological explanations; student can also predict the metabolic consequences of.",
+     "self_check": true
     }
    ]
   }

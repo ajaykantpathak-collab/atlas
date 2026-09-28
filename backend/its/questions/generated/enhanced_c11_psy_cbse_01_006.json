@@ -34,6 +34,31 @@
      "q": "Design a mini-experiment (3 steps) that a behaviourist could use to demonstrate *stimulus generalisation* in a 5-year-old child's fear of white rats, following the logic of the Little Albert study (but ethically modified for a classroom demonstration using a neutral stimulus). Specify S, R, and the generalisation test.",
      "a": "Expected answer (criteria for good response):\n1. Acquisition: Pair neutral stimulus (white toy rabbit, S₁) with loud noise (S₂) → fear response (crying, withdrawal, R). Repeat 3-5 times.\n2. Test: Present white toy rabbit alone (S₁) → measure fear response (R).\n3. Generalisation test: Present *similar* stimuli (white cotton ball, white fur coat, Santa Claus mask) one at a time → record if fear response (R) occurs to each.\nGood answer must include: operational definition of R (e.g., \"crying duration > 2 sec\"), control for baseline fear, and explicit prediction that similarity gradient determines generalisation strength. Poor answer (e.g., \"show the child a rat and see if they cry\") reveals inability to operationalise variables or design a controlled S-R paradigm — a key competency for board practical exams.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Watson, defines psychology as the scientific study of observable and measurable behaviour (responses) elicited by ______ stimuli, rejecting introspection and the study of consciousness as unscientific.",
+     "a": "environmental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are watching a Class 11 student, Rohan, ______ and cover his ears instantly when a loud Diwali firecracker explodes nearby.",
+     "a": "flinch",
+     "self_check": true
+    },
+    {
+     "q": "What is Behaviourism, as founded by John B? State the definition given in this lesson.",
+     "a": "Watson, defines psychology as the scientific study of observable and measurable behaviour (responses) elicited by environmental stimuli, rejecting introspection and the study of consciousness as unscientific.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Behaviourism, as founded by John B?",
+     "a": "Students often believe \"Behaviourism ignores internal processes entirely\" and therefore think Watson would deny that *thinking* or *feeling* happens.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) explain why Watson rejected structuralism and introspection, (2) analyse a given real-life behaviour by identifying the antecedent stimulus (external or internal) and the consequent response (overt or covert), and (3) contrast the S-R approach with the functionalist focus on \"function of consciousness\" and.",
+     "self_check": true
     }
    ]
   }

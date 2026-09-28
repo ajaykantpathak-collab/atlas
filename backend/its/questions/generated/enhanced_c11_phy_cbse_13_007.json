@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a spring-mass system and a smartphone to measure the damping constant b of a mass oscillating in air. Describe the procedure, measurements needed, and how to extract b from the data. What assumption about the damping force are you making?",
      "a": "Procedure: (1) Hang a known mass m on a spring of known k. (2) Displace slightly and release. (3) Use smartphone accelerometer (e.g., Phyphox app) to record acceleration vs time. (4) Identify peak displacements x_n at successive maxima (or use zero-crossings for period). (5) Plot ln(x_n) vs time t_n at peaks. (6) Fit a straight line: slope = -b/2m → b = -2m × slope. (7) Verify linearity confirms viscous damping assumption. Assumption: damping force is viscous (F_d = -bv), i.e., proportional to velocity. A poor answer (e.g., \"measure time to stop\") reveals inability to design quantitative measurement and ignorance of exponential decay analysis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Damped simple harmonic motion is an oscillatory motion where the amplitude decreases ______ with time due to a dissipative damping force (typically viscous, proportional to velocity, F_d = -bv).",
+     "a": "exponentially",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a simple ______ swinging in air — it gradually slows down and stops, unlike the ideal SHM you studied where it would swing forever.",
+     "a": "pendulum",
+     "self_check": true
+    },
+    {
+     "q": "What is Damped simple harmonic motion? State the definition given in this lesson.",
+     "a": "Damped simple harmonic motion is an oscillatory motion where the amplitude decreases exponentially with time due to a dissipative damping force (typically viscous, proportional to velocity, F_d = -bv).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Apply Newton's second law to get mẍ + bẋ + kx = ______.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Damped simple harmonic motion?",
+     "a": "Students often think the damped frequency ω' = √(k/m - b²/4m²) is always less than the natural frequency ω₀ = √(k/m) by a significant amount, and that the period increases noticeably.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) derive the differential equation for a damped oscillator from Newton's second law, (2) distinguish between underdamped, critically damped, and overdamped cases using the discriminant b² - 4mk, (3) calculate the damped frequency, amplitude decay constant, and quality factor for a given system, and (4) explain why.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,233 @@
+{
+ "catalog": "catalog_class12_home_science_lehe203.json",
+ "concepts": [
+  {
+   "id": "lehe203.11",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "bed_count = 273",
+      "sets_per_bed = 94",
+      "pieces_per_set = 49",
+      "total_pieces = bed_count * sets_per_bed * pieces_per_set"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "bed_count = 54",
+      "sets_per_bed = 5.5",
+      "pieces_per_set = 59",
+      "total_pieces = bed_count * sets_per_bed * pieces_per_set"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "bed_count = 492",
+      "sets_per_bed = 53",
+      "pieces_per_set = 15.5",
+      "total_pieces = bed_count * sets_per_bed * pieces_per_set"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "bed_count = 126",
+      "sets_per_bed = 98",
+      "pieces_per_set = 80",
+      "total_pieces = bed_count * sets_per_bed * pieces_per_set"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "bed_count = 394",
+      "sets_per_bed = 90",
+      "pieces_per_set = 46",
+      "total_pieces = bed_count * sets_per_bed * pieces_per_set"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "bed_count = 254",
+      "sets_per_bed = 24",
+      "pieces_per_set = 77",
+      "total_pieces = bed_count * sets_per_bed * pieces_per_set"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_pieces = bed_count * sets_per_bed * pieces_per_set"
+   ]
+  },
+  {
+   "id": "lehe203.12",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "zone_beds = 89",
+      "changes_per_day = 76",
+      "sheets_daily = zone_beds * changes_per_day"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "zone_beds = 58",
+      "changes_per_day = 75",
+      "sheets_daily = zone_beds * changes_per_day"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "zone_beds = 54",
+      "changes_per_day = 22",
+      "sheets_daily = zone_beds * changes_per_day"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "zone_beds = 92",
+      "changes_per_day = 15.4",
+      "sheets_daily = zone_beds * changes_per_day"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "zone_beds = 28",
+      "changes_per_day = 25",
+      "sheets_daily = zone_beds * changes_per_day"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "zone_beds = 51",
+      "changes_per_day = 39",
+      "sheets_daily = zone_beds * changes_per_day"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "sheets_daily = zone_beds * changes_per_day"
+   ]
+  },
+  {
+   "id": "lehe203.13",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "moisture_removed_pct = 71",
+      "moisture_left = 100 - moisture_removed_pct"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "moisture_removed_pct = 76",
+      "moisture_left = 100 - moisture_removed_pct"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "moisture_removed_pct = 60",
+      "moisture_left = 100 - moisture_removed_pct"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "moisture_removed_pct = 16.3",
+      "moisture_left = 100 - moisture_removed_pct"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "moisture_removed_pct = 91",
+      "moisture_left = 100 - moisture_removed_pct"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "moisture_removed_pct = 56",
+      "moisture_left = 100 - moisture_removed_pct"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "moisture_left = 100 - moisture_removed_pct"
+   ]
+  },
+  {
+   "id": "lehe203.14",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "commercial_capacity = 39",
+      "domestic_capacity = 22",
+      "capacity_ratio = commercial_capacity / domestic_capacity"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "commercial_capacity = 16.4",
+      "domestic_capacity = 33",
+      "capacity_ratio = commercial_capacity / domestic_capacity"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "commercial_capacity = 9.2",
+      "domestic_capacity = 76",
+      "capacity_ratio = commercial_capacity / domestic_capacity"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "commercial_capacity = 33",
+      "domestic_capacity = 22",
+      "capacity_ratio = commercial_capacity / domestic_capacity"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "commercial_capacity = 54",
+      "domestic_capacity = 6.8",
+      "capacity_ratio = commercial_capacity / domestic_capacity"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "commercial_capacity = 2.1",
+      "domestic_capacity = 44",
+      "capacity_ratio = commercial_capacity / domestic_capacity"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "capacity_ratio = commercial_capacity / domestic_capacity"
+   ]
+  }
+ ]
+}

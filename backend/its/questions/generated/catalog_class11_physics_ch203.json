@@ -1,0 +1,475 @@
+{
+ "catalog": "catalog_class11_physics_ch203.json",
+ "concepts": [
+  {
+   "id": "keph.203.1",
+   "title": "Temperature Scale Conversion between Celsius and Fahrenheit",
+   "converted_to_compute": true,
+   "formula": "t_F = (9/5) * t_C + 32",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "t_F = (9/5) * t_C + 32",
+     "compute": "t_F = (9/5) * t_C + 32"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Temperature Scale Conversion between Celsius and Fahrenheit: given t_C = 84, find t F.",
+     "a": "183.2",
+     "self_check": false
+    },
+    {
+     "q": "For Temperature Scale Conversion between Celsius and Fahrenheit: given t_C = 83, find t F.",
+     "a": "181.4",
+     "self_check": false
+    },
+    {
+     "q": "For Temperature Scale Conversion between Celsius and Fahrenheit: given t_C = 119, find t F.",
+     "a": "246.2",
+     "self_check": false
+    },
+    {
+     "q": "For Temperature Scale Conversion between Celsius and Fahrenheit: given t_C = 65, find t F.",
+     "a": "149",
+     "self_check": false
+    },
+    {
+     "q": "For Temperature Scale Conversion between Celsius and Fahrenheit: given t_C = 39, find t F.",
+     "a": "102.2",
+     "self_check": false
+    },
+    {
+     "q": "For Temperature Scale Conversion between Celsius and Fahrenheit: given t_C = 64, find t F.",
+     "a": "147.2",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.203.2",
+   "title": "Kelvin and Celsius Absolute Temperature Relation",
+   "converted_to_compute": true,
+   "formula": "T = t_C + 273.15",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "T = t_C + 273.15",
+     "compute": "T = t_C + 273.15"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Kelvin and Celsius Absolute Temperature Relation: given t_C = 42, find T.",
+     "a": "315.15",
+     "self_check": false
+    },
+    {
+     "q": "For Kelvin and Celsius Absolute Temperature Relation: given t_C = 34, find T.",
+     "a": "307.15",
+     "self_check": false
+    },
+    {
+     "q": "For Kelvin and Celsius Absolute Temperature Relation: given t_C = 25, find T.",
+     "a": "298.15",
+     "self_check": false
+    },
+    {
+     "q": "For Kelvin and Celsius Absolute Temperature Relation: given t_C = 119, find T.",
+     "a": "392.15",
+     "self_check": false
+    },
+    {
+     "q": "For Kelvin and Celsius Absolute Temperature Relation: given t_C = 92, find T.",
+     "a": "365.15",
+     "self_check": false
+    },
+    {
+     "q": "For Kelvin and Celsius Absolute Temperature Relation: given t_C = 49, find T.",
+     "a": "322.15",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.203.3",
+   "title": "Linear Thermal Expansion",
+   "converted_to_compute": true,
+   "formula": "delta_l = alpha_l * l * delta_T",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "delta_l = alpha_l * l * delta_T",
+     "compute": "delta_l = alpha_l * l * delta_T"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Linear Thermal Expansion: given alpha_l = 25, l = 3.1, delta_T = 101, find delta l.",
+     "a": "7827.5",
+     "self_check": false
+    },
+    {
+     "q": "For Linear Thermal Expansion: given alpha_l = 34, l = 36, delta_T = 66, find delta l.",
+     "a": "80784",
+     "self_check": false
+    },
+    {
+     "q": "For Linear Thermal Expansion: given alpha_l = 41, l = 19.5, delta_T = 104, find delta l.",
+     "a": "83148",
+     "self_check": false
+    },
+    {
+     "q": "For Linear Thermal Expansion: given alpha_l = 8.4, l = 92, delta_T = 104, find delta l.",
+     "a": "80371.2",
+     "self_check": false
+    },
+    {
+     "q": "For Linear Thermal Expansion: given alpha_l = 22, l = 17.4, delta_T = 116, find delta l.",
+     "a": "44404.8",
+     "self_check": false
+    },
+    {
+     "q": "For Linear Thermal Expansion: given alpha_l = 82, l = 33, delta_T = 36, find delta l.",
+     "a": "97416",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.203.4",
+   "title": "Volume Thermal Expansion",
+   "converted_to_compute": true,
+   "formula": "delta_V = alpha_v * V * delta_T",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "delta_V = alpha_v * V * delta_T",
+     "compute": "delta_V = alpha_v * V * delta_T"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Volume Thermal Expansion: given alpha_v = 117, V = 26, delta_T = 50, find delta V.",
+     "a": "152100",
+     "self_check": false
+    },
+    {
+     "q": "For Volume Thermal Expansion: given alpha_v = 76, V = 38, delta_T = 97, find delta V.",
+     "a": "280136",
+     "self_check": false
+    },
+    {
+     "q": "For Volume Thermal Expansion: given alpha_v = 96, V = 23, delta_T = 22, find delta V.",
+     "a": "48576",
+     "self_check": false
+    },
+    {
+     "q": "For Volume Thermal Expansion: given alpha_v = 43, V = 93, delta_T = 69, find delta V.",
+     "a": "275931",
+     "self_check": false
+    },
+    {
+     "q": "For Volume Thermal Expansion: given alpha_v = 93, V = 92, delta_T = 41, find delta V.",
+     "a": "350796",
+     "self_check": false
+    },
+    {
+     "q": "For Volume Thermal Expansion: given alpha_v = 12.2, V = 60, delta_T = 50, find delta V.",
+     "a": "36600",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.203.5",
+   "title": "Thermal Stress in Rigidly Fixed Rods",
+   "converted_to_compute": true,
+   "formula": "thermal_stress = Y * alpha_l * delta_T",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "thermal_stress = Y * alpha_l * delta_T",
+     "compute": "thermal_stress = Y * alpha_l * delta_T"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Thermal Stress in Rigidly Fixed Rods: given Y = 44, alpha_l = 98, delta_T = 41, find thermal stress.",
+     "a": "176792",
+     "self_check": false
+    },
+    {
+     "q": "For Thermal Stress in Rigidly Fixed Rods: given Y = 72, alpha_l = 39, delta_T = 47, find thermal stress.",
+     "a": "131976",
+     "self_check": false
+    },
+    {
+     "q": "For Thermal Stress in Rigidly Fixed Rods: given Y = 2, alpha_l = 87, delta_T = 22, find thermal stress.",
+     "a": "3828",
+     "self_check": false
+    },
+    {
+     "q": "For Thermal Stress in Rigidly Fixed Rods: given Y = 37, alpha_l = 86, delta_T = 120, find thermal stress.",
+     "a": "381840",
+     "self_check": false
+    },
+    {
+     "q": "For Thermal Stress in Rigidly Fixed Rods: given Y = 59, alpha_l = 71, delta_T = 76, find thermal stress.",
+     "a": "318364",
+     "self_check": false
+    },
+    {
+     "q": "For Thermal Stress in Rigidly Fixed Rods: given Y = 25, alpha_l = 49, delta_T = 62, find thermal stress.",
+     "a": "75950",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.203.6",
+   "title": "Heat Capacity and Specific Heat Capacity",
+   "converted_to_compute": true,
+   "formula": "Q = m * s * delta_T",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "Q = m * s * delta_T",
+     "compute": "Q = m * s * delta_T"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Heat Capacity and Specific Heat Capacity: given m = 11.9, s = 72, delta_T = 54, find Q.",
+     "a": "46267.2",
+     "self_check": false
+    },
+    {
+     "q": "For Heat Capacity and Specific Heat Capacity: given m = 60, s = 43, delta_T = 80, find Q.",
+     "a": "206400",
+     "self_check": false
+    },
+    {
+     "q": "For Heat Capacity and Specific Heat Capacity: given m = 62, s = 33, delta_T = 53, find Q.",
+     "a": "108438",
+     "self_check": false
+    },
+    {
+     "q": "For Heat Capacity and Specific Heat Capacity: given m = 33, s = 61, delta_T = 85, find Q.",
+     "a": "171105",
+     "self_check": false
+    },
+    {
+     "q": "For Heat Capacity and Specific Heat Capacity: given m = 70, s = 92, delta_T = 50, find Q.",
+     "a": "322000",
+     "self_check": false
+    },
+    {
+     "q": "For Heat Capacity and Specific Heat Capacity: given m = 49, s = 26, delta_T = 20, find Q.",
+     "a": "25480",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.203.7",
+   "title": "Principle of Calorimetry",
+   "converted_to_compute": true,
+   "formula": "heat_lost = heat_gained",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "heat_lost = heat_gained",
+     "compute": "heat_lost = heat_gained"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Principle of Calorimetry: given heat_gained = 85, find heat lost.",
+     "a": "85",
+     "self_check": false
+    },
+    {
+     "q": "For Principle of Calorimetry: given heat_gained = 47, find heat lost.",
+     "a": "47",
+     "self_check": false
+    },
+    {
+     "q": "For Principle of Calorimetry: given heat_gained = 56, find heat lost.",
+     "a": "56",
+     "self_check": false
+    },
+    {
+     "q": "For Principle of Calorimetry: given heat_gained = 65, find heat lost.",
+     "a": "65",
+     "self_check": false
+    },
+    {
+     "q": "For Principle of Calorimetry: given heat_gained = 90, find heat lost.",
+     "a": "90",
+     "self_check": false
+    },
+    {
+     "q": "For Principle of Calorimetry: given heat_gained = 82, find heat lost.",
+     "a": "82",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.203.8",
+   "title": "Latent Heat of Phase Change",
+   "converted_to_compute": true,
+   "formula": "Q = m * L",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "Q = m * L",
+     "compute": "Q = m * L"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Latent Heat of Phase Change: given m = 83, L = 43, find Q.",
+     "a": "3569",
+     "self_check": false
+    },
+    {
+     "q": "For Latent Heat of Phase Change: given m = 47, L = 73, find Q.",
+     "a": "3431",
+     "self_check": false
+    },
+    {
+     "q": "For Latent Heat of Phase Change: given m = 69, L = 7, find Q.",
+     "a": "483",
+     "self_check": false
+    },
+    {
+     "q": "For Latent Heat of Phase Change: given m = 33, L = 45, find Q.",
+     "a": "1485",
+     "self_check": false
+    },
+    {
+     "q": "For Latent Heat of Phase Change: given m = 59, L = 10.7, find Q.",
+     "a": "631.3",
+     "self_check": false
+    },
+    {
+     "q": "For Latent Heat of Phase Change: given m = 7.7, L = 12.8, find Q.",
+     "a": "98.56",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.203.9",
+   "title": "Thermal Conduction Rate in Steady State",
+   "converted_to_compute": true,
+   "formula": "H = K * A * delta_T / L",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "H = K * A * delta_T / L",
+     "compute": "H = K * A * delta_T / L"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Thermal Conduction Rate in Steady State: given K = 18.1, A = 10.1, delta_T = 85, L = 50, find H.",
+     "a": "310.777",
+     "self_check": false
+    },
+    {
+     "q": "For Thermal Conduction Rate in Steady State: given K = 69, A = 96, delta_T = 96, L = 49, find H.",
+     "a": "12977.6",
+     "self_check": false
+    },
+    {
+     "q": "For Thermal Conduction Rate in Steady State: given K = 71, A = 70, delta_T = 108, L = 18.3, find H.",
+     "a": "29331.1",
+     "self_check": false
+    },
+    {
+     "q": "For Thermal Conduction Rate in Steady State: given K = 76, A = 66, delta_T = 53, L = 13.6, find H.",
+     "a": "19547.6",
+     "self_check": false
+    },
+    {
+     "q": "For Thermal Conduction Rate in Steady State: given K = 97, A = 32, delta_T = 57, L = 29, find H.",
+     "a": "6100.97",
+     "self_check": false
+    },
+    {
+     "q": "For Thermal Conduction Rate in Steady State: given K = 59, A = 12.2, delta_T = 33, L = 13.7, find H.",
+     "a": "1733.82",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.203.11",
+   "title": "Stefan Boltzmann Law of Radiation",
+   "converted_to_compute": true,
+   "formula": "H = emissivity * 5.67e-8 * A * T**4",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "H = emissivity * 5.67e-8 * A * T**4",
+     "compute": "H = emissivity * 5.67e-8 * A * T**4"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Stefan Boltzmann Law of Radiation: given emissivity = 9.3, A = 61, T = 61, find H.",
+     "a": "445.364",
+     "self_check": false
+    },
+    {
+     "q": "For Stefan Boltzmann Law of Radiation: given emissivity = 78, A = 20, T = 59, find H.",
+     "a": "1071.8",
+     "self_check": false
+    },
+    {
+     "q": "For Stefan Boltzmann Law of Radiation: given emissivity = 56, A = 60, T = 81, find H.",
+     "a": "8200.92",
+     "self_check": false
+    },
+    {
+     "q": "For Stefan Boltzmann Law of Radiation: given emissivity = 48, A = 51, T = 31, find H.",
+     "a": "128.186",
+     "self_check": false
+    },
+    {
+     "q": "For Stefan Boltzmann Law of Radiation: given emissivity = 38, A = 39, T = 45, find H.",
+     "a": "344.573",
+     "self_check": false
+    },
+    {
+     "q": "For Stefan Boltzmann Law of Radiation: given emissivity = 71, A = 4.2, T = 76, find H.",
+     "a": "564.086",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_eco_ch4_3",
+ "concepts": [
+  {
+   "id": "enh:c9_eco_ch4_3",
+   "title": "c9_eco_ch4_3",
+   "questions": [
+    {
+     "q": "What is the formula for simple interest, and what does each variable represent?",
+     "a": "The formula is SI = (P × R × T) / 100, where P = Principal (original amount), R = Rate of interest per annum (in %), T = Time period in years. A wrong answer (e.g., confusing R as decimal, omitting division by 100, or using amount instead of principal) reveals the student memorised the formula without understanding the role of each variable — especially that R is a percentage, not a decimal.",
+     "self_check": true
+    },
+    {
+     "q": "Why does compound interest earn more than simple interest over the same period, even at the same rate?",
+     "a": "Because in compound interest, the interest earned in each period is added to the principal, so the next period’s interest is calculated on a larger base — this is \"interest on interest.\" In simple interest, the base (principal) never changes. A student who says \"compound interest is applied more times\" or \"the rate is higher\" misunderstands the mechanism — it’s not frequency or rate, but the *growing principal* that causes the difference.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the simple interest and compound interest (annually) on ₹5,000 at 6% per annum for 2 years. Find the difference between the two amounts.",
+     "a": "Step 1: SI = (5000 × 6 × 2) / 100 = ₹600 → Amount = ₹5,600\nStep 2: Year 1 CI: Interest = (5000 × 6) / 100 = ₹300 → New P = ₹5,300\nYear 2 CI: Interest = (5300 × 6) / 100 = ₹318 → Total CI = ₹618 → Amount = ₹5,618\nStep 3: Difference = ₹5,618 – ₹5,600 = ₹18\nA student who gets ₹0 difference likely used simple interest for both. One who gets ₹618 as CI but forgets to add principal shows confusion between interest and amount.",
+     "self_check": true
+    },
+    {
+     "q": "Rahul borrows ₹20,000 at 10% p.a. for 3 years. The bank offers two options: (A) Simple interest, (B) Compound interest compounded annually. Which option is better for Rahul? Explain with calculations.",
+     "a": "Option A (SI): SI = (20000 × 10 × 3)/100 = ₹6,000 → Total to repay = ₹26,000\nOption B (CI): Year 1: Int = ₹2,000 → P = ₹22,000; Year 2: Int = ₹2,200 → P = ₹24,200; Year 3: Int = ₹2,420 → Total CI = ₹6,620 → Total to repay = ₹26,620\nSimple interest is better for the *borrower* (Rahul) because he pays less. A student who picks compound interest thinks \"compounding is always better\" — not realizing it benefits the *lender*, not the borrower. This reveals confusion about perspective (saver vs borrower).",
+     "self_check": true
+    },
+    {
+     "q": "A bank advertises: \"Double your money in 10 years with compound interest!\" Is this claim realistic at 7% p.a. compounded annually? Justify your answer.",
+     "a": "Using A = P(1 + 7/100)^10 = P(1.07)^10 ≈ P × 1.967 → Amount ≈ 1.967P, not 2P. So money grows to ~1.97 times, not double. At 7%, doubling takes ~10.24 years (Rule of 72: 72/7 ≈ 10.3). The claim is slightly exaggerated. A student who says \"yes, because 7×10=70≈100\" is applying simple interest logic to compound interest — a classic misconception. They must evaluate using the correct formula, not mental shortcuts.",
+     "self_check": true
+    },
+    {
+     "q": "Design a savings plan for a Class 9 student who gets ₹500 monthly pocket money and wants to save for a ₹10,000 bicycle in 2 years. Use compound interest (assume 4% p.a. compounded annually on yearly savings). Show how much they need to save each year and the final amount.",
+     "a": "Annual savings = ₹500 × 12 = ₹6,000. But they only need ₹10,000 in 2 years.\nYear 1: Save ₹6,000 → earns interest for 1 year: 6000 × 1.04 = ₹6,240\nYear 2: Save another ₹6,000 → no interest (end of period)\nTotal = ₹6,240 + ₹6,000 = ₹12,240 > ₹10,000 → They can save less.\nLet annual saving = x. Then x(1.04) + x = 10,000 → 2.04x = 10,000 → x ≈ ₹4,902/year ≈ ₹409/month.\nA poor answer just says \"save ₹500/month\" without checking if it’s enough or using interest. A good answer models the timeline, applies compounding only to Year 1 savings, and solves for required saving — showing financial planning competency.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

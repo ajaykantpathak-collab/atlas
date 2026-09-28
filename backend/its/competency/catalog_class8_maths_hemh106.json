@@ -24,9 +24,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "multiply by itself twice",
+    {
+     "step": 1,
+     "action": "multiply by itself twice",
      "explain": "n times n times n gives the cube.",
-     "compute": "cube = n * n * n"}
+     "compute": "cube = n * n * n"
+    }
    ]
   },
   {
@@ -45,15 +48,33 @@
     "state the pattern connecting cubes and odd numbers",
     "find the sum of the required consecutive odd numbers for the given cube"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "count the terms",
-     "explain": "The cube of n needs exactly n consecutive odd numbers."},
-    {"step": 2, "action": "locate the starting odd",
-     "explain": "Each cube's run of odd numbers starts just past the previous cube's run."},
-    {"step": 3, "action": "check the total",
-     "explain": "Adding the run reproduces the cube."}
-   ]
+    {
+     "step": 1,
+     "action": "count the terms",
+     "explain": "The cube of n needs exactly n consecutive odd numbers."
+    },
+    {
+     "step": 2,
+     "action": "locate the starting odd",
+     "explain": "Each cube's run of odd numbers starts just past the previous cube's run."
+    },
+    {
+     "step": 3,
+     "action": "check the total",
+     "explain": "Adding the run reproduces the cube."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "add the first n odd numbers, whose total is n x n",
+     "explain": "add the first n odd numbers, whose total is n x n: sq = 5 * 5 gives 25",
+     "compute": "sq = 5 * 5"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hemh.106.6.3",
@@ -71,15 +92,33 @@
     "find the smallest multiple of the given number that is a perfect cube",
     "what cube does the corrected number become"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "factorise into primes",
-     "explain": "Write the number as a product of prime factors."},
-    {"step": 2, "action": "group in triples",
-     "explain": "Complete triples confirm cube-hood; leftovers do not."},
-    {"step": 3, "action": "name the multiplier",
-     "explain": "Multiply or divide by the primes that complete or clear the broken triples."}
-   ]
+    {
+     "step": 1,
+     "action": "factorise into primes",
+     "explain": "Write the number as a product of prime factors."
+    },
+    {
+     "step": 2,
+     "action": "group in triples",
+     "explain": "Complete triples confirm cube-hood; leftovers do not."
+    },
+    {
+     "step": 3,
+     "action": "name the multiplier",
+     "explain": "Multiply or divide by the primes that complete or clear the broken triples."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "cube or un-cube the given number with the cube rules",
+     "explain": "cube or un-cube the given number with the cube rules: cube = 2 ** 3 gives 8",
+     "compute": "cube = 2 ** 3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hemh.106.6.4",
@@ -99,9 +138,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "take the cube root",
+    {
+     "step": 1,
+     "action": "take the cube root",
      "explain": "Raising to the one-third power undoes the cube.",
-     "compute": "edge = number ** (1 / 3)"}
+     "compute": "edge = number ** (1 / 3)"
+    }
    ]
   }
  ],
@@ -116,9 +158,12 @@
     "n": "the number to cube"
    },
    "solution_template": [
-    {"step": 1, "action": "multiply by itself twice",
+    {
+     "step": 1,
+     "action": "multiply by itself twice",
      "explain": "n cubed is n times n times n.",
-     "compute": "cube = n * n * n"}
+     "compute": "cube = n * n * n"
+    }
    ]
   },
   {
@@ -131,9 +176,12 @@
     "n": "edge of the cube"
    },
    "solution_template": [
-    {"step": 1, "action": "multiply by itself twice",
+    {
+     "step": 1,
+     "action": "multiply by itself twice",
      "explain": "The unit cube count is n cubed.",
-     "compute": "cube = n * n * n"}
+     "compute": "cube = n * n * n"
+    }
    ]
   },
   {
@@ -146,9 +194,12 @@
     "number": "the given perfect cube"
    },
    "solution_template": [
-    {"step": 1, "action": "take the cube root",
+    {
+     "step": 1,
+     "action": "take the cube root",
      "explain": "The one-third power undoes the cube.",
-     "compute": "edge = number ** (1 / 3)"}
+     "compute": "edge = number ** (1 / 3)"
+    }
    ]
   },
   {
@@ -161,9 +212,12 @@
     "number": "volume of the cube"
    },
    "solution_template": [
-    {"step": 1, "action": "take the cube root",
+    {
+     "step": 1,
+     "action": "take the cube root",
      "explain": "The edge is the cube root of the volume.",
-     "compute": "edge = number ** (1 / 3)"}
+     "compute": "edge = number ** (1 / 3)"
+    }
    ]
   }
  ],
@@ -172,18 +226,18 @@
    "id": "ex6.1",
    "source_ref": "hemh106.txt EXERCISE 6.1",
    "questions": [
-     "Which of the given numbers are not perfect cubes?",
-     "Find the smallest number by which 243 must be multiplied to get a perfect cube.",
-     "State true or false: there is no perfect cube that ends with 8."
+    "Which of the given numbers are not perfect cubes?",
+    "Find the smallest number by which 243 must be multiplied to get a perfect cube.",
+    "State true or false: there is no perfect cube that ends with 8."
    ]
   },
   {
    "id": "ex6.2",
    "source_ref": "hemh106.txt EXERCISE 6.2",
    "questions": [
-     "Find the cube root of each of the given numbers by prime factorisation.",
-     "Find the cube root of 175616.",
-     "Find the cube root of 17576 through estimation."
+    "Find the cube root of each of the given numbers by prime factorisation.",
+    "Find the cube root of 175616.",
+    "Find the cube root of 17576 through estimation."
    ]
   }
  ]

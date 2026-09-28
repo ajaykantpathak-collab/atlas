@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_09_004",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_09_004",
+   "title": "c12_app_cbse_09_004",
+   "questions": [
+    {
+     "q": "State the formula for the periodic deposit R required to accumulate a sum A over n periods at interest rate i per period, assuming deposits are made at the end of each period. Define every variable.",
+     "a": "Correct answer: R = A × i / [(1+i)ⁿ - 1], where R = periodic deposit, A = target accumulated amount, i = interest rate per period (decimal), n = number of periods. A wrong answer (e.g., using present value formula P = R[1-(1+i)⁻ⁿ]/i or forgetting the -1 in denominator) reveals the student is memorizing formulas without understanding the derivation from future value of annuity: A = R[(1+i)ⁿ - 1]/i.",
+     "self_check": true
+    },
+    {
+     "q": "A company sets up a sinking fund to repay a ₹1 crore debt in 5 years. Deposits are made at the beginning of each year. The fund earns 8% p.a. compounded annually. A student writes: R = 1,00,00,000 × 0.08 / [(1.08)⁵ - 1]. Is this correct? Explain why or why not.",
+     "a": "Incorrect. The student used the ordinary annuity (end-of-period) formula, but deposits are at the beginning of each period (annuity due). For annuity due, each deposit earns interest for one extra period, so the future value factor is multiplied by (1+i). Correct formula: R = A × i / {[(1+i)ⁿ - 1](1+i)}. The error reveals the student doesn't distinguish between payment timing — a critical distinction in board exams (1 mark for identifying annuity type, 1 mark for correct formula).",
+     "self_check": true
+    },
+    {
+     "q": "A machine costs ₹80,000 today. It will be replaced in 6 years. The scrap value will be ₹8,000. A new machine then will cost ₹1,10,000. A sinking fund is set up with quarterly deposits earning 12% p.a. compounded quarterly. Calculate the quarterly deposit. (Show all steps: find target amount, i, n, then R.)",
+     "a": "Target amount A = Replacement cost - Scrap value = 1,10,000 - 8,000 = ₹1,02,000. i = 12%/4 = 3% = 0.03 per quarter. n = 6 × 4 = 24 quarters. Deposits at end of each quarter (ordinary annuity unless stated otherwise). R = A × i / [(1+i)ⁿ - 1] = 1,02,000 × 0.03 / [(1.03)²⁴ - 1] = 3,060 / [2.03279 - 1] = 3,060 / 1.03279 ≈ ₹2,962.80. A wrong answer using n=6 or i=0.12 reveals confusion between annual and periodic rates — a classic JEE/board trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare: Sinking Fund vs. Savings Account. A student says: \"Both are the same because you deposit money regularly in both.\" Analyze this statement and identify exactly two fundamental differences with respect to purpose, time horizon, and usage flexibility.",
+     "a": "The statement is incorrect. Difference 1: Purpose specificity — sinking fund is for a *specific, predetermined* future obligation (e.g., debt repayment, asset replacement); savings account has *no fixed purpose*. Difference 2: Time horizon — sinking fund has a *fixed maturity date* aligned with the obligation; savings account has *no fixed maturity*. Difference 3 (bonus): Usage flexibility — sinking fund money is *earmarked and usually cannot be withdrawn* for other purposes; savings account allows *anytime withdrawal*. Missing any of these shows superficial understanding — boards ask \"differentiate\" as a 2-3 mark question.",
+     "self_check": true
+    },
+    {
+     "q": "A firm needs ₹50 lakh in 8 years. It can invest at 10% p.a. compounded annually. The finance manager proposes: \"Let's deposit ₹4.5 lakh at the end of each year.\" Evaluate this proposal. Is the annual deposit sufficient, excessive, or insufficient? Justify with calculation.",
+     "a": "Required R = 50,00,000 × 0.10 / [(1.10)⁸ - 1] = 5,00,000 / [2.14359 - 1] = 5,00,000 / 1.14359 ≈ ₹4,37,218. Proposed ₹4.5 lakh > ₹4,37,218, so it is **excessive** (by ~₹12,782 per year). Over 8 years, the firm would over-contribute ~₹1 lakh. A student calling it \"sufficient\" likely approximated (1.10)⁸ ≈ 2 and got R ≈ 5 lakh — revealing dangerous rounding habits. Boards/JEE require precise (1+i)ⁿ calculation.",
+     "self_check": true
+    },
+    {
+     "q": "Create a real-world sinking fund scenario for a small business (e.g., a bakery, a transport company) with: (a) a specific asset to replace, (b) current cost, (c) expected life, (d) scrap value, (e) replacement cost inflation assumption, (f) interest rate and compounding frequency. Write the complete problem statement and solve for the periodic deposit.",
+     "a": "Sample answer: \"A bakery owns a commercial oven bought for ₹2,00,000. Life: 7 years. Scrap value: ₹20,000. Oven prices rise 5% p.a. Sinking fund earns 9% p.a. compounded semi-annually. Deposits at end of each half-year. Find half-yearly deposit.\" Solution: Replacement cost = 2,00,000 × (1.05)⁷ ≈ ₹2,81,420. Target A = 2,81,420 - 20,000 = ₹2,61,420. i = 4.5% = 0.045, n = 14. R = 2,61,420 × 0.045 / [(1.045)¹⁴ - 1] ≈ ₹14,200. A poor answer uses current cost as replacement cost (ignores inflation) or mismatches compounding frequency — showing inability to synthesize multi-step real-world constraints.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

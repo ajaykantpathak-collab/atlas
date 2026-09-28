@@ -12,7 +12,7 @@
     },
     {
      "q": "Explain why the BAC-to-BAC (hierarchical) sequencing strategy was chosen over whole-genome shotgun sequencing for the public HGP effort, despite being slower.",
-     "a": "BAC-to-BAC used mapped bacterial artificial chromosome clones as anchors, ensuring each sequenced fragment had a known chromosomal location. This minimized misassembly in repetitive regions (centromeres, telomeres, segmental duplications) which constitute >50% of the genome. Whole-genome shotgun (used by Celera) assembles purely by sequence overlap and struggles with repeats. A wrong answer claiming \"BAC was faster\" or \"shotgun cannot handle large genomes\" shows confusion: shotgun is faster but less accurate for repeat-rich eukaryotic genomes; the public project prioritized accuracy for a reference standard.",
+     "a": "(1) The anchor advantage — each sequenced BAC clone had a known chromosomal location, so every fragment landed where it belonged, (2) The repeat problem — over half the genome is repeats such as centromeres, telomeres and segmental duplications, where overlap-only assembly misplaces sequence, (3) The shotgun trade-off — whole-genome shotgun assembles purely by sequence overlap, faster but less accurate in repeat-rich eukaryotic genomes, (4) The priority — the public project chose slower mapped-clone sequencing because a reference standard demanded accuracy. A wrong answer claiming BAC was faster, or that shotgun cannot handle large genomes at all, misses that this was an accuracy-versus-speed choice.",
      "self_check": true
     },
     {
@@ -33,6 +33,26 @@
     {
      "q": "Design a stepwise strategy to identify the causal mutation for a rare autosomal recessive disorder in a consanguineous Indian family using HGP-derived resources. Specify the databases and tools you would use at each step.",
      "a": "Step 1: Perform whole-exome sequencing (WES) on affected siblings and parents. Step 2: Align reads to GRCh38 reference genome (NCBI/Ensembl) using BWA; call variants with GATK. Step 3: Filter for rare (gnomAD allele frequency <0.001), homozygous, protein-altering variants shared by affecteds. Step 4: Prioritize variants in genes expressed in relevant tissue (GTEx portal) and with known disease association (OMIM, ClinVar). Step 5: Validate by Sanger sequencing; assess pathogenicity via ACMG guidelines. A poor answer that skips population-frequency filtering or uses outdated hg19 coordinates shows lack of translational genomics workflow knowledge — increasingly tested in CUET/NEET PG.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Human Genome Project (HGP) was an ______ scientific research project (1990–2003) with the primary goal of determining the complete sequence of nucleotide base pairs that make up human DNA and identifying and mapping all human genes from both a physical and functional standpoint.",
+     "a": "international",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Think about how a doctor today can order a genetic test to check if you carry a mutation for ______ or breast cancer risk — that test exists because we have a reference human genome sequence.",
+     "a": "thalassemia",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe that the human genome is ~______ billion base pairs long — far too large to sequence in one go.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can list the five major goals of HGP, explain the two sequencing methodologies used (BAC-to-BAC and whole-genome shotgun), state three salient features of the human genome revealed by HGP, and describe at least four applications in medicine, agriculture, and forensics with specific examples.",
      "self_check": true
     }
    ]

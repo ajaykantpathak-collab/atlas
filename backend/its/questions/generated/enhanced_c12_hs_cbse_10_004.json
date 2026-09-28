@@ -34,6 +34,21 @@
      "q": "Design a 3-meal balanced menu for a 9-month-old infant (RDA: 700 kcal, 14g protein, 350mg calcium, 5mg iron) using ONLY home-available foods (no commercial formulas). Specify quantities in grams/ml, ensure at least 3 food groups per meal, and explain how you addressed the \"energy density vs gastric capacity\" conflict.",
      "a": "Sample answer: Meal 1 (breakfast): 50g ragi porridge (cooked in 100ml milk + 5g jaggery) — 2 food groups (cereal, milk). Meal 2 (lunch): 30g rice + 15g moong dal + 20g carrot + 5g ghee, mashed — 4 food groups. Meal 3 (dinner): 30g wheat dalia + 10g egg yolk + 20g pumpkin + 5g oil — 4 food groups. Totals: ~720 kcal, 15g protein, 380mg Ca, 5.5mg Fe. Energy density addressed by: (1) adding 5g fat/oil per meal (45 kcal, 5ml volume) — fat gives 9 kcal/g vs 4 for cereal; (2) using malted ragi (amylase-rich) to reduce viscosity, allowing thicker porridge with more calories per ml; (3) including egg yolk (nutrient-dense, soft texture). A poor answer gives only thin gruels, ignores fat addition, or uses commercial cerelac.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A balanced diet is a ______ planned combination of foods from all ICMR food groups (cereals/millets, pulses/legumes, milk/meat, vegetables, fruits, fats/oils, sugar/jaggery) that provides energy, protein, essential fats, vitamins, minerals, and fiber in proportions matching the ICMR Recommended Dietary Allowances (RDA) for a specific age, sex, physiological state, and activity level, ensuring optimal growth, maintenance, repair, and disease prevention.",
+     "a": "scientifically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a dietitian asked to plan a day's meals for three clients: a 10-month-old infant, a 14-year-old ______ girl, and a 70-year-old man with reduced appetite.",
+     "a": "adolescent",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Calculate the number of servings from each ICMR food group required to meet the RDA for energy, protein, fat, calcium, iron, and vitamin A for any given age group (infant, preschool, school-age, adolescent, adult, elderly) and activity level; (2) Justify the inclusion/exclusion of specific food items in a.",
+     "self_check": true
     }
    ]
   }

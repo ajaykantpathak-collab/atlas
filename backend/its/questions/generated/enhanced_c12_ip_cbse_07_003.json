@@ -34,6 +34,31 @@
      "q": "Design a short decision flowchart (text-based) that a security analyst could use to classify an unknown malware sample into one of the five types using only observable behavior: propagation method, payload action, and user interaction level.",
      "a": "```\nSTART\n├─ Does it self-replicate without user action?\n│   ├─ YES → Does it encrypt files and demand ransom?\n│   │   ├─ YES → WORM-RANSOMWARE HYBRID (e.g., WannaCry)\n│   │   └─ NO → WORM\n│   └─ NO → Does it require a host program to replicate?\n│       ├─ YES → VIRUS\n│       └─ NO → Does it disguise as legitimate software to trick installation?\n│           ├─ YES → TROJAN\n│           └─ NO → Does it secretly collect/exfiltrate data?\n│               ├─ YES → SPYWARE\n│               └─ NO → UNKNOWN (further analysis needed)\n```\nA good answer must include branching on *autonomous propagation* first, then *host-dependency*, then *deception*, then *data exfiltration*, and acknowledge hybrids.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Malware (malicious software) is a program or code designed to infiltrate, damage, or gain ______ access to a computer system without the user's informed consent.",
+     "a": "unauthorized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive an email with an ______ named \"Invoice_GST.pdf.exe\".",
+     "a": "attachment",
+     "self_check": true
+    },
+    {
+     "q": "What is Malware (malicious software)? State the definition given in this lesson.",
+     "a": "Malware (malicious software) is a program or code designed to infiltrate, damage, or gain unauthorized access to a computer system without the user's informed consent.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Malware (malicious software)?",
+     "a": "Students often believe \"trojan\" and \"virus\" are interchangeable terms for any malware, or that ransomware is a propagation method rather than a payload category.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish each malware type by its propagation method, payload behavior, and dependency on host programs, and (2) given a real-world incident description, correctly classify the malware and justify the classification with at least two technical characteristics.",
+     "self_check": true
     }
    ]
   }

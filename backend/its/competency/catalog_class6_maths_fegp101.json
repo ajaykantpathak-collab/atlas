@@ -22,7 +22,7 @@
     "how do patterns help in shopping or cooking",
     "list three number patterns you know"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -39,7 +39,16 @@
      "action": "check the answer",
      "explain": "Verify by reversing or re-counting, then conclude."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the circle formula with pi = 22/7",
+     "explain": "apply the circle formula with pi = 22/7: circ = 2 * 22 / 7 * 28 gives 176",
+     "compute": "circ = 2 * 22 / 7 * 28"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.1.2",
@@ -121,7 +130,7 @@
     "draw the next figure in the growing square pattern",
     "count the number of small squares in the 5th figure of a pattern"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -138,7 +147,16 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "count the pairs the relation must contain",
+     "explain": "count the pairs the relation must contain: count = 5 gives 5",
+     "compute": "count = 5"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

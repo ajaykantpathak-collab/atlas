@@ -34,6 +34,31 @@
      "q": "Draw a figure that is a quadrilateral but is neither a parallelogram nor a trapezium. Describe its properties.",
      "a": "A kite or a generic irregular quadrilateral. The answer should explain that it has four sides but lacks parallel sides. A poor answer would be drawing a triangle or a shape with more than four sides.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ is a closed two-dimensional shape formed by four straight line segments (sides) and four interior angles, where the sum of these interior angles is always 360 degrees.",
+     "a": "quadrilateral",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever looked at a school playground or a ______ frame and noticed how many different four-sided shapes there are?",
+     "a": "window",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A quadrilateral is a closed two-dimensional shape formed by four straight line segments (sides) and four interior angles, where the sum of these interior angles is always ______ degrees.",
+     "a": "360",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify, name, and categorize quadrilaterals based on their specific properties (parallel sides and equal angles) and calculate a missing angle using the sum-of-angles rule.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever looked at a school ______ or a window frame and noticed how many different four-sided shapes there are?",
+     "a": "playground",
+     "self_check": true
     }
    ]
   }

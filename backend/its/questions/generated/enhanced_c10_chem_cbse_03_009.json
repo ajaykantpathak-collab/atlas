@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using school lab equipment to prove that an unknown white crystalline solid is ionic. List steps, observations, and conclusions.",
      "a": "Steps: (1) Test physical state — observe if solid at room temp. (2) Solubility — add to water and kerosene; note if dissolves in water only. (3) Conductivity — test solid with electrodes (no glow), then dissolve in water and test (glow), then melt a small amount in crucible and test (glow). Conclusion: solid, water-soluble, conducts when molten/aqueous → ionic. A poor answer misses melting test or uses only one property.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ionic compounds are crystalline solids composed of positively charged cations and negatively charged anions held together by strong ______ forces in a three-dimensional lattice; they exist as formula units (e.g., NaCl, MgO) not discrete molecules, and their properties arise from this rigid ionic lattice structure.",
+     "a": "electrostatic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a student sprinkling table salt (NaCl) on food — it's a white ______ solid that dissolves instantly in water but not in oil.",
+     "a": "crystalline",
+     "self_check": true
+    },
+    {
+     "q": "What is Ionic compounds? State the definition given in this lesson.",
+     "a": "Ionic compounds are crystalline solids composed of positively charged cations and negatively charged anions held together by strong electrostatic forces in a three-dimensional lattice; they exist as formula units (e.g., NaCl, MgO) not discrete molecules, and their properties arise from this rigid ionic lattice structure.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Ionic compounds?",
+     "a": "Students often write \"ionic compounds conduct electricity because they have free electrons\" — confusing ionic conduction (mobile ions) with metallic conduction (delocalized electrons).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain why ionic compounds are solid at room temperature, dissolve in polar solvents like water but not in non-polar solvents, and conduct electricity only in molten or aqueous state — linking each property to the presence of mobile/fixed ions in the lattice.",
+     "self_check": true
     }
    ]
   }

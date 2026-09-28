@@ -34,6 +34,16 @@
      "q": "Construct two different real functions \\(f\\) and \\(g\\) such that \\((fg)(x) = x^2 - 9\\) and \\(\\text{dom}(f) \\cap \\text{dom}(g) = \\mathbb{R}\\). State your functions and verify.",
      "a": "Example: \\(f(x) = x+3\\), \\(g(x) = x-3\\). Then \\((fg)(x) = (x+3)(x-3) = x^2 - 9\\). Both domains are \\(\\mathbb{R}\\), intersection is \\(\\mathbb{R}\\). Another valid pair: \\(f(x)=x^2-9\\), \\(g(x)=1\\). A poor answer might give \\(f(x)=\\sqrt{x+3}\\), \\(g(x)=\\sqrt{x-3}\\) which have restricted domains, or might not verify the product.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This is exactly the algebra of functions — combining functions using ______ operations.",
+     "a": "arithmetic",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute the sum, difference, product, and quotient of two given real functions, correctly determine the domain of each resulting function, and evaluate the combined function at specific points.",
+     "self_check": true
     }
    ]
   }

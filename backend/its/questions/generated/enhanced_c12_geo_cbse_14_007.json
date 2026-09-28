@@ -34,6 +34,21 @@
      "q": "Design a locational decision matrix for a proposed complex fertiliser plant (producing NPK grades) that integrates raw material sources (gas, rock phosphate, sulphur, ammonia), infrastructure (pipeline, rail, port), and market (major consuming states). List five criteria with weights (sum=100) and explain the top-weighted criterion.",
      "a": "Criteria & weights: (1) Feedstock security (gas + ammonia) – 30%, (2) Rock phosphate/sulphur logistics – 20%, (3) Water availability – 15%, (4) Rail/port connectivity for dispatch – 20%, (5) Proximity to high-demand states – 15%. Top criterion: feedstock security because gas/ammonia constitute the largest variable cost and supply disruption halts production entirely. A matrix that weights market proximity highest ignores the capital-intensive, feedstock-driven nature of the industry.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The chemical and fertiliser industry in India comprises the production of inorganic chemicals (soda ash, caustic soda, sulphuric acid), organic chemicals (______, synthetic fibres, plastics), and nitrogenous, phosphatic, potassic, and complex fertilisers, with location driven by proximity to raw materials (natural gas, naphtha, phosphate rock, limestone), market access, power, water, and transport corridors.",
+     "a": "petrochemicals",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bag of urea ______ used in a nearby farm — it likely came from a plant that uses natural gas as feedstock.",
+     "a": "fertiliser",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the locational factors for at least three major chemical/fertiliser clusters in India, differentiate between feedstock types (naphtha vs natural gas) for fertiliser plants, and analyse the impact of government policies (Nutrient Based Subsidy, gas pooling) on industry distribution.",
+     "self_check": true
     }
    ]
   }

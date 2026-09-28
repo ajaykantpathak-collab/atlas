@@ -34,6 +34,26 @@
      "q": "Design a simple drawing rule (algorithm) that a Class 6 student could follow to create a statistically self-similar tree on paper. The rule must include randomness. Write the rule in 3-4 steps.",
      "a": "Example rule: 1) Draw a vertical trunk of length 10 cm. 2) At the top, draw 2 or 3 branches (choose randomly) at angles between 20° and 50° from the trunk, each branch length = 0.6 × trunk length (multiply by a random factor between 0.5 and 0.7). 3) Repeat step 2 for each new branch, stopping when branch length < 1 cm. 4) Add small random wiggles to each segment. A poor answer (e.g., \"draw a tree with branches\") lacks algorithmic precision, randomness specification, or stopping condition — showing inability to translate the concept into a generative process.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A fractal is a geometric shape that exhibits self-______ across different scales, meaning any small part of the shape resembles the whole shape either exactly or approximately.",
+     "a": "similarity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at a picture of a fern leaf and a ______ of India (like the Konkan coast).",
+     "a": "coastline",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify self-similarity in at least three distinct natural objects (e.g., fern, tree, coastline, river network, cauliflower) and explain why the pattern qualifies as statistically self-similar rather than exactly self-similar.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A fractal is a geometric shape that exhibits self-similarity across different scales, meaning any small part of the shape resembles the whole shape either exactly or ______.",
+     "a": "approximately",
+     "self_check": true
     }
    ]
   }

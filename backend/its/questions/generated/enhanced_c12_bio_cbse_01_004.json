@@ -34,6 +34,31 @@
      "q": "Design a simple observation-based activity to demonstrate that pre-fertilization, fertilization, and post-fertilization are sequential and interdependent phases in a flowering plant. Specify the plant, the observable stages, and what failure at each phase would look like.",
      "a": "Use a hibiscus plant in your garden. Observe and record over 2 weeks: (Pre-fertilization) Check anthers for pollen release (tap anther on dark paper — yellow dust = viable pollen); if anthers are shriveled or empty, gametogenesis failed. (Fertilization) Hand-pollinate some flowers, leave others unpollinated; after 24 hours, check stigma for pollen germination (use magnifying glass); no pollen tubes = fertilization failure. (Post-fertilization) Track pollinated flowers: ovary should swell within 3–5 days; if ovary withers and falls off, post-fertilization development failed. A poor answer like \"watch the plant grow\" lacks phase-specific checkpoints; another weak answer uses only one flower and cannot distinguish which phase failed. The activity must isolate each phase with a visible indicator.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sexual reproduction is a biological process involving the formation and fusion of male and female gametes to form a zygote, which develops into a new organism; it comprises three sequential phases — pre-fertilization (______ and gamete transfer), fertilization (syngamy), and post-fertilization (zygote development and embryogenesis) — each phase ensuring genetic variation through meiosis and random fertilization.",
+     "a": "gametogenesis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a mango tree in your neighbourhood during ______ season — you see thousands of flowers, but only a few become fruits.",
+     "a": "flowering",
+     "self_check": true
+    },
+    {
+     "q": "What is Sexual reproduction? State the definition given in this lesson.",
+     "a": "Sexual reproduction is a biological process involving the formation and fusion of male and female gametes to form a zygote, which develops into a new organism; it comprises three sequential phases — pre-fertilization (gametogenesis and gamete transfer), fertilization (syngamy), and post-fertilization (zygote development and.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Sexual reproduction?",
+     "a": "Students often believe that \"pre-fertilization\" only means pollination in plants and mating in animals, forgetting that gametogenesis (meiosis) is the *first and essential* event of this phase.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) list the three phases of sexual reproduction in correct sequence and name the key event defining each phase, (2) explain why meiosis is essential in pre-fertilization and how it links to genetic variation, (3) distinguish between external and internal fertilization with one animal example each, and (4) describe the.",
+     "self_check": true
     }
    ]
   }

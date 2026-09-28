@@ -21,7 +21,7 @@
      "self_check": true
     },
     {
-     "q": "Compare these two loops. Which has an infinite loop risk and which has an off-by-one error? Explain.\n```python",
+     "q": "Compare these two loops. Which has an infinite loop risk and which has an off-by-one error? Explain.\n```python\n# Loop A\ni = 1\nwhile i <= 5:\n    print(i)\n# Loop B\nfor k in range(5):\n    print(k + 1)\n```",
      "a": "Loop A has an infinite loop risk because `i` is never incremented, so `i <= 5` stays true forever. Loop B correctly prints 1 to 5 (no off-by-one). A wrong answer (e.g., saying Loop B misses 5) reveals confusion between `range(n)` giving 0..n-1 and the effect of adding 1 inside the loop. The student fails to trace the control variable's actual values.",
      "self_check": true
     },
@@ -33,6 +33,26 @@
     {
      "q": "Design a `while` loop that prints even numbers from 2 to 20 inclusive. Include a deliberate off-by-one error in the condition, then explain how to fix it.",
      "a": "Example error: `while num < 20:` with `num=2` and `num+=2` prints up to 18. Fix: change to `while num <= 20:`. A poor answer (e.g., using `for` loop instead, or not explaining why `<` fails) reveals the student cannot deliberately construct and articulate the boundary condition error, meaning they lack metacognitive awareness of the inclusive/exclusive distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An infinite loop occurs when a loop's termination condition never becomes false due to missing or incorrect update of the loop control variable, causing the program to execute ______.",
+     "a": "indefinitely",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you write a program to ______ the sum of first 10 natural numbers, but your output is 55 instead of 55?",
+     "a": "calculate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An off-by-one error is a boundary condition mistake where a loop executes one iteration too many or too few, typically caused by incorrect range limits (e.g., using range(n) when range(n+______) is needed) or wrong relational operators in the condition (e.g., <= instead of <).",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can trace a given loop's execution flow, identify whether it will terminate correctly, detect off-by-one errors by comparing expected vs actual iteration counts, and rewrite the loop with corrected boundary conditions or update statements.",
      "self_check": true
     }
    ]

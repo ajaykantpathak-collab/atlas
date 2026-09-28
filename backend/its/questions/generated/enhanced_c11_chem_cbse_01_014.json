@@ -34,6 +34,36 @@
      "q": "Design a procedure to determine the mole fraction of water in a commercial vinegar sample (approximately 5% acetic acid by mass) using only a balance, volumetric flask, and density measurement. What additional data would you need?",
      "a": "Measure density of vinegar. Take 100 g sample (≈ 5 g CH₃COOH, 95 g H₂O). Moles CH₃COOH = 5/60 = 0.0833 mol. Moles H₂O = 95/18 = 5.278 mol. χ_H₂O = 5.278/(5.278+0.0833) = 0.984. Additional data needed: molar masses of acetic acid (60 g/mol) and water (18 g/mol). A poor answer omits the mass-to-mole conversion or tries to use volume directly without density, showing inability to connect measurable quantities to mole amounts.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Molality (m) is defined as the amount of solute in moles per kilogram of solvent, ______ as m = n(solute) / mass(solvent in kg).",
+     "a": "expressed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Think of making chai: you add sugar (solute) to water (______) and heat it.",
+     "a": "solvent",
+     "self_check": true
+    },
+    {
+     "q": "What is Molality (m)? State the definition given in this lesson.",
+     "a": "Molality (m) is defined as the amount of solute in moles per kilogram of solvent, expressed as m = n(solute) / mass(solvent in kg).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mole fraction (χ) of a component is the ratio of its mole amount to the total mole amount of all components in the mixture, expressed as χ_A = n_A / (n_A + n_B + ...), and is dimensionless with the sum of mole fractions of all components equaling ______.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Molality (m)?",
+     "a": "Students confuse \"mass of solvent\" with \"mass of solution\" in molality calculations.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate molality and mole fraction from given mass/volume data, convert between molarity, molality, and mole fraction using density, and identify which concentration term is temperature-independent for a given problem context.",
+     "self_check": true
     }
    ]
   }

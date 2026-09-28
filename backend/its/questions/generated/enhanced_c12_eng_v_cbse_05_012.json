@@ -34,6 +34,26 @@
      "q": "Create an original inferential question on \"On the Face of It\" that tests a student's ability to connect a *stage direction* to a *character's internal state*, and provide a model answer with the three-step inference chain.",
      "a": "**Question**: \"The stage direction '[Derry laughs a lot]' appears after Mr Lamb's story of the man locked in a room. What does this laughter reveal about Derry's shifting attitude toward Mr Lamb? Support with textual evidence.\"  \n**Model Answer**:  \nStep 1 (Clue): The laughter follows a *darkly comic* story where fear of life leads to death by a falling picture — Mr Lamb uses absurdity to puncture Derry's self-pity.  \nStep 2 (Reasoning): Derry's laughter signals he *recognizes the irony* and momentarily *drops his defensive guard* (\"But... you still say peculiar things\" — he engages, doesn't flee).  \nStep 3 (Conclusion): The laughter marks the *first moment of genuine connection* — Derry responds to Mr Lamb's *wit*, not his pity, foreshadowing his later choice to return.  \nA poor answer would quote Derry's line \"You still say peculiar things\" and call it \"friendship\", missing that the *stage direction* (laughter) is the *primary evidence* of internal shift — a nuance board examiners specifically reward.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal comprehension questions require students to retrieve ______ explicitly stated in the text (who, what, where, when), while inferential comprehension questions demand logical deductions based on textual evidence, context, and implied meaning (why, how, what might happen next).",
+     "a": "information",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're sitting in the exam hall and the first question reads: \"Why does Derry climb the garden wall instead of using the gate?\" A literal question would ask \"How does Derry enter the garden?\" — the answer is right there in Mr Lamb's line: \"Only you climbed the garden wall.\" But *this* question asks *why*, forcing you to infer Derry's ______, his expectation of rejection, and his desire to avoid being seen.",
+     "a": "isolation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently distinguish between literal and inferential question types, locate precise textual evidence for literal answers, and construct inferential answers using a three-step chain: textual clue → logical reasoning → justified conclusion, with each step explicitly linked to the play's dialogue or stage directions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're sitting in the exam hall and the first question reads: \"Why does Derry climb the garden wall instead of using the gate?\" A literal question would ask \"How does Derry enter the garden?\" — the answer is right there in Mr Lamb's line: \"Only you climbed the garden wall.\" But *this* question asks *why*, forcing you to infer Derry's isolation, his ______ of rejection, and his desire to avoid being seen.",
+     "a": "expectation",
+     "self_check": true
     }
    ]
   }

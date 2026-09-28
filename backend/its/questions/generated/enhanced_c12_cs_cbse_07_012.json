@@ -34,6 +34,26 @@
      "q": "Design a 3-input majority function (output 1 if at least two inputs are 1) using only 2-input NAND gates. Provide the simplified Boolean expression, the NAND-only circuit diagram, and the total gate count.",
      "a": "Majority(A,B,C) = AB + BC + CA. Simplified SOP. NAND-NAND implementation: (1) Three NAND gates for AB, BC, CA (each NAND + inverter = 2 NANDs per product, but we can use NAND-NAND directly: first level NANDs produce (AB)', (BC)', (CA)'; second level NAND takes these three → ((AB)'(BC)'(CA)')' = AB+BC+CA by De Morgan). However, 2-input NAND cannot take 3 inputs directly, so we need a tree: NAND1(A,B)→(AB)', NAND2(B,C)→(BC)', NAND3(C,A)→(CA)', NAND4((AB)',(BC)')→((AB)'(BC)')' = AB+BC, NAND5((AB+BC), (CA)')→((AB+BC)'(CA)')' = AB+BC+CA. Total 5 NAND gates (with 2-input constraint). A student giving gate count 4 or using 3-input NANDs reveals they ignored the 2-input constraint or misapplied De Morgan.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A universal gate is a logic gate that can be used to implement any Boolean function without needing any other gate type; NAND and NOR are the only two universal gates in digital logic, meaning NOT, AND, OR, XOR, and XNOR can each be ______ using only NAND gates or only NOR gates by applying De Morgan's theorems and the principle of gate equivalence.",
+     "a": "constructed",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a digital circuit for a low-cost microcontroller where the fabrication process only reliably ______ NAND gates — how would you build an entire arithmetic logic unit (ALU) using just that one gate type?",
+     "a": "produces",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) derive the NAND-only and NOR-only implementations of NOT, AND, OR, XOR, and XNOR gates step-by-step using De Morgan's theorems, (2) draw the corresponding circuit diagrams with correct gate counts, and (3) verify each implementation by constructing its truth table and proving logical equivalence to the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a digital circuit for a low-cost ______ where the fabrication process only reliably produces NAND gates — how would you build an entire arithmetic logic unit (ALU) using just that one gate type?",
+     "a": "microcontroller",
+     "self_check": true
     }
    ]
   }

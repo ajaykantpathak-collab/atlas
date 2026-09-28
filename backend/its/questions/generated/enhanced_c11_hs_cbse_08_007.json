@@ -34,6 +34,36 @@
      "q": "Design a simplified immunisation reminder card for a low-literacy rural mother. Show vaccines due at each visit (birth, 6w, 10w, 14w, 9m, 15m, 16-24m, 2y, 5y, 10y, 16y) using only symbols/pictures. Explain your design choices for two specific vaccines.",
      "a": "A good answer includes: a timeline with icons (syringe, calendar, sun/moon for age), colour-coded visits, and pictograms for each vaccine (e.g., lung for BCG, drops for OPV, shield for PENTA, measles rash for MR). For BCG: use a shield with \"TB\" crossed out, given at birth (newborn icon). For MR: use a spotted face (measles) and a pregnant woman with a crossed-out rubella virus, given at 9 months (baby sitting icon). Poor answer: text-heavy, no visual hierarchy, or incorrect ages (e.g., MR at birth). Reveals inability to translate technical schedule into accessible health communication.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Immunisation schedule is a ______ designed timetable specifying the exact ages at which infants and children should receive specific vaccines to induce active immunity against vaccine-preventable diseases.",
+     "a": "scientifically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ health volunteer in a rural village.",
+     "a": "community",
+     "self_check": true
+    },
+    {
+     "q": "What is Immunisation schedule? State the definition given in this lesson.",
+     "a": "Immunisation schedule is a scientifically designed timetable specifying the exact ages at which infants and children should receive specific vaccines to induce active immunity against vaccine-preventable diseases.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A young mother refuses the ______-week vaccines for her baby, saying, \"The baby is too small; let him grow first.",
+     "a": "6",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Immunisation schedule?",
+     "a": "Students often believe vaccines contain live, disease-causing germs that can actually give the child a mild form of the disease.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can list all vaccines in the National Immunisation Schedule with their recommended ages, explain the immunological mechanism of vaccine-induced protection (antigen → antibody → memory), and justify the timing of primary doses and boosters in relation to maternal antibody waning, immune system maturity, and disease epidemiology.",
+     "self_check": true
     }
    ]
   }

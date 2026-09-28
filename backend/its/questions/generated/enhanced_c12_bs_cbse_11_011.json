@@ -12,7 +12,7 @@
     },
     {
      "q": "Rahul, a 25-year-old software engineer, buys a premium noise-cancelling headphone after seeing his team lead use the same brand. His sister, a college student, buys the same brand because she believes \"expensive means better quality.\" Identify the dominant factor for each and explain the difference.",
-     "a": "Rahul: Social factor (reference group influence — specifically, aspirational reference group/opinion leader). Sister: Psychological factor (belief/attitude — price-quality heuristic). The difference: Rahul's decision is driven by external social pressure to conform/aspire; his sister's is driven by an internal cognitive shortcut. A common error is labeling both as \"social\" because both involve \"others\" — but the sister's belief is an internalised psychological construct, not active social influence. Another error: calling Rahul's factor \"personal\" because it's his choice — personal factors are intrinsic characteristics (age, occupation), not social interactions.",
+     "a": "(1) Rahul's dominant factor — social, specifically aspirational reference-group influence from his team lead as an opinion leader, (2) His sister's dominant factor — psychological, the internalised belief that expensive means better quality, a price-quality heuristic, (3) The difference — his decision bends to external social pressure while hers springs from an internal cognitive shortcut. A common error labels both choices social because both involve others, but a belief is an internalised psychological construct, and calling Rahul's factor personal misses that personal factors are intrinsic traits such as age and occupation.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Create a new, realistic buying scenario for a product of your choice where ALL FOUR factor categories interact simultaneously. For each category, specify the exact sub-factor and its directional influence (positive/negative/neutral) on the purchase decision.",
      "a": "Scenario: Priya, 32, married, marketing manager, buys an electric SUV (₹25 lakh).\nCultural: Subculture (urban upper-middle class) — Positive (EVs signal progressive values).\nSocial: Reference group (colleagues/peers driving EVs) — Positive (normative influence); Family (husband prefers petrol for range) — Negative (conflict).\nPersonal: Occupation (marketing manager — tech-savvy image) — Positive; Lifestyle (weekend road trips) — Negative (range anxiety); Economic situation (affordable EMI) — Positive.\nPsychological: Motivation (self-actualisation: sustainability advocate) — Positive; Perception (sees EV as \"future-proof\") — Positive; Belief (\"EVs have high maintenance\") — Negative; Attitude (favors Tata over foreign brands) — Positive (brand choice).\nA strong answer shows bidirectional influences within a category (family: + and -) and identifies the net decision driver. A weak answer lists generic factors without scenario-specific sub-factors or directional valence.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Consumer behaviour refers to the study of how individuals, groups, or ______ select, purchase, use, and dispose of goods, services, ideas, or experiences to satisfy their needs and wants.",
+     "a": "organizations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You pick up a red pack of Colgate, but your ______ insists on a green Ayurvedic brand.",
+     "a": "friend",
+     "self_check": true
+    },
+    {
+     "q": "What is Consumer behaviour? State the definition given in this lesson.",
+     "a": "Consumer behaviour refers to the study of how individuals, groups, or organizations select, purchase, use, and dispose of goods, services, ideas, or experiences to satisfy their needs and wants.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Consumer behaviour?",
+     "a": "Students treat the four factor categories as mutually exclusive buckets.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify any given buying scenario into the four factor categories (cultural, social, personal, psychological), explain the mechanism by which each factor influences the decision, and justify why a marketer would prioritise specific factors for a given product category.",
      "self_check": true
     }
    ]

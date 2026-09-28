@@ -34,6 +34,21 @@
      "q": "Create a problem where a point \\( P \\) divides the segment joining \\( A(x_1, y_1) \\) and \\( B(x_2, y_2) \\) in the ratio \\( 3:4 \\) and the coordinates of \\( P \\) are \\( (6, 8) \\). Choose integer coordinates for A and B such that the problem has a unique solution. Write the problem statement and solve it to verify.",
      "a": "Sample problem: \"Point P(6,8) divides the segment joining A(2,2) and B(x,y) in the ratio 3:4. Find B.\" Solution: \\( 6 = \\frac{3x + 4\\cdot2}{7} \\Rightarrow 42 = 3x + 8 \\Rightarrow 3x = 34 \\Rightarrow x = 34/3 \\) (not integer). To get integer B, choose A(10,10) and ratio 3:4: \\( 6 = \\frac{3x + 4\\cdot10}{7} \\Rightarrow 42 = 3x + 40 \\Rightarrow 3x = 2 \\Rightarrow x = 2/3 \\) (not integer). A good student will realize they need to set up equations and pick A such that B comes out integer. For example, let A(2,2) and ratio 1:2 gives P(6,8)? \\( 6 = \\frac{1\\cdot x + 2\\cdot2}{3} \\Rightarrow 18 = x+4 \\Rightarrow x=14 \\), \\( 8 = \\frac{y+4}{3} \\Rightarrow y=20 \\). So A(2,2), B(14,20), ratio 1:2 gives P(6,8). A poor answer would be a problem with no solution or non-integer coordinates without acknowledging it.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This formula is derived from the similarity of triangles formed by dropping ______ from the points to the axes.",
+     "a": "perpendiculars",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You want to place a bench ______ one-third of the way from tree A towards tree B.",
+     "a": "exactly",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly apply the section formula to find the coordinates of a point dividing a line segment in a given ratio, determine the ratio when coordinates of the dividing point are known, and solve problems involving trisection, midpoint, and real-life scenarios such as locating points on a map or dividing resources.",
+     "self_check": true
     }
    ]
   }

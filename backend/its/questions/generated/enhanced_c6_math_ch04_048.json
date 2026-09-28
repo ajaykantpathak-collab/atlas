@@ -34,6 +34,31 @@
      "q": "Create a division problem involving decimals that results in a whole number quotient of 8.",
      "a": "Any problem following the pattern (8 × x) ÷ x = 8 works, such as 1.6 ÷ 0.2. A poor answer would be a problem that does not result in 8, showing a lack of understanding of the relationship between divisors and dividends.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Division of decimals is the process of ______ a decimal number into equal parts, performed by adjusting the divisor into a whole number before dividing.",
+     "a": "splitting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have 4.5 metres of ribbon and you want to cut it into small ______ that are each 0.5 metres long.",
+     "a": "pieces",
+     "self_check": true
+    },
+    {
+     "q": "What is Division of decimals? State the definition given in this lesson.",
+     "a": "Division of decimals is the process of splitting a decimal number into equal parts, performed by adjusting the divisor into a whole number before dividing.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Division of decimals?",
+     "a": "Students often try to \"move the decimal\" only in the dividend or forget to move it in the dividend after moving it in the divisor.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to convert any decimal divisor into a whole number by multiplying both the dividend and divisor by 10, 100, or 1000, and then correctly perform the long division to find the quotient.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Create a problem where Product Method and Average Period Method give DIFFERENT answers for the same total drawings and rate. Explain why this happens and which answer is correct.",
      "a": "Problem: Partner draws ₹10,000 on 1st April, ₹10,000 on 1st September, ₹10,000 on 1st January. Total = ₹30,000. Rate = 12% p.a. Year ends 31st March.\nProduct Method: (10,000×12) + (10,000×7) + (10,000×3) = 2,20,000. Interest = 2,20,000 × 12%/12 = ₹2,200.\nAverage Period Method (if incorrectly applied as monthly beginning): 30,000 × 12% × 6.5/12 = ₹1,950.\nDifference occurs because drawings are NOT monthly — they are irregular. Average Period Method assumes equal intervals; applying it here is wrong. Product Method is correct. This tests the boundary condition: Average Period Method is ONLY valid for equal, regular intervals. A student forcing Average Period on irregular drawings exposes a fundamental misunderstanding of method applicability.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Interest on Drawings is the charge levied by the ______ firm on amounts withdrawn by partners for personal use, calculated at an agreed rate for the period the money remains with the partner.",
+     "a": "partnership",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You each ______ ₹10,000 monthly for personal expenses.",
+     "a": "withdraw",
+     "self_check": true
+    },
+    {
+     "q": "What is Interest on Drawings? State the definition given in this lesson.",
+     "a": "Interest on Drawings is the charge levied by the partnership firm on amounts withdrawn by partners for personal use, calculated at an agreed rate for the period the money remains with the partner.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Average Period Method uses a fixed average period based on the timing pattern of drawings (e.g., ______ months for beginning-of-month drawings) multiplied by total drawings.",
+     "a": "6.5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Interest on Drawings?",
+     "a": "Students memorize average periods (6.5, 6, 5.5) but apply them blindly without checking if drawings are truly regular.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Identify whether a problem requires Product Method or Average Period Method based on given data; (2) Correctly compute the period for each drawing in Product Method considering the accounting period end date; (3) Select the correct average period (6.5, 6, 5.5, 7.5, etc.) for Average Period Method based on.",
+     "self_check": true
     }
    ]
   }

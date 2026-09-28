@@ -34,6 +34,31 @@
      "q": "Create a novel diagnostic scenario where a combination of Southern, Northern, and Western blotting would be required to fully characterize a genetic disorder caused by a triplet repeat expansion. Describe what each blot would reveal.",
      "a": "Scenario: Fragile X syndrome (CGG repeat expansion in FMR1 gene). Southern blot: Genomic DNA digested with restriction enzyme, probed for FMR1 – reveals size of repeat expansion (full mutation >200 repeats vs premutation 55-200). Northern blot: mRNA from patient cells – shows if expanded repeat affects transcription level or mRNA stability (often reduced mRNA in full mutation). Western blot: Protein lysate probed with anti-FMRP antibody – shows absence of FMRP protein in full mutation. A poor answer would use only one blot or misassign what each detects (e.g., Southern for protein).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Southern, Northern, and Western blotting are molecular biology techniques used to detect specific macromolecules (DNA, RNA, and proteins respectively) after separation by gel ______, involving transfer to a solid membrane followed by hybridization with a labeled probe (Southern/Northern) or immunodetection with antibodies (Western).",
+     "a": "electrophoresis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a forensic scientist trying to ______ a suspect from a tiny blood stain at a crime scene.",
+     "a": "identify",
+     "self_check": true
+    },
+    {
+     "q": "What is Southern, Northern, and Western blotting? State the definition given in this lesson.",
+     "a": "Southern, Northern, and Western blotting are molecular biology techniques used to detect specific macromolecules (DNA, RNA, and proteins respectively) after separation by gel electrophoresis, involving transfer to a solid membrane followed by hybridization with a labeled probe (Southern/Northern) or immunodetection with antibodies.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Southern, Northern, and Western blotting?",
+     "a": "Students often believe that the \"blot\" refers to the gel staining step, and that Southern/Northern/Western are just different stains for DNA/RNA/protein.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Design a complete blotting workflow for a given target molecule (DNA, RNA, or protein) including choice of gel, transfer method, probe/antibody, and detection system; (2) Distinguish between the three blotting techniques by comparing their target molecules, probe types, and key reagents; (3) Interpret.",
+     "self_check": true
     }
    ]
   }

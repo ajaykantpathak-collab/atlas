@@ -34,6 +34,31 @@
      "q": "Design a mixed-method data collection plan for a geographical investigation of **urban heat island intensity** in Delhi NCR. Specify: (a) two primary data methods with instruments, (b) two secondary data sources with agencies, (c) how you will *triangulate* them. Your plan must be executable by a Class 12 student with school-level resources.",
      "a": "(a) **Primary**: (1) Mobile transects with digital thermometer (Kestrel 3000) mounted on bicycle — measures air temperature at 1.5 m height along fixed routes at 6 AM and 3 PM. (2) Infrared thermometer (FLIR ONE) for surface temperature of land cover types (asphalt, concrete, grass, water). (b) **Secondary**: (1) IMD automatic weather station (AWS) hourly data for Safdarjung, Palam, Lodhi Road — validates mobile transects. (2) Landsat 8/9 Thermal Infrared Sensor (TIRS) Level-2 surface temperature product (USGS EarthExplorer) — 30 m resolution, 16-day revisit — validates spatial pattern. (c) **Triangulation**: Compare mobile transect averages with nearest AWS for same timestamps (bias correction). Overlay IR surface points on Landsat LST map — check correlation (r > 0.7 expected). Discrepancies >2°C trigger re-survey. A poor answer lists sources without instruments, agencies, or a concrete triangulation protocol — missing the geographical rigour of *cross-validation*.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Primary data are original measurements collected firsthand by the researcher through direct field observation, interviews, ______, or instrumental readings for a specific geographical investigation.",
+     "a": "questionnaires",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ in a farm in Punjab during kharif season — you see paddy fields, hear tube wells running, and notice soil moisture.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What is Primary data? State the definition given in this lesson.",
+     "a": "Primary data are original measurements collected firsthand by the researcher through direct field observation, interviews, questionnaires, or instrumental readings for a specific geographical investigation.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Primary data?",
+     "a": "Students believe \"published data is always secondary\" and \"unpublished data is always primary\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can classify any given geographical dataset as primary or secondary by identifying its collection method and origin, and can justify the suitability of each source type for a specified research question (e.g., assessing groundwater quality vs. analysing decadal population trends).",
+     "self_check": true
     }
    ]
   }

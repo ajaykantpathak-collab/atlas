@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using Ninhydrin reagent to detect the presence of free amino groups in a solution of (a) free amino acids, (b) a dipeptide, and (c) a denatured protein. Predict the color outcomes and explain the chemical basis.",
      "a": "Ninhydrin reacts with free α-amino groups (–NH₂) to give a deep blue/purple color (Ruhemann's purple). (a) Free amino acids: strong positive (blue). (b) Dipeptide: only N-terminal has free –NH₂ → positive but half intensity per mole. (c) Denatured protein: many free N-termini if hydrolyzed, but native/denatured intact protein has only one N-terminal per chain → very faint unless hydrolyzed first. Chemical basis: oxidative decarboxylation of α-amino acid yields aldehyde, CO₂, and reduced ninhydrin which condenses with another ninhydrin to form the chromophore. A poor answer (e.g., \"all give same color\" or \"denatured protein gives no color\") shows ignorance of N-terminal availability and hydrolysis requirement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Proteins are biological polymers formed by condensation ______ of α-amino acids, where the carboxyl group (–COOH) of one amino acid reacts with the amino group (–NH₂) of another to form a peptide bond (–CO–NH–) with elimination of water.",
+     "a": "polymerization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a familiar observation: when you boil an egg, the transparent liquid egg white turns opaque and ______.",
+     "a": "solid",
+     "self_check": true
+    },
+    {
+     "q": "What is Proteins? State the definition given in this lesson.",
+     "a": "Proteins are biological polymers formed by condensation polymerization of α-amino acids, where the carboxyl group (–COOH) of one amino acid reacts with the amino group (–NH₂) of another to form a peptide bond (–CO–NH–) with elimination of water.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Proteins?",
+     "a": "Students often write the peptide bond as –CO–NH– but draw it with free rotation, ignoring its partial double-bond character from resonance (O=C–N ↔ ⁻O–C=N⁺).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Draw the general structure of an α-amino acid and identify its chiral center; (2) Classify given amino acids as acidic/basic/neutral and essential/non-essential based on R-group composition; (3) Write the balanced condensation reaction for peptide bond formation between any two amino acids, showing correct orientation of.",
+     "self_check": true
     }
    ]
   }

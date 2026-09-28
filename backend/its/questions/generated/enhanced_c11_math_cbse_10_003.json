@@ -34,6 +34,21 @@
      "q": "Create a real-world problem involving a straight road between two cities A and B where a rest stop must be placed such that its distance from A is 2/5 of the total road length. Assign coordinates to A and B (use realistic km values), state the ratio, and solve for the rest stop coordinates. Then modify the problem: if the road is extended beyond B by the same length AB, where would a point dividing the extended segment externally in the same ratio lie? (Do not solve the external part - just set it up.)",
      "a": "Sample problem: City A at (10 km, 20 km), City B at (70 km, 80 km). Rest stop divides AB internally such that AP = (2/5)AB, so AP:PB = 2:3. Using section formula: x = (2×70 + 3×10)/5 = (140+30)/5 = 34 km; y = (2×80 + 3×20)/5 = (160+60)/5 = 44 km. Rest stop at (34, 44). Extension setup: Extended road to C such that B is midpoint of AC. C = (130, 140). Point Q divides AC externally in ratio 2:3 (i.e., AQ:QC = 2:3 with Q beyond C). This tests if the student can distinguish internal vs external division and set up coordinates for extension. A poor answer uses the same coordinates or ratio without extending the segment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The section formula for internal division gives the ______ of a point P(x, y) that divides the line segment joining two points A(x₁, y₁) and B(x₂, y₂) internally in the ratio m:n, where m and n are positive real numbers.",
+     "a": "coordinates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're designing a garden pathway between two trees at ______ A(2, 3) and B(8, 9).",
+     "a": "coordinates",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly apply the internal section formula to find coordinates of a point dividing a segment in a given ratio, solve reverse problems (find ratio given coordinates), and combine it with distance formula and midpoint formula to solve multi-step coordinate geometry problems involving triangles, quadrilaterals, and locus.",
+     "self_check": true
     }
    ]
   }

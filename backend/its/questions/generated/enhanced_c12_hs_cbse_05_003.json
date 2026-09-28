@@ -34,6 +34,31 @@
      "q": "Design a \"Resource Audit Worksheet\" for a family of four (two working parents, two school-going children) that maps each major asset (car, laptop, savings, grandparents nearby, domestic help, each person's skills) against the three characteristics. Include a column for \"Current Stress Test\" (e.g., what happens if domestic help quits?).",
      "a": "A good worksheet has rows for each asset, columns for Utility (1–5), Accessibility (1–5), Interchangeability (1–5), and Stress Test notes. Example row: Domestic help — Utility 5 (frees 3 hrs/day), Accessibility 4 (comes daily), Interchangeability 3 (parents can redistribute chores but lose work time), Stress Test: If help quits → Accessibility drops to 0 → parents must interchange time/energy or hire replacement (money interchangeability). A poor worksheet lists assets without scoring or stress-testing, showing the student treats characteristics as labels, not analytical tools.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Utility, accessibility, and interchangeability are the three defining ______ that determine whether an asset qualifies as a resource in home management: Utility is the capacity of a resource to satisfy a human want or need (e.g., money buys goods, time enables task completion); Accessibility is the ease with which a resource can be obtained, located, or deployed when needed (e.g., a skill is accessible only if the person possessing it is available); Interchangeability is the degree to which one resource can substitute for another to achieve the same goal (e.g., money can buy time by hiring help, energy can replace money through DIY labour).",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ask: \"Is it a resource right now?\" If the car has no fuel, it has utility (can transport) but lacks ______ (cannot run) — so it fails as a resource today.",
+     "a": "accessibility",
+     "self_check": true
+    },
+    {
+     "q": "What is Utility, accessibility, and interchangeability? State the definition given in this lesson.",
+     "a": "Utility, accessibility, and interchangeability are the three defining characteristics that determine whether an asset qualifies as a resource in home management: Utility is the capacity of a resource to satisfy a human want or need (e.g., money buys goods, time enables task completion); Accessibility is the ease with which a resource can.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Utility, accessibility, and interchangeability?",
+     "a": "Students treat utility, accessibility, and interchangeability as fixed, inherent properties of objects (e.g., \"a car has high utility\") rather than as relational properties that depend on the family's goals, context, and current capacities.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) classify any given household asset as a resource or non-resource by evaluating its utility, accessibility, and interchangeability; (2) explain with a concrete family-scenario example how a change in one characteristic (e.g., loss of accessibility due to illness) alters the resource-status of an asset and.",
+     "self_check": true
     }
    ]
   }

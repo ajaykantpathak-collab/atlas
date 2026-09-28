@@ -34,6 +34,31 @@
      "q": "Design a transaction scenario where a business purchases an asset mid-year, incurs installation costs, and uses the straight line method with charging to asset account. Specify all data needed for a classmate to prepare the full ledger for Year 1 and Year 2.",
      "a": "A good scenario includes: purchase date (e.g., 1st Oct 2023), purchase price (e.g., ₹4,00,000), installation cost (e.g., ₹50,000), estimated useful life (e.g., 5 years), residual value (e.g., ₹50,000), accounting year-end (31st March), depreciation method (SLM). The classmate must calculate Year 1 depreciation for 6 months on total cost (₹4,50,000 - ₹50,000) × 10% × 6/12 = ₹20,000, Year 2 full year ₹40,000. A poor scenario omits installation cost, residual value, or mid-year purchase, making the problem unsolvable or ambiguous.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Charging depreciation to the asset account is a method of recording depreciation where the depreciation amount for each period is directly credited to the fixed asset account, reducing its book value, and debited to the Depreciation Account which is ______ closed by transferring to the Profit and Loss Account.",
+     "a": "subsequently",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you buy a ______ for ₹60,000 for your freelance graphic design work.",
+     "a": "laptop",
+     "self_check": true
+    },
+    {
+     "q": "What is Charging depreciation to the asset account? State the definition given in this lesson.",
+     "a": "Charging depreciation to the asset account is a method of recording depreciation where the depreciation amount for each period is directly credited to the fixed asset account, reducing its book value, and debited to the Depreciation Account which is subsequently closed by transferring to the Profit and Loss Account.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Charging depreciation to the asset account?",
+     "a": "Students often believe that crediting the Asset Account for depreciation means the business is \"receiving money\" or that the asset's market value is being adjusted.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently pass journal entries for asset purchase, depreciation charge, and transfer to Profit & Loss Account under this method, prepare the Asset Account and Depreciation Account ledger for 3+ years with correct balancing figures, and show the correct Balance Sheet presentation at net book value.",
+     "self_check": true
     }
    ]
   }

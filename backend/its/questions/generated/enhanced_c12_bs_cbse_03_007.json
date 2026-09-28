@@ -32,7 +32,37 @@
     },
     {
      "q": "Create a 3-column table: Column A = Pre-1991 Restriction, Column B = 1991 Policy Change, Column C = New Business Opportunity/Threat for a hypothetical Indian consumer durables firm. Fill at least four rows with specific, non-generic entries.",
-     "a": "Expected table (example rows):\n1. Restriction: Industrial licence for capacity expansion → Change: Delicensing (except 18 industries) → Opportunity: Firm can rapidly scale production to meet rising demand without bureaucratic delay.\n2. Restriction: MRTP Act limit on asset size (₹100 cr) → Change: MRTP Act amended, prior approval removed → Opportunity: Firm can grow via mergers/acquisitions to achieve economies of scale.\n3. Restriction: FDI capped at 40%, case-by-case approval → Change: Automatic route up to 51% in priority industries, FIPB for larger → Threat: Global giants (e.g., Whirlpool) enter directly, intensifying competition.\n4. Restriction: Import licensing for components/technology → Change: Import of capital goods/raw materials freed, EPCG scheme → Opportunity: Firm can import latest compressors/controllers, improving product quality.\nA poor answer uses vague entries like \"less control\" or \"more freedom\" without naming the specific instrument (licence, MRTP, FDI cap, import licence).",
+     "a": "(1) Industrial licence for capacity expansion — delicensing of all but 18 industries, so the firm can scale production quickly without bureaucratic delay, (2) MRTP Act limit on asset size — the Act was amended and prior approval removed, so the firm can grow through mergers and acquisitions for economies of scale, (3) FDI capped at 40 percent with case-by-case approval — an automatic route up to 51 percent in priority industries, which lets global giants enter directly and intensifies competition, (4) Import licensing for components and technology — imports of capital goods and raw materials were freed under the EPCG scheme, so the firm can import the latest compressors and controllers to lift quality. A poor answer uses vague entries like less control or more freedom without naming the specific instrument such as licence, MRTP, FDI cap or import licence.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Economic ______ refers to the process of reducing government controls and restrictions on industries, trade, and investment to promote competition, efficiency, and integration with the global economy.",
+     "a": "Liberalisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the CEO of an Indian car ______ in 1990: you need a licence to expand capacity, you cannot import the latest engine technology without government approval, and foreign competitors are barred.",
+     "a": "manufacturer",
+     "self_check": true
+    },
+    {
+     "q": "What is Economic Liberalisation? State the definition given in this lesson.",
+     "a": "Economic Liberalisation refers to the process of reducing government controls and restrictions on industries, trade, and investment to promote competition, efficiency, and integration with the global economy.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The New Industrial Policy of ______ was the landmark policy package that initiated liberalisation in India by delicensing most industries, reducing the public sector's role, allowing foreign direct investment (FDI) and technology agreements, and simplifying import-export procedures, thereby shifting India from a licence-permit-quota regime to a market-oriented economy.",
+     "a": "1991",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Economic Liberalisation?",
+     "a": "Students often conflate \"liberalisation\" with \"privatisation\" and \"globalisation,\" using the terms interchangeably.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the three pillars of the 1991 reforms (liberalisation, privatisation, globalisation) with specific policy measures, analyse the pre-1991 crisis triggers, and evaluate the impact of these reforms on Indian business and industry using at least three distinct dimensions (e.g., competition, technology, market.",
      "self_check": true
     }
    ]

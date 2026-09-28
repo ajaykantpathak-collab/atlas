@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_09_002",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_09_002",
+   "title": "c12_app_cbse_09_002",
+   "questions": [
+    {
+     "q": "What is the present value of an ordinary perpetuity of ₹1,000 per year if the interest rate is 5% per annum compounded annually?",
+     "a": "₹20,000. Calculation: P = R/i = 1000/0.05 = 20,000. A wrong answer of ₹21,000 reveals the student used the perpetuity due formula (R + R/i) instead of ordinary perpetuity. A wrong answer of ₹50,000 reveals the student incorrectly used P = R × i (multiplying instead of dividing).",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the present value of a perpetuity is finite even though payments continue forever, and why the \"amount\" (future value) of a perpetuity is undefined.",
+     "a": "Present value is finite because each payment is discounted by (1+i)^(-n), forming a convergent infinite geometric series with sum R/i. The amount is undefined because it represents the sum of undiscounted payments growing without bound (R + R + R + ... → ∞). A wrong answer claiming \"both are infinite\" or \"both are finite\" reveals confusion between present value (discounted) and future value (undiscounted) concepts.",
+     "self_check": true
+    },
+    {
+     "q": "A perpetuity pays ₹600 at the end of each quarter. If the present value is ₹40,000, find the nominal annual interest rate compounded quarterly.",
+     "a": "6% per annum compounded quarterly. Steps: P = R/i → 40,000 = 600/i → i = 600/40,000 = 0.015 per quarter. Nominal rate r = i × 4 = 0.06 = 6%. A wrong answer of 1.5% reveals the student reported the periodic rate instead of nominal annual rate. A wrong answer of 24% reveals the student used P = R × i (40,000 = 600 × i → i = 66.67, then ×4).",
+     "self_check": true
+    },
+    {
+     "q": "Compare: Perpetuity A pays ₹1,000 at the end of each year. Perpetuity B pays ₹1,000 at the beginning of each year. Both at 8% p.a. Which has higher present value and by how much? Justify without calculating both full present values.",
+     "a": "Perpetuity B has higher present value by exactly ₹1,000. Reason: Perpetuity due = immediate payment R + ordinary perpetuity (R/i). The difference is precisely the first payment R = ₹1,000. A wrong answer giving a difference of ₹80 (R×i) or ₹1,080 (R×(1+i)) reveals confusion between payment amount and interest on payment.",
+     "self_check": true
+    },
+    {
+     "q": "A financial advisor claims: \"Since a perpetuity pays forever, its present value should be infinite. The formula P = R/i must be wrong.\" Evaluate this claim and explain the flaw in the advisor's reasoning.",
+     "a": "The claim is false. The advisor confuses *nominal sum of payments* (infinite) with *present value* (discounted sum). Each payment R at time t has present value R/(1+i)^t. The infinite series Σ R/(1+i)^t converges because 1/(1+i) < 1. The formula P = R/i is mathematically exact for i > 0. A student agreeing with the advisor reveals fundamental misunderstanding of time value of money and geometric series convergence.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where a perpetuity due is more appropriate than an ordinary perpetuity. Specify R, i, and compute P. Explain why \"due\" fits your scenario.",
+     "a": "Scenario: A temple trust receives a donation to fund daily annadanam (free meals) costing ₹5,000/day starting *today*. Interest rate 6% p.a. compounded daily (i ≈ 0.000164). Perpetuity due: P = R + R/i = 5,000 + 5,000/0.000164 ≈ ₹3.05 crore. \"Due\" fits because meals begin immediately, not tomorrow. A poor answer uses ordinary perpetuity (P = R/i only) or chooses a scenario where payments naturally start later (e.g., scholarship starting next year), missing the \"immediate first payment\" distinction.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,36 @@
      "q": "Create a **netiquette checklist** for a student-led online study group (Discord/Telegram) that balances **inclusivity**, **focus**, and **accountability**. Include at least 6 specific, enforceable rules — each tied to one of the three values. Explain how you would handle a first violation vs. a repeat violation.",
      "a": "**Checklist (value-tagged):**\n1. [Inclusivity] Use @mention only when necessary; avoid inside jokes/cultural references that exclude non-native speakers.\n2. [Inclusivity] No voice-only announcements — always provide text summary for hearing-impaired or bandwidth-limited members.\n3. [Focus] Keep subject channels strict: #doubts, #resources, #off-topic. No cross-posting.\n4. [Focus] \"No solved paper dumps\" — share *approaches*, not answers, to preserve learning integrity.\n5. [Accountability] Sign messages with first name (not anonymous handles) so ownership is clear.\n6. [Accountability] If you share a resource, cite source (link/author) — no unattributed PDFs/images.\n\n**Violation handling:** First offense → private DM referencing specific rule, explain impact, ask for correction (e.g., move message to correct channel). Repeat offense → temporary mute (24h) with public note: \"Muted for repeated #focus violation. Review rules at [link].\" Permanent ban only after 3 documented repeats with escalation warnings. Poor answers list vague rules (\"be respectful\") or punitive-first approaches, missing that netiquette is **community infrastructure**, not just policing.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cyber ethics refers to the moral principles and guidelines that govern responsible behavior in digital ______, including respect for intellectual property, privacy, truthfulness, and avoidance of harm to others.",
+     "a": "environments",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive a ______ forward claiming a \"government scheme gives ₹50,000 to students\" with a link asking for your Aadhaar and bank details.",
+     "a": "WhatsApp",
+     "self_check": true
+    },
+    {
+     "q": "What is Cyber ethics? State the definition given in this lesson.",
+     "a": "Cyber ethics refers to the moral principles and guidelines that govern responsible behavior in digital environments, including respect for intellectual property, privacy, truthfulness, and avoidance of harm to others.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Then apply a decision framework: (______) Pause and verify via official sources.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Cyber ethics?",
+     "a": "Students believe \"cyber ethics = following the law\" and \"netiquette = using polite words.\" They write in exams: \"Ethical hacking is legal hacking\" (missing: it requires *authorized* scope, responsible disclosure, and harm minimization — legality is necessary but insufficient).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can analyze a real-world digital scenario, identify the ethical dilemmas and netiquette violations present, and articulate a justified course of action referencing specific principles (e.g., consent, attribution, proportionality, respect for privacy).",
+     "self_check": true
     }
    ]
   }

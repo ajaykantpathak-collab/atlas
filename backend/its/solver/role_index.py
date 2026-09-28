@@ -324,10 +324,13 @@ def solve_by_intersection(text: str, quantities=None) -> Optional[Dict]:
         # bind the leftover number (the acceleration) used to fill the
         # u slot by positional residue and v came out u+a*t instead
         # of a*t.
-        if ("u" in slots and "u" not in bound and "u" != target
-                and re.search(r"\b(?:from|at)\s+rest\b|\bdropped\b",
-                              text, re.I)):
-            bound["u"] = 0.0
+        if re.search(r"\b(?:from|at)\s+rest\b|\bdropped\b", text, re.I):
+            _INIT_VEL = {"u", "u_i", "v_0", "v0", "initial_velocity",
+                         "initial_speed", "initial_vel"}
+            for v in slots:
+                if (v in _INIT_VEL and v not in bound and v != target):
+                    bound[v] = 0.0
+                    break
 
         # 5. positional residue: leftover numbers -> free slots
         used_vals = set(bound.values())

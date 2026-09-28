@@ -34,6 +34,31 @@
      "q": "Design a mini case study (150 words) set in an Indian auto-component SME where at least four of Taylor's techniques are applied together to solve a productivity-and-fatigue problem. Explicitly name each technique and show how its output feeds into the next technique.",
      "a": "A good answer will present a coherent narrative such as: \"Precision Gears Pvt. Ltd., Pune, makes gear shafts. **Method Study** mapped the current process and found workers carrying blanks 5 m between machines. **Motion Study** eliminated the carry by installing a roller conveyor. **Time Study** on the new method set standard time at 4.2 min/shaft (down from 7 min). **Fatigue Study** mandated a 5-min rest every 90 min based on heart-rate data. **Standardisation** fixed tool geometry and raw-material specs. **Functional Foremanship** assigned a Route Clerk to maintain the conveyor schedule and a Speed Boss to monitor cycle time. **Differential Piece Wage** paid ₹18/shaft above 120 shafts/shift and ₹12 below. Output rose 65% and fatigue complaints dropped 80%.\" A poor answer lists techniques without showing the feed-forward linkage (e.g., Motion Study output becoming Time Study input).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Taylor's Techniques of Scientific Management are specific, standardized procedures — Time Study, Motion Study, Fatigue Study, Method Study, Functional Foremanship, ______ & Simplification, and Differential Piece Wage System — designed to replace rule-of-thumb methods with scientifically determined \"one best way\" to perform each task, thereby maximizing efficiency, minimizing waste, and aligning worker and management interests through mental revolution.",
+     "a": "Standardisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the ______ manager of a bicycle factory in Ludhiana where workers assemble 50 frames per shift but frequently complain of back pain, argue over who gives orders, and produce frames with misaligned holes.",
+     "a": "production",
+     "self_check": true
+    },
+    {
+     "q": "What is Taylor's Techniques of Scientific Management? State the definition given in this lesson.",
+     "a": "Taylor's Techniques of Scientific Management are specific, standardized procedures — Time Study, Motion Study, Fatigue Study, Method Study, Functional Foremanship, Standardisation & Simplification, and Differential Piece Wage System — designed to replace rule-of-thumb methods with scientifically determined \"one best way\" to perform each.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the production manager of a bicycle factory in Ludhiana where workers assemble ______ frames per shift but frequently complain of back pain, argue over who gives orders, and produce frames with misaligned holes.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish each technique's unique purpose and procedure, (2) apply the correct technique to a given factory-floor scenario, (3) explain how the techniques interlock to form a unified system, and (4) evaluate a case study to identify which techniques are violated and prescribe corrective steps.",
+     "self_check": true
     }
    ]
   }

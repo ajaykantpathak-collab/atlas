@@ -34,6 +34,31 @@
      "q": "Create a real-world angle of depression problem (with an Indian context) where the answer is exactly 50√3 metres. Provide the problem statement and the full solution.",
      "a": "Problem: \"From the top of a 50 m high electric pole, the angle of depression of a point on the ground is 60°. Find the distance of the point from the foot of the pole.\"\nSolution: Height = 50 m, angle of depression = 60° → angle of elevation = 60°. tan 60° = 50/d → √3 = 50/d → d = 50/√3 = (50√3)/3 m. (Wait, that gives 50/√3, not 50√3.)\nBetter: \"From the top of a tower, the angle of depression of a car is 30°. If the car is 50√3 m from the foot of the tower, find the height of the tower.\"\nSolution: tan 30° = h / (50√3) → 1/√3 = h/(50√3) → h = 50 m.\nA good answer shows the student can reverse-engineer a problem, choose appropriate numbers, and verify the trigonometric relationship. A poor answer (e.g., random numbers that don't yield 50√3) shows inability to work backwards from a desired result.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The angle of ______ is the angle formed between the horizontal line drawn from the observer's eye and the line of sight when the observer looks downward at an object.",
+     "a": "depression",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ on the roof of your school building (height 20 m) and looking down at a ball on the playground.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing on the roof of your school building (height ______ m) and looking down at a ball on the playground.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently draw a correct labelled diagram for any angle of depression word problem, identify the right triangle, select the appropriate trigonometric ratio (tan, sin, or cos), set up the equation, solve for the unknown height or distance, and verify the answer's reasonableness in the given real-world context.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing on the roof of your school building (height 20 m) and looking down at a ball on the ______.",
+     "a": "playground",
+     "self_check": true
     }
    ]
   }

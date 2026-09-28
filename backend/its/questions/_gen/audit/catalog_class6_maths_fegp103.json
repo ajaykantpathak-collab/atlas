@@ -44,10 +44,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lhs = 3 ** 3 + 4 ** 3",
-    "diff = 5 ** 3 - lhs"
-   ]
+   "steps_chain": []
   },
   {
    "id": "fegp.3.2",
@@ -96,9 +93,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "diff = 9 * abs(4 - 6)"
-   ]
+   "steps_chain": []
   },
   {
    "id": "fegp.3.3",
@@ -186,9 +181,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = 3 + (6)"
-   ]
+   "steps_chain": []
   }
  ]
 }

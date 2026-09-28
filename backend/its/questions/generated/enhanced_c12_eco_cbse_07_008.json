@@ -34,6 +34,26 @@
      "q": "Construct a modified circular flow diagram for an economy with: (i) households that save and pay taxes, (ii) firms that invest, (iii) government that spends and transfers, (iv) foreign sector, and (v) a central bank that sets interest rate affecting I and S. Label all flows and state the new equilibrium condition.",
      "a": "A good answer draws: Households → (C, S, T) → Firms/Govt/Foreign; Firms → (Y, I) → Households/Govt/Foreign; Govt → (G, TR) → Households/Firms; Foreign → (X, M) → Firms/Households; Central Bank → (r) → affects I(r) and S(r). Equilibrium: S + T + M = I + G + X (with I = I(r), S = S(r)). Must show interest rate as a flow from Central Bank to both S and I decisions. A poor answer omits the central bank or treats r as exogenous without feedback, missing the endogeneity of financial markets — a limitation explicitly noted in NCERT as \"model does not explain rate of interest determination.\"",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Circular Flow Model is a simplified ______ of the macroeconomy that illustrates the continuous flow of money, goods, and services between households and firms (and later government and foreign sectors).",
+     "a": "representation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the RBI Governor ______ a sudden drop in India's GDP growth rate.",
+     "a": "analysing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Step ______: List the two-sector assumptions (no savings, no government, no foreign trade, fixed prices).",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) list all standard assumptions for the two-sector, three-sector, and four-sector models and explain why each is imposed; (2) identify at least five distinct limitations of the basic model and connect each to a specific macroeconomic variable or policy issue it cannot address; (3) evaluate how relaxing a specific assumption.",
+     "self_check": true
     }
    ]
   }

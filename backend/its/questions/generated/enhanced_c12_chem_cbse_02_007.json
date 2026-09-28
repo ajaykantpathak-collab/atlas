@@ -34,6 +34,26 @@
      "q": "Design a simple laboratory experiment to verify Faraday's second law using two different electrolytes (e.g., CuSO₄ and AgNO₃) with inert electrodes. Specify the measurements you would take, the calculations you would perform, and how you would confirm the law.",
      "a": "Set up two electrolytic cells in series with Pt electrodes: one with CuSO₄, one with AgNO₃. Pass a known current I for a known time t (measure with ammeter and stopwatch). After electrolysis, weigh the cathode mass gain in each cell (m_Cu, m_Ag). Calculate moles of each metal deposited (m/M). Compute the ratio (m_Cu/M_Cu) : (m_Ag/M_Ag) and compare with the inverse ratio of n values (1/2 : 1/1 = 1:2). If the law holds, moles of Cu : moles of Ag = 1 : 2. A poor answer that suggests measuring only mass or using different currents shows the student doesn't grasp that the law compares equivalent weights (M/n) under identical charge.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Faraday's laws of ______ establish the quantitative relationship between the amount of substance chemically transformed at an electrode and the quantity of electricity passed through the electrolyte.",
+     "a": "electrolysis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a silver-plated spoon or aluminium foil: the metal coating or the metal itself was produced by passing ______ through a solution or melt.",
+     "a": "electricity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To begin solving any electrolysis problem, first write the balanced half-reaction at the electrode of interest (e.g., Cu²⁺ + ______e⁻ → Cu).",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state both Faraday's laws, define the Faraday constant (F = 96487 C mol⁻¹), write balanced electrode half-reactions to determine the number of electrons (n), and calculate the mass of substance deposited, the charge required, or the time/current needed for a given electrolysis — including series-cell problems where the.",
+     "self_check": true
     }
    ]
   }

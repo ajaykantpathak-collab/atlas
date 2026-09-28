@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_02_001",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_02_001",
+   "title": "c11_app_cbse_02_001",
+   "questions": [
+    {
+     "q": "A cyclist rides 3 km east, then 4 km north in a total of 30 minutes. What is the magnitude of the cyclist's average velocity? (Give answer in km/h with direction.)",
+     "a": "The net displacement is 5 km at an angle of tan⁻¹(4/3) ≈ 53° north of east (using Pythagoras: √(3²+4²) = 5 km). Total time = 0.5 h. Average velocity magnitude = 5 km / 0.5 h = 10 km/h, direction 53° north of east. A wrong answer (e.g., 14 km/h) reveals the student computed average *speed* (total distance 7 km / 0.5 h) instead of velocity, confusing scalar distance with vector displacement.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why an artificial satellite in a perfectly circular orbit around Earth has a non-zero average speed but zero average velocity over one complete revolution.",
+     "a": "Over one revolution, the satellite travels a distance equal to the circumference (2πr), so average speed = 2πr / T > 0. However, its initial and final positions are identical, so net displacement = 0. Therefore, average velocity = 0 / T = 0. A wrong explanation (e.g., \"velocity is zero because it stops\") reveals the student thinks velocity depends on motion stopping, not on displacement; they miss the vector nature of displacement.",
+     "self_check": true
+    },
+    {
+     "q": "A person walks from point A to point B (5 km away) at 5 km/h and immediately returns to A at 3 km/h. Calculate the average speed and average velocity for the entire trip.",
+     "a": "Distance AB = 5 km. Time A→B = 5/5 = 1 h. Time B→A = 5/3 ≈ 1.667 h. Total distance = 10 km. Total time = 2.667 h. Average speed = 10 / 2.667 ≈ 3.75 km/h. Net displacement = 0 (back at A). Average velocity = 0. A wrong answer (e.g., average speed = 4 km/h, the arithmetic mean of 5 and 3) reveals the student incorrectly averaged the speeds instead of using total distance/total time — a classic \"average of averages\" error.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the average speed and average velocity for these two motions: (i) A car drives 100 km north in 2 hours. (ii) A car drives 100 km north, then 100 km south in 4 hours. What does the comparison reveal about the role of path shape?",
+     "a": "(i) Distance = 100 km, displacement = 100 km north. Average speed = 50 km/h, average velocity = 50 km/h north. (ii) Distance = 200 km, displacement = 0. Average speed = 50 km/h, average velocity = 0. Both have same average speed, but velocity differs. This reveals: **average speed depends only on total path length; average velocity depends only on net displacement (start to finish straight line), ignoring the path in between.** A wrong comparison (e.g., saying velocity is 50 km/h in both) shows the student thinks velocity is \"speed with direction\" but doesn't grasp that direction is determined by *net* displacement, not each segment.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"If average speed is zero, then average velocity must also be zero. But if average velocity is zero, average speed could be non-zero.\" Evaluate this statement. Is it always true, sometimes true, or never true? Justify.",
+     "a": "The statement is **always true**. Average speed = total distance / time. Distance ≥ 0 always, and = 0 only if the object never moves. So zero average speed ⇒ no motion ⇒ displacement = 0 ⇒ average velocity = 0. Conversely, zero average velocity ⇒ displacement = 0 (e.g., closed loop or back-and-forth), but distance can be > 0 ⇒ average speed > 0. A wrong evaluation (e.g., \"sometimes true\") reveals the student doesn't understand the mathematical relationship: distance ≥ |displacement| always, with equality only for straight-line motion without reversal.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scenario (Indian context) where a vehicle's average speed is exactly twice its average velocity magnitude over a 1-hour trip. Specify the path, distances, and times. Show the calculations.",
+     "a": "Example: A bus travels from Delhi to Gurugram (30 km) in 30 min, then returns halfway (15 km back towards Delhi) in the next 30 min. Total distance = 45 km. Total time = 1 h. Average speed = 45 km/h. Net displacement = 30 - 15 = 15 km (towards Gurugram). Average velocity magnitude = 15 km/h. Ratio = 45/15 = 3 (not 2). To get ratio 2: need distance = 2 × |displacement|. E.g., go 40 km out in 40 min, return 20 km in 20 min. Distance = 60 km, displacement = 20 km. Speed = 60 km/h, velocity = 20 km/h. Ratio = 2. A poor answer (e.g., arbitrary numbers without verification) reveals the student cannot reverse-engineer the relationship distance = 2 × |displacement|.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a frog or rat model to demonstrate that the heart secretes a blood pressure-lowering factor. Describe the setup, control, and expected observation.",
      "a": "Setup: Isolate a beating frog heart with intact atria, perfuse with Ringer's solution, collect coronary effluent, and infuse it into a second preparation (denervated blood vessel or whole animal). Control: Perfusate from ventricle-only preparation or Ringer's alone. Expected: Effluent from atrial preparation causes vasodilation/blood pressure drop; control does not. This demonstrates a humoral factor (ANF) from atria. A poor design (e.g., \"measure heart rate only\" or no control) reveals inability to isolate endocrine vs neural effects and design a bioassay.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Hormones of the heart, kidney, and ______ tract are peptide hormones secreted by non-endocrine tissues that regulate blood pressure, erythropoiesis, and digestive secretions respectively.",
+     "a": "gastrointestinal",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Notice how your heart beats faster and you feel thirsty after eating a very salty meal of papad and pickle - your body is detecting ______ blood volume and pressure.",
+     "a": "increased",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the source, trigger, target organ, and physiological effect of each hormone (ANF, erythropoietin, gastrin, secretin, CCK, GIP) and predict the consequence of their over- or under-secretion on blood pressure, RBC count, and digestion.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Notice how your heart beats faster and you feel thirsty after eating a very salty meal of papad and pickle - your body is ______ increased blood volume and pressure.",
+     "a": "detecting",
+     "self_check": true
     }
    ]
   }

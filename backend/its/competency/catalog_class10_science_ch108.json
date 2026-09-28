@@ -73,14 +73,23 @@
      "action": "verify inheritance source",
      "explain": "Confirm that the trait is genetically transmitted from both parents, since equal genetic contribution from each parent determines phenotypic expression in offspring."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "trait_percentage = (trait_count / total_population) * 100",
+     "compute": "trait_percentage = (trait_count / total_population) * 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.8.2.2a",
    "title": "Monohybrid Cross and Dominant-Recessive Inheritance",
    "section": "8.2.2",
    "definition": "A genetic cross focusing on a single character where heterozygous combination reveals dominant and hidden recessive alleles in a 3:1 phenotypic F2 ratio.",
-   "formula": "f2_dominant = total_offspring * 3 / 4",
+   "formula": "f_2_dominant = total_offspring * 3 / 4",
    "key_idea": "One allele masks the expression of another in heterozygous condition, yielding 3:1 dominant to recessive phenotypes in F2.",
    "textbook_ref": "jesc108.txt lines 70-110",
    "question_patterns": [
@@ -109,7 +118,16 @@
      "action": "verify phenotypic ratio",
      "explain": "Confirm the dominant-to-recessive counts form a 3:1 ratio, validating that one allele masks the other in the heterozygous F1 condition."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "f_2_dominant = total_offspring * 3 / 4",
+     "compute": "f_2_dominant = total_offspring * 3 / 4"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.8.2.2b",
@@ -145,7 +163,16 @@
      "action": "verify 9:3:3:1 distribution",
      "explain": "Sum all four phenotypic classes to confirm they total the full F2 count, validating independent assortment of the two gene pairs."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "phenotype_count = total_seeds * phenotype_ratio_num / 16",
+     "compute": "phenotype_count = total_seeds * phenotype_ratio_num / 16"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jesc.8.2.3",
@@ -215,7 +242,16 @@
      "action": "verify sex determination rule",
      "explain": "An X sperm yields an XX (female) zygote and a Y sperm yields an XY (male) zygote, confirming the father's chromosome dictates the child's sex."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "expected_gender_count = total_children * 0.5",
+     "compute": "expected_gender_count = total_children * 0.5"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

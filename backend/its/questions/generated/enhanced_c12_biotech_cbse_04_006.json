@@ -34,6 +34,31 @@
      "q": "Design a hypothetical recombinant subunit vaccine for a new respiratory virus. Specify: (a) the antigen you would choose, (b) the expression host (yeast, mammalian, or insect), (c) the purification strategy, and (d) one adjuvant you would include. Justify each choice.",
      "a": "Good answer example: (a) Receptor-binding domain (RBD) of spike protein — elicits neutralizing antibodies. (b) Mammalian cells (CHO) — for proper glycosylation matching native virus. (c) His-tag affinity chromatography followed by size-exclusion chromatography. (d) Aluminum hydroxide (alum) — Th2-skewing, safe, approved for human use. Poor answers choose E. coli for a glycosylated protein or omit adjuvant justification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Recombinant subunit vaccines contain only a specific antigenic protein or peptide from a pathogen, produced by cloning the ______ gene into an expression host (e.g., yeast, E. coli) and purifying the expressed protein.",
+     "a": "corresponding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a vaccine developer in 1985 trying to make a ______ B vaccine without using human blood products.",
+     "a": "hepatitis",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) compare subunit and DNA vaccines on production method, mechanism of immune activation, safety profile, and stability, and (2) design a stepwise cloning strategy for a hepatitis B surface antigen (HBsAg) subunit vaccine in yeast, including vector selection, promoter choice, and purification tag.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a vaccine ______ in 1985 trying to make a hepatitis B vaccine without using human blood products.",
+     "a": "developer",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a vaccine developer in ______ trying to make a hepatitis B vaccine without using human blood products.",
+     "a": "1985",
+     "self_check": true
     }
    ]
   }

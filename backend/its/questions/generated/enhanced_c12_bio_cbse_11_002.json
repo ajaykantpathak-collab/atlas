@@ -34,6 +34,31 @@
      "q": "Design a strategy to clone a 1.2 kb human gene into a plasmid vector such that the insert can *only* ligate in one orientation (directional cloning). Specify two restriction enzymes you would use, their recognition sites, and how you would incorporate them into PCR primers.",
      "a": "Strategy: Use two *different* restriction enzymes that produce *incompatible* sticky ends. Example: **EcoRI** (5'-G↓AATTC-3', overhang AATT) at the 5' end of the gene, and **HindIII** (5'-A↓AGCTT-3', overhang AGCT) at the 3' end. PCR forward primer: 5'-GAATTC + gene-specific sequence-3' (adds EcoRI site). PCR reverse primer: 5'-AAGCTT + reverse complement of gene 3' end-3' (adds HindIII site). Digest PCR product and vector with *both* EcoRI and HindIII → insert has EcoRI end on one side, HindIII on the other → vector has matching ends → ligation *only* works in one orientation. A poor answer (using same enzyme for both ends, or using blunt-end enzymes) reveals lack of understanding of how sticky-end compatibility controls orientation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Restriction enzymes (restriction endonucleases) are bacterial enzymes that recognize specific short palindromic DNA sequences (recognition sites) and cleave the ______ backbone at or near these sites, producing either sticky ends (overhangs) or blunt ends; they function as molecular scissors in genetic engineering to cut DNA at precise locations for recombinant DNA construction.",
+     "a": "phosphodiester",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a long DNA strand — like a sentence without spaces — and you need to cut out a ______ gene (a word) to paste it into a plasmid vector.",
+     "a": "specific",
+     "self_check": true
+    },
+    {
+     "q": "What is Restriction enzymes (restriction endonucleases)? State the definition given in this lesson.",
+     "a": "Restriction enzymes (restriction endonucleases) are bacterial enzymes that recognize specific short palindromic DNA sequences (recognition sites) and cleave the phosphodiester backbone at or near these sites, producing either sticky ends (overhangs) or blunt ends; they function as molecular scissors in genetic engineering to cut DNA at.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Restriction enzymes (restriction endonucleases)?",
+     "a": "Students think all restriction enzymes produce sticky ends and that any sticky ends can ligate together.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) name the three types of restriction enzymes and distinguish Type II as the primary tool for genetic engineering, (2) explain the naming convention (e.g., EcoRI) and identify recognition sequences as palindromic, (3) differentiate sticky ends from blunt ends and predict the ends produced by given enzymes, (4) explain how.",
+     "self_check": true
     }
    ]
   }

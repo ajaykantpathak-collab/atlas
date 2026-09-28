@@ -34,6 +34,26 @@
      "q": "Design a multi-pronged strategy to reduce traffic congestion in a million-plus city like Bengaluru, integrating land-use planning, public transport, and demand management. Justify each component geographically.",
      "a": "A good strategy: (1) Land-use: Promote mixed-use zoning along transit corridors (TOD) to reduce trip lengths – geographically, jobs-housing balance reduces peak-hour radial flows. (2) Public transport: Expand metro and bus rapid transit on high-density corridors – leverages existing urban form. (3) Demand management: Congestion pricing in CBD, parking restrictions – reduces private vehicle entry. (4) Non-motorized transport: Dedicated cycling lanes – suits Bengaluru's climate. A poor answer proposes only road widening (induced demand) or ignores spatial distribution of origins/destinations.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Urban settlement problems refer to the adverse conditions arising from rapid and unplanned urbanization, characterized by the proliferation of slums (areas of substandard housing lacking basic services), severe congestion (overcrowding, traffic gridlock, pressure on land), and inadequate ______ (insufficient water supply, sanitation, waste management, transport, and housing) that degrade quality of life and hinder sustainable urban development in Indian cities.",
+     "a": "infrastructure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by observing a busy Indian city like Mumbai or Delhi: notice the juxtaposition of high-rise ______ and sprawling slums, traffic jams on narrow roads, and water tankers supplying areas with no piped connection.",
+     "a": "buildings",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the causes and consequences of slums, congestion, and infrastructure deficits in Indian cities using Census data, identify the spatial patterns of these problems across million-plus cities, and evaluate the effectiveness of government schemes like Smart Cities Mission and PMAY-U in addressing them.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by observing a busy Indian city like Mumbai or Delhi: notice the ______ of high-rise buildings and sprawling slums, traffic jams on narrow roads, and water tankers supplying areas with no piped connection.",
+     "a": "juxtaposition",
+     "self_check": true
     }
    ]
   }

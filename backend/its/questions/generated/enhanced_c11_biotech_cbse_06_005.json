@@ -34,6 +34,36 @@
      "q": "Design a new hypothetical example of incomplete dominance in a plant trait (not flower colour) and a codominance example in an animal trait (not coat colour or blood group). For each, specify the alleles, homozygous phenotypes, and heterozygous phenotype.",
      "a": "Good answer: Incomplete dominance in tomato fruit size: allele F = large fruit, f = small fruit; FF = large, ff = small, Ff = medium fruit. Codominance in chicken feather pattern: allele S = striped feathers, s = solid feathers; SS = striped, ss = solid, Ss = both striped and solid feathers on same bird (distinct patches). Poor answer: using blending for both or giving human traits without distinct expression shows failure to differentiate the mechanisms.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Incomplete dominance is an allelic interaction where the dominant allele in a ______ condition expresses partially, resulting in an intermediate phenotype that blends the two homozygous parental phenotypes, with genotypic and phenotypic ratios both being 1:2:1 in F2.",
+     "a": "heterozygous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you cross a red-flowered ______ with a white-flowered one and get all pink flowers in F1 — neither red nor white, but a blend.",
+     "a": "snapdragon",
+     "self_check": true
+    },
+    {
+     "q": "What is Incomplete dominance? State the definition given in this lesson.",
+     "a": "Incomplete dominance is an allelic interaction where the dominant allele in a heterozygous condition expresses partially, resulting in an intermediate phenotype that blends the two homozygous parental phenotypes, with genotypic and phenotypic ratios both being 1:2:1 in F2.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Codominance is an allelic interaction where both alleles in a heterozygote are fully and independently expressed without blending, producing a phenotype that shows both parental traits simultaneously, and the genotypic ratio equals the phenotypic ratio in F______.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Incomplete dominance?",
+     "a": "Students often think incomplete dominance and codominance are the same because both give 1:2:1 phenotypic ratios in F2.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly predict phenotypic and genotypic ratios for crosses involving incomplete dominance and codominance, distinguish between them using the nature of F1 phenotype (intermediate vs. both traits visible), and explain why Mendel's Law of Dominance does not apply in these cases.",
+     "self_check": true
     }
    ]
   }

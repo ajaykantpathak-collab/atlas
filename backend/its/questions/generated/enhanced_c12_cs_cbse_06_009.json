@@ -12,7 +12,7 @@
     },
     {
      "q": "Explain the difference between `cursor.execute(\"SELECT * FROM students\")` followed by `cursor.fetchall()` versus `cursor.fetchone()` in terms of memory usage and result handling.",
-     "a": "`fetchall()` retrieves all rows at once into a list of tuples, consuming memory proportional to the result set size; `fetchone()` returns a single row (or `None` if no more rows), allowing iterative processing with constant memory overhead. A wrong answer indicates the student does not understand the trade-off between convenience and memory efficiency, which is crucial for large datasets in board practical exams.",
+     "a": "`fetchall()` retrieves all rows at once into a list of tuples, consuming memory proportional to the result set size; `fetchone()` returns a single row (or `N/A` if no more rows), allowing iterative processing with constant memory overhead. A wrong answer indicates the student does not understand the trade-off between convenience and memory efficiency, which is crucial for large datasets in board practical exams.",
      "self_check": true
     },
     {
@@ -33,6 +33,26 @@
     {
      "q": "Design a minimal Python function `delete_student(adm_no)` that deletes a student record by admission number, uses parameterized query, commits on success, rolls back on exception, and ensures cursor/connection are closed. Include only the function body (assume connection parameters are available globally).",
      "a": "```python\ndef delete_student(adm_no):\n    conn = mysql.connector.connect(host=\"localhost\", user=\"root\", password=\"pass\", database=\"school\")\n    cursor = conn.cursor()\n    try:\n        sql = \"DELETE FROM student WHERE adm_no = %s\"\n        cursor.execute(sql, (adm_no,))\n        conn.commit()\n        print(\"Deleted rows:\", cursor.rowcount)\n    except mysql.connector.Error as err:\n        conn.rollback()\n        print(\"Error:\", err)\n    finally:\n        cursor.close()\n        conn.close()\n```\nA poor answer (missing rollback, not closing resources, using string formatting) shows the student cannot synthesize transaction safety, resource management, and parameterization into a robust reusable function — a common board practical question.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: CRUD operations in Python-MySQL refer to the four fundamental database operations—Create (INSERT), Read (SELECT), Update (UPDATE), and Delete (DELETE)—executed through Python's mysql.connector module using ______ queries to ensure security and transaction control.",
+     "a": "parameterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a school library system where you need to add new books, display ______ books, update book quantities when issued, and remove damaged books from the catalog.",
+     "a": "available",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write complete Python scripts that perform all four CRUD operations on a MySQL table using parameterized queries, explicit commits for write operations, proper cursor management, and error handling, while explaining the purpose of each step.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a school library system where you need to add new books, display available books, update book ______ when issued, and remove damaged books from the catalog.",
+     "a": "quantities",
      "self_check": true
     }
    ]

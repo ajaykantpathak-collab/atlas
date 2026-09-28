@@ -31,8 +31,28 @@
      "self_check": true
     },
     {
-     "q": "[Question needed - generate a create level question]",
-     "a": "[Answer needed]",
+     "q": "Design a one-day coastal field-trip itinerary from Mumbai towards Kanyakumari in which students observe the differences between the subdivisions of the Western Coastal Plain, naming each subdivision they cross and one physical feature they would record at each stop.",
+     "a": "A strong itinerary moves from Mumbai through the Konkan (rocky, narrow coast with natural harbours and heavy monsoon cliffs), across the Kanara coast of Karnataka (sandy strips dotted with coconut groves), and ends on the Malabar coast of Kerala (kayals or backwaters used for transport and tourism), with one recorded feature per stop. A weak itinerary invents eastern-coast features such as broad deltas, which the western seaboard's steep, short rivers never form.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The coastal plains of India are narrow strips of flat, fertile land flanking the ______ Plateau, wedged between the Western Ghats and the Arabian Sea on the west, and the Eastern Ghats and the Bay of Bengal on the east.",
+     "a": "Peninsular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine traveling from Mumbai down to the beaches of Kerala, or across from Chennai up to the delta of the ______ River.",
+     "a": "Mahanadi",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can differentiate between the narrow, rocky Western Coastal Plain and the broad, delta-rich Eastern Coastal Plain, explain the formation of their specific subdivisions (such as Konkan, Malabar, Coromandel, and Northern Circars), and relate their physical characteristics to human activities like fishing, agriculture, and port development.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine ______ from Mumbai down to the beaches of Kerala, or across from Chennai up to the delta of the Mahanadi River.",
+     "a": "traveling",
      "self_check": true
     }
    ]

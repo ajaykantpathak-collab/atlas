@@ -34,6 +34,31 @@
      "q": "Design a field study to test whether two coexisting frog species in a Western Ghats stream partition their niches by diet, microhabitat, or breeding time. Outline methodology, data to collect, and how you would analyze niche overlap.",
      "a": "Method: (1) Stomach flushing or fecal metabarcoding for diet composition. (2) Nightly quadrat surveys recording perch height, substrate, distance to water. (3) Call surveys and egg mass counts across breeding season. Analysis: Calculate Pianka's niche overlap index (0–1) for each axis; values <0.6 suggest partitioning. A poor answer that only lists \"observe frogs\" lacks quantitative rigor — competitive exams expect knowledge of overlap indices and multidimensional niche quantification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Habitat is the specific physical location or environment where an organism lives, ______ by its abiotic factors (temperature, light, soil, water) and biotic components.",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a banyan tree (Ficus ______) in your neighborhood: it provides habitat for epiphytes, birds, insects, and squirrels.",
+     "a": "benghalensis",
+     "self_check": true
+    },
+    {
+     "q": "What is Habitat? State the definition given in this lesson.",
+     "a": "Habitat is the specific physical location or environment where an organism lives, characterized by its abiotic factors (temperature, light, soil, water) and biotic components.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Habitat?",
+     "a": "Students think \"niche = habitat + food\" and omit reproductive strategy, temporal activity patterns, and behavioral interactions.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can distinguish habitat from niche using specific examples, explain the competitive exclusion principle with a real case, and predict consequences of niche overlap between two species in a given ecosystem.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using household items to demonstrate the principle of fractional distillation without a fractionating column, and explain how you would verify the separation.",
      "a": "Use two pots: boil a mixture of water and vinegar (acetic acid b.p. 118°C) in one pot, place a smaller bowl floating inside to collect condensate, cover with an inverted lid filled with ice. The condensate will be mostly water (b.p. 100°C). Verify by smelling (vinegar smell remains in pot) or testing pH of condensate (neutral) vs residue (acidic). A poor answer (e.g., \"just boil and collect\") misses the need for temperature control and verification of separation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Distillation is a physical separation technique used to separate components of a homogeneous mixture of miscible liquids based on differences in their boiling points; simple distillation is effective when boiling points differ by more than 25°C, while fractional distillation uses a ______ column to achieve separation when boiling points are closer.",
+     "a": "fractionating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a bottle of homemade rose water that smells faintly of ______ because it was fermented slightly – you want pure rose water.",
+     "a": "alcohol",
+     "self_check": true
+    },
+    {
+     "q": "What is Distillation? State the definition given in this lesson.",
+     "a": "Distillation is a physical separation technique used to separate components of a homogeneous mixture of miscible liquids based on differences in their boiling points; simple distillation is effective when boiling points differ by more than 25°C, while fractional distillation uses a fractionating column to achieve separation when boiling.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Distillation is a physical separation technique used to separate components of a homogeneous mixture of miscible liquids based on differences in their boiling points; simple distillation is effective when boiling points differ by more than ______°C, while fractional distillation uses a fractionating column to achieve separation when boiling points are closer.",
+     "a": "25",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Distillation?",
+     "a": "Students often think the thermometer bulb should be dipped in the boiling liquid; actually it must be placed at the side-arm entrance so it reads the vapour temperature.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the principle of distillation using particle theory, correctly choose between simple and fractional distillation for a given mixture, and draw labelled apparatus diagrams showing the direction of water flow in the condenser and the position of the thermometer bulb.",
+     "self_check": true
     }
    ]
   }

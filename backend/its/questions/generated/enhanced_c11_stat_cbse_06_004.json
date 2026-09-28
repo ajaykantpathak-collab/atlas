@@ -34,6 +34,36 @@
      "q": "Create a small discrete dataset (N=12) where Q₁ and Q₃ fall *exactly* on an observation (no interpolation needed) and the Coefficient of Quartile Deviation equals 0.25. Provide the data, frequency, and verification steps.",
      "a": "Example: X: 10, 20, 30, 40; f: 3, 3, 3, 3 (N=12). Q₁ pos = 3rd item → 10. Q₃ pos = 9th item → 30. Q.D. = (30-10)/2 = 10. Coefficient = (30-10)/(30+10) = 20/40 = 0.5 (not 0.25). To get 0.25, need (Q₃-Q₁)/(Q₃+Q₁)=1/4 → 4Q₃-4Q₁=Q₃+Q₁ → 3Q₃=5Q₁ → Q₃=(5/3)Q₁. Choose Q₁=30, Q₃=50. Data: X: 30, 40, 50; f: 4, 4, 4 (N=12). Q₁ pos=3 → 30, Q₃ pos=9 → 50. Coeff = 20/80 = 0.25. A poor answer fails to set up the algebraic condition, showing inability to reverse-engineer the coefficient formula.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Quartile Deviation (Q.D.) is an absolute measure of ______ defined as half the difference between the third quartile (Q₃) and the first quartile (Q₁), i.e., Q.D. = (Q₃ - Q₁)/2.",
+     "a": "dispersion",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing the ______ wages (in ₹) of 10 factory workers: 3000, 4500, 5000, 5500, 6000, 6500, 7000, 7500, 8000, 10000.",
+     "a": "monthly",
+     "self_check": true
+    },
+    {
+     "q": "What is Quartile Deviation (Q.D.)? State the definition given in this lesson.",
+     "a": "Quartile Deviation (Q.D.) is an absolute measure of dispersion defined as half the difference between the third quartile (Q₃) and the first quartile (Q₁), i.e., Q.D. = (Q₃ - Q₁)/2.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Quartile Deviation (Q.D.) is an absolute measure of dispersion defined as half the difference between the third quartile (Q₃) and the first quartile (Q₁), i.e., Q.D. = (Q₃ - Q₁)/______.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Quartile Deviation (Q.D.)?",
+     "a": "Students often confuse the positional formulas for discrete vs. continuous series.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to compute Q₁ and Q₃ for individual, discrete, and continuous series using the correct positional formulas, then calculate Quartile Deviation and its Coefficient, and finally interpret the result in the context of the data's spread.",
+     "self_check": true
     }
    ]
   }

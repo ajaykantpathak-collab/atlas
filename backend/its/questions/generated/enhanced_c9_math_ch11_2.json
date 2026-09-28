@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch11_2",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch11_2",
+   "title": "c9_math_ch11_2",
+   "questions": [
+    {
+     "q": "State the SAS congruence rule in your own words, explicitly mentioning the condition on the angle.",
+     "a": "**Answer:** Two triangles are congruent if two sides and the **included angle** (the angle between those two sides) of one triangle are equal to the corresponding two sides and included angle of the other triangle.  \n**Misconception revealed:** If a student says \"two sides and any angle\" or \"two sides and a non-included angle\", they confuse SAS with the invalid SSA condition. This is the most frequent board-level error — treating the angle as \"any angle\" rather than the specific included angle.",
+     "self_check": true
+    },
+    {
+     "q": "In ΔPQR, PQ = 5 cm, QR = 7 cm, and ∠P = 50°. In ΔXYZ, XY = 5 cm, YZ = 7 cm, and ∠X = 50°. A student claims ΔPQR ≅ ΔXYZ by SAS. Is the student correct? Explain why or why not.",
+     "a": "**Answer:** No, the student is **incorrect**. In ΔPQR, the given angle ∠P is **not** included between the given sides PQ and QR (the included angle would be ∠Q). In ΔXYZ, ∠X is included between XY and XZ, but we are not given XZ — we are given YZ. The correspondence of parts is mismatched.  \n**Misconception revealed:** Students often match side lengths and angle measures numerically without checking *geometric position* (which angle is between which sides). Board exams frequently test this by giving SSA data disguised as SAS.",
+     "self_check": true
+    },
+    {
+     "q": "In the figure, AC = AD, AB bisects ∠CAD, and AB is common. Prove that ΔABC ≅ ΔABD. Write the congruence statement with correct vertex order and state the criterion used at each step.",
+     "a": "**Answer:**  \n**Given:** AC = AD, AB bisects ∠CAD ⇒ ∠CAB = ∠DAB, AB = AB (common).  \n**Steps:**  \n1. In ΔABC and ΔABD: AC = AD (Given)  \n2. ∠CAB = ∠DAB (AB bisects ∠CAD)  \n3. AB = AB (Common side)  \n4. ∴ ΔABC ≅ ΔABD (By SAS rule)  \n**Correspondence:** A ↔ A, B ↔ B, C ↔ D.  \n**Error analysis:** A wrong answer like ΔABC ≅ ΔADB shows the student does not understand vertex correspondence — the equal angles (∠CAB and ∠DAB) are at vertex A, so A maps to A; the equal sides AC and AD are opposite B, so C maps to D.",
+     "self_check": true
+    },
+    {
+     "q": "Two triangles have sides 6 cm, 8 cm and included angle 60°. A third triangle has sides 6 cm, 8 cm and a **non-included** angle of 60° opposite the 6 cm side. Can all three triangles be congruent? Justify using the concept of triangle uniqueness.",
+     "a": "**Answer:** No. The first two triangles (SAS data: 6 cm, 60°, 8 cm) are **uniquely determined** and must be congruent to each other. The third triangle has SSA data (6 cm, 8 cm, 60° opposite 6 cm). This data can produce **two different triangles** (ambiguous case) or one triangle, but it does **not guarantee congruence** with the SAS triangles.  \n**Misconception revealed:** Students often think \"same three measurements = congruent\" without checking if the angle is included. This question tests deep understanding that SAS guarantees uniqueness while SSA does not — a key board-level distinction.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the following proof:  \n\"In ΔABC and ΔDEF, AB = DE, BC = EF, and ∠A = ∠D. Therefore, ΔABC ≅ ΔDEF by SAS.\"  \nIdentify the error and rewrite the proof correctly if possible, or explain why congruence cannot be concluded.",
+     "a": "**Answer:** The error is that ∠A is **not the included angle** between AB and BC (the included angle is ∠B). The given data is SSA, which is **not a valid congruence criterion**. Congruence **cannot be concluded** from this information alone. A correct SAS proof would require either ∠B = ∠E (included between AB, BC and DE, EF) or a different pairing of sides and included angle.  \n**Misconception revealed:** The student matches the *first* angle in the naming order (∠A, ∠D) rather than the angle *between* the two given sides. Board exams often present triangles with vertices ordered to trap this exact error.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-life problem (Indian context: carpentry, tailoring, kite-making, rangoli) where a craftsman uses the SAS principle to ensure two pieces are identical **without measuring the third side**. Describe the steps and explain why SAS works here.",
+     "a": "**Expected answer:**  \n*Context:* A tailor in Lucknow stitches two identical triangular gussets for a kurta. She cuts two fabric strips of 12 cm and 15 cm, places them at a fixed 70° angle (using a template), and cuts the third side along the free edges.  \n*Why SAS works:* The two sides and included angle fix the triangle's shape and size completely — the third side's length and the other two angles are forced. Measuring the third side is unnecessary.  \n*Poor answer reveals:* If the student describes measuring all three sides (SSS) or two angles and a side (ASA), they haven't grasped the *efficiency* of SAS — that the included angle *alone* locks the triangle without needing the third side.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

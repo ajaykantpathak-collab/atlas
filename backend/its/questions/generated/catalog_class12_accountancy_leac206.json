@@ -1,6 +1,100 @@
 {
- "catalog": "catalog_class12_accountancy_leac206",
+ "catalog": "catalog_class12_accountancy_leac206.json",
  "concepts": [
+  {
+   "id": "leac.206.4.1",
+   "title": "Objectives and Benefits of a Cash Flow Statement",
+   "converted_to_compute": true,
+   "formula": "statement_purpose = cash_sources + cash_uses + future_capacity_signal",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "statement_purpose = cash_sources + cash_uses + future_capacity_signal",
+     "compute": "statement_purpose = cash_sources + cash_uses + future_capacity_signal"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Objectives and Benefits of a Cash Flow Statement: given cash_sources = 10.8, cash_uses = 30, future_capacity_signal = 37, find statement purpose.",
+     "a": "77.8",
+     "self_check": false
+    },
+    {
+     "q": "For Objectives and Benefits of a Cash Flow Statement: given cash_sources = 68, cash_uses = 2.5, future_capacity_signal = 77, find statement purpose.",
+     "a": "147.5",
+     "self_check": false
+    },
+    {
+     "q": "For Objectives and Benefits of a Cash Flow Statement: given cash_sources = 68, cash_uses = 40, future_capacity_signal = 76, find statement purpose.",
+     "a": "184",
+     "self_check": false
+    },
+    {
+     "q": "For Objectives and Benefits of a Cash Flow Statement: given cash_sources = 26, cash_uses = 92, future_capacity_signal = 31, find statement purpose.",
+     "a": "149",
+     "self_check": false
+    },
+    {
+     "q": "For Objectives and Benefits of a Cash Flow Statement: given cash_sources = 96, cash_uses = 67, future_capacity_signal = 86, find statement purpose.",
+     "a": "249",
+     "self_check": false
+    },
+    {
+     "q": "For Objectives and Benefits of a Cash Flow Statement: given cash_sources = 62, cash_uses = 16.1, future_capacity_signal = 74, find statement purpose.",
+     "a": "152.1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leac.206.7.3",
+   "title": "Borrowings Raised (Balancing the Loan Account)",
+   "converted_to_compute": true,
+   "formula": "borrowings_raised = closing_long_term_loans + loans_repaid - opening_long_term_loans",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "borrowings_raised = closing_long_term_loans + loans_repaid - opening_long_term_loans",
+     "compute": "borrowings_raised = closing_long_term_loans + loans_repaid - opening_long_term_loans"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Borrowings Raised (Balancing the Loan Account): given closing_long_term_loans = 37, loans_repaid = 77, opening_long_term_loans = 23, find borrowings raised.",
+     "a": "91",
+     "self_check": false
+    },
+    {
+     "q": "For Borrowings Raised (Balancing the Loan Account): given closing_long_term_loans = 64, loans_repaid = 21, opening_long_term_loans = 74, find borrowings raised.",
+     "a": "11",
+     "self_check": false
+    },
+    {
+     "q": "For Borrowings Raised (Balancing the Loan Account): given closing_long_term_loans = 112, loans_repaid = 67, opening_long_term_loans = 9.8, find borrowings raised.",
+     "a": "169.2",
+     "self_check": false
+    },
+    {
+     "q": "For Borrowings Raised (Balancing the Loan Account): given closing_long_term_loans = 43, loans_repaid = 93, opening_long_term_loans = 3.6, find borrowings raised.",
+     "a": "132.4",
+     "self_check": false
+    },
+    {
+     "q": "For Borrowings Raised (Balancing the Loan Account): given closing_long_term_loans = 114, loans_repaid = 33, opening_long_term_loans = 60, find borrowings raised.",
+     "a": "87",
+     "self_check": false
+    },
+    {
+     "q": "For Borrowings Raised (Balancing the Loan Account): given closing_long_term_loans = 26, loans_repaid = 44, opening_long_term_loans = 110, find borrowings raised.",
+     "a": "-40",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "leac.206.3.1",
    "title": "Cash and Cash Equivalents",
@@ -28,37 +122,6 @@
     {
      "q": "Write the standard relation used for 'Cash and Cash Equivalents', in plain ASCII form.",
      "a": "cash_and_equivalents = cash_in_hand + demand_deposits + short_term_marketable_investments",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leac.206.4.1",
-   "title": "Objectives and Benefits of a Cash Flow Statement",
-   "questions": [
-    {
-     "q": "Using the method 'Objectives and Benefits of a Cash Flow Statement', work with: cash_sources = 3, cash_uses = 4, future_capacity_signal = 4096. Carry the chain through step by step and give the final value of statement_purpose.",
-     "a": "4103 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Objectives and Benefits of a Cash Flow Statement' and work with: cash_sources = 15, cash_uses = 20, future_capacity_signal = 8192. Carry the chain through step by step and give the final value of statement_purpose.",
-     "a": "8227 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Objectives and Benefits of a Cash Flow Statement' refers to.",
-     "a": "The statement traces where the cash of an enterprise came from and where it went across the period, helping users judge the firm's capacity to generate cash, meet obligations and pay returns, beyond what profit figures alone reveal.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Objectives and Benefits of a Cash Flow Statement'.",
-     "a": "Profit is an opinion on accruals; the cash flow statement shows the money that actually moved.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Objectives and Benefits of a Cash Flow Statement', in plain ASCII form.",
-     "a": "statement_purpose = cash_sources + cash_uses + future_capacity_signal",
      "self_check": true
     }
    ]
@@ -307,37 +370,6 @@
     {
      "q": "Write the standard relation used for 'Depreciation Provided (Balancing Accumulated Depreciation)', in plain ASCII form.",
      "a": "depreciation_provided = closing_accumulated_depreciation + accumulated_depreciation_on_sold_asset - opening_accumulated_depreciation",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leac.206.7.3",
-   "title": "Borrowings Raised (Balancing the Loan Account)",
-   "questions": [
-    {
-     "q": "Calculate the proceeds from long-term borrowings during the year. Use the method 'Borrowings Raised (Balancing the Loan Account)'. Work with: closing_long_term_loans = 300, loans_repaid = 400, opening_long_term_loans = 100. Carry the chain through step by step and give the final value of borrowings_raised.",
-     "a": "600 rupees",
-     "self_check": false
-    },
-    {
-     "q": "How much was borrowed when part of the loan was repaid? Use the method 'Borrowings Raised (Balancing the Loan Account)'. Work with: closing_long_term_loans = 3, loans_repaid = 150, opening_long_term_loans = 25. Carry the chain through step by step and give the final value of borrowings_raised.",
-     "a": "128 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Borrowings Raised (Balancing the Loan Account)' refers to.",
-     "a": "Fresh long-term borrowings are the balancing figure of the loan account: closing loan balance plus loans repaid during the year minus the opening balance, and the figure becomes a financing inflow.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Borrowings Raised (Balancing the Loan Account)'.",
-     "a": "The account tells both sides of the financing story -- the repayment that went out and the fresh money that came in.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Borrowings Raised (Balancing the Loan Account)', in plain ASCII form.",
-     "a": "borrowings_raised = closing_long_term_loans + loans_repaid - opening_long_term_loans",
      "self_check": true
     }
    ]

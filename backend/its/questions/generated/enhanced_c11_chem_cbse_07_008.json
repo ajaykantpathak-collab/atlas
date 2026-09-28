@@ -34,6 +34,26 @@
      "q": "Design a simple laboratory experiment to demonstrate that a catalyst does not change the equilibrium constant for the reaction: H₂O₂(aq) ⇌ H₂O(l) + ½O₂(g) (catalysed by MnO₂). Specify measurements, controls, and how you would prove Kc is unchanged.",
      "a": "Set up two identical closed systems with known initial [H₂O₂] at constant temperature. Add MnO₂ to one (catalysed) and none to the other (uncatalysed). Monitor [H₂O₂] vs time (e.g., by titration with KMnO₄) until both reach constant concentration. The final [H₂O₂] in both systems will be identical, proving Kc = [H₂O]²[O₂]½/[H₂O₂] is unchanged. The catalysed system reaches this final value much faster. A poor design (e.g., open system allowing O₂ escape, or not waiting for true equilibrium in the uncatalysed system) would fail to isolate the thermodynamic endpoint from kinetic effects.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A catalyst is a substance that increases the rate of both the forward and reverse reactions in a reversible chemical ______ by providing an alternative reaction pathway with lower activation energy, without being consumed in the overall reaction.",
+     "a": "equilibrium",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a Haber process ______ reactor in a fertilizer plant: iron catalyst speeds up ammonia synthesis from N₂ and H₂.",
+     "a": "industrial",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Without the catalyst, the reaction is too slow at ______ K; with it, equilibrium is reached in minutes.",
+     "a": "700",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain why a catalyst does not shift the equilibrium position using the concept of activation energy and the equality of forward/reverse rate enhancement, and predict that adding a catalyst to an equilibrium mixture at constant temperature leaves the equilibrium composition unchanged while reducing the time.",
+     "self_check": true
     }
    ]
   }

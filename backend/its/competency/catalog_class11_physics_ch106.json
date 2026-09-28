@@ -101,7 +101,16 @@
      "solution": "Step 1: calculate acceleration of centre of mass. Step 2: verify that internal forces cancel out. Step 3: relate centre of mass acceleration to total linear momentum change. Working: f_ext / total_mass, 0, (p_final - p_initial) / (total_mass * delta_t).",
      "answer": "The method of acceleration of centre of mass leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "a_cm = f_ext / total_mass",
+     "compute": "a_cm = f_ext / total_mass"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.106.6.4.1",
@@ -150,7 +159,16 @@
      "solution": "Step 1: calculate total linear momentum. Step 2: verify momentum conservation for an isolated system. Step 3: relate total momentum to net external force. Working: total_mass * v_cm, (mass_i * velocity_i), (p_final - p_initial) / delta_t.",
      "answer": "The method of linear momentum of a system of particles leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "p_total = total_mass * v_cm",
+     "compute": "p_total = total_mass * v_cm"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.106.6.5.1",
@@ -167,7 +185,7 @@
     "how does a cross product behave under spatial reflection",
     "show that self cross product of a vector equals zero vector"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -184,7 +202,16 @@
      "action": "verify anti-commutativity and zero self-cross-product properties",
      "explain": "Confirm that a x b equals negative of b x a, and that the cross product of any vector with itself yields the zero vector."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "c = a * b * sin(theta)",
+     "compute": "c = a * b * sin(theta)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.106.6.6.1",
@@ -232,7 +259,16 @@
      "solution": "Step 1: compute tangential linear speed. Step 2: determine the direction of tangential velocity. Step 3: verify consistency with angular speed and radius. Working: omega * r, perpendicular_to_r.",
      "answer": "The method of tangential velocity in rigid body rotation leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "v = omega * r",
+     "compute": "v = omega * r"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.106.6.7.1",
@@ -280,7 +316,16 @@
      "solution": "Step 1: calculate torque magnitude. Step 2: determine the direction of torque using right hand rule. Step 3: verify torque as the cross product of position and force vectors. Working: force * arm_length, r_cross_f.",
      "answer": "The method of torque or moment of force leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "tau = force * arm_length",
+     "compute": "tau = force * arm_length"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.106.6.7.2",
@@ -328,7 +373,16 @@
      "solution": "Step 1: calculate angular momentum. Step 2: determine the direction of angular momentum vector. Step 3: verify angular momentum as the cross product of position and momentum. Working: mass * velocity * r_perp, r_cross_p.",
      "answer": "The method of angular momentum of a particle leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "L = mass * velocity * r_perp",
+     "compute": "L = mass * velocity * r_perp"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.106.6.8.1",
@@ -377,7 +431,16 @@
      "solution": "Step 1: calculate required effort force. Step 2: compute the clockwise moment produced by the load. Step 3: verify rotational equilibrium by equating clockwise and counter-clockwise moments. Working: (load * load_arm) / effort_arm, load * load_arm, effort * effort_arm.",
      "answer": "The method of principle of moments for levers leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "effort = (load * load_arm) / effort_arm",
+     "compute": "effort = (load * load_arm) / effort_arm"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.106.6.9.1",
@@ -426,14 +489,23 @@
      "solution": "Step 1: compute moment of inertia. Step 2: compute the radius of gyration from the moment of inertia if needed. Step 3: verify the moment of inertia using the parallel axis theorem when needed. Working: mass * (radius_gyration ** 2), sqrt(inertia / mass), inertia_cm + mass * (offset ** 2).",
      "answer": "The method of moment of inertia and radius of gyration leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "I = mass * (radius_gyration ** 2)",
+     "compute": "I = mass * (radius_gyration ** 2)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.106.6.10.1",
    "title": "Rotational Kinematics with Constant Angular Acceleration",
    "section": "6.10",
    "definition": "Equations describing rotational motion under uniform angular acceleration, directly analogous to linear kinematics.",
-   "formula": "omega = omega0 + alpha * t",
+   "formula": "omega = omega_0 + alpha * t",
    "key_idea": "Angular speed changes linearly with time under constant angular acceleration.",
    "textbook_ref": "keph106.txt lines 760-810",
    "question_patterns": [
@@ -475,7 +547,16 @@
      "solution": "Step 1: compute final angular velocity. Step 2: calculate angular displacement during the acceleration interval. Step 3: verify using the angular velocity-displacement relation. Working: omega0 + alpha * t, omega0 * t + 0.5 * alpha * (t ** 2), sqrt(omega0 ** 2 + 2 * alpha * theta).",
      "answer": "The method of rotational kinematics with constant angular acceleration leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "omega = omega_0 + alpha * t",
+     "compute": "omega = omega_0 + alpha * t"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.106.6.11.1",
@@ -524,7 +605,16 @@
      "solution": "Step 1: compute angular acceleration. Step 2: calculate the final angular velocity after the torque acts for a given time. Step 3: verify the torque-angular momentum relationship. Working: tau / inertia, omega0 + alpha * t, (l_final - l_initial) / delta_t.",
      "answer": "The method of rotational dynamics and angular acceleration leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "alpha = tau / I",
+     "compute": "alpha = tau / I"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.106.6.11.2",
@@ -573,7 +663,16 @@
      "solution": "Step 1: compute rotational kinetic energy. Step 2: calculate total kinetic energy including translational component if rolling. Step 3: verify energy conservation in rolling without slipping. Working: 0.5 * inertia * (omega ** 2), 0.5 * mass * (v_cm ** 2) + ke_rot, omega * radius.",
      "answer": "The method of rotational kinetic energy leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ke_rot = 0.5 * I * (omega ** 2)",
+     "compute": "ke_rot = 0.5 * I * (omega ** 2)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.106.12.1",
@@ -622,7 +721,16 @@
      "solution": "Step 1: multiply moment of inertia by angular speed. Step 2: verify the direction of angular momentum along the symmetry axis. Step 3: relate angular momentum to torque using the time derivative. Working: inertia * omega, along_axis, (l_final - l_initial) / delta_t.",
      "answer": "The method of angular momentum of a rigid body about a fixed axis leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "L = I * omega",
+     "compute": "L = I * omega"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.106.12.2",
@@ -671,14 +779,23 @@
      "solution": "Step 1: divide torque by moment of inertia. Step 2: calculate the final angular velocity after the torque acts for a given time. Step 3: verify the rotational analogue of Newton's second law. Working: torque / inertia, omega0 + alpha * t, inertia * alpha.",
      "answer": "The method of torque and angular acceleration leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "torque = I * alpha",
+     "compute": "torque = I * alpha"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.106.12.3",
    "title": "Conservation of Angular Momentum",
    "section": "6.12.1",
    "definition": "When the external torque on a body rotating about a fixed axis is zero, its total angular momentum remains constant.",
-   "formula": "omega2 = (I1 * omega1) / I2",
+   "formula": "omega_2 = (I_1 * omega_1) / I_2",
    "key_idea": "In the absence of external torque, altering moment of inertia causes an inverse change in angular velocity.",
    "textbook_ref": "keph106.txt lines 71-110",
    "question_patterns": [
@@ -720,7 +837,16 @@
      "solution": "Step 1: calculate initial angular momentum. Step 2: divide initial angular momentum by final moment of inertia. Step 3: verify conservation by comparing initial and final angular momentum. Working: inertia1 * omega1, l_initial / inertia2, inertia2 * omega2.",
      "answer": "The method of conservation of angular momentum leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "omega_2 = (I_1 * omega_1) / I_2",
+     "compute": "omega_2 = (I_1 * omega_1) / I_2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.106.12.4",
@@ -818,7 +944,16 @@
      "solution": "Step 1: multiply torque by angular speed. Step 2: convert angular speed from revolutions per minute to radians per second if needed. Step 3: verify power as the rate of doing rotational work. Working: torque * omega, omega_rpm * 2 * pi / 60, work_torque / delta_t.",
      "answer": "The method of power transmitted by torque leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "power = torque * omega",
+     "compute": "power = torque * omega"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.106.12.6",

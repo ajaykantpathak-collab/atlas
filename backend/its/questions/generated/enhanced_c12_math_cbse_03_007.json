@@ -34,6 +34,31 @@
      "q": "Construct a real-world scenario involving two sequential operations (e.g., discounts and taxes, rotations and translations, encoding steps) where changing the order changes the final outcome. Represent each operation as a 2×2 matrix and verify non-commutativity.",
      "a": "Scenario: A shop offers a 20% discount (matrix D = [[0.8, 0], [0, 0.8]]) and then adds 18% GST (matrix G = [[1.18, 0], [0, 1.18]]). Since both are scalar matrices, they commute — bad example! Better: Rotation by 90° (R = [[0, -1], [1, 0]]) and scaling x by 2, y by 3 (S = [[2, 0], [0, 3]]). RS = [[0, -3], [2, 0]], SR = [[0, -2], [3, 0]] — different! This models rotating a rectangle then stretching vs stretching then rotating. A poor answer uses only diagonal/scalar matrices which always commute, missing the point. A good answer uses non-commuting transformations (rotation + shear, or two different rotations) and explains the geometric meaning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Matrix ______ is non-commutative, meaning that for two matrices A and B where both products AB and BA are defined, it is generally true that AB ≠ BA.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ two payment plans for a school canteen: Plan A charges ₹5 per snack and ₹20 per meal, Plan B charges ₹8 per snack and ₹15 per meal.",
+     "a": "comparing",
+     "self_check": true
+    },
+    {
+     "q": "What is Matrix multiplication? State the definition given in this lesson.",
+     "a": "Matrix multiplication is non-commutative, meaning that for two matrices A and B where both products AB and BA are defined, it is generally true that AB ≠ BA.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Matrix multiplication?",
+     "a": "Students believe that if AB and BA are both defined and of the same order (e.g., both 2×2), then AB = BA must hold.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) determine whether AB and BA are both defined for given matrices, (2) compute both products correctly and compare them, (3) identify special cases where commutativity holds (diagonal matrices, scalar multiples of identity), and (4) construct counterexamples to demonstrate non-commutativity in JEE-style problems.",
+     "self_check": true
     }
    ]
   }

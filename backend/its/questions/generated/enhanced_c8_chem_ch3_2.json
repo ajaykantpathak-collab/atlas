@@ -34,6 +34,21 @@
      "q": "Design a simple kitchen test using household items (like oil, salt, water, and sand) to demonstrate to your younger sibling the difference between a homogeneous and a heterogeneous mixture.",
      "a": "A good answer proposes mixing salt in water to show a clear, uniform liquid (homogeneous) and mixing oil or sand in water to show distinct layers or particles (heterogeneous), along with an explanation of why the components behave differently. A poor answer fails to provide distinct examples or lacks a clear visual criterion for comparison.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A homogeneous mixture has a uniform composition throughout, meaning its components are evenly distributed and cannot be ______ visually (e.g., salt dissolved in water).",
+     "a": "distinguished",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine pouring a spoonful of sugar into a glass of water and stirring it until it ______ disappears; notice how every sip tastes equally sweet.",
+     "a": "completely",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can classify various everyday mixtures as homogeneous or heterogeneous based on particle distribution, visual appearance, and phase boundaries, and can justify the classification using scientific properties.",
+     "self_check": true
     }
    ]
   }

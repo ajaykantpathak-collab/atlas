@@ -4,15 +4,8 @@
   {
    "id": "gegp2.3.1",
    "title": "The Greatest of All: Factors in Common",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
-     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 12 * 1 gives 12",
-     "compute": "hcf = 12 * 1"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 60 and 72 have HCF 12 with coprime multipliers 5 and 6. Verify by computing hcf = 12 x 1; then find the HCF value.",
@@ -50,6 +43,8 @@
    "id": "gegp2.3.2",
    "title": "HCF from Common Prime Factors",
    "converted_to_compute": false,
+   "formula": "hcf = p * q",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 24 and 36 have HCF 12 with coprime multipliers 2 and 3. Verify by computing hcf = 12 x 1; then find the HCF value.",
@@ -86,15 +81,8 @@
   {
    "id": "gegp2.3.3",
    "title": "Using the HCF in Problems",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
-     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 5 * 1 gives 5",
-     "compute": "hcf = 5 * 1"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two numbers 5 and 25 have HCF 5 with coprime multipliers 1 and 5. Verify by computing hcf = 5 x 1; then find the HCF value.",
@@ -131,26 +119,13 @@
   {
    "id": "gegp2.3.4",
    "title": "Primes Help Find Common Ground",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "verify the number-theory claim numerically",
-     "explain": "verify the number-theory claim numerically: lhs = 3 ** 3 + 4 ** 3 gives 91",
-     "compute": "lhs = 3 ** 3 + 4 ** 3"
-    },
-    {
-     "step": 2,
-     "action": "read off the answer",
-     "explain": "verify the number-theory claim numerically: diff = 5 ** 3 - lhs gives 34",
-     "compute": "diff = 5 ** 3 - lhs"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Fermat's Last Theorem says x^n + y^n = z^n has no positive solutions for n > 2. For n = 3 compute 5^3 - (3^3 + 4^3) to see it is not zero.",
      "a": "34",
-     "self_check": false
+     "self_check": true
     },
     {
      "q": "Check whether 6 is a perfect number: its proper divisors are 1, 2 and 3. Find their sum.",
@@ -169,7 +144,7 @@
     },
     {
      "q": "Divisibility by 9: a number is divisible by 9 when its digit sum is. Find the digit sum of 729 and report the digit sum.",
-     "a": "0",
+     "a": "18",
      "self_check": false
     },
     {

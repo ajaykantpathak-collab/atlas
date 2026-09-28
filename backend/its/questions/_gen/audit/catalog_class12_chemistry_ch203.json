@@ -1,0 +1,182 @@
+{
+ "catalog": "catalog_class12_chemistry_ch203.json",
+ "concepts": [
+  {
+   "id": "lech.8.6.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "Alkane_root_minus_e = 53",
+      "oic_acid = 64",
+      "IUPAC_name = Alkane_root_minus_e + oic_acid"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "Alkane_root_minus_e = 72",
+      "oic_acid = 56",
+      "IUPAC_name = Alkane_root_minus_e + oic_acid"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "Alkane_root_minus_e = 14.1",
+      "oic_acid = 61",
+      "IUPAC_name = Alkane_root_minus_e + oic_acid"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "Alkane_root_minus_e = 1",
+      "oic_acid = 95",
+      "IUPAC_name = Alkane_root_minus_e + oic_acid"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "Alkane_root_minus_e = 57",
+      "oic_acid = 13.5",
+      "IUPAC_name = Alkane_root_minus_e + oic_acid"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "Alkane_root_minus_e = 46",
+      "oic_acid = 75",
+      "IUPAC_name = Alkane_root_minus_e + oic_acid"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "IUPAC_name = Alkane_root_minus_e + oic_acid"
+   ]
+  },
+  {
+   "id": "lech.8.0.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "c_count = 74",
+      "h_count = 25",
+      "ihd = (2 * c_count + 2 - h_count) // 2"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "c_count = 161",
+      "h_count = 375",
+      "ihd = (2 * c_count + 2 - h_count) // 2"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "c_count = 418",
+      "h_count = 2",
+      "ihd = (2 * c_count + 2 - h_count) // 2"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "c_count = 440",
+      "h_count = 45",
+      "ihd = (2 * c_count + 2 - h_count) // 2"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "c_count = 369",
+      "h_count = 465",
+      "ihd = (2 * c_count + 2 - h_count) // 2"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "c_count = 168",
+      "h_count = 270",
+      "ihd = (2 * c_count + 2 - h_count) // 2"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "ihd = (2 * c_count + 2 - h_count) // 2"
+   ]
+  },
+  {
+   "id": "lech.8.0.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "c_count = 233",
+      "h_count = 102",
+      "o_count = 498",
+      "mol_mass = c_count * 12 + h_count * 1 + o_count * 16"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "c_count = 107",
+      "h_count = 360",
+      "o_count = 217",
+      "mol_mass = c_count * 12 + h_count * 1 + o_count * 16"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "c_count = 421",
+      "h_count = 38",
+      "o_count = 143",
+      "mol_mass = c_count * 12 + h_count * 1 + o_count * 16"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "c_count = 217",
+      "h_count = 47",
+      "o_count = 338",
+      "mol_mass = c_count * 12 + h_count * 1 + o_count * 16"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "c_count = 114",
+      "h_count = 442",
+      "o_count = 319",
+      "mol_mass = c_count * 12 + h_count * 1 + o_count * 16"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "c_count = 279",
+      "h_count = 160",
+      "o_count = 255",
+      "mol_mass = c_count * 12 + h_count * 1 + o_count * 16"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "mol_mass = c_count * 12 + h_count * 1 + o_count * 16"
+   ]
+  }
+ ]
+}

@@ -34,6 +34,26 @@
      "q": "Create a multi-step arithmetic expression involving one decimal, one fraction, and at least two different operations (e.g., multiplication and addition) where converting everything to fractions is the most efficient choice, and provide its step-by-step evaluation.",
      "a": "A good response provides an expression like $0.5 + \\frac{2}{3} \\times 0.75$, converts $0.5$ to $\\frac{1}{2}$ and $0.75$ to $\\frac{3}{4}$, multiplies $\\frac{2}{3} \\times \\frac{3}{4} = \\frac{1}{2}$, and adds $\\frac{1}{2} + \\frac{1}{2} = 1$. A poor response uses numbers that result in messy, non-terminating decimals or fails to show step-by-step fraction conversion.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Converting between fractions and decimals in operations involves seamlessly switching between fractional and decimal ______ to simplify arithmetic calculations involving mixed numbers or multi-step expressions.",
+     "a": "representations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To find the total cost, you need to multiply ______ given as fractions by prices given as decimals, which requires choosing whether to convert everything into fractions or everything into decimals.",
+     "a": "quantities",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight is that uniformity is the secret to success: convert all terms into decimals if the denominators are powers of ______, or into fractions if terminating decimals easily convert to simple fractions.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can evaluate complex arithmetic expressions containing both fractions and decimals by converting all terms into a uniform format (either all fractions or all decimals) depending on which is more efficient for computation.",
+     "self_check": true
     }
    ]
   }

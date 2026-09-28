@@ -32,7 +32,37 @@
     },
     {
      "q": "Design a minimal \"custom format\" specification for storing a *single* protein sequence with: (a) UniProt accession, (b) organism name, (c) GO term annotations (list of GO IDs), (d) predicted secondary structure string (H/E/C per residue), and (e) the amino acid sequence. Write the format as a 10-line example file, then write a Python function `parse_custom(filepath)` that returns a dict with these five keys. The format must be line-oriented (no XML/JSON) and human-readable.",
-     "a": "Example file (`P12345.prot`):\n```",
+     "a": "Example file (`P12345.prot`):\n```\n#ACC P12345\n#ORG Homo sapiens\n#GO GO:0005515;GO:0003677;GO:0008270\n#SS HHEECCCHHHHHHHH\n#SEQ\nMQIFVKTLTGKTITLEVEPSDTIENVKAKIQDKEGIPPDQQRLIFAGKQLEDGRTLSDYNIQKESTLHLVLRLRGG\n```\nParser:\n```python\ndef parse_custom(filepath):\n    data = {\"accession\": \"\", \"organism\": \"\", \"go_terms\": [], \"sec_struct\": \"\", \"sequence\": \"\"}\n    with open(filepath) as f:\n        for line in f:\n            line = line.rstrip(\"\\n\")\n            if line.startswith(\"#ACC \"): data[\"accession\"] = line[5:]\n            elif line.startswith(\"#ORG \"): data[\"organism\"] = line[5:]\n            elif line.startswith(\"#GO \"): data[\"go_terms\"] = line[4:].split(\";\")\n            elif line.startswith(\"#SS \"): data[\"sec_struct\"] = line[4:]\n            elif line.startswith(\"#SEQ\"):\n                data[\"sequence\"] = \"\".join(l.strip() for l in f if l.strip())\n                break\n    return data\n```\nA poor answer would use `split()` on whitespace for GO terms (fails if terms contain spaces) or read the whole file into memory without streaming.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Biological data formats are standardized file structures (e.g., FASTA, GenBank, PDB, GFF, SBML) that encode biological sequences, annotations, structures, or network models in human- and machine-readable text, while parsing is the ______ process of reading these files, validating their syntax, and extracting specific data fields (headers, sequences, features, coordinates) into programmatic data structures for downstream analysis.",
+     "a": "computational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you ______ a \"gene sequence\" file from NCBI and it opens as a wall of text with lines starting with >, LOCUS, FEATURES, or <sbml> — how do you know which format it is, and how do you pull out just the protein sequence to run a BLAST search?",
+     "a": "download",
+     "self_check": true
+    },
+    {
+     "q": "What is Biological data formats? State the definition given in this lesson.",
+     "a": "Biological data formats are standardized file structures (e.g., FASTA, GenBank, PDB, GFF, SBML) that encode biological sequences, annotations, structures, or network models in human- and machine-readable text, while parsing is the computational process of reading these files, validating their syntax, and extracting specific data fields.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by opening the file in a text editor and comparing the first ______ lines against the \"signature patterns\" table: > for FASTA, LOCUS for GenBank, ATOM for PDB, <sbml> for SBML.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Biological data formats?",
+     "a": "Students believe \"parsing a FASTA file\" means simply splitting on > and taking the first line as header and the rest as sequence.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) identify the format of an unknown biological file by inspecting its header and line structure, (2) write a Python script using Biopython's SeqIO or a custom parser to extract sequence, identifier, and feature annotations from FASTA and GenBank files, and (3) explain why XML-based formats (SBML, MAGE-TAB).",
      "self_check": true
     }
    ]

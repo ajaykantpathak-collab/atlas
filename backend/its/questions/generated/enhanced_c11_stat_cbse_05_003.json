@@ -34,6 +34,26 @@
      "q": "Create a real-world problem involving three groups with different sizes and means where the combined mean must be calculated. Design it so that the combined mean is closer to the mean of the largest group. Provide the problem statement, data, and solution.",
      "a": "Example: Three farms produce wheat. Farm A: 100 hectares, yield 2.5 tonnes/ha. Farm B: 50 hectares, yield 3.0 tonnes/ha. Farm C: 25 hectares, yield 4.0 tonnes/ha. Combined yield = (100×2.5 + 50×3.0 + 25×4.0)/(175) = (250+150+100)/175 = 500/175 ≈ 2.86 tonnes/ha. The combined mean (2.86) is closest to Farm A's mean (2.5) because Farm A has the largest weight (100 hectares). A poor answer would have equal group sizes or combined mean not reflecting the weighting, showing the student doesn't grasp that the combined mean is pulled toward the largest group.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The arithmetic mean possesses two fundamental algebraic properties: (1) The sum of deviations of all ______ from their arithmetic mean is always zero, i.e., Σ(xᵢ - x̄) = 0 for i = 1 to n.",
+     "a": "observations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ the average monthly electricity bills of two housing societies: Society A has 40 families with an average bill of ₹1,200, and Society B has 60 families with an average bill of ₹1,500.",
+     "a": "comparing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to prove the zero-deviation property algebraically, calculate the combined mean for two or more groups given their sizes and means, and apply these properties to find missing frequencies or verify arithmetic mean calculations in board-style problems.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are comparing the average monthly ______ bills of two housing societies: Society A has 40 families with an average bill of ₹1,200, and Society B has 60 families with an average bill of ₹1,500.",
+     "a": "electricity",
+     "self_check": true
     }
    ]
   }

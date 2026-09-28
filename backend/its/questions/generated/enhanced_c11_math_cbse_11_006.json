@@ -34,6 +34,26 @@
      "q": "Construct a real-world problem (with numerical values) that requires finding the standard equation of an ellipse given its geometric description. The problem must involve an Indian context (e.g., a whispering gallery in a historical monument, a planetary orbit, or a sports stadium design).",
      "a": "**Example problem:** \"The Gol Gumbaz in Vijayapura has a whispering gallery shaped as an ellipse. The two foci are 10 metres apart. A person standing at one focus whispers, and the sound reflects off the curved wall to be heard clearly at the other focus. If the total path length of the sound from one focus to the wall and to the other focus is 26 metres, find the standard equation of the ellipse (assume centre at origin, major axis horizontal).\"  \n**Solution:** Distance between foci = \\(2c = 10\\) → \\(c = 5\\). Constant sum = \\(2a = 26\\) → \\(a = 13\\). Then \\(b^2 = a^2 - c^2 = 169 - 25 = 144\\). Equation: \\(\\frac{x^2}{169} + \\frac{y^2}{144} = 1\\).  \nA poor answer (e.g., using \\(a=10, c=26\\) or giving a circle equation) reveals the student cannot translate the verbal description into the parameters \\(a, b, c\\) and their geometric meanings.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An ellipse is the set of all points in a plane such that the sum of their ______ from two fixed points (called foci) is a constant greater than the distance between the foci.",
+     "a": "distances",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a running track for your ______'s sports day.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the standard equation of an ellipse from its geometric definition, identify the centre, vertices, co-vertices, foci, and lengths of major and minor axes from a given standard equation, and sketch the ellipse accurately labelling all key features.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a running track for your school's sports day.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

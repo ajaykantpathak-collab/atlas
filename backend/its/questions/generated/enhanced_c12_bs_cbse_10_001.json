@@ -34,6 +34,26 @@
      "q": "Create a fictional scenario where a financial market fails to perform its liquidity provision function. Describe the consequences for three different stakeholders.",
      "a": "Scenario: A corporate bond market with only 5 institutional holders, no secondary exchange, and no market makers. An investor needs to sell ₹10 lakh bonds urgently for a medical emergency. Consequences: (1) Investor: forced to sell at 40% discount, losing ₹4 lakh. (2) Issuer: future bond issues face higher yield demands as investors price in illiquidity risk. (3) Regulator: pressure to mandate market-making or exchange listing. A poor answer that describes a stock market crash instead of structural illiquidity misses the function-specific failure. If consequences don't differentiate stakeholders, the student hasn't grasped the systemic nature of liquidity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A financial market is a marketplace where buyers and sellers trade financial assets such as shares, bonds, debentures, and derivatives, ______ the transfer of funds from savers (surplus units) to investors (deficit units) while providing liquidity, price discovery, and risk management mechanisms.",
+     "a": "facilitating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You want it to grow but don't want to start a ______ yourself.",
+     "a": "business",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Meanwhile, a startup needs ₹______ lakh to expand.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) define financial market in their own words using the key elements of financial assets, fund transfer, and market functions, (2) explain all four core functions (mobilisation of savings, price discovery, liquidity provision, risk sharing) with a real-world example for each, and (3) correctly classify any.",
+     "self_check": true
     }
    ]
   }

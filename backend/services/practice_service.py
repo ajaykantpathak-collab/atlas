@@ -733,6 +733,17 @@ class PracticeService:
         Returns:
             Dict with topic_ids and questions list
         """
+        # Resolve student's class once for corpus filtering
+        class_level: Optional[int] = None
+        try:
+            student = await self._get_student(student_id)
+            if student and student.student_class:
+                import re as _re
+                m = _re.search(r"\d+", str(student.student_class))
+                class_level = int(m.group()) if m else None
+        except Exception:
+            pass
+
         # Get review schedule (SM-2 due reviews)
         review_items = await get_review_schedule(student_id, subject)
         review_topic_ids = [item["topic_id"] for item in review_items]
@@ -802,7 +813,7 @@ class PracticeService:
             q_seed = self._compute_seed(student_id, q_index)
 
             question = await self._generate_question_from_topic(
-                topic_id, subject, difficulty, q_seed
+                topic_id, subject, difficulty, q_seed, class_level
             )
             if question:
                 questions.append(question)
@@ -815,7 +826,7 @@ class PracticeService:
             q_seed = self._compute_seed(student_id, q_index)
 
             question = await self._generate_question_from_topic(
-                topic_id, subject, difficulty, q_seed
+                topic_id, subject, difficulty, q_seed, class_level
             )
             if question:
                 question["is_review"] = True
@@ -829,7 +840,7 @@ class PracticeService:
             q_seed = self._compute_seed(student_id, q_index)
 
             question = await self._generate_question_from_topic(
-                topic_id, subject, difficulty, q_seed
+                topic_id, subject, difficulty, q_seed, class_level
             )
             if question:
                 questions.append(question)
@@ -840,7 +851,7 @@ class PracticeService:
             topic_id = rng.choice(available_topics)
             q_seed = self._compute_seed(student_id, q_index)
             question = await self._generate_question_from_topic(
-                topic_id, subject, 1.0, q_seed
+                topic_id, subject, 1.0, q_seed, class_level
             )
             if question:
                 questions.append(question)
@@ -892,12 +903,93 @@ class PracticeService:
 
         return question
 
+    _SUBJECT_ALIASES = {
+        "mathematics": ["math", "maths"], "maths": ["math", "maths"],
+        "math": ["math", "maths"], "biology": ["bio", "biology"],
+        "bio": ["bio", "biology"], "physics": ["phy", "physics"],
+        "phy": ["phy", "physics"], "chemistry": ["chem", "chemistry"],
+        "chem": ["chem", "chemistry"], "english": ["engl", "english",
+        "eng_k", "eng_w", "eng_f", "eng_v", "eng_s", "eng_h", "gram", "comp"],
+        "computer_science": ["cs"], "economics": ["eco", "economics"],
+        "eco": ["eco", "economics"], "history": ["hist", "history"],
+        "hist": ["hist", "history"], "geography": ["geo", "geography"],
+        "geo": ["geo", "geography"], "accountancy": ["acc"],
+        "acc": ["acc"], "business_studies": ["bs"], "bs": ["bs"],
+        "civics": ["civ", "civics"], "civ": ["civ", "civics"],
+        "hindi": ["hin_ar", "hin_a", "hin_v", "hin_al"],
+    }
+
+    async def _db_question_for_topic(
+        self,
+        topic_id: str,
+        subject: str,
+        class_level: Optional[int],
+        difficulty: float,
+        seed: int,
+    ) -> Optional[Dict[str, Any]]:
+        """Fetch a real question from the node corpus (board_questions).
+
+        All rows are extracted from enhanced_nodes_md — node-tagged,
+        answered, CBSE. Returns generator-shaped dict or None.
+        """
+        import re
+        from backend.models.enrichment import BoardQuestion
+        from sqlalchemy.dialects.postgresql import JSONB
+        from sqlalchemy import cast, func as sa_func
+
+        db = async_session_maker()
+        try:
+            q = select(BoardQuestion).where(
+                BoardQuestion.board == "CBSE",
+                BoardQuestion.correct_answer.isnot(None),
+            )
+            if re.match(r"^c\d+_", topic_id or ""):
+                q = q.where(cast(BoardQuestion.node_tags, JSONB)
+                            .contains([topic_id]))
+            else:
+                subs = self._SUBJECT_ALIASES.get(
+                    subject.lower(), [subject.lower()])
+                q = q.where(BoardQuestion.subject.in_(subs))
+                if class_level:
+                    q = q.where(BoardQuestion.class_level == class_level)
+            diff_label = ("easy" if difficulty < 0.9
+                          else "medium" if difficulty < 1.4 else "hard")
+            q = q.order_by(
+                sa_func.case(
+                    (BoardQuestion.difficulty == diff_label, 0), else_=1),
+                sa_func.random(),
+            ).limit(1)
+            row = (await db.execute(q)).scalars().first()
+            if not row:
+                return None
+
+            node = row.node_tags[0] if row.node_tags else topic_id
+            return {
+                "question_id": f"corpus:{row.id}",
+                "problem_type": row.source_type or "corpus",
+                "prompt": row.question_text,
+                "options": row.options,
+                "difficulty": row.difficulty,
+                "topic_id": node,
+                "topic_name": self._get_topic_display_name(node),
+                "latex": None,
+                "image_url": None,
+                "correct_answer": row.correct_answer,
+                "explanation": row.explanation or row.model_answer or "",
+            }
+        except Exception as e:
+            logger.error(f"DB question fetch failed: {e}")
+            return None
+        finally:
+            await db.close()
+
     async def _generate_question_from_topic(
         self,
         topic_id: str,
         subject: str,
         difficulty: float,
-        seed: int
+        seed: int,
+        class_level: Optional[int] = None,
     ) -> Optional[Dict[str, Any]]:
         """
         Generate a question from a specific topic using the question registry.
@@ -911,6 +1003,12 @@ class PracticeService:
         Returns:
             Question dict or None if generator not found
         """
+        # Corpus-first: real node-derived question if one exists
+        corpus_q = await self._db_question_for_topic(
+            topic_id, subject, class_level, difficulty, seed)
+        if corpus_q:
+            return corpus_q
+
         # Map topic to problem type for the registry
         problem_type = self._topic_to_problem_type(topic_id, subject)
 

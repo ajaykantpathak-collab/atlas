@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a battery, a rectangular wire loop, and a horseshoe magnet to demonstrate the torque on a current loop. Describe how you would observe the torque and how you would vary the angle to show the sinθ dependence.",
      "a": "Suspend the rectangular loop by a thin thread so it can rotate freely. Place it between the poles of the horseshoe magnet (uniform field). Connect to a battery via a commutator to reverse current. Observe rotation when current flows. To show sinθ dependence, fix the loop at different angles using a protractor and measure angular deflection or use a torsion balance. A poor answer lacks a method to vary θ systematically or to measure torque.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The torque on a current-carrying loop in a uniform magnetic field is the ______ force that tends to align the magnetic moment of the loop with the field.",
+     "a": "rotational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan motor: when current passes through its coils, they ______ a torque that makes the fan rotate.",
+     "a": "experience",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the torque on a rectangular or circular current loop given its dimensions, number of turns, current, magnetic field strength, and orientation; determine the direction of torque using the right-hand rule; and identify stable/unstable equilibrium orientations.",
+     "self_check": true
     }
    ]
   }

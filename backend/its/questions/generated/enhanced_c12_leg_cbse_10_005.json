@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_10_005",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_10_005",
+   "title": "c12_leg_cbse_10_005",
+   "questions": [
+    {
+     "q": "Define 'Human Rights' as per the NCERT Class 12 Legal Studies textbook. How does it differ from 'Fundamental Rights' in terms of scope and source?",
+     "a": "Human Rights are basic rights inherent to all human beings by virtue of their humanity, universal and inalienable, not granted by any State (UDHR 1948). Fundamental Rights are country-specific (Part III, Constitution), enforceable only against the State, and derive from the Constitution. A wrong answer that says \"Fundamental Rights are universal\" or \"Human Rights are granted by the Constitution\" reveals confusion between the *source* (international moral law vs. domestic positive law) and *scope* (all humans vs. citizens/persons in India).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why Article 21 ('procedure established by law') was interpreted to include 'due process of law' (fair, just, reasonable procedure) in *Maneka Gandhi v. Union of India*. What is the 'Golden Triangle'?",
+     "a": "The Court held that a law depriving personal liberty must satisfy Arts. 14 (non-arbitrariness), 19 (reasonable restrictions), and 21 — they form the 'Golden Triangle'. The procedure must be fair, just, and reasonable, not merely enacted. A wrong answer that says \"Article 21 alone is enough\" or \"due process was in the original Constitution\" misses the *interdependence* of Arts. 14, 19, 21 and the *judicial expansion* of 'procedure established by law' to include substantive due process.",
+     "self_check": true
+    },
+    {
+     "q": "A 14-year-old child is employed in a hazardous factory. The employer claims the child's parents consented. Identify the Constitutional Articles violated, the statutory remedy, and the appropriate forum (court vs. Commission) for immediate relief.",
+     "a": "Violations: Art. 24 (prohibition of child labour in hazardous employment), Art. 21 (right to life/dignity), Art. 39(e) & (f) (DPSP). Statutory remedy: Child Labour (Prohibition & Regulation) Act, 1986; Juvenile Justice Act, 2015. Forum: File a complaint with NCPCR (Sec. 13, CPCR Act, 2005) for immediate inquiry *and* a PIL in High Court under Art. 226 for rescue/rehabilitation. A wrong answer that suggests only the Labour Court or only the NHRC misses the *specialised mandate of NCPCR for children* and the *concurrent constitutional remedy*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the complaint mechanisms of NHRC and NCW. On what grounds can NHRC reject a complaint that NCW might entertain, and vice versa?",
+     "a": "NHRC (Sec. 12, PHR Act): 1-year limitation; rejects if sub judice, vague, anonymous, frivolous, not against public servant, civil/service/labour disputes. NCW (Sec. 10, NCW Act): no explicit 1-year bar; focuses on women-specific violations; can take *suo motu* on non-implementation of laws/policies. NHRC rejects service matters (e.g., promotion denial); NCW would entertain if it involves gender discrimination. A wrong answer that says \"both have identical grounds\" ignores the *specialised mandate* of NCW (women) vs. NHRC (general human rights by public servants).",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The Supreme Court's *suo motu* cognisance during COVID (mid-day meals) was judicial overreach into executive policy.\" Use Art. 21, Art. 32, and the principle of separation of powers.",
+     "a": "Not overreach. Art. 21 includes right to food/nutrition (PUCL v. Union of India). Art. 32 mandates the Court to enforce fundamental rights. The Court did not make policy; it directed the *implementation* of existing statutory schemes (NFSA, MDM Rules). Separation of powers permits judicial review of executive *inaction* violating fundamental rights. A wrong answer calling it \"overreach\" confuses *policy-making* (legislative/executive) with *enforcement of constitutional obligations* (judicial).",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical complaint to NHRC for a custodial death case. Include: (a) complainant details, (b) incident details, (c) victim details, (d) specific human rights violated, (e) prayer. Use the NHRC format from the textbook.",
+     "a": "(a) Complainant: NGO 'Justice Watch', Delhi. (b) Incident: Police Station X, District Y, State Z, 15 Jan 2024. (c) Victim: Ramesh, 32, SC, daily wage worker, arrested 14 Jan, found dead 15 Jan. (d) Violations: Art. 21 (right to life), Art. 22 (protection against arrest/detention), Sec. 176 CrPC (magisterial inquiry), NHRC guidelines on custodial deaths. (e) Prayer: (i) Independent inquiry by CBI, (ii) Compensation ₹25 lakh to family, (iii) Prosecution of errant officers, (iv) Systemic reforms in lock-up management. A poor answer omits *specific Articles*, *magisterial inquiry requirement*, or *systemic relief* — showing lack of procedural knowledge.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,26 @@
      "q": "Design a simple experiment to test if a piece of cloth is a good insulator for an ice cube. What would you observe?",
      "a": "Wrap an ice cube in a piece of cloth and leave another ice cube exposed on a plate. If the cloth is an insulator, the wrapped ice cube will melt significantly slower than the exposed one. A poor answer fails to define a \"control\" (the exposed cube) to compare against.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An ______ is a material that resists the flow of heat, acting as a barrier to keep heat from moving from one area to another.",
+     "a": "insulator",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever wondered why the handle of a metal frying pan is often made of ______ or wood instead of metal?",
+     "a": "plastic",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify common insulating materials and explain how they prevent heat transfer in real-world objects like cooking pans and houses.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever ______ why the handle of a metal frying pan is often made of plastic or wood instead of metal?",
+     "a": "wondered",
+     "self_check": true
     }
    ]
   }

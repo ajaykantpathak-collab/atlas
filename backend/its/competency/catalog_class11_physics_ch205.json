@@ -215,7 +215,7 @@
     "why does each vibrational mode contribute twice the energy of a translational mode",
     "show that average kinetic energy per degree of freedom is half k_B T"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -232,7 +232,16 @@
      "action": "sum over all active modes to obtain total average molecular energy",
      "explain": "verify that total internal energy equals the product of total degrees and 0.5 * k_B * T"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "E_mode = (1/2) * k_B * T",
+     "compute": "E_mode = (1/2) * k_B * T"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.12.6.1",
@@ -378,7 +387,16 @@
      "solution": "Step 1: evaluate the molar specific heat of the solid. Step 2: compute total thermal energy absorbed. Step 3: verify the Dulong-Petit prediction against the computed molar heat capacity. Working: 3 * r_const, moles * c_solid * delta_t.",
      "answer": "The method of specific heat capacity of solids leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "C = 3 * R",
+     "compute": "C = 3 * R"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keph.12.7.1",
@@ -426,7 +444,16 @@
      "solution": "Step 1: compute the collision cross section denominator factor. Step 2: take the reciprocal of the cross factor. Step 3: verify the mean free path dependence on number density and molecular diameter. Working: sqrt(2) * pi * (diameter ** 2) * num_density, 1 / cross_factor.",
      "answer": "The method of mean free path of gas molecules leads to the required value or conclusion."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "lambda = 1 / (sqrt(2) * n * pi * d**2)",
+     "compute": "lambda = 1 / (sqrt(2) * n * pi * d**2)"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

@@ -1,0 +1,61 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_11_003",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_11_003",
+   "title": "c12_soc_cbse_11_003",
+   "questions": [
+    {
+     "q": "**REMEMBER:** List the four components of the Green Revolution technological package as defined in the NCERT, and name the two staple crops it primarily targeted.",
+     "a": "**Correct answer:** The four components are: (1) High-Yielding Variety (HYV) / hybrid seeds, (2) assured irrigation, (3) chemical fertilisers, (4) pesticides. The two primary crops were wheat and rice.  \n**What a wrong answer reveals:** If a student lists only \"HYV seeds\" or adds \"tractors/mechanisation\" as a core package component, they confuse the **biological-chemical core** (seeds-water-fertiliser-pesticide) with the **mechanical complement** that came later in specific regions. If they name crops like cotton or sugarcane, they miss the NCERT's explicit statement that the first wave was \"targeted mainly at the wheat and rice-growing areas.\"",
+     "self_check": true
+    },
+    {
+     "q": "**UNDERSTAND:** A student says: \"The Green Revolution failed because it only helped rich farmers in Punjab; the government should have given HYV seeds to every farmer for free.\" Using the concept of **assured irrigation**, explain why free seed distribution alone would not have solved the problem in a rain-fed village in interior Maharashtra.",
+     "a": "**Correct answer:** HYV seeds are **water-sensitive** — their dwarfing genes (e.g., Norin-10 derived) reduce root depth and increase transpiration efficiency only under high moisture. Without assured irrigation (canal or tube-well), the same seeds yield **less** than traditional tall varieties that have deep roots for drought scavenging. Free seeds in a rain-fed village would lead to crop failure in dry years, increasing farmer distress. The NCERT states: \"Green Revolution programmes were introduced only in areas that had assured irrigation, because sufficient water was necessary for the new seeds.\"  \n**What a wrong answer reveals:** If the student focuses only on \"cost of seeds\" or \"lack of credit\" and ignores the **biological requirement of water**, they treat the Green Revolution as a purely economic policy problem rather than a **techno-ecological package** with strict agro-climatic preconditions.",
+     "self_check": true
+    },
+    {
+     "q": "**APPLY:** In 1965, a Jat farmer in Punjab owns 8 hectares of canal-irrigated land. A Dalit tenant in the same village cultivates 1 hectare as a sharecropper (giving 50% of produce as rent). Both adopt HYV wheat. The HYV yield is 4 tonnes/ha vs. traditional 1.5 tonnes/ha. Market price is ₹100/quintal. Input cost for HYV is ₹1,500/ha (seeds, fertiliser, pesticide). Calculate the **net income gain** for each cultivator after switching to HYV. Who benefits more in absolute and relative terms?",
+     "a": "**Step 1: Compute gross output per hectare.**  \nTraditional: 1.5 t/ha = 15 q/ha → ₹1,500/ha.  \nHYV: 4 t/ha = 40 q/ha → ₹4,000/ha.  \n**Step 2: Compute net income per hectare (gross – input cost).**  \nTraditional input cost ≈ ₹0 (saved seeds, manure) → net = ₹1,500/ha.  \nHYV input cost = ₹1,500/ha → net = ₹4,000 – ₹1,500 = ₹2,500/ha.  \n**Step 3: Compute total net income for each cultivator.**  \nJat farmer (owner, 8 ha): 8 × ₹2,500 = **₹20,000** (gain = ₹20,000 – 8×₹1,500 = ₹8,000).  \nDalit tenant (sharecropper, 1 ha): Tenant gets 50% of gross = 0.5 × ₹4,000 = ₹2,000/ha. Tenant bears input cost? In sharecropping, **inputs are often shared 50:50** or borne by tenant. Assume tenant bears full input cost (common in Punjab): net = ₹2,000 – ₹1,500 = **₹500** (gain = ₹500 – ₹750 = –₹250, i.e., a loss).  \n**Step 4: Compare.** Jat gains ₹8,000 absolute; tenant may lose ₹250. In relative terms, Jat's income rises 67% (₹12,000 → ₹20,000); tenant's falls.  \n**What a wrong answer reveals:** If the student assumes the tenant shares input costs 50:50, they get tenant net = ₹2,000 – ₹750 = ₹1,250 (gain ₹500). Still, the **absolute gap widens** (Jat +₹8,000 vs tenant +₹500). Missing the sharecropping input-sharing norm shows ignorance of the **tenancy contract details** that mediate technology adoption.",
+     "self_check": true
+    },
+    {
+     "q": "**ANALYSE:** The NCERT states: \"In many cases it led to the displacement of tenant-cultivators. For landowners began to take back land from their tenants and cultivate it directly because cultivation was becoming more profitable.\" Using the concepts of **economic rent** and **supervisory costs**, explain why the landowner's calculus changed after HYV adoption.",
+     "a": "**Correct analysis:** Pre-Green Revolution, land rent (50-75% of produce) ≈ **economic rent** from land's scarcity. Supervising tenants on low-value traditional crops had high transaction costs (monitoring effort, sharing risk). Post-HYV, **profit per hectare jumps** (as calculated in Q3). The landowner now captures the **entire surplus** (rent + tenant's residual) by self-cultivating with hired labour. Supervisory costs drop because: (a) HYV package is standardised (less monitoring of seed/fertiliser timing), (b) tractor/thresher hire reduces need for permanent labour supervision. The landlord evicts tenants → **resumption of tenancy land** under \"personal cultivation\" clauses in tenancy laws.  \n**What a wrong answer reveals:** If the student says \"landlords became greedy,\" they miss the **structural incentive shift**: the **rate of return on land** exceeded the **cost of hiring wage labour**, making direct cultivation rational. This is the core of the \"patronage to exploitation\" shift (Breman).",
+     "self_check": true
+    },
+    {
+     "q": "**EVALUATE:** \"The Green Revolution was a success because India achieved food self-sufficiency; the inequality it created was a necessary trade-off.\" Critique this statement using **two pieces of evidence from the NCERT** about (a) regional inequality and (b) ecological sustainability.",
+     "a": "**Critique:** The statement **oversimplifies** by treating inequality as a side-effect rather than a structural outcome.  \n**Evidence (a) Regional inequality:** NCERT: \"The areas that underwent this technological transformation became more developed while other areas stagnated... Green Revolution was promoted more in the western and southern parts... than in the eastern parts.\" This created a **permanent divergence** — not a temporary trade-off — because the infrastructure (irrigation, procurement, credit) was never extended to eastern India (Bihar, eastern UP, Odisha).  \n**Evidence (b) Ecological unsustainability:** NCERT: \"Many rural people themselves believe that hybrid varieties are less healthy... a number of scientists as well as farmers' movements now suggest a return to traditional, more organic seeds.\" The **water-table decline** in Punjab (not in text but implied by \"assured irrigation\" dependence) and **loss of traditional seed diversity** (\"many traditional varieties... being lost\") mean the **productive base itself is eroding**.  \n**Judgment:** The \"success\" was **contingent and fragile** — dependent on continuous subsidy, water mining, and favourable terms of trade. The inequality is **reproduced** in the second phase (1980s dryland expansion) where \"increasing commercialisation... increased rather than reduced livelihood insecurity.\"  \n**What a wrong answer reveals:** If the student only cites \"food self-sufficiency\" as success and \"rich farmers benefited more\" as inequality, they fail to **evaluate the long-term viability** and the **structural mechanisms** (regional neglect, ecological degradation) that make the trade-off a **false dichotomy**.",
+     "self_check": true
+    },
+    {
+     "q": "**CREATE:** Design a **counter-factual policy** for 1965 India that could have spread HYV technology to small farmers in rain-fed regions **without** requiring assured irrigation. Your proposal must include: (1) a seed trait modification, (2) an institutional innovation for input access, (3) a risk-sharing mechanism. Justify each with one sentence.",
+     "a": "**Expected answer (criteria for a good response):**  \n1. **Seed trait:** Develop **drought-tolerant HYVs** (e.g., deeper roots, osmotic adjustment) using traditional landraces as donors — because the Norin-10 dwarfing genes reduce root depth, making them irrigation-dependent.  \n2. **Institutional innovation:** **Village-level input cooperatives** that bulk-purchase fertiliser/seeds and lend in kind (repay at harvest) — because small farmers lack cash and face usurious moneylenders for input loans.  \n3. **Risk-sharing:** **State-backed crop insurance** indexed to rainfall (not yield) — because covariate drought risk makes individual insurance unviable; this decouples adoption risk from survival.  \n**Justification:** Each element addresses a **specific barrier** identified in the NCERT: (1) biological (water sensitivity), (2) economic (input cost/credit), (3) structural (covariate risk in rain-fed areas).  \n**What a poor answer reveals:** Proposing \"free tractors\" or \"land redistribution\" ignores the **node's scope** (technological package design) and the **historical constraint** (state capacity in 1965). A good answer stays within the **techno-institutional** space of the Green Revolution era.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Green Revolution in India (1960s-1970s) was a state-led agricultural ______ programme that introduced a technological package of High-Yielding Variety (HYV) seeds, assured irrigation, chemical fertilisers, and pesticides, targeted primarily at wheat and rice cultivation in regions with reliable water supply, to achieve national food self-sufficiency.",
+     "a": "modernisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing in a Punjab wheat field in 1975: the stalks are short, stiff, and heavy with grain — nothing like the tall, ______ varieties your grandfather grew.",
+     "a": "traditional",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) explain the three core components of the Green Revolution technological package (HYV seeds, irrigation, chemical inputs) and why they were interdependent; (2) analyse why the benefits were concentrated among medium/large farmers in specific regions (Punjab, Haryana, western UP, coastal Andhra, parts of.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing in a Punjab wheat field in ______: the stalks are short, stiff, and heavy with grain — nothing like the tall, traditional varieties your grandfather grew.",
+     "a": "1975",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

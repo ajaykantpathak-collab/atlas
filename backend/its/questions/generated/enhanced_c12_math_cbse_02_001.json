@@ -34,6 +34,26 @@
      "q": "Create a real‑world problem (with numbers) that requires using the domain of \\( \\sin^{-1} x \\) to decide whether a solution exists. Provide the problem statement and the reasoning.",
      "a": "Example problem: “A pendulum of length 2 m is displaced horizontally by 3 m from its equilibrium position. The angle \\( \\theta \\) is given by \\( \\sin \\theta = x/L \\). Find \\( \\theta \\) using inverse sine.”  \nReasoning: \\( x/L = 3/2 = 1.5 \\). Since the domain of \\( \\sin^{-1} \\) is \\([-1, 1]\\), \\( 1.5 \\) is not in the domain — no real angle satisfies this. The physical interpretation: the displacement cannot exceed the length of the pendulum.  \nA poor answer might give a problem where the ratio is within \\([-1,1]\\) (missing the domain check) or fail to explain why the domain matters.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The inverse trigonometric functions are defined by ______ the domains of the standard trigonometric functions to intervals where they become bijective (one‑one and onto).",
+     "a": "restricting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a civil engineer designing a wheelchair ramp: the slope ______ (rise/run) is fixed at 1:12 for safety.",
+     "a": "ratio",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly state the domain and range (principal value branch) of all six inverse trigonometric functions, identify whether a given value lies in the domain, and find the principal value of simple inverse trigonometric expressions by selecting the angle that lies in the prescribed range.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a civil engineer designing a ______ ramp: the slope ratio (rise/run) is fixed at 1:12 for safety.",
+     "a": "wheelchair",
+     "self_check": true
     }
    ]
   }

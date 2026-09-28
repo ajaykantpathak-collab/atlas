@@ -34,6 +34,31 @@
      "q": "Design a thought experiment using de Broglie's hypothesis (λ = h/p) to derive Bohr's quantization condition. Show how the \"standing wave\" condition on a circular orbit leads to m_e v r = n h/2π.",
      "a": "For a stable standing wave on a circular orbit of radius r, the circumference must contain an integer number of wavelengths: 2πr = nλ. Substitute de Broglie λ = h/(m_e v): 2πr = n h/(m_e v) → m_e v r = n h/2π. A good answer includes this derivation and notes that n=1,2,3... corresponds to 1,2,3... wavelengths fitting the orbit. A poor answer merely states the formula without the standing wave reasoning, missing the conceptual bridge between particle and wave pictures.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Bohr's model of the hydrogen atom postulates that the electron moves in discrete circular orbits (stationary states) around the nucleus with quantized angular momentum (m_e v r = n h/2π), where each orbit ______ to a specific energy level E_n = -R_H/n² (R_H = 2.18 × 10⁻¹⁸ J) and radius r_n = n²a₀ (a₀ = 52.9 pm); radiation is emitted or absorbed only when the electron transitions between these quantized states, with frequency given by Bohr's frequency rule ΔE = hν.",
+     "a": "corresponds",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ discharge tube in a dark room — you see a pinkish glow, but when viewed through a spectroscope, it splits into distinct red, blue-green, and violet lines (Balmer series).",
+     "a": "hydrogen",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by recalling Rutherford's nuclear model: electrons orbit the nucleus like planets, but classical physics predicts they should spiral in within ______⁻⁸ s by radiating energy.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can derive the energy and radius expressions for hydrogen-like ions from Bohr's postulates, calculate wavelengths for any spectral series transition (Lyman, Balmer, Paschen, etc.), and explain why the model fails for multi-electron atoms using the concepts of quantized angular momentum and the Heisenberg uncertainty principle.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a hydrogen discharge tube in a dark room — you see a pinkish glow, but when viewed through a ______, it splits into distinct red, blue-green, and violet lines (Balmer series).",
+     "a": "spectroscope",
+     "self_check": true
     }
    ]
   }

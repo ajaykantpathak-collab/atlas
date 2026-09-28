@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a bicycle wheel mounted on a fixed axle to determine its angular acceleration when a constant force is applied tangentially to its rim. List the measurements you would take and the formula you would use to calculate α.",
      "a": "Wind a light string around the axle, attach a known mass m to the free end, and let it fall from rest. Measure the time t for the mass to fall a distance h. The linear acceleration of the mass is a = 2h/t². Since the string unwinds without slipping, the angular acceleration of the wheel is α = a/r where r is the axle radius. A poor answer (e.g., \"measure the force and use τ = Iα\") reveals the student jumps to dynamics without a measurable procedure for α, and ignores that I is unknown.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Kinematics of rotational motion describes the motion of a rigid body rotating about a fixed axis using angular ______ (θ), angular velocity (ω), and angular acceleration (α) without considering the forces causing the motion.",
+     "a": "displacement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan ______ on from rest: the blades rotate about a fixed vertical axis, gradually speeding up.",
+     "a": "switched",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can solve numerical problems involving rotational kinematics with constant angular acceleration by selecting and applying the correct kinematic equation, and can compute linear velocity and acceleration components (tangential and centripetal) for any point on a rotating rigid body using v = ωr and a_t = αr, a_c = ω²r.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan switched on from rest: the blades rotate about a fixed vertical axis, ______ speeding up.",
+     "a": "gradually",
+     "self_check": true
     }
    ]
   }

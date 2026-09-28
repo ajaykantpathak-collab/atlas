@@ -34,6 +34,26 @@
      "q": "Design a labeled cross-section diagram of the atmosphere for a Class 9 textbook showing all five layers, four pauses, and one key phenomenon in each layer (weather, ozone, meteors, auroras, satellites). Include altitude scales and temperature trend arrows.",
      "a": "A good diagram shows: troposphere (0–12 km, ↓T, cumulonimbus cloud), tropopause (flat line), stratosphere (12–50 km, ↑T, ozone molecules absorbing UV), stratopause, mesosphere (50–85 km, ↓T, meteor burning), mesopause, thermosphere (85–600 km, ↑T, aurora/satellite), thermopause, exosphere (600+ km, fading T, gas escape). A poor diagram with equal layer thicknesses, missing pauses, or wrong phenomena (e.g., weather in stratosphere) reveals the student lacks spatial sense of the atmosphere's vast vertical scale and functional differentiation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The atmosphere is divided into five distinct layers—troposphere, ______, mesosphere, thermosphere, and exosphere—based on temperature gradients with altitude, each separated by a pause (tropopause, stratopause, mesopause, thermopause) where temperature trends reverse.",
+     "a": "stratosphere",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine standing on your terrace in Delhi on a summer afternoon feeling intense heat, then watching a weather balloon rise—______ drops steadily until about 12 km where it suddenly stabilizes, marking the tropopause.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine standing on your terrace in Delhi on a summer afternoon feeling intense heat, then watching a weather balloon rise—temperature drops steadily until about ______ km where it suddenly stabilizes, marking the tropopause.",
+     "a": "12",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify all five atmospheric layers with their altitude ranges and temperature trends, explain the significance of each pause boundary, and relate layer characteristics to real-world phenomena like weather confinement, ozone absorption, meteor burning, and satellite placement.",
+     "self_check": true
     }
    ]
   }

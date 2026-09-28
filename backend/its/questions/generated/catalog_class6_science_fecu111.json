@@ -2,6 +2,53 @@
  "catalog": "catalog_class6_science_fecu111.json",
  "concepts": [
   {
+   "id": "fecu.11.4",
+   "title": "Conserving Nature's Treasures",
+   "converted_to_compute": true,
+   "formula": "conserve = reduce + reuse + recycle + renew",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "conserve = reduce + reuse + recycle + renew",
+     "compute": "conserve = reduce + reuse + recycle + renew"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Conserving Nature's Treasures: given reduce = 27, reuse = 91, recycle = 41, renew = 73, find conserve.",
+     "a": "232",
+     "self_check": false
+    },
+    {
+     "q": "For Conserving Nature's Treasures: given reduce = 40, reuse = 3.1, recycle = 18.1, renew = 94, find conserve.",
+     "a": "155.2",
+     "self_check": false
+    },
+    {
+     "q": "For Conserving Nature's Treasures: given reduce = 7.2, reuse = 46, recycle = 49, renew = 55, find conserve.",
+     "a": "157.2",
+     "self_check": false
+    },
+    {
+     "q": "For Conserving Nature's Treasures: given reduce = 90, reuse = 77, recycle = 73, renew = 80, find conserve.",
+     "a": "320",
+     "self_check": false
+    },
+    {
+     "q": "For Conserving Nature's Treasures: given reduce = 21, reuse = 57, recycle = 57, renew = 92, find conserve.",
+     "a": "227",
+     "self_check": false
+    },
+    {
+     "q": "For Conserving Nature's Treasures: given reduce = 44, reuse = 77, recycle = 85, renew = 33, find conserve.",
+     "a": "239",
+     "self_check": false
+    }
+   ]
+  },
+  {
    "id": "fecu.11.1",
    "title": "Nature's Treasures: Air and Water",
    "solution_type": "verify_property",
@@ -63,28 +110,6 @@
     {
      "q": "Why should we use fossil fuels carefully?",
      "a": "They formed over millions of years, cannot be replaced, and burning them pollutes.",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "fecu.11.4",
-   "title": "Conserving Nature's Treasures",
-   "solution_type": "verify_property",
-   "questions": [
-    {
-     "q": "What does 'conserve' mean for nature's treasures?",
-     "a": "Use them carefully - reduce waste, reuse things, recycle materials, and renew (plant trees).",
-     "self_check": true
-    },
-    {
-     "q": "Give one way each to reduce and reuse at home.",
-     "a": "Reduce: switch off lights not needed. Reuse: use jars as containers.",
-     "self_check": true
-    },
-    {
-     "q": "How does planting trees renew nature?",
-     "a": "New trees restore oxygen, shade, soil hold and homes for birds.",
      "self_check": true
     }
    ]

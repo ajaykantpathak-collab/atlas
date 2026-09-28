@@ -34,6 +34,26 @@
      "q": "Design a package `geometry` with subpackages `shapes2d` and `shapes3d`. Each subpackage has modules `circle.py`, `square.py` and `sphere.py`, `cube.py` respectively. Write the `__init__.py` for `geometry` so that `from geometry import circle, sphere` works, and also allow `from geometry.shapes2d import *` to import only `circle` and `square` (not internal helpers). Show the directory tree and all `__init__.py` contents.",
      "a": "Directory tree:\n```\ngeometry/\n    __init__.py\n    shapes2d/\n        __init__.py\n        circle.py\n        square.py\n    shapes3d/\n        __init__.py\n        sphere.py\n        cube.py\n```\n`geometry/__init__.py`:\n```python\nfrom .shapes2d import circle, square\nfrom .shapes3d import sphere, cube\n__all__ = ['circle', 'square', 'sphere', 'cube']\n```\n`geometry/shapes2d/__init__.py`:\n```python\nfrom .circle import Circle\nfrom .square import Square\n__all__ = ['Circle', 'Square']\n```\n(Similarly for `shapes3d`.) A poor answer omits `__all__` in subpackages or uses absolute imports inside the package, which breaks portability.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Python package is a directory that contains one or more Python module files (.py) and a special file named __init__.py, which marks the directory as a package and can contain ______ code or define the package's public interface via __all__.",
+     "a": "initialization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a school management system with separate modules for students, teachers, and fees.",
+     "a": "building",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) create a package directory structure with __init__.py, (2) import modules from a package using absolute and relative imports, (3) control the public API using __all__ in __init__.py, and (4) explain the difference between a module and a package.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a school ______ system with separate modules for students, teachers, and fees.",
+     "a": "management",
+     "self_check": true
     }
    ]
   }

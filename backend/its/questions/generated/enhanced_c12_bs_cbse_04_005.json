@@ -34,6 +34,31 @@
      "q": "**CREATE:** Design a **single-use plan outline** for a new situation: \"A government hospital setting up a 50-bedded COVID-19 isolation ward in 3 weeks.\" Provide: (a) 2 Objectives for the Programme, (b) 3 line-items for the Budget (with estimated ₹), (c) 4 milestones with dates for the Schedule. Ensure the three components are consistent (e.g., Budget covers resources needed for Schedule milestones).",
      "a": "**Programme Objectives:**  \n1. Operationalise 50 oxygen-supported isolation beds with ICU backup by **Day 21**.  \n2. Train 100% deployed staff (doctors, nurses, sanitation) on COVID protocols by **Day 14**.  \n\n**Budget (Estimated ₹):**  \n1. Medical Equipment (50 oxygen concentrators, 10 ventilators, monitors) — **₹1.2 crore**  \n2. Consumables (PPE kits, medicines, oxygen cylinders for 30 days) — **₹45 lakh**  \n3. Human Resource (incentive pay for 40 extra nurses & 10 doctors for 30 days) — **₹60 lakh**  \n**Total Estimated Budget: ₹2.25 crore**  \n\n**Schedule (Milestones):**  \n| Milestone | Target Date | Depends on Budget Line |\n|-----------|-------------|------------------------|\n| 1. Tender & Procurement of Equipment | Day 3 | Line 1 (₹1.2 cr) |\n| 2. Electrical/Oxygen pipeline civil work | Day 7 | Line 1 (part) |\n| 3. Staff Recruitment & Training Completion | Day 14 | Line 3 (₹60 lakh) |\n| 4. Ward Commissioning & Mock Drill | Day 21 | All lines |\n\n**Consistency check:** Budget Line 1 funds Milestones 1 & 2; Line 3 funds Milestone 3; all lines converge at Milestone 4.  \n**Wrong answer reveals:** If the student's Budget items don't map to Schedule milestones (e.g., budgets for \"furniture\" but Schedule has \"ventilator installation\"), they treat the three components as independent silos. The essence of a single-use plan is **integration** — Programme defines *what*, Budget quantifies *how much*, Schedule sequences *when*; they must reference the same resources and timeline.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Single-use plans are specific, one-time plans designed for a unique, non-recurring event or project (e.g., launching a new product, ______ a conference, opening a new branch).",
+     "a": "organizing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school is hosting an inter-school science fest for the first time — a one-time, non-______ event.",
+     "a": "recurring",
+     "self_check": true
+    },
+    {
+     "q": "What is Single-use plans? State the definition given in this lesson.",
+     "a": "Single-use plans are specific, one-time plans designed for a unique, non-recurring event or project (e.g., launching a new product, organizing a conference, opening a new branch).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Single-use plans?",
+     "a": "Misconception: \"A Programme, a Budget, and a Schedule are just three names for the same project plan document.\" Why students make this error: In everyday language, we say \"Here's the plan for the event\" meaning one document.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) distinguish between a Programme, a Budget, and a Schedule with a concrete example for each, and (2) explain how a Budget functions as both a planning tool (quantifying the future) and a controlling tool (comparing actual vs. expected figures to trigger corrective action).",
+     "self_check": true
     }
    ]
   }

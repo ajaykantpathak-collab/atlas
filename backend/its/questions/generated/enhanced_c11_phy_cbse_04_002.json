@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using only a toy car, a long smooth plank, a rough cloth, and a stopwatch to demonstrate that uniform motion does not require a continuous force. Describe the procedure, what you would measure, and how the results support Newton's First Law.",
      "a": "Procedure: (1) Place the plank horizontally. Give the toy car a gentle push on the bare plank (low friction) and measure time to travel 1 m. Repeat 5 times. (2) Cover the plank with the rough cloth. Give the *same* initial push (same initial speed) and measure time for 1 m. Repeat 5 times. (3) Compare average times. Expected result: On smooth plank, times are nearly equal (constant velocity). On rough cloth, times increase (deceleration due to friction). Conclusion: Without friction (or with negligible friction), the car maintains uniform motion *without* any applied force. Friction is the external force that *changes* motion. A poor answer would involve pushing continuously or not controlling initial speed, revealing misunderstanding of \"uniform motion\" vs \"accelerated motion\" and the role of friction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Newton's First Law of Motion (Law of Inertia) states that a body remains in its state of rest or uniform motion in a straight line unless acted upon by a net external force; ______, if the net external force on a body is zero, its acceleration is zero.",
+     "a": "equivalently",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a book resting on your classroom desk — it ______ at rest until you push it.",
+     "a": "stays",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Next, analyze a car moving at constant ______ km/h on a straight road — the engine force balances friction and air resistance.",
+     "a": "60",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can identify all forces acting on a body in a given physical situation, determine whether the net force is zero, and correctly predict the resulting motion (rest or uniform velocity) using free-body diagrams.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a book resting on your ______ desk — it stays at rest until you push it.",
+     "a": "classroom",
+     "self_check": true
     }
    ]
   }

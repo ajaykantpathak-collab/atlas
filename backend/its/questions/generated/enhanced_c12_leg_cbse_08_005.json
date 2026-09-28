@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_08_005",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_08_005",
+   "title": "c12_leg_cbse_08_005",
+   "questions": [
+    {
+     "q": "List the six forms of legal entities recognized in India under the Companies Act, 2013 and the LLP Act, 2008.",
+     "a": "The six forms are: (1) Sole Proprietorship, (2) Partnership, (3) Limited Liability Partnership (LLP), (4) Private Limited Company, (5) Public Limited Company, (6) One Person Company (OPC). A wrong answer (e.g., listing \"Joint Stock Company\" or \"HUF\") reveals the student is confusing business structures with tax entities or outdated classifications — they haven't internalized the current statutory framework.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a Partnership firm does NOT have a separate legal entity, but an LLP does — even though both are formed by partners.",
+     "a": "A partnership firm is merely a collective name for the partners; it cannot own property, sue, or be sued in its own name (Indian Partnership Act, 1932). An LLP is a body corporate created under the LLP Act, 2008 with perpetual succession — it can own assets, enter contracts, and sue/be sued independently. A wrong answer (e.g., \"both have separate entity\") reveals the student memorized features without understanding the *legal consequence* of incorporation vs. registration.",
+     "self_check": true
+    },
+    {
+     "q": "A group of 50 artisans wants to form a legal entity to export handicrafts. They need limited liability, want to raise capital from investors later, and prefer minimal compliance. Recommend the best entity and justify using THREE specific features from the NCERT comparison table.",
+     "a": "Private Limited Company. Justification: (1) Limited liability (shareholders' personal assets protected) — unlike Partnership; (2) Can raise capital via equity shares from investors (VCs prefer Pvt Ltd) — unlike LLP/OPC; (3) Maximum 200 members accommodates 50 artisans — unlike OPC (max 1). A wrong recommendation (e.g., LLP) shows the student doesn't grasp that VCs rarely invest in LLPs due to no shareholding structure.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the liability of a Sole Proprietor, a Partner in a Partnership firm, and a Shareholder in a Private Limited Company when the business incurs a debt of ₹1 crore it cannot pay.",
+     "a": "Sole Proprietor: Unlimited liability — personal assets (house, savings) can be attached. Partner: Joint & several unlimited liability — each partner can be held liable for the FULL ₹1 crore. Shareholder: Limited to unpaid share capital — personal assets safe. A wrong answer (e.g., \"partner's liability is limited to their capital contribution\") reveals confusion between Partnership and LLP/Company liability — a critical board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "\"An LLP is always better than a Partnership because it gives limited liability.\" Evaluate this statement. Is it universally true? Provide two scenarios where a Partnership might be preferred.",
+     "a": "Not universally true. Partnership preferred when: (1) Professionals (lawyers, CAs, doctors) want to avoid LLP's mandatory annual filings (Form 8, Form 11) and audit requirements if turnover > ₹40 lakh — Partnership has zero statutory compliance; (2) Family business with high trust where unlimited liability is accepted for simplicity and tax transparency (partnership is tax-transparent, LLP is taxed as a body corporate). A weak evaluation shows the student treats legal forms as \"better/worse\" rather than \"fit for purpose.\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a decision flowchart (text-based) that a startup founder can use to choose between OPC, Private Ltd, and LLP based on: (a) number of founders, (b) need for external funding, (c) compliance tolerance.",
+     "a": "```\nSTART → How many founders?\n  → 1 founder → Need VC funding? → YES → Private Ltd (OPC cannot raise equity easily)\n                            → NO → Low compliance? → YES → OPC\n                                               → NO → Private Ltd\n  → 2+ founders → Need VC funding? → YES → Private Ltd\n                                 → NO → Professional services? → YES → LLP\n                                                        → NO → Private Ltd\n```\nA poor flowchart (e.g., missing the VC funding branch) reveals the student doesn't understand investor preferences — a key practical differentiator.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

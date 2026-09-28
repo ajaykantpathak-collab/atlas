@@ -34,6 +34,31 @@
      "q": "Design a decision flowchart (describe in text) that a student can use to classify any public sector enterprise as either a Departmental Undertaking, Statutory Corporation, or Government Company. Use only the defining criteria from the textbook.",
      "a": "**Flowchart logic:**\n1. **Is it established under a Special Act of Parliament?** → YES → Statutory Corporation. NO → Go to 2.\n2. **Is it registered under the Companies Act, 2013 (or previous Company Law)?** → NO → Departmental Undertaking (part of ministry). YES → Go to 3.\n3. **Does government (Central/State/both) hold ≥51% paid-up capital?** → YES → Government Company. NO → Private Sector Company (not public sector).\n*Key discriminators*: Special Act vs Companies Act registration; Budget funding vs share capital; Civil servants vs company employees; Parliamentary report mandate vs Act-defined accountability. A poor answer mixes up \"government ownership\" (common to all three) as a discriminator, failing to isolate the *legal form* and *ownership threshold* as the defining criteria.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Government Company is a company registered under the Companies Act, 2013 (or any previous Company Law) in which not less than 51% of the paid-up share capital is held by the Central Government, or by any State Government(s), or partly by the Central Government and partly by one or more State ______, and includes a subsidiary of such a Government Company.",
+     "a": "Governments",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you read a news headline: \"Government to sell 10% stake in Bharat Electronics Ltd (BEL) via offer for sale.\" You wonder: Is BEL a government ______ like Railways?",
+     "a": "department",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you read a news headline: \"Government to sell ______% stake in Bharat Electronics Ltd (BEL) via offer for sale.\" You wonder: Is BEL a government department like Railways?",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) State the precise legal definition of a Government Company per Section 2(45) of the Companies Act, 2013 including the 51% threshold and subsidiary clause; (2) Distinguish its features from Departmental Undertakings and Statutory Corporations using a comparison table; (3) Evaluate whether a given.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you read a news headline: \"Government to sell 10% stake in Bharat ______ Ltd (BEL) via offer for sale.\" You wonder: Is BEL a government department like Railways?",
+     "a": "Electronics",
+     "self_check": true
     }
    ]
   }

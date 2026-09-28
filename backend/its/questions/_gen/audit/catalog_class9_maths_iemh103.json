@@ -42,9 +42,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = 25 + (24)"
-   ]
+   "steps_chain": []
   },
   {
    "id": "iemh.103.3.2",
@@ -89,11 +87,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "num = 7 * 9 + 7 * 2",
-    "den = 2 * 9",
-    "val = num / den"
-   ]
+   "steps_chain": []
   },
   {
    "id": "iemh.103.3.3",
@@ -138,10 +132,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lhs = 3 ** 3 + 4 ** 3",
-    "diff = 5 ** 3 - lhs"
-   ]
+   "steps_chain": []
   },
   {
    "id": "iemh.103.3.4",
@@ -186,10 +177,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lhs = 3 ** 3 + 4 ** 3",
-    "diff = 5 ** 3 - lhs"
-   ]
+   "steps_chain": []
   }
  ]
 }

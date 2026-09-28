@@ -34,6 +34,31 @@
      "q": "Design a kinship diagram for a hypothetical community that practices *both* matrilineal clan exogamy and patrilineal gotra exogamy. Show ego's prohibited marriage partners for three generations.",
      "a": "Draw ego (male). Matrilineal clan (from mother) = Clan A → all Clan A members prohibited. Patrilineal gotra (from father) = Gotra X → all Gotra X members prohibited. Overlap zones (e.g., mother's brother's children: same clan A but different gotra; father's sister's children: same gotra X but different clan) become doubly prohibited. A strong answer uses standard symbols (△/○, =, solid/dashed lines) and labels each kin type with both clan and gotra. A weak answer draws only one descent line.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Kinship is a culturally defined system of social relationships based on descent (consanguineal ties) and marriage (affinal ties) that determines rights, obligations, and group membership; the gotra/pravara system is a Brahmanical exogamous ______ tracing patrilineal descent from a common mythical sage (rishi) to regulate marriage alliances and ritual purity.",
+     "a": "classification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a North Indian wedding where the priest asks the bride's and groom's gotras before the ______.",
+     "a": "ceremony",
+     "self_check": true
+    },
+    {
+     "q": "What is Kinship? State the definition given in this lesson.",
+     "a": "Kinship is a culturally defined system of social relationships based on descent (consanguineal ties) and marriage (affinal ties) that determines rights, obligations, and group membership; the gotra/pravara system is a Brahmanical exogamous classification tracing patrilineal descent from a common mythical sage (rishi) to regulate marriage.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Kinship?",
+     "a": "Students often think \"gotra = caste\" or \"gotra is inherited from mother.\" In reality, gotra is a *sub-caste* patrilineal clan; caste (jati) is endogamous, gotra is exogamous *within* caste.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) distinguish patrilineal, matrilineal, and bilateral descent rules and trace ego's kin group in each; (2) explain how gotra and pravara exogamy operate together to restrict marriage choices; (3) analyze a kinship diagram to identify prohibited vs. permitted marriages under Dharmashastric rules.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Create a real-life situation (Indian context) where adding a constant to every data value changes the mean in a meaningful way. Write the original data, the constant added, and explain what the new mean represents.",
      "a": "Example: A cricket team's 5 bowlers have economy rates: 6.2, 5.8, 7.1, 6.5, 5.4 runs/over. Mean = 6.2. Due to a rule change, 0.5 runs are added to every bowler's economy for a \"free hit\" penalty. New mean = 6.7. This represents the adjusted average economy after the penalty. A poor answer gives a trivial example (like \"add 0\") or fails to explain what the new mean means in context, showing lack of application ability.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ your class of 5 students took a math test and scored: 72, 68, 75, 70, 65 marks.",
+     "a": "Imagine",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The teacher decides to give ______ bonus marks to everyone for attempting a challenging bonus question.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about When a constant value \\(k\\)?",
+     "a": "For example, with original mean 20, n=5, adding 3 to each: they compute new mean = 20 + 3×5 = 35 instead of 20 + 3 = 23.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute the new mean after adding a constant to all values without recalculating the entire sum, and can explain why the mean shifts by exactly that constant using the balancing point or algebraic reasoning.",
+     "self_check": true
     }
    ]
   }

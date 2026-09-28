@@ -34,6 +34,31 @@
      "q": "Construct a real-world word problem about buying notebooks and pens at a local stationery shop in rupees that can be represented by the equation $15x + 50 = 200$.",
      "a": "A good response describes a scenario such as: \"Rahul buys $x$ notebooks costing ₹15 each, and he also pays a fixed delivery charge of ₹50. If his total bill comes to ₹200, construct the equation.\" A poor response merely writes random numbers with variables without a logical real-world context or misplaces the constant term relative to the variable term.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It acts like a balanced weighing scale, meaning the numerical value of the ______ on the left-hand side (LHS) must be exactly equal to the numerical value of the right-hand side (RHS) for specific values of the variable.",
+     "a": "expression",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you go to a local ______ market in India with your mother, and the vendor uses a traditional beam balance.",
+     "a": "vegetable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: On one pan, the vendor puts ______ kg of potatoes, and on the other pan, he adds standard iron weights until the beam is completely level and balanced.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify the LHS, RHS, variable, and unknown in any given algebraic statement, can distinguish between an expression and an equation, and can verify whether a given number satisfies an equation by substituting it into both sides.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you go to a local vegetable market in India with your mother, and the vendor uses a ______ beam balance.",
+     "a": "traditional",
+     "self_check": true
     }
    ]
   }

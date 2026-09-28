@@ -34,6 +34,31 @@
      "q": "Design a one-to-one mapping activity for a Class 3 student to check if two piles of tamarind seeds are equal without counting. Use only materials found in a typical Indian kitchen. Describe the steps and how the child interprets the result.",
      "a": "Example: Use two small bowls. Child moves one seed from pile A and one from pile B into the bowls simultaneously, repeating until one pile is empty. If both empty together → equal. If one has seeds left → that pile had more. A poor answer (e.g., \"count them\") shows the student cannot devise a concrete, non-verbal bijection procedure — they default to counting, missing the core idea of mapping as an alternative to counting.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: One-to-one mapping (bijection) in early counting is the process of pairing each object in a collection with exactly one distinct counting token (such as a pebble, finger, or tally mark) such that no object is left unpaired and no token is used more than once, ______ that two sets have the same cardinality without using number names.",
+     "a": "establishing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a shepherd in ancient Rajasthan who needs to check if all 25 goats have ______ to the pen without knowing number words beyond \"many\".",
+     "a": "returned",
+     "self_check": true
+    },
+    {
+     "q": "What is One-to-one mapping (bijection) in early counting? State the definition given in this lesson.",
+     "a": "One-to-one mapping (bijection) in early counting is the process of pairing each object in a collection with exactly one distinct counting token (such as a pebble, finger, or tally mark) such that no object is left unpaired and no token is used more than once, establishing that two sets have the same cardinality without using number names.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about One-to-one mapping (bijection) in early counting?",
+     "a": "Students think one-to-one mapping only proves *equality* and cannot show *which set is larger* or *by how much*.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can demonstrate one-to-one correspondence between two concrete sets (e.g., match 12 marbles to 12 beads), explain why the mapping proves equal quantity without counting, and identify when a given pairing fails to be a valid one-to-one mapping (e.g., an object paired with two tokens or a token left unused).",
+     "self_check": true
     }
    ]
   }

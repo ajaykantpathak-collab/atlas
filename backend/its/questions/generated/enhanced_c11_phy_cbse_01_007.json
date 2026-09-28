@@ -34,6 +34,31 @@
      "q": "Design a thought experiment to test whether the period of a simple pendulum depends on the mass of the bob using only dimensional analysis reasoning (no actual experiment). Explain what dimensional analysis predicts and what it cannot predict about this dependence.",
      "a": "Dimensional analysis setup: T = k l^x g^y m^z. [T] = [L]^x [L T⁻²]^y [M]^z = [M^z L^(x+y) T^(-2y)]. Equating: M: z=0; L: x+y=0; T: -2y=1 → y=-1/2, x=1/2. So T = k √(l/g) m^0 = k √(l/g). Prediction: Period is INDEPENDENT of mass (z=0). What it CANNOT predict: The value of dimensionless constant k (which is 2π from actual dynamics). It also cannot rule out that T might depend on amplitude θ₀ if θ₀ is dimensionless (since dimensionless quantities don't affect dimensional equations). A poor answer reveals confusion between \"dimensionally allowed\" and \"physically determined\" dependencies.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Dimensional analysis is a mathematical technique used to check the dimensional consistency of physical equations and to derive ______ between physical quantities by expressing each quantity in terms of the seven base dimensions [M], [L], [T], [A], [K], [mol], [cd] and applying the principle of homogeneity of dimensions.",
+     "a": "relationships",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a simple ______ in your school lab – a metal bob hanging from a string.",
+     "a": "pendulum",
+     "self_check": true
+    },
+    {
+     "q": "What is Dimensional analysis? State the definition given in this lesson.",
+     "a": "Dimensional analysis is a mathematical technique used to check the dimensional consistency of physical equations and to derive relationships between physical quantities by expressing each quantity in terms of the seven base dimensions [M], [L], [T], [A], [K], [mol], [cd] and applying the principle of homogeneity of dimensions.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Dimensional analysis?",
+     "a": "Students believe that if an equation is dimensionally correct, it is physically correct.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently verify the dimensional correctness of any given physics equation involving up to five physical quantities, and can derive the functional relationship between a dependent quantity and up to three independent quantities using the product-of-powers method, correctly identifying the exponents by equating dimensions.",
+     "self_check": true
     }
    ]
   }

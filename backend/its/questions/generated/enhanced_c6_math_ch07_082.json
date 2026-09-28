@@ -34,6 +34,26 @@
      "q": "Draw a diagram with two parallel lines and a transversal. Label an acute angle as 50°. Can you create a puzzle for a friend using this angle to find all other 7 angles?",
      "a": "The student should label the 50° angle and correctly identify that the other angles must be either 50° or 130° (180-50). A poor answer fails to identify the supplementary nature of adjacent angles on a line.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ is a line that intersects two or more other lines at distinct points.",
+     "a": "transversal",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever looked at a railway track with a ______ metal rod crossing over the two parallel rails?",
+     "a": "diagonal",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by identifying angles that look like they are in the \"same position\" (corresponding) or \"opposite sides\" (alternate); once you see these patterns, you can use the simple rules—either the angles are equal or they add up to ______ degrees—to solve for any missing value.",
+     "a": "180",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify corresponding, alternate, and co-interior angle pairs when a transversal cuts two lines and correctly calculate missing angle measures given that the lines are parallel.",
+     "self_check": true
     }
    ]
   }

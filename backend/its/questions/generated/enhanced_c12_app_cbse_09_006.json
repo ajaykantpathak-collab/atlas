@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_09_006",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_09_006",
+   "title": "c12_app_cbse_09_006",
+   "questions": [
+    {
+     "q": "State the formula for EMI under the Flat Rate method and explain what each variable represents.",
+     "a": "EMI = (P + I) / n, where P = Principal (original loan amount), I = Total Interest = P × r × t (r = annual rate, t = time in years), n = total number of monthly instalments = 12 × t. A wrong answer (e.g., using reducing balance formula or forgetting to multiply years by 12 for `n`) reveals the student confuses the two methods or misses unit conversion.",
+     "self_check": true
+    },
+    {
+     "q": "A loan of ₹5,00,000 is taken at 10% p.a. for 3 years. Calculate the EMI under the Flat Rate method. Then explain why this EMI is higher than the Reducing Balance EMI for the same loan.",
+     "a": "Flat Rate: I = 5,00,000 × 0.10 × 3 = 1,50,000; Total = 6,50,000; n = 36; EMI = 6,50,000 / 36 ≈ ₹18,055.56. Reducing Balance EMI is lower because interest is charged only on the *outstanding* principal, which decreases every month, whereas Flat Rate charges interest on the *full* principal for all 3 years. A student who cannot explain this distinction has not grasped the core conceptual difference.",
+     "self_check": true
+    },
+    {
+     "q": "Calculate the monthly EMI for a loan of ₹10,00,000 at 9% p.a. compounded monthly for 20 years using the Reducing Balance method. Show all steps including rate and time conversion.",
+     "a": "Step 1: P = 10,00,000. Step 2: Annual rate r = 9% → monthly rate i = 0.09/12 = 0.0075. Step 3: Time = 20 years → n = 20 × 12 = 240 months. Step 4: EMI = P × i × (1+i)^n / [(1+i)^n - 1] = 10,00,000 × 0.0075 × (1.0075)^240 / [(1.0075)^240 - 1]. Step 5: (1.0075)^240 ≈ 6.009; Numerator = 10,00,000 × 0.0075 × 6.009 = 45,067.5; Denominator = 5.009; EMI ≈ 45,067.5 / 5.009 ≈ ₹8,997. A wrong answer usually stems from using annual rate directly (i=0.09) or n=20 instead of 240.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the total interest paid on a ₹20,00,000 loan at 8% p.a. for 15 years under Flat Rate vs Reducing Balance. Which method benefits the borrower and by how much?",
+     "a": "Flat Rate: I = 20,00,000 × 0.08 × 15 = 24,00,000. Reducing Balance: i = 0.08/12 ≈ 0.006667, n = 180; EMI = 20,00,000 × 0.006667 × (1.006667)^180 / [(1.006667)^180 - 1] ≈ ₹19,113; Total paid = 19,113 × 180 = 34,40,340; Interest = 14,40,340. Difference = 24,00,000 - 14,40,340 = ₹9,59,660. Reducing Balance saves ₹9.6 lakh. A student who only computes EMIs without comparing total interest misses the financial implication.",
+     "self_check": true
+    },
+    {
+     "q": "A bank offers a personal loan at \"12% p.a. flat rate\" for 5 years. Another bank offers \"12% p.a. reducing balance\" for 5 years. Critically evaluate: Are these rates truly comparable? What should a borrower check before deciding?",
+     "a": "No, they are not comparable. A 12% flat rate is *much* costlier than 12% reducing balance because the flat rate applies to the full principal throughout, while reducing balance applies to the declining principal. The effective annual rate of a 12% flat rate loan for 5 years is approximately 21.5% p.a. (using IRR approximation). A borrower must always ask for the **Reducing Balance rate** or compute the **APR (Annual Percentage Rate)** to compare fairly. A student who says \"both are 12%, so same\" reveals a dangerous misconception about nominal vs effective cost.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-life scenario where a borrower would *prefer* the Flat Rate method (if ever), or argue why Reducing Balance is always better for the borrower. Justify with a numerical example.",
+     "a": "Reducing Balance is *always* better for the borrower when the nominal rate and tenure are identical, because interest is charged on a shrinking base. Flat Rate is only \"preferable\" if the *quoted flat rate* is significantly lower than the reducing balance rate (e.g., 8% flat vs 12% reducing). Example: ₹1 lakh, 2 years. 8% flat: I = 16,000, EMI = 4,833. 12% reducing: i=1%, n=24, EMI ≈ 4,707. Here 12% reducing is still cheaper! Flat Rate would need to be ~6.5% to match 12% reducing. A strong answer shows this crossover calculation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

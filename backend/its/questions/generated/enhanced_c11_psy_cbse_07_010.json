@@ -34,6 +34,26 @@
      "q": "Design a simple experiment to test whether language influences thought in the domain of time perception. Specify: (a) two languages with different temporal metaphors (e.g., horizontal vs vertical), (b) a non-linguistic task, (c) predicted results under Whorf vs Piaget vs Vygotsky.",
      "a": "(a) Mandarin (vertical time metaphors: \"shàng ge yuè\" = up month = last month) vs English (horizontal: \"back/forward\" in time). (b) Non-linguistic task: participants view temporal sequences (e.g., aging faces) arranged vertically or horizontally, then recall order. (c) Whorf (weak): Mandarin speakers faster/more accurate with vertical layout; English speakers with horizontal. Piaget: no difference — temporal cognition from sensorimotor experience, not language. Vygotsky: difference emerges only after language internalisation (~age 7+); young children show no effect. A poor design (e.g., using linguistic tasks, not controlling for writing direction) reveals inability to isolate language-specific effects from cultural confounds.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The relationship between thought and language refers to the theoretical debate examining whether language determines the structure and content of thought (linguistic relativity hypothesis), thought precedes and determines language development (Piaget's cognitive ______), or thought and language originate independently and merge during early development (Vygotsky's sociocultural theory).",
+     "a": "constructivism",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever tried explaining the Hindi word \"jootha\" (food contaminated by someone's saliva) to an ______ speaker and realised there is no single-word equivalent?",
+     "a": "English",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can compare and contrast the three theoretical positions (Whorf, Piaget, Vygotsky) using specific empirical evidence, distinguish linguistic determinism from linguistic relativity, and apply each framework to explain cross-linguistic differences in cognition such as kinship terminology, colour categorisation, or spatial reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever tried explaining the Hindi word \"jootha\" (food ______ by someone's saliva) to an English speaker and realised there is no single-word equivalent?",
+     "a": "contaminated",
+     "self_check": true
     }
    ]
   }

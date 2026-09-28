@@ -34,6 +34,21 @@
      "q": "Create a real-world problem (with numbers) where the chain rule is needed to find the rate of change of a quantity that depends on another quantity which itself changes with time. Provide the functions and ask for the derivative at a specific instant.",
      "a": "Example: The temperature \\( T \\) (in °C) of a metal rod at distance \\( x \\) (in cm) from one end is \\( T(x) = 20 + 5\\sqrt{x} \\). The rod expands so that \\( x \\) changes with time \\( t \\) (in seconds) as \\( x(t) = t^2 + 4 \\). Find the rate of change of temperature with respect to time when \\( t = 1 \\) s.\nSolution: \\( \\frac{dT}{dt} = \\frac{dT}{dx} \\cdot \\frac{dx}{dt} = \\frac{5}{2\\sqrt{x}} \\cdot 2t = \\frac{5t}{\\sqrt{t^2+4}} \\). At \\( t=1 \\), \\( \\frac{dT}{dt} = \\frac{5}{\\sqrt{5}} = \\sqrt{5} \\) °C/s.\nA poor answer might give only the formula without a context, or misuse the chain rule (e.g., adding derivatives). This tests the ability to construct a meaningful composite scenario.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are calculating how fast the volume of a spherical balloon ______ as you pump air into it.",
+     "a": "changes",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "They can also extend the rule to three or more functions and use it in implicit and parametric differentiation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ how fast the volume of a spherical balloon changes as you pump air into it.",
+     "a": "calculating",
+     "self_check": true
     }
    ]
   }

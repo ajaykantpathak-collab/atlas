@@ -34,6 +34,31 @@
      "q": "Design a two-step synthesis to convert phenylacetic acid (C₆H₅CH₂COOH) into 2-phenylethanol (C₆H₅CH₂CH₂OH) using only reagents covered in Class 12 NCERT. Write balanced equations for each step and state the reagents/conditions.",
      "a": "Step 1: Reduction of phenylacetic acid to 2-phenylethanol using LiAlH₄ in dry ether, then H₃O⁺ workup. C₆H₅CH₂COOH →[LiAlH₄, dry ether] C₆H₅CH₂CH₂OAlH₃ →[H₃O⁺] C₆H₅CH₂CH₂OH. (Diborane in THF also works). This is actually a ONE-step reduction. A \"two-step\" design might incorrectly propose: (i) convert to acyl chloride (SOCl₂), (ii) reduce with LiAlH₄ — but that's unnecessary. A good answer recognises direct reduction is possible and explains why a two-step route is redundant. A poor answer proposes irrelevant steps (e.g., esterification then reduction) showing inability to identify the most direct transformation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the nucleophilic acyl substitution reaction where a carboxylic acid reacts with an alcohol in the presence of a strong acid catalyst (conc.",
+     "a": "Esterification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Walk into any Indian kitchen and smell the fruity aroma of pineapple or banana essence — that's ethyl butanoate or isoamyl acetate, esters formed from ______ acids and alcohols.",
+     "a": "carboxylic",
+     "self_check": true
+    },
+    {
+     "q": "What is Esterification? State the definition given in this lesson.",
+     "a": "Esterification is the nucleophilic acyl substitution reaction where a carboxylic acid reacts with an alcohol in the presence of a strong acid catalyst (conc.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Esterification?",
+     "a": "Students write the esterification mechanism as: RCOOH + R'OH → RCOOR' + H₂O with H₂SO₄ written ABOVE the arrow, and think the mechanism is simple condensation.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) write the stepwise mechanism of acid-catalysed esterification showing protonation, nucleophilic attack, proton transfer, and elimination of water; (2) predict the ester product from any given carboxylic acid and alcohol combination; (3) select the correct reducing agent (LiAlH₄ vs NaBH₄ vs diborane) for.",
+     "self_check": true
     }
    ]
   }

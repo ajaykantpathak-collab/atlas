@@ -1,0 +1,428 @@
+{
+ "catalog": "catalog_class11_physics_ch105.json",
+ "concepts": [
+  {
+   "id": "keph.5.2",
+   "title": "Work-Energy Theorem for Constant Force",
+   "converted_to_compute": true,
+   "formula": "work = ke_final - ke_initial",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "work = ke_final - ke_initial",
+     "compute": "work = ke_final - ke_initial"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Work-Energy Theorem for Constant Force: given ke_final = 2.3, ke_initial = 89, find work.",
+     "a": "-86.7",
+     "self_check": false
+    },
+    {
+     "q": "For Work-Energy Theorem for Constant Force: given ke_final = 83, ke_initial = 9.5, find work.",
+     "a": "73.5",
+     "self_check": false
+    },
+    {
+     "q": "For Work-Energy Theorem for Constant Force: given ke_final = 77, ke_initial = 65, find work.",
+     "a": "12",
+     "self_check": false
+    },
+    {
+     "q": "For Work-Energy Theorem for Constant Force: given ke_final = 25, ke_initial = 4.3, find work.",
+     "a": "20.7",
+     "self_check": false
+    },
+    {
+     "q": "For Work-Energy Theorem for Constant Force: given ke_final = 1.9, ke_initial = 18, find work.",
+     "a": "-16.1",
+     "self_check": false
+    },
+    {
+     "q": "For Work-Energy Theorem for Constant Force: given ke_final = 17.4, ke_initial = 91, find work.",
+     "a": "-73.6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.5.3",
+   "title": "Work Done by a Constant Force",
+   "converted_to_compute": true,
+   "formula": "work = force * displacement * cos_theta",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "work = force * displacement * cos_theta",
+     "compute": "work = force * displacement * cos_theta"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Work Done by a Constant Force: given force = 489, displacement = 399, cos_theta = 100, find work.",
+     "a": "19511100",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done by a Constant Force: given force = 396, displacement = 101, cos_theta = 90, find work.",
+     "a": "3599640",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done by a Constant Force: given force = 843, displacement = 398, cos_theta = 33, find work.",
+     "a": "11071962",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done by a Constant Force: given force = 319, displacement = 272, cos_theta = 92, find work.",
+     "a": "7982656",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done by a Constant Force: given force = 803, displacement = 474, cos_theta = 97, find work.",
+     "a": "36920334",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done by a Constant Force: given force = 57, displacement = 440, cos_theta = 21, find work.",
+     "a": "526680",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.5.4",
+   "title": "Kinetic Energy",
+   "converted_to_compute": true,
+   "formula": "ke = (1/2) * mass * speed**2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ke = (1/2) * mass * speed**2",
+     "compute": "ke = (1/2) * mass * speed**2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Kinetic Energy: given mass = 58, speed = 70, find ke.",
+     "a": "142100",
+     "self_check": false
+    },
+    {
+     "q": "For Kinetic Energy: given mass = 28, speed = 32, find ke.",
+     "a": "14336",
+     "self_check": false
+    },
+    {
+     "q": "For Kinetic Energy: given mass = 64, speed = 79, find ke.",
+     "a": "199712",
+     "self_check": false
+    },
+    {
+     "q": "For Kinetic Energy: given mass = 145, speed = 113, find ke.",
+     "a": "925752",
+     "self_check": false
+    },
+    {
+     "q": "For Kinetic Energy: given mass = 43, speed = 74, find ke.",
+     "a": "117734",
+     "self_check": false
+    },
+    {
+     "q": "For Kinetic Energy: given mass = 21, speed = 70, find ke.",
+     "a": "51450",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.5.5",
+   "title": "Work Done by a Variable Force",
+   "converted_to_compute": true,
+   "formula": "work = constant_force * dist_1 + (1/2) * (initial_force + final_force) * dist_2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "work = constant_force * dist_1 + (1/2) * (initial_force + final_force) * dist_2",
+     "compute": "work = constant_force * dist_1 + (1/2) * (initial_force + final_force) * dist_2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Work Done by a Variable Force: given constant_force = 83, dist_1 = 36, initial_force = 401, final_force = 164, dist_2 = 19.9, find work.",
+     "a": "8609.75",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done by a Variable Force: given constant_force = 100, dist_1 = 31, initial_force = 901, final_force = 629, dist_2 = 32, find work.",
+     "a": "27580",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done by a Variable Force: given constant_force = 80, dist_1 = 36, initial_force = 749, final_force = 815, dist_2 = 112, find work.",
+     "a": "90464",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done by a Variable Force: given constant_force = 105, dist_1 = 71, initial_force = 53, final_force = 480, dist_2 = 98, find work.",
+     "a": "33572",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done by a Variable Force: given constant_force = 80, dist_1 = 38, initial_force = 781, final_force = 392, dist_2 = 14.9, find work.",
+     "a": "11778.9",
+     "self_check": false
+    },
+    {
+     "q": "For Work Done by a Variable Force: given constant_force = 111, dist_1 = 59, initial_force = 562, final_force = 427, dist_2 = 97, find work.",
+     "a": "54515.5",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.5.6",
+   "title": "Work-Energy Theorem for Variable Force",
+   "converted_to_compute": true,
+   "formula": "ke_final = ke_initial + integral_force_dx",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ke_final = ke_initial + integral_force_dx",
+     "compute": "ke_final = ke_initial + integral_force_dx"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Work-Energy Theorem for Variable Force: given ke_initial = 27, integral_force_dx = 248, find ke final.",
+     "a": "275",
+     "self_check": false
+    },
+    {
+     "q": "For Work-Energy Theorem for Variable Force: given ke_initial = 88, integral_force_dx = 192, find ke final.",
+     "a": "280",
+     "self_check": false
+    },
+    {
+     "q": "For Work-Energy Theorem for Variable Force: given ke_initial = 4.9, integral_force_dx = 850, find ke final.",
+     "a": "854.9",
+     "self_check": false
+    },
+    {
+     "q": "For Work-Energy Theorem for Variable Force: given ke_initial = 54, integral_force_dx = 539, find ke final.",
+     "a": "593",
+     "self_check": false
+    },
+    {
+     "q": "For Work-Energy Theorem for Variable Force: given ke_initial = 42, integral_force_dx = 249, find ke final.",
+     "a": "291",
+     "self_check": false
+    },
+    {
+     "q": "For Work-Energy Theorem for Variable Force: given ke_initial = 96, integral_force_dx = 743, find ke final.",
+     "a": "839",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.5.7",
+   "title": "Gravitational Potential Energy",
+   "converted_to_compute": true,
+   "formula": "pe = mass * g * height",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "pe = mass * g * height",
+     "compute": "pe = mass * g * height"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Gravitational Potential Energy: given mass = 194, height = 284, find pe.",
+     "a": "539941",
+     "self_check": false
+    },
+    {
+     "q": "For Gravitational Potential Energy: given mass = 14, height = 212, find pe.",
+     "a": "29086.4",
+     "self_check": false
+    },
+    {
+     "q": "For Gravitational Potential Energy: given mass = 38, height = 172, find pe.",
+     "a": "64052.8",
+     "self_check": false
+    },
+    {
+     "q": "For Gravitational Potential Energy: given mass = 167, height = 325, find pe.",
+     "a": "531895",
+     "self_check": false
+    },
+    {
+     "q": "For Gravitational Potential Energy: given mass = 13.8, height = 4.3, find pe.",
+     "a": "581.532",
+     "self_check": false
+    },
+    {
+     "q": "For Gravitational Potential Energy: given mass = 1.4, height = 331, find pe.",
+     "a": "4541.32",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.5.8",
+   "title": "Conservation of Mechanical Energy",
+   "converted_to_compute": true,
+   "formula": "total_energy = (1/2) * mass * speed**2 + mass * g * height",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_energy = (1/2) * mass * speed**2 + mass * g * height",
+     "compute": "total_energy = (1/2) * mass * speed**2 + mass * g * height"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Conservation of Mechanical Energy: given mass = 51, speed = 35, height = 288, find total energy.",
+     "a": "175180",
+     "self_check": false
+    },
+    {
+     "q": "For Conservation of Mechanical Energy: given mass = 8.9, speed = 120, height = 282, find total energy.",
+     "a": "88676",
+     "self_check": false
+    },
+    {
+     "q": "For Conservation of Mechanical Energy: given mass = 106, speed = 102, height = 357, find total energy.",
+     "a": "922264",
+     "self_check": false
+    },
+    {
+     "q": "For Conservation of Mechanical Energy: given mass = 12.2, speed = 85, height = 113, find total energy.",
+     "a": "57582.8",
+     "self_check": false
+    },
+    {
+     "q": "For Conservation of Mechanical Energy: given mass = 79, speed = 14.9, height = 309, find total energy.",
+     "a": "247997",
+     "self_check": false
+    },
+    {
+     "q": "For Conservation of Mechanical Energy: given mass = 46, speed = 120, height = 13.6, find total energy.",
+     "a": "337331",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.5.9",
+   "title": "Potential Energy of a Spring",
+   "converted_to_compute": true,
+   "formula": "pe_spring = (1/2) * spring_k * displacement**2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "pe_spring = (1/2) * spring_k * displacement**2",
+     "compute": "pe_spring = (1/2) * spring_k * displacement**2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Potential Energy of a Spring: given spring_k = 25, displacement = 326, find pe spring.",
+     "a": "1328450",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Energy of a Spring: given spring_k = 12.3, displacement = 474, find pe spring.",
+     "a": "1381757.4",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Energy of a Spring: given spring_k = 39, displacement = 480, find pe spring.",
+     "a": "4492800",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Energy of a Spring: given spring_k = 39, displacement = 238, find pe spring.",
+     "a": "1104558",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Energy of a Spring: given spring_k = 38, displacement = 301, find pe spring.",
+     "a": "1721419",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Energy of a Spring: given spring_k = 92, displacement = 381, find pe spring.",
+     "a": "6677406",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.5.10",
+   "title": "Power",
+   "converted_to_compute": true,
+   "formula": "power = total_force * speed",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "power = total_force * speed",
+     "compute": "power = total_force * speed"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Power: given total_force = 49, speed = 50, find power.",
+     "a": "2450",
+     "self_check": false
+    },
+    {
+     "q": "For Power: given total_force = 794, speed = 10.8, find power.",
+     "a": "8575.2",
+     "self_check": false
+    },
+    {
+     "q": "For Power: given total_force = 39, speed = 97, find power.",
+     "a": "3783",
+     "self_check": false
+    },
+    {
+     "q": "For Power: given total_force = 353, speed = 25, find power.",
+     "a": "8825",
+     "self_check": false
+    },
+    {
+     "q": "For Power: given total_force = 49, speed = 91, find power.",
+     "a": "4459",
+     "self_check": false
+    },
+    {
+     "q": "For Power: given total_force = 696, speed = 64, find power.",
+     "a": "44544",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

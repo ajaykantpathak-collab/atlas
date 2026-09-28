@@ -34,6 +34,26 @@
      "q": "Create a bivariate dataset of 6 pairs where the actual means are non-integers but choosing appropriate assumed means makes all deviations integers. Calculate r using your chosen assumed means. Verify by computing actual means and showing the deviations match.",
      "a": "Example dataset: X: 14, 17, 20, 23, 26, 29 (X̄ = 21.5) Y: 32, 38, 44, 50, 56, 62 (Ȳ = 47)\nChoose A_x = 20, A_y = 44.\ndx: -6, -3, 0, 3, 6, 9 → Σdx = 9, Σdx² = 171\ndy: -12, -6, 0, 6, 12, 18 → Σdy = 18, Σdy² = 648\ndxdy: 72, 18, 0, 18, 72, 162 → Σdxdy = 342\nr = [6(342) - (9)(18)] / √[6(171)-81] × √[6(648)-324] = [2052-162] / √[1026-81] × √[3888-324] = 1890 / √945 × √3564 = 1890 / (30.74 × 59.70) = 1890/1835 ≈ 1.03 (rounding error; exact = 1).\nActual mean deviations: X-21.5 = -7.5, -4.5, -1.5, 1.5, 4.5, 7.5; Y-47 = -15, -9, -3, 3, 9, 15. Cross-products identical. A poor answer would choose assumed means that don't simplify calculations or fail to verify the match.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The assumed mean method (step-deviation method) for Karl Pearson's ______ coefficient simplifies computation by taking deviations of X and Y variables from arbitrarily chosen assumed means (A_x, A_y) instead of actual means, using the formula r = [NΣdxdy - (Σdx)(Σdy)] / √[NΣdx² - (Σdx)²] × √[NΣdy² - (Σdy)²], where dx = X - A_x and dy = Y - A_y.",
+     "a": "correlation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're analysing the ______ between monthly advertising expenditure (in ₹ thousands) and sales revenue (in ₹ lakhs) for 10 small businesses.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're analysing the relationship between monthly advertising expenditure (in ₹ thousands) and sales revenue (in ₹ lakhs) for ______ small businesses.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can independently construct a complete correlation table with assumed means, compute all summation terms correctly, substitute into the formula, and interpret the resulting coefficient's magnitude and direction in context.",
+     "self_check": true
     }
    ]
   }

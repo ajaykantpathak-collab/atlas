@@ -34,6 +34,26 @@
      "q": "Create your own inferential question based on the Adi song section and provide a model answer using PEEL. The question must require synthesizing at least two separate details from the text.",
      "a": "Sample question: \"What does the use of Miri Agom (ritual language) for the healing chant reveal about Adi culture's view of language and health?\" Model answer: Point: The Adi distinguish ritual language from everyday language, showing they view language as having power to affect reality. Evidence: The text says Miri Agom is \"a highly rhythmic language used for chanting during rituals\" while Adi Agom is for \"routine conversation,\" and the chant aims to \"call back your lost health\" by addressing the spirit. Explanation: This separation indicates language is not merely communicative but performative – the right words in the right register can restore cosmic balance. Link: Thus, Adi culture sees health as spiritual equilibrium maintained through specialized linguistic practice. A poor answer would only describe the two languages without inferring their cultural significance.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal comprehension questions require answers directly stated in the text, while ______ comprehension questions require students to draw conclusions by combining textual evidence with logical reasoning, going beyond what is explicitly written.",
+     "a": "inferential",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are sitting in the exam hall and see a question: \"According to Devy, why are tribal languages not ______ 'literature' by literary critics?\" Your first instinct might be to write a general opinion.",
+     "a": "considered",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Step ______: Identify the question type – is it asking for a fact directly stated (literal) or a conclusion you must draw (inferential)?",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently distinguish between literal and inferential questions, locate explicit textual evidence for literal answers, and construct justified inferences by synthesizing multiple textual clues for inferential answers, writing responses that follow the PEEL structure (Point, Evidence, Explanation, Link) expected in.",
+     "self_check": true
     }
    ]
   }

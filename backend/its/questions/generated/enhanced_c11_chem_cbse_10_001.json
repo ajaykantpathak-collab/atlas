@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_chem_cbse_10_001",
+ "concepts": [
+  {
+   "id": "enh:c11_chem_cbse_10_001",
+   "title": "c11_chem_cbse_10_001",
+   "questions": [
+    {
+     "q": "State the hybridisation and geometry of the carbon atoms in: (a) methane (CH₄), (b) ethene (C₂H₄), (c) ethyne (C₂H₂).",
+     "a": "(a) CH₄: sp³, tetrahedral, 109.5°; (b) C₂H₄: each C is sp², trigonal planar, ~120°; (c) C₂H₂: each C is sp, linear, 180°. **Wrong answer reveals:** If a student says ethene is sp³, they confuse the double bond with single bonds and miss that one p orbital remains unhybridised for the π bond. If they say ethyne is sp², they misunderstand that two π bonds require two unhybridised p orbitals, leaving only sp hybridisation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a carbon–carbon single bond (σ) allows free rotation but a carbon–carbon double bond (σ + π) restricts rotation.",
+     "a": "A σ bond has cylindrical symmetry along the internuclear axis; rotating one CH₂ group relative to the other does not break orbital overlap. A π bond arises from sideways overlap of parallel p orbitals above/below the plane; rotation twists the p orbitals out of parallel alignment, breaking the π bond (requires ~270 kJ/mol). **Wrong answer reveals:** If a student says \"double bonds are stronger so they don't rotate,\" they confuse bond strength with the geometric requirement for π overlap. The restriction is due to loss of π overlap, not σ bond strength.",
+     "self_check": true
+    },
+    {
+     "q": "Draw the bond-line (skeletal) formula for 3-methylpentan-2-one. Identify the functional group and the hybridisation of the carbonyl carbon.",
+     "a": "**Structure:** A 5-carbon chain (pentane skeleton) with a keto group at C-2 and a methyl branch at C-3. Bond-line: zigzag of 5 vertices; at C-2, a double-bonded O (shown as =O); at C-3, a CH₃ branch. **Functional group:** Ketone (>C=O). **Hybridisation of carbonyl C:** sp² (trigonal planar). **Wrong answer reveals:** If the student draws the carbonyl as –OH (alcohol) or misses the branch, they confuse ketone with alcohol or mislocate substituents. If they say carbonyl C is sp³, they ignore the double bond's π component requiring an unhybridised p orbital.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the bond angles in: (i) cyclopropane, (ii) cyclobutane, (iii) cyclopentane, (iv) cyclohexane (chair). Explain the trend using angle strain and hybridisation.",
+     "a": "Ideal sp³ angle = 109.5°. (i) Cyclopropane: 60° (severe angle strain, \"bent bonds\" with more p-character). (ii) Cyclobutane: ~90° (puckered, still strained). (iii) Cyclopentane: ~108° (envelope, near ideal). (iv) Cyclohexane chair: 109.5° (strain-free). **Trend:** Angle strain decreases as ring size increases to 6; larger rings adopt non-planar conformations to approach tetrahedral angles. **Wrong answer reveals:** If a student says all cycloalkanes have 109.5°, they ignore ring strain. If they say cyclopropane has 120° (sp²), they confuse planarity with hybridisation — cyclopropane carbons are sp³ but with distorted angles.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes the condensed formula of 2,3-dimethylbutane as CH₃–CH(CH₃)–CH(CH₃)–CH₃ and claims it has a chiral centre. Evaluate this claim.",
+     "a": "**Claim is false.** 2,3-Dimethylbutane has two identical chiral centres (C-2 and C-3 each bonded to H, CH₃, CH₃, and the other chiral carbon). The molecule has a plane of symmetry (meso) and is **achiral**. **Wrong answer reveals:** If the student says \"yes, it has two chiral centres so it's chiral,\" they miss the meso possibility and the requirement for **non-superimposable mirror images**. They confuse \"stereogenic centre\" with \"chirality of the molecule.\"",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple test-tube experiment to distinguish between an alkane (e.g., hexane), an alkene (e.g., hex-1-ene), and an alkyne (e.g., hex-1-yne) using only bromine water (Br₂/H₂O) and aqueous KMnO₄ (Baeyer's test). Write observations for each.",
+     "a": "**Procedure:** Add 1 mL of each hydrocarbon to separate test tubes. Add 2 mL bromine water, shake. Then, to fresh samples, add 2 mL dilute KMnO₄, shake. **Observations:** (a) Hexane: Br₂ water stays orange-brown (no reaction); KMnO₄ stays purple (no reaction). (b) Hex-1-ene: Br₂ water decolourises (addition across C=C); KMnO₄ decolourises (purple → brown MnO₂ precipitate). (c) Hex-1-yne: Br₂ water decolourises (addition across C≡C, may take 2 equivalents); KMnO₄ decolourises. **Wrong answer reveals:** If the student says alkyne does not decolourise KMnO₄, they forget alkynes also undergo oxidative cleavage. If they say alkane reacts with Br₂ water, they confuse substitution (needs UV light) with addition.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

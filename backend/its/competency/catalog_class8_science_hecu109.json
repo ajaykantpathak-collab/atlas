@@ -24,12 +24,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "name the parts",
-     "explain": "The dissolved substance is the solute; the dissolving medium is the solvent."},
-    {"step": 2, "action": "check the uniformity",
-     "explain": "A true solution shows the same taste and composition in every drop."},
-    {"step": 3, "action": "test stability",
-     "explain": "No settling on standing confirms the solution nature."}
+    {
+     "step": 1,
+     "action": "name the parts",
+     "explain": "The dissolved substance is the solute; the dissolving medium is the solvent."
+    },
+    {
+     "step": 2,
+     "action": "check the uniformity",
+     "explain": "A true solution shows the same taste and composition in every drop."
+    },
+    {
+     "step": 3,
+     "action": "test stability",
+     "explain": "No settling on standing confirms the solution nature."
+    }
    ]
   },
   {
@@ -50,12 +59,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "add solute till no more dissolves",
-     "explain": "Keep stirring in spoonfuls; the first undissolved settling marks saturation."},
-    {"step": 2, "action": "record the temperature",
-     "explain": "The limit holds only at that temperature - solubility is temperature-specific."},
-    {"step": 3, "action": "change the temperature to redissolve",
-     "explain": "Heating raises the limit and the settled solute disappears again."}
+    {
+     "step": 1,
+     "action": "add solute till no more dissolves",
+     "explain": "Keep stirring in spoonfuls; the first undissolved settling marks saturation."
+    },
+    {
+     "step": 2,
+     "action": "record the temperature",
+     "explain": "The limit holds only at that temperature - solubility is temperature-specific."
+    },
+    {
+     "step": 3,
+     "action": "change the temperature to redissolve",
+     "explain": "Heating raises the limit and the settled solute disappears again."
+    }
    ]
   },
   {
@@ -76,13 +94,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "divide solute by solvent",
+    {
+     "step": 1,
+     "action": "divide solute by solvent",
      "explain": "The ratio of dissolved amount to liquid amount measures strength.",
-     "compute": "ratio = solute / solvent"},
-    {"step": 2, "action": "scale to a common basis",
+     "compute": "ratio = solute / solvent"
+    },
+    {
+     "step": 2,
+     "action": "scale to a common basis",
      "explain": "Multiplying by 100 compares the solutions per 100 mL of solvent.",
-     "compute": "conc = ratio * 100"}
-   ]
+     "compute": "conc = ratio * 100"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "conc = solute / solvent * 100",
+     "compute": "conc = solute / solvent * 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hecu.109.9.4",
@@ -102,12 +135,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "note the dissolved gas",
-     "explain": "Oxygen and carbon dioxide dissolve in water, supporting life and fizz."},
-    {"step": 2, "action": "heat the liquid",
-     "explain": "Warming gives gas particles energy to escape, lowering solubility."},
-    {"step": 3, "action": "draw the contrast",
-     "explain": "Solids usually dissolve more on heating, gases dissolve less."}
+    {
+     "step": 1,
+     "action": "note the dissolved gas",
+     "explain": "Oxygen and carbon dioxide dissolve in water, supporting life and fizz."
+    },
+    {
+     "step": 2,
+     "action": "heat the liquid",
+     "explain": "Warming gives gas particles energy to escape, lowering solubility."
+    },
+    {
+     "step": 3,
+     "action": "draw the contrast",
+     "explain": "Solids usually dissolve more on heating, gases dissolve less."
+    }
    ]
   },
   {
@@ -128,10 +170,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "divide mass by volume",
+    {
+     "step": 1,
+     "action": "divide mass by volume",
      "explain": "Mass packed per unit volume is the density.",
-     "compute": "density = mass / volume"}
-   ]
+     "compute": "density = mass / volume"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "density = mass / volume",
+     "compute": "density = mass / volume"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hecu.109.9.6",
@@ -151,9 +205,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "compare with water's density",
+    {
+     "step": 1,
+     "action": "compare with water's density",
      "explain": "Divide the substance density by the density of water.",
-     "compute": "rel_dens = density_of_substance / density_of_water"}
+     "compute": "rel_dens = density_of_substance / density_of_water"
+    }
    ]
   }
  ],
@@ -169,9 +226,12 @@
     "volume": "volume in cubic centimetres"
    },
    "solution_template": [
-    {"step": 1, "action": "divide mass by volume",
+    {
+     "step": 1,
+     "action": "divide mass by volume",
      "explain": "Density equals mass over volume.",
-     "compute": "density = mass / volume"}
+     "compute": "density = mass / volume"
+    }
    ]
   },
   {
@@ -185,9 +245,12 @@
     "volume": "volume of the liquid in mL"
    },
    "solution_template": [
-    {"step": 1, "action": "divide mass by volume",
+    {
+     "step": 1,
+     "action": "divide mass by volume",
      "explain": "Mass per mL gives the density for comparison with water.",
-     "compute": "density = mass / volume"}
+     "compute": "density = mass / volume"
+    }
    ]
   },
   {
@@ -201,9 +264,12 @@
     "density_of_water": "density of water in g per cubic cm"
    },
    "solution_template": [
-    {"step": 1, "action": "divide by water's density",
+    {
+     "step": 1,
+     "action": "divide by water's density",
      "explain": "Relative density compares the two densities.",
-     "compute": "rel_dens = density_of_substance / density_of_water"}
+     "compute": "rel_dens = density_of_substance / density_of_water"
+    }
    ]
   },
   {
@@ -217,9 +283,12 @@
     "density_of_water": "water density in g per cubic cm"
    },
    "solution_template": [
-    {"step": 1, "action": "compute the relative density",
+    {
+     "step": 1,
+     "action": "compute the relative density",
      "explain": "Divide the object's density by water's density.",
-     "compute": "rel_dens = density_of_substance / density_of_water"}
+     "compute": "rel_dens = density_of_substance / density_of_water"
+    }
    ]
   },
   {
@@ -233,12 +302,18 @@
     "solvent": "water in mL"
    },
    "solution_template": [
-    {"step": 1, "action": "divide solute by solvent",
+    {
+     "step": 1,
+     "action": "divide solute by solvent",
      "explain": "Spoons per mL measure the strength.",
-     "compute": "ratio = solute / solvent"},
-    {"step": 2, "action": "scale to 100 mL",
+     "compute": "ratio = solute / solvent"
+    },
+    {
+     "step": 2,
+     "action": "scale to 100 mL",
      "explain": "Multiply by 100 for spoons per 100 mL of water.",
-     "compute": "conc = ratio * 100"}
+     "compute": "conc = ratio * 100"
+    }
    ]
   },
   {
@@ -252,12 +327,18 @@
     "solvent": "water in mL in the test solution"
    },
    "solution_template": [
-    {"step": 1, "action": "divide solute by solvent",
+    {
+     "step": 1,
+     "action": "divide solute by solvent",
      "explain": "Compute the test solution's ratio.",
-     "compute": "ratio = solute / solvent"},
-    {"step": 2, "action": "scale to 100 mL",
+     "compute": "ratio = solute / solvent"
+    },
+    {
+     "step": 2,
+     "action": "scale to 100 mL",
      "explain": "Compare the scaled value with 2 spoons per 100 mL.",
-     "compute": "conc = ratio * 100"}
+     "compute": "conc = ratio * 100"
+    }
    ]
   }
  ],
@@ -266,18 +347,18 @@
    "id": "ex9.1",
    "source_ref": "hecu109.txt sections 9.1-9.3",
    "questions": [
-     "Identify solute, solvent and solution in a glass of ORS.",
-     "How will you prepare a saturated solution of sugar in water?",
-     "Why does a cold drink go flat when left open in the sun?"
+    "Identify solute, solvent and solution in a glass of ORS.",
+    "How will you prepare a saturated solution of sugar in water?",
+    "Why does a cold drink go flat when left open in the sun?"
    ]
   },
   {
    "id": "ex9.2",
    "source_ref": "hecu109.txt sections 9.4-9.5",
    "questions": [
-     "Explain why ice floats on water using density.",
-     "An object of mass 54 g has volume 20 cubic cm - find its density and say whether it floats.",
-     "Which is more concentrated: 2 spoons of salt in 100 mL or 4 spoons in 50 mL?"
+    "Explain why ice floats on water using density.",
+    "An object of mass 54 g has volume 20 cubic cm - find its density and say whether it floats.",
+    "Which is more concentrated: 2 spoons of salt in 100 mL or 4 spoons in 50 mL?"
    ]
   }
  ]

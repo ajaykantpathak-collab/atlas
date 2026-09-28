@@ -34,6 +34,31 @@
      "q": "Design a low-tech SCP production system for a rural Indian dairy cooperative using whey waste. Specify: (a) microorganism, (b) substrate pretreatment, (c) harvesting method without centrifuge, (d) one quality test before feeding to cattle.",
      "a": "(a) *Kluyveromyces marxianus* (lactose-fermenting yeast). (b) Whey pasteurization (72°C/15 sec) + pH adjustment to 5.0 + nutrient supplementation (NH₄Cl, KH₂PO₄, MgSO₄). (c) Flocculation with food-grade chitosan followed by sedimentation and solar drying on raised platforms. (d) Test for absence of *Salmonella* and aflatoxins (HPLC or lateral flow strip). A poor design uses *S. cerevisiae* (cannot ferment lactose) or skips pasteurization (contamination risk) or suggests spray drying (capital-intensive).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Single Cell Protein (SCP) is the dried biomass of ______ (bacteria, yeast, fungi, algae) cultivated on a large scale for use as a protein-rich supplement in human food or animal feed.",
+     "a": "microorganisms",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by observing a packet of baker's yeast or a probiotic drink — both are ______ biomass consumed directly.",
+     "a": "microbial",
+     "self_check": true
+    },
+    {
+     "q": "What is Single Cell Protein (SCP)? State the definition given in this lesson.",
+     "a": "Single Cell Protein (SCP) is the dried biomass of microorganisms (bacteria, yeast, fungi, algae) cultivated on a large scale for use as a protein-rich supplement in human food or animal feed.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Single Cell Protein (SCP)?",
+     "a": "Students often think SCP is a \"pure protein isolate\" like whey protein powder, and that the microbial cells are lysed to extract protein.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the stepwise production process of SCP from substrate selection to final product, justify why specific microorganisms are chosen for particular substrates, and evaluate the advantages and limitations of SCP compared to conventional protein sources for food security.",
+     "self_check": true
     }
    ]
   }

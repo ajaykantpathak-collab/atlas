@@ -34,6 +34,36 @@
      "q": "Design a simple classroom demonstration to show that adiabatic compression increases temperature. Use only household/school lab items (e.g., a syringe, cotton wool, matchstick). Describe the procedure, the observation, and the physics principle.",
      "a": "**Procedure:** Place a small piece of cotton wool at the bottom of a transparent plastic syringe (10-20 mL). Remove the needle, seal the nozzle tightly with a rubber cap or finger. Pull the plunger out fully, then push it in **rapidly** and forcefully.\n**Observation:** The cotton wool ignites (glows/smokes) due to the sudden temperature rise.\n**Principle:** Rapid compression is nearly adiabatic (Q ≈ 0). Work done on the gas increases its internal energy (ΔU = -W > 0), raising temperature above the ignition point of cotton (~200°C).\n**Criteria for good answer:** Must emphasize *rapid* compression (to approximate Q=0), sealing (closed system), and link ignition to temperature rise from work done. A poor answer suggests slow compression (isothermal) or attributes ignition to friction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Work done in an adiabatic process is the energy transferred by a gas when it expands or compresses without any heat exchange with its ______ (Q = 0).",
+     "a": "surroundings",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bicycle pump: when you rapidly ______ air by pushing the piston down, the pump barrel becomes noticeably warm.",
+     "a": "compress",
+     "self_check": true
+    },
+    {
+     "q": "What is Work done in an adiabatic process? State the definition given in this lesson.",
+     "a": "Work done in an adiabatic process is the energy transferred by a gas when it expands or compresses without any heat exchange with its surroundings (Q = 0).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Work done in an adiabatic process is the energy transferred by a gas when it expands or compresses without any heat exchange with its surroundings (Q = ______).",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Work done in an adiabatic process?",
+     "a": "Students often believe \"adiabatic\" means \"constant temperature\" because the word sounds similar to \"isothermal\" or they confuse \"no heat exchange\" with \"no temperature change\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the work done in a quasi-static adiabatic process using initial and final state variables (P, V, T) and the adiabatic index γ, and can correctly determine the sign of work based on whether the gas expands or compresses.",
+     "self_check": true
     }
    ]
   }

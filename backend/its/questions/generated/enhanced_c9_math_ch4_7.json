@@ -34,6 +34,31 @@
      "q": "Create a polynomial in two variables x and y that can be factorised using the identity (a + b + c)², where a, b, c are distinct terms involving x and y. Write the polynomial in expanded form, then factorise it, showing how you chose a, b, c.",
      "a": "Example: Choose a = 2x, b = 3y, c = 4. Then (a + b + c)² = (2x + 3y + 4)² = (2x)² + (3y)² + 4² + 2(2x)(3y) + 2(3y)(4) + 2(4)(2x) = 4x² + 9y² + 16 + 12xy + 24y + 16x. The expanded polynomial is 4x² + 9y² + 16 + 12xy + 24y + 16x. To factorise: identify squares: 4x² = (2x)², 9y² = (3y)², 16 = 4². Check cross terms: 12xy = 2(2x)(3y) ✓, 24y = 2(3y)(4) ✓, 16x = 2(4)(2x) ✓. All six terms match, so factorised form is (2x + 3y + 4)². A poor answer would create an expression missing one cross term (e.g., no 24y), showing the student doesn't understand that (a+b+c)² produces SIX terms, not three.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ using algebraic identities is the process of expressing a given polynomial as a product of its factors by recognising it as a perfect square trinomial, difference of two squares, or perfect square of a trinomial, and applying the reverse of the standard identities: a² + 2ab + b² = (a + b)², a² - 2ab + b² = (a - b)², a² - b² = (a + b)(a - b), and a² + b² + c² + 2ab + 2bc + 2ca = (a + b + c)².",
+     "a": "Factorisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are tiling a ______ floor in your classroom that measures (x + 5) metres by (x + 5) metres.",
+     "a": "rectangular",
+     "self_check": true
+    },
+    {
+     "q": "What is Factorisation using algebraic identities? State the definition given in this lesson.",
+     "a": "Factorisation using algebraic identities is the process of expressing a given polynomial as a product of its factors by recognising it as a perfect square trinomial, difference of two squares, or perfect square of a trinomial, and applying the reverse of the standard identities: a² + 2ab + b² = (a + b)², a² - 2ab + b² = (a - b)², a² - b².",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Factorisation using algebraic identities?",
+     "a": "Students incorrectly factorise expressions like 4x² + 9y² as (2x + 3y)² because they see the first and last terms as perfect squares and assume the identity applies.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently identify which algebraic identity applies to a given polynomial, correctly extract the terms 'a', 'b', and 'c' from the expression, and write the fully factorised form.",
+     "self_check": true
     }
    ]
   }

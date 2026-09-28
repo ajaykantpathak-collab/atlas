@@ -34,6 +34,31 @@
      "q": "Design a cloning strategy to insert a blunt-ended PCR product (amplified with a proofreading polymerase) into a plasmid vector that has a single EcoRI site in its MCS. The final construct must allow directional cloning. Specify all enzymatic steps, reagents, and how you will prevent vector self-ligation.",
      "a": "1. Digest vector with EcoRI → sticky ends (5'-AATT).\n2. Treat vector with alkaline phosphatase → remove 5'-P, prevent self-ligation.\n3. Add EcoRI linkers (synthetic double-stranded oligos with EcoRI site) to blunt-ended PCR product using T4 DNA ligase (blunt-end ligation, high ligase, ATP, 16°C overnight).\n4. Digest linker-ligated PCR product with EcoRI → generates EcoRI sticky ends on insert.\n5. Purify insert (gel extraction) to remove linkers.\n6. Ligate EcoRI-digested insert with dephosphorylated EcoRI-digested vector using T4 DNA ligase + ATP.\nDirectionality is achieved because insert has EcoRI sites at both ends but in opposite orientation (linkers added symmetrically), so it can only ligate in one orientation relative to the vector's single EcoRI site. A poor answer omits linker addition or phosphatase treatment, leading to non-directional or high-background cloning.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Insertion of foreign DNA into a suitable vector is the in vitro enzymatic process where a DNA fragment (insert) is covalently joined into a vector DNA (e.g., plasmid) by first generating compatible ends on both molecules using restriction endonucleases, then sealing the ______ backbone using DNA ligase to form a stable recombinant DNA molecule.",
+     "a": "phosphodiester",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have isolated the human insulin gene (≈1.1 kb) and want to clone it into a ______ vector (≈3 kb) to produce insulin in *E. coli*.",
+     "a": "plasmid",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If both have EcoRI sites, digest both with EcoRI to generate complementary sticky ends (______'-AATT overhangs).",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to design a complete cloning strategy: select restriction enzymes that produce compatible ends on vector and insert, calculate the optimal insert:vector molar ratio for ligation, explain the biochemical role of ATP/NAD⁺ in the ligase reaction, and describe how alkaline phosphatase treatment prevents vector.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have ______ the human insulin gene (≈1.1 kb) and want to clone it into a plasmid vector (≈3 kb) to produce insulin in *E. coli*.",
+     "a": "isolated",
+     "self_check": true
     }
    ]
   }

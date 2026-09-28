@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_11_006",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_11_006",
+   "title": "c12_soc_cbse_11_006",
+   "questions": [
+    {
+     "q": "What is the core difference between the traditional 'patronage' relationship between a landlord and agricultural labourer and the modern 'capitalist' wage-labour relationship in Indian agriculture?",
+     "a": "The patronage relationship involved reciprocal (though unequal) obligations: the landlord provided protection, consumption loans, and seasonal employment security, while the labourer gave loyal service, often tied hereditarily. The capitalist wage-labour relationship is purely contractual: the worker is 'free' to sell labour to the highest bidder but has no claim on the employer beyond the agreed wage, and the employer has no obligation beyond the wage payment. A wrong answer that equates the two or sees only 'exploitation' in both reveals a failure to grasp the structural break that Breman identifies — the loss of even minimal social security for the worker.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why contract farming is described in the textbook as 'disengaging many people from the production process and making their own indigenous knowledge of agriculture irrelevant'.",
+     "a": "In contract farming, the corporation decides the crop variety, supplies the seeds and agrochemicals, prescribes the cultivation calendar, and often monitors compliance through field officers. The farmer becomes a mere executor of a prescribed package, so the traditional knowledge of seed selection, soil management, pest prediction, and crop rotation — built over generations — is no longer used or valued. A wrong answer that focuses only on 'farmers losing money' misses the epistemological shift: the farmer is deskilled and turned into a low-autonomy contractor.",
+     "self_check": true
+    },
+    {
+     "q": "A farmer in Punjab enters a contract with a multinational to grow gherkins for export. The firm supplies seeds, fertilizer, and pesticide on credit, to be repaid from the harvest. The contract price is fixed at ₹20/kg. At harvest, the global price falls to ₹12/kg, but the firm still buys at ₹20/kg. However, the firm rejects 30% of the crop for 'quality non-compliance' and the farmer must bear the cost of the rejected produce. Calculate the farmer’s effective price per kg for the *accepted* produce if the total yield was 10,000 kg and input credit was ₹1,50,000. What does this illustrate about risk distribution?",
+     "a": "Step 1: Total contracted revenue = 10,000 kg × ₹20 = ₹2,00,000.  \nStep 2: Accepted quantity = 70% of 10,000 = 7,000 kg.  \nStep 3: Revenue actually received = 7,000 kg × ₹20 = ₹1,40,000.  \nStep 4: Net after input credit repayment = ₹1,40,000 – ₹1,50,000 = –₹10,000 (a loss).  \nStep 5: Effective price per accepted kg = ₹1,40,000 / 7,000 kg = ₹20/kg (contract price), but the farmer incurs a net loss because input costs exceed revenue.  \nThis illustrates that production risk (yield, quality) and price risk (global market) are transferred to the farmer, while the firm’s price guarantee is conditional on quality standards it unilaterally sets. A wrong answer that only computes the contract price without accounting for rejection and credit reveals a superficial reading of contract farming’s risk asymmetry.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the impact of the Green Revolution (node 003/004) and the post-liberalisation contract farming regime on the cropping pattern and food security in a region like coastal Andhra Pradesh. Use the concepts of 'mono-crop regime' and 'diversion of land from food grains' in your answer.",
+     "a": "The Green Revolution introduced HYV wheat/rice packages in assured-irrigation zones, leading to a mono-crop regime (e.g., rice-rice) that replaced diverse millet-pulse systems, increasing yield but reducing dietary diversity and raising ecological costs (water table decline, salinity). Contract farming intensifies this by promoting high-value export crops (flowers, gherkins, grapes) on the same irrigated land, further diverting area from food grains. While the Green Revolution was state-driven with price support, contract farming is corporate-driven with no MSP safety net. Both increase commercialisation, but contract farming deepens farmer dependence on external input markets and global price volatility. A wrong answer that treats them as identical misses the shift from state-mediated to market-mediated risk and the greater ecological fragility of high-value perennials.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate the statement: 'The circulation of migrant labour from Bihar to Punjab represents a win-win: Punjab farmers get cheap seasonal workers, and Bihar workers earn higher wages than at home.' Draw on Jan Breman’s concept of 'footloose labour' and the textbook’s evidence on wage suppression and living conditions.",
+     "a": "The statement ignores structural coercion: migrants are 'footloose' not by choice but because home regions offer no viable livelihood (agrarian distress, landlessness). Punjab farmers prefer migrants precisely because they lack local bargaining power, accept below-minimum wages, and can be housed in makeshift camps without social security. The textbook notes that local landless labourers are displaced by cheaper migrants, creating a 'peculiar pattern' where locals migrate out while migrants are brought in. Wages are often piece-rated and below statutory minimums; living conditions are hazardous. Thus, the circulation reproduces a segmented labour market that benefits capital (farmers/firms) at the expense of both migrant and local workers. A wrong answer that accepts the 'win-win' narrative fails to see how 'freedom' to migrate masks unfreedom in the labour contract.",
+     "self_check": true
+    },
+    {
+     "q": "Design a brief field-study plan (3-4 steps) to investigate how contract farming has changed gender roles in a village where a flower-export company operates. Specify what data you would collect, from whom, and which sociological concept (e.g., feminisation of agricultural labour, deskilling, or household labour reallocation) each step addresses.",
+     "a": "Step 1: Conduct a household survey (30 households) recording who performs each task in flower cultivation (land preparation, planting, spraying, harvesting, packing) — addresses *gendered division of labour* and *feminisation*.  \nStep 2: Interview 10 women workers about wage rates, work hours, and decision-making on input use — addresses *deskilling* (are they following company instructions or using own knowledge?) and *agency*.  \nStep 3: Compare time-use diaries of women in contract-farming vs. non-contract-farming households — addresses *household labour reallocation* (has domestic work shifted to girls/elderly?).  \nStep 4: Map credit flows: who signs the contract, who receives payment, who repays input loans? — addresses *control over resources* and *patrilineal exclusion*.  \nA poor plan would only count male/female workers without probing decision-making, credit control, or the erosion of traditional crop knowledge.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Capitalist farming in rural India refers to the ______ of agriculture into a market-oriented enterprise where production is driven by profit, wage labour replaces traditional patronage ties, and farmers invest capital in modern inputs to generate surplus for sale.",
+     "a": "transformation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking: \"Why do you see trucks loaded with grapes or pomegranates leaving a village for a corporate ______ plant, while the same village’s small farmers struggle to sell wheat at the local mandi?\" This contrast opens the door to two intertwined processes — capitalist farming (where wealthy farmers hire wage labour and invest in high-value crops) and contract farming (where firms like PepsiCo dictate what is grown).",
+     "a": "processing",
+     "self_check": true
+    },
+    {
+     "q": "What is Capitalist farming in rural India? State the definition given in this lesson.",
+     "a": "Capitalist farming in rural India refers to the transformation of agriculture into a market-oriented enterprise where production is driven by profit, wage labour replaces traditional patronage ties, and farmers invest capital in modern inputs to generate surplus for sale.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Capitalist farming in rural India?",
+     "a": "Students often conflate 'capitalist farming' with 'any use of modern technology or market sales'.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) trace the historical shift from patron-client agrarian relations to capitalist wage-labour relations using Jan Breman’s framework, (2) explain the mechanisms and sociological implications of contract farming (including disengagement from indigenous knowledge and ecological unsustainability), and (3).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

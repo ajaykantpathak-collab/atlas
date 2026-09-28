@@ -34,6 +34,16 @@
      "q": "Create a real-world word problem (Indian context) that leads to a piecewise-defined function involving the greatest integer function \\( [x] \\). Define the function, state its domain, and give one example of evaluating it.",
      "a": "Example problem: \"A courier service charges ₹30 for the first 500 g and ₹10 for every additional 500 g or part thereof. Write the cost function \\( C(w) \\) for a parcel of weight \\( w \\) grams (\\( w > 0 \\)).\" Function: \\( C(w) = 30 + 10 \\left[ \\frac{w-1}{500} \\right] \\) for \\( w > 0 \\), with domain \\( (0, \\infty) \\). For \\( w = 1200 \\) g: \\( \\frac{1199}{500} = 2.398 \\), greatest integer = 2, cost = 30 + 20 = ₹50. A poor answer would use a linear function without the greatest integer part, or define the domain incorrectly (e.g., only multiples of 500). This reveals the student cannot identify situations where charges jump at discrete intervals and require the greatest integer function.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a Delhi Metro commuter who pays a fixed base fare plus an ______ charge per kilometre.",
+     "a": "additional",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently convert a descriptive real-world situation (involving costs, distances, temperatures, etc.) into a properly defined function with explicit domain and range, evaluate the function for given inputs, solve for inputs given outputs, and interpret the results in the original context using correct units.",
+     "self_check": true
     }
    ]
   }

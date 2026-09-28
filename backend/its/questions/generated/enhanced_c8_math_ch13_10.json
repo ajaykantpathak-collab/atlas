@@ -34,6 +34,21 @@
      "q": "Create a word problem that translates to the equation \\(5x + 30 = 2x + 75\\). Use a real-life context (money, distance, or age). Solve your problem and explain what \\(x\\) represents.",
      "a": "Example: \"Anjali has ₹30 and saves ₹5 per week. Bhavesh has ₹75 and saves ₹2 per week. After how many weeks will they have the same amount?\" Let \\(x\\) = number of weeks. Anjali: \\(5x + 30\\), Bhavesh: \\(2x + 75\\). Equation: \\(5x + 30 = 2x + 75\\). Solving: \\(3x = 45 \\Rightarrow x = 15\\) weeks. A poor answer uses mismatched contexts (e.g., mixing age and money) or creates a problem where the equation does not naturally arise, showing the student cannot reverse-engineer the translation process.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and your ______ are saving money for a cricket bat costing ₹1,200.",
+     "a": "friend",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently read a multi-step word problem, identify all known and unknown quantities, assign appropriate variables, translate each sentence into algebraic expressions, formulate a correct linear equation, solve it using balancing or transposition, and verify that the solution satisfies the original problem context.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you and your friend are saving money for a cricket bat costing ₹1,200.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

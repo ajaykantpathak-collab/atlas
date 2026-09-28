@@ -34,6 +34,26 @@
      "q": "Design a minimal computer system for a rural primary health centre that must: (a) store patient records offline, (b) run a customised diagnosis-assist app, (c) print prescriptions, (d) operate on intermittent solar power with battery backup. List exactly 5 hardware components and 3 software components with one-line justification for each.",
      "a": "Hardware: (1) Low-power CPU (e.g., ARM Cortex-A53) — minimal watts for solar/battery; (2) 4 GB RAM — holds OS + app + active records; (3) 128 GB SSD — non-volatile, shock-resistant, fast boot; (4) Thermal printer — no ink, works on low power, prints prescriptions; (5) 10-inch touchscreen — input+output combined, rugged, low power. Software: (1) Linux-based OS (e.g., Ubuntu Server minimal) — free, lightweight, runs on ARM; (2) Customised diagnosis app (offline-first, syncs when online) — meets requirement (b); (3) SQLite embedded DB — zero-config, file-based, stores patient records locally. A poor answer listing \"Windows 11, Microsoft Word, laser printer, 16 GB RAM, Core i5\" reveals the student ignores power constraints, cost, and purpose-fit — treating every computer as a generic office PC.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A computer system is an integrated combination of physical components (hardware: CPU, primary memory, input/output devices, secondary storage) and logical ______ (software: system software, programming tools, application software) that work together to accept data, process it according to stored programs, and produce meaningful output.",
+     "a": "instructions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you press the power button on your laptop — the screen lights up, a logo ______, and eventually you see a desktop with icons.",
+     "a": "appears",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Classify any given computer component as hardware or software and further categorise it into the correct sub-category (e.g., RAM → hardware → primary memory; compiler → software → programming tool → translator), and (2) Explain the bidirectional dependency between hardware and software by describing how.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you press the power button on your laptop — the screen lights up, a logo appears, and ______ you see a desktop with icons.",
+     "a": "eventually",
+     "self_check": true
     }
    ]
   }

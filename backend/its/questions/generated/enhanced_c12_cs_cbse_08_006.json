@@ -34,6 +34,31 @@
      "q": "Design a real-world scenario (not ticket counter or printer queue) where a linear queue's inability to reuse freed front slots causes a genuine problem. Describe the scenario, the queue size constraint, the operation sequence that triggers the issue, and propose a minimal fix without changing to a circular queue.",
      "a": "**Scenario**: A hospital emergency room triage system with a fixed waiting room of 20 chairs (array size 20). Patients arrive (enqueue) and are called in (dequeue). Over a 12-hour shift, 50 patients arrive but only 20 chairs exist. After 20 patients, the 21st arrival gets \"Overflow\" even though 15 patients have already been treated and chairs 0-14 are empty.\n**Operation sequence**: 20 enqueues → 15 dequeues → 6th enqueue fails.\n**Minimal fix without circular queue**: When front > 0 and rear == size-1, **shift all elements left** so front becomes 0, rear becomes (rear-front), then enqueue. This is O(n) but rare. A poor answer proposes \"increase array size\" (not minimal) or \"use circular queue\" (excluded by constraint).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A queue is a linear data structure following the FIFO (First-In-First-Out) principle where enqueue inserts an element at the rear end and dequeue removes an element from the front end, with both operations requiring O(1) time complexity in an efficient ______.",
+     "a": "implementation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're managing a ticket ______ at a railway station — passengers join the line at the back (enqueue) and get served from the front (dequeue).",
+     "a": "counter",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A queue is a linear data structure following the FIFO (First-In-First-Out) principle where enqueue inserts an element at the rear end and dequeue removes an element from the front end, with both operations requiring O(______) time complexity in an efficient implementation.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) trace enqueue/dequeue operations on a queue diagram showing front/rear pointers and array indices for at least 5 consecutive operations, and (2) write Python code implementing enqueue/dequeue with proper boundary checks for overflow/underflow conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're managing a ticket counter at a railway station — ______ join the line at the back (enqueue) and get served from the front (dequeue).",
+     "a": "passengers",
+     "self_check": true
     }
    ]
   }

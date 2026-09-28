@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using *Rhoeo* leaf epidermal peels and solutions of varying solute concentrations to demonstrate tonoplast selectivity. Specify the observable parameter, control, and how you would distinguish tonoplast-mediated ion accumulation from passive diffusion.",
      "a": "Incubate peels in 0.3 M mannitol (isotonic) vs. 0.3 M NaCl + fluorescent dye (e.g., BCECF for pH, or radiolabeled ²²Na⁺). Observable: vacuolar sap concentration (via plasmolysis gradient or fluorescence ratio). Control: heat-killed peels (denatured transporters). Active accumulation shows higher vacuolar [Na⁺] or lower pH than external medium despite isotonic mannitol; passive diffusion equilibrates. Poor design omits killed control or uses only plasmolysis (which reflects water potential, not ion selectivity).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Centrosome is a non-membrane-bound organelle in animal cells comprising two perpendicular centrioles embedded in ______ material, functioning as the primary microtubule-organizing centre for spindle apparatus formation during mitosis and basal body nucleation for cilia/flagella.",
+     "a": "pericentriolar",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a drop of pond water under a microscope — you see *Paramecium* rhythmically expanding and contracting a clear bladder: that is a ______ vacuole expelling excess water to prevent lysis in hypotonic freshwater.",
+     "a": "contractile",
+     "self_check": true
+    },
+    {
+     "q": "What is Centrosome? State the definition given in this lesson.",
+     "a": "Centrosome is a non-membrane-bound organelle in animal cells comprising two perpendicular centrioles embedded in pericentriolar material, functioning as the primary microtubule-organizing centre for spindle apparatus formation during mitosis and basal body nucleation for cilia/flagella.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Centrosome?",
+     "a": "Students believe \"vacuoles are just storage bags\" and \"centrosomes are present in all eukaryotes.\" Specifically, they think plant vacuoles passively hold water like a balloon, ignoring active tonoplast transport (H⁺-ATPase, antiporters) that concentrates solutes 10–100× cytoplasmic levels to generate turgor.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (i) draw and label the 9+0 triplet microtubule arrangement of a centriole and explain its role in spindle pole formation, and (ii) contrast plant central vacuole tonoplast-mediated ion sequestration with protist contractile vacuole water expulsion, linking both to osmotic homeostasis.",
+     "self_check": true
     }
    ]
   }

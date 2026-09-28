@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_13_001",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_13_001",
+   "title": "c11_leg_cbse_13_001",
+   "questions": [
+    {
+     "q": "What is the age limit defined for a 'child' under the United Nations Convention on the Rights of the Child (UNCRC), 1989, as referenced in Indian legal context?",
+     "a": "A child is any human being below the age of eighteen years, unless under the law applicable to the child, majority is attained earlier.  \nA wrong answer like \"below 16 years\" reveals confusion with national laws (e.g., employment age) rather than the international standard. Students may incorrectly apply domestic age thresholds (like 14 for labour) to the global definition, showing a failure to distinguish between international conventions and national legislation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the 'Right to Education' under Article 21A is considered both a fundamental right and a fundamental duty in the Indian Constitution.",
+     "a": "The Right to Education is a fundamental right under Article 21A, entitling children aged 6-14 to free and compulsory education. Simultaneously, it is a fundamental duty under Article 51A(k) for parents/guardians to provide educational opportunities for their child in that age group.  \nA wrong answer stating it is only a right or only a duty shows misunderstanding of the dual nature—rights create entitlements for children, while duties impose obligations on caregivers. This reflects a lack of grasp on how the Constitution balances individual entitlements with social responsibilities, a key concept in legal studies.",
+     "self_check": true
+    },
+    {
+     "q": "A 13-year-old girl is employed as a domestic worker in a Delhi household, working 8 hours daily. Her employer claims it's not child labour because she is not in a factory or mine. Is this claim valid? Justify using legal provisions.",
+     "a": "No, the claim is invalid.  \nStep 1: Identify the issue – employment of a 13-year-old in domestic work.  \nStep 2: Recall that Article 24 prohibits employment of children under 14 in factories, mines, or hazardous employment.  \nStep 3: Note that the Child Labour (P&R) Act, 1986, defines 'child' as under 14 and bans employment in specified occupations, including domestic work (as per 2006 amendment bringing domestic workers under its purview).  \nStep 4: Apply the law – domestic work is now covered under the Act, so employing a 13-year-old violates Section 3.  \nStep 5: Conclude – the employer’s claim ignores the 2006 amendment and the Act’s coverage of non-factory settings; thus, it is illegal.  \nA wrong answer accepting the employer’s claim reveals ignorance of the 2006 amendment that expanded the Act to include domestic labour, showing rote memorization of outdated provisions without awareness of legislative updates.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the 'Right to Health' as interpreted by judicial activism in Consumer Education and Research Centre v. Union of India (1995) with its interpretation in Paschim Banga Khet Mazdoor Samity v. State of West Bengal (1996).",
+     "a": "In CERC v. Union of India (1995), the Court held that the right to health and medical care is a fundamental right under Article 21 read with Articles 39(c), 41, and 43, emphasizing preventive and promotive healthcare. In Paschim Banga (1996), the Court focused on Article 21, ruling that the state must safeguard the right to life by providing timely medical treatment, especially for workers, linking health to livelihood and dignity.  \nA wrong answer treating both cases as identical reveals failure to discern judicial evolution—from recognizing health as a positive entitlement (CERC) to framing it as a component of the right to life and livelihood (Paschim Banga). This shows lack of analytical depth in tracking how judicial interpretation expands rights over time based on case context.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"Juvenile justice in India prioritizes punishment over rehabilitation for children in conflict with the law.\" Defend your position with reference to the Juvenile Justice (Care and Protection) Act, 2015.",
+     "a": "The statement is false. The JJ Act, 2015 emphasizes rehabilitation over punishment.  \nStep 1: Note the Act’s foundation in the UNCRC, which advocates for reintegration, not incarceration.  \nStep 2: Highlight key provisions—Juvenile Justice Boards (JJBs) include social workers, focus on inquiry not trial, and mandate institutional care for max 3 years for non-heinous offences.  \nStep 3: Contrast with adult criminal justice—no death penalty or life imprisonment for juveniles; heinous offences (16-18 yrs) may lead to adult trial only after JJB assessment.  \nStep 4: Cite Supreme Court in Sheela Barse v. Secretary, Children’s Aid Society—occupational therapy in observation homes to build self-confidence, not punitive isolation.  \nStep 5: Conclude – the Act’s child-friendly approach, diversion from formal courts, and focus on developmental needs confirm rehabilitation as the core objective.  \nA wrong answer agreeing with the statement reveals confusion with adult IPC procedures, indicating failure to grasp the distinct philosophy of juvenile justice as protective, not punitive—a critical misconception at this level.",
+     "self_check": true
+    },
+    {
+     "q": "Design a school-based initiative to protect children from sexual abuse that aligns with the goals of the POCSO Act, 2012. Justify how it addresses both prevention and detection.",
+     "a": "A strong answer proposes: mandatory age-appropriate sexuality education workshops (grades 6-10) conducted by trained counsellors, combined with anonymous reporting boxes and monthly trust-circle sessions where children can share concerns without fear.  \nJustification: Education workshops serve as primary prevention by teaching bodily autonomy and safe/unsafe touch; anonymous reporting and trust circles enable detection by creating safe disclosure channels—directly fulfilling POCSO’s dual mandate of prevention (awareness) and detection (encouraging reporting).  \nA poor answer suggesting only punitive measures (e.g., installing CCTV) or one-time talks reveals misunderstanding of POCSO’s holistic, child-centered approach, focusing on surveillance over empowerment and missing the Act’s emphasis on education and emotional safety as tools for both prevention and detection.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,233 @@
+{
+ "catalog": "catalog_class12_home_science_lehe207.json",
+ "concepts": [
+  {
+   "id": "lehe207.8",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "sample_size = 40",
+      "agreement_pct = 17.2",
+      "respondent_count = sample_size * agreement_pct / 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "sample_size = 45",
+      "agreement_pct = 46",
+      "respondent_count = sample_size * agreement_pct / 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "sample_size = 53",
+      "agreement_pct = 112",
+      "respondent_count = sample_size * agreement_pct / 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "sample_size = 83",
+      "agreement_pct = 51",
+      "respondent_count = sample_size * agreement_pct / 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "sample_size = 48",
+      "agreement_pct = 16",
+      "respondent_count = sample_size * agreement_pct / 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "sample_size = 89",
+      "agreement_pct = 2.4",
+      "respondent_count = sample_size * agreement_pct / 100"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "respondent_count = sample_size * agreement_pct / 100"
+   ]
+  },
+  {
+   "id": "lehe207.9",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "perception_points = 1.8",
+      "action_pct = 15.7",
+      "perception_from_action = perception_points * action_pct / 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "perception_points = 5.7",
+      "action_pct = 3.1",
+      "perception_from_action = perception_points * action_pct / 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "perception_points = 16.3",
+      "action_pct = 10.8",
+      "perception_from_action = perception_points * action_pct / 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "perception_points = 2.3",
+      "action_pct = 13.4",
+      "perception_from_action = perception_points * action_pct / 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "perception_points = 9.4",
+      "action_pct = 18.7",
+      "perception_from_action = perception_points * action_pct / 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "perception_points = 16.4",
+      "action_pct = 16.7",
+      "perception_from_action = perception_points * action_pct / 100"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "perception_from_action = perception_points * action_pct / 100"
+   ]
+  },
+  {
+   "id": "lehe207.10",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "message_points = 54",
+      "analogue_pct = 7.5",
+      "analogue_weight = message_points * analogue_pct / 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "message_points = 45",
+      "analogue_pct = 67",
+      "analogue_weight = message_points * analogue_pct / 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "message_points = 64",
+      "analogue_pct = 44",
+      "analogue_weight = message_points * analogue_pct / 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "message_points = 35",
+      "analogue_pct = 23",
+      "analogue_weight = message_points * analogue_pct / 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "message_points = 80",
+      "analogue_pct = 32",
+      "analogue_weight = message_points * analogue_pct / 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "message_points = 77",
+      "analogue_pct = 6.7",
+      "analogue_weight = message_points * analogue_pct / 100"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "analogue_weight = message_points * analogue_pct / 100"
+   ]
+  },
+  {
+   "id": "lehe207.14",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total_income = 6.8",
+      "total_expenses = 21",
+      "event_balance = total_income - total_expenses"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total_income = 77",
+      "total_expenses = 84",
+      "event_balance = total_income - total_expenses"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_income = 60",
+      "total_expenses = 61",
+      "event_balance = total_income - total_expenses"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total_income = 14.7",
+      "total_expenses = 47",
+      "event_balance = total_income - total_expenses"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "total_income = 77",
+      "total_expenses = 16.5",
+      "event_balance = total_income - total_expenses"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total_income = 92",
+      "total_expenses = 85",
+      "event_balance = total_income - total_expenses"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "event_balance = total_income - total_expenses"
+   ]
+  }
+ ]
+}

@@ -34,6 +34,21 @@
      "q": "Design a \"Green GDP\" adjustment formula for India that subtracts environmental degradation costs from standard GDP. Specify three data sources you would need and one practical challenge in implementation.",
      "a": "Green GDP = GDP - (Cost of Air Pollution + Cost of Water Degradation + Cost of Soil Erosion + Forest Depletion Value). Data sources: (1) CPCB air quality monitoring for health cost valuation, (2) Central Water Commission for water treatment costs, (3) Forest Survey of India for timber/ecosystem service loss. Challenge: Valuing non-market ecosystem services (e.g., wetlands' flood protection) requires contested shadow pricing methods. A poor answer (\"just subtract pollution costs\") shows ignorance of valuation methodologies and data gaps in the Indian statistical system.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: GDP (Gross Domestic Product) measures the total market value of all final goods and services produced within a country's borders in a given period, but it does not capture economic welfare — the overall well-being and quality of life of citizens — because it excludes non-market activities, ignores income distribution, omits negative ______, and fails to account for leisure, environmental degradation, and unpaid work.",
+     "a": "externalities",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a Class 12 student, Priya, comparing two Indian states: Gujarat (high GSDP per capita) and Kerala (lower GSDP per capita but higher life ______, literacy, and lower infant mortality).",
+     "a": "expectancy",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain at least five specific limitations of GDP as a welfare indicator with Indian examples, distinguish between GDP and welfare conceptually, and evaluate why HDI or GPI provide more comprehensive welfare assessments using real data comparisons.",
+     "self_check": true
     }
    ]
   }

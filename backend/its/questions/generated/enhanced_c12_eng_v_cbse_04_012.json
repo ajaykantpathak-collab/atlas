@@ -7,7 +7,7 @@
    "questions": [
     {
      "q": "Identify whether the following question is literal or inferential: \"What was the nationality of the wounded man washed ashore?\" Explain your classification in one sentence.",
-     "a": "This is a LITERAL question. The text explicitly states: \"A white man!\" and \"A sailor... from an American warship... U.S. Navy.\" The answer is directly retrievable without interpretation. A wrong classification (calling it inferential) reveals the student confuses \"finding details\" with \"interpreting details\" — they may overthink explicit facts, wasting exam time searching for hidden meaning where none exists.",
+     "a": "This is a LITERAL question. The text explicitly states: \"A white man!\" and \"A sailor... from an American warship... U.S. Navy.\" The answer is directly retrievable without interpretation. A wrong classification (calling it inferential) reveals the student confuses \"finding details\" with \"interpreting details\" — they may overthink explicit facts, wasting exam time searching for hidden meaning where N/A exists.",
      "self_check": true
     },
     {
@@ -33,6 +33,21 @@
     {
      "q": "CREATE a new inferential question on the General's character that requires synthesizing his Princeton degree, his offer of assassins, and his final admission \"I forgot my promise.\" Write the question and a model 3-sentence answer.",
      "a": "Question: \"How does the General's American education paradoxically enable his moral corruption in the matter of the enemy soldier?\"\nModel Answer: His Princeton degree makes him value Sadao's surgical skill over patriotism, leading him to prioritize personal survival over national duty. The offer of assassins reveals he treats state violence as a transactional tool, not a sacred obligation. His forgotten promise exposes self-absorption masquerading as aristocratic detachment — the ultimate critique of elite complicity. A poor question would be factual (\"Where did the General study?\"). A poor answer would describe plot without the \"paradox\" synthesis.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal comprehension questions require students to retrieve ______ explicitly stated in the text, while inferential comprehension questions demand students to derive meaning not directly written by using textual evidence, logical reasoning, and context.",
+     "a": "information",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're sitting in the CBSE exam hall holding the \"The Enemy\" extract: Sadao finds the wounded ______ on the shore.",
+     "a": "American",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently distinguish between literal and inferential question types in unseen passages, locate precise textual evidence for literal answers, and construct logically sound inferences for implicit questions using a 3-step evidence-reasoning-conclusion framework, scoring 80%+ on CBSE-style comprehension sets.",
      "self_check": true
     }
    ]

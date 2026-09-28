@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using household materials to test whether a given sample of \"honey\" is a true solution or a colloid. List materials, procedure, observation, and conclusion criteria.",
      "a": "Materials: laser pointer, clear glass, water, honey sample. Procedure: Dilute honey in water (1:10), stir. Shine laser through the mixture in a dark room. Observation: If beam path is visible (bright cone), it's a colloid; if invisible, true solution. Criteria: Colloidal particles in honey (pollen, proteins) scatter light. A poor answer (e.g., \"taste it\" or \"check if it dissolves\") shows inability to apply the Tyndall effect as a diagnostic tool.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Tyndall effect is the ______ of a beam of light by colloidal particles (1 nm – 1000 nm) dispersed in a medium, making the light path visible as a bright cone.",
+     "a": "scattering",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real-world ______: in a dusty room or during a foggy morning in Delhi, a beam of sunlight entering through a window becomes visible as a bright path.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain why the Tyndall effect is observed in colloids but not in true solutions or suspensions, and can use it as a diagnostic test to distinguish colloids from true solutions in a given sample.",
+     "self_check": true
     }
    ]
   }

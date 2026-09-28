@@ -34,6 +34,26 @@
      "q": "Design a simple kitchen experiment to determine which of two unlabelled bottles contains a higher concentration of salt solution, using only a balance, a measuring cup (volume), and a stove. Write the procedure and the calculation you would perform.",
      "a": "Procedure: 1) Measure equal volumes (e.g., 50 mL) of each solution using measuring cup. 2) Weigh each 50 mL sample (mass/volume gives density). 3) Heat each sample in separate pans to evaporate water completely. 4) Weigh the dry salt residue left in each pan. 5) Calculate mass/volume % = (mass of residue / initial volume) × 100. Higher % indicates higher concentration. A poor answer that only tastes or only weighs equal volumes without evaporation reveals misunderstanding that concentration requires separating solute from solvent.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A solution is a homogeneous mixture of two or more substances where the solute (component present in smaller amount) is uniformly dispersed at the particle level in the solvent (component present in larger amount); concentration ______ expresses the amount of solute per unit quantity of solution or solvent, commonly as mass by mass percentage (mass of solute/ mass of solution × 100), mass by volume percentage (mass of solute/ volume of solution × 100), or volume by volume percentage (volume of solute/ volume of solution × 100).",
+     "a": "quantitatively",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a glass of nimbu pani (lemonade) - you see a uniform liquid, not ______ lemon juice and water.",
+     "a": "separate",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly identify solute and solvent in any given solution (solid-liquid, liquid-liquid, gas-liquid), choose the appropriate concentration formula (mass%, volume%, or mass/volume%) based on the physical states given, and calculate concentration with proper units and significant figures for board-level numerical problems.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a glass of nimbu pani (______) - you see a uniform liquid, not separate lemon juice and water.",
+     "a": "lemonade",
+     "self_check": true
     }
    ]
   }

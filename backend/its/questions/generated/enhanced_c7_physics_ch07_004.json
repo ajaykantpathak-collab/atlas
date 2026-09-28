@@ -34,6 +34,26 @@
      "q": "Design a simple testing procedure using turmeric powder and lemon juice to prove that tap water is neutral compared to lemon juice.",
      "a": "To prove tap water is neutral, prepare a turmeric indicator paper or paste (which is yellow in neutral/acidic conditions and red in basic). Apply lemon juice (acid) to show it stays yellow, and test tap water to show it also remains yellow, confirming it is not basic like soap, while noting that turmeric does not distinguish between acids and neutrals directly, requiring litmus for complete proof. A poor answer fails to include a comparative baseline or misidentifies color changes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A neutral substance is a chemical substance that is neither acidic nor basic, having a balanced ______ of hydrogen and hydroxide ions that results in no color change when tested with universal indicators.",
+     "a": "concentration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you touch a drop of pure ______ water or salt water from a kitchen tap, it feels neither slippery like soap nor harsh like vinegar, and it does not change the color of blue or red litmus paper.",
+     "a": "distilled",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It does not possess corrosive properties and typically exhibits a pH value of exactly ______ at standard room temperature.",
+     "a": "7",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can correctly identify whether an unknown aqueous household solution is neutral by predicting that it will cause no color change on red or blue litmus paper, and can explain that neutrality means the substance is neither an acid nor a base.",
+     "self_check": true
     }
    ]
   }

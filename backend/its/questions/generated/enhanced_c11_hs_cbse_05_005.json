@@ -34,6 +34,31 @@
      "q": "Design a simple identification flowchart using only three observable tests (no microscope, no chemicals) that a consumer could use at home to distinguish cotton, linen, jute, and hemp fabrics. Specify the test, the observation for each fibre, and the decision logic.",
      "a": "Good answer criteria: Flowchart uses (1) Burning test — all four smell like paper/ash but cotton/linen have afterglow, jute/hemp may show less afterglow due to lignin; (2) Hand feel/lustre — linen > cotton > hemp > jute in smoothness/lustre; (3) Water absorption speed — linen fastest, then cotton, hemp, jute slowest due to lignin hydrophobicity. Decision logic must sequentially separate pairs. A poor answer uses only one test or ignores lignin's effect on jute/hemp wettability, showing incomplete property integration.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Natural ______ fibres are plant-derived fibres composed primarily of cellulose, classified by their botanical origin into seed hairs (cotton), bast fibres from stem phloem (linen/flax, jute, hemp), leaf fibres, and nut husk fibres.",
+     "a": "cellulosic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are shopping for summer curtains and see three fabrics ______ \"100% Cotton,\" \"100% Linen,\" and \"Jute blend\" — all claim to be \"natural and breathable.\" How do you decide which will actually stay cool, resist fading, and hold its shape after washing?",
+     "a": "labelled",
+     "self_check": true
+    },
+    {
+     "q": "What is Natural cellulosic fibres? State the definition given in this lesson.",
+     "a": "Natural cellulosic fibres are plant-derived fibres composed primarily of cellulose, classified by their botanical origin into seed hairs (cotton), bast fibres from stem phloem (linen/flax, jute, hemp), leaf fibres, and nut husk fibres.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Natural cellulosic fibres?",
+     "a": "Students often believe \"bast fibre\" means the fibre comes from the bark of the plant.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to differentiate the four fibres (cotton, linen, jute, hemp) by their botanical source, fibre category, morphological properties (length, fineness, strength, lustre), processing methods (ginning vs retting), and burning test characteristics, and justify fabric selection for specific end-uses based on these.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a minimal BAC vector map for a 150 kb human genomic insert. Label: (1) F-plasmid origin (oriS), (2) parA/parB/parC partitioning genes, (3) chloramphenicol resistance gene (camR), (4) lacZα with multiple cloning site (MCS), (5) T7 and SP6 RNA polymerase promoters flanking MCS. Explain how you would screen for recombinant clones and verify insert size.",
      "a": "A correct map shows a circular ~7.5 kb vector backbone with the above elements. Screening: transform into E. coli DH10B, plate on LB + chloramphenicol + X-gal/IPTG → white colonies = insert disrupts lacZα (blue/white screening). Verify insert size: isolate BAC DNA (alkaline lysis modified for low copy), digest with NotI (flanks MCS), run pulsed-field gel electrophoresis (PFGE) — vector band ~7.5 kb + insert band ~150 kb. A student who suggests standard agarose gel or blue/white only without PFGE verification misses that large inserts require PFGE for resolution and that low-copy BAC prep needs modified lysis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: BACs (Bacterial Artificial Chromosomes) and YACs (Yeast Artificial Chromosomes) are engineered cloning vectors derived from the F-plasmid and yeast chromosomes ______, capable of stably maintaining very large foreign DNA inserts (100–300 kb for BACs, 100–1000 kb for YACs) in bacterial and yeast hosts, making them essential for constructing genomic libraries of complex eukaryotes.",
+     "a": "respectively",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are part of a team ______ the genome of a newly discovered medicinal plant from the Western Ghats.",
+     "a": "sequencing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) compare BAC and YAC vector architectures, insert capacity, host systems, and stability features in a table, and (2) justify the choice of BAC vs YAC for a given genomic library project (e.g., human genome vs plant genome) by analyzing insert size requirements, chimerism risk, and downstream screening needs.",
+     "self_check": true
     }
    ]
   }

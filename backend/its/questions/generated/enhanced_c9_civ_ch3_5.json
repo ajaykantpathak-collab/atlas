@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_civ_ch3_5",
+ "concepts": [
+  {
+   "id": "enh:c9_civ_ch3_5",
+   "title": "c9_civ_ch3_5",
+   "questions": [
+    {
+     "q": "What is the meaning of 'checks and balances' in the context of the Indian government?",
+     "a": "Checks and balances refer to the system where each branch of government (legislature, executive, judiciary) has some authority to limit the powers of the other branches to prevent any one branch from becoming too powerful. A wrong answer like \"checks and balances mean the branches always disagree\" reveals a misunderstanding that the system is about conflict rather than designed oversight; the student may confuse healthy friction with dysfunction, not realizing these checks are constitutional safeguards, not signs of failure.",
+     "self_check": true
+    },
+    {
+     "q": "Why did the framers of the Indian Constitution include checks and balances in the government structure?",
+     "a": "The framers included checks and balances to prevent the concentration of power and protect against authoritarianism, ensuring that no single branch could dominate the others and threaten democratic rights, based on lessons from historical abuses of power. A wrong answer like \"to make the government work faster\" shows the student misunderstands the purpose as efficiency rather than restraint; they may think slowing down government is bad, not realizing that deliberate checks are essential for liberty and accountability in a democracy.",
+     "self_check": true
+    },
+    {
+     "q": "If the President of India refuses to sign a bill passed by Parliament and sends it back for reconsideration, which branch is checking which, and under what constitutional power?",
+     "a": "The President (executive) is checking the Parliament (legislature) using the power to return a non-money bill for reconsideration under Article 111 of the Constitution. This is a limited check; if Parliament passes the bill again, the President must sign it. A wrong answer like \"the President is rejecting the bill permanently\" reveals the student doesn't know the difference between a suspensive veto (India) and an absolute veto (like in some other systems), indicating a lack of knowledge about the specific constitutional provision and its limits.",
+     "self_check": true
+    },
+    {
+     "q": "Compare how the legislature checks the executive versus how the judiciary checks the legislature in India. What is one key difference in the nature of these checks?",
+     "a": "The legislature checks the executive through motions like vote of no confidence, budget approval, and questioning ministers (e.g., Question Hour), which are political and ongoing. The judiciary checks the legislature through judicial review, declaring laws unconstitutional, which is legal and occasional. A key difference is that legislative checks are political and reversible, while judicial checks are legal and final unless the Constitution is amended. A wrong answer saying \"both checks are the same because they both stop laws\" shows the student fails to distinguish between political accountability and constitutional supremacy, missing that judicial review protects the Constitution's supremacy over ordinary laws.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the effectiveness of the judiciary's power of judicial review as a check on the legislature in protecting fundamental rights. Give one reason why it is strong and one limitation.",
+     "a": "Judicial review is strong because it allows the Supreme Court to strike down laws that violate fundamental rights, as seen in cases like Kesavananda Bharati, protecting citizens from majoritarian excess. A limitation is that it depends on someone filing a case (PIL or otherwise), so unchallenged unconstitutional laws may remain in force. A wrong answer like \"judicial review is ineffective because courts are slow\" shows the student focuses only on delay without recognizing the power's significance; they may not grasp that even slow action can prevent irreversible harm and that access to justice is improving through PILs.",
+     "self_check": true
+    },
+    {
+     "q": "Design a simple mechanism by which the people could directly check the power of the executive between elections, inspired by existing democratic practices.",
+     "a": "A good answer might propose a citizen-initiated recall petition requiring a certain percentage of voters to trigger a review of an executive official's performance, similar to recall mechanisms in some local governments or international models. A poor answer that says \"people should just protest\" reveals a lack of understanding of institutionalized checks; the student may not distinguish between spontaneous expression and formal, rule-based accountability mechanisms that are predictable and constitutional.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

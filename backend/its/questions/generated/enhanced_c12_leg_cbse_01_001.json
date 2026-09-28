@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_01_001",
+   "title": "c12_leg_cbse_01_001",
+   "questions": [
+    {
+     "q": "How many High Courts exist in India as of 2024, and which constitutional article provides for the establishment of a High Court for each State (or group of States)?",
+     "a": "There are 25 High Courts in India (as of 2024). Article 214 of the Constitution mandates a High Court for each State; Parliament may establish a common High Court for two or more States/UTs (e.g., Punjab & Haryana HC). A wrong answer (e.g., \"28 High Courts\" or citing Article 124) reveals confusion between Supreme Court strength (34 judges) and High Court count, or mixing up the constitutional articles for the apex court vs. High Courts.",
+     "self_check": true
+    },
+    {
+     "q": "Explain the difference between the \"Common Law\" system followed in India and the \"Civil Law\" system followed in France/Germany, specifically regarding the *source of law* and the *role of judges*.",
+     "a": "In Common Law (India), judges *create* binding law through precedents (stare decisis); judicial decisions are a primary source of law. In Civil Law (France/Germany), only the legislature creates law (codified statutes); judges merely *apply* the code and precedents are not binding. A wrong answer claiming \"both follow precedents\" or \"Indian judges only apply statutes\" shows failure to grasp the NCERT's explicit contrast (Section A.II.a) and the doctrinal reason why PIL/judicial activism is possible in India but not in pure civil law systems.",
+     "self_check": true
+    },
+    {
+     "q": "A retired High Court judge wants to practice law. In which courts can they appear, and which constitutional provision restricts this?",
+     "a": "A retired HC judge can practice in the Supreme Court and any High Court *other than* the one they served in (or any HC at the same level). They cannot practice in the same High Court or any other High Court. This is based on the constitutional safeguard for judicial independence (Art. 220/NCERT Section B.I.ii point i). A wrong answer saying \"they can practice anywhere\" or \"they cannot practice at all\" misses the nuanced balance: the restriction prevents *local* influence/presumed familiarity, but allows continued professional contribution at a *higher* or *different* forum.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the \"Adversarial\" and \"Inquisitorial\" models on: (a) Role of the Judge, (b) Role of Lawyers, (c) Truth-finding mechanism. Which model does India follow and *why* is it linked to our colonial history?",
+     "a": "**Adversarial (India):** Judge = neutral umpire; Lawyers = active architects (evidence, cross-examination); Truth = emerges from party contest. **Inquisitorial (France):** Judge = active investigator; Lawyers = assistants; Truth = judicial inquiry. India follows Adversarial because the British imposed their common law system (Mayor's Courts 1726 → Legal Practitioners Act 1846). A wrong answer reversing the roles or claiming India is \"mixed\" ignores the NCERT's clear statement (A.II.b) that the *entire* procedural framework (CrPC, Evidence Act) is built on adversarial logic—though PIL introduces *inquisitorial elements* (judge-led inquiry), the *foundational* model remains adversarial.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the statement: \"The Attorney General of India (AGI) is the *only* constitutional law officer; the Solicitor General (SG) and Advocate General (State) are statutory creations with no constitutional basis.\" Use Articles 76, 165, and the NCERT text.",
+     "a": "The statement is **partially incorrect**. AGI (Art. 76) and State Advocate General (Art. 165) *are* constitutional offices. Only the SG and Additional SGs are *not* in the Constitution—they are created by executive resolution/statute (Law Officers Act, 1972 rules). The NCERT explicitly states: \"The position of the Solicitor General and Additional Solicitors General is not recognised in the Constitution.\" A wrong answer claiming *all three* are constitutional or *none* are constitutional shows failure to distinguish the *textual* constitutional mandate (AGI/Adv Gen) from *executive* creation (SG).",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Judiciary Flowchart\" for a new Class 11 student showing: (1) The 3-tier court hierarchy with *current* judge strengths (SC: 34, HC: variable, District: variable), (2) The 2 Law Officers at Union level + 1 at State level with appointing authority, (3) The *one* feature that makes the Indian judiciary \"integrated\" despite federalism. Use only NCERT terminology.",
+     "a": "**Expected Output:** A flowchart with boxes: **Supreme Court (Art. 124, 34 Judges, CJI + 33)** → **25 High Courts (Art. 214, HC Judges = 62 yrs retirement)** → **District/Subordinate Courts (Art. 233, District Judge = highest below HC)**. **Law Officers:** AGI (Art. 76, Pres. appoints, qualified as SC Judge) + SG (Statutory, assists AGI) + State Advocate General (Art. 165, Gov. appoints). **Integration Key:** *Single hierarchy administering both Central & State laws* (NCERT opening para: \"single integrated system of judiciary comprising courts to administer both Central and State laws\"). A poor answer lists separate federal/state courts (US model) or omits the \"administer both laws\" phrase, missing the federalism-resolution core.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

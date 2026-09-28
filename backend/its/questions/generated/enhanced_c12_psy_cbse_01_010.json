@@ -34,6 +34,31 @@
      "q": "Design a 3-item mini-test battery for assessing fluid intelligence in 12-year-olds from diverse linguistic backgrounds in a single classroom period. Specify for each item: (a) format, (b) administration mode, (c) why it reduces cultural bias.",
      "a": "Item 1: Figure Classification (RPM-style) — Non-verbal, Group, Culture-fair (abstract patterns, no language).\nItem 2: Block Design (Kohs' style) — Performance, Individual (sub-sample), Culture-fair (concrete manipulation, universal spatial skill).\nItem 3: Number Series Completion — Non-verbal symbolic, Group, Culture-reduced (numerals are near-universal, minimal language).\nGood answer shows: variety of formats, mix of group/individual for depth/breadth balance, explicit cultural bias reduction rationale. Poor answer uses verbal items, all-group administration, or ignores cultural loading — revealing failure to integrate all three classification dimensions in test design.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Intelligence tests are standardized instruments designed to measure cognitive abilities, classified by ______ mode (individual vs. group), response format (verbal vs. performance/non-verbal), and cultural loading (culture-fair vs. culture-biased), each serving distinct assessment purposes and populations.",
+     "a": "administration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a school ______ needs to assess a 14-year-old student who recently migrated from a rural village, speaks only Marathi, and has had irregular schooling.",
+     "a": "counsellor",
+     "self_check": true
+    },
+    {
+     "q": "What is Intelligence tests? State the definition given in this lesson.",
+     "a": "Intelligence tests are standardized instruments designed to measure cognitive abilities, classified by administration mode (individual vs. group), response format (verbal vs. performance/non-verbal), and cultural loading (culture-fair vs. culture-biased), each serving distinct assessment purposes and populations.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Intelligence tests?",
+     "a": "Students believe \"non-verbal test = culture-fair test\" and \"individual test = better test.\" They write in exams: \"RPM is culture-fair because it has no words\" or \"Individual tests are more accurate than group tests.\" Both are wrong.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) correctly classify any given intelligence test into its administration type, response format, and cultural fairness category with justification, and (2) select the appropriate test type for a specific assessment scenario (e.g., testing a non-literate adult, screening a classroom, cross-cultural research).",
+     "self_check": true
     }
    ]
   }

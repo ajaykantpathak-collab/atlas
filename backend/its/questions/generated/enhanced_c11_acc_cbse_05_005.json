@@ -34,6 +34,26 @@
      "q": "Create a realistic scenario (with amounts) where a firm has two direct deposits from different customers on different dates, and the bank statement arrives after the month-end. Show how you would present these in a bank reconciliation statement starting from the passbook balance.",
      "a": "Example: Cash book balance ₹40,000. Passbook shows ₹52,000. Direct deposits: ₹7,000 on 25th March and ₹5,000 on 28th March. Starting from passbook balance (₹52,000), deduct ₹12,000 (total direct deposits) to arrive at cash book balance. A good answer includes correct direction (deduct from passbook), clear labeling, and correct total. A poor answer adds instead of deducts or omits one deposit.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Direct deposits by customers refer to amounts ______ directly into the firm's bank account by debtors (customers) without the firm's knowledge or recording in the cash book.",
+     "a": "deposited",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a clothing store and a ______, instead of paying you at the counter, walks into your bank branch and deposits ₹15,000 directly into your current account.",
+     "a": "customer",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Explain why direct deposits cause the passbook balance to be higher than the cash book balance, and (2) Correctly adjust for direct deposits when preparing a bank reconciliation statement starting from either cash book balance or passbook balance.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a ______ store and a customer, instead of paying you at the counter, walks into your bank branch and deposits ₹15,000 directly into your current account.",
+     "a": "clothing",
+     "self_check": true
     }
    ]
   }

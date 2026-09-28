@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using only household materials (vinegar, baking soda, egg white, clear cups) to demonstrate that proteins are made of amino acids linked by bonds that can be broken by acid hydrolysis. List steps, expected observations, and the chemical principle.",
      "a": "Steps: (1) Place egg white (albumin) in cup A; add vinegar (acid) to cup B with egg white. (2) Heat both gently for 10 min. (3) Add baking soda to neutralize cup B. (4) Observe: cup A remains cloudy (denatured protein); cup B shows clearer solution after neutralization because acid hydrolysis broke peptide bonds into amino acids (soluble). Principle: Acid hydrolysis cleaves peptide bonds; denaturation only unfolds. A poor answer (e.g., \"vinegar digests protein like stomach\") reveals confusion between chemical hydrolysis and enzymatic digestion, or missing the control.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Proteins are ______ composed of α-amino acids linked by peptide bonds formed through condensation reactions between the carboxyl group of one amino acid and the amino group of another, releasing a water molecule.",
+     "a": "heteropolymers",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a boiled egg white turning from transparent to opaque – this is protein ______, but the underlying chemistry begins with amino acids linking like beads on a string.",
+     "a": "denaturation",
+     "self_check": true
+    },
+    {
+     "q": "What is Proteins? State the definition given in this lesson.",
+     "a": "Proteins are heteropolymers composed of α-amino acids linked by peptide bonds formed through condensation reactions between the carboxyl group of one amino acid and the amino group of another, releasing a water molecule.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Proteins?",
+     "a": "Students think the peptide bond is a simple single covalent bond (–C–N–) with free rotation, so they draw polypeptide chains as flexible strings.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can draw the general structure of an α-amino acid, label the α-carbon and four substituents, illustrate peptide bond formation with correct orientation of N-terminal and C-terminal ends, and classify amino acids as acidic, basic, neutral, or aromatic based on R-group chemistry.",
+     "self_check": true
     }
    ]
   }

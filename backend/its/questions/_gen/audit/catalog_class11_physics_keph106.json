@@ -1,0 +1,245 @@
+{
+ "catalog": "catalog_class11_physics_keph106.json",
+ "concepts": [
+  {
+   "id": "keph106.6.2.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "mass_1 = 18.7",
+      "position_1 = 11.2",
+      "mass_2 = 94",
+      "position_2 = 8.8",
+      "com = (mass_1 * position_1 + mass_2 * position_2) / (mass_1 + mass_2)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "mass_1 = 93",
+      "position_1 = 2.8",
+      "mass_2 = 159",
+      "position_2 = 8.7",
+      "com = (mass_1 * position_1 + mass_2 * position_2) / (mass_1 + mass_2)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "mass_1 = 174",
+      "position_1 = 18.4",
+      "mass_2 = 27",
+      "position_2 = 17.2",
+      "com = (mass_1 * position_1 + mass_2 * position_2) / (mass_1 + mass_2)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "mass_1 = 119",
+      "position_1 = 18.2",
+      "mass_2 = 150",
+      "position_2 = 17.6",
+      "com = (mass_1 * position_1 + mass_2 * position_2) / (mass_1 + mass_2)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "mass_1 = 134",
+      "position_1 = 11.9",
+      "mass_2 = 119",
+      "position_2 = 1.8",
+      "com = (mass_1 * position_1 + mass_2 * position_2) / (mass_1 + mass_2)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "mass_1 = 94",
+      "position_1 = 17.3",
+      "mass_2 = 190",
+      "position_2 = 8.9",
+      "com = (mass_1 * position_1 + mass_2 * position_2) / (mass_1 + mass_2)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "com = (mass_1 * position_1 + mass_2 * position_2) / (mass_1 + mass_2)"
+   ]
+  },
+  {
+   "id": "keph106.6.6.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "radius = 4.6",
+      "omega = 41",
+      "v_tan = radius * omega"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "radius = 17",
+      "omega = 85",
+      "v_tan = radius * omega"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "radius = 43",
+      "omega = 13.3",
+      "v_tan = radius * omega"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "radius = 26",
+      "omega = 33",
+      "v_tan = radius * omega"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "radius = 37",
+      "omega = 30",
+      "v_tan = radius * omega"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "radius = 42",
+      "omega = 54",
+      "v_tan = radius * omega"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "v_tan = radius * omega"
+   ]
+  },
+  {
+   "id": "keph106.6.7.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "force = 544",
+      "moment_arm = 72",
+      "torque = force * moment_arm"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "force = 267",
+      "moment_arm = 102",
+      "torque = force * moment_arm"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "force = 750",
+      "moment_arm = 21",
+      "torque = force * moment_arm"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "force = 634",
+      "moment_arm = 75",
+      "torque = force * moment_arm"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "force = 69",
+      "moment_arm = 74",
+      "torque = force * moment_arm"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "force = 575",
+      "moment_arm = 75",
+      "torque = force * moment_arm"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "torque = force * moment_arm"
+   ]
+  },
+  {
+   "id": "keph106.6.7.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "moi = 80",
+      "omega = 56",
+      "ang_mom = moi * omega"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "moi = 71",
+      "omega = 56",
+      "ang_mom = moi * omega"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "moi = 29",
+      "omega = 39",
+      "ang_mom = moi * omega"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "moi = 58",
+      "omega = 68",
+      "ang_mom = moi * omega"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "moi = 23",
+      "omega = 72",
+      "ang_mom = moi * omega"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "moi = 95",
+      "omega = 4.4",
+      "ang_mom = moi * omega"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "ang_mom = moi * omega"
+   ]
+  }
+ ]
+}

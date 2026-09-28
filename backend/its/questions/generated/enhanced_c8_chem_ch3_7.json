@@ -34,6 +34,31 @@
      "q": "Design a protocol for a recycling plant sorting a municipal waste mixture containing steel bottle caps, stones, plastic wrappers, and sand. Specify which separation technique applies to each component.",
      "a": "A good protocol should use magnetic separation first with an overhead electromagnet to pull out steel bottle caps, followed by hand picking for large plastic wrappers, and sieving or washing for stones and sand. A poor answer fails to order the steps logically or applies manual picking to microscopic particles.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Magnetic separation is a physical method used to separate magnetic components of a non-______ mixture from non-magnetic components using a magnet.",
+     "a": "homogeneous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine spilling a box of iron paperclips mixed with ______ beads and dust on your study table in a classroom in Delhi.",
+     "a": "plastic",
+     "self_check": true
+    },
+    {
+     "q": "What is Magnetic separation? State the definition given in this lesson.",
+     "a": "Magnetic separation is a physical method used to separate magnetic components of a non-homogeneous mixture from non-magnetic components using a magnet.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Magnetic separation?",
+     "a": "Students often assume that all metals (like aluminum foil, copper coins, and iron nails) are attracted to a magnet, leading them to predict that magnetic separation will pull out all metallic components from a mixture.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Students can identify when to use magnetic separation versus hand picking based on physical properties like magnetism, size, and visibility, and can design a step-by-step separation procedure for complex solid mixtures.",
+     "self_check": true
     }
    ]
   }

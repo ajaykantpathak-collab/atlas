@@ -34,6 +34,36 @@
      "q": "Design a dichotomous key for identifying the following five Indian primate species using only characters observable in a zoo setting: *Macaca mulatta* (rhesus macaque), *Macaca radiata* (bonnet macaque), *Semnopithecus entellus* (gray langur), *Trachypithecus geei* (golden langur), and *Hoolock hoolock* (western hoolock gibbon). Include at least four couplets.",
      "a": "Couplet 1: (a) Tail absent or vestigial (<5 cm) → *Hoolock hoolock*; (b) Tail well-developed (>20 cm) → go to 2. Couplet 2: (a) Tail carried upright with terminal tuft → *Macaca radiata*; (b) Tail not carried upright, no terminal tuft → go to 3. Couplet 3: (a) Tail longer than head-body length, slender → *Semnopithecus entellus*; (b) Tail shorter than head-body length, thicker → go to 4. Couplet 4: (a) Face pinkish-red, tail ~20-30 cm → *Macaca mulatta*; (b) Face black, tail ~40-50 cm, golden pelage → *Trachypithecus geei*. A poor answer using only \"monkey vs ape\" or color alone fails to demonstrate hierarchical character selection and ignores intraspecific variation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Zoological parks are controlled environments where wild animals are maintained in enclosures simulating natural habitats for conservation breeding, behavioral research, and public education, while taxonomic keys (primarily dichotomous keys) are systematic ______ tools using contrasting morphological character pairs to progressively narrow down an unknown organism to its correct taxonomic position.",
+     "a": "identification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine visiting the National ______ Park in Delhi and seeing a white tiger, a gharial, and a lion-tailed macaque — each in enclosures mimicking their native ecosystems.",
+     "a": "Zoological",
+     "self_check": true
+    },
+    {
+     "q": "What is Zoological parks? State the definition given in this lesson.",
+     "a": "Zoological parks are controlled environments where wild animals are maintained in enclosures simulating natural habitats for conservation breeding, behavioral research, and public education, while taxonomic keys (primarily dichotomous keys) are systematic identification tools using contrasting morphological character pairs to.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Connect this to your prior knowledge of taxonomic hierarchy (node ______) — identification requires matching observable characters to taxonomic descriptions.",
+     "a": "005",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Zoological parks?",
+     "a": "Students believe taxonomic keys identify organisms by \"matching pictures\" or overall similarity (gestalt), rather than by logically evaluating a sequence of discrete, contrasting character states.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can construct a dichotomous key for 5-6 related animal specimens using observable morphological characters, explain how zoological parks contribute to ex-situ conservation with specific Indian examples, and distinguish between the roles of zoological parks, museums, and herbaria as taxonomic aids.",
+     "self_check": true
     }
    ]
   }

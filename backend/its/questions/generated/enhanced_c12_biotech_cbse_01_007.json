@@ -34,6 +34,26 @@
      "q": "Design a cloning strategy to insert a 1.2 kb DNA fragment (with *BamHI* and *HindIII* sites at its ends) into pBR322 such that recombinants can be identified by a single antibiotic plate (no replica plating). Specify the restriction enzyme(s) to use, the expected phenotype of recombinants vs non-recombinants, and the screening plate composition.",
      "a": "Digest pBR322 with *BamHI* (site in *tetR*) and *HindIII* (site in *tetR*, position 29) to remove a small fragment from *tetR*, then ligate the *BamHI–HindIII* insert. Recombinants will have disrupted *tetR* → Tet^S^ Amp^R^. Non-recombinants (recircularized vector without insert) will also have disrupted *tetR* if the vector fragment is lost, but more reliably: use *BamHI* alone and screen on ampicillin plates replica-plated to tetracycline — but the question asks for *single plate*. Better: Use *PstI* (in *bla*) for cloning; plate on tetracycline only. Recombinants = Tet^R^ Amp^S^ (grow on Tet), non-recombinants = Tet^R^ Amp^R^ (also grow on Tet) — fails. Correct single-plate strategy: **Not possible with pBR322 alone** because both markers confer resistance; loss of resistance cannot be selected *for* on a single plate (you cannot select for sensitivity). pUC19 allows this via blue-white. A good answer recognises this limitation and states: \"pBR322 cannot do single-plate recombinant selection; it requires replica plating. For single-plate screening, use pUC19 with *lacZα*.\" A poor answer proposes a flawed single-plate method, revealing the student does not grasp that antibiotic *sensitivity* cannot be positively selected.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: pBR322 is a 4,361 bp circular plasmid cloning vector derived from pMB1 (a ColE1-like plasmid), containing an origin of replication (ori), two selectable markers (ampicillin resistance gene *bla* and ______ resistance gene *tetR*), and multiple unique restriction enzyme recognition sites within these marker genes that enable insertional inactivation for recombinant selection.",
+     "a": "tetracycline",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a human insulin gene (about 500 bp) and want to clone it into ______ to produce insulin.",
+     "a": "bacteria",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a human insulin gene (about ______ bp) and want to clone it into bacteria to produce insulin.",
+     "a": "500",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to interpret the pBR322 restriction map to identify cloning sites, predict the phenotype of transformants (ampicillin/tetracycline sensitivity or resistance) based on insertional inactivation, and design a cloning strategy selecting an appropriate restriction site for a given insert.",
+     "self_check": true
     }
    ]
   }

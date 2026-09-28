@@ -34,6 +34,31 @@
      "q": "Construct a Sankey diagram description (text-based) showing the flow of India's export surplus (1900-1913 average: ₹50 crore/year) into: Home Charges, Railway Guaranteed Interest, Military Expenditure, and Private Remittances. Assign plausible percentage shares based on historical estimates.",
      "a": "A strong answer: \"Export Surplus (₹50 cr) → Home Charges (₹22 cr, 44%) → Railway Guaranteed Interest (₹10 cr, 20%) → Military Expenditure (₹8 cr, 16%) → Private Remittances/Profit Repatriation (₹10 cr, 20%). Net retention in India: ~0.\" The diagram must show the surplus splitting into four outflow arrows with no significant domestic accumulation arrow. A poor answer shows the surplus flowing into \"Indian treasury\" or \"industrial investment\" — revealing the misconception that colonial fiscal policy reinvested trade gains locally. Historical estimates (Dadabhai Naoroji, V.K.R.V. Rao) confirm near-zero net foreign asset accumulation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Foreign trade composition and direction under British rule refers to the structural pattern of India's ______ trade where the colonial government deliberately oriented exports toward primary products (raw cotton, jute, indigo, opium, tea) and imports toward British manufactured goods (textiles, machinery), while restricting over 50% of trade volume exclusively with Britain, creating a persistent export surplus that financed British imperial expenditures rather than Indian development.",
+     "a": "international",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you find your great-grandfather's 1930s ______ book showing he sold raw cotton to a British firm at ₹15 per maund but bought back the same cotton as finished cloth at ₹45 per maund.",
+     "a": "account",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Foreign trade composition and direction under British rule refers to the structural pattern of India's international trade where the colonial government deliberately oriented exports toward primary products (raw cotton, jute, indigo, opium, tea) and imports toward British manufactured goods (textiles, machinery), while restricting over ______% of trade volume exclusively with Britain, creating a persistent export surplus that financed British imperial expenditures rather than Indian development.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) classify trade items into primary exports vs manufactured imports with specific examples, (2) calculate directional trade shares from historical data tables, (3) explain the causal link between trade composition and deindustrialisation using the concept of terms of trade, and (4) evaluate whether the export surplus.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you find your great-______'s 1930s account book showing he sold raw cotton to a British firm at ₹15 per maund but bought back the same cotton as finished cloth at ₹45 per maund.",
+     "a": "grandfather",
+     "self_check": true
     }
    ]
   }

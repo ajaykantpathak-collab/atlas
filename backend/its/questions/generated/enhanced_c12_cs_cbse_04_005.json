@@ -32,7 +32,32 @@
     },
     {
      "q": "Create a small relational schema (3 tables) for a \"Movie Booking\" system: `Movie`, `CinemaHall`, `Show`. Define primary keys, candidate keys, alternate keys (if any), and foreign keys. Ensure a show links a movie to a hall at a specific date-time. Write the schema in a clear notation.",
-     "a": "**Expected schema:**\n- `Movie(MovieID, Title, Genre, Duration)` — PK: MovieID; Candidate: {MovieID}; Alternate: none (unless Title+Genre unique, but unlikely).\n- `CinemaHall(HallID, Name, Capacity, ScreenType)` — PK: HallID; Candidate: {HallID}; Alternate: none.\n- `Show(ShowID, MovieID, HallID, ShowDateTime, Price)` — PK: ShowID; Candidate: {ShowID}, {MovieID, HallID, ShowDateTime} (if a hall cannot have two shows at same time); Alternate: {MovieID, HallID, ShowDateTime} if ShowID is PK. Foreign keys: MovieID → Movie(MovieID), HallID → CinemaHall(HallID).\nA poor answer that omits the composite candidate key in Show or forgets foreign keys reveals inability to identify uniqueness from business rules.",
+     "a": "**Expected schema:**\n- `Movie(MovieID, Title, Genre, Duration)` — PK: MovieID; Candidate: {MovieID}; Alternate: N/A (unless Title+Genre unique, but unlikely).\n- `CinemaHall(HallID, Name, Capacity, ScreenType)` — PK: HallID; Candidate: {HallID}; Alternate: N/A.\n- `Show(ShowID, MovieID, HallID, ShowDateTime, Price)` — PK: ShowID; Candidate: {ShowID}, {MovieID, HallID, ShowDateTime} (if a hall cannot have two shows at same time); Alternate: {MovieID, HallID, ShowDateTime} if ShowID is PK. Foreign keys: MovieID → Movie(MovieID), HallID → CinemaHall(HallID).\nA poor answer that omits the composite candidate key in Show or forgets foreign keys reveals inability to identify uniqueness from business rules.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In a ______ database, a key is an attribute (or set of attributes) that uniquely identifies a tuple (row) in a relation (table).",
+     "a": "relational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ for your school's library.",
+     "a": "database",
+     "self_check": true
+    },
+    {
+     "q": "What is In a relational database, a key? State the definition given in this lesson.",
+     "a": "In a relational database, a key is an attribute (or set of attributes) that uniquely identifies a tuple (row) in a relation (table).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about In a relational database, a key?",
+     "a": "\"Alternate Key and Foreign Key are the same thing.\" Students often confuse alternate keys (candidate keys not chosen as primary) with foreign keys (attributes referencing another table's candidate key).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) given a relation schema and sample data, identify all candidate keys, select a primary key, list alternate keys, and (2) define a foreign key constraint between two relations, explaining how it maintains referential integrity on insert/update/delete.",
      "self_check": true
     }
    ]

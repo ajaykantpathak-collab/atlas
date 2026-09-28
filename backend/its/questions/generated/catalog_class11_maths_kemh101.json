@@ -4,15 +4,8 @@
   {
    "id": "kemh.101.1.1",
    "title": "Sets and Their Representations: Roster and Set Builder Forms",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "count the pairs the relation must contain",
-     "explain": "count the pairs the relation must contain: count = 5 gives 5",
-     "compute": "count = 5"
-    }
-   ],
+   "converted_to_compute": false,
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 5 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -50,6 +43,8 @@
    "id": "kemh.101.2.1",
    "title": "Union, Intersection and Complement of Sets",
    "converted_to_compute": false,
+   "formula": "n_a_union_b = n_a + n_b - n_a_intersection_b",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "A set has 5 elements. How many elements are in its identity relation (a, a) for every element?",
@@ -87,6 +82,8 @@
    "id": "kemh.101.3.1",
    "title": "Subsets, Power Set, Intervals and Venn Diagrams",
    "converted_to_compute": false,
+   "formula": "power_set_size = 2 ** n_elements",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 2^4 x 2^4.",

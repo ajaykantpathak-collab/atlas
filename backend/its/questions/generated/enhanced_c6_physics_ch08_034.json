@@ -34,6 +34,31 @@
      "q": "Create a scenario where it would be necessary to use a millisecond.\nAnswer: Measuring the speed of a bullet or a computer processor's calculation time.\nWrong answer reveals: The student does not grasp that sub-second units are for extremely fast events, showing a lack of conceptual connection to real-world speed.",
      "a": "**Correct Answer:** A millisecond is necessary for measuring events that happen too quickly for human perception, such as the timing of an Olympic sprinter’s reaction to the starting gun or the shutter speed of a high-speed camera. These tiny increments are vital when a fraction of a second determines the difference between success and failure.\n\n**A wrong answer reveals:** The student likely lacks a conceptual connection to the scale of time, failing to distinguish between \"human-paced\" events (measured in seconds or minutes) and \"high-speed\" events that require sub-second precision. This suggests they view time units as arbitrary labels rather than tools for measuring the specific velocity or duration of physical phenomena.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Time is a ______ quantity used to measure the duration of events or the interval between them, with the 'second' serving as the basic SI unit.",
+     "a": "physical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are waiting for your favorite television show to start; do you check the clock in hours or ______?",
+     "a": "minutes",
+     "self_check": true
+    },
+    {
+     "q": "What is Time? State the definition given in this lesson.",
+     "a": "Time is a physical quantity used to measure the duration of events or the interval between them, with the 'second' serving as the basic SI unit.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Time?",
+     "a": "Students often assume that all time conversions use a factor of 10, similar to the metric system for length (10 mm = 1 cm).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to convert between time units (e.g., hours to minutes, minutes to seconds) and identify which unit is appropriate for measuring specific durations, such as the time taken to blink versus the time taken to grow up.",
+     "self_check": true
     }
    ]
   }

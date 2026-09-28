@@ -34,6 +34,36 @@
      "q": "Design a 3-step \"Phishing Verification Checklist\" that a Class 12 student can teach their grandparents for any unsolicited message asking for OTP/bank details. Each step must be actionable without technical jargon.",
      "a": "Step 1: **STOP** — Do not click any link or call any number in the message. Take a screenshot instead. Step 2: **VERIFY** — Open the official app (bank, Aadhaar, EPFO) or visit the official website by *typing the address yourself* (e.g., hdfcbank.com). Check notifications there. Step 3: **REPORT & DELETE** — Forward the suspicious SMS to 1930 (National Cyber Crime Reporting Portal) or report via the bank's official helpline (on the back of your debit card). Delete the message. A poor answer includes technical steps like \"check SSL certificate\" or \"inspect email headers\" — inappropriate for the target audience and missing the pedagogical goal of simplicity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Phishing is a cyber attack where attackers ______ legitimate entities (banks, government portals, popular services) through deceptive emails, messages, or websites to trick victims into revealing sensitive information such as login credentials, OTPs, Aadhaar numbers, or financial details.",
+     "a": "impersonate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you ______ an SMS: \"Your SBI account will be closed in 2 hours.",
+     "a": "receive",
+     "self_check": true
+    },
+    {
+     "q": "What is Phishing? State the definition given in this lesson.",
+     "a": "Phishing is a cyber attack where attackers impersonate legitimate entities (banks, government portals, popular services) through deceptive emails, messages, or websites to trick victims into revealing sensitive information such as login credentials, OTPs, Aadhaar numbers, or financial details.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive an SMS: \"Your SBI account will be closed in ______ hours.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Phishing?",
+     "a": "Students believe phishing emails are always poorly written with obvious spelling errors and generic greetings (\"Dear Customer\").",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently dissect a suspicious message (email/SMS/WhatsApp) by examining sender address, URL structure, language cues, and request type to classify it as phishing/social engineering or legitimate, and can articulate the exact steps to verify and report it.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Construct a numerical example where a monopolistically competitive firm in long-run equilibrium has demand P = a - bQ and cost TC = F + cQ. Choose parameters a, b, c, F such that the long-run tangency condition holds (P = AC and MR = MC at the same Q). Show the equilibrium output, price, and verify zero profit.",
      "a": "Let demand: P = 100 - Q (so a=100, b=1). Cost: TC = 400 + 20Q (F=400, c=20). MR = 100 - 2Q. MC = 20. Set MR=MC: 100-2Q=20 → Q*=40. P* = 100-40 = 60. AC = 400/40 + 20 = 30. Not tangent (P=60 ≠ AC=30). Adjust F to achieve tangency. At tangency, demand is tangent to AC → slope of demand = slope of AC at Q*. Slope of demand = -1. AC = F/Q + 20. d(AC)/dQ = -F/Q². Set -F/Q² = -1 → F = Q². Also P = AC → 100 - Q = F/Q + 20. Substitute F=Q²: 100 - Q = Q + 20 → 80 = 2Q → Q*=40. Then F = 1600. Check: TC = 1600 + 20Q. At Q=40: AC = 1600/40+20=60=P. MR=100-80=20=MC. Profit = (60-60)×40=0. Parameters: a=100, b=1, c=20, F=1600. A poor answer fails to impose both tangency conditions simultaneously or chooses parameters that don't satisfy MR=MC and P=AC at the same Q.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ competition equilibrium occurs when a firm maximizes profit by producing where marginal revenue equals marginal cost (MR = MC).",
+     "a": "Monopolistic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run \"Bean & Brew,\" a ______ shop in a bustling Delhi neighborhood with 20 other cafes.",
+     "a": "coffee",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run \"Bean & Brew,\" a coffee shop in a bustling Delhi neighborhood with ______ other cafes.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) derive the short-run equilibrium output and price for a monopolistically competitive firm given demand and cost functions, (2) determine whether the firm earns supernormal profit, normal profit, or loss, (3) explain the long-run adjustment process leading to zero economic profit, and (4) demonstrate graphically and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run \"Bean & Brew,\" a coffee shop in a bustling Delhi ______ with 20 other cafes.",
+     "a": "neighborhood",
+     "self_check": true
     }
    ]
   }

@@ -209,7 +209,16 @@
      "action": "determine pit feeding requirement",
      "explain": "Use the daily food value to decide how much organic waste must be added to the pit each day."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "daily_food = worm_weight * worm_count",
+     "compute": "daily_food = worm_weight * worm_count"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fesc.16.2.4",
@@ -245,7 +254,16 @@
      "action": "confirm favorable conditions",
      "explain": "Check that moisture and temperature in the pit support doubling, since growth depends on a healthy environment."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "final_worms = initial_worms * (2 ** months)",
+     "compute": "final_worms = initial_worms * (2 ** months)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fesc.16.3.1",
@@ -282,7 +300,16 @@
      "explain": "Multiply the per person waste by the total city population.",
      "compute": "total_city_waste = per_person_waste * population"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_city_waste = (buckets / (days * members)) * city_population",
+     "compute": "total_city_waste = (buckets / (days * members)) * city_population"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fesc.16.4.1",

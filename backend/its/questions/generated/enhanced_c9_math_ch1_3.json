@@ -34,6 +34,26 @@
      "q": "Create a real-world scenario (Indian context) where identifying the quadrant of a coordinate is necessary. Define the origin, axes directions, and give coordinates for at least two locations in different quadrants. Explain why quadrant identification matters in your scenario.",
      "a": "Example: A drone delivery service in Bengaluru uses a warehouse as origin (0,0). North is +y, East is +x. Location A: a hospital 5 km West, 3 km North → (−5, 3) Quadrant II. Location B: a school 4 km East, 2 km South → (4, −2) Quadrant IV. Quadrant identification matters because the drone's navigation software uses quadrant-specific turning algorithms (e.g., NW vs SE sectors have different no-fly zones). A good answer includes clear origin, axis definitions, coordinates with correct signs, distinct quadrants, and a plausible reason why quadrant matters (routing, regulations, signal sectors). A poor answer uses vague directions, puts both points in same quadrant, or gives a trivial reason like \"to know where it is\".",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ plane is divided into four quadrants by the x-axis and y-axis.",
+     "a": "Cartesian",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a ______ agent in Delhi starting at Connaught Place (origin).",
+     "a": "delivery",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly determine the quadrant of any point given its coordinates, state the sign pattern for each quadrant, and explain why the signs follow that pattern based on the direction of the axes.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a delivery agent in Delhi starting at ______ Place (origin).",
+     "a": "Connaught",
+     "self_check": true
     }
    ]
   }

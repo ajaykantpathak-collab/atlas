@@ -34,6 +34,26 @@
      "q": "Design a numerical example showing the round-by-round multiplier process for an economy with MPC = 0.75 where the autonomous component is a combination of investment (₹200 crore) and government spending (₹300 crore). Show the first 5 rounds and the total multiplier effect. Then explain how the process would change if a proportional tax rate of 20% is introduced (i.e., disposable income Yd = Y - 0.2Y).",
      "a": "Total autonomous injection ΔA = 200 + 300 = ₹500 crore. MPC = 0.75. k = 1/(1-0.75) = 4. Total ΔY = 4 × 500 = ₹2,000 crore.\nRounds: 1: ΔY=500, ΔC=375, Cum=500. 2: ΔY=375, ΔC=281.25, Cum=875. 3: ΔY=281.25, ΔC=210.94, Cum=1156.25. 4: ΔY=210.94, ΔC=158.20, Cum=1367.19. 5: ΔY=158.20, ΔC=118.65, Cum=1525.39.\nWith 20% tax: Disposable income Yd = 0.8Y. Induced consumption ΔC = MPC × ΔYd = 0.75 × 0.8 × ΔY = 0.6 × ΔY. Effective MPC out of national income = 0.6. New k = 1/(1-0.6) = 2.5. Total ΔY = 2.5 × 500 = ₹1,250 crore. Taxes act as a leakage, reducing the multiplier from 4 to 2.5. A student who keeps MPC = 0.75 and ignores the tax effect misses that the marginal propensity to consume out of national income falls to MPC(1-t).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The multiplier process is the step-by-step mechanism by which an initial autonomous change in aggregate demand (such as investment, government spending, or exports) generates a multiplied change in ______ national income through successive rounds of induced consumption spending, where each round's income becomes the next round's consumption based on the marginal propensity to consume (MPC).",
+     "a": "equilibrium",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine the Indian government announces a ₹1,000 crore ______ project in a small town.",
+     "a": "infrastructure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight: each round's induced consumption is smaller than the previous because MPC < ______, forming a convergent geometric series.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can trace the round-by-round income generation process for a given autonomous injection and MPC, compute the total multiplier effect using the geometric series formula, explain why the process converges, and identify the leakages that limit the multiplier size in a realistic economy.",
+     "self_check": true
     }
    ]
   }

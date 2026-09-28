@@ -86,7 +86,7 @@
     "add and subtract the basic areas to find the shaded region",
     "the cost of carpeting the region is given per unit - find the cost"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -103,7 +103,16 @@
      "action": "combine with logic",
      "explain": "Add included regions and subtract excluded ones for the shaded area."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the area formula base times height",
+     "explain": "apply the area formula base times height: area = 16 * 25 gives 400",
+     "compute": "area = 16 * 25"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

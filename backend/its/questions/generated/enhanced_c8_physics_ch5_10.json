@@ -34,6 +34,21 @@
      "q": "Design a simple school-lab experiment to show that gas solubility decreases with increasing temperature. List materials, procedure, and the key observation that proves the relationship.",
      "a": "Materials: Two transparent bottles, cold water, hot water, effervescent vitamin-C tablets (or soda), thermometer, stopwatch. Procedure: 1) Fill one bottle with cold water (~5°C), one with hot water (~50°C). 2) Drop one tablet in each simultaneously. 3) Time how long until bubbling stops. 4) Record temperature and time. Key observation: Hot water stops bubbling sooner — gas escapes faster, proving lower equilibrium solubility at higher temperature. A poor answer uses only qualitative \"more bubbles\" without timing or temperature control, failing to isolate temperature as the variable.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The solubility of a gas in a liquid is the maximum amount of gas (in moles or grams) that can dissolve in a fixed volume of solvent at a given ______ and pressure, reaching dynamic equilibrium between dissolved gas molecules and gas molecules in the space above the liquid.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a sealed cold drink bottle: when opened, bubbles rush out — the ______ carbon dioxide escapes because pressure above the liquid drops.",
+     "a": "dissolved",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can predict whether gas solubility increases or decreases when temperature or pressure changes, explain the molecular reasoning using kinetic theory, and apply Henry's law (C = kₕP) to calculate concentration changes when pressure is altered.",
+     "self_check": true
     }
    ]
   }

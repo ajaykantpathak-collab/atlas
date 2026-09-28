@@ -68,7 +68,16 @@
      ],
      "question_pattern": "calculate the difference in trial balance (given {total_credits}, {total_debits})"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "difference = abs(total_debits - total_credits)",
+     "compute": "difference = abs(total_debits - total_credits)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.106.2",
@@ -157,11 +166,19 @@
    ],
    "worked_examples": [
     {
-     "question": "calculate the rectification amount for short debit (take correct_amount = 10, recorded_amount = 10)",
-     "solution": "Applying the concept's compute chain with correct_amount = 10, recorded_amount = 10 gives 0.0.",
-     "answer": "0.0"
+     "concept": "keac.106.4",
+     "question_pattern": "find the amount needed to correct a short credit of {correct_amount} instead of {recorded_amount}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rectification_amount = correct_amount - recorded_amount",
+     "compute": "rectification_amount = correct_amount - recorded_amount"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.106.5",
@@ -189,11 +206,19 @@
    ],
    "worked_examples": [
     {
-     "question": "calculate the rectification amount for excess debit (take correct_amount = 10, recorded_amount = 10)",
-     "solution": "Applying the concept's compute chain with correct_amount = 10, recorded_amount = 10 gives 0.0.",
-     "answer": "0.0"
+     "concept": "keac.106.5",
+     "question_pattern": "find the amount needed to correct an over-recorded credit of {recorded_amount} instead of {correct_amount}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rectification_amount = recorded_amount - correct_amount",
+     "compute": "rectification_amount = recorded_amount - correct_amount"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.106.6",
@@ -221,11 +246,19 @@
    ],
    "worked_examples": [
     {
-     "question": "calculate the rectification amount when a debit of ... is wrongly credited (take correct_amount = 10)",
-     "solution": "Applying the concept's compute chain with correct_amount = 10 gives 20.0.",
-     "answer": "20.0"
+     "concept": "keac.106.6",
+     "question_pattern": "calculate the rectification amount when a debit of {correct_amount} is wrongly credited"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rectification_amount = 2 * correct_amount",
+     "compute": "rectification_amount = 2 * correct_amount"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.106.7",
@@ -253,11 +286,19 @@
    ],
    "worked_examples": [
     {
-     "question": "calculate the rectification amount when a debit of ... is wrongly credited as ... (take correct_amount = 10, wrong_amount = 10)",
-     "solution": "Applying the concept's compute chain with correct_amount = 10, wrong_amount = 10 gives 20.0.",
-     "answer": "20.0"
+     "concept": "keac.106.7",
+     "question_pattern": "calculate the rectification amount when a debit of {correct_amount} is wrongly credited as {wrong_amount}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rectification_amount = correct_amount + wrong_amount",
+     "compute": "rectification_amount = correct_amount + wrong_amount"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.106.8",
@@ -285,16 +326,19 @@
    ],
    "worked_examples": [
     {
-     "question": "calculate the initial balance of suspense account (take total_credits = 10, total_debits = 10)",
-     "solution": "Applying the concept's compute chain with total_credits = 10, total_debits = 10 gives 0.0.",
-     "answer": "0.0"
-    },
-    {
-     "question": "calculate the initial balance of suspense account (take total_credits = 10, total_debits = 2)",
-     "solution": "Applying the concept's compute chain with total_credits = 10, total_debits = 2 gives -8.0.",
-     "answer": "-8.0"
+     "concept": "keac.106.8",
+     "question_pattern": "what is the suspense account balance given total debits of {total_debits} and total credits of {total_credits}"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "suspense_balance = total_debits - total_credits",
+     "compute": "suspense_balance = total_debits - total_credits"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

@@ -44,10 +44,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lhs = 3 ** 3 + 4 ** 3",
-    "diff = 5 ** 3 - lhs"
-   ]
+   "steps_chain": []
   },
   {
    "id": "gegp.6.2",
@@ -90,9 +87,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "idx = 155 / 100 * 100"
-   ]
+   "steps_chain": []
   },
   {
    "id": "gegp.6.3",
@@ -135,9 +130,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = 9 * 6"
-   ]
+   "steps_chain": []
   },
   {
    "id": "gegp.6.4",
@@ -182,10 +175,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lhs = 3 ** 3 + 4 ** 3",
-    "diff = 5 ** 3 - lhs"
-   ]
+   "steps_chain": []
   }
  ]
 }

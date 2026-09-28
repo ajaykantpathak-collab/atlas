@@ -1,0 +1,125 @@
+{
+ "catalog": "catalog_class11_political_science_ch5.json",
+ "concepts": [
+  {
+   "id": "c11ps.5.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "elected_members = 51",
+      "nominated_members = 75",
+      "total_members = elected_members + nominated_members"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "elected_members = 67",
+      "nominated_members = 78",
+      "total_members = elected_members + nominated_members"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "elected_members = 38",
+      "nominated_members = 22",
+      "total_members = elected_members + nominated_members"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "elected_members = 72",
+      "nominated_members = 95",
+      "total_members = elected_members + nominated_members"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "elected_members = 88",
+      "nominated_members = 92",
+      "total_members = elected_members + nominated_members"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "elected_members = 49",
+      "nominated_members = 57",
+      "total_members = elected_members + nominated_members"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_members = elected_members + nominated_members"
+   ]
+  },
+  {
+   "id": "c11ps.5.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "state_representatives = 35",
+      "union_territory_representatives = 15.2",
+      "nominated_members = 87",
+      "total_members = state_representatives + union_territory_representatives + nominated_members"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "state_representatives = 3.1",
+      "union_territory_representatives = 72",
+      "nominated_members = 96",
+      "total_members = state_representatives + union_territory_representatives + nominated_members"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "state_representatives = 59",
+      "union_territory_representatives = 65",
+      "nominated_members = 83",
+      "total_members = state_representatives + union_territory_representatives + nominated_members"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "state_representatives = 13.1",
+      "union_territory_representatives = 2.4",
+      "nominated_members = 50",
+      "total_members = state_representatives + union_territory_representatives + nominated_members"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "state_representatives = 56",
+      "union_territory_representatives = 64",
+      "nominated_members = 64",
+      "total_members = state_representatives + union_territory_representatives + nominated_members"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "state_representatives = 12.2",
+      "union_territory_representatives = 28",
+      "nominated_members = 17.1",
+      "total_members = state_representatives + union_territory_representatives + nominated_members"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_members = state_representatives + union_territory_representatives + nominated_members"
+   ]
+  }
+ ]
+}

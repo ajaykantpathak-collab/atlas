@@ -39,6 +39,21 @@
      "explain": "The SI unit of work is the joule (J), equal to one newton-metre, so the final value is expressed in joules.",
      "compute": "work_joules = work"
     }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "work = force * displacement",
+     "compute": "work = force * displacement"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "iesc.107.1",
+     "question_pattern": "calculate the work done when a force of {force} N displaces an object by {displacement} m"
+    }
    ]
   },
   {
@@ -74,6 +89,21 @@
      "action": "report the negative work value in joules",
      "explain": "The negative sign indicates energy is removed from the object by the opposing force, and the magnitude is expressed in joules.",
      "compute": "work_joules = work"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "work = -1 * force * displacement",
+     "compute": "work = -1 * force * displacement"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "iesc.107.2",
+     "question_pattern": "calculate the work done by a braking force of {force} N that stops a vehicle over a distance of {displacement} m"
     }
    ]
   },
@@ -112,6 +142,21 @@
      "explain": "The SI unit of kinetic energy is the joule, so the final computed value is reported in joules for a mass in kg and velocity in m/s.",
      "compute": "kinetic_energy_joules = kinetic_energy"
     }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "kinetic_energy = 0.5 * mass * (velocity ** 2)",
+     "compute": "kinetic_energy = 0.5 * mass * (velocity ** 2)"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "iesc.107.3",
+     "question_pattern": "calculate the kinetic energy of an object of mass {mass} kg moving with a velocity of {velocity} m/s"
+    }
    ]
   },
   {
@@ -148,6 +193,21 @@
      "action": "report the potential energy in joules",
      "explain": "The SI unit of potential energy is the joule, so the final value is expressed in joules for mass in kg, g in m/s^2, and height in m.",
      "compute": "potential_energy_joules = potential_energy"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "potential_energy = mass * g * height",
+     "compute": "potential_energy = mass * g * height"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "iesc.107.4",
+     "question_pattern": "calculate the potential energy of an object of mass {mass} kg raised to a height of {height} m"
     }
    ]
   },
@@ -186,6 +246,21 @@
      "explain": "Since g is in m/s^2 and height is in m, the resulting velocity is in m/s, confirming the units are consistent.",
      "compute": "velocity_mps = velocity"
     }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "velocity = sqrt(2 * g * height)",
+     "compute": "velocity = sqrt(2 * g * height)"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "iesc.107.5",
+     "question_pattern": "calculate the speed of a freely falling body just before hitting the ground from a height of {height} m"
+    }
    ]
   },
   {
@@ -222,6 +297,21 @@
      "action": "report the power in watts",
      "explain": "The final value of power is expressed in watts, where one watt equals one joule of work done per second.",
      "compute": "power_watts = power"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "power = work / time",
+     "compute": "power = work / time"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "iesc.107.6",
+     "question_pattern": "calculate the power of an engine that does {work} J of work in {time} s"
     }
    ]
   },
@@ -260,6 +350,21 @@
      "explain": "A mechanical advantage greater than one means the machine multiplies force, while a value less than one means more effort is needed than the load.",
      "compute": "interpretation = mechanical_advantage"
     }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mechanical_advantage = load / effort",
+     "compute": "mechanical_advantage = load / effort"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "iesc.107.7",
+     "question_pattern": "calculate the mechanical advantage of a machine that lifts a load of {load} N with an effort of {effort} N"
+    }
    ]
   },
   {
@@ -296,6 +401,21 @@
      "action": "interpret the mechanical advantage value",
      "explain": "A longer incline relative to its height gives a greater mechanical advantage, meaning less effort is needed to raise the load.",
      "compute": "interpretation = mechanical_advantage"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mechanical_advantage = length / height",
+     "compute": "mechanical_advantage = length / height"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "iesc.107.8",
+     "question_pattern": "calculate the mechanical advantage of an inclined plane of length {length} m and height {height} m"
     }
    ]
   },
@@ -334,6 +454,21 @@
      "explain": "Since load is in newtons and the arm lengths are in metres, the resulting effort is in newtons, confirming the lever is in equilibrium.",
      "compute": "effort_newtons = effort"
     }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "effort = (load * load_arm) / effort_arm",
+     "compute": "effort = (load * load_arm) / effort_arm"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "iesc.107.9",
+     "question_pattern": "calculate the effort required to lift a load of {load} N if the load arm is {load_arm} m and the effort arm is {effort_arm} m"
+    }
    ]
   },
   {
@@ -370,6 +505,21 @@
      "action": "interpret the mechanical advantage value",
      "explain": "A mechanical advantage greater than one means the effort arm is longer than the load arm, so the lever multiplies force and less effort is needed to lift the load.",
      "compute": "interpretation = mechanical_advantage"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mechanical_advantage = effort_arm / load_arm",
+     "compute": "mechanical_advantage = effort_arm / load_arm"
+    }
+   ],
+   "converted_to_compute": true,
+   "worked_examples": [
+    {
+     "concept": "iesc.107.10",
+     "question_pattern": "calculate the mechanical advantage of a lever with an effort arm of {effort_arm} m and a load arm of {load_arm} m"
     }
    ]
   }

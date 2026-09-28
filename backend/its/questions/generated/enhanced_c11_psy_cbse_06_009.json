@@ -11,8 +11,8 @@
      "self_check": true
     },
     {
-     "q": "A student uses the First-Letter Technique to memorise the seven steps of the PQRST method itself (P-Q-R-S-T). They create the sentence \"Please Quietly Read Slowly Today.\" Explain why this is a *poor* application of the technique for *this specific material*, referencing levels of processing.",
-     "a": "The First-Letter Technique only encodes the *initial letters* at a shallow structural/phonetic level; it does not process the *meaning* of each step (Preview, Question, Read, Self-recitation, Test). Since PQRST is a *conceptual procedure* where understanding each step's purpose is essential for flexible application, a first-letter sentence yields fragile memory that cannot support transfer. A wrong answer (e.g., \"it's fine because it helps recall the order\") reveals the student fails to distinguish between *rote serial recall* (where first-letter works) and *conceptual learning* (where semantic encoding is necessary).",
+     "q": "Give the correct order of points showing why a first-letter sentence is a poor mnemonic for the PQRST method itself.",
+     "a": "The critique runs: (1) The first-letter sentence encodes only initial sounds at a shallow level (2) PQRST is a conceptual procedure whose steps carry meanings (3) Shallow encoding cannot support flexible application of the steps (4) A deeper strategy that processes each step's purpose suits this material better. A wrong answer that praises the sentence for preserving order alone shows the student has missed that levels of processing decide whether the mnemonic actually fits the material.",
      "self_check": true
     },
     {
@@ -33,6 +33,36 @@
     {
      "q": "Create a novel, integrated study plan for a Class 11 student preparing for a Biology exam covering: (a) 10 stages of mitosis in order, (b) 15 definitions of genetics terms, (c) 5 experimental procedures (e.g., Mendel's crosses). Assign *one primary mnemonic/strategy* to each component, explain *why* it fits that material type, and schedule the three study sessions to *minimise interference*.",
      "a": "(a) Mitosis stages (serial, visualisable) → **Method of Loci** using 10 loci along school route; each locus = one stage with interactive image (e.g., \"prophase\" → \"pro-faze\" → a pro dancer *phasing* through chromosomes condensing). (b) Genetics definitions (abstract, verbal) → **Keyword Method** for each term (e.g., \"heterozygous\" → \"hero-zygous\" → hero wearing two different coloured socks = different alleles). (c) Experimental procedures (sequential, causal) → **PQRST** for each: Preview steps, Question \"why this step?\", Read, Self-recite procedure, Test by drawing flowchart. Schedule: Session 1 (9-11 AM) Mitosis (Loci), *break*; Session 2 (12-2 PM) Genetics (Keyword), *break*; Session 3 (3-5 PM) Procedures (PQRST). Interference minimised by: different *modalities* (visual-spatial vs. verbal-imagery vs. conceptual), different *strategies*, and *rest intervals* between similar verbal tasks. A poor answer assigns the same strategy to all three or schedules them back-to-back, showing failure to match strategy to material and ignorance of interference principles.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Mnemonics are systematic memory enhancement strategies that impose meaningful ______ or vivid imagery onto to-be-remembered information, thereby creating effective retrieval cues and facilitating deep semantic encoding.",
+     "a": "organisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a history test tomorrow with 15 Mughal emperors in chronological order, their reign years, and one major achievement each — pure rote ______ has failed you before.",
+     "a": "repetition",
+     "self_check": true
+    },
+    {
+     "q": "What is Mnemonics? State the definition given in this lesson.",
+     "a": "Mnemonics are systematic memory enhancement strategies that impose meaningful organisation or vivid imagery onto to-be-remembered information, thereby creating effective retrieval cues and facilitating deep semantic encoding.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a history test tomorrow with ______ Mughal emperors in chronological order, their reign years, and one major achievement each — pure rote repetition has failed you before.",
+     "a": "15",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Mnemonics?",
+     "a": "Students believe that *any* mnemonic (e.g., a first-letter acronym) automatically improves memory for *any* material.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can select and correctly apply an appropriate mnemonic strategy (keyword method, method of loci, chunking, or first-letter technique) for a given memory task, justify their choice based on the nature of the material (e.g., serial vs. categorical, verbal vs. visual), and explain how the strategy promotes deep processing and.",
      "self_check": true
     }
    ]

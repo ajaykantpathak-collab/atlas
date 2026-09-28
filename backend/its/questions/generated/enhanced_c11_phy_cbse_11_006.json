@@ -34,6 +34,31 @@
      "q": "Design a simple thought experiment using a syringe (sealed at the tip) and a heat source to demonstrate that more heat is required to raise the temperature of a gas by the same amount at constant pressure than at constant volume. List the measurements you would take.",
      "a": "Seal a syringe with a known amount of gas (e.g., 0.01 mol air). Experiment A: Keep plunger fixed (constant volume). Supply heat Qᵥ, measure ΔT. Experiment B: Allow plunger to move freely against atmospheric pressure (constant pressure). Supply heat Qₚ to achieve the same ΔT. Measure Qᵥ and Qₚ. Expect Qₚ > Qᵥ. Calculate Cᵥ = Qᵥ/(μΔT), Cₚ = Qₚ/(μΔT). A poor answer omits controlling μ and ΔT, or ignores atmospheric pressure work, or suggests measuring pressure instead of heat.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Molar specific heat capacity at constant volume (Cᵥ) is the amount of heat required to raise the ______ of one mole of a gas by 1 K while keeping its volume constant.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine heating a gas in a rigid steel cylinder (like an LPG cylinder) versus heating it in a ______-cylinder arrangement (like a bicycle pump with the outlet blocked).",
+     "a": "piston",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Molar specific heat capacity at constant volume (Cᵥ) is the amount of heat required to raise the temperature of one mole of a gas by ______ K while keeping its volume constant.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the relation Cₚ − Cᵥ = R for an ideal gas using the First Law and the ideal gas equation, compute Cₚ or Cᵥ given one of them and the gas constant, and explain physically why Cₚ is always greater than Cᵥ for gases.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine heating a gas in a rigid steel cylinder (like an LPG cylinder) versus heating it in a piston-cylinder ______ (like a bicycle pump with the outlet blocked).",
+     "a": "arrangement",
+     "self_check": true
     }
    ]
   }

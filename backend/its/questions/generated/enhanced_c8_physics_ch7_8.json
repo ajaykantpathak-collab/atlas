@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a globe, a lamp (Sun), and a protractor to demonstrate why the solar day is longer than the sidereal day. Describe the setup, what you measure, and how you calculate the extra rotation angle.",
      "a": "Setup: Place a globe on a rotating stand with a fixed lamp as the Sun. Mark a meridian line on the globe. Rotate the globe 360° (sidereal day) while keeping the lamp fixed — note the marked meridian no longer faces the lamp. Then advance the globe along a circular orbit by ~1° (1/365 of a circle) and rotate further until the meridian faces the lamp again. Measure the extra rotation angle with the protractor: it should be ~1°. Calculate: 360°/23.93h ≈ 15.04°/h; extra 1° takes 1°/15.04°/h ≈ 0.066h ≈ 4 minutes. A poor design that doesn't separate rotation from orbital motion shows the student cannot isolate the two motions conceptually.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A solar day is the time interval between two ______ transits of the Sun across the same local meridian (solar noon to solar noon), averaging 24 hours (86,400 seconds).",
+     "a": "successive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a sundial in your school courtyard or notice how the shadow of a vertical stick (gnomon) moves across the ground from morning to evening — the shadow is shortest at local noon when the Sun crosses your ______.",
+     "a": "meridian",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why a solar day (24 hours) is longer than a sidereal day (23 hours 56 minutes) using a diagram of Earth's rotation and orbital motion, and can calculate the Sun's apparent angular speed (15° per hour) to determine time differences between longitudes.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a sundial in your school ______ or notice how the shadow of a vertical stick (gnomon) moves across the ground from morning to evening — the shadow is shortest at local noon when the Sun crosses your meridian.",
+     "a": "courtyard",
+     "self_check": true
     }
    ]
   }

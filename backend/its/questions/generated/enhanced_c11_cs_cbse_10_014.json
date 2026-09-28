@@ -34,6 +34,21 @@
      "q": "Design a simulation scenario (not CPU scheduling) where a queue is essential. Specify: (a) entities, (b) arrival pattern, (c) service mechanism, (d) performance metric to collect, and (e) one \"what-if\" question your simulation could answer.",
      "a": "Example: **Toll Plaza Simulation**\n(a) Entities: Cars. (b) Arrival: Random (exponential inter-arrival, mean 10 sec). (c) Service: Single booth, fixed 8 sec per car. (d) Metric: Average queue length, max wait time. (e) What-if: \"What happens to max wait time if we add a second booth?\" A poor answer uses a stack or omits the metric, showing inability to abstract a real system into a queue model.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A queue is a linear data ______ following the First-In-First-Out (FIFO) principle, where elements are inserted at the rear and removed from the front.",
+     "a": "structure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ arrive randomly, join a single line, and are served by one barista in the order they arrived.",
+     "a": "Customers",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to design a queue-based simulation for a given real-world scenario (e.g., single-server queue with Poisson arrivals) and compute key performance indicators (average waiting time, queue length).",
+     "self_check": true
     }
    ]
   }

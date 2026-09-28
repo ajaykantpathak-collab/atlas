@@ -34,6 +34,21 @@
      "q": "Design a simple experiment (using only a balance and common chemicals) to verify the Law of Definite Proportions for magnesium oxide. Outline the procedure, measurements, and calculation.",
      "a": "Procedure: 1) Weigh a clean, dry crucible. 2) Add a known mass of magnesium ribbon (e.g., 0.50 g). 3) Heat strongly with lid slightly ajar until reaction completes (Mg + ½O₂ → MgO). 4) Cool and weigh the crucible + product. 5) Calculate mass of oxygen gained = (mass of product) - (mass of Mg). 6) Compute %Mg and %O. Repeat with a different mass of Mg (e.g., 0.80 g). If both trials give ~60.3% Mg and ~39.7% O, the law is verified. A poor answer (e.g., \"mix Mg and O₂ gas in a jar\") shows the student cannot design a controlled combustion experiment or account for oxygen mass by difference.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Law of Definite ______ states that a given chemical compound always contains its constituent elements in a fixed ratio by mass, regardless of its source or method of preparation.",
+     "a": "Proportions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by showing the student two samples of copper(II) oxide: one prepared by heating copper in air (black powder) and another by ______ copper(II) nitrate (also black powder).",
+     "a": "decomposing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can verify experimental data for compliance with the Law of Definite Proportions by calculating mass ratios, and can apply the Law of Multiple Proportions to determine the whole-number mass ratio between two compounds of the same elements.",
+     "self_check": true
     }
    ]
   }

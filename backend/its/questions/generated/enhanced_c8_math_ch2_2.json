@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (Indian context) where a person must choose between a linear payment plan and an exponential payment plan for a 10-day job. The exponential plan must start lower but end higher. Specify the starting amount, the linear daily increment, and the exponential daily multiplier. Show the crossover day.",
      "a": "Example: A mason is offered: Plan A (linear): ₹500 on Day 1, increase by ₹200 each day. Plan B (exponential): ₹50 on Day 1, double each day.  \nCrossover: Day 6 (Plan A = 500+5×200=1500; Plan B = 50×2⁵=1600).  \nA good answer defines both plans clearly, computes a table, and identifies the crossover day with correct arithmetic. A poor answer (e.g., no crossover, or wrong multiplier like 1.1) shows the student cannot engineer the parameters to guarantee the required outcome — they lack backward reasoning from the crossover condition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Linear growth increases by a constant additive amount each step (e.g., adding ₹50 every week), forming an arithmetic ______.",
+     "a": "progression",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two students saving money: Anil puts ₹100 in his piggy bank every week (linear), while Beena starts with ₹10 and doubles her savings every week (______).",
+     "a": "exponential",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Linear growth increases by a constant additive amount each step (e.g., adding ₹______ every week), forming an arithmetic progression.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Given two real-world scenarios, identify whether each represents linear or exponential growth and justify using the constant difference vs. constant ratio test.",
+     "self_check": true
     }
    ]
   }

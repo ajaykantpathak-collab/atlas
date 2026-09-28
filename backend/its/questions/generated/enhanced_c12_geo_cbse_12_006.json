@@ -34,6 +34,26 @@
      "q": "Design a sustainable cropping pattern for a 10-hectare farm in the Indira Gandhi Canal command area (Stage II, Jaisalmer district) that maximizes water-use efficiency and minimizes salinity risk. Specify crops for Kharif and Rabi, irrigation method, and one soil-management practice.",
      "a": "**Proposed plan:**  \n- **Kharif**: Pearl millet (bajra) + moth bean (intercropped) — both drought-tolerant, low water demand (~300 mm), deep roots.  \n- **Rabi**: Mustard (irrigated) + chickpea (rainfed on residual moisture) — mustard uses 350 mm, chickpea fixes nitrogen.  \n- **Irrigation**: Drip for mustard (60% water saving vs flood); sprinkler for bajra if supplemental needed.  \n- **Soil practice**: Gypsum application (5 t/ha every 3 years) + green manuring (dhaincha) pre-Kharif to counter sodicity.  \n**Reasoning**: Replaces water-intensive wheat/rice (which caused salinity in Stage I) with **climate-smart, salt-tolerant crops**; drip/sprinkler reduces percolation losses that raise water table. A poor answer suggests rice-wheat rotation or flood irrigation — replicating the Punjab model in a desert, which is ecologically disastrous.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Indira Gandhi Canal (formerly Rajasthan Canal) is India's longest canal system originating at Harike Barrage (Punjab) on the Sutlej-Beas confluence, traversing 650 km through the Thar Desert of Rajasthan to provide irrigation, drinking water, and ecological ______ to arid northwestern India; \"Others\" refers to major multipurpose projects like the Narmada Valley (Sardar Sarovar) and Nagarjuna Sagar that integrate irrigation, hydropower, flood control, and water supply across multiple states.",
+     "a": "stabilization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine standing at the edge of the Thar Desert near ______ where sand dunes stretch endlessly — then picture a 100-meter-wide ribbon of blue water cutting through that desert, bringing wheat and mustard fields to life.",
+     "a": "Jaisalmer",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Indira Gandhi Canal (formerly Rajasthan Canal) is India's longest canal system originating at Harike Barrage (Punjab) on the Sutlej-Beas confluence, traversing ______ km through the Thar Desert of Rajasthan to provide irrigation, drinking water, and ecological stabilization to arid northwestern India; \"Others\" refers to major multipurpose projects like the Narmada Valley (Sardar Sarovar) and Nagarjuna Sagar that integrate irrigation, hydropower, flood control, and water supply across multiple states.",
+     "a": "650",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) trace the Indira Gandhi Canal's route on an outline map of India identifying source, command area, and terminal point; (2) explain how the canal transformed the Thar Desert's agricultural economy and settlement patterns; (3) compare the Indira Gandhi Canal with at least two other major multipurpose projects (e.g..",
+     "self_check": true
     }
    ]
   }

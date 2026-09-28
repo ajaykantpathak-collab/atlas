@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_07_004",
+   "title": "c12_soc_cbse_07_004",
+   "questions": [
+    {
+     "q": "A student defines the 'population' for a study on \"middle-class women's attitudes towards remote work\" as \"all women in India.\" What is the fundamental error in this definition?",
+     "a": "The population must be specific to the research question: \"middle-class women\" (not all women) and likely restricted to a geographic area (e.g., urban India) where remote work is relevant. The error is over-generalising the population, making sampling impossible and findings ungeneralisable. A wrong answer reveals the student confuses 'population' in the statistical sense (the specific group studied) with the everyday meaning (entire country's people).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a researcher studying \"the experience of transgender students in elite private schools\" would likely choose purposive sampling over simple random sampling, even if a complete list of all students in those schools were available.",
+     "a": "Purposive sampling deliberately selects information-rich cases (transgender students) who can provide deep insight into the specific phenomenon. Simple random sampling would waste resources on the vast majority of cisgender students who cannot answer the research question. A wrong answer (e.g., \"random is always better\") reveals the student thinks probability sampling is universally superior, not understanding that qualitative research prioritises depth and relevance over statistical representativeness.",
+     "self_check": true
+    },
+    {
+     "q": "You are designing a survey on \"household water consumption patterns in a village of 1,200 households.\" You have a complete voter list. You want 95% confidence level and 5% margin of error. Calculate the minimum sample size required using the simplified formula for finite populations. Show steps.",
+     "a": "Step 1: Formula for finite population: n = (Z² * p * q * N) / (e² * (N-1) + Z² * p * q). Step 2: Z=1.96 (95% CI), p=0.5 (max variability), q=0.5, e=0.05, N=1200. Step 3: Numerator = (1.96² * 0.25 * 1200) = 1152.48. Denominator = (0.05² * 1199) + (1.96² * 0.25) = 2.9975 + 0.9604 = 3.9579. Step 4: n = 1152.48 / 3.9579 ≈ 291.2 → 292 households. A wrong answer (e.g., using infinite population formula n=384) reveals the student ignores the finite population correction, over-sampling unnecessarily.",
+     "self_check": true
+    },
+    {
+     "q": "Compare stratified random sampling and cluster sampling for a study on \"caste-based occupational segregation in a district with 500 villages.\" Identify one key advantage and one key limitation of each method for this specific study.",
+     "a": "Stratified random sampling: Advantage — ensures proportional representation of all caste groups (strata) across the district, allowing precise caste-wise comparisons. Limitation — requires a complete, accurate caste-wise sampling frame for the entire district, which may be unavailable or politically sensitive. Cluster sampling: Advantage — only need a list of villages (clusters), then sample households within selected villages; logistically feasible and cheaper. Limitation — higher sampling error if caste composition varies greatly between villages (clusters are heterogeneous internally but homogeneous between each other on caste), reducing precision for caste-level estimates. A wrong answer reveals confusion about when strata vs. clusters are homogeneous/heterogeneous.",
+     "self_check": true
+    },
+    {
+     "q": "A student proposes using \"convenience sampling at a metro station\" for a survey on \"urban commuters' satisfaction with public transport.\" Critique this design. Is it ever defensible? If so, under what conditions?",
+     "a": "Convenience sampling at one metro station introduces severe selection bias: it excludes bus/auto users, non-commuters, off-peak travelers, and those who avoid that station. Findings cannot be generalised to all urban commuters. It is defensible ONLY for exploratory/pilot phases (e.g., testing questionnaire wording) or when the research question explicitly studies \"metro users at Station X during morning peak.\" A wrong answer (e.g., \"it's fine because it's easy\") reveals the student conflates convenience with representativeness and ignores the sampling frame's alignment with the target population.",
+     "self_check": true
+    },
+    {
+     "q": "Design a sampling strategy for a mixed-methods project on \"the impact of digital payment apps on street vendors' livelihoods in a tier-2 city.\" Specify: (a) quantitative phase sampling method and justification, (b) qualitative phase sampling method and justification, (c) how the two samples will relate (e.g., nested, parallel).",
+     "a": "(a) Quantitative: Stratified random sampling of registered street vendors (strata: food/non-food, licensed/unlicensed, location zones) using municipal license list as frame. Ensures representativeness for statistical generalisation. (b) Qualitative: Purposive maximum-variation sampling from survey respondents — select vendors with high/low digital adoption, different ages, genders, caste backgrounds — to explore diverse experiences in depth. (c) Nested design: Qualitative sample drawn from quantitative respondents, allowing follow-up interviews to explain survey patterns. A poor answer uses the same method for both phases or ignores the need for a sampling frame in the quantitative phase.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sampling in sociological fieldwork is the systematic process of selecting a subset (sample) of individuals, households, or units from a larger population (universe) to study, such that the sample accurately represents the population's relevant ______, enabling valid generalisations from the findings.",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to study \"How do daily-wage construction workers in your city perceive the new labour codes?\" You cannot interview every worker — that's your ______.",
+     "a": "population",
+     "self_check": true
+    },
+    {
+     "q": "What is Sampling in sociological fieldwork? State the definition given in this lesson.",
+     "a": "Sampling in sociological fieldwork is the systematic process of selecting a subset (sample) of individuals, households, or units from a larger population (universe) to study, such that the sample accurately represents the population's relevant characteristics, enabling valid generalisations from the findings.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Sampling in sociological fieldwork?",
+     "a": "Students often believe \"larger sample size always means better research.\" They write: \"I will survey 500 people instead of 100 to make my project more scientific.\" This is wrong because: (1) A biased sample of 500 (e.g., only friends on WhatsApp) is worse than a well-designed probability sample of 100.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Define the study population and sampling frame for a given research question, (2) Choose between probability and non-probability sampling methods with justification based on the research design, resources, and access constraints, and (3) Calculate the required sample size for a simple random sample given a margin of.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

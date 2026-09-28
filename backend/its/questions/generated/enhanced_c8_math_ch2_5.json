@@ -34,6 +34,26 @@
      "q": "Create a real-life problem (using Indian context: rupees, population, distance) where expressing a large number in standard form makes the problem easier to solve or compare. Write the problem and show the standard form conversion.",
      "a": "Example: \"India's population is about 1,40,00,00,000. The world population is about 8,00,00,00,000. Write both in standard form and find how many times larger the world population is.\" Good answer: India = \\( 1.4 \\times 10^9 \\), World = \\( 8 \\times 10^9 \\). Ratio = \\( 8 / 1.4 \\approx 5.7 \\). A poor answer uses numbers that don't require standard form (e.g., 5000) or fails to show the conversion steps, indicating they don't see the utility of the notation for comparison of magnitudes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Expressing a number in ______ form means writing it as a base raised to an exponent (power), where the base is multiplied by itself the number of times indicated by the exponent.",
+     "a": "exponential",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine the ______ from Delhi to Mumbai is about 1,400 km.",
+     "a": "distance",
+     "self_check": true
+    },
+    {
+     "q": "What is Expressing a number in exponential form? State the definition given in this lesson.",
+     "a": "Expressing a number in exponential form means writing it as a base raised to an exponent (power), where the base is multiplied by itself the number of times indicated by the exponent.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Expressing a number in exponential form?",
+     "a": "Students treat the exponent as a \"zero counter\" only for base 10.",
+     "self_check": true
     }
    ]
   }

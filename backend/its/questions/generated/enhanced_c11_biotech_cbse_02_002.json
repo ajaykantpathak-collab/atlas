@@ -34,6 +34,26 @@
      "q": "Design a hypothetical experiment using fluorescent recovery after photobleaching (FRAP) to test whether a newly discovered membrane protein (Protein X) is integral or peripheral. Describe the expected fluorescence recovery curve for each case.",
      "a": "Label Protein X with GFP. Bleach a small membrane region with laser. Monitor fluorescence recovery over time. **Integral protein**: Slow, incomplete recovery (limited lateral diffusion in bilayer). **Peripheral protein**: Rapid, complete recovery (freely diffusing on membrane surface, or cytosolic exchange). A poor answer suggesting \"no recovery for integral, full recovery for peripheral\" oversimplifies—integral proteins *do* diffuse laterally (fluid mosaic), just slower. The key is diffusion coefficient difference (D ~ 10⁻¹⁰ cm²/s for integral vs 10⁻⁸ cm²/s for peripheral).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Fluid Mosaic Model describes the plasma membrane as a dynamic, quasi-fluid ______ bilayer in which globular proteins are embedded like a mosaic, with lipids and proteins capable of lateral diffusion within the plane of the membrane, while the hydrophobic core restricts transverse movement.",
+     "a": "phospholipid",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a security guard at a high-tech ______ facility in Bangalore.",
+     "a": "research",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) draw and label a schematic diagram of the fluid mosaic model showing phospholipid bilayer, integral/peripheral proteins, cholesterol, glycolipids, and glycoproteins with correct orientation; (2) explain how membrane fluidity is regulated by temperature, cholesterol content, and fatty acid saturation; (3).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a security guard at a high-tech research facility in ______.",
+     "a": "Bangalore",
+     "self_check": true
     }
    ]
   }

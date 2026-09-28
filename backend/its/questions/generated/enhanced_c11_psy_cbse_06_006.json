@@ -34,6 +34,36 @@
      "q": "Create an original real-life scenario (Indian context, ≤100 words) that simultaneously illustrates **all three causes of forgetting** — trace decay, interference, and retrieval failure — for the same learned material. Label each cause in your scenario.",
      "a": "*Scenario:* Riya learns 20 Constitution articles (Article 14–33) for her Polity exam on **Monday night**. (1) **Trace decay**: By **Thursday**, without review, the neural traces for Articles 25–33 have faded — she recalls only the first few. (2) **Interference**: On **Tuesday**, she studies 20 *new* Articles (34–53); on **Wednesday**, when she tries to recall Articles 14–33, the newer Articles 34–53 intrude (*retroactive interference*). (3) **Retrieval failure**: On exam day, she blanks on Article 21 — but when the invigilator whispers \"Right to Life,\" she instantly recalls the full article (*cue-dependent retrieval*). A poor answer treats these as separate events for different materials, missing that they co-occur for the *same* memory trace.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Forgetting is the inability to retrieve previously stored information from long-term memory when needed, ______ by Ebbinghaus's forgetting curve which shows a rapid initial decline in retention (maximum loss within the first hour, ~50-60% forgotten) followed by a gradual, asymptotic decay over days; the three primary causes are trace decay (neural memory traces fading from disuse), interference (proactive: prior learning blocks new recall; retroactive: new learning blocks prior recall), and retrieval failure (absence or inappropriateness of cues needed to access intact memory traces).",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you cram 20 ______ definitions the night before your exam, walk in feeling confident, but stare blankly at the first question — where did those definitions go?",
+     "a": "biology",
+     "self_check": true
+    },
+    {
+     "q": "What is Forgetting? State the definition given in this lesson.",
+     "a": "Forgetting is the inability to retrieve previously stored information from long-term memory when needed, characterized by Ebbinghaus's forgetting curve which shows a rapid initial decline in retention (maximum loss within the first hour, ~50-60% forgotten) followed by a gradual, asymptotic decay over days; the three primary causes are.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you cram ______ biology definitions the night before your exam, walk in feeling confident, but stare blankly at the first question — where did those definitions go?",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) sketch and label Ebbinghaus's forgetting curve with correct axes (time since learning vs. amount retained/forgotten) and describe its two-phase pattern; (2) distinguish between trace decay, proactive interference, retroactive interference, and retrieval failure using original examples; (3) design a.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Forgetting is the inability to retrieve previously stored information from long-term memory when needed, characterized by Ebbinghaus's forgetting curve which shows a rapid initial decline in retention (maximum loss within the first hour, ~50-60% forgotten) followed by a gradual, asymptotic decay over days; the three primary causes are trace decay (neural memory traces fading from disuse), interference (proactive: prior learning blocks new recall; retroactive: new learning blocks prior recall), and retrieval failure (absence or ______ of cues needed to access intact memory traces).",
+     "a": "inappropriateness",
+     "self_check": true
     }
    ]
   }

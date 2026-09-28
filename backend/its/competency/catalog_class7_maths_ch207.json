@@ -20,7 +20,7 @@
     "evaluate LHS and RHS at x = {val} to test the solution",
     "is {val} the root of the equation {a}x + {b} = {c}"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,16 @@
      "action": "compare LHS result with RHS",
      "explain": "if LHS matches RHS, the value is a valid solution, otherwise it is not"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the congruence condition and angle sums",
+     "explain": "use the congruence condition and angle sums: third = 180 - 64 - 31 gives 85",
+     "compute": "third = 180 - 64 - 31"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.7.2.1",
@@ -221,7 +230,7 @@
     "evaluate solution steps and provide correct value of unknown",
     "check if student derivation for {a}x + {b} = {c} is correct"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -238,7 +247,16 @@
      "action": "state correct transformation and solve",
      "explain": "re-evaluate from error point to reach valid solution"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the congruence condition and angle sums",
+     "explain": "use the congruence condition and angle sums: third = 180 - 53 - 40 gives 87",
+     "compute": "third = 180 - 53 - 40"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.7.4.1",

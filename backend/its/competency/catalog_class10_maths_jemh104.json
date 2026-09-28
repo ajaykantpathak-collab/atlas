@@ -22,15 +22,33 @@
     "verify that x = 2 satisfies the given equation",
     "find the value of k for which x is a root"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "reduce to standard form",
-     "explain": "Bring all terms to one side as ax squared + bx + c = 0."},
-    {"step": 2, "action": "substitute the candidate root",
-     "explain": "Replace x by the value and simplify both sides."},
-    {"step": 3, "action": "declare the verdict",
-     "explain": "Zero on satisfaction makes the value a root; otherwise not."}
-   ]
+    {
+     "step": 1,
+     "action": "reduce to standard form",
+     "explain": "Bring all terms to one side as ax squared + bx + c = 0."
+    },
+    {
+     "step": 2,
+     "action": "substitute the candidate root",
+     "explain": "Replace x by the value and simplify both sides."
+    },
+    {
+     "step": 3,
+     "action": "declare the verdict",
+     "explain": "Zero on satisfaction makes the value a root; otherwise not."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the exponent law to the given powers",
+     "explain": "apply the exponent law to the given powers: val = 5 ** (2 + 2) gives 625",
+     "compute": "val = 5 ** (2 + 2)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.104.4.2",
@@ -48,15 +66,33 @@
     "find the roots of the given equation and verify",
     "which roots does the factorised equation give"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "factorise the quadratic",
-     "explain": "Split the middle term or factor by inspection."},
-    {"step": 2, "action": "set each factor to zero",
-     "explain": "The zero-product rule gives two linear equations."},
-    {"step": 3, "action": "state both roots",
-     "explain": "The two solutions together answer the equation."}
-   ]
+    {
+     "step": 1,
+     "action": "factorise the quadratic",
+     "explain": "Split the middle term or factor by inspection."
+    },
+    {
+     "step": 2,
+     "action": "set each factor to zero",
+     "explain": "The zero-product rule gives two linear equations."
+    },
+    {
+     "step": 3,
+     "action": "state both roots",
+     "explain": "The two solutions together answer the equation."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "evaluate the polynomial or use the root relations",
+     "explain": "evaluate the polynomial or use the root relations: val = 5 * 5 * 5 + 3 * 5 + 6 gives 146",
+     "compute": "val = 5 * 5 * 5 + 3 * 5 + 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "jemh.104.4.3",
@@ -76,12 +112,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "square the middle coefficient",
+    {
+     "step": 1,
+     "action": "square the middle coefficient",
      "explain": "Compute b squared.",
-     "compute": "b_sq = b * b"},
-    {"step": 2, "action": "subtract four a c",
+     "compute": "b_sq = b * b"
+    },
+    {
+     "step": 2,
+     "action": "subtract four a c",
      "explain": "The difference is the discriminant D.",
-     "compute": "disc = b_sq - 4 * a * c"}
+     "compute": "disc = b_sq - 4 * a * c"
+    }
    ]
   },
   {
@@ -100,15 +142,33 @@
     "find the two parts of the given number satisfying the condition",
     "use the formula when factorisation is difficult"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "identify a, b, c",
-     "explain": "Read the coefficients from the standard form."},
-    {"step": 2, "action": "apply the formula",
-     "explain": "Substitute in x = (-b plus or minus root of (b squared - 4ac)) over 2a."},
-    {"step": 3, "action": "choose the valid roots",
-     "explain": "Discard roots that violate the situation's conditions."}
-   ]
+    {
+     "step": 1,
+     "action": "identify a, b, c",
+     "explain": "Read the coefficients from the standard form."
+    },
+    {
+     "step": 2,
+     "action": "apply the formula",
+     "explain": "Substitute in x = (-b plus or minus root of (b squared - 4ac)) over 2a."
+    },
+    {
+     "step": 3,
+     "action": "choose the valid roots",
+     "explain": "Discard roots that violate the situation's conditions."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "evaluate the polynomial or use the root relations",
+     "explain": "evaluate the polynomial or use the root relations: val = 2 * 5 * 5 + 4 * 5 + 4 gives 74",
+     "compute": "val = 2 * 5 * 5 + 4 * 5 + 4"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -124,12 +184,18 @@
     "c": "constant term"
    },
    "solution_template": [
-    {"step": 1, "action": "square the middle coefficient",
+    {
+     "step": 1,
+     "action": "square the middle coefficient",
      "explain": "Compute b squared.",
-     "compute": "b_sq = b * b"},
-    {"step": 2, "action": "subtract 4ac",
+     "compute": "b_sq = b * b"
+    },
+    {
+     "step": 2,
+     "action": "subtract 4ac",
      "explain": "The result is the discriminant.",
-     "compute": "disc = b_sq - 4 * a * c"}
+     "compute": "disc = b_sq - 4 * a * c"
+    }
    ]
   },
   {
@@ -144,12 +210,18 @@
     "c": "constant term"
    },
    "solution_template": [
-    {"step": 1, "action": "compute b squared",
+    {
+     "step": 1,
+     "action": "compute b squared",
      "explain": "Square the linear coefficient.",
-     "compute": "b_sq = b * b"},
-    {"step": 2, "action": "compute 4ac and subtract",
+     "compute": "b_sq = b * b"
+    },
+    {
+     "step": 2,
+     "action": "compute 4ac and subtract",
      "explain": "The discriminant decides the number of real roots.",
-     "compute": "disc = b_sq - 4 * a * c"}
+     "compute": "disc = b_sq - 4 * a * c"
+    }
    ]
   }
  ],
@@ -158,18 +230,18 @@
    "id": "ex4.1",
    "source_ref": "jemh104.txt EXERCISE 4.1-4.2",
    "questions": [
-     "Check whether the given values are roots of the given equations.",
-     "Represent the given situations as quadratic equations.",
-     "Find the roots of the given equations by factorisation."
+    "Check whether the given values are roots of the given equations.",
+    "Represent the given situations as quadratic equations.",
+    "Find the roots of the given equations by factorisation."
    ]
   },
   {
    "id": "ex4.2",
    "source_ref": "jemh104.txt EXERCISE 4.3-4.4",
    "questions": [
-     "Find the nature of the roots of the given equations.",
-     "Find the value of k for which the roots are equal.",
-     "Solve the given word problems using quadratic equations."
+    "Find the nature of the roots of the given equations.",
+    "Find the value of k for which the roots are equal.",
+    "Solve the given word problems using quadratic equations."
    ]
   }
  ]

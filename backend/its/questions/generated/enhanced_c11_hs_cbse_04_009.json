@@ -34,6 +34,26 @@
      "q": "Design a one-page \"Management Cycle Template\" that a Class 11 student could reuse for any personal goal (exam prep, event planning, saving money). The template must have labelled sections for all five stages (including Planning from the previous node) with prompts that force quantitative targets, resource lists, control checkpoints, and evaluative metrics.",
      "a": "A good template includes: **Planning** – Goal (SMART), Present Status, Gap, Alternatives, Chosen Plan. **Organising** – Resource Table (Human: time blocks, energy peaks, skills; Non-human: money, materials, space) with quantity & source. **Implementing** – Day/Week Schedule with tasks, duration, responsible person. **Controlling** – Checkpoint Calendar (date, metric, target, actual, deviation, corrective action). **Evaluation** – Results Table (target vs. actual per sub-goal), Strengths (evidence), Limitations (evidence), Three Specific Improvements for Next Cycle. A poor template uses vague headings (\"Do it,\" \"Check it\") without prompting numbers, evidence, or linkage between stages, revealing the student sees the process as linear checkboxes rather than an integrated cycle.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The management process is a systematic, cyclic sequence of five ______ stages—Planning, Organising, Implementing, Controlling, and Evaluation—through which individuals or families allocate finite human and non-human resources to achieve specific goals; Organising structures resources into actionable units, Implementing executes the plan, Controlling monitors deviations and applies corrective feedback, and Evaluation judges final outcomes against predetermined standards to inform future cycles.",
+     "a": "interdependent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have exactly three weeks before your Class 11 final exams and you still have five chapters of Physics, four of ______, and three of Biology left to revise—you feel overwhelmed and don't know where to start.",
+     "a": "Chemistry",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Given a real-life household or personal goal (e.g., organizing a family function, preparing for board exams), the student must independently construct a complete management cycle: write a plan with measurable targets, list and assign specific resources for organising, draft a day-wise implementation schedule, define at least two.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have exactly three weeks before your Class 11 final exams and you still have five chapters of Physics, four of Chemistry, and three of Biology left to revise—you feel ______ and don't know where to start.",
+     "a": "overwhelmed",
+     "self_check": true
     }
    ]
   }

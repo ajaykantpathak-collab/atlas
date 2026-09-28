@@ -1,0 +1,119 @@
+{
+ "catalog": "catalog_class12_economics_leec204.json",
+ "concepts": [
+  {
+   "id": "leec.204.1.2",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "market_price = 108",
+      "quantity_sold = 70",
+      "total_revenue = market_price * quantity_sold"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "market_price = 72",
+      "quantity_sold = 60",
+      "total_revenue = market_price * quantity_sold"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "market_price = 119",
+      "quantity_sold = 42",
+      "total_revenue = market_price * quantity_sold"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "market_price = 96",
+      "quantity_sold = 7",
+      "total_revenue = market_price * quantity_sold"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "market_price = 14.3",
+      "quantity_sold = 44",
+      "total_revenue = market_price * quantity_sold"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "market_price = 36",
+      "quantity_sold = 26",
+      "total_revenue = market_price * quantity_sold"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "total_revenue = market_price * quantity_sold"
+   ]
+  },
+  {
+   "id": "leec.204.2.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total_revenue = 98",
+      "total_cost = 12.6",
+      "profit = total_revenue - total_cost"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total_revenue = 14.6",
+      "total_cost = 97",
+      "profit = total_revenue - total_cost"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_revenue = 4.6",
+      "total_cost = 52",
+      "profit = total_revenue - total_cost"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total_revenue = 26",
+      "total_cost = 46",
+      "profit = total_revenue - total_cost"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "total_revenue = 65",
+      "total_cost = 45",
+      "profit = total_revenue - total_cost"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total_revenue = 37",
+      "total_cost = 58",
+      "profit = total_revenue - total_cost"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "profit = total_revenue - total_cost"
+   ]
+  }
+ ]
+}

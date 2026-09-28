@@ -34,6 +34,26 @@
      "q": "Design a hypothetical startup that intentionally operates in ALL FOUR models (B2B, B2C, Intra-B, C2C) from day one. Describe one specific transaction for each model, naming the parties and the platform/network used.",
      "a": "Example: \"AgriConnect\" — a platform for farmers and buyers. (B2B) Farmer cooperative sells bulk grain to food processor via AgriConnect's wholesale portal (internet). (B2C) Urban consumer buys farm-fresh veggie box via AgriConnect retail app (internet). (Intra-B) AgriConnect's logistics team uses intranet dashboard to reroute delivery trucks based on real-time warehouse stock (intranet). (C2C) Home gardener sells surplus tomatoes to neighbor via AgriConnect's \"Local Harvest\" community board with UPI escrow (internet platform). A poor answer lists four separate businesses or misses the network distinction (intranet for Intra-B).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The scope of e-business is classified by the nature of transacting parties into four models: B2B (business-to-business) where both parties are firms exchanging inputs, services, or distribution; B2C (business-to-consumer) where firms sell directly to end-users including pre-sale marketing and post-sale service; Intra-B (intra-business) where electronic networks coordinate internal departments, processes, and employees via intranet; and C2C (consumer-to-consumer) where individuals trade directly via platforms that provide trust mechanisms like ratings and payment ______.",
+     "a": "intermediaries",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you order a customised laptop from Dell's website (B2C), but Dell's procurement system automatically places orders with Intel for processors and Samsung for screens (B2B), while Dell's design team in Bangalore collaborates with ______ in Chennai via their intranet (Intra-B), and later you sell your old laptop to another student on OLX (C2C).",
+     "a": "manufacturing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify a given real-world transaction scenario into B2B, B2C, Intra-B, or C2C, justify the classification by identifying the transacting parties and the network used (internet vs intranet), and explain why a single firm may simultaneously operate in multiple models.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you order a customised laptop from Dell's website (B2C), but Dell's procurement system ______ places orders with Intel for processors and Samsung for screens (B2B), while Dell's design team in Bangalore collaborates with manufacturing in Chennai via their intranet (Intra-B), and later you sell your old laptop to another student on OLX (C2C).",
+     "a": "automatically",
+     "self_check": true
     }
    ]
   }

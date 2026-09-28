@@ -85,9 +85,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "circ = 2 * 22 / 7 * 77"
-   ]
+   "steps_chain": []
   },
   {
    "id": "gegp.2.2.1",
@@ -173,9 +171,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 3 * 3 + 8"
-   ]
+   "steps_chain": []
   },
   {
    "id": "gegp.2.2.3",
@@ -218,9 +214,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = -12 + (10)"
-   ]
+   "steps_chain": []
   },
   {
    "id": "gegp.2.2.4",
@@ -263,9 +257,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "total = -15 + (-3)"
-   ]
+   "steps_chain": []
   },
   {
    "id": "gegp.2.2.5",

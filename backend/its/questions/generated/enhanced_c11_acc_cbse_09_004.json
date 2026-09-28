@@ -34,6 +34,36 @@
      "q": "Create a realistic scenario for a small Indian business (e.g., a tuition centre, a rental property owner, or a freelance consultant) where BOTH Accrued Income and Income Received in Advance exist simultaneously at year-end. Write the additional information notes as they would appear in a CBSE exam question, then show the complete adjustment entries and P&L/Balance Sheet treatment.",
      "a": "Scenario: \"Meera's Tuition Centre\" (Year-end March 31, 2024).\nAdditional Information:\n(i) Tuition fees for March 2024 ₹15,000 are still receivable from 3 students.\n(ii) Quarterly fees for April-June 2024 ₹18,000 received in advance on March 28, 2024 and credited to Fees Received A/c.\nAdjustment Entries:\n1. Accrued Fees A/c Dr. 15,000 To Fees Received A/c 15,000\n2. Fees Received A/c Dr. 18,000 To Fees Received in Advance A/c 18,000\nP&L: Fees Received = Trial Balance amount + 15,000 – 18,000\nBalance Sheet: Accrued Fees ₹15,000 (Current Asset); Fees Received in Advance ₹18,000 (Current Liability).\nA poor answer (missing one adjustment, wrong signs, or incorrect P&L amount) reveals the student cannot **handle simultaneous opposing adjustments** — they treat each in isolation but fail when both appear together. This shows they memorise procedures without understanding the **net effect on revenue recognition**.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Accrued Income refers to revenue earned during the current ______ period but not yet received in cash by the end of that period, requiring an adjusting entry to recognise the asset (Accrued Income A/c Dr. to Income A/c).",
+     "a": "accounting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: On March 31st (year-end), you have taught classes for March but the students will pay fees in April — this is ______ Income (you earned it, cash comes later).",
+     "a": "Accrued",
+     "self_check": true
+    },
+    {
+     "q": "What is Accrued Income? State the definition given in this lesson.",
+     "a": "Accrued Income refers to revenue earned during the current accounting period but not yet received in cash by the end of that period, requiring an adjusting entry to recognise the asset (Accrued Income A/c Dr. to Income A/c).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: On March ______st (year-end), you have taught classes for March but the students will pay fees in April — this is Accrued Income (you earned it, cash comes later).",
+     "a": "31",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Accrued Income?",
+     "a": "Students consistently reverse the journal entries: For Accrued Income, they debit the Income Account and credit Accrued Income Account (treating it like a liability).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Identify from a trial balance and additional information whether an income item is accrued or received in advance, (2) Pass the correct adjusting journal entries for both types, (3) Show the correct treatment in Trading and Profit & Loss Account (add to income for accrued, deduct from income for advance).",
+     "self_check": true
     }
    ]
   }

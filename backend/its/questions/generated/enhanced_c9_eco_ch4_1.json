@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_eco_ch4_1",
+ "concepts": [
+  {
+   "id": "enh:c9_eco_ch4_1",
+   "title": "c9_eco_ch4_1",
+   "questions": [
+    {
+     "q": "Define 'disposable income' in your own words and give one example of a deduction that converts gross income to disposable income for a salaried person.",
+     "a": "Disposable income is the money left after paying direct taxes (like income tax) — it's what you can actually spend or save. Example: If gross salary is ₹50,000 and TDS (tax deducted at source) is ₹5,000, disposable income = ₹45,000. A wrong answer (e.g., \"money left after rent\") reveals the student confuses *disposable income* (after tax) with *discretionary income* (after essential expenses) — a critical distinction for budgeting.",
+     "self_check": true
+    },
+    {
+     "q": "Priya budgets ₹3,000 for 'food' but spends ₹3,800. She says, \"Food is a need, so it's okay to overspend.\" Explain why this reasoning is flawed using the concept of 'budget constraint'.",
+     "a": "A budget constraint means total spending cannot exceed total income. Even needs have limits — if Priya overspends on food by ₹800, she *must* reduce ₹800 from another category (savings, transport, entertainment) or borrow. Saying \"it's a need\" ignores that *every* choice has an opportunity cost. A wrong answer reveals the student thinks 'needs' are unlimited claims on income, not scarce resources requiring trade-offs.",
+     "self_check": true
+    },
+    {
+     "q": "Arjun earns ₹25,000/month. His fixed expenses: Rent ₹8,000, EMI ₹3,000, Insurance ₹1,500. Variable expenses (avg): Groceries ₹4,000, Transport ₹2,000, Entertainment ₹2,500. He saves the rest. Calculate his savings rate (% of income saved). Show steps.",
+     "a": "Step 1: Total fixed = 8,000 + 3,000 + 1,500 = ₹12,500. Step 2: Total variable = 4,000 + 2,000 + 2,500 = ₹8,500. Step 3: Total expenses = 12,500 + 8,500 = ₹21,000. Step 4: Savings = 25,000 – 21,000 = ₹4,000. Step 5: Savings rate = (4,000 / 25,000) × 100 = **16%**. A wrong answer (e.g., 20%) usually means the student forgot to include fixed expenses or miscalculated variable totals — showing weak arithmetic tracking, not concept gap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare two budgeting approaches: (A) \"Save whatever is left after spending\" vs. (B) \"Pay yourself first: save a fixed % of income immediately, then spend the rest.\" Analyze which builds wealth faster and why, using the concept of 'behavioral friction'.",
+     "a": "Approach B builds wealth faster. In A, savings = Income – Expenses. Since expenses expand to fill available money (Parkinson's Law), savings become residual and often zero. In B, savings are automated (e.g., SIP, recurring deposit), removing the *behavioral friction* of deciding to save each month. The student who says \"both are same if discipline is equal\" misses that budgeting is about *designing systems that work despite low discipline* — a core insight from behavioral economics.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"A household earning ₹1 lakh/month should follow the 50-30-20 rule strictly.\" Consider a family with a chronic illness (high medical costs) and another with zero rent (owns house). Is the rule universally applicable? Justify.",
+     "a": "No, the 50-30-20 rule is a *heuristic*, not a law. Family with high medical costs may need 70% on needs (medical = need), forcing savings below 20% — that's rational, not failure. Family with zero rent may spend 30% on needs, freeing 40% for savings/investment — they *should* exceed 20% savings. Rigid application ignores *contextual constraints* and *opportunity cost of undersaving*. A student calling it \"universal\" shows rule-following without economic reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "Create a monthly budget for a fictional Class 9 student, 'Aman', who gets ₹2,000 pocket money and earns ₹500 helping at his uncle's shop. He wants to save for a ₹3,000 cricket kit in 4 months. Show income, 3 expense categories (needs/wants), savings target, and explain one trade-off he must make.",
+     "a": "Income: ₹2,500. Target savings: ₹750/month (₹3,000 ÷ 4). Budget: Needs (transport, stationery) ₹800, Wants (snacks, games) ₹600, Savings ₹750, Buffer/Unexpected ₹350. Trade-off: If Aman spends ₹1,000 on wants, he saves only ₹350 → kit in 8.5 months, not 4. A good answer shows *quantified trade-off* and acknowledges the buffer. A poor answer lists categories but doesn't balance to ₹2,500 or ignores the time-bound goal — showing no grasp of budgeting as *constraint satisfaction*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

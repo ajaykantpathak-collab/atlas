@@ -34,6 +34,36 @@
      "q": "Design a Level 1 + Level 2 combined work simplification plan for \"washing and storing school uniforms for a family of three children\" that reduces total time by at least 20% without changing the end product (clean, pressed uniforms). List specific changes at each level.",
      "a": "Level 1: (a) Sort all uniforms together before washing (one sorting motion vs three), (b) Hang uniforms directly on hangers from the line (eliminates folding + re-hanging), (c) Use a two-bucket system (wash/rinse) to avoid refilling. Level 2: (a) Install a wall-mounted drying rack at standing height near the washing area (eliminates bending to low line), (b) Use a mesh laundry bag for socks/small items (prevents loss, eliminates sorting post-wash), (c) Place ironing board and iron storage at the uniform hanging zone (eliminates carrying). A poor answer that suggests \"buy a washing machine\" only addresses Level 2 and ignores the no-product-change constraint — it also assumes budget availability, which Level 1 changes don't require.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Work ______ is the conscious seeking of the simplest, easiest, and quickest method of performing a task by properly blending and managing time and human energy to accomplish more work with given resources or reduce the resources needed for a given amount of work.",
+     "a": "simplification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your mother prepare dinner after a long school day — you notice she makes five ______ trips to the pantry for spices, washes each vegetable individually under running water, and then spends 20 minutes wiping each dish by hand before putting them away.",
+     "a": "separate",
+     "self_check": true
+    },
+    {
+     "q": "What is Work simplification? State the definition given in this lesson.",
+     "a": "Work simplification is the conscious seeking of the simplest, easiest, and quickest method of performing a task by properly blending and managing time and human energy to accomplish more work with given resources or reduce the resources needed for a given amount of work.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your mother prepare dinner after a long school day — you notice she makes five separate trips to the pantry for spices, washes each vegetable individually under running water, and then spends ______ minutes wiping each dish by hand before putting them away.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Work simplification?",
+     "a": "Students believe the three levels must be applied in sequence (Level 1 first, then 2, then 3) and that Level 3 is \"better\" because it involves innovation.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify any given work improvement strategy into one of the three levels of change (hand/body motions, workspace/equipment, end product) and justify the classification with specific reasoning.",
+     "self_check": true
     }
    ]
   }

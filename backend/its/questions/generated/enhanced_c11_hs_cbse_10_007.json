@@ -34,6 +34,31 @@
      "q": "Design a modified single-sheet record format for a Class 11 student living in a hostel with these expense categories: Mess fees, Canteen/snacks, Stationery, Transport, Personal care, Entertainment, Emergency fund. Your format must include columns that enable the control functions described in the textbook: checking progress, comparing with plan, and deciding adjustments.",
      "a": "A good format includes: Category | Monthly Allocated (₹) | Weekly Target (₹) | Cumulative Spent (₹) | Variance (₹) | % of Allocation Used | Action Required. Rows for each category plus Total. The \"Weekly Target\" column enables mental checks (visualizing weekly limits). \"Cumulative Spent\" enables mechanical checks (tracking actual outflow). \"Variance\" and \"% Used\" enable comparison with plan. \"Action Required\" forces adjustment decisions (e.g., \"Canteen 80% used by Week 3 → stop snack purchases\"). A poor answer with only Allocated and Spent columns shows inability to synthesize control concepts into a practical tool — the student sees recording as data entry, not as a decision-driving system.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Control in money management is the systematic process of monitoring actual ______ against budgeted allocations through checking mechanisms (mental and mechanical) and formal record-keeping, followed by timely adjustments to align spending with the financial plan and ensure goals are met.",
+     "a": "expenditure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family ______ ₹15,000 for food this month, but by the 20th you've already spent ₹14,500.",
+     "a": "budgeted",
+     "self_check": true
+    },
+    {
+     "q": "What is Control in money management? State the definition given in this lesson.",
+     "a": "Control in money management is the systematic process of monitoring actual expenditure against budgeted allocations through checking mechanisms (mental and mechanical) and formal record-keeping, followed by timely adjustments to align spending with the financial plan and ensure goals are met.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Control in money management?",
+     "a": "Students believe \"control\" means strictly preventing any overspending, so they view any budget variance as personal failure.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can design and operate a record-keeping system for a family budget, record monthly expenses across categories, compute variances between allocated and actual spending, identify specific categories requiring adjustment, and propose corrective actions that maintain solvency and savings targets.",
+     "self_check": true
     }
    ]
   }

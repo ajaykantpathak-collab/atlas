@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_03_004",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_03_004",
+   "title": "c12_leg_cbse_03_004",
+   "questions": [
+    {
+     "q": "State the exact legal distinction between a \"void agreement\" and a \"voidable contract\" under the Indian Contract Act, 1872, citing the relevant sections.",
+     "a": "A **void agreement** (Section 2(g)) is an agreement not enforceable by law from the very beginning (void ab initio) — it creates no legal rights or obligations ever. A **voidable contract** (Section 2(i)) is a contract enforceable at the option of one party (whose consent was not free) but not at the option of the other; it remains valid until rescinded. A wrong answer (e.g., \"both can be cancelled\") reveals the student confuses **legal nullity from inception** (void) with **optional rescission due to defective consent** (voidable) — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why an agreement to sell a car for ₹1 (one rupee) between a father and son, registered in writing out of natural love and affection, is a valid contract despite inadequate consideration.",
+     "a": "Under Section 25(1), an agreement in writing and registered, made out of natural love and affection between parties standing in a near relation, is enforceable **even without consideration**. The inadequacy of consideration (₹1 vs market value) is irrelevant because the statute expressly exempts such agreements from the consideration requirement. A wrong answer (e.g., \"consideration must be adequate\") reveals the student misses the **statutory exception** and applies the general rule (\"consideration need not be adequate but must be real\") mechanically — failing to spot the \"natural love and affection\" carve-out.",
+     "self_check": true
+    },
+    {
+     "q": "A (major) offers to sell his watch to B (minor, aged 17) for ₹5,000. B accepts and pays ₹5,000. A delivers the watch. Two months later, B discovers the watch is defective and wants to cancel the contract and get a refund. Can B do so? Apply the law of minor's agreement.",
+     "a": "**No, B cannot cancel and get a refund.** A minor's agreement is **void ab initio** (Mohori Bibee v. Dharmodas Ghose). Since the contract is void from the beginning, B (minor) never had a valid contract to \"cancel\" — there is no contract to rescind. However, B **can** recover the ₹5,000 under **Section 65 (restitution)** or **Section 33 (compensation for non-performance of void agreement)** if A (major) benefited. But B cannot \"avoid the contract\" because it was never valid. A wrong answer (e.g., \"B can avoid as voidable\") reveals the student confuses **void ab initio** (minor's agreement) with **voidable** (coercion/undue influence/fraud/misrepresentation) — a fatal error in board exams.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast \"contingent contract\" (Section 31) and \"wagering agreement\" (Section 30) on: (a) enforceability, (b) role of the uncertain event, (c) reciprocal promise, (d) example. Present as a 4-point table.",
+     "a": "| Basis | Contingent Contract (Sec 31) | Wagering Agreement (Sec 30) |\n|-------|-------------------------------|------------------------------|\n| (a) Enforceability | **Enforceable** if the event happens/does not happen | **Void** — not enforceable |\n| (b) Role of uncertain event | **Collateral** — event does not determine the contract's existence, only performance | **Essential** — event **decides** win/loss; no other interest |\n| (c) Reciprocal promise | **May or may not** exist | **Must exist** — it is a bet (mutual promises to pay) |\n| (d) Example | A promises to pay B ₹10,000 if B's house burns down (insurance) | A and B bet ₹5,000 on India winning a cricket match |\n\nA wrong answer (e.g., \"both are void\" or \"both depend on future event\") reveals the student fails to distinguish **collateral uncertainty** (contingent) from **core uncertainty** (wager) — a frequent JEE/CUET analytical trap.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"An agreement in restraint of trade (Section 27) is void, but an agreement in restraint of marriage (Section 26) is also void — so both are equally void. No practical difference.\" Defend or critique with legal reasoning.",
+     "a": "**Critique — the statement is legally wrong.** While both are **void** (Section 26: restraint of marriage; Section 27: restraint of trade), the **exceptions** differ critically. Section 26 has **no exceptions** — any agreement restraining marriage (even partial) is void. Section 27 has **statutory exceptions**: (1) sale of goodwill with reasonable local limits; (2) partnership dissolution restraint; (3) service agreements during employment. Also, **judicial interpretation** differs: restraint of trade is judged by \"reasonableness\" (Nordenfelt test); restraint of marriage is **per se void**. A wrong answer (e.g., \"both void, so same\") reveals the student ignores **statutory exceptions and judicial tests** — a competitive exam expects this nuance.",
+     "self_check": true
+    },
+    {
+     "q": "Create a **novel fact pattern** (not from textbook) involving a contract discharged by **supervening impossibility** (Section 56) where the impossibility arises from a **change in law** — not destruction of subject matter, death, or war. Include: parties, contract terms, the legal change, and the exact Section 56 clause triggered.",
+     "a": "**Fact Pattern:**  \nA (Indian pharma company) contracts with B (German lab) to supply 10,000 vials of a vaccine precursor **chemical X** for ₹2 crore, delivery in 6 months. The contract is valid (lawful object, consideration, consent). **Three months later**, India's Ministry of Health issues a **notification under the Drugs and Cosmetics Act, 1940** banning the import of chemical X due to new safety data. The contract becomes impossible to perform.  \n**Section 56 clause triggered:** \"Non-existence of state of things having an effect directly or indirectly on the contract\" — the legal regime permitting import ceased to exist.  \n**Result:** Contract discharged by supervening impossibility; neither party liable.  \nA poor answer (e.g., \"war breaks out\" or \"factory burns\") reveals the student only knows **physical impossibility** examples, not **legal impossibility** — a CUET/JEE favorite.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

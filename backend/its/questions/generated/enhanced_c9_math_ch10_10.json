@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_math_ch10_10",
+ "concepts": [
+  {
+   "id": "enh:c9_math_ch10_10",
+   "title": "c9_math_ch10_10",
+   "questions": [
+    {
+     "q": "State the Angle Sum Property of a triangle in your own words and write the mathematical equation for triangle ΔPQR.",
+     "a": "The sum of the three interior angles of any triangle is 180°. For ΔPQR, ∠P + ∠Q + ∠R = 180°. A wrong answer like \"360°\" or \"90°\" reveals the student is confusing triangles with quadrilaterals or right angles specifically, indicating they have memorised a number without understanding the geometric reasoning.",
+     "self_check": true
+    },
+    {
+     "q": "In the proof of the Angle Sum Property, we draw a line through one vertex parallel to the opposite side. Explain WHY this parallel line helps us prove the sum is 180°.",
+     "a": "The parallel line creates alternate interior angles equal to the two base angles of the triangle. These two angles plus the vertex angle lie on a straight line, which measures 180°. Therefore, the three interior angles of the triangle also sum to 180°. If a student says \"it makes equal angles\" without mentioning the straight line, they recall a step but miss the crucial connection: the three angles are placed on a straight line, which is why they sum to 180°.",
+     "self_check": true
+    },
+    {
+     "q": "In ΔXYZ, ∠X = 62° and ∠Y = 38°. Find ∠Z. Show your steps.",
+     "a": "Step 1: Write the angle sum property: ∠X + ∠Y + ∠Z = 180°\nStep 2: Substitute known values: 62° + 38° + ∠Z = 180°\nStep 3: Add known angles: 100° + ∠Z = 180°\nStep 4: Subtract 100° from both sides: ∠Z = 180° - 100° = 80°\nAnswer: ∠Z = 80°. A wrong answer like 100° or 280° reveals the student either forgot to subtract from 180° or added incorrectly, showing a computational error in applying the property.",
+     "self_check": true
+    },
+    {
+     "q": "Triangle ABC has angles ∠A = 2x, ∠B = 3x, and ∠C = 4x. Find the value of x and each angle. Then classify the triangle by its angles.",
+     "a": "Step 1: 2x + 3x + 4x = 180° → 9x = 180°\nStep 2: x = 20°\nStep 3: ∠A = 40°, ∠B = 60°, ∠C = 80°\nStep 4: All angles < 90°, so it is an acute-angled triangle.\nA wrong classification (e.g., \"obtuse\" or \"right\") reveals the student cannot connect the calculated angle measures to triangle classification definitions, indicating a gap in synthesising multiple concepts.",
+     "self_check": true
+    },
+    {
+     "q": "A student solves this problem: \"In ΔDEF, ∠D = 70°, ∠E = 50°. Find ∠F.\" Their working: 70 + 50 = 120. 180 - 120 = 60. ∠F = 60°. Is this correct? If yes, explain why the method works. If no, find the error.",
+     "a": "Yes, the solution is correct. The student correctly applied the angle sum property: ∠D + ∠E + ∠F = 180° → 70° + 50° + ∠F = 180° → ∠F = 60°. The method works because the three interior angles of any triangle always sum to 180°. If a student says \"it's wrong because they didn't draw a diagram,\" they are evaluating based on presentation, not mathematical validity — revealing a misconception that diagrams are mandatory for correctness.",
+     "self_check": true
+    },
+    {
+     "q": "Create a word problem involving a triangle where one angle is twice another, and the third angle is 30° more than the smallest. Set up the equation but do not solve it.",
+     "a": "Let the smallest angle be x. Then the second angle is 2x, and the third is x + 30°. Equation: x + 2x + (x + 30°) = 180°. A poor answer might write \"x + 2x + 30 = 180\" (missing the x in the third angle) or use 360° instead of 180°. This reveals the student cannot translate verbal relationships into algebraic expressions or still holds the 360° misconception.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

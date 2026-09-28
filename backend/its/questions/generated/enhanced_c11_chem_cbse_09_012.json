@@ -34,6 +34,26 @@
      "q": "Design a simple experiment to demonstrate the principle of a hydrogen-oxygen fuel cell using materials available in a school laboratory. List the key components, the reactions at each electrode, and how you would measure the electrical output.",
      "a": "Components: Two Pt-coated electrodes (anode/cathode), KOH electrolyte, H₂ and O₂ gas supply (from electrolysis of water), multimeter, LED. Anode: H₂ + 2OH⁻ → 2H₂O + 2e⁻; Cathode: ½O₂ + H₂O + 2e⁻ → 2OH⁻; Overall: H₂ + ½O₂ → H₂O. Measure open-circuit voltage (~1.23 V) and current under load. A poor design (e.g., using acid electrolyte without Pt, or no gas diffusion electrodes) reveals misunderstanding of electrode kinetics and the need for triple-phase boundaries.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Dihydrogen (H₂) as a fuel refers to the use of hydrogen gas as an energy carrier that releases energy through combustion (2H₂(g) + O₂(g) → 2H₂O(l); ΔH° = –572 kJ mol⁻¹) or ______ oxidation in fuel cells.",
+     "a": "electrochemical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a hydrogen fuel cell bus in Delhi or a rocket launch on TV – both use ______ as fuel but in completely different ways.",
+     "a": "dihydrogen",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Notice that H₂ has the highest energy per unit mass (______ kJ/g) but lowest per unit volume – this paradox drives the entire hydrogen economy debate.",
+     "a": "143",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write the balanced combustion equation with state symbols and enthalpy change, calculate energy released per gram and per mole, explain the concept of hydrogen economy with its three pillars (production, storage, utilization), and evaluate at least two major challenges (storage density, production cost, infrastructure) with.",
+     "self_check": true
     }
    ]
   }

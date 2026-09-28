@@ -42,9 +42,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lines = 3"
-   ]
+   "steps_chain": []
   },
   {
    "id": "fegp.8.2",
@@ -88,9 +86,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "sq = 27 ** 2"
-   ]
+   "steps_chain": []
   },
   {
    "id": "fegp.8.3",
@@ -133,9 +129,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "other = 90 - 20"
-   ]
+   "steps_chain": []
   },
   {
    "id": "fegp.8.4",
@@ -178,9 +172,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lines = 1"
-   ]
+   "steps_chain": []
   }
  ]
 }

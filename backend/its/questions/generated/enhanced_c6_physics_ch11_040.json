@@ -34,6 +34,26 @@
      "q": "Design a simple test to prove that an image in a plane mirror is at the same distance behind the mirror as the object is in front.",
      "a": "Place a pencil 10 cm from the mirror, then place a second pencil behind the mirror at the position where the image appears; if the second pencil matches the image's location, it proves the equal distance. Poor answers describe only looking at the image without providing a way to measure or verify the position behind the mirror.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A plane mirror is a flat, smooth ______ surface that produces an image which appears to be located behind the mirror at the same distance as the object in front.",
+     "a": "reflecting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever noticed that when you comb your hair in front of a mirror, your right hand ______ to be your left hand?",
+     "a": "appears",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify and describe the four key properties of an image in a plane mirror and demonstrate lateral inversion using a simple object like a written word or their own body parts.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever ______ that when you comb your hair in front of a mirror, your right hand appears to be your left hand?",
+     "a": "noticed",
+     "self_check": true
     }
    ]
   }

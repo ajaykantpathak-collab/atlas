@@ -34,6 +34,21 @@
      "q": "Create a real-life situation (Indian context) that leads to a linear inequality in one variable whose graphical solution has an open circle at 15 with arrow pointing left. Write the inequality and explain the scenario.",
      "a": "Example: \"A Metro train compartment can seat at most 50 passengers. If 35 passengers are already seated, how many more can enter?\" Inequality: 35 + x < 50 → x < 15. Open circle at 15 because exactly 15 more would make 50, but \"at most 50\" means ≤ 50, so x ≤ 15 would be closed circle. Wait — for open circle: \"A lift has a weight limit of 600 kg. 4 people averaging 70 kg each are inside. How many more 65 kg people can enter without exceeding limit?\" 4×70 + 65x < 600 → 280 + 65x < 600 → 65x < 320 → x < 4.92 → x ≤ 4 (integer). Need open circle at non-integer boundary... Better: \"Temperature in Delhi must stay below 40°C for school to remain open. Current temp is 25°C. How much can it rise?\" 25 + x < 40 → x < 15. Open circle at 15, arrow left. A poor answer uses ≤ or integer-only reasoning, missing the strict inequality context.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The graphical solution of a linear inequality in one variable ______ the solution set on a number line using a ray: an open circle (○) for strict inequalities (< or >) indicating the endpoint is excluded, and a closed circle (●) for non-strict inequalities (≤ or ≥) indicating the endpoint is included, with an arrow pointing toward all values satisfying the inequality.",
+     "a": "represents",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have ₹500 to buy ______ costing ₹40 each.",
+     "a": "notebooks",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly represent the solution set of any linear inequality in one variable on a number line, distinguishing between open and closed circles based on the inequality sign, and can interpret a given number line graph to write the corresponding inequality.",
+     "self_check": true
     }
    ]
   }

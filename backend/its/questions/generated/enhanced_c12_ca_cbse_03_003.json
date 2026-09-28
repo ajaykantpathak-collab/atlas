@@ -34,6 +34,31 @@
      "q": "Design a mini-project: Create a loan comparison spreadsheet that allows a user to input loan amount, annual interest rate, and tenure in years, and automatically shows the monthly instalment for both Type=0 and Type=1, along with the total interest paid in each case. Describe the sheet layout, formulas, and how you would validate it with a test case.",
      "a": "Layout: Input cells for Amount (A2), Annual Rate (B2), Years (C2). Output cells: Monthly Rate = B2/12, Months = C2*12. Monthly PMT (Type=0) = PMT(B2/12, C2*12, -A2, 0, 0). Monthly PMT (Type=1) = PMT(B2/12, C2*12, -A2, 0, 1). Total Interest (Type=0) = (PMT0 * Months) - A2. Total Interest (Type=1) = (PMT1 * Months) - A2. Test case: ₹1,00,000, 10%, 2 years → Type=0 monthly ≈ ₹4,614.49, Type=1 monthly ≈ ₹4,576.03. A poor answer lacks validation logic or misplaces the negative sign.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A loan repayment schedule is a structured plan that breaks down a borrowed principal amount into periodic ______ (typically monthly) over a specified tenure at a given interest rate, using the Excel PMT function to compute the fixed payment amount where each instalment covers both interest and principal components until the future value becomes zero.",
+     "a": "instalments",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to buy a scooter costing ₹80,000 but you only have ₹20,000 ______.",
+     "a": "saved",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The textbook method computes the yearly instalment using annual rate and annual periods, then divides by ______ for the monthly amount.",
+     "a": "12",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently design a loan repayment spreadsheet in Excel by correctly entering the loan parameters (principal, annual interest rate, tenure in years), applying the PMT function with appropriate arguments (rate, nper, pv, fv=0, type), converting the annual payment to a monthly figure, and explaining why the present value.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you want to buy a scooter costing ₹80,000 but you only have ₹20,000 saved.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

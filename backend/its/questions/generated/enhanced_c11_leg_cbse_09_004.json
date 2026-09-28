@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_09_004",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_09_004",
+   "title": "c11_leg_cbse_09_004",
+   "questions": [
+    {
+     "q": "What is the primary statutory mechanism for initiating systematic law reform in post-independence India, and who constitutes it?",
+     "a": "The primary mechanism is the Law Commission of India, constituted by a executive resolution of the Central Government (not by statute), typically chaired by a retired Supreme Court judge or High Court Chief Justice, with legal experts and scholars as members. A wrong answer (e.g., \"Parliamentary Standing Committee\" or \"National Human Rights Commission\") reveals confusion between *law-making* (Parliament), *rights monitoring* (NHRC), and *law reform research* (Law Commission) — three distinct institutional roles.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the first Law Commission (1834) under Macaulay focused on codification of penal and procedural law, whereas post-independence Law Commissions prioritize constitutional conformity and social justice.",
+     "a": "The 1834 Commission served a colonial administration needing uniform, enforceable rules to govern a diverse territory efficiently — hence the Indian Penal Code (1860), CrPC, Evidence Act. Post-independence Commissions operate under a written Constitution with Fundamental Rights and Directive Principles; their mandate (Article 372 read with executive resolution) is to reform laws to align with constitutional values (equality, dignity, secularism) and address socio-economic inequalities. A wrong answer focusing only on \"British vs Indian rulers\" misses the structural shift from *command obedience* to *constitutional governance* as the reform driver.",
+     "self_check": true
+    },
+    {
+     "q": "The Supreme Court in *Shreya Singhal v. Union of India* (2015) struck down Section 66A IT Act. Trace the *procedural* steps that would be required to enact a replacement provision that withstands constitutional scrutiny, starting from the judgment date.",
+     "a": "Steps: (1) Court declares 66A unconstitutional (void ab initio). (2) Ministry of Electronics & IT (MeitY) identifies legislative gap. (3) MeitY refers the issue to Law Commission (or constitutes expert committee). (4) Law Commission publishes consultation paper, holds stakeholder meetings (industry, civil society, legal experts). (5) Commission submits report with draft Bill (e.g., precise definitions of \"offensive,\" \"menacing\" tied to Article 19(2) restrictions). (6) Ministry drafts official Bill, gets Cabinet approval. (7) Bill introduced in Parliament → referred to Standing Committee on IT → public feedback incorporated. (8) Passed by both Houses → Presidential assent → notified. A wrong answer skipping Steps 3-5 (consultation, expert drafting) reveals the misconception that the executive can directly draft and pass Bills without institutionalized deliberation — ignoring the procedural safeguards against arbitrary law-making.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the law reform *procedure* for the Consumer Protection Act, 2019 (replacing 1986 Act) with the Muslim Women (Protection of Rights on Marriage) Act, 2019 (criminalizing triple talaq). Identify two procedural similarities and two differences in their legislative journey.",
+     "a": "Similarities: (i) Both originated from executive Bills introduced in Lok Sabha after Cabinet approval. (ii) Both were referred to Department-related Parliamentary Standing Committees (Consumer Affairs for CPA; Personnel, Public Grievances for Triple Talaq) for scrutiny and public consultation. Differences: (i) CPA 2019 followed a *proactive* 15-year review cycle (Law Commission reports, 2011/2015 recommendations, draft Bill 2015, lapsed, reintroduced 2019) — a deliberate policy overhaul. Triple Talaq Act followed a *reactive* path: Supreme Court struck down instant triple talaq (2017) → Ordinance promulgated (2018) → re-promulgated → Bill passed (2019) — driven by judicial deadline and political urgency. (ii) CPA 2019 involved extensive e-commerce stakeholder consultation; Triple Talaq Bill faced sharp parliamentary debate on criminalization vs civil remedy, with limited pre-legislative consultation. A wrong answer treating both as \"government Bills passed by Parliament\" misses how *trigger* (policy review vs judicial mandate) shapes *process* (deliberative vs expedited).",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the criticism that \"Law Commissions in India are toothless because their reports are not binding on the government.\" Use the 21st Law Commission's report on hate speech (2017) and the government's response to support your judgment.",
+     "a": "The criticism is *partially valid but incomplete*. The 21st Law Commission (Chair: Justice B.S. Chauhan) recommended amending IPC Sections 153A, 295A, 505 and adding new Sections 153C (prohibiting incitement to hatred) and 505A (causing fear/alarm) — with precise definitions aligned to Article 19(2). The government *did not enact* these specific amendments. However, the Commission's *process* achieved three non-legislative impacts: (a) Created an authoritative interpretive framework courts now cite (e.g., *Amish Devgan v. Union of India*, 2020, referencing Law Commission Report 267). (b) Forced executive to justify inaction in Parliament (Ministry of Home Affairs stated \"under consideration\" for years). (c) Provided civil society a benchmark for PILs and advocacy. Thus, Law Commissions exercise *epistemic authority* (shaping legal discourse) even without *legislative coercion*. A wrong answer calling them \"useless\" ignores their role in agenda-setting, judicial reasoning, and democratic accountability — confusing *binding force* with *institutional influence*.",
+     "self_check": true
+    },
+    {
+     "q": "Design a 5-step law reform proposal for a hypothetical gap: \"No specific law regulates algorithmic price-fixing by e-commerce platforms in India.\" Your proposal must include: trigger identification, institutional anchor, consultation design, draft principle, and legislative vehicle.",
+     "a": "A strong answer: (1) **Trigger**: CCI (Competition Commission of India) investigation finds platforms using algorithms to collude on prices — no explicit provision in Competition Act, 2002 covers *algorithmic* collusion. (2) **Institutional Anchor**: Ministry of Corporate Affairs refers to 23rd Law Commission (or constitutes Joint Parliamentary Committee + CCI + MeitY expert group). (3) **Consultation Design**: Publish consultation paper defining \"algorithmic coordination\"; hold 3 regional workshops (startups, big tech, consumer groups); invite written submissions in 60 days. (4) **Draft Principle**: Amend Section 3(3) Competition Act to include \"algorithmic facilitation of cartelization\" as *per se* violation; add explanation: \"Use of pricing algorithms with knowledge of parallel conduct constitutes agreement.\" (5) **Legislative Vehicle**: Competition (Amendment) Bill, 202X → Standing Committee on Finance → Rajya Sabha (since money Bill not involved) → Presidential assent. A poor answer proposing \"CCI should just issue guidelines\" misses that *guidelines lack statutory backing* and cannot create criminal liability or override platform terms of service — confusing *regulatory guidance* with *law reform*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,31 @@
      "q": "Create a field survey protocol (max 8 steps) for a Class 12 project on \"Changing Land Use in Peri-Urban Fringe of Your City\" that integrates: (a) transect walk observation, (b) key informant interviews (sarpanch, real estate agent, farmer), (c) GPS-tagged photo documentation, (d) secondary cadastral map verification. Ensure each step references an NCERT precaution or principle.",
      "a": "1. Obtain latest cadastral map (secondary source, c12_geo_cbse_18_004) and overlay satellite imagery — base for transect design. 2. Stratify fringe into 3 zones (agricultural, transition, built-up) using map — ensures spatial representativeness (scientific attitude). 3. Conduct transect walk in each zone at 10 AM; record land use, crop type, construction activity on pre-coded checklist (personal observation with theoretical knowledge). 4. At each zone boundary, photograph with GPS-enabled camera; tag photo ID in checklist (other methods: transducers/cameras). 5. Interview sarpanch using schedule: \"What land conversion permissions were granted in last 3 years?\" — enumerator fills, assures confidentiality (precautions iii, viii). 6. Interview farmer: \"Why did you sell/lease land? What compensation?\" — simple language, congenial atmosphere (precautions iv, v). 7. Interview real estate agent: \"Current price per bigha? Buyer profile?\" — avoid sensitive religious/caste questions (precaution vi). 8. Cross-verify observed land use with cadastral map; note discrepancies for report — triangulation (data quality, c12_geo_cbse_18_008). Good answer integrates all four components with NCERT language; poor answer lists steps without linking to precautions or principles.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Primary data sources in geography are original data collected firsthand by the researcher through direct field engagement, including systematic field surveys (personal observation of physical and human features), structured interviews (face-to-face dialogue with respondents following a prepared schedule), and ______/schedules (written instruments with closed or open-ended items administered to a sample population), where the investigator controls the design, collection process, and quality of data for a specific geographical inquiry.",
+     "a": "questionnaires",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are standing on the bund of a village pond in your district during post-monsoon: you see green algae, smell methane, notice cattle wading, and hear a farmer complain about skin rashes — this sensory cluster is raw primary data waiting to be ______.",
+     "a": "structured",
+     "self_check": true
+    },
+    {
+     "q": "What is Primary data sources in geography? State the definition given in this lesson.",
+     "a": "Primary data sources in geography are original data collected firsthand by the researcher through direct field engagement, including systematic field surveys (personal observation of physical and human features), structured interviews (face-to-face dialogue with respondents following a prepared schedule), and questionnaires/schedules.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Primary data sources in geography?",
+     "a": "Students equate \"questionnaire\" and \"schedule\" as interchangeable terms for any written question set.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) Distinguish between questionnaire (self-administered) and schedule (enumerator-administered) and justify the choice for a given field situation; (2) Design a 10-item field survey checklist for observing land use, slope, and drainage in a local watershed; (3) List the eight NCERT-prescribed precautions for conducting.",
+     "self_check": true
     }
    ]
   }

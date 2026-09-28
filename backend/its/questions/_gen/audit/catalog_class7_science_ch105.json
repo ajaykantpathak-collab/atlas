@@ -1,0 +1,107 @@
+{
+ "catalog": "catalog_class7_science_ch105.json",
+ "concepts": [
+  {
+   "id": "gesc.5.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "final_substance = 33",
+      "initial_substance = final_substance"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "final_substance = 62",
+      "initial_substance = final_substance"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "final_substance = 75",
+      "initial_substance = final_substance"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "final_substance = 83",
+      "initial_substance = final_substance"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "final_substance = 91",
+      "initial_substance = final_substance"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "final_substance = 82",
+      "initial_substance = final_substance"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "initial_substance = final_substance"
+   ]
+  },
+  {
+   "id": "gesc.5.7",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "coating_layer = 78",
+      "protection = coating_layer"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "coating_layer = 38",
+      "protection = coating_layer"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "coating_layer = 21",
+      "protection = coating_layer"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "coating_layer = 63",
+      "protection = coating_layer"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "coating_layer = 9.7",
+      "protection = coating_layer"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "coating_layer = 97",
+      "protection = coating_layer"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "protection = coating_layer"
+   ]
+  }
+ ]
+}

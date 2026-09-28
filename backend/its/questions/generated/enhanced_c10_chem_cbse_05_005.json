@@ -34,6 +34,21 @@
      "q": "Design a simple card-sorting activity for Class 9 students to discover that arranging elements by atomic number (not atomic mass) groups elements with similar properties together. List the minimum data each card must carry and the rule for sorting.",
      "a": "Each card: Element symbol, Atomic Number (Z), Atomic Mass, and one key property (e.g., valence, metal/non-metal). Rule: Sort cards in increasing order of Z. Observe that elements with similar properties fall in vertical columns. A poor answer that sorts by atomic mass or omits Z shows the student hasn't grasped that Z is the sorting key.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Modern Periodic Law states that the physical and chemical ______ of elements are a periodic function of their atomic numbers (Z).",
+     "a": "properties",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a periodic table in your classroom or textbook: notice that elements are arranged in rows (periods) and columns (groups) with atomic numbers ______ left-to-right, top-to-bottom.",
+     "a": "increasing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can determine the period and group of any element (up to Z=30) from its atomic number or electronic configuration, and explain why atomic number—not atomic mass—is the fundamental basis for classification in the Modern Periodic Table.",
+     "self_check": true
     }
    ]
   }

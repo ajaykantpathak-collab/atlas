@@ -34,6 +34,26 @@
      "q": "Create a fraction in simplest form whose decimal expansion has a recurring block of exactly 3 digits, and the decimal has no non-recurring prefix (i.e., it is a pure recurring decimal). Explain how you chose the denominator.",
      "a": "Choose a denominator that is a factor of 999 but not of 9 or 99, e.g., 27 (since 999 = 27 × 37). Then 1/27 = 0.\\overline{037} has period 3. A good answer must justify that the denominator's prime factors (only 3) are not 2 or 5, and that the multiplicative order of 10 modulo that denominator is 3. A poor answer picks a random denominator like 3 and gives 0.\\overline{3} (period 1), showing they don't understand the link between denominator and period length.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A rational number in its simplest form p/q (where q ≠ 0) has a non-______ recurring decimal expansion if and only if the denominator q has at least one prime factor other than 2 and 5.",
+     "a": "terminating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You break that ₹1 into 100 paise, give 33 paise each, and 1 paise ______.",
+     "a": "remains",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To convert a recurring decimal back to a fraction, we use algebra: let x be the decimal, multiply by a power of ______ to shift the repeating block, subtract the original equation to cancel the repeating part, and solve for x.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) determine whether a given rational number will have a terminating or non-terminating recurring decimal expansion by examining the prime factors of its denominator, (2) convert any fraction to its recurring decimal form using long division and correctly identify the repeating block, and (3) convert any non-terminating.",
+     "self_check": true
     }
    ]
   }

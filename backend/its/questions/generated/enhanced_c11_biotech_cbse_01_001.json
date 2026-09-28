@@ -34,6 +34,31 @@
      "q": "Design a **novel biotechnology application** that integrates **Blue Biotechnology** (marine) and **Environmental Biotechnology** (bioremediation) to solve a specific problem in the Indian context. Name the organism, the genetic modification (if any), the target pollutant, and the measurable outcome. Your design must be plausible with current rDNA technology.",
      "a": "**Plausible Design:** *Organism:* **Marine cyanobacterium *Synechocystis* sp. PCC 6803** (native to Indian coastal waters). *Modification:* Insert **biphenyl dioxygenase (bphA) gene cluster** from *Burkholderia xenovorans* LB400 under a salt-inducible promoter. *Target:* **PCB (polychlorinated biphenyl) contamination** in coastal sediments near ship-breaking yards (Alang, Gujarat). *Outcome:* Engineered cyanobacteria form mats on sediment, use photosynthesis for energy, express dioxygenase to aerobically degrade PCBs into benign chlorobenzoates; degradation measured by **GC-MS reduction of PCB congeners >80% in 60 days**. *Why plausible:* Textbook mentions *biphenyl dioxygenase* in *E. coli* for PCB degradation; cyanobacteria are native, photosynthetic (low cost), salt-tolerant. A poor answer uses *E. coli* (not marine-adapted) or ignores the need for a promoter functional in marine conditions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Biotechnology is the ______ application of scientific and engineering principles to process materials using living organisms, cells, cellular components, or biological molecules (such as DNA, proteins, enzymes) to generate products and services for the benefit of humankind.",
+     "a": "interdisciplinary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by asking: \"You eat dahi (curd) daily and take insulin if diabetic — what single ______ framework connects these two?\" Guide students to recognize that both use living systems (bacteria for dahi, *E. coli* for insulin) to make useful products.",
+     "a": "scientific",
+     "self_check": true
+    },
+    {
+     "q": "What is Biotechnology? State the definition given in this lesson.",
+     "a": "Biotechnology is the interdisciplinary application of scientific and engineering principles to process materials using living organisms, cells, cellular components, or biological molecules (such as DNA, proteins, enzymes) to generate products and services for the benefit of humankind.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Biotechnology?",
+     "a": "Misconception: \"Biotechnology = Genetic Engineering (rDNA technology).\" Students equate the *entire field* with its *modern subset*.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can accurately distinguish between ancient, classical, and modern biotechnology by citing the defining technological basis (domestication/observation vs. fermentation/microbial use vs. rDNA/genetic engineering) and map a given real-world product (e.g., Bt cotton, Humulin, dahi) to the correct category with justification.",
+     "self_check": true
     }
    ]
   }

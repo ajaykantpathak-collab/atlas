@@ -34,6 +34,31 @@
      "q": "Design a simple experiment to demonstrate that ABA induces stomatal closure, using epidermal peels of a common Indian plant. Specify control, treatment, observation, and measurable parameter.",
      "a": "**Plant:** *Commelina benghalensis* (dayflower) or *Vicia faba* (broad bean) – easily available, large guard cells. **Method:** Float epidermal peels on (a) distilled water (control), (b) 10 μM ABA solution. Incubate 2 h in light. **Observation:** Microscopic measurement of stomatal aperture (pore width/length). **Parameter:** Stomatal index or aperture width (μm). **Expected:** ABA-treated peels show significantly narrower pores. **Control for solvent:** Use same solvent (e.g., ethanol) in control if ABA dissolved in it. A poor design (no control, no replication, wrong concentration) reveals inability to translate concept into testable hypothesis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Abscisic acid (ABA) is a ______ plant growth regulator that functions primarily as a growth inhibitor and stress hormone, regulating seed dormancy, stomatal closure, and stress responses; ethylene is a gaseous hydrocarbon (C₂H₄) plant growth regulator synthesized from methionine that regulates fruit ripening, senescence, abscission, and stress-induced morphological adaptations.",
+     "a": "sesquiterpenoid",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a familiar ______: a banana ripens faster when kept with a ripe apple, and a wilted plant recovers its turgidity within hours after watering.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "What is Abscisic acid (ABA)? State the definition given in this lesson.",
+     "a": "Abscisic acid (ABA) is a sesquiterpenoid plant growth regulator that functions primarily as a growth inhibitor and stress hormone, regulating seed dormancy, stomatal closure, and stress responses; ethylene is a gaseous hydrocarbon (C₂H₄) plant growth regulator synthesized from methionine that regulates fruit ripening, senescence.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Abscisic acid (ABA)?",
+     "a": "Students believe ethylene only promotes fruit ripening and senescence, and that ABA only causes abscission (due to its name).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the antagonistic relationship between ABA and gibberellins in seed dormancy/germination using molecular mechanisms, predict the effect of ethylene application on fruit ripening and senescence in a given crop scenario, and design an experiment to demonstrate ABA-induced stomatal closure under water stress.",
+     "self_check": true
     }
    ]
   }

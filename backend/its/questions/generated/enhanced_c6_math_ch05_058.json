@@ -34,6 +34,21 @@
      "q": "Create a simple word problem that results in the equation 2x + 10 = 30.",
      "a": "Example: \"A box has 30 marbles. There are two identical bags of marbles and 10 loose marbles. How many marbles are in one bag?\" A poor answer would be a random sentence that doesn't logically connect to the numbers provided.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Word problems leading to equations involve translating real-world scenarios into ______ expressions where an unknown quantity is represented by a variable, allowing us to find the missing value by solving the resulting equation.",
+     "a": "mathematical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If your friend has 5 rupees more than you, and ______ you have 25 rupees, how would you find out how much money each of you has?",
+     "a": "together",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to translate a narrative description of a relationship between two quantities into a single-variable algebraic equation and solve it correctly.",
+     "self_check": true
     }
    ]
   }

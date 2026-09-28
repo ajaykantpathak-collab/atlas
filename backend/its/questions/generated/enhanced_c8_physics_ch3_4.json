@@ -34,6 +34,26 @@
      "q": "Design a simple classroom activity using only a metre scale, a few known masses (50 g, 100 g, 200 g), a spring, and a clamp stand to investigate how extension depends on force for the spring. List the steps, what you will measure, and how you will record data to see a pattern.",
      "a": "Steps: 1) Clamp spring vertically, note initial length L₀. 2) Hang 50 g mass (0.5 N), measure new length L₁, extension = L₁-L₀. 3) Repeat for 100 g (1 N) and 200 g (2 N). 4) Record in table: Force (N) vs Extension (cm). 5) Observe if extension doubles when force doubles. A poor answer that only says \"stretch the spring\" without a measurement plan or data table reveals the student cannot translate a qualitative concept into a systematic investigation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A force can change the shape and size of an object by ______, stretching, bending, or twisting it; this deformation is measured as a change in dimensions (length, volume, or shape) and occurs when the applied force overcomes the object's internal restoring forces.",
+     "a": "compressing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking students to press a soft rubber ball (like a tennis ball) between their palms and observe the flattening – a real-world observation of ______ changing shape and size.",
+     "a": "compression",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify whether a given force will cause temporary (elastic) or permanent (plastic) deformation in common materials, and can predict the direction of shape change (compression, extension, shear) based on how the force is applied.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking students to press a soft rubber ball (like a tennis ball) between their palms and observe the flattening – a real-world ______ of compression changing shape and size.",
+     "a": "observation",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using everyday materials to demonstrate that molecular orientation affects the rate of a chemical reaction.",
      "a": "A good answer: Use a matchbox — striking the match on the side (proper orientation of the match head against the abrasive strip) produces fire, whereas just heating the match head with a flame (random orientation of heat) does not light it as reliably. Alternatively, mix baking soda and vinegar by pouring one into the other (random orientation) vs. shaking the mixture vigorously (forcing more oriented collisions) and observe the difference in gas evolution rate. A poor answer only varies temperature or concentration, missing the orientation aspect entirely.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ theory states that for a chemical reaction to occur, reactant molecules must collide with each other.",
+     "a": "Collision",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real‑world observation: a matchstick lights only when struck — the friction supplies both the energy and the specific ______ needed to initiate combustion.",
+     "a": "orientation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) state the two criteria for an effective collision (energy ≥ Ea and proper orientation), (2) derive the collision theory rate expression k = P·Z_AB·e^{-Ea/RT} and relate it to the Arrhenius equation, (3) calculate the fraction of molecules exceeding Ea using the Maxwell‑Boltzmann distribution, and (4) explain why the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real‑world ______: a matchstick lights only when struck — the friction supplies both the energy and the specific orientation needed to initiate combustion.",
+     "a": "observation",
+     "self_check": true
     }
    ]
   }

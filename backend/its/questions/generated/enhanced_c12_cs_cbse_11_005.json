@@ -12,7 +12,7 @@
     },
     {
      "q": "Explain why the following code raises a KeyError: `d = {'a': 1}; print(d['b'])`. How would you modify it to avoid the error and return a default value?",
-     "a": "Correct answer: `'b'` is not a key in the dictionary, so square bracket access raises KeyError. Using `d.get('b')` returns `None`, or `d.get('b', 0)` returns `0`. A wrong answer might suggest using try-except without knowing `get()`, indicating lack of awareness of the get method.",
+     "a": "Correct answer: `'b'` is not a key in the dictionary, so square bracket access raises KeyError. Using `d.get('b')` returns `N/A`, or `d.get('b', 0)` returns `0`. A wrong answer might suggest using try-except without knowing `get()`, indicating lack of awareness of the get method.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Design a dictionary to represent a student's marks in multiple subjects where each subject can have multiple test scores. Show how to create it and access the list of scores for 'Physics'.",
      "a": "Correct answer: Dictionary with subject as key and list of scores as value, e.g., `marks = {'Physics': [85, 90, 78], 'Chemistry': [88, 92]}`. Access via `marks['Physics']`. A poor answer might use nested dictionaries incorrectly or not use a list for multiple scores.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ in Python is an unordered, mutable collection of key-value pairs where each key is unique and immutable, allowing fast lookup, insertion, and deletion of values by key.",
+     "a": "dictionary",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a ______ list app where you need to store phone numbers against names.",
+     "a": "contact",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight: dictionaries provide O(______) average time complexity for lookups by using hash tables, making them ideal for key-based retrieval.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to create dictionaries using curly braces and dict() constructor, access values using keys and the get() method, and explain the difference between using square brackets and get() for missing keys.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a contact list app where you need to store phone numbers against names.",
+     "a": "building",
      "self_check": true
     }
    ]

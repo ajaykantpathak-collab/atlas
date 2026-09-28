@@ -34,6 +34,31 @@
      "q": "Design a short description of a rainy day in your city, and identify at least one phenomenon corresponding to Physics, Chemistry, Biology, and Earth Science within that single event.",
      "a": "A good answer will identify: Physics (lightning flash and sound of thunder traveling through the air), Chemistry (acid rain interacting with marble structures or water purity), Biology (earthworms emerging from damp soil and plants absorbing water), and Earth Science (cloud formation, evaporation, and precipitation cycles). A poor answer lists phenomena from only one branch or confuses the scientific domains.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Physics is the branch of science that studies matter, energy, motion, force, and their ______ in the physical universe, measured in fundamental SI units such as meters (m), kilograms (kg), and seconds (s).",
+     "a": "interactions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you look at a ceiling fan spinning in your classroom or a bicycle moving down an Indian street, you are observing physical ______ involving motion, force, and energy.",
+     "a": "phenomena",
+     "self_check": true
+    },
+    {
+     "q": "What is Physics? State the definition given in this lesson.",
+     "a": "Physics is the branch of science that studies matter, energy, motion, force, and their interactions in the physical universe, measured in fundamental SI units such as meters (m), kilograms (kg), and seconds (s).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Physics?",
+     "a": "Students often think that the branches of science (Physics, Chemistry, Biology, Earth Science) are completely separate boxes that never overlap.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can classify various natural phenomena and technological devices into their respective scientific branches (Physics, Chemistry, Biology, Earth Science) and explain the physical principles governing them.",
+     "self_check": true
     }
    ]
   }

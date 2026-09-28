@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_08_010",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_08_010",
+   "title": "c12_app_cbse_08_010",
+   "questions": [
+    {
+     "q": "What is the index number of the base period in any index series, and why is it always this value?",
+     "a": "The index number of the base period is always **100**. This is by definition: \\( I_0 = \\frac{p_0}{p_0} \\times 100 = 100 \\). A wrong answer (e.g., 0, 1, or \"depends on data\") reveals the student confuses index numbers with percentage change (which is 0% for base period) or misunderstands the scaling convention. The base period is the reference anchor — all other periods are measured *relative* to it.",
+     "self_check": true
+    },
+    {
+     "q": "In the November 2015 crude oil example, the price relative index for November 2015 is 112. A student writes: \"Crude oil prices increased by 112% from 2005 to 2015.\" Is this correct? Explain why or why not.",
+     "a": "**Incorrect.** The index number 112 means the price is 112% *of* the base period price, i.e., a **12% increase** (112 − 100 = 12%). Writing \"112% increase\" confuses the index value (which is a ratio × 100) with the percentage change. This is the #1 error in board exams — students forget to subtract the base 100. The index is a *level*, not a *change*.",
+     "self_check": true
+    },
+    {
+     "q": "Given: Base year 2005 price = ₹2.5/gallon. Current year 2015 price = ₹2.8/gallon. Compute the price relative index for 2015. Then, if the 2015 price rises to ₹3.0/gallon in 2016, compute the 2016 index **using 2005 as base** and **using 2015 as base**. Show both calculations.",
+     "a": "**Step 1:** 2015 index (base 2005) = \\( \\frac{2.8}{2.5} \\times 100 = 112 \\).  \n**Step 2:** 2016 index (base 2005) = \\( \\frac{3.0}{2.5} \\times 100 = 120 \\).  \n**Step 3:** 2016 index (base 2015) = \\( \\frac{3.0}{2.8} \\times 100 \\approx 107.14 \\).  \nA wrong answer (e.g., using 2015 index 112 as base for 2016) reveals the student doesn't grasp that **base period is fixed for an index series** — you don't \"chain\" indices unless explicitly asked for chain-base indices. NCERT uses fixed-base throughout.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the November 2015 crude oil index (112) with the January 2010 index (140). A student claims: \"Prices fell by 28% from 2010 to 2015 because 140 − 112 = 28.\" Analyze this reasoning and give the correct percentage change from 2010 to 2015.",
+     "a": "**Flawed reasoning.** You cannot subtract index numbers with different bases to get percentage change. The correct method:  \nPrice in 2010 = ₹3.5, Price in 2015 = ₹2.8.  \n% change = \\( \\frac{2.8 - 3.5}{3.5} \\times 100 = -20\\% \\) (a 20% decrease).  \nAlternatively, using indices: \\( \\frac{I_{2015}}{I_{2010}} \\times 100 = \\frac{112}{140} \\times 100 = 80 \\), so 2015 price is 80% of 2010 price → 20% fall.  \nSubtracting indices (140 − 112 = 28) only works if both indices share the *same base* AND you want the change in *index points*, not percentage. This confusion costs marks in both boards and JEE.",
+     "self_check": true
+    },
+    {
+     "q": "The NCERT example computes crude oil indices for 2005, 2010, 2015, 2020 using 2005 as base. Suppose you are asked to reconstruct the index series with **2010 as the new base**. What would the 2005 index become? The 2015 index? The 2020 index? Evaluate whether this new series is \"better\" for analyzing post-2010 trends.",
+     "a": "**New indices (base 2010 = 100):**  \n- 2005: \\( \\frac{2.5}{3.5} \\times 100 \\approx 71.43 \\)  \n- 2010: 100 (by definition)  \n- 2015: \\( \\frac{2.8}{3.5} \\times 100 = 80 \\)  \n- 2020: \\( \\frac{2.9}{3.5} \\times 100 \\approx 82.86 \\)  \n**Evaluation:** The new series is **better for post-2010 analysis** because the base (2010) is closer to the period of interest, reducing distortion from long-term structural changes. However, it makes pre-2010 comparisons harder (2005 index < 100 looks like a \"decrease\" even though 2005 was the original base). This tests understanding of **base period selection criteria** (normal period, not too distant) from NCERT 6.4.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario (Indian context) where a relative index number would be misleading if used alone, and explain what additional index method (from NCERT 6.4.2–6.4.9) would fix it. Justify your choice.",
+     "a": "**Scenario:** A household tracks monthly spending on 4 items: Rice (₹50/kg, 20 kg), Wheat (₹30/kg, 10 kg), Milk (₹60/L, 15 L), and Saffron (₹50,000/kg, 0.001 kg). Using simple relative index (average of price relatives), a 10% saffron price spike dominates the index, suggesting massive inflation — but saffron is negligible in the budget.  \n**Fix:** **Weighted aggregative index (Laspeyres)** using base-year quantities as weights. This downweights saffron (tiny quantity) and upweights rice/wheat/milk, reflecting true cost-of-living impact.  \n**Why:** Simple average of relatives gives equal weight to each commodity (NCERT 6.4.3 flaw). Laspeyres fixes this by weighting by base-period quantities (NCERT 6.4.5). A poor answer would suggest \"simple aggregative\" (still dominated by high-price items) or \"Paasche\" (requires current quantities, not available for forecasting).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

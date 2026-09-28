@@ -34,6 +34,31 @@
      "q": "Design a hypothetical startup scenario (Indian context, ₹2 crore initial capital) where a Private Limited Company is clearly superior to both LLP and Partnership. Specify the business activity, growth plan, and investor profile, then justify each choice of feature (minimum 2 directors, 2-200 members, no prospectus, immediate commencement) against the alternatives.",
      "a": "**Scenario:** \"AgriTech Solutions Pvt Ltd\" — drone-based crop monitoring for Punjab/Haryana farmers. **Capital:** ₹2 cr from 5 angel investors (₹40L each) + founders. **Growth:** Series A in 18 months, pan-India in 3 years. **Why Pvt Ltd over LLP:** (1) Investors prefer shares over partnership rights — shares are standardised, transferable, carry clear exit via buyback/IPO. (2) No prospectus needed — saves 6 months vs public issue. (3) Immediate commencement on incorporation — critical for kharif season launch. (4) 2 directors suffice — founders control board initially. **Why not Partnership:** Unlimited liability scares angels; max 50 partners limits future fundraising; no separate legal entity complicates IP ownership. A weak design (generic \"tech startup\" without linking features to specific constraints) reveals inability to match legal form to business strategy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Joint Stock Company is an artificial legal person created by law, having a separate legal entity distinct from its members (______), with perpetual succession, a common seal, and capital divided into transferable shares of fixed value, where the liability of each shareholder is limited to the unpaid amount on shares held by them.",
+     "a": "shareholders",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine Neha from our chapter opener: her pottery ______ has grown to three retail branches and she needs ₹50 lakh to expand nationwide.",
+     "a": "business",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine Neha from our chapter opener: her pottery business has grown to three retail branches and she needs ₹______ lakh to expand nationwide.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently compare the Joint Stock Company form with Sole Proprietorship, Partnership, and Cooperative Society on at least five parameters (liability, continuity, transferability, formation complexity, management-control separation) and justify why a specific business scenario would choose the company form despite its.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine Neha from our chapter opener: her pottery business has grown to three retail branches and she needs ₹50 lakh to expand ______.",
+     "a": "nationwide",
+     "self_check": true
     }
    ]
   }

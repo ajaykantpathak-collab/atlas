@@ -34,6 +34,21 @@
      "q": "A student claims: \"A force is needed to keep an object moving.\" Evaluate this statement using Newton's First Law and explain why moving objects seem to stop on their own in everyday life.",
      "a": "The statement is incorrect. Newton's First Law states that a body in motion stays in motion at constant velocity unless a net force acts on it. A force is needed to change motion (accelerate, decelerate, turn), not to maintain it. In everyday life, moving objects seem to stop on their own because friction (a force) acts on them — friction decelerates them. On a frictionless surface, a moving object would keep moving forever without any force. The student confuses the everyday observation (objects stop due to friction) with the law (objects maintain motion without force). The correct statement: \"A force is needed to change an object's motion, not to keep it moving.\"",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Newton's First Law of Motion (Law of Inertia) states that a body continues in its state of rest or uniform motion in a straight line unless acted upon by an external ______ force — meaning that a body at rest stays at rest, and a body in motion stays in motion at constant velocity, unless a net external force changes that state.",
+     "a": "unbalanced",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This is ______ of rest: a body at rest stays at rest unless a force acts on it.",
+     "a": "inertia",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can state Newton's First Law, define inertia and distinguish between inertia of rest and inertia of motion, give two real-life examples of each type, and explain why a net external force is required to change a body's state of motion.",
+     "self_check": true
     }
    ]
   }

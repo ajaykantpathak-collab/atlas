@@ -34,6 +34,21 @@
      "q": "Construct a piecewise function \\( h(x) \\) with two different polynomial pieces that is continuous at \\( x = 3 \\) and satisfies \\( h(3) = 7 \\). Write the function and verify continuity.",
      "a": "Example: \\( h(x) = \\begin{cases} x + 4, & x \\le 3 \\\\ 2x + 1, & x > 3 \\end{cases} \\).  \nCheck: \\( h(3) = 3+4 = 7 \\); LHL = \\( \\lim_{x \\to 3^-} (x+4) = 7 \\); RHL = \\( \\lim_{x \\to 3^+} (2x+1) = 7 \\). All equal → continuous.  \nA poor answer gives pieces that don’t meet at \\( (3,7) \\) or uses non‑polynomial pieces, showing inability to reverse‑engineer the condition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a Delhi Metro fare chart: ₹10 for the first 2 km, then ₹5 for every ______ kilometre.",
+     "a": "additional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The fare function changes its rule exactly at ______ km.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly compute left-hand and right-hand limits for piecewise-defined functions, compare them with the function value, and conclusively determine continuity or discontinuity at a given point.",
+     "self_check": true
     }
    ]
   }

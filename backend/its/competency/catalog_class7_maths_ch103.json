@@ -327,7 +327,7 @@
     "what do you understand by comparing decimals",
     "list the main points about comparing decimals"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -344,7 +344,16 @@
      "action": "Identify the first position where digits differ",
      "explain": "The number with the higher digit at this position is larger."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "line up and combine the decimal values",
+     "explain": "line up and combine the decimal values: val = 7 + 8 / 10 + 1 / 100 gives 7.81",
+     "compute": "val = 7 + 8 / 10 + 1 / 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.103.9",

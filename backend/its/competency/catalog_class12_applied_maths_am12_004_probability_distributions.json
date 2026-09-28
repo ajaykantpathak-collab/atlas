@@ -1,160 +1,200 @@
 {
-  "class": 12,
-  "subject": "applied_maths",
-  "chapter": 4,
-  "chapter_title": "Probability Distribution",
-  "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am12_004_probability_distributions.txt",
-  "concepts": [
+ "class": 12,
+ "subject": "applied_maths",
+ "chapter": 4,
+ "chapter_title": "Probability Distribution",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am12_004_probability_distributions.txt",
+ "concepts": [
+  {
+   "id": "am12_004.1",
+   "title": "Random Variables Discrete and Continuous",
+   "definition": "A random variable assigns a real number to each outcome of a random experiment. It is discrete when it takes countable values, like the number of heads in coin tosses, and continuous when it takes any value in an interval, like the height of a student.",
+   "formula": "-",
+   "key_idea": "A discrete random variable is described by a probability distribution listing each value with its probability, while a continuous one is described by a density curve where probabilities are areas.",
+   "question_patterns": [
+    "Classify the random variable 'number of defective bulbs in a lot of {n}' as discrete or continuous.",
+    "Is the weight of a newborn baby a discrete or continuous random variable?",
+    "A coin is tossed {n} times; write the sample space for the number of heads.",
+    "Define a random variable and give one example each of a discrete and a continuous one.",
+    "Which of the following describes a continuous random variable?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [],
+   "compute_steps": [
     {
-      "id": "am12_004.1",
-      "title": "Random Variables Discrete and Continuous",
-      "definition": "A random variable assigns a real number to each outcome of a random experiment. It is discrete when it takes countable values, like the number of heads in coin tosses, and continuous when it takes any value in an interval, like the height of a student.",
-      "formula": "-",
-      "key_idea": "A discrete random variable is described by a probability distribution listing each value with its probability, while a continuous one is described by a density curve where probabilities are areas.",
-      "question_patterns": [
-        "Classify the random variable 'number of defective bulbs in a lot of {n}' as discrete or continuous.",
-        "Is the weight of a newborn baby a discrete or continuous random variable?",
-        "A coin is tossed {n} times; write the sample space for the number of heads.",
-        "Define a random variable and give one example each of a discrete and a continuous one.",
-        "Which of the following describes a continuous random variable?"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": []
-    },
-    {
-      "id": "am12_004.2",
-      "title": "Probability Distribution of Discrete Random Variable",
-      "definition": "The probability distribution of a discrete random variable X lists every value x_i with its probability p_i, where each p_i lies between 0 and 1 and the probabilities sum to 1. Missing entries are found using the sum-to-one condition.",
-      "formula": "k = 1 - p1 - p2",
-      "key_idea": "Two conditions define a distribution: 0 <= p_i <= 1 for every value, and p1 + p2 + ... + pn = 1. Any table violating the sum rule is not a probability distribution.",
-      "question_patterns": [
-        "X takes values 0, 1, 2 with probabilities {p1}, {p2} and k; find k.",
-        "Check whether the table (0, {p1}), (1, {p2}), (2, {p2}) is a valid probability distribution.",
-        "A distribution has P(X=0) = {p1} and P(X=1) = {p2}; find P(X >= 2).",
-        "For the given distribution of X, find P(X < 1).",
-        "State the two conditions a probability distribution must satisfy."
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"compute": "k = 1 - p1 - p2"}
-      ]
-    },
-    {
-      "id": "am12_004.3",
-      "title": "Mean of Random Variable Expectation",
-      "definition": "The mean or expectation of a discrete random variable is the weighted average of its values with the probabilities as weights: E(X) = sum of x_i p_i. It is the long-run average value per trial.",
-      "formula": "mean = x1 * p1 + x2 * p2",
-      "key_idea": "Expectation need not equal any actual observed value: a game with expected gain 0.5 per play still pays only whole amounts each play. Weights make expectation different from the ordinary average of the values.",
-      "question_patterns": [
-        "Find the mean of X where X takes {x1} and {x2} with probabilities {p1} and {p2}.",
-        "A game pays {x1} with probability {p1} and {x2} otherwise; find the expected gain.",
-        "Compute E(X) for the given probability distribution.",
-        "The demand per day is {x1} or {x2} units with probabilities {p1} and {p2}; find expected demand.",
-        "Interpret the expectation of a random variable in the long run."
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"compute": "mean = x1 * p1 + x2 * p2"}
-      ]
-    },
-    {
-      "id": "am12_004.4",
-      "title": "Variance and Standard Deviation of Distribution",
-      "definition": "The variance of a discrete random variable measures spread around the mean: V(X) = E(X^2) - (E(X))^2, where E(X^2) is the probability-weighted average of the squared values. The standard deviation is its positive square root.",
-      "formula": "var = e2 - mean ** 2",
-      "key_idea": "Compute the mean first, then the weighted mean of squares; subtracting the squared mean removes the part of the spread due purely to the size of the values. Variance has squared units; standard deviation restores the original unit.",
-      "question_patterns": [
-        "Find the variance of X taking {x1} and {x2} with probabilities {p1} and {p2}.",
-        "For the distribution with mean {mean}, find the standard deviation given E(X^2) = {e2}.",
-        "Compute V(X) using the formula E(X^2) - (E(X))^2 for the given distribution.",
-        "Two distributions share the same mean; how does variance distinguish them?",
-        "Find the standard deviation of the number of heads in two tosses."
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"compute": "mean = x1 * p1 + x2 * p2"},
-        {"compute": "e2 = x1 ** 2 * p1 + x2 ** 2 * p2"},
-        {"compute": "var = e2 - mean ** 2"},
-        {"compute": "sd = sqrt(var)"}
-      ]
-    },
-    {
-      "id": "am12_004.5",
-      "title": "Bernoulli Trials and Binomial Distribution",
-      "definition": "A Bernoulli trial is a single experiment with exactly two outcomes, success and failure, with constant probability p of success. Repeating the trial n independent times gives the binomial distribution: the probability of exactly r successes is C(n, r) p^r (1-p)^(n-r).",
-      "formula": "p_r = c * p ** r * q ** nr",
-      "key_idea": "Binomial questions announce themselves with a fixed number of independent trials, two outcomes, and a constant p. The mean is np and the variance is npq, where q = 1 - p.",
-      "question_patterns": [
-        "A die is rolled {n} times; find the probability of getting a six exactly {r} times.",
-        "Find the probability of {r} heads in {n} tosses of a fair coin.",
-        "For a binomial distribution with n = {n} and p = {p}, find the mean and variance.",
-        "In {n} independent shots each with hit probability {p}, what is the probability of at least one hit?",
-        "A binomial distribution has mean {mean} and variance {var}; find p."
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"compute": "q = 1 - p"},
-        {"compute": "mean = n * p"},
-        {"compute": "var = n * p * q"}
-      ]
-    },
-    {
-      "id": "am12_004.6",
-      "title": "Poisson Distribution Rare Events",
-      "definition": "The Poisson distribution counts rare events in a fixed interval of time or space when events occur independently at a constant average rate m. Its probability of exactly r occurrences is e^(-m) m^r / r!, and notably its mean and variance both equal m.",
-      "formula": "-",
-      "key_idea": "One parameter m controls everything: the mean is m, the variance is m. It is the limiting case of the binomial when n is large, p is small, and np stays equal to m.",
-      "question_patterns": [
-        "Calls arrive at an exchange at an average rate of {mean} per minute; find the probability of exactly {r} calls.",
-        "For a Poisson distribution with mean {mean}, find P(X = 0).",
-        "State the mean and variance of a Poisson distribution with parameter {mean}.",
-        "A book has on average {mean} misprints per page; find the chance a page has no misprint.",
-        "When is the Poisson distribution used as an approximation to the binomial?"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": []
-    },
-    {
-      "id": "am12_004.7",
-      "title": "Normal Distribution and Z Score",
-      "definition": "The normal distribution is the continuous bell-shaped curve, symmetric about its mean mu, described completely by mu and the standard deviation sigma. A raw score x is standardised by its z score, z = (x - mu) / sigma, which counts how many standard deviations x sits from the mean; z = 0 sits at the centre.",
-      "formula": "z = (x - mean) / sd",
-      "key_idea": "Standardising converts any normal variable to the standard normal with mean 0 and sigma 1, which is what tables measure. About 68 percent of values lie within one sigma, 95 percent within two.",
-      "question_patterns": [
-        "Find the z score of x = {x} for a distribution with mean {mean} and standard deviation {sd}.",
-        "For a normal distribution with mean {mean} and sigma {sd}, is x = {x} above or below average and by how many sigma?",
-        "State the properties of the normal curve.",
-        "An exam has mean {mean} and standard deviation {sd}; standardise a score of {x}.",
-        "What percentage of a normal distribution lies within one standard deviation of the mean?"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"compute": "z = (x - mean) / sd"},
-        {"compute": "above = z"}
-      ]
+     "step": 1,
+     "action": "divide favourable outcomes by total outcomes",
+     "explain": "divide favourable outcomes by total outcomes: p = 3 / 6 gives 0.5",
+     "compute": "p = 3 / 6"
     }
-  ],
-  "worked_examples": [
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "am12_004.2",
+   "title": "Probability Distribution of Discrete Random Variable",
+   "definition": "The probability distribution of a discrete random variable X lists every value x_i with its probability p_i, where each p_i lies between 0 and 1 and the probabilities sum to 1. Missing entries are found using the sum-to-one condition.",
+   "formula": "k = 1 - p1 - p2",
+   "key_idea": "Two conditions define a distribution: 0 <= p_i <= 1 for every value, and p1 + p2 + ... + pn = 1. Any table violating the sum rule is not a probability distribution.",
+   "question_patterns": [
+    "X takes values 0, 1, 2 with probabilities {p1}, {p2} and k; find k.",
+    "Check whether the table (0, {p1}), (1, {p2}), (2, {p2}) is a valid probability distribution.",
+    "A distribution has P(X=0) = {p1} and P(X=1) = {p2}; find P(X >= 2).",
+    "For the given distribution of X, find P(X < 1).",
+    "State the two conditions a probability distribution must satisfy."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "q": "X takes values 0, 1, 2 with probabilities 0.2, 0.5 and k. Find k, then the mean and variance of X.",
-      "a": "Sum rule: 0.2 + 0.5 + k = 1 gives k = 0.3. Mean E(X) = 0(0.2) + 1(0.5) + 2(0.3) = 1.1. E(X^2) = 0 + 1(0.5) + 4(0.3) = 1.7. Variance = 1.7 - 1.1^2 = 1.7 - 1.21 = 0.49, so the standard deviation is 0.7."
+     "compute": "k = 1 - p1 - p2"
+    }
+   ]
+  },
+  {
+   "id": "am12_004.3",
+   "title": "Mean of Random Variable Expectation",
+   "definition": "The mean or expectation of a discrete random variable is the weighted average of its values with the probabilities as weights: E(X) = sum of x_i p_i. It is the long-run average value per trial.",
+   "formula": "mean = x1 * p1 + x2 * p2",
+   "key_idea": "Expectation need not equal any actual observed value: a game with expected gain 0.5 per play still pays only whole amounts each play. Weights make expectation different from the ordinary average of the values.",
+   "question_patterns": [
+    "Find the mean of X where X takes {x1} and {x2} with probabilities {p1} and {p2}.",
+    "A game pays {x1} with probability {p1} and {x2} otherwise; find the expected gain.",
+    "Compute E(X) for the given probability distribution.",
+    "The demand per day is {x1} or {x2} units with probabilities {p1} and {p2}; find expected demand.",
+    "Interpret the expectation of a random variable in the long run."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "compute": "mean = x1 * p1 + x2 * p2"
+    }
+   ]
+  },
+  {
+   "id": "am12_004.4",
+   "title": "Variance and Standard Deviation of Distribution",
+   "definition": "The variance of a discrete random variable measures spread around the mean: V(X) = E(X^2) - (E(X))^2, where E(X^2) is the probability-weighted average of the squared values. The standard deviation is its positive square root.",
+   "formula": "var = e2 - mean ** 2",
+   "key_idea": "Compute the mean first, then the weighted mean of squares; subtracting the squared mean removes the part of the spread due purely to the size of the values. Variance has squared units; standard deviation restores the original unit.",
+   "question_patterns": [
+    "Find the variance of X taking {x1} and {x2} with probabilities {p1} and {p2}.",
+    "For the distribution with mean {mean}, find the standard deviation given E(X^2) = {e2}.",
+    "Compute V(X) using the formula E(X^2) - (E(X))^2 for the given distribution.",
+    "Two distributions share the same mean; how does variance distinguish them?",
+    "Find the standard deviation of the number of heads in two tosses."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "compute": "mean = x1 * p1 + x2 * p2"
     },
     {
-      "q": "A fair coin is tossed 5 times. Find the probability of exactly 3 heads, and the mean number of heads.",
-      "a": "p = q = 0.5, n = 5. P(3 heads) = C(5,3) (0.5)^3 (0.5)^2 = 10 x 0.03125 = 0.3125. Mean = np = 5 x 0.5 = 2.5 heads on average."
-    }
-  ],
-  "exercises": [
+     "compute": "e2 = x1 ** 2 * p1 + x2 ** 2 * p2"
+    },
     {
-      "group": "drill",
-      "items": [
-        "X takes 1, 2, 3 with probabilities 0.1, 0.4, k: find k, E(X) and V(X).",
-        "Ten fair coins are tossed; find the probability of exactly 4 heads.",
-        "A binomial distribution has n = 400, p = 0.5; find mean and variance.",
-        "Find the z score of 85 for a distribution with mean 70 and standard deviation 5.",
-        "Poisson with mean 2: find P(X = 0) and P(X = 1).",
-        "Classify: shoe size, waiting time at a bus stop, number of calls per hour."
-      ]
+     "compute": "var = e2 - mean ** 2"
+    },
+    {
+     "compute": "sd = sqrt(var)"
     }
-  ]
+   ]
+  },
+  {
+   "id": "am12_004.5",
+   "title": "Bernoulli Trials and Binomial Distribution",
+   "definition": "A Bernoulli trial is a single experiment with exactly two outcomes, success and failure, with constant probability p of success. Repeating the trial n independent times gives the binomial distribution: the probability of exactly r successes is C(n, r) p^r (1-p)^(n-r).",
+   "formula": "p_r = c * p ** r * q ** nr",
+   "key_idea": "Binomial questions announce themselves with a fixed number of independent trials, two outcomes, and a constant p. The mean is np and the variance is npq, where q = 1 - p.",
+   "question_patterns": [
+    "A die is rolled {n} times; find the probability of getting a six exactly {r} times.",
+    "Find the probability of {r} heads in {n} tosses of a fair coin.",
+    "For a binomial distribution with n = {n} and p = {p}, find the mean and variance.",
+    "In {n} independent shots each with hit probability {p}, what is the probability of at least one hit?",
+    "A binomial distribution has mean {mean} and variance {var}; find p."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "compute": "q = 1 - p"
+    },
+    {
+     "compute": "mean = n * p"
+    },
+    {
+     "compute": "var = n * p * q"
+    }
+   ]
+  },
+  {
+   "id": "am12_004.6",
+   "title": "Poisson Distribution Rare Events",
+   "definition": "The Poisson distribution counts rare events in a fixed interval of time or space when events occur independently at a constant average rate m. Its probability of exactly r occurrences is e^(-m) m^r / r!, and notably its mean and variance both equal m.",
+   "formula": "-",
+   "key_idea": "One parameter m controls everything: the mean is m, the variance is m. It is the limiting case of the binomial when n is large, p is small, and np stays equal to m.",
+   "question_patterns": [
+    "Calls arrive at an exchange at an average rate of {mean} per minute; find the probability of exactly {r} calls.",
+    "For a Poisson distribution with mean {mean}, find P(X = 0).",
+    "State the mean and variance of a Poisson distribution with parameter {mean}.",
+    "A book has on average {mean} misprints per page; find the chance a page has no misprint.",
+    "When is the Poisson distribution used as an approximation to the binomial?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the integer operation sign rules",
+     "explain": "apply the integer operation sign rules: total = 10 + (5) gives 15",
+     "compute": "total = 10 + (5)"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "am12_004.7",
+   "title": "Normal Distribution and Z Score",
+   "definition": "The normal distribution is the continuous bell-shaped curve, symmetric about its mean mu, described completely by mu and the standard deviation sigma. A raw score x is standardised by its z score, z = (x - mu) / sigma, which counts how many standard deviations x sits from the mean; z = 0 sits at the centre.",
+   "formula": "z = (x - mean) / sd",
+   "key_idea": "Standardising converts any normal variable to the standard normal with mean 0 and sigma 1, which is what tables measure. About 68 percent of values lie within one sigma, 95 percent within two.",
+   "question_patterns": [
+    "Find the z score of x = {x} for a distribution with mean {mean} and standard deviation {sd}.",
+    "For a normal distribution with mean {mean} and sigma {sd}, is x = {x} above or below average and by how many sigma?",
+    "State the properties of the normal curve.",
+    "An exam has mean {mean} and standard deviation {sd}; standardise a score of {x}.",
+    "What percentage of a normal distribution lies within one standard deviation of the mean?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "compute": "z = (x - mean) / sd"
+    },
+    {
+     "compute": "above = z"
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "q": "X takes values 0, 1, 2 with probabilities 0.2, 0.5 and k. Find k, then the mean and variance of X.",
+   "a": "Sum rule: 0.2 + 0.5 + k = 1 gives k = 0.3. Mean E(X) = 0(0.2) + 1(0.5) + 2(0.3) = 1.1. E(X^2) = 0 + 1(0.5) + 4(0.3) = 1.7. Variance = 1.7 - 1.1^2 = 1.7 - 1.21 = 0.49, so the standard deviation is 0.7."
+  },
+  {
+   "q": "A fair coin is tossed 5 times. Find the probability of exactly 3 heads, and the mean number of heads.",
+   "a": "p = q = 0.5, n = 5. P(3 heads) = C(5,3) (0.5)^3 (0.5)^2 = 10 x 0.03125 = 0.3125. Mean = np = 5 x 0.5 = 2.5 heads on average."
+  }
+ ],
+ "exercises": [
+  {
+   "group": "drill",
+   "items": [
+    "X takes 1, 2, 3 with probabilities 0.1, 0.4, k: find k, E(X) and V(X).",
+    "Ten fair coins are tossed; find the probability of exactly 4 heads.",
+    "A binomial distribution has n = 400, p = 0.5; find mean and variance.",
+    "Find the z score of 85 for a distribution with mean 70 and standard deviation 5.",
+    "Poisson with mean 2: find P(X = 0) and P(X = 1).",
+    "Classify: shoe size, waiting time at a bus stop, number of calls per hour."
+   ]
+  }
+ ]
 }

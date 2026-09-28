@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c6_hin_cbse_05_005",
+ "concepts": [
+  {
+   "id": "enh:c6_hin_cbse_05_005",
+   "title": "c6_hin_cbse_05_005",
+   "questions": [
+    {
+     "q": "किसी कहानी में 'सहायक पात्र' की परिभाषा क्या है? अपने शब्दों में एक वाक्य में लिखें।",
+     "a": "**Correct Answer:** सहायक पात्र वे पात्र हैं जो मुख्य नायक नहीं होते लेकिन कथानक को आगे बढ़ाने, नायक के गुणों को प्रकट करने, या विषय को उजागर करने में अनिवार्य भूमिका निभाते हैं।  \n**What a wrong answer reveals:** If a student writes \"वे पात्र जो कम आते हैं\" (characters who appear less) or \"नायक के दोस्त\" (hero's friends), they confuse **quantity of appearance** or **relationship label** with **narrative function**. A सहायक पात्र can appear frequently (like Sanjaya in Mahabharata) or be an enemy (like Kaikeyi to Ram's exile) — what defines them is their **structural necessity** to the नायक's arc.",
+     "self_check": true
+    },
+    {
+     "q": "रामायण में हनुमान को 'सहायक पात्र' क्यों माना जाता है, केवल 'नायक का दोस्त' नहीं? अंतर स्पष्ट करें।",
+     "a": "**Correct Answer:** हनुमान 'सहायक पात्र' हैं क्योंकि उनके बिना राम का कथानक **अधूरा/असंभव** होता — उन्होंने सीता की खोज की, संजीवनी बूटी लाए, लंका दहन किया। 'दोस्त' केवल संबंध बताता है; 'सहायक पात्र' **कथात्मक अनिवार्यता** (narrative necessity) बताता है।  \n**What a wrong answer reveals:** If a student says \"क्योंकि वे राम के भक्त हैं\" या \"वे बलवान हैं\", they focus on **character traits** instead of **plot function**. This shows they haven't grasped that सहायक पात्र is a **structural role**, not a personality type. The test is: *Remove the character — does the main plot collapse or fundamentally change?*",
+     "self_check": true
+    },
+    {
+     "q": "नीचे दिए गए दृश्य में सहायक पात्र की भूमिका पहचानें और बताएं कि वह किस प्रकार का सहायक पात्र है (सहयोगी/प्रतिबिंब/बाधा):  \n\"राजू परीक्षा से पहले घबरा रहा था। तभी उसकी बहन मीना आई, उसने राजू का टाइम-टेबल बनाया, उसे समझाया कि 'एक बार में एक विषय', और रात को गर्म दूध पिलाया। अगले दिन राजू आत्मविश्वास से परीक्षा देने गया।\"",
+     "a": "**Correct Answer:** मीना **सहयोगी (Helper)** प्रकार की सहायक पात्र है।  \n**Steps:**  \n1. Identify the नायक's problem: राजू घबरा रहा है, आत्मविश्वास नहीं है।  \n2. Identify the सहायक पात्र's action: मीना टाइम-टेबल बनाती है, सलाह देती है, दूध पिलाती है।  \n3. Check result: राजू का आत्मविश्वास लौटता है, वह परीक्षा दे पाता है।  \n4. Classify: मीना नायक की **समस्या हल करती है** और **लक्ष्य तक पहुँचने में सीधी मदद** करती है → सहयोगी।  \n**What a wrong answer reveals:** If a student writes \"मीना बहन है इसलिए सहायक पात्र है\", they confuse **family role** with **narrative function**. If they write \"प्रतिबिंब\" because मीना शांत है और राजू घबराया हुआ है, they mistake **contrast** for **function** — a प्रतिबिंब reflects the नायक's inner state (like a mirror), but मीना actively *changes* the नायक's state.",
+     "self_check": true
+    },
+    {
+     "q": "किसी कहानी में दो सहायक पात्र हैं: एक नायक को सही रास्ता दिखाता है (गुरु), दूसरा नायक को गलत रास्ते पर ले जाने की कोशिश करता है (लोभी दोस्त)। दोनों नायक के चरित्र को कैसे उजागर करते हैं? तुलना करें।",
+     "a": "**Correct Answer:**  \n- **गुरु (सहयोगी/मार्गदर्शक):** नायक की **अच्छाई/सद्गुण** उजागर करता है — नायक गुरु की बात मानता है, यह दिखाता है कि नायक में **विनम्रता, विवेक, सीखने की इच्छा** है।  \n- **लोभी दोस्त (बाधा/विरोधी):** नायक की **आंतरिक शक्ति/नैतिकता** उजागर करता है — नायक लालच ठुकराता है, यह दिखाता है कि नायक में **आत्म-नियंत्रण, सिद्धांतनिष्ठा** है।  \n**Key difference:** गुरु नायक के गुणों को **विकसित/प्रोत्साहित** करता है; लोभी दोस्त नायक के गुणों की **परीक्षा/पुष्टि** करता है।  \n**What a wrong answer reveals:** If a student says \"गुरु अच्छा है, दोस्त बुरा है\", they judge **morality of the supporting character** instead of analyzing **how each reveals the protagonist**. The question asks about the *नायक's characterization*, not the सहायक पात्र's nature.",
+     "self_check": true
+    },
+    {
+     "q": "कथन: \"कहानी से सभी सहायक पात्र हटा दिए जाएँ तो नायक की कहानी फिर भी पूरी हो सकती है, बस थोड़ी छोटी हो जाएगी।\" — इस कथन का मूल्यांकन करें। सहमत/असहमत? कारण सहित उत्तर दें।",
+     "a": "**Correct Answer:** **असहमत।** सहायक पात्र कहानी को \"लंबा\" नहीं, **संभव** बनाते हैं।  \nउदाहरण: महाभारत में कृष्ण को हटा दें → अर्जुन गीता उपदेश नहीं सुनता → युद्धक्षेत्र में खड़ा नहीं होता → कथानक **समाप्त** हो जाता है, छोटा नहीं।  \nपंचतंत्र में चूहे को हटा दें → शेर जाल में फँसा रह जाता है → कहानी का **संदेश (कृतज्ञता/सहयोग)** ही नष्ट हो जाता है।  \n**What a wrong answer reveals:** If a student agrees, they view सहायक पात्र as **decorative subplots** rather than **structural load-bearing walls**. They haven't understood that the नायक's agency is often *enabled* by सहायक पात्र — the नायक cannot \"do it alone\" by definition of the narrative structure.",
+     "self_check": true
+    },
+    {
+     "q": "एक छोटी कहानी (4-5 वाक्य) लिखें जिसमें नायक के अलावा **दो** सहायक पात्र हों: एक **सहयोगी** और एक **बाधा**। दोनों की भूमिका स्पष्ट दिखनी चाहिए।",
+     "a": "**Expected Answer Criteria:**  \n- Clear नायक with a goal (e.g., रोहन दौड़ जीतना चाहता है)  \n- **सहयोगी** actively helps (e.g., कोच रोज सुबह अभ्यास कराता है, आहार बताता है)  \n- **बाधा** actively hinders/tests (e.g., प्रतिद्वंद्वी अमन रोहन के जूते छिपा देता है, अफवाह फैलाता है)  \n- नायक's response to both reveals character (e.g., रोहन कोच की बात मानता है, अमन की हरकत से नाराज नहीं होता बल्कि ध्यान दौड़ पर रखता है)  \n**Poor answer reveals:** If both characters just \"exist\" near the नायक without **causal impact** on the नायक's journey, the student hasn't internalized that सहायक पात्र must **drive or test** the protagonist's arc. If the बाधा is just \"mean\" without forcing a revealing choice from the नायक, it's a prop, not a character.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

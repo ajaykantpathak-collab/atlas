@@ -34,6 +34,31 @@
      "q": "Design a field investigation to determine whether a soil profile in the Indo-Gangetic Plain has formed **in situ** from alluvium or shows **lithological discontinuity** due to multiple flood deposits. Specify 3 measurable horizon properties and the diagnostic criterion for each.",
      "a": "**Investigation design**: Dig 2 m pit, describe horizons at 10 cm intervals. Measure: (1) **Particle size distribution (PSD)** — abrupt textural change (e.g., silt loam over sandy loam) at same depth across pit face = **discontinuity** (different flood events). Gradual change = in situ weathering. (2) **Mica content (visual count)** — fresh mica flakes in C but absent in B = **recent deposition**; mica weathered throughout = **time for pedogenesis**. (3) **Carbonate nodules (kankar) depth & morphology** — nodules only in lower B/C = **active leaching front**; nodules at multiple depths with different coatings = **polygenetic profile** (multiple stability periods). Poor answer: only describing colour/texture without **quantitative PSD or mineralogical tracers**.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A soil profile is a vertical cross-section of soil extending from the surface down to the ______ parent material, revealing distinct horizontal layers called horizons (O, A, E, B, C, R) that differ in colour, texture, structure, organic matter content, and chemical composition due to pedogenic processes operating over time.",
+     "a": "unweathered",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine digging a 1.5-metre deep pit in your school garden after monsoon — you would see dark, crumbly topsoil at the surface, a lighter layer below where clay has washed down, and eventually ______ rock fragments at the bottom.",
+     "a": "weathered",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify each horizon in a soil profile diagram or field photograph, explain the pedogenic processes (eluviation, illuviation, humification, leaching) that form each horizon's distinct characteristics, and predict how profile development differs under contrasting climates (e.g., humid tropical vs. arid temperate).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine digging a 1.5-metre deep pit in your school garden after monsoon — you would see dark, crumbly topsoil at the surface, a lighter layer below where clay has washed down, and ______ weathered rock fragments at the bottom.",
+     "a": "eventually",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine digging a ______-metre deep pit in your school garden after monsoon — you would see dark, crumbly topsoil at the surface, a lighter layer below where clay has washed down, and eventually weathered rock fragments at the bottom.",
+     "a": "1.5",
+     "self_check": true
     }
    ]
   }

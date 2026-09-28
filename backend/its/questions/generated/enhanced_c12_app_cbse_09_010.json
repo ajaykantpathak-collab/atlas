@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_09_010",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_09_010",
+   "title": "c12_app_cbse_09_010",
+   "questions": [
+    {
+     "q": "Define 'Depreciable Amount' and state its formula using Original Cost (C) and Scrap Value (S).",
+     "a": "Depreciable Amount = Original Cost (C) - Scrap Value (S). It is the total value to be written off over the asset's life. A wrong answer (e.g., defining it as just 'Cost' or 'Book Value') reveals the student doesn't grasp that depreciation stops at scrap value, not zero, leading to over-depreciation errors in schedules.",
+     "self_check": true
+    },
+    {
+     "q": "A machine costs ₹1,00,000 with a scrap value of ₹10,000 and a life of 4 years. In the Straight Line Method, the annual depreciation is ₹22,500. In the Sum of Years Digits Method, the Year 1 depreciation is ₹36,000. Explain *why* the Year 1 depreciation differs between the two methods even though the total depreciation over 4 years is identical (₹90,000).",
+     "a": "Straight Line allocates the depreciable amount (₹90,000) *evenly* (₹22,500/year) assuming constant utility. Sum of Years Digits allocates it *front-loaded* using fractions (4/10, 3/10, 2/10, 1/10) assuming higher productivity/wear in early years. Year 1 SYD = (4/10) × 90,000 = ₹36,000. A student who says \"SYD is just faster\" without referencing the *fraction logic* or *depreciable amount base* reveals a procedural memory without conceptual understanding of the weighting mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "An asset costs ₹50,000. Its scrap value after 5 years is ₹5,000. Calculate the depreciation for Year 3 using the Sum of Years Digits method. Show the fraction used.",
+     "a": "Step 1: Depreciable Amount = 50,000 - 5,000 = 45,000.\nStep 2: Sum of digits (n=5) = 1+2+3+4+5 = 15.\nStep 3: Year 3 digit in reverse order = 3 (Year 1:5, Y2:4, Y3:3, Y4:2, Y5:1).\nStep 4: Fraction = 3/15 = 1/5.\nStep 5: Depreciation = (3/15) × 45,000 = ₹9,000.\nA wrong fraction (e.g., 3/5 or using year number 3/5) reveals confusion between the *sum of life digits* denominator and the *reverse order numerator*.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Book Value at the end of Year 2 for an asset (C=₹1,00,000, S=₹0, n=4, Rate=20% p.a.) under Straight Line vs. Written Down Value. Which method shows a higher Book Value at end of Year 2 and *why*?",
+     "a": "SLM: Annual Dep = 25,000. Accum Dep (Yr 2) = 50,000. Book Value = 50,000.\nWDV: Yr 1 Dep = 20,000 (BV=80,000). Yr 2 Dep = 16,000 (BV=64,000).\n**WDV shows higher Book Value (₹64,000 > ₹50,000) at end of Year 2.**\nReason: WDV charges a constant % on a *reducing base*, so absolute depreciation *decreases* every year (20k → 16k). SLM charges constant absolute amount. Early years: WDV Dep < SLM Dep → WDV Book Value > SLM Book Value. A student claiming SLM has higher BV confuses the *rate* (20% vs 25%) with the *base* (reducing vs original).",
+     "self_check": true
+    },
+    {
+     "q": "A company buys a machine for ₹2,00,000 (installation ₹20,000). Life = 5 years. Scrap = ₹20,000. The accountant calculates WDV rate as `r = 1 - (S/C)^(1/n) = 1 - (20,000/2,00,000)^(1/5) ≈ 1 - 0.1^0.2 ≈ 1 - 0.63 = 0.37 (37%)`. He applies 37% on ₹2,00,000 for Year 1. Evaluate this approach. Is the rate calculation correct? Is the base correct?",
+     "a": "**Rate calculation is WRONG.** Formula `r = 1 - (S/C)^(1/n)` uses **Original Cost (C)** excluding installation? No, **C must include all capitalized costs (Cost + Installation = ₹2,20,000)**. Correct C = 2,20,000. Correct `r = 1 - (20,000/2,20,000)^(1/5)`.\n**Base application is WRONG.** WDV depreciation is *always* applied on the **Book Value at the beginning of the year** (Opening WDV), never on Original Cost. Year 1 Dep = r × 2,20,000. Year 2 Dep = r × (2,20,000 - Yr1 Dep).\nThis error (using Original Cost as base every year) effectively turns WDV into a weird hybrid, violating the \"reducing balance\" definition. It reveals confusion between Flat Rate (EMI context) and WDV Depreciation.",
+     "self_check": true
+    },
+    {
+     "q": "Design a scenario where a business owner would *prefer* the Written Down Value method over Straight Line for tax/financial reporting purposes, and a scenario where they would prefer Straight Line. Justify both using cash flow and profit smoothing arguments.",
+     "a": "**Prefer WDV:** High-tech startup buying servers (rapid obsolescence). High early depreciation lowers taxable profit in early high-revenue growth years, deferring tax (time value of money benefit). Matches high early maintenance costs? No, matches high early *utility loss*.\n**Prefer SLM:** Manufacturing unit with stable, long-life machinery (e.g., furnace). Owner wants stable, predictable profits for investor confidence and loan covenants (profit smoothing). SLM gives constant expense, stable EPS.\nA poor answer gives generic \"tax saving\" without linking to *timing of cash flows*, *matching principle*, or *stakeholder signaling*.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

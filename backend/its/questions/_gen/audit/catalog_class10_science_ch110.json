@@ -1,0 +1,221 @@
+{
+ "catalog": "catalog_class10_science_ch110.json",
+ "concepts": [
+  {
+   "id": "jesc.10.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "power = 3386",
+      "focal_length = 1 / power"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "power = 3386",
+      "focal_length = 1 / power"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "power = 1589",
+      "focal_length = 1 / power"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "power = 1589",
+      "focal_length = 1 / power"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "power = 3644",
+      "focal_length = 1 / power"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "power = 3644",
+      "focal_length = 1 / power"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "focal_length = 1 / power"
+   ]
+  },
+  {
+   "id": "jesc.10.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "far_point = 78",
+      "power = -100 / far_point"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "far_point = 78",
+      "power = -100 / far_point"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "far_point = 42",
+      "power = -100 / far_point"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "far_point = 42",
+      "power = -100 / far_point"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "far_point = 99",
+      "power = -100 / far_point"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "far_point = 99",
+      "power = -100 / far_point"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "power = -100 / far_point"
+   ]
+  },
+  {
+   "id": "jesc.10.5",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "near_point = 87",
+      "power = 4 - (100 / near_point)"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "near_point = 87",
+      "power = 4 - (100 / near_point)"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "near_point = 85",
+      "power = 4 - (100 / near_point)"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "near_point = 85",
+      "power = 4 - (100 / near_point)"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "near_point = 2",
+      "power = 4 - (100 / near_point)"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "near_point = 2",
+      "power = 4 - (100 / near_point)"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "power = 4 - (100 / near_point)"
+   ]
+  },
+  {
+   "id": "jesc.10.7",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "angle_incidence = 74",
+      "angle_emergence = 57",
+      "angle_prism = 35",
+      "angle_deviation = angle_incidence + angle_emergence - angle_prism"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "angle_incidence = 53",
+      "angle_emergence = 94",
+      "angle_prism = 22",
+      "angle_deviation = angle_incidence + angle_emergence - angle_prism"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "angle_incidence = 131",
+      "angle_emergence = 27",
+      "angle_prism = 157",
+      "angle_deviation = angle_incidence + angle_emergence - angle_prism"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "angle_incidence = 35",
+      "angle_emergence = 4.4",
+      "angle_prism = 79",
+      "angle_deviation = angle_incidence + angle_emergence - angle_prism"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "angle_incidence = 139",
+      "angle_emergence = 39",
+      "angle_prism = 93",
+      "angle_deviation = angle_incidence + angle_emergence - angle_prism"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "angle_incidence = 109",
+      "angle_emergence = 149",
+      "angle_prism = 12.2",
+      "angle_deviation = angle_incidence + angle_emergence - angle_prism"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "angle_deviation = angle_incidence + angle_emergence - angle_prism"
+   ]
+  }
+ ]
+}

@@ -34,6 +34,21 @@
      "q": "Design a pseudocode algorithm that finds the maximum element in an unsorted array of size n with Θ(n) time and Θ(1) auxiliary space. Then modify it to also return the index of the maximum element without increasing asymptotic complexity. Explain why your modification preserves Θ(1) space.",
      "a": "```\nmax = A[0]; idx = 0\nfor i = 1 to n-1 do\n    if A[i] > max then\n        max = A[i]; idx = i\n    end if\nend for\nreturn (max, idx)\n```\nTime: n-1 comparisons → Θ(n). Auxiliary space: only max, idx, i → Θ(1). Modification adds one integer variable (idx), which is O(1) — constants don't affect asymptotic space. A poor answer (using extra array, recursion, or claiming space becomes O(n)) reveals the student confuses output size with auxiliary space, or thinks any additional variable changes asymptotic class — misunderstanding that Θ(1) means \"bounded by a constant independent of n\".",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Algorithm efficiency measures the computational resources an algorithm consumes as a function of input size, primarily time complexity (number of basic operations executed) and space complexity (memory cells used), expressed using asymptotic notations (Big-O, Ω, Θ) to describe growth rates independent of hardware or ______ details.",
+     "a": "implementation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you wrote two programs to find a roll number in a list of 10,000 students: one checks each name ______ (linear search), the other requires a sorted list but halves the search space each step (binary search).",
+     "a": "sequentially",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently analyse a given algorithm (pseudocode or flowchart), derive its exact time complexity function T(n), simplify it to the dominant term using Big-O notation, compute space complexity including auxiliary and input space, and justify why one algorithm is asymptotically superior to another for large inputs.",
+     "self_check": true
     }
    ]
   }

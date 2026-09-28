@@ -27,12 +27,27 @@
     },
     {
      "q": "Evaluate the statement: \"Dams on the Krishna River have benefited agriculture but destroyed the delta.\" Use sediment budget, salinity intrusion, and subsidence concepts.",
-     "a": "Partially true. Pre-dam sediment flux ~140 Mt/yr; post-dam (Nagarjuna Sagar, Srisailam) <20 Mt/yr — 85% reduction. Reduced sediment causes: (a) delta front erosion (shoreline retreat 10-20 m/yr), (b) subsidence uncompensated (natural compaction 2-4 mm/yr), (c) salinity intrusion 30 km inland (groundwater, agriculture loss). However, dams provide irrigation (1.2 M ha), flood control, hydropower. \"Destroyed\" is hyperbolic — delta persists but is degrading; sustainable management requires environmental flows and sediment bypass. A purely positive or negative evaluation misses the trade-off analysis required in resource geography.",
+     "a": "(1) Sediment collapse — the pre-dam flux of about 140 Mt per year fell below 20 Mt after the Nagarjuna Sagar and Srisailam dams came up, an 85 percent cut, (2) Delta damage — the starved delta front erodes at 10 to 20 m per year, natural compaction of 2 to 4 mm per year goes uncompensated, and salinity intrudes about 30 km inland, hitting groundwater and agriculture, (3) Countervailing gains — the dams irrigate about 1.2 million hectares and add flood control and hydropower, (4) Verdict — destroyed is hyperbolic because the delta persists but is degrading, so the statement is only partially true and sustainable management needs environmental flows and sediment bypass. A purely positive or negative evaluation misses the trade-off analysis that resource geography demands.",
      "self_check": true
     },
     {
      "q": "Design a 3-panel annotated sketch map showing the evolution of a river mouth from estuary to delta over 5,000 years as sea level stabilizes and sediment supply increases. Label processes at each stage.",
      "a": "Panel 1 (5 ka): Drowned valley, single channel, tidal flats, high salinity — estuary. Processes: tidal scour, marine transgression. Panel 2 (3 ka): Spits form at mouth, channel begins bifurcating, mudbanks appear — transitional. Processes: longshore drift, initial deposition > removal. Panel 3 (Present): Distributary network, prograding delta front, mangroves, freshwater marshes — delta. Processes: distributary switching, vertical accretion, ecological succession. A poor answer shows static snapshots without process labels or ignores the sea-level/sediment-supply driver.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A delta is a depositional landform formed at a river's mouth where sediment-laden water enters a standing water body (sea/lake), loses velocity, and drops its load, creating a branching distributary network; an estuary is a funnel-shaped, tidal river mouth where freshwater mixes with seawater in a drowned valley, ______ by strong tidal currents that prevent deltaic buildup and maintain a single channel.",
+     "a": "characterized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Stand at the ______ ferry ghat in West Bengal: the water is brown with silt, the channel splits into three, mangroves fringe mudbanks — you are on a delta.",
+     "a": "Sundarbans",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can distinguish delta vs estuary using three criteria (sediment load, tidal range, coastal energy), explain why the Ganga-Brahmaputra forms a delta while Narmada forms an estuary, and annotate a satellite image showing distributary channels, tidal flats, and salinity gradient.",
      "self_check": true
     }
    ]

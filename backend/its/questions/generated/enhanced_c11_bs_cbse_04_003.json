@@ -34,6 +34,26 @@
      "q": "Design a decision flowchart (text-based) that a small business owner can use to choose among: bearer cheque, crossed cheque, demand draft, NEFT, RTGS, UPI for an outward payment. Include at least four decision nodes (e.g., amount, urgency, payee relationship, day/time).",
      "a": "A good flowchart starts with: Is amount > ₹2 lakh? → Yes → Is it a working day & within RTGS hours? → Yes → Use RTGS; No → Use NEFT (24×7). If amount ≤ ₹2 lakh: Is instant credit needed 24×7? → Yes → Is amount ≤ UPI limit? → Yes → Use UPI; No → Use NEFT. If not instant: Is payee known/trusted? → Yes → Crossed cheque (low cost); No → Demand draft (guaranteed funds). A poor answer lists instruments without decision logic or misses critical nodes like \"working day\" or \"payee trust,\" showing inability to structure a multi-criteria choice.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Banking services encompass the instruments and electronic channels that facilitate the transfer of funds and settlement of obligations: a cheque is a written order directing a bank to pay a specified sum from the drawer's account; a demand draft is a pre-paid negotiable instrument issued by a bank ______ payment to a named payee; electronic banking (e-banking) refers to the delivery of banking services—such as fund transfers (NEFT, RTGS, IMPS), account management, and payments—via digital platforms (internet banking, mobile apps, ATMs, POS) without physical instrument exchange.",
+     "a": "guaranteeing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small online handicraft ______ in Jaipur.",
+     "a": "business",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) differentiate between cheque, demand draft, and electronic fund transfer modes (NEFT, RTGS, IMPS, UPI) on parameters of settlement time, cost, risk, and usage context; (2) explain the complete clearing/settlement cycle for a crossed cheque and a demand draft; (3) evaluate the suitability of each instrument for a given.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small online ______ business in Jaipur.",
+     "a": "handicraft",
+     "self_check": true
     }
    ]
   }

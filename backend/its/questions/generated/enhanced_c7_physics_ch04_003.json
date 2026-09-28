@@ -11,8 +11,8 @@
      "self_check": true
     },
     {
-     "q": "Why do scientists insist on using the second as the standard SI unit of time instead of local units like 'one pal' or 'one ghati' used in traditional Indian timekeeping?",
-     "a": "Scientists use the second as a universal standard to maintain uniformity, consistency, and clear communication across the globe without ambiguity. A wrong answer shows a lack of understanding regarding why standard units are necessary in international scientific data sharing.",
+     "q": "Trace the correct sequence from local timekeeping units to a single worldwide standard unit of time.",
+     "a": "The standardisation chain runs: (1) Traditional units like the ghati differ from region to region (2) Scientists need one common unit to share and compare measurements (3) The second is adopted as the SI base unit of time (4) Every speed and motion calculation worldwide uses the same consistent time unit. A wrong answer that claims traditional units serve science equally well shows the student has not understood why uniformity, consistency and unambiguous communication motivate the SI system.",
      "self_check": true
     },
     {
@@ -33,6 +33,26 @@
     {
      "q": "Design a simple, low-cost investigation using your own pulse to estimate time intervals in seconds without looking at a wristwatch.",
      "a": "A good response describes resting pulse rate (roughly 72 beats per minute, which is about 1.2 beats per second) and counting beats against a calibrated digital stopwatch to test consistency. A poor answer gives random guesses without a reference or calibration procedure.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It measures the duration of events or intervals between ______.",
+     "a": "occurrences",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine listening to the steady tick-tock of a wall clock in your ______ or the beating of your own pulse after running in the school playground.",
+     "a": "classroom",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify the second as the SI unit of time, convert time intervals between seconds, minutes, and hours accurately, and use seconds in standard physics calculations.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine listening to the steady tick-tock of a wall clock in your classroom or the beating of your own pulse after running in the school ______.",
+     "a": "playground",
      "self_check": true
     }
    ]

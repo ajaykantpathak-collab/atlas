@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using conductivity of aqueous solutions to demonstrate the relationship between electronegativity difference and ionic character of bonds in HX compounds (X = F, Cl, Br, I).",
      "a": "Dissolve equal moles of HF, HCl, HBr, HI in water; measure conductivity. Higher conductivity → more H⁺ and X⁻ ions → more ionic character → larger ΔEN. Expected order: HCl ≈ HBr ≈ HI (strong acids, full dissociation) > HF (weak acid, partial dissociation due to H-bonding and high bond strength). A poor answer ignores HF's anomalous behavior or assumes conductivity directly tracks ΔEN without considering bond strength and solvation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is a qualitative measure of the ability of an atom in a chemical compound to attract the shared pair of electrons in a covalent bond towards itself.",
+     "a": "Electronegativity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how ______ chloride (HCl) gas dissolves in water to form hydrochloric acid – the chlorine atom pulls the shared electron pair closer, making the bond polar.",
+     "a": "hydrogen",
+     "self_check": true
+    },
+    {
+     "q": "What is Electronegativity? State the definition given in this lesson.",
+     "a": "Electronegativity is a qualitative measure of the ability of an atom in a chemical compound to attract the shared pair of electrons in a covalent bond towards itself.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Electronegativity?",
+     "a": "Students think electronegativity is a fixed atomic property like atomic number, and that \"fluorine is 4.0\" means it always attracts electrons with that exact strength.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can predict the trend of electronegativity across a period and down a group, justify it using effective nuclear charge and atomic radius, and apply it to predict bond polarity and nature of oxides (acidic/basic/amphoteric) for given element pairs.",
+     "self_check": true
     }
    ]
   }

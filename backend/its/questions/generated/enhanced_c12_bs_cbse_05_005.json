@@ -34,6 +34,31 @@
      "q": "Design a divisional structure diagram for \"AgroTech Ltd.\" which manufactures tractors, harvesters, and irrigation systems. Each division must show its internal functional departments. Then write a 2-sentence justification for why this structure suits AgroTech better than functional structure, using the NCERT suitability criterion.",
      "a": "Diagram: Managing Director at top → three divisional boxes (Tractors Division, Harvesters Division, Irrigation Division) → each division contains four functional boxes (Production, Marketing, Finance, HR) reporting to Divisional Head. Justification: AgroTech manufactures \"a large variety of products using different productive resources\" (tractors need heavy engineering, irrigation needs plastic/pump tech) — NCERT suitability condition met. Functional structure would force one production head to manage completely different technologies, causing coordination problems and lack of product focus. A poor answer draws the diagram correctly but gives generic justification like \"good for large companies\" without citing the specific NCERT criterion of product variety + different resources.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Divisional structure is an ______ design where the enterprise is divided into autonomous divisions based on product lines, geographical territories, or customer segments, with each division containing its own functional departments (production, marketing, finance, HR) and operating as a distinct profit centre headed by a divisional manager accountable for its performance.",
+     "a": "organisational",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're the CEO of \"Bharat Foods Ltd.\" which started with just biscuits but now sells biscuits, dairy ______, and ready-to-eat meals.",
+     "a": "products",
+     "self_check": true
+    },
+    {
+     "q": "What is Divisional structure? State the definition given in this lesson.",
+     "a": "Divisional structure is an organisational design where the enterprise is divided into autonomous divisions based on product lines, geographical territories, or customer segments, with each division containing its own functional departments (production, marketing, finance, HR) and operating as a distinct profit centre headed by a.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Divisional structure?",
+     "a": "Students confuse \"divisional structure\" with \"decentralisation\" — they think divisional structure IS decentralisation.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (a) explain divisional structure with a labelled diagram showing product-based divisions and their internal functional departments, (b) compare advantages/disadvantages against functional structure using the NCERT comparative table parameters (formation, specialisation, responsibility, managerial development, cost.",
+     "self_check": true
     }
    ]
   }

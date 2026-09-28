@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using only a flashlight, filter paper, and a stand to distinguish between three unknown mixtures: sugar solution, starch solution, and sand-water mixture. Write the procedure and expected observations.",
      "a": "Procedure: 1) Shine flashlight through each mixture in a dark room — observe Tyndall effect. 2) Filter each mixture — observe residue. Expected: Sugar solution — no Tyndall effect, no residue (homogeneous). Starch solution — shows Tyndall effect (colloid), no residue (passes filter). Sand-water — may show Tyndall effect, sand residue on filter (heterogeneous suspension). A poor design (e.g., only testing filtration) reveals inability to use multiple properties (Tyndall + filtration) for complete classification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A mixture is a material composed of two or more ______ (elements or compounds) physically combined in any proportion, where each substance retains its own chemical identity and properties.",
+     "a": "substances",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a glass of nimbu pani (______) and a glass of sand-water mixture side by side.",
+     "a": "lemonade",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can classify a given mixture as homogeneous or heterogeneous by analyzing its composition uniformity, phase visibility, and particle size, and justify the classification using at least two distinguishing criteria (e.g., Tyndall effect, filtration behavior, stability).",
+     "self_check": true
     }
    ]
   }

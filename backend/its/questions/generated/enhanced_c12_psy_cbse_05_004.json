@@ -32,7 +32,32 @@
     },
     {
      "q": "Create a novel 5-step behavioural analysis and treatment plan for a college student who compulsively checks phone notifications during lectures, missing key content. Use the exact sequence: target behaviour → antecedents → maintaining consequences → antecedent operation → consequent operation.",
-     "a": "1. Target behaviour: unlocking phone and viewing notifications during lecture (count per 50-min class). 2. Antecedents: phone visible on desk, vibration/sound alerts, boredom during dense slides, social anxiety (fear of missing out). 3. Maintaining consequences: immediate relief from FOMO (negative reinforcement), dopamine from social validation (positive reinforcement), avoidance of difficult lecture material (negative reinforcement). 4. Antecedent operation: phone on silent + inside bag under seat (removes visual/tactile cues); pre-lecture 2-min \"notification check\" scheduled (satiates FOMO). 5. Consequent operation: self-monitoring log — each lecture with ≤1 check earns a point; 10 points = preferred coffee (positive reinforcement); if >3 checks, lose 2 points (response cost). A poor answer lists vague antecedents (\"stress\"), omits maintaining consequences, or proposes only punishment (e.g., \"give phone to friend\") without reinforcement for the alternative.",
+     "a": "(1) Target behaviour — unlocking the phone to view notifications during a lecture, counted per class period, (2) Antecedents — the phone visible on the desk, alert sounds, boredom during dense slides and the fear of missing out, (3) Maintaining consequences — immediate relief from that fear, the pleasant hit of social validation, and avoidance of difficult lecture material, all of which reinforce the habit, (4) Antecedent operation — the phone goes on silent inside the bag under the seat, with a scheduled two-minute notification check before the lecture to pre-empt the urge, (5) Consequent operation — a self-monitoring log where a lecture with at most one check earns a point toward a preferred reward, while more than three checks costs points. A poor answer lists vague antecedents, omits maintaining consequences, or proposes only punishment without reinforcing the alternative behaviour.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Behaviour therapy is a therapeutic approach based on learning theory principles that identifies ______ behaviours, their antecedent triggers, and consequent maintaining factors, then applies antecedent operations (modifying triggers) and consequent operations (modifying reinforcements/punishments) to replace faulty behaviours with adaptive ones.",
+     "a": "malfunctioning",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a Class 12 student, Rohan, who procrastinates on ______ by scrolling social media until 2 AM, then feels anxious and sleeps poorly.",
+     "a": "studying",
+     "self_check": true
+    },
+    {
+     "q": "What is Behaviour therapy? State the definition given in this lesson.",
+     "a": "Behaviour therapy is a therapeutic approach based on learning theory principles that identifies malfunctioning behaviours, their antecedent triggers, and consequent maintaining factors, then applies antecedent operations (modifying triggers) and consequent operations (modifying reinforcements/punishments) to replace faulty behaviours.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Behaviour therapy?",
+     "a": "Students often believe \"antecedent operation\" and \"consequent operation\" refer only to what happens *before* and *after* the behaviour in a temporal sense, leading them to misclassify interventions.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) conduct a behavioural analysis (identify target behaviour, antecedents, and maintaining consequences) for a given case vignette, and (2) design a treatment package specifying at least one antecedent operation and one consequent operation with justification from learning principles.",
      "self_check": true
     }
    ]

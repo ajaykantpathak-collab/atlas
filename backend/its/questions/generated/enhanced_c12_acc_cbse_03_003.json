@@ -34,6 +34,36 @@
      "q": "Create a new Revaluation Account problem for a 3-partner firm (ratio 4:3:2) where Partner Z retires. Include: (a) one asset appreciation, (b) one asset depreciation, (c) one liability increase, (d) one unrecorded asset, (e) one unrecorded liability. Provide the Balance Sheet figures and revaluation adjustments. Do NOT solve it — only design the problem.",
      "a": "**Balance Sheet (extract):** Land ₹8,00,000; Building ₹12,00,000; Stock ₹4,00,000; Debtors ₹3,00,000; Creditors ₹5,00,000; Outstanding Expenses ₹50,000. **Revaluation adjustments:** (a) Land appreciated by 25%; (b) Building depreciated by 10%; (c) Stock revalued at ₹3,60,000; (d) Outstanding Expenses increased by ₹20,000; (e) Unrecorded Investment found worth ₹1,00,000; (f) Unrecorded liability for damages ₹30,000. **Old Ratio:** X:Y:Z = 4:3:2. A good problem tests all adjustment types and forces old-ratio distribution. A poor problem omits unrecorded items or uses trivial numbers.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ Account is a nominal account prepared at the time of retirement (or admission/death) of a partner to record the effect of revaluing assets and liabilities to their current fair values; the resulting profit or loss is distributed among all partners (including the retiring partner) in their old profit sharing ratio so that the retiring partner receives their share of accumulated gains/losses up to the date of retirement.",
+     "a": "Revaluation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ firm where Partner C retires after 10 years.",
+     "a": "partnership",
+     "self_check": true
+    },
+    {
+     "q": "What is Revaluation Account? State the definition given in this lesson.",
+     "a": "Revaluation Account is a nominal account prepared at the time of retirement (or admission/death) of a partner to record the effect of revaluing assets and liabilities to their current fair values; the resulting profit or loss is distributed among all partners (including the retiring partner) in their old profit sharing ratio so that the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a partnership firm where Partner C retires after ______ years.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Revaluation Account?",
+     "a": "Misconception: \"Revaluation Account and Realisation Account are the same because both record asset/liability value changes.\" Why it's wrong: Revaluation Account is for reconstitution (firm continues) — it adjusts book values to fair values and profit/loss goes to partners' capital in old ratio.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently prepare a Revaluation Account from a given Balance Sheet and revaluation adjustments, correctly compute the profit/loss on revaluation, distribute it among partners in the old ratio, and show the corresponding journal entries — all without confusing it with Realisation Account (dissolution) or.",
+     "self_check": true
     }
    ]
   }

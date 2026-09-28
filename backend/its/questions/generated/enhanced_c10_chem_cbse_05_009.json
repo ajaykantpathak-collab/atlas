@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using dilute hydrochloric acid to compare the metallic character of magnesium (Mg), aluminium (Al), and zinc (Zn). State the expected observations and how they relate to periodic trends.",
      "a": "Place equal masses of Mg, Al, and Zn in separate test tubes with dilute HCl. Observe the rate of hydrogen gas evolution. Mg (Group 2, Period 3) reacts fastest, then Zn (Group 12, Period 4), then Al (Group 13, Period 3) which has a protective oxide layer. The trend in reactivity (metallic character) across Period 3: Mg > Al, but down Group 2: Mg < Ca (not tested). A poor answer that expects Al to react fastest because it's \"more metallic\" or ignores the oxide layer shows lack of application of trends to real chemical behaviour.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Metallic character is the tendency of an atom to lose electrons and form positive ions, while non-metallic character is the tendency to gain electrons and form negative ions; across a period, metallic character decreases and non-metallic character increases due to increasing nuclear charge and ______ atomic radius, whereas down a group, metallic character increases and non-metallic character decreases due to increasing atomic size and shielding effect.",
+     "a": "decreasing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a rusting iron nail (Fe) and a piece of burning magnesium ribbon (Mg) in the school laboratory — both are metals but magnesium burns ______ while iron rusts slowly.",
+     "a": "vigorously",
+     "self_check": true
+    },
+    {
+     "q": "What is Metallic character? State the definition given in this lesson.",
+     "a": "Metallic character is the tendency of an atom to lose electrons and form positive ions, while non-metallic character is the tendency to gain electrons and form negative ions; across a period, metallic character decreases and non-metallic character increases due to increasing nuclear charge and decreasing atomic radius, whereas down a.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Moving left to right across Period ______, notice how sodium (metal) → magnesium (metal) → aluminium (metal) → silicon (metalloid) → phosphorus (non-metal) → sulphur (non-metal) → chlorine (non-metal) shows a gradual shift from metallic to non-metallic behaviour.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Metallic character?",
+     "a": "Students often think that metallic character increases across a period because \"metals are on the left\" and they memorize the position without understanding the reason.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can predict whether an element is a metal, non-metal, or metalloid based on its position in the periodic table, explain the trends in metallic and non-metallic character across periods and down groups using atomic structure reasoning, and apply these trends to compare reactivity of elements in the same group or period.",
+     "self_check": true
     }
    ]
   }

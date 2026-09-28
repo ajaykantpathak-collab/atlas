@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_10_003",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_10_003",
+   "title": "c12_app_cbse_10_003",
+   "questions": [
+    {
+     "q": "What are the three essential components of a Linear Programming Problem, and what does the \"linear\" in Linear Programming specifically refer to?",
+     "a": "The three essential components are: (1) Decision variables (the unknowns we optimize, e.g., quantities to produce), (2) Objective function (the linear function to maximize/minimize, e.g., profit Z = ax + by), (3) Linear constraints (limitations expressed as linear inequalities/equations, plus non-negativity x ≥ 0, y ≥ 0). \"Linear\" refers to the fact that *all* mathematical relationships — the objective function and every constraint — are linear (degree 1 in variables). A wrong answer (e.g., \"linear means the graph is a straight line\") reveals the student confuses the *function property* with the *geometric representation*; the feasible region is a polygon, not a line.",
+     "self_check": true
+    },
+    {
+     "q": "A student formulates an LPP for a factory making chairs and tables. They write the constraint for machine hours as: 2x + 5y = 16 (where x = chairs, y = tables, machine A has 16 hours). Is this correct? Explain why or why not, and state the correct form.",
+     "a": "No, it is incorrect. The constraint should be an *inequality*: 2x + 5y ≤ 16. Machine hours *used* (2x + 5y) cannot *exceed* available hours (16), but can be *less* (if machine is not fully utilized). Writing \"=\" forces full utilization, which is not a requirement — it eliminates feasible solutions where the machine runs below capacity. A student who writes \"=\" misunderstands that constraints represent *limits* (≤ for resource caps, ≥ for minimum requirements), not exact equalities. This is a critical error that changes the feasible region from a polygon to a line segment, often making the problem infeasible or suboptimal.",
+     "self_check": true
+    },
+    {
+     "q": "A dietician wants to minimize cost of a diet using two foods F1 (₹50/kg, 4 units vitamin/kg) and F2 (₹30/kg, 6 units vitamin/kg). Minimum vitamin required = 60 units. Formulate the LPP. Identify the decision variables, objective function, and all constraints.",
+     "a": "Decision variables: x = kg of F1, y = kg of F2 (x ≥ 0, y ≥ 0).\nObjective function: Minimize Z = 50x + 30y (total cost).\nConstraints: Vitamin requirement → 4x + 6y ≥ 60 (total vitamin ≥ minimum).\nNon-negativity: x ≥ 0, y ≥ 0.\nComplete LPP: Minimize Z = 50x + 30y subject to 4x + 6y ≥ 60, x ≥ 0, y ≥ 0.\nA wrong answer (e.g., using ≤ for vitamin constraint, or maximizing cost) shows the student cannot translate \"minimum requirement\" into ≥ inequality or confuses minimization with maximization. This tests the core skill of mapping real-world language to mathematical symbols.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast a Manufacturing Problem and a Diet Problem in LPP. Give one similarity and one key difference in how constraints are typically structured.",
+     "a": "Similarity: Both have an objective function (profit maximization or cost minimization) linear in decision variables, and both have non-negativity constraints (x ≥ 0, y ≥ 0).\nKey difference: In Manufacturing Problems, constraints are typically *resource limitations* (raw material, machine hours, labor) → inequalities of the form **≤** (e.g., 2x + 5y ≤ 16 hours). In Diet Problems, constraints are typically *nutritional minimums* (vitamins, calories, proteins) → inequalities of the form **≥** (e.g., 4x + 6y ≥ 60 units). A student who misses the direction of inequality (≤ vs ≥) reveals they memorize problem types without understanding the physical meaning: \"limited supply\" vs \"required minimum\".",
+     "self_check": true
+    },
+    {
+     "q": "A transportation problem has two factories (supply 8 and 6 units) and three depots (demand 5, 5, 4). A student argues: \"Since total supply (14) > total demand (14), the problem is balanced and always has a feasible solution.\" Evaluate this claim. Is it correct? Justify.",
+     "a": "The claim is **incorrect** on two counts. First, total supply = 8 + 6 = 14, total demand = 5 + 5 + 4 = 14 → they are *equal*, not \"supply > demand\". Second, even if supply = demand, a feasible solution is **not guaranteed** — it depends on the *network structure* and *individual capacity constraints*. For example, if a depot can only be served by one factory with insufficient capacity, the problem becomes infeasible despite balanced totals. The student confuses \"balanced transportation problem\" (supply = demand) with \"feasibility\". A feasible solution requires that for every subset of depots, the total supply from factories connected to them meets their demand (a condition related to Hall's marriage theorem). This tests deep understanding: feasibility ≠ balance.",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel real-world scenario (Indian context, 2 decision variables) that fits the **Assignment Problem** type in LPP. Define decision variables, objective (min/max), and at least 3 constraints. Explain why it is an assignment problem, not manufacturing or transportation.",
+     "a": "**Scenario:** A Delhi-based event management company has 3 senior planners (A, B, C) and 3 upcoming weddings (W1, W2, W3). Each planner can handle only one wedding. Planner A charges ₹50k/W1, ₹60k/W2, ₹55k/W3; B charges ₹45k, ₹50k, ₹60k; C charges ₹55k, ₹40k, ₹50k. The company wants to assign planners to weddings to **minimize total cost**.\nDecision variables: x_ij = 1 if planner i assigned to wedding j, else 0 (binary, but in LPP relaxation treated as continuous 0≤x≤1).\nObjective: Minimize Z = 50x_A1 + 60x_A2 + 55x_A3 + 45x_B1 + 50x_B2 + 60x_B3 + 55x_C1 + 40x_C2 + 50x_C3.\nConstraints: (1) Each planner does exactly one wedding: x_A1+x_A2+x_A3=1, similarly for B, C. (2) Each wedding gets exactly one planner: x_A1+x_B1+x_C1=1, etc. (3) x_ij ≥ 0.\nWhy assignment: It involves **one-to-one matching** of agents (planners) to tasks (weddings) with cost matrix — distinct from manufacturing (resource allocation to products) or transportation (shipping from sources to destinations). A poor answer would describe a manufacturing or transport scenario, showing confusion between LPP types.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

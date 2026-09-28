@@ -22,7 +22,7 @@
     "plan a small survey for one question of your own",
     "how do statements differ from questions in data work"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -39,7 +39,16 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the counting rule (product, factorial, 2^n)",
+     "explain": "apply the counting rule (product, factorial, 2^n): total = 3 * 6 gives 18",
+     "compute": "total = 3 * 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp2.5.2",
@@ -89,7 +98,7 @@
     "compare the mean and median of the given data",
     "which is a fairer centre when one value is very large"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -106,7 +115,22 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the mean/median/mode definition",
+     "explain": "apply the mean/median/mode definition: total = sum((38, 19, 16, 15, 9)) gives 97",
+     "compute": "total = sum((38, 19, 16, 15, 9))"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "apply the mean/median/mode definition: mean = total / 5 gives 19.4",
+     "compute": "mean = total / 5"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp2.5.4",
@@ -124,7 +148,7 @@
     "why should we look at extremes along with the mean",
     "describe the given data using centre and spread"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -141,7 +165,22 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the dispersion formula to the data",
+     "explain": "apply the dispersion formula to the data: mean = (3 + 14 + 2) / 3 gives 6.33333",
+     "compute": "mean = (3 + 14 + 2) / 3"
+    },
+    {
+     "step": 2,
+     "action": "read off the answer",
+     "explain": "apply the dispersion formula to the data: md = (abs(3 - mean) + abs(14 - mean) + abs(2 - mean)) / 3 gives 5.11111",
+     "compute": "md = (abs(3 - mean) + abs(14 - mean) + abs(2 - mean)) / 3"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

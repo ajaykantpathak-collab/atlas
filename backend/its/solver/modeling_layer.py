@@ -812,10 +812,31 @@ try:
 except ImportError:  # pragma: no cover
     pass
 
+# batch-9c: core physics 6-12 families (kinematics any-solve, F=ma,
+# weight/friction, work-energy-power, g=GM/R^2, hydrostatics, buoyancy,
+# Hooke, moments, Q=mc dT / latent heat, pendulum, Ohm any-solve,
+# electrical power + kWh billing, n = c/v).  maths2-convention table.
+try:
+    from backend.its.solver.physics_families import model_physics_families
+    _STRUCTURES.extend([model_physics_families])
+except ImportError:  # pragma: no cover
+    pass
+
 # batch-9b: advanced chemistry 11-12 families (thermo, equilibrium, electrochem)
 try:
     from backend.its.solver.chemistry3_families import model_chemistry3
     _STRUCTURES.extend([model_chemistry3])
+except ImportError:  # pragma: no cover
+    pass
+
+# batch-15b: core chemistry families (ICSE 6-10 + bridge): equation
+# balancing, valency/cross-over, mole concept any-solve, molecular mass,
+# percent composition, gas laws, pH-OH, water hardness
+try:
+    from backend.its.solver.chemistry_families import model_chemistry_families
+    if not any(getattr(fn, "__name__", "") == "model_chemistry_families"
+               for fn in _STRUCTURES):
+        _STRUCTURES.append(model_chemistry_families)
 except ImportError:  # pragma: no cover
     pass
 
@@ -861,6 +882,55 @@ try:
     if not any(getattr(fn, "__name__", "") == "model_commerce_narrative"
                for fn in _STRUCTURES):
         _STRUCTURES.append(model_commerce_narrative)
+except ImportError:  # pragma: no cover
+    pass
+
+# batch-15: accountancy 11-12 families (journal entries via the golden
+# rules, SLM/WDV depreciation schedules, trading/P&L gross and net
+# profit, balance-sheet missing figures, ratio analysis, BRS cash
+# book/pass-book adjustments, interest on capital/drawings, partnership
+# profit-share/guarantee/admission).  Deterministic, textbook-grounded.
+try:
+    from backend.its.solver.accountancy_families import \
+        model_accountancy_families
+    if not any(getattr(fn, "__name__", "") == "model_accountancy_families"
+               for fn in _STRUCTURES):
+        _STRUCTURES.append(model_accountancy_families)
+except ImportError:  # pragma: no cover
+    pass
+
+# batch-16: biology & biotech 9-12 families (Punnett crosses, ABO/Rh and
+# X-linked inheritance, photosynthesis/respiration facts, 10% law energy
+# flow, exponential/logistic population growth, Hardy-Weinberg,
+# biodiversity indices, magnification/field-of-view, mitosis/meiosis
+# counts, restriction sites, PCR amplification, Chargaff).  Textbook-
+# grounded, deterministic; registered before the numeric registry so
+# specific bio triggers win.
+try:
+    from backend.its.solver.biology_families import model_biology
+    if not any(getattr(fn, "__name__", "") == "model_biology"
+               for fn in _STRUCTURES):
+        _STRUCTURES.append(model_biology)
+except ImportError:  # pragma: no cover
+    pass
+
+# batch-17: economics 9-12 families (linear demand/supply any-solve,
+# market equilibrium, excess demand, price elasticity by percentage/
+# total-outlay/point methods, GDP expenditure identity any-missing,
+# NNPfc conversion chain, value-added + stage chains, income method,
+# GDP deflator, CPI inflation, Fisher real rate, money multiplier,
+# deposit-creation chain, consumption function, investment multiplier,
+# APC/APS identities, revenue/fiscal/primary deficits, exchange-rate
+# change, unemployment/participation rates, headcount ratio,
+# aggregative/Laspeyres/Paasche index numbers).  Impossible-economy
+# states (MPC >= 1, zero reserve ratio, negative equilibrium price)
+# gate-refuse so the sandbox can route them to MisconceptionPanel.
+try:
+    from backend.its.solver.economics_families import \
+        model_economics_families
+    if not any(getattr(fn, "__name__", "") == "model_economics_families"
+               for fn in _STRUCTURES):
+        _STRUCTURES.append(model_economics_families)
 except ImportError:  # pragma: no cover
     pass
 
@@ -999,25 +1069,4 @@ def model_problem(text: str) -> ModelResult:
         # symbolic-ask sentences: an arithmetic family flattening
         # "derivative of 6x100" to "6*100" is a wrong answer in the
         # making -- refuse; the kernel's CAS owns these
-        if upper in _ARITHMETIC_FAMILIES and _SYMBOLIC_ASK_RE.search(text):
-            return ModelResult(
-                structure="UNRECOGNIZED", matched=False, confidence=0.0,
-                quantities={}, governing_equation="",
-                note="symbolic ask: arithmetic family refused")
-        return best
-    reasons = "; ".join(f"{r.structure}: {r.note}" for r in
-                        (fn(text) for fn in _STRUCTURES))
-    return ModelResult(structure="UNRECOGNIZED", matched=False, confidence=0.0,
-                       quantities={}, governing_equation="",
-                       note=f"no canonical structure matched ({reasons})")
-
-# batch-13: competency engine -- cross-chapter concept router bridging the
-# NCERT catalogs to family bindings.  Fires only when nothing precise
-# matched (confidence 0.88 < family 0.95).
-try:
-    from backend.its.solver.competency_engine import model_competency
-    if not any(getattr(fn, "__name__", "") == "model_competency"
-               for fn in _STRUCTURES):
-        _STRUCTURES.append(model_competency)
-except ImportError:  # pragma: no cover
-    pass
+        if upper in _ARITHMETIC_FAMILIES and _SYMBOLIC_ASK_R

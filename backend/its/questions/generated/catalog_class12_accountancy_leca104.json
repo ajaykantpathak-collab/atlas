@@ -1,6 +1,147 @@
 {
- "catalog": "catalog_class12_accountancy_leca104",
+ "catalog": "catalog_class12_accountancy_leca104.json",
  "concepts": [
+  {
+   "id": "leca104.2",
+   "title": "Quarter-wise Sales Totals for Charting",
+   "converted_to_compute": true,
+   "formula": "annual_total = qtr_1_sales + qtr_2_sales + qtr_3_sales + qtr_4_sales",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "annual_total = qtr_1_sales + qtr_2_sales + qtr_3_sales + qtr_4_sales",
+     "compute": "annual_total = qtr_1_sales + qtr_2_sales + qtr_3_sales + qtr_4_sales"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Quarter-wise Sales Totals for Charting: given qtr_1_sales = 38, qtr_2_sales = 80, qtr_3_sales = 44, qtr_4_sales = 49, find annual total.",
+     "a": "211",
+     "self_check": false
+    },
+    {
+     "q": "For Quarter-wise Sales Totals for Charting: given qtr_1_sales = 82, qtr_2_sales = 49, qtr_3_sales = 87, qtr_4_sales = 72, find annual total.",
+     "a": "290",
+     "self_check": false
+    },
+    {
+     "q": "For Quarter-wise Sales Totals for Charting: given qtr_1_sales = 89, qtr_2_sales = 98, qtr_3_sales = 5.8, qtr_4_sales = 2.8, find annual total.",
+     "a": "195.6",
+     "self_check": false
+    },
+    {
+     "q": "For Quarter-wise Sales Totals for Charting: given qtr_1_sales = 82, qtr_2_sales = 19.5, qtr_3_sales = 89, qtr_4_sales = 33, find annual total.",
+     "a": "223.5",
+     "self_check": false
+    },
+    {
+     "q": "For Quarter-wise Sales Totals for Charting: given qtr_1_sales = 39, qtr_2_sales = 26, qtr_3_sales = 86, qtr_4_sales = 3.6, find annual total.",
+     "a": "154.6",
+     "self_check": false
+    },
+    {
+     "q": "For Quarter-wise Sales Totals for Charting: given qtr_1_sales = 32, qtr_2_sales = 21, qtr_3_sales = 23, qtr_4_sales = 69, find annual total.",
+     "a": "145",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leca104.3",
+   "title": "Pie Chart Percentage Share",
+   "converted_to_compute": true,
+   "formula": "slice_pct = slice_value / whole_total * 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "slice_pct = slice_value / whole_total * 100",
+     "compute": "slice_pct = slice_value / whole_total * 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Pie Chart Percentage Share: given slice_value = 115, whole_total = 21, find slice pct.",
+     "a": "547.619",
+     "self_check": false
+    },
+    {
+     "q": "For Pie Chart Percentage Share: given slice_value = 15.3, whole_total = 38, find slice pct.",
+     "a": "40.2632",
+     "self_check": false
+    },
+    {
+     "q": "For Pie Chart Percentage Share: given slice_value = 96, whole_total = 57, find slice pct.",
+     "a": "168.421",
+     "self_check": false
+    },
+    {
+     "q": "For Pie Chart Percentage Share: given slice_value = 74, whole_total = 82, find slice pct.",
+     "a": "90.2439",
+     "self_check": false
+    },
+    {
+     "q": "For Pie Chart Percentage Share: given slice_value = 7.4, whole_total = 85, find slice pct.",
+     "a": "8.70588",
+     "self_check": false
+    },
+    {
+     "q": "For Pie Chart Percentage Share: given slice_value = 59, whole_total = 96, find slice pct.",
+     "a": "61.4583",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leca104.6",
+   "title": "Marks Distribution Total and Column Chart Share",
+   "converted_to_compute": true,
+   "formula": "students_total = band_1_count + band_2_count + band_3_count + band_4_count + band_5_count",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "students_total = band_1_count + band_2_count + band_3_count + band_4_count + band_5_count",
+     "compute": "students_total = band_1_count + band_2_count + band_3_count + band_4_count + band_5_count"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Marks Distribution Total and Column Chart Share: given band_1_count = 4, band_2_count = 313, band_3_count = 299, band_4_count = 299, band_5_count = 395, find students total.",
+     "a": "1310",
+     "self_check": false
+    },
+    {
+     "q": "For Marks Distribution Total and Column Chart Share: given band_1_count = 208, band_2_count = 48, band_3_count = 187, band_4_count = 332, band_5_count = 375, find students total.",
+     "a": "1150",
+     "self_check": false
+    },
+    {
+     "q": "For Marks Distribution Total and Column Chart Share: given band_1_count = 216, band_2_count = 292, band_3_count = 233, band_4_count = 398, band_5_count = 469, find students total.",
+     "a": "1608",
+     "self_check": false
+    },
+    {
+     "q": "For Marks Distribution Total and Column Chart Share: given band_1_count = 391, band_2_count = 452, band_3_count = 128, band_4_count = 492, band_5_count = 308, find students total.",
+     "a": "1771",
+     "self_check": false
+    },
+    {
+     "q": "For Marks Distribution Total and Column Chart Share: given band_1_count = 231, band_2_count = 241, band_3_count = 267, band_4_count = 52, band_5_count = 320, find students total.",
+     "a": "1111",
+     "self_check": false
+    },
+    {
+     "q": "For Marks Distribution Total and Column Chart Share: given band_1_count = 358, band_2_count = 20, band_3_count = 28, band_4_count = 254, band_5_count = 71, find students total.",
+     "a": "731",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "leca104.1",
    "title": "Graphs and Charts: Meaning and Business Uses",
@@ -18,68 +159,6 @@
     {
      "q": "Write the standard relation used for 'Graphs and Charts: Meaning and Business Uses', in plain ASCII form.",
      "a": "graph_axes = horizontal_x plus vertical_y",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leca104.2",
-   "title": "Quarter-wise Sales Totals for Charting",
-   "questions": [
-    {
-     "q": "Find the annual total sales that the quarter-wise graph of ABC Manufacturing displays. Use the method 'Quarter-wise Sales Totals for Charting'. Work with: qtr1_sales = 20000, qtr2_sales = 8000, qtr3_sales = 80000, qtr4_sales = 20000. Carry the chain through step by step and give the final value of annual_total.",
-     "a": "128000 units",
-     "self_check": false
-    },
-    {
-     "q": "Compute the year total from four quarterly figures before plotting the sales graph. Use the method 'Quarter-wise Sales Totals for Charting'. Work with: qtr1_sales = 8000, qtr2_sales = 2500, qtr3_sales = 500, qtr4_sales = 8000. Carry the chain through step by step and give the final value of annual_total.",
-     "a": "19000 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Quarter-wise Sales Totals for Charting' refers to.",
-     "a": "Before charting, the worksheet totals the data: row totals give quarter-wise sales of all products and column totals give product-wise sales, with the corner cell holding the overall total. For the sample year 2007-08 of ABC Manufacturing Company, the four quarterly totals add up to the annual sales figure that the chart then displays period-wise.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Quarter-wise Sales Totals for Charting'.",
-     "a": "Add the four quarterly totals to get the annual sales figure the chart will show period-wise.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Quarter-wise Sales Totals for Charting', in plain ASCII form.",
-     "a": "annual_total = qtr1_sales + qtr2_sales + qtr3_sales + qtr4_sales",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leca104.3",
-   "title": "Pie Chart Percentage Share",
-   "questions": [
-    {
-     "q": "Using the method 'Pie Chart Percentage Share', work with: slice_value = 1200, whole_total = 30. Carry the chain through step by step and give the final value of slice_pct.",
-     "a": "4000 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Pie Chart Percentage Share' and work with: slice_value = 5000, whole_total = 15. Carry the chain through step by step and give the final value of slice_pct.",
-     "a": "33333.3333 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Pie Chart Percentage Share' refers to.",
-     "a": "In a pie chart every slice shows the size of one item proportionately, and all slices together equal 100 per cent of the whole. A slice's percentage is its value divided by the total of all values, multiplied by 100 -- the same arithmetic the software applies when it labels the parts of the pie.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Pie Chart Percentage Share'.",
-     "a": "Divide the part by the whole and multiply by 100 -- the slices must always sum to 100 per cent.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Pie Chart Percentage Share', in plain ASCII form.",
-     "a": "slice_pct = slice_value / whole_total * 100",
      "self_check": true
     }
    ]
@@ -142,37 +221,6 @@
     {
      "q": "Write the standard relation used for 'Vehicle Registration Total for the RTO Pie Chart', in plain ASCII form.",
      "a": "registered_total = bus_count + truck_count + auto_count + car_count + two_wheeler_count + heavy_count",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "leca104.6",
-   "title": "Marks Distribution Total and Column Chart Share",
-   "questions": [
-    {
-     "q": "Using the method 'Marks Distribution Total and Column Chart Share', work with: band1_count = 5, band2_count = 18, band3_count = 360, band4_count = 6, band5_count = 75. Carry the chain through step by step and give the final value of students_total.",
-     "a": "464 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Marks Distribution Total and Column Chart Share' and work with: band1_count = 5, band2_count = 500, band3_count = 60, band4_count = 24, band5_count = 30. Carry the chain through step by step and give the final value of students_total.",
-     "a": "619 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Marks Distribution Total and Column Chart Share' refers to.",
-     "a": "A column chart of students' marks bands first totals the distribution: the five class intervals from 0-20 to 81-100 together hold all the students examined. Each band's share of that total shows how the class spread across the intervals, the comparison the column chart draws bar by bar.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Marks Distribution Total and Column Chart Share'.",
-     "a": "Sum the marks bands to the full cohort, then the columns compare each band's count.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Marks Distribution Total and Column Chart Share', in plain ASCII form.",
-     "a": "students_total = band1_count + band2_count + band3_count + band4_count + band5_count",
      "self_check": true
     }
    ]

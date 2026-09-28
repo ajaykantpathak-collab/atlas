@@ -34,6 +34,21 @@
      "q": "Create a new shape sequence using circles instead of dots and describe the rule for how it grows.",
      "a": "The student should provide a drawing (e.g., 1 circle, 3 circles in a triangle, 6 circles in a triangle) and a clear rule (e.g., \"I add a new row at the bottom that is one circle larger than the previous row\"). A poor answer fails to define a consistent \"rule of growth.\"",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A pattern is a ______, repeating, or evolving arrangement of numbers, shapes, or objects that follows a specific rule.",
+     "a": "predictable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever noticed how the petals of a flower or the tiles on your kitchen floor follow a ______ design?",
+     "a": "repeating",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify the rule governing a sequence, calculate the next three terms, and represent the sequence pictorially.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design an experiment using only a long glass tube, cotton plugs, concentrated HCl, concentrated NH₃, and a ruler to verify Graham's Law quantitatively. Specify measurements, calculations, and how you'd handle the \"end correction\" for tube length.",
      "a": "Place HCl-soaked cotton at one end, NH₃-soaked cotton at other end of 100 cm tube. Measure distance x from NH₃ end to white ring. Repeat 5 times for average x̄. Calculate r_NH₃/r_HCl = x̄/(100 - x̄). Theoretical ratio = √(M_HCl/M_NH₃) = √(36.5/17) ≈ 1.465. Compare experimental vs theoretical. End correction: subtract 1-2 cm from each end where cotton occupies space; effective length L_eff = 100 - 2×(cotton depth). A poor design measures only once, ignores end correction, or uses volume instead of distance. Good answer includes multiple trials, end correction, and % error calculation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Graham's Law of Diffusion states that at constant temperature and pressure, the rate of diffusion of a gas is inversely ______ to the square root of its molar mass (or density).",
+     "a": "proportional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine opening a bottle of ______ in one corner of a classroom - the fragrance reaches the back bench faster than the smell of burning incense from a temple nearby.",
+     "a": "perfume",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can calculate relative rates of diffusion for two gases given their molar masses, determine molar mass of an unknown gas from diffusion data, and explain the kinetic molecular basis for the inverse square root relationship between rate and molar mass.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine opening a bottle of perfume in one corner of a ______ - the fragrance reaches the back bench faster than the smell of burning incense from a temple nearby.",
+     "a": "classroom",
+     "self_check": true
     }
    ]
   }

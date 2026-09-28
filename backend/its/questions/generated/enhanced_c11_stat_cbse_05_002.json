@@ -34,6 +34,21 @@
      "q": "Create a discrete series with 4 distinct values and frequencies such that the arithmetic mean calculated by Direct Method equals exactly 50, and the Assumed Mean method with A = 45 gives Σfd = 30. Show your data and verify both methods.",
      "a": "Example: X = 40, 45, 55, 60; f = 2, 3, 4, 1. Check: Σf = 10, ΣfX = 80+135+220+60 = 495 → X̄ = 49.5 (not 50). Adjust: X = 40, 45, 55, 65; f = 2, 3, 4, 1 → ΣfX = 80+135+220+65 = 500 → X̄ = 50. With A=45: d = -5,0,10,20; fd = -10,0,40,20; Σfd = 50 (not 30). A correct construction requires solving Σf=10, ΣfX=500, Σf(X-45)=30 → ΣfX - 45Σf = 30 → 500 - 450 = 50 ≠ 30. So no such series exists with Σf=10. A good answer recognizes the constraint Σfd = ΣfX - AΣf and shows the inconsistency. A poor answer just guesses numbers without checking the algebraic relationship.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ Mean (X̄) is the sum of all observations divided by the total number of observations.",
+     "a": "Arithmetic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a Class 11 student helping your parents analyze the monthly ______ bills (in ₹) for your housing society: 1200, 1450, 1100, 1600, 1350, 1550, 1250, 1400, 1300, 1500.",
+     "a": "electricity",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to compute the arithmetic mean for individual, discrete, and continuous series using all three methods (Direct, Assumed Mean, Step Deviation) and select the most efficient method based on the data structure.",
+     "self_check": true
     }
    ]
   }

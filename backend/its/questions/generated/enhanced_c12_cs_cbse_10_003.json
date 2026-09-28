@@ -32,7 +32,32 @@
     },
     {
      "q": "Design a new file-reading scenario where `read(n)` with a specific integer argument `n` is the **only** appropriate method among `read()`, `readline()`, and `readlines()`. Describe the file format, the processing goal, and explain why the other two methods fail or are unsuitable.",
-     "a": "Expected answer (example):  \n**Scenario:** A fixed-width binary-like text file `records.dat` where each record is exactly 50 characters (no newlines). You need to extract the 3rd record (characters 100–149).  \n**Code:** `f = open('records.dat', 'r'); f.read(100); record3 = f.read(50); f.close()`  \n**Why others fail:** `read()` loads everything — wastes memory and doesn't let you skip directly to byte 100 without reading first 100 chars anyway (but `read(100)` does that cleanly). `readline()` looks for `\\n` — there are none, so it reads the whole 2 GB file as one \"line\". `readlines()` same problem — returns a one-element list of the entire file.  \nA poor answer using a CSV or newline-delimited file shows the student doesn't understand that `read(n)` is for **fixed-length, delimiter-free** records. This tests deep understanding of when character-count-based reading is essential.",
+     "a": "Expected answer (example):  \n**Scenario:** A fixed-width binary-like text file `records.dat` where each record is exactly 50 characters (no newlines). You need to extract the 3rd record (characters 100–149).  \n**Code:** `f = open('records.dat', 'r'); f.read(100); record3 = f.read(50); f.close()`  \n**Why others fail:** `read()` loads everything — wastes memory and doesn't let you skip directly to byte 100 without reading first 100 chars anyway (but `read(100)` does that cleanly). `readline()` looks for `\\n` — there are N/A, so it reads the whole 2 GB file as one \"line\". `readlines()` same problem — returns a one-element list of the entire file.  \nA poor answer using a CSV or newline-delimited file shows the student doesn't understand that `read(n)` is for **fixed-length, delimiter-free** records. This tests deep understanding of when character-count-based reading is essential.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The read(), readline(), and readlines() methods are used to read data from a text file opened in Python. read([n]) reads the entire file or up to n ______ as a single string, readline() reads one line including the trailing newline character, and readlines() reads all remaining lines and returns them as a list of strings.",
+     "a": "characters",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a marksheet text file marks.txt with one student ______ per line: RollNo,Name,Marks.",
+     "a": "record",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You need to write a Python program that reads this file and prints the names of students who scored above ______.",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Choose the correct reading method (read, readline, readlines) for a given file processing task and justify the choice based on memory constraints and output format needs.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a ______ text file marks.txt with one student record per line: RollNo,Name,Marks.",
+     "a": "marksheet",
      "self_check": true
     }
    ]

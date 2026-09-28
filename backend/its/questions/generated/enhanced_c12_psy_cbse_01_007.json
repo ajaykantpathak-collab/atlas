@@ -34,6 +34,21 @@
      "q": "Create a novel real-life scenario (not from the textbook) where Simultaneous and Successive processing interact sequentially, and identify the exact moment the shift occurs.",
      "a": "Scenario: A chef inventing a new recipe. Simultaneous: visualising the final dish, balancing flavors, textures, colors as an integrated whole. Shift moment: When writing the step-by-step recipe card for the kitchen staff — now the chef must linearly sequence actions (chop, sauté, simmer, plate) — Successive processing takes over. A good answer shows clear interaction and a defined transition point; a poor answer lists simultaneous and successive tasks separately without showing how one feeds into the other.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The PASS (Planning, Attention-Arousal, Simultaneous-Successive) Model is an information-processing theory of intelligence that describes cognitive functioning through three ______ neurological systems: Arousal/Attention (optimal alertness to stimuli), Simultaneous and Successive Processing (integrating information into patterns vs. serial ordering), and Planning (goal-setting, strategy selection, and self-monitoring).",
+     "a": "interdependent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you sit down to solve a jigsaw puzzle: first you feel alert and focus on the picture (Arousal/Attention), then you either group pieces by color/shape all at once (______) or follow the edge pieces one by one (Successive), and finally you plan which section to tackle next and adjust when stuck (Planning).",
+     "a": "Simultaneous",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) label and define each of the four PASS components with a distinct real-life example, (2) explain how the components interact during a complex task like reading comprehension, and (3) contrast PASS with psychometric (g-factor) and other information-processing theories (Sternberg, Gardner) in a written response.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Create one literal and one inferential question based on Stanza 2 of the poem. Provide the expected answer for each with textual evidence.",
      "a": "**Literal:** \"What does Aunt Jennifer find hard to pull?\" Expected: \"The ivory needle\" (direct quote). **Inferential:** \"Why does the poet use the word 'ivory' for the needle?\" Expected: \"Ivory suggests something precious, hard, and cold — contrasting with the soft wool and highlighting the difficulty of her domestic labour; it also hints at elephant tusks, linking to the tiger imagery of wild strength she cannot access.\" A poor answer would ask \"Is the needle made of ivory?\" (literal but trivial) or \"Why is she sewing?\" (inferential but unanswerable from text). A poor inferential answer would say \"Because ivory is expensive\" without connecting to the poem's themes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal ______ questions require retrieving information explicitly stated in the text (who, what, where, when).",
+     "a": "comprehension",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are holding a CBSE sample paper and see two questions on this poem: \"What are the tigers doing?\" (literal) and \"Why do the tigers not fear the men beneath the tree?\" (______).",
+     "a": "inferential",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify any question as literal or inferential, answer literal questions by quoting or paraphrasing exact textual evidence, and answer inferential questions by stating a clear inference supported by two or more specific textual clues from the poem.",
+     "self_check": true
     }
    ]
   }

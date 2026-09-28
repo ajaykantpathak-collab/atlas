@@ -1,0 +1,428 @@
+{
+ "catalog": "catalog_class12_physics_leph102.json",
+ "concepts": [
+  {
+   "id": "leph102.2.2.1",
+   "title": "Electrostatic Potential from Work per Unit Charge",
+   "converted_to_compute": true,
+   "formula": "V = W / q",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "V = W / q",
+     "compute": "V = W / q"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Electrostatic Potential from Work per Unit Charge: given W = 33, q = 26, find V.",
+     "a": "1.26923",
+     "self_check": false
+    },
+    {
+     "q": "For Electrostatic Potential from Work per Unit Charge: given W = 65, q = 50, find V.",
+     "a": "1.3",
+     "self_check": false
+    },
+    {
+     "q": "For Electrostatic Potential from Work per Unit Charge: given W = 95, q = 34, find V.",
+     "a": "2.79412",
+     "self_check": false
+    },
+    {
+     "q": "For Electrostatic Potential from Work per Unit Charge: given W = 11, q = 23, find V.",
+     "a": "0.478261",
+     "self_check": false
+    },
+    {
+     "q": "For Electrostatic Potential from Work per Unit Charge: given W = 99, q = 15.8, find V.",
+     "a": "6.26582",
+     "self_check": false
+    },
+    {
+     "q": "For Electrostatic Potential from Work per Unit Charge: given W = 5.7, q = 25, find V.",
+     "a": "0.228",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph102.2.3.1",
+   "title": "Potential Due to a Point Charge",
+   "converted_to_compute": true,
+   "formula": "V = k * Q / r",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "V = k * Q / r",
+     "compute": "V = k * Q / r"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Potential Due to a Point Charge: given k = 46, Q = 86, r = 53, find V.",
+     "a": "74.6415",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Due to a Point Charge: given k = 92, Q = 71, r = 49, find V.",
+     "a": "133.306",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Due to a Point Charge: given k = 62, Q = 84, r = 82, find V.",
+     "a": "63.5122",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Due to a Point Charge: given k = 98, Q = 20, r = 17.2, find V.",
+     "a": "113.953",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Due to a Point Charge: given k = 30, Q = 68, r = 40, find V.",
+     "a": "51",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Due to a Point Charge: given k = 76, Q = 32, r = 13.7, find V.",
+     "a": "177.518",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph102.2.4.1",
+   "title": "Potential Due to a Dipole at a Far Point",
+   "converted_to_compute": true,
+   "formula": "V = k * p * cos_theta / r**2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "V = k * p * cos_theta / r**2",
+     "compute": "V = k * p * cos_theta / r**2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Potential Due to a Dipole at a Far Point: given k = 90, p = 32, cos_theta = 49, r = 4.5, find V.",
+     "a": "6968.89",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Due to a Dipole at a Far Point: given k = 38, p = 80, cos_theta = 84, r = 84, find V.",
+     "a": "36.1905",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Due to a Dipole at a Far Point: given k = 79, p = 47, cos_theta = 12.9, r = 80, find V.",
+     "a": "7.48402",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Due to a Dipole at a Far Point: given k = 84, p = 57, cos_theta = 54, r = 56, find V.",
+     "a": "82.4464",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Due to a Dipole at a Far Point: given k = 42, p = 31, cos_theta = 109, r = 12.6, find V.",
+     "a": "893.915",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Due to a Dipole at a Far Point: given k = 54, p = 98, cos_theta = 16, r = 27, find V.",
+     "a": "116.148",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph102.2.6.1",
+   "title": "Equipotential Surfaces and the Field-Potential Link",
+   "converted_to_compute": true,
+   "formula": "E = dV / dl",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "E = dV / dl",
+     "compute": "E = dV / dl"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Equipotential Surfaces and the Field-Potential Link: given dV = 91, dl = 59, find E.",
+     "a": "1.54237",
+     "self_check": false
+    },
+    {
+     "q": "For Equipotential Surfaces and the Field-Potential Link: given dV = 84, dl = 1.7, find E.",
+     "a": "49.4118",
+     "self_check": false
+    },
+    {
+     "q": "For Equipotential Surfaces and the Field-Potential Link: given dV = 5.1, dl = 87, find E.",
+     "a": "0.0586207",
+     "self_check": false
+    },
+    {
+     "q": "For Equipotential Surfaces and the Field-Potential Link: given dV = 49, dl = 1.7, find E.",
+     "a": "28.8235",
+     "self_check": false
+    },
+    {
+     "q": "For Equipotential Surfaces and the Field-Potential Link: given dV = 95, dl = 3.6, find E.",
+     "a": "26.3889",
+     "self_check": false
+    },
+    {
+     "q": "For Equipotential Surfaces and the Field-Potential Link: given dV = 65, dl = 80, find E.",
+     "a": "0.8125",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph102.2.7.1",
+   "title": "Potential Energy of Two Charges",
+   "converted_to_compute": true,
+   "formula": "U = k * q_1 * q_2 / r_1_2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "U = k * q_1 * q_2 / r_1_2",
+     "compute": "U = k * q_1 * q_2 / r_1_2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Potential Energy of Two Charges: given k = 14.3, q_1 = 14.7, q_2 = 57, r_1_2 = 41, find U.",
+     "a": "292.243",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Energy of Two Charges: given k = 9.6, q_1 = 17.5, q_2 = 60, r_1_2 = 43, find U.",
+     "a": "234.419",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Energy of Two Charges: given k = 80, q_1 = 54, q_2 = 98, r_1_2 = 39, find U.",
+     "a": "10855.4",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Energy of Two Charges: given k = 36, q_1 = 95, q_2 = 5.6, r_1_2 = 68, find U.",
+     "a": "281.647",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Energy of Two Charges: given k = 4.4, q_1 = 74, q_2 = 92, r_1_2 = 48, find U.",
+     "a": "624.067",
+     "self_check": false
+    },
+    {
+     "q": "For Potential Energy of Two Charges: given k = 82, q_1 = 86, q_2 = 51, r_1_2 = 25, find U.",
+     "a": "14386.1",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph102.2.9.1",
+   "title": "Electrostatic Properties of Conductors",
+   "converted_to_compute": true,
+   "formula": "E_surface = sigma / eps_0",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "E_surface = sigma / eps_0",
+     "compute": "E_surface = sigma / eps_0"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Electrostatic Properties of Conductors: given sigma = 90, eps_0 = 97, find E surface.",
+     "a": "0.927835",
+     "self_check": false
+    },
+    {
+     "q": "For Electrostatic Properties of Conductors: given sigma = 75, eps_0 = 41, find E surface.",
+     "a": "1.82927",
+     "self_check": false
+    },
+    {
+     "q": "For Electrostatic Properties of Conductors: given sigma = 54, eps_0 = 61, find E surface.",
+     "a": "0.885246",
+     "self_check": false
+    },
+    {
+     "q": "For Electrostatic Properties of Conductors: given sigma = 60, eps_0 = 87, find E surface.",
+     "a": "0.689655",
+     "self_check": false
+    },
+    {
+     "q": "For Electrostatic Properties of Conductors: given sigma = 98, eps_0 = 65, find E surface.",
+     "a": "1.50769",
+     "self_check": false
+    },
+    {
+     "q": "For Electrostatic Properties of Conductors: given sigma = 5.5, eps_0 = 46, find E surface.",
+     "a": "0.119565",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph102.2.12.1",
+   "title": "Parallel Plate Capacitor Capacitance",
+   "converted_to_compute": true,
+   "formula": "C = eps_0 * A / d",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "C = eps_0 * A / d",
+     "compute": "C = eps_0 * A / d"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Parallel Plate Capacitor Capacitance: given eps_0 = 97, A = 88, d = 69, find C.",
+     "a": "123.71",
+     "self_check": false
+    },
+    {
+     "q": "For Parallel Plate Capacitor Capacitance: given eps_0 = 24, A = 17.8, d = 24, find C.",
+     "a": "17.8",
+     "self_check": false
+    },
+    {
+     "q": "For Parallel Plate Capacitor Capacitance: given eps_0 = 72, A = 15.8, d = 40, find C.",
+     "a": "28.44",
+     "self_check": false
+    },
+    {
+     "q": "For Parallel Plate Capacitor Capacitance: given eps_0 = 73, A = 48, d = 29, find C.",
+     "a": "120.828",
+     "self_check": false
+    },
+    {
+     "q": "For Parallel Plate Capacitor Capacitance: given eps_0 = 94, A = 5.7, d = 94, find C.",
+     "a": "5.7",
+     "self_check": false
+    },
+    {
+     "q": "For Parallel Plate Capacitor Capacitance: given eps_0 = 92, A = 21, d = 26, find C.",
+     "a": "74.3077",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph102.2.13.1",
+   "title": "Dielectric Filling and Capacitance Gain",
+   "converted_to_compute": true,
+   "formula": "C = K * C_0",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "C = K * C_0",
+     "compute": "C = K * C_0"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Dielectric Filling and Capacitance Gain: given K = 97, C_0 = 97, find C.",
+     "a": "9409",
+     "self_check": false
+    },
+    {
+     "q": "For Dielectric Filling and Capacitance Gain: given K = 62, C_0 = 82, find C.",
+     "a": "5084",
+     "self_check": false
+    },
+    {
+     "q": "For Dielectric Filling and Capacitance Gain: given K = 90, C_0 = 82, find C.",
+     "a": "7380",
+     "self_check": false
+    },
+    {
+     "q": "For Dielectric Filling and Capacitance Gain: given K = 58, C_0 = 11.8, find C.",
+     "a": "684.4",
+     "self_check": false
+    },
+    {
+     "q": "For Dielectric Filling and Capacitance Gain: given K = 1.7, C_0 = 18.1, find C.",
+     "a": "30.77",
+     "self_check": false
+    },
+    {
+     "q": "For Dielectric Filling and Capacitance Gain: given K = 2.7, C_0 = 80, find C.",
+     "a": "216",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "leph102.2.14.2",
+   "title": "Capacitors in Parallel",
+   "converted_to_compute": true,
+   "formula": "C = C_1 + C_2",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "C = C_1 + C_2",
+     "compute": "C = C_1 + C_2"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Capacitors in Parallel: given C_1 = 55, C_2 = 15.9, find C.",
+     "a": "70.9",
+     "self_check": false
+    },
+    {
+     "q": "For Capacitors in Parallel: given C_1 = 46, C_2 = 41, find C.",
+     "a": "87",
+     "self_check": false
+    },
+    {
+     "q": "For Capacitors in Parallel: given C_1 = 63, C_2 = 59, find C.",
+     "a": "122",
+     "self_check": false
+    },
+    {
+     "q": "For Capacitors in Parallel: given C_1 = 100, C_2 = 17.7, find C.",
+     "a": "117.7",
+     "self_check": false
+    },
+    {
+     "q": "For Capacitors in Parallel: given C_1 = 88, C_2 = 26, find C.",
+     "a": "114",
+     "self_check": false
+    },
+    {
+     "q": "For Capacitors in Parallel: given C_1 = 44, C_2 = 72, find C.",
+     "a": "116",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

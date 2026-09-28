@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_07_002",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_07_002",
+   "title": "c11_leg_cbse_07_002",
+   "questions": [
+    {
+     "q": "Define \"Municipal Law\" as used in the NCERT Classification of Laws chapter. How does it differ from \"International Law\" in terms of jurisdiction and subjects?",
+     "a": "Municipal Law is the domestic/national law of a country (e.g., Indian Constitution, IPC, CPC) regulating relationships between the State and its citizens, and among citizens themselves, within its territory. International Law governs relations between sovereign States (Public International Law) or private cross-border disputes (Private International Law). A wrong answer (e.g., \"Municipal Law = city bylaws\") reveals the student confuses \"municipal\" (local government) with \"municipal\" (internal/domestic in legal theory).",
+     "self_check": true
+    },
+    {
+     "q": "Explain why \"Criminal Law\" is classified under \"Public Municipal Law\" while \"Law of Torts\" falls under \"Private Municipal Law,\" even though both deal with \"wrongs.\"",
+     "a": "Criminal Law is Public because the offence is against society/State (prosecution by State, remedy = punishment). Law of Torts is Private because the wrong is against an individual (suit by aggrieved person, remedy = damages). A wrong answer (e.g., \"both are public because courts are involved\") shows failure to distinguish the *nature of the right violated* (public right vs private right) and *who initiates action*.",
+     "self_check": true
+    },
+    {
+     "q": "Scenario: A consumer files a complaint in the District Consumer Forum against an e-commerce company for delivering a defective phone. Classify this dispute at all three levels: (1) Subject Matter, (2) Scope, (3) Jurisdiction. Justify each.",
+     "a": "(1) Subject Matter: **Civil Law** — dispute between individual and corporation, remedy sought is compensation/replacement, not punishment. (2) Scope: **Substantive Law** — Consumer Protection Act, 2019 defines the *right* to defect-free goods and *liability* of seller; procedural rules (filing fees, limitation) are separate. (3) Jurisdiction: **Private Municipal Law** — domestic dispute between residents/corporations under Indian statute. A wrong classification (e.g., \"Criminal because cheating\") reveals confusion between civil remedy (compensation) and criminal offence (cheating under IPC S.420 requires mens rea).",
+     "self_check": true
+    },
+    {
+     "q": "Compare \"Public International Law\" and \"Private International Law\" using the criteria: (a) Parties involved, (b) Source of obligation, (c) Example from NCERT. Why is the distinction critical for a lawyer?",
+     "a": "(a) Public: States/International Orgs; Private: Private parties (individuals/corps) with a foreign element. (b) Public: Treaties, custom, UN Charter; Private: Domestic conflict-of-laws rules (e.g., which country's marriage law applies). (c) NCERT Example: Public = border dispute between Antilla and Portico; Private = marriage/adoption with foreign element. Distinction is critical because **forum, applicable law, and enforcement mechanism** differ entirely — Public ICJ vs Private domestic court applying foreign law.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"The Code of Criminal Procedure (CrPC) is a Substantive Law because it defines the punishment for murder.\" Is it accurate? Why or why not?",
+     "a": "Inaccurate. CrPC is **Procedural Law** — it prescribes *how* investigation, trial, and appeal occur (process). IPC Section 302 defines murder and punishment (Substantive). The statement confuses *content* (punishment quantum mentioned in CrPC for procedure) with *nature* (rights/liabilities vs process). A student agreeing reveals inability to separate \"what the law commands\" (substantive) from \"how the law is enforced\" (procedural).",
+     "self_check": true
+    },
+    {
+     "q": "Create a novel 3-column \"Classification Decision Tree\" for a junior student to identify the branch of law for any legal problem. Columns: Question to Ask → Answer Options → Classification Result. Include at least 4 decision nodes covering all NCERT categories.",
+     "a": "| Question to Ask | Answer Options | Classification Result |\n|---|---|---|\n| 1. Is the dispute between States or involving a foreign element? | Yes → Public International Law / Private International Law | International Law (Public/Private) |\n| No → Go to 2 | | |\n| 2. Does the State prosecute for an act harming society? | Yes → Criminal Law | Public Municipal Law |\n| No → Go to 3 | | |\n| 3. Does the law define a right/liability (e.g., contract, property, tort)? | Yes → Substantive Law | Civil/Private Municipal Law |\n| No → Go to 4 | | |\n| 4. Does the law prescribe steps to enforce a right (filing, evidence, appeal)? | Yes → Procedural Law | CPC / CrPC / IT Act procedures |\nA poor answer (e.g., mixing subject matter and scope in one column) shows lack of analytical separation of classification dimensions.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,36 @@
      "q": "Create a real-life word problem (using rupees, metres, or kilograms) where increasing one quantity by 1 changes the total by a specific amount. State the original product, the change, and the new total.",
      "a": "Example: \"A rope is cut into 12 pieces each 5 metres long. Total length = 60 m. If one more piece of 5 m is added, the new total is 65 m.\" A good answer shows the original product (12×5), identifies the other factor (5) as the increase, and computes the new total (65). A poor answer might change the piece length instead of the number of pieces, or add 1 metre instead of 5 metres, showing confusion about which factor corresponds to the increment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When one factor in a ______ is increased by 1, the product increases exactly by the value of the other factor.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: At the last moment, one more student joins, so you need 13 ______.",
+     "a": "notebooks",
+     "self_check": true
+    },
+    {
+     "q": "What is When one factor in a multiplication? State the definition given in this lesson.",
+     "a": "When one factor in a multiplication is increased by 1, the product increases exactly by the value of the other factor.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When one factor in a multiplication is increased by ______, the product increases exactly by the value of the other factor.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about When one factor in a multiplication?",
+     "a": "They treat the increment as an absolute addition to the product rather than a multiplicative addition of the other factor.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute the new product after increasing one factor by 1 without performing full multiplication, by adding the other factor to the original product.",
+     "self_check": true
     }
    ]
   }

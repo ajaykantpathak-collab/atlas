@@ -34,6 +34,26 @@
      "q": "Create a new string processing task that requires using at least three of the four methods (`upper`, `lower`, `find`, `replace`) in sequence to solve a realistic problem. Describe the task and write the Python code.",
      "a": "Task: Sanitize a user-entered email by converting to lowercase, checking if it contains `'@'` (using `find`), and replacing any spaces with empty string. Code: `email = ' User@Example.Com '; email = email.strip().lower(); if email.find('@') != -1: email = email.replace(' ', ''); print(email)`. A poor answer uses only one method or applies them in an order that doesn't make sense (e.g., replacing after checking for `@` but before lowercasing), showing lack of synthesis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: String methods upper(), lower(), find(), and replace() are built-in functions that return new strings with specific ______: upper() converts all alphabetic characters to uppercase, lower() converts all to lowercase, find(sub[, start[, end]]) returns the lowest index of the substring sub (or -1 if not found), and replace(old, new[, count]) returns a copy with all occurrences of old replaced by new (or up to count occurrences).",
+     "a": "transformations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a login system for a school library where usernames are case-______ but passwords are case-sensitive.",
+     "a": "insensitive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: String methods upper(), lower(), find(), and replace() are built-in functions that return new strings with specific transformations: upper() converts all alphabetic characters to uppercase, lower() converts all to lowercase, find(sub[, start[, end]]) returns the lowest index of the substring sub (or -______ if not found), and replace(old, new[, count]) returns a copy with all occurrences of old replaced by new (or up to count occurrences).",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to write Python code that correctly uses upper(), lower(), find(), and replace() to manipulate strings, predict the exact output of nested method calls, and explain why the original string remains unchanged after each method call.",
+     "self_check": true
     }
    ]
   }

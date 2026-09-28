@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using household items to demonstrate that the angle of contact for water on a clean glass surface is acute, while for mercury it is obtuse. Describe the procedure, observations, and how you would estimate θ qualitatively.",
      "a": "Procedure: (1) Take a clean glass beaker and a small test tube. (2) Pour water into the beaker and observe the meniscus at the wall – it curves upward (concave). (3) Carefully pour a small amount of mercury (from a broken thermometer, with safety gloves) into the test tube – the meniscus curves downward (convex). (4) To estimate θ: for water, the meniscus nearly meets the wall vertically → θ ≈ 0°. For mercury, the meniscus meets the wall at a steep angle inside the liquid → θ > 90° (typically ~140°). A poor answer that only says \"water wets, mercury doesn't\" without describing the meniscus shape or the geometric angle shows the student cannot connect the macroscopic observation to the defined angle of contact.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The angle of contact (θ) is the angle measured inside the liquid between the tangent to the liquid-air ______ at the point of contact and the solid surface.",
+     "a": "interface",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a glass of water and a glass of mercury side by side: the water surface curves upward at the edges (concave meniscus) while mercury curves ______ (convex meniscus).",
+     "a": "downward",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If S_sa > S_sl, cos θ is positive → θ < ______° (acute) → liquid spreads/wets.",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) define angle of contact and identify it correctly in a diagram of a meniscus, (2) use Young's equation (S_la cos θ = S_sa - S_sl) to predict wetting behavior given interfacial tensions, and (3) explain why water forms a concave meniscus in glass while mercury forms a convex meniscus, linking the sign of cos θ to.",
+     "self_check": true
     }
    ]
   }

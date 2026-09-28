@@ -34,6 +34,31 @@
      "q": "Design a simple microscopy-based experiment to distinguish between a culture of cyanobacteria (prokaryotic) and Chlamydomonas (eukaryotic green alga) without using stains. Specify what you would observe and how each observation confirms the cell type.",
      "a": "Use phase-contrast microscopy: cyanobacteria will show no distinct nucleus, uniform cytoplasm with thylakoid membranes (no chloroplasts), and possible heterocysts; Chlamydomonas will show a clear nucleus, cup-shaped chloroplast with pyrenoid, two anterior flagella, and contractile vacuoles. A poor design might suggest Gram staining (both are Gram-negative) or size alone (overlap exists), revealing the student doesn't know which structures are visibly distinct in unstained live cells.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Prokaryotic cells are cells lacking a true membrane-bound nucleus and membrane-bound organelles, with genetic material (circular DNA) lying freely in the cytoplasm, whereas eukaryotic cells possess a well-defined nucleus enclosed by a double-layered nuclear envelope and contain membrane-bound organelles such as ______, endoplasmic reticulum, Golgi apparatus, lysosomes, and plastids.",
+     "a": "mitochondria",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a drop of curd under a microscope - you will see tiny rod-shaped Lactobacillus bacteria (______) alongside larger, complex epithelial cells from your cheek (eukaryotes).",
+     "a": "prokaryotes",
+     "self_check": true
+    },
+    {
+     "q": "What is Prokaryotic cells? State the definition given in this lesson.",
+     "a": "Prokaryotic cells are cells lacking a true membrane-bound nucleus and membrane-bound organelles, with genetic material (circular DNA) lying freely in the cytoplasm, whereas eukaryotic cells possess a well-defined nucleus enclosed by a double-layered nuclear envelope and contain membrane-bound organelles such as mitochondria, endoplasmic.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Prokaryotic cells?",
+     "a": "Students believe \"prokaryotic cells are simpler and therefore primitive/less evolved than eukaryotic cells.\" This leads them to think prokaryotes cannot perform complex functions like regulated gene expression, aerobic respiration, or photosynthesis.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify any given cell as prokaryotic or eukaryotic based on the presence/absence of a nuclear envelope and membrane-bound organelles, and can explain the structural basis for functional differences such as gene expression, protein synthesis, and cell division mechanisms between the two cell types.",
+     "self_check": true
     }
    ]
   }

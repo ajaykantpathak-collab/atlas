@@ -34,6 +34,21 @@
      "q": "Design a scatter diagram-based field study for your district to investigate the relationship between groundwater depth (m) and area under paddy cultivation (ha) across 20 villages. List the steps from data collection to geographical interpretation, including how you would handle villages with missing data.",
      "a": "Steps: (1) Obtain village-level groundwater depth (from CGWB) and paddy area (from agricultural census) for the same year. (2) Exclude villages with missing data for either variable; note exclusions. (3) Plot groundwater depth (X) vs. paddy area (Y) with appropriate scales. (4) Describe pattern: expect negative correlation (deeper water → less paddy). (5) Identify outliers (e.g., villages with canal irrigation despite deep groundwater) and explain them using local knowledge. (6) Conclude on the strength of groundwater as a limiting factor. A poor answer omits handling missing data, ignores outliers, or treats correlation as proof of causation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A scatter diagram is a two-dimensional graphical plot that displays the ______ between two geographical variables by representing each observation as a point whose coordinates correspond to the values of the two variables.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a farmer in Punjab comparing the amount of ______ applied per hectare (X) with the wheat yield obtained (Y) over the last ten seasons.",
+     "a": "fertilizer",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can construct a scatter diagram from raw bivariate geographical data, identify the type and strength of correlation by visual inspection, distinguish between correlation and causation, and explain why a linear trend line may or may not be appropriate for the observed pattern.",
+     "self_check": true
     }
    ]
   }

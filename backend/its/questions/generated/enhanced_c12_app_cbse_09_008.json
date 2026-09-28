@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_09_008",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_09_008",
+   "title": "c12_app_cbse_09_008",
+   "questions": [
+    {
+     "q": "Define CAGR in your own words and state its formula. What does each variable represent?",
+     "a": "**Correct answer:** CAGR = (EV/SV)^(1/n) - 1, where EV = ending value, SV = starting value, n = number of periods (usually years). It is the constant annual compounding rate that grows SV to EV over n periods.  \n**Wrong answer reveals:** If the student writes CAGR = (Total Return)/n or uses arithmetic mean, they confuse CAGR with Average Annual Growth Rate (AAGR). If they forget the \"-1\" or the exponent 1/n, they have not internalised the compounding structure. This is the #1 board exam error — writing the formula incorrectly or misidentifying n (e.g., counting years as 5 when data spans 2015–2020 inclusive, which is 5 years but n=5 only if endpoints are start of 2015 to end of 2020; often n = number of *intervals*, not number of data points).",
+     "self_check": true
+    },
+    {
+     "q": "An investment grows from ₹5,000 to ₹25,000 in 4 years. A student calculates CAGR as (25000-5000)/(5000×4) × 100 = 100%. Explain why this is wrong and compute the correct CAGR.",
+     "a": "**Correct answer:** The student computed the *arithmetic average annual return* (simple interest style), not CAGR. CAGR uses geometric compounding: CAGR = (25000/5000)^(1/4) - 1 = 5^(0.25) - 1 ≈ 1.4953 - 1 = 0.4953 = **49.53%**.  \n**Wrong answer reveals:** The student does not understand that CAGR is a *geometric* mean, not arithmetic. They treat growth as additive (simple interest) rather than multiplicative (compound interest). This misconception persists because the arithmetic formula is simpler and \"feels\" like an average. In board exams, this error appears when students are asked to \"calculate the average growth rate\" and they default to (EV-SV)/(SV×n).",
+     "self_check": true
+    },
+    {
+     "q": "A mutual fund’s NAV was ₹100 on 1 Jan 2020, ₹115 on 1 Jan 2021, ₹105 on 1 Jan 2022, and ₹130 on 1 Jan 2023. Calculate the CAGR for the 3-year period 2020–2023. Then calculate the arithmetic average of the three yearly growth rates. Compare and explain the difference.",
+     "a": "**Correct answer:**  \nCAGR = (130/100)^(1/3) - 1 = 1.3^(1/3) - 1 ≈ 1.0914 - 1 = **9.14%**.  \nYearly rates: 2020→21: +15%; 2021→22: -8.70%; 2022→23: +23.81%.  \nArithmetic average = (15 - 8.70 + 23.81)/3 = 30.11/3 ≈ **10.04%**.  \nCAGR (9.14%) < Arithmetic average (10.04%) because volatility drags down geometric mean.  \n**Wrong answer reveals:** If the student computes CAGR using only the first and last values but miscounts n (e.g., uses n=4 because there are 4 data points), they get 1.3^(1/4)-1 ≈ 6.78% — wrong. If they average the yearly rates and call it CAGR, they confuse AAGR with CAGR. The key test: does the student recognise that CAGR *ignores intermediate volatility* and only uses endpoints?",
+     "self_check": true
+    },
+    {
+     "q": "Two investments A and B both start at ₹10,000 and end at ₹20,000 after 5 years. Investment A grows steadily at 14.87% every year. Investment B: Year 1: +50%, Year 2: -20%, Year 3: +30%, Year 4: -10%, Year 5: +25%. Without calculating, which has the higher CAGR? Justify.",
+     "a": "**Correct answer:** Both have the **same CAGR** (≈14.87%). CAGR depends *only* on starting value, ending value, and number of periods — not on the path taken. The intermediate volatility in B is irrelevant to CAGR.  \n**Wrong answer reveals:** If the student says \"A has higher CAGR because it’s steady\" or \"B has higher CAGR because it had big gains,\" they fundamentally misunderstand CAGR as a *path-independent* measure. They are confusing CAGR with risk-adjusted metrics (like Sharpe ratio) or with the *experience* of the investor. This is a classic JEE/NEET trap question — testing whether the student knows CAGR is purely a geometric endpoint-to-endpoint rate.",
+     "self_check": true
+    },
+    {
+     "q": "A company’s revenue was ₹53,000 in 2012 and ₹105,000 in 2016. The CFO claims \"Our revenue grew at 18.63% CAGR.\" The CEO says \"But our year-by-year growth rates were 14.7%, 20.8%, 17.1%, and 22.1% — the average is 18.7%, so CAGR is roughly the same.\" Evaluate both statements. Who is more accurate and why?",
+     "a": "**Correct answer:** The CFO is accurate. CAGR = (105000/53000)^(1/4) - 1 = (1.9811)^(0.25) - 1 ≈ 1.1863 - 1 = **18.63%**. The CEO’s arithmetic average (18.7%) is *close* here because growth rates are all positive and not extremely volatile, but it is **not** the CAGR. The CEO’s method would fail if any year had negative growth. CAGR is the correct measure for compounding growth; arithmetic average overstates true compound growth when volatility exists.  \n**Wrong answer reveals:** If the student agrees with the CEO that \"they’re roughly the same so it doesn’t matter,\" they miss the *conceptual distinction*: CAGR is the *only* rate that, when compounded annually, reproduces the final value. Arithmetic average does not have this property. In board exams, this distinction is explicitly tested in \"Differentiate between CAGR and Average Annual Growth Rate\" questions (2–3 marks).",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic 5-year investment scenario (with at least one negative year) where the arithmetic average growth rate is *positive* but the CAGR is *negative*. Show the starting value, ending value, and all intermediate values. Explain why this happens.",
+     "a": "**Example answer:**  \nStart: ₹1,00,000  \nYear 1: +100% → ₹2,00,000  \nYear 2: -60% → ₹80,000  \nYear 3: +50% → ₹1,20,000  \nYear 4: -40% → ₹72,000  \nYear 5: +10% → ₹79,200  \nEnd: ₹79,200 (loss of ₹20,800)  \nYearly rates: +100%, -60%, +50%, -40%, +10% → Arithmetic average = (100-60+50-40+10)/5 = 60/5 = **+12%**  \nCAGR = (79200/100000)^(1/5) - 1 = 0.792^0.2 - 1 ≈ 0.955 - 1 = **-4.5%**  \n**Why:** Arithmetic average treats +100% and -60% as symmetric, but a 60% loss requires a 150% gain to recover. Volatility destroys capital geometrically.  \n**Poor answer reveals:** If the student cannot construct such a scenario, they do not grasp the *asymmetry of percentage gains/losses* — the core reason CAGR exists. They likely think \"average growth rate\" is always positive if there are more up years than down years.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

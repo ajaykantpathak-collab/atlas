@@ -34,6 +34,26 @@
      "q": "Create a scenario with two types of marbles where the part-to-whole ratio is 3:10. How many marbles of each type must you have?",
      "a": "The student must identify that 3 is the part and 10 is the total, meaning the other part must be 7. An answer like \"3 blue and 7 red\" is correct; an answer like \"3 blue and 10 red\" shows a failure to distinguish between the part and the whole.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A part-to-part ratio compares two specific groups or ______ within a whole, while a part-to-whole ratio compares one specific group to the entire collection of all groups combined.",
+     "a": "quantities",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a fruit basket with 3 apples and 5 ______.",
+     "a": "oranges",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify whether a ratio relationship describes a \"part versus part\" or \"part versus total\" scenario and correctly calculate both types given a set of values.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you have a fruit basket with 3 apples and 5 oranges.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

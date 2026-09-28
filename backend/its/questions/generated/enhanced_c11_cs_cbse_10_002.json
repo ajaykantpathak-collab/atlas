@@ -34,6 +34,26 @@
      "q": "Create a new real-world analogy for a stack that is NOT a pile of plates, books, or browser history. Describe the \"push\" and \"pop\" actions in your analogy and explain why LIFO is the only logical order for this scenario.",
      "a": "**Analogy: A spiral-bound notebook where you write notes on the topmost blank page.**\n- **Push**: Writing a new note on the first blank page you encounter (which is always the topmost unused page).\n- **Pop**: Tearing out the most recently written page to discard or review it.\n- **Why LIFO**: You physically cannot write on a page buried under other written pages without tearing out the pages above it first. The binding forces sequential access from the top. Any attempt to access a middle page violates the physical constraint.\nA poor answer that describes a loose-leaf binder (where you can open any page) reveals the student doesn't grasp that LIFO emerges from physical or logical constraints, not arbitrary choice. A good answer identifies a constraint that forces top-only access.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A stack is a linear data ______ that follows the Last-In-First-Out (LIFO) principle, where insertion and deletion of elements occur only at one end called the top of the stack, making the most recently added element the first one to be removed.",
+     "a": "structure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are packing a suitcase for a trip: you place items one on top of ______, and when you need something urgently at the airport, you can only access the item you packed last — the one on top.",
+     "a": "another",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) define stack and LIFO principle using precise terminology including \"linear data structure\", \"top pointer\", and \"restricted access\", and (2) trace the state of a stack after a sequence of push/pop operations, identifying which element is at the top and explaining why LIFO governs the removal order.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are packing a suitcase for a trip: you place items one on top of another, and when you need ______ urgently at the airport, you can only access the item you packed last — the one on top.",
+     "a": "something",
+     "self_check": true
     }
    ]
   }

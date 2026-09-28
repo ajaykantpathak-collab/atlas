@@ -34,6 +34,26 @@
      "q": "Create a real-world problem (Indian context) where this theorem is used to find an unknown length. Provide the problem statement, a diagram description, and the solution steps.",
      "a": "Example: A circular garden of radius 15 m has a straight path (chord) across it. The gardener wants to place a sprinkler at the centre that waters exactly up to the path. If the path is 18 m long, how far from the centre should the sprinkler's water reach? Solution: Half path = 9 m. Distance from centre = √(15² - 9²) = √(225 - 81) = √144 = 12 m. A poor answer (e.g., problem not using the theorem, or missing the bisecting step) shows inability to translate the geometric property into a practical scenario.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In a circle, the ______ drawn from the centre to any chord bisects that chord.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ playground with a straight walking track (chord) across it.",
+     "a": "circular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can prove the theorem using RHS congruence of triangles, apply it to calculate unknown chord lengths or distances from the centre, and correctly distinguish it from its converse (the perpendicular bisector of a chord passes through the centre).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a circular ______ with a straight walking track (chord) across it.",
+     "a": "playground",
+     "self_check": true
     }
    ]
   }

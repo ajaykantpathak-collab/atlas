@@ -34,6 +34,21 @@
      "q": "Create an inferential comprehension question for the episode where Tao Ying measures Xiao Ye at home (109 cm) and writes the letter. The question must require combining at least three separate textual details to answer. Provide the question only.",
      "a": "Question: \"How do Tao Ying's actions after the temple incident — measuring Xiao Ye at night, seeking the Writer's help, and drafting the letter — collectively reveal her understanding of motherhood as performance and accountability?\" A strong answer must connect: (1) the private measurement (accountability to truth), (2) consulting the Writer (performance for an audience), (3) the letter's rhetorical strategy (crafting a narrative for justice). A weak answer lists actions without synthesizing the *dual nature* of her motherhood.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal comprehension questions require retrieving explicitly stated ______ from the text (who, what, where, when), while inferential comprehension questions require drawing logical conclusions by combining textual clues with reasoning (why, how, what is implied).",
+     "a": "information",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're in the exam hall and see a question: \"Why did Tao Ying refuse the temple officials' ______?\" Your first instinct might be to write \"Because she was proud.\" But that's an inference — where is your evidence?",
+     "a": "compensation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently distinguish between literal and inferential questions, locate exact textual evidence for literal answers, and construct logically supported inferences for implicit meanings — writing answers that follow the Point-Evidence-Explanation structure expected in CBSE 2-mark and 3-mark questions.",
+     "self_check": true
     }
    ]
   }

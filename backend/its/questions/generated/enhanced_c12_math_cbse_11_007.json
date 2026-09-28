@@ -34,6 +34,26 @@
      "q": "Construct a real-world problem where a plane equation through a given point with a given normal is needed. Provide the point, normal, and ask for the equation. Then modify the problem so that the plane must pass through three given points instead.",
      "a": "Example: A solar panel is installed on a roof such that its surface passes through the point \\((3, 2, 5)\\) (in meters) and is perpendicular to the sun's rays direction vector \\(2\\mathbf{i} - 3\\mathbf{j} + 6\\mathbf{k}\\). Find the plane equation. Modified version: The panel's corners are at \\((3,2,5)\\), \\((5,1,8)\\), and \\((2,4,7)\\). Find the plane equation. A poor answer would give trivial coordinates or collinear points, showing the student doesn't understand the geometric requirement of non-collinearity for three points to define a plane.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A plane in three-dimensional space is uniquely determined if it passes through a given point and has a known normal vector (direction ______ to the plane).",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: To write the equation of this roof plane, we first need a vector ______ to the roof.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key insight is that a plane is completely defined by a point and a normal vector — just as a line in ______D is defined by a point and a slope.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive both vector and Cartesian equations of a plane passing through a given point with a specified normal vector, and can also find the equation of a plane passing through three non-collinear points by first determining the normal vector via cross product.",
+     "self_check": true
     }
    ]
   }

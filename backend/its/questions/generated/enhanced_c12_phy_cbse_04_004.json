@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a battery, a long straight wire, a compass, and a ruler to verify the inverse-square dependence of magnetic field on distance from a long straight wire. Describe the procedure and what you would plot.",
      "a": "Place the wire vertically, compass at a known horizontal distance r. Pass a steady current I. Note the deflection θ of the compass needle (tanθ ∝ B). Repeat for several r. Plot B (or tanθ) vs 1/r². A straight line through origin confirms B ∝ 1/r². A poor answer would not mention keeping current constant, using the tangent law, or plotting the correct variables.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Biot-Savart law gives the magnetic field dB produced at a point P by an ______ current element I dl.",
+     "a": "infinitesimal",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a compass needle placed near a straight wire carrying current from a battery — the needle deflects tangentially to circles around the wire (Oersted's ______).",
+     "a": "experiment",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: We write the proportionality, introduce µ₀/______π, and use the cross product to get direction.",
+     "a": "4",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can (1) write the Biot-Savart law in vector and magnitude form with correct SI units, (2) determine the direction of dB using the right-hand screw rule for a given current element and observation point, (3) set up the integral for the magnetic field of a straight wire, circular arc, or circular loop on its axis, and (4) explain.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a compass needle placed near a straight wire carrying current from a battery — the needle deflects ______ to circles around the wire (Oersted's experiment).",
+     "a": "tangentially",
+     "self_check": true
     }
    ]
   }

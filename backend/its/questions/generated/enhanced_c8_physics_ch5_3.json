@@ -34,6 +34,31 @@
      "q": "Design a simple 3-step test using only a torch, a filter paper, and a stopwatch to distinguish between an unknown solution and an unknown suspension. Write the steps and the expected observation for each mixture type.",
      "a": "Step 1: Shine torch through each liquid in a dark room. Solution: no visible beam. Suspension: visible beam (Tyndall). Step 2: Filter each through filter paper. Solution: no residue, clear filtrate. Suspension: solid residue on paper. Step 3: Leave filtrates undisturbed for 5 minutes. Solution: remains clear. Suspension filtrate (if any) may still show settling if fine particles passed. A poor answer omits the torch test or uses only one test, showing inability to design a multi-evidence classification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A uniform mixture (solution) is a ______ mixture where solute particles are molecularly dispersed (<1 nm) in a solvent, do not scatter light, and cannot be separated by filtration.",
+     "a": "homogeneous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a glass of nimbu pani (lemonade) and a glass of muddy water from a monsoon puddle.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A uniform mixture (solution) is a homogeneous mixture where solute particles are molecularly dispersed (<______ nm) in a solvent, do not scatter light, and cannot be separated by filtration.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify an unknown mixture as a solution or suspension by performing and interpreting three tests: Tyndall effect (light scattering), filtration (residue on filter paper), and stability (settling over time), and explain the particle-size reasoning behind each observation.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a glass of nimbu pani (______) and a glass of muddy water from a monsoon puddle.",
+     "a": "lemonade",
+     "self_check": true
     }
    ]
   }

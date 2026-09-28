@@ -314,7 +314,7 @@
     "Sketch the top view of a brick.",
     "Which view shows the circular face of a can?"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -331,7 +331,16 @@
      "action": "Observe from the side",
      "explain": "Look at the object from the left or right to find the side profile."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "combine components with the vector formula",
+     "explain": "combine components with the vector formula: mag = sqrt(-2 * -2 + 4 * 4 + 2 * 2) gives 4.89898",
+     "compute": "mag = sqrt(-2 * -2 + 4 * 4 + 2 * 2)"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

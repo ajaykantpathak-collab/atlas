@@ -34,6 +34,21 @@
      "q": "Create a 2-mark inferential question on Sonnet 116 that requires synthesizing imagery from two different quatrains, and provide a model answer using PEEL structure.",
      "a": "Model question: \"How do the maritime metaphors in quatrain 2 ('ever-fixed mark,' 'star,' 'wandering bark,' 'tempests') and the agricultural metaphor in quatrain 3 ('bending sickle's compass,' 'rosy lips and cheeks') together define love's dual nature as both guide and survivor?\"\nModel PEEL answer:\nP: Shakespeare portrays love as both an external guide and an internal endurance.\nE: Quatrain 2 uses navigation imagery — \"ever-fixed mark,\" \"star to every wandering bark\" — positioning love as a constant reference point for lost souls.\nE: Quatrain 3 shifts to harvest imagery — Time's \"bending sickle\" reaps youth (\"rosy lips and cheeks\"), yet love \"bears it out even to the edge of doom,\" surviving the reaping.\nL: Together, love guides *through* life's storms (maritime) and persists *beyond* life's termination (agricultural), defining constancy as both directional and durational.\nA poor answer would list metaphors without the synthesizing \"dual nature\" insight, revealing compartmentalized rather than integrated reading.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal comprehension questions require retrieving explicitly stated ______ from the text, while inferential comprehension questions demand logical deduction using textual evidence, context, and poetic devices to derive meaning not directly stated.",
+     "a": "information",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're sitting in the CBSE Class 11 English exam and see a 3-mark question: \"How does ______ use negatives to define true love in Sonnet 116?\" Your first instinct might be to list the negative words — but that's literal recall, not inferential analysis.",
+     "a": "Shakespeare",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently answer both literal and inferential questions on unseen poetry by: (1) identifying explicit textual evidence for literal answers, (2) constructing logical inferences supported by quotations and poetic device analysis, and (3) structuring responses using the Point-Evidence-Explanation-Link (PEEL) format.",
+     "self_check": true
     }
    ]
   }

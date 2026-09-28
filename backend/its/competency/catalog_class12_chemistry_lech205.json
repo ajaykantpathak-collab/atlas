@@ -22,13 +22,28 @@
     "name the monosaccharides released when sucrose and maltose each hydrolyse",
     "sort starch, cellulose and glycogen into the right carbohydrate class"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "test the hydrolysis outcome",
-     "explain": "no further hydrolysis means monosaccharide; two to ten units oligosaccharide; many units polysaccharide"},
-    {"step": 2, "action": "look for a free carbonyl",
-     "explain": "a free aldehydic or ketonic group reduces Tollens and Fehling reagents, tagging the sugar as reducing"}
-   ]
+    {
+     "step": 1,
+     "action": "test the hydrolysis outcome",
+     "explain": "no further hydrolysis means monosaccharide; two to ten units oligosaccharide; many units polysaccharide"
+    },
+    {
+     "step": 2,
+     "action": "look for a free carbonyl",
+     "explain": "a free aldehydic or ketonic group reduces Tollens and Fehling reagents, tagging the sugar as reducing"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "carbohydrate_groups = monosaccharides + oligosaccharides + polysaccharides",
+     "compute": "carbohydrate_groups = monosaccharides + oligosaccharides + polysaccharides"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lech205.10.1.2",
@@ -48,10 +63,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "match reagent to structural claim",
-     "explain": "HI tests the carbon skeleton, hydroxylamine and HCN the carbonyl, bromine water the aldehyde choice"},
-    {"step": 2, "action": "read the derivative formulas",
-     "explain": "pentaacetate counts OH groups and saccharic acid exposes the CH2OH at carbon one"}
+    {
+     "step": 1,
+     "action": "match reagent to structural claim",
+     "explain": "HI tests the carbon skeleton, hydroxylamine and HCN the carbonyl, bromine water the aldehyde choice"
+    },
+    {
+     "step": 2,
+     "action": "read the derivative formulas",
+     "explain": "pentaacetate counts OH groups and saccharic acid exposes the CH2OH at carbon one"
+    }
    ]
   },
   {
@@ -72,10 +93,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "cyclise the chain internally",
-     "explain": "the C5 OH adds to the C1 aldehyde forming a hemiacetal, hiding the free CHO"},
-    {"step": 2, "action": "compare configurations at C1",
-     "explain": "the two arrangements of the new OH define the alpha and beta anomers in pyranose or furanose rings"}
+    {
+     "step": 1,
+     "action": "cyclise the chain internally",
+     "explain": "the C5 OH adds to the C1 aldehyde forming a hemiacetal, hiding the free CHO"
+    },
+    {
+     "step": 2,
+     "action": "compare configurations at C1",
+     "explain": "the two arrangements of the new OH define the alpha and beta anomers in pyranose or furanose rings"
+    }
    ]
   },
   {
@@ -96,10 +123,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "locate the oxygen bridge",
-     "explain": "the glycosidic bond names the two anomeric or carrier carbons it spans"},
-    {"step": 2, "action": "check the leftover carbonyl",
-     "explain": "an unbound aldehydic or ketonic group keeps the sugar reducing"}
+    {
+     "step": 1,
+     "action": "locate the oxygen bridge",
+     "explain": "the glycosidic bond names the two anomeric or carrier carbons it spans"
+    },
+    {
+     "step": 2,
+     "action": "check the leftover carbonyl",
+     "explain": "an unbound aldehydic or ketonic group keeps the sugar reducing"
+    }
    ]
   },
   {
@@ -120,10 +153,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "add the two signed rotations",
+    {
+     "step": 1,
+     "action": "add the two signed rotations",
      "explain": "equal moles of the two monosaccharides contribute their rotations algebraically",
-     "compute": "net_rot = glucose_rot + fructose_rot"}
-   ]
+     "compute": "net_rot = glucose_rot + fructose_rot"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_rot = glucose_rot + fructose_rot",
+     "compute": "net_rot = glucose_rot + fructose_rot"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lech205.10.1.6",
@@ -141,13 +186,28 @@
     "why is cellulose called the most abundant organic substance of the plant kingdom",
     "where does the animal body park its carbohydrate reserve"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "read the glucose stereochemistry",
-     "explain": "alpha-glucose polymers store fuel while beta-glucose chains build walls"},
-    {"step": 2, "action": "note the branching pattern",
-     "explain": "C1-C4 links extend chains and C1-C6 links throw branches in amylopectin and glycogen"}
-   ]
+    {
+     "step": 1,
+     "action": "read the glucose stereochemistry",
+     "explain": "alpha-glucose polymers store fuel while beta-glucose chains build walls"
+    },
+    {
+     "step": 2,
+     "action": "note the branching pattern",
+     "explain": "C1-C4 links extend chains and C1-C6 links throw branches in amylopectin and glycogen"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "starch_components = amylose + amylopectin",
+     "compute": "starch_components = amylose + amylopectin"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lech205.10.2.1",
@@ -167,10 +227,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "let the groups talk to each other",
-     "explain": "intramolecular proton transfer from COOH to NH2 gives the dipolar ion"},
-    {"step": 2, "action": "count amino versus carboxyl groups",
-     "explain": "the balance sorts the acid as neutral, basic or acidic; diet sorts it as essential or not"}
+    {
+     "step": 1,
+     "action": "let the groups talk to each other",
+     "explain": "intramolecular proton transfer from COOH to NH2 gives the dipolar ion"
+    },
+    {
+     "step": 2,
+     "action": "count amino versus carboxyl groups",
+     "explain": "the balance sorts the acid as neutral, basic or acidic; diet sorts it as essential or not"
+    }
    ]
   },
   {
@@ -191,10 +257,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "condense the acid end with the amine end",
-     "explain": "each peptide bond is an amide built by eliminating one water molecule"},
-    {"step": 2, "action": "stack the folding levels",
-     "explain": "sequence, then helix or sheet, then overall shape, then sub-unit assembly"}
+    {
+     "step": 1,
+     "action": "condense the acid end with the amine end",
+     "explain": "each peptide bond is an amide built by eliminating one water molecule"
+    },
+    {
+     "step": 2,
+     "action": "stack the folding levels",
+     "explain": "sequence, then helix or sheet, then overall shape, then sub-unit assembly"
+    }
    ]
   },
   {
@@ -215,10 +287,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "subtract one from the residue count",
+    {
+     "step": 1,
+     "action": "subtract one from the residue count",
      "explain": "every extra residue beyond the first adds exactly one peptide bond",
-     "compute": "peptide_bonds = residue_count - 1"}
-   ]
+     "compute": "peptide_bonds = residue_count - 1"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "peptide_bonds = residue_count - 1",
+     "compute": "peptide_bonds = residue_count - 1"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lech205.10.3.1",
@@ -238,10 +322,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "read the name for the job",
-     "explain": "substrate plus -ase (maltase) or reaction class plus -ase (oxidoreductase) tells the catalytic task"},
-    {"step": 2, "action": "connect the barrier lowering",
-     "explain": "the enzyme offers a surface that needs far less activation energy than the uncatalysed route"}
+    {
+     "step": 1,
+     "action": "read the name for the job",
+     "explain": "substrate plus -ase (maltase) or reaction class plus -ase (oxidoreductase) tells the catalytic task"
+    },
+    {
+     "step": 2,
+     "action": "connect the barrier lowering",
+     "explain": "the enzyme offers a surface that needs far less activation energy than the uncatalysed route"
+    }
    ]
   },
   {
@@ -262,13 +352,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "subtract the two barriers",
+    {
+     "step": 1,
+     "action": "subtract the two barriers",
      "explain": "the absolute saving is the uncatalysed barrier minus the enzyme barrier",
-     "compute": "saved = acid_ea - enzyme_ea"},
-    {"step": 2, "action": "scale by the uncatalysed barrier",
+     "compute": "saved = acid_ea - enzyme_ea"
+    },
+    {
+     "step": 2,
+     "action": "scale by the uncatalysed barrier",
      "explain": "dividing by the original barrier and multiplying by 100 gives the percent drop",
-     "compute": "pct_drop = (saved / acid_ea) * 100"}
-   ]
+     "compute": "pct_drop = (saved / acid_ea) * 100"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "pct_drop = ((acid_ea - enzyme_ea) / acid_ea) * 100",
+     "compute": "pct_drop = ((acid_ea - enzyme_ea) / acid_ea) * 100"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lech205.10.4.1",
@@ -286,13 +391,28 @@
     "sort vitamins A, B6, C and D into their solubility classes",
     "which vitamin deficiency hardens the cornea and causes night blindness"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "sort by solvent",
-     "explain": "fat-soluble A, D, E, K store; water-soluble B group and C flush out"},
-    {"step": 2, "action": "match disease to missing letter",
-     "explain": "each deficiency paints its own clinical picture from Table 10.3"}
-   ]
+    {
+     "step": 1,
+     "action": "sort by solvent",
+     "explain": "fat-soluble A, D, E, K store; water-soluble B group and C flush out"
+    },
+    {
+     "step": 2,
+     "action": "match disease to missing letter",
+     "explain": "each deficiency paints its own clinical picture from Table 10.3"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "fat_soluble_set = vitamins_a_d_e_k",
+     "compute": "fat_soluble_set = vitamins_a_d_e_k"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lech205.10.5.1",
@@ -311,13 +431,28 @@
     "what products form when a DNA nucleotide bearing thymine is hydrolysed",
     "which sugar distinguishes RNA from DNA structurally"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "build up the unit",
-     "explain": "base plus sugar makes the nucleoside; adding phosphate at 5-prime makes the nucleotide"},
-    {"step": 2, "action": "chain the units",
-     "explain": "the phosphodiester bridge alternates sugar and phosphate down the strand with bases hanging off"}
-   ]
+    {
+     "step": 1,
+     "action": "build up the unit",
+     "explain": "base plus sugar makes the nucleoside; adding phosphate at 5-prime makes the nucleotide"
+    },
+    {
+     "step": 2,
+     "action": "chain the units",
+     "explain": "the phosphodiester bridge alternates sugar and phosphate down the strand with bases hanging off"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "nucleotide = nucleoside + phosphate_group",
+     "compute": "nucleotide = nucleoside + phosphate_group"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lech205.10.5.2",
@@ -337,10 +472,16 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "check the pairing partners",
-     "explain": "A-T and C-G hydrogen bonding locks the double helix while RNA pairs A-U when it folds"},
-    {"step": 2, "action": "divide the duties",
-     "explain": "DNA archives the message; mRNA carries it, rRNA builds the site, tRNA ferries amino acids"}
+    {
+     "step": 1,
+     "action": "check the pairing partners",
+     "explain": "A-T and C-G hydrogen bonding locks the double helix while RNA pairs A-U when it folds"
+    },
+    {
+     "step": 2,
+     "action": "divide the duties",
+     "explain": "DNA archives the message; mRNA carries it, rRNA builds the site, tRNA ferries amino acids"
+    }
    ]
   },
   {
@@ -359,13 +500,28 @@
     "name the hormone that readies the uterus for a fertilised egg",
     "which glands release steroid hormones and what do glucocorticoids manage"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "trace the messenger route",
-     "explain": "gland to blood to target cell defines a hormone, whatever its chemistry"},
-    {"step": 2, "action": "pair the opposers",
-     "explain": "insulin lowers and glucagon raises blood glucose; excess or deficit of thyroxine flips the metabolic state"}
-   ]
+    {
+     "step": 1,
+     "action": "trace the messenger route",
+     "explain": "gland to blood to target cell defines a hormone, whatever its chemistry"
+    },
+    {
+     "step": 2,
+     "action": "pair the opposers",
+     "explain": "insulin lowers and glucagon raises blood glucose; excess or deficit of thyroxine flips the metabolic state"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "glucose_regulators = insulin + glucagon",
+     "compute": "glucose_regulators = insulin + glucagon"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -375,9 +531,17 @@
    "concept": "lech205.10.1.5",
    "question_type": "invert_sugar_rotation",
    "question_pattern": "On hydrolysis, sucrose releases glucose rotating +52.5 degrees and fructose rotating -92.4 degrees. Find the net rotation of the mixture.",
-   "extracted_variables": {"glucose_rot": 52.5, "fructose_rot": -92.4},
+   "extracted_variables": {
+    "glucose_rot": 52.5,
+    "fructose_rot": -92.4
+   },
    "solution_template": [
-    {"step": 1, "action": "add the two signed rotations", "explain": "equal moles contribute algebraically", "compute": "net_rot = glucose_rot + fructose_rot"}
+    {
+     "step": 1,
+     "action": "add the two signed rotations",
+     "explain": "equal moles contribute algebraically",
+     "compute": "net_rot = glucose_rot + fructose_rot"
+    }
    ]
   },
   {
@@ -386,9 +550,17 @@
    "concept": "lech205.10.1.5",
    "question_type": "invert_sugar_rotation",
    "question_pattern": "An equimolar glucose-fructose mixture shows component rotations of +48.0 and -96.0 degrees. Determine whether the mixture is dextro or laevo and by how much.",
-   "extracted_variables": {"glucose_rot": 48.0, "fructose_rot": -96.0},
+   "extracted_variables": {
+    "glucose_rot": 48.0,
+    "fructose_rot": -96.0
+   },
    "solution_template": [
-    {"step": 1, "action": "add the two signed rotations", "explain": "the negative total flags laevorotation", "compute": "net_rot = glucose_rot + fructose_rot"}
+    {
+     "step": 1,
+     "action": "add the two signed rotations",
+     "explain": "the negative total flags laevorotation",
+     "compute": "net_rot = glucose_rot + fructose_rot"
+    }
    ]
   },
   {
@@ -397,9 +569,16 @@
    "concept": "lech205.10.2.3",
    "question_type": "peptide_bond_count",
    "question_pattern": "Insulin contains 51 amino acid residues. How many peptide linkages hold its chain together?",
-   "extracted_variables": {"residue_count": 51},
+   "extracted_variables": {
+    "residue_count": 51
+   },
    "solution_template": [
-    {"step": 1, "action": "subtract one from the residue count", "explain": "each joint between neighbours is one peptide bond", "compute": "peptide_bonds = residue_count - 1"}
+    {
+     "step": 1,
+     "action": "subtract one from the residue count",
+     "explain": "each joint between neighbours is one peptide bond",
+     "compute": "peptide_bonds = residue_count - 1"
+    }
    ]
   },
   {
@@ -408,9 +587,16 @@
    "concept": "lech205.10.2.3",
    "question_type": "peptide_bond_count",
    "question_pattern": "A tripeptide is assembled from 3 amino acids. Count the peptide bonds it contains.",
-   "extracted_variables": {"residue_count": 3},
+   "extracted_variables": {
+    "residue_count": 3
+   },
    "solution_template": [
-    {"step": 1, "action": "subtract one from the residue count", "explain": "three residues join through two linkages", "compute": "peptide_bonds = residue_count - 1"}
+    {
+     "step": 1,
+     "action": "subtract one from the residue count",
+     "explain": "three residues join through two linkages",
+     "compute": "peptide_bonds = residue_count - 1"
+    }
    ]
   },
   {
@@ -419,10 +605,23 @@
    "concept": "lech205.10.3.2",
    "question_type": "activation_energy_percent_drop",
    "question_pattern": "Acid hydrolysis of sucrose faces a barrier of 6.22 kJ per mol while sucrase lowers it to 2.15 kJ per mol. Calculate the percentage drop in activation energy.",
-   "extracted_variables": {"acid_ea": 6.22, "enzyme_ea": 2.15},
+   "extracted_variables": {
+    "acid_ea": 6.22,
+    "enzyme_ea": 2.15
+   },
    "solution_template": [
-    {"step": 1, "action": "subtract the two barriers", "explain": "the enzyme saves the difference", "compute": "saved = acid_ea - enzyme_ea"},
-    {"step": 2, "action": "scale by the uncatalysed barrier", "explain": "percentage relative to the acid route", "compute": "pct_drop = (saved / acid_ea) * 100"}
+    {
+     "step": 1,
+     "action": "subtract the two barriers",
+     "explain": "the enzyme saves the difference",
+     "compute": "saved = acid_ea - enzyme_ea"
+    },
+    {
+     "step": 2,
+     "action": "scale by the uncatalysed barrier",
+     "explain": "percentage relative to the acid route",
+     "compute": "pct_drop = (saved / acid_ea) * 100"
+    }
    ]
   },
   {
@@ -431,10 +630,23 @@
    "concept": "lech205.10.3.2",
    "question_type": "activation_energy_percent_drop",
    "question_pattern": "A reaction needs 80 kJ per mol uncatalysed but only 8 kJ per mol on the enzyme surface. Compute the percent reduction in activation energy.",
-   "extracted_variables": {"acid_ea": 80.0, "enzyme_ea": 8.0},
+   "extracted_variables": {
+    "acid_ea": 80.0,
+    "enzyme_ea": 8.0
+   },
    "solution_template": [
-    {"step": 1, "action": "subtract the two barriers", "explain": "72 kJ per mol is the absolute saving", "compute": "saved = acid_ea - enzyme_ea"},
-    {"step": 2, "action": "scale by the uncatalysed barrier", "explain": "convert the fraction to percent", "compute": "pct_drop = (saved / acid_ea) * 100"}
+    {
+     "step": 1,
+     "action": "subtract the two barriers",
+     "explain": "72 kJ per mol is the absolute saving",
+     "compute": "saved = acid_ea - enzyme_ea"
+    },
+    {
+     "step": 2,
+     "action": "scale by the uncatalysed barrier",
+     "explain": "convert the fraction to percent",
+     "compute": "pct_drop = (saved / acid_ea) * 100"
+    }
    ]
   }
  ],

@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using a rectangular glass slab, pins, and a protractor to verify that the refractive index of glass is constant for different angles of incidence. Outline the steps and what you would plot.",
      "a": "Fix the glass slab on paper. Draw normal at point O. For 4-5 angles of incidence (30°, 40°, 50°, 60°), place pins to trace incident and emergent rays. Measure angle of refraction r inside the slab for each. Plot sin i vs sin r. The graph should be a straight line through origin; its slope gives n_glass. A poor answer would omit the graph or suggest measuring only one angle, missing the verification of constancy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The absolute ______ index of a medium is the ratio of the speed of light in vacuum (or air) to the speed of light in that medium.",
+     "a": "refractive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a straw in a glass of water — it appears bent at the water surface.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the absolute refractive index of a medium given the speed of light in that medium, compute the relative refractive index between two media using their absolute refractive indices, and explain why a pencil appears bent when partially immersed in water using the concept of refractive index.",
+     "self_check": true
     }
    ]
   }

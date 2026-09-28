@@ -34,6 +34,26 @@
      "q": "Create an inferential question based on the last stanza of \"Childhood\" (\"Where did my childhood go? / It went to some forgotten place, / That's hidden in an infant's face, / That's all I know.\") and provide a model answer with two textual supports.",
      "a": "Question: \"What does the poet suggest about the nature of childhood in the final stanza?\" Model answer: The poet suggests childhood is a universal, cyclical state that recedes into memory and reappears in the next generation. Support 1: \"forgotten place\" implies it is lost to the adult mind. Support 2: \"hidden in an infant's face\" implies it resides anew in children. A poor answer (e.g., \"Childhood goes away forever\") ignores the cyclical inference from \"infant's face,\" showing failure to integrate both images.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal comprehension questions require answers directly stated in the text, while ______ comprehension questions require drawing conclusions by combining textual evidence with reasoning.",
+     "a": "inferential",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are sitting in the exam hall and see a question: \"Why does the ______ call the earth an 'ailing planet'?\" You might panic because the exact phrase isn't in the text.",
+     "a": "author",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently classify a question as literal or inferential, locate exact textual evidence for literal answers, and construct a logical inference chain with at least two textual supports for inferential answers.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are sitting in the exam hall and see a question: \"Why does the author call the earth an 'ailing planet'?\" You might panic because the exact phrase isn't in the text.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

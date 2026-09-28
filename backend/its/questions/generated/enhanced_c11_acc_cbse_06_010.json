@@ -34,6 +34,26 @@
      "q": "Create a scenario where an error in the previous year involved both a nominal and a real account, and the Suspense Account had a debit balance. Write the full rectification entry in the current year and explain the impact on the Profit and Loss Adjustment Account.",
      "a": "**Scenario:** ` 12,000 paid for building extension (capital) was debited to Repairs Account (revenue). Suspense Account carried forward debit balance of ` 12,000.  \n**Rectification Entry:**  \nBuilding A/c Dr. 12,000  \n    To Profit and Loss Adjustment A/c 12,000  \n**Impact:** P&L Adjustment is credited (increasing prior period profit) because Repairs was overstated. Building (real) is debited directly. A poor answer would debit/credit Repairs or Building incorrectly or omit P&L Adjustment, showing inability to synthesize account classification and period separation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Rectification of errors after ______ of final accounts refers to the process of correcting accounting errors discovered in a subsequent accounting period, where the rectification entries for nominal accounts (expenses, incomes, gains, losses) are routed through a Profit and Loss Adjustment Account instead of the original nominal accounts to avoid distorting the current period's financial statements, while real and personal accounts are corrected directly.",
+     "a": "preparation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an ______ at \"Sharma Electronics\" reviewing last year's books in April.",
+     "a": "accountant",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently identify whether a discovered error affects nominal or real/personal accounts, construct the correct rectification journal entry using Profit and Loss Adjustment Account for nominal items, and demonstrate the impact on the Suspense Account and the prior period's profit.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an accountant at \"Sharma ______\" reviewing last year's books in April.",
+     "a": "Electronics",
+     "self_check": true
     }
    ]
   }

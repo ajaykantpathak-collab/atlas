@@ -34,6 +34,21 @@
      "q": "Create a real-life scenario (Indian context) that generates a finite sequence of exactly 6 terms. Write the sequence and the rule for the \\(n^{th}\\) term.",
      "a": "Expected answer: Example: \"A student saves ₹50 in the first week and increases savings by ₹10 each week for 6 weeks.\" Sequence: 50, 60, 70, 80, 90, 100. Rule: \\(a_n = 50 + 10(n-1)\\) for \\(n = 1, 2, ..., 6\\). \nA poor answer (e.g., giving an infinite sequence like \"saves forever\" or no clear rule) reveals the student cannot translate a bounded real-world situation into a finite mathematical sequence with an explicit formula.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A sequence is an ordered list of numbers (called terms) that follows a specific rule or pattern, where each term is ______ with a unique natural number position (1st, 2nd, 3rd, ...).",
+     "a": "associated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ money every week: you put ₹10 in week 1, ₹20 in week 2, ₹30 in week 3, and so on.",
+     "a": "saving",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are saving money every week: you put ₹10 in week 1, ₹20 in week 2, ₹30 in week 3, and so on.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

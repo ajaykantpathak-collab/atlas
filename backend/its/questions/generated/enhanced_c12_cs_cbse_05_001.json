@@ -34,6 +34,31 @@
      "q": "Design a minimal database schema (list the CREATE TABLE statements only) for a school library that tracks books and which student has borrowed which book. Include appropriate columns, data types, and indicate primary keys. Do not write foreign key constraints yet — just the table structures.",
      "a": "```sql\nCREATE TABLE students (\n    adm_no INT PRIMARY KEY,\n    name VARCHAR(50) NOT NULL,\n    class_sec VARCHAR(10) NOT NULL\n);\n\nCREATE TABLE books (\n    book_id INT PRIMARY KEY,\n    title VARCHAR(100) NOT NULL,\n    author VARCHAR(50) NOT NULL,\n    isbn CHAR(13) UNIQUE\n);\n\nCREATE TABLE borrowings (\n    borrow_id INT PRIMARY KEY,\n    adm_no INT NOT NULL,\n    book_id INT NOT NULL,\n    issue_date DATE NOT NULL,\n    due_date DATE NOT NULL,\n    return_date DATE\n);\n```\nA poor answer might omit primary keys, use `VARCHAR` for `adm_no`, or forget `NOT NULL` on mandatory columns. This reveals inability to translate a real-world scenario into relational structure — the core competency for board case-study questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: SQL (Structured Query Language) is a ______ programming language used to manage and manipulate relational databases; MySQL is an open-source relational database management system (RDBMS) that implements SQL as its query language, allowing users to create, read, update, and delete data stored in structured tables.",
+     "a": "standardized",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are building a contact list for your school’s annual fest: you need to store each ______’s name, class, phone number, and event category.",
+     "a": "participant",
+     "self_check": true
+    },
+    {
+     "q": "What is SQL (Structured Query Language)? State the definition given in this lesson.",
+     "a": "SQL (Structured Query Language) is a standardized programming language used to manage and manipulate relational databases; MySQL is an open-source relational database management system (RDBMS) that implements SQL as its query language, allowing users to create, read, update, and delete data stored in structured tables.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about SQL (Structured Query Language)?",
+     "a": "Students often think “SQL and MySQL are the same thing” and use the terms interchangeably.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between SQL (the language) and MySQL (the software), explain the role of an RDBMS, and write basic SQL statements to create a database, create a table with appropriate data types, and insert a few rows of data.",
+     "self_check": true
     }
    ]
   }

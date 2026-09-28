@@ -34,6 +34,36 @@
      "q": "Design a nested loop algorithm (pseudocode) to print the following pattern for n = 4:\n```\n1\n1 2\n1 2 3\n1 2 3 4\n```\nExplain how the inner loop's termination condition depends on the outer loop's control variable.",
      "a": "```\ninput n\nfor row ← 1 to n do\n    for col ← 1 to row do\n        output col, \" \"\n    end for\n    output newline\nend for\n```\nOuter loop controls rows (1 to n). Inner loop prints numbers 1 to current row value — so when row=3, inner loop runs for col=1,2,3. The dependency `col ≤ row` makes each row one element longer than the previous. A good answer shows this dependency explicitly. A poor answer that uses fixed inner limit (`col ≤ n`) or prints `row` instead of `col` reveals the student cannot visualise how nested loop variables interact to create triangular patterns — a fundamental skill for matrix processing and pattern generation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Iteration in algorithms is a control structure that repeats a sequence of ______ until a specified termination condition becomes false, enabling the algorithm to process repetitive tasks efficiently.",
+     "a": "instructions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to ______ the total electricity bill for an apartment complex with 50 flats — each flat's bill depends on its meter reading.",
+     "a": "calculate",
+     "self_check": true
+    },
+    {
+     "q": "What is Iteration in algorithms? State the definition given in this lesson.",
+     "a": "Iteration in algorithms is a control structure that repeats a sequence of instructions until a specified termination condition becomes false, enabling the algorithm to process repetitive tasks efficiently.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to calculate the total electricity bill for an apartment complex with ______ flats — each flat's bill depends on its meter reading.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Iteration in algorithms?",
+     "a": "Students believe the loop condition is checked AFTER the loop body executes in a while loop (confusing it with repeat-until).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to design a correct loop structure (using pseudocode or flowchart) for a given repetitive problem, identify the initialisation-condition-update triplet, trace the loop execution with a dry run table showing variable values at each iteration, and detect infinite loop or off-by-one errors in a given algorithm.",
+     "self_check": true
     }
    ]
   }

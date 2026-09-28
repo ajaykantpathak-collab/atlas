@@ -34,6 +34,36 @@
      "q": "Design a molecular diagnostic strategy to distinguish between: (i) sickle cell anaemia (HbS/HbS), (ii) sickle cell trait (HbA/HbS), and (iii) normal (HbA/HbA) using a single PCR-based assay. Specify the principle, primers, and expected results.",
      "a": "Use allele-specific PCR or PCR-RFLP targeting the HBB codon 6. Principle: The A→T mutation abolishes a *MstII* restriction site (CCTNAGG) or creates a *DdeI* site. Primers flank codon 6. PCR-RFLP: Digest amplicon with *DdeI* → HbA allele cuts (two fragments), HbS allele uncut (one fragment). Gel electrophoresis: HbA/HbA = two bands; HbA/HbS = three bands; HbS/HbS = one band. A poor answer (e.g., \"sequence the gene\" without assay design) reveals the student cannot translate molecular knowledge into diagnostic application — a key competency for biotechnology board exams.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sickle cell anaemia is an autosomal recessive monogenic disorder caused by a single nucleotide substitution (GAG → GTG) in the β-globin gene (HBB) on chromosome 11, replacing glutamic acid with valine at position 6 of the β-globin chain, leading to hemoglobin S (HbS) ______ under low oxygen tension.",
+     "a": "polymerization",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a Class 11 student from Chhattisgarh's tribal belt where sickle cell trait affects 1 in 4 ______ — why does this \"harmful\" mutation persist at such high frequency?",
+     "a": "individuals",
+     "self_check": true
+    },
+    {
+     "q": "What is Sickle cell anaemia? State the definition given in this lesson.",
+     "a": "Sickle cell anaemia is an autosomal recessive monogenic disorder caused by a single nucleotide substitution (GAG → GTG) in the β-globin gene (HBB) on chromosome 11, replacing glutamic acid with valine at position 6 of the β-globin chain, leading to hemoglobin S (HbS) polymerization under low oxygen tension.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For cystic fibrosis, trace: CFTR gene deletion → missing phenylalanine at position ______ → misfolded protein retained in ER → absent chloride channel at membrane → thick dehydrated mucus → chronic lung infections.",
+     "a": "508",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Sickle cell anaemia?",
+     "a": "Students believe sickle cell anaemia is caused by the sickle *shape* of red blood cells (thinking the mutation directly makes cells sickle-shaped), rather than understanding that the mutation creates HbS which *polymerizes only when deoxygenated*, and the resulting rigid polymers *distort* the cell into a sickle shape.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Trace the molecular pathway from specific DNA mutation → altered protein structure → cellular dysfunction → clinical phenotype for both disorders, and (2) Solve pedigree analysis problems involving autosomal recessive inheritance with carrier probability calculations.",
+     "self_check": true
     }
    ]
   }

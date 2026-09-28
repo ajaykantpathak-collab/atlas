@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_04_003",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_04_003",
+   "title": "c12_leg_cbse_04_003",
+   "questions": [
+    {
+     "q": "State the three fundamental elements of a tort as defined in the NCERT textbook.",
+     "a": "The three fundamental elements are: (1) Wrongful act, (2) Damage, (3) Remedy. A wrong answer (e.g., listing 'mens rea' or 'contract') reveals the student is confusing tort with crime or contract law — tort does not require criminal intent, and the remedy is unliquidated damages, not specific performance.",
+     "self_check": true
+    },
+    {
+     "q": "In Donoghue v Stevenson, Lord Atkin formulated the 'neighbour principle'. Explain in your own words who is a 'neighbour' in law and why this expanded the duty of care beyond contractual relationships.",
+     "a": "A 'neighbour' in law is anyone so closely and directly affected by your act that you ought reasonably to have them in contemplation when directing your mind to the acts or omissions in question. This expanded duty of care because Mrs. Donoghue had no contract with the manufacturer (she didn't buy the ginger beer), yet the court held the manufacturer liable — establishing that duty arises from reasonable foreseeability of harm, not privity of contract. A wrong answer (e.g., 'neighbour means someone living next door') reveals a literal misunderstanding of the legal metaphor.",
+     "self_check": true
+    },
+    {
+     "q": "A chemical factory stores large quantities of toxic gas in a densely populated area. Despite following all safety protocols, a leak occurs due to an unforeseeable equipment failure, killing 10 people. Apply the principles of Rylands v Fletcher and M.C. Mehta v Union of India to determine liability under (a) strict liability and (b) absolute liability.",
+     "a": "(a) Under Rylands v Fletcher (strict liability): The factory brought a dangerous thing (toxic gas) on its land for non-natural use; it escaped and caused damage. However, the defence of 'act of God' or 'no negligence' might be available if the failure was truly unforeseeable and no human fault. (b) Under M.C. Mehta (absolute liability): The enterprise is engaged in inherently dangerous activity for commercial gain; liability is absolute — no defences (not even act of God, act of stranger, or due care) are available. The factory must pay exemplary compensation based on its financial capacity. A wrong answer (e.g., saying strict liability has no exceptions) reveals confusion between the two doctrines — Rylands has 5 exceptions; M.C. Mehta has none.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the judicial reasoning in Hussainara Khatoon v State of Bihar and Maneka Gandhi v Union of India regarding the expansion of Article 21. How did each case use 'procedure established by law' to advance human rights?",
+     "a": "Hussainara Khatoon held that 'speedy trial' is implicit in Article 21 — detention beyond reasonable time without trial violates 'procedure established by law' because the procedure must be fair, just, and reasonable. It linked free legal aid (Art. 39A) to Art. 21. Maneka Gandhi went further: it ruled that 'procedure established by law' under Art. 21 must satisfy Arts. 14 and 19 — the 'Golden Triangle'. The passport impoundment without hearing violated audi alteram partem (natural justice), making the procedure arbitrary. Both cases transformed Art. 21 from a negative right (no deprivation except by law) to a positive guarantee of fair procedure. A wrong answer (e.g., saying both cases are only about prisoners) reveals failure to see Maneka Gandhi's broader constitutional synthesis.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The Supreme Court in Vishaka v State of Rajasthan overstepped its judicial function by creating law (sexual harassment guidelines) instead of waiting for Parliament to legislate.\" Use the concept of judicial activism and international law incorporation (CEDAW) in your answer.",
+     "a": "The criticism has merit from a separation-of-powers view, but the Court justified it as filling a legislative vacuum to protect fundamental rights (Art. 14, 19, 21) using India's international obligations under CEDAW (ratified 1993). The guidelines were explicitly temporary — 'until legislation is enacted' — and Parliament later passed the 2013 Act. This is judicial activism as 'constitutional gap-filling', not legislative usurpation. A weak answer (e.g., 'courts cannot make law') ignores Art. 141 (SC law binding on all courts) and the Court's duty under Art. 32 to enforce fundamental rights when the executive/legislature fails.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new fact scenario (2-3 sentences) involving a startup that uses AI-driven drones for pesticide spraying in rural areas. Identify which tort principle (negligence, strict liability, or absolute liability) would apply if a drone malfunctions and contaminates a village's water supply, and justify your choice in 3 lines.",
+     "a": "A startup deploys AI-controlled drones to spray pesticides over farms in Maharashtra. Due to a software bug, a drone dumps concentrated pesticide into a village well, poisoning 50 residents. Absolute liability (M.C. Mehta) applies because: (1) the enterprise engages in inherently dangerous activity (aerial chemical dispersal) for commercial gain; (2) the risk is catastrophic and non-delegable; (3) no defence of 'due care' or 'act of stranger' (software bug) is available. Negligence would require proof of breach; strict liability (Rylands) would allow 'act of God/stranger' defences — both inadequate for ultra-hazardous modern tech.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a metre scale and a vernier caliper to demonstrate that the number of significant figures in a measurement depends on the measuring instrument's least count. Describe the steps and the expected recordings.",
      "a": "Steps: (1) Measure the diameter of a cylindrical object (e.g., a pencil) with a metre scale (least count 0.1 cm). Record the reading (e.g., 0.7 cm). (2) Measure the same diameter with a vernier caliper (least count 0.01 cm). Record the reading (e.g., 0.72 cm). (3) Note that the metre scale gives 1 significant figure (0.7 cm has 1 SF because leading zero is not significant) while the vernier caliper gives 2 significant figures (0.72 cm has 2 SF). The experiment shows that a finer least count allows more certain digits and an extra estimated digit, increasing significant figures. A poor answer would not link the least count to the number of reliable digits or would confuse the role of leading zeros.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ figures are the digits in a measured value that are known reliably plus the first uncertain digit, indicating the precision of a measurement.",
+     "a": "Significant",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you ______ the length of a physics lab table with a metre scale (least count 0.1 cm) and record it as 152.3 cm.",
+     "a": "measure",
+     "self_check": true
+    },
+    {
+     "q": "What is Significant figures? State the definition given in this lesson.",
+     "a": "Significant figures are the digits in a measured value that are known reliably plus the first uncertain digit, indicating the precision of a measurement.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Significant figures?",
+     "a": "Students often believe that all zeros in a number are either always significant or never significant.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly count significant figures in any given measurement (including numbers with trailing zeros, leading zeros, and scientific notation) and explain why each digit is or is not significant.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a **legend box** for a 1:50,000 map extract containing: (a) perennial river, (b) seasonal stream, (c) tube well, (d) metalled road, (e) reserved forest, (f) temple, (g) contour line (20 m interval), (h) sand dune. Use *only* standard Survey of India colours, shapes, and patterns. Draw each symbol and write its description.",
      "a": "**Expected legend (symbol → description):**  \n1. Solid blue line → Perennial river  \n2. Blue dashed line → Seasonal stream  \n3. Solid blue circle (0.5 mm) → Tube well / Well  \n4. Double solid red lines → Metalled road  \n5. Green solid fill → Reserved forest  \n6. Red square with triangle apex → Temple  \n6. Thin brown line with '20' → Contour line (20 m V.I.)  \n7. Brown irregular stippled area → Sand dune  \nA poor answer uses non-standard colours (e.g., black for river), wrong shapes (triangle for well), or omits pattern distinction (solid fill for both forest and sand). This reveals inability to apply the colour-shape-pattern hierarchy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Map symbols and conventional signs are standardized graphical ______ (using specific colours, shapes, and patterns) that depict natural and human-made features on a topographical map, enabling universal interpretation without language barriers; they follow Survey of India specifications where colour indicates feature category (e.g., blue for water, brown for relief, green for vegetation) and shape distinguishes feature type (e.g., triangle for triangulation station, dot for settlement).",
+     "a": "representations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by showing a 1:50,000 ______ map extract of your local area (e.g., your district headquarters) and ask students to locate their school using only the symbols – they will instinctively look for a building shape but may confuse the post office (square with flag) with the school (square with flag and 'Sch' label).",
+     "a": "topographical",
+     "self_check": true
+    },
+    {
+     "q": "What is Map symbols and conventional signs? State the definition given in this lesson.",
+     "a": "Map symbols and conventional signs are standardized graphical representations (using specific colours, shapes, and patterns) that depict natural and human-made features on a topographical map, enabling universal interpretation without language barriers; they follow Survey of India specifications where colour indicates feature category.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Map symbols and conventional signs?",
+     "a": "Students believe colour alone determines the feature (e.g., \"blue = river\", \"green = forest\", \"brown = mountain\") and ignore shape/pattern modifiers.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify and interpret at least 20 standard Survey of India conventional signs on a 1:50,000 topographical map, explain the colour-code logic for point, line, and area symbols, and construct a legend for a given map extract using proper terminology.",
+     "self_check": true
     }
    ]
   }

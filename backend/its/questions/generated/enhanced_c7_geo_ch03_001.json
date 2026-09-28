@@ -34,6 +34,36 @@
      "q": "Design a short two-column field observation chart for a school project in Nagpur that helps a student record data to study weather versus data used to understand climate.",
      "a": "A good answer will separate daily logs (Column 1: Today's temperature, wind direction, humidity, rainfall recorded via rain gauge) from long-term records (Column 2: 30-year average monthly rainfall, historical seasonal wind patterns, annual temperature ranges). A poor answer lists random geographical facts without distinguishing between daily observations and long-term data collection methods.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Weather refers to the day-to-day ______ conditions of a specific place, whereas climate represents the average weather pattern of a region calculated over a long period, typically 30 years or more.",
+     "a": "atmospheric",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look outside your window on a July ______ in Mumbai; you might see heavy rain clouds and puddles on the street, which is today's weather.",
+     "a": "morning",
+     "self_check": true
+    },
+    {
+     "q": "What is Weather? State the definition given in this lesson.",
+     "a": "Weather refers to the day-to-day atmospheric conditions of a specific place, whereas climate represents the average weather pattern of a region calculated over a long period, typically 30 years or more.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Weather refers to the day-to-day atmospheric conditions of a specific place, whereas climate represents the average weather pattern of a region calculated over a long period, typically ______ years or more.",
+     "a": "30",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Weather?",
+     "a": "Students often think that if a particular summer is unusually cool or rainy, the permanent climate of that region has changed.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Students can accurately distinguish between temporary atmospheric phenomena (weather) and long-term regional patterns (climate), and explain how specific local observations fit into India's broader climatic zones.",
+     "self_check": true
     }
    ]
   }

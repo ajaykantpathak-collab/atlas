@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using radioactive labeling (e.g., 32P or 3H-thymidine) and autoradiography to demonstrate that DNA replication is semi-conservative in a eukaryotic cell line. Outline the key steps and expected results.",
      "a": "Steps: (1) Grow cells in medium with radioactive thymidine (3H-thymidine) for several generations to label all DNA uniformly. (2) Switch to non-radioactive medium. (3) At intervals (after 1, 2 S-phases), fix cells, prepare chromosome spreads, coat with photographic emulsion, develop. (4) Count silver grains over sister chromatids. Expected: After one S-phase, both sister chromatids are labeled (each has one radioactive parental strand). After two S-phases, only one chromatid per chromosome is labeled (the one that inherited the original radioactive strand). A poor design (e.g., no chase period, or measuring total radioactivity instead of distribution) reveals inability to track strand segregation. Students often propose labeling but forget the chase or the need to visualize individual chromatids.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: DNA replication is the biological process by which a double-stranded DNA molecule is copied to produce two identical DNA molecules, each consisting of one original (parental) strand and one newly synthesized strand — this is the semi-conservative model proposed by Watson and Crick and ______ proven by Meselson and Stahl.",
+     "a": "experimentally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you photocopy a double-sided ID card: you get two copies, each with one ______ side and one new printed side.",
+     "a": "original",
+     "self_check": true
+    },
+    {
+     "q": "What is DNA replication? State the definition given in this lesson.",
+     "a": "DNA replication is the biological process by which a double-stranded DNA molecule is copied to produce two identical DNA molecules, each consisting of one original (parental) strand and one newly synthesized strand — this is the semi-conservative model proposed by Watson and Crick and experimentally proven by Meselson and Stahl.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about DNA replication?",
+     "a": "Students think \"semi-conservative\" means each strand is half old and half new (i.e., the dispersive model).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the semi-conservative mechanism step-by-step, interpret the Meselson-Stahl density gradient centrifugation data to distinguish semi-conservative from conservative and dispersive models, and predict the banding pattern after 1, 2, and 3 generations in N14 medium.",
+     "self_check": true
     }
    ]
   }

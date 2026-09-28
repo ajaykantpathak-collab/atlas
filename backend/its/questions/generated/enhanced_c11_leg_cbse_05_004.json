@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_05_004",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_05_004",
+   "title": "c11_leg_cbse_05_004",
+   "questions": [
+    {
+     "q": "Define 'administrative action' and distinguish it from 'quasi-judicial action' using one key difference in the nature of the function performed.",
+     "a": "Administrative action is the residue of governmental functions after legislative and quasi-judicial functions are excluded — it involves discretionary execution of policy (e.g., granting a license). Quasi-judicial action involves adjudication of legal rights of individuals with a duty to act judicially (e.g., a tribunal deciding a service matter). A wrong answer that says \"both involve discretion\" misses that quasi-judicial action requires **procedural fairness akin to courts**, while administrative action allows broader policy-based discretion.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the principle of 'audi alteram partem' is considered a facet of Article 21 of the Constitution, referencing the Maneka Gandhi judgment.",
+     "a": "In Maneka Gandhi v. Union of India, the Supreme Court held that 'procedure established by law' under Article 21 must be 'fair, just, and reasonable' — not arbitrary. Denying a hearing before impounding a passport violated this standard. Thus, audi alteram partem (hear the other side) became a constitutional requirement under Article 21, not just a common law rule. A wrong answer that only cites \"natural justice\" without linking to Article 21's 'reasonableness' test shows failure to grasp the constitutionalisation of natural justice in India.",
+     "self_check": true
+    },
+    {
+     "q": "A University Vice-Chancellor issues an order rusticating a student for \"indiscipline\" without giving the student a chance to explain. The student challenges the order. Classify the VC's action, identify the principle violated, and state whether post-decisional hearing can cure the defect.",
+     "a": "The VC's action is **quasi-judicial** (adjudicating a student's right to education). It violates **audi alteram partem** (no hearing given). Post-decisional hearing **can cure** the defect only if: (1) the case involves urgent public interest (not met here); (2) pre-decisional hearing would cause administrative paralysis (not met); (3) the decision is tentative, not final. Since rustication is a serious penalty with no urgency, pre-decisional hearing was mandatory. A wrong answer saying \"post-decisional hearing always works\" ignores the three-part Maneka Gandhi test and the gravity of the right affected.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Droit administratif system (France) with the Indian common law system on: (a) forum for disputes between citizen and state, (b) role of ordinary courts, (c) origin of the system.",
+     "a": "(a) France: separate administrative courts (Conseil d'État); India: ordinary courts (High Courts/Supreme Court) hear citizen-state disputes. (b) France: ordinary courts barred from reviewing administration; India: ordinary courts exercise judicial review via writs (Art. 226/32). (c) France: created by Napoleon to prevent courts from obstructing administration; India: inherited British common law with judicial supremacy. A wrong answer claiming \"India has administrative tribunals like France\" misses that Indian tribunals are **subject to High Court writ jurisdiction** — unlike France's exclusive administrative judiciary.",
+     "self_check": true
+    },
+    {
+     "q": "\"Rule of law is a basic structure of the Constitution.\" Evaluate this statement with reference to Keshavananda Bharati and the three Diceyan postulates. Which postulate is most contested in the Indian context?",
+     "a": "In Keshavananda Bharati (1973), the Supreme Court held rule of law is part of the basic structure — unamendable by Parliament. Dicey's three postulates: (1) Supremacy of law (no arbitrary power) — accepted in India. (2) Equality before law — accepted but qualified (Art. 14 allows reasonable classification). (3) Constitution as result of ordinary law (rights from judicial decisions) — **most contested** in India because our fundamental rights are **constitutionally enacted** (Part III), not judge-made. A wrong answer saying \"all three apply equally\" ignores the Indian constitutional design where rights are codified, not derived from common law.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario where a regulatory authority (e.g., SEBI, TRAI) exercises **administrative legislative action** and another where it exercises **quasi-judicial action**. For each, specify the procedural safeguards required.",
+     "a": "**Legislative action**: SEBI issues new regulations on algorithmic trading after public consultation. Safeguards: publication in gazette, laying before Parliament, consistency with parent Act (SEBI Act, 1992). **Quasi-judicial action**: SEBI adjudicates a broker's fraud case and imposes penalty. Safeguards: notice, hearing, reasoned order, no bias (nemo judex), right to appeal to SAT (Securities Appellate Tribunal). A poor answer that lists \"fairness\" for both without distinguishing **rule-making procedure** (legislative) from **adjudicatory procedure** (quasi-judicial) shows confusion between the two \"hats\" of the same authority.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

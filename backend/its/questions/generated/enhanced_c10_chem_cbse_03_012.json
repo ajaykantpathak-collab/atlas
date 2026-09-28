@@ -34,6 +34,31 @@
      "q": "Design a simple experiment to prove that both oxygen and water are necessary for rusting. List the materials, setup, observations, and conclusion.",
      "a": "Materials: three test tubes, iron nails, water, boiled water, oil, anhydrous calcium chloride, cotton wool.\nSetup: Tube 1: nail in tap water (air + water). Tube 2: nail in boiled water with oil layer (water but no air). Tube 3: nail with anhydrous CaCl₂ and cotton wool (air but no water).\nObservation after few days: Rust only in Tube 1.\nConclusion: Both oxygen and water are necessary.\nA poor answer (missing control, not removing air properly) shows the student cannot design a controlled experiment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Corrosion is the gradual destruction of metals by chemical or ______ reaction with their environment.",
+     "a": "electrochemical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real-world ______: a student sees a rusted iron gate or a bicycle left in the rain.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "What is Corrosion? State the definition given in this lesson.",
+     "a": "Corrosion is the gradual destruction of metals by chemical or electrochemical reaction with their environment.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Corrosion?",
+     "a": "Students often think that rust is simply Fe₂O₃ (iron(III) oxide) and write the equation as 4Fe + 3O₂ → 2Fe₂O₃, ignoring the role of water and the hydrated nature of rust.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the electrochemical mechanism of rusting, write the balanced chemical equations for the steps, list the necessary conditions (oxygen and water), and describe at least three prevention methods with their chemical basis.",
+     "self_check": true
     }
    ]
   }

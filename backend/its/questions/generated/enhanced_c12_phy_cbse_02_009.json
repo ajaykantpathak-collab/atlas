@@ -34,6 +34,16 @@
      "q": "Design a simple capacitor using household materials (aluminum foil, paper, plastic wrap) that can store enough charge to light a small LED briefly when discharged. Describe how you would increase its capacitance without changing the materials.",
      "a": "A good answer: Use two sheets of aluminum foil separated by paper (dielectric). Roll them into a cylinder to increase effective area \\(A\\) and decrease separation \\(d\\) (thin paper). Capacitance \\(C \\propto A/d\\). To increase \\(C\\) without new materials: (1) use larger foil sheets (increase \\(A\\)), (2) use thinner paper (decrease \\(d\\)), (3) add more layers (effectively parallel combination). A poor answer (e.g., \"add more charge\" or \"use a higher voltage battery\") reveals confusion between changing \\(C\\) (geometry) vs changing \\(Q\\) or \\(V\\).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A capacitor is a system of two ______ separated by an insulating medium (or vacuum) that stores electric charge and energy.",
+     "a": "conductors",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan in your home — it has a small ______ component (a capacitor) that helps the motor start.",
+     "a": "cylindrical",
+     "self_check": true
     }
    ]
   }

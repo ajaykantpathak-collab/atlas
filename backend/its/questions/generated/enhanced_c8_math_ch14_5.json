@@ -34,6 +34,31 @@
      "q": "Create a real-life word problem where a person needs to find the area of a rhombus using diagonals. The problem must involve two steps: first finding a missing diagonal using a given condition, then computing the area. Write the problem and solve it.",
      "a": "Example problem: \"A rhombus-shaped floor tile has one diagonal of 20 cm. The other diagonal is 4 cm longer than the first. Find the area of the tile.\" Solution: d₁ = 20 cm, d₂ = 20 + 4 = 24 cm. Area = ½ × 20 × 24 = 240 cm². A poor problem would just give both diagonals directly (single step). A poor solution would add the diagonals instead of multiplying, or forget units. This tests the student's ability to construct a meaningful multi-step scenario.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The area of a rhombus is equal to half the product of its two ______.",
+     "a": "diagonals",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a kite for the Makar Sankranti ______.",
+     "a": "festival",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by recalling that a rhombus has all sides equal and its diagonals cross at ______°.",
+     "a": "90",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly identify the diagonals of a rhombus in a diagram or word problem, substitute their lengths into the formula ½ × d₁ × d₂, compute the area with correct units, and explain why the formula works by relating it to the decomposition of the rhombus into triangles.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a kite for the Makar Sankranti festival.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

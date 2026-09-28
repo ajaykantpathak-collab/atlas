@@ -34,6 +34,26 @@
      "q": "Design a simple laboratory experiment to distinguish between samples of baking soda and washing soda using only dilute hydrochloric acid and lime water (calcium hydroxide solution). Write the observations and chemical equations.",
      "a": "Procedure: Take two test tubes, add a spatula of each powder, add dilute HCl, and pass the gas evolved through lime water.\nObservation for baking soda: Brisk effervescence, gas turns lime water milky (CO₂).\nObservation for washing soda: Effervescence, gas turns lime water milky (CO₂) — **but slower because washing soda is a stronger base and reacts less vigorously? Actually both give CO₂ with acid. Wait, washing soda (Na₂CO₃) + 2HCl → 2NaCl + H₂O + CO₂. Baking soda: NaHCO₃ + HCl → NaCl + H₂O + CO₂. Both give CO₂. So this test does NOT distinguish them.**\nBetter test: Heat a small amount of each in a dry test tube. Baking soda decomposes giving CO₂ (turns lime water milky) and leaves Na₂CO₃ residue. Washing soda only loses water of crystallisation (condensation on cooler part of tube), no CO₂.\nA good answer uses thermal decomposition, not acid test. A poor answer uses acid test and claims difference in rate, showing lack of understanding that both carbonates/hydrogen carbonates give CO₂ with acid.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Bleaching powder (CaOCl₂), baking soda (NaHCO₃), washing soda (Na₂CO₃·10H₂O), and plaster of Paris (CaSO₄·½H₂O) are ______ important salts derived from common salt (NaCl) and other raw materials, each with distinct chemical compositions, preparation methods, and specific applications in daily life and industry.",
+     "a": "industrially",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are in a kitchen: baking soda makes dhokla fluffy, washing soda removes stubborn stains from clothes, ______ powder keeps the water tank clean, and plaster of Paris sets a broken arm.",
+     "a": "bleaching",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Bleaching powder (CaOCl₂), baking soda (NaHCO₃), washing soda (Na₂CO₃·______H₂O), and plaster of Paris (CaSO₄·½H₂O) are industrially important salts derived from common salt (NaCl) and other raw materials, each with distinct chemical compositions, preparation methods, and specific applications in daily life and industry.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can write balanced chemical equations for the preparation of each compound, explain the chemical principle behind their key uses (bleaching action, effervescence in baking, water softening, setting of plaster), and distinguish between their chemical formulas and hydration states.",
+     "self_check": true
     }
    ]
   }

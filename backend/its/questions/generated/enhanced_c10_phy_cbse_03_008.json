@@ -34,6 +34,21 @@
      "q": "Design a simple school-based investigation to compare particulate matter (PM2.5) levels near a diesel generator set versus a rooftop solar installation during operational hours.",
      "a": "**Good answer criteria:** (1) Use identical low-cost PM sensors (e.g., Plantower PMS5003) placed 5m from each source at same height. (2) Log data every 5 min for 2 hours during typical load. (3) Control: measure background AQI simultaneously. (4) Present as time-series graph with mean±SD. (5) Conclude with statistical comparison (t-test if taught). A poor answer lacks controls, uses single snapshot readings, or ignores meteorological variables (wind).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ consequences of energy sources refer to the detrimental effects on air, water, soil, and ecosystems resulting from the extraction, conversion, and utilization of energy resources, including greenhouse gas emissions, particulate pollution, radioactive waste, habitat destruction, and thermal pollution.",
+     "a": "Environmental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the thick smog over Delhi in winter or the ash pond near a local thermal power plant — these are visible ______ of burning coal.",
+     "a": "consequences",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can systematically compare the environmental footprint of fossil fuels, nuclear, solar, wind, hydro, and biomass sources across parameters (CO₂ emissions, land use, waste, water impact) and justify which source is most sustainable for a given Indian geographical context.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a 12-month milestone plan for a hypothetical biotech startup founded by two PhD graduates developing a bacteriophage cocktail for antibiotic-resistant wound infections. The plan must include: (a) one regulatory milestone with CDSCO, (b) one IP milestone, (c) one funding milestone with a specific scheme, (d) one technical validation milestone, and (e) one ecosystem engagement milestone. Justify the sequence.",
      "a": "Month 1–3: IP milestone — File provisional patent in India covering phage cocktail composition, formulation, and method of use (Indian Patent Office). Month 3–6: Technical validation — Complete in-vitro efficacy panel against 50 clinical isolates (ESKAPE pathogens) and murine wound infection model (incubator animal facility). Month 6–9: Funding milestone — Submit BIRAC BIG grant proposal (₹50L) with provisional patent + validation data; parallel application to DST-SERB SURE scheme for equipment. Month 9–12: Regulatory milestone — Pre-submission meeting with CDSCO (Biologics Division) for phage therapy regulatory pathway classification (novel biologic vs. ATMP); initiate GLP toxicology study design. Month 12: Ecosystem engagement — Join Association of Biotechnology Led Enterprises (ABLE) startup forum; present at BioInvest or Global Bio-India for investor visibility. Sequence justification: IP first (protects freedom to operate), then data (de-risks funding), then funding (enables regulatory studies), then regulatory engagement (defines path), then ecosystem (scales network). A poor answer sequences funding before IP or regulatory before data, revealing ignorance of dependency chains.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The startup ecosystem in biotechnology refers to the ______ network of entrepreneurs, incubators, accelerators, funding agencies, regulatory bodies, academic institutions, and industry partners that collectively enable the creation, growth, and scaling of biotechnology ventures — from early-stage research translation to commercial product deployment — while navigating sector-specific challenges like long R&D cycles, high capital intensity, stringent regulatory approval pathways, and intellectual property protection.",
+     "a": "interconnected",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a Class 12 student, Priya, who has developed a low-cost paper-based ______ strip for dengue during her school's Atal Tinkering Lab project.",
+     "a": "diagnostic",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) map the key stakeholders in the Indian biotech startup ecosystem and explain the function of each (incubators, funding agencies like BIRAC/DBT, regulatory bodies like CDSCO/GEAC, IP offices); (2) evaluate a hypothetical biotech startup's readiness by identifying its current stage (ideation, validation.",
+     "self_check": true
     }
    ]
   }

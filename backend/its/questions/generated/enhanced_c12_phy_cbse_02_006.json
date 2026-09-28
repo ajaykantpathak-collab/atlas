@@ -34,6 +34,16 @@
      "q": "Design a thought experiment to measure the dipole moment of an unknown polar molecule using a uniform electric field and a device that can measure the work done to rotate the molecule. Specify the measurements needed, the formula to be used, and how you would account for thermal motion (which randomizes orientation).",
      "a": "Place a sample of the polar molecules in a uniform electric field \\(E\\). Use an external torque to slowly rotate a single molecule from \\(\\theta = \\pi/2\\) to \\(\\theta = 0\\) and measure the work \\(W\\) done. Then \\(p = W/E\\). To account for thermal motion: perform the experiment at very low temperature (so thermal energy \\(k_B T \\ll pE\\)) or use an ensemble measurement: measure the average orientation \\(\\langle \\cos\\theta \\rangle\\) via dielectric constant and use the Langevin function \\(\\langle \\cos\\theta \\rangle = \\coth(pE/k_B T) - k_B T/(pE)\\) to extract \\(p\\). A poor answer ignores thermal motion or suggests measuring torque directly without relating it to energy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The potential energy of an electric dipole in a uniform external electric field is the work done by an external agent to assemble the dipole in the field or to rotate it from a ______ orientation (where potential energy is defined as zero) to a given orientation.",
+     "a": "reference",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a compass needle (magnetic dipole) aligning with Earth's magnetic field — it rotates to minimize ______ energy.",
+     "a": "potential",
+     "self_check": true
     }
    ]
   }

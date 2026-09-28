@@ -34,6 +34,36 @@
      "q": "Design a patient-information flowchart (text-based) for a couple expecting a baby who are considering private vs. public umbilical cord blood banking. Include at least four decision nodes with evidence-based criteria (e.g., family history, HLA match probability, cost, likelihood of use).",
      "a": "A good answer produces a logical flowchart, e.g.:\nSTART → Node 1: Does a first-degree relative have a disease treatable by HSC transplant (e.g., thalassemia, leukemia)? YES → Private banking strongly recommended (directed donation). NO → Node 2: Is the family of mixed ethnicity/minority background where finding an unrelated donor is difficult? YES → Private banking may be considered. NO → Node 3: Can the family afford ₹50,000–₹1,00,000 initial + ₹3,000–₹5,000 annual storage without financial strain? YES → Node 4: Donate to public bank (free, increases inventory for patients in need, ~30% chance unit will be used). NO → Discard (standard care). A poor answer omits the public donation option or ignores the <0.04% autologous use probability, showing lack of critical appraisal of commercial marketing claims.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Hematopoietic stem cells (HSCs) are multipotent adult stem cells residing primarily in the bone marrow that possess the dual capacity for long-term self-renewal and ______ into all mature blood cell lineages (erythrocytes, leukocytes, and platelets) through the process of hematopoiesis.",
+     "a": "differentiation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 10-year-old child diagnosed with acute lymphoblastic leukemia (ALL) whose ______ has failed.",
+     "a": "chemotherapy",
+     "self_check": true
+    },
+    {
+     "q": "What is Hematopoietic stem cells (HSCs)? State the definition given in this lesson.",
+     "a": "Hematopoietic stem cells (HSCs) are multipotent adult stem cells residing primarily in the bone marrow that possess the dual capacity for long-term self-renewal and differentiation into all mature blood cell lineages (erythrocytes, leukocytes, and platelets) through the process of hematopoiesis.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______-year-old child diagnosed with acute lymphoblastic leukemia (ALL) whose chemotherapy has failed.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Hematopoietic stem cells (HSCs)?",
+     "a": "Students often believe that \"bone marrow transplant\" means surgically transplanting a piece of solid bone or that the donor's bone marrow is permanently depleted.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) list the three primary clinical sources of HSCs (bone marrow, mobilized peripheral blood, umbilical cord blood) with one advantage and one limitation for each, and (2) explain the principle of autologous vs. allogeneic HSC transplantation and name two malignant and two non-malignant conditions treated by.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a scenario where a partnership firm has a net loss in the Profit and Loss Account but the Profit and Loss Appropriation Account still shows entries. Explain what entries would appear and why.",
      "a": "Scenario: Net loss ₹50,000. Deed provides interest on capital ₹40,000 and salary ₹20,000. P&L Appropriation Account:\nDr. Side: Interest on Capital ₹40,000, Salary ₹20,000\nCr. Side: Net Loss (transferred from P&L) ₹50,000, Interest on Drawings ₹10,000\nBalance (debit) = ₹1,00,000 − ₹60,000 = ₹40,000 loss transferred to partners' capital in profit-sharing ratio.\nEntries appear because appropriations are *contractual obligations* — they're recorded even if profit is insufficient, and the resulting debit balance (net loss after appropriations) is shared by partners. A poor answer (e.g., \"no appropriation account if loss\") reveals the student thinks appropriation account only exists when there's profit — but it's prepared *whenever* there are appropriation terms in the deed, regardless of profit/loss.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Profit and Loss Appropriation Account is a nominal account prepared by partnership firms to show how the net profit (or loss) earned during an accounting period is distributed among partners after charging/crediting agreed ______ such as interest on capital, partner's salary, partner's commission, and interest on drawings, and before transferring the remaining divisible profit to partners' capital/current accounts in their profit-sharing ratio.",
+     "a": "appropriations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: At year-end, your Profit & Loss ______ shows ₹5,00,000 net profit.",
+     "a": "Account",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to independently prepare a complete Profit and Loss Appropriation Account from a given trial balance and additional information, correctly classifying all items as debits or credits, computing interest on capital/drawings/salary/commission where applicable, and transferring the final divisible profit to partners'.",
+     "self_check": true
     }
    ]
   }

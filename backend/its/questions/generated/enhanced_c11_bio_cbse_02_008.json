@@ -34,6 +34,26 @@
      "q": "Design a dichotomous key (4-5 steps) using *only* Whittaker's five criteria to separate a mystery organism into one of the five kingdoms. The organism is: multicellular, eukaryotic, has cellulose cell walls, is autotrophic, and shows tissue-level organization.",
      "a": "Key: 1a. Prokaryotic cell → Monera; 1b. Eukaryotic → go to 2. 2a. Unicellular/colonial → Protista; 2b. Multicellular → go to 3. 3a. Cell wall absent → Animalia; 3b. Cell wall present → go to 4. 4a. Cell wall of chitin, heterotrophic (absorptive) → Fungi; 4b. Cell wall of cellulose, autotrophic (photosynthetic) → Plantae. The mystery organism reaches 4b → Plantae. A poor key uses non-Whittaker criteria (e.g., \"has chlorophyll\" instead of \"autotrophic\") or skips the cell-wall composition step, showing the student cannot operationalize the classification logic.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Kingdom Animalia comprises ______, eukaryotic, heterotrophic organisms that lack cell walls, obtain nutrition by holozoic ingestion (internal digestion in a gut cavity), store reserves as glycogen or fat, exhibit definite growth patterns with determinate body plans, possess specialized sensory and neuromuscular systems, and are predominantly capable of locomotion at some life stage.",
+     "a": "multicellular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a live earthworm in moist soil after rain: it moves actively, responds to touch, and ingests organic matter.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can distinguish Animalia from other kingdoms using the five Whittaker criteria (cell type, wall, body organization, nutrition, phylogeny) and justify the placement of a given organism (e.g., sponge, parasitic flatworm, insect) into Animalia by citing at least three defining features with correct terminology.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a live ______ in moist soil after rain: it moves actively, responds to touch, and ingests organic matter.",
+     "a": "earthworm",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Create a list of three numbers that have absolutely no line of symmetry and explain why.",
      "a": "Examples: 2, 5, 7. These have no symmetry because their curves and corners do not align when folded in any direction (horizontal, vertical, or diagonal). An incorrect answer (e.g., including '8') shows a failure to test for both horizontal and vertical axes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A letter or number has a line of symmetry if it can be folded along a straight line such that the two halves ______ overlap, like a mirror image.",
+     "a": "perfectly",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever looked at your own ______ in a mirror?",
+     "a": "reflection",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify, sketch, and count the lines of symmetry for any given letter or digit by mentally or physically \"folding\" it.",
+     "self_check": true
     }
    ]
   }

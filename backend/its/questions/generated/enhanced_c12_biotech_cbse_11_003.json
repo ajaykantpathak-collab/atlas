@@ -34,6 +34,31 @@
      "q": "Design a biolistics experiment to transform wheat immature embryos with a drought-tolerance gene. Specify: (i) target tissue preparation, (ii) particle coating protocol, (iii) bombardment parameters, (iv) selection and regeneration strategy. Justify each choice.",
      "a": "(i) Isolate immature embryos (1.5-2 mm) 10-14 days post-anthesis, place on osmotic medium (0.4 M mannitol/sorbitol) 4 hrs pre- and post-bombardment to reduce plasmolysis. (ii) Coat 1 μm gold particles with plasmid DNA (1 μg DNA per 50 mg particles) using CaCl₂ and spermidine precipitation. (iii) Use PDS-1000/He system: 1100 psi rupture disk, 6 cm target distance, 27 in Hg vacuum, single shot per plate. (iv) Select on herbicide (e.g., bar gene with phosphinothricin) or antibiotic, regenerate via somatic embryogenesis on MS medium with 2,4-D then hormone-free. Justification: osmoticum improves survival; gold ensures low toxicity; parameters optimized for wheat; selection ensures transformant recovery. A poor answer omits osmotic treatment or uses inappropriate selection.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Biolistics (Gene Gun) is a physical method of plant ______ where microscopic gold or tungsten particles coated with DNA are accelerated at high velocity into target plant cells or tissues using a particle gun, enabling direct gene delivery without biological vectors.",
+     "a": "transformation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to introduce a pest-resistance gene into a maize plant, but ______ doesn't infect maize efficiently.",
+     "a": "Agrobacterium",
+     "self_check": true
+    },
+    {
+     "q": "What is Biolistics (Gene Gun)? State the definition given in this lesson.",
+     "a": "Biolistics (Gene Gun) is a physical method of plant transformation where microscopic gold or tungsten particles coated with DNA are accelerated at high velocity into target plant cells or tissues using a particle gun, enabling direct gene delivery without biological vectors.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Biolistics (Gene Gun)?",
+     "a": "Students often think biolistics simply 'shoots DNA into cells' without understanding the critical role of particle coating chemistry (CaCl₂/spermidine precipitation), the need for osmotic pre-treatment to prevent cell rupture, and that the method typically produces complex, multi-copy insertions prone to silencing.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the principle, components, and steps of biolistics, compare it with Agrobacterium-mediated transformation, and solve numerical problems involving particle acceleration parameters.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a simple experiment using acetocarmine stain and onion root tips to demonstrate that the nucleolus is the site of ribosomal RNA synthesis. Include control, observation, and inference.",
      "a": "Good answer: Treat root tips with actinomycin D (low dose inhibits rRNA synthesis) vs. untreated control; stain with acetocarmine; observe nucleolus size/number under microscope. Treated: nucleoli shrink/disappear; control: prominent nucleoli. Inference: Nucleolus integrity depends on active rRNA transcription. Poor answer (e.g., \"just stain and look\") reveals inability to design controlled experiments linking structure to function.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The nucleus is a double-membrane-bound organelle that houses the genetic material (DNA organized into ______) and serves as the control center of eukaryotic cells by regulating gene expression, DNA replication, and cell division.",
+     "a": "chromosomes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at an onion root tip cell under a compound ______ — you see a distinct dark spherical structure at the center that takes up stain intensely.",
+     "a": "microscope",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can draw and label a detailed diagram of the nucleus showing nuclear envelope, nuclear pores, nucleoplasm, nucleolus, and chromatin/chromosomes, and can explain how each structure contributes to nuclear functions including transcription, ribosome biogenesis, and cell cycle control.",
+     "self_check": true
     }
    ]
   }

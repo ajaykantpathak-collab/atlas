@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a convex lens, a candle, and a screen to verify the image characteristics when the object is placed between F and 2F. List the steps and what you would observe.",
      "a": "Good answer: (1) Find approximate focal length by focusing distant tree on screen. (2) Place lens on stand, mark F and 2F on both sides. (3) Place candle between F and 2F. (4) Move screen on other side until sharp image forms. (5) Observe: image beyond 2F, inverted, larger than candle flame. Poor answer (just \"light the candle and look\") reveals no understanding of controlled variable manipulation or ray diagram prediction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Image formation by a convex lens is the process of tracing at least two of three principal rays (parallel to principal axis, through optical centre, through first focus) after refraction to locate the position, nature, size, and ______ of the image formed for a given object position.",
+     "a": "orientation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you hold a ______ glass (convex lens) under sunlight, you see a bright spot on paper – that's a real image of the sun formed at the focus.",
+     "a": "magnifying",
+     "self_check": true
+    },
+    {
+     "q": "What is Image formation by a convex lens? State the definition given in this lesson.",
+     "a": "Image formation by a convex lens is the process of tracing at least two of three principal rays (parallel to principal axis, through optical centre, through first focus) after refraction to locate the position, nature, size, and orientation of the image formed for a given object position.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by drawing the lens as a vertical line with arrows, mark F and ______F on both sides using a chosen scale, place the object arrow, then draw any two rays to find the image arrow tip.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Image formation by a convex lens?",
+     "a": "Students think the ray through the optical centre always passes straight without any lateral shift, even for thick lenses.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently draw accurate ray diagrams for a convex lens for all six standard object positions (at infinity, beyond 2F, at 2F, between F and 2F, at F, between F and lens), correctly label image characteristics (real/virtual, inverted/erect, magnified/diminished/same size), and state the practical application for each.",
+     "self_check": true
     }
    ]
   }

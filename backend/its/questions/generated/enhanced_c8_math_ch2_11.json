@@ -34,6 +34,21 @@
      "q": "Create a real-world problem (using Indian context: rupees, temperature, or distance) where the solution requires evaluating a power with a negative base and an odd exponent, and another with an even exponent. Write the problem and the expressions needed.",
      "a": "Example: \"The temperature in Leh drops by 3°C every hour for 4 hours. If the initial drop is represented as \\(-3\\)°C per hour, the total change after 4 hours can be modeled by \\((-3)^4\\)? Actually, that's not a good model. Better: A debt of ₹500 doubles every month for 3 months. If we represent the debt as a negative amount, the debt after 3 months is \\((-500) \\times 2^3\\)? Hmm. Let's use a game: In a board game, landing on a red square multiplies your score by \\(-2\\). If you land on red squares 3 times in a row, your score multiplier is \\((-2)^3 = -8\\). If you land 4 times, it's \\((-2)^4 = 16\\).\" A poor answer (e.g., using positive bases only, or not distinguishing odd/even exponents) reveals the student cannot contextualize the abstract sign rule, indicating a lack of deep conceptual transfer.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This follows directly from the integer ______ sign rule that the product of an even number of negative factors is positive, while the product of an odd number of negative factors is negative.",
+     "a": "multiplication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Each time you complete a level, your power level is ______ by itself (squared, cubed, etc.) based on the level number.",
+     "a": "multiplied",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly evaluate powers with negative bases for any positive integer exponent, explain why the sign alternates based on the exponent's parity, and apply this rule within multi-step problems involving the laws of exponents (e.g., multiplying powers with the same negative base).",
+     "self_check": true
     }
    ]
   }

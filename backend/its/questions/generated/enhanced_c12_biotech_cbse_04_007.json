@@ -34,6 +34,31 @@
      "q": "Design a hybridoma-based strategy to generate a monoclonal antibody that specifically neutralises the SARS-CoV-2 spike protein receptor-binding domain (RBD) without binding the N-terminal domain (NTD). Include immunisation protocol, screening assay design, and validation steps.",
      "a": "Immunise mice with purified RBD protein (not whole spike) adjuvanted with alum. Fuse splenocytes with HGPRT-negative myeloma cells using PEG. Screen hybridoma supernatants by ELISA against RBD (positive) and NTD (negative) — select clones with >100-fold selectivity. Validate: (1) Surface plasmon resonance for KD < 1 nM; (2) Pseudovirus neutralisation assay; (3) Epitope mapping by mutagenesis. A poor answer (e.g., \"inject virus, test for binding\") ignores the need for domain-specific immunogen, counter-screening, and functional validation — revealing gap between textbook protocol and real-world antibody development.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Monoclonal antibody production via hybridoma technology is a method to generate identical antibodies specific to a single epitope by fusing a short-lived antibody-secreting B lymphocyte (plasma cell) with an immortal myeloma (cancer) cell, creating a hybridoma that combines the antibody-producing capability of the B cell with the unlimited ______ capacity of the myeloma cell.",
+     "a": "proliferative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a doctor needs a ______ kit that detects ONLY the pregnancy hormone hCG without cross-reacting with similar hormones — this requires antibodies that bind ONE specific epitope.",
+     "a": "diagnostic",
+     "self_check": true
+    },
+    {
+     "q": "What is Monoclonal antibody production via hybridoma technology? State the definition given in this lesson.",
+     "a": "Monoclonal antibody production via hybridoma technology is a method to generate identical antibodies specific to a single epitope by fusing a short-lived antibody-secreting B lymphocyte (plasma cell) with an immortal myeloma (cancer) cell, creating a hybridoma that combines the antibody-producing capability of the B cell with the.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Monoclonal antibody production via hybridoma technology?",
+     "a": "Students believe that hybridoma technology directly produces \"human\" monoclonal antibodies ready for therapy.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Explain the stepwise hybridoma production protocol including the role of PEG fusion and HAT medium selection, and (2) Justify why hybridoma technology overcomes the limitations of polyclonal antibody production for diagnostic and therapeutic applications.",
+     "self_check": true
     }
    ]
   }

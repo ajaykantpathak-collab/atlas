@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_10_004",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_10_004",
+   "title": "c11_leg_cbse_10_004",
+   "questions": [
+    {
+     "q": "What is the pecuniary jurisdiction of an Adjudicating Officer appointed under Section 46 of the IT Act, 2000, and which authority appoints them at the State level?",
+     "a": "The Adjudicating Officer has jurisdiction to adjudicate claims for compensation **up to ₹5 crore** (increased from ₹1 crore by the 2008 Amendment). At the State level, the **Secretary, Department of Information Technology** (or an officer not below the rank of Director) is typically appointed as the Adjudicating Officer by the State Government under Sec 46(1). A wrong answer (e.g., \"unlimited jurisdiction\" or \"appointed by High Court\") reveals confusion with civil court jurisdiction or judicial appointments — the AO is an *executive* officer exercising *quasi-judicial* powers, not a judge.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a victim of cyber defamation (Sec 66A, now struck down) or online harassment *cannot* directly approach the High Court under Article 226 for compensation, and must first approach the Adjudicating Officer.",
+     "a": "The IT Act, 2000 creates a **specialized, complete code** for cyber contraventions. Section 61 explicitly bars civil courts from entertaining suits for matters cognizable by the Adjudicating Officer. The remedy under Sec 46 is **statutory, exclusive, and mandatory** — the High Court's writ jurisdiction (Art 226) is not available where an efficacious alternative remedy exists (AO + appeal to TDSAT). A wrong answer (e.g., \"can go to High Court directly\") reveals ignorance of the **doctrine of exhaustion of statutory remedies** and the **legislative intent to create a fast-track, expert forum** for cyber disputes.",
+     "self_check": true
+    },
+    {
+     "q": "A company discovers its former employee copied the client database (trade secret) and joined a competitor. The company wants: (a) an injunction to stop misuse, (b) ₹10 crore damages, and (c) criminal prosecution. Which forum(s) should it approach, and in what order?",
+     "a": "**Step 1:** For **injunction** (equitable relief) — file a **civil suit in District/High Court** (IT Act does not give AO power to grant injunctions). **Step 2:** For **damages > ₹5 crore** — file in **civil court** (AO jurisdiction capped at ₹5 crore). **Step 3:** For **criminal prosecution** (Sec 43, 66, 66B, 66C IT Act) — file **FIR at Cyber Cell/Police Station** (cognizable offence). **Order:** Civil suit for injunction (urgent) → Criminal complaint (parallel) → Civil suit for damages (if >₹5 cr) or AO (if ≤₹5 cr). A wrong answer (e.g., \"file everything with AO\") reveals misunderstanding of the **AO's limited powers** (no injunction, pecuniary cap) and the **separation of civil/criminal tracks**.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the investigation powers of a Police Officer under Section 78 IT Act vs. Section 156 CrPC for a cyber offence like hacking (Sec 66 IT Act). What is the critical procedural safeguard in Sec 78?",
+     "a": "Under **Sec 78 IT Act**, only a **Police Officer not below the rank of Inspector** can investigate cyber offences — this is a **specialized, rank-based restriction** absent in Sec 156 CrPC (any SHO). Sec 78 also requires the officer to have **technical training** (implied by \"not below Inspector\" + CCA guidelines). Under Sec 80, such an officer can **enter, search, arrest without warrant** in public places for IT Act offences — wider than CrPC. The critical safeguard: **Investigation cannot be delegated to a Sub-Inspector or Constable** — ensures technical competence. A wrong answer (e.g., \"same as CrPC\") reveals missing the **legislative intent to prevent mishandling of digital evidence** by untrained personnel.",
+     "self_check": true
+    },
+    {
+     "q": "Critique the compounding mechanism under Section 77A IT Act: \"It undermines deterrence for serious cyber crimes like identity theft (Sec 66C) or cyber terrorism (Sec 66F) by allowing settlement.\" Defend or oppose with legal reasoning.",
+     "a": "**Oppose the critique.** Sec 77A **explicitly excludes** offences: (1) punishable with **imprisonment > 3 years** (Sec 66C = 3 years + fine, Sec 66F = life imprisonment), (2) affecting **socio-economic conditions** (Sec 66F), (3) committed against **women/children** (Sec 67, 67A, 67B), (4) where **accused is previously convicted**. Compounding is allowed *only* for minor contraventions (e.g., Sec 43 damage < ₹5 lakh, Sec 66 first offence). The provision **balances efficiency (reducing case backlog) with deterrence** — serious crimes remain non-compoundable. A wrong answer (e.g., \"all cyber crimes compoundable\") reveals failure to read the **exclusion clauses in Sec 77A(2)** and confusion with general compounding under Sec 320 CrPC.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step \"Cyber Complaint Flowchart\" for a school student whose morphed photo is posted on a fake Instagram account. Include: where to complain, what evidence to preserve, timelines, and appeal route. Make it a printable 1-page guide.",
+     "a": "**Expected Answer Criteria:** A good answer includes: (1) **Immediate**: Screenshot + URL + timestamp (preserve metadata), (2) **Platform Report**: Instagram \"Report\" tool (48-hr takedown under Intermediary Guidelines), (3) **Criminal Track**: FIR at nearest **Cyber Cell** (Sec 66C, 66D, 67 IT Act + Sec 354D, 509 IPC) — *cognizable, non-bailable*, (4) **Civil/Compensation Track**: Complaint to **Adjudicating Officer** (State IT Secy) under Sec 46 for damages ≤₹5 cr — *no lawyer, 6-month limit*, (5) **Appeal**: AO order → **TDSAT (45 days)** → High Court (60 days) → SC, (6) **Support**: National Cyber Crime Reporting Portal (cybercrime.gov.in), Childline (1098). A poor answer misses **metadata preservation**, **dual-track option**, or **TDSAT as first appeal** — revealing procedural gaps.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

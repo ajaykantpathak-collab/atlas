@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_12_004",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_12_004",
+   "title": "c12_leg_cbse_12_004",
+   "questions": [
+    {
+     "q": "What is the primary difference between Public International Law and Private International Law (Conflict of Laws)?",
+     "a": "Public International Law governs relations between states and international organizations (e.g., treaties on human rights, ICJ disputes). Private International Law determines which domestic legal system applies to a cross-border private dispute (e.g., a marriage between an Indian and a French national — which country's divorce law applies?). A wrong answer that says \"Public deals with governments, Private deals with companies\" reveals confusion with domestic public/private law divide, not the international dimension.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the *North Sea Continental Shelf* cases (1969) are the landmark test for customary international law formation.",
+     "a": "The ICJ held that customary law requires **two elements**: (1) *State practice* — widespread, consistent, and representative conduct by states (especially those specially affected); and (2) *opinio juris* — the belief that such practice is legally obligatory, not merely habitual. Duration of practice is *not* essential. A wrong answer citing \"long usage\" or \"UN resolutions\" as custom misses the dual requirement and the role of *opinio juris* as the psychological element.",
+     "self_check": true
+    },
+    {
+     "q": "India ratifies the Paris Agreement (climate treaty). The Ministry of Environment issues a notification implementing its emission targets *without* Parliament passing a new law. A company challenges this, arguing only legislation can bind it. Apply the *Magan Bhai Patel* / *Vishaka* framework to decide.",
+     "a": "Under *Magan Bhai Patel*, if a treaty **restricts rights** or **modifies domestic law**, legislation is required (dualist principle). The Paris Agreement imposes emission caps on industries — this restricts the right to trade/occupy property. Hence, legislation is needed. *Vishaka* allowed direct application only because CEDAW *supplemented* existing law (no contradiction) and filled a vacuum (sexual harassment guidelines). Here, the notification creates new obligations; Parliament must legislate. A wrong answer saying \"ratification = automatic law\" ignores India’s dualist stance and the *Magan Bhai* distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the jurisdiction and enforcement of the ICJ and the ICC. Why can the ICC prosecute a Head of State while the ICJ cannot?",
+     "a": "ICJ: Only **states** can be parties; jurisdiction requires **consent** (special agreement, treaty clause, optional clause declaration); judgments are binding but **unenforceable** — Security Council *may* act (vetoable). ICC: Prosecutes **individuals** for genocide, crimes against humanity, war crimes, aggression; jurisdiction via **Rome Statute ratification** (or UNSC referral); **complementarity** — acts only if national courts unwilling/unable; **no immunity for Heads of State** (Article 27 Rome Statute). ICJ cannot try individuals; ICC cannot try states. A wrong answer conflating them reveals confusion between inter-state dispute settlement and international criminal justice.",
+     "self_check": true
+    },
+    {
+     "q": "\"International Law is not true law because it lacks a legislature, executive, and judiciary with enforcement power.\" Evaluate this Austinian critique using modern practice (e.g., WTO dispute settlement, UNCLOS, human rights treaty bodies).",
+     "a": "Austin defines law as commands of a sovereign backed by sanctions. International Law lacks a *central* sovereign, but: (1) **WTO Dispute Settlement Body** issues binding rulings with authorized retaliation (quasi-judicial + enforcement); (2) **UNCLOS/ITLOS** creates compulsory jurisdiction for law of the sea; (3) **Human Rights Treaty Bodies** (e.g., HRC, CEDAW Committee) issue views states *generally* comply with; (4) **Customary law** (e.g., prohibition of genocide) binds *all* states *erga omnes*. Effectiveness comes from **reciprocity, reputation, and institutionalization** — not a world government. A wrong answer dismissing International Law as \"mere morality\" ignores the *compliance pull* of institutionalized regimes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a hypothetical treaty clause for a new \"Global Pandemic Treaty\" that ensures: (a) binding obligations on vaccine sharing, (b) dispute resolution without ICJ consent hurdles, (c) compliance monitoring. Justify each feature using International Law principles.",
+     "a": "(a) **Obligation clause**: \"Parties shall allocate 10% of domestic vaccine production to the WHO COVAX facility within 30 days of WHO emergency declaration\" — *specific, measurable, treaty-based (Art. 38(1)(a))*. (b) **Dispute clause**: \"Disputes shall be referred to a standing **Pandemic Tribunal** (3 experts) with compulsory jurisdiction; awards enforceable via WTO-style trade sanctions authorized by the Treaty Conference\" — *bypasses ICJ consent; creates own enforcement (like WTO DSB)*. (c) **Monitoring**: \"Independent Verification Panel conducts annual audits; non-compliance triggers automatic reporting to UNGA\" — *institutionalizes transparency (like IAEA safeguards)*. A poor answer omits *automaticity* or relies on \"good faith\" — ignoring the enforcement gap.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

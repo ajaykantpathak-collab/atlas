@@ -34,6 +34,31 @@
      "q": "Design a decision tree (flowchart) that a student can use to determine the period, group, and block of any element (Z ≤ 118) given only its atomic number. Your flowchart must use quantum numbers (n, l) and orbital filling order as decision nodes.",
      "a": "**Expected answer (criteria):** A valid flowchart with these decision nodes:  \n1. Input Z.  \n2. Determine ground-state electronic configuration using aufbau (n+l rule) and Pauli/Hund rules.  \n3. Identify highest n → Period number.  \n4. Identify subshell (l) of last electron added: l=0 (s) → s-block; l=1 (p) → p-block; l=2 (d) → d-block; l=3 (f) → f-block.  \n5. For s-block: Group = valence electrons (1 or 2).  \n   For p-block: Group = 10 + valence electrons (3–8 → Groups 13–18).  \n   For d-block: Group = (n-1)d electrons + ns electrons (3–12).  \n   For f-block: Place in separate panel (no group number in 1–18; all belong to Group 3 family).  \n6. Output: Period, Group, Block.  \n**Poor answer reveals:** If the flowchart uses \"atomic mass\" or \"chemical properties\" as decision nodes, the student hasn't internalised the quantum number basis. If it assigns group numbers to f-block elements (e.g., \"Group 3 for all lanthanoids\"), they misunderstand IUPAC convention.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In the Modern Periodic Table, periods are the seven horizontal rows (numbered 1 to 7) where elements are arranged in increasing atomic number, with each period ______ to the filling of a principal energy level (n = 1 to 7).",
+     "a": "corresponding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a printed ______ table in your laboratory — notice how elements are arranged in a grid of rows and columns.",
+     "a": "periodic",
+     "self_check": true
+    },
+    {
+     "q": "What is In the Modern Periodic Table, periods? State the definition given in this lesson.",
+     "a": "In the Modern Periodic Table, periods are the seven horizontal rows (numbered 1 to 7) where elements are arranged in increasing atomic number, with each period corresponding to the filling of a principal energy level (n = 1 to 7).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about In the Modern Periodic Table, periods?",
+     "a": "Misconception: \"The group number equals the number of valence electrons for all elements.\" Specific error: Students apply the p-block rule (Group = 10 + valence electrons) or s-block rule (Group = valence electrons) to d-block elements.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Determine the period and group of any element (Z ≤ 118) from its atomic number or electronic configuration, (2) Explain why the number of elements in each period follows the sequence 2, 8, 8, 18, 18, 32, 32 using quantum numbers and orbital capacity, (3) Predict the block (s, p, d, f) and chemical family of an.",
+     "self_check": true
     }
    ]
   }

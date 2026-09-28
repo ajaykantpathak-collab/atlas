@@ -34,6 +34,26 @@
      "q": "Create a new scenario (not from textbook) where a Complex/Journal Voucher is mandatory. Specify the transaction, all accounts affected, and draw the voucher format with correct debit/credit placement.",
      "a": "Scenario: \"Purchased machinery worth ₹2,00,000 from X Ltd. Paid ₹50,000 by cheque, ₹30,000 by cash, and balance payable after 30 days.\"\nAccounts: Machinery (Dr ₹2,00,000), Bank (Cr ₹50,000), Cash (Cr ₹30,000), X Ltd (Cr ₹1,20,000).\nComplex Voucher with multiple debits (1) and multiple credits (3).\nA poor answer (e.g., splitting into two vouchers) reveals the student doesn't understand that a single economic event with multiple resource flows must be captured atomically — they treat accounting as fragmented entries rather than holistic transaction recording.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A voucher is a written document that serves as the primary evidence of a business ______, containing essential details such as date, amount, accounts debited and credited, narration, and authorized signatures, which forms the basis for recording entries in the books of accounts.",
+     "a": "transaction",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small stationery shop and a customer buys notebooks ______ ₹2,500 paying by UPI.",
+     "a": "worth",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify the correct type of voucher for a given transaction scenario, prepare a properly formatted voucher with all mandatory elements, and explain why vouchers are arranged chronologically and serially numbered before journalizing.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small ______ shop and a customer buys notebooks worth ₹2,500 paying by UPI.",
+     "a": "stationery",
+     "self_check": true
     }
    ]
   }

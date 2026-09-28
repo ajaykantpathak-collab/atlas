@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using only a spring balance, a wooden block, a rough table, and a smooth plastic sheet to demonstrate the transition from balanced to unbalanced forces. Describe the procedure, what you measure, and how you conclude whether forces are balanced at each stage.",
      "a": "**Procedure:**  \n1. Place block on rough table. Attach spring balance horizontally. Pull gently — note reading when block just starts to move (static friction limit).  \n2. Pull steadily so block moves at constant speed — note reading (kinetic friction).  \n3. Repeat on plastic sheet (smoother surface).  \n**Measurements:** Spring balance readings at (a) impending motion, (b) constant velocity on rough, (c) constant velocity on smooth.  \n**Conclusion:** At constant velocity, reading equals friction force → net force zero → balanced forces. When reading exceeds friction, block accelerates → unbalanced forces. The drop in reading from rough to smooth shows friction reduction.  \nA poor answer that only measures \"force to start motion\" misses the constant-velocity phase where balanced forces are demonstrated.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Balanced forces occur when the vector sum of all forces acting on an object is zero (net force = 0 N), resulting in zero ______ — the object either remains at rest or continues moving with constant velocity.",
+     "a": "acceleration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ceiling fan switched off: the blades hang motionless because the downward pull of gravity is exactly balanced by the upward tension in the rod — this is static ______.",
+     "a": "equilibrium",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Balanced forces occur when the vector sum of all forces acting on an object is zero (net force = ______ N), resulting in zero acceleration — the object either remains at rest or continues moving with constant velocity.",
+     "a": "0",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can draw a free-body diagram for an object in a real-world Indian context (e.g., a book on a tilted desk, a bicycle braking), resolve forces into components, calculate the net force vector, and predict whether the object will accelerate or maintain its state of motion.",
+     "self_check": true
     }
    ]
   }

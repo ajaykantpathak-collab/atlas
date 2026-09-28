@@ -34,6 +34,36 @@
      "q": "Design a vegetation transect map annotation for a north-south cross-section from Jaisalmer (Rajasthan) to Thiruvananthapuram (Kerala) at 77°E longitude. Mark the vegetation transitions, label the approximate latitude of each boundary, and write the climatic reason (rainfall/temperature/altitude) for each transition.",
      "a": "A good answer shows: (1) ~26°N Jaisalmer — Tropical Thorn Forest (rainfall <50 cm, arid); (2) ~24°N — transition to Tropical Dry Deciduous as rainfall crosses 75 cm (Aravalli foothills); (3) ~21°N — transition to Tropical Moist Deciduous near 100 cm isohyet (central India plateau); (4) ~16°N — Western Ghats windward ascent begins — Tropical Evergreen above 200 cm (Agumbe); (5) ~13°N — Western Ghats crest — Montane Shola grasslands above 1800 m (temperature drop); (6) ~8.5°N Thiruvananthapuram — Coastal Tropical Evergreen/Mangrove fringe. Each boundary must be labelled with the controlling factor: rainfall isohyet (75, 100, 200 cm) or altitude isotherm. A poor answer draws a smooth gradient without sharp boundaries, omits latitude/rainfall labels, or misplaces the Western Ghats evergreen zone, showing inability to translate climatic data into spatial vegetation patterns.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Natural vegetation refers to plant communities that have grown naturally without human ______ and have been left undisturbed by humans for a long time, adapting to the specific climatic conditions (primarily temperature and rainfall), soil types, and topography of a region.",
+     "a": "intervention",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at a satellite image of India during the monsoon season—notice how the Western Ghats glow deep green while ______ remains brownish-yellow.",
+     "a": "Rajasthan",
+     "self_check": true
+    },
+    {
+     "q": "What is Natural vegetation? State the definition given in this lesson.",
+     "a": "Natural vegetation refers to plant communities that have grown naturally without human intervention and have been left undisturbed by humans for a long time, adapting to the specific climatic conditions (primarily temperature and rainfall), soil types, and topography of a region.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Move northward: rainfall drops below ______ cm → Tropical Thorn.",
+     "a": "75",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Natural vegetation?",
+     "a": "Students believe \"Tropical Deciduous Forests\" are a single type and that Teak (Tectona grandis) grows everywhere in this category.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Identify and locate all five major natural vegetation types on an outline map of India with correct state/region labels; (2) Explain the climatic controls (rainfall amount, seasonality, temperature range, altitude) that determine the boundary between any two adjacent vegetation types; (3) Justify why a specific.",
+     "self_check": true
     }
    ]
   }

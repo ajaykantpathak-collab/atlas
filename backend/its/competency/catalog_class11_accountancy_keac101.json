@@ -134,7 +134,16 @@
      "explain": "Deduct the total liabilities from total assets to get the owner's capital",
      "compute": "capital = assets - liabilities"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "capital = assets - liabilities",
+     "compute": "capital = assets - liabilities"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "keac.101.5.1",
@@ -166,7 +175,16 @@
      "explain": "Add profit to opening capital and deduct drawings to arrive at closing capital",
      "compute": "closing_capital = opening_capital + profit - drawings"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "profit = revenue - expenses",
+     "compute": "profit = revenue - expenses"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

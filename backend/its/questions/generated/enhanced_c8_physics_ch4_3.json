@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using household items (e.g., sand, coins, cardboard) to demonstrate that pressure depends on area. Describe the setup, what you will measure/observe, and how you will conclude the relationship.",
      "a": "Good answer: Place a coin flat on sand, then stand it on edge; measure depth of indentation with a ruler. Same coin (same force = weight), different contact area → deeper indentation for smaller area shows higher pressure. Poor answer: “Press thumb and palm on sand” without controlling force or measuring outcome reveals confusion between force and pressure and lack of controlled variables.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Pressure is the thrust (force acting ______ to a surface) per unit area; it increases when the same force acts on a smaller area or when the force increases while the area stays constant.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a student wearing a school bag with thin straps versus broad straps: the thin straps dig into the ______ more painfully even though the bag’s weight (force) is the same.",
+     "a": "shoulders",
+     "self_check": true
+    },
+    {
+     "q": "What is Pressure? State the definition given in this lesson.",
+     "a": "Pressure is the thrust (force acting perpendicular to a surface) per unit area; it increases when the same force acts on a smaller area or when the force increases while the area stays constant.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Pressure?",
+     "a": "Students often think “more force always means more pressure” and “larger area always means less pressure” as separate rules, but fail to combine them: they cannot compare scenarios where both force and area change together (e.g., a heavier person on skis vs. a lighter person on boots).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why a sharp knife cuts better than a blunt one using the pressure formula, and can predict whether pressure will increase or decrease when both force and area change simultaneously (e.g., doubling force while tripling area).",
+     "self_check": true
     }
    ]
   }

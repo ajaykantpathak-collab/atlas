@@ -6,8 +6,8 @@
    "title": "c7_math_ch03_007",
    "questions": [
     {
-     "q": "Which of the following numbers is greater: $3.45$ or $3.485$? Explain your choice using place value.",
-     "a": "$3.485$ is greater. A student who incorrectly chooses $3.45$ is likely focusing only on the number of digits after the decimal point (thinking 485 is shorter or ignoring place value order) or failing to align the numbers by adding a placeholder zero to make it $3.450$ before comparing the thousandths place.",
+     "q": "State the correct sequence of steps for comparing two decimals such as 3.45 and 3.485.",
+     "a": "The comparison follows: (1) Write the decimals with points aligned (2) Add placeholder zeros to equalise decimal places (3) Compare digits from left to right through tenths (4) Decide at the first place where digits differ. Padding 3.45 to 3.450 and comparing with 3.485, the thousandths digits 0 and 5 decide it, so 3.485 is greater. A wrong answer that declares 3.45 larger because 45 looks bigger after the point shows the student is comparing the decimal part as a whole number instead of by place value.",
      "self_check": true
     },
     {
@@ -33,6 +33,26 @@
     {
      "q": "Create a set of four unique decimal numbers between $5.4$ and $5.5$ and arrange them in strict ascending order. Explain how you generated them.",
      "a": "An example set is: $5.41, 5.432, 5.46, 5.49$. These were created by keeping the whole number $5$ and the tenths digit $4$, then choosing progressively larger hundredths and thousandths digits ($1, 3, 6, 9$) while ensuring each number remains greater than $5.400$ and less than $5.500$. A poor answer would feature numbers outside the range (like $5.51$) or numbers in descending order, showing a failure to understand bounds or ordering constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Comparing and ordering decimals involves determining the relative magnitude of two or more decimal numbers by examining their place values ______ from left to right, and arranging them in ascending or descending order.",
+     "a": "sequentially",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Which one costs more, and how do you ______ without guessing?",
+     "a": "decide",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can compare any two decimals of differing lengths and number of decimal places, identify which is greater or smaller, and arrange a set of unlike decimals in ascending or descending order.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Which one costs more, and how do you decide without ______?",
+     "a": "guessing",
      "self_check": true
     }
    ]

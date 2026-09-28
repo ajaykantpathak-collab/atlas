@@ -34,6 +34,26 @@
      "q": "Design a mini research scenario (2-3 sentences) that clearly demonstrates **all five goals** of psychological enquiry in sequence, using the context of \"smartphone usage and sleep quality in adolescents.\" Label each sentence with the goal it represents.",
      "a": "**Expected answer (example):**  \n1. **Description**: \"The researcher records the average daily screen time, bedtime phone usage duration, and sleep onset latency for 200 adolescents using digital logs and sleep diaries.\"  \n2. **Prediction**: \"Based on the strong negative correlation found, the researcher forecasts that adolescents exceeding 3 hours of bedtime phone use will take >45 minutes to fall asleep.\"  \n3. **Explanation**: \"The researcher identifies blue light suppression of melatonin and cognitive arousal from social media as the causal mechanisms linking phone use to delayed sleep.\"  \n4. **Control**: \"An intervention group is asked to use 'night mode' and stop phone use 60 minutes before bed; their sleep onset latency decreases significantly compared to controls.\"  \n5. **Application**: \"The school adopts a 'digital sunset' policy and parents receive guidelines, leading to improved sleep hygiene across the district.\"  \n**Criteria for a good answer:** Each goal is distinctly represented in correct logical order; the scenario uses the same variables throughout; the control step manipulates an antecedent identified in explanation; the application step scales the solution.  \n**What a poor answer reveals:** If goals are out of order (e.g., control before explanation), the student doesn't grasp the hierarchical dependency. If variables change across goals (e.g., description studies phone use, but control manipulates caffeine), they fail to see enquiry as a coherent investigation of *one* phenomenon. If application is just \"publishing a paper,\" they confuse *dissemination* with *real-world problem solving*.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The goals of ______ enquiry are the five systematic objectives that guide scientific research in psychology: description (accurately recording a behaviour or phenomenon to distinguish it from others), prediction (forecasting the occurrence of a behaviour under specific conditions based on observed relationships), explanation (identifying the causal factors or antecedent conditions that produce a behaviour), control (manipulating antecedent conditions to make a behaviour happen, reduce it, or enhance it), and application (using the generated knowledge to bring about positive changes in people's lives).",
+     "a": "psychological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you notice that some students in your class score very high on exams while others struggle, even though they study for ______ hours.",
+     "a": "similar",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly classify a given research scenario into one of the five goals (description, prediction, explanation, control, application) and justify the classification by identifying the specific research action (e.g., recording behaviour, forecasting, identifying causes, manipulating variables, solving a real-world problem).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you notice that some students in your class score very high on exams while others ______, even though they study for similar hours.",
+     "a": "struggle",
+     "self_check": true
     }
    ]
   }

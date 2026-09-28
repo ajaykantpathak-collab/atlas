@@ -22,15 +22,33 @@
     "prepare a table showing each entry and its count",
     "what is the advantage of organising data before studying it"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "list the categories",
-     "explain": "Write each distinct item or value in a column."},
-    {"step": 2, "action": "draw the strokes",
-     "explain": "Add one tally stroke for every occurrence, crossing the fifth over the first four."},
-    {"step": 3, "action": "count the groups",
-     "explain": "Each five-group plus loose strokes gives the frequency."}
-   ]
+    {
+     "step": 1,
+     "action": "list the categories",
+     "explain": "Write each distinct item or value in a column."
+    },
+    {
+     "step": 2,
+     "action": "draw the strokes",
+     "explain": "Add one tally stroke for every occurrence, crossing the fifth over the first four."
+    },
+    {
+     "step": 3,
+     "action": "count the groups",
+     "explain": "Each five-group plus loose strokes gives the frequency."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 2 + 4 + 7 gives 13",
+     "compute": "total = 2 + 4 + 7"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hemh.104.4.2",
@@ -50,12 +68,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "take the category fraction",
+    {
+     "step": 1,
+     "action": "take the category fraction",
      "explain": "Divide the category amount by the grand total.",
-     "compute": "fraction = amount / total"},
-    {"step": 2, "action": "scale to the full circle",
+     "compute": "fraction = amount / total"
+    },
+    {
+     "step": 2,
+     "action": "scale to the full circle",
      "explain": "Multiply the fraction by 360 degrees.",
-     "compute": "sector_angle = fraction * 360"}
+     "compute": "sector_angle = fraction * 360"
+    }
    ]
   },
   {
@@ -74,15 +98,33 @@
     "which experiments give equally likely outcomes",
     "why is tossing a coin called a random experiment"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "list the outcomes",
-     "explain": "Write every possible result of the experiment before performing it."},
-    {"step": 2, "action": "test the fairness",
-     "explain": "No outcome should be special; each must carry the same chance."},
-    {"step": 3, "action": "set up the ratio",
-     "explain": "Equally likely outcomes are exactly what probability needs."}
-   ]
+    {
+     "step": 1,
+     "action": "list the outcomes",
+     "explain": "Write every possible result of the experiment before performing it."
+    },
+    {
+     "step": 2,
+     "action": "test the fairness",
+     "explain": "No outcome should be special; each must carry the same chance."
+    },
+    {
+     "step": 3,
+     "action": "set up the ratio",
+     "explain": "Equally likely outcomes are exactly what probability needs."
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "divide favourable outcomes by total outcomes",
+     "explain": "divide favourable outcomes by total outcomes: p = 3 / 6 gives 0.5",
+     "compute": "p = 3 / 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hemh.104.4.4",
@@ -102,12 +144,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "count the favourable outcomes",
+    {
+     "step": 1,
+     "action": "count the favourable outcomes",
      "explain": "List the outcomes that match the event.",
-     "compute": "favourable = favourable_count"},
-    {"step": 2, "action": "divide by all outcomes",
+     "compute": "favourable = favourable_count"
+    },
+    {
+     "step": 2,
+     "action": "divide by all outcomes",
      "explain": "Total equally likely outcomes sit in the denominator.",
-     "compute": "probability = favourable / total"}
+     "compute": "probability = favourable / total"
+    }
    ]
   }
  ],
@@ -123,12 +171,18 @@
     "total": "total of all categories"
    },
    "solution_template": [
-    {"step": 1, "action": "take the fraction",
+    {
+     "step": 1,
+     "action": "take the fraction",
      "explain": "Category over total.",
-     "compute": "fraction = amount / total"},
-    {"step": 2, "action": "multiply by 360 degrees",
+     "compute": "fraction = amount / total"
+    },
+    {
+     "step": 2,
+     "action": "multiply by 360 degrees",
      "explain": "The product is the sector angle.",
-     "compute": "sector_angle = fraction * 360"}
+     "compute": "sector_angle = fraction * 360"
+    }
    ]
   },
   {
@@ -142,12 +196,18 @@
     "total": "grand total"
    },
    "solution_template": [
-    {"step": 1, "action": "take the fraction",
+    {
+     "step": 1,
+     "action": "take the fraction",
      "explain": "Divide amount by total.",
-     "compute": "fraction = amount / total"},
-    {"step": 2, "action": "multiply by 360 degrees",
+     "compute": "fraction = amount / total"
+    },
+    {
+     "step": 2,
+     "action": "multiply by 360 degrees",
      "explain": "The angle at the centre follows.",
-     "compute": "sector_angle = fraction * 360"}
+     "compute": "sector_angle = fraction * 360"
+    }
    ]
   },
   {
@@ -161,9 +221,12 @@
     "total": "total equally likely outcomes"
    },
    "solution_template": [
-    {"step": 1, "action": "divide favourable by total",
+    {
+     "step": 1,
+     "action": "divide favourable by total",
      "explain": "Probability is the ratio of favourable outcomes to all outcomes.",
-     "compute": "probability = favourable_count / total"}
+     "compute": "probability = favourable_count / total"
+    }
    ]
   },
   {
@@ -177,9 +240,12 @@
     "total": "faces of the die"
    },
    "solution_template": [
-    {"step": 1, "action": "divide favourable by total",
+    {
+     "step": 1,
+     "action": "divide favourable by total",
      "explain": "The ratio gives the probability.",
-     "compute": "probability = favourable_count / total"}
+     "compute": "probability = favourable_count / total"
+    }
    ]
   }
  ],
@@ -188,18 +254,18 @@
    "id": "ex4.1",
    "source_ref": "hemh104.txt section 4.1-4.2 exercises",
    "questions": [
-     "Organise the given survey data with tally marks.",
-     "Draw a pie chart of the given data using central angles.",
-     "Which category has the largest sector in the circle graph?"
+    "Organise the given survey data with tally marks.",
+    "Draw a pie chart of the given data using central angles.",
+    "Which category has the largest sector in the circle graph?"
    ]
   },
   {
    "id": "ex4.2",
    "source_ref": "hemh104.txt section 4.3 exercises",
    "questions": [
-     "Find the probability of getting a tail in one toss of a coin.",
-     "A die is thrown once - find the probability of a number greater than 4.",
-     "Numbers 1 to 10 are written on cards - find the probability of drawing a prime number."
+    "Find the probability of getting a tail in one toss of a coin.",
+    "A die is thrown once - find the probability of a number greater than 4.",
+    "Numbers 1 to 10 are written on cards - find the probability of drawing a prime number."
    ]
   }
  ]

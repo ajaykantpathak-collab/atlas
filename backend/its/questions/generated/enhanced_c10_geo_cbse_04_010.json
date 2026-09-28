@@ -16,8 +16,8 @@
      "self_check": true
     },
     {
-     "q": "Using the data below, calculate the **approximate ratio of labour productivity (output per worker) in non-agriculture sectors to agriculture** and interpret the result.\n- Agriculture GDP share: 18%, Workforce share: 42%\n- Non-agriculture GDP share: 82%, Workforce share: 58%\n(Assume total GDP = ₹100 lakh crore, total workforce = 50 crore for simplicity.)",
-     "a": "**Steps:**\n1. Agriculture GDP = 18% of ₹100L cr = ₹18L cr; Agriculture workers = 42% of 50 cr = 21 cr.\n2. Agri productivity = ₹18L cr / 21 cr = **₹0.857 lakh per worker**.\n3. Non-agri GDP = ₹82L cr; Non-agri workers = 58% of 50 cr = 29 cr.\n4. Non-agri productivity = ₹82L cr / 29 cr = **₹2.827 lakh per worker**.\n5. Ratio = 2.827 / 0.857 ≈ **3.3**.\n**Interpretation:** A non-agriculture worker produces ~3.3 times more value than an agriculture worker. This massive productivity gap explains rural poverty and the urgency of creating non-farm jobs. A wrong calculation (e.g., using shares directly without converting to per-worker terms) shows the student cannot translate macro shares into micro productivity — a skill tested in case-based board questions.",
+     "q": "With agriculture at 18 percent of GDP employing 42 percent of workers, and non-agriculture at 82 percent of GDP employing 58 percent, calculate the approximate ratio of non-farm output per worker to farm output per worker.",
+     "a": "Farm productivity works out as GDP share over workforce share, and the same for the non-farm sector: 18/42 versus 82/58, so the ratio = 3.3. A wrong answer that compares the GDP shares directly, or calls agriculture more productive because it employs more people, shows the student has missed that output per worker in agriculture is roughly one-fourth of the non-agricultural level.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Design a **two-pronged policy framework** to simultaneously: (a) raise agriculture's GDP share by 2 percentage points in 5 years, and (b) reduce agriculture's workforce share by 3 percentage points in the same period. Specify one supply-side and one demand-side measure for each goal, with geographical targeting (name specific regions/crop zones).",
      "a": "**Expected framework (illustrative):**\n- **Goal (a) Raise GDP share:**  \n  *Supply-side:* Promote **horticulture clusters in Maharashtra (Nashik grapes), Karnataka (Kolar mangoes), Himachal (apples)** via cold chains and FPOs — high value/ha raises output.  \n  *Demand-side:* **Export-oriented processing zones** for spices (Kerala), marine products (Andhra), basmati (Punjab/Haryana) — higher value realization per tonne.\n- **Goal (b) Reduce workforce share:**  \n  *Supply-side:* **Mechanization + skill training** in Green Revolution belt (Punjab, Haryana, Western UP) to release family labour.  \n  *Demand-side:* **Rural non-farm employment** via MSME clusters (textiles in Tamil Nadu, food processing in Punjab, agro-equipment in Rajasthan) absorbing released labour locally.\n**Poor answer indicator:** Generic \"increase investment\" without *crop-specific, region-specific, mechanism-specific* measures. Board case-study questions require **spatial precision** (naming belts/zones) and **instrument precision** (naming schemes like PMKSY, PMFBY, AIF).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Contribution of agriculture to the national economy refers to the sector's share in India's Gross Domestic Product (GDP), its role in generating employment for nearly half the workforce, its supply of raw materials to agro-based industries, and its contribution to export earnings and food security — ______ making it the primary sector backbone of the Indian economy despite a declining GDP share.",
+     "a": "collectively",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a news headline: \"______ GDP share falls to 18% but still employs 42% of workers\" — this apparent contradiction is the entry point.",
+     "a": "Agriculture",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The key principle: Agriculture's economic significance lies not in its GDP percentage alone, but in its irreplaceable role as the primary employer and wage-goods supplier for the bottom ______% of the population.",
+     "a": "60",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can interpret latest statistical data (GDP share ~18%, workforce share ~42%) to explain why agriculture remains critical for livelihood security and industrial raw material supply, and can analyze the paradox of declining GDP share alongside persistent high employment dependence.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a news headline: \"Agriculture GDP share falls to 18% but still employs 42% of workers\" — this apparent ______ is the entry point.",
+     "a": "contradiction",
      "self_check": true
     }
    ]

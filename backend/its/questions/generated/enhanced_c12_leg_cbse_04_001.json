@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_04_001",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_04_001",
+   "title": "c12_leg_cbse_04_001",
+   "questions": [
+    {
+     "q": "Define 'unliquidated damages' and explain why they are the hallmark remedy in tort law but not in breach of contract.",
+     "a": "Unliquidated damages are compensation amounts that cannot be predetermined by a fixed formula and are assessed by the court based on the actual harm suffered — e.g., pain, suffering, loss of reputation, or future earnings. In tort, the harm is often unique and unforeseeable (like nervous shock from defamation), so no pre-agreed sum exists. In breach of contract, damages are typically *liquidated* or calculable because parties can foresee losses at the time of contracting (e.g., non-delivery of goods = market price difference). A wrong answer (e.g., \"unliquidated means unpaid\") reveals confusion between *quantification* and *payment status*.",
+     "self_check": true
+    },
+    {
+     "q": "A factory stores large quantities of chlorine gas for industrial use. A leak occurs due to an unforeseeable earthquake, harming nearby residents. The factory argues: \"We took all reasonable care — it was an Act of God.\" Under *strict liability* (Rylands v Fletcher), is this defence valid? Under *absolute liability* (M.C. Mehta v. Union of India), is it valid? Explain the difference.",
+     "a": "Under *strict liability* (Rylands v Fletcher), 'Act of God' is a valid defence — if the escape was caused *directly* by natural forces without human intervention, the defendant is not liable. Under *absolute liability* (M.C. Mehta), *no exceptions* apply — not even Act of God — because enterprises engaged in inherently dangerous activities owe a non-delegable duty to the community. A wrong answer (e.g., \"both allow Act of God defence\") reveals failure to grasp that absolute liability was *judicially created in India* to close the loopholes of strict liability for hazardous industries.",
+     "self_check": true
+    },
+    {
+     "q": "Ramesh publishes a blog post falsely accusing his colleague Suresh of embezzlement. Suresh sues for defamation. Identify: (a) the type of tort, (b) whether it is libel or slander, (c) the three elements of tort present, and (d) why motive is relevant here but not in breach of contract.",
+     "a": "(a) Intentional tort — defamation. (b) Libel — written/published in permanent form (blog post). (c) Wrongful act: publishing false statement; Legal damage: harm to reputation (actionable per se); Remedy: unliquidated damages + possible injunction. (d) In tort, *malice* (ill motive) can defeat defences like fair comment or privilege; in breach of contract, only the *breach* matters — motive is irrelevant. A wrong answer (e.g., \"slander because it's online\") shows confusion between permanence of form (libel) vs transience (slander).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the 'duty of care' in Donoghue v Stevenson (manufacturer to consumer) with the 'duty of care' in a doctor-patient relationship. How does the 'neighbour principle' expand or limit duty in each case? Why is foreseeability the key test in both?",
+     "a": "In Donoghue v Stevenson, Lord Atkin's 'neighbour principle' established that a manufacturer owes duty to *ultimate consumers* who are 'reasonably foreseeable' users — proximity is *legal*, not physical. In doctor-patient, duty arises from *professional relationship* and *voluntary assumption of responsibility* — a higher standard (Bolam test). Foreseeability is key in both: if harm to a *class of persons* is foreseeable (consumers of ginger beer / patients undergoing surgery), duty exists. A wrong answer (e.g., \"doctor's duty is contractual only\") misses that tort duty runs *parallel* to contract — a patient can sue in *both* tort and contract.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"Absolute liability is just strict liability without exceptions — so why did the Supreme Court create a new doctrine instead of simply removing exceptions from Rylands v Fletcher in India?\"",
+     "a": "The Court created *absolute liability* as a *distinct doctrine* because: (1) It applies to *enterprises* (commercial entities), not individuals — reflecting industrial reality; (2) It imposes *enterprise liability* — the 'deep pocket' principle makes compensation *exemplary* (based on magnitude/financial capacity), not just compensatory; (3) It covers *harm within the premises* (workers, visitors) — strict liability requires *escape*; (4) It responds to *constitutional values* (Art 21 — right to life) in post-Bhopal India. Merely deleting exceptions would not address these structural shifts. A wrong answer (e.g., \"same thing, different name\") shows lack of appreciation for *judicial innovation* in response to mass disasters.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical fact situation involving a *new-age tort* (e.g., data breach, AI-generated deepfake, drone trespass) that tests the boundary of an existing tort category. Identify which tort it resembles, what novel element challenges traditional analysis, and how you would argue for/against liability.",
+     "a": "*Example*: A startup's AI chatbot generates a realistic deepfake video of a politician accepting a bribe, which goes viral. The politician sues for defamation. *Resembles*: Defamation (libel — permanent digital form). *Novel element*: No *human publisher* — the 'statement' is algorithmically generated without human intent. *Argument for liability*: The startup *deployed* a system it knew could hallucinate — duty of care to prevent foreseeable misuse (negligence). *Argument against*: No 'publication' by a 'person' — intermediaries have safe harbour (IT Act, Sec 79). A poor answer (e.g., \"it's just defamation\") fails to engage with *autonomy of AI* and *intermediary liability* — the frontier of modern tort law.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

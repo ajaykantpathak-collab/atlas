@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using only a stopwatch and a colorimeter to confirm that the decomposition of H₂O₂ (colorless) catalyzed by I⁻ is first order with respect to H₂O₂. Outline the procedure and the graph you would plot.",
      "a": "Procedure: Prepare fixed [I⁻] and varying initial [H₂O₂]. Measure absorbance (proportional to [H₂O₂]) at regular time intervals. Plot ln(absorbance) vs time. If linear with negative slope, the reaction is first order in H₂O₂. A poor answer (e.g., \"measure time for complete decomposition\") shows lack of understanding of integrated rate law graphical verification. The colorimeter tracks concentration; the ln plot is the standard test for first order.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A first order reaction is a chemical reaction whose rate is directly proportional to the first power of the ______ of a single reactant.",
+     "a": "concentration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a glow-in-the-dark watch dial: the ______ decay of tritium (³H) follows first order kinetics — its brightness halves every 12.3 years regardless of how much tritium you start with.",
+     "a": "radioactive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The order of reaction is the sum of the powers of concentration terms in the experimentally determined rate law, which equals ______ for a first order reaction.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) identify a first order reaction from its rate law expression or experimental rate vs concentration data, (2) write the differential rate equation and state the units of the rate constant, (3) explain why the half-life of a first order reaction is independent of initial concentration, and (4) recognize.",
+     "self_check": true
     }
    ]
   }

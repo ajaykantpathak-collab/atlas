@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_05_006",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_05_006",
+   "title": "c12_leg_cbse_05_006",
+   "questions": [
+    {
+     "q": "Define 'immovable property' under Section 3 of the Transfer of Property Act, 1882, and explain the exclusion of 'standing timber, growing crops, and grass' with one example each.",
+     "a": "Immovable property under Sec. 3 TPA excludes standing timber (e.g., teak trees grown for construction wood), growing crops (e.g., sugarcane), and grass (e.g., pasture grass for fodder). These are movable because they are severed from land or meant for immediate use. A wrong answer (e.g., \"mango trees are standing timber\") reveals the student confuses *commercial purpose* with *botanical classification* — the test is *intention*: if the tree is for fruit (sustenance from soil), it is immovable (Fatimabibi v. Arrfana Begum); if for wood, it is standing timber (movable).",
+     "self_check": true
+    },
+    {
+     "q": "A transfers his house and garden to B via a single registered deed. The deed also states B must pay ₹5 lakh to A's creditor C. B wants to keep the house and garden but refuses to pay C. Can B do so? Explain using the Doctrine of Election.",
+     "a": "No. Under Sec. 35 TPA (Doctrine of Election), B must either accept the entire instrument (house, garden, *and* burden to pay C) or reject it entirely. The maxim *quod approbo non reprobo* (one cannot approbate and reprobate) applies. B cannot cherry-pick benefits. A wrong answer (\"B can keep property, pay C later\") reveals the student treats the burden as a separate contract, missing that Election applies to *a single instrument* creating benefit and burden simultaneously (Cooper v. Cooper).",
+     "self_check": true
+    },
+    {
+     "q": "X files a suit against Y for declaration of title over a flat in Mumbai. During the pendency of the suit, Y sells the flat to Z via a registered sale deed. Z had no actual notice of the suit. Decide the validity of the transfer and Z's rights, citing Section 52 TPA and *Hardev Singh v. Gurmail Singh*.",
+     "a": "The transfer is not void but Z is bound by the court's final decree under Sec. 52 TPA (Doctrine of Lis Pendens). *Hardev Singh* clarified: Sec. 52 does not render pendente lite transfers void/illegal; it makes the transferee (Z) bound by the outcome. Since the suit directly questions title (right to immovable property), and transfer occurred during pendency affecting X's rights, Lis Pendens applies. Z's lack of notice is irrelevant — constructive notice is presumed. A wrong answer (\"Sale is void\" or \"Z gets clean title as bona fide purchaser\") reveals confusion with *void ab initio* vs. *bound by decree*, and ignorance that Lis Pendens is a *doctrine of notice*, not a transfer ban.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast the mode of transfer for: (a) a gold necklace worth ₹80,000; (b) a residential plot worth ₹50 lakh; (c) a trademark license (intangible). Reference the Registration Act, 1908, and TPA provisions.",
+     "a": "(a) Movable >₹100: Optional registration; transfer by delivery + intention (Sec. 54 TPA for sale, but movable governed by Sale of Goods Act, 1930). (b) Immovable >₹100: *Compulsory* registered instrument (Sec. 54 TPA + Sec. 17 Registration Act); attestation by 2 witnesses (Sec. 3 TPA); mutation in revenue records. (c) Intangible (actionable claim): Transfer *only* by registered instrument (Sec. 130 TPA / Sec. 17 Registration Act), no delivery possible. A wrong answer (e.g., \"all require registration\") reveals failure to distinguish *movable vs. immovable* thresholds and *tangible vs. intangible* formalities.",
+     "self_check": true
+    },
+    {
+     "q": "Critically evaluate: \"The distinction between movable and immovable property in Indian law is rigid and outdated. The 'intention test' (Shantabai) creates uncertainty. India should adopt a unified classification like the UCC in the USA.\" Argue for or against with reference to judicial trends and commercial needs.",
+     "a": "Against. The distinction serves functional purposes: immovable property requires *publicity* (registration) due to high value, permanence, and third-party reliance; movable property prioritizes *commercial fluidity*. Shantabai's \"intention test\" (trees for fruit = immovable; for timber = movable) is *context-sensitive*, not uncertain — it aligns with economic reality (land sustains fruit trees). UCC's unified approach works for goods but fails for land-title systems needing indefeasibility. Indian courts (e.g., *Marshall v. Green*) consistently apply the test. A weak answer (\"It's old law, change it\") ignores the *registration-evidentiary* framework and the *doctrine of notice* protecting bona fide purchasers.",
+     "self_check": true
+    },
+    {
+     "q": "Draft a hypothetical fact pattern (150 words) where *both* Doctrine of Election and Doctrine of Lis Pendens apply simultaneously. Identify the conflicting claims and the court's likely resolution.",
+     "a": "*Example:* A executes a will bequeathing his house to B and his debt of ₹10 lakh to C. The will states B must pay C's debt from the house proceeds. Simultaneously, A's brother D sues A for title over the house (suit pending). A dies. B accepts the house under the will but refuses to pay C. D's suit continues. *Resolution:* (1) Election: B must pay C or reject the bequest (Sec. 35 TPA). (2) Lis Pendens: If D wins, B's title (and thus ability to pay C) is extinguished — B is bound by D's decree (Sec. 52 TPA). Court will marshal assets: if D wins, C becomes unsecured creditor; if B keeps house, B must pay C. A poor answer treats them as separate, missing the *interdependence*: Election governs B's *choice*; Lis Pendens governs the *property's fate* during litigation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

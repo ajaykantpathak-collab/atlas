@@ -34,6 +34,26 @@
      "q": "Design a simple card-game or physical model using buttons/beads to teach a Class 8 student how to form Lewis structures for H₂, Cl₂, and N₂. Your model must show: (a) valence electrons per atom, (b) pairing of electrons to form bonds, (c) lone pairs remaining. Describe the materials and rules.",
      "a": "Materials: Colored buttons (red for valence electrons, blue for nucleus), card cutouts of element symbols with group numbers. Rules: (1) Pick an element card, place buttons equal to its group number (for Groups 14-17: C=4, N=5, O=6, F/Cl=7, H=1). (2) For diatomic molecules, place two nuclei cards facing each other. (3) Move buttons from each atom to the space between nuclei to form *pairs* — each pair is one bond. (4) Stop when each atom (except H) is surrounded by 8 buttons (4 pairs) or H has 2 buttons (1 pair). (5) Buttons not moved remain as lone pairs on the atom. For N₂: each N starts with 5 buttons; move 3 from each to center → 3 shared pairs (triple bond); each N keeps 1 pair (lone pair). A poor model (e.g., allows odd electrons in bonds, or doesn't enforce octet) reveals lack of understanding that bonds are *pairs* and octet is the driving rule.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A covalent bond is a chemical bond formed by the mutual sharing of one or more pairs of electrons between two non-metal atoms, allowing each atom to attain a stable noble gas electron ______ (usually an octet, or duplet for hydrogen).",
+     "a": "configuration",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a glass of water (H₂O) and the air you breathe (O₂, N₂, CO₂) — all are invisible gases or liquids made of non-metals, yet they exist as stable distinct ______, not as crystal lattices like salt.",
+     "a": "molecules",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can draw accurate Lewis dot structures for simple covalent molecules (H₂, Cl₂, O₂, N₂, H₂O, CH₄, CO₂) showing correct valence electrons, shared pairs, and lone pairs.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a glass of water (H₂O) and the air you breathe (O₂, N₂, CO₂) — all are ______ gases or liquids made of non-metals, yet they exist as stable distinct molecules, not as crystal lattices like salt.",
+     "a": "invisible",
+     "self_check": true
     }
    ]
   }

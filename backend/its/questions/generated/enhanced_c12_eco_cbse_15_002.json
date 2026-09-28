@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_eco_cbse_15_002",
+ "concepts": [
+  {
+   "id": "enh:c12_eco_cbse_15_002",
+   "title": "c12_eco_cbse_15_002",
+   "questions": [
+    {
+     "q": "What is the difference between privatisation and disinvestment under the New Economic Policy of 1991?",
+     "a": "**Model Answer:**\n*   **Privatisation** is a broader concept that refers to the transfer of ownership, management, or control of public sector enterprises (PSEs) to the private sector. This can happen in two ways: (a) by the withdrawal of the government from the ownership and management of public sector companies, or (b) by the outright sale of public sector companies.\n*   **Disinvestment** is a specific *method* of privatisation. It refers to the dilution of the government's stake in a public sector enterprise by selling a portion of its equity shares to private institutional investors or the general public, while the government may still retain majority control (or cede it, depending on the scale of the sale).\n\n**What a wrong answer reveals:**\nIf a student treats these terms as identical, it reveals a lack of conceptual precision. They fail to understand that disinvestment is the financial mechanism used to achieve the policy goal of privatisation.",
+     "self_check": true
+    },
+    {
+     "q": "Under the foreign exchange reforms of 1991, the Indian Rupee was devalued against foreign currencies. What was the immediate objective of this move?",
+     "a": "**Model Answer:**\nThe immediate objective of devaluing the Indian Rupee in July 1991 was to resolve the severe Balance of Payments (BOP) crisis by:\n1.  **Boosting exports:** Devaluation made Indian goods cheaper in the international market, encouraging foreign buyers to purchase more from India.\n2.  **Inflow of foreign exchange:** It encouraged the immediate inflow of foreign exchange into the country to replenish India's critically low foreign exchange reserves.\n\n**What a wrong answer reveals:**\nIf the student answers that devaluation was meant to make imports cheaper or to control domestic inflation, it reveals a fundamental misunderstanding of foreign exchange dynamics. Devaluation makes imports *more expensive* and exports *cheaper*.",
+     "self_check": true
+    },
+    {
+     "q": "Suppose the government of India decides to reduce its equity share in a public sector bank from 100% to 49% by selling shares to private investors. \n1. Identify the reform category (L, P, or G) and the specific policy tool being used.\n2. Explain whether the government has completely privatised the bank in this scenario.",
+     "a": "**Model Answer:**\n1.  **Reform Category:** Privatisation. **Specific Policy Tool:** Disinvestment (selling of government equity).\n2.  **Status of Privatisation:** The government has *not* completely privatised the bank. Because the government has retained 51% of the equity (reducing its share to 49%, meaning the private sector holds 51%), the majority ownership and ultimate management control have been transferred to the private sector. However, if the government had reduced its share to 51% (retaining majority), it would still be a PSU. Since the government's share is now 49% (below the 51% threshold), the bank is now technically a private sector bank, but the government still remains a major minority shareholder rather than having completely exited the enterprise.\n\n**What a wrong answer reveals:**\nIf the student cannot identify this as disinvestment or fails to recognize that ownership control shifts when government equity falls below 51%, they lack understanding of the threshold of state ownership and control in joint-stock companies.",
+     "self_check": true
+    },
+    {
+     "q": "Explain any three major financial sector reforms introduced under Liberalisation in 1991.",
+     "a": "**Model Answer:**\nThe three major financial sector reforms introduced under liberalisation in 1991 were:\n1.  **Change in the role of the Reserve Bank of India (RBI):** The role of the RBI was reduced from a *regulator* to a *facilitator* of the financial sector. This meant that financial institutions were allowed to make many decisions (like interest rate determination) without consulting the RBI.\n2.  **Establishment of Private Sector Banks:** The reform opened the banking sector to private players, leading to the entry of domestic and foreign private banks (e.g., ICICI, HDFC), which increased competition and efficiency.\n3.  **Increase in Foreign Investment Limit:** The limit of foreign investment (Foreign Institutional Investors/FIIs) in the financial sector and banks was raised up to 74%.\n\n**Marking Scheme (3 Marks):**\n*   **1 Mark:** Explaining the change in the RBI's role (regulator to facilitator).\n*   **1 Mark:** Explaining the entry of private/foreign banks.\n*   **1 Mark:** Explaining the increase in the foreign investment limit in banks.",
+     "self_check": true
+    },
+    {
+     "q": "Does granting \"Navratna\" status to a Public Sector Enterprise (PSE) mean it is being privatised? Explain the objective behind this policy.",
+     "a": "**Model Answer:**\nNo, granting \"Navratna\" status does not mean a PSE is being privatised. \n*   **Explanation:** The \"Navratna\" (and later \"Maharatna\" and \"Miniratna\") status is a policy of retaining public ownership while granting greater managerial and financial autonomy to highly performing PSEs. \n*   **Objective:** The objective is to enable these public enterprises to make quick commercial decisions, expand their global operations, and compete efficiently in the liberalised market without constant bureaucratic interference, thereby improving their performance without changing their public ownership.\n\n**What a wrong answer reveals:**\nIf the student thinks granting status is a step towards privatisation, they confuse *managerial autonomy* within the public sector with the *transfer of ownership* to the private sector.",
+     "self_check": true
+    },
+    {
+     "q": "How did the trade and investment policy reforms under Liberalisation directly support the goal of Globalisation?",
+     "a": "**Model Answer:**\nTrade and investment policy reforms acted as the operational bridge to Globalisation by:\n1.  **Abolishing Quantitative Restrictions:** The government removed import licensing and quantitative restrictions on imports of consumer goods and capital goods, allowing foreign goods to enter India freely.\n2.  **Reducing Tariff Rates:** Import duties and tariffs were drastically reduced, making international trade cheaper and integrating Indian domestic markets with global supply chains.\n3.  **Removing Export Duties:** Export duties were dismantled to increase the competitiveness of Indian goods in international markets, promoting global trade integration.\n\n**What a wrong answer reveals:**\nIf the student cannot link these reforms, they view Liberalisation and Globalisation as isolated silos rather than seeing Liberalisation as the domestic deregulation that made external integration (Globalisation) possible.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The process of selling a part of the equity of public sector enterprises to the public or private investors is known as ________.",
+     "a": "disinvestment",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The World Trade Organisation (WTO) was established in the year ________ as the successor to the General Agreement on Tariffs and Trade (GATT).",
+     "a": "1995",
+     "self_check": true
+    },
+    {
+     "q": "What is Liberalisation, Privatisation and Globalisation? State the definition given in this lesson.",
+     "a": "*   **Liberalisation** is the policy of eliminating government-imposed entry and growth restrictions, controls, and licensing requirements on private sector enterprises.\n*   **Privatisation** is the shedding of the ownership, management, or control of government-owned public sector enterprises (PSEs) to the private sector.\n*   **Globalisation** is the process of integrating the domestic economy with the world economy through the removal of barriers on international trade and capital flows.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Liberalisation, Privatisation and Globalisation?",
+     "a": "The lesson flags the common mix-up of treating *liberalisation* and *privatisation* as the same thing. Liberalisation is about removing government restrictions and rules for everyone in the economy, whereas privatisation is specifically about transferring the ownership and management of government-owned assets/companies to private hands.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "To master this topic, you must be able to:\n1. Distinguish between the policy measures of Liberalisation, Privatisation, and Globalisation.\n2. Identify specific reforms under Liberalisation (Industrial, Financial, Tax, Foreign Exchange, and Trade).\n3. Explain the concept of disinvestment and differentiate it from complete privatisation.\n4. Analyze outsourcing and the role of the WTO as key outcomes of globalisation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

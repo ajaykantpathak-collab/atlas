@@ -34,6 +34,21 @@
      "q": "Write a 3-line inferential question about the poem's ending (\"I am going to keep things like this\") and provide a model answer.",
      "a": "Question: \"What does the hawk's resolve to 'keep things like this' imply about its attitude towards change and time?\" Model answer: The hawk rejects change and asserts eternal dominance, implying a desire to freeze its moment of absolute power, reflecting a tyrannical mindset that denies natural cycles. A poor answer would only paraphrase the line without inferring the attitude towards time.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal comprehension questions require retrieving explicitly stated ______ from the text, while inferential comprehension questions require drawing logical conclusions by combining textual evidence with reasoning.",
+     "a": "information",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are sitting in an exam hall and see a question: \"What does the hawk mean when it says 'I hold ______ in my foot'?\" You might panic because the answer isn't directly written.",
+     "a": "Creation",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently distinguish between literal and inferential questions, locate exact textual evidence for literal answers, and construct a logical chain of reasoning supported by quotes for inferential answers.",
+     "self_check": true
     }
    ]
   }

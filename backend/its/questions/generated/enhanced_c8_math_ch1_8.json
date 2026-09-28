@@ -34,6 +34,31 @@
      "q": "Create a word problem for a Class 8 student that requires finding the square root of a 4-digit perfect square. The problem must involve a real-life measurement (area, length, etc.) and have a clear question.",
      "a": "Example: \"A square playground has an area of 3136 square metres. The school wants to paint a line along the diagonal. What is the length of one side of the playground?\" (Answer: \\( \\sqrt{3136} = 56 \\) metres). A poor problem would be \"Find \\( \\sqrt{3136} \\)\" (no context) or using a non-perfect square like 3000 (which requires estimation, not exact root). This tests if the student can contextualise the operation and choose an appropriate perfect square.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The square root of a perfect square number is the positive number which, when ______ by itself, gives the original number.",
+     "a": "multiplied",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a square ______ with an area of 225 square metres.",
+     "a": "garden",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a square garden with an area of ______ square metres.",
+     "a": "225",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can find the square root of any perfect square up to 5 digits using the prime factorisation method, explain why the square root of a non-perfect square is not a whole number, and verify their answer by squaring the result.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you have a square garden with an area of 225 square metres.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a thematic map annotation scheme to show the hierarchical relationship between India's 7 megacities (10 million+), 53 million-plus cities, and 468 Class I towns (1 lakh+) using 2011 Census data. Specify symbols, colours, and label hierarchy.",
      "a": "Good answer: Use proportional circles - Megacities: Red circle (radius ∝ log population), bold label with UA name. Million-plus (non-mega): Orange circle, medium label. Class I towns: Yellow dot, small label. Inset: Pie chart showing state-wise share. Colour gradient from red→orange→yellow shows hierarchy. Poor answer: Uses same symbol for all, or only maps megacities, missing the hierarchical urban system concept. This reveals inability to translate quantitative Census hierarchy into cartographic representation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Metropolitan City in India is an urban agglomeration with a population of 1 million (10 lakh) or more as per the Census of India, functioning as a major economic, administrative, and cultural hub with significant ______ development and regional influence.",
+     "a": "infrastructural",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at a map of India at night - the brightest clusters are Delhi, Mumbai, Kolkata, Chennai, ______, Hyderabad.",
+     "a": "Bengaluru",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify Indian cities using Census population thresholds, map the spatial distribution of million-plus cities across states, explain the functional differences between metropolitan cities and other urban centres, and analyse the relationship between metropolitan growth and regional development disparities using Census.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at a map of India at night - the ______ clusters are Delhi, Mumbai, Kolkata, Chennai, Bengaluru, Hyderabad.",
+     "a": "brightest",
+     "self_check": true
     }
    ]
   }

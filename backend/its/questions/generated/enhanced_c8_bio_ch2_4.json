@@ -34,6 +34,31 @@
      "q": "Design a simple observational classification scheme to differentiate between a suspected bacterial skin infection (like impetigo) and a fungal skin infection (like ringworm) based on visual symptoms and environmental triggers.",
      "a": "A good response should propose checking for characteristics such as circular, scaly, itchy patches exacerbated by sweat and humidity (indicating fungal ringworm) versus localized pus-filled blisters or honey-colored crusts (indicating bacterial infection). A poor response merely guesses names of diseases without establishing observable physical criteria or environmental contexts.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Infectious diseases are illnesses caused by microscopic pathogens such as bacteria, viruses, and fungi that invade the body, multiply, and disrupt normal ______ functions.",
+     "a": "physiological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When a student notices that a common cold behaves very differently from a skin ringworm infection or a ______ throat infection, they are observing the effects of different types of pathogens.",
+     "a": "bacterial",
+     "self_check": true
+    },
+    {
+     "q": "What is Infectious diseases? State the definition given in this lesson.",
+     "a": "Infectious diseases are illnesses caused by microscopic pathogens such as bacteria, viruses, and fungi that invade the body, multiply, and disrupt normal physiological functions.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Infectious diseases?",
+     "a": "Students often believe that antibiotics can cure all infectious diseases, including viral infections like the common cold or influenza, simply because they are powerful medicines.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can classify common infectious diseases into bacterial, viral, or fungal categories, and can explain the fundamental biological differences in how these three types of pathogens infect and reproduce within the human body.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Design a digital connectivity plan for a tribal block in Odisha's Koraput district (hilly, forested, 60% ST population, 30% villages without mobile coverage). Specify: (a) primary backhaul technology, (b) last-mile technology, (c) power solution, (d) one institutional mechanism for sustainability.",
      "a": "(a) Backhaul: LEO satellite (e.g., OneWeb/Starlink) or microwave link to nearest BharatNet PoP — fiber trenching is ecologically destructive and landslide-prone. (b) Last-mile: Wi-Fi mesh network from a central tower (solar-powered) to hamlets — avoids per-household cabling. (c) Power: Solar + battery hybrid (grid unreliable). (d) Sustainability: Train local youth as \"Digital Gram Sevaks\" under USOF (Universal Service Obligation Fund) to maintain equipment and run digital literacy camps. A poor plan proposes only \"lay fiber everywhere\" ignoring terrain, forest clearance laws, and maintenance capacity.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Internet and Digital Communication Networks refer to the ______ global infrastructure of computers, servers, fiber-optic cables, wireless spectrum, and satellite links that enable real-time exchange of digital data, voice, and video across geographical distances, transforming spatial interaction by decoupling communication from physical transport.",
+     "a": "interconnected",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Open your smartphone and observe the signal bars — that tiny icon represents a vast invisible geography: a fiber-optic cable landing in Mumbai or Chennai, traveling thousands of kilometers underground to a district ______, then beaming wirelessly from a tower to your hand.",
+     "a": "headquarters",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain how digital networks reduce the friction of distance, identify the three tiers of India's internet infrastructure (backbone, middle-mile, last-mile), and analyze how digital connectivity reshapes economic geography (e.g., IT hubs, remote work, e-governance) using specific Indian examples.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Create an inferential question about the \"empty presidential chair\" incident (Azad Maidan) that requires connecting the scene to the theme of democratic tradition vs. hierarchical authority. Provide the expected answer structure.",
      "a": "**Question:** \"What does the audience's violent rejection of Gaitonde occupying the presidential chair reveal about the political culture of this alternate India?\"\n**Expected Answer Structure:**\n**Point:** It reveals a mature democratic culture that rejects symbolic hierarchy.\n**Evidence:** Audience shouts: \"We abolished the old customs long ago... Keep the platform empty.\"\n**Explanation:** Unlike Gaitonde's world (where chair = authority), here the empty chair *is* the symbol of equality; occupying it is \"sacrilege.\"\n**Link:** This mirrors the broader alternate history: a society that evolved democracy organically (post-Peshwa) without colonial imposition.\nA poor answer focuses only on the tomatoes/eggs (literal) or calls the audience \"rude\" (misreading cultural context), failing to infer the political philosophy.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal comprehension involves retrieving information explicitly stated in the text (who, what, when, where), while inferential comprehension requires drawing logical conclusions by connecting implicit clues, context, and prior knowledge to understand implied meanings, authorial intent, or unstated ______.",
+     "a": "relationships",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are Professor Gaitonde standing in the Azad Maidan: you see an empty ______ chair (literal observation), but you *infer* it symbolizes a democratic tradition where no single authority dominates.",
+     "a": "presidential",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently classify a comprehension question as literal or inferential, locate explicit textual evidence for literal answers, and synthesize implicit clues (dialogue, description, structural cues) to formulate a justified inferential answer using the PEEL structure (Point, Evidence, Explanation, Link).",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Create a 5-line Python snippet with a **subtle logical error** (no syntax/runtime error) that calculates compound interest but uses simple interest formula. The error must not be obvious from variable names.",
      "a": "```python\nprincipal = 10000\nrate = 0.08\ntime = 3\namount = principal * (1 + rate * time)  # Simple interest, not compound\nprint(f\"Amount: {amount:.2f}\")\n```\nA poor answer (e.g., syntax error, or obvious `rate * time` comment) shows the student cannot design a **hidden logical error** — meaning they don't deeply understand the difference between formula semantics and code semantics, which is essential for creating test cases.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Debugging is the systematic process of ______, isolating, and correcting errors (bugs) in a Python program by examining code behavior, tracing execution flow, and verifying logic against expected outcomes using techniques such as traceback analysis, strategic print statements, and interactive debugger tools (breakpoints, step execution, variable watches).",
+     "a": "identifying",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you wrote a program to ______ the total bill with GST for a restaurant order, but the output shows ₹0.00 tax for a ₹500 meal.",
+     "a": "calculate",
+     "self_check": true
+    },
+    {
+     "q": "What is Debugging? State the definition given in this lesson.",
+     "a": "Debugging is the systematic process of identifying, isolating, and correcting errors (bugs) in a Python program by examining code behavior, tracing execution flow, and verifying logic against expected outcomes using techniques such as traceback analysis, strategic print statements, and interactive debugger tools (breakpoints, step.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Debugging?",
+     "a": "Misconception: \"Debugging means adding print statements until it works.\" Why it's wrong: This treats debugging as trial-and-error, not systematic analysis.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently debug a Python program containing syntax, runtime, and logical errors by reading tracebacks, inserting targeted print statements, using an IDE debugger to step through code and inspect variables, and explaining the root cause and fix for each error type.",
+     "self_check": true
     }
    ]
   }

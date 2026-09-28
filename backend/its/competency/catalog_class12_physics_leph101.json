@@ -11,7 +11,7 @@
    "title": "Quantisation of Electric Charge",
    "section": "1.4.3",
    "definition": "Every free charge comes in whole-number multiples of a fixed elementary value e, so the net charge of a body can change only in steps of that quantum.",
-   "formula": "q = n * e",
+   "formula": "q = n * 1.6e-19",
    "key_idea": "Charge is grainy at the microscopic scale, yet the step size 1.6e-19 C is so tiny that macroscopic charges look continuous.",
    "textbook_ref": "leph101.txt section 1.4.3 (quantisation, elementary charge value)",
    "question_patterns": [
@@ -24,13 +24,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "write the elementary charge",
+    {
+     "step": 1,
+     "action": "write the elementary charge",
      "explain": "each electron carries e = 1.6e-19 C",
-     "compute": "elem_charge = 1.6e-19"},
-    {"step": 2, "action": "divide the net charge by the quantum",
+     "compute": "elem_charge = 1.6e-19"
+    },
+    {
+     "step": 2,
+     "action": "divide the net charge by the quantum",
      "explain": "the integer count of electrons is the net charge split into quanta of e",
-     "compute": "electron_count = net_charge / elem_charge"}
-   ]
+     "compute": "electron_count = net_charge / elem_charge"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "q = n * 1.6e-19",
+     "compute": "q = n * 1.6e-19"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph101.1.4.1.1",
@@ -49,12 +64,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "attach the algebraic sign to every charge",
-     "explain": "positive and negative signs decide each contribution, so addition is scalar with signs"},
-    {"step": 2, "action": "add all signed contributions",
-     "explain": "the total is the plain arithmetic sum, since charge has magnitude but no direction"},
-    {"step": 3, "action": "compare totals before and after the process",
-     "explain": "an isolated system shows the same total before and after, which is the conservation check"}
+    {
+     "step": 1,
+     "action": "attach the algebraic sign to every charge",
+     "explain": "positive and negative signs decide each contribution, so addition is scalar with signs"
+    },
+    {
+     "step": 2,
+     "action": "add all signed contributions",
+     "explain": "the total is the plain arithmetic sum, since charge has magnitude but no direction"
+    },
+    {
+     "step": 3,
+     "action": "compare totals before and after the process",
+     "explain": "an isolated system shows the same total before and after, which is the conservation check"
+    }
    ]
   },
   {
@@ -62,7 +86,7 @@
    "title": "Coulomb Force Between Point Charges",
    "section": "1.5",
    "definition": "The push or pull between two point charges grows with the product of the charges, falls off as the square of the gap, and acts along the line joining them.",
-   "formula": "F = k * q1 * q2 / r**2",
+   "formula": "F = k * q_1 * q_2 / r**2",
    "key_idea": "With k about 9e9 in SI units, two 1 C charges one metre apart repel with roughly 9e9 N, which is why the coulomb is a very large unit.",
    "textbook_ref": "leph101.txt section 1.5 (Coulomb law, k = 9e9, eps0)",
    "question_patterns": [
@@ -75,16 +99,34 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "write the Coulomb constant",
+    {
+     "step": 1,
+     "action": "write the Coulomb constant",
      "explain": "k = 1/(4 pi eps0) is about 9e9 N m^2 per C^2 in SI units",
-     "compute": "k_const = 9.0e9"},
-    {"step": 2, "action": "square the separation",
+     "compute": "k_const = 9.0e9"
+    },
+    {
+     "step": 2,
+     "action": "square the separation",
      "explain": "the inverse-square law uses the gap between centres raised to power two",
-     "compute": "sep_sq = separation ** 2"},
-    {"step": 3, "action": "combine charges over the squared gap",
+     "compute": "sep_sq = separation ** 2"
+    },
+    {
+     "step": 3,
+     "action": "combine charges over the squared gap",
      "explain": "multiply the constant by both charges and divide by the squared separation to get the force magnitude",
-     "compute": "force = k_const * charge1 * charge2 / sep_sq"}
-   ]
+     "compute": "force = k_const * charge1 * charge2 / sep_sq"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "F = k * q_1 * q_2 / r**2",
+     "compute": "F = k * q_1 * q_2 / r**2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph101.1.6.1",
@@ -103,12 +145,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "draw the pairwise force on the target charge",
-     "explain": "for every other charge, write the two-body Coulomb force vector with its direction"},
-    {"step": 2, "action": "add the vectors by the parallelogram rule",
-     "explain": "each pairwise force ignores the remaining charges, so straight vector addition is valid"},
-    {"step": 3, "action": "read the net force from the vector sum",
-     "explain": "symmetric arrangements can make the vector sum exactly zero"}
+    {
+     "step": 1,
+     "action": "draw the pairwise force on the target charge",
+     "explain": "for every other charge, write the two-body Coulomb force vector with its direction"
+    },
+    {
+     "step": 2,
+     "action": "add the vectors by the parallelogram rule",
+     "explain": "each pairwise force ignores the remaining charges, so straight vector addition is valid"
+    },
+    {
+     "step": 3,
+     "action": "read the net force from the vector sum",
+     "explain": "symmetric arrangements can make the vector sum exactly zero"
+    }
    ]
   },
   {
@@ -128,13 +179,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "write the Coulomb constant",
+    {
+     "step": 1,
+     "action": "write the Coulomb constant",
      "explain": "the field of a point source is the force law with one charge removed, so k enters directly",
-     "compute": "k_const = 9.0e9"},
-    {"step": 2, "action": "divide by the squared distance",
+     "compute": "k_const = 9.0e9"
+    },
+    {
+     "step": 2,
+     "action": "divide by the squared distance",
      "explain": "multiply k by the source charge and split by r squared to get the field at that radius",
-     "compute": "field = k_const * source_charge / (point_distance ** 2)"}
-   ]
+     "compute": "field = k_const * source_charge / (point_distance ** 2)"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "E = k * Q / r**2",
+     "compute": "E = k * Q / r**2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph101.1.7.2",
@@ -153,12 +219,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "get the uniform acceleration",
+    {
+     "step": 1,
+     "action": "get the uniform acceleration",
      "explain": "force is qE, so dividing by the mass gives the constant acceleration of the particle",
-     "compute": "accel = particle_charge * e_field / particle_mass"},
-    {"step": 2, "action": "apply the fall-time relation",
+     "compute": "accel = particle_charge * e_field / particle_mass"
+    },
+    {
+     "step": 2,
+     "action": "apply the fall-time relation",
      "explain": "starting from rest, distance h = 0.5 a t^2, so the time is the square root of 2h over a",
-     "compute": "fall_time = sqrt(2 * fall_dist / accel)"}
+     "compute": "fall_time = sqrt(2 * fall_dist / accel)"
+    }
    ]
   },
   {
@@ -178,12 +250,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "fix the tangent rule",
-     "explain": "the direction of E at any point is the tangent to the line there, so one point cannot hold two directions"},
-    {"step": 2, "action": "apply the no-crossing rule",
-     "explain": "crossing lines would give two field directions at the crossing point, which is impossible"},
-    {"step": 3, "action": "check endpoints and loops",
-     "explain": "lines start on positive and finish on negative charge and stay open curves in electrostatics"}
+    {
+     "step": 1,
+     "action": "fix the tangent rule",
+     "explain": "the direction of E at any point is the tangent to the line there, so one point cannot hold two directions"
+    },
+    {
+     "step": 2,
+     "action": "apply the no-crossing rule",
+     "explain": "crossing lines would give two field directions at the crossing point, which is impossible"
+    },
+    {
+     "step": 3,
+     "action": "check endpoints and loops",
+     "explain": "lines start on positive and finish on negative charge and stay open curves in electrostatics"
+    }
    ]
   },
   {
@@ -203,12 +284,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "project the area normal to the field",
+    {
+     "step": 1,
+     "action": "project the area normal to the field",
      "explain": "only the component of area facing the field passes lines, so multiply the area by the cosine of the tilt",
-     "compute": "tilted_area = area * cos_theta"},
-    {"step": 2, "action": "multiply field by projected area",
+     "compute": "tilted_area = area * cos_theta"
+    },
+    {
+     "step": 2,
+     "action": "multiply field by projected area",
      "explain": "the flux equals the field strength times the area projected perpendicular to it",
-     "compute": "flux = e_field * tilted_area"}
+     "compute": "flux = e_field * tilted_area"
+    }
    ]
   },
   {
@@ -228,10 +315,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "multiply charge by full separation",
+    {
+     "step": 1,
+     "action": "multiply charge by full separation",
      "explain": "the magnitude of the moment is the charge times the gap 2a between the pair members",
-     "compute": "dipole_moment = 2 * dipole_charge * half_separation"}
-   ]
+     "compute": "dipole_moment = 2 * dipole_charge * half_separation"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "p = q * 2 * a",
+     "compute": "p = q * 2 * a"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph101.1.10.2",
@@ -250,13 +349,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "build the dipole moment",
+    {
+     "step": 1,
+     "action": "build the dipole moment",
      "explain": "the moment is charge times full separation, needed because the far field depends on the product qa",
-     "compute": "dipole_moment = 2 * dipole_charge * half_separation"},
-    {"step": 2, "action": "apply the far axial formula",
+     "compute": "dipole_moment = 2 * dipole_charge * half_separation"
+    },
+    {
+     "step": 2,
+     "action": "apply the far axial formula",
      "explain": "twice k times the moment divided by the cube of the axial distance gives the field on the axis",
-     "compute": "axial_field = 2 * 9.0e9 * dipole_moment / (axial_distance ** 3)"}
-   ]
+     "compute": "axial_field = 2 * 9.0e9 * dipole_moment / (axial_distance ** 3)"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "E_axial = 2 * k * p / r**3",
+     "compute": "E_axial = 2 * k * p / r**3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph101.1.11.1",
@@ -275,9 +389,12 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "combine moment, field and the sine of the angle",
+    {
+     "step": 1,
+     "action": "combine moment, field and the sine of the angle",
      "explain": "each charge feels qE in opposite directions, giving a couple of size pE sin(theta)",
-     "compute": "torque = dipole_moment * e_field * sin_theta"}
+     "compute": "torque = dipole_moment * e_field * sin_theta"
+    }
    ]
   },
   {
@@ -285,7 +402,7 @@
    "title": "Gauss Law: Enclosed Charge from Flux",
    "section": "1.13",
    "definition": "The net flux leaving any closed surface is fixed by the total charge trapped inside it, regardless of the surface shape or where the charges sit within.",
-   "formula": "phi = q_enclosed / eps0",
+   "formula": "phi = q_enclosed / eps_0",
    "key_idea": "Dividing the net outward flux by eps0 recovers the enclosed charge; zero net flux means zero net enclosed charge.",
    "textbook_ref": "leph101.txt section 1.13 (Gauss law, Eq. 1.31, Examples 1.10-1.11)",
    "question_patterns": [
@@ -297,10 +414,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "scale the flux by eps0",
+    {
+     "step": 1,
+     "action": "scale the flux by eps0",
      "explain": "Gauss law says flux equals enclosed charge over eps0, so multiply the net flux by 8.854e-12",
-     "compute": "enclosed_charge = net_flux * 8.854e-12"}
-   ]
+     "compute": "enclosed_charge = net_flux * 8.854e-12"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "phi = q_enclosed / eps_0",
+     "compute": "phi = q_enclosed / eps_0"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph101.1.14.1",
@@ -320,12 +449,18 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "write the Coulomb constant",
+    {
+     "step": 1,
+     "action": "write the Coulomb constant",
      "explain": "the wire result is usually quoted as lambda over 2 pi eps0 r, which equals 2k lambda over r",
-     "compute": "k_const = 9.0e9"},
-    {"step": 2, "action": "double k times density over distance",
+     "compute": "k_const = 9.0e9"
+    },
+    {
+     "step": 2,
+     "action": "double k times density over distance",
      "explain": "multiply 2k by the charge per unit length and divide by the perpendicular distance",
-     "compute": "field = 2 * k_const * line_density / wire_distance"}
+     "compute": "field = 2 * k_const * line_density / wire_distance"
+    }
    ]
   },
   {
@@ -333,7 +468,7 @@
    "title": "Field of a Charged Plane Sheet",
    "section": "1.14.2",
    "definition": "An endless flat sheet with even surface charge gives a field on each side that is constant, no matter how far from the sheet the point lies.",
-   "formula": "E = sigma / (2 * eps0)",
+   "formula": "E = sigma / (2 * eps_0)",
    "key_idea": "Twice eps0 in the denominator, and the result is independent of distance, pointing away from the sheet on both faces for positive sigma.",
    "textbook_ref": "leph101.txt section 1.14.2 (field of a uniformly charged infinite plane sheet, Eq. 1.33)",
    "question_patterns": [
@@ -345,10 +480,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "divide the surface density by twice eps0",
+    {
+     "step": 1,
+     "action": "divide the surface density by twice eps0",
      "explain": "Gauss law across a pillbox straddling the sheet gives sigma over 2 eps0, with 2 eps0 = 1.7708e-11",
-     "compute": "field = surface_density / 1.7708e-11"}
-   ]
+     "compute": "field = surface_density / 1.7708e-11"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "E = sigma / (2 * eps_0)",
+     "compute": "E = sigma / (2 * eps_0)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "leph101.1.14.3",
@@ -367,13 +514,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "total the charge on the shell",
+    {
+     "step": 1,
+     "action": "total the charge on the shell",
      "explain": "surface density times the shell area 4 pi R squared gives the whole charge, using 4 pi = 12.566371",
-     "compute": "shell_charge = 12.566371 * shell_radius ** 2 * surface_density"},
-    {"step": 2, "action": "treat the shell as a central point charge",
+     "compute": "shell_charge = 12.566371 * shell_radius ** 2 * surface_density"
+    },
+    {
+     "step": 2,
+     "action": "treat the shell as a central point charge",
      "explain": "for exterior points the whole charge behaves as if seated at the centre, so use the point-charge field",
-     "compute": "outside_field = 9.0e9 * shell_charge / (point_distance ** 2)"}
-   ]
+     "compute": "outside_field = 9.0e9 * shell_charge / (point_distance ** 2)"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "E_outside = k * q_shell / r**2",
+     "compute": "E_outside = k * q_shell / r**2"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [
@@ -383,17 +545,30 @@
    "concept": "leph101.1.5.1",
    "question_type": "coulomb_force_pair",
    "question_pattern": "Two tiny charged balls carry {q1} C and {q2} C, with their centres {r} m apart in air. What force does each exert on the other?",
-   "extracted_variables": {"q1": 2e-07, "q2": 3e-07, "r": 0.3},
+   "extracted_variables": {
+    "q1": 2e-07,
+    "q2": 3e-07,
+    "r": 0.3
+   },
    "solution_template": [
-    {"step": 1, "action": "write the Coulomb constant",
+    {
+     "step": 1,
+     "action": "write the Coulomb constant",
      "explain": "SI value of k is 9e9 N m^2 per C^2",
-     "compute": "k_const = 9.0e9"},
-    {"step": 2, "action": "square the separation",
+     "compute": "k_const = 9.0e9"
+    },
+    {
+     "step": 2,
+     "action": "square the separation",
      "explain": "inverse-square law needs r squared",
-     "compute": "sep_sq = r ** 2"},
-    {"step": 3, "action": "combine and divide",
+     "compute": "sep_sq = r ** 2"
+    },
+    {
+     "step": 3,
+     "action": "combine and divide",
      "explain": "force equals k times the product of charges over the squared gap",
-     "compute": "force = k_const * q1 * q2 / sep_sq"}
+     "compute": "force = k_const * q1 * q2 / sep_sq"
+    }
    ]
   },
   {
@@ -402,14 +577,24 @@
    "concept": "leph101.1.11.1",
    "question_type": "dipole_torque",
    "question_pattern": "A dipole of moment {p} C m sits at {theta_deg} degrees to a uniform field of {E} N/C. How large is the torque on it?",
-   "extracted_variables": {"p": 4e-09, "theta_deg": 30, "E": 5e4},
+   "extracted_variables": {
+    "p": 4e-09,
+    "theta_deg": 30,
+    "E": 50000.0
+   },
    "solution_template": [
-    {"step": 1, "action": "take the sine of the tilt",
+    {
+     "step": 1,
+     "action": "take the sine of the tilt",
      "explain": "30 degrees gives sin_theta = 0.5",
-     "compute": "sin_theta = 0.5"},
-    {"step": 2, "action": "multiply moment by field by sine",
+     "compute": "sin_theta = 0.5"
+    },
+    {
+     "step": 2,
+     "action": "multiply moment by field by sine",
      "explain": "the couple equals pE sin(theta)",
-     "compute": "torque = p * E * sin_theta"}
+     "compute": "torque = p * E * sin_theta"
+    }
    ]
   },
   {
@@ -418,11 +603,16 @@
    "concept": "leph101.1.13.1",
    "question_type": "charge_from_flux",
    "question_pattern": "The net outward flux through a closed surface is {flux} N m^2/C. What net charge does it enclose?",
-   "extracted_variables": {"flux": 3.14},
+   "extracted_variables": {
+    "flux": 3.14
+   },
    "solution_template": [
-    {"step": 1, "action": "scale flux by eps0",
+    {
+     "step": 1,
+     "action": "scale flux by eps0",
      "explain": "Gauss law multiplies the net flux by eps0 = 8.854e-12",
-     "compute": "enclosed_charge = flux * 8.854e-12"}
+     "compute": "enclosed_charge = flux * 8.854e-12"
+    }
    ]
   }
  ],

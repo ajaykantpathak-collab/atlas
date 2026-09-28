@@ -34,6 +34,16 @@
      "q": "Create a real-life problem (in an Indian context) that requires finding the equation of a line through two given points, and solve it. The problem must involve a vertical line.",
      "a": "Example problem: \"A straight road runs along the line \\(x = 50\\) metres from the school gate (origin). Two lamp posts are to be placed on this road at distances 10 m and 30 m from the gate along the y-direction. Find the equation of the road and the coordinates of the lamp posts.\"  \nSolution: The road is vertical, so its equation is \\(x = 50\\). The lamp posts are at \\((50, 10)\\) and \\((50, 30)\\). A poor answer would give a sloping line equation or fail to recognise that both points share the same x-coordinate. This tests whether the student can translate a vertical line description into the correct mathematical form.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a straight walking path in a school garden that must pass through two trees located at ______ (2, 3) and (5, 7).",
+     "a": "coordinates",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the two-point form from the slope formula, write the equation of a line given two points (including vertical lines), and convert it to other forms (slope-intercept, intercept, normal) to solve geometric problems such as finding intersections, checking collinearity, or determining the line's position relative to a.",
+     "self_check": true
     }
    ]
   }

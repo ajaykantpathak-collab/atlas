@@ -34,6 +34,31 @@
      "q": "Design a decision matrix for a new lithium-ion battery gigafactory choosing between the Gujarat and Bangalore-Tamil Nadu regions. Use five locational factors with weighted scores (total 100) and justify the weights.",
      "a": "A strong answer assigns weights reflecting *battery industry specifics*: 1) Port access for imported lithium/cobalt (25%) — Gujarat wins (multiple deep-draft ports). 2) Skilled chemical/electrical engineering labour (20%) — Bangalore wins (IISc, IITs, established EV ecosystem). 3) Reliable industrial power (20%) — Gujarat wins (surplus grid, renewable integration). 4) R&D ecosystem & policy incentives (20%) — Bangalore wins (startup culture, Karnataka EV policy). 5) Domestic market access (15%) — Tie (both well-connected). Final scores should be close, showing *trade-off analysis*. A poor answer uses generic weights (e.g., equal 20% each) or ignores *sector-specific* needs like hazardous chemical handling infrastructure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Industrial regions are spatially concentrated clusters of ______ units that share common locational advantages such as raw material availability, energy resources, transport networks, market access, labour supply, and agglomeration economies, leading to sustained industrial growth and functional interlinkages among firms.",
+     "a": "manufacturing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at the ______ belt around your city or the nearest metro — notice how factories cluster along highways, near railway junctions, or around ports.",
+     "a": "industrial",
+     "self_check": true
+    },
+    {
+     "q": "What is Industrial regions? State the definition given in this lesson.",
+     "a": "Industrial regions are spatially concentrated clusters of manufacturing units that share common locational advantages such as raw material availability, energy resources, transport networks, market access, labour supply, and agglomeration economies, leading to sustained industrial growth and functional interlinkages among firms.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Industrial regions?",
+     "a": "Students treat industrial regions as *static labels* on a map, believing each region specialises in only *one* industry (e.g., \"Mumbai = cotton textiles only\", \"Chotanagpur = iron & steel only\").",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify all eight major industrial regions on an outline map of India, explain the specific locational factors (raw material, power, transport, market, labour, policy) for each region, and analyze how agglomeration economies create self-reinforcing growth cycles in at least two clusters.",
+     "self_check": true
     }
    ]
   }

@@ -22,7 +22,7 @@
     "can a square be cut into 4 equal parts by curved lines - justify",
     "verify that a given 4-part division has equal areas"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -39,7 +39,16 @@
      "action": "check each part",
      "explain": "Every part must still measure a quarter of the square's area."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "square the given number using the stated square rule",
+     "explain": "square the given number using the stated square rule: sq = 12 ** 2 gives 144",
+     "compute": "sq = 12 ** 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "hegp.207.7.2",

@@ -4,15 +4,9 @@
   {
    "id": "jemh.3.1.1",
    "title": "Formulation of Linear Equations in Two Variables",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "substitute the given values and simplify",
-     "explain": "substitute the given values and simplify: val = 3 * 3 + 9 gives 18",
-     "compute": "val = 3 * 3 + 9"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "a1*x + b1*y + c1 = 0, a2*x + b2*y + c2 = 0",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 9 when x = 3.",
@@ -49,19 +43,13 @@
   {
    "id": "jemh.3.2.1",
    "title": "Consistency and Graphical Behavior via Coefficient Ratios",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "set up the proportion and solve for the unknown part",
-     "explain": "set up the proportion and solve for the unknown part: t1 = 8 / 4 gives 2",
-     "compute": "t1 = 8 / 4"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "a1/a2 != b1/b2 (unique solution); a1/a2 = b1/b2 = c1/c2 (infinitely many); a1/a2 = b1/b2 != c1/c2 (no solution)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Write the ratio 8 : 48 in its simplest form and give the first term of the simplest form.",
-     "a": "2",
+     "a": "1",
      "self_check": false
     },
     {
@@ -94,15 +82,9 @@
   {
    "id": "jemh.3.2.2",
    "title": "Graphical Solution of a Pair of Linear Equations",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "recall the count for the shape",
-     "explain": "recall the count for the shape: lines = 3 gives 3",
-     "compute": "lines = 3"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "point (x, y) where line 1 intersects line 2",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "How many lines of symmetry does a equilateral triangle have?",
@@ -139,15 +121,9 @@
   {
    "id": "jemh.3.3.1",
    "title": "Substitution Method for Solving Linear Equations",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "transpose the terms and divide by the coefficient",
-     "explain": "transpose the terms and divide by the coefficient: x = (16 - 8) / 2 gives 4",
-     "compute": "x = (16 - 8) / 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "x = (c1 - b1*y)/a1 substituted into a2*x + b2*y + c2 = 0",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 2x + 8 = 16.",
@@ -184,15 +160,9 @@
   {
    "id": "jemh.3.3.2",
    "title": "Elimination Method for Solving Linear Equations",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "transpose the terms and divide by the coefficient",
-     "explain": "transpose the terms and divide by the coefficient: x = (23 - 5) / 9 gives 2",
-     "compute": "x = (23 - 5) / 9"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "m1*(a1*x + b1*y + c1) - m2*(a2*x + b2*y + c2) = 0",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 9x + 5 = 23.",
@@ -230,6 +200,8 @@
    "id": "jemh.3.3.3",
    "title": "Evaluating Slope Parameter in Linear Equation",
    "converted_to_compute": false,
+   "formula": "m = (y - c) / x",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 3x + 13 = 22.",
@@ -267,6 +239,8 @@
    "id": "jemh.3.3.4",
    "title": "Calculating Total Cost from Fixed and Variable Rates",
    "converted_to_compute": false,
+   "formula": "total_cost = fixed_charge + distance * rate_per_km",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 4 when x = 5.",

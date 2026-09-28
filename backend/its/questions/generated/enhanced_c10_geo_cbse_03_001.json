@@ -34,6 +34,31 @@
      "q": "Design a one-page poster for a school campaign titled \"Why Every Drop Counts in Our City\" that explains the causes of water scarcity in your city/town and proposes three student-led conservation actions. Use geographical terms correctly.",
      "a": "A good poster will: (1) Identify the city’s specific scarcity type (physical/economic) using local data (rainfall, source of supply, groundwater level), (2) List 2-3 causes with geographical reasoning (e.g., \"Over-extraction of groundwater for irrigation in peri-urban farms lowers water table\"), (3) Propose three feasible student actions (e.g., \"Fix leaking taps — saves 50 litres/day per tap\", \"Reuse RO reject water for mopping/gardening\", \"Campaign for rooftop rainwater harvesting in school\"), (4) Use terms like aquifer, recharge, water table, runoff, per capita availability. A poor poster uses generic slogans (\"Save water!\") without local geographical context or confuses causes (e.g., blames only \"less rain\" in a high-rainfall city).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Water scarcity is the condition where the available freshwater resources in a region are insufficient to meet the human and ecological demand for water, arising either from a physical shortage of water (physical scarcity) or from a lack of ______ and investment to access available water (economic scarcity).",
+     "a": "infrastructure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: a Class 10 student in ______ notices that despite heavy monsoon rains, their apartment complex faces water cuts in April, while their cousin in Rajasthan’s Jaisalmer district gets water only once every four days.",
+     "a": "Bengaluru",
+     "self_check": true
+    },
+    {
+     "q": "What is Water scarcity? State the definition given in this lesson.",
+     "a": "Water scarcity is the condition where the available freshwater resources in a region are insufficient to meet the human and ecological demand for water, arising either from a physical shortage of water (physical scarcity) or from a lack of infrastructure and investment to access available water (economic scarcity).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Water scarcity?",
+     "a": "Students believe water scarcity occurs only in low-rainfall areas (deserts) and that high-rainfall regions are immune.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between physical and economic water scarcity with Indian examples, explain at least three causes of water scarcity in India (including over-exploitation, pollution, and unequal distribution), and justify the need for conservation using the concept of renewable but finite freshwater availability.",
+     "self_check": true
     }
    ]
   }

@@ -21,8 +21,8 @@
      "self_check": true
     },
     {
-     "q": "Examine the following chain of multiplications: $A = [(-2) \\times 7] \\times (-5)$ and $B = (-2) \\times [7 \\times (-5)]$. How does the commutative property relate to rewriting these expressions?",
-     "a": "The correct answer is that while both $A$ and $B$ evaluate to $+70$, transitioning between them requires both the *associative* property (moving brackets) and the *commutative* property (swapping inner terms). A student who confuses commutativity with associativity will state that swapping brackets is an example of the commutative property. Commutativity strictly refers to changing the order (position) of factors, whereas associativity refers to changing their grouping.",
+     "q": "Both A = [(-2) x 7] x (-5) and B = (-2) x [7 x (-5)] equal +70. Give the correct sequence of reasoning that turns A into B.",
+     "a": "Converting A to B takes two distinct properties in order: (1) Associativity moves the brackets without changing any factor (2) Commutativity only swaps the order of factors (3) Sign rules give each grouped product its value (4) Both expressions still evaluate to +70. A wrong answer that calls the bracket move itself commutative shows the student confuses the property that changes grouping with the property that changes the position of factors.",
      "self_check": true
     },
     {
@@ -33,6 +33,21 @@
     {
      "q": "Create an algebraic or numerical expression involving three different integers (one positive, one negative, and zero) and show how applying the commutative property to two of the factors leaves the overall product unchanged.",
      "a": "A good answer will present an expression such as $5 \\times (-4) \\times 0$, apply commutativity to rewrite it as $(-4) \\times 5 \\times 0$, and show that both evaluate to $0$. A poor answer uses only positive numbers, omits zero, or fails to demonstrate an actual change in the order of the factors.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a school sports event in Delhi, arranging ______ for the annual function.",
+     "a": "chairs",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can apply the commutative property to simplify integer multiplication calculations, verify equality across different orderings of positive and negative integers, and solve multi-step expressions without recomputing from scratch.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a school sports event in Delhi, ______ chairs for the annual function.",
+     "a": "arranging",
      "self_check": true
     }
    ]

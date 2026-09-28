@@ -34,6 +34,26 @@
      "q": "Create a word problem involving at least four integers (positive, negative, or zero) where the solver must use parity rules to determine if the final result is even or odd WITHOUT computing the actual value. The problem should have a real-world Indian context (money, distance, temperature, etc.). Provide the solution with parity reasoning.",
      "a": "Example: \"Ravi's bank balance is ₹12,450. He withdraws ₹3,217, deposits ₹4,800, withdraws ₹1,095, and deposits ₹2,630. Is his final balance even or odd?\" Solution: 12450 (even) − 3217 (odd) = odd; odd + 4800 (even) = odd; odd − 1095 (odd) = even; even + 2630 (even) = even. Final balance is even. A poor answer reveals the student cannot construct a multi-step parity chain, uses only positive integers, or creates a problem where parity doesn't simplify the reasoning (e.g., all numbers even).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Parity rules state that the sum or difference of two integers follows ______ patterns based on whether each integer is even (divisible by 2) or odd (not divisible by 2): even ± even = even, odd ± odd = even, even ± odd = odd, and odd ± even = odd.",
+     "a": "predictable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Without ______ them up, can you tell if you'll have an even or odd amount of change left?",
+     "a": "adding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Since ₹______ is even, even − even = even change.",
+     "a": "500",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can determine the parity of any sum or difference of integers without computing the actual value, can justify each rule using algebraic representation (2k, 2k+1), and can apply parity reasoning to solve multi-step problems involving unknown integers or constraints.",
+     "self_check": true
     }
    ]
   }

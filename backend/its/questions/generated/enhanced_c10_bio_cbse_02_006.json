@@ -34,6 +34,31 @@
      "q": "Design a simple experiment to test whether the folding of Mimosa leaflets is transmitted electrically or chemically. List materials, procedure, and expected observations for each hypothesis.",
      "a": "Materials: Mimosa plant, metal probe, insulated wire, battery (1.5V), scissors, water. Procedure: (1) Touch one leaflet with a metal probe connected to a wire leading to a cut petiole of another leaf (electrical transmission test). (2) Apply a drop of solution from a crushed stimulated leaf to an unstimulated leaf (chemical transmission test). Expected: If electrical, the second leaf folds when circuit completes; if chemical, the second leaf folds when solution applied. A poor design that only observes natural folding without isolating transmission mode shows the student cannot distinguish between electrical and chemical signaling pathways.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Nastic movements are non-______ plant responses to stimuli (such as touch, light, or temperature) where the direction of movement is determined by the plant's structure, not the direction of the stimulus.",
+     "a": "directional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a Mimosa pudica (touch-me-not) plant in your garden or school campus — when you gently touch its ______, they fold inward within seconds.",
+     "a": "leaflets",
+     "self_check": true
+    },
+    {
+     "q": "What is Nastic movements? State the definition given in this lesson.",
+     "a": "Nastic movements are non-directional plant responses to stimuli (such as touch, light, or temperature) where the direction of movement is determined by the plant's structure, not the direction of the stimulus.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Nastic movements?",
+     "a": "Students often think that because Mimosa leaflets fold \"toward\" the touch point, it is a tropic movement (thigmotropism).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the mechanism of thigmonasty using the example of Mimosa pudica, describing the role of pulvini, action potentials, ion fluxes, and turgor pressure changes.",
+     "self_check": true
     }
    ]
   }

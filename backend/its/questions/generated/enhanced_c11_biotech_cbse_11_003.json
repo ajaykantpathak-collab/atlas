@@ -34,6 +34,36 @@
      "q": "Design a Biopython workflow to identify all open reading frames (ORFs) longer than 300 codons in a bacterial genome FASTA file, considering all six reading frames, and output a GFF3 file with ORF coordinates. Outline the modules, key functions, and data structures you would use.",
      "a": "Expected answer criteria: (1) Use `SeqIO.parse()` to iterate genome contigs; (2) For each contig, get `seq` (forward) and `seq.reverse_complement()` (reverse); (3) Use `seq[frame:].translate(table=11, to_stop=False)` for each frame 0,1,2 to get protein strings with '*' for stop codons; (4) Split protein string by '*' to get ORFs; (5) Map protein coordinates back to nucleotide coordinates: `nt_start = frame + aa_start*3`, `nt_end = frame + (aa_end+1)*3` (adjust for reverse strand); (6) Filter ORFs where `(nt_end - nt_start) >= 900`; (7) Create `SeqFeature` with `FeatureLocation` and type=\"CDS\"; (8) Build `SeqRecord` for each contig with features list; (9) Write GFF3 using `SeqIO.write(records, \"orfs.gff\", \"gff\")` or `BCF.GFF.write()`. Key modules: `Bio.SeqIO`, `Bio.Seq`, `Bio.SeqRecord`, `Bio.SeqFeature`, `Bio.Data.CodonTable`. A poor answer using regex on nucleotide sequence (`ATG(?:...)*?TAA|TAG|TGA`) fails to handle alternative start codons (GTG, TTG in bacteria), overlapping ORFs, and coordinate mapping to GFF3 format. It also ignores memory efficiency for multi-megabase genomes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Biopython is an open-source Python library that provides specialized modules for computational biology and ______, enabling parsing of biological file formats (FASTA, GenBank, PDB), sequence manipulation (transcription, translation, reverse complement), sequence analysis (GC content, motif finding), phylogenetics, and programmatic access to biological databases (NCBI Entrez, UniProt) through a unified object-oriented interface.",
+     "a": "bioinformatics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a research intern at ICAR-National Rice Research Institute, Cuttack, and your supervisor hands you a FASTA file ______ 2,500 expressed sequence tags (ESTs) from drought-tolerant rice varieties.",
+     "a": "containing",
+     "self_check": true
+    },
+    {
+     "q": "What is Biopython? State the definition given in this lesson.",
+     "a": "Biopython is an open-source Python library that provides specialized modules for computational biology and bioinformatics, enabling parsing of biological file formats (FASTA, GenBank, PDB), sequence manipulation (transcription, translation, reverse complement), sequence analysis (GC content, motif finding), phylogenetics, and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: With Biopython, you import SeqIO, iterate through records with a for-loop, check len(record.seq), use record.seq.translate(table=______, to_stop=True) for translation, and write output with SeqIO.write().",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Biopython?",
+     "a": "Students believe SeqIO.parse() returns a list of SeqRecord objects, so they write records = SeqIO.parse(\"file.fasta\", \"fasta\") followed by records[0] or len(records), causing TypeError: 'iterator' object is not subscriptable / has no len().",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can write functional Python scripts using Biopython's SeqIO, Seq, SeqRecord, and Entrez modules to parse sequence files, perform sequence operations (transcription, translation, slicing), calculate basic statistics (GC content, length distribution), and retrieve data from NCBI databases, demonstrating correct handling of.",
+     "self_check": true
     }
    ]
   }

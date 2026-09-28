@@ -34,6 +34,26 @@
      "q": "Design a ledger account for \"Machinery\" with at least four transactions (mix of debit and credit entries) such that: (i) the Debit Total in the Totals Method is ₹45,000, (ii) the Credit Total is ₹15,000, and (iii) the Balances Method shows a Debit Balance of ₹30,000. Write the full account in T-format.",
      "a": "**Machinery Account**\nDr. | Cr.\n--- | ---\nDate | Particulars | J.F. | Amount (₹) | Date | Particulars | J.F. | Amount (₹)\nApr 1 | Balance b/d | | 25,000 | Oct 15 | Depreciation | | 10,000\nJul 10 | Bank (purchase) | | 20,000 | Dec 31 | Balance c/d | | 30,000\n| | | **45,000** | | | | **15,000** + **30,000** = 45,000\nApr 1 (Next yr) | Balance b/d | | 30,000 | | | | \n*Verification*: Debit Total = 45,000; Credit Total (entries only) = 15,000; Balance = 45,000 − 15,000 = 30,000 (Dr). A poor answer would omit the opening/closing balance entries or miscalculate the credit total, showing the student cannot *construct* data to meet given constraints—a key reverse-engineering skill for exam problems.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Trial Balance is a statement that lists all ledger accounts with their respective debit or credit balances (Balances Method) or their debit and credit totals (Totals Method) to verify the ______ accuracy of posting under the double-entry system.",
+     "a": "arithmetical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're helping your uncle reconcile his shop's ______ at month-end.",
+     "a": "books",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Extract debit and credit totals from given ledger accounts and prepare a Trial Balance using the Totals Method; (2) Calculate the net balance of each ledger account and prepare a Trial Balance using the Balances Method; (3) Verify that total debits equal total credits in both methods and explain why the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're helping your uncle ______ his shop's books at month-end.",
+     "a": "reconcile",
+     "self_check": true
     }
    ]
   }

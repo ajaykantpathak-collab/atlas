@@ -17,7 +17,7 @@
     },
     {
      "q": "Predict the major product when p-chloronitrobenzene is treated with aqueous NaOH at 623 K and 300 atm. Write the mechanism showing the Meisenheimer intermediate. Why does the nitro group at para position accelerate the reaction but a meta-nitro group does not?",
-     "a": "Major product: p-nitrophenol. Mechanism: OH⁻ attacks the carbon bearing Cl, forming a resonance-stabilised anionic σ-complex (Meisenheimer complex) where the negative charge is delocalised onto the ortho/para positions — including the carbon bearing –NO₂. The –NO₂ group stabilises this charge via –R effect. At meta position, none of the resonance structures place negative charge on the carbon bearing –NO₂, so no stabilisation occurs. A student who says \"meta also works\" has not drawn the resonance structures of the intermediate — a critical visualisation skill for JEE.",
+     "a": "Major product: p-nitrophenol. Mechanism: OH⁻ attacks the carbon bearing Cl, forming a resonance-stabilised anionic σ-complex (Meisenheimer complex) where the negative charge is delocalised onto the ortho/para positions — including the carbon bearing –NO₂. The –NO₂ group stabilises this charge via –R effect. At meta position, N/A of the resonance structures place negative charge on the carbon bearing –NO₂, so no stabilisation occurs. A student who says \"meta also works\" has not drawn the resonance structures of the intermediate — a critical visualisation skill for JEE.",
      "self_check": true
     },
     {
@@ -33,6 +33,21 @@
     {
      "q": "Design a two-step synthesis to convert bromobenzene to biphenyl using only sodium metal and dry ether. Write balanced equations for both steps and name the reaction. What would be the product if you used a mixture of bromobenzene and 1-bromopropane instead?",
      "a": "Step 1: 2 C₆H₅Br + 2 Na → C₆H₅–C₆H₅ + 2 NaBr (Fittig reaction). Step 2: Not needed — biphenyl forms directly. With PhBr + CH₃CH₂CH₂Br + 2 Na: mixture gives three products — biphenyl (Fittig), n-hexane (Wurtz), and propylbenzene (Wurtz-Fittig). A student who writes only biphenyl misses the statistical mixture — a competitive exam trap testing understanding that all possible radical couplings occur.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Haloalkanes (alkyl halides) undergo nucleophilic substitution reactions readily due to polar C–X bonds on sp³-hybridised carbon, while haloarenes (aryl halides) are significantly less reactive because the halogen is attached to an sp²-hybridised carbon of an aromatic ring, where resonance ______ gives the C–X bond partial double-bond character and the ring's electron-rich π-system repels nucleophiles.",
+     "a": "delocalisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a familiar observation: ______ (used as a solvent in labs) does not hydrolyse with aqueous NaOH at room temperature, whereas chloroethane reacts rapidly.",
+     "a": "chlorobenzene",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) compare and explain the relative reactivity of haloalkanes vs haloarenes in nucleophilic substitution using resonance, hybridisation, and carbocation stability arguments; (2) predict the effect of electron-withdrawing groups (–NO₂) at ortho/para positions on haloarene reactivity; (3) write mechanisms for.",
      "self_check": true
     }
    ]

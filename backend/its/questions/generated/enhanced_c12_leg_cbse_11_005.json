@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_11_005",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_11_005",
+   "title": "c12_leg_cbse_11_005",
+   "questions": [
+    {
+     "q": "What is the statutory time limit for filing a complaint before the National Human Rights Commission (NHRC) under the Protection of Human Rights Act, 1993?",
+     "a": "The complaint must be filed within **one year** from the date on which the act constituting the human rights violation is alleged to have been committed (Section 13(1), Protection of Human Rights Act, 1993; NHRC Guidelines). A wrong answer (e.g., \"no time limit\" or \"3 years\") reveals the student confuses NHRC with civil courts (governed by Limitation Act, 1963) or ignores the statutory bar — a frequent error in board exams where students cite Article 32 (no time limit) for NHRC complaints.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a complaint regarding a *service matter* (e.g., denial of promotion to a government employee) is not entertainable by the NHRC, even if it involves a public servant.",
+     "a": "The NHRC Guidelines (Clause 10(viii)) explicitly exclude \"service matters\" from its jurisdiction. The rationale: service matters have dedicated forums (CAT, tribunals, departmental appeals) with specialized expertise. The NHRC focuses on *human rights violations* (e.g., custodial death, police torture, denial of dignity), not employment disputes. A wrong answer (e.g., \"NHRC can take any case against a public servant\") shows the student fails to distinguish between *human rights violation* and *administrative grievance* — a critical distinction tested in case-based questions.",
+     "self_check": true
+    },
+    {
+     "q": "A Christian teacher in a State-aided school is terminated without inquiry. She files a complaint with the National Commission for Minorities (NCM). The school argues the matter is *sub judice* in the High Court. Can NCM entertain the complaint? Justify using the NCM Act, 1992 and its complaint mechanism.",
+     "a": "**No, NCM cannot entertain the complaint.** Under the NCM complaint mechanism (textbook, p.152), the Commission **does not admit matters that are sub judice** (pending before a court). Since the termination challenge is already before the High Court, it is sub judice. Additionally, the complaint must relate to *minority rights* (religious discrimination), not just any unfair dismissal. A wrong answer (\"Yes, NCM can proceed parallelly\") reveals the student ignores the *sub judice* bar — a common trap in competitive exams where multiple forums exist.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the **composition** and **appointment process** of the Chairperson of NHRC vs. NCW. Why does this difference matter for their independence?",
+     "a": "**NHRC Chairperson**: Must be a former **Chief Justice of India** (SC), appointed by President on recommendation of a **high-powered committee** (PM, Speaker, LoP Lok Sabha/Rajya Sabha, Home Minister, Dy. Chairman Rajya Sabha) — **judicial + political consensus**.  \n**NCW Chairperson**: Nominated by **Central Government** from persons of \"ability, integrity, standing\" in law, trade unionism, women's activism, etc. — **executive-driven**.  \n**Why it matters**: NHRC's judicial head + multi-party appointment insulates it from executive pressure (critical for investigating state abuses). NCW's executive nomination risks perceived bias when probing government policies on women. A wrong answer (e.g., \"both are appointed by President\") misses the *composition of the selection committee* — a key board exam distinction.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"The NHRC's recommendation to pay compensation to a victim of custodial torture is **binding** on the State Government.\" Support your answer with legal provisions and case law.",
+     "a": "**False — the recommendation is NOT binding.** Under Section 18 of the Protection of Human Rights Act, 1993, the NHRC can only **recommend** (a) payment of compensation, (b) initiation of prosecution, (c) interim relief. The State Government *may* accept or reject it. However, in *Paramjit Kaur v. State of Punjab* (1999), the Supreme Court held that while NHRC orders are not *per se* binding, the State must *consider* them seriously and cannot arbitrarily ignore them. A wrong answer (\"Yes, binding like a court order\") confuses quasi-judicial recommendations with judicial decrees — a fatal error in CUET/JEE-style assertion-reason questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a **hypothetical complaint** to the NCPCR for a 14-year-old child forced to work in a hazardous factory (violation of Art. 24, Child Labour Act). Include: (a) Complainant details, (b) Incident details, (c) Victim details, (d) Specific human rights violated, (e) Prayer/relief sought. Use the NCPCR complaint guidelines.",
+     "a": "**Expected answer criteria**:  \n(a) Complainant: Name, address, contact (can be NGO/relative).  \n(b) Incident: Factory name, location, date, nature of work (hazardous).  \n(c) Victim: Name, age (14), sex, caste, disability status, address.  \n(d) Rights violated: Art. 24 (prohibition of child labour in hazardous employment), Art. 21 (right to life/dignity), Art. 39(e) (DPSP — protection of childhood), Child Labour (Prohibition & Regulation) Act, 1986.  \n(e) Prayer: Rescue, rehabilitation, compensation, prosecution of employer, interim relief (shelter, food).  \n**Poor answer reveals**: Missing age/caste (mandatory per guidelines), vague \"human rights violation\" without citing Articles/Acts, no interim relief prayer — shows student doesn't know the *format* or *specificity* required for admissibility.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

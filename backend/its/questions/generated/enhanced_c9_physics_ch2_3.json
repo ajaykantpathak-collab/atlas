@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using a toy car, a measuring tape, and a stopwatch to demonstrate the difference between average speed and average velocity. Describe the procedure, measurements, and how you would calculate each quantity.",
      "a": "Procedure: Mark a start line. Push the car forward 2 m, then backward 1 m (so it stops 1 m from start). Measure total path length (3 m) and net displacement (1 m forward). Time the whole motion. Average speed = 3 m / time. Average velocity = 1 m / time in forward direction. A poor answer (e.g., only moving forward) fails to create a scenario where distance ≠ displacement, so the difference cannot be demonstrated.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Velocity is a vector quantity defined as the rate of change of ______ with respect to time.",
+     "a": "displacement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a student cycling from home to school along a ______ road: they cover 3 km in 15 minutes.",
+     "a": "straight",
+     "self_check": true
+    },
+    {
+     "q": "What is Velocity? State the definition given in this lesson.",
+     "a": "Velocity is a vector quantity defined as the rate of change of displacement with respect to time.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ask: \"If they return home by the same route in ______ minutes, what is their average speed?",
+     "a": "15",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Velocity?",
+     "a": "Students often think average velocity is just \"speed with a direction\" and calculate it as total distance divided by time, then add a direction word like \"north\".",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate velocity from given displacement and time data, distinguish it from speed using a numerical example, and explain why a car returning to its starting point has zero average velocity but non-zero average speed.",
+     "self_check": true
     }
    ]
   }

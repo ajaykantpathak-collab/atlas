@@ -34,6 +34,36 @@
      "q": "Construct a hypothetical example (minimum 3 goods, 2 years) where Nominal GDP grows by 20% but Real GDP **falls** by 5%. Show all calculations and explain the economic situation.",
      "a": "**Example:**  \nBase Year (2022): Good A: 100 units @ ₹10; Good B: 50 units @ ₹20; Good C: 200 units @ ₹5.  \nCurrent Year (2023): Good A: 80 units @ ₹15; Good B: 40 units @ ₹30; Good C: 180 units @ ₹8.  \n\n**Calculations:**  \nNominal GDP 2022 = (100×10)+(50×20)+(200×5) = 1,000+1,000+1,000 = **₹3,000**  \nNominal GDP 2023 = (80×15)+(40×30)+(180×8) = 1,200+1,200+1,440 = **₹3,840** → Growth = (3,840-3,000)/3,000 = **28%** (≈20% target met).  \nReal GDP 2023 (base 2022) = (80×10)+(40×20)+(180×5) = 800+800+900 = **₹2,500** → Change = (2,500-3,000)/3,000 = **-16.7%** (Real GDP falls).  \n\n**Economic Situation:** Severe **stagflation** — output of every good declined (supply shock, e.g., drought + power shortage), but prices rose even more sharply due to cost-push inflation. Nominal GDP rises purely due to inflation; Real GDP reveals the contraction.\n\n**What a poor answer reveals:**  \nIf a student cannot construct such an example, they do not grasp that Nominal GDP = Real GDP × (Price Level). They likely think \"GDP growth\" always means \"production growth\".",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Nominal GDP is the market value of all final goods and services produced within a country's domestic ______ in a given year, valued at current year prices.",
+     "a": "territory",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you run a small workshop in Gujarat ______ brass utensils.",
+     "a": "producing",
+     "self_check": true
+    },
+    {
+     "q": "What is Nominal GDP? State the definition given in this lesson.",
+     "a": "Nominal GDP is the market value of all final goods and services produced within a country's domestic territory in a given year, valued at current year prices.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The GDP Deflator is a price index calculated as (Nominal GDP ÷ Real GDP) × ______, measuring the average price level of all domestically produced final goods and services relative to the base year.",
+     "a": "100",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Nominal GDP?",
+     "a": "Misconception: \"Real GDP is calculated using base-year quantities and base-year prices.\" Why it's wrong: This describes Base-Year Nominal GDP, a fixed number.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) compute Nominal GDP, Real GDP, and GDP Deflator from a given data set of quantities and prices for multiple years, (2) explain why Real GDP is a better measure of economic growth than Nominal GDP, and (3) distinguish between GDP Deflator and CPI/WPI in terms of coverage, basket flexibility, and base-year revision.",
+     "self_check": true
     }
    ]
   }

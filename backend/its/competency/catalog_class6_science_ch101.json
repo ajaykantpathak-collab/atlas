@@ -54,7 +54,7 @@
     "what are the main sources of human food",
     "give one everyday example of primary food sources"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -71,7 +71,16 @@
      "action": "Verify with examples",
      "explain": "Cross-check the classification against known examples, such as rice from plants and milk from animals, to confirm the source category is correct."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_sources = plant_sources + animal_sources",
+     "compute": "total_sources = plant_sources + animal_sources"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fesc.101.3",
@@ -122,7 +131,7 @@
     "what happens when seeds are left in a wet cloth",
     "describe sprouting with an example"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -139,7 +148,16 @@
      "action": "Observe growth",
      "explain": "Check for the emergence of a small white radicle."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "sprout_growth = initial_seed + water + time",
+     "compute": "sprout_growth = initial_seed + water + time"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fesc.101.5",

@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a frog sciatic nerve preparation to demonstrate that nerve impulse conduction is blocked by a local anaesthetic (e.g., lidocaine) but not by cooling the nerve to 10°C. State the expected observations and the physiological basis.",
      "a": "Setup: Isolate frog sciatic nerve, place stimulating and recording electrodes at known distance. Apply lidocaine to a segment — conduction block occurs (no recorded compound action potential) because lidocaine binds voltage-gated Na⁺ channels from inside, preventing depolarisation. Cool another preparation to 10°C — conduction slows (increased latency) but does not block, because lower temperature reduces channel kinetics and ion diffusion rates without stopping them. A poor answer that predicts block at 10°C confuses slowing with failure, missing that anaesthetics specifically target channel gating while cooling affects all rate processes.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Neural tissue is a specialised animal tissue composed of neurons (excitable cells that generate and conduct electrical impulses) and neuroglia (supporting cells that protect, nourish, and insulate neurons), organised to receive stimuli, process information, and transmit signals for rapid ______ and control of body functions.",
+     "a": "coordination",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you touch a hot pan, your hand pulls back before you feel pain — that speed comes from ______ tissue.",
+     "a": "neural",
+     "self_check": true
+    },
+    {
+     "q": "What is Neural tissue? State the definition given in this lesson.",
+     "a": "Neural tissue is a specialised animal tissue composed of neurons (excitable cells that generate and conduct electrical impulses) and neuroglia (supporting cells that protect, nourish, and insulate neurons), organised to receive stimuli, process information, and transmit signals for rapid coordination and control of body functions.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Neural tissue?",
+     "a": "Students believe that the action potential travels *along* the axon like a current in a wire, with electrons flowing continuously.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can draw and label a multipolar neuron showing all structural components (dendrites, cell body, axon, myelin sheath, nodes of Ranvier, synaptic terminals), explain the ionic basis of resting and action potentials with correct ion movements, and describe the sequence of events at a chemical synapse including neurotransmitter.",
+     "self_check": true
     }
    ]
   }

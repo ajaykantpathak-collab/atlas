@@ -1,6 +1,194 @@
 {
- "catalog": "catalog_class11_biology_ch116",
+ "catalog": "catalog_class11_biology_ch116.json",
  "concepts": [
+  {
+   "id": "kebo.16.5",
+   "title": "Glomerular Filtration Rate and Daily Filtrate",
+   "converted_to_compute": true,
+   "formula": "daily_filtrate = gfr_per_minute * 1.44",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "daily_filtrate = gfr_per_minute * 1.44",
+     "compute": "daily_filtrate = gfr_per_minute * 1.44"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Glomerular Filtration Rate and Daily Filtrate: given gfr_per_minute = 17.5, find daily filtrate.",
+     "a": "25.2",
+     "self_check": false
+    },
+    {
+     "q": "For Glomerular Filtration Rate and Daily Filtrate: given gfr_per_minute = 57, find daily filtrate.",
+     "a": "82.08",
+     "self_check": false
+    },
+    {
+     "q": "For Glomerular Filtration Rate and Daily Filtrate: given gfr_per_minute = 18.2, find daily filtrate.",
+     "a": "26.208",
+     "self_check": false
+    },
+    {
+     "q": "For Glomerular Filtration Rate and Daily Filtrate: given gfr_per_minute = 65, find daily filtrate.",
+     "a": "93.6",
+     "self_check": false
+    },
+    {
+     "q": "For Glomerular Filtration Rate and Daily Filtrate: given gfr_per_minute = 52, find daily filtrate.",
+     "a": "74.88",
+     "self_check": false
+    },
+    {
+     "q": "For Glomerular Filtration Rate and Daily Filtrate: given gfr_per_minute = 70, find daily filtrate.",
+     "a": "100.8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebo.16.6",
+   "title": "Renal Reabsorption Rate",
+   "converted_to_compute": true,
+   "formula": "reabsorption_percent = ((filtrate_volume - urine_volume) / filtrate_volume) * 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "reabsorption_percent = ((filtrate_volume - urine_volume) / filtrate_volume) * 100",
+     "compute": "reabsorption_percent = ((filtrate_volume - urine_volume) / filtrate_volume) * 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Renal Reabsorption Rate: given filtrate_volume = 36, urine_volume = 34, find reabsorption percent.",
+     "a": "5.55556",
+     "self_check": false
+    },
+    {
+     "q": "For Renal Reabsorption Rate: given filtrate_volume = 61, urine_volume = 21, find reabsorption percent.",
+     "a": "65.5738",
+     "self_check": false
+    },
+    {
+     "q": "For Renal Reabsorption Rate: given filtrate_volume = 37, urine_volume = 8.6, find reabsorption percent.",
+     "a": "76.7568",
+     "self_check": false
+    },
+    {
+     "q": "For Renal Reabsorption Rate: given filtrate_volume = 81, urine_volume = 80, find reabsorption percent.",
+     "a": "1.23457",
+     "self_check": false
+    },
+    {
+     "q": "For Renal Reabsorption Rate: given filtrate_volume = 103, urine_volume = 14, find reabsorption percent.",
+     "a": "86.4078",
+     "self_check": false
+    },
+    {
+     "q": "For Renal Reabsorption Rate: given filtrate_volume = 43, urine_volume = 67, find reabsorption percent.",
+     "a": "-55.814",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebo.16.8",
+   "title": "Counter-Current Mechanism and Urine Concentration",
+   "converted_to_compute": true,
+   "formula": "concentration_factor = medullary_osmolarity / cortical_osmolarity",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "concentration_factor = medullary_osmolarity / cortical_osmolarity",
+     "compute": "concentration_factor = medullary_osmolarity / cortical_osmolarity"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Counter-Current Mechanism and Urine Concentration: given medullary_osmolarity = 3.3, cortical_osmolarity = 9, find concentration factor.",
+     "a": "0.366667",
+     "self_check": false
+    },
+    {
+     "q": "For Counter-Current Mechanism and Urine Concentration: given medullary_osmolarity = 5.4, cortical_osmolarity = 3.7, find concentration factor.",
+     "a": "1.45946",
+     "self_check": false
+    },
+    {
+     "q": "For Counter-Current Mechanism and Urine Concentration: given medullary_osmolarity = 5, cortical_osmolarity = 3.2, find concentration factor.",
+     "a": "1.5625",
+     "self_check": false
+    },
+    {
+     "q": "For Counter-Current Mechanism and Urine Concentration: given medullary_osmolarity = 9.4, cortical_osmolarity = 8.8, find concentration factor.",
+     "a": "1.06818",
+     "self_check": false
+    },
+    {
+     "q": "For Counter-Current Mechanism and Urine Concentration: given medullary_osmolarity = 8.2, cortical_osmolarity = 9.7, find concentration factor.",
+     "a": "0.845361",
+     "self_check": false
+    },
+    {
+     "q": "For Counter-Current Mechanism and Urine Concentration: given medullary_osmolarity = 1.2, cortical_osmolarity = 1.1, find concentration factor.",
+     "a": "1.09091",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebo.16.11",
+   "title": "Lungs, Liver, and Skin in Excretion",
+   "converted_to_compute": true,
+   "formula": "daily_co_2_elimination = co_2_rate_per_minute * 1.44",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "daily_co_2_elimination = co_2_rate_per_minute * 1.44",
+     "compute": "daily_co_2_elimination = co_2_rate_per_minute * 1.44"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Lungs, Liver, and Skin in Excretion: given co_2_rate_per_minute = 42, find daily co 2 elimination.",
+     "a": "60.48",
+     "self_check": false
+    },
+    {
+     "q": "For Lungs, Liver, and Skin in Excretion: given co_2_rate_per_minute = 82, find daily co 2 elimination.",
+     "a": "118.08",
+     "self_check": false
+    },
+    {
+     "q": "For Lungs, Liver, and Skin in Excretion: given co_2_rate_per_minute = 46, find daily co 2 elimination.",
+     "a": "66.24",
+     "self_check": false
+    },
+    {
+     "q": "For Lungs, Liver, and Skin in Excretion: given co_2_rate_per_minute = 31, find daily co 2 elimination.",
+     "a": "44.64",
+     "self_check": false
+    },
+    {
+     "q": "For Lungs, Liver, and Skin in Excretion: given co_2_rate_per_minute = 38, find daily co 2 elimination.",
+     "a": "54.72",
+     "self_check": false
+    },
+    {
+     "q": "For Lungs, Liver, and Skin in Excretion: given co_2_rate_per_minute = 30, find daily co 2 elimination.",
+     "a": "43.2",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "kebo.16.1",
    "title": "Modes of Nitrogenous Excretion",
@@ -86,68 +274,6 @@
    ]
   },
   {
-   "id": "kebo.16.5",
-   "title": "Glomerular Filtration Rate and Daily Filtrate",
-   "questions": [
-    {
-     "q": "Calculate the total daily glomerular filtrate volume given the GFR. Use the method 'Glomerular Filtration Rate and Daily Filtrate'. Work with: gfr_per_minute = 45. Carry the chain through step by step and give the final value of daily_filtrate.",
-     "a": "64.8 per cent",
-     "self_check": false
-    },
-    {
-     "q": "How much blood is filtered by the kidneys per minute relative to cardiac output? Use the method 'Glomerular Filtration Rate and Daily Filtrate'. Work with: gfr_per_minute = 25. Carry the chain through step by step and give the final value of daily_filtrate.",
-     "a": "36 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Glomerular Filtration Rate and Daily Filtrate' refers to.",
-     "a": "The rate of fluid filtration across the glomerular membrane into Bowman's capsule, determining daily filtrate volume.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Glomerular Filtration Rate and Daily Filtrate'.",
-     "a": "High-pressure ultrafiltration produces a massive daily volume of filtrate compared to final urine output.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Glomerular Filtration Rate and Daily Filtrate', in plain ASCII form.",
-     "a": "daily_filtrate = gfr_per_minute * 1.44",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebo.16.6",
-   "title": "Renal Reabsorption Rate",
-   "questions": [
-    {
-     "q": "Calculate the percentage of filtrate reabsorbed given the daily filtrate and urine volumes. Use the method 'Renal Reabsorption Rate'. Work with: filtrate_volume = 25, urine_volume = 25. Carry the chain through step by step and give the final value of reabsorption_percent.",
-     "a": "0 per cent",
-     "self_check": false
-    },
-    {
-     "q": "How much of the 180 liters of daily filtrate is reabsorbed if 1.5 liters of urine is produced? Use the method 'Renal Reabsorption Rate'. Work with: filtrate_volume = 15, urine_volume = 8. Carry the chain through step by step and give the final value of reabsorption_percent.",
-     "a": "46.6667 per cent",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Renal Reabsorption Rate' refers to.",
-     "a": "The process and efficiency of reclaiming water and essential solutes from the glomerular filtrate back into systemic circulation.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Renal Reabsorption Rate'.",
-     "a": "Nearly ninety-nine percent of the initial filtrate is actively or passively reabsorbed by the renal tubules.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Renal Reabsorption Rate', in plain ASCII form.",
-     "a": "reabsorption_percent = ((filtrate_volume - urine_volume) / filtrate_volume) * 100",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "kebo.16.7",
    "title": "Function of Renal Tubules",
    "questions": [
@@ -164,37 +290,6 @@
     {
      "q": "Write the standard relation used for 'Function of Renal Tubules', in plain ASCII form.",
      "a": "concept method; no single closed formula",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebo.16.8",
-   "title": "Counter-Current Mechanism and Urine Concentration",
-   "questions": [
-    {
-     "q": "Calculate the concentration factor of human urine relative to the initial filtrate. Use the method 'Counter-Current Mechanism and Urine Concentration'. Work with: cortical_osmolarity = 80, medullary_osmolarity = 50. Carry the chain through step by step and give the final value of concentration_factor.",
-     "a": "0.625 times",
-     "self_check": false
-    },
-    {
-     "q": "How many times can human kidneys concentrate the initial filtrate? Use the method 'Counter-Current Mechanism and Urine Concentration'. Work with: cortical_osmolarity = 3, medullary_osmolarity = 500. Carry the chain through step by step and give the final value of concentration_factor.",
-     "a": "166.6667 times",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Counter-Current Mechanism and Urine Concentration' refers to.",
-     "a": "The physiological process utilizing parallel, opposite-flowing loops of Henle and vasa recta to establish a hypertonic medullary gradient.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Counter-Current Mechanism and Urine Concentration'.",
-     "a": "A steep osmotic gradient from cortex to medulla enables passive water reclamation, concentrating urine up to four-fold.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Counter-Current Mechanism and Urine Concentration', in plain ASCII form.",
-     "a": "concentration_factor = medullary_osmolarity / cortical_osmolarity",
      "self_check": true
     }
    ]
@@ -237,37 +332,6 @@
     {
      "q": "Write the standard relation used for 'Micturition and Urine Characteristics', in plain ASCII form.",
      "a": "concept method; no single closed formula",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebo.16.11",
-   "title": "Lungs, Liver, and Skin in Excretion",
-   "questions": [
-    {
-     "q": "Calculate the total volume of carbon dioxide removed by the lungs in a day. Use the method 'Lungs, Liver, and Skin in Excretion'. Work with: co2_rate_per_minute = 10. Carry the chain through step by step and give the final value of daily_co2_elimination.",
-     "a": "14.4 units",
-     "self_check": false
-    },
-    {
-     "q": "How much CO2 do human lungs eliminate per minute? Use the method 'Lungs, Liver, and Skin in Excretion'. Work with: co2_rate_per_minute = 18. Carry the chain through step by step and give the final value of daily_co2_elimination.",
-     "a": "25.92 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Lungs, Liver, and Skin in Excretion' refers to.",
-     "a": "The contribution of accessory organs to the elimination of metabolic wastes like carbon dioxide, bile pigments, and sweat.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Lungs, Liver, and Skin in Excretion'.",
-     "a": "Non-renal organs assist in homeostatic waste removal, including significant daily carbon dioxide and water loss.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Lungs, Liver, and Skin in Excretion', in plain ASCII form.",
-     "a": "daily_co2_elimination = co2_rate_per_minute * 1.44",
      "self_check": true
     }
    ]

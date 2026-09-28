@@ -34,6 +34,36 @@
      "q": "Design a simple experiment to verify that relative lowering of vapour pressure is a colligative property. List the materials, measurements, and how you would analyse the data.",
      "a": "Materials: Pure water, two non‑volatile solutes (e.g., sucrose and urea), balance, manometer or vapour pressure apparatus, thermostat. Procedure: Prepare several solutions of each solute with same molality (or mole fraction). Measure vapour pressure of pure water and each solution at constant temperature. Calculate RLVP for each. Plot RLVP vs mole fraction of solute; all points should lie on a straight line through origin with slope 1, independent of solute identity. A poor answer would omit controlling temperature, use different concentrations for each solute, or fail to explain how the graph confirms colligative behaviour.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ lowering of vapour pressure (RLVP) is the ratio of the decrease in vapour pressure of a solvent upon addition of a non‑volatile solute to the vapour pressure of the pure solvent.",
+     "a": "Relative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe that a beaker of pure water evaporates faster than one with a pinch of salt ______ in it — the salt lowers the escaping tendency of water molecules.",
+     "a": "dissolved",
+     "self_check": true
+    },
+    {
+     "q": "What is Relative lowering of vapour pressure (RLVP)? State the definition given in this lesson.",
+     "a": "Relative lowering of vapour pressure (RLVP) is the ratio of the decrease in vapour pressure of a solvent upon addition of a non‑volatile solute to the vapour pressure of the pure solvent.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Subtract p₁ from p°₁ and divide by p°₁ to get (p°₁ – p₁)/p°₁ = ______ – x₁ = x₂.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Relative lowering of vapour pressure (RLVP)?",
+     "a": "Students often confuse the formula for relative lowering of vapour pressure with Raoult’s law for the solvent.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) derive the RLVP expression from Raoult’s law, (2) calculate the molar mass of an unknown non‑volatile solute from experimental vapour pressure data, and (3) explain why RLVP is a colligative property (depends only on number of solute particles, not their identity).",
+     "self_check": true
     }
    ]
   }

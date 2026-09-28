@@ -1,0 +1,284 @@
+{
+ "catalog": "catalog_class11_computer_science_kecs103.json",
+ "concepts": [
+  {
+   "id": "kecs103.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "correct = 33",
+      "total = 75",
+      "accuracy_pct = correct / total * 100"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "correct = 34",
+      "total = 98",
+      "accuracy_pct = correct / total * 100"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "correct = 9.2",
+      "total = 40",
+      "accuracy_pct = correct / total * 100"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "correct = 23",
+      "total = 2",
+      "accuracy_pct = correct / total * 100"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "correct = 77",
+      "total = 41",
+      "accuracy_pct = correct / total * 100"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "correct = 32",
+      "total = 34",
+      "accuracy_pct = correct / total * 100"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "accuracy_pct = correct / total * 100"
+   ]
+  },
+  {
+   "id": "kecs103.3",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "daily_bytes = 54",
+      "exabytes_per_day = daily_bytes / 1024 ** 6"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "daily_bytes = 8.8",
+      "exabytes_per_day = daily_bytes / 1024 ** 6"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "daily_bytes = 93",
+      "exabytes_per_day = daily_bytes / 1024 ** 6"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "daily_bytes = 97",
+      "exabytes_per_day = daily_bytes / 1024 ** 6"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "daily_bytes = 55",
+      "exabytes_per_day = daily_bytes / 1024 ** 6"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "daily_bytes = 14.8",
+      "exabytes_per_day = daily_bytes / 1024 ** 6"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "exabytes_per_day = daily_bytes / 1024 ** 6"
+   ]
+  },
+  {
+   "id": "kecs103.4",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "devices = 56",
+      "apps_per_device = 37",
+      "apps_avoided = devices * apps_per_device - 1"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "devices = 96",
+      "apps_per_device = 88",
+      "apps_avoided = devices * apps_per_device - 1"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "devices = 82",
+      "apps_per_device = 70",
+      "apps_avoided = devices * apps_per_device - 1"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "devices = 84",
+      "apps_per_device = 60",
+      "apps_avoided = devices * apps_per_device - 1"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "devices = 71",
+      "apps_per_device = 39",
+      "apps_avoided = devices * apps_per_device - 1"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "devices = 82",
+      "apps_per_device = 88",
+      "apps_avoided = devices * apps_per_device - 1"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "apps_avoided = devices * apps_per_device - 1"
+   ]
+  },
+  {
+   "id": "kecs103.6",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "hours_used = 47",
+      "rate_per_hour = 49",
+      "monthly_cost = hours_used * rate_per_hour"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "hours_used = 45",
+      "rate_per_hour = 35",
+      "monthly_cost = hours_used * rate_per_hour"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "hours_used = 2.4",
+      "rate_per_hour = 33",
+      "monthly_cost = hours_used * rate_per_hour"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "hours_used = 27",
+      "rate_per_hour = 39",
+      "monthly_cost = hours_used * rate_per_hour"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "hours_used = 43",
+      "rate_per_hour = 96",
+      "monthly_cost = hours_used * rate_per_hour"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "hours_used = 57",
+      "rate_per_hour = 70",
+      "monthly_cost = hours_used * rate_per_hour"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "monthly_cost = hours_used * rate_per_hour"
+   ]
+  },
+  {
+   "id": "kecs103.7",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "task_hours = 41",
+      "nodes = 42",
+      "time_saved = task_hours - task_hours / nodes"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "task_hours = 20",
+      "nodes = 42",
+      "time_saved = task_hours - task_hours / nodes"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "task_hours = 42",
+      "nodes = 28",
+      "time_saved = task_hours - task_hours / nodes"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "task_hours = 28",
+      "nodes = 22",
+      "time_saved = task_hours - task_hours / nodes"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "task_hours = 84",
+      "nodes = 15",
+      "time_saved = task_hours - task_hours / nodes"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "task_hours = 5.9",
+      "nodes = 20",
+      "time_saved = task_hours - task_hours / nodes"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "time_saved = task_hours - task_hours / nodes"
+   ]
+  }
+ ]
+}

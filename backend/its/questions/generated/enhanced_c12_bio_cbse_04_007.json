@@ -34,6 +34,26 @@
      "q": "Design a simple decision flowchart (text-based) that a clinician could use to choose among IVF, ZIFT, and GIFT based on three clinical findings: (1) tubal status (patent/blocked), (2) sperm count (normal/low), (3) uterine factor (normal/abnormal). Use only these three techniques.",
      "a": "A good flowchart:\n- If tubes blocked → IVF (uterus normal) or IVF with gestational carrier (uterus abnormal).\n- If tubes patent AND sperm normal → GIFT (less invasive, natural fertilization).\n- If tubes patent AND sperm low → IVF (or ZIFT if uterine factor abnormal? Actually ZIFT transfers zygote to tube, so uterus abnormal might still need IVF with carrier; but ZIFT could be used if tubes patent and uterus abnormal? Wait, ZIFT transfers zygote to tube, so embryo still needs to travel to uterus. If uterus abnormal, IVF with carrier is better. So ZIFT is rarely first choice; it's for tubal blockage with normal uterus? Actually ZIFT is for tubal blockage where fertilization in vitro but zygote placed in tube. So if tubes blocked, ZIFT or IVF. If tubes patent and sperm low, IVF. If tubes patent and sperm normal, GIFT. ZIFT is an alternative to IVF when tubal blockage but some clinicians prefer tubal environment for early embryo. So flowchart should reflect that.)\nA poor answer that assigns GIFT to blocked tubes or IVF to all cases shows lack of discrimination among indications.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: IVF (In Vitro Fertilization), ZIFT (Zygote Intrafallopian Transfer), and GIFT (Gamete Intrafallopian Transfer) are assisted ______ techniques where fertilization is achieved outside the natural fallopian tube environment: in IVF, oocytes are fertilized by sperm in a laboratory dish and the resulting embryo is transferred into the uterus; in ZIFT, fertilization occurs in vitro but the zygote is transferred into the fallopian tube; in GIFT, both gametes are transferred into the fallopian tube so that fertilization occurs naturally inside the body.",
+     "a": "reproductive",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a couple in your neighbourhood who have been trying to conceive for two years without success; the woman has blocked ______ tubes and the man has a low sperm count.",
+     "a": "fallopian",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can differentiate between IVF, ZIFT, and GIFT based on the site of fertilization (in vitro vs. in vivo), the site of transfer (uterus vs. fallopian tube), and the clinical indications (e.g., tubal blockage, male factor infertility, unexplained infertility).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a couple in your ______ who have been trying to conceive for two years without success; the woman has blocked fallopian tubes and the man has a low sperm count.",
+     "a": "neighbourhood",
+     "self_check": true
     }
    ]
   }

@@ -31,8 +31,23 @@
      "self_check": true
     },
     {
-     "q": "Create a word problem involving three sets (e.g., languages spoken, subjects studied, products bought) where the given data includes the universal set total, individual set totals, all three pairwise intersections, and the triple intersection. The question must ask for \"exactly two\" and \"none\". Provide the problem statement only.",
-     "a": "Example problem: \"In a housing society of 150 families, 80 subscribe to Newspaper A, 70 to B, 60 to C. 30 subscribe to A and B, 25 to B and C, 20 to A and C. 10 subscribe to all three. Find (i) number of families subscribing to exactly two newspapers, (ii) number subscribing to none.\" A poor problem (e.g., missing universal total, or asking only for union) reveals the student cannot design a problem requiring multi-step region calculation, indicating they don't grasp which data points are necessary and sufficient for a well-posed 3-set problem.",
+     "q": "In a society of 150 families, 80 take paper A, 70 take B, 60 take C, while 30 take A and B, 25 take B and C, 20 take A and C, and 10 take all three. Calculate how many families take exactly two papers.",
+     "a": "Exactly two = (30 - 10) + (25 - 10) + (20 - 10): exactly two = 45 families. A wrong answer of 75 shows the student added the pairwise overlaps without removing the triple-intersection families counted three times.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a survey of 200 Class 11 students in a Delhi school: 120 study ______, 90 study Physics, 70 study Chemistry, 40 study Math and Physics, 30 study Physics and Chemistry, 25 study Math and Chemistry, and 15 study all three.",
+     "a": "Mathematics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Fill the innermost region (all three) with ______.",
+     "a": "15",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently read a word problem, identify the universal set and relevant subsets, draw a Venn diagram with labelled regions, set up equations using inclusion-exclusion formulas, solve for unknown quantities (including \"exactly one\", \"at least one\", \"none\"), and verify the solution sums to the universal set total.",
      "self_check": true
     }
    ]

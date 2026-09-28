@@ -34,6 +34,36 @@
      "q": "Design a fluorescence microscopy experiment to determine whether Protein X localizes to the nucleus or the mitochondria in HeLa cells. Specify: (a) The type of fluorescent probe (direct antibody vs. fluorescent protein tag), (b) The necessary controls, (c) The microscopy modality (widefield vs. confocal), and (d) How you would quantitatively analyze co-localization with a known organelle marker.",
      "a": "(a) Use a fluorescent protein tag (e.g., Protein X-GFP) expressed via transfection for live-cell dynamics, or fixed-cell immunofluorescence with a validated primary antibody against Protein X and a fluorophore-conjugated secondary antibody (e.g., Alexa Fluor 488). (b) Controls: (i) Secondary-only control (no primary) to check non-specific binding, (ii) Untransfected cells for autofluorescence baseline, (iii) Known nuclear (DAPI/Hoechst) and mitochondrial (MitoTracker Red or anti-TOM20) markers. (c) Confocal preferred for optical sectioning to avoid false co-localization from overlapping structures in different z-planes. (d) Acquire z-stacks, deconvolve, then calculate Pearson's correlation coefficient (PCC) and Manders' overlap coefficient between Protein X channel and organelle marker channel using software (e.g., ImageJ/Fiji Coloc 2). A poor answer omits controls, suggests widefield for thick cells, or proposes visual \"yellow overlap\" as quantification—revealing lack of rigor in experimental design and quantitative image analysis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Microscopy is the technical field of using microscopes to visualize structures or details invisible to the naked eye, characterized by two fundamental parameters: magnification (the ratio of the image size to the actual object size, dimensionless, expressed as '×') and resolution (the minimum distance between two ______ points, measured in nanometers).",
+     "a": "distinguishable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a detective trying to ______ a mystery inside a cell.",
+     "a": "solve",
+     "self_check": true
+    },
+    {
+     "q": "What is Microscopy? State the definition given in this lesson.",
+     "a": "Microscopy is the technical field of using microscopes to visualize structures or details invisible to the naked eye, characterized by two fundamental parameters: magnification (the ratio of the image size to the actual object size, dimensionless, expressed as '×') and resolution (the minimum distance between two distinguishable points.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"Do I need to see the ______D surface of a pollen grain or the internal layers of a mitochondrion?\" If surface → SEM.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Microscopy?",
+     "a": "Misconception: \"Higher magnification always shows more detail.\" Students believe that a 1000× light microscope reveals more detail than a 100× electron microscope because 1000 > 100.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Calculate total magnification of a compound microscope given objective and eyepiece powers, (2) Explain why electron microscopes achieve higher resolution than light microscopes using the wavelength–resolution relationship, (3) Distinguish between TEM (transmission, internal ultrastructure) and SEM.",
+     "self_check": true
     }
    ]
   }

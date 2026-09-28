@@ -34,6 +34,31 @@
      "q": "Design a new secondary service that a commercial bank in India could offer to small retailers (kirana stores) to increase digital payment adoption. Explain how this service uses the bank's existing infrastructure and generates fee income without creating credit risk.",
      "a": "Service: \"UPI Settlement Dashboard\" — a daily automated reconciliation tool that matches the kirana's UPI collections (via QR code) with bank credits, flags failed/pending transactions, and generates GST-compliant sales reports. Uses existing UPI switch infrastructure and core banking system; no new credit exposure. Fee: ₹199/month per merchant. Generates recurring fee income, deepens merchant relationship (cross-sell: business loans, POS devices), and supports Digital India. A poor answer proposing \"giving loans to kirana stores\" confuses secondary (fee-based) with primary (credit) functions and ignores the \"no credit risk\" constraint.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Commercial banks are financial ______ that accept deposits from the public (repayable on demand or after a fixed period) and advance loans to households, firms, and the government, with the primary objective of earning profit through the interest rate spread between lending and borrowing rates.",
+     "a": "institutions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you walk into an SBI ______ in your neighbourhood.",
+     "a": "branch",
+     "self_check": true
+    },
+    {
+     "q": "What is Commercial banks? State the definition given in this lesson.",
+     "a": "Commercial banks are financial institutions that accept deposits from the public (repayable on demand or after a fixed period) and advance loans to households, firms, and the government, with the primary objective of earning profit through the interest rate spread between lending and borrowing rates.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Commercial banks?",
+     "a": "Students often think \"discounting of bills of exchange\" is a secondary/agency function because it involves a document (bill).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) distinguish primary from secondary functions of commercial banks with specific examples, (2) explain how each deposit type (savings, current, fixed/recurring) serves different customer needs and affects bank liquidity, (3) describe the loan products (cash credit, overdraft, term loans, discounting bills).",
+     "self_check": true
     }
    ]
   }

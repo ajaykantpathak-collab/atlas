@@ -34,6 +34,36 @@
      "q": "Create an integral of the form ∫ f(g(x)) g'(x) dx that can be solved by substitution u = g(x). Choose a non-trigonometric, non-exponential function for g(x). Write the integral and its solution.",
      "a": "Example: Let g(x) = x³ + 2x, so g'(x) = 3x² + 2. Choose f(u) = u². Then the integral is ∫ (x³ + 2x)² (3x² + 2) dx. Substitution u = x³ + 2x gives ∫ u² du = u³/3 + C = (x³ + 2x)³/3 + C. A poor answer might use a simple g(x) like x², which is trivial, or fail to ensure g'(x) appears exactly. The student should demonstrate understanding that the integrand must be a composite function times the derivative of the inner function.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Integration by ______ is a technique where we change the variable of integration to simplify the integral.",
+     "a": "substitution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are calculating the total ______ travelled by a car whose velocity is given by v(t) = 2t sin(t² + 1) m/s from t=0 to t=1.",
+     "a": "distance",
+     "self_check": true
+    },
+    {
+     "q": "What is Integration by substitution? State the definition given in this lesson.",
+     "a": "Integration by substitution is a technique where we change the variable of integration to simplify the integral.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: First, identify the inner function: let u = t²+______.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Integration by substitution?",
+     "a": "Students often forget to change the differential dx when substituting.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify an appropriate substitution for a given integral, perform the substitution step-by-step including changing the differential, integrate with respect to the new variable, and back-substitute to express the answer in terms of the original variable.",
+     "self_check": true
     }
    ]
   }

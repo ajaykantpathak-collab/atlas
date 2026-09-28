@@ -34,6 +34,26 @@
      "q": "Design a simple experiment to prove that a transparent object (like a clear plastic sheet) does not form a dark shadow.",
      "a": "Hold the plastic sheet between a torch and a wall; because the material allows light to pass through, no dark region will appear on the wall. A poor answer would suggest using an opaque object instead, failing to test the definition of \"opaque.\"",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A shadow is a dark region created when an opaque object ______ light from reaching a surface.",
+     "a": "prevents",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever noticed your ______ getting longer on the ground as the sun sets?",
+     "a": "shadow",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to draw a diagram illustrating how an opaque object creates a shadow on a surface and correctly label the umbra and penumbra when a large light source is used.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever ______ your shadow getting longer on the ground as the sun sets?",
+     "a": "noticed",
+     "self_check": true
     }
    ]
   }

@@ -27,12 +27,22 @@
     },
     {
      "q": "A student solves: \"Simplify $\\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right)$ for $x \\in [-1, 1]$.\"\nTheir working:\n$\\text{Let } x = \\tan\\theta \\implies \\theta = \\tan^{-1}x$.\n$\\frac{2x}{1+x^2} = \\frac{2\\tan\\theta}{1+\\tan^2\\theta} = \\sin 2\\theta$.\n$\\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right) = \\sin^{-1}(\\sin 2\\theta) = 2\\theta = 2\\tan^{-1}x$.\nThey conclude the answer is $2\\tan^{-1}x$ for all $x \\in [-1, 1]$.\nEvaluate this solution. Is it fully correct? If not, identify the flaw and give the correct piecewise expression.",
-     "a": "**Evaluation:** The solution is **incorrect** because it ignores the principal value range of $\\sin^{-1}$, which is $[-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$.\n**Flaw:** $\\theta = \\tan^{-1}x$. For $x \\in [-1, 1]$, $\\theta \\in [-\\frac{\\pi}{4}, \\frac{\\pi}{4}]$. Then $2\\theta \\in [-\\frac{\\pi}{2}, \\frac{\\pi}{2}]$. **In this specific domain, $2\\theta$ accidentally falls within the principal range of $\\sin^{-1}$, so the answer $2\\tan^{-1}x$ happens to be correct for $x \\in [-1, 1]$.** However, the student's method is flawed because they did not verify the range; they assumed $\\sin^{-1}(\\sin 2\\theta) = 2\\theta$ always holds.\n**Correct piecewise expression (for general $x \\in \\mathbb{R}$):**\n$\\sin^{-1}\\left(\\frac{2x}{1+x^2}\\right) = \\begin{cases}\n2\\tan^{-1}x, & |x| \\le 1 \\\\\n\\pi - 2\\tan^{-1}x, & x > 1 \\\\\n-\\pi - 2\\tan^{-1}x, & x < -1\n\\end{cases}$\nThe student's answer is only valid on the restricted domain given in the question, but their reasoning would fail if the domain were extended. This reveals a dangerous habit: skipping range verification because \"it worked this time.\"",
+     "a": "(1) The verdict — on the restricted domain from minus one to one the answer of two tan-inverse x happens to be correct, but the method is flawed, (2) The flaw — the student replaced sin-inverse of sin of two theta by two theta without verifying that two theta lies inside the principal range of sin-inverse, (3) The lucky save — on this domain theta stays between minus pi by four and pi by four, so two theta does fall inside the principal range and the answer survives by accident, (4) The general rule — outside this domain the piecewise form uses pi minus two tan-inverse x for values above one and the negative counterpart below minus one, so skipping range verification only worked this time. A student who assumes sin-inverse of sin always returns the angle has a dangerous habit that fails on extended domains.",
      "self_check": true
     },
     {
      "q": "Create a new inverse trigonometric simplification problem of the form $\\tan^{-1}(f(x))$ that simplifies to $\\frac{\\pi}{4} - \\frac{1}{2}\\sin^{-1}x$ for $x \\in [0, 1]$. Specify $f(x)$ explicitly and show the substitution path that leads to this result.",
      "a": "**Expected answer:** $f(x) = \\sqrt{\\frac{1-x}{1+x}}$ or equivalent forms like $\\frac{\\sqrt{1-x^2}}{1+x}$ or $\\frac{1-x}{\\sqrt{1-x^2}}$.\n**Substitution path:**\n1. Let $x = \\sin\\theta$, $\\theta \\in [0, \\frac{\\pi}{2}]$ for $x \\in [0, 1]$.\n2. Then $\\sqrt{\\frac{1-x}{1+x}} = \\sqrt{\\frac{1-\\sin\\theta}{1+\\sin\\theta}} = \\left|\\frac{\\cos\\frac{\\theta}{2} - \\sin\\frac{\\theta}{2}}{\\cos\\frac{\\theta}{2} + \\sin\\frac{\\theta}{2}}\\right| = \\left|\\tan\\left(\\frac{\\pi}{4} - \\frac{\\theta}{2}\\right)\\right|$.\n3. For $\\theta \\in [0, \\frac{\\pi}{2}]$, $\\frac{\\pi}{4} - \\frac{\\theta}{2} \\in [0, \\frac{\\pi}{4}] \\subset (-\\frac{\\pi}{2}, \\frac{\\pi}{2})$, so $\\tan$ is non-negative.\n4. $\\tan^{-1}\\left(\\tan\\left(\\frac{\\pi}{4} - \\frac{\\theta}{2}\\right)\\right) = \\frac{\\pi}{4} - \\frac{\\theta}{2} = \\frac{\\pi}{4} - \\frac{1}{2}\\sin^{-1}x$.\n\nA poor answer (e.g., giving $f(x) = \\frac{1-x}{1+x}$ without square root, or using $x = \\cos\\theta$ which gives $\\frac{1}{2}\\cos^{-1}x$) reveals the student cannot reverse-engineer the substitution from the target simplified form. This indicates they only know forward simplification by rote, not the structural relationship between algebraic forms and trigonometric identities.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an ISRO scientist calculating the optimal angle for a ______ dish reflector.",
+     "a": "satellite",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an ISRO scientist ______ the optimal angle for a satellite dish reflector.",
+     "a": "calculating",
      "self_check": true
     }
    ]

@@ -34,6 +34,26 @@
      "q": "Create a complex sentence about playing a sport in your school playground.",
      "a": "Acceptable answers follow the pattern: [Dependent clause] + [Independent clause] or vice versa (e.g., \"If we finish our homework, we will play cricket\"). Poor answers lack a dependent clause or are just two simple sentences joined incorrectly.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A simple sentence ______ one independent clause (a complete thought), while a complex sentence combines one independent clause with a dependent clause (a group of words that needs the independent clause to make sense).",
+     "a": "contains",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are telling your ______ about your day at school.",
+     "a": "friend",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to identify a simple vs. complex sentence and write one example of each correctly.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you are telling your friend about your day at school.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

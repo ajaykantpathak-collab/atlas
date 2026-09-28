@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a balloon and a straw to demonstrate conservation of momentum. Describe the setup, what you measure, and how you would verify the principle.",
      "a": "**Setup:** Thread a straw on a long horizontal string stretched across the room. Inflate a balloon, tape it to the straw (opening backward), hold the balloon closed, then release. **Measurement:** Measure the balloon's mass (with tape/straw) and its recoil velocity (using video analysis or timing over a known distance). The escaping air has mass and velocity backward; the balloon moves forward. **Verification:** Estimate air mass flow rate and exit velocity (or use a second balloon as control). Show total momentum (balloon forward + air backward) ≈ 0 initially. A poor answer (e.g., \"just watch it move\") reveals inability to identify the system, isolate variables, or connect observation to quantitative principle.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is a vector quantity defined as the product of an object's mass and its velocity (p = mv), measured in kilogram metres per second (kg·m/s).",
+     "a": "Momentum",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a cricket ball hitting a ______ wicket: the ball has mass and velocity, so it possesses momentum; upon impact, the ball stops and the wicket flies off, transferring momentum.",
+     "a": "stationary",
+     "self_check": true
+    },
+    {
+     "q": "What is Momentum? State the definition given in this lesson.",
+     "a": "Momentum is a vector quantity defined as the product of an object's mass and its velocity (p = mv), measured in kilogram metres per second (kg·m/s).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Momentum?",
+     "a": "Students often think \"momentum conservation means the momentum of *each* object stays the same.\" They confuse *total system momentum* with *individual object momentum*.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate momentum for moving objects using p = mv with correct units and direction, and can apply the law of conservation of momentum to solve collision/explosion problems by equating total initial and final momentum vectors in a closed system.",
+     "self_check": true
     }
    ]
   }

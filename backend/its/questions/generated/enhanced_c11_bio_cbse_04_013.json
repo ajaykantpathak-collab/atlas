@@ -34,6 +34,36 @@
      "q": "Design a dichotomous key with three couplets to separate the three chordate subphyla (Urochordata, Cephalochordata, Vertebrata) based on adult features only.",
      "a": "1a. Notochord absent in adult ................... Urochordata  \n1b. Notochord present in adult ................... 2  \n2a. Notochord extends to anterior end of body; no vertebral column; no distinct head ................... Cephalochordata  \n2b. Notochord replaced by vertebral column; distinct head with cranium; paired appendages present ................... Vertebrata  \nA poor key using larval features (e.g., \"notochord in tail only\") fails the \"adult features only\" constraint, revealing inability to apply the concept of feature modification during metamorphosis.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Phylum Chordata is defined by the presence of four ______ features at some stage of life: a flexible, rod-like notochord derived from mesoderm, a dorsal hollow nerve cord, paired pharyngeal gill slits, and a post-anal tail.",
+     "a": "fundamental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a tadpole swimming in a pond — it has a distinct tail, gill slits, and a flexible rod ______ its body.",
+     "a": "supporting",
+     "self_check": true
+    },
+    {
+     "q": "What is Phylum Chordata? State the definition given in this lesson.",
+     "a": "Phylum Chordata is defined by the presence of four fundamental features at some stage of life: a flexible, rod-like notochord derived from mesoderm, a dorsal hollow nerve cord, paired pharyngeal gill slits, and a post-anal tail.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by listing the four defining chordate hallmarks from the NCERT diagram (Figure ______).",
+     "a": "4.16",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Phylum Chordata?",
+     "a": "Students often think \"protochordates are primitive vertebrates\" or \"lower chordates that will evolve into vertebrates.\" This teleological error ignores that Urochordata and Cephalochordata are extant, successful groups with their own adaptations (e.g., sessile filter-feeding, burrowing).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compare the three subphyla of Chordata using a table of key features (notochord persistence, nerve cord, gill slits, heart, excretory organs), justify why all vertebrates are chordates but not all chordates are vertebrates, and classify a given chordate specimen into its correct subphylum based on larval/adult.",
+     "self_check": true
     }
    ]
   }

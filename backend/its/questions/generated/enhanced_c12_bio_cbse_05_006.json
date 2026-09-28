@@ -34,6 +34,31 @@
      "q": "Design a simple pedigree analysis problem (3 generations) that would allow a student to distinguish between X-linked recessive inheritance and autosomal recessive inheritance for a trait like colour blindness. Specify the key phenotypic pattern that gives the answer.",
      "a": "Create a pedigree where an affected male (Generation I) marries an unaffected female; all daughters are carriers (unaffected), all sons unaffected. In Generation II, a carrier daughter marries an unaffected male: 50% sons affected, 50% daughters carriers. Key discriminator: affected males transmit the trait to all daughters but no sons (X-linked), whereas autosomal recessive shows no sex bias in transmission. A poor answer uses only affected individuals without tracking carrier females, missing the criss-cross inheritance pattern unique to X-linkage.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Sex determination in humans is the biological mechanism where the XX/XY chromosomal system establishes male or female phenotype: females are homogametic (XX) producing only X-bearing gametes, while males are heterogametic (XY) producing X- and Y-bearing gametes; the presence of the SRY gene on the Y chromosome initiates testis development, directing male sexual ______.",
+     "a": "differentiation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a newborn baby announcement in an Indian newspaper — it proudly declares \"It's a boy!\" or \"It's a girl!\" Have you ever wondered what biological event at the moment of ______ decides this?",
+     "a": "fertilisation",
+     "self_check": true
+    },
+    {
+     "q": "What is Sex determination in humans? State the definition given in this lesson.",
+     "a": "Sex determination in humans is the biological mechanism where the XX/XY chromosomal system establishes male or female phenotype: females are homogametic (XX) producing only X-bearing gametes, while males are heterogametic (XY) producing X- and Y-bearing gametes; the presence of the SRY gene on the Y chromosome initiates testis.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Sex determination in humans?",
+     "a": "Students believe \"the Y chromosome determines maleness simply because it is present\" — they treat Y as a passive marker.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the chromosomal basis of human sex determination using a Punnett square, identify the role of the SRY gene, describe X-chromosome inactivation (Barr body formation), and predict phenotypic outcomes when sex chromosome segregation deviates (e.g., Turner, Klinefelter syndromes).",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Create a percentile-based classification scheme for groundwater depth (in meters) across 100 wells in Punjab to identify \"critical depletion zones\" (worst 20%), \"stress zones\" (next 30%), and \"safe zones\" (remaining 50%). Specify which percentiles form the boundaries and explain the geographical rationale.",
      "a": "Boundaries: P80 (critical depletion: deepest 20%), P50 (stress: next 30% between P50–P80), below P50 (safe: shallowest 50%). Rationale: Groundwater depth increases with depletion, so higher values = worse condition. Using percentiles adapts to the actual distribution without arbitrary thresholds. A poor answer uses equal intervals (e.g., 0–10m, 10–20m) ignoring the data's skew, or reverses the percentile direction (thinking P20 is worst), showing lack of geographical reasoning about what the variable represents.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Percentiles and quartiles are measures of relative position that divide a ______ dataset into equal parts to understand spatial distribution patterns.",
+     "a": "geographical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing annual ______ data for 50 meteorological stations across the Deccan Plateau.",
+     "a": "rainfall",
+     "self_check": true
+    },
+    {
+     "q": "What is Percentiles and quartiles? State the definition given in this lesson.",
+     "a": "Percentiles and quartiles are measures of relative position that divide a geographical dataset into equal parts to understand spatial distribution patterns.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing annual rainfall data for ______ meteorological stations across the Deccan Plateau.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Percentiles and quartiles?",
+     "a": "Students often confuse the percentile rank formula (percentage of scores below a value) with the percentile value formula (value at a given percentage).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute quartiles and percentiles for both grouped and ungrouped geographical data, interpret their spatial significance (e.g., interquartile range for variability), and apply them to compare regional disparities in variables like rainfall, elevation, or population density.",
+     "self_check": true
     }
    ]
   }

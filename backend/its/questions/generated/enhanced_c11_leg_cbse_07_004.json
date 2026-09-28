@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_07_004",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_07_004",
+   "title": "c11_leg_cbse_07_004",
+   "questions": [
+    {
+     "q": "Define substantive law and procedural law in your own words, giving one Indian example of each.",
+     "a": "Substantive law defines rights/duties (e.g., IPC Section 300 defines murder as an offence); procedural law prescribes enforcement steps (e.g., CrPC Section 154 mandates FIR registration). A wrong answer that swaps examples (e.g., calling CrPC substantive) reveals confusion between the *content* of a right and the *process* to enforce it.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the distinction between substantive and procedural law matters in a real legal dispute. Use the Consumer Protection Act, 2019 and its rules as context.",
+     "a": "The distinction matters because substantive law (Consumer Protection Act) gives you the right to compensation for a defective product, but procedural law (Consumer Protection Rules, e-Daakhil portal, timelines for hearing) dictates *how* you file, what evidence you submit, and within what time. If you miss the procedural deadline, you lose the substantive right — proving procedure is not secondary but essential. A wrong answer focusing only on \"substantive law is more important\" misses this interdependence.",
+     "self_check": true
+    },
+    {
+     "q": "A new law is passed: \"All citizens have the right to clean drinking water.\" The law does not specify how to complain, which authority to approach, or what remedy is available if the right is violated. Classify this law and explain the practical consequence.",
+     "a": "This is a substantive law (creates a right) without accompanying procedural law. The practical consequence: the right exists on paper but is unenforceable — citizens cannot approach any court or authority because no mechanism (forum, limitation period, evidence rules) is prescribed. A wrong answer calling it \"procedural\" or \"complete\" fails to see that a right without a remedy is a declaration, not an enforceable law.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the legislative procedure for an Ordinary Bill vs a Money Bill under the Indian Constitution. Why does the Constitution impose stricter procedural controls on Money Bills?",
+     "a": "Ordinary Bill: can originate in either House, Rajya Sabha can amend/reject, President can return for reconsideration. Money Bill: only Lok Sabha can introduce, Rajya Sabha can only recommend (cannot amend/reject), President cannot return it. Stricter controls exist because Money Bills affect public finances (taxation, Consolidated Fund) — the Constitution ensures the directly elected House (Lok Sabha) has primacy over financial matters to prevent unelected Rajya Sabha from blocking supply. A wrong answer listing only differences without the *reason* (financial accountability to elected representatives) shows superficial understanding.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this statement: \"Procedural law is merely technical; substantive law is where real justice lies.\" Support your view with the Maneka Gandhi v. Union of India (1978) principle.",
+     "a": "The statement is flawed. In Maneka Gandhi, the Supreme Court held that procedure under Article 21 must be \"fair, just, and reasonable\" — not merely technical. A procedure that is arbitrary (e.g., impounding passport without hearing) violates substantive rights (personal liberty). Thus, procedural fairness *is* substantive justice. A wrong answer agreeing with the statement ignores constitutional jurisprudence where procedure *is* the guarantee of substance.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario where a substantive environmental right (e.g., right to clean air) exists, but procedural gaps make it ineffective. Design a procedural framework (3-4 steps) to operationalize it.",
+     "a": "Scenario: A state enacts \"Right to Clean Air Act\" but no forum to complain, no time limit, no penalty for polluters. Procedural framework: (1) Establish Green Tribunals in each district; (2) Prescribe 30-day filing window with online portal; (3) Mandate polluters to submit emission data quarterly; (4) Empower Tribunal to impose fines and order shutdowns. A poor answer lists vague steps like \"government should act\" — showing inability to translate rights into enforceable procedures.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

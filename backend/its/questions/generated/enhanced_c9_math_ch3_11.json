@@ -21,8 +21,8 @@
      "self_check": true
     },
     {
-     "q": "Compare the \"spiral method\" (adding 1 unit perpendicular each time) with the \"direct triplet method\" (using known Pythagorean triplets like 3-4-5) for representing √5, √10, and √13. Which is more efficient for √13 and why?",
-     "a": "For √13, the direct triplet method using legs 2 and 3 (since 2²+3²=13) is more efficient: construct 2 (already on number line), erect perpendicular of 3 units, hypotenuse = √13. The spiral method would require 12 steps (√2 through √13). A student who says \"spiral is always better\" or \"triplet method doesn't work for √13\" fails to recognise that any representation relies on finding integers a,b such that a²+b²=n, and that pre-constructed lengths can be reused. This tests analytical comparison of algorithms.",
+     "q": "Give the correct sequence of steps to construct √13 on the number line using the direct triplet method with legs 2 and 3.",
+     "a": "The construction runs: (1) Recall that 2 squared plus 3 squared equals 13 (2) Ensure length 2 is already constructed on the number line (3) Erect a perpendicular of 3 units at the point 2 (4) Join its end to zero and swing the arc of this hypotenuse to mark √13. A wrong answer that walks the whole square root spiral, or claims the triplet method fails, shows the student has missed that any integers a and b with a squared plus b squared equal to n give a direct construction.",
      "self_check": true
     },
     {
@@ -33,6 +33,26 @@
     {
      "q": "Design a construction sequence to represent √11 on the number line using the fewest possible steps. Justify your choice of right triangle legs at each step.",
      "a": "Optimal sequence: 0,1 → √2 (1,1) → √3 (√2,1) → 2 (√3,1) → √5 (2,1) → √11 (√5,√6?) Wait, better: use triplet 1²+√10²? No, √10 not built. Best: Build 3 (from 2 and √5? No). Actually, 11 = 3² + √2²? 9+2=11. So if we have 3 and √2, we can get √11 in one step after having 3. To get 3: 0,1 → √2 → √3 → 2 → √5 → √6 → √7 → √8 → 3 (that's 8 steps). Alternatively, 11 = 1²+√10², but √10 needs building. The minimal step construction is an open-ended optimisation problem; a good answer identifies a Pythagorean pair (a,b) with a²+b²=11 where both a and b are already constructed or easily constructed (e.g., √2 and 3). A poor answer gives a long spiral without seeking shortcuts, showing lack of strategic thinking about Pythagorean triplets.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ square roots on the number line is a geometric construction method that uses the Pythagorean theorem to locate the exact position of irrational numbers of the form √n (where n is a positive integer) on the real number line.",
+     "a": "Representing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a 1-metre ruler and need to mark ______ √2 metres without a calculator.",
+     "a": "exactly",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently construct √2, √3, √5, and √n (for n up to 10) on the number line using compass and ruler, explaining each step's geometric justification.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have a 1-metre ruler and need to mark exactly √2 metres without a ______.",
+     "a": "calculator",
      "self_check": true
     }
    ]

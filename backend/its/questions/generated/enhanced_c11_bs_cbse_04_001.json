@@ -34,6 +34,31 @@
      "q": "Design a new business service for small kirana stores in your neighbourhood. Name it, describe its core function, and explain how it exhibits each of the five Is.",
      "a": "Example: \"StockSmart\" – a just-in-time inventory replenishment service. Core function: Uses sales data to auto-deliver fast-moving goods daily. Intangibility: The service is the algorithmic planning and delivery coordination, not the goods. Inconsistency: Each store's demand pattern differs; the service adapts daily. Inseparability: Planning and delivery occur simultaneously with the store's sales cycle. Inventory-less: The service cannot be warehoused; if no delivery is needed today, the service slot perishes. Involvement: The store owner must share POS data, confirm orders, and receive goods. A poor answer describes a goods-supply business (e.g., \"a wholesale distributor\") and fails to articulate the five Is for the *service component* separately from the goods.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Business services are those services used by business enterprises for the conduct of their activities, such as banking, insurance, ______, warehousing, and communication.",
+     "a": "transportation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The app shows the menu (______), the restaurant cooks the pizza (production), the delivery partner brings it (transport), you pay via UPI (banking), and if the pizza arrives cold, you might rate it poorly (involvement).",
+     "a": "information",
+     "self_check": true
+    },
+    {
+     "q": "What is Business services? State the definition given in this lesson.",
+     "a": "Business services are those services used by business enterprises for the conduct of their activities, such as banking, insurance, transportation, warehousing, and communication.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Business services?",
+     "a": "Students often treat \"business services\" as just \"services used by businesses\" and list examples like \"cleaning services for an office\" or \"canteen food,\" missing the NCERT's specific scope: the five *infrastructural* services (banking, insurance, transport, warehousing, communication) that *enable* the core business activity.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to list and explain the five Is of services with original examples, correctly classify any given service into business, social, or personal categories, and articulate why business enterprises depend on specialised business services for competitive operations.",
+     "self_check": true
     }
    ]
   }

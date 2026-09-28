@@ -5,6 +5,8 @@
    "id": "am11_013.1",
    "title": "Internal Assessment Mark Structure",
    "converted_to_compute": false,
+   "formula": "total = project + practical",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a frequency table the rows have frequencies 5, 7 and 3. Find the total frequency.",
@@ -42,6 +44,8 @@
    "id": "am11_013.2",
    "title": "Spreadsheet Average of a Data Range",
    "converted_to_compute": false,
+   "formula": "avg = total / count",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the mean of the numbers 3, 21, 25, 7, 35.",
@@ -79,6 +83,8 @@
    "id": "am11_013.3",
    "title": "Spreadsheet Practical: Simple Interest Cell",
    "converted_to_compute": false,
+   "formula": "si = p * r * t / 100",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the simple interest on Rs 4000 at 12% per annum for 4 years.",
@@ -116,6 +122,8 @@
    "id": "am11_013.4",
    "title": "Compound Interest Growth Across Rows",
    "converted_to_compute": false,
+   "formula": "amount = p * growth",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the simple interest on Rs 5000 at 5% per annum for 2 years.",
@@ -153,6 +161,8 @@
    "id": "am11_013.5",
    "title": "Pictograph Symbol Counts",
    "converted_to_compute": false,
+   "formula": "symbols = amount / each",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a frequency table the rows have frequencies 6, 6 and 3. Find the total frequency.",
@@ -190,6 +200,8 @@
    "id": "am11_013.6",
    "title": "Pie Chart Sector Angles",
    "converted_to_compute": false,
+   "formula": "angle = frac * 360",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 28 cm (take pi = 22/7).",
@@ -226,15 +238,9 @@
   {
    "id": "am11_013.7",
    "title": "Choosing Between Pie and Bar Charts",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "read the table or chart with its key",
-     "explain": "read the table or chart with its key: total = 7 + 2 + 2 gives 11",
-     "compute": "total = 7 + 2 + 2"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "display = f(question, data)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a frequency table the rows have frequencies 7, 2 and 2. Find the total frequency.",

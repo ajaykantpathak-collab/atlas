@@ -118,7 +118,22 @@
      "question": "Compute NNP when GDP = Rs 8,000, NFIA = Rs 300, depreciation = Rs 600.",
      "type": "numerical"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "GNP = GDP + NFIA",
+     "compute": "GNP = GDP + NFIA"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "NNP = GNP - Depreciation",
+     "compute": "NNP = GNP - Depreciation"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c12eco.1.3",
@@ -177,7 +192,16 @@
      "question": "Compute national income when domestic income = Rs 15,000 and NFIA = -Rs 500.",
      "type": "numerical"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "National = Domestic + NFIA",
+     "compute": "National = Domestic + NFIA"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c12eco.1.4",
@@ -413,7 +437,22 @@
      "question": "Compute national income: wages 6000, rent 2000, interest 1000, profit 3000, NFIA 500.",
      "type": "numerical"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "NDPfc = Wages + Rent + Interest + Profit",
+     "compute": "NDPfc = Wages + Rent + Interest + Profit"
+    },
+    {
+     "step": 2,
+     "action": "substitute the given values into the formula",
+     "explain": "NNPfc = NDPfc + NFIA",
+     "compute": "NNPfc = NDPfc + NFIA"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "c12eco.1.8",

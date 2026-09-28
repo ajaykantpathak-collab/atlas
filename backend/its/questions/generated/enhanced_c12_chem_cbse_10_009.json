@@ -34,6 +34,36 @@
      "q": "Design a simple kitchen experiment to demonstrate that Vitamin C (ascorbic acid) is a reducing agent, using only iodine solution (from a first-aid kit), lemon juice, and water. Write the observation and the balanced redox equation.",
      "a": "Experiment: Add 2-3 drops of brown iodine solution (I₂ in KI) to 5 mL water → brown color persists. Add 1 mL fresh lemon juice to another 5 mL water with 2-3 drops iodine → brown color disappears (becomes colorless). Observation: Vitamin C reduces I₂ to I⁻ (colorless), itself oxidizing to dehydroascorbic acid. Balanced equation: C₆H₈O₆ + I₂ → C₆H₆O₆ + 2H⁺ + 2I⁻. A poor answer that writes no equation or says \"iodine reacts with acid\" misses the redox nature — Vitamin C acts as electron donor (reducing agent), a key biochemical function (antioxidant). This tests ability to connect chemical property (reducing power) to biological role.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Vitamins are organic compounds required in the diet in small amounts (______) to perform specific biological functions for normal growth, maintenance, and health; they cannot be synthesized by the human body in sufficient quantities (except vitamin D via sunlight exposure and vitamin K/B12 by gut microbiota) and must be obtained from food.",
+     "a": "micronutrients",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bottle of multivitamin tablets at home — notice the labels \"Vitamin A (as retinyl acetate)\", \"Vitamin D3 (______)\", \"Vitamin E (dl-alpha-tocopheryl acetate)\", \"Vitamin K1 (phylloquinone)\", \"Vitamin B1 (thiamine mononitrate)\", \"Vitamin B2 (riboflavin)\", \"Vitamin B6 (pyridoxine hydrochloride)\", \"Vitamin B12 (cyanocobalamin)\", \"Vitamin C (ascorbic acid)\".",
+     "a": "cholecalciferol",
+     "self_check": true
+    },
+    {
+     "q": "What is Vitamins? State the definition given in this lesson.",
+     "a": "Vitamins are organic compounds required in the diet in small amounts (micronutrients) to perform specific biological functions for normal growth, maintenance, and health; they cannot be synthesized by the human body in sufficient quantities (except vitamin D via sunlight exposure and vitamin K/B12 by gut microbiota) and must be obtained.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Vitamins are organic compounds required in the diet in small amounts (micronutrients) to perform specific biological functions for normal growth, maintenance, and health; they cannot be synthesized by the human body in sufficient quantities (except vitamin D via sunlight exposure and vitamin K/B______ by gut microbiota) and must be obtained from food.",
+     "a": "12",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Vitamins?",
+     "a": "Students often write \"Vitamin B is a single vitamin\" and list deficiency disease as \"Beri-beri\" for all B vitamins.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify any given vitamin as fat-soluble or water-soluble, name its chemical name (e.g., ascorbic acid for vitamin C), identify at least two dietary sources, and state the specific deficiency disease; the student can also explain why fat-soluble vitamins pose toxicity risks upon excess intake while water-soluble vitamins.",
+     "self_check": true
     }
    ]
   }

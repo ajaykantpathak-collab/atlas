@@ -34,6 +34,26 @@
      "q": "Design a one-page \"Stain Emergency Flowchart\" for a college hostel notice board that a fresher with zero Home Science background can follow. It must handle unknown stains, fiber unknowns, and colourfastness risks in ≤ 6 decision nodes.",
      "a": "A good flowchart: Node 1: FRESH? → YES: blot (don't rub), cold water rinse → Node 2: FABRIC KNOWN? → NO: test hidden seam with water → Node 3: COLOURFAST? → NO: dry-clean only → Node 4: STAIN TYPE RECOGNISED? → YES: follow Table 1 with fiber mods → NO: Node 5: START MILD — cold water + liquid detergent soak 30 min → Node 6: IF PERSISTS → escalate: vegetable→alkaline (borax), animal→enzyme (if safe), oil→solvent (test), mineral→acid (oxalic/lemon) → ALWAYS: final rinse, shade dry. Poor answer: linear list without decision branches — reveals student thinks stain removal is a fixed recipe, not a diagnostic algorithm.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Common stain removal methods refer to the systematic, reagent-specific procedures for ______ identified foreign matter from cotton fabric using techniques (scraping, dipping, sponging, drop method) matched to stain chemistry (vegetable, animal, oil, mineral, dye bleeding) while observing fiber-specific precautions for non-cotton and coloured materials.",
+     "a": "eliminating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're getting ready for your Class 11 practical exam and accidentally spill ______-rich sambar on your white cotton lab coat — the stain is bright yellow, oily, and already drying.",
+     "a": "turmeric",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Given any 10 common household stains on white cotton fabric, the student can independently identify the stain category, select the correct reagent sequence from Table 1, choose the appropriate physical technique, and state the fiber-specific modifications needed for wool, silk, or coloured fabrics — all without referencing the textbook.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're getting ready for your Class 11 practical exam and ______ spill turmeric-rich sambar on your white cotton lab coat — the stain is bright yellow, oily, and already drying.",
+     "a": "accidentally",
+     "self_check": true
     }
    ]
   }

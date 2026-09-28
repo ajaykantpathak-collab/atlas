@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a laser pointer, a protractor, and a plane mirror to quantitatively verify that ∠i = ∠r for at least three different angles of incidence. Describe how you will ensure the plane of incidence is maintained and how you will record data.",
      "a": "Expected answer: Fix the mirror vertically on a sheet of paper. Draw a normal line. For each trial, direct the laser at a chosen angle to the normal (measure with protractor). Mark the incident ray path (two points on paper) and the reflected ray path (two points). Join points to draw rays. Measure ∠r. Repeat for 3 angles (e.g., 20°, 40°, 60°). To ensure coplanarity, keep the laser beam and reflected beam on the paper plane (use a low-power laser and a flat table). Record in a table: ∠i (measured), ∠r (measured), difference. A poor answer omits the method to keep rays in one plane or doesn't mention repeating for multiple angles.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The laws of reflection state that: (1) The angle of incidence (∠i) is equal to the angle of reflection (∠r), and (2) The incident ray, the reflected ray, and the normal to the ______ surface at the point of incidence all lie in the same plane.",
+     "a": "reflecting",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world observation: ask students to look at their ______ in a steel spoon (concave side) and the back of the spoon (convex side) — they see distorted images, yet the basic \"bouncing\" behaviour of light is the same.",
+     "a": "reflection",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can accurately state both laws of reflection using precise terminology (angle of incidence, angle of reflection, normal, plane of incidence), draw a correctly labelled ray diagram for a given incident ray on a plane or spherical mirror, and explain why the laws hold for curved surfaces by considering the local tangent plane.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a real-world ______: ask students to look at their reflection in a steel spoon (concave side) and the back of the spoon (convex side) — they see distorted images, yet the basic \"bouncing\" behaviour of light is the same.",
+     "a": "observation",
+     "self_check": true
     }
    ]
   }

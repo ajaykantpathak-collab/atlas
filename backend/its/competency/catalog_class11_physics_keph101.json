@@ -1,189 +1,283 @@
 {
-  "class": 11,
-  "subject": "physics",
-  "chapter": 101,
-  "chapter_title": "Units and Measurement",
-  "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keph101.txt",
-  "license": "NCERT-derived; author-first rendered",
-  "concepts": [
+ "class": 11,
+ "subject": "physics",
+ "chapter": 101,
+ "chapter_title": "Units and Measurement",
+ "source_file": "D:/node_generator/ncert-mcp/data/processed/text_cache_new/keph101.txt",
+ "license": "NCERT-derived; author-first rendered",
+ "concepts": [
+  {
+   "id": "keph101.1.2.1",
+   "title": "SI Units: Base and Derived",
+   "section": "1.2",
+   "definition": "Every physical measurement compares the quantity against an agreed reference standard called a unit. The international system (SI) fixes seven base units -- metre, kilogram, second, ampere, kelvin, mole and candela -- and all other units are built from these as derived units by multiplying and dividing powers of the base units.",
+   "formula": "",
+   "key_idea": "Seven base units anchor all of physics; every derived unit is just an algebraic product of powers of the base units.",
+   "textbook_ref": "keph101.txt lines 10-120 (sections 1.1, 1.2; unit as reference standard, seven SI base units, table of base quantities)",
+   "question_patterns": [
+    "list the seven SI base units and their physical quantities",
+    "in class 11 units and measurement: what is a derived unit",
+    "why is a standard unit needed before reporting any measurement",
+    "express the newton in terms of SI base units",
+    "which base unit measures amount of substance",
+    "is the joule a base unit or a derived unit"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
     {
-      "id": "keph101.1.2.1",
-      "title": "SI Units: Base and Derived",
-      "section": "1.2",
-      "definition": "Every physical measurement compares the quantity against an agreed reference standard called a unit. The international system (SI) fixes seven base units -- metre, kilogram, second, ampere, kelvin, mole and candela -- and all other units are built from these as derived units by multiplying and dividing powers of the base units.",
-      "formula": "",
-      "key_idea": "Seven base units anchor all of physics; every derived unit is just an algebraic product of powers of the base units.",
-      "textbook_ref": "keph101.txt lines 10-120 (sections 1.1, 1.2; unit as reference standard, seven SI base units, table of base quantities)",
-      "question_patterns": [
-        "list the seven SI base units and their physical quantities",
-        "in class 11 units and measurement: what is a derived unit",
-        "why is a standard unit needed before reporting any measurement",
-        "express the newton in terms of SI base units",
-        "which base unit measures amount of substance",
-        "is the joule a base unit or a derived unit"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "name the base seven", "explain": "Length, mass, time, electric current, temperature, amount of substance and luminous intensity carry the metre, kilogram, second, ampere, kelvin, mole and candela."},
-        {"step": 2, "action": "build derived units", "explain": "A derived unit such as the newton is assembled from base powers: kg m s^-2 -- no new base standard is needed."},
-        {"step": 3, "action": "tie measurement to comparison", "explain": "Reporting a measurement means quoting how many times the chosen unit fits into the quantity -- a number plus a unit."}
-      ]
+     "step": 1,
+     "action": "name the base seven",
+     "explain": "Length, mass, time, electric current, temperature, amount of substance and luminous intensity carry the metre, kilogram, second, ampere, kelvin, mole and candela."
     },
     {
-      "id": "keph101.1.4.1",
-      "title": "Dimensions of Physical Quantities",
-      "section": "1.4",
-      "definition": "The dimension of a quantity records which base quantities it is built from and to what powers, written in square brackets such as [M L T^-2] for force. Dimensional formulas let physicists classify quantities independently of any particular unit system.",
-      "formula": "",
-      "key_idea": "A dimensional formula is the recipe of base-quantity powers behind any derived quantity.",
-      "textbook_ref": "keph101.txt lines 121-210 (section 1.4 dimensions of physical quantities, dimensional formulas, examples of force and energy)",
-      "question_patterns": [
-        "write the dimensional formula of force",
-        "in class 11 units and measurement: what do the symbols M, L and T mean in dimensions",
-        "find the dimensions of kinetic energy",
-        "why are dimensionless quantities special",
-        "state the dimensions of pressure",
-        "are dimensions of work and torque the same"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "expand the quantity into base quantities", "explain": "Write the defining relation and replace every symbol by its composition of mass, length, time and the other base quantities."},
-        {"step": 2, "action": "collect the powers", "explain": "Powers of each base quantity combine by adding exponents across products and subtracting across quotients."},
-        {"step": 3, "action": "report the bracket formula", "explain": "The result is stated as [M^a L^b T^c ...] -- zero power on a base quantity simply drops it from the formula."}
-      ]
+     "step": 2,
+     "action": "build derived units",
+     "explain": "A derived unit such as the newton is assembled from base powers: kg m s^-2 -- no new base standard is needed."
     },
     {
-      "id": "keph101.1.5.1",
-      "title": "Dimensional Analysis: Checking and Converting",
-      "section": "1.5",
-      "definition": "Because adding unlike dimensions is meaningless, every correct physical equation must have matching dimensions on both sides -- a test dimensional analysis applies instantly. The same technique converts a quantity from one unit system to another by multiplying with ratios that equal one, and it can even suggest the form of a dependence among quantities.",
-      "formula": "",
-      "key_idea": "Dimensions must balance across equals signs and plus signs -- anything else cannot be physics.",
-      "textbook_ref": "keph101.txt lines 211-290 (section 1.5 dimensional analysis and its applications, checking equations, unit conversion, example 1.4 and 1.5)",
-      "question_patterns": [
-        "check whether the given equation is dimensionally correct",
-        "in class 11 units and measurement: convert a quantity from one system of units to another using dimensions",
-        "why can dimensions only give the form of a relation and not its constant",
-        "find the dimensions of the constant in the given formula",
-        "derive the dependence of a period on length and gravity using dimensions",
-        "can dimensional analysis detect a wrong numerical coefficient"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "dimension every term", "explain": "Replace each term of the equation with its dimensional formula."},
-        {"step": 2, "action": "test additivity", "explain": "Terms that are added or equated must share identical dimensions; a mismatch exposes an incorrect relation."},
-        {"step": 3, "action": "convert units when needed", "explain": "To change systems, multiply the numerical value by the ratio of old and new base units arranged to cancel correctly."}
-      ]
-    },
-    {
-      "id": "keph101.1.5.2",
-      "title": "Volume and Density from Measured Dimensions",
-      "section": "1.5",
-      "definition": "For a rectangular sheet or block, multiplying its length, breadth and thickness gives the volume it occupies; dividing the mass of that body by the volume then yields its density. This pipeline from direct measurements to a derived quantity is the everyday work of measurement physics.",
-      "formula": "volume = length * breadth * thickness",
-      "key_idea": "Three ruler readings make a volume; one weighing turns it into density -- derived quantities ride on direct ones.",
-      "textbook_ref": "keph101.txt lines 291-340 and exercise 1.11 (mass, length, breadth, thickness of a rectangular sheet; density idea of chapter exercises)",
-      "question_patterns": [
-        "find the volume of the rectangular sheet from its length breadth and thickness",
-        "in class 11 units and measurement: compute the density of a block with given mass and dimensions",
-        "calculate the volume from the three measured dimensions",
-        "the mass and volume are given, determine the density",
-        "how many significant figures should the computed density carry",
-        "express the volume in SI units after converting the measurements"
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"step": 1, "action": "multiply the three dimensions", "explain": "Length, breadth and thickness multiply to give the volume of the rectangular body.",
-         "compute": "volume = length * breadth * thickness"},
-        {"step": 2, "action": "divide mass by volume", "explain": "Density is mass packed into each unit of volume.",
-         "compute": "density = mass / volume"}
-      ]
-    },
-    {
-      "id": "keph101.1.6.1",
-      "title": "Significant Figures",
-      "section": "1.6",
-      "definition": "Significant figures are the digits in a measurement that carry meaning -- every reliably known digit plus one uncertain digit. Zeros between non-zero digits count, leading zeros do not, and trailing zeros count only when a decimal point is present; computed results keep no more significant figures than the weakest input.",
-      "formula": "",
-      "key_idea": "Report no more digits than your measurement earns -- the last digit is always the doubtful one.",
-      "textbook_ref": "keph101.txt lines 341-430 (section 1.6 significant figures, rules for counting, exercise 1.10 examples)",
-      "question_patterns": [
-        "state the number of significant figures in the given measurement",
-        "in class 11 units and measurement: which zeros in a number are significant",
-        "round the result of a calculation to the proper significant figures",
-        "why does 2.308 have four significant figures",
-        "how many significant figures survive when two measurements are multiplied",
-        "express 0.00052 in scientific notation and count its significant figures"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "strip place value", "explain": "Rewrite the number in scientific notation so only the coefficient digits remain in view."},
-        {"step": 2, "action": "apply the zero rules", "explain": "Leading zeros never count, trapped zeros always count, trailing zeros count with an explicit decimal."},
-        {"step": 3, "action": "propagate through arithmetic", "explain": "Multiplication and division keep the smallest input count of significant figures; addition keeps the coarsest decimal place."}
-      ]
-    },
-    {
-      "id": "keph101.1.8.1",
-      "title": "Errors in Measurement: Absolute, Relative and Combination",
-      "section": "1.8",
-      "definition": "No instrument is perfect, so every reading carries an error. The absolute error is the spread of individual readings around their mean; relative error is that spread divided by the mean value; when quantities combine, absolute errors add under addition and subtraction, while relative errors add under multiplication and division.",
-      "formula": "",
-      "key_idea": "Adding quantities grows absolute errors; multiplying quantities grows relative errors -- that is the whole combining rule.",
-      "textbook_ref": "keph101.txt lines 431-520 (sections 1.8 accuracy precision and errors, absolute and relative error, error combination rules)",
-      "question_patterns": [
-        "find the mean absolute error of the repeated readings",
-        "in class 11 units and measurement: how do errors combine when quantities are multiplied",
-        "compute the relative error in the computed density",
-        "distinguish accuracy from precision of an instrument",
-        "the period of oscillation was measured many times, report the error",
-        "what fraction of the result is the percentage error"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": [
-        {"step": 1, "action": "average the readings", "explain": "The mean of several readings is the best estimate of the true value."},
-        {"step": 2, "action": "spread around the mean", "explain": "Averaging the sizes of the departures from the mean gives the mean absolute error."},
-        {"step": 3, "action": "combine by operation", "explain": "For products and quotients add the relative (percentage) errors of the factors to get the relative error of the result."}
-      ]
+     "step": 3,
+     "action": "tie measurement to comparison",
+     "explain": "Reporting a measurement means quoting how many times the chosen unit fits into the quantity -- a number plus a unit."
     }
-  ],
-  "worked_examples": [
+   ]
+  },
+  {
+   "id": "keph101.1.4.1",
+   "title": "Dimensions of Physical Quantities",
+   "section": "1.4",
+   "definition": "The dimension of a quantity records which base quantities it is built from and to what powers, written in square brackets such as [M L T^-2] for force. Dimensional formulas let physicists classify quantities independently of any particular unit system.",
+   "formula": "",
+   "key_idea": "A dimensional formula is the recipe of base-quantity powers behind any derived quantity.",
+   "textbook_ref": "keph101.txt lines 121-210 (section 1.4 dimensions of physical quantities, dimensional formulas, examples of force and energy)",
+   "question_patterns": [
+    "write the dimensional formula of force",
+    "in class 11 units and measurement: what do the symbols M, L and T mean in dimensions",
+    "find the dimensions of kinetic energy",
+    "why are dimensionless quantities special",
+    "state the dimensions of pressure",
+    "are dimensions of work and torque the same"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
     {
-      "id": "we1",
-      "source_ref": "keph101.txt exercise 1.11 (rectangular sheet dimensions)",
-      "concept": "keph101.1.5.2",
-      "question_type": "compute",
-      "question_pattern": "A rectangular block has length {length}, breadth {breadth} and thickness {thickness}; find its volume.",
-      "extracted_variables": {"length": 4.234, "breadth": 1.005, "thickness": 2.01},
-      "solution_template": [
-        {"step": 1, "action": "multiply the three dimensions", "explain": "volume = 4.234 * 1.005 * 2.01, about 8.55 cm^3.", "compute": "volume = length * breadth * thickness"}
-      ]
+     "step": 1,
+     "action": "expand the quantity into base quantities",
+     "explain": "Write the defining relation and replace every symbol by its composition of mass, length, time and the other base quantities."
     },
     {
-      "id": "we2",
-      "source_ref": "keph101.txt exercise 1.12 (mass of a box of measurements)",
-      "concept": "keph101.1.5.2",
-      "question_type": "compute",
-      "question_pattern": "A box of mass {mass} has volume {volume}; compute its density.",
-      "extracted_variables": {"mass": 2.2, "volume": 1.5},
-      "solution_template": [
-        {"step": 1, "action": "divide mass by volume", "explain": "density = 2.2 / 1.5, about 1.47 in the chosen units.", "compute": "density = mass / volume"}
-      ]
-    }
-  ],
-  "exercises": [
+     "step": 2,
+     "action": "collect the powers",
+     "explain": "Powers of each base quantity combine by adding exponents across products and subtracting across quotients."
+    },
     {
-      "id": "ex1",
-      "source_ref": "keph101.txt end-of-chapter exercises, reworded",
-      "questions": [
-        "Fill in the blanks by suitable conversion of units between SI and CGS.",
-        "State the number of significant figures in each given measurement.",
-        "The length, breadth and thickness of a rectangular sheet are measured; find its volume to the correct significant figures.",
-        "A famous relation in physics relates moving mass to rest mass; check it dimensionally.",
-        "Explain this statement clearly: 'To call a dimensional quantity large or small is meaningless without specifying a standard.'",
-        "Convert the given speed from km/h to m/s and state the significant figures.",
-        "A new unit of length is chosen such that the speed of light in vacuum is unity; what is the distance of the Sun in this unit?",
-        "Which of the following is the most precise device for measuring length?"
-      ]
+     "step": 3,
+     "action": "report the bracket formula",
+     "explain": "The result is stated as [M^a L^b T^c ...] -- zero power on a base quantity simply drops it from the formula."
     }
-  ]
+   ]
+  },
+  {
+   "id": "keph101.1.5.1",
+   "title": "Dimensional Analysis: Checking and Converting",
+   "section": "1.5",
+   "definition": "Because adding unlike dimensions is meaningless, every correct physical equation must have matching dimensions on both sides -- a test dimensional analysis applies instantly. The same technique converts a quantity from one unit system to another by multiplying with ratios that equal one, and it can even suggest the form of a dependence among quantities.",
+   "formula": "",
+   "key_idea": "Dimensions must balance across equals signs and plus signs -- anything else cannot be physics.",
+   "textbook_ref": "keph101.txt lines 211-290 (section 1.5 dimensional analysis and its applications, checking equations, unit conversion, example 1.4 and 1.5)",
+   "question_patterns": [
+    "check whether the given equation is dimensionally correct",
+    "in class 11 units and measurement: convert a quantity from one system of units to another using dimensions",
+    "why can dimensions only give the form of a relation and not its constant",
+    "find the dimensions of the constant in the given formula",
+    "derive the dependence of a period on length and gravity using dimensions",
+    "can dimensional analysis detect a wrong numerical coefficient"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "dimension every term",
+     "explain": "Replace each term of the equation with its dimensional formula."
+    },
+    {
+     "step": 2,
+     "action": "test additivity",
+     "explain": "Terms that are added or equated must share identical dimensions; a mismatch exposes an incorrect relation."
+    },
+    {
+     "step": 3,
+     "action": "convert units when needed",
+     "explain": "To change systems, multiply the numerical value by the ratio of old and new base units arranged to cancel correctly."
+    }
+   ]
+  },
+  {
+   "id": "keph101.1.5.2",
+   "title": "Volume and Density from Measured Dimensions",
+   "section": "1.5",
+   "definition": "For a rectangular sheet or block, multiplying its length, breadth and thickness gives the volume it occupies; dividing the mass of that body by the volume then yields its density. This pipeline from direct measurements to a derived quantity is the everyday work of measurement physics.",
+   "formula": "volume = length * breadth * thickness",
+   "key_idea": "Three ruler readings make a volume; one weighing turns it into density -- derived quantities ride on direct ones.",
+   "textbook_ref": "keph101.txt lines 291-340 and exercise 1.11 (mass, length, breadth, thickness of a rectangular sheet; density idea of chapter exercises)",
+   "question_patterns": [
+    "find the volume of the rectangular sheet from its length breadth and thickness",
+    "in class 11 units and measurement: compute the density of a block with given mass and dimensions",
+    "calculate the volume from the three measured dimensions",
+    "the mass and volume are given, determine the density",
+    "how many significant figures should the computed density carry",
+    "express the volume in SI units after converting the measurements"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "multiply the three dimensions",
+     "explain": "Length, breadth and thickness multiply to give the volume of the rectangular body.",
+     "compute": "volume = length * breadth * thickness"
+    },
+    {
+     "step": 2,
+     "action": "divide mass by volume",
+     "explain": "Density is mass packed into each unit of volume.",
+     "compute": "density = mass / volume"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "volume = length * breadth * thickness",
+     "compute": "volume = length * breadth * thickness"
+    }
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "keph101.1.6.1",
+   "title": "Significant Figures",
+   "section": "1.6",
+   "definition": "Significant figures are the digits in a measurement that carry meaning -- every reliably known digit plus one uncertain digit. Zeros between non-zero digits count, leading zeros do not, and trailing zeros count only when a decimal point is present; computed results keep no more significant figures than the weakest input.",
+   "formula": "",
+   "key_idea": "Report no more digits than your measurement earns -- the last digit is always the doubtful one.",
+   "textbook_ref": "keph101.txt lines 341-430 (section 1.6 significant figures, rules for counting, exercise 1.10 examples)",
+   "question_patterns": [
+    "state the number of significant figures in the given measurement",
+    "in class 11 units and measurement: which zeros in a number are significant",
+    "round the result of a calculation to the proper significant figures",
+    "why does 2.308 have four significant figures",
+    "how many significant figures survive when two measurements are multiplied",
+    "express 0.00052 in scientific notation and count its significant figures"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "strip place value",
+     "explain": "Rewrite the number in scientific notation so only the coefficient digits remain in view."
+    },
+    {
+     "step": 2,
+     "action": "apply the zero rules",
+     "explain": "Leading zeros never count, trapped zeros always count, trailing zeros count with an explicit decimal."
+    },
+    {
+     "step": 3,
+     "action": "propagate through arithmetic",
+     "explain": "Multiplication and division keep the smallest input count of significant figures; addition keeps the coarsest decimal place."
+    }
+   ]
+  },
+  {
+   "id": "keph101.1.8.1",
+   "title": "Errors in Measurement: Absolute, Relative and Combination",
+   "section": "1.8",
+   "definition": "No instrument is perfect, so every reading carries an error. The absolute error is the spread of individual readings around their mean; relative error is that spread divided by the mean value; when quantities combine, absolute errors add under addition and subtraction, while relative errors add under multiplication and division.",
+   "formula": "",
+   "key_idea": "Adding quantities grows absolute errors; multiplying quantities grows relative errors -- that is the whole combining rule.",
+   "textbook_ref": "keph101.txt lines 431-520 (sections 1.8 accuracy precision and errors, absolute and relative error, error combination rules)",
+   "question_patterns": [
+    "find the mean absolute error of the repeated readings",
+    "in class 11 units and measurement: how do errors combine when quantities are multiplied",
+    "compute the relative error in the computed density",
+    "distinguish accuracy from precision of an instrument",
+    "the period of oscillation was measured many times, report the error",
+    "what fraction of the result is the percentage error"
+   ],
+   "solution_type": "verify_property",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "average the readings",
+     "explain": "The mean of several readings is the best estimate of the true value."
+    },
+    {
+     "step": 2,
+     "action": "spread around the mean",
+     "explain": "Averaging the sizes of the departures from the mean gives the mean absolute error."
+    },
+    {
+     "step": 3,
+     "action": "combine by operation",
+     "explain": "For products and quotients add the relative (percentage) errors of the factors to get the relative error of the result."
+    }
+   ]
+  }
+ ],
+ "worked_examples": [
+  {
+   "id": "we1",
+   "source_ref": "keph101.txt exercise 1.11 (rectangular sheet dimensions)",
+   "concept": "keph101.1.5.2",
+   "question_type": "compute",
+   "question_pattern": "A rectangular block has length {length}, breadth {breadth} and thickness {thickness}; find its volume.",
+   "extracted_variables": {
+    "length": 4.234,
+    "breadth": 1.005,
+    "thickness": 2.01
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "multiply the three dimensions",
+     "explain": "volume = 4.234 * 1.005 * 2.01, about 8.55 cm^3.",
+     "compute": "volume = length * breadth * thickness"
+    }
+   ]
+  },
+  {
+   "id": "we2",
+   "source_ref": "keph101.txt exercise 1.12 (mass of a box of measurements)",
+   "concept": "keph101.1.5.2",
+   "question_type": "compute",
+   "question_pattern": "A box of mass {mass} has volume {volume}; compute its density.",
+   "extracted_variables": {
+    "mass": 2.2,
+    "volume": 1.5
+   },
+   "solution_template": [
+    {
+     "step": 1,
+     "action": "divide mass by volume",
+     "explain": "density = 2.2 / 1.5, about 1.47 in the chosen units.",
+     "compute": "density = mass / volume"
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "id": "ex1",
+   "source_ref": "keph101.txt end-of-chapter exercises, reworded",
+   "questions": [
+    "Fill in the blanks by suitable conversion of units between SI and CGS.",
+    "State the number of significant figures in each given measurement.",
+    "The length, breadth and thickness of a rectangular sheet are measured; find its volume to the correct significant figures.",
+    "A famous relation in physics relates moving mass to rest mass; check it dimensionally.",
+    "Explain this statement clearly: 'To call a dimensional quantity large or small is meaningless without specifying a standard.'",
+    "Convert the given speed from km/h to m/s and state the significant figures.",
+    "A new unit of length is chosen such that the speed of light in vacuum is unity; what is the distance of the Sun in this unit?",
+    "Which of the following is the most precise device for measuring length?"
+   ]
+  }
+ ]
 }

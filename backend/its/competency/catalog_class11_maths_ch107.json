@@ -20,7 +20,7 @@
     "Explain the method of Pascal's Triangle and Binomial Coefficients.",
     "Describe the approach of Pascal's Triangle and Binomial Coefficients."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,16 @@
      "action": "Verify each coefficient matches the combination formula",
      "explain": "Confirm that each entry in row n equals nCr computed as n! / (r! * (n - r)!) for r from 0 to n."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the counting rule (product, factorial, 2^n)",
+     "explain": "apply the counting rule (product, factorial, 2^n): total = 9 * 7 gives 63",
+     "compute": "total = 9 * 7"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh107.7.2.2",
@@ -54,7 +63,7 @@
     "Explain the method of Binomial Theorem for Positive Integral Index.",
     "Describe the approach of Binomial Theorem for Positive Integral Index."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -71,7 +80,16 @@
      "action": "Simplify the coefficients and powers of each term",
      "explain": "Calculate the numerical values of nCr and combine them with the powers of a and b."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the counting rule (product, factorial, 2^n)",
+     "explain": "apply the counting rule (product, factorial, 2^n): total = 5 * 4 gives 20",
+     "compute": "total = 5 * 4"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh107.7.2.3",
@@ -88,7 +106,7 @@
     "Explain the method of Binomial Expansion of (x - y)^n.",
     "Describe the approach of Binomial Expansion of (x - y)^n."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -105,7 +123,16 @@
      "action": "Simplify each term to get the final alternating series",
      "explain": "Compute the coefficients and combine them with the variables."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the counting rule (product, factorial, 2^n)",
+     "explain": "apply the counting rule (product, factorial, 2^n): total = 9 * 6 gives 54",
+     "compute": "total = 9 * 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh107.7.2.4",
@@ -122,7 +149,7 @@
     "Explain the method of Binomial Expansion of (1 + x)^n and (1 - x)^n.",
     "Describe the approach of Binomial Expansion of (1 + x)^n and (1 - x)^n."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -139,7 +166,16 @@
      "action": "Simplify the coefficients and combine with powers of x",
      "explain": "Evaluate each nCr numerically and combine with the corresponding power of x to obtain the final expanded polynomial."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the counting rule (product, factorial, 2^n)",
+     "explain": "apply the counting rule (product, factorial, 2^n): total = 5 * 9 gives 45",
+     "compute": "total = 5 * 9"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh107.7.2.5",
@@ -156,7 +192,7 @@
     "Explain the method of Numerical Evaluation of Powers.",
     "Describe the approach of Numerical Evaluation of Powers."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -173,7 +209,16 @@
      "action": "Calculate the individual terms and sum them up",
      "explain": "Compute the powers of the round number and the small integer, multiply by the binomial coefficients, and combine."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the exponent law to the given powers",
+     "explain": "apply the exponent law to the given powers: val = 4 ** (3 + 2) gives 1024",
+     "compute": "val = 4 ** (3 + 2)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh107.7.2.6",
@@ -190,7 +235,7 @@
     "Explain the method of Comparing Large Numbers using Binomial Theorem.",
     "Describe the approach of Comparing Large Numbers using Binomial Theorem."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -207,7 +252,16 @@
      "action": "Compare the sum of the first two terms with the target number",
      "explain": "Since all other terms are positive, the total sum is strictly greater than the sum of the first two terms."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the counting rule (product, factorial, 2^n)",
+     "explain": "apply the counting rule (product, factorial, 2^n): total = 9 * 6 gives 54",
+     "compute": "total = 9 * 6"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh107.7.2.7",
@@ -224,7 +278,7 @@
     "Explain the method of Divisibility and Remainder Proofs.",
     "Describe the approach of Divisibility and Remainder Proofs."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -246,7 +300,16 @@
      "action": "Rearrange the expression to match the form divisor * k + remainder",
      "explain": "This shows the divisibility or the remainder left upon division."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the prime-factor / HCF-LCM relation for the two numbers",
+     "explain": "use the prime-factor / HCF-LCM relation for the two numbers: hcf = 6 * 1 gives 6",
+     "compute": "hcf = 6 * 1"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kemh107.7.2.8",
@@ -410,7 +473,7 @@
     "Explain the method of Expansion of Trinomials and Grouping.",
     "Describe the approach of Expansion of Trinomials and Grouping."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -427,7 +490,28 @@
      "action": "Expand each term containing powers of the grouped term",
      "explain": "Apply the binomial theorem again to terms like (a + b)^k and simplify the entire expression."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the number-play rule digit by digit",
+     "explain": "apply the number-play rule digit by digit: big = 9 * 1000 + 8 * 100 + 6 * 10 + 2 gives 9862",
+     "compute": "big = 9 * 1000 + 8 * 100 + 6 * 10 + 2"
+    },
+    {
+     "step": 2,
+     "action": "carry the chain forward",
+     "explain": "apply the number-play rule digit by digit: small = 2 * 1000 + 6 * 100 + 8 * 10 + 9 gives 2689",
+     "compute": "small = 2 * 1000 + 6 * 100 + 8 * 10 + 9"
+    },
+    {
+     "step": 3,
+     "action": "read off the answer",
+     "explain": "apply the number-play rule digit by digit: diff = big - small gives 7173",
+     "compute": "diff = big - small"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

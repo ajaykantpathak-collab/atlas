@@ -34,6 +34,31 @@
      "q": "Design a community-level flood preparedness plan for a Gram Panchayat in Assam's Dhemaji district (recurrent Brahmaputra floods). Include: risk mapping method, early warning dissemination chain, evacuation protocol for livestock, and a gender-inclusive relief camp layout. Justify each component geographically.",
      "a": "1. Risk mapping: Participatory GIS using satellite flood extent (Sentinel-1 SAR) + local knowledge of breach points — captures spatial heterogeneity of flood depth/velocity missed by district maps.\n2. Warning chain: IMD → CWC → DDMA → Block → GP WhatsApp → ASHA/Anganwadi → every household (including women-headed) — addresses last-mile gender gap in mobile access.\n3. Livestock evacuation: Pre-identified high ground (chars) with fodder banks; community cattle shelters on stilts — livestock = primary asset for floodplain economies.\n4. Camp layout: Separate bathing/toilet zones for women/men, child-friendly space, breastfeeding corner, sanitary napkin disposal — reduces gender-based violence and disease (learned from 2017 floods).\nPoor answer: generic \"make a plan\" without spatial specificity (e.g., not using chars for livestock) or gender blindness.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Disaster management is a continuous and integrated cycle of four ______ phases — mitigation (reducing risk before disaster), preparedness (building capacity to respond), response (immediate actions during/after disaster), and recovery (restoring and improving post-disaster conditions) — aimed at minimizing loss of life, livelihoods, and infrastructure through systematic planning, community participation, and institutional coordination.",
+     "a": "interdependent",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're in a village in Assam's Majuli island during the 2022 ______ floods — water rises rapidly, homes are submerged, and the only boat is broken.",
+     "a": "Brahmaputra",
+     "self_check": true
+    },
+    {
+     "q": "What is Disaster management? State the definition given in this lesson.",
+     "a": "Disaster management is a continuous and integrated cycle of four interdependent phases — mitigation (reducing risk before disaster), preparedness (building capacity to respond), response (immediate actions during/after disaster), and recovery (restoring and improving post-disaster conditions) — aimed at minimizing loss of life.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Disaster management?",
+     "a": "Students equate \"disaster management\" with \"disaster response/relief distribution\" — writing essays on NDRF boats and food packets for mitigation/preparedness questions.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the four phases of disaster management with specific Indian examples, differentiate between structural and non-structural mitigation measures, design a community-level preparedness plan for a flood-prone village, and analyze the coordination challenges between NDMA, SDMA, and DDMA during the 2018 Kerala floods.",
+     "self_check": true
     }
    ]
   }

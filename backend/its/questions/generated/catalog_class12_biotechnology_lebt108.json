@@ -1,6 +1,147 @@
 {
- "catalog": "catalog_class12_biotechnology_lebt108",
+ "catalog": "catalog_class12_biotechnology_lebt108.json",
  "concepts": [
+  {
+   "id": "lebt108.2",
+   "title": "Phenol Red and Culture Buffering Systems",
+   "converted_to_compute": true,
+   "formula": "colour_span = alkaline_ph - acidic_ph",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "colour_span = alkaline_ph - acidic_ph",
+     "compute": "colour_span = alkaline_ph - acidic_ph"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Phenol Red and Culture Buffering Systems: given alkaline_ph = 37, acidic_ph = 48, find colour span.",
+     "a": "-11",
+     "self_check": false
+    },
+    {
+     "q": "For Phenol Red and Culture Buffering Systems: given alkaline_ph = 97, acidic_ph = 16.6, find colour span.",
+     "a": "80.4",
+     "self_check": false
+    },
+    {
+     "q": "For Phenol Red and Culture Buffering Systems: given alkaline_ph = 90, acidic_ph = 32, find colour span.",
+     "a": "58",
+     "self_check": false
+    },
+    {
+     "q": "For Phenol Red and Culture Buffering Systems: given alkaline_ph = 40, acidic_ph = 97, find colour span.",
+     "a": "-57",
+     "self_check": false
+    },
+    {
+     "q": "For Phenol Red and Culture Buffering Systems: given alkaline_ph = 20, acidic_ph = 95, find colour span.",
+     "a": "-75",
+     "self_check": false
+    },
+    {
+     "q": "For Phenol Red and Culture Buffering Systems: given alkaline_ph = 84, acidic_ph = 72, find colour span.",
+     "a": "12",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lebt108.5",
+   "title": "Subculture and Cryopreservation of Cells",
+   "converted_to_compute": true,
+   "formula": "dmso_volume = freeze_volume * dmso_pct / 100",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "dmso_volume = freeze_volume * dmso_pct / 100",
+     "compute": "dmso_volume = freeze_volume * dmso_pct / 100"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Subculture and Cryopreservation of Cells: given freeze_volume = 15.6, dmso_pct = 49, find dmso volume.",
+     "a": "7.644",
+     "self_check": false
+    },
+    {
+     "q": "For Subculture and Cryopreservation of Cells: given freeze_volume = 12.9, dmso_pct = 45, find dmso volume.",
+     "a": "5.805",
+     "self_check": false
+    },
+    {
+     "q": "For Subculture and Cryopreservation of Cells: given freeze_volume = 31, dmso_pct = 15.5, find dmso volume.",
+     "a": "4.805",
+     "self_check": false
+    },
+    {
+     "q": "For Subculture and Cryopreservation of Cells: given freeze_volume = 19.2, dmso_pct = 44, find dmso volume.",
+     "a": "8.448",
+     "self_check": false
+    },
+    {
+     "q": "For Subculture and Cryopreservation of Cells: given freeze_volume = 38, dmso_pct = 38, find dmso volume.",
+     "a": "14.44",
+     "self_check": false
+    },
+    {
+     "q": "For Subculture and Cryopreservation of Cells: given freeze_volume = 3.8, dmso_pct = 25, find dmso volume.",
+     "a": "0.95",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lebt108.7",
+   "title": "Growth Timing of Cultured Animal Cells",
+   "converted_to_compute": true,
+   "formula": "cells_after = starter_cells * 2 ** divisions",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "cells_after = starter_cells * 2 ** divisions",
+     "compute": "cells_after = starter_cells * 2 ** divisions"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Growth Timing of Cultured Animal Cells: given starter_cells = 92, divisions = 53, find cells after.",
+     "a": "828662331436171264",
+     "self_check": false
+    },
+    {
+     "q": "For Growth Timing of Cultured Animal Cells: given starter_cells = 22, divisions = 12.1, find cells after.",
+     "a": "96579.7",
+     "self_check": false
+    },
+    {
+     "q": "For Growth Timing of Cultured Animal Cells: given starter_cells = 66, divisions = 14.2, find cells after.",
+     "a": "1242138.073986",
+     "self_check": false
+    },
+    {
+     "q": "For Growth Timing of Cultured Animal Cells: given starter_cells = 41, divisions = 18, find cells after.",
+     "a": "10747904",
+     "self_check": false
+    },
+    {
+     "q": "For Growth Timing of Cultured Animal Cells: given starter_cells = 6.8, divisions = 49, find cells after.",
+     "a": "3828059683264921.5",
+     "self_check": false
+    },
+    {
+     "q": "For Growth Timing of Cultured Animal Cells: given starter_cells = 68, divisions = 31, find cells after.",
+     "a": "146028888064",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "lebt108.1",
    "title": "Animal Cell Culture Media and Serum",
@@ -18,37 +159,6 @@
     {
      "q": "Under which section is 'Animal Cell Culture Media and Serum' taught, and from which source text?",
      "a": "8.2 (source: lebt108.txt sections 8.1-8.2, Boxes 2-3)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebt108.2",
-   "title": "Phenol Red and Culture Buffering Systems",
-   "questions": [
-    {
-     "q": "Using the method 'Phenol Red and Culture Buffering Systems', work with: acidic_ph = 8, alkaline_ph = 24. Carry the chain through step by step and give the final value of mid_ph.",
-     "a": "16 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Phenol Red and Culture Buffering Systems' and work with: acidic_ph = 6, alkaline_ph = 10. Carry the chain through step by step and give the final value of mid_ph.",
-     "a": "8 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Phenol Red and Culture Buffering Systems' refers to.",
-     "a": "Cultures breathe in 37 degree incubators gassed with five to ten percent carbon dioxide at about 300 mOsmol osmolality, their pH held by bicarbonate's Le Chatelier dance or by HEPES in the 7.2-7.4 window; phenol red plays traffic light - yellow below 6.8, bright red at the optimal 7.4, pink above 8.2 - while pyruvate lets cells make their own carbon dioxide.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Phenol Red and Culture Buffering Systems'.",
-     "a": "Measure the pH window phenol red watches, and compare its midpoint with the optimum to see the buffer's job.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Phenol Red and Culture Buffering Systems', in plain ASCII form.",
-     "a": "colour_span = alkaline_ph - acidic_ph",
      "self_check": true
     }
    ]
@@ -96,37 +206,6 @@
    ]
   },
   {
-   "id": "lebt108.5",
-   "title": "Subculture and Cryopreservation of Cells",
-   "questions": [
-    {
-     "q": "Using the method 'Subculture and Cryopreservation of Cells', work with: dmso_pct = 20, freeze_volume = 45. Carry the chain through step by step and give the final value of serum_volume.",
-     "a": "36 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Subculture and Cryopreservation of Cells' and work with: dmso_pct = 60, freeze_volume = 10. Carry the chain through step by step and give the final value of serum_volume.",
-     "a": "4 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Subculture and Cryopreservation of Cells' refers to.",
-     "a": "Crowded monolayers are split by trypsinising cells off the vessel, centrifuging and reseeding into fresh flasks - each split raising the passage number - while long-term stocks sleep in liquid nitrogen at minus 180 to minus 196 degrees celsius, below minus 130 ice crystals fade, a freezing medium of ninety percent serum with ten percent DMSO or glycerol cushions the cells, slow cooling to minus 80 lets water leave, and thawing rushes back at 37 degrees.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Subculture and Cryopreservation of Cells'.",
-     "a": "Take ten percent of the freezing medium as cryoprotectant, cool slowly, thaw fast.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Subculture and Cryopreservation of Cells', in plain ASCII form.",
-     "a": "dmso_volume = freeze_volume * dmso_pct / 100",
-     "self_check": true
-    }
-   ]
-  },
-  {
    "id": "lebt108.6",
    "title": "Cell Viability by Dye Exclusion and MTT",
    "questions": [
@@ -143,37 +222,6 @@
     {
      "q": "Under which section is 'Cell Viability by Dye Exclusion and MTT' taught, and from which source text?",
      "a": "8.6 (source: lebt108.txt section 8.6, Figs. 8.7-8.8)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebt108.7",
-   "title": "Growth Timing of Cultured Animal Cells",
-   "questions": [
-    {
-     "q": "Using the method 'Growth Timing of Cultured Animal Cells', work with: divisions = 45, hours_per_div = 400, starter_cells = 4. Carry the chain through step by step and give the final value of days_elapsed.",
-     "a": "750 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Growth Timing of Cultured Animal Cells' and work with: divisions = 15, hours_per_div = 8, starter_cells = 30. Carry the chain through step by step and give the final value of days_elapsed.",
-     "a": "5 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Growth Timing of Cultured Animal Cells' refers to.",
-     "a": "Animal cells divide slowly - eighteen to twenty-four hours per generation - so a culture doubles once a day at best, leaving any stray bacterium to overgrow the flask within a day and making asepsis the difference between a clean line and contamination; population size still follows the doubling rule across days.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Growth Timing of Cultured Animal Cells'.",
-     "a": "Double once per division cycle and divide total hours by hours per division to time any culture's expansion.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Growth Timing of Cultured Animal Cells', in plain ASCII form.",
-     "a": "cells_after = starter_cells * 2 ** divisions",
      "self_check": true
     }
    ]

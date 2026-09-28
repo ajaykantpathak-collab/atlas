@@ -34,6 +34,36 @@
      "q": "Design a modified cryopreservation protocol for a hypothetical primary human hepatocyte line that: (a) cannot tolerate DMSO >5% due to metabolic toxicity, (b) requires >80% post-thaw viability for transplantation studies, and (c) must be stored in vapour-phase liquid nitrogen (–150°C) for regulatory compliance. Specify CPA composition, cooling rate, and one critical validation step.",
      "a": "A strong answer: Use 5% DMSO + 5% hydroxyethyl starch (HES, a non-penetrating CPA) + 90% serum; cool at 0.5°C/min to –80°C (slower rate compensates for lower DMSO); transfer to vapour-phase LN₂. Critical validation: post-thaw metabolic activity assay (e.g., albumin secretion or CYP450 activity) in addition to trypan blue, because membrane integrity ≠ metabolic function in hepatocytes. A poor answer keeps 10% DMSO or omits validation beyond viability staining, showing inability to adapt protocol to cell-type-specific constraints.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the process of preserving viable animal cells at ultra-low temperatures (–180°C to –196°C in liquid nitrogen) by using cryoprotective agents (CPAs) such as dimethyl sulfoxide (DMSO) or glycerol to prevent lethal intracellular ice crystal formation during freezing and thawing.",
+     "a": "Cryopreservation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You need to bank these cells so that if the incubator fails or ______ strikes, you can restart without losing the line.",
+     "a": "contamination",
+     "self_check": true
+    },
+    {
+     "q": "What is Cryopreservation? State the definition given in this lesson.",
+     "a": "Cryopreservation is the process of preserving viable animal cells at ultra-low temperatures (–180°C to –196°C in liquid nitrogen) by using cryoprotective agents (CPAs) such as dimethyl sulfoxide (DMSO) or glycerol to prevent lethal intracellular ice crystal formation during freezing and thawing.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: We add DMSO — a small molecule that penetrates the membrane and replaces intracellular water — then cool slowly (______°C/min) so water leaves the cell by osmosis before it freezes.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Cryopreservation?",
+     "a": "Students believe that faster freezing is better because it \"gets the cells to the safe low temperature quickly.\" This is exactly backwards: rapid freezing traps water inside cells, forming intracellular ice crystals that are lethal.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) calculate the exact volumes of serum and DMSO needed to prepare a specified volume of freezing medium, (2) explain the biophysical rationale for slow cooling (≈1°C/min) and rapid thawing (37°C water bath), and (3) identify critical quality-control steps (viability assessment post-thaw, sterility check).",
+     "self_check": true
     }
    ]
   }

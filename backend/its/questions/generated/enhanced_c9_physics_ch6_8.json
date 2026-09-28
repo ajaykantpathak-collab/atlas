@@ -34,6 +34,36 @@
      "q": "A student says: \"A thicker wire has more resistance because it has more material.\" Evaluate this statement.",
      "a": "The statement is incorrect. A thicker wire has LESS resistance, not more. Formula: R = rho * L / A. A is in the denominator, so increasing A (thicker wire) decreases R. The thicker wire has more material, but it also has more space for current to flow, reducing opposition. Analogy: a wider pipe has less resistance to water flow than a narrow pipe. A wrong evaluation (agreeing with the student) confuses \"more material\" with \"more resistance\" — the cross-sectional area provides more paths for current, reducing resistance.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the opposition a conductor offers to electric current, measured in ohms.",
+     "a": "Resistance",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A longer pipe has more resistance — the water has to travel farther, ______ more friction.",
+     "a": "encountering",
+     "self_check": true
+    },
+    {
+     "q": "What is Resistance? State the definition given in this lesson.",
+     "a": "Resistance is the opposition a conductor offers to electric current, measured in ohms.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Resistivity (rho) is an intrinsic property of a material that quantifies how strongly it resists current: R = rho * L / A, where R is resistance (ohms), rho is resistivity (ohm*meter), L is length (m), and A is cross-sectional area (m^______).",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Resistance?",
+     "a": "Students think thicker wires have more resistance because they have \"more material.\" The exact error: they reason that more material = more opposition.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can define resistance and resistivity, state the formula R = rho * L / A, distinguish resistance (depends on geometry) from resistivity (intrinsic property), calculate R given rho, L, A, and explain how length and area affect resistance.",
+     "self_check": true
     }
    ]
   }

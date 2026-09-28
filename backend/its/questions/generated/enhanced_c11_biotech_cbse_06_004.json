@@ -34,6 +34,21 @@
      "q": "Design a dihybrid cross experiment using two traits of your choice (other than seed shape/colour) that would allow a Class 11 student to verify the Law of Independent Assortment. Specify the parental genotypes, the F₁ genotype, the gametes, and the expected F₂ phenotypic ratio. Explain how the appearance of recombinant phenotypes confirms independent assortment.",
      "a": "Good answer example: Traits – flower colour (purple P dominant to white p) and plant height (tall T dominant to dwarf t). Parental cross: PPTT × pptt. F₁: PpTt. F₁ gametes: PT, Pt, pT, pt (equal proportions). F₂ phenotypic ratio: 9 purple‑tall : 3 purple‑dwarf : 3 white‑tall : 1 white‑dwarf. Recombinant phenotypes (purple‑dwarf and white‑tall) appear because the allele for flower colour assorts independently of the allele for height. A poor answer that uses linked traits (e.g., flower colour and pollen shape in sweet pea) or fails to show recombinant phenotypes indicates the student cannot distinguish independent assortment from linkage.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Law of Independent Assortment states that alleles of two (or more) different genes segregate ______ of one another during gamete formation, provided the genes are located on different chromosomes or are far apart on the same chromosome.",
+     "a": "independently",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer in Punjab ______ two true‑breeding pea plants: one with round, yellow seeds (RRYY) and another with wrinkled, green seeds (rryy).",
+     "a": "crossing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently construct a 4×4 Punnett square for a dihybrid cross, derive both the 9:3:3:1 phenotypic ratio and the full 9‑genotype genotypic ratio, and explain how the FOIL method for gamete formation demonstrates independent assortment.",
+     "self_check": true
     }
    ]
   }

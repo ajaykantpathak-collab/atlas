@@ -34,6 +34,31 @@
      "q": "Design a location decision matrix for a proposed integrated steel plant in India. Choose four candidate sites (e.g., near iron ore in Odisha, near coal in Jharkhand, near port in Gujarat, near market in Maharashtra). Assign weights to five factors (raw material, power, transport, market, policy) and score each site. Justify your weight assignment.",
      "a": "Weights: Raw material 30% (weight-losing, high transport cost), Power 25% (electricity-intensive), Transport 20% (link to ports/markets), Market 15% (domestic demand), Policy 10% (secondary). Scores: Odisha (iron ore + port) 85, Jharkhand (coal + iron ore) 80, Gujarat (port + market) 65, Maharashtra (market) 60. Good answer shows quantitative reasoning with geographical justification. Poor answer uses equal weights or ignores weight-loss principle.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Industrial location refers to the geographical siting of ______ units based on a comparative analysis of locational factors such as availability of raw materials, labour, capital, power, market, transport, and government policies to minimize production costs and maximize profitability.",
+     "a": "manufacturing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how a sugar mill in Uttar Pradesh sits amid ______ fields while a software park clusters in Bengaluru — both are deliberate location decisions.",
+     "a": "sugarcane",
+     "self_check": true
+    },
+    {
+     "q": "What is Industrial location? State the definition given in this lesson.",
+     "a": "Industrial location refers to the geographical siting of manufacturing units based on a comparative analysis of locational factors such as availability of raw materials, labour, capital, power, market, transport, and government policies to minimize production costs and maximize profitability.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Industrial location?",
+     "a": "Students believe \"nearness to raw material\" is always the #1 factor for all industries.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can evaluate the relative importance of locational factors for a given industry type (e.g., iron and steel vs. cotton textile) and justify the actual geographic distribution of major industrial centres in India using map evidence.",
+     "self_check": true
     }
    ]
   }

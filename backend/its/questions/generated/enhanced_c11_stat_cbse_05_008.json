@@ -34,6 +34,31 @@
      "q": "Create a small frequency distribution (ungrouped or grouped, n ≤ 20) for which the empirical relationship Mode = 3 Median – 2 Mean holds **exactly**. Provide the data, calculate all three measures, and verify the formula.",
      "a": "Example: Data: 2, 3, 3, 4, 4, 4, 5, 5, 6 (n=9).  \nMean = (2+3+3+4+4+4+5+5+6)/9 = 36/9 = **4**.  \nMedian = 5th value = **4**.  \nMode = **4** (highest frequency 3).  \nCheck: 3 Median – 2 Mean = 3(4) – 2(4) = 12 – 8 = 4 = Mode. Formula holds exactly (symmetric case).  \nFor a non-symmetric example: Data: 10, 10, 20, 20, 20, 30, 40 (n=7). Mean = 150/7 ≈ 21.43, Median = 20, Mode = 20. Formula: 3(20) – 2(21.43) = 60 – 42.86 = 17.14 ≠ 20. Does not hold exactly.  \nA good answer constructs a symmetric dataset (where all three are equal) or solves 3M - 2X = Mo algebraically for a chosen set. A poor answer (random data without verification) shows inability to reverse-engineer the constraint and misunderstanding that exact equality is a special condition, not a general rule.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: For a moderately skewed unimodal ______, the empirical relationship between the three measures of central tendency is given by: Mode = 3 Median – 2 Mean (equivalently, Mean – Mode = 3(Mean – Median)).",
+     "a": "distribution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ owner analysing the daily wages of 200 workers.",
+     "a": "factory",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a factory owner analysing the daily wages of ______ workers.",
+     "a": "200",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly apply the empirical formula to compute a missing measure (mean, median, or mode) given the other two, and can interpret the relative positions of the three averages to identify the direction of skewness (positive or negative) in a frequency distribution.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a factory owner ______ the daily wages of 200 workers.",
+     "a": "analysing",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Create a table with 3 columns (Operating, Investing, Financing) and list 3 distinct cash inflows and 3 distinct cash outflows for a **software development company**. Ensure at least one item in each column is specific to this industry (not generic).",
      "a": "**Operating**: Inflows — cash from software licenses, subscription fees, consulting fees; Outflows — employee salaries, server hosting costs, marketing expenses. **Investing**: Inflows — sale of old laptops, maturity of fixed deposits; Outflows — purchase of high-end workstations, acquisition of another software firm, investment in equity shares. **Financing**: Inflows — proceeds from issue of ESOP shares, venture capital funding; Outflows — repayment of bank loan, interest on loan, dividend to shareholders. A poor answer (generic items like \"sale of goods\" for a service company) reveals the student cannot contextualize classification to the specific enterprise's operations.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ of cash flows is the process of categorizing all cash inflows and outflows of an enterprise into three distinct activities as per AS-3: (1) Operating activities — principal revenue-generating activities (e.g., cash receipts from sales, payments to suppliers); (2) Investing activities — acquisition and disposal of long-term assets and investments not included in cash equivalents (e.g., purchase/sale of machinery, investments); (3) Financing activities — activities that change the size and composition of owners' capital and borrowings (e.g., issue of shares, repayment of loans, interest/dividend paid).",
+     "a": "Classification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Cash comes in when customers buy cakes (______), goes out when you buy a new oven (investing), and comes in when you take a loan to expand (financing).",
+     "a": "operating",
+     "self_check": true
+    },
+    {
+     "q": "What is Classification of cash flows? State the definition given in this lesson.",
+     "a": "Classification of cash flows is the process of categorizing all cash inflows and outflows of an enterprise into three distinct activities as per AS-3: (1) Operating activities — principal revenue-generating activities (e.g., cash receipts from sales, payments to suppliers); (2) Investing activities — acquisition and disposal of long-term.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This node teaches you the three buckets AS-______ requires, the rules for ambiguous items like interest/dividend, and why classification depends on the *nature of the enterprise*.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Classification of cash flows?",
+     "a": "Students often think classification is based solely on the *asset/liability account* involved (e.g., \"machinery → investing\", \"loan → financing\").",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify any given transaction (e.g., \"purchase of machinery,\" \"dividend received,\" \"issue of debentures\") into operating, investing, or financing activity with correct justification based on AS-3, and explain why the same transaction (e.g., purchase of shares) can be classified differently for different.",
+     "self_check": true
     }
    ]
   }

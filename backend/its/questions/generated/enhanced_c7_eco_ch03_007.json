@@ -34,6 +34,21 @@
      "q": "Propose a two-step infrastructure upgrade for a flood-prone farming village that currently suffers from spoiled crops and ruined markets every monsoon season. Describe how each step improves quality of life.",
      "a": "The expected answer should propose: \n1) Constructing elevated all-weather connecting roads and local storage warehouses (to prevent crops from rotting and ensure transport access).\n2) Setting up a reliable solar-powered cold storage or micro-grid facility (to preserve perishable produce). \nCriteria for a good answer: Must link specific infrastructure items directly to reduced crop loss, stable family income, and improved food security. \nPoor answers suggest unrelated items like building digital video arcades or luxury hotels, showing a lack of understanding of rural livelihood needs and basic infrastructure priorities.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The impact of ______ on quality of life refers to how physical, social, and utility networks—such as all-weather roads, clean drinking water pipelines, electricity grids, schools, and hospitals—directly improve citizens' daily living standards, health, safety, and access to opportunities.",
+     "a": "infrastructure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine two ______ in rural India: Village A has unpaved mud tracks and gets water from a distant river, while Village B has newly paved all-weather concrete roads and a piped tap water supply inside every home.",
+     "a": "villages",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can analyze how specific infrastructure improvements (like paved roads or piped water) reduce household time burdens and health costs, and can calculate net economic or time savings from infrastructure upgrades using given household data.",
+     "self_check": true
     }
    ]
   }

@@ -1,98 +1,127 @@
 {
-  "class": 12,
-  "subject": "applied_maths",
-  "chapter": 8,
-  "chapter_title": "Linear Programming Problem",
-  "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am12_008_linear_programming.txt",
-  "concepts": [
+ "class": 12,
+ "subject": "applied_maths",
+ "chapter": 8,
+ "chapter_title": "Linear Programming Problem",
+ "source_file": "D:\\node_generator\\ncert-mcp\\data\\processed\\text_cache_new\\am12_008_linear_programming.txt",
+ "concepts": [
+  {
+   "id": "am12_008.1",
+   "title": "Formulating Linear Programming Problems",
+   "definition": "Formulation turns a resource-allocation story into a linear programming problem: define decision variables, write the objective function to maximise or minimise as a linear expression in them, and translate every resource restriction and non-negativity requirement into linear constraints.",
+   "formula": "-",
+   "key_idea": "The two structural features are a linear objective and linear constraints with non-negative variables. Words like 'at most' give <= constraints, 'at least' give >= constraints, and 'exactly' gives equality.",
+   "question_patterns": [
+    "A firm makes {p1} profit per unit of product A and {p2} per unit of product B; formulate the LPP to maximise profit.",
+    "Define decision variables and write the objective function for the given situation.",
+    "Translate 'the mixture must contain at least {r} units of protein' into a constraint.",
+    "Write the complete mathematical formulation of the stated diet problem.",
+    "Why must decision variables in an LPP be non-negative in most problems?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [],
+   "compute_steps": [
     {
-      "id": "am12_008.1",
-      "title": "Formulating Linear Programming Problems",
-      "definition": "Formulation turns a resource-allocation story into a linear programming problem: define decision variables, write the objective function to maximise or minimise as a linear expression in them, and translate every resource restriction and non-negativity requirement into linear constraints.",
-      "formula": "-",
-      "key_idea": "The two structural features are a linear objective and linear constraints with non-negative variables. Words like 'at most' give <= constraints, 'at least' give >= constraints, and 'exactly' gives equality.",
-      "question_patterns": [
-        "A firm makes {p1} profit per unit of product A and {p2} per unit of product B; formulate the LPP to maximise profit.",
-        "Define decision variables and write the objective function for the given situation.",
-        "Translate 'the mixture must contain at least {r} units of protein' into a constraint.",
-        "Write the complete mathematical formulation of the stated diet problem.",
-        "Why must decision variables in an LPP be non-negative in most problems?"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": []
-    },
-    {
-      "id": "am12_008.2",
-      "title": "Feasible Region Graphical Method",
-      "definition": "Each linear constraint shades a half-plane, and the intersection of all half-planes with the non-negative quadrant is the feasible region: the set of all points satisfying every constraint simultaneously. A bounded feasible region is a convex polygon; an unbounded one extends infinitely.",
-      "formula": "-",
-      "key_idea": "Corner points (vertices) of the feasible region are where two boundary lines intersect, and they are the only candidates for an optimal solution of a bounded LPP. Infeasible constraints leave no common region at all.",
-      "question_patterns": [
-        "Graph the constraints {a}x + {b}y <= {c}, x >= 0, y >= 0 and shade the feasible region.",
-        "Find the corner points of the feasible region for the given constraints.",
-        "What does an empty feasible region indicate about the constraints?",
-        "Distinguish a bounded and an unbounded feasible region.",
-        "Why is the feasible region of an LPP always convex?"
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": []
-    },
-    {
-      "id": "am12_008.3",
-      "title": "Corner Point Method for Optimum",
-      "definition": "The corner point method evaluates the objective function at every vertex of the feasible region: the largest value is the maximum and the smallest is the minimum. This works because a linear function attains its optimum over a convex polygon at a vertex.",
-      "formula": "z = c1 * x + c2 * y",
-      "key_idea": "Evaluate z = c1 x + c2 y at each corner and compare; ties mean the whole edge between the tied corners is optimal. If two corners give the same maximum, every point on the joining edge does too.",
-      "question_patterns": [
-        "Maximise z = {c1}x + {c2}y subject to the given constraints using the corner point method.",
-        "Evaluate the objective z = {c1}x + {c2}y at the vertex ({x}, {y}).",
-        "Find the maximum and minimum values of z at the corner points of the given region.",
-        "If two corner points give the same maximum value of z, what is the complete optimal set?",
-        "Minimise cost z = {c1}x + {c2}y over the stated feasible region."
-      ],
-      "solution_type": "compute",
-      "solution_steps": [
-        {"compute": "z = c1 * x + c2 * y"}
-      ]
-    },
-    {
-      "id": "am12_008.4",
-      "title": "Bounded Unbounded and Special Cases",
-      "definition": "A bounded feasible region guarantees both a maximum and a minimum of the objective. An unbounded region can leave the maximum open: before declaring no finite maximum, test whether the objective grows without bound along a ray in the region. Special cases include multiple optimal solutions, infeasibility and redundancy of a constraint.",
-      "formula": "-",
-      "key_idea": "For maximisation on an unbounded region, draw z = c1 x + c2 y = k and push k upward; if some edge of the region is parallel to the level lines and the region extends that way, no maximum exists.",
-      "question_patterns": [
-        "Show that z = {c1}x + {c2}y has no maximum over the given unbounded region.",
-        "When does an LPP have infinitely many optimal solutions?",
-        "What is an infeasible LPP?",
-        "Give an example of a redundant constraint and explain the term.",
-        "State the condition under which a minimum is guaranteed even for an unbounded region."
-      ],
-      "solution_type": "verify_property",
-      "solution_steps": []
+     "step": 1,
+     "action": "transpose the terms and divide by the coefficient",
+     "explain": "transpose the terms and divide by the coefficient: x = (27 - 9) / 3 gives 6",
+     "compute": "x = (27 - 9) / 3"
     }
-  ],
-  "worked_examples": [
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "am12_008.2",
+   "title": "Feasible Region Graphical Method",
+   "definition": "Each linear constraint shades a half-plane, and the intersection of all half-planes with the non-negative quadrant is the feasible region: the set of all points satisfying every constraint simultaneously. A bounded feasible region is a convex polygon; an unbounded one extends infinitely.",
+   "formula": "-",
+   "key_idea": "Corner points (vertices) of the feasible region are where two boundary lines intersect, and they are the only candidates for an optimal solution of a bounded LPP. Infeasible constraints leave no common region at all.",
+   "question_patterns": [
+    "Graph the constraints {a}x + {b}y <= {c}, x >= 0, y >= 0 and shade the feasible region.",
+    "Find the corner points of the feasible region for the given constraints.",
+    "What does an empty feasible region indicate about the constraints?",
+    "Distinguish a bounded and an unbounded feasible region.",
+    "Why is the feasible region of an LPP always convex?"
+   ],
+   "solution_type": "compute",
+   "solution_steps": [],
+   "compute_steps": [
     {
-      "q": "Maximise z = 3x + 4y subject to x + y <= 4, x, y >= 0.",
-      "a": "The feasible region is the triangle with corners (0, 0), (4, 0), (0, 4). z at (0,0) = 0; at (4,0) = 12; at (0,4) = 16. The maximum is z = 16 at x = 0, y = 4: put everything into the product with the higher unit profit when only the shared resource binds."
-    },
-    {
-      "q": "A corner-point comparison gives z = 20 at (2, 5) and z = 20 at (6, 2). State the optimal set.",
-      "a": "Since the two vertices give the same objective value and the objective is linear, every point on the edge joining (2, 5) and (6, 2) attains z = 20; the optimal set is that whole edge, not just the two corners."
+     "step": 1,
+     "action": "read the table or chart with its key",
+     "explain": "read the table or chart with its key: total = 3 + 9 + 2 gives 14",
+     "compute": "total = 3 + 9 + 2"
     }
-  ],
-  "exercises": [
+   ],
+   "converted_to_compute": true
+  },
+  {
+   "id": "am12_008.3",
+   "title": "Corner Point Method for Optimum",
+   "definition": "The corner point method evaluates the objective function at every vertex of the feasible region: the largest value is the maximum and the smallest is the minimum. This works because a linear function attains its optimum over a convex polygon at a vertex.",
+   "formula": "z = c1 * x + c2 * y",
+   "key_idea": "Evaluate z = c1 x + c2 y at each corner and compare; ties mean the whole edge between the tied corners is optimal. If two corners give the same maximum, every point on the joining edge does too.",
+   "question_patterns": [
+    "Maximise z = {c1}x + {c2}y subject to the given constraints using the corner point method.",
+    "Evaluate the objective z = {c1}x + {c2}y at the vertex ({x}, {y}).",
+    "Find the maximum and minimum values of z at the corner points of the given region.",
+    "If two corner points give the same maximum value of z, what is the complete optimal set?",
+    "Minimise cost z = {c1}x + {c2}y over the stated feasible region."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [
     {
-      "group": "drill",
-      "items": [
-        "Formulate: a dietician mixes two foods costing 6 and 10 per unit to meet at least 30 units of protein and 20 of iron at minimum cost.",
-        "Find the corner points of x + 2y <= 8, 3x + 2y <= 12, x, y >= 0.",
-        "Maximise z = 5x + 3y over the region from the previous item.",
-        "Minimise z = 2x + 3y subject to x + y >= 6, x, y >= 0 and find where it occurs.",
-        "Explain why the optimum of a bounded LPP cannot occur strictly inside the region.",
-        "Sketch the feasible region of x - y <= 1, x + y >= 3, x, y >= 0 and state whether it is bounded."
-      ]
+     "compute": "z = c1 * x + c2 * y"
     }
-  ]
+   ]
+  },
+  {
+   "id": "am12_008.4",
+   "title": "Bounded Unbounded and Special Cases",
+   "definition": "A bounded feasible region guarantees both a maximum and a minimum of the objective. An unbounded region can leave the maximum open: before declaring no finite maximum, test whether the objective grows without bound along a ray in the region. Special cases include multiple optimal solutions, infeasibility and redundancy of a constraint.",
+   "formula": "-",
+   "key_idea": "For maximisation on an unbounded region, draw z = c1 x + c2 y = k and push k upward; if some edge of the region is parallel to the level lines and the region extends that way, no maximum exists.",
+   "question_patterns": [
+    "Show that z = {c1}x + {c2}y has no maximum over the given unbounded region.",
+    "When does an LPP have infinitely many optimal solutions?",
+    "What is an infeasible LPP?",
+    "Give an example of a redundant constraint and explain the term.",
+    "State the condition under which a minimum is guaranteed even for an unbounded region."
+   ],
+   "solution_type": "compute",
+   "solution_steps": [],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "apply the calculus rule and evaluate at the point",
+     "explain": "apply the calculus rule and evaluate at the point: val = 5 * 3 * 3 + 7 * 3 + 3 gives 69",
+     "compute": "val = 5 * 3 * 3 + 7 * 3 + 3"
+    }
+   ],
+   "converted_to_compute": true
+  }
+ ],
+ "worked_examples": [
+  {
+   "q": "Maximise z = 3x + 4y subject to x + y <= 4, x, y >= 0.",
+   "a": "The feasible region is the triangle with corners (0, 0), (4, 0), (0, 4). z at (0,0) = 0; at (4,0) = 12; at (0,4) = 16. The maximum is z = 16 at x = 0, y = 4: put everything into the product with the higher unit profit when only the shared resource binds."
+  },
+  {
+   "q": "A corner-point comparison gives z = 20 at (2, 5) and z = 20 at (6, 2). State the optimal set.",
+   "a": "Since the two vertices give the same objective value and the objective is linear, every point on the edge joining (2, 5) and (6, 2) attains z = 20; the optimal set is that whole edge, not just the two corners."
+  }
+ ],
+ "exercises": [
+  {
+   "group": "drill",
+   "items": [
+    "Formulate: a dietician mixes two foods costing 6 and 10 per unit to meet at least 30 units of protein and 20 of iron at minimum cost.",
+    "Find the corner points of x + 2y <= 8, 3x + 2y <= 12, x, y >= 0.",
+    "Maximise z = 5x + 3y over the region from the previous item.",
+    "Minimise z = 2x + 3y subject to x + y >= 6, x, y >= 0 and find where it occurs.",
+    "Explain why the optimum of a bounded LPP cannot occur strictly inside the region.",
+    "Sketch the feasible region of x - y <= 1, x + y >= 3, x, y >= 0 and state whether it is bounded."
+   ]
+  }
+ ]
 }

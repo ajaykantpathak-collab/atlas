@@ -34,6 +34,16 @@
      "q": "Construct a trigonometric expression involving \\(\\tan\\theta\\) and \\(\\sec\\theta\\) that simplifies to a constant using the identity \\(1 + \\tan^2\\theta = \\sec^2\\theta\\). Show the simplification.",
      "a": "Example: \\(\\sec^4\\theta - \\tan^4\\theta - 2\\tan^2\\theta\\).  \nSimplification: \\(\\sec^4\\theta - \\tan^4\\theta = (\\sec^2\\theta - \\tan^2\\theta)(\\sec^2\\theta + \\tan^2\\theta) = (1)(\\sec^2\\theta + \\tan^2\\theta) = \\sec^2\\theta + \\tan^2\\theta\\).  \nThen expression \\(= \\sec^2\\theta + \\tan^2\\theta - 2\\tan^2\\theta = \\sec^2\\theta - \\tan^2\\theta = 1\\).  \nA poor answer (e.g., an expression that doesn't simplify to a constant, or using \\(\\sin/\\cos\\) instead) shows the student cannot reverse-engineer the identity — a skill needed for \"simplify to a constant\" competency questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ measuring the height of the Qutub Minar using a theodolite.",
+     "a": "surveyor",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a surveyor measuring the height of the Qutub Minar using a ______.",
+     "a": "theodolite",
+     "self_check": true
     }
    ]
   }

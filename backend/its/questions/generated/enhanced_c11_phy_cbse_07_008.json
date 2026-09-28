@@ -34,6 +34,21 @@
      "q": "Design a simple thought experiment or graphical method to demonstrate that the gravitational potential energy between two masses varies as \\(1/r\\), not as \\(1/r^2\\) (like force). Your explanation must be understandable to a Class 11 student without using calculus.",
      "a": "A good answer: Plot the gravitational force \\(F\\) vs \\(r\\) (hyperbola \\(1/r^2\\)) and the potential energy \\(U\\) vs \\(r\\) (hyperbola \\(1/r\\)) on the same graph for \\(r > 0\\). Show that the area under the \\(F-r\\) curve from \\(r_1\\) to \\(r_2\\) (work done) equals \\(U(r_2) - U(r_1)\\). Alternatively, use the fact that work done \\(W = \\int F \\, dr\\); since \\(F \\propto 1/r^2\\), its integral is \\(\\propto -1/r\\). A poor answer (e.g., \"force and energy both depend on \\(r\\) so they are the same\") reveals the student confuses the functional forms of force and its integral.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Gravitational potential energy of a system of two point masses is the work done by an external agent in assembling them from infinite separation to their current separation, with the zero of potential energy ______ chosen at infinite separation.",
+     "a": "conventionally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You do work ______ gravity, storing energy in the book-Earth system.",
+     "a": "against",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: But what if we lift the book to the height of the International Space Station (______ km)?",
+     "a": "400",
+     "self_check": true
     }
    ]
   }

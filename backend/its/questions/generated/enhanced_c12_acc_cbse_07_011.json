@@ -34,6 +34,31 @@
      "q": "Create a complete \"Note to Accounts: Trade Payables\" and the corresponding Balance Sheet extract for a company with the following:\nSundry Creditors ₹3,00,000; Bills Payable ₹1,00,000; Outstanding Expenses ₹50,000; Advance from Customers ₹30,000.\nAssume all are due within 12 months. Follow Schedule III classification strictly.",
      "a": "**Note: Trade Payables** (only for creditors for goods/services)\n| Particulars | ₹ |\n|-------------|----|\n| Sundry Creditors | 3,00,000 |\n| Bills Payable | 1,00,000 |\n| **Total** | **4,00,000** |\n\n**Note: Other Current Liabilities**\n| Particulars | ₹ |\n|-------------|----|\n| Outstanding Expenses | 50,000 |\n| Advance from Customers | 30,000 |\n| **Total** | **80,000** |\n\n**Balance Sheet Extract (Current Liabilities):**\n- Trade Payables: 4,00,000\n- Other Current Liabilities: 80,000\n\n**Criteria for good answer:** Correct separation of Trade Payables (only trade creditors/bills) from Other Current Liabilities (outstanding expenses, advances). A poor answer lumps everything under \"Trade Payables\" or \"Current Liabilities\" without Notes, showing ignorance of Schedule III's disaggregation requirement.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Preparation of Balance Sheet as per Schedule III with Adjustments is the process of constructing a company's Balance Sheet in the prescribed format (Part I of Schedule III to the Companies Act, 2013) after ______ all year-end adjusting entries for items such as outstanding/prepaid expenses, accrued/unearned income, depreciation, provisions, reserves, and other accruals, ensuring each item is correctly classified under Equity and Liabilities or Assets with proper sub-headings and disclosed in the Notes to Accounts.",
+     "a": "incorporating",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an accountant at \"Surya Textiles Ltd.\" on 31st ______.",
+     "a": "March",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Preparation of Balance Sheet as per Schedule III with Adjustments is the process of constructing a company's Balance Sheet in the prescribed format (Part I of Schedule III to the Companies Act, ______) after incorporating all year-end adjusting entries for items such as outstanding/prepaid expenses, accrued/unearned income, depreciation, provisions, reserves, and other accruals, ensuring each item is correctly classified under Equity and Liabilities or Assets with proper sub-headings and disclosed in the Notes to Accounts.",
+     "a": "2013",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently take a Trial Balance with 8-10 adjustment items, pass all necessary adjustment journal entries, prepare the relevant Notes to Accounts (Share Capital, Reserves & Surplus, Long-term Borrowings, Trade Payables, Tangible/Intangible Assets, Inventories, Trade Receivables, Cash & Cash Equivalents, etc.), and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an ______ at \"Surya Textiles Ltd.\" on 31st March.",
+     "a": "accountant",
+     "self_check": true
     }
    ]
   }

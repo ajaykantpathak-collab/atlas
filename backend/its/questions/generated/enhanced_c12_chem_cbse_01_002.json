@@ -12,7 +12,7 @@
     },
     {
      "q": "The dissolution of ammonium nitrate (NH4NO3) in water is endothermic (ΔsolH > 0). A saturated solution of NH4NO3 at 30°C is heated to 50°C. Will the solution become unsaturated, remain saturated, or become supersaturated? Justify using Le Chatelier's principle.",
-     "a": "The solution will become unsaturated. Since dissolution is endothermic, heat acts as a reactant: NH4NO3(s) + heat ⇌ NH4NO3(aq). Raising temperature adds heat, shifting equilibrium to the right (forward dissolution), increasing solubility. The previously saturated solution can now dissolve more solid, so it becomes unsaturated relative to the new higher solubility at 50°C. A common error is to think heating always makes solutions supersaturated; that only occurs if a hot saturated solution is cooled without crystallisation.",
+     "a": "(1) Result — the solution becomes unsaturated, (2) Le Chatelier reasoning — dissolution of ammonium nitrate is endothermic, so heat acts as a reactant and raising the temperature shifts the equilibrium toward more dissolution, (3) Consequence — solubility at the higher temperature is greater, so the previously saturated solution can dissolve more solid and is unsaturated against the new higher limit, (4) Contrast — a supersaturated solution only arises when a hot saturated solution cools without crystallisation. A common error is to think heating always makes solutions supersaturated.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Design a simple experiment using household materials to demonstrate that gas solubility decreases with temperature. Specify: materials, procedure, observations, and the underlying principle. How would you modify it to show pressure effect?",
      "a": "Materials: Two identical transparent bottles of carbonated water (same brand, same initial pressure), refrigerator, bowl of hot water (~60°C).\nProcedure: Chill one bottle in refrigerator for 30 min. Place the other in hot water bath for 5 min. Open both simultaneously and observe fizzing.\nObservation: Warm bottle fizzes violently (large bubbles, rapid gas escape); cold bottle fizzes gently.\nPrinciple: CO2 solubility decreases with temperature (exothermic dissolution). Warm liquid holds less CO2 at same pressure, so more gas escapes on opening.\nPressure modification: Use a soda maker or pressure pump to carbonate water at different pressures (e.g., 1 atm vs 3 atm CO2) at same temperature. Higher pressure bottle will have more dissolved CO2 and fizz more on opening — demonstrating Henry's law.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Solubility is the maximum amount of solute (in grams or moles) that can dissolve in a specified amount of solvent (typically 100 g or 1 kg) at a given temperature and pressure to form a saturated solution under dynamic equilibrium between dissolution and ______.",
+     "a": "crystallisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin with a kitchen ______: sugar dissolves rapidly in hot tea but barely in ice-cold water, while a soda bottle fizzes violently when opened warm but stays calm when chilled.",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "What is Solubility? State the definition given in this lesson.",
+     "a": "Solubility is the maximum amount of solute (in grams or moles) that can dissolve in a specified amount of solvent (typically 100 g or 1 kg) at a given temperature and pressure to form a saturated solution under dynamic equilibrium between dissolution and crystallisation.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Solubility?",
+     "a": "Students write Henry's law as C = kp (concentration proportional to pressure) and use molarity directly with KH values tabulated for mole fraction (p = KH x).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) predict whether a given solute-solvent pair will be miscible based on polarity and intermolecular forces, (2) apply Le Chatelier's principle to predict the effect of temperature on solubility of solids given the enthalpy of solution, (3) calculate gas solubility using Henry's law constant at different partial.",
      "self_check": true
     }
    ]

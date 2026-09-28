@@ -34,6 +34,26 @@
      "q": "Create a novel 8-question questionnaire fragment (mix of two-way, multiple-choice, open-ended) for researching \"Impact of UPI/digital payments on pocket money management habits of Class 11 students.\" Ensure strict adherence to all NCERT sequencing and wording principles. Annotate each question with the principle it demonstrates.",
      "a": "**Questionnaire Fragment: UPI & Pocket Money Habits**\n1. (Two-way) Do you receive regular pocket money? ☐ Yes ☐ No *[Principle: General factual opener, builds comfort]*\n2. (Multiple-choice) How do you primarily receive pocket money? (i) Cash (ii) Bank transfer (iii) UPI (iv) Other *[Principle: Specific but neutral, mutually exclusive options]*\n3. (Two-way) Do you use UPI apps (PhonePe, GPay, Paytm) yourself? ☐ Yes ☐ No *[Principle: Simple filter question]*\n4. (Multiple-choice) How often do you make UPI payments per week? (i) 0 (ii) 1-2 (iii) 3-5 (iv) 6-10 (v) 10+ *[Principle: Precise, quantified, exhaustive ranges]*\n5. (Multiple-choice) What is your main UPI expense category? (i) Food/snacks (ii) Transport (iii) Online shopping (iv) Gaming/apps (v) Peer transfers (vi) Other *[Principle: No leading language, \"Any other\" implied]*\n6. (Two-way) Do you track your digital spending? ☐ Yes ☐ No *[Principle: Clear, no double negative]*\n7. (Multiple-choice) If yes, how? (i) Mental note (ii) Notes app (iii) Bank statement (iv) Budgeting app (v) Other *[Principle: Follows filter logically]*\n8. (Open-ended) What is the biggest challenge you face in managing money digitally? *[Principle: Open-ended at end for unanticipated insights, no leading wording]*\nA poor answer would sequence UPI usage before pocket money receipt (violates general-to-specific), use \"Don't you find UPI convenient?\" (double negative + leading), or omit \"Other\" categories - revealing inability to synthesise principles into coherent instrument design.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A questionnaire/schedule is a structured research instrument consisting of a ______ ordered set of questions designed to elicit specific information from respondents; a questionnaire is self-administered by the respondent while a schedule is administered by an enumerator/interviewer who records responses.",
+     "a": "systematically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are hired by a local NGO to study \"Why do Class 11 students in your district skip breakfast?\" Before knocking on doors, you need a tool that gets honest, ______ answers from 200 teenagers.",
+     "a": "comparable",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Finally, test your draft on ______ students - if they hesitate, misunderstand, or give inconsistent answers, revise.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Identify and correct violations of questionnaire design principles (leading questions, double negatives, ambiguous wording, incorrect sequencing) in given examples; (2) Design a 10-question questionnaire for a specified research objective demonstrating proper question types, logical flow from general to.",
+     "self_check": true
     }
    ]
   }

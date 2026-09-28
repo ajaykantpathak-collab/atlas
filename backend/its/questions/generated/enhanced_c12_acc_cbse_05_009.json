@@ -34,6 +34,31 @@
      "q": "Design a buyback scenario where a company uses BOTH free reserves and fresh issue proceeds. Specify the capital structure, buyback size, and fresh issue details. Then write the combined journal entries showing how CRR is created only for the portion funded by free reserves.",
      "a": "Scenario: Equity Capital ₹30 cr (₹10 FV), Free Reserves ₹20 cr. Buyback 1 cr shares at ₹25 (₹25 cr total). Funded: ₹15 cr from fresh issue of 60 lakh new shares at ₹25, ₹10 cr from General Reserve.  \nEntries:  \n1. Bank Dr. 15,00,00,000 → Share Capital Dr. 6,00,00,000, Securities Premium Dr. 9,00,00,000 (fresh issue)  \n2. Equity Share Capital Dr. 10,00,00,000, Securities Premium Dr. 5,00,00,000, General Reserve Dr. 10,00,00,000 → Bank 25,00,00,000 (buyback)  \n3. General Reserve Dr. 10,00,00,000 → Capital Redemption Reserve 10,00,00,000 (only ₹10 cr nominal value from reserves)  \nA poor answer creates CRR for the full ₹10 cr buyback nominal value (₹1 cr × ₹10) ignoring that ₹6 cr was replaced by fresh issue — this reveals the student cannot isolate the \"internal funding\" portion requiring capital maintenance.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Buyback of shares is a corporate action where a company ______ its own outstanding shares from existing shareholders, usually at a price higher than the market price, thereby reducing the number of shares in the open market and returning surplus cash to shareholders; it is governed by Section 68 of the Companies Act, 2013 and SEBI (Buyback of Securities) Regulations, 2018.",
+     "a": "repurchases",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a company, \"______ Ltd.\", sitting on ₹50 crore cash reserves with no expansion plans — the board announces a buyback of 10% of equity shares at ₹200 (market price ₹150).",
+     "a": "TechNova",
+     "self_check": true
+    },
+    {
+     "q": "What is Buyback of shares? State the definition given in this lesson.",
+     "a": "Buyback of shares is a corporate action where a company repurchases its own outstanding shares from existing shareholders, usually at a price higher than the market price, thereby reducing the number of shares in the open market and returning surplus cash to shareholders; it is governed by Section 68 of the Companies Act, 2013 and SEBI.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Buyback of shares?",
+     "a": "Students treat buyback premium (buyback price minus face value) as a \"loss on buyback\" and debit it to Statement of Profit and Loss, or they credit \"Profit on Buyback\" when shares are bought below face value.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) list all statutory conditions for a valid buyback under Section 68, (2) identify permissible sources of buyback and compute the maximum number of shares that can be bought back, and (3) pass complete journal entries for buyback at par, premium, or discount including creation of Capital Redemption Reserve.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a simple monthly health‑monitoring checklist for a small goat farm (20 does) that a farmer with basic literacy can use. Include at least five observable parameters and the action triggered by an abnormal finding.",
      "a": "A good checklist includes: (1) Body condition score (BCS) — if ≤2, investigate nutrition/parasites; (2) FAMACHA eye membrane colour — if pale, deworm for Haemonchus; (3) Faecal consistency — if diarrhoea >2 days, test for coccidia/worms; (4) Udder symmetry/temperature — if hot/hard, treat for mastitis; (5) Lameness scoring — if score ≥3, examine hooves/trim. Each parameter is visual/tactile, requires no lab, and links to a specific corrective action. A poor answer lists vague items like “check health” without measurable indicators or linked actions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Animal husbandry is the scientific practice of breeding, feeding, managing, and providing health care to ______ farm animals (such as cattle, buffaloes, sheep, goats, pigs, and poultry) to obtain maximum yield of products like milk, meat, eggs, wool, and labour while ensuring animal welfare and sustainable resource use.",
+     "a": "domesticated",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine visiting a dairy farm in rural Punjab early in the morning: you see cows being fed a mixture of green fodder, dry straw, and ______; calves housed separately in clean, ventilated sheds; a veterinarian checking a cow for mastitis; and the farmer maintaining records of milk yield and breeding dates.",
+     "a": "concentrate",
+     "self_check": true
+    },
+    {
+     "q": "What is Animal husbandry? State the definition given in this lesson.",
+     "a": "Animal husbandry is the scientific practice of breeding, feeding, managing, and providing health care to domesticated farm animals (such as cattle, buffaloes, sheep, goats, pigs, and poultry) to obtain maximum yield of products like milk, meat, eggs, wool, and labour while ensuring animal welfare and sustainable resource use.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Animal husbandry?",
+     "a": "Students often think animal husbandry is synonymous with “feeding animals on time.” They overlook that breeding decisions (selection, mating system), preventive health care (vaccination schedules, biosecurity), and housing design (ventilation, space allowance, waste management) are equally critical and interdependent.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can list the major categories of farm animals in India, explain the four pillars of farm management (feeding, breeding, health care, housing), and describe how each pillar contributes to productivity and animal welfare.",
+     "self_check": true
     }
    ]
   }

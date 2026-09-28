@@ -34,6 +34,36 @@
      "q": "Create a summation formula for the series 2 + 5 + 8 + ... + (3n-1) and prove it by induction.",
      "a": "The series is arithmetic with first term 2, common difference 3. Sum = n/2 [2*2 + (n-1)*3] = n(3n+1)/2.\nProof: Base n=1: 2 = 1(3+1)/2 = 2. Assume true for k: sum = k(3k+1)/2. For k+1: sum = k(3k+1)/2 + (3(k+1)-1) = (3k²+k)/2 + (3k+2) = (3k²+k+6k+4)/2 = (3k²+7k+4)/2 = (k+1)(3k+4)/2 = (k+1)(3(k+1)+1)/2. Hence proved.\nA poor answer (e.g., wrong formula, missing steps) reveals inability to identify the pattern or perform the algebraic simplification.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Proving summation formulas by induction is the process of ______ that a closed-form expression for the sum of a sequence of terms holds for all natural numbers n by verifying the base case (n=1) and showing that if the formula holds for an arbitrary natural number k, then it also holds for k+1.",
+     "a": "establishing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to find the total number of seats in a stadium where the first row has 10 seats and each ______ row has 2 more seats than the previous one.",
+     "a": "subsequent",
+     "self_check": true
+    },
+    {
+     "q": "What is Proving summation formulas by induction? State the definition given in this lesson.",
+     "a": "Proving summation formulas by induction is the process of establishing that a closed-form expression for the sum of a sequence of terms holds for all natural numbers n by verifying the base case (n=1) and showing that if the formula holds for an arbitrary natural number k, then it also holds for k+1.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If there are ______ rows, you could add them up one by one, but a formula would be faster.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Proving summation formulas by induction?",
+     "a": "Students often incorrectly write the (k+1)th term when moving from P(k) to P(k+1).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently prove standard summation formulas (sum of first n natural numbers, squares, cubes, etc.) and non-standard summations by correctly executing the base case, stating the induction hypothesis, and algebraically manipulating the expression for k+1 to match the target formula.",
+     "self_check": true
     }
    ]
   }

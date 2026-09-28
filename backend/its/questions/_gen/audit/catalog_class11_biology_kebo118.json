@@ -1,0 +1,62 @@
+{
+ "catalog": "catalog_class11_biology_kebo118.json",
+ "concepts": [
+  {
+   "id": "kebo.118.2.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "action_potential = 82",
+      "resting_potential = 258",
+      "voltage_swing = action_potential - resting_potential"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "action_potential = 218",
+      "resting_potential = 187",
+      "voltage_swing = action_potential - resting_potential"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "action_potential = 368",
+      "resting_potential = 136",
+      "voltage_swing = action_potential - resting_potential"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "action_potential = 357",
+      "resting_potential = 95",
+      "voltage_swing = action_potential - resting_potential"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "action_potential = 399",
+      "resting_potential = 115",
+      "voltage_swing = action_potential - resting_potential"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "action_potential = 330",
+      "resting_potential = 413",
+      "voltage_swing = action_potential - resting_potential"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "voltage_swing = action_potential - resting_potential"
+   ]
+  }
+ ]
+}

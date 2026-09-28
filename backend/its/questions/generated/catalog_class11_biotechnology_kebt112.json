@@ -1,34 +1,144 @@
 {
- "catalog": "catalog_class11_biotechnology_kebt112",
+ "catalog": "catalog_class11_biotechnology_kebt112.json",
  "concepts": [
   {
    "id": "kebt112.1",
    "title": "Microscope Magnification and Its Many Forms",
+   "converted_to_compute": true,
+   "formula": "total_power = objective_mag * eyepiece_mag",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_power = objective_mag * eyepiece_mag",
+     "compute": "total_power = objective_mag * eyepiece_mag"
+    }
+   ],
    "questions": [
     {
-     "q": "Using the method 'Microscope Magnification and Its Many Forms', work with: eyepiece_mag = 240, objective_mag = 60, real_size = 1024. Carry the chain through step by step and give the final value of apparent_size.",
-     "a": "14745600 bytes",
+     "q": "For Microscope Magnification and Its Many Forms: given objective_mag = 24, eyepiece_mag = 69, find total power.",
+     "a": "1656",
      "self_check": false
     },
     {
-     "q": "Take the relation taught for 'Microscope Magnification and Its Many Forms' and work with: eyepiece_mag = 24, objective_mag = 40, real_size = 2048. Carry the chain through step by step and give the final value of apparent_size.",
-     "a": "1966080 bytes",
+     "q": "For Microscope Magnification and Its Many Forms: given objective_mag = 60, eyepiece_mag = 32, find total power.",
+     "a": "1920",
      "self_check": false
     },
     {
-     "q": "Explain in your own words what 'Microscope Magnification and Its Many Forms' refers to.",
-     "a": "A compound microscope multiplies the objective's power by the eyepiece's power - a 10x eyepiece with the 100x oil objective yields a thousand-fold view - while resolving power names the closest pair of points still seen as two; variants then bend light differently: dark field blocks central rays, phase contrast converts density into contrast, fluorophore stains glow in fluorescence microscopy, electron beams shortened a hundred thousand-fold give transmission and scanning modes, and confocal optics sharpen labelled fixed cells.",
-     "self_check": true
+     "q": "For Microscope Magnification and Its Many Forms: given objective_mag = 51, eyepiece_mag = 9.4, find total power.",
+     "a": "479.4",
+     "self_check": false
     },
     {
-     "q": "State the single key point to remember about 'Microscope Magnification and Its Many Forms'.",
-     "a": "Multiply objective by eyepiece for total magnification; pick the microscopy variant by what must be seen - surfaces, organelles or glowing probes.",
-     "self_check": true
+     "q": "For Microscope Magnification and Its Many Forms: given objective_mag = 31, eyepiece_mag = 72, find total power.",
+     "a": "2232",
+     "self_check": false
     },
     {
-     "q": "Write the standard relation used for 'Microscope Magnification and Its Many Forms', in plain ASCII form.",
-     "a": "total_power = objective_mag * eyepiece_mag",
-     "self_check": true
+     "q": "For Microscope Magnification and Its Many Forms: given objective_mag = 57, eyepiece_mag = 20, find total power.",
+     "a": "1140",
+     "self_check": false
+    },
+    {
+     "q": "For Microscope Magnification and Its Many Forms: given objective_mag = 98, eyepiece_mag = 62, find total power.",
+     "a": "6076",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebt112.6",
+   "title": "Beer-Lambert Law Quantitation",
+   "converted_to_compute": true,
+   "formula": "conc = absorbance / (epsilon_val * path_length)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "conc = absorbance / (epsilon_val * path_length)",
+     "compute": "conc = absorbance / (epsilon_val * path_length)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Beer-Lambert Law Quantitation: given absorbance = 6.7, epsilon_val = 43, path_length = 117, find conc.",
+     "a": "0.00133174",
+     "self_check": false
+    },
+    {
+     "q": "For Beer-Lambert Law Quantitation: given absorbance = 83, epsilon_val = 5.7, path_length = 52, find conc.",
+     "a": "0.280027",
+     "self_check": false
+    },
+    {
+     "q": "For Beer-Lambert Law Quantitation: given absorbance = 22, epsilon_val = 107, path_length = 407, find conc.",
+     "a": "0.000505178",
+     "self_check": false
+    },
+    {
+     "q": "For Beer-Lambert Law Quantitation: given absorbance = 50, epsilon_val = 11.1, path_length = 51, find conc.",
+     "a": "0.0883236",
+     "self_check": false
+    },
+    {
+     "q": "For Beer-Lambert Law Quantitation: given absorbance = 14.6, epsilon_val = 29, path_length = 463, find conc.",
+     "a": "0.00108736",
+     "self_check": false
+    },
+    {
+     "q": "For Beer-Lambert Law Quantitation: given absorbance = 61, epsilon_val = 114, path_length = 229, find conc.",
+     "a": "0.00233663",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "kebt112.7",
+   "title": "Automated DNA Sequencing Speed",
+   "converted_to_compute": true,
+   "formula": "speed_fold = year_hours / automated_hours",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "speed_fold = year_hours / automated_hours",
+     "compute": "speed_fold = year_hours / automated_hours"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Automated DNA Sequencing Speed: given year_hours = 80, automated_hours = 7.1, find speed fold.",
+     "a": "11.2676",
+     "self_check": false
+    },
+    {
+     "q": "For Automated DNA Sequencing Speed: given year_hours = 68, automated_hours = 66, find speed fold.",
+     "a": "1.0303",
+     "self_check": false
+    },
+    {
+     "q": "For Automated DNA Sequencing Speed: given year_hours = 26, automated_hours = 15.9, find speed fold.",
+     "a": "1.63522",
+     "self_check": false
+    },
+    {
+     "q": "For Automated DNA Sequencing Speed: given year_hours = 75, automated_hours = 57, find speed fold.",
+     "a": "1.31579",
+     "self_check": false
+    },
+    {
+     "q": "For Automated DNA Sequencing Speed: given year_hours = 16, automated_hours = 33, find speed fold.",
+     "a": "0.484848",
+     "self_check": false
+    },
+    {
+     "q": "For Automated DNA Sequencing Speed: given year_hours = 84, automated_hours = 95, find speed fold.",
+     "a": "0.884211",
+     "self_check": false
     }
    ]
   },
@@ -112,68 +222,6 @@
     {
      "q": "Under which section is 'Chromatography Modes from Adsorption to Gas' taught, and from which source text?",
      "a": "12.5 (source: kebt112.txt section 12.5, Figs. 12.9-12.10)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebt112.6",
-   "title": "Beer-Lambert Law Quantitation",
-   "questions": [
-    {
-     "q": "Using the method 'Beer-Lambert Law Quantitation', work with: absorbance = 100, epsilon_val = 360, i_in = 120, i_out = 45, path_length = 80. Carry the chain through step by step and give the final value of transmittance.",
-     "a": "0.375 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Beer-Lambert Law Quantitation' and work with: absorbance = 8, epsilon_val = 3, i_in = 360, i_out = 300, path_length = 24. Carry the chain through step by step and give the final value of transmittance.",
-     "a": "0.8333 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Beer-Lambert Law Quantitation' refers to.",
-     "a": "Light lost equals solute present: the Beer-Lambert law writes absorbance as the molar absorptivity times path length times concentration, with transmittance as the ratio of transmitted to incident intensity, so a colorimeter with its filters or a spectrophotometer with its prism turns any coloured solution into a number - and the same spectroscopy family, from infrared to NMR and mass spectrometry, identifies functional groups, metals and molecular structures.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Beer-Lambert Law Quantitation'.",
-     "a": "Divide the measured absorbance by absorptivity times path length to recover the concentration; transmittance is simply transmitted over incident.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Beer-Lambert Law Quantitation', in plain ASCII form.",
-     "a": "conc = absorbance / (epsilon_val * path_length)",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "kebt112.7",
-   "title": "Automated DNA Sequencing Speed",
-   "questions": [
-    {
-     "q": "Using the method 'Automated DNA Sequencing Speed', work with: automated_hours = 5, manual_bases = 75, year_hours = 10. Carry the chain through step by step and give the final value of speed_fold.",
-     "a": "2 units",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Automated DNA Sequencing Speed' and work with: automated_hours = 80, manual_bases = 150, year_hours = 2600. Carry the chain through step by step and give the final value of speed_fold.",
-     "a": "32.5 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Automated DNA Sequencing Speed' refers to.",
-     "a": "Sanger's chain-termination chemistry - ddNTPs lacking the 3-prime hydroxyl stopping each growing strand, four tubes then a PAGE read bottom-up - became the gold standard, while Maxam-Gilbert cleaved bases chemically; automation replaced radioactivity with four fluorescent rhodamine ddNTPs in one capillary tube, so a task needing a person's whole year of manual work, twenty to fifty thousand bases, now finishes in a few hours at roughly half the material cost.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Automated DNA Sequencing Speed'.",
-     "a": "Divide the year's hours by the automated run's hours to price the speed-up that fluorescent automation delivered.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Automated DNA Sequencing Speed', in plain ASCII form.",
-     "a": "speed_fold = year_hours / automated_hours",
      "self_check": true
     }
    ]

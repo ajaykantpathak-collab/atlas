@@ -34,6 +34,31 @@
      "q": "Design a 3-point intervention plan to reduce traffic congestion and air pollution simultaneously in a 5 km radial corridor connecting a peripheral resettlement colony (population 2 lakh) to the CBD of a metro city. Your plan must include: (a) one land-use measure, (b) one transport measure, (c) one governance/technology measure. Justify each with geographical reasoning.",
      "a": "(a) Land-use: Permit mixed-use zoning (ground-floor retail, upper-floor residential) along the corridor within 500m of proposed metro stations — creates \"jobs near homes,\" reduces trip length and peak-hour radial flow. Geographical principle: polycentric urban form reduces monocentric congestion. (b) Transport: Implement Bus Rapid Transit (BRT) with dedicated median lanes, off-board fare collection, signal priority — moves 10,000+ pax/hour/direction at 1/10th metro cost. Geographical principle: high-capacity transit on existing right-of-way shifts mode share from private vehicles. (c) Governance/Technology: Deploy adaptive traffic signal control (SCOOT/SCATS) integrated with real-time AQI sensors; dynamic congestion pricing via FASTag on corridor entry during AQI > 200. Geographical principle: intelligent transport systems optimize flow and internalize pollution externality. A poor answer proposes only flyovers (induced demand) or only \"awareness campaigns\" — missing structural land-use/transport integration.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Urban settlement problems refer to the systemic challenges arising from rapid, unplanned urbanization, manifesting as slums (informal settlements lacking durable housing, sufficient living space, safe water, sanitation, and security of tenure), congestion (excessive concentration of population, vehicles, and activities exceeding ______ capacity), and pollution (degradation of air, water, soil, and noise environments beyond assimilative capacity).",
+     "a": "infrastructure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real observation: stand at a busy intersection in your nearest city during peak hour — count vehicles passing in 5 minutes, note the air quality (smell, visibility), observe housing ______ along the road.",
+     "a": "conditions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real observation: stand at a busy intersection in your nearest city during peak hour — count vehicles passing in ______ minutes, note the air quality (smell, visibility), observe housing conditions along the road.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can: (1) classify slums using Census of India criteria (notified, recognized, identified) and explain their spatial distribution across Indian metros using push-pull migration theory; (2) analyze congestion as a function of population density, vehicle-to-road ratio, and mixed land use, calculating peak-hour volume-to-capacity.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real observation: stand at a busy ______ in your nearest city during peak hour — count vehicles passing in 5 minutes, note the air quality (smell, visibility), observe housing conditions along the road.",
+     "a": "intersection",
+     "self_check": true
     }
    ]
   }

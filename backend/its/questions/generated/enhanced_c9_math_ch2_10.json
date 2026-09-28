@@ -34,6 +34,21 @@
      "q": "Create a word problem from your daily life (school, home, market) that requires a pair of linear equations in two variables to solve. Write the problem, define variables, form equations, and solve.",
      "a": "Example: \"I bought 3 pens and 2 notebooks for ₹80. Next day, I bought 2 pens and 3 notebooks for ₹85. Find cost of one pen and one notebook.\" Variables: pen = x, notebook = y. Equations: 3x+2y=80, 2x+3y=85. Solving gives x=14, y=19. A poor answer (e.g., problem with only one condition, or equations not matching the story) reveals the student cannot reverse-engineer a realistic scenario with two independent constraints — indicating they don't deeply understand what makes a problem require two variables.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A word problem using linear equations is a real-world situation described in words that can be translated into one or more linear equations in one or two variables, where the unknown quantities satisfy a constant rate of change ______.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You know the total ______ is 280 km, and you travel partly by car at 60 km/h and partly by bus at 40 km/h.",
+     "a": "distance",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently translate a multi-condition real-world problem (age, distance-speed-time, mixture, or cost-revenue) into a pair of linear equations in two variables, solve using substitution or elimination, and verify that the solution satisfies all original conditions with appropriate units.",
+     "self_check": true
     }
    ]
   }

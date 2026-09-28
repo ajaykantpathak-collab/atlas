@@ -34,6 +34,31 @@
      "q": "Create a novel hybrid topology for a smart factory with these zones: (1) Assembly line — needs deterministic low-latency communication (2) Quality control — high-bandwidth video streams (3) Warehouse — mobile robots needing seamless roaming (4) Office — standard data traffic. Sketch the topology, name the basic topologies used in each zone and the backbone, and explain why your design fits each zone's requirements.",
      "a": "Expected design: Assembly line → ring topology (deterministic token-passing for real-time control). Quality control → star topology with high-speed switch (dedicated bandwidth per camera). Warehouse → mesh topology (wireless mesh for robot roaming redundancy). Office → star topology (cost-effective). Backbone → dual-ring fiber connecting zone switches (fault-tolerant core). Good answer justifies each choice with zone-specific needs. A poor answer (e.g., \"use star everywhere\") shows inability to match topology properties to application requirements — a key competency for board case-study questions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Tree topology is a hierarchical network structure where a root node (central hub) connects to multiple levels of subordinate nodes in a branching pattern, combining ______ of star and bus topologies.",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school wants to connect three ______ — Admin Block, Science Block, and Library — each having two computer labs.",
+     "a": "buildings",
+     "self_check": true
+    },
+    {
+     "q": "What is Tree topology? State the definition given in this lesson.",
+     "a": "Tree topology is a hierarchical network structure where a root node (central hub) connects to multiple levels of subordinate nodes in a branching pattern, combining characteristics of star and bus topologies.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Tree topology?",
+     "a": "Students often think \"hybrid topology\" means simply connecting two different topologies with a cable, without realizing that the integration point (e.g., a switch connecting a star segment to a ring backbone) must handle protocol/media conversion and that failure domains interact.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) draw and label tree and hybrid topology diagrams with correct hierarchical/integration relationships, (2) explain the advantages and disadvantages of each topology in terms of scalability, fault tolerance, cabling cost, and management complexity, and (3) justify the choice of topology for a given.",
+     "self_check": true
     }
    ]
   }

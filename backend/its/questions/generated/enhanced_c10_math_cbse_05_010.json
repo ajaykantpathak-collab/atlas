@@ -34,6 +34,26 @@
      "q": "Create a real-life problem (Indian context: savings, instalments, seating arrangement, etc.) where the sum of first n terms S_n is given as a quadratic expression, and the question asks to find a specific term (e.g., \"Find the amount saved in the 8th month\"). Provide the complete problem statement, the S_n formula you choose, and the full solution.",
      "a": "Problem: \"Meena starts a recurring deposit where she saves ₹200 in the first month and increases her monthly deposit by ₹50 every month. The total amount saved after n months is given by S_n = 25n^2 + 175n. How much does she deposit in the 8th month?\"\nSolution: S_8 = 25(64) + 175(8) = 1600 + 1400 = 3000. S_7 = 25(49) + 175(7) = 1225 + 1225 = 2450. Deposit in 8th month = S_8 - S_7 = 3000 - 2450 = ₹550.\nCheck: a = 200, d = 50. a_8 = 200 + 7(50) = 550. ✓\nA good answer includes a realistic context, correct S_n formula matching the story (quadratic with no constant term, positive coefficients), and correct use of a_n = S_n - S_{n-1}. A poor answer gives S_n with a constant term (invalid for AP sum), or asks for S_n instead of a_n, or has arithmetic errors.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In an Arithmetic ______ (AP), the nth term a_n and the sum of the first n terms S_n are related by the identity a_n = S_n - S_{n-1} for n ≥ 2, with a_1 = S_1.",
+     "a": "Progression",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school saves ₹500 in the first month for a charity drive, and ______ the savings by ₹100 each month.",
+     "a": "increases",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This is the key insight: the nth term is the difference between sum of n terms and sum of (n-______) terms.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive any term of an AP when given S_n formula or values, can find S_n when given a_n formula, and can solve problems where either the sum formula or the nth term formula is unknown but the other is given.",
+     "self_check": true
     }
    ]
   }

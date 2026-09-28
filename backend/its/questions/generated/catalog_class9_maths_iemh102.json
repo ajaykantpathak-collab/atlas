@@ -5,6 +5,8 @@
    "id": "iemh.102.2.1",
    "title": "Linear Expressions and Their Values",
    "converted_to_compute": false,
+   "formula": "value = m * x + c",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Evaluate 3x + 5 when x = 4.",
@@ -42,6 +44,8 @@
    "id": "iemh.102.2.2",
    "title": "Exploring Linear Patterns",
    "converted_to_compute": false,
+   "formula": "next_term = term + step",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the circumference of a circle of radius 77 cm (take pi = 22/7).",
@@ -79,6 +83,8 @@
    "id": "iemh.102.2.3",
    "title": "Rate of Change in Linear Relations",
    "converted_to_compute": false,
+   "formula": "rate = change_out / change_in",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Solve for x: 2x + 15 = 19.",

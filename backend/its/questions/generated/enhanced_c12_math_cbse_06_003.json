@@ -34,6 +34,11 @@
      "q": "Construct a cubic polynomial \\(f(x)\\) that has a local maximum at \\(x=-1\\) with value 5, a local minimum at \\(x=2\\) with value -4, and no other critical points. Verify your answer using the First Derivative Test.",
      "a": "**Construction:** A cubic with critical points at \\(x=-1, 2\\) has derivative \\(f'(x) = k(x+1)(x-2) = k(x^2 - x - 2)\\). For correct sign pattern: \\(f'(x)>0\\) for \\(x<-1\\), \\(f'(x)<0\\) for \\(-1<x<2\\), \\(f'(x)>0\\) for \\(x>2\\) ⇒ \\(k>0\\). Choose \\(k=1\\): \\(f'(x)=x^2-x-2\\). Integrate: \\(f(x) = \\frac{x^3}{3} - \\frac{x^2}{2} - 2x + C\\). Use \\(f(-1)=5\\): \\(-\\frac{1}{3} - \\frac{1}{2} + 2 + C = 5 \\Rightarrow C = 5 - \\frac{7}{6} = \\frac{23}{6}\\). Check \\(f(2) = \\frac{8}{3} - 2 - 4 + \\frac{23}{6} = \\frac{16-12-24+23}{6} = \\frac{3}{6} = 0.5 \\neq -4\\). Adjust \\(k\\): need \\(f(2)-f(-1) = -9\\). Compute difference with general \\(k\\): \\(f(2)-f(-1) = k\\left[\\frac{8}{3}-2-4 - (-\\frac{1}{3}-\\frac{1}{2}+2)\\right] = k\\left[-\\frac{10}{3} + \\frac{7}{6}\\right] = k\\left(-\\frac{13}{6}\\right)\\). Set \\(-\\frac{13k}{6} = -9 \\Rightarrow k = \\frac{54}{13}\\). Then \\(C\\) from \\(f(-1)=5\\). Final polynomial: \\(f(x) = \\frac{18}{13}x^3 - \\frac{27}{13}x^2 - \\frac{108}{13}x + \\frac{104}{13}\\). Verification: \\(f'(x) = \\frac{54}{13}(x+1)(x-2)\\), sign chart confirms max at -1, min at 2.  \n**Criteria for good answer:** Correct derivative form, correct sign pattern, correct integration, correct constant determination, verification shown. Poor answer reveals inability to work backwards from derivative properties to the function.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ poster with a fixed printed area of 1200 cm² and margins of 10 cm top/bottom and 5 cm left/right.",
+     "a": "rectangular",
+     "self_check": true
     }
    ]
   }

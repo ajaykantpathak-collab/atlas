@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_15_002",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_15_002",
+   "title": "c11_leg_cbse_15_002",
+   "questions": [
+    {
+     "q": "What article of the Indian Constitution gives the Supreme Court the power to issue writs for enforcement of fundamental rights?",
+     "a": "Article 32.  \nA wrong answer like “Article 226” reveals confusion between Supreme Court and High Court writ jurisdiction. Article 226 empowers High Courts, not the Supreme Court, to issue writs. This mix-up shows the student hasn’t distinguished the apex court’s exclusive power under Article 32 from the High Courts’ broader but discretionary power under Article 226.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the Supreme Court can review a constitutional amendment passed by Parliament, even though Parliament has the power to amend the Constitution under Article 368.",
+     "a": "The Supreme Court can review constitutional amendments because, while Parliament has the power to amend under Article 368, this power is not absolute. In Kesavananda Bharati v. State of Kerala (1973), the Court held that Parliament cannot alter the “basic structure” of the Constitution. Thus, any amendment violating core features like secularism, democracy, or judicial review itself can be struck down. A wrong answer saying “Parliament can amend anything, so Court cannot interfere” reveals a misunderstanding of the basic structure doctrine—thinking Article 368 gives unlimited power, ignoring judicial limitations established by precedent.",
+     "self_check": true
+    },
+    {
+     "q": "A state government passes a law reserving 60% of jobs for residents of that state. A non-resident challenges it in the Supreme Court, claiming it violates Article 16 (equality of opportunity in public employment). Walk through how the Court would apply judicial review.",
+     "a": "- Step 1: Identify the law in question—state domicile-based job reservation.  \n- Step 2: Identify the challenged constitutional provision—Article 16(1), which guarantees equality of opportunity in public employment.  \n- Step 3: Apply the doctrine of judicial review: The Court checks if the law violates Part III (Fundamental Rights).  \n- Step 4: Analyze whether the classification (residents vs. non-residents) is reasonable and justifiable under Article 16(2), which allows residence-based reservations.  \n- Step 5: Determine if 60% is reasonable—Courts have upheld up to 50% (Indra Sawhney), so 60% likely exceeds permissible limits and fails the test of reasonableness.  \n- Step 6: Conclude the law may be struck down as violating Article 16.  \nA wrong answer stopping at “It violates Article 16, so it’s invalid” reveals lack of application—failing to analyze whether the classification is permitted under exceptions or if the percentage is reasonable, showing superficial understanding of how judicial review involves balancing rights and permissible state action.",
+     "self_check": true
+    },
+    {
+     "q": "Compare judicial review in India with the doctrine of “procedural due process” in the USA. How does the Indian approach differ in scope and basis?",
+     "a": "In India, judicial review is grounded in specific constitutional provisions (Articles 13, 32, 136, 226) and the basic structure doctrine, allowing courts to strike down laws that violate fundamental rights or constitutional core. In the USA, judicial review stems from Marbury v. Madison and is often exercised via “substantive due process” (protecting unenumerated rights) or “procedural due process” (fair legal procedures). The Indian approach is more textually anchored—it does not recognize broad substantive due process rights like privacy (until read into Article 21 post-Maneka Gandhi) and relies on enumerated rights and structural limits. A wrong answer claiming “India and USA both use due process to strike down laws equally” reveals confusion—India’s review is constitutionally text-based, not based on evolving due process doctrines like in American jurisprudence.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: “Judicial review undermines democracy because it allows unelected judges to overrule laws passed by elected representatives.” Defend or critique this position using constitutional principles and examples.",
+     "a": "This statement critiques judicial review as counter-majoritarian, but it overlooks its role in protecting constitutional democracy. While judges are unelected, judicial review safeguards minorities and fundamental rights from majoritarian tyranny—e.g., striking down laws that violate Article 14 (equality) or Article 25 (religious freedom). In Kesavananda Bharati, the Court preserved democracy itself by limiting Parliament’s amending power. Judicial review doesn’t override democracy—it upholds the Constitution, which is the supreme expression of the people’s will. A wrong answer agreeing fully with the statement reveals failure to grasp that constitutional supremacy, not parliamentary supremacy, is the foundation of Indian democracy—judges enforce the higher law, not their personal will.",
+     "self_check": true
+    },
+    {
+     "q": "Create a realistic scenario where a central law could be challenged under judicial review, specifying which constitutional article(s) might be violated and what argument the petitioner would make.",
+     "a": "Example: The Central Government passes a law allowing detention without trial for up to 2 years for suspected terrorists. A petitioner challenges it under Article 21 (right to life and personal liberty), arguing it violates procedural due process as established in Maneka Gandhi v. Union of India—no fair hearing, no legal aid, and arbitrary detention. The petitioner would cite that the law lacks reasonable procedure, violates the principle of legality, and fails the test of proportionality. A poor answer would vaguely say “it’s unfair” without citing Article 21, Maneka Gandhi, or procedural requirements, showing inability to ground judicial review in specific constitutional doctrine and precedent.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

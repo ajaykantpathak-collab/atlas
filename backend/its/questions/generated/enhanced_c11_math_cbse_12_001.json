@@ -34,6 +34,26 @@
      "q": "Create a real-world problem from Indian context (like a warehouse, metro station, or cricket stadium) that requires specifying a location using 3D coordinates. Define your origin, axes directions, and units. Give coordinates for at least 3 specific locations.",
      "a": "Example: Delhi Metro station with origin at the southwest corner of the ground-level concourse. x-axis: eastward along platform, y-axis: northward across concourse, z-axis: upward (floors). Units: metres. Ticket counter: (15, 10, 0). Platform 2 bench: (40, 5, 0). Food court on mezzanine: (20, 30, 6). A poor answer uses vague directions like \"left/right\" without defining axes, or uses inconsistent units, or gives 2D coordinates for a 3D scenario.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A point in three-dimensional space is uniquely identified by an ordered triplet (x, y, z) where x, y, z are real numbers representing the signed ______ distances from the point to the YZ-plane, ZX-plane, and XY-plane respectively.",
+     "a": "perpendicular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You need to specify the exact ______ of a light fixture on the 3rd floor, 4 metres from the north wall, and 5 metres from the east wall.",
+     "a": "location",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In ______D, you'd use (x,y) on a floor plan, but now you need height too.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly determine the coordinates of any point in 3D space given its position relative to the coordinate planes, identify the octant in which a point lies, and explain how the signs of coordinates correspond to the octant.",
+     "self_check": true
     }
    ]
   }

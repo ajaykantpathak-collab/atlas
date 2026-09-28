@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a gold-leaf electroscope and two known charged spheres to verify the superposition principle. Describe the procedure, what you would measure, and how you would confirm that the net force is the vector sum.",
      "a": "**Procedure:** (1) Charge sphere A with \\(+Q\\) and bring it near the electroscope knob; note leaf divergence \\(\\theta_1\\) (proportional to force). (2) Discharge electroscope, bring sphere B with \\(+Q\\) to same distance; note \\(\\theta_2\\). (3) Bring both A and B simultaneously to symmetric positions on either side of the knob at same distance; note \\(\\theta_{\\text{both}}\\). (4) If superposition holds, the horizontal components of forces add, vertical components cancel. For symmetric placement, \\(\\theta_{\\text{both}} = 2\\theta_1 \\cos\\alpha\\) where \\(\\alpha\\) is the angle from horizontal. Measure \\(\\theta_{\\text{both}}\\) and compare. A good answer includes a clear diagram, identifies the measured quantity (divergence angle), and explains how vector addition is tested. A poor answer omits vector components or assumes scalar addition, showing the student cannot translate the principle into an experimental test.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______ principle for electric forces states that the net electrostatic force on a given charge due to a system of multiple other charges is the vector sum of the individual forces exerted by each charge independently; the force between any two charges is unaffected by the presence of other charges.",
+     "a": "superposition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you rub a plastic ______ with wool and bring it near small paper bits on your desk — they jump up.",
+     "a": "ruler",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute the net electrostatic force on a charge in a system of 3–4 discrete point charges by: (1) calculating each pairwise Coulomb force magnitude with correct units, (2) determining the direction of each force vector using geometry or coordinate axes, (3) resolving vectors into rectangular components, (4) summing.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you rub a plastic ruler with wool and bring it near small paper bits on your desk — they jump up.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_01_002",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_01_002",
+   "title": "c12_app_cbse_01_002",
+   "questions": [
+    {
+     "q": "Recall the exact phrasing of the learning outcome related to **modular arithmetic** from NCERT Section 1.0.",
+     "a": "Correct answer: \"Apply arithmetic operations using modular arithmetic rules.\" A wrong answer like \"Find remainders using modulo operator\" reveals the student confuses the *tool* (modulo operator) with the *competency* (applying arithmetic operations — addition, subtraction, multiplication — under modulo). The outcome demands operational fluency, not just computation.",
+     "self_check": true
+    },
+    {
+     "q": "A student reads: \"Determine the time taken by two or more pipes to fill or empty the tank.\" They say this maps to \"Pipes and Cisterns.\" Is that sufficient for board exam mastery? Explain why or why not.",
+     "a": "No, it is not sufficient. The learning outcome explicitly includes **both filling and emptying** (inlet and outlet pipes) and **combined operation** (\"two or more pipes\"). A student who only practices single-pipe filling problems will fail on leakage/outlet problems (Exercise 5, Q2, Q4) and combined inlet+outlet problems (Q3, Q5, Q6, Q7). The outcome requires handling *net work per hour = (sum of inlet rates) − (sum of outlet rates)*.",
+     "self_check": true
+    },
+    {
+     "q": "Map the following exam question to the correct NCERT Learning Outcome and name the specific sub-topic node (c12_app_cbse_01_004 to c12_app_cbse_01_010) it belongs to: \"In a 1000 m race, A beats B by 100 m and B beats C by 100 m. By how many metres does A beat C?\"",
+     "a": "Learning Outcome: \"Compare the performance of two players w.r.t. time, distance.\" Sub-topic node: **c12_app_cbse_01_010 (RACES AND GAMES)**. A wrong mapping to \"Boats and Streams\" (c12_app_cbse_01_008) reveals confusion between *relative speed in a current* vs *relative speed in a race* — both use ratios, but races have no \"stream\"; the ratio is derived from distances covered in *same time*.",
+     "self_check": true
+    },
+    {
+     "q": "Analyze the difference between these two Learning Outcomes: (a) \"Differentiate between active partner and sleeping partner\" and (b) \"Determine the gain or loss to be divided among the partners in the ratio of their investment with due consideration of time.\" Why does (b) subsume (a) in computational practice?",
+     "a": "Outcome (a) is **conceptual/definitional** (knowing definitions: active partner manages business and gets salary; sleeping partner only invests capital). Outcome (b) is **computational** — it requires the *formula* (Investment × Time) : (Investment × Time) = Profit Share, which applies to **both** types of partners. In board exams, (a) appears as a 1-mark definition/MCQ; (b) appears as a 3-4 mark calculation (Exercise 7, Q1–Q8). A student who only memorizes definitions for (a) but cannot set up the ratio for (b) loses the bulk of marks. (b) subsumes (a) because even an active partner's *capital share* of profit uses the same ratio; their salary is separate.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate this claim: \"The Learning Outcome 'Demonstrate understanding and ability to write numerical inequality' is the least important in Chapter 1 because it has only 2 exercises (Exercise 9) and no dedicated sub-topic node.\" Defend or refute with evidence from the NCERT text.",
+     "a": "**Refute.** Numerical Inequalities (Section 1.6) is **foundational** for Competency-Based Questions (CBQs) and Case Studies. The NCERT text shows it connects to: (1) AM ≥ GM proof (algebraic inequality manipulation), (2) Real-world comparisons (net worth, game scores), (3) Solving linear inequalities in one variable (Exercise 9, Q3, Q5) — a direct prerequisite for **Linear Programming (Chapter 3)** and **Optimization in Calculus (Class 12 Math Core)**. CBSE Board 2023-24 Sample Paper had a Case Study on \"Income Inequality\" requiring writing and solving numerical inequalities. Low exercise count ≠ low importance; it's a **cross-chapter enabler**.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new, original exam-style question (2-3 marks) that **simultaneously tests two different Learning Outcomes** from Section 1.0. State the question, the two outcomes it tests, and the sub-topic nodes involved.",
+     "a": "**Question:** \"Three partners A, B, C invest ₹50,000, ₹75,000, ₹1,00,000 respectively. A manages the business and receives a monthly salary of ₹5,000. At year-end, the net profit (after A's salary) is ₹1,20,000. Find B's share of profit. Also, if the profit-sharing ratio is checked using modulo 7 arithmetic, what is (B's share) mod 7?\"  \n**Outcomes tested:** (1) \"Determine the gain or loss to be divided among the partners in the ratio of their investment with due consideration of time\" + (2) \"Apply arithmetic operations using modular arithmetic rules.\"  \n**Nodes:** c12_app_cbse_01_009 (PARTNERSHIP) + c12_app_cbse_01_004 (MODULAR ARITHMETIC).  \nA poor answer treats them as separate disjoint steps; a good answer integrates: first compute profit shares via Partnership ratio (6:9:12 → 2:3:4), deduct A's salary (₹60,000) from gross profit, find B's share (₹36,000), then compute 36000 mod 7 = 2.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,31 @@
      "q": "Create a grouped frequency distribution (minimum 5 classes) where the 'less than' and 'more than' ogives intersect at a point that is NOT the midpoint of the median class. Explain why this happens and what it tells you about the distribution within the median class.",
      "a": "Example: 0-10: 2, 10-20: 3, 20-30: 20, 30-40: 5, 40-50: 5. N=35, N/2=17.5. Median class = 20-30. Less than cf at 20 = 5, at 30 = 25. More than cf at 20 = 30, at 30 = 10. Intersection x ≈ 20 + (17.5-5)/(25-5)×10 = 26.25. Class midpoint = 25. Intersection ≠ midpoint because frequency within median class is not uniformly distributed - it's skewed towards the upper end (implied by the steep less than ogive). A poor answer giving a symmetric distribution (where intersection = midpoint) misses the point: the question asks for a case where they differ, demonstrating understanding that the intersection reflects the actual cumulative pattern, not just the class midpoint.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An ogive is a cumulative frequency curve where cumulative frequencies are plotted against class boundaries: a 'less than' ogive plots cumulative frequencies against upper class limits (never decreasing), while a 'more than' ogive plots cumulative frequencies against lower class limits (never increasing); their ______ point on the x-axis gives the median of the grouped frequency distribution.",
+     "a": "intersection",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing the monthly ______ consumption (in kWh) of 100 households in your neighbourhood, grouped into classes like 0-100, 100-200, etc.",
+     "a": "electricity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start by asking: \"How many households consume less than ______ kWh?\" This cumulative thinking leads to the 'less than' ogive.",
+     "a": "200",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) construct both 'less than' and 'more than' cumulative frequency tables from a grouped frequency distribution, (2) accurately plot both ogives on the same graph using correct class boundaries, (3) determine the median graphically from the intersection point, and (4) verify the graphical median using the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are analysing the monthly electricity consumption (in kWh) of 100 households in your ______, grouped into classes like 0-100, 100-200, etc.",
+     "a": "neighbourhood",
+     "self_check": true
     }
    ]
   }

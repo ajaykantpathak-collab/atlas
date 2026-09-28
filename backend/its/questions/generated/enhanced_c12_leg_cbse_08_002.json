@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_08_002",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_08_002",
+   "title": "c12_leg_cbse_08_002",
+   "questions": [
+    {
+     "q": "Which Article of the Constitution of India guarantees the fundamental right to practice any profession, or to carry on any occupation, trade or business, forming the constitutional basis for choosing a legal entity?",
+     "a": "Article 19(1)(g). A wrong answer (e.g., Article 21 or Article 301) reveals the student confuses the right to livelihood/personal liberty (Art. 21) or freedom of inter-state trade (Art. 301) with the specific fundamental right to choose and carry on a business/profession, which is the root constitutional provision enabling entity formation.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why a sole proprietorship and a one person company (OPC) are fundamentally different even though both have a single owner.",
+     "a": "A sole proprietorship has no separate legal entity — the owner and business are one; the owner has unlimited liability and the business ends on the owner's death. An OPC is a separate legal entity under the Companies Act, 2013 — the member has limited liability, the company has perpetual succession (via a nominee), and it can own property/sue in its own name. A wrong answer that focuses only on \"single owner\" misses the separate legal personality and limited liability distinction, which is the core legal difference.",
+     "self_check": true
+    },
+    {
+     "q": "A group of 15 artisans wants to form a legal entity to sell handicrafts collectively. They want limited liability, low compliance cost, and the ability to add more members later without an upper cap. Which entity form best fits these requirements and why?",
+     "a": "Limited Liability Partnership (LLP). Steps: (1) Limited liability? Yes — partners liable only up to agreed contribution (LLP Act, 2008, Sec. 26). (2) Low compliance? Yes — no mandatory audit unless turnover >₹40 lakh or contribution >₹25 lakh; simpler than company. (3) No upper cap on partners? Yes — LLP Act allows unlimited partners (minimum 2). Private limited company fails on compliance cost and member cap (200). Partnership fails on unlimited liability. A wrong choice reveals inability to match entity features to practical business constraints.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the constitutional position of a public limited company and a private limited company regarding \"invitation to public to subscribe to shares.\" Which Article or statutory provision governs this distinction?",
+     "a": "The distinction is statutory, not directly constitutional. Section 2(68) and 2(71) of the Companies Act, 2013 define private and public companies: a private company restricts share transfer and prohibits public invitation to subscribe; a public company can invite the public. Article 19(1)(g) permits both forms, but the Companies Act creates the regulatory boundary. A wrong answer citing \"Article 19\" or \"Article 301\" as the source of this distinction shows confusion between the constitutional right to form entities and the statutory rules that differentiate them.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Constitution of India does not mention 'company' or 'partnership', so business entities are purely statutory creations with no constitutional significance.\" Defend or critique with reasoning.",
+     "a": "Critique. While the Constitution does not enumerate entity types, Articles 19(1)(g) and 301 provide the constitutional foundation: the right to choose a business structure and freedom of trade. The Supreme Court in *Excel Wear v. Union of India* (1979) held that the right to carry on business includes the right to choose the form of organization. Statutes (Companies Act, LLP Act, Partnership Act) operationalize this right. A pure \"statutory creation\" view ignores the fundamental rights backdrop that protects the citizen's choice of entity from arbitrary legislative restriction.",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario where a startup founder must choose between an LLP and a private limited company. List three specific factors from the constitutional/legal framework that would make the private limited company the better choice despite higher compliance.",
+     "a": "Scenario: Founder wants to raise venture capital, issue ESOPs to employees, and eventually list on a stock exchange. Three factors: (1) Private limited company can issue shares with differential voting rights and ESOPs under Companies Act, 2013 (Sec. 43, 62) — LLP cannot. (2) VCs prefer company structure for equity investment and exit via IPO — LLP cannot list. (3) Section 8 companies (non-profit) and Section 2(68) private companies have clearer governance for scaling — LLP agreement flexibility becomes a disadvantage for institutional investors. A poor answer lists only \"limited liability\" (common to both) or \"brand value\" (vague), missing the statutory fundraising and governance mechanisms tied to the Companies Act.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

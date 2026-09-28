@@ -34,6 +34,36 @@
      "q": "Design a two-step sequence (starting from a commercially available alkyl halide) to prepare 3-aminopropanenitrile (NC–CH₂CH₂CH₂NH₂) using Gabriel synthesis. Show all reagents and intermediates.",
      "a": "Step 1: React 3-bromopropanenitrile (BrCH₂CH₂CH₂CN) with potassium phthalimide in ethanol → N-(3-cyanopropyl)phthalimide. Step 2: Alkaline hydrolysis (conc. NaOH, reflux) → 3-aminopropanenitrile + sodium phthalate. The nitrile group survives both steps (stable to SN2 and base hydrolysis of imide). A good answer shows the correct halide, notes that the nitrile is not affected, and writes the hydrolysis products correctly. A poor answer might use a halide that would self-react (e.g., BrCH₂CH₂Br) or forget that hydrolysis gives the diamine precursor.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Gabriel phthalimide synthesis is a laboratory method for preparing pure primary aliphatic amines by reacting the potassium salt of phthalimide with an alkyl halide via SN2 nucleophilic substitution, followed by alkaline hydrolysis (or hydrazinolysis) to liberate the primary amine and regenerate phthalic acid (or ______).",
+     "a": "phthalhydrazide",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you need to make pure 1-______ (butan-1-amine) in the lab without getting a mixture of secondary/tertiary amines and quaternary salts — a common headache when you simply heat butyl bromide with excess ammonia.",
+     "a": "aminobutane",
+     "self_check": true
+    },
+    {
+     "q": "What is Gabriel phthalimide synthesis? State the definition given in this lesson.",
+     "a": "Gabriel phthalimide synthesis is a laboratory method for preparing pure primary aliphatic amines by reacting the potassium salt of phthalimide with an alkyl halide via SN2 nucleophilic substitution, followed by alkaline hydrolysis (or hydrazinolysis) to liberate the primary amine and regenerate phthalic acid (or phthalhydrazide).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Gabriel phthalimide synthesis is a laboratory method for preparing pure primary aliphatic amines by reacting the potassium salt of phthalimide with an alkyl halide via SN______ nucleophilic substitution, followed by alkaline hydrolysis (or hydrazinolysis) to liberate the primary amine and regenerate phthalic acid (or phthalhydrazide).",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Gabriel phthalimide synthesis?",
+     "a": "Students often think Gabriel synthesis works for *any* primary amine, including aromatic ones like aniline.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) write the complete three-step sequence (phthalimide → K-salt → N-alkylphthalimide → primary amine) with correct reagents and conditions, (2) explain why the method gives only primary amines and avoids over-alkylation, (3) predict whether a given alkyl halide will work (primary > secondary, no tertiary/aryl), and (4).",
+     "self_check": true
     }
    ]
   }

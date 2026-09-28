@@ -34,6 +34,31 @@
      "q": "Create a novel \"money leak detector\" template for a Class 11 student to use with their family. It must: (a) identify 5+ hidden expense categories, (b) include a weekly tracking mechanism, (c) calculate annualized cost of each leak, and (d) suggest a specific behavioral nudge for each. Present as a table with column headers and 3 filled example rows.",
      "a": "| Hidden Expense Category | Weekly Tracking Method | Weekly Spend | Annualized Cost (×52) | Behavioral Nudge |\n|-------------------------|------------------------|--------------|----------------------|------------------|\n| Unused subscriptions (OTT, gym, apps) | Review bank statement every Sunday | ₹200 | ₹10,400 | \"Quarterly audit: cancel if not used 3× in last month\" |\n| Daily café beverages/snacks | Photo receipt or note in phone | ₹150 | ₹7,800 | \"Carry homemade alternative; allow treat only Friday\" |\n| Impulse online purchases (≤₹500) | 24-hour cart rule: screenshot, wait 1 day | ₹300 | ₹15,600 | \"Delete saved card details; manual entry adds friction\" |\n| Food delivery vs. cooking | Mark calendar: 🍱 home / 📦 ordered | ₹400 | ₹20,800 | \"Meal prep Sunday; frozen portions for busy days\" |\n| Phantom electricity (standby, old appliances) | Monthly meter reading at same time | ₹120 | ₹6,240 | \"Power strips for clusters; replace 1 appliance/year\" |\nA poor answer listing only obvious expenses (rent, fees) shows the student cannot distinguish structural costs from behavioral leaks — the core skill in controlling phase of money management.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Money management for families is the systematic process of planning, organizing, ______, controlling, and evaluating the allocation of financial resources (income, savings, credit) to meet current needs, achieve future goals, and maintain economic security through deliberate decision-making about earning, spending, saving, and investing.",
+     "a": "implementing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your family earns ₹60,000 monthly but somehow ₹8,000 vanishes on \"______\" expenses every month—where does it go?",
+     "a": "miscellaneous",
+     "self_check": true
+    },
+    {
+     "q": "What is Money management for families? State the definition given in this lesson.",
+     "a": "Money management for families is the systematic process of planning, organizing, implementing, controlling, and evaluating the allocation of financial resources (income, savings, credit) to meet current needs, achieve future goals, and maintain economic security through deliberate decision-making about earning, spending, saving, and.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Money management for families?",
+     "a": "Students believe \"budgeting means cutting all fun expenses\" and equate money management with deprivation.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can construct a realistic monthly family budget for a given income level and family composition, justify allocation percentages across expense categories using the 50/30/20 rule or zero-based budgeting, and propose two specific adjustments to handle an unexpected ₹15,000 medical expense without derailing long-term savings.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a simple laboratory test to distinguish between three unlabelled bottles containing: (i) a primary aliphatic amine, (ii) a secondary aliphatic amine, (iii) a tertiary aliphatic amine — all liquids of similar molar mass (~73 g/mol). You have access to: water, HCl, NaOH, benzenesulphonyl chloride (Hinsberg's reagent), and ice-cold NaNO₂/HCl. Describe the procedure and expected observations for each.",
      "a": "Use Hinsberg's test (benzenesulphonyl chloride + NaOH): (1) Primary amine: reacts to give N-alkylbenzenesulphonamide soluble in NaOH (acidic N–H); on acidification, precipitate reforms. (2) Secondary amine: gives N,N-dialkylbenzenesulphonamide insoluble in NaOH (no N–H). (3) Tertiary amine: no reaction with Hinsberg's reagent (no N–H). Alternative: nitrous acid test at 0–5°C — primary aliphatic gives N₂ gas + alcohol; secondary gives N-nitrosoamine (yellow oil); tertiary gives nitrosamine salt (soluble). A poor design (e.g., only using solubility in water) fails because all three are miscible at this molar mass. The answer tests whether the student can select a reaction that exploits the NUMBER of N–H bonds — the defining structural difference.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Physical properties of amines refer to the observable ______ (state, odor, boiling point, solubility) arising from their molecular structure — specifically the pyramidal geometry around sp³-hybridised nitrogen, the presence of N–H bonds (in primary and secondary amines), the lone pair on nitrogen, and the hydrophobic alkyl/aryl groups.",
+     "a": "characteristics",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bottle of ______ (gas, fishy smell) versus aniline (liquid, darkens on standing) in the lab — the difference hits you immediately.",
+     "a": "methylamine",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ K) despite similar molar mass?\" The answer lies in O–H···O being stronger than N–H···N.",
+     "a": "351",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) predict and explain the boiling point trend Primary > Secondary > Tertiary for isomeric amines using hydrogen bonding arguments; (2) compare boiling points of amines with alcohols and alkanes of comparable molar mass; (3) explain the solubility trend in water (decreases with increasing molar mass) and in.",
+     "self_check": true
     }
    ]
   }

@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_psy_cbse_06_005",
+ "concepts": [
+  {
+   "id": "enh:c12_psy_cbse_06_005",
+   "title": "c12_psy_cbse_06_005",
+   "questions": [
+    {
+     "q": "In Heider's P-O-X triangle, P has a positive attitude toward X, O has a positive attitude toward X, and P has a negative attitude toward O. Is this triad balanced or imbalanced? State the multiplication-of-signs rule you used.",
+     "a": "Imbalanced. The three relations are: P-X = +, O-X = +, P-O = –. Multiplying: (+) × (+) × (–) = –. A negative product indicates imbalance. The multiplication-of-signs rule states: a triad is balanced if the product of the three sentiment signs is positive (i.e., an even number of negative relations: 0 or 2), and imbalanced if the product is negative (i.e., an odd number of negative relations: 1 or 3). A wrong answer (e.g., \"balanced because two are positive\") reveals the student is counting positives instead of applying the sign-multiplication rule — a common error where students confuse \"majority positive\" with Heider's formal balance condition.",
+     "self_check": true
+    },
+    {
+     "q": "A student writes: \"In the NCERT dowry example, P likes dowry (+), O dislikes dowry (–), and O likes P (+). This is balanced because there are two positives and one negative.\" Identify the error in the student's reasoning and explain why the triad is actually imbalanced.",
+     "a": "The student incorrectly assumes \"two positives and one negative\" always means balance. Heider's rule depends on the *product of signs*, not the count of positives. Here: P-X = + (P likes dowry), O-X = – (O dislikes dowry), O-P = + (O likes P). Product = (+) × (–) × (+) = –. Negative product = imbalance. The error arises from memorising \"two positives + one negative = balance\" as a slogan without understanding that the *which* relations are positive/negative matters: balance requires either 0 negatives (all +) or 2 negatives (one +). A correct analysis must assign signs to *each specific edge* and multiply.",
+     "self_check": true
+    },
+    {
+     "q": "Apply Heider's Balance Theory to this scenario: Riya (P) admires her senior colleague Anil (O) [P-O = +]. Anil strongly supports remote work (X) [O-X = +]. Riya initially dislikes remote work [P-X = –]. (a) Is the triad balanced? (b) If imbalanced, which attitude is *least* likely to change and why? (c) Predict the new balanced configuration after attitude change.",
+     "a": "(a) Imbalanced. Signs: P-O = +, O-X = +, P-X = –. Product = (+) × (+) × (–) = –. (b) P-O (+) is least likely to change because Riya's admiration for Anil is a strong, established interpersonal sentiment (high centrality/extremeness), whereas P-X (attitude toward remote work) is newer and less central. (c) Most probable change: P-X flips from – to + (Riya starts liking remote work). New signs: +, +, + → product = + (balanced). Alternative: O-X flips to – (Anil stops supporting remote work) — less likely as O is the source. A wrong prediction (e.g., \"P-O becomes negative\") ignores the principle that attitudes with lower centrality/extremeness change first — a key board exam nuance.",
+     "self_check": true
+    },
+    {
+     "q": "Compare Heider's Balance Theory and Festinger's Cognitive Dissonance Theory on these dimensions: (i) unit of analysis (triad vs. cognition pair), (ii) motivational basis (structural balance vs. psychological discomfort), (iii) scope of application (interpersonal + object vs. intra-individual beliefs). Which theory better explains attitude change when a person changes their own belief to align with their behaviour (e.g., Festinger-Carlsmith $1 lie experiment)? Justify.",
+     "a": "(i) Heider: triadic (P-O-X); Festinger: dyadic (cognition-cognition or cognition-behaviour). (ii) Heider: drive for structural/logical balance in sentiment relations; Festinger: drive to reduce aversive arousal from inconsistency. (iii) Heider: explains interpersonal attitude dynamics (e.g., liking/disliking people and objects); Festinger: explains intra-personal justification of behaviour (e.g., insufficient justification effect). The $1 lie experiment is *better explained by Festinger* because it involves a single individual's conflicting cognitions (\"I lied\" vs \"I am honest\") with no O-person involved. Heider's theory cannot model this as it requires an O. A wrong answer choosing Heider reveals confusion between *interpersonal* balance and *intra-personal* consonance — a frequent board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this claim: \"Heider's Balance Theory can predict *exactly which* attitude will change in an imbalanced triad.\" Use the concepts of centrality, extremeness, and multiple possible resolution paths to evaluate the claim's validity for board exam answers.",
+     "a": "The claim is **false**. Heider's theory only predicts *that* change will occur toward balance, not *which specific* relation will flip. An imbalanced triad (e.g., +, +, –) has *three mathematically valid* balanced resolutions: flip any one of the three signs. The theory is silent on the choice mechanism. Real-world resolution depends on factors outside the theory: centrality (core attitudes resist change), extremeness (extreme attitudes resist change), source credibility, and situational constraints. Board exam answers must state: \"Balance theory identifies the *direction* of change (toward balance) but not the *specific locus*; additional factors determine the exact path.\" A student claiming exact predictability confuses a structural principle with a dynamic process model — a critical distinction for 3-mark \"evaluate\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Create an original P-O-X scenario involving a social issue (e.g., vaccination, climate policy, gender norms) where the initial triad is imbalanced. Draw the triangle with signs, show the multiplication, and write two *distinct* balanced resolutions. For each resolution, specify which real-world factor (centrality, extremeness, source credibility, personal experience) would make it more probable.",
+     "a": "**Scenario:** P = college student, O = respected professor, X = mandatory attendance policy.  \nInitial: P-O = + (admires professor), O-X = + (professor supports policy), P-X = – (student opposes policy).  \nProduct: (+) × (+) × (–) = – → **Imbalanced**.  \n\n**Resolution 1:** P-X flips to + (student accepts policy).  \n*Probable if:* Policy attitude has low centrality (peripheral to student's values) and professor has high source credibility (expertise in pedagogy).  \n\n**Resolution 2:** P-O flips to – (student loses respect for professor).  \n*Probable if:* Policy attitude has high centrality/extremeness (core belief in autonomy) and student has low persuasibility (high self-esteem, strong prior conviction).  \n\nA poor answer gives only one resolution or assigns factors randomly (e.g., \"centrality makes P-O flip\" — centrality *protects* attitudes from flipping). Good answers show awareness that *multiple* balanced endpoints exist and link each to a specific moderating variable from the \"Factors Influencing Attitude Change\" section (node c12_psy_cbse_06_008).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Heider's Balance Theory (P-O-X Triangle) is a cognitive consistency theory proposing that individuals strive for psychological balance in their triadic ______ among a Person (P), another person (O), and an attitude object (X); balance exists when the product of the three sentiment relations is positive (all three positive, or two negative and one positive), while imbalance (all three negative, or two positive and one negative) creates psychological tension that motivates attitude change to restore balance.",
+     "a": "relationships",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your best friend (O) ______ dislikes a new movie (X) that you (P) loved.",
+     "a": "strongly",
+     "self_check": true
+    },
+    {
+     "q": "What is Heider's Balance Theory (P-O-X Triangle)? State the definition given in this lesson.",
+     "a": "Heider's Balance Theory (P-O-X Triangle) is a cognitive consistency theory proposing that individuals strive for psychological balance in their triadic relationships among a Person (P), another person (O), and an attitude object (X); balance exists when the product of the three sentiment relations is positive (all three positive, or two.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Heider's Balance Theory (P-O-X Triangle)?",
+     "a": "Students memorise \"two positives and one negative = imbalance\" as a rigid rule, but then misapply it by counting positive *attitudes* instead of positive *relations*.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) correctly classify any given P-O-X triad as balanced or imbalanced by applying the multiplication-of-signs rule, and (2) predict which specific attitude (P-O, O-X, or P-X) is most likely to change to restore balance in an imbalanced triad, justifying the prediction with the principle of minimal cognitive.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

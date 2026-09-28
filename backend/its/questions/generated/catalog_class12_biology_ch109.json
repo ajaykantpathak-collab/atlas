@@ -1,6 +1,59 @@
 {
- "catalog": "catalog_class12_biology_ch109",
+ "catalog": "catalog_class12_biology_ch109.json",
  "concepts": [
+  {
+   "id": "lebo.109.8",
+   "title": "Polymerase Chain Reaction (PCR) Amplification",
+   "converted_to_compute": true,
+   "formula": "final_copies = initial_copies * (2 ** cycles)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "final_copies = initial_copies * (2 ** cycles)",
+     "compute": "final_copies = initial_copies * (2 ** cycles)"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "lebo.109.8",
+     "question_pattern": "how many copies of a gene are generated if we start with {initial_copies} copy and run {cycles} cycles of PCR"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Polymerase Chain Reaction (PCR) Amplification: given initial_copies = 4.5, cycles = 33, find final copies.",
+     "a": "38654705664",
+     "self_check": false
+    },
+    {
+     "q": "how many copies of a gene are generated if we start with 4.5 copy and run 33 cycles of PCR?",
+     "a": "38654705664",
+     "self_check": false
+    },
+    {
+     "q": "For Polymerase Chain Reaction (PCR) Amplification: given initial_copies = 8.1, cycles = 33, find final copies.",
+     "a": "69578470195.199997",
+     "self_check": false
+    },
+    {
+     "q": "how many copies of a gene are generated if we start with 8.1 copy and run 33 cycles of PCR?",
+     "a": "69578470195.199997",
+     "self_check": false
+    },
+    {
+     "q": "For Polymerase Chain Reaction (PCR) Amplification: given initial_copies = 30, cycles = 38, find final copies.",
+     "a": "8246337208320",
+     "self_check": false
+    },
+    {
+     "q": "how many copies of a gene are generated if we start with 30 copy and run 38 cycles of PCR?",
+     "a": "8246337208320",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "lebo.109.1",
    "title": "Definition and Scope of Biotechnology",
@@ -28,7 +81,7 @@
    "questions": [
     {
      "q": "Explain in your own words what 'Core Principles of Modern Biotechnology' refers to.",
-     "a": "The two fundamental pillars\u2014genetic engineering and bioprocess engineering\u2014that enable the creation and large-scale manufacturing of biotechnological products.",
+     "a": "The two fundamental pillars—genetic engineering and bioprocess engineering—that enable the creation and large-scale manufacturing of biotechnological products.",
      "self_check": true
     },
     {
@@ -144,37 +197,6 @@
     {
      "q": "Write the standard relation used for 'Isolation of Genomic DNA', in plain ASCII form.",
      "a": "concept method; no single closed formula",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "lebo.109.8",
-   "title": "Polymerase Chain Reaction (PCR) Amplification",
-   "questions": [
-    {
-     "q": "Calculate the number of DNA copies produced after {cycles} cycles of PCR. Use the method 'Polymerase Chain Reaction (PCR) Amplification'. Work with: cycles = 10, initial_copies = 240. Carry the chain through step by step and give the final value of verify.",
-     "a": "245760 units",
-     "self_check": false
-    },
-    {
-     "q": "How many copies of a gene are generated if we start with {initial_copies} copy and run {cycles} cycles of PCR? Use the method 'Polymerase Chain Reaction (PCR) Amplification'. Work with: cycles = 3, initial_copies = 500. Carry the chain through step by step and give the final value of verify.",
-     "a": "4000 units",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Polymerase Chain Reaction (PCR) Amplification' refers to.",
-     "a": "A laboratory technique used to synthesize multiple copies of a specific DNA segment in vitro using primers and a thermostable DNA polymerase.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Polymerase Chain Reaction (PCR) Amplification'.",
-     "a": "Exponential amplification of DNA where each cycle doubles how much target DNA.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Polymerase Chain Reaction (PCR) Amplification', in plain ASCII form.",
-     "a": "final_copies = initial_copies * (2 ** cycles)",
      "self_check": true
     }
    ]

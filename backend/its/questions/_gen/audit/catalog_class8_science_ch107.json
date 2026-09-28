@@ -1,0 +1,62 @@
+{
+ "catalog": "catalog_class8_science_ch107.json",
+ "concepts": [
+  {
+   "id": "hesc.107.7.2.1",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "present_height = 96",
+      "percent_height = 93",
+      "full_height = (present_height * 100) / percent_height"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "present_height = 65",
+      "percent_height = 70",
+      "full_height = (present_height * 100) / percent_height"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "present_height = 100",
+      "percent_height = 6.4",
+      "full_height = (present_height * 100) / percent_height"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "present_height = 105",
+      "percent_height = 107",
+      "full_height = (present_height * 100) / percent_height"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "present_height = 77",
+      "percent_height = 39",
+      "full_height = (present_height * 100) / percent_height"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "present_height = 24",
+      "percent_height = 102",
+      "full_height = (present_height * 100) / percent_height"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "full_height = (present_height * 100) / percent_height"
+   ]
+  }
+ ]
+}

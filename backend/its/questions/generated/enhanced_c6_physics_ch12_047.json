@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a torch and a ball to show why the Northern Hemisphere gets more light in June.",
      "a": "The student should describe holding the ball (Earth) with a tilted axis and shining the torch (Sun) at it, noting that the top half stays lit longer as they rotate the ball. A poor answer would lack the mention of the tilt or the rotation/revolution aspect.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Seasons change because the Earth rotates on an axis that is tilted at an angle of 23.5 degrees ______ to its orbit around the Sun.",
+     "a": "relative",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever noticed that when it is very hot in India during June, people in countries like Australia are wearing sweaters and celebrating ______?",
+     "a": "winter",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Seasons change because the Earth rotates on an axis that is tilted at an angle of ______ degrees relative to its orbit around the Sun.",
+     "a": "23.5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain that the tilt of the Earth's axis, combined with its revolution around the Sun, causes the change in seasons.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Have you ever noticed that when it is very hot in India during June, people in countries like Australia are wearing sweaters and ______ winter?",
+     "a": "celebrating",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Draw an indifference curve for two goods that exhibit diminishing MRS. Mark three points A, B, C on it such that moving from A to C represents increasing consumption of X. At each point, draw a tangent line and label its slope (in absolute value) as MRS<sub>A</sub>, MRS<sub>B</sub>, MRS<sub>C</sub>. Write the inequality relating these three MRS values.",
      "a": "The diagram should show a downward-sloping, convex-to-origin curve. Tangents at A (leftmost, highest Y), B (middle), C (rightmost, lowest Y) become progressively flatter. Absolute slopes: MRS<sub>A</sub> > MRS<sub>B</sub> > MRS<sub>C</sub>. A poor answer draws a concave curve (increasing MRS) or straight line (constant MRS), or labels slopes without absolute value (giving negative numbers). This reveals the student cannot visualise the geometric meaning of diminishing MRS — a skill tested in board diagram questions and CUET graph-interpretation items.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Marginal Rate of ______ (MRS) is the rate at which a consumer is willing to give up units of good Y to obtain one additional unit of good X while remaining on the same indifference curve (i.e., maintaining the same level of satisfaction).",
+     "a": "Substitution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a college canteen with ₹100, choosing between ______ (₹10 each) and cups of chai (₹5 each).",
+     "a": "samosas",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) calculate MRS from given marginal utilities or from coordinates of two points on an indifference curve, (2) explain why MRS diminishes using the law of diminishing marginal utility, (3) identify the convex shape of an indifference curve as the geometric manifestation of diminishing MRS, and (4).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are at a college canteen with ₹100, ______ between samosas (₹10 each) and cups of chai (₹5 each).",
+     "a": "choosing",
+     "self_check": true
     }
    ]
   }

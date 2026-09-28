@@ -141,7 +141,16 @@
      "action": "Validate the remaining percentage",
      "explain": "Confirm the other_percentage is non-negative and represents carbohydrates and other non-protein non-lipid constituents of the membrane."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "other_percentage = 100 - (protein_percentage + lipid_percentage)",
+     "compute": "other_percentage = 100 - (protein_percentage + lipid_percentage)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.108.5",
@@ -211,7 +220,16 @@
      "action": "Validate vacuole volume against cell volume",
      "explain": "Confirm the computed vacuole volume does not exceed the total cell volume, ensuring the percentage input is valid."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "vacuole_volume = total_cell_volume * (vacuole_percentage / 100)",
+     "compute": "vacuole_volume = total_cell_volume * (vacuole_percentage / 100)"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.108.7",
@@ -262,7 +280,7 @@
     "where are chlorophyll pigments located within the chloroplast",
     "why is plastids and chloroplast architecture important"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -279,7 +297,16 @@
      "action": "Analyze chloroplast compartments",
      "explain": "Identify double membrane boundary, stroma matrix, light-trapping thylakoids stacked as grana, and stroma lamellae."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "Plastids = Chloroplasts + Chromoplasts + Leucoplasts",
+     "compute": "Plastids = Chloroplasts + Chromoplasts + Leucoplasts"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.108.9",
@@ -296,7 +323,7 @@
     "describe the internal microtubular structure of eukaryotic cilia and flagella",
     "explain the cartwheel organization of centrioles"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -315,7 +342,16 @@
      "action": "Validate the axoneme microtubule total",
      "explain": "Confirm the total matches the canonical 9+2 arrangement, yielding 20 individual microtubules for a standard eukaryotic axoneme."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_microtubules = (peripheral_doublets * 2) + central_singlets",
+     "compute": "total_microtubules = (peripheral_doublets * 2) + central_singlets"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.108.10",

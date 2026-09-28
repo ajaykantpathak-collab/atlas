@@ -34,6 +34,36 @@
      "q": "Create a real-world problem involving similar triangles where a student must: (a) identify the similar triangles in the scenario, (b) write the correct similarity statement with vertex correspondence, and (c) set up the proportion to find an unknown length. Use an Indian context (e.g., shadow lengths, map scaling, architectural model).",
      "a": "Example problem: \"A 1.5 m tall student stands 4 m from a lamppost. Her shadow is 2 m long. The lamppost's shadow extends to the tip of her shadow. Draw the similar triangles, write the similarity statement (ΔStudent ~ ΔLamppost with correct vertex order), and set up the proportion to find the lamppost height.\" A good answer shows: right triangles formed by student/shadow and lamppost/shadow, correct vertex correspondence (right angles correspond, angles of elevation correspond), proportion 1.5/height = 2/(2+4). A poor answer with mismatched vertices or incorrect proportion setup reveals the student cannot translate physical geometry to mathematical similarity structure.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Two triangles are said to be similar if their corresponding angles are equal and their corresponding sides are in the same ratio (______).",
+     "a": "proportional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are an architect designing a ______ roof truss for a school auditorium.",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "What is Two triangles? State the definition given in this lesson.",
+     "a": "Two triangles are said to be similar if their corresponding angles are equal and their corresponding sides are in the same ratio (proportional).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The actual truss must have the exact same angles for structural stability but be ______ times larger.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Two triangles?",
+     "a": "Students write similarity statements with incorrect vertex ordering, e.g., given ΔABC ~ ΔDEF with ∠A=∠D, ∠B=∠E, ∠C=∠F, they write ΔABC ~ ΔEFD because \"the letters are the same.\" They treat similarity as unordered letter matching rather than ordered correspondence where position in the statement indicates which angles correspond.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly write the similarity statement with proper vertex correspondence for given triangles, identify all corresponding parts (angles and sides), and explain why AAA guarantees similarity while distinguishing it from congruence where AAA is insufficient.",
+     "self_check": true
     }
    ]
   }

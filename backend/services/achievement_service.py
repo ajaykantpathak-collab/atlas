@@ -8,7 +8,7 @@ import math
 from datetime import datetime, timezone
 from typing import Optional
 
-from sqlalchemy import select, func, and_
+from sqlalchemy import delete, select, func, and_
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from backend.models.achievement import Achievement, UserAchievement
@@ -102,7 +102,7 @@ DEFAULT_ACHIEVEMENTS: list[dict] = [
     {
         "achievement_id": "mastery_10",
         "title": "Concept Builder",
-        "description": "Master 10 knowledge nodes",
+        "description": "Master 10 topics",
         "icon_name": "brain",
         "tier": "silver",
         "xp_reward": 200,
@@ -120,13 +120,36 @@ DEFAULT_ACHIEVEMENTS: list[dict] = [
     {
         "achievement_id": "review_50",
         "title": "Review Champion",
-        "description": "Complete 50 spaced-repetition reviews",
+        "description": "Practice 50 topics again before you forget them",
         "icon_name": "refresh-cw",
         "tier": "silver",
         "xp_reward": 200,
         "max_progress": 50,
     },
 ]
+
+# CHILD-LENS (CHILD_EXPERIENCE_GAPS.md fix 9): an older seed (init_db.py)
+# created a second, OVERLAPPING badge set — "First Steps" twice, "Week
+# Warrior" twice with conflicting definitions (14-day vs 7-day), "Topic
+# Tamer" identical to "Concept Builder", "Month Master" ≈ "Monthly
+# Dedication", and "Speed Demon" rewarding racing. Those ids are also NOT
+# in the evaluator's progress map, so no child can ever unlock them — a
+# fake wall. They are purged on seed; the canonical set above is the whole
+# (honest, earnable) wall.
+LEGACY_ACHIEVEMENT_IDS: set[str] = {
+    "first_steps",
+    "on_fire_7",
+    "week_warrior",
+    "month_master",
+    "century_club",
+    "speed_demon",
+    "sharp_shooter",
+    "topic_tamer",
+    "chapter_champion",
+    "board_boss",
+    "socratic_scholar",
+    "unstoppable",
+}
 
 
 class AchievementService:
@@ -145,6 +168,13 @@ class AchievementService:
         """
         # Ensure achievements are seeded
         await AchievementService.seed_achievements(db)
+
+        # Evaluate unlock conditions so listings reflect current activity
+        # (the evaluator is idempotent; unknown users just skip evaluation).
+        try:
+            await AchievementService.check_and_unlock(db, user_id)
+        except ValueError:
+            pass
 
         result = await db.execute(select(Achievement))
         all_achievements = list(result.scalars().all())
@@ -260,8 +290,9 @@ class AchievementService:
         total = len(data["achievements"])
         unlocked = data["unlocked_count"]
 
-        # Tier breakdown
+        # Tier breakdown + recent unlocks
         tier_counts: dict[str, dict] = {}
+        recent_unlocks: list[dict] = []
         for ach in data["achievements"]:
             tier = ach["tier"]
             if tier not in tier_counts:
@@ -269,12 +300,18 @@ class AchievementService:
             tier_counts[tier]["total"] += 1
             if ach["unlocked"]:
                 tier_counts[tier]["unlocked"] += 1
+                if ach.get("unlocked_at"):
+                    recent_unlocks.append(ach)
+
+        recent_unlocks.sort(key=lambda a: a["unlocked_at"], reverse=True)
 
         return {
             "total_achievements": total,
             "unlocked_count": unlocked,
+            "locked_count": total - unlocked,
             "completion_percentage": int((unlocked / total * 100)) if total > 0 else 0,
-            "total_xp_from_achievements": data["total_xp"],
+            "total_xp_earned": data["total_xp"],
+            "recent_unlocks": recent_unlocks[:5],
             "tier_breakdown": tier_counts,
         }
 
@@ -454,6 +491,35 @@ class AchievementService:
         """Create default achievements if they don't already exist."""
         result = await db.execute(select(Achievement))
         existing = {a.achievement_id for a in result.scalars().all()}
+
+        # CHILD-LENS (fix 9): the purge must RUN, not just be declared — a
+        # production DB seeded before this file was cleaned still carries the
+        # duplicate/never-earnable rows ("First Steps" twice, "Speed Demon",
+        # ...). user_achievements.achievement_id is a GUID FK to
+        # achievements.id (the uuid PK), so resolve the legacy rows' ids
+        # first, drop the unlock records, then the badges themselves.
+        legacy_present = existing & LEGACY_ACHIEVEMENT_IDS
+        if legacy_present:
+            legacy_rows = list(
+                (
+                    await db.execute(
+                        select(Achievement).where(
+                            Achievement.achievement_id.in_(legacy_present)
+                        )
+                    )
+                ).scalars().all()
+            )
+            if legacy_rows:
+                await db.execute(
+                    delete(UserAchievement).where(
+                        UserAchievement.achievement_id.in_(
+                            [row.id for row in legacy_rows]
+                        )
+                    )
+                )
+                for row in legacy_rows:
+                    await db.delete(row)
+            existing -= legacy_present
 
         for ach_data in DEFAULT_ACHIEVEMENTS:
             if ach_data["achievement_id"] not in existing:

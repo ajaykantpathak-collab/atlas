@@ -99,14 +99,23 @@
      "explain": "Multiply the number of glucose molecules oxidised by 38 to get the net ATP of aerobic respiration",
      "compute": "net_atp = glucose_molecules * 38"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_atp = glucose_molecules * 38",
+     "compute": "net_atp = glucose_molecules * 38"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.112.4.1",
    "title": "Respiratory Quotient of Substrates",
    "section": "12.5 Respiratory Quotient",
    "definition": "The respiratory quotient is the ratio of the volume of carbon dioxide released to the volume of oxygen consumed in respiration, and it equals one for carbohydrates, is less than one for fats and proteins, and can exceed one for organic acids.",
-   "formula": "rq = co2_released / o2_consumed",
+   "formula": "rq = co_2_released / o_2_consumed",
    "key_idea": "The RQ of germinating fats like castor seeds is less than one because fat oxidation consumes more oxygen than the carbon dioxide it releases, while succulents show RQ of zero in daylight.",
    "textbook_ref": "kebo112.txt section 12.5",
    "question_patterns": [
@@ -125,7 +134,16 @@
      "explain": "Divide the volume of carbon dioxide released by the volume of oxygen consumed to get the respiratory quotient",
      "compute": "rq = co2_released / o2_consumed"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "rq = co_2_released / o_2_consumed",
+     "compute": "rq = co_2_released / o_2_consumed"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "kebo.112.5.1",

@@ -34,6 +34,36 @@
      "q": "Design a simple early-warning advisory for farmers in western Uttar Pradesh to mitigate Loo damage to late-sown wheat. Your advisory must specify: (a) the meteorological threshold to trigger the alert, (b) two actionable farm-level measures, and (c) the lead time required for effectiveness.",
      "a": "(a) Trigger: IMD forecast of daytime maximum temperature > 42°C combined with relative humidity < 15% and wind speed > 15 km/h from the west for two consecutive days. (b) Measures: (i) Light irrigation (5-6 cm) 24 hours before onset to increase soil moisture and canopy cooling via evaporation; (ii) Mulching with crop residue (paddy straw) between rows to reduce soil evaporation and lower surface temperature. (c) Lead time: Minimum 48 hours (to arrange irrigation water and labor). A poor advisory using only temperature threshold or suggesting measures like \"spray water on leaves\" (which increases heat stress via scorch) shows inability to translate meteorological data into agronomically sound, practical actions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Local winds are winds that blow over a limited ______ area due to local pressure gradients created by differential heating of land and water surfaces or topographic funneling effects.",
+     "a": "geographical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine standing in Delhi on a May afternoon at 2 PM: the air is still, the sun is scorching, and suddenly a hot, gritty wind hits your face, raising the ______ further and coating everything in dust — that is the Loo.",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "What is Local winds? State the definition given in this lesson.",
+     "a": "Local winds are winds that blow over a limited geographical area due to local pressure gradients created by differential heating of land and water surfaces or topographic funneling effects.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine standing in Delhi on a May afternoon at ______ PM: the air is still, the sun is scorching, and suddenly a hot, gritty wind hits your face, raising the temperature further and coating everything in dust — that is the Loo.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Local winds?",
+     "a": "Students often believe the Loo is a \"summer monsoon wind\" or a precursor to the monsoon because it blows just before the monsoon onset.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the thermo-topographic mechanism generating each wind (Loo, Mistral, Chinook), locate their source regions and paths on a world map, and compare their contrasting impacts on temperature, humidity, agriculture, and human comfort in their respective regions.",
+     "self_check": true
     }
    ]
   }

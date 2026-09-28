@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_11_004",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_11_004",
+   "title": "c11_leg_cbse_11_004",
+   "questions": [
+    {
+     "q": "What is the difference between 'res sub judice' under Section 10 CPC and 'res judicata' under Section 11 CPC in terms of the stage of litigation they apply to?",
+     "a": "Res sub judice applies when a suit is *pending* in a competent court — it bars a *subsequent* suit on the same cause of action between the same parties. Res judicata applies when a suit has been *finally decided* — it bars a *fresh* suit on the same cause of action. A wrong answer (e.g., confusing 'pending' with 'decided') reveals the student does not grasp the temporal distinction: one prevents parallel litigation, the other prevents re-litigation after finality.",
+     "self_check": true
+    },
+    {
+     "q": "A person is arrested for an offence punishable with 3 years imprisonment and fine. The offence is listed as bailable in the First Schedule of CrPC. The police refuse bail, saying 'it's a serious offence'. Is the police action legal? Explain using the distinction between bailable and non-bailable offences.",
+     "a": "No, the police action is illegal. For a bailable offence, bail is a *right* under Section 436 CrPC — the police *must* release the accused on bail (with or without sureties). The classification 'bailable' is determined by the First Schedule, not police discretion. A wrong answer (e.g., 'police can deny bail for serious offences') reveals confusion between *bailable/non-bailable* (statutory right vs discretion) and *cognizable/non-cognizable* (arrest power). The student conflates gravity of offence with bail entitlement.",
+     "self_check": true
+    },
+    {
+     "q": "An FIR is lodged for theft (cognizable, non-bailable). Police investigate, file charge sheet. Magistrate takes cognizance, frames charge. Accused pleads not guilty. Prosecution examines 3 witnesses. Accused is examined under Section 313 CrPC. Defence produces no evidence. Final arguments heard. Judgment of conviction passed. Identify the 6 stages of criminal trial in correct sequence from this narrative.",
+     "a": "1. Framing of charge / issuance of notice (charge framed after cognizance)\n2. Recording of prosecution evidence (examination-in-chief + cross of 3 witnesses)\n3. Statement of accused (Sec 313 examination)\n4. Defence evidence (none produced)\n5. Final arguments (prosecution sums up, accused replies)\n6. Judgment (conviction)\nA wrong sequence (e.g., putting statement of accused before prosecution evidence) reveals the student does not understand the *adversarial logic*: prosecution must prove guilt *beyond reasonable doubt* first; accused explains *only if* incriminating evidence exists.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the hierarchy of criminal courts in a district: Court of Sessions, Chief Judicial Magistrate (CJM), Judicial Magistrate First Class (JMFC), Judicial Magistrate Second Class (JMSC). Which court can impose a sentence of death? Which can impose up to 7 years? Which up to 3 years? Which up to 1 year?",
+     "a": "- Court of Sessions: any sentence including death (subject to High Court confirmation)\n- CJM: up to 7 years imprisonment + any fine\n- JMFC: up to 3 years imprisonment or fine up to ₹10,000 or both\n- JMSC: up to 1 year imprisonment or fine up to ₹5,000 or both\nA wrong mapping (e.g., CJM can give death) reveals the student memorized designations but not the *graded sentencing architecture* tied to offence gravity and judicial seniority.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: 'The doctrine of autrefois acquit (Article 20(2) / Section 300 CrPC) is absolute — once acquitted, a person can never be tried again for the same facts, even if new evidence emerges.' Defend or critique with legal reasoning.",
+     "a": "Critique: The doctrine bars *re-trial for the same offence on the same facts*, but has exceptions. If the acquittal was based on a *legal error* (e.g., wrong interpretation of law), appeal lies. If *new evidence* emerges that could not have been discovered with due diligence, the bar is not absolute — but in India, unlike some jurisdictions, *fresh trial after acquittal is extremely restricted*; the prosecution cannot appeal acquittal lightly (only on substantial question of law). However, if the accused was *discharged* (not acquitted) at inquiry stage, re-trial is possible. A wrong answer (e.g., 'it's absolute in all cases') reveals the student confuses *acquittal* (after trial) with *discharge* (before trial) and ignores the appellate remedy for legal error.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new fact scenario where *both* res sub judice and res judicata could be argued at different stages. Explain how a court would apply each doctrine sequentially.",
+     "a": "Scenario: X sues Y for breach of contract in Court A. While pending, X files another suit for damages for same breach in Court B. → Court B stays suit under **res sub judice** (Sec 10). Later, Court A dismisses X's suit. X then files a *third* suit in Court C for same breach. → Court C dismisses under **res judicata** (Sec 11) — matter *finally decided*. Good answer shows sequential operation: first parallel litigation barred, then re-litigation barred. Poor answer merges the two or applies res judicata to the second suit (which was pending, not decided).",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

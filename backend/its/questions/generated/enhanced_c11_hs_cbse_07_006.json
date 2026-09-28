@@ -16,8 +16,8 @@
      "self_check": true
     },
     {
-     "q": "An APPLY level question: A 10-month-old infant in an urban slum presents with recurrent pneumonia (3 episodes in 4 months). Weight-for-age is -2.5 SD. The mother reports the child \"refuses food\" during illness. The household has a ration card but uses a shared community toilet. Water is from a tanker (stored in open buckets). Identify which TWO of the four WHO factors are most likely compromised in this scenario, and for each, describe one specific, measurable intervention that addresses the nutrition-infection cycle at that point.",
-     "a": "Compromised factors and interventions: (1) Health for All—compromised because recurrent pneumonia indicates inadequate access to timely, effective treatment and prevention (e.g., incomplete pneumococcal vaccination, delayed care-seeking). Intervention: Ensure the child receives the full pneumococcal conjugate vaccine (PCV) schedule and that the mother knows danger signs for fast-breathing to seek care within 24 hours—this reduces infection frequency, breaking the cycle at the \"infection → malnutrition\" arm. (2) Safe Environment—compromised because open bucket storage of tanker water and shared toilet create high faecal-oral pathogen load, driving repeated respiratory and diarrhoeal infections. Intervention: Provide a narrow-necked, covered water storage container with a tap and promote point-of-use chlorination (e.g., sodium hypochlorite drops), with weekly monitoring of residual chlorine—this reduces pathogen exposure, breaking the cycle at the \"environment → infection\" arm. A wrong answer focusing only on \"give more protein\" (Food Security) ignores that without reducing infection burden, the extra nutrients will be lost to catabolism and malabsorption during the next pneumonia episode.",
+     "q": "Trace the correct sequence from the slum household's environment to the infant's weight loss and infection cycle.",
+     "a": "The case mapping runs: (1) Tanker water stored in open buckets carries pathogens into every feed (2) Repeated infection raises nutrient needs while vomiting and diarrhoea drain stores (3) Food refusal during illness cuts intake further and weight-for-age falls (4) Weakened immunity invites the next pneumonia episode, completing the spiral. A wrong answer that prescribes rations alone shows the student has missed that the safe environment and health pillars must be fixed to break the cycle.",
      "self_check": true
     },
     {
@@ -31,8 +31,28 @@
      "self_check": true
     },
     {
-     "q": "A CREATE level question: Design a simple 2×2 matrix tool for an ASHA worker to classify any household with a child under 3 into one of four \"cycle-risk profiles\" based on which arm of the nutrition-infection cycle is dominant: (A) Malnutrition-driven susceptibility, (B) Infection-driven depletion, (C) Combined spiral, (D) Resilient. Define the two binary axes, give the decision rules for each quadrant, and suggest one priority action for each profile.",
-     "a": "Axes: (1) Nutritional Status (Normal vs. Undernourished: WAZ < -2 SD or MUAC < 12.5 cm) (2) Recent Infection Burden (Low: ≤1 illness episode in 3 months vs. High: ≥2 episodes). Quadrants: (A) Undernourished + Low Infection → \"Malnutrition-driven susceptibility\": Priority—energy-dense complementary feeding + micronutrient powder. (B) Normal + High Infection → \"Infection-driven depletion\": Priority—WASH intervention (water treatment, handwashing) + immunisation catch-up. (C) Undernourished + High Infection → \"Combined spiral\": Priority—integrated package: therapeutic feeding (if SAM) + antibiotics/ORS + WASH + responsive feeding counselling. (D) Normal + Low Infection → \"Resilient\": Priority—growth promotion counselling, sustained breastfeeding, timely complementary feeding. A poor answer using continuous scales or >2 axes makes the tool unusable for a frontline worker with limited time and literacy. The binary axes are deliberate for rapid field triage.",
+     "q": "Give the correct order of steps for an ASHA worker applying the two-axis household classification tool.",
+     "a": "The tool runs: (1) Assess the child's nutritional status against the underweight threshold (2) Count infection episodes over the last three months against the burden threshold (3) Place the household in one of four quadrants from malnutrition-driven to resilient (4) Match the quadrant to its priority action, from enriched feeding to water treatment and immunisation. A wrong answer that skips the thresholds and labels by impression shows the student has missed that the matrix classifies only on the two measured axes.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The nutrition-infection cycle is a bidirectional, self-reinforcing mechanism where poor nutritional status impairs immune function and increases ______ to infection, while infection increases nutrient losses, raises metabolic demands, and reduces intake, further worsening nutritional status.",
+     "a": "susceptibility",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 3-year-old child in a rural Indian ______ who has had diarrhoea four times in the last six months.",
+     "a": "household",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______-year-old child in a rural Indian household who has had diarrhoea four times in the last six months.",
+     "a": "3",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Diagram and explain the nutrition-infection cycle with at least four specific physiological mechanisms linking malnutrition to immune dysfunction and infection to nutrient depletion; (2) Classify a given community scenario into which of the four WHO factors of nutritional well-being are compromised and.",
      "self_check": true
     }
    ]

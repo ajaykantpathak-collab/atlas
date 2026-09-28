@@ -54,7 +54,7 @@
     "solve 3/4 of 4/9",
     "write a story for 1/3 of 3/4 of a cake"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -71,7 +71,16 @@
      "action": "check the answer",
      "explain": "Verify by reversing or re-checking, then conclude."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "combine the fractions with the fraction operation rules",
+     "explain": "combine the fractions with the fraction operation rules: prod = 11 * 7 / 3 gives 25.6667",
+     "compute": "prod = 11 * 7 / 3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.8.3",
@@ -89,7 +98,7 @@
     "why does dividing by a fraction give a bigger answer",
     "share 2 rotis in halves and write the division statement"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -106,7 +115,16 @@
      "action": "check the answer",
      "explain": "Verify by reversing or re-checking, then conclude."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "combine the fractions with the fraction operation rules",
+     "explain": "combine the fractions with the fraction operation rules: prod = 6 * 3 / 7 gives 2.57143",
+     "compute": "prod = 6 * 3 / 7"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "gegp.8.4",
@@ -124,7 +142,7 @@
     "write a word problem whose answer is 3/4",
     "check your answer to a fraction problem by drawing"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -141,7 +159,16 @@
      "action": "conclude",
      "explain": "State the pattern or conclusion that emerges."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "combine the fractions with the fraction operation rules",
+     "explain": "combine the fractions with the fraction operation rules: prod = 6 * 3 / 4 gives 4.5",
+     "compute": "prod = 6 * 3 / 4"
+    }
+   ],
+   "converted_to_compute": true
   }
  ],
  "worked_examples": [

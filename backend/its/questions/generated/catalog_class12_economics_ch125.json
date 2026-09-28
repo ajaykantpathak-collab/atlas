@@ -1,0 +1,299 @@
+{
+ "catalog": "catalog_class12_economics_ch125.json",
+ "concepts": [
+  {
+   "id": "lekl.125.1",
+   "title": "Indian Loquaciousness and Prolixity",
+   "converted_to_compute": true,
+   "formula": "mahabharata_length = 7 * (iliad_length + odyssey_length)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mahabharata_length = 7 * (iliad_length + odyssey_length)",
+     "compute": "mahabharata_length = 7 * (iliad_length + odyssey_length)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Indian Loquaciousness and Prolixity: given iliad_length = 100, odyssey_length = 201, find mahabharata length.",
+     "a": "2107",
+     "self_check": false
+    },
+    {
+     "q": "For Indian Loquaciousness and Prolixity: given iliad_length = 437, odyssey_length = 190, find mahabharata length.",
+     "a": "4389",
+     "self_check": false
+    },
+    {
+     "q": "For Indian Loquaciousness and Prolixity: given iliad_length = 362, odyssey_length = 20, find mahabharata length.",
+     "a": "2674",
+     "self_check": false
+    },
+    {
+     "q": "For Indian Loquaciousness and Prolixity: given iliad_length = 203, odyssey_length = 366, find mahabharata length.",
+     "a": "3983",
+     "self_check": false
+    },
+    {
+     "q": "For Indian Loquaciousness and Prolixity: given iliad_length = 430, odyssey_length = 208, find mahabharata length.",
+     "a": "4466",
+     "self_check": false
+    },
+    {
+     "q": "For Indian Loquaciousness and Prolixity: given iliad_length = 275, odyssey_length = 358, find mahabharata length.",
+     "a": "4431",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lekl.125.2",
+   "title": "Deontological Ethics (Krishna's Position)",
+   "converted_to_compute": true,
+   "formula": "moral_action = duty_fulfillment",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "moral_action = duty_fulfillment",
+     "compute": "moral_action = duty_fulfillment"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Deontological Ethics (Krishna's Position): given duty_fulfillment = 8.4, find moral action.",
+     "a": "8.4",
+     "self_check": false
+    },
+    {
+     "q": "For Deontological Ethics (Krishna's Position): given duty_fulfillment = 27, find moral action.",
+     "a": "27",
+     "self_check": false
+    },
+    {
+     "q": "For Deontological Ethics (Krishna's Position): given duty_fulfillment = 90, find moral action.",
+     "a": "90",
+     "self_check": false
+    },
+    {
+     "q": "For Deontological Ethics (Krishna's Position): given duty_fulfillment = 49, find moral action.",
+     "a": "49",
+     "self_check": false
+    },
+    {
+     "q": "For Deontological Ethics (Krishna's Position): given duty_fulfillment = 21, find moral action.",
+     "a": "21",
+     "self_check": false
+    },
+    {
+     "q": "For Deontological Ethics (Krishna's Position): given duty_fulfillment = 53, find moral action.",
+     "a": "53",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lekl.125.3",
+   "title": "Consequentialist Evaluation (Arjuna's Position)",
+   "converted_to_compute": true,
+   "formula": "net_moral_value = just_cause_value - (misery + slaughter)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "net_moral_value = just_cause_value - (misery + slaughter)",
+     "compute": "net_moral_value = just_cause_value - (misery + slaughter)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Consequentialist Evaluation (Arjuna's Position): given just_cause_value = 59, misery = 19.1, slaughter = 65, find net moral value.",
+     "a": "-25.1",
+     "self_check": false
+    },
+    {
+     "q": "For Consequentialist Evaluation (Arjuna's Position): given just_cause_value = 77, misery = 14.4, slaughter = 56, find net moral value.",
+     "a": "6.6",
+     "self_check": false
+    },
+    {
+     "q": "For Consequentialist Evaluation (Arjuna's Position): given just_cause_value = 42, misery = 30, slaughter = 6, find net moral value.",
+     "a": "6",
+     "self_check": false
+    },
+    {
+     "q": "For Consequentialist Evaluation (Arjuna's Position): given just_cause_value = 43, misery = 28, slaughter = 40, find net moral value.",
+     "a": "-25",
+     "self_check": false
+    },
+    {
+     "q": "For Consequentialist Evaluation (Arjuna's Position): given just_cause_value = 8.7, misery = 61, slaughter = 19.6, find net moral value.",
+     "a": "-71.9",
+     "self_check": false
+    },
+    {
+     "q": "For Consequentialist Evaluation (Arjuna's Position): given just_cause_value = 100, misery = 94, slaughter = 18.2, find net moral value.",
+     "a": "-12.2",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lekl.125.4",
+   "title": "The Opulence-Capability Gap",
+   "converted_to_compute": true,
+   "formula": "total_well_being = economic_opulence + capability_freedom",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "total_well_being = economic_opulence + capability_freedom",
+     "compute": "total_well_being = economic_opulence + capability_freedom"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "lekl.125.4",
+     "question_pattern": "Calculate total well-being given opulence {economic_opulence} and capability {capability_freedom}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For The Opulence-Capability Gap: given economic_opulence = 69, capability_freedom = 63, find total well being.",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "Calculate total well-being given opulence 69 and capability 63?",
+     "a": "132",
+     "self_check": false
+    },
+    {
+     "q": "For The Opulence-Capability Gap: given economic_opulence = 100, capability_freedom = 98, find total well being.",
+     "a": "198",
+     "self_check": false
+    },
+    {
+     "q": "Calculate total well-being given opulence 100 and capability 98?",
+     "a": "198",
+     "self_check": false
+    },
+    {
+     "q": "For The Opulence-Capability Gap: given economic_opulence = 23, capability_freedom = 14, find total well being.",
+     "a": "37",
+     "self_check": false
+    },
+    {
+     "q": "Calculate total well-being given opulence 23 and capability 14?",
+     "a": "37",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lekl.125.5",
+   "title": "Gender Inclusion in Indian Argument",
+   "converted_to_compute": true,
+   "formula": "discourse_participation = male_voice + female_voice",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "discourse_participation = male_voice + female_voice",
+     "compute": "discourse_participation = male_voice + female_voice"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Gender Inclusion in Indian Argument: given male_voice = 103, female_voice = 27, find discourse participation.",
+     "a": "130",
+     "self_check": false
+    },
+    {
+     "q": "For Gender Inclusion in Indian Argument: given male_voice = 110, female_voice = 40, find discourse participation.",
+     "a": "150",
+     "self_check": false
+    },
+    {
+     "q": "For Gender Inclusion in Indian Argument: given male_voice = 2.6, female_voice = 31, find discourse participation.",
+     "a": "33.6",
+     "self_check": false
+    },
+    {
+     "q": "For Gender Inclusion in Indian Argument: given male_voice = 57, female_voice = 60, find discourse participation.",
+     "a": "117",
+     "self_check": false
+    },
+    {
+     "q": "For Gender Inclusion in Indian Argument: given male_voice = 11.9, female_voice = 104, find discourse participation.",
+     "a": "115.9",
+     "self_check": false
+    },
+    {
+     "q": "For Gender Inclusion in Indian Argument: given male_voice = 92, female_voice = 1.6, find discourse participation.",
+     "a": "93.6",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "lekl.125.7",
+   "title": "Democracy as Public Reasoning",
+   "converted_to_compute": true,
+   "formula": "democracy_strength = institutional_structure + reasoning_tradition",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "democracy_strength = institutional_structure + reasoning_tradition",
+     "compute": "democracy_strength = institutional_structure + reasoning_tradition"
+    }
+   ],
+   "worked_examples": [
+    {
+     "concept": "lekl.125.7",
+     "question_pattern": "Calculate a democracy's viability index based on institutions {institutional_structure} and tradition {reasoning_tradition}"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Democracy as Public Reasoning: given institutional_structure = 81, reasoning_tradition = 8.9, find democracy strength.",
+     "a": "89.9",
+     "self_check": false
+    },
+    {
+     "q": "Calculate a democracy's viability index based on institutions 81 and tradition 8.9?",
+     "a": "89.9",
+     "self_check": false
+    },
+    {
+     "q": "For Democracy as Public Reasoning: given institutional_structure = 62, reasoning_tradition = 41, find democracy strength.",
+     "a": "103",
+     "self_check": false
+    },
+    {
+     "q": "Calculate a democracy's viability index based on institutions 62 and tradition 41?",
+     "a": "103",
+     "self_check": false
+    },
+    {
+     "q": "For Democracy as Public Reasoning: given institutional_structure = 81, reasoning_tradition = 37, find democracy strength.",
+     "a": "118",
+     "self_check": false
+    },
+    {
+     "q": "Calculate a democracy's viability index based on institutions 81 and tradition 37?",
+     "a": "118",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

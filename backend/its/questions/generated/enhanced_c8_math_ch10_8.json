@@ -34,6 +34,21 @@
      "q": "Create a real-life problem (Indian context) that involves inverse proportion, write the algebraic equation, and make a table with at least four pairs of values.",
      "a": "Example: \"A water tank is filled by 5 pipes in 8 hours. How long with 8 pipes?\" Equation: \\(p \\times t = 40\\) (where \\(p\\) = pipes, \\(t\\) = hours). Table: (1,40), (2,20), (4,10), (5,8), (8,5), (10,4). A poor answer uses direct proportion (e.g., more pipes, more time) or fails to keep the product constant, showing the student cannot generate a valid inverse proportion scenario.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your ______ is organizing a picnic: 12 students can be seated in each bus, and you need 5 buses.",
+     "a": "school",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If only ______ students sit per bus, how many buses are needed?",
+     "a": "8",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine your school is ______ a picnic: 12 students can be seated in each bus, and you need 5 buses.",
+     "a": "organizing",
+     "self_check": true
     }
    ]
   }

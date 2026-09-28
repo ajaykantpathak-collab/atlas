@@ -34,6 +34,26 @@
      "q": "Create a novel “engagement toolkit” component for a biotech startup developing a recombinant protein vaccine. The component must be low‑cost, usable by frontline health workers, and capture community questions on cold‑chain, side‑effects, and halal/haram status. Describe its format, workflow, and how data feeds back to the startup.",
      "a": "Format: Illustrated flip‑chart (Hindi/regional language) + toll‑free IVR + WhatsApp chatbot. Workflow: Health worker uses flip‑chart in village meetings; attendees dial IVR or scan QR for anonymous questions; chatbot categorises queries (cold‑chain, side‑effects, religious permissibility) and pushes weekly summaries to startup’s R&D and regulatory affairs teams. Startup responds via voice notes on same IVR/chatbot within 72 hours. Good answers include feedback‑loop closure; poor answers propose only “brochures” or “apps” ignoring literacy/connectivity barriers.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Public engagement and science communication in biotechnology refer to the structured, two-way processes through which scientists, institutions, policymakers, and industry share ______ knowledge, uncertainties, and societal implications with diverse publics, while actively listening to public values, concerns, and priorities to shape responsible research, innovation, and governance.",
+     "a": "biotechnological",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a biotech researcher who has just ______ a drought‑tolerant GM maize variety for Indian farmers.",
+     "a": "developed",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) design a public engagement plan for a biotech innovation (e.g., GM crop release) that identifies stakeholders, selects appropriate communication formats, and incorporates feedback loops; (2) critically evaluate a real-world science communication case (e.g., COVID‑19 vaccine rollout) for clarity.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a biotech ______ who has just developed a drought‑tolerant GM maize variety for Indian farmers.",
+     "a": "researcher",
+     "self_check": true
     }
    ]
   }

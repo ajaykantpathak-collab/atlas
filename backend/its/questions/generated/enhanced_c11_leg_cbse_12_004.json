@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_leg_cbse_12_004",
+ "concepts": [
+  {
+   "id": "enh:c11_leg_cbse_12_004",
+   "title": "c11_leg_cbse_12_004",
+   "questions": [
+    {
+     "q": "What is the statutory provision that determines the territorial jurisdiction for filing a divorce petition under the Special Marriage Act, 1954, and how does it differ from the Hindu Marriage Act, 1955?",
+     "a": "Section 27 of the Special Marriage Act, 1954 provides jurisdiction where: (a) marriage was solemnized, (b) respondent resides, or (c) parties last resided together. Section 19 of the Hindu Marriage Act, 1955 is identical in wording. The difference is NOT in jurisdiction but in the *bar on filing*: Section 14 HMA bars petitions within 1 year of marriage (except with court leave), while Section 28 SMA has no such bar. A wrong answer reveals the student conflates \"jurisdiction\" (where to file) with \"limitation/bar\" (when to file) — a classic procedural confusion.",
+     "self_check": true
+    },
+    {
+     "q": "A wife files for divorce under Section 13(1)(ia) HMA (cruelty) in the Family Court, Delhi. The husband resides in Mumbai. He files an application under Order VII Rule 10 CPC seeking return of plaint for presentation in the proper court. Will the court return the plaint? Explain the interplay between CPC and Family Courts Act on jurisdiction.",
+     "a": "No, the court will not return the plaint. Section 19 HMA (territorial jurisdiction) is a *special law* that overrides general CPC jurisdiction rules. Family Courts Act, Section 7(1) grants Family Courts jurisdiction over suits under HMA *within their local limits*. Since the wife resides in Delhi (petitioner's residence is a valid ground under Section 19 HMA as \"where the wife is residing\"), the Family Court, Delhi has jurisdiction. Order VII Rule 10 CPC applies only when *no* special statute confers jurisdiction. A wrong answer reveals the student treats CPC as supreme over special matrimonial statutes, ignoring the principle *lex specialis derogat legi generali*.",
+     "self_check": true
+    },
+    {
+     "q": "In a mutual consent divorce under Section 13B HMA, the parties file a joint petition. After the first motion, the husband withdraws consent before the second motion. The wife wants to proceed. Can she? What is the procedural consequence?",
+     "a": "No, she cannot proceed unilaterally. Section 13B(2) HMA requires *both* parties to move the second motion jointly after 6 months (cooling-off) and within 18 months. If one withdraws, the petition abates. The Supreme Court in *Sureshta Devi v. Om Prakash* (1991) held consent must continue until the decree. The wife’s remedy: file a fresh contested divorce petition on other grounds (e.g., cruelty), but the mutual consent petition dies. A wrong answer reveals the student thinks mutual consent is irrevocable once filed, confusing it with a contract — it is a *continuing* consent, revocable until the decree.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the procedure for obtaining maintenance pendente lite under Section 24 HMA vs Section 125 CrPC. Which is faster? Which allows cross-examination? Why might a lawyer choose one over the other strategically?",
+     "a": "Section 24 HMA (civil, Family Court): Summary procedure, affidavit-based, limited cross-examination (court's discretion), typically faster (3-6 months). Section 125 CrPC (criminal, Magistrate): Full trial procedure, right to cross-examine witnesses, slower (1-2 years), but order is enforceable as a criminal sentence (arrest warrant for default). Strategic choice: Section 24 for speed and lower burden; Section 125 for enforceability and if husband's income is disputed (cross-examination helps). A wrong answer reveals the student doesn't grasp that *procedure dictates remedy* — same relief (maintenance), but different forums, timelines, and enforcement teeth.",
+     "self_check": true
+    },
+    {
+     "q": "The Supreme Court in *Amardeep Singh v. Harveen Kaur* (2017) held the 6-month cooling-off period under Section 13B(2) HMA is directory, not mandatory, and can be waived. Critically evaluate: Does this judicial waiver violate the legislative intent of \"cooling-off\"? What are the procedural safeguards the Court mandated for waiver?",
+     "a": "The Court balanced legislative intent (prevent impulsive divorces) with ground reality (parties already separated long, cooling-off serves no purpose). It did not strike down the provision but read it *purposively*. Safeguards mandated: (1) Parties must have genuinely settled all issues (maintenance, custody, property); (2) No possibility of reconciliation; (3) Application for waiver filed *with* the second motion; (4) Court satisfies itself on affidavits. This is judicial *interpretation*, not legislation. A wrong answer reveals the student sees this as \"judicial overreach\" without understanding the doctrine of *purposive interpretation* or the difference between *mandatory* (non-compliance voids) and *directory* (non-compliance curable) statutes.",
+     "self_check": true
+    },
+    {
+     "q": "Design a procedural checklist for a lawyer filing a contested divorce petition on grounds of desertion under Section 13(1)(ib) HMA for a client who was married in Chennai, lives in Hyderabad, and whose husband lives in London. Include: jurisdiction, limitation, service of summons abroad, evidence strategy, and interim reliefs.",
+     "a": "**Checklist:** (1) Jurisdiction: Section 19 HMA — file in Hyderabad (wife's residence) or Chennai (marriage solemnized). Choose Hyderabad for convenience. (2) Limitation: Desertion must be continuous 2 years *immediately preceding* petition — verify dates. (3) Service abroad: Order V Rule 25 CPC + Hague Service Convention (India is signatory) — send via Ministry of Law, not private courier. (4) Evidence: Desertion requires *animus deserendi* (intent to desert) + physical separation — prove via communication records, witness affidavits, husband's UK address proof. (5) Interim: File Section 24 HMA (maintenance) + Section 26 HMA (custody) *with* main petition. (6) Family Court Hyderabad has jurisdiction (Section 7 FCA). A poor answer misses Hague Convention service, treats desertion as mere separation without intent, or omits interim applications — showing procedural myopia.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

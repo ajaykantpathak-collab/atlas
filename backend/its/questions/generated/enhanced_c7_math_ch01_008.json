@@ -34,6 +34,21 @@
      "q": "Create a new 3-step number pattern sequence starting with multiples of 111 that results in a predictable escalating palindrome, and explain the rule governing it.",
      "a": "An acceptable response should show a sequence like: \nLine 1: $1 \\times 111 = 111$ \nLine 2: $11 \\times 111 = 12321$ (Wait, $11 \\times 11 = 121$, $11 \\times 111 = 1221$). \nLet's use repunits: $1 \\times 11 = 11$, $11 \\times 11 = 121$, $111 \\times 11 = 1221$. \nCriteria for a good answer: Must feature a clear multiplier rule where rows expand systematically and results exhibit symmetry or predictable arithmetic growth. Poor answers show random numbers without a governing algebraic rule.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Patterns in products involve discovering, analyzing, and generalizing regularities or predictable ______ when multiplying specific sequences of large numbers.",
+     "a": "relationships",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping at the school bookstore and need to ______ the cost of 9 notebooks at ₹11, then 99 notebooks at ₹111, and 999 notebooks at ₹1111.",
+     "a": "calculate",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping at the school ______ and need to calculate the cost of 9 notebooks at ₹11, then 99 notebooks at ₹111, and 999 notebooks at ₹1111.",
+     "a": "bookstore",
+     "self_check": true
     }
    ]
   }

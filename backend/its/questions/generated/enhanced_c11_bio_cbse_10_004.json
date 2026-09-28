@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using onion root tips to demonstrate that cytokinesis occurs after karyokinesis and that the two processes can be uncoupled.",
      "a": "Treat root tips with colchicine (spindle inhibitor) to arrest cells in metaphase, then wash out the drug and add cytochalasin B (actin inhibitor) at different time points. Fix and stain samples at intervals. Observe: without cytochalasin B, binucleate cells appear after telophase (karyokinesis + cytokinesis). With cytochalasin B added after anaphase, binucleate cells form (karyokinesis without cytokinesis). A poor answer (e.g., \"just stain and count nuclei\") fails to show experimental manipulation that separates the two processes and tests their independence.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Metaphase, anaphase, and telophase are the three sequential stages of ______ (nuclear division) in mitosis where condensed chromosomes align at the equatorial plate, sister chromatids separate and move to opposite poles, and chromosome clusters decondense to form two genetically identical daughter nuclei, respectively.",
+     "a": "karyokinesis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine watching a time-lapse video of an onion root tip cell dividing: you see chromosomes suddenly line up like beads on a string at the cell's centre (______), then the beads split and glide apart to opposite ends (anaphase), and finally the chromosomes unwind and two new nuclei appear (telophase).",
+     "a": "metaphase",
+     "self_check": true
+    },
+    {
+     "q": "What is Metaphase, anaphase, and telophase? State the definition given in this lesson.",
+     "a": "Metaphase, anaphase, and telophase are the three sequential stages of karyokinesis (nuclear division) in mitosis where condensed chromosomes align at the equatorial plate, sister chromatids separate and move to opposite poles, and chromosome clusters decondense to form two genetically identical daughter nuclei, respectively.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Metaphase, anaphase, and telophase?",
+     "a": "Students often think that in anaphase, chromosomes are \"pulled by their arms\" toward the poles.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can identify each stage from a microscopic image or description, explain the role of kinetochores and spindle fibres in chromosome movement, and trace the changes in chromosome number (N) and DNA content (C) from metaphase through telophase.",
+     "self_check": true
     }
    ]
   }

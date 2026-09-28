@@ -40,6 +40,38 @@ XP_PER_LEVEL = 100
 SM2_MIN_EF = 1.3
 
 
+# ---------------------------------------------------------------------------
+# Streak read model lives in services/streak_state.py (stdlib-only, dependency
+# free) so routers can share it without importing the heavy service/model graph.
+# It is re-exported here because this module owns the WRITER (`update_streak`),
+# and therefore owns the day math that every read path must agree on.
+# ---------------------------------------------------------------------------
+from backend.services.streak_state import (  # noqa: E402
+    STREAK_ACTIVE_TODAY,
+    STREAK_AT_RISK,
+    STREAK_LAPSED,
+    STREAK_NONE,
+    STREAK_UNKNOWN,
+    classify_streak,
+    unknown_streak,
+)
+
+
+def streak_read_state(
+    streak_days: Any,
+    last_activity_date: Optional[date],
+    today: Optional[date] = None,
+) -> dict[str, Any]:
+    """Decay-aware view of a stored streak counter (see streak_state.py).
+
+    `current_streak` is 0 for a lapsed streak, so no surface can present a
+    streak as alive after the student has missed more than a day;
+    `recorded_streak` keeps the raw counter so nothing is silently hidden.
+    """
+    return classify_streak(streak_days, last_activity_date, today)
+
+
+
 class ProgressService:
     """Progress tracking, mastery, review, and gamification service."""
 
@@ -62,6 +94,13 @@ class ProgressService:
         mastery_subjects = await ProgressService.get_subject_mastery(db, user_id)
         recent_activity = await ProgressService.get_recent_activity(db, user_id, limit=5)
 
+        # Decay-aware: the stored counter is NOT a current streak (see
+        # streak_read_state). Never hand a lapsed counter to a dashboard.
+        _streak = streak_read_state(
+            getattr(user, "streak_days", 0),
+            getattr(user, "last_activity_date", None),
+        )
+
         return {
             "user": {
                 "id": str(user.id),
@@ -74,13 +113,17 @@ class ProgressService:
                 "is_premium": user.is_premium,
                 "total_xp": total_xp,
                 "current_level": level,
-                "streak_days": user.streak_days or 0,
+                "streak_days": _streak["current_streak"],
             },
             "total_xp": total_xp,
             "level": level,
             "level_xp": level_xp,
             "level_max": XP_PER_LEVEL,
-            "streak": user.streak_days or 0,
+            "streak": _streak["current_streak"],
+            # Decay-aware extras for callers that need to tell "lapsed" apart
+            # from "never practised" (ignored by DashboardSchema).
+            "streak_recorded": _streak["recorded_streak"],
+            "streak_state": _streak["state"],
             "recommended_lessons": recommended,
             "mastery_subjects": mastery_subjects,
             "recent_activity": recent_activity,
@@ -146,8 +189,32 @@ class ProgressService:
     # Subject mastery
     # ================================================================== #
     @staticmethod
+    def _parse_corpus_node_subject(node_id: str) -> Optional[str]:
+        """Subject code out of a corpus node id.
+
+        c10_bio_cbse_01_001 -> "bio"; c11_hin_ar_cbse_02_005 -> "hin_ar".
+        Returns None for ids that match no corpus shape (the old toy
+        knowledge_nodes ids like c10_sci_003_01).
+        """
+        import re as _re
+        m = _re.match(
+            r"^c(\d{1,2})_([a-z]+(?:_[a-z]+)*?)_(?:cbse|ch\d+|u\d+)"
+            r"_\d{1,3}_\d{1,3}$",
+            str(node_id or "").strip().lower())
+        return m.group(2) if m else None
+
     async def get_subject_mastery(db: AsyncSession, user_id: str) -> list[dict]:
-        """Return per-subject mastery breakdown."""
+        """Return per-subject mastery breakdown.
+
+        C10 audit [STUDENT-C10][P3 MASTERY-MAP-SIZE]: the map must measure
+        the student against their REAL class syllabus (the enhanced-nodes
+        corpus — 660 nodes for class 10), not the 7-row toy
+        ``knowledge_nodes`` seed table the dashboard previously aggregated
+        (a fresh class-10 account was told its syllabus was ~6 nodes).
+        Totals now come from the corpus catalog for the user's class;
+        mastered/learning counts still come from the user's actual mastery
+        records, so the bars stay honest about what has been touched.
+        """
         # Get all mastery records for the user
         mastery_result = await db.execute(
             select(MasteryRecord).where(MasteryRecord.user_id == user_id)
@@ -157,11 +224,71 @@ class ProgressService:
             mr.node_id: mr.mastery_probability for mr in mastery_records
         }
 
-        # Get all nodes grouped by subject
+        # The user's class → the real catalog for that class
+        class_level: Optional[int] = None
+        try:
+            row = (await db.execute(
+                select(User.class_level).where(User.id == user_id)
+            )).first()
+            if row and row[0]:
+                class_level = int(row[0])
+        except Exception:
+            class_level = None
+
+        catalog: dict[str, int] = {}
+        if class_level is not None:
+            try:
+                from backend.services.enhanced_nodes import load_index
+                idx = load_index()
+                counts = idx.per_class_subject_counts().get(
+                    str(class_level), {})
+                catalog = {str(k): int(v) for k, v in counts.items()}
+            except Exception:
+                catalog = {}
+
+        if catalog:
+            subject_data: dict[str, dict] = {
+                subj: {
+                    "subject": subj,
+                    "total_nodes": total,
+                    "mastered_nodes": 0,
+                    "learning_nodes": 0,
+                    "not_started_nodes": total,
+                    "mastery_sum": 0.0,
+                    "mastery_percentage": 0,
+                    "weekly_change": 0,
+                }
+                for subj, total in sorted(catalog.items())
+            }
+            for mr in mastery_records:
+                subj = ProgressService._parse_corpus_node_subject(mr.node_id)
+                data = subject_data.get(subj or "")
+                if data is None:
+                    continue  # record outside this class's catalog
+                mastery = mr.mastery_probability
+                data["not_started_nodes"] = max(
+                    0, data["not_started_nodes"] - 1)
+                if mastery >= 0.8:
+                    data["mastered_nodes"] += 1
+                    data["mastery_sum"] += mastery
+                else:
+                    data["learning_nodes"] += 1
+                    data["mastery_sum"] += mastery
+            result = []
+            for data in subject_data.values():
+                if data["total_nodes"] > 0:
+                    data["mastery_percentage"] = int(
+                        (data["mastery_sum"] / data["total_nodes"]) * 100
+                    )
+                result.append(data)
+            return result
+
+        # Fallback (corpus index unavailable or class unknown): the legacy
+        # knowledge_nodes aggregation.
         nodes_result = await db.execute(select(KnowledgeNodeModel))
         all_nodes = list(nodes_result.scalars().all())
 
-        subject_data: dict[str, dict] = {}
+        subject_data = {}
         for node in all_nodes:
             subj = node.subject
             if subj not in subject_data:
@@ -340,6 +467,33 @@ class ProgressService:
         return result.scalar_one_or_none()
 
     @staticmethod
+    async def get_all_mastery_records(db: AsyncSession, user_id: str) -> list:
+        """Return compact mastery rows for every node the user has touched.
+
+        Repeated practice can leave several rows per ``node_id``; clients
+        get ONE row per node with the best probability seen. Only nodes
+        with real attempts are returned — the galaxy treats everything
+        absent from this list as unexplored.
+        """
+        result = await db.execute(
+            select(
+                MasteryRecord.node_id,
+                func.max(MasteryRecord.mastery_probability).label("mp"),
+                func.max(MasteryRecord.attempts).label("attempts"),
+            )
+            .where(MasteryRecord.user_id == user_id)
+            .group_by(MasteryRecord.node_id)
+        )
+        return [
+            {
+                "node_id": node_id,
+                "mastery_probability": float(mp or 0.0),
+                "attempts": int(attempts or 0),
+            }
+            for node_id, mp, attempts in result.all()
+        ]
+
+    @staticmethod
     async def update_mastery_bkt(
         db: AsyncSession, user_id: str, node_id: str, is_correct: bool
     ) -> float:
@@ -399,6 +553,94 @@ class ProgressService:
     # ================================================================== #
     # Spaced repetition (SM-2)
     # ================================================================== #
+    @staticmethod
+    async def schedule_practice_review(
+        db: AsyncSession,
+        user_id: str,
+        node_id: str,
+        concept_name: str,
+        is_correct: bool,
+    ) -> None:
+        """Feed a practice answer into the SM-2 queue.
+
+        Creates the node's ReviewItem on first sight (due tomorrow so a
+        fresh concept always comes back once) and applies the SM-2 quality
+        update for subsequent answers. Mastery is NOT touched here —
+        practice's own BKT path already applied it for this answer.
+        """
+        if not node_id:
+            return
+        result = await db.execute(
+            select(ReviewItem).where(
+                and_(
+                    ReviewItem.user_id == user_id,
+                    ReviewItem.node_id == node_id,
+                )
+            )
+        )
+        item = result.scalar_one_or_none()
+        quality = 4 if is_correct else 1
+        today = date.today()
+        created = item is None
+        if created:
+            # concept_name must be human-readable — the queue serializes it
+            # to students. Prefer the node's authored title when the caller
+            # only passed an internal id.
+            name = concept_name
+            if not name or name == node_id or name.startswith("c") and "_" in name:
+                try:
+                    from backend.models.enrichment import EnrichmentContent as _EC
+
+                    ec = (
+                        await db.execute(
+                            select(_EC.title).where(_EC.node_id == node_id)
+                        )
+                    ).scalar_one_or_none()
+                    if ec:
+                        name = ec
+                except Exception:
+                    pass
+            item = ReviewItem(
+                user_id=user_id,
+                node_id=node_id,
+                concept_name=name or "Topic",
+                easiness_factor=2.5,
+                interval_days=1,
+                repetitions=0,
+                next_review_date=today + timedelta(days=1),
+                review_history=[],
+            )
+            db.add(item)
+            # First sighting already counts as the first review — a wrong
+            # answer on first exposure still resurfaces tomorrow; a correct
+            # one earns the normal first-rep interval.
+        # SM-2 quality update (mirrors submit_review, minus mastery)
+        ef = item.easiness_factor
+        reps = item.repetitions
+        interval = item.interval_days
+        ef = ef + (0.1 - (5 - quality) * (0.08 + (5 - quality) * 0.02))
+        ef = max(SM2_MIN_EF, ef)
+        if quality < 3:
+            reps = 0
+            interval = 1
+        else:
+            reps += 1
+            interval = 1 if reps == 1 else (6 if reps == 2 else round(interval * ef))
+        item.easiness_factor = ef
+        item.interval_days = interval
+        item.repetitions = reps
+        item.last_review_date = today
+        item.next_review_date = today + timedelta(days=interval)
+        # A fresh miss is due TODAY — the queue should surface "review what
+        # you just got wrong" same-day rather than hiding it until tomorrow.
+        if created and quality < 3:
+            item.next_review_date = today
+        history = item.review_history or []
+        history.append(
+            {"date": today.isoformat(), "quality": quality, "source": "practice"}
+        )
+        item.review_history = history
+
     @staticmethod
     async def get_review_queue(db: AsyncSession, user_id: str) -> list[ReviewItem]:
         """Return items due for review (next_review_date <= today)."""
@@ -687,7 +929,10 @@ class ProgressService:
             title=title,
             subject=subject,
             score=score,
-            metadata=metadata or {},
+            # NOTE: the column attr is `extra_data` (mapped to the DB
+            # "metadata" column). Passing `metadata=` would silently set
+            # SQLAlchemy's declarative MetaData attribute and drop the data.
+            extra_data=metadata or {},
         )
         db.add(log)
         await db.flush()

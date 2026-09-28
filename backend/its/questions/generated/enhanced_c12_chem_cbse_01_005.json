@@ -34,6 +34,26 @@
      "q": "Design a simple experiment to verify Raoult's law for a binary mixture of two miscible volatile liquids (e.g., acetone and chloroform). List the apparatus, measurements needed, and how you would plot the data to confirm linearity. What would a deviation from linearity indicate?",
      "a": "Apparatus: Distillation setup or static vapour pressure apparatus (closed container with manometer), thermometer, syringes for precise mixing, pure acetone and chloroform. Procedure: (1) Measure vapour pressure of pure acetone (p_A°) and pure chloroform (p_C°) at fixed T. (2) Prepare 5-6 mixtures with known mole fractions x_A (0.1, 0.3, 0.5, 0.7, 0.9). (3) Equilibrate each mixture at same T, measure total vapour pressure p_total. (4) Plot p_total vs x_A — should be straight line per p_total = p_A° + (p_C° - p_A°) x_A. Also plot p_A = y_A p_total vs x_A (need vapour composition y_A via gas chromatography or condensation) — should be straight line through origin with slope p_A°. Deviation from linearity indicates non-ideal behaviour: positive deviation (p_total higher than predicted) means A-B interactions weaker than A-A/B-B; negative deviation (p_total lower) means A-B interactions stronger. A poor experimental design (e.g., not controlling temperature, not allowing equilibrium, using open system) reveals misunderstanding of the conditions for Raoult's law: constant T, closed system, equilibrium.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Raoult's Law states that for a solution of volatile liquids, the partial vapour pressure of each component is directly ______ to its mole fraction in the solution: p₁ = p₁° x₁ and p₂ = p₂° x₂, where p₁° and p₂° are the vapour pressures of the pure components at the same temperature.",
+     "a": "proportional",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you leave a glass of water and a glass of ______ on your kitchen counter overnight.",
+     "a": "ethanol",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) State Raoult's law for both volatile liquid-liquid solutions and solid-liquid solutions with non-volatile solutes.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you leave a glass of water and a glass of ethanol on your kitchen counter ______.",
+     "a": "overnight",
+     "self_check": true
     }
    ]
   }

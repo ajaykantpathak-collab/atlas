@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_app_cbse_01_001",
+ "concepts": [
+  {
+   "id": "enh:c12_app_cbse_01_001",
+   "title": "c12_app_cbse_01_001",
+   "questions": [
+    {
+     "q": "What is the value of (-47) mod 12? Show the division equation (dividend = divisor × quotient + remainder) that proves your answer.",
+     "a": "Correct answer: 1. Division equation: -47 = 12 × (-4) + 1. A wrong answer of -11 or 11 reveals the student does not enforce the condition 0 ≤ r < m for negative dividends; they likely computed -47 = 12 × (-3) - 11 (remainder -11, invalid) or -47 = 12 × (-4) - 11 (remainder -11) and took absolute value. The quotient must be the floor (rounded down), not truncated toward zero.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why (127 × 137 × 23 × 50 × 235 × 15) mod 7 can be computed by first reducing each factor modulo 7, multiplying the reduced values, and then taking modulo 7 of the product. Use the multiplication property to justify each step.",
+     "a": "The multiplication property states (A × B) mod C = [(A mod C) × (B mod C)] mod C. By induction, this extends to any number of factors: the remainder of a product depends only on the remainders of the factors. A wrong answer that says \"it's faster\" or \"numbers get smaller\" shows procedural understanding without grasping the structural reason: modular arithmetic respects multiplication because congruence is preserved under multiplication. The student must articulate that we are replacing each integer with its congruence class representative.",
+     "self_check": true
+    },
+    {
+     "q": "A train departs every 45 minutes from a station. If the first train departs at 6:00 AM, what is the departure time of the 50th train? Use modular arithmetic to solve.",
+     "a": "50th train departs after 49 intervals of 45 minutes = 2205 minutes. 2205 mod 60 = 45 minutes (since 2205 = 60 × 36 + 45). 36 hours after 6:00 AM is 6:00 PM next day (24 hrs) + 12 hrs = 6:00 AM day after. Add 45 minutes → 6:45 AM two days later. A wrong answer of 6:45 PM or 6:00 AM reveals confusion between number of intervals (n-1) vs number of trains (n), or mishandling hour rollover (mod 24 vs mod 12). The key insight: (n-1) intervals, not n.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the results of (a + b) mod m and (a mod m + b mod m) mod m for a = -23, b = 17, m = 10. Are they equal? If yes, prove it using the division algorithm; if no, explain why the property fails.",
+     "a": "Yes, they are equal: (-23 + 17) mod 10 = (-6) mod 10 = 4. (-23 mod 10 = 7, 17 mod 10 = 7; 7 + 7 = 14; 14 mod 10 = 4). The property holds for all integers, including negatives, because the addition property is derived from the division algorithm: a = mq₁ + r₁, b = mq₂ + r₂ ⇒ a+b = m(q₁+q₂) + (r₁+r₂), and (r₁+r₂) mod m is the final remainder. A student who claims the property fails for negatives misunderstands that the property is an identity in the ring Z/mZ, not just a computational trick for positive numbers.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"To compute (-100) mod 7, I can just compute 100 mod 7 = 2, then take -2 mod 7 = 5.\" Evaluate this method. Is it always valid? Justify your answer with a general proof or counterexample.",
+     "a": "The method is valid. Proof: Let x > 0. (-x) mod m = m - (x mod m) if x mod m ≠ 0, else 0. Because -x = m(-q) - r = m(-q-1) + (m-r) when x = mq + r (0 < r < m). So (-x) mod m = m - r = m - (x mod m). For x=100, m=7: 100 mod 7 = 2 → (-100) mod 7 = 7 - 2 = 5. A student who says \"it's not valid because remainder can't be negative\" confuses the intermediate -2 with the final remainder 5. The method works because it implicitly uses the identity (-a) mod m = (m - (a mod m)) mod m.",
+     "self_check": true
+    },
+    {
+     "q": "Design a real-world scheduling problem (not clock/calendar) that requires modular arithmetic with modulus 8 to solve. State the problem, identify what represents the modulus, and show the full solution.",
+     "a": "Example problem: A factory operates 3 shifts of 8 hours each (Shift A: 6 AM–2 PM, Shift B: 2 PM–10 PM, Shift C: 10 PM–6 AM). A machine requires maintenance every 50 hours of operation. If maintenance was last done at the start of Shift A on Monday, during which shift and day will the 4th maintenance be due? Modulus = 24 (hours in a day) or 8 (shift length) — both work. Using mod 8: 50 mod 8 = 2 hours into a shift. 4th maintenance at 4×50 = 200 hours. 200 mod 24 = 8 hours → 8 hours into a day = end of Shift A. 200 mod 8 = 0 → exactly at shift boundary. A poor answer uses only clock arithmetic (mod 12/24) without recognizing shift cycles (mod 8) as the natural modulus, showing inability to abstract the cyclic structure from the context.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

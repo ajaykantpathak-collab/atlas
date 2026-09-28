@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using only a thermometer, a known mass of solvent (water), and a solute (either NaCl or glucose) to demonstrate the difference in Van't Hoff factor between an electrolyte and a non-electrolyte. Describe the procedure, measurements, and how you would calculate i from the data.",
      "a": "Procedure: (1) Measure freezing point of pure water (Tf°). (2) Dissolve 1 g glucose in 50 g water, measure freezing point (Tf_glu). (3) Dissolve 1 g NaCl in 50 g water, measure freezing point (Tf_NaCl). (4) Calculate ΔTf for each. (5) Compute molality for each solute (using molar masses 180 and 58.5 g/mol). (6) Calculate i = ΔTf_obs / (Kf × m). Expected: i_glu ≈ 1, i_NaCl ≈ 2. A good answer includes controlling for supercooling, using same solvent mass, and noting that NaCl's i will be slightly less than 2 due to incomplete dissociation at this concentration. A poor answer omits the calculation of molality or uses boiling point elevation without accounting for the small ΔTb.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Van't Hoff factor (i) is a dimensionless quantity that accounts for the deviation of ______ observed colligative properties from theoretical values due to solute dissociation or association in solution.",
+     "a": "experimentally",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are preparing an oral rehydration solution (ORS) at home: you dissolve a packet of ______ (NaCl, KCl, glucose) in 1 litre of water.",
+     "a": "electrolytes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are preparing an oral rehydration solution (ORS) at home: you dissolve a packet of electrolytes (NaCl, KCl, glucose) in ______ litre of water.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) calculate the Van't Hoff factor from experimental colligative property data (ΔTb, ΔTf, π, or relative lowering of vapour pressure), (2) determine the degree of dissociation (α) for weak electrolytes or degree of association for dimerization using the Van't Hoff factor, (3) compute the abnormal molar mass.",
+     "self_check": true
     }
    ]
   }

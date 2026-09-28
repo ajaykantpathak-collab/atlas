@@ -34,6 +34,16 @@
      "q": "Create a word problem based on a real-life Indian context (savings, installments, stacking objects, etc.) where the solver must find an unknown term of an AP. The problem should require finding the common difference first from two given terms, then finding a later term.",
      "a": "Example: \"Rohan saves ₹100 in January and increases his monthly savings by a fixed amount. In May, he saves ₹220. How much will he save in December?\" \nSolution path: January = 1st term (\\(a\\)), May = 5th term (\\(a_5 = 220\\)). \\(a_5 = a + 4d \\Rightarrow 100 + 4d = 220 \\Rightarrow d = 30\\). December = 12th term: \\(a_{12} = 100 + 11 \\times 30 = 430\\). A poor answer gives a problem that only requires direct substitution (e.g., \"first term 5, difference 3, find 10th term\") or has inconsistent data. This reveals the student cannot reverse-engineer the problem structure and only understands forward application.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are saving ₹50 in the first week and ______ your savings by ₹10 each week.",
+     "a": "increase",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can solve multi-step problems where they must set up and solve linear equations derived from the nth term formula to find unknown terms, first term, common difference, or term position in an AP, including problems where two terms are given and the AP must be reconstructed first.",
+     "self_check": true
     }
    ]
   }

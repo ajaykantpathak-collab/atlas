@@ -24,12 +24,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "trace the path",
-     "explain": "Add the lengths of every stretch for distance."},
-    {"step": 2, "action": "draw the straight line",
-     "explain": "Join start to end with an arrow for displacement."},
-    {"step": 3, "action": "compare",
-     "explain": "Displacement never exceeds distance and carries direction."}
+    {
+     "step": 1,
+     "action": "trace the path",
+     "explain": "Add the lengths of every stretch for distance."
+    },
+    {
+     "step": 2,
+     "action": "draw the straight line",
+     "explain": "Join start to end with an arrow for displacement."
+    },
+    {
+     "step": 3,
+     "action": "compare",
+     "explain": "Displacement never exceeds distance and carries direction."
+    }
    ]
   },
   {
@@ -50,10 +59,22 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "divide distance by time",
+    {
+     "step": 1,
+     "action": "divide distance by time",
      "explain": "Speed equals distance covered over the time taken.",
-     "compute": "speed = distance / time"}
-   ]
+     "compute": "speed = distance / time"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "speed = distance / time",
+     "compute": "speed = distance / time"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.104.4.3",
@@ -73,13 +94,28 @@
    ],
    "solution_type": "compute",
    "solution_steps": [
-    {"step": 1, "action": "find the velocity change",
+    {
+     "step": 1,
+     "action": "find the velocity change",
      "explain": "Subtract the initial velocity u from the final velocity v.",
-     "compute": "dv = v - u"},
-    {"step": 2, "action": "divide by the time",
+     "compute": "dv = v - u"
+    },
+    {
+     "step": 2,
+     "action": "divide by the time",
      "explain": "The quotient is the acceleration.",
-     "compute": "acceleration = dv / t"}
-   ]
+     "compute": "acceleration = dv / t"
+    }
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "acceleration = (v - u) / t",
+     "compute": "acceleration = (v - u) / t"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "iesc.104.4.4",
@@ -99,12 +135,21 @@
    ],
    "solution_type": "verify_property",
    "solution_steps": [
-    {"step": 1, "action": "identify the axes",
-     "explain": "Note which quantity sits on each axis."},
-    {"step": 2, "action": "read the slope",
-     "explain": "Slope of distance-time gives speed; of velocity-time gives acceleration."},
-    {"step": 3, "action": "read the area if needed",
-     "explain": "The area under a velocity-time graph gives distance covered."}
+    {
+     "step": 1,
+     "action": "identify the axes",
+     "explain": "Note which quantity sits on each axis."
+    },
+    {
+     "step": 2,
+     "action": "read the slope",
+     "explain": "Slope of distance-time gives speed; of velocity-time gives acceleration."
+    },
+    {
+     "step": 3,
+     "action": "read the area if needed",
+     "explain": "The area under a velocity-time graph gives distance covered."
+    }
    ]
   }
  ],
@@ -120,9 +165,12 @@
     "time": "time taken in seconds"
    },
    "solution_template": [
-    {"step": 1, "action": "divide distance by time",
+    {
+     "step": 1,
+     "action": "divide distance by time",
      "explain": "Speed equals distance over time.",
-     "compute": "speed = distance / time"}
+     "compute": "speed = distance / time"
+    }
    ]
   },
   {
@@ -136,9 +184,12 @@
     "time": "time in hours"
    },
    "solution_template": [
-    {"step": 1, "action": "divide distance by time",
+    {
+     "step": 1,
+     "action": "divide distance by time",
      "explain": "Total distance over total time.",
-     "compute": "speed = distance / time"}
+     "compute": "speed = distance / time"
+    }
    ]
   },
   {
@@ -153,12 +204,18 @@
     "t": "time in seconds"
    },
    "solution_template": [
-    {"step": 1, "action": "find the velocity change",
+    {
+     "step": 1,
+     "action": "find the velocity change",
      "explain": "v minus u.",
-     "compute": "dv = v - u"},
-    {"step": 2, "action": "divide by time",
+     "compute": "dv = v - u"
+    },
+    {
+     "step": 2,
+     "action": "divide by time",
      "explain": "The quotient is the acceleration.",
-     "compute": "acceleration = dv / t"}
+     "compute": "acceleration = dv / t"
+    }
    ]
   },
   {
@@ -173,12 +230,18 @@
     "t": "time in seconds"
    },
    "solution_template": [
-    {"step": 1, "action": "find the velocity change",
+    {
+     "step": 1,
+     "action": "find the velocity change",
      "explain": "Subtract the starting velocity.",
-     "compute": "dv = v - u"},
-    {"step": 2, "action": "divide by time",
+     "compute": "dv = v - u"
+    },
+    {
+     "step": 2,
+     "action": "divide by time",
      "explain": "Change per second is the acceleration.",
-     "compute": "acceleration = dv / t"}
+     "compute": "acceleration = dv / t"
+    }
    ]
   }
  ],
@@ -187,17 +250,17 @@
    "id": "ex4.1",
    "source_ref": "iesc104.txt exercises",
    "questions": [
-     "Find the speed and velocity for the given journeys.",
-     "Distinguish distance and displacement with the given example.",
-     "Calculate the acceleration for the given velocity-time data."
+    "Find the speed and velocity for the given journeys.",
+    "Distinguish distance and displacement with the given example.",
+    "Calculate the acceleration for the given velocity-time data."
    ]
   },
   {
    "id": "ex4.2",
    "source_ref": "iesc104.txt graph exercises",
    "questions": [
-     "Interpret the given distance-time graph.",
-     "Find the acceleration from the given velocity-time graph."
+    "Interpret the given distance-time graph.",
+    "Find the acceleration from the given velocity-time graph."
    ]
   }
  ]

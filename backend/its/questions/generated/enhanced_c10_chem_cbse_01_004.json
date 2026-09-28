@@ -34,6 +34,26 @@
      "q": "Design a simple experiment to demonstrate photolytic decomposition of silver bromide. List materials, procedure, and expected observation.",
      "a": "Materials: Silver bromide (AgBr), watch glass, sunlight. Procedure: Spread AgBr on watch glass, expose to sunlight. Observation: Pale yellow AgBr turns grey due to formation of silver metal. A poor answer omits the color change or uses silver chloride without noting similar behavior.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A ______ reaction is a chemical reaction in which a single compound breaks down into two or more simpler substances (elements or compounds) under the influence of heat, light, or electricity.",
+     "a": "decomposition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Start with a real-world ______: When you heat green ferrous sulphate crystals in a test tube, they turn reddish-brown and release a gas with a choking smell (like in the school lab).",
+     "a": "observation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: End with the key reaction: ______FeSO₄(s) → Fe₂O₃(s) + SO₂(g) + SO₃(g) (thermal decomposition of ferrous sulphate).",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify a decomposition reaction from a given chemical equation, classify it as thermal, electrolytic, or photolytic based on the energy source, write balanced equations for common decomposition reactions (e.g., calcium carbonate, water, silver chloride), and state the conditions required for each type.",
+     "self_check": true
     }
    ]
   }

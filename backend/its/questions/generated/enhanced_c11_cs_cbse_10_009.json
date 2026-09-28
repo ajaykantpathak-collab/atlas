@@ -34,6 +34,21 @@
      "q": "Design a real-life scenario (not a ticket counter or printer) where a queue is the natural data structure. Describe the entities, the arrival process, and the service process. Justify why a stack would be inappropriate.",
      "a": "Example: A car wash service. Cars arrive in order and are washed in the same order. Arrival = enqueue at rear; washing = dequeue from front. A stack would wash the last arrived car first, causing unfairness and complaints. A good answer identifies a sequential service scenario. If a student gives a scenario like \"undo button in editor\", they are describing a stack (LIFO), showing they cannot differentiate contexts requiring FIFO vs LIFO.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A queue is a linear data ______ that follows the First-In-First-Out (FIFO) principle, where the element inserted first is the first one to be removed.",
+     "a": "structure",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ in a queue at a railway ticket counter: the person who arrived first gets served first, and new people join at the back.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to define a queue precisely using the terms \"linear data structure\", \"FIFO\", \"front\", and \"rear\", give at least two real-life analogies, and explain how it differs from a stack (LIFO) in terms of insertion/deletion ends and order of processing.",
+     "self_check": true
     }
    ]
   }

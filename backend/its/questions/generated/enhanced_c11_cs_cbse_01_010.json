@@ -34,6 +34,31 @@
      "q": "Design a flowchart that a technician could use to diagnose whether a boot failure occurs during POST, bootloader stage, or kernel loading. Include decision points for beep codes, screen messages, and LED indicators.",
      "a": "A good flowchart starts with \"Power on → Observe beep codes/LEDs\". If beeps/POST codes appear → POST failure. If manufacturer logo appears but no OS logo → bootloader failure (check ESP/MBR). If OS logo appears but hangs → kernel/driver failure. A poor answer that lists only \"check cables\" shows inability to isolate the boot stage.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the self-initiated process where a computer loads the operating system kernel from secondary storage into primary memory (RAM) and transfers control to it, enabling the system to become operational.",
+     "a": "Bootstrapping",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine ______ the power button on a laptop that has been shut down for hours versus selecting \"Restart\" from the Start menu.",
+     "a": "pressing",
+     "self_check": true
+    },
+    {
+     "q": "What is Bootstrapping? State the definition given in this lesson.",
+     "a": "Bootstrapping is the self-initiated process where a computer loads the operating system kernel from secondary storage into primary memory (RAM) and transfers control to it, enabling the system to become operational.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Bootstrapping?",
+     "a": "Students often believe that \"Restart\" (warm boot) and \"Shut down → Power on\" (cold boot) are identical because both reload the OS.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can correctly distinguish between cold boot and warm boot scenarios, explain the role of ROM BIOS/UEFI and bootloader in each, and sequence the steps from power-on to OS prompt for both types.",
+     "self_check": true
     }
    ]
   }

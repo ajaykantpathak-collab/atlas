@@ -34,6 +34,16 @@
      "q": "Create a binomial expression of the form \\((ax^p + bx^q)^n\\) such that the 3rd term is a constant (independent of \\(x\\)). Provide the expression and verify by showing the general term and solving for the condition.",
      "a": "Example: \\((2x^3 + 5x^{-2})^5\\). General term: \\(T_{r+1} = \\binom{5}{r} (2x^3)^{5-r} (5x^{-2})^r = \\binom{5}{r} 2^{5-r} 5^r x^{15-3r-2r} = \\binom{5}{r} 2^{5-r} 5^r x^{15-5r}\\).\nFor 3rd term, \\(r=2\\): power of \\(x = 15 - 5(2) = 5\\) (not constant). To make 3rd term constant, need \\(15-5r=0\\) at \\(r=2\\) → impossible with integer \\(n\\). Adjust: choose \\(n=4\\), \\(p=2\\), \\(q=-1\\). Then power = \\(2(4-r) - r = 8-3r\\). At \\(r=2\\), power = \\(8-6=2\\). Need power=0 at \\(r=2\\) → \\(2n - 3r = 0\\)? Let's design systematically: Want \\(T_3\\) constant → \\(r=2\\). Let \\(a = x^p\\), \\(b = x^q\\). Power = \\(p(n-2) + 2q = 0\\). Choose \\(n=5\\), \\(p=2\\), \\(q=-3\\): power = \\(2(3) + 2(-3) = 0\\). Expression: \\((x^2 + x^{-3})^5\\). Verify: \\(T_3 = \\binom{5}{2} (x^2)^3 (x^{-3})^2 = 10 x^6 x^{-6} = 10\\). A poor answer (e.g., giving an expression where the 3rd term still has \\(x\\)) reveals inability to work backwards from the condition to construct parameters.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a rangoli ______ where each layer adds a new ring of dots.",
+     "a": "pattern",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a rangoli pattern where each layer adds a new ring of dots.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

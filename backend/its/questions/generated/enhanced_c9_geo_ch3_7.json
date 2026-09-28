@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c9_geo_ch3_7",
+ "concepts": [
+  {
+   "id": "enh:c9_geo_ch3_7",
+   "title": "c9_geo_ch3_7",
+   "questions": [
+    {
+     "q": "What is the maximum breadth of the territorial sea as defined by UNCLOS?",
+     "a": "The maximum breadth of the territorial sea is 12 nautical miles from the baseline. A wrong answer like \"200 nautical miles\" reveals the student is confusing the territorial sea with the Exclusive Economic Zone (EEZ), indicating a lack of understanding of the distinct maritime zones and their specific purposes under UNCLOS.",
+     "self_check": true
+    },
+    {
+     "q": "Why does a coastal state like India have the right to regulate marine scientific research in its Exclusive Economic Zone (EEZ) but not on the high seas?",
+     "a": "India can regulate marine scientific research in its EEZ because UNCLOS grants the coastal state jurisdiction over such activities to protect its resource-related rights, whereas on the high seas, marine scientific research is a freedom available to all states under the principle of the high seas as res communis. A wrong answer claiming India has no rights in the EEZ or full ownership of the high seas shows a failure to grasp the functional, limited nature of EEZ rights versus the communal nature of high seas.",
+     "self_check": true
+    },
+    {
+     "q": "If the baseline of India's coast near Mumbai is drawn at the low-water line, and a fishing village is located 10 nautical miles offshore, in which UNCLOS maritime zone is this village located, and what rights does India exercise there?",
+     "a": "The village is located in the territorial sea (since 10 nm < 12 nm). In this zone, India exercises full sovereignty, including the right to regulate fishing, navigation, security, and resource exploitation. A student answering \"contiguous zone\" or \"EEZ\" and stating India only has fishing rights reveals confusion about zone boundaries and the nature of sovereignty in the territorial sea versus functional rights in outer zones, indicating a need to revisit the sequential and purpose-based structure of UNCLOS zones.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the rights of a landlocked country like Nepal and a coastal country like India regarding access to and use of the high seas under UNCLOS.",
+     "a": "Both landlocked and coastal states have equal rights to navigate, fly over, lay submarine cables, and conduct marine scientific research on the high seas under UNCLOS (Articles 87 and 90). However, only coastal states like India have rights to the EEZ and continental shelf adjacent to their coast; landlocked states like Nepal have no such zones but retain access to and from the sea through transit states. A wrong answer claiming Nepal has no rights on the high seas or that India can exclude Nepal from high seas use reveals a misunderstanding of the high seas as a global commons accessible to all states, regardless of coastline.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"UNCLOS allows India to claim sovereignty over the entire continental shelf extending from its coast, no matter how far it goes into the ocean.\"",
+     "a": "The statement is false. While UNCLOS grants coastal states sovereign rights over the continental shelf for exploring and exploiting natural resources, this right is not unlimited. The shelf extends to the outer edge of the continental margin or to 200 nautical miles from the baseline if the margin does not reach that far. Claims beyond 200 nm require scientific submission to the Commission on the Limits of the Continental Shelf (CLCS). India's claim is limited to 200 nm or the natural prolongation, whichever is farther, subject to CLCS approval. A wrong answer accepting the statement reveals a misconception that UNCLOS grants unlimited territorial expansion, failing to distinguish between sovereign rights (resource-focused) and sovereignty (territorial control), and overlooking the procedural and scientific limits on shelf claims.",
+     "self_check": true
+    },
+    {
+     "q": "Design a public awareness poster for fishing communities in Odisha explaining their rights and responsibilities under UNCLOS when fishing beyond 12 nautical miles but within 200 nautical miles from the coast.",
+     "a": "A good poster would show: (1) a diagram of maritime zones with labels (territorial sea 12 nm, EEZ 200 nm), (2) text stating that beyond 12 nm, India has sovereign rights for fishing and resource use in the EEZ, (3) responsibilities like following sustainable catch limits, reporting catches, and not polluting, (4) a note that foreign ships can pass through but cannot fish without permission. A poor poster missing zone labels, claiming ownership beyond 200 nm, or omitting responsibilities reveals a failure to grasp the functional, limited, and conditional nature of EEZ rights under UNCLOS.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

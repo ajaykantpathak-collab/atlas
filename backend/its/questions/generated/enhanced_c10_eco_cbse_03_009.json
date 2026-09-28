@@ -34,6 +34,31 @@
      "q": "**CREATE**: Design a simple flowchart (text-based) showing the journey of a ₹500 note from RBI printing press to a farmer's hand in a village, labeling the institutions involved at each stage and the RBI function exercised.",
      "a": "**Expected Answer Criteria**: Flowchart must include:  \n1. **RBI Printing Press** (Nasik/Dewas/Mysore/Salboni) → *Function: Currency Issuance (Sec 22)*  \n2. **RBI Issue Offices** (19 regional offices) → *Function: Distribution & Storage*  \n3. **Currency Chests** (at select commercial bank branches, managed by RBI) → *Function: Safe Custody & Distribution to Banks*  \n4. **Commercial Bank Branch** (rural/semi-urban) → *Function: RBI Licensee, follows RBI cash-handling norms*  \n5. **Business Correspondent / ATM / Branch Counter** → *Function: Last-mile delivery under RBI's Financial Inclusion guidelines*  \n6. **Farmer withdraws ₹500**  \n**Poor Answer Reveals**: Missing \"Currency Chests\" (critical infrastructure), confusing RBI Issue Offices with bank branches, or omitting RBI's regulatory role in licensing the bank/BC. Shows lack of systemic view of currency circulation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Reserve Bank of India (RBI) is India's central banking ______, established under the RBI Act, 1934, which holds the sole monopoly right to issue banknotes (except one-rupee notes and coins issued by the Government of India) and acts as the supreme regulator and supervisor of the commercial banking system through licensing, inspection, prudential norms (CRR, SLR), and monetary policy instruments to ensure monetary stability and public confidence in the financial system.",
+     "a": "institution",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you ______ ₹2,000 from an ATM in Delhi — the crisp new notes bear the signature of the RBI Governor, not the bank manager.",
+     "a": "withdraw",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Reserve Bank of India (RBI) is India's central banking institution, established under the RBI Act, ______, which holds the sole monopoly right to issue banknotes (except one-rupee notes and coins issued by the Government of India) and acts as the supreme regulator and supervisor of the commercial banking system through licensing, inspection, prudential norms (CRR, SLR), and monetary policy instruments to ensure monetary stability and public confidence in the financial system.",
+     "a": "1934",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the two distinct statutory roles of RBI — currency issuance (Section 22, RBI Act) and bank regulation (Banking Regulation Act, 1949) — and apply this understanding to interpret how RBI's regulatory tools (CRR, SLR, repo rate) affect a commercial bank's lending capacity and the economy's money supply.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you withdraw ₹2,000 from an ATM in Delhi — the crisp new notes bear the ______ of the RBI Governor, not the bank manager.",
+     "a": "signature",
+     "self_check": true
     }
    ]
   }

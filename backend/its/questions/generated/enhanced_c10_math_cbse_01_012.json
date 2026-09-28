@@ -34,6 +34,26 @@
      "q": "A CREATE level question: Write a real-life word problem (Indian context: rupees, metres, litres) that requires finding the LCM of three numbers where one number is a prime, and the other two are composite. Provide the solution.",
      "a": "Example: Three bells ring at intervals of 7 minutes (prime), 12 minutes, and 15 minutes. If they ring together at 9:00 AM, when will they next ring together? Solution: LCM(7, 12, 15) = 7 × 2² × 3 × 5 = 420 minutes = 7 hours. Next time = 4:00 PM. A poor problem (e.g., using HCF context or only two numbers) shows the student cannot design a situation that necessitates LCM of three numbers with mixed prime/composite nature.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Finding HCF and LCM from word problems involves translating a real-life situation into a ______ problem that requires computing the Highest Common Factor (HCF) or the Least Common Multiple (LCM) of two or more given numbers.",
+     "a": "mathematical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are organising a school event: you have 144 ______ bars and 192 juice boxes, and you want to make identical gift packs with no items left over.",
+     "a": "chocolate",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can read a word problem, identify the given numbers and the unknown, correctly decide whether HCF or LCM is required, compute it using prime factorisation, and state the final answer with appropriate units and a concluding sentence.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a school event: you have 144 chocolate bars and 192 juice boxes, and you want to make identical gift packs with no items left over.",
+     "a": "organising",
+     "self_check": true
     }
    ]
   }

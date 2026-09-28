@@ -34,6 +34,31 @@
      "q": "Design a road-upgradation proposal for a backward district where 60% of villages lack all-weather roads. Specify which categories of roads you would prioritize, the funding sources (Central/State/Local), and the expected socio-economic outcomes.",
      "a": "Prioritize: (1) Upgrade critical MDRs to SH standards to connect district HQ to NH (Central funding via CRF). (2) Convert ODRs to MDRs for block-level connectivity (State funding). (3) Construct new VR roads under PMGSY-III (Central 60% + State 40%). Outcomes: Reduced travel time to markets, higher school attendance, better healthcare access. A poor answer that only builds VR roads without linking to higher-order roads misses the network effect.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Road ______ in India is an administrative and functional categorization of roads into National Highways (NH), State Highways (SH), Major District Roads (MDR), Other District Roads (ODR), and Village/Rural Roads (VR) based on their connectivity hierarchy, traffic volume, and administrative jurisdiction, with each category maintained by a specific government agency (NHAI, State PWD, District Panchayats, etc.).",
+     "a": "classification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine traveling from your ______ to the nearest city: you start on a narrow, unpaved track, then join a wider paved road with yellow milestones, and finally enter a four-lane highway with green signage.",
+     "a": "village",
+     "self_check": true
+    },
+    {
+     "q": "What is Road classification in India? State the definition given in this lesson.",
+     "a": "Road classification in India is an administrative and functional categorization of roads into National Highways (NH), State Highways (SH), Major District Roads (MDR), Other District Roads (ODR), and Village/Rural Roads (VR) based on their connectivity hierarchy, traffic volume, and administrative jurisdiction, with each category.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to classify a given road based on its connectivity and administrative jurisdiction, explain the funding and maintenance responsibility for each category, and analyze the impact of road classification on regional accessibility using a map of India's highway network.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine traveling from your village to the nearest city: you start on a narrow, unpaved track, then join a wider paved road with yellow ______, and finally enter a four-lane highway with green signage.",
+     "a": "milestones",
+     "self_check": true
     }
    ]
   }

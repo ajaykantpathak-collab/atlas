@@ -7,7 +7,7 @@
    "questions": [
     {
      "q": "A company wants to raise capital quickly without extensive regulatory filings and is willing to limit its investor base to fewer than 200 sophisticated investors. Which method of share issue should it choose?",
-     "a": "Correct answer: Private Placement.  \nA wrong answer (e.g., Public Issue) reveals the student confuses the speed and regulatory burden: a public issue requires a prospectus, SEBI approval, and a minimum subscription of 90%, making it slower and more cumbersome. Private placement is designed for exactly this scenario — fewer investors, less disclosure, faster execution.",
+     "a": "(1) Method chosen — private placement of shares to at most 200 select investors in a financial year, (2) The fit — no public prospectus, less disclosure, faster execution and lower regulatory burden, (3) The contrast — a public issue needs a prospectus, SEBI approval and 90 percent minimum subscription, while a rights issue can only go to existing shareholders in proportion to their holdings. A wrong answer choosing a public issue confuses speed and regulatory burden, and a rights issue cannot reach new investors.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Design a scenario where a company would choose a Private Placement over a Public Issue and a Rights Issue. Justify your choice with three specific reasons.",
      "a": "Scenario: A mid‑size pharmaceutical firm needs ₹200 crore for a clinical trial. It has a few interested strategic investors (foreign pharma majors) and wants to avoid market volatility and lengthy IPO process.  \nReasons: (1) Speed — private placement can close in weeks vs. months for IPO; (2) Cost — no underwriting fees, prospectus printing, or roadshow expenses; (3) Confidentiality — sensitive trial data need not be disclosed in a public prospectus.  \nA poor answer (e.g., \"because it's easier\") lacks specific, situation‑based reasoning and fails to link the method's features to the company's needs.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Public Issue, Private ______, and Rights Issue are three distinct methods through which a company can issue shares to raise capital.",
+     "a": "Placement",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a startup, \"______ Ltd.\", needs ₹50 crore to expand its solar panel manufacturing.",
+     "a": "GreenTech",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A Private Placement involves offering shares to a select group of investors (maximum ______ in a financial year) without a public prospectus.",
+     "a": "200",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) distinguish between the three methods based on eligibility of investors, regulatory requirements, and procedural steps, and (2) explain the accounting implications (journal entries) for each method when shares are issued at par, premium, or discount.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a startup, \"GreenTech Ltd.\", needs ₹50 crore to expand its solar panel ______.",
+     "a": "manufacturing",
      "self_check": true
     }
    ]

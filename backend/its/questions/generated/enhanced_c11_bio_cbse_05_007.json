@@ -34,6 +34,26 @@
      "q": "Design a simple observation-based activity to distinguish between a true fruit and a false fruit using locally available fruits (e.g., mango, apple, guava, pear). List the steps and the key structural feature you would examine.",
      "a": "Steps: (1) Collect mango, apple, guava, pear. (2) Cut each longitudinally. (3) Identify the seed-bearing structure — the true fruit. (4) Note whether the edible flesh is continuous with the seed chamber (true fruit) or separate from it (false fruit). Key feature: In mango/guava (true fruits), flesh is pericarp (ovary wall) directly enclosing seeds. In apple/pear (false fruits), flesh is thalamus; seeds lie in a separate papery core (true fruit). If a student only looks at seed presence, they miss the tissue origin distinction.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A fruit is the mature, ripened ovary of a flowering plant that develops after fertilization (or without fertilization in ______), consisting of a pericarp (fruit wall) derived from the ovary wall and seeds derived from ovules.",
+     "a": "parthenocarpy",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you bite into a mango, the sweet yellow flesh you eat is the mesocarp, while the hard stone protecting the seed is the endocarp — both ______ from the ovary wall of a single flower.",
+     "a": "developed",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify any given fruit as simple, aggregate, or multiple; distinguish between true, false, and parthenocarpic fruits; and explain the developmental origin of pericarp layers (epicarp, mesocarp, endocarp) from the ovary wall with specific examples like mango (drupe) and apple (pome).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you bite into a mango, the sweet yellow flesh you eat is the mesocarp, while the hard stone ______ the seed is the endocarp — both developed from the ovary wall of a single flower.",
+     "a": "protecting",
+     "self_check": true
     }
    ]
   }

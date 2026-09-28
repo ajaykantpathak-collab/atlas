@@ -34,6 +34,21 @@
      "q": "Create a real-world scenario involving 5 litres of juice and 3 people that results in a fraction.",
      "a": "\"If 5 litres of juice are poured equally into 3 large glasses, how many litres of juice are in each glass?\" An answer failing to connect the total amount (5) to the numerator (5) shows a lack of understanding of the division-fraction relationship.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In this context, the numerator represents the total amount being shared, and the ______ represents the number of people sharing that amount.",
+     "a": "denominator",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: If you have 3 rotis and want to share them ______ among 4 friends, how much does each person get?",
+     "a": "equally",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to convert a division word problem into a fractional expression and visualize that expression as an equal distribution of items among a group.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Design a simple 12-month calendar for a school weather station in central India, dividing the year into India's five major seasons with their corresponding months and main atmospheric characteristic for each.",
      "a": "A complete answer must list: Winter (Dec-Feb, cold/dry), Spring (Mar-Apr, pleasant/blooming), Summer (May-Jun, hot/low pressure), Monsoon (Jul-Sep, wet/southwest winds), and Autumn/Post-Monsoon (Oct-Nov, retreating monsoon/clear skies). A poor answer misses one or more seasons, mixes up the months, or describes weather features that contradict the known climatic cycle of India.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The cycle of seasons in India—______ spring, summer, monsoon, autumn, and winter—represents the rhythmic seasonal transitions driven by Earth's tilt, revolution around the sun, and the changing wind and pressure patterns across the Indian subcontinent.",
+     "a": "encompassing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you walk outside in ______ or Chennai in May, the air feels scorching and dry, but by July, heavy downpours fill the streets.",
+     "a": "Delhi",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can identify the characteristic months, temperature conditions, and wind directions for each of India's five major seasons (spring, summer, monsoon, autumn, winter) and explain how the sun's apparent movement influences these transitions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you walk outside in Delhi or Chennai in May, the air feels ______ and dry, but by July, heavy downpours fill the streets.",
+     "a": "scorching",
+     "self_check": true
     }
    ]
   }

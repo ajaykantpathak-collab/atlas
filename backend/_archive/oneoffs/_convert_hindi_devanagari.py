@@ -13,7 +13,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from datetime import datetime
 
-KEY = 'sk-ant-co-gIEUzRWw_mtUpxKk668B1lzJe3XntCna'
+KEY = '<redacted>'
 URL = 'https://api.claudeopus.pro/v1/messages'
 MODEL = 'claude-opus-5'
 CTX = ssl.create_default_context()

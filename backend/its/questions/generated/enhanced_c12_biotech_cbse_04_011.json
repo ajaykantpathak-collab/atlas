@@ -34,6 +34,31 @@
      "q": "Design a rational engineering strategy to create a human growth hormone (hGH) variant with reduced receptor dimerization propensity (to act as an antagonist) while maintaining high-affinity binding to one receptor subunit. Specify the structural data needed, the residues to target, and the validation assays.",
      "a": "Strategy: (1) Obtain hGH-GH receptor complex structure (PDB: 3HHR). (2) Identify Site 1 (high affinity) and Site 2 (lower affinity) interfaces. Site 2 involves hGH helix 3/4 residues (e.g., Glu174, Arg178) binding to second receptor subunit. (3) Introduce charge-reversal mutations at Site 2 (e.g., E174R, R178E) to disrupt dimerization while preserving Site 1 (helix 1/2/4). (4) Validate by: SPR for 1:1 binding kinetics (Site 1), analytical ultracentrifugation for monomeric complex, and cell-based assay (Nb2-11 lymphoma proliferation) showing antagonism. A poor answer targets random residues or ignores the two-site binding mechanism.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Protein engineering is the deliberate ______ of a protein's amino acid sequence through recombinant DNA technology to alter its structure, stability, activity, or specificity for therapeutic, industrial, or research applications.",
+     "a": "modification",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a biotechnologist tasked with designing an insulin variant that acts faster after injection to better mimic ______ post-prandial insulin spikes.",
+     "a": "physiological",
+     "self_check": true
+    },
+    {
+     "q": "What is Protein engineering? State the definition given in this lesson.",
+     "a": "Protein engineering is the deliberate modification of a protein's amino acid sequence through recombinant DNA technology to alter its structure, stability, activity, or specificity for therapeutic, industrial, or research applications.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Protein engineering?",
+     "a": "Students often believe rational design means \"changing any amino acid to improve a property\" and that more mutations always yield better results.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) distinguish rational design from directed evolution and list the structural data required for rational design, (2) design a single-point mutation strategy to improve thermostability or reduce immunogenicity of a therapeutic protein using Ramachandran plot constraints and solvent accessibility, and (3).",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Construct a word problem describing a real-life situation (such as a park slide or roof slope) that results in an obtuse-angled triangle, stating all three angle measures.",
      "a": "A good problem should feature a triangle with one angle greater than $90^\\circ$ (e.g., $100^\\circ$) and two acute angles whose sum equals the remaining $80^\\circ$ (e.g., $40^\\circ$ and $40^\\circ$), set in a real-world context like a playground design. A poor answer gives impossible angle combinations that do not sum to $180^\\circ$ or fails to describe a physical context.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: How do you know what kind of structural triangle you have created just by looking at its corner ______?",
+     "a": "measurements",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Triangles based on angles?",
+     "a": "Students often look at only one angle or confuse classification by sides (scalene, isosceles, equilateral) with classification by angles (acute, right, obtuse).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can correctly identify, classify, and draw acute, right, and obtuse-angled triangles given their interior angle measures, and solve multi-step problems involving unknown angles within these triangles.",
+     "self_check": true
     }
    ]
   }

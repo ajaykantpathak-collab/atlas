@@ -34,6 +34,21 @@
      "q": "Create a problem where a student must use the property \\( \\sin^{-1}(-x) = -\\sin^{-1}x \\) to simplify an expression, but the input \\( x \\) is such that the property **cannot** be applied directly. Explain the trap.",
      "a": "Problem: Simplify \\( \\sin^{-1}(-2) \\). Trap: \\( -2 \\notin [-1,1] \\), so \\( \\sin^{-1}(-2) \\) is **undefined**. A student who blindly writes \\( -\\sin^{-1}(2) \\) is applying the property outside its domain. The property \\( \\sin^{-1}(-x) = -\\sin^{-1}x \\) is only valid for \\( x \\in [-1,1] \\). A good answer identifies the domain violation and states the expression is meaningless. This tests whether the student treats properties as conditional identities, not universal algebraic rules.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The properties of inverse trigonometric functions are a set of identities that relate inverse trigonometric functions to their ______ trigonometric functions, to each other, and to algebraic expressions.",
+     "a": "corresponding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ramp must rise 1 metre over a horizontal ______ of 2 metres.",
+     "a": "distance",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ramp must rise 1 metre over a ______ distance of 2 metres.",
+     "a": "horizontal",
+     "self_check": true
     }
    ]
   }

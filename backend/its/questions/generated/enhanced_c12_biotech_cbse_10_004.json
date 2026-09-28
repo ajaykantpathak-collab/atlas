@@ -34,6 +34,31 @@
      "q": "Create a decision flowchart for selecting an expression host for a *new* recombinant therapeutic protein. The flowchart must have at least 4 decision nodes based on protein properties (e.g., glycosylation, disulfide bonds, size, toxicity) and output one of: E. coli, yeast (Pichia/Saccharomyces), mammalian (CHO/HEK), or insect (Sf9). Include a \"red flag\" branch for proteins requiring γ-carboxylation or α-2,6-sialylation.",
      "a": "**Flowchart logic**: \nStart → **Decision 1**: Does the protein require complex N-/O-glycosylation for activity? \n- YES → **Decision 2**: Requires human-like sialylation (α-2,6) or γ-carboxylation? \n  - YES → **Mammalian (CHO/HEK)** [Red flag: insect/yeast lack these] \n  - NO → **Decision 3**: High mannose or simple glycans acceptable? → **Yeast (Pichia)** or **Insect (Sf9)** \n- NO → **Decision 4**: Requires disulfide bonds? \n  - YES → **Decision 5**: Small (<30 kDa), simple structure? → **E. coli** (with refolding) or **Yeast** (secretion, oxidative folding) \n  - NO → **E. coli** (cytoplasmic or periplasmic) \n**Red flag branch**: γ-carboxylation (Factor IX, protein C) or α-2,6-sialylation (erythropoietin long half-life) → **Mammalian only**. A poor answer produces a linear list instead of a branching flowchart, misses the red flag, or assigns glycosylated proteins to E. coli.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Recombinant therapeutic proteins are human or human-like proteins produced by genetically engineered host cells (bacteria, yeast, mammalian cells) into which a cloned human gene has been introduced, enabling large-scale synthesis of ______ active proteins such as insulin, growth hormone, and clotting factors for medical use.",
+     "a": "biologically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 12-year-old child diagnosed with Type 1 diabetes who needs ______ injections daily.",
+     "a": "insulin",
+     "self_check": true
+    },
+    {
+     "q": "What is Recombinant therapeutic proteins? State the definition given in this lesson.",
+     "a": "Recombinant therapeutic proteins are human or human-like proteins produced by genetically engineered host cells (bacteria, yeast, mammalian cells) into which a cloned human gene has been introduced, enabling large-scale synthesis of biologically active proteins such as insulin, growth hormone, and clotting factors for medical use.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) describe the complete workflow from gene cloning to purified therapeutic protein, including host selection criteria, expression strategies, and purification steps; (2) compare prokaryotic vs eukaryotic expression systems for a given protein's structural requirements (e.g., glycosylation, disulfide bonds).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a 12-year-old child diagnosed with Type 1 diabetes who needs insulin ______ daily.",
+     "a": "injections",
+     "self_check": true
     }
    ]
   }

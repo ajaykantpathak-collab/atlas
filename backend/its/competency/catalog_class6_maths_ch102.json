@@ -21,7 +21,7 @@
     "How much length does a point occupy?",
     "Draw and label a point P."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -38,7 +38,16 @@
      "action": "confirm the point has no size",
      "explain": "A point marks pure position only -- it carries no length, width, or thickness."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 1 gives 1",
+     "compute": "lines = 1"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.2.2",
@@ -56,7 +65,7 @@
     "How many endpoints does a line segment AB have?",
     "What do we call the shortest route joining two points?"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -73,7 +82,16 @@
      "action": "confirm it is the shortest straight path between the endpoints",
      "explain": "A line segment is the straight, shortest route joining its two endpoints, and both endpoints belong to it."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 5 gives 5",
+     "compute": "lines = 5"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.2.3",
@@ -91,7 +109,7 @@
     "How many distinct lines can be drawn through two given points?",
     "What do the arrowheads on AB tell us about the drawing?"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -108,7 +126,16 @@
      "action": "verify uniqueness through two points",
      "explain": "Exactly one line can be drawn through two given points, while countless lines can pass through a single point."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 5 gives 5",
+     "compute": "lines = 5"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.2.4",
@@ -126,7 +153,7 @@
     "Which letter names the fixed endpoint of ray OA?",
     "Can the ray OA also be written as AO -- why not?"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -143,7 +170,16 @@
      "action": "check that the order of letters cannot be reversed",
      "explain": "Ray OA cannot be written as AO because the first letter must always name the fixed endpoint."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "recall the count for the shape",
+     "explain": "recall the count for the shape: lines = 3 gives 3",
+     "compute": "lines = 3"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.2.5",
@@ -161,7 +197,7 @@
     "How many arms does an angle have?",
     "What is the shared endpoint of the two arms called?"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -178,7 +214,16 @@
      "action": "interpret the angle as the amount of turning",
      "explain": "The angle measures how much one arm has turned away from the other about the shared vertex."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 31 gives 59",
+     "compute": "other = 90 - 31"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.2.8.1",
@@ -303,7 +348,7 @@
     "Is a 60 degree opening acute -- how much under 90 is it?",
     "Classify an opening of 30 degrees."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -320,7 +365,16 @@
      "action": "classify the angle based on both bounds",
      "explain": "Any opening satisfying 0 < angle < 90 is classified as acute, meaning it is sharper and narrower than a right angle."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 23 gives 67",
+     "compute": "other = 90 - 23"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.2.11.2",
@@ -337,7 +391,7 @@
     "How wide must an opening be to count as obtuse?",
     "Classify an opening of 135 degrees."
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -354,7 +408,16 @@
      "action": "confirm the angle is strictly less than 180",
      "explain": "An obtuse angle must be shorter than a half-turn, so it stays under 180 degrees, giving the range 90 < angle < 180."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "use the angle relation (sum to 90, 180, 360 or equal)",
+     "explain": "use the angle relation (sum to 90, 180, 360 or equal): other = 90 - 62 gives 28",
+     "compute": "other = 90 - 62"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fegp.2.11.3",

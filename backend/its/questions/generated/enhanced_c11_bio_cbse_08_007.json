@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using radioisotope labeling to prove that protein synthesis occurs on ribosomes and not in the nucleoplasm.",
      "a": "Incubate cells with ³⁵S-methionine for a short pulse, then fractionate the cell into nuclear and cytoplasmic (ribosomal) fractions. Measure radioactivity in each fraction over a chase period. Rapid appearance of label in cytoplasmic ribosomes, followed by appearance in secreted proteins, with minimal nuclear label, demonstrates cytoplasmic synthesis. A poor design might omit the chase, use a non-protein precursor, or fail to separate ribosomes from other cytoplasmic components.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ribosomes are non-membranous ______ particles composed of ribosomal RNA (rRNA) and proteins that serve as the universal site of protein synthesis in all living cells.",
+     "a": "ribonucleoprotein",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are eating a bowl of rajma (kidney beans) – rich in plant ______.",
+     "a": "proteins",
+     "self_check": true
+    },
+    {
+     "q": "What is Ribosomes? State the definition given in this lesson.",
+     "a": "Ribosomes are non-membranous ribonucleoprotein particles composed of ribosomal RNA (rRNA) and proteins that serve as the universal site of protein synthesis in all living cells.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Ribosomes?",
+     "a": "Students often think the \"S\" in 70S/80S stands for \"size\" in a simple additive way (e.g., 50S+30S=80S) and that sedimentation coefficient is directly proportional to molecular weight.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish between prokaryotic (70S) and eukaryotic (80S) ribosomes in terms of subunit composition and sedimentation coefficients, explain how ribosome location (free vs.",
+     "self_check": true
     }
    ]
   }

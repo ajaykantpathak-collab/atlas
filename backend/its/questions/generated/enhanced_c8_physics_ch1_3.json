@@ -34,6 +34,31 @@
      "q": "**Design a simple experiment** to answer: \"How does the surface material (e.g., sandpaper, cloth, plastic) affect the distance a toy car travels after rolling down a fixed ramp?\"  \nProvide:  \n- Aim  \n- Independent, dependent, and **three** controlled variables  \n- Materials list  \n- 5-step procedure  \n- How you will ensure fairness",
      "a": "**Aim:** Investigate how surface material affects the stopping distance of a toy car after rolling down a ramp.  \n**Independent variable:** Surface material (sandpaper, cloth, plastic sheet).  \n**Dependent variable:** Stopping distance from bottom of ramp (cm).  \n**Controlled variables:** (1) Ramp angle and length, (2) Same toy car (mass, wheels), (3) Release method (no push, just let go), (4) Starting position on ramp.  \n**Materials:** Ramp (wooden board), 3 surface sheets (sandpaper, cloth, plastic), toy car, meter scale, protractor, tape.  \n**Procedure:**  \n1. Fix ramp at 20° using protractor.  \n2. Attach sandpaper to floor at ramp base.  \n3. Place car at top mark, release without push.  \n4. Measure stopping distance from ramp end. Repeat 3×.  \n5. Replace sandpaper with cloth, then plastic; repeat steps 3–4.  \n**Fairness:** Same ramp, car, release method, and starting point for all trials; only surface changes.  \nA poor answer (e.g., missing controlled variables, no repetition, vague procedure) reveals the student cannot translate a question into a structured, controlled investigation — they may list materials but miss the logic of variable control.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Designing a simple experiment is the process of planning a fair test to answer a specific scientific question by ______ changing one factor (independent variable) while measuring its effect on another factor (dependent variable) and keeping all other conditions constant (controlled variables).",
+     "a": "deliberately",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Identify what you will change (blade length), what you will measure (wind speed using an anemometer), and what you must keep constant (motor power, room ______, distance from fan).",
+     "a": "temperature",
+     "self_check": true
+    },
+    {
+     "q": "What is Designing a simple experiment? State the definition given in this lesson.",
+     "a": "Designing a simple experiment is the process of planning a fair test to answer a specific scientific question by deliberately changing one factor (independent variable) while measuring its effect on another factor (dependent variable) and keeping all other conditions constant (controlled variables).",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Designing a simple experiment?",
+     "a": "Students believe \"fair test\" means making everything the same — including the independent variable.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently design a fair-test experiment for a given physics question: they write a clear aim, identify the independent, dependent, and at least three controlled variables, list required materials, outline a step-by-step procedure with measurements, and predict possible outcomes with reasoning.",
+     "self_check": true
     }
    ]
   }

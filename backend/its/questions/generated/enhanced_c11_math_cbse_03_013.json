@@ -34,6 +34,21 @@
      "q": "Create a trigonometric equation involving sin x + sin 3x that can be solved by converting to product form. Write the equation, solve it completely for x ∈ [0, 2π), and explain why the product form makes factorization possible.",
      "a": "Equation: sin x + sin 3x = 0. Using sum-to-product: 2 sin 2x cos x = 0. This gives sin 2x = 0 or cos x = 0. Solutions: x = 0, π/2, π, 3π/2. The product form enables zero-product property factorization. A poor answer that solves without conversion (e.g., using sin 3x = 3 sin x - 4 sin³x) misses the efficiency and conceptual point of transformation formulae.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The sum-to-product ______ formulae convert sums or differences of trigonometric functions into products.",
+     "a": "transformation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you're analysing the ______ pattern of two sound waves from speakers at a school auditorium - the resultant amplitude is a sum of sine functions.",
+     "a": "interference",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive all four sum-to-product formulas from sum/difference identities, identify when to apply each formula in simplification problems, and solve trigonometric equations by converting sums to products for factorization.",
+     "self_check": true
     }
    ]
   }

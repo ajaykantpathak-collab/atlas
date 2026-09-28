@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a resonance tube (a cylindrical tube with a movable piston/water level) and a set of tuning forks to determine the speed of sound in air at room temperature. Describe the procedure, measurements, and formula you would use.",
      "a": "Procedure: (1) Fill a resonance tube with water, leaving an air column of adjustable length. (2) Strike a tuning fork of known frequency \\( \\nu \\) and hold it over the open end. (3) Lower the water level (or raise the tube) until a loud resonance is heard (first resonance). Measure the air column length \\( L_1 \\). (4) Continue lowering to find the next resonance (second resonance) and measure length \\( L_2 \\). (5) For a closed pipe, \\( L_2 - L_1 = \\lambda/2 \\). So \\( \\lambda = 2(L_2 - L_1) \\). (6) Speed of sound \\( v = \\nu \\lambda = 2\\nu (L_2 - L_1) \\). A poor answer that only finds one resonance length and uses \\( L = \\lambda/4 \\) without end correction reveals ignorance of the end correction and the advantage of using two resonances to eliminate it.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Standing waves in pipes are stationary wave patterns formed by the ______ of incident and reflected longitudinal sound waves in an air column, where the boundary conditions (closed end = displacement node/pressure antinode, open end = displacement antinode/pressure node) restrict the allowed wavelengths to discrete values.",
+     "a": "superposition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a flute (open at both ends) and a shehnai (closed at one end) being played in a school concert.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What is Standing waves in pipes? State the definition given in this lesson.",
+     "a": "Standing waves in pipes are stationary wave patterns formed by the superposition of incident and reflected longitudinal sound waves in an air column, where the boundary conditions (closed end = displacement node/pressure antinode, open end = displacement antinode/pressure node) restrict the allowed wavelengths to discrete values.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can: (1) Identify whether a given pipe is open or closed from a diagram or description and state the correct harmonic series formula; (2) Calculate the fundamental frequency and higher harmonics for a given pipe length and speed of sound; (3) Determine which harmonic resonates with a given source frequency; (4) Explain why a.",
+     "self_check": true
     }
    ]
   }

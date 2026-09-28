@@ -34,6 +34,31 @@
      "q": "Design a debenture issue for a startup that wants to raise ₹5 crore for 7 years. The startup expects losses in the first 3 years, then profits. Specify the type (secured/unsecured, convertible/non-convertible, etc.), interest structure, and justify your choices.",
      "a": "A good answer: Issue **unsecured, convertible debentures** with **zero coupon (ZID)** for the first 3 years (no cash interest outflow during losses), converting to equity at a premium in year 4. This avoids fixed charge burden when earnings are negative, gives investors upside via conversion, and does not require asset security (startup may lack assets). Justification must link each feature to the startup's profile. A poor answer that suggests secured, non-convertible debentures with fixed annual interest ignores the startup's loss-making phase and asset-light nature, showing inability to match source features to business context.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A debenture is a written instrument ______ a debt issued by a company under its common seal, which carries a fixed rate of interest and is repayable after a specified period, making the holder a creditor of the company without any voting rights.",
+     "a": "acknowledging",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to start a food truck ______ but need ₹10 lakh for the truck and equipment.",
+     "a": "business",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to start a food truck business but need ₹______ lakh for the truck and equipment.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) distinguish debentures from shares and loans by explaining the creditor relationship, fixed interest obligation, and absence of voting rights, and (2) classify a given debenture issue into its correct type (secured/unsecured, convertible/non-convertible, registered/bearer, first/second) and justify the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you want to start a food truck business but need ₹10 lakh for the truck and ______.",
+     "a": "equipment",
+     "self_check": true
     }
    ]
   }

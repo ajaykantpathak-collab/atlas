@@ -34,6 +34,26 @@
      "q": "Create a scenario where a company issues debentures at a discount and also incurs underwriting commission on the issue. Design the journal entries for (a) issue of debentures, (b) payment of underwriting commission, and (c) writing off both discount and commission in the first year assuming equal installment method over 5 years. Use your own numbers.",
      "a": "Example: 2,000 debentures of ₹100 each issued at 10% discount, underwriting commission 2% on issue price. Face value = ₹2,00,000. Issue price = ₹1,80,000. Discount = ₹20,000. Commission = ₹3,600. Total capital loss = ₹23,600. Annual write-off = ₹4,720.\nEntries:\n(a) Bank A/c Dr. 1,80,000; Discount on Issue of Debentures A/c Dr. 20,000; To 10% Debentures A/c 2,00,000.\n(b) Underwriting Commission A/c Dr. 3,600; To Bank A/c 3,600.\n(c) Statement of Profit & Loss A/c Dr. 4,720; To Discount on Issue of Debentures A/c 4,000; To Underwriting Commission A/c 720.\nA poor answer (e.g., mixing commission with discount account, or not separating the two) reveals inability to handle multiple deferred charges with different origins but similar treatment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Writing off discount/loss on issue of debentures is the ______ allocation of the capital loss arising from issuing debentures at a discount or at a loss (e.g., issued at discount and redeemable at premium) over the tenure of the debentures by debiting the Statement of Profit and Loss and crediting the Discount/Loss on Issue of Debentures Account.",
+     "a": "systematic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a company, \"TechGrow Ltd.\", issues 10,000 ______ of ₹100 each at a 10% discount, redeemable at par after 5 years.",
+     "a": "debentures",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: It cannot be expensed entirely in year one because the benefit of the borrowed funds spans ______ years.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) calculate the annual amount of discount/loss to be written off under both equal installment and proportionate methods, (2) pass correct journal entries for issue and subsequent writing off, and (3) show the correct presentation in the Balance Sheet as per Schedule III.",
+     "self_check": true
     }
    ]
   }

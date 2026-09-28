@@ -34,6 +34,36 @@
      "q": "Design a payroll template for a company with three employee types: \"Manager\" (HRA 50% of BPE, TRA ₹2000), \"Clerk\" (HRA 25% of BPE, TRA ₹800), \"Intern\" (HRA 0%, TRA ₹0). Write the nested IF formula for HRA in column I (assuming BPE in G12, HRA rates in $J$5, $J$6, $J$7) and for TRA in column J (TRA amounts in $K$5, $K$6, $K$7).",
      "a": "HRA formula: =IF(C12=\"Manager\", G12*$J$5, IF(C12=\"Clerk\", G12*$J$6, IF(C12=\"Intern\", G12*$J$7, 0))) — but since Intern HRA is 0%, the last IF can be simplified to 0. Better: =IF(C12=\"Manager\", G12*$J$5, IF(C12=\"Clerk\", G12*$J$6, 0)). TRA formula: =IF(C12=\"Manager\", $K$5, IF(C12=\"Clerk\", $K$6, 0)). A poor answer uses separate IFs without nesting, or forgets absolute references, or hardcodes percentages instead of using parameter cells — showing inability to design scalable, maintainable templates.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Payroll Accounting is the systematic process of computing an employee's gross earnings (Basic Pay Earned, Dearness Allowance, House Rent Allowance, Transport Allowance) and statutory/voluntary deductions (Provident Fund, Tax Deducted at Source, Loan Recovery) to arrive at the Net Salary payable, using a structured spreadsheet that applies conditional logic and absolute referencing for accurate, repeatable monthly ______.",
+     "a": "calculations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the ______ for a small Delhi-based startup with 10 employees — some supervisors, some non-supervisors.",
+     "a": "accountant",
+     "self_check": true
+    },
+    {
+     "q": "What is Payroll Accounting? State the definition given in this lesson.",
+     "a": "Payroll Accounting is the systematic process of computing an employee's gross earnings (Basic Pay Earned, Dearness Allowance, House Rent Allowance, Transport Allowance) and statutory/voluntary deductions (Provident Fund, Tax Deducted at Source, Loan Recovery) to arrive at the Net Salary payable, using a structured spreadsheet that.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the accountant for a small Delhi-based startup with ______ employees — some supervisors, some non-supervisors.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Payroll Accounting?",
+     "a": "Students believe that \"Basic Pay\" (BP) and \"Basic Pay Earned\" (BPE) are the same and use BP directly in DA, HRA, and PF formulas.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently design a payroll spreadsheet template for a given set of employee types and pay rules, correctly implement formulas for BPE, DA, HRA, TRA, PF, and Net Salary using absolute references and nested IF functions, and verify the output against manual calculations for at least three employees with different.",
+     "self_check": true
     }
    ]
   }

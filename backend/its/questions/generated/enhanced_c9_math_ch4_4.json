@@ -34,6 +34,31 @@
      "q": "Create a real-world problem (using Indian context: rupees, metres, etc.) that requires the use of the geometric visualisation of (a+b)² to solve, and write the solution steps including the diagram description.",
      "a": "Problem: A square courtyard of side (x+5) metres is to be paved. The central square of side x metres uses premium tiles costing ₹200/m², and the border uses standard tiles costing ₹50/m². Find the total cost in terms of x.\nSolution: Draw square of side (x+5). Partition into: central square (x×x = x² m²), four border pieces: two rectangles x×5 (area 5x each) and two squares 5×5 (area 25 each). Total border area = 2(5x) + 2(25) = 10x + 50. Cost = 200(x²) + 50(10x+50) = 200x² + 500x + 2500. A poor answer would just expand (x+5)² algebraically without the geometric partition, missing the point that the visualisation helps separate the two tile regions and their costs.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Geometrical ______ of algebraic identities represents algebraic expressions as areas of rectangles and squares, where the product of two binomials corresponds to the area of a rectangle with side lengths equal to the binomials, and the expanded form corresponds to the sum of areas of smaller rectangles and squares that partition the larger rectangle.",
+     "a": "visualisation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a ______ garden plot of side (x+3) metres for your school.",
+     "a": "square",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This method uses the distributive property of multiplication over addition to show that identities like (a+b)² = a² + ______ab + b² and a² - b² = (a+b)(a-b) hold true for all real values of a and b by comparing the total area computed in two different ways.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can draw accurate area models for any given binomial product (including three-term squares), label all sub-areas with correct algebraic terms, and explain how the sum of sub-areas proves the algebraic identity.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ a square garden plot of side (x+3) metres for your school.",
+     "a": "designing",
+     "self_check": true
     }
    ]
   }

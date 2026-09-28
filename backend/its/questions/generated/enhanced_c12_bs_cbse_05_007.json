@@ -34,6 +34,31 @@
      "q": "Create a short scenario (4-5 sentences) set in an Indian startup where informal organisation simultaneously demonstrates TWO benefits and ONE limitation. Label each clearly.",
      "a": "Expected answer: Scenario: \"At a Bengaluru fintech startup, the official Slack channels are quiet, but a WhatsApp group 'Chai & Code' (formed organically by developers) shares debugging tips instantly (Benefit 1: faster communication). Junior devs feel comfortable asking 'stupid questions' there, boosting their confidence (Benefit 2: social needs/belongingness). However, when the CTO announced a mandatory code-review tool, the group mocked it as 'bureaucracy', and most devs ignored it for weeks (Limitation: resistance to change).\" A poor answer either lists benefits/limitations without a cohesive scenario, or mislabels a formal feature as informal (e.g., \"the HR policy says...\").",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Informal organisation is the network of personal and social ______ that arises spontaneously when employees interact beyond their officially defined roles in the formal organisation, characterised by unofficial communication channels, group norms, and emergent leadership based on personal qualities rather than positional authority.",
+     "a": "relationships",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a new ______ at a large Indian IT company.",
+     "a": "employee",
+     "self_check": true
+    },
+    {
+     "q": "What is Informal organisation? State the definition given in this lesson.",
+     "a": "Informal organisation is the network of personal and social relationships that arises spontaneously when employees interact beyond their officially defined roles in the formal organisation, characterised by unofficial communication channels, group norms, and emergent leadership based on personal qualities rather than positional authority.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Informal organisation?",
+     "a": "Students often think \"informal organisation is just gossip and should be stopped by management.\" This is wrong because NCERT explicitly states informal organisation cannot be eliminated and has vital benefits (speed, social fulfillment, filling formal gaps).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain each benefit and limitation of informal organisation with a distinct real-world example, and can analyse a given case to identify whether informal organisation is helping or hindering formal organisational goals.",
+     "self_check": true
     }
    ]
   }

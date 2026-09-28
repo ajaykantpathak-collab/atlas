@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c11_app_cbse_08_006",
+ "concepts": [
+  {
+   "id": "enh:c11_app_cbse_08_006",
+   "title": "c11_app_cbse_08_006",
+   "questions": [
+    {
+     "q": "State the precise condition required for the limit $\\lim_{x \\to a} f(x)$ to exist, using the terminology of Left Hand Limit (LHL) and Right Hand Limit (RHL).",
+     "a": "The limit $\\lim_{x \\to a} f(x)$ exists if and only if the Left Hand Limit ($\\lim_{x \\to a^-} f(x)$) and the Right Hand Limit ($\\lim_{x \\to a^+} f(x)$) both exist finitely and are equal. A wrong answer (e.g., \"limit exists if f(a) is defined\") reveals the student confuses the *existence of a limit* with *continuity* or *function definition*. They are treating the limit as a function evaluation task rather than a neighbourhood analysis task.",
+     "self_check": true
+    },
+    {
+     "q": "Consider $f(x) = \\frac{|x-3|}{x-3}$. Explain why $\\lim_{x \\to 3} f(x)$ does not exist, even though $f(x)$ is defined for all $x \\neq 3$. Use the concepts of LHL and RHL in your explanation.",
+     "a": "For $x < 3$, $|x-3| = -(x-3)$, so $f(x) = -1$ (LHL = -1). For $x > 3$, $|x-3| = (x-3)$, so $f(x) = 1$ (RHL = 1). Since LHL $\\neq$ RHL, the limit does not exist. A wrong answer (e.g., \"limit is 0 because numerator and denominator go to 0\") reveals the student is applying algebraic cancellation rules meant for indeterminate forms like $\\frac{0}{0}$ to a piecewise function where the *structure* changes sign. They fail to see that $|x|$ behaves differently on either side of zero.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate $\\lim_{x \\to 2} \\frac{x^3 - 8}{x^2 - 4}$ by factorizing. Show all steps clearly.",
+     "a": "Step 1: Direct substitution gives $\\frac{0}{0}$ (indeterminate).\nStep 2: Factorize numerator: $x^3 - 8 = (x-2)(x^2 + 2x + 4)$. Factorize denominator: $x^2 - 4 = (x-2)(x+2)$.\nStep 3: Cancel common factor $(x-2)$ (valid since $x \\to 2, x \\neq 2$).\nStep 4: Substitute $x=2$ into simplified expression $\\frac{x^2 + 2x + 4}{x+2} = \\frac{4+4+4}{4} = 3$.\nA wrong answer (e.g., \"limit does not exist because denominator is zero\") reveals the student stops at the indeterminate form and doesn't recognize it as a signal to *simplify*, not quit. They treat \"0/0\" as \"undefined\" rather than \"inconclusive — try harder.\"",
+     "self_check": true
+    },
+    {
+     "q": "Compare the limits: $\\lim_{x \\to 0} \\frac{\\sin 5x}{x}$ and $\\lim_{x \\to 0} \\frac{\\sin 5x}{3x}$. Without calculating the exact numeric values, explain the relationship between the two results.",
+     "a": "We know $\\lim_{x \\to 0} \\frac{\\sin kx}{x} = k$. So the first limit is 5. For the second, $\\frac{\\sin 5x}{3x} = \\frac{1}{3} \\cdot \\frac{\\sin 5x}{x}$. By Algebra of Limits (constant multiple rule), the second limit is $\\frac{1}{3} \\times 5 = \\frac{5}{3}$. The second limit is exactly one-third of the first. A wrong answer (e.g., \"both are 1 because $\\sin x \\approx x$\") reveals the student has memorized $\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1$ but cannot adapt it when the angle coefficient ($5x$) differs from the denominator variable ($x$ or $3x$). They lack the algebraic manipulation skill to force the standard form.",
+     "self_check": true
+    },
+    {
+     "q": "A student claims: \"For any function $f(x)$, if $\\lim_{x \\to a} f(x) = L$, then $f(a)$ must equal $L$.\" Evaluate this claim. Provide a concrete counterexample if false, or a proof sketch if true.",
+     "a": "The claim is **FALSE**. The limit describes behaviour *near* $a$, not *at* $a$. Counterexample: $f(x) = \\frac{x^2-1}{x-1}$ at $a=1$. $\\lim_{x \\to 1} f(x) = 2$, but $f(1)$ is undefined (division by zero). Even if defined, e.g., $f(x) = \\begin{cases} x+1 & x \\neq 1 \\\\ 5 & x=1 \\end{cases}$, limit is 2 but $f(1)=5$. A wrong answer (\"True, because limit means the value it reaches\") reveals the student conflates \"approaching\" with \"equalling\". This is the single biggest conceptual hurdle in Calculus — they view limits as \"fancy substitution.\"",
+     "self_check": true
+    },
+    {
+     "q": "Create a piecewise function $f(x)$ such that: (i) $\\lim_{x \\to 2} f(x)$ exists, (ii) $f(2)$ is defined, but (iii) $f(x)$ is NOT continuous at $x=2$. Define your function clearly and verify all three conditions.",
+     "a": "Example: $f(x) = \\begin{cases} x^2 & \\text{if } x \\neq 2 \\\\ 10 & \\text{if } x = 2 \\end{cases}$.\nVerification: (i) $\\lim_{x \\to 2} x^2 = 4$ (exists). (ii) $f(2) = 10$ (defined). (iii) $\\lim_{x \\to 2} f(x) = 4 \\neq 10 = f(2)$, so discontinuous. A poor answer (e.g., a function with a jump discontinuity where limit doesn't exist) reveals the student doesn't grasp the *independence* of the three pillars of continuity: Limit Exists, Function Defined, Limit = Value. They think \"discontinuous\" automatically means \"limit doesn't exist.\"",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

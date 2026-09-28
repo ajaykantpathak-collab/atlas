@@ -34,6 +34,21 @@
      "q": "Create a real-world scenario (using Indian context: rupees, metres, etc.) that generates a quadratic sequence, write its first five terms, and derive the explicit rule.",
      "a": "Example scenario: A child builds a square pattern with matchsticks where the nth figure has side length n cm and uses matchsticks for the perimeter plus one diagonal. Terms: n=1 → 5, n=2 → 12, n=3 → 21, n=4 → 32, n=5 → 45. Rule: aₙ = n² + 4n. A poor answer gives an arithmetic scenario (linear) or cannot derive the rule, showing they cannot distinguish quadratic growth situations from linear ones.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An explicit rule for a sequence is a formula that expresses the nth term (aₙ) directly as a function of the term position n, allowing ______ of any term without knowing the preceding terms.",
+     "a": "computation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you save ₹10 on day 1, ₹15 on day 2, ₹20 on day 3, and continue ______ your daily savings by ₹5 each day.",
+     "a": "increasing",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the explicit formula for arithmetic, geometric, and simple quadratic sequences by identifying the pattern of differences or ratios, write the rule in standard notation aₙ = f(n), and use it to find any specified term (e.g., the 50th term) without listing all previous terms.",
+     "self_check": true
     }
    ]
   }

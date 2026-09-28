@@ -34,6 +34,31 @@
      "q": "Design a hypothetical cyber incident scenario involving at least three distinct offenses under the IT Act (e.g., ransomware attack, privacy violation, and cyber terrorism). For each offense, name the applicable section, the maximum penalty, and one practical step a victim organization should take immediately.",
      "a": "Scenario: A hospital's network is hit by ransomware (WannaCry variant) that encrypts patient records and demands Bitcoin. The attacker also exfiltrates patient data and threatens to publish it unless a second ransom is paid. Investigation reveals the attacker is part of a group targeting critical infrastructure to destabilize healthcare services.\nOffenses & Sections:\n1. Ransomware (unauthorized access + data encryption + extortion): Section 66 (hacking) + Section 66F (cyber terrorism, if intent to threaten unity/integrity/security) — max penalty: life imprisonment under 66F; 3 years + fine under 66.\n2. Privacy violation (exfiltration of sensitive health data): Section 66E (violation of privacy) — max 3 years + ₹2 lakh; also Section 72A (disclosure in breach of lawful contract) — max 3 years + ₹5 lakh.\n3. Cyber terrorism (targeting critical infrastructure): Section 66F — max life imprisonment.\nImmediate steps: (i) Isolate affected systems, engage CERT-In for incident response (mandatory under Section 70B). (ii) File FIR under relevant IT Act sections and IPC. (iii) Notify affected patients and data protection authority (as per DPDP Act 2023, though not in IT Act).\nA poor answer lists only one section for all offenses or omits the mandatory CERT-In reporting, showing lack of synthesis across the Act's provisions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Information Technology Act, 2000 (IT Act 2000) is the primary legislation in India governing cyber activities, providing legal recognition for electronic ______, defining cyber offenses, and prescribing penalties.",
+     "a": "transactions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive a message claiming your bank account is frozen and asking for your OTP to \"verify\" — this is a classic ______ theft attempt under Section 66C.",
+     "a": "identity",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive a message claiming your bank account is frozen and asking for your OTP to \"verify\" — this is a classic identity theft attempt under Section ______C.",
+     "a": "66",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) identify the key objectives and structure of the IT Act 2000 and its 2008 amendment, (2) match common cyber offenses (hacking, identity theft, cyber terrorism, privacy violation, obscene content) to their specific sections and penalties, and (3) explain the legal framework for intermediary liability and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you receive a message ______ your bank account is frozen and asking for your OTP to \"verify\" — this is a classic identity theft attempt under Section 66C.",
+     "a": "claiming",
+     "self_check": true
     }
    ]
   }

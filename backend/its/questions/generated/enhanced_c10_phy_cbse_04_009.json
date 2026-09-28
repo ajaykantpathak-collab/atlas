@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a convex lens, a candle, a white screen, and a metre scale to determine the focal length of the lens by obtaining sharp images for at least three different object positions. Describe the procedure, the data to record, and how you would calculate the focal length from the data.",
      "a": "**Procedure:**  \n1. Fix the convex lens on a stand. Place a candle at a distance > 2F (e.g., 50 cm) from the lens.  \n2. Move the screen on the other side until a sharp, inverted image of the candle flame is obtained. Record object distance u and image distance v.  \n3. Repeat for two more object positions: one between F and 2F (e.g., 20 cm), and one at approximately 2F (e.g., 30 cm). Each time adjust screen for sharp image and record u and v.  \n4. For each pair (u, v), compute focal length using the lens formula 1/f = 1/v - 1/u (sign convention: u negative, v positive for real image).  \n5. Average the three f values to get the focal length.  \n**Data table:** Columns for u (cm), v (cm), 1/u, 1/v, f (cm).  \n**Expected outcome:** f should be consistent across positions (e.g., ≈ 10 cm).  \nA poor answer that only uses one position or does not mention using the lens formula shows lack of understanding of experimental verification and the relationship between u, v, and f.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Image formation by lenses involves tracing the paths of at least two standard rays from a point on the object through a spherical lens (convex or concave) to locate the ______ image point.",
+     "a": "corresponding",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a magnifying glass (convex lens) used to read fine print on a medicine bottle: when held close to the text, the letters appear larger and upright; when held farther away, the text becomes ______ and smaller.",
+     "a": "inverted",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can accurately draw ray diagrams for a convex lens at all six standard object positions (at infinity, beyond 2F, at 2F, between F and 2F, at F, between F and optical centre) and for a concave lens at two positions (at infinity, between infinity and optical centre), correctly labeling principal axis, focal points (F, 2F).",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a ______ glass (convex lens) used to read fine print on a medicine bottle: when held close to the text, the letters appear larger and upright; when held farther away, the text becomes inverted and smaller.",
+     "a": "magnifying",
+     "self_check": true
     }
    ]
   }

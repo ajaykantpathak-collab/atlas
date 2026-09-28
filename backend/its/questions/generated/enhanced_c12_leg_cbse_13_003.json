@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_13_003",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_13_003",
+   "title": "c12_leg_cbse_13_003",
+   "questions": [
+    {
+     "q": "What was the single category of legal practitioners created by the Advocates Act, 1961, replacing all previous titles like vakil, barrister, pleader, and mukhtar?",
+     "a": "The Advocates Act, 1961 created a single category called \"Advocate.\" A wrong answer (e.g., \"Senior Advocate\" or \"Advocate-on-Record\") reveals the student confuses the *unified base category* with *specialised sub-categories* created later under the same Act or by court rules.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the distinction between \"Senior Advocate\" and \"Advocate-on-Record\" is not merely about seniority but about fundamentally different appointment mechanisms and practice privileges.",
+     "a": "A Senior Advocate is *designated by the Supreme Court or High Court* based on merit/standing (Section 16, Advocates Act), cannot file vakalatnama or appear without a junior/AOR, and wears a gown with a flap. An Advocate-on-Record is *qualified by passing a Supreme Court exam* after 4 years' practice + 1 year training under an AOR, alone can file matters in the Supreme Court, and must maintain an office near the Court. Confusing them shows the student misses that one is *honorific/judicial* and the other is *procedural/administrative*.",
+     "self_check": true
+    },
+    {
+     "q": "A law graduate from a recognised Indian university clears the All India Bar Examination (AIBE) in 2024. She wants to file a Special Leave Petition (SLP) in the Supreme Court immediately. Can she do so? Explain the procedural barrier.",
+     "a": "No. She is an enrolled Advocate entitled to *appear* in any court (including Supreme Court) but cannot *file* an SLP or any document in the Supreme Court unless she is an Advocate-on-Record (AOR). To become an AOR, she needs 4 years' practice + 1 year training under a Senior AOR + passing the Supreme Court's AOR exam. A wrong answer (\"Yes, she can file\") reveals ignorance of the *filing monopoly* of AORs — a critical procedural distinction in Supreme Court practice.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the advertising restrictions on advocates in India (Bar Council of India Rules) with those in the USA (Model Rules of Professional Conduct). Identify two key differences in philosophy and one practical consequence for a law firm website.",
+     "a": "India: Near-total ban (Rule 36), only 5 facts allowed on website (name, contact, enrolment, qualifications, practice areas) *after BCI approval* — philosophy: law as noble profession, advertising tarnishes dignity. USA: Permitted with \"reasonable restrictions\" (Rule 7.1–7.3), allows solicitations, class action ads, websites with case results — philosophy: consumer information, access to justice. Practical consequence: An Indian law firm website cannot show \"success stories\" or \"client testimonials\"; a US firm can. Missing this shows the student sees only \"restriction vs. permission\" but not the *underlying professional ethos* driving each regime.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the statement: \"The Legal Practitioners (Women) Act, 1923 was a complete victory for gender equality in the Indian legal profession.\" Use evidence from the NCERT text to support your judgment.",
+     "a": "The statement is *partially true but incomplete*. The 1923 Act removed the *statutory bar* on women's enrolment (victory), but the NCERT text notes: \"Since then, although the number of women entering into the profession has increased, gender bias still pervades the profession... only 15.3 percent of lawyers in India are women (2022 data).\" A student calling it a \"complete victory\" ignores the *structural/persistent bias* documented in the text — confusing *formal equality* (legal right) with *substantive equality* (actual representation and treatment).",
+     "self_check": true
+    },
+    {
+     "q": "Create a hypothetical scenario where a foreign law firm wants to establish a liaison office in India to advise on cross-border M&A. Trace the legal hurdles they face under the Advocates Act, 1961, Bar Council of India resolutions, and conflicting High Court judgments (Bombay vs. Madras). Propose a legally sound \"fly-in-fly-out\" model.",
+     "a": "A strong answer will: (1) Note BCI resolutions (2002–2007) opposing foreign firms; (2) Cite *Lawyers Collective v. Union of India* (Bombay HC, 2011) — foreign firms *cannot* set up liaison offices; (3) Cite *A.K. Balaji v. Government of India* (Madras HC) — foreign lawyers *can* advise on \"fly-in-fly-out\" basis (no permanent office); (4) Propose model: Foreign lawyers visit India temporarily, advise on foreign law/international arbitration, do not appear in Indian courts, do not hold out as Indian advocates, comply with BCI's \"reciprocal recognition\" list for foreign degrees. A weak answer misses the *judicial conflict* or suggests a permanent office — revealing ignorance of the *unresolved liberalisation tension* in Indian legal services regulation.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

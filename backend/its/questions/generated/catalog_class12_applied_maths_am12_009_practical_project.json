@@ -4,15 +4,9 @@
   {
    "id": "am12_009.1",
    "title": "Assessment Plan Internal and External",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "read the table or chart with its key",
-     "explain": "read the table or chart with its key: total = 3 + 7 + 9 gives 19",
-     "compute": "total = 3 + 7 + 9"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a frequency table the rows have frequencies 3, 7 and 9. Find the total frequency.",
@@ -49,15 +43,9 @@
   {
    "id": "am12_009.2",
    "title": "Spreadsheet Graphs and Matrix Operations",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "read the table or chart with its key",
-     "explain": "read the table or chart with its key: total = 9 + 2 + 7 gives 18",
-     "compute": "total = 9 + 2 + 7"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a frequency table the rows have frequencies 9, 2 and 7. Find the total frequency.",
@@ -94,15 +82,9 @@
   {
    "id": "am12_009.3",
    "title": "Simulation and Business Decision Inference",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "read the table or chart with its key",
-     "explain": "read the table or chart with its key: total = 6 + 3 + 4 gives 13",
-     "compute": "total = 6 + 3 + 4"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "-",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "In a frequency table the rows have frequencies 6, 3 and 4. Find the total frequency.",

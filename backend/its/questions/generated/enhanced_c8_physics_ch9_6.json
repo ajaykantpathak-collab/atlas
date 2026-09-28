@@ -34,6 +34,21 @@
      "q": "Design a simple working model of the water cycle using only a transparent plastic box, a heat lamp, ice cubes, and soil/sand. Describe the setup and which real-world processes each part represents.",
      "a": "Place damp soil in one half of the box (land/ocean), cover with lid. Put ice cubes on lid above soil (cold atmosphere). Shine heat lamp on soil (Sun). Observe: water evaporates from soil (evaporation), condenses on cold lid (condensation), drips down (precipitation), some soaks into soil (infiltration), some runs over surface (runoff). A poor model misses one of these processes (e.g., no ice cubes so no condensation) or cannot explain the energy source.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Water on Earth exists in ______ reservoirs (oceans, ice caps, groundwater, rivers, lakes, atmosphere) and continuously moves between them through the water cycle driven by solar energy and gravity; the distribution is highly uneven with 97.5% saline water in oceans and only 2.5% freshwater, most of which is locked in ice or underground.",
+     "a": "interconnected",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a tap running in your kitchen: the water comes from a river or ______, but originally it fell as rain.",
+     "a": "groundwater",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the global distribution of water using percentages, describe the role of solar energy and gravity in driving each step of the water cycle, and calculate simple quantities such as freshwater volume from total water data or river discharge from cross-sectional area and velocity.",
+     "self_check": true
     }
    ]
   }

@@ -83,7 +83,16 @@
      "q": "Startup India requires turnover below how many crore rupees: one hundred or ten thousand?",
      "a": "one hundred"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "startup_age = check_year - incorporation_year",
+     "compute": "startup_age = check_year - incorporation_year"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebt113.3",
@@ -282,7 +291,16 @@
      "q": "Plant breeder's rights run roughly twenty to how many years: twenty-five or five?",
      "a": "twenty-five"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "mid_years = (min_years + max_years) / 2",
+     "compute": "mid_years = (min_years + max_years) / 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebt113.8",

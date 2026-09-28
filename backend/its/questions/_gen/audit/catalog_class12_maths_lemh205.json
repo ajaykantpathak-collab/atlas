@@ -42,9 +42,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "val = 12 * 12 + 2 * 12 * 5 + 5 * 5"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.205.11.2.2",
@@ -87,9 +85,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lines = 1"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.205.11.3.1",
@@ -132,9 +128,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "lines = 1"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.205.11.3.2",
@@ -177,9 +171,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "t1 = 10 / 10"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.205.11.3.3",
@@ -227,9 +219,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "mag = sqrt(4 * 4 + -2 * -2 + 6 * 6)"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.205.11.4.1",
@@ -315,9 +305,7 @@
      ]
     }
    ],
-   "steps_chain": [
-    "t1 = 20 / 10"
-   ]
+   "steps_chain": []
   },
   {
    "id": "lemh.205.11.5.1",

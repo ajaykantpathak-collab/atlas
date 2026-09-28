@@ -34,6 +34,26 @@
      "q": "Construct a triangle with vertices having integer coordinates such that its area is exactly 7 square units and one vertex is at the origin. Give the coordinates and verify using the determinant method.",
      "a": "One solution: (0,0), (7,0), (0,2). Matrix: |0 0 1; 7 0 1; 0 2 1| = 0 − 0 + 1(14−0) = 14. Area = ½×14 = 7. Another: (0,0), (1,0), (0,14) or (0,0), (2,0), (0,7). A poor answer uses non-integer coordinates, forgets the ½ factor, or gives collinear points. The task tests ability to reverse-engineer the formula and understand the geometric meaning of base×height/2.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The area of a triangle with vertices at coordinates (x₁, y₁), (x₂, y₂), and (x₃, y₃) is given by half the absolute value of the ______ formed by the coordinates with a column of ones: Area = ½ |x₁(y₂−y₃) + x₂(y₃−y₁) + x₃(y₁−y₂)| = ½ |det[[x₁, y₁, 1], [x₂, y₂, 1], [x₃, y₃, 1]]|.",
+     "a": "determinant",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a surveyor measuring a ______ plot of land in a village near Jaipur.",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You need the area in square metres to calculate the cost of fencing at ₹______ per metre.",
+     "a": "150",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can compute the area of any triangle given its vertex coordinates using the determinant formula, determine collinearity of three points by checking if the determinant equals zero, and find unknown coordinates when the area is specified (using both positive and negative determinant values).",
+     "self_check": true
     }
    ]
   }

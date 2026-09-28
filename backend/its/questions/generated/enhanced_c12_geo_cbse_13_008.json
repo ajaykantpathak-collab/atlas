@@ -34,6 +34,26 @@
      "q": "Design a hybrid renewable energy park for a 500 km² area in the Jaisalmer district of Rajasthan that maximises both solar and wind generation. Specify the key geographical criteria you would use to select the exact layout (e.g., spacing, orientation, turbine placement relative to solar arrays) and justify each criterion with the physical geography of the region.",
      "a": "Expected answer criteria: (1) **Solar array orientation** — tilt angle ≈ latitude (27°N) facing true south, with row spacing calculated to avoid winter solstice shading (using sun altitude angle). (2) **Wind turbine siting** — place turbines on elevated sandy ridges (barchan dunes) where wind speed is accelerated by topography, maintaining minimum 5–7 rotor diameters spacing perpendicular to prevailing wind direction (southwest in summer, northeast in winter). (3) **Hybrid layout** — position wind turbines *upwind* of solar arrays to avoid turbulence-induced soiling of panels; use the wide, flat interdunal corridors for solar PV with minimal grading. (4) **Grid connection** — locate substation near existing transmission corridor (e.g., Jaisalmer–Barmer line) to minimise evacuation cost. (5) **Environmental constraint** — avoid critical habitat of Great Indian Bustard by using wildlife corridor maps.  \nJustification: Jaisalmer has high DNI (>6 kWh/m²/day), strong diurnal wind regimes (thermal low over Thar draws moist winds), and sparse population. A poor answer would ignore seasonal wind reversal, soiling from dust storms, or wildlife conflicts, showing lack of integrated geographical thinking.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Solar and wind energy in India refer to the harnessing of renewable energy from sunlight (via photovoltaic cells and solar thermal technology) and kinetic energy of wind (via turbines) for electricity generation and thermal applications, with high potential concentrated in the western states of Rajasthan and Gujarat for solar, and across Rajasthan, Gujarat, Maharashtra, and Karnataka for wind due to favourable ______ and climatic conditions.",
+     "a": "physiographic",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by observing rooftop solar panels in your neighbourhood or wind ______ along the highways of western India — these are visible markers of India's energy transition.",
+     "a": "turbines",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can locate major solar and wind energy regions on an outline map of India, explain the physical factors (latitude, altitude, pressure systems, wind regimes) that create high potential in these regions, and compare the relative advantages and limitations of solar versus wind energy in the Indian context.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Begin by observing rooftop solar panels in your ______ or wind turbines along the highways of western India — these are visible markers of India's energy transition.",
+     "a": "neighbourhood",
+     "self_check": true
     }
    ]
   }

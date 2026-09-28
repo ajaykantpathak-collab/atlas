@@ -34,6 +34,26 @@
      "q": "Design a thought experiment using a mixture of two gases with very different molecular masses (e.g., hydrogen and sulfur hexafluoride) in a container at thermal equilibrium to demonstrate that temperature is a measure of average kinetic energy, not average speed.",
      "a": "A good answer: Place H₂ (M = 2 g/mol) and SF₆ (M = 146 g/mol) in a thermally insulated container. Wait for thermal equilibrium (same T). Measure or calculate v_rms for each: v_rms,H₂/v_rms,SF₆ = √(M_SF₆/M_H₂) ≈ √73 ≈ 8.5. Despite vastly different speeds, both gases have identical average translational KE = (3/2)k_BT. This proves temperature reflects energy, not speed. A poor answer (e.g., \"measure temperature with thermometer\") misses the microscopic-macroscopic connection and fails to use kinetic theory concepts.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The kinetic ______ of temperature states that the absolute temperature (T) of an ideal gas is a direct measure of the average translational kinetic energy per molecule, given by (1/2)m⟨v²⟩ = (3/2)k_BT, where m is the molecular mass, ⟨v²⟩ is the mean square speed, and k_B = 1.38 × 10⁻²³ J/K is the Boltzmann constant.",
+     "a": "interpretation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a pressure cooker whistle: as water boils, steam ______ move faster, hitting the lid more frequently and forcefully, raising pressure until the whistle lifts.",
+     "a": "molecules",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the relation (1/2)m⟨v²⟩ = (3/2)k_BT from the pressure equation P = (1/3)nm⟨v²⟩ and the ideal gas law PV = Nk_BT, and can explain why temperature depends only on average kinetic energy, not on molecular identity.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a pressure cooker whistle: as water boils, steam molecules move faster, hitting the lid more ______ and forcefully, raising pressure until the whistle lifts.",
+     "a": "frequently",
+     "self_check": true
     }
    ]
   }

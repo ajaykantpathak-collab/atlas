@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using germinating seeds, a respirometer, and KOH to demonstrate oxygen consumption during respiration. Specify: (a) control setup, (b) measured variable, (c) how KOH functions, (d) expected observation, and (e) the stoichiometric link to CO₂ production.",
      "a": "(a) Control: same setup with dead/boiled seeds. (b) Measured variable: volume decrease (water rise in capillary) due to O₂ consumption. (c) KOH absorbs CO₂ produced (2KOH + CO₂ → K₂CO₃ + H₂O), so volume change reflects only O₂ uptake. (d) Water rises in experimental tube; no change in control. (e) Stoichiometry: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O. Since 6 mol CO₂ produced per 6 mol O₂ consumed, KOH absorption prevents pressure increase from CO₂, isolating O₂ consumption signal. A poor answer omitting KOH's role or using \"oxygen sensor\" instead of volume change shows lack of experimental design understanding for gas stoichiometry.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The oxygen cycle is the ______ cycle that describes the movement of oxygen atoms between Earth's major reservoirs — atmosphere (O₂, O₃, CO₂, H₂O), biosphere (organic matter), lithosphere (oxides, silicates, carbonates), and hydrosphere (dissolved O₂, H₂O) — driven primarily by photosynthesis (O₂ production), respiration/combustion/decomposition (O₂ consumption), and photolysis (O₂ destruction/ozone formation), maintaining atmospheric O₂ at ~21% by volume over geological timescales.",
+     "a": "biogeochemical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a burning ______ in a closed jar — the flame extinguishes when oxygen depletes, demonstrating oxygen as a finite, consumable resource.",
+     "a": "candle",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The oxygen cycle is the biogeochemical cycle that describes the movement of oxygen atoms between Earth's major reservoirs — atmosphere (O₂, O₃, CO₂, H₂O), biosphere (organic matter), lithosphere (oxides, silicates, carbonates), and hydrosphere (dissolved O₂, H₂O) — driven primarily by photosynthesis (O₂ production), respiration/combustion/decomposition (O₂ consumption), and photolysis (O₂ destruction/ozone formation), maintaining atmospheric O₂ at ~______% by volume over geological timescales.",
+     "a": "21",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can quantitatively compare oxygen fluxes between reservoirs using photosynthesis/respiration stoichiometry, calculate oxygen residence time in the atmosphere from reservoir size and flux data, and explain how the oxygen cycle couples with carbon and water cycles to regulate atmospheric composition and climate.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a burning candle in a closed jar — the flame extinguishes when oxygen depletes, ______ oxygen as a finite, consumable resource.",
+     "a": "demonstrating",
+     "self_check": true
     }
    ]
   }

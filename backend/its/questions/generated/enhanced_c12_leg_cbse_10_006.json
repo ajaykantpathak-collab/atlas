@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_10_006",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_10_006",
+   "title": "c12_leg_cbse_10_006",
+   "questions": [
+    {
+     "q": "A student writes: \"Article 21 guarantees the right to life, so the government must provide free healthcare to all citizens.\" Identify the *exact* conceptual error in this statement — citing the constitutional distinction that makes it wrong.",
+     "a": "The error: conflating *fundamental rights* (enforceable, Part III) with *directive principles* (non-justiciable, Part IV). Article 21 is a negative right (state shall not deprive life/liberty except by fair procedure) — it does not *impose a positive obligation* to provide healthcare. That obligation lies in Art. 47 (directive principle). The Supreme Court has *read* health into Art. 21 (*Paschim Banga Khet Mazdoor Samity*), but only as an *interpretive expansion*, not textual mandate. A wrong answer reveals the student memorizes \"Art. 21 = right to health\" without grasping the *judicial activism* bridge — and cannot distinguish justiciable vs aspirational rights in exams.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why the NHRC *cannot* directly punish a police officer for custodial torture — even after finding guilt — and name the *exact* constitutional provision that limits its power to \"recommendations only.\"",
+     "a": "The NHRC (under Protection of Human Rights Act, 1993, Sec. 18) has powers of a civil court (summon, evidence) but *no judicial or executive enforcement power*. It can only *recommend* prosecution, compensation, or disciplinary action to the government. The limitation flows from **Art. 50 (separation of judiciary from executive)** — NHRC is an executive-body (appointed by President on PM-led committee), not a court. If it could punish, it would violate Art. 50 by exercising judicial power. A wrong answer (e.g., \"NHRC can order suspension\") shows confusion between *quasi-judicial inquiry* and *adjudicatory punishment* — a classic board exam trap in \"powers of commissions\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "A bonded laborer is rescued in Tamil Nadu. The District Collector issues a release certificate under the Bonded Labour System (Abolition) Act, 1976. But the employer threatens the laborer to retract testimony. The laborer wants *immediate protection* and *compensation*. Draft the *sequence of three concrete steps* she should take — naming the *specific authority* at each step — to maximize speed and enforceability.",
+     "a": "Step 1: File complaint with **District Legal Services Authority (DLSA)** under Sec. 12(c) Legal Services Authorities Act, 1987 (woman/victim of trafficking/begar = entitled to free lawyer) → gets *immediate legal aid + police protection order*.  \nStep 2: Simultaneously, approach **NHRC** via *suo motu* petition (online/email) citing Art. 21 + Art. 23 violation → NHRC can *direct interim relief* (Sec. 18 PHRA) and monitor state action.  \nStep 3: If employer violates protection, file **contempt petition in High Court** (Art. 226) against District Collector/police for *inaction* — High Court can *enforce* its order via contempt power (Art. 215).  \nWrong answer (e.g., \"go to Supreme Court directly\") ignores *hierarchy of forums* and *delay* — Art. 32 is for *fundamental rights enforcement*, but High Court Art. 226 is faster for local administrative failure. Reveals lack of *strategic forum selection* skill.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the *effectiveness* of PIL (Public Interest Litigation) vs. NHRC complaint for addressing *systemic* manual scavenging deaths in municipal sewers across 5 states. Use *three specific criteria*: (a) enforceability of orders, (b) access for victims' families, (c) structural reform potential.",
+     "a": "| Criterion | PIL (Supreme Court/High Court) | NHRC Complaint |\n|-----------|-------------------------------|----------------|\n| (a) Enforceability | **High** — Court orders binding, contempt power (Art. 129/215), can direct CBI inquiry, fix timelines | **Low** — Recommendations only; state may ignore; no contempt power |\n| (b) Victim Access | **Moderate** — Needs lawyer/PIL letter; but courts relax locus standi (*Hussainara Khatoon*) | **High** — No fee, any language, online, NGO can file; but 1-year limitation (Sec. 18 PHRA) |\n| (c) Structural Reform | **High** — Can issue *continuing mandamus* (e.g., *Safai Karamchari Andolan* case: banned manual scavenging, directed rehabilitation, monitoring) | **Low** — Advisory; can recommend law/policy change but cannot *compel* legislation or budget allocation |\n\n**Verdict**: PIL better for *systemic, cross-state structural reform*; NHRC better for *individual, urgent relief*. Wrong answer (e.g., \"NHRC is stronger because it's a human rights body\") shows ignorance of *institutional design* — NHRC is *advisory*, courts are *coercive*. This distinction is critical for CUET/UPSC \"evaluate\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Critique this statement: \"The Supreme Court's 'basic structure' doctrine (Kesavananda Bharati) has *effectively protected* human rights from legislative erosion — therefore, no constitutional amendment can ever violate fundamental rights.\" Use *one landmark case* where Parliament *did* amend the Constitution to curtail a right, and the Court *upheld* it — explaining the *doctrinal nuance* missed.",
+     "a": "The statement is **false**. Basic structure doctrine limits *amending power* but does not make *all* fundamental rights immune. Example: **42nd Amendment (1976)** inserted Art. 31C — giving primacy to DPSPs (Art. 39(b)(c)) over Art. 14, 19, 31 — *upheld* in **Minerva Mills (1980)** *only partially* (Court struck down \"no judicial review\" clause but *retained* Art. 31C's shield for laws implementing Art. 39(b)(c)). Later, **Waman Rao (1981)** held Art. 31C valid for *pre-1971* laws. Result: Land reform laws violating Art. 14/19 *survived* because they fell under Art. 31C — a *legislative curtailment* of fundamental rights *approved* by Court. The nuance: Basic structure protects *core* (democracy, secularism, judicial review) — not *every* fundamental right absolutely. Wrong answer reveals \"basic structure = absolute shield\" oversimplification — fatal in JEE/NEET-style \"assertion-reason\" questions.",
+     "self_check": true
+    },
+    {
+     "q": "Design a *new* human rights complaint mechanism for *transgender persons* facing discrimination in *private employment* (hiring, promotion, washroom access) — where *neither* NHRC (only public servants) *nor* Labour Courts (slow, no gender-identity expertise) work well. Your design must: (a) name the *authority*, (b) define *jurisdiction*, (c) specify *two innovative powers* beyond existing bodies, (d) explain *how* it avoids the \"recommendation-only\" trap.",
+     "a": "**Authority**: **National Transgender Rights Tribunal (NTRT)** — established under *new statute* (Transgender Persons (Protection of Rights) Act, 2019 amendment).  \n**Jurisdiction**: All discrimination complaints by transgender persons in *employment (public/private), education, healthcare, public spaces* — including *intersectional* claims (caste + gender identity).  \n**Innovative Powers**:  \n1. **\"Structural Injunction\"**: Can order *systemic changes* in a company (e.g., mandatory sensitization, gender-neutral washrooms, trans-inclusive HR policy) — not just compensation.  \n2. **\"Compliance Monitoring Cell\"**: Dedicated officers conduct *surprise audits* of workplaces; non-compliance → *daily fines* (not just recommendations) + public naming.  \n**Avoids \"recommendation-only\" trap**: NTRT orders are *deemed decrees of civil court* (like Lok Adalat award under Sec. 21 Legal Services Act) — *directly executable* without further litigation. Appeals lie only to High Court (Art. 226) on *questions of law*.  \nPoor answer: \"Make NHRC handle it\" — ignores NHRC's *statutory bar* (Sec. 12 PHRA: only \"public servant\" violations) and *structural inertia*. Reveals inability to *design institutional solutions* — a CUET/IPMAT \"create\" level skill.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

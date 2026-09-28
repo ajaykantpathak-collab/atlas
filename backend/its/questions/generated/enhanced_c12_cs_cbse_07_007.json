@@ -34,6 +34,31 @@
      "q": "Create a Boolean expression with three variables that requires two applications of De Morgan's Theorem to convert it into a sum-of-products (SOP) form with only single-variable complements (no complemented parentheses). Show the full derivation.",
      "a": "Example: F = [(A + B') · C']'. Step 1: Apply Theorem 2 on the outer complement: F = (A + B')' + (C')' = (A + B')' + C. Step 2: Apply Theorem 1 on (A + B')': F = A' · (B')' + C = A'·B + C. Final SOP: A'·B + C. A poor answer that writes F = A'·B' + C (missing the double complement on B) or F = (A'·B) + C' (not complementing C) shows the student cannot track nested complements and operator flips across multiple levels — a critical skill for JEE-style multi-gate conversion problems.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: De Morgan's Theorems are two ______ rules in Boolean Algebra that describe the equivalence between the complement of a sum (OR) and the product (AND) of complements, and the complement of a product (AND) and the sum (OR) of complements.",
+     "a": "fundamental",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are designing a digital circuit for a smart irrigation system that ______ a pump only when the soil is dry (D=1) AND the water tank is not empty (T=0).",
+     "a": "activates",
+     "self_check": true
+    },
+    {
+     "q": "What is De Morgan's Theorems? State the definition given in this lesson.",
+     "a": "De Morgan's Theorems are two fundamental rules in Boolean Algebra that describe the equivalence between the complement of a sum (OR) and the product (AND) of complements, and the complement of a product (AND) and the sum (OR) of complements.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about De Morgan's Theorems?",
+     "a": "Students mechanically \"break the bar and change the sign\" but forget that every variable under the bar must be complemented individually.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state both theorems precisely, prove each using truth tables and algebraic manipulation with Boolean laws, and apply them to simplify a given Boolean expression or convert an AND-OR circuit to a NAND-NAND or NOR-NOR equivalent.",
+     "self_check": true
     }
    ]
   }

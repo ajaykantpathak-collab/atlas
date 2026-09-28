@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a live frog (ethically approved) to demonstrate that cutaneous respiration contributes significantly to gas exchange when the frog is submerged in water.",
      "a": "Place a frog in a respirometer with oxygenated water but no air access. Measure dissolved oxygen concentration in the water over time using a dissolved oxygen probe. Simultaneously, ligate the pulmonary arteries (or use a frog with surgically occluded lungs) in a control group. A significant drop in water oxygen in the experimental group compared to controls demonstrates cutaneous uptake. A poor design (e.g., \"observe skin color change\" or \"measure heart rate only\") shows inability to isolate cutaneous respiration from pulmonary respiration and lack of quantitative experimental thinking.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The frog circulatory system is a closed, single-circuit vascular system comprising a three-chambered heart (two atria, one ventricle), arterial and venous vessels, blood with nucleated ______, and a lymphatic system; it features specialized hepatic and renal portal venous connections that directly link digestive and excretory organs to the heart.",
+     "a": "erythrocytes",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine watching a dissected frog's heart beating rhythmically in a biology lab — you notice it has only three visible chambers, unlike the four-______ human heart you studied in Class 10.",
+     "a": "chambered",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) accurately trace the complete path of a blood cell through the frog's heart, portal systems, and respiratory surfaces in a labelled diagram, and (2) explain how the three-chambered heart achieves partial separation of oxygenated and deoxygenated blood streams despite a single ventricle.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine watching a dissected frog's heart beating ______ in a biology lab — you notice it has only three visible chambers, unlike the four-chambered human heart you studied in Class 10.",
+     "a": "rhythmically",
+     "self_check": true
     }
    ]
   }

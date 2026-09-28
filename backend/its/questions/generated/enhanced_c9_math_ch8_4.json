@@ -34,6 +34,26 @@
      "q": "Create an arithmetic progression of 5 terms where the common difference is a negative fraction. Write the sequence and verify it is an AP.",
      "a": "Example: Start with 10, common difference \\(-\\frac{1}{2}\\). Sequence: 10, 9.5, 9, 8.5, 8. Verification: \\(9.5-10=-0.5\\), \\(9-9.5=-0.5\\), \\(8.5-9=-0.5\\), \\(8-8.5=-0.5\\). All differences equal \\(-\\frac{1}{2}\\). A poor answer (e.g., sequence with positive difference, or not verifying all consecutive pairs) reveals the student cannot work with negative fractions or does not understand that the constant difference must be checked for every adjacent pair.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: An arithmetic ______ (AP) is a sequence of numbers in which the difference between any two consecutive terms is constant.",
+     "a": "progression",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Ask: \"Can we predict how much she will add on the 10th day without listing all days?\" Write the ______: 10, 15, 20, 25,...",
+     "a": "sequence",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Highlight that this constant difference (₹______) is the common difference.",
+     "a": "5",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify whether a given sequence is an AP by verifying the constancy of the common difference, compute the common difference from any two consecutive terms, and explain why a sequence with a non-constant difference is not an AP.",
+     "self_check": true
     }
    ]
   }

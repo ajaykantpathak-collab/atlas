@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_01_004",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_01_004",
+   "title": "c12_leg_cbse_01_004",
+   "questions": [
+    {
+     "q": "What is the pecuniary jurisdiction of a District Munsiff Court in a civil suit for recovery of money, and who determines it?",
+     "a": "The pecuniary jurisdiction of a District Munsiff Court is notified by the respective State Government and varies by state — it is the lowest civil court handling money claims up to a specified amount. A wrong answer (e.g., \"Rs. 1 lakh fixed by Centre\") reveals the student confuses uniform central limits with state-notified variable limits and misses that Munsiff Courts are *below* subordinate courts, not at the district level.",
+     "self_check": true
+    },
+    {
+     "q": "Explain why a writ petition under Article 226 can be filed in a High Court for enforcement of fundamental rights *and* \"for any other purpose,\" while Article 32 is only for fundamental rights.",
+     "a": "Article 226's wider scope (\"for any other purpose\") lets High Courts review administrative/legislative actions beyond fundamental rights (e.g., statutory duties, natural justice violations), making it a broader supervisory tool. Article 32 is a fundamental right itself — only for Part III enforcement. A wrong answer (e.g., \"both are same\") shows the student misses the constitutional design: SC as fundamental rights guardian (Art. 32), HC as general supervisory authority (Art. 226).",
+     "self_check": true
+    },
+    {
+     "q": "A dispute arises between the Government of India and the State of Karnataka over sharing of Cauvery river water. Which court has *original* jurisdiction, and under which Article? Can a private citizen file this dispute?",
+     "a": "The Supreme Court has original jurisdiction under Article 131 — disputes between Centre and State(s) involving legal rights. A private citizen *cannot* file under Art. 131 — only governments can. A wrong answer (e.g., \"High Court under Art. 226\" or \"any citizen can file\") reveals confusion between original jurisdiction (Art. 131), writ jurisdiction (Art. 32/226), and locus standi — a classic board exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the *binding effect* of an arbitral award vs. a Lok Adalat award vs. a court judgment. Which has precedential value? Which can be appealed?",
+     "a": "Court judgment: binding, precedential (stare decisis), appealable. Arbitral award: binding, enforceable as decree, *no* precedential value, limited setting-aside grounds (Sec. 34 Arbitration Act). Lok Adalat award: binding, enforceable as decree, *no appeal* (final), no precedential value. A wrong answer (e.g., \"all have precedential value\") shows the student conflates *enforceability* with *precedent* — a critical distinction for competitive exams.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"The Collegium system for judicial appointments is unconstitutional because Article 124 says 'President appoints after consultation,' not 'concurrence.'\" Defend or critique using *Three Judges Cases* evolution.",
+     "a": "Critique: The Second Judges Case (1993) interpreted \"consultation\" as \"concurrence\" — CJI's opinion is binding. Third Judges Case (1998) formalized Collegium (CJI + 4 senior SC judges). Though not in Constitution text, it's *judicially evolved* to protect independence (basic structure). A wrong answer (e.g., \"Collegium is in Constitution\") reveals the student doesn't know the *judicial creation* vs. *constitutional text* distinction — a frequent JEE/CUET trap.",
+     "self_check": true
+    },
+    {
+     "q": "Design a step-by-step procedural roadmap for a poor, illiterate woman in rural Odisha whose land was illegally occupied by a local politician. She wants her land back *fast* and *free*. Include forum, remedy, legal aid source, and timeline estimate.",
+     "a": "Good answer: (1) Approach District Legal Services Authority (DLSA) for free lawyer under Sec. 12 LSA Act (woman + low income); (2) File writ petition under Art. 226 in Odisha HC (illegal occupation = violation of Art. 300A property right + Art. 21 livelihood) — faster than civil suit; (3) Seek interim stay; (4) If HC delays, Special Leave Petition (Art. 136) to SC; (5) Simultaneously, request DLSA to refer to Lok Adalat for expeditious settlement. Timeline: 6-18 months. Poor answer misses DLSA, uses civil suit (slow), or ignores Art. 226 for property rights.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

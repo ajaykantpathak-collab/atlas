@@ -34,6 +34,36 @@
      "q": "Design a simple experiment using onion root tips and a light microscope to estimate the relative duration of prophase compared to other mitotic stages. Describe the sampling method, data to collect, and calculation.",
      "a": "Fix and stain onion root tip squashes (aceto-orcein/Feulgen). Score 500+ cells in the meristematic zone. Count cells in each stage: interphase, prophase, metaphase, anaphase, telophase. % prophase cells = (prophase count / total mitotic cells) × 100. Assuming asynchronous division, % time in prophase ≈ % cells in prophase. Compare with literature (~50% of mitosis). Good answer includes: random sampling, blind scoring, distinguishing early/late prophase. Poor answer: small sample, no staining detail, confusing interphase with prophase.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Prophase is the first stage of ______ in mitosis, following the S and G2 phases of interphase, during which chromatin condenses into visible chromosomes (each composed of two sister chromatids joined at the centromere), the centrosomes migrate to opposite poles forming the mitotic spindle apparatus, and the nuclear envelope, nucleolus, Golgi complex, and endoplasmic reticulum disassemble.",
+     "a": "karyokinesis",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe an onion root tip slide under a compound ______ — you see many cells, but a few look different: their nuclei are gone and dark thread-like structures fill the cell.",
+     "a": "microscope",
+     "self_check": true
+    },
+    {
+     "q": "What is Prophase? State the definition given in this lesson.",
+     "a": "Prophase is the first stage of karyokinesis in mitosis, following the S and G2 phases of interphase, during which chromatin condenses into visible chromosomes (each composed of two sister chromatids joined at the centromere), the centrosomes migrate to opposite poles forming the mitotic spindle apparatus, and the nuclear envelope.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Prophase is the first stage of karyokinesis in mitosis, following the S and G______ phases of interphase, during which chromatin condenses into visible chromosomes (each composed of two sister chromatids joined at the centromere), the centrosomes migrate to opposite poles forming the mitotic spindle apparatus, and the nuclear envelope, nucleolus, Golgi complex, and endoplasmic reticulum disassemble.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Prophase?",
+     "a": "Students think \"chromosomes replicate in prophase\" because they see double-structured chromosomes (two chromatids).",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify prophase in a microscope slide or diagram by recognizing condensed chromosomes, disappearing nuclear envelope, and forming spindle fibres, and can explain the sequential molecular events (chromatin condensation, centrosome separation, spindle assembly, nuclear envelope breakdown) in correct order with reasoning.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,26 @@
      "q": "Create your own number sequence where the 4th term is 19 and the common difference between consecutive terms is 4. Write down the first four terms and the algebraic generalisation rule for your sequence.",
      "a": "The expected answer should provide a sequence starting with 7, 11, 15, 19, with the algebraic rule $4n + 3$. A poor answer that lists random numbers without a constant difference of 4 shows a failure to grasp how linear sequences maintain a uniform growth rate linked to the coefficient of $n$.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The process of observing numerical or geometric patterns and expressing the underlying ______ as a general algebraic formula using variables.",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are organizing desks in your school ______ for an annual function.",
+     "a": "auditorium",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Instead, you look at how the pattern grows: each new row adds ______ desks to the previous one.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ desks in your school auditorium for an annual function.",
+     "a": "organizing",
+     "self_check": true
     }
    ]
   }

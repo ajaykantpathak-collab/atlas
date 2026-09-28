@@ -21,8 +21,8 @@
      "self_check": true
     },
     {
-     "q": "How does the presence of vegetation and plant roots affect the rate of water seepage into the underground soil compared to bare, hard-baked soil?",
-     "a": "Plant roots create microscopic channels and organic pathways in the soil that break up surface compaction, significantly increasing the seepage rate and reducing surface run-off. A wrong answer indicating that plants block water or drink it all before it seeps shows a misunderstanding of how root structures actually improve soil porosity and permeability.",
+     "q": "Trace the correct sequence from a raindrop landing on root-filled soil to the recharging of an aquifer.",
+     "a": "The seepage pathway runs: (1) Roots loosen the compacted surface soil (2) Microscopic channels raise the soil's porosity and permeability (3) Gravity pulls water downward through the open pore spaces (4) Percolated water reaches and recharges the underground aquifer. A wrong answer that treats plant roots as blockers that drink up all the water shows the student misunderstands how root structures improve infiltration and reduce surface run-off.",
      "self_check": true
     },
     {
@@ -33,6 +33,21 @@
     {
      "q": "Design a simple school-lab investigation using plastic bottles, different soil types (sand, loam, clay), and water to compare their seepage rates. What measurable parameters must you record?",
      "a": "To design the investigation, one must cut the bottom off three plastic bottles, invert them, fill each with an equal mass of sand, loam, or clay, pour an equal volume of water ($200\\text{ mL}$) into each, and measure two parameters: the time taken for the first drop to emerge at the bottom, and the total volume of water collected in a measuring cylinder after 5 minutes. A poor answer fails to control variables (such as using different amounts of soil or water) or forgets to measure time.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The seepage of water beneath the ground refers to the process by which rainwater and surface water infiltrate through soil layers and permeable rock strata under the influence of gravity, recharging ______ water reservoirs known as aquifers.",
+     "a": "underground",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you pour water into a dusty patch of soil in your school courtyard during a science ______, you notice that the water quickly disappears from the surface.",
+     "a": "experiment",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can explain how surface water becomes groundwater through soil porosity and permeability, and can predict how different soil types affect the rate of water seepage.",
      "self_check": true
     }
    ]

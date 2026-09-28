@@ -1,3 +1,4 @@
+import os
 """
 Regenerate 4 problematic Elective English sub-node files with ACTUAL poem texts included.
 This prevents Claude from fabricating quotations.
@@ -11,7 +12,7 @@ Poems verified from web sources:
 import json, sys, time, urllib.request, ssl, re
 from pathlib import Path
 
-API_KEY = 'sk-ant-co-QsK1rhxdfRWZ65OJ5cVxaAZ5ISNUY0lK'
+API_KEY = os.environ.get('ANTHROPIC_API_KEY') or ''
 API_URL = 'https://api.claudeopus.pro/v1/messages'
 MODEL = 'claude-opus-5'
 MAX_TOKENS = 128000

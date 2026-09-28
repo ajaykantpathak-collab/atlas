@@ -34,6 +34,26 @@
      "q": "Design a concept map linking the following: Planck Era, Inflation, Recombination, CMBR, Dark Ages, Reionization, First Stars, Galaxy Formation, Present Universe. Annotate each transition with the dominant physical process and approximate time/redshift.",
      "a": "A strong map shows: Planck Era (t < 10⁻⁴³ s, quantum gravity) → Inflation (10⁻³⁶ s, exponential expansion) → Quark/Hadron/Lepton Eras → Nucleosynthesis (3–20 min, fusion) → Recombination (z ≈ 1100, 380 kyr, CMBR release) → Dark Ages (neutral H, no stars) → Reionization (z ≈ 6–10, first stars ionize H) → Galaxy Assembly (z ≈ 1–3) → Stelliferous Era (present, z = 0). Poor maps list eras linearly without causal arrows (e.g., inflation solves horizon/flatness problems enabling later structure formation) or omit redshift/time anchors.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Big Bang Theory is the prevailing cosmological model explaining the origin and evolution of the universe from an extremely hot, dense singularity ______ 13.8 billion years ago, followed by continuous expansion, cooling, and structure formation governed by physical laws including general relativity and quantum mechanics.",
+     "a": "approximately",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the night sky: every galaxy beyond our Local Group shows a ______, meaning they are moving away from us — the farther, the faster.",
+     "a": "redshift",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The Big Bang Theory is the prevailing cosmological model explaining the origin and evolution of the universe from an extremely hot, dense singularity approximately ______ billion years ago, followed by continuous expansion, cooling, and structure formation governed by physical laws including general relativity and quantum mechanics.",
+     "a": "13.8",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can explain the sequence of cosmic epochs from Planck era to present, interpret Hubble's Law graphically to calculate recession velocities, and evaluate three key evidences (CMBR, redshift, nucleosynthesis) supporting the theory over steady-state alternatives.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Create a scenario where Hidden Goodwill arises on admission. Give numerical values for capital balances, profit-sharing ratios, and the amount paid by the new partner. Show how to compute hidden goodwill and the journal entry.",
      "a": "**Expected Answer Criteria (Good Response):**  \n1. **Scenario:** Old partners X and Y share 3:2. Capitals: X ₹1,50,000, Y ₹1,00,000. Z admitted for 1/5th share. Z brings ₹80,000 as capital.  \n2. **Total Capital of Firm** = Combined capitals of old partners + New partner's capital = ₹1,50,000 + ₹1,00,000 + ₹80,000 = ₹3,30,000  \n3. **Z's Share = 1/5** → Total Capital should be ₹3,30,000 × 5 = ₹16,50,000? Wait — *correct logic*:  \n   Z's capital ₹80,000 represents 1/5 of total capital → Total Capital = ₹80,000 × 5 = ₹4,00,000  \n4. **Hidden Goodwill** = Total Capital (implied) - Combined Adjusted Capitals = ₹4,00,000 - ₹3,30,000 = ₹70,000  \n5. **Journal Entry:**  \n   Z's Capital A/c Dr. 70,000  \n   To X's Capital A/c 42,000 (3/5)  \n   To Y's Capital A/c 28,000 (2/5)  \n   *(Hidden goodwill adjusted through Z's capital in sacrificing ratio)*  \n\n**Why poor answers reveal misunderstanding:**  \nIf a student uses old ratio (3:2) for Z's capital share instead of 1/5, they don't understand \"share in firm\". If they credit goodwill to X and Y in new ratio, they miss that hidden goodwill compensates *sacrifice*. If they forget to adjust Z's capital (debit Z), they treat it as free goodwill.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Treatment of Goodwill on Admission refers to the accounting procedures for recognizing and ______ the value of a firm's reputation and earning capacity when a new partner joins.",
+     "a": "distributing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a popular local bakery \"Sweet Crust\" run by two ______, Aryan and Bhavya, sharing profits 3:2.",
+     "a": "partners",
+     "self_check": true
+    },
+    {
+     "q": "What is Treatment of Goodwill on Admission? State the definition given in this lesson.",
+     "a": "Treatment of Goodwill on Admission refers to the accounting procedures for recognizing and distributing the value of a firm's reputation and earning capacity when a new partner joins.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Treatment of Goodwill on Admission?",
+     "a": "Students believe \"Revaluation Method\" and \"Adjustment Method (through capital accounts)\" are the same.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) calculate the sacrificing ratio from given old and new profit-sharing ratios, (2) pass correct journal entries for both Premium and Revaluation methods including hidden goodwill scenarios, and (3) prepare the Revaluation Account and Partners' Capital Accounts showing the effect of goodwill treatment on a.",
+     "self_check": true
     }
    ]
   }

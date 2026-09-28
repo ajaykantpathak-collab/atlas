@@ -34,6 +34,31 @@
      "q": "Design a simple protocol using red and blue litmus paper to test whether rain collected during the first monsoon shower in an industrial city is acidic (acid rain) or neutral.",
      "a": "To test rainwater, pour a small sample into a clean glass container. Dip a clean strip of blue litmus paper into the sample. If the blue litmus paper turns red, the rainwater contains dissolved acidic pollutants, indicating acid rain. If the blue litmus remains blue and red litmus remains red, the rainwater is neutral. A poor answer would fail to specify using both papers or would confuse the color change directions.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Litmus is a natural dye ______ from lichens used as an indicator to test whether a chemical substance is acidic, basic, or neutral.",
+     "a": "extracted",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: When you dip a strip of red hibiscus juice paper or standard blue and red litmus paper into a sour ______ like lemon juice in your kitchen, you observe an immediate color shift.",
+     "a": "substance",
+     "self_check": true
+    },
+    {
+     "q": "What is Litmus? State the definition given in this lesson.",
+     "a": "Litmus is a natural dye extracted from lichens used as an indicator to test whether a chemical substance is acidic, basic, or neutral.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Litmus?",
+     "a": "Students often think that red litmus paper turns blue in acids because they confuse the colors of red and blue indicators, or they believe that neutral substances must change litmus paper to a distinct third color like green or yellow.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can correctly identify the chemical nature (acidic, basic, or neutral) of an unknown household or laboratory solution by observing the color changes on both blue and red litmus paper.",
+     "self_check": true
     }
    ]
   }

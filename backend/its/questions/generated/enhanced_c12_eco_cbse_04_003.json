@@ -34,6 +34,26 @@
      "q": "Construct a numerical example where a perfectly competitive firm has TWO output levels satisfying MR = MC, but only one satisfies the rising MC condition. Show the profit at both points and explain which is the true maximum.",
      "a": "Let P = MR = 50. Let MC = 100 - 4Q + 0.1Q² (U-shaped, falling then rising). Set 50 = 100 - 4Q + 0.1Q² → 0.1Q² - 4Q + 50 = 0 → Q² - 40Q + 500 = 0 → (Q - 10)(Q - 30) = 0 → Q = 10 or Q = 30. At Q = 10: d(MC)/dQ = -4 + 0.2(10) = -2 < 0 (falling). At Q = 30: d(MC)/dQ = -4 + 0.2(30) = +2 > 0 (rising). Assume TC = 200 + 100Q - 2Q² + 0.1/3 Q³ (so MC matches). Profit at Q=10: TR=500, TC=200+1000-200+33.33=1033.33, π=-533.33. Profit at Q=30: TR=1500, TC=200+3000-1800+900=4300, π=-2800. Wait — both losses? Let's adjust: TC = 500 + 50Q - 2Q² + 0.1/3 Q³. At Q=10: TC=500+500-200+33.33=833.33, π=-333.33. At Q=30: TC=500+1500-1800+900=1100, π=400. Q=30 gives higher profit (₹400 vs -₹333). The rising MC point is the global maximum; the falling MC point is a local minimum. A poor answer that picks Q=10 or says \"both maximise profit\" shows the student cannot apply the second-order condition to discriminate between multiple critical points — a critical skill for JEE Advanced optimisation problems.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The profit-maximising output level for a firm under perfect ______ is determined where Marginal Revenue (MR) equals Marginal Cost (MC), provided MC is rising at that point (i.e., the MC curve cuts the MR curve from below).",
+     "a": "competition",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a wheat farmer in Punjab selling at the mandi price of ₹2,200 per quintal — she cannot influence the price, so every extra quintal sold adds ______ ₹2,200 to revenue (MR = P).",
+     "a": "exactly",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (a) derive the MR = MC condition from the profit function π = TR - TC using calculus, (b) explain why the second-order condition (MC rising) is necessary using a graph and the concept of local vs global maximum, (c) identify the profit-maximising output from given TR/TC or MR/MC schedules, and (d) distinguish between the.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a wheat farmer in Punjab selling at the mandi price of ₹2,200 per quintal — she cannot ______ the price, so every extra quintal sold adds exactly ₹2,200 to revenue (MR = P).",
+     "a": "influence",
+     "self_check": true
     }
    ]
   }

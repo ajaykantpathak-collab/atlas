@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_04_005",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_04_005",
+   "title": "c12_soc_cbse_04_005",
+   "questions": [
+    {
+     "q": "Define 'indigenous banker' in the Indian sociological context and name two historical examples from the NCERT text.",
+     "a": "An indigenous banker is a traditional moneylending/banking operator embedded in caste/kinship networks who uses community-based trust (not state regulation) to mobilise and lend capital, often via instruments like the hundi. NCERT examples: Nakarattars (Nattukottai Chettiars) of Tamil Nadu and Marwaris of Rajasthan. A wrong answer — e.g., \"any private lender\" or \"RBI-licensed small finance bank\" — reveals confusion between *informal/traditional* and *formal/modern* sectors, and misses the caste-network foundation that distinguishes indigenous banking from both moneylending and modern banking.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words why the hundi system worked across long distances without a central bank or legal enforcement, using the Nakarattar example.",
+     "a": "The hundi worked because it was backed by the collective reputation and shared reserves of the Nakarattar caste: a hundi issued by one Nakarattar was honoured by another because default by any member threatened the caste's collective creditworthiness and social standing. Trust was vertical (within caste hierarchy) and horizontal (across business territories), enforced by communal institutions — not courts. A wrong answer citing \"legal validity of hundi\" or \"government guarantee\" shows the student imports modern formal-finance assumptions and misses Polanyi's 'embeddedness': economic instruments here are *social* contracts.",
+     "self_check": true
+    },
+    {
+     "q": "A tribal household in Bastar sells forest produce to a trader-moneylender at below-market prices to repay a ₹10,000 loan at 3% monthly interest. The trader also employs the household as wage labour. Identify *two* mechanisms from the NCERT that bind this household into a cycle of dependence, and explain how each operates.",
+     "a": "Mechanism 1: *Interlocking markets* — the same person acts as produce buyer, moneylender, and employer, controlling both the price the household receives and the wage it earns, leaving no exit. Mechanism 2: *Land as collateral* — loans are secured against land; default leads to land transfer, converting the cultivator into a tenant or labourer. A wrong answer listing only \"high interest\" or \"poverty\" misses the *structural* interlocking of credit, product, and labour markets that the Bastar case illustrates — a classic board-exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Compare the Nakarattar caste-based banking system with the Marwari transition from migrant traders to industrialists. What *sociological* similarity allowed both to mobilise capital, and what *historical* difference shaped their divergent trajectories?",
+     "a": "Similarity: both used caste/kinship networks to create trust-based credit systems (Nakarattars via hundi/reserves; Marwaris via social networks in colonial cities). Difference: Nakarattars remained a *caste-defined* banking community; Marwaris leveraged colonial opportunities (Calcutta, railways, war contracts) to diversify into industry *after* accumulating merchant capital. A wrong answer focusing only on \"both are business communities\" or \"both are rich\" fails to distinguish *social mechanism* (caste trust) from *historical conjuncture* (colonialism) — a distinction NCERT explicitly makes.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the claim: \"Informal credit markets exploit the poor; therefore, the state should ban moneylending and expand formal banking to eliminate them.\" Use sociological reasoning from the chapter.",
+     "a": "The claim is sociologically incomplete. Informal credit *does* exploit (high rates, land alienation, bonded labour), but it also *fills a void*: formal banks exclude landless, tenant, and tribal borrowers due to collateral requirements, paperwork, and distance. Banning moneylending without fixing formal-sector *access* pushes credit further underground, raising rates and coercion. The sociological solution is not elimination but *regulation + inclusion*: e.g., SHGs, priority-sector lending, land-record reform. A wrong answer agreeing uncritically shows a policy-not-sociology mindset; a wrong answer romanticising moneylenders ignores documented exploitation. Both miss the *structural* argument.",
+     "self_check": true
+    },
+    {
+     "q": "Design a fictional case study (150 words) of a contemporary rural credit transaction that illustrates *all three* of: (a) caste/kinship trust, (b) interlocking of credit and product markets, (c) risk of land alienation. Annotate each element in brackets.",
+     "a": "[Sample answer] In 2024, Dalit tenant farmer Ramesh (Maharashtra) borrows ₹40,000 from Patil, a Maratha landowner-moneylender, for cotton seeds [caste/kinship trust: Patil lends because Ramesh's father worked his fields; no collateral needed]. Patil supplies seeds at 20% above market price and buys Ramesh's harvest at 15% below mandi rate [interlocking credit-product markets]. The loan carries 4% monthly interest; after two bad monsoons, Ramesh cannot repay. Patil files a civil suit to attach Ramesh's 2-acre leasehold [land alienation risk]. [Annotation shows all three mechanisms operating simultaneously. A poor answer describes only one mechanism or sets it in an urban/formal context, missing the rural-caste-embeddedness the chapter emphasises.]",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The market for credit refers to the socially embedded system of lending and borrowing where moneylenders, indigenous bankers (e.g., Nakarattars, Marwaris), and informal networks operate through caste, kinship, and trust-based ______ — using instruments like the hundi (bill of exchange) — to provide credit outside formal banking channels, often at high interest rates and with land or labour as collateral, reinforcing existing social hierarchies and power relations.",
+     "a": "relationships",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a small farmer in 1980s rural Bihar who needs ₹5,000 for seeds before the ______.",
+     "a": "monsoon",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The nearest bank is ______ km away, requires land titles he doesn't have, and takes weeks.",
+     "a": "20",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to (1) explain how caste and kinship networks structure trust and risk in informal credit markets, using the Nakarattar and Marwari examples, and (2) analyse the consequences of informal credit for agrarian relations, bonded labour, and tribal exploitation, linking these to colonial transformations and.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a small farmer in 1980s rural Bihar who needs ₹5,000 for seeds before the monsoon.",
+     "a": "Imagine",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

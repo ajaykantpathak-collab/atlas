@@ -34,6 +34,26 @@
      "q": "Construct a real-world problem (in an Indian context) where the First Fundamental Theorem of Calculus is used to find a rate of change from an accumulated quantity. Describe the quantities involved and write the mathematical formulation.",
      "a": "Example: A water tank in a housing society in Mumbai is being filled. The rate of flow of water (in litres per minute) at time \\( t \\) minutes is given by \\( r(t) = 50 - 2t \\) for \\( 0 \\le t \\le 20 \\). The total volume of water in the tank at time \\( x \\) is \\( V(x) = \\int_0^x r(t) \\, dt \\). The First Fundamental Theorem tells us that the rate of change of volume at time \\( x \\) is exactly the flow rate \\( r(x) \\). A good answer will clearly identify the accumulated quantity (volume) and the rate (flow), set up the integral, and state \\( V'(x) = r(x) \\). A poor answer might just give a formula without context or confuse the variable of integration.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: In other words, ______ and integration are inverse processes: the derivative of the integral of a function from a fixed lower limit to a variable upper limit is the function itself.",
+     "a": "differentiation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are tracking the ______ travelled by a car from your home in Delhi to a friend's house in Noida.",
+     "a": "distance",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state the theorem precisely with all conditions, explain the geometric meaning of the area function, compute derivatives of functions defined by integrals with variable upper limits, and apply the theorem to evaluate derivatives of integral functions without explicitly finding the antiderivative.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are tracking the distance ______ by a car from your home in Delhi to a friend's house in Noida.",
+     "a": "travelled",
+     "self_check": true
     }
    ]
   }

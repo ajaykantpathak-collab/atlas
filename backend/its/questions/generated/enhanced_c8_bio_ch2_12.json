@@ -34,6 +34,26 @@
      "q": "Design a simple four-step community water purification procedure using household materials to make muddy well water safe for drinking in a rural Indian village.",
      "a": "The procedure should include: (1) Coagulation using crushed alum to settle suspended mud; (2) Sedimentation allowing flocs to settle; (3) Filtration through layers of fine sand, coarse gravel, and charcoal to remove residual particles; (4) Disinfection by boiling or adding measured chlorine tablets. A poor answer lacks chemical sequence, such as trying to filter before settling or omitting disinfection.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Public health measures encompass community-level chemical and biological ______ such as safe water purification, proper sewage disposal, and environmental sanitation to prevent the spread of infectious pathogens and chemical contaminants.",
+     "a": "interventions",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how turbid rainwater collected in a bucket during the monsoon ______ cloudy even after sitting for hours.",
+     "a": "remains",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the chemical principles behind water purification methods (sedimentation, coagulation, chlorination), analyze the role of sanitation in preventing chemical and biological contamination of water tables, and evaluate community hygiene practices.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe how turbid ______ collected in a bucket during the monsoon remains cloudy even after sitting for hours.",
+     "a": "rainwater",
+     "self_check": true
     }
    ]
   }

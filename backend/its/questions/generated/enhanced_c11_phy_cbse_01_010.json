@@ -34,6 +34,31 @@
      "q": "Design a simple experiment using a laser pointer, a ruler, and a wall to estimate the wavelength of laser light (order of magnitude) using the principle of diffraction. Describe the setup, measurements needed, and the formula you would use.",
      "a": "Setup: Shine laser through a single slit (made by two razor blades close together) onto a wall 2-3 m away. Measure distance D from slit to wall, and distance y from central maximum to first minimum. Formula: a sinθ = λ for first minimum, where a is slit width (estimated from blade thickness ~0.1 mm), sinθ ≈ y/D. Calculate λ = a(y/D). Expected λ ~ 600 nm. A poor answer using double-slit formula or measuring fringe spacing without knowing slit separation reveals the student confuses interference and diffraction or doesn't understand the geometry of the experiment.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Measurement of length is the process of comparing an unknown length with a standard unit (metre) using instruments; direct methods involve physical contact between the object and a calibrated scale (metre scale, vernier calipers, screw gauge), while indirect methods use geometric or optical principles (parallax, ______, diffraction) to determine lengths beyond the reach of direct contact instruments.",
+     "a": "interference",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a bicycle wheel in your neighbourhood - the ______ is about 70 cm, measurable with a metre scale, but the thickness of the spoke (2-3 mm) needs vernier calipers, and the thickness of the paint coating on the frame (0.1 mm) needs a screw gauge.",
+     "a": "diameter",
+     "self_check": true
+    },
+    {
+     "q": "What is Measurement of length? State the definition given in this lesson.",
+     "a": "Measurement of length is the process of comparing an unknown length with a standard unit (metre) using instruments; direct methods involve physical contact between the object and a calibrated scale (metre scale, vernier calipers, screw gauge), while indirect methods use geometric or optical principles (parallax, interference.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Measurement of length?",
+     "a": "Students believe that zero error in vernier calipers or screw gauge is always subtracted from the observed reading.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can select the appropriate instrument (metre scale, vernier calipers, screw gauge) for a given length range, correctly read the instrument including zero error correction, calculate the least count, and express the final measurement with proper significant figures and uncertainty; the student can also explain the principle of.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,31 @@
      "q": "Design a 5-indicator dashboard to monitor 'quality of urbanization' for a district that has rapidly transitioned from 20% to 40% urban in a decade (e.g., Bengaluru Rural). Justify each indicator's relevance to sustainable urban transition.",
      "a": "1. **Slum Population %** (measures inclusivity); 2. **Water Supply LPCD** (service delivery); 3. **Non-Farm Workforce %** (economic base); 4. **Built-up Area Growth Rate vs Population Growth Rate** (sprawl vs densification); 5. **Air Quality Index (PM2.5)** (environmental sustainability). A poor answer listing only 'population size' or 'number of towns' ignores the multidimensional nature of urban quality emphasized in NITI Aayog's SDG Urban Index.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Rural-urban population distribution refers to the proportional division of a country's total population living in areas classified as 'rural' (villages, agricultural settlements with population <5,000, density <400/km², >75% male workforce in primary activities) versus 'urban' (statutory towns, census towns, urban ______ with population ≥5,000, density ≥400/km², >75% male workforce in non-primary activities) as per the Census of India criteria.",
+     "a": "agglomerations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Look at your own neighbourhood: is it a Census Town (like many peri-urban areas around ______) or a Statutory Town (like Mysuru)?",
+     "a": "Bengaluru",
+     "self_check": true
+    },
+    {
+     "q": "What is Rural-urban population distribution? State the definition given in this lesson.",
+     "a": "Rural-urban population distribution refers to the proportional division of a country's total population living in areas classified as 'rural' (villages, agricultural settlements with population <5,000, density <400/km², >75% male workforce in primary activities) versus 'urban' (statutory towns, census towns, urban agglomerations with.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Rural-urban population distribution?",
+     "a": "Students believe 'urbanization' means only growth of big cities (million-plus cities) and equate it with rural-to-urban migration.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the urbanization rate and tempo for any Indian state using census data, explain the spatial pattern of urbanization using push-pull factors and historical context, and interpret an urban-rural population pyramid to identify demographic dividends or challenges.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,21 @@
      "q": "Construct a word problem involving a circumscribed quadrilateral where the solver must first prove that a given quadrilateral can circumscribe a circle, then find an unknown side length. Provide the problem statement and the solution outline.",
      "a": "**Problem:** A farmer has a quadrilateral field ABCD with sides AB = 12 m, BC = 9 m, CD = 7 m. He wants to build a circular water tank that touches all four sides. (a) What must be the length of side DA for this to be possible? (b) If DA = 10 m, can the tank be built? Explain. **Solution outline:** (a) For a circle to be inscribed, AB + CD = BC + DA ⇒ 12 + 7 = 9 + DA ⇒ DA = 10 m. (b) Yes, because 12 + 7 = 9 + 10 = 19, so the condition holds. A good answer shows the condition AB + CD = AD + BC, substitutes correctly, and interprets the result. A poor answer guesses DA or uses triangle perimeter logic, revealing they don't know the quadrilateral circumscription condition.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A triangle or ______ is said to circumscribe a circle (or the circle is inscribed in the polygon) if each side of the polygon is a tangent to the circle.",
+     "a": "quadrilateral",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a ______ garden plot ABC with a circular fountain exactly touching all three sides — the fountain is inscribed in the triangle.",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify a circumscribed triangle or quadrilateral in a diagram, label tangent segments from each vertex correctly using the equal-tangent property, set up and solve linear equations to find unknown side lengths, and prove that a given quadrilateral circumscribes a circle by verifying AB + CD = AD + BC.",
+     "self_check": true
     }
    ]
   }

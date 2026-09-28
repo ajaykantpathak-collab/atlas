@@ -34,6 +34,21 @@
      "q": "Create an inferential question about the poem that requires combining evidence from at least three different stanzas. Provide the question and outline the three pieces of evidence a good answer would use.",
      "a": "Question: \"How does the poem use the King's 'just and placid' nature to critique blind adherence to procedure?\" Evidence 1: Stanza where King orders arch built to \"edify spectators\" (procedure over purpose). Evidence 2: King accepts his own hanging because \"only one man was so tall he fitted\" (procedure over justice). Evidence 3: Ministers follow \"custom\" to choose next ruler via a passerby (procedure over wisdom). A poor question would be literal (\"What did the King order?\") or use evidence from only one stanza, showing inability to synthesize across the text.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Literal comprehension questions require answers directly stated in the text, while ______ comprehension questions require drawing logical conclusions by combining textual evidence with reasoning.",
+     "a": "inferential",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are reading a WhatsApp forward about a bizarre law passed in a kingdom — you first note exactly what the message says (literal), then you wonder why people obeyed it (______).",
+     "a": "inferential",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can independently classify a question as literal or inferential, locate exact textual evidence for literal answers, and construct a justified inference for inferential answers using a minimum of two textual clues linked by logical reasoning.",
+     "self_check": true
     }
    ]
   }

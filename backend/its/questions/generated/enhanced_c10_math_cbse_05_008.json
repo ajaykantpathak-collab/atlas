@@ -34,6 +34,31 @@
      "q": "Create a real-world problem (Indian context) where the derivation method (forward-reverse pairing) is used to find the sum without directly using the formula S_n = n/2[2a+(n-1)d]. Provide the problem and the solution steps.",
      "a": "Problem: A gardener plants 12 rose bushes in the first row, 15 in the second, 18 in the third, and so on, for 8 rows. Find the total number of bushes using the pairing method. Solution: Forward: 12+15+18+...+33. Reverse: 33+30+27+...+12. Each pair sums to 45. 8 pairs give 2S = 8×45 = 360, so S = 180. A poor answer (e.g., directly plugging into the formula without showing pairing, or getting the last term wrong as 36) reveals the student cannot apply the derivation logic independently.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The sum of the first n terms of an arithmetic ______ (AP) is derived by adding the series in forward and reverse order, pairing terms that have a constant sum equal to twice the average of the first and last terms.",
+     "a": "progression",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are ______ money in a piggy bank: on day 1 you put ₹5, day 2 you put ₹8, day 3 you put ₹11, and so on, increasing by ₹3 each day.",
+     "a": "saving",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: After ______ days, you want to know the total amount without adding each day's savings individually.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can derive the sum formula S_n = n/2[2a + (n-1)d] step by step using the forward-reverse addition method, explain why each pair sums to (a + l), and apply the derivation logic to verify the formula for a given AP.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are saving money in a piggy bank: on day 1 you put ₹5, day 2 you put ₹8, day 3 you put ₹11, and so on, ______ by ₹3 each day.",
+     "a": "increasing",
+     "self_check": true
     }
    ]
   }

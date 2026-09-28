@@ -34,6 +34,26 @@
      "q": "Design a small frequency table for a dataset of 12 test scores ranging between 10 and 13 marks, ensuring that one score has a frequency of exactly 5. Write out both the raw data and the resulting frequency table.",
      "a": "The expected answer consists of a raw dataset of 12 numbers where a specific score (e.g., 12) appears 5 times, and a neatly formatted table with columns: Score, Tally, and Frequency, where the sum of frequencies equals 12. A poor answer would provide a dataset whose numbers do not match the frequencies or whose total frequency does not equal 12, showing a lack of structural understanding of frequency distribution.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Collecting and organising raw data into a structured frequency table involves ______ counting how many times each distinct data value appears using tally marks, allowing us to summarize large datasets clearly.",
+     "a": "systematically",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the captain of your school cricket team, and you ______ the runs scored by players in the last 10 matches: 12, 45, 12, 30, 45, 12, 60, 30, 45, 12.",
+     "a": "recorded",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Looking at this messy list, it is hard to tell how many times a score of ______ actually happened without counting carefully.",
+     "a": "12",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can construct a complete frequency table from an unstructured list of 20+ data values, accurately tally occurrences, compute numerical frequencies, and verify that the sum of all frequencies equals the total number of data items.",
+     "self_check": true
     }
    ]
   }

@@ -126,7 +126,16 @@
      "q": "Excess auxin in the medium pushes what organ: roots or shoots?",
      "a": "roots"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "hormone_ratio = auxin_level / kinetin_level",
+     "compute": "hormone_ratio = auxin_level / kinetin_level"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebt107.4",
@@ -164,7 +173,16 @@
      "q": "MS medium's potassium nitrate runs how many milligrams per litre: 1900 or 80?",
      "a": "1900"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "ms_fold = ms_conc / white_conc",
+     "compute": "ms_fold = ms_conc / white_conc"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebt107.5",
@@ -244,7 +262,16 @@
      "q": "Which chemical doubles haploid chromosome sets: colchicine or caffeine?",
      "a": "colchicine"
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "doubled_count = haploid_count * 2",
+     "compute": "doubled_count = haploid_count * 2"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "lebt107.7",

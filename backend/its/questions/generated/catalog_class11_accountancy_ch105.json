@@ -1,6 +1,53 @@
 {
- "catalog": "catalog_class11_accountancy_ch105",
+ "catalog": "catalog_class11_accountancy_ch105.json",
  "concepts": [
+  {
+   "id": "keac.105.7",
+   "title": "Errors in Cash Book and Bank Pass Book",
+   "converted_to_compute": true,
+   "formula": "error_amount = recorded_amount - actual_amount",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "error_amount = recorded_amount - actual_amount",
+     "compute": "error_amount = recorded_amount - actual_amount"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Errors in Cash Book and Bank Pass Book: given recorded_amount = 18.2, actual_amount = 66, find error amount.",
+     "a": "-47.8",
+     "self_check": false
+    },
+    {
+     "q": "For Errors in Cash Book and Bank Pass Book: given recorded_amount = 92, actual_amount = 91, find error amount.",
+     "a": "1",
+     "self_check": false
+    },
+    {
+     "q": "For Errors in Cash Book and Bank Pass Book: given recorded_amount = 14.2, actual_amount = 4.6, find error amount.",
+     "a": "9.6",
+     "self_check": false
+    },
+    {
+     "q": "For Errors in Cash Book and Bank Pass Book: given recorded_amount = 87, actual_amount = 0.6, find error amount.",
+     "a": "86.4",
+     "self_check": false
+    },
+    {
+     "q": "For Errors in Cash Book and Bank Pass Book: given recorded_amount = 65, actual_amount = 69, find error amount.",
+     "a": "-4",
+     "self_check": false
+    },
+    {
+     "q": "For Errors in Cash Book and Bank Pass Book: given recorded_amount = 10.8, actual_amount = 26, find error amount.",
+     "a": "-15.2",
+     "self_check": false
+    }
+   ]
+  },
   {
    "id": "keac.105.1",
    "title": "Bank Reconciliation Statement Overview",
@@ -173,37 +220,6 @@
     {
      "q": "Write the standard relation used for 'Timing Differences in Bank Transactions', in plain ASCII form.",
      "a": "time_lag = transaction_date_passbook - transaction_date_cashbook",
-     "self_check": true
-    }
-   ]
-  },
-  {
-   "id": "keac.105.7",
-   "title": "Errors in Cash Book and Bank Pass Book",
-   "questions": [
-    {
-     "q": "Using the method 'Errors in Cash Book and Bank Pass Book', work with: actual_amount = 20000, recorded_amount = 20000. Carry the chain through step by step and give the final value of error_amount.",
-     "a": "0 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Take the relation taught for 'Errors in Cash Book and Bank Pass Book' and work with: actual_amount = 2500, recorded_amount = 20000. Carry the chain through step by step and give the final value of error_amount.",
-     "a": "17500 rupees",
-     "self_check": false
-    },
-    {
-     "q": "Explain in your own words what 'Errors in Cash Book and Bank Pass Book' refers to.",
-     "a": "Inconsistencies resulting from incorrect recording, omission, or casting errors made by the firm or the bank.",
-     "self_check": true
-    },
-    {
-     "q": "State the single key point to remember about 'Errors in Cash Book and Bank Pass Book'.",
-     "a": "Clerical mistakes in recording numbers or sides in cash book/passbook lead to balance differences.",
-     "self_check": true
-    },
-    {
-     "q": "Write the standard relation used for 'Errors in Cash Book and Bank Pass Book', in plain ASCII form.",
-     "a": "error_amount = recorded_amount - actual_amount",
      "self_check": true
     }
    ]

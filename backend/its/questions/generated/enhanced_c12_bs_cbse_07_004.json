@@ -22,7 +22,7 @@
     },
     {
      "q": "Compare formal and informal communication on these four dimensions: (a) speed, (b) authenticity, (c) accountability, (d) organisational utility. Use a 2×2 table format.",
-     "a": "| Dimension | Formal Communication | Informal Communication |\n|-----------|---------------------|------------------------|\n| Speed | Slow (follows hierarchy) | Very fast (bypasses levels) |\n| Authenticity | High (recorded, official) | Low (rumours, distortion) |\n| Accountability | Clear (documented trail) | None (source untraceable) |\n| Organisational Utility | Coordination, decisions, records | Morale pulse, gap-filling, innovation |\n\nA wrong answer claiming informal is \"always harmful\" or formal is \"always better\" reveals the textbook misconception that grapevine is purely negative. NCERT explicitly states managers should \"make use of positive aspects of informal channels.\" This error shows lack of analytical depth — the student cannot see both systems as complementary.",
+     "a": "| Dimension | Formal Communication | Informal Communication |\n|-----------|---------------------|------------------------|\n| Speed | Slow (follows hierarchy) | Very fast (bypasses levels) |\n| Authenticity | High (recorded, official) | Low (rumours, distortion) |\n| Accountability | Clear (documented trail) | N/A (source untraceable) |\n| Organisational Utility | Coordination, decisions, records | Morale pulse, gap-filling, innovation |\n\nA wrong answer claiming informal is \"always harmful\" or formal is \"always better\" reveals the textbook misconception that grapevine is purely negative. NCERT explicitly states managers should \"make use of positive aspects of informal channels.\" This error shows lack of analytical depth — the student cannot see both systems as complementary.",
      "self_check": true
     },
     {
@@ -33,6 +33,31 @@
     {
      "q": "Design a communication plan for launching a new employee wellness programme in a 200-person company with 4 branches. Specify: (a) which formal network for official launch, (b) which informal network to leverage for adoption, (c) one feedback mechanism, (d) one noise-reduction step.",
      "a": "(a) **Wheel** — CEO/HR Head communicates directly to 4 Branch Managers (hubs), who cascade to teams. Ensures consistent message, accountability. (b) **Cluster** grapevine — identify trusted informal leaders in each branch; brief them early so positive \"word-of-mouth\" spreads through trust networks. (c) **Feedback**: Anonymous digital survey (Google Form) after 2 weeks measuring awareness, concerns, suggestions. (d) **Noise-reduction**: Pre-brief Branch Managers with FAQ document so they decode/encode consistently — prevents \"Chinese whispers\" distortion. A poor answer using only one network (e.g., only email) shows the student cannot design multi-channel strategies — they treat communication as single-shot rather than a process requiring reinforcement across formal and informal systems.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ is the systematic and continuous process of exchange of ideas, views, facts, feelings, and information between two or more persons to reach common understanding, involving eight essential elements: sender, message, encoding, media/channel, decoding, receiver, feedback, and noise.",
+     "a": "Communication",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a project ______ at a Mumbai-based tech startup.",
+     "a": "manager",
+     "self_check": true
+    },
+    {
+     "q": "What is Communication? State the definition given in this lesson.",
+     "a": "Communication is the systematic and continuous process of exchange of ideas, views, facts, feelings, and information between two or more persons to reach common understanding, involving eight essential elements: sender, message, encoding, media/channel, decoding, receiver, feedback, and noise.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Communication?",
+     "a": "Students believe informal communication (grapevine) is always dysfunctional and should be eliminated.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can correctly label all eight elements of the communication process in a given scenario, distinguish formal from informal communication with organisational examples, identify the five formal communication networks and four grapevine networks, and explain how the choice of network affects information flow speed and accuracy.",
      "self_check": true
     }
    ]

@@ -34,6 +34,21 @@
      "q": "Design a simple classification key (dichotomous or flowchart) that a Class 11 student could use to identify any human joint as fibrous, cartilaginous, or synovial using only observable structural features (no movement testing).",
      "a": "A good key:\n1. Is there a fluid-filled cavity between the bones? YES → Synovial joint. NO → Go to 2.\n2. Are the bones united by dense fibrous connective tissue? YES → Fibrous joint. NO → Go to 3.\n3. Are the bones united by cartilage (hyaline or fibrocartilage)? YES → Cartilaginous joint.\nThis uses only structural criteria (cavity, tissue type). A poor key uses movement terms (\"freely movable\", \"immovable\") which are functional, not structural, and cannot be observed without testing motion.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A joint (articulation) is a point of contact between two or more bones, or between bone and cartilage, that permits movement and provides mechanical support; structurally classified as fibrous, ______, or synovial based on the connecting tissue and presence of a synovial cavity.",
+     "a": "cartilaginous",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ your own hand: make a fist, then spread your fingers wide.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can classify any given joint into fibrous, cartilaginous, or synovial categories, name the six types of synovial joints with at least one human example each, and explain how the structure of a synovial joint (synovial cavity, articular cartilage, capsule, ligaments) enables its function as a fulcrum for muscle action.",
+     "self_check": true
     }
    ]
   }

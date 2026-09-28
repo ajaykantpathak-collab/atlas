@@ -20,7 +20,7 @@
     "where is the negative terminal located on a cell",
     "describe electric cell terminals with an example"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -37,7 +37,16 @@
      "action": "verify terminal polarity for connection",
      "explain": "When using the cell in a circuit, connect the positive cap and negative disc to opposite ends of the device so current can flow from positive to negative through the external path."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "terminals = positive_metal_cap + negative_metal_disc",
+     "compute": "terminals = positive_metal_cap + negative_metal_disc"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fesc.12.2.1",
@@ -54,7 +63,7 @@
     "what happens if the filament breaks",
     "what do you understand by bulb structure and filament"
    ],
-   "solution_type": "verify_property",
+   "solution_type": "compute",
    "solution_steps": [
     {
      "step": 1,
@@ -71,7 +80,16 @@
      "action": "trace the two terminal connections",
      "explain": "Confirm that one terminal of the filament connects to the metal base case and the other to the central metal tip, so current can enter through one terminal, heat the filament, and leave through the other."
     }
-   ]
+   ],
+   "compute_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "bulb_terminals = metal_case_base + metal_tip_center",
+     "compute": "bulb_terminals = metal_case_base + metal_tip_center"
+    }
+   ],
+   "converted_to_compute": true
   },
   {
    "id": "fesc.12.3.1",

@@ -1,0 +1,41 @@
+{
+ "catalog": "enhanced_c12_leg_cbse_04_002",
+ "concepts": [
+  {
+   "id": "enh:c12_leg_cbse_04_002",
+   "title": "c12_leg_cbse_04_002",
+   "questions": [
+    {
+     "q": "A student claims: \"Tort law in India is entirely judge-made Common Law because Parliament never passed a 'Law of Torts Act'.\" Is this statement correct? Answer Yes/No and justify in one sentence.",
+     "a": "**No.** While tort law originated in Common Law (judicial precedents), Parliament has enacted specific statutes governing tortious liability — e.g., Motor Vehicles Act, 1988 (road accidents), Consumer Protection Act, 2019 (defective goods/services), Environment Protection Act, 1986 (pollution). A \"No\" answer without citing a statute reveals the student thinks tort law is *only* Common Law, missing the statutory layer.",
+     "self_check": true
+    },
+    {
+     "q": "Explain in your own words how Article 21 of the Constitution (Right to Life) has become a source of tort law in India. Give one concrete example of a \"Constitutional tort.\"",
+     "a": "Article 21 guarantees \"Right to Life and Personal Liberty.\" The Supreme Court expanded \"Life\" to include **right to clean environment, livelihood, health, shelter, speedy trial, legal aid**. When the State violates these (e.g., pollution by a government factory, custodial death), the victim can file a writ petition under Article 32 (Supreme Court) or Article 226 (High Court) for compensation — this is a **Constitutional tort**. Example: *M.C. Mehta v. Union of India* (Oleum Gas Leak) — Supreme Court awarded compensation for environmental harm under Article 21, creating \"Absolute Liability.\" A wrong answer that only says \"Article 21 gives right to life\" without linking to *expanded interpretation* and *writ remedy for compensation* misses the Constitutional tort mechanism.",
+     "self_check": true
+    },
+    {
+     "q": "A pedestrian is hit by a government-owned bus driven by a driver on duty. The pedestrian wants to sue for damages. Identify: (a) Which legal provision makes the **State** vicariously liable? (b) Which statute provides a **no-fault compensation** scheme for the victim? (c) Can the pedestrian also file a writ petition under Article 226? Why/why not?",
+     "a": "(a) **Article 300** of the Constitution — \"The Government of India may sue or be sued by the name of the Union of India...\" — makes the State vicariously liable for torts of its servants *in the course of employment* (subject to sovereign/non-sovereign function distinction). (b) **Motor Vehicles Act, 1988 (Sections 140-176)** — provides no-fault compensation (Structured Formula Basis) and fault-based claims via Motor Accidents Claims Tribunal (MACT). (c) **Yes**, if the pedestrian alleges violation of Fundamental Right (e.g., Article 21 — right to life/safety), they can file a writ petition under Article 226 in High Court for compensation as a Constitutional tort. A wrong answer confusing Article 300 (vicarious liability) with statutory no-fault schemes, or saying writ petition is *only* for Fundamental Rights violations (ignoring that State liability for torts can be framed as Art 21 violation), shows gaps in linking provisions.",
+     "self_check": true
+    },
+    {
+     "q": "Compare and contrast: **Common Law tort** (e.g., negligence in a private car accident) vs. **Statutory tort** (e.g., claim under Motor Vehicles Act) vs. **Constitutional tort** (e.g., custodial death). Analyze on: (i) Source of law, (ii) Forum, (iii) Burden of proof, (iv) Role of State.",
+     "a": "| Dimension | Common Law Tort (Private Car Accident) | Statutory Tort (Motor Vehicles Act) | Constitutional Tort (Custodial Death) |\n|-----------|----------------------------------------|--------------------------------------|----------------------------------------|\n| **Source** | Judicial precedents (Donoghue v. Stevenson, Rylands v. Fletcher) | Motor Vehicles Act, 1988 (Parliament) | Constitution (Articles 21, 32, 226) + SC interpretations |\n| **Forum** | Civil Court (District/High Court) | Motor Accidents Claims Tribunal (MACT) | Supreme Court (Art 32) / High Court (Art 226) |\n| **Burden of Proof** | Plaintiff proves duty, breach, causation, damage | **No-fault** (Sec 140): only prove accident + injury; **Fault-based** (Sec 166): prove negligence | State must justify action; Court presumes violation if prima facie shown (e.g., custody + death) |\n| **State Role** | Defendant if State vehicle involved; else private parties | State runs MACT; insurer pays | **Direct defendant** (State or its agency) |\nA wrong answer that treats all three as \"same forum\" or \"same burden of proof\" fails to analyze the structural differences. This is a classic Board/Competitive exam trap.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate: \"The doctrine of sovereign immunity (State not liable for torts of its servants during sovereign functions) has been *completely abolished* in India by the Supreme Court.\" Defend or critique with case law.",
+     "a": "**Critique — the statement is false.** Sovereign immunity is **not completely abolished**; it is **narrowed**. The Supreme Court in *Kasturi Lal v. State of UP* (1965) upheld immunity for *sovereign functions* (e.g., police seizure of property). Later, in *N. Nagendra Rao v. State of AP* (1994), the Court **criticized** the sovereign/non-sovereign distinction but **did not overrule Kasturi Lal**. Instead, Courts now interpret \"sovereign functions\" **restrictively** (e.g., running a hospital, maintaining roads = non-sovereign). In *Chairman, Railway Board v. Chandrima Das* (2000), the Court held railways (commercial function) liable. **Conclusion:** Sovereign immunity persists for *core sovereign acts* (defense, diplomacy, legislation), but its scope has shrunk. A \"defend\" answer citing only *N. Nagendra Rao* without acknowledging *Kasturi Lal* still stands reveals incomplete understanding of judicial evolution.",
+     "self_check": true
+    },
+    {
+     "q": "Create a new hypothetical scenario where **all three sources of tort law** (Common Law, Statute, Constitution) could be invoked *simultaneously* by a victim. Describe the facts and map each legal route.",
+     "a": "**Scenario:** A government-run chemical plant (State-owned) leaks toxic gas due to poor maintenance, killing nearby residents and polluting a river.  \n**Routes:**  \n1. **Common Law:** Heirs sue for **negligence** (duty of care — *Donoghue v. Stevenson*; breach — poor maintenance; causation; damage) in Civil Court.  \n2. **Statute:** Victims file claim under **Environment Protection Act, 1986** (Sec 15-17: penalties + compensation) and **Public Liability Insurance Act, 1991** (no-fault relief) before NGT/MACT.  \n3. **Constitution:** PIL under **Article 32 (SC) / Article 226 (HC)** alleging violation of **Article 21** (Right to Life = clean environment, health) — seeking compensation + remedial orders (e.g., *M.C. Mehta v. Union of India*).  \n**Good answer** maps all three with correct forums/statutes. **Poor answer** mixes forums (e.g., says \"file PIL in Civil Court\") or omits one source, showing fragmented understanding.",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

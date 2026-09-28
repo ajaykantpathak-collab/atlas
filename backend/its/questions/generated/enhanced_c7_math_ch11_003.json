@@ -34,6 +34,26 @@
      "q": "Create a pair of composite numbers less than 50 whose HCF by listing factors is exactly 12. Show your factor lists to prove it.",
      "a": "An example pair is 36 and 48. Factors of 36: $1, 2, 3, 4, 6, 9, 12, 18, 36$. Factors of 48: $1, 2, 3, 4, 6, 8, 12, 16, 24, 48$. The common factors are $1, 2, 3, 4, 6, 12$, and the highest is 12. A poor answer would list numbers that do not share 12 as a factor or fail to verify all factor pairs.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Finding the Highest Common Factor (HCF) by the listing factors method involves writing down all the individual factors of two or more given numbers, ______ which factors appear on all the lists (common factors), and selecting the largest one among them.",
+     "a": "identifying",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You want to cut them into ______ pieces of maximum possible length without any ribbons left over so that each stage decoration looks uniform.",
+     "a": "identical",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can list all individual factors of two or more numbers systematically using divisibility rules, identify common factors, and accurately determine the highest common factor to solve real-world grouping and distribution problems.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: You want to cut them into identical pieces of maximum possible length without any ribbons left over so that each stage ______ looks uniform.",
+     "a": "decoration",
+     "self_check": true
     }
    ]
   }

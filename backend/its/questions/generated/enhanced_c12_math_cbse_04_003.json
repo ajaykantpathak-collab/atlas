@@ -34,6 +34,36 @@
      "q": "Construct a \\(3 \\times 3\\) determinant with integer entries that evaluates to 0, but where no two rows or columns are identical or proportional at first glance. Explain which property guarantees it is zero.",
      "a": "Example: \\(\\begin{vmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 5 & 7 & 9 \\end{vmatrix}\\). Here \\(R_3 = R_1 + R_2\\). Using Property 6, we can do \\(R_3 \\leftarrow R_3 - R_1 - R_2\\) to get a zero row, so determinant is 0. A good answer demonstrates understanding that linear dependence (not just identical rows) forces a zero determinant. A poor answer gives a matrix with obviously proportional rows, missing the deeper point.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Properties of ______ are a set of algebraic rules that describe how the value of a determinant changes (or remains invariant) under specific operations on its rows or columns.",
+     "a": "determinants",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Instead, the engineer notices that the third column is exactly twice the second column minus the first column — a linear dependence that makes the ______ zero, meaning the points are collinear and the area is zero.",
+     "a": "determinant",
+     "self_check": true
+    },
+    {
+     "q": "What is Properties of determinants? State the definition given in this lesson.",
+     "a": "Properties of determinants are a set of algebraic rules that describe how the value of a determinant changes (or remains invariant) under specific operations on its rows or columns.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: This insight comes from Property ______: adding multiples of rows/columns does not change the determinant.",
+     "a": "6",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Properties of determinants?",
+     "a": "The correct rule: only the target row changes; the source row must remain untouched.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can state all six properties of determinants precisely, apply them to simplify and evaluate determinants of order 3 without expanding fully, and prove determinant identities by strategically using these properties.",
+     "self_check": true
     }
    ]
   }

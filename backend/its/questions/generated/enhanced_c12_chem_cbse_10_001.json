@@ -34,6 +34,36 @@
      "q": "Design a simple laboratory test to distinguish between glucose, sucrose, and starch using only Benedict's reagent and iodine solution. Explain expected observations.",
      "a": "Benedict's test: glucose (reducing) gives brick-red precipitate; sucrose (non-reducing) gives no precipitate unless hydrolyzed first; starch (polysaccharide) gives no precipitate. Iodine test: starch gives blue-black complex; glucose and sucrose give no color. A poor answer misses the need for acid hydrolysis of sucrose before Benedict's test or confuses Benedict's with Fehling's reagent.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ are optically active polyhydroxy aldehydes or ketones (or compounds that yield such units on hydrolysis) with a general formula often approximating Cx(H2O)y.",
+     "a": "Carbohydrates",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe common kitchen substances: table sugar (sucrose), glucose powder, cornflour (starch), and cotton (______).",
+     "a": "cellulose",
+     "self_check": true
+    },
+    {
+     "q": "What is Carbohydrates? State the definition given in this lesson.",
+     "a": "Carbohydrates are optically active polyhydroxy aldehydes or ketones (or compounds that yield such units on hydrolysis) with a general formula often approximating Cx(H2O)y.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Carbohydrates are optically active polyhydroxy aldehydes or ketones (or compounds that yield such units on hydrolysis) with a general formula often approximating Cx(H______O)y.",
+     "a": "2",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Carbohydrates?",
+     "a": "Students often think the general formula Cx(H2O)y defines carbohydrates, so they classify acetic acid (CH₃COOH = C₂H₄O₂ = C₂(H₂O)₂) as a carbohydrate.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can classify a given carbohydrate as mono/di/polysaccharide based on hydrolysis products, identify reducing vs non-reducing sugars from the nature of the glycosidic linkage, and name common examples of each class with their biological roles.",
+     "self_check": true
     }
    ]
   }

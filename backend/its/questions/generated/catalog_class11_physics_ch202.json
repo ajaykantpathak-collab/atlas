@@ -1,0 +1,522 @@
+{
+ "catalog": "catalog_class11_physics_ch202.json",
+ "concepts": [
+  {
+   "id": "keph.202.1",
+   "title": "Average Fluid Pressure",
+   "converted_to_compute": true,
+   "formula": "pressure = force / area",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "pressure = force / area",
+     "compute": "pressure = force / area"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Average Fluid Pressure: given force = 968, area = 90, find pressure.",
+     "a": "10.7556",
+     "self_check": false
+    },
+    {
+     "q": "For Average Fluid Pressure: given force = 196, area = 22, find pressure.",
+     "a": "8.90909",
+     "self_check": false
+    },
+    {
+     "q": "For Average Fluid Pressure: given force = 165, area = 88, find pressure.",
+     "a": "1.875",
+     "self_check": false
+    },
+    {
+     "q": "For Average Fluid Pressure: given force = 391, area = 99, find pressure.",
+     "a": "3.94949",
+     "self_check": false
+    },
+    {
+     "q": "For Average Fluid Pressure: given force = 443, area = 97, find pressure.",
+     "a": "4.56701",
+     "self_check": false
+    },
+    {
+     "q": "For Average Fluid Pressure: given force = 273, area = 40, find pressure.",
+     "a": "6.825",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.202.2",
+   "title": "Fluid Density",
+   "converted_to_compute": true,
+   "formula": "density = mass / volume",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "density = mass / volume",
+     "compute": "density = mass / volume"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Fluid Density: given mass = 193, volume = 77, find density.",
+     "a": "2.50649",
+     "self_check": false
+    },
+    {
+     "q": "For Fluid Density: given mass = 21, volume = 79, find density.",
+     "a": "0.265823",
+     "self_check": false
+    },
+    {
+     "q": "For Fluid Density: given mass = 173, volume = 43, find density.",
+     "a": "4.02326",
+     "self_check": false
+    },
+    {
+     "q": "For Fluid Density: given mass = 29, volume = 89, find density.",
+     "a": "0.325843",
+     "self_check": false
+    },
+    {
+     "q": "For Fluid Density: given mass = 52, volume = 12.2, find density.",
+     "a": "4.2623",
+     "self_check": false
+    },
+    {
+     "q": "For Fluid Density: given mass = 118, volume = 47, find density.",
+     "a": "2.51064",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.202.3",
+   "title": "Hydrostatic Pressure at Depth",
+   "converted_to_compute": true,
+   "formula": "pressure = pressure_atm + density * g * depth",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "pressure = pressure_atm + density * g * depth",
+     "compute": "pressure = pressure_atm + density * g * depth"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Hydrostatic Pressure at Depth: given pressure_atm = 411, density = 17, depth = 204, find pressure.",
+     "a": "34397.4",
+     "self_check": false
+    },
+    {
+     "q": "For Hydrostatic Pressure at Depth: given pressure_atm = 65, density = 9.1, depth = 347, find pressure.",
+     "a": "31010.5",
+     "self_check": false
+    },
+    {
+     "q": "For Hydrostatic Pressure at Depth: given pressure_atm = 141, density = 8.5, depth = 116, find pressure.",
+     "a": "9803.8",
+     "self_check": false
+    },
+    {
+     "q": "For Hydrostatic Pressure at Depth: given pressure_atm = 357, density = 9.9, depth = 181, find pressure.",
+     "a": "17917.6",
+     "self_check": false
+    },
+    {
+     "q": "For Hydrostatic Pressure at Depth: given pressure_atm = 18.5, density = 12.4, depth = 467, find pressure.",
+     "a": "56768.3",
+     "self_check": false
+    },
+    {
+     "q": "For Hydrostatic Pressure at Depth: given pressure_atm = 416, density = 8.4, depth = 115, find pressure.",
+     "a": "9882.8",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.202.4",
+   "title": "Pascal's Principle and Hydraulic Force Multiplier",
+   "converted_to_compute": true,
+   "formula": "force_large = force_small * area_large / area_small",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "force_large = force_small * area_large / area_small",
+     "compute": "force_large = force_small * area_large / area_small"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Pascal's Principle and Hydraulic Force Multiplier: given force_small = 741, area_large = 36, area_small = 85, find force large.",
+     "a": "313.835",
+     "self_check": false
+    },
+    {
+     "q": "For Pascal's Principle and Hydraulic Force Multiplier: given force_small = 479, area_large = 71, area_small = 74, find force large.",
+     "a": "459.581",
+     "self_check": false
+    },
+    {
+     "q": "For Pascal's Principle and Hydraulic Force Multiplier: given force_small = 869, area_large = 74, area_small = 13.2, find force large.",
+     "a": "4871.67",
+     "self_check": false
+    },
+    {
+     "q": "For Pascal's Principle and Hydraulic Force Multiplier: given force_small = 43, area_large = 85, area_small = 87, find force large.",
+     "a": "42.0115",
+     "self_check": false
+    },
+    {
+     "q": "For Pascal's Principle and Hydraulic Force Multiplier: given force_small = 256, area_large = 29, area_small = 72, find force large.",
+     "a": "103.111",
+     "self_check": false
+    },
+    {
+     "q": "For Pascal's Principle and Hydraulic Force Multiplier: given force_small = 510, area_large = 66, area_small = 35, find force large.",
+     "a": "961.714",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.202.6",
+   "title": "Torricelli's Law of Efflux",
+   "converted_to_compute": true,
+   "formula": "velocity = sqrt(2 * g * height)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "velocity = sqrt(2 * g * height)",
+     "compute": "velocity = sqrt(2 * g * height)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Torricelli's Law of Efflux: given height = 400, find velocity.",
+     "a": "88.5438",
+     "self_check": false
+    },
+    {
+     "q": "For Torricelli's Law of Efflux: given height = 81, find velocity.",
+     "a": "39.8447",
+     "self_check": false
+    },
+    {
+     "q": "For Torricelli's Law of Efflux: given height = 440, find velocity.",
+     "a": "92.8655",
+     "self_check": false
+    },
+    {
+     "q": "For Torricelli's Law of Efflux: given height = 323, find velocity.",
+     "a": "79.5663",
+     "self_check": false
+    },
+    {
+     "q": "For Torricelli's Law of Efflux: given height = 264, find velocity.",
+     "a": "71.9333",
+     "self_check": false
+    },
+    {
+     "q": "For Torricelli's Law of Efflux: given height = 341, find velocity.",
+     "a": "81.7533",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.202.7",
+   "title": "Coefficient of Viscosity",
+   "converted_to_compute": true,
+   "formula": "viscosity = (force * thickness) / (area * velocity)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "viscosity = (force * thickness) / (area * velocity)",
+     "compute": "viscosity = (force * thickness) / (area * velocity)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Coefficient of Viscosity: given force = 738, thickness = 353, area = 33, velocity = 23, find viscosity.",
+     "a": "343.233",
+     "self_check": false
+    },
+    {
+     "q": "For Coefficient of Viscosity: given force = 151, thickness = 147, area = 8, velocity = 10.3, find viscosity.",
+     "a": "269.381",
+     "self_check": false
+    },
+    {
+     "q": "For Coefficient of Viscosity: given force = 680, thickness = 196, area = 9.8, velocity = 23, find viscosity.",
+     "a": "591.304",
+     "self_check": false
+    },
+    {
+     "q": "For Coefficient of Viscosity: given force = 605, thickness = 248, area = 34, velocity = 69, find viscosity.",
+     "a": "63.9557",
+     "self_check": false
+    },
+    {
+     "q": "For Coefficient of Viscosity: given force = 780, thickness = 35, area = 14.1, velocity = 27, find viscosity.",
+     "a": "71.71",
+     "self_check": false
+    },
+    {
+     "q": "For Coefficient of Viscosity: given force = 623, thickness = 247, area = 67, velocity = 22, find viscosity.",
+     "a": "104.397",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.202.8",
+   "title": "Stokes' Law and Terminal Velocity",
+   "converted_to_compute": true,
+   "formula": "v_terminal = 2 * (radius**2) * (density_sphere - density_fluid) * g / (9 * viscosity)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "v_terminal = 2 * (radius**2) * (density_sphere - density_fluid) * g / (9 * viscosity)",
+     "compute": "v_terminal = 2 * (radius**2) * (density_sphere - density_fluid) * g / (9 * viscosity)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Stokes' Law and Terminal Velocity: given radius = 40, density_sphere = 10.9, density_fluid = 13.8, viscosity = 1.2, find v terminal.",
+     "a": "-8420.74",
+     "self_check": false
+    },
+    {
+     "q": "For Stokes' Law and Terminal Velocity: given radius = 9.5, density_sphere = 5.6, density_fluid = 5.3, viscosity = 99, find v terminal.",
+     "a": "0.595589",
+     "self_check": false
+    },
+    {
+     "q": "For Stokes' Law and Terminal Velocity: given radius = 30, density_sphere = 9.8, density_fluid = 6.1, viscosity = 26, find v terminal.",
+     "a": "278.923",
+     "self_check": false
+    },
+    {
+     "q": "For Stokes' Law and Terminal Velocity: given radius = 42, density_sphere = 7.2, density_fluid = 12.9, viscosity = 49, find v terminal.",
+     "a": "-446.88",
+     "self_check": false
+    },
+    {
+     "q": "For Stokes' Law and Terminal Velocity: given radius = 47, density_sphere = 2.4, density_fluid = 1.5, viscosity = 60, find v terminal.",
+     "a": "72.1607",
+     "self_check": false
+    },
+    {
+     "q": "For Stokes' Law and Terminal Velocity: given radius = 40, density_sphere = 11.1, density_fluid = 1.9, viscosity = 97, find v terminal.",
+     "a": "330.483",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.202.9",
+   "title": "Surface Tension of a Liquid Film",
+   "converted_to_compute": true,
+   "formula": "surface_tension = force / (2 * length)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "surface_tension = force / (2 * length)",
+     "compute": "surface_tension = force / (2 * length)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Surface Tension of a Liquid Film: given force = 536, length = 484, find surface tension.",
+     "a": "0.553719",
+     "self_check": false
+    },
+    {
+     "q": "For Surface Tension of a Liquid Film: given force = 738, length = 349, find surface tension.",
+     "a": "1.05731",
+     "self_check": false
+    },
+    {
+     "q": "For Surface Tension of a Liquid Film: given force = 787, length = 382, find surface tension.",
+     "a": "1.0301",
+     "self_check": false
+    },
+    {
+     "q": "For Surface Tension of a Liquid Film: given force = 434, length = 311, find surface tension.",
+     "a": "0.697749",
+     "self_check": false
+    },
+    {
+     "q": "For Surface Tension of a Liquid Film: given force = 910, length = 227, find surface tension.",
+     "a": "2.00441",
+     "self_check": false
+    },
+    {
+     "q": "For Surface Tension of a Liquid Film: given force = 519, length = 461, find surface tension.",
+     "a": "0.562907",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.202.10",
+   "title": "Excess Pressure in a Soap Bubble",
+   "converted_to_compute": true,
+   "formula": "excess_pressure = 4 * surface_tension / radius",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "excess_pressure = 4 * surface_tension / radius",
+     "compute": "excess_pressure = 4 * surface_tension / radius"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Excess Pressure in a Soap Bubble: given surface_tension = 107, radius = 47, find excess pressure.",
+     "a": "9.10638",
+     "self_check": false
+    },
+    {
+     "q": "For Excess Pressure in a Soap Bubble: given surface_tension = 48, radius = 24, find excess pressure.",
+     "a": "8",
+     "self_check": false
+    },
+    {
+     "q": "For Excess Pressure in a Soap Bubble: given surface_tension = 49, radius = 19.7, find excess pressure.",
+     "a": "9.94924",
+     "self_check": false
+    },
+    {
+     "q": "For Excess Pressure in a Soap Bubble: given surface_tension = 63, radius = 17.4, find excess pressure.",
+     "a": "14.4828",
+     "self_check": false
+    },
+    {
+     "q": "For Excess Pressure in a Soap Bubble: given surface_tension = 47, radius = 13.6, find excess pressure.",
+     "a": "13.8235",
+     "self_check": false
+    },
+    {
+     "q": "For Excess Pressure in a Soap Bubble: given surface_tension = 23, radius = 29, find excess pressure.",
+     "a": "3.17241",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.202.11",
+   "title": "Excess Pressure in a Liquid Drop",
+   "converted_to_compute": true,
+   "formula": "excess_pressure = 2 * surface_tension / radius",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "excess_pressure = 2 * surface_tension / radius",
+     "compute": "excess_pressure = 2 * surface_tension / radius"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Excess Pressure in a Liquid Drop: given surface_tension = 105, radius = 19.3, find excess pressure.",
+     "a": "10.8808",
+     "self_check": false
+    },
+    {
+     "q": "For Excess Pressure in a Liquid Drop: given surface_tension = 73, radius = 38, find excess pressure.",
+     "a": "3.84211",
+     "self_check": false
+    },
+    {
+     "q": "For Excess Pressure in a Liquid Drop: given surface_tension = 101, radius = 40, find excess pressure.",
+     "a": "5.05",
+     "self_check": false
+    },
+    {
+     "q": "For Excess Pressure in a Liquid Drop: given surface_tension = 53, radius = 9.5, find excess pressure.",
+     "a": "11.1579",
+     "self_check": false
+    },
+    {
+     "q": "For Excess Pressure in a Liquid Drop: given surface_tension = 15.7, radius = 4.2, find excess pressure.",
+     "a": "7.47619",
+     "self_check": false
+    },
+    {
+     "q": "For Excess Pressure in a Liquid Drop: given surface_tension = 71, radius = 46, find excess pressure.",
+     "a": "3.08696",
+     "self_check": false
+    }
+   ]
+  },
+  {
+   "id": "keph.202.12",
+   "title": "Capillary Rise",
+   "converted_to_compute": true,
+   "formula": "height = 2 * surface_tension * cos_theta / (density * g * radius)",
+   "solution_type": "compute",
+   "solution_steps": [
+    {
+     "step": 1,
+     "action": "substitute the given values into the formula",
+     "explain": "height = 2 * surface_tension * cos_theta / (density * g * radius)",
+     "compute": "height = 2 * surface_tension * cos_theta / (density * g * radius)"
+    }
+   ],
+   "questions": [
+    {
+     "q": "For Capillary Rise: given surface_tension = 18.3, cos_theta = 55, density = 13.5, radius = 19.2, find height.",
+     "a": "0.79247",
+     "self_check": false
+    },
+    {
+     "q": "For Capillary Rise: given surface_tension = 80, cos_theta = 1.5, density = 5, radius = 38, find height.",
+     "a": "0.128894",
+     "self_check": false
+    },
+    {
+     "q": "For Capillary Rise: given surface_tension = 85, cos_theta = 30, density = 9.4, radius = 2, find height.",
+     "a": "27.6813",
+     "self_check": false
+    },
+    {
+     "q": "For Capillary Rise: given surface_tension = 105, cos_theta = 56, density = 19.8, radius = 45, find height.",
+     "a": "1.3468",
+     "self_check": false
+    },
+    {
+     "q": "For Capillary Rise: given surface_tension = 77, cos_theta = 69, density = 2.1, radius = 22, find height.",
+     "a": "23.4694",
+     "self_check": false
+    },
+    {
+     "q": "For Capillary Rise: given surface_tension = 59, cos_theta = 90, density = 12.4, radius = 31, find height.",
+     "a": "2.81913",
+     "self_check": false
+    }
+   ]
+  }
+ ]
+}

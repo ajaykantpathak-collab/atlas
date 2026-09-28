@@ -34,6 +34,31 @@
      "q": "Create a real-life problem (Indian context) that involves linear decay. Write the linear equation, define variables, and ask two questions that require using the equation.",
      "a": "Example: \"A scooter's value depreciates by ₹3,000 per year. Initial value ₹45,000. Equation: \\(V = 45000 - 3000t\\), where \\(V\\) is value in rupees and \\(t\\) is time in years. Questions: (1) Value after 5 years? (2) After how many years will value be ₹15,000?\" A poor answer might give an exponential decay problem, not define variables clearly, or use a percentage decrease instead of a constant amount.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A linear growth or decay ______ occurs when a quantity changes by a constant absolute amount for each unit increase in the independent variable (usually time).",
+     "a": "relationship",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine Rohan saves ₹50 every week from his pocket ______.",
+     "a": "money",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine Rohan saves ₹______ every week from his pocket money.",
+     "a": "50",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify a real-world situation as linear growth or decay, write the corresponding linear equation, use it to predict future values or find the time to reach a target, and interpret the slope and intercept in the context of the problem.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ Rohan saves ₹50 every week from his pocket money.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

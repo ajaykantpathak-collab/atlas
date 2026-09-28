@@ -34,6 +34,26 @@
      "q": "Design a simple experiment using a smartphone, a wooden plank, and a block to determine both μ_s and μ_k for the block-plank interface. Describe the procedure and the measurements needed.",
      "a": "Place the block on the plank. Slowly raise one end of the plank (measure angle θ with smartphone inclinometer). The angle θ_s at which the block just starts to slide gives μ_s = tanθ_s. To find μ_k, give the block a gentle push at a fixed angle θ < θ_s and measure its acceleration a using the phone's accelerometer or video analysis. Then μ_k = tanθ - a/(g cosθ). Alternatively, set θ slightly above θ_s and measure constant velocity condition. A poor answer would omit the need for acceleration measurement or confuse the two angles.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The coefficient of friction (μ) is a ______ scalar quantity that represents the ratio of the frictional force (f) between two surfaces to the normal reaction force (N) pressing them together.",
+     "a": "dimensionless",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a heavy wooden box on a classroom floor: it doesn't move when you push gently, but starts sliding when you push hard enough.",
+     "a": "Observe",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can calculate the maximum static friction and kinetic friction for a given normal force and coefficient values, determine whether an object will move or remain at rest by comparing applied force with μ_s N, and solve multi-body problems involving friction on horizontal and inclined planes using free-body diagrams.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe a heavy wooden box on a ______ floor: it doesn't move when you push gently, but starts sliding when you push hard enough.",
+     "a": "classroom",
+     "self_check": true
     }
    ]
   }

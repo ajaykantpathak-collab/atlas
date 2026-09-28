@@ -34,6 +34,31 @@
      "q": "Design a rope-and-stake procedure (like the Sulba-Sutra) to construct a square of area 50 m² starting from a square of area 25 m². Describe each step clearly so another student could follow it on a field.",
      "a": "1. Mark a square ABCD of side 5 m (area 25 m²) using stakes and rope.  \n2. Stretch rope from A to C — this is the diagonal.  \n3. With rope length AC fixed, mark point E such that AE = AC and ∠CAE = 90° (use 3-4-5 triangle or perpendicular bisector method).  \n4. Similarly mark F, G to complete square AEFG with side = AC.  \n5. Square AEFG has area 50 m².  \nA poor answer that says \"measure 7.07 m\" uses decimal measurement, violating the Sulba-Sutra's exact constructive approach. An answer omitting the 90° angle construction misses the key geometric operation.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______'s Sulba-Sutra describes a geometric method to construct a square with exactly twice the area of a given square: the side of the new square equals the diagonal of the original square.",
+     "a": "Baudhayana",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer in ______ India has a square field of side 10 metres and wants to mark out a new square field with exactly double the area for a different crop.",
+     "a": "ancient",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine a farmer in ancient India has a square field of side ______ metres and wants to mark out a new square field with exactly double the area for a different crop.",
+     "a": "10",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain why the diagonal of a square becomes the side of a square with double the area, describe the Sulba-Sutra's rope-based construction method, and connect this geometric relationship to the irrational number √2 without relying on algebraic formula memorization.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a farmer in ancient India has a square field of side 10 metres and wants to mark out a new square field with exactly double the area for a different crop.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

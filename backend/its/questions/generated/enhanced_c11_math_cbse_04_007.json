@@ -34,6 +34,31 @@
      "q": "Create a flawed induction proof for the statement \"n² + n + 41 is prime for all n ∈ ℕ\" that contains exactly two of the common pitfalls discussed. Write the proof and then annotate each pitfall.",
      "a": "A good answer would present a proof like:\n\"Base: n=1, 1+1+41=43 prime ✓.\nAssume k²+k+41 is prime.\nFor k+1: (k+1)²+(k+1)+41 = k²+2k+1+k+1+41 = (k²+k+41) + 2k+2.\nSince k²+k+41 is prime, and 2k+2 is even, the sum is prime. Hence proved.\"\nPitfall 1: The inductive step incorrectly assumes that adding an even number to a prime yields a prime (false, e.g., 3+2=5 prime but 7+2=9 not prime). Pitfall 2: The proof never uses the inductive hypothesis in a meaningful algebraic way; it just states a false property about primes. A poor answer would only list generic errors like \"no base case\" without embedding them in a concrete flawed proof.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Common pitfalls in mathematical induction refer to the typical logical, algebraic, and structural errors students make while constructing proofs by induction, such as omitting the base case, incorrectly assuming the statement for all k instead of a fixed arbitrary k, manipulating both sides of the inductive goal ______, or failing to properly use the inductive hypothesis to reach the k+1 case.",
+     "a": "simultaneously",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your younger sibling check their math homework: they claim to have proved that 1 + 2 + ... + n = n(n+1)/2 for all natural numbers, but their proof says \"assume it's true for all k\" and then writes the k+1 step by adding k+1 to both sides of the target ______.",
+     "a": "equation",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Common pitfalls in mathematical induction refer to the typical logical, algebraic, and structural errors students make while constructing proofs by induction, such as omitting the base case, incorrectly assuming the statement for all k instead of a fixed arbitrary k, manipulating both sides of the inductive goal simultaneously, or failing to properly use the inductive hypothesis to reach the k+______ case.",
+     "a": "1",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can identify and correct at least five distinct common errors in flawed induction proofs, and can construct a complete, rigorous induction proof for summation, divisibility, and inequality problems without committing these pitfalls.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are helping your younger sibling check their math ______: they claim to have proved that 1 + 2 + ... + n = n(n+1)/2 for all natural numbers, but their proof says \"assume it's true for all k\" and then writes the k+1 step by adding k+1 to both sides of the target equation.",
+     "a": "homework",
+     "self_check": true
     }
    ]
   }

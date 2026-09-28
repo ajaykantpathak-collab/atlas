@@ -34,6 +34,36 @@
      "q": "Design a land-use plan for a hypothetical district that has: (a) hilly forested terrain with tribal population in the north, (b) fertile alluvial plains with high population density in the centre, and (c) well-connected flatlands near a highway and city in the south. Assign the most suitable farming type to each zone and justify each assignment with two geographical factors.",
      "a": "Expected answer: North zone → Primitive subsistence (shifting cultivation) because: (i) hilly forested terrain unsuitable for mechanisation/irrigation, (ii) low population density allows long fallow cycles. Centre zone → Intensive subsistence because: (i) fertile alluvial soil and high population density necessitate maximum output from small holdings, (ii) availability of family labour and traditional irrigation (wells, canals) supports multiple cropping. South zone → Commercial farming because: (ii) flat consolidated land near highway enables mechanisation and low transport costs to urban markets, (ii) proximity to city creates demand for perishable high-value crops (vegetables, flowers, dairy). A poor answer assigns the same farming type to all zones, ignoring the physical and human geography determinants.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Primitive subsistence farming is a traditional self-sufficient ______ practice where farmers grow crops primarily for family consumption using simple tools (hoe, dao, digging sticks) and family labour on small scattered patches of land with no surplus for market; intensive subsistence farming is a labour-intensive system practised in high population density areas where farmers cultivate small holdings with high doses of biochemical inputs and irrigation to achieve multiple crops per year for both subsistence and local market sale; commercial farming is a market-oriented system using modern inputs (HYV seeds, chemical fertilisers, pesticides, machinery) on large consolidated landholdings with high capital investment to produce cash crops (cotton, sugarcane, tea, coffee) for national and international markets.",
+     "a": "agricultural",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Observe the fields around your village or during a train journey: you see tiny fragmented plots worked by hand with family labour in the hills of Northeast India (primitive subsistence), densely packed paddy fields with multiple crops per year in the Gangetic plains of Bihar and West Bengal (intensive subsistence), and vast contiguous tea gardens in Assam or sugarcane ______ in western Uttar Pradesh managed by companies with tractors and hired labour (commercial).",
+     "a": "plantations",
+     "self_check": true
+    },
+    {
+     "q": "What is Primitive subsistence farming? State the definition given in this lesson.",
+     "a": "Primitive subsistence farming is a traditional self-sufficient agricultural practice where farmers grow crops primarily for family consumption using simple tools (hoe, dao, digging sticks) and family labour on small scattered patches of land with no surplus for market; intensive subsistence farming is a labour-intensive system practised.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Primitive subsistence farming?",
+     "a": "Students often think \"intensive subsistence farming\" means using modern machinery and chemical inputs intensively like commercial farming, but on a smaller scale.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can distinguish the three farming types by comparing their landholding size, labour intensity, capital investment, use of technology, market orientation, and regional distribution in India, and can explain why each type prevails in specific geographical conditions.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Primitive subsistence farming is a traditional self-sufficient agricultural practice where farmers grow crops primarily for family consumption using simple tools (hoe, dao, digging sticks) and family labour on small scattered patches of land with no surplus for market; intensive subsistence farming is a labour-intensive system practised in high population density areas where farmers cultivate small holdings with high doses of biochemical inputs and irrigation to achieve multiple crops per year for both subsistence and local market sale; commercial farming is a market-oriented system using modern inputs (HYV seeds, chemical fertilisers, pesticides, machinery) on large consolidated landholdings with high capital investment to produce cash crops (cotton, sugarcane, tea, coffee) for national and ______ markets.",
+     "a": "international",
+     "self_check": true
     }
    ]
   }

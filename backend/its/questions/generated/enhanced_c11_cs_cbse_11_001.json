@@ -34,6 +34,26 @@
      "q": "Design a minimal home network for a family of four that allows: (a) printing from any device to a single printer, (b) accessing a shared photo library from any device, (c) parental control on internet access for children's devices. Draw a labeled diagram showing devices, connections, and the *one* additional hardware component needed beyond the router. Explain why that component is necessary.",
      "a": "Diagram: ISP modem → Wireless Router (with built-in switch/AP) → {Parent phones, Kids' tablets, Laptop, Network Printer, NAS (Network Attached Storage)}. The **NAS** is the additional component — it provides always-on, centralized storage for the photo library without requiring a specific computer to stay on. A poor answer that uses a laptop as the file server reveals the misconception that any computer can act as a server *reliably*; it ignores the server requirements of uptime, storage redundancy, and access control — concepts that lead into node c11_cs_cbse_11_008 (Client-Server Architecture).",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A computer network is an ______ collection of autonomous computing devices (nodes) that communicate and share resources (data, hardware, software) through a shared transmission medium governed by standardized communication protocols.",
+     "a": "interconnected",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you and three friends are ______ on a group project from different homes.",
+     "a": "working",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can explain the necessity of computer networks by identifying at least three distinct resource-sharing scenarios, differentiate between a standalone system and a networked system using the concepts of autonomy and interconnectivity, and describe the four essential components (sender, receiver, medium, protocol) with a.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you and three friends are working on a group project from different homes.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

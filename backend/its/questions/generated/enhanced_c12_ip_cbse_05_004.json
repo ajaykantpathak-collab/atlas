@@ -34,6 +34,26 @@
      "q": "Design a minimal **text-based diagram** (using only ASCII characters) that shows the complete request–response cycle for a dynamic page, labeling: (a) User, (b) Browser, (c) DNS, (d) TCP connection, (e) HTTP Request, (f) Server-side processing (app code + DB), (g) HTTP Response, (h) Rendering. Include arrows indicating direction of data flow.",
      "a": "```\nUser\n  |\n  v\n[Browser] --DNS Query--> [DNS Server] --IP Address--> [Browser]\n  |\n  |--TCP SYN--> \n  |<--TCP SYN-ACK--\n  |--TCP ACK-->        (TCP connection established)\n  |\n  |--HTTP GET /dashboard --> \n  |                            [Web Server]\n  |                            |--Run App Code (Python/PHP/Node)-->\n  |                            |--Query Database (SELECT ...)-->\n  |                            |--Generate HTML-->\n  |<--HTTP 200 OK + HTML Body--\n  |\n  |--Parse HTML, fetch CSS/JS/images-->\n  |\n  v\n[Rendered Page Displayed]\n```\nA poor diagram omits DNS/TCP, shows the browser querying the database directly, or has the server sending raw code. This reveals the student hasn’t internalized the strict separation: **browser never talks to DB; server never renders pixels.**",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A web browser is a client-side software ______ that sends HTTP/HTTPS requests to web servers and renders the received HTML, CSS, JavaScript, and multimedia resources into a visual, interactive web page for the user.",
+     "a": "application",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you type https://www.irctc.co.in in ______ and press Enter.",
+     "a": "Chrome",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student can (1) describe the distinct responsibilities of a browser and a web server in the request–response cycle, (2) trace the sequence of events when a user enters a URL until the page appears, including DNS lookup, TCP connection, HTTP request, server processing, and HTTP response, and (3) explain how static and dynamic content.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ you type https://www.irctc.co.in in Chrome and press Enter.",
+     "a": "Imagine",
+     "self_check": true
     }
    ]
   }

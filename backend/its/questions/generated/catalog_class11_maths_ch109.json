@@ -5,6 +5,8 @@
    "id": "kemh.109.1.1",
    "title": "Distance Between Two Points in Coordinate Plane",
    "converted_to_compute": false,
+   "formula": "d = sqrt((x2 - x1)**2 + (y2 - y1)**2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (8, 1) and (17, 13).",
@@ -42,6 +44,8 @@
    "id": "kemh.109.2.1",
    "title": "Slope of a Line Passing Through Two Points",
    "converted_to_compute": false,
+   "formula": "m = (y2 - y1) / (x2 - x1)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance between the points (6, -6) and (14, 9).",
@@ -79,6 +83,8 @@
    "id": "kemh.109.2.2",
    "title": "Perpendicularity Condition for Straight Lines",
    "converted_to_compute": false,
+   "formula": "m1 * m2 = -1",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 37 degrees, find the other.",
@@ -116,6 +122,8 @@
    "id": "kemh.109.2.3",
    "title": "Acute Angle Between Two Intersecting Lines",
    "converted_to_compute": false,
+   "formula": "tan_theta = abs((m2 - m1) / (1 + m1 * m2))",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 76 degrees, find the other.",
@@ -152,15 +160,9 @@
   {
    "id": "kemh.109.3.1",
    "title": "Standard Forms of Equation of a Line",
-   "converted_to_compute": true,
-   "solution_steps": [
-    {
-     "step": 1,
-     "action": "apply the exponent law to the given powers",
-     "explain": "apply the exponent law to the given powers: val = 6 ** (4 + 2) gives 46656",
-     "compute": "val = 6 ** (4 + 2)"
-    }
-   ],
+   "converted_to_compute": false,
+   "formula": "y - y0 = m * (x - x0), y = m * x + c, x/a + y/b = 1",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Using the law a^m x a^n = a^(m+n), evaluate 6^4 x 6^2.",
@@ -198,6 +200,8 @@
    "id": "kemh.109.4.1",
    "title": "Perpendicular Distance of a Point From a Line",
    "converted_to_compute": false,
+   "formula": "d = abs(A * x1 + B * y1 + C) / sqrt(A**2 + B**2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 13 degrees, find the other.",
@@ -235,6 +239,8 @@
    "id": "kemh.109.4.2",
    "title": "Distance Between Two Parallel Lines",
    "converted_to_compute": false,
+   "formula": "d = abs(C1 - C2) / sqrt(A**2 + B**2)",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Two angles are complementary. If one angle is 79 degrees, find the other.",
@@ -272,6 +278,8 @@
    "id": "kemh.109.5.1",
    "title": "Concurrency Condition for Three Straight Lines",
    "converted_to_compute": false,
+   "formula": "A2 * x0 + k * y0 + C2 = 0",
+   "solution_type": "compute",
    "questions": [
     {
      "q": "Find the distance of the point (4, -4) from the line 1x + 2y + -2 = 0 (two decimal places).",

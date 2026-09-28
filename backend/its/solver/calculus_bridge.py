@@ -65,14 +65,16 @@ def calc(operation: str, **kwargs) -> Dict[str, Any]:
 
     try:
         result = engine.solve(operation, **kwargs)
+        answer = getattr(result, "exact_answer", "") or getattr(result, "answer", "")
         return {
             "success": result.success if hasattr(result, "success") else bool(result),
-            "result": result.final_answer if hasattr(result, "final_answer") else str(result),
+            "result": answer if answer else str(result),
             "steps": [asdict(s) for s in result.steps] if hasattr(result, "steps") else [],
             "error": result.error if hasattr(result, "error") else None,
             "backend": getattr(result, "backend_used", "unknown"),
-            "verification": getattr(result, "verification", {}),
-            "confidence": getattr(result, "confidence", 0.0),
+            "verification": getattr(result, "verification_detail", ""),
+            "verified": getattr(result, "verified", False),
+            "confidence": 1.0 if getattr(result, "verified", False) else 0.0,
         }
     except Exception as exc:
         logger.warning("Calculus operation '%s' failed: %s", operation, exc)

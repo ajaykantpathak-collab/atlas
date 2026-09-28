@@ -34,6 +34,31 @@
      "q": "Design a complete cloning workflow to express a eukaryotic gene (with introns) in E. coli. Include: vector choice, host cell type, DNA source preparation, and a strategy to overcome the intron problem. Justify each choice.",
      "a": "Workflow: (1) Isolate mRNA from eukaryotic tissue (not genomic DNA) because mRNA lacks introns; (2) Synthesize cDNA using reverse transcriptase; (3) Clone cDNA into an EXPRESSION vector (e.g., pET series) with strong promoter (T7), ribosome binding site, and selectable marker — not just a cloning vector; (4) Transform into E. coli BL21(DE3) which has T7 RNA polymerase under lacUV5 control for induced expression; (5) Induce with IPTG. Justifications: cDNA avoids splicing issues; expression vector provides transcriptional/translational signals absent in cloning vectors; BL21(DE3) supplies T7 polymerase. A good answer integrates transcription, translation, and host compatibility — not just cloning steps.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Recombinant DNA technology is the process of joining DNA fragments from different sources using restriction enzymes and DNA ligase, then inserting the recombinant molecule into a vector (plasmid, ______, cosmid, BAC, YAC, or viral vector) that can replicate independently in a host cell, enabling amplification and expression of the inserted gene.",
+     "a": "bacteriophage",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you have identified a human insulin gene and want to produce it in ______ for diabetic patients.",
+     "a": "bacteria",
+     "self_check": true
+    },
+    {
+     "q": "What is Recombinant DNA technology? State the definition given in this lesson.",
+     "a": "Recombinant DNA technology is the process of joining DNA fragments from different sources using restriction enzymes and DNA ligase, then inserting the recombinant molecule into a vector (plasmid, bacteriophage, cosmid, BAC, YAC, or viral vector) that can replicate independently in a host cell, enabling amplification and expression of the.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Recombinant DNA technology?",
+     "a": "Students believe that any plasmid with an antibiotic resistance gene can be used to clone any DNA fragment of any size.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Student can design a cloning strategy for a given gene of interest by selecting an appropriate vector, restriction enzymes, and selection method, and can explain how each vector feature (ori, selectable marker, MCS) contributes to successful cloning and screening.",
+     "self_check": true
     }
    ]
   }

@@ -34,6 +34,36 @@
      "q": "Design a simple temperature observation plan for your school campus that accounts for both altitude differences and surface cover (e.g., open playground vs. shaded garden) to prove how local factors alter temperature.",
      "a": "A strong plan places thermometers at identical heights in different micro-environments: one on exposed concrete asphalt, one under deep tree shade, and one on the highest rooftop terrace, recording readings at the same times daily. A poor answer lacks controlled variables, such as placing one thermometer in direct sunlight and another in deep shade without accounting for location impact.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Temperature is the degree of hotness or coldness of the atmosphere, measured in degrees Celsius (°C) or Fahrenheit (°F), driven primarily by the amount of solar radiation received and modified by local ______ factors.",
+     "a": "geographical",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine ______ in the sun in Delhi during May and feeling intense heat, while at the same time experiencing cool mountain breezes in Shimla.",
+     "a": "standing",
+     "self_check": true
+    },
+    {
+     "q": "What is Temperature? State the definition given in this lesson.",
+     "a": "Temperature is the degree of hotness or coldness of the atmosphere, measured in degrees Celsius (°C) or Fahrenheit (°F), driven primarily by the amount of solar radiation received and modified by local geographical factors.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Building on your Grade ______ foundation of reading thermometers, we will now explore *why* temperatures vary from place to place.",
+     "a": "6",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Temperature?",
+     "a": "Students often believe that temperature is highest at noon everywhere on Earth because the sun is directly overhead, ignoring how atmospheric heat accumulation and local land-sea breezes create peak temperatures later in the afternoon (around 2 to 3 PM) or vary by regional geography.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Students can explain how altitude, latitude, distance from the sea, and ocean currents affect local temperature variations across different regions of India.",
+     "self_check": true
     }
    ]
   }

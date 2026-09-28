@@ -1,0 +1,56 @@
+{
+ "catalog": "catalog_class11_biology_ch104.json",
+ "concepts": [
+  {
+   "id": "kebo.4.1.7",
+   "family": "formula_eval",
+   "questions": [
+    {
+     "i": 0,
+     "chain": [
+      "total_species = 93",
+      "arthropod_species = total_species * 2 / 3"
+     ]
+    },
+    {
+     "i": 1,
+     "chain": [
+      "total_species = 93",
+      "arthropod_species = total_species * 2 / 3"
+     ]
+    },
+    {
+     "i": 2,
+     "chain": [
+      "total_species = 88",
+      "arthropod_species = total_species * 2 / 3"
+     ]
+    },
+    {
+     "i": 3,
+     "chain": [
+      "total_species = 88",
+      "arthropod_species = total_species * 2 / 3"
+     ]
+    },
+    {
+     "i": 4,
+     "chain": [
+      "total_species = 44",
+      "arthropod_species = total_species * 2 / 3"
+     ]
+    },
+    {
+     "i": 5,
+     "chain": [
+      "total_species = 44",
+      "arthropod_species = total_species * 2 / 3"
+     ]
+    }
+   ],
+   "steps_chain": [
+    "arthropod_species = total_species * 2 / 3"
+   ]
+  }
+ ]
+}

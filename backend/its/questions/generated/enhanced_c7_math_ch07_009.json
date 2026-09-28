@@ -34,6 +34,21 @@
      "q": "Design a set of three integer side lengths that can form a triangle where one side is exactly 10 cm, and explain the exact compass steps you would take to construct it on your notebook.",
      "a": "An acceptable answer would choose two sides whose sum is strictly greater than 10 cm, such as 7 cm and 6 cm (since $7 + 6 = 13 > 10$). The construction steps: 1) Draw a baseline segment $AB = 10\\text{ cm}$ using a ruler. 2) Open the compass to 7 cm, place the pointer at $A$, and draw an arc above the baseline. 3) Open the compass to 6 cm, place the pointer at $B$, and draw an intersecting arc to mark vertex $C$. 4) Join $AC$ and $BC$ with straight line segments. A poor answer would choose sides like 4 cm and 5 cm ($4+5=9 < 10$), which cannot form a triangle, showing a failure to apply the triangle inequality rule.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ a triangle using the Side-Side-Side (SSS) criterion involves drawing a triangle when the exact lengths of all three of its sides are known, using a ruler and a pair of compasses.",
+     "a": "Constructing",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are a carpenter in your village, and a client asks you to build a ______ wooden wall panel with exact side lengths of 7 cm, 5 cm, and 4 cm.",
+     "a": "triangular",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "Can construct any unique triangle given three valid side lengths using a ruler and compass, accurately measure angles, verify the triangle inequality property before drawing, and explain why a given set of side lengths cannot form a triangle.",
+     "self_check": true
     }
    ]
   }

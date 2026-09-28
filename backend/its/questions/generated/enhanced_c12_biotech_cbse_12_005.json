@@ -34,6 +34,26 @@
      "q": "Design a TRIPS-compliant strategy for an Indian agricultural biotech startup that has developed a drought-tolerant transgenic rice variety. The startup wants to: (a) secure patent protection in India and key export markets; (b) avoid biopiracy allegations for using a traditional landrace trait; (c) ensure freedom-to-operate for smallholder farmers. Specify the IP tools (patents, plant variety protection, trade secrets), relevant Indian statutes, and TRIPS Articles used at each step.",
      "a": "A strong answer includes: (a) Patent: File in India under Patents Act (process claims for transformation method, gene construct — product claims for gene/construct allowed post-2005; trait claims may face Section 3(j) exclusion). Use PCT route for export markets (TRIPS Art. 27.1). (b) Plant Variety Protection: Register under PPV&FR Act, 2001 (sui generis system per TRIPS Art. 27.3(b)) — protects the variety, not the gene. (c) Biopiracy prevention: Disclose source/geographical origin of genetic material in patent application (TRIPS Art. 29, CBD Nagoya Protocol); obtain prior informed consent (PIC) and benefit-sharing agreement with local communities under Biological Diversity Act, 2002. (d) Farmers' rights: PPV&FR Act allows farmers to save, use, exchange, sell farm-saved seed (except branded seed) — a TRIPS Art. 27.3(b) flexibility. (e) Trade secret: Keep transformation protocol/optimization data secret (TRIPS Art. 39). A poor answer omits PPV&FR/sui generis, ignores Biological Diversity Act, or suggests patenting the plant variety itself (excluded by Section 3(j)/Art. 27.3(b)) — showing fragmented understanding of the IP ecosystem.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The TRIPS Agreement (Trade-Related Aspects of Intellectual Property Rights) is a binding ______ treaty under the World Trade Organization (WTO) that sets minimum global standards for the protection and enforcement of intellectual property rights (IPR), including patents, copyrights, trademarks, and trade secrets, requiring all member countries (including India) to amend their national IP laws to comply with these standards.",
+     "a": "international",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you are the founder of an Indian biotech startup that has developed a novel ______ vaccine.",
+     "a": "recombinant",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: A multinational company claims your process infringes their TRIPS-compliant patent granted in India post-______.",
+     "a": "2005",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) Explain the three core pillars of TRIPS (minimum standards, enforcement, dispute settlement) and identify which Articles specifically impact biotechnology patents (Articles 27, 27.3(b), 30, 31); (2) Analyze how India's Patents Act amendments (1999, 2002, 2005) implemented TRIPS obligations while using.",
+     "self_check": true
     }
    ]
   }

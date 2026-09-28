@@ -1,0 +1,66 @@
+{
+ "catalog": "enhanced_c12_soc_cbse_10_007",
+ "concepts": [
+  {
+   "id": "enh:c12_soc_cbse_10_007",
+   "title": "c12_soc_cbse_10_007",
+   "questions": [
+    {
+     "q": "What are the three types of Urban Local Bodies created under the 74th Amendment, and what is the primary demographic criterion used to classify them?",
+     "a": "The three types are: (1) Municipal Corporation (for large urban areas, typically population > 10 lakh), (2) Municipal Council (for smaller urban areas, typically population 20,000–10 lakh), and (3) Nagar Panchayat (for transitional areas, typically population 10,000–20,000). The primary criterion is population size, though state laws may vary the exact thresholds. A wrong answer that lists \"Municipality, Corporation, Panchayat\" without population criteria reveals the student memorised names but not the structural logic linking urbanisation level to governance tier.",
+     "self_check": true
+    },
+    {
+     "q": "The 73rd and 74th Amendments both mandate reservation for women (not less than one-third). However, the 74th Amendment applies this to urban wards. Explain why the rotation of reserved wards in municipalities creates a different political dynamic compared to Gram Panchayats.",
+     "a": "In municipalities, wards are smaller, more densely populated, and socially heterogeneous (mixed caste/class), so rotation of reserved wards every election forces parties to field women candidates in diverse urban constituencies, potentially breaking patronage networks. In Gram Panchayats, larger constituencies and dominant caste control often allow proxy candidates (women relatives of male leaders). A wrong answer that says \"rotation is the same in both\" misses the urban specificity: ward-level rotation in cities disrupts entrenched local power brokers more effectively than village-level rotation.",
+     "self_check": true
+    },
+    {
+     "q": "A Municipal Corporation in a metropolitan city wants to implement a new solid waste management policy. The State government has not devolved the function of \"solid waste management\" to ULBs in its Municipal Act. Can the Corporation legally implement this policy? Justify using the 74th Amendment's Twelfth Schedule.",
+     "a": "No, the Corporation cannot legally implement it as a mandatory function. The Twelfth Schedule (Article 243W) lists 18 functions that *may* be devolved to municipalities — it is not automatically binding. The State Legislature must pass a law assigning these functions. Until the State amends its Municipal Act to include solid waste management, the function remains with the State or parastatal bodies. A wrong answer claiming \"Twelfth Schedule makes it mandatory\" confuses the *enabling* nature of the Schedule with the *obligatory* nature of the 73rd Amendment's Eleventh Schedule (which uses similar language but has been interpreted differently by courts).",
+     "self_check": true
+    },
+    {
+     "q": "Compare the composition and role of the District Planning Committee (DPC) under Article 243ZD with the Metropolitan Planning Committee (MPC) under Article 243ZE. Why does the Constitution mandate both, and what does this reveal about urban-rural governance integration?",
+     "a": "The DPC (Article 243ZD) consolidates plans from Panchayats and Municipalities *within a district* for holistic district planning; its members are elected from rural and urban local bodies in proportion to population. The MPC (Article 243ZE) prepares a *metropolitan* development plan for areas >10 lakh population, with 2/3 members elected from municipalities/panchayats and 1/3 nominated (experts, MPs/MLAs). The dual structure reveals the Constitution's recognition that metropolitan regions spill across district boundaries and need specialised planning, while districts need integrated rural-urban planning. A wrong answer treating them as identical misses the scalar logic: DPC = district-level integration, MPC = metropolitan-level strategic planning.",
+     "self_check": true
+    },
+    {
+     "q": "Evaluate the argument: \"The 74th Amendment failed because it did not make the devolution of funds, functions, and functionaries (3Fs) mandatory, leaving it to State Legislatures' discretion.\" Support your evaluation with two specific institutional mechanisms that *were* made mandatory and two that were left discretionary.",
+     "a": "The argument is partially correct but incomplete. Mandatory: (1) Constitution of three types of ULBs (Art 243Q), (2) Five-year elections by State Election Commission (Art 243K, 243ZA), (3) Reservation for SC/ST/women (Art 243T), (4) Constitution of State Finance Commission every 5 years (Art 243Y). Discretionary: (1) Actual devolution of 18 functions in Twelfth Schedule (Art 243W — \"may be entrusted\"), (2) Devolution of taxes/grants (Art 243X — \"may authorise\"), (3) Constitution of Ward Committees (Art 243S — only for population >3 lakh, and State decides composition). The Amendment created the *institutional skeleton* but left the *flesh of fiscal federalism* to States — a deliberate \"holding together\" federalism compromise.",
+     "self_check": true
+    },
+    {
+     "q": "Design a \"Citizen's Audit Toolkit\" for a Municipal Corporation ward that uses the 74th Amendment's transparency provisions (Section 243A, right to information; mandatory display of funds received/utilised) to hold the councillor accountable. List 4 concrete tools/citizen actions, each linked to a specific constitutional provision.",
+     "a": "1. **Ward Committee Minutes Tracker** — Article 243S mandates Ward Committees in cities >3 lakh; citizens demand monthly minutes proactively disclosed (linked to Art 243A: Gram Sabha equivalent transparency).\n2. **Budget Board Verification Drive** — Article 243Y requires State Finance Commission recommendations; citizens photograph the mandatory fund-utilisation board outside the ward office quarterly and compare with SFC reports.\n3. **Reservation Rotation Monitor** — Article 243T mandates rotation of reserved seats; citizens track if the same family/proxy holds reserved seats across elections (using election commission data).\n4. **Twelfth Schedule Function Mapping** — Citizens map which of the 18 functions (Art 243W) the ward actually performs vs. what the State Municipal Act assigns, filing RTIs for gaps. A poor answer lists generic \"RTI filing\" without linking each tool to a specific Article/Schedule provision.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The 74th Constitutional Amendment Act (1992) granted constitutional status to Urban Local Bodies (ULBs) — Municipal ______, Municipal Councils, and Nagar Panchayats — establishing a three-tier structure for urban self-governance with mandatory five-year elections, reservation of seats for SCs, STs, and women (not less than one-third), and devolution of powers, functions, and finances through State Finance Commissions and State Election Commissions.",
+     "a": "Corporations",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you live in a rapidly growing city like Bengaluru or Pune where garbage isn't collected for days, streetlights don't work, and water ______ is erratic.",
+     "a": "supply",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: The ______th Amendment was supposed to fix this by giving cities constitutional power.",
+     "a": "74",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to: (1) distinguish between the three types of urban local bodies and their population criteria, (2) explain how the 74th Amendment differs from the 73rd Amendment in structure and urban context, and (3) analyse why devolution of funds, functions, and functionaries remains incomplete in most Indian cities despite.",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you live in a rapidly growing city like Bengaluru or Pune where garbage isn't collected for days, ______ don't work, and water supply is erratic.",
+     "a": "streetlights",
+     "self_check": true
+    }
+   ]
+  }
+ ]
+}

@@ -34,6 +34,31 @@
      "q": "Create a new adjustment scenario (not from the textbook) involving a business that receives ₹50,000 on March 1, 2024 for a 10-month service contract starting March 1. The year ends March 31, 2024. Identify the adjustment item, the two accounts affected, and the amounts in Profit & Loss and Balance Sheet.",
      "a": "**Item:** Income Received in Advance (Unearned Income).  \n**Service period:** Mar–Dec 2024 (10 months). **Current year:** 1 month (March).  \n**Adjustment:** Commission Received A/c Dr. ₹45,000 → Commission Received in Advance A/c ₹45,000.  \n**P&L:** Commission Received ₹5,000 (1/10 × ₹50,000).  \n**Balance Sheet:** Commission Received in Advance ₹45,000 (Current Liability).  \nA poor answer calculates 12 months instead of 10, or puts the advance on the asset side — showing they don't apply the \"period belonging\" logic to new contexts.",
      "self_check": true
+    },
+    {
+     "q": "Fill in the blank: ______ in financial statements are necessary accounting entries made at the end of an accounting period to ensure that revenues are recognised when earned (not when received) and expenses are recognised when incurred (not when paid), in accordance with the accrual basis of accounting, so that the final accounts reflect a true and fair view of profit/loss and financial position.",
+     "a": "Adjustments",
+     "self_check": true
+    },
+    {
+     "q": "Fill in the blank: Imagine you paid ₹12,000 for a 12-month ______ policy on July 1, 2023, but your financial year ends March 31, 2024.",
+     "a": "insurance",
+     "self_check": true
+    },
+    {
+     "q": "What is Adjustments in financial statements? State the definition given in this lesson.",
+     "a": "Adjustments in financial statements are necessary accounting entries made at the end of an accounting period to ensure that revenues are recognised when earned (not when received) and expenses are recognised when incurred (not when paid), in accordance with the accrual basis of accounting, so that the final accounts reflect a true and.",
+     "self_check": true
+    },
+    {
+     "q": "What common mix-up does this lesson flag about Adjustments in financial statements?",
+     "a": "Students treat adjustments as \"extra entries to fix mistakes\" rather than *necessary consequences of the accrual basis*.",
+     "self_check": true
+    },
+    {
+     "q": "What must you be able to do to master this topic?",
+     "a": "The student must be able to explain why adjustments are needed by linking the accrual concept to specific examples (e.g., insurance paid in advance, salaries outstanding), and identify which accounts are affected and whether they appear in the Trading/Profit & Loss Account or Balance Sheet.",
+     "self_check": true
     }
    ]
   }
